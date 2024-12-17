@@ -25,7 +25,7 @@ url                      : "https://docs.pokeamice.com"
 baseurl                  : #""
 repository               : "asimov2144/pokeamice"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/avator/rental_logo.png"  # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -114,8 +114,8 @@ analytics:
 author:
   name             : "Asimov2144"
   avatar           : "/assets/avator/rental_logo.png" 
-  bio              : "**pika pika**"
-  location         : "Somewhere"
+  bio              : "**目标是成为一个为社群提供有效信息的文档页面**"
+  location         : "中国 上海 \nShanghai, China"
   email            : "asimov2144@gmail.com"
   links:
     - label: "Email"
