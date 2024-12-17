@@ -113,14 +113,14 @@ analytics:
 # Site Author
 author:
   name             : "Asimov2144"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/avator/zukan.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**pika pika**"
   location         : "Somewhere"
-  email            :
+  email            : "asimov2144@gmail.com"
   links:
-    #- label: "Email"
-    #  icon: "fas fa-fw fa-envelope-square"
-    #  url: "asimov2144@gmail.com"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "asimov2144@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
