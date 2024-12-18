@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
+  - title: "Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "About"
+    url: https://pokeamice.com/index.php/about/
+  - title: "More at"
+    url: https://pokeamice.com
+  - title: "tags"
+    url: /tags/
+  - title: "Posts"
+    url: /posts/
