@@ -324,4 +324,8 @@ defaults:
       related: true
       show_date: true
       date_format: "%Y-%m-%d"
+      toc: true
+      toc_label: "目录"
+      toc_icon: "sort"
+      toc_sticky: true
 
