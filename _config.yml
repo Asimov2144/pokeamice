@@ -114,8 +114,8 @@ analytics:
 author:
   name             : "Asimov2144"
   avatar           : "/assets/avator/rental_logo.png" 
-  bio              : "**为社群提供有效的信息**"
-  location         : "中国 上海 \nShanghai, China"
+  bio              : "**为社群提供有效信息**"
+  location         : "中国 上海"
   email            : "asimov2144@gmail.com"
   links:
     - label: "Email"
@@ -322,3 +322,6 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      date_format: "%Y-%m-%d"
+
