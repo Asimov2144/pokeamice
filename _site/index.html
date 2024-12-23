@@ -74,7 +74,7 @@
 
 <script type="text/javascript">
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  
+  window.enable_copy_code_button = true;
 </script>
 
 <!-- For all browsers -->
@@ -151,6 +151,11 @@
                 
               >Tags</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -392,10 +397,14 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">2024 宝可梦日 纪念
+    <p class="archive__item-excerpt" itemprop="description">[测试页面] 2024 宝可梦日
 测试页面
+文字
 1 
+本地图片
 
+服务器图片
+\
 </p>
   </article>
 </div>
@@ -462,6 +471,17 @@ From New to Old
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -506,6 +526,10 @@ From New to Old
 
 
 
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
 
 
 
