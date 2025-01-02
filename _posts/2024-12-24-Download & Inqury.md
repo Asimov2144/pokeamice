@@ -81,6 +81,10 @@ https://static.campaignchowsangsang.com/pokemon/151/big/151_[001-151].png （and
 
 其中1分钟，60秒对应了时间戳中的60000000.
 
+链接鸣谢：
 
+1.https://zhuanlan.zhihu.com/p/388007229\
+2.https://www.epochconverter.com/\
+3.https://special.pokemon.cn/151/
 
 
