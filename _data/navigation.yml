@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "POsts"
-    url: /posts/
+    url: /_posts/
   - title: "KEy docs"
     url: /keys/
   - title: "MOre at"
