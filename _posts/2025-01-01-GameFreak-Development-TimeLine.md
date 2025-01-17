@@ -129,7 +129,7 @@ Game Freak迁入新办公室\
 增田开始负责ILCA制作晶灿珍珠&明亮钻石的对接工作，并担任共同总监，目标2021年末，至此Game Freak跳出了年货的框架。\
 [BDSP开发时间确认](https://weibo.com/6306512172/LFKzy1RhE){:target="_blank"}
 ### 2020年5月29日
-宝可梦朱紫开始在git上立项，并于6月18日正式开始开发。\
+宝可梦朱紫在本地git上立项，并于6月18日正式开始开发。\
 [Git Commit Record](https://preview.redd.it/reupload-according-to-git-logs-pokemon-scarlet-and-violet-v0-moe4zqiub8de1.jpeg){:target="_blank"}
 
 Source: https://www.reddit.com/r/PokeLeaks/comments/1i28xu7/reupload_according_to_git_logs_pokemon_scarlet/
