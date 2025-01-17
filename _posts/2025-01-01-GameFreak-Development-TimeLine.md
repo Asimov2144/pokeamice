@@ -128,6 +128,11 @@ Game Freak迁入新办公室\
 [The Isle of Armor 52poke](https://wiki.52poke.com/zh-hans/%E9%8E%A7%E4%B9%8B%E5%AD%A4%E5%B3%B6){:target="_blank"}\
 增田开始负责ILCA制作晶灿珍珠&明亮钻石的对接工作，并担任共同总监，目标2021年末，至此Game Freak跳出了年货的框架。\
 [BDSP开发时间确认](https://weibo.com/6306512172/LFKzy1RhE){:target="_blank"}
+### 2020年5月29日
+宝可梦朱紫开始在git上立项，次月18日正式开始开发。\
+[Git Commit Record](https://preview.redd.it/reupload-according-to-git-logs-pokemon-scarlet-and-violet-v0-moe4zqiub8de1.jpeg){:target="_blank"}
+
+Source: https://www.reddit.com/r/PokeLeaks/comments/1i28xu7/reupload_according_to_git_logs_pokemon_scarlet/
 ### 2020年8月底
 冠之雪原开发完成并于10月23日配信\
 [The Crown Tundra 52poke](https://wiki.52poke.com/zh-hans/%E5%86%A0%E4%B9%8B%E9%9B%AA%E5%8E%9F){:target="_blank"}
