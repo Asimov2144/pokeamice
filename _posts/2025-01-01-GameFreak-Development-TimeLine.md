@@ -60,6 +60,8 @@ James Turnner负责的Gear Project项目TEMBO THE BADASS ELEPHANT PS4 WIN XBOX �
 『宝可梦 日月』基本完成 大森开始了『宝可梦 剑盾』的企划 并再度担任总监 之后也加入如James Turnner的英国员工协力策划\
 [James Turner Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/James_Turner){:target="_blank"}
 > 2016年秋、『ポケットモンスター サン・ムーン』の開発終了直後から大森を中心とする数名で『ポケットモンスター』シリーズ最新作の構想を練り始めていた。
+
+
 ### 2016年 日月发售前
 岩尾和昌担任究极日月总监 开始为期一年的开发
 ### 2016年11月18日
@@ -90,6 +92,8 @@ Let's GO!皮卡丘&伊布提上日程 由先辈牵头Niantic开发 任天堂负�
 究极日月开发完成 岩尾团队合流到大森团队中 剑盾的正式开发开始\
 [Game Freak Webpage](https://www.gamefreak.co.jp/recruit/projectstory-pokemon/){:target="_blank"}
 > 『ポケモン ウルトラサン・ウルトラムーン』でディレクターを務めた岩尾がプロジェクトに合流し、2017年9月、プロジェクトは本格始動した。
+
+
 ### 2017年11月17日
 究极日月发售\
 [增田 大森 岩尾 三人发售对谈(最后的发售对谈活动)](https://weibo.com/2260187313/Ggk787IZ0){:target="_blank"}
@@ -130,9 +134,9 @@ Game Freak迁入新办公室\
 [BDSP开发时间确认](https://weibo.com/6306512172/LFKzy1RhE){:target="_blank"}
 ### 2020年5月29日
 宝可梦朱紫在本地git上立项，并于6月18日正式开始开发。\
-[Git Commit Record](https://pokeamice.com/CV/git_logs.webp){:target="_blank"}
-
-Source: https://www.reddit.com/r/PokeLeaks/comments/1i28xu7/reupload_according_to_git_logs_pokemon_scarlet/
+![Git Commit Record](https://pokeamice.com/CV/git_logs.webp){: .align-center}
+\
+[Source](https://www.reddit.com/r/PokeLeaks/comments/1i28xu7/reupload_according_to_git_logs_pokemon_scarlet/){:target="_blank"}
 ### 2020年8月底
 冠之雪原开发完成并于10月23日配信\
 [The Crown Tundra 52poke](https://wiki.52poke.com/zh-hans/%E5%86%A0%E4%B9%8B%E9%9B%AA%E5%8E%9F){:target="_blank"}
