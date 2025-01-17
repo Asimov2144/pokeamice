@@ -130,7 +130,7 @@ Game Freak迁入新办公室\
 [BDSP开发时间确认](https://weibo.com/6306512172/LFKzy1RhE){:target="_blank"}
 ### 2020年5月29日
 宝可梦朱紫在本地git上立项，并于6月18日正式开始开发。\
-[Git Commit Record](https://preview.redd.it/reupload-according-to-git-logs-pokemon-scarlet-and-violet-v0-moe4zqiub8de1.jpeg){:target="_blank"}
+[Git Commit Record](https://pokeamice.com/CV/git_logs.webp){:target="_blank"}
 
 Source: https://www.reddit.com/r/PokeLeaks/comments/1i28xu7/reupload_according_to_git_logs_pokemon_scarlet/
 ### 2020年8月底
