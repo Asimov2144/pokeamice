@@ -5,13 +5,14 @@
 ### 站点已开源
 https://github.com/Asimov2144/pokeamice
 ## 优化
-采用主站[Pokeamice.com](https://pokeamice.com)的背景图随机方案，从已经逝去的宝衬衫项目的壁纸图库中随机。/
+采用主站[Pokeamice.com](https://pokeamice.com)的背景图随机方案，从已经逝去的宝衬衫项目的壁纸图库中随机。
     api : https://pokeamice.com/bot/randomback.php/
 
 ## 景观
 ### 添加icon 站点图表
 鸣谢\
-https://peateasea.de/add-favicon-to-mm-jekyll-site/ \
+https://peateasea.de/add-favicon-to-mm-jekyll-site/ 
+
 https://realfavicongenerator.net/
 ## 工具
 
