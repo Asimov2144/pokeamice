@@ -1,7 +1,7 @@
 /* ==========================================================================
    SINGLE PAGE/POST
    ========================================================================== */
-
+   
 #main {
   @include clearfix;
   margin-left: auto;
@@ -13,7 +13,7 @@
   max-width: 100%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-
+  
   @include breakpoint($x-large) {
     max-width: $max-width;
   }

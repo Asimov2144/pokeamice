@@ -5,6 +5,8 @@
 ### 站点已开源
 https://github.com/Asimov2144/pokeamice
 ## 优化
+采用主站[Pokeamice.com](https://pokeamice.com)的背景图随机方案，从已经逝去的宝衬衫项目的壁纸图库中随机。/
+    api : https://pokeamice.com/bot/randomback.php/
 
 ## 景观
 ### 添加icon 站点图表
@@ -12,6 +14,10 @@ https://github.com/Asimov2144/pokeamice
 https://peateasea.de/add-favicon-to-mm-jekyll-site/ \
 https://realfavicongenerator.net/
 ## 工具
+
 ### 图床
 [腾讯云COS对象存储+PicGo搭建图床教程](https://cloud.tencent.com/developer/article/1834573){:target="_blank"}
+
+### VsCode & git
+
 ## 插件

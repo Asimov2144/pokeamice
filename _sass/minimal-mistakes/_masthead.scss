@@ -2,20 +2,26 @@
    MASTHEAD
    ========================================================================== */
 
+body {
+    
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255,255, 0.95)),url("https://pokeamice.com//bot//randomback.php?return=img");
+  }
 .masthead {
   position: relative;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1.5px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background: none;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+    
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,6 +30,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-family: $sans-serif-narrow;
+    
 
     @include breakpoint($x-large) {
       max-width: $max-width;
@@ -35,12 +42,13 @@
 
     a {
       text-decoration: none;
-    }
+      }
   }
 }
 
 .site-logo img {
   max-height: 2rem;
+  
 }
 
 .site-title {
@@ -64,7 +72,7 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-
+  
   .site-nav {
     margin-left: 0;
 
@@ -85,7 +93,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+  
   &--lg {
     padding-right: 2em;
     font-weight: 700;
