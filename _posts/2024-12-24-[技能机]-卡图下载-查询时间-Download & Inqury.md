@@ -2,7 +2,7 @@
 **宝活小妙招**\
 ![alt text](https://pokeamice.com/wp-content/uploads/2022/10/anime15.gif){: .align-center}
 
-## 下载卡图
+## 下载卡图！
 
 得先推测出链接的格式，比如 <a href="https://special.pokemon.cn/" title = "151">https://special.pokemon.cn/</a> 上有一些151卡图的链接
 点开卡图后可以发现对应的静态链接

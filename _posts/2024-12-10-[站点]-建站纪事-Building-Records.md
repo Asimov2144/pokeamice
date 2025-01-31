@@ -9,7 +9,7 @@ https://github.com/Asimov2144/pokeamice
     api : https://pokeamice.com/bot/randomback.php/
 
 ## 景观
-### 添加icon 站点图表
+### 添加icon 站点图标
 鸣谢\
 https://peateasea.de/add-favicon-to-mm-jekyll-site/ 
 
