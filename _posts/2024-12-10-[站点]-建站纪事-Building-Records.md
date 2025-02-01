@@ -1,3 +1,10 @@
+---
+title: "[站点]-建站纪事-Building-Records"
+date: 2024-12-10
+categories: [Sites,docs]
+tags: [日志,PokeAmice,Updating,更新中,开源,OpenSource]
+---
+
 # 建站纪事&鸣谢
 前人栽树，后人乘凉。\
 立碑刻道，按图索骥。
@@ -15,10 +22,19 @@ https://peateasea.de/add-favicon-to-mm-jekyll-site/
 
 https://realfavicongenerator.net/
 ## 工具
+[代码协力——DeepSeek](https://www.deepseek.com/)
 
 ### 图床
 [腾讯云COS对象存储+PicGo搭建图床教程](https://cloud.tencent.com/developer/article/1834573){:target="_blank"}
 
 ### VsCode & git
+[Vscode](code.visualstudio.com)
+
 
 ## 插件
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives

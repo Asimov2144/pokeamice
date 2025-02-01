@@ -1,3 +1,10 @@
+---
+title: "[技能机] 卡图下载 查询时间 Download & Time Inqury"
+date: 2024-12-24
+categories: [Tech,PTCG]
+tags: [简中PTCG,宝活小妙招,Chrome 插件]
+---
+
 # 批量下载卡图&查询服务器存档时间
 **宝活小妙招**\
 ![alt text](https://pokeamice.com/wp-content/uploads/2022/10/anime15.gif){: .align-center}
