@@ -112,10 +112,16 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  bigdecimal (~> 3.1.9)
   bundler
-  jekyll-archives (= 2.3.0)
+  eventmachine (~> 1.2.7)
+  jekyll-archives (~> 2.3.0)
+  json (~> 2.9.1)
   minimal-mistakes-jekyll!
   rake (>= 12.3.3)
+
+RUBY VERSION
+   ruby 3.3.6p108
 
 BUNDLED WITH
    2.6.3
