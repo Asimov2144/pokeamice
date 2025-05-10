@@ -1,12 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
-gem "jemoji"
-gem "jekyll-archives"
 # 指定 Ruby 版本
 # ruby "~> 3.3.6"  # 建议使用兼容性更好的 3.0.x
 
