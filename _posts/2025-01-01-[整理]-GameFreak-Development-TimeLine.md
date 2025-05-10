@@ -1,3 +1,10 @@
+---
+title: "[整理] 近年 Game Freak 开发事件年表"
+date: 2025-1-1
+categories: [Weibo,Game Freak,整理]
+tags: [开发,年表,第四世代,第五世代,第六世代,第七世代,第八世代,第九世代]
+---
+
 # 近年 Game Freak 开发事件年表
 ## 第四时代末尾
 ### 2008年初

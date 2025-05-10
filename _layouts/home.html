@@ -1,22 +1,216 @@
 ---
 layout: archive
+sidebar:
+  nav: "docs"
+
 ---
 
 {{ content }}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+<!-- 修改 home.html 的布局结构 -->
+<div class="home-wrapper">
+  <!-- 主内容区保持不变 -->
+  <main class="home-main">
+    <div class="main-content">
+    <aside class="sidebar__right sticky">
+      <section class="sidebar-module sticky">
+      <h4 class="module-title">文章分类</h4>
+      <ul class="categories-list">
+  {% for category in site.categories %}
+    <!-- [保持你的 liquid 代码不变] -->
+    <li class="category-item" data-count="{{ category[1].size }}">
+      <a href="{{ '/categories/' | relative_url }}{{ category[0] | slugize }}" class="category-link">
+        <span class="category-name">{{ category[0] }}</span>
+        <span class="category-count">({{ category[1].size }})</span>
+      </a>
+    </li>
   {% endfor %}
+</ul>
+    <!-- 公告区域 -->
+    <section class="widget notice">
+      <h4>站点公告</h4>
+      {% if site.notices %}
+        <div class="notice-content">
+          {{ site.notices | markdownify }}
+        </div>
+      {% else %}
+        <p>正在加速建设中！</p>
+      {% endif %}
+    </section>
+          </aside>  
+          
+    <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }}</h3>
+
+    {% if paginator %}
+      {% assign posts = paginator.posts %}
+    {% else %}
+      {% assign posts = site.posts %}
+    {% endif %}
+
+    {% assign entries_layout = page.entries_layout | default: 'list' %}
+    <div class="entries-{{ entries_layout }}">
+      {% for post in posts %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+
+    {% include paginator.html %}
+  </div>
+    <!-- 原有内容保持不变 -->
+  </main>
+
 </div>
 
-{% include paginator.html %}
+
+
+
+
+
+<style>
+/* 关键布局优化 */
+.home-wrapper {
+  display: flex;
+  gap: 0px;
+  position: relative;
+  max-width: 1280px; /* 控制整体宽度 */
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.home-main {
+  
+  min-width: 0; /* 防止内容溢出 */
+}
+.module-title{
+  border-radius: 9px;
+  font: 0.8em sans-serif;
+  font-weight: 600;
+  color:rgb(255, 255, 255);
+  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
+  display: inline-block;    /* 宽度由内容决定 */
+  background: rgba(51, 200, 106, 0.867); /* 半透明背景（示例使用50%黑）*/
+  padding: 2px 4px;       /* 根据文字增加呼吸空间 */
+  max-width: 80%;           /* 防止过长内容撑满屏幕 */
+  text-align: center;       /* 多行文字居中 */
+  line-height: 1.5;         /* 行高优化阅读体验 */
+}
+.categories-list {
+  /* 横向弹性容器 */
+  display: flex;
+  flex-wrap: wrap; /* 允许换行 */
+  gap: 8px; /* 标签间距 */
+  padding: 0;
+  margin: 0;
+  list-style : none;
+}
+
+.category-item {
+  /* 动态字体大小核心 */
+  color: rgb(98, 98, 98);
+  /* 标签样式 */
+  background: rgba(234, 183, 209, 0.995);
+  border-radius: 6px;
+  padding: 0px 6px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+.category-link {
+  
+  text-decoration: none;
+  display: flex;
+  gap: 2px;
+}
+.category-name, .category-count {
+  font-size: var(--dynamic-size); /* 使用CSS变量控制大小 */
+  font-weight: 800;
+  color: rgb(249, 247, 247);
+}
+.category-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 3px 8px rgba(163, 98, 98, 0.1);
+}
+/* 响应式优化 */
+@media (max-width: 1024px) {
+  .home-wrapper {
+    flex-direction: column;
+  }
+  
+  .module-title {
+    position: static;
+    padding: 5px 5px;
+    max-width: 90%;
+    order: -1; /* 移动端侧边栏在上方 */
+    margin-bottom: 40px;
+  }
+}
+
+.widget {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+
+
+.notice-content {
+  font-size: 1.95em;
+  line-height: 1.6;
+}
+.post-categories{
+  color:rgb(246, 246, 93);
+  padding: 3px 5px;
+  font-size: 0.77em;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
+  display: inline-block;    /* 宽度由内容决定 */
+  background: rgba(51, 101, 200, 0.411); /* 半透明背景（示例使用50%黑）*/
+}
+.post-tags{
+  color:rgb(162, 68, 200);
+  padding: 1px 6px;
+  font-size: 0.7em;
+  font-weight: 600;
+  border-radius: 8px;
+  
+  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
+  display: inline-block;    /* 宽度由内容决定 */
+  background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // 获取所有分类项
+  const items = document.querySelectorAll('.category-item');
+  
+  // 提取所有分类的文章数量
+  const counts = Array.from(items).map(item => {
+    return parseInt(item.dataset.count) || 1; // 确保有默认值
+  });
+
+  // 计算最大值和最小值
+  const maxCount = Math.max(...counts);
+  const minCount = Math.min(...counts);
+
+  // 动态计算字体大小
+  items.forEach(item => {
+    const currentCount = parseInt(item.dataset.count);
+    
+    // 动态计算逻辑（可调节参数）
+    const scale = 0.6; // 缩放系数
+    const baseSize = 18; // 基础字号（px）
+    const minSize = 12;  // 最小字号（px）
+    
+    // 线性插值公式
+    const fontSize = baseSize * (scale + 
+      (currentCount - minCount) / (maxCount - minCount) * (1 - scale));
+
+    // 应用动态字号（限制最小字号）
+    item.style.setProperty('--dynamic-size', 
+      `${Math.max(fontSize, minSize)}px`);
+  });
+});
+</script>

@@ -17,6 +17,15 @@
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+      {% if post.link %}
+        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+    
     {% if post.categories.size > 0 %}
       <div class="post-categories">
       {% for category in post.categories %}
@@ -41,14 +50,31 @@
       {% endfor %}
     </div>
 {% endif %}
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
+
+<style>
+.post-categories{
+  color:rgb(0, 0, 0);
+  padding: 3px 5px;
+  font-size: 0.77em;
+  font-weight: 600;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
+  display: inline-block;    /* 宽度由内容决定 */
+  background: rgba(51, 101, 200, 0.411); /* 半透明背景（示例使用50%黑）*/
+}
+.post-tags{
+  color:rgb(0, 0, 0);
+  padding: 1px 6px;
+  font-size: 0.7em;
+  font-weight: 600;
+  border-radius: 8px;
+  
+  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
+  display: inline-block;    /* 宽度由内容决定 */
+  background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
+}
+</style>

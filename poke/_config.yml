@@ -31,6 +31,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
 
+notices: |
+  ### 重要通知
+  - 网站新版测试中
+  - 评论功能暂时关闭
+  - 欢迎提交改进建议到邮箱
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

@@ -1,7 +1,7 @@
 ---
 title: "[站点]-建站纪事-Building-Records"
 date: 2024-12-10
-categories: [Sites,docs]
+categories: [Sites,文档,宝可梦友会]
 tags: [日志,PokeAmice,Updating,更新中,开源,OpenSource]
 ---
 

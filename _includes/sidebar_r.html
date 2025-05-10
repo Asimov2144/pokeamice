@@ -1,0 +1,36 @@
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar right">
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  <section class="sidebar-module">
+      <h4 class="module-title">文章分类</h4>
+      <ul class="categories-list">
+        {% for category in site.categories %}
+           {% capture category_name %}{{ category | first }}{% endcapture %}
+          <li>
+             <a href="{{ '/categories/' | relative_url }}{{ category[0] | slugize }}"
+               class="category-link">
+              <span class="category-name">{{ category[0] }}</span>
+              <span class="category-count">({{ category[1].size }})</span>
+            </a>
+          </li>
+        {% endfor %}
+        
+      </ul>
+    </section>
+
+  </div>
+  
+{% endif %}

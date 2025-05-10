@@ -116,26 +116,30 @@ author:
   avatar           : "/assets/avator/rental_logo.png" 
   bio              : "**为社群提供有效信息**"
   location         : "中国 上海"
-  email            : "asimov2144@gmail.com"
+  
+  website          : "https://pokeamice.com"
+  Twitter          : "https://x.com/asimov74320758"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "asimov2144@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "asimov2144@gmail.com"
+    
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      #url: "https://x.com/asimov74320758"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://x.com/asimov74320758"
+    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/Asimov2144"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://pokeamice.com"
+    - label: "Weibo"
+      icon: "fab fa-brands fa-weibo"
+      url: "https://weibo.com/u/6306512172"
+    - label: "BiliBili"
+      icon: "fab fa-brands fa-bilibili"
+      url: "https://space.bilibili.com/13876658?spm_id_from=333.1007.0.0"
 
 # Site Footer
 footer:

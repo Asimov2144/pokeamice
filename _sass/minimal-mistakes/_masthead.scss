@@ -2,10 +2,20 @@
    MASTHEAD
    ========================================================================== */
 
-body {
+.initial-content{
     
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255,255, 0.95)),url("https://pokeamice.com//bot//randomback.php?return=img");
-  }
+     background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.95)),
+    url("https://pokeamice.com//bot//randomback.php?return=img");
+  
+  /* 可调整参数 */
+  background-repeat: round;       /* 重复方式 */
+  background-size: 843px auto;     /* 平铺单元尺寸 */
+  background-position: 0 0;    /* 起始定位点 */
+  background-attachment: local;    /* 滚动模式 */
+  //background-blend-mode: multiply; /* 可选模式：overlay, multiply... */
+  isolation: isolate; /* 创建新的混合上下文 */
+}
 .masthead {
   position: relative;
   border-bottom: 1.5px solid $border-color;
