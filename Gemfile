@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+<<<<<<< HEAD
 gem "jekyll", :platforms => [:ruby, :x64_mingw]
 gem "jekyll-paginate", :platforms => [:ruby, :x64_mingw]
 gem "jekyll-sitemap", :platforms => [:ruby, :x64_mingw]
@@ -7,6 +8,8 @@ gem "jekyll-gist", :platforms => [:ruby, :x64_mingw]
 gem "jekyll-feed", :platforms => [:ruby, :x64_mingw]
 gem "jemoji", :platforms => [:ruby, :x64_mingw]
 gem "jekyll-archives" , :platforms => [:ruby, :x64_mingw]
+=======
+>>>>>>> f369186b65d258a1c8bb94b261d193a805fb6fde
 # 指定 Ruby 版本
 # ruby "~> 3.3.6"  # 建议使用兼容性更好的 3.0.x
 
