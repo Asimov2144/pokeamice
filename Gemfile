@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
-gem "jemoji"
-gem "jekyll-archives"
+gem "jekyll", :platforms => [:ruby, :x64_mingw]
+gem "jekyll-paginate", :platforms => [:ruby, :x64_mingw]
+gem "jekyll-sitemap", :platforms => [:ruby, :x64_mingw]
+gem "jekyll-gist", :platforms => [:ruby, :x64_mingw]
+gem "jekyll-feed", :platforms => [:ruby, :x64_mingw]
+gem "jemoji", :platforms => [:ruby, :x64_mingw]
+gem "jekyll-archives" , :platforms => [:ruby, :x64_mingw]
 # 指定 Ruby 版本
 # ruby "~> 3.3.6"  # 建议使用兼容性更好的 3.0.x
 
