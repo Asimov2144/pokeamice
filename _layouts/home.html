@@ -43,22 +43,24 @@ sidebar:
     </section>
           </aside>  
           
-    <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }}</h3>
+    <div id="collapsible-recent-posts">
+      <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }} <button id="toggle-recent-posts" style="font-size: 0.6em; vertical-align: middle;">[Hide]</button></h3>
 
-    {% if paginator %}
-      {% assign posts = paginator.posts %}
-    {% else %}
-      {% assign posts = site.posts %}
-    {% endif %}
+      {% if paginator %}
+        {% assign posts = paginator.posts %}
+      {% else %}
+        {% assign posts = site.posts %}
+      {% endif %}
 
-    {% assign entries_layout = page.entries_layout | default: 'list' %}
-    <div class="entries-{{ entries_layout }}">
-      {% for post in posts %}
-        {% include archive-single.html type=entries_layout %}
-      {% endfor %}
+      {% assign entries_layout = page.entries_layout | default: 'list' %}
+      <div class="entries-{{ entries_layout }}">
+        {% for post in posts %}
+          {% include archive-single.html type=entries_layout %}
+        {% endfor %}
+      </div>
+
+      {% include paginator.html %}
     </div>
-
-    {% include paginator.html %}
   </div>
   <div id="documents" class="tab-content">{% include tabs/documents.html %}</div>
   <div id="interview-translations" class="tab-content">{% include tabs/interview_translations.html %}</div>
@@ -112,6 +114,14 @@ ul.tabs-nav li a.active {
 
 .tab-content.active {
   display: block;
+}
+
+/* Collapsible Recent Posts */
+#collapsible-recent-posts.collapsed .entries-{{ entries_layout }} {
+  display: none;
+}
+#collapsible-recent-posts.collapsed .paginator { /* Also hide paginator */
+  display: none;
 }
 
 .home-wrapper {
@@ -310,6 +320,27 @@ document.addEventListener('DOMContentLoaded', () => {
   // Ensure the function is called only if there's a valid initialTabId
   if (document.querySelector(initialTabId)) {
     showTab(initialTabId);
+  }
+
+  // Collapsible Recent Posts
+  const toggleRecentPostsButton = document.getElementById('toggle-recent-posts');
+  const collapsibleRecentPostsDiv = document.getElementById('collapsible-recent-posts');
+  const recentPostsEntries = collapsibleRecentPostsDiv.querySelector('.entries-{{ entries_layout }}'); // More specific
+  const recentPostsPaginator = collapsibleRecentPostsDiv.querySelector('.paginator'); // More specific for paginator
+
+  if (toggleRecentPostsButton && collapsibleRecentPostsDiv && recentPostsEntries && recentPostsPaginator) {
+    // Default state: expanded, so button shows [Hide]
+    // If you want it to be collapsed by default, add 'collapsed' class to collapsibleRecentPostsDiv in HTML
+    // and set button text to '[Show]' initially.
+
+    toggleRecentPostsButton.addEventListener('click', () => {
+      collapsibleRecentPostsDiv.classList.toggle('collapsed');
+      if (collapsibleRecentPostsDiv.classList.contains('collapsed')) {
+        toggleRecentPostsButton.textContent = '[Show]';
+      } else {
+        toggleRecentPostsButton.textContent = '[Hide]';
+      }
+    });
   }
 });
 </script>

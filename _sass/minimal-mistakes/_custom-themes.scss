@@ -1,0 +1,32 @@
+// _sass/minimal-mistakes/_custom-themes.scss
+
+body.theme-bg-white {
+  background-color: #ffffff !important;
+  // Optionally, ensure text color is dark if it's not already the default
+  // color: $text-color !important; // $text-color should be dark by default
+}
+
+body.theme-bg-black {
+  background-color: #000000 !important;
+  color: #e0e0e0 !important; // A light gray for readability on black
+
+  // You might need to adjust link colors as well for black theme
+  a {
+    color: #87cefa !important; // LightSkyBlue for links on black bg
+    &:hover {
+      color: #add8e6 !important; // LightBlue for link hover
+    }
+    &:visited {
+      color: #ba55d3 !important; // MediumOrchid for visited links
+    }
+  }
+
+  // Adjust header colors if needed
+  h1, h2, h3, h4, h5, h6 {
+    color: #f5f5f5 !important;
+  }
+
+  // Adjust other elements for contrast as necessary
+  // For example, borders, other specific text elements etc.
+  // .element-class { color: #f0f0f0 !important; border-color: #333 !important; }
+}
