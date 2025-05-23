@@ -186,6 +186,7 @@
 <div id="main" role="main">
   
   <div class="sidebar sticky">
+    
   
 
 
@@ -307,8 +308,9 @@
   </div>
 </div>
 
+    
   
-  
+    
 
   </div>
   
@@ -324,6 +326,11 @@
 <div class="home-wrapper">
   <!-- 主内容区保持不变 -->
   <main class="home-main">
+    <ul class="tabs-nav">
+      <li><a href="#documents">文档</a></li>
+      <li><a href="#interview-translations">访谈翻译</a></li>
+      <li><a href="#weibo-archive">微博存档</a></li>
+    </ul>
     <div class="main-content">
     <aside class="sidebar__right sticky">
       <section class="sidebar-module sticky">
@@ -451,9 +458,15 @@
       
     </section>
           </aside>  
-          
+    <div id="documents" class="tab-content"><h2>文档内容将显示在这里</h2>
+</div>
+    <div id="interview-translations" class="tab-content"><h2>访谈翻译内容将显示在这里</h2>
+</div>
+    <div id="weibo-archive" class="tab-content"><h2>微博存档内容将显示在这里</h2>
+</div>      
     <h3 class="archive__subtitle">Recent posts</h3>
-
+    
+    <!-- 原有内容保持不变 -->
     
 
     
@@ -1244,7 +1257,7 @@ https://github.com/Asimov2144/pokeamice
 
 
   </div>
-    <!-- 原有内容保持不变 -->
+  
   </main>
 
 </div>
@@ -1256,6 +1269,45 @@ https://github.com/Asimov2144/pokeamice
 
 <style>
 /* 关键布局优化 */
+
+/* Tab Navigation */
+ul.tabs-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  border-bottom: 1px solid #ddd;
+}
+
+ul.tabs-nav li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid transparent;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+ul.tabs-nav li a.active {
+  background-color: #fff;
+  border-color: #ddd #ddd transparent #ddd;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Tab Content */
+.tab-content {
+  display: none;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
 .home-wrapper {
   display: flex;
   gap: 0px;
@@ -1401,6 +1453,58 @@ document.addEventListener('DOMContentLoaded', () => {
     item.style.setProperty('--dynamic-size', 
       `${Math.max(fontSize, minSize)}px`);
   });
+
+  // Tabbed Navigation
+  const tabLinks = document.querySelectorAll('.tabs-nav a');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  function showTab(tabId) {
+    // Hide all tab contents and remove 'active' class from links
+    tabContents.forEach(content => {
+      content.classList.remove('active');
+    });
+    tabLinks.forEach(link => {
+      link.classList.remove('active');
+    });
+
+    // Show the target tab content
+    const targetContent = document.querySelector(tabId);
+    if (targetContent) {
+      targetContent.classList.add('active');
+    }
+    
+    // Activate the clicked tab link
+    const activeLink = document.querySelector(`.tabs-nav a[href="${tabId}"]`);
+    if (activeLink) {
+      activeLink.classList.add('active');
+    }
+  }
+
+  // Add event listeners to tab links
+  tabLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      const tabId = this.getAttribute('href');
+      showTab(tabId);
+    });
+  });
+
+  // Show the first tab by default or based on URL hash
+  let initialTabId = window.location.hash;
+  const validTabIds = Array.from(tabLinks).map(link => link.getAttribute('href'));
+
+  if (!initialTabId || !validTabIds.includes(initialTabId)) {
+    // Default to the first tab link's href if no valid hash or no hash at all
+    if (tabLinks.length > 0) {
+      initialTabId = tabLinks[0].getAttribute('href');
+    } else {
+      initialTabId = '#documents'; // Fallback if no tabs are defined
+    }
+  }
+  // Ensure the function is called only if there's a valid initialTabId
+  if (document.querySelector(initialTabId)) {
+    showTab(initialTabId);
+  }
 });
 </script>
   </div>

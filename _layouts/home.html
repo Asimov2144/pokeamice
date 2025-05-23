@@ -42,9 +42,12 @@ sidebar:
       {% endif %}
     </section>
           </aside>  
-          
+    <div id="documents" class="tab-content">{% include tabs/documents.html %}</div>
+    <div id="interview-translations" class="tab-content">{% include tabs/interview_translations.html %}</div>
+    <div id="weibo-archive" class="tab-content">{% include tabs/weibo_archive.html %}</div>      
     <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }}</h3>
-
+    
+    <!-- 原有内容保持不变 -->
     {% if paginator %}
       {% assign posts = paginator.posts %}
     {% else %}
@@ -60,10 +63,7 @@ sidebar:
 
     {% include paginator.html %}
   </div>
-  <div id="documents" class="tab-content">{% include tabs/documents.html %}</div>
-  <div id="interview-translations" class="tab-content">{% include tabs/interview_translations.html %}</div>
-  <div id="weibo-archive" class="tab-content">{% include tabs/weibo_archive.html %}</div>
-    <!-- 原有内容保持不变 -->
+  
   </main>
 
 </div>
