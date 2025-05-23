@@ -1,3 +1,9 @@
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="{{ './assets/js/plugins/jquery.fitvids.js' | relative_url }}"></script>
+<script src="{{ './assets/js/plugins/smooth-scroll.js' | relative_url }}"></script>
+<script src="{{ './assets/js/plugins/jquery.magnific-popup.js' | relative_url }}"></script>
+
+
 {% if site.footer_scripts %}
   {% for script in site.footer_scripts %}
     <script src="{{ script | relative_url }}"></script>

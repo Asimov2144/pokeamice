@@ -1,32 +1,45 @@
 // _sass/minimal-mistakes/_custom-themes.scss
 
+.initial-content {
+  // Default state for .initial-content, mirroring _masthead.scss but with !important
+  // to ensure it applies when no theme class on body makes the below rules active.
+  background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.95)),
+                    url("https://pokeamice.com//bot//randomback.php?return=img") !important;
+  background-repeat: round !important; // Match from _masthead.scss
+  background-size: 843px auto !important; // Match from _masthead.scss
+  background-position: 0 0 !important; // Match from _masthead.scss
+  background-attachment: local !important; // Match from _masthead.scss
+  // Ensure background-color does not interfere with the image for the default theme.
+  // The gradient in background-image provides the visual background color.
+  background-color: transparent !important; 
+}
+
 body.theme-bg-white {
-  background-color: #ffffff !important;
-  // Optionally, ensure text color is dark if it's not already the default
-  // color: $text-color !important; // $text-color should be dark by default
+  background-color: #EEEEEE !important; // Body background for white theme
+
+  .initial-content {
+    background-image: none !important; // Override for white theme
+    background-color: #ffffff !important;
+  }
 }
 
 body.theme-bg-black {
-  background-color: #000000 !important;
-  color: #e0e0e0 !important; // A light gray for readability on black
+  background-color: #EEEEEE !important; // Body background for black theme
+  color: #eddbdb !important; // Default text color on body for black theme
 
-  // You might need to adjust link colors as well for black theme
-  a {
-    color: #87cefa !important; // LightSkyBlue for links on black bg
-    &:hover {
-      color: #add8e6 !important; // LightBlue for link hover
-    }
-    &:visited {
-      color: #ba55d3 !important; // MediumOrchid for visited links
-    }
+  .initial-content {
+    background-image: none !important; // Override for black theme
+    background-color: #242424 !important;
+    color: #e0e0e0 !important;
   }
 
-  // Adjust header colors if needed
+  // Links and heading colors for black theme
+  a {
+    color: #87cefa !important;
+    &:hover { color: #add8e6 !important; }
+    &:visited { color: #ba55d3 !important; }
+  }
   h1, h2, h3, h4, h5, h6 {
     color: #f5f5f5 !important;
   }
-
-  // Adjust other elements for contrast as necessary
-  // For example, borders, other specific text elements etc.
-  // .element-class { color: #f0f0f0 !important; border-color: #333 !important; }
 }

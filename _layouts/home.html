@@ -42,7 +42,9 @@ sidebar:
       {% endif %}
     </section>
           </aside>  
-          
+    <div id="documents" class="tab-content">{% include tabs/documents.html %}</div>
+   <div id="interview-translations" class="tab-content">{% include tabs/interview_translations.html %}</div>
+   <div id="weibo-archive" class="tab-content">{% include tabs/weibo_archive.html %}</div>      
     <div id="collapsible-recent-posts">
       <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }} <button id="toggle-recent-posts" style="font-size: 0.6em; vertical-align: middle;">[Hide]</button></h3>
 
@@ -63,6 +65,7 @@ sidebar:
     </div>
   </div>
   
+    <!-- 原有内容保持不变 -->
   </main>
 
 </div>
@@ -322,10 +325,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // Collapsible Recent Posts
   const toggleRecentPostsButton = document.getElementById('toggle-recent-posts');
   const collapsibleRecentPostsDiv = document.getElementById('collapsible-recent-posts');
-  const recentPostsEntries = collapsibleRecentPostsDiv.querySelector('.entries-{{ entries_layout }}'); // More specific
-  const recentPostsPaginator = collapsibleRecentPostsDiv.querySelector('.paginator'); // More specific for paginator
 
-  if (toggleRecentPostsButton && collapsibleRecentPostsDiv && recentPostsEntries && recentPostsPaginator) {
+  // Modified condition to be less strict:
+  if (toggleRecentPostsButton && collapsibleRecentPostsDiv) {
     // Default state: expanded, so button shows [Hide]
     // If you want it to be collapsed by default, add 'collapsed' class to collapsibleRecentPostsDiv in HTML
     // and set button text to '[Show]' initially.

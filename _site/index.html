@@ -310,6 +310,12 @@
 
     
   
+   <div id="theme-switcher-section" style="margin-top: 20px; padding-top: 10px; border-top: 1px solid #eee;">
+    <h3 style="margin-bottom: 10px;">Theme Options</h3>
+    <button id="theme-white" style="margin-right: 5px;">White Theme</button>
+    <button id="theme-black" style="margin-right: 5px;">Black Theme</button>
+    <button id="theme-default">Default Theme</button>
+  </div>
     
 
   </div>
@@ -460,19 +466,19 @@
           </aside>  
     <div id="documents" class="tab-content"><h2>文档内容将显示在这里</h2>
 </div>
-    <div id="interview-translations" class="tab-content"><h2>访谈翻译内容将显示在这里</h2>
+   <div id="interview-translations" class="tab-content"><h2>访谈翻译内容将显示在这里</h2>
 </div>
-    <div id="weibo-archive" class="tab-content"><h2>微博存档内容将显示在这里</h2>
+   <div id="weibo-archive" class="tab-content"><h2>微博存档内容将显示在这里</h2>
 </div>      
-    <h3 class="archive__subtitle">Recent posts</h3>
-    
-    <!-- 原有内容保持不变 -->
-    
+    <div id="collapsible-recent-posts">
+      <h3 class="archive__subtitle">Recent posts <button id="toggle-recent-posts" style="font-size: 0.6em; vertical-align: middle;">[Hide]</button></h3>
 
-    
-    <div class="entries-list">
       
+
+      
+      <div class="entries-list">
         
+          
 
 
 
@@ -639,8 +645,8 @@ D...</p>
   background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
 }
 </style>
-      
         
+          
 
 
 
@@ -767,8 +773,8 @@ D...</p>
   background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
 }
 </style>
-      
         
+          
 
 
 
@@ -886,8 +892,8 @@ D...</p>
   background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
 }
 </style>
-      
         
+          
 
 
 
@@ -1038,8 +1044,8 @@ https://github.com/Asimov2144/pokeamice
   background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
 }
 </style>
-      
         
+          
 
 
 
@@ -1209,10 +1215,10 @@ https://github.com/Asimov2144/pokeamice
   background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
 }
 </style>
-      
-    </div>
+        
+      </div>
 
-    
+      
   
     
 <nav class="pagination">
@@ -1256,8 +1262,10 @@ https://github.com/Asimov2144/pokeamice
   
 
 
+    </div>
   </div>
   
+    <!-- 原有内容保持不变 -->
   </main>
 
 </div>
@@ -1306,6 +1314,14 @@ ul.tabs-nav li a.active {
 
 .tab-content.active {
   display: block;
+}
+
+/* Collapsible Recent Posts */
+#collapsible-recent-posts.collapsed .entries-list {
+  display: none;
+}
+#collapsible-recent-posts.collapsed .paginator { /* Also hide paginator */
+  display: none;
 }
 
 .home-wrapper {
@@ -1505,6 +1521,26 @@ document.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector(initialTabId)) {
     showTab(initialTabId);
   }
+
+  // Collapsible Recent Posts
+  const toggleRecentPostsButton = document.getElementById('toggle-recent-posts');
+  const collapsibleRecentPostsDiv = document.getElementById('collapsible-recent-posts');
+
+  // Modified condition to be less strict:
+  if (toggleRecentPostsButton && collapsibleRecentPostsDiv) {
+    // Default state: expanded, so button shows [Hide]
+    // If you want it to be collapsed by default, add 'collapsed' class to collapsibleRecentPostsDiv in HTML
+    // and set button text to '[Show]' initially.
+
+    toggleRecentPostsButton.addEventListener('click', () => {
+      collapsibleRecentPostsDiv.classList.toggle('collapsed');
+      if (collapsibleRecentPostsDiv.classList.contains('collapsed')) {
+        toggleRecentPostsButton.textContent = '[Show]';
+      } else {
+        toggleRecentPostsButton.textContent = '[Hide]';
+      }
+    });
+  }
 });
 </script>
   </div>
@@ -1564,7 +1600,13 @@ document.addEventListener('DOMContentLoaded', () => {
       </footer>
     </div>
 
-    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="/assets/js/plugins/jquery.fitvids.js"></script>
+<script src="/assets/js/plugins/smooth-scroll.js"></script>
+<script src="/assets/js/plugins/jquery.magnific-popup.js"></script>
+
+
+
   <script src="/assets/js/main.min.js"></script>
 
 

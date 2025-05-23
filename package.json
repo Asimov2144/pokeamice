@@ -21,6 +21,16 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "scripts": {
+    "build": "node build.js",
+    "build:css": "node build-css.js",
+    "build:js": "node build-js.js",
+    "build:all": "npm run build:css && npm run build:js",
+    "watch": "node watch.js",
+    "watch:css": "node watch-css.js",
+    "watch:js": "node watch-js.js",
+    "watch:all": "npm run watch:css && npm run watch:js"
+  },
   "devDependencies": {
     "uglify-js": "^3.17.4"
   }
