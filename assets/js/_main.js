@@ -227,4 +227,52 @@ $(document).ready(function () {
         container.prepend(copyButton);
       });
   }
+
+  // Theme Switcher Logic
+  function applyTheme(themeName) {
+    var body = $("body");
+    body.removeClass("theme-bg-white theme-bg-black"); // Remove any existing theme classes
+
+    if (themeName === "white") {
+      body.addClass("theme-bg-white");
+    } else if (themeName === "black") {
+      body.addClass("theme-bg-black");
+    }
+    // If themeName is 'default', no class is added, effectively reverting to default styles
+
+    localStorage.setItem("selectedTheme", themeName);
+  }
+
+  function loadTheme() {
+    const savedTheme = localStorage.getItem("selectedTheme");
+    if (savedTheme) {
+      applyTheme(savedTheme);
+    }
+  }
+
+  // Event Listeners for theme buttons
+  var $themeWhiteButton = $("#theme-white");
+  var $themeBlackButton = $("#theme-black");
+  var $themeDefaultButton = $("#theme-default");
+
+  if ($themeWhiteButton.length) {
+    $themeWhiteButton.on("click", function () {
+      applyTheme("white");
+    });
+  }
+
+  if ($themeBlackButton.length) {
+    $themeBlackButton.on("click", function () {
+      applyTheme("black");
+    });
+  }
+
+  if ($themeDefaultButton.length) {
+    $themeDefaultButton.on("click", function () {
+      applyTheme("default");
+    });
+  }
+
+  // Load saved theme on page load
+  loadTheme();
 });
