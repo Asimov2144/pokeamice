@@ -1,1 +1,42 @@
-<h2>访谈翻译内容将显示在这里</h2>
+<div class="tab-list">
+  {% assign interview_posts = site.posts | where: "category", "访谈翻译" %}
+  {% for post in interview_posts limit:10 %}
+  <div class="list__item">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+      <p class="page__meta"><i class="far fa-clock"></i> {{ post.date | date: "%Y-%m-%d" }}</p>
+      <div class="interview-meta">
+        {% if post.original_title %}
+        <p><strong>原文标题：</strong> {% if post.original_link %}<a href="{{ post.original_link }}" target="_blank">{{ post.original_title }}</a>{% else %}{{ post.original_title }}{% endif %}</p>
+        {% endif %}
+        {% if post.translator %}
+        <p><strong>译者：</strong> {{ post.translator }}</p>
+        {% endif %}
+        {% if post.interviewee %}
+        <p><strong>访谈人物：</strong> {{ post.interviewee }}</p>
+        {% endif %}
+        {% if post.work_info %}
+        <p><strong>作品信息：</strong> {{ post.work_info }}</p>
+        {% endif %}
+      </div>
+    </article>
+  </div>
+  {% else %}
+  <p>暂无访谈翻译记录。这是一个访谈翻译的示例，展示了文章原标题及链接、译者、受访者及作品信息。</p>
+  <!-- 示例展示 -->
+  <div class="list__item">
+    <article class="archive__item">
+      <h2 class="archive__item-title no_toc"><a href="#">增田顺一访谈：宝可梦的未来发展</a></h2>
+      <p class="page__meta"><i class="far fa-clock"></i> 2024-03-20</p>
+      <div class="interview-meta">
+        <p><strong>原文标题：</strong> <a href="#" target="_blank">Junichi Masuda on the future of Pokemon</a></p>
+        <p><strong>译者：</strong> Asimov</p>
+        <p><strong>访谈人物：</strong> 增田顺一</p>
+        <p><strong>作品信息：</strong> 宝可梦 朱/紫</p>
+      </div>
+    </article>
+  </div>
+  {% endfor %}
+</div>

@@ -24,13 +24,53 @@ body.theme-bg-white {
 }
 
 body.theme-bg-black {
-  background-color: #EEEEEE !important; // Body background for black theme
+  background-color: #222 !important; // Body background for black theme
   color: #eddbdb !important; // Default text color on body for black theme
 
   .initial-content {
     background-image: none !important; // Override for black theme
     background-color: #242424 !important;
     color: #e0e0e0 !important;
+  }
+
+  .masthead {
+    background-color: #242424 !important;
+    border-bottom: 1px solid #444 !important;
+  }
+
+  .sidebar {
+    background-color: #242424 !important;
+    color: #e0e0e0 !important;
+
+    .author__urls {
+      background-color: #2a2a2a !important;
+      border: 1px solid #444 !important;
+    }
+  }
+
+  .page__footer {
+    background-color: #242424 !important;
+    border-top: 1px solid #444 !important;
+  }
+
+  .page__meta {
+    color: #aaa !important;
+  }
+
+  .interview-meta {
+    background-color: #2a2a2a !important;
+    color: #ccc !important;
+  }
+
+  .weibo-post {
+    background-color: #2a2a2a !important;
+    border: 1px solid #444 !important;
+  }
+
+  .year-title, .month-title {
+    background-color: #333 !important;
+    color: #eee !important;
+    &:hover { background-color: #444 !important; }
   }
 
   // Links and heading colors for black theme
