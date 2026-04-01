@@ -1,1 +1,33 @@
-<h2>文档内容将显示在这里</h2>
+<div class="tab-list">
+  {% assign docs_posts = site.posts | where: "category", "文档" %}
+  {% for post in docs_posts limit:10 %}
+  <div class="list__item">
+    <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+      </h2>
+      <p class="page__meta">
+        <i class="far fa-clock" aria-hidden="true"></i> {{ post.date | date: "%Y-%m-%d" }}
+      </p>
+      {% if post.tags.size > 0 %}
+      <p class="page__meta">
+        <i class="fas fa-tags" aria-hidden="true"></i>
+        {% for tag in post.tags %}
+          <span class="post-tags">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </p>
+      {% endif %}
+    </article>
+  </div>
+  {% else %}
+  <p>暂无文档记录。这是一个文档展示示例，它展示了标题、时间和标签。</p>
+  <!-- 示例展示 -->
+  <div class="list__item">
+    <article class="archive__item">
+      <h2 class="archive__item-title no_toc"><a href="#">宝可梦基础对战文档示例</a></h2>
+      <p class="page__meta"><i class="far fa-clock"></i> 2024-03-15</p>
+      <p class="page__meta"><i class="fas fa-tags"></i> <span class="post-tags">对战</span>, <span class="post-tags">基础</span></p>
+    </article>
+  </div>
+  {% endfor %}
+</div>

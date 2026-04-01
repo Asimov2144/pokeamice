@@ -4,10 +4,20 @@ main:
     url: ./index.html
   - title: "KEy docs"
     url: /keys/
+    children:
+      - title: "Documentation Guide"
+        url: /keys/guide/
+      - title: "Architecture"
+        url: /keys/architecture/
   - title: "MOre at"
     url: https://pokeamice.com
   - title: "News"
     url: /news/
+    children:
+      - title: "Latest Updates"
+        url: /news/latest/
+      - title: "Release Notes"
+        url: /news/releases/
   - title: "Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
   - title: "Tags"

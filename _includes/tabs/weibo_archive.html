@@ -1,1 +1,130 @@
-<h2>微博存档内容将显示在这里</h2>
+<div class="weibo-archive-container">
+  <div class="search-box" style="margin-bottom: 20px;">
+    <input type="text" id="weiboSearch" placeholder="输入时间、标题、作品或宝可梦进行搜索..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box;">
+  </div>
+
+  <div class="weibo-list" id="weiboList">
+    {% assign weibo_posts = site.posts | where: "category", "微博存档" %}
+
+    {% assign postsByYear = weibo_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+
+    {% for year_group in postsByYear %}
+    <div class="year-group">
+      <h3 class="year-title" onclick="toggleMonths(this)">{{ year_group.name }} <span>({{ year_group.items | size }})</span></h3>
+      <div class="months-container" style="display: none; padding-left: 20px;">
+        {% assign postsByMonth = year_group.items | group_by_exp: "post", "post.date | date: '%m'" %}
+        {% for month_group in postsByMonth %}
+        <div class="month-group">
+          <h4 class="month-title" onclick="togglePosts(this)">{{ month_group.name }}月 <span>({{ month_group.items | size }})</span></h4>
+          <div class="posts-container" style="display: none; padding-left: 20px;">
+            {% for post in month_group.items %}
+            <div class="weibo-post" data-search="{{ post.date | date: '%Y-%m-%d' }} {{ post.title }} {% if post.work %}{{ post.work }}{% endif %} {% if post.pokemon %}{{ post.pokemon }}{% endif %}">
+              <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
+              <p class="weibo-meta">
+                时间: {{ post.date | date: "%Y-%m-%d" }}
+                {% if post.work %} | 作品: {{ post.work }}{% endif %}
+                {% if post.pokemon %} | 宝可梦: {{ post.pokemon }}{% endif %}
+              </p>
+              <div class="weibo-content">
+                {{ post.excerpt | strip_html | truncate: 150 }}
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <!-- 示例数据结构 -->
+    <div class="year-group">
+      <h3 class="year-title" onclick="toggleMonths(this)">2023 <span>(3)</span></h3>
+      <div class="months-container" style="display: none; padding-left: 20px;">
+        <div class="month-group">
+          <h4 class="month-title" onclick="togglePosts(this)">10月 <span>(2)</span></h4>
+          <div class="posts-container" style="display: none; padding-left: 20px;">
+            <div class="weibo-post" data-search="2023-10-15 宝可梦大集结 更新公告 喷火龙">
+              <h5><a href="#">宝可梦大集结 更新公告</a></h5>
+              <p class="weibo-meta">时间: 2023-10-15 | 作品: 宝可梦大集结 | 宝可梦: 喷火龙</p>
+              <div class="weibo-content">
+                喷火龙的伤害将在下周更新中进行调整...
+              </div>
+            </div>
+            <div class="weibo-post" data-search="2023-10-02 宝可梦睡眠 增加卡比兽">
+              <h5><a href="#">宝可梦睡眠 增加卡比兽</a></h5>
+              <p class="weibo-meta">时间: 2023-10-02 | 作品: Pokemon Sleep | 宝可梦: 卡比兽</p>
+              <div class="weibo-content">
+                现在可以在岛上遇到更多卡比兽！
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="month-group">
+          <h4 class="month-title" onclick="togglePosts(this)">09月 <span>(1)</span></h4>
+          <div class="posts-container" style="display: none; padding-left: 20px;">
+            <div class="weibo-post" data-search="2023-09-12 朱紫零之秘宝 DLC发售">
+              <h5><a href="#">朱紫零之秘宝 DLC发售</a></h5>
+              <p class="weibo-meta">时间: 2023-09-12 | 作品: 宝可梦 朱/紫 | 宝可梦: 厄鬼椪</p>
+              <div class="weibo-content">
+                今天正式解锁！
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+function toggleMonths(element) {
+  const container = element.nextElementSibling;
+  container.style.display = container.style.display === 'none' ? 'block' : 'none';
+}
+
+function togglePosts(element) {
+  const container = element.nextElementSibling;
+  container.style.display = container.style.display === 'none' ? 'block' : 'none';
+}
+
+document.getElementById('weiboSearch').addEventListener('input', function(e) {
+  const searchTerm = e.target.value.toLowerCase();
+  const posts = document.querySelectorAll('.weibo-post');
+
+  posts.forEach(post => {
+    const text = post.getAttribute('data-search').toLowerCase();
+    if(text.includes(searchTerm)) {
+      post.style.display = 'block';
+      // Automatically expand parents if matching
+      if(searchTerm !== "") {
+          post.closest('.posts-container').style.display = 'block';
+          post.closest('.months-container').style.display = 'block';
+      }
+    } else {
+      post.style.display = 'none';
+    }
+  });
+
+  // If search is cleared, collapse everything back down
+  if(searchTerm === "") {
+      document.querySelectorAll('.posts-container, .months-container').forEach(el => {
+          el.style.display = 'none';
+      });
+  }
+});
+</script>
+
+<style>
+.year-title, .month-title {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.year-title:hover, .month-title:hover {
+  background-color: #e2e2e2;
+}
+</style>
