@@ -20,6 +20,17 @@
 
 .archive__item {
   position: relative;
+  background-color: #fbfbfb; /* Subtle background color */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  padding: 20px; /* Internal padding */
+  margin-bottom: 20px; /* Space between cards */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover transition */
+
+  &:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Enhanced shadow on hover */
+  }
 
   a {
     position: relative;

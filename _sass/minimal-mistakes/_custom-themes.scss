@@ -67,6 +67,15 @@ body.theme-bg-black {
     border: 1px solid #444 !important;
   }
 
+  .archive__item {
+    background-color: #2a2a2a !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+
+    &:hover {
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4) !important;
+    }
+  }
+
   .year-title, .month-title {
     background-color: #333 !important;
     color: #eee !important;
