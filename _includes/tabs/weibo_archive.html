@@ -1,6 +1,8 @@
 <div class="weibo-archive-container">
-  <div class="search-box" style="margin-bottom: 20px;">
-    <input type="text" id="weiboSearch" placeholder="输入时间、标题、作品或宝可梦进行搜索..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box;">
+  <div class="search-bar-wrapper">
+    <input type="text" id="weiboSearch" class="search-input" placeholder="输入时间、标题、作品或宝可梦进行搜索...">
+    <input type="file" id="weiboJsonImport" accept=".json" style="display: none;">
+    <button class="btn btn--primary import-btn" onclick="document.getElementById('weiboJsonImport').click()">导入 JSON</button>
   </div>
 
   <div class="weibo-list" id="weiboList">
@@ -113,18 +115,328 @@ document.getElementById('weiboSearch').addEventListener('input', function(e) {
       });
   }
 });
+
+document.getElementById('weiboJsonImport').addEventListener('change', function(e) {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    try {
+      const data = JSON.parse(e.target.result);
+      if (Array.isArray(data)) {
+        importWeiboData(data);
+      } else {
+        alert('Invalid JSON format. Expected an array of posts.');
+      }
+    } catch (err) {
+      alert('Error parsing JSON file: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+});
+
+function importWeiboData(posts) {
+  // Expected post structure: { date: "YYYY-MM-DD", title: "...", work: "...", pokemon: "...", content: "..." }
+
+  // Group posts by Year and Month
+  const groupedData = {};
+
+  posts.forEach(post => {
+    if (!post.date) return; // Skip if no date
+    const dateObj = new Date(post.date);
+    if (isNaN(dateObj.getTime())) return;
+
+    const year = dateObj.getFullYear().toString();
+    // getMonth() is 0-indexed, pad with leading zero
+    const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
+
+    if (!groupedData[year]) {
+      groupedData[year] = { count: 0, months: {} };
+    }
+    groupedData[year].count++;
+
+    if (!groupedData[year].months[month]) {
+      groupedData[year].months[month] = { count: 0, posts: [] };
+    }
+    groupedData[year].months[month].count++;
+    groupedData[year].months[month].posts.push(post);
+  });
+
+  const weiboList = document.getElementById('weiboList');
+
+  // Create DOM elements for grouped data
+  // Sort years descending
+  Object.keys(groupedData).sort((a, b) => b - a).forEach(year => {
+    const yearData = groupedData[year];
+
+    // Check if year group already exists
+    let yearGroup = Array.from(weiboList.querySelectorAll('.year-group')).find(el => {
+      return el.querySelector('.year-title') && el.querySelector('.year-title').textContent.includes(year);
+    });
+
+    if (!yearGroup) {
+      yearGroup = document.createElement('div');
+      yearGroup.className = 'year-group';
+
+      const yearTitle = document.createElement('h3');
+      yearTitle.className = 'year-title';
+      yearTitle.onclick = function() { toggleMonths(this); };
+      yearTitle.innerHTML = `${year} <span>(${yearData.count})</span>`;
+
+      const monthsContainer = document.createElement('div');
+      monthsContainer.className = 'months-container';
+      monthsContainer.style.display = 'none';
+      monthsContainer.style.paddingLeft = '20px';
+
+      yearGroup.appendChild(yearTitle);
+      yearGroup.appendChild(monthsContainer);
+      weiboList.appendChild(yearGroup); // Append to list, ideally we'd sort these DOM elements but append is fine for now
+    } else {
+      // Update count
+      const countSpan = yearGroup.querySelector('.year-title span');
+      if (countSpan) {
+         const currentCount = parseInt(countSpan.textContent.replace(/[^0-9]/g, '')) || 0;
+         countSpan.textContent = `(${currentCount + yearData.count})`;
+      }
+    }
+
+    const monthsContainer = yearGroup.querySelector('.months-container');
+
+    // Sort months descending
+    Object.keys(yearData.months).sort((a, b) => b - a).forEach(month => {
+      const monthData = yearData.months[month];
+
+      let monthGroup = Array.from(monthsContainer.querySelectorAll('.month-group')).find(el => {
+        return el.querySelector('.month-title') && el.querySelector('.month-title').textContent.includes(month + '月');
+      });
+
+      if (!monthGroup) {
+        monthGroup = document.createElement('div');
+        monthGroup.className = 'month-group';
+
+        const monthTitle = document.createElement('h4');
+        monthTitle.className = 'month-title';
+        monthTitle.onclick = function() { togglePosts(this); };
+        monthTitle.innerHTML = `${month}月 <span>(${monthData.count})</span>`;
+
+        const postsContainer = document.createElement('div');
+        postsContainer.className = 'posts-container';
+        postsContainer.style.display = 'none';
+        postsContainer.style.paddingLeft = '20px';
+
+        monthGroup.appendChild(monthTitle);
+        monthGroup.appendChild(postsContainer);
+        monthsContainer.appendChild(monthGroup);
+      } else {
+         const countSpan = monthGroup.querySelector('.month-title span');
+         if (countSpan) {
+           const currentCount = parseInt(countSpan.textContent.replace(/[^0-9]/g, '')) || 0;
+           countSpan.textContent = `(${currentCount + monthData.count})`;
+         }
+      }
+
+      const postsContainer = monthGroup.querySelector('.posts-container');
+
+      monthData.posts.forEach(post => {
+        const postDiv = document.createElement('div');
+        postDiv.className = 'weibo-post';
+
+        const searchStr = `${post.date || ''} ${post.title || ''} ${post.work || ''} ${post.pokemon || ''}`;
+        postDiv.setAttribute('data-search', searchStr);
+
+        const titleHtml = post.url ? `<h5><a href="${post.url}">${post.title || 'Untitled'}</a></h5>` : `<h5><a href="#">${post.title || 'Untitled'}</a></h5>`;
+
+        let metaHtml = `<p class="weibo-meta">时间: ${post.date || 'Unknown'}`;
+        if (post.work) metaHtml += ` | 作品: ${post.work}`;
+        if (post.pokemon) metaHtml += ` | 宝可梦: ${post.pokemon}`;
+        metaHtml += `</p>`;
+
+        const contentHtml = `<div class="weibo-content">${post.content || post.excerpt || ''}</div>`;
+
+        postDiv.innerHTML = titleHtml + metaHtml + contentHtml;
+        postsContainer.appendChild(postDiv);
+      });
+    });
+  });
+
+  // Sort year groups in the DOM
+  const yearGroups = Array.from(weiboList.querySelectorAll('.year-group'));
+  yearGroups.sort((a, b) => {
+    const aText = a.querySelector('.year-title').textContent;
+    const bText = b.querySelector('.year-title').textContent;
+    const aYear = parseInt(aText) || 0;
+    const bYear = parseInt(bText) || 0;
+    return bYear - aYear;
+  });
+  yearGroups.forEach(group => weiboList.appendChild(group));
+
+  // Sort month groups within each year group
+  yearGroups.forEach(yearGroup => {
+    const monthsContainer = yearGroup.querySelector('.months-container');
+    if (monthsContainer) {
+      const monthGroups = Array.from(monthsContainer.querySelectorAll('.month-group'));
+      monthGroups.sort((a, b) => {
+        const aText = a.querySelector('.month-title').textContent;
+        const bText = b.querySelector('.month-title').textContent;
+        const aMonth = parseInt(aText) || 0;
+        const bMonth = parseInt(bText) || 0;
+        return bMonth - aMonth;
+      });
+      monthGroups.forEach(group => monthsContainer.appendChild(group));
+    }
+  });
+
+  alert('Successfully imported JSON data!');
+}
 </script>
 
 <style>
+.weibo-archive-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.search-bar-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search-input {
+  flex-grow: 1;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+.search-input:focus {
+  outline: none;
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+.import-btn {
+  white-space: nowrap;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 .year-title, .month-title {
   cursor: pointer;
-  padding: 8px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  padding: 12px 15px;
+  background-color: #f7fafc;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease, transform 0.1s ease;
 }
 .year-title:hover, .month-title:hover {
-  background-color: #e2e2e2;
+  background-color: #edf2f7;
+  transform: translateY(-1px);
+}
+.year-title span, .month-title span {
+  font-size: 0.9em;
+  color: #718096;
+  background: #e2e8f0;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+.month-group {
+  margin-left: 10px;
+}
+.posts-container {
+  padding-left: 15px;
+  border-left: 2px solid #edf2f7;
+  margin-left: 20px;
+}
+
+.weibo-post {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.weibo-post:hover {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+.weibo-post h5 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
+.weibo-post h5 a {
+  text-decoration: none;
+  color: #2d3748;
+}
+.weibo-post h5 a:hover {
+  color: #3182ce;
+}
+.weibo-meta {
+  font-size: 0.85em;
+  color: #718096;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #edf2f7;
+}
+.weibo-content {
+  color: #4a5568;
+  line-height: 1.6;
+}
+
+/* Dark mode overrides */
+body.theme-bg-black .year-title,
+body.theme-bg-black .month-title {
+  background-color: #2d3748;
+  border-color: #4a5568;
+  color: #f7fafc;
+}
+body.theme-bg-black .year-title:hover,
+body.theme-bg-black .month-title:hover {
+  background-color: #4a5568;
+}
+body.theme-bg-black .year-title span,
+body.theme-bg-black .month-title span {
+  background: #1a202c;
+  color: #cbd5e0;
+}
+body.theme-bg-black .weibo-post {
+  background: #2d3748;
+  border-color: #4a5568;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+body.theme-bg-black .weibo-post:hover {
+  box-shadow: 0 10px 15px rgba(0,0,0,0.4);
+}
+body.theme-bg-black .weibo-post h5 a {
+  color: #f7fafc;
+}
+body.theme-bg-black .weibo-post h5 a:hover {
+  color: #63b3ed;
+}
+body.theme-bg-black .weibo-meta {
+  color: #a0aec0;
+  border-bottom-color: #4a5568;
+}
+body.theme-bg-black .weibo-content {
+  color: #e2e8f0;
+}
+body.theme-bg-black .search-input {
+  background-color: #2d3748;
+  border-color: #4a5568;
+  color: #f7fafc;
+}
+body.theme-bg-black .posts-container {
+  border-left-color: #4a5568;
 }
 </style>
