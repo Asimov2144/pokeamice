@@ -66,9 +66,9 @@ relations:
     </article>
     <article>
       <span>04</span>
-      <h3>OCR / 合并</h3>
-      <p>对 ScanTailor 输出做切栏、OCR、合并 Markdown，并保留坐标和中间 JSON。</p>
-      <code>tools/process_scantailor_batch.py</code>
+      <h3>区域 OCR / 校对</h3>
+      <p>按分区把裁片送进 Qwen-VL 识别，再由 DeepSeek 校对并给出初译，保留坐标和逐区 JSON。</p>
+      <code>tools/run-region-vlm-api-ocr.ps1</code>
     </article>
     <article>
       <span>05</span>

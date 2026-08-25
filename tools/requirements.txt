@@ -1,0 +1,23 @@
+# Python environment for the OCR and publishing pipeline (.venv-ocr).
+#
+# Rebuild with:
+#   python -m venv .venv-ocr
+#   .venv-ocr/Scripts/python.exe -m pip install -r tools/requirements.txt
+#
+# Keep the .venv-ocr path: tools/import-wizard-server.mjs hardcodes
+# .venv-ocr/Scripts/python.exe and does not check whether it exists.
+#
+# Every OCR and translation call goes to Qwen-VL and DeepSeek over HTTP through
+# urllib, so no local model runtime is required. The former .venv-ocr-gpu,
+# .venv-mineru and .paddlex-cache environments backed PaddleOCR and MinerU and
+# were removed along with their scripts.
+#
+# Note that vlm_api_ocr_regions.py imports numpy and cv2 inside a try block and
+# falls back to "unknown" writing direction with no column splitting when they
+# are missing. That failure is silent, so install everything below rather than
+# trimming what looks unused.
+
+pillow                    # crops, EXIF transpose, long-strip canvas padding
+pyyaml                    # article metadata and translation segment files
+numpy                     # column projection analysis
+opencv-python-headless    # page structure and column detection, without GUI deps
