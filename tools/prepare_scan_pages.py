@@ -70,6 +70,7 @@ class Measurement:
     content_box: list[float]
     gutter_x: float | None
     gutter_contrast: float
+    seam_span: list[float]
     skew_deg: float | None
     seam_tilt: float
     seam_bands: int
@@ -155,6 +156,44 @@ def gutter_of(rgb: np.ndarray, box: list[float]) -> tuple[float, float]:
     contrast = float(valley[index])
     absolute = (x0 + index) / width
     return round(absolute, 5), round(contrast, 2)
+
+
+def seam_span_of(rgb: np.ndarray, seam_x: float, contrast: float) -> tuple[float, float]:
+    """Width of the binding shadow, as the fractions of image width it covers.
+
+    Cutting at the seam with a fixed bleed leaves the shadow on the inner edge
+    of both halves, and the generic edge trim cannot take it off: the shadow is
+    a gradient, not a uniform band, so it fails the flatness test that protects
+    printed ink. Measured on Continue vol.31 page041 the inner columns climb
+    184, 199, 210, 218 before reaching the page, and nothing was removed at all.
+
+    Walking out from the seam until the valley response has decayed gives the
+    real extent, so each half can be cut outside the shadow instead of through
+    it, which also drops the sliver of the facing page that came with it.
+    """
+    if contrast <= 0:
+        return seam_x, seam_x
+    gray = luma_of(rgb)
+    width = gray.shape[1]
+    column = gray.mean(axis=0)
+
+    def blur(size: int) -> np.ndarray:
+        size = max(3, size | 1)
+        return np.convolve(column, np.ones(size, dtype=np.float32) / size, mode="same")
+
+    valley = blur(int(width * 0.06)) - blur(9)
+    centre = int(round(seam_x * width))
+    centre = max(1, min(width - 2, centre))
+    floor = valley[centre] * 0.2
+    cap = int(width * 0.05)
+
+    left = centre
+    while left > 0 and centre - left < cap and valley[left - 1] > floor:
+        left -= 1
+    right = centre
+    while right < width - 1 and right - centre < cap and valley[right + 1] > floor:
+        right += 1
+    return round(left / width, 5), round((right + 1) / width, 5)
 
 
 def seam_tilt_of(rgb: np.ndarray, seam_x: float, contrast: float,
@@ -251,12 +290,17 @@ def measure(path: Path) -> Measurement:
     gutter, contrast = gutter_of(rgb, box)
     paper, paper_luma, black, cast = tone_of(rgb)
     aspect = full[0] / full[1]
-    tilt, bands = seam_tilt_of(rgb, gutter, contrast) if aspect >= SPREAD_ASPECT else (0.0, 0)
+    if aspect >= SPREAD_ASPECT:
+        tilt, bands = seam_tilt_of(rgb, gutter, contrast)
+        span = seam_span_of(rgb, gutter, contrast)
+    else:
+        tilt, bands, span = 0.0, 0, (gutter, gutter)
     return Measurement(
         width=full[0], height=full[1], aspect=round(aspect, 4),
         content_box=box,
         gutter_x=gutter if aspect >= SPREAD_ASPECT else None,
         gutter_contrast=contrast,
+        seam_span=list(span),
         skew_deg=skew_of(rgb),
         seam_tilt=tilt, seam_bands=bands,
         paper_rgb=paper, paper_luma=paper_luma, black_point=black, colour_cast=cast,
@@ -428,19 +472,20 @@ def straighten_seam(image: Image.Image, tilt: float,
     return image, 0.0, 0.0
 
 
-def split_at(image: Image.Image, gutter_x: float, binding: str) -> list[tuple[str, Image.Image]]:
+def split_at(image: Image.Image, span: tuple[float, float], binding: str) -> list[tuple[str, Image.Image]]:
     """Cut a spread into two pages, named in reading order.
 
     Japanese magazines bind on the right, so the right half carries the earlier
-    page and becomes "a"; a left-bound title reverses that. Each half keeps a
-    sliver past the seam so no edge glyph is lost to an off-by-one, and the dark
-    binding shadow that sliver brings with it is removed later by
-    `trim_dark_edges`.
+    page and becomes "a"; a left-bound title reverses that. `span` is the
+    measured extent of the binding shadow, so each page is cut outside it rather
+    than through it and neither half keeps the shadow or a strip of its
+    neighbour.
     """
-    seam = round(gutter_x * image.width)
-    bleed = round(image.width * 0.004)
-    right = image.crop((min(seam + bleed, image.width), 0, image.width, image.height))
-    left = image.crop((0, 0, max(seam - bleed, 0), image.height))
+    start, end = span
+    cut_left = max(0, min(image.width, round(start * image.width)))
+    cut_right = max(cut_left, min(image.width, round(end * image.width)))
+    right = image.crop((cut_right, 0, image.width, image.height))
+    left = image.crop((0, 0, cut_left, image.height))
     return [("a", right), ("b", left)] if binding == "right" else [("a", left), ("b", right)]
 
 
@@ -604,12 +649,14 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
         full = opened.convert("RGB")
         fill = tuple(int(round(v)) for v in measurement.paper_rgb)
         seam = measurement.gutter_x
+        span = tuple(measurement.seam_span)
         if decision.split and seam and not args.no_straighten:
             full, turned, moved = straighten_seam(full, measurement.seam_tilt, fill)
             if turned:
-                seam = moved
+                half = (span[1] - span[0]) / 2
+                seam, span = moved, (moved - half, moved + half)
                 result.seam_straightened_by = round(turned, 3)
-        pieces = (split_at(full, seam, args.binding)
+        pieces = (split_at(full, span, args.binding)
                   if decision.split and seam else [("", full)])
         for suffix, piece in pieces:
             piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])

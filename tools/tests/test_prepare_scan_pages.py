@@ -14,6 +14,7 @@ from prepare_scan_pages import (  # noqa: E402
     encode,
     gutter_of,
     normalise_tone,
+    seam_span_of,
     seam_tilt_of,
     split_at,
     tone_policy_for,
@@ -150,7 +151,7 @@ def test_art_pages_keep_their_colour():
     def measurement(paper, luma, black=20.0, cast=0.0):
         return Measurement(
             width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
-            gutter_x=None, gutter_contrast=0.0, skew_deg=0.0,
+            gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5], skew_deg=0.0,
             seam_tilt=0.0, seam_bands=0,
             paper_rgb=paper, paper_luma=luma, black_point=black, colour_cast=cast,
         )
@@ -171,12 +172,36 @@ def test_art_pages_keep_their_colour():
 
 def test_split_order_follows_the_binding_side():
     image = Image.fromarray(spread())
-    right_bound = split_at(image, 0.5, "right")
-    left_bound = split_at(image, 0.5, "left")
+    right_bound = split_at(image, (0.48, 0.52), "right")
+    left_bound = split_at(image, (0.48, 0.52), "left")
     assert [name for name, _ in right_bound] == ["a", "b"]
     # The first piece of a right-bound title is the right half, and mirrored for left.
     assert right_bound[0][1].size[0] < image.width
     assert left_bound[0][1].size[0] == right_bound[1][1].size[0]
+
+
+def test_split_cuts_outside_the_shadow_so_neither_half_keeps_it():
+    """Both halves must start on their own page, not on the binding.
+
+    Cutting at the seam with a fixed bleed left the shadow on the inner edge of
+    both pieces, and it survived the edge trim because a gradient is not flat
+    enough to look like a scanner border.
+    """
+    canvas = spread(gutter_at=0.5, width=1200, height=800)
+    seam = round(1200 * 0.5)
+    for offset in range(-30, 30):                 # a graded shadow, not a hard band
+        fade = 1.0 - abs(offset) / 30.0
+        canvas[:, seam + offset] = round(245 - 200 * fade)
+
+    seam_x, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    span = seam_span_of(canvas.astype(np.float32), seam_x, contrast)
+    assert span[0] < seam_x < span[1], "the shadow must straddle the seam"
+
+    pieces = dict(split_at(Image.fromarray(canvas), span, "right"))
+    right = np.asarray(pieces["a"].convert("L"), dtype=np.float32).mean(axis=0)
+    left = np.asarray(pieces["b"].convert("L"), dtype=np.float32).mean(axis=0)
+    assert right[0] > 150, f"right page starts inside the shadow: {right[0]:.0f}"
+    assert left[-1] > 150, f"left page ends inside the shadow: {left[-1]:.0f}"
 
 
 def test_encode_flags_when_reencoding_gains_nothing(tmp_path=None):
