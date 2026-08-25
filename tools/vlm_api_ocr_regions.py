@@ -17,11 +17,14 @@ except Exception:
     ImageOps = None
 
 try:
-    import cv2
     import numpy as np
 except Exception:
-    cv2 = None
     np = None
+
+try:
+    import cv2
+except Exception:
+    cv2 = None
 
 try:
     from openai import OpenAI
@@ -161,16 +164,45 @@ def _merge_intervals(intervals: list[tuple[int, int]], gap: int = 0) -> list[tup
     return [(start, end) for start, end in merged]
 
 
+IMAGE_ANALYSIS_PACKAGES = (("numpy", "numpy"), ("cv2", "opencv-python-headless"))
+
+
+def warn(message: str) -> None:
+    print(f"WARNING: {message}", file=sys.stderr, flush=True)
+
+
+def missing_image_analysis_packages() -> list[str]:
+    """Report which page-structure dependencies could not be imported."""
+    available = {"numpy": np, "cv2": cv2}
+    return [package for module, package in IMAGE_ANALYSIS_PACKAGES if available[module] is None]
+
+
+def require_image_analysis(feature: str) -> None:
+    """Fail loudly. Degrading here costs vertical pages their column splitting in silence."""
+    missing = missing_image_analysis_packages()
+    if not missing:
+        return
+    raise RuntimeError(
+        f"{feature} requires {' and '.join(missing)}, which could not be imported. "
+        "Install with: .venv-ocr/Scripts/python.exe -m pip install -r tools/requirements.txt "
+        "(or pass --disable-auto-column-split to run OCR without direction detection "
+        "and physical column splitting)."
+    )
+
+
 def _analysis_binary(image_path: Path) -> tuple[object, dict]:
     """Return a compact foreground mask plus glyph-size diagnostics."""
-    if cv2 is None or np is None:
-        return None, {}
+    require_image_analysis("Page structure analysis")
     try:
         encoded = np.fromfile(str(image_path), dtype=np.uint8)
         gray = cv2.imdecode(encoded, cv2.IMREAD_GRAYSCALE)
     except (OSError, ValueError):
         gray = None
     if gray is None:
+        warn(
+            f"{image_path} could not be decoded for page structure analysis; "
+            "direction detection and column splitting are skipped for this crop."
+        )
         return None, {}
     height, width = gray.shape[:2]
     scale = min(1.0, 1400.0 / max(width, height, 1))
@@ -207,9 +239,10 @@ def _analysis_binary(image_path: Path) -> tuple[object, dict]:
 
 def detect_text_orientation(image_path: Path) -> dict:
     """Estimate whether a dense crop is arranged as vertical columns or horizontal lines."""
+    require_image_analysis("Writing direction detection")
     binary, diagnostics = _analysis_binary(image_path)
     if binary is None or not diagnostics:
-        return {"direction": "unknown", "confidence": 0.0, "reason": "opencv_unavailable"}
+        return {"direction": "unknown", "confidence": 0.0, "reason": "unreadable_image"}
     width, height = diagnostics["analysis_size"]
     glyph_width, glyph_height = diagnostics["glyph_size"]
     vertical_kernel = cv2.getStructuringElement(
@@ -263,6 +296,7 @@ def detect_text_orientation(image_path: Path) -> dict:
 
 def detect_physical_columns(image_path: Path, direction: str, max_columns: int = 16) -> dict:
     """Find physical reading columns without asking the OCR model to infer their order."""
+    require_image_analysis("Physical column detection")
     binary, diagnostics = _analysis_binary(image_path)
     if binary is None or not diagnostics or direction not in {"vertical", "horizontal"}:
         return {"direction": direction, "columns": [], **diagnostics}
@@ -365,7 +399,13 @@ def prepare_column_crops(
     max_columns: int = 16,
     disabled: bool = False,
 ) -> tuple[list[Path], dict]:
-    if disabled or "qwen-vl-ocr" not in model.lower() or Image is None:
+    if disabled or "qwen-vl-ocr" not in model.lower():
+        return [], {}
+    if Image is None:
+        warn(
+            f"Pillow is unavailable, so {image_path} is sent to OCR without physical column splitting. "
+            "Install with: .venv-ocr/Scripts/python.exe -m pip install -r tools/requirements.txt"
+        )
         return [], {}
     declared = str((item or {}).get("writing_direction") or "auto").lower()
     orientation = detect_text_orientation(image_path)
@@ -713,6 +753,9 @@ def main() -> None:
         raise SystemExit("Missing API key. Set DASHSCOPE_API_KEY or VLM_OCR_API_KEY before running Qwen OCR.")
     if "api.deepseek.com" in args.api_url and not args.api_key:
         raise SystemExit("Missing API key. Set DEEPSEEK_API_KEY before running DeepSeek Vision OCR.")
+
+    if not args.disable_auto_column_split and "qwen-vl-ocr" in args.model.lower():
+        require_image_analysis("Automatic column splitting")
 
     input_path = Path(args.input).resolve()
     out_dir = Path(args.out).resolve()

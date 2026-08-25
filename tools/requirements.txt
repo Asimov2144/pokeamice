@@ -12,10 +12,11 @@
 # .venv-mineru and .paddlex-cache environments backed PaddleOCR and MinerU and
 # were removed along with their scripts.
 #
-# Note that vlm_api_ocr_regions.py imports numpy and cv2 inside a try block and
-# falls back to "unknown" writing direction with no column splitting when they
-# are missing. That failure is silent, so install everything below rather than
-# trimming what looks unused.
+# vlm_api_ocr_regions.py needs numpy and cv2 for writing-direction detection and
+# physical column splitting. Without them it now refuses to start instead of
+# quietly reading vertical pages as one blob, so install everything below rather
+# than trimming what looks unused. Running with --disable-auto-column-split is
+# the only supported way to skip those two packages.
 
 pillow                    # crops, EXIF transpose, long-strip canvas padding
 pyyaml                    # article metadata and translation segment files

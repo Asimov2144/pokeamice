@@ -1,4 +1,6 @@
+import contextlib
 import importlib.util
+import io
 import tempfile
 import unittest
 from pathlib import Path
@@ -188,6 +190,111 @@ class VerticalLongStripTests(unittest.TestCase):
         self.assertNotIn("19,262,323,28,90", cleaned)
         self.assertIn("色彩設計", cleaned)
         self.assertEqual(detail["strategy"], "coordinate_prefix_strip")
+
+
+class ImageAnalysisDependencyTests(unittest.TestCase):
+    """numpy/cv2 must fail loudly instead of quietly disabling column detection."""
+
+    def make_crop(self, path: Path):
+        Image.new("RGB", (120, 480), "white").save(path)
+
+    def test_missing_packages_are_reported_by_name(self):
+        with patch.object(MODULE, "np", None), patch.object(MODULE, "cv2", None):
+            self.assertEqual(
+                MODULE.missing_image_analysis_packages(),
+                ["numpy", "opencv-python-headless"],
+            )
+        with patch.object(MODULE, "cv2", None):
+            self.assertEqual(MODULE.missing_image_analysis_packages(), ["opencv-python-headless"])
+        self.assertEqual(MODULE.missing_image_analysis_packages(), [])
+
+    def test_direction_detection_raises_when_numpy_is_missing(self):
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / "crop.png"
+            self.make_crop(source)
+            with patch.object(MODULE, "np", None):
+                with self.assertRaises(RuntimeError) as caught:
+                    MODULE.detect_text_orientation(source)
+        message = str(caught.exception)
+        self.assertIn("numpy", message)
+        self.assertNotIn("opencv-python-headless", message)
+        self.assertIn("tools/requirements.txt", message)
+        self.assertIn("--disable-auto-column-split", message)
+
+    def test_column_detection_raises_when_opencv_is_missing(self):
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / "crop.png"
+            self.make_crop(source)
+            with patch.object(MODULE, "cv2", None):
+                with self.assertRaises(RuntimeError) as caught:
+                    MODULE.detect_physical_columns(source, "vertical", 8)
+        self.assertIn("opencv-python-headless", str(caught.exception))
+
+    def test_column_crop_preparation_raises_instead_of_skipping_the_split(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "crop.png"
+            self.make_crop(source)
+            with patch.object(MODULE, "cv2", None), patch.object(MODULE, "np", None):
+                with self.assertRaises(RuntimeError):
+                    MODULE.prepare_column_crops(
+                        source,
+                        {"writing_direction": "vertical"},
+                        "qwen-vl-ocr-latest",
+                        root / "prepared",
+                        8,
+                        False,
+                    )
+
+    def test_disabled_auto_split_stays_a_silent_no_op_without_the_packages(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "crop.png"
+            self.make_crop(source)
+            stderr = io.StringIO()
+            with patch.object(MODULE, "cv2", None), patch.object(MODULE, "np", None):
+                with contextlib.redirect_stderr(stderr):
+                    paths, metadata = MODULE.prepare_column_crops(
+                        source,
+                        {"writing_direction": "vertical"},
+                        "qwen-vl-ocr-latest",
+                        root / "prepared",
+                        8,
+                        True,
+                    )
+            self.assertEqual((paths, metadata), ([], {}))
+            self.assertEqual(stderr.getvalue(), "")
+
+    def test_missing_pillow_downgrade_prints_a_warning(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "crop.png"
+            self.make_crop(source)
+            stderr = io.StringIO()
+            with patch.object(MODULE, "Image", None):
+                with contextlib.redirect_stderr(stderr):
+                    paths, metadata = MODULE.prepare_column_crops(
+                        source,
+                        {"writing_direction": "vertical"},
+                        "qwen-vl-ocr-latest",
+                        root / "prepared",
+                        8,
+                        False,
+                    )
+            self.assertEqual((paths, metadata), ([], {}))
+            self.assertIn("WARNING", stderr.getvalue())
+            self.assertIn("Pillow is unavailable", stderr.getvalue())
+
+    def test_undecodable_crop_warns_instead_of_claiming_opencv_is_missing(self):
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / "not-an-image.png"
+            source.write_text("this is not a png", encoding="utf-8")
+            stderr = io.StringIO()
+            with contextlib.redirect_stderr(stderr):
+                orientation = MODULE.detect_text_orientation(source)
+            self.assertEqual(orientation["direction"], "unknown")
+            self.assertEqual(orientation["reason"], "unreadable_image")
+            self.assertIn("could not be decoded", stderr.getvalue())
 
 
 if __name__ == "__main__":
