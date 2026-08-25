@@ -110,17 +110,29 @@ def test_flat_page_reports_no_usable_gutter():
     assert contrast < 35, "a page with no seam must not look splittable"
 
 
-def test_trim_removes_dark_bands_but_respects_the_limit():
+def test_trim_removes_uniform_dark_bands_within_the_limit():
     array = np.full((400, 300, 3), 240, dtype=np.uint8)
-    array[:, :18] = 15          # binding shadow left behind by a split
-    array[380:] = 15            # scanner bed along the bottom
+    array[:, :8] = 15           # binding shadow left behind by a split
+    array[390:] = 15            # scanner bed along the bottom
     trimmed = trim_dark_edges(Image.fromarray(array), paper_luma=240.0)
-    assert trimmed.size[0] == 300 - 18
-    assert trimmed.size[1] == 400 - 20
+    assert trimmed.size == (300 - 8, 400 - 10)
 
     all_dark = Image.fromarray(np.full((400, 300, 3), 15, dtype=np.uint8))
     kept = trim_dark_edges(all_dark, paper_luma=240.0)
-    assert kept.size == (300 - 2 * 24, 400 - 2 * 32), "trimming must stop at the 8% cap"
+    assert kept.size == (300 - 2 * 12, 400 - 2 * 16), "trimming must stop at the 4% cap"
+
+
+def test_trim_leaves_a_printed_black_masthead_alone():
+    """Ink is dark but structured; a scanner edge is dark and featureless.
+
+    Trimming on brightness alone took the full allowance out of the top of
+    DREAM 2008.12 page011, which opens with a full-width black masthead.
+    """
+    array = np.full((400, 300, 3), 240, dtype=np.uint8)
+    array[:40] = 20                       # black masthead band
+    array[:40, 20:280:9] = 245            # white type knocked out, on every row
+    trimmed = trim_dark_edges(Image.fromarray(array), paper_luma=240.0)
+    assert trimmed.size == (300, 400), "a masthead carrying type must survive"
 
 
 def test_tone_normalisation_whitens_paper_and_removes_cast():
@@ -135,19 +147,26 @@ def test_tone_normalisation_whitens_paper_and_removes_cast():
 
 
 def test_art_pages_keep_their_colour():
-    def measurement(paper, luma):
+    def measurement(paper, luma, black=20.0, cast=0.0):
         return Measurement(
             width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
             gutter_x=None, gutter_contrast=0.0, skew_deg=0.0,
             seam_tilt=0.0, seam_bands=0,
-            paper_rgb=paper, paper_luma=luma, black_point=20.0, colour_cast=0.0,
+            paper_rgb=paper, paper_luma=luma, black_point=black, colour_cast=cast,
         )
 
     dark = measurement([120.0, 90.0, 60.0], 150.0)
-    bright = measurement([250.0, 248.0, 240.0], 248.0)
-    assert tone_policy_for("art", bright) == "preserve", "art is never tone-mapped"
+    clean = measurement([255.0, 255.0, 255.0], 255.0, black=3.0, cast=0.0)
+    yellowed = measurement([252.0, 249.0, 232.0], 248.0, black=8.0, cast=20.0)
+    washed = measurement([255.0, 255.0, 255.0], 255.0, black=95.0, cast=0.0)
+
+    assert tone_policy_for("art", clean) == "preserve", "art is never tone-mapped"
     assert tone_policy_for("single", dark) == "preserve", "a page with no paper white is left alone"
-    assert tone_policy_for("single", bright) == "paper"
+    assert tone_policy_for("single", yellowed) == "paper", "a visible cast is worth removing"
+    assert tone_policy_for("single", washed) == "paper", "lifted blacks are worth pulling down"
+    # A near-identity stretch still rewrites every pixel and forces a re-encode,
+    # which on DREAM 2008.12 turned 59MB of source into 114MB of archive.
+    assert tone_policy_for("single", clean) == "already-clean"
 
 
 def test_split_order_follows_the_binding_side():
@@ -166,12 +185,14 @@ def test_encode_flags_when_reencoding_gains_nothing(tmp_path=None):
     with tempfile.TemporaryDirectory() as directory:
         target = Path(directory) / "out.jpg"
         image = Image.fromarray(page())
-        gained = encode(image, target, 88, None, original_bytes=10)
-        assert gained["reencode_gained_nothing"] is True
-        assert target.exists() and gained["bytes"] > 0
+        tight = encode(image, target, 88, None, budget_bytes=10)
+        assert tight["over_budget"] is True, "an impossible budget must be reported"
+        assert tight["quality"] == 70, "quality should step down to the floor trying to fit"
+        assert target.exists() and tight["bytes"] > 0
 
-        honest = encode(image, target, 88, None, original_bytes=5_000_000)
-        assert honest["reencode_gained_nothing"] is False
+        roomy = encode(image, target, 88, None, budget_bytes=5_000_000)
+        assert roomy["over_budget"] is False
+        assert roomy["quality"] == 88, "no need to drop quality when the budget allows it"
 
         web = encode(image, Path(directory) / "web.jpg", 82, 200, None)
         assert max(web["size"]) == 200, "web profile must respect the long edge"

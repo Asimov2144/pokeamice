@@ -51,8 +51,11 @@ SPREAD_ASPECT = 1.15       # wider than this and the page might be two pages
 GUTTER_CONFIDENT = 35.0    # projection contrast above which cv alone may decide
 PAPER_LUMA_CLEAR = 235.0   # brighter highlights than this means a paper page
 PAPER_LUMA_DARK = 200.0    # dimmer than this means full-bleed art, leave colour alone
-MIN_DESKEW_DEG = 0.15      # below this, rotating costs more detail than it recovers
+MIN_DESKEW_DEG = 0.50      # below this, rotating costs more detail than it recovers
 MIN_SEAM_TILT_DEG = 0.30   # below this, a vertical cut is already on the seam
+TONE_BLACK_OK = 25.0       # blacks at or under this need no pulling down
+TONE_CAST_OK = 8.0         # channel spread at or under this is not a visible cast
+TONE_PAPER_OK = 245.0      # highlights at or above this are already paper white
 
 
 # --------------------------------------------------------------------------- #
@@ -335,13 +338,24 @@ def ask_model(path: Path, model: str, timeout: int) -> dict:
 
 
 def tone_policy_for(kind: str, measurement: Measurement) -> str:
-    """Only normalise pages whose highlights really are paper.
+    """Only normalise pages whose highlights really are paper, and only when it helps.
 
     A full-bleed illustration has no paper white to align, and stretching it to
     one would rewrite the artwork's colours.
+
+    A page that already has clean blacks, neutral paper and full white is left
+    alone as well. The transform would be near-identity, but it still rewrites
+    every pixel, which forces a full re-encode and denies the size guard its
+    chance to keep the smaller original. On DREAM 2008.12, whose blacks already
+    sit at 1-15 and whose paper is often exactly 255, normalising everything
+    turned 59MB of source into 114MB of archive.
     """
     if kind == "art" or measurement.paper_luma < PAPER_LUMA_DARK:
         return "preserve"
+    if (measurement.black_point <= TONE_BLACK_OK
+            and measurement.colour_cast <= TONE_CAST_OK
+            and measurement.paper_luma >= TONE_PAPER_OK):
+        return "already-clean"
     return "paper"
 
 
@@ -441,32 +455,37 @@ def crop_content(image: Image.Image, box: list[float], margin: float = 0.004) ->
     ))
 
 
-def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.08) -> Image.Image:
+def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.04) -> Image.Image:
     """Shave the binding shadow and scanner borders off each side.
 
     Splitting a spread leaves the gutter shadow on the inner edge of both
     halves, and these scans often carry a dark strip along the outside where the
-    book block or the scanner bed shows. Both are darker than any printed
-    margin, so edges are eaten inward while they stay well below the page's own
-    paper level, and never past `limit` of the dimension so a dark headline
-    bleeding to the trim cannot cost real content.
+    book block or the scanner bed shows.
+
+    Darkness alone is not enough to identify them. DREAM 2008.12 page011 opens
+    with a full-width black masthead, and trimming on brightness took the whole
+    8% allowance out of the top of the page. A scanner edge is dark *and*
+    featureless, while printed ink carries type and artwork, so a line is only
+    eaten when it is both below the paper threshold and nearly uniform.
     """
     array = np.asarray(image.convert("RGB"), dtype=np.float32)
     gray = luma_of(array)
     height, width = gray.shape
     threshold = max(40.0, paper_luma * 0.72)
+    flat = 22.0        # a printed edge varies far more than a scanner bed
 
-    def eat(profile: np.ndarray, cap: int) -> int:
+    def eat(means: np.ndarray, spreads: np.ndarray, cap: int) -> int:
         count = 0
-        while count < cap and profile[count] < threshold:
+        while count < cap and means[count] < threshold and spreads[count] < flat:
             count += 1
         return count
 
-    columns, rows = gray.mean(axis=0), gray.mean(axis=1)
-    left = eat(columns, int(width * limit))
-    right = eat(columns[::-1], int(width * limit))
-    top = eat(rows, int(height * limit))
-    bottom = eat(rows[::-1], int(height * limit))
+    col_mean, col_std = gray.mean(axis=0), gray.std(axis=0)
+    row_mean, row_std = gray.mean(axis=1), gray.std(axis=1)
+    left = eat(col_mean, col_std, int(width * limit))
+    right = eat(col_mean[::-1], col_std[::-1], int(width * limit))
+    top = eat(row_mean, row_std, int(height * limit))
+    bottom = eat(row_mean[::-1], row_std[::-1], int(height * limit))
     if not (left or right or top or bottom):
         return image
     return image.crop((left, top, width - right, height - bottom))
@@ -483,10 +502,17 @@ def deskew(image: Image.Image, angle: float | None, fill: tuple[int, int, int]) 
         return image, 0.0
     for candidate in (-angle, angle):
         rotated = image.rotate(candidate, resample=Image.BICUBIC, expand=True, fillcolor=fill)
-        preview = rotated.resize(
-            (WORK_WIDTH, max(1, round(rotated.height * WORK_WIDTH / rotated.width))), Image.BILINEAR)
+        # Re-measure on the middle of the page. `expand` leaves wedges of fill in
+        # the corners whose edges lie at exactly the rotation angle, and Hough
+        # scores them so strongly that a rotation the wrong way still reported a
+        # flat page: DREAM 2008.12 page011 came out visibly more crooked than it
+        # went in while the check reported 0.00 degrees.
+        inset = rotated.crop((round(rotated.width * 0.12), round(rotated.height * 0.12),
+                              round(rotated.width * 0.88), round(rotated.height * 0.88)))
+        preview = inset.resize(
+            (WORK_WIDTH, max(1, round(inset.height * WORK_WIDTH / inset.width))), Image.BILINEAR)
         after = skew_of(np.asarray(preview, dtype=np.float32))
-        if after is not None and abs(after) < abs(angle) - 0.05:
+        if after is not None and abs(after) <= abs(angle) * 0.5:
             return rotated, candidate
     return image, 0.0
 
@@ -509,27 +535,43 @@ def normalise_tone(image: Image.Image, black_point: float, paper_rgb: list[float
 
 
 def encode(image: Image.Image, destination: Path, quality: int, long_edge: int | None,
-           original_bytes: int | None) -> dict:
-    """Write one derivative, preferring the original bytes when smaller."""
+           budget_bytes: int | None) -> dict:
+    """Write one derivative, never spending more bytes than the source did.
+
+    A fixed quality assumes the source was encoded at a comparable one. These
+    scans are not: DREAM 2008.12 pages carry about 0.5 bits per pixel, so
+    encoding them at 88 targets a bitrate the original never had and mostly
+    preserves its compression artefacts, doubling the file. When a budget is
+    given the quality steps down until the result fits, and if even the floor
+    cannot fit, the caller is told so it can keep the original bytes instead.
+    """
     working = image
     if long_edge and max(image.size) > long_edge:
         scale = long_edge / max(image.size)
         working = image.resize((round(image.width * scale), round(image.height * scale)), Image.LANCZOS)
-    buffer = io.BytesIO()
-    working.save(buffer, format="JPEG", quality=quality,
-                 subsampling=0 if long_edge is None else 2,
-                 optimize=True, progressive=True)
-    data = buffer.getvalue()
-    reused = False
-    if original_bytes is not None and len(data) >= original_bytes * 0.9:
-        reused = True
+
+    subsampling = 0 if long_edge is None else 2
+    attempts = [quality]
+    if budget_bytes:
+        attempts += [step for step in (82, 76, 70) if step < quality]
+
+    data, used = b"", quality
+    for candidate in attempts:
+        buffer = io.BytesIO()
+        working.save(buffer, format="JPEG", quality=candidate,
+                     subsampling=subsampling, optimize=True, progressive=True)
+        data, used = buffer.getvalue(), candidate
+        if not budget_bytes or len(data) <= budget_bytes:
+            break
+
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_bytes(data)
     return {
         "path": destination.name,
         "bytes": len(data),
         "size": list(working.size),
-        "reencode_gained_nothing": reused,
+        "quality": used,
+        "over_budget": bool(budget_bytes and len(data) > budget_bytes),
     }
 
 
@@ -578,14 +620,24 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
                 piece = normalise_tone(piece, measurement.black_point, measurement.paper_rgb)
                 result.tone_applied = True
             stem = path.stem + (f"-{suffix}" if suffix else "")
-            # Only a single untouched, unsplit page can honestly reuse source bytes.
-            comparable = (result.source_bytes
-                          if not suffix and not rotated and not result.seam_straightened_by
-                          and not result.tone_applied else None)
+            untouched = (not suffix and not rotated
+                         and not result.seam_straightened_by and not result.tone_applied
+                         and piece.size == (measurement.width, measurement.height))
+            # Half a spread should not be measured against the whole source file.
+            budget = round(result.source_bytes / len(pieces))
+
             if "archive" in args.profiles:
-                result.outputs.append(encode(
-                    piece, out_dir / "archive" / f"{stem}.jpg",
-                    args.archive_quality, None, comparable))
+                target = out_dir / "archive" / f"{stem}.jpg"
+                written = encode(piece, target, args.archive_quality, None, budget)
+                if written["over_budget"] and untouched:
+                    # Nothing was changed and every quality overshot: the source
+                    # is already the smallest honest version of this page.
+                    target.write_bytes(path.read_bytes())
+                    written = {"path": target.name, "bytes": result.source_bytes,
+                               "size": [measurement.width, measurement.height],
+                               "quality": None, "copied_source": True}
+                    result.note = "archive copied from source; re-encoding could not beat it"
+                result.outputs.append(written)
             if "web" in args.profiles:
                 result.outputs.append(encode(
                     piece, out_dir / "web" / f"{stem}.jpg",
