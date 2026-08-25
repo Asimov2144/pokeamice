@@ -1,0 +1,944 @@
+{
+  "generated_at": "2026-06-24T01:35:42+09:00",
+  "entities": {
+    "people": {
+      "高桥宏之": {
+        "name": "高桥宏之",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e9ab98e6a1a5e5ae8fe4b98b/",
+        "posts": [
+          {
+            "id": "2ccce51815",
+            "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+            "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+            "date": "2021-11-01",
+            "year": "2021",
+            "source": "Nintendo DREAM 25th Anniversary",
+            "type": "scan_translation",
+            "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+            "entities": {
+              "people": [
+                "高桥宏之",
+                "高桥秀五"
+              ],
+              "organizations": [
+                "Camelot",
+                "Nintendo"
+              ],
+              "events": [
+                "DREAM 25TH 访谈"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2021"
+        ]
+      },
+      "高桥秀五": {
+        "name": "高桥秀五",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e9ab98e6a1a5e7a780e4ba94/",
+        "posts": [
+          {
+            "id": "2ccce51815",
+            "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+            "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+            "date": "2021-11-01",
+            "year": "2021",
+            "source": "Nintendo DREAM 25th Anniversary",
+            "type": "scan_translation",
+            "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+            "entities": {
+              "people": [
+                "高桥宏之",
+                "高桥秀五"
+              ],
+              "organizations": [
+                "Camelot",
+                "Nintendo"
+              ],
+              "events": [
+                "DREAM 25TH 访谈"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2021"
+        ]
+      }
+    },
+    "works": {
+      "Minimal Mistakes": {
+        "name": "Minimal Mistakes",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/minimal-mistakes/",
+        "posts": [],
+        "annotations": [
+          {
+            "id": "adcc0c358c-mm-theme",
+            "annotation_id": "mm-theme",
+            "title": "Minimal Mistakes 主题",
+            "type": "link",
+            "text": "本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。",
+            "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme",
+            "link_url": "https://mmistakes.github.io/minimal-mistakes/",
+            "date": "",
+            "year": "2024",
+            "source": "",
+            "post_title": "[站点]-建站纪事-Building-Records",
+            "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+            "entities": {
+              "works": [
+                "Minimal Mistakes"
+              ],
+              "organizations": [
+                "Poke Amice Docs"
+              ]
+            }
+          }
+        ],
+        "years": [
+          "2024"
+        ]
+      },
+      "PokeAmice.com": {
+        "name": "PokeAmice.com",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/pokeamice-com/",
+        "posts": [],
+        "annotations": [
+          {
+            "id": "adcc0c358c-random-bg",
+            "annotation_id": "random-bg",
+            "title": "随机背景方案",
+            "type": "note",
+            "text": "这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。",
+            "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg",
+            "link_url": "",
+            "date": "",
+            "year": "2024",
+            "source": "",
+            "post_title": "[站点]-建站纪事-Building-Records",
+            "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+            "entities": {
+              "works": [
+                "PokeAmice.com"
+              ],
+              "organizations": [
+                "Poke Amice Docs"
+              ],
+              "events": [
+                "站点视觉系统"
+              ]
+            }
+          }
+        ],
+        "years": [
+          "2024"
+        ]
+      },
+      "宝可梦 红・绿": {
+        "name": "宝可梦 红・绿",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2e383bbe7bbbf/",
+        "posts": [
+          {
+            "id": "4165c21adc",
+            "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+            "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+            "date": "2026-06-21",
+            "year": "2026",
+            "source": "电击 Online 30周年纪念专栏",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "works": [
+                "宝可梦 红・绿",
+                "梦幻"
+              ],
+              "organizations": [
+                "电击 Online"
+              ],
+              "events": [
+                "宝可梦30周年"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2026"
+        ]
+      },
+      "梦幻": {
+        "name": "梦幻",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/e6a2a6e5b9bb/",
+        "posts": [
+          {
+            "id": "4165c21adc",
+            "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+            "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+            "date": "2026-06-21",
+            "year": "2026",
+            "source": "电击 Online 30周年纪念专栏",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "works": [
+                "宝可梦 红・绿",
+                "梦幻"
+              ],
+              "organizations": [
+                "电击 Online"
+              ],
+              "events": [
+                "宝可梦30周年"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2026"
+        ]
+      }
+    },
+    "organizations": {
+      "Camelot": {
+        "name": "Camelot",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/camelot/",
+        "posts": [
+          {
+            "id": "2ccce51815",
+            "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+            "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+            "date": "2021-11-01",
+            "year": "2021",
+            "source": "Nintendo DREAM 25th Anniversary",
+            "type": "scan_translation",
+            "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+            "entities": {
+              "people": [
+                "高桥宏之",
+                "高桥秀五"
+              ],
+              "organizations": [
+                "Camelot",
+                "Nintendo"
+              ],
+              "events": [
+                "DREAM 25TH 访谈"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2021"
+        ]
+      },
+      "Nintendo": {
+        "name": "Nintendo",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/nintendo/",
+        "posts": [
+          {
+            "id": "2ccce51815",
+            "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+            "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+            "date": "2021-11-01",
+            "year": "2021",
+            "source": "Nintendo DREAM 25th Anniversary",
+            "type": "scan_translation",
+            "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+            "entities": {
+              "people": [
+                "高桥宏之",
+                "高桥秀五"
+              ],
+              "organizations": [
+                "Camelot",
+                "Nintendo"
+              ],
+              "events": [
+                "DREAM 25TH 访谈"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2021"
+        ]
+      },
+      "Poke Amice Docs": {
+        "name": "Poke Amice Docs",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/poke-amice-docs/",
+        "posts": [],
+        "annotations": [
+          {
+            "id": "adcc0c358c-mm-theme",
+            "annotation_id": "mm-theme",
+            "title": "Minimal Mistakes 主题",
+            "type": "link",
+            "text": "本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。",
+            "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme",
+            "link_url": "https://mmistakes.github.io/minimal-mistakes/",
+            "date": "",
+            "year": "2024",
+            "source": "",
+            "post_title": "[站点]-建站纪事-Building-Records",
+            "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+            "entities": {
+              "works": [
+                "Minimal Mistakes"
+              ],
+              "organizations": [
+                "Poke Amice Docs"
+              ]
+            }
+          },
+          {
+            "id": "adcc0c358c-random-bg",
+            "annotation_id": "random-bg",
+            "title": "随机背景方案",
+            "type": "note",
+            "text": "这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。",
+            "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg",
+            "link_url": "",
+            "date": "",
+            "year": "2024",
+            "source": "",
+            "post_title": "[站点]-建站纪事-Building-Records",
+            "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+            "entities": {
+              "works": [
+                "PokeAmice.com"
+              ],
+              "organizations": [
+                "Poke Amice Docs"
+              ],
+              "events": [
+                "站点视觉系统"
+              ]
+            }
+          }
+        ],
+        "years": [
+          "2024"
+        ]
+      },
+      "电击 Online": {
+        "name": "电击 Online",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/online/",
+        "posts": [
+          {
+            "id": "4165c21adc",
+            "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+            "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+            "date": "2026-06-21",
+            "year": "2026",
+            "source": "电击 Online 30周年纪念专栏",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "works": [
+                "宝可梦 红・绿",
+                "梦幻"
+              ],
+              "organizations": [
+                "电击 Online"
+              ],
+              "events": [
+                "宝可梦30周年"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2026"
+        ]
+      }
+    },
+    "events": {
+      "DREAM 25TH 访谈": {
+        "name": "DREAM 25TH 访谈",
+        "type": "events",
+        "type_label": "事件",
+        "url": "/entities/events/dream-25th/",
+        "posts": [
+          {
+            "id": "2ccce51815",
+            "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+            "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+            "date": "2021-11-01",
+            "year": "2021",
+            "source": "Nintendo DREAM 25th Anniversary",
+            "type": "scan_translation",
+            "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+            "entities": {
+              "people": [
+                "高桥宏之",
+                "高桥秀五"
+              ],
+              "organizations": [
+                "Camelot",
+                "Nintendo"
+              ],
+              "events": [
+                "DREAM 25TH 访谈"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2021"
+        ]
+      },
+      "站点视觉系统": {
+        "name": "站点视觉系统",
+        "type": "events",
+        "type_label": "事件",
+        "url": "/entities/events/e7ab99e782b9e8a786e8a789e7b3bbe7bb9f/",
+        "posts": [],
+        "annotations": [
+          {
+            "id": "adcc0c358c-random-bg",
+            "annotation_id": "random-bg",
+            "title": "随机背景方案",
+            "type": "note",
+            "text": "这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。",
+            "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg",
+            "link_url": "",
+            "date": "",
+            "year": "2024",
+            "source": "",
+            "post_title": "[站点]-建站纪事-Building-Records",
+            "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+            "entities": {
+              "works": [
+                "PokeAmice.com"
+              ],
+              "organizations": [
+                "Poke Amice Docs"
+              ],
+              "events": [
+                "站点视觉系统"
+              ]
+            }
+          }
+        ],
+        "years": [
+          "2024"
+        ]
+      },
+      "宝可梦30周年": {
+        "name": "宝可梦30周年",
+        "type": "events",
+        "type_label": "事件",
+        "url": "/entities/events/30/",
+        "posts": [
+          {
+            "id": "4165c21adc",
+            "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+            "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+            "date": "2026-06-21",
+            "year": "2026",
+            "source": "电击 Online 30周年纪念专栏",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "works": [
+                "宝可梦 红・绿",
+                "梦幻"
+              ],
+              "organizations": [
+                "电击 Online"
+              ],
+              "events": [
+                "宝可梦30周年"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2026"
+        ]
+      }
+    }
+  },
+  "timeline": {
+    "2008": {
+      "year": "2008",
+      "url": "/timeline/2008/",
+      "posts": [
+        {
+          "id": "c4900f76e4",
+          "title": "[扫描访谈] DP anime ScanTailor OCR 竖排示例",
+          "url": "/访谈翻译/扫描存档/扫描访谈-DP-anime-ScanTailor-OCR竖排示例/",
+          "date": "2008-12-02",
+          "year": "2008",
+          "source": "DP anime",
+          "type": "访谈翻译",
+          "excerpt": "流程说明 这篇示例使用新的批处理脚本生成：ScanTailor 输出图先缩放到长边 3200，再自动切成 4 个竖向区域，随后逐栏 OCR，并按右到左合并 Markdown。 当前结果适合作为“校对初稿”，还不是正式译文。下一步可以继续优化切栏策略：先裁掉标题、人物图和页脚，再对纯正文区做更细的竖栏切分。",
+          "entities": {}
+        },
+        {
+          "id": "88c9ac483d",
+          "title": "[扫描访谈] DREAM 2008.12 OCR 翻译模板示例",
+          "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-2008-12-OCR翻译模板示例/",
+          "date": "2008-12-01",
+          "year": "2008",
+          "source": "DREAM",
+          "type": "访谈翻译",
+          "excerpt": "校对说明 这是一篇模板示例。正式导入时，可以把 OCR 后的日文原文和 DeepSeek 生成的译文写入 translationsegments，再逐段校对。 每个段落建议尽量短一些：一问一答、一小段解释或一个自然换气点都可以单独作为一个 segment。这样读者在右侧对照时，不会被长段落拖住，也更方便回看左侧扫描图。",
+          "entities": {}
+        }
+      ],
+      "annotations": []
+    },
+    "2021": {
+      "year": "2021",
+      "url": "/timeline/2021/",
+      "posts": [
+        {
+          "id": "2ccce51815",
+          "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+          "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+          "date": "2021-11-01",
+          "year": "2021",
+          "source": "Nintendo DREAM 25th Anniversary",
+          "type": "scan_translation",
+          "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+          "entities": {
+            "people": [
+              "高桥宏之",
+              "高桥秀五"
+            ],
+            "organizations": [
+              "Camelot",
+              "Nintendo"
+            ],
+            "events": [
+              "DREAM 25TH 访谈"
+            ]
+          }
+        }
+      ],
+      "annotations": []
+    },
+    "2022": {
+      "year": "2022",
+      "url": "/timeline/2022/",
+      "posts": [
+        {
+          "id": "b21d526ad0",
+          "title": "[采访] 宝可梦传说阿尔宙斯 日本游戏大赏 岩尾获奖感言",
+          "url": "/翻译/采访/采访-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言/",
+          "date": "2022-10-10",
+          "year": "2022",
+          "source": "",
+          "type": "Weibo",
+          "excerpt": "優秀賞 Pokémon LEGENDS アルセウス 译文 岩尾在『日本ゲーム大賞2022』优秀奖获奖页面上的完整获奖感言: 非常感谢大家的选择，能让『宝可梦传说 阿尔宙斯』在本次『日本游戏大奖』评选中脱颖而出，夺得优秀奖。 我谨代表全体开发人员，向每一位为本作投票的人们，以及全世界范围内担起了(收集图鉴的)大梁，奔走于洗翠地区进行宝可梦调查的玩家们，表示衷心",
+          "entities": {}
+        },
+        {
+          "id": "8226bd13ac",
+          "title": "[站点]-更新日志",
+          "url": "/sites/文档/Updates/",
+          "date": "2022-05-31",
+          "year": "2022",
+          "source": "",
+          "type": "Sites",
+          "excerpt": "Poke Amice 更新日志 From New to Old\\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 <a href = \"https://weibo.com/ttarticle/p/show?id=2309404775939119644801\" title = \"link weibo",
+          "entities": {}
+        }
+      ],
+      "annotations": []
+    },
+    "2024": {
+      "year": "2024",
+      "url": "/timeline/2024/",
+      "posts": [
+        {
+          "id": "628dfadbc9",
+          "title": "[站点] 2025 新年快乐",
+          "url": "/公告/sites/站点-2025-新年快乐/",
+          "date": "2024-12-30",
+          "year": "2024",
+          "source": "",
+          "type": "公告",
+          "excerpt": "公元2025年 农历乙巳年 新年快乐！ 施工中 过去的一年里我们度过了少有的没主机新作的年份。\\ 但这着实意味着Game Freak正在主导着宝可梦系列的开发周期,跳离了原有的年货以及三年一世代的周期框架。 {: .align-center}",
+          "entities": {}
+        },
+        {
+          "id": "50453d76b5",
+          "title": "[技能机] 卡图下载 查询时间 Download & Time Inqury",
+          "url": "/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/",
+          "date": "2024-12-24",
+          "year": "2024",
+          "source": "",
+          "type": "Tech",
+          "excerpt": "批量下载卡图&查询服务器存档时间 宝活小妙招\\ {: .align-center} 下载卡图！ 得先推测出链接的格式，比如 <a href=\"https://special.pokemon.cn/\" title = \"151\"https://special.pokemon.cn/</a 上有一些151卡图的链接 点开卡图后可以发现对应的静态链接 <a hre",
+          "entities": {}
+        },
+        {
+          "id": "adcc0c358c",
+          "title": "[站点]-建站纪事-Building-Records",
+          "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+          "date": "2024-12-10",
+          "year": "2024",
+          "source": "",
+          "type": "Sites",
+          "excerpt": "建站纪事&鸣谢 前人栽树，后人乘凉。\\ 立碑刻道，按图索骥。 Main Theme 站点已开源 https://github.com/Asimov2144/pokeamice 优化 采用主站Pokeamice.com的背景图随机方案，从已经逝去的宝衬衫项目的壁纸图库中随机。 api : https://pokeamice.com/bot/randomback",
+          "entities": {}
+        },
+        {
+          "id": "b74d3737be",
+          "title": "[长文] 拨云见日 从百代市到水脉图书馆",
+          "url": "/长文/分析/宝可梦友会/长文-拨云见日-从百代市到水脉图书馆/",
+          "date": "2024-10-24",
+          "year": "2024",
+          "source": "",
+          "type": "Weibo",
+          "excerpt": "<font color=gray size=2这段故事将从水脉图书馆一路讲到百代市。</font<br/ 写在前面的话： <center style=\"font-size:14px;color:C0C0C0;text-decoration:underline\"其即太阳</center &emsp;过去两年每每构思，撰写这篇文章的时候，总想着会赶在某年的LA（",
+          "entities": {}
+        },
+        {
+          "id": "163cce60c1",
+          "title": "[测试页面] 2024 宝可梦日 ",
+          "url": "/测试/测试页面-2024-宝可梦日/",
+          "date": "2024-02-27",
+          "year": "2024",
+          "source": "",
+          "type": "测试",
+          "excerpt": "[测试页面] 2024 宝可梦日 测试页面\\ 文字\\ 1 \\ 本地图片\\ \\ 服务器图片\\ \\ [](https://x.com/asimov74320758) <blockquote class=\"twitter-tweet\"<p lang=\"ja\" dir=\"ltr\"記念すべきポケモンカード最初の公式大会「ポケットモンスターカードゲーム第１回公式トーナメ",
+          "entities": {}
+        }
+      ],
+      "annotations": [
+        {
+          "id": "adcc0c358c-mm-theme",
+          "annotation_id": "mm-theme",
+          "title": "Minimal Mistakes 主题",
+          "type": "link",
+          "text": "本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。",
+          "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme",
+          "link_url": "https://mmistakes.github.io/minimal-mistakes/",
+          "date": "",
+          "year": "2024",
+          "source": "",
+          "post_title": "[站点]-建站纪事-Building-Records",
+          "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+          "entities": {
+            "works": [
+              "Minimal Mistakes"
+            ],
+            "organizations": [
+              "Poke Amice Docs"
+            ]
+          }
+        },
+        {
+          "id": "adcc0c358c-random-bg",
+          "annotation_id": "random-bg",
+          "title": "随机背景方案",
+          "type": "note",
+          "text": "这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。",
+          "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg",
+          "link_url": "",
+          "date": "",
+          "year": "2024",
+          "source": "",
+          "post_title": "[站点]-建站纪事-Building-Records",
+          "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+          "entities": {
+            "works": [
+              "PokeAmice.com"
+            ],
+            "organizations": [
+              "Poke Amice Docs"
+            ],
+            "events": [
+              "站点视觉系统"
+            ]
+          }
+        }
+      ]
+    },
+    "2025": {
+      "year": "2025",
+      "url": "/timeline/2025/",
+      "posts": [
+        {
+          "id": "3e78f89899",
+          "title": "[整理] 近年 Game Freak 开发事件年表",
+          "url": "/game-freak/整理/整理-GameFreak-Development-TimeLine/",
+          "date": "2025-01-01",
+          "year": "2025",
+          "source": "",
+          "type": "Weibo",
+          "excerpt": "近年 Game Freak 开发事件年表 第四时代末尾 2008年初 Game Freak迁入新办公室\\ New Office Desgin{:target=\"blank\"} Weibo 专栏介绍{:target=\"blank\"} 第五世代末尾 2012年6月23日 『宝可梦 黑2&白2』Pokémon Black 2 and White 2发售\\ 52po",
+          "entities": {}
+        }
+      ],
+      "annotations": []
+    },
+    "2026": {
+      "year": "2026",
+      "url": "/timeline/2026/",
+      "posts": [
+        {
+          "id": "4165c21adc",
+          "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+          "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+          "date": "2026-06-21",
+          "year": "2026",
+          "source": "电击 Online 30周年纪念专栏",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "works": [
+              "宝可梦 红・绿",
+              "梦幻"
+            ],
+            "organizations": [
+              "电击 Online"
+            ],
+            "events": [
+              "宝可梦30周年"
+            ]
+          }
+        }
+      ],
+      "annotations": []
+    }
+  },
+  "posts": [
+    {
+      "id": "88c9ac483d",
+      "title": "[扫描访谈] DREAM 2008.12 OCR 翻译模板示例",
+      "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-2008-12-OCR翻译模板示例/",
+      "date": "2008-12-01",
+      "year": "2008",
+      "source": "DREAM",
+      "type": "访谈翻译",
+      "excerpt": "校对说明 这是一篇模板示例。正式导入时，可以把 OCR 后的日文原文和 DeepSeek 生成的译文写入 translationsegments，再逐段校对。 每个段落建议尽量短一些：一问一答、一小段解释或一个自然换气点都可以单独作为一个 segment。这样读者在右侧对照时，不会被长段落拖住，也更方便回看左侧扫描图。",
+      "entities": {}
+    },
+    {
+      "id": "c4900f76e4",
+      "title": "[扫描访谈] DP anime ScanTailor OCR 竖排示例",
+      "url": "/访谈翻译/扫描存档/扫描访谈-DP-anime-ScanTailor-OCR竖排示例/",
+      "date": "2008-12-02",
+      "year": "2008",
+      "source": "DP anime",
+      "type": "访谈翻译",
+      "excerpt": "流程说明 这篇示例使用新的批处理脚本生成：ScanTailor 输出图先缩放到长边 3200，再自动切成 4 个竖向区域，随后逐栏 OCR，并按右到左合并 Markdown。 当前结果适合作为“校对初稿”，还不是正式译文。下一步可以继续优化切栏策略：先裁掉标题、人物图和页脚，再对纯正文区做更细的竖栏切分。",
+      "entities": {}
+    },
+    {
+      "id": "2ccce51815",
+      "title": "[扫描访谈] DREAM 25TH OCR 横排访谈示例",
+      "url": "/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/",
+      "date": "2021-11-01",
+      "year": "2021",
+      "source": "Nintendo DREAM 25th Anniversary",
+      "type": "scan_translation",
+      "excerpt": "流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文",
+      "entities": {
+        "people": [
+          "高桥宏之",
+          "高桥秀五"
+        ],
+        "organizations": [
+          "Camelot",
+          "Nintendo"
+        ],
+        "events": [
+          "DREAM 25TH 访谈"
+        ]
+      }
+    },
+    {
+      "id": "8226bd13ac",
+      "title": "[站点]-更新日志",
+      "url": "/sites/文档/Updates/",
+      "date": "2022-05-31",
+      "year": "2022",
+      "source": "",
+      "type": "Sites",
+      "excerpt": "Poke Amice 更新日志 From New to Old\\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 <a href = \"https://weibo.com/ttarticle/p/show?id=2309404775939119644801\" title = \"link weibo",
+      "entities": {}
+    },
+    {
+      "id": "b21d526ad0",
+      "title": "[采访] 宝可梦传说阿尔宙斯 日本游戏大赏 岩尾获奖感言",
+      "url": "/翻译/采访/采访-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言/",
+      "date": "2022-10-10",
+      "year": "2022",
+      "source": "",
+      "type": "Weibo",
+      "excerpt": "優秀賞 Pokémon LEGENDS アルセウス 译文 岩尾在『日本ゲーム大賞2022』优秀奖获奖页面上的完整获奖感言: 非常感谢大家的选择，能让『宝可梦传说 阿尔宙斯』在本次『日本游戏大奖』评选中脱颖而出，夺得优秀奖。 我谨代表全体开发人员，向每一位为本作投票的人们，以及全世界范围内担起了(收集图鉴的)大梁，奔走于洗翠地区进行宝可梦调查的玩家们，表示衷心",
+      "entities": {}
+    },
+    {
+      "id": "163cce60c1",
+      "title": "[测试页面] 2024 宝可梦日 ",
+      "url": "/测试/测试页面-2024-宝可梦日/",
+      "date": "2024-02-27",
+      "year": "2024",
+      "source": "",
+      "type": "测试",
+      "excerpt": "[测试页面] 2024 宝可梦日 测试页面\\ 文字\\ 1 \\ 本地图片\\ \\ 服务器图片\\ \\ [](https://x.com/asimov74320758) <blockquote class=\"twitter-tweet\"<p lang=\"ja\" dir=\"ltr\"記念すべきポケモンカード最初の公式大会「ポケットモンスターカードゲーム第１回公式トーナメ",
+      "entities": {}
+    },
+    {
+      "id": "b74d3737be",
+      "title": "[长文] 拨云见日 从百代市到水脉图书馆",
+      "url": "/长文/分析/宝可梦友会/长文-拨云见日-从百代市到水脉图书馆/",
+      "date": "2024-10-24",
+      "year": "2024",
+      "source": "",
+      "type": "Weibo",
+      "excerpt": "<font color=gray size=2这段故事将从水脉图书馆一路讲到百代市。</font<br/ 写在前面的话： <center style=\"font-size:14px;color:C0C0C0;text-decoration:underline\"其即太阳</center &emsp;过去两年每每构思，撰写这篇文章的时候，总想着会赶在某年的LA（",
+      "entities": {}
+    },
+    {
+      "id": "adcc0c358c",
+      "title": "[站点]-建站纪事-Building-Records",
+      "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+      "date": "2024-12-10",
+      "year": "2024",
+      "source": "",
+      "type": "Sites",
+      "excerpt": "建站纪事&鸣谢 前人栽树，后人乘凉。\\ 立碑刻道，按图索骥。 Main Theme 站点已开源 https://github.com/Asimov2144/pokeamice 优化 采用主站Pokeamice.com的背景图随机方案，从已经逝去的宝衬衫项目的壁纸图库中随机。 api : https://pokeamice.com/bot/randomback",
+      "entities": {}
+    },
+    {
+      "id": "50453d76b5",
+      "title": "[技能机] 卡图下载 查询时间 Download & Time Inqury",
+      "url": "/tech/ptcg/技能机-卡图下载-查询时间-Download-Inqury/",
+      "date": "2024-12-24",
+      "year": "2024",
+      "source": "",
+      "type": "Tech",
+      "excerpt": "批量下载卡图&查询服务器存档时间 宝活小妙招\\ {: .align-center} 下载卡图！ 得先推测出链接的格式，比如 <a href=\"https://special.pokemon.cn/\" title = \"151\"https://special.pokemon.cn/</a 上有一些151卡图的链接 点开卡图后可以发现对应的静态链接 <a hre",
+      "entities": {}
+    },
+    {
+      "id": "628dfadbc9",
+      "title": "[站点] 2025 新年快乐",
+      "url": "/公告/sites/站点-2025-新年快乐/",
+      "date": "2024-12-30",
+      "year": "2024",
+      "source": "",
+      "type": "公告",
+      "excerpt": "公元2025年 农历乙巳年 新年快乐！ 施工中 过去的一年里我们度过了少有的没主机新作的年份。\\ 但这着实意味着Game Freak正在主导着宝可梦系列的开发周期,跳离了原有的年货以及三年一世代的周期框架。 {: .align-center}",
+      "entities": {}
+    },
+    {
+      "id": "3e78f89899",
+      "title": "[整理] 近年 Game Freak 开发事件年表",
+      "url": "/game-freak/整理/整理-GameFreak-Development-TimeLine/",
+      "date": "2025-01-01",
+      "year": "2025",
+      "source": "",
+      "type": "Weibo",
+      "excerpt": "近年 Game Freak 开发事件年表 第四时代末尾 2008年初 Game Freak迁入新办公室\\ New Office Desgin{:target=\"blank\"} Weibo 专栏介绍{:target=\"blank\"} 第五世代末尾 2012年6月23日 『宝可梦 黑2&白2』Pokémon Black 2 and White 2发售\\ 52po",
+      "entities": {}
+    },
+    {
+      "id": "4165c21adc",
+      "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+      "url": "/翻译/专栏翻译-与宝可梦同行的30年-1996年-初代-红-绿-与幻之宝可梦梦幻-前篇/",
+      "date": "2026-06-21",
+      "year": "2026",
+      "source": "电击 Online 30周年纪念专栏",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "works": [
+          "宝可梦 红・绿",
+          "梦幻"
+        ],
+        "organizations": [
+          "电击 Online"
+        ],
+        "events": [
+          "宝可梦30周年"
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "adcc0c358c-mm-theme",
+      "annotation_id": "mm-theme",
+      "title": "Minimal Mistakes 主题",
+      "type": "link",
+      "text": "本站基础结构来自 Minimal Mistakes。后续的首页、侧边栏、扫描翻译页和评注系统都在这个主题上继续扩展。",
+      "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-mm-theme",
+      "link_url": "https://mmistakes.github.io/minimal-mistakes/",
+      "date": "",
+      "year": "2024",
+      "source": "",
+      "post_title": "[站点]-建站纪事-Building-Records",
+      "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+      "entities": {
+        "works": [
+          "Minimal Mistakes"
+        ],
+        "organizations": [
+          "Poke Amice Docs"
+        ]
+      }
+    },
+    {
+      "id": "adcc0c358c-random-bg",
+      "annotation_id": "random-bg",
+      "title": "随机背景方案",
+      "type": "note",
+      "text": "这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。",
+      "url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg",
+      "link_url": "",
+      "date": "",
+      "year": "2024",
+      "source": "",
+      "post_title": "[站点]-建站纪事-Building-Records",
+      "post_url": "/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/",
+      "entities": {
+        "works": [
+          "PokeAmice.com"
+        ],
+        "organizations": [
+          "Poke Amice Docs"
+        ],
+        "events": [
+          "站点视觉系统"
+        ]
+      }
+    }
+  ]
+}

@@ -1,8 +1,32 @@
 {% if post.header.teaser %}
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% elsif post.card_image %}
+  {% capture teaser %}{{ post.card_image }}{% endcapture %}
+{% elsif post.scan_pages and post.scan_pages[0].image %}
+  {% capture teaser %}{{ post.scan_pages[0].image }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
+
+{% unless teaser %}
+  {% assign content_images = post.content | split: "![](" %}
+  {% if content_images.size > 1 %}
+    {% assign teaser = content_images[1] | split: ")" | first %}
+  {% endif %}
+{% endunless %}
+
+{% unless teaser %}
+  {% assign alt_content_images = post.content | split: "](" %}
+  {% if alt_content_images.size > 1 and alt_content_images[0] contains "![" %}
+    {% assign teaser = alt_content_images[1] | split: ")" | first %}
+  {% endif %}
+{% endunless %}
+
+{% assign enable_card_image = true %}
+{% if page.layout == "single" %}
+  {% assign enable_card_image = false %}
+{% endif %}
+{% assign show_card_media = include.show_card_media | default: false %}
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -11,9 +35,10 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+  {% assign primary_category = post.categories | first | default: "default" | slugify %}
+  <article class="archive__item archive-card archive-card--{{ primary_category }}{% if teaser and enable_card_image %} has-card-image{% endif %}" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}{% if teaser and enable_card_image %} style="--card-image: url('{{ teaser | relative_url }}');"{% endif %}>
+    {% if teaser and enable_card_image and show_card_media %}
+      <div class="archive__item-teaser archive-card-media">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
     {% endif %}
@@ -25,9 +50,25 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    {% if post.workflow %}
+      {% assign workflow_label = "" %}
+      {% if post.workflow.proofreading == "pending" %}
+        {% assign workflow_label = "待校对" %}
+      {% elsif post.workflow.translation == "draft" %}
+        {% assign workflow_label = "翻译草稿" %}
+      {% elsif post.workflow.ocr == "draft" %}
+        {% assign workflow_label = "OCR草稿" %}
+      {% elsif post.workflow.published == "done" %}
+        {% assign workflow_label = "已发布" %}
+      {% endif %}
+      {% if workflow_label != "" %}
+        <p class="archive-resource-status"><i class="fas fa-tasks" aria-hidden="true"></i>{{ workflow_label }}</p>
+      {% endif %}
+    {% endif %}
     
     {% if post.categories.size > 0 %}
-      <div class="post-categories">
+      {% assign category_tooltip = post.categories | join: " / " %}
+      <div class="post-categories" title="{{ category_tooltip }}">
       {% for category in post.categories %}
       {% assign category_slug = category | slugify %}
       <a href="/categories/{{ category_slug }}" 
@@ -39,42 +80,24 @@
       </div>
       {% endif %}
       {% if post.tags.size > 0 %}
-    <div class="post-tags">
+      {% assign tag_tooltip = post.tags | join: " / " %}
+    <div class="post-tags" title="{{ tag_tooltip }}">
     {% for tag in post.tags %}
+      {% if forloop.index <= 4 %}
       {% assign tag_slug = tag | slugify %}
       <a href="/tags/{{ tag_slug }}" 
          class="taxonomy__link" 
          data-tooltip="查看所有 {{ tag }} 标签文章">
-        <i class="fas fa-tag"></i> {{ tag }}
+      <i class="fas fa-tag"></i> {{ tag }}
       </a>
+      {% endif %}
       {% endfor %}
+      {% if post.tags.size > 4 %}
+        <span class="taxonomy-more" title="{{ tag_tooltip }}">+{{ post.tags.size | minus: 4 }}</span>
+      {% endif %}
     </div>
 {% endif %}
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
   </article>
 </div>
-
-<style>
-.post-categories{
-  color:rgb(0, 0, 0);
-  padding: 3px 5px;
-  font-size: 0.77em;
-  font-weight: 600;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
-  display: inline-block;    /* 宽度由内容决定 */
-  background: rgba(51, 101, 200, 0.411); /* 半透明背景（示例使用50%黑）*/
-}
-.post-tags{
-  color:rgb(0, 0, 0);
-  padding: 1px 6px;
-  font-size: 0.7em;
-  font-weight: 600;
-  border-radius: 8px;
-  
-  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
-  display: inline-block;    /* 宽度由内容决定 */
-  background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
-}
-</style>

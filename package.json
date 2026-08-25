@@ -29,7 +29,10 @@
     "watch": "node watch.js",
     "watch:css": "node watch-css.js",
     "watch:js": "node watch-js.js",
-    "watch:all": "npm run watch:css && npm run watch:js"
+    "watch:all": "npm run watch:css && npm run watch:js",
+    "migrate:article": "node tools/migrate-article-images.mjs",
+    "import:wizard": "node tools/import-wizard-server.mjs",
+    "tools": "node tools/import-wizard-server.mjs"
   },
   "devDependencies": {
     "uglify-js": "^3.17.4"

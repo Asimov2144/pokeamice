@@ -171,6 +171,22 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  # Local archives, OCR experiments, generated output, and tool caches.
+  # Keep these out of GitHub Pages so the published site stays small.
+  - /weibo
+  - /DREAM 2008.12
+  - /archive
+  - /migration
+  - /ocr-output
+  - /ocr-output-*
+  - /.venv-*
+  - /.ocr-home
+  - /.paddlex-cache
+  - /.bundle-cache
+  - /.gem-spec-cache
+  - /.ruby-tmp
+  - /_site
+  - /assets/data/weibo-archive.json
   - vendor
   - .asset-cache
   - .bundle
@@ -183,6 +199,7 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - "*.gemspec"
   - Gruntfile.js
   - gulpfile.js
   - LICENSE
@@ -195,6 +212,9 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /tools # local scripts and content templates
+  - /automation-tests # local pipeline test write-ups
+  - /ocr-ab-tests
 keep_files:
   - .git
   - .svn
@@ -337,4 +357,3 @@ defaults:
       toc_label: "目录"
       toc_icon: "sort"
       toc_sticky: true
-

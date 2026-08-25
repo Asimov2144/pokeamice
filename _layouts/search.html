@@ -2,41 +2,296 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
+{% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  <div class="archive archive--search-lab">
+    <section class="search-lab" aria-label="资料检索中心">
+      <header class="search-lab__hero">
+        <p>Library Search</p>
+        <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
+        <span>把文章、访谈、扫描翻译和资料索引放在同一个检索入口里，之后资料变多时可以优先从这里进入。</span>
+      </header>
 
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
-    {% endunless %}
+      {{ content }}
 
-    {{ content }}
+      <form class="search-lab__bar" role="search" data-search-lab-form>
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input type="search" id="filteredSearchQuery" placeholder="搜索标题、正文、人物、作品或来源" autocomplete="off">
+        <button type="submit">检索</button>
+      </form>
 
-    {%- assign search_provider = site.search_provider | default: "lunr" -%}
-    {%- case search_provider -%}
-      {%- when "lunr" -%}
-        <input type="text" id="search" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-        <div id="results" class="results"></div>
-      {%- when "google" -%}
-        <form onsubmit="return googleCustomSearchExecute();" id="cse-search-box-form-id">
-        <input type="text" id="cse-search-input-box-id" class="search-input" placeholder="{{ site.data.ui-text[site.locale].search_placeholder_text | default: 'Enter your search term...' }}" />
-        </form>
-        <div id="results" class="results">
-          <gcse:searchresults-only></gcse:searchresults-only>
+      <section class="search-lab__filters" aria-label="筛选条件">
+        <label>
+          <span>人物</span>
+          <select id="searchPersonFilter"><option value="">全部人物</option></select>
+        </label>
+        <label>
+          <span>作品</span>
+          <select id="searchWorkFilter"><option value="">全部作品</option></select>
+        </label>
+        <label>
+          <span>年份</span>
+          <select id="searchYearFilter"><option value="">全部年份</option></select>
+        </label>
+        <label>
+          <span>来源</span>
+          <select id="searchSourceFilter"><option value="">全部来源</option></select>
+        </label>
+        <label>
+          <span>内容类型</span>
+          <select id="searchTypeFilter"><option value="">全部类型</option></select>
+        </label>
+      </section>
+
+      <section class="search-lab__tools" aria-label="检索工具">
+        <button type="button" data-search-reset>清空筛选</button>
+        <button type="button" data-search-mode="interview">只看访谈</button>
+        <a href="{{ '/resource-graph/' | relative_url }}">站内关系图谱</a>
+      </section>
+
+      <section class="search-lab__ai" aria-label="AI 辅助检索">
+        <div>
+          <strong>DeepSeek AI 检索</strong>
+          <span>通过本地代理读取当前筛选结果摘要，不在网页里保存 API Key。</span>
         </div>
-      {%- when "algolia" -%}
-        <div class="search-searchbar"></div>
-        <div class="search-hits"></div>
-    {%- endcase -%}
+        <input type="url" id="deepseekEndpoint" value="http://127.0.0.1:8787/search" aria-label="本地 DeepSeek 代理地址">
+        <button type="button" id="deepseekSearchButton">AI 总结</button>
+      </section>
+
+      <div class="search-lab__status" id="searchStatus" aria-live="polite">正在准备索引...</div>
+      <div class="search-lab__ai-output" id="deepseekOutput" hidden></div>
+      <div class="search-lab__results" id="filteredSearchResults"></div>
+    </section>
   </div>
 </div>
+
+<script>
+window.pokeamiceSearchSeed = [
+  {% for post in searchable_posts %}
+    {% assign archive_type = post.archive_type | default: post.resource_type %}
+    {% assign type_label = archive_type %}
+    {% if type_label == "interview_translation" %}
+      {% assign type_label = "访谈翻译" %}
+    {% elsif type_label == "scan_translation" %}
+      {% assign type_label = "扫描翻译" %}
+    {% elsif type_label == nil or type_label == "" %}
+      {% if post.categories contains "访谈翻译" %}
+        {% assign type_label = "访谈翻译" %}
+      {% elsif post.categories contains "文档" %}
+        {% assign type_label = "文档" %}
+      {% else %}
+        {% assign type_label = "文章" %}
+      {% endif %}
+    {% endif %}
+    {% assign source_title = post.source.title | default: post.publication | default: post.source.publication | default: "" %}
+    {
+      "kind": "post",
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "excerpt": {{ post.excerpt | markdownify | strip_html | strip_newlines | truncate: 180 | jsonify }},
+      "body": {{ post.content | markdownify | strip_html | strip_newlines | truncate: 1200 | jsonify }},
+      "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "year": {{ post.date | date: "%Y" | jsonify }},
+      "categories": {{ post.categories | jsonify }},
+      "tags": {{ post.tags | jsonify }},
+      "people": {% if post.entities.people %}{{ post.entities.people | jsonify }}{% else %}[]{% endif %},
+      "works": {% if post.entities.works %}{{ post.entities.works | jsonify }}{% else %}[]{% endif %},
+      "source": {{ source_title | jsonify }},
+      "type": {{ type_label | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const queryInput = document.getElementById("filteredSearchQuery");
+  const resultList = document.getElementById("filteredSearchResults");
+  const status = document.getElementById("searchStatus");
+  const form = document.querySelector("[data-search-lab-form]");
+  const resetButton = document.querySelector("[data-search-reset]");
+  const modeButtons = Array.from(document.querySelectorAll("[data-search-mode]"));
+  const aiButton = document.getElementById("deepseekSearchButton");
+  const aiEndpoint = document.getElementById("deepseekEndpoint");
+  const aiOutput = document.getElementById("deepseekOutput");
+  const filterEls = {
+    person: document.getElementById("searchPersonFilter"),
+    work: document.getElementById("searchWorkFilter"),
+    year: document.getElementById("searchYearFilter"),
+    source: document.getElementById("searchSourceFilter"),
+    type: document.getElementById("searchTypeFilter")
+  };
+  let items = (window.pokeamiceSearchSeed || []).slice();
+  let lastResults = [];
+
+  function escapeHtml(value) {
+    return String(value || "").replace(/[&<>"']/g, function(char) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char];
+    });
+  }
+
+  function normalize(value) {
+    return String(value || "").toLowerCase().trim();
+  }
+
+  function itemHaystack(item) {
+    return [
+      item.title,
+      item.excerpt,
+      item.body,
+      item.date,
+      item.source,
+      item.type,
+      (item.categories || []).join(" "),
+      (item.tags || []).join(" "),
+      (item.people || []).join(" "),
+      (item.works || []).join(" ")
+    ].join(" ").toLowerCase();
+  }
+
+  function contentType(raw) {
+    const text = String(raw || "");
+    if (/scan|扫描/i.test(text)) return "扫描翻译";
+    if (/interview|访谈/i.test(text)) return "访谈翻译";
+    if (/translation|翻译/i.test(text)) return "翻译";
+    if (/document|文档/i.test(text)) return "文档";
+    return text || "文章";
+  }
+
+  function getFilters() {
+    return {
+      query: normalize(queryInput.value),
+      person: filterEls.person.value,
+      work: filterEls.work.value,
+      year: filterEls.year.value,
+      source: filterEls.source.value,
+      type: filterEls.type.value
+    };
+  }
+
+  function matches(item, filters) {
+    const terms = filters.query.split(/\s+/).filter(Boolean);
+    const haystack = itemHaystack(item);
+    if (terms.length && !terms.every(function(term) { return haystack.includes(term); })) return false;
+    if (filters.person && !(item.people || []).includes(filters.person)) return false;
+    if (filters.work && !(item.works || []).includes(filters.work)) return false;
+    if (filters.year && String(item.year) !== filters.year) return false;
+    if (filters.source && String(item.source || "未注明来源") !== filters.source) return false;
+    if (filters.type && contentType(item.type) !== filters.type) return false;
+    return true;
+  }
+
+  function optionList(values, fallback) {
+    return `<option value="">${fallback}</option>` + values.map(function(value) {
+      return `<option value="${escapeHtml(value)}">${escapeHtml(value)}</option>`;
+    }).join("");
+  }
+
+  function populateFilters() {
+    const people = new Set();
+    const works = new Set();
+    const years = new Set();
+    const sources = new Set();
+    const types = new Set();
+    items.forEach(function(item) {
+      (item.people || []).forEach(function(value) { if (value) people.add(value); });
+      (item.works || []).forEach(function(value) { if (value) works.add(value); });
+      if (item.year) years.add(String(item.year));
+      if (item.source) sources.add(item.source);
+      types.add(contentType(item.type));
+    });
+    filterEls.person.innerHTML = optionList(Array.from(people).sort(), "全部人物");
+    filterEls.work.innerHTML = optionList(Array.from(works).sort(), "全部作品");
+    filterEls.year.innerHTML = optionList(Array.from(years).sort().reverse(), "全部年份");
+    filterEls.source.innerHTML = optionList(Array.from(sources).sort(), "全部来源");
+    filterEls.type.innerHTML = optionList(Array.from(types).sort(), "全部类型");
+  }
+
+  function render() {
+    const filters = getFilters();
+    lastResults = items.filter(function(item) { return matches(item, filters); });
+    status.textContent = `显示 ${lastResults.length} / ${items.length} 条资料`;
+    if (!lastResults.length) {
+      resultList.innerHTML = "<p class='search-lab__empty'>没有找到匹配结果。可以放宽筛选，或先只按年份、类型过滤。</p>";
+      return;
+    }
+    resultList.innerHTML = lastResults.slice(0, 80).map(function(item) {
+      const meta = [item.year, contentType(item.type), item.source].filter(Boolean).join(" · ");
+      const people = (item.people || []).slice(0, 3).map(function(value) { return `<span>${escapeHtml(value)}</span>`; }).join("");
+      const works = (item.works || []).slice(0, 3).map(function(value) { return `<span>${escapeHtml(value)}</span>`; }).join("");
+      return `
+        <article class="search-result-card search-result-card--${escapeHtml(item.kind)}">
+          <div class="search-result-card__meta">${escapeHtml(meta)}</div>
+          <h2><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h2>
+          <p>${escapeHtml(item.excerpt || item.body || "暂无摘要")}</p>
+          ${item.stats ? `<em>${escapeHtml(item.stats)}</em>` : ""}
+          <div class="search-result-card__tags">${people}${works}</div>
+        </article>
+      `;
+    }).join("");
+  }
+
+  function setMode(mode) {
+    Object.values(filterEls).forEach(function(select) { select.value = ""; });
+    if (mode === "interview") filterEls.type.value = "访谈翻译";
+    render();
+  }
+
+  function applyQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    queryInput.value = params.get("q") || "";
+    const type = params.get("type");
+    if (type && filterEls.type) filterEls.type.dataset.pendingValue = type;
+  }
+
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    render();
+  });
+  queryInput.addEventListener("input", render);
+  Object.values(filterEls).forEach(function(select) { select.addEventListener("change", render); });
+  resetButton.addEventListener("click", function() {
+    queryInput.value = "";
+    Object.values(filterEls).forEach(function(select) { select.value = ""; });
+    render();
+  });
+  modeButtons.forEach(function(button) {
+    button.addEventListener("click", function() { setMode(button.dataset.searchMode); });
+  });
+
+  aiButton.addEventListener("click", function() {
+    const query = queryInput.value.trim();
+    const context = lastResults.slice(0, 12).map(function(item) {
+      return {
+        title: item.title,
+        type: contentType(item.type),
+        source: item.source,
+        date: item.date,
+        excerpt: item.excerpt || item.body
+      };
+    });
+    aiOutput.hidden = false;
+    aiOutput.textContent = "正在连接本地 DeepSeek 代理...";
+    fetch(aiEndpoint.value, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query, filters: getFilters(), context })
+    }).then(function(response) {
+      return response.json().then(function(data) {
+        if (!response.ok) throw new Error(data.error || "AI 检索失败");
+        aiOutput.textContent = data.answer || "没有返回内容。";
+      });
+    }).catch(function(error) {
+      aiOutput.textContent = "尚未连接本地 AI 代理。可在本地运行 tools/deepseek-search-proxy.mjs 后重试。详情见编辑工作台。";
+    });
+  });
+
+  applyQueryParams();
+  populateFilters();
+  if (filterEls.type.dataset.pendingValue) {
+    filterEls.type.value = filterEls.type.dataset.pendingValue;
+  }
+  render();
+});
+</script>

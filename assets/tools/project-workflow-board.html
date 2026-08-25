@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>项目工作流推进台</title>
+  <style>
+    :root {
+      --bg: #f2f5f7;
+      --panel: #fff;
+      --ink: #1d2730;
+      --muted: #65727d;
+      --line: #dce4ea;
+      --accent: #b84848;
+      --accent-soft: rgba(184, 72, 72, 0.1);
+      --blue: #2f6f9f;
+      --green: #34785e;
+      --amber: #a86a1e;
+      --shadow: 0 14px 34px rgba(29, 39, 48, 0.09);
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      min-height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    button,
+    input,
+    textarea,
+    select { font: inherit; }
+
+    button {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 11px;
+      background: var(--panel);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    button.ghost {
+      background: transparent;
+    }
+
+    button:hover { border-color: #aebbc7; }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    input,
+    select {
+      min-height: 34px;
+      padding: 0 10px;
+    }
+
+    textarea {
+      min-height: 90px;
+      padding: 9px 10px;
+      resize: vertical;
+      line-height: 1.6;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: minmax(260px, 340px) minmax(0, 1fr);
+      gap: 14px;
+      min-height: 100vh;
+      padding: 14px;
+    }
+
+    body.tool-nav-enabled {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 100vh;
+    }
+
+    body.tool-nav-enabled > .app {
+      min-height: 0;
+      height: 100%;
+    }
+
+    .tool-nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 8px 18px rgba(29, 39, 48, 0.06);
+      z-index: 30;
+    }
+
+    .tool-nav__brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 4px;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .tool-nav__links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .tool-nav__links::-webkit-scrollbar { display: none; }
+
+    .tool-nav a:not(.tool-nav__brand) {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tool-nav a:not(.tool-nav__brand):hover,
+    .tool-nav a.is-active {
+      border-color: rgba(184, 72, 72, 0.24);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .sidebar,
+    .main {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar {
+      display: grid;
+      grid-template-rows: auto auto minmax(0, 1fr) auto;
+      overflow: hidden;
+    }
+
+    .hero,
+    .toolbar,
+    .footer {
+      border-bottom: 1px solid var(--line);
+      padding: 13px;
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      border-bottom: 0;
+    }
+
+    .hero p {
+      margin: 0 0 4px;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    .hero span,
+    .footer p {
+      display: block;
+      margin-top: 7px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .toolbar {
+      display: grid;
+      gap: 8px;
+    }
+
+    .toolbar .row,
+    .main-actions,
+    .stage-actions,
+    .quick-links,
+    .project-card__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      align-items: center;
+    }
+
+    .project-list {
+      min-height: 0;
+      overflow: auto;
+      padding: 10px;
+    }
+
+    .project-card {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-left: 5px solid var(--accent);
+      border-radius: 9px;
+      padding: 10px;
+      background: #fbfcfd;
+      text-align: left;
+    }
+
+    .project-card + .project-card { margin-top: 8px; }
+
+    .project-card[aria-current="true"] {
+      border-color: rgba(184, 72, 72, 0.55);
+      background: linear-gradient(135deg, rgba(184, 72, 72, 0.09), #fff 44%);
+    }
+
+    .project-card h2 {
+      margin: 0 0 6px;
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .project-card__meta span,
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      min-height: 22px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 8px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+    }
+
+    .progress {
+      height: 7px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7edf2;
+      margin-top: 9px;
+    }
+
+    .progress i {
+      display: block;
+      height: 100%;
+      width: var(--value, 0%);
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--accent), #d88a43);
+    }
+
+    .main {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      overflow: hidden;
+    }
+
+    .main-head {
+      display: grid;
+      gap: 10px;
+      border-bottom: 1px solid var(--line);
+      padding: 14px;
+      background: linear-gradient(135deg, rgba(47, 111, 159, 0.1), rgba(184, 72, 72, 0.08) 55%, #fff);
+    }
+
+    .main-title {
+      display: grid;
+      gap: 5px;
+    }
+
+    .main-title p {
+      margin: 0;
+      color: var(--accent);
+      font-size: 11px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .main-title h2 {
+      margin: 0;
+      font-size: clamp(22px, 3vw, 34px);
+      line-height: 1.18;
+    }
+
+    .main-title span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .workspace {
+      min-height: 0;
+      overflow: auto;
+      padding: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .panel h3 {
+      margin: 0;
+      border-bottom: 1px solid var(--line);
+      padding: 11px 12px;
+      font-size: 15px;
+    }
+
+    .panel-body {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .stage-list {
+      display: grid;
+      gap: 9px;
+    }
+
+    .stage {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: start;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 10px;
+      background: #fbfcfd;
+    }
+
+    .stage input {
+      width: 18px;
+      height: 18px;
+      margin-top: 2px;
+      accent-color: var(--accent);
+    }
+
+    .stage h4 {
+      margin: 0 0 4px;
+      font-size: 14px;
+      line-height: 1.35;
+    }
+
+    .stage p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .stage.done {
+      border-color: rgba(52, 120, 94, 0.35);
+      background: rgba(52, 120, 94, 0.07);
+    }
+
+    .stage.current {
+      border-color: rgba(184, 72, 72, 0.45);
+      box-shadow: inset 4px 0 0 rgba(184, 72, 72, 0.85);
+    }
+
+    .stage-actions button {
+      min-height: 28px;
+      padding: 0 8px;
+      font-size: 11px;
+    }
+
+    .next-step {
+      border-left: 5px solid var(--accent);
+      background: linear-gradient(135deg, var(--accent-soft), #fff 62%);
+    }
+
+    .quick-links a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0 10px;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .quick-links a:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .checklist {
+      display: grid;
+      gap: 8px;
+    }
+
+    .checklist label {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .checklist input {
+      width: 17px;
+      height: 17px;
+      margin-top: 1px;
+      accent-color: var(--accent);
+    }
+
+    .note-output {
+      min-height: 160px;
+      font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
+      font-size: 12px;
+      white-space: pre;
+    }
+
+    .empty {
+      display: grid;
+      place-items: center;
+      min-height: 380px;
+      border: 1px dashed var(--line);
+      border-radius: 10px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .empty strong {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--ink);
+      font-size: 18px;
+    }
+
+    @media (max-width: 1040px) {
+      .app,
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar,
+      .main {
+        overflow: visible;
+      }
+
+      .project-list,
+      .workspace {
+        overflow: visible;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .app {
+        padding: 8px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .main-actions button,
+      .toolbar button,
+      .toolbar input,
+      .toolbar select {
+        flex: 1 1 130px;
+      }
+    }
+  </style>
+</head>
+<body class="tool-nav-enabled">
+  <nav class="tool-nav" aria-label="本地编辑工具导航">
+    <a class="tool-nav__brand" href="/">Poke Amice Docs</a>
+    <div class="tool-nav__links">
+      <a href="/assets/tools/editor-toolbox.html#workflow">统一工具箱</a>
+      <a href="/local-editing-tools/">工具索引</a>
+      <a href="/assets/tools/magazine-region-annotator.html">杂志分区</a>
+      <a href="/assets/tools/ocr-project-queue.html">OCR 队列</a>
+      <a href="/assets/tools/ocr-translation-workbench.html">OCR 工作台</a>
+      <a href="/assets/tools/web-interview-capture.html">网页收录</a>
+      <a class="is-active" href="/assets/tools/project-workflow-board.html">项目看板</a>
+      <a href="/search/">资料检索</a>
+    </div>
+  </nav>
+  <main class="app">
+    <aside class="sidebar">
+      <header class="hero">
+        <p>Publishing Workflow</p>
+        <h1>项目工作流推进台</h1>
+        <span>把访谈收录、扫描 OCR、翻译、评注、索引、发布拆成可以一步步推进的项目。</span>
+      </header>
+
+      <section class="toolbar">
+        <label>搜索项目
+          <input id="search" placeholder="标题 / 来源 / 人物 / 标签">
+        </label>
+        <div class="row">
+          <select id="typeFilter" aria-label="类型筛选">
+            <option value="all">全部类型</option>
+            <option value="web-interview">网页访谈</option>
+            <option value="scan-interview">扫描访谈</option>
+            <option value="weibo">微博整理</option>
+            <option value="document">资料文档</option>
+          </select>
+          <button id="newProject" class="primary" type="button">新建项目</button>
+        </div>
+      </section>
+
+      <section id="projectList" class="project-list" aria-label="项目列表"></section>
+
+      <footer class="footer">
+        <div class="row">
+          <button id="exportData" type="button">导出 JSON</button>
+          <button id="importData" type="button">导入</button>
+          <input id="importFile" type="file" accept="application/json" hidden>
+        </div>
+        <p>进度保存在当前浏览器的本地存储中。需要换电脑时先导出 JSON。</p>
+      </footer>
+    </aside>
+
+    <section class="main">
+      <header class="main-head">
+        <div class="main-title">
+          <p id="projectEyebrow">No Project</p>
+          <h2 id="projectTitle">选择或新建一个项目</h2>
+          <span id="projectSummary">每个项目都会生成下一步、发布检查和 Markdown 草稿提示。</span>
+        </div>
+        <div class="main-actions">
+          <button id="saveProject" class="primary" type="button">保存进度</button>
+          <button id="duplicateProject" type="button">复制项目</button>
+          <button id="deleteProject" type="button">删除</button>
+          <button id="seedDemo" class="ghost" type="button">填入示例</button>
+        </div>
+      </header>
+
+      <div id="workspace" class="workspace"></div>
+    </section>
+  </main>
+
+  <template id="workspaceTemplate">
+    <div class="grid">
+      <section class="panel">
+        <h3>项目资料</h3>
+        <div class="panel-body">
+          <div class="form-grid">
+            <label>项目标题
+              <input id="title" data-field="title">
+            </label>
+            <label>内容类型
+              <select id="type" data-field="type">
+                <option value="web-interview">网页访谈</option>
+                <option value="scan-interview">扫描访谈</option>
+                <option value="weibo">微博整理</option>
+                <option value="document">资料文档</option>
+              </select>
+            </label>
+            <label>来源 / 媒体
+              <input data-field="source" placeholder="Nintendo DREAM / 官网 / 微博">
+            </label>
+            <label>年份
+              <input data-field="year" placeholder="2008">
+            </label>
+            <label>人物
+              <input data-field="people" placeholder="多人用逗号分隔">
+            </label>
+            <label>作品
+              <input data-field="works" placeholder="作品名，多个用逗号">
+            </label>
+            <label>标签
+              <input data-field="tags" placeholder="interview, translation">
+            </label>
+            <label>目标文件
+              <input data-field="target" placeholder="_posts/2026-06-25-title.md">
+            </label>
+          </div>
+          <label>项目说明
+            <textarea data-field="summary" placeholder="这篇资料的重点、收录理由、还缺什么"></textarea>
+          </label>
+          <div class="quick-links">
+            <a href="./web-interview-capture.html" target="_blank">网页访谈收录</a>
+            <a href="./magazine-region-annotator.html" target="_blank">杂志分区</a>
+            <a href="./article-translation-editor.html" target="_blank">翻译编辑器</a>
+            <a href="/search/" target="_blank">检索中心</a>
+            <a href="/metadata-schema/" target="_blank">元数据规范</a>
+          </div>
+        </div>
+      </section>
+
+      <aside class="panel next-step">
+        <h3>下一步</h3>
+        <div class="panel-body">
+          <strong id="nextTitle">等待项目</strong>
+          <p id="nextBody" class="hint">完成当前阶段后，这里会自动切到下一项。</p>
+          <div class="progress"><i id="detailProgress"></i></div>
+          <span id="progressLabel" class="pill">0%</span>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <h3>阶段推进</h3>
+        <div id="stageList" class="panel-body stage-list"></div>
+      </section>
+
+      <aside class="panel">
+        <h3>发布检查</h3>
+        <div id="publishChecklist" class="panel-body checklist"></div>
+      </aside>
+
+      <section class="panel">
+        <h3>备注 / 待办</h3>
+        <div class="panel-body">
+          <textarea data-field="notes" placeholder="校对问题、需要查证的人名、图片版权、待补链接等"></textarea>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <h3>生成清单</h3>
+        <div class="panel-body">
+          <button id="generateNote" type="button">生成 Markdown 清单</button>
+          <button id="copyNote" type="button">复制清单</button>
+          <textarea id="noteOutput" class="note-output" readonly></textarea>
+        </div>
+      </aside>
+    </div>
+  </template>
+
+  <script>
+    const storageKey = "pokeamice.projectWorkflow.v1";
+    const stages = [
+      ["collect", "素材收集", "确认原始链接、扫描图、微博 JSON 或网页正文已经保存。"],
+      ["clean", "预处理", "网页正文清理、扫描件裁切、分区或微博字段整理。"],
+      ["ocr", "OCR / 抽取", "生成可编辑文本，并保留原始图片、网页来源或导出文件。"],
+      ["translate", "翻译 / 整理", "完成译文、段落顺序、标题、摘要和正文结构。"],
+      ["annotate", "评注与链接", "补充人物、作品、术语、图片、链接解析和站内引用。"],
+      ["metadata", "资料卡片", "补齐分类、标签、年份、来源、entities、relations、workflow。"],
+      ["preview", "本地预览", "检查桌面端、移动端、黑色主题、引用、检索和关系图谱。"],
+      ["publish", "发布完成", "确认页面可访问，索引已更新，可以进入后续维护。"]
+    ];
+
+    const checklist = [
+      ["title", "标题、日期、来源和内容类型已确认"],
+      ["entities", "人物 / 作品 / 年份 / 标签能被检索筛选"],
+      ["source", "原始来源链接或扫描来源已经保留"],
+      ["translation", "原文、译文和评注已经校对"],
+      ["references", "正文引用与参考文献可复制"],
+      ["mobile", "手机端、黑色主题和图片显示正常"]
+    ];
+
+    const defaults = [
+      {
+        id: crypto.randomUUID(),
+        title: "网页访谈收录样例",
+        type: "web-interview",
+        source: "网页访谈",
+        year: "2026",
+        people: "受访者 A, 采访者 B",
+        works: "相关作品",
+        tags: "interview, web-archive, translation",
+        target: "_posts/2026-06-25-[网页收录]-sample.md",
+        summary: "用于测试网页访谈收录、翻译、评注和发布流程。",
+        notes: "先粘贴网页正文，再用网页访谈收录工具生成草稿。",
+        done: { collect: true, clean: true },
+        checks: { source: true }
+      }
+    ];
+
+    let state = loadState();
+    let activeId = state.activeId || state.projects[0]?.id || null;
+
+    const $ = (id) => document.getElementById(id);
+
+    function loadState() {
+      try {
+        const data = JSON.parse(localStorage.getItem(storageKey));
+        if (data && Array.isArray(data.projects)) return data;
+      } catch (_) {}
+      return { projects: defaults, activeId: defaults[0].id };
+    }
+
+    function saveState() {
+      state.activeId = activeId;
+      localStorage.setItem(storageKey, JSON.stringify(state, null, 2));
+    }
+
+    function activeProject() {
+      return state.projects.find((project) => project.id === activeId) || null;
+    }
+
+    function typeLabel(type) {
+      return {
+        "web-interview": "网页访谈",
+        "scan-interview": "扫描访谈",
+        weibo: "微博整理",
+        document: "资料文档"
+      }[type] || "资料项目";
+    }
+
+    function completion(project) {
+      const total = stages.length + checklist.length;
+      const stageDone = stages.filter(([key]) => project.done?.[key]).length;
+      const checkDone = checklist.filter(([key]) => project.checks?.[key]).length;
+      return Math.round(((stageDone + checkDone) / total) * 100);
+    }
+
+    function nextStage(project) {
+      return stages.find(([key]) => !project.done?.[key]) || stages[stages.length - 1];
+    }
+
+    function filteredProjects() {
+      const query = $("search").value.trim().toLowerCase();
+      const type = $("typeFilter").value;
+      return state.projects.filter((project) => {
+        const haystack = [project.title, project.source, project.people, project.works, project.tags, project.summary].join(" ").toLowerCase();
+        const typeOk = type === "all" || project.type === type;
+        return typeOk && (!query || haystack.includes(query));
+      });
+    }
+
+    function renderList() {
+      const list = $("projectList");
+      list.innerHTML = "";
+      filteredProjects().forEach((project) => {
+        const value = completion(project);
+        const button = document.createElement("button");
+        button.className = "project-card";
+        button.type = "button";
+        button.setAttribute("aria-current", project.id === activeId ? "true" : "false");
+        button.innerHTML = `
+          <h2>${escapeHtml(project.title || "未命名项目")}</h2>
+          <div class="project-card__meta">
+            <span>${typeLabel(project.type)}</span>
+            <span>${escapeHtml(project.year || "未定年份")}</span>
+            <span>${value}%</span>
+          </div>
+          <div class="progress" aria-hidden="true"><i style="--value:${value}%"></i></div>
+        `;
+        button.addEventListener("click", () => {
+          activeId = project.id;
+          saveState();
+          render();
+        });
+        list.appendChild(button);
+      });
+      if (!list.children.length) {
+        list.innerHTML = `<div class="empty"><span><strong>没有匹配项目</strong>换一个关键词或新建项目。</span></div>`;
+      }
+    }
+
+    function renderWorkspace() {
+      const project = activeProject();
+      const root = $("workspace");
+      if (!project) {
+        root.innerHTML = `<div class="empty"><span><strong>还没有项目</strong>点击左侧“新建项目”开始。</span></div>`;
+        $("projectEyebrow").textContent = "No Project";
+        $("projectTitle").textContent = "选择或新建一个项目";
+        $("projectSummary").textContent = "每个项目都会生成下一步、发布检查和 Markdown 草稿提示。";
+        return;
+      }
+
+      root.innerHTML = "";
+      root.appendChild($("workspaceTemplate").content.cloneNode(true));
+      $("projectEyebrow").textContent = `${typeLabel(project.type)} / ${project.year || "未定年份"}`;
+      $("projectTitle").textContent = project.title || "未命名项目";
+      $("projectSummary").textContent = project.summary || "暂无说明。";
+
+      root.querySelectorAll("[data-field]").forEach((field) => {
+        field.value = project[field.dataset.field] || "";
+        field.addEventListener("input", () => {
+          project[field.dataset.field] = field.value;
+          if (field.dataset.field === "type" || field.dataset.field === "title" || field.dataset.field === "summary" || field.dataset.field === "year") {
+            renderHeadOnly(project);
+          }
+          saveState();
+          renderList();
+        });
+      });
+
+      renderStages(project);
+      renderChecklist(project);
+      renderNext(project);
+      root.querySelector("#generateNote").addEventListener("click", () => generateNote(project));
+      root.querySelector("#copyNote").addEventListener("click", () => copyText(root.querySelector("#noteOutput").value, root.querySelector("#copyNote")));
+    }
+
+    function renderHeadOnly(project) {
+      $("projectEyebrow").textContent = `${typeLabel(project.type)} / ${project.year || "未定年份"}`;
+      $("projectTitle").textContent = project.title || "未命名项目";
+      $("projectSummary").textContent = project.summary || "暂无说明。";
+    }
+
+    function renderStages(project) {
+      const list = $("stageList");
+      list.innerHTML = "";
+      const next = nextStage(project)[0];
+      stages.forEach(([key, title, body]) => {
+        const item = document.createElement("article");
+        const done = !!project.done?.[key];
+        item.className = `stage${done ? " done" : ""}${key === next && !done ? " current" : ""}`;
+        item.innerHTML = `
+          <input type="checkbox" ${done ? "checked" : ""} aria-label="${title}">
+          <div>
+            <h4>${title}</h4>
+            <p>${body}</p>
+          </div>
+          <div class="stage-actions">
+            <button type="button">${done ? "撤回" : "完成"}</button>
+          </div>
+        `;
+        const toggle = () => {
+          project.done = project.done || {};
+          project.done[key] = !project.done[key];
+          saveState();
+          render();
+        };
+        item.querySelector("input").addEventListener("change", toggle);
+        item.querySelector("button").addEventListener("click", toggle);
+        list.appendChild(item);
+      });
+    }
+
+    function renderChecklist(project) {
+      const list = $("publishChecklist");
+      list.innerHTML = "";
+      checklist.forEach(([key, text]) => {
+        const row = document.createElement("label");
+        row.innerHTML = `<input type="checkbox" ${project.checks?.[key] ? "checked" : ""}> <span>${text}</span>`;
+        row.querySelector("input").addEventListener("change", (event) => {
+          project.checks = project.checks || {};
+          project.checks[key] = event.target.checked;
+          saveState();
+          renderList();
+          renderNext(project);
+        });
+        list.appendChild(row);
+      });
+    }
+
+    function renderNext(project) {
+      const [key, title, body] = nextStage(project);
+      const value = completion(project);
+      $("nextTitle").textContent = project.done?.[key] && key === "publish" ? "项目已完成" : title;
+      $("nextBody").textContent = project.done?.[key] && key === "publish" ? "可以继续维护索引、补充评注或开始下一个项目。" : body;
+      $("detailProgress").style.setProperty("--value", `${value}%`);
+      $("progressLabel").textContent = `${value}%`;
+    }
+
+    function render() {
+      renderList();
+      renderWorkspace();
+    }
+
+    function createProject(template = {}) {
+      const project = {
+        id: crypto.randomUUID(),
+        title: template.title || "未命名资料项目",
+        type: template.type || "web-interview",
+        source: template.source || "",
+        year: template.year || new Date().getFullYear().toString(),
+        people: template.people || "",
+        works: template.works || "",
+        tags: template.tags || "archive, documentation",
+        target: template.target || "",
+        summary: template.summary || "",
+        notes: template.notes || "",
+        done: template.done || {},
+        checks: template.checks || {}
+      };
+      state.projects.unshift(project);
+      activeId = project.id;
+      saveState();
+      render();
+    }
+
+    function duplicateProject() {
+      const project = activeProject();
+      if (!project) return;
+      createProject({ ...project, id: undefined, title: `${project.title} 副本` });
+    }
+
+    function deleteProject() {
+      const project = activeProject();
+      if (!project || !confirm(`删除项目“${project.title}”？`)) return;
+      state.projects = state.projects.filter((item) => item.id !== project.id);
+      activeId = state.projects[0]?.id || null;
+      saveState();
+      render();
+    }
+
+    function generateNote(project) {
+      const doneStages = stages.filter(([key]) => project.done?.[key]).map(([, title]) => `- [x] ${title}`);
+      const todoStages = stages.filter(([key]) => !project.done?.[key]).map(([, title]) => `- [ ] ${title}`);
+      const checks = checklist.map(([key, text]) => `- [${project.checks?.[key] ? "x" : " "}] ${text}`);
+      const text = [
+        `# ${project.title || "未命名项目"}`,
+        "",
+        `- 类型：${typeLabel(project.type)}`,
+        `- 来源：${project.source || "未填写"}`,
+        `- 年份：${project.year || "未填写"}`,
+        `- 人物：${project.people || "未填写"}`,
+        `- 作品：${project.works || "未填写"}`,
+        `- 标签：${project.tags || "未填写"}`,
+        `- 目标文件：${project.target || "未填写"}`,
+        "",
+        "## 说明",
+        project.summary || "暂无说明。",
+        "",
+        "## 已完成",
+        ...(doneStages.length ? doneStages : ["- 暂无"]),
+        "",
+        "## 下一步",
+        ...(todoStages.length ? todoStages : ["- [x] 已完成全部阶段"]),
+        "",
+        "## 发布检查",
+        ...checks,
+        "",
+        "## 备注",
+        project.notes || "暂无备注。"
+      ].join("\n");
+      $("noteOutput").value = text;
+    }
+
+    function copyText(text, button) {
+      if (!text) return;
+      const mark = (value) => {
+        const old = button.textContent;
+        button.textContent = value;
+        setTimeout(() => { button.textContent = old; }, 1200);
+      };
+      const fallback = () => {
+        const area = document.createElement("textarea");
+        area.value = text;
+        area.style.position = "fixed";
+        area.style.top = "-9999px";
+        document.body.appendChild(area);
+        area.select();
+        let ok = false;
+        try { ok = document.execCommand("copy"); } catch (_) { ok = false; }
+        document.body.removeChild(area);
+        mark(ok ? "已复制" : "请手动复制");
+      };
+      if (!navigator.clipboard) return fallback();
+      navigator.clipboard.writeText(text).then(() => mark("已复制")).catch(fallback);
+    }
+
+    function exportData() {
+      const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `pokeamice-workflow-${new Date().toISOString().slice(0, 10)}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function importData(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        try {
+          const data = JSON.parse(reader.result);
+          if (!data || !Array.isArray(data.projects)) throw new Error("bad file");
+          state = data;
+          activeId = data.activeId || data.projects[0]?.id || null;
+          saveState();
+          render();
+        } catch (_) {
+          alert("无法读取这个工作流 JSON。");
+        }
+      };
+      reader.readAsText(file);
+    }
+
+    function escapeHtml(text) {
+      return String(text || "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+      }[char]));
+    }
+
+    $("newProject").addEventListener("click", () => createProject());
+    $("saveProject").addEventListener("click", () => {
+      saveState();
+      const old = $("saveProject").textContent;
+      $("saveProject").textContent = "已保存";
+      setTimeout(() => { $("saveProject").textContent = old; }, 1200);
+    });
+    $("duplicateProject").addEventListener("click", duplicateProject);
+    $("deleteProject").addEventListener("click", deleteProject);
+    $("seedDemo").addEventListener("click", () => createProject(defaults[0]));
+    $("search").addEventListener("input", renderList);
+    $("typeFilter").addEventListener("change", renderList);
+    $("exportData").addEventListener("click", exportData);
+    $("importData").addEventListener("click", () => $("importFile").click());
+    $("importFile").addEventListener("change", (event) => {
+      const file = event.target.files[0];
+      if (file) importData(file);
+      event.target.value = "";
+    });
+
+    render();
+  </script>
+</body>
+</html>

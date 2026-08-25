@@ -1,5 +1,13 @@
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/jquery/jquery-3.6.0.js' | relative_url }}?v=local-3.6.0"></script>
+<script>
+  if (typeof window.jQuery === "undefined" && typeof module === "object" && module.exports && module.exports.fn) {
+    window.jQuery = window.$ = module.exports;
+  }
+</script>
 <script src="{{ './assets/js/plugins/jquery.fitvids.js' | relative_url }}"></script>
+<script src="{{ './assets/js/plugins/gumshoe.js' | relative_url }}"></script>
+<script src="{{ './assets/js/plugins/jquery.ba-throttle-debounce.js' | relative_url }}"></script>
+<script src="{{ './assets/js/plugins/jquery.greedy-navigation.js' | relative_url }}"></script>
 <script src="{{ './assets/js/plugins/smooth-scroll.js' | relative_url }}"></script>
 <script src="{{ './assets/js/plugins/jquery.magnific-popup.js' | relative_url }}"></script>
 
@@ -10,6 +18,10 @@
   {% endfor %}
 {% else %}
   <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+{% endif %}
+
+{% if page.annotations %}
+  <script src="{{ '/assets/js/article-annotations.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.search == true or page.layout == "search" %}

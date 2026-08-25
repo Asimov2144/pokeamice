@@ -1,0 +1,48 @@
+{% if page.annotations %}
+  <aside class="article-annotations" aria-label="文章评注">
+    <header class="article-annotations__header">
+      <span>Annotations</span>
+      <strong>评注</strong>
+    </header>
+    <div class="article-annotations__list">
+      {% for annotation in page.annotations %}
+        {% assign annotation_id = annotation.id | default: forloop.index %}
+        {% assign annotation_type = annotation.type | default: "note" %}
+        {% assign fallback_skin_index = forloop.index0 | modulo: 12 | plus: 1 %}
+        {% assign annotation_skin = annotation.skin | default: fallback_skin_index | prepend: "box-" %}
+        {% if annotation.skin %}
+          {% assign annotation_skin = annotation.skin %}
+        {% endif %}
+        <article class="article-annotation article-annotation--{{ annotation_type | slugify }} article-annotation--{{ annotation_skin | slugify }}" id="annotation-{{ annotation_id | slugify }}" data-annotation-card="{{ annotation_id | escape }}">
+          <div class="article-annotation__meta">
+            <span>{{ annotation_type }}</span>
+            <a href="#annotation-{{ annotation_id | slugify }}">#{{ forloop.index }}</a>
+          </div>
+          {% if annotation.title %}
+            <h2>{{ annotation.title }}</h2>
+          {% endif %}
+          {% if annotation.image %}
+            <figure class="article-annotation__figure">
+              <img src="{{ annotation.image | relative_url }}" alt="{{ annotation.image_alt | default: annotation.title | default: 'annotation image' | escape }}">
+              {% if annotation.caption %}
+                <figcaption>{{ annotation.caption }}</figcaption>
+              {% endif %}
+            </figure>
+          {% endif %}
+          {% if annotation.text %}
+            <div class="article-annotation__text">
+              {{ annotation.text | markdownify }}
+            </div>
+          {% endif %}
+          {% if annotation.url %}
+            {% assign link_host = annotation.url | replace: "https://", "" | replace: "http://", "" | split: "/" | first %}
+            <a class="article-annotation__link" href="{{ annotation.url }}" target="_blank" rel="noopener">
+              <span>{{ annotation.link_label | default: "参考链接" }}</span>
+              <small>{{ link_host }}</small>
+            </a>
+          {% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </aside>
+{% endif %}

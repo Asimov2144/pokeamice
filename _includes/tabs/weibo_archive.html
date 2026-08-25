@@ -1,130 +1,488 @@
-<div class="weibo-archive-container">
-  <div class="search-box" style="margin-bottom: 20px;">
-    <input type="text" id="weiboSearch" placeholder="输入时间、标题、作品或宝可梦进行搜索..." style="width: 100%; padding: 10px; border-radius: 5px; border: 1px solid #ccc; box-sizing: border-box;">
+<section class="weibo-archive-container" aria-label="微博存档">
+  <div class="weibo-toolbar">
+    <div>
+      <p class="weibo-kicker">Weibo Archive</p>
+      <h2 class="weibo-heading">微博存档</h2>
+    </div>
+    <div class="weibo-summary" id="weiboSummary">读取中...</div>
   </div>
 
-  <div class="weibo-list" id="weiboList">
-    {% assign weibo_posts = site.posts | where: "category", "微博存档" %}
-
-    {% assign postsByYear = weibo_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-
-    {% for year_group in postsByYear %}
-    <div class="year-group">
-      <h3 class="year-title" onclick="toggleMonths(this)">{{ year_group.name }} <span>({{ year_group.items | size }})</span></h3>
-      <div class="months-container" style="display: none; padding-left: 20px;">
-        {% assign postsByMonth = year_group.items | group_by_exp: "post", "post.date | date: '%m'" %}
-        {% for month_group in postsByMonth %}
-        <div class="month-group">
-          <h4 class="month-title" onclick="togglePosts(this)">{{ month_group.name }}月 <span>({{ month_group.items | size }})</span></h4>
-          <div class="posts-container" style="display: none; padding-left: 20px;">
-            {% for post in month_group.items %}
-            <div class="weibo-post" data-search="{{ post.date | date: '%Y-%m-%d' }} {{ post.title }} {% if post.work %}{{ post.work }}{% endif %} {% if post.pokemon %}{{ post.pokemon }}{% endif %}">
-              <h5><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h5>
-              <p class="weibo-meta">
-                时间: {{ post.date | date: "%Y-%m-%d" }}
-                {% if post.work %} | 作品: {{ post.work }}{% endif %}
-                {% if post.pokemon %} | 宝可梦: {{ post.pokemon }}{% endif %}
-              </p>
-              <div class="weibo-content">
-                {{ post.excerpt | strip_html | truncate: 150 }}
-              </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endfor %}
-      </div>
-    </div>
-    {% else %}
-    <!-- 示例数据结构 -->
-    <div class="year-group">
-      <h3 class="year-title" onclick="toggleMonths(this)">2023 <span>(3)</span></h3>
-      <div class="months-container" style="display: none; padding-left: 20px;">
-        <div class="month-group">
-          <h4 class="month-title" onclick="togglePosts(this)">10月 <span>(2)</span></h4>
-          <div class="posts-container" style="display: none; padding-left: 20px;">
-            <div class="weibo-post" data-search="2023-10-15 宝可梦大集结 更新公告 喷火龙">
-              <h5><a href="#">宝可梦大集结 更新公告</a></h5>
-              <p class="weibo-meta">时间: 2023-10-15 | 作品: 宝可梦大集结 | 宝可梦: 喷火龙</p>
-              <div class="weibo-content">
-                喷火龙的伤害将在下周更新中进行调整...
-              </div>
-            </div>
-            <div class="weibo-post" data-search="2023-10-02 宝可梦睡眠 增加卡比兽">
-              <h5><a href="#">宝可梦睡眠 增加卡比兽</a></h5>
-              <p class="weibo-meta">时间: 2023-10-02 | 作品: Pokemon Sleep | 宝可梦: 卡比兽</p>
-              <div class="weibo-content">
-                现在可以在岛上遇到更多卡比兽！
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="month-group">
-          <h4 class="month-title" onclick="togglePosts(this)">09月 <span>(1)</span></h4>
-          <div class="posts-container" style="display: none; padding-left: 20px;">
-            <div class="weibo-post" data-search="2023-09-12 朱紫零之秘宝 DLC发售">
-              <h5><a href="#">朱紫零之秘宝 DLC发售</a></h5>
-              <p class="weibo-meta">时间: 2023-09-12 | 作品: 宝可梦 朱/紫 | 宝可梦: 厄鬼椪</p>
-              <div class="weibo-content">
-                今天正式解锁！
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+  <div class="weibo-search-panel">
+    <input type="search" id="weiboSearch" placeholder="搜索正文、日期、来源或类型" autocomplete="off">
+    <select id="weiboYearFilter" aria-label="按年份筛选">
+      <option value="">全部年份</option>
+    </select>
   </div>
-</div>
+
+  <div class="weibo-state" id="weiboState">正在加载微博存档...</div>
+  <div class="weibo-timeline" id="weiboList"></div>
+</section>
 
 <script>
-function toggleMonths(element) {
-  const container = element.nextElementSibling;
-  container.style.display = container.style.display === 'none' ? 'block' : 'none';
-}
+document.addEventListener("DOMContentLoaded", function() {
+  const dataSources = [
+    "{{ '/assets/data/weibo-archive.json' | relative_url }}",
+    "{{ '/weibo/weibo-data-2144jx%20(1).json' | relative_url }}",
+    "{{ '/weibo/weibo-data-2144jx.json' | relative_url }}"
+  ];
 
-function togglePosts(element) {
-  const container = element.nextElementSibling;
-  container.style.display = container.style.display === 'none' ? 'block' : 'none';
-}
+  const list = document.getElementById("weiboList");
+  const state = document.getElementById("weiboState");
+  const summary = document.getElementById("weiboSummary");
+  const searchInput = document.getElementById("weiboSearch");
+  const yearFilter = document.getElementById("weiboYearFilter");
+  const sidebarSearchInput = document.getElementById("weiboSidebarSearch");
+  const sidebarYearFilter = document.getElementById("weiboSidebarYearFilter");
+  const sidebarSummary = document.getElementById("weiboSidebarSummary");
+  const searchInputs = [searchInput, sidebarSearchInput].filter(Boolean);
+  const yearFilters = [yearFilter, sidebarYearFilter].filter(Boolean);
+  const siteBase = "{{ site.baseurl }}";
+  let posts = [];
+  let filters = {
+    keyword: "",
+    year: ""
+  };
 
-document.getElementById('weiboSearch').addEventListener('input', function(e) {
-  const searchTerm = e.target.value.toLowerCase();
-  const posts = document.querySelectorAll('.weibo-post');
+  function escapeHtml(value) {
+    return String(value || "").replace(/[&<>"']/g, function(char) {
+      return {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      }[char];
+    });
+  }
 
-  posts.forEach(post => {
-    const text = post.getAttribute('data-search').toLowerCase();
-    if(text.includes(searchTerm)) {
-      post.style.display = 'block';
-      // Automatically expand parents if matching
-      if(searchTerm !== "") {
-          post.closest('.posts-container').style.display = 'block';
-          post.closest('.months-container').style.display = 'block';
-      }
-    } else {
-      post.style.display = 'none';
+  function mediaUrl(url) {
+    if (!url) return "";
+    if (/^https?:\/\//.test(url)) return url;
+    return siteBase && url.charAt(0) === "/" ? siteBase + url : url;
+  }
+
+  function normalizePost(raw, index) {
+    const dateTime = raw.dateTime || raw.createdAt || raw.created_at || raw.time || raw.date || "";
+    const dateMatch = String(dateTime).match(/(\d{4})[-\/年](\d{1,2})[-\/月](\d{1,2})/);
+    const year = raw.year || (dateMatch ? Number(dateMatch[1]) : "");
+    const month = raw.month || (dateMatch ? Number(dateMatch[2]) : "");
+    const day = raw.day || (dateMatch ? Number(dateMatch[3]) : "");
+    const timeMatch = String(dateTime).match(/(\d{1,2}:\d{2}(?::\d{2})?)/);
+    const text = raw.text || raw.content || raw.text_raw || raw.longText || "";
+    const images = raw.images || raw.pics || raw.pic_urls || [];
+
+    return {
+      id: raw.id || raw.mid || "weibo-" + index,
+      author: raw.author || raw.userName || "2144jx",
+      date: raw.date || (dateMatch ? `${dateMatch[1]}-${String(dateMatch[2]).padStart(2, "0")}-${String(dateMatch[3]).padStart(2, "0")}` : ""),
+      time: raw.time || (timeMatch ? timeMatch[1] : ""),
+      year,
+      month,
+      day,
+      type: raw.type || raw.category || "微博",
+      source: raw.source || "",
+      reposts: Number(raw.reposts || raw.reposts_count || raw.repostsCount || 0),
+      comments: Number(raw.comments || raw.comments_count || raw.commentsCount || 0),
+      likes: Number(raw.likes || raw.attitudes_count || raw.likesCount || 0),
+      text,
+      images: images.map(function(item) {
+        return typeof item === "string" ? item : (item.url || item.large || item.thumbnail || "");
+      }).filter(Boolean),
+      videos: raw.videos || raw.video_urls || []
+    };
+  }
+
+  function groupPosts(items) {
+    return items.reduce(function(groups, post) {
+      const year = post.year || "未注明年份";
+      const month = post.month ? String(post.month).padStart(2, "0") : "未注明月份";
+      groups[year] = groups[year] || {};
+      groups[year][month] = groups[year][month] || [];
+      groups[year][month].push(post);
+      return groups;
+    }, {});
+  }
+
+  function renderImages(images) {
+    if (!images.length) return "";
+    const visible = images.slice(0, 9);
+    const extra = images.length - visible.length;
+    return `
+      <div class="weibo-media-grid weibo-media-${Math.min(visible.length, 4)}">
+        ${visible.map(function(src, index) {
+          return `<a href="${escapeHtml(mediaUrl(src))}" target="_blank" rel="noopener" class="weibo-media-item">
+            <img src="${escapeHtml(mediaUrl(src))}" alt="微博配图 ${index + 1}" loading="lazy">
+            ${extra > 0 && index === visible.length - 1 ? `<span class="weibo-media-more">+${extra}</span>` : ""}
+          </a>`;
+        }).join("")}
+      </div>
+    `;
+  }
+
+  function renderPost(post) {
+    const searchText = [
+      post.date,
+      post.time,
+      post.type,
+      post.source,
+      post.text
+    ].join(" ").toLowerCase();
+
+    return `
+      <article class="weibo-post" data-year="${escapeHtml(post.year)}" data-search="${escapeHtml(searchText)}">
+        <header class="weibo-post-header">
+          <img class="weibo-avatar" src="${mediaUrl("/weibo/img/006SNtUgly8gr0709hq80j30ig0igmxu.jpg")}" alt="2144jx">
+          <div>
+            <h3>${escapeHtml(post.author)}</h3>
+            <p>${escapeHtml(post.date)} ${escapeHtml(post.time)} · ${escapeHtml(post.source || "微博")}</p>
+          </div>
+          <span class="weibo-type">${escapeHtml(post.type)}</span>
+        </header>
+        <div class="weibo-content">${escapeHtml(post.text).replace(/\n/g, "<br>") || "<span class='weibo-muted'>无正文</span>"}</div>
+        ${renderImages(post.images)}
+        <footer class="weibo-actions" aria-label="互动数据">
+          <span>转发 ${post.reposts}</span>
+          <span>评论 ${post.comments}</span>
+          <span>点赞 ${post.likes}</span>
+        </footer>
+      </article>
+    `;
+  }
+
+  function render(items) {
+    const filtered = items.filter(function(post) {
+      const keyword = filters.keyword.trim().toLowerCase();
+      const year = filters.year;
+      const matchesKeyword = !keyword || String(post.date + " " + post.type + " " + post.source + " " + post.text).toLowerCase().includes(keyword);
+      const matchesYear = !year || String(post.year) === year;
+      return matchesKeyword && matchesYear;
+    });
+
+    if (!filtered.length) {
+      list.innerHTML = "";
+      state.textContent = "没有找到匹配的微博。";
+      state.hidden = false;
+      summary.textContent = `共 ${posts.length} 条`;
+      if (sidebarSummary) sidebarSummary.textContent = `显示 0 / ${posts.length} 条`;
+      return;
     }
+
+    state.hidden = true;
+    summary.textContent = `显示 ${filtered.length} / ${posts.length} 条`;
+    if (sidebarSummary) sidebarSummary.textContent = `显示 ${filtered.length} / ${posts.length} 条`;
+    const groups = groupPosts(filtered);
+    const years = Object.keys(groups).sort(function(a, b) { return Number(b) - Number(a); });
+
+    list.innerHTML = years.map(function(year, yearIndex) {
+      const months = Object.keys(groups[year]).sort(function(a, b) { return Number(b) - Number(a); });
+      const yearCount = months.reduce(function(total, month) { return total + groups[year][month].length; }, 0);
+
+      return `
+        <details class="weibo-year" ${yearIndex === 0 ? "open" : ""}>
+          <summary><span>${escapeHtml(year)} 年</span><strong>${yearCount}</strong></summary>
+          ${months.map(function(month, monthIndex) {
+            const monthPosts = groups[year][month];
+            return `
+              <details class="weibo-month" ${yearIndex === 0 && monthIndex === 0 ? "open" : ""}>
+                <summary><span>${escapeHtml(month)} 月</span><strong>${monthPosts.length}</strong></summary>
+                <div class="weibo-month-posts">
+                  ${monthPosts.map(renderPost).join("")}
+                </div>
+              </details>
+            `;
+          }).join("")}
+        </details>
+      `;
+    }).join("");
+  }
+
+  function populateYearFilter(items) {
+    const years = Array.from(new Set(items.map(function(post) { return post.year; }).filter(Boolean))).sort(function(a, b) { return b - a; });
+    const options = '<option value="">全部年份</option>' + years.map(function(year) {
+      return `<option value="${year}">${year} 年</option>`;
+    }).join("");
+    yearFilters.forEach(function(select) {
+      select.innerHTML = options;
+      select.value = filters.year;
+    });
+  }
+
+  function syncControls(source) {
+    searchInputs.forEach(function(input) {
+      if (input !== source && input.value !== filters.keyword) input.value = filters.keyword;
+    });
+    yearFilters.forEach(function(select) {
+      if (select !== source && select.value !== filters.year) select.value = filters.year;
+    });
+  }
+
+  function loadArchive() {
+    return dataSources.reduce(function(chain, source) {
+      return chain.catch(function() {
+        return fetch(source).then(function(response) {
+          if (!response.ok) throw new Error("Cannot load " + source);
+          return response.json();
+        }).then(function(data) {
+          const rawPosts = Array.isArray(data.posts) ? data.posts : data.weibo;
+          if (!Array.isArray(rawPosts) || !rawPosts.length) throw new Error("Empty weibo data");
+          return rawPosts.map(normalizePost);
+        });
+      });
+    }, Promise.reject());
+  }
+
+  loadArchive().then(function(loadedPosts) {
+    posts = loadedPosts.sort(function(a, b) {
+      return String(b.date + " " + b.time).localeCompare(String(a.date + " " + a.time));
+    });
+    populateYearFilter(posts);
+    render(posts);
+  }).catch(function() {
+    summary.textContent = "未载入";
+    if (sidebarSummary) sidebarSummary.textContent = "未载入";
+    state.textContent = "微博存档数据暂时无法读取。";
   });
 
-  // If search is cleared, collapse everything back down
-  if(searchTerm === "") {
-      document.querySelectorAll('.posts-container, .months-container').forEach(el => {
-          el.style.display = 'none';
-      });
-  }
+  searchInputs.forEach(function(input) {
+    input.addEventListener("input", function() {
+      filters.keyword = input.value;
+      syncControls(input);
+      render(posts);
+    });
+  });
+
+  yearFilters.forEach(function(select) {
+    select.addEventListener("change", function() {
+      filters.year = select.value;
+      syncControls(select);
+      render(posts);
+    });
+  });
 });
 </script>
 
 <style>
-.year-title, .month-title {
-  cursor: pointer;
-  padding: 8px;
-  background-color: #f1f1f1;
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
+.weibo-archive-container {
+  max-width: 860px;
+  margin: 0 auto;
 }
-.year-title:hover, .month-title:hover {
-  background-color: #e2e2e2;
+
+.weibo-toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.weibo-kicker {
+  margin: 0 0 4px;
+  color: #d04444;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.weibo-heading {
+  margin: 0;
+  border: 0;
+  font-size: 1.45rem;
+}
+
+.weibo-summary,
+.weibo-state {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.weibo-search-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.weibo-search-panel input,
+.weibo-search-panel select {
+  min-height: 42px;
+  border: 1px solid #d7dce2;
+  border-radius: 8px;
+  padding: 0 12px;
+  background: #fff;
+  color: #1f2933;
+  font-size: 0.95rem;
+}
+
+.weibo-year,
+.weibo-month {
+  margin-bottom: 12px;
+}
+
+.weibo-year > summary,
+.weibo-month > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border: 1px solid #e1e6eb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #f8fafc;
+  color: #26323f;
+  font-weight: 700;
+}
+
+.weibo-month > summary {
+  margin: 10px 0;
+  background: #fff;
+}
+
+.weibo-year summary strong,
+.weibo-month summary strong {
+  color: #d04444;
+  font-size: 0.85rem;
+}
+
+.weibo-month-posts {
+  display: grid;
+  gap: 12px;
+  padding-left: 14px;
+  border-left: 2px solid #eef1f4;
+}
+
+.weibo-post {
+  border: 1px solid #e5e8ec;
+  border-radius: 8px;
+  padding: 14px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(30, 41, 59, 0.06);
+}
+
+.weibo-post-header {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.weibo-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.weibo-post-header h3 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.weibo-post-header p {
+  margin: 3px 0 0;
+  color: #7a8591;
+  font-size: 0.78rem;
+}
+
+.weibo-type {
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #fff0f0;
+  color: #c23939;
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.weibo-content {
+  color: #27313c;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  word-break: break-word;
+}
+
+.weibo-muted {
+  color: #9aa3ad;
+}
+
+.weibo-media-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 12px;
+}
+
+.weibo-media-1 {
+  grid-template-columns: minmax(0, 360px);
+}
+
+.weibo-media-2 {
+  grid-template-columns: repeat(2, minmax(0, 220px));
+}
+
+.weibo-media-item {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+  background: #edf1f5;
+}
+
+.weibo-media-1 .weibo-media-item {
+  aspect-ratio: 4 / 3;
+}
+
+.weibo-media-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.weibo-media-more {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: rgba(17, 24, 39, 0.55);
+  color: #fff;
+  font-weight: 800;
+}
+
+.weibo-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #eef1f4;
+  color: #7a8591;
+  font-size: 0.82rem;
+}
+
+@media (max-width: 640px) {
+  .weibo-toolbar,
+  .weibo-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .weibo-search-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .weibo-post-header {
+    grid-template-columns: 40px minmax(0, 1fr);
+  }
+
+  .weibo-type {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .weibo-month-posts {
+    padding-left: 8px;
+  }
 }
 </style>

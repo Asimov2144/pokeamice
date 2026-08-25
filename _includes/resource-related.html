@@ -1,0 +1,64 @@
+{% assign current_entities = page.entities %}
+{% assign related_limit = include.limit | default: 4 %}
+{% assign related_count = 0 %}
+
+{% if current_entities.people or current_entities.works or current_entities.organizations or current_entities.events or page.relations.related_posts %}
+  <aside class="resource-related" aria-label="相关资料">
+    <div class="resource-related__header">
+      <span>Graph</span>
+      <strong>相关资料</strong>
+    </div>
+
+    <div class="resource-related__list">
+      {% if page.relations.related_posts %}
+        {% for related_url in page.relations.related_posts %}
+          {% assign related_post = site.posts | where: "url", related_url | first %}
+          {% if related_post and related_count < related_limit %}
+            {% assign related_count = related_count | plus: 1 %}
+            <a href="{{ related_post.url | relative_url }}">
+              <span>手动关联</span>
+              <strong>{{ related_post.title }}</strong>
+            </a>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
+      {% for candidate in site.posts %}
+        {% if candidate.url != page.url and related_count < related_limit %}
+          {% assign match_label = "" %}
+          {% if current_entities.people and candidate.entities.people %}
+            {% for item in current_entities.people %}
+              {% if candidate.entities.people contains item %}{% assign match_label = "同人物" %}{% break %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if match_label == "" and current_entities.works and candidate.entities.works %}
+            {% for item in current_entities.works %}
+              {% if candidate.entities.works contains item %}{% assign match_label = "同作品" %}{% break %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if match_label == "" and current_entities.organizations and candidate.entities.organizations %}
+            {% for item in current_entities.organizations %}
+              {% if candidate.entities.organizations contains item %}{% assign match_label = "同组织" %}{% break %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if match_label == "" and current_entities.events and candidate.entities.events %}
+            {% for item in current_entities.events %}
+              {% if candidate.entities.events contains item %}{% assign match_label = "同事件" %}{% break %}{% endif %}
+            {% endfor %}
+          {% endif %}
+          {% if match_label != "" %}
+            {% assign related_count = related_count | plus: 1 %}
+            <a href="{{ candidate.url | relative_url }}">
+              <span>{{ match_label }}</span>
+              <strong>{{ candidate.title }}</strong>
+            </a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      {% if related_count == 0 %}
+        <p>已经记录关系字段，等待更多文章补充相同实体后自动生成关联。</p>
+      {% endif %}
+    </div>
+  </aside>
+{% endif %}

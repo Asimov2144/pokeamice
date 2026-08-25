@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "createdAt": "2026-06-27T08:50:12.644Z",
+  "pages": [
+    {
+      "name": "page006-tuya.jpg",
+      "width": 4747,
+      "height": 6144,
+      "regions": [
+        {
+          "id": "rmqw48ydiclgxl",
+          "type": "body",
+          "speaker": "大比拼",
+          "order": 1,
+          "box": [
+            1225,
+            265,
+            3586,
+            1260
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw49aklnrvre",
+          "type": "body",
+          "speaker": "",
+          "order": 2,
+          "box": [
+            1311,
+            1239,
+            4515,
+            1574
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw49e6b1fqkw",
+          "type": "body",
+          "speaker": "",
+          "order": 3,
+          "box": [
+            1286,
+            1595,
+            2960,
+            2401
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw49mn1j68iz",
+          "type": "note",
+          "speaker": "对战环境",
+          "order": 4,
+          "box": [
+            3013,
+            1567,
+            4552,
+            2385
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw49ui0crj9a",
+          "type": "note",
+          "speaker": "对战画面",
+          "order": 5,
+          "box": [
+            1286,
+            2422,
+            2850,
+            3269
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4a3bja6aqq",
+          "type": "body",
+          "speaker": "规则",
+          "order": 6,
+          "box": [
+            2846,
+            2418,
+            4581,
+            3232
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4ae6j2r3tw",
+          "type": "body",
+          "speaker": "标题2",
+          "order": 7,
+          "box": [
+            1319,
+            3246,
+            4491,
+            3495
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4ajl6hbkja",
+          "type": "body",
+          "speaker": "",
+          "order": 8,
+          "box": [
+            1303,
+            3528,
+            2780,
+            4261
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4awomsiqtc",
+          "type": "body",
+          "speaker": "如何WIFI对战",
+          "order": 9,
+          "box": [
+            2833,
+            3516,
+            4573,
+            4240
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4b5edu38yv",
+          "type": "body",
+          "speaker": "如何WIFI对战2",
+          "order": 10,
+          "box": [
+            1295,
+            4277,
+            2809,
+            5002
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4bcq4lhszd",
+          "type": "body",
+          "speaker": "如何WIFI对战3",
+          "order": 11,
+          "box": [
+            2846,
+            4261,
+            4564,
+            4961
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4brfq0j6tl",
+          "type": "body",
+          "speaker": "宝可梦爱好者俱乐部",
+          "order": 12,
+          "box": [
+            1352,
+            4982,
+            4589,
+            5874
+          ],
+          "note": ""
+        },
+        {
+          "id": "rmqw4c07wyjs1c",
+          "type": "body",
+          "speaker": "大战",
+          "order": 13,
+          "box": [
+            141,
+            4973,
+            1143,
+            5923
+          ],
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

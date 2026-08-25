@@ -2,344 +2,2963 @@
 layout: archive
 sidebar:
   nav: "docs"
-
 ---
 
 {{ content }}
-<!-- 修改 home.html 的布局结构 -->
-<div class="home-wrapper">
-  <!-- 主内容区保持不变 -->
-  <main class="home-main">
-    <ul class="tabs-nav">
-      <li><a href="#documents">文档</a></li>
-      <li><a href="#interview-translations">访谈翻译</a></li>
-      <li><a href="#weibo-archive">微博存档</a></li>
-    </ul>
-    <div class="main-content">
-    <aside class="sidebar__right sticky">
-      <section class="sidebar-module sticky">
-      <h4 class="module-title">文章分类</h4>
-      <ul class="categories-list">
-  {% for category in site.categories %}
-    <!-- [保持你的 liquid 代码不变] -->
-    <li class="category-item" data-count="{{ category[1].size }}">
-      <a href="{{ '/categories/' | relative_url }}{{ category[0] | slugize }}" class="category-link">
-        <span class="category-name">{{ category[0] }}</span>
-        <span class="category-count">({{ category[1].size }})</span>
+
+{% assign all_posts = site.posts %}
+{% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
+{% assign interview_posts = site.posts | where_exp: "post", "post.categories contains '访谈翻译'" %}
+{% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign entries_layout = page.entries_layout | default: "list" %}
+{% assign resource_index = site.data.resource-index %}
+{% assign resource_annotation_count = resource_index.annotations | size | default: 0 %}
+{% assign resource_people_count = resource_index.entities.people | size | default: 0 %}
+{% assign resource_works_count = resource_index.entities.works | size | default: 0 %}
+{% assign recent_posts_limit = 8 %}
+{% assign recent_posts_count = all_posts | size %}
+{% if recent_posts_count > recent_posts_limit %}
+  {% assign recent_posts_count = recent_posts_limit %}
+{% endif %}
+
+<div class="home-dashboard">
+  <main class="home-feed" id="main-content">
+    <nav class="home-section-switcher" aria-label="主页栏目切换">
+      <a href="#overview" class="home-nav-link active" data-scroll-ignore>
+        <span>总览</span>
+        <strong>{{ all_posts | size }}</strong>
       </a>
-    </li>
-  {% endfor %}
-</ul>
-    <!-- 公告区域 -->
-    <section class="widget notice">
-      <h4>站点公告</h4>
-      {% if site.notices %}
-        <div class="notice-content">
-          {{ site.notices | markdownify }}
+      <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
+        <span>近期发布</span>
+        <strong>{{ recent_posts_count }}</strong>
+      </a>
+      <a href="#documents" class="home-nav-link" data-scroll-ignore>
+        <span>文档</span>
+        <strong>{{ docs_posts | size }}</strong>
+      </a>
+      <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
+        <span>访谈翻译</span>
+        <strong>{{ interview_posts | size }}</strong>
+      </a>
+    </nav>
+
+    <section class="home-section home-overview" id="overview">
+      <div class="section-heading">
+        <p class="section-kicker">Overview</p>
+        <h2>站点总览</h2>
+      </div>
+      <section class="home-intelligent-search" aria-label="站内检索">
+        <form class="home-intelligent-search__bar" action="{{ '/search/' | relative_url }}" method="get" role="search">
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input type="search" id="homeSmartSearch" name="q" placeholder="搜索文章、人物、作品、OCR 片段..." autocomplete="off">
+          <button type="submit">站内搜索</button>
+          <button type="button" class="home-intelligent-search__ai" id="homeAiSearch" title="打开资料检索中心的 AI 检索">AI 检索</button>
+        </form>
+        <div class="home-intelligent-search__results" id="homeSmartSearchResults" aria-live="polite"></div>
+      </section>
+      {% assign latest_post = all_posts | first %}
+      {% assign latest_doc = docs_posts | first %}
+      {% assign latest_interview = interview_posts | first %}
+      {% assign scan_posts = site.posts | where_exp: "post", "post.categories contains '扫描存档'" %}
+      {% assign latest_scan = scan_posts | first %}
+      {% assign latest_gf_director = gf_director_posts | first %}
+
+      <div class="overview-hero">
+        <div class="overview-hero-copy">
+          <p class="overview-eyebrow">PokeAmice Library</p>
+          <h3>把开发资料、访谈翻译和整理文章汇成可追溯的阅读入口。</h3>
+          <p>这里更像一张资料地图：从最近更新进入，也可以按文档、访谈和资料时间线逐步追踪。</p>
         </div>
-      {% else %}
-        <p>正在加速建设中！</p>
-      {% endif %}
-    </section>
-          </aside>  
-    <div id="documents" class="tab-content">{% include tabs/documents.html %}</div>
-   <div id="interview-translations" class="tab-content">{% include tabs/interview_translations.html %}</div>
-   <div id="weibo-archive" class="tab-content">{% include tabs/weibo_archive.html %}</div>      
-    <div id="collapsible-recent-posts">
-      <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "近期的发布" }} <button id="toggle-recent-posts" style="font-size: 0.6em; vertical-align: middle;">[Hide]</button></h3>
-
-      {% if paginator %}
-        {% assign posts = paginator.posts %}
-      {% else %}
-        {% assign posts = site.posts %}
-      {% endif %}
-
-      {% assign entries_layout = page.entries_layout | default: 'list' %}
-      <div class="entries-{{ entries_layout }}">
-        {% for post in posts %}
-          {% include archive-single.html type=entries_layout %}
-        {% endfor %}
+        <div class="overview-mini-stats" aria-label="站点内容统计">
+          <a href="#recent-updates" data-scroll-ignore>
+            <strong>{{ all_posts | size }}</strong>
+            <span>全部文章</span>
+          </a>
+          <a href="#documents" data-scroll-ignore>
+            <strong>{{ docs_posts | size }}</strong>
+            <span>文档</span>
+          </a>
+          <a href="#interview-translations" data-scroll-ignore>
+            <strong>{{ interview_posts | size }}</strong>
+            <span>访谈</span>
+          </a>
+        </div>
       </div>
 
-      {% include paginator.html %}
-    </div>
-  </div>
-  
-    <!-- 原有内容保持不变 -->
+      <div class="overview-reading-grid">
+        <a class="overview-route overview-route--docs" href="#documents" data-scroll-ignore>
+          <span class="overview-route-icon"><i class="fas fa-book-open" aria-hidden="true"></i></span>
+          <span class="overview-route-body">
+            <strong>文档索引</strong>
+            <em>工具、资料整理、站点记录集中入口</em>
+          </span>
+        </a>
+        <a class="overview-route overview-route--interview" href="#interview-translations" data-scroll-ignore>
+          <span class="overview-route-icon"><i class="fas fa-language" aria-hidden="true"></i></span>
+          <span class="overview-route-body">
+            <strong>访谈翻译</strong>
+            <em>扫描件、原文、译文和注释对照阅读</em>
+          </span>
+        </a>
+        <a class="overview-route" href="{{ '/gamefreak-director/' | relative_url }}">
+          <span class="overview-route-icon"><i class="fas fa-building" aria-hidden="true"></i></span>
+          <span class="overview-route-body">
+            <strong>Game Freak 部长专栏</strong>
+            <em>按回数、分类和年月浏览官方博客</em>
+          </span>
+        </a>
+      </div>
+
+      <div class="overview-content-grid">
+        <section class="overview-panel overview-panel--feature">
+          <div class="overview-panel-heading">
+            <p>Latest Focus</p>
+            <h3>最近可以先读</h3>
+          </div>
+          {% if latest_post %}
+            <a class="overview-feature-link" href="{{ latest_post.url | relative_url }}">
+              {% if latest_post.card_image or latest_post.header.teaser %}
+                {% assign latest_image = latest_post.card_image | default: latest_post.header.teaser %}
+                <span class="overview-feature-image" style="--feature-image: url('{{ latest_image | relative_url }}');"></span>
+              {% endif %}
+              <span class="overview-feature-text">
+                <strong>{{ latest_post.title }}</strong>
+                <em>{{ latest_post.excerpt | markdownify | strip_html | truncate: 86 }}</em>
+              </span>
+            </a>
+          {% endif %}
+        </section>
+
+        <section class="overview-panel">
+          <div class="overview-panel-heading">
+            <p>Reading Paths</p>
+            <h3>资料阅读路径</h3>
+          </div>
+          <ul class="overview-path-list">
+            {% if latest_doc %}
+              <li>
+                <span>文档</span>
+                <a href="{{ latest_doc.url | relative_url }}">{{ latest_doc.title }}</a>
+              </li>
+            {% endif %}
+            {% if latest_interview %}
+              <li>
+                <span>访谈</span>
+                <a href="{{ latest_interview.url | relative_url }}">{{ latest_interview.title }}</a>
+              </li>
+            {% endif %}
+            {% if latest_scan %}
+              <li>
+                <span>扫描</span>
+                <a href="{{ latest_scan.url | relative_url }}">{{ latest_scan.title }}</a>
+              </li>
+            {% endif %}
+            {% if latest_gf_director %}
+              <li>
+                <span>官方博客</span>
+                <a href="{{ latest_gf_director.url | relative_url }}">{{ latest_gf_director.title }}</a>
+              </li>
+            {% endif %}
+          </ul>
+        </section>
+      </div>
+
+      <div class="overview-dynamic-grid" aria-label="站点动态入口">
+        {% if latest_post %}
+          <a class="overview-dynamic-card is-active" href="{{ latest_post.url | relative_url }}">
+            <span>最新</span>
+            <strong>{{ latest_post.title }}</strong>
+            <em>最近更新内容</em>
+          </a>
+        {% endif %}
+        {% if latest_doc %}
+          <a class="overview-dynamic-card" href="{{ latest_doc.url | relative_url }}">
+            <span>文档</span>
+            <strong>{{ latest_doc.title }}</strong>
+            <em>资料与站点记录</em>
+          </a>
+        {% endif %}
+        {% if latest_interview %}
+          <a class="overview-dynamic-card" href="{{ latest_interview.url | relative_url }}">
+            <span>访谈</span>
+            <strong>{{ latest_interview.title }}</strong>
+            <em>原文、译文与注释</em>
+          </a>
+        {% endif %}
+        {% if latest_scan %}
+          <a class="overview-dynamic-card" href="{{ latest_scan.url | relative_url }}">
+            <span>扫描</span>
+            <strong>{{ latest_scan.title }}</strong>
+            <em>杂志图文对照模板</em>
+          </a>
+        {% endif %}
+        {% if latest_gf_director %}
+          <a class="overview-dynamic-card" href="{{ '/gamefreak-director/' | relative_url }}">
+            <span>官方博客</span>
+            <strong>Game Freak 部长专栏</strong>
+            <em>{{ gf_director_posts | size }} 篇专栏条目</em>
+          </a>
+        {% endif %}
+      </div>
+
+      <div class="overview-tool-strip">
+        <div>
+          <strong>扫描访谈模板</strong>
+          <span>适合把杂志图、OCR 原文、译文和校注组织成一篇可浏览文档。</span>
+        </div>
+        {% if latest_scan %}
+          <a href="{{ latest_scan.url | relative_url }}">查看示例</a>
+        {% else %}
+          <a href="#interview-translations" data-scroll-ignore>查看访谈</a>
+        {% endif %}
+      </div>
+    </section>
+
+    <section class="home-section" id="recent-updates">
+      <div class="section-heading">
+        <p class="section-kicker">Latest</p>
+        <h2>{{ site.data.ui-text[site.locale].recent_posts | default: "近期发布" }}</h2>
+      </div>
+
+      <div class="home-post-list entries-{{ entries_layout }}">
+        {% for post in site.posts limit:recent_posts_limit %}
+          {% include archive-single.html type=entries_layout show_card_media=true %}
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="home-section" id="documents">
+      <div class="section-heading">
+        <p class="section-kicker">Docs</p>
+        <h2>文档</h2>
+      </div>
+      {% include tabs/documents.html %}
+    </section>
+
+    <section class="home-section" id="interview-translations">
+      <div class="section-heading">
+        <p class="section-kicker">Interviews</p>
+        <h2>访谈翻译</h2>
+      </div>
+      {% include tabs/interview_translations.html %}
+    </section>
+
   </main>
 
+  <aside class="home-sidebar" aria-label="主页侧边栏">
+    <button class="sidebar-toggle" type="button" aria-expanded="true" aria-controls="homeSidebarPanels" title="隐藏侧边栏">
+      <span class="sidebar-toggle-icon" aria-hidden="true">›</span>
+      <span class="sidebar-toggle-text">隐藏侧边栏</span>
+    </button>
+
+    <div class="home-sidebar-panels" id="homeSidebarPanels">
+    <nav class="sidebar-panel home-nav" aria-label="栏目切换">
+      <h2>栏目切换</h2>
+      <a href="#overview" class="home-nav-link active" data-scroll-ignore>
+        <span>总览</span>
+        <strong>{{ all_posts | size }}</strong>
+      </a>
+      <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
+        <span>近期发布</span>
+        <strong>{{ recent_posts_count }}</strong>
+      </a>
+      <a href="#documents" class="home-nav-link" data-scroll-ignore>
+        <span>文档</span>
+        <strong>{{ docs_posts | size }}</strong>
+      </a>
+      <a href="#interview-translations" class="home-nav-link" data-scroll-ignore>
+        <span>访谈翻译</span>
+        <strong>{{ interview_posts | size }}</strong>
+      </a>
+    </nav>
+
+    <div class="sidebar-context active" data-sidebar-context="overview recent-updates">
+      <section class="sidebar-panel sidebar-panel--search">
+        <h2>站内查找</h2>
+        <form class="sidebar-search-mini" action="{{ '/search/' | relative_url }}" method="get" role="search">
+          <input type="search" name="q" placeholder="搜索人物、作品、主题..." autocomplete="off">
+          <button type="submit"><i class="fas fa-search" aria-hidden="true"></i><span>搜索</span></button>
+        </form>
+        <div class="sidebar-tool-grid sidebar-tool-grid--compact">
+          <a href="{{ '/search/' | relative_url }}?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91">
+            <strong>访谈翻译</strong>
+            <span>{{ interview_posts | size }} 篇</span>
+          </a>
+          <a href="{{ '/gamefreak-director/' | relative_url }}">
+            <strong>部长专栏</strong>
+            <span>{{ gf_director_posts | size }} 篇</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="sidebar-panel">
+        <h2>按主题浏览</h2>
+        <div class="sidebar-topic-cloud">
+          {% for tag in site.tags limit:16 %}
+            <a href="{{ '/tags/' | relative_url }}{{ tag[0] | slugize }}">
+              <span>{{ tag[0] }}</span>
+              <strong>{{ tag[1].size }}</strong>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+
+      <section class="sidebar-panel">
+        <h2>资料索引</h2>
+        <div class="sidebar-reader-grid">
+          <a href="{{ '/entities/people/' | relative_url }}">
+            <i class="fas fa-user" aria-hidden="true"></i>
+            <strong>人物</strong>
+            <span>{{ resource_people_count }} 个条目</span>
+          </a>
+          <a href="{{ '/entities/works/' | relative_url }}">
+            <i class="fas fa-cube" aria-hidden="true"></i>
+            <strong>作品</strong>
+            <span>{{ resource_works_count }} 个条目</span>
+          </a>
+          <a href="{{ '/timeline/' | relative_url }}">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <strong>时间线</strong>
+            <span>按年份阅读</span>
+          </a>
+          <a href="{{ '/resource-graph/' | relative_url }}">
+            <i class="fas fa-project-diagram" aria-hidden="true"></i>
+            <strong>图谱</strong>
+            <span>关系入口</span>
+          </a>
+          <a href="{{ '/gamefreak-director/' | relative_url }}">
+            <i class="fas fa-archive" aria-hidden="true"></i>
+            <strong>部长专栏</strong>
+            <span>官方博客索引</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="sidebar-panel">
+        <h2>推荐阅读</h2>
+        <ul class="sidebar-link-list sidebar-link-list--ranked">
+          {% if latest_doc %}
+            <li><a href="{{ latest_doc.url | relative_url }}"><span>文档</span>{{ latest_doc.title }}</a></li>
+          {% endif %}
+          {% if latest_interview %}
+            <li><a href="{{ latest_interview.url | relative_url }}"><span>访谈</span>{{ latest_interview.title }}</a></li>
+          {% endif %}
+          {% if latest_scan %}
+            <li><a href="{{ latest_scan.url | relative_url }}"><span>扫描</span>{{ latest_scan.title }}</a></li>
+          {% endif %}
+          {% if latest_gf_director %}
+            <li><a href="{{ latest_gf_director.url | relative_url }}"><span>部长专栏</span>{{ latest_gf_director.title }}</a></li>
+          {% endif %}
+          {% if latest_post %}
+            <li><a href="{{ latest_post.url | relative_url }}"><span>最新</span>{{ latest_post.title }}</a></li>
+          {% endif %}
+        </ul>
+      </section>
+    </div>
+
+    <div class="sidebar-context" data-sidebar-context="documents">
+      <section class="sidebar-panel">
+        <h2>文档分类</h2>
+        <ul class="category-list compact">
+          {% for category in site.categories %}
+            {% assign category_name = category[0] %}
+            {% if category_name == "文档" or category_name == "Tech" or category_name == "PTCG" or category_name == "Sites" or category_name == "宝可梦友会" %}
+              <li>
+                <a href="{{ '/categories/' | relative_url }}{{ category_name | slugize }}">
+                  <span>{{ category_name }}</span>
+                  <strong>{{ category[1].size }}</strong>
+                </a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+      <section class="sidebar-panel">
+        <h2>相关主题</h2>
+        <div class="sidebar-topic-cloud">
+          {% for tag in site.tags limit:14 %}
+            <a href="{{ '/tags/' | relative_url }}{{ tag[0] | slugize }}">
+              <span>{{ tag[0] }}</span>
+              <strong>{{ tag[1].size }}</strong>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+      <section class="sidebar-panel">
+        <h2>最近文档</h2>
+        <ul class="sidebar-link-list">
+          {% for post in docs_posts limit:5 %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+          {% else %}
+            <li><span>暂无文档记录</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    <div class="sidebar-context" data-sidebar-context="interview-translations">
+      <section class="sidebar-panel">
+        <h2>访谈导航</h2>
+        <div class="sidebar-reader-grid">
+          <a href="{{ '/search/' | relative_url }}?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91">
+            <i class="fas fa-language" aria-hidden="true"></i>
+            <strong>全部访谈</strong>
+            <span>{{ interview_posts | size }} 篇</span>
+          </a>
+          <a href="{{ '/entities/people/' | relative_url }}">
+            <i class="fas fa-user" aria-hidden="true"></i>
+            <strong>人物索引</strong>
+            <span>按受访者</span>
+          </a>
+          <a href="{{ '/entities/works/' | relative_url }}">
+            <i class="fas fa-cube" aria-hidden="true"></i>
+            <strong>作品索引</strong>
+            <span>按作品</span>
+          </a>
+          <a href="{{ '/timeline/' | relative_url }}">
+            <i class="fas fa-clock" aria-hidden="true"></i>
+            <strong>时间线</strong>
+            <span>按年份</span>
+          </a>
+        </div>
+      </section>
+      <section class="sidebar-panel">
+        <h2>最近访谈</h2>
+        <ul class="sidebar-link-list sidebar-link-list--ranked">
+          {% for post in interview_posts limit:5 %}
+            <li><a href="{{ post.url | relative_url }}"><span>{{ post.date | date: "%Y" }}</span>{{ post.title }}</a></li>
+          {% else %}
+            <li><span>暂无访谈翻译记录</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    </div>
+
+    </div>
+  </aside>
 </div>
 
-
-
-
-
-
 <style>
-/* 关键布局优化 */
-
-/* Tab Navigation */
-ul.tabs-nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  border-bottom: 1px solid #ddd;
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }
 
-ul.tabs-nav li a {
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: rgba(100, 113, 127, 0.42);
+  background-clip: content-box;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgba(226, 231, 236, 0.55);
+}
+
+.home-dashboard {
+  --home-sidebar-width: 280px;
+  --home-panel-height: calc(100vh - 150px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--home-sidebar-width);
+  gap: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 12px 32px;
+  align-items: start;
+  color: #26323f;
+}
+
+.home-dashboard.sidebar-collapsed {
+  grid-template-columns: minmax(0, 1fr) 42px;
+}
+
+.layout--home #main .archive {
+  float: none;
+  width: 100%;
+  max-width: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.home-feed {
+  position: relative;
+  min-width: 0;
+  max-width: 100%;
+  min-height: var(--home-panel-height);
+  border: 1px solid #dfe5eb;
+  border-radius: 10px;
+  background: #f8fafb;
+  line-height: 1.72;
+  overflow-wrap: anywhere;
+  overflow: hidden;
+}
+
+.home-section-switcher {
+  display: none;
+}
+
+.home-sidebar {
+  position: sticky;
+  top: 92px;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 10px;
+  max-height: var(--home-panel-height);
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding-right: 2px;
+  scrollbar-color: rgba(100, 113, 127, 0.42) rgba(226, 231, 236, 0.48);
+}
+
+.home-sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.home-sidebar::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: rgba(100, 113, 127, 0.42);
+  background-clip: content-box;
+}
+
+.home-sidebar::-webkit-scrollbar-track {
+  background: rgba(226, 231, 236, 0.48);
+}
+
+.home-sidebar-panels {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.sidebar-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 34px;
+  width: 100%;
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  padding: 7px 9px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #384656;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.sidebar-toggle:hover {
+  border-color: #bd4b4b;
+  color: #b43d3d;
+}
+
+.sidebar-toggle-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  font-size: 1.15rem;
+  line-height: 1;
+  transform: rotate(0deg);
+}
+
+.home-dashboard.sidebar-collapsed .home-sidebar {
+  justify-items: stretch;
+}
+
+.home-dashboard.sidebar-collapsed .home-sidebar-panels {
+  display: none;
+}
+
+.home-dashboard.sidebar-collapsed .sidebar-toggle {
+  min-height: 44px;
+  padding: 0;
+}
+
+.home-dashboard.sidebar-collapsed .sidebar-toggle-icon {
+  transform: rotate(180deg);
+}
+
+.home-dashboard.sidebar-collapsed .sidebar-toggle-text {
+  display: none;
+}
+
+.home-section {
+  clear: both;
+  display: none;
+  min-width: 0;
+  max-width: 100%;
+  height: var(--home-panel-height);
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 22px;
+  border-bottom: 0;
+  scroll-margin-top: 86px;
+  scrollbar-color: rgba(100, 113, 127, 0.45) rgba(226, 231, 236, 0.52);
+}
+
+.home-section:first-child {
+  padding-top: 22px;
+}
+
+.home-section.is-active {
   display: block;
-  padding: 10px 15px;
-  text-decoration: none;
-  color: #333;
-  border: 1px solid transparent;
-  border-bottom: none;
+  animation: home-panel-in 220ms ease both;
+}
+
+.home-dashboard.is-switching-back .home-section.is-active {
+  animation-name: home-panel-in-back;
+}
+
+@keyframes home-panel-in {
+  from {
+    opacity: 0;
+    transform: translateX(26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes home-panel-in-back {
+  from {
+    opacity: 0;
+    transform: translateX(-26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home-section::-webkit-scrollbar {
+  width: 12px;
+}
+
+.home-section::-webkit-scrollbar-thumb {
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: rgba(100, 113, 127, 0.42);
+  background-clip: content-box;
+}
+
+.home-section::-webkit-scrollbar-track {
+  background: rgba(226, 231, 236, 0.52);
+}
+
+.section-heading {
+  display: grid;
+  justify-items: start;
+  gap: 14px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.section-heading h2,
+.weibo-heading {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #1f2a35;
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+.section-kicker,
+.weibo-kicker {
+  margin: 0 0 4px;
+  color: #bd4b4b;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.overview-hero,
+.overview-content-grid,
+.overview-reading-grid,
+.overview-tool-strip {
+  display: grid;
+  gap: 12px;
+}
+
+.home-intelligent-search {
+  margin: 0 0 14px;
+}
+
+.home-intelligent-search__bar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #dfe5eb;
+  border-radius: 999px;
+  padding: 7px 8px 7px 14px;
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(31, 42, 53, 0.07);
+}
+
+.home-intelligent-search__bar i {
+  color: #7a8794;
+}
+
+.home-intelligent-search__bar input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  color: #1f2a35;
+  font-size: 0.92rem;
+  outline: 0;
+}
+
+.home-intelligent-search__bar button {
+  min-height: 30px;
+  border: 0;
+  border-radius: 999px;
+  padding: 0 12px;
+  background: #bd4b4b;
+  color: #fff;
+  font-size: 0.74rem;
+  font-weight: 800;
+  white-space: nowrap;
   cursor: pointer;
 }
 
-ul.tabs-nav li a.active {
-  background-color: #fff;
-  border-color: #ddd #ddd transparent #ddd;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+.home-intelligent-search__bar .home-intelligent-search__ai {
+  background: #26323f;
 }
 
-/* Tab Content */
-.tab-content {
+.home-intelligent-search__results {
   display: none;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-top: none;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
 }
 
-.tab-content.active {
-  display: block;
+.home-intelligent-search__results.is-active {
+  display: grid;
 }
 
-/* Collapsible Recent Posts */
-#collapsible-recent-posts.collapsed .entries-{{ entries_layout }} {
-  display: none;
-}
-#collapsible-recent-posts.collapsed .paginator { /* Also hide paginator */
-  display: none;
-}
-
-.home-wrapper {
-  display: flex;
-  gap: 0px;
-  position: relative;
-  max-width: 1280px; /* 控制整体宽度 */
-  margin: 0 auto;
-  padding: 0 10px;
-}
-
-.home-main {
-  
-  min-width: 0; /* 防止内容溢出 */
-}
-.module-title{
-  border-radius: 9px;
-  font: 0.8em sans-serif;
-  font-weight: 600;
-  color:rgb(255, 255, 255);
-  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
-  display: inline-block;    /* 宽度由内容决定 */
-  background: rgba(51, 200, 106, 0.867); /* 半透明背景（示例使用50%黑）*/
-  padding: 2px 4px;       /* 根据文字增加呼吸空间 */
-  max-width: 80%;           /* 防止过长内容撑满屏幕 */
-  text-align: center;       /* 多行文字居中 */
-  line-height: 1.5;         /* 行高优化阅读体验 */
-}
-.categories-list {
-  /* 横向弹性容器 */
-  display: flex;
-  flex-wrap: wrap; /* 允许换行 */
-  gap: 8px; /* 标签间距 */
-  padding: 0;
+.home-intelligent-search__results a,
+.home-intelligent-search__results p {
   margin: 0;
-  list-style : none;
+  border: 1px solid #e6ebf0;
+  border-radius: 8px;
+  padding: 9px 10px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #384656;
+  font-size: 0.75rem;
+  line-height: 1.48;
+  text-decoration: none;
 }
 
-.category-item {
-  /* 动态字体大小核心 */
-  color: rgb(98, 98, 98);
-  /* 标签样式 */
-  background: rgba(234, 183, 209, 0.995);
-  border-radius: 6px;
-  padding: 0px 6px;
-  transition: 0.3s;
+.home-intelligent-search__results strong {
+  display: block;
+  overflow: hidden;
+  color: #1f2a35;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-intelligent-search__results span {
+  display: block;
+  margin-top: 3px;
+  color: #64717f;
+}
+
+.overview-hero {
+  grid-template-columns: minmax(0, 1.6fr) minmax(220px, 0.9fr);
+  align-items: stretch;
+  margin-bottom: 14px;
+}
+
+.overview-hero-copy,
+.overview-mini-stats,
+.overview-route,
+.overview-panel,
+.overview-tool-strip {
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(31, 42, 53, 0.04);
+}
+
+.overview-hero-copy {
+  padding: 18px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.9)),
+    linear-gradient(135deg, rgba(136, 183, 213, 0.2), rgba(189, 75, 75, 0.12));
+}
+
+.overview-eyebrow {
+  margin: 0 0 8px;
+  color: #bd4b4b;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.overview-hero-copy h3 {
+  max-width: 760px;
+  margin: 0;
+  color: #1f2a35;
+  font-size: clamp(1.05rem, 1.6vw, 1.45rem);
+  line-height: 1.35;
+}
+
+.overview-hero-copy p:last-child {
+  max-width: 720px;
+  margin: 10px 0 0;
+  color: #5d6a77;
+  font-size: 0.88rem;
+  line-height: 1.68;
+}
+
+.overview-mini-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 10px;
+}
+
+.overview-mini-stats a {
+  display: grid;
+  align-content: center;
+  min-height: 64px;
+  border-radius: 7px;
+  padding: 10px;
+  color: #26323f;
+  text-decoration: none;
+}
+
+.overview-mini-stats a:hover {
+  background: #f2f5f8;
+  text-decoration: none;
+}
+
+.overview-mini-stats strong {
+  color: #1f2a35;
+  font-size: 1.2rem;
+  line-height: 1.05;
+}
+
+.overview-mini-stats span {
+  margin-top: 5px;
+  color: #64717f;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.overview-reading-grid {
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  margin-bottom: 14px;
+}
+
+.overview-route {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+  padding: 13px;
+  color: #26323f;
+  text-decoration: none;
+}
+
+.overview-route:hover {
+  border-color: #bd4b4b;
+  background: #fbfcfd;
+  text-decoration: none;
+}
+
+.overview-route-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: rgba(136, 183, 213, 0.16);
+  color: #3f789d;
+}
+
+.overview-route--interview .overview-route-icon {
+  background: rgba(189, 75, 75, 0.11);
+  color: #bd4b4b;
+}
+
+.overview-route--weibo .overview-route-icon {
+  background: rgba(86, 142, 109, 0.13);
+  color: #4e7e61;
+}
+
+.overview-route-body {
+  display: grid;
+  min-width: 0;
+}
+
+.overview-route-body strong {
+  color: #26323f;
+  font-size: 0.92rem;
+  line-height: 1.32;
+}
+
+.overview-route-body em {
+  margin-top: 4px;
+  color: #64717f;
+  font-size: 0.74rem;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.overview-content-grid {
+  grid-template-columns: minmax(0, 1.1fr) minmax(260px, 0.9fr);
+  margin-bottom: 14px;
+}
+
+.overview-panel {
+  min-width: 0;
+  padding: 14px;
+}
+
+.overview-panel-heading {
+  margin-bottom: 10px;
+}
+
+.overview-panel-heading p {
+  margin: 0 0 3px;
+  color: #bd4b4b;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.overview-panel-heading h3 {
+  margin: 0;
+  color: #26323f;
+  font-size: 0.96rem;
+  line-height: 1.35;
+}
+
+.overview-feature-link {
+  display: grid;
+  grid-template-columns: minmax(120px, 32%) minmax(0, 1fr);
+  min-height: 128px;
+  overflow: hidden;
+  border: 1px solid #e6ebf0;
+  border-radius: 8px;
+  color: #26323f;
+  text-decoration: none;
+}
+
+.overview-feature-link:hover {
+  border-color: #bd4b4b;
+  text-decoration: none;
+}
+
+.overview-feature-image {
+  min-height: 128px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.55)),
+    var(--feature-image) center / cover no-repeat,
+    #eef3f6;
+}
+
+.overview-feature-text {
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 13px;
+}
+
+.overview-feature-text strong {
+  display: -webkit-box;
+  overflow: hidden;
+  color: #1f2a35;
+  font-size: 0.95rem;
+  line-height: 1.38;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.overview-feature-text em {
+  display: -webkit-box;
+  overflow: hidden;
+  color: #64717f;
+  font-size: 0.76rem;
+  font-style: normal;
+  line-height: 1.6;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.overview-path-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.overview-path-list li {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  min-height: 34px;
+}
+
+.overview-path-list span {
+  border-radius: 999px;
+  padding: 2px 7px;
+  background: #f2f5f8;
+  color: #64717f;
+  font-size: 0.62rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.overview-path-list a {
+  display: block;
+  overflow: hidden;
+  color: #384656;
+  font-size: 0.78rem;
+  line-height: 1.48;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overview-path-list a:hover {
+  color: #b43d3d;
+  text-decoration: none;
+}
+
+.overview-tool-strip {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  padding: 12px 14px;
+}
+
+.overview-tool-strip strong {
+  display: block;
+  color: #26323f;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.overview-tool-strip span {
+  display: block;
+  margin-top: 3px;
+  color: #64717f;
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+.overview-tool-strip a {
+  border-radius: 7px;
+  padding: 7px 10px;
+  background: #bd4b4b;
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.overview-tool-strip a:hover {
+  background: #a43f3f;
+  text-decoration: none;
+}
+
+.overview-dynamic-grid {
+  display: none;
+}
+
+.overview-dynamic-card {
+  position: relative;
+  display: grid;
+  align-content: space-between;
+  min-height: 118px;
+  overflow: hidden;
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  padding: 13px;
+  background:
+    linear-gradient(135deg, rgba(136, 183, 213, 0.12), rgba(189, 75, 75, 0.08)),
+    #fff;
+  color: #26323f;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(31, 42, 53, 0.04);
+}
+
+.overview-dynamic-card::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 3px;
+  background: #bd4b4b;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 220ms ease;
+}
+
+.overview-dynamic-card.is-active {
+  border-color: rgba(189, 75, 75, 0.42);
+  background:
+    linear-gradient(135deg, rgba(189, 75, 75, 0.12), rgba(136, 183, 213, 0.14)),
+    #fff;
+}
+
+.overview-dynamic-card.is-active::after {
+  transform: scaleX(1);
+}
+
+.overview-dynamic-card:hover {
+  text-decoration: none;
+}
+
+.overview-dynamic-card span {
+  color: #bd4b4b;
+  font-size: 0.64rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.overview-dynamic-card strong {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-top: 8px;
+  color: #1f2a35;
+  font-size: 0.88rem;
+  line-height: 1.36;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.overview-dynamic-card em {
+  margin-top: 10px;
+  color: #64717f;
+  font-size: 0.72rem;
+  font-style: normal;
+  line-height: 1.45;
+}
+
+.home-post-list .archive__item {
+  height: auto;
+  margin-bottom: 0;
+}
+
+.home-post-list,
+#documents .tab-list,
+#interview-translations .tab-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
+  gap: 16px;
+}
+
+.home-post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.home-post-list .list__item,
+#documents .tab-list .list__item,
+#interview-translations .tab-list .list__item {
+  float: none;
+  clear: none;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.home-post-list .list__item {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  break-inside: avoid;
+}
+
+.home-post-list .archive__item,
+.tab-list .archive__item {
+  min-width: 0;
+  max-width: 100%;
+  border: 1px solid #e6ebf0;
+  border-left: 5px solid var(--card-accent, #88b7d5);
+  border-radius: 8px;
+  height: auto;
+  padding: 14px;
+  background: #fff;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(31, 42, 53, 0.05);
+}
+
+.tab-list .archive-card.has-card-image {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.99) 0%, rgba(255, 255, 255, 0.96) 50%, rgba(255, 255, 255, 0.72) 100%),
+    linear-gradient(270deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.9) 58%),
+    var(--card-image) right center / auto 100% no-repeat,
+    #fff;
+}
+
+#recent-updates .archive__item {
+  min-height: 0;
+  padding: 10px;
+  background: #fff;
+}
+
+#recent-updates .archive-card-media {
+  position: relative;
+  height: clamp(78px, 14vw, 104px);
+  margin: -10px -10px 8px;
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
+  background:
+    linear-gradient(180deg, rgba(247, 250, 252, 0.35) 0%, rgba(255, 255, 255, 0.9) 100%),
+    var(--card-image) center / cover no-repeat,
+    #eef3f6;
+}
+
+#recent-updates .archive-card-media img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 8px rgba(31, 42, 53, 0.16));
+}
+
+#recent-updates .archive__item-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-top: 0;
+  margin-bottom: 0.24rem;
+  font-size: 0.95rem;
+  line-height: 1.34;
+}
+
+#recent-updates .post-tags {
+  display: none;
+}
+
+#recent-updates .post-categories {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 3px;
+  max-height: none;
+  overflow: visible;
+  margin: 2px 0 4px;
+}
+
+#recent-updates .post-categories .taxonomy__link:not(:first-child) {
+  display: none;
+}
+
+#recent-updates .post-categories .taxonomy__link {
+  max-width: 100%;
+}
+
+#recent-updates .post-categories .taxonomy__link i,
+#recent-updates .post-tags .taxonomy__link i {
+  display: none;
+}
+
+.home-post-list .post-categories,
+.home-post-list .post-tags,
+.tab-list .post-categories,
+.tab-list .post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 3px 5px 4px 0;
+  max-height: 2.68rem;
+  overflow: hidden;
+}
+
+.home-post-list .taxonomy__link,
+.home-post-list .taxonomy-more,
+.tab-list .taxonomy__link,
+.tab-list .taxonomy-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  min-height: 17px;
+  max-width: 100%;
+  border-radius: 999px;
+  padding: 1px 5px;
+  font-size: 0.58rem;
+  line-height: 1.18;
+  white-space: nowrap;
+}
+
+.home-post-list .taxonomy-more,
+.tab-list .taxonomy-more {
+  border: 1px solid rgba(189, 75, 75, 0.22);
+  background: rgba(189, 75, 75, 0.07);
+  color: #a64646;
+  font-weight: 800;
+}
+
+.tab-list .page__meta .post-tags,
+.tab-list .page__meta .post-categories {
+  display: inline-flex;
+  border-radius: 7px;
+  padding: 2px 6px;
+  font-size: 0.64rem;
+  line-height: 1.3;
+}
+
+.tab-list .archive__item-title {
+  margin-top: 0;
+}
+
+.home-post-list .archive__item-title,
+.tab-list .archive__item-title {
+  max-width: 100%;
+  font-size: 0.94rem;
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.home-post-list .archive__item-title a,
+.tab-list .archive__item-title a,
+.interview-meta a,
+.sidebar-link-list a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#recent-updates .archive__item-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-top: 0;
+  font-size: 0.95rem;
+}
+
+.home-post-list .archive__item-excerpt,
+.tab-list .archive__item-excerpt,
+.interview-meta {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.home-post-list .archive__item-excerpt {
+  display: -webkit-box;
+  margin-top: 0.45rem;
+  margin-bottom: 0;
+  font-size: 0.78rem;
+  line-height: 1.55;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.home-post-list .page__meta {
+  margin: 0.25rem 0 0;
+  font-size: 0.68rem;
+  line-height: 1.35;
+}
+
+#recent-updates .page__meta {
+  max-height: 1.2rem;
+  overflow: hidden;
+  font-size: 0.6rem;
+  line-height: 1.22;
+}
+
+.sidebar-panel {
+  border: 1px solid #dfe5eb;
+  border-radius: 8px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.sidebar-context {
+  display: none;
+  gap: 14px;
+}
+
+.sidebar-context.active {
+  display: grid;
+}
+
+.sidebar-panel h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  border: 0;
+  color: #26323f;
+  font-size: 0.92rem;
+}
+
+.home-nav {
+  display: grid;
+  gap: 6px;
+}
+
+.home-nav-link,
+.category-list a {
   display: flex;
   align-items: center;
-}
-
-.category-link {
-  
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 34px;
+  border-radius: 7px;
+  padding: 7px 9px;
+  color: #384656;
   text-decoration: none;
-  display: flex;
-  gap: 2px;
-}
-.category-name, .category-count {
-  font-size: var(--dynamic-size); /* 使用CSS变量控制大小 */
-  font-weight: 800;
-  color: rgb(249, 247, 247);
-}
-.category-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 3px 8px rgba(163, 98, 98, 0.1);
-}
-/* 响应式优化 */
-@media (max-width: 1024px) {
-  .home-wrapper {
-    flex-direction: column;
-  }
-  
-  .module-title {
-    position: static;
-    padding: 5px 5px;
-    max-width: 90%;
-    order: -1; /* 移动端侧边栏在上方 */
-    margin-bottom: 40px;
-  }
+  font-size: 0.86rem;
 }
 
-.widget {
-  margin-bottom: 2rem;
-  padding: 1.5rem;
-  background: #f8f9fa;
-  border-radius: 8px;
+.home-nav-link:hover,
+.home-nav-link.active,
+.category-list a:hover {
+  background: #f2f5f8;
+  text-decoration: none;
 }
 
+.home-nav-link.active {
+  color: #b43d3d;
+  font-weight: 700;
+}
 
+.home-nav-link strong,
+.category-list strong {
+  color: #7a8794;
+  font-size: 0.75rem;
+}
 
+.category-list {
+  display: grid;
+  gap: 4px;
+  max-height: 260px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.category-list.compact {
+  max-height: none;
+}
+
+.sidebar-link-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar-link-list a,
+.sidebar-link-list span {
+  display: block;
+  border-radius: 7px;
+  padding: 7px 8px;
+  color: #384656;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+.sidebar-link-list a:hover {
+  background: #f2f5f8;
+  text-decoration: none;
+}
+
+.sidebar-note,
 .notice-content {
-  font-size: 1.95em;
+  margin: 0;
+  color: #64717f;
+  font-size: 0.86rem;
   line-height: 1.6;
 }
-.post-categories{
-  color:rgb(246, 246, 93);
-  padding: 3px 5px;
-  font-size: 0.77em;
-  font-weight: 600;
-  border-radius: 8px;
-  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
-  display: inline-block;    /* 宽度由内容决定 */
-  background: rgba(51, 101, 200, 0.411); /* 半透明背景（示例使用50%黑）*/
+
+.sidebar-field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
 }
-.post-tags{
-  color:rgb(162, 68, 200);
-  padding: 1px 6px;
-  font-size: 0.7em;
-  font-weight: 600;
+
+.sidebar-field span {
+  color: #64717f;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.sidebar-field input,
+.sidebar-field select {
+  width: 100%;
+  min-height: 38px;
+  border: 1px solid #d7dce2;
   border-radius: 8px;
-  
-  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
-  display: inline-block;    /* 宽度由内容决定 */
-  background: rgba(205, 41, 60, 0.419); /* 半透明背景（示例使用50%黑）*/
+  padding: 0 10px;
+  background: #fff;
+  color: #1f2933;
+  font-size: 0.88rem;
+}
+
+.sidebar-search-mini {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.sidebar-search-mini input {
+  min-width: 0;
+  min-height: 36px;
+  border: 1px solid #d7dce2;
+  border-radius: 8px;
+  padding: 0 10px;
+  background: #fff;
+  color: #1f2933;
+  font-size: 0.84rem;
+}
+
+.sidebar-search-mini button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 36px;
+  border: 0;
+  border-radius: 8px;
+  padding: 0 10px;
+  background: #bd4b4b;
+  color: #fff;
+  font-size: 0.76rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sidebar-tool-grid,
+.sidebar-reader-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.sidebar-tool-grid--compact {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sidebar-tool-grid a,
+.sidebar-reader-grid a {
+  display: grid;
+  min-width: 0;
+  min-height: 74px;
+  align-content: space-between;
+  gap: 4px;
+  border: 1px solid #e4e9ef;
+  border-radius: 8px;
+  padding: 9px;
+  background: linear-gradient(135deg, rgba(136, 183, 213, 0.12), rgba(255, 255, 255, 0.94));
+  color: #26323f;
+  text-decoration: none;
+}
+
+.sidebar-tool-grid a:hover,
+.sidebar-reader-grid a:hover,
+.sidebar-command-list a:hover {
+  border-color: rgba(189, 75, 75, 0.28);
+  background: #fff7f7;
+  text-decoration: none;
+}
+
+.sidebar-tool-grid i,
+.sidebar-reader-grid i {
+  color: #bd4b4b;
+  font-size: 0.86rem;
+}
+
+.sidebar-tool-grid strong,
+.sidebar-reader-grid strong {
+  color: #26323f;
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
+.sidebar-tool-grid span,
+.sidebar-reader-grid span {
+  color: #64717f;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.sidebar-topic-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.sidebar-topic-cloud a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 100%;
+  border: 1px solid #e4e9ef;
+  border-radius: 999px;
+  padding: 4px 8px;
+  background: #f8fafb;
+  color: #384656;
+  font-size: 0.74rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.sidebar-topic-cloud a:hover {
+  border-color: rgba(189, 75, 75, 0.3);
+  background: #fff7f7;
+  color: #a43f3f;
+  text-decoration: none;
+}
+
+.sidebar-topic-cloud span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-topic-cloud strong {
+  color: #9aa6b2;
+  font-size: 0.66rem;
+}
+
+.sidebar-link-list--ranked a {
+  display: grid;
+  grid-template-columns: 42px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-link-list--ranked a span {
+  border-radius: 999px;
+  padding: 3px 6px;
+  background: rgba(189, 75, 75, 0.1);
+  color: #ad4141;
+  font-size: 0.64rem;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sidebar-command-list {
+  display: grid;
+  gap: 7px;
+}
+
+.sidebar-command-list a {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e4e9ef;
+  border-radius: 8px;
+  padding: 8px;
+  background: rgba(248, 250, 251, 0.88);
+  color: #26323f;
+  text-decoration: none;
+}
+
+.sidebar-command-list span {
+  border-radius: 999px;
+  padding: 3px 7px;
+  background: rgba(189, 75, 75, 0.1);
+  color: #ad4141;
+  font-size: 0.66rem;
+  font-weight: 900;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sidebar-command-list strong {
+  min-width: 0;
+  overflow: hidden;
+  color: #384656;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-status-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.sidebar-status-grid span {
+  display: grid;
+  gap: 2px;
+  border: 1px solid #e4e9ef;
+  border-radius: 8px;
+  padding: 9px;
+  background: #f8fafb;
+}
+
+.sidebar-status-grid strong {
+  color: #26323f;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.sidebar-status-grid em {
+  color: #64717f;
+  font-size: 0.68rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+@media (min-width: 901px) {
+  .home-dashboard {
+    --home-panel-height: auto;
+  }
+
+  .home-feed {
+    overflow: visible;
+  }
+
+  .home-section-switcher {
+    position: sticky;
+    top: 76px;
+    z-index: 8;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    border-bottom: 1px solid #dfe5eb;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    background: rgba(248, 250, 251, 0.96);
+    box-shadow: 0 10px 22px rgba(31, 42, 53, 0.06);
+    backdrop-filter: blur(12px);
+  }
+
+  .home-section-switcher .home-nav-link {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    min-height: 40px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 8px 10px;
+    background: rgba(255, 255, 255, 0.68);
+    font-size: 0.78rem;
+  }
+
+  .home-section-switcher .home-nav-link span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .home-section-switcher .home-nav-link strong {
+    font-size: 0.66rem;
+  }
+
+  .home-section-switcher .home-nav-link:hover,
+  .home-section-switcher .home-nav-link.active {
+    border-color: rgba(189, 75, 75, 0.34);
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(31, 42, 53, 0.07);
+  }
+
+  .home-section-switcher .home-nav-link.active {
+    color: #a83f3f;
+  }
+
+  .home-section {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  .home-section:first-child {
+    padding-top: 22px;
+  }
+
+  .home-sidebar .home-nav {
+    display: none;
+  }
+
+  .home-sidebar {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .home-sidebar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-sidebar-panels {
+    gap: 10px;
+  }
+
+  .sidebar-context.active {
+    position: relative;
+    display: grid;
+    gap: 10px;
+    min-height: 0;
+  }
+
+  .sidebar-context.active .sidebar-panel {
+    display: block;
+    min-height: 0;
+    animation: sidebar-panel-fade 260ms ease both;
+  }
+
+  .category-list {
+    max-height: 128px;
+    overflow: hidden;
+  }
+
+  .category-list a {
+    min-height: 28px;
+    padding: 5px 7px;
+    font-size: 0.78rem;
+  }
+
+  .sidebar-link-list {
+    max-height: 128px;
+    overflow: hidden;
+  }
+
+  .sidebar-link-list a,
+  .sidebar-link-list span {
+    padding: 6px 7px;
+    font-size: 0.76rem;
+    line-height: 1.35;
+  }
+
+  .notice-content,
+  .sidebar-note {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 0.8rem;
+    line-height: 1.58;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+  }
+
+  .overview-content-grid {
+    display: none;
+  }
+
+  .overview-dynamic-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+
+  #recent-updates .home-post-list {
+    display: block;
+    column-count: 2;
+    column-gap: 12px;
+  }
+
+  #recent-updates .home-post-list .list__item {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 12px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  #recent-updates .archive-card-media {
+    height: 82px;
+  }
+}
+
+@media (min-width: 1180px) {
+  #recent-updates .home-post-list {
+    column-count: 3;
+  }
+}
+
+@keyframes sidebar-panel-fade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1080px) {
+  .home-dashboard {
+    --home-panel-height: min(72vh, 760px);
+    grid-template-columns: 1fr;
+  }
+
+  .home-dashboard.sidebar-collapsed {
+    grid-template-columns: 1fr;
+  }
+
+  .home-sidebar {
+    position: static;
+    order: -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home-sidebar-panels {
+    grid-column: 1 / -1;
+  }
+
+  .home-nav {
+    grid-column: 1 / -1;
+  }
+
+  .home-dashboard.sidebar-collapsed .home-sidebar-panels {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .layout--home #main .archive {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+
+  html::-webkit-scrollbar,
+  body::-webkit-scrollbar,
+  .home-section::-webkit-scrollbar,
+  .home-sidebar::-webkit-scrollbar,
+  .home-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+  }
+
+  #main .archive {
+    order: 1;
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .layout--home #main > .sidebar {
+    order: 2;
+    width: 100%;
+    margin: 12px 0 0;
+    padding: 0 0 20px;
+    opacity: 1;
+  }
+
+  .layout--home #main > .sidebar > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .layout--home #main > .sidebar .sidebar-section {
+    margin: 0 0 10px;
+    border: 1px solid #dfe5eb;
+    border-radius: 8px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 4px 14px rgba(31, 42, 53, 0.04);
+  }
+
+  .layout--home #main > .sidebar .sidebar-section--profile .h-card {
+    display: grid;
+    grid-template-columns: 38px minmax(0, 1fr);
+    align-items: center;
+    gap: 8px 10px;
+  }
+
+  .layout--home #main > .sidebar .author__avatar {
+    display: block;
+    width: 38px;
+    height: 38px;
+  }
+
+  .layout--home #main > .sidebar .author__avatar img {
+    display: block;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .layout--home #main > .sidebar .author__content {
+    display: block;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .layout--home #main > .sidebar .author__name {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.25;
+  }
+
+  .layout--home #main > .sidebar .author__bio {
+    margin-top: 3px;
+    color: #64717f;
+    font-size: 0.68rem;
+    line-height: 1.4;
+  }
+
+  .layout--home #main > .sidebar .author__bio p {
+    margin: 0;
+  }
+
+  .layout--home #main > .sidebar .author__urls-wrapper {
+    display: block;
+    grid-column: 1 / -1;
+    width: 100%;
+  }
+
+  .layout--home #main > .sidebar .author__urls-wrapper button {
+    display: none;
+  }
+
+  .layout--home #main > .sidebar .author__urls {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 4px 0 0;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .layout--home #main > .sidebar .author__urls::before,
+  .layout--home #main > .sidebar .author__urls::after {
+    display: none;
+  }
+
+  .layout--home #main > .sidebar .author__urls li {
+    white-space: normal;
+  }
+
+  .layout--home #main > .sidebar .author__urls a,
+  .layout--home #main > .sidebar .author__urls li {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    min-height: 24px;
+    border-radius: 999px;
+    padding: 3px 7px;
+    background: #f2f5f8;
+    color: #384656;
+    font-size: 0.66rem;
+    line-height: 1.2;
+    text-decoration: none;
+  }
+
+  .layout--home #main > .sidebar .author__urls a:hover {
+    background: #eef2f6;
+    color: #b43d3d;
+    text-decoration: none;
+  }
+
+  .layout--home #main > .sidebar .sidebar-section--theme {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+  }
+
+  .layout--home #main > .sidebar .sidebar-section--theme h3 {
+    grid-column: 1 / -1;
+    margin: 0;
+    color: #26323f;
+    font-size: 0.82rem;
+  }
+
+  .layout--home #main > .sidebar .sidebar-section--theme button {
+    min-height: 32px;
+    margin: 0;
+    border-radius: 999px;
+    padding: 5px 6px;
+    font-size: 0.66rem;
+  }
+
+  .home-dashboard {
+    --home-panel-height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 0 24px;
+    color: #26323f;
+  }
+
+  .home-dashboard.sidebar-collapsed {
+    display: flex;
+  }
+
+  .home-feed {
+    min-height: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    overflow: visible;
+  }
+
+  .home-section {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+    padding: 8px 0 22px;
+    scroll-margin-top: 58px;
+  }
+
+  .home-section:first-child {
+    padding-top: 8px;
+  }
+
+  .home-section.is-active {
+    animation: home-panel-mobile-in 180ms ease both;
+  }
+
+  @keyframes home-panel-mobile-in {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .home-sidebar {
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    order: -1;
+    display: block;
+    flex: 0 0 auto;
+    align-self: stretch;
+    width: calc(100% + 1.1rem);
+    max-width: none;
+    max-height: none;
+    margin: 0 -0.55rem 2px;
+    padding: 4px 0 5px;
+    overflow: visible;
+    background: rgba(248, 250, 251, 0.98);
+    border-bottom: 1px solid #dfe5eb;
+    backdrop-filter: blur(10px);
+  }
+
+  .sidebar-toggle {
+    display: none;
+  }
+
+  .home-sidebar-panels,
+  .home-dashboard.sidebar-collapsed .home-sidebar-panels {
+    display: block;
+    min-width: 0;
+  }
+
+  .home-nav {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 3px;
+    margin: 0;
+    border: 1px solid #dfe5eb;
+    border-radius: 12px;
+    padding: 4px;
+    overflow: visible;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 4px 16px rgba(31, 42, 53, 0.06);
+    scrollbar-width: none;
+  }
+
+  .home-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .home-nav h2 {
+    display: none;
+  }
+
+  .home-nav-link {
+    justify-content: center;
+    min-width: 0;
+    min-height: 32px;
+    border: 0;
+    border-radius: 9px;
+    padding: 6px 3px;
+    background: transparent;
+    box-shadow: none;
+    color: #536170;
+    font-size: 0.62rem;
+    font-weight: 800;
+    line-height: 1.1;
+    text-align: center;
+    white-space: nowrap;
+    transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+  }
+
+  .home-nav-link span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .home-nav-link strong {
+    display: none;
+  }
+
+  .home-nav-link.active {
+    background: linear-gradient(180deg, #fff7f7, #ffecec);
+    color: #a43f3f;
+    box-shadow: inset 0 0 0 1px rgba(189, 75, 75, 0.16);
+    transform: translateY(-1px);
+  }
+
+  .home-nav-link:hover {
+    background: #f4f7fa;
+    text-decoration: none;
+  }
+
+  .sidebar-context,
+  .sidebar-context.active {
+    display: none;
+  }
+
+  .home-dashboard[data-active-section="weibo-archive"] .sidebar-context[data-sidebar-context="weibo-archive"].active {
+    display: grid;
+    gap: 8px;
+    margin: 8px 0.55rem 0;
+  }
+
+  .home-dashboard[data-active-section="weibo-archive"] .sidebar-context[data-sidebar-context="weibo-archive"].active .sidebar-panel:not(.weibo-sidebar-tools) {
+    display: none;
+  }
+
+  .sidebar-panel {
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 14px rgba(31, 42, 53, 0.04);
+  }
+
+  .weibo-sidebar-tools {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .weibo-sidebar-tools h2,
+  .weibo-sidebar-tools .sidebar-note {
+    margin: 0;
+  }
+
+  .sidebar-field {
+    margin-bottom: 0;
+  }
+
+  .sidebar-field input,
+  .sidebar-field select {
+    min-height: 36px;
+    font-size: 16px;
+  }
+
+  .home-sidebar,
+  .overview-hero,
+  .overview-reading-grid,
+  .overview-content-grid,
+  .overview-tool-strip {
+    grid-template-columns: 1fr;
+  }
+
+  .overview-mini-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .section-heading {
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .section-heading h2,
+  .weibo-heading {
+    font-size: 1.08rem;
+  }
+
+  .section-kicker,
+  .weibo-kicker,
+  .overview-eyebrow {
+    font-size: 0.62rem;
+  }
+
+  .overview-hero,
+  .overview-reading-grid,
+  .overview-content-grid,
+  .overview-tool-strip {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .overview-reading-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .overview-hero-copy,
+  .overview-mini-stats,
+  .overview-route,
+  .overview-panel,
+  .overview-tool-strip,
+  .home-post-list .archive__item,
+  .tab-list .archive__item {
+    border-radius: 8px;
+  }
+
+  .overview-hero-copy {
+    padding: 14px;
+  }
+
+  .overview-hero-copy h3 {
+    font-size: 1.08rem;
+    line-height: 1.38;
+  }
+
+  .overview-hero-copy p:last-child {
+    margin-top: 8px;
+    font-size: 0.8rem;
+    line-height: 1.62;
+  }
+
+  .overview-mini-stats {
+    padding: 8px;
+  }
+
+  .overview-mini-stats a {
+    min-height: 48px;
+    padding: 7px 5px;
+    text-align: center;
+  }
+
+  .overview-mini-stats strong {
+    font-size: 0.95rem;
+  }
+
+  .overview-mini-stats span {
+    font-size: 0.6rem;
+  }
+
+  .overview-route {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 7px;
+    padding: 10px 6px;
+    text-align: center;
+  }
+
+  .overview-route-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+  }
+
+  .overview-route-body strong {
+    font-size: 0.78rem;
+  }
+
+  .overview-route-body em {
+    display: -webkit-box;
+    overflow: hidden;
+    font-size: 0.62rem;
+    line-height: 1.35;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+
+  .overview-panel {
+    padding: 12px;
+  }
+
+  .overview-feature-link {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .overview-feature-image {
+    min-height: 104px;
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.7)),
+      var(--feature-image) center / cover no-repeat,
+      #eef3f6;
+  }
+
+  .overview-feature-text {
+    padding: 11px;
+  }
+
+  .overview-tool-strip {
+    align-items: stretch;
+    padding: 12px;
+  }
+
+  .overview-tool-strip a {
+    justify-self: start;
+  }
+
+  .home-post-list,
+  #documents .tab-list,
+  #interview-translations .tab-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  #recent-updates .home-post-list {
+    display: block;
+    column-count: 2;
+    column-gap: 8px;
+  }
+
+  #recent-updates .home-post-list .list__item {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 6px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .home-post-list .archive__item,
+  .tab-list .archive__item {
+    padding: 12px;
+    border-left-width: 4px;
+  }
+
+  #recent-updates .archive__item {
+    border-left-width: 3px;
+    padding: 8px;
+    box-shadow: 0 3px 10px rgba(31, 42, 53, 0.05);
+  }
+
+  .tab-list .archive-card.has-card-image {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.93) 64%, rgba(255, 255, 255, 0.82) 100%),
+      var(--card-image) top center / 100% auto no-repeat,
+      #fff;
+  }
+
+  #recent-updates .archive-card-media {
+    height: 54px;
+    margin: -8px -8px 7px;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .home-post-list .archive__item-title,
+  .tab-list .archive__item-title,
+  #recent-updates .archive__item-title {
+    font-size: 0.86rem;
+    line-height: 1.38;
+  }
+
+  #recent-updates .archive__item-title {
+    margin-bottom: 0.2rem;
+    font-size: 0.74rem;
+    line-height: 1.28;
+    -webkit-line-clamp: 2;
+  }
+
+  .home-post-list .archive__item-excerpt,
+  .tab-list .archive__item-excerpt,
+  .interview-meta {
+    font-size: 0.74rem;
+    line-height: 1.55;
+    -webkit-line-clamp: 2;
+  }
+
+  #recent-updates .archive__item-excerpt {
+    display: none;
+  }
+
+  .home-post-list .taxonomy__link,
+  .home-post-list .taxonomy-more,
+  .tab-list .taxonomy__link,
+  .tab-list .taxonomy-more {
+    min-height: 16px;
+    padding: 1px 5px;
+    font-size: 0.56rem;
+  }
+
+  #recent-updates .post-categories {
+    gap: 2px;
+    margin: 1px 0 3px;
+    max-height: none;
+    overflow: visible;
+  }
+
+  #recent-updates .post-tags {
+    display: none;
+  }
+
+  #recent-updates .taxonomy__link,
+  #recent-updates .taxonomy-more {
+    min-height: 13px;
+    padding: 1px 4px;
+    font-size: 0.46rem;
+    line-height: 1.1;
+  }
+
+  .home-post-list .page__meta,
+  #recent-updates .page__meta {
+    font-size: 0.62rem;
+  }
+
+  #recent-updates .page__meta {
+    max-height: 0.9rem;
+    margin-top: 0.12rem;
+    font-size: 0.5rem;
+    line-height: 1.1;
+  }
+
+  .weibo-archive,
+  .weibo-timeline,
+  .weibo-post {
+    max-width: 100%;
+  }
+
+  .weibo-post {
+    padding: 11px;
+  }
+}
+
+@media (max-width: 420px) {
+  #main {
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+  }
+
+  .home-sidebar {
+    width: calc(100% + 0.9rem);
+    margin-right: -0.45rem;
+    margin-left: -0.45rem;
+  }
+
+  .home-nav {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding: 4px;
+  }
+
+  .home-dashboard[data-active-section="weibo-archive"] .sidebar-context[data-sidebar-context="weibo-archive"].active {
+    margin-right: 0.45rem;
+    margin-left: 0.45rem;
+  }
+
+  .overview-mini-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .overview-reading-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .overview-route {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  .overview-route-body em {
+    display: none;
+  }
+
+  .overview-path-list li {
+    grid-template-columns: 36px minmax(0, 1fr);
+  }
+
+  .overview-path-list a {
+    white-space: normal;
+  }
+
+  #recent-updates .archive-card-media {
+    height: 42px;
+  }
+}
+
+body.theme-bg-black.layout--home #main > .sidebar,
+body.theme-bg-black.layout--home #main > .sidebar .sidebar-section,
+body.theme-bg-black.layout--home #main > .sidebar .sidebar-section--profile .h-card,
+body.theme-bg-black.layout--home #main > .sidebar .sidebar-section--theme {
+  background: #24272c !important;
+  border-color: #3f4852 !important;
+  color: #dce4ea !important;
+  box-shadow: none !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__name,
+body.theme-bg-black.layout--home #main > .sidebar .author__bio,
+body.theme-bg-black.layout--home #main > .sidebar .author__bio p,
+body.theme-bg-black.layout--home #main > .sidebar .sidebar-section--theme h3 {
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__urls,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls-wrapper button,
+body.theme-bg-black.layout--home #main > .sidebar .sidebar-section--theme button {
+  background: #2b3036 !important;
+  border-color: #46505a !important;
+  color: #dce4ea !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__urls a,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls li,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls .label {
+  color: #dce4ea !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__urls li,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls a {
+  background: rgba(43, 48, 54, 0.92) !important;
+  border: 1px solid #46505a !important;
+  color: #dce4ea !important;
+  box-shadow: none !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__urls a:hover,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls li:hover {
+  background: rgba(159, 215, 255, 0.13) !important;
+  border-color: rgba(159, 215, 255, 0.3) !important;
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__urls.social-icons i,
+body.theme-bg-black.layout--home #main > .sidebar .author__urls.social-icons .svg-inline--fa {
+  color: #9fd7ff !important;
+}
+
+body.theme-bg-black.layout--home #main > .sidebar .author__avatar img {
+  background: #303640 !important;
+  border-color: #53606b !important;
+}
+
+body.theme-bg-black .home-dashboard,
+body.theme-bg-black .home-feed {
+  color: #dce4ea !important;
+}
+
+body.theme-bg-black .home-sidebar,
+body.theme-bg-black .home-nav {
+  background: rgba(36, 39, 44, 0.96) !important;
+  border-color: #3f4852 !important;
+  box-shadow: none !important;
+}
+
+body.theme-bg-black .home-nav-link {
+  background: rgba(43, 48, 54, 0.72) !important;
+  color: #c7d1da !important;
+}
+
+body.theme-bg-black .home-nav-link.active,
+body.theme-bg-black .home-nav-link:hover {
+  background: rgba(159, 215, 255, 0.13) !important;
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black .overview-mini-stats a,
+body.theme-bg-black .overview-route-icon,
+body.theme-bg-black .overview-path-list span,
+body.theme-bg-black .overview-tool-strip a,
+body.theme-bg-black .sidebar-tool-grid a,
+body.theme-bg-black .sidebar-reader-grid a,
+body.theme-bg-black .sidebar-topic-cloud a,
+body.theme-bg-black .sidebar-link-list--ranked a span,
+body.theme-bg-black .sidebar-command-list a,
+body.theme-bg-black .sidebar-command-list span,
+body.theme-bg-black .sidebar-status-grid span,
+body.theme-bg-black .home-post-list .taxonomy__link,
+body.theme-bg-black .home-post-list .taxonomy-more,
+body.theme-bg-black .tab-list .taxonomy__link,
+body.theme-bg-black .tab-list .taxonomy-more {
+  background: rgba(43, 48, 54, 0.92) !important;
+  border-color: #46505a !important;
+  color: #cbeeff !important;
+  box-shadow: none !important;
+}
+
+body.theme-bg-black .overview-mini-stats a:hover,
+body.theme-bg-black .sidebar-tool-grid a:hover,
+body.theme-bg-black .sidebar-reader-grid a:hover,
+body.theme-bg-black .sidebar-topic-cloud a:hover,
+body.theme-bg-black .sidebar-command-list a:hover,
+body.theme-bg-black .overview-tool-strip a:hover {
+  background: rgba(159, 215, 255, 0.13) !important;
+  border-color: rgba(159, 215, 255, 0.3) !important;
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black .overview-route--interview .overview-route-icon,
+body.theme-bg-black .overview-route--weibo .overview-route-icon {
+  background: rgba(159, 215, 255, 0.12) !important;
+  color: #cbeeff !important;
+}
+
+body.theme-bg-black .sidebar-topic-cloud strong,
+body.theme-bg-black .sidebar-status-grid strong,
+body.theme-bg-black .sidebar-command-list strong,
+body.theme-bg-black .overview-mini-stats strong,
+body.theme-bg-black .overview-tool-strip strong {
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black .sidebar-topic-cloud span,
+body.theme-bg-black .sidebar-status-grid em,
+body.theme-bg-black .overview-mini-stats span {
+  color: #b9c2ca !important;
+}
+
+body.theme-bg-black .home-intelligent-search__bar,
+body.theme-bg-black .home-intelligent-search__results a,
+body.theme-bg-black .home-intelligent-search__results p,
+body.theme-bg-black .sidebar-field input,
+body.theme-bg-black .sidebar-field select,
+body.theme-bg-black .sidebar-search-mini input {
+  background: #24272c !important;
+  border-color: #46505a !important;
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black .home-intelligent-search__bar input {
+  background: transparent !important;
+  color: #eef3f7 !important;
+}
+
+body.theme-bg-black .home-intelligent-search__bar input::placeholder,
+body.theme-bg-black .sidebar-field input::placeholder,
+body.theme-bg-black .sidebar-search-mini input::placeholder {
+  color: #8e9aa5 !important;
+}
+
+body.theme-bg-black .sidebar-search-mini button,
+body.theme-bg-black .home-intelligent-search__bar button {
+  background: #3f8fc6 !important;
+  color: #fff !important;
 }
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', () => {
-  // 获取所有分类项
-  const items = document.querySelectorAll('.category-item');
-  
-  // 提取所有分类的文章数量
-  const counts = Array.from(items).map(item => {
-    return parseInt(item.dataset.count) || 1; // 确保有默认值
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  const dashboard = document.querySelector(".home-dashboard");
+  const sidebarToggle = document.querySelector(".sidebar-toggle");
+  const sidebarPanels = document.getElementById("homeSidebarPanels");
+  const navLinks = Array.from(document.querySelectorAll(".home-nav-link"));
+  const overviewLinks = Array.from(document.querySelectorAll(".home-overview a[href^='#'][data-scroll-ignore]"));
+  const sidebarContexts = Array.from(document.querySelectorAll(".sidebar-context"));
+  const overviewDynamicCards = Array.from(document.querySelectorAll(".overview-dynamic-card"));
+  const smartSearchInput = document.getElementById("homeSmartSearch");
+  const smartSearchResults = document.getElementById("homeSmartSearchResults");
+  const aiSearchButton = document.getElementById("homeAiSearch");
+  const sections = Array.from(document.querySelectorAll(".home-section"));
+  const sectionIds = sections.map((section) => section.id);
+  let activeSectionIndex = 0;
+  let sidebarRotationTimer = 0;
+  let overviewRotationIndex = 0;
+  let overviewRotationTimer = 0;
 
-  // 计算最大值和最小值
-  const maxCount = Math.max(...counts);
-  const minCount = Math.min(...counts);
-
-  // 动态计算字体大小
-  items.forEach(item => {
-    const currentCount = parseInt(item.dataset.count);
-    
-    // 动态计算逻辑（可调节参数）
-    const scale = 0.6; // 缩放系数
-    const baseSize = 18; // 基础字号（px）
-    const minSize = 12;  // 最小字号（px）
-    
-    // 线性插值公式
-    const fontSize = baseSize * (scale + 
-      (currentCount - minCount) / (maxCount - minCount) * (1 - scale));
-
-    // 应用动态字号（限制最小字号）
-    item.style.setProperty('--dynamic-size', 
-      `${Math.max(fontSize, minSize)}px`);
-  });
-
-  // Tabbed Navigation
-  const tabLinks = document.querySelectorAll('.tabs-nav a');
-  const tabContents = document.querySelectorAll('.tab-content');
-
-  function showTab(tabId) {
-    // Hide all tab contents and remove 'active' class from links
-    tabContents.forEach(content => {
-      content.classList.remove('active');
-    });
-    tabLinks.forEach(link => {
-      link.classList.remove('active');
-    });
-
-    // Show the target tab content
-    const targetContent = document.querySelector(tabId);
-    if (targetContent) {
-      targetContent.classList.add('active');
-    }
-    
-    // Activate the clicked tab link
-    const activeLink = document.querySelector(`.tabs-nav a[href="${tabId}"]`);
-    if (activeLink) {
-      activeLink.classList.add('active');
-    }
+  function setSidebarCollapsed(collapsed) {
+    if (!dashboard || !sidebarToggle || !sidebarPanels) return;
+    dashboard.classList.toggle("sidebar-collapsed", collapsed);
+    sidebarToggle.setAttribute("aria-expanded", String(!collapsed));
+    sidebarToggle.setAttribute("title", collapsed ? "显示侧边栏" : "隐藏侧边栏");
+    sidebarToggle.querySelector(".sidebar-toggle-text").textContent = collapsed ? "显示侧边栏" : "隐藏侧边栏";
+    localStorage.setItem("homeSidebarCollapsed", collapsed ? "true" : "false");
   }
 
-  // Add event listeners to tab links
-  tabLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
+  if (dashboard && sidebarToggle) {
+    setSidebarCollapsed(localStorage.getItem("homeSidebarCollapsed") === "true");
+    sidebarToggle.addEventListener("click", () => {
+      setSidebarCollapsed(!dashboard.classList.contains("sidebar-collapsed"));
+    });
+  }
+
+  function setActivePanel(targetId, options = {}) {
+    if (!sectionIds.includes(targetId)) targetId = "overview";
+    const nextIndex = sectionIds.indexOf(targetId);
+    if (dashboard) {
+      dashboard.classList.toggle("is-switching-back", nextIndex < activeSectionIndex);
+      dashboard.dataset.activeSection = targetId;
+    }
+    activeSectionIndex = Math.max(0, nextIndex);
+
+    sections.forEach((section) => {
+      const active = section.id === targetId;
+      section.classList.toggle("is-active", active);
+      section.setAttribute("aria-hidden", String(!active));
+      if (active) section.scrollTop = 0;
+    });
+
+    const current = { id: `#${targetId}` };
+    navLinks.forEach((link) => {
+      link.classList.toggle("active", link.getAttribute("href") === current.id);
+    });
+    overviewLinks.forEach((link) => {
+      link.classList.toggle("active", link.getAttribute("href") === current.id);
+    });
+    sidebarContexts.forEach((context) => {
+      const contexts = (context.dataset.sidebarContext || "").split(/\s+/);
+      const isActive = contexts.includes(targetId);
+      context.classList.toggle("active", isActive);
+      if (isActive) activateSidebarPanel(context, 0);
+    });
+
+    if (options.updateHash !== false && window.location.hash !== `#${targetId}`) {
+      history.pushState({ homeSection: targetId }, "", `#${targetId}`);
+    }
+
+    startSidebarRotation();
+  }
+
+  function activateSidebarPanel(context, index) {
+    const panels = Array.from(context.querySelectorAll(".sidebar-panel"));
+    if (!panels.length) return;
+    const nextIndex = ((index % panels.length) + panels.length) % panels.length;
+    context.dataset.panelIndex = String(nextIndex);
+    context.classList.toggle("is-rotating", panels.length > 1);
+    panels.forEach((panel, panelIndex) => {
+      panel.classList.toggle("sidebar-panel-current", panelIndex === nextIndex);
+    });
+  }
+
+  function startSidebarRotation() {
+    window.clearInterval(sidebarRotationTimer);
+    const activeContext = sidebarContexts.find((context) => context.classList.contains("active"));
+    if (!activeContext || window.matchMedia("(max-width: 900px)").matches) return;
+    const panels = Array.from(activeContext.querySelectorAll(".sidebar-panel"));
+    if (panels.length <= 1) return;
+    sidebarRotationTimer = window.setInterval(() => {
+      const currentIndex = Number(activeContext.dataset.panelIndex || 0);
+      activateSidebarPanel(activeContext, currentIndex + 1);
+    }, 4200);
+  }
+
+  function activateOverviewDynamicCard(index) {
+    if (!overviewDynamicCards.length) return;
+    overviewRotationIndex = ((index % overviewDynamicCards.length) + overviewDynamicCards.length) % overviewDynamicCards.length;
+    overviewDynamicCards.forEach((card, cardIndex) => {
+      card.classList.toggle("is-active", cardIndex === overviewRotationIndex);
+    });
+  }
+
+  function startOverviewRotation() {
+    window.clearInterval(overviewRotationTimer);
+    if (overviewDynamicCards.length <= 1) return;
+    overviewRotationTimer = window.setInterval(() => {
+      activateOverviewDynamicCard(overviewRotationIndex + 1);
+    }, 3600);
+  }
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
       event.preventDefault();
-      const tabId = this.getAttribute('href');
-      showTab(tabId);
+      const targetId = link.getAttribute("href").slice(1);
+      setActivePanel(targetId);
     });
   });
 
-  // Show the first tab by default or based on URL hash
-  let initialTabId = window.location.hash;
-  const validTabIds = Array.from(tabLinks).map(link => link.getAttribute('href'));
+  overviewLinks.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const targetId = link.getAttribute("href").slice(1);
+      setActivePanel(targetId);
+    });
+  });
 
-  if (!initialTabId || !validTabIds.includes(initialTabId)) {
-    // Default to the first tab link's href if no valid hash or no hash at all
-    if (tabLinks.length > 0) {
-      initialTabId = tabLinks[0].getAttribute('href');
-    } else {
-      initialTabId = '#documents'; // Fallback if no tabs are defined
+  overviewDynamicCards.forEach((card, index) => {
+    card.addEventListener("mouseenter", () => activateOverviewDynamicCard(index));
+    card.addEventListener("focus", () => activateOverviewDynamicCard(index));
+  });
+  startOverviewRotation();
+
+  function renderSmartSearch(query) {
+    if (!smartSearchResults) return;
+    const normalized = query.trim().toLowerCase();
+    if (!normalized) {
+      smartSearchResults.classList.remove("is-active");
+      smartSearchResults.innerHTML = "";
+      return;
     }
+    const source = Array.isArray(window.store) ? window.store : [];
+    const terms = normalized.split(/\s+/).filter(Boolean);
+    const matches = source.filter((item) => {
+      const haystack = [
+        item.title,
+        item.excerpt,
+        (item.categories || []).join(" "),
+        (item.tags || []).join(" ")
+      ].join(" ").toLowerCase();
+      return terms.every((term) => haystack.includes(term));
+    }).slice(0, 6);
+    smartSearchResults.classList.add("is-active");
+    if (!matches.length) {
+      smartSearchResults.innerHTML = "<p>没有找到匹配内容。可以换一个关键词，或使用顶部搜索打开完整结果页。</p>";
+      return;
+    }
+    smartSearchResults.innerHTML = matches.map((item) => {
+      const title = String(item.title || "未命名").replace(/[<>&"]/g, (char) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "\"": "&quot;" }[char]));
+      const excerpt = String(item.excerpt || "").replace(/[<>&"]/g, (char) => ({ "<": "&lt;", ">": "&gt;", "&": "&amp;", "\"": "&quot;" }[char])).slice(0, 86);
+      return `<a href="${item.url}"><strong>${title}</strong><span>${excerpt}</span></a>`;
+    }).join("");
   }
-  // Ensure the function is called only if there's a valid initialTabId
-  if (document.querySelector(initialTabId)) {
-    showTab(initialTabId);
+
+  if (smartSearchInput) {
+    smartSearchInput.addEventListener("input", () => renderSmartSearch(smartSearchInput.value));
   }
 
-  // Collapsible Recent Posts
-  const toggleRecentPostsButton = document.getElementById('toggle-recent-posts');
-  const collapsibleRecentPostsDiv = document.getElementById('collapsible-recent-posts');
-
-  // Modified condition to be less strict:
-  if (toggleRecentPostsButton && collapsibleRecentPostsDiv) {
-    // Default state: expanded, so button shows [Hide]
-    // If you want it to be collapsed by default, add 'collapsed' class to collapsibleRecentPostsDiv in HTML
-    // and set button text to '[Show]' initially.
-
-    toggleRecentPostsButton.addEventListener('click', () => {
-      collapsibleRecentPostsDiv.classList.toggle('collapsed');
-      if (collapsibleRecentPostsDiv.classList.contains('collapsed')) {
-        toggleRecentPostsButton.textContent = '[Show]';
-      } else {
-        toggleRecentPostsButton.textContent = '[Hide]';
-      }
+  if (aiSearchButton) {
+    aiSearchButton.addEventListener("click", () => {
+      const query = smartSearchInput ? smartSearchInput.value.trim() : "";
+      window.location.href = "{{ '/search/' | relative_url }}" + (query ? `?q=${encodeURIComponent(query)}` : "");
     });
   }
+
+  const initialId = window.location.hash ? window.location.hash.slice(1) : "overview";
+  setActivePanel(initialId, { updateHash: false });
+  window.addEventListener("hashchange", () => {
+    const targetId = window.location.hash ? window.location.hash.slice(1) : "overview";
+    setActivePanel(targetId, { updateHash: false });
+  });
 });
 </script>

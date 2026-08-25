@@ -1,0 +1,880 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文章导入向导</title>
+  <style>
+    :root {
+      --bg: #f3f5f7;
+      --panel: #fff;
+      --ink: #1d2730;
+      --muted: #65727d;
+      --line: #dce3ea;
+      --soft: #f7f9fb;
+      --accent: #b84848;
+      --accent-soft: rgba(184, 72, 72, 0.1);
+      --blue: #2f6f9f;
+      --green: #3f7a59;
+      --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    body { overflow: hidden; }
+
+    button,
+    input,
+    textarea,
+    select { font: inherit; }
+
+    button {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 11px;
+      background: var(--panel);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    button:hover { border-color: #adbac5; }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    button.success {
+      border-color: var(--green);
+      background: var(--green);
+      color: #fff;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    input,
+    select {
+      min-height: 34px;
+      padding: 0 10px;
+    }
+
+    textarea {
+      min-height: 90px;
+      padding: 9px 10px;
+      resize: vertical;
+      line-height: 1.62;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      border-color: var(--blue);
+      box-shadow: 0 0 0 3px rgba(47, 111, 159, 0.12);
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      min-height: 50px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 8px 20px rgba(29, 39, 48, 0.06);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 900;
+    }
+
+    .brand span {
+      display: inline-flex;
+      width: 30px;
+      height: 30px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 6px;
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .top-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr) 360px;
+      gap: 12px;
+      height: calc(100% - 50px);
+      padding: 12px;
+    }
+
+    .panel {
+      min-height: 0;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar,
+    .inspector {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+    }
+
+    .step-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .step-button {
+      display: grid;
+      grid-template-columns: 30px minmax(0, 1fr);
+      gap: 10px;
+      width: 100%;
+      min-height: 58px;
+      padding: 10px;
+      text-align: left;
+      border-radius: 8px;
+    }
+
+    .step-button span {
+      display: inline-flex;
+      width: 28px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--soft);
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .step-button strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 0.9rem;
+    }
+
+    .step-button em {
+      color: var(--muted);
+      font-size: 0.76rem;
+      font-style: normal;
+      line-height: 1.4;
+    }
+
+    .step-button.active {
+      border-color: rgba(184, 72, 72, 0.3);
+      background: var(--accent-soft);
+    }
+
+    .section {
+      display: grid;
+      gap: 10px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .hint,
+    .status,
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .source-box {
+      min-height: 28vh;
+      font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
+      font-size: 12px;
+    }
+
+    .editor-shell {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 0;
+    }
+
+    .editor-toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 3;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(8px);
+    }
+
+    .toolbar-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .editor-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+      min-height: 0;
+      padding: 12px;
+    }
+
+    .markdown-editor,
+    .preview {
+      min-height: calc(100vh - 170px);
+      max-height: calc(100vh - 170px);
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .markdown-editor textarea {
+      min-height: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 8px;
+      font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
+      font-size: 13px;
+      resize: none;
+    }
+
+    .preview {
+      padding: 18px;
+      line-height: 1.75;
+    }
+
+    .preview h1,
+    .preview h2,
+    .preview h3 {
+      line-height: 1.25;
+    }
+
+    .preview img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .inline-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .file-list,
+    .check-list,
+    .report {
+      display: grid;
+      gap: 8px;
+    }
+
+    .file-item,
+    .check-item,
+    .report-item {
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--soft);
+      font-size: 12px;
+    }
+
+    .check-item {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+    }
+
+    .check-item input {
+      width: auto;
+      margin-top: 3px;
+    }
+
+    .report-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .command-output {
+      max-height: 160px;
+      overflow: auto;
+      margin: 0;
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #17212b;
+      color: #d8e7ef;
+      font-size: 11px;
+      line-height: 1.5;
+      white-space: pre-wrap;
+    }
+
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: #edf3f6;
+      color: #245468;
+      font-size: 0.84em;
+    }
+
+    .hidden { display: none !important; }
+
+    @media (max-width: 1120px) {
+      body { overflow: auto; }
+      .app {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+      .editor-grid {
+        grid-template-columns: 1fr;
+      }
+      .markdown-editor,
+      .preview {
+        min-height: 420px;
+        max-height: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span>导</span><strong>文章导入向导</strong></div>
+    <div class="top-actions">
+      <button type="button" id="stageButton" class="primary">生成编辑草稿</button>
+      <button type="button" id="saveDraftButton">保存到 _drafts</button>
+      <button type="button" id="publishButton" class="success">写入 _posts</button>
+    </div>
+  </header>
+
+  <main class="app">
+    <aside class="panel sidebar">
+      <section class="section">
+        <div class="section-title">流程</div>
+        <div class="step-list">
+          <button type="button" class="step-button active" data-step="source"><span>1</span><div><strong>导入</strong><em>网页、HTML、Markdown 或图片</em></div></button>
+          <button type="button" class="step-button" data-step="metadata"><span>2</span><div><strong>资料</strong><em>标题、来源、分类和发布日期</em></div></button>
+          <button type="button" class="step-button" data-step="edit"><span>3</span><div><strong>编辑</strong><em>Markdown 正文和实时预览</em></div></button>
+          <button type="button" class="step-button" data-step="publish"><span>4</span><div><strong>发布</strong><em>写入草稿或文章目录</em></div></button>
+        </div>
+      </section>
+
+      <section class="section" id="sourcePane">
+        <div class="section-title">网页读取</div>
+        <label>原文 URL
+          <input id="sourceUrl" type="url" placeholder="https://example.com/article">
+        </label>
+        <button type="button" id="readUrlButton">读取网页</button>
+        <label>粘贴 HTML / Markdown / 文字
+          <textarea id="sourceInput" class="source-box" placeholder="把旧平台正文、网页 HTML 或 Markdown 粘到这里"></textarea>
+        </label>
+        <label>上传图片或扫描页
+          <input id="imageInput" type="file" accept="image/*" multiple>
+        </label>
+        <div class="file-list" id="uploadList"></div>
+
+        <div class="section-title">已有 OCR</div>
+        <label>OCR Markdown
+          <select id="localSourceSelect">
+            <option value="">扫描本地输出中...</option>
+          </select>
+        </label>
+        <div class="inline-actions">
+          <button type="button" id="refreshSourcesButton">刷新列表</button>
+          <button type="button" id="loadSourceButton">导入选中 Markdown</button>
+        </div>
+
+        <div class="section-title">扫描 OCR</div>
+        <div class="row">
+          <label>引擎
+            <select id="ocrEngineInput">
+              <option value="vlm">VLM API</option>
+              <option value="paddle">PaddleOCR</option>
+            </select>
+          </label>
+          <label>DeepSeek
+            <select id="ocrDeepSeekInput">
+              <option value="">不校对</option>
+              <option value="1">校对并翻译</option>
+            </select>
+          </label>
+        </div>
+        <label>标注 JSON
+          <input id="ocrAnnotationInput" type="text" value="magazine-regions.json">
+        </label>
+        <label>图片目录
+          <input id="ocrImageDirInput" type="text" placeholder="上传后自动使用本次会话图片目录">
+        </label>
+        <label>输出目录
+          <input id="ocrOutInput" type="text" placeholder="ocr-output-import-wizard/文章-slug">
+        </label>
+        <button type="button" id="runOcrButton">运行 OCR 并导入</button>
+        <pre class="command-output" id="ocrOutput">OCR 输出会显示在这里。</pre>
+      </section>
+
+      <section class="section hidden" id="metadataPane">
+        <div class="section-title">文章资料</div>
+        <label>标题
+          <input id="titleInput" type="text" placeholder="文章标题">
+        </label>
+        <label>Slug
+          <input id="slugInput" type="text" placeholder="article-slug">
+        </label>
+        <div class="row">
+          <label>日期
+            <input id="dateInput" type="date">
+          </label>
+          <label>输出格式
+            <select id="formatInput">
+              <option value="webp">WebP</option>
+              <option value="jpg">JPG</option>
+              <option value="png">PNG</option>
+            </select>
+          </label>
+        </div>
+        <label>分类
+          <input id="categoriesInput" type="text" value="整理" placeholder="整理,访谈翻译">
+        </label>
+        <label>标签
+          <input id="tagsInput" type="text" placeholder="宝可梦,访谈">
+        </label>
+        <label>来源标题
+          <input id="sourceTitleInput" type="text" placeholder="原平台或刊物名">
+        </label>
+      </section>
+
+      <section class="section hidden" id="publishPane">
+        <div class="section-title">发布检查</div>
+        <div class="check-list">
+          <label class="check-item"><input type="checkbox"> 标题、日期和 slug 已确认</label>
+          <label class="check-item"><input type="checkbox"> 图片路径和图注已确认</label>
+          <label class="check-item"><input type="checkbox"> 来源链接和分类已确认</label>
+          <label class="check-item"><input type="checkbox"> 本地预览无明显排版问题</label>
+        </div>
+      </section>
+    </aside>
+
+    <section class="panel editor-shell">
+      <div class="editor-toolbar">
+        <div class="toolbar-group">
+          <button type="button" data-insert="# ">H1</button>
+          <button type="button" data-insert="## ">H2</button>
+          <button type="button" data-wrap="**">B</button>
+          <button type="button" data-wrap="*">I</button>
+          <button type="button" data-insert="- ">列表</button>
+          <button type="button" data-insert="> ">引用</button>
+        </div>
+        <span class="status" id="statusText">等待导入内容</span>
+      </div>
+      <div class="editor-grid">
+        <div class="markdown-editor">
+          <textarea id="markdownEditor" placeholder="生成草稿后在这里编辑 Markdown"></textarea>
+        </div>
+        <article class="preview" id="previewPane"></article>
+      </div>
+    </section>
+
+    <aside class="panel inspector">
+      <section class="section">
+        <div class="section-title">当前状态</div>
+        <p class="hint" id="sessionInfo">还没有生成导入会话。</p>
+      </section>
+      <section class="section">
+        <div class="section-title">输出报告</div>
+        <div class="report" id="reportPane">
+          <div class="report-item"><strong>未发布</strong><span class="small">保存后会显示文章路径、图片路径和失败项。</span></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="section-title">图片参数</div>
+        <div class="row">
+          <label>最大宽度
+            <input id="maxWidthInput" type="number" value="1600" min="400" step="100">
+          </label>
+          <label>质量
+            <input id="qualityInput" type="number" value="78" min="40" max="100">
+          </label>
+        </div>
+        <p class="hint">安装 <code>sharp</code> 后会自动压缩展示图。未安装时会复制原图。</p>
+      </section>
+    </aside>
+  </main>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const state = {
+      sessionId: "",
+      uploads: [],
+      importSources: []
+    };
+
+    const today = new Date().toISOString().slice(0, 10);
+    $("dateInput").value = today;
+
+    function setStatus(text) {
+      $("statusText").textContent = text;
+    }
+
+    function slugify(input) {
+      return String(input || "")
+        .normalize("NFKD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/&/g, " and ")
+        .replace(/[^a-z0-9\u4e00-\u9fff\u3040-\u30ff]+/g, "-")
+        .replace(/^-+|-+$/g, "")
+        .replace(/-{2,}/g, "-") || `article-${today}`;
+    }
+
+    function escapeHtml(value) {
+      return String(value || "").replace(/[<>&"]/g, (char) => ({
+        "<": "&lt;",
+        ">": "&gt;",
+        "&": "&amp;",
+        "\"": "&quot;"
+      }[char]));
+    }
+
+    function renderMarkdown(markdown) {
+      const lines = escapeHtml(markdown).split("\n");
+      let html = "";
+      let inList = false;
+      for (const line of lines) {
+        if (/^- /.test(line)) {
+          if (!inList) html += "<ul>";
+          inList = true;
+          html += `<li>${inlineMd(line.replace(/^- /, ""))}</li>`;
+          continue;
+        }
+        if (inList) {
+          html += "</ul>";
+          inList = false;
+        }
+        if (/^### /.test(line)) html += `<h3>${inlineMd(line.slice(4))}</h3>`;
+        else if (/^## /.test(line)) html += `<h2>${inlineMd(line.slice(3))}</h2>`;
+        else if (/^# /.test(line)) html += `<h1>${inlineMd(line.slice(2))}</h1>`;
+        else if (/^&gt; /.test(line)) html += `<blockquote>${inlineMd(line.slice(5))}</blockquote>`;
+        else if (!line.trim()) html += "";
+        else html += `<p>${inlineMd(line)}</p>`;
+      }
+      if (inList) html += "</ul>";
+      return html || "<p class=\"hint\">预览区会在这里显示正文。</p>";
+    }
+
+    function inlineMd(value) {
+      return value
+        .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_, alt, src) => {
+          const cleanSrc = src.replace(/^<|>$/g, "");
+          const previewSrc = state.sessionId && cleanSrc.startsWith("uploads/")
+            ? `/migration/import-wizard/${state.sessionId}/${cleanSrc}`
+            : cleanSrc;
+          return `<img src="${previewSrc}" alt="${alt}">`;
+        })
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+    }
+
+    function updatePreview() {
+      $("previewPane").innerHTML = renderMarkdown($("markdownEditor").value);
+    }
+
+    async function postJson(url, payload) {
+      const response = await fetch(url, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "请求失败");
+      return data;
+    }
+
+    async function getJson(url) {
+      const response = await fetch(url);
+      const data = await response.json();
+      if (!response.ok) throw new Error(data.error || "请求失败");
+      return data;
+    }
+
+    function fileToDataUrl(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve({
+          name: file.name,
+          alt: file.name.replace(/\.[^.]+$/, ""),
+          dataUrl: reader.result
+        });
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    async function readUploads() {
+      const files = Array.from($("imageInput").files || []);
+      state.uploads = await Promise.all(files.map(fileToDataUrl));
+      $("uploadList").innerHTML = files.length
+        ? files.map((file) => `<div class="file-item"><strong>${escapeHtml(file.name)}</strong><br><span>${Math.round(file.size / 102.4) / 10} KB</span></div>`).join("")
+        : "";
+    }
+
+    function applyImportedMarkdown(data, status) {
+      $("sourceInput").value = data.markdown || "";
+      $("markdownEditor").value = data.markdown || "";
+      if (!$("titleInput").value && data.title) $("titleInput").value = data.title;
+      if (!$("slugInput").value && data.slug) $("slugInput").value = data.slug;
+      updatePreview();
+      setStatus(status);
+      activateStep("edit");
+    }
+
+    async function refreshImportSources() {
+      const data = await getJson("/api/list-import-sources");
+      state.importSources = data.files || [];
+      $("localSourceSelect").innerHTML = state.importSources.length
+        ? state.importSources.map((file) => `<option value="${escapeHtml(file.path)}">${escapeHtml(file.path)} (${file.sizeKB} KB)</option>`).join("")
+        : "<option value=\"\">没有找到 OCR Markdown</option>";
+    }
+
+    async function loadLocalSource() {
+      const path = $("localSourceSelect").value;
+      if (!path) return;
+      setStatus("正在导入本地 Markdown...");
+      const data = await postJson("/api/read-local-file", { path });
+      $("sessionInfo").innerHTML = `来源 <code>${escapeHtml(data.path)}</code>`;
+      applyImportedMarkdown(data, "本地 Markdown 已导入编辑器");
+    }
+
+    function sessionUploadDir() {
+      return state.sessionId ? `migration/import-wizard/${state.sessionId}/uploads` : "";
+    }
+
+    async function runOcr() {
+      if (!state.sessionId && ($("imageInput").files || []).length) {
+        await stage();
+      }
+      if (!$("ocrImageDirInput").value.trim() && sessionUploadDir()) {
+        $("ocrImageDirInput").value = sessionUploadDir();
+      }
+      if (!$("ocrOutInput").value.trim()) {
+        $("ocrOutInput").value = `ocr-output-import-wizard/${$("slugInput").value || slugify($("titleInput").value)}`;
+      }
+      const imageDir = $("ocrImageDirInput").value.trim();
+      if (!imageDir) {
+        setStatus("请先上传扫描图或填写图片目录");
+        return;
+      }
+      setStatus("OCR 正在运行...");
+      $("ocrOutput").textContent = "OCR 任务运行中，请稍候...";
+      const data = await postJson("/api/run-ocr", {
+        sessionId: state.sessionId,
+        engine: $("ocrEngineInput").value,
+        deepSeek: Boolean($("ocrDeepSeekInput").value),
+        annotationJson: $("ocrAnnotationInput").value.trim(),
+        imageDir,
+        out: $("ocrOutInput").value.trim()
+      });
+      $("ocrOutput").textContent = [
+        `输出目录: ${data.out}`,
+        data.markdownFile ? `Markdown: ${data.markdownFile}` : "Markdown: 未生成",
+        data.stderr ? `stderr:\n${data.stderr}` : "",
+        data.stdout ? `stdout:\n${data.stdout}` : ""
+      ].filter(Boolean).join("\n\n");
+      if (data.markdown) {
+        applyImportedMarkdown({
+          markdown: data.markdown,
+          title: $("titleInput").value || "Region OCR",
+          slug: $("slugInput").value || slugify("Region OCR")
+        }, "OCR Markdown 已导入编辑器");
+      } else {
+        setStatus("OCR 完成，但没有找到 Markdown 输出");
+      }
+      await refreshImportSources();
+    }
+
+    async function readUrl() {
+      const url = $("sourceUrl").value.trim();
+      if (!url) return;
+      setStatus("正在读取网页...");
+      const data = await postJson("/api/read-url", { url });
+      $("sourceInput").value = data.html || "";
+      $("sourceUrl").value = data.finalUrl || url;
+      if (!$("titleInput").value && data.title) {
+        $("titleInput").value = data.title;
+        $("slugInput").value = slugify(data.title);
+      }
+      if (!$("sourceTitleInput").value) $("sourceTitleInput").value = new URL(data.finalUrl || url).hostname;
+      setStatus("网页已读取，可以生成编辑草稿");
+    }
+
+    async function stage() {
+      await readUploads();
+      setStatus("正在生成编辑草稿...");
+      const pasted = $("sourceInput").value;
+      const payload = {
+        html: /<\/?[a-z][\s\S]*>/i.test(pasted) ? pasted : "",
+        markdown: /<\/?[a-z][\s\S]*>/i.test(pasted) ? "" : pasted,
+        title: $("titleInput").value.trim(),
+        slug: $("slugInput").value.trim(),
+        sourceUrl: $("sourceUrl").value.trim(),
+        sourceTitle: $("sourceTitleInput").value.trim(),
+        uploads: state.uploads
+      };
+      const data = await postJson("/api/stage", payload);
+      state.sessionId = data.sessionId;
+      $("markdownEditor").value = data.markdown || "";
+      if (!$("titleInput").value) $("titleInput").value = data.title || "";
+      if (!$("slugInput").value) $("slugInput").value = data.slug || "";
+      $("sessionInfo").innerHTML = `会话 <code>${escapeHtml(data.sessionId)}</code><br>暂存文件 <code>${escapeHtml(data.inputFile)}</code>`;
+      if (!$("ocrImageDirInput").value && data.uploads.length) $("ocrImageDirInput").value = sessionUploadDir();
+      if (!$("ocrOutInput").value) $("ocrOutInput").value = `ocr-output-import-wizard/${data.slug || $("slugInput").value || "article"}`;
+      $("reportPane").innerHTML = data.uploads.length
+        ? data.uploads.map((item) => `<div class="report-item"><strong>${escapeHtml(item.fileName)}</strong><span>${item.sizeKB} KB 已暂存</span></div>`).join("")
+        : "<div class=\"report-item\"><strong>正文已准备</strong><span>没有上传本地图片。</span></div>";
+      updatePreview();
+      setStatus("编辑草稿已生成");
+      activateStep("edit");
+    }
+
+    async function publish(outputMode) {
+      if (!state.sessionId) await stage();
+      setStatus(outputMode === "draft" ? "正在保存草稿..." : "正在写入文章...");
+      const data = await postJson("/api/publish", {
+        sessionId: state.sessionId,
+        outputMode,
+        markdown: $("markdownEditor").value,
+        title: $("titleInput").value.trim() || "未命名文章",
+        slug: $("slugInput").value.trim(),
+        date: $("dateInput").value || today,
+        categories: $("categoriesInput").value.trim() || "整理",
+        tags: $("tagsInput").value.trim(),
+        sourceTitle: $("sourceTitleInput").value.trim(),
+        sourceUrl: $("sourceUrl").value.trim(),
+        maxWidth: Number($("maxWidthInput").value || 1600),
+        quality: Number($("qualityInput").value || 78),
+        format: $("formatInput").value
+      });
+      const report = data.report || {};
+      const images = Array.isArray(report.images) ? report.images : [];
+      const failures = Array.isArray(report.failures) ? report.failures : [];
+      $("reportPane").innerHTML = `
+        <div class="report-item"><strong>${data.mode === "draft" ? "草稿已保存" : "文章已写入"}</strong><span><code>${escapeHtml(report.post || "")}</code></span></div>
+        <div class="report-item"><strong>图片</strong><span>${images.length} 张处理完成，${failures.length} 项失败</span></div>
+        ${images.slice(0, 8).map((item) => `<div class="report-item"><strong>${escapeHtml(item.display || "")}</strong><span>${item.displayKB || item.rawKB || 0} KB</span></div>`).join("")}
+        ${failures.map((item) => `<div class="report-item"><strong>失败</strong><span>${escapeHtml(item.source)}: ${escapeHtml(item.message)}</span></div>`).join("")}
+      `;
+      setStatus(data.mode === "draft" ? "已保存到 _drafts" : "已写入 _posts");
+      activateStep("publish");
+    }
+
+    function insertAtCursor(text, wrap) {
+      const textarea = $("markdownEditor");
+      const start = textarea.selectionStart || 0;
+      const end = textarea.selectionEnd || 0;
+      const selected = textarea.value.slice(start, end);
+      const insert = wrap ? `${wrap}${selected || "文字"}${wrap}` : text;
+      textarea.setRangeText(insert, start, end, "end");
+      textarea.focus();
+      updatePreview();
+    }
+
+    function activateStep(step) {
+      document.querySelectorAll(".step-button").forEach((button) => {
+        button.classList.toggle("active", button.dataset.step === step);
+      });
+      $("sourcePane").classList.toggle("hidden", step !== "source");
+      $("metadataPane").classList.toggle("hidden", step !== "metadata");
+      $("publishPane").classList.toggle("hidden", step !== "publish");
+    }
+
+    $("readUrlButton").addEventListener("click", () => readUrl().catch((error) => setStatus(error.message)));
+    $("refreshSourcesButton").addEventListener("click", () => refreshImportSources().catch((error) => setStatus(error.message)));
+    $("loadSourceButton").addEventListener("click", () => loadLocalSource().catch((error) => setStatus(error.message)));
+    $("runOcrButton").addEventListener("click", () => runOcr().catch((error) => {
+      $("ocrOutput").textContent = error.message;
+      setStatus(error.message);
+    }));
+    $("stageButton").addEventListener("click", () => stage().catch((error) => setStatus(error.message)));
+    $("saveDraftButton").addEventListener("click", () => publish("draft").catch((error) => setStatus(error.message)));
+    $("publishButton").addEventListener("click", () => publish("post").catch((error) => setStatus(error.message)));
+    $("imageInput").addEventListener("change", () => readUploads().catch((error) => setStatus(error.message)));
+    $("markdownEditor").addEventListener("input", updatePreview);
+    $("titleInput").addEventListener("input", () => {
+      if (!$("slugInput").value) $("slugInput").value = slugify($("titleInput").value);
+    });
+    document.querySelectorAll(".step-button").forEach((button) => {
+      button.addEventListener("click", () => activateStep(button.dataset.step));
+    });
+    document.querySelectorAll("[data-insert]").forEach((button) => {
+      button.addEventListener("click", () => insertAtCursor(button.dataset.insert, ""));
+    });
+    document.querySelectorAll("[data-wrap]").forEach((button) => {
+      button.addEventListener("click", () => insertAtCursor("", button.dataset.wrap));
+    });
+    updatePreview();
+    refreshImportSources().catch((error) => setStatus(error.message));
+  </script>
+</body>
+</html>

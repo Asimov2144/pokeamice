@@ -13,7 +13,10 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files                   = `git ls-files -z`.split("\x0").select do |f|
+  files = `git ls-files -z 2>#{File::NULL}`.split("\x0")
+  files = Dir.glob("{assets,_data,_includes,_layouts,_sass}/**/*") + Dir.glob("{LICENSE,README,CHANGELOG}*") if files.empty?
+
+  spec.files                   = files.select do |f|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
   end
 

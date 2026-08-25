@@ -530,20 +530,23 @@ pre {
   }
 
   .clipboard-copy-button {
-    display: block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 0.6em;
-    right: 0.5em;
-    width: 1.8em;
-    height: 1.5em;
-    z-index: 1;
-    background: none;
-    border: none;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2rem;
+    height: 1.8rem;
+    z-index: 3;
+    background: rgba(#000, 0.2);
+    border: 1px solid rgba(#fff, 0.22);
     outline: none;
-    border-radius: 0.1em;
-    padding: 0.2em 0.5em;
-    opacity: 0.4;
-    transition: color 0.25s linear -0.25s, opacity 0.25s linear;
+    border-radius: 4px;
+    padding: 0;
+    line-height: 1;
+    opacity: 0.55;
+    transition: background-color 0.16s ease, color 0.25s linear -0.25s, opacity 0.16s ease;
 
     &::before {
       content: '';
@@ -557,8 +560,10 @@ pre {
 
     i {
       position: absolute;
-      top: 0.25em;
-      right: 0.25em;
+      top: 50%;
+      left: 50%;
+      right: auto;
+      transform: translate(-50%, -50%);
       &.copied {
         opacity: 0;
       }
@@ -579,6 +584,7 @@ pre {
   }
 
   &:hover .clipboard-copy-button {
+    background: rgba(#000, 0.34);
     opacity: 1;
   }
 }

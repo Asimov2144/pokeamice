@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Poke Amice 编辑工具箱</title>
+  <style>
+    :root {
+      --bg: #eef1f4;
+      --panel: #ffffff;
+      --ink: #20272e;
+      --muted: #6f7882;
+      --line: #dde2e7;
+      --accent: #b94a4a;
+      --accent-soft: #f7eaea;
+      --nav: #24292f;
+      --nav-soft: #30363d;
+      --nav-text: #d8dee4;
+      --green: #3e7555;
+      --shadow: 0 12px 32px rgba(31, 38, 45, 0.11);
+      --rail: 252px;
+      --header: 66px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    }
+
+    button,
+    input { font: inherit; }
+
+    button,
+    a { -webkit-tap-highlight-color: transparent; }
+
+    button { cursor: pointer; }
+
+    .shell {
+      display: grid;
+      grid-template-columns: var(--rail) minmax(0, 1fr);
+      grid-template-rows: var(--header) minmax(0, 1fr);
+      height: 100%;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 0 18px;
+      background: var(--nav);
+      color: #fff;
+    }
+
+    .brand__mark {
+      display: grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: var(--accent);
+      font-size: 16px;
+      font-weight: 800;
+      box-shadow: inset 0 0 0 1px rgba(255,255,255,.18);
+    }
+
+    .brand strong,
+    .brand span { display: block; }
+
+    .brand strong { font-size: 14px; }
+    .brand span { margin-top: 2px; color: #9fa8b1; font-size: 11px; }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+      padding: 0 18px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .header__title { min-width: 0; flex: 1; }
+    .header__title strong,
+    .header__title span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .header__title strong { font-size: 16px; }
+    .header__title span { margin-top: 3px; color: var(--muted); font-size: 12px; }
+
+    .header__actions { display: flex; align-items: center; gap: 8px; }
+
+    .header button,
+    .header a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 36px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px 11px;
+      background: #fff;
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .header button:hover,
+    .header a:hover { border-color: #b9c1c9; background: #fafbfc; }
+
+    .icon-button { width: 38px; padding: 0 !important; font-size: 17px; }
+
+    .sidebar {
+      min-height: 0;
+      overflow-y: auto;
+      padding: 14px 11px 18px;
+      background: var(--nav);
+      color: var(--nav-text);
+    }
+
+    .nav-group { margin-bottom: 17px; }
+    .nav-group__title { padding: 0 11px 7px; color: #89939d; font-size: 10px; font-weight: 800; letter-spacing: .12em; }
+
+    .nav-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 32px minmax(0, 1fr) auto;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      min-height: 46px;
+      margin: 2px 0;
+      border: 0;
+      border-radius: 9px;
+      padding: 6px 9px;
+      background: transparent;
+      color: var(--nav-text);
+      text-align: left;
+    }
+
+    .nav-item:hover { background: var(--nav-soft); }
+    .nav-item.is-active { background: #3a3234; color: #fff; }
+    .nav-item.is-active::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 3px;
+      height: 24px;
+      border-radius: 0 4px 4px 0;
+      background: #d96666;
+    }
+
+    .nav-item__icon {
+      display: grid;
+      place-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      background: rgba(255,255,255,.08);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .nav-item.is-active .nav-item__icon { background: rgba(217,102,102,.2); color: #ffb0b0; }
+    .nav-item__copy strong,
+    .nav-item__copy span { display: block; }
+    .nav-item__copy strong { font-size: 13px; }
+    .nav-item__copy span { margin-top: 2px; color: #8f99a3; font-size: 10px; }
+    .nav-item__key { color: #717b85; font-size: 10px; }
+
+    .sidebar__footer {
+      margin: 18px 7px 0;
+      border-top: 1px solid rgba(255,255,255,.09);
+      padding-top: 14px;
+      color: #86909a;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+
+    .workspace { position: relative; min-width: 0; min-height: 0; overflow: hidden; }
+    .view { position: absolute; inset: 0; display: none; }
+    .view.is-active { display: block; }
+
+    .tool-frame {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #f4f6f8;
+    }
+
+    .loading {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      display: grid;
+      place-items: center;
+      background: var(--bg);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .loading[hidden] { display: none; }
+
+    .dashboard {
+      height: 100%;
+      overflow: auto;
+      padding: 28px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(300px, .75fr);
+      gap: 18px;
+      max-width: 1180px;
+      margin: 0 auto 20px;
+    }
+
+    .hero__main,
+    .hero__aside,
+    .flow,
+    .tool-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--panel);
+      box-shadow: 0 8px 20px rgba(31,38,45,.06);
+    }
+
+    .hero__main { padding: 28px; background: linear-gradient(135deg, #fff 25%, #fbefef 100%); }
+    .eyebrow { margin: 0 0 10px; color: var(--accent); font-size: 11px; font-weight: 800; letter-spacing: .14em; }
+    .hero h1 { margin: 0; font-size: clamp(24px, 3vw, 38px); letter-spacing: -.03em; }
+    .hero__main > p:last-of-type { max-width: 670px; margin: 12px 0 20px; color: var(--muted); line-height: 1.7; }
+
+    .hero__buttons { display: flex; flex-wrap: wrap; gap: 9px; }
+    .hero__buttons button {
+      min-height: 38px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px 13px;
+      background: #fff;
+      color: var(--ink);
+    }
+    .hero__buttons button.primary { border-color: var(--accent); background: var(--accent); color: #fff; }
+
+    .hero__aside { display: grid; align-content: center; gap: 14px; padding: 22px; }
+    .stat { display: grid; grid-template-columns: 44px 1fr; align-items: center; gap: 12px; }
+    .stat__number { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: var(--accent-soft); color: var(--accent); font-weight: 800; }
+    .stat strong,
+    .stat span { display: block; }
+    .stat strong { font-size: 13px; }
+    .stat span { margin-top: 3px; color: var(--muted); font-size: 11px; }
+
+    .section-heading { max-width: 1180px; margin: 24px auto 12px; }
+    .section-heading h2 { margin: 0; font-size: 16px; }
+    .section-heading p { margin: 5px 0 0; color: var(--muted); font-size: 12px; }
+
+    .flows,
+    .tool-grid { display: grid; gap: 14px; max-width: 1180px; margin: 0 auto; }
+    .flows { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .tool-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); padding-bottom: 30px; }
+
+    .flow { padding: 18px; }
+    .flow__head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 14px; }
+    .flow__head strong { font-size: 14px; }
+    .flow__head span { border-radius: 999px; padding: 4px 8px; background: #edf5f0; color: var(--green); font-size: 10px; font-weight: 700; }
+    .flow__steps { display: flex; align-items: stretch; gap: 6px; }
+    .flow__step { flex: 1; border: 1px solid var(--line); border-radius: 9px; padding: 10px; background: #fafbfc; }
+    .flow__step b,
+    .flow__step span { display: block; }
+    .flow__step b { color: var(--accent); font-size: 10px; }
+    .flow__step span { margin-top: 4px; font-size: 12px; font-weight: 700; }
+    .flow__arrow { align-self: center; color: #a4acb4; }
+
+    .tool-card { display: grid; gap: 10px; padding: 17px; text-align: left; }
+    button.tool-card { width: 100%; color: inherit; }
+    .tool-card:hover { border-color: #c7ced5; transform: translateY(-1px); }
+    .tool-card__top { display: flex; align-items: center; justify-content: space-between; }
+    .tool-card__icon { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-weight: 800; }
+    .tool-card__top span:last-child { color: var(--muted); font-size: 11px; }
+    .tool-card strong { font-size: 14px; }
+    .tool-card p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+
+    dialog {
+      width: min(560px, calc(100% - 28px));
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0;
+      box-shadow: var(--shadow);
+    }
+    dialog::backdrop { background: rgba(20,24,28,.42); backdrop-filter: blur(3px); }
+    .command { padding: 14px; }
+    .command input { width: 100%; height: 44px; border: 1px solid var(--line); border-radius: 9px; padding: 0 13px; outline: none; }
+    .command input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+    .command__list { display: grid; gap: 5px; max-height: 360px; overflow: auto; margin-top: 10px; }
+    .command__item { display: grid; grid-template-columns: 34px 1fr auto; align-items: center; gap: 10px; width: 100%; border: 0; border-radius: 8px; padding: 8px; background: transparent; color: var(--ink); text-align: left; }
+    .command__item:hover,
+    .command__item:focus { background: var(--accent-soft); outline: none; }
+    .command__item span:first-child { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #f0f2f4; font-weight: 800; }
+    .command__item strong,
+    .command__item small { display: block; }
+    .command__item small { margin-top: 2px; color: var(--muted); }
+    .command__item kbd { color: var(--muted); font-size: 10px; }
+
+    body.rail-collapsed { --rail: 72px; }
+    body.rail-collapsed .brand { justify-content: center; padding: 0; }
+    body.rail-collapsed .brand__copy,
+    body.rail-collapsed .nav-group__title,
+    body.rail-collapsed .nav-item__copy,
+    body.rail-collapsed .nav-item__key,
+    body.rail-collapsed .sidebar__footer { display: none; }
+    body.rail-collapsed .nav-item { grid-template-columns: 1fr; justify-items: center; padding: 6px; }
+
+    @media (max-width: 900px) {
+      :root { --rail: 72px; }
+      .brand { justify-content: center; padding: 0; }
+      .brand__copy,
+      .nav-group__title,
+      .nav-item__copy,
+      .nav-item__key,
+      .sidebar__footer { display: none; }
+      .nav-item { grid-template-columns: 1fr; justify-items: center; padding: 6px; }
+      .hero { grid-template-columns: 1fr; }
+      .tool-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .header__title span { display: none; }
+    }
+
+    @media (max-width: 620px) {
+      :root { --rail: 0px; --header: 58px; }
+      .brand,
+      .sidebar { display: none; }
+      .shell { grid-template-columns: 1fr; grid-template-rows: var(--header) minmax(0, 1fr); }
+      .header { grid-column: 1; padding: 0 10px; }
+      .header__actions a,
+      #collapseButton { display: none; }
+      .dashboard { padding: 16px; }
+      .hero__main { padding: 21px; }
+      .flows,
+      .tool-grid { grid-template-columns: 1fr; }
+      .flow__steps { display: grid; grid-template-columns: 1fr; }
+      .flow__arrow { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="brand">
+      <div class="brand__mark">PA</div>
+      <div class="brand__copy"><strong>编辑工具箱</strong><span>Poke Amice Studio</span></div>
+    </div>
+
+    <header class="header">
+      <button id="collapseButton" class="icon-button" type="button" title="收起工具栏">☰</button>
+      <div class="header__title">
+        <strong id="activeTitle">工作台总览</strong>
+        <span id="activeDescription">从素材整理到发布的一站式编辑流程</span>
+      </div>
+      <div class="header__actions">
+        <button id="commandButton" type="button" title="快速切换（Ctrl+K）">快速切换</button>
+        <a id="standaloneLink" href="/" target="_blank" rel="noopener">独立打开 ↗</a>
+      </div>
+    </header>
+
+    <aside class="sidebar" aria-label="编辑工具导航">
+      <nav id="toolNavigation"></nav>
+      <div class="sidebar__footer">快捷键：Alt + 1～7 切换工具<br>工具切换后会保留当前编辑状态</div>
+    </aside>
+
+    <section id="workspace" class="workspace">
+      <section id="view-home" class="view dashboard is-active" data-view="home">
+        <div class="hero">
+          <div class="hero__main">
+            <p class="eyebrow">LOCAL PUBLISHING PIPELINE</p>
+            <h1>一处完成资料整理、翻译与发布</h1>
+            <p>工具之间不再反复跳页。选择一条流程开始，编辑状态会在工具切换时保留。</p>
+            <div class="hero__buttons">
+              <button class="primary" type="button" data-open-tool="workflow">开始新项目</button>
+              <button type="button" data-open-tool="web">收录网页访谈</button>
+              <button type="button" data-open-tool="region">处理扫描杂志</button>
+            </div>
+          </div>
+          <div class="hero__aside">
+            <div class="stat"><div class="stat__number">6</div><div><strong>编辑工具</strong><span>统一在当前工作区切换</span></div></div>
+            <div class="stat"><div class="stat__number">2</div><div><strong>主要流程</strong><span>网页资料与扫描资料</span></div></div>
+            <div class="stat"><div class="stat__number">1</div><div><strong>统一入口</strong><span>导入、翻译和发布共用服务</span></div></div>
+          </div>
+        </div>
+
+        <div class="section-heading"><h2>推荐流程</h2><p>按资料来源选择，减少在不同工具间判断下一步的成本。</p></div>
+        <div class="flows">
+          <article class="flow">
+            <div class="flow__head"><strong>网页访谈与专栏</strong><span>轻量流程</span></div>
+            <div class="flow__steps">
+              <div class="flow__step"><b>01</b><span>网页收录</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>02</b><span>翻译编辑</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>03</b><span>导入发布</span></div>
+            </div>
+          </article>
+          <article class="flow">
+            <div class="flow__head"><strong>扫描杂志与访谈</strong><span>完整流程</span></div>
+            <div class="flow__steps">
+              <div class="flow__step"><b>01</b><span>杂志分区</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>02</b><span>OCR 整理</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>03</b><span>翻译发布</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-heading"><h2>全部工具</h2><p>也可以直接进入任意模块。</p></div>
+        <div id="toolGrid" class="tool-grid"></div>
+      </section>
+    </section>
+  </main>
+
+  <dialog id="commandDialog">
+    <div class="command">
+      <input id="commandSearch" type="search" placeholder="搜索工具，例如：翻译、OCR、导入" autocomplete="off">
+      <div id="commandList" class="command__list"></div>
+    </div>
+  </dialog>
+
+  <script>
+    const tools = [
+      { id: "home", group: "概览", icon: "⌂", title: "工作台总览", short: "查看完整编辑流程", description: "从素材整理到发布的一站式编辑流程", key: "Alt+1", path: "" },
+      { id: "workflow", group: "项目", icon: "✓", title: "项目工作流", short: "登记进度与发布检查", description: "管理资料来源、编辑阶段、检查项和下一步动作", key: "Alt+2", path: "/assets/tools/project-workflow-board.html" },
+      { id: "web", group: "内容收录", icon: "W", title: "网页访谈收录", short: "抓取网页并生成草稿", description: "整理网页正文、来源信息与访谈元数据", key: "Alt+3", path: "/assets/tools/web-interview-capture.html" },
+      { id: "region", group: "扫描处理", icon: "▦", title: "杂志分区", short: "标注版面与阅读顺序", description: "处理跨栏、图文区块和扫描页 OCR 区域", key: "Alt+4", path: "/assets/tools/magazine-region-annotator.html" },
+      { id: "queue", group: "扫描处理", icon: "↪", title: "OCR 项目队列", short: "自动分流与人工放行", description: "把方向、混框、坐标输出和振假名异常送去返工，其余内容进入翻译或学习", key: "Alt+5", path: "/assets/tools/ocr-project-queue.html" },
+      { id: "ocr", group: "扫描处理", icon: "O", title: "OCR 翻译工作台", short: "校对 OCR 与对照翻译", description: "整理扫描段落、译文、评注和对照文章", key: "Alt+6", path: "/assets/tools/ocr-translation-workbench.html" },
+      { id: "translate", group: "翻译整理", icon: "译", title: "文章翻译编辑器", short: "专注翻译与术语校对", description: "逐段翻译、批注、图片替换与 Markdown 生成", key: "Alt+7", path: "/assets/tools/article-translation-editor.html" },
+      { id: "import", group: "发布", icon: "↑", title: "文章导入向导", short: "迁移素材并写入站点", description: "导入 HTML、Markdown、图片并生成站点文章", key: "Alt+8", path: "/assets/tools/import-wizard.html" }
+    ];
+
+    const toolMap = new Map(tools.map((tool) => [tool.id, tool]));
+    const pathMap = new Map(tools.filter((tool) => tool.path).map((tool) => [tool.path, tool.id]));
+    const navigation = document.querySelector("#toolNavigation");
+    const workspace = document.querySelector("#workspace");
+    const toolGrid = document.querySelector("#toolGrid");
+    const activeTitle = document.querySelector("#activeTitle");
+    const activeDescription = document.querySelector("#activeDescription");
+    const standaloneLink = document.querySelector("#standaloneLink");
+    const commandDialog = document.querySelector("#commandDialog");
+    const commandSearch = document.querySelector("#commandSearch");
+    const commandList = document.querySelector("#commandList");
+    const loaded = new Set();
+    let activeId = "home";
+
+    function renderNavigation() {
+      const groups = [];
+      tools.forEach((tool) => {
+        let group = groups.find((item) => item.name === tool.group);
+        if (!group) {
+          group = { name: tool.group, tools: [] };
+          groups.push(group);
+        }
+        group.tools.push(tool);
+      });
+      navigation.innerHTML = groups.map((group) => `
+        <div class="nav-group">
+          <div class="nav-group__title">${group.name}</div>
+          ${group.tools.map((tool) => `
+            <button class="nav-item" type="button" data-tool="${tool.id}" title="${tool.title}">
+              <span class="nav-item__icon">${tool.icon}</span>
+              <span class="nav-item__copy"><strong>${tool.title}</strong><span>${tool.short}</span></span>
+              <span class="nav-item__key">${tool.key.replace("Alt+", "⌥")}</span>
+            </button>
+          `).join("")}
+        </div>
+      `).join("");
+    }
+
+    function renderCards() {
+      toolGrid.innerHTML = tools.filter((tool) => tool.id !== "home").map((tool) => `
+        <button class="tool-card" type="button" data-open-tool="${tool.id}">
+          <span class="tool-card__top"><span class="tool-card__icon">${tool.icon}</span><span>${tool.group}</span></span>
+          <strong>${tool.title}</strong>
+          <p>${tool.description}</p>
+        </button>
+      `).join("");
+    }
+
+    function ensureView(tool) {
+      if (tool.id === "home" || document.querySelector(`#view-${tool.id}`)) return;
+      const view = document.createElement("section");
+      view.id = `view-${tool.id}`;
+      view.className = "view";
+      view.dataset.view = tool.id;
+      view.innerHTML = `<div class="loading">正在打开${tool.title}…</div><iframe class="tool-frame" title="${tool.title}" data-tool-frame="${tool.id}"></iframe>`;
+      workspace.appendChild(view);
+    }
+
+    function loadTool(tool) {
+      if (tool.id === "home" || loaded.has(tool.id)) return;
+      const frame = document.querySelector(`[data-tool-frame="${tool.id}"]`);
+      frame.addEventListener("load", () => prepareEmbeddedTool(tool, frame));
+      frame.src = `${tool.path}?toolbox=1`;
+      loaded.add(tool.id);
+    }
+
+    function prepareEmbeddedTool(tool, frame) {
+      const loading = frame.closest(".view").querySelector(".loading");
+      loading.hidden = true;
+      try {
+        const doc = frame.contentDocument;
+        if (!doc) return;
+        const style = doc.createElement("style");
+        style.textContent = `
+          .tool-nav { display: none !important; }
+          body.tool-nav-enabled { padding-top: 0 !important; }
+          body.tool-nav-enabled > .app { height: 100vh !important; }
+        `;
+        doc.head.appendChild(style);
+        doc.addEventListener("click", (event) => {
+          const link = event.target.closest("a[href]");
+          if (!link) return;
+          const url = new URL(link.href, frame.src);
+          const nextId = pathMap.get(url.pathname);
+          if (!nextId) return;
+          event.preventDefault();
+          selectTool(nextId);
+        }, true);
+      } catch (_) {
+        // The tool still works if the browser prevents embedded styling.
+      }
+    }
+
+    function selectTool(id, { updateHash = true } = {}) {
+      const tool = toolMap.get(id) || toolMap.get("home");
+      activeId = tool.id;
+      ensureView(tool);
+      loadTool(tool);
+      document.querySelectorAll(".view").forEach((view) => view.classList.toggle("is-active", view.dataset.view === tool.id));
+      document.querySelectorAll("[data-tool]").forEach((item) => item.classList.toggle("is-active", item.dataset.tool === tool.id));
+      activeTitle.textContent = tool.title;
+      activeDescription.textContent = tool.description;
+      standaloneLink.hidden = !tool.path;
+      standaloneLink.href = tool.path || "/";
+      if (updateHash) history.replaceState(null, "", `#${tool.id}`);
+      localStorage.setItem("pokeamice.toolbox.lastTool", tool.id);
+    }
+
+    function renderCommandList(query = "") {
+      const needle = query.trim().toLowerCase();
+      const matches = tools.filter((tool) => [tool.title, tool.short, tool.description, tool.group].join(" ").toLowerCase().includes(needle));
+      commandList.innerHTML = matches.map((tool) => `
+        <button class="command__item" type="button" data-command-tool="${tool.id}">
+          <span>${tool.icon}</span><span><strong>${tool.title}</strong><small>${tool.short}</small></span><kbd>${tool.key}</kbd>
+        </button>
+      `).join("") || `<div style="padding:20px;color:var(--muted);text-align:center">没有匹配的工具</div>`;
+    }
+
+    function openCommand() {
+      renderCommandList();
+      commandDialog.showModal();
+      commandSearch.value = "";
+      requestAnimationFrame(() => commandSearch.focus());
+    }
+
+    navigation.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-tool]");
+      if (button) selectTool(button.dataset.tool);
+    });
+
+    workspace.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-open-tool]");
+      if (button) selectTool(button.dataset.openTool);
+    });
+
+    document.querySelector("#collapseButton").addEventListener("click", () => {
+      document.body.classList.toggle("rail-collapsed");
+    });
+    document.querySelector("#commandButton").addEventListener("click", openCommand);
+    commandSearch.addEventListener("input", () => renderCommandList(commandSearch.value));
+    commandList.addEventListener("click", (event) => {
+      const item = event.target.closest("[data-command-tool]");
+      if (!item) return;
+      commandDialog.close();
+      selectTool(item.dataset.commandTool);
+    });
+    commandDialog.addEventListener("click", (event) => {
+      if (event.target === commandDialog) commandDialog.close();
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        openCommand();
+        return;
+      }
+      if (event.altKey && /^[1-7]$/.test(event.key)) {
+        event.preventDefault();
+        selectTool(tools[Number(event.key) - 1].id);
+      }
+      if (event.key === "Escape" && commandDialog.open) commandDialog.close();
+    });
+
+    window.addEventListener("hashchange", () => selectTool(location.hash.slice(1), { updateHash: false }));
+
+    renderNavigation();
+    renderCards();
+    const initial = location.hash.slice(1) || localStorage.getItem("pokeamice.toolbox.lastTool") || "home";
+    selectTool(initial, { updateHash: Boolean(location.hash) });
+  </script>
+</body>
+</html>

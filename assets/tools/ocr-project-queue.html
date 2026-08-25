@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCR 项目队列</title>
+  <style>
+    :root {
+      --bg: #eef2f4;
+      --panel: #fff;
+      --ink: #17232c;
+      --muted: #65727d;
+      --line: #d9e1e6;
+      --accent: #b44747;
+      --accent-soft: #f8eaea;
+      --green: #2f7959;
+      --green-soft: #e8f5ee;
+      --amber: #a86817;
+      --amber-soft: #fff4dc;
+      --blue: #356f9d;
+      --shadow: 0 16px 38px rgba(30, 44, 55, .09);
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
+    button, input { font: inherit; }
+    button { min-height: 36px; border: 1px solid var(--line); border-radius: 8px; padding: 0 12px; background: #fff; color: var(--ink); cursor: pointer; font-weight: 800; }
+    button:hover { border-color: #aebac3; }
+    button.primary { border-color: var(--accent); background: var(--accent); color: #fff; }
+    button.good { border-color: var(--green); background: var(--green); color: #fff; }
+    button:disabled { cursor: default; opacity: .48; }
+    .tool-nav { display: flex; align-items: center; gap: 10px; min-height: 46px; padding: 7px 12px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.95); overflow-x: auto; }
+    .tool-nav a { flex: 0 0 auto; padding: 7px 10px; border-radius: 999px; color: var(--muted); text-decoration: none; font-size: 12px; font-weight: 800; }
+    .tool-nav .brand { color: var(--ink); font-size: 14px; }
+    .tool-nav a.is-active { background: var(--accent-soft); color: var(--accent); }
+    .app { display: grid; grid-template-columns: 320px minmax(0,1fr); gap: 14px; height: calc(100vh - 46px); padding: 14px; }
+    .side, .main { min-width: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); box-shadow: var(--shadow); }
+    .side { display: grid; grid-template-rows: auto auto minmax(0,1fr); }
+    .side-head, .side-tools, .main-head { padding: 14px; border-bottom: 1px solid var(--line); }
+    .side-head p, .main-head p { margin: 0 0 4px; color: var(--accent); font-size: 11px; font-weight: 900; text-transform: uppercase; }
+    h1, h2 { margin: 0; line-height: 1.2; }
+    h1 { font-size: 21px; }
+    h2 { font-size: clamp(22px,3vw,34px); }
+    .hint { margin: 7px 0 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+    .side-tools { display: grid; gap: 8px; }
+    .side-tools input { width: 100%; min-height: 36px; border: 1px solid var(--line); border-radius: 8px; padding: 0 10px; }
+    .project-list { min-height: 0; overflow: auto; padding: 10px; }
+    .project-card { width: 100%; padding: 11px; border-left: 5px solid var(--blue); text-align: left; }
+    .project-card + .project-card { margin-top: 8px; }
+    .project-card[aria-current="true"] { border-color: rgba(180,71,71,.55); border-left-color: var(--accent); background: linear-gradient(135deg,var(--accent-soft),#fff 55%); }
+    .project-card strong { display: block; margin-bottom: 7px; font-size: 14px; }
+    .meta, .stats, .filters, .actions, .reason-list { display: flex; flex-wrap: wrap; gap: 7px; align-items: center; }
+    .pill, .reason { display: inline-flex; align-items: center; min-height: 24px; border-radius: 999px; padding: 3px 9px; font-size: 11px; font-weight: 800; }
+    .pill { border: 1px solid var(--line); background: #fff; color: var(--muted); }
+    .pill.review, .reason.high { border-color: #e2b4b4; background: var(--accent-soft); color: var(--accent); }
+    .pill.ready { border-color: #b9dbc9; background: var(--green-soft); color: var(--green); }
+    .reason.medium { border: 1px solid #eed39a; background: var(--amber-soft); color: var(--amber); }
+    .main { display: grid; grid-template-rows: auto auto minmax(0,1fr); }
+    .main-head { display: flex; justify-content: space-between; gap: 14px; align-items: end; background: linear-gradient(135deg,rgba(53,111,157,.1),rgba(180,71,71,.08),#fff 70%); }
+    .main-head-copy { min-width: 0; }
+    .main-head .actions { justify-content: flex-end; }
+    .queue-tools { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; justify-content: space-between; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+    .filters button { min-height: 32px; border-radius: 999px; font-size: 12px; }
+    .filters button.is-on { border-color: var(--ink); background: var(--ink); color: #fff; }
+    .queue { min-height: 0; overflow: auto; padding: 14px; }
+    .region { display: grid; grid-template-columns: 170px minmax(0,1fr); gap: 13px; border: 1px solid var(--line); border-radius: 11px; padding: 11px; background: #fff; }
+    .region + .region { margin-top: 10px; }
+    .region[data-status="review"] { border-left: 5px solid var(--accent); }
+    .region[data-status="ready"] { border-left: 5px solid var(--green); }
+    .thumb { display: grid; place-items: center; min-height: 130px; overflow: hidden; border-radius: 8px; background: #e9eef1; }
+    .thumb img { display: block; width: 100%; height: 150px; object-fit: contain; }
+    .region-copy { min-width: 0; display: grid; gap: 9px; align-content: start; }
+    .region-title { display: flex; gap: 9px; justify-content: space-between; align-items: start; }
+    .region-title h3 { margin: 0 0 4px; font-size: 16px; }
+    .region-title p { margin: 0; color: var(--muted); font-size: 12px; }
+    .excerpt { max-height: 6.2em; overflow: hidden; margin: 0; padding: 9px 10px; border-radius: 8px; background: #f6f8f9; color: #34434f; font-size: 12px; line-height: 1.55; white-space: pre-wrap; }
+    .repair-plan { display: grid; gap: 6px; padding: 10px; border: 1px solid #cbdbe7; border-radius: 9px; background: #f3f8fb; }
+    .repair-plan strong { font-size: 13px; color: var(--blue); }
+    .repair-plan p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
+    .repair-meta { display: flex; flex-wrap: wrap; gap: 6px; }
+    .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .comparison section { min-width: 0; }
+    .comparison h4 { margin: 0 0 5px; color: var(--muted); font-size: 11px; }
+    .comparison pre { min-height: 84px; max-height: 190px; overflow: auto; margin: 0; padding: 9px; border: 1px solid var(--line); border-radius: 8px; background: #fafbfc; font: inherit; font-size: 12px; line-height: 1.55; white-space: pre-wrap; }
+    .verdict { padding: 9px 10px; border-radius: 8px; font-size: 12px; line-height: 1.5; }
+    .verdict.good { background: var(--green-soft); color: var(--green); }
+    .verdict.review { background: var(--amber-soft); color: #79520d; }
+    .empty { display: grid; place-items: center; min-height: 320px; border: 1px dashed var(--line); border-radius: 10px; color: var(--muted); text-align: center; }
+    .empty strong { display: block; margin-bottom: 6px; color: var(--ink); font-size: 18px; }
+    .status-line { padding: 7px 14px; border-bottom: 1px solid var(--line); background: #f9fbfc; color: var(--muted); font-size: 12px; }
+    @media (max-width: 900px) { .app { grid-template-columns: 1fr; height: auto; } .side, .main { overflow: visible; } .project-list, .queue { max-height: none; overflow: visible; } }
+    @media (max-width: 620px) { .app { padding: 8px; } .main-head { align-items: stretch; flex-direction: column; } .region, .comparison { grid-template-columns: 1fr; } .thumb img { height: 190px; } }
+  </style>
+</head>
+<body>
+  <nav class="tool-nav" aria-label="本地编辑工具导航">
+    <a class="brand" href="/">Poke Amice Docs</a>
+    <a href="/assets/tools/editor-toolbox.html#queue">统一工具箱</a>
+    <a href="/assets/tools/magazine-region-annotator.html">杂志分区</a>
+    <a class="is-active" href="/assets/tools/ocr-project-queue.html">项目队列</a>
+    <a href="/assets/tools/ocr-translation-workbench.html">OCR 工作台</a>
+    <a href="/assets/tools/project-workflow-board.html">发布看板</a>
+  </nav>
+  <main class="app">
+    <aside class="side">
+      <header class="side-head">
+        <p>Semi-automatic OCR</p>
+        <h1>采访项目队列</h1>
+        <div class="hint">自动筛出值得返工的区域；其余内容直接进入翻译或学习模式。</div>
+      </header>
+      <section class="side-tools">
+        <input id="projectSearch" type="search" placeholder="搜索项目或原图文件夹">
+        <button id="refreshProjects" type="button">刷新项目</button>
+      </section>
+      <section id="projectList" class="project-list"></section>
+    </aside>
+
+    <section class="main">
+      <header class="main-head">
+        <div class="main-head-copy">
+          <p id="projectEyebrow">等待项目</p>
+          <h2 id="projectTitle">选择一个 OCR 项目</h2>
+          <div id="projectPath" class="hint">OCR 完成后会自动出现在这里。</div>
+          <div id="projectStats" class="stats" style="margin-top:10px"></div>
+        </div>
+        <div class="actions">
+          <button id="translateReady" class="primary" type="button" disabled>可用项进入翻译</button>
+          <button id="learnReady" class="good" type="button" disabled>可用项进入学习</button>
+        </div>
+      </header>
+      <div>
+        <div id="statusLine" class="status-line">正在读取项目队列…</div>
+        <section class="queue-tools">
+          <div class="filters" id="filters">
+            <button type="button" data-filter="all" class="is-on">全部</button>
+            <button type="button" data-filter="review">需要返工</button>
+            <button type="button" data-filter="ready">可以放行</button>
+            <button type="button" data-filter="image">图片</button>
+          </div>
+          <input id="regionSearch" type="search" placeholder="搜索页码 / 区域名称" style="min-height:34px;border:1px solid var(--line);border-radius:8px;padding:0 10px">
+        </section>
+      </div>
+      <section id="queue" class="queue"></section>
+    </section>
+  </main>
+
+  <script>
+    const decisionStorageKey = "pokeamice.ocr.projectQueue.decisions.v1";
+    const handoffStorageKey = "pokeamice.ocr.queue.handoff.v1";
+    const state = { projects: [], currentPath: "", queue: null, filter: "all", decisions: loadDecisions(), running: new Set() };
+    const $ = (id) => document.getElementById(id);
+
+    function loadDecisions() {
+      try { return JSON.parse(localStorage.getItem(decisionStorageKey) || "{}"); } catch (_) { return {}; }
+    }
+    function saveDecisions() { localStorage.setItem(decisionStorageKey, JSON.stringify(state.decisions)); }
+    function projectDecisions() { return state.decisions[state.currentPath] || (state.decisions[state.currentPath] = {}); }
+    function effectiveStatus(item) { return projectDecisions()[item.key] || item.status || "review"; }
+    function escapeHtml(value) { return String(value || "").replace(/[&<>"']/g, (char) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"})[char]); }
+    function displayDate(value) { try { return new Date(value).toLocaleString("zh-CN", { month:"2-digit", day:"2-digit", hour:"2-digit", minute:"2-digit" }); } catch (_) { return ""; } }
+    async function getJson(url, options) { const response = await fetch(url, options); const data = await response.json().catch(() => ({})); if (!response.ok) throw new Error(data.error || `服务器返回 ${response.status}`); return data; }
+
+    async function loadProjects(keepSelection = true) {
+      $("statusLine").textContent = "正在扫描 OCR 项目…";
+      try {
+        const data = await getJson("/api/list-ocr-project-queues");
+        state.projects = data.projects || [];
+        renderProjects();
+        const wanted = keepSelection && state.projects.some((item) => item.path === state.currentPath) ? state.currentPath : state.projects[0]?.path;
+        if (wanted) await loadQueue(wanted);
+        else renderEmpty("还没有项目队列", "完成一次分区 OCR 后，队列文件会自动生成。");
+      } catch (error) {
+        renderEmpty("无法读取项目", error.message || String(error));
+      }
+    }
+
+    async function loadQueue(path) {
+      state.currentPath = path;
+      renderProjects();
+      $("statusLine").textContent = "正在读取区域状态…";
+      try {
+        const data = await getJson("/api/read-ocr-project-queue", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({ path }) });
+        state.queue = data.queue;
+        renderQueue();
+      } catch (error) {
+        renderEmpty("项目读取失败", error.message || String(error));
+      }
+    }
+
+    function renderProjects() {
+      const query = $("projectSearch").value.trim().toLowerCase();
+      const list = $("projectList");
+      list.innerHTML = "";
+      state.projects.filter((item) => !query || [item.title,item.sourceFolder,item.path].join(" ").toLowerCase().includes(query)).forEach((item) => {
+        const button = document.createElement("button");
+        button.className = "project-card";
+        button.type = "button";
+        button.setAttribute("aria-current", String(item.path === state.currentPath));
+        button.innerHTML = `<strong>${escapeHtml(item.title)}</strong><div class="meta"><span class="pill review">返工 ${Number(item.summary?.review || 0)}</span><span class="pill ready">可用 ${Number(item.summary?.ready || 0)}</span><span class="pill">${displayDate(item.modifiedAt)}</span></div>`;
+        button.addEventListener("click", () => loadQueue(item.path));
+        list.appendChild(button);
+      });
+      if (!list.children.length) list.innerHTML = `<div class="empty"><span><strong>没有匹配项目</strong>刷新或换一个关键词。</span></div>`;
+    }
+
+    function currentCounts() {
+      const regions = state.queue?.regions || [];
+      return {
+        total: regions.length,
+        review: regions.filter((item) => effectiveStatus(item) === "review").length,
+        ready: regions.filter((item) => effectiveStatus(item) === "ready").length,
+        image: regions.filter((item) => item.kind === "image").length,
+        autoReplaced: regions.filter((item) => item.rework?.state === "auto_replaced").length,
+      };
+    }
+
+    function renderQueue() {
+      const project = state.queue?.project || {};
+      const counts = currentCounts();
+      $("projectEyebrow").textContent = `半自动分流 / 共 ${counts.total} 个区域`;
+      $("projectTitle").textContent = project.title || "OCR 项目";
+      $("projectPath").textContent = project.source_folder || project.output_dir || state.currentPath;
+      $("projectStats").innerHTML = `<span class="pill review">返工 ${counts.review}</span><span class="pill ready">可用 ${counts.ready}</span><span class="pill">自动替换 ${counts.autoReplaced}</span><span class="pill">图片 ${counts.image}</span>`;
+      $("translateReady").disabled = counts.ready === 0;
+      $("learnReady").disabled = counts.ready === 0;
+      $("statusLine").textContent = counts.review ? `自动检查已完成：${counts.review} 个区域等待确认，其余 ${counts.ready} 个可直接放行。` : `所有 ${counts.ready} 个区域均已可用，可以进入翻译或学习模式。`;
+      renderRegions();
+    }
+
+    function visibleRegions() {
+      const query = $("regionSearch").value.trim().toLowerCase();
+      return (state.queue?.regions || []).filter((item) => {
+        const status = effectiveStatus(item);
+        const filterOk = state.filter === "all" || state.filter === status || (state.filter === "image" && item.kind === "image");
+        const searchOk = !query || [item.page_name,item.speaker,item.region_id,item.segment?.original].join(" ").toLowerCase().includes(query);
+        return filterOk && searchOk;
+      });
+    }
+
+    function renderRegions() {
+      const root = $("queue");
+      root.innerHTML = "";
+      visibleRegions().forEach((item) => {
+        const status = effectiveStatus(item);
+        const automatic = item.status || "review";
+        const manuallyApproved = automatic === "review" && status === "ready";
+        const article = document.createElement("article");
+        article.className = "region";
+        article.dataset.status = status;
+        const reasons = item.reasons || [];
+        const proposal = item.repair_proposal;
+        const rework = item.rework;
+        const evaluation = rework?.evaluation;
+        const running = state.running.has(item.key);
+        const gateLabels = {
+          proposal_requires_human:"选框或内容边界需人工确认", two_runs_disagree:"两次识别不一致",
+          candidate_quality_low:"候选文字仍有异常", short_text_changed:"短文字发生变化",
+          length_changed_too_much:"字数变化过大", meaningful_change_needs_review:"正文变化较大",
+          no_clear_improvement:"没有明确改善"
+          ,candidate_metadata_warning:"OCR 仍报告异常", column_split_still_too_large:"拆分后仍含过多栏",
+          candidate_column_empty:"仍有空栏", candidate_direction_conflict:"方向仍有冲突", candidate_transfer_mismatch:"候选传输校验失败"
+        };
+        const comparison = evaluation ? `
+          <div class="verdict ${evaluation.reliable ? "good" : "review"}"><strong>${evaluation.reliable ? "已自动替换" : "已试跑，等待人工决定"}</strong> · 候选稳定度 ${Math.round(Number(evaluation.confidence || 0) * 100)}% · 两次一致度 ${Math.round(Number(evaluation.two_run_agreement || 0) * 100)}%${evaluation.gates?.length ? `<br>${evaluation.gates.map((gate) => gateLabels[gate] || gate).join("；")}` : ""}</div>
+          <div class="comparison"><section><h4>返工前</h4><pre>${escapeHtml(rework.old_text || "")}</pre></section><section><h4>返工候选</h4><pre>${escapeHtml(evaluation.chosen_text || "")}</pre></section></div>` : "";
+        article.innerHTML = `
+          <div class="thumb"><img src="${escapeHtml(item.crop)}" alt="${escapeHtml(item.speaker)}" loading="lazy"></div>
+          <div class="region-copy">
+            <div class="region-title"><div><h3>${escapeHtml(item.speaker)}</h3><p>${escapeHtml(item.page_name)} · 顺序 ${Number(item.segment?.order || 0)} · ${escapeHtml(item.kind)}</p></div><span class="pill ${status}">${status === "review" ? "需要返工" : manuallyApproved ? "人工放行" : "自动放行"}</span></div>
+            <div class="reason-list">${reasons.length ? reasons.map((reason) => `<span class="reason ${escapeHtml(reason.severity || "medium")}" title="${escapeHtml(reason.detail)}">${escapeHtml(reason.label)}</span>`).join("") : `<span class="pill ready">未发现高风险异常</span>`}</div>
+            ${item.kind === "image" ? "" : `<pre class="excerpt">${escapeHtml(item.segment?.original || "没有 OCR 正文")}</pre>`}
+            ${proposal && status === "review" ? `<div class="repair-plan"><strong>建议：${escapeHtml(proposal.label)}</strong><p>${escapeHtml(proposal.detail)}</p><div class="repair-meta"><span class="pill">${proposal.parts?.length || 0} 个定点区域</span><span class="pill">${proposal.risk === "high" ? "高风险" : proposal.risk === "medium" ? "中风险" : "低风险"}</span><span class="pill">${proposal.auto_replace_allowed ? "通过门槛可自动替换" : "结果需人工确认"}</span></div></div>` : ""}
+            ${comparison}
+            <div class="actions">
+              ${status === "review" ? `${proposal?.can_run ? `<button type="button" class="primary" data-action="auto-rework" ${running ? "disabled" : ""}>${running ? "正在进行两次核验…" : evaluation ? "再次自动返工" : "启动自动返工"}</button>` : ""}${evaluation && !evaluation.reliable ? `<button type="button" class="good" data-action="accept-candidate">采用候选文字</button>` : ""}<button type="button" class="good" data-action="approve">确认原文可用</button><button type="button" data-action="rework">在工作台返工</button><a href="/assets/tools/magazine-region-annotator.html" target="_blank"><button type="button">回到分区</button></a>` : `<button type="button" data-action="reject">改为返工</button><button type="button" data-action="open">单独打开</button>`}
+            </div>
+          </div>`;
+        article.querySelector('[data-action="approve"]')?.addEventListener("click", () => setDecision(item, "ready"));
+        article.querySelector('[data-action="reject"]')?.addEventListener("click", () => setDecision(item, "review"));
+        article.querySelector('[data-action="rework"]')?.addEventListener("click", () => handoff([item], "translation", true));
+        article.querySelector('[data-action="open"]')?.addEventListener("click", () => handoff([item], "translation", false));
+        article.querySelector('[data-action="auto-rework"]')?.addEventListener("click", () => runAutoRework(item));
+        article.querySelector('[data-action="accept-candidate"]')?.addEventListener("click", () => acceptCandidate(item));
+        root.appendChild(article);
+      });
+      if (!root.children.length) root.innerHTML = `<div class="empty"><span><strong>这个筛选下没有区域</strong>切换“全部”或更换搜索词。</span></div>`;
+    }
+
+    async function runAutoRework(item) {
+      if (state.running.has(item.key)) return;
+      state.running.add(item.key);
+      $("statusLine").textContent = `${item.page_name} / ${item.speaker}：正在按建议定点重跑，并进行第二次一致性核验…`;
+      renderRegions();
+      try {
+        const data = await getJson("/api/run-ocr-rework", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({ path:state.currentPath, key:item.key }) });
+        await loadQueue(state.currentPath);
+        $("statusLine").textContent = data.automaticallyReplaced ? "返工结果通过全部门槛，已自动替换并放行。" : "返工候选已生成；因未通过全部安全门槛，已保留新旧对照等待人工决定。";
+      } catch (error) {
+        $("statusLine").textContent = `自动返工失败：${error.message || error}`;
+      } finally {
+        state.running.delete(item.key);
+        renderRegions();
+      }
+    }
+
+    async function acceptCandidate(item) {
+      $("statusLine").textContent = "正在保存人工确认的候选文字…";
+      try {
+        await getJson("/api/accept-ocr-rework", { method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({ path:state.currentPath, key:item.key }) });
+        await loadQueue(state.currentPath);
+        $("statusLine").textContent = "候选文字已保存并放行；原文字仍保留在返工记录中。";
+      } catch (error) {
+        $("statusLine").textContent = `保存失败：${error.message || error}`;
+      }
+    }
+
+    function setDecision(item, status) {
+      projectDecisions()[item.key] = status;
+      saveDecisions();
+      renderQueue();
+      renderProjects();
+    }
+
+    function yamlScalar(value) { return JSON.stringify(String(value ?? "")); }
+    function appendBlock(lines, key, value) {
+      lines.push(`    ${key}: |-`);
+      String(value ?? "").split(/\r?\n/).forEach((line) => lines.push(`      ${line}`));
+    }
+    function segmentsYaml(items) {
+      const lines = ["translation_segments:"];
+      items.forEach(({ segment }) => {
+        lines.push(`  - speaker: ${yamlScalar(segment.speaker)}`);
+        lines.push(`    kind: ${yamlScalar(segment.kind)}`);
+        lines.push(`    scan_page: ${Number(segment.scan_page || 0)}`);
+        lines.push(`    page_name: ${yamlScalar(segment.page_name)}`);
+        if (segment.source_image) lines.push(`    source_image: ${yamlScalar(segment.source_image)}`);
+        lines.push(`    region_type: ${yamlScalar(segment.region_type || "body")}`);
+        lines.push(`    order: ${Number(segment.order || 0)}`);
+        if (segment.writing_direction && segment.kind !== "image") lines.push(`    writing_direction: ${yamlScalar(segment.writing_direction)}`);
+        if (segment.region_id) lines.push(`    region_id: ${yamlScalar(segment.region_id)}`);
+        if (segment.caption_for) lines.push(`    caption_for: ${yamlScalar(segment.caption_for)}`);
+        if (Array.isArray(segment.scan_box)) lines.push(`    scan_box: [${segment.scan_box.map(Number).join(", ")}]`);
+        if (segment.angle) lines.push(`    angle: ${Number(segment.angle)}`);
+        if (segment.exclusions?.length) lines.push(`    exclusions: ${JSON.stringify(segment.exclusions)}`);
+        if (segment.annotation_note) lines.push(`    annotation_note: ${yamlScalar(segment.annotation_note)}`);
+        if (segment.kind === "image") {
+          lines.push(`    image: ${yamlScalar(segment.image)}`);
+          lines.push(`    alt: ${yamlScalar(segment.alt || segment.speaker)}`);
+        } else {
+          appendBlock(lines, "original", segment.original || "待校对");
+          appendBlock(lines, "translation", segment.translation || "待翻译");
+        }
+      });
+      return `${lines.join("\n")}\n`;
+    }
+
+    function handoff(items, mode, rework = false) {
+      const payload = {
+        createdAt: new Date().toISOString(),
+        title: state.queue?.project?.title || "OCR 项目",
+        sourceQueue: state.currentPath,
+        mode,
+        rework,
+        yaml: segmentsYaml(items),
+      };
+      localStorage.setItem(handoffStorageKey, JSON.stringify(payload));
+      location.href = `/assets/tools/ocr-translation-workbench.html?queueHandoff=1&mode=${encodeURIComponent(mode)}${rework ? "&rework=1" : ""}`;
+    }
+
+    function handoffReady(mode) {
+      const items = (state.queue?.regions || []).filter((item) => effectiveStatus(item) === "ready");
+      if (items.length) handoff(items, mode, false);
+    }
+    function renderEmpty(title, body) {
+      state.queue = null;
+      $("queue").innerHTML = `<div class="empty"><span><strong>${escapeHtml(title)}</strong>${escapeHtml(body)}</span></div>`;
+      $("statusLine").textContent = body;
+      $("translateReady").disabled = true;
+      $("learnReady").disabled = true;
+    }
+
+    $("refreshProjects").addEventListener("click", () => loadProjects(true));
+    $("projectSearch").addEventListener("input", renderProjects);
+    $("regionSearch").addEventListener("input", renderRegions);
+    $("filters").addEventListener("click", (event) => {
+      const button = event.target.closest("button[data-filter]");
+      if (!button) return;
+      state.filter = button.dataset.filter;
+      $("filters").querySelectorAll("button").forEach((item) => item.classList.toggle("is-on", item === button));
+      renderRegions();
+    });
+    $("translateReady").addEventListener("click", () => handoffReady("translation"));
+    $("learnReady").addEventListener("click", () => handoffReady("learning"));
+    loadProjects(false);
+  </script>
+</body>
+</html>

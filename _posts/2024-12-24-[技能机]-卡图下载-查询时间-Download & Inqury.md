@@ -3,6 +3,51 @@ title: "[技能机] 卡图下载 查询时间 Download & Time Inqury"
 date: 2024-12-24
 categories: [Tech,PTCG]
 tags: [简中PTCG,宝活小妙招,Chrome 插件]
+card_image: https://pokeamice.com/wp-content/uploads/2022/10/anime15.gif
+archive_type: "article"
+summary: "批量下载卡图 查询服务器存档时间"
+source:
+  title: "special.pokemon.cn"
+  url: "https://special.pokemon.cn/"
+  source_type: "web"
+links:
+  - title: "special.pokemon.cn"
+    url: "https://special.pokemon.cn/"
+    domain: "special.pokemon.cn"
+    type: "web"
+  - title: "chromewebstore.google.com"
+    url: "https://chromewebstore.google.com/detail/bulk-image-downloader-fro/kekkjfalendfifgchoceceoahjnejmgf?hl=zh-CN&utm_source=ext_sidebar"
+    domain: "chromewebstore.google.com"
+    type: "web"
+  - title: "sqlitebrowser.org"
+    url: "https://sqlitebrowser.org/"
+    domain: "sqlitebrowser.org"
+    type: "web"
+  - title: "网页链接"
+    url: "https://zhuanlan.zhihu.com/p/388007229\\"
+    domain: ""
+    type: "web"
+  - title: "网页链接"
+    url: "https://www.epochconverter.com/\\"
+    domain: ""
+    type: "web"
+  - title: "special.pokemon.cn"
+    url: "https://special.pokemon.cn/151/"
+    domain: "special.pokemon.cn"
+    type: "web"
+workflow:
+  scan: "pending"
+  preprocess: "pending"
+  ocr: "pending"
+  translation: "pending"
+  proofreading: "done"
+  published: "done"
+entities:
+  works:
+    - "宝可梦"
+    - "简中PTCG"
+    - "宝活小妙招"
+    - "Chrome 插件"
 ---
 
 # 批量下载卡图&查询服务器存档时间
@@ -93,5 +138,4 @@ https://static.campaignchowsangsang.com/pokemon/151/big/151_[001-151].png （and
 1.https://zhuanlan.zhihu.com/p/388007229\
 2.https://www.epochconverter.com/\
 3.https://special.pokemon.cn/151/
-
 

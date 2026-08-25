@@ -1,0 +1,109 @@
+{% assign document = include.document | default: page %}
+{% assign archive_type = document.archive_type | default: document.resource_type %}
+{% assign source_data = document.source %}
+{% assign workflow = document.workflow %}
+{% assign entities = document.entities %}
+{% assign has_source = false %}
+{% assign has_entities = false %}
+{% assign has_workflow = false %}
+{% if source_data %}{% assign has_source = true %}{% endif %}
+{% if entities.people or entities.works or entities.organizations or entities.events %}{% assign has_entities = true %}{% endif %}
+{% if workflow.scan or workflow.preprocess or workflow.ocr or workflow.translation or workflow.proofreading or workflow.published %}{% assign has_workflow = true %}{% endif %}
+
+{% if archive_type or has_source or has_entities or has_workflow %}
+  <aside class="resource-card" aria-label="资料卡片">
+    <div class="resource-card__header">
+      <span class="resource-card__kicker">资料卡片</span>
+      <strong>
+        {% case archive_type %}
+        {% when "interview_translation" %}访谈翻译
+        {% when "scan_translation" %}扫描翻译
+        {% when "weibo_archive" %}微博存档
+        {% when "article" %}文章
+        {% else %}{{ archive_type | replace: "_", " " | default: "资料" }}
+        {% endcase %}
+      </strong>
+    </div>
+
+    <dl class="resource-card__grid">
+      {% if source_data %}
+        <div>
+          <dt>来源</dt>
+          <dd>
+            {% if source_data.url %}
+              <a href="{{ source_data.url }}" target="_blank" rel="noopener">{{ source_data.title | default: source_data.url }}</a>
+            {% elsif source_data.title %}
+              {{ source_data.title }}
+            {% else %}
+              {% assign source_text = source_data | jsonify | remove: '"' %}
+              {% if source_text contains "http" %}
+                <a href="{{ source_text }}" target="_blank" rel="noopener">{{ source_text }}</a>
+              {% else %}
+                {{ source_text }}
+              {% endif %}
+            {% endif %}
+          </dd>
+        </div>
+      {% endif %}
+
+      {% if document.publication or source_data.publication %}
+        <div>
+          <dt>刊物</dt>
+          <dd>{{ document.publication | default: source_data.publication }}</dd>
+        </div>
+      {% endif %}
+
+      {% if document.issue or source_data.issue %}
+        <div>
+          <dt>期号</dt>
+          <dd>{{ document.issue | default: source_data.issue }}</dd>
+        </div>
+      {% endif %}
+
+      {% if source_data.language or document.original_lang %}
+        <div>
+          <dt>原文语言</dt>
+          <dd>{{ source_data.language | default: document.original_lang }}</dd>
+        </div>
+      {% endif %}
+
+      {% if document.translator %}
+        <div>
+          <dt>译者</dt>
+          <dd>{{ document.translator }}</dd>
+        </div>
+      {% endif %}
+    </dl>
+
+    {% if has_workflow %}
+      <div class="resource-workflow" aria-label="处理状态">
+        {% assign workflow_steps = "scan:扫描,preprocess:预处理,ocr:OCR,translation:翻译,proofreading:校对,published:发布" | split: "," %}
+        {% for step in workflow_steps %}
+          {% assign step_key = step | split: ":" | first %}
+          {% assign step_label = step | split: ":" | last %}
+          {% assign step_status = workflow[step_key] | default: "pending" %}
+          <span class="resource-workflow__step resource-workflow__step--{{ step_status | slugify }}" title="{{ step_label }}：{{ step_status }}">
+            <i aria-hidden="true"></i>{{ step_label }}
+          </span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if has_entities %}
+      <div class="resource-entities" aria-label="关联实体">
+        {% if entities.people %}
+          <p><span>人物</span>{% for item in entities.people %}<em>{{ item }}</em>{% endfor %}</p>
+        {% endif %}
+        {% if entities.works %}
+          <p><span>作品</span>{% for item in entities.works %}<em>{{ item }}</em>{% endfor %}</p>
+        {% endif %}
+        {% if entities.organizations %}
+          <p><span>组织</span>{% for item in entities.organizations %}<em>{{ item }}</em>{% endfor %}</p>
+        {% endif %}
+        {% if entities.events %}
+          <p><span>事件</span>{% for item in entities.events %}<em>{{ item }}</em>{% endfor %}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+  </aside>
+{% endif %}

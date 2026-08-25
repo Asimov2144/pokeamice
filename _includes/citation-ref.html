@@ -1,0 +1,20 @@
+{% assign citation_key = include.id | default: include.key %}
+{% assign citation_number = nil %}
+{% assign citation_title = nil %}
+{% if citation_key and page.references %}
+  {% for reference in page.references %}
+    {% assign reference_key = reference.id | default: reference.key %}
+    {% if reference_key == citation_key %}
+      {% assign citation_number = forloop.index %}
+      {% assign citation_title = reference.title | default: reference.url | default: reference.doi %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+{% if citation_number %}
+<sup class="citation-ref" id="cite-ref-{{ citation_key | slugify }}{% if include.n %}-{{ include.n }}{% endif %}">
+  <a href="#ref-{{ citation_key | slugify }}" title="{{ citation_title | escape }}">[{{ citation_number }}]</a>
+</sup>
+{% else %}
+<sup class="citation-ref citation-ref--missing" title="未找到引用：{{ citation_key | escape }}">[?]</sup>
+{% endif %}

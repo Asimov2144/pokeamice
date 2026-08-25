@@ -12,6 +12,11 @@
 # Ruby Gem
 *.gem
 .bundle
+.bundle-cache
+.bundle-plugin
+.bundle-user-config
+.gem-spec-cache
+.ruby-tmp
 Gemfile.lock
 **/vendor/bundle
 
@@ -20,6 +25,23 @@ node_modules
 npm-debug.log*
 package-lock.json
 codekit-config.json
+
+# Local source archives and large media dumps
+weibo
+DREAM 2008.12
+archive/raw-images
+migration/inbox
+migration/import-wizard
+
+# Local OCR experiments
+.venv-*
+.venv-ocr
+.venv-ocr-gpu
+.venv-mineru
+.ocr-home
+.paddlex-cache
+ocr-output
+ocr-output-*
 
 # macOS
 .DS_Store
@@ -31,3 +53,20 @@ codekit-config.json
 _asset_bundler_cache
 _site
 jekyll_output.log
+
+# Local OCR experiment output and scratch scans (reproducible, not site content)
+ocr-ab-tests
+DREAM */
+test/dream-*
+test/scantailor-*
+test/*.jpg
+migration/*.log
+
+# Automation test runs are local artifacts; keep only their write-ups
+automation-tests/**
+!automation-tests/
+!automation-tests/*.md
+
+# Python bytecode
+__pycache__/
+*.py[cod]

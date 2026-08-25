@@ -1,0 +1,588 @@
+---
+layout: default
+---
+
+{% assign scan_pages = page.scan_pages | default: page.scans %}
+{% assign segments = page.translation_segments | default: page.segments %}
+
+<main class="scan-translation{% if page.vertical_original %} scan-translation--vertical-original{% endif %}" role="main" data-box-editor="{{ page.box_editor | default: false }}">
+  <header class="scan-translation__header">
+    <div>
+      {% if page.kicker %}
+        <p class="scan-translation__kicker">{{ page.kicker }}</p>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      <div class="scan-translation__meta">
+        {% if page.publication %}<span>{{ page.publication }}</span>{% endif %}
+        {% if page.issue %}<span>{{ page.issue }}</span>{% endif %}
+        {% if page.interviewee %}<span>{{ page.interviewee }}</span>{% endif %}
+        {% if page.translator %}<span>译者：{{ page.translator }}</span>{% endif %}
+      </div>
+    </div>
+    {% if page.original_link %}
+      <a class="scan-translation__source" href="{{ page.original_link }}" target="_blank" rel="noopener">来源</a>
+    {% endif %}
+  </header>
+
+  <div class="scan-translation__workspace">
+    <aside class="scan-viewer" aria-label="扫描件">
+      <div class="scan-viewer__toolbar">
+        <div class="scan-viewer__title">
+          <span>扫描件</span>
+          {% if scan_pages.size > 1 %}<small><span data-scan-current>1</span> / {{ scan_pages.size }}</small>{% endif %}
+        </div>
+        {% if scan_pages.size > 1 %}
+          <div class="scan-viewer__controls">
+            <button type="button" class="scan-viewer__button" data-scan-prev aria-label="上一页"><i class="fas fa-chevron-left"></i></button>
+            <select class="scan-viewer__select" data-scan-select aria-label="选择扫描页">
+              {% for scan in scan_pages %}
+                {% assign scan_label = scan.label | default: scan.title %}
+                <option value="{{ forloop.index0 }}">{% if scan_label %}{{ scan_label }}{% else %}Page {{ forloop.index }}{% endif %}</option>
+              {% endfor %}
+            </select>
+            <button type="button" class="scan-viewer__button" data-scan-next aria-label="下一页"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        {% endif %}
+        <div class="scan-viewer__zoom" aria-label="扫描图缩放">
+          <button type="button" class="scan-viewer__button" data-scan-zoom-out aria-label="缩小"><i class="fas fa-search-minus"></i></button>
+          <button type="button" class="scan-viewer__button" data-scan-zoom-reset aria-label="重置缩放"><i class="fas fa-compress-arrows-alt"></i></button>
+          <button type="button" class="scan-viewer__button" data-scan-zoom-in aria-label="放大"><i class="fas fa-search-plus"></i></button>
+          <button type="button" class="scan-viewer__button" data-scan-focus aria-label="大屏框选"><i class="fas fa-expand"></i></button>
+        </div>
+      </div>
+
+      {% if scan_pages.size > 1 %}
+        <nav class="scan-viewer__thumbs" aria-label="扫描页">
+          {% for scan in scan_pages %}
+            {% assign scan_src = scan.image | default: scan.src %}
+            <button type="button" class="scan-viewer__thumb{% if forloop.first %} is-active{% endif %}" data-scan-thumb="{{ forloop.index0 }}">
+              <img src="{{ scan_src | relative_url }}" alt="{{ scan.label | default: forloop.index }}">
+              <span>{{ scan.label | default: forloop.index }}</span>
+            </button>
+          {% endfor %}
+        </nav>
+      {% endif %}
+
+      <div class="scan-viewer__stage" data-scan-stage>
+        {% for scan in scan_pages %}
+          {% assign scan_src = scan.image | default: scan.src %}
+          <figure class="scan-viewer__figure{% unless forloop.first %} is-hidden{% endunless %}" data-scan-page="{{ forloop.index0 }}">
+            <a class="scan-viewer__image-wrap" href="{{ scan_src | relative_url }}" target="_blank" rel="noopener">
+              <img src="{{ scan_src | relative_url }}" alt="{{ scan.alt | default: page.title | escape }}">
+              <span class="scan-viewer__highlight" data-scan-highlight aria-hidden="true"></span>
+            </a>
+            {% if scan.caption %}
+              <figcaption>{{ scan.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+
+      <details class="scan-box-editor" data-scan-box-editor hidden>
+        <summary class="scan-box-editor__summary">框选模式</summary>
+        <div class="scan-box-editor__header">
+          <strong>框选模式</strong>
+          <span>点右侧段落，再进入大屏框选会更容易定位文字区域</span>
+        </div>
+        <pre data-scan-box-output>等待选择段落...</pre>
+        <button type="button" class="scan-box-editor__copy" data-scan-box-copy>复制坐标</button>
+      </details>
+    </aside>
+
+    <article class="scan-translation__article" itemscope itemtype="https://schema.org/CreativeWork">
+      <meta itemprop="headline" content="{{ page.title | escape }}">
+      {% include resource-card.html document=page %}
+      {% if page.summary %}
+        <p class="scan-translation__summary">{{ page.summary }}</p>
+      {% endif %}
+
+      {% if content != "" %}
+        <section class="scan-translation__note">
+          {{ content }}
+        </section>
+      {% endif %}
+      {% include resource-related.html %}
+
+      <section class="parallel-text" itemprop="text">
+        {% for item in segments %}
+          {% assign item_kind = item.kind | default: item.region_type | default: 'text' %}
+          {% assign caption_target = item.caption_for | default: item.image_ref %}
+          {% if item_kind == 'caption' and caption_target %}
+            {% continue %}
+          {% endif %}
+          {% assign first_target = item.scan_targets | first %}
+          {% assign item_page = first_target.scan_page | default: item.scan_page | default: item.page | default: 0 %}
+          {% assign item_box = first_target.scan_box | default: item.scan_box | default: item.box | default: item.bbox %}
+          <section class="parallel-text__block{% if item_kind == 'image' %} parallel-text__block--figure{% endif %}{% if item.writing_direction == 'vertical' %} parallel-text__block--vertical{% endif %}" id="segment-{{ forloop.index }}" tabindex="0" data-segment-index="{{ forloop.index }}" data-scan-page-index="{{ item_page }}"{% if item_box %} data-scan-target data-scan-box="{{ item_box | join: ',' }}"{% endif %}>
+            <div class="parallel-text__marker">
+              <span>{{ forloop.index }}</span>
+              {% if item.speaker %}<strong>{{ item.speaker }}</strong>{% endif %}
+            </div>
+            {% if item_kind == 'image' %}
+              {% assign linked_captions = segments | where: 'caption_for', item.region_id %}
+              <figure class="parallel-text__figure">
+                <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.speaker | default: page.title | escape }}" loading="lazy">
+                {% if linked_captions.size > 0 %}
+                  <figcaption class="parallel-text__figcaption">
+                    {% for caption in linked_captions %}
+                      <div class="parallel-text__caption-pair">
+                        <div lang="{{ caption.original_lang | default: page.original_lang | default: 'ja' }}">
+                          <p class="parallel-text__label">图注原文</p>
+                          {{ caption.original | markdownify }}
+                        </div>
+                        <div lang="{{ caption.translation_lang | default: page.translation_lang | default: 'zh-CN' }}">
+                          <p class="parallel-text__label">图注译文</p>
+                          {{ caption.translation | markdownify }}
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </figcaption>
+                {% elsif item.caption %}
+                  <figcaption class="parallel-text__figcaption">{{ item.caption | markdownify }}</figcaption>
+                {% endif %}
+              </figure>
+            {% else %}
+              <div class="parallel-text__pair">
+                <div class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: page.original_lang | default: 'ja' }}">
+                  <p class="parallel-text__label">{% if item_kind == 'caption' %}图注原文{% else %}原文{% endif %}</p>
+                  {{ item.original | markdownify }}
+                </div>
+                <div class="parallel-text__cell parallel-text__cell--translation" lang="{{ item.translation_lang | default: page.translation_lang | default: 'zh-CN' }}">
+                  <p class="parallel-text__label">{% if item_kind == 'caption' %}图注译文{% else %}译文{% endif %}</p>
+                  {{ item.translation | markdownify }}
+                </div>
+              </div>
+            {% endif %}
+            {% if item.note %}
+              <aside class="parallel-text__note">{{ item.note | markdownify }}</aside>
+            {% endif %}
+            {% if item.comment or item.comments %}
+              <aside class="parallel-text__comments" aria-label="段落评论">
+                <p class="parallel-text__comments-title">Comment</p>
+                {% if item.comments %}
+                  <ul>
+                    {% for comment in item.comments %}
+                      <li>{{ comment | markdownify }}</li>
+                    {% endfor %}
+                  </ul>
+                {% else %}
+                  {{ item.comment | markdownify }}
+                {% endif %}
+              </aside>
+            {% endif %}
+          </section>
+        {% endfor %}
+      </section>
+
+      <footer class="scan-translation__footer">
+        {% include article-references.html %}
+        {% include page__taxonomy.html %}
+        {% include page__date.html %}
+      </footer>
+    </article>
+  </div>
+
+  <div class="scan-focus" data-scan-focus-panel hidden>
+    <div class="scan-focus__bar">
+      <div>
+        <strong>大屏框选</strong>
+        <span data-scan-focus-status>选择右侧段落后，在图上拖出文字区域</span>
+      </div>
+      <div class="scan-focus__actions">
+        <button type="button" class="scan-viewer__button" data-scan-focus-zoom-out aria-label="缩小"><i class="fas fa-search-minus"></i></button>
+        <button type="button" class="scan-viewer__button" data-scan-focus-zoom-in aria-label="放大"><i class="fas fa-search-plus"></i></button>
+        <button type="button" class="scan-viewer__button" data-scan-focus-close aria-label="关闭"><i class="fas fa-times"></i></button>
+      </div>
+    </div>
+    <div class="scan-focus__body">
+      <div class="scan-focus__canvas" data-scan-focus-canvas></div>
+      <aside class="scan-focus__side">
+        <p class="scan-focus__label">当前段落</p>
+        <div class="scan-focus__segment" data-scan-focus-segment>尚未选择段落</div>
+        <p class="scan-focus__label">输出</p>
+        <pre data-scan-focus-output>等待框选...</pre>
+        <button type="button" class="scan-box-editor__copy" data-scan-focus-copy>复制坐标</button>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<script>
+  (function() {
+    var root = document.querySelector(".scan-translation");
+    if (!root) return;
+    var pages = Array.prototype.slice.call(root.querySelectorAll("[data-scan-page]"));
+    var thumbs = Array.prototype.slice.call(root.querySelectorAll("[data-scan-thumb]"));
+    var blocks = Array.prototype.slice.call(root.querySelectorAll(".parallel-text__block"));
+    var currentLabel = root.querySelector("[data-scan-current]");
+    var pageSelect = root.querySelector("[data-scan-select]");
+    var stage = root.querySelector("[data-scan-stage]");
+    var zoomIn = root.querySelector("[data-scan-zoom-in]");
+    var zoomOut = root.querySelector("[data-scan-zoom-out]");
+    var zoomReset = root.querySelector("[data-scan-zoom-reset]");
+    var focusButton = root.querySelector("[data-scan-focus]");
+    var focusPanel = root.querySelector("[data-scan-focus-panel]");
+    var focusCanvas = root.querySelector("[data-scan-focus-canvas]");
+    var focusClose = root.querySelector("[data-scan-focus-close]");
+    var focusZoomIn = root.querySelector("[data-scan-focus-zoom-in]");
+    var focusZoomOut = root.querySelector("[data-scan-focus-zoom-out]");
+    var focusSegment = root.querySelector("[data-scan-focus-segment]");
+    var focusOutput = root.querySelector("[data-scan-focus-output]");
+    var focusCopy = root.querySelector("[data-scan-focus-copy]");
+    var focusStatus = root.querySelector("[data-scan-focus-status]");
+    var boxEditor = root.querySelector("[data-scan-box-editor]");
+    var boxOutput = root.querySelector("[data-scan-box-output]");
+    var boxCopy = root.querySelector("[data-scan-box-copy]");
+    var editorEnabled = root.getAttribute("data-box-editor") === "true" || new URLSearchParams(window.location.search).has("boxes");
+    var current = 0;
+    var zoom = 1;
+    var focusZoom = 1.2;
+    var activeBlock = null;
+    var focusImg = null;
+    var focusHighlight = null;
+
+    function applyZoom(nextZoom) {
+      zoom = Math.min(2.8, Math.max(0.85, nextZoom));
+      pages.forEach(function(page) {
+        var wrap = page.querySelector(".scan-viewer__image-wrap");
+        if (wrap) wrap.style.width = (zoom * 100) + "%";
+      });
+    }
+
+    function showPage(index) {
+      if (!pages.length) return;
+      current = (index + pages.length) % pages.length;
+      pages.forEach(function(page, pageIndex) {
+        page.classList.toggle("is-hidden", pageIndex !== current);
+      });
+      thumbs.forEach(function(thumb, thumbIndex) {
+        thumb.classList.toggle("is-active", thumbIndex === current);
+      });
+      if (currentLabel) currentLabel.textContent = String(current + 1);
+      if (pageSelect) pageSelect.value = String(current);
+    }
+
+    function clearActiveBlocks() {
+      blocks.forEach(function(block) {
+        block.classList.remove("is-active");
+      });
+    }
+
+    function placeHighlight(block) {
+      var pageIndex = Number(block.getAttribute("data-scan-page-index") || 0);
+      showPage(pageIndex);
+      clearActiveBlocks();
+      block.classList.add("is-active");
+      activeBlock = block;
+
+      var box = (block.getAttribute("data-scan-box") || "").split(",").map(Number);
+      if (box.length !== 4 || box.some(function(value) { return Number.isNaN(value); })) {
+        if (editorEnabled) writeBoxOutput(block, null);
+        return;
+      }
+
+      var page = pages[pageIndex];
+      if (!page) return;
+      var img = page.querySelector("img");
+      var highlight = page.querySelector("[data-scan-highlight]");
+      if (!img || !highlight || !img.naturalWidth || !img.naturalHeight) return;
+
+      var scaleX = img.clientWidth / img.naturalWidth;
+      var scaleY = img.clientHeight / img.naturalHeight;
+      highlight.style.left = box[0] * scaleX + "px";
+      highlight.style.top = box[1] * scaleY + "px";
+      highlight.style.width = Math.max(12, (box[2] - box[0]) * scaleX) + "px";
+      highlight.style.height = Math.max(12, (box[3] - box[1]) * scaleY) + "px";
+      highlight.classList.add("is-visible");
+
+      if (stage) {
+        var targetTop = box[1] * scaleY - stage.clientHeight * 0.32;
+        stage.scrollTo({ top: Math.max(0, targetTop), behavior: "smooth" });
+      }
+      if (editorEnabled) writeBoxOutput(block, box);
+    }
+
+    function currentImageParts() {
+      var page = pages[current];
+      if (!page) return {};
+      return {
+        page: page,
+        wrap: page.querySelector(".scan-viewer__image-wrap"),
+        img: page.querySelector("img"),
+        highlight: page.querySelector("[data-scan-highlight]")
+      };
+    }
+
+    function writeBoxOutput(block, box) {
+      if (!boxOutput || !block) return;
+      var segmentIndex = block.getAttribute("data-segment-index") || "?";
+      var pageIndex = Number(block.getAttribute("data-scan-page-index") || current);
+      var text;
+      if (!box) {
+        text = "segment-" + segmentIndex + "\nscan_page: " + pageIndex + "\nscan_box: 尚未框选";
+        boxOutput.textContent = text;
+        if (focusOutput) focusOutput.textContent = text;
+        return;
+      }
+      text = "segment-" + segmentIndex + "\nscan_page: " + pageIndex + "\nscan_box: [" + box.join(", ") + "]";
+      boxOutput.textContent = text;
+      if (focusOutput) focusOutput.textContent = text;
+    }
+
+    function setBlockBox(block, pageIndex, box) {
+      block.setAttribute("data-scan-page-index", String(pageIndex));
+      block.setAttribute("data-scan-target", "");
+      block.setAttribute("data-scan-box", box.join(","));
+      writeBoxOutput(block, box);
+      placeHighlight(block);
+      updateFocusSegment();
+    }
+
+    function updateFocusSegment() {
+      if (!focusSegment || !activeBlock) return;
+      var marker = activeBlock.querySelector(".parallel-text__marker");
+      var original = activeBlock.querySelector(".parallel-text__cell--original p:last-child");
+      focusSegment.textContent = ((marker ? marker.textContent.trim() : "") + "\n" + (original ? original.textContent.trim() : "")).trim();
+      if (focusStatus) focusStatus.textContent = "正在框选 segment-" + (activeBlock.getAttribute("data-segment-index") || "?");
+    }
+
+    function renderFocusImage() {
+      if (!focusCanvas || !focusPanel || !activeBlock) return;
+      var pageIndex = Number(activeBlock.getAttribute("data-scan-page-index") || current);
+      showPage(pageIndex);
+      var page = pages[pageIndex];
+      var img = page ? page.querySelector("img") : null;
+      if (!img) return;
+      focusCanvas.innerHTML = "";
+      var wrap = document.createElement("div");
+      wrap.className = "scan-focus__image-wrap";
+      wrap.style.width = (focusZoom * 100) + "%";
+      focusImg = document.createElement("img");
+      focusImg.src = img.currentSrc || img.src;
+      focusImg.alt = img.alt || "";
+      focusHighlight = document.createElement("span");
+      focusHighlight.className = "scan-viewer__highlight";
+      wrap.appendChild(focusImg);
+      wrap.appendChild(focusHighlight);
+      focusCanvas.appendChild(wrap);
+      updateFocusSegment();
+      var existing = (activeBlock.getAttribute("data-scan-box") || "").split(",").map(Number);
+      if (existing.length === 4 && !existing.some(function(value) { return Number.isNaN(value); })) {
+        window.setTimeout(function() { drawFocusHighlight(existing); }, 80);
+      }
+    }
+
+    function drawFocusHighlight(box) {
+      if (!focusImg || !focusHighlight || !focusImg.naturalWidth || !focusImg.naturalHeight) return;
+      var scaleX = focusImg.clientWidth / focusImg.naturalWidth;
+      var scaleY = focusImg.clientHeight / focusImg.naturalHeight;
+      focusHighlight.style.left = box[0] * scaleX + "px";
+      focusHighlight.style.top = box[1] * scaleY + "px";
+      focusHighlight.style.width = Math.max(12, (box[2] - box[0]) * scaleX) + "px";
+      focusHighlight.style.height = Math.max(12, (box[3] - box[1]) * scaleY) + "px";
+      focusHighlight.classList.add("is-visible");
+    }
+
+    function openFocusPanel() {
+      if (!focusPanel) return;
+      if (!activeBlock) activeBlock = blocks[0];
+      if (activeBlock) placeHighlight(activeBlock);
+      focusPanel.hidden = false;
+      document.body.classList.add("scan-focus-open");
+      renderFocusImage();
+    }
+
+    function closeFocusPanel() {
+      if (!focusPanel) return;
+      focusPanel.hidden = true;
+      document.body.classList.remove("scan-focus-open");
+    }
+
+    var prev = root.querySelector("[data-scan-prev]");
+    var next = root.querySelector("[data-scan-next]");
+    if (prev) prev.addEventListener("click", function() { showPage(current - 1); });
+    if (next) next.addEventListener("click", function() { showPage(current + 1); });
+    if (zoomIn) zoomIn.addEventListener("click", function() { applyZoom(zoom + 0.18); });
+    if (zoomOut) zoomOut.addEventListener("click", function() { applyZoom(zoom - 0.18); });
+    if (zoomReset) zoomReset.addEventListener("click", function() {
+      applyZoom(1);
+      if (stage) stage.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    });
+    if (focusButton) focusButton.addEventListener("click", openFocusPanel);
+    if (focusClose) focusClose.addEventListener("click", closeFocusPanel);
+    if (focusZoomIn) focusZoomIn.addEventListener("click", function() {
+      focusZoom = Math.min(3.5, focusZoom + 0.2);
+      renderFocusImage();
+    });
+    if (focusZoomOut) focusZoomOut.addEventListener("click", function() {
+      focusZoom = Math.max(0.7, focusZoom - 0.2);
+      renderFocusImage();
+    });
+    if (pageSelect) {
+      pageSelect.addEventListener("change", function() {
+        showPage(Number(pageSelect.value));
+      });
+    }
+    thumbs.forEach(function(thumb) {
+      thumb.addEventListener("click", function() {
+        showPage(Number(thumb.getAttribute("data-scan-thumb")));
+      });
+    });
+    blocks.forEach(function(block) {
+      block.addEventListener("click", function() {
+        placeHighlight(block);
+      });
+      block.addEventListener("focus", function() {
+        placeHighlight(block);
+      });
+      block.addEventListener("mouseenter", function() {
+        placeHighlight(block);
+      });
+    });
+    if (boxEditor && editorEnabled) {
+      boxEditor.hidden = false;
+      writeBoxOutput(blocks[0], null);
+    }
+    if (boxCopy && boxOutput) {
+      boxCopy.addEventListener("click", function() {
+        var text = boxOutput.textContent || "";
+        if (navigator.clipboard && text) {
+          navigator.clipboard.writeText(text);
+          boxCopy.textContent = "已复制";
+          window.setTimeout(function() { boxCopy.textContent = "复制坐标"; }, 1200);
+        }
+      });
+    }
+    if (stage) {
+      var isDragging = false;
+      var isSelectingBox = false;
+      var dragStartX = 0;
+      var dragStartY = 0;
+      var scrollStartLeft = 0;
+      var scrollStartTop = 0;
+      var selectStart = null;
+
+      stage.addEventListener("mousedown", function(event) {
+        if (editorEnabled && activeBlock && (!focusPanel || focusPanel.hidden)) {
+          var parts = currentImageParts();
+          if (!parts.img || !parts.highlight || !parts.img.naturalWidth || !parts.img.naturalHeight) return;
+          var rect = parts.img.getBoundingClientRect();
+          if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) return;
+          isSelectingBox = true;
+          selectStart = {
+            x: Math.round((event.clientX - rect.left) * parts.img.naturalWidth / rect.width),
+            y: Math.round((event.clientY - rect.top) * parts.img.naturalHeight / rect.height),
+            rect: rect
+          };
+          parts.highlight.classList.add("is-visible");
+          event.preventDefault();
+          return;
+        }
+        if (event.button !== 0 || zoom <= 1) return;
+        isDragging = true;
+        dragStartX = event.clientX;
+        dragStartY = event.clientY;
+        scrollStartLeft = stage.scrollLeft;
+        scrollStartTop = stage.scrollTop;
+        stage.classList.add("is-dragging");
+        event.preventDefault();
+      });
+
+      window.addEventListener("mousemove", function(event) {
+        if (isSelectingBox && selectStart && activeBlock) {
+          var parts = currentImageParts();
+          if (!parts.img || !parts.highlight) return;
+          var rect = parts.img.getBoundingClientRect();
+          var currentX = Math.round((event.clientX - rect.left) * parts.img.naturalWidth / rect.width);
+          var currentY = Math.round((event.clientY - rect.top) * parts.img.naturalHeight / rect.height);
+          currentX = Math.max(0, Math.min(parts.img.naturalWidth, currentX));
+          currentY = Math.max(0, Math.min(parts.img.naturalHeight, currentY));
+          var x1 = Math.min(selectStart.x, currentX);
+          var y1 = Math.min(selectStart.y, currentY);
+          var x2 = Math.max(selectStart.x, currentX);
+          var y2 = Math.max(selectStart.y, currentY);
+          var scaleX = parts.img.clientWidth / parts.img.naturalWidth;
+          var scaleY = parts.img.clientHeight / parts.img.naturalHeight;
+          parts.highlight.style.left = x1 * scaleX + "px";
+          parts.highlight.style.top = y1 * scaleY + "px";
+          parts.highlight.style.width = Math.max(12, (x2 - x1) * scaleX) + "px";
+          parts.highlight.style.height = Math.max(12, (y2 - y1) * scaleY) + "px";
+          writeBoxOutput(activeBlock, [x1, y1, x2, y2]);
+          return;
+        }
+        if (!isDragging) return;
+        stage.scrollLeft = scrollStartLeft - (event.clientX - dragStartX);
+        stage.scrollTop = scrollStartTop - (event.clientY - dragStartY);
+      });
+
+      window.addEventListener("mouseup", function() {
+        if (isSelectingBox && activeBlock) {
+          var text = boxOutput ? boxOutput.textContent : "";
+          var match = text.match(/scan_box: \[(\\d+), (\\d+), (\\d+), (\\d+)\\]/);
+          if (match) {
+            setBlockBox(activeBlock, current, match.slice(1).map(Number));
+          }
+          isSelectingBox = false;
+          selectStart = null;
+          return;
+        }
+        if (!isDragging) return;
+        isDragging = false;
+        stage.classList.remove("is-dragging");
+      });
+    }
+    if (focusCanvas) {
+      var isFocusSelecting = false;
+      var focusStart = null;
+      focusCanvas.addEventListener("mousedown", function(event) {
+        if (!activeBlock || !focusImg || !focusHighlight) return;
+        var rect = focusImg.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) return;
+        isFocusSelecting = true;
+        focusStart = {
+          x: Math.round((event.clientX - rect.left) * focusImg.naturalWidth / rect.width),
+          y: Math.round((event.clientY - rect.top) * focusImg.naturalHeight / rect.height)
+        };
+        focusHighlight.classList.add("is-visible");
+        event.preventDefault();
+      });
+      window.addEventListener("mousemove", function(event) {
+        if (!isFocusSelecting || !focusStart || !focusImg || !focusHighlight) return;
+        var rect = focusImg.getBoundingClientRect();
+        var currentX = Math.round((event.clientX - rect.left) * focusImg.naturalWidth / rect.width);
+        var currentY = Math.round((event.clientY - rect.top) * focusImg.naturalHeight / rect.height);
+        currentX = Math.max(0, Math.min(focusImg.naturalWidth, currentX));
+        currentY = Math.max(0, Math.min(focusImg.naturalHeight, currentY));
+        var box = [
+          Math.min(focusStart.x, currentX),
+          Math.min(focusStart.y, currentY),
+          Math.max(focusStart.x, currentX),
+          Math.max(focusStart.y, currentY)
+        ];
+        drawFocusHighlight(box);
+        writeBoxOutput(activeBlock, box);
+      });
+      window.addEventListener("mouseup", function() {
+        if (!isFocusSelecting || !activeBlock || !focusOutput) return;
+        var match = focusOutput.textContent.match(/scan_box: \[(\d+), (\d+), (\d+), (\d+)\]/);
+        if (match) setBlockBox(activeBlock, current, match.slice(1).map(Number));
+        isFocusSelecting = false;
+        focusStart = null;
+      });
+    }
+    if (focusCopy && focusOutput) {
+      focusCopy.addEventListener("click", function() {
+        var text = focusOutput.textContent || "";
+        if (navigator.clipboard && text) {
+          navigator.clipboard.writeText(text);
+          focusCopy.textContent = "已复制";
+          window.setTimeout(function() { focusCopy.textContent = "复制坐标"; }, 1200);
+        }
+      });
+    }
+    applyZoom(1);
+    window.setTimeout(function() {
+      if (stage && stage.scrollTop === 0) stage.scrollTop = 18;
+    }, 250);
+  })();
+</script>

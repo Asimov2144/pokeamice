@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+{% assign gf = site.data.gamefreak_director %}
+{% assign gf_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_mode = page.gf_mode | default: "post" %}
+
+<main class="gf-director" id="main" role="main">
+  {% include gamefreak-director-sidebar.html %}
+
+  <article class="gf-director-main">
+    <header class="gf-director-hero">
+      <p>{{ gf.title }}</p>
+      <h1>{{ page.title | default: gf.title_zh }}</h1>
+      <span>{{ page.summary | default: "用于还原 Game Freak 官方“増田部長のめざめるパワー”的站内存档模板。" }}</span>
+      <div class="gf-director-hero__actions">
+        <a href="{{ gf.source_url }}" target="_blank" rel="noopener">原始首页</a>
+        <a href="{{ gf.category_url }}" target="_blank" rel="noopener">原始分类</a>
+        <a href="{{ gf.archive_url }}" target="_blank" rel="noopener">原始归档</a>
+      </div>
+    </header>
+
+    {% case gf_mode %}
+    {% when "index" %}
+      <section class="gf-director-section">
+        <header>
+          <p>Latest Entries</p>
+          <h2>文章列表</h2>
+        </header>
+        <div class="gf-director-post-list">
+          {% for post in gf_posts %}
+            {% include gamefreak-director-entry.html post=post %}
+          {% else %}
+            <p class="gf-director-empty">还没有导入部长专栏文章。可以先按示例 front matter 新建文章。</p>
+          {% endfor %}
+        </div>
+      </section>
+      {{ content }}
+
+    {% when "category" %}
+      <section class="gf-director-section">
+        <header>
+          <p>Categories</p>
+          <h2>分类</h2>
+        </header>
+        <div class="gf-director-category-grid">
+          {% for category in gf.categories %}
+            {% assign matched_posts = "" | split: "," %}
+            {% for post in gf_posts %}
+              {% if post.gf_categories contains category.name or post.gf_categories contains category.slug %}
+                {% assign matched_posts = matched_posts | push: post %}
+              {% endif %}
+            {% endfor %}
+            <article>
+              <span>{{ matched_posts | size }} entries</span>
+              <h3>{{ category.name }}</h3>
+              <p>{{ category.description }}</p>
+            </article>
+          {% endfor %}
+        </div>
+      </section>
+      {{ content }}
+
+    {% when "archive" %}
+      <section class="gf-director-section">
+        <header>
+          <p>Archives</p>
+          <h2>年月归档</h2>
+        </header>
+        <div class="gf-director-archive-grid">
+          {% for archive in gf.archives %}
+            {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+            {% assign archive_hits = "" | split: "," %}
+            {% for post in gf_posts %}
+              {% assign post_archive = post.gf_archive | default: post.date | date: "%Y-%-m" %}
+              {% if post_archive == archive_key %}
+                {% assign archive_hits = archive_hits | push: post %}
+              {% endif %}
+            {% endfor %}
+            <a href="{{ gf.archive_url }}" target="_blank" rel="noopener">
+              <strong>{{ archive }}</strong>
+              <span>{{ archive_hits | size }} local</span>
+            </a>
+          {% endfor %}
+        </div>
+      </section>
+      {{ content }}
+
+    {% else %}
+      <section class="gf-director-post">
+        <header class="gf-director-post__header">
+          <div>
+            <p>{% if page.gf_entry_no %}第{{ page.gf_entry_no }}回{% else %}Entry{% endif %}</p>
+            <h2>{{ page.gf_entry_title | default: page.title }}</h2>
+          </div>
+          {% if page.date %}
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>
+          {% endif %}
+        </header>
+
+        {% if page.gf_categories %}
+          <div class="gf-director-post__cats">
+            <span>Posted in:</span>
+            {% for category in page.gf_categories %}
+              <em>{{ category }}</em>
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <div class="gf-director-post__content">
+          {{ content }}
+        </div>
+
+        {% include article-link-analysis.html %}
+        {% include article-references.html %}
+      </section>
+    {% endcase %}
+  </article>
+</main>

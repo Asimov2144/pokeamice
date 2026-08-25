@@ -1,5 +1,5 @@
 <div class="tab-list">
-  {% assign interview_posts = site.posts | where: "category", "访谈翻译" %}
+  {% assign interview_posts = site.posts | where_exp: "post", "post.categories contains '访谈翻译'" %}
   {% for post in interview_posts limit:10 %}
   <div class="list__item">
     <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">

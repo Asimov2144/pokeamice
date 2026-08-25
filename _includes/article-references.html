@@ -1,0 +1,116 @@
+{% if page.references %}
+  <section class="article-references" aria-labelledby="article-references-title">
+    <header class="article-references__header">
+      <div>
+        <p>References</p>
+        <h2 id="article-references-title">参考文献</h2>
+      </div>
+      <span>{{ page.references | size }} 条</span>
+    </header>
+    <ol class="article-references__list">
+      {% for reference in page.references %}
+        {% assign reference_key = reference.id | default: reference.key | default: forloop.index %}
+        {% assign reference_type = reference.type | default: "reference" %}
+        {% assign reference_authors = nil %}
+        {% if reference.authors %}
+          {% assign reference_authors = reference.authors | join: ", " %}
+        {% elsif reference.author %}
+          {% assign reference_authors = reference.author %}
+        {% endif %}
+        {% assign reference_year = reference.year | default: reference.date %}
+        {% assign reference_container = reference.container | default: reference.journal | default: reference.publication | default: reference.booktitle %}
+        {% assign reference_identifier = reference.isbn | default: reference.url | default: reference.archive_url %}
+        {% capture reference_citation %}
+{% if reference_authors %}{{ reference_authors }}. {% endif %}{% if reference_year %}{{ reference_year }}. {% endif %}{% if reference.title %}{{ reference.title }}. {% endif %}{% if reference_container %}{{ reference_container }}. {% endif %}{% if reference.volume %}{{ reference.volume }}{% endif %}{% if reference.issue %}({{ reference.issue }}){% endif %}{% if reference.pages %}: {{ reference.pages }}.{% endif %}{% if reference.publisher %} {{ reference.publisher }}.{% endif %}{% if reference.url %} {{ reference.url }}{% endif %}
+        {% endcapture %}
+        {% assign reference_citation_clean = reference_citation | strip | replace: "  ", " " | replace: " .", "." %}
+        <li class="article-reference" id="ref-{{ reference_key | slugify }}" itemscope itemtype="https://schema.org/CreativeWork">
+          <div class="article-reference__index" aria-hidden="true">{{ forloop.index }}</div>
+          <div class="article-reference__body">
+            <div class="article-reference__meta">
+              <span>{{ reference_type }}</span>
+              {% if reference_year %}<span>{{ reference_year }}</span>{% endif %}
+              {% if reference.language %}<span>{{ reference.language }}</span>{% endif %}
+            </div>
+            <p class="article-reference__citation" itemprop="citation">{{ reference_citation_clean }}</p>
+            {% if reference.note %}
+              <p class="article-reference__note">{{ reference.note | markdownify | strip_html }}</p>
+            {% endif %}
+            <div class="article-reference__links">
+              <a href="#cite-ref-{{ reference_key | slugify }}">回到正文</a>
+              {% if reference.url %}
+                <a href="{{ reference.url }}" target="_blank" rel="noopener">来源链接</a>
+              {% endif %}
+              {% if reference.archive_url %}
+                <a href="{{ reference.archive_url }}" target="_blank" rel="noopener">存档</a>
+              {% endif %}
+              {% if reference_identifier %}
+                <button type="button" data-copy-citation="{{ reference_citation_clean | escape }}">复制引用</button>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+  <script>
+    document.addEventListener("click", function(event) {
+      var button = event.target.closest("[data-copy-citation]");
+      if (!button) return;
+      var text = button.getAttribute("data-copy-citation") || "";
+      if (!text) return;
+      function markCopy(label) {
+        button.textContent = label;
+        window.setTimeout(function() { button.textContent = "复制引用"; }, 1400);
+      }
+      function showManualCopy() {
+        var oldPanel = document.querySelector(".article-reference-copybox");
+        if (oldPanel) oldPanel.remove();
+        var panel = document.createElement("div");
+        panel.className = "article-reference-copybox";
+        panel.innerHTML = '<strong>引用已选中</strong><textarea readonly></textarea><button type="button">关闭</button>';
+        var textarea = panel.querySelector("textarea");
+        textarea.value = text;
+        document.body.appendChild(panel);
+        textarea.focus();
+        textarea.select();
+        panel.querySelector("button").addEventListener("click", function() {
+          panel.remove();
+        });
+        window.setTimeout(function() {
+          if (panel.parentNode) panel.remove();
+        }, 8000);
+        markCopy("已选中");
+      }
+      function fallbackCopy() {
+        var input = document.createElement("textarea");
+        input.value = text;
+        input.setAttribute("readonly", "");
+        input.style.position = "fixed";
+        input.style.top = "-9999px";
+        input.style.left = "-9999px";
+        document.body.appendChild(input);
+        input.select();
+        var ok = false;
+        try {
+          ok = document.execCommand("copy");
+        } catch (error) {
+          ok = false;
+        }
+        document.body.removeChild(input);
+        if (ok) {
+          markCopy("已复制");
+        } else {
+          showManualCopy();
+        }
+      }
+      if (!navigator.clipboard || !navigator.clipboard.writeText) {
+        fallbackCopy();
+        return;
+      }
+      navigator.clipboard.writeText(text).then(function() {
+        markCopy("已复制");
+      }).catch(fallbackCopy);
+    });
+  </script>
+{% endif %}

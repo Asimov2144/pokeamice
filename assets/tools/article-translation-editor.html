@@ -1,0 +1,2392 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>文章翻译编辑器</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --ink: #1d2730;
+      --muted: #64717d;
+      --line: #dce3ea;
+      --accent: #b84848;
+      --accent-soft: rgba(184, 72, 72, 0.11);
+      --focus: #2f6f9f;
+      --green: #3f7a59;
+      --yellow: #a36d18;
+      --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: var(--panel);
+      color: var(--ink);
+    }
+
+    button:hover {
+      border-color: #b9c5cf;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    button.ghost {
+      background: transparent;
+    }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    input:focus,
+    textarea:focus,
+    select:focus {
+      border-color: var(--focus);
+      box-shadow: 0 0 0 3px rgba(47, 111, 159, 0.12);
+    }
+
+    textarea {
+      min-height: 90px;
+      resize: vertical;
+      line-height: 1.65;
+    }
+
+    textarea.source-draft {
+      min-height: 260px;
+      max-height: 52vh;
+      font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
+      font-size: 13px;
+    }
+
+    label {
+      display: grid;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr) 380px;
+      gap: 12px;
+      height: 100%;
+      padding: 12px;
+    }
+
+    body.focus-mode .app {
+      grid-template-columns: minmax(0, 1120px);
+      justify-content: center;
+    }
+
+    body.focus-mode .sidebar,
+    body.focus-mode .inspector {
+      display: none;
+    }
+
+    body.focus-mode .workspace {
+      width: min(1120px, 100%);
+    }
+
+    body.focus-mode.has-blocks .source-draft-panel {
+      display: none;
+    }
+
+    .panel {
+      min-height: 0;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .sidebar,
+    .inspector {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+    }
+
+    .brand {
+      display: grid;
+      gap: 5px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand strong {
+      font-size: 18px;
+    }
+
+    .brand span,
+    .hint,
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .section {
+      display: grid;
+      gap: 10px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .toolbar {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(8px);
+    }
+
+    .focus-only {
+      display: none;
+    }
+
+    body.focus-mode .focus-only {
+      display: inline-flex;
+    }
+
+    .focus-only[hidden] {
+      display: none !important;
+    }
+
+    .focus-progress {
+      align-items: center;
+      min-height: 34px;
+      padding: 0 10px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .toolbar-more {
+      position: relative;
+    }
+
+    .toolbar-more summary,
+    .more-actions summary {
+      cursor: pointer;
+      list-style: none;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    .toolbar-more summary {
+      min-height: 34px;
+      padding: 7px 10px;
+    }
+
+    .toolbar-more summary::-webkit-details-marker,
+    .more-actions summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .toolbar-more__panel {
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      z-index: 5;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
+      gap: 8px;
+      width: 330px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .toolbar-more__panel select {
+      min-height: 34px;
+    }
+
+    .toolbar input[type="text"] {
+      flex: 1 1 240px;
+      min-width: 180px;
+    }
+
+    .toolbar input[type="date"] {
+      flex: 0 0 150px;
+    }
+
+    .toolbar button,
+    .sidebar button,
+    .inspector button {
+      min-height: 34px;
+      padding: 7px 10px;
+      white-space: nowrap;
+    }
+
+    .workspace {
+      min-height: 0;
+      overflow: auto;
+    }
+
+    .editor-list {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .source-draft-panel {
+      display: grid;
+      gap: 8px;
+      margin: 12px 12px 0;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .source-draft-panel summary {
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .segment,
+    .heading-block,
+    .image-block {
+      display: grid;
+      grid-template-columns: 42px minmax(180px, 1fr) minmax(180px, 1fr);
+      gap: 10px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    body.focus-mode .segment,
+    body.focus-mode .heading-block {
+      grid-template-columns: 48px minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+      padding: 14px;
+    }
+
+    body.focus-mode .editor-list {
+      gap: 14px;
+      padding: 16px;
+    }
+
+    .segment:focus-within,
+    .heading-block:focus-within,
+    .image-block:focus-within {
+      border-color: rgba(47, 111, 159, 0.45);
+      box-shadow: 0 0 0 3px rgba(47, 111, 159, 0.08);
+    }
+
+    .seg-index {
+      display: grid;
+      align-content: start;
+      justify-items: center;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .seg-index button {
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      color: var(--muted);
+    }
+
+    .segment textarea,
+    .heading-block textarea,
+    .image-block textarea {
+      min-height: 124px;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      box-shadow: none;
+    }
+
+    .segment label,
+    .heading-block label,
+    .image-block label {
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcfd;
+    }
+
+    .segment label span,
+    .heading-block label span,
+    .image-block label span {
+      font-weight: 700;
+    }
+
+    .block-actions {
+      display: grid;
+      align-content: start;
+      gap: 8px;
+    }
+
+    .block-actions button {
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      color: var(--muted);
+    }
+
+    .inline-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .inline-actions button {
+      min-height: 30px;
+      padding: 5px 9px;
+    }
+
+    .segment-primary-actions {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .segment-primary-actions > button {
+      min-height: 34px;
+      padding: 6px 12px;
+    }
+
+    .more-actions {
+      flex: 1 1 100%;
+    }
+
+    .more-actions summary {
+      width: max-content;
+      padding: 6px 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .more-actions__panel {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+      padding: 10px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #f7f9fb;
+    }
+
+    .format-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+      padding: 6px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcfd;
+    }
+
+    .format-actions span {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .format-actions button {
+      width: 30px;
+      min-height: 28px;
+      padding: 0;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .format-actions button[data-format="italic"] {
+      font-style: italic;
+    }
+
+    .format-actions button[data-format="underline"] {
+      text-decoration: underline;
+    }
+
+    .format-actions button[data-format="link"] {
+      color: var(--focus);
+    }
+
+    .format-actions button[data-format="link-preview"] {
+      color: var(--accent);
+    }
+
+    .image-block {
+      grid-template-columns: 42px 220px minmax(240px, 1fr);
+    }
+
+    .heading-block {
+      grid-template-columns: 42px 120px minmax(180px, 1fr) minmax(180px, 1fr);
+      border-color: #cad8e3;
+      background: #fbfdff;
+    }
+
+    .heading-tools {
+      display: grid;
+      align-content: start;
+      gap: 8px;
+    }
+
+    .segment-tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: end;
+      padding-bottom: 2px;
+    }
+
+    .segment-tools label {
+      min-width: 128px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+    }
+
+    .segment-tools select {
+      min-height: 30px;
+      padding: 4px 8px;
+    }
+
+    .image-card {
+      display: grid;
+      gap: 8px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcfd;
+    }
+
+    .image-card img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: contain;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .image-fields {
+      display: grid;
+      gap: 8px;
+    }
+
+    .notes {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      gap: 8px;
+      grid-column: 2 / 4;
+    }
+
+    .notes > label textarea {
+      min-height: 70px;
+    }
+
+    body.focus-mode .notes {
+      grid-column: 2 / 4;
+      padding-top: 2px;
+      border-top: 1px dashed var(--line);
+    }
+
+    .shortcut-hint {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .term-list,
+    .image-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .term,
+    .image-item {
+      display: grid;
+      gap: 6px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fbfcfd;
+    }
+
+    .term strong {
+      color: var(--accent);
+      font-size: 13px;
+    }
+
+    .image-item img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: contain;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      border-radius: 999px;
+      padding: 3px 8px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .status {
+      min-height: 20px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .status.good {
+      color: var(--green);
+    }
+
+    .status.warn {
+      color: var(--yellow);
+    }
+
+    .preview {
+      min-height: 260px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 10px;
+      background: #fbfcfd;
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 12px;
+      line-height: 1.65;
+    }
+
+    .empty {
+      display: grid;
+      place-items: center;
+      min-height: 380px;
+      border: 1px dashed #c8d2dc;
+      border-radius: 8px;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 1160px) {
+      .app {
+        grid-template-columns: 280px minmax(0, 1fr);
+      }
+
+      .inspector {
+        display: none;
+      }
+
+      .segment,
+      .heading-block,
+      .image-block {
+        grid-template-columns: 36px minmax(0, 1fr);
+      }
+
+      .notes {
+        grid-column: 2;
+      }
+
+      .image-card,
+      .heading-tools,
+      .image-fields {
+        grid-column: 2;
+      }
+    }
+
+    @media (max-width: 760px) {
+      body {
+        overflow: auto;
+      }
+
+      .app {
+        grid-template-columns: 1fr;
+        height: auto;
+      }
+
+      body.focus-mode .segment,
+      body.focus-mode .heading-block {
+        grid-template-columns: 36px minmax(0, 1fr);
+      }
+
+      body.focus-mode .notes {
+        grid-column: 2;
+      }
+
+      .toolbar-more__panel {
+        position: fixed;
+        top: 72px;
+        right: 12px;
+        left: 12px;
+        width: auto;
+      }
+
+      .toolbar {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .segment,
+      .heading-block,
+      .image-block {
+        grid-template-columns: 1fr;
+      }
+
+      .seg-index,
+      .block-actions,
+      .heading-tools,
+      .segment-tools,
+      .notes {
+        grid-column: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <aside class="panel sidebar">
+      <div class="brand">
+        <strong>文章翻译编辑器</strong>
+        <span>解析正文、替换图片、术语校对、逐句翻译、生成站点 Markdown。</span>
+      </div>
+
+      <section class="section">
+        <div class="section-title">原文来源</div>
+        <label>
+          文章链接
+          <input id="sourceUrl" type="url" placeholder="https://example.com/article">
+        </label>
+        <label>
+          链接抓取接口
+          <input id="fetchApi" type="text" placeholder="/api/read-url?url={url}">
+        </label>
+        <div class="row">
+          <button id="fetchUrlBtn" class="primary">从链接解析</button>
+          <button id="parseBtn">解析草稿</button>
+        </div>
+        <div class="row">
+          <button id="splitBtn">重分句</button>
+          <button id="clearDraftBtn">清空草稿</button>
+        </div>
+        <div id="parseStatus" class="status"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">DeepSeek</div>
+        <label>
+          API Key
+          <input id="apiKey" type="password" placeholder="sk-...">
+        </label>
+        <label>
+          模型
+          <select id="model">
+            <option value="deepseek-chat">deepseek-chat</option>
+            <option value="deepseek-reasoner">deepseek-reasoner</option>
+          </select>
+        </label>
+        <label>
+          翻译要求
+          <textarea id="translationPrompt">翻译成自然、准确的简体中文。保留专有名词、作品名、人物名的一致译法；发现不确定处请在 note 中说明。</textarea>
+        </label>
+        <div class="row">
+          <button id="translateBtn" class="primary">翻译全部</button>
+          <button id="saveConfigBtn">保存配置</button>
+        </div>
+        <div id="apiStatus" class="status"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">导入导出</div>
+        <div class="row">
+          <button id="importJsonBtn">导入 JSON</button>
+          <button id="exportJsonBtn">导出 JSON</button>
+        </div>
+        <button id="importMarkdownBtn">从草稿导入 Markdown</button>
+        <input id="jsonFile" type="file" accept="application/json" hidden>
+        <button id="downloadMdBtn" class="primary">下载 Markdown</button>
+      </section>
+    </aside>
+
+    <section class="panel workspace">
+      <div class="toolbar">
+        <input id="title" type="text" placeholder="文章标题">
+        <input id="date" type="date">
+        <span id="focusProgress" class="focus-only focus-progress">0 / 0 段已翻译</span>
+        <button id="focusParseBtn" class="focus-only">解析草稿</button>
+        <button id="focusTranslateBtn" class="focus-only primary">翻译未完成段</button>
+        <button id="focusModeBtn" type="button">退出专注</button>
+        <details class="toolbar-more">
+          <summary>更多操作</summary>
+          <div class="toolbar-more__panel">
+            <select id="markdownMode" title="导出格式">
+              <option value="parallel">对照稿</option>
+              <option value="display">展示稿</option>
+              <option value="template">模板稿</option>
+            </select>
+            <button id="addHeadingBtn">添加小标题</button>
+            <button id="addSegmentBtn">添加句子</button>
+            <button id="addImageBtn">插入图片</button>
+            <button id="buildMdBtn">生成预览</button>
+            <button id="copyMdBtn" class="primary">复制 Markdown</button>
+          </div>
+        </details>
+      </div>
+      <details class="source-draft-panel" open>
+        <summary>原文草稿</summary>
+        <textarea id="sourceHtml" class="source-draft" placeholder="链接解析失败时，可在这里粘贴网页源码、正文，或直接整理原文。"></textarea>
+        <div class="hint">这里是完整原文编辑区，适合在解析前删减广告、导航和多余内容。</div>
+      </details>
+      <div id="editorList" class="editor-list">
+        <div class="empty">粘贴原文后点击“解析正文”。<br>也可以直接添加句子，边译边写批注。</div>
+      </div>
+    </section>
+
+    <aside class="panel inspector">
+      <section class="section">
+        <div class="section-title">图片替换</div>
+        <div class="hint">静态页面不保存 COS 密钥。建议用临时凭证或后端签名上传后，把 COS 地址粘到对应图片。</div>
+        <label>
+          COS 地址前缀
+          <input id="cosPrefix" type="url" placeholder="https://gallery.pokeamice.com/">
+        </label>
+        <div id="imageList" class="image-list"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">术语库</div>
+        <label>
+          自定义术语
+          <textarea id="termsInput" placeholder="原文=译名&#10;Pokémon=宝可梦&#10;Pikachu=皮卡丘"></textarea>
+        </label>
+        <div class="row">
+          <button id="loadDefaultTermsBtn">载入默认</button>
+          <button id="applyTermsBtn">匹配术语</button>
+        </div>
+        <div id="termsFound" class="term-list"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">Markdown 预览</div>
+        <div id="markdownPreview" class="preview"></div>
+      </section>
+    </aside>
+  </main>
+
+  <script>
+    const defaultTerms = [
+      ["Pokémon", "宝可梦"],
+      ["Pokemon", "宝可梦"],
+      ["Pocket Monsters", "宝可梦"],
+      ["Pikachu", "皮卡丘"],
+      ["Eevee", "伊布"],
+      ["Satoshi", "小智"],
+      ["Ash", "小智"],
+      ["Team Rocket", "火箭队"],
+      ["Game Freak", "GAME FREAK"],
+      ["Nintendo", "任天堂"],
+      ["The Pokemon Company", "宝可梦公司"],
+      ["Sinnoh", "神奥"],
+      ["Hisui", "洗翠"],
+      ["Kanto", "关都"],
+      ["Johto", "城都"],
+      ["Hoenn", "丰缘"],
+      ["Unova", "合众"],
+      ["Kalos", "卡洛斯"],
+      ["Alola", "阿罗拉"],
+      ["Galar", "伽勒尔"],
+      ["Paldea", "帕底亚"]
+    ];
+
+    const DEFAULT_COS_PREFIX = "https://gallery.pokeamice.com/";
+
+    const state = {
+      blocks: [],
+      terms: [],
+      sourceUrl: "",
+      cursor: null,
+      activeEdit: null,
+      focusMode: true
+    };
+
+    const els = {
+      sourceUrl: document.querySelector("#sourceUrl"),
+      fetchApi: document.querySelector("#fetchApi"),
+      sourceHtml: document.querySelector("#sourceHtml"),
+      fetchUrlBtn: document.querySelector("#fetchUrlBtn"),
+      parseBtn: document.querySelector("#parseBtn"),
+      splitBtn: document.querySelector("#splitBtn"),
+      clearDraftBtn: document.querySelector("#clearDraftBtn"),
+      parseStatus: document.querySelector("#parseStatus"),
+      apiKey: document.querySelector("#apiKey"),
+      model: document.querySelector("#model"),
+      translationPrompt: document.querySelector("#translationPrompt"),
+      translateBtn: document.querySelector("#translateBtn"),
+      saveConfigBtn: document.querySelector("#saveConfigBtn"),
+      apiStatus: document.querySelector("#apiStatus"),
+      importJsonBtn: document.querySelector("#importJsonBtn"),
+      exportJsonBtn: document.querySelector("#exportJsonBtn"),
+      importMarkdownBtn: document.querySelector("#importMarkdownBtn"),
+      jsonFile: document.querySelector("#jsonFile"),
+      downloadMdBtn: document.querySelector("#downloadMdBtn"),
+      title: document.querySelector("#title"),
+      date: document.querySelector("#date"),
+      focusProgress: document.querySelector("#focusProgress"),
+      focusParseBtn: document.querySelector("#focusParseBtn"),
+      focusTranslateBtn: document.querySelector("#focusTranslateBtn"),
+      focusModeBtn: document.querySelector("#focusModeBtn"),
+      markdownMode: document.querySelector("#markdownMode"),
+      addHeadingBtn: document.querySelector("#addHeadingBtn"),
+      addSegmentBtn: document.querySelector("#addSegmentBtn"),
+      addImageBtn: document.querySelector("#addImageBtn"),
+      buildMdBtn: document.querySelector("#buildMdBtn"),
+      copyMdBtn: document.querySelector("#copyMdBtn"),
+      editorList: document.querySelector("#editorList"),
+      cosPrefix: document.querySelector("#cosPrefix"),
+      imageList: document.querySelector("#imageList"),
+      termsInput: document.querySelector("#termsInput"),
+      loadDefaultTermsBtn: document.querySelector("#loadDefaultTermsBtn"),
+      applyTermsBtn: document.querySelector("#applyTermsBtn"),
+      termsFound: document.querySelector("#termsFound"),
+      markdownPreview: document.querySelector("#markdownPreview")
+    };
+
+    const today = new Date();
+    els.date.value = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+    els.termsInput.value = defaultTerms.map(([source, target]) => `${source}=${target}`).join("\n");
+    els.cosPrefix.value = DEFAULT_COS_PREFIX;
+    els.fetchApi.value = "/api/read-url?url={url}";
+    restoreConfig();
+    document.body.classList.add("focus-mode");
+
+    function setStatus(el, message, kind = "") {
+      el.textContent = message;
+      el.className = `status ${kind}`.trim();
+    }
+
+    function isTranslated(block) {
+      return (block.type === "text" || block.type === "heading") && Boolean(block.translation.trim());
+    }
+
+    function updateFocusUi() {
+      const translatable = state.blocks.filter((block) => block.type === "text" || block.type === "heading");
+      const completed = translatable.filter(isTranslated).length;
+      document.body.classList.toggle("focus-mode", state.focusMode);
+      document.body.classList.toggle("has-blocks", state.blocks.length > 0);
+      els.focusModeBtn.textContent = state.focusMode ? "退出专注" : "进入专注";
+      els.focusProgress.textContent = `${completed} / ${translatable.length} 段已翻译`;
+      els.focusTranslateBtn.disabled = !translatable.some((block) => !isTranslated(block) && block.source.trim());
+      els.focusParseBtn.hidden = state.blocks.length > 0;
+    }
+
+    function toggleFocusMode() {
+      state.focusMode = !state.focusMode;
+      updateFocusUi();
+    }
+
+    function parseTerms() {
+      state.terms = els.termsInput.value
+        .split(/\r?\n/)
+        .map((line) => line.trim())
+        .filter(Boolean)
+        .map((line) => {
+          const [source, ...rest] = line.split("=");
+          return { source: (source || "").trim(), target: rest.join("=").trim() };
+        })
+        .filter((term) => term.source && term.target);
+      return state.terms;
+    }
+
+    function normalizeUrl(url, base) {
+      try {
+        return new URL(url, base || window.location.href).href;
+      } catch (_) {
+        return url;
+      }
+    }
+
+    function makeId(prefix) {
+      return `${prefix}-${Date.now()}-${Math.random().toString(16).slice(2)}`;
+    }
+
+    function imageReplacement(original) {
+      const prefix = (els.cosPrefix.value.trim() || DEFAULT_COS_PREFIX).replace(/\/?$/, "/");
+      const filename = decodeURIComponent((original || "").split("?")[0].split("#")[0].split("/").filter(Boolean).pop() || `image-${Date.now()}.jpg`);
+      return `${prefix}${filename}`;
+    }
+
+    function makeTextBlock(source = "") {
+      return {
+        id: makeId("text"),
+        type: "text",
+        source,
+        translation: "",
+        note: "",
+        fontSize: "",
+        terms: []
+      };
+    }
+
+    function makeHeadingBlock(source = "", level = 2) {
+      return {
+        id: makeId("heading"),
+        type: "heading",
+        level: Math.min(Math.max(Number(level) || 2, 2), 4),
+        source,
+        translation: "",
+        note: "",
+        terms: []
+      };
+    }
+
+    function makeImageBlock(original = "", alt = "") {
+      const normalized = normalizeUrl(original, state.sourceUrl);
+      return {
+        id: makeId("image"),
+        type: "image",
+        original: normalized,
+        replacement: normalized ? imageReplacement(normalized) : "",
+        alt,
+        caption: alt || ""
+      };
+    }
+
+    function normalizeBlock(block) {
+      const type = block.type || (Object.hasOwn(block, "source") ? "text" : "image");
+      if (type === "text") {
+        return {
+          ...makeTextBlock(block.source || ""),
+          ...block,
+          id: block.id || makeId("text"),
+          type: "text",
+          fontSize: normalizeFontSize(block.fontSize || block.font_size || ""),
+          terms: block.terms || []
+        };
+      }
+      if (type === "heading") {
+        return {
+          ...makeHeadingBlock(block.source || "", block.level || 2),
+          ...block,
+          id: block.id || makeId("heading"),
+          type: "heading",
+          level: Math.min(Math.max(Number(block.level) || 2, 2), 4),
+          terms: block.terms || []
+        };
+      }
+      return {
+        ...makeImageBlock(block.original || "", block.alt || block.caption || ""),
+        ...block,
+        id: block.id || makeId("image"),
+        type: "image"
+      };
+    }
+
+    function normalizeFontSize(value) {
+      const size = String(value || "").trim();
+      return ["", "small", "normal", "large", "xlarge"].includes(size) ? size : "";
+    }
+
+    function fontSizeLabel(value) {
+      return {
+        "": "默认",
+        small: "小号",
+        normal: "正文",
+        large: "大号",
+        xlarge: "特大"
+      }[normalizeFontSize(value)] || "默认";
+    }
+
+    function splitTextToBlocks(text) {
+      return text
+        .replace(/\r/g, "")
+        .split(/(?<=[。！？!?])\s+|\n+/)
+        .map((value) => value.trim())
+        .filter(Boolean)
+        .map((source) => makeTextBlock(source));
+    }
+
+    function extractFromHtml(input, baseUrl) {
+      const htmlLike = /<\/?[a-z][\s\S]*>/i.test(input);
+      if (!htmlLike) {
+        return {
+          title: "",
+          text: input,
+          blocks: splitTextToBlocks(input)
+        };
+      }
+
+      const doc = new DOMParser().parseFromString(input, "text/html");
+      doc.querySelectorAll("script, style, noscript, iframe, svg, nav, footer, header, form").forEach((node) => node.remove());
+      const title = (
+        doc.querySelector("meta[property='og:title']")?.content ||
+        doc.querySelector("title")?.textContent ||
+        doc.querySelector("h1")?.textContent ||
+        ""
+      ).trim();
+      const candidates = [...doc.querySelectorAll("article, main, .article, .post, .entry, .content, body")];
+      const best = candidates
+        .map((node) => ({ node, score: (node.innerText || "").trim().length }))
+        .sort((a, b) => b.score - a.score)[0]?.node || doc.body;
+
+      const blocks = [];
+      const nodes = [...best.querySelectorAll("h1,h2,h3,p,li,blockquote,img,figure")];
+      nodes.forEach((node) => {
+        if (node.matches("figure")) {
+          const img = node.querySelector("img");
+          if (!img) return;
+          const original = img.getAttribute("src") || img.getAttribute("data-src") || "";
+          const caption = (node.querySelector("figcaption")?.innerText || img.getAttribute("alt") || "").replace(/\s+/g, " ").trim();
+          const block = makeImageBlock(normalizeUrl(original, baseUrl), caption);
+          block.caption = caption;
+          if (block.original) blocks.push(block);
+          return;
+        }
+        if (node.closest("figure") && !node.matches("figure")) return;
+        if (node.matches("img")) {
+          const original = node.getAttribute("src") || node.getAttribute("data-src") || "";
+          const block = makeImageBlock(normalizeUrl(original, baseUrl), node.getAttribute("alt") || "");
+          if (block.original) blocks.push(block);
+          return;
+        }
+        const text = (node.innerText || "").replace(/\s+/g, " ").trim();
+        if (text.length <= 1) return;
+        if (node.matches("h1,h2,h3")) {
+          const rawLevel = Number(node.tagName.slice(1));
+          const level = rawLevel <= 2 ? 2 : rawLevel;
+          if (text !== title) blocks.push(makeHeadingBlock(text, level));
+          return;
+        }
+        blocks.push(...splitTextToBlocks(text));
+      });
+
+      return {
+        title,
+        text: blocks.filter((block) => block.type === "text").map((block) => block.source).join("\n") || (best.innerText || "").trim(),
+        blocks: blocks.length ? blocks : splitTextToBlocks((best.innerText || "").trim())
+      };
+    }
+
+    function splitSentences(text) {
+      return splitTextToBlocks(text);
+    }
+
+    function applyTerms({ render = true, announce = true } = {}) {
+      const terms = parseTerms();
+      const found = new Map();
+      state.blocks.forEach((block) => {
+        if (block.type !== "text" && block.type !== "heading") return;
+        block.terms = terms.filter((term) => block.source.toLowerCase().includes(term.source.toLowerCase()));
+        block.terms.forEach((term) => found.set(term.source, term));
+      });
+      if (render) renderBlocks();
+      renderTermsFound([...found.values()]);
+      if (announce) {
+        setStatus(els.parseStatus, found.size ? `已匹配 ${found.size} 个术语。` : "没有匹配到术语。", found.size ? "good" : "warn");
+      }
+    }
+
+    function renderTermsFound(terms) {
+      els.termsFound.innerHTML = "";
+      if (!terms.length) {
+        els.termsFound.innerHTML = "<div class=\"hint\">暂无命中术语。</div>";
+        return;
+      }
+      terms.forEach((term) => {
+        const item = document.createElement("div");
+        item.className = "term";
+        item.innerHTML = `<strong>${escapeHtml(term.source)}</strong><span>${escapeHtml(term.target)}</span>`;
+        els.termsFound.appendChild(item);
+      });
+    }
+
+    function textBlockNumber(blockIndex) {
+      return state.blocks.slice(0, blockIndex + 1).filter((block) => block.type === "text").length;
+    }
+
+    function headingBlockNumber(blockIndex) {
+      return state.blocks.slice(0, blockIndex + 1).filter((block) => block.type === "heading").length;
+    }
+
+    function imageBlockNumber(blockIndex) {
+      return state.blocks.slice(0, blockIndex + 1).filter((block) => block.type === "image").length;
+    }
+
+    function blockIndexById(id) {
+      return state.blocks.findIndex((block) => block.id === id);
+    }
+
+    function blockById(id) {
+      return state.blocks.find((block) => block.id === id);
+    }
+
+    function previousTextIndex(index) {
+      return index > 0 && state.blocks[index - 1]?.type === "text" ? index - 1 : -1;
+    }
+
+    function nextTextIndex(index) {
+      return state.blocks[index + 1]?.type === "text" ? index + 1 : -1;
+    }
+
+    function joinTextParts(first, second) {
+      return [first, second].map((part) => (part || "").trim()).filter(Boolean).join("\n");
+    }
+
+    function mergeTextBlocks(targetIndex, sourceIndex) {
+      const target = state.blocks[targetIndex];
+      const source = state.blocks[sourceIndex];
+      if (!target || !source || target.type !== "text" || source.type !== "text") return false;
+      target.source = joinTextParts(target.source, source.source);
+      target.translation = joinTextParts(target.translation, source.translation);
+      target.note = joinTextParts(target.note, source.note);
+      state.blocks.splice(sourceIndex, 1);
+      return true;
+    }
+
+    function naturalSplitPosition(text) {
+      const trimmed = (text || "").trim();
+      if (trimmed.length < 2) return -1;
+      const midpoint = Math.floor(trimmed.length / 2);
+      const candidates = [];
+      for (let i = 1; i < trimmed.length - 1; i += 1) {
+        if (/[\n。！？!?；;，,、]/.test(trimmed[i])) {
+          candidates.push(i + 1);
+        }
+      }
+      if (!candidates.length) {
+        const spaces = [];
+        for (let i = 1; i < trimmed.length - 1; i += 1) {
+          if (/\s/.test(trimmed[i])) spaces.push(i + 1);
+        }
+        candidates.push(...spaces);
+      }
+      if (!candidates.length) return midpoint;
+      return candidates.sort((a, b) => Math.abs(a - midpoint) - Math.abs(b - midpoint))[0];
+    }
+
+    function splitTextBlock(index) {
+      const block = state.blocks[index];
+      if (!block || block.type !== "text") return false;
+      const text = block.source || "";
+      let splitAt = state.cursor?.id === block.id && state.cursor?.field === "source" ? state.cursor.position : -1;
+      if (splitAt <= 0 || splitAt >= text.length) splitAt = naturalSplitPosition(text);
+      if (splitAt <= 0 || splitAt >= text.length) return false;
+      const before = text.slice(0, splitAt).trim();
+      const after = text.slice(splitAt).trim();
+      if (!before || !after) return false;
+      block.source = before;
+      block.translation = "";
+      block.note = "";
+      const next = makeTextBlock(after);
+      next.fontSize = block.fontSize || "";
+      state.blocks.splice(index + 1, 0, next);
+      return true;
+    }
+
+    function convertTextToHeading(index) {
+      const block = state.blocks[index];
+      if (!block || block.type !== "text") return false;
+      state.blocks[index] = {
+        id: block.id,
+        type: "heading",
+        level: 2,
+        source: block.source,
+        translation: block.translation,
+        note: block.note,
+        terms: block.terms || []
+      };
+      return true;
+    }
+
+    function convertHeadingToText(index) {
+      const block = state.blocks[index];
+      if (!block || block.type !== "heading") return false;
+      state.blocks[index] = {
+        ...makeTextBlock(block.source),
+        id: block.id,
+        translation: block.translation,
+        note: block.note,
+        terms: block.terms || []
+      };
+      return true;
+    }
+
+    function extractLinkMetaFromHtml(html, url) {
+      const doc = new DOMParser().parseFromString(String(html || ""), "text/html");
+      return {
+        title: (
+          doc.querySelector("meta[property='og:title']")?.content ||
+          doc.querySelector("meta[name='twitter:title']")?.content ||
+          doc.querySelector("title")?.textContent ||
+          url
+        ).replace(/\s+/g, " ").trim(),
+        description: (
+          doc.querySelector("meta[property='og:description']")?.content ||
+          doc.querySelector("meta[name='description']")?.content ||
+          doc.querySelector("meta[name='twitter:description']")?.content ||
+          ""
+        ).replace(/\s+/g, " ").trim(),
+        image: normalizeUrl(
+          doc.querySelector("meta[property='og:image']")?.content ||
+          doc.querySelector("meta[name='twitter:image']")?.content ||
+          "",
+          url
+        )
+      };
+    }
+
+    function linkPreviewHtml(url, meta = {}) {
+      const title = escapeHtml(meta.title || url);
+      const description = escapeHtml(meta.description || "");
+      const image = meta.image ? `<span class="link-preview__media"><img src="${escapeAttr(meta.image)}" alt=""></span>` : "";
+      return [
+        `<a class="link-preview" href="${escapeAttr(url)}" target="_blank" rel="noopener">`,
+        image,
+        `<span class="link-preview__body">`,
+        `<strong>${title}</strong>`,
+        description ? `<small>${description}</small>` : `<small>${escapeHtml(url)}</small>`,
+        `</span>`,
+        `</a>`
+      ].join("");
+    }
+
+    async function fetchLinkMeta(url) {
+      const apiTemplate = els.fetchApi.value.trim();
+      const attempts = [];
+      if (apiTemplate) attempts.push(apiTemplate.includes("{url}") ? apiTemplate.replace("{url}", encodeURIComponent(url)) : `${apiTemplate}${encodeURIComponent(url)}`);
+      attempts.push(url);
+
+      for (const requestUrl of attempts) {
+        try {
+          const response = await fetch(requestUrl);
+          if (!response.ok) continue;
+          const contentType = response.headers.get("content-type") || "";
+          if (contentType.includes("application/json")) {
+            const data = await response.json();
+            const html = data.html || data.content || "";
+            if (html) return extractLinkMetaFromHtml(html, url);
+            return {
+              title: data.title || url,
+              description: data.description || data.text || "",
+              image: normalizeUrl(data.image || "", url)
+            };
+          }
+          return extractLinkMetaFromHtml(await response.text(), url);
+        } catch (_) {}
+      }
+      return { title: url, description: "", image: "" };
+    }
+
+    function replaceSelection(textarea, nextText, selectedText) {
+      const value = textarea.value;
+      const start = textarea.selectionStart ?? value.length;
+      const end = textarea.selectionEnd ?? value.length;
+      const fallback = selectedText || "文字";
+      textarea.value = `${value.slice(0, start)}${nextText}${value.slice(end)}`;
+      textarea.focus();
+      const innerStart = nextText.includes(fallback) ? start + nextText.indexOf(fallback) : start + nextText.length;
+      const innerEnd = nextText.includes(fallback) ? innerStart + fallback.length : innerStart;
+      textarea.setSelectionRange(innerStart, innerEnd);
+      textarea.dispatchEvent(new Event("input", { bubbles: true }));
+    }
+
+    function formatSelection(textarea, format) {
+      const value = textarea.value;
+      const start = textarea.selectionStart ?? value.length;
+      const end = textarea.selectionEnd ?? value.length;
+      const selected = value.slice(start, end);
+      const fallback = selected || "文字";
+      let nextText = fallback;
+      const selectedIsUrl = /^https?:\/\/\S+$/i.test(selected.trim());
+
+      if (format === "bold") nextText = `**${fallback}**`;
+      if (format === "italic") nextText = `*${fallback}*`;
+      if (format === "underline") nextText = `<u>${fallback}</u>`;
+      if (format === "link") {
+        const linkText = selectedIsUrl ? selected.trim() : fallback;
+        const url = selectedIsUrl ? selected.trim() : window.prompt("请输入链接地址", "");
+        if (!url) return;
+        nextText = `[${linkText}](${url.trim()})`;
+      }
+      if (["left", "center", "right"].includes(format)) {
+        nextText = `<div style="text-align: ${format};">\n${fallback}\n</div>`;
+      }
+
+      replaceSelection(textarea, nextText, selected ? fallback : "文字");
+    }
+
+    async function applyTextFormat(id, format) {
+      const active = state.activeEdit && state.activeEdit.id === id ? state.activeEdit : null;
+      const fields = active ? [active.field] : ["translation", "source", "note"];
+      const textarea = fields
+        .map((field) => [...els.editorList.querySelectorAll("textarea[data-id]")].find((item) => item.dataset.id === id && item.dataset.field === field))
+        .find(Boolean);
+      if (!textarea) return false;
+      if (format === "link-preview") {
+        const selected = textarea.value.slice(textarea.selectionStart ?? 0, textarea.selectionEnd ?? 0).trim();
+        const url = /^https?:\/\/\S+$/i.test(selected) ? selected : window.prompt("请输入要预览的链接", selected || "");
+        if (!url) return true;
+        setStatus(els.parseStatus, "正在解析链接预览...");
+        const meta = await fetchLinkMeta(url.trim());
+        replaceSelection(textarea, linkPreviewHtml(url.trim(), meta), selected);
+        setStatus(els.parseStatus, "链接预览已插入。", "good");
+        return true;
+      }
+      formatSelection(textarea, format);
+      return true;
+    }
+
+    function blockActions(block) {
+      return `
+        <div class="block-actions">
+          <button title="上移" data-action="up" data-id="${block.id}">↑</button>
+          <button title="下移" data-action="down" data-id="${block.id}">↓</button>
+          <button title="删除" data-action="delete" data-id="${block.id}">×</button>
+        </div>
+      `;
+    }
+
+    function formatActions(block) {
+      return `
+        <div class="format-actions" data-format-toolbar="${block.id}">
+          <span>格式</span>
+          <button title="加粗" data-action="format-text" data-format="bold" data-id="${block.id}">B</button>
+          <button title="斜体" data-action="format-text" data-format="italic" data-id="${block.id}">I</button>
+          <button title="下划线" data-action="format-text" data-format="underline" data-id="${block.id}">U</button>
+          <button title="解析/插入链接" data-action="format-text" data-format="link" data-id="${block.id}">链</button>
+          <button title="插入链接预览卡片" data-action="format-text" data-format="link-preview" data-id="${block.id}">卡</button>
+          <button title="靠左" data-action="format-text" data-format="left" data-id="${block.id}">左</button>
+          <button title="居中" data-action="format-text" data-format="center" data-id="${block.id}">中</button>
+          <button title="靠右" data-action="format-text" data-format="right" data-id="${block.id}">右</button>
+        </div>
+      `;
+    }
+
+    function renderBlocks() {
+      els.editorList.innerHTML = "";
+      if (!state.blocks.length) {
+        els.editorList.innerHTML = "<div class=\"empty\">输入文章链接后点击“从链接解析”。<br>也可以在原文草稿里整理内容，再解析成文章块。</div>";
+        updateFocusUi();
+        return;
+      }
+
+      state.blocks.forEach((block, index) => {
+        if (block.type === "heading") {
+          const row = document.createElement("article");
+          row.className = "heading-block";
+          row.innerHTML = `
+            <div class="seg-index">
+              <span>标题${headingBlockNumber(index)}</span>
+              ${blockActions(block)}
+            </div>
+            <div class="heading-tools">
+              <label>
+                <span>级别</span>
+                <select data-field="level" data-id="${block.id}">
+                  <option value="2"${block.level === 2 ? " selected" : ""}>H2</option>
+                  <option value="3"${block.level === 3 ? " selected" : ""}>H3</option>
+                  <option value="4"${block.level === 4 ? " selected" : ""}>H4</option>
+                </select>
+              </label>
+            </div>
+            <label>
+              <span>原文标题</span>
+              <textarea data-field="source" data-id="${block.id}">${escapeHtml(block.source)}</textarea>
+            </label>
+            <label>
+              <span>译文标题</span>
+              <textarea data-field="translation" data-id="${block.id}">${escapeHtml(block.translation)}</textarea>
+            </label>
+            <div class="notes">
+              <div class="chips">${block.terms.map((term) => `<span class="chip">${escapeHtml(term.target)}</span>`).join("")}</div>
+              <label>
+                <span>批注</span>
+                <textarea data-field="note" data-id="${block.id}">${escapeHtml(block.note)}</textarea>
+              </label>
+              <div class="segment-primary-actions">
+                <button class="primary" data-action="translate-one" data-id="${block.id}">翻译标题</button>
+                <span class="shortcut-hint">Ctrl + Enter</span>
+                <details class="more-actions">
+                  <summary>更多操作</summary>
+                  <div class="more-actions__panel">
+                    ${formatActions(block)}
+                    <div class="inline-actions">
+                      <button data-action="convert-to-text" data-id="${block.id}">改回段落</button>
+                      <button data-action="insert-text-after" data-id="${block.id}">下方加句子</button>
+                      <button data-action="insert-heading-after" data-id="${block.id}">下方加标题</button>
+                      <button data-action="insert-image-after" data-id="${block.id}">下方插图</button>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
+          `;
+          els.editorList.appendChild(row);
+          return;
+        }
+
+        if (block.type === "image") {
+          const row = document.createElement("article");
+          row.className = "image-block";
+          row.innerHTML = `
+            <div class="seg-index">
+              <span>图${imageBlockNumber(index)}</span>
+              ${blockActions(block)}
+            </div>
+            <div class="image-card">
+              ${block.original ? `<img src="${escapeAttr(block.original)}" alt="">` : ""}
+              <div class="small">${escapeHtml(block.original || "未填写原图地址")}</div>
+            </div>
+            <div class="image-fields">
+              <label>
+                <span>原图地址</span>
+                <input data-field="original" data-id="${block.id}" value="${escapeAttr(block.original)}" placeholder="https://example.com/image.jpg">
+              </label>
+              <label>
+                <span>COS 地址</span>
+                <input data-field="replacement" data-id="${block.id}" value="${escapeAttr(block.replacement)}" placeholder="https://gallery.pokeamice.com/image.jpg">
+              </label>
+              <label>
+                <span>图注</span>
+                <textarea data-field="caption" data-id="${block.id}">${escapeHtml(block.caption)}</textarea>
+              </label>
+              <div class="inline-actions">
+                <button data-action="auto-cos" data-id="${block.id}">自动替换链接</button>
+                <button data-action="insert-text-after" data-id="${block.id}">下方加句子</button>
+                <button data-action="insert-heading-after" data-id="${block.id}">下方加标题</button>
+              </div>
+            </div>
+          `;
+          els.editorList.appendChild(row);
+          return;
+        }
+
+        const row = document.createElement("article");
+        row.className = "segment";
+        row.innerHTML = `
+          <div class="seg-index">
+            <span>#${textBlockNumber(index)}</span>
+            ${blockActions(block)}
+          </div>
+          <label>
+            <span>原文</span>
+            <textarea data-field="source" data-id="${block.id}">${escapeHtml(block.source)}</textarea>
+          </label>
+          <label>
+            <span>译文</span>
+            <textarea data-field="translation" data-id="${block.id}">${escapeHtml(block.translation)}</textarea>
+          </label>
+          <div class="notes">
+            <div class="chips">${block.terms.map((term) => `<span class="chip">${escapeHtml(term.target)}</span>`).join("")}</div>
+            <label>
+              <span>批注</span>
+              <textarea data-field="note" data-id="${block.id}">${escapeHtml(block.note)}</textarea>
+            </label>
+            <div class="segment-primary-actions">
+              <button class="primary" data-action="translate-one" data-id="${block.id}">翻译本段</button>
+              <span class="shortcut-hint">Ctrl + Enter</span>
+              <details class="more-actions">
+                <summary>更多操作</summary>
+                <div class="more-actions__panel">
+                  ${formatActions(block)}
+                  <div class="segment-tools">
+                    <label>
+                      <span>字号</span>
+                      <select data-field="fontSize" data-id="${block.id}">
+                        <option value=""${normalizeFontSize(block.fontSize) === "" ? " selected" : ""}>默认</option>
+                        <option value="small"${normalizeFontSize(block.fontSize) === "small" ? " selected" : ""}>小号</option>
+                        <option value="normal"${normalizeFontSize(block.fontSize) === "normal" ? " selected" : ""}>正文</option>
+                        <option value="large"${normalizeFontSize(block.fontSize) === "large" ? " selected" : ""}>大号</option>
+                        <option value="xlarge"${normalizeFontSize(block.fontSize) === "xlarge" ? " selected" : ""}>特大</option>
+                      </select>
+                    </label>
+                    <button data-action="convert-to-heading" data-id="${block.id}">设为标题</button>
+                  </div>
+                  <div class="inline-actions">
+                    <button data-action="merge-prev" data-id="${block.id}">合并上段</button>
+                    <button data-action="split-text" data-id="${block.id}">拆分段落</button>
+                    <button data-action="merge-next" data-id="${block.id}">合并下段</button>
+                    <button data-action="insert-text-after" data-id="${block.id}">下方加段落</button>
+                    <button data-action="insert-heading-after" data-id="${block.id}">下方加标题</button>
+                    <button data-action="insert-image-after" data-id="${block.id}">下方插图</button>
+                  </div>
+                </div>
+              </details>
+            </div>
+          </div>
+        `;
+        els.editorList.appendChild(row);
+      });
+      updateFocusUi();
+    }
+
+    function renderImages() {
+      els.imageList.innerHTML = "";
+      const images = state.blocks.filter((block) => block.type === "image");
+      if (!images.length) {
+        els.imageList.innerHTML = "<div class=\"hint\">解析正文后会列出图片。</div>";
+        return;
+      }
+      images.forEach((image) => {
+        const item = document.createElement("div");
+        item.className = "image-item";
+        item.innerHTML = `
+          <img src="${escapeAttr(image.original)}" alt="">
+          <div class="small">${escapeHtml(image.original)}</div>
+          <input data-image-field="replacement" data-id="${image.id}" value="${escapeAttr(image.replacement)}" placeholder="替换后的 COS 地址">
+          <button data-image-action="prefix" data-id="${image.id}">用前缀生成地址</button>
+        `;
+        els.imageList.appendChild(item);
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll("\"", "&quot;");
+    }
+
+    function escapeAttr(value) {
+      return escapeHtml(value).replaceAll("'", "&#39;");
+    }
+
+    function frontMatter() {
+      const title = els.title.value.trim() || "未命名翻译";
+      return [
+        "---",
+        `title: \"${title.replaceAll("\"", "\\\"")}\"`,
+        `date: ${els.date.value || ""}`,
+        "categories:",
+        "  - 翻译",
+        "tags:",
+        "  - Pokemon",
+        "  - translation",
+        `source: ${state.sourceUrl || els.sourceUrl.value.trim() || ""}`,
+        "---",
+        ""
+      ].join("\n");
+    }
+
+    function yamlScalar(value, indent = 0) {
+      const pad = " ".repeat(indent);
+      const text = String(value || "").trim();
+      if (!text) return "''";
+      if (!/[\n\r]/.test(text) && text.length <= 72 && !/[:#{}\[\],&*?|<>=!%@`]/.test(text)) {
+        return JSON.stringify(text);
+      }
+      return `|-\n${text.split(/\r?\n/).map((line) => `${pad}  ${line}`).join("\n")}`;
+    }
+
+    function templateFrontMatter() {
+      const title = els.title.value.trim() || "未命名翻译";
+      const lines = [
+        "---",
+        "layout: parallel-translation",
+        `title: ${JSON.stringify(title)}`,
+        `date: ${els.date.value || ""}`,
+        "toc: true",
+        "toc_sticky: true",
+        "parallel_view: translation",
+        "categories:",
+        "  - 翻译",
+        "tags:",
+        "  - Pokemon",
+        "  - translation",
+        `source: ${JSON.stringify(state.sourceUrl || els.sourceUrl.value.trim() || "")}`,
+        "parallel_items:"
+      ];
+
+      state.blocks.forEach((block) => {
+        if (block.type === "heading") {
+          lines.push("  - type: heading");
+          lines.push(`    level: ${Math.min(Math.max(Number(block.level) || 2, 2), 4)}`);
+          lines.push(`    original: ${yamlScalar(block.source, 4)}`);
+          lines.push(`    translation: ${yamlScalar(block.translation || block.source, 4)}`);
+          if (block.note.trim()) lines.push(`    note: ${yamlScalar(block.note, 4)}`);
+          return;
+        }
+        if (block.type === "image") {
+          const image = block.replacement || block.original;
+          if (!image) return;
+          lines.push("  - type: image");
+          lines.push(`    image: ${JSON.stringify(image)}`);
+          if (block.alt || block.caption) lines.push(`    alt: ${yamlScalar(block.alt || block.caption, 4)}`);
+          if (block.caption) lines.push(`    caption: ${yamlScalar(block.caption, 4)}`);
+          return;
+        }
+        lines.push("  - type: paragraph");
+        lines.push(`    original: ${yamlScalar(block.source, 4)}`);
+        lines.push(`    translation: ${yamlScalar(block.translation, 4)}`);
+        if (normalizeFontSize(block.fontSize)) lines.push(`    font_size: ${JSON.stringify(normalizeFontSize(block.fontSize))}`);
+        if (block.note.trim()) lines.push(`    note: ${yamlScalar(block.note, 4)}`);
+      });
+
+      lines.push("---", "");
+      return lines.join("\n");
+    }
+
+    function cleanMarkdownLine(value) {
+      return String(value || "").replace(/\s+/g, " ").trim();
+    }
+
+    function escapeComment(value) {
+      return String(value || "").replaceAll("--", "- -").trim();
+    }
+
+    function parallelTextBlock(block) {
+      const source = cleanMarkdownLine(block.source);
+      const translation = cleanMarkdownLine(block.translation);
+      const lines = [];
+      const size = normalizeFontSize(block.fontSize);
+      if (size) lines.push(`<!-- 字号：${fontSizeLabel(size)} -->`);
+      if (source) lines.push(`> 原文：${source}`);
+      lines.push(translation ? `译文：${translation}` : "译文：");
+      if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
+      return lines.join("\n\n");
+    }
+
+    function displayTextBlock(block) {
+      const lines = [];
+      const size = normalizeFontSize(block.fontSize);
+      if (size) lines.push(`<div class="paragraph-size-${size}">`);
+      if (block.translation.trim()) lines.push(block.translation.trim());
+      if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
+      if (block.source.trim()) lines.push(`<!-- 原文：${escapeComment(block.source)} -->`);
+      if (size) lines.push("</div>");
+      return lines.join("\n\n");
+    }
+
+    function buildMarkdown() {
+      const mode = els.markdownMode.value;
+      if (mode === "template") {
+        const md = templateFrontMatter();
+        els.markdownPreview.textContent = md;
+        return md;
+      }
+      const body = state.blocks.map((block) => {
+        if (block.type === "heading") {
+          const headingText = cleanMarkdownLine(block.translation || block.source || "未命名小标题");
+          const marks = "#".repeat(Math.min(Math.max(Number(block.level) || 2, 2), 4));
+          const lines = [`${marks} ${headingText}`];
+          if (mode === "parallel" && block.source.trim()) lines.push(`> 原文标题：${cleanMarkdownLine(block.source)}`);
+          if (mode === "display" && block.source.trim()) lines.push(`<!-- 原文标题：${escapeComment(block.source)} -->`);
+          if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
+          return lines.join("\n\n");
+        }
+        if (block.type === "image") {
+          const url = block.replacement || block.original;
+          if (!url) return "";
+          const alt = block.alt || block.caption || "image";
+          const caption = block.caption ? `\n*${block.caption.trim()}*` : "";
+          return `![${alt}](${url})${caption}`;
+        }
+        return mode === "parallel" ? parallelTextBlock(block) : displayTextBlock(block);
+      }).filter(Boolean).join("\n\n");
+      const md = `${frontMatter()}${body}\n`;
+      els.markdownPreview.textContent = md;
+      return md;
+    }
+
+    function saveConfig() {
+      const config = {
+        apiKey: els.apiKey.value,
+        model: els.model.value,
+        translationPrompt: els.translationPrompt.value,
+        terms: els.termsInput.value,
+        cosPrefix: els.cosPrefix.value,
+        fetchApi: els.fetchApi.value
+      };
+      localStorage.setItem("articleTranslationEditorConfig", JSON.stringify(config));
+      setStatus(els.apiStatus, "配置已保存在当前浏览器。", "good");
+    }
+
+    function restoreConfig() {
+      try {
+        const config = JSON.parse(localStorage.getItem("articleTranslationEditorConfig") || "{}");
+        if (config.apiKey) els.apiKey.value = config.apiKey;
+        if (config.model) els.model.value = config.model;
+        if (config.translationPrompt) els.translationPrompt.value = config.translationPrompt;
+        if (config.terms) els.termsInput.value = config.terms;
+        if (config.cosPrefix) els.cosPrefix.value = config.cosPrefix;
+        if (config.fetchApi) els.fetchApi.value = config.fetchApi;
+      } catch (_) {}
+    }
+
+    async function translateBlocks(selectors) {
+      const apiKey = els.apiKey.value.trim();
+      if (!apiKey) {
+        setStatus(els.apiStatus, "请先填写 DeepSeek API Key。", "warn");
+        return;
+      }
+      const textBlocks = selectors
+        .map((selector) => {
+          const block = typeof selector === "string" ? blockById(selector) : state.blocks[selector];
+          return block ? { id: block.id, block } : null;
+        })
+        .filter(Boolean)
+        .filter((item) => (item.block?.type === "text" || item.block?.type === "heading") && item.block.source.trim());
+      if (!textBlocks.length) {
+        setStatus(els.apiStatus, "没有可翻译的句子。", "warn");
+        return;
+      }
+      const requestMap = new Map(textBlocks.map((item, requestIndex) => [requestIndex, item.id]));
+      setStatus(els.apiStatus, "正在请求 DeepSeek...");
+      const payload = {
+        model: els.model.value,
+        temperature: 0.2,
+        messages: [
+          {
+            role: "system",
+            content: "你是宝可梦专题文章翻译编辑。请严格返回 JSON 数组，每项包含 index、translation、note。不要输出 Markdown。"
+          },
+          {
+            role: "user",
+            content: JSON.stringify({
+              instruction: els.translationPrompt.value,
+              glossary: parseTerms(),
+              segments: textBlocks.map((item, requestIndex) => ({ index: requestIndex, source: item.block.source }))
+            })
+          }
+        ]
+      };
+
+      try {
+        const response = await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${apiKey}`
+          },
+          body: JSON.stringify(payload)
+        });
+        if (!response.ok) throw new Error(`DeepSeek 返回 ${response.status}`);
+        const data = await response.json();
+        const content = data.choices?.[0]?.message?.content || "";
+        const jsonText = content.match(/\[[\s\S]*\]/)?.[0] || content;
+        const translated = JSON.parse(jsonText);
+        translated.forEach((item) => {
+          const block = blockById(requestMap.get(item.index));
+          if (!block || (block.type !== "text" && block.type !== "heading")) return;
+          block.translation = item.translation || block.translation;
+          block.note = item.note || block.note;
+        });
+        applyTerms();
+        buildMarkdown();
+        setStatus(els.apiStatus, `已翻译 ${translated.length} 句。`, "good");
+      } catch (error) {
+        setStatus(els.apiStatus, `翻译失败：${error.message}`, "warn");
+      }
+    }
+
+    async function translateAll() {
+      await translateBlocks(state.blocks.map((_, index) => index));
+    }
+
+    async function translateIncomplete() {
+      const pending = state.blocks
+        .map((block, index) => ({ block, index }))
+        .filter(({ block }) => (block.type === "text" || block.type === "heading") && block.source.trim() && !isTranslated(block))
+        .map(({ index }) => index);
+      await translateBlocks(pending);
+    }
+
+    function exportJson() {
+      const data = {
+        title: els.title.value,
+        date: els.date.value,
+        sourceUrl: state.sourceUrl || els.sourceUrl.value,
+        blocks: state.blocks
+      };
+      downloadFile(`${slugify(els.title.value || "translation-draft")}.json`, JSON.stringify(data, null, 2), "application/json");
+    }
+
+    function importJson(file) {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const data = JSON.parse(reader.result);
+        els.title.value = data.title || "";
+        els.date.value = data.date || els.date.value;
+        els.sourceUrl.value = data.sourceUrl || "";
+        state.sourceUrl = data.sourceUrl || "";
+        state.blocks = (data.blocks || [...(data.segments || []), ...(data.images || [])]).map(normalizeBlock);
+        applyTerms();
+        renderImages();
+        buildMarkdown();
+      };
+      reader.readAsText(file);
+    }
+
+    function downloadFile(filename, content, type) {
+      const blob = new Blob([content], { type });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function slugify(value) {
+      return String(value || "article")
+        .trim()
+        .toLowerCase()
+        .replace(/[^\w\u4e00-\u9fa5-]+/g, "-")
+        .replace(/^-+|-+$/g, "") || "article";
+    }
+
+    function parseYamlInline(value) {
+      const text = String(value || "").trim();
+      if (text === "''" || text === "\"\"") return "";
+      if (/^["']/.test(text)) {
+        try {
+          return JSON.parse(text);
+        } catch (_) {
+          return text.replace(/^['"]|['"]$/g, "");
+        }
+      }
+      return text;
+    }
+
+    function splitMarkdownFrontMatter(markdown) {
+      const text = String(markdown || "").replace(/\r/g, "");
+      if (!text.startsWith("---\n")) return { frontMatter: "", body: text };
+      const end = text.indexOf("\n---", 4);
+      if (end < 0) return { frontMatter: "", body: text };
+      const after = text.slice(end + 4).replace(/^\n+/, "");
+      return { frontMatter: text.slice(4, end), body: after };
+    }
+
+    function readFrontMatterValue(frontMatter, key) {
+      const match = String(frontMatter || "").match(new RegExp(`^${key}:\\s*(.*)$`, "m"));
+      return match ? parseYamlInline(match[1]) : "";
+    }
+
+    function readYamlBlock(lines, startIndex) {
+      const values = [];
+      let index = startIndex;
+      while (index < lines.length) {
+        const line = lines[index];
+        if (/^      /.test(line)) {
+          values.push(line.slice(6));
+          index += 1;
+          continue;
+        }
+        if (!line.trim()) {
+          values.push("");
+          index += 1;
+          continue;
+        }
+        break;
+      }
+      return { value: values.join("\n").trim(), index };
+    }
+
+    function parseParallelItems(frontMatter) {
+      const lines = String(frontMatter || "").replace(/\r/g, "").split("\n");
+      const start = lines.findIndex((line) => /^parallel_items:\s*$/.test(line));
+      if (start < 0) return [];
+      const items = [];
+      let current = null;
+      let index = start + 1;
+
+      while (index < lines.length) {
+        const line = lines[index];
+        const itemMatch = line.match(/^  -\s*(?:(\w[\w_-]*):\s*(.*))?$/);
+        if (itemMatch) {
+          current = {};
+          items.push(current);
+          if (itemMatch[1]) current[itemMatch[1]] = parseYamlInline(itemMatch[2]);
+          index += 1;
+          continue;
+        }
+        const propMatch = line.match(/^    (\w[\w_-]*):\s*(.*)$/);
+        if (current && propMatch) {
+          const key = propMatch[1];
+          const raw = propMatch[2];
+          if (raw === "|-" || raw === "|") {
+            const block = readYamlBlock(lines, index + 1);
+            current[key] = block.value;
+            index = block.index;
+            continue;
+          }
+          current[key] = parseYamlInline(raw);
+        }
+        index += 1;
+      }
+      return items;
+    }
+
+    function blocksFromParallelItems(items) {
+      return items.map((item) => {
+        const type = item.type || "paragraph";
+        if (type === "heading") {
+          const block = makeHeadingBlock(item.original || item.translation || "", item.level || 2);
+          block.translation = item.translation || "";
+          block.note = item.note || "";
+          return block;
+        }
+        if (type === "image") {
+          const block = makeImageBlock(item.image || item.src || item.original || "", item.alt || item.caption || "");
+          block.replacement = item.image || item.replacement || block.replacement;
+          block.caption = item.caption || "";
+          return block;
+        }
+        const block = makeTextBlock(item.original || "");
+        block.translation = item.translation || "";
+        block.note = item.note || "";
+        block.fontSize = normalizeFontSize(item.font_size || item.fontSize || "");
+        return block;
+      });
+    }
+
+    function stripBlockquoteLabel(value, label) {
+      return String(value || "")
+        .replace(new RegExp(`^>\\s*${label}：?\\s*`), "")
+        .replace(/^>\s?/gm, "")
+        .trim();
+    }
+
+    function parseMarkdownBody(body) {
+      const chunks = String(body || "")
+        .replace(/\r/g, "")
+        .split(/\n{2,}/)
+        .map((chunk) => chunk.trim())
+        .filter(Boolean);
+      const blocks = [];
+
+      for (let index = 0; index < chunks.length; index += 1) {
+        const chunk = chunks[index];
+        const heading = chunk.match(/^(#{1,6})\s+(.+)$/);
+        if (heading) {
+          const level = Math.min(Math.max(heading[1].length, 2), 4);
+          const block = makeHeadingBlock("", level);
+          block.translation = heading[2].trim();
+          if (chunks[index + 1]?.startsWith("> 原文标题：")) {
+            block.source = stripBlockquoteLabel(chunks[index + 1], "原文标题");
+            index += 1;
+          } else {
+            block.source = block.translation;
+          }
+          if (chunks[index + 1]?.startsWith("> 译注：")) {
+            block.note = stripBlockquoteLabel(chunks[index + 1], "译注");
+            index += 1;
+          }
+          blocks.push(block);
+          continue;
+        }
+
+        const image = chunk.match(/^!\[([^\]]*)\]\(([^)]+)\)(?:\n([\s\S]+))?$/);
+        if (image) {
+          const block = makeImageBlock(image[2].trim(), image[1].trim());
+          const caption = (image[3] || "").trim().replace(/^\*(.*)\*$/, "$1");
+          block.caption = caption;
+          blocks.push(block);
+          continue;
+        }
+
+        if (chunk.startsWith("> 原文：")) {
+          const block = makeTextBlock(stripBlockquoteLabel(chunk, "原文"));
+          if (chunks[index + 1]?.startsWith("译文：")) {
+            block.translation = chunks[index + 1].replace(/^译文：\s*/, "").trim();
+            index += 1;
+          }
+          if (chunks[index + 1]?.startsWith("> 译注：")) {
+            block.note = stripBlockquoteLabel(chunks[index + 1], "译注");
+            index += 1;
+          }
+          blocks.push(block);
+          continue;
+        }
+
+        if (chunk.startsWith("> 译注：")) {
+          if (blocks.length) blocks[blocks.length - 1].note = stripBlockquoteLabel(chunk, "译注");
+          continue;
+        }
+
+        const originalComment = chunk.match(/^<!--\s*原文：([\s\S]*?)\s*-->$/);
+        if (originalComment) {
+          if (blocks.length && blocks[blocks.length - 1].type === "text") {
+            blocks[blocks.length - 1].source = originalComment[1].replaceAll("- -", "--").trim();
+          }
+          continue;
+        }
+
+        const headingComment = chunk.match(/^<!--\s*原文标题：([\s\S]*?)\s*-->$/);
+        if (headingComment) {
+          if (blocks.length && blocks[blocks.length - 1].type === "heading") {
+            blocks[blocks.length - 1].source = headingComment[1].replaceAll("- -", "--").trim();
+          }
+          continue;
+        }
+
+        const block = makeTextBlock("");
+        block.translation = chunk;
+        if (chunks[index + 1]?.startsWith("> 译注：")) {
+          block.note = stripBlockquoteLabel(chunks[index + 1], "译注");
+          index += 1;
+        }
+        if (chunks[index + 1]?.startsWith("<!-- 原文：")) {
+          const match = chunks[index + 1].match(/^<!--\s*原文：([\s\S]*?)\s*-->$/);
+          if (match) {
+            block.source = match[1].replaceAll("- -", "--").trim();
+            index += 1;
+          }
+        }
+        blocks.push(block);
+      }
+      return blocks;
+    }
+
+    function importMarkdownFromDraft() {
+      const markdown = els.sourceHtml.value.trim();
+      if (!markdown) {
+        setStatus(els.parseStatus, "请先把 Markdown 粘贴到原文草稿。", "warn");
+        return;
+      }
+      const parsed = splitMarkdownFrontMatter(markdown);
+      const title = readFrontMatterValue(parsed.frontMatter, "title");
+      const date = readFrontMatterValue(parsed.frontMatter, "date");
+      const source = readFrontMatterValue(parsed.frontMatter, "source");
+      if (title) els.title.value = title;
+      if (date) els.date.value = String(date).slice(0, 10);
+      if (source) {
+        els.sourceUrl.value = source;
+        state.sourceUrl = source;
+      }
+
+      const parallelItems = parseParallelItems(parsed.frontMatter);
+      state.blocks = parallelItems.length ? blocksFromParallelItems(parallelItems) : parseMarkdownBody(parsed.body);
+      applyTerms();
+      renderImages();
+      buildMarkdown();
+      const textCount = state.blocks.filter((block) => block.type === "text").length;
+      const headingCount = state.blocks.filter((block) => block.type === "heading").length;
+      const imageCount = state.blocks.filter((block) => block.type === "image").length;
+      setStatus(els.parseStatus, `已从 Markdown 还原 ${headingCount} 个小标题、${textCount} 段文本、${imageCount} 张图片。`, "good");
+    }
+
+    function parseDraft() {
+      const input = els.sourceHtml.value.trim();
+      const sourceUrl = els.sourceUrl.value.trim();
+      if (!input) {
+        setStatus(els.parseStatus, "请先从链接解析，或在原文草稿中粘贴内容。", "warn");
+        return;
+      }
+      state.sourceUrl = sourceUrl;
+      const parsed = extractFromHtml(input, sourceUrl);
+      state.blocks = parsed.blocks;
+      if (parsed.title && !els.title.value) els.title.value = parsed.title;
+      applyTerms();
+      renderImages();
+      buildMarkdown();
+      const textCount = state.blocks.filter((block) => block.type === "text").length;
+      const headingCount = state.blocks.filter((block) => block.type === "heading").length;
+      const imageCount = state.blocks.filter((block) => block.type === "image").length;
+      setStatus(els.parseStatus, `解析出 ${headingCount} 个小标题、${textCount} 句、${imageCount} 张图片。`, "good");
+    }
+
+    async function fetchArticleFromUrl() {
+      const url = els.sourceUrl.value.trim();
+      if (!url) {
+        setStatus(els.parseStatus, "请先填写文章链接。", "warn");
+        return;
+      }
+      state.sourceUrl = url;
+      setStatus(els.parseStatus, "正在抓取链接...");
+      const apiTemplate = els.fetchApi.value.trim();
+      const attempts = [];
+      if (apiTemplate) attempts.push(apiTemplate.includes("{url}") ? apiTemplate.replace("{url}", encodeURIComponent(url)) : `${apiTemplate}${encodeURIComponent(url)}`);
+      attempts.push(url);
+
+      let lastError = "";
+      for (const requestUrl of attempts) {
+        try {
+          const response = await fetch(requestUrl);
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          const contentType = response.headers.get("content-type") || "";
+          if (contentType.includes("application/json")) {
+            const data = await response.json();
+            els.sourceHtml.value = data.html || data.text || data.content || "";
+            if (data.title && !els.title.value) els.title.value = data.title;
+          } else {
+            els.sourceHtml.value = await response.text();
+          }
+          parseDraft();
+          return;
+        } catch (error) {
+          lastError = error.message;
+        }
+      }
+      setStatus(els.parseStatus, `链接抓取失败：${lastError}。可改用本地抓取接口，或暂时粘贴正文到原文草稿。`, "warn");
+    }
+
+    els.fetchUrlBtn.addEventListener("click", fetchArticleFromUrl);
+    els.parseBtn.addEventListener("click", parseDraft);
+    els.importMarkdownBtn.addEventListener("click", importMarkdownFromDraft);
+
+    els.splitBtn.addEventListener("click", () => {
+      const next = [];
+      state.blocks.forEach((block) => {
+        if (block.type === "text") {
+          next.push(...splitTextToBlocks(block.source));
+        } else {
+          next.push(block);
+        }
+      });
+      state.blocks = next;
+      applyTerms();
+      buildMarkdown();
+    });
+
+    els.clearDraftBtn.addEventListener("click", () => {
+      els.sourceHtml.value = "";
+      setStatus(els.parseStatus, "原文草稿已清空。", "good");
+    });
+
+    els.editorList.addEventListener("input", (event) => {
+      const field = event.target.dataset.field;
+      const id = event.target.dataset.id;
+      const block = blockById(id);
+      if (!field || !block) return;
+      if (event.target.tagName === "TEXTAREA") {
+        state.activeEdit = { id, field };
+      }
+      block[field] = field === "level" ? Number(event.target.value) : field === "fontSize" ? normalizeFontSize(event.target.value) : event.target.value;
+      if (field === "source" && "selectionStart" in event.target) {
+        state.cursor = { id, field, position: event.target.selectionStart };
+      }
+      if (field === "original") {
+        block.replacement = imageReplacement(event.target.value);
+        renderImages();
+      }
+      if (field === "source") applyTerms({ render: false, announce: false });
+      buildMarkdown();
+      updateFocusUi();
+    });
+
+    els.editorList.addEventListener("focusin", (event) => {
+      const field = event.target.dataset.field;
+      const id = event.target.dataset.id;
+      if (event.target.tagName === "TEXTAREA" && field && id) {
+        state.activeEdit = { id, field };
+      }
+    });
+
+    els.editorList.addEventListener("keyup", (event) => {
+      const field = event.target.dataset.field;
+      const id = event.target.dataset.id;
+      if (event.target.tagName === "TEXTAREA" && field && id) {
+        state.activeEdit = { id, field };
+      }
+      if (field === "source" && blockById(id)?.type === "text" && "selectionStart" in event.target) {
+        state.cursor = { id, field, position: event.target.selectionStart };
+      }
+    });
+
+    els.editorList.addEventListener("keydown", (event) => {
+      if (!(event.ctrlKey || event.metaKey) || event.key !== "Enter") return;
+      const id = event.target.dataset.id;
+      const block = blockById(id);
+      if (!id || !block || (block.type !== "text" && block.type !== "heading")) return;
+      event.preventDefault();
+      translateBlocks([id]);
+    });
+
+    els.editorList.addEventListener("mouseup", (event) => {
+      const field = event.target.dataset.field;
+      const id = event.target.dataset.id;
+      if (event.target.tagName === "TEXTAREA" && field && id) {
+        state.activeEdit = { id, field };
+      }
+      if (field === "source" && blockById(id)?.type === "text" && "selectionStart" in event.target) {
+        state.cursor = { id, field, position: event.target.selectionStart };
+      }
+    });
+
+    els.editorList.addEventListener("click", async (event) => {
+      const action = event.target.dataset.action;
+      const id = event.target.dataset.id;
+      const index = blockIndexById(id);
+      if (!action || index < 0) return;
+      if (action === "format-text") {
+        if (!(await applyTextFormat(id, event.target.dataset.format))) {
+          setStatus(els.parseStatus, "请先点进这一段的原文、译文或批注文本框。", "warn");
+        }
+        buildMarkdown();
+        return;
+      }
+      if (action === "delete") state.blocks.splice(index, 1);
+      if (action === "up" && index > 0) [state.blocks[index - 1], state.blocks[index]] = [state.blocks[index], state.blocks[index - 1]];
+      if (action === "down" && index < state.blocks.length - 1) [state.blocks[index + 1], state.blocks[index]] = [state.blocks[index], state.blocks[index + 1]];
+      if (action === "auto-cos") state.blocks[index].replacement = imageReplacement(state.blocks[index].original);
+      if (action === "translate-one") translateBlocks([id]);
+      if (action === "merge-prev") {
+        const prev = previousTextIndex(index);
+        if (prev >= 0) mergeTextBlocks(prev, index);
+        else setStatus(els.parseStatus, "上方没有可合并的文本句。", "warn");
+      }
+      if (action === "merge-next") {
+        const next = nextTextIndex(index);
+        if (next >= 0) mergeTextBlocks(index, next);
+        else setStatus(els.parseStatus, "下方没有可合并的文本句。", "warn");
+      }
+      if (action === "split-text") {
+        if (!splitTextBlock(index)) setStatus(els.parseStatus, "这句暂时找不到合适的断开位置。", "warn");
+      }
+      if (action === "convert-to-heading") convertTextToHeading(index);
+      if (action === "convert-to-text") convertHeadingToText(index);
+      if (action === "insert-text-after") state.blocks.splice(index + 1, 0, makeTextBlock());
+      if (action === "insert-heading-after") state.blocks.splice(index + 1, 0, makeHeadingBlock());
+      if (action === "insert-image-after") state.blocks.splice(index + 1, 0, makeImageBlock());
+      renderBlocks();
+      renderImages();
+      buildMarkdown();
+    });
+
+    els.imageList.addEventListener("input", (event) => {
+      const field = event.target.dataset.imageField;
+      const block = blockById(event.target.dataset.id);
+      if (!field || !block) return;
+      block[field] = event.target.value;
+      renderBlocks();
+      buildMarkdown();
+    });
+
+    els.imageList.addEventListener("click", (event) => {
+      const action = event.target.dataset.imageAction;
+      const block = blockById(event.target.dataset.id);
+      if (action !== "prefix" || !block) return;
+      block.replacement = imageReplacement(block.original);
+      renderBlocks();
+      renderImages();
+      buildMarkdown();
+    });
+
+    els.addSegmentBtn.addEventListener("click", () => {
+      state.blocks.push(makeTextBlock());
+      renderBlocks();
+      buildMarkdown();
+    });
+
+    els.addHeadingBtn.addEventListener("click", () => {
+      state.blocks.push(makeHeadingBlock());
+      renderBlocks();
+      buildMarkdown();
+    });
+
+    els.addImageBtn.addEventListener("click", () => {
+      state.blocks.push(makeImageBlock());
+      renderBlocks();
+      renderImages();
+      buildMarkdown();
+    });
+
+    els.buildMdBtn.addEventListener("click", buildMarkdown);
+    els.markdownMode.addEventListener("change", buildMarkdown);
+    els.translateBtn.addEventListener("click", translateAll);
+    els.focusTranslateBtn.addEventListener("click", translateIncomplete);
+    els.focusParseBtn.addEventListener("click", parseDraft);
+    els.focusModeBtn.addEventListener("click", toggleFocusMode);
+    els.saveConfigBtn.addEventListener("click", saveConfig);
+    els.loadDefaultTermsBtn.addEventListener("click", () => {
+      els.termsInput.value = defaultTerms.map(([source, target]) => `${source}=${target}`).join("\n");
+      applyTerms();
+    });
+    els.applyTermsBtn.addEventListener("click", applyTerms);
+    els.exportJsonBtn.addEventListener("click", exportJson);
+    els.importJsonBtn.addEventListener("click", () => els.jsonFile.click());
+    els.jsonFile.addEventListener("change", () => {
+      if (els.jsonFile.files[0]) importJson(els.jsonFile.files[0]);
+    });
+    els.downloadMdBtn.addEventListener("click", () => {
+      downloadFile(`${els.date.value || "draft"}-${slugify(els.title.value || "translation")}.md`, buildMarkdown(), "text/markdown");
+    });
+    els.copyMdBtn.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(buildMarkdown());
+      setStatus(els.parseStatus, "Markdown 已复制。", "good");
+    });
+    updateFocusUi();
+  </script>
+</body>
+</html>

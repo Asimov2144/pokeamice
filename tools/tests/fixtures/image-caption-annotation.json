@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "name": "page001.jpg",
+      "width": 4962,
+      "height": 7019,
+      "regions": [
+        {
+          "id": "image-001",
+          "type": "image",
+          "speaker": "杂志主图",
+          "order": 1,
+          "box": [250, 300, 2200, 2300]
+        },
+        {
+          "id": "caption-001",
+          "type": "caption",
+          "speaker": "图片图注",
+          "order": 2,
+          "writingDirection": "vertical",
+          "box": [250, 2320, 2200, 2600]
+        },
+        {
+          "id": "body-001",
+          "type": "body",
+          "speaker": "采访正文",
+          "order": 3,
+          "writingDirection": "horizontal",
+          "box": [2400, 300, 4600, 2600]
+        }
+      ]
+    }
+  ]
+}

@@ -21,11 +21,14 @@
 .archive__item {
   position: relative;
   background-color: #fbfbfb; /* Subtle background color */
+  border: 1px solid rgba(44, 62, 80, 0.08);
+  border-left: 5px solid var(--card-accent, #88b7d5);
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Subtle shadow */
-  padding: 20px; /* Internal padding */
+  padding: 24px; /* Internal padding */
   margin-bottom: 20px; /* Space between cards */
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover transition */
+  overflow: hidden;
 
   &:hover {
     transform: translateY(-2px); /* Slight lift on hover */
@@ -42,6 +45,141 @@
   }
 }
 
+.archive-card {
+  --card-accent: #88b7d5;
+  --card-tint: rgba(136, 183, 213, 0.1);
+  background:
+    linear-gradient(90deg, var(--card-tint), rgba(255, 255, 255, 0) 42%),
+    #fff;
+}
+
+.archive-card.has-card-image {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 255, 255, 0.92) 52%, rgba(255, 255, 255, 0.78) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.78)),
+    var(--card-image) center right / cover no-repeat,
+    #fff;
+}
+
+.archive-resource-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28rem;
+  min-height: 18px;
+  margin: 0.15rem 0 0.3rem;
+  border-radius: 999px;
+  padding: 0.08rem 0.45rem;
+  background: rgba($primary-color, 0.08);
+  color: mix($primary-color, $text-color, 72%);
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.archive-card--weibo {
+  --card-accent: #d55252;
+  --card-tint: rgba(213, 82, 82, 0.1);
+}
+
+.archive-card--sites,
+.archive-card--site,
+.archive-card--announcement {
+  --card-accent: #5ba86f;
+  --card-tint: rgba(91, 168, 111, 0.12);
+}
+
+.archive-card--tech,
+.archive-card--ptcg {
+  --card-accent: #4e87c5;
+  --card-tint: rgba(78, 135, 197, 0.12);
+}
+
+.archive-card--game-freak,
+.archive-card--整理 {
+  --card-accent: #9d7ac2;
+  --card-tint: rgba(157, 122, 194, 0.12);
+}
+
+.archive-card--采访,
+.archive-card--翻译 {
+  --card-accent: #c18a48;
+  --card-tint: rgba(193, 138, 72, 0.12);
+}
+
+.archive-card--长文,
+.archive-card--分析 {
+  --card-accent: #6e879f;
+  --card-tint: rgba(110, 135, 159, 0.12);
+}
+
+.post-categories,
+.post-tags {
+  position: relative;
+  z-index: 2;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 8px 8px 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.post-categories .taxonomy__link,
+.post-tags .taxonomy__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  border-radius: 7px;
+  padding: 2px 6px;
+  color: inherit;
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.post-categories .taxonomy__link {
+  color: rgb(246, 246, 93);
+  background: rgba(51, 101, 200, 0.411);
+  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
+}
+
+.post-tags .taxonomy__link {
+  color: rgb(162, 68, 200);
+  background: rgba(205, 41, 60, 0.419);
+  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
+}
+
+.page__meta > .post-tags,
+.page__meta > .post-categories {
+  display: inline-flex;
+  border-radius: 7px;
+  margin: 0 3px 3px 0;
+  padding: 2px 6px;
+  font-size: 0.64rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.page__meta > .post-categories {
+  color: rgb(246, 246, 93);
+  background: rgba(51, 101, 200, 0.411);
+  box-shadow: 0 3px 10px rgba(216, 235, 208, 0.6);
+}
+
+.page__meta > .post-tags {
+  color: rgb(162, 68, 200);
+  background: rgba(205, 41, 60, 0.419);
+  box-shadow: 0 3px 10px rgba(210, 147, 147, 0.6);
+}
+
+.post-categories .taxonomy__link:hover,
+.post-tags .taxonomy__link:hover {
+  text-decoration: none;
+  filter: saturate(1.08) brightness(1.02);
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
@@ -55,9 +193,9 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.45em;
   font-family: $sans-serif-narrow;
-  line-height: initial;
+  line-height: 1.36;
   overflow: hidden;
   text-overflow: ellipsis;
 
@@ -84,8 +222,10 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
+  margin-top: 0.75em;
+  color: mix(#000, $muted-text-color, 15%);
   font-size: $type-size-6;
+  line-height: 1.72;
 
   & + p {
     text-indent: 0;

@@ -1,0 +1,236 @@
+---
+layout: default
+---
+
+{% assign items = page.parallel_items | default: page.translation_segments | default: page.segments %}
+{% assign original_lang = page.original_lang | default: "ja" %}
+{% assign translation_lang = page.translation_lang | default: "zh-CN" %}
+{% assign default_view = page.parallel_view | default: "translation" %}
+
+<main class="parallel-translation" role="main" data-parallel-translation data-view="{{ default_view }}">
+  <article class="parallel-translation__article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    <header class="parallel-translation__header">
+      {% if page.kicker %}
+        <p class="parallel-translation__kicker">{{ page.kicker }}</p>
+      {% endif %}
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      <div class="parallel-translation__meta">
+        {% if page.publication %}<span>{{ page.publication }}</span>{% endif %}
+        {% if page.author %}<span>原文：{{ page.author }}</span>{% endif %}
+        {% if page.translator %}<span>译者：{{ page.translator }}</span>{% endif %}
+        {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
+      </div>
+      {% assign parallel_source_url = page.original_link | default: page.source.url | default: page.source %}
+      {% if parallel_source_url %}
+        <a class="parallel-translation__source" href="{{ parallel_source_url }}" target="_blank" rel="noopener">来源</a>
+      {% endif %}
+      {% include resource-card.html document=page %}
+      <div class="parallel-translation__view" aria-label="阅读模式">
+        <span>阅读模式</span>
+        <button type="button" data-view-choice="translation" aria-pressed="true">译文优先</button>
+        <button type="button" data-view-choice="parallel" aria-pressed="false">左右对照</button>
+        <button type="button" data-view-choice="original" aria-pressed="false">纯原文</button>
+      </div>
+    </header>
+
+    <div class="parallel-translation__body">
+      <div class="parallel-translation__content" itemprop="text">
+        {% if page.summary %}
+          <p class="parallel-translation__summary">{{ page.summary }}</p>
+        {% endif %}
+
+        {% if content != "" %}
+          <section class="parallel-translation__note">
+            {{ content }}
+          </section>
+        {% endif %}
+        {% include resource-related.html %}
+        {% include article-references.html %}
+
+        <section class="parallel-text parallel-text--web-article">
+          {% for item in items %}
+            {% assign item_type = item.type | default: "paragraph" %}
+            {% if item_type == "heading" %}
+              {% assign heading_level = item.level | default: 2 | plus: 0 %}
+              {% if heading_level < 2 %}{% assign heading_level = 2 %}{% endif %}
+              {% if heading_level > 4 %}{% assign heading_level = 4 %}{% endif %}
+              {% assign heading_text = item.translation | default: item.title | default: item.original %}
+              <section class="parallel-text__heading" id="section-{{ forloop.index }}">
+                {% if heading_level == 2 %}
+                  <h2>{{ heading_text }}</h2>
+                {% elsif heading_level == 3 %}
+                  <h3>{{ heading_text }}</h3>
+                {% else %}
+                  <h4>{{ heading_text }}</h4>
+                {% endif %}
+                {% if item.original %}
+                  <p class="parallel-text__heading-original" lang="{{ item.original_lang | default: original_lang }}">{{ item.original }}</p>
+                {% endif %}
+                {% if item.note %}
+                  <aside class="parallel-text__note">{{ item.note | markdownify }}</aside>
+                {% endif %}
+              </section>
+            {% elsif item_type == "image" %}
+              {% assign image_src = item.image | default: item.src | default: item.replacement | default: item.original %}
+              {% if image_src %}
+                <figure class="parallel-text__figure">
+                  <img src="{{ image_src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}">
+                  {% if item.caption %}
+                    <figcaption>{{ item.caption | markdownify }}</figcaption>
+                  {% endif %}
+                </figure>
+              {% endif %}
+            {% else %}
+              {% assign paragraph_size = item.font_size | default: item.fontSize | default: "" %}
+              <section class="parallel-text__block{% if paragraph_size %} parallel-text__block--{{ paragraph_size }}{% endif %}" id="segment-{{ forloop.index }}" tabindex="0">
+                <div class="parallel-text__marker">
+                  <span>{{ forloop.index }}</span>
+                  {% if item.speaker %}<strong>{{ item.speaker }}</strong>{% endif %}
+                </div>
+                <div class="parallel-text__pair">
+                  <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
+                    <summary class="parallel-text__original-toggle" aria-label="展开原文" title="展开原文">
+                      <span aria-hidden="true">原</span>
+                    </summary>
+                    <p class="parallel-text__label">原文</p>
+                    {{ item.original | markdownify }}
+                  </details>
+                  <div class="parallel-text__cell parallel-text__cell--translation" lang="{{ item.translation_lang | default: translation_lang }}">
+                    <p class="parallel-text__label">译文</p>
+                    {{ item.translation | markdownify }}
+                  </div>
+                </div>
+                {% if item.note or item.comment or item.comments %}
+                  <button class="parallel-text__note-toggle" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注">注</button>
+                  <div class="parallel-text__note-popover">
+                    {% if item.note %}
+                      <aside class="parallel-text__note" aria-label="译注">{{ item.note | markdownify }}</aside>
+                    {% endif %}
+                    {% if item.comment or item.comments %}
+                      <aside class="parallel-text__comments" aria-label="段落评论">
+                        <p class="parallel-text__comments-title">Comment</p>
+                        {% if item.comments %}
+                          <ul>
+                            {% for comment in item.comments %}
+                              <li>{{ comment | markdownify }}</li>
+                            {% endfor %}
+                          </ul>
+                        {% else %}
+                          {{ item.comment | markdownify }}
+                        {% endif %}
+                      </aside>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </section>
+            {% endif %}
+          {% endfor %}
+        </section>
+      </div>
+
+      {% if page.toc %}
+        <aside class="parallel-translation__side" aria-label="文章辅助信息">
+          <nav class="parallel-translation__toc toc">
+            <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
+            <ul class="toc__menu">
+              {% for item in items %}
+                {% if item.type == "heading" %}
+                  {% assign heading_text = item.translation | default: item.title | default: item.original %}
+                  <li><a href="#section-{{ forloop.index }}">{{ heading_text }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </nav>
+        </aside>
+      {% endif %}
+    </div>
+
+    <footer class="parallel-translation__footer">
+      {% include page__taxonomy.html %}
+      {% include page__date.html %}
+    </footer>
+  </article>
+</main>
+
+<script>
+  (function () {
+    var root = document.querySelector("[data-parallel-translation]");
+    if (!root) return;
+    var buttons = Array.prototype.slice.call(root.querySelectorAll("[data-view-choice]"));
+    var storageKey = "parallelTranslationView";
+    var allowed = ["translation", "parallel", "original"];
+
+    function setView(view) {
+      if (allowed.indexOf(view) === -1) view = "translation";
+      root.setAttribute("data-view", view);
+      Array.prototype.slice.call(root.querySelectorAll(".parallel-text__cell--original")).forEach(function (original) {
+        if (view === "translation") {
+          original.removeAttribute("open");
+        } else {
+          original.setAttribute("open", "");
+        }
+      });
+      buttons.forEach(function (button) {
+        button.setAttribute("aria-pressed", button.getAttribute("data-view-choice") === view ? "true" : "false");
+      });
+      root.querySelectorAll(".parallel-text__block.is-note-open").forEach(function (block) {
+        block.classList.remove("is-note-open");
+        block.querySelectorAll("[data-note-toggle]").forEach(function (toggle) {
+          toggle.setAttribute("aria-expanded", "false");
+        });
+      });
+      try {
+        window.localStorage.setItem(storageKey, view);
+      } catch (_) {}
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        setView(button.getAttribute("data-view-choice"));
+      });
+    });
+
+    root.addEventListener("dblclick", function (event) {
+      if (root.getAttribute("data-view") !== "translation") return;
+      if (event.target.closest("a, button, summary, .parallel-text__note-popover")) return;
+      var block = event.target.closest(".parallel-text__block");
+      if (!block) return;
+      var original = block.querySelector(".parallel-text__cell--original");
+      if (!original) return;
+      original.toggleAttribute("open");
+    });
+
+    root.addEventListener("click", function (event) {
+      var toggle = event.target.closest("[data-note-toggle]");
+      if (toggle) {
+        var block = toggle.closest(".parallel-text__block");
+        var open = !block.classList.contains("is-note-open");
+        root.querySelectorAll(".parallel-text__block.is-note-open").forEach(function (item) {
+          if (item !== block) {
+            item.classList.remove("is-note-open");
+            item.querySelectorAll("[data-note-toggle]").forEach(function (button) {
+              button.setAttribute("aria-expanded", "false");
+            });
+          }
+        });
+        block.classList.toggle("is-note-open", open);
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        return;
+      }
+      if (!event.target.closest(".parallel-text__note, .parallel-text__comments")) {
+        root.querySelectorAll(".parallel-text__block.is-note-open").forEach(function (block) {
+          block.classList.remove("is-note-open");
+          block.querySelectorAll("[data-note-toggle]").forEach(function (button) {
+            button.setAttribute("aria-expanded", "false");
+          });
+        });
+      }
+    });
+
+    try {
+      setView(window.localStorage.getItem(storageKey) || root.getAttribute("data-view"));
+    } catch (_) {
+      setView(root.getAttribute("data-view"));
+    }
+  })();
+</script>

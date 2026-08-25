@@ -9,6 +9,8 @@ main:
         url: /keys/guide/
       - title: "Architecture"
         url: /keys/architecture/
+      - title: "Game Freak Director"
+        url: /keys/gamefreak-director/
   - title: "MOre at"
     url: https://pokeamice.com
   - title: "News"
@@ -19,7 +21,11 @@ main:
       - title: "Release Notes"
         url: /news/releases/
   - title: "Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/  
+    url: /resource-graph/
+  - title: "Timeline"
+    url: /timeline/
+  - title: "Search"
+    url: /search/
   - title: "Tags"
     url: /tags/
 

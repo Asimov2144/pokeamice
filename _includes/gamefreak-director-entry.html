@@ -1,0 +1,26 @@
+{% assign post = include.post %}
+<article class="gf-director-entry">
+  <div class="gf-director-entry__no">
+    {% if post.gf_entry_no %}
+      <span>第{{ post.gf_entry_no }}回</span>
+    {% else %}
+      <span>Entry</span>
+    {% endif %}
+    {% if post.date %}
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+    {% endif %}
+  </div>
+  <div class="gf-director-entry__body">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.gf_entry_title | default: post.title }}</a></h3>
+    {% if post.summary or post.excerpt %}
+      <p>{{ post.summary | default: post.excerpt | markdownify | strip_html | truncate: 150 }}</p>
+    {% endif %}
+    {% if post.gf_categories %}
+      <div class="gf-director-entry__cats">
+        {% for category in post.gf_categories %}
+          <span>{{ category }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

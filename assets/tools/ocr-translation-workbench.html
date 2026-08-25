@@ -1,0 +1,3265 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCR 翻译整理工作台</title>
+  <style>
+    :root {
+      --bg: #f3f6f8;
+      --panel: #fff;
+      --ink: #1d2730;
+      --muted: #65727d;
+      --line: #dce4ea;
+      --accent: #b84848;
+      --accent-soft: rgba(184, 72, 72, 0.1);
+      --blue: #2f6f9f;
+      --green: #34785e;
+      --amber: #a86a1e;
+      --shadow: 0 12px 30px rgba(29, 39, 48, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    button,
+    input,
+    textarea,
+    select { font: inherit; }
+
+    button {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 11px;
+      background: var(--panel);
+      color: var(--ink);
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    button.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    button.ghost { background: transparent; }
+    button:hover { border-color: #aebbc7; }
+
+    input,
+    textarea,
+    select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: #fff;
+      color: var(--ink);
+      outline: none;
+    }
+
+    input,
+    select {
+      min-height: 34px;
+      padding: 0 10px;
+    }
+
+    textarea {
+      min-height: 92px;
+      padding: 9px 10px;
+      resize: vertical;
+      line-height: 1.6;
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 300px minmax(0, 1fr) 390px;
+      gap: 12px;
+      height: 100%;
+      padding: 12px;
+    }
+
+    body.tool-nav-enabled {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+
+    body.tool-nav-enabled > .app {
+      height: 100%;
+      min-height: 0;
+    }
+
+    .tool-nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 8px 18px rgba(29, 39, 48, 0.06);
+      z-index: 30;
+    }
+
+    .tool-nav__brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 4px;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .tool-nav__links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .tool-nav__links::-webkit-scrollbar { display: none; }
+
+    .tool-nav a:not(.tool-nav__brand) {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tool-nav a:not(.tool-nav__brand):hover,
+    .tool-nav a.is-active {
+      border-color: rgba(184, 72, 72, 0.24);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .panel {
+      min-height: 0;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .side,
+    .inspector {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+    }
+
+    .brand {
+      display: grid;
+      gap: 5px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand strong { font-size: 17px; }
+    .brand span,
+    .hint,
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .section {
+      display: grid;
+      gap: 9px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--ink);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .format-toolbar {
+      align-items: center;
+      padding: 7px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f8fafb;
+    }
+
+    .format-toolbar button {
+      width: 34px;
+      min-height: 30px;
+      padding: 0;
+      font-size: 13px;
+    }
+
+    .format-toolbar button:nth-child(2) {
+      text-decoration: underline;
+    }
+
+    .format-toolbar select {
+      width: 92px;
+      min-height: 30px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .stage-strip {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .stage {
+      min-height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 7px;
+      background: #f8fafb;
+    }
+
+    .stage strong {
+      display: block;
+      font-size: 12px;
+      line-height: 1.2;
+    }
+
+    .stage span {
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .stage.is-active {
+      border-color: rgba(184, 72, 72, 0.45);
+      background: var(--accent-soft);
+    }
+
+    .import-box {
+      min-height: 132px;
+      max-height: 240px;
+      font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
+      font-size: 12px;
+    }
+
+    .segment-list {
+      display: grid;
+      gap: 7px;
+    }
+
+    .segment-item {
+      display: grid;
+      gap: 5px;
+      width: 100%;
+      min-height: 58px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      text-align: left;
+      background: #fff;
+    }
+
+    .segment-item.is-active {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+
+    .segment-item strong {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 13px;
+    }
+
+    .segment-item small {
+      overflow: hidden;
+      color: var(--muted);
+      font-size: 11px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 20px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 0 7px;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      background: #f8fafb;
+    }
+
+    .badge.done { border-color: rgba(52, 120, 94, 0.35); color: var(--green); background: rgba(52, 120, 94, 0.08); }
+    .badge.warn { border-color: rgba(168, 106, 30, 0.38); color: var(--amber); background: rgba(168, 106, 30, 0.09); }
+    .badge.todo { border-color: rgba(47, 111, 159, 0.35); color: var(--blue); background: rgba(47, 111, 159, 0.08); }
+
+    .workspace {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .topbar h1 {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.2;
+    }
+
+    .topbar__actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 7px;
+      flex-wrap: wrap;
+    }
+
+    .segment-jump {
+      width: min(270px, 23vw);
+      min-width: 150px;
+    }
+
+    .segment-position {
+      min-width: 52px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .editor-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(260px, 34%);
+      gap: 12px;
+      min-height: 0;
+      overflow: auto;
+      padding: 12px;
+    }
+
+    .edit-stack,
+    .preview-stack {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .field-group {
+      display: grid;
+      gap: 9px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+    }
+
+    .field-group h2 {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .field-group__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .source-compare {
+      min-height: 220px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #e9eef1;
+      overflow: auto;
+    }
+
+    .source-compare canvas {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 5px 18px rgba(29, 39, 48, 0.13);
+    }
+
+    .source-compare canvas.is-rebox-mode { cursor: crosshair; }
+
+    .source-path-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 7px;
+    }
+
+    .source-path-row button { white-space: nowrap; }
+
+    .source-tools button {
+      min-width: 34px;
+      padding: 0 8px;
+    }
+
+    .original {
+      min-height: 170px;
+      font-family: "Yu Gothic", "Meiryo", "Microsoft YaHei", sans-serif;
+      font-size: 14px;
+    }
+
+    .translation {
+      min-height: 210px;
+      font-size: 14px;
+    }
+
+    .region-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: var(--panel-soft);
+    }
+
+    .region-meta span {
+      border-radius: 999px;
+      padding: 4px 7px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 11px;
+      line-height: 1.3;
+    }
+
+    .preview {
+      display: grid;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfd;
+      line-height: 1.7;
+      font-size: 13px;
+    }
+
+    .preview h3 {
+      margin: 0;
+      font-size: 15px;
+    }
+
+    .preview .ja {
+      border-left: 3px solid var(--blue);
+      padding-left: 9px;
+      white-space: pre-wrap;
+    }
+
+    .preview .zh {
+      border-left: 3px solid var(--accent);
+      padding-left: 9px;
+      white-space: pre-wrap;
+    }
+
+    .preview-image {
+      display: block;
+      width: 100%;
+      max-height: 420px;
+      border-radius: 7px;
+      object-fit: contain;
+      background: #eef2f4;
+    }
+
+    .output {
+      min-height: 260px;
+      max-height: 48vh;
+      padding: 10px;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #17202a;
+      color: #edf4fb;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .status {
+      min-height: 24px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .check-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .check-row input {
+      width: auto;
+      min-height: 0;
+    }
+
+    .learning-workspace {
+      display: none;
+      min-height: 0;
+      overflow: hidden;
+      padding: 12px;
+      background: #edf1f3;
+    }
+
+    .learning-shell {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      gap: 10px;
+      min-height: 0;
+    }
+
+    .learning-toolbar {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 9px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow);
+      overflow-x: auto;
+    }
+
+    .learning-toolbar button { flex: 0 0 auto; }
+    .learning-toolbar button.is-on {
+      border-color: var(--blue);
+      background: rgba(47, 111, 159, 0.1);
+      color: var(--blue);
+    }
+
+    .learning-position {
+      min-width: 72px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .learning-grid {
+      display: grid;
+      grid-template-columns: minmax(300px, 0.95fr) minmax(340px, 1.1fr) minmax(300px, 0.95fr);
+      gap: 10px;
+      min-height: 0;
+    }
+
+    .learning-pane {
+      display: grid;
+      align-content: start;
+      gap: 11px;
+      min-width: 0;
+      min-height: 0;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 13px;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .learning-pane__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      min-height: 28px;
+    }
+
+    .learning-pane__head h2 {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .learning-source {
+      min-height: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      background: #e9eef1;
+      overflow: auto;
+    }
+
+    .learning-source canvas {
+      display: block;
+      width: auto;
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+      background: #fff;
+      box-shadow: 0 5px 18px rgba(29, 39, 48, 0.13);
+    }
+
+    .learning-sentence-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding-bottom: 3px;
+    }
+
+    .learning-sentence-chip {
+      min-height: 30px;
+      padding: 0 9px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .learning-sentence-chip.is-active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .learning-japanese {
+      min-height: 190px;
+      padding: 18px 16px;
+      border-radius: 10px;
+      background: #f8fafb;
+      font-family: "Yu Gothic", "Meiryo", sans-serif;
+      font-size: clamp(20px, 2.1vw, 31px);
+      font-weight: 650;
+      line-height: 2;
+      letter-spacing: 0.025em;
+      word-break: break-word;
+    }
+
+    .learning-japanese ruby { ruby-position: over; }
+    .learning-japanese rt {
+      color: var(--blue);
+      font-size: 0.42em;
+      font-weight: 700;
+    }
+
+    .learning-translation {
+      min-height: 120px;
+      border-left: 4px solid var(--accent);
+      padding: 13px 15px;
+      background: #fff8f7;
+      font-size: 17px;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .learning-translation.is-hidden {
+      display: grid;
+      place-items: center;
+      border-left-color: var(--line);
+      background: #f7f9fa;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .learning-cards {
+      display: grid;
+      gap: 7px;
+    }
+
+    .learning-card {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px 10px;
+      background: #fbfcfd;
+    }
+
+    .learning-card strong { font-size: 14px; }
+    .learning-card p {
+      grid-column: 1 / -1;
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .learning-card button {
+      min-height: 28px;
+      padding: 0 8px;
+    }
+
+    .learning-empty {
+      padding: 12px;
+      border: 1px dashed var(--line);
+      border-radius: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .learning-favorites {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      min-height: 42px;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: #fff;
+      overflow-x: auto;
+    }
+
+    .learning-favorite-item {
+      flex: 0 0 auto;
+      max-width: 340px;
+      padding: 6px 9px;
+      border-radius: 999px;
+      background: #f5f7f8;
+      color: var(--muted);
+      font-size: 11px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    body.learning-mode .side,
+    body.learning-mode .inspector,
+    body.learning-mode .editor-grid {
+      display: none !important;
+    }
+
+    body.learning-mode > .app {
+      display: block;
+      padding: 0;
+    }
+
+    body.learning-mode .workspace {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    body.learning-mode .learning-workspace { display: grid; }
+    body.learning-mode #learningModeBtn {
+      border-color: var(--blue);
+      background: var(--blue);
+      color: #fff;
+    }
+
+    @media (max-width: 980px) {
+      .learning-workspace { overflow: auto; }
+      .learning-shell { min-height: max-content; }
+      .learning-grid { grid-template-columns: 1fr; }
+      .learning-pane { min-height: 360px; overflow: visible; }
+    }
+
+    @media (max-width: 1120px) {
+      body { overflow: auto; }
+      .app {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 100%;
+      }
+      .panel { overflow: visible; }
+      .editor-grid { grid-template-columns: 1fr; overflow: visible; }
+    }
+
+    body.immersive-mode {
+      display: block;
+      overflow: hidden;
+      background: #dde4e8;
+    }
+
+    body.immersive-mode .tool-nav,
+    body.immersive-mode .side,
+    body.immersive-mode .inspector,
+    body.immersive-mode .stage-strip,
+    body.immersive-mode #translationFieldGroup,
+    body.immersive-mode #commentsFieldGroup,
+    body.immersive-mode #previewCard,
+    body.immersive-mode #termsFieldGroup {
+      display: none !important;
+    }
+
+    body.immersive-mode > .app {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      padding: 0;
+    }
+
+    body.immersive-mode .workspace {
+      width: 100%;
+      height: 100vh;
+      border: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    body.immersive-mode .topbar {
+      position: relative;
+      z-index: 5;
+      min-height: 70px;
+      padding: 10px 16px;
+      box-shadow: 0 5px 18px rgba(29, 39, 48, 0.08);
+    }
+
+    body.immersive-mode .editor-grid {
+      display: grid;
+      grid-template-columns: minmax(360px, 0.9fr) minmax(460px, 1.1fr);
+      grid-template-areas: "source editor";
+      gap: 14px;
+      height: auto;
+      min-height: 0;
+      overflow: hidden;
+      padding: 14px;
+    }
+
+    body.immersive-mode .edit-stack {
+      grid-area: editor;
+      grid-template-rows: auto minmax(0, 1fr);
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    body.immersive-mode .preview-stack {
+      grid-area: source;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    body.immersive-mode #sourceFieldGroup {
+      height: 100%;
+      min-height: 0;
+    }
+
+    body.immersive-mode #segmentInfoFieldGroup {
+      padding: 8px 10px;
+    }
+
+    body.immersive-mode #segmentInfoFieldGroup h2,
+    body.immersive-mode #segmentInfoFieldGroup > .row:first-of-type,
+    body.immersive-mode #segmentInfoFieldGroup > .region-meta {
+      display: none !important;
+    }
+
+    body.immersive-mode #sourceFieldGroup {
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    body.immersive-mode #originalFieldGroup {
+      height: auto;
+      min-height: 0;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    body.immersive-mode .source-compare {
+      min-height: 0;
+      overflow: auto;
+    }
+
+    body.immersive-mode #originalInput {
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      resize: none;
+      font-size: 17px;
+      line-height: 1.85;
+    }
+
+    body.immersive-mode #immersiveBtn {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    @media (max-width: 760px) {
+      body.immersive-mode { overflow: auto; }
+      body.immersive-mode > .app,
+      body.immersive-mode .workspace { height: auto; min-height: 100vh; }
+      body.immersive-mode .editor-grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: "source" "editor";
+        height: auto;
+        overflow: visible;
+      }
+      body.immersive-mode #sourceFieldGroup,
+      body.immersive-mode #originalFieldGroup { height: auto; }
+      body.immersive-mode #originalInput { min-height: 55vh; }
+    }
+  </style>
+</head>
+<body class="tool-nav-enabled">
+  <nav class="tool-nav" aria-label="本地编辑工具导航">
+    <a class="tool-nav__brand" href="/">Poke Amice Docs</a>
+    <div class="tool-nav__links">
+      <a href="/assets/tools/editor-toolbox.html#ocr">统一工具箱</a>
+      <a href="/local-editing-tools/">工具索引</a>
+      <a href="/assets/tools/magazine-region-annotator.html">杂志分区</a>
+      <a href="/assets/tools/ocr-project-queue.html">项目队列</a>
+      <a class="is-active" href="/assets/tools/ocr-translation-workbench.html">OCR 工作台</a>
+      <a href="/assets/tools/web-interview-capture.html">网页收录</a>
+      <a href="/assets/tools/project-workflow-board.html">项目看板</a>
+      <a href="/search/">资料检索</a>
+    </div>
+  </nav>
+  <div class="app">
+    <aside class="panel side">
+      <div class="brand">
+        <strong>OCR 翻译整理工作台</strong>
+        <span>把 Qwen-VL-OCR / PaddleOCR 生成的段落整理成可校对、可翻译、可发布的扫描对照文章。</span>
+      </div>
+
+      <section class="section">
+        <div class="section-title">导入</div>
+        <label>
+          输入格式
+          <select id="importMode">
+            <option value="auto">自动识别（推荐）</option>
+            <option value="segments">translation-segments.yml</option>
+            <option value="regions">regions-ocr.md</option>
+            <option value="post">已有扫描文章 Markdown</option>
+          </select>
+        </label>
+        <textarea id="importText" class="import-box" placeholder="粘贴 translation-segments.yml 或 regions-ocr.md"></textarea>
+        <div class="button-row">
+          <button class="primary" id="parseImportBtn" type="button">导入段落</button>
+          <button id="importFileBtn" type="button">导入文件</button>
+          <button id="loadSampleBtn" type="button">载入示例</button>
+          <button id="restoreQueueBackupBtn" type="button" hidden>恢复队列前内容</button>
+          <button id="clearBtn" type="button">清空</button>
+          <input id="importFileInput" type="file" accept=".yml,.yaml,.md,.markdown,.json,text/yaml,text/markdown,application/json,text/plain" hidden>
+        </div>
+        <div class="hint">导入时会自动区分正文与分区注释；只有 OCR 原文进入待翻译区，页码、类型、坐标、角度等信息会单独保留。</div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">筛选</div>
+        <select id="filterStatus">
+          <option value="all">全部段落</option>
+          <option value="ocr">OCR 初稿</option>
+          <option value="checked">已校对</option>
+          <option value="translated">已翻译</option>
+          <option value="review">需复核</option>
+        </select>
+        <input id="searchText" type="search" placeholder="搜索原文 / 译文 / 备注">
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          段落
+          <span id="segmentCount" class="small">0</span>
+        </div>
+        <div id="segmentList" class="segment-list"></div>
+      </section>
+    </aside>
+
+    <main class="panel workspace">
+      <header class="topbar">
+        <div>
+          <h1 id="activeTitle">尚未导入段落</h1>
+          <div id="activeMeta" class="small">导入 OCR 输出后开始整理</div>
+        </div>
+        <div class="topbar__actions">
+          <span class="segment-position" id="segmentPosition">0 / 0</span>
+          <select class="segment-jump" id="segmentJumpSelect" aria-label="跳转段落"></select>
+          <button id="prevBtn" type="button">上一段</button>
+          <button id="nextBtn" type="button">下一段</button>
+          <button class="primary" id="markDoneBtn" type="button">标记完成</button>
+          <button id="immersiveBtn" type="button" aria-pressed="false" title="Esc 退出；Alt + 方向键切换段落">沉浸校对</button>
+          <button id="learningModeBtn" type="button" aria-pressed="false" title="进入日语精读学习模式">学习模式</button>
+        </div>
+      </header>
+
+      <section class="learning-workspace" id="learningWorkspace">
+        <div class="learning-shell">
+          <div class="learning-toolbar" aria-label="学习工具栏">
+            <button id="learningPrevBtn" type="button">上一句</button>
+            <span class="learning-position" id="learningPosition">0 / 0</span>
+            <button id="learningNextBtn" type="button">下一句</button>
+            <button id="learningRubyBtn" type="button" aria-pressed="false">振假名</button>
+            <button id="learningVocabBtn" type="button" aria-pressed="true" class="is-on">词汇</button>
+            <button id="learningGrammarBtn" type="button" aria-pressed="true" class="is-on">语法</button>
+            <button id="learningHideTranslationBtn" type="button" aria-pressed="false">隐藏翻译</button>
+            <button id="learningClozeBtn" type="button" aria-pressed="false">完形填空</button>
+            <button id="learningRevealBtn" type="button" hidden>显示答案</button>
+            <button id="learningFavoriteSentenceBtn" type="button">☆ 收藏句子</button>
+          </div>
+
+          <div class="learning-grid">
+            <article class="learning-pane">
+              <div class="learning-pane__head">
+                <h2>原图选区</h2>
+                <span class="small" id="learningSourceLabel">等待原图</span>
+              </div>
+              <div class="learning-source">
+                <canvas id="learningSourceCanvas" width="720" height="520"></canvas>
+              </div>
+              <div class="status" id="learningSourceStatus">切换句子时会自动同步所在文字区域。</div>
+            </article>
+
+            <article class="learning-pane">
+              <div class="learning-pane__head">
+                <h2 id="learningSpeaker">日文精读</h2>
+                <span class="badge" id="learningSentenceStatus">未校对</span>
+              </div>
+              <div class="learning-sentence-list" id="learningSentenceList"></div>
+              <div class="learning-japanese" id="learningJapanese">请先导入访谈内容</div>
+              <div class="small" id="learningReadingHint">开启“振假名”可显示词典中已有的读音。</div>
+            </article>
+
+            <article class="learning-pane">
+              <div class="learning-pane__head">
+                <h2>中文与解析</h2>
+                <span class="small" id="learningFavoriteCount">收藏 0</span>
+              </div>
+              <div class="learning-translation" id="learningTranslation">待翻译</div>
+              <section id="learningVocabSection">
+                <div class="section-title">词汇</div>
+                <div class="learning-cards" id="learningVocabList"></div>
+              </section>
+              <section id="learningGrammarSection">
+                <div class="section-title">语法</div>
+                <div class="learning-cards" id="learningGrammarList"></div>
+              </section>
+            </article>
+          </div>
+
+          <div class="learning-favorites" id="learningFavorites">
+            <strong class="small">收藏</strong>
+            <span class="learning-favorite-item">收藏句子或词汇后会显示在这里，并自动保存。</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="editor-grid">
+        <section class="edit-stack">
+          <div class="stage-strip">
+            <div class="stage is-active"><strong>OCR</strong><span>导入原文</span></div>
+            <div class="stage"><strong>校对</strong><span>修正错字</span></div>
+            <div class="stage"><strong>翻译</strong><span>译文初稿</span></div>
+            <div class="stage"><strong>评注</strong><span>链接说明</span></div>
+            <div class="stage"><strong>发布</strong><span>导出文章</span></div>
+          </div>
+
+          <div class="field-group" id="segmentInfoFieldGroup">
+            <h2>段落信息</h2>
+            <div class="row">
+              <label>段落标题 / 说话人<input id="speakerInput" type="text"></label>
+              <label>状态
+                <select id="statusInput">
+                  <option value="ocr">OCR 初稿</option>
+                  <option value="checked">已校对</option>
+                  <option value="translated">已翻译</option>
+                  <option value="review">需复核</option>
+                </select>
+              </label>
+            </div>
+            <div class="row">
+              <label>扫描页<input id="scanPageInput" type="number" min="0" step="1"></label>
+              <label>坐标框<input id="scanBoxInput" type="text" placeholder="x1, y1, x2, y2"></label>
+            </div>
+            <div class="row">
+              <label>文字方向
+                <select id="writingDirectionInput">
+                  <option value="auto">自动判断</option>
+                  <option value="horizontal">横排</option>
+                  <option value="vertical">竖排（日文右→左列）</option>
+                </select>
+              </label>
+              <label>旋转角度（°）<input id="regionAngleInput" type="number" min="-180" max="180" step="0.1"></label>
+            </div>
+            <div class="region-meta" id="regionMeta" hidden></div>
+          </div>
+
+          <div class="field-group" id="originalFieldGroup">
+            <h2>待翻译原文（日文 OCR）</h2>
+            <textarea id="originalInput" class="original" placeholder="OCR 日文原文"></textarea>
+            <div class="button-row">
+              <button id="cleanRubyBtn" type="button">清理孤立假名</button>
+              <button id="termFixBtn" type="button">术语修正</button>
+              <button id="copyOriginalBtn" type="button">复制原文</button>
+              <button id="restorePreviousOcrBtn" type="button" disabled>恢复上次 OCR</button>
+            </div>
+          </div>
+
+          <div class="field-group" id="translationFieldGroup">
+            <h2>中文译文</h2>
+            <div class="button-row format-toolbar" aria-label="译文格式">
+              <button id="boldTranslationBtn" type="button" title="加粗">B</button>
+              <button id="underlineTranslationBtn" type="button" title="下划线">U</button>
+              <select id="translationSizeSelect" title="字号">
+                <option value="">字号</option>
+                <option value="small">小字</option>
+                <option value="medium">正文</option>
+                <option value="large">大字</option>
+              </select>
+            </div>
+            <textarea id="translationInput" class="translation" placeholder="填写翻译；也可以先保留“待翻译”"></textarea>
+            <div class="button-row">
+              <button id="makePromptBtn" type="button">生成翻译提示词</button>
+              <button id="copyTranslationBtn" type="button">复制译文</button>
+            </div>
+          </div>
+
+          <div class="field-group" id="commentsFieldGroup">
+            <h2>评注 / 链接解析</h2>
+            <textarea id="commentsInput" placeholder="每行一条评注，可写术语、链接、图片说明、校对疑点"></textarea>
+          </div>
+        </section>
+
+        <aside class="preview-stack">
+          <div class="field-group" id="sourceFieldGroup">
+            <div class="field-group__head">
+              <h2>原图对照</h2>
+              <div class="button-row source-tools">
+                <button class="primary" id="sourceCropBtn" type="button">区域裁切</button>
+                <button id="sourcePageBtn" type="button">查看整页</button>
+                <button id="reboxRegionBtn" type="button">重新框选</button>
+                <button id="rerunRegionOcrBtn" type="button">重跑当前区 OCR</button>
+                <button id="sourceZoomOutBtn" type="button" aria-label="缩小原图">−</button>
+                <button id="sourceZoomResetBtn" type="button">100%</button>
+                <button id="sourceZoomInBtn" type="button" aria-label="放大原图">＋</button>
+              </div>
+            </div>
+            <div class="source-compare" id="sourceCompare">
+              <canvas id="sourceCanvas" width="960" height="360"></canvas>
+              <img id="sourceImageLoader" alt="" hidden>
+            </div>
+            <div class="status" id="sourceStatus">导入分区 OCR 后，会自动显示当前文字框的原图。</div>
+          </div>
+
+          <div class="preview" id="previewCard">
+            <h3 id="previewSpeaker">预览</h3>
+            <div class="badge-row" id="previewBadges"></div>
+            <img class="preview-image" id="previewImage" alt="" hidden>
+            <div class="ja" id="previewOriginal">等待选择段落</div>
+            <div class="zh" id="previewTranslation">待翻译</div>
+          </div>
+
+          <div class="field-group" id="termsFieldGroup">
+            <h2>术语表</h2>
+            <textarea id="termsInput">W-Fi => Wi-Fi
+フラチナ => プラチナ
+ニンドルリ => ニンドリ
+ゲームフリーオープニング => ゲームフリーク
+ポケモン => ポケモン
+GAME FREAK => GAME FREAK</textarea>
+            <label class="check-row"><input id="keepRubyInput" type="checkbox"> 保留振假名行</label>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <aside class="panel inspector">
+      <section class="section">
+        <div class="section-title">文章元数据</div>
+        <label>标题<input id="postTitle" type="text" value="[扫描访谈] DREAM 2008.12 Qwen-VL-OCR 整理稿"></label>
+        <div class="row">
+          <label>日期<input id="postDate" type="date" value="2008-12-03"></label>
+          <label>期刊<input id="publication" type="text" value="Nintendo DREAM"></label>
+        </div>
+        <div class="row">
+          <label>期号<input id="issue" type="text" value="2008.12"></label>
+          <label>译者<input id="translator" type="text" value="机器初稿 / 待人工校对"></label>
+        </div>
+        <label>文章扫描图路径<input id="scanImage" type="text" value="/assets/img/interviews/dream-2008-12-qwen/page006-tuya.jpg"></label>
+        <label>校对原图文件夹</label>
+        <div class="source-path-row">
+          <input id="sourceFolder" type="text" placeholder="导入 OCR 后自动识别，也可以手动选择">
+          <button id="chooseSourceFolderBtn" type="button">选择文件夹</button>
+        </div>
+        <label>标签<input id="postTags" type="text" value="DREAM, Nintendo DREAM, Qwen-VL-OCR, OCR, 宝可梦"></label>
+        <label>摘要<textarea id="summaryInput">由 OCR 分区结果整理出的扫描对照草稿。当前页面用于人工校对、翻译和评注整理。</textarea></label>
+      </section>
+
+      <section class="section">
+        <div class="section-title">DeepSeek 翻译</div>
+        <label>API Key<input id="deepseekApiKey" type="password" placeholder="sk-..."></label>
+        <div class="row">
+          <label>模型
+            <select id="deepseekModel">
+              <option value="deepseek-chat">deepseek-chat</option>
+              <option value="deepseek-reasoner">deepseek-reasoner</option>
+            </select>
+          </label>
+          <label>批量范围
+            <select id="translateScope">
+              <option value="pending">仅待翻译</option>
+              <option value="all">全部段落</option>
+              <option value="review">需复核段落</option>
+            </select>
+          </label>
+        </div>
+        <label>翻译要求<textarea id="deepseekPrompt">翻译成自然、准确的简体中文。题材是宝可梦、任天堂、GAME FREAK 相关日文杂志。保留作品名、人物名、游戏术语的一致译法；不要扩写，不要总结。若发现 OCR 疑似错字，请在 note 中简短说明。</textarea></label>
+        <div class="button-row">
+          <button class="primary" id="translateCurrentBtn" type="button">翻译当前段</button>
+          <button id="translateBatchBtn" type="button">批量翻译</button>
+          <button id="saveDeepSeekBtn" type="button">保存配置</button>
+        </div>
+        <div id="deepseekStatus" class="status">未连接</div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">导出</div>
+        <p class="hint">“扫描对照页 Markdown”会生成 <code>layout: scan-translation</code>，用于左侧扫描图、右侧原文 / 译文 / 评注对照阅读。</p>
+        <div class="button-row">
+          <button class="primary" id="buildPostBtn" type="button">生成扫描对照页 Markdown</button>
+          <button id="buildSegmentsBtn" type="button">生成段落 YAML</button>
+          <button id="copyOutputBtn" type="button">复制输出</button>
+          <button id="downloadOutputBtn" type="button">下载</button>
+        </div>
+        <div id="statusText" class="status">等待操作</div>
+        <pre id="output" class="output"></pre>
+      </section>
+    </aside>
+  </div>
+
+  <script>
+    const els = {
+      importMode: document.querySelector("#importMode"),
+      importText: document.querySelector("#importText"),
+      parseImportBtn: document.querySelector("#parseImportBtn"),
+      importFileBtn: document.querySelector("#importFileBtn"),
+      importFileInput: document.querySelector("#importFileInput"),
+      loadSampleBtn: document.querySelector("#loadSampleBtn"),
+      restoreQueueBackupBtn: document.querySelector("#restoreQueueBackupBtn"),
+      clearBtn: document.querySelector("#clearBtn"),
+      filterStatus: document.querySelector("#filterStatus"),
+      searchText: document.querySelector("#searchText"),
+      segmentList: document.querySelector("#segmentList"),
+      segmentCount: document.querySelector("#segmentCount"),
+      activeTitle: document.querySelector("#activeTitle"),
+      activeMeta: document.querySelector("#activeMeta"),
+      segmentPosition: document.querySelector("#segmentPosition"),
+      segmentJumpSelect: document.querySelector("#segmentJumpSelect"),
+      prevBtn: document.querySelector("#prevBtn"),
+      nextBtn: document.querySelector("#nextBtn"),
+      markDoneBtn: document.querySelector("#markDoneBtn"),
+      immersiveBtn: document.querySelector("#immersiveBtn"),
+      learningModeBtn: document.querySelector("#learningModeBtn"),
+      learningWorkspace: document.querySelector("#learningWorkspace"),
+      learningPrevBtn: document.querySelector("#learningPrevBtn"),
+      learningNextBtn: document.querySelector("#learningNextBtn"),
+      learningPosition: document.querySelector("#learningPosition"),
+      learningRubyBtn: document.querySelector("#learningRubyBtn"),
+      learningVocabBtn: document.querySelector("#learningVocabBtn"),
+      learningGrammarBtn: document.querySelector("#learningGrammarBtn"),
+      learningHideTranslationBtn: document.querySelector("#learningHideTranslationBtn"),
+      learningClozeBtn: document.querySelector("#learningClozeBtn"),
+      learningRevealBtn: document.querySelector("#learningRevealBtn"),
+      learningFavoriteSentenceBtn: document.querySelector("#learningFavoriteSentenceBtn"),
+      learningSourceCanvas: document.querySelector("#learningSourceCanvas"),
+      learningSourceLabel: document.querySelector("#learningSourceLabel"),
+      learningSourceStatus: document.querySelector("#learningSourceStatus"),
+      learningSpeaker: document.querySelector("#learningSpeaker"),
+      learningSentenceStatus: document.querySelector("#learningSentenceStatus"),
+      learningSentenceList: document.querySelector("#learningSentenceList"),
+      learningJapanese: document.querySelector("#learningJapanese"),
+      learningReadingHint: document.querySelector("#learningReadingHint"),
+      learningTranslation: document.querySelector("#learningTranslation"),
+      learningFavoriteCount: document.querySelector("#learningFavoriteCount"),
+      learningVocabSection: document.querySelector("#learningVocabSection"),
+      learningVocabList: document.querySelector("#learningVocabList"),
+      learningGrammarSection: document.querySelector("#learningGrammarSection"),
+      learningGrammarList: document.querySelector("#learningGrammarList"),
+      learningFavorites: document.querySelector("#learningFavorites"),
+      speakerInput: document.querySelector("#speakerInput"),
+      statusInput: document.querySelector("#statusInput"),
+      scanPageInput: document.querySelector("#scanPageInput"),
+      scanBoxInput: document.querySelector("#scanBoxInput"),
+      writingDirectionInput: document.querySelector("#writingDirectionInput"),
+      regionAngleInput: document.querySelector("#regionAngleInput"),
+      regionMeta: document.querySelector("#regionMeta"),
+      sourceFieldGroup: document.querySelector("#sourceFieldGroup"),
+      sourceCompare: document.querySelector("#sourceCompare"),
+      sourceCanvas: document.querySelector("#sourceCanvas"),
+      sourceImageLoader: document.querySelector("#sourceImageLoader"),
+      sourceStatus: document.querySelector("#sourceStatus"),
+      sourceCropBtn: document.querySelector("#sourceCropBtn"),
+      sourcePageBtn: document.querySelector("#sourcePageBtn"),
+      reboxRegionBtn: document.querySelector("#reboxRegionBtn"),
+      rerunRegionOcrBtn: document.querySelector("#rerunRegionOcrBtn"),
+      sourceZoomOutBtn: document.querySelector("#sourceZoomOutBtn"),
+      sourceZoomResetBtn: document.querySelector("#sourceZoomResetBtn"),
+      sourceZoomInBtn: document.querySelector("#sourceZoomInBtn"),
+      originalFieldGroup: document.querySelector("#originalFieldGroup"),
+      translationFieldGroup: document.querySelector("#translationFieldGroup"),
+      originalInput: document.querySelector("#originalInput"),
+      translationInput: document.querySelector("#translationInput"),
+      commentsInput: document.querySelector("#commentsInput"),
+      cleanRubyBtn: document.querySelector("#cleanRubyBtn"),
+      termFixBtn: document.querySelector("#termFixBtn"),
+      copyOriginalBtn: document.querySelector("#copyOriginalBtn"),
+      restorePreviousOcrBtn: document.querySelector("#restorePreviousOcrBtn"),
+      boldTranslationBtn: document.querySelector("#boldTranslationBtn"),
+      underlineTranslationBtn: document.querySelector("#underlineTranslationBtn"),
+      translationSizeSelect: document.querySelector("#translationSizeSelect"),
+      makePromptBtn: document.querySelector("#makePromptBtn"),
+      copyTranslationBtn: document.querySelector("#copyTranslationBtn"),
+      previewSpeaker: document.querySelector("#previewSpeaker"),
+      previewBadges: document.querySelector("#previewBadges"),
+      previewImage: document.querySelector("#previewImage"),
+      previewOriginal: document.querySelector("#previewOriginal"),
+      previewTranslation: document.querySelector("#previewTranslation"),
+      termsInput: document.querySelector("#termsInput"),
+      keepRubyInput: document.querySelector("#keepRubyInput"),
+      postTitle: document.querySelector("#postTitle"),
+      postDate: document.querySelector("#postDate"),
+      publication: document.querySelector("#publication"),
+      issue: document.querySelector("#issue"),
+      translator: document.querySelector("#translator"),
+      scanImage: document.querySelector("#scanImage"),
+      sourceFolder: document.querySelector("#sourceFolder"),
+      chooseSourceFolderBtn: document.querySelector("#chooseSourceFolderBtn"),
+      postTags: document.querySelector("#postTags"),
+      summaryInput: document.querySelector("#summaryInput"),
+      deepseekApiKey: document.querySelector("#deepseekApiKey"),
+      deepseekModel: document.querySelector("#deepseekModel"),
+      translateScope: document.querySelector("#translateScope"),
+      deepseekPrompt: document.querySelector("#deepseekPrompt"),
+      translateCurrentBtn: document.querySelector("#translateCurrentBtn"),
+      translateBatchBtn: document.querySelector("#translateBatchBtn"),
+      saveDeepSeekBtn: document.querySelector("#saveDeepSeekBtn"),
+      deepseekStatus: document.querySelector("#deepseekStatus"),
+      buildPostBtn: document.querySelector("#buildPostBtn"),
+      buildSegmentsBtn: document.querySelector("#buildSegmentsBtn"),
+      copyOutputBtn: document.querySelector("#copyOutputBtn"),
+      downloadOutputBtn: document.querySelector("#downloadOutputBtn"),
+      statusText: document.querySelector("#statusText"),
+      output: document.querySelector("#output")
+    };
+
+    const storageKey = "pokeamice.ocr.translation.workbench.v1";
+    const state = {
+      segments: [],
+      activeId: null,
+      lastOutput: "",
+      sourceMode: "crop",
+      sourceFiles: new Map(),
+      sourceFolderToken: "",
+      sourceFolderPath: "",
+      sourceRequestId: 0,
+      sourceZoom: 1,
+      immersive: false,
+      learningMode: false,
+      learningSentenceIndex: 0,
+      learningOptions: {
+        ruby: false,
+        vocab: true,
+        grammar: true,
+        hideTranslation: false,
+        cloze: false,
+        reveal: false
+      },
+      learningFavorites: {
+        sentences: [],
+        words: []
+      },
+      reboxMode: false,
+      reboxStart: null,
+      reboxDraft: null,
+      rerunBusy: false
+    };
+
+    const sample = `translation_segments:
+  - speaker: "正文"
+    scan_page: 0
+    scan_box: [1286, 1595, 2960, 2401]
+    original: |-
+      ポケモンバトルの楽しさ、奥深さ、そして強さを求めてさまざまなバトルに挑戦&解説してきたバトル道場。
+    translation: |-
+      待翻译
+    comment: "正文块识别质量较好，适合直接进入校对和翻译流程。"
+  - speaker: "规则"
+    scan_page: 0
+    scan_box: [2846, 2418, 4581, 3232]
+    original: |-
+      今回のバトルのルール
+      ・ポケモンのレベルは1～50まで
+      ・4匹エントリーするダブルバトル
+    translation: |-
+      待翻译`;
+
+    function uid() {
+      return Math.random().toString(36).slice(2) + Date.now().toString(36);
+    }
+
+    function setStatus(text) {
+      els.statusText.textContent = text;
+    }
+
+    function escapeYaml(text, indent = 6) {
+      const pad = " ".repeat(indent);
+      const value = String(text || "").replace(/\r/g, "").trimEnd();
+      if (!value) return `${pad}待翻译`;
+      return value.split("\n").map((line) => `${pad}${line}`).join("\n");
+    }
+
+    function quoteYaml(text) {
+      return `"${String(text || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+    }
+
+    function escapeHtml(text) {
+      return String(text ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
+      })[char]);
+    }
+
+    const learningVocabulary = [
+      { word: "増田", reading: "ますだ", meaning: "人名：增田" },
+      { word: "長官", reading: "ちょうかん", meaning: "长官；这里也可能是人物称呼" },
+      { word: "瀬戸大橋", reading: "せとおおはし", meaning: "濑户大桥" },
+      { word: "橋", reading: "はし", meaning: "桥" },
+      { word: "電飾", reading: "でんしょく", meaning: "灯光装饰、彩灯" },
+      { word: "浜辺", reading: "はまべ", meaning: "海滨、海边" },
+      { word: "海浜公園", reading: "かいひんこうえん", meaning: "海滨公园" },
+      { word: "公園", reading: "こうえん", meaning: "公园" },
+      { word: "場所", reading: "ばしょ", meaning: "地点、场所" },
+      { word: "記念", reading: "きねん", meaning: "纪念" },
+      { word: "夜", reading: "よる", meaning: "夜晚" },
+      { word: "今日", reading: "きょう", meaning: "今天" },
+      { word: "今回", reading: "こんかい", meaning: "这一次" },
+      { word: "当時", reading: "とうじ", meaning: "当时" },
+      { word: "理由", reading: "りゆう", meaning: "理由" },
+      { word: "興味", reading: "きょうみ", meaning: "兴趣" },
+      { word: "環境", reading: "かんきょう", meaning: "环境" },
+      { word: "作品", reading: "さくひん", meaning: "作品" },
+      { word: "作り手", reading: "つくりて", meaning: "创作者、制作方" },
+      { word: "視点", reading: "してん", meaning: "视角、观点" },
+      { word: "仕事", reading: "しごと", meaning: "工作" },
+      { word: "大切", reading: "たいせつ", meaning: "重要、珍惜" },
+      { word: "簡単", reading: "かんたん", meaning: "简单" },
+      { word: "時間", reading: "じかん", meaning: "时间" },
+      { word: "一緒", reading: "いっしょ", meaning: "一起" },
+      { word: "絶対", reading: "ぜったい", meaning: "绝对、一定" },
+      { word: "最後", reading: "さいご", meaning: "最后" },
+      { word: "完成", reading: "かんせい", meaning: "完成" },
+      { word: "楽しい", reading: "たのしい", meaning: "快乐、有趣" },
+      { word: "面白い", reading: "おもしろい", meaning: "有意思、有趣" },
+      { word: "好き", reading: "すき", meaning: "喜欢" },
+      { word: "新しい", reading: "あたらしい", meaning: "新的" },
+      { word: "強い", reading: "つよい", meaning: "强、强大" },
+      { word: "作る", reading: "つくる", meaning: "制作、创造" },
+      { word: "考える", reading: "かんがえる", meaning: "思考、考虑" },
+      { word: "決める", reading: "きめる", meaning: "决定" },
+      { word: "変える", reading: "かえる", meaning: "改变" },
+      { word: "紹介", reading: "しょうかい", meaning: "介绍" },
+      { word: "説明", reading: "せつめい", meaning: "说明、解释" },
+      { word: "ポケモン", reading: "ポケモン", meaning: "宝可梦" },
+      { word: "ゲーム", reading: "ゲーム", meaning: "游戏" }
+    ].sort((a, b) => b.word.length - a.word.length);
+
+    const learningGrammar = [
+      { pattern: /～?んです|のです/, label: "～んです", explanation: "用于说明背景、理由或加强语气，口语采访中非常常见。" },
+      { pattern: /ても/, label: "～ても", explanation: "即使……也……；接在动词て形之后。" },
+      { pattern: /ながら/, label: "～ながら", explanation: "一边……一边……；也可以表示转折“虽然……”。" },
+      { pattern: /という/, label: "～という", explanation: "表示名称、内容或引用，相当于“叫作……／所谓……”。" },
+      { pattern: /ことがある|こともある/, label: "～ことがある", explanation: "表示有时会发生，或曾经有过某种经历。" },
+      { pattern: /なければならない/, label: "～なければならない", explanation: "表示必须做某事。" },
+      { pattern: /ほうがいい/, label: "～ほうがいい", explanation: "用于提出建议：“最好……”。" },
+      { pattern: /ている|てる/, label: "～ている", explanation: "表示正在进行、持续状态或习惯。口语中常缩略为～てる。" },
+      { pattern: /てしまう|ちゃう/, label: "～てしまう／～ちゃう", explanation: "表示动作完成、遗憾或不由自主；～ちゃう是口语缩略。" },
+      { pattern: /ように/, label: "～ように", explanation: "表示目的、期望或方式：“为了……／使得……”。" },
+      { pattern: /そうです|そうですね/, label: "そうです／そうですね", explanation: "表示同意、回应或根据情况判断，采访对话中的常用衔接。" },
+      { pattern: /じゃない/, label: "～じゃない", explanation: "口语否定，也可用于反问或寻求认同。" },
+      { pattern: /でしょう|だろう/, label: "～でしょう／だろう", explanation: "表示推测、确认或较委婉的判断。" },
+      { pattern: /ために/, label: "～ために", explanation: "表示目的或原因：“为了……／因为……”。" },
+      { pattern: /として/, label: "～として", explanation: "表示身份、立场或资格：“作为……”。" }
+    ];
+
+    function splitLearningSentences(text, language = "ja") {
+      const value = String(text || "").replace(/\r/g, "").trim();
+      if (!value || value === "待翻译") return [];
+      const pattern = language === "zh"
+        ? /[^。！？!?；;\n]+[。！？!?；;]?/g
+        : /[^。！？!?\n]+[。！？!?]?/g;
+      const rawParts = (value.match(pattern) || [value]).map((part) => part.trim()).filter(Boolean);
+      const parts = [];
+      rawParts.forEach((part) => {
+        const closing = part.match(/^[」』】）)]+/)?.[0] || "";
+        if (closing && parts.length) {
+          parts[parts.length - 1] += closing;
+          part = part.slice(closing.length).trim();
+        }
+        if (part) parts.push(part);
+      });
+      return parts;
+    }
+
+    function learningSentenceItems() {
+      const sentences = [];
+      state.segments.forEach((segment) => {
+        if (segment.kind === "image" || !String(segment.original || "").trim()) return;
+        const originals = splitLearningSentences(segment.original, "ja");
+        const translations = splitLearningSentences(segment.translation, "zh");
+        originals.forEach((text, sentenceIndex) => {
+          let translation = translations[sentenceIndex] || "";
+          if (!translation && originals.length === 1) translation = segment.translation || "";
+          if (!translation && segment.translation && segment.translation !== "待翻译") translation = segment.translation;
+          sentences.push({
+            key: `${segment.id}:${sentenceIndex}`,
+            segmentId: segment.id,
+            sentenceIndex,
+            text,
+            translation: translation || "待翻译",
+            speaker: segment.speaker,
+            status: segment.status
+          });
+        });
+      });
+      return sentences;
+    }
+
+    function currentLearningSentence() {
+      const items = learningSentenceItems();
+      if (!items.length) return null;
+      state.learningSentenceIndex = Math.max(0, Math.min(items.length - 1, Number(state.learningSentenceIndex || 0)));
+      return items[state.learningSentenceIndex];
+    }
+
+    function vocabularyForSentence(text) {
+      return learningVocabulary.filter((entry) => String(text || "").includes(entry.word));
+    }
+
+    function grammarForSentence(text) {
+      return learningGrammar.filter((entry) => entry.pattern.test(String(text || "")));
+    }
+
+    function rubyHtml(text) {
+      const value = String(text || "");
+      if (!state.learningOptions.ruby) return escapeHtml(value);
+      let index = 0;
+      let html = "";
+      while (index < value.length) {
+        const entry = learningVocabulary.find((candidate) => value.startsWith(candidate.word, index));
+        if (!entry) {
+          html += escapeHtml(value[index]);
+          index += 1;
+          continue;
+        }
+        html += `<ruby>${escapeHtml(entry.word)}<rt>${escapeHtml(entry.reading)}</rt></ruby>`;
+        index += entry.word.length;
+      }
+      return html;
+    }
+
+    function learningDisplayText(sentence) {
+      if (!sentence) return "请先导入访谈内容";
+      if (!state.learningOptions.cloze || state.learningOptions.reveal) return sentence.text;
+      const target = vocabularyForSentence(sentence.text).find((entry) => entry.word.length >= 2);
+      if (!target) return sentence.text.replace(/[一-龯々ぁ-んァ-ヶー]{2,5}/, "＿＿＿");
+      return sentence.text.replace(target.word, `＿＿＿（${target.reading}）`);
+    }
+
+    function isFavoriteSentence(sentence) {
+      return Boolean(sentence && state.learningFavorites.sentences.some((entry) => entry.key === sentence.key));
+    }
+
+    function isFavoriteWord(word) {
+      return state.learningFavorites.words.some((entry) => entry.word === word);
+    }
+
+    function pathBasename(value) {
+      return String(value || "").split(/[\\/]/).filter(Boolean).pop() || "";
+    }
+
+    function pathDirname(value) {
+      const text = String(value || "").replace(/[\\/]+$/, "");
+      const index = Math.max(text.lastIndexOf("\\"), text.lastIndexOf("/"));
+      return index > 0 ? text.slice(0, index) : "";
+    }
+
+    function isLocalAbsolutePath(value) {
+      return /^[A-Za-z]:[\\/]/.test(String(value || "")) || /^\\\\/.test(String(value || ""));
+    }
+
+    function parseScanBox(value) {
+      const numbers = String(value || "").match(/-?\d+(?:\.\d+)?/g)?.slice(0, 4).map(Number) || [];
+      if (numbers.length !== 4 || numbers.some((number) => !Number.isFinite(number))) return null;
+      const [x1, y1, x2, y2] = numbers;
+      return [Math.min(x1, x2), Math.min(y1, y2), Math.max(x1, x2), Math.max(y1, y2)];
+    }
+
+    function drawSourcePlaceholder(message) {
+      const canvas = els.sourceCanvas;
+      const context = canvas.getContext("2d");
+      canvas.width = 960;
+      canvas.height = 300;
+      context.fillStyle = "#f7fafb";
+      context.fillRect(0, 0, canvas.width, canvas.height);
+      context.fillStyle = "#71808a";
+      context.font = "700 18px -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif";
+      context.textAlign = "center";
+      context.textBaseline = "middle";
+      context.fillText(message || "等待原图", canvas.width / 2, canvas.height / 2);
+      applySourceZoom();
+    }
+
+    function drawLearningSourcePlaceholder(message) {
+      const canvas = els.learningSourceCanvas;
+      const context = canvas.getContext("2d");
+      canvas.width = 720;
+      canvas.height = 460;
+      context.fillStyle = "#f7fafb";
+      context.fillRect(0, 0, canvas.width, canvas.height);
+      context.fillStyle = "#71808a";
+      context.font = "700 17px -apple-system, BlinkMacSystemFont, 'Microsoft YaHei', sans-serif";
+      context.textAlign = "center";
+      context.textBaseline = "middle";
+      context.fillText(message || "等待原图", canvas.width / 2, canvas.height / 2);
+    }
+
+    function drawLearningSourceReference() {
+      const sentence = currentLearningSentence();
+      const item = sentence
+        ? state.segments.find((segment) => segment.id === sentence.segmentId)
+        : activeSegment();
+      const image = els.sourceImageLoader;
+      if (!item || !image.naturalWidth || !image.naturalHeight) {
+        drawLearningSourcePlaceholder(item ? "原图尚未载入" : "等待选择句子");
+        els.learningSourceLabel.textContent = item?.pageName || "等待原图";
+        return;
+      }
+      const fullBox = parseScanBox(item.scanBox);
+      let sx = 0;
+      let sy = 0;
+      let sw = image.naturalWidth;
+      let sh = image.naturalHeight;
+      if (fullBox) {
+        const padding = Math.max(28, Math.round(Math.max(fullBox[2] - fullBox[0], fullBox[3] - fullBox[1]) * 0.06));
+        sx = Math.max(0, Math.floor(fullBox[0] - padding));
+        sy = Math.max(0, Math.floor(fullBox[1] - padding));
+        sw = Math.min(image.naturalWidth, Math.ceil(fullBox[2] + padding)) - sx;
+        sh = Math.min(image.naturalHeight, Math.ceil(fullBox[3] + padding)) - sy;
+      }
+      const scale = Math.min(1000 / Math.max(1, sw), 900 / Math.max(1, sh), 1);
+      const canvas = els.learningSourceCanvas;
+      canvas.width = Math.max(1, Math.round(sw * scale));
+      canvas.height = Math.max(1, Math.round(sh * scale));
+      const context = canvas.getContext("2d");
+      context.imageSmoothingEnabled = true;
+      context.imageSmoothingQuality = "high";
+      context.drawImage(image, sx, sy, sw, sh, 0, 0, canvas.width, canvas.height);
+      els.learningSourceLabel.textContent = item.pageName || pathBasename(item.sourceImage) || `P${item.scanPage}`;
+      els.learningSourceStatus.textContent = fullBox
+        ? `当前句来自区域 [${fullBox.join(", ")}]；切换到其他段落时原图会自动同步。`
+        : "当前段落尚无选区坐标，暂时显示整页。";
+    }
+
+    function applySourceZoom() {
+      const zoom = Math.max(0.6, Math.min(2.5, Number(state.sourceZoom || 1)));
+      state.sourceZoom = zoom;
+      els.sourceCanvas.style.width = Math.abs(zoom - 1) < 0.01 ? "auto" : `${Math.round(zoom * 100)}%`;
+      els.sourceCanvas.style.maxWidth = zoom <= 1 ? "100%" : "none";
+      els.sourceZoomResetBtn.textContent = `${Math.round(zoom * 100)}%`;
+    }
+
+    function setSourceZoom(value) {
+      state.sourceZoom = Math.max(0.6, Math.min(2.5, Number(value || 1)));
+      applySourceZoom();
+    }
+
+    function drawSourceReference() {
+      const item = activeSegment();
+      const image = els.sourceImageLoader;
+      if (!item || !image.naturalWidth || !image.naturalHeight) {
+        drawSourcePlaceholder(item ? "原图尚未载入" : "等待选择段落");
+        return;
+      }
+      const fullBox = parseScanBox(els.scanBoxInput.value || item.scanBox);
+      let sx = 0;
+      let sy = 0;
+      let sw = image.naturalWidth;
+      let sh = image.naturalHeight;
+      if (state.sourceMode === "crop" && fullBox) {
+        const padding = Math.max(24, Math.round(Math.max(fullBox[2] - fullBox[0], fullBox[3] - fullBox[1]) * 0.045));
+        sx = Math.max(0, Math.floor(fullBox[0] - padding));
+        sy = Math.max(0, Math.floor(fullBox[1] - padding));
+        sw = Math.min(image.naturalWidth, Math.ceil(fullBox[2] + padding)) - sx;
+        sh = Math.min(image.naturalHeight, Math.ceil(fullBox[3] + padding)) - sy;
+      }
+      const scale = Math.min(1200 / Math.max(1, sw), 900 / Math.max(1, sh), 1);
+      const canvas = els.sourceCanvas;
+      canvas.width = Math.max(1, Math.round(sw * scale));
+      canvas.height = Math.max(1, Math.round(sh * scale));
+      const context = canvas.getContext("2d");
+      context.imageSmoothingEnabled = true;
+      context.imageSmoothingQuality = "high";
+      context.drawImage(image, sx, sy, sw, sh, 0, 0, canvas.width, canvas.height);
+      if (state.sourceMode === "page" && fullBox) {
+        const boxScaleX = canvas.width / image.naturalWidth;
+        const boxScaleY = canvas.height / image.naturalHeight;
+        context.save();
+        context.strokeStyle = "#e75137";
+        context.fillStyle = "rgba(231, 81, 55, 0.14)";
+        context.lineWidth = Math.max(2, canvas.width / 350);
+        const x = fullBox[0] * boxScaleX;
+        const y = fullBox[1] * boxScaleY;
+        const width = (fullBox[2] - fullBox[0]) * boxScaleX;
+        const height = (fullBox[3] - fullBox[1]) * boxScaleY;
+        context.fillRect(x, y, width, height);
+        context.strokeRect(x, y, width, height);
+        context.restore();
+      }
+      if (state.sourceMode === "page" && state.reboxDraft) {
+        const draft = state.reboxDraft;
+        const boxScaleX = canvas.width / image.naturalWidth;
+        const boxScaleY = canvas.height / image.naturalHeight;
+        context.save();
+        context.strokeStyle = "#1d9b69";
+        context.fillStyle = "rgba(29, 155, 105, 0.18)";
+        context.lineWidth = Math.max(2, canvas.width / 300);
+        context.setLineDash([10, 6]);
+        const x = draft[0] * boxScaleX;
+        const y = draft[1] * boxScaleY;
+        const width = (draft[2] - draft[0]) * boxScaleX;
+        const height = (draft[3] - draft[1]) * boxScaleY;
+        context.fillRect(x, y, width, height);
+        context.strokeRect(x, y, width, height);
+        context.restore();
+      }
+      applySourceZoom();
+      els.sourceStatus.textContent = `${item.pageName || pathBasename(item.sourceImage) || "当前页"} · ${state.sourceMode === "crop" ? "当前文字区域" : "整页高亮"}${fullBox ? ` · [${fullBox.join(", ")}]` : " · 尚无坐标"}`;
+    }
+
+    function sourceCanvasPoint(event) {
+      const image = els.sourceImageLoader;
+      const rect = els.sourceCanvas.getBoundingClientRect();
+      if (!image.naturalWidth || !image.naturalHeight || !rect.width || !rect.height) return null;
+      return {
+        x: Math.max(0, Math.min(image.naturalWidth, Math.round((event.clientX - rect.left) / rect.width * image.naturalWidth))),
+        y: Math.max(0, Math.min(image.naturalHeight, Math.round((event.clientY - rect.top) / rect.height * image.naturalHeight)))
+      };
+    }
+
+    function setReboxMode(active) {
+      state.reboxMode = Boolean(active);
+      state.reboxStart = null;
+      state.reboxDraft = null;
+      els.sourceCanvas.classList.toggle("is-rebox-mode", state.reboxMode);
+      els.reboxRegionBtn.classList.toggle("primary", state.reboxMode);
+      els.reboxRegionBtn.textContent = state.reboxMode ? "取消框选" : "重新框选";
+      if (state.reboxMode) {
+        state.sourceMode = "page";
+        setSourceZoom(1);
+        els.sourcePageBtn.classList.add("primary");
+        els.sourceCropBtn.classList.remove("primary");
+      }
+      drawSourceReference();
+      if (state.reboxMode) els.sourceStatus.textContent = "在整页原图上拖出新的文字范围；松开鼠标后会自动保存坐标。";
+    }
+
+    function mappedSourceUrl(item) {
+      const keys = [item?.pageName, pathBasename(item?.sourceImage)].filter(Boolean).map((key) => key.toLowerCase());
+      for (const key of keys) {
+        if (state.sourceFiles.has(key)) return state.sourceFiles.get(key);
+      }
+      const direct = String(item?.sourceImage || "").trim();
+      if (direct && !isLocalAbsolutePath(direct)) return direct;
+      const scanPath = els.scanImage.value.trim();
+      if (!scanPath || isLocalAbsolutePath(scanPath)) return "";
+      if (!item?.pageName) return scanPath;
+      const clean = scanPath.split(/[?#]/)[0];
+      if (/\.[A-Za-z0-9]{2,5}$/.test(clean)) return scanPath.replace(/[^/?#]+(?=([?#]|$))/, encodeURIComponent(item.pageName));
+      return `${scanPath.replace(/\/$/, "")}/${encodeURIComponent(item.pageName)}`;
+    }
+
+    function hasMappedSource(item) {
+      const keys = [item?.pageName, pathBasename(item?.sourceImage)].filter(Boolean).map((key) => key.toLowerCase());
+      return keys.some((key) => state.sourceFiles.has(key));
+    }
+
+    async function tryRememberedSourceFolders(item) {
+      let remembered = {};
+      try {
+        remembered = JSON.parse(localStorage.getItem("pokeamice.magazineRegionAnnotator.imageDirMap.v1") || "{}");
+      } catch (_) {}
+      const folders = [...new Set(Object.values(remembered).map(String).filter(Boolean))];
+      for (const folder of folders) {
+        try {
+          await selectSourceFolder(folder, true);
+          if (hasMappedSource(item)) return true;
+        } catch (_) {}
+      }
+      return false;
+    }
+
+    async function selectSourceFolder(requestedPath = "", silent = false) {
+      if (!silent) els.sourceStatus.textContent = "正在读取原图文件夹…";
+      const response = await fetch("/api/select-image-folder", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ path: requestedPath || "" })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(data.error || `原图文件夹读取失败（${response.status}）`);
+      if (data.cancelled) return false;
+      applySourceFolderData(data, requestedPath);
+      return true;
+    }
+
+    function applySourceFolderData(data, requestedPath = "") {
+      state.sourceFolderToken = data.token || "";
+      state.sourceFolderPath = data.folder || requestedPath || "";
+      state.sourceFiles = new Map();
+      (data.files || []).forEach((file) => {
+        const url = file.url;
+        [file.name, file.relativePath, pathBasename(file.relativePath)].filter(Boolean).forEach((key) => {
+          state.sourceFiles.set(String(key).toLowerCase(), url);
+        });
+      });
+      els.sourceFolder.value = state.sourceFolderPath;
+      persist();
+    }
+
+    async function resolveSourceImageFromOutputs(item) {
+      if (!item?.pageName) return false;
+      const response = await fetch("/api/resolve-source-image", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ pageName: item.pageName })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || data.found === false || !data.files?.length) return false;
+      applySourceFolderData(data, data.folder || "");
+      item.sourceImage = data.sourceImage || item.sourceImage;
+      persist();
+      return hasMappedSource(item);
+    }
+
+    async function updateSourceReference(item = activeSegment()) {
+      const requestId = ++state.sourceRequestId;
+      if (!item) {
+        drawSourcePlaceholder("等待选择段落");
+        drawLearningSourcePlaceholder("等待选择句子");
+        els.sourceStatus.textContent = "导入分区 OCR 后，会自动显示当前文字框的原图。";
+        return;
+      }
+      const localFolder = isLocalAbsolutePath(item.sourceImage) ? pathDirname(item.sourceImage) : "";
+      if (localFolder && (!state.sourceFolderPath || state.sourceFolderPath.toLowerCase() !== localFolder.toLowerCase())) {
+        try {
+          await selectSourceFolder(localFolder, true);
+        } catch (error) {
+          if (requestId !== state.sourceRequestId) return;
+          els.sourceStatus.textContent = `原图文件夹无法自动读取：${error.message}`;
+        }
+      }
+      if (!localFolder && !hasMappedSource(item) && els.sourceFolder.value.trim() && state.sourceFolderPath !== els.sourceFolder.value.trim()) {
+        try {
+          await selectSourceFolder(els.sourceFolder.value.trim(), true);
+        } catch (_) {}
+      }
+      if (!localFolder && !hasMappedSource(item) && !item.sourceImage) {
+        await tryRememberedSourceFolders(item);
+      }
+      if (!hasMappedSource(item) && !item.sourceImage) {
+        try {
+          await resolveSourceImageFromOutputs(item);
+        } catch (_) {}
+      }
+      if (requestId !== state.sourceRequestId) return;
+      const url = mappedSourceUrl(item);
+      if (!url) {
+        drawSourcePlaceholder("请选择原图文件夹");
+        drawLearningSourcePlaceholder("请选择原图文件夹");
+        els.sourceStatus.textContent = `找不到 ${item.pageName || "当前页"} 的原图。可点击右侧“选择文件夹”。`;
+        return;
+      }
+      els.sourceStatus.textContent = "正在载入原图…";
+      els.sourceImageLoader.onload = () => {
+        if (requestId !== state.sourceRequestId) return;
+        drawSourceReference();
+        drawLearningSourceReference();
+      };
+      els.sourceImageLoader.onerror = () => {
+        if (requestId !== state.sourceRequestId) return;
+        drawSourcePlaceholder("原图载入失败");
+        drawLearningSourcePlaceholder("原图载入失败");
+        els.sourceStatus.textContent = `无法载入 ${item.pageName || url}，请检查原图文件夹或扫描图路径。`;
+      };
+      els.sourceImageLoader.src = url;
+    }
+
+    function parseScalar(block, key, fallback = "") {
+      const match = block.match(new RegExp(`^\\s*${key}:\\s*(.+?)\\s*$`, "m"));
+      if (!match) return fallback;
+      const value = match[1].trim();
+      if (value.startsWith('"') && value.endsWith('"')) {
+        try {
+          return JSON.parse(value);
+        } catch (_) {}
+      }
+      if (value.startsWith("'") && value.endsWith("'")) {
+        return value.slice(1, -1).replace(/''/g, "'");
+      }
+      return value;
+    }
+
+    function parseBlockText(block, key) {
+      const lines = block.replace(/\r/g, "").split("\n");
+      const start = lines.findIndex((line) => new RegExp(`^\\s*${key}:\\s*\\|-?\\s*$`).test(line));
+      if (start < 0) return parseScalar(block, key, "");
+      const out = [];
+      for (let i = start + 1; i < lines.length; i += 1) {
+        const line = lines[i];
+        if (/^\s{4}[A-Za-z_][\w_-]*:/.test(line) || /^\s{2}-\s+/.test(line)) break;
+        out.push(line.replace(/^\s{6}/, "").replace(/^\s{4}/, ""));
+      }
+      return out.join("\n").trim();
+    }
+
+    function parseComments(block) {
+      const comments = [];
+      const single = parseScalar(block, "comment", "");
+      if (single) comments.push(single);
+      const lines = block.replace(/\r/g, "").split("\n");
+      const start = lines.findIndex((line) => /^\s*comments:\s*$/.test(line));
+      if (start >= 0) {
+        for (let i = start + 1; i < lines.length; i += 1) {
+          const line = lines[i];
+          if (/^\s{4}[A-Za-z_][\w_-]*:/.test(line) || /^\s{2}-\s+/.test(line)) break;
+          const match = line.match(/^\s*-\s+(.+)$/);
+          if (match) comments.push(match[1].trim().replace(/^["']|["']$/g, ""));
+        }
+      }
+      return comments;
+    }
+
+    function normalizeSegment(item, index = 0) {
+      const annotationNote = String(item.annotationNote ?? item.annotation_note ?? "").trim();
+      const regionType = String(item.regionType ?? item.region_type ?? item.type ?? "");
+      const kind = String(item.kind || (regionType === "image" ? "image" : regionType === "caption" ? "caption" : "text"));
+      const comments = Array.isArray(item.comments)
+        ? item.comments.map(String).filter(Boolean)
+        : String(item.comments || item.comment || "").split("\n").filter(Boolean);
+      if (annotationNote && !comments.includes(annotationNote)) comments.unshift(annotationNote);
+      return {
+        id: item.id || uid(),
+        speaker: item.speaker || `段落 ${index + 1}`,
+        scanPage: Number(item.scanPage ?? item.scan_page ?? 0),
+        scanBox: Array.isArray(item.scanBox || item.scan_box) ? (item.scanBox || item.scan_box).join(", ") : String(item.scanBox || item.scan_box || ""),
+        original: kind === "image" ? "" : (item.original || ""),
+        translation: item.translation == null ? "" : String(item.translation),
+        comments,
+        status: item.status || "ocr",
+        pageName: String(item.pageName ?? item.page_name ?? item.page ?? ""),
+        regionType,
+        regionOrder: Number(item.regionOrder ?? item.region_order ?? item.order ?? index + 1),
+        regionAngle: Number(item.regionAngle ?? item.region_angle ?? item.angle ?? 0),
+        exclusions: Array.isArray(item.exclusions) ? JSON.stringify(item.exclusions) : String(item.exclusions || ""),
+        regionId: String(item.regionId ?? item.region_id ?? ""),
+        groupId: String(item.groupId ?? item.group_id ?? ""),
+        annotationNote,
+        kind,
+        imagePath: String(item.imagePath ?? item.image ?? ""),
+        imageAlt: String(item.imageAlt ?? item.alt ?? item.speaker ?? "杂志图片"),
+        captionFor: String(item.captionFor ?? item.caption_for ?? item.imageRef ?? item.image_ref ?? ""),
+        writingDirection: String(item.writingDirection ?? item.writing_direction ?? "auto"),
+        sourceImage: String(item.sourceImage ?? item.source_image ?? item.scanImage ?? item.scan_image ?? ""),
+        ocrHistory: Array.isArray(item.ocrHistory) ? item.ocrHistory : []
+      };
+    }
+
+    function parseSegmentsYaml(text) {
+      const normalized = String(text || "").replace(/\r/g, "");
+      const yamlParts = normalized.split(/translation_segments:[^\S\n]*(?:\n|$)/);
+      const body = yamlParts.length > 1 ? yamlParts[1] : normalized;
+      const blocks = [];
+      const matches = [...body.matchAll(/(^|\n)\s{2}-\s+(?=[A-Za-z_][\w_-]*:)/g)];
+      matches.forEach((match, index) => {
+        const start = match.index + match[1].length;
+        const end = index + 1 < matches.length ? matches[index + 1].index + matches[index + 1][1].length : body.length;
+        const block = body.slice(start, end).replace(/^\s{2}-\s+/, "");
+        if (block.trim()) blocks.push(block);
+      });
+      if (!blocks.length && body.trim()) {
+        blocks.push(body.replace(/^\s*-\s+/, ""));
+      }
+      return blocks.map((block, index) => {
+        const box = parseScalar(block, "scan_box", "").replace(/^\[|\]$/g, "");
+        return normalizeSegment({
+          speaker: parseScalar(block, "speaker", `段落 ${index + 1}`),
+          scan_page: parseScalar(block, "scan_page", "0"),
+          scan_box: box,
+          original: parseBlockText(block, "original"),
+          translation: parseBlockText(block, "translation"),
+          comments: parseComments(block),
+          page_name: parseScalar(block, "page_name", ""),
+          region_type: parseScalar(block, "region_type", parseScalar(block, "type", "")),
+          order: parseScalar(block, "order", String(index + 1)),
+          angle: parseScalar(block, "angle", "0"),
+          exclusions: parseScalar(block, "exclusions", ""),
+          region_id: parseScalar(block, "region_id", ""),
+          group_id: parseScalar(block, "group_id", ""),
+          annotation_note: parseScalar(block, "annotation_note", ""),
+          kind: parseScalar(block, "kind", ""),
+          image: parseScalar(block, "image", ""),
+          alt: parseScalar(block, "alt", ""),
+          caption_for: parseScalar(block, "caption_for", parseScalar(block, "image_ref", "")),
+          writing_direction: parseScalar(block, "writing_direction", "auto"),
+          source_image: parseScalar(block, "source_image", parseScalar(block, "scan_image", ""))
+        }, index);
+      });
+    }
+
+    function parseRegionsMarkdown(text) {
+      const sections = String(text || "").replace(/\r/g, "").split(/^##\s+/m).slice(1);
+      const pageIndexes = new Map();
+      return sections.map((section, index) => {
+        const lines = section.split("\n");
+        const title = lines.shift().trim();
+        const metadata = {};
+        while (lines.length && !lines[0].trim()) lines.shift();
+        while (lines.length) {
+          const match = lines[0].match(/^\s*-\s+([A-Za-z_][\w-]*):\s*(.*)\s*$/);
+          if (!match) break;
+          metadata[match[1].toLowerCase().replace(/-/g, "_")] = match[2].trim().replace(/^(["'])(.*)\1$/, "$2");
+          lines.shift();
+        }
+        while (lines.length && !lines[0].trim()) lines.shift();
+        const pageName = metadata.page_name || metadata.page || "";
+        if (pageName && !pageIndexes.has(pageName)) pageIndexes.set(pageName, pageIndexes.size);
+        const scanPage = metadata.page_index !== undefined
+          ? Number(metadata.page_index || 0)
+          : (pageIndexes.get(pageName) ?? 0);
+        const scanBox = String(metadata.scan_box || metadata.box || "").replace(/^\[|\]$/g, "");
+        const annotationNote = metadata.annotation_note || metadata.note || "";
+        return normalizeSegment({
+          speaker: metadata.speaker || title.replace(/^\d+\.\s*/, ""),
+          scan_page: scanPage,
+          scan_box: scanBox,
+          original: (metadata.kind === "image" || metadata.type === "image" || metadata.region_type === "image") ? "" : lines.join("\n").trim(),
+          translation: "",
+          comments: annotationNote ? [annotationNote] : [],
+          page_name: pageName,
+          region_type: metadata.region_type || metadata.type || "",
+          order: metadata.order || String(index + 1),
+          angle: metadata.angle || "0",
+          exclusions: metadata.exclusions || "",
+          region_id: metadata.region_id || "",
+          group_id: metadata.group_id || "",
+          annotation_note: annotationNote,
+          kind: metadata.kind || "",
+          image: metadata.image || "",
+          alt: metadata.alt || "",
+          caption_for: metadata.caption_for || metadata.image_ref || "",
+          writing_direction: metadata.writing_direction || "auto",
+          source_image: metadata.source_image || metadata.scan_image || ""
+        }, index);
+      });
+    }
+
+    function parseExistingPost(text) {
+      const match = String(text || "").replace(/\r/g, "").match(/translation_segments:\n([\s\S]*?)\n---/);
+      return parseSegmentsYaml(match ? `translation_segments:\n${match[1]}` : text);
+    }
+
+    function guessImportMode(filename, text) {
+      const name = String(filename || "").toLowerCase();
+      const content = String(text || "");
+      if (name.endsWith(".yml") || name.endsWith(".yaml") || content.includes("translation_segments:")) return "segments";
+      if (name.includes("regions-ocr") || /^#\s+Region OCR/m.test(content) || /^##\s+\d+\..*\n\s*\n?-\s+page:/m.test(content)) return "regions";
+      if (name.endsWith(".md") || name.endsWith(".markdown")) return "post";
+      return "segments";
+    }
+
+    function activeSegment() {
+      return state.segments.find((item) => item.id === state.activeId) || state.segments[0] || null;
+    }
+
+    function renderSegmentNavigator() {
+      const index = state.segments.findIndex((item) => item.id === state.activeId);
+      els.segmentPosition.textContent = state.segments.length ? `${Math.max(0, index) + 1} / ${state.segments.length}` : "0 / 0";
+      els.segmentJumpSelect.replaceChildren();
+      state.segments.forEach((item, itemIndex) => {
+        const option = document.createElement("option");
+        option.value = item.id;
+        const excerpt = (item.original || item.imageAlt || "").replace(/\s+/g, " ").slice(0, 28);
+        option.textContent = `${itemIndex + 1}. ${item.speaker || "未命名"}${excerpt ? ` — ${excerpt}` : ""}`;
+        els.segmentJumpSelect.appendChild(option);
+      });
+      if (index >= 0) els.segmentJumpSelect.value = state.activeId;
+      els.segmentJumpSelect.disabled = !state.segments.length;
+      els.prevBtn.disabled = index <= 0;
+      els.nextBtn.disabled = index < 0 || index >= state.segments.length - 1;
+    }
+
+    function activateSegment(id) {
+      if (!state.segments.some((item) => item.id === id)) return;
+      saveActive();
+      state.activeId = id;
+      render();
+    }
+
+    function setImmersiveMode(active) {
+      state.immersive = Boolean(active);
+      document.body.classList.toggle("immersive-mode", state.immersive);
+      els.immersiveBtn.textContent = state.immersive ? "退出沉浸" : "沉浸校对";
+      els.immersiveBtn.setAttribute("aria-pressed", String(state.immersive));
+      window.setTimeout(() => {
+        drawSourceReference();
+        els.originalInput.focus();
+      }, 80);
+    }
+
+    function setLearningToggle(button, active) {
+      button.classList.toggle("is-on", Boolean(active));
+      button.setAttribute("aria-pressed", String(Boolean(active)));
+    }
+
+    function setLearningMode(active) {
+      saveActive();
+      if (active && state.immersive) setImmersiveMode(false);
+      state.learningMode = Boolean(active);
+      document.body.classList.toggle("learning-mode", state.learningMode);
+      els.learningModeBtn.textContent = state.learningMode ? "退出学习" : "学习模式";
+      els.learningModeBtn.setAttribute("aria-pressed", String(state.learningMode));
+      if (state.learningMode) {
+        const items = learningSentenceItems();
+        const remembered = items[state.learningSentenceIndex];
+        if (!remembered || remembered.segmentId !== state.activeId) {
+          const currentIndex = items.findIndex((sentence) => sentence.segmentId === state.activeId);
+          if (currentIndex >= 0) state.learningSentenceIndex = currentIndex;
+        }
+        renderLearning();
+        window.setTimeout(drawLearningSourceReference, 80);
+      }
+      persist();
+    }
+
+    function activateLearningSentence(index) {
+      const items = learningSentenceItems();
+      if (!items.length) return;
+      saveActive();
+      state.learningSentenceIndex = Math.max(0, Math.min(items.length - 1, Number(index || 0)));
+      const sentence = items[state.learningSentenceIndex];
+      const segmentChanged = sentence.segmentId !== state.activeId;
+      state.activeId = sentence.segmentId;
+      if (segmentChanged) loadActive();
+      renderList();
+      renderLearning();
+      if (!segmentChanged) drawLearningSourceReference();
+      persist();
+    }
+
+    function toggleFavoriteSentence() {
+      const sentence = currentLearningSentence();
+      if (!sentence) return;
+      const index = state.learningFavorites.sentences.findIndex((entry) => entry.key === sentence.key);
+      if (index >= 0) {
+        state.learningFavorites.sentences.splice(index, 1);
+      } else {
+        state.learningFavorites.sentences.push({
+          key: sentence.key,
+          text: sentence.text,
+          translation: sentence.translation,
+          speaker: sentence.speaker
+        });
+      }
+      persist();
+      renderLearning();
+    }
+
+    function toggleFavoriteWord(entry) {
+      const index = state.learningFavorites.words.findIndex((item) => item.word === entry.word);
+      if (index >= 0) state.learningFavorites.words.splice(index, 1);
+      else state.learningFavorites.words.push({ ...entry });
+      persist();
+      renderLearning();
+    }
+
+    function renderLearningCards(container, entries, type) {
+      container.replaceChildren();
+      if (!entries.length) {
+        const empty = document.createElement("div");
+        empty.className = "learning-empty";
+        empty.textContent = type === "vocab" ? "当前句暂未匹配到内置词汇，可以先收藏整句。" : "当前句没有匹配到需要特别说明的语法。";
+        container.appendChild(empty);
+        return;
+      }
+      entries.forEach((entry) => {
+        const card = document.createElement("div");
+        card.className = "learning-card";
+        const title = document.createElement("strong");
+        title.textContent = type === "vocab" ? `${entry.word}（${entry.reading}）` : entry.label;
+        card.appendChild(title);
+        if (type === "vocab") {
+          const favorite = document.createElement("button");
+          favorite.type = "button";
+          favorite.textContent = isFavoriteWord(entry.word) ? "★" : "☆";
+          favorite.title = isFavoriteWord(entry.word) ? "取消收藏词汇" : "收藏词汇";
+          favorite.addEventListener("click", () => toggleFavoriteWord(entry));
+          card.appendChild(favorite);
+        }
+        const description = document.createElement("p");
+        description.textContent = type === "vocab" ? entry.meaning : entry.explanation;
+        card.appendChild(description);
+        container.appendChild(card);
+      });
+    }
+
+    function renderLearningFavorites() {
+      els.learningFavorites.replaceChildren();
+      const label = document.createElement("strong");
+      label.className = "small";
+      label.textContent = "收藏";
+      els.learningFavorites.appendChild(label);
+      const sentences = state.learningFavorites.sentences;
+      const words = state.learningFavorites.words;
+      if (!sentences.length && !words.length) {
+        const empty = document.createElement("span");
+        empty.className = "learning-favorite-item";
+        empty.textContent = "收藏句子或词汇后会显示在这里，并自动保存。";
+        els.learningFavorites.appendChild(empty);
+        return;
+      }
+      sentences.forEach((favorite) => {
+        const liveSentence = learningSentenceItems().find((sentence) => sentence.key === favorite.key);
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "learning-favorite-item";
+        button.textContent = `句子 · ${liveSentence?.text || favorite.text}`;
+        button.title = "跳转到收藏句子";
+        button.addEventListener("click", () => {
+          const index = learningSentenceItems().findIndex((sentence) => sentence.key === favorite.key);
+          if (index >= 0) activateLearningSentence(index);
+        });
+        els.learningFavorites.appendChild(button);
+      });
+      words.forEach((favorite) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "learning-favorite-item";
+        button.textContent = `词汇 · ${favorite.word}（${favorite.reading}）`;
+        button.title = "点击取消收藏词汇";
+        button.addEventListener("click", () => toggleFavoriteWord(favorite));
+        els.learningFavorites.appendChild(button);
+      });
+    }
+
+    function renderLearning() {
+      const items = learningSentenceItems();
+      const sentence = currentLearningSentence();
+      const options = state.learningOptions;
+      els.learningPosition.textContent = items.length ? `${state.learningSentenceIndex + 1} / ${items.length}` : "0 / 0";
+      els.learningPrevBtn.disabled = !items.length || state.learningSentenceIndex <= 0;
+      els.learningNextBtn.disabled = !items.length || state.learningSentenceIndex >= items.length - 1;
+      setLearningToggle(els.learningRubyBtn, options.ruby);
+      setLearningToggle(els.learningVocabBtn, options.vocab);
+      setLearningToggle(els.learningGrammarBtn, options.grammar);
+      setLearningToggle(els.learningHideTranslationBtn, options.hideTranslation);
+      setLearningToggle(els.learningClozeBtn, options.cloze);
+      els.learningRevealBtn.hidden = !options.cloze;
+      els.learningRevealBtn.classList.toggle("is-on", options.reveal);
+      els.learningRevealBtn.textContent = options.reveal ? "隐藏答案" : "显示答案";
+
+      if (!sentence) {
+        els.learningSpeaker.textContent = "日文精读";
+        els.learningSentenceStatus.textContent = "无内容";
+        els.learningSentenceList.replaceChildren();
+        els.learningJapanese.textContent = "请先导入访谈内容";
+        els.learningTranslation.textContent = "待翻译";
+        renderLearningCards(els.learningVocabList, [], "vocab");
+        renderLearningCards(els.learningGrammarList, [], "grammar");
+        renderLearningFavorites();
+        drawLearningSourcePlaceholder("等待选择句子");
+        return;
+      }
+
+      const segment = state.segments.find((item) => item.id === sentence.segmentId);
+      const segmentSentences = items.filter((item) => item.segmentId === sentence.segmentId);
+      els.learningSpeaker.textContent = sentence.speaker || "日文精读";
+      els.learningSentenceStatus.textContent = statusLabel(sentence.status);
+      els.learningSentenceStatus.className = `badge ${statusClass(sentence.status)}`;
+      els.learningSentenceList.replaceChildren();
+      segmentSentences.forEach((item, localIndex) => {
+        const globalIndex = items.findIndex((candidate) => candidate.key === item.key);
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `learning-sentence-chip${item.key === sentence.key ? " is-active" : ""}`;
+        button.textContent = `句 ${localIndex + 1}`;
+        button.title = item.text;
+        button.addEventListener("click", () => activateLearningSentence(globalIndex));
+        els.learningSentenceList.appendChild(button);
+      });
+
+      const displayText = learningDisplayText(sentence);
+      els.learningJapanese.innerHTML = rubyHtml(displayText);
+      els.learningReadingHint.textContent = options.ruby
+        ? "振假名来自第一版内置词典；未收录的人名和专有名词仍以原文显示。"
+        : "开启“振假名”可显示词典中已有的读音。";
+      els.learningTranslation.classList.toggle("is-hidden", options.hideTranslation);
+      els.learningTranslation.textContent = options.hideTranslation ? "翻译已隐藏 · 点击上方按钮恢复" : sentence.translation;
+      els.learningVocabSection.hidden = !options.vocab;
+      els.learningGrammarSection.hidden = !options.grammar;
+      renderLearningCards(els.learningVocabList, vocabularyForSentence(sentence.text), "vocab");
+      renderLearningCards(els.learningGrammarList, grammarForSentence(sentence.text), "grammar");
+      const favorite = isFavoriteSentence(sentence);
+      els.learningFavoriteSentenceBtn.textContent = favorite ? "★ 已收藏" : "☆ 收藏句子";
+      els.learningFavoriteSentenceBtn.classList.toggle("is-on", favorite);
+      const favoriteCount = state.learningFavorites.sentences.length + state.learningFavorites.words.length;
+      els.learningFavoriteCount.textContent = `收藏 ${favoriteCount}`;
+      els.learningSourceLabel.textContent = segment?.pageName || `P${segment?.scanPage ?? 0}`;
+      renderLearningFavorites();
+    }
+
+    function saveActive() {
+      const item = activeSegment();
+      if (!item) return;
+      item.speaker = els.speakerInput.value.trim() || item.speaker;
+      item.status = els.statusInput.value;
+      item.scanPage = Number(els.scanPageInput.value || 0);
+      item.scanBox = els.scanBoxInput.value.trim();
+      item.writingDirection = els.writingDirectionInput.value || "auto";
+      item.regionAngle = Number(els.regionAngleInput.value || 0);
+      item.original = els.originalInput.value;
+      item.translation = els.translationInput.value;
+      item.comments = els.commentsInput.value.split("\n").map((line) => line.trim()).filter(Boolean);
+      persist();
+    }
+
+    function regionMetadataEntries(item) {
+      if (!item) return [];
+      return [
+        item.pageName ? `文件 ${item.pageName}` : "",
+        item.regionType ? `类型 ${item.regionType}` : "",
+        Number.isFinite(item.regionOrder) ? `顺序 ${item.regionOrder}` : "",
+        Number(item.regionAngle) ? `旋转 ${item.regionAngle}°` : "",
+        item.regionId ? `区域 ${item.regionId}` : "",
+        item.groupId ? `合并组 ${item.groupId}` : "",
+        item.kind === "image" ? "版面元素 图片（不参与 OCR / 翻译）" : "",
+        item.captionFor ? `图注对应 ${item.captionFor}` : "",
+        item.imagePath ? `图片 ${item.imagePath}` : "",
+        item.sourceImage ? `原图 ${item.sourceImage}` : "",
+        item.kind !== "image" && item.writingDirection !== "auto" ? `文字方向 ${item.writingDirection === "vertical" ? "竖排" : "横排"}` : "",
+        item.exclusions && item.exclusions !== "[]" ? `排除区 ${item.exclusions}` : ""
+      ].filter(Boolean);
+    }
+
+    function renderRegionMetadata(item) {
+      const entries = regionMetadataEntries(item);
+      els.regionMeta.replaceChildren();
+      els.regionMeta.hidden = !entries.length;
+      entries.forEach((text) => {
+        const tag = document.createElement("span");
+        tag.textContent = text;
+        els.regionMeta.appendChild(tag);
+      });
+    }
+
+    function loadActive() {
+      state.reboxMode = false;
+      state.reboxStart = null;
+      state.reboxDraft = null;
+      els.sourceCanvas.classList.remove("is-rebox-mode");
+      els.reboxRegionBtn.classList.remove("primary");
+      els.reboxRegionBtn.textContent = "重新框选";
+      const item = activeSegment();
+      if (!item) {
+        els.activeTitle.textContent = "尚未导入段落";
+        els.activeMeta.textContent = "导入 OCR 输出后开始整理";
+        [els.speakerInput, els.scanPageInput, els.scanBoxInput, els.regionAngleInput, els.originalInput, els.translationInput, els.commentsInput].forEach((el) => el.value = "");
+        els.writingDirectionInput.value = "auto";
+        renderRegionMetadata(null);
+        els.originalFieldGroup.hidden = false;
+        els.translationFieldGroup.hidden = false;
+        els.reboxRegionBtn.disabled = true;
+        els.rerunRegionOcrBtn.disabled = true;
+        els.restorePreviousOcrBtn.disabled = true;
+        updateSourceReference(null);
+        updatePreview();
+        return;
+      }
+      state.activeId = item.id;
+      els.activeTitle.textContent = item.speaker;
+      els.activeMeta.textContent = [
+        item.pageName || `第 ${item.scanPage + 1} 页`,
+        item.regionType ? `类型：${item.regionType}` : "",
+        `顺序：${item.regionOrder}`,
+        `坐标：${item.scanBox || "未设置"}`,
+        Number(item.regionAngle) ? `旋转：${item.regionAngle}°` : ""
+      ].filter(Boolean).join(" / ");
+      els.speakerInput.value = item.speaker;
+      els.statusInput.value = item.status;
+      els.scanPageInput.value = item.scanPage;
+      els.scanBoxInput.value = item.scanBox;
+      els.writingDirectionInput.value = item.writingDirection || "auto";
+      els.regionAngleInput.value = Number(item.regionAngle || 0);
+      els.originalInput.value = item.original;
+      els.translationInput.value = item.translation;
+      els.commentsInput.value = item.comments.join("\n");
+      const isImage = item.kind === "image";
+      els.originalFieldGroup.hidden = isImage;
+      els.translationFieldGroup.hidden = isImage;
+      els.markDoneBtn.textContent = isImage ? "图片已确认" : "标记完成";
+      els.reboxRegionBtn.disabled = isImage;
+      els.rerunRegionOcrBtn.disabled = isImage || state.rerunBusy;
+      els.restorePreviousOcrBtn.disabled = !item.ocrHistory?.length;
+      renderRegionMetadata(item);
+      updateSourceReference(item);
+      updatePreview();
+    }
+
+    function statusLabel(status) {
+      return {
+        ocr: "OCR 初稿",
+        checked: "已校对",
+        translated: "已翻译",
+        review: "需复核"
+      }[status] || status;
+    }
+
+    function statusClass(status) {
+      return status === "translated" ? "done" : status === "review" ? "warn" : "todo";
+    }
+
+    function filteredSegments() {
+      const query = els.searchText.value.trim().toLowerCase();
+      return state.segments.filter((item) => {
+        const statusOk = els.filterStatus.value === "all" || item.status === els.filterStatus.value;
+        const text = [item.speaker, item.original, item.translation, item.comments.join(" ")].join(" ").toLowerCase();
+        return statusOk && (!query || text.includes(query));
+      });
+    }
+
+    function renderList() {
+      const items = filteredSegments();
+      els.segmentCount.textContent = `${items.length} / ${state.segments.length}`;
+      els.segmentList.innerHTML = "";
+      items.forEach((item, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `segment-item${item.id === state.activeId ? " is-active" : ""}`;
+        button.innerHTML = `
+          <strong>${index + 1}. ${item.speaker || "未命名段落"}</strong>
+          <small>${item.kind === "image" ? `图片资源 · ${escapeHtml(item.imagePath || "等待设置路径")}` : ((item.original || "").replace(/\s+/g, " ").slice(0, 80) || "空段落")}</small>
+          <span class="badge-row">
+            <span class="badge ${statusClass(item.status)}">${statusLabel(item.status)}</span>
+            <span class="badge">P${item.scanPage}</span>
+          </span>
+        `;
+        button.addEventListener("click", () => {
+          saveActive();
+          state.activeId = item.id;
+          loadActive();
+          renderList();
+        });
+        els.segmentList.appendChild(button);
+      });
+      renderSegmentNavigator();
+    }
+
+    function updatePreview() {
+      const item = activeSegment();
+      if (!item) {
+        els.previewSpeaker.textContent = "预览";
+        els.previewBadges.innerHTML = "";
+        els.previewOriginal.textContent = "等待选择段落";
+        els.previewTranslation.textContent = "待翻译";
+        els.previewOriginal.hidden = false;
+        els.previewTranslation.hidden = false;
+        els.previewImage.hidden = true;
+        return;
+      }
+      els.previewSpeaker.textContent = els.speakerInput.value || item.speaker;
+      els.previewBadges.innerHTML = `
+        <span class="badge ${statusClass(els.statusInput.value)}">${statusLabel(els.statusInput.value)}</span>
+        <span class="badge">P${els.scanPageInput.value || 0}</span>
+        ${item.regionType ? `<span class="badge">${escapeHtml(item.regionType)}</span>` : ""}
+        ${Number(item.regionAngle) ? `<span class="badge">${item.regionAngle}°</span>` : ""}
+      `;
+      const isImage = item.kind === "image";
+      els.previewImage.hidden = !isImage || !item.imagePath;
+      els.previewImage.src = isImage && item.imagePath ? item.imagePath : "";
+      els.previewImage.alt = item.imageAlt || item.speaker || "杂志图片";
+      els.previewOriginal.hidden = isImage;
+      els.previewTranslation.hidden = isImage;
+      els.previewOriginal.textContent = els.originalInput.value || "空";
+      els.previewTranslation.textContent = els.translationInput.value || "待翻译";
+    }
+
+    function parseTerms() {
+      return els.termsInput.value.split("\n").map((line) => {
+        const parts = line.split("=>");
+        return parts.length >= 2 ? [parts[0].trim(), parts.slice(1).join("=>").trim()] : null;
+      }).filter(Boolean);
+    }
+
+    function cleanRuby(text) {
+      if (els.keepRubyInput.checked) return text;
+      return String(text || "").split("\n").filter((line) => {
+        const trimmed = line.trim();
+        if (!trimmed) return true;
+        if (/^[ぁ-んァ-ンー\s]{1,8}$/.test(trimmed)) return false;
+        return true;
+      }).join("\n").replace(/\n{3,}/g, "\n\n");
+    }
+
+    function applyTermFix(text) {
+      let out = String(text || "");
+      parseTerms().forEach(([from, to]) => {
+        if (!from) return;
+        out = out.split(from).join(to);
+      });
+      return out;
+    }
+
+    function buildTranslationPrompt(item) {
+      const context = [item.pageName, item.regionType, item.writingDirection === "vertical" ? "日文竖排" : item.writingDirection === "horizontal" ? "横排" : "", item.annotationNote].filter(Boolean).join(" / ");
+      return `请把下面的日文宝可梦 / 任天堂相关杂志 OCR 校对稿翻译成中文。\n要求：\n1. 保留作品名、人物名、游戏术语的准确性。\n2. 不要扩写，不要总结。\n3. 如果原文疑似 OCR 错字，请在译文后用括号轻提示。\n4. 输出自然的中文段落。\n\n段落标题：${item.speaker}\n分区上下文：${context || "无"}\n日文原文：\n${item.original}`;
+    }
+
+    async function rerunCurrentRegionOcr() {
+      saveActive();
+      const item = activeSegment();
+      if (!item || item.kind === "image") return;
+      const box = parseScanBox(item.scanBox);
+      if (!box) {
+        els.sourceStatus.textContent = "当前坐标无效，请先重新框选文字区域。";
+        return;
+      }
+      if (!window.confirm("仅重跑当前文字区域将调用一次 Qwen-VL-OCR，并产生该区域的 API 费用。继续吗？")) return;
+      state.rerunBusy = true;
+      els.rerunRegionOcrBtn.disabled = true;
+      els.rerunRegionOcrBtn.textContent = "正在识别…";
+      els.sourceStatus.textContent = "正在重跑当前区域 OCR，其他段落不会受到影响…";
+      try {
+        if (!state.sourceFolderToken) await updateSourceReference(item);
+        let exclusions = [];
+        try { exclusions = JSON.parse(item.exclusions || "[]"); } catch (_) {}
+        const response = await fetch("/api/rerun-region-ocr", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            sourceFolderToken: state.sourceFolderToken,
+            pageName: item.pageName || pathBasename(item.sourceImage),
+            regionId: item.regionId,
+            regionType: item.regionType,
+            speaker: item.speaker,
+            scanBox: box,
+            angle: Number(item.regionAngle || 0),
+            writingDirection: item.writingDirection || "auto",
+            exclusions,
+            model: "qwen-vl-ocr-latest"
+          })
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok || !data.ok) throw new Error(data.error || `单区 OCR 返回 ${response.status}`);
+        const nextText = String(data.text || "").trim();
+        if (!nextText) throw new Error("Qwen 没有返回可用文字");
+        item.ocrHistory = Array.isArray(item.ocrHistory) ? item.ocrHistory : [];
+        item.ocrHistory.push({ at: new Date().toISOString(), original: item.original, scanBox: item.scanBox, angle: item.regionAngle, writingDirection: item.writingDirection });
+        item.original = nextText;
+        item.status = "review";
+        appendNote(item, `当前区域已单独重跑 Qwen OCR；返工记录：${data.runFolder || "本地临时目录"}`);
+        persist();
+        loadActive();
+        renderList();
+        els.sourceStatus.textContent = "当前区域 OCR 已更新；旧原文已保留在临时历史中，请人工复核后再标记完成。";
+      } catch (error) {
+        els.sourceStatus.textContent = `单区 OCR 失败：${error.message}`;
+      } finally {
+        state.rerunBusy = false;
+        els.rerunRegionOcrBtn.disabled = activeSegment()?.kind === "image";
+        els.rerunRegionOcrBtn.textContent = "重跑当前区 OCR";
+      }
+    }
+
+    function formatTranslation(prefix, suffix, placeholder = "文本") {
+      const textarea = els.translationInput;
+      const start = textarea.selectionStart ?? textarea.value.length;
+      const end = textarea.selectionEnd ?? textarea.value.length;
+      const before = textarea.value.slice(0, start);
+      const selected = textarea.value.slice(start, end) || placeholder;
+      const after = textarea.value.slice(end);
+      const inserted = `${prefix}${selected}${suffix}`;
+      textarea.value = before + inserted + after;
+      textarea.focus();
+      textarea.setSelectionRange(before.length + prefix.length, before.length + prefix.length + selected.length);
+      saveActive();
+      updatePreview();
+      renderList();
+    }
+
+    function applyTranslationSize(size) {
+      const className = {
+        small: "text-small",
+        medium: "text-normal",
+        large: "text-large"
+      }[size];
+      if (!className) return;
+      formatTranslation(`<span class="${className}">`, "</span>");
+      els.translationSizeSelect.value = "";
+    }
+
+    function setDeepSeekStatus(text) {
+      els.deepseekStatus.textContent = text;
+    }
+
+    function deepSeekConfig() {
+      return {
+        apiKey: els.deepseekApiKey.value.trim(),
+        model: els.deepseekModel.value,
+        prompt: els.deepseekPrompt.value,
+        scope: els.translateScope.value
+      };
+    }
+
+    function saveDeepSeekConfig() {
+      const config = deepSeekConfig();
+      localStorage.setItem("pokeamice.ocr.workbench.deepseek.v1", JSON.stringify(config));
+      setDeepSeekStatus("DeepSeek 配置已保存。");
+    }
+
+    function restoreDeepSeekConfig() {
+      try {
+        const config = JSON.parse(localStorage.getItem("pokeamice.ocr.workbench.deepseek.v1") || "{}");
+        if (config.apiKey) els.deepseekApiKey.value = config.apiKey;
+        if (config.model) els.deepseekModel.value = config.model;
+        if (config.prompt) els.deepseekPrompt.value = config.prompt;
+        if (config.scope) els.translateScope.value = config.scope;
+      } catch (_) {}
+    }
+
+    function segmentsForTranslation(mode, currentOnly = false) {
+      saveActive();
+      if (currentOnly) {
+        const item = activeSegment();
+        return item && item.kind !== "image" && item.original.trim() ? [item] : [];
+      }
+      return state.segments.filter((item) => {
+        if (item.kind === "image") return false;
+        if (mode === "all") return item.original.trim();
+        if (mode === "review") return item.status === "review" && item.original.trim();
+        const translation = item.translation.trim();
+        return item.original.trim() && (!translation || translation === "待翻译");
+      });
+    }
+
+    function appendNote(item, note) {
+      const text = String(note || "").trim();
+      if (!text) return;
+      if (!item.comments.includes(text)) item.comments.push(text);
+    }
+
+    async function translateWithDeepSeek(items) {
+      const config = deepSeekConfig();
+      if (!config.apiKey) {
+        setDeepSeekStatus("请先填写 DeepSeek API Key。");
+        return;
+      }
+      if (!items.length) {
+        setDeepSeekStatus("没有需要翻译的段落。");
+        return;
+      }
+      const requestMap = new Map(items.map((item, index) => [index, item.id]));
+      const payload = {
+        model: config.model,
+        temperature: 0.2,
+        messages: [
+          {
+            role: "system",
+            content: "你是宝可梦、任天堂、GAME FREAK 相关日文杂志的翻译编辑。请严格返回 JSON 数组，每项包含 index、translation、note。不要输出 Markdown，不要包裹代码块。"
+          },
+          {
+            role: "user",
+            content: JSON.stringify({
+              instruction: config.prompt,
+              glossary: parseTerms().map(([source, target]) => ({ source, target })),
+              segments: items.map((item, index) => ({
+                index,
+                speaker: item.speaker,
+                page_name: item.pageName,
+                region_type: item.regionType,
+                writing_direction: item.writingDirection,
+                order: item.regionOrder,
+                annotation_note: item.annotationNote,
+                original: item.original,
+                existing_comments: item.comments
+              }))
+            }, null, 2)
+          }
+        ]
+      };
+
+      setDeepSeekStatus(`正在请求 DeepSeek，段落数：${items.length}...`);
+      try {
+        const response = await fetch("https://api.deepseek.com/chat/completions", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${config.apiKey}`
+          },
+          body: JSON.stringify(payload)
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) {
+          throw new Error(data.error?.message || `DeepSeek 返回 ${response.status}`);
+        }
+        const content = data.choices?.[0]?.message?.content || "";
+        const jsonText = content.match(/\[[\s\S]*\]/)?.[0] || content;
+        const translated = JSON.parse(jsonText);
+        translated.forEach((result) => {
+          const item = state.segments.find((segment) => segment.id === requestMap.get(result.index));
+          if (!item) return;
+          if (result.translation) item.translation = String(result.translation).trim();
+          appendNote(item, result.note);
+          if (item.translation && item.translation !== "待翻译") item.status = "translated";
+        });
+        persist();
+        loadActive();
+        renderList();
+        buildSegmentsBtnFlash();
+        setDeepSeekStatus(`已翻译 ${translated.length} 段。`);
+      } catch (error) {
+        setDeepSeekStatus(`翻译失败：${error.message}`);
+      }
+    }
+
+    function buildSegmentsBtnFlash() {
+      const yaml = buildSegmentsYaml();
+      els.output.textContent = yaml;
+      state.lastOutput = yaml;
+    }
+
+    function buildSegmentsYaml() {
+      saveActive();
+      const lines = ["translation_segments:"];
+      state.segments.forEach((item) => {
+        lines.push(`  - speaker: ${quoteYaml(item.speaker)}`);
+        lines.push(`    kind: ${quoteYaml(item.kind || "text")}`);
+        lines.push(`    status: ${quoteYaml(item.status)}`);
+        lines.push(`    scan_page: ${Number(item.scanPage || 0)}`);
+        if (item.pageName) lines.push(`    page_name: ${quoteYaml(item.pageName)}`);
+        if (item.regionType) lines.push(`    region_type: ${quoteYaml(item.regionType)}`);
+        if (Number.isFinite(item.regionOrder)) lines.push(`    order: ${item.regionOrder}`);
+        if (item.regionId) lines.push(`    region_id: ${quoteYaml(item.regionId)}`);
+        if (item.groupId) lines.push(`    group_id: ${quoteYaml(item.groupId)}`);
+        if (item.captionFor) lines.push(`    caption_for: ${quoteYaml(item.captionFor)}`);
+        if (item.sourceImage) lines.push(`    source_image: ${quoteYaml(item.sourceImage)}`);
+        if (item.kind !== "image") lines.push(`    writing_direction: ${quoteYaml(item.writingDirection || "auto")}`);
+        if (Number(item.regionAngle)) lines.push(`    angle: ${item.regionAngle}`);
+        if (item.exclusions && item.exclusions !== "[]") lines.push(`    exclusions: ${item.exclusions}`);
+        if (item.annotationNote) lines.push(`    annotation_note: ${quoteYaml(item.annotationNote)}`);
+        if (item.scanBox) lines.push(`    scan_box: [${item.scanBox}]`);
+        if (item.kind === "image") {
+          lines.push(`    image: ${quoteYaml(item.imagePath)}`);
+          lines.push(`    alt: ${quoteYaml(item.imageAlt || item.speaker || "杂志图片")}`);
+        } else {
+          lines.push("    original: |-");
+          lines.push(escapeYaml(item.original));
+          lines.push("    translation: |-");
+          lines.push(escapeYaml(item.translation));
+        }
+        if (item.comments.length === 1) {
+          lines.push(`    comment: ${quoteYaml(item.comments[0])}`);
+        } else if (item.comments.length > 1) {
+          lines.push("    comments:");
+          item.comments.forEach((comment) => lines.push(`      - ${quoteYaml(comment)}`));
+        }
+      });
+      return lines.join("\n");
+    }
+
+    function buildPostMarkdown() {
+      const tags = els.postTags.value.split(",").map((tag) => tag.trim()).filter(Boolean);
+      const title = els.postTitle.value.trim() || "OCR 整理稿";
+      const date = els.postDate.value || new Date().toISOString().slice(0, 10);
+      return `---\nlayout: scan-translation\ntitle: ${quoteYaml(title)}\ndate: ${date}\ncategories: [访谈翻译, 扫描存档]\ntags: [${tags.join(", ")}]\narchive_type: scan_translation\nworkflow:\n  scan: done\n  preprocess: done\n  ocr: draft\n  translation: draft\n  proofreading: pending\n  published: draft\nkicker: "OCR Translation Draft"\npublication: ${quoteYaml(els.publication.value)}\nissue: ${quoteYaml(els.issue.value)}\ntranslator: ${quoteYaml(els.translator.value)}\nbox_editor: true\nvertical_original: false\ncard_image: ${els.scanImage.value}\nsummary: ${quoteYaml(els.summaryInput.value.trim())}\nscan_pages:\n  - image: ${els.scanImage.value}\n    label: "page001"\n    caption: "OCR 翻译整理工作台导出的扫描页。"\n${buildSegmentsYaml()}\n---\n\n## 整理说明\n\n本文由 OCR 翻译整理工作台生成。请在发布前完成原文校对、中文翻译和评注检查。\n`;
+    }
+
+    function persist() {
+      const payload = {
+        segments: state.segments,
+        activeId: state.activeId,
+        learning: {
+          sentenceIndex: state.learningSentenceIndex,
+          options: state.learningOptions,
+          favorites: state.learningFavorites
+        },
+        meta: {
+          postTitle: els.postTitle.value,
+          postDate: els.postDate.value,
+          publication: els.publication.value,
+          issue: els.issue.value,
+          translator: els.translator.value,
+          scanImage: els.scanImage.value,
+          sourceFolder: els.sourceFolder.value,
+          postTags: els.postTags.value,
+          summaryInput: els.summaryInput.value,
+          termsInput: els.termsInput.value,
+          keepRubyInput: els.keepRubyInput.checked
+        }
+      };
+      localStorage.setItem(storageKey, JSON.stringify(payload));
+    }
+
+    function restore() {
+      try {
+        const payload = JSON.parse(localStorage.getItem(storageKey) || "{}");
+        if (payload.meta) {
+          Object.entries(payload.meta).forEach(([key, value]) => {
+            if (els[key] && els[key].type === "checkbox") els[key].checked = Boolean(value);
+            else if (els[key]) els[key].value = value;
+          });
+        }
+        state.segments = (payload.segments || []).map(normalizeSegment);
+        state.activeId = payload.activeId || state.segments[0]?.id || null;
+        if (payload.learning) {
+          state.learningSentenceIndex = Number(payload.learning.sentenceIndex || 0);
+          state.learningOptions = { ...state.learningOptions, ...(payload.learning.options || {}) };
+          state.learningFavorites = {
+            sentences: Array.isArray(payload.learning.favorites?.sentences) ? payload.learning.favorites.sentences : [],
+            words: Array.isArray(payload.learning.favorites?.words) ? payload.learning.favorites.words : []
+          };
+        }
+      } catch (error) {
+        state.segments = [];
+      }
+    }
+
+    function copyText(text) {
+      navigator.clipboard.writeText(text).then(() => setStatus("已复制到剪贴板。")).catch(() => {
+        els.output.textContent = text;
+        setStatus("复制失败，已放入输出框。");
+      });
+    }
+
+    function downloadFile(name, text) {
+      const blob = new Blob([text], { type: "text/markdown;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = name;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function render() {
+      renderList();
+      loadActive();
+      if (state.learningMode) renderLearning();
+    }
+
+    function importNow(filename = "") {
+      saveActive();
+      const text = els.importText.value;
+      const selectedMode = els.importMode.value;
+      const mode = selectedMode === "auto" ? guessImportMode(filename, text) : selectedMode;
+      const parsed = mode === "regions" ? parseRegionsMarkdown(text) : mode === "post" ? parseExistingPost(text) : parseSegmentsYaml(text);
+      state.segments = parsed;
+      state.activeId = parsed[0]?.id || null;
+      state.learningSentenceIndex = 0;
+      persist();
+      render();
+      const annotated = parsed.filter((item) => item.annotationNote || item.regionType || item.scanBox || item.pageName).length;
+      const imageCount = parsed.filter((item) => item.kind === "image").length;
+      const modeName = mode === "regions" ? "分区 OCR Markdown" : mode === "post" ? "扫描文章 Markdown" : "段落 YAML";
+      setStatus(`已识别 ${modeName}，导入 ${parsed.length} 个版面元素${imageCount ? `（含 ${imageCount} 张图片）` : ""}${annotated ? `，其中 ${annotated} 个带分区信息` : ""}。`);
+    }
+
+    function consumeQueueHandoff() {
+      const params = new URLSearchParams(location.search);
+      if (params.get("queueHandoff") !== "1") return false;
+      let payload = null;
+      try {
+        payload = JSON.parse(localStorage.getItem("pokeamice.ocr.queue.handoff.v1") || "null");
+      } catch (_) {}
+      if (!payload?.yaml) return false;
+      const currentWorkspace = localStorage.getItem(storageKey);
+      if (currentWorkspace) {
+        localStorage.setItem("pokeamice.ocr.workbench.backup.beforeQueue.v1", currentWorkspace);
+        els.restoreQueueBackupBtn.hidden = false;
+      }
+      els.importMode.value = "segments";
+      els.importText.value = payload.yaml;
+      importNow(`${payload.title || "ocr-project"}.yml`);
+      localStorage.removeItem("pokeamice.ocr.queue.handoff.v1");
+      params.delete("queueHandoff");
+      params.delete("mode");
+      params.delete("rework");
+      const query = params.toString();
+      history.replaceState(null, "", `${location.pathname}${query ? `?${query}` : ""}${location.hash}`);
+      if (payload.mode === "learning") setLearningMode(true);
+      setStatus(`${payload.title || "OCR 项目"}已从项目队列导入${payload.rework ? "，当前区域可以直接调整选框、方向并重跑 OCR" : payload.mode === "learning" ? "，已进入学习模式" : "，已进入翻译流程"}。原工作区已自动备份。`);
+      return true;
+    }
+
+    els.parseImportBtn.addEventListener("click", () => importNow());
+    els.importFileBtn.addEventListener("click", () => els.importFileInput.click());
+    els.importFileInput.addEventListener("change", async (event) => {
+      const file = event.target.files?.[0];
+      if (!file) return;
+      const text = await file.text();
+      els.importText.value = text;
+      els.importMode.value = guessImportMode(file.name, text);
+      importNow(file.name);
+      event.target.value = "";
+    });
+    els.loadSampleBtn.addEventListener("click", () => {
+      els.importMode.value = "segments";
+      els.importText.value = sample;
+      importNow();
+    });
+    els.restoreQueueBackupBtn.addEventListener("click", () => {
+      const backup = localStorage.getItem("pokeamice.ocr.workbench.backup.beforeQueue.v1");
+      if (!backup) return;
+      localStorage.setItem(storageKey, backup);
+      localStorage.removeItem("pokeamice.ocr.workbench.backup.beforeQueue.v1");
+      restore();
+      setLearningMode(false);
+      render();
+      els.restoreQueueBackupBtn.hidden = true;
+      setStatus("已恢复进入项目队列前的工作台内容。");
+    });
+    els.clearBtn.addEventListener("click", () => {
+      if (!confirm("清空当前工作台内容？")) return;
+      state.segments = [];
+      state.activeId = null;
+      state.learningSentenceIndex = 0;
+      state.learningFavorites = { sentences: [], words: [] };
+      localStorage.removeItem(storageKey);
+      render();
+      setStatus("已清空。");
+    });
+
+    [els.filterStatus, els.searchText].forEach((el) => el.addEventListener("input", renderList));
+    [els.speakerInput, els.statusInput, els.scanPageInput, els.scanBoxInput, els.writingDirectionInput, els.regionAngleInput, els.originalInput, els.translationInput, els.commentsInput].forEach((el) => {
+      el.addEventListener("input", () => {
+        updatePreview();
+        saveActive();
+        if (el === els.scanBoxInput) drawSourceReference();
+        renderList();
+      });
+    });
+    [els.postTitle, els.postDate, els.publication, els.issue, els.translator, els.scanImage, els.sourceFolder, els.postTags, els.summaryInput, els.termsInput, els.keepRubyInput].forEach((el) => {
+      el.addEventListener("input", persist);
+      el.addEventListener("change", persist);
+    });
+
+    els.scanImage.addEventListener("change", () => updateSourceReference());
+    els.sourceCropBtn.addEventListener("click", () => {
+      state.sourceMode = "crop";
+      els.sourceCropBtn.classList.add("primary");
+      els.sourcePageBtn.classList.remove("primary");
+      drawSourceReference();
+    });
+    els.sourcePageBtn.addEventListener("click", () => {
+      state.sourceMode = "page";
+      els.sourcePageBtn.classList.add("primary");
+      els.sourceCropBtn.classList.remove("primary");
+      drawSourceReference();
+    });
+    els.sourceZoomOutBtn.addEventListener("click", () => setSourceZoom(state.sourceZoom - 0.25));
+    els.sourceZoomResetBtn.addEventListener("click", () => setSourceZoom(1));
+    els.sourceZoomInBtn.addEventListener("click", () => setSourceZoom(state.sourceZoom + 0.25));
+    els.reboxRegionBtn.addEventListener("click", () => setReboxMode(!state.reboxMode));
+    els.rerunRegionOcrBtn.addEventListener("click", rerunCurrentRegionOcr);
+    els.sourceCanvas.addEventListener("mousedown", (event) => {
+      if (!state.reboxMode) return;
+      const point = sourceCanvasPoint(event);
+      if (!point) return;
+      state.reboxStart = point;
+      state.reboxDraft = [point.x, point.y, point.x, point.y];
+      event.preventDefault();
+    });
+    window.addEventListener("mousemove", (event) => {
+      if (!state.reboxMode || !state.reboxStart) return;
+      const point = sourceCanvasPoint(event);
+      if (!point) return;
+      state.reboxDraft = [
+        Math.min(state.reboxStart.x, point.x),
+        Math.min(state.reboxStart.y, point.y),
+        Math.max(state.reboxStart.x, point.x),
+        Math.max(state.reboxStart.y, point.y)
+      ];
+      drawSourceReference();
+      els.sourceStatus.textContent = `新范围：[${state.reboxDraft.join(", ")}]`;
+    });
+    window.addEventListener("mouseup", () => {
+      if (!state.reboxMode || !state.reboxStart || !state.reboxDraft) return;
+      const box = state.reboxDraft.map((value) => Math.round(value));
+      state.reboxStart = null;
+      if (box[2] - box[0] < 12 || box[3] - box[1] < 12) {
+        state.reboxDraft = null;
+        els.sourceStatus.textContent = "新选框太小，请重新拖出文字区域。";
+        drawSourceReference();
+        return;
+      }
+      els.scanBoxInput.value = box.join(", ");
+      saveActive();
+      state.reboxMode = false;
+      state.reboxDraft = null;
+      els.sourceCanvas.classList.remove("is-rebox-mode");
+      els.reboxRegionBtn.classList.remove("primary");
+      els.reboxRegionBtn.textContent = "重新框选";
+      state.sourceMode = "crop";
+      els.sourceCropBtn.classList.add("primary");
+      els.sourcePageBtn.classList.remove("primary");
+      drawSourceReference();
+      renderList();
+    });
+    els.chooseSourceFolderBtn.addEventListener("click", async () => {
+      try {
+        const selected = await selectSourceFolder("", false);
+        if (selected) updateSourceReference();
+      } catch (error) {
+        els.sourceStatus.textContent = `原图文件夹读取失败：${error.message}`;
+      }
+    });
+    els.sourceFolder.addEventListener("change", async () => {
+      const folder = els.sourceFolder.value.trim();
+      if (!folder) return;
+      try {
+        await selectSourceFolder(folder, true);
+        updateSourceReference();
+      } catch (error) {
+        els.sourceStatus.textContent = `原图文件夹读取失败：${error.message}`;
+      }
+    });
+
+    els.prevBtn.addEventListener("click", () => {
+      saveActive();
+      const index = state.segments.findIndex((item) => item.id === state.activeId);
+      if (index > 0) state.activeId = state.segments[index - 1].id;
+      render();
+    });
+    els.nextBtn.addEventListener("click", () => {
+      saveActive();
+      const index = state.segments.findIndex((item) => item.id === state.activeId);
+      if (index >= 0 && index < state.segments.length - 1) state.activeId = state.segments[index + 1].id;
+      render();
+    });
+    els.segmentJumpSelect.addEventListener("change", () => activateSegment(els.segmentJumpSelect.value));
+    els.immersiveBtn.addEventListener("click", () => setImmersiveMode(!state.immersive));
+    els.learningModeBtn.addEventListener("click", () => setLearningMode(!state.learningMode));
+    els.learningPrevBtn.addEventListener("click", () => {
+      state.learningOptions.reveal = false;
+      activateLearningSentence(state.learningSentenceIndex - 1);
+    });
+    els.learningNextBtn.addEventListener("click", () => {
+      state.learningOptions.reveal = false;
+      activateLearningSentence(state.learningSentenceIndex + 1);
+    });
+    els.learningRubyBtn.addEventListener("click", () => {
+      state.learningOptions.ruby = !state.learningOptions.ruby;
+      persist();
+      renderLearning();
+    });
+    els.learningVocabBtn.addEventListener("click", () => {
+      state.learningOptions.vocab = !state.learningOptions.vocab;
+      persist();
+      renderLearning();
+    });
+    els.learningGrammarBtn.addEventListener("click", () => {
+      state.learningOptions.grammar = !state.learningOptions.grammar;
+      persist();
+      renderLearning();
+    });
+    els.learningHideTranslationBtn.addEventListener("click", () => {
+      state.learningOptions.hideTranslation = !state.learningOptions.hideTranslation;
+      persist();
+      renderLearning();
+    });
+    els.learningClozeBtn.addEventListener("click", () => {
+      state.learningOptions.cloze = !state.learningOptions.cloze;
+      state.learningOptions.reveal = false;
+      persist();
+      renderLearning();
+    });
+    els.learningRevealBtn.addEventListener("click", () => {
+      state.learningOptions.reveal = !state.learningOptions.reveal;
+      persist();
+      renderLearning();
+    });
+    els.learningFavoriteSentenceBtn.addEventListener("click", toggleFavoriteSentence);
+    els.markDoneBtn.addEventListener("click", () => {
+      els.statusInput.value = els.translationInput.value.trim() && els.translationInput.value.trim() !== "待翻译" ? "translated" : "checked";
+      saveActive();
+      render();
+    });
+    els.cleanRubyBtn.addEventListener("click", () => {
+      els.originalInput.value = cleanRuby(els.originalInput.value);
+      saveActive();
+      updatePreview();
+    });
+    els.termFixBtn.addEventListener("click", () => {
+      els.originalInput.value = applyTermFix(els.originalInput.value);
+      saveActive();
+      updatePreview();
+    });
+    els.copyOriginalBtn.addEventListener("click", () => copyText(els.originalInput.value));
+    els.restorePreviousOcrBtn.addEventListener("click", () => {
+      saveActive();
+      const item = activeSegment();
+      const previous = item?.ocrHistory?.pop();
+      if (!item || !previous) return;
+      item.original = previous.original || "";
+      item.scanBox = previous.scanBox || item.scanBox;
+      item.regionAngle = Number(previous.angle || 0);
+      item.writingDirection = previous.writingDirection || "auto";
+      item.status = "review";
+      persist();
+      render();
+      els.sourceStatus.textContent = "已恢复上一次 OCR 原文和分区设置。";
+    });
+    els.boldTranslationBtn.addEventListener("click", () => formatTranslation("**", "**"));
+    els.underlineTranslationBtn.addEventListener("click", () => formatTranslation("<u>", "</u>"));
+    els.translationSizeSelect.addEventListener("change", () => applyTranslationSize(els.translationSizeSelect.value));
+    els.copyTranslationBtn.addEventListener("click", () => copyText(els.translationInput.value));
+    els.makePromptBtn.addEventListener("click", () => {
+      saveActive();
+      const prompt = buildTranslationPrompt(activeSegment());
+      els.output.textContent = prompt;
+      state.lastOutput = prompt;
+      copyText(prompt);
+    });
+    els.saveDeepSeekBtn.addEventListener("click", saveDeepSeekConfig);
+    els.translateCurrentBtn.addEventListener("click", () => {
+      translateWithDeepSeek(segmentsForTranslation("all", true));
+    });
+    els.translateBatchBtn.addEventListener("click", () => {
+      translateWithDeepSeek(segmentsForTranslation(els.translateScope.value, false));
+    });
+    els.buildSegmentsBtn.addEventListener("click", () => {
+      const yaml = buildSegmentsYaml();
+      els.output.textContent = yaml;
+      state.lastOutput = yaml;
+      setStatus("已生成段落 YAML。");
+    });
+    els.buildPostBtn.addEventListener("click", () => {
+      const md = buildPostMarkdown();
+      els.output.textContent = md;
+      state.lastOutput = md;
+      setStatus("已生成扫描对照页 Markdown，模板为 scan-translation。");
+    });
+    els.copyOutputBtn.addEventListener("click", () => copyText(els.output.textContent || state.lastOutput));
+    els.downloadOutputBtn.addEventListener("click", () => {
+      const text = els.output.textContent || buildPostMarkdown();
+      const name = `${els.postDate.value || "draft"}-${(els.postTitle.value || "ocr-translation").replace(/[\\/:*?"<>|]/g, "").slice(0, 60)}.md`;
+      downloadFile(name, text);
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (state.learningMode) {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          setLearningMode(false);
+          return;
+        }
+        if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+          event.preventDefault();
+          els.learningPrevBtn.click();
+          return;
+        }
+        if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+          event.preventDefault();
+          els.learningNextBtn.click();
+          return;
+        }
+      }
+      if (!state.immersive) return;
+      if (event.key === "Escape") {
+        event.preventDefault();
+        setImmersiveMode(false);
+        return;
+      }
+      if (!event.altKey) return;
+      if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        event.preventDefault();
+        els.prevBtn.click();
+      } else if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        event.preventDefault();
+        els.nextBtn.click();
+      }
+    });
+
+    restoreDeepSeekConfig();
+    restore();
+    els.restoreQueueBackupBtn.hidden = !localStorage.getItem("pokeamice.ocr.workbench.backup.beforeQueue.v1");
+    render();
+    const queueHandoffLoaded = consumeQueueHandoff();
+    if (els.sourceFolder.value.trim()) {
+      selectSourceFolder(els.sourceFolder.value.trim(), true)
+        .then((selected) => { if (selected) updateSourceReference(); })
+        .catch((error) => { els.sourceStatus.textContent = `原图文件夹读取失败：${error.message}`; });
+    }
+    if (!state.segments.length && !queueHandoffLoaded) {
+      els.importText.value = sample;
+      setStatus("可先载入示例，或粘贴刚生成的 translation-segments.yml。");
+    }
+  </script>
+</body>
+</html>

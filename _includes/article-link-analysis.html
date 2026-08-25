@@ -1,0 +1,84 @@
+{% assign link_items = page.links %}
+{% assign source_link = page.source %}
+{% assign has_source_link = false %}
+{% if source_link.url %}
+  {% assign has_source_link = true %}
+{% endif %}
+
+{% if link_items or has_source_link %}
+  <section class="article-link-analysis" aria-labelledby="article-link-analysis-title">
+    <header class="article-link-analysis__header">
+      <div>
+        <p>Link Context</p>
+        <h2 id="article-link-analysis-title">链接解析</h2>
+      </div>
+      {% if link_items %}
+        <span>{{ link_items | size }} 条</span>
+      {% elsif has_source_link %}
+        <span>1 条</span>
+      {% endif %}
+    </header>
+
+    <div class="article-link-analysis__grid">
+      {% if has_source_link %}
+        {% assign source_host = source_link.url | replace: "https://", "" | replace: "http://", "" | split: "/" | first %}
+        <article class="article-link-card article-link-card--source">
+          <div class="article-link-card__meta">
+            <span>source</span>
+            <span>{{ source_host }}</span>
+          </div>
+          <h3>
+            <a href="{{ source_link.url }}" target="_blank" rel="noopener">
+              {{ source_link.title | default: source_host }}
+            </a>
+          </h3>
+          {% if source_link.note or source_link.description %}
+            <p>{{ source_link.note | default: source_link.description }}</p>
+          {% else %}
+            <p>这篇文章的主要来源链接，后续引用、存档和检索会优先使用它。</p>
+          {% endif %}
+          <div class="article-link-card__actions">
+            <a href="{{ source_link.url }}" target="_blank" rel="noopener">打开来源</a>
+            {% if source_link.archive_url %}
+              <a href="{{ source_link.archive_url }}" target="_blank" rel="noopener">打开存档</a>
+            {% endif %}
+          </div>
+        </article>
+      {% endif %}
+
+      {% for item in link_items %}
+        {% assign item_url = item.url | default: item %}
+        {% if has_source_link and item_url == source_link.url %}
+          {% continue %}
+        {% endif %}
+        {% assign item_host = item_url | replace: "https://", "" | replace: "http://", "" | split: "/" | first %}
+        {% assign item_type = item.type | default: "link" %}
+        <article class="article-link-card article-link-card--{{ item_type | slugify }}">
+          <div class="article-link-card__meta">
+            <span>{{ item_type }}</span>
+            <span>{{ item.domain | default: item_host }}</span>
+          </div>
+          <h3>
+            <a href="{{ item_url }}" target="_blank" rel="noopener">
+              {{ item.title | default: item.label | default: item_host }}
+            </a>
+          </h3>
+          {% if item.description or item.note %}
+            <p>{{ item.description | default: item.note }}</p>
+          {% endif %}
+          {% if item.image %}
+            <figure class="article-link-card__image">
+              <img src="{{ item.image | relative_url }}" alt="{{ item.title | default: item_host | escape }}">
+            </figure>
+          {% endif %}
+          <div class="article-link-card__actions">
+            <a href="{{ item_url }}" target="_blank" rel="noopener">打开链接</a>
+            {% if item.archive_url %}
+              <a href="{{ item.archive_url }}" target="_blank" rel="noopener">打开存档</a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}

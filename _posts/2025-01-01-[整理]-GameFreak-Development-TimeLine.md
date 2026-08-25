@@ -1,8 +1,78 @@
 ---
 title: "[整理] 近年 Game Freak 开发事件年表"
 date: 2025-1-1
-categories: [Weibo,Game Freak,整理]
+categories: [Game Freak,整理]
 tags: [开发,年表,第四世代,第五世代,第六世代,第七世代,第八世代,第九世代]
+card_image: /assets/avator/rental_logo.png
+archive_type: "article"
+summary: "近年 Game Freak 开发事件年表"
+source:
+  title: "t.co"
+  url: "https://t.co/14hoUdRcuX"
+  source_type: "web"
+links:
+  - title: "October 17, 2014"
+    url: "https://twitter.com/Shigeru_Ohmori/status/523125423773724673?ref_src=twsrc%5Etfw"
+    domain: "twitter.com"
+    type: "social"
+  - title: "#pokemon"
+    url: "https://twitter.com/hashtag/pokemon?src=hash&amp;ref_src=twsrc%5Etfw"
+    domain: "twitter.com"
+    type: "social"
+  - title: "#ポケモン"
+    url: "https://twitter.com/hashtag/%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw"
+    domain: "twitter.com"
+    type: "social"
+  - title: "#ポケクエ"
+    url: "https://twitter.com/hashtag/%E3%83%9D%E3%82%B1%E3%82%AF%E3%82%A8?src=hash&amp;ref_src=twsrc%5Etfw"
+    domain: "twitter.com"
+    type: "social"
+  - title: "t.co"
+    url: "https://t.co/14hoUdRcuX"
+    domain: "t.co"
+    type: "web"
+  - title: "pic.twitter.com/Tw9QrhbjYN"
+    url: "https://t.co/Tw9QrhbjYN"
+    domain: "t.co"
+    type: "web"
+  - title: "June 29, 2018"
+    url: "https://twitter.com/famitsu/status/1012606614317092864?ref_src=twsrc%5Etfw"
+    domain: "twitter.com"
+    type: "social"
+  - title: "New Office Desgin"
+    url: "https://pokeamice.com/index.php/2023/03/24/gf_office/"
+    domain: "pokeamice.com"
+    type: "web"
+  - title: "Weibo 专栏介绍"
+    url: "https://weibo.com/6306512172/IsyBhaU4F"
+    domain: "weibo.com"
+    type: "social"
+  - title: "52poke link"
+    url: "https://wiki.52poke.com/zh-hans/%E5%AF%B6%E5%8F%AF%E5%A4%A2_%E9%BB%91%EF%BC%92%EF%BC%8F%E7%99%BD%EF%BC%92"
+    domain: "wiki.52poke.com"
+    type: "wiki"
+workflow:
+  scan: "pending"
+  preprocess: "pending"
+  ocr: "pending"
+  translation: "pending"
+  proofreading: "done"
+  published: "done"
+entities:
+  people:
+    - "大森滋"
+    - "一之瀬剛"
+    - "James Turnner"
+  works:
+    - "宝可梦"
+    - "开发"
+    - "年表"
+    - "第四世代"
+    - "第五世代"
+    - "第六世代"
+  organizations:
+    - "Game Freak"
+    - "Nintendo"
 ---
 
 # 近年 Game Freak 开发事件年表

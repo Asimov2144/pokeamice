@@ -1,0 +1,3310 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magazine Region Annotator</title>
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --panel: #ffffff;
+      --ink: #1f2a35;
+      --muted: #64717f;
+      --line: #dfe5eb;
+      --accent: #bd4b4b;
+      --accent-soft: rgba(189, 75, 75, 0.12);
+      --blue: #3f789d;
+      --green: #4e7e61;
+      --shadow: 0 8px 22px rgba(31, 42, 53, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+      letter-spacing: 0;
+    }
+
+    button,
+    input,
+    select,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 260px minmax(0, 1fr) 360px;
+      gap: 12px;
+      height: 100%;
+      padding: 12px;
+    }
+
+    body.tool-nav-enabled {
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr);
+    }
+
+    body.tool-nav-enabled > .app {
+      height: 100%;
+      min-height: 0;
+    }
+
+    .tool-nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 46px;
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 8px 18px rgba(31, 42, 53, 0.06);
+      z-index: 30;
+    }
+
+    .tool-nav__brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-right: 4px;
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .tool-nav__links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      min-width: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+
+    .tool-nav__links::-webkit-scrollbar { display: none; }
+
+    .tool-nav a:not(.tool-nav__brand) {
+      flex: 0 0 auto;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .tool-nav a:not(.tool-nav__brand):hover,
+    .tool-nav a.is-active {
+      border-color: rgba(189, 75, 75, 0.24);
+      background: var(--accent-soft);
+      color: var(--accent);
+    }
+
+    .panel {
+      min-height: 0;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+
+    .left,
+    .right {
+      display: grid;
+      align-content: start;
+      gap: 12px;
+      padding: 12px;
+    }
+
+    .brand {
+      display: grid;
+      gap: 5px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand strong {
+      font-size: 1rem;
+      line-height: 1.25;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.45;
+    }
+
+    .field {
+      display: grid;
+      gap: 6px;
+    }
+
+    .field label,
+    .section-title {
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    .section-title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 7px;
+    }
+
+    .section-title-row .section-title {
+      margin: 0;
+    }
+
+    .field input,
+    .field select,
+    .field textarea {
+      width: 100%;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 7px 9px;
+      background: #fff;
+      color: var(--ink);
+      font-size: 0.84rem;
+    }
+
+    .field textarea {
+      min-height: 72px;
+      resize: vertical;
+      line-height: 1.5;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .region-actions {
+      display: grid;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .action-group {
+      display: grid;
+      gap: 7px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 9px;
+      background: var(--panel-soft);
+    }
+
+    .action-group-label {
+      color: var(--muted);
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+    }
+
+    .action-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+    }
+
+    .action-grid .btn {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .action-grid .is-wide {
+      grid-column: 1 / -1;
+    }
+
+    .draft-card {
+      display: grid;
+      gap: 7px;
+      margin-top: 10px;
+      border: 1px solid var(--line);
+      border-radius: 9px;
+      padding: 9px;
+      background: var(--panel-soft);
+    }
+
+    .draft-status {
+      color: var(--muted);
+      font-size: 0.72rem;
+      line-height: 1.45;
+    }
+
+    .check-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      min-height: 32px;
+      padding: 0 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel-soft);
+      font-size: 12px;
+      color: var(--text);
+    }
+
+    .check-row input {
+      width: auto;
+      min-height: auto;
+      margin: 0;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 32px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 6px 9px;
+      background: #fff;
+      color: #384656;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .btn.is-active {
+      border-color: var(--green);
+      background: rgba(78, 126, 97, 0.12);
+      color: var(--green);
+    }
+
+    .btn.primary {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .btn.danger {
+      border-color: rgba(189, 75, 75, 0.32);
+      color: var(--accent);
+    }
+
+    .btn.btn-small {
+      min-height: 28px;
+      padding: 4px 8px;
+      font-size: 0.72rem;
+    }
+
+    .btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.48;
+    }
+
+    .page-list,
+    .region-list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .page-item,
+    .region-item {
+      display: grid;
+      gap: 4px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 8px;
+      background: #fff;
+      color: var(--ink);
+      text-align: left;
+    }
+
+    .page-item.is-active,
+    .region-item.is-active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+
+    .region-item.is-selected {
+      border-color: var(--green);
+      background: rgba(78, 126, 97, 0.1);
+    }
+
+    .page-item strong,
+    .region-item strong {
+      overflow: hidden;
+      font-size: 0.82rem;
+      line-height: 1.35;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .page-item span,
+    .region-item span {
+      color: var(--muted);
+      font-size: 0.68rem;
+      line-height: 1.35;
+    }
+
+    .stage-panel {
+      position: relative;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .quick-action-bar {
+      position: absolute;
+      left: 50%;
+      bottom: 52px;
+      z-index: 40;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      max-width: calc(100% - 24px);
+      border: 1px solid rgba(31, 42, 53, 0.14);
+      border-radius: 12px;
+      padding: 7px;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 10px 30px rgba(31, 42, 53, 0.2);
+      backdrop-filter: blur(12px);
+      transform: translateX(-50%);
+    }
+
+    .quick-action-bar[hidden] {
+      display: none;
+    }
+
+    .quick-action-bar .btn {
+      min-width: 86px;
+      white-space: nowrap;
+    }
+
+    .quick-action-divider {
+      width: 1px;
+      height: 24px;
+      margin: 0 1px;
+      background: var(--line);
+    }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      min-height: 50px;
+      border-bottom: 1px solid var(--line);
+      padding: 8px 10px;
+      background: rgba(255, 255, 255, 0.96);
+    }
+
+    .toolbar-title {
+      display: grid;
+      min-width: 0;
+    }
+
+    .toolbar-title strong {
+      overflow: hidden;
+      font-size: 0.9rem;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .toolbar-title span {
+      color: var(--muted);
+      font-size: 0.72rem;
+    }
+
+    .stage {
+      position: relative;
+      min-height: 0;
+      overflow: auto;
+      background:
+        linear-gradient(45deg, rgba(210, 218, 226, 0.42) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(210, 218, 226, 0.42) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(210, 218, 226, 0.42) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(210, 218, 226, 0.42) 75%);
+      background-color: #eef2f5;
+      background-position: 0 0, 0 12px, 12px -12px, -12px 0;
+      background-size: 24px 24px;
+    }
+
+    .stage.is-pan-mode {
+      cursor: grab;
+    }
+
+    .stage.is-pan-mode:active {
+      cursor: grabbing;
+    }
+
+    .stage.is-redraw-mode {
+      cursor: crosshair;
+    }
+
+    .canvas-wrap {
+      position: relative;
+      width: max-content;
+      min-width: 100%;
+      min-height: 100%;
+      padding: 28px;
+    }
+
+    .image-layer {
+      position: relative;
+      margin: 0 auto;
+      box-shadow: 0 8px 30px rgba(31, 42, 53, 0.22);
+    }
+
+    .image-layer img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      max-width: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+    .box-layer {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+    }
+
+    .region-box {
+      position: absolute;
+      border: 2px solid var(--accent);
+      background: rgba(189, 75, 75, 0.1);
+      pointer-events: auto;
+    }
+
+    .region-box[data-type="profile"] {
+      border-color: var(--blue);
+      background: rgba(63, 120, 157, 0.12);
+    }
+
+    .region-box[data-type="body"] {
+      border-color: var(--green);
+      background: rgba(78, 126, 97, 0.12);
+    }
+
+    .region-box[data-type="note"] {
+      border-color: #9a7a33;
+      background: rgba(154, 122, 51, 0.12);
+    }
+
+    .region-box[data-type="image"] {
+      border-color: #7b61a8;
+      background: rgba(123, 97, 168, 0.14);
+    }
+
+    .region-box[data-type="caption"] {
+      border-color: #c06d2d;
+      background: rgba(192, 109, 45, 0.13);
+    }
+
+    .region-box.is-active {
+      outline: 3px solid rgba(189, 75, 75, 0.24);
+      z-index: 4;
+    }
+
+    .region-box.is-selected {
+      outline: 3px solid rgba(78, 126, 97, 0.28);
+      z-index: 3;
+    }
+
+    .region-box.is-active,
+    .layout-suggestion.is-active {
+      cursor: move;
+    }
+
+    .region-handle {
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      margin: 0;
+      padding: 0;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 1px 4px rgba(31, 42, 53, 0.35);
+      pointer-events: auto;
+      z-index: 8;
+    }
+
+    .layout-suggestion .region-handle {
+      background: #6d5597;
+    }
+
+    .region-handle[data-handle="nw"] {
+      left: -8px;
+      top: -8px;
+      cursor: nwse-resize;
+    }
+
+    .region-handle[data-handle="ne"] {
+      right: -8px;
+      top: -8px;
+      cursor: nesw-resize;
+    }
+
+    .region-handle[data-handle="sw"] {
+      left: -8px;
+      bottom: -8px;
+      cursor: nesw-resize;
+    }
+
+    .region-handle[data-handle="se"] {
+      right: -8px;
+      bottom: -8px;
+      cursor: nwse-resize;
+    }
+
+    .region-handle[data-handle="n"] {
+      left: 50%;
+      top: -8px;
+      margin-left: -7px;
+      cursor: ns-resize;
+    }
+
+    .region-handle[data-handle="e"] {
+      right: -8px;
+      top: 50%;
+      margin-top: -7px;
+      cursor: ew-resize;
+    }
+
+    .region-handle[data-handle="s"] {
+      left: 50%;
+      bottom: -8px;
+      margin-left: -7px;
+      cursor: ns-resize;
+    }
+
+    .region-handle[data-handle="w"] {
+      left: -8px;
+      top: 50%;
+      margin-top: -7px;
+      cursor: ew-resize;
+    }
+
+    .region-rotate-handle {
+      position: absolute;
+      left: 50%;
+      top: -46px;
+      width: 24px;
+      height: 24px;
+      margin-left: -12px;
+      border: 3px solid #fff;
+      border-radius: 50%;
+      background: #d27c2c;
+      box-shadow: 0 1px 4px rgba(31, 42, 53, 0.35);
+      cursor: grab;
+      pointer-events: auto;
+      z-index: 9;
+    }
+
+    .region-rotate-handle::after {
+      position: absolute;
+      left: 50%;
+      top: 21px;
+      width: 2px;
+      height: 23px;
+      background: #d27c2c;
+      content: "";
+    }
+
+    .region-rotate-handle:active {
+      cursor: grabbing;
+    }
+
+    .region-exclusion {
+      position: absolute;
+      border: 2px solid #bd4b4b;
+      background: repeating-linear-gradient(135deg, rgba(189, 75, 75, 0.34) 0 5px, rgba(255, 255, 255, 0.24) 5px 10px);
+      cursor: pointer;
+      pointer-events: auto;
+      z-index: 7;
+    }
+
+    .region-exclusion::after {
+      position: absolute;
+      right: 2px;
+      top: 0;
+      color: #8d3d33;
+      content: "×";
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .layout-suggestion {
+      position: absolute;
+      border: 2px dashed #7b61a8;
+      background: rgba(123, 97, 168, 0.1);
+      padding: 0;
+      color: inherit;
+      text-align: left;
+      cursor: pointer;
+      pointer-events: auto;
+      z-index: 2;
+    }
+
+    .layout-suggestion.is-active {
+      outline: 3px solid rgba(123, 97, 168, 0.34);
+      z-index: 5;
+    }
+
+    .layout-suggestion[data-type="note"] {
+      border-color: #b07a2c;
+      background: rgba(176, 122, 44, 0.1);
+    }
+
+    .layout-suggestion[data-type="image"] {
+      border-color: #7b61a8;
+      background: rgba(123, 97, 168, 0.12);
+    }
+
+    .layout-suggestion[data-type="caption"] {
+      border-color: #c06d2d;
+      background: rgba(192, 109, 45, 0.11);
+    }
+
+    .layout-suggestion > .region-label {
+      position: absolute;
+      top: -22px;
+      left: -2px;
+      max-width: 220px;
+      overflow: hidden;
+      border-radius: 6px 6px 0 0;
+      padding: 3px 6px;
+      background: #6d5597;
+      color: #fff;
+      font-size: 0.66rem;
+      font-weight: 800;
+      line-height: 1.2;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .layout-suggestion[data-type="note"] > .region-label {
+      background: #9a6826;
+    }
+
+    .region-box > .region-label {
+      position: absolute;
+      top: -24px;
+      left: -2px;
+      max-width: 220px;
+      overflow: hidden;
+      border-radius: 6px 6px 0 0;
+      padding: 3px 6px;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.68rem;
+      font-weight: 800;
+      line-height: 1.2;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .selection-box {
+      position: absolute;
+      border: 2px dashed #1f2a35;
+      background: rgba(31, 42, 53, 0.08);
+      pointer-events: none;
+      z-index: 5;
+    }
+
+    .hint {
+      border-top: 1px solid var(--line);
+      padding: 9px 11px;
+      background: #fff;
+      color: var(--muted);
+      font-size: 0.76rem;
+      line-height: 1.45;
+    }
+
+    .hint[data-type="warn"] {
+      border-color: rgba(189, 75, 75, 0.28);
+      background: #fff6f3;
+      color: #8d3d33;
+    }
+
+    .coordinate-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+      margin-top: 4px;
+    }
+
+    .coordinate-grid label {
+      margin: 0;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .coordinate-grid input {
+      width: 100%;
+      margin-top: 3px;
+    }
+
+    .export-tabs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+    }
+
+    .output {
+      min-height: 240px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 9px;
+      overflow: auto;
+      background: #f8fafb;
+      color: #26323f;
+      font-family: Consolas, "SFMono-Regular", Menlo, monospace;
+      font-size: 0.72rem;
+      line-height: 1.45;
+      white-space: pre;
+    }
+
+    .empty-state {
+      display: grid;
+      place-items: center;
+      height: 100%;
+      min-height: 420px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .empty-state div {
+      max-width: 360px;
+      line-height: 1.7;
+    }
+
+    .empty-state strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--ink);
+      font-size: 1.05rem;
+    }
+
+    @media (max-width: 1120px) {
+      .app {
+        grid-template-columns: 220px minmax(0, 1fr);
+      }
+
+      .right {
+        grid-column: 1 / -1;
+        max-height: 42vh;
+      }
+    }
+
+    @media (max-width: 760px) {
+      body {
+        overflow: auto;
+      }
+
+      .app {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 100%;
+      }
+
+      .stage-panel {
+        min-height: 74vh;
+      }
+
+      .quick-action-bar {
+        bottom: 60px;
+        width: calc(100% - 24px);
+        overflow-x: auto;
+      }
+
+      .quick-action-bar .btn {
+        flex: 1 0 auto;
+      }
+    }
+  </style>
+</head>
+<body class="tool-nav-enabled">
+  <nav class="tool-nav" aria-label="本地编辑工具导航">
+    <a class="tool-nav__brand" href="/">Poke Amice Docs</a>
+    <div class="tool-nav__links">
+      <a href="/assets/tools/editor-toolbox.html#region">统一工具箱</a>
+      <a href="/local-editing-tools/">工具索引</a>
+      <a class="is-active" href="/assets/tools/magazine-region-annotator.html">杂志分区</a>
+      <a href="/assets/tools/ocr-project-queue.html">项目队列</a>
+      <a href="/assets/tools/ocr-translation-workbench.html">OCR 工作台</a>
+      <a href="/assets/tools/web-interview-capture.html">网页收录</a>
+      <a href="/assets/tools/project-workflow-board.html">项目看板</a>
+      <a href="/search/">资料检索</a>
+    </div>
+  </nav>
+  <div class="app">
+    <aside class="panel left">
+      <div class="brand">
+        <strong>杂志分区工具</strong>
+        <span>先给扫描页划出人物简介、正文、图注等大区，再导出给 OCR 和站点模板使用。</span>
+      </div>
+
+      <div class="field">
+        <label for="imageInput">导入图片</label>
+        <input id="imageInput" type="file" accept="image/*,.tif,.tiff" multiple>
+        <input id="folderInput" type="file" accept="image/*,.tif,.tiff" multiple webkitdirectory hidden>
+      </div>
+
+      <div class="button-row">
+        <button class="btn" id="folderButton" type="button" title="选择原图所在文件夹后，自动填写原图目录和输出目录前缀">选择原图文件夹</button>
+        <button class="btn" id="importButton" type="button">导入 JSON</button>
+        <button class="btn danger" id="clearButton" type="button">清空</button>
+        <input id="importInput" type="file" accept="application/json,.json" hidden>
+      </div>
+      <div class="hint" id="folderPathHint">选择原图文件夹后，会自动填写原图目录，并用最后一层文件夹名生成输出目录前缀。若浏览器隐藏绝对路径，会优先套用你记住过的路径。</div>
+      <div class="hint" id="imageImportStatus" hidden></div>
+
+      <div class="draft-card">
+        <div class="draft-status" id="draftStatus">临时保存：等待内容</div>
+        <div class="button-row">
+          <button class="btn btn-small" id="saveDraftButton" type="button">立即保存</button>
+          <button class="btn btn-small" id="clearDraftButton" type="button">清除草稿</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="zoomRange">缩放</label>
+        <input id="zoomRange" type="range" min="0.05" max="2.5" value="0.15" step="0.01">
+      </div>
+
+      <div>
+        <div class="section-title-row">
+          <p class="section-title">页面</p>
+          <button class="btn danger btn-small" id="deletePageButton" type="button">删除当前图</button>
+        </div>
+        <ul class="page-list" id="pageList"></ul>
+      </div>
+    </aside>
+
+    <main class="panel stage-panel">
+      <header class="toolbar">
+        <div class="toolbar-title">
+          <strong id="currentTitle">尚未导入图片</strong>
+          <span id="currentMeta">拖拽框选区域，点击框或右侧列表可以编辑</span>
+        </div>
+        <div class="button-row">
+          <button class="btn" id="fitButton" type="button">适应宽度</button>
+          <button class="btn" id="panModeButton" type="button" aria-pressed="false">移动图片</button>
+          <button class="btn" id="autoLayoutButton" type="button" title="用 Qwen 视觉模型生成可编辑的分页/分区建议">自动分页/分区</button>
+          <button class="btn primary" id="acceptLayoutButton" type="button" hidden>采纳分区建议</button>
+          <button class="btn" id="discardLayoutButton" type="button" hidden>清除建议</button>
+          <button class="btn primary" id="newBodyButton" type="button">正文区</button>
+        </div>
+      </header>
+
+      <section class="stage" id="stage">
+        <div class="empty-state" id="emptyState">
+          <div>
+            <strong>导入扫描图后开始分区</strong>
+            每页建议只划 3-8 个大区：人物简介、正文、编辑注、图片说明、忽略区域。
+          </div>
+        </div>
+        <div class="canvas-wrap" id="canvasWrap" hidden>
+          <div class="image-layer" id="imageLayer">
+            <img id="scanImage" alt="">
+            <div class="box-layer" id="boxLayer"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="quick-action-bar" id="quickActionBar" aria-label="选区快捷操作" hidden>
+        <button class="btn primary" id="quickSaveRegionButton" type="button">保存区域</button>
+        <button class="btn" id="quickMergeRegionsButton" type="button">合并区域</button>
+        <button class="btn" id="quickExcludeRegionButton" type="button">添加排除区</button>
+        <span class="quick-action-divider" aria-hidden="true"></span>
+        <button class="btn danger" id="quickDeleteRegionButton" type="button">删除区域</button>
+      </div>
+
+      <footer class="hint">
+        操作：拖动选区内部可移动整框；拖四个角点时固定对角点，拖四条边的中点时固定对边；拖上方橙色圆点旋转，按住 Shift 可吸附到 15°。也可重新划框、添加排除区，或精确编辑右侧坐标。按住空格拖动可平移页面。
+      </footer>
+    </main>
+
+    <aside class="panel right">
+      <div>
+        <p class="section-title">当前区域</p>
+        <ul class="region-list" id="regionList"></ul>
+      </div>
+
+      <div class="hint" id="layoutAssistStatus">选中后：拖框内部移动；拖四角固定对角点缩放；拖边中点固定对边缩放；拖橙色圆点旋转。Qwen 紫色建议框也支持同样操作。</div>
+
+      <form class="field" id="regionForm">
+        <label for="regionType">类型</label>
+        <select id="regionType">
+          <option value="body">正文</option>
+          <option value="profile">人物简介</option>
+          <option value="image">图片 / 插图</option>
+          <option value="caption">图片图注</option>
+          <option value="note">编辑注 / 旁注</option>
+          <option value="ignore">忽略</option>
+        </select>
+
+        <label for="regionSpeaker">人物 / 区域名</label>
+        <input id="regionSpeaker" type="text" placeholder="例如：高桥宏之 / 正文">
+
+        <label for="regionOrder">阅读顺序</label>
+        <input id="regionOrder" type="number" min="1" step="1">
+
+        <label for="regionWritingDirection">文字方向</label>
+        <select id="regionWritingDirection">
+          <option value="auto">自动判断</option>
+          <option value="horizontal">横排（从左到右）</option>
+          <option value="vertical">竖排（日文从右到左列）</option>
+        </select>
+
+        <label id="regionImageRefField" for="regionImageRef" hidden>关联图片
+          <select id="regionImageRef">
+            <option value="">自动关联最近图片</option>
+          </select>
+        </label>
+
+        <label>区域坐标（原图像素）</label>
+        <div class="coordinate-grid">
+          <label for="regionX1">左 X1<input id="regionX1" type="number" min="0" step="1"></label>
+          <label for="regionY1">上 Y1<input id="regionY1" type="number" min="0" step="1"></label>
+          <label for="regionX2">右 X2<input id="regionX2" type="number" min="0" step="1"></label>
+          <label for="regionY2">下 Y2<input id="regionY2" type="number" min="0" step="1"></label>
+        </div>
+
+        <label for="regionAngle">旋转角度（顺时针 °）</label>
+        <input id="regionAngle" type="number" min="-180" max="180" step="0.1" placeholder="0">
+
+        <label for="regionNote">备注</label>
+        <textarea id="regionNote" placeholder="例如：振假名较多；先校对再翻译"></textarea>
+
+        <div class="region-actions">
+          <div class="action-group">
+            <span class="action-group-label">选区调整</span>
+            <div class="action-grid">
+              <button class="btn primary is-wide" id="saveRegionButton" type="submit">保存区域</button>
+              <button class="btn" id="redrawRegionButton" type="button">重新划区域</button>
+              <button class="btn" id="excludeRegionButton" type="button">添加排除区</button>
+              <button class="btn is-wide" id="clearExclusionsButton" type="button">清除排除区</button>
+            </div>
+          </div>
+          <div class="action-group">
+            <span class="action-group-label">段落关系</span>
+            <div class="action-grid">
+              <button class="btn is-wide" id="mergeRegionsButton" type="button">合并为同一段</button>
+              <button class="btn" id="startCrossPageMergeButton" type="button">设为跨页段</button>
+              <button class="btn" id="joinCrossPageMergeButton" type="button">加入跨页段</button>
+              <button class="btn is-wide" id="unmergeRegionsButton" type="button">取消合并</button>
+            </div>
+          </div>
+          <div class="action-group">
+            <span class="action-group-label">危险操作</span>
+            <button class="btn danger" id="deleteRegionButton" type="button">删除区域</button>
+          </div>
+        </div>
+      </form>
+
+      <div>
+        <p class="section-title">导出</p>
+        <div class="export-tabs">
+          <button class="btn" id="copyJsonButton" type="button">复制 JSON</button>
+          <button class="btn" id="copyYamlButton" type="button">复制模板</button>
+          <button class="btn" id="downloadJsonButton" type="button">下载 JSON</button>
+          <button class="btn" id="downloadYamlButton" type="button">下载模板</button>
+        </div>
+      </div>
+
+      <div class="field">
+        <p class="section-title">OCR 流水线</p>
+        <label for="ocrAnnotationPath">分区 JSON 路径</label>
+        <input id="ocrAnnotationPath" type="text" value="P:\WEBSITE\pokeamice-main (1)\pokeamice-main\magazine-regions.json">
+
+        <label for="ocrImageDir">原图文件夹</label>
+        <input id="ocrImageDir" type="text" placeholder="例如：F:\Pokeamice\DREAM 2008.12改\tuya">
+
+        <label for="ocrOutDir">输出目录</label>
+        <input id="ocrOutDir" type="text" value="ocr-output-region-qwen-vl-ocr-latest">
+
+        <label for="ocrBackend">OCR 后端</label>
+        <select id="ocrBackend">
+          <option value="qwen-vl-ocr">Qwen-VL-OCR latest 云端 VLM</option>
+          <option value="deepseek-vision">DeepSeek Vision 原图 OCR</option>
+          <option value="paddle">PaddleOCR 日文模型</option>
+          <option value="paddle-vl">PaddleOCR-VL 文档 VLM</option>
+          <option value="vlm-api">olmOCR / VLM API</option>
+        </select>
+
+        <label for="ocrApiUrl">VLM API URL</label>
+        <input id="ocrApiUrl" type="text" placeholder="Qwen 可留空；默认 https://dashscope.aliyuncs.com/compatible-mode/v1">
+
+        <label for="ocrApiModel">VLM API Model</label>
+        <input id="ocrApiModel" type="text" value="qwen-vl-ocr-latest" list="ocrApiModelPresets">
+        <datalist id="ocrApiModelPresets">
+          <option value="qwen-vl-ocr-latest"></option>
+          <option value="qwen-vl-ocr"></option>
+          <option value="qwen3-vl-flash"></option>
+          <option value="deepseek-v4-flash-vision-exp"></option>
+          <option value="allenai/olmOCR-2-7B-1025"></option>
+        </datalist>
+
+        <div class="button-row">
+          <label class="check-row"><input id="ocrGpuEnv" type="checkbox" checked> GPU</label>
+          <label class="check-row"><input id="ocrJapanRec" type="checkbox" checked> 日语特化识别</label>
+          <label class="check-row"><input id="ocrFast" type="checkbox"> 轻量快速模型</label>
+          <label class="check-row"><input id="ocrDeepSeek" type="checkbox"> DeepSeek 校对 / 翻译</label>
+        </div>
+
+        <label for="ocrTimeout">单区超时秒数</label>
+        <input id="ocrTimeout" type="number" min="30" step="30" value="180">
+
+        <label for="ocrVlPixels">VL 图像像素上限</label>
+        <input id="ocrVlPixels" type="number" min="100000" step="50000" value="250000">
+
+        <label for="ocrVlCropPixels">VL 裁切像素上限</label>
+        <input id="ocrVlCropPixels" type="number" min="100000" step="50000" value="1600000">
+
+        <label for="ocrVlTokens">VL 输出 token 上限</label>
+        <input id="ocrVlTokens" type="number" min="128" step="128" value="1024">
+
+        <label for="ocrPrompt">VLM OCR 提示词</label>
+        <textarea id="ocrPrompt" rows="8">あなたは日本語雑誌スキャン専用のOCRエンジンです。
+対象はポケットモンスター、任天堂、ゲーム関連の記事・インタビュー・図版キャプションです。
+画像内に見える文字を、原文の文字種をできるだけ保って転写してください。
+日本語は日本語のまま出力し、英字・数字・記号・商品名・ゲーム名は原文どおり保持してください。
+「ポケモン」「ピカチュウ」「ニンテンドーDS」「Wi-Fi」「GAME FREAK」などの固有名詞は文脈に合わせて自然な表記を優先してください。
+翻訳、要約、解説、画像説明はしないでください。
+読み順に沿って出力し、必要な改行は保ってください。
+判読不能な文字は推測で補わず、〔?〕で示してください。</textarea>
+
+        <label for="ocrVlVersion">PaddleOCR-VL 版本</label>
+        <select id="ocrVlVersion">
+          <option value="v1.6">v1.6</option>
+          <option value="v1.5">v1.5</option>
+          <option value="v1">v1</option>
+        </select>
+
+        <div class="button-row">
+          <button class="btn primary" id="downloadJsonAndCopyOcrButton" type="button">复制一键 OCR 命令</button>
+          <button class="btn" id="copyOcrCommandButton" type="button">复制命令</button>
+          <button class="btn" id="rememberImageDirButton" type="button">记住原图路径</button>
+        </div>
+        <div class="hint" id="ocrBackendHint"></div>
+        <pre class="output" id="ocrCommandOutput"></pre>
+      </div>
+      <pre class="output" id="output"></pre>
+    </aside>
+  </div>
+
+  <script>
+    const state = {
+      pages: [],
+      currentPage: -1,
+      activeRegionId: null,
+      activeLayoutSuggestionId: null,
+      selectedRegionIds: new Set(),
+      zoom: 0.15,
+      imageFolderName: "",
+      crossPageGroupId: "",
+      panMode: false,
+      spaceDown: false,
+      drag: null,
+      redrawTarget: null,
+      excludeTarget: null,
+      layoutBusy: false,
+      restoringDraft: false,
+      restoreDraftPending: false,
+      draftSaveTimer: null,
+    };
+
+    const els = {
+      imageInput: document.getElementById("imageInput"),
+      folderInput: document.getElementById("folderInput"),
+      folderButton: document.getElementById("folderButton"),
+      folderPathHint: document.getElementById("folderPathHint"),
+      imageImportStatus: document.getElementById("imageImportStatus"),
+      importButton: document.getElementById("importButton"),
+      importInput: document.getElementById("importInput"),
+      clearButton: document.getElementById("clearButton"),
+      draftStatus: document.getElementById("draftStatus"),
+      saveDraftButton: document.getElementById("saveDraftButton"),
+      clearDraftButton: document.getElementById("clearDraftButton"),
+      deletePageButton: document.getElementById("deletePageButton"),
+      zoomRange: document.getElementById("zoomRange"),
+      pageList: document.getElementById("pageList"),
+      regionList: document.getElementById("regionList"),
+      layoutAssistStatus: document.getElementById("layoutAssistStatus"),
+      currentTitle: document.getElementById("currentTitle"),
+      currentMeta: document.getElementById("currentMeta"),
+      stage: document.getElementById("stage"),
+      emptyState: document.getElementById("emptyState"),
+      canvasWrap: document.getElementById("canvasWrap"),
+      imageLayer: document.getElementById("imageLayer"),
+      scanImage: document.getElementById("scanImage"),
+      boxLayer: document.getElementById("boxLayer"),
+      fitButton: document.getElementById("fitButton"),
+      panModeButton: document.getElementById("panModeButton"),
+      autoLayoutButton: document.getElementById("autoLayoutButton"),
+      acceptLayoutButton: document.getElementById("acceptLayoutButton"),
+      discardLayoutButton: document.getElementById("discardLayoutButton"),
+      newBodyButton: document.getElementById("newBodyButton"),
+      quickActionBar: document.getElementById("quickActionBar"),
+      quickSaveRegionButton: document.getElementById("quickSaveRegionButton"),
+      quickMergeRegionsButton: document.getElementById("quickMergeRegionsButton"),
+      quickExcludeRegionButton: document.getElementById("quickExcludeRegionButton"),
+      quickDeleteRegionButton: document.getElementById("quickDeleteRegionButton"),
+      regionForm: document.getElementById("regionForm"),
+      regionType: document.getElementById("regionType"),
+      regionSpeaker: document.getElementById("regionSpeaker"),
+      regionOrder: document.getElementById("regionOrder"),
+      regionWritingDirection: document.getElementById("regionWritingDirection"),
+      regionImageRefField: document.getElementById("regionImageRefField"),
+      regionImageRef: document.getElementById("regionImageRef"),
+      regionX1: document.getElementById("regionX1"),
+      regionY1: document.getElementById("regionY1"),
+      regionX2: document.getElementById("regionX2"),
+      regionY2: document.getElementById("regionY2"),
+      regionAngle: document.getElementById("regionAngle"),
+      regionNote: document.getElementById("regionNote"),
+      saveRegionButton: document.getElementById("saveRegionButton"),
+      redrawRegionButton: document.getElementById("redrawRegionButton"),
+      excludeRegionButton: document.getElementById("excludeRegionButton"),
+      clearExclusionsButton: document.getElementById("clearExclusionsButton"),
+      mergeRegionsButton: document.getElementById("mergeRegionsButton"),
+      startCrossPageMergeButton: document.getElementById("startCrossPageMergeButton"),
+      joinCrossPageMergeButton: document.getElementById("joinCrossPageMergeButton"),
+      unmergeRegionsButton: document.getElementById("unmergeRegionsButton"),
+      deleteRegionButton: document.getElementById("deleteRegionButton"),
+      output: document.getElementById("output"),
+      copyJsonButton: document.getElementById("copyJsonButton"),
+      copyYamlButton: document.getElementById("copyYamlButton"),
+      downloadJsonButton: document.getElementById("downloadJsonButton"),
+      downloadYamlButton: document.getElementById("downloadYamlButton"),
+      ocrAnnotationPath: document.getElementById("ocrAnnotationPath"),
+      ocrImageDir: document.getElementById("ocrImageDir"),
+      ocrOutDir: document.getElementById("ocrOutDir"),
+      ocrBackend: document.getElementById("ocrBackend"),
+      ocrApiUrl: document.getElementById("ocrApiUrl"),
+      ocrApiModel: document.getElementById("ocrApiModel"),
+      ocrGpuEnv: document.getElementById("ocrGpuEnv"),
+      ocrJapanRec: document.getElementById("ocrJapanRec"),
+      ocrFast: document.getElementById("ocrFast"),
+      ocrDeepSeek: document.getElementById("ocrDeepSeek"),
+      ocrTimeout: document.getElementById("ocrTimeout"),
+      ocrVlPixels: document.getElementById("ocrVlPixels"),
+      ocrVlCropPixels: document.getElementById("ocrVlCropPixels"),
+      ocrVlTokens: document.getElementById("ocrVlTokens"),
+      ocrPrompt: document.getElementById("ocrPrompt"),
+      ocrVlVersion: document.getElementById("ocrVlVersion"),
+      copyOcrCommandButton: document.getElementById("copyOcrCommandButton"),
+      downloadJsonAndCopyOcrButton: document.getElementById("downloadJsonAndCopyOcrButton"),
+      rememberImageDirButton: document.getElementById("rememberImageDirButton"),
+      ocrBackendHint: document.getElementById("ocrBackendHint"),
+      ocrCommandOutput: document.getElementById("ocrCommandOutput"),
+    };
+
+    const projectRoot = "P:\\WEBSITE\\pokeamice-main (1)\\pokeamice-main";
+    const imageDirMapKey = "pokeamice.magazineRegionAnnotator.imageDirMap.v1";
+    const draftDbName = "pokeamice-magazine-region-annotator";
+    const draftStoreName = "drafts";
+    const draftKey = "current-work";
+
+    function openDraftDb() {
+      return new Promise((resolve, reject) => {
+        const request = indexedDB.open(draftDbName, 1);
+        request.onupgradeneeded = () => {
+          const db = request.result;
+          if (!db.objectStoreNames.contains(draftStoreName)) db.createObjectStore(draftStoreName);
+        };
+        request.onsuccess = () => resolve(request.result);
+        request.onerror = () => reject(request.error || new Error("无法打开临时保存空间"));
+      });
+    }
+
+    function draftOcrSettings() {
+      return {
+        annotationPath: els.ocrAnnotationPath.value,
+        imageDir: els.ocrImageDir.value,
+        outDir: els.ocrOutDir.value,
+        backend: els.ocrBackend.value,
+        apiUrl: els.ocrApiUrl.value,
+        apiModel: els.ocrApiModel.value,
+        gpu: els.ocrGpuEnv.checked,
+        japanRec: els.ocrJapanRec.checked,
+        fast: els.ocrFast.checked,
+        deepSeek: els.ocrDeepSeek.checked,
+        timeout: els.ocrTimeout.value,
+        vlPixels: els.ocrVlPixels.value,
+        vlCropPixels: els.ocrVlCropPixels.value,
+        vlTokens: els.ocrVlTokens.value,
+        prompt: els.ocrPrompt.value,
+        vlVersion: els.ocrVlVersion.value,
+      };
+    }
+
+    function applyDraftOcrSettings(settings = {}) {
+      const values = [
+        [els.ocrAnnotationPath, settings.annotationPath],
+        [els.ocrImageDir, settings.imageDir],
+        [els.ocrOutDir, settings.outDir],
+        [els.ocrBackend, settings.backend],
+        [els.ocrApiUrl, settings.apiUrl],
+        [els.ocrApiModel, settings.apiModel],
+        [els.ocrTimeout, settings.timeout],
+        [els.ocrVlPixels, settings.vlPixels],
+        [els.ocrVlCropPixels, settings.vlCropPixels],
+        [els.ocrVlTokens, settings.vlTokens],
+        [els.ocrPrompt, settings.prompt],
+        [els.ocrVlVersion, settings.vlVersion],
+      ];
+      values.forEach(([element, value]) => {
+        if (value !== undefined && value !== null) element.value = value;
+      });
+      if (typeof settings.gpu === "boolean") els.ocrGpuEnv.checked = settings.gpu;
+      if (typeof settings.japanRec === "boolean") els.ocrJapanRec.checked = settings.japanRec;
+      if (typeof settings.fast === "boolean") els.ocrFast.checked = settings.fast;
+      if (typeof settings.deepSeek === "boolean") els.ocrDeepSeek.checked = settings.deepSeek;
+    }
+
+    function draftSnapshot() {
+      return {
+        version: 2,
+        savedAt: new Date().toISOString(),
+        pages: state.pages,
+        currentPage: state.currentPage,
+        activeRegionId: state.activeRegionId,
+        activeLayoutSuggestionId: state.activeLayoutSuggestionId,
+        imageFolderName: state.imageFolderName,
+        crossPageGroupId: state.crossPageGroupId,
+        zoom: state.zoom,
+        ocr: draftOcrSettings(),
+      };
+    }
+
+    async function saveDraftNow() {
+      if (state.restoringDraft) return;
+      if (state.draftSaveTimer) {
+        clearTimeout(state.draftSaveTimer);
+        state.draftSaveTimer = null;
+      }
+      els.draftStatus.textContent = "临时保存：正在保存…";
+      try {
+        const db = await openDraftDb();
+        const snapshot = draftSnapshot();
+        await new Promise((resolve, reject) => {
+          const transaction = db.transaction(draftStoreName, "readwrite");
+          transaction.objectStore(draftStoreName).put(snapshot, draftKey);
+          transaction.oncomplete = resolve;
+          transaction.onerror = () => reject(transaction.error || new Error("写入失败"));
+          transaction.onabort = () => reject(transaction.error || new Error("写入已取消"));
+        });
+        db.close();
+        const time = new Date(snapshot.savedAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+        els.draftStatus.textContent = `临时保存：已保存 ${state.pages.length} 页 · ${time}`;
+      } catch (error) {
+        els.draftStatus.textContent = `临时保存失败：${error.message || error}`;
+      }
+    }
+
+    function scheduleDraftSave() {
+      if (state.restoringDraft || state.restoreDraftPending) return;
+      if (state.draftSaveTimer) clearTimeout(state.draftSaveTimer);
+      els.draftStatus.textContent = "临时保存：有修改，准备保存…";
+      state.draftSaveTimer = window.setTimeout(() => saveDraftNow(), 650);
+    }
+
+    async function readDraft() {
+      const db = await openDraftDb();
+      const draft = await new Promise((resolve, reject) => {
+        const transaction = db.transaction(draftStoreName, "readonly");
+        const request = transaction.objectStore(draftStoreName).get(draftKey);
+        request.onsuccess = () => resolve(request.result || null);
+        request.onerror = () => reject(request.error || new Error("读取失败"));
+      });
+      db.close();
+      return draft;
+    }
+
+    async function restoreDraft() {
+      state.restoringDraft = true;
+      try {
+        const draft = await readDraft();
+        if (!draft || !Array.isArray(draft.pages) || !draft.pages.length) {
+          els.draftStatus.textContent = "临时保存：暂无草稿";
+          render();
+          return;
+        }
+        state.pages = draft.pages;
+        state.imageFolderName = draft.imageFolderName || "";
+        state.crossPageGroupId = draft.crossPageGroupId || "";
+        state.zoom = clamp(Number(draft.zoom || 0.15), 0.05, 2.5);
+        applyDraftOcrSettings(draft.ocr || {});
+        const index = clamp(Number(draft.currentPage || 0), 0, state.pages.length - 1);
+        state.currentPage = index;
+        state.activeRegionId = draft.activeRegionId || null;
+        state.activeLayoutSuggestionId = draft.activeLayoutSuggestionId || null;
+        state.restoreDraftPending = true;
+        loadPage(index);
+        const time = draft.savedAt ? new Date(draft.savedAt).toLocaleString() : "未知时间";
+        els.draftStatus.textContent = `临时保存：已恢复 ${state.pages.length} 页 · ${time}`;
+      } catch (error) {
+        els.draftStatus.textContent = `恢复草稿失败：${error.message || error}`;
+        render();
+      } finally {
+        state.restoringDraft = false;
+      }
+    }
+
+    async function removeDraft() {
+      const db = await openDraftDb();
+      await new Promise((resolve, reject) => {
+        const transaction = db.transaction(draftStoreName, "readwrite");
+        transaction.objectStore(draftStoreName).delete(draftKey);
+        transaction.oncomplete = resolve;
+        transaction.onerror = () => reject(transaction.error || new Error("删除失败"));
+      });
+      db.close();
+      els.draftStatus.textContent = "临时保存：草稿已清除；当前页面不会被删除";
+    }
+
+    function makeId() {
+      return "r" + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    }
+
+    function currentPage() {
+      return state.pages[state.currentPage] || null;
+    }
+
+    function activeRegion() {
+      const page = currentPage();
+      if (!page) return null;
+      return page.regions.find((region) => region.id === state.activeRegionId) || null;
+    }
+
+    function activeLayoutSuggestion() {
+      const page = currentPage();
+      if (!page) return null;
+      return (page.layoutSuggestions || []).find((region) => region.id === state.activeLayoutSuggestionId) || null;
+    }
+
+    function selectedRegions() {
+      const page = currentPage();
+      if (!page) return [];
+      return page.regions.filter((region) => state.selectedRegionIds.has(region.id));
+    }
+
+    function groupRegions(groupId) {
+      const page = currentPage();
+      if (!page || !groupId) return [];
+      return page.regions
+        .filter((region) => region.groupId === groupId)
+        .sort((a, b) => Number(a.order) - Number(b.order));
+    }
+
+    function groupRegionsAll(groupId) {
+      if (!groupId) return [];
+      const members = [];
+      state.pages.forEach((page, pageIndex) => {
+        page.regions.forEach((region) => {
+          if (region.groupId === groupId) members.push({ page, pageIndex, region });
+        });
+      });
+      return members.sort((a, b) => a.pageIndex - b.pageIndex || Number(a.region.order) - Number(b.region.order));
+    }
+
+    function setActiveRegion(id, additive = false) {
+      state.activeRegionId = id;
+      state.activeLayoutSuggestionId = null;
+      state.redrawTarget = null;
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.stage.classList.remove("is-exclude-mode");
+      if (additive) {
+        if (state.selectedRegionIds.has(id)) {
+          state.selectedRegionIds.delete(id);
+        } else {
+          state.selectedRegionIds.add(id);
+        }
+        if (!state.selectedRegionIds.size) state.selectedRegionIds.add(id);
+      } else {
+        state.selectedRegionIds = new Set([id]);
+      }
+    }
+
+    function setActiveLayoutSuggestion(id) {
+      state.activeLayoutSuggestionId = id;
+      state.activeRegionId = null;
+      state.selectedRegionIds.clear();
+      state.redrawTarget = null;
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.stage.classList.remove("is-exclude-mode");
+    }
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function normalizeBox(box) {
+      const [x1, y1, x2, y2] = box;
+      return [
+        Math.round(Math.min(x1, x2)),
+        Math.round(Math.min(y1, y2)),
+        Math.round(Math.max(x1, x2)),
+        Math.round(Math.max(y1, y2)),
+      ];
+    }
+
+    function normalizeAngle(value) {
+      const angle = Number(value);
+      if (!Number.isFinite(angle)) return 0;
+      return Math.round(clamp(angle, -180, 180) * 10) / 10;
+    }
+
+    function imagePoint(event) {
+      const rect = els.scanImage.getBoundingClientRect();
+      const page = currentPage();
+      if (!page) return null;
+      const x = clamp((event.clientX - rect.left) * page.width / rect.width, 0, page.width);
+      const y = clamp((event.clientY - rect.top) * page.height / rect.height, 0, page.height);
+      return { x, y };
+    }
+
+    function applyZoomDimensions(page = currentPage()) {
+      if (!page) return;
+      const displayWidth = Math.max(1, Math.round(page.width * state.zoom));
+      const displayHeight = Math.max(1, Math.round(page.height * state.zoom));
+      els.imageLayer.style.width = `${displayWidth}px`;
+      els.imageLayer.style.height = `${displayHeight}px`;
+      els.boxLayer.style.width = `${displayWidth}px`;
+      els.boxLayer.style.height = `${displayHeight}px`;
+    }
+
+    function setZoom(value, shouldRender = true) {
+      state.zoom = clamp(Number(value), 0.05, 2.5);
+      els.zoomRange.value = String(state.zoom);
+      applyZoomDimensions();
+      if (shouldRender) renderStage();
+    }
+
+    function setPanMode(enabled) {
+      state.panMode = Boolean(enabled);
+      els.panModeButton.classList.toggle("is-active", state.panMode);
+      els.panModeButton.setAttribute("aria-pressed", String(state.panMode));
+      els.stage.classList.toggle("is-pan-mode", state.panMode);
+      document.body.style.cursor = state.panMode ? "grab" : "";
+    }
+
+    function fitWidth() {
+      const page = currentPage();
+      if (!page) return;
+      const available = Math.max(240, els.stage.clientWidth - 72);
+      setZoom(clamp(available / page.width, 0.05, 2.5));
+    }
+
+    function loadPage(index) {
+      state.currentPage = index;
+      state.activeRegionId = state.pages[index]?.regions[0]?.id || null;
+      state.activeLayoutSuggestionId = null;
+      state.redrawTarget = null;
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.stage.classList.remove("is-exclude-mode");
+      state.selectedRegionIds = new Set(state.activeRegionId ? [state.activeRegionId] : []);
+      const page = currentPage();
+      if (!page) return render();
+      if (!page.dataUrl) {
+        state.restoreDraftPending = false;
+        render();
+        return;
+      }
+      els.scanImage.src = page.dataUrl;
+      els.scanImage.onload = () => {
+        els.emptyState.hidden = true;
+        els.canvasWrap.hidden = false;
+        const available = Math.max(240, els.stage.clientWidth - 72);
+        setZoom(clamp(available / page.width, 0.05, 2.5), false);
+        render();
+        state.restoreDraftPending = false;
+        requestAnimationFrame(() => {
+          els.stage.scrollLeft = Math.max(0, (els.canvasWrap.scrollWidth - els.stage.clientWidth) / 2);
+          els.stage.scrollTop = 0;
+        });
+      };
+      render();
+    }
+
+    function deleteCurrentPage() {
+      const page = currentPage();
+      if (!page) return;
+      const regionCount = page.regions.length;
+      const message = regionCount
+        ? `删除当前图片“${page.name}”以及它的 ${regionCount} 个分区？`
+        : `删除当前图片“${page.name}”？`;
+      if (!confirm(message)) return;
+      const nextIndex = state.currentPage >= state.pages.length - 1
+        ? state.currentPage - 1
+        : state.currentPage;
+      state.pages.splice(state.currentPage, 1);
+      state.activeRegionId = null;
+      state.redrawTarget = null;
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.stage.classList.remove("is-exclude-mode");
+      state.selectedRegionIds.clear();
+      if (!state.pages.length) {
+        state.currentPage = -1;
+        els.scanImage.removeAttribute("src");
+        render();
+        return;
+      }
+      loadPage(Math.max(0, nextIndex));
+    }
+
+    function render() {
+      renderPages();
+      renderStage();
+      renderRegions();
+      renderForm();
+      renderLayoutAssist();
+      renderOutput();
+      scheduleDraftSave();
+    }
+
+    function renderPages() {
+      els.pageList.innerHTML = "";
+      els.deletePageButton.disabled = !currentPage();
+      state.pages.forEach((page, index) => {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "page-item" + (index === state.currentPage ? " is-active" : "");
+        item.innerHTML = `<strong>${escapeHtml(page.name)}</strong><span>${page.width} x ${page.height} / ${page.regions.length} 区</span>`;
+        item.addEventListener("click", () => loadPage(index));
+        els.pageList.appendChild(item);
+      });
+    }
+
+    function rotatePoint(point, center, degrees) {
+      const radians = degrees * Math.PI / 180;
+      const dx = point.x - center.x;
+      const dy = point.y - center.y;
+      return {
+        x: center.x + dx * Math.cos(radians) - dy * Math.sin(radians),
+        y: center.y + dx * Math.sin(radians) + dy * Math.cos(radians),
+      };
+    }
+
+    function canvasTarget(kind, id) {
+      const page = currentPage();
+      if (!page) return null;
+      const collection = kind === "suggestion" ? (page.layoutSuggestions || []) : page.regions;
+      return collection.find((item) => item.id === id) || null;
+    }
+
+    function beginResize(event, kind, id, handle) {
+      const target = canvasTarget(kind, id);
+      if (!target) return;
+      if (kind === "suggestion") setActiveLayoutSuggestion(id);
+      else setActiveRegion(id);
+      state.drag = {
+        mode: "resize",
+        targetKind: kind,
+        targetId: id,
+        handle,
+        originalBox: [...target.box],
+        angle: normalizeAngle(target.angle),
+      };
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    function beginMove(event, kind, id) {
+      if (event.button !== 0 || event.target.closest?.(".region-handle, .region-rotate-handle, .region-exclusion")) return;
+      const target = canvasTarget(kind, id);
+      const point = imagePoint(event);
+      if (!target || !point) return;
+      const wasActive = kind === "suggestion"
+        ? state.activeLayoutSuggestionId === id
+        : state.activeRegionId === id;
+      if (kind === "suggestion") setActiveLayoutSuggestion(id);
+      else setActiveRegion(id);
+      state.drag = {
+        mode: "move",
+        targetKind: kind,
+        targetId: id,
+        start: point,
+        originalBox: [...target.box],
+        originalExclusions: (target.exclusions || []).map((box) => [...box]),
+      };
+      event.preventDefault();
+      event.stopPropagation();
+      if (!wasActive) render();
+    }
+
+    function beginRotate(event, kind, id, center) {
+      const target = canvasTarget(kind, id);
+      if (!target) return;
+      if (kind === "suggestion") setActiveLayoutSuggestion(id);
+      else setActiveRegion(id);
+      state.drag = {
+        mode: "rotate",
+        targetKind: kind,
+        targetId: id,
+        center,
+      };
+      event.preventDefault();
+      event.stopPropagation();
+    }
+
+    function appendResizeHandles(box, kind, target) {
+      const isActive = kind === "suggestion"
+        ? target.id === state.activeLayoutSuggestionId
+        : target.id === state.activeRegionId;
+      if (!isActive) return;
+      ["nw", "n", "ne", "e", "se", "s", "sw", "w"].forEach((handleName) => {
+        const handle = document.createElement("span");
+        handle.className = "region-handle";
+        handle.dataset.handle = handleName;
+        handle.setAttribute("aria-label", `调整${handleName}角`);
+        handle.addEventListener("mousedown", (event) => beginResize(event, kind, target.id, handleName));
+        box.appendChild(handle);
+      });
+    }
+
+    function appendRotateHandle(box, kind, target) {
+      const isActive = kind === "suggestion"
+        ? target.id === state.activeLayoutSuggestionId
+        : target.id === state.activeRegionId;
+      if (!isActive) return;
+      const handle = document.createElement("span");
+      handle.className = "region-rotate-handle";
+      handle.setAttribute("aria-label", "旋转区域");
+      handle.addEventListener("mousedown", (event) => {
+        const [x1, y1, x2, y2] = target.box;
+        beginRotate(event, kind, target.id, { x: (x1 + x2) / 2, y: (y1 + y2) / 2 });
+      });
+      box.appendChild(handle);
+    }
+
+    function appendExclusions(box, kind, target) {
+      const [x1, y1] = target.box;
+      (target.exclusions || []).forEach((exclusion, index) => {
+        const [ex1, ey1, ex2, ey2] = normalizeBox(exclusion);
+        const item = document.createElement("span");
+        item.className = "region-exclusion";
+        item.title = "点击删除排除区";
+        item.style.left = `${(ex1 - x1) * state.zoom}px`;
+        item.style.top = `${(ey1 - y1) * state.zoom}px`;
+        item.style.width = `${Math.max(1, (ex2 - ex1) * state.zoom)}px`;
+        item.style.height = `${Math.max(1, (ey2 - ey1) * state.zoom)}px`;
+        item.addEventListener("mousedown", (event) => event.stopPropagation());
+        item.addEventListener("click", (event) => {
+          event.stopPropagation();
+          target.exclusions.splice(index, 1);
+          if (kind === "suggestion") setActiveLayoutSuggestion(target.id);
+          else setActiveRegion(target.id);
+          render();
+        });
+        box.appendChild(item);
+      });
+    }
+
+    function resizeCanvasTarget(event) {
+      const drag = state.drag;
+      const page = currentPage();
+      const target = canvasTarget(drag.targetKind, drag.targetId);
+      if (!page || !target) return;
+      const point = imagePoint(event);
+      if (!point) return;
+      const [x1, y1, x2, y2] = drag.originalBox;
+      const center = { x: (x1 + x2) / 2, y: (y1 + y2) / 2 };
+      const halfWidth = (x2 - x1) / 2;
+      const halfHeight = (y2 - y1) / 2;
+      const localPoint = rotatePoint(point, center, -drag.angle);
+      const local = { x: localPoint.x - center.x, y: localPoint.y - center.y };
+      const minimum = 16;
+      let nextHalfWidth = halfWidth;
+      let nextHalfHeight = halfHeight;
+      let offsetX = 0;
+      let offsetY = 0;
+
+      if (drag.handle.includes("w")) {
+        const movingX = Math.min(local.x, halfWidth - minimum);
+        nextHalfWidth = (halfWidth - movingX) / 2;
+        offsetX = (movingX + halfWidth) / 2;
+      } else if (drag.handle.includes("e")) {
+        const movingX = Math.max(local.x, -halfWidth + minimum);
+        nextHalfWidth = (movingX + halfWidth) / 2;
+        offsetX = (movingX - halfWidth) / 2;
+      }
+      if (drag.handle.includes("n")) {
+        const movingY = Math.min(local.y, halfHeight - minimum);
+        nextHalfHeight = (halfHeight - movingY) / 2;
+        offsetY = (movingY + halfHeight) / 2;
+      } else if (drag.handle.includes("s")) {
+        const movingY = Math.max(local.y, -halfHeight + minimum);
+        nextHalfHeight = (movingY + halfHeight) / 2;
+        offsetY = (movingY - halfHeight) / 2;
+      }
+
+      const rotatedCenter = rotatePoint({ x: center.x + offsetX, y: center.y + offsetY }, center, drag.angle);
+      target.box = normalizeBox([
+        rotatedCenter.x - nextHalfWidth,
+        rotatedCenter.y - nextHalfHeight,
+        rotatedCenter.x + nextHalfWidth,
+        rotatedCenter.y + nextHalfHeight,
+      ]);
+      updateCanvasTargetVisual(drag.targetKind, drag.targetId, target);
+    }
+
+    function moveCanvasTarget(event) {
+      const drag = state.drag;
+      const page = currentPage();
+      const target = canvasTarget(drag.targetKind, drag.targetId);
+      const point = imagePoint(event);
+      if (!page || !target || !point) return;
+      const [x1, y1, x2, y2] = drag.originalBox;
+      const width = x2 - x1;
+      const height = y2 - y1;
+      const dx = clamp(point.x - drag.start.x, -x1, page.width - x2);
+      const dy = clamp(point.y - drag.start.y, -y1, page.height - y2);
+      target.box = [x1 + dx, y1 + dy, x1 + dx + width, y1 + dy + height].map((value) => Math.round(value));
+      target.exclusions = drag.originalExclusions.map((box) => [
+        box[0] + dx,
+        box[1] + dy,
+        box[2] + dx,
+        box[3] + dy,
+      ].map((value) => Math.round(value)));
+      updateCanvasTargetVisual(drag.targetKind, drag.targetId, target);
+    }
+
+    function rotateCanvasTarget(event) {
+      const drag = state.drag;
+      const target = canvasTarget(drag.targetKind, drag.targetId);
+      const point = imagePoint(event);
+      if (!target || !point) return;
+      const radians = Math.atan2(point.y - drag.center.y, point.x - drag.center.x);
+      const rawAngle = radians * 180 / Math.PI + 90;
+      target.angle = normalizeAngle(event.shiftKey ? Math.round(rawAngle / 15) * 15 : rawAngle);
+      updateCanvasTargetVisual(drag.targetKind, drag.targetId, target);
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = `当前旋转：${normalizeAngle(target.angle)}°；按住 Shift 可吸附到 15°。`;
+    }
+
+    function updateCanvasTargetVisual(kind, id, target) {
+      const box = Array.from(els.boxLayer.children).find((item) => item.dataset.targetKind === kind && item.dataset.targetId === id);
+      if (!box) return;
+      const [x1, y1, x2, y2] = target.box;
+      box.style.left = `${x1 * state.zoom}px`;
+      box.style.top = `${y1 * state.zoom}px`;
+      box.style.width = `${Math.max(1, (x2 - x1) * state.zoom)}px`;
+      box.style.height = `${Math.max(1, (y2 - y1) * state.zoom)}px`;
+      box.style.transform = `rotate(${normalizeAngle(target.angle)}deg)`;
+      Array.from(box.querySelectorAll(".region-exclusion")).forEach((item, index) => {
+        const exclusion = target.exclusions?.[index];
+        if (!exclusion) return;
+        const [ex1, ey1, ex2, ey2] = exclusion;
+        item.style.left = `${(ex1 - x1) * state.zoom}px`;
+        item.style.top = `${(ey1 - y1) * state.zoom}px`;
+        item.style.width = `${Math.max(1, (ex2 - ex1) * state.zoom)}px`;
+        item.style.height = `${Math.max(1, (ey2 - ey1) * state.zoom)}px`;
+      });
+      els.regionX1.value = Math.round(x1);
+      els.regionY1.value = Math.round(y1);
+      els.regionX2.value = Math.round(x2);
+      els.regionY2.value = Math.round(y2);
+      els.regionAngle.value = normalizeAngle(target.angle);
+    }
+
+    function renderStage() {
+      const page = currentPage();
+      els.boxLayer.innerHTML = "";
+      if (!page) {
+        els.emptyState.hidden = false;
+        els.canvasWrap.hidden = true;
+        state.selectedRegionIds.clear();
+        els.currentTitle.textContent = "尚未导入图片";
+        els.currentMeta.textContent = "拖拽框选区域，点击框或右侧列表可以编辑";
+        return;
+      }
+      els.currentTitle.textContent = page.name;
+      els.currentMeta.textContent = `${page.width} x ${page.height} / ${page.regions.length} 个区域`;
+      els.scanImage.width = page.width;
+      els.scanImage.height = page.height;
+      applyZoomDimensions(page);
+
+      (page.layoutSuggestions || []).forEach((suggestion) => {
+        const box = document.createElement("button");
+        const [x1, y1, x2, y2] = suggestion.box;
+        box.type = "button";
+        box.className = "layout-suggestion" + (suggestion.id === state.activeLayoutSuggestionId ? " is-active" : "");
+        box.dataset.type = suggestion.type || "body";
+        box.dataset.targetKind = "suggestion";
+        box.dataset.targetId = suggestion.id;
+        box.style.left = `${x1 * state.zoom}px`;
+        box.style.top = `${y1 * state.zoom}px`;
+        box.style.width = `${Math.max(1, (x2 - x1) * state.zoom)}px`;
+        box.style.height = `${Math.max(1, (y2 - y1) * state.zoom)}px`;
+        box.style.transform = `rotate(${normalizeAngle(suggestion.angle)}deg)`;
+        box.style.transformOrigin = "center center";
+        box.innerHTML = `<span class="region-label">${escapeHtml(`${suggestion.order}. ${suggestion.sourceType || suggestion.type || "区域"}`)}</span>`;
+        appendExclusions(box, "suggestion", suggestion);
+        appendResizeHandles(box, "suggestion", suggestion);
+        appendRotateHandle(box, "suggestion", suggestion);
+        box.addEventListener("mousedown", (event) => beginMove(event, "suggestion", suggestion.id));
+        box.addEventListener("click", (event) => {
+          event.stopPropagation();
+          setActiveLayoutSuggestion(suggestion.id);
+          scrollRegionIntoView(suggestion);
+          render();
+        });
+        els.boxLayer.appendChild(box);
+      });
+
+      page.regions.forEach((region) => {
+        const box = document.createElement("button");
+        const [x1, y1, x2, y2] = region.box;
+        box.type = "button";
+        box.className = "region-box"
+          + (region.id === state.activeRegionId ? " is-active" : "")
+          + (state.selectedRegionIds.has(region.id) ? " is-selected" : "");
+        box.dataset.type = region.type;
+        box.dataset.targetKind = "region";
+        box.dataset.targetId = region.id;
+        box.style.left = `${x1 * state.zoom}px`;
+        box.style.top = `${y1 * state.zoom}px`;
+        box.style.width = `${Math.max(1, (x2 - x1) * state.zoom)}px`;
+        box.style.height = `${Math.max(1, (y2 - y1) * state.zoom)}px`;
+        box.style.transform = `rotate(${normalizeAngle(region.angle)}deg)`;
+        box.style.transformOrigin = "center center";
+        box.innerHTML = `<span class="region-label">${escapeHtml(regionLabel(region))}</span>`;
+        appendExclusions(box, "region", region);
+        appendResizeHandles(box, "region", region);
+        appendRotateHandle(box, "region", region);
+        box.addEventListener("mousedown", (event) => beginMove(event, "region", region.id));
+        box.addEventListener("click", (event) => {
+          event.stopPropagation();
+          setActiveRegion(region.id, event.shiftKey || event.ctrlKey || event.metaKey);
+          render();
+        });
+        els.boxLayer.appendChild(box);
+      });
+    }
+
+    function renderRegions() {
+      const page = currentPage();
+      els.regionList.innerHTML = "";
+      if (!page) return;
+      const sorted = [...page.regions].sort((a, b) => Number(a.order) - Number(b.order));
+      sorted.forEach((region) => {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "region-item"
+          + (region.id === state.activeRegionId ? " is-active" : "")
+          + (state.selectedRegionIds.has(region.id) ? " is-selected" : "");
+        const groupCount = region.groupId ? groupRegionsAll(region.groupId).length : 0;
+        const groupText = region.groupId ? ` / 合并段 ${groupCount} 框` : "";
+        const directionText = region.type !== "image" && region.writingDirection && region.writingDirection !== "auto"
+          ? ` / ${region.writingDirection === "vertical" ? "竖排" : "横排"}`
+          : "";
+        item.innerHTML = `<strong>${escapeHtml(regionLabel(region))}</strong><span>${region.type}${directionText}${groupText} / [${region.box.join(", ")}]</span>`;
+        item.addEventListener("click", (event) => {
+          setActiveRegion(region.id, event.shiftKey || event.ctrlKey || event.metaKey);
+          scrollRegionIntoView(region);
+          render();
+        });
+        els.regionList.appendChild(item);
+      });
+      (page.layoutSuggestions || []).slice().sort((a, b) => Number(a.order) - Number(b.order)).forEach((suggestion) => {
+        const item = document.createElement("button");
+        item.type = "button";
+        item.className = "region-item layout-suggestion-item" + (suggestion.id === state.activeLayoutSuggestionId ? " is-active" : "");
+        item.innerHTML = `<strong>建议 ${escapeHtml(`${suggestion.order}. ${suggestion.sourceType || suggestion.type || "区域"}`)}</strong><span>${suggestion.type || "body"} / [${suggestion.box.join(", ")}]</span>`;
+        item.addEventListener("click", () => {
+          setActiveLayoutSuggestion(suggestion.id);
+          scrollRegionIntoView(suggestion);
+          render();
+        });
+        els.regionList.appendChild(item);
+      });
+    }
+
+    function autoLinkCaptionRegions(regions) {
+      const ordered = (regions || []).slice().sort((a, b) => Number(a.order || 0) - Number(b.order || 0));
+      const images = ordered.filter((item) => item.type === "image");
+      ordered.filter((item) => item.type === "caption").forEach((caption) => {
+        if (caption.imageRef && images.some((image) => image.id === caption.imageRef)) return;
+        const preceding = images.filter((image) => Number(image.order || 0) <= Number(caption.order || 0));
+        const linked = preceding.at(-1) || images[0];
+        caption.imageRef = linked?.id || "";
+      });
+    }
+
+    function renderImageRefOptions(target) {
+      const page = currentPage();
+      const candidates = [
+        ...(page?.regions || []),
+        ...(page?.layoutSuggestions || []),
+      ].filter((item) => item.type === "image" && item.id !== target?.id);
+      els.regionImageRef.replaceChildren();
+      const automatic = document.createElement("option");
+      automatic.value = "";
+      automatic.textContent = "自动关联最近图片";
+      els.regionImageRef.appendChild(automatic);
+      candidates.forEach((image, index) => {
+        const option = document.createElement("option");
+        option.value = image.id;
+        option.textContent = `${image.order || index + 1}. ${image.speaker || "图片"}`;
+        els.regionImageRef.appendChild(option);
+      });
+      els.regionImageRef.value = target?.imageRef || "";
+    }
+
+    function renderForm() {
+      const region = activeRegion();
+      const suggestion = activeLayoutSuggestion();
+      const target = region || suggestion;
+      const disabled = !target;
+      [els.regionType, els.regionSpeaker, els.regionOrder, els.regionWritingDirection, els.regionImageRef, els.regionX1, els.regionY1, els.regionX2, els.regionY2, els.regionAngle, els.regionNote, els.saveRegionButton, els.redrawRegionButton, els.excludeRegionButton, els.clearExclusionsButton, els.deleteRegionButton, els.mergeRegionsButton, els.startCrossPageMergeButton, els.joinCrossPageMergeButton, els.unmergeRegionsButton].forEach((el) => {
+        el.disabled = disabled;
+      });
+      els.mergeRegionsButton.disabled = selectedRegions().length < 2;
+      els.startCrossPageMergeButton.disabled = disabled || Boolean(suggestion);
+      els.joinCrossPageMergeButton.disabled = disabled || Boolean(suggestion) || !state.crossPageGroupId;
+      els.unmergeRegionsButton.disabled = !region?.groupId;
+      els.saveRegionButton.textContent = suggestion ? "保存建议" : "保存区域";
+      els.deleteRegionButton.textContent = suggestion ? "删除建议" : "删除区域";
+      els.redrawRegionButton.textContent = state.redrawTarget ? "取消重新划框" : "重新划区域";
+      els.redrawRegionButton.disabled = disabled;
+      els.excludeRegionButton.textContent = state.excludeTarget ? "取消排除模式" : "添加排除区";
+      els.excludeRegionButton.disabled = disabled;
+      els.quickActionBar.hidden = disabled;
+      els.quickSaveRegionButton.disabled = disabled;
+      els.quickSaveRegionButton.textContent = suggestion ? "保存建议" : "保存区域";
+      els.quickMergeRegionsButton.disabled = selectedRegions().length < 2 || Boolean(suggestion);
+      els.quickExcludeRegionButton.disabled = disabled;
+      els.quickExcludeRegionButton.textContent = state.excludeTarget ? "取消排除" : "添加排除区";
+      els.quickExcludeRegionButton.classList.toggle("is-active", Boolean(state.excludeTarget));
+      els.quickDeleteRegionButton.disabled = disabled;
+      els.quickDeleteRegionButton.textContent = suggestion ? "删除建议" : "删除区域";
+      els.clearExclusionsButton.disabled = disabled || !target || !(target.exclusions || []).length;
+      els.clearExclusionsButton.textContent = (target?.exclusions || []).length
+        ? `清除排除区 (${target.exclusions.length})`
+        : "清除排除区";
+      const showsImageRef = Boolean(target && target.type === "caption");
+      els.regionImageRefField.hidden = !showsImageRef;
+      renderImageRefOptions(target);
+      if (!target) {
+        els.regionType.value = "body";
+        els.regionSpeaker.value = "";
+        els.regionOrder.value = "";
+        els.regionWritingDirection.value = "auto";
+        els.regionImageRef.value = "";
+        els.regionX1.value = "";
+        els.regionY1.value = "";
+        els.regionX2.value = "";
+        els.regionY2.value = "";
+        els.regionAngle.value = "";
+        els.regionNote.value = "";
+        return;
+      }
+      els.regionType.value = target.type || "body";
+      els.regionSpeaker.value = target.speaker || "";
+      els.regionOrder.value = target.order || "";
+      els.regionWritingDirection.value = target.writingDirection || "auto";
+      els.regionX1.value = target.box?.[0] ?? "";
+      els.regionY1.value = target.box?.[1] ?? "";
+      els.regionX2.value = target.box?.[2] ?? "";
+      els.regionY2.value = target.box?.[3] ?? "";
+      els.regionAngle.value = normalizeAngle(target.angle);
+      els.regionNote.value = target.note || "";
+    }
+
+    function renderLayoutAssist() {
+      const page = currentPage();
+      const suggestions = page?.layoutSuggestions || [];
+      els.autoLayoutButton.disabled = !page || state.layoutBusy;
+      els.autoLayoutButton.textContent = state.layoutBusy ? "正在分析…" : "自动分页/分区";
+      els.acceptLayoutButton.hidden = !suggestions.length || state.layoutBusy;
+      els.discardLayoutButton.hidden = !suggestions.length || state.layoutBusy;
+      if (!page) {
+        els.layoutAssistStatus.textContent = "选中后：拖框内部移动；拖四角固定对角点缩放；拖边中点固定对边缩放；拖橙色圆点旋转。Qwen 紫色建议框也支持同样操作。";
+        return;
+      }
+      if (suggestions.length) {
+        const meta = page.layoutMeta || {};
+        const rotationText = Number(meta.pageRotation || 0) ? ` / 页面已校正 ${meta.pageRotation}°` : meta.rotationUncertain ? " / 页面方向待确认" : "";
+        els.layoutAssistStatus.textContent = `Qwen 建议：${suggestions.length} 个区域 / ${meta.pageType || "混合页面"} / ${meta.readingDirection === "right_to_left" ? "从右到左" : "从左到右"}${rotationText}。点击建议框或右侧建议项即可编辑、删除。`;
+      } else if (!state.layoutBusy) {
+        els.layoutAssistStatus.textContent = "选中后：拖框内部移动；拖四角固定对角点缩放；拖边中点固定对边缩放；拖橙色圆点旋转。Qwen 紫色建议框也支持同样操作。";
+      }
+    }
+
+    function loadDataUrlImage(dataUrl) {
+      return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = () => reject(new Error("无法读取页面图像"));
+        image.src = dataUrl;
+      });
+    }
+
+    async function rotatedPagePayload(page, rotation) {
+      if (!rotation) return { dataUrl: page.dataUrl, width: page.width, height: page.height };
+      const image = await loadDataUrlImage(page.dataUrl);
+      const swapsAxes = rotation === 90 || rotation === 270;
+      const canvas = document.createElement("canvas");
+      canvas.width = swapsAxes ? page.height : page.width;
+      canvas.height = swapsAxes ? page.width : page.height;
+      const context = canvas.getContext("2d");
+      context.translate(canvas.width / 2, canvas.height / 2);
+      context.rotate(rotation * Math.PI / 180);
+      context.drawImage(image, -page.width / 2, -page.height / 2, page.width, page.height);
+      return { dataUrl: canvas.toDataURL("image/jpeg", 0.94), width: canvas.width, height: canvas.height };
+    }
+
+    function pointFromRotated(point, rotation, originalWidth, originalHeight) {
+      const [x, y] = point;
+      if (rotation === 90) return [y, originalHeight - x];
+      if (rotation === 180) return [originalWidth - x, originalHeight - y];
+      if (rotation === 270) return [originalWidth - y, x];
+      return [x, y];
+    }
+
+    function boxFromRotated(box, rotation, originalWidth, originalHeight) {
+      if (!rotation) return normalizeBox(box);
+      const points = [
+        pointFromRotated([box[0], box[1]], rotation, originalWidth, originalHeight),
+        pointFromRotated([box[2], box[1]], rotation, originalWidth, originalHeight),
+        pointFromRotated([box[2], box[3]], rotation, originalWidth, originalHeight),
+        pointFromRotated([box[0], box[3]], rotation, originalWidth, originalHeight),
+      ];
+      return normalizeBox([
+        Math.min(...points.map((point) => point[0])), Math.min(...points.map((point) => point[1])),
+        Math.max(...points.map((point) => point[0])), Math.max(...points.map((point) => point[1])),
+      ]);
+    }
+
+    async function requestAutoLayout() {
+      const page = currentPage();
+      if (!page) return;
+      if (!page.dataUrl) {
+        els.layoutAssistStatus.textContent = "当前页面没有原图数据，请重新导入图片后再分析。";
+        els.layoutAssistStatus.dataset.type = "warn";
+        return;
+      }
+      state.layoutBusy = true;
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "正在先检查页面方向，再分析页面结构…";
+      renderLayoutAssist();
+      try {
+        const orientationResponse = await fetch("/api/analyze-page-orientation", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ pages: [{ name: page.name, dataUrl: page.dataUrl, width: page.width, height: page.height }] }),
+        });
+        const orientationData = await orientationResponse.json().catch(() => ({}));
+        if (!orientationResponse.ok) throw new Error(orientationData.error || `页面方向检测返回 ${orientationResponse.status}`);
+        const orientation = orientationData.pages?.[0] || { rotation: 0, confidence: 0, uncertain: true };
+        const rotation = [0, 90, 180, 270].includes(Number(orientation.rotation)) ? Number(orientation.rotation) : 0;
+        const normalizedPage = await rotatedPagePayload(page, rotation);
+        els.layoutAssistStatus.textContent = rotation ? `检测到页面需顺时针旋转 ${rotation}°，正在用转正页面生成分区…` : "页面方向已检查，正在生成分区…";
+        const response = await fetch("/api/analyze-layout", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            pages: [{ name: page.name, dataUrl: normalizedPage.dataUrl, width: normalizedPage.width, height: normalizedPage.height }]
+          }),
+        });
+        const data = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(data.error || `服务器返回 ${response.status}`);
+        const result = data.pages?.[0];
+        if (!result || !Array.isArray(result.regions)) throw new Error("Qwen 返回的布局建议格式不正确");
+        page.layoutSuggestions = result.regions.map((region) => ({
+          ...region,
+          box: boxFromRotated(region.box, rotation, page.width, page.height),
+          angle: normalizeAngle(Number(region.angle || 0) - rotation),
+          exclusions: (region.exclusions || []).map((box) => boxFromRotated(box, rotation, page.width, page.height)),
+          reviewFlags: [...new Set([...(region.reviewFlags || []), ...(orientation.uncertain && orientation.hasReadableText ? ["page_rotation_uncertain"] : [])])],
+          speaker: "",
+          note: `Qwen 自动分区${rotation ? `（页面转正 ${rotation}°）` : ""}：${region.note || region.sourceType || region.type || "区域"}`,
+        }));
+        page.layoutMeta = {
+          model: data.model || "qwen3.7-plus",
+          pageType: result.pageType,
+          readingDirection: result.readingDirection,
+          pageRotation: rotation,
+          rotationConfidence: Number(orientation.confidence || 0),
+          rotationUncertain: Boolean(orientation.uncertain),
+          rotationReason: orientation.reason || "",
+        };
+        els.layoutAssistStatus.dataset.type = "info";
+        els.layoutAssistStatus.textContent = `已生成 ${page.layoutSuggestions.length} 个建议区域。点击紫色虚线即可编辑、删除、拖四角调整或拖橙色圆点旋转，确认后才会成为正式分区。`;
+      } catch (error) {
+        els.layoutAssistStatus.dataset.type = "warn";
+        els.layoutAssistStatus.textContent = `自动分区失败：${error.message || error}。请确认本地导入向导服务器已启动，并检查 Qwen API Key。`;
+      } finally {
+        state.layoutBusy = false;
+        render();
+      }
+    }
+
+    function acceptLayoutSuggestions() {
+      const page = currentPage();
+      const suggestions = page?.layoutSuggestions || [];
+      if (!page || !suggestions.length) return;
+      if (page.regions.length && !confirm(`当前页面已有 ${page.regions.length} 个正式区域。采纳 Qwen 建议会替换它们，继续吗？`)) return;
+      const suggestionIdMap = new Map(suggestions.map((suggestion) => [suggestion.id, makeId()]));
+      page.regions = suggestions.map((suggestion, index) => ({
+        id: suggestionIdMap.get(suggestion.id),
+        type: suggestion.type || "body",
+        speaker: suggestion.speaker || "",
+        order: Number(suggestion.order) || index + 1,
+        box: normalizeBox(suggestion.box),
+        angle: normalizeAngle(suggestion.angle),
+        writingDirection: suggestion.writingDirection || "auto",
+        confidence: suggestion.confidence,
+        contentMix: suggestion.contentMix || "",
+        reviewFlags: Array.isArray(suggestion.reviewFlags) ? [...suggestion.reviewFlags] : [],
+        exclusions: Array.isArray(suggestion.exclusions) ? suggestion.exclusions.map((box) => normalizeBox(box)) : [],
+        imageRef: suggestion.imageRef ? (suggestionIdMap.get(suggestion.imageRef) || "") : "",
+        note: suggestion.note || "Qwen 自动分区",
+      }));
+      autoLinkCaptionRegions(page.regions);
+      delete page.layoutSuggestions;
+      state.activeLayoutSuggestionId = null;
+      state.activeRegionId = page.regions[0]?.id || null;
+      state.selectedRegionIds = new Set(state.activeRegionId ? [state.activeRegionId] : []);
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = `已采纳 ${page.regions.length} 个区域。现在可以像手工区域一样编辑、合并或删除。`;
+      render();
+    }
+
+    function discardLayoutSuggestions() {
+      const page = currentPage();
+      if (!page) return;
+      delete page.layoutSuggestions;
+      delete page.layoutMeta;
+      state.activeLayoutSuggestionId = null;
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "已清除自动分区建议，正式区域未改变。";
+      render();
+    }
+
+    function exportData() {
+      return {
+        version: 1,
+        createdAt: new Date().toISOString(),
+        imageFolderName: state.imageFolderName || "",
+        imageDir: els.ocrImageDir.value.trim(),
+        pages: state.pages.map((page) => ({
+          name: page.name,
+          relativePath: page.relativePath || page.name,
+          width: page.width,
+          height: page.height,
+          layoutMeta: page.layoutMeta || {},
+          regions: page.regions
+            .slice()
+            .sort((a, b) => Number(a.order) - Number(b.order))
+            .map(({ id, groupId, imageRef, writingDirection, confidence, contentMix, reviewFlags, type, speaker, order, box, angle, exclusions, note }) => ({ id, groupId, imageRef, writingDirection: writingDirection || "auto", confidence: Number.isFinite(Number(confidence)) ? Number(confidence) : null, contentMix: contentMix || "", reviewFlags: Array.isArray(reviewFlags) ? reviewFlags : [], type, speaker, order, box, angle: normalizeAngle(angle), exclusions: Array.isArray(exclusions) ? exclusions : [], note })),
+        })),
+      };
+    }
+
+    function yamlString(value) {
+      return String(value || "").replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+    }
+
+    function exportYaml() {
+      const lines = [];
+      lines.push("scan_pages:");
+      state.pages.forEach((page) => {
+        lines.push(`  - image: /assets/img/interviews/REPLACE/${yamlString(page.name)}`);
+        lines.push(`    label: "${yamlString(page.name.replace(/\.[^.]+$/, ""))}"`);
+        lines.push(`    caption: "手动分区后 OCR 的扫描页。"`);
+      });
+      lines.push("translation_segments:");
+      const emittedGroups = new Set();
+      const entries = [];
+      state.pages.forEach((page, pageIndex) => {
+        page.regions
+          .filter((region) => region.type !== "ignore")
+          .forEach((region) => entries.push({ page, pageIndex, region }));
+      });
+      entries
+        .sort((a, b) => a.pageIndex - b.pageIndex || Number(a.region.order) - Number(b.region.order))
+        .forEach((entry) => {
+          if (entry.region.groupId && emittedGroups.has(entry.region.groupId)) return;
+          const grouped = entry.region.groupId ? groupRegionsAll(entry.region.groupId) : [entry];
+          if (entry.region.groupId) emittedGroups.add(entry.region.groupId);
+          const main = grouped[0].region;
+          lines.push(`  - speaker: "${yamlString(main.speaker || typeName(main.type))}"`);
+          lines.push(`    kind: "${main.type === "image" ? "image" : main.type === "caption" ? "caption" : "text"}"`);
+          lines.push(`    region_type: "${yamlString(main.type)}"`);
+          lines.push(`    region_id: "${yamlString(main.id)}"`);
+          lines.push(`    order: ${Number(main.order) || 1}`);
+          if (main.type !== "image") lines.push(`    writing_direction: "${yamlString(main.writingDirection || "auto")}"`);
+          if (main.imageRef) lines.push(`    caption_for: "${yamlString(main.imageRef)}"`);
+          lines.push(`    scan_page: ${grouped[0].pageIndex}`);
+          lines.push(`    scan_box: [${main.box.join(", ")}]`);
+          if (normalizeAngle(main.angle)) lines.push(`    scan_angle: ${normalizeAngle(main.angle)}`);
+          if ((main.exclusions || []).length) {
+            lines.push("    scan_exclusions:");
+            main.exclusions.forEach((exclusion) => lines.push(`      - [${exclusion.join(", ")}]`));
+          }
+          if (grouped.length > 1) {
+            const crossPage = grouped.some((item) => item.pageIndex !== grouped[0].pageIndex);
+            if (crossPage) {
+              lines.push("    scan_targets:");
+              grouped.forEach((item) => {
+                lines.push(`      - scan_page: ${item.pageIndex}`);
+                lines.push(`        scan_box: [${item.region.box.join(", ")}]`);
+              });
+            } else {
+              lines.push("    scan_boxes:");
+              grouped.forEach((item) => {
+                lines.push(`      - [${item.region.box.join(", ")}]`);
+              });
+            }
+          }
+          if (main.type === "image") {
+            lines.push(`    image: /assets/img/interviews/REPLACE/figure-${yamlString(main.id)}.jpg`);
+            lines.push(`    alt: "${yamlString(main.speaker || "杂志图片")}"`);
+          } else {
+            lines.push("    original: |-");
+            lines.push("      待 OCR");
+            lines.push("    translation: |-");
+            lines.push("      待翻译");
+          }
+          const notes = grouped.map((item) => item.region.note).filter(Boolean);
+          if (notes.length) {
+            lines.push(`    comment: "${yamlString([...new Set(notes)].join(" / "))}"`);
+          }
+        });
+      return lines.join("\n");
+    }
+
+    function psQuote(value) {
+      return `'${String(value || "").replace(/'/g, "''")}'`;
+    }
+
+    function base64Utf8(text) {
+      const bytes = new TextEncoder().encode(text);
+      let binary = "";
+      bytes.forEach((byte) => binary += String.fromCharCode(byte));
+      return btoa(binary);
+    }
+
+    function slugName(value) {
+      return String(value || "magazine")
+        .replace(/\.[^.]+$/, "")
+        .replace(/[\\/:*?"<>|]+/g, "-")
+        .replace(/\s+/g, "-")
+        .replace(/-+/g, "-")
+        .replace(/^-|-$/g, "")
+        .slice(0, 80) || "magazine";
+    }
+
+    function timestampName(date = new Date()) {
+      const pad = (value) => String(value).padStart(2, "0");
+      return [
+        date.getFullYear(),
+        pad(date.getMonth() + 1),
+        pad(date.getDate()),
+        "-",
+        pad(date.getHours()),
+        pad(date.getMinutes()),
+        pad(date.getSeconds()),
+      ].join("");
+    }
+
+    function annotationBaseName() {
+      const page = currentPage() || state.pages[0];
+      const base = page ? slugName(page.name) : slugName(state.imageFolderName || "magazine");
+      const pageCount = state.pages.length > 1 ? `-${state.pages.length}p` : "";
+      return `${base}${pageCount}-regions-${timestampName()}`;
+    }
+
+    function annotationJsonFilename() {
+      return `${annotationBaseName()}.json`;
+    }
+
+    function annotationYamlFilename() {
+      return `${annotationBaseName()}-segments.yml`;
+    }
+
+    function loadImageDirMap() {
+      try {
+        return JSON.parse(localStorage.getItem(imageDirMapKey) || "{}");
+      } catch (_) {
+        return {};
+      }
+    }
+
+    function saveImageDirMap(map) {
+      localStorage.setItem(imageDirMapKey, JSON.stringify(map));
+    }
+
+    const autoOutputDirSuffixes = [
+      "ocr-output-region-qwen-vl-ocr-latest",
+      "ocr-output-region-qwen-vl-ocr",
+      "ocr-output-region-deepseek-vision",
+      "ocr-output-region-paddle-vl",
+      "ocr-output-region-vlm-api",
+      "ocr-output-region-paddle",
+    ];
+
+    function defaultOutputDir(backend = els.ocrBackend.value) {
+      if (backend === "qwen-vl-ocr") return "ocr-output-region-qwen-vl-ocr-latest";
+      if (backend === "deepseek-vision") return "ocr-output-region-deepseek-vision";
+      if (backend === "paddle-vl") return "ocr-output-region-paddle-vl";
+      if (backend === "vlm-api") return "ocr-output-region-vlm-api";
+      return "ocr-output-region-paddle";
+    }
+
+    function folderNameFromPath(value) {
+      return String(value || "")
+        .replace(/[\\/]+$/, "")
+        .split(/[\\/]/)
+        .filter(Boolean)
+        .pop() || "";
+    }
+
+    function safeOutputPrefix(value) {
+      return folderNameFromPath(value)
+        .replace(/[<>:"/\\|?*\u0000-\u001f]/g, "-")
+        .replace(/\s+/g, "-")
+        .replace(/-+/g, "-")
+        .replace(/^[.-]+|[.-]+$/g, "");
+    }
+
+    function autoOutputPrefix(value) {
+      const current = String(value || "").trim();
+      for (const suffix of autoOutputDirSuffixes) {
+        if (current === suffix) return "";
+        if (current.endsWith(`-${suffix}`)) return current.slice(0, -(suffix.length + 1));
+      }
+      return null;
+    }
+
+    function updateOutputDirForFolder(folderName, force = false) {
+      const prefix = safeOutputPrefix(folderName);
+      if (!prefix) return;
+      const current = els.ocrOutDir.value.trim();
+      if (!force && current && autoOutputPrefix(current) === null) return;
+      els.ocrOutDir.value = `${prefix}-${defaultOutputDir()}`;
+    }
+
+    function exposedAbsoluteFolder(files) {
+      const file = Array.from(files || []).find((item) => {
+        const path = typeof item.path === "string" ? item.path.trim() : "";
+        return path && !/[/\\]fakepath[/\\]/i.test(path) && /[/\\]/.test(path);
+      });
+      if (!file) return "";
+      const absolutePath = file.path.replace(/\//g, "\\");
+      const relativePath = String(file.webkitRelativePath || "").replace(/\//g, "\\");
+      if (relativePath && absolutePath.toLowerCase().endsWith(relativePath.toLowerCase())) {
+        const parent = absolutePath.slice(0, -relativePath.length).replace(/[\\/]+$/, "");
+        const rootFolder = relativePath.split("\\")[0];
+        return [parent, rootFolder].filter(Boolean).join("\\");
+      }
+      return absolutePath.split("\\").slice(0, -1).join("\\");
+    }
+
+    function commonFolderFromFiles(files) {
+      const absoluteFolder = exposedAbsoluteFolder(files);
+      if (absoluteFolder) return folderNameFromPath(absoluteFolder);
+      const paths = Array.from(files)
+        .map((file) => file.webkitRelativePath || file.name)
+        .filter(Boolean);
+      const folder = paths
+        .map((path) => path.split(/[\\/]/).slice(0, -1).join("\\"))
+        .filter(Boolean)[0] || "";
+      return folder.split(/[\\/]/)[0] || folder;
+    }
+
+    function updateImageDirFromFiles(files) {
+      const absoluteFolder = exposedAbsoluteFolder(files);
+      const folderName = folderNameFromPath(absoluteFolder) || commonFolderFromFiles(files);
+      state.imageFolderName = folderName || state.imageFolderName;
+      if (folderName) updateOutputDirForFolder(folderName);
+      if (absoluteFolder) {
+        els.ocrImageDir.value = absoluteFolder;
+        const map = loadImageDirMap();
+        map[folderName] = absoluteFolder;
+        saveImageDirMap(map);
+        els.folderPathHint.textContent = `已自动识别原图文件夹：${absoluteFolder}；输出目录已添加前缀 ${safeOutputPrefix(folderName)}-。`;
+        renderOutput();
+        return;
+      }
+      if (!folderName) {
+        const currentFolder = folderNameFromPath(els.ocrImageDir.value.trim());
+        if (currentFolder) {
+          state.imageFolderName = currentFolder;
+          updateOutputDirForFolder(currentFolder);
+          els.folderPathHint.textContent = `浏览器未提供所选文件的绝对路径，已沿用当前原图目录，并添加输出前缀 ${safeOutputPrefix(currentFolder)}-。`;
+          renderOutput();
+          return;
+        }
+        els.folderPathHint.textContent = "浏览器隐藏了单张图片的原始路径。请改用“选择原图文件夹”，即可自动识别文件夹名和输出目录前缀。";
+        return;
+      }
+      const map = loadImageDirMap();
+      const remembered = map[folderName];
+      if (remembered) {
+        els.ocrImageDir.value = remembered;
+        els.folderPathHint.textContent = `已识别文件夹 ${folderName}，并套用已记住的路径；输出目录已添加前缀 ${safeOutputPrefix(folderName)}-。`;
+      } else {
+        els.ocrImageDir.value = folderName;
+        els.folderPathHint.textContent = `已识别文件夹 ${folderName} 并添加输出目录前缀。浏览器只提供了相对目录名，请补全“原图文件夹”后点击“记住原图路径”。`;
+      }
+      renderOutput();
+    }
+
+    function rememberCurrentImageDir() {
+      const dir = els.ocrImageDir.value.trim();
+      const folderName = folderNameFromPath(dir) || state.imageFolderName || commonFolderFromFiles(state.pages.map((page) => ({ name: page.name })));
+      if (!folderName || !dir) {
+        els.folderPathHint.textContent = "请先选择文件夹并填写原图文件夹完整路径。";
+        return;
+      }
+      state.imageFolderName = folderName;
+      updateOutputDirForFolder(folderName);
+      const map = loadImageDirMap();
+      map[folderName] = dir;
+      saveImageDirMap(map);
+      els.folderPathHint.textContent = `已记住 ${folderName} => ${dir}；输出目录前缀为 ${safeOutputPrefix(folderName)}-。`;
+      renderOutput();
+    }
+
+    function buildOcrCommand(embedJson = false) {
+      const backend = els.ocrBackend.value;
+      const isQwenOcr = backend === "qwen-vl-ocr";
+      const isDeepSeekVision = backend === "deepseek-vision";
+      const outDir = els.ocrOutDir.value.trim() || (isQwenOcr ? "ocr-output-region-qwen-vl-ocr-latest" : (isDeepSeekVision ? "ocr-output-region-deepseek-vision" : "ocr-output-region-paddle"));
+      const annotationPath = embedJson
+        ? "$annotation"
+        : psQuote(els.ocrAnnotationPath.value.trim() || `${projectRoot}\\magazine-regions.json`);
+      const imageDir = els.ocrImageDir.value.trim() || "请填写原图文件夹";
+      const timeout = Number(els.ocrTimeout.value || 180);
+      const vlPixels = Number(els.ocrVlPixels.value || 250000);
+      const vlCropPixels = Number(els.ocrVlCropPixels.value || (isQwenOcr ? 1600000 : 250000));
+      const vlTokens = Number(els.ocrVlTokens.value || (isQwenOcr ? 1024 : 256));
+      const vlPrompt = els.ocrPrompt.value.trim();
+      const vlVersion = els.ocrVlVersion.value || "v1.6";
+      const qwenDefaultUrl = "https://dashscope.aliyuncs.com/compatible-mode/v1";
+      const apiModel = isQwenOcr ? "qwen-vl-ocr-latest" : (isDeepSeekVision ? "deepseek-v4-flash-vision-exp" : (els.ocrApiModel.value.trim() || "allenai/olmOCR-2-7B-1025"));
+      const apiUrl = els.ocrApiUrl.value.trim() || (isQwenOcr ? "$env:VLM_OCR_API_URL" : (isDeepSeekVision ? "https://api.deepseek.com" : (apiModel.toLowerCase().includes("qwen") ? qwenDefaultUrl : "$env:VLM_OCR_API_URL")));
+      const commandParts = [
+        backend === "paddle-vl"
+          ? ".\\tools\\run-paddle-region-vl-ocr.ps1"
+          : (backend === "vlm-api" || isQwenOcr || isDeepSeekVision)
+            ? ".\\tools\\run-region-vlm-api-ocr.ps1"
+            : ".\\tools\\run-paddle-region-ocr.ps1",
+        "-AnnotationJson", annotationPath,
+        "-ImageDir", psQuote(imageDir),
+        "-Out", embedJson ? "$outPath" : psQuote(outDir),
+        "-Device", "gpu:0",
+      ];
+      if (backend === "paddle-vl") {
+        commandParts.push("-PipelineVersion", vlVersion, "-NoLayout", "-CropMaxPixels", String(vlCropPixels), "-MaxPixels", String(vlPixels), "-MaxNewTokens", String(vlTokens), "-HeartbeatSeconds", "10", "-TimeoutSeconds", "180", "-Retries", "1", "-CooldownSeconds", "6", "-SkipExisting");
+      } else if (backend === "vlm-api" || isQwenOcr || isDeepSeekVision) {
+        commandParts.pop();
+        commandParts.pop();
+        commandParts.push("-ApiUrl", apiUrl === "$env:VLM_OCR_API_URL" ? apiUrl : psQuote(apiUrl), "-Model", psQuote(apiModel), "-CropMaxPixels", String(vlCropPixels), "-MaxTokens", String(vlTokens), "-Retries", isQwenOcr ? "3" : "1", "-RetryDelaySeconds", isQwenOcr ? "6" : "4", "-SkipExisting");
+        if (isDeepSeekVision) commandParts.push("-ImageDetail", "original", "-DisableThinking");
+        if (isQwenOcr) commandParts.push("-ContinueOnError");
+        if (vlPrompt) commandParts.push("-Prompt", psQuote(vlPrompt));
+      } else {
+        commandParts.push("-Lang", "japan", "-TimeoutSeconds", String(timeout));
+        if (els.ocrGpuEnv.checked) commandParts.push("-GpuEnv");
+        if (els.ocrJapanRec.checked) commandParts.push("-JapanRec");
+        if (els.ocrFast.checked) commandParts.push("-Fast");
+      }
+      if (els.ocrDeepSeek.checked) commandParts.push("-DeepSeek");
+      if (embedJson) {
+        return [
+          `$root = ${psQuote(projectRoot)}`,
+          "Set-Location -LiteralPath $root",
+          `$out = ${psQuote(outDir)}`,
+          "$outPath = if ([System.IO.Path]::IsPathRooted($out)) { $out } else { Join-Path $root $out }",
+          "New-Item -ItemType Directory -Force -Path $outPath | Out-Null",
+          `$annotation = Join-Path $outPath ${psQuote(annotationJsonFilename())}`,
+          `[System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String('${base64Utf8(JSON.stringify(exportData(), null, 2))}')) | Set-Content -LiteralPath $annotation -Encoding UTF8`,
+          commandParts.join(" "),
+        ].join("\n");
+      }
+      return ["Set-Location -LiteralPath", psQuote(projectRoot), ";", ...commandParts].join(" ");
+    }
+
+    function renderOutput() {
+      els.output.textContent = exportYaml();
+      const backend = els.ocrBackend.value;
+      els.ocrBackendHint.textContent = backend === "qwen-vl-ocr"
+        ? "当前命令：Qwen-VL-OCR 云端 VLM（使用 VLM_OCR_API_URL / VLM_OCR_API_KEY，输出适合翻译整理台继续处理）"
+        : backend === "deepseek-vision"
+        ? "当前命令：DeepSeek Vision 原图 OCR（使用 DEEPSEEK_API_KEY，保留多栏版面与阅读顺序）"
+        : backend === "paddle-vl"
+        ? "当前命令：PaddleOCR-VL 文档 VLM（run-paddle-region-vl-ocr.ps1）"
+        : backend === "vlm-api"
+          ? "当前命令：OpenAI-compatible VLM API（Qwen / olmOCR 等，run-region-vlm-api-ocr.ps1）"
+        : "当前命令：PaddleOCR 日文模型（run-paddle-region-ocr.ps1）";
+      els.ocrCommandOutput.textContent = buildOcrCommand(false);
+    }
+
+    function regionLabel(region) {
+      const prefix = region.order ? `${region.order}. ` : "";
+      const name = region.speaker || typeName(region.type);
+      const group = region.groupId ? " +合并" : "";
+      return prefix + name + group;
+    }
+
+    function typeName(type) {
+      return {
+        body: "正文",
+        profile: "人物简介",
+        image: "图片 / 插图",
+        caption: "图片图注",
+        note: "编辑注 / 旁注",
+        ignore: "忽略",
+      }[type] || "区域";
+    }
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function setImageImportStatus(message, type = "info") {
+      if (!message) {
+        els.imageImportStatus.hidden = true;
+        els.imageImportStatus.textContent = "";
+        return;
+      }
+      els.imageImportStatus.hidden = false;
+      els.imageImportStatus.textContent = message;
+      els.imageImportStatus.dataset.type = type;
+    }
+
+    function isTiffFile(file) {
+      const name = String(file.name || "").toLowerCase();
+      return file.type === "image/tiff" || name.endsWith(".tif") || name.endsWith(".tiff");
+    }
+
+    function isImportableImage(file) {
+      const name = String(file.name || "").toLowerCase();
+      return file.type.startsWith("image/") || /\.(png|jpe?g|webp|gif|bmp|tif|tiff)$/i.test(name);
+    }
+
+    function scrollRegionIntoView(region) {
+      const centerX = ((region.box[0] + region.box[2]) / 2) * state.zoom;
+      const centerY = ((region.box[1] + region.box[3]) / 2) * state.zoom;
+      els.stage.scrollTo({
+        left: Math.max(0, centerX - els.stage.clientWidth / 2),
+        top: Math.max(0, centerY - els.stage.clientHeight / 2),
+        behavior: "smooth",
+      });
+    }
+
+    async function loadImages(files, options = {}) {
+      if (!options.skipDirectoryUpdate) updateImageDirFromFiles(files);
+      setImageImportStatus("");
+      const allFiles = Array.from(files || []);
+      const tiffFiles = allFiles.filter(isTiffFile);
+      const imageFiles = allFiles.filter((file) => isImportableImage(file) && !isTiffFile(file));
+      const skipped = [];
+      for (const file of imageFiles) {
+        try {
+          const dataUrl = await readFileAsDataUrl(file);
+          const size = await readImageSize(dataUrl, file.name);
+          state.pages.push({
+            name: file.name,
+            relativePath: file.webkitRelativePath || file.name,
+            dataUrl,
+            width: size.width,
+            height: size.height,
+            regions: [],
+          });
+        } catch (error) {
+          skipped.push(`${file.name}（${error.message || "浏览器无法读取"}）`);
+        }
+      }
+      if (tiffFiles.length) {
+        skipped.push(`${tiffFiles.length} 个 TIF/TIFF 文件：浏览器不能直接预览 TIF，请先转成 PNG/JPG 后再导入。`);
+      }
+      if (state.currentPage < 0 && state.pages.length) {
+        loadPage(0);
+      } else {
+        render();
+      }
+      if (skipped.length) {
+        setImageImportStatus(`已跳过：${skipped.join("；")} 建议保留原始 TIF 存档，分区工具使用转换后的 PNG/JPG。`, "warn");
+      } else if (imageFiles.length) {
+        setImageImportStatus(`已导入 ${imageFiles.length} 张图片。`, "info");
+      } else if (allFiles.length) {
+        setImageImportStatus("没有可直接预览的图片。请导入 PNG、JPG、WebP、GIF 或 BMP。", "warn");
+      }
+    }
+
+    async function importSelectedLocalFolder(selection) {
+      const folder = String(selection.folder || "").trim();
+      const folderName = selection.folderName || folderNameFromPath(folder);
+      if (!folder || !folderName) throw new Error("没有取得原图文件夹路径");
+      state.imageFolderName = folderName;
+      els.ocrImageDir.value = folder;
+      updateOutputDirForFolder(folderName);
+      const map = loadImageDirMap();
+      map[folderName] = folder;
+      saveImageDirMap(map);
+      els.folderPathHint.textContent = `已自动识别原图文件夹：${folder}；输出目录已添加前缀 ${safeOutputPrefix(folderName)}-。`;
+      const files = [];
+      for (const item of selection.files || []) {
+        const response = await fetch(item.url);
+        if (!response.ok) throw new Error(`读取 ${item.name} 失败：${response.status}`);
+        const blob = await response.blob();
+        const file = new File([blob], item.name, { type: blob.type, lastModified: Date.now() });
+        try {
+          Object.defineProperty(file, "webkitRelativePath", { value: `${folderName}/${item.relativePath}` });
+        } catch (_) {}
+        files.push(file);
+      }
+      if (!files.length) {
+        setImageImportStatus("这个文件夹中没有可导入的图片。", "warn");
+        renderOutput();
+        return;
+      }
+      await loadImages(files, { skipDirectoryUpdate: true });
+      renderOutput();
+    }
+
+    async function chooseOriginalImageFolder() {
+      const originalText = els.folderButton.textContent;
+      els.folderButton.disabled = true;
+      els.folderButton.textContent = "正在选择…";
+      try {
+        const response = await fetch("/api/select-image-folder", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: "{}",
+        });
+        const selection = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(selection.error || `服务器返回 ${response.status}`);
+        if (!selection.cancelled) await importSelectedLocalFolder(selection);
+      } catch (error) {
+        els.folderPathHint.textContent = `本机文件夹选择不可用，已切换到浏览器选择：${error.message || error}`;
+        els.folderInput.click();
+      } finally {
+        els.folderButton.disabled = false;
+        els.folderButton.textContent = originalText;
+      }
+    }
+
+    function readFileAsDataUrl(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(file);
+      });
+    }
+
+    function readImageSize(src, filename = "image") {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve({ width: img.naturalWidth, height: img.naturalHeight });
+        img.onerror = () => reject(new Error(`无法解码 ${filename}`));
+        img.src = src;
+      });
+    }
+
+    function redrawTargetItem() {
+      const page = currentPage();
+      const target = state.redrawTarget;
+      if (!page || !target) return null;
+      const collection = target.kind === "suggestion" ? (page.layoutSuggestions || []) : page.regions;
+      return collection.find((item) => item.id === target.id) || null;
+    }
+
+    function cancelRedrawRegion(shouldRender = true) {
+      state.redrawTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      if (shouldRender) render();
+    }
+
+    function toggleRedrawRegion() {
+      const target = activeRegion() || activeLayoutSuggestion();
+      if (state.redrawTarget) {
+        cancelRedrawRegion();
+        return;
+      }
+      if (!target) return;
+      state.redrawTarget = {
+        kind: activeLayoutSuggestion() ? "suggestion" : "region",
+        id: target.id,
+      };
+      els.stage.classList.add("is-redraw-mode");
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "请在图片上拖拽新的范围；松开鼠标后会替换当前区域坐标。";
+      render();
+    }
+
+    function applyRedrawnBox(box) {
+      const page = currentPage();
+      const target = redrawTargetItem();
+      if (!page || !target) {
+        cancelRedrawRegion();
+        return;
+      }
+      const nextBox = normalizeBox(box);
+      if (nextBox[2] - nextBox[0] < 16 || nextBox[3] - nextBox[1] < 16) {
+        els.layoutAssistStatus.dataset.type = "warn";
+        els.layoutAssistStatus.textContent = "新区域太小，请拖出至少 16 像素宽和高。";
+        cancelRedrawRegion();
+        return;
+      }
+      target.box = [
+        clamp(nextBox[0], 0, page.width),
+        clamp(nextBox[1], 0, page.height),
+        clamp(nextBox[2], 0, page.width),
+        clamp(nextBox[3], 0, page.height),
+      ];
+      state.redrawTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "区域坐标已更新；如需微调，也可以直接编辑右侧坐标和旋转角度。";
+      render();
+    }
+
+    function exclusionTargetItem() {
+      const page = currentPage();
+      const target = state.excludeTarget;
+      if (!page || !target) return null;
+      const collection = target.kind === "suggestion" ? (page.layoutSuggestions || []) : page.regions;
+      return collection.find((item) => item.id === target.id) || null;
+    }
+
+    function cancelExcludeRegion(shouldRender = true) {
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-exclude-mode");
+      if (shouldRender) render();
+    }
+
+    function toggleExcludeRegion() {
+      const target = activeRegion() || activeLayoutSuggestion();
+      if (state.excludeTarget) {
+        cancelExcludeRegion();
+        return;
+      }
+      if (!target) return;
+      state.redrawTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      state.excludeTarget = {
+        kind: activeLayoutSuggestion() ? "suggestion" : "region",
+        id: target.id,
+      };
+      els.stage.classList.add("is-exclude-mode");
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "请在当前区域内拖拽要排除的干扰范围；松开鼠标后会以红色斜线标记。";
+      render();
+    }
+
+    function applyExclusionBox(box) {
+      const page = currentPage();
+      const target = exclusionTargetItem();
+      if (!page || !target) {
+        cancelExcludeRegion();
+        return;
+      }
+      const [x1, y1, x2, y2] = target.box;
+      const nextBox = normalizeBox([
+        clamp(box[0], x1, x2),
+        clamp(box[1], y1, y2),
+        clamp(box[2], x1, x2),
+        clamp(box[3], y1, y2),
+      ]);
+      if (nextBox[2] - nextBox[0] < 8 || nextBox[3] - nextBox[1] < 8) {
+        els.layoutAssistStatus.dataset.type = "warn";
+        els.layoutAssistStatus.textContent = "排除范围太小，请拖出至少 8 像素宽和高。";
+        cancelExcludeRegion();
+        return;
+      }
+      target.exclusions = Array.isArray(target.exclusions) ? target.exclusions : [];
+      target.exclusions.push(nextBox);
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-exclude-mode");
+      els.layoutAssistStatus.dataset.type = "info";
+      els.layoutAssistStatus.textContent = "已添加排除区；点击红色斜线块可以单独删除。";
+      render();
+    }
+
+    function clearExclusions() {
+      const target = activeRegion() || activeLayoutSuggestion();
+      if (!target) return;
+      target.exclusions = [];
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-exclude-mode");
+      render();
+    }
+
+    function createRegion(box, type = "body") {
+      const page = currentPage();
+      if (!page) return;
+      const normalized = normalizeBox(box);
+      if (normalized[2] - normalized[0] < 16 || normalized[3] - normalized[1] < 16) return;
+      const region = {
+        id: makeId(),
+        type,
+        speaker: "",
+        order: page.regions.length + 1,
+        box: normalized,
+        angle: 0,
+        writingDirection: "auto",
+        exclusions: [],
+        note: "",
+      };
+      page.regions.push(region);
+      state.activeLayoutSuggestionId = null;
+      setActiveRegion(region.id);
+      render();
+    }
+
+    function mergeSelectedRegions() {
+      const regions = selectedRegions().sort((a, b) => Number(a.order) - Number(b.order));
+      if (regions.length < 2) return;
+      const existingGroup = regions.find((region) => region.groupId)?.groupId;
+      const groupId = existingGroup || "g" + makeId().slice(1);
+      regions.forEach((region) => {
+        region.groupId = groupId;
+      });
+      state.activeRegionId = regions[0].id;
+      state.selectedRegionIds = new Set(regions.map((region) => region.id));
+      render();
+    }
+
+    function startCrossPageMerge() {
+      const region = activeRegion();
+      if (!region) return;
+      const groupId = region.groupId || "g" + makeId().slice(1);
+      region.groupId = groupId;
+      state.crossPageGroupId = groupId;
+      els.folderPathHint.textContent = `跨页合并段已设定：${groupId}。切换到下一页选择续段，再点击“加入跨页段”。`;
+      render();
+    }
+
+    function joinCrossPageMerge() {
+      const region = activeRegion();
+      if (!region || !state.crossPageGroupId) return;
+      region.groupId = state.crossPageGroupId;
+      els.folderPathHint.textContent = `已加入跨页合并段：${state.crossPageGroupId}，当前共 ${groupRegionsAll(state.crossPageGroupId).length} 框。`;
+      render();
+    }
+
+    function unmergeActiveGroup() {
+      const region = activeRegion();
+      if (!region?.groupId) return;
+      const groupId = region.groupId;
+      state.pages.forEach((page) => {
+        page.regions.forEach((item) => {
+          if (item.groupId === groupId) delete item.groupId;
+        });
+      });
+      if (state.crossPageGroupId === groupId) state.crossPageGroupId = "";
+      state.selectedRegionIds = new Set([region.id]);
+      render();
+    }
+
+    function download(filename, content, type) {
+      const blob = new Blob([content], { type });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      link.click();
+      URL.revokeObjectURL(url);
+    }
+
+    async function copyText(text, button) {
+      await navigator.clipboard.writeText(text);
+      const original = button.textContent;
+      button.textContent = "已复制";
+      window.setTimeout(() => {
+        button.textContent = original;
+      }, 1200);
+    }
+
+    els.imageInput.addEventListener("change", (event) => {
+      loadImages(event.target.files).catch((error) => {
+        setImageImportStatus(`导入失败：${error.message || error}`, "warn");
+      });
+      event.target.value = "";
+    });
+
+    els.folderButton.addEventListener("click", chooseOriginalImageFolder);
+    els.folderInput.addEventListener("change", (event) => {
+      loadImages(event.target.files).catch((error) => {
+        setImageImportStatus(`导入失败：${error.message || error}`, "warn");
+      });
+      event.target.value = "";
+    });
+    els.rememberImageDirButton.addEventListener("click", rememberCurrentImageDir);
+    els.saveDraftButton.addEventListener("click", () => saveDraftNow());
+    els.clearDraftButton.addEventListener("click", () => {
+      if (!confirm("只清除浏览器中的临时草稿？当前页面和选区会继续保留，直到下一次修改。")) return;
+      removeDraft().catch((error) => {
+        els.draftStatus.textContent = `清除草稿失败：${error.message || error}`;
+      });
+    });
+
+    els.importButton.addEventListener("click", () => els.importInput.click());
+    els.importInput.addEventListener("change", async (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+      const text = await file.text();
+      const imported = JSON.parse(text);
+      if (!Array.isArray(imported.pages)) return;
+      if (imported.imageFolderName) {
+        state.imageFolderName = imported.imageFolderName;
+        updateOutputDirForFolder(imported.imageFolderName);
+      }
+      if (imported.imageDir && !els.ocrImageDir.value.trim()) els.ocrImageDir.value = imported.imageDir;
+      if (!state.imageFolderName && imported.imageDir) {
+        state.imageFolderName = folderNameFromPath(imported.imageDir);
+        updateOutputDirForFolder(state.imageFolderName);
+      }
+      const byName = new Map(state.pages.map((page) => [page.name, page]));
+      imported.pages.forEach((pageData) => {
+        const existing = byName.get(pageData.name);
+        if (existing) {
+          existing.relativePath = pageData.relativePath || existing.relativePath || pageData.name;
+          existing.regions = Array.isArray(pageData.regions) ? pageData.regions : [];
+        } else {
+          state.pages.push({
+            name: pageData.name,
+            relativePath: pageData.relativePath || pageData.name,
+            dataUrl: "",
+            width: pageData.width,
+            height: pageData.height,
+            regions: Array.isArray(pageData.regions) ? pageData.regions : [],
+          });
+        }
+      });
+      if (state.currentPage < 0 && state.pages.length) state.currentPage = 0;
+      const importedPage = currentPage();
+      state.activeRegionId = importedPage?.regions?.[0]?.id || null;
+      state.activeLayoutSuggestionId = null;
+      state.selectedRegionIds = new Set(state.activeRegionId ? [state.activeRegionId] : []);
+      render();
+      event.target.value = "";
+    });
+
+    els.clearButton.addEventListener("click", () => {
+      if (!confirm("清空当前所有页面和区域？")) return;
+      state.pages = [];
+      state.currentPage = -1;
+      state.activeRegionId = null;
+      state.redrawTarget = null;
+      state.excludeTarget = null;
+      els.stage.classList.remove("is-redraw-mode");
+      els.stage.classList.remove("is-exclude-mode");
+      state.selectedRegionIds.clear();
+      els.scanImage.removeAttribute("src");
+      render();
+    });
+
+    els.deletePageButton.addEventListener("click", deleteCurrentPage);
+
+    els.zoomRange.addEventListener("input", () => setZoom(els.zoomRange.value));
+    els.fitButton.addEventListener("click", fitWidth);
+    els.panModeButton.addEventListener("click", () => setPanMode(!state.panMode));
+    els.autoLayoutButton.addEventListener("click", requestAutoLayout);
+    els.acceptLayoutButton.addEventListener("click", acceptLayoutSuggestions);
+    els.discardLayoutButton.addEventListener("click", discardLayoutSuggestions);
+    els.redrawRegionButton.addEventListener("click", toggleRedrawRegion);
+    els.excludeRegionButton.addEventListener("click", toggleExcludeRegion);
+    els.quickSaveRegionButton.addEventListener("click", () => els.regionForm.requestSubmit());
+    els.quickMergeRegionsButton.addEventListener("click", () => els.mergeRegionsButton.click());
+    els.quickExcludeRegionButton.addEventListener("click", () => els.excludeRegionButton.click());
+    els.quickDeleteRegionButton.addEventListener("click", () => els.deleteRegionButton.click());
+    els.clearExclusionsButton.addEventListener("click", clearExclusions);
+    els.newBodyButton.addEventListener("click", () => {
+      const page = currentPage();
+      if (!page) return;
+      createRegion([page.width * 0.15, page.height * 0.18, page.width * 0.85, page.height * 0.82], "body");
+    });
+
+    els.regionForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const page = currentPage();
+      const target = activeRegion() || activeLayoutSuggestion();
+      if (!page || !target) return;
+      target.type = els.regionType.value;
+      target.speaker = els.regionSpeaker.value.trim();
+      target.order = Number(els.regionOrder.value || 1);
+      target.writingDirection = target.type === "image" ? "auto" : els.regionWritingDirection.value;
+      target.imageRef = target.type === "caption" ? els.regionImageRef.value : "";
+      const coordinates = [els.regionX1, els.regionY1, els.regionX2, els.regionY2].map((input) => Number(input.value));
+      if (coordinates.every((value) => Number.isFinite(value))) {
+        const clamped = [
+          clamp(coordinates[0], 0, page.width),
+          clamp(coordinates[1], 0, page.height),
+          clamp(coordinates[2], 0, page.width),
+          clamp(coordinates[3], 0, page.height),
+        ];
+        const nextBox = normalizeBox(clamped);
+        if (nextBox[2] - nextBox[0] < 16 || nextBox[3] - nextBox[1] < 16) {
+          els.layoutAssistStatus.dataset.type = "warn";
+          els.layoutAssistStatus.textContent = "区域坐标太小，请保证宽和高至少为 16 像素。";
+          return;
+        }
+        target.box = nextBox;
+      }
+      target.angle = normalizeAngle(els.regionAngle.value);
+      target.note = els.regionNote.value.trim();
+      autoLinkCaptionRegions(page.regions);
+      autoLinkCaptionRegions(page.layoutSuggestions || []);
+      render();
+    });
+
+    els.regionType.addEventListener("change", () => {
+      els.regionImageRefField.hidden = els.regionType.value !== "caption";
+      if (els.regionType.value === "caption") renderImageRefOptions(activeRegion() || activeLayoutSuggestion());
+    });
+
+    els.deleteRegionButton.addEventListener("click", () => {
+      const page = currentPage();
+      const suggestion = activeLayoutSuggestion();
+      if (page && suggestion) {
+        page.layoutSuggestions = page.layoutSuggestions.filter((item) => item.id !== suggestion.id);
+        state.activeLayoutSuggestionId = null;
+        render();
+        return;
+      }
+      const region = activeRegion();
+      if (!page || !region) return;
+      page.regions = page.regions.filter((item) => item.id !== region.id);
+      state.activeRegionId = page.regions[0]?.id || null;
+      state.selectedRegionIds = new Set(state.activeRegionId ? [state.activeRegionId] : []);
+      render();
+    });
+
+    els.mergeRegionsButton.addEventListener("click", mergeSelectedRegions);
+    els.startCrossPageMergeButton.addEventListener("click", startCrossPageMerge);
+    els.joinCrossPageMergeButton.addEventListener("click", joinCrossPageMerge);
+    els.unmergeRegionsButton.addEventListener("click", unmergeActiveGroup);
+
+    els.copyJsonButton.addEventListener("click", () => copyText(JSON.stringify(exportData(), null, 2), els.copyJsonButton));
+    els.copyYamlButton.addEventListener("click", () => copyText(exportYaml(), els.copyYamlButton));
+    els.downloadJsonButton.addEventListener("click", () => download(annotationJsonFilename(), JSON.stringify(exportData(), null, 2), "application/json"));
+    els.downloadYamlButton.addEventListener("click", () => download(annotationYamlFilename(), exportYaml(), "text/yaml"));
+    els.copyOcrCommandButton.addEventListener("click", () => copyText(buildOcrCommand(false), els.copyOcrCommandButton));
+    els.downloadJsonAndCopyOcrButton.addEventListener("click", () => {
+      copyText(buildOcrCommand(true), els.downloadJsonAndCopyOcrButton);
+    });
+    els.ocrBackend.addEventListener("change", () => {
+      const previousOutputPrefix = autoOutputPrefix(els.ocrOutDir.value);
+      if (els.ocrBackend.value === "qwen-vl-ocr") {
+        if (["ocr-output-region-paddle", "ocr-output-region-paddle-vl", "ocr-output-region-vlm-api"].includes(els.ocrOutDir.value.trim())) {
+          els.ocrOutDir.value = "ocr-output-region-qwen-vl-ocr-latest";
+        }
+        els.ocrApiModel.value = "qwen-vl-ocr-latest";
+        if (!els.ocrApiUrl.value.trim() || els.ocrApiUrl.value.includes("dashscope.aliyuncs.com") || els.ocrApiUrl.value.includes("api.deepseek.com")) {
+          els.ocrApiUrl.value = "";
+        }
+        els.ocrVlCropPixels.value = "1600000";
+        els.ocrVlTokens.value = "1024";
+      }
+      if (els.ocrBackend.value === "deepseek-vision") {
+        els.ocrOutDir.value = "ocr-output-region-deepseek-vision";
+        els.ocrApiModel.value = "deepseek-v4-flash-vision-exp";
+        els.ocrApiUrl.value = "https://api.deepseek.com";
+        els.ocrVlCropPixels.value = "0";
+        els.ocrVlTokens.value = "4096";
+      }
+      if (els.ocrBackend.value === "paddle-vl" && els.ocrOutDir.value.trim() === "ocr-output-region-paddle") {
+        els.ocrOutDir.value = "ocr-output-region-paddle-vl";
+      }
+      if (els.ocrBackend.value === "vlm-api" && ["ocr-output-region-paddle", "ocr-output-region-paddle-vl", "ocr-output-region-qwen-vl-ocr", "ocr-output-region-qwen-vl-ocr-latest"].includes(els.ocrOutDir.value.trim())) {
+        els.ocrOutDir.value = "ocr-output-region-vlm-api";
+      }
+      if (els.ocrBackend.value === "paddle" && ["ocr-output-region-paddle-vl", "ocr-output-region-vlm-api", "ocr-output-region-qwen-vl-ocr", "ocr-output-region-qwen-vl-ocr-latest"].includes(els.ocrOutDir.value.trim())) {
+        els.ocrOutDir.value = "ocr-output-region-paddle";
+      }
+      if (previousOutputPrefix !== null) {
+        els.ocrOutDir.value = previousOutputPrefix
+          ? `${previousOutputPrefix}-${defaultOutputDir()}`
+          : defaultOutputDir();
+      }
+      renderOutput();
+    });
+    function syncOutputPrefixFromImageDir() {
+      const folderName = folderNameFromPath(els.ocrImageDir.value.trim());
+      if (!folderName) return;
+      state.imageFolderName = folderName;
+      updateOutputDirForFolder(folderName);
+      els.folderPathHint.textContent = `已按原图目录最后一层“${folderName}”更新输出目录前缀。`;
+      renderOutput();
+    }
+    els.ocrImageDir.addEventListener("input", syncOutputPrefixFromImageDir);
+    els.ocrImageDir.addEventListener("change", syncOutputPrefixFromImageDir);
+    [els.ocrAnnotationPath, els.ocrImageDir, els.ocrOutDir, els.ocrBackend, els.ocrApiUrl, els.ocrApiModel, els.ocrGpuEnv, els.ocrJapanRec, els.ocrFast, els.ocrDeepSeek, els.ocrTimeout, els.ocrVlPixels, els.ocrVlCropPixels, els.ocrVlTokens, els.ocrPrompt, els.ocrVlVersion].forEach((el) => {
+      el.addEventListener("input", () => {
+        renderOutput();
+        scheduleDraftSave();
+      });
+      el.addEventListener("change", () => {
+        renderOutput();
+        scheduleDraftSave();
+      });
+    });
+
+    els.stage.addEventListener("mousedown", (event) => {
+      const page = currentPage();
+      if (!page || !els.scanImage.src || event.button !== 0) return;
+      if (!state.redrawTarget && !state.excludeTarget && event.target.closest?.(".layout-suggestion, .region-box")) return;
+      if (state.spaceDown || state.panMode) {
+        state.drag = {
+          mode: "pan",
+          x: event.clientX,
+          y: event.clientY,
+          left: els.stage.scrollLeft,
+          top: els.stage.scrollTop,
+        };
+        event.preventDefault();
+        return;
+      }
+      const point = imagePoint(event);
+      if (!point) return;
+      const selection = document.createElement("div");
+      selection.className = "selection-box";
+      els.boxLayer.appendChild(selection);
+      state.drag = {
+        mode: "select",
+        start: point,
+        current: point,
+        selection,
+      };
+      event.preventDefault();
+    });
+
+    window.addEventListener("mousemove", (event) => {
+      if (!state.drag) return;
+      if (state.drag.mode === "resize") {
+        resizeCanvasTarget(event);
+        return;
+      }
+      if (state.drag.mode === "rotate") {
+        rotateCanvasTarget(event);
+        return;
+      }
+      if (state.drag.mode === "move") {
+        moveCanvasTarget(event);
+        return;
+      }
+      if (state.drag.mode === "pan") {
+        els.stage.scrollLeft = state.drag.left - (event.clientX - state.drag.x);
+        els.stage.scrollTop = state.drag.top - (event.clientY - state.drag.y);
+        return;
+      }
+      if (state.drag.mode === "select") {
+        const point = imagePoint(event);
+        if (!point) return;
+        state.drag.current = point;
+        const [x1, y1, x2, y2] = normalizeBox([state.drag.start.x, state.drag.start.y, point.x, point.y]);
+        const selection = state.drag.selection;
+        selection.style.left = `${x1 * state.zoom}px`;
+        selection.style.top = `${y1 * state.zoom}px`;
+        selection.style.width = `${Math.max(1, (x2 - x1) * state.zoom)}px`;
+        selection.style.height = `${Math.max(1, (y2 - y1) * state.zoom)}px`;
+      }
+    });
+
+    window.addEventListener("mouseup", () => {
+      if (!state.drag) return;
+      if (state.drag.mode === "resize") {
+        state.drag = null;
+        render();
+        return;
+      }
+      if (state.drag.mode === "rotate") {
+        state.drag = null;
+        render();
+        return;
+      }
+      if (state.drag.mode === "move") {
+        state.drag = null;
+        render();
+        return;
+      }
+      if (state.drag.mode === "select") {
+        const { start, current, selection } = state.drag;
+        selection.remove();
+        if (state.redrawTarget) {
+          applyRedrawnBox([start.x, start.y, current.x, current.y]);
+        } else if (state.excludeTarget) {
+          applyExclusionBox([start.x, start.y, current.x, current.y]);
+        } else {
+          createRegion([start.x, start.y, current.x, current.y], "body");
+        }
+      }
+      state.drag = null;
+    });
+
+    window.addEventListener("keydown", (event) => {
+      if (event.code === "Space") {
+        state.spaceDown = true;
+        document.body.style.cursor = "grab";
+      }
+      const region = activeRegion();
+      const suggestion = activeLayoutSuggestion();
+      if (!region && !suggestion) return;
+      if (event.key === "Delete" || event.key === "Backspace") {
+        if (document.activeElement && ["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement.tagName)) return;
+        els.deleteRegionButton.click();
+      }
+    });
+
+    window.addEventListener("keyup", (event) => {
+      if (event.code === "Space") {
+        state.spaceDown = false;
+        document.body.style.cursor = state.panMode ? "grab" : "";
+      }
+    });
+
+    window.addEventListener("resize", render);
+    restoreDraft();
+  </script>
+</body>
+</html>
