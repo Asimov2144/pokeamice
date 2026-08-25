@@ -54,6 +54,21 @@ def test_gutter_is_found_off_centre_with_usable_contrast():
     assert contrast > 35, "a real binding shadow must clear the confidence bar"
 
 
+def test_dark_photo_page_does_not_steal_the_seam():
+    """A full-page photo is a broad dark step, not a binding shadow.
+
+    Taking the darkest column alone put the cut at the photo's edge, 333px off
+    the real seam on Continue vol.31 page050, which sliced a margin off the
+    facing page.
+    """
+    canvas = spread(gutter_at=0.5, width=1200, height=800)
+    canvas[:, 620:] = 70                                  # dark photo fills the right page
+    canvas[:, round(1200 * 0.5):round(1200 * 0.5) + 12] = 30   # the actual seam
+    position, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    assert 0.48 < position < 0.53, f"seam should beat the photo edge, got {position}"
+    assert contrast > 35
+
+
 def test_flat_page_reports_no_usable_gutter():
     _, contrast = gutter_of(page(width=1200, height=800).astype(np.float32), [0.0, 0.0, 1.0, 1.0])
     assert contrast < 35, "a page with no seam must not look splittable"

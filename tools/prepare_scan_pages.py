@@ -130,12 +130,23 @@ def gutter_of(rgb: np.ndarray, box: list[float]) -> tuple[float, float]:
     if inner.size == 0 or inner.shape[1] < 32:
         return 0.5, 0.0
     column = inner.mean(axis=0)
-    kernel = np.ones(9, dtype=np.float32) / 9
-    smooth = np.convolve(column, kernel, mode="same")
-    span = len(smooth)
+    span = len(column)
+
+    def blur(width_px: int) -> np.ndarray:
+        size = max(3, width_px | 1)
+        return np.convolve(column, np.ones(size, dtype=np.float32) / size, mode="same")
+
+    # A binding shadow is a narrow local trough. A page carrying a large dark
+    # photograph is a broad step, and plain "darkest column" picks the edge of
+    # that step instead of the seam. Subtracting a wide blur from a narrow one
+    # leaves only dips that are dark *relative to their own neighbourhood*, so
+    # the broad step cancels out and the seam survives.
+    narrow, wide = blur(9), blur(int(span * 0.06))
+    valley = wide - narrow
+
     lo, hi = int(span * 0.35), int(span * 0.65)
-    index = int(np.argmin(smooth[lo:hi])) + lo
-    contrast = float(np.median(smooth) - smooth[index])
+    index = int(np.argmax(valley[lo:hi])) + lo
+    contrast = float(valley[index])
     absolute = (x0 + index) / width
     return round(absolute, 5), round(contrast, 2)
 
