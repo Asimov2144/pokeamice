@@ -14,6 +14,8 @@ from prepare_scan_pages import (  # noqa: E402
     encode,
     gutter_of,
     normalise_tone,
+    outer_page_edges,
+    resolve_outer_trim,
     seam_span_of,
     seam_tilt_of,
     split_at,
@@ -120,20 +122,21 @@ def test_trim_removes_uniform_dark_bands_within_the_limit():
 
     all_dark = Image.fromarray(np.full((400, 300, 3), 15, dtype=np.uint8))
     kept = trim_dark_edges(all_dark, paper_luma=240.0)
-    assert kept.size == (300 - 2 * 12, 400 - 2 * 16), "trimming must stop at the 4% cap"
+    assert kept.size == (300, 400), "a band that never ends is the page, not a border"
 
 
 def test_trim_leaves_a_printed_black_masthead_alone():
-    """Ink is dark but structured; a scanner edge is dark and featureless.
+    """A band that outlasts the allowance is the page, so it is left alone.
 
-    Trimming on brightness alone took the full allowance out of the top of
-    DREAM 2008.12 page011, which opens with a full-width black masthead.
+    Row deviation cannot tell ink from platen: measured on these scans the
+    scanner band spans 2 to 62 and printed masthead rows span 4 to 96. Whether
+    the band ends can, and DREAM 2008.12 page011 keeps its masthead because it
+    does not.
     """
     array = np.full((400, 300, 3), 240, dtype=np.uint8)
-    array[:40] = 20                       # black masthead band
-    array[:40, 20:280:9] = 245            # white type knocked out, on every row
+    array[:60] = 20                       # a masthead deeper than the allowance
     trimmed = trim_dark_edges(Image.fromarray(array), paper_luma=240.0)
-    assert trimmed.size == (300, 400), "a masthead carrying type must survive"
+    assert trimmed.size == (300, 400), "a masthead deeper than the allowance must survive"
 
 
 def test_tone_normalisation_whitens_paper_and_removes_cast():
@@ -151,7 +154,8 @@ def test_art_pages_keep_their_colour():
     def measurement(paper, luma, black=20.0, cast=0.0):
         return Measurement(
             width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
-            gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5], skew_deg=0.0,
+            gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5],
+            outer_edges=[0.0, 0.0], skew_deg=0.0,
             seam_tilt=0.0, seam_bands=0,
             paper_rgb=paper, paper_luma=luma, black_point=black, colour_cast=cast,
         )
@@ -221,6 +225,44 @@ def test_encode_flags_when_reencoding_gains_nothing(tmp_path=None):
 
         web = encode(image, Path(directory) / "web.jpg", 82, 200, None)
         assert max(web["size"]) == 200, "web profile must respect the long edge"
+
+
+def test_outer_trim_setting_is_explicit_about_what_it_does():
+    """Detection is opt-in; a calibrated number is the reliable path.
+
+    On the pilot folders the detector found the page edge on Continue vol.31
+    page041 but was pulled 288px inside the page by a photo card on 金银攻略
+    4.png, so nothing is trimmed unless it is asked for.
+    """
+    m = Measurement(
+        width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
+        gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5],
+        outer_edges=[0.03, 0.04], skew_deg=0.0, seam_tilt=0.0, seam_bands=0,
+        paper_rgb=[255.0, 255.0, 255.0], paper_luma=255.0, black_point=3.0, colour_cast=0.0,
+    )
+    assert resolve_outer_trim("off", m) == (0.0, 0.0)
+    assert resolve_outer_trim("", m) == (0.0, 0.0), "the default must never crop"
+    assert resolve_outer_trim("auto", m) == (0.03, 0.04)
+    assert resolve_outer_trim("50", m) == (0.05, 0.05), "a pixel count is per side"
+    assert resolve_outer_trim("2%", m) == (0.02, 0.02)
+
+
+def test_outer_edges_report_nothing_without_a_clear_step():
+    """A page with no book block must not invent one."""
+    canvas = np.full((800, 1200, 3), 235, dtype=np.uint8)
+    canvas[100:700, 300:900] = 90             # text well clear of the outer zone
+    assert outer_page_edges(canvas.astype(np.float32)) == (0.0, 0.0)
+
+
+def test_outer_edges_find_a_block_that_is_darker_and_busier():
+    canvas = np.full((800, 1200, 3), 240, dtype=np.uint8)
+    canvas[100:700, 300:900] = 120                       # page content
+    rng = np.random.default_rng(7)
+    block = rng.integers(60, 190, size=(800, 70, 3), dtype=np.uint8)
+    canvas[:, :70] = block                               # book block at the left rim
+    left, right = outer_page_edges(canvas.astype(np.float32))
+    assert 0.045 < left < 0.075, f"edge should land near the block boundary, got {left}"
+    assert right == 0.0, "the clean side must stay untouched"
 
 
 if __name__ == "__main__":

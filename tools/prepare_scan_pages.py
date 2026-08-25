@@ -71,6 +71,7 @@ class Measurement:
     gutter_x: float | None
     gutter_contrast: float
     seam_span: list[float]
+    outer_edges: list[float]
     skew_deg: float | None
     seam_tilt: float
     seam_bands: int
@@ -295,12 +296,14 @@ def measure(path: Path) -> Measurement:
         span = seam_span_of(rgb, gutter, contrast)
     else:
         tilt, bands, span = 0.0, 0, (gutter, gutter)
+    outer = outer_page_edges(rgb)
     return Measurement(
         width=full[0], height=full[1], aspect=round(aspect, 4),
         content_box=box,
         gutter_x=gutter if aspect >= SPREAD_ASPECT else None,
         gutter_contrast=contrast,
         seam_span=list(span),
+        outer_edges=list(outer),
         skew_deg=skew_of(rgb),
         seam_tilt=tilt, seam_bands=bands,
         paper_rgb=paper, paper_luma=paper_luma, black_point=black, colour_cast=cast,
@@ -500,7 +503,90 @@ def crop_content(image: Image.Image, box: list[float], margin: float = 0.004) ->
     ))
 
 
-def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.04) -> Image.Image:
+def outer_page_edges(rgb: np.ndarray, zone: float = 0.12,
+                     min_step: float = 40.0) -> tuple[float, float]:
+    """Fractions of width the book block covers at each outer edge of a spread.
+
+    Beyond the printed page a scan often shows the book block, the stack of page
+    edges of everything still closed. It cannot be found by consuming dark
+    columns from the rim: on Continue vol.31 page041 the outer columns read 211,
+    213, 206, 190, 158, 150 before jumping to the page at 220, so the rim itself
+    is as bright as paper and the dark part sits further in.
+
+    What is reliable is the step where the page begins, and its direction is not
+    fixed. That same edge steps up 150 to 220, while page050 steps *down* 208 to
+    130 into a dark page. Both are large; a scan without a visible block, such
+    as catelog, drifts 181, 180, 178, 175 with no step at all. So the largest
+    step in the outer zone is taken only when it clearly beats the page's own
+    texture, and otherwise nothing is trimmed rather than guessing.
+    """
+    gray = luma_of(rgb)
+    width = gray.shape[1]
+    column = gray.mean(axis=0)
+    span = max(12, int(width * zone))
+    reach = max(4, span // 6)          # a page edge is a step across several columns
+
+    col_std = gray.std(axis=0)
+    paper = float(np.percentile(gray, 85))
+
+    def edge_at(side: str) -> float:
+        window = column[:span + reach] if side == "left" else column[-(span + reach):][::-1]
+        spreads = col_std[:span + reach] if side == "left" else col_std[-(span + reach):][::-1]
+        best, best_step = 0, 0.0
+        for index in range(reach, span):
+            step = abs(float(window[index:index + reach].mean())
+                       - float(window[index - reach:index].mean()))
+            if step > best_step:
+                best, best_step = index, step
+        if best_step < min_step:
+            return 0.0
+        # The strongest step in the margin is not always the page edge. On
+        # 金银攻略 4.png the leading photo card outscored the block and the cut
+        # landed 288px inside the page. What separates the two is that a page's
+        # own margin is clean paper, while a book block never is, so a candidate
+        # is dropped when everything outside it still looks like paper.
+        outer_mean = float(window[:best].mean())
+        outer_std = float(spreads[:best].mean())
+        if outer_mean >= paper * 0.9 and outer_std < 25.0:
+            return 0.0
+        return best / width
+
+    return round(edge_at("left"), 5), round(edge_at("right"), 5)
+
+
+def resolve_outer_trim(setting: str, measurement: Measurement) -> tuple[float, float]:
+    """Turn the --outer-trim setting into fractions of width for each outer side.
+
+    Detection is offered but not trusted by default. Across the pilot folders it
+    found the page edge on Continue vol.31 page041 and one side of page050, was
+    talked into cutting 288px inside the page by a photo card on 金银攻略 4.png,
+    and correctly reported nothing for catelog and fossil, which have no visible
+    block. Because the scanner setup is fixed within a folder, one calibrated
+    number is both safer and less work than a detector that is right most of the
+    time.
+    """
+    value = str(setting or "off").strip().lower()
+    if value in ("", "off", "none", "0"):
+        return 0.0, 0.0
+    if value == "auto":
+        return tuple(measurement.outer_edges)
+    if value.endswith("%"):
+        fraction = float(value[:-1]) / 100.0
+        return fraction, fraction
+    fraction = float(value) / max(measurement.width, 1)
+    return fraction, fraction
+
+
+def trim_outer(image: Image.Image, edges: tuple[float, float]) -> tuple[Image.Image, tuple[int, int]]:
+    """Crop the measured book block off the two outer sides of a spread."""
+    left = min(round(edges[0] * image.width), image.width // 8)
+    right = min(round(edges[1] * image.width), image.width // 8)
+    if not (left or right):
+        return image, (0, 0)
+    return image.crop((left, 0, image.width - right, image.height)), (left, right)
+
+
+def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.09) -> Image.Image:
     """Shave the binding shadow and scanner borders off each side.
 
     Splitting a spread leaves the gutter shadow on the inner edge of both
@@ -517,20 +603,25 @@ def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.04) 
     gray = luma_of(array)
     height, width = gray.shape
     threshold = max(40.0, paper_luma * 0.72)
-    flat = 22.0        # a printed edge varies far more than a scanner bed
 
-    def eat(means: np.ndarray, spreads: np.ndarray, cap: int) -> int:
+    def eat(means: np.ndarray, cap: int) -> int:
+        """Length of a dark band that visibly ends before the allowance runs out.
+
+        Only a band that stops is treated as an edge. A run still dark when the
+        allowance is exhausted is far more likely to be the page itself, so
+        nothing is taken and the page keeps whatever it is.
+        """
         count = 0
-        while count < cap and means[count] < threshold and spreads[count] < flat:
+        while count < cap and means[count] < threshold:
             count += 1
-        return count
+        return count if count < cap else 0
 
-    col_mean, col_std = gray.mean(axis=0), gray.std(axis=0)
-    row_mean, row_std = gray.mean(axis=1), gray.std(axis=1)
-    left = eat(col_mean, col_std, int(width * limit))
-    right = eat(col_mean[::-1], col_std[::-1], int(width * limit))
-    top = eat(row_mean, row_std, int(height * limit))
-    bottom = eat(row_mean[::-1], row_std[::-1], int(height * limit))
+    col_mean = gray.mean(axis=0)
+    row_mean = gray.mean(axis=1)
+    left = eat(col_mean, int(width * limit))
+    right = eat(col_mean[::-1], int(width * limit))
+    top = eat(row_mean, int(height * limit))
+    bottom = eat(row_mean[::-1], int(height * limit))
     if not (left or right or top or bottom):
         return image
     return image.crop((left, top, width - right, height - bottom))
@@ -631,6 +722,7 @@ class PageResult:
     outputs: list[dict] = field(default_factory=list)
     deskewed_by: float = 0.0
     seam_straightened_by: float = 0.0
+    outer_trimmed: list[int] = field(default_factory=lambda: [0, 0])
     tone_applied: bool = False
     note: str = ""
 
@@ -648,8 +740,20 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
     with Image.open(path) as opened:
         full = opened.convert("RGB")
         fill = tuple(int(round(v)) for v in measurement.paper_rgb)
+        outer = resolve_outer_trim(args.outer_trim, measurement)
+        if outer != (0.0, 0.0):
+            full, removed = trim_outer(full, outer)
+            result.outer_trimmed = list(removed)
         seam = measurement.gutter_x
         span = tuple(measurement.seam_span)
+        if any(result.outer_trimmed) and decision.split:
+            # Every horizontal fraction moved, so find the seam again rather
+            # than trying to rescale the old one.
+            small = np.asarray(full.resize(
+                (WORK_WIDTH, max(1, round(full.height * WORK_WIDTH / full.width))),
+                Image.BILINEAR), dtype=np.float32)
+            seam, contrast = gutter_of(small, [0.0, 0.0, 1.0, 1.0])
+            span = seam_span_of(small, seam, contrast)
         if decision.split and seam and not args.no_straighten:
             full, turned, moved = straighten_seam(full, measurement.seam_tilt, fill)
             if turned:
@@ -714,6 +818,11 @@ def main() -> int:
     parser.add_argument("--web-quality", type=int, default=82)
     parser.add_argument("--web-long-edge", type=int, default=2048)
     parser.add_argument("--no-tone", action="store_true", help="Skip colour normalisation entirely.")
+    parser.add_argument("--outer-trim", default="off",
+                        help="Book block removal: 'off' (default), 'auto' to use the measured "
+                             "page edge where one is found, or a pixel count applied to both "
+                             "outer sides. Detection is unreliable across titles, so a folder is "
+                             "best calibrated once from the outer_edges values in the manifest.")
     parser.add_argument("--no-straighten", action="store_true",
                         help="Always cut spreads on a vertical line, ignoring seam tilt.")
     parser.add_argument("--limit", type=int, default=0, help="Process at most this many pages.")
