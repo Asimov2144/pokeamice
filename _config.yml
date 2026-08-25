@@ -175,7 +175,10 @@ exclude:
   # Keep these out of GitHub Pages so the published site stays small.
   - /weibo
   - /DREAM 2008.12
-  - /archive
+  # Trailing slash keeps this to the directory: a bare /archive also
+  # excludes _layouts/archive.html, which silently breaks every page
+  # whose layout chain passes through it.
+  - archive/
   - /migration
   - /ocr-output
   - /ocr-output-*
