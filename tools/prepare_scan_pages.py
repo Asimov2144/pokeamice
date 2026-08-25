@@ -52,6 +52,7 @@ GUTTER_CONFIDENT = 35.0    # projection contrast above which cv alone may decide
 PAPER_LUMA_CLEAR = 235.0   # brighter highlights than this means a paper page
 PAPER_LUMA_DARK = 200.0    # dimmer than this means full-bleed art, leave colour alone
 MIN_DESKEW_DEG = 0.15      # below this, rotating costs more detail than it recovers
+MIN_SEAM_TILT_DEG = 0.30   # below this, a vertical cut is already on the seam
 
 
 # --------------------------------------------------------------------------- #
@@ -67,6 +68,8 @@ class Measurement:
     gutter_x: float | None
     gutter_contrast: float
     skew_deg: float | None
+    seam_tilt: float
+    seam_bands: int
     paper_rgb: list[float]
     paper_luma: float
     black_point: float
@@ -151,6 +154,66 @@ def gutter_of(rgb: np.ndarray, box: list[float]) -> tuple[float, float]:
     return round(absolute, 5), round(contrast, 2)
 
 
+def seam_tilt_of(rgb: np.ndarray, seam_x: float, contrast: float,
+                 bands: int = 20, window: float = 0.03) -> tuple[float, int]:
+    """Fit a line to the seam and return its tilt in degrees, plus bands used.
+
+    A book does not always sit square on the platen, and the gap between two
+    facing pages can run several degrees off vertical: on Continue vol.31
+    page052 it travels 409px across the page height, so a vertical cut clips the
+    right page at the top and the left page at the bottom.
+
+    Each horizontal band is searched only near the global seam, because a whole
+    page of column rules and photo edges offers plenty of darker verticals to
+    lock onto by mistake. Bands that disagree with the fit are dropped once and
+    the line refitted, and a tilt is only reported when enough bands survive.
+    """
+    gray = luma_of(rgb)
+    height, width = gray.shape
+    centre, half = seam_x * width, window * width
+    lo, hi = max(0, int(centre - half)), min(width, int(centre + half))
+    if hi - lo < 8 or contrast <= 0:
+        return 0.0, 0
+
+    wide = max(3, int(width * 0.06) | 1)
+    narrow = np.ones(9, dtype=np.float32) / 9
+    broad = np.ones(wide, dtype=np.float32) / wide
+    edges = np.linspace(0, height, bands + 1).astype(int)
+
+    ys, xs = [], []
+    for index in range(bands):
+        slab = gray[edges[index]:edges[index + 1]]
+        if slab.shape[0] < 4:
+            continue
+        column = slab.mean(axis=0)
+        # Same polarity as `gutter_of`: the seam is a dark trough, so the wide
+        # blur sits above the narrow one there. Measured on these scans the seam
+        # column reads 107-114 against a page median of 194-225, and the bright
+        # page gap beside it scores less than half as strongly.
+        response = (np.convolve(column, broad, mode="same")
+                    - np.convolve(column, narrow, mode="same"))[lo:hi]
+        best = int(np.argmax(response))
+        if float(response[best]) <= contrast * 0.35:
+            continue
+        ys.append((edges[index] + edges[index + 1]) / 2.0)
+        xs.append(best + lo)
+    if len(ys) < 8:
+        return 0.0, len(ys)
+
+    ys_arr, xs_arr = np.array(ys), np.array(xs, dtype=np.float32)
+    slope, intercept = np.polyfit(ys_arr, xs_arr, 1)
+    residual = np.abs(xs_arr - (slope * ys_arr + intercept))
+    keep = residual <= max(2.5 * float(np.median(residual)), 2.0)
+    if keep.sum() >= 8:
+        ys_arr, xs_arr = ys_arr[keep], xs_arr[keep]
+        slope, intercept = np.polyfit(ys_arr, xs_arr, 1)
+
+    tilt = float(np.degrees(np.arctan(slope)))
+    if abs(tilt) > 12.0:
+        return 0.0, int(len(ys_arr))       # implausible for a bound page
+    return round(tilt, 3), int(len(ys_arr))
+
+
 def skew_of(rgb: np.ndarray) -> float | None:
     """Median tilt of near-horizontal edges, in degrees."""
     if cv2 is None:
@@ -185,12 +248,14 @@ def measure(path: Path) -> Measurement:
     gutter, contrast = gutter_of(rgb, box)
     paper, paper_luma, black, cast = tone_of(rgb)
     aspect = full[0] / full[1]
+    tilt, bands = seam_tilt_of(rgb, gutter, contrast) if aspect >= SPREAD_ASPECT else (0.0, 0)
     return Measurement(
         width=full[0], height=full[1], aspect=round(aspect, 4),
         content_box=box,
         gutter_x=gutter if aspect >= SPREAD_ASPECT else None,
         gutter_contrast=contrast,
         skew_deg=skew_of(rgb),
+        seam_tilt=tilt, seam_bands=bands,
         paper_rgb=paper, paper_luma=paper_luma, black_point=black, colour_cast=cast,
     )
 
@@ -325,6 +390,30 @@ def classify(path: Path, measurement: Measurement, mode: str, model: str, timeou
 # Processing
 # --------------------------------------------------------------------------- #
 
+def straighten_seam(image: Image.Image, tilt: float,
+                    fill: tuple[int, int, int]) -> tuple[Image.Image, float, float]:
+    """Rotate a spread until its binding runs vertically, then re-locate it.
+
+    Turning the page before cutting costs one resample and makes the slanted
+    seam a plain vertical crop, which keeps every later step working on
+    rectangles. As in `deskew`, the sign convention is not trusted: both
+    directions are measured and the rotation is kept only if the seam ends up
+    straighter than it started.
+    """
+    if abs(tilt) < MIN_SEAM_TILT_DEG:
+        return image, 0.0, 0.0
+    for candidate in (tilt, -tilt):
+        rotated = image.rotate(candidate, resample=Image.BICUBIC, expand=True, fillcolor=fill)
+        preview = rotated.resize(
+            (WORK_WIDTH, max(1, round(rotated.height * WORK_WIDTH / rotated.width))), Image.BILINEAR)
+        array = np.asarray(preview, dtype=np.float32)
+        seam, contrast = gutter_of(array, [0.0, 0.0, 1.0, 1.0])
+        after, bands = seam_tilt_of(array, seam, contrast)
+        if bands >= 8 and abs(after) < abs(tilt) - 0.2:
+            return rotated, candidate, seam
+    return image, 0.0, 0.0
+
+
 def split_at(image: Image.Image, gutter_x: float, binding: str) -> list[tuple[str, Image.Image]]:
     """Cut a spread into two pages, named in reading order.
 
@@ -454,6 +543,7 @@ class PageResult:
     decision: dict
     outputs: list[dict] = field(default_factory=list)
     deskewed_by: float = 0.0
+    seam_straightened_by: float = 0.0
     tone_applied: bool = False
     note: str = ""
 
@@ -470,9 +560,15 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
 
     with Image.open(path) as opened:
         full = opened.convert("RGB")
-        pieces = (split_at(full, measurement.gutter_x, args.binding)
-                  if decision.split and measurement.gutter_x else [("", full)])
         fill = tuple(int(round(v)) for v in measurement.paper_rgb)
+        seam = measurement.gutter_x
+        if decision.split and seam and not args.no_straighten:
+            full, turned, moved = straighten_seam(full, measurement.seam_tilt, fill)
+            if turned:
+                seam = moved
+                result.seam_straightened_by = round(turned, 3)
+        pieces = (split_at(full, seam, args.binding)
+                  if decision.split and seam else [("", full)])
         for suffix, piece in pieces:
             piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])
             piece = trim_dark_edges(piece, measurement.paper_luma)
@@ -484,7 +580,8 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
             stem = path.stem + (f"-{suffix}" if suffix else "")
             # Only a single untouched, unsplit page can honestly reuse source bytes.
             comparable = (result.source_bytes
-                          if not suffix and not rotated and not result.tone_applied else None)
+                          if not suffix and not rotated and not result.seam_straightened_by
+                          and not result.tone_applied else None)
             if "archive" in args.profiles:
                 result.outputs.append(encode(
                     piece, out_dir / "archive" / f"{stem}.jpg",
@@ -518,6 +615,8 @@ def main() -> int:
     parser.add_argument("--web-quality", type=int, default=82)
     parser.add_argument("--web-long-edge", type=int, default=2048)
     parser.add_argument("--no-tone", action="store_true", help="Skip colour normalisation entirely.")
+    parser.add_argument("--no-straighten", action="store_true",
+                        help="Always cut spreads on a vertical line, ignoring seam tilt.")
     parser.add_argument("--limit", type=int, default=0, help="Process at most this many pages.")
     parser.add_argument("--dry-run", action="store_true", help="Measure and classify without writing.")
     args = parser.parse_args()

@@ -14,6 +14,7 @@ from prepare_scan_pages import (  # noqa: E402
     encode,
     gutter_of,
     normalise_tone,
+    seam_tilt_of,
     split_at,
     tone_policy_for,
     trim_dark_edges,
@@ -69,6 +70,41 @@ def test_dark_photo_page_does_not_steal_the_seam():
     assert contrast > 35
 
 
+def test_seam_tilt_tracks_the_shadow_not_the_bright_gap():
+    """The seam is a dark trough; the pale gap beside it is a decoy.
+
+    Measured on these scans the seam column reads about 110 against a page
+    median above 190. Chasing the bright ridge instead reported tilts of several
+    degrees on spreads whose binding is in fact vertical.
+    """
+    width, height = 1200, 800
+    canvas = np.full((height, width, 3), 235, dtype=np.uint8)
+    canvas[:, 200:560] = 180                # left page body, mid grey
+    canvas[:, 660:1000] = 180               # right page body
+    canvas[:, 560:600] = 250                # bright gap on one side of the seam
+    for y in range(height):                 # dark binding shadow, dead vertical
+        x = 610
+        canvas[y, x:x + 14] = 40
+
+    seam, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    assert 0.50 < seam < 0.53, f"seam should sit on the shadow, got {seam}"
+    tilt, bands = seam_tilt_of(canvas.astype(np.float32), seam, contrast)
+    assert bands >= 15, f"a clean vertical shadow should be found in most bands, got {bands}"
+    assert abs(tilt) < 0.3, f"a vertical seam must not report a tilt, got {tilt}"
+
+
+def test_seam_tilt_is_found_when_the_binding_really_leans():
+    width, height = 1200, 800
+    canvas = np.full((height, width, 3), 220, dtype=np.uint8)
+    for y in range(height):
+        x = 560 + round(y * 0.08)           # about 4.6 degrees
+        canvas[y, x:x + 14] = 40
+    seam, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    tilt, bands = seam_tilt_of(canvas.astype(np.float32), seam, contrast)
+    assert bands >= 15
+    assert 3.5 < tilt < 5.5, f"expected roughly 4.6 degrees, got {tilt}"
+
+
 def test_flat_page_reports_no_usable_gutter():
     _, contrast = gutter_of(page(width=1200, height=800).astype(np.float32), [0.0, 0.0, 1.0, 1.0])
     assert contrast < 35, "a page with no seam must not look splittable"
@@ -99,10 +135,16 @@ def test_tone_normalisation_whitens_paper_and_removes_cast():
 
 
 def test_art_pages_keep_their_colour():
-    dark = Measurement(1000, 1400, 0.71, [0, 0, 1, 1], None, 0.0, 0.0,
-                       [120.0, 90.0, 60.0], 150.0, 20.0, 60.0)
-    bright = Measurement(1000, 1400, 0.71, [0, 0, 1, 1], None, 0.0, 0.0,
-                         [250.0, 248.0, 240.0], 248.0, 20.0, 10.0)
+    def measurement(paper, luma):
+        return Measurement(
+            width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
+            gutter_x=None, gutter_contrast=0.0, skew_deg=0.0,
+            seam_tilt=0.0, seam_bands=0,
+            paper_rgb=paper, paper_luma=luma, black_point=20.0, colour_cast=0.0,
+        )
+
+    dark = measurement([120.0, 90.0, 60.0], 150.0)
+    bright = measurement([250.0, 248.0, 240.0], 248.0)
     assert tone_policy_for("art", bright) == "preserve", "art is never tone-mapped"
     assert tone_policy_for("single", dark) == "preserve", "a page with no paper white is left alone"
     assert tone_policy_for("single", bright) == "paper"
