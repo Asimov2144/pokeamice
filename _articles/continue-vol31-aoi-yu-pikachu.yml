@@ -1,0 +1,40 @@
+# Article metadata for the dual-channel publisher.
+#   python tools/publish_bilingual_article.py \
+#     --corrections <run>/llm-corrections.json \
+#     --meta _articles/continue-vol31-aoi-yu-pikachu.yml
+#
+# The body text never lives here: it comes from llm-corrections.json so both
+# channels stay rendered from one source.
+
+article_id: continue-vol31-aoi-yu-pikachu
+slug: continue-vol31-aoi-yu-pikachu
+date: 2006-11-01
+
+title: "[扫描访谈] 苍井优 × 皮卡丘"
+title_ja: "蒼井優 ♥ ピカチュウ"
+kicker: "SCAN ARCHIVE · INTERVIEW"
+publication: "CONTINUE"
+issue: "2006 vol.31"
+interviewee: "苍井优"
+translator: "Qwen-VL-OCR 识别 / DeepSeek 校对初译 / 待人工复核"
+source_pages: "014-015"
+source_title: "CONTINUE 2006 vol.31"
+original_lang: ja
+translation_lang: zh-CN
+summary: "苍井优谈到童年时哥哥唱的宝可梦歌曲、自己的游戏习惯，以及在《Dr.科托诊疗所》外景期间学做饭的经历。"
+
+categories: [访谈翻译, 扫描存档]
+tags: [CONTINUE, 苍井优, 皮卡丘, 扫描存档, 日中对照]
+
+docs:
+  # parallel-translation keeps the docs page text-first with no scan viewer.
+  # Switch to scan-translation and set scan_image to get the原图对照 workspace.
+  layout: parallel-translation
+  note: |-
+    本页是纯文本档案版本，正文与主站图文版同源。原刊图片与完整阅读体验请见主站。
+
+wordpress:
+  # Numeric term IDs, resolved once from /wp-json/wp/v2/categories.
+  # Left empty the post lands in the site's default category.
+  category_ids: []
+  tag_ids: []
