@@ -4,6 +4,7 @@ layout: default
 
 {% assign gf = site.data.gamefreak_director %}
 {% assign gf_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_posts = gf_posts | where_exp: "post", "post.gf_archive_id != nil" %}
 {% assign gf_mode = page.gf_mode | default: "post" %}
 {% assign gf_local_count = gf_posts | size %}
 
@@ -174,7 +175,7 @@ layout: default
                   {% assign archive_posts = archive_posts | push: post %}
                 {% endif %}
               {% endfor %}
-              <article class="{% if archive_posts.size == 0 %}is-empty{% endif %}">
+              <article id="archive-{{ archive_key_normalized | slugify }}" class="{% if archive_posts.size == 0 %}is-empty{% endif %}">
                 <strong>{{ archive }}</strong>
                 {% if archive_posts.size > 0 %}
                   {% for post in archive_posts %}<a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a>{% endfor %}
@@ -191,6 +192,34 @@ layout: default
         <nav class="gf-director-back" aria-label="文章导航">
           <a href="{{ '/gamefreak-director/' | relative_url }}">← 返回已收录文章</a><span>中文译稿</span>
         </nav>
+        {% assign current_archive = page.gf_archive %}
+        {% if current_archive == nil or current_archive == empty %}
+          {% assign current_archive = page.date | date: "%Y-%m" %}
+        {% endif %}
+        {% assign current_archive_normalized = current_archive | replace: "-0", "-" %}
+        <details class="gf-director-quicknav">
+          <summary><span>快速年月导航</span><small>Quick archive · 2004—2015</small></summary>
+          <div class="gf-director-quicknav__months">
+            {% for archive in gf.archives %}
+              {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
+              {% assign archive_count = 0 %}
+              {% for candidate in gf_posts %}
+                {% assign candidate_archive = candidate.gf_archive %}
+                {% if candidate_archive == nil or candidate_archive == empty %}
+                  {% assign candidate_archive = candidate.date | date: "%Y-%m" %}
+                {% endif %}
+                {% assign candidate_archive_normalized = candidate_archive | replace: "-0", "-" %}
+                {% if candidate_archive_normalized == archive_key_normalized %}
+                  {% assign archive_count = archive_count | plus: 1 %}
+                {% endif %}
+              {% endfor %}
+              {% if archive_count > 0 %}
+                <a class="{% if archive_key_normalized == current_archive_normalized %}is-current{% endif %}" href="{{ '/gamefreak-director/archive/' | relative_url }}#archive-{{ archive_key_normalized | slugify }}">{{ archive }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </details>
         <section class="gf-director-post">
           <header class="gf-director-post__header">
             <h1>{% if page.gf_entry_no %}・第{{ page.gf_entry_no }}回・{% else %}{{ page.title }}{% endif %}</h1>
@@ -210,6 +239,26 @@ layout: default
             {% include article-link-analysis.html %}
             {% include article-references.html %}
           </details>
+          {% assign older_no = page.gf_entry_no | minus: 1 %}
+          {% assign newer_no = page.gf_entry_no | plus: 1 %}
+          {% assign older_post = nil %}
+          {% assign newer_post = nil %}
+          {% for candidate in gf_posts %}
+            {% if candidate.gf_entry_no == older_no %}{% assign older_post = candidate %}{% endif %}
+            {% if candidate.gf_entry_no == newer_no %}{% assign newer_post = candidate %}{% endif %}
+          {% endfor %}
+          <nav class="gf-director-pager" aria-label="文章前后导航">
+            {% if older_post %}
+              <a class="gf-director-pager__older" href="{{ older_post.url | relative_url }}"><small>上一篇</small><strong>第{{ older_post.gf_entry_no }}回</strong><span>{{ older_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
+            {% else %}
+              <span class="gf-director-pager__empty gf-director-pager__older"><small>上一篇</small><strong>已是最早文章</strong></span>
+            {% endif %}
+            {% if newer_post %}
+              <a class="gf-director-pager__newer" href="{{ newer_post.url | relative_url }}"><small>下一篇</small><strong>第{{ newer_post.gf_entry_no }}回</strong><span>{{ newer_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
+            {% else %}
+              <span class="gf-director-pager__empty gf-director-pager__newer"><small>下一篇</small><strong>已是最新文章</strong></span>
+            {% endif %}
+          </nav>
         </section>
       {% endcase %}
     </article>

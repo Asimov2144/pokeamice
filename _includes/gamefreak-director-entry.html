@@ -7,7 +7,6 @@
     </div>
     <div class="gf-director-entry__body">
       <h3>{{ post.gf_entry_title | default: post.title }}</h3>
-      {% if post.summary or post.excerpt %}<p>{{ post.summary | default: post.excerpt | markdownify | strip_html | truncate: 170 }}</p>{% endif %}
       <span class="gf-director-entry__read">阅读全文 →</span>
     </div>
   </a>
