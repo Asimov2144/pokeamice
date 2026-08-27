@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 2
-gf_entry_title: ゲームフリークではゲームを創っているとき、
+gf_entry_title: 【开发随笔】让幻想拥有真实感
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享宝可梦如何用现实感包装幻想，让复杂设定变得易懂、好操作，也更容易被普通玩家接受。
+gf_translation_title: 【开发随笔】让幻想拥有真实感
+gf_translation_summary: 增田顺一分享宝可梦如何用现实感包装幻想，让复杂设定变得易懂、好操作，也更容易被普通玩家接受。
 search: true
 source:
   title: 増田部長のめざめるパワー 第2回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-002
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,79 +37,77 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在GAME FREAK创作游戏的时候，
+GAME FREAK 在创作游戏时，
 
-我们尽量不持有「因为是TV游戏」「因为是电脑」这样的框架或固定观念。
+会尽量不把它归类为“因为是电视游戏”“因为是计算机”，
+也不抱有这类固定观念。
 
-那是因为，电脑程序本身就是虚拟、空想的世界。
+因为计算机程序本来就是虚拟、幻想的世界。
+现实中不存在的事情，也能统统实现。
 
-现实中不存在的事情，也能做到一切。
-
-当向他人讲述这种无所不能的空想时，
-
-举出现实中的真实例子会变得非常容易理解。
-
-现实的东西对空想来说变得必要。
+把这种什么都可能的幻想讲给别人听时，
+如果举出现实中真实存在的东西作为例子，就会非常容易理解。
+真实的东西对于幻想来说，变得不可或缺。
 
 <p class="gf-director-spacer"></p>
 
-例如，
+比如，
 
-试着说明竹蜻蜓。
+试着解释一下竹蜻蜓。
 
-「装在头上，像直升机一样飞行的机器」
+说成“戴在头上，就能像直升机一样飞起来的机器”，
 
-这样说，就容易理解。
+这样就很容易理解。
 
-当然，名称也来源于此，所以更加容易理解。
+当然，名称也是由此而来，所以就更容易理解了。
 
-记忆面包也是一样。
-
-<p class="gf-director-spacer"></p>
-
-以宝可梦为例，
-
-不是直接搬运宝可梦，而是放入精灵球中搬运。
-
-从电脑程序的角度考虑，其实不必特意放入球中。
-
-但通过加入这一点巧思，赋予了现实感。
-
-如果因为「因为是电脑」就草率了事，就会过于空想而无法传达。
+记忆面包也是同理。
 
 <p class="gf-director-spacer"></p>
 
-我一直在思考的是，
+拿宝可梦来说，
 
-「赋予现实的理由，让空想更加真实」
+不是直接搬运宝可梦，而是把它装进精灵球里搬运。也就是这么回事。
 
-<p class="gf-director-spacer"></p>
+从计算机程序的角度来想，其实没必要特意把它装进球里。
 
-将困难的事情以现实的方式简单化，并呈现出来。
+但是，加上这样一个小设计，就让它有了真实感。
 
-这样一来，人们就更容易接受。
-
-<p class="gf-director-spacer"></p>
-
-而在宝可梦中，这样的细节被精心地、大量地融入各处。
+如果因为“这是计算机”就觉得这样也没问题，传达出来的内容就会过于幻想化。
 
 <p class="gf-director-spacer"></p>
 
-对于初次接触游戏，或者不玩游戏的一般人来说，
+我一直在思考的就是，
 
-容易理解、容易操作、感觉舒适——
-
-这正是增田所追求的游戏设计的基础。
+“赋予幻想以现实的理由，让幻想变得更加真实。”
 
 <p class="gf-director-spacer"></p>
 
-让一般人也容易接受的构造。
+把复杂的事情通过真实感变得简单，再呈现出来。
 
-思考这些也很有趣哦。
+我想，正因为这样，人们才更容易接受。
 
 <p class="gf-director-spacer"></p>
 
-那么！
+而在宝可梦中，这类设计被非常多、非常仔细地融入了各个地方。
+
+<p class="gf-director-spacer"></p>
+
+对第一次接触游戏的人，或者平时不玩游戏的普通人来说，
+
+觉得易懂、容易操作、用起来舒服的东西，
+
+正是我所追求的游戏设计基础。
+
+<p class="gf-director-spacer"></p>
+
+普通人也容易接受的结构。
+
+思考这种结构也很有意思哦。
+
+<p class="gf-director-spacer"></p>
+
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

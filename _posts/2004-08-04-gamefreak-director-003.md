@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 3
-gf_entry_title: 昨日、雑誌の取材がありました。
+gf_entry_title: 【开发日记】2004年《宝可梦绿宝石》发售前记
 gf_archive: 2004-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一谈及绿宝石发售前的杂志采访，分享想透露又想保密的复杂心情，并邀请玩家预约体验这部新作。
+gf_translation_title: 【开发日记】2004年《宝可梦绿宝石》发售前记
+gf_translation_summary: 增田顺一谈及绿宝石发售前的杂志采访，分享想透露又想保密的复杂心情，并邀请玩家预约体验这部新作。
 search: true
 source:
   title: 増田部長のめざめるパワー 第3回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-003
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -35,43 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-昨天，有杂志来采访。
+昨天接受了杂志采访。
 
-是的。
+没错。
 
-9月16日（星期四）将发售《绿宝石》。
+绿宝石将于 9 月 16 日（星期四）发售。
 
-就是那次采访。
+采访的就是这件事。
 
-但是，对于宝可梦这个游戏来说，
+不过，对于宝可梦这款游戏来说，
 
-不能透露太多，真是让人着急，但是……
+不能透露太多内容，实在让人有些着急……
 
-不过，
+但是，
 
-希望玩的人能发现一切。所以想全部隐藏起来。
+我也有这样的想法：希望大家在游玩时亲自发现一切。所以，什么都想先藏起来。
 
-我也有这样的想法。
+到底是想说，还是不想说……
 
-是想说呢，还是不想说呢……
-
-真是非常复杂的心情。
+我的心情真是非常复杂。
 
 大家，请一定要预约哦！
 
-玩过《红宝石》《蓝宝石》的人，请一边确认差异，
+玩过红宝石、蓝宝石的玩家，可以一边确认其中的不同，
 
-玩过《火红》《叶绿》的人，请作为最新作，
+玩过火红、叶绿的玩家，则可以把绿宝石当作最新作品来享受。
 
-来享受《绿宝石》吧。我想。
+游戏里还有各种各样的机关，可以尽情游玩。
 
-还有各种机关，可以玩个够。
+这是 GAME FREAK 的工作人员倾注心血创作、充满自信的一作。
 
-这是GAME FREAK的工作人员倾注心血创作的自信之作。
+请大家一定要试试看哦。
 
-请务必尝试一下。
-
-拜托了！
+请多多支持！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

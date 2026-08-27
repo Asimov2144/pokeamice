@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 4
-gf_entry_title: よく取材とかでも、ポケモンは子供向けだ。といわれます。
+gf_entry_title: 【开发随笔】宝可梦与童谣般的普适性
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一谈宝可梦为何不只是面向孩子，以及如何追求让全世界、各个年龄层都能享受的普遍乐趣。
+gf_translation_title: 【开发随笔】宝可梦与童谣般的普适性
+gf_translation_summary: 增田顺一谈宝可梦为何不只是面向孩子，以及如何追求让全世界、各个年龄层都能享受的普遍乐趣。
 search: true
 source:
   title: 増田部長のめざめるパワー 第4回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-004
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,39 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在采访中也经常有人说，宝可梦是面向儿童的。
+在接受采访之类的场合，我经常会听到这样的说法：宝可梦是面向孩子的。
 
-但是，我并没有太多“面向儿童”这样的概念。
+可是，对我来说，其实并没有太强的“面向孩子”这一概念。
 
-捉迷藏和跳绳，是面向儿童的吗？
+捉迷藏和跳绳算是面向孩子的吗？
 
 我觉得不是。
 
-做了就会觉得有趣。
+只要去玩，就会觉得有意思。
 
-但是，大人知道其他复杂且刺激的游戏。
+不过，大人还知道其他复杂而刺激的玩法。
 
-而且那种欲望和追求是无止境的，如果随着它去创作的话，
+而且，这种欲望和追求是没有尽头的；如果顺着它去做游戏，
 
-不知不觉中，就会变成那个人专用的游戏。
+不知不觉间，游戏就会变成只适合那个人自己的玩法。
 
-能让很多人享受的游戏，和刺激且复杂的游戏是成反比的。
+让许多人都能享受的玩法，与刺激而复杂的玩法，是成反比的。
 
-音乐不也是这样吗？
+音乐也是这样吧？
 
-大家都知道且不分年龄的音乐，结果往往是童谣。
+那种大家都知道、又不分年龄的音乐，说到底，往往就是童谣。
 
-我觉得宝可梦被说是面向儿童的，也是同样的道理。
+我觉得，宝可梦之所以也被说成是面向孩子的，道理是一样的。
 
-而我们正以创作全世界通用的普遍童谣为目标。
+而我们所追求的，正是放之四海而皆准、全世界都能接受的童谣。
 
-但是，这又非常困难！
+不过，这同样非常困难！
 
-创作者也会逐渐习惯，越来越追求困难且刺激的东西。
+创作者也会逐渐习惯起来，不由自主地追求越来越复杂、越来越刺激的东西。
 
-真的是“勿忘初心”。
+真的就是“不能忘记初心”啊。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

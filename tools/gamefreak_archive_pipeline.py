@@ -1082,6 +1082,8 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
 
     generated = 0
     posts_dir = REPO_ROOT / "_posts"
+    default_translation_dir = ARCHIVE_ROOT / "translations" / "zh-CN"
+    preferred_translation_dir = getattr(args, "translation_layer", None) or default_translation_dir
     for article in manifest["articles"]:
         number = int(article["number"])
         ja = article.get("languages", {}).get("ja")
@@ -1089,8 +1091,15 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             continue
         date = ja.get("date") or f"{article['month']}-01"
         categories = list(ja.get("categories") or [])
-        translation_path = ARCHIVE_ROOT / "translations" / "zh-CN" / f"{number:03d}.md"
+        translation_path = preferred_translation_dir / f"{number:03d}.md"
+        # A comparison layer may contain only a subset; use the formal layer
+        # for all other entries so a five-article preview does not blank out
+        # the rest of the archive.
+        if not translation_path.exists() and preferred_translation_dir != default_translation_dir:
+            translation_path = default_translation_dir / f"{number:03d}.md"
         translation_metadata = _content_front_matter(translation_path) if translation_path.exists() else {}
+        card_title = str(translation_metadata.get("translation_title") or "").strip()
+        card_summary = str(translation_metadata.get("translation_summary") or "").strip()
         front_matter = {
             "layout": "gamefreak-director",
             "title": f"[GameFreak部长专栏] 第{number}回",
@@ -1100,10 +1109,12 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             "tags": ["Game Freak", "增田顺一", "宝可梦", "官方博客"],
             "archive_type": "gamefreak_director_column",
             "gf_entry_no": number,
-            "gf_entry_title": ja.get("lead") or "",
+            "gf_entry_title": card_title or ja.get("lead") or "",
             "gf_archive": article.get("month"),
             "gf_categories": categories,
-            "summary": "中文译稿已完成校对；日文原文与官方英文版可展开对照。",
+            "summary": card_summary or "中文译稿已完成校对；日文原文与官方英文版可展开对照。",
+            "gf_translation_title": card_title,
+            "gf_translation_summary": card_summary,
             "search": True,
             "source": {"title": f"増田部長のめざめるパワー 第{number}回", "url": ja.get("page_url"), "source_type": "official_blog"},
             "gf_archive_id": article.get("id"),
@@ -1418,6 +1429,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--refresh", action="store_true", help="Refetch existing captures/assets")
     parser.add_argument("--all", action="store_true", help="Discover every archive month")
     parser.add_argument("--strict", action="store_true", help="Exit non-zero on validation failure")
+    parser.add_argument(
+        "--translation-layer",
+        type=Path,
+        help="Optional translation directory to prefer; missing entries fall back to archive/translations/zh-CN.",
+    )
     return parser
 
 
@@ -1425,6 +1441,8 @@ def main() -> None:
     parser = build_parser()
     args = parser.parse_args()
     args.samples = args.samples.resolve()
+    if args.translation_layer:
+        args.translation_layer = args.translation_layer.resolve()
     write_archive_readme()
     if args.stage == "discover":
         discover(args)

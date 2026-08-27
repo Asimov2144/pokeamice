@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 5
-gf_entry_title: 今日は、広島に米国の原子爆弾が落とされた日です。黙祷。 ひどいことです。繰り返してはいけません。戦争はいけません。
+gf_entry_title: 【开发日记】2004年宝可梦全球交流
 gf_archive: 2004-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田邀请出国旅行的玩家带上宝可梦，与陌生人交换或对战，借此跨越国界，和世界各地的人建立友谊。
+gf_translation_title: 【开发日记】2004年宝可梦全球交流
+gf_translation_summary: 增田邀请出国旅行的玩家带上宝可梦，与陌生人交换或对战，借此跨越国界，和世界各地的人建立友谊。
 search: true
 source:
   title: 増田部長のめざめるパワー 第5回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-005
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 6
 glossary_missing_targets: []
 ---
@@ -36,43 +38,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-今天是美国在广岛投下原子弹的日子。默哀。
+今天，是美国在广岛投下原子弹的日子。默哀。
 
-这是极其悲惨的事。绝不能重演。战争绝不允许。
+太惨痛了。不能重蹈覆辙。战争是不该发生的。
 
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
 
-从明天开始，GAME FREAK 进入暑假。
+明天起 GAME FREAK 就放暑假了。
 
-真好啊——假期。
+真好啊——放假。
 
-那么，要去旅行的各位！
+那么，准备去旅行的各位！
 
-不仅是红宝石·蓝宝石，火红·叶绿也
+《红宝石》《蓝宝石》是这样，《火红》《叶绿》也一样，
 
 已经可以和全世界的人对战、交换了！
 
-计划去海外旅行的人！
+要去海外旅行的人！
 
-带上宝可梦卡带和 Game Boy Advance，
+请带上宝可梦卡带和 Game Boy Advance，
 
-和陌生人交换宝可梦或对战吧！
+和陌生人交换宝可梦，或者对战吧！
 
 我们相信全世界交流的可能性，
 
-也创造了“宝可梦”“皮卡丘”“固拉多”“基拉祈”等
+也创造了“宝可梦”“皮卡丘”“固拉多”“基拉祈”等，
 
-共通语言。
+全世界通用的共同语言。
 
-电影里出现的宝可梦在全世界都是共通的。
+电影里出现的那种宝可梦，在全世界都是一样的。
 
-请在海外试着喊喊“洛奇亚”或“皮卡丘”吧。
+请在海外也试着大声喊喊“洛奇亚”啊、“皮卡丘”啊。
 
-一定会有人回头看你。
+一定会有人回头看你的。
 
-然后，无论大人还是孩子，都在全世界交朋友吧！！！
+所以，大人也好孩子也好，让我们和世界各地的人交朋友吧！！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

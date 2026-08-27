@@ -131,8 +131,8 @@ def glossary_context(matches: list[dict[str, Any]], limit: int = 120) -> str:
     lines = []
     for entry in matches[:limit]:
         source_terms = "、".join(entry["hits"])
-        category = f"（{entry['category']}）" if entry.get("category") else ""
-        lines.append(f"- {source_terms} → {entry['target']}{category}")
+        # 分类仅用于内部审计，不注入提示词，避免模型把括号说明写进正文。
+        lines.append(f"- {source_terms} → {entry['target']}")
     if len(matches) > limit:
         lines.append(f"- 其余 {len(matches) - limit} 条命中术语不展开；仍应优先遵循目标译名。")
     return "\n".join(lines) or "本篇原文没有命中术语表中的明确词条。"
@@ -202,6 +202,7 @@ def build_prompt(number: int, source: str, translation: str, glossary: str) -> s
 
 本篇命中的 Glossary Master 术语（原词 → 统一中文译名）：
 {glossary}
+括号中的分类、来源或备注不属于译文内容；只有当括号本身就是官方译名的一部分时才保留。
 """.strip()
 
 
