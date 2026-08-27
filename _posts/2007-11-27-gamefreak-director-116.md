@@ -19,18 +19,53 @@ gf_entry_title: 新潟に行ってました！ とは、先週の１１月１６
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第116回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-116
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+去新潟了！
+
+这是上周11月16日、17日的事。
+
+在朱鹭会展中心参加了几个项目！
+
+新潟的各位，非常亲切，很开心。
+
+谢谢大家！
+
+另外，来见增田的各位，我满怀感激之情。
+
+谢谢。
+
+混在许多老师中间，我缩得很小，但是……
+
+今后希望能被称作“游戏”方面的专家，
+
+我会努力的。
+
+天气突然变冷，新潟应该已经积雪了吧，
+
+我想再去新潟玩，吃美味的日本酒、美味的大米、美味的花（菊花），
+
+还有虾等生鲜食品！！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 新潟に行ってました！
 
@@ -60,6 +95,8 @@ gf_archive_id: masuda-116
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

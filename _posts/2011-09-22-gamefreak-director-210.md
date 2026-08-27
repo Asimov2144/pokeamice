@@ -18,18 +18,88 @@ gf_entry_title: ９月１５日（木）１６：００ 幕張メッセにて日
 gf_archive: 2011-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第210回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-210
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 宝可梦
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+９月１５日（周四）１６：００
+
+在幕張展覽館舉行了日本遊戲大獎頒獎典禮！！
+
+竟然！！寶可夢相關獲得了４個獎項！！
+
+太棒了！！
+
+１）經濟產業大臣獎
+
+「株式會社寶可夢　石原恆和先生」
+
+[http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)
+
+２）全球獎　日本作品部門
+
+「寶可夢 心金・魂銀」
+
+[http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)
+
+３）最佳銷售獎
+
+４）優秀獎
+
+「寶可夢 黑・白」
+
+[http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)
+
+哎呀，真開心啊。
+
+感謝支持我們的粉絲們！
+
+其他獲獎作品。
+
+[http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)
+
+獲得最佳銷售獎，由被選中的粉絲頒發給增田。
+
+<img src="/assets/images/gamefreak-director/archive/210/multi/210a.jpg" alt="" loading="lazy">
+
+在台上演講的增田。
+
+<img src="/assets/images/gamefreak-director/archive/210/multi/210b.jpg" alt="" loading="lazy">
+
+特寫（笑）
+
+<img src="/assets/images/gamefreak-director/archive/210/multi/210c.jpg" alt="" loading="lazy">
+
+獲得優秀獎的增田。非常感謝。
+
+<img src="/assets/images/gamefreak-director/archive/210/multi/210d.jpg" alt="" loading="lazy">
+
+第二次演講的增田。在看哪裡呢（笑）
+
+<img src="/assets/images/gamefreak-director/archive/210/multi/210e.jpg" alt="" loading="lazy">
+
+再次感謝大家，
+
+感謝你們玩寶可夢！！
+
+那麼。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ９月１５日（木）１６：００
 
@@ -93,6 +163,8 @@ gf_archive_id: masuda-210
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

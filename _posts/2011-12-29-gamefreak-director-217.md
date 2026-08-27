@@ -19,18 +19,43 @@ gf_archive: 2011-12
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第217回
   url: https://www.gamefreak.co.jp/blog/dir/2011/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-217
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位！！
+
+今年一年也承蒙大家多多关照了。
+
+现在，宝可梦中心东京的Facebook官方页面正在限期开放中，
+
+在这里，增田热情地聊了聊关于宝可梦中心的事情（笑）。
+
+[http://www.facebook.com/pokemoncentertokyo.official](http://www.facebook.com/pokemoncentertokyo.official)
+
+请务必读一读！！
+
+啊，也别忘了给官方页面本身点个「赞」！！
+
+有机会获得皮卡丘周边哦！！
+
+[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさま！！
 
@@ -50,6 +75,8 @@ gf_archive_id: masuda-217
 
 [http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

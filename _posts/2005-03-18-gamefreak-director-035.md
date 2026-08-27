@@ -19,18 +19,63 @@ gf_entry_title: ２５年前、ＴＶゲームをプレイする場所といえ�
 gf_archive: 2005-03
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第35回
   url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-035
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+２５年前、ＴＶゲームをプレイする場所といえば、ゲームセンターでした。
+
+そこは、不良のたまり場として社会的に印象の悪い場所でもあったんです。
+
+結果、ゲームをする人＝不良、のような印象付けがされてしまいました。
+
+現在、ＴＶゲームは誰もが遊ぶエンターテーメントに成長しました。
+
+ですから、遊んでいても不良だとは誰も思いませんよね。
+
+そういう形に育てたのは業界であり、クリエイター達だと思うんです。
+
+とても、素晴らしいことだと思います。
+
+そして同時に思うんです。
+
+１０年、２０年後のＴＶゲームは、今よりも世間的な評価を高め、
+
+今とは違った、何か新しい形になっていって欲しいと。
+
+売れるから売るのでは、何も変化が起こらないですし、変わりません。
+
+もちろん、あるターゲット向けの要素は必要ですし、大切だとは思います。
+
+ですが、ＴＶゲームという遊びを多くの人に広げるためには、
+
+今のゲームの方向性や、作り手の責任というものを考えなければいけません。
+
+１０年後を創るのは、今、ゲームを創っているクリエイターの
+
+魂であり、パワー、価値観でもあるのです。
+
+今後も戦争や殺人などの要素を中心としたゲームが出るとは思いますが、
+
+もっと、豊かで暖かで人が幸せになるゲームを作り続けたいと思っています。
+
+では。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２５年前、ＴＶゲームをプレイする場所といえば、ゲームセンターでした。
 
@@ -70,6 +115,8 @@ gf_archive_id: masuda-035
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

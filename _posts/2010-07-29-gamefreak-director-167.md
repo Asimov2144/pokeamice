@@ -18,18 +18,71 @@ gf_entry_title: 「ポケモンが変わった」 「子供も大人も楽しめ
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第167回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-167
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「宝可梦变了」
+
+「孩子和大人皆可享受的宝可梦，完成」
+
+想用这样的宣传语来推广，
+
+宝可梦 黑·白。
+
+改变的不仅仅是宝可梦角色。
+
+剧情、演出、地图也都变了。
+
+消息也支持用汉字显示了。
+
+红外线通信、Wi-Fi、通信也大幅进化了。
+
+在电脑上的交流方式也会改变。
+
+总之，重新设计了游玩方式。
+
+玩这款黑·白时，
+
+会让人感觉“这是宝可梦？”然后又会觉得“果然是宝可梦！”。
+
+然后，增田……虽然我不习惯夸自己的软件……
+
+但这次我认为可以称之为最高杰作。
+
+作为电视游戏，作为RPG，真的做得很好。
+
+增田可能再也做不出超越它的作品了……
+
+玩过宝可梦的人，
+
+没玩过宝可梦的人，
+
+后天开始接受预约。
+
+请务必务必预约。
+
+拜托了！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 「ポケモンが変わった」
 
@@ -75,6 +128,8 @@ TVゲームとして、RPGとして、まじ良くできているんじゃない
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

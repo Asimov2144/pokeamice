@@ -18,18 +18,75 @@ gf_entry_title: 昔を思い返してみると、ほんとに世界が大きく�
 gf_archive: 2005-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第48回
   url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-048
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+回想过去，真的能感觉到世界发生了巨大的变化。
+
+随着年龄增长，我明白为什么人们会说“想当年啊”……
+
+想当年……
+
+没有便利店，没有录像带出租店，
+
+没有量贩店，没有星巴克……
+
+没有CD，没有MD，当然也没有DVD，
+
+没有空调，
+
+电视是显像管的，还是黑白的，彩色电视也是最近才有的，
+
+电视节目也在夜里1点左右就结束了……
+
+（那时候家里哪有这么多遥控器啊……）
+
+游戏厅里没有大头贴，也没有抓娃娃机，
+
+没有条形码，店里每个商品的价格都是收银员手动输入的……
+
+美国与苏联正处于冷战，
+
+德国也分裂为东西两部分……
+
+车票要请车站工作人员剪票。
+
+啊，真怀念……
+
+而且，在怀念的同时，
+
+我也想思考一下，到底什么是如何进化的。
+
+消失的东西。以及新生的东西。
+
+开发速度变快的东西，和没有变快的东西。
+
+思想或核心要素发生变化的东西，和没有变化的东西。
+
+这样一想，“想当年啊”也变得有趣起来了。
+
+大家是不是也来想想自己的“想当年啊”呢？
+
+那么，就这样。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 昔を思い返してみると、ほんとに世界が大きく変化していると感じます。
 
@@ -79,6 +136,8 @@ TV番組も夜１時頃には終わり、、、
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

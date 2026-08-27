@@ -18,18 +18,53 @@ gf_entry_title: 前回の第１０２回で、F1マシンに乗りました！�
 gf_archive: 2007-09
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第103回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-103
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+前回的第102回中，我写了“坐上了F1赛车！！”
+
+但实际上……
+
+那是骗人的……呜哇——。
+
+细心的员工帮我发现了真相。感谢！
+
+那似乎是Formula Nippon规格的FN赛车！！
+
+我太兴奋了，没看出来！
+
+因此，虽然也可以改写第102回，但……
+
+我认为信息错误在更正时再次传达比较好，
+
+所以写成了指出错误的专栏。
+
+这个想法……也可以应用到游戏中……
+
+但不管怎样，我写了错误的信息……
+
+非常抱歉。
+
+不过，请务必去体验一下哦————。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 前回の第１０２回で、F1マシンに乗りました！！
 
@@ -59,6 +94,8 @@ gf_archive_id: masuda-103
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

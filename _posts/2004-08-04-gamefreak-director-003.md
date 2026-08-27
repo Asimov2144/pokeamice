@@ -18,18 +18,63 @@ gf_entry_title: 昨日、雑誌の取材がありました。
 gf_archive: 2004-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第3回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-003
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+昨天，有杂志来采访。
+
+是的。
+
+9月16日（星期四）将发售《绿宝石》。
+
+就是那次采访。
+
+但是，对于宝可梦这个游戏来说，
+
+不能透露太多，真是让人着急，但是……
+
+不过，
+
+希望玩的人能发现一切。所以想全部隐藏起来。
+
+我也有这样的想法。
+
+是想说呢，还是不想说呢……
+
+真是非常复杂的心情。
+
+大家，请一定要预约哦！
+
+玩过《红宝石》《蓝宝石》的人，请一边确认差异，
+
+玩过《火红》《叶绿》的人，请作为最新作，
+
+来享受《绿宝石》吧。我想。
+
+还有各种机关，可以玩个够。
+
+这是GAME FREAK的工作人员倾注心血创作的自信之作。
+
+请务必尝试一下。
+
+拜托了！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 昨日、雑誌の取材がありました。
 
@@ -69,6 +114,8 @@ gf_archive_id: masuda-003
 
 よろしく！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

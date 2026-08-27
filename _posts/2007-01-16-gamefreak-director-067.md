@@ -20,18 +20,22 @@ gf_archive: 2007-01
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第67回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-067
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 １月９日（火）六本木のグランドハイアット東京にて、
 
@@ -83,6 +87,61 @@ gf_archive_id: masuda-067
 
 では。
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+１月９日（火）六本木のグランドハイアット東京にて、
+
+「インビテーション・アワード」の授賞式が行われました。
+
+そこで！ゲーム賞をいただきました！
+
+ゲーム業界が映像業界の一員として一緒に表彰されるのはとても嬉しいことです。
+
+そこでの表彰台でも話したのですが、、、
+
+ダイヤモンド、パールの画面は計算的なリアルな３Dを目指していません。
+
+感覚的な感情的な３Dを目指しました。
+
+立体になることで気持ちよかったり、
+
+高さがあることで進んでいる感じが出たり、、と。
+
+そうです。
+
+出したかったのは冒険感なんです。
+
+そのために、あえて複雑な２Dと３Dが混ざり合ったような表現にしているんです。
+
+フィールドは３Dですが、
+
+主人公などの人は２Dのように。
+
+家の中も実際には３Dで作られていますが、
+
+狭い部屋のイメージを出したくて、
+
+２Dのように平面にしています。
+
+そうはいってもジムなどでは３Dを目立たせたり。
+
+結構、たいへんなんですよね。
+
+感覚的なリアルって。
+
+でも、こだわって追求していくことが必要だと感じてます。
+
+その方がより楽しいし、よりリアルですから。
+
+※ということで、、、今月発売の雑誌インビテーションに増田載ってまーす。
+
+　是非、買って読んでください！
+
+では。
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,57 @@ gf_entry_title: ポケモンセンター東京がリニューアルしたので�
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第12回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-012
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+因为宝可梦中心东京重新装修了，
+
+所以今天去了一趟。
+
+比以前更好逛，也更漂亮了。
+
+不过嘛，人山人海，人山人海。
+
+基本上都是妈妈带着孩子的组合。
+
+这是为什么呢？
+
+然后，孩子拿着篮子，把想要的东西放进去，
+
+接受妈妈的检查。就是这种感觉。
+
+看着这一幕，
+
+我不禁想，要是也有妈妈更想要的东西就好了。
+
+母子都想要的东西。
+
+会是什么呢？
+
+从这样的自问自答中，
+
+有时会诞生出“这不也能用在游戏里吗！”这样的点子。
+
+请务必试试看！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケモンセンター東京がリニューアルしたので、
 
@@ -65,6 +104,8 @@ gf_archive_id: masuda-012
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

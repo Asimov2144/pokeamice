@@ -18,18 +18,77 @@ gf_entry_title: なんとっ！！！ このコラムを英語化します！！
 gf_archive: 2007-11
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第111回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-111
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+竟然！！！
+
+这个专栏要英语化了！！
+
+由我们公司拥有长期海外生活经验的游戏设计师，ヒロ中村负责！
+
+我们计划尽可能谨慎、细致、易懂地进行翻译，
+
+所以更新可能会比较缓慢，
+
+开发忙碌的时候也可能会延迟。
+
+抱歉，请谅解！
+
+想把细微的语感也传达给读者。
+
+带着这样的心情，花时间让ヒロ按照増田想传达的语感进行翻译。
+
+那么！
+
+这里，是来自ヒロ的消息！
+
+＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞
+
+哈喽！初次见面。我是ヒロ中村。
+
+在GAME FREAK担任游戏设计师。
+
+虽然英语水平有限，但希望大家能享受专栏的英语版！
+
+＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞
+
+虽然不会同步更新，
+
+今后也请大家多多关照！
+
+海外的各位，也请多多关照！
+
+然后！还有！
+
+过去的专栏也会翻译！
+
+一次性全部英语化比较困难，
+
+所以可能会按顺序来，
+
+这个也，，，敬请期待！
+
+也许意外地能成为英语学习的好材料！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 なんとっ！！！
 
@@ -83,6 +142,8 @@ gf_archive_id: masuda-111
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

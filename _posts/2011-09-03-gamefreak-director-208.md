@@ -19,18 +19,57 @@ gf_archive: 2011-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第208回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-208
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+MTM，将在USTREAM上播出！！
+
+9月3日、4日在六本木Hills・Arena举办的
+
+「宝可梦Smash！」大家一起来唱吧！
+
+能说出宝可梦吗？BW in 六本木Hills！
+
+在这个会场，4日（周日）16点起MTM将登场。
+
+会演奏什么曲子呢！？
+
+顺便说一下，可不止一首！！
+
+大家熟悉的那首曲子也，，，被改编得超帅！！
+
+附近的人请务必来玩，现场观赏！
+
+远方的人请务必通过USTREAM观看！！
+
+另外，，，
+
+听说4日的宝可梦Smash！将播出WCS圣地亚哥的情况！
+
+那边也请Check！Check！
+
+[http://ustre.am/CGp6](http://ustre.am/CGp6)
+
+[http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 MTM、USTREAMで放送決定！！
 
@@ -64,6 +103,8 @@ MTM、USTREAMで放送決定！！
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

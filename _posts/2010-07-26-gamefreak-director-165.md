@@ -19,18 +19,55 @@ gf_archive: 2010-07
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第165回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-165
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位
+
+真是热得要命啊。。。
+
+说到热就是夏天。
+
+说到夏天，就是宝可梦！！
+
+说到宝可梦，就是回复体力的地方，宝可梦中心！！！
+
+所以说，累的时候就在宝可梦中心东京店，
+
+回复体力的马苏达，
+
+今年的宝可梦中心闪闪发亮，回复个不停（笑）
+
+检查那闪闪发亮的时候发现了！
+
+「宝可梦中心官方　工作人员之声」
+
+[http://voice.pokemon.co.jp/v-zenkoku/](http://voice.pokemon.co.jp/v-zenkoku/)
+
+各位，，，见过吗？
+
+不好意思，今天才知道（汗）
+
+然后，，，这个网站的照片，，，是在谁家拍的呢。。。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん
 
@@ -62,6 +99,8 @@ gf_archive_id: masuda-165
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

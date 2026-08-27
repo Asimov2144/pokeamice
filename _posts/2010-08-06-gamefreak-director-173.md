@@ -18,18 +18,37 @@ gf_entry_title: ゲームフリークは明日から夏期休暇。
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第173回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-173
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+GAME FREAK 从明天开始放暑假。
+
+增田因为 WCS，12 日到 18 日要去夏威夷！
+
+世界第一会被哪个国家夺得呢？
+
+赛况我想可以从这里查看。
+
+[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ゲームフリークは明日から夏期休暇。
 
@@ -43,6 +62,8 @@ gf_archive_id: masuda-173
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

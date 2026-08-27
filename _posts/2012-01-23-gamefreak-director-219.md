@@ -19,18 +19,61 @@ gf_archive: 2012-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第219回
   url: https://www.gamefreak.co.jp/blog/dir/2012/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-219
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+全国宝可梦中心签名会决定！！
+
+这次签名会，是在宝可梦中心东北诞生时，
+
+从某位人士那里收到了“不举办签名会吗？”的推文。
+
+增田也一直说想给东北的人们送去元气！想做！但是……
+
+结果，因为大家的推文，
+
+发展成了“大阪呢？福冈呢？横滨呢？”的话题！！
+
+结果，就决定在全国的宝可梦中心举办，
+
+并朝着实现的方向推进了！
+
+其实，至今为止，以宝可梦世界锦标赛（WCS）世界大会为首，
+
+在北美、伦敦、韩国等地都举办过签名会，
+
+但在日本一次都没办过（笑）
+
+这次，终于要在日本举办签名会了，但是……
+
+没想到会变成这么盛大的样子（笑）
+
+果然，Twitter很厉害（笑）
+
+那么，大家，我们在宝可梦中心见吧！！！
+
+就算不拿签名，也请来逛逛玩玩（笑）
+
+[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 全国のポケモンセンターでサイン会決定！！
 
@@ -70,6 +113,8 @@ gf_archive_id: masuda-219
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

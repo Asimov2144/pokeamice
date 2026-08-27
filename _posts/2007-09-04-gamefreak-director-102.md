@@ -18,18 +18,79 @@ gf_entry_title: F1マシンに乗りました。 といっても、大阪駅の�
 gf_archive: 2007-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第102回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-102
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 5
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+我坐上了F1赛车。
+
+虽然，是在大阪站前的DOCOMO大厦地下一层的展示厅里。
+
+碰巧，手机电池快没电了，就去那里充电。
+
+F1，我非常喜欢。
+
+尤其是摩纳哥GP、意大利GP，赛道和观众都是最棒的，深夜在电视上从不落下地观看。
+
+还用录像带（VHS）录过像。
+
+那排气声浪。（用“声浪”来形容，真是美妙！）
+
+还有谨慎争夺领先位置的策略。
+
+团队合作。
+
+换胎时的紧张感。
+
+以及最新、最强的赛车。
+
+好帅。。。
+
+坐上去之后，，，
+
+意外的是，身体能进入的宽度很宽，很宽敞。
+
+相比之下，脚部空间的狭窄让我吃惊。
+
+而且，巨大的轮胎裸露在眼前，给人一种压迫感。
+
+如果以300km/h的速度行驶，肯定会害怕。
+
+我带着有点傻笑的表情，请店员小姐拍了照，，，
+
+还得到了纪念卡。
+
+背面写着乘坐过的人数！竟然是第2925位！
+
+大家，意外地都坐过呢。
+
+哎呀，我很高兴。真的。
+
+相当兴奋。
+
+住在附近的朋友，务必去坐坐看！
+
+那么。
+
+<img src="/assets/images/gamefreak-director/archive/102/multi/102a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/102/multi/102b.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 F1マシンに乗りました。
 
@@ -83,6 +144,8 @@ F１、大好きでした。
 
 <img src="/assets/images/gamefreak-director/archive/102/multi/102a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/102/multi/102b.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

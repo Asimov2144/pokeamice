@@ -18,18 +18,61 @@ gf_entry_title: ゲームデザインは、デザインであって、 機能や
 gf_archive: 2005-06
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第42回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-042
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+游戏设计，是一种设计，
+
+并不意味着只要优先考虑功能和操作性就好。
+
+作为整体，当将其视为一件作品、一件商品来考虑时，
+
+需要在思考整体平衡的同时，
+
+慢慢地、从容地精心打磨。
+
+用音乐来比喻的话，就像CD专辑一样。
+
+从硬核曲目到抒情曲，多种多样，对吧。
+
+如果全都一样会让人疲惫，
+
+做得太过或做得不够都不行。
+
+从操作性来考虑的话，
+
+即使觉得难用、不贴心、不方便，
+
+这种价值观因人而异，
+
+重要的是谁会有这样的感觉。
+
+真的，澳大利亚的孩子会这么想吗？——这样的疑问。
+
+那才是重要的。
+
+所谓便利，是因为有不便才存在的。
+
+我认为，感到不便，也是设计的一部分。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ゲームデザインは、デザインであって、
 
@@ -67,6 +110,8 @@ gf_archive_id: masuda-042
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

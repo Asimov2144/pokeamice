@@ -19,18 +19,80 @@ gf_archive: 2011-12
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第216回
   url: https://www.gamefreak.co.jp/blog/dir/2011/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-216
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 武德
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「请告诉我你进入GAME FREAK的契机！」
+
+我在[推特](http://twitter.com/Junichi_Masuda)上收到了这个问题，
+
+所以就在这个博客上回答吧（笑）！！
+
+首先……
+
+这是在株式会社GAME FREAK成立之前的故事。
+
+增田18岁。
+
+进入位于新宿的日本电子专门学校计算机图形（CG）科。
+
+两年后，虽然进行了就职活动，但当时CG相关公司水平很高，
+
+门槛狭窄，于是放弃了。
+
+进入了一家使用C语言和汇编语言进行编程的软件开发公司。
+
+穿着西装，过着普通上班族的生活。
+
+在公司工作的同时，周末制作「Quinty」的音乐，
+
+还每周去玩当时还不是公司、只是朋友聚会的"GAME FREAK"。
+
+感觉就像是兴趣或玩耍一样（笑）
+
+那之后过了一年，1989年。「Quinty」完成。
+
+在发售Quinty之际，代表田尻成立了株式会社GAME FREAK。
+
+增田辞去了工作一年的公司，同时加入了GAME FREAK。
+
+与金钱或稳定无关，只是因为制作游戏很快乐。
+
+因为喜欢。
+
+理由仅此而已。
+
+从那时起……非常辛苦……
+
+没有休息，没有钱，住在公司……
+
+但是，没有放弃制作东西。
+
+因为，喜欢啊。
+
+然后，7年后。
+
+1996年，宝可梦 红·绿完成了。
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 「ゲームフリークに入ろうとしたきっかけを教えて下さい！」
 
@@ -90,6 +152,8 @@ C言語やアセンブラでプログラムするソフトウェア開発会社�
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,65 @@ gf_entry_title: 誕生日のときの写真がケーキだけだったので、�
 gf_archive: 2008-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第121回
   url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-121
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+生日时的照片只有蛋糕，所以……补一张。
+
+蜡烛点上了灯。
+
+蛋糕和星巴克和增田。
+
+<img src="/assets/images/gamefreak-director/archive/121/multi/123a.jpg" alt="" loading="lazy">
+
+和工作人员一起大快朵颐的增田。
+
+<img src="/assets/images/gamefreak-director/archive/121/multi/123b.jpg" alt="" loading="lazy">
+
+在旧信息上附加新信息，这个尝试！！（开玩笑的）
+
+但是……
+
+信息果然还是快一点好呢……
+
+为什么呢？
+
+因为感觉不真实？
+
+因为感觉不现场？
+
+如果是报纸，即使是旧信息也能原谅，
+
+但如果是网络，就感觉不能原谅……这也真是不可思议。
+
+啊，对了，大家12日玩《钻石·珍珠》了吗？
+
+雪的感觉不一样了吧？
+
+切锋市也变得漂亮了。
+
+全世界1月12日的天气都是一样的呢。（这就是我想做的！）
+
+啊，还有，宝可梦也比平时稍微多了一些，蛋也应该稍微活跃了一点。
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 誕生日のときの写真がケーキだけだったので、、、おまけ。
 
@@ -71,6 +118,8 @@ Webだと許せない感じが、、、これまた不思議。
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,191 @@ gf_entry_title: １２周年記念音楽企画！
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第125回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-125
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 7
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+12周年纪念音乐企划！
+
+我想一边比较过去的开场曲，一边看看至今为止音乐的变化。
+
+※仅收录乐曲的一部分。另外，包含演出效果音。敬请谅解。
+
+（1）宝可梦 红·绿·蓝
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+这是在名为Game Boy的游戏机上，
+
+音数总共4音。编成为2音矩形波、1音三角波、1音噪声。
+
+作曲是我，增田。游戏内的音乐、效果音和叫声也全部由我负责。
+
+开场曲是从战斗的印象中构思的。
+
+然后，标题曲是以怪兽为印象创作的。
+
+最初，先制作了约30首15秒左右的曲子，确认方向性。
+
+之后，完成了整体。
+
+为了营造厚重感，加入了稍重的噪声音，以进行曲风格呈现。
+
+通过逐渐改变噪声的音量，表现出小军鼓的跳跃感。
+
+（1）宝可梦 皮卡丘版
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+顽皮、淘气、可爱、生气、坦率、蓬松、电、红色脸颊，等等……
+
+以从皮卡丘感受到的印象作曲。
+
+由于画面场景切换时会发生大量数据传输，因此下功夫避免音乐变慢。
+
+（2）宝可梦 金·银
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+这也是Game Boy。
+
+虽然我创作了开场演示曲，但由我们公司的音效设计师一之濑君进行了编曲。
+
+开头的“咚——咚——”的声音，是以一切开始的钟声为印象。
+
+标题的编曲由增田负责。
+
+顺便一提，游戏内的音乐是和一之濑君一起制作的。
+
+（3）宝可梦 水晶
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+这是Game Boy Color专用软件。
+
+左右进行声像移动等，做了一些实验性的尝试。
+
+开场演示和标题由增田作曲、编曲。
+
+从这一时期开始，我正式成为总监，作曲量急剧减少。
+
+（4）宝可梦 红宝石·蓝宝石·绿宝石
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+从这里开始进入Game Boy Advance时代。
+
+4音采样波形、3音矩形波、1音噪声。
+
+（即便如此，效果音响起时BGM的声音会被消掉）
+
+这个标题音乐冲击力很强。
+
+一之濑君的编曲。哎呀，太棒了！精彩绝伦！
+
+增田只创作了战斗音乐。
+
+（5）宝可梦 火红·叶绿
+
+开场演示
+
+<p class="gf-director-spacer"></p>
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+Game Boy Advance。
+
+全部由一之濑君编曲。
+
+经过讨论，基本音保持不变，决定以追加音进行编曲的方向。
+
+（6）宝可梦 钻石·珍珠
+
+标题
+
+<p class="gf-director-spacer"></p>
+
+从这里开始是DS。
+
+可以发出任何声音了。
+
+采样、16音这种豪华规格。（不过，考虑到效果音，以10音制作）
+
+开场演示和标题曲合二为一，变得超豪华。
+
+在这里，一之濑君的编曲也大放异彩。
+
+你们能听出来吗？
+
+这是红·绿标题曲的编曲。
+
+几乎可以说是原创。厉害！
+
+游戏内的音乐由一之濑君、佐藤小姐和增田负责，
+
+我只负责战斗音乐。
+
+效果音由野原君负责。
+
+音效工作人员增加了很多。
+
+随着佐藤小姐和野原君的加入，声音的广度进一步扩展了！
+
+大家觉得如何？
+
+从开场演示和标题音乐看到的宝可梦历史。
+
+既令人怀念又充满新鲜感，让人回想起当时的情景。
+
+这也是“音乐的力量”之一吧。
+
+那么。
+
+(c)2008 Pokemon. (c)2008 Nintendo/Creatures Inc./GAME FREAK inc.
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 １２周年記念音楽企画！
 
@@ -197,6 +370,8 @@ gf_archive_id: masuda-125
 
 (c)2008 Pokemon. (c)2008 Nintendo/Creatures Inc./GAME FREAK inc.
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

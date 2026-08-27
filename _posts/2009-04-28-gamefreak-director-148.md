@@ -18,18 +18,52 @@ gf_entry_title: ２００９年４月２６日！ おかげさまでゲームフ
 gf_archive: 2009-04
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第148回
   url: https://www.gamefreak.co.jp/blog/dir/2009/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-148
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 蛮干
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+２００９年４月２６日！
+
+承蒙大家的支持，GAME FREAK 迎来了创立 20 周年！
+
+这一切都归功于一直支持我们的各位，我由衷地表示深深的感谢。
+
+谢谢大家！
+
+我们不会仅仅满足于制作者自身的自我满足，
+
+而是会始终深入思考玩家会如何感到惊喜、如何游玩、如何享受，
+
+并踏踏实实地进行“创作”。
+
+今后，我们全体员工也将团结一心，面向未来不断创造出新的游戏。
+
+请大家继续期待 GAME FREAK 的作品。
+
+增田在这 20 年里，为了创造出有趣的东西，
+
+一直不顾一切地奔跑着，
+
+今后，我也想继续这样不顾一切地奔跑下去（笑）
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２００９年４月２６日！
 
@@ -57,6 +91,8 @@ gf_archive_id: masuda-148
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

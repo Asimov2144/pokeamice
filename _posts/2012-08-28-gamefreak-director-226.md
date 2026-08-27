@@ -18,18 +18,65 @@ gf_entry_title: 新しい挑戦を！！
 gf_archive: 2012-08
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第226回
   url: https://www.gamefreak.co.jp/blog/dir/2012/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-226
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 球球屋
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+新的挑战！！
+
+在GAME FREAK，
+
+我们一直在构建能够自由进行
+充满独创性的游戏制作的组织。
+
+即便如此，要创造出新事物仍然是很困难的。
+
+于是，，，
+
+2009年，我们进一步建立了新的机制。
+
+只要三人组成团队，就可以不经审查制作游戏的机制。
+
+取消审查的原因是，
+
+即使把躲避球或篮球写成纸上的企划书，
+又能传达多少乐趣呢？
+
+正是出于这样的想法。
+
+实际制作并游玩，更有可能遇到更有趣的点子，
+而且我认为这样更容易理解。
+
+我们GAME FREAK，
+
+一直通过这样的新机制持续进行游戏制作。
+
+然后，，，
+
+不久，将会有某种结果。
+
+与宝可梦不同的GAME FREAK的新玩法！
+
+各位，敬请期待！！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 新しい挑戦を！！
 
@@ -73,6 +120,8 @@ gf_archive_id: masuda-226
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

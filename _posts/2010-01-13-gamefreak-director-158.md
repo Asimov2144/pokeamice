@@ -18,18 +18,71 @@ gf_entry_title: このコラムはいつも通勤中に携帯電話で書いて�
 gf_archive: 2010-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第158回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-158
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+这个专栏总是在通勤途中用手机写的，
+
+但一坐上电车，就会在意人们的举动。
+
+比如，现在看看周围的话……
+
+・看书的人，4人。
+
+・看报纸的人，1人。
+
+・看漫画的人，1人。
+
+・睡觉的人，2人。
+
+・玩手机的人，3人。
+
+・玩游戏的人，1人。
+
+・看车内广告的人，1人。
+
+・聊天的人，5人。
+
+・只是坐着的人，1人。
+
+大概这种感觉。
+
+大家各自随意地使用着在电车里的时间。
+
+根据时间段或电车，也根据国家，可能会有所不同吧。
+
+但只有一点是共通的。
+
+那就是随着电车的摇晃，
+
+明明是陌生人却同步地动着。
+
+如果跷二郎腿的人很多的话，
+
+光是看着那些腿……
+
+真的，这挺有意思的。
+
+大家在电车里都做些什么呢？
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 このコラムはいつも通勤中に携帯電話で書いているんですが、
 
@@ -77,6 +130,8 @@ gf_archive_id: masuda-158
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

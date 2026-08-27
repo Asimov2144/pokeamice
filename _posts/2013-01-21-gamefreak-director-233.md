@@ -19,18 +19,115 @@ gf_archive: 2013-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第233回
   url: https://www.gamefreak.co.jp/blog/dir/2013/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-233
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 关闭
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家好！
+
+2013年1月8日。
+
+日本时间20:00的发布，大家看了吗？
+
+还没看的人，请看这里！
+
+官方《宝可梦  X・Y》宣传视频（YouTube）
+
+[http://youtu.be/2MYbmIxzer8](http://youtu.be/2MYbmIxzer8)
+
+任天堂的宝可梦直面会！（可以了解宝可梦的历史！）
+
+[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)
+
+然后，海外版请看这里！
+
+[http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)
+
+[http://www.pokemon.com/pokemonxy/fr-fr](http://www.pokemon.com/pokemonxy/fr-fr)
+
+[http://www.youtube.com/watch?v=VzO6J981nAw](http://www.youtube.com/watch?v=VzO6J981nAw)
+
+然后，新闻稿在这里！！
+
+———————————————
+
+为全世界的人们同时提供可体验的“真正的游戏”。
+
+在世界各国被发现的全新宝可梦，谁都没有见过。
+
+仿佛真实存在般生动活动的宝可梦。
+
+宝可梦们展开的震撼力十足的对战。
+
+充分发挥3DS这台硬件的能力所表现的压倒性美丽。
+
+带来仿佛与全世界的人们一起游玩的感受的革新通信系统。
+
+通过加深玩家与宝可梦的羁绊，使宝可梦变得更强的全新对战机制。
+
+任何人都能享受的剧情与音乐。
+
+
+我们所追求的，
+
+是让初次游玩游戏的人，以及从以前就开始玩宝可梦的人，
+
+超越年龄、性别、国家、语言、文化，让笑容的圆圈扩展到全世界，
+
+为大家提供“真正的游戏”。
+
+
+
+宝可梦并非只封闭在游戏之中，而是让人与人相连，
+
+像节日一样，大家能一起热闹起来的游戏。
+
+正因为如此，本作实现了对我来说长久以来的梦想——“全球同步发售”。
+
+
+第六世代，进化了的《宝可梦 X》《宝可梦 Y》。
+
+
+大家所期待的“真正的游戏”就在这里。
+
+
+2013年10月。
+
+从现在就期待着能与全世界的人们一起游玩。
+
+
+Ciao！
+
+株式会社GAME FREAK董事开发本部长
+
+宝可梦 X・Y 总监 增田顺一
+
+———————————————
+
+就是这样，我担任总监了！
+
+与最棒的伙伴们一起，制作最棒的作品。
+
+大家，请期待10月的到来吧！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、こんにちは！
 
@@ -128,6 +225,8 @@ gf_archive_id: masuda-233
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

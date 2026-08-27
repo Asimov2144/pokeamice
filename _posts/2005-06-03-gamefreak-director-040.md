@@ -18,18 +18,75 @@ gf_entry_title: 最近、決まった場所や空間でどう時間を使うの�
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第40回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-040
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+最近，我对在固定的场所或空间里如何利用时间这件事很感兴趣。
+
+比如在电车里环顾四周的话……
+
+・用手机发邮件的人。
+
+・用手机玩游戏的人。
+
+・看报纸、周刊杂志的人。
+
+・看车内广告的人。
+
+・和朋友聊天的人。
+
+・在吃东西的人。
+
+・在玩游戏的人。
+
+・在听音乐的人。
+
+・发呆的人。
+
+・喝醉的人。
+
+・在看书的人。
+
+・在化妆的人。
+
+・在睡觉的人。
+
+※顺便说一下，增田我虽然会从车内广告里找灵感，或者在脑子里作曲，
+
+　　但周围的人一定觉得我是“发呆的人”吧。一定。
+
+哎呀，真的，虽然各种各样的情况都有，但果然还是手机最强。
+
+而且，是邮件。
+
+要战胜它的手段相当困难。
+
+因为这可是不分男女老少的。
+
+不过，这也只有日本是这样吧。
+
+要是法国的话，肯定完全不一样。
+
+像这样细分并梳理出来，也能看到一些东西。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 最近、決まった場所や空間でどう時間を使うのか？に興味があります。
 
@@ -81,6 +138,8 @@ gf_archive_id: masuda-040
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

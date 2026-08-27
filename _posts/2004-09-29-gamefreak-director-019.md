@@ -18,18 +18,55 @@ gf_entry_title: 好みって面白いですよね。
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第19回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-019
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+喜好这东西真是有趣呢。
+
+如果有女孩子全身用黑色或棕色来搭配，就会忍不住多看几眼。之类的。
+
+头发长的话会多看几眼。之类的。
+
+戴着帽子的话会多看几眼。之类的。
+
+戴着项圈的话会多看几眼。之类的。
+
+长裙配靴子的话会多看几眼。之类的。
+
+如果有cosplay的人，就会忍不住多看几眼。之类的。
+
+虽然都是些细节……
+
+每个人各有各的喜好。
+
+其中，当几个人聚在一起时，总会有共同的喜好，对吧。
+
+明明是陌生人，出生的环境、父母、学校都不一样……喜好却相合。
+
+我觉得这很不可思议。
+
+和很多人喜好重叠的东西、重叠的事情。
+
+重叠的人越多，就越容易映入眼帘吧。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 好みって面白いですよね。
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-019
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

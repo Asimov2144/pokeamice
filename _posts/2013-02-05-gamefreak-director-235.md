@@ -18,18 +18,90 @@ gf_entry_title: みなさん、こんにちは！
 gf_archive: 2013-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第235回
   url: https://www.gamefreak.co.jp/blog/dir/2013/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-235
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 牡丹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家好！
+
+大家玩过与《宝可梦 黑2·白2》联动的3DS下载软件
+
+《宝可梦AR搜索器》了吗？
+
+首次公开！！这就是提案书的一页！
+
+（海野总监画的女主角和传说的宝可梦也在！）
+
+↓↓↓
+
+<img src="/assets/images/gamefreak-director/archive/235/ja/130205.gif" alt="" loading="lazy">
+
+这款软件不是用精灵球捕捉宝可梦，
+
+而是利用3DS的陀螺仪功能，通过连打按钮来捕捉宝可梦的动作游戏！
+
+因此，海野总监为了从整体形象传达，画了这些图。
+
+制作《宝可梦》这样的RPG和制作这类动作游戏时，
+
+优先考虑的事情是不同的。
+
+动作游戏最重要的是操作感的舒适和可反复游玩。
+
+拿网球来说，
+
+能够舒服地挥动网球拍是最重要的。
+
+然后，和稍微强一点的人对打，逐渐进步。
+
+进步了之后，再和更强一点的人对打。
+
+就这样逐步提升玩家的操作水平。
+
+根据对手的等级平衡，决定了能否反复游玩。
+
+提高操作的优先级。
+
+为此，要保证处理不延迟，
+
+编程时要让操作舒适。
+
+需要减少视觉处理等功夫。
+
+怎样制作才能让人感到舒适呢？
+
+反复钻研，一个一个地制作出来。
+
+就这样完成的《宝可梦AR搜索器》！！！
+
+还没玩过的朋友，请一定要试试看哦！
+
+[http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)
+
+[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)
+
+[http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)
+
+[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、こんにちは！
 
@@ -95,6 +167,8 @@ gf_archive_id: masuda-235
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,79 @@ gf_archive: 2012-04
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第225回
   url: https://www.gamefreak.co.jp/blog/dir/2012/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-225
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+『宝可梦 黑２・白２』的发售日确定为
+
+６月２３日（周六），预约也已开始！！！
+
+这是 DS 的软件，但也可以用 3DS 游玩！！
+
+而且，虽然标题是「２」，
+
+没有玩过前作『宝可梦 黑・白』的人，
+
+第一次玩宝可梦的人，
+
+当然，也能享受到乐趣！
+
+这次，我向担任导演的海野君询问了
+
+「玩过黑版的人推荐哪个版本？」这个
+
+在我的推特上也收到很多的问题，
+
+他说：「玩过黑版的人，
+
+　玩黑２的话能感受到其中的差异，所以推荐！！」
+
+不过，
+
+「两个版本都能享受，所以都推荐哦！」
+
+也这么说（笑）
+
+这次，根据预约的店铺不同，特典也会有所不同，
+
+在意的人请查看经销店！
+
+[http://www.pokemon.co.jp/ex/b2w2_reserve/](http://www.pokemon.co.jp/ex/b2w2_reserve/)
+
+啊，顺便说一下，在宝可梦中心同时预约两套的话，
+
+会附赠 GAME FREAK 的井部先生绘制的插图哦。
+
+工作人员全力创作的，
+
+「宝可梦 黑２・白２」
+
+很快就能送到大家手中！！
+
+敬请期待！！
+
+Ciao！
+
+「宝可梦 黑２・白２」官方网站
+
+[http://www.pokemon.co.jp/ex/b2w2/?a001=msign](http://www.pokemon.co.jp/ex/b2w2/?a001=msign)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 『ポケットモンスターブラック２・ホワイト２』の発売日が
 
@@ -88,6 +149,8 @@ gf_archive_id: masuda-225
 
 [http://www.pokemon.co.jp/ex/b2w2/?a001=msign](http://www.pokemon.co.jp/ex/b2w2/?a001=msign)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

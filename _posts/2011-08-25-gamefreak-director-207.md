@@ -18,18 +18,112 @@ gf_entry_title: ついに！！！！
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第207回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-207
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 5
+glossary_missing_targets:
+- 双倍奉还
+- 牡丹
+- 阿蜜
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+终于！！！
+
+Facebook的「赞」按钮终于出现在增田的专栏上了！！
+
+为了纪念这件事，公开黑白版本差异的素材！！
+
+来自增田开发时的资料。
+
+—–从这里开始—–
+
+Ｃ５ (*1)
+
+・白版是出口。
+
+　在市场上销售当季蔬菜。
+
+　为了改变市场的销售柜台，准备了4张室内地图。（用当季蔬菜的颜色来表现）
+
+　有人说，进口的话，一定会出现便利的街道。（与黑白版本同步）
+
+※当季蔬菜主要通过色彩来表现。
+
+　　例）春：油菜花、芦笋。
+
+　　　　夏：茄子、西葫芦、番茄。
+
+　　　　秋：栗子、南瓜。
+
+　　　　冬：芹菜、橘子、抱子甘蓝。
+
+・黑版是进口。
+
+　在市场上，无论哪个季节的东西都便宜出售。（任何时候都有任何东西）
+
+　市场上出售各种颜色的蔬菜。颜色混杂。地图1张。
+
+　有人说，出口的话，一定会出现悠闲重视季节的街道。（与黑白版本同步）
+
+Ｃ６ (*2)
+
+・白版有田地。
+
+　顺应自然。有时会被宝可梦吃掉。（允许这样做）
+
+　季节有冬（土）、春（芽）、夏（花）、秋（实）的循环。
+
+　根据野外季节变化，地图有4张。
+
+・黑版则排列着黑色的温室。
+
+　季节、气温、营养等，全部进行管理。蔬菜管理系统。
+
+　因为人带有细菌，所以不能进入。
+
+　地图1张。
+
+—–到这里结束—–
+
+就是这样。
+
+(*1) Ｃ５ : 帆巴市
+
+(*2) Ｃ６ : 吹寄市
+
+※不是最终规格，可能与实际商品有所不同。
+
+一个一个地添加想法。
+
+通过在突然出现的想法上叠加想法，
+
+我认为会更有深度和说服力。
+
+关于地图的事情等等……
+
+虽然细节很多……
+
+这项工作，真的很重要。
+
+啊……大家可能忘了，
+
+「赞」可以随便按！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ついに！！！！
 
@@ -115,6 +209,8 @@ Facebookの「いいね！」ボタンがマスダのコラムに付きました
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

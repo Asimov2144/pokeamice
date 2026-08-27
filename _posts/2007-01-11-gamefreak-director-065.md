@@ -18,18 +18,51 @@ gf_entry_title: 明けましておめでとうございます。 本年もよろ
 gf_archive: 2007-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第65回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-065
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+新年快乐。
+
+今年也请多多关照。
+
+2007年也要不断挑战各种事情！
+
+然后，
+
+希望GAME FREAK能成为游戏开发的发信基地，
+
+为许多想“在游戏行业工作！”的人
+
+投入力量。我是这么想的。
+
+那么，这个专栏，
+
+差不多该以钻石、珍珠为话题
+
+写点东西了吧，我在考虑。
+
+今年也请来看哦！
+
+请多多关照。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 明けましておめでとうございます。
 
@@ -57,6 +90,8 @@ gf_archive_id: masuda-065
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

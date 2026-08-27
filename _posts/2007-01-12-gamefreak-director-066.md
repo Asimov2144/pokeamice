@@ -18,18 +18,57 @@ gf_entry_title: いやー、１年って早いものですね。 今日は増田
 gf_archive: 2007-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第66回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-066
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+哎呀，一年过得真快啊。
+
+今天是增田的生日。居然39岁了！
+
+自己都觉得吃惊。
+
+到现在还在想，得再成熟一点，得冷静下来，得学习什么的。
+
+最不了解自己的人就是自己，
+
+所以不给自己设限，
+
+今后也要全速前进！
+
+话说回来……
+
+这样制作游戏，感觉年龄和作品数量不太相称。
+
+作品数量意外地少！
+
+不过，正因为如此，对每一部作品的感情都很深……是因为制作周期长吧。
+
+即便如此，也要克服这些，尝试新事物和有趣的事情！
+
+来吧，我还要继续大干一场！
+
+※明天13日（周六）发售的月刊《King》杂志上，刊登了增田和GF工作人员的照片。
+
+　请务必买来读一读。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 いやー、１年って早いものですね。
 
@@ -65,6 +104,8 @@ gf_archive_id: masuda-066
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

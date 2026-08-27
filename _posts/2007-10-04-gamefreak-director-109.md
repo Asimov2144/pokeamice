@@ -18,18 +18,78 @@ gf_entry_title: 昔から音楽は大好きで、今でも本当に様々なジ�
 gf_archive: 2007-10
 gf_categories:
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第109回
   url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-109
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 大钳蟹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+从很久以前就非常喜欢音乐，至今也真的在听各种类型的音乐。
+
+古典乐方面，有斯特拉文斯基、肖斯塔科维奇。
+
+明明高中时在吹奏乐团里吹过长号，却一直对古典音乐没什么兴趣。
+
+自从听了斯特拉文斯基的《春之祭》《火鸟》和
+
+肖斯塔科维奇的《第五交响曲》《第七交响曲》之后……
+
+竟然到了收集他们的作品、读他们的自传、甚至买乐谱的地步。
+
+真的，太厉害了。太棒了。太酷了。
+
+对作曲的学习也很有帮助。
+
+摇滚乐方面，有林肯公园、活结。
+
+总之很酷，嘶吼型的主唱和面具也很GOOD！
+
+无论是声音的组合，还是DJ、吉他音色、打击乐器等，
+
+我觉得都是既充满力量又精心制作的声音。
+
+电子乐方面，有Underworld、The Prodigy。
+
+真的，喜欢得不得了！
+
+又酷，节奏也超棒！让人忍不住想跳舞！？
+
+作为合成器的使用方法，能超越他们的人恐怕也不多吧。
+
+俱乐部音乐方面，我最喜欢Gabber和鹿特丹系。
+
+说起来更像是噪音系、硬核的感觉。
+
+这也是，无法想象的声音。被破坏的声音。被压碎的声音。无法想象的构成。无法想象的速度。
+
+说是为了让人跳舞、为了炒热气氛而诞生的音乐也不为过吧。
+
+哎呀呀……真酷。
+
+然后……
+
+写到这里我发现了……
+
+到头来，我喜欢的还是「酷的东西」啊。增田。
+
+原来如此……明白了。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 昔から音楽は大好きで、今でも本当に様々なジャンルの音楽を聴いています。
 
@@ -83,6 +143,8 @@ gf_archive_id: masuda-109
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

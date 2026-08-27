@@ -19,18 +19,64 @@ gf_entry_title: いま、ポケモン１０周年の記念で「ポケモンは�
 gf_archive: 2006-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第61回
   url: https://www.gamefreak.co.jp/blog/dir/2006/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-061
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 大钳蟹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+现在，为纪念宝可梦10周年，正在举办“宝可梦快乐生日音乐会”。
+
+这是面向宝可梦爱好者俱乐部、俱乐部任天堂的各位，
+
+通过抽选进行邀请的，但是……
+
+哎呀，音乐会真好啊。
+
+在很难有机会与大家见面的情况下，
+
+希望通过这场音乐会，哪怕能为大家做点什么也好。
+
+与日常开发完全不同，虽然有很多困惑的地方，
+
+但到目前为止，我乐在其中！
+
+从10月28日（周六）的东京开始，
+
+11月5日（周日）九州，
+
+12日（周日）兵库，目前已在3个地方举办，都非常成功，
+
+从舞台上看到观众们开心的样子，比什么都令人高兴。
+
+真的非常感谢。
+
+由管弦乐团演奏的游戏音乐。
+
+相信大家能充分享受音乐的美妙、乐趣、压倒性的震撼力等音乐的力量。
+
+最后是北海道。
+
+绝对会很有趣，所以持有门票的各位，
+
+请务必光临！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 いま、ポケモン１０周年の記念で「ポケモンはっぴーバースデーコンサート」をやってます。
 
@@ -70,6 +116,8 @@ gf_archive_id: masuda-061
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

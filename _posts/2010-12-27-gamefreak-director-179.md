@@ -18,18 +18,79 @@ gf_entry_title: みなさん
 gf_archive: 2010-12
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第179回
   url: https://www.gamefreak.co.jp/blog/dir/2010/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-179
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家好
+
+已经是12月27日了呢。。。
+
+转眼间2010年也要结束了。
+
+今年，2010年我们顺利发售了《黑·白》。
+
+这也多亏了支持我们的各位。
+
+真的非常感谢。
+
+然后，
+
+在PGL上给大家添了不少麻烦。
+
+似乎每4人中就有1人在玩。。。
+
+在日本有这么多人在玩。。。
+
+对不起。。。这远远超出了我的预期。。。
+
+真的很抱歉。
+
+我们会一点点改进，请大家不要气馁，继续陪伴我们。
+
+恳请多多关照。
+
+近况报告等等。。。
+
+前几天，我去了大阪宝可梦中心。
+
+那里公开了开发时的插画和创意。
+
+还有增田的羞耻插画（？）！
+
+[http://www.pokemon.co.jp/gp/pokecen/osaka/](http://www.pokemon.co.jp/gp/pokecen/osaka/)
+
+现在发售中的杂志《达·芬奇》12月6日发售号，第132页有增田登场！
+
+面向成人的。
+
+另外，在《CoroCoro G》冬季号中，也和翔子一起出现了。
+
+我们进行了对战。虽然输了（笑）
+
+两本都感觉不错。
+
+还有，任天堂的社长询问的别企划“女大学生询问”中也有登场。
+
+[http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html](http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html)
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん
 
@@ -85,6 +146,8 @@ PGLでは何かとご迷惑をお掛けしています。
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

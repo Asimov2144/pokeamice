@@ -18,18 +18,71 @@ gf_entry_title: こんにちは！増田＠ラスベガスです！
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第112回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-112
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家好！我是増田＠拉斯维加斯！
+
+现在，这里是２０：４０！！
+
+因为时差反应非常困，但是，，，，
+
+强行睁开那困倦的眼睛，
+
+老虎机！！！！！
+
+内华达州的这个叫拉斯维加斯的地方，
+
+是彻底让人玩乐的地方。
+
+从酒店的前台到去房间的电梯，
+
+必须经过赌场区域！
+
+当然，完全没有时钟！
+
+酒店的电梯里，不是表示大厅的L，而是C的赌场标志！
+
+等等等等，，，
+
+为了让人玩，不遗余力。厉害！
+
+正是这种彻底，构成了这个拉斯维加斯。
+
+作为花钱赌博意义上的“玩乐”，需要考虑善恶，
+
+但这种机关和机制，真的很值得学习。
+
+老虎机也是程序，扑克也是程序。
+
+运营、积分、返还等，用尽一切手段，让人不腻，
+
+不让人输。
+
+“运气”这种一発逆转，大概是这个世界上必要的要素吧，
+
+从这个意义上说，赌博要在理解了这个陷阱之后再玩。
+
+明天，４：００起床！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 こんにちは！増田＠ラスベガスです！
 
@@ -79,6 +132,8 @@ gf_archive_id: masuda-112
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,61 @@ gf_entry_title: ゲームフリークが贈る爽快アクションゲーム 「
 gf_archive: 2005-05
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第38回
   url: https://www.gamefreak.co.jp/blog/dir/2005/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-038
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+GAME FREAK 献上的爽快动作游戏
+
+「スクリューブレイカー」发表了！！
+
+[screwbreaker.com](http://www.screwbreaker.com/) 也已开放，请务必去看看！
+
+发售后，这个网站也会不断更新。
+
+哎呀，久违地……
+
+开发了宝可梦以外的作品。
+
+虽然非常困难，但创造新风、新浪潮
+
+是很重要的事，我是这么想的。
+
+「スクリューブレイカー」正在挑战新事物。
+
+顺便一提，这款游戏
+
+由杉森先生担任总监，角色设计由吉田君负责。
+
+原本 GAME FREAK 就擅长昆蒂和帕尔斯曼等
+
+动作游戏的开发，所以可以放心推荐。
+
+而且，凭借宝可梦之后积累的经验，
+
+我认为这款游戏作为动作游戏来说，也相当容易上手。
+
+无论在哪个意义上，都是一部可以向各种人推荐的作品，
+
+敬请期待！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ゲームフリークが贈る爽快アクションゲーム
 
@@ -67,6 +110,8 @@ gf_archive_id: masuda-038
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

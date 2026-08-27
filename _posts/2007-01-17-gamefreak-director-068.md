@@ -18,18 +18,22 @@ gf_entry_title: 前回の話にも出ましたが、 ３Dというのは非常�
 gf_archive: 2007-01
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第68回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-068
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 前回の話にも出ましたが、
 
@@ -67,6 +71,47 @@ gf_archive_id: masuda-068
 
 では。
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+前回の話にも出ましたが、
+
+３Dというのは非常にニュアンスが難しく、
+
+それでいて非常に複雑です。
+
+ただし、一度形作ると応用が利きますけどけどね。
+
+ダイヤモンド、パールのフィールドで
+
+気持ちよさを高めるため、
+
+階段など高さがある場所で、あることをしています。
+
+さあ、何でしょう？
+
+そのときだけ、ある機能が働いています。
+
+それは、、、
+
+主人公に対して画面が少し遅れるようにしているんです。
+
+実際には画面の中で主人公が少しだけ先走っているように見えます。
+
+これによって、かっちりした画面ではなく柔らかい感じを表現して
+
+気持ちよさを高めています。
+
+階段などで上下すると分かると思います。
+
+本当にちょっとしたことではありますが、
+
+こういった細かい積み重ねで、あの画面ができているのです。
+
+では。
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

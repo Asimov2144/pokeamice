@@ -19,18 +19,221 @@ gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第205回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-205
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+世界锦标赛2011情报——！
+
+13日开幕式当天。
+
+早上7点，会场里已经开始了彩排。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205a.jpg" alt="" loading="lazy">
+
+大家所追求的，世界第一！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205b.jpg" alt="" loading="lazy">
+
+卡牌游戏开始！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205c.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205d.jpg" alt="" loading="lazy">
+
+电子游戏开始！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205e.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205f.jpg" alt="" loading="lazy">
+
+这段时间，增田我又是彩排，又是正式演出，
+
+又是签名会，又在颁奖仪式上登台……
+
+却没有自己的照片（笑）
+
+然后是闭幕式。
+
+从台上一下来，就立刻拍照！拍照！（汗）
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205g.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205h.jpg" alt="" loading="lazy">
+
+各位，谢谢你们能来！
+
+还有，世界冠军！恭喜！！
+
+各位，真是精彩的战斗！
+
+还有，拿到第二名的人，也努力了！！
+
+大家，真的非常感谢！！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205i.jpg" alt="" loading="lazy">
+
+哎呀，今年的圣迭戈也很厉害！
+
+气氛非常热烈！
+
+每次看到这样的活动，我都会想。
+
+如果只在公司内部制作游戏，就看不到玩家的面孔。
+
+就像艺术家只制作网络和CD这样的内容，却不举办展览会或演唱会一样。
+
+那样的话，果然还是不够。
+
+看不到顾客的面孔。看不到他们对什么有反应。
+
+也许有人说看不到也没关系，
+
+但那就像在餐厅里不考虑顾客，
+
+只做老板自己喜欢的东西一样。自我满足。
+
+那样的话，是不可能让众多顾客满意的。
+
+像这样在活动中接触玩家，
+
+看到他们的游玩方式并思考未来，
+
+就能获得巨大的能量。
+
+会涌起想要创作出更好更好的东西的心情。
+
+就这样，一边感受着这些……一边重新振作精神时，
+
+圣迭戈的夜晚，将我们包围了。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205j.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205k.jpg" alt="" loading="lazy">
+
+第二天。自由活动！
+
+于是，首先……
+
+中途岛号博物馆。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205l.jpg" alt="" loading="lazy">
+
+把军舰直接改造成博物馆……这个想法真厉害……
+
+可以用耳机听日语导览。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205m.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205n.jpg" alt="" loading="lazy">
+
+门的构造也很厉害。绝对是为了不让敌人进来？？
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205o.jpg" alt="" loading="lazy">
+
+午餐是……最喜欢的螃蟹！！乔氏螃蟹馆真好吃！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205p.jpg" alt="" loading="lazy">
+
+然后，又去了每次必去的海洋世界。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205q.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205r.jpg" alt="" loading="lazy">
+
+虎鲸，好大！！和人一比就能感受到那个大小了。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205s.jpg" alt="" loading="lazy">
+
+这里的虎鲸们昵称叫“沙姆”。
+
+大家一起喊“沙姆”！
+
+然后，竟然！！
+
+看美国职棒大联盟！！
+
+在PETCO PARK（球场）看教士队对大都会队！！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205t.jpg" alt="" loading="lazy">
+
+作为对决，是圣迭戈对纽约！！
+
+这样的话，果然还是要给教士队加油吧！
+
+这是三垒大都会队那边。虽然座位在这里，但马上转移！
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205u.jpg" alt="" loading="lazy">
+
+从一垒教士队那边的外野观看！！冲啊！教士队！！
+
+最远的地方还有草坪和巨大的屏幕！
+
+这样就能像在家一样悠闲地观战了。
+
+<img src="/assets/images/gamefreak-director/archive/205/multi/205v.jpg" alt="" loading="lazy">
+
+就是这样气氛热烈的教士队对大都会队之战。
+
+一开始被大都会队得了3分，心想哎呀？
+
+但中途逆转，变成了4比4。
+
+“加油啊！”的声援也落空了，最后在延长赛中输掉了。
+
+教士队……
+
+哎呀，比预想的还要开心。
+
+有趣的点是……
+
+没有铁丝网！球会飞到很近的地方。（受伤了要自己负责？）
+
+界外球的时候能拿到球。
+
+不是音乐助威，而是观众的声音助威。
+
+大声援！人浪也很厉害！
+
+不去看看就不知道的事情，
+
+真的有很多呢。
+
+就这样，尽情享受了精彩的世锦赛和圣迭戈，
+
+回到了日本！
+
+明年，请一定要挑战WCS哦！
+
+WCS2011的网站在这里。
+
+[http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)
+
+WCS的各种照片在这里。MTM和签名会也都有！
+
+[http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)
+
+WCS的各种影像在这里。还有开幕视频哦！
+
+[http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
+
+再见！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ワールドチャンピオンシップス2011情報ーー！
 
@@ -228,6 +431,8 @@ WCSの様々な映像はこちらから。キックオフビデオもあるよ�
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

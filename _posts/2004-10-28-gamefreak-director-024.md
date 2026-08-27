@@ -18,18 +18,65 @@ gf_entry_title: ホウエン地方のルネシティにいる、キリちゃん�
 gf_archive: 2004-10
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第24回
   url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-024
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 5
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+丰缘地区琉璃市里的，小桐。
+
+我写了那条留言。
+
+送树果的留言，几乎都是我写的，
+
+不过，那个，小桐是特别的。
+
+是在开发接近尾声时，偷偷加进去的。
+
+其实……
+
+“桐”是我女儿的名字，九月出生。
+
+所以，也带着心愿，写下了那条留言。
+
+当时《红宝石》《蓝宝石》基本完成，主要在做调试工作，
+
+但还是有很多需要决定的事情，
+
+在我妻子拼命生女儿的时候（陪产），手机邮件来了，
+
+“关于这个，这样规格可以吗？”
+
+这种感觉。
+
+从各种意义上说，都是充满紧张感的经历。
+
+明明希望送到，却送不到。或者，
+
+明明不用送到，却送到了。
+
+这种事情，很有意思吧。
+
+P.S. 时间过得真快，女儿也两岁了。
+
+　　也就是说，《红宝石》《蓝宝石》也两岁了。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ホウエン地方のルネシティにいる、キリちゃん。
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-024
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

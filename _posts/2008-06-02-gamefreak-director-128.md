@@ -19,18 +19,63 @@ gf_archive: 2008-06
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第128回
   url: https://www.gamefreak.co.jp/blog/dir/2008/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-128
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+祝！电视游戏日美大会决定举办！
+
+其名为，
+
+Pokemon VIDEO GAME SHOWDOWN 2008！
+
+决战地点是美国佛罗里达州的奥兰多！
+
+使用软件是钻石·珍珠。
+
+日本代表对战者，是去年在日本冠军决定战中交手的上位选手们。
+
+而在美国，现在正在招募参加者。
+
+官网在这里！
+
+[http://showdown.pokemon.com](http://showdown.pokemon.com)
+
+视频超酷！
+
+而且到正式比赛为止的倒计时，也已经开始了！
+
+好激动啊。
+
+美国的各位，请务必参加！！
+
+※如果能来参加预选（洛杉矶或纽约）和正式比赛的话，不论哪个国家的人都可以！
+
+这样一来，增田的又一个梦想实现了！
+
+当然，增田也预定去奥兰多！
+
+非常期待！
+
+2008年，最强的训练师是谁！？
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 祝！テレビゲーム日米大会開催決定！
 
@@ -70,6 +115,8 @@ HPはここ！
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

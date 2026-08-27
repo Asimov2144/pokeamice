@@ -19,18 +19,57 @@ gf_archive: 2012-12
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第230回
   url: https://www.gamefreak.co.jp/blog/dir/2012/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-230
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 礼物
+- 手下
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日，在推特上也发表了，
+
+等离子团正在四处压制，
+
+看起来很有趣，所以增田也加入了等离子团！
+
+证据照片在这里！（笑）
+
+<img src="/assets/images/gamefreak-director/archive/230/multi/1.jpg" alt="" loading="lazy">
+
+是小卒！！
+
+然后，，竟然！！
+
+原定于明年春天进行的代欧奇希斯的赠送，
+
+将在12月15日（周六）起的等离子团压制活动会场等处
+
+提前实施！！
+
+详情请从这里查看！
+
+[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
+
+请注意亲名（笑）！
+
+大家，请来活动会场哦！
+
+普拉兹玛—！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、ツイッターでも発表しましたが、
 
@@ -62,6 +101,8 @@ gf_archive_id: masuda-230
 
 プラーズマー！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

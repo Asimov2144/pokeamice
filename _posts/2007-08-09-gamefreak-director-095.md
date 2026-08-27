@@ -19,18 +19,81 @@ gf_archive: 2007-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第95回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-095
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+8月7日（周二）在东京国际论坛举行的
+
+「皮卡丘·现场秀」我去看了！
+
+虽然是16点的那场，但人超多！吓了一跳！
+
+听着宫崎先生指挥的BGM，感到怀念，
+
+因为中川翔子小姐而开心地进入了宝可梦星期天的气氛，
+
+在「目标是宝可梦大师」时差点哭出来，
+
+看到路卡利欧的波导中隐约出现的初代三只，大家一起喊「波加曼————！！！」
+
+因为格林先生而笑，
+
+被林明日香小姐的基拉祈感动，
+
+被Sowelu小姐的玛纳霏模仿逗乐，
+
+跟着あきよしふみえ小姐的《Together》
+
+做了「咕！咕！微——笑——！」的动作，等等！
+
+超享受的！太开心了———！！！
+
+哎呀……
+
+真是一场非常精彩的演唱会！
+
+能看到这样的演唱会，真的感激、感动。
+
+这次是电影10周年纪念企划，
+
+但总觉得，真想每年都看这样的演唱会啊……
+
+虽然明白这并不容易……但说实话就是这么想的。好到那种程度。
+
+然后，当然！
+
+来场的各位，支持我们的各位，
+
+谢谢你们！
+
+感觉从大家那里得到了很多能量！
+
+还有，回去的时候也见到了支持增田的各位！
+
+能见到大家非常开心！
+
+非常感谢！！！
+
+那么。
+
+<img src="/assets/images/gamefreak-director/archive/095/multi/dscf0003.thumbnail.JPG" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ８月７日（火）に東京国際フォーラムで行われた、
 
@@ -88,6 +151,8 @@ Soweluさんのマナフィモノマネでウケたり、
 
 <img src="/assets/images/gamefreak-director/archive/095/multi/dscf0003.thumbnail.JPG" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

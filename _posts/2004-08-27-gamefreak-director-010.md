@@ -19,18 +19,66 @@ gf_archive: 2004-08
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第10回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-010
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets:
+- 牡丹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+稍微，说点细节的话题。
+
+在红宝石、蓝宝石以及火红、叶绿中也是这样的，
+
+当主人公撞到墙壁时，
+
+会以比通常走路速度更慢的速度前进。
+
+是会前进的。
+
+虽然可能有各种各样的制作方法……
+
+增田认为，
+
+玩家按下了十字键，既然有输入，
+
+就想要有输入的反应。
+
+因此，
+
+撞到墙壁时，不是停止走路，
+
+而是以一半的速度，“试图前进”。
+
+但是，因为并不能真的前进，
+
+所以作为“无法前进”的通知，用效果音发出“噗”的声音。
+
+嗯，真的因人而异，可能有各种各样的制作方法，
+
+但如何在意，如何应对呢？
+
+这也是制作游戏时令人愉快的地方。
+
+也许这是细小琐碎的事情，
+
+但我认为非常重要。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ちょっと、細かい話でも。
 
@@ -72,6 +120,8 @@ gf_archive_id: masuda-010
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

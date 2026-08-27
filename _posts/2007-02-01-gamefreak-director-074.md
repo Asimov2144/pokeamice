@@ -20,18 +20,80 @@ gf_archive: 2007-02
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第74回
   url: https://www.gamefreak.co.jp/blog/dir/2007/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-074
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 牡丹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+这次，我们第一次在DS上进行开发，
+
+在至今为止的Game Boy Advance这个硬件上，
+
+操作是由十字键、A、B、L、R键构成的。
+
+如何改变这个操作体系，或者不改变它。
+
+从开发初期开始就非常难以决定，
+
+是直到最后都让我们烦恼的重大问题。
+
+从场地菜单开始，我们尝试了让几乎所有选择指令
+
+都能在下屏通过触摸操作。
+
+也实验了通过触摸整理箱子的机制。
+
+当然，每个人的用法各不相同。
+
+其中问题最少的就是什么都不改变。不改变。
+
+如果不改变至今为止的操作体系，那么现有的用户已经习惯了。
+
+但是，考虑到新玩家的感受，就不是那么回事了。
+
+因此，我们追求适合DS这个硬件、适合当今时代、适合新用户，
+
+最重要的是适合现有用户感觉的变化。
+
+而且，因为是新事物，我们也没有让操作变得繁琐。
+
+习惯了之后的操作性、趣味性、易用性等，
+
+哪一个才是真正好的，我们逐一细致地进行了探讨和判断。
+
+然后，在考虑整体平衡的同时，决定了什么是好的。
+
+追求得到多数人赞同的变化和新意。
+
+不断追求新事物的精神，这是非常重要的。
+
+同时，也需要不改变的勇气。
+
+让什么可以触摸操作，在场地和战斗中通用的包包如何处理，
+
+改变了什么，又没改变什么。
+
+答案就是《钻石》《珍珠》。
+
+※1月28日（周日）的《宝可梦星期天》中，GAME FREAK又出镜了哦！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今回、初めてDSで開発することになったわけですが、
 
@@ -87,6 +149,8 @@ gf_archive_id: masuda-074
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,67 @@ gf_archive: 2011-06
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第195回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-195
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位，有一个好消息要告诉大家！
+
+从东京的银座线，青山一丁目站下车后步行。
+
+<img src="/assets/images/gamefreak-director/archive/195/ja/195a.jpg" alt="" loading="lazy">
+
+那里是明治纪念馆。
+
+<img src="/assets/images/gamefreak-director/archive/195/ja/195b.jpg" alt="" loading="lazy">
+
+没错，在第16届AMD Award中，
+
+我们被选为年度内容奖「优秀奖」的9部作品之一，
+
+并且，还获得了AMD理事长奖！！
+
+<img src="/assets/images/gamefreak-director/archive/195/ja/195c.jpg" alt="" loading="lazy">
+
+在电影、影像、软件、互联网、AKB48等
+
+非常广泛的领域中，能够获得优秀奖和AMD理事长奖，
+
+真的感到非常高兴。
+
+我增田代表大家领取了两个奖项，
+
+这是全体工作人员共同努力的证明。
+
+开发团队的各位，你们的努力真的没有白费！恭喜！
+
+当然，获奖也离不开支持我们作品的各位。
+
+真的非常感谢！
+
+最前排，左数第3位是增田。眼神有点凶。。。
+
+[http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)
+
+[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさまへ、嬉しいご報告です！
 
@@ -74,6 +123,8 @@ gf_archive_id: masuda-195
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

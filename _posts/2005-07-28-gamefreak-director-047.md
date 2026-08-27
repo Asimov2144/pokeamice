@@ -19,18 +19,62 @@ gf_entry_title: 発売中のコロコロコミック８月号にも載ってい�
 gf_archive: 2005-07
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第47回
   url: https://www.gamefreak.co.jp/blog/dir/2005/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-047
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+发售中的《CoroCoro Comic》8月号上也刊登了，
+
+在《宝可梦 钻石＆珍珠》中，
+
+可以与Game Boy Advance用的软件，
+《红宝石＆蓝宝石》、《火红＆叶绿》、《绿宝石》
+这5款软件连接。
+
+是的。
+
+可以把在GBA软件中培育的宝可梦带到DS上。
+
+现在，我正在慎重而大胆地考虑这个带过去的机制，
+但真的很难。
+
+形象或者说方向性，很早以前就已经成形了，
+但整体的平衡很难。
+
+具体来说……
+
+考虑到游戏性，方向是尽量长时间、愉快地带过去，
+考虑到欲望，瞬间带过去更令人高兴。
+
+也就是说，游戏性和欲望的平衡很难。
+
+在这种情况下，最好的形式是，在让游戏性成立并游玩（玩过）之后，
+满足欲望，
+但能把玩家的欲望拉长到多长？能等多久？
+
+这个点的把握真的很难。
+
+因为无论什么，平衡都很重要。
+
+总之，我想从容地考虑，做出最高、最强、最好的形式。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 発売中のコロコロコミック８月号にも載っていますが、
 
@@ -76,6 +120,8 @@ GBAソフトで育てたポケモン達を、DSに連れて行けるんです。
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

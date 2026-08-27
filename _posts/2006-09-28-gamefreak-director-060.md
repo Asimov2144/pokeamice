@@ -18,18 +18,57 @@ gf_entry_title: 長らくお待たせ致しました。
 gf_archive: 2006-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第60回
   url: https://www.gamefreak.co.jp/blog/dir/2006/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-060
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+让大家久等了。
+
+今天，2006年9月28日，星期四
+
+《宝可梦 钻石》
+
+《宝可梦 珍珠》
+
+终于发售了！！
+
+今天早上，我去看了从7点45分开始在新宿高岛屋举行的活动，
+
+从昨晚开始通宵排队，或者从凌晨4点就开始排队，
+
+有这么多人在排队……真的，非常感动。
+
+能看到玩游戏的玩家的面孔，
+
+哎呀，果然还是很开心！
+
+总之！
+
+请尽情地、慢慢地去玩吧。
+
+我想你们会发现各种各样的玩法。
+
+然后，也请务必尝试一下WiFi功能哦。
+
+那么！
+
+Let's Play！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 長らくお待たせ致しました。
 
@@ -63,6 +102,8 @@ gf_archive_id: masuda-060
 
 レッツ　プレイ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

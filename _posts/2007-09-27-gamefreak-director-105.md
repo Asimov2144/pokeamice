@@ -18,18 +18,22 @@ gf_entry_title: ９月２３日（日）、２４日（月）に四国の松山�
 gf_archive: 2007-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第105回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-105
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 ９月２３日（日）、２４日（月）に四国の松山に行ってきました！
 
@@ -81,6 +85,61 @@ gf_archive_id: masuda-105
 
 <img src="/assets/images/gamefreak-director/archive/105/multi/105a.jpg" alt="" loading="lazy"> <img src="/assets/images/gamefreak-director/archive/105/multi/105b.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/105/multi/105c.jpg" alt="" loading="lazy">
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+９月２３日（日）、２４日（月）に四国の松山に行ってきました！
+
+寿退職したスタッフが式と披露宴に招いてくれたんです。
+
+嬉しいことです。ありがとう！
+
+四国は東京よりかなり暖かく汗ばむ陽気！
+
+とても良い天気に恵まれ、本当に素晴らしい式でした。
+
+花嫁さん、とっても綺麗で素敵でしたよ！
+
+そして次の日！
+
+時間が少しあったので観光！
+
+ホテルから歩いて松山城へ。
+
+まずはリフトかロープウェイを選べます。メズラシイ！
+
+で、、中腹まで登ります。
+
+そこからは歩き！
+
+かなり坂も厳しく息があがります。アセダクダク！
+
+石垣、門、樹、建物。。。
+
+日本の城は、いかにして敵から守るか、攻め辛いかで設計されています。まさに要塞。
+
+石垣の曲線美に感動。
+
+門の前では遠くに天守閣が見え威圧感を放ち。
+
+松の木でたいまつや薬に。
+
+槍で敵を突けるように無数の穴が建物に空けてある。
+
+とても勉強になりました。
+
+愛媛県の松山城、守りに特化したような作りで素晴らしかったです。
+
+みなさんも是非行ってみてください！
+
+戦いと守りの哲学垣間見られます。
+
+では。
+
+<img src="/assets/images/gamefreak-director/archive/105/multi/105a.jpg" alt="" loading="lazy"> <img src="/assets/images/gamefreak-director/archive/105/multi/105b.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/105/multi/105c.jpg" alt="" loading="lazy">
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

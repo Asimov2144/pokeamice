@@ -18,18 +18,93 @@ gf_entry_title: 普段見ているモノ、当たり前だと感じること そ
 gf_archive: 2005-06
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第44回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-044
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+平时看到的东西、觉得理所当然的事情
+
+它们大多都有某种观念在起作用，
+
+并牢牢地固定在大脑中。
+
+它们仿佛顽固地坚守着那个位置，
+
+给我们留下强烈的印象。
+
+冰箱、空调、电的存在。电视画面、键盘的形状。
+
+手机、文字字体、语言、表情符号等的形状。
+
+汽车和方向盘的形状。去电影院、买票、黑暗。
+
+买票、乘电车的行为步骤。
+
+政治、经济、社会、文化的形态。各自的规则。常识。
+
+地球的自转、星星的形状、心形。
+
+我们可以理所当然地想象出那些事物。
+
+不如说，可怕地，能够做到。
+
+它们全部都被固定在大脑中。
+
+固定观念。
+
+是的，游戏制作的基础始于打破这些固定观念。
+
+因为，在内容中没有任何束缚。
+
+如何创造世界，如何展示，都是自由的。
+
+所以，如果你想变成鸟在世界上飞翔，那也可以，
+
+走在过去的世界，或者骑着未来型摩托车疾驰，也都是可能的。
+
+制作终极弹珠机也是可能的吧。
+
+这样一想，很开心吧。
+
+梦想会扩展吧。
+
+你会发现能做的事情是压倒性的、无限扩展的。
+
+虽然这也是最有趣的部分，
+
+但正因为如此，固定观念会妨碍我们。
+
+努力摆脱固定观念。
+
+“为什么是那个形状？”“为什么会那样？”“为什么会那样想？”
+
+对那件事、那个东西本身抱有疑问。
+
+我认为这不仅适用于游戏制作，
+
+也适用于任何工作、任何生活方式。
+
+让我们打破固定观念吧。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 普段見ているモノ、当たり前だと感じること
 
@@ -97,6 +172,8 @@ gf_archive_id: masuda-044
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

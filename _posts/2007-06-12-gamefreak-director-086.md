@@ -18,18 +18,63 @@ gf_entry_title: 本日、朝１０時から増田の母校である日本電子�
 gf_archive: 2007-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第86回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-086
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日，从早上10点起，我在増田的母校——日本电子专门学校进行了演讲。
+
+学校位于新宿的大久保附近，久违地回到母校，不知怎的有了种学生时代的心情。
+
+今天的演讲大约40分钟，但认真聆听的学生很多，
+
+是一段非常有意义的时光。
+
+哪怕只有一点也好，希望他们能有所感触。
+
+顺带一提，我当时就读于这所学校的计算机图形学科。
+
+当时的CG还没有像现在这样发展，与其说是“绘画表现”，
+
+更像是数学博士用于研究的感觉，技术也还很稚嫩。
+
+有扫描线、光线追踪、辐射度、凹凸贴图等技术，
+
+尤其是光线追踪，显示一张图要花一天以上的时间。
+
+如今，那些耗时的技术已经变得拟真化，不再追求真正的真实，
+
+而是作为绘画表现手法来运用，发生了这样的变化。
+
+当时，我学习了UNIX（操作系统）、3D程序、法线向量和矩阵等数学、
+
+构思方法、剧本、插画等各种各样的内容。
+
+那时，我热衷于自己觉得有趣的事物，但心里也想过，这些也许都是白费功夫。
+
+但是——！
+
+当时学到的东西，对现在的工作也大有裨益。
+
+学习真是不可思议啊。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、朝１０時から増田の母校である日本電子専門学校で講演をしてきました。
 
@@ -69,6 +114,8 @@ gf_archive_id: masuda-086
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,79 @@ gf_archive: 2010-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第169回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-169
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+★７月３１日（星期六）ＢＷ终于开始预约！！
+
+清晨，时隔３０年，去了重要的表兄弟所在的茨城。
+
+回来后，工作工作。
+
+在神奇宝贝中心东京关门之前，赶紧去预约。
+
+哎呀，排队预约这种事，是几年来的第一次！？
+
+增田也好好排队，预约了２个（笑）
+
+★８月１日（星期日）１５点，在六本木新城。
+
+去了神奇宝贝搜索器ＢＷ完成披露活动！
+
+RIKACO小姐、三船小姐、木佐小姐作为神奇宝贝妈妈登上讲台。
+
+能听到有趣的谈话，真是太好了。
+
+然后，神奇宝贝搜索器ＢＷ，真的很有趣。
+
+让我坐了２次！
+
+不是普通的巴士！！
+
+不只是试玩！！
+
+声音也很厉害！！
+
+这个，希望大家一定要体验！！
+
+[http://www.pokemon.co.jp/event/about/searcher/?f001=flash](http://www.pokemon.co.jp/event/about/searcher/?f001=flash)
+
+活动的新闻。
+
+[http://headlines.yahoo.co.jp/hl?a=20100801-00000012-mantan-game](http://headlines.yahoo.co.jp/hl?a=20100801-00000012-mantan-game)
+
+[http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html](http://news.biglobe.ne.jp/entertainment/519/mai_100801_5190289954.html)
+
+[http://www.famitsu.com/game/news/1238350_1124.html](http://www.famitsu.com/game/news/1238350_1124.html)
+
+啊，特别影像增加了哦！
+
+[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+
+那么！
+
+<img src="/assets/images/gamefreak-director/archive/169/ja/169a.jpg" alt="" loading="lazy">
+
+神奇宝贝中心的姐姐，这也太辛苦了吧！
+
+<img src="/assets/images/gamefreak-director/archive/169/ja/169b.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ★７月３１日（土）BWついに予約開始！！
 
@@ -86,6 +147,8 @@ RIKACOさん、三船さん、木佐さんがポケママとして壇上へ。
 
 <img src="/assets/images/gamefreak-director/archive/169/ja/169b.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

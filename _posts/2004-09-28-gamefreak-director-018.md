@@ -18,18 +18,70 @@ gf_entry_title: 最近、スピーカーが欲しいと思っているんです�
 gf_archive: 2004-09
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第18回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-018
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 寇恩
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+最近，我想要一个音箱，
+
+但是，怎么也找不到合心意的。
+
+说起来，以前我经常自己动手做音箱。
+
+画图纸，买木板，安装扬声器。
+
+那时候，也想过往里面灌沙子增加重量，是不是就能出低音？
+
+或者加工扬声器的锥盆，贴上平面板，
+
+用木工胶水填满锥盆，或者加强磁铁，
+
+总之，比起让声音变好，我更享受声音的变化。
+
+无论是登山还是马拉松，无论是塑料模型还是改装汽车，
+
+什么都行……
+
+坚持到底，是一件非常重要的事。
+
+尤其是在制作游戏时，这很重要。
+
+因为这是理所当然的，所以容易被遗忘……
+
+游戏不是物质，而是内容。
+
+可以无限地追加、修正、删除。
+
+可以无限地修改。
+
+所以，坚持到底就更加困难。
+
+想制作游戏的人，
+
+掌握“完成的能力”
+
+“收尾的能力”，
+
+会比较好。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 最近、スピーカーが欲しいと思っているんですが、
 
@@ -75,6 +127,8 @@ gf_archive_id: masuda-018
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,89 @@ gf_entry_title: 今年も残るところあとわずか。 今年は、本当に
 gf_archive: 2004-12
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第29回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-029
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今年也只剩下一点时间了。
+
+今年，真的受到了很多人的关照。
+
+非常感谢。
+
+从火红·叶绿的发售开始，
+
+绿宝石也发售了，DS和PSP也发售了。
+
+对于游戏业界，对于宝可梦来说，
+
+我认为这是具有重大意义的一年。
+
+而且，今年也诞生了许多技术。
+
+手机、玩具、防盗、音乐和影像播放器、卡片、网络等等，
+
+哎呀，技术速度真是快。
+
+去年还没有的东西，现在却理所当然地存在，并且在使用。
+
+这样的东西相当多吧。
+
+哎呀，真是快。
+
+而且，我也感受到了人类适应这种速度的能力之高。
+
+转眼间就习以为常。
+
+一旦习以为常，以前的东西就会显得陈旧。
+
+消费。
+
+在游戏业界，我们也想努力消除这种消费结构，就像FC迷你那样。
+
+而且，创作者也要不依赖硬件，追求不让人感觉陈旧的构造，以及不显陈旧的有趣之处。
+
+一边思考这些事情，一边制作游戏。
+
+首先，我认为这一点很重要。
+
+※以音乐为例，即使硬件从唱片变成了CD，
+
+每年的圣诞歌曲，感觉还是乔治·迈克尔那样吧。
+
+然后，
+
+创造未来游戏的是和平，
+
+我认为需要更多地思考和平。
+
+毕竟，如果不是和平，根本不会想“来玩吧！”。
+
+明年，我想一边思考未来的游戏，
+
+一边努力开发新作。
+
+请多多支持！
+
+明年，GAME FREAK也会继续奔跑！！！
+
+那么，祝大家新年快乐。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今年も残るところあとわずか。
 
@@ -95,6 +166,8 @@ gf_archive_id: masuda-029
 
 では、みなさま良いお年をお迎え下さい。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

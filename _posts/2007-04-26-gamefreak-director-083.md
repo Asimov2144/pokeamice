@@ -18,18 +18,79 @@ gf_entry_title: 増田＠GFです。
 gf_archive: 2007-04
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第83回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-083
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+増田＠GFです。
+
+昨天，我从纽约回来了。
+
+哎呀，坐14个小时的飞机真是辛苦啊。。。
+
+因为时差反应，整个人都迷迷糊糊的。
+
+但是，今天也要精神饱满地开始！！
+
+今天，4月26日是GAME FREAK的创立纪念日！
+
+居然已经18周年了！！！
+
+在这里有一个好消息！
+
+在纽约举行的Pokemon DIAMOND & PEARL launch party上，
+
+据说约有6000人前来参加！太厉害了！感谢！
+
+美国时间22日的活动在pokemon.com上也进行了流媒体直播，
+
+居然！那一天的访问量高达18万6千人！
+
+也就是说，全世界有18万人观看了！
+
+太厉害了！太感激了！太高兴了！感谢！
+
+另外，据说在NINTENDO WORLD排队购买钻石·珍珠的人们的样子，
+
+被上传到了YouTube上。
+
+据说拍摄了从队伍末尾（从48街到49街几乎绕了一圈）到入口的画面。
+
+真是有趣的事情！
+
+在Joystiq这个网站上也有活动的拍摄和播放。
+
+请用Joystiq at the Pokemon launch party in NYC
+
+搜索一下。（マスダモイマミマシタ）
+
+通过这样的活动，
+
+希望能让更多的人对游戏有更深入的理解！！
+
+不仅了解制作东西的乐趣，也了解活动的乐趣、发布的乐趣，
+
+希望成为创作者的人哪怕多一个，我也会非常高兴。
+
+并且，希望大家能通过口袋妖怪这个游戏软件感受到一些东西。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 増田＠GFです。
 
@@ -85,6 +146,8 @@ Joystiq at the Pokemon launch party in NYC
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

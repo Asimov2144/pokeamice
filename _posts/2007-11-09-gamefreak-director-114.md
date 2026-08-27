@@ -18,18 +18,57 @@ gf_entry_title: 増田＠ラスベガス最終日です。
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第114回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-114
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+増田＠拉斯维加斯最后一天。
+
+今天从金字塔型酒店卢克索开始！
+
+哎呀，到处都是好玩的地方啊。拉斯维加斯。
+
+我觉得治安好能让人安心是很大的原因，
+
+酒店也全都很有个性，特产店也好，
+
+能租兰博基尼的租车行也好，都很有深度，很有趣。
+
+就这样，今天走了一整天，累坏了，
+
+但就在最后最后，刚才去了能一览拉斯维加斯的斯特拉托斯菲亚塔！！
+
+夜景超棒！
+
+超美，漂亮！！
+
+而且，尖叫机器也最强。。。
+
+难以置信。。。
+
+然后现在22点30分回到了酒店！！
+
+明天要3点起床。。。能起得来吗！？敬请期待！
+
+经由洛杉矶回日本！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 増田＠ラスベガス最終日です。
 
@@ -65,6 +104,8 @@ gf_archive_id: masuda-114
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

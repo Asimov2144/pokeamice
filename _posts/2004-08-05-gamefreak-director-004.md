@@ -18,18 +18,59 @@ gf_entry_title: よく取材とかでも、ポケモンは子供向けだ。と�
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第4回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-004
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在采访中也经常有人说，宝可梦是面向儿童的。
+
+但是，我并没有太多“面向儿童”这样的概念。
+
+捉迷藏和跳绳，是面向儿童的吗？
+
+我觉得不是。
+
+做了就会觉得有趣。
+
+但是，大人知道其他复杂且刺激的游戏。
+
+而且那种欲望和追求是无止境的，如果随着它去创作的话，
+
+不知不觉中，就会变成那个人专用的游戏。
+
+能让很多人享受的游戏，和刺激且复杂的游戏是成反比的。
+
+音乐不也是这样吗？
+
+大家都知道且不分年龄的音乐，结果往往是童谣。
+
+我觉得宝可梦被说是面向儿童的，也是同样的道理。
+
+而我们正以创作全世界通用的普遍童谣为目标。
+
+但是，这又非常困难！
+
+创作者也会逐渐习惯，越来越追求困难且刺激的东西。
+
+真的是“勿忘初心”。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 よく取材とかでも、ポケモンは子供向けだ。といわれます。
 
@@ -65,6 +106,8 @@ gf_archive_id: masuda-004
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,59 @@ gf_archive: 2009-02
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第137回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-137
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「哈欠」的皮卡丘！
+
+大家，知道瞌睡皮卡丘吗？
+
+其实现在，宝可梦中心所有店铺正在举办「瞌睡皮卡丘祭」！
+
+而且，到3月15日（周日）为止，会把学会了「哈欠」的「皮卡丘」
+
+赠送给钻石·珍珠·白金中的任意一个版本！
+
+然后这就是，在宝可梦中心可以买到的「瞌睡皮卡丘」手办！
+
+<img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_01.jpg" alt="" loading="lazy">
+
+用手哄它睡觉的样子。。。
+
+<img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_02.jpg" alt="" loading="lazy">
+
+一起睡觉的样子。。。
+
+<img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_03.jpg" alt="" loading="lazy">
+
+在松软的草原上睡觉的样子、、、、、、、、、、、、、、
+
+<img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_04.jpg" alt="" loading="lazy">
+
+啊，不对！　是睡在谢米身上！
+
+试着在各种地方睡觉的话会很可爱哦ー。
+
+大家也一定要试试看哦！！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 「あくび」のピカチュウ！
 
@@ -66,6 +107,8 @@ gf_archive_id: masuda-137
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

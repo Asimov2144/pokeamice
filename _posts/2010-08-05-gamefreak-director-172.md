@@ -19,18 +19,53 @@ gf_archive: 2010-08
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第172回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-172
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+因为担任总监，制作音乐很辛苦，
+
+但宝可梦的战斗曲带有增田的强烈色彩，所以这次也写了。
+
+原野和城镇等，要求赋予各自的特征，
+
+以与以往不同的表现（不统一感）来作曲，
+
+战斗曲则更偏向于拥有共同的核……
+
+可以说是王道，或者说做成了宝可梦风格的曲子。
+
+从这个意义上，我觉得有红绿的气氛。
+
+然后这次，久违地也写了游戏开始时的曲子。
+
+是的，就是博士在说明宝可梦的那个画面的曲子。
+
+啊，还有标题演示的曲子也写了。
+
+这个是红绿演示的改编。
+
+虽然很辛苦，但……
+
+作曲，果然还是很快乐的。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ディレクターをしているので、音楽を作るのは大変なのですが、
 
@@ -60,6 +95,8 @@ gf_archive_id: masuda-172
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

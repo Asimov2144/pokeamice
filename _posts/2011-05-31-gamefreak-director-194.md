@@ -18,18 +18,87 @@ gf_entry_title: このクモのオブジェクトと言えば？、、、どこ�
 gf_archive: 2011-05
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第194回
   url: https://www.gamefreak.co.jp/blog/dir/2011/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-194
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+说到这个蜘蛛的物体？、、、在哪里呢？？
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194a.jpg" alt="" loading="lazy">
+
+5月30日，今天在株式会社宝可梦所在的六本木新城工作。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194b.jpg" alt="" loading="lazy">
+
+入口的大小和设计让我感动不已。。。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194c.jpg" alt="" loading="lazy">
+
+帅气的入口。人好小！！
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194d.jpg" alt="" loading="lazy">
+
+从入口看右侧。这个设计，为什么会这样呢？？等等，一边思考。。。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194e.jpg" alt="" loading="lazy">
+
+在超帅的建筑前。。。怎么能想出这样的设计呢。等等，一边思考。。。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194f.jpg" alt="" loading="lazy">
+
+株式会社宝可梦的入口。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194g.jpg" alt="" loading="lazy">
+
+入口。。。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194h.jpg" alt="" loading="lazy">
+
+入口。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194i.jpg" alt="" loading="lazy">
+
+从会议室看外面。。。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194j.jpg" alt="" loading="lazy">
+
+这天的东京风超强，云在猛烈流动。
+
+<img src="/assets/images/gamefreak-director/archive/194/ja/194k.jpg" alt="" loading="lazy">
+
+东京，几乎看不到山！！
+
+说到山，只有富士山！！
+
+那样的景色就是东京！
+
+如果自己创造最强的建筑会怎么做？？
+
+或者，
+
+在什么样的地区、景色中生活是最好的？
+
+等等，
+
+我认为创作者需要思考这些事情。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 このクモのオブジェクトと言えば？、、、どこでしょう？？
 
@@ -93,6 +162,8 @@ gf_archive_id: masuda-194
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

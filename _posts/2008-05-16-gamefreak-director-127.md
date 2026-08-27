@@ -19,18 +19,51 @@ gf_archive: 2008-05
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第127回
   url: https://www.gamefreak.co.jp/blog/dir/2008/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-127
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 6
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家可能已经知道了，
+
+2008年，秋季。
+
+《宝可梦》系列最新作预定发售！
+
+其名为，
+
+《宝可梦 白金》
+
+可以看到在电影中活跃的骑拉帝纳的真实形态，起源形态。
+
+※大家也请务必通过电影预售票获得雷吉奇卡斯，在电影院获得谢米，
+
+然后把它们带到这款白金版中吧！！
+
+目前，GAME FREAK开发部正团结一心制作中。
+
+公司内部充满了要创造出比什么都好的东西的气魄！
+
+为了哪怕稍微提高一点品质，我们仍在努力！
+
+敬请期待！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、もうご存じかも知れませんが、
 
@@ -58,6 +91,8 @@ gf_archive_id: masuda-127
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

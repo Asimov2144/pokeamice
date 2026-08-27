@@ -18,18 +18,57 @@ gf_entry_title: クリスマスシーズンになると電飾が多くて綺麗�
 gf_archive: 2004-12
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第25回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-025
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+一到圣诞季节，装饰灯就多了起来，很漂亮呢。
+
+人们聚集起来看装饰灯，这到底是怎么回事呢。
+
+我明白人们不喜欢黑暗。
+
+所以也能理解有人因此喜欢都市。
+
+但是，如果只是为了避开黑暗，一个大电球就够了，
+
+却要让许多小电球亮起来。
+
+于是人们聚集过来。
+
+真是不可思议呢。
+
+在圣诞节等活动中能感受到，
+
+对于一定期间（限定）的东西，以及漂亮、可爱的事物，人总是很没抵抗力呢。
+
+不知不觉就买了限定商品，或者因为漂亮、可爱就买了商品。
+
+反过来说，商品就是计算着这一点被制作出来的，在我们这边，则是作为游戏的玩法
+
+来构建的，但普通地想一想，这是很有趣的事呢。
+
+顺便一提，增田小时候憧憬着《卡车野郎一番星》，所以至今仍非常喜欢装饰灯。
+
+所以，与其说是喜欢圣诞节，不如说可能是喜欢装饰灯。
+
+那么，就这样。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 クリスマスシーズンになると電飾が多くて綺麗ですよね。
 
@@ -63,6 +102,8 @@ gf_archive_id: masuda-025
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

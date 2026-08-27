@@ -19,18 +19,97 @@ gf_archive: 2013-05
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第236回
   url: https://www.gamefreak.co.jp/blog/dir/2013/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-236
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+到了这个年纪，我经历了人生中第一次的事情！
+
+从早上开始就紧张，前往那个地方。
+
+那个地方是、、、
+
+<img src="/assets/images/gamefreak-director/archive/236/multi/130531.jpg" alt="" loading="lazy">
+
+锵——！！！
+
+广播节目的录音室！！！
+
+麦克风好酷！！
+
+宽敞的隔间！！
+
+人好多！！
+
+心跳加速，无法平静，紧张地等待着，然后、、、
+
+在电影《精灵宝可梦：神速的盖诺赛克特 超梦觉醒》中，
+
+演唱主题曲《笑颜》的，说到就是这几位，
+
+「生物股长」的水野先生、吉冈先生、山下先生！！！
+
+哎呀、、、见到他们紧张到爆！！！
+
+于是呢、、、
+
+生物股长先生们担任主持人的广播节目
+
+「生物股长的garden☆party」
+
+增田竟然！作为嘉宾出演了！！！
+
+录制开始，与生物股长先生们的谈话。
+
+大家都非常温柔，紧张感也渐渐缓解、、、
+
+回过神来，转眼间、、、顺利结束！！！
+
+多亏了大家的温柔，首次广播超开心！这样的回忆也完成了（笑）
+
+与生物股长先生们，也聊了音乐和宝可梦相关的话题，
+
+大家，请务必去看看哦！！！
+
+能遇到这样美好的缘分，非常感谢。
+
+生物股长，水野先生、吉冈先生、山下先生，
+
+真的非常感谢！！
+
+再见！
+
+<p class="gf-director-spacer"></p>
+
+「生物股长的garden☆party」增田出演集的播出预定
+
+（宝可梦官方网站）：
+
+[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
+
+生物股长先生们的官方网站：
+
+[http://ikimonogakari.com/](http://ikimonogakari.com/)
+
+队长水野良树先生的推特：
+
+[https://twitter.com/mizunoyoshiki](https://twitter.com/mizunoyoshiki)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 この年になって生まれて初めての経験をしました！
 
@@ -104,6 +183,8 @@ gf_archive_id: masuda-236
 
 [https://twitter.com/mizunoyoshiki](https://twitter.com/mizunoyoshiki)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

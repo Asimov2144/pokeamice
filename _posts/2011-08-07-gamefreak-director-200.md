@@ -19,18 +19,97 @@ gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第200回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-200
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+祝！专栏第200回！
+
+能迎来第200回，
+
+多亏了支持宝可梦的各位。
+
+真的非常感谢！
+
+而且，为了纪念第200回，工作人员大幅更新了版面！！
+
+谢谢，マイマイ！
+
+还有一直帮我检查的さとちん。谢谢！
+
+能把微妙的语感也翻译出来的ヒロ！谢谢！
+
+今后也请多关照，しほ小姐！
+
+这次，作为第200回纪念，
+
+我要公布一些在《黑·白》中没有公开的素材！！
+
+话虽如此，都是些小素材（笑）
+
+那就是、、、
+
+玩宝可梦时最常听到的效果音。
+
+没错，就是对话推进时响起的效果音。
+
+“皮林！”
+
+<p class="gf-director-spacer"></p>
+
+我想让这个声音成为“啊，有人在玩宝可梦！”的标志，
+
+所以在红绿时代就执着地制作了它。
+
+之后，在《红宝石·蓝宝石》和《钻石·珍珠》中，
+
+声音也一点点发生了变化，但是、、、
+
+<p class="gf-director-spacer"></p>
+
+这次的《黑·白》，
+
+音乐想做出新的感觉，
+
+所以反过来，效果音打算回归初心，
+
+于是采用了红绿的声音。
+
+没错。
+
+我们采样了红绿的“皮林！”并使用。
+
+而且，反复调整调音，
+
+做出了最清澈的声音。
+
+大概，这是增田人生中听过最多次的效果音吧（笑）
+
+也许正因为如此，我对这个声音确实有特别的感情。
+
+请稍微侧耳倾听，只听听这个效果音。
+
+怎么样？
+
+是不是觉得是个不错的声音？
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 祝！コラム２００回！
 
@@ -106,6 +185,8 @@ gf_archive_id: masuda-200
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

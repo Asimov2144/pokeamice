@@ -19,18 +19,80 @@ gf_archive: 2007-01
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第72回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-072
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 牡丹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天也是DP的话题。
+
+在战斗中，下画面显示的“战斗”按钮。
+
+意外地很大吧，那个。
+
+那是有原因的。
+
+那是与接下来出现的4个招式之间的关系。
+
+按下“战斗”之后，即使不移动手指，
+
+就在那个位置再按一次按钮就能选择招式。
+
+总之，不移动手指也能连续点击。
+
+我们是想这样设计的。
+
+而且，为了更容易理解，在“战斗”的后面还加了4个招式的影子。
+
+顺便说一下……
+
+即使按那个招式的影子部分，也视为选择了“战斗”。
+
+外观和实际判定是不同的。
+
+在游戏制作中这是常用的技巧。
+
+尽量做到不移动手指。
+
+在任何下画面，我们都仔细注意这一点来设计。
+
+另外，改变颜色也是，
+
+即使看着上画面，也能隐约看到视野中的红色按钮。
+
+那是为了让人能认出那是“战斗”。
+
+这样，即使不把视线对准下画面，
+
+不仔细看也能操作。
+
+招式也按属性分色，容易辨认。
+
+改变颜色这种事看起来很简单，
+
+但仅仅如此，因为有符号性，所以容易理解且明确。
+
+不识字的小孩也能玩。
+
+从这个意义上说，颜色也非常重要。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日もDPネタです。
 
@@ -86,6 +148,8 @@ gf_archive_id: masuda-072
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

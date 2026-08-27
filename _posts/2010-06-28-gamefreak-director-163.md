@@ -19,18 +19,49 @@ gf_archive: 2010-06
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第163回
   url: https://www.gamefreak.co.jp/blog/dir/2010/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-163
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+《宝可梦 黑·白》的发售日确定了！
+
+是2010年9月18日（星期六）！
+
+在27日（星期日）的《宝可梦☆星期天》和28日（星期一）的《おはスタ》中公布了！
+
+在《おはスタ》中播放了世界首发的影像哦！
+
+这次的作品，增田担任了总监，
+
+自卖自夸地说，这是前所未有的、非常有趣的软件（笑）！
+
+从小学到初中、高中、大学，再到成年人，都能乐在其中。
+
+因为改变了以往的制作方式，就是这样创作出来的！
+
+宝可梦，迈向新次元。
+
+敬请期待！！
+
+再见！
+
+[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケットモンスターブラック・ホワイトの発売日が決定しました！
 
@@ -56,6 +87,8 @@ gf_archive_id: masuda-163
 
 [http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

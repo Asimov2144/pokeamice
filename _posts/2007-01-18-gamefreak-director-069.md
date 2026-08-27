@@ -18,18 +18,101 @@ gf_entry_title: ダイヤモンド、パールで遊んでいると感じると�
 gf_archive: 2007-01
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第69回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-069
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+玩钻石、珍珠的时候，大家应该会感觉到，
+
+会一次又一次地进入各种各样的家和建筑物吧。
+
+那时，进出的时候会有画面演出。
+
+今天我想写一写关于这个的事情。
+
+首先，进入家中的时候，
+
+希望玩家能稍微强烈地感受到，
+
+移动到了家这样一个小地方。
+
+然后从家出来的时候，
+
+也希望玩家能稍微强烈地感受到，
+
+从家这样的小空间移动到了野外这样的大空间，
+
+因此做了画面演出。
+
+进入和出来时，含义稍有不同，
+
+所以这些演出准备了进入用和出来用两种。
+
+最在意的是速度。
+
+进出各种家的次数相当多。
+
+因此，我尽量让速度变快。
+
+进入家中的时候，
+
+（1）画面放大
+
+（2）门打开
+
+（3）主人公进入家中
+
+（4）关门
+
+（5）整个画面逐渐变暗
+
+这样的步骤。
+
+从家出来的时候，
+
+（1）上下分开的同时，整个画面变亮＋从画面放大恢复原状＋门打开（三个同时进行）
+
+（2）主人公从家中出来
+
+（3）关门
+
+这样。
+
+进入家中时因为有期待感，所以即使稍微花点时间也不太在意，我判断如此，
+
+但果然，从家出来的时候，可能带着下一个目标，想立刻行动！
+
+在重视这种心情的同时，为了有效地进行演出，
+
+同时进行三个演出，让演出本身早点结束。
+
+这样的演出虽然也是细节，
+
+但和电视或电影不同，因为是程序驱动的，所以真的可以自由地做各种事情。
+
+正因为如此，虽然辛苦，但我想重视并尝试新的演出。
+
+嗯，这也是我执着的地方。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ダイヤモンド、パールで遊んでいると感じると思うのですが、
 
@@ -103,6 +186,8 @@ TVや映画と違ってプログラムで動かしているため本当に自由
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

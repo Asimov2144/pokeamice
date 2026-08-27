@@ -18,18 +18,65 @@ gf_entry_title: ２００９年１１月２０日（金）午後１１時３０�
 gf_archive: 2009-11
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第153回
   url: https://www.gamefreak.co.jp/blog/dir/2009/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-153
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+２００９年１１月２０日（星期五）晚上１１点３０分。
+
+东京都涩谷区，涩谷站前。
+
+在十字路口的四块巨大屏幕上，影像播放了。
+
+没错，第二天２１日，就是《宝可梦 金·银》发售１０周年的日子。
+
+那时的纪念影像就是这个！
+
+[http://www.youtube.com/watch?v=M4xQj4WfUgI](http://www.youtube.com/watch?v=M4xQj4WfUgI)
+
+增田也去看了这段影像。
+
+不知怎的，怀念感和以超大音量播放的自己的曲子，
+
+让我有点开心，也很感动。
+
+从２０１０年１月２９日起，
+
+面向「钻石·珍珠·白金·心金·魂银」
+
+幻之宝可梦梦幻的配信也会进行，
+
+请大家一定要去获取哦！
+
+Ciao！
+
+附赠
+
+[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)
+
+[http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)
+
+[http://news.dengeki.com/elem/000/000/215/215000/](http://news.dengeki.com/elem/000/000/215/215000/)
+
+<img src="/assets/images/gamefreak-director/archive/153/ja/091126.jpg" alt="" loading="lazy">
+
+Peace！！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２００９年１１月２０日（金）午後１１時３０分。
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-153
 
 ピース！！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,74 @@ gf_archive: 2012-10
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第228回
   url: https://www.gamefreak.co.jp/blog/dir/2012/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-228
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 武德
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日迎来了[推特](http://twitter.com/#%21/Junichi_Masuda)一周年！
+
+在写这篇博客的现在，已经有超过三万三千人关注了我。
+
+大家，谢谢！
+
+在这一年里，我收到了很多消息。
+
+也收到了来自世界各国的消息。
+
+关于游戏、宝可梦中心、日常的事情。
+
+对宝可梦的爱、喜欢的事物、国家和地域等各种各样的东西，
+
+这一年也让我了解到了这些。
+
+而且，根据推特上的意见，
+
+我得以在全国的宝可梦中心举办签名会。
+
+能够像这样，通过推特和大家直接交流，
+
+我感到非常高兴。
+
+一年前开始做这件事真是太好了（笑）。
+
+大家，真的非常感谢！
+
+我由衷感谢。
+
+今后也请继续支持推特、这个博客、
+
+以及GAME FREAK！！
+
+然后，10月7日（周日）在北美，10月12日（周五）在欧洲，
+
+终于，宝可梦 黑2、白2要发售了。
+
+这样一来，全世界就连接起来了，
+
+请务必试试GTS交换哦！！
+
+北美的、欧洲的各位，让你们久等了！
+
+请尽情享受冒险吧！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日[ツイッター](http://twitter.com/#%21/Junichi_Masuda)１周年を迎えました！
 
@@ -80,6 +136,8 @@ gf_archive_id: masuda-228
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

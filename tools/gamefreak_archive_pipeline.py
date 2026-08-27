@@ -1025,6 +1025,15 @@ def _content_body(path: Path) -> str:
     return text
 
 
+def _content_front_matter(path: Path) -> dict[str, Any]:
+    text = path.read_text(encoding="utf-8")
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        if len(parts) == 3:
+            return yaml.safe_load(parts[1]) or {}
+    return {}
+
+
 def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
     """Materialize normalized archive content as searchable Jekyll posts."""
     manifest = load_manifest()
@@ -1046,6 +1055,9 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             continue
         relative = local_path.split(marker, 1)[1]
         destination = public_asset_root / relative
+        if destination.exists() and asset.get("sha256") and sha256_file(destination) == asset["sha256"]:
+            published_assets += 1
+            continue
         atomic_write(destination, source_path.read_bytes())
         published_assets += 1
 
@@ -1077,6 +1089,8 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             continue
         date = ja.get("date") or f"{article['month']}-01"
         categories = list(ja.get("categories") or [])
+        translation_path = ARCHIVE_ROOT / "translations" / "zh-CN" / f"{number:03d}.md"
+        translation_metadata = _content_front_matter(translation_path) if translation_path.exists() else {}
         front_matter = {
             "layout": "gamefreak-director",
             "title": f"[GameFreak部长专栏] 第{number}回",
@@ -1089,20 +1103,35 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             "gf_entry_title": ja.get("lead") or "",
             "gf_archive": article.get("month"),
             "gf_categories": categories,
-            "summary": "日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。",
+            "summary": "中文译稿已完成校对；日文原文与官方英文版可展开对照。",
             "search": True,
             "source": {"title": f"増田部長のめざめるパワー 第{number}回", "url": ja.get("page_url"), "source_type": "official_blog"},
             "gf_archive_id": article.get("id"),
+            "translation_status": translation_metadata.get("translation_status", "missing"),
+            "proofread_confidence": translation_metadata.get("proofread_confidence"),
+            "glossary_match_count": translation_metadata.get("glossary_match_count", 0),
+            "glossary_missing_targets": translation_metadata.get("glossary_missing_targets") or [],
         }
-        front = yaml.safe_dump(front_matter, allow_unicode=True, sort_keys=False).strip()
         ja_path = ARCHIVE_ROOT / "content" / f"{number:03d}" / "ja.md"
         if not ja_path.exists():
             continue
-        body_parts = [
-            '<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>',
-            "## 日文原文",
-            render_body(ja_path),
-        ]
+        translation_body = _content_body(translation_path) if translation_path.exists() else ""
+        if translation_body and "中文翻译待完成" not in translation_body:
+            body_parts = [
+                '<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>',
+                "## 中文译文",
+                render_body(translation_path),
+                '<details class="gf-director-language"><summary>查看日文原文</summary>',
+                render_body(ja_path),
+                "</details>",
+            ]
+        else:
+            body_parts = [
+                '<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>',
+                "## 日文原文",
+                render_body(ja_path),
+            ]
+        front = yaml.safe_dump(front_matter, allow_unicode=True, sort_keys=False).strip()
         en_path = ARCHIVE_ROOT / "content" / f"{number:03d}" / "en.md"
         if en_path.exists():
             body_parts.extend(

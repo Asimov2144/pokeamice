@@ -18,18 +18,89 @@ gf_entry_title: 今日は、森についてです。
 gf_archive: 2007-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第90回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-090
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天，是关于森林的话题。
+
+前几天，我拜访了位于长野县的一个叫做“阿凡之森”的地方。
+
+我见到了担任这里理事长的C.W.尼科尔先生和森田先生，
+
+详细听取了关于森林的种种情况。
+
+首先最让我惊讶的是……
+
+一旦破坏了自然，如果人类不去干预，就会一直保持那个状态。
+
+……就是这样。
+
+我原本以为，不加以干预、人类不介入才是自然，但……
+
+事实并非如此。
+
+哎呀，真是学习不够啊。
+
+据说，日本追求经济增长，许多森林变成了杉树和落叶松的种植林地。
+
+这样一来，人类改造过的森林自然，
+
+泥沙流失，树木不再生长，对生物来说环境严酷，
+
+远不能说是理想的状态。
+
+或许，以千年为单位来看，森林可能会复活。
+
+但是，许多勉强存活下来的生物会灭绝。
+
+然而，还有可能性。
+
+人类破坏了这个不自然的森林，而能够将其恢复为真正自然的，也正是人类。
+
+日本的纬度和日本狭长的地形，对生物（微生物、昆虫、草木、两栖类、哺乳类等）来说，
+
+据说是一个非常良好的环境。
+
+我也似乎明白了尼科尔先生为何会为之倾倒。
+
+原本，理想的森林，是有大树，其下有下一代的中等树木，然后草地铺展开来的结构。
+
+这和公园的森林，有点不一样吧。
+
+然后，青蛙的叫声、鸟鸣、欢快流淌的水声、树木的声音。
+
+光影的舒适、风的舒适、凉爽。
+
+作为日本人，我感受到要为此自然感到自豪并珍惜它。
+
+尼科尔先生深爱着日本的森林，他一边想象着100年后的森林（日本），
+
+一边诉说着森林的重要性，对此我深有共鸣。
+
+美丽的日本……首先从森林开始吧。
+
+阿凡之森
+
+[http://www.afan.or.jp/](http://www.afan.or.jp/)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日は、森についてです。
 
@@ -95,6 +166,8 @@ gf_archive_id: masuda-090
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

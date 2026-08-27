@@ -18,18 +18,51 @@ gf_entry_title: 本日、ＣＥＳＡ　ＧＡＭＥ　ＡＷＡＲＤＳの発�
 gf_archive: 2004-10
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第23回
   url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-023
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日，我前往参加了 CESA GAME AWARDS 的颁奖典礼。
+
+非常荣幸，我们获得了「优秀奖」和「最佳销售奖」两个奖项。
+
+特别是最佳销售奖，意味着有很多人玩过我们的游戏，
+
+作为总监，这是我最感到高兴的奖项。
+
+易于理解的游戏、利用无线功能的新玩法，这两个主题
+
+能够很好地融入其中，我感到这正是成果的体现。
+
+（我想这些主题对工作人员来说是个不小的负担，但他们努力完成了）
+
+这款《火红》《叶绿》，
+
+我认为它们是下一作《钻石》《珍珠》的基础软件，
+
+所以还没玩过的朋友，请务必尝试一下。
+
+能够获得这样出色的奖项，
+
+全靠大家的支持，我由衷感谢。
+
+谢谢大家！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、ＣＥＳＡ　ＧＡＭＥ　ＡＷＡＲＤＳの発表授賞式に行って来ました。
 
@@ -57,6 +90,8 @@ gf_archive_id: masuda-023
 
 ありがとうございました！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

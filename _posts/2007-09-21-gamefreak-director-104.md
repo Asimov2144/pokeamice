@@ -18,18 +18,53 @@ gf_entry_title: 昨日、幕張メッセで行われたCESAゲーム大賞授賞
 gf_archive: 2007-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第104回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-104
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+昨天，我去了在幕张展览馆举行的CESA游戏大奖颁奖典礼！
+
+没想到！钻石·珍珠获得了最佳销售奖和优秀奖两个奖项。
+
+这多亏了众多玩家、大家的支持。
+
+真的非常高兴。
+
+谢谢！！！
+
+另外，在这个艰难的项目中发挥出最大力量的开发人员，
+
+通过宣传、公关、活动等方式推广宝可梦的各位，
+
+这个奖项真的是由数不清的许多人共同赢得的，
+
+我由衷地感谢。
+
+宝可梦有连接人与人的力量，
+
+在这样的场合，也发挥了它的力量。
+
+真的，由衷地感谢大家。
+
+谢谢！
+
+今后也请继续支持我们！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 昨日、幕張メッセで行われたCESAゲーム大賞授賞式に行ってきました！
 
@@ -59,6 +94,8 @@ gf_archive_id: masuda-104
 
 これからも、応援をどうぞよろしくお願いします！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

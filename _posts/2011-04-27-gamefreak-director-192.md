@@ -19,18 +19,22 @@ gf_archive: 2011-04
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第192回
   url: https://www.gamefreak.co.jp/blog/dir/2011/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-192
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 <img src="/assets/images/gamefreak-director/archive/192/ja/tx01.gif" alt="" loading="lazy">
 
@@ -114,6 +118,93 @@ gf_archive_id: masuda-192
 
 <img src="/assets/images/gamefreak-director/archive/192/ja/tx31.gif" alt="" loading="lazy">
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx01.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx02.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192a.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx06.gif" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/192/ja/192b.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx07.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx08.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192c.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx09.gif" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/192/ja/192d.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx10.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx11.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192e.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx12.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx13.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192f.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192g.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx14.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192h.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx15.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx16.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192i.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx171.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx18.gif" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/192/ja/192j.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx19.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx20.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx21.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/oma.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx22.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192k.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx232.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192l.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx24.gif" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/192/ja/omb.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx25.gif" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/192/ja/192m.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx26.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/omc.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx27.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192n.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx28.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx29.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx30.gif" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/192o.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/192/ja/tx31.gif" alt="" loading="lazy">
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

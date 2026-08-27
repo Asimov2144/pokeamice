@@ -19,18 +19,79 @@ gf_archive: 2011-09
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第211回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-211
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+9月19日（周一）一整天，我都在名古屋。
+
+要说为什么的话……
+
+我去参加了法米通主办的「PRESS START 2011」
+
+游戏音乐古典音乐会！
+
+然后……
+
+我原本预定要在舞台上讲话的，但是……
+
+可能是因为时间关系，
+
+关于宝可梦的话题只讲了一点点……
+
+哎呀，15周年啊，昨天还是BW一周年啊……
+
+明明有好多想说的（哭）
+
+不过，但是，
+
+这是一场充分展现游戏音乐魅力的好音乐会！
+
+哎呀，音乐真是好啊。
+
+个人来说，被《淘金者》、《沙罗曼蛇》、《最终幻想4》感动了……
+
+太厉害了。
+
+啊，当然，宝可梦也很感动。
+
+编曲是我们的工作人员，影山。
+
+感觉很好~。
+
+回去的时候吃了鸡翅。
+
+这个也是，感觉很好~。
+
+穿着舞台用的西装。在后台。
+
+<img src="/assets/images/gamefreak-director/archive/211/multi/211a.jpg" alt="" loading="lazy">
+
+增田和影山。
+
+<img src="/assets/images/gamefreak-director/archive/211/multi/211b.jpg" alt="" loading="lazy">
+
+>>PRESS START 2011
+
+[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ９月１９日（月）１日中、名古屋にいました。
 
@@ -86,6 +147,8 @@ gf_archive_id: masuda-211
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,55 @@ gf_entry_title: 夏休み、終わりました！ いやー、楽しいことっ
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第6回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-006
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+暑假，结束了！
+
+哎呀，快乐的事情时间过得真快啊。
+
+今年，在栃木一边看烟花大会一边烧烤。
+
+去了热海，吃了海螺。
+
+啊，真好吃。真开心！幸福！
+
+昨天，去了横滨的宝可梦节。
+
+不巧下雨，人不多，
+
+尽管如此，还是有很多人来了。
+
+谢谢大家！
+
+有各种各样的活动，内容丰富多彩。
+
+舞台上的活动一开始，就有很多爸爸把孩子扛在肩上，
+
+感觉像一片奇妙的森林。这个，印象最深。
+
+大家似乎也都在愉快地玩《绿宝石》，
+
+松了一口气，安心了。真是高兴。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 夏休み、終わりました！
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-006
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

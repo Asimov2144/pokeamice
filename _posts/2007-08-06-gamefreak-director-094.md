@@ -18,18 +18,81 @@ gf_entry_title: 今日は８月６日、広島に原爆が投下された日で�
 gf_archive: 2007-08
 gf_categories:
 - 未分類
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第94回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-094
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天是8月6日，广岛被投下原子弹的日子。
+
+那是62年前的上午8点15分。
+
+尽管全世界的人们都在追求和平，
+
+人类却开发出这样的武器，真是奇怪而不可思议的生物。
+
+正因为如此，我认为我们必须不断呼吁，必须时刻思考。
+
+夺走25万人生命的武器。
+
+连市民也杀害的武器。
+
+难以想象的杀戮方式。
+
+核武器与普通炸弹不同。
+
+不仅杀人能力更强，
+
+而且瞬间夺走许多生命，
+
+之后还继续折磨人，一直折磨下去。
+
+并且用放射能污染那片土地和所有生物。
+
+为什么需要它？
+
+是因为“有”所以“用”，或者“能做”所以“做”这样不负责任的态度吗？
+
+难道不能正视未来吗？
+
+是因为想变强吗？因为不安吗？为了正义？
+
+打算用它来发挥什么作用？让敌人闭嘴？
+
+住在这个地球上的人有思考的责任。
+
+而且国家之间必须负责任地进行对话。
+
+以世界和平为目标，呼吁废除核武器的广岛。世界上第一个遭受原子弹轰炸的县，广岛。
+
+我们必须倾听这里所讲述的、持续发出的声音，学习许多事情。
+
+并且希望广岛在核武器被根除之前一直发出呼吁。
+
+我们日本人拥有思考战争和核问题的机会与力量。
+
+作为世界上唯一的被爆国，我们必须认真思考并传达下去。
+
+和平。能够从容思考这一点的日本。
+
+希望向世界传达这个国家的美好。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日は８月６日、広島に原爆が投下された日です。
 
@@ -91,6 +154,8 @@ gf_archive_id: masuda-094
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

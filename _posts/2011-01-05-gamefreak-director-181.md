@@ -18,18 +18,101 @@ gf_entry_title: みなさま
 gf_archive: 2011-01
 gf_categories:
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第181回
   url: https://www.gamefreak.co.jp/blog/dir/2011/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-181
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位
+
+新年快乐。
+
+2011年也请多多关照。
+
+因为是喜庆的事，就说个喜庆的话题。
+
+1994年发售的《脉冲人》的音乐原声带
+
+「MEGADRIVE ~LAST ACTION HEROES~」发售了！
+
+啪！啪！啪！啪！！！
+
+好开心！！！！
+
+说到1994年，增田才28岁。。。年轻啊。
+
+当时的增田负责程序、音乐和音效。
+
+从低级别的系统，到碰撞判定、绘图相关，
+
+光栅滚动、颜色变化等演出类，
+
+BOSS角色的动作和声音程序等，
+
+写了各种各样的程序。
+
+在亲爱的UNIX机器上（笑）
+
+所以。。。脉冲人的曲名就变成那样了。
+
+在程序的间隙，制作音乐！！制作音效！！
+
+因为Mega Drive内置FM音源，
+
+所以能创造出有趣的音色和随时间变化的音色。
+
+一点点调整参数，改变音色，
+
+鼓声等是用效果器处理后采样的，
+
+记得相当讲究。
+
+标题画面的鼓也是乐句采样。
+
+现在听的话有些曲子很像宝可梦，
+
+但本来是我喜欢的电子乐路线，非常强烈。
+
+请务必购买试听！！
+
+（世嘉商店）
+
+[http://ebten.jp/sega/p/4571164389950/](http://ebten.jp/sega/p/4571164389950/)
+
+（亚马逊）
+
+MEGADRIVE ~LAST ACTION HEROES~
+
+[http://www.amazon.co.jp/dp/B004EE1Z02](http://www.amazon.co.jp/dp/B004EE1Z02)
+
+啊，顺便说一下，
+
+这款用SEGA的Mega Drive开发的《脉冲人》，
+
+现在可以在Wii的Virtual Console上游玩。
+
+[http://vc.sega.jp/vc_pulseman/](http://vc.sega.jp/vc_pulseman/)
+
+杉森先生的世嘉之声。
+
+[http://sega.jp/segavoice/vol65/](http://sega.jp/segavoice/vol65/)
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさま
 
@@ -107,6 +190,8 @@ MEGADRIVE ~LAST ACTION HEROES~
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,51 @@ gf_entry_title: マスダ＠サンフランシスコ　７：１０PM
 gf_archive: 2009-03
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第143回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-143
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+增田＠旧金山　晚上７：１０
+
+现在，从早上开始结束了８家媒体的采访，回到酒店写这篇专栏。
+
+今天的采访，采访方也大多是宝可梦粉丝，
+
+度过了非常愉快的时光！
+
+在海外的采访，比起游戏的具体内容，
+
+更多是从更广阔的视角来提问，
+
+所以有很多感觉很难的问题……这也是学习。
+
+白金版的导演川内丸虽然看起来很累，
+
+但似乎受到了很大的刺激。
+
+白金版北美版将于３月２２日发售！！
+
+※啊，去了金门大桥！
+
+关于这个，等回到日本后再写。敬请期待！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 マスダ＠サンフランシスコ　７：１０PM
 
@@ -57,6 +90,8 @@ gf_archive_id: masuda-143
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

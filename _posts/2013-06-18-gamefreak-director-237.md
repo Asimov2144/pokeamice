@@ -19,18 +19,91 @@ gf_entry_title: 日本語から各国語へ翻訳するローカライズとい�
 gf_archive: 2013-06
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第237回
   url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-237
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+从日语翻译成各国语言的本地化工作。
+
+重新构建本地化的方法、组织结构。
+
+在相关各公司以及许多其他人士的协助下，
+
+历时约7年，终于得以实现。
+
+<p class="gf-director-spacer"></p>
+
+全世界同步发售。
+
+<p class="gf-director-spacer"></p>
+
+也许看起来很简单，
+
+但考虑到文本、各种名称、设定的繁多，以及存在世界通用名称等因素，
+
+对于RPG的宝可梦来说，
+
+没有众多相关人士的创意，是无法实现的。
+
+日语，
+
+变成了英语、法语、意大利语、德语、西班牙语、韩语。
+
+剧本、名称、设定、本地化，
+
+参与这些工作的人们，想必真的非常辛苦。
+
+他们完成了一项非常出色的工作。
+
+然后。
+
+<p class="gf-director-spacer"></p>
+
+2013年10月12日（星期六）
+
+<p class="gf-director-spacer"></p>
+
+《宝可梦 X·Y》将在全球同步发售。
+
+将在世界各地同日发售。
+
+例如，在钓鱼时，
+
+钓上一条谁都没见过的鱼，
+
+即使上网搜索也查不到，
+
+心中既紧张又兴奋。
+
+希望全世界的人们都能体会到这种心情。
+
+这个愿望，终于快要实现了。
+
+这将是一个伟大梦想的实现。
+
+2013年10月12日，《宝可梦》将进化到下一个阶段。
+
+大家敬请期待。
+
+再见！
+
+<p class="gf-director-spacer"></p>
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 日本語から各国語へ翻訳するローカライズという作業。
 
@@ -98,6 +171,8 @@ gf_archive_id: masuda-237
 
 <p class="gf-director-spacer"></p>
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

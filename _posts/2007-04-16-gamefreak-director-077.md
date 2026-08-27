@@ -18,18 +18,85 @@ gf_entry_title: ドイツ（１）
 gf_archive: 2007-04
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第77回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-077
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+德国（1）
+
+4月3日（周二）到8日（周日）我去了德国！
+
+所以，我想分几次写写德国的事情。
+
+首先是……第一天！
+
+3日（周二），飞机是9点55分起飞，我惊讶于时间之早，坐NEX提前2小时到了成田。
+
+换欧元……喝咖啡……忙这忙那的，
+
+时间一下子就过去了。赶紧冲向登机口。
+
+登上飞机，起飞。
+
+过了一会儿，感动于地上景色的美丽，
+
+突然灵光一闪……记笔记记笔记。
+
+飞行11小时后平安抵达德国。当地时间下午3点。
+
+在法兰克福机场，NINTENDO OF EUROPE（NOE）的
+
+工作人员（工作伙伴兼朋友）来接我，总算松了口气。
+
+坐他的车移动。
+
+上了名为高速公路的无速度限制道路，40分钟后，到达NOE！
+
+让我参观了公司内部，向NOE社长打了招呼。
+
+稍微聊了一会儿后，移动到法兰克福的本地化办公室。
+
+这次是「宝可梦 钻石·珍珠」的本地化工作。
+
+大约10人聚集在会议室。
+
+我讲了细节设定、隐藏设定、剧本意图等，
+
+听取了各国翻译负责人的意见。
+
+几个确认事项也顺利结束，感觉非常好。
+
+到发售还有很多工作，请加油！
+
+对本地化放心后，先被送到酒店办理入住。
+
+之后，包括NOE社长在内共4人一起吃饭。
+
+果然很困，中途就安静下来了（笑）
+
+但是，非常愉快，也听到了很有意义的话，真的太好了。
+
+就这样，第一天，漫长的一天结束了……
+
+因为时差，0点睡的，醒来却是1点，为什么1小时就醒了呢？？
+
+待续！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ドイツ（１）
 
@@ -91,6 +158,8 @@ gf_archive_id: masuda-077
 
 つづく！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

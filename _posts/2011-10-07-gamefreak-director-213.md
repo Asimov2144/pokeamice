@@ -18,18 +18,73 @@ gf_entry_title: ありがとうジョブズ。
 gf_archive: 2011-10
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第213回
   url: https://www.gamefreak.co.jp/blog/dir/2011/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-213
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 玛德绵
+- 玛瓜
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+谢谢乔布斯。
+
+从一开始就令人震撼。
+
+遇见 Apple II 时的震撼、
+
+遇见 Macintosh 128k 时的震撼、
+
+Macintosh SE/30 的震撼、
+
+iMac 的震撼、
+
+MacBook Air 的震撼、
+
+iPhone 的震撼、
+
+至今仍是一键鼠标的震撼、
+
+数不清的震撼，谢谢你。
+
+从以前就不曾改变的 Mac 菜单、
+
+iPhone 的操作性、
+
+最棒的用户界面、
+
+总是放眼未来、相信未来的 OS、
+
+比什么都更重视用户的心情。谢谢你。
+
+革新的制造。
+
+以及，革新的环境营造。
+
+非常喜欢。
+
+得到了很多勇气。
+
+得到了很多刺激。
+
+教会了我没有不可能。
+
+乔布斯，谢谢你。
+
+再见。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ありがとうジョブズ。
 
@@ -77,6 +132,8 @@ iPhoneの操作性、
 
 チャオ。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

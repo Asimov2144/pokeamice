@@ -18,18 +18,65 @@ gf_entry_title: ポケモンのルール！？
 gf_archive: 2009-02
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第140回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-140
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+宝可梦的规则！？
+
+大家知道宝可梦的规则吗？
+
+比如，对战相关的……
+
+・只有草丛里才有野生宝可梦。
+
+・与训练家对上眼就要对战。
+
+・HP归零就会濒死。
+
+・能记住的招式有4个。
+
+・按速度从快到慢依次出招。
+
+・只能携带1个道具。
+
+・对战会持续到手持宝可梦全部濒死为止。
+
+・野生宝可梦用道具（精灵球）捕捉。
+
+……
+
+在电视游戏中，能做的事情是有限的。
+
+这些限制，实际上就成了规则。
+
+因此，看起来规则似乎是自然而然附带的，但是，
+
+分解来看，和篮球一样，规则、欲望、技巧等交织在一起。
+
+我想很少有人会用这种眼光来看电视游戏吧……
+
+但策划人员就是以这样的视角在工作。
+
+一旦发现，原本看不见的东西就会显现出来。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケモンのルール！？
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-140
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

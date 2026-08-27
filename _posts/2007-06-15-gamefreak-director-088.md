@@ -18,18 +18,45 @@ gf_entry_title: みなさま、ありがとうございます！！
 gf_archive: 2007-06
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第88回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-088
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位，非常感谢！！
+
+托大家的福，全球贸易站（GTS）上的
+
+宝可梦交换已突破1000万只！！
+
+好开心！！
+
+这是一个超乎想象的数量。
+
+特别是北美地区的朋友们，据说Wi-Fi连接率很高。真是感激不尽！
+
+7月27日还将在欧洲发售。
+
+这样一来，语言方面将新增意大利语、法语、西班牙语、德语，共增加4个国家。
+
+大家也请带上邮件，试试交换宝可梦吧！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさま、ありがとうございます！！
 
@@ -51,6 +78,8 @@ gf_archive_id: masuda-088
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

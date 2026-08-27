@@ -18,18 +18,22 @@ gf_entry_title: 増田＠NYです。
 gf_archive: 2007-04
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第82回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-082
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 増田＠NYです。
 
@@ -81,6 +85,61 @@ gf_archive_id: masuda-082
 
 では！
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+増田＠NYです。
+
+本日、米国時間４月２２日AM８：００から
+
+ロックフェラーセンターのNINTENDO WORLDにて、
+
+『Pokemon DIAMOND・PEARL』が発売になりました！
+
+昨夜から人が並び始め、朝７：３０には店頭前に２００人以上の列が！！
+
+すごい！NYの朝はすごーく寒いのに、、、嬉しい限りです！
+
+これで、ようやく北米と日本が繋がります！
+
+今までのポケモンは各国内での交換が基本だったのですが、
+
+今回のダイヤモンド・パールは、各国を超えて地球レベルでの交換になります。
+
+地球を感じる事ができるソフト。
+
+それも狙いのひとつです。
+
+で、話は戻りますが、、、
+
+ステージイベントは、とても多くのみなさんが集まってもらえて、
+
+増田はとてもハッピー！！
+
+年齢層は結構高めで、１２から１５歳が多く意外でした。
+
+みなさんにもきっと喜んでもらえたと思います！
+
+その後のサイン会も人が並びまくり、あまりの人に予定にあった３０分
+
+では終わらず、
+
+最終的に強制終了になってしまいました。残念！
+
+とても良い経験になりました！！
+
+というわけで、みなさん！！
+
+今日、２２日、ソフトの発売日と同時に、
+
+日本と北米が繋がった記念日にもなりました！！
+
+おめでとう！ダイヤモンド！パール！
+
+では！
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

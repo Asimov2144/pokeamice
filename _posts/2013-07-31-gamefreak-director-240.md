@@ -18,18 +18,59 @@ gf_entry_title: 本日、２０１３年７月３１日（水）１０：００�
 gf_archive: 2013-07
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第240回
   url: https://www.gamefreak.co.jp/blog/dir/2013/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-240
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日，2013年7月31日（星期三）上午10:00
+
+GAME FREAK首款自主发行的软件正式发售了。
+
+其名为「索利提马」（ソリティバ）。
+
+接龙×赛马这一别具特色的合作。
+
+既不是动作赛马，也不是模拟赛马，
+而是配合赛马的展开来通关接龙。
+
+顺利通关的话，
+作为玩家的骑手所操控的马匹，就会飒爽地奔驰起来。
+
+接龙作为游戏虽然有趣，
+但常被说成是消磨时间的游戏，或是没有结果。
+
+通过这款「索利提马」，诞生了目标与展开，
+我认为它已经打磨成了一种截然不同的接龙，一种全新的玩法。
+
+这是GAME FREAK倾注心血的一款作品。
+
+请大家务必都来玩一玩！！
+
+官方网站：
+
+[https://www.gamefreak.co.jp/solitiba/index.html](https://www.gamefreak.co.jp/solitiba/index.html)
+
+宣传视频：
+
+[http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be](http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be)
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、２０１３年７月３１日（水）１０：００ＡＭ
 
@@ -69,6 +110,8 @@ gf_archive_id: masuda-240
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

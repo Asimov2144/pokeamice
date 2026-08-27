@@ -18,18 +18,65 @@ gf_entry_title: ２０１２年８月２９日。
 gf_archive: 2012-08
 gf_categories:
 - お知らせ
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第227回
   url: https://www.gamefreak.co.jp/blog/dir/2012/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-227
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+２０１２年８月２９日。
+
+今天对 GAME FREAK 来说是一个特别的日子。
+
+我们以
+
+“做出好东西！”为口号，
+
+一直在不断挑战。
+
+其结果，刚才在任天堂的
+
+”Nintendo Direct“中发表了！
+
+这就是与宝可梦不同的、GAME FREAK 的新玩法！！
+
+GAME FREAK 献上的原创游戏最新作！
+
+『节奏猎人 哈莫奈特』
+
+终于可以呈献给大家了。
+
+今天，是 GAME FREAK 向前迈出一步的日子。
+
+今后我们也会不断向前飞跃，
+
+请大家多多支持！
+
+开发本部长 增田顺一
+
+从 GAME FREAK 官网首页的横幅，
+
+可以跳转到『节奏猎人 哈莫奈特』的
+
+任天堂特别页面！
+
+还有社长访谈！
+
+[https://www.gamefreak.co.jp/](https://www.gamefreak.co.jp/)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２０１２年８月２９日。
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-227
 
 [https://www.gamefreak.co.jp/](https://www.gamefreak.co.jp/)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

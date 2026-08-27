@@ -19,18 +19,153 @@ gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第201回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-201
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 飞云市
+- 模特
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+２００回記念第２弾！
+
+飛雲市的棧橋大公開！
+
+而且，還隱藏著一點秘密（笑）
+
+來自黑·白開發時增田的資料。
+
+—–從這裡開始—–
+
+●C3(*1)的船隻停靠處的棧橋（PIER）呈手的形狀。
+
+　手掌是C3的形象。
+
+・因為是棧橋，所以浮在海面上。
+・表面是薄薄的混凝土之類的東西。
+・除了乘船處以外，設有低矮的欄杆。
+・也有長椅。
+・有繫船柱（繫纜柱）。
+
+為了停泊船隻，將船的纜繩（繩索）的環狀部分掛在岸壁的繫船柱（繫纜柱）上。
+
+※在遊戲中，船不需要纜繩（不顯示）。
+
+●各手指
+
+（１）拇指
+
+・手指中最粗的。
+・在西方文化中，握著其他手指，向上表示GOOD（肯定），向下表示DIE（否定）。
+
+　[http://ja.wikipedia.org/wiki/親指](http://ja.wikipedia.org/wiki/%e8%a6%aa%e6%8c%87)
+
+○警備艦艇OPV（Offshore Patrol Vessel）在奇數日停泊。偶數日出航（不在）
+
+（２）食指
+
+・英語中也叫INDEX FINGER。
+
+　[http://ja.wikipedia.org/wiki/人差し指](http://ja.wikipedia.org/wiki/%e4%ba%ba%e5%b7%ae%e3%81%97%e6%8c%87)
+
+○遊覽船（晚餐巡航船）。僅在傍晚（為了看日落）出航。
+
+→大型船。
+
+→作為展示方式，去程是傍晚，折返點是日落。回程也能看到夜景。
+
+（３）中指
+
+・只豎起這根手指的姿勢是侮辱對方。
+
+　[http://ja.wikipedia.org/wiki/中指](http://ja.wikipedia.org/wiki/%e4%b8%ad%e6%8c%87)
+
+○等離子團的祕密船（在素數日（2,3,5,7,11,13,17,19,23,29,31）出航（不在））
+
+→素數日以外停泊，但沒有任何提示。是誰、為了什麼目的的船，保持神秘。
+
+（４）無名指
+
+・英語中叫RING FINGER。
+・來源於用於溶解藥物或塗抹藥物。姐姐指。
+
+　[http://ja.wikipedia.org/wiki/薬指](http://ja.wikipedia.org/wiki/%e8%96%ac%e6%8c%87)
+
+○UT島往返船。
+
+（５）小指
+
+・最小的手指。
+・在日本，有切小指（指切り）表示誠意、忠誠的習俗。
+
+　[http://ja.wikipedia.org/wiki/小指](http://ja.wikipedia.org/wiki/%e5%b0%8f%e6%8c%87)
+
+○配布島船。
+
+●船A（大船（2000?3000噸級））1種。
+
+・遊覽船（主題色白色）
+
+豪華客船。
+
+重點！停泊在C3尖端時，如果能表現出巨大感的尺寸感就OK。
+
+●船B（小船（1000噸級））4種（模型1個，僅換色）。
+
+・監視船（主題色白色和紅色）
+
+・等離子團祕密船（黑色）
+
+・UT船（藍色）
+
+・配布船（黃色）
+
+重點！最先進的帥氣船。小型但高速。窗戶較少。即使只看剪影也能認出是船。
+
+—–到這裡為止—–
+
+就是這樣的感覺。
+
+(*1)C3是開發時的飛雲市。
+
+※不是最終規格，所以可能與實際有所不同。
+
+僅僅為了製作一個地方，需要調查的事情就非常多。
+
+・調查棧橋是什麼，
+・調查手指，
+・根據其意義選擇想放置的船，
+・調查船，
+・調查停泊方法，
+・調查停泊方向的意義，
+然後，整理。
+
+通過這樣一個一個的積累，賦予理由，
+從而具有說服力和力量。
+
+在創作中，感覺、感性、品味等也很重要，
+但我認為，在具備知識的基礎上發揮，能更進一步提升。
+
+大家也從“如果自己實際製作的話？”的視角
+去發現疑問並調查吧！
+
+很有趣哦！
+
+再見！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２００回記念第２弾！
 
@@ -174,6 +309,8 @@ gf_archive_id: masuda-201
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,67 @@ gf_archive: 2008-09
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第133回
   url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-133
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+以前，我写过在《白金》中创作了新曲，
+
+你知道是哪首曲子吗？？
+
+答案是「战斗！骑拉帝纳」。
+
+你觉得怎么样？
+
+这首战斗曲，以反物质、反面、生与死、悲伤为中心，
+
+以身体修长的骑拉帝纳在暴走的形象来创作的。
+
+我很少解说曲子，但偶尔也写写吧。
+
+这首曲子，从降临的遭遇音开始，以音程不稳定的倒放音开场。
+
+底鼓是像坏掉一样的破坏性声音。
+
+这是表现骑拉帝纳的重量感。
+
+踩镲像是加了效果一样，如同扭曲的空间。
+
+一度安静下来，变得诡异。
+
+悲伤感觉的乐句。
+
+军鼓是哒啦啦地高速连续播放，表现速度感。
+
+因为时间和空间扭曲，速度也在变化。
+
+继续表现骑拉帝纳的可怕、暴走的感觉。
+
+然后到达高潮。表现骑拉帝纳的强大。
+
+恢复平静。
+
+我是以这样的形象创作的。
+
+如果你能喜欢，我会很高兴。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 以前、プラチナで新曲を作りましたと、書きましたが、
 
@@ -74,6 +123,8 @@ gf_archive_id: masuda-133
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

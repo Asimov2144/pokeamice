@@ -19,18 +19,81 @@ gf_archive: 2011-05
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第193回
   url: https://www.gamefreak.co.jp/blog/dir/2011/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-193
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+去了音乐工作室！
+
+周六不巧下雨。
+
+在这样的天气里，我从东京的赤羽桥站出发，一边望着东京塔，一边前往音乐工作室！
+
+今年的电影是宝可梦史上首次两部同时上映！
+
+不是同时放映……而是分别上映两部！！
+
+片名是，
+
+「比克提尼与黑英雄捷克罗姆」和「比克提尼与白英雄莱希拉姆」
+
+而且，音乐竟然由两位作曲家分别负责！
+
+真是厉害！太豪华了。
+
+请务必对比聆听这两部音乐。
+
+作曲家宫崎先生的后脑勺！！一直承蒙关照！
+
+<img src="/assets/images/gamefreak-director/archive/193/ja/193a.jpg" alt="" loading="lazy">
+
+每一位艺术家演奏的每一件乐器。这是诞生最棒音乐的时刻。
+
+<img src="/assets/images/gamefreak-director/archive/193/ja/193b.jpg" alt="" loading="lazy">
+
+就这样，美妙的音乐被演奏出来！
+
+作曲时与影像联动，
+
+而且，工作室的监视器上也会播放影像。
+
+<img src="/assets/images/gamefreak-director/archive/193/ja/193c.jpg" alt="" loading="lazy">
+
+电影音乐真是太好了。
+
+能亲临这样的瞬间，真的非常开心。
+
+我正感动着，回去时看到了雨中的东京塔。
+
+<img src="/assets/images/gamefreak-director/archive/193/ja/193d.jpg" alt="" loading="lazy">
+
+塔顶被云层覆盖。
+
+而且，这一天的灯光秀也美丽得如同希望之光。
+
+为音乐而感动，
+
+也为东京塔而感动。
+
+真是美好的周六。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 音楽スタジオに行ってきました！
 
@@ -88,6 +151,8 @@ gf_archive_id: masuda-193
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

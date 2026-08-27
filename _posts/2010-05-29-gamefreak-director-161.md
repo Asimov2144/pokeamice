@@ -19,18 +19,57 @@ gf_archive: 2010-05
 gf_categories:
 - お知らせ
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第161回
   url: https://www.gamefreak.co.jp/blog/dir/2010/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-161
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日，日本时间上午1点整。
+
+向全世界同时公开了。
+
+宝可梦 黑
+
+宝可梦 白
+
+日本预定于2010年9月发售！！
+
+今天的读卖新闻早报上也大幅刊登了！
+
+封面宝可梦是「莱希拉姆」「捷克罗姆」。
+
+它们会有怎样的表现呢！？
+
+敬请期待。
+
+这款软件将使宝可梦觉醒。
+
+再见！
+
+日本官网：
+
+[http://www.pokemon-sp.jp/](http://www.pokemon-sp.jp/)
+
+海外官网：
+
+[http://www.pokemon.com/](http://www.pokemon.com/)
+
+※通过「SELECT LANGUAGE」可以切换语言！声音也很酷！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、日本時間午前１時００分。
 
@@ -64,6 +103,8 @@ gf_archive_id: masuda-161
 
 ※「SELECT　LANGUAGE」で言語を変えられます！音も格好いい！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,89 @@ gf_entry_title: １２周年記念企画第二弾！
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第126回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-126
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+12周年纪念企划第二弹！
+
+「宝可梦 皮卡丘版」
+
+像动画中的皮卡丘一样，皮卡丘会发出“皮卡丘”的叫声。
+
+由于Game Boy没有高性能的采样功能，
+
+必须想办法让它发出“皮卡丘”的叫声。
+
+于是，当时身为程序员的增田，
+
+制作了将声音转换为1比特数据的转换器，
+
+并编写了播放它的程序。
+
+原理是……
+
+首先，用采样器等设备将声音数字化。
+
+<img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_01_s.jpg" alt="" loading="lazy">
+
+※这个波形是帝牙卢卡的叫声。波形看起来就是这样。
+
+放大后，是这样。
+
+<img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_02_s.gif" alt="" loading="lazy">
+
+再进一步放大，
+
+<img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_03_s.gif" alt="" loading="lazy">
+
+几乎就是数字状态了。波形作为音量数据被数值化。
+
+用转换器将其转换为0和1。
+
+数据看起来……
+
+<img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_04_s.gif" alt="" loading="lazy">
+
+就是这样。（图片中的红色0和1）
+
+将哪个级别设为1也会影响声音，所以转换器准备了多种转换方式。
+
+将这些0和1用Game Boy的点击噪音（噼啪声！）这样的声音，
+
+0不发声，1发声，高速进行。
+
+这个高速进行是关键。
+
+越快音质越好。
+
+“皮卡丘”完成了。
+
+<img src="/assets/images/gamefreak-director/archive/126/multi/pt0229_05.jpg" alt="" loading="lazy">
+
+<p class="gf-director-spacer"></p>
+
+现在听还是很可爱……
+
+那么。
+
+(c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 １２周年記念企画第二弾！
 
@@ -95,6 +166,8 @@ gf_archive_id: masuda-126
 
 (c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

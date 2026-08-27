@@ -24,18 +24,50 @@ gf_archive: 2014-10
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第242回
   url: https://www.gamefreak.co.jp/blog/dir/2014/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-242
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+可喜可贺！
+
+在日本，我们获得了日本游戏大奖的
+优秀奖、最佳销量奖和全球奖，
+而在英国也！
+
+英国游戏行业的游戏大奖颁奖典礼，
+Golden Joystick Awards 2014 举行，
+《宝可梦 X》和《宝可梦 Y》被选为掌机（便携式游戏机）大奖！！
+
+这是世界上历史第二悠久的游戏奖项。
+而且，是由用户投票选出的奖项。
+
+真的，有这么多人游玩，
+并给予支持，我充满了感激之情。
+
+衷心感谢。
+
+还有，参与了这个充满挑战且艰难的开发的各位工作人员，
+实现了全球同步发行的本地化团队的各位，
+我们获得了这份荣誉奖项！
+
+<img src="/assets/images/gamefreak-director/archive/242/multi/141031_01.jpg" alt="" loading="lazy">
+<img src="/assets/images/gamefreak-director/archive/242/multi/141031_02.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 めでたい！
 
@@ -62,6 +94,8 @@ Pokémon X, Pokémon Yがハンドヘルド（携帯機ゲーム）大賞に選�
 <img src="/assets/images/gamefreak-director/archive/242/multi/141031_01.jpg" alt="" loading="lazy">
 <img src="/assets/images/gamefreak-director/archive/242/multi/141031_02.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

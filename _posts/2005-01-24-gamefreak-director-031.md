@@ -18,18 +18,72 @@ gf_entry_title: みなさん！ ユーゲー（ＵＳＥＤ　ＧＡＭＥＳ）
 gf_archive: 2005-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第31回
   url: https://www.gamefreak.co.jp/blog/dir/2005/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-031
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 仿效
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位！
+
+如果看到一本叫《ユーゲー》（USED GAMES）的杂志，，，
+
+请什么都不说直接买下来！！！
+
+因为，里面附带了 GAME FREAK 的第一部作品《クインティ》的
+
+迷你 CD！这是《クインティ》的首张 CD 哦！
+
+哎呀，真让人高兴啊。这种事。
+
+《クインティ》是增田第一次创作游戏音乐，也是确立游戏音乐这种
+
+思考方式的契机软件。
+
+而且，最重要的是通过这个软件的开发，
+
+与田尻和杉森相遇，这是最重要、最重大的事情。
+
+在人生中也是。在思考方式和价值观上也是。是的。
+
+他们是非常厉害、非常出色的人。
+
+当田尻说起模仿咪咪（まねっこミミー）这个角色的创意时，
+
+（模仿主人公的敌人。操作时咪咪（敌人）也会动，停下来咪咪也会停下来！）
+
+我提议说：“那音乐也做成操作停下来就停下来的样子吧！”
+
+但田尻已经知道了游戏音乐的本质，
+
+我记得他说：“好啊，有意思！”
+
+那个想法，虽然我觉得也是从玩《吃豆人》《铁板阵》等游戏多年的经验中
+
+产生的，但同时也是我确信游戏音乐与互动性的关系很重要的时刻。
+
+而且，至今增田的音乐手法也没有改变。
+
+游戏音乐，首先是游戏本身。我是这么想的。
+
+说不定，与爵士乐、歌剧、芭蕾音乐的想法很接近呢。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん！
 
@@ -79,6 +133,8 @@ gf_archive_id: masuda-031
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

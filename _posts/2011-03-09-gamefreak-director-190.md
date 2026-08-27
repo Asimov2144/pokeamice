@@ -19,18 +19,120 @@ gf_archive: 2011-03
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第190回
   url: https://www.gamefreak.co.jp/blog/dir/2011/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-190
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 6
+glossary_missing_targets:
+- 大钳蟹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+回到日本了！
+
+这是伦敦・纽约的照片特辑！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190a.jpg" alt="" loading="lazy">
+
+这就是白地毯！　右后方是名为「Sound」的俱乐部入口！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190b.jpg" alt="" loading="lazy">
+
+行走的增田！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190c.jpg" alt="" loading="lazy">
+
+在舞台上用英语演讲！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190d2.jpg" alt="" loading="lazy">
+
+正在说「Thank you！」。大概吧（笑）
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190e.jpg" alt="" loading="lazy">
+
+转盘对战进行中！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190f.jpg" alt="" loading="lazy">
+
+发售日，很多人一大早就来排队了！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190g.jpg" alt="" loading="lazy">
+
+杉森和增田正在签名！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190h.jpg" alt="" loading="lazy">
+
+签名中！！
+
+前往纽约
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190i.jpg" alt="" loading="lazy">
+
+在新泽西的购物中心。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190j.jpg" alt="" loading="lazy">
+
+这里也有那辆卡车！！！！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190k.jpg" alt="" loading="lazy">
+
+和人对比一下就能看出大小了。。。好大。。。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190l.jpg" alt="" loading="lazy">
+
+前一天5日的NINTENDO WORLD。大家都在排队！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190m.jpg" alt="" loading="lazy">
+
+里面也挤得水泄不通。。。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190n.jpg" alt="" loading="lazy">
+
+活动会场的试玩台。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190o.jpg" alt="" loading="lazy">
+
+捷克罗姆、莱希拉姆也在！！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190p.jpg" alt="" loading="lazy">
+
+真人版红豆杉博士。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190q.jpg" alt="" loading="lazy">
+
+前往布鲁克林大桥！！　对岸就是飞云市。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190r.jpg" alt="" loading="lazy">
+
+七宝市。
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190s.jpg" alt="" loading="lazy">
+
+发售日当天！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190t.jpg" alt="" loading="lazy">
+
+说到北美，就是GAME STOP！！
+
+<img src="/assets/images/gamefreak-director/archive/190/ja/190u.jpg" alt="" loading="lazy">
+
+店内有攻略本。
+
+不知大家有没有感受到那种氛围呢！？
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 日本に戻りました！
 
@@ -126,6 +228,8 @@ NYへ
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

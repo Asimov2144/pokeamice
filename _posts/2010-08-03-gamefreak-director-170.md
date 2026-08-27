@@ -18,18 +18,55 @@ gf_entry_title: 今回のブラック・ホワイトでは、 エンディング
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第170回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-170
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+这次的《黑·白》中，
+
+直到结局，全部都是新宝可梦。
+
+只会出现新宝可梦！
+
+这是为了让小孩和大人都能站在同一起跑线上，
+
+并且像红·绿那样，想呈现出“这是什么宝可梦？”的乐趣。
+
+让公司外部的人试玩时的感受是……
+
+“果然全是没见过的宝可梦，很新鲜。”
+
+“不知道宝可梦的属性，也会被招式吓到呢。”
+
+“感觉像是在玩（像红·绿那时一样的）全新作品。”
+
+等等……评价非常好。
+
+宝可梦的设计是非常辛苦的工作，但……
+
+我们公司的图形工作人员也说：
+
+“只要大家能玩得开心，我们就很高兴！”
+
+所以，请务必务必试玩一下！！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今回のブラック・ホワイトでは、
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-170
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

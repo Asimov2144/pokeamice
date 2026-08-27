@@ -19,18 +19,63 @@ gf_archive: 2004-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第5回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-005
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 6
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天是美国在广岛投下原子弹的日子。默哀。
+
+这是极其悲惨的事。绝不能重演。战争绝不允许。
+
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+
+从明天开始，GAME FREAK 进入暑假。
+
+真好啊——假期。
+
+那么，要去旅行的各位！
+
+不仅是红宝石·蓝宝石，火红·叶绿也
+
+已经可以和全世界的人对战、交换了！
+
+计划去海外旅行的人！
+
+带上宝可梦卡带和 Game Boy Advance，
+
+和陌生人交换宝可梦或对战吧！
+
+我们相信全世界交流的可能性，
+
+也创造了“宝可梦”“皮卡丘”“固拉多”“基拉祈”等
+
+共通语言。
+
+电影里出现的宝可梦在全世界都是共通的。
+
+请在海外试着喊喊“洛奇亚”或“皮卡丘”吧。
+
+一定会有人回头看你。
+
+然后，无论大人还是孩子，都在全世界交朋友吧！！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日は、広島に米国の原子爆弾が落とされた日です。黙祷。
 
@@ -70,6 +115,8 @@ gf_archive_id: masuda-005
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

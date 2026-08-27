@@ -18,18 +18,79 @@ gf_entry_title: ルビー、サファイア、ファイアレッド、リーフ�
 gf_archive: 2004-10
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第21回
   url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-021
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+红宝石、蓝宝石、火红、叶绿、绿宝石的
+
+各款软件中，都稍微加入了一点盲文。
+
+盲文其实在很多地方都有吧。
+
+导览图、电梯、厕所、罐装啤酒、站台扶手等等。
+
+但是，别说读了，连构造都不知道的人是不是很多呢？
+
+其实我也完全不知道。
+
+最初产生兴趣，是在看到下北泽站的导览图的时候。
+
+明明有这么多人，能读这张导览图上盲文的
+
+人又有多少呢？
+
+原本我以为这是视力障碍者通过触摸来阅读的东西，所以
+
+觉得自己不知道也无所谓。
+
+但是，仔细想想，这是理所当然的事，
+
+我意识到“不触摸也能阅读”。
+
+于是，为了让玩宝可梦的众多玩家，
+
+能在不知不觉中熟悉盲文，我稍微加入了一些。
+
+不是教育，而是采用了游戏独有的发现与兴趣的切入点。
+
+不是让人记住，而是让人想记住。这样的切入点。
+
+知道盲文、能稍微读一点，并且这是理所当然的社会。
+
+无论是谁，都能一起做些什么的社会。
+
+我认为这样的理想社会就是宝可梦的基础。
+
+哪怕只有一个人能感受到什么，我也觉得很好。
+
+另外，盲文的圈子在海外也在扩大。
+
+在北美、德国、法国、意大利、西班牙等海外语言中，
+
+也加入了各国的盲文。
+
+对在盲文方面给予协助的各位，深表感谢。
+
+谢谢大家。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ルビー、サファイア、ファイアレッド、リーフグリーン、エメラルドの
 
@@ -85,6 +146,8 @@ gf_archive_id: masuda-021
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

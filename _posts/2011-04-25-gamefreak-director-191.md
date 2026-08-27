@@ -18,18 +18,67 @@ gf_entry_title: このたびの東北地方太平洋沖地震におきまして�
 gf_archive: 2011-04
 gf_categories:
 - 未分類
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第191回
   url: https://www.gamefreak.co.jp/blog/dir/2011/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-191
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在此次东北地方太平洋近海地震中，
+
+为众多遇难者衷心祈愿冥福。
+
+向受灾的各位及其家人致以诚挚的慰问。
+
+衷心祈愿大家能早日过上安心的生活，并早日实现复兴。
+
+在如此巨大的震灾面前，
+
+游戏这种“娱乐”虽然起不了什么作用，
+
+但作为宝可梦品牌，也作为一家公司，我们将尽绵薄之力协助复兴。
+
+GAME FREAK 全体员工均平安无事，
+
+但要恢复到能愉快开发的状况，恐怕还需要一些时间。
+
+然而，考虑到灾区的复兴和日本经济，
+
+我认为我们努力下去是有意义的。
+
+那么，4月21日，韩版《黑·白》终于发售了。发售日当天，我去了韩国的活动，
+
+粉丝们的温柔与热情真的让我非常惊讶。
+
+在寒冷中前来的各位，真的非常感谢！
+
+※关于韩国活动的情况，我会整理好照片后，在下一篇专栏中介绍。
+
+并且这一天，宝可梦全球连接（PGL）也连接了全世界。
+
+[http://www.pokemon-gl.com/languages/](http://www.pokemon-gl.com/languages/)
+
+请全世界支持宝可梦的各位，
+
+为日本，为东北地区加油。
+
+恳请多多关照。
+
+（株）GAME FREAK 董事 开发本部长 增田顺一
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 このたびの東北地方太平洋沖地震におきまして、
 
@@ -73,6 +122,8 @@ gf_archive_id: masuda-191
 
 （株）ゲームフリーク取締役開発本部長　増田順一
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

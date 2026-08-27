@@ -20,18 +20,63 @@ gf_entry_title: ついに、３月４日に欧州が！ http://www.pokemonblackw
 gf_archive: 2011-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第184回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-184
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+终于，3月4日欧洲！
+
+[http://www.pokemonblackwhite.com/fr-fr/](http://www.pokemonblackwhite.com/fr-fr/)
+
+[http://www.pokemonblackwhite.com/es-es/](http://www.pokemonblackwhite.com/es-es/)
+
+[http://www.pokemonblackwhite.com/it-it/](http://www.pokemonblackwhite.com/it-it/)
+
+[http://www.pokemonblackwhite.com/de-de/](http://www.pokemonblackwhite.com/de-de/)
+
+[http://www.pokemonblackwhite.com/en-gb/](http://www.pokemonblackwhite.com/en-gb/)
+
+然后3月6日！北美！
+
+[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)
+
+终于要发售了！
+
+由此，宝可梦 黑·白将“进化”一个阶段。
+
+可以和世界各地的人们进行交换了。
+
+而且最重要的是这次……
+
+欧洲和北美几乎同时发售，这是宝可梦史上首次的壮举！
+
+增田为此，现在正在伦敦接受采访。
+
+昨天有8家媒体，今天也差不多。
+
+虽然辛苦，但我会加油的！
+
+希望能传达给更多的人！
+
+然后，希望能在全世界连接、扩展，让大家享受乐趣！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ついに、３月４日に欧州が！
 
@@ -71,6 +116,8 @@ gf_archive_id: masuda-184
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,59 @@ gf_archive: 2007-08
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第97回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-097
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在北美，面向宝可梦粉丝的交换活动已经开始了！
+
+这是将 GAME FREAK 的 3 只可达鸭（Psyduck）与
+
+北美玩家的小火马（Ponyta）进行交换的活动。
+
+在 View Interview Video 中，
+
+我害羞地说了英语。（视线……）
+
+最初是打算用日语说然后配上字幕的，
+
+但那边的孩子们很少看字幕，
+
+而且觉得如果因为字幕而让内容显得难懂就不好了，
+
+同时也希望热情和真实感能传达给孩子们……
+
+于是临时决定，全部用英语来说！
+
+我练习了相当多哦……
+
+因为老师耐心地教了我很多次，
+
+所以似乎总算达到了孩子们也能听懂的英语水平。
+
+太好了太好了……
+
+那么。
+
+【NOA 官方网站：Pokemon-games】
+
+[http://www.pokemon-games.com/portal/gamenews.jsp](http://www.pokemon-games.com/portal/gamenews.jsp)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 北米でポケモンファン向けの交換キャンペーンが開始されました！
 
@@ -66,6 +107,8 @@ View Interview Videoの中で、
 
 [http://www.pokemon-games.com/portal/gamenews.jsp](http://www.pokemon-games.com/portal/gamenews.jsp)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

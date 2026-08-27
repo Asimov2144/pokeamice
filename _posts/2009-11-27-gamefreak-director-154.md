@@ -18,18 +18,55 @@ gf_entry_title: ようやくブルーレイが発売されました！ 「スタ
 gf_archive: 2009-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第154回
   url: https://www.gamefreak.co.jp/blog/dir/2009/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-154
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+蓝光终于发售了！
+
+「星际迷航　为何挑战」
+
+真是太厉害了！
+
+做得非常好！
+
+光是开头的音效就让人起鸡皮疙瘩！
+
+标题响起时的音乐也让人起鸡皮疙瘩！
+
+做得太棒了！
+
+哎呀，好电影真是让人受到刺激啊。
+
+场景、时代、未来感等表现也极为出色。
+
+不仅仅是旁白和文字，还能巧妙地说明细节，真是厉害！
+
+剧本的推敲、对话、影像、音乐，全都非常精彩！
+
+推荐！
+
+※没看过星际迷航的人，
+
+请先看威廉·夏特纳担任舰长的旧作再来。
+
+再见！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ようやくブルーレイが発売されました！
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-154
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

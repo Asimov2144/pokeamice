@@ -19,18 +19,62 @@ gf_archive: 2012-11
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第229回
   url: https://www.gamefreak.co.jp/blog/dir/2012/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-229
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 武德
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+太高兴了！！
+
+又一次，签名会决定了！！
+
+2012年12月16日（周日）11点和14点，在Animate秋叶原店
+
+将举办增田的签名会（先到先得・整理券制）！
+
+在Animate举办签名会还是第一次！！非常期待！！
+
+详情请查看宝可梦官方网站！
+
+[http://www.pokemon.co.jp/info/2012/11/121130_e01.html?f001=news](http://www.pokemon.co.jp/info/2012/11/121130_e01.html?f001=news)
+
+然后，从今天起到12月9日（周日）为止，
+
+关于GAME FREAK制作的「[宝可梦](http://www.pokemon.co.jp)」自不必说，
+
+关于GAME FREAK原创最新作「[节奏猎人哈莫奈特](https://www.gamefreak.co.jp/harmoknight/index.html)」的问题，
+
+将在[增田的推特](http://twitter.com/#%21/Junichi_Masuda)上大募集！
+
+提问时请加上#masuda_sign的标签！
+
+我们会从提问中挑选几个，在签名会当天回答！
+
+之后，我也会在这个博客上公开当天的情形，敬请期待！
+
+期待与大家见面！！
+
+啊，还没有玩过哈莫奈特的朋友，
+
+请在当天之前，务必试玩一下哈莫奈特哦！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 嬉しい！！
 
@@ -68,6 +112,8 @@ gf_archive_id: masuda-229
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

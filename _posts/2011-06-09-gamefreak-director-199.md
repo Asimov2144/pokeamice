@@ -18,18 +18,125 @@ gf_entry_title: 今日もＥ３に。
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第199回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-199
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天也去了E3。
+
+果然入口处有坦克（笑）！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199a.jpg" alt="" loading="lazy">
+
+然后，，，参观完主要场所之后，，，
+
+探索周边设备。意外地从以前就喜欢呢。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199b.jpg" alt="" loading="lazy">
+
+哦——，想要这样的放在家里（笑）！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199c.jpg" alt="" loading="lazy">
+
+哦哦哦！兰博基尼！！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199d.jpg" alt="" loading="lazy">
+
+最喜欢的兰博基尼竟然有这么多。。。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199e.jpg" alt="" loading="lazy">
+
+座椅也是！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199f.jpg" alt="" loading="lazy">
+
+太厉害了。。。真的，好厉害！
+
+在别的地方有穹顶屏幕。
+
+180度影像展开。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199g.jpg" alt="" loading="lazy">
+
+这个也很厉害！
+
+发现！三屏幕的赛车游戏。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199h.jpg" alt="" loading="lazy">
+
+啊，这边也有。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199i.jpg" alt="" loading="lazy">
+
+哎呀呀，这里也有。。。每家一台，怎么样？
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199j.jpg" alt="" loading="lazy">
+
+然后，，，
+
+找到了找到了。Vita。找到了！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199k.jpg" alt="" loading="lazy">
+
+想做出有趣的游戏啊。。。
+
+1972年创立世界首家商业游戏公司的雅达利。
+
+摆放着机台。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199l.jpg" alt="" loading="lazy">
+
+鲤——鱼——旗——♪
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199m.jpg" alt="" loading="lazy">
+
+嗯，好雄伟的体型。这个看起来赢不了啊。嗯。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199n.jpg" alt="" loading="lazy">
+
+好可怕啊——。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199o.jpg" alt="" loading="lazy">
+
+活动设备好厉害。好可怕。
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199p.jpg" alt="" loading="lazy">
+
+很多电视游戏。
+
+看点也很多。该学习的地方也很多。
+
+受到了刺激。
+
+这样业界之间互相切磋琢磨，
+
+希望能通向未来，这样祈祷着离开了今年的E3。
+
+哎呀，游戏真是最棒的娱乐啊！！
+
+那么！
+
+<img src="/assets/images/gamefreak-director/archive/199/ja/199q.jpg" alt="" loading="lazy">
+
+Ciao！！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日もＥ３に。
 
@@ -129,6 +236,8 @@ gf_archive_id: masuda-199
 
 チャオ！！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

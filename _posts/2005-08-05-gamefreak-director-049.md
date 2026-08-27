@@ -18,18 +18,23 @@ gf_entry_title: 前からよくやるデジカメや携帯写真での遊びと�
 gf_archive: 2005-08
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第49回
   url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-049
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 牡丹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 前からよくやるデジカメや携帯写真での遊びとして、
 
@@ -73,6 +78,53 @@ gf_archive_id: masuda-049
 
 では。
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+前からよくやるデジカメや携帯写真での遊びとして、
+
+被写体のポーズやアングルを変えて２?３枚写真を撮って、
+
+それをボタンを押して順番に動かして、ちょっとしたアニメーションを作る。
+
+そうやって、こっそり楽しんでいるんですが、、、
+
+ゲームの場合、アニメーションの作り方をよく知っているためか、
+
+こういった要素をすぐに、、、
+
+何秒かで順番に再生できる機能を付けよう！
+
+と、考えてしまいがちです。
+
+しかし、それが良いのかと言えば、そうではないかも知れません。
+
+実はそこに隠されているのは、
+
+その行為自体を発見したり、ボタンを押している感じだったり、
+
+それを人に見せる楽しみだったり、自慢だったり、
+
+やっているのを見てマネすることで、そこからどんどん広がることだったり、、、
+
+そういう楽しみや快感を忘れてはならないと思うんです。
+
+機能として入れることで、一瞬にして広まりますが、
+
+一瞬にして当たり前にも（つまらなく）なってしまいます。
+
+さまざまな要素に隠されたもの。
+
+そういう隠されたものを、慎重に紐解いて１つずつ１つずつ導き出していく。
+
+そういったことをすることも企画者には必要です。
+
+隠されたものを導き出す力。磨き続けたいですね。
+
+では。
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,190 @@ gf_entry_title: ■今回は夏休み写真特集！
 gf_archive: 2010-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第174回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-174
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 7
+glossary_missing_targets:
+- 游乐项目
+- 拟态
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+■这次是暑假照片特辑！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174a.jpg" alt="" loading="lazy">
+
+今年夏天，这个大会也非常热闹！
+
+8月13日到15日，
+
+宝可梦世界锦标赛（WCS）在夏威夷岛举办！
+
+夏威夷岛是火山岛，像生物一样充满活力。。。
+
+全是熔岩！据说有两种熔岩。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174b.jpg" alt="" loading="lazy">
+
+从希尔顿酒店房间看到的景色！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174c.jpg" alt="" loading="lazy">
+
+和日本不同，湿度低，很舒服～！
+
+好想快点游泳～！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174d.jpg" alt="" loading="lazy">
+
+在巨大的酒店内移动靠这辆电车！
+
+移动速度超慢（笑）
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174e.jpg" alt="" loading="lazy">
+
+WCS会场！巨大的皮卡丘，飘浮着皮卡丘！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174f.jpg" alt="" loading="lazy">
+
+和稍微有点腿长的皮卡丘合影！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174g.jpg" alt="" loading="lazy">
+
+有空的日子环岛一周！
+
+据说这是发明了罗可莫可的店，在希洛这个城市！
+
+这个又便宜又好吃！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174h.jpg" alt="" loading="lazy">
+
+基拉韦厄火山正在活动！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174i.jpg" alt="" loading="lazy">
+
+第一次见到。
+
+这就是咖啡果实。
+
+剥开这红色的果实，里面是绿色的咖啡豆。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174j.jpg" alt="" loading="lazy">
+
+然后，用这种机器烘焙！！这意外地有趣！
+
+可以做个咖啡烘焙游戏呢（笑）
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174k.jpg" alt="" loading="lazy">
+
+现在，正在攀登茂纳凯亚山2800米！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174l.jpg" alt="" loading="lazy">
+
+到达了比富士山顶还高的4200米！！真的超冷！！
+
+看到的4个物体是宇宙观测站。最左边是日本的“昴星团望远镜”
+
+由此，制霸了夏威夷岛的纵横！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174m.jpg" alt="" loading="lazy">
+
+再次来到WCS会场。接受宝可梦☆星期天采访的森本和增田。
+
+这个节目预定在东京电视台系列9月5日播出。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174n.jpg" alt="" loading="lazy">
+
+签名会。来了很多人！
+
+谢谢大家！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174o.jpg" alt="" loading="lazy">
+
+嗯？我可是认真在签名哦。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174p.jpg" alt="" loading="lazy">
+
+在台上和青少年组世界第一的冠军握手。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174q.jpg" alt="" loading="lazy">
+
+大家，真的非常感谢你们热情而高水平的对战！！
+
+哪个国家，以及谁征服了世界！？在卡牌游戏中，还诞生了首位女性冠军！
+
+详情请看这里！
+
+[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
+
+看视频（ViDeOS）的话，也许能感受到那份热情吧！？
+
+增田，想让这个电子游戏世界大会更加更加热闹！
+
+然后。。。回国。。。
+
+8月19日，为了录制宝可梦☆星期天来到演播室。
+
+聊了不少关于黑/白的内容。
+
+这个预定在9月12日播出！请一定要看哦！！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174r.jpg" alt="" loading="lazy">
+
+8月22日，去了。
+
+来到东京塔的宝可梦搜索器黑/白！
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174s.jpg" alt="" loading="lazy">
+
+“大人也可以坐吗？”这样说着，增田享受了第三次。
+
+怎么说呢，做得很好。即使是大人，也真的很有趣的游乐设施哦。
+
+然后。。。
+
+8月28日，清晨有黑/白音乐收录的工作，之后。。。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174t.jpg" alt="" loading="lazy">
+
+去了有5万人聚集的音乐活动，a-nation！！
+
+享受其中的增田和株式会社宝可梦的古贺先生！！
+
+※远处看起来像小颗粒的。。。是人！！
+
+铃木亚美、AAA、滨崎步，果然厉害。超嗨！
+
+也再次确认了东方神起的人气。。。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174u.jpg" alt="" loading="lazy">
+
+挥舞着毛巾，真的享受其中的增田！！！！！
+
+毛巾。。。真的，太棒了。好开心。。。
+
+<img src="/assets/images/gamefreak-director/archive/174/ja/174v.jpg" alt="" loading="lazy">
+
+宝可梦搜索器黑/白也来到了会场哦ー！！
+
+就这样，增田的夏天过去了。。。
+
+然后，今天9月1日起，去西雅图和伦敦出差！出发！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ■今回は夏休み写真特集！
 
@@ -193,6 +365,8 @@ WCS会場！でかピカチュウ、浮いてまチュウ！
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,50 @@ gf_archive: 2009-03
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第142回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-142
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在宝可梦☆星期天首次公开秘密情报！！
+
+3月15日（周日）早上7点30分，东京电视台的[《宝可梦☆星期天》](http://www.tv-tokyo.co.jp/anime/pokemon_sunday/)中，
+
+将和翔子炭、两位执行制片人一起，增田也会出场！
+
+※我本来觉得一定会被执行制片人这个头衔卡住说不出来，
+
+　但总算说出来了，所以很期待这段会不会被剪掉（笑）
+
+这次的情报（还是秘密）是宝可梦☆星期天首次公开，所以大家一定要看哦！！
+
+顺便说一下……
+
+增田因为14日（周六）起要取材白金版，
+
+临时决定要去旧金山的任天堂公司！
+
+作为桥梁爱好者，金门大桥是无论如何都想亲眼看看的地方！
+
+从现在开始就很期待了！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケモン☆サンデーで秘密の情報初出！！
 
@@ -56,6 +88,8 @@ gf_archive_id: masuda-142
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

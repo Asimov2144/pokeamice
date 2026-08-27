@@ -19,18 +19,63 @@ gf_entry_title: 先日、会議室と併用でシアタールームを構築し�
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第39回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-039
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+前几天，将会议室兼用构建了影院室。
+
+投射在120英寸屏幕上的影像真是壮观。
+
+而且，JBL扬声器的好莱坞式攻击音。
+
+即使是以前没什么感觉的电影，也会因声压和声音的移动而感到震撼和恐惧。
+
+哎呀，真是最强啊。
+
+明显和家里不一样。。。太棒了。
+
+今后，每周五应该会举办上映会吧。
+
+事情的起因是，
+
+想要一个能感受到声音的精彩、对声音的执着、
+
+影像的美丽、力量、冲击力等，
+
+能极致享受娱乐的场所。
+
+因为我们是在娱乐产业工作，
+
+希望大家能从各种角度、立场去感受影像和音响，以及它们的力量。我是这么想的。
+
+电视游戏需要交互式地操作影像和音响，
+
+以产生游戏性，
+
+所以我认为经常接触最新的影像和音响也是必要的。
+
+然后，希望刺激和感动、新的想法和交流能够产生。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 先日、会議室と併用でシアタールームを構築しました。
 
@@ -70,6 +115,8 @@ TVゲームは映像、音響をインタラクティブに操作して、
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,61 @@ gf_entry_title: 東京国立博物館で展示中の「レオナルド・ダ・�
 gf_archive: 2007-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第87回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-087
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在东京国立博物馆展出的“列奥纳多·达·芬奇”特别展。
+
+大家都看过了吗？
+
+画作自不必说，达·芬奇的哲学和思想也非常有趣。
+
+他一定是个研究热情、追求型、好奇心旺盛、喜欢发明和发现的人吧。
+
+他就是给人这种感觉的人物。
+
+充满高度锤炼的思想的东西艺术性很高，
+
+用“品质高”这个词来形容似乎不太合适。
+
+直到去世前他画的画数量不多，
+
+但他的知识、技术、构思真是惊人。
+
+《受胎告知》仅凭一棵树就让人联想到异世界。
+
+如果没有铸造巨大铸件的经历，也许就不会有那样的灵感，
+
+但他仔细研究马的整体和脸部比例等，这一点也很厉害。
+
+发明空气远近法也很厉害。
+
+——像这样，能出个“我说了多少次‘厉害’？”的谜题，真是厉害！
+
+总觉得，固定观念被打破，价值观也被打破，
+
+在各种意义上受到了舒适的刺激。
+
+这个展览到本周日（17日）就结束了，请尽早前往！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 東京国立博物館で展示中の「レオナルド・ダ・ヴィンチ」特別展。
 
@@ -67,6 +110,8 @@ gf_archive_id: masuda-087
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

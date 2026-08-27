@@ -18,18 +18,63 @@ gf_entry_title: 本日、２００６年２月２７日 「ポケットモンス
 gf_archive: 2006-02
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第56回
   url: https://www.gamefreak.co.jp/blog/dir/2006/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-056
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本日、2006年2月27日
+
+「宝可梦 红＆绿」发售正好10年了！
+
+时间过得真快啊。
+
+感觉就像是一直在追逐着扩散到全世界、变得巨大的宝可梦，
+
+一直奔跑着过来的。
+
+10年前的1996年发售，成为全世界喜爱的软件的「红＆绿」。
+
+以它为基础，加入了新的玩法，扩展了宝可梦的世界。
+
+即使推出新作也不提高难度，一直以相同的姿态制作。
+
+「勿忘初心」是我一直思考的事情。
+
+而且，真的是很多人的支持成为了力量的源泉。
+
+等待「钻石＆珍珠」发售也是其中之一，
+
+在主页等地方留言也是。
+
+大家因为宝可梦而热闹起来，这成为了巨大的力量。
+
+正因为有大家的支持，这10年才能走过来。
+
+总之，活用得到的力量，为了超越期待，
+
+这款在宝可梦诞生10周年发售的软件，
+
+「宝可梦 钻石＆珍珠」
+
+我会把它打磨成终极的宝可梦软件！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 本日、２００６年２月２７日
 
@@ -71,6 +116,8 @@ HPなどで書き込みしてくれていることもそうです。
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

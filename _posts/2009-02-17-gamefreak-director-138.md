@@ -18,18 +18,85 @@ gf_entry_title: マスダのやっている色々な仕事のうちの１つを�
 gf_archive: 2009-02
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第138回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-138
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+增田所做的各种工作之一，在此介绍。
+
+那就是、、、
+
+从去年开始制作资料、、、
+
+用 PowerPoint 整理、、、
+
+一边学习、、、
+
+也进行了几次彩排、、、
+
+是的。
+
+2月4日、5日，我们举办了公司说明会！
+
+[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://www.gamefreak.co.jp/recruit/rec_info090216.html)
+
+将电视游戏分解为“游玩、操作、世界观、玩伴”这四个部分，
+
+再从每一个部分进一步分解，讲述了游玩的重要性。
+
+而后半部分当然是 GAME FREAK 的“造物”理念。
+
+在短短15分钟的时间里，不知道传达了多少，
+
+但哪怕只传达了一点点，我也会很高兴。
+
+大家真的都非常认真地听讲。
+
+因为是与平时开发完全不同的业务，
+
+真的、、、学到了很多东西。
+
+参加了说明会并产生共鸣的各位，
+
+请务必和我们一起创造出新的游玩方式吧！
+
+当然，这次没能参加说明会的各位，
+
+也期待在面试中与你们相见！
+
+期待大家的应聘！
+
+<img src="/assets/images/gamefreak-director/archive/138/multi/mz090217_01.jpg" alt="" loading="lazy">
+
+认真地分解电视游戏。
+
+<img src="/assets/images/gamefreak-director/archive/138/multi/mz090217_02.jpg" alt="" loading="lazy">
+
+稍微休息一下。。。（国际论坛真帅气、、、）
+
+<img src="/assets/images/gamefreak-director/archive/138/ja/mz090217_03.jpg" alt="" loading="lazy">
+
+平时在开发中发挥才能的员工们，也显得有些疲惫。。。
+
+说明会结束后，大家一起拍了张照！辛苦了。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 マスダのやっている色々な仕事のうちの１つをご紹介。
 
@@ -91,6 +158,8 @@ gf_archive_id: masuda-138
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,99 @@ gf_entry_title: ９月２日（日）大阪で行われたパルシティに行�
 gf_archive: 2007-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第101回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-101
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+9月2日（周日），我去了在大阪举办的 Pal City！
+
+没错。
+
+宝可梦联盟 DP2007 的日本冠军决定战就在这里举行！
+
+增田颁发的奖杯究竟会落入谁的手中！
+
+期待之情愈发高涨。
+
+首先，从全国6个会场（福冈、札幌、幕张、名古屋、横滨、大阪）
+
+在两个联盟中获胜的12名选手的战斗开始！
+
+观众人数惊人！
+
+招式命中时异乎寻常的沸腾！
+
+以日本第一为目标的12名选手，让会场火热！火热！
+
+然后4名选手进入决赛。
+
+日本冠军决定战在舞台上进行。
+
+交战的两人，以及注视着他们的观众。
+
+没错，这正是游戏！
+
+没错，这就是游戏的精彩之处。
+
+像足球、棒球等体育运动一样，选手们让观众沸腾了！
+
+真的非常感动。
+
+再次感受到了游戏的深厚力量。
+
+然后……
+
+小学生以下组中，名古屋代表的可爱女孩成为了日本冠军！！
+
+而中学生以上组中，当天被选为大阪代表的大阪男孩成为了日本冠军！
+
+花时间精心培育宝可梦，制定战略，
+
+预测对手会如何行动？然后冷静而准确地选择招式……
+
+就这样，他们赢得了日本第一的荣誉。
+
+真是了不起的才能啊。
+
+真的，由衷地祝贺你们！
+
+还有虽然努力了但未能获得第一名的10名选手！
+
+即便如此，你们也是地区大赛的冠军！非常厉害！
+
+希望你们不要气馁，继续努力参赛！
+
+谢谢你们！
+
+今后也想继续举办全国规模的战斗大会。
+
+与观众融为一体的充满现场感的公开型宝可梦对战。
+
+真的，太棒了！！
+
+然后！！！
+
+果然，也想举办全球规模的世界大赛！！！
+
+那么。
+
+<img src="/assets/images/gamefreak-director/archive/101/multi/101b.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/101/multi/101a.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ９月２日（日）大阪で行われたパルシティに行ってきました！
 
@@ -105,6 +186,8 @@ gf_archive_id: masuda-101
 
 <img src="/assets/images/gamefreak-director/archive/101/multi/101b.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/101/multi/101a.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

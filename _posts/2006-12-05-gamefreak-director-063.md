@@ -18,18 +18,58 @@ gf_entry_title: １１月２９日から１２月２日まで２泊４日！と�
 gf_archive: 2006-12
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第63回
   url: https://www.gamefreak.co.jp/blog/dir/2006/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-063
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 负电
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+从11月29日到12月2日，以2晚4天的日程
+
+去了西雅图。
+
+这次是为了进行本地化（翻译成其他语言）的工作，但是……
+
+哎呀，那天的西雅图真是冷啊冷啊……
+
+而且，据说那里很少下雪，但到达那天却下雪了！
+
+更是冷得不得了……
+
+据说最低气温是零下8度！
+
+哎呀，虽然穿了不少，但还是觉得冷啊……
+
+在西雅图的工作因为时差关系相当辛苦，
+
+虽然时间短，但收获颇丰，完成了一项非常好的工作。
+
+由北美和日本最优秀的员工们打造的北美版钻石·珍珠即将完成！
+
+完成度将会超越以往的宝可梦系列！期待满满啊。
+
+虽然发售还要等一段时间，但终极交换，全球贸易站！
+
+与北美玩家的交换！
+
+从现在起就非常期待！！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 １１月２９日から１２月２日まで２泊４日！というスケジュールで
 
@@ -63,6 +103,8 @@ gf_archive_id: masuda-063
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

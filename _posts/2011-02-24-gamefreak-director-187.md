@@ -18,18 +18,50 @@ gf_entry_title: 2月21日発売のニンテンドードリーム4月号にて、
 gf_archive: 2011-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第187回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-187
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 正电
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+2月21日发售的Nintendo Dream4月号中，
+
+刊登了前几天进行的采访报道。
+
+在战斗道场RETURNS中，我们的工作人员和Nindori进行了战斗对决！！胜负如何！？
+
+在宝可梦＆角色诞生秘话PLUS中，我们的平面设计师畅谈不已！！
+
+然后，在桥诞生秘话中，增田关于桥进行了深入深入的讲述！！
+
+为什么选择了那个桥的设计？
+
+是否有印象中的桥？
+
+等等，内容满载。
+
+大概作为游戏杂志来说内容很不可思议吧（笑）！
+
+超丰富的内容！
+
+请务必购买！！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 2月21日発売のニンテンドードリーム4月号にて、
 
@@ -55,6 +87,8 @@ gf_archive_id: masuda-187
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

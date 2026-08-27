@@ -18,18 +18,53 @@ gf_entry_title: いつのまに！！！
 gf_archive: 2012-01
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第218回
   url: https://www.gamefreak.co.jp/blog/dir/2012/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-218
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+不知不觉中！！！
+
+在海外的娱乐信息网站·IGN上，
+
+IGN’s Top 30 Games People of 2011
+
+中，，，
+
+被选中了（笑）
+
+这里，这里。
+
+[http://games.ign.com/articles/121/1215234p2.html](http://games.ign.com/articles/121/1215234p2.html)
+
+虽然自己的照片被放得很大，有点吓到了（汗）。
+
+《宝可梦 黑·白》中，
+
+加入了通过红外线进行对战和交换、常时通信的C装置、与PGL的游戏同步等，
+
+许多不局限于游戏内部的机制。
+
+这似乎得到了好评。
+
+被认可这件事，坦率地说很开心。
+
+IGN，谢谢！！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 いつのまに！！！
 
@@ -59,6 +94,8 @@ IGN’s Top 30 Games People of 2011
 
 IGNさん、ありがとうございます！！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

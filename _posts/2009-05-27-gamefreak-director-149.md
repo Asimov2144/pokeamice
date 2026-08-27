@@ -18,18 +18,57 @@ gf_entry_title: ５月２２日、欧州で『ポケットモンスター　プ�
 gf_archive: 2009-05
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第149回
   url: https://www.gamefreak.co.jp/blog/dir/2009/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-149
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+5月22日，在欧洲，《宝可梦 白金》发售了。
+
+欧洲的玩家们，请慢慢尽情享受白金吧！！
+
+日本、北美的各位！
+
+在白金的GTS中，也可以搜索国家，
+
+请务必与欧洲各国的朋友们享受GTS交换的乐趣。
+
+在日本，今年秋天发售的作品已经公布了。
+
+《宝可梦 心金》
+
+《宝可梦 魂银》
+
+在GAME FREAK，我们花了充足的时间精心制作。
+
+原作是1999年11月21日发售的「金」和「银」。
+
+从「金」和「银」大幅强化后归来。
+
+从决定城都地区这个名字开始，已经快12年了吧。
+
+当时玩过金银的人，从那以后过了10年。12岁竟然变成了22岁！
+
+时间过得真快啊。
+
+各位，请期待并等待吧！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ５月２２日、欧州で『ポケットモンスター　プラチナ』が発売されました。
 
@@ -63,6 +102,8 @@ gf_archive_id: masuda-149
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

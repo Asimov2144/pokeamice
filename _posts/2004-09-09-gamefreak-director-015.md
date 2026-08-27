@@ -18,18 +18,81 @@ gf_entry_title: やっぱり、九州ですよ。九州。
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第15回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-015
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+果然，是九州啊。九州。
+
+因为父母双方都是福冈县鞍手郡出身，
+
+所以有很多亲戚在九州。
+
+小时候，一到暑假就会去九州，
+
+潜入海里用鱼叉叉鱼，抓贝壳和螃蟹，
+
+钓鱼，用网捞，
+
+在河里抓螃蟹和虾，
+
+晚上徒手抓河里睡觉的鱼，
+
+去抓锹形虫和独角仙，
+
+等等，
+
+现在仔细想想，
+
+净是捕捉啊。
+
+是非常快乐的回忆。
+
+九州山多，海和河也非常漂亮，生物丰富。
+
+而且，最重要的是人很温暖。
+
+真的是最棒的地方。
+
+在红宝石、蓝宝石、绿宝石中出现的
+
+丰缘地区，就是想把那样的夏日回忆
+
+塞进去……
+
+所以就以九州为舞台了。
+
+顺便说一下，丰缘地区（丰缘地方）的意思是，
+
+宝可梦与人、人与人之间缘分丰富的地方。
+
+决定为有丰富缘分的地方。
+
+我心中想着缘分的重要性和九州的人们。
+
+另外，把地图横过来，是因为那样在宝可梦这个游戏中
+
+判断为游戏性更高。
+
+好，一边玩绿宝石，一边再去九州吧！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 やっぱり、九州ですよ。九州。
 
@@ -87,6 +150,8 @@ gf_archive_id: masuda-015
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

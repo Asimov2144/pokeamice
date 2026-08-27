@@ -18,18 +18,47 @@ gf_entry_title: ついに！
 gf_archive: 2007-07
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第91回
   url: https://www.gamefreak.co.jp/blog/dir/2007/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-091
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+终于！
+
+欧洲时间2007年7月27日（星期五）
+
+期待已久的欧洲版《宝可梦 钻石·珍珠》发售了！
+
+这样一来，地球终于连成一体了！
+
+顺便一提，欧洲版有德语、法语、西班牙语、意大利语，
+
+所以那些有着不可思议昵称的宝可梦也会来到我们身边。
+
+请大家在GTS上增加连接点吧！
+
+每一个点都是宝可梦粉丝之间的纽带！
+
+在一个星球上，地球上的世界通过宝可梦交换连接在一起。
+
+请务必尝试一下！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ついに！
 
@@ -53,3 +82,5 @@ gf_archive_id: masuda-091
 
 では！
 
+
+</details>

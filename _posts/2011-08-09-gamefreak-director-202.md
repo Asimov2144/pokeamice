@@ -19,18 +19,77 @@ gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第202回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-202
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+バトル遺伝子M，看了吗？
+
+什么？你说那是什么的人！！
+
+ポケモンスマッシュ！没看吧？？
+
+请每周都看哦ー！
+
+前几天，7月31日的ポケモンスマッシュ！中，
+
+MTM with バトルウーマンM登场了！
+
+增田作曲的竹兰的音乐，
+
+由电影音乐的宫崎先生编曲，
+
+再加上户田先生填词。
+
+然后，バトルウーマンM帅气地演唱了这首歌！
+
+桃瀬美咲的变身也很精彩！
+
+音乐以各种形式呈现会更有趣，
+
+也因此可能性得以扩展，我很喜欢。
+
+感觉非常棒吧？
+
+希望喜欢竹兰音乐的人也一定要听听。
+
+还没看的人必看！！
+
+バトル遺伝子M、MTM with バトルウーマンM
+
+[http://ptcg.creatures.co.jp/column/6693](http://ptcg.creatures.co.jp/column/6693)
+
+※来自Creatures公司的博客。
+
+ポケモンスマッシュ！
+
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+
+ポケモンスマッシュ！下集预告！
+
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
+
+ミサッキー的博客
+
+[http://ameblo.jp/misaki-momose/](http://ameblo.jp/misaki-momose/)
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 バトル遺伝子M、見ました？
 
@@ -84,6 +143,8 @@ MTM with バトルウーマンMが登場！
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

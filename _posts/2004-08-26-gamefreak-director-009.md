@@ -18,18 +18,55 @@ gf_entry_title: 海外に行って来ました。
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第9回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-009
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+去海外了。
+
+一到海外，就会从伙伴那里听到很多令人兴奋的话题，
+
+果然，外国人的价值观很有趣。
+
+出生时的价值观应该是一样的，
+
+但由于教育、社会和文化的差异，
+
+不知不觉中，价值观发生了变化。
+
+不过，世界上有这么大的差异，真的很有趣。
+
+在游戏中，
+
+“这是一个重视什么的世界？”
+
+正因为这一点不同，想法也会改变。
+
+通过改变价值观，新的创意、玩法和机制就会产生。
+
+我每次去海外，都带着这样的感受。
+
+、、、但是、、、
+
+反过来想，“日本人的价值观真的很有趣”。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 海外に行って来ました。
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-009
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

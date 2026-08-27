@@ -18,18 +18,70 @@ gf_entry_title: ７月１０日（土）今年も映画が始まりました！
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第164回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-164
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets:
+- 小物件
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+7月10日（周六），今年的电影也开始了！
+
+增田也在上映当天去看了哦！
+
+还拿到了索罗亚克的模型！
+
+这次，在影院发放的宝可梦是「时拉比」。
+
+可以从钻石·珍珠·白金·心金·魂银中的
+
+任意一款游戏中获得。
+
+「时拉比」是在金银中登场，游戏过程中不会出现的幻之宝可梦。
+
+「时拉比」是以自然为主题的宝可梦，
+
+我们将其设定为：只要有美好的自然，它就会出现。
+
+从影像的角度来看，为了阻止自然破坏而让它登场或许更有戏剧性，
+
+但为了遇见宝可梦而破坏自然，这种事我可不想做。
+
+那么，把这只「时拉比」带到《宝可梦 黑·白》中的话……
+
+会触发特别事件，竟然能让索罗亚成为伙伴！！！！
+
+即使游玩《宝可梦 黑·白》，索罗亚和索罗亚克也不会出现，
+
+所以请务必去看电影，获取时拉比吧！
+
+顺带一提，周日我去了东京宝可梦中心，
+
+去看10日开始发售的皮卡丘世界周边。
+
+店里全是皮卡丘！！
+
+超可爱～！非常火爆哦！
+
+再见！
+
+[http://www.pokemon.co.jp/gp/pokecen/tokyo/](http://www.pokemon.co.jp/gp/pokecen/tokyo/)
+
+[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ７月１０日（土）今年も映画が始まりました！
 
@@ -75,6 +127,8 @@ gf_archive_id: masuda-164
 
 [http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,119 @@ gf_entry_title: ドイツ（４）
 gf_archive: 2007-04
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第80回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-080
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+德国（4）
+
+第4天。早上8点从酒店出发！
+
+参观了塔尼施博士（Dr. Tännisch）后抵达法兰克福！
+
+然后，在这里解散！
+
+时间是下午2点。
+
+从今天到明天晚上，我将独自一人在异国他乡！
+
+我下定决心要彻底探索法兰克福。
+
+首先，沿着河边散步，参观桥梁。
+
+走了一会儿，发现了大教堂。
+
+姑且进去看看……
+
+没想到，有200人……不，是更多的人！
+
+像是主教？的人在讲话。
+
+而且，竟然！讲话带有音调！
+
+不知道为什么，但指示大家时说的话，
+
+“祈祷吧♪”或“回来吧♪”等也带有音调！
+
+而且，是欧洲风情的音调。
+
+我一边觉得“好奇怪啊”，一边仔细观察。看了将近1个小时。
+
+之后，一边喝啤酒一边闲逛，进行市内观光。
+
+其实因为复活节，店铺几乎都关门了。
+
+一边享受这样休息中的城市，
+
+一边为了找晚饭的地方，走了很多路……
+
+真的……走了相当多。
+
+然后，发现了一家烤肉店，
+
+就在那里吃了较早的晚饭。
+
+点了啤酒和葡萄酒，大吃特吃。
+
+但是，一个人吃饭真寂寞……呢。
+
+吃完饭后也在城里散步。
+
+一边喝星巴克的咖啡一边走回酒店，又是走了很多路。
+
+哎呀，回到酒店才发现……
+
+腿像棍子一样僵硬了……
+
+睡觉。
+
+第5天！
+
+吃完早餐后，参观美术馆！
+
+然后，在法兰克福河边发现了跳蚤市场！
+
+相当有趣，看了很久很久。
+
+然后，晚上。
+
+大家聚在一起，吃了在德国的最后一顿晚餐，
+
+看了歌剧《费加罗的婚礼》。
+
+是意大利语，字幕是德语。
+
+……稍微学了点再去真是太好了……
+
+就这样那样的德国之旅。
+
+虽然感觉既长又短，但获得了非常好的体验！
+
+感谢小柳老师！
+
+谢谢！
+
+结束！
+
+<img src="/assets/images/gamefreak-director/archive/080/ja/ger0011.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/080/multi/ger002.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/080/multi/ger003.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/080/multi/ger004.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ドイツ（４）
 
@@ -125,6 +226,8 @@ gf_archive_id: masuda-080
 
 <img src="/assets/images/gamefreak-director/archive/080/multi/ger003.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/080/multi/ger004.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

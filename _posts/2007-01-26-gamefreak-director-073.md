@@ -19,18 +19,81 @@ gf_archive: 2007-01
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第73回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-073
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+触摸屏。现在已经是家喻户晓的词语了呢。
+
+是的。就是DS的下屏幕。
+
+我想到「触摸」＝「触碰」。
+
+想让人触碰。希望被触碰。于是我开始思考想触碰的东西。
+
+那时想到的，
+
+就是「开关」。
+
+世界上有各种各样的开关。
+
+无论去哪个国家，几乎不会遇到打不开房间电灯的情况吧。
+
+而且，光是看着就想按下去。
+
+想咔哒咔哒地按。
+
+于是，我在附近商店买了大约十个各种形状的开关，
+
+和策划、美术设计师一边看一边研究。
+
+为什么想按，为什么觉得能切换。
+
+我们探究了全世界的人都能毫无顾虑地操作的秘密。
+
+得出的答案是……
+
+空间与凸起。
+
+开关周围的空间让人觉得可以按。
+
+开关凸出来（或凹进去）让人觉得可以按。
+
+以这个答案为提示，下屏幕上能按的东西基本上都做成了开关的样子。
+
+也就是说，设计成凸起且周围有空间的样子。
+
+而且，制作时的称呼也直接用了「开关」。
+
+考虑到凸起是在下屏幕，我们采用了从上往下俯视的视角。
+
+这样一来，就变成了向下凸起。
+
+然后把这些作为DP制作中的基本规则。
+
+这样一来，即使不知道DS的下屏幕是触摸屏，
+
+也会因为像开关而不知不觉想触碰、想按下去。
+
+就这样，下屏幕的设计被确定了下来。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 タッチスクリーン。今では有名な言葉になっていますね。
 
@@ -88,6 +151,8 @@ gf_archive_id: masuda-073
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

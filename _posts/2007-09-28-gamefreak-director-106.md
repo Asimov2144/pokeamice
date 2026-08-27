@@ -18,18 +18,65 @@ gf_entry_title: 日本でダイヤモンド・パールが発売されて今日�
 gf_archive: 2007-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第106回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-106
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在日本，钻石·珍珠发售到今天正好1年。
+
+托大家的福，7月底全球累计销量突破了1000万套，
+
+8月地球上宝可梦交换次数也超过了140万次，
+
+现在似乎仍有很多人在玩，
+
+真的非常开心。
+
+衷心感谢大家！
+
+1年前在新宿高岛屋的倒计时发售等情景，
+
+让我想起了很多事情。
+
+今后我们也会继续创造出超越想象的玩法，
+
+请继续支持GAME FREAK和宝可梦！
+
+拜托了！
+
+然后……
+
+我想大家已经知道了，
+
+这里介绍一下前几天全球同步公开的GTS网站。
+
+[http://www.pokemon-gts.net/](http://www.pokemon-gts.net/)
+
+很酷吧？
+
+光是看着就很有趣吧？
+
+网站满载着像股价一样的信息。
+
+这个网站……一定要看！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 日本でダイヤモンド・パールが発売されて今日でちょうど１年。
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-106
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

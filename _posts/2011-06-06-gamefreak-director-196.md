@@ -18,18 +18,47 @@ gf_entry_title: ６月４日土曜日午後、今日も映画音楽を収録中�
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第196回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-196
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+6月4日星期六下午，今天也来到了正在录制电影音乐的录音室！
+
+今天天气非常好！
+
+在闪闪发光的太阳附近可以看到六本木新城！
+
+<img src="/assets/images/gamefreak-director/archive/196/ja/193a.jpg" alt="" loading="lazy">
+
+位于大楼2楼的录音室！
+
+阳光照进来，感觉很舒服！！
+
+<img src="/assets/images/gamefreak-director/archive/196/ja/193b.jpg" alt="" loading="lazy">
+
+看到这样的器材，心情就激动不已呢。
+
+<img src="/assets/images/gamefreak-director/archive/196/ja/193c.jpg" alt="" loading="lazy">
+
+这是一个能让人心情愉快地工作的录音室！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ６月４日土曜日午後、今日も映画音楽を収録中のスタジオへ！
 
@@ -53,6 +82,8 @@ gf_archive_id: masuda-196
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

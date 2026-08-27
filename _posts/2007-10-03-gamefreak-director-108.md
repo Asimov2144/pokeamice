@@ -18,18 +18,57 @@ gf_entry_title: ネタがないとき、何かに集中してネタを考えて�
 gf_archive: 2007-10
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第108回
   url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-108
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+没有灵感的时候，集中精力思考某个点子时，
+
+有时会诞生出新的点子，对吧。
+
+以前记忆力很好，能记住很多事情，
+
+但现在，说过的话、做过的事转眼就忘，
+
+所以新点子诞生的瞬间，就是！！！、、！！！太棒了！！！
+
+于是，
+
+我立刻把它记在记事本上！
+
+要是忘了，那点子就太可惜了……
+
+以前我会把点子写在手机邮件里，
+
+然后发到公司的电脑上，但……果然还是有限制。
+
+什么限制呢……就是没法画插图。
+
+把想到的事情视觉化，之后形象就能扩展。
+
+所以，现在我已经完全成了记事本派。
+
+虽然有点重，但非常方便。
+
+那么。
+
+<img src="/assets/images/gamefreak-director/archive/108/multi/108.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ネタがないとき、何かに集中してネタを考えていると、
 
@@ -63,6 +102,8 @@ gf_archive_id: masuda-108
 
 <img src="/assets/images/gamefreak-director/archive/108/multi/108.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

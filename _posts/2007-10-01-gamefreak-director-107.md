@@ -19,18 +19,24 @@ gf_archive: 2007-10
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第107回
   url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-107
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
 
 ９月２９日（土）に東京都、高田馬場にある
 
@@ -100,6 +106,79 @@ TVゲームからポケモンが誕生したこと、
 
 <img src="/assets/images/gamefreak-director/archive/107/multi/107.jpg" alt="" loading="lazy">
 
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
+
+９月２９日（土）に東京都、高田馬場にある
+
+早稲田大学総合学術情報センター内、国際会議場に行ってきました。
+
+情報文化学会という学会にて学会賞（産業芸術）を頂いたのです。
+
+何十年ぶりに賞状を戴きましたが、やっぱり嬉しいものですね。
+
+そして、
+
+「ポケモンがもつ情報文化」と題して３０分程度のお話をしてきました。
+
+偉い先生ばかりで緊張しましたが、
+
+まずは、ポケモンの歴史と現状をお伝えせねばと思い、そこからスタート。
+
+TVゲームからポケモンが誕生したこと、
+
+リアルな映像追求ではなくリアル感の追求であること、
+
+ポケモンの世界観には日本文化を中心に様々な文化が入っていること、
+
+そして、ポケモンの情報、それはポケモンによって違うこと、
+
+レベルの低いところから育てることで更に変化していくこと。
+
+ポケモンは情報レベルで見ても世界にほぼ１匹であること。
+
+現在、そのポケモンはこの地球上で全く知らない人同士で交換されているということ。
+
+８月の１ヶ月だけで世界中で１４０万人！の方々が交換していること。
+
+地球上での知らない人との情報交換は、たぶん世界初！だということ。
+
+メールで自動翻訳され文化交流が行われていること。
+
+いま、pokemon GTSというサイトがあるということ。
+
+などなど。。。。
+
+世界交換の話を中心に情報文化というものに近づけてみました。
+
+これら内容を映像やパワーポイントで説明させていただいたのですが、
+
+たくさんの方々がTVゲームにもポケモンにも興味を抱いてくださったようで、
+
+ほんと、良かったです。頑張った甲斐がありました！
+
+実は２週間前に急遽お話を頂き、時間がないのでどうしようか迷ったのですが、
+
+１人でも多くの人にTVゲームやポケモンのことを理解してほしい。
+
+そんな気持ちからお引き受けさせていただいたのです。
+
+結果として非常に好評だったようで、ほっと一安心。
+
+とっても良い経験をしました。
+
+追伸：
+
+片方先生、宮城大学の坂本先生、とってもお世話になりました！
+
+ありがとうございました！
+
+では。
+
+<img src="/assets/images/gamefreak-director/archive/107/multi/107.jpg" alt="" loading="lazy">
+
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

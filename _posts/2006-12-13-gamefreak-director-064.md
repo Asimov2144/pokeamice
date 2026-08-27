@@ -18,18 +18,57 @@ gf_entry_title: ポケモンはっぴーバースデーコンサート無事す�
 gf_archive: 2006-12
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第64回
   url: https://www.gamefreak.co.jp/blog/dir/2006/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-064
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+宝可梦生日快乐音乐会全部顺利结束了！
+
+来场的各位，真的非常感谢！
+
+最后一场的北海道下了很大的雪，但是，
+
+还是有众多观众前来！
+
+这次，关都、城都、芳缘，以及最后的神奥，
+
+在全国四个地方举行，无论哪里都有很多人来，
+
+而且还能让大家敲响响板，真的很开心。真的。
+
+哎呀，第一次做的事情不习惯很辛苦，
+
+但作为新的挑战，这是一段收获颇丰、非常快乐的美好时光。
+
+最重要的是能见到粉丝们，这是最大的喜悦！
+
+这场音乐会从始至终都让我自由地、甚至任性地去做，
+
+虽然铭记着这样的幸福并不多见，
+
+但我还是想挑战一些新的事情。我是这么想的。
+
+虽然在舞台上已经说过了，但再次说一遍！
+
+「今后宝可梦也会继续扩展。敬请期待！」
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケモンはっぴーバースデーコンサート無事すべて終わりました！
 
@@ -63,6 +102,8 @@ gf_archive_id: masuda-064
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

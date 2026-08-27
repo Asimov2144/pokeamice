@@ -18,18 +18,59 @@ gf_entry_title: ポケモンのマップって変わってますよね。
 gf_archive: 2004-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第14回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-014
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+宝可梦的地图很特别吧。
+
+那是因为想放入大量宝可梦的图画，
+
+作为尽量不占用ROM容量的对策，
+
+是程序员想出的权宜之计。
+
+把它巧妙地加工成了道路。
+
+正因为有这样的制约，正因为被这样规定，
+
+才会产生很多有趣的事情。
+
+比如，宝可梦和招式的名字的字数、手持6只、能记住的招式4个也是如此。
+
+正因为有制约，才被打磨得非常好。这也是我感受到的部分。
+
+制作红宝石、蓝宝石的时候，回归初心，
+
+也考虑过增加或减少手持宝可梦的数量，
+
+增加或减少能记住的招式，
+
+但这里果然还是无法改变的绝妙平衡。
+
+因为有制约，需要考虑的事情很多，很困难，
+
+但我认为制约正是“打磨成最上乘之物的试炼”，
+
+所以特意珍视制约。
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ポケモンのマップって変わってますよね。
 
@@ -65,6 +106,8 @@ gf_archive_id: masuda-014
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

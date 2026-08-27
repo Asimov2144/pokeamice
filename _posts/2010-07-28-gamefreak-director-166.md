@@ -18,18 +18,61 @@ gf_entry_title: みなさん、ポケモンの映画観たことありますか�
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第166回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-166
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家看过宝可梦的电影吗？
+
+把宝可梦游戏软件※带到宝可梦电影院，
+
+就能得到幻之宝可梦。
+
+在电影院座位上就能领取，这是个划时代的系统。
+
+2010年的今年是时拉比。
+
+至今为止，能获得这种幻之宝可梦的机会仅限于电影院。
+
+但是，我也想让不看宝可梦电影的人，
+
+也能体验到获得幻之宝可梦的感动。
+
+是的，那就是合众图鉴编号000的幻之宝可梦「比克提尼」。
+
+[http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
+
+而且，不仅仅是单纯地领取。
+
+用「自由船票」乘上船，在特别的专用活动中就能遇见比克提尼。
+
+（详情请等待今后的信息。）
+
+通过游戏软件发售来赠送幻之宝可梦，其实是首次尝试。
+
+请一定要领取！
+
+那么！
+
+※在电影院能接收宝可梦的是所有能在DS上游玩的宝可梦软件！
+
+（钻石·珍珠·白金·心金·魂银）
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、ポケモンの映画観たことありますか？
 
@@ -67,6 +110,8 @@ gf_archive_id: masuda-166
 
 （ダイヤモンド・パール・プラチナ・ハートゴールド・ソウルシルバー）
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

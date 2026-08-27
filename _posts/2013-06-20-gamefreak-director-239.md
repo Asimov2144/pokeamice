@@ -19,18 +19,83 @@ gf_archive: 2013-06
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第239回
   url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-239
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+竟然！！
+
+我出演了いきものがかり（生物股长）的《笑顔》宣传视频！！
+
+居然会有这种事！！！
+
+契机是出演了いきものがかり的广播节目，
+
+和《笑顔》作词作曲的水野先生也在推特上有了联系……
+
+然后这次，收到了邀请……
+
+相遇真是了不起。世界在不断地扩展。
+
+<p class="gf-director-spacer"></p>
+
+2013年6月9日。
+
+清晨的六本木。
+
+因为是要去洛杉矶的日子，
+
+所以安排了录制的最早时间，成为第一个拍摄。
+
+坐在中间位置的椅子上。拍摄开始。
+
+<img src="/assets/images/gamefreak-director/archive/239/multi/130620_01.jpg" alt="" loading="lazy">
+
+按照导演的指示移动视线……移动……移动……
+
+“好的，辛苦了！”
+
+本以为只是彩排……
+
+导演却说了OK。
+
+哎呀……虽然是一瞬间的事，
+
+却是令人难忘的摄影棚拍摄！！
+
+<p class="gf-director-spacer"></p>
+
+完成的PV在这里。
+
+[http://www.youtube.com/watch?v=hLBdm2J9UKA](http://www.youtube.com/watch?v=hLBdm2J9UKA)
+
+让我体验了非常厉害的经历！！
+
+いきものがかり的各位，真的非常感谢！！！
+
+いきものがかり官方网站。
+
+[http://ikimonogakari.com/](http://ikimonogakari.com/)
+
+[http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)（活动，增田也预定去）
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 なんとっ！！
 
@@ -90,6 +155,8 @@ gf_archive_id: masuda-239
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

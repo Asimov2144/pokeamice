@@ -18,18 +18,61 @@ gf_entry_title: もの作りには、哲学や思想はとても大切です。
 gf_archive: 2007-06
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第89回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-089
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+制作东西时，哲学和思想是非常重要的。
+
+即使画出质量极高的画，创作出音乐，制作出游戏，
+
+如果其中看不到哲学和思想，那就会显得非常无趣，
+
+也很难将信息传递给许多人。
+
+这或许可以说是制作者的责任，
+
+也可以说是放弃了传达信息的使命。
+
+我认为，制作者的想法和理由之所以重要，正是因为这个原因。
+
+因为自己独特的哲学和思想，拥有超越质量的力量。
+
+这或许就是质量达到极致的事物与艺术之间的差别。
+
+那些凝聚了个人思考的作品，更容易让人产生情感共鸣。
+
+一切都有其理由。
+
+即使是宝可梦的一个设计也是如此。
+
+即使是一个音符或音量也是如此。
+
+虽然制作者和接受者的角色不同，
+
+但让我们思考一下“为什么会变成那样？”和“为什么会那样做？”。
+
+我相信，一定会找到新的答案。
+
+而且，总有一天，你会看到对方和自己的思想。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 もの作りには、哲学や思想はとても大切です。
 
@@ -67,6 +110,8 @@ gf_archive_id: masuda-089
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,79 @@ gf_entry_title: 祝！ポケモンセンター東京！ 外国人が行きたい
 gf_archive: 2009-04
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第146回
   url: https://www.gamefreak.co.jp/blog/dir/2009/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-146
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+祝！宝可梦中心东京！
+
+据说在“外国人想去的日本观光景点2008”中排名第3！
+
+据说这是根据 TripAdvisor 网站上用户的利用动向计算出来的。
+
+■2008年 外国人关注度高的观光景点综合排名
+
+1　　筑地市场　东京都 / 中央区
+
+2　　东京迪士尼乐园　千叶县 / 浦安市
+
+3　宝可梦中心东京　东京都 / 港区
+
+4　　六本木新城　东京都 / 港区
+
+5　　东京迪士尼海洋　千叶县 / 浦安市
+
+6　　浅草寺 浅草观音堂　东京都 / 台东区
+
+7　　金阁寺　京都府 / 京都市
+
+8　　伏见稻荷大社　京都府 / 京都市
+
+9　　温泉世界　大阪府 / 大阪市
+
+10　日本环球影城　大阪府 / 大阪市
+
+11　大江户温泉物语　东京都 / 江东区
+
+12　清水寺　京都府 / 京都市
+
+13　温泉 LaQua　东京都 / 文京区
+
+14　大阪城　大阪府 / 大阪市
+
+15　明治神宫　东京都 / 新宿区
+
+16　宝川温泉　群马县 / 水上町
+
+17　海游馆　大阪府 / 大阪市
+
+18　四天王寺　大阪府 / 大阪市
+
+19　北海道神宫　北海道 / 札幌市
+
+20　新宿御苑　东京都 / 新宿区
+
+信息：TripAdvisor [http://www.tripadvisor.jp/HotSpotsJapan](http://www.tripadvisor.jp/HotSpotsJapan)
+
+真是令人非常高兴的事情呢。
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 祝！ポケモンセンター東京！
 
@@ -85,6 +146,8 @@ TripAdvisor というサイトでユーザーの利用動向から算出した�
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,59 @@ gf_archive: 2012-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第222回
   url: https://www.gamefreak.co.jp/blog/dir/2012/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-222
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+你好！
+
+上次第221回中通知的重大发表是什么？？
+
+那就是、、、
+
+GAME FREAK制作的最新软件、
+
+「宝可梦 黑2」
+
+「宝可梦 白2」
+
+将于6月在日本发售！！
+
+这款软件中登场的两只宝可梦的名字、、、
+
+其名为、
+
+「暗黑酋雷姆」
+
+「焰白酋雷姆」
+
+它们的新力量，与捷克罗姆・雷希拉姆有关、、、
+
+具体是什么样子，请查看官方网站！！
+
+[http://www.pokemon.co.jp/ex/b2w2/](http://www.pokemon.co.jp/ex/b2w2/)
+
+敬请期待！
+
+请期待哦！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 こんにちは！
 
@@ -66,6 +107,8 @@ gf_archive_id: masuda-222
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

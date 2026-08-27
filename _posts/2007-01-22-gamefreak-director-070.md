@@ -19,18 +19,79 @@ gf_archive: 2007-01
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第70回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-070
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 4
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+星期六的上午，我去了次世代世界爱好博览会！
+
+从东京出发的电车里，孩子们已经在尽情玩游戏了。
+
+大家都在玩各种游戏，个个笑容满面，看起来很开心。
+
+其中，有一个男孩在和妈妈玩词语接龙。
+
+词语接龙本身，总觉得很怀念，不由得竖起耳朵听了起来，
+
+妈妈的回应非常快！
+
+男孩一说，妈妈就干脆利落地回答。
+
+男孩说“栗子！”
+
+妈妈立刻回“利口！”男孩高兴得不得了。
+
+我也差点被逗笑，但强忍住了，表情变得很奇怪。
+
+哎呀，真有趣。词语接龙真是厉害。我一边这么想着，
+
+到达了幕张展览馆，进入会场。
+
+。。。。。。。。哦—。。。。.
+
+人，人，人，热闹非凡。
+
+每个展区都有人气，充满活力，感觉很好。
+
+到处都在举办看起来很有趣的活动。
+
+总之气氛高涨。
+
+首先，想找宝可梦的展区，但人太多，似乎没法轻易找到。
+
+于是，确认了漂浮在上空的宝可梦气球。
+
+这真方便啊，我一边这么想着，一边靠近宝可梦展区。
+
+今年的气球是，
+
+巨大的玛纳霏，以及由克希、艾姆利多、亚克诺姆的UMA组合。
+
+不可思议的组合，让人感到意外。
+
+宝可梦的PBR、电影展区、卡牌游戏等，都很受欢迎！
+
+我到处逛了逛，看了大约一个小时就回去了。
+
+今年的世界爱好博览会也很有趣！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 土曜日の午前中、次世代ワールドホビーフェアに行ってきました！
 
@@ -86,6 +147,8 @@ gf_archive_id: masuda-070
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

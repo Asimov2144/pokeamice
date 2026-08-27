@@ -18,18 +18,59 @@ gf_entry_title: みなさま、明けましておめでとうございます。 
 gf_archive: 2008-01
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第119回
   url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-119
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位，新年快乐。
+
+今年也请多多关照。
+
+2008年，今年GAME FREAK也会做很多事情！
+
+并且，希望在回应期待的同时，继续创造出超越想象的玩法。
+
+那么……
+
+突然问一下，各位！
+
+你们想过今年的目标了吗？
+
+今年增田的目标是「好好整理」。
+
+因为去年是挑战的一年……
+
+今年我想稳稳地坐下来，把各种事情整理好。
+
+还没想的人，请务必！试着想想这一年的目标吧！
+
+啊，对了。
+
+这是游戏压岁钱。
+
+请在1月12日玩一下钻石·珍珠。
+
+应该会有什么不一样！！！！！
+
+祝愿大家今年也是幸福的一年。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさま、明けましておめでとうございます。
 
@@ -65,6 +106,8 @@ gf_archive_id: masuda-119
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

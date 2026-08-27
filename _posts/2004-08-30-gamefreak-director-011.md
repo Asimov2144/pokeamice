@@ -18,18 +18,71 @@ gf_entry_title: 北米で９月９日に［ＦＩＲＥ　ＲＥＤ」「ＬＥ�
 gf_archive: 2004-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第11回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-011
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+北美的９月９日将发售［ＦＩＲＥ　ＲＥＤ」「ＬＥＡＦ　ＧＲＥＥＮ」。
+
+想到ＧＲＥＥＮ？？的人，眼光真敏锐！
+
+原本，在北美的红绿是「ＲＥＤ」「ＢＬＵＥ」，是红蓝。
+
+标题是蓝，但内容却是绿。因为某些原因变成了这样。
+
+这样想来，应该是「ＦＩＲＥ　ＲＥＤ」「ＷＡＴＥＲ　ＢＬＵＥ」才对，
+
+但我无论如何都想用绿色。
+
+・ＬＥＡＦ（叶）是和平的象征。
+・炎与水相互排斥，看起来像是对决。
+・想在包装上展现妙蛙种子的鲜艳色彩。
+・虽然日本人不太熟悉，但对海外孩子来说「ＬＥＡＦ」（叶）很容易理解。
+・在这个世道艰难的世界，想取一个思考无争世界的标题。
+
+等等，就是这些理由。
+
+结果，全世界统一成了「ＬＥＡＦ　ＧＲＥＥＮ」。
+
+可喜可贺。可喜可贺。
+
+像这样决定世界共通标题，虽然很辛苦，
+
+但为了说服别人，
+
+会去追究「为什么想这样做？」
+
+所以其实非常有趣。
+
+（能发现自己为什么对那件事执着呢！）
+
+顺便一提……
+
+每次标题都因为商标的难度而相当烦恼，
+
+但火红、叶绿是以「易懂」为主题创作的，
+
+所以标题也简单地从属性来考虑。因此，很快就决定了。
+
+这也是，可喜可贺。可喜可贺。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 北米で９月９日に［ＦＩＲＥ　ＲＥＤ」「ＬＥＡＦ　ＧＲＥＥＮ」が発売されます。
 
@@ -81,6 +134,8 @@ gf_archive_id: masuda-011
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

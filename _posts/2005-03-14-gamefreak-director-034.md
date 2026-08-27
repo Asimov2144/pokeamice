@@ -19,18 +19,81 @@ gf_archive: 2005-03
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第34回
   url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-034
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 看我嘛
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「このゆびとまれ」收到了大量应征，非常感谢！！
+
+会如何发展呢！？又会冒出怎样的故事呢！？
+
+我非常期待！！！
+
+据说下面会有联络，详情请参阅那边。
+
+然后……
+
+12日，我去了名古屋站旁边的宝可梦乐园内览会！
+
+GAME FREAK 的工作人员，竟然！全员参加！
+
+与游戏世界不同，另一个次元的娱乐让工作人员们接连玩得忘我！
+
+这是个做得非常好的乐园，大家也请务必去看看！
+
+3月18日开园！
+
+宝可梦的新世界就在那里。
+
+那么。
+
+■増田部长的「このゆびとまれ」后续报道！■
+托您的福，真的收到了非常多的应征。
+
+有可爱的宝可梦插画，有对宝可梦的热情谈论，
+
+有对创作者们的梦想，光是看明信片就很有趣。
+
+我期待着能与大家见面。
+
+那么，关于之后的安排，
+
+・截止到本周五，即3月18日到达的部分。
+
+・3月内进行来访者的选拔和当天活动的企划，
+
+　对于能参加的人，将在3月末通过邮件联系。
+
+・会通知日期候选，请回复希望日期。
+
+・大致上，预定在4月中旬至下旬的周六或周日举办。
+
+以上，请多多关照。
+
+谢谢！请再稍等片刻。
+
+另外，很遗憾这次没能参加的人，
+
+也许会有第二届，届时请再次应征。
+
+「このゆびとまれ」举办工作人员　佐藤＆大森
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 このゆびとまれ、たくさんの応募、ありがとうございました！！
 
@@ -86,6 +149,8 @@ gf_archive_id: masuda-034
 第二回があるかもしれませんので、その時にまたご応募ください。
 このゆびとまれ開催スタッフ　サトウ＆オオモリ
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

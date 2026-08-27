@@ -19,18 +19,49 @@ gf_archive: 2011-01
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第183回
   url: https://www.gamefreak.co.jp/blog/dir/2011/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-183
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+DS软件史上最快！！！！
+
+[http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf](http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf)
+
+哎呀，真开心！
+
+而且，今天碰巧还是增田的生日！
+
+真的能有这么多人玩我们的游戏，我感到很幸福。
+
+早上，玩宝可梦时在宝可梦中心被说“恭喜！”，
+
+朋友和父母也发来了“恭喜！”的邮件，
+
+工作人员还送了我礼物……
+
+真的好幸福！！
+
+今天能发布这份新闻稿也很开心！！！！
+
+接下来的一年，我也要充满活力地行动、执行！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 DSソフト史上最速！！！！
 
@@ -56,6 +87,8 @@ DSソフト史上最速！！！！
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

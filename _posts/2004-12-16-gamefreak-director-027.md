@@ -19,18 +19,71 @@ gf_archive: 2004-12
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第27回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-027
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+火红、叶绿的“剧情简介”功能
+
+非常复杂，需要使用大量备份，而且出现bug的可能性很大，
+
+最初连程序员也表示反对，我甚至想过放弃，但是……
+
+然而，当我向程序员说明这是多么重要、有趣且新颖的尝试后，
+
+他们理解了企划，也理解了其中的趣味。
+
+就这样，这个近乎实验的不稳定规格（！）得以加入。
+
+不过，这说到底就是与对方的交涉，
+
+不了解对方是不行的。
+
+不了解的话，通常会在交涉中落败。
+
+企划者要理解程序员，程序员也要理解企划。
+
+当然，图形设计师和音效设计师也要理解企划和程序。
+
+作为工作这是理所当然的，但同时也是非常困难的事情。
+
+但我认为，这其实和交朋友很相似。
+
+对对方的兴趣或价值观产生兴趣，去理解，然后进行沟通。
+
+也就是说，无论是工作还是朋友，为了相互理解，就要对对方“感兴趣”或“去理解”。
+
+所以，首先要带着兴趣去思考。
+
+能否理解是次要的。
+
+努力让自己对程序产生兴趣。努力让自己对企划的趣味产生兴趣。
+
+努力的结果会以成果的形式显现出来。
+
+这样一来，有趣的创意就能变成游戏。
+
+在电视游戏的情况下，无论创意多么有趣，如果不能实际落实到游戏中，
+
+并在那里变得有趣，就没有意义了。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ファイアレッド、リーフグリーンの「あらすじ」の機能は
 
@@ -78,6 +131,8 @@ gf_archive_id: masuda-027
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

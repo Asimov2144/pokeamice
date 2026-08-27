@@ -18,18 +18,77 @@ gf_entry_title: 「ポケットモンスター プラチナ」 ついに、９�
 gf_archive: 2008-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第131回
   url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-131
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「宝可梦 白金」
+
+终于，在９月１３日（周六）发售了。
+
+开发人员日复一日，倾注努力与执着，
+
+以最大的爱心制作而成的软件。
+
+请务必尽情享受！
+
+还有！
+
+虽然忙得不可开交，迟了一些，
+
+但我去了佛罗里达！
+
+在宝可梦卡牌世界大赛的旁边，
+
+这次首次举办的日美对战。
+
+「VIDEO GAME SHOW DOWN 2008」
+
+哎呀，真是太棒了。
+
+虽然还有各种需要改进的地方，
+
+电视游戏的比赛也丝毫不逊于卡牌，气氛热烈！
+
+大家都很了解宝可梦，也很懂对战，好厉害！
+
+每一场对战都非常精彩。
+
+明年，终于迎来世界大赛。
+
+将仅限使用白金版参加。
+
+从１０月１２日起，全国各地将举行预选赛，
+
+请喜欢对战的朋友务必参加！
+
+在日本夺冠，然后去美国西海岸的最终舞台吧！
+
+一起以世界第一为目标！！
+
+详情请见世界锦标赛
+
+[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+
+再见！
+
+<img src="/assets/images/gamefreak-director/archive/131/multi/131a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/131/multi/131b.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 「ポケットモンスター プラチナ」
 
@@ -85,6 +144,8 @@ gf_archive_id: masuda-131
 
 <img src="/assets/images/gamefreak-director/archive/131/multi/131a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/131/multi/131b.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

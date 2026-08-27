@@ -19,18 +19,51 @@ gf_archive: 2005-09
 gf_categories:
 - お知らせ
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第53回
   url: https://www.gamefreak.co.jp/blog/dir/2005/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-053
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+各位，久等了！
+
+Game Boy Advance 用软件
+
+スクリューブレイカー
+
+轟振どりるれろ
+
+今天，2005年9月22日，终于发售了！！！
+
+久违的 GAME FREAK 制作的动作游戏！！
+
+附带震动卡带、杉森建的5页漫画！
+
+通过这部漫画，就能明白「どりるれろ」的理由！
+
+和宝可梦一样，倾注了爱心创作而成！
+
+GAME FREAK 的工作人员满怀自信，
+
+将其呈献给这个世界！！
+
+请务必务必购买！
+
+Ciao！（我现在就去店里！）
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさま、お待たせ致しました！
 
@@ -58,6 +91,8 @@ gf_archive_id: masuda-053
 
 チャオ！（今からお店に行ってきます！）
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,53 @@ gf_entry_title: それは忽然と現れた。美しく巨大、力強くしな�
 gf_archive: 2009-03
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第144回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-144
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+它忽然出现了。美丽而巨大，强韧而柔韧。浓重的赤铁色。
+
+那座桥牢牢抓住了增田的目光。
+
+金门大桥。
+
+那座美得无与伦比的桥，以超乎想象的存在感震撼了增田。
+
+乘车移动，从三个地点参观。
+
+随着角度的不同，表情千变万化。
+
+虽然仔细观察了一番，但仍觉得意犹未尽。
+
+主塔、锚碇、缆绳等值得观赏的点也很多。
+
+真是绝妙。
+
+我时常觉得，在众多游客聚集的地方、让人想拍照的地方，总能感受到某种力量。
+
+下次，据说中央分隔带会变化，这座桥，走完2.7公里似乎是必须的。
+
+Ciao。
+
+<img src="/assets/images/gamefreak-director/archive/144/multi/144a.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/144/multi/144b.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 それは忽然と現れた。美しく巨大、力強くしなやか。濃い赤鉄色。
 
@@ -59,6 +94,8 @@ gf_archive_id: masuda-144
 
 <img src="/assets/images/gamefreak-director/archive/144/multi/144b.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

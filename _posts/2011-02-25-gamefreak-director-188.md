@@ -19,18 +19,57 @@ gf_archive: 2011-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第188回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-188
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+2011年2月27日，15周年！
+
+哎呀，时间过得真快。已经过去15年了。
+
+能走到今天，多亏了大家的支持。
+
+大家，真的非常感谢！
+
+这一天，仿佛是为了庆祝宝可梦15周年，东京马拉松也将举办（笑），，，
+
+在宝可梦中心横滨店，
+
+将举办名为“宝可梦舞台 in 地标广场 2011”的活动！
+
+[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
+
+然后！竟然！！！
+
+在宾果大会开始前15分钟，将进行钢琴演奏！！
+
+（11点15分?、12点45分?、14点15分?、15点45分?）
+
+这可不能不听！！
+
+这是首次演奏《宝可梦 黑·白》的曲子！
+
+增田打算在27日中午左右去听！！期待！！
+
+大家也一定要来玩哦！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２０１１年２月２７日で１５周年です！
 
@@ -64,6 +103,8 @@ gf_archive_id: masuda-188
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

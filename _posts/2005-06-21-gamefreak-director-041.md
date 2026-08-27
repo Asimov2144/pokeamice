@@ -18,18 +18,65 @@ gf_entry_title: 昨日、素晴らしい営業の方とお話をしました。 
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第41回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-041
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+昨天，我与一位出色的销售人士进行了交谈。
+
+他非常认真、充满活力、正直坦率，
+
+我也认真地犹豫是否要购买他的商品。
+
+我们也在制作软件这样的内容商品，
+
+所以当然是销售方。
+
+但是，实际销售的不是 GAME FREAK，
+
+所以作为销售方的意识容易变得淡薄。
+
+这样一来，就容易陷入只要做出好作品就能卖出去的
+
+感觉。
+
+当然，那是个陷阱。
+
+因为明显是销售商品的一方。
+
+销售时的力量有多么重要，
+
+以及必须对商品有多么了解，
+
+销售时的时机有多么重要，
+
+这些复合性的销售战略要素有多么重要，
+
+让我学到了很多。
+
+虽然截止日期很辛苦，但作为销售方，
+
+如果能以好的时机发布好的作品，
+
+那天让我重新有了这样的感受。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 昨日、素晴らしい営業の方とお話をしました。
 
@@ -71,6 +118,8 @@ gf_archive_id: masuda-041
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

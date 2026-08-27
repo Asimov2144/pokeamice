@@ -18,18 +18,75 @@ gf_entry_title: 今回はポケモンの海外名称について。
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第122回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-122
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+这次是关于宝可梦海外名称的话题。
+
+给数量众多的宝可梦起名字是一项非常艰巨的工作。
+
+而且，主角级别的宝可梦尤其会成为世界通用名称，所以工作量翻倍。
+
+例如，帝牙卢卡（DIALGA）。
+
+从负责西班牙语翻译的欧洲工作人员那里，
+
+得到了这样的意见：
+
+因为容易联想到昆布或裙带菜等海藻的形象，所以希望不要采用这个名字！
+
+确实，即使在英语表记中，ALGA＝藻类，也有这层含义，
+
+或许会有那种感觉也说不定……
+
+但是，在这里不能放弃。
+
+从这里开始，我们要进行形象和思考方式的磨合。
+
+那就是……即使「ALGA＝藻类」，
+
+因为它是「DI＋ALGA」，所以我们也用日语来同样思考一下。
+
+这样一来，假设把「DI」当作「デ」……
+
+・它原本就是像「デコンブ」那样的感觉吗？DI有什么含义吗？
+
+・你会把「デコンブ」这种龙属性的宝可梦看作是昆布吗？
+
+・那是一眼看上去就能感觉到的吗？
+
+等等，我们会反复讨论“到底有多像昆布！？”（笑）。
+
+就这样，世界通用名称一个一个地确定下来。
+
+顺带一提，最终在西班牙也是DIALGA，但是……
+
+怎么样？
+
+西班牙的朋友们，会有昆布的印象吗？？
+
+从日语开始，扩展到英语、德语、法语、西班牙语、意大利语、韩语，
+
+这就是本地化的痛苦与乐趣！
+
+再见！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今回はポケモンの海外名称について。
 
@@ -81,6 +138,8 @@ gf_archive_id: masuda-122
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

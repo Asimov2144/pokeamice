@@ -18,18 +18,51 @@ gf_entry_title: ゲームを作るということ。
 gf_archive: 2005-08
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第51回
   url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-051
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+制作游戏这件事，
+
+就是将“有趣”“快乐”“舒畅”等感性，
+
+转换为数字并记录（编程）下来的工作。
+
+然后，玩家（用户）通过播放这些数字记录的感性，
+
+游戏才作为游戏，感性才作为感性呈现出来。
+
+游戏设计师的工作，就是将感性数字化。
+
+因此，既需要学习感性，也需要学习数字技术，
+
+还需要将感性理性化，传达给他人。
+
+此外，还需要考虑玩家会以何种形式来播放。
+
+这样一想，也许听起来很难，
+
+但实际上，创造游戏是一件快乐的事。
+
+因为最重要的是，它能从零开始创造，并让人乐在其中。
+
+那么，就这样。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ゲームを作るということ。
 
@@ -57,6 +90,8 @@ gf_archive_id: masuda-051
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

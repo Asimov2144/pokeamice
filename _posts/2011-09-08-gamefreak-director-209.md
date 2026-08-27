@@ -19,18 +19,63 @@ gf_archive: 2011-09
 gf_categories:
 - ポケモン
 - 音楽
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第209回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-209
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+９月４日的MTM演唱会，大家看了吗！？
+
+竟然，演奏了３首曲子！
+
+以前，宝可梦Smash！还是宝可梦☆Sunday的时代。
+
+小所酱来到GAME FREAK，
+
+拜托增田创作一首曲子！
+
+于是增田创作了一首曲子，
+
+那首曲子就在MTM演唱会上演奏了！
+
+接着是熟悉的（？）
+
+MTM with 战斗女M 演奏的竹兰的曲子。
+
+然后，最后是，，，
+
+比克提尼也登场了的传说宝可梦战斗的曲子。
+
+孩子们都吓了一跳。
+
+超Techno（笑）
+
+应该很热闹吧！！大概。
+
+小所酱在博客上发布了哦！！
+
+[http://ameblo.jp/nakagawa-shoko/entry-11008093892.html](http://ameblo.jp/nakagawa-shoko/entry-11008093892.html)
+
+[http://ameblo.jp/nakagawa-shoko/entry-11008070267.html](http://ameblo.jp/nakagawa-shoko/entry-11008070267.html)
+
+好开心！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ９月４日のMTMライブ、みなさん観ていただけました！？
 
@@ -70,6 +115,8 @@ MTM with バトルウーマンM　で　シロナの曲。
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

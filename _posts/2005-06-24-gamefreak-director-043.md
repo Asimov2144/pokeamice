@@ -18,18 +18,67 @@ gf_entry_title: ８時２０分の電車に乗らなきゃ！ ９時の授業に
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第43回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-043
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+必须坐上8点20分的电车！
+
+不然9点的课就要迟到了！
+
+从这样的事开始，与时间的战斗。
+
+因为时间被定好了，所以被时间追赶。
+
+如果电车什么时候来没有定好，
+
+如果学校的课或公司的上班时间没有定好，
+
+也许就不用考虑那些事了。
+
+而且，也就没必要那么慌张了吧。
+
+因为时间被定好了，
+
+所以试着从容地、提早行动。
+
+这样一来，看到的东西就会不一样吧。
+
+时间有余裕，心里也会有余裕。
+
+帮老奶奶拿行李啦，做了平时不像自己会做的事啦，
+
+也会变得温柔吧。
+
+路边的杂草和花，回家时的月亮和星星，
+
+看到的东西也会不一样吧。
+
+这样一想，不觉得时间的力量很厉害吗？
+
+而且，不觉得这个日本对时间很敏感，反应过度吗？
+
+最近，我很在意这种时间的动向。
+
+真想再稍微慢悠悠、悠闲地生活啊。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ８時２０分の電車に乗らなきゃ！
 
@@ -73,6 +122,8 @@ gf_archive_id: masuda-043
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

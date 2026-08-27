@@ -18,18 +18,67 @@ gf_entry_title: 初めまして。
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第1回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-001
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+初次见面。
+
+我是 GAME FREAK 的增田。
+
+一直以来承蒙大家支持 GAME FREAK，
+
+非常感谢！
+
+在创作游戏的过程中，会有各种各样的思考。
+
+我想把这些想法一点一点写下来。
+
+首先，GAME FREAK 最重视的事情，
+
+是的，那就是，
+
+「执着地创作」
+
+虽然是很简单的话，但其中蕴含着深刻的意义。
+
+就是这样。
+
+为了创作电脑游戏，「执着」这件事，
+
+需要耗费惊人的能量。
+
+能量用在哪里？
+
+这和木屐匠人如何做出好木屐是一样的道理。
+
+而且，是让 100 个人都说「好！」的木屐。哎呀，真难。
+
+有时候，看似简单普通的事情里，藏着「执着」。
+
+发现这一点的时候，会很高兴。
+
+大家也一定要去发现并享受其中的乐趣哦。
+
+那么。
+
+今后请多关照！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 初めまして。
 
@@ -73,3 +122,5 @@ gf_archive_id: masuda-001
 
 これから、よろしく！
 
+
+</details>

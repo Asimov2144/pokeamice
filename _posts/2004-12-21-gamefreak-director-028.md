@@ -19,18 +19,65 @@ gf_entry_title: みなさんも、携帯電話とかパソコンでメールを�
 gf_archive: 2004-12
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第28回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-028
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家也一定经常用手机或电脑写邮件吧。
+
+那时候，你们会不会这样想呢？
+
+和看着脸说话不同，感情很难传达，
+
+消息这东西，真的，很难啊。
+
+尤其是传达给很多人的消息，就更难了。
+
+根据人的不同，那条消息可能会带来幸福，也可能带来不幸。
+
+必须注意写法。
+
+理解方式不同，感受就不同。被接受的方式也不同。
+
+而且，说得过多，反而会让人不明白。
+
+在宝可梦的情况下，那些文字还会被本地化，
+
+我觉得有必要写出能让很多人心情变好的消息。
+
+所以，我养成了把自己当成别人，反复重读文章的习惯。
+
+不是只给想读的人、能懂的人看，
+
+而是让很多人、全世界的人都能有同样的感受，能产生共鸣的消息。
+
+我认为，这样的消息会支撑未来的宝可梦。
+
+顺便说一下……
+
+我觉得很值得学习的是宣传和通知。
+
+它们是非常简洁、很多人不会误解、没有可挑剔之处的消息。
+
+应该是相当多的人在检查吧。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさんも、携帯電話とかパソコンでメールを書くと思います。
 
@@ -72,6 +119,8 @@ gf_archive_id: masuda-028
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

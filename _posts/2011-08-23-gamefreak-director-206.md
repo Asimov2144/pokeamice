@@ -18,18 +18,69 @@ gf_entry_title: サンディエゴでエネルギーをもらい帰国した次�
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第206回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-206
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+在圣地亚哥补充能量回国的第二天。
+
+东京好热！湿度好大！简直像热带雨林！
+
+在这样的环境中……
+
+来到了这个地方！
+
+<img src="/assets/images/gamefreak-director/archive/206/multi/206a.jpg" alt="" loading="lazy">
+
+没错，东京塔！！
+
+现在，[宝可梦卡牌游戏夏日嘉年华](http://www.pokemon-card.com/event/card-event/summer_carnival/)正在这里东京塔举办中。
+
+据说，到8月28日（周日）为止每天举办中！
+
+……是这样的。
+
+然后……以为要去那里呢，结果……
+
+是别的工作。
+
+是宝可梦Smash的拍摄！
+
+平时都是在大房间，
+
+这次不知为何是单间。
+
+<img src="/assets/images/gamefreak-director/archive/206/multi/206b.jpg" alt="" loading="lazy">
+
+和森本君两个人等待正式开拍。
+
+还化了妆，准备了点心，真是无微不至。
+
+但是……有种微妙的紧张感（笑）
+
+嗯……那个……忘了问播出日期了（汗）
+
+所以呢……
+
+大家，每周都要看[宝可梦Smash](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)哦！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 サンディエゴでエネルギーをもらい帰国した次の日。
 
@@ -77,6 +128,8 @@ gf_archive_id: masuda-206
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

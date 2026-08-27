@@ -19,18 +19,63 @@ gf_entry_title: 今月２０日、しょこたんこと中川翔子さんがい�
 gf_archive: 2006-11
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第62回
   url: https://www.gamefreak.co.jp/blog/dir/2006/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-062
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+本月20日，人称“小香”的中川翔子小姐来我们这里了！
+
+没错。
+
+是为了《宝可梦☆星期天》的取材。
+
+在12月17日的节目中
+
+会播出GAME FREAK的公司内部＆增田的镜头，
+
+如果方便的话，请一定要看！
+
+应该说，请务必观看哦！
+
+电视拍摄时，总是搞不清楚该看哪里……
+
+到底会是什么效果，真是令人期待。
+
+顺便一提，有名的[“小香博客”](http://yaplog.jp/strawberry2/)上
+
+也登了我们的事。
+
+[http://yaplog.jp/strawberry2/archive/10511](http://yaplog.jp/strawberry2/archive/10511)
+
+话说回来，能这么频繁地更新，真是了不起的才能啊。
+
+真的，我很想学习。
+
+果然，诀窍就是……
+
+“想到的时候就要写下来”
+
+就是这么回事吧。
+
+哎呀，真厉害。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今月２０日、しょこたんこと中川翔子さんがいらっしゃいました！
 
@@ -68,6 +113,8 @@ TVの撮影ってどうも目線がよく分からなくて、、、
 
 いやー、すごい。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

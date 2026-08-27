@@ -19,18 +19,124 @@ gf_archive: 2012-12
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第231回
   url: https://www.gamefreak.co.jp/blog/dir/2012/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-231
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 泰姆
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家好！
+
+昨天2012年12月16日（周日），在Animate秋叶原店举办了签名会活动！
+
+非常感谢众多朋友前来参加！！
+
+这次我想怀着对大家的感谢，向大家介绍当天的情况。
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_01.jpg" alt="" loading="lazy">
+
+当天，从清晨开始店前就排起了长队！！
+
+之前还担心会有多少人来，结果真是惊喜的欢呼！
+
+甚至有人从早上4点就开始排队了！！！
+
+在寒冷的天气里，长时间等候，非常感谢。
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_02.jpg" alt="" loading="lazy">
+
+原本计划举办两场（11:00和14:00），但由于人数已满，竟然临时决定加开第三场！！
+
+即便如此，还是没能参加的朋友们，非常抱歉。请务必期待下次机会！
+
+然后到了11点。
+
+活动终于开始了！
+
+我作为最近加入的等离子团成员登场！！
+
+“Pokémoning！！”“Plasma！！”
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_03.jpg" alt="" loading="lazy">
+
+GAME FREAK开发的最新软件“[节奏猎人哈莫奈特](https://www.gamefreak.co.jp/harmoknight/index.html)”的开发团队也一同参加。
+
+我们回答了在推特上事先征集到的关于宝可梦和哈莫奈特的问题！
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_04.jpg" alt="" loading="lazy">
+
+然后，签名会开始了！
+
+如果仔细看照片，可能会发现，这次签名会的签名色纸是特别规格。竟然是……！！
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_05.jpg" alt="" loading="lazy">
+
+宝可梦和哈莫奈特的合作插画色纸！
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_06.jpg" alt="" loading="lazy">
+
+担任哈莫奈特总监兼角色设计，同时也负责宝可梦角色设计的詹姆斯，为这次活动特别绘制了插画！
+
+然后是惯例！？的集体合影时间！！
+
+与参加活动的约180名全员合影留念！
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_07.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_08.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_09.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_10.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_11.jpg" alt="" loading="lazy">
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_12.jpg" alt="" loading="lazy">
+
+大家太棒了！太出色了！！！！
+
+会场内还设置了“节奏猎人 哈莫奈特”的试玩区，开发人员直接进行了说明。
+
+（还没试玩过的朋友，请务必体验一下哦！）
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_13.jpg" alt="" loading="lazy">
+
+对工作人员来说，这也是能与大家交流的非常宝贵的机会。
+
+<img src="/assets/images/gamefreak-director/archive/231/multi/121217_14.jpg" alt="" loading="lazy">
+
+每次举办这样的活动我都会想，这次也从大家那里获得了许多力量！！！
+
+能和大家直接交谈，真的很开心！！
+
+一直以来，真的非常感谢！！！
+
+借此机会，也向给予协助的Animate以及Animate秋叶原店的各位工作人员表示感谢。
+
+清水店长，谢谢您！！
+
+如果还有机会，我一定还想举办！
+
+多亏了大家，这次签名会活动也圆满结束了！
+
+真的非常感谢！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、こんにちは！
 
@@ -148,6 +254,8 @@ gf_archive_id: masuda-231
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

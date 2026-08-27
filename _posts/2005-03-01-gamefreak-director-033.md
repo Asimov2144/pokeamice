@@ -19,18 +19,92 @@ gf_archive: 2005-03
 gf_categories:
 - お知らせ
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第33回
   url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-033
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+今天，与平时的专栏不同，有一条通知。
+
+来自 GAME FREAK 企划成员的宝可梦 9 周年特别企划！！
+
+敬请期待！
+
+■増田部长的「看我嘛」！■
+「一般玩家是怎么看待宝可梦的呢…？」
+
+GAME FREAK 开发部长的这样一句话，催生了一个企划。
+邀请喜欢宝可梦的人们聚在一起，
+
+希望你们能和増田部长聊一聊！
+喜欢宝可梦的各位！
+
+想成为游戏创作者的各位！
+
+要不要和我们开发部长愉快地畅谈一番呢？
+■申请方法
+
+请在明信片上写下以下项目，寄到 GAME FREAK。
+◎应征资格
+
+　　喜欢宝可梦，并且以游戏创作者为目标的人
+◎明信片正面
+
+　　〒155-0031
+
+　　 东京都世田谷区北泽1-40-6
+
+　　 柏第三大厦5F
+
+　　 株式会社 GAME FREAK
+
+　　「看我嘛」负责人
+◎明信片背面
+
+　　（1）姓名
+
+　　（2）年龄
+
+　　（3）住址・电话号码
+
+　　（4）职业
+
+　　（5）电子邮箱地址
+
+　　（6）请写一句话！
+
+　　　　・见到増田的话想问他这样的事
+
+　　　　・喜欢宝可梦的这个地方
+
+　　　　・想成为这样的游戏创作者
+
+　　　　等等，无论什么内容，写几条都可以。
+GAME FREAK 的工作人员会阅览，成员凑齐后就会通知举办事宜。
+
+对于参加者，我们会从 GAME FREAK 寄出通知明信片或邮件。
+举办当天的情形，日后会在这个网站上公布。
+
+另外，很遗憾，未能参加的各位的明信片，也可能在这个页面上
+
+公布出来。
+期待大家的来信！
+「看我嘛」举办工作人员　佐藤＆大森
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 今日は、いつものコラムと違い、お知らせがあります。
 
@@ -99,6 +173,8 @@ gf_archive_id: masuda-033
 みなさまからのお便り、お待ちしております！
 このゆびとまれ開催スタッフ　さとう＆おおもり
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

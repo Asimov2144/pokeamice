@@ -18,18 +18,55 @@ gf_entry_title: 電車の優先席ってなんだろう？ 何となくだけど
 gf_archive: 2004-09
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第17回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-017
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+电车的优先席到底是什么呢？
+
+虽然只是隐约觉得……
+
+本来，优先虽然是优先，但感觉上更接近专用。
+
+介于专用和优先之间。
+
+总觉得和印象不符。
+
+在电车或电梯里，优先的意识似乎会变得淡薄。
+
+但是，在停车场停车时，
+
+如果看到大大的优先标志和“优先”字样，
+
+不知为何，就会觉得不能停车。
+
+不知为何，会萌生“因为是优先，所以不能停”的意识。
+
+这种意识的差异，在制作游戏时也能感受到。
+
+如果模糊了印象的焦点，对它的意识就会变淡。
+
+让人意识到而制作的部分，
+
+让人意识不到而制作的部分，
+
+两者都很重要啊。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 電車の優先席ってなんだろう？
 
@@ -61,6 +98,8 @@ gf_archive_id: masuda-017
 
 共に大切なんですね。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

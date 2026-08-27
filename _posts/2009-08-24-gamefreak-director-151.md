@@ -19,18 +19,105 @@ gf_archive: 2009-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第151回
   url: https://www.gamefreak.co.jp/blog/dir/2009/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-151
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+8月12日到17日，我去了美国圣迭戈！
+
+圣迭戈从洛杉矶机场开车往南大约2小时。
+
+现在这个时期，日本气候湿度高，非常炎热，
+
+但那里完全没有这种感觉，气候干燥，也不太出汗，
+
+是非常宜人的地方！
+
+在那里举行的是……
+
+宝可梦世界锦标赛2009！！
+
+无论是电子游戏还是卡牌游戏都气氛高涨，令人兴奋不已！
+
+会场内展开了激烈的对战，热气腾腾。
+
+空调开足冷气！好冷（笑）
+
+签名会上有130多人排队，感激不尽！
+
+谢谢大家！
+
+还接受了《宝可梦☆星期天》的采访。
+
+播出时间是8月30日（周日）！敬请期待！
+
+闭幕式上，在台上表彰了电子游戏世界冠军！
+
+哎呀，是世界第一哦，真的很厉害！
+
+今年也是非常棒的大赛！
+
+Ciao！
+
+附赠
+
+[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
+
+[http://www.go-pokemon.com/worlds/2009/](http://www.go-pokemon.com/worlds/2009/)
+
+[http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html](http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html)
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151a.jpg" alt="" loading="lazy">
+
+远处看到的酒店就是举办WCS的希尔顿圣迭戈海湾酒店。
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151b.jpg" alt="" loading="lazy">
+
+从增田的房间看到的景色。光是看着船只和货物搬运就很有趣，时间不知不觉就过去了（笑）
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151c.jpg" alt="" loading="lazy">
+
+会场外有帕路奇亚和帝牙卢卡。
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151d.jpg" alt="" loading="lazy">
+
+会场里人！人！人！
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151e.jpg" alt="" loading="lazy">
+
+今年的电子游戏比赛和卡牌比赛在同一个会场。大家都在认真对战。
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151f.jpg" alt="" loading="lazy">
+
+决赛！
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151h.jpg" alt="" loading="lazy">
+
+川内丸和增田一起，签名&握手！
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151g.jpg" alt="" loading="lazy">
+
+还在帽子上签了名哦！
+
+<img src="/assets/images/gamefreak-director/archive/151/multi/151i.jpg" alt="" loading="lazy">
+
+外面……真的，阳光很强烈……
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ８月１２日から１７日までアメリカ、サンディエゴに行ってました！
 
@@ -112,6 +199,8 @@ gf_archive_id: masuda-151
 
 外は、、、まじ、日差しが強いんです。。。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

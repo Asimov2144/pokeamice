@@ -19,18 +19,69 @@ gf_archive: 2010-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第159回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-159
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+『宝可梦』系列的全新作品！
+
+正在面向2010年内发售进行开发中！！
+
+[http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)
+
+[http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)
+
+终于在今天，顺利地向大家公布了！！
+
+啪啪啪！！！
+
+不过，这可不是事不关己……（汗）
+
+当然，开发全部由我们负责。
+
+现在，GAME FREAK 开发部，
+
+为了超越以往的宝可梦，
+
+正以革新的软件为目标，锐意开发中！
+
+顺便一提，正如公告中所说……
+
+『宝可梦 钻石·珍珠』，
+
+确实是全球销量超过1715万套（国内580万套以上）的软件。
+
+（东京的人口约1300万人）
+
+我们正以超越DP的气势努力着！
+
+各位，请多多支持！
+
+敬请期待！
+
+另外，在2月7日（周日）的宝可梦星期天中，增田也会
+
+紧急视频出演？所以，
+
+请务必观看哦。应该能获得一些信息！！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 『ポケットモンスター』シリーズの完全新作！
 
@@ -76,6 +127,8 @@ gf_archive_id: masuda-159
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

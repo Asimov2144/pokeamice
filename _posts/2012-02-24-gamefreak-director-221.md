@@ -19,18 +19,53 @@ gf_archive: 2012-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第221回
   url: https://www.gamefreak.co.jp/blog/dir/2012/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-221
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 5
+glossary_missing_targets:
+- 武德
+- 电视机
+- 大电视
+- 电视机
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+非常重要的通知！！！
+
+２０１２年２月２６日（星期日）早上７：３０起在东京电视台系列播出的
+
+宝可梦 smash 中，增田会出场！！！但是、、、
+
+竟然！！！在那里、、、
+
+会进行非常重大的发表，
+
+请绝对不要错过！！！
+
+请大家收看直播！！！
+
+然后，无法收看的朋友们、、、
+
+增田会在[推特](https://twitter.com/#%21/Junichi_Masuda)上于播出后立刻发布与电视相同的信息！！！
+
+大家，敬请期待哦ー！！！！！
+
+再见！
+
+[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 とても重要なお知らせです！！！
 
@@ -56,6 +91,8 @@ gf_archive_id: masuda-221
 
 [http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

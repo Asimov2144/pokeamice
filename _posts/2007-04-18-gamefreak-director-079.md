@@ -18,18 +18,85 @@ gf_entry_title: ドイツ（３）
 gf_archive: 2007-04
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第79回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-079
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+德国（3）
+
+第3天。早上8点从酒店出发！
+
+从普法尔茨到摩泽尔地区。
+
+从巴士里看外面的景色，
+
+城镇与城镇之间离得很远，中间是道路。简直就像宝可梦的城镇一样。
+
+因为城堡和领主制等与日本不同的发展，所以这是理所当然的，但感觉很不可思议。
+
+而且，至今仍保持着那种风格。
+
+太厉害了。
+
+感觉不仅仅是价值观，还有什么东西不一样。
+
+在特里尔市吃午饭。
+
+听说这里来过罗马军队，当时建造了一扇巨大的黑色城门。
+
+哎呀，真厉害。
+
+再次乘坐巴士移动。
+
+前往凯沃利希酿酒厂。
+
+这里，竟然！是贝多芬的后裔！马克思先生的酿酒厂。
+
+带我们参观了地下，教我们制作起泡酒的方法。
+
+然后，去他家。
+
+家里装饰着贝多芬的画！不愧是！
+
+喜欢宝可梦的马克思先生和增田进行了对谈。
+
+第九代的马克思先生和增田同岁，意气相投！
+
+哎呀，真是个非常温柔的人！
+
+然后，接受了德国游戏大师杂志的采访！
+
+来自法国的3家媒体采访！
+
+晚餐是马克思先生准备的葡萄酒，
+
+还有店里的白芦笋、鳟鱼、土豆，超级好吃！！
+
+又一次，被德国葡萄酒、德国料理彻底征服。
+
+住宿的酒店摩泽尔河非常美丽！
+
+那是一生难忘的美景！
+
+如果哪天马克思先生来了，我想带他去日本美丽的地方！
+
+待续！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ドイツ（３）
 
@@ -91,6 +158,8 @@ gf_archive_id: masuda-079
 
 つづく！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

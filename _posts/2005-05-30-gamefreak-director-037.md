@@ -18,18 +18,61 @@ gf_entry_title: 先週LAで行われた、E3に行ってきました！
 gf_archive: 2005-05
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第37回
   url: https://www.gamefreak.co.jp/blog/dir/2005/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-037
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 0
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+我去了上周在洛杉矶举办的E3！
+
+在被巨大展厅里陈列的众多游戏所震撼的同时，
+
+感受到了Revolution、XBOX360、PS3等新主机竞争的激烈，
+
+一边祈祷游戏的未来不要仅仅被主机的技术能力所束缚，
+
+一边慢慢享受了会场。
+
+游戏越是普及，
+
+从被画面吸引的用户，到被趣味性吸引的用户，
+
+向多方面分化并广泛扩展，我认为这是好事。
+
+只是，
+
+硬件也同样希望既有高规格的，
+
+也有低规格但容易制作、容易游玩的，
+
+向多方面发展。
+
+否则，
+
+就会难以制作出具有新游戏性的作品，
+
+最终只会剩下模拟类游戏了。
+
+毕竟，追求游戏性并加以简化的话，
+
+硬件的性能就关系不大了。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 先週LAで行われた、E3に行ってきました！
 
@@ -67,6 +110,8 @@ Revolution、XBOX360、PS3などの新ハードに競争の激しさを感じ、
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,74 @@ gf_entry_title: 実は増田、アナログシンセのマニアなんです。 
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第16回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-016
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets:
+- 狂热
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+其实增田是个模拟合成器的发烧友。
+
+能做出这个世界上不存在的声音，这一点我超喜欢！简直让人着迷。
+
+我有罗兰的SH-2、KORG的MS-20、PS-3200什么的，
+
+不过要说能玩得开心的合成器，还是能自己接线的罗兰SYSTEM-100M。
+
+这是一台容易上手又有趣的乐器。
+
+从设计上让我憧憬的，果然还是Moog IIIc。
+
+那是YMO的松武秀树先生从早期就开始用的大家伙。
+
+绝佳的设计！帅得没话说！
+
+面板的设计自不必说，箱体的长宽比和倾斜的角度也都很棒！
+
+感觉功能和设计融为一体。
+
+啊——真帅。
+
+啊，对了，
+
+模拟合成器是把声音的要素分开来发声的。
+
+VCO是发出声音的部分。
+
+VCF是加工声音的部分。
+
+VCA是控制音量的部分。
+
+基本要素就这三个。
+
+也就是说，声音就是靠这些构成的。
+
+“把某个东西分解，再通过合成还原成原来的样子”
+
+声码器什么的也是这样，
+
+我觉得这像是发明了合成器的穆格博士的创意之源。
+
+做游戏的时候有时也会有同样的想法，
+
+但要真正看清原本的形态时，我觉得分解和合成尤其重要。
+
+那么就这样。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 実は増田、アナログシンセのマニアなんです。
 
@@ -79,6 +135,8 @@ gf_archive_id: masuda-016
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -18,18 +18,59 @@ gf_entry_title: スターバックス。 ダイスキナンデス。
 gf_archive: 2007-08
 gf_categories:
 - ものづくりについて
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第98回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-098
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+星巴克。
+
+超喜欢。
+
+即使去海外出差，当然也会喝。星巴克拿铁。
+
+而且，无论在哪里喝都很好喝！
+
+不过，稍微有点，不同地方的味道会不一样呢。
+
+在西雅图的星巴克一号店，感觉牛奶稍微浓郁一些，
+
+在德国则总觉得像是甜牛奶。
+
+不只是味道。店内也不一样。
+
+星巴克就是星巴克。
+
+一样但……又有点不同。
+
+但这是因为，他们在为顾客着想。
+
+充分考虑饮用者，连椅子、桌子，甚至挂在墙上的画都精心挑选。
+
+为了让顾客感到舒适，店员也接受了相应的培训。
+
+非常值得学习。
+
+我也要时刻为玩家着想。
+
+每次喝着大杯拿铁，我都会这样想。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 スターバックス。
 
@@ -65,6 +106,8 @@ gf_archive_id: masuda-098
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

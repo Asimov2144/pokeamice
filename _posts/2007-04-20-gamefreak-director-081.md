@@ -18,18 +18,85 @@ gf_entry_title: 増田＠NYです。
 gf_archive: 2007-04
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第81回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-081
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+増田＠NYです。
+
+大家知道，美国时间4月22日（日本时间23日），
+
+北美版的钻石·珍珠就要发售了！
+
+发售首日的活动将在纽约曼哈顿的洛克菲勒中心广场举行！好期待！
+
+増田为了接受各家媒体的采访以及参加活动（舞台上的问答和签名会），
+
+来到了纽约。
+
+对！终于！北美版发售！！
+
+这样一来，美国和日本的从未谋面的宝可梦粉丝们，
+
+就可以通过GTS交换宝可梦了！
+
+而且，一旦交换！！
+
+GTS（ジオネット）就会切换到世界地图模式！
+
+还有，宝可梦携带的邮件！
+
+其内容会自动翻译。
+
+也就是说，用日文版钻石写的邮件，
+
+比如「皮卡丘　すき！」，会以「I love PIKACHU!」的形式送到北美版玩家手中。
+
+反过来也一样。
+
+很厉害吧！
+
+这次的邮件和联盟中的文字制作机制，
+
+不是为日本，而是为多种语言交错的欧洲而设计的。
+
+没错。通过用一两个单词组成句子的结构，
+
+各国语言的自动翻译在全球范围内变得容易了。
+
+因此，日本人之间的邮件，比起过去的作品可能会觉得不方便。
+
+但是，我们优秀的员工怀着信念，
+
+拍着胸脯做出了这个能实现全球同步翻译的机制！
+
+他们干得漂亮！
+
+大家也一定要通过GTS交换宝可梦！
+
+也请试试邮件功能哦。
+
+啊，别忘了增加ジオネット的点数！
+
+钻石·珍珠，从这里又将产生新的变化。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 増田＠NYです。
 
@@ -95,6 +162,8 @@ GTS(ジオネット)は世界地図モードに切り替わります！
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

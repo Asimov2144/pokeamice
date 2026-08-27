@@ -18,18 +18,163 @@ gf_entry_title: ＬＡより情報＋雰囲気をお届け！
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第198回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-198
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+从洛杉矶发来信息＋氛围！
+
+今天，首先从任天堂的发布会开始！
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198a.jpg" alt="" loading="lazy">
+
+地点是诺基亚剧院。
+
+音乐竟然是！管弦乐团的现场演奏！！太棒了！！！
+
+岩田先生、雷吉先生、宫本先生分别登台。
+
+宝可梦方面介绍了立体图鉴！
+
+大家也请下载到3DS上哦！！
+
+然后……
+
+Wii的后继机型Wii U发布了！
+
+哎呀，真是个非常有趣的控制器呢！
+
+使用这个Wii U控制器的演示一播放，就响起了欢呼声。
+
+而欢呼声最高的，是高尔夫球游戏的演示。
+
+确实新颖！既神奇又有趣！
+
+然后，今天下午开幕！E3！（下面的照片是在同一个地方拍的）
+
+右侧。西侧。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198b.jpg" alt="" loading="lazy">
+
+然后是左侧。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198c.jpg" alt="" loading="lazy">
+
+不愧是洛杉矶，规模就是不一样！好大！！
+
+然后……入口附近竟然有坦克！！！
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198d.jpg" alt="" loading="lazy">
+
+这辆坦克，是游戏的宣传……太厉害了……
+
+走进去就能看到E3的横幅。看，是三个E吧。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198e.jpg" alt="" loading="lazy">
+
+首先，去任天堂的展位！
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198f.jpg" alt="" loading="lazy">
+
+里面是这样的。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198g.jpg" alt="" loading="lazy">
+
+好想近距离看看Wii U！！
+
+正想着的时候……
+
+一位草莓色的女士拿着，拿着Wii U控制器！
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198h.jpg" alt="" loading="lazy">
+
+这里也有Wii U。可以看到主机嵌在墙里。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198i.jpg" alt="" loading="lazy">
+
+去其他展位看看，也都是配合各自主题，很有个性。
+
+索尼是两层楼。vita在哪里！？
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198j.jpg" alt="" loading="lazy">
+
+发出粉色和蓝色光芒的是……啊，是Move！
+
+大家就像在家里一样在玩。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198k.jpg" alt="" loading="lazy">
+
+卡普空也是人山人海。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198l.jpg" alt="" loading="lazy">
+
+科乐美也是。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198m.jpg" alt="" loading="lazy">
+
+虽然整体上（对日本人来说）有点暗，
+
+但光影的运用非常出色。
+
+<img src="/assets/images/gamefreak-director/archive/198/ja/198n.jpg" alt="" loading="lazy">
+
+哎呀，今年的E3，气氛很热烈！！
+
+声音也是超大声！！
+
+E3根据年份不同，有时体育类多，
+
+有时RPG多，好像有流行趋势……
+
+今年，战争类FPS（主角视角动作）大流行！！
+
+血腥类也很多！！
+
+到处都血淋淋的。狂射，狂杀。
+
+太硬核了……
+
+制作方似乎也已经习惯了，
+
+从“杀人”是理所当然，
+
+到焦点变成了“怎么杀”？
+
+也许正因为如此，对手都是僵尸、外星人之类的。
+
+因为对手残暴，所以我们也对抗……
+
+真是说不出的野蛮状况。
+
+嗯。
+
+玩什么由玩家选择，这倒没什么，
+
+但作为制作方，有点寂寞啊！
+
+因为都是相似的作品，
+
+充满独创性的新玩法很少。所以，这次E3让我感到了一些危机感。
+
+明天，还会再去E3，再多学习一下！
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ＬＡより情報＋雰囲気をお届け！
 
@@ -169,6 +314,8 @@ RPGが多かったりと流行のようなものがあるのですが、、、
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

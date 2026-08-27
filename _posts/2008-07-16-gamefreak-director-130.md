@@ -18,18 +18,57 @@ gf_entry_title: NYで仕事を済ませ、いまロスアンゼルスに来て�
 gf_archive: 2008-07
 gf_categories:
 - 日記
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第130回
   url: https://www.gamefreak.co.jp/blog/dir/2008/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-130
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+<img src="/assets/images/gamefreak-director/archive/130/ja/130a.jpg" alt="" loading="lazy">
+
+在纽约办完工作，现在来到了洛杉矶！
+
+今天早上，听了任天堂公司的发布会，
+
+正期待着WiiMUSIC。
+
+明天，预定去E3。
+
+期待！
+
+哎呀，不过，LA的阳光真是强烈。感觉要被晒黑了。。。
+
+<img src="/assets/images/gamefreak-director/archive/130/ja/130b.jpg" alt="" loading="lazy">　<img src="/assets/images/gamefreak-director/archive/130/ja/130c.jpg" alt="" loading="lazy">　<img src="/assets/images/gamefreak-director/archive/130/ja/130d.jpg" alt="" loading="lazy">
+
+那么！！
+
+话题完全变了，但是。。。
+
+7月20日（周日）的宝可梦☆星期天，增田会出场！
+
+也会介绍GAME FREAK的公司内部。
+
+我们就是在这样的地方开发宝可梦的哦！
+
+虽然时间很早，但请一定要看哦！！
+
+Ciao！
+
+<img src="/assets/images/gamefreak-director/archive/130/ja/130e.jpg" alt="" loading="lazy">
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 <img src="/assets/images/gamefreak-director/archive/130/ja/130a.jpg" alt="" loading="lazy">
 
@@ -63,6 +102,8 @@ NYで仕事を済ませ、いまロスアンゼルスに来ています！
 
 <img src="/assets/images/gamefreak-director/archive/130/ja/130e.jpg" alt="" loading="lazy">
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

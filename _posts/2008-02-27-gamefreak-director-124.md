@@ -18,18 +18,59 @@ gf_entry_title: ２月２７日。 日本のこの日、ゲームボーイソフ
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第124回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-124
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 7
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+2月27日。
+
+日本的这一天，Game Boy软件《宝可梦 红·绿》发售了。
+
+皮卡丘、妙蛙花、喷火龙、喵喵、超梦在这一天诞生于世。
+
+是的，今天对于宝可梦、对于GAME FREAK，
+
+以及对于包括增田在内的开发人员来说，是有着特别意义的日子。
+
+当时的员工如今仍在公司内充满活力地进行开发，
+
+但今天也是回顾过去的好时机。
+
+创造更好的东西。
+
+比起昨天，今天要创造更好的东西——我们怀着这样的心情每天努力着。
+
+这份心情与当时毫无二致。
+
+今后，我也想珍惜这份心情。
+
+然后……
+
+在世界各地大家的支持下，我们迎来了这12周年。
+
+真的非常感谢。
+
+谢谢大家！
+
+今后，宝可梦也将继续进化！
+
+Ciao！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ２月２７日。
 
@@ -65,6 +106,8 @@ gf_archive_id: masuda-124
 
 チャオ！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

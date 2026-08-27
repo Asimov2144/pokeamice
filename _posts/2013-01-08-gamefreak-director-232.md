@@ -19,18 +19,89 @@ gf_archive: 2013-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第232回
   url: https://www.gamefreak.co.jp/blog/dir/2013/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-232
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 3
+glossary_missing_targets:
+- 集友圈
+- 大钳蟹
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+大家，这一刻终于到来了！！！！
+
+今天，2013年1月8日（周二）晚上8点。
+
+宝可梦将向大家发布最新情报！！
+
+希望尽可能多的人看到！
+
+这一刻，
+
+请和家人、恋人、朋友、同事、同学、社团成员，大家一起看！！
+
+喜欢宝可梦的人当然要看，
+
+不了解宝可梦的人也请务必观看！！
+
+因为想让更多人看到，
+
+请在公司、学校、俱乐部、社团活动、兴趣小组等场合，
+
+告诉大家！　帮忙传播！！
+
+1月8日（周二）晚上8点，请访问宝可梦官方网站！
+
+增田也已经等不及了！！
+
+大家，敬请期待！
+
+Ciao！
+
+时间：
+
+・日本　　　　　　　　　　　　　8日（周二）晚上20点
+
+・美国　东海岸　　　　　　　　8日（周二）早上6点
+
+・美国　西海岸　　　　　　　　8日（周二）早上3点
+
+・英国　　　　　　　　　　　　　8日（周二）早上11点
+
+・法国・德国　　　　　　　　　 8日（周二）中午12点
+
+・意大利・西班牙　　　　　　　8日（周二）中午12点
+
+宝可梦官方网站：
+
+[http://www.pokemon.co.jp/ex/important_announce/](http://www.pokemon.co.jp/ex/important_announce/?a001=msign)
+
+任天堂主页：
+
+[http://www.nintendo.co.jp/](http://www.nintendo.co.jp/)
+
+[http://www.nintendo.com/](http://www.nintendo.com/?country=US&lang=en)
+
+[http://www.nintendo.fr/](http://www.nintendo.fr/)
+
+[http://www.nintendo.it/](http://www.nintendo.it/)
+
+[http://www.nintendo.de/](http://www.nintendo.de/)
+
+[http://www.nintendo.es/](http://www.nintendo.es/)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 みなさん、ついにこの時がきました！！！！
 
@@ -94,6 +165,8 @@ gf_archive_id: masuda-232
 
 [http://www.nintendo.es/](http://www.nintendo.es/)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

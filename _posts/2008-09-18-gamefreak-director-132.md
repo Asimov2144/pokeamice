@@ -19,18 +19,43 @@ gf_archive: 2008-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第132回
   url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-132
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+「宝可梦 白金」
+
+达成了DS软件史上最快的「3天突破100万份！」！
+
+非常开心！
+
+这也多亏了大家。
+
+真的，非常感谢！
+
+我们感谢的心情，
+
+都倾注在了白金之中，
+
+请尽情享受吧！
+
+那么！
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 「ポケットモンスター プラチナ」が、
 
@@ -50,6 +75,8 @@ DSソフト史上最速の「３日で１００万本突破！」を達成しま
 
 では！
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

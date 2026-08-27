@@ -18,18 +18,59 @@ gf_entry_title: １００回記念！ みなさん、いつもコラムを読ん
 gf_archive: 2007-08
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第100回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-100
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 2
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+100回纪念！
+
+各位，一直阅读专栏，非常感谢！！
+
+因此，怀着感谢之情，公开特别的宝可梦DP话题！
+
+每天游玩的人或许已经知道了，但是……
+
+钻石·珍珠中有天气变化的机制！
+
+在北美和欧洲，Diamond&Pearl也已发售，
+
+在相同条件下，这个天气机制也包含在内。
+
+也就是说！
+
+即是，
+
+全世界共通，在同一天会是相同的天气。
+
+作为世界共通的语言，可以说“○○○市在几月几日会下大雪”这样的机制。
+
+虽然是个小小的机制，但和朋友一起游玩的人，
+
+请试着提起天气的话题。
+
+或许会有与平时稍有不同的发现。
+
+这也是不局限于游戏世界，
+
+为了享受对话而设的一个机关。
+
+那么。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 １００回記念！
 
@@ -67,6 +108,8 @@ gf_archive_id: masuda-100
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

@@ -19,18 +19,113 @@ gf_archive: 2015-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第244回
   url: https://www.gamefreak.co.jp/blog/dir/2015/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-244
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 1
+glossary_missing_targets: []
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+终于能够公布『Pokémon GO』了。
+
+<p class="gf-director-spacer"></p>
+
+增田的推特上收到了来自世界各地的留言：
+
+“非常期待！好兴奋！”
+
+“真想马上出发去冒险！”
+
+“儿时的梦想成真了”
+
+等等……
+
+收到了许多这样令人开心的留言。
+
+<p class="gf-director-spacer"></p>
+
+大家的支持比什么都更能给我力量。
+
+作为创作者，没有比这更令人安心的了。
+
+我很幸福。
+
+各位，真的非常感谢！
+
+<p class="gf-director-spacer"></p>
+
+在『Pokémon GO』中，我参与了世界观构建、游戏设计和音乐，
+
+但我们将宝可梦的世界观和游戏设计的常识拆解、重构，通过新的设计，
+
+使其成为一款能作为位置信息游戏来享受的作品。
+
+<p class="gf-director-spacer"></p>
+
+开发仍在继续，
+
+为了能让全世界的玩家都乐在其中，
+
+我们将与Niantic一起打造最棒的作品。
+
+<p class="gf-director-spacer"></p>
+
+献给全世界的宝可梦粉丝、全世界的Ingress粉丝，以及从未玩过宝可梦的人们。
+
+我们希望能认真打造出让所有人都能享受的作品。
+
+<p class="gf-director-spacer"></p>
+
+为了迎接宝可梦20周年，带着对大家的感谢之情。
+
+<p class="gf-director-spacer"></p>
+
+预定于2016年在智能手机（iOS、Android）上发布。
+
+敬请期待！
+
+<img src="/assets/images/gamefreak-director/archive/244/multi/0911_002.jpg" alt="" loading="lazy">
+
+发布会影像（资料：日语 / 语音：日语・英语）
+
+[http://www.pokemon.com/us/pokemon-news/news-from-the-pokemon-go-announcement/#](http://www.pokemon.com/us/pokemon-news/news-from-the-pokemon-go-announcement/##)
+
+<p class="gf-director-spacer"></p>
+
+视频影像
+
+[http://www.youtube.com/watch?v=lKUwVYUKii4&feature=youtu.be](http://www.youtube.com/watch?v=lKUwVYUKii4&feature=youtu.be)
+
+Niantic,Inc.
+
+[http://www.nianticlabs.com/index.html](http://www.nianticlabs.com/index.html)
+
+媒体
+
+[http://app.famitsu.com/20150910_568158/](http://app.famitsu.com/20150910_568158/)
+
+[http://k-tai.impress.co.jp/docs/news/20150910_720532.html](http://k-tai.impress.co.jp/docs/news/20150910_720532.html)
+
+[http://www.inside-games.jp/article/2015/09/10/91052.html](http://www.inside-games.jp/article/2015/09/10/91052.html)
+
+[http://bcnranking.jp/news/1509/150910_31462.html](http://bcnranking.jp/news/1509/150910_31462.html)
+
+[http://japan.cnet.com/entertainment/35070367/](http://japan.cnet.com/entertainment/35070367/)
+
+[http://weekly.ascii.jp/elem/000/000/370/370155/](http://weekly.ascii.jp/elem/000/000/370/370155/)
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ついに『Pokémon GO』を発表することができました。
 
@@ -120,6 +215,8 @@ Niantic,Inc.
 
 [http://weekly.ascii.jp/elem/000/000/370/370155/](http://weekly.ascii.jp/elem/000/000/370/370155/)
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 

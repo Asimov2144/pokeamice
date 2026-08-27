@@ -18,18 +18,72 @@ gf_entry_title: ９月２５日、ポケパーク最終日に行ってきまし�
 gf_archive: 2005-09
 gf_categories:
 - ポケモン
-summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
 search: true
 source:
   title: 増田部長のめざめるパワー 第54回
   url: https://www.gamefreak.co.jp/blog/dir/2005/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-054
+translation_status: proofread
+proofread_confidence: high
+glossary_match_count: 11
+glossary_missing_targets:
+- 海洋队
 ---
 
-<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+<aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
-## 日文原文
+## 中文译文
+
+９月２５日，我去了宝可梦乐园的最后一天。
+
+天气也很好，气温适中，是个非常舒适的好日子。
+
+不过，不愧是最后一天，工作人员和游客都带着一种与平时不同的气氛。
+
+然后，在夜幕开始降临时举行了告别派对。
+
+首先，是宝可梦乐园主题曲的舞蹈动作，
+
+我们和水舰队、熔岩队的姐姐们一起练习。
+
+５到１０岁左右的孩子们面带笑容，开心地练习。
+
+大家都非常棒。
+
+这时，火箭队登场，歌声一响起，大家都兴奋不已。
+
+松本梨香女士的登场让大家激动万分。
+
+接着，
+
+路卡利欧、正电拍拍、负电拍拍、信使鸟、呆呆王、水跃鱼、固拉多（好大）、
+
+皮卡丘×５等，大约１５只宝可梦出现，气势逼人。
+
+跳啊跳。跳得非常厉害。跳得极其出色。这真是令人感动的一幕。
+
+这个表演舞台的质量相当高，非常有趣哦。
+
+我能感受到和大家的一体感，哎呀，真是太棒了。
+
+而且，我觉得宝可梦乐园和这场表演，
+
+展现了宝可梦新的可能性。
+
+虽然只有短短半年的时间，但据说有超过４００万人到场，
+
+对于来宝可梦乐园的各位，我真心表示感谢。
+
+各位，真的非常感谢。
+
+我想继续挑战新的可能性。
+
+那么，就这样。
+
+
+<details class="gf-director-language"><summary>查看日文原文</summary>
 
 ９月２５日、ポケパーク最終日に行ってきました。
 
@@ -77,6 +131,8 @@ gf_archive_id: masuda-054
 
 では。
 
+
+</details>
 
 <details class="gf-director-language"><summary>查看官方英文版</summary>
 
