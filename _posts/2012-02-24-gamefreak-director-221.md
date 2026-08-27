@@ -32,7 +32,6 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 5
 glossary_missing_targets:
-- 武德
 - 大电视
 ---
 
@@ -60,8 +59,7 @@ glossary_missing_targets:
 
 大家敬请期待哦——！！！！！
 
-再见！
-
+下回再见呀！
 [http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
 

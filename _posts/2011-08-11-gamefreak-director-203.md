@@ -61,7 +61,7 @@ glossary_missing_targets: []
 
 那么，我出发了！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

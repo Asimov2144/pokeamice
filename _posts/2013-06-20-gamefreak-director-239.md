@@ -94,7 +94,7 @@ glossary_missing_targets: []
 
 [http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)（活动，我也计划去）
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -69,7 +69,7 @@ glossary_missing_targets: []
 
 宝可梦今后也还会继续不断进化！
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

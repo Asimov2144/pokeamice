@@ -58,7 +58,7 @@ glossary_missing_targets: []
 
 从现在起的一年里，我也打算继续充满活力地行动、实践下去！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

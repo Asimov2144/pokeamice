@@ -84,7 +84,7 @@ glossary_missing_targets: []
 
 大家也一定要听听哦！
 
-回头见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

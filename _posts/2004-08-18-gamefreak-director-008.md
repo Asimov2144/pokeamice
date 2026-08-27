@@ -83,7 +83,7 @@ glossary_missing_targets: []
 
 总有一天一定要实现！！！
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

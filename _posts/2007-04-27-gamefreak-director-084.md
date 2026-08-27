@@ -188,8 +188,7 @@ glossary_missing_targets: []
 
 真的非常感谢大家一直以来给予我们这么多支持！
 
-再见！
-
+下回再见啦！
 <img src="/assets/images/gamefreak-director/archive/084/ja/ny001.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/084/ja/ny002.jpg" alt="" loading="lazy">
 
 

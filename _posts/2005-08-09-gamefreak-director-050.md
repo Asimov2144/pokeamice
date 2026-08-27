@@ -73,7 +73,7 @@ glossary_missing_targets: []
 
 这样思考一番，灵感也会不断涌现，感觉很有意思哦。
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -61,7 +61,7 @@ glossary_missing_targets: []
 
 今后也想继续这样蛮干着跑下去（笑）
 
-回头见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

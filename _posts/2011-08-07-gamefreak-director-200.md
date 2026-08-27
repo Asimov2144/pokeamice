@@ -110,7 +110,7 @@ glossary_missing_targets: []
 
 你们不觉得，这是个相当不错的声音吗？
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

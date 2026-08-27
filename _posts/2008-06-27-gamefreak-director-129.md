@@ -59,7 +59,7 @@ glossary_missing_targets: []
 
 那么，会是哪首曲子呢？？？听到之后，大家能猜出来吗！？
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

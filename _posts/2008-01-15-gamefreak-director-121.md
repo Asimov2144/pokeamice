@@ -75,7 +75,7 @@ glossary_missing_targets: []
 
 啊，还有，宝可梦好像也比平时多了一点，蛋应该也稍微活跃了一些。
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

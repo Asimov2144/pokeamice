@@ -68,8 +68,7 @@ glossary_missing_targets: []
 
 大家也敬请期待！！！
 
-再见！
-
+下回再见噜！
 宝可梦电影官方网站：
 
 [http://www.pokemon-movie.jp/](http://www.pokemon-movie.jp/)

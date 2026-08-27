@@ -92,8 +92,7 @@ glossary_missing_targets: []
 
 敬请期待！！
 
-再见啦！
-
+下回再见呀！
 《宝可梦 黑2·白2》官方网站
 
 [http://www.pokemon.co.jp/ex/b2w2/?a001=msign](http://www.pokemon.co.jp/ex/b2w2/?a001=msign)

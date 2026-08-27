@@ -70,7 +70,7 @@ Twitter果然厉害（笑）
 
 [http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

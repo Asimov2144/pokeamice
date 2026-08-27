@@ -90,8 +90,7 @@ glossary_missing_targets: []
 
 真的非常感谢你们！！
 
-再见！
-
+下回再见啦！
 <p class="gf-director-spacer"></p>
 
 《いきものがかりのgarden☆party》增田出演回的播出安排

@@ -62,8 +62,7 @@ glossary_missing_targets: []
 
 敬请期待。
 
-那么，拜拜。
-
+下回再见啦！
 [http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 
 [http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)

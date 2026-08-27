@@ -99,7 +99,7 @@ glossary_missing_targets: []
 
 [http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)
 
-回见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

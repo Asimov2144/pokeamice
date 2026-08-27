@@ -96,7 +96,7 @@ glossary_missing_targets: []
 
 下次我会写写「Ｎ」的曲子！
 
-再会！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

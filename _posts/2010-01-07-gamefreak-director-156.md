@@ -121,7 +121,7 @@ glossary_missing_targets: []
 
 接下来就是《阿凡达》了！
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -69,7 +69,7 @@ glossary_missing_targets: []
 
 所以会刻意珍惜这些限制。
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

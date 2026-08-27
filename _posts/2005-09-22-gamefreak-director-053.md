@@ -62,7 +62,7 @@ GAME FREAK 的工作人员满怀信心，
 
 请大家一定一定要买来玩！
 
-回头见！（我现在就要去店里了！）
+下回再见呀！（我现在就要去店里了！）
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

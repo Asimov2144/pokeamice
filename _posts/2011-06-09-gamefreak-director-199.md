@@ -134,7 +134,7 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199q.jpg" alt="" loading="lazy">
 
-拜拜！！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

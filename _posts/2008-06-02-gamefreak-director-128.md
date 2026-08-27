@@ -72,7 +72,7 @@ Pokemon VIDEO GAME SHOWDOWN 2008！
 
 2008年，最强的训练家究竟是谁！？
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -76,7 +76,7 @@ glossary_missing_targets: []
 
 2009年我们也会努力，还请大家继续支持。
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

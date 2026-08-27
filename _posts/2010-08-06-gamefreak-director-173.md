@@ -47,7 +47,7 @@ GAME FREAK 从明天开始放暑假。
 
 [http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

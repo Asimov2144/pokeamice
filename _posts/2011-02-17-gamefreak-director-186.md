@@ -59,8 +59,7 @@ glossary_missing_targets: []
 
 那么，我要回日本了。
 
-再见！
-
+下回再见咯！
 <img src="/assets/images/gamefreak-director/archive/186/ja/20110217_01.jpg" alt="" loading="lazy">
 
 GameStop里有巨大的海报、巨大的包装盒，还有黑白气球，现场气氛非常热烈！

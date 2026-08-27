@@ -99,7 +99,7 @@ glossary_missing_targets: []
 
 [http://www.afan.or.jp/](http://www.afan.or.jp/)
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

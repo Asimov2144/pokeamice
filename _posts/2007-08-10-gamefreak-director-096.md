@@ -59,7 +59,7 @@ glossary_missing_targets: []
 
 让我们一起开心地度过吧！
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

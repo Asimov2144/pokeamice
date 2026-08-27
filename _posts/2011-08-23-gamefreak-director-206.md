@@ -79,7 +79,7 @@ glossary_missing_targets: []
 
 大家，请每周都看[宝可梦Smash](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)！！
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

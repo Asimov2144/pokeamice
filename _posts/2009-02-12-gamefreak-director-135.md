@@ -71,7 +71,7 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/135/multi/090212_02.jpg" alt="" loading="lazy">
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

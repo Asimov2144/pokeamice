@@ -65,8 +65,7 @@ glossary_missing_targets: []
 
 虽然时间很早，但请大家一定一定要收看哦！！
 
-回头见！
-
+下回再见咯！
 <img src="/assets/images/gamefreak-director/archive/130/ja/130e.jpg" alt="" loading="lazy">
 
 

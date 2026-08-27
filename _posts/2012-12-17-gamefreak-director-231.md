@@ -151,7 +151,7 @@ GAME FREAK 开发的最新软件《[节奏猎人 和谐骑士](https://www.gamef
 
 真的非常感谢大家！！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

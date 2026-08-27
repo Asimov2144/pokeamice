@@ -232,7 +232,7 @@ WCS的各种影像在这里。还有开幕宣传视频哦！
 
 [http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

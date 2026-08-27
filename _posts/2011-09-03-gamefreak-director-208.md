@@ -68,7 +68,7 @@ MTM将于4日（周日）16点在会场登场。
 
 [http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

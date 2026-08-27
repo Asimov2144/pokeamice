@@ -121,7 +121,7 @@ glossary_missing_targets: []
 
 请大家也一定要趁年轻多去旅行！！
 
-再会！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

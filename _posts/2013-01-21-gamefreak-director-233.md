@@ -133,7 +133,7 @@ GAME FREAK股份有限公司董事兼开发本部长
 
 大家，请期待着十月的到来吧！！
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

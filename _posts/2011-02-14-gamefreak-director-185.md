@@ -104,7 +104,7 @@ glossary_missing_targets: []
 
 加油啊，卡车司机师傅！！！
 
-回见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -199,7 +199,7 @@ WCS会场！巨型皮卡丘，飘在空中啾！
 
 然后，从今天9月1日开始，我要出差前往西雅图和伦敦！我出发啦！
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

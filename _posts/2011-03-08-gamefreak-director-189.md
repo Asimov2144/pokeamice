@@ -93,7 +93,7 @@ glossary_missing_targets:
 
 一想到这样一来全世界就要连在一起了，我就高兴得不得了！！
 
-再见！（来自肯尼迪机场）
+下回再见呀！（来自肯尼迪机场）
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

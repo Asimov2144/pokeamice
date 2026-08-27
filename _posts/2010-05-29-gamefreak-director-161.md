@@ -58,8 +58,7 @@ glossary_missing_targets: []
 
 宝可梦将在这款游戏中觉醒。
 
-再见！
-
+下回再见呀！
 日本网站：
 
 [http://www.pokemon-sp.jp/](http://www.pokemon-sp.jp/)

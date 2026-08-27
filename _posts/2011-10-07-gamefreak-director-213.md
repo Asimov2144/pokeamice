@@ -82,7 +82,7 @@ iPhone 的操作体验，
 
 乔布斯，谢谢你。
 
-再见。
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

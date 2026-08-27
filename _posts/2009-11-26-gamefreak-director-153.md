@@ -61,8 +61,7 @@ glossary_missing_targets: []
 
 所以大家也一定要获得它哦！
 
-再见！
-
+下回再见呀！
 附赠内容
 
 [http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)

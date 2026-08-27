@@ -91,7 +91,7 @@ glossary_missing_targets:
 
 ※1月28日（星期日）的《宝可梦星期天》里，GAME FREAK又一次露脸了哦！
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -19,9 +19,9 @@ gf_archive: 2012-10
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 武德回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
+summary: 增田顺一回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
 gf_translation_title: 【开发日记】推特一周年与黑2白2发售
-gf_translation_summary: 武德回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
+gf_translation_summary: 增田顺一回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
 search: true
 source:
   title: 増田部長のめざめるパワー 第228回
@@ -31,8 +31,7 @@ gf_archive_id: masuda-228
 translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 武德
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
@@ -85,7 +84,7 @@ glossary_missing_targets:
 
 尽情享受这场冒险吧！
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

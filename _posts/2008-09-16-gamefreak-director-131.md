@@ -83,8 +83,7 @@ glossary_missing_targets: []
 
 [http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
 
-再见！
-
+下回再见噜！
 <img src="/assets/images/gamefreak-director/archive/131/multi/131a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/131/multi/131b.jpg" alt="" loading="lazy">
 
 

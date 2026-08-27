@@ -99,8 +99,7 @@ glossary_missing_targets: []
 
 大家敬请期待。
 
-再见！
-
+下回再见呀！
 <p class="gf-director-spacer"></p>
 
 

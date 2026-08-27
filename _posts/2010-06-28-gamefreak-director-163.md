@@ -58,8 +58,7 @@ glossary_missing_targets: []
 
 请大家期待吧！！
 
-再见！
-
+下回再见噜！
 [http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
 
 

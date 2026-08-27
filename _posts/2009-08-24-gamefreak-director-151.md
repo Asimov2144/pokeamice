@@ -72,8 +72,7 @@ glossary_missing_targets: []
 
 今年也是一场非常棒的比赛！
 
-再见！
-
+下回再见噜！
 附赠内容
 
 [http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)

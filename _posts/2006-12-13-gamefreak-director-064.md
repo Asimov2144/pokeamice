@@ -67,7 +67,7 @@ glossary_missing_targets: []
 
 “今后宝可梦也会继续不断拓展。请大家期待吧！”
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

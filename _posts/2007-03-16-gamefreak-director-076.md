@@ -65,7 +65,7 @@ glossary_missing_targets: []
 
 会和罗伯特三位成员一起互动。
 
-再见！
+下回再见啦！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

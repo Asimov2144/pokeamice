@@ -90,7 +90,7 @@ glossary_missing_targets: []
 
 [http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
 
-拜拜！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

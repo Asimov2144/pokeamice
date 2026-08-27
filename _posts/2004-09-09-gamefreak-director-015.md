@@ -91,7 +91,7 @@ glossary_missing_targets: []
 
 好，等玩着绿宝石的时候，我还要再去九州！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

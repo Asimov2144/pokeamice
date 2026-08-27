@@ -59,7 +59,7 @@ glossary_missing_targets:
 
 现在就开始期待了！
 
-那么，拜拜！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

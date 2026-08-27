@@ -59,8 +59,7 @@ glossary_missing_targets: []
 
 听说下次这座桥的中央隔离带会发生变化，看来走完这座长达 2.7 公里的桥是必不可少的。
 
-再会啦。
-
+下回再见啦！
 <img src="/assets/images/gamefreak-director/archive/144/multi/144a.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/144/multi/144b.jpg" alt="" loading="lazy">

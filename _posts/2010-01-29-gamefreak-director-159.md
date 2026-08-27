@@ -76,7 +76,7 @@ glossary_missing_targets: []
 
 所以请大家一定要收看哦。应该能得到一些消息！！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

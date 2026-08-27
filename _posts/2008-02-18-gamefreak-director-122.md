@@ -81,7 +81,7 @@ glossary_missing_targets: []
 
 这就是从日语开始，扩展到英语、德语、法语、西班牙语、意大利语和韩语的本地化工作，其中的辛苦与乐趣！
 
-拜拜！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

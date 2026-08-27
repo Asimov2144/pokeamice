@@ -122,7 +122,7 @@ Facebook 的“赞！”按钮加到我的专栏上了！！
 
 “赞！”想点多少次都可以！
 
-拜拜！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

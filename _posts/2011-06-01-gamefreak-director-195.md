@@ -78,7 +78,7 @@ glossary_missing_targets: []
 
 [http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

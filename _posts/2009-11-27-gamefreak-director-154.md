@@ -65,7 +65,7 @@ glossary_missing_targets: []
 
 建议先看威廉·夏特纳担任舰长的旧作，再来看这部。
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

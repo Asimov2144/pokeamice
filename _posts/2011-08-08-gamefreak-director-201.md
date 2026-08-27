@@ -179,7 +179,7 @@ glossary_missing_targets:
 
 很有意思哦！
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

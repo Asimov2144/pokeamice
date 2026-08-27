@@ -74,8 +74,7 @@ glossary_missing_targets: []
 
 全世界第一个知道宝可梦名字的人，就是你。
 
-回见！
-
+下回再见咯！
 [http://www.pokemon.co.jp/ex/xy/legend/](http://www.pokemon.co.jp/ex/xy/legend/)
 
 [http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)

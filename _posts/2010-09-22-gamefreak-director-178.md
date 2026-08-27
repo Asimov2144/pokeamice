@@ -52,7 +52,7 @@ glossary_missing_targets: []
 
 希望大家都能慢慢享受这款游戏！
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

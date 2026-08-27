@@ -57,7 +57,7 @@ GAME FREAK 作为创造游戏乐趣的专业团队，
 
 2010年，GAME FREAK 可要大干一场啦！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

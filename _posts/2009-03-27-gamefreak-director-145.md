@@ -19,9 +19,9 @@ gf_archive: 2009-03
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 北美版《宝可梦 白金》顺利发售，武德分享跨国联机的乐趣，以及近期海外媒体采访报道。
+summary: 北美版《宝可梦 白金》顺利发售，增田顺一分享跨国联机的乐趣，以及近期海外媒体采访报道。
 gf_translation_title: 【发售消息】《宝可梦 白金》登陆北美
-gf_translation_summary: 北美版《宝可梦 白金》顺利发售，武德分享跨国联机的乐趣，以及近期海外媒体采访报道。
+gf_translation_summary: 北美版《宝可梦 白金》顺利发售，增田顺一分享跨国联机的乐趣，以及近期海外媒体采访报道。
 search: true
 source:
   title: 増田部長のめざめるパワー 第145回
@@ -31,8 +31,7 @@ gf_archive_id: masuda-145
 translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 1
-glossary_missing_targets:
-- 武德
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

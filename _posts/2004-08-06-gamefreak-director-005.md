@@ -74,7 +74,7 @@ glossary_missing_targets: []
 
 所以，大人也好孩子也好，让我们和世界各地的人交朋友吧！！！
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

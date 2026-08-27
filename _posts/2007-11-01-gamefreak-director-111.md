@@ -87,7 +87,7 @@ Hello！初次见面。我是Hiro Nakamura。
 
 说不定还会意外地学到英语哦！
 
-再见！
+下回再见噜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

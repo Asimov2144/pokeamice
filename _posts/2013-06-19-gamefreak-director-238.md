@@ -147,7 +147,7 @@ glossary_missing_targets: []
 
 [http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
 
-再见！
+下回再见咯！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

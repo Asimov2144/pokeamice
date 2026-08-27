@@ -61,7 +61,7 @@ glossary_missing_targets: []
 
 希望大家能够好好享受它。
 
-再见！
+下回再见呀！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
