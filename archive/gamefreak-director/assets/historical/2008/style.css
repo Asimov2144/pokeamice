@@ -1,0 +1,571 @@
+/*
+Theme Name: director's Design
+Theme URI: none
+Description: This theme is Director's Theme (based on EasyAll)
+Version: 0.1
+Author: kaniko
+Author URI: http://wordpress.xwd.jp/
+*/
+
+@import ieblog.css;
+
+.bgmtit{
+	font-size:120%;
+	color:#669999;
+	font-weight:bold;
+	margin:1em 0 0 0;
+	}
+
+.copy{
+	color:#666666;
+	}
+
+body {
+	font: 80%/175% Osaka, Verdana, sans-serif;
+	background: #000000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+a {
+	color: #ff9900;
+}
+
+a img {
+	border: none;
+}
+
+a:hover {
+	color: #6F6F6F;
+}
+
+#rap {
+	background: #333333;
+	margin: 0 auto 0 auto;
+	width: 760px;
+	text-align: left;
+	border: 1px solid #666666;
+}
+
+#header {
+	background: url(images/dir_tit.jpg);
+	width: 760px;
+	height: 205px;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+#headerimg a {
+	position: relative;
+	font-size: 24px;
+	background: transparent;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#headerimg a:hover {
+	position: relative;
+	font-size: 24px;
+	background: transparent;
+	color: #dcdcdc;
+	text-decoration: none;
+}
+
+.description {
+	position: relative;
+	font-size: 13px;
+	background: transparent;
+	color: #dcdcdc;
+	text-decoration: none;
+}
+
+h1 {
+	margin: 0;
+	}
+
+#content {
+	position: relative;
+	left: 30px;
+	float: left;
+	padding: 0;
+	width: 480px;
+	color: #666666;
+}
+
+#content h2 {
+	border-bottom: 1px solid #6F6F6F;
+	color: #5F707A;
+	font-size: 13px;
+	margin: 20px 0 5px 0;
+	padding: 0 0 3px 0;
+	text-align: right;
+	width: 480px;
+}
+
+#content h2#comments a {
+	color: #5F707A;
+	font-size: 13px;
+}
+
+#content h3 img {
+	border: 0;
+}
+
+#content div.post {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+#content div.post p, #content div.post li {
+	line-height: 130%;
+}
+
+/*コンテンツ中身*/
+
+#content div.post div.storycontent p {
+	width: 100%;
+	color:#ffffff;
+	line-height:150%;
+}
+
+#content div.post div.storycontent img {
+	padding:5px;
+}
+
+#content div.post div.storycontent ul, #content div.post div.storycontent ol {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#content div.post div.storycontent li {
+	margin-left: 30px;
+	width: 85%;
+}
+
+#content div.post div.storycontent blockquote {
+	background: #f7f7f7;
+	border-left: 3px solid #6F6F6F;
+	font-family: Osaka, Verdana, sans-serif;
+	margin-left: 20px;
+	padding: 4px 4px 4px 7px;
+	width: 85%;
+}
+
+#content h3 {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+#content h3.storytitle, #content h3.storytitle a {
+	font-size: 15px;
+	color: #5F707A;
+	text-decoration: none
+}
+
+#content h3.storytitle a:hover {
+	color: #495865;
+	text-decoration: none
+}
+
+#content div.post p {
+	width: 90%;
+}
+
+#content div.post div.meta, #content div.post div.meta a {
+	color: #867b64;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+#content div.post div.meta li a:hover {
+	color: #686050;
+}
+
+#content div.post div.meta ul, #content div.post div.meta li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+
+#content div.post div.feedback {
+	font-size: 12px;
+}
+
+#content #commentlist {
+	margin: 20px 20px 20px 23px;
+	padding: 0;
+}
+
+#content #commentlist li {
+	margin-bottom: 10px;
+}
+
+#content #commentform input, #content #commentform textarea {
+	font-size: 12px;
+	padding: 2px;
+}
+
+#content #commentform textarea {
+	height: 150px;
+	width: 90%;
+}
+
+#content code {
+	color: #800000
+}
+
+#content ul {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	list-style-type: circle;
+}
+
+#navcontainer ul {
+	padding: 0;
+	margin: 0;
+	background: #4c453d;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	float: left;
+	width: 760px;
+	font: 13px Osaka, Verdana, sans-serif;
+}
+
+#navcontainer ul li {
+	display: inline;
+}
+
+#navcontainer ul li.page_item a {
+	padding: 5px 14px 5px 14px;
+	background: #666666;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	float: left;
+	border-right: 1px solid #666666;
+}
+
+#navcontainer ul li.page_item a:hover {
+	color: #FFFFFF;
+	background: #C9C0B0;
+}
+
+#navcontainer ul li.current_page_item a {
+	padding: 5px 14px 5px 14px;
+	background: #C9C0B0;
+	color: #FFFFFF;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #DFDFDF;
+}
+
+#navcontainer ul li.current_page_item a:hover {
+	background: #6F6F6F;
+}
+
+#menu {
+	clear: right;
+	float: left;
+	position: relative;
+	top: 10px;
+	left: 70px;
+	margin: 0 0 0 0;
+	width: 200px;
+}
+
+#menu a:hover {
+	color:  #6F6F6F;
+	background-color:#333333;
+}
+
+
+#menu .menuc{
+	background-color:#6c6c6c;
+	margin: 0;
+	font-size:100%;
+	padding:5px;
+	}
+	
+#menu h2 {
+	background-image:url(images/list_bg01.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	width: 200px;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	padding: 3px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul li {
+	color: #000000;
+	background-color:#6c6c6c;
+	margin: 0;
+	font-size:100%;
+	}
+	
+#menu #arcive{
+	background-color:#6c6c6c;
+	color:#FF9933;
+	border:#333333 1px solid;
+	}
+
+#menu #arciveBTN{
+	background-color:#6c6c6c;
+	color:#ffffff;
+	border:#333333 1px solid;
+	}
+
+#menu #rss{
+	padding:1em 0;
+	}
+
+#menu ul li #pro{
+	text-align:center;
+	padding:10px;
+	}
+
+#menu ul li p {
+	font-size: 100%;
+	width: 180px;
+	font-weight: bold;
+}
+
+#menu ul li h2 {
+	background-image:url(images/list_bg01.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+	color:#ffffff;
+	width: 200px;
+	font-size: 100%;
+	font-weight: bold;
+	margin: 10px 0 0 0;
+	padding: 3px;
+}
+
+#menu ul .liend{
+	background-image:url(images/list_bg02.gif);
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	height:8px;
+	margin:0 0 10px 0;
+	}
+
+#menu ul li ul {
+	margin: 5px;
+}
+
+#menu ul li ul li {
+	font-weight: normal;
+	margin: 0 0 3px 0;
+	padding: 0;
+	line-height: 12px
+}
+
+#menu ul li#winamp ul li {
+	width: 180px
+}
+
+#menu ul li ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#menu ul li ul li a:hover {
+	text-decoration: underline;
+}
+
+#searchform {
+	margin: 2px 0 15px 0;
+}
+
+p.credit {
+	color: #FFFFFF;
+	background: #4c453d;
+	border-top: 1px solid #666666;
+	clear: both;
+	font-size: 100%;
+	margin: 0 auto 0 auto;
+	padding: 16px 0 17px 0;
+	text-align: center;
+	width: 760px;
+}
+
+p.credit a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+p.credit a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+.alignright {
+	float: right;
+}
+	
+.alignleft {
+	float: left
+}
+
+#commentlist p.meta, #commentlist p.meta a {
+	color: #867b64;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+#trackbacklist p.meta, #trackbacklist p.meta a {
+	color: #867b64;
+	font-family: Osaka, Verdana, sans-serif;
+	font-size: 11px;
+}
+
+/* Begin Calendar */
+#wp-calendar {
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar th {
+	padding: 3px 0;
+	text-align: center;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #fff; }
+/* End Calendar */
+
+.comment-number {
+	font: italic 28px 'Times New Roman', Times, serif;
+	color: #73a0c5;
+}
+
+.alt {
+	background-color: #f8f8f8;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	margin: 0;
+	padding: 10px;
+}
+
+.none {
+	margin: 0;
+	padding: 10px;
+}
+
+#ed_toolbar input {
+	border: 1px solid #dcdcdc;
+	background-color: #e6eadb;
+	margin: 0 1px 0 0;
+}
+
+.hl-surround{
+    -moz-border-radius: 5px;
+    background-color: #F9FBFC;
+    border: 1px solid #C3CED9;
+    padding: 8px;
+    margin-bottom: 5px;
+    width: 400px;
+    overflow: auto;
+    text-align: left;
+}
+
+.hl-surround, .hl-surround pre, .hl-surround span{
+	font: normal 9pt 'Courier New', monospace;
+}
+
+.hl-default{
+	color: Black;
+}
+.hl-code{
+	color: Gray;
+}
+.hl-brackets{
+	color: Olive;
+}
+.hl-comment{
+	color: #ffa500;
+}
+.hl-quotes{
+	color: #8b0000;
+}
+.hl-string{
+	color: Red;
+}
+.hl-identifier{
+	color: Blue;
+}
+.hl-builtin{
+	color: Teal;
+}
+.hl-reserved{
+	color: Green;
+}
+.hl-inlinedoc{
+	color: Blue;
+}
+.hl-var{
+	color: #00008b;
+}
+.hl-url{
+	color: Blue;
+}
+.hl-special{
+	color: Navy;
+}
+.hl-number{
+	color: Maroon;
+}
+.hl-inlinetags{
+	color: Blue;
+}
+.hl-main{
+	background-color: transparent;
+}
+
+.hl-main pre{
+	margin: 0; padding: 0;
+}
+

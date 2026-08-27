@@ -25,6 +25,7 @@ search: true
 source:
   title: 増田部長のめざめるパワー 第158回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
+  archive_url: https://web.archive.org/web/*/https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-158
 translation_status: openai-machine-translated

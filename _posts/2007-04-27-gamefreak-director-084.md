@@ -26,6 +26,7 @@ search: true
 source:
   title: 増田部長のめざめるパワー 第84回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
+  archive_url: https://web.archive.org/web/*/https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-084
 translation_status: openai-machine-translated

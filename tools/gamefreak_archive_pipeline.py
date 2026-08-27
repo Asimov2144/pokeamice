@@ -1116,7 +1116,12 @@ def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
             "gf_translation_title": card_title,
             "gf_translation_summary": card_summary,
             "search": True,
-            "source": {"title": f"増田部長のめざめるパワー 第{number}回", "url": ja.get("page_url"), "source_type": "official_blog"},
+            "source": {
+                "title": f"増田部長のめざめるパワー 第{number}回",
+                "url": ja.get("page_url"),
+                "archive_url": f"https://web.archive.org/web/*/{ja.get('page_url')}",
+                "source_type": "official_blog",
+            },
             "gf_archive_id": article.get("id"),
             "translation_status": translation_metadata.get("translation_status", "missing"),
             "proofread_confidence": translation_metadata.get("proofread_confidence"),

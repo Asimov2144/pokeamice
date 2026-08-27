@@ -1,0 +1,36 @@
+schema_version: 1
+captured_at: '2026-08-27'
+rights: Original page designs and assets © GAME FREAK inc.; preserved for historical reference.
+snapshots:
+- era: 2008
+  page_url: https://web.archive.org/web/20080611082241/http://www.gamefreak.co.jp/blog/dir/
+  original_theme: dir01
+  source_css: https://web.archive.org/web/20080611082241id_/http://www.gamefreak.co.jp/blog/dir/wp-content/themes/dir01/style.css
+  local_css: archive/gamefreak-director/assets/historical/2008/style.css
+  css_sha256: ffe5e02353f7a34e5b3690aeae7698601a5195222cf2bffab98810109b8a1191
+  public_assets:
+  - source_url: https://web.archive.org/web/20080611082241id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/themes/dir01/images/dir_tit.jpg
+    local_path: assets/images/gamefreak-director/historical/2008/dir_tit.jpg
+    dimensions: 760x205
+    sha256: 102f47a447c72a73e05e7c7626e7bf1811f03f3592eb6d4a99d3006f443b1c3b
+- era: 2012
+  page_url: https://web.archive.org/web/20120620171052/http://www.gamefreak.co.jp/blog/dir/
+  original_theme: ny_ms
+  source_css: https://web.archive.org/web/20120620171052id_/http://www.gamefreak.co.jp/blog/dir/wp-content/themes/ny_ms/style.css
+  local_css: archive/gamefreak-director/assets/historical/2012/style.css
+  css_sha256: de4162726770c99795fc2b94129bd0adbb5124ecba4f18d5218d2b924e4c7af8
+  public_assets:
+  - source_url: https://web.archive.org/web/20120727195411id_/http://www.gamefreak.co.jp/blog/dir/wp-content/themes/ny_ms/images/bg_ms.jpg
+    local_path: assets/images/gamefreak-director/historical/2012/bg_ms.jpg
+    dimensions: 1700x900
+    sha256: 0573d2a124259632cecdf96ec8451557a16c24f52104353f5d7ef7692b7bc09c
+  - source_url: https://web.archive.org/web/20120727195411id_/http://www.gamefreak.co.jp/blog/dir/wp-content/themes/ny_ms/images/header_bg_ms.jpg
+    local_path: assets/images/gamefreak-director/historical/2012/header_bg_ms.jpg
+    dimensions: 1680x250
+    sha256: 4881f1225b3cbd4a8b8a379b1d87443416a7f547772d15ad2d9b61b73e0fff13
+shared_assets:
+- source_url: https://web.archive.org/web/20200804213319im_/https://www.gamefreak.co.jp/blog/dir/wp-content/themes/default/static/img/banner_saiyou.png
+  original_link: https://www.gamefreak.co.jp/recruit/
+  local_path: assets/images/gamefreak-director/archive/shared/ja/banner_saiyou.png
+  dimensions: 240x100
+  sha256: bc484025443e4f36fdfbd060ce68b8dd9972d3d30ee98adeedf26058546225fa

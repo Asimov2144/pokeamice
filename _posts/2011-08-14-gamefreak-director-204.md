@@ -26,6 +26,7 @@ search: true
 source:
   title: 増田部長のめざめるパワー 第204回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
+  archive_url: https://web.archive.org/web/*/https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-204
 translation_status: openai-machine-translated

@@ -25,6 +25,7 @@ search: true
 source:
   title: 増田部長のめざめるパワー 第59回
   url: https://www.gamefreak.co.jp/blog/dir/2006/08/index.html
+  archive_url: https://web.archive.org/web/*/https://www.gamefreak.co.jp/blog/dir/2006/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-059
 translation_status: openai-machine-translated

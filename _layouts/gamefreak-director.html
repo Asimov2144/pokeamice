@@ -8,7 +8,7 @@ layout: default
 {% assign gf_mode = page.gf_mode | default: "post" %}
 {% assign gf_local_count = gf_posts | size %}
 
-<div class="gf-director-site">
+<div class="gf-director-site" data-gf-theme="current">
   <header class="gf-director-banner" aria-label="増田部長のめざめるパワー">
     <div class="gf-director-banner__browse" aria-label="站内档案浏览">
       <details class="gf-director-browser" name="gf-archive-browser">
@@ -81,6 +81,8 @@ layout: default
 
     <a class="gf-director-banner__home" href="{{ '/gamefreak-director/' | relative_url }}">
       <span class="screen-reader-text">返回増田部長のめざめるパワー文章列表</span>
+      <span class="gf-director-banner__title" aria-hidden="true">増田部長のめざめるパワー</span>
+      <span class="gf-director-banner__subtitle" aria-hidden="true">Director's Columns</span>
     </a>
 
     <nav class="gf-director-banner__external" aria-label="原站相关链接">
@@ -94,6 +96,12 @@ layout: default
 
   <div class="gf-director-context">
     <p><strong>PokeAmice Archive</strong><span>非官方数字存档与中文翻译</span></p>
+    <div class="gf-director-theme-switcher" data-gf-theme-switcher role="group" aria-label="历史页面主题">
+      <span>页面主题</span>
+      <button type="button" data-gf-theme-choice="current" aria-pressed="true">复刻版</button>
+      <button type="button" data-gf-theme-choice="2012" aria-pressed="false">2012</button>
+      <button type="button" data-gf-theme-choice="2008" aria-pressed="false">2008</button>
+    </div>
     <dl>
       <div><dt>已收录</dt><dd>{{ gf_local_count }} / 244</dd></div>
       <div><dt>阅读语言</dt><dd>中文优先</dd></div>
@@ -238,7 +246,16 @@ layout: default
           {% endif %}
           <details class="gf-director-research">
             <summary>来源、关联链接与研究信息</summary>
-            {% if page.source.url %}<p><a href="{{ page.source.url }}" target="_blank" rel="noopener">查看 GAME FREAK 原始页面 ↗</a></p>{% endif %}
+            {% if page.source.url %}
+              <p class="gf-director-source-links">
+                <a href="{{ page.source.url }}" target="_blank" rel="noopener">查看 GAME FREAK 原始页面 ↗</a>
+                {% if page.source.archive_url %}
+                  <a href="{{ page.source.archive_url }}" target="_blank" rel="noopener">在 Web Archive 查找快照 ↗</a>
+                {% else %}
+                  <a href="https://web.archive.org/web/*/{{ page.source.url }}" target="_blank" rel="noopener">在 Web Archive 查找快照 ↗</a>
+                {% endif %}
+              </p>
+            {% endif %}
             {% include article-link-analysis.html %}
             {% include article-references.html %}
           </details>
@@ -275,6 +292,29 @@ layout: default
 
 <script>
   (function () {
+    const site = document.querySelector('.gf-director-site[data-gf-theme]');
+    const themeSwitcher = site && site.querySelector('[data-gf-theme-switcher]');
+    const allowedThemes = ['current', '2012', '2008'];
+
+    function applyArchiveTheme(theme) {
+      if (!site || allowedThemes.indexOf(theme) < 0) return;
+      site.dataset.gfTheme = theme;
+      themeSwitcher.querySelectorAll('[data-gf-theme-choice]').forEach(function (button) {
+        button.setAttribute('aria-pressed', button.dataset.gfThemeChoice === theme ? 'true' : 'false');
+      });
+      try { window.localStorage.setItem('gf-director-theme', theme); } catch (error) {}
+    }
+
+    if (site && themeSwitcher) {
+      let savedTheme = 'current';
+      try { savedTheme = window.localStorage.getItem('gf-director-theme') || 'current'; } catch (error) {}
+      applyArchiveTheme(allowedThemes.indexOf(savedTheme) >= 0 ? savedTheme : 'current');
+      themeSwitcher.addEventListener('click', function (event) {
+        const button = event.target.closest('[data-gf-theme-choice]');
+        if (button) applyArchiveTheme(button.dataset.gfThemeChoice);
+      });
+    }
+
     function initLanguageSwitcher(switcher) {
       const section = switcher.closest('.gf-director-post');
       const content = section && section.querySelector('[data-gf-language-content]');
