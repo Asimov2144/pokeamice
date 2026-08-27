@@ -47,10 +47,16 @@ layout: default
           <ul>
             {% for archive in gf.archives %}
               {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {%- comment -%}归档清单使用 2013年7月，文章元数据使用 2013-07；统一去掉月份前导零后再匹配。{%- endcomment -%}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
               {% assign archive_posts = "" | split: "," %}
               {% for post in gf_posts %}
-                {% assign post_archive = post.gf_archive | default: post.date | date: "%Y-%-m" %}
-                {% if post_archive == archive_key %}
+                {% assign post_archive = post.gf_archive %}
+                {% if post_archive == nil or post_archive == empty %}
+                  {% assign post_archive = post.date | date: "%Y-%m" %}
+                {% endif %}
+                {% assign post_archive_normalized = post_archive | replace: "-0", "-" %}
+                {% if post_archive_normalized == archive_key_normalized %}
                   {% assign archive_posts = archive_posts | push: post %}
                 {% endif %}
               {% endfor %}
@@ -156,10 +162,15 @@ layout: default
           <div class="gf-director-archive-grid">
             {% for archive in gf.archives %}
               {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
               {% assign archive_posts = "" | split: "," %}
               {% for post in gf_posts %}
-                {% assign post_archive = post.gf_archive | default: post.date | date: "%Y-%-m" %}
-                {% if post_archive == archive_key %}
+                {% assign post_archive = post.gf_archive %}
+                {% if post_archive == nil or post_archive == empty %}
+                  {% assign post_archive = post.date | date: "%Y-%m" %}
+                {% endif %}
+                {% assign post_archive_normalized = post_archive | replace: "-0", "-" %}
+                {% if post_archive_normalized == archive_key_normalized %}
                   {% assign archive_posts = archive_posts | push: post %}
                 {% endif %}
               {% endfor %}

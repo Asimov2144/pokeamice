@@ -55,10 +55,15 @@ sidebar: false
         <div class="key-window-archive">
           {% for archive in gf.archives limit:12 %}
             {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+            {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
             {% assign archive_hits = "" | split: "," %}
             {% for post in gf_posts %}
-              {% assign post_archive = post.gf_archive | default: post.date | date: "%Y-%-m" %}
-              {% if post_archive == archive_key %}
+              {% assign post_archive = post.gf_archive %}
+              {% if post_archive == nil or post_archive == empty %}
+                {% assign post_archive = post.date | date: "%Y-%m" %}
+              {% endif %}
+              {% assign post_archive_normalized = post_archive | replace: "-0", "-" %}
+              {% if post_archive_normalized == archive_key_normalized %}
                 {% assign archive_hits = archive_hits | push: post %}
               {% endif %}
             {% endfor %}
