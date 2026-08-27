@@ -16,7 +16,10 @@ from prepare_scan_pages import (  # noqa: E402
     encode,
     gutter_of,
     normalise_tone,
+    choose_page_box,
+    consensus_page_size,
     outer_page_edges,
+    page_box_candidates,
     resolve_outer_trim,
     review_reasons_for,
     seam_span_of,
@@ -271,7 +274,7 @@ def test_art_pages_keep_their_colour():
         return Measurement(
             width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
             gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5],
-            outer_edges=[0.0, 0.0], skew_deg=0.0,
+            outer_edges=[0.0, 0.0], page_boxes={}, skew_deg=0.0,
             seam_tilt=0.0, seam_bands=0,
             paper_rgb=paper, paper_luma=luma, black_point=black, colour_cast=cast,
         )
@@ -353,7 +356,7 @@ def test_outer_trim_setting_is_explicit_about_what_it_does():
     m = Measurement(
         width=1000, height=1400, aspect=0.71, content_box=[0, 0, 1, 1],
         gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5],
-        outer_edges=[0.03, 0.04], skew_deg=0.0, seam_tilt=0.0, seam_bands=0,
+        outer_edges=[0.03, 0.04], page_boxes={}, skew_deg=0.0, seam_tilt=0.0, seam_bands=0,
         paper_rgb=[255.0, 255.0, 255.0], paper_luma=255.0, black_point=3.0, colour_cast=0.0,
     )
     assert resolve_outer_trim("off", m) == (0.0, 0.0)
@@ -428,13 +431,68 @@ def test_cv_seam_threshold_maps_to_workflow_confidence(tmp_path=None):
     measurement = Measurement(
         width=1400, height=900, aspect=1.55, content_box=[0, 0, 1, 1],
         gutter_x=0.5, gutter_contrast=49.0, seam_span=[0.49, 0.51],
-        outer_edges=[0.0, 0.0], skew_deg=0.0, seam_tilt=0.0, seam_bands=20,
+        outer_edges=[0.0, 0.0], page_boxes={}, skew_deg=0.0, seam_tilt=0.0, seam_bands=20,
         paper_rgb=[245.0, 245.0, 245.0], paper_luma=245.0,
         black_point=10.0, colour_cast=0.0,
     )
     decision = classify(Path("unused.jpg"), measurement, "never", "unused", 1)
     assert decision.split is True
     assert decision.confidence >= 0.65
+
+
+def _spread_with_block(block_width=70, height=800, width=1200):
+    """A spread whose right rim carries a lit sheet, then the darker book block."""
+    canvas = np.full((height, width, 3), 238, dtype=np.uint8)
+    canvas[60:740, 60:width - 140] = 205                 # printed area
+    canvas[:, width - block_width:width - 18] = 120      # the block itself
+    canvas[:, width - 18:] = 210                         # top sheet catching light
+    canvas[:, 596:608] = 40                              # binding
+    return canvas
+
+
+def test_page_box_survives_a_lit_rim_in_front_of_the_block():
+    """The rim is brighter than the block, so a first-bright-line scan stops early.
+
+    Continue vol.31 page041 binarises to 0.79 and 0.89 at the very edge before
+    the block drops to 0.28 and the page settles at 0.93.
+    """
+    candidates = page_box_candidates(_spread_with_block().astype(np.float32))
+    assert candidates, "at least one threshold should find the page"
+    box = choose_page_box(candidates, None)
+    assert box is not None
+    assert 0.90 < box[2] < 0.99, f"right edge should sit inside the block, got {box[2]}"
+
+
+def test_page_box_needs_a_size_the_folder_agrees_on():
+    """A candidate of the wrong size loses, which is what a photo card produces.
+
+    Chasing the strongest step in greyscale cut 351px inside 金银攻略 4.png; the
+    same crop is simply the wrong size once the folder has voted.
+    """
+    good = {"otsu": [0.01, 0.01, 0.97, 0.96]}
+    assert choose_page_box(good, (0.96, 0.95)) == good["otsu"]
+
+    shrunken = {"otsu": [0.20, 0.01, 0.97, 0.96]}
+    assert choose_page_box(shrunken, (0.96, 0.95)) is None, "a page cannot lose a fifth of its width"
+
+
+def test_consensus_needs_several_pages_and_keeps_layouts_apart():
+    def measured(aspect, box):
+        return Measurement(
+            width=1200, height=800, aspect=aspect, content_box=[0, 0, 1, 1],
+            gutter_x=None, gutter_contrast=0.0, seam_span=[0.5, 0.5],
+            outer_edges=[0.0, 0.0], page_boxes={"otsu": box}, skew_deg=0.0,
+            seam_tilt=0.0, seam_bands=0, paper_rgb=[255.0, 255.0, 255.0],
+            paper_luma=255.0, black_point=3.0, colour_cast=0.0,
+        )
+
+    spreads = [measured(1.4, [0.0, 0.0, 0.96, 0.94]) for _ in range(4)]
+    singles = [measured(0.7, [0.0, 0.0, 0.80, 0.98]) for _ in range(3)]
+    result = consensus_page_size(spreads + singles)
+    assert round(result[True][0], 2) == 0.96, "spreads vote on their own size"
+    assert round(result[False][0], 2) == 0.80, "single pages are a separate population"
+
+    assert consensus_page_size(spreads[:2]) == {}, "two samples are not a consensus"
 
 
 if __name__ == "__main__":

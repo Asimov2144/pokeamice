@@ -73,6 +73,7 @@ class Measurement:
     gutter_contrast: float
     seam_span: list[float]
     outer_edges: list[float]
+    page_boxes: dict[str, list[float]]
     skew_deg: float | None
     seam_tilt: float
     seam_bands: int
@@ -337,6 +338,139 @@ def tone_of(rgb: np.ndarray) -> tuple[list[float], float, float, float]:
     return tone_reference_of(rgb)[:4]
 
 
+def _local_stats(gray: np.ndarray, window: int) -> tuple[np.ndarray, np.ndarray]:
+    window = max(3, window | 1)
+    mean = cv2.boxFilter(gray, cv2.CV_32F, (window, window))
+    squared = cv2.boxFilter(gray * gray, cv2.CV_32F, (window, window))
+    return mean, np.sqrt(np.maximum(squared - mean * mean, 0.0))
+
+
+def binarize_variants(gray: np.ndarray) -> dict[str, np.ndarray]:
+    """Several thresholds of the same page, each True where the page is.
+
+    No single threshold survives this corpus: a yellow spread, a full-bleed
+    photograph and a white text page each defeat a different one. ScanTailor
+    answers that by running peak, Otsu, Mokji, Sauvola and Wolf and keeping
+    whichever result best matches the page size it expects, so the choice is
+    made by evidence instead of by a constant. The same idea is used here with
+    the thresholds that are cheap to compute.
+    """
+    u8 = np.clip(gray, 0, 255).astype(np.uint8)
+    window = max(15, (min(gray.shape) // 8) | 1)
+    mean, std = _local_stats(gray, window)
+    variants: dict[str, np.ndarray] = {}
+
+    _, otsu = cv2.threshold(u8, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+    variants["otsu"] = otsu > 0
+
+    # Sauvola: a local threshold that tolerates uneven illumination.
+    variants["sauvola"] = gray > mean * (1.0 + 0.2 * (std / 128.0 - 1.0))
+
+    # Wolf: Sauvola anchored to the darkest ink, which suits low-contrast scans.
+    darkest, spread = float(gray.min()), float(std.max()) or 1.0
+    variants["wolf"] = gray > (mean - 0.5 * (1.0 - std / spread) * (mean - darkest))
+
+    # A plain percentile split, the one that copes with a full-bleed page whose
+    # "paper" is a photograph rather than white.
+    variants["percentile"] = gray > float(np.percentile(gray, 35))
+    return variants
+
+
+def page_box_from_mask(mask: np.ndarray, min_page: float = 0.5,
+                       limit: float = 0.2) -> list[float] | None:
+    """Scan inward from each side to where the page reliably begins.
+
+    On a binary image the platen and the book block read as not-page and the
+    sheet reads as page, so the boundary is a clean transition instead of the
+    ambiguous brightness ramp it is in greyscale.
+    """
+    height, width = mask.shape
+    rows, cols = mask.mean(axis=1), mask.mean(axis=0)
+
+    def first_page_line(profile: np.ndarray, cap: int) -> int:
+        """Where the page's own plateau starts, not merely where it looks bright.
+
+        Taking the first line above a fixed level stops at the rim, because the
+        top sheet of the book block catches the light: on Continue vol.31
+        page041 the outermost columns binarise at 0.79 and 0.89 before the block
+        itself dips to 0.28 and the page settles at a steady 0.93. So the page
+        begins at the first line from which the profile *stays* near its own
+        plateau, which is the same idea as ScanTailor pushing a corner inward
+        until it reaches white and holds.
+        """
+        span = len(profile)
+        plateau = float(np.median(profile[int(span * 0.25):int(span * 0.75)]))
+        if plateau <= 0.05:
+            return 0
+        floor = max(min_page, plateau * 0.85)
+        hold = max(3, int(span * 0.02))
+        for index in range(min(cap, span - hold)):
+            if profile[index] >= floor and (profile[index:index + hold] >= floor).all():
+                return index
+        return 0
+
+    top = first_page_line(rows, int(height * limit))
+    bottom = first_page_line(rows[::-1], int(height * limit))
+    left = first_page_line(cols, int(width * limit))
+    right = first_page_line(cols[::-1], int(width * limit))
+    if width - left - right < width * 0.4 or height - top - bottom < height * 0.4:
+        return None
+    return [round(left / width, 5), round(top / height, 5),
+            round((width - right) / width, 5), round((height - bottom) / height, 5)]
+
+
+def page_box_candidates(rgb: np.ndarray) -> dict[str, list[float]]:
+    if cv2 is None:
+        return {}
+    gray = luma_of(rgb)
+    found = {}
+    for name, mask in binarize_variants(gray).items():
+        box = page_box_from_mask(mask)
+        if box is not None:
+            found[name] = box
+    return found
+
+
+def choose_page_box(candidates: dict[str, list[float]],
+                    expected: tuple[float, float] | None) -> list[float] | None:
+    """Pick the candidate closest to the size this title's pages actually are.
+
+    Every scan in a folder came off the same platen at the same setting, so the
+    page occupies nearly the same fraction of every frame. That prior is what
+    makes the choice safe: a candidate pulled inside the page by a photo card,
+    which is how the greyscale attempt failed on 金银攻略 4.png, is simply the
+    wrong size and loses.
+    """
+    if not candidates:
+        return None
+    if expected is None:
+        widths = sorted(box[2] - box[0] for box in candidates.values())
+        heights = sorted(box[3] - box[1] for box in candidates.values())
+        expected = (widths[len(widths) // 2], heights[len(heights) // 2])
+
+    def error(box: list[float]) -> float:
+        return (abs((box[2] - box[0]) - expected[0]) / max(expected[0], 1e-6)
+                + abs((box[3] - box[1]) - expected[1]) / max(expected[1], 1e-6))
+
+    best = min(candidates.values(), key=error)
+    return best if error(best) <= 0.15 else None
+
+
+def consensus_page_size(measurements: list[Measurement]) -> dict[bool, tuple[float, float]]:
+    """Median page size per layout, so spreads and single pages vote separately."""
+    buckets: dict[bool, list[tuple[float, float]]] = {True: [], False: []}
+    for item in measurements:
+        for box in item.page_boxes.values():
+            buckets[item.aspect >= SPREAD_ASPECT].append((box[2] - box[0], box[3] - box[1]))
+    result = {}
+    for is_spread, sizes in buckets.items():
+        if len(sizes) >= 3:
+            widths = sorted(size[0] for size in sizes)
+            heights = sorted(size[1] for size in sizes)
+            result[is_spread] = (widths[len(widths) // 2], heights[len(heights) // 2])
+    return result
+
+
 def measure(path: Path) -> Measurement:
     rgb, full = working_copy(path)
     box = content_box_of(rgb)
@@ -349,6 +483,7 @@ def measure(path: Path) -> Measurement:
     else:
         tilt, bands, span = 0.0, 0, (gutter, gutter)
     outer = outer_page_edges(rgb)
+    boxes = page_box_candidates(rgb)
     return Measurement(
         width=full[0], height=full[1], aspect=round(aspect, 4),
         content_box=box,
@@ -356,6 +491,7 @@ def measure(path: Path) -> Measurement:
         gutter_contrast=contrast,
         seam_span=list(span),
         outer_edges=list(outer),
+        page_boxes=boxes,
         skew_deg=skew_of(rgb),
         seam_tilt=tilt, seam_bands=bands,
         paper_rgb=paper, paper_luma=paper_luma, black_point=black, colour_cast=cast,
@@ -609,7 +745,8 @@ def outer_page_edges(rgb: np.ndarray, zone: float = 0.12,
     return round(edge_at("left"), 5), round(edge_at("right"), 5)
 
 
-def resolve_outer_trim(setting: str, measurement: Measurement) -> tuple[float, float]:
+def resolve_outer_trim(setting: str, measurement: Measurement,
+                       expected: tuple[float, float] | None = None) -> tuple[float, float]:
     """Turn the --outer-trim setting into fractions of width for each outer side.
 
     Detection is offered but not trusted by default. Across the pilot folders it
@@ -624,6 +761,12 @@ def resolve_outer_trim(setting: str, measurement: Measurement) -> tuple[float, f
     if value in ("", "off", "none", "0"):
         return 0.0, 0.0
     if value == "auto":
+        # Prefer the binarised page box: it is chosen against the size the rest
+        # of the folder agrees on, which is what finally stopped a photo card on
+        # 金银攻略 4.png from pulling the cut 351px inside the page.
+        box = choose_page_box(measurement.page_boxes, expected)
+        if box is not None:
+            return round(box[0], 5), round(1.0 - box[2], 5)
         return tuple(measurement.outer_edges)
     if value.endswith("%"):
         fraction = float(value[:-1]) / 100.0
@@ -924,14 +1067,16 @@ def review_reasons_for(result: PageResult) -> list[str]:
     return list(dict.fromkeys(reasons))
 
 
-def process(path: Path, out_dir: Path, args, source_root: Path | None = None) -> PageResult:
+def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
+            measurement: Measurement | None = None,
+            expected: tuple[float, float] | None = None) -> PageResult:
     with Image.open(path) as source_probe:
         source_orientation = source_probe.getexif().get(274)
     orientation_names = {
         2: "mirror-horizontal", 3: "rotate-180", 4: "mirror-vertical",
         5: "transpose", 6: "rotate-90-cw", 7: "transverse", 8: "rotate-270-cw",
     }
-    measurement = measure(path)
+    measurement = measurement or measure(path)
     decision = classify(path, measurement, args.vlm, args.model, args.timeout)
     source_root = source_root or path.parent
     try:
@@ -953,7 +1098,7 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None) ->
     with Image.open(path) as opened:
         full = upright_image(opened)
         fill = tuple(int(round(v)) for v in measurement.paper_rgb)
-        outer = resolve_outer_trim(args.outer_trim, measurement)
+        outer = resolve_outer_trim(args.outer_trim, measurement, expected)
         if outer != (0.0, 0.0):
             full, removed = trim_outer(full, outer)
             result.outer_trimmed = list(removed)
@@ -1104,10 +1249,30 @@ def main() -> int:
         return 1
     print(f"{len(files)} images under {source.name}\n")
 
+    # Measure everything before cropping anything. The page box is chosen
+    # against the size the rest of the folder agrees on, and a single scan
+    # cannot supply that prior.
+    measured: dict[Path, Measurement] = {}
+    for path in files:
+        try:
+            measured[path] = measure(path)
+        except Exception as exc:
+            print(f"      measure failed for {path.name}: {type(exc).__name__}: {str(exc)[:80]}")
+    consensus = consensus_page_size(list(measured.values()))
+    for is_spread, size in sorted(consensus.items()):
+        print(f"page size consensus ({'spread' if is_spread else 'single'}): "
+              f"{size[0]:.3f} x {size[1]:.3f} of frame")
+    if consensus:
+        print()
+
     results, errors, calls = [], [], 0
     for index, path in enumerate(files, start=1):
         try:
-            result = process(path, out_dir, args, source)
+            result = process(path, out_dir, args, source,
+                             measurement=measured.get(path),
+                             expected=consensus.get(
+                                 measured[path].aspect >= SPREAD_ASPECT)
+                             if path in measured else None)
         except Exception as exc:
             print(f"{index:>4}/{len(files)}  {path.name[:34]:<34} ERROR {type(exc).__name__}: {str(exc)[:90]}")
             errors.append({
