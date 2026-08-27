@@ -64,9 +64,11 @@ layout: default
               <li class="{% if archive_posts.size == 0 %}is-empty{% endif %}">
                 <span>{{ archive }}</span>
                 {% if archive_posts.size > 0 %}
-                  {% for post in archive_posts %}
-                    <a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a>
-                  {% endfor %}
+                  <span class="gf-director-browser__archive-links">
+                    {% for post in archive_posts %}
+                      <a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a>
+                    {% endfor %}
+                  </span>
                 {% else %}
                   <small>待整理</small>
                 {% endif %}
@@ -345,5 +347,18 @@ layout: default
     }
 
     document.querySelectorAll('[data-gf-language-switcher]').forEach(initLanguageSwitcher);
+
+    const archivePopups = document.querySelectorAll('.gf-director-browser, .gf-director-quicknav');
+    if (archivePopups.length) {
+      document.addEventListener('click', function (event) {
+        archivePopups.forEach(function (popup) {
+          if (popup.open && !popup.contains(event.target)) popup.open = false;
+        });
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key !== 'Escape') return;
+        archivePopups.forEach(function (popup) { popup.open = false; });
+      });
+    }
   }());
 </script>
