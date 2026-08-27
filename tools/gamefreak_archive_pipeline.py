@@ -1017,6 +1017,109 @@ def extract(args: argparse.Namespace) -> dict[str, Any]:
     return {"articles": len(manifest["articles"]), "language_documents": extracted}
 
 
+def _content_body(path: Path) -> str:
+    text = path.read_text(encoding="utf-8")
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        return parts[2].lstrip() if len(parts) == 3 else text
+    return text
+
+
+def publish_site_pages(args: argparse.Namespace) -> dict[str, Any]:
+    """Materialize normalized archive content as searchable Jekyll posts."""
+    manifest = load_manifest()
+    assets_manifest_path = ARCHIVE_ROOT / "manifest" / "assets.yml"
+    assets = load_yaml(assets_manifest_path).get("assets", []) if assets_manifest_path.exists() else []
+    asset_by_id = {item["id"]: item for item in assets}
+    public_asset_root = REPO_ROOT / "assets" / "images" / "gamefreak-director" / "archive"
+    published_assets = 0
+
+    for asset in assets:
+        local_path = asset.get("local_path")
+        if not local_path or asset.get("status") == "unavailable":
+            continue
+        source_path = REPO_ROOT / local_path
+        if not source_path.exists() or source_path.suffix.lower() not in IMAGE_EXTENSIONS:
+            continue
+        marker = "archive/gamefreak-director/assets/original/"
+        if marker not in local_path:
+            continue
+        relative = local_path.split(marker, 1)[1]
+        destination = public_asset_root / relative
+        atomic_write(destination, source_path.read_bytes())
+        published_assets += 1
+
+    def render_body(path: Path) -> str:
+        body = _content_body(path)
+
+        def replace_marker(match: re.Match[str]) -> str:
+            asset = asset_by_id.get(match.group(1))
+            if not asset or not asset.get("local_path"):
+                return ""
+            local_path = asset["local_path"]
+            marker = "archive/gamefreak-director/assets/original/"
+            if marker not in local_path:
+                return ""
+            relative = local_path.split(marker, 1)[1]
+            public_path = f"/assets/images/gamefreak-director/archive/{relative}"
+            return f'<img src="{public_path}" alt="" loading="lazy">'
+
+        body = re.sub(r'\{%\s*image\s+id="([^"]+)"\s*%\}', replace_marker, body)
+        body = re.sub(r"\{%\s*spacer\s*%\}", '<p class="gf-director-spacer"></p>', body)
+        return body.strip() + "\n"
+
+    generated = 0
+    posts_dir = REPO_ROOT / "_posts"
+    for article in manifest["articles"]:
+        number = int(article["number"])
+        ja = article.get("languages", {}).get("ja")
+        if not ja:
+            continue
+        date = ja.get("date") or f"{article['month']}-01"
+        categories = list(ja.get("categories") or [])
+        front_matter = {
+            "layout": "gamefreak-director",
+            "title": f"[GameFreak部长专栏] 第{number}回",
+            "date": date,
+            "permalink": f"/gamefreak-director/entry-{number:03d}/",
+            "categories": ["官方博客", "Game Freak", "翻译资料"],
+            "tags": ["Game Freak", "增田顺一", "宝可梦", "官方博客"],
+            "archive_type": "gamefreak_director_column",
+            "gf_entry_no": number,
+            "gf_entry_title": ja.get("lead") or "",
+            "gf_archive": article.get("month"),
+            "gf_categories": categories,
+            "summary": "日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。",
+            "search": True,
+            "source": {"title": f"増田部長のめざめるパワー 第{number}回", "url": ja.get("page_url"), "source_type": "official_blog"},
+            "gf_archive_id": article.get("id"),
+        }
+        front = yaml.safe_dump(front_matter, allow_unicode=True, sort_keys=False).strip()
+        ja_path = ARCHIVE_ROOT / "content" / f"{number:03d}" / "ja.md"
+        if not ja_path.exists():
+            continue
+        body_parts = [
+            '<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>',
+            "## 日文原文",
+            render_body(ja_path),
+        ]
+        en_path = ARCHIVE_ROOT / "content" / f"{number:03d}" / "en.md"
+        if en_path.exists():
+            body_parts.extend(
+                [
+                    "<details class=\"gf-director-language\"><summary>查看官方英文版</summary>",
+                    render_body(en_path),
+                    "</details>",
+                ]
+            )
+        filename = f"{date}-gamefreak-director-{number:03d}.md"
+        write_text(posts_dir / filename, f"---\n{front}\n---\n\n" + "\n\n".join(body_parts) + "\n")
+        generated += 1
+
+    print(f"publish: {generated} searchable Jekyll posts, {published_assets} public images")
+    return {"posts": generated, "assets": published_assets}
+
+
 def validate(args: argparse.Namespace) -> dict[str, Any]:
     manifest = load_manifest()
     asset_manifest_path = ARCHIVE_ROOT / "manifest" / "assets.yml"
@@ -1228,7 +1331,9 @@ Pipeline stages:
    live Game Freak host is tried first; missing resources fall back to the
    Internet Archive with their Wayback URL and snapshot timestamp retained.
 3. `extract` creates Markdown, source fragments, and ordered structure JSON.
-4. `validate` verifies languages, files, hashes, hotlinks, and translation layers.
+4. `publish` materializes normalized content as searchable Jekyll posts and
+   copies archived article images into the public asset layer.
+5. `validate` verifies languages, files, hashes, hotlinks, and translation layers.
 
 The sample configuration covers entries 1, 73, and 199. Use `discover --all`
 only after reviewing the sample report and crawl scope. WARC packaging is not
@@ -1270,13 +1375,14 @@ def run_all(args: argparse.Namespace) -> None:
     discover(args)
     fetch_assets(args)
     extract(args)
+    publish_site_pages(args)
     validate(args)
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "stage", choices=["discover", "fetch", "extract", "validate", "all"]
+        "stage", choices=["discover", "fetch", "extract", "publish", "validate", "all"]
     )
     parser.add_argument("--samples", type=Path, default=DEFAULT_SAMPLE_FILE)
     parser.add_argument("--delay", type=float, default=0.8, help="Delay after each network request")
@@ -1297,6 +1403,8 @@ def main() -> None:
         fetch_assets(args)
     elif args.stage == "extract":
         extract(args)
+    elif args.stage == "publish":
+        publish_site_pages(args)
     elif args.stage == "validate":
         validate(args)
     else:

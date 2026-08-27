@@ -1,0 +1,148 @@
+---
+layout: gamefreak-director
+title: '[GameFreak部长专栏] 第49回'
+date: '2005-08-05'
+permalink: /gamefreak-director/entry-049/
+categories:
+- 官方博客
+- Game Freak
+- 翻译资料
+tags:
+- Game Freak
+- 增田顺一
+- 宝可梦
+- 官方博客
+archive_type: gamefreak_director_column
+gf_entry_no: 49
+gf_entry_title: 前からよくやるデジカメや携帯写真での遊びとして、 被写体のポーズやアングルを変えて２?３枚写真を撮って、 それをボタンを押して順番に動かして、ちょっとしたアニメーションを作る。
+gf_archive: 2005-08
+gf_categories:
+- ものづくりについて
+summary: 日文原文已归档；中文译稿待校对，官方英文版按原站可用性提供。
+search: true
+source:
+  title: 増田部長のめざめるパワー 第49回
+  url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
+  source_type: official_blog
+gf_archive_id: masuda-049
+---
+
+<aside class="gf-director-translation-note"><strong>中文翻译待完成</strong><span>以下为保留原始换行与图片位置的日文原文。</span></aside>
+
+## 日文原文
+
+前からよくやるデジカメや携帯写真での遊びとして、
+
+被写体のポーズやアングルを変えて２?３枚写真を撮って、
+
+それをボタンを押して順番に動かして、ちょっとしたアニメーションを作る。
+
+そうやって、こっそり楽しんでいるんですが、、、
+
+ゲームの場合、アニメーションの作り方をよく知っているためか、
+
+こういった要素をすぐに、、、
+
+何秒かで順番に再生できる機能を付けよう！
+
+と、考えてしまいがちです。
+
+しかし、それが良いのかと言えば、そうではないかも知れません。
+
+実はそこに隠されているのは、
+
+その行為自体を発見したり、ボタンを押している感じだったり、
+
+それを人に見せる楽しみだったり、自慢だったり、
+
+やっているのを見てマネすることで、そこからどんどん広がることだったり、、、
+
+そういう楽しみや快感を忘れてはならないと思うんです。
+
+機能として入れることで、一瞬にして広まりますが、
+
+一瞬にして当たり前にも（つまらなく）なってしまいます。
+
+さまざまな要素に隠されたもの。
+
+そういう隠されたものを、慎重に紐解いて１つずつ１つずつ導き出していく。
+
+そういったことをすることも企画者には必要です。
+
+隠されたものを導き出す力。磨き続けたいですね。
+
+では。
+
+
+<details class="gf-director-language"><summary>查看官方英文版</summary>
+
+There is a little trick I’ve been doing
+
+with a digital camera or a cell phone.
+
+Take 2 or 3 pictures of the same subject,
+
+making it pose differently or from different
+
+angles, and then by pushing the button to
+
+display them in order, you come up with a
+
+small animation.
+
+I’m having a little fun like that, but…
+
+When we think of video games, maybe because
+
+we all are well familiar with how to make animation,
+
+we tend to think of it like…
+
+why not include a function to play the photos in
+
+sequence in a matter of seconds.
+
+But, if asked it’s a nice feature to put into a game,
+
+it may well not be so.
+
+Truth of the matter is, during this process
+
+you discover the function yourself.
+
+You might like the way how the button feels when you
+
+press it, or enjoy showing your photos to others,
+
+or feel some sense of pride.
+
+And other people might imitate what you do and
+
+it might become widespread…
+
+I think we should not forget that this process itself
+
+is fun and brings pleasure.
+
+If we include this function in a game, it becomes
+
+available to everyone in an instant, but this
+
+means it can become ordinary (boring) in an instant too.
+
+Things that are hidden beneath various elements.
+
+By disassembling carefully, you can reach
+
+the things that have been hidden away one by one.
+
+Sometimes game designers need to make such efforts.
+
+The power to bring out what’s been hidden.
+
+I need to keep on brushing it up.
+
+See ya.
+
+
+</details>

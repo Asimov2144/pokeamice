@@ -10,7 +10,9 @@ Pipeline stages:
    live Game Freak host is tried first; missing resources fall back to the
    Internet Archive with their Wayback URL and snapshot timestamp retained.
 3. `extract` creates Markdown, source fragments, and ordered structure JSON.
-4. `validate` verifies languages, files, hashes, hotlinks, and translation layers.
+4. `publish` materializes normalized content as searchable Jekyll posts and
+   copies archived article images into the public asset layer.
+5. `validate` verifies languages, files, hashes, hotlinks, and translation layers.
 
 The sample configuration covers entries 1, 73, and 199. Use `discover --all`
 only after reviewing the sample report and crawl scope. WARC packaging is not
