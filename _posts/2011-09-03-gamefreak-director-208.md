@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 208
-gf_entry_title: MTM、USTREAMで放送決定！！
+gf_entry_title: 【活动预告】MTM亮相宝可梦现场
 gf_archive: 2011-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: MTM将于六本木新城登台演出，现场还有超帅气的歌曲改编；无法到场的朋友也能通过 USTREAM 收看。
+gf_translation_title: 【活动预告】MTM亮相宝可梦现场
+gf_translation_summary: MTM将于六本木新城登台演出，现场还有超帅气的歌曲改编；无法到场的朋友也能通过 USTREAM 收看。
 search: true
 source:
   title: 増田部長のめざめるパワー 第208回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-208
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,37 +38,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-MTM，将在USTREAM上播出！！
+MTM确定将在 USTREAM 播出！！
 
-9月3日、4日在六本木Hills・Arena举办的
+9月3日、4日将在六本木新城竞技场举办
 
-「宝可梦Smash！」大家一起来唱吧！
+“《宝可梦 Smash！》大家一起唱！
 
-能说出宝可梦吗？BW in 六本木Hills！
+《你能说出宝可梦吗？BW》in 六本木新城！”
 
-在这个会场，4日（周日）16点起MTM将登场。
+MTM将于4日（周日）16点在会场登场。
 
-会演奏什么曲子呢！？
+究竟会演奏什么歌曲呢！？
 
-顺便说一下，可不止一首！！
+顺带一提，可不只有一首歌！！
 
-大家熟悉的那首曲子也，，，被改编得超帅！！
+还有那首大家都知道的歌曲……也被改编得超级帅气！！
 
-附近的人请务必来玩，现场观赏！
+住在附近的朋友，欢迎一定要来现场观看！
 
-远方的人请务必通过USTREAM观看！！
+离得比较远的朋友，就请通过 USTREAM 收看吧！！
 
-另外，，，
+顺带一提……
 
-听说4日的宝可梦Smash！将播出WCS圣地亚哥的情况！
+听说4日的《宝可梦 Smash！》将会播出WCS圣迭戈的现场情况！
 
-那边也请Check！Check！
+那边也请记得关注！关注！
 
 [http://ustre.am/CGp6](http://ustre.am/CGp6)
 
 [http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news](http://www.pokemon.co.jp/info/2011/08/110826_e01.html?a001=news)
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

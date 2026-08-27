@@ -14,75 +14,76 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 16
-gf_entry_title: 実は増田、アナログシンセのマニアなんです。 この世に存在しない音が作れるところが大好き！しびれちゃいます。
+gf_entry_title: 【兴趣随笔】模拟合成器的魅力
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享自己收藏模拟合成器的乐趣，也讲解声源、滤波器与放大器如何共同构成声音。
+gf_translation_title: 【兴趣随笔】模拟合成器的魅力
+gf_translation_summary: 增田分享自己收藏模拟合成器的乐趣，也讲解声源、滤波器与放大器如何共同构成声音。
 search: true
 source:
   title: 増田部長のめざめるパワー 第16回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-016
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
-glossary_missing_targets:
-- 狂热
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-其实增田是个模拟合成器的发烧友。
+其实我可是模拟合成器的狂热爱好者。
 
-能做出这个世界上不存在的声音，这一点我超喜欢！简直让人着迷。
+我最喜欢的，就是它能创造出这个世界上不存在的声音！简直让人着迷。
 
-我有罗兰的SH-2、KORG的MS-20、PS-3200什么的，
+罗兰的 SH-2、KORG 的 MS-20 和 PS-3200 之类的我也有，
 
-不过要说能玩得开心的合成器，还是能自己接线的罗兰SYSTEM-100M。
+但要说到真正适合拿来玩的合成器，果然还是可以进行接线的罗兰 SYSTEM 100M。
 
-这是一台容易上手又有趣的乐器。
+这是种操作方便又有趣的乐器。
 
-从设计上让我憧憬的，果然还是Moog IIIc。
+说到设计上让我向往的，果然还是 moog IIIc。
 
-那是YMO的松武秀树先生从早期就开始用的大家伙。
+那是 YMO 的松武秀树从早期就开始使用的大家伙。
 
-绝佳的设计！帅得没话说！
+最棒的设计！帅得不得了！
 
-面板的设计自不必说，箱体的长宽比和倾斜的角度也都很棒！
+不只是面板的设计，箱体的长宽比例，还有倾斜的部分也都非常出色！
 
-感觉功能和设计融为一体。
+给人一种功能和设计融为一体的感觉。
 
 啊——真帅。
 
-啊，对了，
+啊，对了对了，
 
-模拟合成器是把声音的要素分开来发声的。
+模拟合成器会把声音的各个要素拆开来分别发声。
 
-VCO是发出声音的部分。
+VCO，负责发出声音。
 
-VCF是加工声音的部分。
+VCF，负责加工声音。
 
-VCA是控制音量的部分。
+VCA，负责控制音量。
 
-基本要素就这三个。
+基本要素就只有这三个。
 
-也就是说，声音就是靠这些构成的。
+也就是说，声音只靠这些就能构成。
 
-“把某个东西分解，再通过合成还原成原来的样子”
+“把已有的东西分解，再通过合成还原成原来的东西。”
 
-声码器什么的也是这样，
+像声码器也是这样，
 
-我觉得这像是发明了合成器的穆格博士的创意之源。
+我总觉得，这大概就是发明合成器的莫格博士的灵感来源。
 
-做游戏的时候有时也会有同样的想法，
+制作游戏的时候，我有时也会采用同样的思路，
 
-但要真正看清原本的形态时，我觉得分解和合成尤其重要。
+不过，在认真观察事物原本的形态时，我觉得分解与合成尤其重要。
 
-那么就这样。
+那么，回见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

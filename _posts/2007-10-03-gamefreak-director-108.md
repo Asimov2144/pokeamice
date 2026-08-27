@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 108
-gf_entry_title: ネタがないとき、何かに集中してネタを考えていると、 新たなネタが生まれてくるときってありますよね。
+gf_entry_title: 【开发随笔】及时记下灵感
 gf_archive: 2007-10
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享自己如何捕捉一闪而过的灵感：从手机邮件转向手帐，把想法和插图一起记录下来。
+gf_translation_title: 【开发随笔】及时记下灵感
+gf_translation_summary: 增田分享自己如何捕捉一闪而过的灵感：从手机邮件转向手帐，把想法和插图一起记录下来。
 search: true
 source:
   title: 増田部長のめざめるパワー 第108回
   url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-108
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-没有灵感的时候，集中精力思考某个点子时，
+没有灵感的时候，如果专心思考某件事、努力寻找灵感，
 
-有时会诞生出新的点子，对吧。
+有时就会突然冒出新的点子，对吧。
 
-以前记忆力很好，能记住很多事情，
+以前我的记忆力很好，能记住很多事情，
 
-但现在，说过的话、做过的事转眼就忘，
+可是现在……说过的话、做过的事，都会马上忘掉，
 
-所以新点子诞生的瞬间，就是！！！、、！！！太棒了！！！
+所以每当新的点子诞生的瞬间……！！！……！！太棒了！！！
 
-于是，
+于是……
 
-我立刻把它记在记事本上！
+我会立刻把它记在手帐里！
 
-要是忘了，那点子就太可惜了……
+要是忘了……那这个点子就太可惜了……
 
-以前我会把点子写在手机邮件里，
+以前我会把点子写进手机邮件，
 
-然后发到公司的电脑上，但……果然还是有限制。
+再发到公司的电脑上……但这种方法果然还是有极限。
 
-什么限制呢……就是没法画插图。
+要说有什么极限……就是没法画插图嘛。
 
-把想到的事情视觉化，之后形象就能扩展。
+把想到的东西视觉化保存下来，之后就能进一步扩展想象。
 
-所以，现在我已经完全成了记事本派。
+所以现在，我已经彻底成了手帐派。
 
-虽然有点重，但非常方便。
+虽然有点重，但真的非常方便。
 
-那么。
+那么，回头见。
 
 <img src="/assets/images/gamefreak-director/archive/108/multi/108.jpg" alt="" loading="lazy">
 

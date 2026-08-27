@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 130
-gf_entry_title: NYで仕事を済ませ、いまロスアンゼルスに来ています！
+gf_entry_title: 【开发日记】洛杉矶出差与开发现场
 gf_archive: 2008-07
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田在纽约工作后抵达洛杉矶，分享任天堂发布会、E3行程，以及节目中介绍 GAME FREAK 开发现场的消息。
+gf_translation_title: 【开发日记】洛杉矶出差与开发现场
+gf_translation_summary: 增田在纽约工作后抵达洛杉矶，分享任天堂发布会、E3行程，以及节目中介绍 GAME FREAK 开发现场的消息。
 search: true
 source:
   title: 増田部長のめざめるパワー 第130回
   url: https://www.gamefreak.co.jp/blog/dir/2008/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-130
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,33 +39,33 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/130/ja/130a.jpg" alt="" loading="lazy">
 
-在纽约办完工作，现在来到了洛杉矶！
+在纽约忙完工作后，我现在来到洛杉矶了！
 
-今天早上，听了任天堂公司的发布会，
+今天早上听了任天堂的发布会，
 
-正期待着WiiMUSIC。
+正期待着 Wii Music 的表现。
 
-明天，预定去E3。
+明天打算去 E3。
 
-期待！
+好期待！
 
-哎呀，不过，LA的阳光真是强烈。感觉要被晒黑了。。。
+哎呀——不过，洛杉矶的阳光还真是强烈啊。感觉要被烤焦了……
 
 <img src="/assets/images/gamefreak-director/archive/130/ja/130b.jpg" alt="" loading="lazy">　<img src="/assets/images/gamefreak-director/archive/130/ja/130c.jpg" alt="" loading="lazy">　<img src="/assets/images/gamefreak-director/archive/130/ja/130d.jpg" alt="" loading="lazy">
 
 那么！！
 
-话题完全变了，但是。。。
+话题完全换一个……
 
-7月20日（周日）的宝可梦☆星期天，增田会出场！
+7月20日（星期日）的《宝可梦☆星期天》节目里，我会出场！
 
-也会介绍GAME FREAK的公司内部。
+还会介绍 GAME FREAK 的公司内部。
 
 我们就是在这样的地方开发宝可梦的哦！
 
-虽然时间很早，但请一定要看哦！！
+虽然时间很早，但请大家一定一定要收看哦！！
 
-Ciao！
+回头见！
 
 <img src="/assets/images/gamefreak-director/archive/130/ja/130e.jpg" alt="" loading="lazy">
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 19
-gf_entry_title: 好みって面白いですよね。
+gf_entry_title: 【随笔】人与人之间相投的喜好
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 从穿衣打扮到兴趣偏好，增田顺一聊起人与人之间奇妙的共同喜好，以及它为何更容易吸引目光。
+gf_translation_title: 【随笔】人与人之间相投的喜好
+gf_translation_summary: 从穿衣打扮到兴趣偏好，增田顺一聊起人与人之间奇妙的共同喜好，以及它为何更容易吸引目光。
 search: true
 source:
   title: 増田部長のめざめるパワー 第19回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-019
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-喜好这东西真是有趣呢。
+喜好这种东西，真有意思啊。
 
-如果有女孩子全身用黑色或棕色来搭配，就会忍不住多看几眼。之类的。
+看到有女孩子全身搭配成黑色或棕色，我就会忍不住多看几眼。比如说。
 
-头发长的话会多看几眼。之类的。
+头发很长，我就会忍不住多看几眼。比如说。
 
-戴着帽子的话会多看几眼。之类的。
+戴着帽子，我就会忍不住多看几眼。比如说。
 
-戴着项圈的话会多看几眼。之类的。
+戴着颈圈，我就会忍不住多看几眼。比如说。
 
-长裙配靴子的话会多看几眼。之类的。
+穿长裙配靴子，我就会忍不住多看几眼。比如说。
 
-如果有cosplay的人，就会忍不住多看几眼。之类的。
+看到有人在玩角色扮演，我也会忍不住多看几眼。比如说。
 
-虽然都是些细节……
+虽然都是些很细节的地方……
 
-每个人各有各的喜好。
+每个人都有各种各样的喜好。
 
-其中，当几个人聚在一起时，总会有共同的喜好，对吧。
+而在这些喜好当中，几个人聚在一起时，也会有一些共同的喜好，对吧？
 
-明明是陌生人，出生的环境、父母、学校都不一样……喜好却相合。
+明明彼此是陌生人，成长环境不同，父母不同，学校也不同……喜好却能合得来。
 
-我觉得这很不可思议。
+我觉得这真是件不可思议的事。
 
-和很多人喜好重叠的东西、重叠的事情。
+那些会和很多人的喜好重合的东西、重合的事情。
 
-重叠的人越多，就越容易映入眼帘吧。
+重合得越多，应该就越容易吸引人们的目光吧。
 
-那么。
+那么，回见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

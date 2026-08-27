@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 159
-gf_entry_title: 『ポケットモンスター』シリーズの完全新作！ 2010年内に発売に向けて開発中です！！
+gf_entry_title: 【开发公告】2010年宝可梦全新作品
 gf_archive: 2010-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦系列全新作品预计于2010年发售，GAME FREAK正全力开发，目标是超越《钻石·珍珠》的成绩。
+gf_translation_title: 【开发公告】2010年宝可梦全新作品
+gf_translation_summary: 宝可梦系列全新作品预计于2010年发售，GAME FREAK正全力开发，目标是超越《钻石·珍珠》的成绩。
 search: true
 source:
   title: 増田部長のめざめるパワー 第159回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-159
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -36,49 +38,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-『宝可梦』系列的全新作品！
-
-正在面向2010年内发售进行开发中！！
-
 [http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)
 
 [http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)
 
-终于在今天，顺利地向大家公布了！！
+终于就在今天，顺利对外公布了！！
 
 啪啪啪！！！
 
-不过，这可不是事不关己……（汗）
+不过，这可不是事不关己的事……（汗）
 
-当然，开发全部由我们负责。
+当然，全部开发工作都是我们这边负责的。
 
-现在，GAME FREAK 开发部，
+目前，GAME FREAK开发部
 
-为了超越以往的宝可梦，
+正为了超越以往的宝可梦，
 
-正以革新的软件为目标，锐意开发中！
+以打造革新性软件为目标，竭尽全力开发中！
 
-顺便一提，正如公告中所说……
+顺便一提，正如公告中所说的……
 
-『宝可梦 钻石·珍珠』，
+《宝可梦 钻石·珍珠》这款软件，
 
-确实是全球销量超过1715万套（国内580万套以上）的软件。
+在全世界的销量确实超过1715万套（日本国内超过580万套）。
 
-（东京的人口约1300万人）
+（东京人口约为1300万人）
 
-我们正以超越DP的气势努力着！
+我们正抱着超越DP的干劲努力着！
 
-各位，请多多支持！
+请大家多多支持！
 
 敬请期待！
 
-另外，在2月7日（周日）的宝可梦星期天中，增田也会
+另外，增田还会在2月7日（星期日）的《宝可梦星期天》中
 
-紧急视频出演？所以，
+紧急视频出演？
 
-请务必观看哦。应该能获得一些信息！！
+所以请大家一定要收看哦。应该能得到一些消息！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

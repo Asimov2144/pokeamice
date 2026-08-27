@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 132
-gf_entry_title: 「ポケットモンスター プラチナ」が、 DSソフト史上最速の「３日で１００万本突破！」を達成しました！
+gf_entry_title: 【宝可梦】白金版三日销量破百万
 gf_archive: 2008-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦 白金》创下DS软件史上最快纪录，仅用3天销量突破100万份，增田顺一向玩家表达感谢。
+gf_translation_title: 【宝可梦】白金版三日销量破百万
+gf_translation_summary: 《宝可梦 白金》创下DS软件史上最快纪录，仅用3天销量突破100万份，增田顺一向玩家表达感谢。
 search: true
 source:
   title: 増田部長のめざめるパワー 第132回
   url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-132
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,23 +38,23 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-「宝可梦 白金」
+《宝可梦 白金》
 
-达成了DS软件史上最快的「3天突破100万份！」！
+创下了DS软件史上最快的纪录——“仅用3天销量突破100万份！”
 
-非常开心！
+我真的特别开心！
 
-这也多亏了大家。
+这也都是多亏了大家的支持。
 
-真的，非常感谢！
+真的非常感谢大家！
 
-我们感谢的心情，
+我们对大家的感谢之情，
 
-都倾注在了白金之中，
+全都寄托在白金版里了，
 
-请尽情享受吧！
+请大家尽情享受吧！
 
-那么！
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

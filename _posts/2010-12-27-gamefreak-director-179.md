@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 179
-gf_entry_title: みなさん
+gf_entry_title: 【开发日记】2010年黑白发售与近况
 gf_archive: 2010-12
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回顾《黑／白》顺利发售，向玩家致谢并为宝可梦全球链接的问题致歉，同时分享近期活动与访谈近况。
+gf_translation_title: 【开发日记】2010年黑白发售与近况
+gf_translation_summary: 增田回顾《黑／白》顺利发售，向玩家致谢并为宝可梦全球链接的问题致歉，同时分享近期活动与访谈近况。
 search: true
 source:
   title: 増田部長のめざめるパワー 第179回
   url: https://www.gamefreak.co.jp/blog/dir/2010/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-179
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,57 +39,57 @@ glossary_missing_targets: []
 
 大家好
 
-已经是12月27日了呢。。。
+已经是12月27日了呢……
 
-转眼间2010年也要结束了。
+转眼间，2010年也快要结束了。
 
-今年，2010年我们顺利发售了《黑·白》。
+今年，也就是2010年，《黑／白》顺利发售了。
 
-这也多亏了支持我们的各位。
+这都多亏了一直支持我们的各位。
 
-真的非常感谢。
+真的非常感谢大家。
 
-然后，
+还有，
 
-在PGL上给大家添了不少麻烦。
+关于PGL的事情，给大家添了不少麻烦。
 
-似乎每4人中就有1人在玩。。。
+好像每四个人里就有一个人在玩……
 
-在日本有这么多人在玩。。。
+在日本竟然有这么多人……
 
-对不起。。。这远远超出了我的预期。。。
+对不起……完全超出了我们的预想……
 
-真的很抱歉。
+真的非常抱歉。
 
-我们会一点点改进，请大家不要气馁，继续陪伴我们。
+我们会一点一点地加以改善，所以还请大家不要灰心，继续陪伴我们。
 
-恳请多多关照。
+今后也请多多关照。
 
-近况报告等等。。。
+顺便报告一下近况……
 
-前几天，我去了大阪宝可梦中心。
+前几天，我去了宝可梦中心大阪店。
 
-那里公开了开发时的插画和创意。
+那里正在公开开发期间的插画和创意。
 
-还有增田的羞耻插画（？）！
+还有我画的那些难为情的插画（？）！
 
 [http://www.pokemon.co.jp/gp/pokecen/osaka/](http://www.pokemon.co.jp/gp/pokecen/osaka/)
 
-现在发售中的杂志《达·芬奇》12月6日发售号，第132页有增田登场！
+目前正在发售的杂志《Da Vinci》12月6日发售号，在第132页可以看到我！
 
-面向成人的。
+这是面向成年人的杂志。
 
-另外，在《CoroCoro G》冬季号中，也和翔子一起出现了。
+另外，我还和翔子一起登上了《CoroCoro G》冬季号。
 
-我们进行了对战。虽然输了（笑）
+我们进行了对战。虽然我输了（笑）
 
-两本都感觉不错。
+两本杂志的效果都挺不错的。
 
-还有，任天堂的社长询问的别企划“女大学生询问”中也有登场。
+另外，我还参加了任天堂社长访谈的特别企划“女大学生访谈”。
 
 [http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html](http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html)
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

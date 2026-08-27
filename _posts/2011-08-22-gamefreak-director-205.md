@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 205
-gf_entry_title: ワールドチャンピオンシップス2011情報ーー！
+gf_entry_title: 【活动日记】2011年圣迭戈世锦赛见闻
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录圣迭戈世界锦标赛、海军博物馆、海洋世界和大联盟观赛之旅，并分享亲近玩家带来的创作能量。
+gf_translation_title: 【活动日记】2011年圣迭戈世锦赛见闻
+gf_translation_summary: 增田顺一记录圣迭戈世界锦标赛、海军博物馆、海洋世界和大联盟观赛之旅，并分享亲近玩家带来的创作能量。
 search: true
 source:
   title: 増田部長のめざめるパワー 第205回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-205
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -38,13 +40,13 @@ glossary_missing_targets: []
 
 世界锦标赛2011情报——！
 
-13日开幕式当天。
+13日，开幕式当天。
 
-早上7点，会场里已经开始了彩排。
+早上7点，会场里已经开始彩排了。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205a.jpg" alt="" loading="lazy">
 
-大家所追求的，世界第一！
+大家共同追逐的，世界第一！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205b.jpg" alt="" loading="lazy">
 
@@ -54,71 +56,71 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205d.jpg" alt="" loading="lazy">
 
-电子游戏开始！
+视频游戏开始！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205e.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205f.jpg" alt="" loading="lazy">
 
-这段时间，增田我又是彩排，又是正式演出，
+这期间，我又是彩排，又是正式活动，
 
-又是签名会，又在颁奖仪式上登台……
+又要参加签名会，还要在颁奖仪式上登台……
 
-却没有自己的照片（笑）
+结果一张自己的照片都没有（笑）
 
 然后是闭幕式。
 
-从台上一下来，就立刻拍照！拍照！（汗）
+刚从台上下来，就立刻喊着：照片！照片！（汗）
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205g.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205h.jpg" alt="" loading="lazy">
 
-各位，谢谢你们能来！
+大家，谢谢你们前来参加！
 
-还有，世界冠军！恭喜！！
+还有，世界冠军！恭喜你们！！
 
-各位，真是精彩的战斗！
+大家都打出了精彩的比赛！
 
-还有，拿到第二名的人，也努力了！！
+还有获得第二名的选手，也辛苦了！！
 
-大家，真的非常感谢！！
+大家真的非常感谢！！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205i.jpg" alt="" loading="lazy">
 
-哎呀，今年的圣迭戈也很厉害！
+哎呀，今年的圣迭戈也太厉害了！
 
-气氛非常热烈！
+现场气氛真是太热烈了！
 
-每次看到这样的活动，我都会想。
+每次看到这样的活动，我都会想起一件事。
 
-如果只在公司内部制作游戏，就看不到玩家的面孔。
+如果只在公司里制作游戏，就看不到玩家们的表情，对吧。
 
-就像艺术家只制作网络和CD这样的内容，却不举办展览会或演唱会一样。
+这就像艺术家只制作网络内容或唱片，却不举办展览或现场演出一样。
 
-那样的话，果然还是不够。
+那样的话，果然还是会觉得缺了点什么。
 
-看不到顾客的面孔。看不到他们对什么有反应。
+看不到客人的表情，也看不到他们会对什么产生反应。
 
-也许有人说看不到也没关系，
+也许有人会觉得，看不到也没关系，
 
-但那就像在餐厅里不考虑顾客，
+但那就和在餐厅里不考虑客人的感受，
 
-只做老板自己喜欢的东西一样。自我满足。
+只做老板自己喜欢的东西一样。只是自我满足。
 
-那样的话，是不可能让众多顾客满意的。
+这样当然不可能让许多客人满意。
 
-像这样在活动中接触玩家，
+就这样在现场和玩家接触，
 
-看到他们的游玩方式并思考未来，
+看着大家游玩，再去思考未来，
 
-就能获得巨大的能量。
+我们会获得非常非常多的能量。
 
-会涌起想要创作出更好更好的东西的心情。
+也会由此产生想要创作出更好作品的心情。
 
-就这样，一边感受着这些……一边重新振作精神时，
+正当我一边感受着这些，一边重新振作起精神时……
 
-圣迭戈的夜晚，将我们包围了。
+圣迭戈的夜晚将我们温柔地包裹其中。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205j.jpg" alt="" loading="lazy">
 
@@ -126,107 +128,107 @@ glossary_missing_targets: []
 
 第二天。自由活动！
 
-于是，首先……
+于是，我们首先去了……
 
 中途岛号博物馆。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205l.jpg" alt="" loading="lazy">
 
-把军舰直接改造成博物馆……这个想法真厉害……
+把军舰原封不动地变成博物馆……这个想法真是太厉害了……
 
-可以用耳机听日语导览。
+还可以通过耳机收听日语导览。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205m.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205n.jpg" alt="" loading="lazy">
 
-门的构造也很厉害。绝对是为了不让敌人进来？？
+门的构造也很厉害。是为了绝对不让敌人进来吗？？
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205o.jpg" alt="" loading="lazy">
 
-午餐是……最喜欢的螃蟹！！乔氏螃蟹馆真好吃！
+午餐是……我最喜欢的螃蟹！！乔氏螃蟹店真好吃！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205p.jpg" alt="" loading="lazy">
 
-然后，又去了每次必去的海洋世界。
+然后，又去了每次都会去的海洋世界。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205q.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205r.jpg" alt="" loading="lazy">
 
-虎鲸，好大！！和人一比就能感受到那个大小了。
+虎鲸，好大啊！！和人一对比，就能感受到它的体型了吧。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205s.jpg" alt="" loading="lazy">
 
-这里的虎鲸们昵称叫“沙姆”。
+这里的虎鲸昵称叫作“沙木”。
 
-大家一起喊“沙姆”！
+大家一起高喊“沙木”！
 
-然后，竟然！！
+然后，竟然还！！
 
-看美国职棒大联盟！！
+去现场看大联盟比赛！！
 
-在PETCO PARK（球场）看教士队对大都会队！！
+在佩科公园球场观看教士队对大都会队的比赛！！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205t.jpg" alt="" loading="lazy">
 
-作为对决，是圣迭戈对纽约！！
+作为一场对决来说，就是圣迭戈对纽约！！
 
-这样的话，果然还是要给教士队加油吧！
+既然如此，当然要为教士队加油啦！
 
-这是三垒大都会队那边。虽然座位在这里，但马上转移！
+这里是三垒大都会队一侧。我们的座位就在这里，不过马上就换地方了！
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205u.jpg" alt="" loading="lazy">
 
-从一垒教士队那边的外野观看！！冲啊！教士队！！
+从一垒教士队一侧的外野观看比赛！！加油啊！教士队！！
 
 最远的地方还有草坪和巨大的屏幕！
 
-这样就能像在家一样悠闲地观战了。
+这样一来，就能像在家里一样舒舒服服地看比赛了。
 
 <img src="/assets/images/gamefreak-director/archive/205/multi/205v.jpg" alt="" loading="lazy">
 
-就是这样气氛热烈的教士队对大都会队之战。
+教士队对大都会队的比赛，就这样热热闹闹地进行着。
 
-一开始被大都会队得了3分，心想哎呀？
+一开始大都会队先拿下3分，我还想着“咦咦？”，
 
-但中途逆转，变成了4比4。
+没想到中途奋起直追，比分变成了4比4。
 
-“加油啊！”的声援也落空了，最后在延长赛中输掉了。
+虽然大家都在为他们加油，可最后还是在延长赛中输掉了。
 
 教士队……
 
-哎呀，比预想的还要开心。
+哎呀，真是比我预想的有趣多了。
 
-有趣的点是……
+有意思的地方包括……
 
 没有铁丝网！球会飞到很近的地方。（受伤了要自己负责？）
 
-界外球的时候能拿到球。
+打出界外球时，还能拿到球。
 
-不是音乐助威，而是观众的声音助威。
+不是用音乐带动助威，而是靠观众自己的声音来加油。
 
-大声援！人浪也很厉害！
+欢呼声特别大！人浪也非常壮观！
 
-不去看看就不知道的事情，
+有些事情，不亲自去一趟就不会明白，
 
-真的有很多呢。
+真的有非常非常多。
 
-就这样，尽情享受了精彩的世锦赛和圣迭戈，
+就这样，我们尽情享受了精彩的世界锦标赛和圣迭戈，
 
-回到了日本！
+然后回到了日本！
 
-明年，请一定要挑战WCS哦！
+明年也请务必来挑战世界锦标赛哦！
 
 WCS2011的网站在这里。
 
 [http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)
 
-WCS的各种照片在这里。MTM和签名会也都有！
+WCS的各种照片在这里。还能看到我和签名会的照片哦！
 
 [http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)
 
-WCS的各种影像在这里。还有开幕视频哦！
+WCS的各种影像在这里。还有开幕宣传视频哦！
 
 [http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)
 

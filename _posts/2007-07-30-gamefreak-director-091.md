@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 91
-gf_entry_title: ついに！
+gf_entry_title: 【开发日志】欧洲版珍珠钻石发售
 gf_archive: 2007-07
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 欧洲版《宝可梦 钻石／珍珠》终于发售，世界各地的玩家也通过地球网络连接起来，快来交换宝可梦吧！
+gf_translation_title: 【开发日志】欧洲版珍珠钻石发售
+gf_translation_summary: 欧洲版《宝可梦 钻石／珍珠》终于发售，世界各地的玩家也通过地球网络连接起来，快来交换宝可梦吧！
 search: true
 source:
   title: 増田部長のめざめるパワー 第91回
   url: https://www.gamefreak.co.jp/blog/dir/2007/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-091
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -39,23 +41,23 @@ glossary_missing_targets: []
 
 欧洲时间2007年7月27日（星期五）
 
-期待已久的欧洲版《宝可梦 钻石·珍珠》发售了！
+期待已久的欧洲版《Poke’mon DIAMOND & PEARL》终于发售了！
 
 这样一来，地球终于连成一体了！
 
-顺便一提，欧洲版有德语、法语、西班牙语、意大利语，
+顺带一提，欧洲版包含德语、法语、西班牙语和意大利语版本，
 
-所以那些有着不可思议昵称的宝可梦也会来到我们身边。
+所以我想，也会有昵称很奇妙的宝可梦来到我们身边吧。
 
-请大家在GTS上增加连接点吧！
+还有，请在地球网络上增加更多点数吧！
 
-每一个点都是宝可梦粉丝之间的纽带！
+那一个个点，都是宝可梦迷之间的纽带！
 
-在一个星球上，地球上的世界通过宝可梦交换连接在一起。
+在同一颗星球上，让地球各地相互连接的宝可梦交换世界。
 
-请务必尝试一下！
+请一定要试试看哦！
 
-那么！
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

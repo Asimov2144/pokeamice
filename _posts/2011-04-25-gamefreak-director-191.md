@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 191
-gf_entry_title: このたびの東北地方太平洋沖地震におきまして、 亡くなられた多くの方々のご冥福を心よりお祈り申し上げます。
+gf_entry_title: 【开发随笔】2011年黑白登陆韩国
 gf_archive: 2011-04
 gf_categories:
 - 未分類
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一谈及地震后的祈愿与重建，也分享韩国版黑白发售及宝可梦全球连接连结世界的近况。
+gf_translation_title: 【开发随笔】2011年黑白登陆韩国
+gf_translation_summary: 增田顺一谈及地震后的祈愿与重建，也分享韩国版黑白发售及宝可梦全球连接连结世界的近况。
 search: true
 source:
   title: 増田部長のめざめるパワー 第191回
   url: https://www.gamefreak.co.jp/blog/dir/2011/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-191
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,47 +37,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在此次东北地方太平洋近海地震中，
+对于这次东北地区太平洋近海地震，
 
-为众多遇难者衷心祈愿冥福。
+我由衷祈愿众多逝者安息。
 
-向受灾的各位及其家人致以诚挚的慰问。
+向所有受灾的朋友，以及各位家属，致以衷心的慰问。
 
-衷心祈愿大家能早日过上安心的生活，并早日实现复兴。
+我由衷祈愿大家能够安心生活的那一天早日到来，也祈愿灾区早日重建。
 
-在如此巨大的震灾面前，
+在这样一场大地震面前，
 
-游戏这种“娱乐”虽然起不了什么作用，
+游戏这种“玩乐”实在什么也做不了，
 
-但作为宝可梦品牌，也作为一家公司，我们将尽绵薄之力协助复兴。
+但无论是作为宝可梦品牌，还是作为一家公司，我们都会尽绵薄之力，为灾后重建提供帮助。
 
-GAME FREAK 全体员工均平安无事，
+GAME FREAK的全体员工都平安无事，
 
-但要恢复到能愉快开发的状况，恐怕还需要一些时间。
+不过，要恢复到能够愉快开发的状态，似乎还需要一些时间。
 
-然而，考虑到灾区的复兴和日本经济，
+但是，考虑到灾区的重建和日本经济，
 
-我认为我们努力下去是有意义的。
+我觉得，我们努力向前也有着重要的意义。
 
-那么，4月21日，韩版《黑·白》终于发售了。发售日当天，我去了韩国的活动，
+那么，4月21日，韩国版《黑／白》终于发售了。发售当天，我去参加了韩国的活动，
 
-粉丝们的温柔与热情真的让我非常惊讶。
+却真的被粉丝们的温柔与热情深深打动了。
 
-在寒冷中前来的各位，真的非常感谢！
+感谢大家在寒冷的天气里前来参加！
 
-※关于韩国活动的情况，我会整理好照片后，在下一篇专栏中介绍。
+※韩国活动的情况，我会整理好照片后写在下一篇专栏里。
 
-并且这一天，宝可梦全球连接（PGL）也连接了全世界。
+而就在这一天，宝可梦全球连接（PGL）也连接起了全世界。
 
 [http://www.pokemon-gl.com/languages/](http://www.pokemon-gl.com/languages/)
 
-请全世界支持宝可梦的各位，
+感谢全世界支持宝可梦的朋友们，
 
-为日本，为东北地区加油。
+也请大家为日本、为东北加油。
 
-恳请多多关照。
-
-（株）GAME FREAK 董事 开发本部长 增田顺一
+还请大家多多关照。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

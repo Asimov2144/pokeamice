@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 93
-gf_entry_title: 昔、プログラマーだったころ、 勉強のためにテトリスを真似して作ったことがあります。
+gf_entry_title: 【开发随笔】速度决定游戏魅力
 gf_archive: 2007-08
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回忆早年制作俄罗斯方块的经历，思考下落、旋转与移动速度如何共同构成游戏的趣味。
+gf_translation_title: 【开发随笔】速度决定游戏魅力
+gf_translation_summary: 增田回忆早年制作俄罗斯方块的经历，思考下落、旋转与移动速度如何共同构成游戏的趣味。
 search: true
 source:
   title: 増田部長のめざめるパワー 第93回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-093
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 牡丹
@@ -36,39 +38,41 @@ glossary_missing_targets:
 
 ## 中文译文
 
-以前，当我还是程序员的时候，
+从前还当程序员的时候，
 
-为了学习，我曾经模仿制作过俄罗斯方块。
+我曾为了学习，模仿着做过一次俄罗斯方块。
 
-游戏本身所具有的魅力、魔力，
+我想，我就是在那时，学到了游戏本身所拥有的魅力与魔力。
 
-我觉得那时我学到了。
-
-那就是，
+那是因为，
 
 ・下落的速度。
+
 ・方块旋转的速度。
+
 ・用十字键移动的速度。
-・落地并粘住的速度。
-・每个关卡所决定的整体速度的平衡。
 
-通过改变这些许多的速度，
+・落地并黏合的速度。
 
-游戏可以变得非常有趣，也可以变得非常无聊。
+・每个关卡所设定的整体速度之间的平衡。
 
-仅仅靠这一个要素——速度。
+只要改变包括这些在内的许多速度，
 
-可以明白决定速度（对于不了解的人来说是小事）有多么重要。
+游戏就会变得非常有趣，也会变得非常无聊。
 
-并且会注意到俄罗斯方块是在如此精细的平衡下制作出来的。
+仅仅一个要素，仅仅是速度，就能如此。
 
-然后，不怕误解地写出来，
+由此就能明白，决定速度这件事（对不了解的人来说，或许只是件小事）究竟有多么重要。
 
-这时，我明白了游戏（本身）不是视觉。
+然后，我意识到俄罗斯方块是以微妙的平衡打造出来的。
 
-即使有非常漂亮的将棋，其有趣之处（就游戏而言）还是将棋本身吧。
+接下来这句话，虽说我不想引起误解，
 
-那么。
+但我也正是在那时明白了，游戏（本身）并不是视觉效果。
+
+就算有一副非常漂亮的将棋，趣味（就游戏而言）终究还是将棋本身嘛。
+
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

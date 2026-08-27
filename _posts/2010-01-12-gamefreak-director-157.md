@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 157
-gf_entry_title: 今日はマスダの誕生日！
+gf_entry_title: 【开发日记】灵感诞生的地方
 gf_archive: 2010-01
 gf_categories:
 - ものづくりについて
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田在生日这天聊起灵感从何而来，还分享了自己在不同场合想到点子的比例。
+gf_translation_title: 【开发日记】灵感诞生的地方
+gf_translation_summary: 增田在生日这天聊起灵感从何而来，还分享了自己在不同场合想到点子的比例。
 search: true
 source:
   title: 増田部長のめざめるパワー 第157回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-157
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,45 +38,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-今天是增田的生日！
+今天是我的生日！
 
-所以，来聊聊想法诞生时的事。
+所以，今天就来聊聊灵感诞生的那一刻。
 
-Hello, Idea
+你好，灵感
 
-这是FRISK的电视广告。
+这是 FRISK 的电视广告。
 
-你看过吗？
+大家看过吗？
 
-是非常棒的广告呢。我很喜欢。
+真的是非常棒的广告。我很喜欢。
 
 大家都是在什么地方想到点子的呢？
 
-增田的话……
+我呢……
 
-电车　　30%
+电车　　30％
 
-浴室　　25%
+浴室　　25％
 
-会议室　15%
+会议室　15％
 
-床　　　10%
+床　　　10％
 
-发邮件时　9%
+写邮件时　9％
 
-散步时　　5%
+散步时　　5％
 
-上网冲浪　3%
+上网冲浪　3％
 
-飞机上　　2%
+飞机　　　2％
 
-厕所　　　1%
+厕所　　　1％
 
-机场　　　0%
+机场　　　0％
 
-意外的是，在会议室里也会产生想法。
+没想到，点子还挺常在会议室里诞生的。
 
-这大概正是我们做创作工作的会议所特有的吧。
+这大概就是只有在我们这种做东西的会议上才会有的情况吧。
 
 那么！
 

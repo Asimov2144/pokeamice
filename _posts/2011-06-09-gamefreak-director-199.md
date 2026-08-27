@@ -14,42 +14,43 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 199
-gf_entry_title: 今日もＥ３に。
+gf_entry_title: 【活动见闻】2011年 E3现场探索
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一漫步 E3，探访周边设备、赛车游戏与雅达利展台，感受新技术和行业交流带来的刺激。
+gf_translation_title: 【活动见闻】2011年 E3现场探索
+gf_translation_summary: 增田顺一漫步 E3，探访周边设备、赛车游戏与雅达利展台，感受新技术和行业交流带来的刺激。
 search: true
 source:
   title: 増田部長のめざめるパワー 第199回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-199
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets:
 - 大电视
-- 电视机
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-今天也去了E3。
+今天也来到 E3。
 
-果然入口处有坦克（笑）！
+果然，入口处还是有坦克（笑）！
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199a.jpg" alt="" loading="lazy">
 
-然后，，，参观完主要场所之后，，，
+然后……参观完主要场所之后……
 
-探索周边设备。意外地从以前就喜欢呢。
+开始探索周边设备。其实我从很久以前就喜欢这些东西。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199b.jpg" alt="" loading="lazy">
 
-哦——，想要这样的放在家里（笑）！
+哦——这种东西真想家里也有一台（笑）！
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199c.jpg" alt="" loading="lazy">
 
@@ -57,83 +58,83 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199d.jpg" alt="" loading="lazy">
 
-最喜欢的兰博基尼竟然有这么多。。。
+我最喜欢的兰博基尼，居然有这么多……
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199e.jpg" alt="" loading="lazy">
 
-座椅也是！
+连座椅也是！
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199f.jpg" alt="" loading="lazy">
 
-太厉害了。。。真的，好厉害！
+太棒了……真的，太厉害了！
 
-在别的地方有穹顶屏幕。
+另一个地方还有穹顶形的屏幕。
 
-180度影像展开。
+影像会以 180 度展开。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199g.jpg" alt="" loading="lazy">
 
-这个也很厉害！
+这个也好厉害！
 
-发现！三屏幕的赛车游戏。
+发现了！三屏赛车游戏。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199h.jpg" alt="" loading="lazy">
 
-啊，这边也有。
+啊，那边也有一台。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199i.jpg" alt="" loading="lazy">
 
-哎呀呀，这里也有。。。每家一台，怎么样？
+哎呀，这里也有……一家一台，您觉得如何？
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199j.jpg" alt="" loading="lazy">
 
-然后，，，
+然后……
 
 找到了找到了。Vita。找到了！
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199k.jpg" alt="" loading="lazy">
 
-想做出有趣的游戏啊。。。
+真想做点让人开心的游戏啊……
 
-1972年创立世界首家商业游戏公司的雅达利。
+1972 年创立了世界上第一家商业游戏公司的雅达利。
 
-摆放着机台。
+现场还摆放着街机机台。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199l.jpg" alt="" loading="lazy">
 
-鲤——鱼——旗——♪
+鲤鱼旗♪
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199m.jpg" alt="" loading="lazy">
 
-嗯，好雄伟的体型。这个看起来赢不了啊。嗯。
+嗯——身材真魁梧。看来我是赢不了了。嗯。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199n.jpg" alt="" loading="lazy">
 
-好可怕啊——。
+好吓人啊——。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199o.jpg" alt="" loading="lazy">
 
-活动设备好厉害。好可怕。
+活动设施真厉害。好吓人。
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199p.jpg" alt="" loading="lazy">
 
-很多电视游戏。
+大量的电视机游戏。
 
-看点也很多。该学习的地方也很多。
+有很多值得一看的地方，也有很多值得学习的地方。
 
-受到了刺激。
+让我受到了刺激。
 
-这样业界之间互相切磋琢磨，
+通过行业之间这样相互切磋，
 
-希望能通向未来，这样祈祷着离开了今年的E3。
+能够通向未来——我怀着这样的愿望，离开了今年的 E3。
 
-哎呀，游戏真是最棒的娱乐啊！！
+哎呀，游戏真是最棒的娱乐！
 
-那么！
+那么，再见！
 
 <img src="/assets/images/gamefreak-director/archive/199/ja/199q.jpg" alt="" loading="lazy">
 
-Ciao！！
+拜拜！！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

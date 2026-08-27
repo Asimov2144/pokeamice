@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 186
-gf_entry_title: マスダ＠サンフランシスコ最終日です。
+gf_entry_title: 【开发日记】2011年北美媒体采访
 gf_archive: 2011-02
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一结束北美两天媒体采访，分享各地对3月发售的期待，也记录了旧金山的街景与阴冷天气。
+gf_translation_title: 【开发日记】2011年北美媒体采访
+gf_translation_summary: 增田顺一结束北美两天媒体采访，分享各地对3月发售的期待，也记录了旧金山的街景与阴冷天气。
 search: true
 source:
   title: 増田部長のめざめるパワー 第186回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-186
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,43 +37,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-增田＠旧金山最后一天。
+我在旧金山的最后一天。
 
-结束了在北美的两天媒体采访。
+结束了在北美为期两天的媒体采访。
 
-大概有12家左右吧。
+大约有12家公司吧。
 
-果然很辛苦，但是……
+确实挺辛苦的，不过……
 
-有人用日语跟我说话，有人说喜欢日本，
+有人用日语和我交谈，也有人说自己喜欢日本，
 
-有人说非常喜欢宝可梦。
+还有人说自己非常喜欢宝可梦。
 
-都非常友好，我很开心。
+大家都非常友好，交流得很愉快。
 
-而且最重要的是，大家都在期待3月6日！
+而且最重要的是，大家都很期待3月6日！
 
-3月4日欧洲，3月6日北美。
+3月4日的欧洲，3月6日的北美。
 
 气氛越来越热烈了！！
 
 那么，我要回日本了。
 
-Ciao！
+再见！
 
 <img src="/assets/images/gamefreak-director/archive/186/ja/20110217_01.jpg" alt="" loading="lazy">
 
-在GameStop，有巨大的海报、巨大的包装盒，还有黑白的气球，气氛很热烈！
+GameStop里有巨大的海报、巨大的包装盒，还有黑白气球，现场气氛非常热烈！
 
-……啊，捷克罗姆藏在增田后面（笑）
+……啊，捷克罗姆被我挡住了（笑）
 
 <img src="/assets/images/gamefreak-director/archive/186/ja/20110217_02.jpg" alt="" loading="lazy">
 
-说到旧金山，就是有轨电车。正在转车台上旋转！
+说到旧金山，就不得不提有轨电车。现在正在转盘上旋转！
 
 <img src="/assets/images/gamefreak-director/archive/186/ja/20110217_03.jpg" alt="" loading="lazy">
 
-从酒店房间看到的景色。除了第一天以外，一直都是这样阴天……而且很冷！
+从酒店房间看到的景色。除了第一天以外，一直都是这种阴天……而且还很冷！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

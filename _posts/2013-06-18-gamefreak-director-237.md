@@ -14,20 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 237
-gf_entry_title: 日本語から各国語へ翻訳するローカライズという作業。 そのローカライズの方法、組織の組み立て直し。 関係各社さん、ほか多くの方々の協力を得て、
-  約７年をかけて、ついに達成することができました。
+gf_entry_title: 【开发日记】2013年宝可梦全球同步发售
 gf_archive: 2013-06
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 历经约七年，宝可梦本地化工作终于完成，X·Y将于全球同日发售，让全世界玩家共同体验发现未知的兴奋。
+gf_translation_title: 【开发日记】2013年宝可梦全球同步发售
+gf_translation_summary: 历经约七年，宝可梦本地化工作终于完成，X·Y将于全球同日发售，让全世界玩家共同体验发现未知的兴奋。
 search: true
 source:
   title: 増田部長のめざめるパワー 第237回
   url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-237
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-从日语翻译成各国语言的本地化工作。
+将日语翻译成各国语言的本地化工作。
 
-重新构建本地化的方法、组织结构。
+重新构建本地化的方法和组织架构。
 
-在相关各公司以及许多其他人士的协助下，
+在相关各家公司以及许多人的协助下，
 
-历时约7年，终于得以实现。
-
-<p class="gf-director-spacer"></p>
-
-全世界同步发售。
+历时约7年，我们终于完成了这项工作。
 
 <p class="gf-director-spacer"></p>
 
-也许看起来很简单，
+全球同步发售。
 
-但考虑到文本、各种名称、设定的繁多，以及存在世界通用名称等因素，
+<p class="gf-director-spacer"></p>
 
-对于RPG的宝可梦来说，
+这或许听起来很简单，
 
-没有众多相关人士的创意，是无法实现的。
+但对于宝可梦这款RPG来说，文本、各种名称、设定数量之多，以及全球统一名称的存在，
+
+如果没有参与其中的众多人士所付出的创意与努力，
+
+是绝不可能完成的。
 
 日语，
 
-变成了英语、法语、意大利语、德语、西班牙语、韩语。
+逐渐变成英语、法语、意大利语、德语、西班牙语和韩语。
 
 剧本、名称、设定、本地化，
 
-参与这些工作的人们，想必真的非常辛苦。
+参与其中的每一位，真的都辛苦了。
 
-他们完成了一项非常出色的工作。
+大家完成了一项真正出色的工作。
 
 然后。
 
@@ -76,21 +77,21 @@ glossary_missing_targets: []
 
 <p class="gf-director-spacer"></p>
 
-《宝可梦 X·Y》将在全球同步发售。
+《宝可梦X·Y》将于全球同步发售。
 
-将在世界各地同日发售。
+也就是说，全世界都会在同一天发售。
 
-例如，在钓鱼时，
+比如说，你去钓鱼，
 
-钓上一条谁都没见过的鱼，
+钓上来一条谁都没见过的鱼，
 
-即使上网搜索也查不到，
+就算上网搜索也查不到，
 
-心中既紧张又兴奋。
+心里既紧张又兴奋。
 
-希望全世界的人们都能体会到这种心情。
+我希望全世界的人都能体会到这样的心情。
 
-这个愿望，终于快要实现了。
+这个愿望，终于有望实现了。
 
 这将是一个伟大梦想的实现。
 

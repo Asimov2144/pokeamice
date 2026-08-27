@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 97
-gf_entry_title: 北米でポケモンファン向けの交換キャンペーンが開始されました！
+gf_entry_title: 【活动】2007年北美宝可梦交换
 gf_archive: 2007-08
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK以可达鸭交换北美的小火马，增田顺一还亲自用英语录制访谈视频，分享这次面向宝可梦粉丝的特别活动。
+gf_translation_title: 【活动】2007年北美宝可梦交换
+gf_translation_summary: GAME FREAK以可达鸭交换北美的小火马，增田顺一还亲自用英语录制访谈视频，分享这次面向宝可梦粉丝的特别活动。
 search: true
 source:
   title: 増田部長のめざめるパワー 第97回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-097
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,37 +38,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在北美，面向宝可梦粉丝的交换活动已经开始了！
+北美面向宝可梦粉丝的交换活动开始了！
 
-这是将 GAME FREAK 的 3 只可达鸭（Psyduck）与
+这是用 GAME FREAK 三个人的可达鸭（Psyduck）
 
-北美玩家的小火马（Ponyta）进行交换的活动。
+和北美人们的小火马（Ponyta）进行交换的活动。
 
-在 View Interview Video 中，
+在“View Interview Video”中，
 
-我害羞地说了英语。（视线……）
+我不好意思地用英语说了起来。（视线啊……）
 
-最初是打算用日语说然后配上字幕的，
+一开始原本打算用日语说，再配上字幕，
 
-但那边的孩子们很少看字幕，
+但那边的孩子们很少会读字幕，
 
-而且觉得如果因为字幕而让内容显得难懂就不好了，
+而且我也不希望字幕反而让他们觉得难懂，
 
-同时也希望热情和真实感能传达给孩子们……
+所以想着，如果连热情和真实感也能一起传达给孩子们就好了……
 
-于是临时决定，全部用英语来说！
+于是临时决定，全部用英语！来讲。
 
-我练习了相当多哦……
+我可是相当认真地练习了哦……
 
-因为老师耐心地教了我很多次，
+因为请老师耐心地教了我很多遍，
 
-所以似乎总算达到了孩子们也能听懂的英语水平。
+现在的英语似乎已经达到了“孩子们应该也能听懂”的程度。
 
 太好了太好了……
 
-那么。
+那么，再见。
 
-【NOA 官方网站：Pokemon-games】
+【NOA官方网站：Pokemon-games】
 
 [http://www.pokemon-games.com/portal/gamenews.jsp](http://www.pokemon-games.com/portal/gamenews.jsp)
 

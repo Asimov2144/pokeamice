@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 137
-gf_entry_title: 「あくび」のピカチュウ！
+gf_entry_title: 【活动日记】睡觉皮卡丘庆典
 gf_archive: 2009-02
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田介绍宝可梦中心举办的睡觉皮卡丘庆典，以及能学会哈欠的皮卡丘配信活动和可爱手办。
+gf_translation_title: 【活动日记】睡觉皮卡丘庆典
+gf_translation_summary: 增田介绍宝可梦中心举办的睡觉皮卡丘庆典，以及能学会哈欠的皮卡丘配信活动和可爱手办。
 search: true
 source:
   title: 増田部長のめざめるパワー 第137回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-137
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets: []
 ---
@@ -36,39 +38,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-「哈欠」的皮卡丘！
+大家知道“睡觉皮卡丘”吗？
 
-大家，知道瞌睡皮卡丘吗？
+其实现在，所有宝可梦中心都在举办“睡觉皮卡丘庆典”！
 
-其实现在，宝可梦中心所有店铺正在举办「瞌睡皮卡丘祭」！
+而且在3月15日（星期日）之前，还会把学会“哈欠”的“皮卡丘”赠送到《钻石》《珍珠》《白金》中的任意一款游戏里！
 
-而且，到3月15日（周日）为止，会把学会了「哈欠」的「皮卡丘」
-
-赠送给钻石·珍珠·白金中的任意一个版本！
-
-然后这就是，在宝可梦中心可以买到的「瞌睡皮卡丘」手办！
+这就是可以在宝可梦中心买到的“睡觉皮卡丘”手办！
 
 <img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_01.jpg" alt="" loading="lazy">
 
-用手哄它睡觉的样子。。。
+试着用手哄它入睡……
 
 <img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_02.jpg" alt="" loading="lazy">
 
-一起睡觉的样子。。。
+试着和它一起睡……
 
 <img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_03.jpg" alt="" loading="lazy">
 
-在松软的草原上睡觉的样子、、、、、、、、、、、、、、
+在松软的草原上睡觉………………
 
 <img src="/assets/images/gamefreak-director/archive/137/multi/mz090216_04.jpg" alt="" loading="lazy">
 
-啊，不对！　是睡在谢米身上！
+啊，不对！是睡在谢米身上！
 
-试着在各种地方睡觉的话会很可爱哦ー。
+把它放在各种地方睡觉，会很可爱哦。
 
 大家也一定要试试看哦！！
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 214
-gf_entry_title: 増田順一、 Twitter 始めました！
+gf_entry_title: 【公告】武德开通 Twitter
 gf_archive: 2011-10
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 武德宣布开始使用 Twitter，邀请大家关注自己的账号，也请继续支持他的专栏。
+gf_translation_title: 【公告】武德开通 Twitter
+gf_translation_summary: 武德宣布开始使用 Twitter，邀请大家关注自己的账号，也请继续支持他的专栏。
 search: true
 source:
   title: 増田部長のめざめるパワー 第214回
   url: https://www.gamefreak.co.jp/blog/dir/2011/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-214
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 武德
@@ -36,13 +38,11 @@ glossary_missing_targets:
 
 ## 中文译文
 
-増田順一，[Twitter](http://twitter.com/Junichi_Masuda)开通了！
+大家，请关注我！
 
-请大家多多关注！
+专栏和 Twitter，两个都请大家多多支持！
 
-专栏和Twitter，双重支持拜托了！
-
-Ciao！
+再见！
 
 [http://twitter.com/Junichi_Masuda](http://twitter.com/Junichi_Masuda)
 

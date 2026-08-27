@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 23
-gf_entry_title: 本日、ＣＥＳＡ　ＧＡＭＥ　ＡＷＡＲＤＳの発表授賞式に行って来ました。 ありがたいことに、「優秀賞」と「ベストセールス賞」の２つをいただきました。
+gf_entry_title: 【开发日记】2004年 火红叶绿获奖
 gf_archive: 2004-10
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 火红、叶绿荣获优秀奖与最佳销售奖，增田顺一分享作品主题，并谈到对后续钻石、珍珠的期待。
+gf_translation_title: 【开发日记】2004年 火红叶绿获奖
+gf_translation_summary: 火红、叶绿荣获优秀奖与最佳销售奖，增田顺一分享作品主题，并谈到对后续钻石、珍珠的期待。
 search: true
 source:
   title: 増田部長のめざめるパワー 第23回
   url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-023
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,29 +37,29 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-本日，我前往参加了 CESA GAME AWARDS 的颁奖典礼。
+今天，我去参加了 CESA GAME AWARDS 的公布及颁奖典礼。
 
-非常荣幸，我们获得了「优秀奖」和「最佳销售奖」两个奖项。
+承蒙厚爱，我们获得了“优秀奖”和“最佳销售奖”两项荣誉。
 
-特别是最佳销售奖，意味着有很多人玩过我们的游戏，
+尤其是最佳销售奖，这意味着有许多人玩过这款作品，
 
-作为总监，这是我最感到高兴的奖项。
+所以这是作为导演让我最高兴的奖项。
 
-易于理解的游戏、利用无线功能的新玩法，这两个主题
+我觉得，这正是因为我们成功融入了“容易理解的游戏”和“利用无线通信的新玩法”
 
-能够很好地融入其中，我感到这正是成果的体现。
+这两个主题的结果。
 
-（我想这些主题对工作人员来说是个不小的负担，但他们努力完成了）
+（我想，这两个主题给工作人员带来了相当大的压力，不过大家都努力完成了）
 
-这款《火红》《叶绿》，
+我认为，《宝可梦 火红》和《宝可梦 叶绿》是
 
-我认为它们是下一作《钻石》《珍珠》的基础软件，
+为下一部作品《宝可梦 钻石》和《宝可梦 珍珠》奠定基础的作品，
 
-所以还没玩过的朋友，请务必尝试一下。
+所以还没有玩过的朋友，请务必要试试看哦。
 
-能够获得这样出色的奖项，
+这次能够获得如此优秀的奖项，
 
-全靠大家的支持，我由衷感谢。
+也要感谢一直支持我们的各位。
 
 谢谢大家！
 

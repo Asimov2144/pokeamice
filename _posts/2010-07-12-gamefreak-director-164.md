@@ -14,71 +14,72 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 164
-gf_entry_title: ７月１０日（土）今年も映画が始まりました！
+gf_entry_title: 【电影活动】2010年时拉比联动
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享观影和入手索罗亚克模型的经历，并介绍将时拉比带入新作后触发特殊事件、获得索罗亚的方法。
+gf_translation_title: 【电影活动】2010年时拉比联动
+gf_translation_summary: 增田顺一分享观影和入手索罗亚克模型的经历，并介绍将时拉比带入新作后触发特殊事件、获得索罗亚的方法。
 search: true
 source:
   title: 増田部長のめざめるパワー 第164回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-164
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
-glossary_missing_targets:
-- 小物件
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-7月10日（周六），今年的电影也开始了！
+今年的电影也上映了！
 
-增田也在上映当天去看了哦！
+我也在上映当天去看了哦！
 
-还拿到了索罗亚克的模型！
+还入手了索罗亚克的模型！
 
-这次，在影院发放的宝可梦是「时拉比」。
+这次在电影院配发的宝可梦是“时拉比”。
 
-可以从钻石·珍珠·白金·心金·魂银中的
+在钻石、珍珠、白金、心金、魂银中的
 
-任意一款游戏中获得。
+任意一款里都可以领取。
 
-「时拉比」是在金银中登场，游戏过程中不会出现的幻之宝可梦。
+“时拉比”是在金银中登场的、游玩过程中不会出现的幻之宝可梦。
 
-「时拉比」是以自然为主题的宝可梦，
+“时拉比”是一只以自然为主题的宝可梦，
 
-我们将其设定为：只要有美好的自然，它就会出现。
+设定上是只要有美丽的大自然，它就会现身。
 
-从影像的角度来看，为了阻止自然破坏而让它登场或许更有戏剧性，
+从影像表现上来说，为了阻止破坏自然而让它登场，应该会更有戏剧性，
 
-但为了遇见宝可梦而破坏自然，这种事我可不想做。
+但我不希望大家为了与宝可梦相遇而去破坏自然。
 
-那么，把这只「时拉比」带到《宝可梦 黑·白》中的话……
+那么，把这只“时拉比”带到《宝可梦 黑／白》中后……
 
-会触发特别事件，竟然能让索罗亚成为伙伴！！！！
+特殊事件就会触发，没想到索罗亚会成为伙伴！！！！
 
-即使游玩《宝可梦 黑·白》，索罗亚和索罗亚克也不会出现，
+即使游玩《宝可梦 黑／白》，索罗亚和索罗亚克也不会出现，
 
-所以请务必去看电影，获取时拉比吧！
+所以请一定要去看电影，领取时拉比哦！
 
-顺带一提，周日我去了东京宝可梦中心，
+顺带一提，星期天我去了宝可梦中心东京，
 
-去看10日开始发售的皮卡丘世界周边。
+看看从10日开始发售的皮卡丘世界小物件。
 
-店里全是皮卡丘！！
+店里到处都是皮卡丘！！
 
-超可爱～！非常火爆哦！
+大家都说“超级可爱呀！”现场非常热闹！
 
 再见！
 
 [http://www.pokemon.co.jp/gp/pokecen/tokyo/](http://www.pokemon.co.jp/gp/pokecen/tokyo/)
 
-[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)
+[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

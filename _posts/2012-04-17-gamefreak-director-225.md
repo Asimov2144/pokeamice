@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 225
-gf_entry_title: 『ポケットモンスターブラック２・ホワイト２』の発売日が ６月２３日（土）に決定し、予約もスタートしました！！！
+gf_entry_title: 【开发日记】宝可梦黑2白2即将发售
 gf_archive: 2012-04
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦黑2白2确定于6月23日发售并开启预订。增田介绍版本推荐、店铺特典，以及宝可梦中心限定赠品。
+gf_translation_title: 【开发日记】宝可梦黑2白2即将发售
+gf_translation_summary: 宝可梦黑2白2确定于6月23日发售并开启预订。增田介绍版本推荐、店铺特典，以及宝可梦中心限定赠品。
 search: true
 source:
   title: 増田部長のめざめるパワー 第225回
   url: https://www.gamefreak.co.jp/blog/dir/2012/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-225
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -36,57 +38,63 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-『宝可梦 黑２・白２』的发售日确定为
+《宝可梦 黑2·白2》的发售日
 
-６月２３日（周六），预约也已开始！！！
+确定为6月23日（星期六），现在也已经开始接受预订了！！！
 
-这是 DS 的软件，但也可以用 3DS 游玩！！
+虽然这是DS游戏，但在3DS上也能玩！！
 
-而且，虽然标题是「２」，
+另外，虽然标题里有“2”，
 
-没有玩过前作『宝可梦 黑・白』的人，
+但无论是没有玩过前作《宝可梦 黑·白》的人，
 
-第一次玩宝可梦的人，
+还是第一次玩宝可梦的人，
 
-当然，也能享受到乐趣！
+当然也都能玩得开心！
 
-这次，我向担任导演的海野君询问了
+这次担任总监的海野，
 
-「玩过黑版的人推荐哪个版本？」这个
+对于“玩过黑版的人，推荐哪个版本呢？”这个问题——
 
-在我的推特上也收到很多的问题，
+这是增田的推特上也经常有人问到的问题——
 
-他说：「玩过黑版的人，
+我去问了他，
 
-　玩黑２的话能感受到其中的差异，所以推荐！！」
+他是这么说的：
+
+“玩过黑版的人，
+
+　如果再玩黑2，就能体会到其中的不同，所以推荐黑2！！”
 
 不过，
 
-「两个版本都能享受，所以都推荐哦！」
+他也说：
 
-也这么说（笑）
+“因为两个版本都能玩得开心，所以两个都推荐哦！”
 
-这次，根据预约的店铺不同，特典也会有所不同，
+（笑）
 
-在意的人请查看经销店！
+这次根据预订的店铺不同，特典好像也会有所区别，
+
+感兴趣的话，请去确认一下经销店的信息吧！
 
 [http://www.pokemon.co.jp/ex/b2w2_reserve/](http://www.pokemon.co.jp/ex/b2w2_reserve/)
 
-啊，顺便说一下，在宝可梦中心同时预约两套的话，
+啊，顺便一提，如果在宝可梦中心同时预订两款游戏，
 
-会附赠 GAME FREAK 的井部先生绘制的插图哦。
+还会附赠 GAME FREAK 的井部先生亲自绘制的新插画哦。
 
-工作人员全力创作的，
+工作人员倾尽全力制作的
 
-「宝可梦 黑２・白２」
+《宝可梦 黑2·白2》，
 
-很快就能送到大家手中！！
+马上就能送到大家手中了！！
 
 敬请期待！！
 
-Ciao！
+再见啦！
 
-「宝可梦 黑２・白２」官方网站
+《宝可梦 黑2·白2》官方网站
 
 [http://www.pokemon.co.jp/ex/b2w2/?a001=msign](http://www.pokemon.co.jp/ex/b2w2/?a001=msign)
 

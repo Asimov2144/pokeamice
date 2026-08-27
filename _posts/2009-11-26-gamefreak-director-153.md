@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 153
-gf_entry_title: ２００９年１１月２０日（金）午後１１時３０分。 東京都渋谷区、渋谷駅前。 スクランブル交差点にある４つの巨大ビジョンに映像が流れた。
+gf_entry_title: 【开发日记】宝可梦金银十周年影像
 gf_archive: 2009-11
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 涩谷街头四块巨型屏幕同步播放宝可梦金银十周年纪念影像，增田亲自前往观看，并介绍梦幻配信活动。
+gf_translation_title: 【开发日记】宝可梦金银十周年影像
+gf_translation_summary: 涩谷街头四块巨型屏幕同步播放宝可梦金银十周年纪念影像，增田亲自前往观看，并介绍梦幻配信活动。
 search: true
 source:
   title: 増田部長のめざめるパワー 第153回
   url: https://www.gamefreak.co.jp/blog/dir/2009/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-153
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,35 +37,33 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-２００９年１１月２０日（星期五）晚上１１点３０分。
-
 东京都涩谷区，涩谷站前。
 
-在十字路口的四块巨大屏幕上，影像播放了。
+涩谷十字路口的四块巨型屏幕上播放了影像。
 
-没错，第二天２１日，就是《宝可梦 金·银》发售１０周年的日子。
+没错，第二天的21日，就是《宝可梦 金·银》发售满10周年的日子。
 
-那时的纪念影像就是这个！
+当时播放的纪念影像就是这个！
 
 [http://www.youtube.com/watch?v=M4xQj4WfUgI](http://www.youtube.com/watch?v=M4xQj4WfUgI)
 
-增田也去看了这段影像。
+我也去看了这段影像。
 
-不知怎的，怀念感和以超大音量播放的自己的曲子，
+那种怀旧感，还有自己的曲子以大音量播放出来，
 
-让我有点开心，也很感动。
+让我觉得有点开心，也十分感动。
 
-从２０１０年１月２９日起，
+从2010年1月29日开始，
 
-面向「钻石·珍珠·白金·心金·魂银」
+面向《宝可梦 钻石·珍珠·白金·心金·魂银》，
 
-幻之宝可梦梦幻的配信也会进行，
+还会进行梦幻的配信，
 
-请大家一定要去获取哦！
+所以大家也一定要获得它哦！
 
-Ciao！
+再见！
 
-附赠
+附赠内容
 
 [http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)
 
@@ -73,7 +73,7 @@ Ciao！
 
 <img src="/assets/images/gamefreak-director/archive/153/ja/091126.jpg" alt="" loading="lazy">
 
-Peace！！
+和平！！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

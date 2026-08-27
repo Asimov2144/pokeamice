@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 211
-gf_entry_title: ９月１９日（月）１日中、名古屋にいました。
+gf_entry_title: 【音乐随笔】2011年游戏音乐现场
 gf_archive: 2011-09
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一前往名古屋参加游戏音乐音乐会，感叹精彩演出，也遗憾没能充分聊到宝可梦15周年和《黑／白》一周年。
+gf_translation_title: 【音乐随笔】2011年游戏音乐现场
+gf_translation_summary: 增田顺一前往名古屋参加游戏音乐音乐会，感叹精彩演出，也遗憾没能充分聊到宝可梦15周年和《黑／白》一周年。
 search: true
 source:
   title: 増田部長のめざめるパワー 第211回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-211
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,51 +38,51 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-9月19日（周一）一整天，我都在名古屋。
+9月19日（星期一），我一整天都在名古屋。
 
-要说为什么的话……
+之所以会在那里，是因为……
 
-我去参加了法米通主办的「PRESS START 2011」
+我去参加了 Fami通 Presents「PRESS START 2011」这场
 
 游戏音乐古典音乐会！
 
-然后……
+然后呢……
 
-我原本预定要在舞台上讲话的，但是……
+本来还要在舞台上讲话的……
 
-可能是因为时间关系，
+也许是因为时间关系……
 
-关于宝可梦的话题只讲了一点点……
+结果只能稍微讲了几句宝可梦的事……
 
-哎呀，15周年啊，昨天还是BW一周年啊……
+哎呀，像是15周年，还有昨天正好是《黑／白》一周年……
 
-明明有好多想说的（哭）
+明明有好多想说的话（哭）
 
-不过，但是，
+不过呢，
 
-这是一场充分展现游戏音乐魅力的好音乐会！
+这确实是一场充分展现了游戏音乐魅力的精彩音乐会！
 
-哎呀，音乐真是好啊。
+哎呀，音乐真是美好啊。
 
-个人来说，被《淘金者》、《沙罗曼蛇》、《最终幻想4》感动了……
+就我个人而言，《吃豆人》《宇宙巡航机》、FF4都让我很感动……
 
 太厉害了。
 
-啊，当然，宝可梦也很感动。
+啊，当然，宝可梦也让我很感动。
 
-编曲是我们的工作人员，影山。
+编曲是我们这边的工作人员，かげやん。
 
-感觉很好~。
+感觉不错～
 
 回去的时候吃了鸡翅。
 
-这个也是，感觉很好~。
+这个也感觉不错～
 
 穿着舞台用的西装。在后台。
 
 <img src="/assets/images/gamefreak-director/archive/211/multi/211a.jpg" alt="" loading="lazy">
 
-增田和影山。
+我和かげやん。
 
 <img src="/assets/images/gamefreak-director/archive/211/multi/211b.jpg" alt="" loading="lazy">
 
@@ -88,7 +90,7 @@ glossary_missing_targets: []
 
 [http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)
 
-Ciao！
+拜拜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

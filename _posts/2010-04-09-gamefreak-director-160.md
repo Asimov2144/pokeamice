@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 160
-gf_entry_title: ２０１０年４月９日。 ついに私たちが開発している完全新作のタイトルが広報されました！
+gf_entry_title: 【开发日记】宝可梦黑白正式公布
 gf_archive: 2010-04
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享全新宝可梦作品的开发心情，希望让老玩家、新玩家以及“毕业”的玩家都能从中获得乐趣。
+gf_translation_title: 【开发日记】宝可梦黑白正式公布
+gf_translation_summary: 增田顺一分享全新宝可梦作品的开发心情，希望让老玩家、新玩家以及“毕业”的玩家都能从中获得乐趣。
 search: true
 source:
   title: 増田部長のめざめるパワー 第160回
   url: https://www.gamefreak.co.jp/blog/dir/2010/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-160
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,33 +38,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-２０１０年４月９日。
+终于，我们正在开发的全新作品公布了正式名称！
 
-我们开发的完全新作终于正式公开了！
+“宝可梦黑”
 
-「宝可梦 黑」
+“宝可梦白”
 
-「宝可梦 白」
+为了哪怕只提升一点点品质，
 
-为了哪怕能稍微提高一点品质，
+我们现在正把大量时间投入到这部作品中。
 
-我们现在将大量时间投入到了这部作品中。
+希望让一直以来支持我们的各位更加开心。
 
-为了让至今为止享受过乐趣的各位能更加开心。
+希望让从未玩过宝可梦的人也能满意。
 
-为了让没有玩过的人也能感到满足。
+而这一次，我们也希望献给那些觉得自己已经从宝可梦毕业了的各位。
 
-而且这次，也为了那些认为自己已经毕业了的人们。
+希望能让更多的人享受到乐趣。
 
-希望更多的人能享受其中。
+我们正怀着这样的心情进行制作。
 
-我们带着这样的想法进行制作。
-
-通过这部作品，宝可梦将迎来革新性的重生。
+宝可梦将通过这部作品，以革新的姿态重获新生。
 
 敬请期待。
 
-再见。
+那么，拜拜。
 
 [http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 

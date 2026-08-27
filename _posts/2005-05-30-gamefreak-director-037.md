@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 37
-gf_entry_title: 先週LAで行われた、E3に行ってきました！
+gf_entry_title: 【开发日记】2005年 E3见闻
 gf_archive: 2005-05
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享在洛杉矶 E3 的见闻，并思考新硬件竞争与游戏未来应当走向多元发展的可能性。
+gf_translation_title: 【开发日记】2005年 E3见闻
+gf_translation_summary: 增田分享在洛杉矶 E3 的见闻，并思考新硬件竞争与游戏未来应当走向多元发展的可能性。
 search: true
 source:
   title: 増田部長のめざめるパワー 第37回
   url: https://www.gamefreak.co.jp/blog/dir/2005/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-037
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-我去了上周在洛杉矶举办的E3！
+上周我去了在洛杉矶举行的 E3！
 
-在被巨大展厅里陈列的众多游戏所震撼的同时，
+看着巨大展馆里陈列的各种游戏，我被那场面彻底震撼了，
 
-感受到了Revolution、XBOX360、PS3等新主机竞争的激烈，
+同时也从 Revolution、XBOX360、PS3 等新硬件上感受到了竞争的激烈，
 
-一边祈祷游戏的未来不要仅仅被主机的技术能力所束缚，
+我一边祈愿着游戏的未来不要只被硬件的技术实力所束缚！
 
-一边慢慢享受了会场。
+一边慢慢享受了整个会场。
 
-游戏越是普及，
+我觉得，游戏越是变得普及，
 
-从被画面吸引的用户，到被趣味性吸引的用户，
+用户就越会从被画面吸引的人，到被趣味性吸引的人，
 
-向多方面分化并广泛扩展，我认为这是好事。
+朝着多个方向分化，并且越来越广泛地发展，这是一件好事。
 
-只是，
+不过，
 
-硬件也同样希望既有高规格的，
+硬件也应该一样，既有高规格的产品，
 
-也有低规格但容易制作、容易游玩的，
+也有规格较低，却能轻松制作、轻松游玩的产品——
 
-向多方面发展。
+我希望它能朝着多个方向发展，对吧。
 
 否则，
 
-就会难以制作出具有新游戏性的作品，
+就会越来越难做出让人感受到新游戏性的作品，
 
-最终只会剩下模拟类游戏了。
+最后只会变成清一色的模拟类游戏了。
 
-毕竟，追求游戏性并加以简化的话，
+毕竟，越是追求游戏性，把游戏做得简单，
 
-硬件的性能就关系不大了。
+硬件性能其实就没那么重要了。
 
-那么。
+那就先这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

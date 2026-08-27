@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 197
-gf_entry_title: ６月６日（月）、東京発のN’EXに乗りました！ このフェイス。アップだとより一層、力強さが伝わりますよね。 かっちょええ。。。
+gf_entry_title: 【旅行日记】2011年洛杉矶之行
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 记录从东京乘车前往洛杉矶参加E3的旅程，初到当地便感受到与日本截然不同的空气、道路与海岸风情。
+gf_translation_title: 【旅行日记】2011年洛杉矶之行
+gf_translation_summary: 记录从东京乘车前往洛杉矶参加E3的旅程，初到当地便感受到与日本截然不同的空气、道路与海岸风情。
 search: true
 source:
   title: 増田部長のめざめるパワー 第197回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-197
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -35,91 +37,91 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-６月６日（周一），我乘坐了从东京出发的N'EX！
+6月6日（周一），我乘坐了从东京出发的N’EX！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197a.jpg" alt="" loading="lazy">
 
-这个表情。特写的话，更能传达出力量感吧。
+这个车头，近距离看更能感受到它的力量感，对吧。
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197b.jpg" alt="" loading="lazy">
 
-好帅啊。。。
+真帅……
 
-啊，，对了，为什么坐N'EX呢，，，
+啊，说起来，我为什么要乘坐N’EX呢……
 
-没错，是去参加在洛杉矶举办的E3！
+没错，我要去洛杉矶参加在那里举办的E3！
 
-首先，从东京坐N'EX到成田大约1小时。
+首先，从东京乘坐N’EX到成田，大约需要1小时。
 
-从成田机场坐傍晚的飞机，大约10小时的飞行。
+再从成田机场搭乘傍晚起飞的飞机，飞行时间大约10小时。
 
-日本和LA有16小时（夏令时）的时差，，，
+日本和洛杉矶有16小时（夏令时）的时差……
 
-到达时是6日（周一）早上11点。
+抵达时是6日（周一）上午11点。
 
-重新过一遍6日（笑）
+又重新过了一遍6号（笑）
 
-出了机场就是LA！
+走出机场，眼前就是洛杉矶！
 
-空气、湿度、气味完全不同！！
+空气、湿度、气味，全都完全不同！！
 
-然后，坐出租车去酒店！
+然后，我们坐出租车前往酒店！
 
-（照片是从出租车拍向洛杉矶机场方向，增田抓拍的（笑））
+（这张照片是我在出租车上，朝洛杉矶机场方向抓拍的（笑））
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197c.jpg" alt="" loading="lazy">
 
-道路很宽！而且免费！！
+路好宽！而且还免费！！
 
-（但是路坑坑洼洼！也不下雨，是不想花钱修吗？）
+（不过路面坑坑洼洼的！这里也不下雨，难道不太花钱维修吗？）
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197d.jpg" alt="" loading="lazy">
 
-终于到酒店了！终于到了！
+终于到了酒店！总算到了！
 
-从增田房间的窗户！
+从我房间的窗户看出去！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197e.jpg" alt="" loading="lazy">
 
-虽然很困，，，但还是努力去圣莫尼卡！
+虽然困得不行……还是努力去了圣莫尼卡！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197f.jpg" alt="" loading="lazy">
 
-是大海—！！
+是大海——！！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197g.jpg" alt="" loading="lazy">
 
-是大海—！！！海和天空都很广阔！！
+是大海——！！海也宽广，天空也宽广！！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197h.jpg" alt="" loading="lazy">
 
-圣莫尼卡的游乐园！摩天轮转得好快！
+圣莫尼卡的游乐园！摩天轮转得特别快！
 
 <img src="/assets/images/gamefreak-director/archive/197/ja/197i.jpg" alt="" loading="lazy">
 
-也有游戏中心哦！
+那里还有游戏厅呢！
 
-摆放的游戏大多是狩猎类的！！
+摆放的游戏大多是狩猎题材的！！
 
-（日本和这里摆放的机台差异，是不是狩猎民族和农耕民族的差异呢。）
+（摆放的街机和日本有所不同，难道这就是狩猎民族与农耕民族的差别吗？）
 
-第一天之后，去了海鲜餐厅。
+第一天接下来，我们去了海鲜餐厅。
 
-肚子一饱，，，就困得不行。。。
+肚子一填饱……那叫一个困啊……
 
-就这样，仅仅简单比较日本和LA，
+就算像这样简单地比较一下日本和洛杉矶，
 
-就完全不同呢。
+也会发现两边完全不一样，对吧。
 
-虽然可以通过网络查各种资料、看图片，
+虽然可以在网上查各种资料、浏览各种图片，
 
-但果然还是用听觉、视觉、味觉、触觉、嗅觉这五种感官去感受当地的气息，
+但果然，能够实际来到当地，调动听觉、视觉、味觉、触觉和嗅觉这五种感官，
 
-这或许是只有真正去过的人才能享有的特权吧。
+去感受当地的空气，或许就是只有亲自来过的人才能享有的特权。
 
-请大家也趁着年轻多去旅行吧！！
+请大家也一定要趁年轻多去旅行！！
 
-Ciao！
+再会！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

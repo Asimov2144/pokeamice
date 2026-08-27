@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 8
-gf_entry_title: ひらめいた！
+gf_entry_title: 【开发日记】2004年游戏现场构想
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田畅想打造一个能试玩作品、与玩家交流、举办签名会并提供夜间酒饮的游戏现场空间。
+gf_translation_title: 【开发日记】2004年游戏现场构想
+gf_translation_summary: 增田畅想打造一个能试玩作品、与玩家交流、举办签名会并提供夜间酒饮的游戏现场空间。
 search: true
 source:
   title: 増田部長のめざめるパワー 第8回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-008
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -37,51 +39,51 @@ glossary_missing_targets: []
 
 灵光一闪！
 
-原本就非常喜欢音乐的增田，
+原本就非常喜欢音乐的我，
 
-但在游戏中总感觉缺少了什么。
+总觉得游戏里还缺了点什么！
 
 没错，
 
 就是现场感！
 
-创作游戏的人，需要现场感！
+对于创作游戏的人来说，需要现场感！
 
-怎么说呢，现在感觉就像只卖CD一样。
+怎么说呢，现在总有种只是在卖 CD 的感觉。
 
-我想很多创作者都有同感。
+我想，很多创作者应该都有这种感受。
 
-很难有实感。
+很难有切身感。
 
-也很难伴随创作作品的责任感。
+也很难感受到自己正在创作作品所肩负的责任。
 
 于是，我稍微想了想！
 
-・创造一个可以游玩的空间……
+・打造一个可以游玩的空间……
 
-・把GAME FREAK过去的作品全部陈列出来……
+・把 GAME FREAK 过去的作品全部摆出来……
 
-・可以尽情玩自己喜欢的游戏……
+・喜欢哪款游戏，就能尽情玩哪款……
 
-・创作者和用户能一起交流……
+・创作者和玩家可以一起聊天……
 
-・偶尔举办图形设计师的签名会……
+・偶尔还可以举办什么平面设计师签名会……
 
-・晚上当然还有能喝酒的空间……
+・到了晚上，当然还要有可以喝酒的空间……
 
 哦！
 
-感觉挺不错的。
+感觉还挺不错的。
 
-像这样，全体员工都能体验现场感和一体的地方。
+就是这样一个能让全体员工一起感受现场感和一体感的地方。
 
-真想打造这样一个地方。
+我真想打造这样的地方啊。
 
-虽然担心会不会有人来。
+不过，也不知道会不会有人来。
 
-希望有一天能实现！！！
+总有一天一定要实现！！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

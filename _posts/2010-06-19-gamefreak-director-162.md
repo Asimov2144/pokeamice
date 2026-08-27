@@ -14,46 +14,47 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 162
-gf_entry_title: 真夏のような日差しの中、行ってきました！ 次世代ワールドホビーフェア！
+gf_entry_title: 【活动日记】2010年世界爱好者博览会
 gf_archive: 2010-06
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一前往次世代世界爱好者博览会，感受宝可梦舞台的热烈气氛，还与等身大的莱希拉姆、捷克罗姆兴奋合影。
+gf_translation_title: 【活动日记】2010年世界爱好者博览会
+gf_translation_summary: 增田顺一前往次世代世界爱好者博览会，感受宝可梦舞台的热烈气氛，还与等身大的莱希拉姆、捷克罗姆兴奋合影。
 search: true
 source:
   title: 増田部長のめざめるパワー 第162回
   url: https://www.gamefreak.co.jp/blog/dir/2010/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-162
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 小物件
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-在盛夏般的阳光中，我去了！
+在盛夏般的阳光下，我去参加了！
 
-次世代世界爱好展！
+次世代世界爱好者博览会！
 
-游戏＆爱好会场和周边会场分开了，
+也许是因为游戏与爱好者会场和小物件会场分开了，
 
-据说人比去年少了一些。
+听说来的人比去年少。
 
-尽管如此，会场依然热闹非凡！气氛热烈！
+即便如此，会场还是热闹非凡！现场的气氛真是火热！
 
-宝可梦展区的舞台也很热闹哦！
+宝可梦专区的舞台也一直气氛高涨哦！
 
-还有等身大的莱希拉姆和捷克罗姆，增田一个人就兴奋不已！
+还有等身大的莱希拉姆和捷克罗姆，让我一个人兴奋得不得了！
 
-还拿到了《宝可梦 黑·白》的垫板！这个也很帅气！
+我还拿到了《宝可梦 黑／白》的垫板！这个也很帅气！
 
-今年无论是电影还是游戏，宝可梦都会大展身手！！
+今年电影也好，游戏也好，宝可梦都会大干一场！！
 
 敬请期待！
 
@@ -61,15 +62,15 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/162/ja/162a.jpg" alt="" loading="lazy">
 
-作为宝可梦来说相当大的两人！
+这两位在宝可梦里算是相当大的家伙！
 
 <img src="/assets/images/gamefreak-director/archive/162/ja/162b.jpg" alt="" loading="lazy">
 
-捷克罗姆和增田！好想骑上这家伙！
+捷克罗姆和我！真想骑上这家伙啊——！
 
 <img src="/assets/images/gamefreak-director/archive/162/ja/162c.jpg" alt="" loading="lazy">
 
-宝可梦的舞台。气氛正嗨！
+宝可梦舞台。气氛正热闹着呢！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

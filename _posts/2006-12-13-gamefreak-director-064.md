@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 64
-gf_entry_title: ポケモンはっぴーバースデーコンサート無事すべて終わりました！
+gf_entry_title: 【活动记录】宝可梦生日音乐会落幕
 gf_archive: 2006-12
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 四地巡演在大雪中的北海道收官，增田顺一回顾与粉丝相聚、首次挑战的喜悦，并预告宝可梦仍将继续拓展。
+gf_translation_title: 【活动记录】宝可梦生日音乐会落幕
+gf_translation_summary: 四地巡演在大雪中的北海道收官，增田顺一回顾与粉丝相聚、首次挑战的喜悦，并预告宝可梦仍将继续拓展。
 search: true
 source:
   title: 増田部長のめざめるパワー 第64回
   url: https://www.gamefreak.co.jp/blog/dir/2006/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-064
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-宝可梦生日快乐音乐会全部顺利结束了！
+宝可梦快乐生日音乐会顺利全部结束了！
 
-来场的各位，真的非常感谢！
+真的非常感谢前来参加的各位！
 
-最后一场的北海道下了很大的雪，但是，
+最后一站北海道下了很大的雪，不过……
 
-还是有众多观众前来！
+还是有很多人来到了现场！
 
-这次，关都、城都、芳缘，以及最后的神奥，
+这次我们先后在关都、城都、丰缘，最后还有神奥，
 
-在全国四个地方举行，无论哪里都有很多人来，
+在全国四个地方举办了活动。每一处都有很多人前来，
 
-而且还能让大家敲响响板，真的很开心。真的。
+而且大家还一起打响板，我真的特别开心。真的。
 
-哎呀，第一次做的事情不习惯很辛苦，
+哎呀，第一次做这种事，实在很难习惯，也挺辛苦的，
 
-但作为新的挑战，这是一段收获颇丰、非常快乐的美好时光。
+但作为一次新的挑战，这是段收获满满、非常开心又美好的时光。
 
-最重要的是能见到粉丝们，这是最大的喜悦！
+不管怎么说，能够和各位粉丝见面，就是我最高兴的事！
 
-这场音乐会从始至终都让我自由地、甚至任性地去做，
+这场音乐会从头到尾都让我自由发挥……甚至任性地去做，
 
-虽然铭记着这样的幸福并不多见，
+我一边把“这样的幸福可不是随处都有啊……”牢记在心，
 
-但我还是想挑战一些新的事情。我是这么想的。
+一边又想着，我还想挑战一些新的事情啊。
 
-虽然在舞台上已经说过了，但再次说一遍！
+我在舞台上也说过，不过还是要再说一次！
 
-「今后宝可梦也会继续扩展。敬请期待！」
+“今后宝可梦也会继续不断拓展。请大家期待吧！”
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

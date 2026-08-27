@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 175
-gf_entry_title: 本日、「 ポケモンぴあ 」が発売になりました！！
+gf_entry_title: 【资讯】宝可梦书刊与特别节目预告
 gf_archive: 2010-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦主题书刊正式发售，皮卡丘、制作团队和我都有亮相；9月12日的特别节目还将带来最新消息。
+gf_translation_title: 【资讯】宝可梦书刊与特别节目预告
+gf_translation_summary: 宝可梦主题书刊正式发售，皮卡丘、制作团队和我都有亮相；9月12日的特别节目还将带来最新消息。
 search: true
 source:
   title: 増田部長のめざめるパワー 第175回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-175
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,35 +38,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-本日，「[ポケモンぴあ](http://piabook.com/shop/contents1/pokemon.aspx)」发售了！！
+今天，《[宝可梦ぴあ](http://piabook.com/shop/contents1/pokemon.aspx)》正式发售啦！！
 
-・AKB48的指原桑和北原桑也登场了！
+・AKB48的指原小姐和北原小姐都有精彩亮相！
 
-・黄色皮卡丘的封面是标志！
+・醒目的黄色皮卡丘封面！
 
-・还附赠皮卡丘耳机！
+・还附送皮卡丘耳机！
 
-・以杉森为首的图形工作人员也登场了！
+・以杉森为首的美术工作人员也有登场！
 
-・增田也登场了！
+・我也有登场！
 
-这本书还能了解宝可梦的历史！做得很好！
+这是一本连宝可梦历史都能了解到的书！做得非常棒！
 
-请大家务必购买！！
+请大家一定要买来看看！！
 
-然后，，，
+然后呢……
 
-后天，9月12日（周日）的宝可梦☆星期天，
+后天，也就是9月12日（周日）的《宝可梦☆星期天》里，
 
-增田会出演！！
+我也会出演！！
 
-是特别篇！
+是特别节目！
 
-应该也会有最新情报！
+应该还会公布最新消息！
 
-请务必观看！
+请大家一定要收看！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

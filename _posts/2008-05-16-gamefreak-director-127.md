@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 127
-gf_entry_title: みなさん、もうご存じかも知れませんが、
+gf_entry_title: 【开发日记】2008年宝可梦白金版公布
 gf_archive: 2008-05
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一宣布《宝可梦白金》将于2008年秋季发售，并介绍骑拉帝纳的起源形态与电影活动中的宝可梦。
+gf_translation_title: 【开发日记】2008年宝可梦白金版公布
+gf_translation_summary: 增田顺一宣布《宝可梦白金》将于2008年秋季发售，并介绍骑拉帝纳的起源形态与电影活动中的宝可梦。
 search: true
 source:
   title: 増田部長のめざめるパワー 第127回
   url: https://www.gamefreak.co.jp/blog/dir/2008/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-127
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 6
 glossary_missing_targets: []
 ---
@@ -40,27 +42,26 @@ glossary_missing_targets: []
 
 2008年，秋季。
 
-《宝可梦》系列最新作预定发售！
+《宝可梦》系列最新作品预计将在这个秋天发售！
 
-其名为，
+它的名字就是，
 
 《宝可梦 白金》
 
-可以看到在电影中活跃的骑拉帝纳的真实形态，起源形态。
+在电影中也大显身手的骑拉帝纳，将可以看到它真正的姿态——起源形态。
 
-※大家也请务必通过电影预售票获得雷吉奇卡斯，在电影院获得谢米，
+※也请大家务必通过电影预售票拿到雷吉奇卡斯，在电影院拿到谢米，
+然后试着把它们带到这部白金版里去吧！！
 
-然后把它们带到这款白金版中吧！！
+目前，GAME FREAK开发部正全队一心地投入制作。
 
-目前，GAME FREAK开发部正团结一心制作中。
+公司里到处都充满了无论如何也要做出好作品的干劲！
 
-公司内部充满了要创造出比什么都好的东西的气魄！
+为了哪怕再提升一点品质，我们还在继续努力哦！
 
-为了哪怕稍微提高一点品质，我们仍在努力！
+请大家满怀期待地等着吧！！
 
-敬请期待！
-
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

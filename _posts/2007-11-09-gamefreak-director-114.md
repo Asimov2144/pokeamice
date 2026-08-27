@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 114
-gf_entry_title: 増田＠ラスベガス最終日です。
+gf_entry_title: 【旅行日记】拉斯维加斯最后一天
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田在拉斯维加斯游览卢克索酒店，夜登高塔欣赏壮丽夜景，还体验了惊险刺激的游乐设施，明早将启程回日本。
+gf_translation_title: 【旅行日记】拉斯维加斯最后一天
+gf_translation_summary: 增田在拉斯维加斯游览卢克索酒店，夜登高塔欣赏壮丽夜景，还体验了惊险刺激的游乐设施，明早将启程回日本。
 search: true
 source:
   title: 増田部長のめざめるパワー 第114回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-114
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,37 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-増田＠拉斯维加斯最后一天。
+我在拉斯维加斯的最后一天。
 
-今天从金字塔型酒店卢克索开始！
+今天从金字塔形的酒店——卢克索酒店开始！
 
-哎呀，到处都是好玩的地方啊。拉斯维加斯。
+哎呀，拉斯维加斯真是到处都好玩啊。
 
-我觉得治安好能让人安心是很大的原因，
+我觉得这里治安很好，能让人安心待着，这一点很重要，
 
-酒店也全都很有个性，特产店也好，
+而且每家酒店都各具特色，土特产店也好，能租到兰博基尼的租车店也好，
 
-能租兰博基尼的租车行也好，都很有深度，很有趣。
+处处都很有意思，值得细细品味。
 
-就这样，今天走了一整天，累坏了，
+就这样，我今天一整天都在到处走，虽然累得够呛，
 
-但就在最后最后，刚才去了能一览拉斯维加斯的斯特拉托斯菲亚塔！！
+但在最后的最后，就在刚才，我去了可以将拉斯维加斯尽收眼底的平流层塔
 
-夜景超棒！
+！！
 
-超美，漂亮！！
+夜景棒极了！
 
-而且，尖叫机器也最强。。。
+超级漂亮，美极了！！
 
-难以置信。。。
+而且，那些惊险刺激的游乐设施也是强得离谱……
 
-然后现在22点30分回到了酒店！！
+太夸张了……
 
-明天要3点起床。。。能起得来吗！？敬请期待！
+然后，我现在在22点30分回到了酒店！！
 
-经由洛杉矶回日本！
+明天要凌晨3点起床……起得来吗！？敬请期待！
 
-那么。
+我要经由洛杉矶回日本！
+
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

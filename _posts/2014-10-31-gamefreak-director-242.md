@@ -14,25 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 242
-gf_entry_title: "めでたい！\r\n\r\n日本でも、日本ゲーム大賞にて、\r\n優秀賞、ベストセールス賞、グローバル賞を頂きましたが、\r\nイギリスでも！\r\
-  \n\r\nイギリスのゲーム業界のゲーム大賞授賞式、\r\nGolden Joystick Awards 2014が行われ、\r\nPokémon X, Pokémon\
-  \ Yがハンドヘルド（携帯機ゲーム）大賞に選ばれました！！\r\n\r\n世界で２番目に古い歴史あるゲームアワードでの賞。\r\nそして、ユーザー投票による賞。\r\
-  \n\r\n本当に、多くの方々にプレイして頂き、\r\nそして応援していただき、感謝の気持ちでいっぱいです。\r\n\r\n心から、ありがとう。\r\n\r\n\
-  そして、挑戦的で大変だった開発に携わったスタッフのみんな、\r\n全世界同時を成し遂げたローカライズスタッフのみんな、\r\n栄誉ある賞を頂いたよ！ この賞は、みなさんのものです。\r\
-  \n\r\nチャオ！"
+gf_entry_title: 【喜讯】2014年宝可梦获英国掌机大奖
 gf_archive: 2014-10
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦 X、Y 在英国金摇杆奖中获选掌机游戏大奖，增田顺一向玩家、工作人员和本地化团队表达由衷感谢。
+gf_translation_title: 【喜讯】2014年宝可梦获英国掌机大奖
+gf_translation_summary: 宝可梦 X、Y 在英国金摇杆奖中获选掌机游戏大奖，增田顺一向玩家、工作人员和本地化团队表达由衷感谢。
 search: true
 source:
   title: 増田部長のめざめるパワー 第242回
   url: https://www.gamefreak.co.jp/blog/dir/2014/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-242
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -41,27 +38,24 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-可喜可贺！
+在日本，我们获得了日本游戏大奖的优秀奖、最佳销量奖和全球奖，
+在英国也有好消息！
 
-在日本，我们获得了日本游戏大奖的
-优秀奖、最佳销量奖和全球奖，
-而在英国也！
+英国游戏业界的游戏大奖颁奖典礼——
+Golden Joystick Awards 2014 举行了，
+《宝可梦 X》《宝可梦 Y》被选为掌机游戏大奖得主！！
 
-英国游戏行业的游戏大奖颁奖典礼，
-Golden Joystick Awards 2014 举行，
-《宝可梦 X》和《宝可梦 Y》被选为掌机（便携式游戏机）大奖！！
+这是在世界上历史第二悠久的游戏大奖中获得的奖项。
+而且，还是由玩家投票选出的奖项。
 
-这是世界上历史第二悠久的游戏奖项。
-而且，是由用户投票选出的奖项。
+真的非常感谢这么多朋友游玩，
+也感谢大家一直以来的支持。
 
-真的，有这么多人游玩，
-并给予支持，我充满了感激之情。
+由衷地，谢谢大家。
 
-衷心感谢。
-
-还有，参与了这个充满挑战且艰难的开发的各位工作人员，
-实现了全球同步发行的本地化团队的各位，
-我们获得了这份荣誉奖项！
+还有参与了这次充满挑战、十分辛苦的开发工作的各位工作人员，
+以及实现全球同步发售的本地化团队的各位，
+我们拿到了一项极具荣誉的大奖哦！
 
 <img src="/assets/images/gamefreak-director/archive/242/multi/141031_01.jpg" alt="" loading="lazy">
 <img src="/assets/images/gamefreak-director/archive/242/multi/141031_02.jpg" alt="" loading="lazy">

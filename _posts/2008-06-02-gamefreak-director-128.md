@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 128
-gf_entry_title: 祝！テレビゲーム日米大会開催決定！
+gf_entry_title: 【赛事公告】2008年宝可梦美日对战大会
 gf_archive: 2008-06
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦钻石·珍珠美日对战大会确定举办，决战将在美国奥兰多举行，日本与美国的训练家都可报名参加。
+gf_translation_title: 【赛事公告】2008年宝可梦美日对战大会
+gf_translation_summary: 宝可梦钻石·珍珠美日对战大会确定举办，决战将在美国奥兰多举行，日本与美国的训练家都可报名参加。
 search: true
 source:
   title: 増田部長のめざめるパワー 第128回
   url: https://www.gamefreak.co.jp/blog/dir/2008/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-128
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,43 +38,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-祝！电视游戏日美大会决定举办！
-
-其名为，
+名字就是——
 
 Pokemon VIDEO GAME SHOWDOWN 2008！
 
-决战地点是美国佛罗里达州的奥兰多！
+决战地点在美国佛罗里达州的奥兰多！
 
-使用软件是钻石·珍珠。
+使用的游戏软件是《钻石／珍珠》。
 
-日本代表对战者，是去年在日本冠军决定战中交手的上位选手们。
+日本代表选手，是去年在日本第一争夺战中奋战过的各位顶尖选手。
 
-而在美国，现在正在招募参加者。
+而在美国，现在正在招募参赛者。
 
 官网在这里！
 
 [http://showdown.pokemon.com](http://showdown.pokemon.com)
 
-视频超酷！
+视频超级酷！
 
-而且到正式比赛为止的倒计时，也已经开始了！
+而且，距离正式比赛的倒计时也已经开始了！
 
-好激动啊。
+真让人心跳加速啊。
 
-美国的各位，请务必参加！！
+美国的各位，请务必来参加！！
 
-※如果能来参加预选（洛杉矶或纽约）和正式比赛的话，不论哪个国家的人都可以！
+※只要能参加预选赛（洛杉矶或纽约）和正式比赛，哪个国家的人都可以！
 
-这样一来，增田的又一个梦想实现了！
+这样一来，我的梦想又实现了一个！
 
-当然，增田也预定去奥兰多！
+当然，我也计划去奥兰多！
 
-非常期待！
+我真的特别期待！
 
-2008年，最强的训练师是谁！？
+2008年，最强的训练家究竟是谁！？
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

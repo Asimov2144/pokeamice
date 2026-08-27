@@ -14,22 +14,23 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 174
-gf_entry_title: ■今回は夏休み写真特集！
+gf_entry_title: 【开发日记】2010年夏日宝可梦巡游
 gf_archive: 2010-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田记录夏威夷世界赛、火山旅行、音乐活动与黑白相关工作，分享一个热闹而充实的宝可梦夏天。
+gf_translation_title: 【开发日记】2010年夏日宝可梦巡游
+gf_translation_summary: 增田记录夏威夷世界赛、火山旅行、音乐活动与黑白相关工作，分享一个热闹而充实的宝可梦夏天。
 search: true
 source:
   title: 増田部長のめざめるパワー 第174回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-174
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 7
 glossary_missing_targets:
-- 游乐项目
 - 拟态
 - 电视机
 ---
@@ -42,163 +43,163 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174a.jpg" alt="" loading="lazy">
 
-今年夏天，这个大会也非常热闹！
+今年夏天，这项赛事也同样气氛火热！
 
-8月13日到15日，
+8月13日至15日，
 
-宝可梦世界锦标赛（WCS）在夏威夷岛举办！
+宝可梦世界锦标赛（WCS）在夏威夷岛举行了！
 
-夏威夷岛是火山岛，像生物一样充满活力。。。
+夏威夷岛是一座火山岛，像生物一样充满生命力……
 
-全是熔岩！据说有两种熔岩。
+到处都是熔岩！听说还有两种不同的熔岩。
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174b.jpg" alt="" loading="lazy">
 
-从希尔顿酒店房间看到的景色！
+从希尔顿酒店房间望出去的景色！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174c.jpg" alt="" loading="lazy">
 
-和日本不同，湿度低，很舒服～！
+和日本不同，这里湿度低，舒服极了！
 
-好想快点游泳～！
+想赶快去游泳！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174d.jpg" alt="" loading="lazy">
 
-在巨大的酒店内移动靠这辆电车！
+在这座巨大的酒店里移动，要靠这辆电车！
 
-移动速度超慢（笑）
+移动速度实在太慢了（笑）
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174e.jpg" alt="" loading="lazy">
 
-WCS会场！巨大的皮卡丘，飘浮着皮卡丘！
+WCS会场！巨型皮卡丘，飘在空中啾！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174f.jpg" alt="" loading="lazy">
 
-和稍微有点腿长的皮卡丘合影！
+和一只腿稍微有点长的皮卡丘合影！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174g.jpg" alt="" loading="lazy">
 
-有空的日子环岛一周！
+趁着有时间，环游夏威夷岛中！
 
-据说这是发明了罗可莫可的店，在希洛这个城市！
+听说这是希洛市一家发明了夏威夷盖饭的店！
 
 这个又便宜又好吃！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174h.jpg" alt="" loading="lazy">
 
-基拉韦厄火山正在活动！
+基拉韦厄火山正在活动中！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174i.jpg" alt="" loading="lazy">
 
-第一次见到。
+我还是第一次见到。
 
 这就是咖啡果实。
 
-剥开这红色的果实，里面是绿色的咖啡豆。
+剥开这个红色果实，就会露出绿色的咖啡豆。
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174j.jpg" alt="" loading="lazy">
 
-然后，用这种机器烘焙！！这意外地有趣！
+然后，用这样的机器烘焙！！没想到还挺有意思的！
 
-可以做个咖啡烘焙游戏呢（笑）
+可以做一个咖啡烘焙游戏了（笑）
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174k.jpg" alt="" loading="lazy">
 
-现在，正在攀登茂纳凯亚山2800米！
+现在正在攀登海拔2800米的莫纳克亚山！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174l.jpg" alt="" loading="lazy">
 
-到达了比富士山顶还高的4200米！！真的超冷！！
+抵达了海拔4200米，比富士山山顶还高！！真的超级冷！！
 
-看到的4个物体是宇宙观测站。最左边是日本的“昴星团望远镜”
+能看到的四个物体是天文观测站。最左边的是日本的“昴”望远镜。
 
-由此，制霸了夏威夷岛的纵横！
+这样一来，夏威夷岛就被我从东到西、从南到北征服了！！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174m.jpg" alt="" loading="lazy">
 
-再次来到WCS会场。接受宝可梦☆星期天采访的森本和增田。
+再次来到WCS会场。森本和增田接受《宝可梦☆星期天》的采访。
 
-这个节目预定在东京电视台系列9月5日播出。
+这段内容预计将于9月5日在东京电视台系列频道播出。
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174n.jpg" alt="" loading="lazy">
 
-签名会。来了很多人！
+签名会。来了很多很多人！
 
 谢谢大家！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174o.jpg" alt="" loading="lazy">
 
-嗯？我可是认真在签名哦。
+嗯？我可是很认真地在签名哦。
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174p.jpg" alt="" loading="lazy">
 
-在台上和青少年组世界第一的冠军握手。
+在台上与青少年组世界第一的冠军握手。
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174q.jpg" alt="" loading="lazy">
 
-大家，真的非常感谢你们热情而高水平的对战！！
+大家，感谢你们带来如此热烈、水平又高的对战！！
 
-哪个国家，以及谁征服了世界！？在卡牌游戏中，还诞生了首位女性冠军！
+究竟哪个国家、又究竟是谁征服了世界！？在TCG项目中，还首次出现了女性冠军！
 
-详情请看这里！
+详情请见这里！
 
 [http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
 
-看视频（ViDeOS）的话，也许能感受到那份热情吧！？
+看了视频（ViDeOS），多少也能感受到那股热度吧！？
 
-增田，想让这个电子游戏世界大会更加更加热闹！
+我，增田，想让这个电子游戏世界大赛变得更加、更加热闹！
 
-然后。。。回国。。。
+然后……回国……
 
-8月19日，为了录制宝可梦☆星期天来到演播室。
+8月19日，为了录制《宝可梦☆星期天》去了摄影棚。
 
-聊了不少关于黑/白的内容。
+我聊了不少关于黑白的内容哦。
 
-这个预定在9月12日播出！请一定要看哦！！
+听说这部分预计于9月12日播出！请一定要看哦！！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174r.jpg" alt="" loading="lazy">
 
-8月22日，去了。
+8月22日，我去了一趟。
 
-来到东京塔的宝可梦搜索器黑/白！
+宝可梦搜寻器黑白来到了东京塔！
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174s.jpg" alt="" loading="lazy">
 
-“大人也可以坐吗？”这样说着，增田享受了第三次。
+我问“成年人也可以乘坐吗？”然后开心地玩了第三次的增田。
 
-怎么说呢，做得很好。即使是大人，也真的很有趣的游乐设施哦。
+怎么说呢，做得真不错。即使是成年人，这也是个真的很开心的游乐项目。
 
-然后。。。
+然后……
 
-8月28日，清晨有黑/白音乐收录的工作，之后。。。
+8月28日，一大早有黑白音乐录制的工作，之后……
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174t.jpg" alt="" loading="lazy">
 
-去了有5万人聚集的音乐活动，a-nation！！
+我去参加了聚集了五万人的音乐活动a-nation！
 
-享受其中的增田和株式会社宝可梦的古贺先生！！
+开心享受现场的增田和宝可梦公司株式会社的古贺先生！！
 
-※远处看起来像小颗粒的。。。是人！！
+※远处那些看起来像小颗粒的东西……是人！！
 
-铃木亚美、AAA、滨崎步，果然厉害。超嗨！
+铃木亚美、AAA、滨崎步，不愧是他们。现场气氛超级热烈！
 
-也再次确认了东方神起的人气。。。
+东方神起的人气也再次得到确认……
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174u.jpg" alt="" loading="lazy">
 
-挥舞着毛巾，真的享受其中的增田！！！！！
+挥着毛巾、认真享受现场的增田！！！！！
 
-毛巾。。。真的，太棒了。好开心。。。
+毛巾……真的，太棒了。好开心……
 
 <img src="/assets/images/gamefreak-director/archive/174/ja/174v.jpg" alt="" loading="lazy">
 
-宝可梦搜索器黑/白也来到了会场哦ー！！
+宝可梦搜寻器黑白也来到了会场哦——！！
 
-就这样，增田的夏天过去了。。。
+增田的这个夏天，就这样过去了……
 
-然后，今天9月1日起，去西雅图和伦敦出差！出发！
+然后，从今天9月1日开始，我要出差前往西雅图和伦敦！我出发啦！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

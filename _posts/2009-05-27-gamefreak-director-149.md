@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 149
-gf_entry_title: ５月２２日、欧州で『ポケットモンスター　プラチナ』が発売されました。 欧州のプレイヤーのみなさん、プラチナをゆっくりたっぷり楽しんでください！！
+gf_entry_title: 【开发日记】白金版登陆欧洲
 gf_archive: 2009-05
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦 白金》登陆欧洲，增田谈到新版金银作品《心金》《魂银》的制作与期待。
+gf_translation_title: 【开发日记】白金版登陆欧洲
+gf_translation_summary: 《宝可梦 白金》登陆欧洲，增田谈到新版金银作品《心金》《魂银》的制作与期待。
 search: true
 source:
   title: 増田部長のめざめるパワー 第149回
   url: https://www.gamefreak.co.jp/blog/dir/2009/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-149
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-5月22日，在欧洲，《宝可梦 白金》发售了。
+5月22日，《宝可梦 白金》在欧洲发售了。
 
-欧洲的玩家们，请慢慢尽情享受白金吧！！
+欧洲的各位玩家，请慢慢地、尽情地享受白金版吧！！
 
-日本、北美的各位！
+日本和北美的各位！
 
-在白金的GTS中，也可以搜索国家，
+白金版的GTS还可以搜索国家，
 
-请务必与欧洲各国的朋友们享受GTS交换的乐趣。
+所以一定要和欧洲各国的朋友们享受GTS交换的乐趣哦。
 
-在日本，今年秋天发售的作品已经公布了。
+在日本，今年秋季发售的作品已经公布了。
 
 《宝可梦 心金》
 
 《宝可梦 魂银》
 
-在GAME FREAK，我们花了充足的时间精心制作。
+我们在GAME FREAK认真花了很长时间进行制作。
 
-原作是1999年11月21日发售的「金」和「银」。
+原版就是1999年11月21日发售的《金》和《银》。
 
-从「金」和「银」大幅强化后归来。
+它们会在《金》和《银》的基础上大幅强化后归来。
 
-从决定城都地区这个名字开始，已经快12年了吧。
+从决定将它命名为城都（城都・条都）地区以来，已经差不多12年了吧。
 
-当时玩过金银的人，从那以后过了10年。12岁竟然变成了22岁！
+当年玩过金银的各位，距今也已经10年了。12岁竟然变成22岁了！
 
-时间过得真快啊。
+岁月过得真快啊。
 
-各位，请期待并等待吧！
+请大家期待着它，耐心等待吧！
 
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

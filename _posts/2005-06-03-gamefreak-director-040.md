@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 40
-gf_entry_title: 最近、決まった場所や空間でどう時間を使うのか？に興味があります。
+gf_entry_title: 【开发随笔】通勤时光的观察
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田观察电车内人们打发时间的方式，发现手机邮件几乎无人能敌，也从细致分类中获得新的思路。
+gf_translation_title: 【开发随笔】通勤时光的观察
+gf_translation_summary: 增田观察电车内人们打发时间的方式，发现手机邮件几乎无人能敌，也从细致分类中获得新的思路。
 search: true
 source:
   title: 増田部長のめざめるパワー 第40回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-040
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,9 +37,9 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-最近，我对在固定的场所或空间里如何利用时间这件事很感兴趣。
+最近，我对“在固定的场所或空间里如何度过时间？”这件事很感兴趣。
 
-比如在电车里环顾四周的话……
+比如在电车里环顾四周，就会看到……
 
 ・用手机发邮件的人。
 
@@ -49,41 +51,41 @@ glossary_missing_targets: []
 
 ・和朋友聊天的人。
 
-・在吃东西的人。
+・吃东西的人。
 
-・在玩游戏的人。
+・玩游戏的人。
 
-・在听音乐的人。
+・听音乐的人。
 
 ・发呆的人。
 
 ・喝醉的人。
 
-・在看书的人。
+・看书的人。
 
-・在化妆的人。
+・化妆的人。
 
-・在睡觉的人。
+・睡觉的人。
 
-※顺便说一下，增田我虽然会从车内广告里找灵感，或者在脑子里作曲，
+※顺带一提，我会从车内广告里构思点子，也会在脑内作曲，
 
-　　但周围的人一定觉得我是“发呆的人”吧。一定。
+　　但在周围人看来，我肯定是“发呆的人”吧。肯定是。
 
-哎呀，真的，虽然各种各样的情况都有，但果然还是手机最强。
+不，真的，情况有各种各样，不过我还是觉得手机最厉害。
 
-而且，是邮件。
+而且还是邮件。
 
-要战胜它的手段相当困难。
+想要战胜这个东西，手段相当难找。
 
-因为这可是不分男女老少的。
+毕竟这可是无论男女老少都一样的。
 
-不过，这也只有日本是这样吧。
+不过，这种情况只有日本这样吧。
 
-要是法国的话，肯定完全不一样。
+如果是在法国，肯定完全不一样吧。
 
-像这样细分并梳理出来，也能看到一些东西。
+像这样细分并逐一找出来，也能看见一些东西。
 
-那么。
+那么，回见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

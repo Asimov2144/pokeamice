@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 173
-gf_entry_title: ゲームフリークは明日から夏期休暇。
+gf_entry_title: 【赛事】2010年世界锦标赛夏威夷之行
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK 即将进入暑假，增田将前往夏威夷参加 WCS，究竟哪个国家能夺得世界冠军？
+gf_translation_title: 【赛事】2010年世界锦标赛夏威夷之行
+gf_translation_summary: GAME FREAK 即将进入暑假，增田将前往夏威夷参加 WCS，究竟哪个国家能夺得世界冠军？
 search: true
 source:
   title: 増田部長のめざめるパワー 第173回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-173
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,15 +39,15 @@ glossary_missing_targets: []
 
 GAME FREAK 从明天开始放暑假。
 
-增田因为 WCS，12 日到 18 日要去夏威夷！
+我会为了参加 WCS，于12日至18日前往夏威夷！
 
-世界第一会被哪个国家夺得呢？
+世界冠军将由哪个国家夺得？
 
-赛况我想可以从这里查看。
+相关情况，应该可以从这里查看。
 
 [http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 20
-gf_entry_title: 今日９月３０日で、ポケモン情報サイト「palette」
+gf_entry_title: 【日记】2004年告别宝可梦资讯站
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田谈起常去的宝可梦资讯站即将关闭，也回忆起宝可梦水晶版时期服务器运营的艰难取舍。
+gf_translation_title: 【日记】2004年告别宝可梦资讯站
+gf_translation_summary: 增田谈起常去的宝可梦资讯站即将关闭，也回忆起宝可梦水晶版时期服务器运营的艰难取舍。
 search: true
 source:
   title: 増田部長のめざめるパワー 第20回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-020
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-今天9月30日，神奇宝贝信息网站「palette」
+今天9月30日，宝可梦资讯网站“palette”
 
 http://www.pokepale.com/
 
 似乎要关闭了。
 
-因为经常访问，所以非常遗憾！
+我以前经常去看，真是非常遗憾！
 
-那是一个信息快速且出色的网站。
+这是个消息更新很快、非常棒的网站。
 
-运营网站是很辛苦的吧。
+我想，运营网站一定很不容易。
 
-一旦开始，就很难找到停止的时机。
+一旦开始了，要找准停止的时机还真难啊。
 
-在神奇宝贝水晶的时候，任天堂公司的服务器运营要持续到什么时候？这个问题，
+宝可梦水晶版时期也是如此，要把任天堂方面的服务器运营持续到什么时候？这个问题，
 
-非常困难，我记得我们讨论了很多次。
+我记得我们曾经反复讨论过很多次，因为实在是非常难以决定。
 
-一旦开始就无法停止的东西。难以停止的东西。
+一旦开始就停不下来的东西。很难停下来的东西。
 
-寻找这样的东西也很有趣呢。
+寻找这样的东西，也是一件很有意思的事呢。
 
-比如喜欢的歌曲中途、电视、小说、体育、驾驶、登山等。
+比如喜欢的歌曲听到一半，电视、小说、运动、兜风、登山之类的。
 
-（反过来说，如果能创造出这样的东西，就有让人沉迷的可能性呢）
+（反过来说，只要创作出这样的东西，就有可能让人沉迷其中吧。）
 
-一旦开始就无法停止的东西。
+一旦开始就停不下来的东西。
 
-嗯，这个专栏也有那样的感觉，但是……
+嗯，这个专栏好像也有点这种感觉，不过……
 
-停止也需要勇气。
+要停下来也是需要勇气的。
 
 palette的管理员，辛苦了！
 
-那么。
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

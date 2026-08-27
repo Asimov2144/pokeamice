@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 240
-gf_entry_title: 本日、２０１３年７月３１日（水）１０：００ＡＭ ゲームフリーク初の自社パブリッシングソフトが発売になりました。
+gf_entry_title: 【开发日记】2013年纸牌赛马发售
 gf_archive: 2013-07
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK首款自主发行游戏正式发售，将纸牌接龙与赛马结合，带来别具一格的全新玩法。
+gf_translation_title: 【开发日记】2013年纸牌赛马发售
+gf_translation_summary: GAME FREAK首款自主发行游戏正式发售，将纸牌接龙与赛马结合，带来别具一格的全新玩法。
 search: true
 source:
   title: 増田部長のめざめるパワー 第240回
   url: https://www.gamefreak.co.jp/blog/dir/2013/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-240
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,29 +37,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-本日，2013年7月31日（星期三）上午10:00
+GAME FREAK 首款自主发行的游戏正式发售了。
 
-GAME FREAK首款自主发行的软件正式发售了。
+它的名字叫《纸牌赛马》（Solitiba）。
 
-其名为「索利提马」（ソリティバ）。
-
-接龙×赛马这一别具特色的合作。
+这是纸牌接龙×赛马的别出心裁组合。
 
 既不是动作赛马，也不是模拟赛马，
-而是配合赛马的展开来通关接龙。
 
-顺利通关的话，
-作为玩家的骑手所操控的马匹，就会飒爽地奔驰起来。
+而是要配合赛马的进程，一边通关纸牌接龙。
 
-接龙作为游戏虽然有趣，
-但常被说成是消磨时间的游戏，或是没有结果。
+只要顺利通关，
 
-通过这款「索利提马」，诞生了目标与展开，
-我认为它已经打磨成了一种截然不同的接龙，一种全新的玩法。
+作为玩家、由骑手操控的马匹就会潇洒地奔驰起来。
 
-这是GAME FREAK倾注心血的一款作品。
+纸牌接龙作为游戏确实很有趣，
 
-请大家务必都来玩一玩！！
+但也有人说它只是用来消磨时间的游戏，或者说它没有什么结果。
+
+我觉得在这款《纸牌赛马》中，加入了目标和发展，
+
+让原本完全不同的纸牌接龙，变成了一种全新的玩法。
+
+这是 GAME FREAK 精心打造的一款作品。
+
+请大家一定要亲自玩玩看！！
 
 官方网站：
 
@@ -67,7 +71,7 @@ GAME FREAK首款自主发行的软件正式发售了。
 
 [http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be](http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be)
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

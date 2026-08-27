@@ -14,76 +14,77 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 152
-gf_entry_title: みなさん、ハートゴールド・ソウルシルバーはエンディングまで行きましたか？
+gf_entry_title: 【音乐】2009年金银版原声带
 gf_archive: 2009-11
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《心金》《魂银》原声带发售，收录270首精心编排与还原的曲目，增田还分享了金银音乐制作与复原过程中的幕后故事。
+gf_translation_title: 【音乐】2009年金银版原声带
+gf_translation_summary: 《心金》《魂银》原声带发售，收录270首精心编排与还原的曲目，增田还分享了金银音乐制作与复原过程中的幕后故事。
 search: true
 source:
   title: 増田部長のめざめるパワー 第152回
   url: https://www.gamefreak.co.jp/blog/dir/2009/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-152
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- ＧＢ播放器
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-大家，《心金·魂银》玩到结局了吗？
+大家都玩到《心金》《魂银》的结局了吗？
 
-上个月，10月28日，《心金》《魂银》的
+上个月，也就是10月28日，《心金》《魂银》的
 
 原声带发售了！
 
-金银时代没有制作CD，
+金银时期没有制作CD，
 
-所以这是时隔10年的CD发售。
+这是时隔10年再次发行CD。
 
-※前几天，我去了宝可梦中心东京，看到CD排成一排，有点感动。
+※前几天我去了宝可梦中心东京，看到CD整齐地摆在那里，着实有点感动。
 
-我们声音团队精心编排的乐曲和
+我们音乐团队倾注心血编排的版本，
 
-用GB播放器再现的原曲……
+以及通过ＧＢ播放器还原的原曲……
 
-竟然，共270首！！
+竟然一共有270首！！
 
-真是厉害！
+真的太厉害了！
 
 制作金银的时候，
 
-是用名为Amiga的电脑作曲，
+我们用一台叫作Amiga的电脑作曲，
 
-将MIDI数据转换，
+先把MIDI数据转换，
 
-再进一步转换数据，使其能在Game Boy上播放，但是……
+再把那些数据转换成能在Game Boy上播放的格式……
 
-因为增田自己编程，
+因为我当时也亲自编程，
 
-有几首曲子是直接以Game Boy播放的形式创作的，
+有几首曲子是直接按照能在Game Boy上播放的格式创作的，
 
-所以没有MIDI数据，我想再现起来也很困难。
+所以并不存在MIDI数据，想要还原出来应该也很辛苦。
 
-尤其是广播里的未知图腾的曲子！
+尤其是广播里的未知图腾曲！
 
-音色在程序上也很特殊，
+音色方面也通过程序做了特殊处理，
 
-应该非常难以再现！
+想必非常难还原！
 
-3张CD套装，附24页小册子！
+3张一套，附赠24页小册子！
 
-（声音团队（包括增田）都有评论）
+（音乐团队成员（包括我）都写了寄语）
 
-大家也请务必听听看！
+大家也一定要听听哦！
 
-Ciao！
+回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

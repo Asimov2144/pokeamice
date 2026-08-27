@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 51
-gf_entry_title: ゲームを作るということ。
+gf_entry_title: 【开发随笔】游戏制作的意义
 gf_archive: 2005-08
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一谈游戏设计师如何把“有趣、快乐、舒服”等感受转化为数字，并通过游戏传递给玩家。
+gf_translation_title: 【开发随笔】游戏制作的意义
+gf_translation_summary: 增田顺一谈游戏设计师如何把“有趣、快乐、舒服”等感受转化为数字，并通过游戏传递给玩家。
 search: true
 source:
   title: 増田部長のめざめるパワー 第51回
   url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-051
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,31 +37,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-制作游戏这件事，
+制作游戏这件事。
 
-就是将“有趣”“快乐”“舒畅”等感性，
+就是把“有趣”“快乐”“舒服”等感受，
 
-转换为数字并记录（编程）下来的工作。
+转换成数字，并记录（编写成程序）的过程。
 
-然后，玩家（用户）通过播放这些数字记录的感性，
+然后，玩家（用户）将那些以数字形式记录下来的感受重新体验出来，
 
-游戏才作为游戏，感性才作为感性呈现出来。
+游戏才会作为游戏、感受才会作为感受，呈现出来。
 
-游戏设计师的工作，就是将感性数字化。
+游戏设计师的工作，就是把感受数字化。
 
-因此，既需要学习感性，也需要学习数字技术，
+所以，无论是感受，还是数字技术，都需要学习，
 
-还需要将感性理性化，传达给他人。
+还必须把感受整理成理由之类的东西，传达给别人。
 
-此外，还需要考虑玩家会以何种形式来播放。
+另外，也需要思考：玩家会以什么样的形式将其重新体验出来？
 
-这样一想，也许听起来很难，
+这样想的话，可能听起来有些难，
 
-但实际上，创造游戏是一件快乐的事。
+但实际上，创作游戏是一件快乐的事。
 
-因为最重要的是，它能从零开始创造，并让人乐在其中。
+毕竟，这是从零开始创造出某种东西，并让人感到快乐的工作。
 
-那么，就这样。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

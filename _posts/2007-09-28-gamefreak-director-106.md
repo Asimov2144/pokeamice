@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 106
-gf_entry_title: 日本でダイヤモンド・パールが発売されて今日でちょうど１年。
+gf_entry_title: 【开发日记】宝可梦钻石珍珠一周年
 gf_archive: 2007-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾《钻石·珍珠》发售一周年，分享全球销量与交换数据，并介绍全球同步公开的GTS网站。
+gf_translation_title: 【开发日记】宝可梦钻石珍珠一周年
+gf_translation_summary: 增田顺一回顾《钻石·珍珠》发售一周年，分享全球销量与交换数据，并介绍全球同步公开的GTS网站。
 search: true
 source:
   title: 増田部長のめざめるパワー 第106回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-106
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,45 +37,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在日本，钻石·珍珠发售到今天正好1年。
+日本的《钻石·珍珠》发售，今天正好满一年。
 
-托大家的福，7月底全球累计销量突破了1000万套，
+多亏大家的支持，截至今年7月底，全球累计销量已经超过1000万套，
 
-8月地球上宝可梦交换次数也超过了140万次，
+8月在地球上的宝可梦交换次数也超过了140万次，
 
-现在似乎仍有很多人在玩，
+看来直到现在，仍然有很多人在游玩，
 
-真的非常开心。
+我真的感到非常高兴。
 
 衷心感谢大家！
 
-1年前在新宿高岛屋的倒计时发售等情景，
+我想起了很多事情，
 
-让我想起了很多事情。
+比如一年前在新宿高岛屋举行的倒计时发售活动等等。
 
-今后我们也会继续创造出超越想象的玩法，
+今后我们也会继续创造超越想象的乐趣，
 
-请继续支持GAME FREAK和宝可梦！
+所以请大家继续支持 GAME FREAK 和宝可梦！
 
-拜托了！
+还请多多关照！
 
-然后……
+还有……
 
-我想大家已经知道了，
+我想大家应该已经知道了，
 
-这里介绍一下前几天全球同步公开的GTS网站。
+不过还是在这里介绍一下前几天面向全球同步公开的 GTS 网站。
 
 [http://www.pokemon-gts.net/](http://www.pokemon-gts.net/)
 
 很酷吧？
 
-光是看着就很有趣吧？
+光是看着就觉得很有意思吧？
 
-网站满载着像股价一样的信息。
+网站会以股价般的形式，为大家呈现满满的信息。
 
-这个网站……一定要看！
+这个网站……一定要去看看！
 
-那么！
+那么，回见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

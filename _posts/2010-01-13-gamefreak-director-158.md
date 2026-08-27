@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 158
-gf_entry_title: このコラムはいつも通勤中に携帯電話で書いているんですが、 電車に乗っていると、人の行動が気になります。
+gf_entry_title: 【日记】通勤电车里的有趣观察
 gf_archive: 2010-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录通勤电车里人们各自打发时间的方式，并发现陌生人会随着车厢摇晃同步移动的有趣瞬间。
+gf_translation_title: 【日记】通勤电车里的有趣观察
+gf_translation_summary: 增田顺一记录通勤电车里人们各自打发时间的方式，并发现陌生人会随着车厢摇晃同步移动的有趣瞬间。
 search: true
 source:
   title: 増田部長のめざめるパワー 第158回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-158
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,51 +37,51 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-这个专栏总是在通勤途中用手机写的，
+我平时总是在上班路上用手机写这个专栏，
 
-但一坐上电车，就会在意人们的举动。
+一坐上电车，就会不由得留意起周围人的举动。
 
-比如，现在看看周围的话……
+比如，现在看看周围……
 
-・看书的人，4人。
+・正在看书的人，4个。
 
-・看报纸的人，1人。
+・正在看报纸的人，1个。
 
-・看漫画的人，1人。
+・正在看漫画的人，1个。
 
-・睡觉的人，2人。
+・正在睡觉的人，2个。
 
-・玩手机的人，3人。
+・正在摆弄手机的人，3个。
 
-・玩游戏的人，1人。
+・正在玩游戏的人，1个。
 
-・看车内广告的人，1人。
+・正在看车内广告的人，1个。
 
-・聊天的人，5人。
+・正在聊天的人，5个。
 
-・只是坐着的人，1人。
+・只是坐着的人，1个。
 
-大概这种感觉。
+大概就是这样。
 
-大家各自随意地使用着在电车里的时间。
+大家都在按照自己的喜好，打发着乘坐电车的时间。
 
-根据时间段或电车，也根据国家，可能会有所不同吧。
+当然，这也会因时间段、电车，甚至国家的不同而有所区别吧。
 
-但只有一点是共通的。
+不过，只有一件事是共通的。
 
-那就是随着电车的摇晃，
+明明彼此是陌生人，
 
-明明是陌生人却同步地动着。
+却会随着电车的摇晃同步移动。
 
-如果跷二郎腿的人很多的话，
+如果刚好有很多人跷着腿，
 
 光是看着那些腿……
 
-真的，这挺有意思的。
+还真是挺有意思的。
 
-大家在电车里都做些什么呢？
+大家坐电车时都会做些什么呢？
 
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

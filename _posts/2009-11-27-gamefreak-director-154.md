@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 154
-gf_entry_title: ようやくブルーレイが発売されました！ 「スター・トレック　なぜ挑むのか」
+gf_entry_title: 【影评随笔】星际迷航蓝光问世
 gf_archive: 2009-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一兴奋分享《星际迷航》蓝光，称赞其音效、音乐、剧本、画面与未来感，强烈推荐给读者。
+gf_translation_title: 【影评随笔】星际迷航蓝光问世
+gf_translation_summary: 增田顺一兴奋分享《星际迷航》蓝光，称赞其音效、音乐、剧本、画面与未来感，强烈推荐给读者。
 search: true
 source:
   title: 増田部長のめざめるパワー 第154回
   url: https://www.gamefreak.co.jp/blog/dir/2009/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-154
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -37,31 +39,31 @@ glossary_missing_targets: []
 
 蓝光终于发售了！
 
-「星际迷航　为何挑战」
+《星际迷航：为何挑战》
 
-真是太厉害了！
+真的太厉害了！
 
-做得非常好！
+制作得非常出色！
 
-光是开头的音效就让人起鸡皮疙瘩！
+光是开头的音效就让我起了一身鸡皮疙瘩！
 
-标题响起时的音乐也让人起鸡皮疙瘩！
+片名出现时响起的音乐也让我起了一身鸡皮疙瘩！
 
-做得太棒了！
+完成度高得无可挑剔！
 
-哎呀，好电影真是让人受到刺激啊。
+哎呀，优秀的电影确实会给人带来刺激呢。
 
-场景、时代、未来感等表现也极为出色。
+无论是场景、时代感，还是未来感等表现，都棒极了。
 
-不仅仅是旁白和文字，还能巧妙地说明细节，真是厉害！
+不只是靠旁白和文字，还能巧妙地把细节讲清楚，这一点也很厉害！
 
-剧本的推敲、对话、影像、音乐，全都非常精彩！
+剧本的打磨、对白、画面、音乐，每一样都精彩无比！
 
-推荐！
+推荐大家看看！
 
-※没看过星际迷航的人，
+※如果你还没看过《星际迷航》，
 
-请先看威廉·夏特纳担任舰长的旧作再来。
+建议先看威廉·夏特纳担任舰长的旧作，再来看这部。
 
 再见！
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 76
-gf_entry_title: いやー、３月は忙しい。。。 と、むちゃむちゃ仕事に追われていたんですが、、、
+gf_entry_title: 【开发日记】《耀西的蛋》登陆Wii虚拟主机
 gf_archive: 2007-03
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回忆1991年参与制作的《耀西的蛋》登陆Wii虚拟主机，并预告再次参加《宝可梦☆星期天》节目。
+gf_translation_title: 【开发日记】《耀西的蛋》登陆Wii虚拟主机
+gf_translation_summary: 增田回忆1991年参与制作的《耀西的蛋》登陆Wii虚拟主机，并预告再次参加《宝可梦☆星期天》节目。
 search: true
 source:
   title: 増田部長のめざめるパワー 第76回
   url: https://www.gamefreak.co.jp/blog/dir/2007/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-076
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-哎呀，3月真是忙啊。。。
+哎呀，3月真是忙得不可开交……
 
-被工作追得团团转，可是……
+我一直被工作追着跑，忙得团团转……
 
 没想到！
 
-1991年GAME FREAK制作的
+1991年由 GAME FREAK 制作的，
 
-「耀西的蛋」
+《耀西的蛋》，
 
-在Wii的Virtual Console上发布了！
+竟然已经在 Wii 的虚拟主机上配信了！
 
-哎呀，真是吃惊！
+哎呀，真让人吃惊！
 
-口袋妖怪是1996年发售的，所以这算是相当古老的游戏了，但……
+毕竟宝可梦是在1996年发售的，所以这已经是相当久远的游戏了……
 
-这是一款让人上瘾的游戏，请务必玩玩看！
+不过这是款会让人上瘾的游戏，大家一定要试着玩玩看！
 
-顺便说一下，音乐是增田做的。
+顺便一提，音乐是我做的。
 
-（只用三个音，这也别有一番风味呢）
+（只有三个音，也自有一番风味，对吧？）
 
 还有……
 
-3月18日（周日）的《口袋妖怪☆星期天》里，增田又会出演。
+3月18日（星期日）的《宝可梦☆星期天》节目里，我又要登场了。
 
-和Robert三位成员有互动。
+会和罗伯特三位成员一起互动。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

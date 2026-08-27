@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 103
-gf_entry_title: 前回の第１０２回で、F1マシンに乗りました！！ と書きましたが、、、
+gf_entry_title: 【公告】更正第102回的赛车信息
 gf_archive: 2007-09
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一更正前回关于乘坐F1赛车的说法，原来那是Formula Nippon规格的FN赛车，并分享了面对错误信息的想法。
+gf_translation_title: 【公告】更正第102回的赛车信息
+gf_translation_summary: 增田顺一更正前回关于乘坐F1赛车的说法，原来那是Formula Nippon规格的FN赛车，并分享了面对错误信息的想法。
 search: true
 source:
   title: 増田部長のめざめるパワー 第103回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-103
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,33 +37,33 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-前回的第102回中，我写了“坐上了F1赛车！！”
+在前一期第102回里，我写道：我坐上了F1赛车！！
 
-但实际上……
+不过……
 
-那是骗人的……呜哇——。
+那是骗人的。。。。咣——。
 
-细心的员工帮我发现了真相。感谢！
+是机灵的工作人员帮我找到了真相。感谢！
 
-那似乎是Formula Nippon规格的FN赛车！！
+原来那是Formula Nippon规格的FN赛车！！
 
-我太兴奋了，没看出来！
+我当时兴奋得飘飘然，根本没弄清楚！
 
-因此，虽然也可以改写第102回，但……
+所以，虽然把第102回改掉也可以……
 
-我认为信息错误在更正时再次传达比较好，
+但我觉得，关于错误的信息，还是应该等到弄清楚之后再重新告诉大家比较好，
 
-所以写成了指出错误的专栏。
+于是就写成了这篇指出错误的专栏。
 
-这个想法……也可以应用到游戏中……
+这个想法……也可以运用到游戏里……
 
-但不管怎样，我写了错误的信息……
+不过不管怎么说，我还是写下了错误的信息……
 
-非常抱歉。
+实在非常抱歉。
 
-不过，请务必去体验一下哦————。
+不过，大家也请去亲自体验一下吧————。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

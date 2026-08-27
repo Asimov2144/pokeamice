@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 43
-gf_entry_title: ８時２０分の電車に乗らなきゃ！ ９時の授業に遅れちゃう！
+gf_entry_title: 【生活随笔】学会从容面对时间
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 从赶电车和上课时间说起，增田思考时间如何影响人的心情，也希望自己和大家都能活得更慢、更从容一些。
+gf_translation_title: 【生活随笔】学会从容面对时间
+gf_translation_summary: 从赶电车和上课时间说起，增田思考时间如何影响人的心情，也希望自己和大家都能活得更慢、更从容一些。
 search: true
 source:
   title: 増田部長のめざめるパワー 第43回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-043
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,47 +37,47 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-必须坐上8点20分的电车！
+一定得赶上8点20分的电车！
 
-不然9点的课就要迟到了！
+不然就要迟到9点的课了！
 
-从这样的事开始，与时间的战斗。
+时间之战，就这样开始了。
 
-因为时间被定好了，所以被时间追赶。
+因为时间是定好的，所以才会被时间追着赶。
 
-如果电车什么时候来没有定好，
+如果连电车几点到都没有规定，
 
-如果学校的课或公司的上班时间没有定好，
+如果学校上课时间和公司上班时间也没有规定，
 
-也许就不用考虑那些事了。
+或许，光是这些事情就不用去想了。
 
-而且，也就没必要那么慌张了吧。
+也就没必要那么慌慌张张了吧。
 
-因为时间被定好了，
+正因为时间是定好的，
 
-所以试着从容地、提早行动。
+才可以留出余裕，早点、再早点行动起来。
 
-这样一来，看到的东西就会不一样吧。
+这样一来，映入眼帘的东西也会不一样吧。
 
-时间有余裕，心里也会有余裕。
+有了时间上的余裕，心里也会变得从容起来。
 
-帮老奶奶拿行李啦，做了平时不像自己会做的事啦，
+比如帮老奶奶提行李，做些平时不太会做的事，
 
-也会变得温柔吧。
+也许还会变得温柔一些。
 
-路边的杂草和花，回家时的月亮和星星，
+附近的杂草和花朵、回家时的月亮、星星等等，
 
-看到的东西也会不一样吧。
+也许连注意到的东西都会变得不一样。
 
-这样一想，不觉得时间的力量很厉害吗？
+这么一想，时间的力量是不是很厉害？
 
-而且，不觉得这个日本对时间很敏感，反应过度吗？
+而且，你不觉得日本对时间太敏感、反应过度了吗？
 
-最近，我很在意这种时间的动向。
+最近，我很在意时间的流动。
 
-真想再稍微慢悠悠、悠闲地生活啊。
+我们还是想活得再慢一点、从容一点，对吧。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

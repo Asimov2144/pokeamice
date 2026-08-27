@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 206
-gf_entry_title: サンディエゴでエネルギーをもらい帰国した次の日。
+gf_entry_title: 【拍摄日记】2011年宝可梦节目录制
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一从圣迭戈回国后冒着东京酷暑，记录了东京塔活动与《宝可梦Smash》的节目拍摄。
+gf_translation_title: 【拍摄日记】2011年宝可梦节目录制
+gf_translation_summary: 增田顺一从圣迭戈回国后冒着东京酷暑，记录了东京塔活动与《宝可梦Smash》的节目拍摄。
 search: true
 source:
   title: 増田部長のめざめるパワー 第206回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-206
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,11 +37,11 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在圣地亚哥补充能量回国的第二天。
+从圣迭戈获得能量回国后的第二天。
 
-东京好热！湿度好大！简直像热带雨林！
+东京好热！湿度也太高了！简直像热带雨林一样！
 
-在这样的环境中……
+就在这种天气里……
 
 来到了这个地方！
 
@@ -47,37 +49,37 @@ glossary_missing_targets: []
 
 没错，东京塔！！
 
-现在，[宝可梦卡牌游戏夏日嘉年华](http://www.pokemon-card.com/event/card-event/summer_carnival/)正在这里东京塔举办中。
+现在，[宝可梦集换式卡牌游戏夏日嘉年华](http://www.pokemon-card.com/event/card-event/summer_carnival/)正在这里的东京塔举办。
 
-据说，到8月28日（周日）为止每天举办中！
+一直到8月28日（周日），每天都在举办中！
 
-……是这样的。
+听说是这样。
 
-然后……以为要去那里呢，结果……
+然后……你们以为我要去那里……
 
-是别的工作。
+其实是另一份工作。
 
-是宝可梦Smash的拍摄！
+是《宝可梦Smash》的拍摄！
 
-平时都是在大房间，
+平时都是在大房间里，
 
-这次不知为何是单间。
+这次不知为什么却是单间。
 
 <img src="/assets/images/gamefreak-director/archive/206/multi/206b.jpg" alt="" loading="lazy">
 
-和森本君两个人等待正式开拍。
+我和森本君两个人等着正式拍摄。
 
-还化了妆，准备了点心，真是无微不至。
+又给我们化妆，还有零食，真是照顾得无微不至。
 
-但是……有种微妙的紧张感（笑）
+不过……还是有种微妙的紧张感（笑）
 
-嗯……那个……忘了问播出日期了（汗）
+对了……我忘了问播出日期（汗）
 
-所以呢……
+所以……
 
-大家，每周都要看[宝可梦Smash](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)哦！！
+大家，请每周都看[宝可梦Smash](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

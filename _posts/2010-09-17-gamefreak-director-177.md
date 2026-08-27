@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 177
-gf_entry_title: いよいよ、明日、発売となります！
+gf_entry_title: 【开发日记】2010年《黑白》发售前夜
 gf_archive: 2010-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾历经四年打造的《黑白》，分享合众地区以纽约为灵感的创作缘起与发售前的激动心情。
+gf_translation_title: 【开发日记】2010年《黑白》发售前夜
+gf_translation_summary: 增田顺一回顾历经四年打造的《黑白》，分享合众地区以纽约为灵感的创作缘起与发售前的激动心情。
 search: true
 source:
   title: 増田部長のめざめるパワー 第177回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-177
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -37,29 +39,29 @@ glossary_missing_targets: []
 
 终于，明天就要发售了！
 
-倾注了四年心血培育而成的《黑／白》。
+花了四年时间，倾注心血打造出来的《黑／白》。
 
-感觉既漫长，又短暂……
+感觉好像很漫长，又好像很短……
 
-这次以合众地区为舞台的灵感来源是纽约。
+这次以合众地区为舞台，取材灵感是纽约。
 
 大家知道吗？
 
-这个专栏上方「増田部长的觉醒力量」照片的背景。
+这篇专栏上方「增田部长的觉醒力量」照片的背景。
 
-没错，就是纽约！！
+没错，是纽约！！
 
-右端还清楚地拍到了布鲁克林大桥（笑）
+右边最边上还能清楚地看到布鲁克林大桥（笑）
 
-虽然去采访了两次，但那是一个充满刺激、又很有趣的城市。
+我去采访了两次，那是一座充满刺激、却又很有意思的城市。
 
-总觉得，有些怀念呢……
+总觉得，有点怀念了……
 
-这是GAME FREAK全体员工倾尽全力打造出的自信之作。
+这是 GAME FREAK 全体员工倾尽全力创作出来的自信之作。
 
-希望大家能喜欢。
+希望大家能够好好享受它。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

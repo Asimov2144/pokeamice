@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 42
-gf_entry_title: ゲームデザインは、デザインであって、 機能や操作性を優先させれば良いという訳ではありません。
+gf_entry_title: 【开发理念】游戏设计与整体平衡
 gf_archive: 2005-06
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一谈游戏设计：功能与操作性并非全部，作品需要在便利与不便、不同玩家的感受之间，慢慢打磨出整体平衡。
+gf_translation_title: 【开发理念】游戏设计与整体平衡
+gf_translation_summary: 增田顺一谈游戏设计：功能与操作性并非全部，作品需要在便利与不便、不同玩家的感受之间，慢慢打磨出整体平衡。
 search: true
 source:
   title: 増田部長のめざめるパワー 第42回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-042
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-游戏设计，是一种设计，
+游戏设计，归根结底是设计，
 
-并不意味着只要优先考虑功能和操作性就好。
+并不是只要优先考虑功能和操作性就行了。
 
-作为整体，当将其视为一件作品、一件商品来考虑时，
+通篇从一部作品、一个商品的角度去思考时，
 
-需要在思考整体平衡的同时，
+需要一边考虑整体平衡，
 
-慢慢地、从容地精心打磨。
+一边慢慢地、从容地打磨。
 
-用音乐来比喻的话，就像CD专辑一样。
+举音乐为例，就像 CD 专辑一样。
 
-从硬核曲目到抒情曲，多种多样，对吧。
+从激烈的曲子到抒情曲，种类丰富多样，对吧。
 
-如果全都一样会让人疲惫，
+如果所有曲子都一样，会让人疲惫，
 
-做得太过或做得不够都不行。
+做得过头不行，做得不够也不行。
 
-从操作性来考虑的话，
+从操作性来想，
 
-即使觉得难用、不贴心、不方便，
+即使会觉得“不好操作”“不够体贴”“不方便”等等，
 
-这种价值观因人而异，
+这种价值观也是因人而异，
 
-重要的是谁会有这样的感觉。
+我觉得关键在于，究竟是谁会这么想。
 
-真的，澳大利亚的孩子会这么想吗？——这样的疑问。
+“澳大利亚的孩子真的会这么想吗？”这样的疑问。
 
-那才是重要的。
+这才是重要的。
 
-所谓便利，是因为有不便才存在的。
+所谓方便，正是因为有不方便才成立。
 
-我认为，感到不便，也是设计的一部分。
+我认为，觉得不方便这件事，也是设计的一部分。
 
-那么。
+那么，就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

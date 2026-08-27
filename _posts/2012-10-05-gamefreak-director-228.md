@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 228
-gf_entry_title: 本日 ツイッター １周年を迎えました！
+gf_entry_title: 【开发日记】推特一周年与黑2白2发售
 gf_archive: 2012-10
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 武德回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
+gf_translation_title: 【开发日记】推特一周年与黑2白2发售
+gf_translation_summary: 武德回顾推特一周年，感谢全球玩家的支持，并宣布黑2白2将在北美与欧洲发售，邀请大家尽情享受冒险。
 search: true
 source:
   title: 増田部長のめざめるパワー 第228回
   url: https://www.gamefreak.co.jp/blog/dir/2012/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-228
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets:
 - 武德
@@ -37,53 +39,53 @@ glossary_missing_targets:
 
 ## 中文译文
 
-本日迎来了[推特](http://twitter.com/#%21/Junichi_Masuda)一周年！
+今天迎来了[ツイッター](http://twitter.com/#%21/Junichi_Masuda)一周年！
 
-在写这篇博客的现在，已经有超过三万三千人关注了我。
+写下这篇博客时，已经有超过3万3千人关注我了。
 
-大家，谢谢！
+谢谢大家！
 
-在这一年里，我收到了很多消息。
+这一年里，我收到了许许多多的留言。
 
-也收到了来自世界各国的消息。
+也收到了来自世界各国朋友的留言。
 
-关于游戏、宝可梦中心、日常的事情。
+有关于游戏的、宝可梦中心的，还有日常生活的。
 
-对宝可梦的爱、喜欢的事物、国家和地域等各种各样的东西，
+通过大家对宝可梦的热爱和喜欢的事物，以及各自国家和地区的情况等等，
 
-这一年也让我了解到了这些。
+这一年也让我逐渐了解了许多各种各样的事情。
 
-而且，根据推特上的意见，
+还有，因为大家在推特上的意见，
 
-我得以在全国的宝可梦中心举办签名会。
+我也得以在全国各地的宝可梦中心举办签名会。
 
-能够像这样，通过推特和大家直接交流，
+像这样通过推特和大家直接交流，
 
-我感到非常高兴。
+我真的感到非常开心。
 
-一年前开始做这件事真是太好了（笑）。
+一年前开始使用推特，真是太好了（笑）。
 
 大家，真的非常感谢！
 
-我由衷感谢。
+我心怀感激。
 
-今后也请继续支持推特、这个博客、
+今后也请大家继续支持推特、这个博客，
 
-以及GAME FREAK！！
+以及 GAME FREAK！！
 
-然后，10月7日（周日）在北美，10月12日（周五）在欧洲，
+然后，10月7日（星期日）北美、10月12日（星期五）欧洲，
 
-终于，宝可梦 黑2、白2要发售了。
+宝可梦 黑2、白2终于要发售了。
 
-这样一来，全世界就连接起来了，
+这样一来，全世界就连在一起了，
 
-请务必试试GTS交换哦！！
+请大家一定要试试看GTS交换哦！！
 
-北美的、欧洲的各位，让你们久等了！
+北美、欧洲的各位，让你们久等了！
 
-请尽情享受冒险吧！
+尽情享受这场冒险吧！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

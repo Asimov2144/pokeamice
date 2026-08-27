@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 105
-gf_entry_title: ９月２３日（日）、２４日（月）に四国の松山に行ってきました！
+gf_entry_title: 【旅行随笔】2007年松山城探访
 gf_archive: 2007-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一前往松山参加员工婚礼，并在次日游览松山城，感受日本城堡为防守而设计的巧思。
+gf_translation_title: 【旅行随笔】2007年松山城探访
+gf_translation_summary: 增田顺一前往松山参加员工婚礼，并在次日游览松山城，感受日本城堡为防守而设计的巧思。
 search: true
 source:
   title: 増田部長のめざめるパワー 第105回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-105
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,53 +37,53 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-９月２３日（日）、２４日（月）に四国の松山に行ってきました！
+9月23日（星期日）和24日（星期一），我去了四国的松山！
 
-寿退職したスタッフが式と披露宴に招いてくれたんです。
+一位因结婚而离职的员工邀请我参加婚礼和婚宴。
 
-嬉しいことです。ありがとう！
+真是件令人高兴的事。谢谢你！
 
-四国は東京よりかなり暖かく汗ばむ陽気！
+四国比东京暖和很多，天气热得都让人出汗了！
 
-とても良い天気に恵まれ、本当に素晴らしい式でした。
+在非常好的天气相伴下，那真是一场精彩绝伦的婚礼。
 
-花嫁さん、とっても綺麗で素敵でしたよ！
+新娘子特别漂亮，也特别迷人！
 
-そして次の日！
+然后是第二天！
 
-時間が少しあったので観光！
+因为还有一点时间，所以去观光了！
 
-ホテルから歩いて松山城へ。
+从酒店步行前往松山城。
 
-まずはリフトかロープウェイを選べます。メズラシイ！
+首先可以选择乘坐缆椅或缆车。真少见！
 
-で、、中腹まで登ります。
+然后，登到半山腰。
 
-そこからは歩き！
+从那里开始就要步行了！
 
-かなり坂も厳しく息があがります。アセダクダク！
+坡相当陡，走得气喘吁吁。汗流不止！
 
-石垣、門、樹、建物。。。
+石墙、城门、树木、建筑……
 
-日本の城は、いかにして敵から守るか、攻め辛いかで設計されています。まさに要塞。
+日本的城堡，是按照如何防御敌人、让敌人难以攻入来设计的。简直就是要塞。
 
-石垣の曲線美に感動。
+石墙优美的曲线让我深受感动。
 
-門の前では遠くに天守閣が見え威圧感を放ち。
+站在城门前，远处就能看到天守阁，散发出强烈的威压感。
 
-松の木でたいまつや薬に。
+松树还可以用来制作火把和药物。
 
-槍で敵を突けるように無数の穴が建物に空けてある。
+为了能用长枪刺向敌人，建筑上开有无数个孔洞。
 
-とても勉強になりました。
+真是学到了很多。
 
-愛媛県の松山城、守りに特化したような作りで素晴らしかったです。
+爱媛县的松山城，采用了仿佛专门强化防守的构造，实在太棒了。
 
-みなさんも是非行ってみてください！
+大家也一定要去看看！
 
-戦いと守りの哲学垣間見られます。
+在那里可以一窥战斗与防守的哲学。
 
-では。
+那么。
 
 <img src="/assets/images/gamefreak-director/archive/105/multi/105a.jpg" alt="" loading="lazy"> <img src="/assets/images/gamefreak-director/archive/105/multi/105b.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/105/multi/105c.jpg" alt="" loading="lazy">
 

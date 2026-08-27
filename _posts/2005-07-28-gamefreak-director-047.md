@@ -14,20 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 47
-gf_entry_title: 発売中のコロコロコミック８月号にも載っていますが、 ポケットモンスター　ダイヤモンド＆パールでは、 ゲームボーイアドバンス用のソフト、
-  ルビー＆サファイア、ファイアレッド＆リーフグリーン、エメラルドの ５つのソフトと繋がります。
+gf_entry_title: 【开发日记】2005年宝可梦传送构想
 gf_archive: 2005-07
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田谈如何把在GBA作品中培育的宝可梦带到DS，并分享传送机制在游戏乐趣与玩家期待之间的平衡难题。
+gf_translation_title: 【开发日记】2005年宝可梦传送构想
+gf_translation_summary: 增田谈如何把在GBA作品中培育的宝可梦带到DS，并分享传送机制在游戏乐趣与玩家期待之间的平衡难题。
 search: true
 source:
   title: 増田部長のめざめるパワー 第47回
   url: https://www.gamefreak.co.jp/blog/dir/2005/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-047
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,42 +37,49 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-发售中的《CoroCoro Comic》8月号上也刊登了，
+虽然正在发售的《月刊 CoroCoro 漫画》8月号上也刊登了，
 
 在《宝可梦 钻石＆珍珠》中，
 
-可以与Game Boy Advance用的软件，
-《红宝石＆蓝宝石》、《火红＆叶绿》、《绿宝石》
-这5款软件连接。
+可以连接使用于 Game Boy Advance 的软件——
 
-是的。
+《红宝石＆蓝宝石》、《火红＆叶绿》和《绿宝石》
 
-可以把在GBA软件中培育的宝可梦带到DS上。
+这5款软件。
 
-现在，我正在慎重而大胆地考虑这个带过去的机制，
-但真的很难。
+没错。
 
-形象或者说方向性，很早以前就已经成形了，
-但整体的平衡很难。
+也就是说，可以把在 GBA 软件中培育的宝可梦们带到 DS 上。
 
-具体来说……
+现在，我正在慎重而又大胆地研究把它们带过去的机制，
 
-考虑到游戏性，方向是尽量长时间、愉快地带过去，
-考虑到欲望，瞬间带过去更令人高兴。
+但这真的相当困难。
 
-也就是说，游戏性和欲望的平衡很难。
+应该说，整体的构想或方向，其实很早以前就已经成形了，
 
-在这种情况下，最好的形式是，在让游戏性成立并游玩（玩过）之后，
-满足欲望，
-但能把玩家的欲望拉长到多长？能等多久？
+可要做好整体平衡就很难。
 
-这个点的把握真的很难。
+具体来说就是……
 
-因为无论什么，平衡都很重要。
+从游戏性的角度考虑，就会希望让玩家尽可能久而愉快地把宝可梦带过去，
 
-总之，我想从容地考虑，做出最高、最强、最好的形式。
+但从玩家的愿望来看，当然是能瞬间带过去更开心。
 
-那么。
+也就是说，要在这样的游戏性和玩家愿望之间取得平衡，实在很难。
+
+在这种情况下，最理想的方式，应该是在游戏性成立、让玩家玩过之后，
+
+再以某种形式满足玩家的愿望，
+
+但究竟要把玩家的期待吊到什么程度？又能让他们等多久？
+
+要看准这个关键点，真的非常困难。
+
+毕竟，无论什么事情，平衡都是很重要的。
+
+总之，我打算耐心思考，把它做成最棒、最强、最理想的形式。
+
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

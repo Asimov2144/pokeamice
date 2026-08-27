@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 135
-gf_entry_title: THE GAME LAUNCHES ON  MARCH 22ND!
+gf_entry_title: 【开发日记】白金北美版即将发售
 gf_archive: 2009-02
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦 白金》即将在北美发售，增田顺一分享英文版宣传带来的新鲜感，并透露接受采访及官网即将开放的消息。
+gf_translation_title: 【开发日记】白金北美版即将发售
+gf_translation_summary: 《宝可梦 白金》即将在北美发售，增田顺一分享英文版宣传带来的新鲜感，并透露接受采访及官网即将开放的消息。
 search: true
 source:
   title: 増田部長のめざめるパワー 第135回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-135
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-THE GAME LAUNCHES ON MARCH 22ND!
+游戏将于3月22日发售！
 
-3月22日，北美版《白金》即将发售！
+3月22日，《白金》将在北美发售！
 
 [http://www.pokemon.com/](http://www.pokemon.com/)
 
-看到英文版的包装和宣传，
+看着英文版的包装和宣传资料，
 
-感觉《白金》有了另一副面孔，令人兴奋！
+感觉《白金》又拥有了另一副面孔，真让人兴奋！
 
-敬请期待北美版！
+请大家期待北美版吧！
 
-然后，前几天……
+对了，前几天……
 
-我接受了那次采访（NINTENDO POWER & ign.com），
+我接受了 NINTENDO POWER 和 ign.com 的采访，
 
-其中有些问题相当有趣……
+其中还有些相当有意思的问题……
 
-会变成怎样的报道呢，我也很期待！
+也很期待最后会写成什么样的报道！
 
 啊，对了，
 
 [http://www.PokemonPlatinum.com/](http://www.PokemonPlatinum.com/)
 
-也即将开放。
+也马上就要开放了。
 
-2009年也请多多支持！
+2009年也请大家继续支持我！
 
 <img src="/assets/images/gamefreak-director/archive/135/multi/090212_01.jpg" alt="" loading="lazy">
 
-皮丘也请多关照！
+皮丘也请大家多多支持！
 
 <img src="/assets/images/gamefreak-director/archive/135/multi/090212_02.jpg" alt="" loading="lazy">
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

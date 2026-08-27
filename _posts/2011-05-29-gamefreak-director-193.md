@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 193
-gf_entry_title: 音楽スタジオに行ってきました！
+gf_entry_title: 【音乐随笔】2011年宝可梦电影配乐
 gf_archive: 2011-05
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 走进音乐录音室，见证两位作曲家分别为两部宝可梦电影创作配乐，并分享雨中东京塔带来的感动。
+gf_translation_title: 【音乐随笔】2011年宝可梦电影配乐
+gf_translation_summary: 走进音乐录音室，见证两位作曲家分别为两部宝可梦电影创作配乐，并分享雨中东京塔带来的感动。
 search: true
 source:
   title: 増田部長のめざめるパワー 第193回
   url: https://www.gamefreak.co.jp/blog/dir/2011/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-193
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets: []
 ---
@@ -36,61 +38,59 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-去了音乐工作室！
+星期六不巧下起了雨。
 
-周六不巧下雨。
+在这样的天气里，我从东京赤羽桥站出发，望着东京塔前往音乐录音室！
 
-在这样的天气里，我从东京的赤羽桥站出发，一边望着东京塔，一边前往音乐工作室！
+今年的电影可是宝可梦史上首次上映两部作品！
 
-今年的电影是宝可梦史上首次两部同时上映！
+不是两部同时上映……而是分别上映两部作品！！
 
-不是同时放映……而是分别上映两部！！
+片名是：
 
-片名是，
+《比克提尼与黑英雄捷克罗姆》和《比克提尼与白英雄莱希拉姆》
 
-「比克提尼与黑英雄捷克罗姆」和「比克提尼与白英雄莱希拉姆」
+而且，音乐居然是由两位作曲家分别负责！
 
-而且，音乐竟然由两位作曲家分别负责！
+真是太厉害了！阵容非常豪华。
 
-真是厉害！太豪华了。
+大家一定要比较着听听这两部作品的音乐哦。
 
-请务必对比聆听这两部音乐。
-
-作曲家宫崎先生的后脑勺！！一直承蒙关照！
+这是作曲家宫崎先生的后脑勺！！平时一直承蒙关照！
 
 <img src="/assets/images/gamefreak-director/archive/193/ja/193a.jpg" alt="" loading="lazy">
 
-每一位艺术家演奏的每一件乐器。这是诞生最棒音乐的时刻。
+每一位艺术家演奏的每一件乐器。正是最棒的音乐诞生的瞬间。
 
 <img src="/assets/images/gamefreak-director/archive/193/ja/193b.jpg" alt="" loading="lazy">
 
-就这样，美妙的音乐被演奏出来！
+就这样，美妙的音乐一点一点地演奏出来了！
 
-作曲时与影像联动，
+音乐是配合画面创作的，
 
-而且，工作室的监视器上也会播放影像。
+而且，录音室的监视器上也会播放画面。
 
 <img src="/assets/images/gamefreak-director/archive/193/ja/193c.jpg" alt="" loading="lazy">
 
-电影音乐真是太好了。
+电影音乐真的很棒呢。
 
-能亲临这样的瞬间，真的非常开心。
+能够亲身见证这样的瞬间，真的是一件非常开心的事。
 
-我正感动着，回去时看到了雨中的东京塔。
+我一边感动着，一边在回去时再次看到了雨中的东京塔。
 
 <img src="/assets/images/gamefreak-director/archive/193/ja/193d.jpg" alt="" loading="lazy">
 
-塔顶被云层覆盖。
+塔顶被云层笼罩着。
 
-而且，这一天的灯光秀也美丽得如同希望之光。
+而这一天的灯光也格外美丽，就像希望之光一样。
 
-为音乐而感动，
+为音乐感动着，
 
-也为东京塔而感动。
+也为东京塔感动着。
 
-真是美好的周六。
+这是一个美妙的星期六。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

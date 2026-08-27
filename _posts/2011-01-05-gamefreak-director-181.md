@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 181
-gf_entry_title: みなさま
+gf_entry_title: 【音乐随笔】《Pulseman》的配乐
 gf_archive: 2011-01
 gf_categories:
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回忆1994年参与《Pulseman》开发时的程序与音乐制作，并兴奋分享收录游戏配乐的原声专辑。
+gf_translation_title: 【音乐随笔】《Pulseman》的配乐
+gf_translation_summary: 增田顺一回忆1994年参与《Pulseman》开发时的程序与音乐制作，并兴奋分享收录游戏配乐的原声专辑。
 search: true
 source:
   title: 増田部長のめざめるパワー 第181回
   url: https://www.gamefreak.co.jp/blog/dir/2011/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-181
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,57 +37,57 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位
+大家好
 
-新年快乐。
+新年快乐！
 
 2011年也请多多关照。
 
-因为是喜庆的事，就说个喜庆的话题。
+既然是新年，就来说点喜庆的事吧。
 
-1994年发售的《脉冲人》的音乐原声带
+收录了1994年发售的《パルスマン》音乐的原声专辑
 
-「MEGADRIVE ~LAST ACTION HEROES~」发售了！
+《MEGA DRIVE？LAST ACTION HEROES》发售了！
 
 啪！啪！啪！啪！！！
 
 好开心！！！！
 
-说到1994年，增田才28岁。。。年轻啊。
+说到1994年，那时我增田才28岁……真年轻啊。
 
-当时的增田负责程序、音乐和音效。
+当时的我负责程序、音乐和音效。
 
-从低级别的系统，到碰撞判定、绘图相关，
+从底层系统，到命中判定、画面绘制相关的部分，
 
-光栅滚动、颜色变化等演出类，
+光栅滚动、色彩变化等演出效果，
 
-BOSS角色的动作和声音程序等，
+以及首领角色的动作和声音程序等等，
 
 写了各种各样的程序。
 
-在亲爱的UNIX机器上（笑）
+全都是在我心爱的 UNIX 机器上完成的（笑）。
 
-所以。。。脉冲人的曲名就变成那样了。
+所以……《パルスマン》的曲名也就变成了那种感觉。
 
-在程序的间隙，制作音乐！！制作音效！！
+在编写程序的间隙，还要制作音乐！！制作音效！！
 
-因为Mega Drive内置FM音源，
+Mega Drive 内置 FM 音源，
 
-所以能创造出有趣的音色和随时间变化的音色。
+所以可以创作出有趣的声音，以及随时间变化的声音。
 
-一点点调整参数，改变音色，
+一点一点调整参数，改变音色，
 
-鼓声等是用效果器处理后采样的，
+像鼓声之类的，则是先用效果器处理，再进行采样，
 
-记得相当讲究。
+我记得自己当时可是相当讲究的。
 
-标题画面的鼓也是乐句采样。
+连标题曲里的鼓声也是用乐句采样制作的。
 
-现在听的话有些曲子很像宝可梦，
+现在听起来，里面也有些曲子很像宝可梦，
 
-但本来是我喜欢的电子乐路线，非常强烈。
+但我本来可是彻头彻尾地喜欢科技舞曲路线。
 
-请务必购买试听！！
+请一定买来听听看！！
 
 （世嘉商店）
 
@@ -97,19 +99,19 @@ MEGADRIVE ~LAST ACTION HEROES~
 
 [http://www.amazon.co.jp/dp/B004EE1Z02](http://www.amazon.co.jp/dp/B004EE1Z02)
 
-啊，顺便说一下，
+啊，顺带一提，
 
-这款用SEGA的Mega Drive开发的《脉冲人》，
+这款在 SEGA Mega Drive 上开发的《パルスマン》，
 
-现在可以在Wii的Virtual Console上游玩。
+现在也可以通过 Wii 的 Virtual Console 游玩了。
 
 [http://vc.sega.jp/vc_pulseman/](http://vc.sega.jp/vc_pulseman/)
 
-杉森先生的世嘉之声。
+还有杉森先生的世嘉语音介绍。
 
 [http://sega.jp/segavoice/vol65/](http://sega.jp/segavoice/vol65/)
 
-那么！
+那么，下次见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 121
-gf_entry_title: 誕生日のときの写真がケーキだけだったので、、、おまけ。
+gf_entry_title: 【开发日记】2008年宝可梦天气同步
 gf_archive: 2008-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享生日蛋糕照片，并聊到《宝可梦 钻石／珍珠》中全球同步的天气变化，以及宝可梦和蛋的特别情况。
+gf_translation_title: 【开发日记】2008年宝可梦天气同步
+gf_translation_summary: 增田分享生日蛋糕照片，并聊到《宝可梦 钻石／珍珠》中全球同步的天气变化，以及宝可梦和蛋的特别情况。
 search: true
 source:
   title: 増田部長のめざめるパワー 第121回
   url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-121
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -35,45 +37,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-生日时的照片只有蛋糕，所以……补一张。
+因为生日时拍的照片里只有蛋糕……所以补充一张。
 
-蜡烛点上了灯。
+蜡烛点亮了。
 
-蛋糕和星巴克和增田。
+蛋糕、星巴克和增田。
 
 <img src="/assets/images/gamefreak-director/archive/121/multi/123a.jpg" alt="" loading="lazy">
 
-和工作人员一起大快朵颐的增田。
+和工作人员一起大快朵颐蛋糕的增田。
 
 <img src="/assets/images/gamefreak-director/archive/121/multi/123b.jpg" alt="" loading="lazy">
 
-在旧信息上附加新信息，这个尝试！！（开玩笑的）
+给过去的信息附加新信息——这样的尝试！！（开玩笑的啦）
 
-但是……
+不过——
 
-信息果然还是快一点好呢……
+信息果然还是越快越让人开心呢……
 
 为什么呢？
 
-因为感觉不真实？
+是因为没有真实感吗？
 
-因为感觉不现场？
+是因为没有现场感吗？
 
-如果是报纸，即使是旧信息也能原谅，
+如果是报纸的话，即使是旧信息也能原谅，
 
-但如果是网络，就感觉不能原谅……这也真是不可思议。
+但换成 Web 就感觉无法接受……这也真不可思议。
 
-啊，对了，大家12日玩《钻石·珍珠》了吗？
+啊，对了对了，大家 12 号有玩《宝可梦 钻石／珍珠》吗？
 
 雪的感觉不一样了吧？
 
-切锋市也变得漂亮了。
+切锋市也变得很漂亮。
 
-全世界1月12日的天气都是一样的呢。（这就是我想做的！）
+也就是说，全世界的 1 月 12 日，天气在全世界都是一样的呢。（这就是我想做的！）
 
-啊，还有，宝可梦也比平时稍微多了一些，蛋也应该稍微活跃了一点。
+啊，还有，宝可梦好像也比平时多了一点，蛋应该也稍微活跃了一些。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 151
-gf_entry_title: ８月１２日から１７日までアメリカ、サンディエゴに行ってました！
+gf_entry_title: 【赛事日记】2009年世界锦标赛现场
 gf_archive: 2009-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录在美国圣迭戈参加世界锦标赛的几天：激烈对战、签名会与闭幕式上的冠军颁奖。
+gf_translation_title: 【赛事日记】2009年世界锦标赛现场
+gf_translation_summary: 增田顺一记录在美国圣迭戈参加世界锦标赛的几天：激烈对战、签名会与闭幕式上的冠军颁奖。
 search: true
 source:
   title: 増田部長のめざめるパワー 第151回
   url: https://www.gamefreak.co.jp/blog/dir/2009/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-151
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,43 +38,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-8月12日到17日，我去了美国圣迭戈！
+8月12日至17日，我一直在美国圣迭戈！
 
-圣迭戈从洛杉矶机场开车往南大约2小时。
+圣迭戈距离洛杉矶机场，往南开车大约要两个小时。
 
-现在这个时期，日本气候湿度高，非常炎热，
+现在这个时节，日本天气湿度很高，也非常炎热，
 
-但那里完全没有这种感觉，气候干燥，也不太出汗，
+但这里完全没有那种感觉，空气很干燥，也不怎么出汗，
 
-是非常宜人的地方！
+是个让人过得非常舒服的地方！
 
-在那里举行的是……
+在那里举行的活动就是——
 
-宝可梦世界锦标赛2009！！
+2009年宝可梦世界锦标赛！！
 
-无论是电子游戏还是卡牌游戏都气氛高涨，令人兴奋不已！
+无论是视频游戏还是卡牌游戏，现场都热闹非凡，让人兴奋不已！
 
-会场内展开了激烈的对战，热气腾腾。
+会场上展开了一场场激烈对战，现场热气腾腾。
 
-空调开足冷气！好冷（笑）
+空调冷气开得十足！冷死了（笑）
 
-签名会上有130多人排队，感激不尽！
+签名会有超过130位大家排队等候，真是感激又感动！
 
 谢谢大家！
 
-还接受了《宝可梦☆星期天》的采访。
+我还接受了《宝可梦☆星期天》的采访。
 
-播出时间是8月30日（周日）！敬请期待！
+播出时间是8月30日（星期日）！敬请期待！
 
-闭幕式上，在台上表彰了电子游戏世界冠军！
+闭幕式上，我在台上为视频游戏世界冠军颁奖！
 
-哎呀，是世界第一哦，真的很厉害！
+哎呀，那可是世界第一啊，真的太厉害了！
 
-今年也是非常棒的大赛！
+今年也是一场非常棒的比赛！
 
-Ciao！
+再见！
 
-附赠
+附赠内容
 
 [http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
 
@@ -82,23 +84,23 @@ Ciao！
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151a.jpg" alt="" loading="lazy">
 
-远处看到的酒店就是举办WCS的希尔顿圣迭戈海湾酒店。
+后面能看到的那家酒店，就是举办世界锦标赛的圣迭戈湾希尔顿酒店。
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151b.jpg" alt="" loading="lazy">
 
-从增田的房间看到的景色。光是看着船只和货物搬运就很有趣，时间不知不觉就过去了（笑）
+从增田的房间望出去的景色。光是看着船只和货物装卸，时间就会在不知不觉中愉快地流逝（笑）
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151c.jpg" alt="" loading="lazy">
 
-会场外有帕路奇亚和帝牙卢卡。
+会场外摆放着帕路奇亚和帝牙卢卡。
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151d.jpg" alt="" loading="lazy">
 
-会场里人！人！人！
+会场里全是人！人！人！
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151e.jpg" alt="" loading="lazy">
 
-今年的电子游戏比赛和卡牌比赛在同一个会场。大家都在认真对战。
+今年的视频游戏和卡牌游戏在同一个会场举行。大家都在认真地对战。
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151f.jpg" alt="" loading="lazy">
 
@@ -106,15 +108,15 @@ Ciao！
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151h.jpg" alt="" loading="lazy">
 
-川内丸和增田一起，签名&握手！
+川内丸和增田，签名＆握手！
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151g.jpg" alt="" loading="lazy">
 
-还在帽子上签了名哦！
+帽子上也签名了哦！
 
 <img src="/assets/images/gamefreak-director/archive/151/multi/151i.jpg" alt="" loading="lazy">
 
-外面……真的，阳光很强烈……
+外面……真的，阳光特别强烈……
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

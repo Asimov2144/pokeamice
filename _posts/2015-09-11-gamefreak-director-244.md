@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 244
-gf_entry_title: ついに『Pokémon GO』を発表することができました。
+gf_entry_title: 【开发日记】2015年公布宝可梦GO
 gf_archive: 2015-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享《宝可梦GO》公布后的喜悦，介绍团队如何打破传统并携手Niantic，为全球玩家打造全新的冒险体验。
+gf_translation_title: 【开发日记】2015年公布宝可梦GO
+gf_translation_summary: 增田顺一分享《宝可梦GO》公布后的喜悦，介绍团队如何打破传统并携手Niantic，为全球玩家打造全新的冒险体验。
 search: true
 source:
   title: 増田部長のめざめるパワー 第244回
   url: https://www.gamefreak.co.jp/blog/dir/2015/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-244
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,67 +38,67 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-终于能够公布『Pokémon GO』了。
+终于能够公布《宝可梦GO》了。
 
 <p class="gf-director-spacer"></p>
 
-增田的推特上收到了来自世界各地的留言：
+我的推特上收到了来自世界各地的留言：
 
-“非常期待！好兴奋！”
+「非常期待！好兴奋！」
 
-“真想马上出发去冒险！”
+「想马上出发去冒险！」
 
-“儿时的梦想成真了”
+「小时候的梦想终于变成现实了」
 
 等等……
 
-收到了许多这样令人开心的留言。
+大家送来了许许多多令人开心的话语。
 
 <p class="gf-director-spacer"></p>
 
-大家的支持比什么都更能给我力量。
+能够得到大家的支持，对我来说是最强大的动力。
 
-作为创作者，没有比这更令人安心的了。
+作为一个创作者，没有什么比这更让人感到安心和振奋了。
 
-我很幸福。
+我真的很幸福。
 
-各位，真的非常感谢！
-
-<p class="gf-director-spacer"></p>
-
-在『Pokémon GO』中，我参与了世界观构建、游戏设计和音乐，
-
-但我们将宝可梦的世界观和游戏设计的常识拆解、重构，通过新的设计，
-
-使其成为一款能作为位置信息游戏来享受的作品。
+大家，真的非常感谢你们！
 
 <p class="gf-director-spacer"></p>
 
-开发仍在继续，
+在《宝可梦GO》中，我参与了世界观构建、游戏设计和音乐方面的工作，
 
-为了能让全世界的玩家都乐在其中，
+我们打破并拆解宝可梦世界观和游戏设计中的常识，再通过全新的设计，
 
-我们将与Niantic一起打造最棒的作品。
-
-<p class="gf-director-spacer"></p>
-
-献给全世界的宝可梦粉丝、全世界的Ingress粉丝，以及从未玩过宝可梦的人们。
-
-我们希望能认真打造出让所有人都能享受的作品。
+把它制作成一款可以作为位置类游戏来享受的作品。
 
 <p class="gf-director-spacer"></p>
 
-为了迎接宝可梦20周年，带着对大家的感谢之情。
+虽然开发还将继续很长一段时间，
+
+但为了让全世界的大家都能玩得开心，
+
+我会和Niantic一起，继续打造最棒的作品。
 
 <p class="gf-director-spacer"></p>
 
-预定于2016年在智能手机（iOS、Android）上发布。
+无论是全世界的宝可梦粉丝、全世界的Ingress粉丝，还是从未玩过宝可梦的人。
+
+我都希望能够认真做好这款作品，让所有人都能享受其中。
+
+<p class="gf-director-spacer"></p>
+
+面向宝可梦20周年，寄托着对大家的感谢之情。
+
+<p class="gf-director-spacer"></p>
+
+预计于2016年在智能手机（iOS、Android）上发布。
 
 敬请期待！
 
 <img src="/assets/images/gamefreak-director/archive/244/multi/0911_002.jpg" alt="" loading="lazy">
 
-发布会影像（资料：日语 / 语音：日语・英语）
+发布会视频（资料：日语 / 音频：日语、英语）
 
 [http://www.pokemon.com/us/pokemon-news/news-from-the-pokemon-go-announcement/#](http://www.pokemon.com/us/pokemon-news/news-from-the-pokemon-go-announcement/##)
 
@@ -110,7 +112,7 @@ Niantic,Inc.
 
 [http://www.nianticlabs.com/index.html](http://www.nianticlabs.com/index.html)
 
-媒体
+媒体报道
 
 [http://app.famitsu.com/20150910_568158/](http://app.famitsu.com/20150910_568158/)
 

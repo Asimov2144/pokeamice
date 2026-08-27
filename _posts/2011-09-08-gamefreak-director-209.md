@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 209
-gf_entry_title: ９月４日のMTMライブ、みなさん観ていただけました！？
+gf_entry_title: 【音乐现场】MTM演奏三首宝可梦乐曲
 gf_archive: 2011-09
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回顾MTM现场演奏三首宝可梦乐曲，竹兰与比克提尼相关曲目接连登场，现场气氛十分热烈。
+gf_translation_title: 【音乐现场】MTM演奏三首宝可梦乐曲
+gf_translation_summary: 增田回顾MTM现场演奏三首宝可梦乐曲，竹兰与比克提尼相关曲目接连登场，现场气氛十分热烈。
 search: true
 source:
   title: 増田部長のめざめるパワー 第209回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-209
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,43 +38,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-９月４日的MTM演唱会，大家看了吗！？
+9月4日的MTM演出，大家都看了吗！？
 
-竟然，演奏了３首曲子！
+竟然演奏了三首曲子！
 
-以前，宝可梦Smash！还是宝可梦☆Sunday的时代。
+那还是《宝可梦冲刺！》叫作《宝可梦☆星期天》的年代。
 
-小所酱来到GAME FREAK，
+翔子来到了GAME FREAK，
 
-拜托增田创作一首曲子！
+拜托我给她写一首曲子！
 
-于是增田创作了一首曲子，
+于是我写了一首曲子，
 
-那首曲子就在MTM演唱会上演奏了！
+那首曲子在MTM现场演奏了！
 
-接着是熟悉的（？）
+接下来是大家熟悉的（？）
 
-MTM with 战斗女M 演奏的竹兰的曲子。
+MTM with バトルウーマンM，演奏竹兰的曲子。
 
-然后，最后是，，，
+然后，最后是……
 
-比克提尼也登场了的传说宝可梦战斗的曲子。
+连比克提尼也登场了，演奏传说宝可梦对战的曲子。
 
-孩子们都吓了一跳。
+连孩子们都吓了一跳。
 
-超Techno（笑）
+超级电子乐（笑）
 
-应该很热闹吧！！大概。
+现场肯定很热烈！！大概吧。
 
-小所酱在博客上发布了哦！！
+翔子还把它发到博客上了哦！！
 
 [http://ameblo.jp/nakagawa-shoko/entry-11008093892.html](http://ameblo.jp/nakagawa-shoko/entry-11008093892.html)
 
 [http://ameblo.jp/nakagawa-shoko/entry-11008070267.html](http://ameblo.jp/nakagawa-shoko/entry-11008070267.html)
 
-好开心！
+太开心了！
 
-Ciao！
+那么，拜拜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 178
-gf_entry_title: みなさん、ありがとうございます！！！
+gf_entry_title: 【开发消息】黑白首周销量创纪录
 gf_archive: 2010-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦 黑·白》首周销量达到255万套，创下DS史上最高纪录，预订数量也突破188万套。
+gf_translation_title: 【开发消息】黑白首周销量创纪录
+gf_translation_summary: 《宝可梦 黑·白》首周销量达到255万套，创下DS史上最高纪录，预订数量也突破188万套。
 search: true
 source:
   title: 増田部長のめざめるパワー 第178回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-178
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,19 +38,19 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-大家，非常感谢！！！
+大家，谢谢你们！！！
 
-托大家的福
+多亏了大家，
 
 《宝可梦 黑·白》
 
-达成了DS史上最高的首周销量255万份！
+终于实现了 DS 史上最多的首周销量——255 万套！
 
-另外，预约数也达到了188万份！
+另外，预订数量也达到了 188 万套！
 
-非常感谢！！
+谢谢大家！！
 
-希望大家能慢慢享受游戏！
+希望大家都能慢慢享受这款游戏！
 
 再见！
 

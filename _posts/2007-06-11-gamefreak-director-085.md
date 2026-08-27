@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 85
-gf_entry_title: 先日、大阪府高槻市にある、JT生命誌研究館に行ってきました。
+gf_entry_title: 【随笔】2007年探访生命志研究馆
 gf_archive: 2007-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录参观生命志研究馆的见闻，感叹所有生物共享 DNA，并思考生命的奥秘与人类仍需学习的课题。
+gf_translation_title: 【随笔】2007年探访生命志研究馆
+gf_translation_summary: 增田顺一记录参观生命志研究馆的见闻，感叹所有生物共享 DNA，并思考生命的奥秘与人类仍需学习的课题。
 search: true
 source:
   title: 増田部長のめざめるパワー 第85回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-085
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,39 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-前几天，我去了位于大阪府高槻市的JT生命志研究馆。
+前几天，我去了位于大阪府高槻市的 JT生命志研究馆。
 
-展示方式很有趣，充满了生命的神奇之处。
+展示方式很有意思，里面充满了生命的不可思议。
 
-馆长中村老师也是一位非常出色的人，正因为他的想法，馆内也建得非常有魅力。
+馆长中村老师也是一位非常出色的人，正因为怀抱着这样的心意，馆内的设计也十分富有魅力。
 
-增田觉得最有趣，或者说最学到东西的，是地球上所有的生物都有DNA这一点。
+让我觉得最有意思，或者说最有收获的是，
 
-是所有的生物。
+地球上的所有生物都有 DNA。
 
-也就是说，人类并不是特别的存在。
+是所有生物。
 
-而且这始于38亿年前。
+也就是说，并不是只有人类才是特别的存在。
 
-另外，DNA的基本愿望似乎是长寿。
+而这一切，始于 38 亿年前。
 
-这样一想，比起人类，树木活得更久，也更多样化。
+另外，DNA 的本质似乎是想要长久延续下去。
 
-昆虫的多样性也令人刮目相看。
+这样想来，树木比人类更长寿，也拥有更多样的形态。
 
-生命的神奇，以及它与人类的关系。
+昆虫的多样性也同样令人惊叹。
 
-人类对生命似乎还远远不够了解。
+生命的不可思议，以及它与人类之间的关系。
 
-住在附近的人，请务必去走一趟。
+看来，人类对于生命还有太多东西没有学会。
 
-新的发现一定藏在某个地方。
+住在附近的朋友，请一定亲自去看看吧。
 
-想了解更多详情的人请看这里！
+新的发现，一定藏在某个地方。
+
+想进一步了解详情的朋友，请看这里！
 
 [http://www.brh.co.jp/](http://www.brh.co.jp/)
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

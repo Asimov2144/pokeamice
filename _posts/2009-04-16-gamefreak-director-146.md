@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 146
-gf_entry_title: 祝！ポケモンセンター東京！ 外国人が行きたい日本の観光スポット2008で第３位だそうです！
+gf_entry_title: 【旅游排行】2008年东京宝可梦中心走红
 gf_archive: 2009-04
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦中心东京在外国游客喜爱的日本景点中排名第三，增田得知这一消息后非常开心，并分享了完整的前二十名榜单。
+gf_translation_title: 【旅游排行】2008年东京宝可梦中心走红
+gf_translation_summary: 宝可梦中心东京在外国游客喜爱的日本景点中排名第三，增田得知这一消息后非常开心，并分享了完整的前二十名榜单。
 search: true
 source:
   title: 増田部長のめざめるパワー 第146回
   url: https://www.gamefreak.co.jp/blog/dir/2009/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-146
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,19 +37,17 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-祝！宝可梦中心东京！
+听说，在“外国人想去的日本旅游景点2008”中，排名第3！
 
-据说在“外国人想去的日本观光景点2008”中排名第3！
+这是根据 TripAdvisor 网站上用户的使用动向统计出来的。
 
-据说这是根据 TripAdvisor 网站上用户的利用动向计算出来的。
-
-■2008年 外国人关注度高的观光景点综合排名
+■2008年外国人关注度较高的旅游景点综合排名
 
 1　　筑地市场　东京都 / 中央区
 
 2　　东京迪士尼乐园　千叶县 / 浦安市
 
-3　宝可梦中心东京　东京都 / 港区
+3　　宝可梦中心东京　东京都 / 港区
 
 4　　六本木新城　东京都 / 港区
 
@@ -59,35 +59,35 @@ glossary_missing_targets: []
 
 8　　伏见稻荷大社　京都府 / 京都市
 
-9　　温泉世界　大阪府 / 大阪市
+9　　Spa World　大阪府 / 大阪市
 
-10　日本环球影城　大阪府 / 大阪市
+10　　日本环球影城　大阪府 / 大阪市
 
-11　大江户温泉物语　东京都 / 江东区
+11　　大江户温泉物语　东京都 / 江东区
 
-12　清水寺　京都府 / 京都市
+12　　清水寺　京都府 / 京都市
 
-13　温泉 LaQua　东京都 / 文京区
+13　　Spa LaQua　东京都 / 文京区
 
-14　大阪城　大阪府 / 大阪市
+14　　大阪城　大阪府 / 大阪市
 
-15　明治神宫　东京都 / 新宿区
+15　　明治神宫　东京都 / 新宿区
 
-16　宝川温泉　群马县 / 水上町
+16　　宝川温泉　群马县 / 水上町
 
-17　海游馆　大阪府 / 大阪市
+17　　海游馆　大阪府 / 大阪市
 
-18　四天王寺　大阪府 / 大阪市
+18　　四天王寺　大阪府 / 大阪市
 
-19　北海道神宫　北海道 / 札幌市
+19　　北海道神宫　北海道 / 札幌市
 
-20　新宿御苑　东京都 / 新宿区
+20　　新宿御苑　东京都 / 新宿区
 
 信息：TripAdvisor [http://www.tripadvisor.jp/HotSpotsJapan](http://www.tripadvisor.jp/HotSpotsJapan)
 
-真是令人非常高兴的事情呢。
+真是件让人特别开心的事呢。
 
-那么！
+那么，拜拜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

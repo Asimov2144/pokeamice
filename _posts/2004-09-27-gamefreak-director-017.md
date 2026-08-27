@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 17
-gf_entry_title: 電車の優先席ってなんだろう？ 何となくだけど、、、 本来は優先は優先でも専用に近い優先な気がする。 専用と優先の間のような。 何かイメージと合っていない。
+gf_entry_title: 【开发随笔】从优先席想到的事
 gf_archive: 2004-09
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 从电车优先席和停车位的不同感受出发，增田顺一聊到游戏制作中如何引导玩家意识，以及让意识自然淡去的设计。
+gf_translation_title: 【开发随笔】从优先席想到的事
+gf_translation_summary: 从电车优先席和停车位的不同感受出发，增田顺一聊到游戏制作中如何引导玩家意识，以及让意识自然淡去的设计。
 search: true
 source:
   title: 増田部長のめざめるパワー 第17回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-017
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,33 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-电车的优先席到底是什么呢？
-
 虽然只是隐约觉得……
 
-本来，优先虽然是优先，但感觉上更接近专用。
+本来“优先”虽说是优先，却感觉更接近“专用”的优先。
 
-介于专用和优先之间。
+就像是在“专用”和“优先”之间。
 
-总觉得和印象不符。
+总觉得和原本的印象对不上。
 
-在电车或电梯里，优先的意识似乎会变得淡薄。
+在电车或电梯里，不知怎么的，人们对“优先”的意识就会变淡。
 
-但是，在停车场停车时，
+可是，当我在停车场准备停车时，
 
-如果看到大大的优先标志和“优先”字样，
+如果看到醒目的优先标志和“优先”这两个字，
 
-不知为何，就会觉得不能停车。
+不知为何，就会觉得自己不该把车停在那里。
 
-不知为何，会萌生“因为是优先，所以不能停”的意识。
+不知为何，正因为是“优先”，就会产生不能停车的意识。
 
-这种意识的差异，在制作游戏时也能感受到。
+这种意识上的差异，在制作游戏时我也能感受到。
 
-如果模糊了印象的焦点，对它的意识就会变淡。
+只要把印象的焦点错开，对它的意识就会变淡。
 
-让人意识到而制作的部分，
+有些地方要做得让人意识到，
 
-让人意识不到而制作的部分，
+有些地方则要做得不让人意识到，
 
-两者都很重要啊。
+这两方面都很重要呢。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

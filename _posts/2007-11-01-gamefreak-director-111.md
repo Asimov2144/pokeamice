@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 111
-gf_entry_title: なんとっ！！！ このコラムを英語化します！！
+gf_entry_title: 【公告】2007年专栏开启英文版
 gf_archive: 2007-11
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 没想到！！！ 这个专栏要推出英文版了！！ 将由我们公司拥有长期海外生活经历的游戏设计师——Hiro Nakamura负责
+gf_translation_title: 【公告】2007年专栏开启英文版
+gf_translation_summary: 没想到！！！ 这个专栏要推出英文版了！！ 将由我们公司拥有长期海外生活经历的游戏设计师——Hiro Nakamura负责
 search: true
 source:
   title: 増田部長のめざめるパワー 第111回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-111
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,57 +37,57 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-竟然！！！
+没想到！！！
 
-这个专栏要英语化了！！
+这个专栏要推出英文版了！！
 
-由我们公司拥有长期海外生活经验的游戏设计师，ヒロ中村负责！
+将由我们公司拥有长期海外生活经历的游戏设计师——Hiro Nakamura负责！
 
-我们计划尽可能谨慎、细致、易懂地进行翻译，
+我们计划尽可能谨慎、仔细、易懂地进行翻译，
 
-所以更新可能会比较缓慢，
+所以更新速度应该会比较慢，
 
-开发忙碌的时候也可能会延迟。
+开发繁忙的时候，也可能会有所延迟。
 
-抱歉，请谅解！
+很抱歉，还请大家谅解！
 
-想把细微的语感也传达给读者。
+我希望能把其中细微而微妙的语感，也传达给愿意阅读的大家。
 
-带着这样的心情，花时间让ヒロ按照増田想传达的语感进行翻译。
+抱着这样的心情，我会花时间让Hiro按照我想传达的语感进行翻译。
 
 那么！
 
-这里，是来自ヒロ的消息！
+下面是Hiro发来的留言！
 
 ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞
 
-哈喽！初次见面。我是ヒロ中村。
+Hello！初次见面。我是Hiro Nakamura。
 
-在GAME FREAK担任游戏设计师。
+我在GAME FREAK担任游戏设计师。
 
-虽然英语水平有限，但希望大家能享受专栏的英语版！
+虽然我的英语还不太熟练，但如果大家能喜欢这个专栏的英文版，我会很高兴！
 
 ＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞＞
 
-虽然不会同步更新，
+那么，虽然不会和日文版同步更新，
 
 今后也请大家多多关照！
 
-海外的各位，也请多多关照！
+也请海外的各位多多关照！
 
-然后！还有！
+而且！还不止这些！
 
-过去的专栏也会翻译！
+过去的专栏也会陆续翻译！
 
-一次性全部英语化比较困难，
+要一下子把全部内容翻成英语很困难，
 
-所以可能会按顺序来，
+所以应该会按照顺序进行，
 
-这个也，，，敬请期待！
+这一部分也请大家……敬请期待！
 
-也许意外地能成为英语学习的好材料！！
+说不定还会意外地学到英语哦！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

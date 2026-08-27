@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 88
-gf_entry_title: みなさま、ありがとうございます！！
+gf_entry_title: 【开发日记】GTS宝可梦交换突破千万
 gf_archive: 2007-06
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 全球贸易站的宝可梦交换数量突破一千万，作者感谢玩家，并分享欧洲发售后新增语言支持的消息。
+gf_translation_title: 【开发日记】GTS宝可梦交换突破千万
+gf_translation_summary: 全球贸易站的宝可梦交换数量突破一千万，作者感谢玩家，并分享欧洲发售后新增语言支持的消息。
 search: true
 source:
   title: 増田部長のめざめるパワー 第88回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-088
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,25 +37,25 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位，非常感谢！！
+大家，谢谢你们！！
 
-托大家的福，全球贸易站（GTS）上的
+多亏大家的支持，全球贸易站（GTS）上的
 
-宝可梦交换已突破1000万只！！
+宝可梦交换数量突破了1000万只！！
 
 好开心！！
 
-这是一个超乎想象的数量。
+这是一个超出我想象的数字。
 
-特别是北美地区的朋友们，据说Wi-Fi连接率很高。真是感激不尽！
+听说尤其是北美的玩家，Wi-Fi连接率很高。真是太感谢了！
 
-7月27日还将在欧洲发售。
+7月27日也将在欧洲发售。
 
-这样一来，语言方面将新增意大利语、法语、西班牙语、德语，共增加4个国家。
+这样一来，支持的语言就会再增加4种，变成意大利语、法语、西班牙语和德语。
 
-大家也请带上邮件，试试交换宝可梦吧！
+大家也请试着让宝可梦带上邮件，进行交换吧！
 
-那么。
+那么，回见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,90 +14,91 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 176
-gf_entry_title: あと２日です！！
+gf_entry_title: 【发售倒计时】2010年宝可梦黑白活动
 gf_archive: 2010-09
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦黑白即将发售，增田分享倒计时的紧张心情，并介绍相关采访、麦当劳联动、活动与特别影片。
+gf_translation_title: 【发售倒计时】2010年宝可梦黑白活动
+gf_translation_summary: 宝可梦黑白即将发售，增田分享倒计时的紧张心情，并介绍相关采访、麦当劳联动、活动与特别影片。
 search: true
 source:
   title: 増田部長のめざめるパワー 第176回
   url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-176
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
-glossary_missing_targets:
-- 小物件
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-还有两天！！
+还有２天！！
 
 倒计时已经开始了！！
 
 [http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)
 
-距离发售日还有 31:25:57
+现在距离发售日还有　３１：２５：５７
 
-总觉得有点紧张。。。（笑）
+不知怎么的，有点紧张……（笑）
 
-昨天还做了个没人买我的梦、、、（汗）
+昨晚还梦见谁都不肯买……（汗）
 
 不不。
 
-打起精神来！
+调整好心情！
 
-任天堂官网的「社长问」BW版已经公开了。
+任天堂网站上的《社长问问》已经公开了ＢＷ版。
 
-对岩田社长的提问，我谈得相当深入！
+我回答岩田社长的问题时，聊得还挺深入的！
 
 [http://www.nintendo.co.jp/ds/irbj/index.html](http://www.nintendo.co.jp/ds/irbj/index.html)
 
-9月18日（周六）宝可梦 黑·白发售！！
+９月１８日（星期六）宝可梦黑·白发售！！
 
-台场的麦当劳变成了「宝可梦BW麦当劳」！
+台场的麦当劳变成“宝可梦ＢＷ麦当劳”了！
 
-这当然要一早去看了吧！
+这当然得一大早去看看了！
 
 [http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)
 
-宝可梦中心东京似乎也备齐了新周边！
+宝可梦中心东京好像也已经备齐新的小物件了！
 
-增田要去兑换预定的BW！
+我要去领取预订好的ＢＷ了！
 
 [http://www.pokemon.co.jp/info/2010/08/p100813_01.html](http://www.pokemon.co.jp/info/2010/08/p100813_01.html)
 
-9月23日（周四）将在六本木新城举办活动！！
+９月２３日（星期四）六本木新城举办活动！！
 
 宝可梦祭典！Best Wishes
 
 [http://www.tv-tokyo.co.jp/anime/pokemon_bw/](http://www.tv-tokyo.co.jp/anime/pokemon_bw/)
 
-要不要试试看？？
+要不要点进去看看？？
 
 [http://www.tv-tokyo.co.jp/](http://www.tv-tokyo.co.jp/)
 
-宝可梦搜索器BW也要来了！
+宝可梦搜索者ＢＷ也会来！
 
-还没用过的人一定要试试！
+还没乘坐过的人一定要去试试！
 
-特别影片公开中！
+特别影片正在公开！
 
 [http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)
 
 气氛越来越热烈了！！
 
-宝可梦 黑·白的信息和活动
+宝可梦黑·白的相关情报和活动也
 
-也请大家尽情享受吧！！
+请大家尽情期待吧！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

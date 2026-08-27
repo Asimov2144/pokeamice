@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 204
-gf_entry_title: サンディエゴのホテルに無事到着してます！
+gf_entry_title: 【旅行日记】2011年世界锦标赛前夜
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 雷雨、入境审查与堵车让旅程延误三小时，增田终于抵达圣迭戈，并悄悄探访世界锦标赛会场。
+gf_translation_title: 【旅行日记】2011年世界锦标赛前夜
+gf_translation_summary: 雷雨、入境审查与堵车让旅程延误三小时，增田终于抵达圣迭戈，并悄悄探访世界锦标赛会场。
 search: true
 source:
   title: 増田部長のめざめるパワー 第204回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-204
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,57 +38,57 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-已经顺利抵达圣地亚哥的酒店了！
+顺利抵达圣迭戈的酒店了！
 
-在成田机场雷声轰鸣，收到飞机延误的通知时，
+在成田听到雷声轰鸣、收到飞机延误的通知时，
 
-我还想着要把雷拍下来！还挺开心的！
+我还兴致勃勃地想着：一定要把闪电拍下来！
 
-就像音乐游戏一样，把握好时机，
+感觉就像在玩音乐游戏一样，我看准时机，
 
-根据之前闪电的位置、间隔和声音，瞄准快门机会，
+根据上一次闪光的位置、间隔和声音，瞄准按下快门的机会，
 
-如您所见，漂亮！成功拍到了它的身影！
+结果就像大家看到的这样，拍得相当漂亮！成功把它的身影拍了下来！
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204a.jpg" alt="" loading="lazy">
 
-然后比预定时间晚了大约1小时到达洛杉矶。
+然后比预定时间晚了大约１小时抵达洛杉矶。
 
-在洛杉矶，入境审查等了很久。。。
+在洛杉矶，光是入境审查就等了好久……
 
-又花了1个多小时。。。
+而且还花了１个多小时……
 
-从洛杉矶到圣地亚哥的巴士也遇到了堵车。。。
+从洛杉矶到圣迭戈的巴士也遇上了堵车……
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204b.jpg" alt="" loading="lazy">
 
-照片是对面车道。
+照片里是对向车道。
 
-那么，这边是几车道呢？（笑）
+那么，单侧到底有几条车道呢？（笑）
 
-这样还会堵车。。。
+这么宽的路居然还会堵车……
 
-比原定计划晚了3小时到达酒店！
+最后比原定计划晚了３个小时抵达酒店！
 
-从雷开始的旅程。哎呀，真是漫长的旅程。。。
+一场从雷声开始的旅程。哎，不过这趟旅途还真够漫长的……
 
-酒店里已经准备好了。
+酒店里已经准备就绪了。
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204c.jpg" alt="" loading="lazy">
 
-看到远处捷克罗姆前面的两个人，就能知道场地有多大了。
+看着远处捷克罗姆前面的那两个人，就能明白这里有多宽敞了吧。
 
-排练和用餐结束后。。。回到酒店。。。
+完成彩排、吃过饭之后……回到酒店……
 
-悄悄进入会场。。。
+偷偷地，溜进会场里面……
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204d.jpg" alt="" loading="lazy">
 
-将于当地时间13日举办的世界锦标赛。
+世界锦标赛将于当地时间１３日开幕。
 
-静静地等待那一刻。
+我们静静地等待着那一刻。
 
-用各种国家的语言说“欢迎！”
+用各个国家的语言写着“欢迎光临！”
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204e.jpg" alt="" loading="lazy">
 
@@ -94,9 +96,9 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/204/multi/204f.jpg" alt="" loading="lazy">
 
-外面已经是深夜。。。
+外面已经彻底进入深夜了……
 
-从海湾边为您报道！
+我在海湾前线为大家发来报道！
 
 那么，晚安！！
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 38
-gf_entry_title: ゲームフリークが贈る爽快アクションゲーム 「スクリューブレイカー」が発表されました！！
+gf_entry_title: 【开发日记】2005年 GAME FREAK动作新作
 gf_archive: 2005-05
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一介绍 GAME FREAK 久违的非宝可梦动作游戏《Screw Breaker》，分享团队挑战新领域的期待。
+gf_translation_title: 【开发日记】2005年 GAME FREAK动作新作
+gf_translation_summary: 增田顺一介绍 GAME FREAK 久违的非宝可梦动作游戏《Screw Breaker》，分享团队挑战新领域的期待。
 search: true
 source:
   title: 増田部長のめざめるパワー 第38回
   url: https://www.gamefreak.co.jp/blog/dir/2005/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-038
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,41 +37,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-GAME FREAK 献上的爽快动作游戏
+GAME FREAK 带来的爽快动作游戏
 
-「スクリューブレイカー」发表了！！
+《Screw Breaker》正式公布了！！
 
-[screwbreaker.com](http://www.screwbreaker.com/) 也已开放，请务必去看看！
+[screwbreaker.com](http://www.screwbreaker.com/) 也已经开放，大家一定要去看看！
 
-发售后，这个网站也会不断更新。
+游戏发售后，这个网站也计划不断更新。
 
-哎呀，久违地……
+哎呀，真是久违了……
 
-开发了宝可梦以外的作品。
+这次是开发宝可梦以外的作品。
 
-虽然非常困难，但创造新风、新浪潮
+虽然这是件非常困难的事，但我觉得，
 
-是很重要的事，我是这么想的。
+创造新的风、新的浪潮，
 
-「スクリューブレイカー」正在挑战新事物。
+其实是非常重要的。
 
-顺便一提，这款游戏
+《Screw Breaker》正在挑战全新的领域。
 
-由杉森先生担任总监，角色设计由吉田君负责。
+顺带一提，
 
-原本 GAME FREAK 就擅长昆蒂和帕尔斯曼等
+这款游戏由杉森先生担任总监，吉田负责角色设计。
 
-动作游戏的开发，所以可以放心推荐。
+GAME FREAK 原本就很擅长开发《昆蒂》和《脉冲超人》等
 
-而且，凭借宝可梦之后积累的经验，
+动作游戏，所以大家可以放心期待。
 
-我认为这款游戏作为动作游戏来说，也相当容易上手。
+另外，凭借我们在宝可梦之后积累的经验，
 
-无论在哪个意义上，都是一部可以向各种人推荐的作品，
+我觉得这款作品作为一款动作游戏，也做得相当容易理解。
 
-敬请期待！
+无论从哪种意义上说，这都是一部值得向各种玩家推荐的作品，
 
-那么！
+所以请大家满怀期待地等着它吧。
+
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

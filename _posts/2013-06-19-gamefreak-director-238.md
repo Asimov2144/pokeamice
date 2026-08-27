@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 238
-gf_entry_title: ６月１１日にロサンゼルスで行われたＥ３について！
+gf_entry_title: 【开发日记】2013年宝可梦E3圆桌会议
 gf_archive: 2013-06
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录洛杉矶E3开发者圆桌会议的筹备、彩排与现场盛况，并感谢到场的媒体和任天堂同仁。
+gf_translation_title: 【开发日记】2013年宝可梦E3圆桌会议
+gf_translation_summary: 增田顺一记录洛杉矶E3开发者圆桌会议的筹备、彩排与现场盛况，并感谢到场的媒体和任天堂同仁。
 search: true
 source:
   title: 増田部長のめざめるパワー 第238回
   url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-238
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-关于6月11日在洛杉矶举办的E3！
+关于6月11日在洛杉矶举行的E3！
 
-这次，任天堂的岩田社长向我们发出了邀请，
+这次，任天堂岩田社长向我发出了邀请，
 
-要在E3会场内举行的“开发者圆桌会议”上
+让我在E3会场内举办的“开发者圆桌会议”上
 
-进行演讲和问答环节。
+进行演讲和Q&A。
 
-（日文名称是“开发者讨论”）
+（日本称作“开发者讨论会”）
 
-以前，信息都是在日本公开、发售之后，E3才举行，
+此前，因为日本会先公开信息、发售，之后才轮到E3，
 
-所以我们从未在E3上进行过大规模发布。
+所以从来没有在E3上进行过大规模发表。
 
-每年在E3上都没什么可发布的，一直感到很遗憾，
+每年在E3都没法公布任何消息，我总觉得很寂寞，
 
-所以这次收到邀请时，我立刻回答：“当然想做！我们做！”
+所以这次接到邀请时，我立刻回答：“当然想做！我来做！”
 
-然后，我写了脚本，发给海外工作人员。
+然后，我写好台本，就给海外工作人员发邮件。
 
-一边听取海外的印象，一边修改脚本。
+一边听取海外的反馈，一边修改台本。
 
-修改脚本、发邮件、修改脚本、练习，如此反复。
+修改台本、发邮件、修改台本、反复练习。
 
 然后，6月9日前往洛杉矶。
 
-日本和洛杉矶的时差是16小时！
+日本和洛杉矶有16个小时的时差！
 
-坐飞机飞10个小时……就到了那天的早晨（笑）
+坐十个小时飞机后……那天早晨就开始了（笑）
 
-到达洛杉矶当天就在会场进行彩排！
+抵达洛杉矶当天就去会场彩排！
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_01.jpg" alt="" loading="lazy">
 
@@ -73,49 +75,49 @@ glossary_missing_targets: []
 
 第二天也彩排！！两次！！
 
-还在不断修改脚本、修改！！（汗）
+还在不断修改台本、修改！！（汗）
 
-从舞台一侧看是这样的。
+从舞台这边看过去是这样的。
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_02.jpg" alt="" loading="lazy">
 
 <p class="gf-director-spacer"></p>
 
-然后是正式演出的日子。
+然后，到了正式活动的日子。
 
-换上演讲用的服装，进行正式演出前的最后彩排。
+换上演讲时穿的衣服，进行开始前的最终彩排。
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_03.jpg" alt="" loading="lazy">
 
-这个意外很大的会场……
+这座出乎意料地大的会场……
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_04.jpg" alt="" loading="lazy">
 
-祈祷这些椅子都能坐满……
+一边祈祷这些座位能够全部坐满……
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_05.jpg" alt="" loading="lazy">
 
-马上就要正式演出了。
+马上就要正式开始了。
 
-媒体人士陆续入场。
+媒体朋友们陆陆续续入场。
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_06.jpg" alt="" loading="lazy">
 
-哦哦哦！
+哇哦！
 
-竟然！满座！！太感谢了！！！
+竟然！座无虚席！！太感谢了！！！
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_07.jpg" alt="" loading="lazy">
 
-然后是正式演出。
+然后，正式开始。
 
-石原先生约20分钟，增田约40分钟的演讲。
+石原先生进行了20分钟、我进行了约40分钟的演讲。
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_08.jpg" alt="" loading="lazy">
 
-演讲顺利结束……
+演讲顺利结束后……
 
-进入30分钟的问答环节。（从这里开始允许拍照和录音）
+进入30分钟的Q&A环节。（从这里开始可以拍照和录音）
 
 <img src="/assets/images/gamefreak-director/archive/238/multi/130619_09.jpg" alt="" loading="lazy">
 
@@ -123,29 +125,29 @@ glossary_missing_targets: []
 
 <p class="gf-director-spacer"></p>
 
-竟然，约有200家媒体、约300人来到了现场！
+没想到竟然有约200家媒体、约300位朋友前来参加！
 
-真的，非常感谢！！！
+真的非常感谢大家！！！
 
 任天堂的宫本先生、手冢先生、青沼先生，
 
-还有Sora的樱井先生也来了……真是太感动了！！
+还有索拉公司的樱井先生也来到了现场……我实在太感动了！！
 
 谢谢大家！
 
 就这样，E3的“开发者圆桌会议”顺利结束了！
 
-然后，把当时的情况浓缩成约5分钟的视频在这里！
+那么，把现场情况剪辑成大约5分钟的视频就在这里！
 
 [http://www.youtube.com/watch?v=QiyZGAooB4k](http://www.youtube.com/watch?v=QiyZGAooB4k)
 
 [http://www.youtube.com/watch?v=GrL3I38VO3o](http://www.youtube.com/watch?v=GrL3I38VO3o)
 
-公布发售日的6月11日的任天堂直面会在这里。
+公布发售日的6月11日任天堂直面会在这里。
 
 [http://www.nintendo.co.jp/nintendo_direct/20130611/index.html](http://www.nintendo.co.jp/nintendo_direct/20130611/index.html)
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

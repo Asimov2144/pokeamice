@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 53
-gf_entry_title: みなさま、お待たせ致しました！
+gf_entry_title: 【发售日记】《螺旋破坏者》今日发售
 gf_archive: 2005-09
 gf_categories:
 - お知らせ
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK倾注心血打造的动作游戏终于发售，附带振动卡带与杉森建绘制的五页漫画。
+gf_translation_title: 【发售日记】《螺旋破坏者》今日发售
+gf_translation_summary: GAME FREAK倾注心血打造的动作游戏终于发售，附带振动卡带与杉森建绘制的五页漫画。
 search: true
 source:
   title: 増田部長のめざめるパワー 第53回
   url: https://www.gamefreak.co.jp/blog/dir/2005/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-053
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,31 +38,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位，久等了！
+各位，让大家久等了！
 
-Game Boy Advance 用软件
+Game Boy Advance软件
 
-スクリューブレイカー
+《螺旋破坏者》
 
-轟振どりるれろ
+《轰振钻钻乐乐》
 
 今天，2005年9月22日，终于发售了！！！
 
-久违的 GAME FREAK 制作的动作游戏！！
+久违地推出了 GAME FREAK 制作的动作游戏！！
 
-附带震动卡带、杉森建的5页漫画！
+附带振动卡带，以及杉森建绘制的5页漫画！
 
-通过这部漫画，就能明白「どりるれろ」的理由！
+看了这部漫画，就能明白为什么叫“钻钻乐乐”了！
 
-和宝可梦一样，倾注了爱心创作而成！
+和宝可梦一样，这是我们倾注心血创作出来的作品！
 
-GAME FREAK 的工作人员满怀自信，
+GAME FREAK 的工作人员满怀信心，
 
-将其呈献给这个世界！！
+要把它送到这个世界上！！
 
-请务必务必购买！
+请大家一定一定要买来玩！
 
-Ciao！（我现在就去店里！）
+回头见！（我现在就要去店里了！）
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

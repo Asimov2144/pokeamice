@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 224
-gf_entry_title: 全国７カ所のポケモンセンターでのサイン会、無事終了しました！！！
+gf_entry_title: 【活动记录】2012年宝可梦签名会巡回
 gf_archive: 2012-03
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾全国七家宝可梦中心的签名会之旅，记录与玩家相遇的感动，以及宝可梦迎来十六周年的喜悦。
+gf_translation_title: 【活动记录】2012年宝可梦签名会巡回
+gf_translation_summary: 增田顺一回顾全国七家宝可梦中心的签名会之旅，记录与玩家相遇的感动，以及宝可梦迎来十六周年的喜悦。
 search: true
 source:
   title: 増田部長のめざめるパワー 第224回
   url: https://www.gamefreak.co.jp/blog/dir/2012/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-224
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 11
 glossary_missing_targets: []
 ---
@@ -36,37 +38,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-全国7家宝可梦中心的签名会，顺利结束了！！！
+全国7家宝可梦中心的签名会，顺利结束啦！！！
 
-前来参加的各位，真的非常感谢！
+前来参加的各位，真的非常感谢大家！
 
 谢谢大家！！
 
-这次总结了签名会的情况！
+这次签名会的情况，我整理成一篇记录啦！
 
-※有些照片模糊了，但……
+※其中有些照片有点模糊、、、
 
-　因为有人入镜、有人没入镜，所以全部上传了！
+　因为有些人被拍到了，有些人没有拍到，所以我把全部照片都放上来了！
 
-首先，稍微回顾一下……
+首先，让我们稍微回顾一下、、、
 
-正如专栏第219回所述，
+就像专栏第219回里写的那样、、
 
-在推特上有人希望举办签名会，
+有人在推特上提出了希望举办签名会的建议，
 
-宝可梦运营方也说：“务必举办吧！”
+宝可梦运营方也说了一句：“当然要办！”
 
-就这样，全国7家宝可梦中心的签名会巡游决定了。
+于是，全国7家宝可梦中心的签名会巡回就这样决定了。
 
-连这样的海报都制作出来了，令人惊讶（笑）
+没想到还做出了这样的海报，真让人吃惊（笑）
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/1.jpg" alt="" loading="lazy">
 
-那么，按顺序来！！
+那么，我们按顺序来！！
 
 首先，乘坐新干线N700系前往大阪。
 
-这里是大阪宝可梦中心！
+这里就是宝可梦中心大阪！
 
 开店前的宁静。
 
@@ -74,285 +76,285 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/3.jpg" alt="" loading="lazy">
 
-这是只有大阪才有的、用于签名会的秘密场所。这条通道的墙壁上排列着宝可梦！
+这是只有大阪店举办签名会时才会开放的秘密场所。这个通道的墙上，排列着宝可梦！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/4.jpg" alt="" loading="lazy">
 
-这里是签名的地方！！简直就像进入殿堂的房间！！！太酷了！！
+这里就是签名的地方！！简直就像冠军殿堂的房间！！！帅气！！
 
-听说今后会用作对战大会的会场等！
+听说今后还会用作对战大会的会场之类的地方！
 
-在这里，我一边与每个人交谈一边签名！
+我就在这里一边和大家逐一聊天，一边为大家签名！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/5.jpg" alt="" loading="lazy">
 
-2月5日（周日）13:00左右的大阪宝可梦中心！
+2月5日（星期日）13点左右的宝可梦中心大阪！
 
-在提问区与大家比✌！大阪队！
+在提问环节的场地和大家一起比耶！！大阪队！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/6.jpg" alt="" loading="lazy">
 
-大阪的各位！谢谢！！！
+大阪的大家！谢谢你们！！！
 
-然后直接前往名古屋。
+然后就这样继续前往名古屋。
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/7.jpg" alt="" loading="lazy">
 
-2月5日（周日）16:00名古屋宝可梦中心！！
+2月5日（星期日）16点，宝可梦中心名古屋！！
 
-在签名&提问区与大家比✌！名古屋队！
+在签名和提问环节的场地和大家一起比耶！！名古屋队！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/8.jpg" alt="" loading="lazy">
 
-来了这么多人，都超出场地了！
+前来参加的人多到都要挤出场地了！
 
-名古屋的各位！谢谢！！！
+名古屋的大家！谢谢你们！！！
 
-然后……
+然后、、、
 
-2月18日（周六）东京宝可梦中心！！
+2月18日（星期六），宝可梦中心东京！！
 
-提问环节结束后，与大家比✌！提问组·东京！
+提问环节结束后，和大家一起比耶！提问东京队！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/9.jpg" alt="" loading="lazy">
 
-泥巴鱼的靠垫让我很开心（笑）
+收到泥巴鱼的抱枕，我很开心（笑）
 
-东京提问组的各位！谢谢！！！
+东京提问环节的大家！谢谢你们！！！
 
-抽中签名会的各位＋最左边的GAME FREAK成员（笑）！
+抽中签名会的各位＋最左边的Game Freak成员（笑）！
 
-大家一起比✌！！签名会组·东京！
+大家一起比耶！！东京签名会队！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/10.jpg" alt="" loading="lazy">
 
-抽中签名会的各位，恭喜！
+抽中签名会的各位，恭喜你们！
 
-东京签名会的各位！谢谢！！！
+东京签名会的大家！谢谢你们！！！
 
-开车前往横滨！
+坐车前往横滨！
 
-同日16:00起，横滨宝可梦中心！！
+当天16点开始，宝可梦中心横滨！！
 
-在联盟交谊厅内比✌！！提问组·横滨！！
+在联盟交谊厅里比耶！！横滨提问队！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/11.jpg" alt="" loading="lazy">
 
-横滨提问组的各位！谢谢！！！
+横滨提问环节的大家！谢谢你们！！！
 
-然后是签名会！！
+接下来是签名会！！
 
-队伍太长，排到联盟交谊厅外面的各位，抱歉！！
+因为队伍太长，不得不排到联盟交谊厅外面的各位，真的很抱歉！！
 
-比✌！！签名会组·横滨！！
+比耶！！横滨签名会队！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/12.jpg" alt="" loading="lazy">
 
-横滨签名会的各位！谢谢！！！
+横滨签名会的大家！谢谢你们！！！
 
-2月25日（周六）福冈宝可梦中心！！！
+2月25日（星期六），宝可梦中心福冈！！！
 
-休息室里，有如此可爱的迎接！！
+休息室里，竟然有这么可爱的迎接我们的装饰！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/13.jpg" alt="" loading="lazy">
 
-竟然，几乎在室外！！好冷！！！
+没想到几乎是在室外！！好冷！！！
 
-提问环节结束后，大家一起比✌！提问组·福冈！！
+提问环节结束后，大家一起比耶！福冈提问队！！
 
-在寒冷中，谢谢！！！
+这么冷的天气里，谢谢你们！！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/14.jpg" alt="" loading="lazy">
 
-福冈提问组的各位！谢谢！！！
+福冈提问环节的大家！谢谢你们！！！
 
-然后，和签名会的各位一起！！
+然后是签名会的大家！！
 
-比✌！！签名会组·福冈！！
+比耶！！福冈签名会队！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/15.jpg" alt="" loading="lazy">
 
-真的，很冷呢……
+真的很冷呢、、、
 
-福冈签名会的各位！谢谢！！！
+福冈签名会的大家！谢谢你们！！！
 
-稍微潜入了一下福冈宝可梦中心！
+稍微潜入参观了一下宝可梦中心福冈！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/16.jpg" alt="" loading="lazy">
 
-晚上去看了装饰的山笠……
+晚上还去看了装饰起来的山笠、、、
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/17.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/18.jpg" alt="" loading="lazy">
 
-第二天早上，看了屋台军团（笑）
+第二天早上，又去看了屋台大军（笑）
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/19.jpg" alt="" loading="lazy">
 
-在2月26日（周日）的《宝可梦大轰动》中，
+在2月26日（星期日）的《宝可梦SMASH》中，
 
-公开了《宝可梦 黑2·白2》！
+《宝可梦 黑2·白2》进行了宣传！
 
-在九州的酒店里，公布了“暗黑酋雷姆”“焰白酋雷姆”！
+在九州的酒店里，公布了“暗黑酋雷姆”和“焰白酋雷姆”！
 
-不小心把“莱希拉姆”写成“雷吉拉姆”之类的（大家对不起）
+还不小心把“莱希拉姆”写成了“雷希拉姆”之类的（大家对不起）
 
-一路前往东京。
+一路返回东京。
 
-然后2月26日（周日）23:59
+然后是2月26日（星期日）23点59分。
 
-在推特上收到了令人开心的提议，大家一起倒计时！
+因为有人在推特上提出了一个令人开心的建议，于是大家一起倒数！
 
-2月27日（周一）0:00
+2月27日（星期一）0点。
 
-“祝！宝可梦16周年！”
+“祝贺！宝可梦16周年！”
 
-很多人转发了这个词条！
+有很多人都发推特写下了这句话！
 
-在这么多人的祝福中，
+宝可梦就这样在这么多人的祝福中，
 
-宝可梦迎来了16周年。
+迎来了16周年。
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/20.jpg" alt="" loading="lazy">
 
-大家的温暖心意让我感激不尽！
+大家温暖的心意，让我既感激又感动！
 
-谢谢！
+谢谢大家！
 
-3月3日（周六）女儿节！
+3月3日（星期六），女儿节！
 
-在东京站看到“隼”号列车，一大早就兴奋不已！！
+一大早在东京站看到“隼”号，情绪就高涨起来了！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/21.jpg" alt="" loading="lazy">
 
-到达仙台！雪、雪？是雪！！好冷！
+抵达仙台！呃、下雪？真的下雪了！！好冷！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/22.jpg" alt="" loading="lazy">
 
-说到东北宝可梦中心，
+说到宝可梦中心东北，
 
-就是拿着“治愈铃声”的比克提尼！
+就是戴着“治愈铃声”的比克提尼！
 
-拿着“干劲头带”的皮卡丘！
+戴着“努力缎带”的皮卡丘！
 
 戴着“气势头带”的藤藤蛇！
 
-大家一起迎接！好开心！！
+大家一起出来迎接我们！好开心！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/23.jpg" alt="" loading="lazy">
 
-在东北宝可梦中心所在大楼的1楼，11:00开始提问环节！
+11点开始，在宝可梦中心东北所在大楼的一层举行提问环节！
 
-提问环节结束后，大家一起比✌！提问组·东北！！
+提问环节结束后，大家一起比耶！东北提问队！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/24.jpg" alt="" loading="lazy">
 
-东北提问组的各位！谢谢！！！
+东北提问环节的大家！谢谢你们！！！
 
-然后，签名会在2楼。
+然后，签名会在二楼举行。
 
-签名会组·东北！！比——✌！！
+东北签名会队！！比——耶！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/25.jpg" alt="" loading="lazy">
 
-东北签名会的各位！谢谢！！！
+东北签名会的大家！谢谢你们！！！
 
-稍微潜入了一下东北宝可梦中心的店铺。
+还稍微潜入参观了一下宝可梦中心东北的店铺。
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/26.jpg" alt="" loading="lazy">
 
-然后，从仙台机场到新千岁机场，前往札幌。
+然后从仙台机场飞往新千岁机场，再前往札幌。
 
-晚上到达的札幌是雪、雪、雪！！
+晚上抵达的札幌，到处都是雪、雪、雪！！
 
-黑色的不是岩石，而是雪凝固成的……冰块……冰的护栏！
+黑色的部分不是岩石，而是积雪凝结之后形成的、、、冰块。。。。。冰制护栏！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/27.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/28.jpg" alt="" loading="lazy">
 
-第二天，3月4日（周日）最后一场签名会当天。
+第二天，3月4日（星期日），最后一场签名会的当天。
 
-从酒店看到的景色非常壮观。大楼前方是雄伟的群山！
+从酒店看到的景色美极了。高楼前方，是雄伟的群山！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/29.jpg" alt="" loading="lazy">
 
-札幌宝可梦中心！！
+宝可梦中心札幌！！
 
-11:00提问环节开始！！
+11点开始提问环节！！
 
-分为联盟交谊厅内、联盟交谊厅后方（玻璃）的另一侧、侧面的显示器区域。
+大家分别位于联盟交谊厅内、联盟交谊厅后方（玻璃）另一侧，以及侧面的显示器区域。
 
-大家一起比✌！提问组·札幌！！
+大家一起比耶！札幌提问队！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/30.jpg" alt="" loading="lazy">
 
-侧面显示器区域！比✌！
+侧面显示器区域！比耶！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/31.jpg" alt="" loading="lazy">
 
-联盟交谊厅后方！！比✌！！！
+联盟交谊厅后方！！比耶！！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/32.jpg" alt="" loading="lazy">
 
-札幌提问组的各位！谢谢！！！
+札幌提问环节的大家！谢谢你们！！！
 
 然后，终于到了最后一场签名会！！
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/33.jpg" alt="" loading="lazy">
 
-札幌签名会的各位！谢谢！！！
+札幌签名会的大家！谢谢你们！！！
 
-最后和很多人握手，非常感动！！
+最后还和很多人握了手，真的非常感动！！
 
-最后偷偷潜入首次到访的札幌宝可梦中心。
+最后，我又偷偷潜入参观了第一次去的宝可梦中心札幌。
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/34.jpg" alt="" loading="lazy">
 
 从札幌前往新千岁机场。
 
-在新千岁机场发现了宝可梦飞机！！
+在新千岁机场发现了宝可梦喷气飞机！！
 
-一定是“辛苦了！”在对我说话（笑）
+它一定是在对我们说：“辛苦了！”吧（笑）
 
 <img src="/assets/images/gamefreak-director/archive/224/multi/35.jpg" alt="" loading="lazy">
 
 就这样，签名会落下了帷幕。
 
-能和大家相遇，真的很幸福。
+能够和大家相遇，我真的感到非常幸福。
 
-非常开心。很感动。
+我特别开心，也非常感动。
 
-从远方专程赶来的各位，真的非常感谢。
+也要真心感谢那些从远方专程赶来参加的各位。
 
-当然，从附近、一大早就赶来的各位，也谢谢你们。
+当然，也感谢那些从附近赶来，或是一大早就出发前来的各位。
 
-另外，好不容易来了却没能见到面的
+另外，东京和横滨的各位，难得特地前来，结果我却连面都没能和大家见上，
 
-东京、横滨的各位，真的很抱歉。
+真的非常抱歉。
 
-如果在什么地方看到增田，请轻松地打个招呼吧！！
+如果大家在哪里看到我，请随意和我打招呼哦！！
 
 在大家的支持下，宝可梦迎来了16周年。
 
-今后也请多多关照宝可梦。
+今后也请大家继续支持宝可梦。
 
-如果能一起培育，没有比这更开心的事了。
+如果能和大家一起把它培育下去，那就再也没有比这更让我开心的事了。
 
-增田也会用大家给予的力量，努力“做出更好的东西”。
+我也会用大家给予我的力量，继续努力“制作出更好的作品”。
 
-真的，非常感谢！！！！
+真的非常感谢大家！！！！
 
-最后……（虽然是内部话，请让我说……）
+最后、、、（虽然是内部话，但请让我说几句、、、）
 
-运营团队的各位，以及各宝可梦中心的员工们，
+运营工作人员的各位，以及各家宝可梦中心的工作人员们，
 
-多亏了大家的力量，我才能有如此精彩的体验。
+多亏了大家的努力，我们才能拥有如此美好的体验。
 
-今后也请继续培育宝可梦中心。
+今后也请继续和我们一起把宝可梦中心建设得越来越好。
 
-承蒙关照。非常感谢。谢谢大家！
+承蒙大家关照。由衷感谢大家。谢谢！！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 202
-gf_entry_title: バトル遺伝子M、見ました？
+gf_entry_title: 【音乐日记】竹兰主题曲登上电视舞台
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享《宝可梦大爆笑！》中的“战斗基因M”：竹兰音乐经重新编曲并填词后，由战斗女王M帅气演唱。
+gf_translation_title: 【音乐日记】竹兰主题曲登上电视舞台
+gf_translation_summary: 增田分享《宝可梦大爆笑！》中的“战斗基因M”：竹兰音乐经重新编曲并填词后，由战斗女王M帅气演唱。
 search: true
 source:
   title: 増田部長のめざめるパワー 第202回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-202
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,57 +38,57 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-バトル遺伝子M，看了吗？
+战斗基因M，你看了吗？
 
-什么？你说那是什么的人！！
+有人会问：“那是什么？”！！
 
-ポケモンスマッシュ！没看吧？？
+你没看《宝可梦大爆笑！》吧？？
 
-请每周都看哦ー！
+每周都要看哦——！
 
-前几天，7月31日的ポケモンスマッシュ！中，
+前些天，也就是7月31日的《宝可梦大爆笑！》中，
 
-MTM with バトルウーマンM登场了！
+MTM with 战斗女王M登场了！
 
-增田作曲的竹兰的音乐，
+我作曲的竹兰音乐，
 
-由电影音乐的宫崎先生编曲，
+由电影音乐的宫崎先生重新编曲，
 
-再加上户田先生填词。
+戸田先生还为它填了词。
 
-然后，バトルウーマンM帅气地演唱了这首歌！
+然后，战斗女王M帅气地把它唱了出来！
 
-桃瀬美咲的变身也很精彩！
+桃濑美咲小姐的变身也非常精彩！
 
-音乐以各种形式呈现会更有趣，
+音乐能以各种不同的形式呈现出来，才更有意思，
 
-也因此可能性得以扩展，我很喜欢。
+而且也会因此拓展出更多可能性，所以我很喜欢。
 
-感觉非常棒吧？
+感觉非常棒，对吧？
 
-希望喜欢竹兰音乐的人也一定要听听。
+喜欢竹兰音乐的朋友，也请一定要唱唱看。
 
-还没看的人必看！！
+还没看过的人绝对不能错过！！
 
-バトル遺伝子M、MTM with バトルウーマンM
+战斗基因M、MTM with 战斗女王M
 
 [http://ptcg.creatures.co.jp/column/6693](http://ptcg.creatures.co.jp/column/6693)
 
-※来自Creatures公司的博客。
+※内容来自 Creatures 公司的博客。
 
-ポケモンスマッシュ！
+《宝可梦大爆笑！》
 
 [http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
-ポケモンスマッシュ！下集预告！
+《宝可梦大爆笑！》下集预告！
 
 [http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/trailer/)
 
-ミサッキー的博客
+美咲小姐的博客
 
 [http://ameblo.jp/misaki-momose/](http://ameblo.jp/misaki-momose/)
 
-那么！
+那么，下次见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

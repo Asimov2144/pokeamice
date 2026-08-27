@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 182
-gf_entry_title: ゾロアークがゲームフリークに！
+gf_entry_title: 【节目预告】索罗亚克来访 GAME FREAK
 gf_archive: 2011-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 1月9日的《宝可梦冲刺！》将播出索罗亚克到访 GAME FREAK 的内容，我还会首次挑战表演，千万不要错过！
+gf_translation_title: 【节目预告】索罗亚克来访 GAME FREAK
+gf_translation_summary: 1月9日的《宝可梦冲刺！》将播出索罗亚克到访 GAME FREAK 的内容，我还会首次挑战表演，千万不要错过！
 search: true
 source:
   title: 増田部長のめざめるパワー 第182回
   url: https://www.gamefreak.co.jp/blog/dir/2011/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-182
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets:
 - 电视机
@@ -39,19 +41,19 @@ glossary_missing_targets:
 
 索罗亚克来到 GAME FREAK！
 
-1月9日（周日）「宝可梦大轰动！」（东京电视台系列）的
+1月9日（星期日），《宝可梦冲刺！》（东京电视台系列）的
 
-索罗亚克将来到 GAME FREAK！
+索罗亚克要来 GAME FREAK 了！
 
 [http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)
 
-当然，增田也会说话！
+当然，我也会说话！
 
-还有首次的演技（笑）！
+还会有我的首次表演（笑）！
 
-敬请不要错过！！
+千万不要错过！！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

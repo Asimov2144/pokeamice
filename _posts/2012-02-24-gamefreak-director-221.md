@@ -14,51 +14,51 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 221
-gf_entry_title: とても重要なお知らせです！！！
+gf_entry_title: 【重要通知】宝可梦节目重大消息
 gf_archive: 2012-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田将于2月26日现身《宝可梦 Smash》，并在节目中公布重大消息；无法收看的观众可通过推特同步获知。
+gf_translation_title: 【重要通知】宝可梦节目重大消息
+gf_translation_summary: 增田将于2月26日现身《宝可梦 Smash》，并在节目中公布重大消息；无法收看的观众可通过推特同步获知。
 search: true
 source:
   title: 増田部長のめざめるパワー 第221回
   url: https://www.gamefreak.co.jp/blog/dir/2012/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-221
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 5
 glossary_missing_targets:
 - 武德
-- 电视机
 - 大电视
-- 电视机
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-非常重要的通知！！！
+这是非常重要的通知！！！
 
-２０１２年２月２６日（星期日）早上７：３０起在东京电视台系列播出的
+2012年2月26日（星期日）早上7:30起，东京电视台系列频道播出的
 
-宝可梦 smash 中，增田会出场！！！但是、、、
+《宝可梦 Smash》中，我会出场！！！不过……
 
-竟然！！！在那里、、、
+没想到！！！届时……
 
-会进行非常重大的发表，
+我会公布一项非常重大的消息，
 
-请绝对不要错过！！！
+所以请千万不要错过！！！
 
-请大家收看直播！！！
+请大家一定要收看现场直播！！！
 
-然后，无法收看的朋友们、、、
+至于没法收看的朋友……
 
-增田会在[推特](https://twitter.com/#%21/Junichi_Masuda)上于播出后立刻发布与电视相同的信息！！！
+我会在节目播出后立刻通过[推特](https://twitter.com/#%21/Junichi_Masuda)，发布和电视机上相同的信息！！！
 
-大家，敬请期待哦ー！！！！！
+大家敬请期待哦——！！！！！
 
 再见！
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 89
-gf_entry_title: もの作りには、哲学や思想はとても大切です。
+gf_entry_title: 【创作随笔】哲学与思想的力量
 gf_archive: 2007-06
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田谈创作中哲学与思想的重要性：它们能超越单纯品质，让作品传达创作者的理由与情感。
+gf_translation_title: 【创作随笔】哲学与思想的力量
+gf_translation_summary: 增田谈创作中哲学与思想的重要性：它们能超越单纯品质，让作品传达创作者的理由与情感。
 search: true
 source:
   title: 増田部長のめざめるパワー 第89回
   url: https://www.gamefreak.co.jp/blog/dir/2007/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-089
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-制作东西时，哲学和思想是非常重要的。
+在创作事物时，哲学和思想是非常重要的。
 
 即使画出质量极高的画，创作出音乐，制作出游戏，
 
-如果其中看不到哲学和思想，那就会显得非常无趣，
+如果在那里看不见哲学和思想，就很容易显得非常无聊，
 
-也很难将信息传递给许多人。
+也会变得难以将想传达给许多人的信息送达。
 
-这或许可以说是制作者的责任，
+这或许也可以说是创作者的责任，
 
-也可以说是放弃了传达信息的使命。
+也或许可以说是放弃传达信息。
 
-我认为，制作者的想法和理由之所以重要，正是因为这个原因。
+我想，之所以说创作者的思考方式和创作理由很重要，就是这个意思。
 
-因为自己独特的哲学和思想，拥有超越质量的力量。
+因为属于自己的哲学、思想，拥有超越品质本身的力量。
 
-这或许就是质量达到极致的事物与艺术之间的差别。
+这或许就是极致的高品质与艺术之间的差别吧。
 
-那些凝聚了个人思考的作品，更容易让人产生情感共鸣。
+将那个人的想法倾注其中的作品，更容易让人对它产生感情。
 
-一切都有其理由。
+一切事物都有其理由。
 
-即使是宝可梦的一个设计也是如此。
+即使只看宝可梦的一个设计，也是一样。
 
-即使是一个音符或音量也是如此。
+即使只看一个音符或音量，也是如此。
 
-虽然制作者和接受者的角色不同，
+创作者和接受者所承担的角色不同，
 
-但让我们思考一下“为什么会变成那样？”和“为什么会那样做？”。
+但不妨想一想：“为什么会变成这样？”“为什么要这样做？”
 
-我相信，一定会找到新的答案。
+我想，你一定会看到新的答案。
 
-而且，总有一天，你会看到对方和自己的思想。
+然后不知不觉间，我想你也会看见对方以及自己的思想。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

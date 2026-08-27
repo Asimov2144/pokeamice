@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 170
-gf_entry_title: 今回のブラック・ホワイトでは、 エンディングまで、すべて新ポケモンです。
+gf_entry_title: 【开发日记】2010年《黑／白》的新宝可梦
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享《黑／白》全程只出现新宝可梦的设计理念，以及外部试玩者对新鲜感和未知感的积极反馈。
+gf_translation_title: 【开发日记】2010年《黑／白》的新宝可梦
+gf_translation_summary: 增田顺一分享《黑／白》全程只出现新宝可梦的设计理念，以及外部试玩者对新鲜感和未知感的积极反馈。
 search: true
 source:
   title: 増田部長のめざめるパワー 第170回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-170
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-这次的《黑·白》中，
+这次的《黑／白》中，
 
-直到结局，全部都是新宝可梦。
+直到结局为止，出现的全都是新宝可梦。
 
-只会出现新宝可梦！
+只会有新宝可梦跳出来！
 
-这是为了让小孩和大人都能站在同一起跑线上，
+这是因为我希望孩子和大人都能站在同一起跑线上，
 
-并且像红·绿那样，想呈现出“这是什么宝可梦？”的乐趣。
+同时也想像红绿那样，带来“这是什么宝可梦？”的乐趣。
 
-让公司外部的人试玩时的感受是……
+让公司外部的人试玩时，他们的感受是……
 
-“果然全是没见过的宝可梦，很新鲜。”
+“果然全都是没见过的宝可梦，感觉很新鲜啊。”
 
-“不知道宝可梦的属性，也会被招式吓到呢。”
+“连宝可梦的属性都不知道，还会因为招式而大吃一惊呢。”
 
-“感觉像是在玩（像红·绿那时一样的）全新作品。”
+“感觉自己正在游玩一个（就像红绿当年那样）全新的东西。”
 
-等等……评价非常好。
+诸如此类……总之，大家的评价都非常好。
 
-宝可梦的设计是非常辛苦的工作，但……
+宝可梦的设计是一项非常辛苦的工作，不过……
 
-我们公司的图形工作人员也说：
+我们这边的美术工作人员也说：
 
-“只要大家能玩得开心，我们就很高兴！”
+“只要大家玩得开心，我们就很高兴！”
 
-所以，请务必务必试玩一下！！
+所以还请大家务必要亲自玩玩看！！
 
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

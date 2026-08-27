@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 226
-gf_entry_title: 新しい挑戦を！！
+gf_entry_title: 【新作预告】GAME FREAK的新挑战
 gf_archive: 2012-08
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK介绍三人团队免审制作机制，并预告即将揭晓的、不同于宝可梦的新游戏体验。
+gf_translation_title: 【新作预告】GAME FREAK的新挑战
+gf_translation_summary: GAME FREAK介绍三人团队免审制作机制，并预告即将揭晓的、不同于宝可梦的新游戏体验。
 search: true
 source:
   title: 増田部長のめざめるパワー 第226回
   url: https://www.gamefreak.co.jp/blog/dir/2012/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-226
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets:
 - 球球屋
@@ -38,42 +40,45 @@ glossary_missing_targets:
 
 新的挑战！！
 
-在GAME FREAK，
+在 GAME FREAK，
 
-我们一直在构建能够自由进行
-充满独创性的游戏制作的组织。
+我们一直在努力打造一个组织，
 
-即便如此，要创造出新事物仍然是很困难的。
+让大家可以自由地制作充满原创性的游戏。
 
-于是，，，
+即便如此，要创造出新东西，还是相当困难。
 
-2009年，我们进一步建立了新的机制。
+所以……
 
-只要三人组成团队，就可以不经审查制作游戏的机制。
+2009年，我们又建立了一套全新的机制。
 
-取消审查的原因是，
+只要三个人组成团队，就能不经过审核制作游戏。
 
-即使把躲避球或篮球写成纸上的企划书，
-又能传达多少乐趣呢？
+之所以取消审核，
 
-正是出于这样的想法。
+是因为我一直在想：
 
-实际制作并游玩，更有可能遇到更有趣的点子，
-而且我认为这样更容易理解。
+要是把躲避球和篮球写进纸面企划书里，
 
-我们GAME FREAK，
+究竟能传达出多少趣味呢？
 
-一直通过这样的新机制持续进行游戏制作。
+实际做出来、亲自玩过之后，遇到更有趣创意的可能性也更高，
 
-然后，，，
+我觉得这样也更容易让人理解。
 
-不久，将会有某种结果。
+我们 GAME FREAK，
 
-与宝可梦不同的GAME FREAK的新玩法！
+一直通过这样的新机制持续制作游戏。
 
-各位，敬请期待！！！
+然后……
 
-Ciao！
+很快，就会有某种成果了。
+
+不同于宝可梦的、GAME FREAK全新的游戏体验！
+
+大家，敬请期待！！！
+
+回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

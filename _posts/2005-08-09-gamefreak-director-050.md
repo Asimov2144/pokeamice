@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 50
-gf_entry_title: モノってすごいですよね。
+gf_entry_title: 【随笔】2005年物品为何令人渴望
 gf_archive: 2005-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田从冰箱洗衣机谈到角色与品牌，思考物品如何因功能、设计和附加价值而令人产生渴望。
+gf_translation_title: 【随笔】2005年物品为何令人渴望
+gf_translation_summary: 增田从冰箱洗衣机谈到角色与品牌，思考物品如何因功能、设计和附加价值而令人产生渴望。
 search: true
 source:
   title: 増田部長のめざめるパワー 第50回
   url: https://www.gamefreak.co.jp/blog/dir/2005/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-050
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,43 +37,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-物品真的很厉害呢。
+东西真是很厉害啊。
 
-世界上充满了物品。
+这个世界上到处都是东西。
 
-为什么人们会买物品呢？
+人为什么要买东西呢？
 
-为什么会对物品如此执着呢？
+又为什么会如此执着于东西呢？
 
-真是不可思议。
+真不可思议。
 
-想要的心情是复杂的。
+想要某样东西的感情，其实很复杂。
 
-有的人是因为想炫耀，
+有人是因为想拿来炫耀，
 
-有的人只是单纯地想拥有它。
+也有人只是单纯地想把它据为己有。
 
-对于冰箱和洗衣机，并没有那么强烈的欲望，
+明明人们对冰箱、洗衣机之类的东西没那么强烈的欲望，
 
-但一旦带有（广义上的）角色性，就会作为新的价值而想要。
+可一旦它们拥有了（广义上的）角色性，就会作为一种新的价值而让人想要。
 
-人们会因为大小和功能而想要。
+东西的大小和功能，会让人产生购买欲。
 
-再加上设计，就会更想要。
+再加上设计，就会让人更加想要。
 
-然后，再加上角色性（也许也可以称为品牌性），就会更加想要。
+然后再加上角色性（或许也可以说是品牌性），就会让人更想要。
 
-当某种东西被加上时，欲望会提高，很多人会想要。
+一旦增加了某种东西，欲望就会增强，也会有更多人想要它。
 
-或者，在某个类别上加上某种东西，可能只有特定的用户会想要。
+或者，通过给某个类别增添某种元素，只会让特定的用户产生购买欲。
 
-寻找那些以前没在意过的东西，
+去寻找那些至今从未在意过的东西，
 
-想想加上什么，自己就会想要呢？
+想想看，要加上什么，自己才会想要？
 
-这样思考的话，想法也会扩展，很有趣哦。
+这样思考一番，灵感也会不断涌现，感觉很有意思哦。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

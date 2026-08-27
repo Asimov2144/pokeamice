@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 192
-gf_entry_title: ''
+gf_entry_title: 【开发日记】2011年宝可梦博客第192回
 gf_archive: 2011-04
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 本回正文以多张原始图片呈现，完整保留图片标记与编排，方便中文玩家阅读和人工校对。
+gf_translation_title: 【开发日记】2011年宝可梦博客第192回
+gf_translation_summary: 本回正文以多张原始图片呈现，完整保留图片标记与编排，方便中文玩家阅读和人工校对。
 search: true
 source:
   title: 増田部長のめざめるパワー 第192回
   url: https://www.gamefreak.co.jp/blog/dir/2011/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-192
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---

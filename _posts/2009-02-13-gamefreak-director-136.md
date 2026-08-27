@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 136
-gf_entry_title: 次回のポケモン☆サンデーに注目！
+gf_entry_title: 【节目预告】宝可梦节目亮相
 gf_archive: 2009-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田将在2月15日的宝可梦节目中短暂出镜，《白金》导演和几位开发成员也可能登场，欢迎大家关注。
+gf_translation_title: 【节目预告】宝可梦节目亮相
+gf_translation_summary: 增田将在2月15日的宝可梦节目中短暂出镜，《白金》导演和几位开发成员也可能登场，欢迎大家关注。
 search: true
 source:
   title: 増田部長のめざめるパワー 第136回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-136
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,23 +38,21 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-下次的宝可梦☆星期天敬请关注！
+2月15日（星期日）的[宝可梦☆星期天](http://www.tv-tokyo.co.jp/anime/pokemon_sunday/)节目里
 
-2月15日（周日）的[宝可梦☆星期天](http://www.tv-tokyo.co.jp/anime/pokemon_sunday/)中
+我也会稍微露个脸！
 
-增田会稍微出演一下！
+《白金》的导演川内丸也会出场！
 
-白金版的导演川内丸也会出场！
+另外，（如果没有被剪掉的话）开发团队应该也会有几位露脸！
 
-而且，（如果没有被剪掉的话）开发团队的几位成员应该也会出现！
+如果大家能多少感受到我们公司的氛围，我就很开心了！
 
-如果能稍微传达出我们公司的氛围，我会很高兴！
+不过话说回来……真是什么企划都有啊……
 
-话说回来，，，真是有各种各样的企划呢。。。
+千万不要错过！！！
 
-敬请不要错过！！！
-
-那么。
+那就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

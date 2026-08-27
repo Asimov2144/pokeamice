@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 165
-gf_entry_title: みなさん
+gf_entry_title: 【日记】盛夏探访宝可梦中心
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 今年的宝可梦中心焕然一新，我在疲惫时前去恢复体力，还意外发现了工作人员博客网站。
+gf_translation_title: 【日记】盛夏探访宝可梦中心
+gf_translation_summary: 今年的宝可梦中心焕然一新，我在疲惫时前去恢复体力，还意外发现了工作人员博客网站。
 search: true
 source:
   title: 増田部長のめざめるパワー 第165回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-165
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,35 +38,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位
+大家
 
-真是热得要命啊。。。
+真是热得要命啊……
 
-说到热就是夏天。
+说到热，就是夏天。
 
 说到夏天，就是宝可梦！！
 
-说到宝可梦，就是回复体力的地方，宝可梦中心！！！
+说到宝可梦，就是恢复体力的地方——宝可梦中心！！！
 
-所以说，累的时候就在宝可梦中心东京店，
+所以，每当累了，我都会去宝可梦中心东京，
 
-回复体力的马苏达，
+恢复体力的我，
 
-今年的宝可梦中心闪闪发亮，回复个不停（笑）
+今年的宝可梦中心闪闪发亮，让我恢复得特别充分（笑）
 
-检查那闪闪发亮的时候发现了！
+正在查看这些闪闪发亮的地方时，我发现了！
 
-「宝可梦中心官方　工作人员之声」
+「宝可梦中心官方 工作人员之声」
 
 [http://voice.pokemon.co.jp/v-zenkoku/](http://voice.pokemon.co.jp/v-zenkoku/)
 
-各位，，，见过吗？
+大家……你们见过这个吗？
 
-不好意思，今天才知道（汗）
+不好意思，我也是今天才知道（汗）
 
-然后，，，这个网站的照片，，，是在谁家拍的呢。。。
+然后……这个网站上的照片……究竟是在谁家拍的呢……
 
-那么。
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

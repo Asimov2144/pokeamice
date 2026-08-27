@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 33
-gf_entry_title: 今日は、いつものコラムと違い、お知らせがあります。
+gf_entry_title: 【特别企划】宝可梦九周年玩家交流会
 gf_archive: 2005-03
 gf_categories:
 - お知らせ
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK 邀请喜爱宝可梦、立志成为游戏创作者的玩家，与增田部长面对面交流，参加九周年特别企划。
+gf_translation_title: 【特别企划】宝可梦九周年玩家交流会
+gf_translation_summary: GAME FREAK 邀请喜爱宝可梦、立志成为游戏创作者的玩家，与增田部长面对面交流，参加九周年特别企划。
 search: true
 source:
   title: 増田部長のめざめるパワー 第33回
   url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-033
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -36,72 +38,72 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-今天，与平时的专栏不同，有一条通知。
+今天和往常的专栏不同，有一件事要通知大家。
 
-来自 GAME FREAK 企划成员的宝可梦 9 周年特别企划！！
+GAME FREAK 企划成员带来的宝可梦九周年特别企划！！
 
-敬请期待！
+期待大家前来！
 
-■増田部长的「看我嘛」！■
-「一般玩家是怎么看待宝可梦的呢…？」
+■增田部长的“看我嘛”！■
+“普通玩家究竟是怎么看待宝可梦的呢……？”
 
-GAME FREAK 开发部长的这样一句话，催生了一个企划。
-邀请喜欢宝可梦的人们聚在一起，
+GAME FREAK 开发部长的一句话，促成了这样一个企划。
+我们想邀请喜欢宝可梦的朋友们聚到一起，
 
-希望你们能和増田部长聊一聊！
+和增田部长聊聊天！
 喜欢宝可梦的各位！
 
 想成为游戏创作者的各位！
 
-要不要和我们开发部长愉快地畅谈一番呢？
-■申请方法
+要不要和我们这位开发部长一起愉快地聊一聊呢？
+■报名方法
 
 请在明信片上写下以下项目，寄到 GAME FREAK。
-◎应征资格
+◎报名资格
 
-　　喜欢宝可梦，并且以游戏创作者为目标的人
+　　喜欢宝可梦，并以成为游戏创作者为目标的人
 ◎明信片正面
 
 　　〒155-0031
 
 　　 东京都世田谷区北泽1-40-6
 
-　　 柏第三大厦5F
+　　 カシワサードビル5层
 
-　　 株式会社 GAME FREAK
+　　 GAME FREAK株式会社
 
-　　「看我嘛」负责人
+　　“看我嘛”收
 ◎明信片背面
 
 　　（1）姓名
 
 　　（2）年龄
 
-　　（3）住址・电话号码
+　　（3）地址、电话号码
 
 　　（4）职业
 
 　　（5）电子邮箱地址
 
-　　（6）请写一句话！
+　　（6）请写几句话！
 
-　　　　・见到増田的话想问他这样的事
+　　　　　・如果见到增田，想问问这样的事情
 
-　　　　・喜欢宝可梦的这个地方
+　　　　　・喜欢宝可梦的这些地方
 
-　　　　・想成为这样的游戏创作者
+　　　　　・想成为这样的游戏创作者
 
-　　　　等等，无论什么内容，写几条都可以。
-GAME FREAK 的工作人员会阅览，成员凑齐后就会通知举办事宜。
+　　　　　等等，无论写什么、写几条都可以。
+GAME FREAK 的工作人员会阅读大家的来信，等成员招募齐后，我们会通知活动举办的消息。
 
-对于参加者，我们会从 GAME FREAK 寄出通知明信片或邮件。
-举办当天的情形，日后会在这个网站上公布。
+对于报名参加的朋友，GAME FREAK 会寄送明信片或发送电子邮件通知。
+活动当天的情况，将于日后在本网站公布。
 
-另外，很遗憾，未能参加的各位的明信片，也可能在这个页面上
+另外，很遗憾，没能参加活动的朋友所寄来的明信片，也有可能会在本页面上
 
-公布出来。
-期待大家的来信！
-「看我嘛」举办工作人员　佐藤＆大森
+刊登出来。
+期待收到大家的来信！
+看我嘛活动工作人员　佐藤＆大森
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

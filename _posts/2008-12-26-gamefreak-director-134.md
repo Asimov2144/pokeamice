@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 134
-gf_entry_title: 今年もあとわずか！ みなさん２００８年はどんな年でしたか？
+gf_entry_title: 【开发随笔】2008年坚持做游戏
 gf_archive: 2008-12
 gf_categories:
 - ものづくりについて
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回望这一年，思考电子游戏的本质与可能，并以对制作游戏的热爱，展望继续前进的2009年。
+gf_translation_title: 【开发随笔】2008年坚持做游戏
+gf_translation_summary: 增田回望这一年，思考电子游戏的本质与可能，并以对制作游戏的热爱，展望继续前进的2009年。
 search: true
 source:
   title: 増田部長のめざめるパワー 第134回
   url: https://www.gamefreak.co.jp/blog/dir/2008/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-134
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -36,45 +38,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-今年也只剩下一点点了！
+今年也快过完了！
 
-大家的2008年是怎样的一年呢？
+大家觉得，2008年是怎样的一年呢？
 
-增田可以说，这是比以往更加深入、更加深入地思考电视游戏的一年。
+对我来说，这一年可以说是比以往更加深入地思考电子游戏的一年。
 
-电视游戏是什么？电视游戏能做什么？
+电子游戏究竟是什么？电子游戏能够做到什么？
 
-只有电视游戏才能做到的事情是什么？
+只有电子游戏才能做到的事，又是什么？
 
-用电视游戏做什么才好？
+用电子游戏做什么才是好的？
 
-我再次感受到，深刻理解其本质、作用以及优势是很重要的事情。
+我重新感受到，深入理解它的本质、作用以及优势，是一件很重要的事。
 
-因为喜欢而制作的电视游戏。
+这是我因为喜欢而一直制作的电子游戏。
 
-用音乐来说，因为喜欢唱歌而在街角歌唱，
+如果用音乐来打个比方，就是因为喜欢唱歌，所以在街头唱歌，
 
-被星探发掘成为歌手，歌曲大卖成为明星。
+被发掘后成为歌手，歌曲卖得很好，成了明星。
 
-即使成为顶级歌手也继续唱歌。
+即使成为顶尖歌手，也会继续唱歌。
 
-即使歌曲卖不出去也继续唱。
+即使歌曲卖不出去，也会继续唱歌。
 
-即使没有听众也一定会继续唱。
+即使肯定没有人听，也会继续唱下去。
 
-因为，喜欢唱歌。
+因为喜欢唱歌。
 
-增田也一直在制作。
+我也一直在持续制作。
 
 因为喜欢制作游戏。
 
-我想把这份心情好好地延续到明年。
+我想把这份心情也好好延续到明年。
 
-今年，GAME FREAK 也受到了大家的支持，得以向前迈进。
+今年，GAME FREAK也在大家的支持下得以继续前进。
 
-2009年我们也会加油，请大家继续支持我们。
+2009年我们也会努力，还请大家继续支持。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

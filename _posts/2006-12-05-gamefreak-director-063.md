@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 63
-gf_entry_title: １１月２９日から１２月２日まで２泊４日！というスケジュールで シアトルに行って来ました。
+gf_entry_title: 【开发日记】西雅图与北美版钻石珍珠
 gf_archive: 2006-12
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田记录西雅图本地化工作：严寒与时差虽让人辛苦，但北美版钻石·珍珠逐渐接近完成，全球贸易站也令人期待。
+gf_translation_title: 【开发日记】西雅图与北美版钻石珍珠
+gf_translation_summary: 增田记录西雅图本地化工作：严寒与时差虽让人辛苦，但北美版钻石·珍珠逐渐接近完成，全球贸易站也令人期待。
 search: true
 source:
   title: 増田部長のめざめるパワー 第63回
   url: https://www.gamefreak.co.jp/blog/dir/2006/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-063
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 负电
@@ -36,37 +38,35 @@ glossary_missing_targets:
 
 ## 中文译文
 
-从11月29日到12月2日，以2晚4天的日程
+从11月29日到12月2日，我按照“两晚四天！”的日程去了西雅图。
 
-去了西雅图。
+这次是为了进行本地化（转换成其他语言）的工作，不过……
 
-这次是为了进行本地化（翻译成其他语言）的工作，但是……
+哎呀，那天的西雅图真是冷，真冷……
 
-哎呀，那天的西雅图真是冷啊冷啊……
+而且听说那里很少下雪，偏偏我到达那天下雪了！
 
-而且，据说那里很少下雪，但到达那天却下雪了！
-
-更是冷得不得了……
+这就更冷得不得了……
 
 据说最低气温是零下8度！
 
-哎呀，虽然穿了不少，但还是觉得冷啊……
+哎呀，我也算是穿得够厚了，可还是冷得够呛……
 
-在西雅图的工作因为时差关系相当辛苦，
+在西雅图的工作受时差影响，感觉相当辛苦，
 
-虽然时间短，但收获颇丰，完成了一项非常好的工作。
+不过虽然时间很短，我们还是完成了成果丰硕、非常棒的工作。
 
-由北美和日本最优秀的员工们打造的北美版钻石·珍珠即将完成！
+在北美和日本顶尖工作人员的努力下，北美版《钻石·珍珠》正逐渐接近完成！
 
-完成度将会超越以往的宝可梦系列！期待满满啊。
+成品应该会超越以往的宝可梦系列！真是非常期待啊。
 
-虽然发售还要等一段时间，但终极交换，全球贸易站！
+虽然距离发售还有一段时间，不过终极交换——全球贸易站！
 
-与北美玩家的交换！
+和北美地区的人交换！
 
-从现在起就非常期待！！
+我现在就已经非常期待了！！
 
-那么。
+那么，拜拜！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 14
-gf_entry_title: ポケモンのマップって変わってますよね。
+gf_entry_title: 【开发日记】宝可梦地图与开发限制
 gf_archive: 2004-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾宝可梦地图的由来，并谈到容量、队伍配置与招式数量等限制，如何打磨出独特的游戏平衡。
+gf_translation_title: 【开发日记】宝可梦地图与开发限制
+gf_translation_summary: 增田顺一回顾宝可梦地图的由来，并谈到容量、队伍配置与招式数量等限制，如何打磨出独特的游戏平衡。
 search: true
 source:
   title: 増田部長のめざめるパワー 第14回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-014
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -37,37 +39,37 @@ glossary_missing_targets: []
 
 宝可梦的地图很特别吧。
 
-那是因为想放入大量宝可梦的图画，
+那是因为想放入尽可能多的宝可梦图像，
 
-作为尽量不占用ROM容量的对策，
+为了避免占用太多 ROM 容量，
 
-是程序员想出的权宜之计。
+程序员想出的无奈之策。
 
-把它巧妙地加工成了道路。
+后来又把它巧妙地设计成了道路。
 
-正因为有这样的制约，正因为被这样规定，
+正因为有这样的限制，正因为有明确的规定，
 
-才会产生很多有趣的事情。
+反而能变得有趣的事情，其实有很多。
 
-比如，宝可梦和招式的名字的字数、手持6只、能记住的招式4个也是如此。
+比如宝可梦和招式名称的字数、手持宝可梦 6 只、能学会的招式 4 个，也都是如此。
 
-正因为有制约，才被打磨得非常好。这也是我感受到的部分。
+这些地方也让我感受到，正是多亏了限制，才打磨得如此精妙。
 
-制作红宝石、蓝宝石的时候，回归初心，
+制作红宝石、蓝宝石时，我们曾回到最初的想法，
 
-也考虑过增加或减少手持宝可梦的数量，
+考虑过增加或减少手持宝可梦的数量，
 
-增加或减少能记住的招式，
+也考虑过增加或减少能够学会的招式，
 
-但这里果然还是无法改变的绝妙平衡。
+但这里果然是一个不能随意改变的绝妙平衡。
 
-因为有制约，需要考虑的事情很多，很困难，
+虽然有了限制之后，需要思考的事情会变多，也更困难，
 
-但我认为制约正是“打磨成最上乘之物的试炼”，
+但我一直把限制看作“将事物打磨成最高水平的试炼”，
 
-所以特意珍视制约。
+所以会刻意珍惜这些限制。
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

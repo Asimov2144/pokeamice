@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 117
-gf_entry_title: ずっと乗りたかったんですが、、、ついに乗りました！！！
+gf_entry_title: 【开发日记】2007年 新干线初体验
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一终于乘上梦寐以求的新干线N700系，兴奋地分享旅途见闻与车身倾斜技术带来的震撼体验。
+gf_translation_title: 【开发日记】2007年 新干线初体验
+gf_translation_summary: 增田顺一终于乘上梦寐以求的新干线N700系，兴奋地分享旅途见闻与车身倾斜技术带来的震撼体验。
 search: true
 source:
   title: 増田部長のめざめるパワー 第117回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-117
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,39 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-一直想坐的，但是……终于坐上了！！！
+一直很想坐来着……终于坐上了！！！
 
-日本引以为傲的全世界最棒的列车，新干线N700系！！
+日本向全世界引以为傲的顶级列车，新干线N700系！！
 
-虽然已经坐过很多次700系了……
+700系我已经坐过好多次了……
 
-但能坐上N700系，简直像做梦一样！
+没想到居然能坐上N700系！！简直像做梦一样！
 
 超级兴奋！！
 
-用手机拍个不停！
+拿手机拍了个痛快！
 
 <img src="/assets/images/gamefreak-director/archive/117/ja/117a1.jpg" alt="" loading="lazy">　<img src="/assets/images/gamefreak-director/archive/117/ja/117b.jpg" alt="" loading="lazy">
 
 <img src="/assets/images/gamefreak-director/archive/117/ja/117d.jpg" alt="" loading="lazy">
 
-啊，对了。
+啊，对了对了。
 
-坐的是去任天堂公司出差回来的路上，
+我是在去任天堂出差回来的路上坐的，
 
-也就是从京都开往东京的列车。
+也就是说，是从京都开往东京的列车。
 
-好像末班车总是N700系……
+听说末班车好像总是N700系……
 
-从今往后，要不要总是坐末班车呢……之类的想法。
+那以后我是不是该一直坐末班车呢……之类的。
 
-哎呀，不过真的很厉害。
+哎——不过，真是厉害。
 
-特别是日本弯道多，
+尤其是日本这种弯道很多的地方，
 
-通过倾斜车身来保持速度的这个想法。太厉害了！
+通过让车身倾斜来保持速度、不减速的设计理念。实在太厉害了！
 
-超级帅！
+太帅了！
 
 详情请访问新干线N700系的网站！
 

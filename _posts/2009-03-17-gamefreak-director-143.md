@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 143
-gf_entry_title: マスダ＠サンフランシスコ　７：１０PM
+gf_entry_title: 【开发日记】2009年宝可梦海外采访
 gf_archive: 2009-03
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田在旧金山结束一天八家媒体采访，分享海外采访的不同视角，并预告《白金》的北美发售与金门大桥之行。
+gf_translation_title: 【开发日记】2009年宝可梦海外采访
+gf_translation_summary: 增田在旧金山结束一天八家媒体采访，分享海外采访的不同视角，并预告《白金》的北美发售与金门大桥之行。
 search: true
 source:
   title: 増田部長のめざめるパワー 第143回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-143
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,31 +37,25 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-增田＠旧金山　晚上７：１０
+现在，我从早上开始接受了八家媒体的采访，回到酒店后写下了这篇专栏。
 
-现在，从早上开始结束了８家媒体的采访，回到酒店写这篇专栏。
+今天前来采访的人也几乎都是宝可梦粉丝，
+度过了一段非常愉快的时光！
 
-今天的采访，采访方也大多是宝可梦粉丝，
+海外采访比起询问游戏中的细节，
+他们更多会从更广阔的视角来提问，
+所以有不少问题让我觉得很难回答……不过这本身也是一种学习。
 
-度过了非常愉快的时光！
+《白金》的总监川内丸看起来有些疲惫，
+但好像受到了很大的刺激。
 
-在海外的采访，比起游戏的具体内容，
+《白金》的北美版将于3月22日发售！！
 
-更多是从更广阔的视角来提问，
+※啊，我还去了金门大桥！
 
-所以有很多感觉很难的问题……这也是学习。
+关于这件事，等我回日本后再写吧。敬请期待！
 
-白金版的导演川内丸虽然看起来很累，
-
-但似乎受到了很大的刺激。
-
-白金版北美版将于３月２２日发售！！
-
-※啊，去了金门大桥！
-
-关于这个，等回到日本后再写。敬请期待！
-
-那么。
+那么，就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

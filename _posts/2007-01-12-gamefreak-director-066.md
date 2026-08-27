@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 66
-gf_entry_title: いやー、１年って早いものですね。 今日は増田の誕生日なんです。なんと３９歳！ びっくりですね。自分でも。
+gf_entry_title: 【开发日记】39岁生日仍要全力前进
 gf_archive: 2007-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一迎来39岁生日，回顾自己参与制作的作品数量与漫长开发期，并表示今后也要不设限地挑战新鲜有趣的事情。
+gf_translation_title: 【开发日记】39岁生日仍要全力前进
+gf_translation_summary: 增田顺一迎来39岁生日，回顾自己参与制作的作品数量与漫长开发期，并表示今后也要不设限地挑战新鲜有趣的事情。
 search: true
 source:
   title: 増田部長のめざめるパワー 第66回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-066
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,37 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-哎呀，一年过得真快啊。
+哎呀——一年过得真快啊。
 
-今天是增田的生日。居然39岁了！
+今天是我的生日。没想到已经39岁了！
 
-自己都觉得吃惊。
+真让人吃惊啊。连我自己都觉得。
 
-到现在还在想，得再成熟一点，得冷静下来，得学习什么的。
+我到现在还在想，自己得再成熟一点才行啊，得沉稳一点啊，得好好学习啊，
 
-最不了解自己的人就是自己，
+就是这样。
 
-所以不给自己设限，
+因为连自己最不了解的，都是自己啊，
 
-今后也要全速前进！
+所以我不会亲手给自己踩下刹车，
 
-话说回来……
+今后也会继续把引擎开到最大，全力以赴！
 
-这样制作游戏，感觉年龄和作品数量不太相称。
+对了……
 
-作品数量意外地少！
+一直这样制作游戏，我总觉得年龄和作品数量好像不太相称。
 
-不过，正因为如此，对每一部作品的感情都很深……是因为制作周期长吧。
+作品数量意外地少啊！
 
-即便如此，也要克服这些，尝试新事物和有趣的事情！
+不过，也正因为如此，我对每一部作品的感情都更深，只是制作周期确实比较长吧。
 
-来吧，我还要继续大干一场！
+不过，我也想跨过这些，去尝试一些全新的、有趣的事情！
 
-※明天13日（周六）发售的月刊《King》杂志上，刊登了增田和GF工作人员的照片。
+好了，我还会继续大闹一番的！
 
-　请务必买来读一读。
+※明天13日（周六）发售的月刊《King》杂志上，会刊登我和GF员工的内容。
 
-那么！
+　请一定买来读一读哦。
+
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

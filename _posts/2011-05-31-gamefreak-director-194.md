@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 194
-gf_entry_title: このクモのオブジェクトと言えば？、、、どこでしょう？？
+gf_entry_title: 【工作日记】东京宝可梦公司见闻
 gf_archive: 2011-05
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一前往六本木新城工作，在强风与云层流动的东京，观察宝可梦公司的建筑与城市风景。
+gf_translation_title: 【工作日记】东京宝可梦公司见闻
+gf_translation_summary: 增田顺一前往六本木新城工作，在强风与云层流动的东京，观察宝可梦公司的建筑与城市风景。
 search: true
 source:
   title: 増田部長のめざめるパワー 第194回
   url: https://www.gamefreak.co.jp/blog/dir/2011/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-194
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,15 +37,15 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-说到这个蜘蛛的物体？、、、在哪里呢？？
+说到这个蜘蛛造型的物件……会在哪里呢？？
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194a.jpg" alt="" loading="lazy">
 
-5月30日，今天在株式会社宝可梦所在的六本木新城工作。
+5月30日，今天我在宝可梦公司所在的六本木新城工作。
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194b.jpg" alt="" loading="lazy">
 
-入口的大小和设计让我感动不已。。。
+一边为入口的巨大和设计感动不已……
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194c.jpg" alt="" loading="lazy">
 
@@ -51,19 +53,19 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194d.jpg" alt="" loading="lazy">
 
-从入口看右侧。这个设计，为什么会这样呢？？等等，一边思考。。。
+从入口向右侧望去。这个设计也是，我一边想着“为什么要做成这样呢？？”……
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194e.jpg" alt="" loading="lazy">
 
-在超帅的建筑前。。。怎么能想出这样的设计呢。等等，一边思考。。。
+在这座超级帅气的建筑物前……我一边想着，到底要怎样才能想出这样的设计呢……
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194f.jpg" alt="" loading="lazy">
 
-株式会社宝可梦的入口。
+宝可梦公司的入口。
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194g.jpg" alt="" loading="lazy">
 
-入口。。。
+入口……
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194h.jpg" alt="" loading="lazy">
 
@@ -71,31 +73,31 @@ glossary_missing_targets: []
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194i.jpg" alt="" loading="lazy">
 
-从会议室看外面。。。
+从会议室向外望去……
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194j.jpg" alt="" loading="lazy">
 
-这天的东京风超强，云在猛烈流动。
+这天的东京风特别大，云层正呼呼地飘过。
 
 <img src="/assets/images/gamefreak-director/archive/194/ja/194k.jpg" alt="" loading="lazy">
 
-东京，几乎看不到山！！
+在东京，几乎看不到山！！
 
-说到山，只有富士山！！
+说到山，也就只有富士山了！！
 
-那样的景色就是东京！
+这就是东京的景色！
 
-如果自己创造最强的建筑会怎么做？？
+如果要亲手打造一座最厉害的建筑物，会怎么做呢？？
 
 或者，
 
-在什么样的地区、景色中生活是最好的？
+生活在怎样的地区、怎样的景色之中才是最好的呢？
 
-等等，
+还有，
 
-我认为创作者需要思考这些事情。
+我觉得，对于创作者来说，思考这些事情是很有必要的。
 
-那么。
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

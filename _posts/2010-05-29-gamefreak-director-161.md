@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 161
-gf_entry_title: 本日、日本時間午前１時００分。 全世界同時広報されました。
+gf_entry_title: 【开发日记】2010年宝可梦黑白公布
 gf_archive: 2010-05
 gf_categories:
 - お知らせ
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 黑白两款作品将于2010年9月在日本发售，封面宝可梦为莱希拉姆与捷克罗姆，全球同步公开。
+gf_translation_title: 【开发日记】2010年宝可梦黑白公布
+gf_translation_summary: 黑白两款作品将于2010年9月在日本发售，封面宝可梦为莱希拉姆与捷克罗姆，全球同步公开。
 search: true
 source:
   title: 増田部長のめざめるパワー 第161回
   url: https://www.gamefreak.co.jp/blog/dir/2010/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-161
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,37 +38,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-本日，日本时间上午1点整。
+今天，日本时间凌晨1点整。
 
-向全世界同时公开了。
+面向全世界同步公布了。
 
-宝可梦 黑
+宝可梦黑
 
-宝可梦 白
+宝可梦白
 
-日本预定于2010年9月发售！！
+预定于2010年9月在日本发售！！
 
-今天的读卖新闻早报上也大幅刊登了！
+今天的《读卖新闻》晨刊上也“砰——！”地登出来了！
 
-封面宝可梦是「莱希拉姆」「捷克罗姆」。
+封面宝可梦是“莱希拉姆”和“捷克罗姆”。
 
 它们会有怎样的表现呢！？
 
 敬请期待。
 
-这款软件将使宝可梦觉醒。
+宝可梦将在这款游戏中觉醒。
 
 再见！
 
-日本官网：
+日本网站：
 
 [http://www.pokemon-sp.jp/](http://www.pokemon-sp.jp/)
 
-海外官网：
+海外网站：
 
 [http://www.pokemon.com/](http://www.pokemon.com/)
 
-※通过「SELECT LANGUAGE」可以切换语言！声音也很酷！
+※可以通过“SELECT　LANGUAGE”切换语言！声音也很帅气！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

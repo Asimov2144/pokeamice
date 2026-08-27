@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 155
-gf_entry_title: 新年、明けましておめでとうございます。 本年も何卒よろしくお願い致します。
+gf_entry_title: 【开发日记】2010年 GAME FREAK 新年展望
 gf_archive: 2010-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一展望新的一年，表示将挑战新事物、持续创作，并带领 GAME FREAK 怀抱梦想与目标不断前进。
+gf_translation_title: 【开发日记】2010年 GAME FREAK 新年展望
+gf_translation_summary: 增田顺一展望新的一年，表示将挑战新事物、持续创作，并带领 GAME FREAK 怀抱梦想与目标不断前进。
 search: true
 source:
   title: 増田部長のめざめるパワー 第155回
   url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-155
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,27 +37,27 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-新年，恭贺新禧。
+新年快乐，恭喜新春。
 
-今年也请多多关照。
+今年也请大家多多关照。
 
-2010年，增田想要挑战新事物，
+2010年，我会挑战新的事物，
 
 拿出比以往更好的创意，
 
-带着执着与热爱，致力于创作。
+怀着坚持与热爱，努力投入创作。
 
-GAME FREAK 作为创造乐趣的专业团队，
+GAME FREAK 作为创造游戏乐趣的专业团队，
 
-讲述梦想与希望，树立目标并向前迈进，
+希望成为一个畅谈梦想与希望、树立目标并朝着目标前进，
 
-希望成为一个不断前进的组织。
+始终不断向前的组织。
 
-今后也会继续努力，敬请期待。
+今后我也会继续努力，还请大家期待。
 
-2010年，GAME FREAK 要大干一场！
+2010年，GAME FREAK 可要大干一场啦！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

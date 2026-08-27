@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 150
-gf_entry_title: サンフランシスコで取材を受けたものが記事になりましたよ。
+gf_entry_title: 【活动报道】美国地区大会圆满落幕
 gf_archive: 2009-06
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享旧金山采访报道，并介绍美国六个地区大会圆满落幕及官方赛事网站。
+gf_translation_title: 【活动报道】美国地区大会圆满落幕
+gf_translation_summary: 增田顺一分享旧金山采访报道，并介绍美国六个地区大会圆满落幕及官方赛事网站。
 search: true
 source:
   title: 増田部長のめざめるパワー 第150回
   url: https://www.gamefreak.co.jp/blog/dir/2009/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-150
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,29 +38,26 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-在旧金山接受的采访已经刊登成文章了。
+在旧金山接受采访的内容，已经刊登成文章了。
 
-在杂志 Game Informer 6月号上
+杂志《Game Informer》6月号中
 
 刊登了采访文章和照片！
 
-能买到的人，请一定要读一读！
+买得到这本杂志的朋友，请一定要读读看哦！
 
-Gamasutra 也在4月公开了文章。
+Gamasutra也在4月公开了相关文章。
 
 [http://www.gamasutra.com/php-bin/news_index.php?story=23052](http://www.gamasutra.com/php-bin/news_index.php?story=23052)
 
 [http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php](http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php)
 
-另外，从5月9日（周六）开始的美国地区大赛，
+另外，从5月9日（周六）开始的美国地区大会，
+在6月13日（周六）的大会上结束了！
+六个地区大会似乎来了很多人，真是既感谢又感动。
+详情请见大会官方网站
 
-在6月13日（周六）的大赛中结束了！
-
-6个地区大赛似乎有很多人参加，感激不尽。
-
-详情请见大赛官方网站
-
-[http://www.pokemonvgc.com](http://www.pokemonvgc.com)
+[http://www.pokemonvgc.com](http://www.pokemonvgc.com)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

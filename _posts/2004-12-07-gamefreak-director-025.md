@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 25
-gf_entry_title: クリスマスシーズンになると電飾が多くて綺麗ですよね。
+gf_entry_title: 【开发日记】圣诞灯饰为何吸引人
 gf_archive: 2004-12
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田聊起圣诞灯饰为何能吸引人，也想到人们对限定、漂亮和可爱事物难以抗拒，以及这些特点如何融入游戏设计。
+gf_translation_title: 【开发日记】圣诞灯饰为何吸引人
+gf_translation_summary: 增田聊起圣诞灯饰为何能吸引人，也想到人们对限定、漂亮和可爱事物难以抗拒，以及这些特点如何融入游戏设计。
 search: true
 source:
   title: 増田部長のめざめるパワー 第25回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-025
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-一到圣诞季节，装饰灯就多了起来，很漂亮呢。
+到了圣诞季，灯饰很多，很漂亮吧。
 
-人们聚集起来看装饰灯，这到底是怎么回事呢。
+人们会聚集来看灯饰，到底是为什么呢。
 
-我明白人们不喜欢黑暗。
+我能理解人为什么讨厌黑暗。
 
-所以也能理解有人因此喜欢都市。
+所以我也能理解为什么有人喜欢都市。
 
-但是，如果只是为了避开黑暗，一个大电球就够了，
+不过，如果只是为了避开黑暗，本来一个大大的电球就够了，
 
-却要让许多小电球亮起来。
+却要让许多小电球一起发光。
 
-于是人们聚集过来。
+这样一来，人就聚过来了。
 
-真是不可思议呢。
+很不可思议吧。
 
-在圣诞节等活动中能感受到，
+我在圣诞节之类的活动中会感受到，
 
-对于一定期间（限定）的东西，以及漂亮、可爱的事物，人总是很没抵抗力呢。
+人啊，对于限时（限定）的东西，以及漂亮、可爱的东西，真的很没有抵抗力呢。
 
-不知不觉就买了限定商品，或者因为漂亮、可爱就买了商品。
+会不知不觉买下限定商品，也会因为漂亮、可爱这样的理由买下商品。
 
-反过来说，商品就是计算着这一点被制作出来的，在我们这边，则是作为游戏的玩法
+换个角度说，商品会将这一点计算在内来制作；而我们这边，则是把它组装成游戏玩法，
 
-来构建的，但普通地想一想，这是很有趣的事呢。
+不过，正常想想，这不是挺有意思的吗。
 
-顺便一提，增田小时候憧憬着《卡车野郎一番星》，所以至今仍非常喜欢装饰灯。
+顺带一提，我小时候是个憧憬《卡车野郎：一番星》的孩子，所以直到现在也最喜欢灯饰。
 
-所以，与其说是喜欢圣诞节，不如说可能是喜欢装饰灯。
+所以，与其说我喜欢圣诞节，不如说我可能是喜欢灯饰吧。
 
-那么，就这样。
+那么，下次见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

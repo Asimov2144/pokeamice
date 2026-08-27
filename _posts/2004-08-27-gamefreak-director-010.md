@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 10
-gf_entry_title: ちょっと、細かい話でも。
+gf_entry_title: 【开发随笔】2004年宝可梦撞墙细节
 gf_archive: 2004-08
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一聊到主角撞墙时仍会缓慢前进的设计，以及用“嘟”声提示无法前进的制作思路。
+gf_translation_title: 【开发随笔】2004年宝可梦撞墙细节
+gf_translation_summary: 增田顺一聊到主角撞墙时仍会缓慢前进的设计，以及用“嘟”声提示无法前进的制作思路。
 search: true
 source:
   title: 増田部長のめざめるパワー 第10回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-010
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets:
 - 牡丹
@@ -37,45 +39,45 @@ glossary_missing_targets:
 
 ## 中文译文
 
-稍微，说点细节的话题。
+聊点稍微细致的话题。
 
-在红宝石、蓝宝石以及火红、叶绿中也是这样的，
+红宝石、蓝宝石，以及火红、叶绿里也都是这样，
 
-当主人公撞到墙壁时，
+主角在撞墙时，
 
-会以比通常走路速度更慢的速度前进。
+会以比平时走路速度更慢的速度向前移动。
 
-是会前进的。
+确实会向前推进。
 
-虽然可能有各种各样的制作方法……
+我想，制作方式应该有很多种……
 
-增田认为，
+至于我呢，
 
-玩家按下了十字键，既然有输入，
+既然玩家按下了十字键，正在进行输入，
 
-就想要有输入的反应。
+我希望游戏能对此做出反应。
 
-因此，
+也就是说，
 
-撞到墙壁时，不是停止走路，
+撞墙时，不是停下脚步，
 
-而是以一半的速度，“试图前进”。
+而是以一半的速度，做出“想要前进”的动作。
 
-但是，因为并不能真的前进，
+不过，毕竟并不能真的前进，
 
-所以作为“无法前进”的通知，用效果音发出“噗”的声音。
+所以作为“无法前进”的提示，会用音效发出“嘟——”的声音。
 
-嗯，真的因人而异，可能有各种各样的制作方法，
+不过说真的，我想每个人都会有各种各样的制作方式，
 
-但如何在意，如何应对呢？
+该如何留意，又该如何采取应对措施？
 
-这也是制作游戏时令人愉快的地方。
+这也是制作游戏时有趣的地方。
 
-也许这是细小琐碎的事情，
+虽然可能很细微、很琐碎，
 
-但我认为非常重要。
+但我觉得非常重要。
 
-那么。
+那么，就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,24 +14,24 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 234
-gf_entry_title: 世界初のこと。
+gf_entry_title: 【开发日记】2013年宝可梦全球同步发布
 gf_archive: 2013-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦 X·Y》全球同步发售，海外玩家首次早于日本获知传说宝可梦哲尔尼亚斯与伊裴尔塔尔的名字。
+gf_translation_title: 【开发日记】2013年宝可梦全球同步发布
+gf_translation_summary: 《宝可梦 X·Y》全球同步发售，海外玩家首次早于日本获知传说宝可梦哲尔尼亚斯与伊裴尔塔尔的名字。
 search: true
 source:
   title: 増田部長のめざめるパワー 第234回
   url: https://www.gamefreak.co.jp/blog/dir/2013/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-234
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 伊裴尔塔尔
-- 哲尔尼亚斯
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
@@ -40,41 +40,41 @@ glossary_missing_targets:
 
 世界首次。
 
-自从1996年宝可梦红绿发售以来，
+自从１９９６年《宝可梦 红·绿》发售以来，
 
-宝可梦的信息发布，必定是从日本开始的。
+宝可梦的信息发布，一直都是从日本开始的。
 
-那是因为，游戏在日本先发售。
+因为游戏会先在日本发售。
 
-但是，《宝可梦 X・Y》是全世界同时发售。
+但是，《宝可梦 Ｘ・Ｙ》将会在全世界同步发售。
 
-2013年1月9日，
+２０１３年１月９日，
 
-在宝可梦海外官方网站Pokémon.com上，
+在宝可梦海外官方网站 Pokémon.com 上，
 
-公布了世界共通名称的传说宝可梦的名字。
+公布了传说宝可梦的全球统一名称。
 
-「XERNEAS」 「YVELTAL」
+「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」
 
-※日文读法是「ゼルネアス」 「イベルタル」
+※日语读法为「哲尔尼亚斯」　「伊裴尔塔尔」
 
-你可能会想，为什么日本的官方主页上没有信息呢？
+你可能会想，为什么日本官方网站上没有相关信息呢？
 
-实际上，在宝可梦的历史中，
+其实，在宝可梦的历史中，
 
-这是第一次海外比日本更早获得信息的日子。
+这是海外玩家第一次比日本玩家更早获得信息。
 
-因为是同时发售才能做到的事。已经做到的事。
+这是只有全球同步发售才能做到的事，也是已经实现的事。
 
-从某种意义上说是事件，对海外的人来说则成为了纪念日。
+从某种意义上说，这是一件大事；对海外玩家来说，也成了值得纪念的一天。
 
-那天，看到「XERNEAS」 「YVELTAL」名字的各位，
+那天看到「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」名字的各位，
 
 恭喜你们！
 
-世界上最先知道宝可梦名字的，是你们。
+全世界第一个知道宝可梦名字的人，就是你。
 
-Ciao！
+回见！
 
 [http://www.pokemon.co.jp/ex/xy/legend/](http://www.pokemon.co.jp/ex/xy/legend/)
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 119
-gf_entry_title: みなさま、明けましておめでとうございます。 本年もどうぞよろしくお願いいたします。
+gf_entry_title: 【开发日记】2008年新年展望
 gf_archive: 2008-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾挑战满满的去年，分享今年“好好收束”的目标，并送上《宝可梦 钻石·珍珠》的新年游戏惊喜。
+gf_translation_title: 【开发日记】2008年新年展望
+gf_translation_summary: 增田顺一回顾挑战满满的去年，分享今年“好好收束”的目标，并送上《宝可梦 钻石·珍珠》的新年游戏惊喜。
 search: true
 source:
   title: 増田部長のめざめるパワー 第119回
   url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-119
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,39 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位，新年快乐。
+大家，新年快乐！
 
 今年也请多多关照。
 
-2008年，今年GAME FREAK也会做很多事情！
+2008年，今年 GAME FREAK 也会做很多事情！
 
-并且，希望在回应期待的同时，继续创造出超越想象的玩法。
+在回应大家期待的同时，我也希望能持续创造出超乎想象的乐趣。
 
 那么……
 
-突然问一下，各位！
+突然问一句，大家！
 
-你们想过今年的目标了吗？
+你们想好今年的目标了吗？
 
-今年增田的目标是「好好整理」。
+今年我的目标是“好好收束”。
 
-因为去年是挑战的一年……
+去年是充满挑战的一年，所以……
 
-今年我想稳稳地坐下来，把各种事情整理好。
+今年我想稳下心来，把各种事情都好好整理、收束起来。
 
-还没想的人，请务必！试着想想这一年的目标吧！
+如果你还没想好，那就请务必！试着想一想自己这一年的目标吧！
 
-啊，对了。
+啊，对了对了。
 
-这是游戏压岁钱。
+这是给大家的游戏新年礼物。
 
-请在1月12日玩一下钻石·珍珠。
+请在1月12日玩玩《宝可梦 钻石·珍珠》吧。
 
-应该会有什么不一样！！！！！
+一定会发现有什么不一样的！！！！！
 
-祝愿大家今年也是幸福的一年。
+衷心祝愿今年也能成为大家幸福多多的一年。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

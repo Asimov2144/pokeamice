@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 57
-gf_entry_title: こんにちは。
+gf_entry_title: 【发售消息】2006年宝可梦钻石珍珠
 gf_archive: 2006-07
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一宣布《宝可梦 钻石·珍珠》将于2006年9月28日发售，并邀请玩家尽情体验游戏与电影相关内容。
+gf_translation_title: 【发售消息】2006年宝可梦钻石珍珠
+gf_translation_summary: 增田顺一宣布《宝可梦 钻石·珍珠》将于2006年9月28日发售，并邀请玩家尽情体验游戏与电影相关内容。
 search: true
 source:
   title: 増田部長のめざめるパワー 第57回
   url: https://www.gamefreak.co.jp/blog/dir/2006/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-057
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -36,9 +38,9 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-こんにちは。
+你好。
 
-稍微有点清醒过来的増田。
+我是渐渐清醒过来的增田。
 
 让大家久等了！
 
@@ -48,37 +50,37 @@ glossary_missing_targets: []
 
 是2006年9月28日（星期四）！
 
-一边看着今天开始上映的电影，、、、、
+一边欣赏今天上映的电影……
 
-一边让期待膨胀，、、、
+一边满怀期待……
 
-一边尽情享受暑假，、、、
+一边尽情享受暑假……
 
-请再稍微等一等。
+还请大家再稍微等一等哦。
 
-我觉得这会是一款能让人细细品味的游戏，
+我想，这会是一款可以让大家慢慢享受的游戏，
 
-预约当然不用说！！！！！
+所以，当然要预约！！！！！
 
-发售的时候，请一定要买哦！
+发售的时候，也请一定要买哦！
 
-然后请一直玩到最后，细细品味每一个细节！
+然后，请一直玩到最后，仔仔细细地把每个细节都体验一遍！
 
-作为制作者，没有比这更高兴的事了。就是这样。
+对我们制作人员来说，这就是最开心不过的事了。真的。
 
 那么，各位！
 
-DP就拜托大家了！
+今后也请多多支持 DP！
 
-这边也请看看。
+这个也请看看。
 
-电影「大家的咕妞妞日誌」
+电影《大家的咕妞妞日记》
 
 [http://blog.pokemon-movie.jp/](http://blog.pokemon-movie.jp/)
 
 [http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)
 
-那么。
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

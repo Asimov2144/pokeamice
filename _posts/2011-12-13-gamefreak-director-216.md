@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 216
-gf_entry_title: 「ゲームフリークに入ろうとしたきっかけを教えて下さい！」
+gf_entry_title: 【开发日记】我加入 GAME FREAK 的契机
 gf_archive: 2011-12
 gf_categories:
 - ものづくりについて
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回忆从软件公司职员到加入 GAME FREAK 的经历，以及因为热爱游戏创作而坚持下来的初心。
+gf_translation_title: 【开发日记】我加入 GAME FREAK 的契机
+gf_translation_summary: 增田顺一回忆从软件公司职员到加入 GAME FREAK 的经历，以及因为热爱游戏创作而坚持下来的初心。
 search: true
 source:
   title: 増田部長のめざめるパワー 第216回
   url: https://www.gamefreak.co.jp/blog/dir/2011/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-216
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets:
 - 武德
@@ -37,59 +39,59 @@ glossary_missing_targets:
 
 ## 中文译文
 
-「请告诉我你进入GAME FREAK的契机！」
+有人在[推特](http://twitter.com/Junichi_Masuda)上问我：
 
-我在[推特](http://twitter.com/Junichi_Masuda)上收到了这个问题，
+“能告诉我当初为什么想加入 GAME FREAK 吗？”
 
-所以就在这个博客上回答吧（笑）！！
+所以，我就在这篇博客里回答一下（笑）！！
 
 首先……
 
-这是在株式会社GAME FREAK成立之前的故事。
+这要从 GAME FREAK 株式会社成立之前说起。
 
-增田18岁。
+我18岁。
 
-进入位于新宿的日本电子专门学校计算机图形（CG）科。
+考入了位于新宿的日本电子专门学校计算机图形（CG）专业。
 
-两年后，虽然进行了就职活动，但当时CG相关公司水平很高，
+两年后开始找工作，可那时候做 CG 相关工作的公司要求都很高，
 
-门槛狭窄，于是放弃了。
+竞争也非常激烈，只好放弃了。
 
-进入了一家使用C语言和汇编语言进行编程的软件开发公司。
+于是我进入了一家用 C 语言和汇编语言编程的软件开发公司。
 
 穿着西装，过着普通上班族的生活。
 
-在公司工作的同时，周末制作「Quinty」的音乐，
+我一边在公司工作，一边利用周末制作《Quinty》的音乐，
 
-还每周去玩当时还不是公司、只是朋友聚会的"GAME FREAK"。
+还每周跑去参加当时还没有成为公司的伙伴们的聚会——“GAME FREAK”。
 
-感觉就像是兴趣或玩耍一样（笑）
+感觉就像是在做兴趣爱好、和大家一起玩一样（笑）。
 
-那之后过了一年，1989年。「Quinty」完成。
+就这样过了一年，到了1989年。《Quinty》完成了。
 
-在发售Quinty之际，代表田尻成立了株式会社GAME FREAK。
+为了发售《Quinty》，代表田尻成立了 GAME FREAK 株式会社。
 
-增田辞去了工作一年的公司，同时加入了GAME FREAK。
+我辞掉了工作，同时加入了 GAME FREAK。
 
-与金钱或稳定无关，只是因为制作游戏很快乐。
+那时根本没考虑什么钱啊、稳定啊，只是因为创作游戏很开心。
 
-因为喜欢。
+因为我喜欢。
 
-理由仅此而已。
+理由就只有这些。
 
-从那时起……非常辛苦……
+从那以后……可就辛苦了……
 
-没有休息，没有钱，住在公司……
+没有休息，也没有钱，还要住在公司里……
 
-但是，没有放弃制作东西。
+但我没有放弃创作。
 
-因为，喜欢啊。
+因为我喜欢啊。
 
-然后，7年后。
+然后，过了7年。
 
-1996年，宝可梦 红·绿完成了。
+1996年，《宝可梦 红·绿》完成了。
 
-Ciao！
+查奥！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

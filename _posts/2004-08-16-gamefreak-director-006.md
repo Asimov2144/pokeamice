@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 6
-gf_entry_title: 夏休み、終わりました！ いやー、楽しいことって時間が経つのが早いですね。
+gf_entry_title: 【活动日记】2004年横滨宝可梦庆典
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录夏日假期的快乐时光，以及冒雨参加横滨宝可梦庆典时留下的难忘见闻。
+gf_translation_title: 【活动日记】2004年横滨宝可梦庆典
+gf_translation_summary: 增田顺一记录夏日假期的快乐时光，以及冒雨参加横滨宝可梦庆典时留下的难忘见闻。
 search: true
 source:
   title: 増田部長のめざめるパワー 第6回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-006
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-暑假，结束了！
+暑假结束了！
 
-哎呀，快乐的事情时间过得真快啊。
+哎呀，快乐的时光总是过得特别快呢。
 
-今年，在栃木一边看烟花大会一边烧烤。
+今年，我在栃木一边看烟花大会，一边吃了烧烤。
 
-去了热海，吃了海螺。
+还去了热海，吃了蝾螺。
 
-啊，真好吃。真开心！幸福！
+啊——真好吃。真开心！真幸福！
 
-昨天，去了横滨的宝可梦节。
+昨天，我去了横滨的宝可梦庆典。
 
-不巧下雨，人不多，
+虽然不巧遇上下雨，人比平时少了一些，
 
-尽管如此，还是有很多人来了。
+但即便如此，还是有很多人前来参加。
 
 谢谢大家！
 
-有各种各样的活动，内容丰富多彩。
+现场还有各种各样的活动，内容非常丰富。
 
-舞台上的活动一开始，就有很多爸爸把孩子扛在肩上，
+舞台活动一开始，就有好多爸爸把孩子扛在肩膀上，
 
-感觉像一片奇妙的森林。这个，印象最深。
+不知怎么的，看起来就像一片奇妙的树林。这是给我留下最深印象的场景。
 
-大家似乎也都在愉快地玩《绿宝石》，
+大家似乎也都玩得很开心，
 
-松了一口气，安心了。真是高兴。
+让我松了一口气，终于放心了。真是太高兴了。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

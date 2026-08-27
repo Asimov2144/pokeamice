@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 138
-gf_entry_title: マスダのやっている色々な仕事のうちの１つをご紹介。
+gf_entry_title: 【开发日记】2009年公司说明会
 gf_archive: 2009-02
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田分享筹备公司说明会的过程，以及如何拆解电视游戏、介绍 GAME FREAK 的创作理念，并邀请志同道合者加入团队。
+gf_translation_title: 【开发日记】2009年公司说明会
+gf_translation_summary: 增田分享筹备公司说明会的过程，以及如何拆解电视游戏、介绍 GAME FREAK 的创作理念，并邀请志同道合者加入团队。
 search: true
 source:
   title: 増田部長のめざめるパワー 第138回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-138
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,65 +37,65 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-增田所做的各种工作之一，在此介绍。
+来介绍一下我负责的各种工作之一。
 
-那就是、、、
+那就是……
 
-从去年开始制作资料、、、
+从去年开始制作资料……
 
-用 PowerPoint 整理、、、
+用 PowerPoint 整理……
 
-一边学习、、、
+一边学习……
 
-也进行了几次彩排、、、
+还进行了好几次彩排……
 
-是的。
+没错。
 
-2月4日、5日，我们举办了公司说明会！
+2月4日和5日，我们举办了公司说明会！
 
 [https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://www.gamefreak.co.jp/recruit/rec_info090216.html)
 
-将电视游戏分解为“游玩、操作、世界观、玩伴”这四个部分，
+我们把电视游戏拆分成游玩、操作、世界观、一起游玩的人这四个部分，
 
-再从每一个部分进一步分解，讲述了游玩的重要性。
+然后再把每一个部分进一步拆解，同时聊了聊游玩的重要性。
 
-而后半部分当然是 GAME FREAK 的“造物”理念。
+当然，后半部分讲的就是 GAME FREAK 的“创作”理念。
 
-在短短15分钟的时间里，不知道传达了多少，
+毕竟时间只有短短15分钟，我也不知道自己究竟传达了多少，
 
-但哪怕只传达了一点点，我也会很高兴。
+但如果哪怕只有一点点能够传达给大家，我也会很开心。
 
-大家真的都非常认真地听讲。
+大家真的都听得非常认真。
 
-因为是与平时开发完全不同的业务，
+因为这和我平时负责的开发工作完全不同，
 
-真的、、、学到了很多东西。
+所以真的……能学到很多东西。
 
-参加了说明会并产生共鸣的各位，
+参加了说明会、并且产生共鸣的各位，
 
-请务必和我们一起创造出新的游玩方式吧！
+请务必和我们一起创造全新的游玩方式吧！
 
-当然，这次没能参加说明会的各位，
+当然，没能参加这次说明会的各位，
 
-也期待在面试中与你们相见！
+我也很期待能在面试时和大家见面哦！
 
-期待大家的应聘！
+期待各位前来应聘！
 
 <img src="/assets/images/gamefreak-director/archive/138/multi/mz090217_01.jpg" alt="" loading="lazy">
 
-认真地分解电视游戏。
+认真地拆解电视游戏。
 
 <img src="/assets/images/gamefreak-director/archive/138/multi/mz090217_02.jpg" alt="" loading="lazy">
 
-稍微休息一下。。。（国际论坛真帅气、、、）
+稍微休息一下……（国际论坛的建筑真帅……）
 
 <img src="/assets/images/gamefreak-director/archive/138/ja/mz090217_03.jpg" alt="" loading="lazy">
 
-平时在开发中发挥才能的员工们，也显得有些疲惫。。。
+平时在开发工作中发挥才能的员工们，也都有些疲惫了……
 
-说明会结束后，大家一起拍了张照！辛苦了。
+说明会结束后，大家一起拍了张合影！辛苦了。
 
-那么！
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

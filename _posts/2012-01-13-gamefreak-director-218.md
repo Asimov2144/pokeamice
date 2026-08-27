@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 218
-gf_entry_title: いつのまに！！！
+gf_entry_title: 【开发日记】2012年宝可梦获IGN肯定
 gf_archive: 2012-01
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦黑／白》凭借红外线通信、C装置和游戏同步等创新机制，入选IGN评出的2011年度游戏界人士榜单。
+gf_translation_title: 【开发日记】2012年宝可梦获IGN肯定
+gf_translation_summary: 《宝可梦黑／白》凭借红外线通信、C装置和游戏同步等创新机制，入选IGN评出的2011年度游戏界人士榜单。
 search: true
 source:
   title: 増田部長のめざめるパワー 第218回
   url: https://www.gamefreak.co.jp/blog/dir/2012/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-218
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,33 +37,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-不知不觉中！！！
+不知不觉间！！！
 
-在海外的娱乐信息网站·IGN上，
+在海外娱乐资讯网站 IGN 那边，
 
-IGN’s Top 30 Games People of 2011
+IGN 评选的 2011 年游戏界人士 Top 30
 
-中，，，
+里，竟然……
 
-被选中了（笑）
+我被选进去了（笑）
 
-这里，这里。
+就是这里，这里。
 
 [http://games.ign.com/articles/121/1215234p2.html](http://games.ign.com/articles/121/1215234p2.html)
 
-虽然自己的照片被放得很大，有点吓到了（汗）。
+自己的脸部照片占的地方有点大，吓了我一跳（汗）。
 
-《宝可梦 黑·白》中，
+《宝可梦黑／白》加入了许多不局限于游戏内部的机制，
 
-加入了通过红外线进行对战和交换、常时通信的C装置、与PGL的游戏同步等，
+比如通过红外线进行对战和交换、能够随时通信的 C 装置，以及与 PGL 进行游戏同步等。
 
-许多不局限于游戏内部的机制。
+看来，这一点得到了认可。
 
-这似乎得到了好评。
+能得到这样的评价，我真的很开心。
 
-被认可这件事，坦率地说很开心。
-
-IGN，谢谢！！
+IGN，谢谢你们！！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 100
-gf_entry_title: １００回記念！ みなさん、いつもコラムを読んでくれて、ありがとうございます！！ ということで、感謝の気持ちを込めて、特別なポケモンDPネタを公開します！
+gf_entry_title: 【开发日记】2007年宝可梦天气机制
 gf_archive: 2007-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田庆祝专栏第100回，分享《钻石·珍珠》中让全世界玩家同日经历相同天气的小设计。
+gf_translation_title: 【开发日记】2007年宝可梦天气机制
+gf_translation_summary: 增田庆祝专栏第100回，分享《钻石·珍珠》中让全世界玩家同日经历相同天气的小设计。
 search: true
 source:
   title: 増田部長のめざめるパワー 第100回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-100
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,39 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-100回纪念！
+大家一直以来都在阅读我的专栏，谢谢你们！！
 
-各位，一直阅读专栏，非常感谢！！
+所以，这次我怀着感激之情，公开一个特别的宝可梦钻石·珍珠小话题！
 
-因此，怀着感谢之情，公开特别的宝可梦DP话题！
+每天都在玩的朋友，可能已经知道了……
 
-每天游玩的人或许已经知道了，但是……
+钻石·珍珠里有一个会改变天气的机制！
 
-钻石·珍珠中有天气变化的机制！
+北美和欧洲也已经发售了钻石·珍珠，
 
-在北美和欧洲，Diamond&Pearl也已发售，
-
-在相同条件下，这个天气机制也包含在内。
+而且那里也采用了同样条件下的天气机制。
 
 也就是说！
 
-即是，
+换句话说，
 
-全世界共通，在同一天会是相同的天气。
+全世界的玩家在同一天会遇到同样的天气。
 
-作为世界共通的语言，可以说“○○○市在几月几日会下大雪”这样的机制。
+这是一个能让大家用全世界通用的话题，说出“○○○市在几月几日会下大雪，对吧”的机制。
 
-虽然是个小小的机制，但和朋友一起游玩的人，
+虽然只是一个小小的设计，但和朋友一起玩的人，
 
-请试着提起天气的话题。
+不妨聊聊天气的话题。
 
-或许会有与平时稍有不同的发现。
+说不定会有一些和平时不一样的新发现。
 
-这也是不局限于游戏世界，
+这也是一种不把游戏世界封闭起来，
 
-为了享受对话而设的一个机关。
+而是让大家享受交流的小机关。
 
-那么。
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

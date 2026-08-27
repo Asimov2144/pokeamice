@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 220
-gf_entry_title: ポケモンセンターのサイン会についてお知らせです！
+gf_entry_title: 【活动通知】宝可梦中心签名会安排调整
 gf_archive: 2012-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 为确保大家的安全与健康，宝可梦中心签名会的举办方式有所调整；现场还设有提问环节，欢迎大家前来参加。
+gf_translation_title: 【活动通知】宝可梦中心签名会安排调整
+gf_translation_summary: 为确保大家的安全与健康，宝可梦中心签名会的举办方式有所调整；现场还设有提问环节，欢迎大家前来参加。
 search: true
 source:
   title: 増田部長のめざめるパワー 第220回
   url: https://www.gamefreak.co.jp/blog/dir/2012/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-220
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,19 +38,18 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-关于宝可梦中心的签名会通知！
+关于宝可梦中心签名会，有件事要通知大家！
 
 为了确保大家的安全与健康，
+活动的举办方式已经有所调整！
 
-运营方式有所变更！
-
-非常抱歉！
+大家，真的很抱歉！
 
 [http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
-还有提问环节，即使对签名不感兴趣，
+现场还会有提问环节，所以就算对签名不感兴趣……
 
-也欢迎大家踊跃前来！！
+大家，也请务必来参加！！
 
 让我们一起热闹起来吧！
 

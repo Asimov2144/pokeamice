@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 98
-gf_entry_title: スターバックス。 ダイスキナンデス。
+gf_entry_title: 【开发随笔】从星巴克想到玩家体验
 gf_archive: 2007-08
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一从不同地区的星巴克体验出发，思考如何在开发中始终站在玩家角度。
+gf_translation_title: 【开发随笔】从星巴克想到玩家体验
+gf_translation_summary: 增田顺一从不同地区的星巴克体验出发，思考如何在开发中始终站在玩家角度。
 search: true
 source:
   title: 増田部長のめざめるパワー 第98回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-098
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,37 +39,37 @@ glossary_missing_targets: []
 
 星巴克。
 
-超喜欢。
+我真的很喜欢。
 
-即使去海外出差，当然也会喝。星巴克拿铁。
+即使出差到海外，我当然也会喝。星巴克拿铁。
 
-而且，无论在哪里喝都很好喝！
+而且……无论在哪里喝都好喝！
 
-不过，稍微有点，不同地方的味道会不一样呢。
+不过，不同地方的味道还是会有一点点差别，对吧。
 
-在西雅图的星巴克一号店，感觉牛奶稍微浓郁一些，
+在西雅图的星巴克第一家店里，我感觉牛奶的味道浓郁一些，
 
-在德国则总觉得像是甜牛奶。
+在德国，不知怎么觉得像甜甜的牛奶。
 
-不只是味道。店内也不一样。
+不只是味道，店里的氛围也不一样。
 
 星巴克就是星巴克。
 
-一样但……又有点不同。
+虽然一样……却又有些不同。
 
-但这是因为，他们在为顾客着想。
+但这是因为他们一直在为顾客着想。
 
-充分考虑饮用者，连椅子、桌子，甚至挂在墙上的画都精心挑选。
+他们充分考虑饮用者的感受，连椅子、桌子，甚至挂在墙上的画也会精心挑选。
 
-为了让顾客感到舒适，店员也接受了相应的培训。
+为了让人待得舒服，店员也都接受了相应的培训。
 
-非常值得学习。
+这让我学到很多。
 
-我也要时刻为玩家着想。
+我也想始终考虑玩家的感受。
 
-每次喝着大杯拿铁，我都会这样想。
+每次喝着一杯 Tall 拿铁，我都会产生这样的想法。
 
-那么。
+那就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

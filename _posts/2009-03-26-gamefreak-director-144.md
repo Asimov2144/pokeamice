@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 144
-gf_entry_title: それは忽然と現れた。美しく巨大、力強くしなやか。濃い赤鉄色。
+gf_entry_title: 【旅行随笔】金门大桥初见
 gf_archive: 2009-03
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田亲眼游览金门大桥，从三个角度欣赏它不断变化的风貌，并感叹这座桥令人震撼的美与力量。
+gf_translation_title: 【旅行随笔】金门大桥初见
+gf_translation_summary: 增田亲眼游览金门大桥，从三个角度欣赏它不断变化的风貌，并感叹这座桥令人震撼的美与力量。
 search: true
 source:
   title: 増田部長のめざめるパワー 第144回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-144
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,29 +37,29 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-它忽然出现了。美丽而巨大，强韧而柔韧。浓重的赤铁色。
+它忽然出现在眼前。美丽而巨大，强劲又柔韧。浓重的赤铁色。
 
-那座桥牢牢抓住了增田的目光。
+那座桥牢牢吸引住了我的目光。
 
 金门大桥。
 
-那座美得无与伦比的桥，以超乎想象的存在感震撼了增田。
+那座美得令人难以置信的桥，以超乎想象的存在感震撼了我。
 
-乘车移动，从三个地点参观。
+我们开车移动，从三个地方进行观赏。
 
-随着角度的不同，表情千变万化。
+随着角度不同，它展现出的神情也会千变万化。
 
-虽然仔细观察了一番，但仍觉得意犹未尽。
+虽然已经仔细观察了一番，却还是觉得意犹未尽。
 
-主塔、锚碇、缆绳等值得观赏的点也很多。
+主塔、锚碇、缆索等值得观赏的地方也很多。
 
-真是绝妙。
+真的太棒了。
 
-我时常觉得，在众多游客聚集的地方、让人想拍照的地方，总能感受到某种力量。
+我总是觉得，在聚集着许多游客、让人忍不住想拍照的地方，总能感受到某种力量。
 
-下次，据说中央分隔带会变化，这座桥，走完2.7公里似乎是必须的。
+听说下次这座桥的中央隔离带会发生变化，看来走完这座长达 2.7 公里的桥是必不可少的。
 
-Ciao。
+再会啦。
 
 <img src="/assets/images/gamefreak-director/archive/144/multi/144a.jpg" alt="" loading="lazy">
 

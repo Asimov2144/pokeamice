@@ -14,71 +14,74 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 18
-gf_entry_title: 最近、スピーカーが欲しいと思っているんですが、 なかなか、好みのものが無いんですよね。
+gf_entry_title: 【开发随笔】2004年完成游戏的力量
 gf_archive: 2004-09
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 音箱自制的旧日趣味，引出制作游戏时必须坚持收尾、真正完成作品的重要性。
+gf_translation_title: 【开发随笔】2004年完成游戏的力量
+gf_translation_summary: 音箱自制的旧日趣味，引出制作游戏时必须坚持收尾、真正完成作品的重要性。
 search: true
 source:
   title: 増田部長のめざめるパワー 第18回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-018
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
-glossary_missing_targets:
-- 寇恩
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-最近，我想要一个音箱，
+最近我有点想买一套扬声器，
 
-但是，怎么也找不到合心意的。
+可一直没有找到合自己心意的。
 
-说起来，以前我经常自己动手做音箱。
+说起来，我以前经常自己制作扬声器。
 
-画图纸，买木板，安装扬声器。
+画好图纸，买来木板，再把扬声器装上去。
 
-那时候，也想过往里面灌沙子增加重量，是不是就能出低音？
+那时候我还会琢磨：把砂子装进去增加重量，能不能让低音更突出？
 
-或者加工扬声器的锥盆，贴上平面板，
+也试过加工扬声器的寇恩，装上一块平板，
 
-用木工胶水填满锥盆，或者加强磁铁，
+用木工胶把寇恩填埋起来，或者增强磁铁，
 
-总之，比起让声音变好，我更享受声音的变化。
+不过现在回想起来，比起改善音质，我似乎更享受声音发生变化的过程。
 
-无论是登山还是马拉松，无论是塑料模型还是改装汽车，
+无论是爬山、跑马拉松，还是做塑料模型、改装汽车，
 
-什么都行……
+其实做什么都可以……
 
-坚持到底，是一件非常重要的事。
+但把一件事坚持到最后、彻底完成，是非常重要的。
 
-尤其是在制作游戏时，这很重要。
+尤其是在制作游戏时，这一点更为重要。
 
-因为这是理所当然的，所以容易被遗忘……
+虽然这是理所当然的事，却很容易忘记……
 
-游戏不是物质，而是内容。
+游戏不是物质，而是一种内容。
 
-可以无限地追加、修正、删除。
+可以永远追加、修改、删除。
 
-可以无限地修改。
+想改到什么程度都可以。
 
-所以，坚持到底就更加困难。
+所以，反而更难坚持到最后，把它真正做完。
 
 想制作游戏的人，
 
-掌握“完成的能力”
+最好能够掌握
 
-“收尾的能力”，
+“完成它的力量”，
 
-会比较好。
+以及
 
-那么。
+“把它收尾的力量”。
+
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

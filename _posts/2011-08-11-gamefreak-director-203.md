@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 203
-gf_entry_title: マスダはいま成田空港に来ています。 サンディエゴに出発です。
+gf_entry_title: 【赛事随笔】2011年宝可梦世界赛
 gf_archive: 2011-08
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一从成田机场出发，期待《黑／白》首次世界大赛，并关注韩国首度参赛及对战环境的变化。
+gf_translation_title: 【赛事随笔】2011年宝可梦世界赛
+gf_translation_summary: 增田顺一从成田机场出发，期待《黑／白》首次世界大赛，并关注韩国首度参赛及对战环境的变化。
 search: true
 source:
   title: 増田部長のめざめるパワー 第203回
   url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-203
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,31 +37,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-增田现在来到了成田机场。
+我现在来到了成田机场。
 
-出发前往圣地亚哥。
+要出发去圣迭戈了。
 
-今年的[世界锦标赛](http://pokemonworlds2011.staging2.pop.us/2011/)会是一场怎样的大会呢？
+今年的[世界锦标赛](http://pokemonworlds2011.staging2.pop.us/2011/)会是怎样的一场比赛呢？
 
-由于受震灾影响，来自日本的参赛者较少，
+由于地震灾害的影响，日本参赛者比较少，
 
-这一点令人遗憾，
+这一点虽然很遗憾，
 
-但韩国是首次参赛，
+不过韩国是首次参赛，
 
-他们会如何进攻，我很期待。
+他们会采取什么样的攻势呢？我很期待。
 
-这是黑·白版中的首次对战世界大会。
+这是《黑／白》发售后的首次宝可梦世界对战大赛。
 
-世界第一的宝座会被哪个国家的谁夺得呢？
+世界第一的宝座将由哪个国家的谁来夺得呢？
 
-还有，会流行什么样的宝可梦和什么样的招式呢？
+又会流行使用哪些宝可梦和哪些招式呢？
 
-哎呀，真是期待。气氛已经高涨起来了！
+哎呀，真让人期待啊。气氛越来越热烈了哦！
 
-那么，出发了！
+那么，我出发了！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,77 +14,78 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 13
-gf_entry_title: 今回はちょっと濃い昔話でも。
+gf_entry_title: 【开发日记】2004年 UNIX 故障往事
 gf_archive: 2004-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回忆开发《宝可梦 红·绿》时使用 UNIX 工作站的经历，以及机器频繁死机、备份不易带来的惊险日常。
+gf_translation_title: 【开发日记】2004年 UNIX 故障往事
+gf_translation_summary: 增田回忆开发《宝可梦 红·绿》时使用 UNIX 工作站的经历，以及机器频繁死机、备份不易带来的惊险日常。
 search: true
 source:
   title: 増田部長のめざめるパワー 第13回
   url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-013
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
-glossary_missing_targets:
-- 狂热
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-这次稍微讲点陈年往事。
+这次来讲点内容比较深的往事吧。
 
-开始开发宝可梦红绿的时候，GAME FREAK 下决心买了一台
+开始开发《宝可梦 红·绿》的时候，GAME FREAK 也是下定决心，
 
-SUN SPARCstation 1 这种 UNIX 机器。
+买了一台名为 SUN SPARCstation 1 的 UNIX 机器。
 
-真是贵得让人感叹“居然买得下手”。
+贵得让人觉得：“居然真买得起啊。”
 
-然后，把 Allied Telesis 公司的网卡装到 PC-9801Xa 和 EPSON 等机器上，
+然后，我们还把 Allied Telesis 公司的板卡装到 PC9801Xa、EPSON 等电脑上，
 
-构建了 LAN 环境。当时是 10BASE-T。
+搭建了局域网环境。当时用的是 10BASE-T。
 
-于是，从各台电脑登录，四五个人一起工作。但是……
+于是，大家从各台电脑登录上去，四五个人一起工作。不过……
 
-超级慢。
+真的特别慢。
 
-因为在专门学校时用 DEC 的中型计算机学过 CG 和 C 语言，
+因为我在专科学校读书时，曾用 DEC 的中型计算机学习 CG 和 C 语言，
 
-不知不觉就成了超级喜欢 UNIX 的少年。
+所以不知不觉间，就成了一个最喜欢 UNIX 的少年。
 
-所以，SUN 用起来非常方便，但是……
+也正因为如此，我觉得 SUN 非常好用，可是……
 
-偶尔系统崩溃……目瞪口呆。
+它偶尔会系统崩溃……让人目瞪口呆。
 
-有时就那么起不来了……呆若木鸡。
+有时还会就这样彻底启动不了……令人茫然。
 
-每次，都像祈祷一样鼓足劲大喊：“起来啊——！！！拜托了！”
+每次我都会像祈祷一样使劲给自己打气，大喊：“快启动啊——！！！拜托了！”
 
-当时，虽然会用像 VHS 磁带一样大的流式磁带机备份，
+当时，我们会把备份存到一种叫作流式磁带的东西上，体积大得像 VHS 录像带那么大，
 
-但因为很花时间，所以并没有那么勤快地录。
+但因为花的时间很长，所以也没法经常备份。
 
-最坏的情况下，全员一个月以上的工作可能化为泡影，有这种危险。
+最糟糕的时候，所有人一个多月的工作都有可能化为乌有。
 
-为了拼命让它启动，真是用尽了所有办法。
+所以，为了让它启动，我真是拼了命，把能想到的办法全都试了一遍。
 
-读英文手册，狂翻超厚的书，
+读英文说明书，没日没夜地啃那些厚得吓人的书，
 
-也曾在 NIFTY 的论坛上求助过。
+我甚至还去 Nifty 的留言板发过求助帖。
 
-当机器一直起不来（比如启动中途重启）的时候，
+机器迟迟启动不了的时候（比如启动到 BOOT 中途突然 REBOOT），
 
-真的满脑子都是这件事，
+我真的满脑子想的都是这件事，
 
-甚至还做过“机器启动了！”的梦。
+甚至还梦见过“机器启动起来了！”。
 
-不过，现在想来，觉得那是非常好的学习经历。
+不过，现在回想起来，我觉得这确实是一次非常好的学习经历。
 
-我是 vi 迷的增田。
+我是个 vi 狂热者，增田。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

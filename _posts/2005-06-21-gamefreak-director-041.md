@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 41
-gf_entry_title: 昨日、素晴らしい営業の方とお話をしました。 すごくまじめで、エネルギッシュ、まっとうな方で、 こちらも商品を買うかどうか、真剣に悩みました。
+gf_entry_title: 【开发随笔】销售的力量与时机
 gf_archive: 2005-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 一位优秀销售人员让我重新意识到，作品质量之外，销售力度、产品理解与推出时机同样关键。
+gf_translation_title: 【开发随笔】销售的力量与时机
+gf_translation_summary: 一位优秀销售人员让我重新意识到，作品质量之外，销售力度、产品理解与推出时机同样关键。
 search: true
 source:
   title: 増田部長のめざめるパワー 第41回
   url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-041
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,45 +37,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-昨天，我与一位出色的销售人士进行了交谈。
+昨天，我和一位非常出色的销售人员聊了聊。
 
-他非常认真、充满活力、正直坦率，
+他非常认真，充满活力，为人也很正直，
 
-我也认真地犹豫是否要购买他的商品。
+弄得我这边都认真纠结起要不要买他的产品了。
 
-我们也在制作软件这样的内容商品，
+毕竟，我们也是在制作软件这种内容商品的，
 
-所以当然是销售方。
+当然也属于销售的一方。
 
-但是，实际销售的不是 GAME FREAK，
+可是，实际负责销售的并不是 GAME FREAK，
 
-所以作为销售方的意识容易变得淡薄。
+所以我们很容易淡化自己身为销售方的意识。
 
-这样一来，就容易陷入只要做出好作品就能卖出去的
+这样一来，就很容易陷入“只要做出好作品就能卖出去”的
 
-感觉。
+想法。
 
-当然，那是个陷阱。
+当然，这其实是个陷阱。
 
-因为明显是销售商品的一方。
+因为我们显然就是站在销售商品的一方。
 
-销售时的力量有多么重要，
+销售时的力量究竟有多重要，
 
-以及必须对商品有多么了解，
+以及必须对自己的商品有多么深入的了解，
 
-销售时的时机有多么重要，
+销售时机究竟有多么重要，
 
-这些复合性的销售战略要素有多么重要，
+还有这些综合性的销售策略因素究竟有多么关键，
 
-让我学到了很多。
+这些都让我好好上了一课。
 
-虽然截止日期很辛苦，但作为销售方，
+虽然截止日期让人很辛苦，但站在销售方的立场上，
 
-如果能以好的时机发布好的作品，
+如果能够在恰当的时机推出优秀的作品，
 
-那天让我重新有了这样的感受。
+那是让我再次切实感受到这一点的一天。
 
-那么。
+那么，回头见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

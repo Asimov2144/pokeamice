@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 239
-gf_entry_title: なんとっ！！
+gf_entry_title: 【幕后日记】2013年拍摄音乐短片
 gf_archive: 2013-06
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一受邀出演生物股长《笑颜》宣传片，记录清晨在六本木拍摄时的紧张与惊喜。
+gf_translation_title: 【幕后日记】2013年拍摄音乐短片
+gf_translation_summary: 增田顺一受邀出演生物股长《笑颜》宣传片，记录清晨在六本木拍摄时的紧张与惊喜。
 search: true
 source:
   title: 増田部長のめざめるパワー 第239回
   url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-239
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,63 +38,63 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-竟然！！
+没想到！！
 
-我出演了いきものがかり（生物股长）的《笑顔》宣传视频！！
+我有幸出演了生物股长《笑颜》的宣传片！！
 
-居然会有这种事！！！
+竟然会有这样的事！！！
 
-契机是出演了いきものがかり的广播节目，
+因为参加了生物股长的广播节目，
 
-和《笑顔》作词作曲的水野先生也在推特上有了联系……
+我还在 Twitter 上和《笑颜》作词作曲的水野先生有了联系……
 
-然后这次，收到了邀请……
+然后这次，又收到了邀请……
 
-相遇真是了不起。世界在不断地扩展。
+人与人的相遇真是奇妙。世界也在不断扩大。
 
 <p class="gf-director-spacer"></p>
 
 2013年6月9日。
 
-清晨的六本木。
+清晨的六本六。
 
-因为是要去洛杉矶的日子，
+因为当天是我要去洛杉矶的日子，
 
-所以安排了录制的最早时间，成为第一个拍摄。
+所以请他们把拍摄安排在最早的时间，我也成了第一个拍摄的人。
 
-坐在中间位置的椅子上。拍摄开始。
+我坐在中间附近的椅子上。拍摄开始。
 
 <img src="/assets/images/gamefreak-director/archive/239/multi/130620_01.jpg" alt="" loading="lazy">
 
-按照导演的指示移动视线……移动……移动……
+按照导演的指示移动视线……移动……继续移动……
 
-“好的，辛苦了！”
+“好，辛苦了！”
 
-本以为只是彩排……
+我还以为只是彩排，没想到……
 
-导演却说了OK。
+导演就说可以了。
 
-哎呀……虽然是一瞬间的事，
+哎呀……虽然一转眼就结束了，
 
-却是令人难忘的摄影棚拍摄！！
+但真是一次令人难忘的摄影棚拍摄！！
 
 <p class="gf-director-spacer"></p>
 
-完成的PV在这里。
+完成的宣传片在这里。
 
 [http://www.youtube.com/watch?v=hLBdm2J9UKA](http://www.youtube.com/watch?v=hLBdm2J9UKA)
 
-让我体验了非常厉害的经历！！
+真是让我体验了一次不得了的经历！！
 
-いきものがかり的各位，真的非常感谢！！！
+生物股长的各位，真的非常感谢你们！！！
 
-いきものがかり官方网站。
+生物股长官方网站。
 
 [http://ikimonogakari.com/](http://ikimonogakari.com/)
 
-[http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)（活动，增田也预定去）
+[http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)（活动，我也计划去）
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

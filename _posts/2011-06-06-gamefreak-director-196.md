@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 196
-gf_entry_title: ６月４日土曜日午後、今日も映画音楽を収録中のスタジオへ！
+gf_entry_title: 【工作日记】电影音乐录制现场
 gf_archive: 2011-06
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录在晴朗的六本木录音室录制电影音乐，透过现场照片分享明亮舒适的工作环境与设备带来的兴奋。
+gf_translation_title: 【工作日记】电影音乐录制现场
+gf_translation_summary: 增田顺一记录在晴朗的六本木录音室录制电影音乐，透过现场照片分享明亮舒适的工作环境与设备带来的兴奋。
 search: true
 source:
   title: 増田部長のめざめるパワー 第196回
   url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-196
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,27 +37,27 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-6月4日星期六下午，今天也来到了正在录制电影音乐的录音室！
+6月4日星期六下午，今天也来到正在录制电影音乐的录音室！
 
-今天天气非常好！
+今天的天气也特别好！
 
-在闪闪发光的太阳附近可以看到六本木新城！
+在耀眼夺目的太阳旁边，可以看到六本木新城！
 
 <img src="/assets/images/gamefreak-director/archive/196/ja/193a.jpg" alt="" loading="lazy">
 
-位于大楼2楼的录音室！
+位于大楼二层的录音室！
 
-阳光照进来，感觉很舒服！！
+阳光也照了进来，感觉真舒服！！
 
 <img src="/assets/images/gamefreak-director/archive/196/ja/193b.jpg" alt="" loading="lazy">
 
-看到这样的器材，心情就激动不已呢。
+看到这样的设备，心情也会跟着雀跃起来呢——。
 
 <img src="/assets/images/gamefreak-director/archive/196/ja/193c.jpg" alt="" loading="lazy">
 
-这是一个能让人心情愉快地工作的录音室！
+真是间让人能够舒舒服服工作的录音室！
 
-那么！
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

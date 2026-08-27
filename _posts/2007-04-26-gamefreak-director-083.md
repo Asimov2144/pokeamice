@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 83
-gf_entry_title: 増田＠GFです。
+gf_entry_title: 【开发日记】GAME FREAK创立18周年
 gf_archive: 2007-04
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享纽约发布会的盛况，并在GAME FREAK创立18周年之际，谈到游戏、活动与创作带来的快乐。
+gf_translation_title: 【开发日记】GAME FREAK创立18周年
+gf_translation_summary: 增田顺一分享纽约发布会的盛况，并在GAME FREAK创立18周年之际，谈到游戏、活动与创作带来的快乐。
 search: true
 source:
   title: 増田部長のめざめるパワー 第83回
   url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-083
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,59 +37,53 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-増田＠GFです。
+我是 GF 的增田。
 
 昨天，我从纽约回来了。
 
-哎呀，坐14个小时的飞机真是辛苦啊。。。
+哎呀——坐14个小时的飞机，真够辛苦的啊……
 
-因为时差反应，整个人都迷迷糊糊的。
+现在还在时差反应中，整个人昏昏沉沉的。
 
-但是，今天也要精神饱满地开始！！
+不过——今天也要精神满满地开始！！
 
-今天，4月26日是GAME FREAK的创立纪念日！
+今天，4月26日，是 GAME FREAK 的创立纪念日！
 
-居然已经18周年了！！！
+没想到已经18周年了！！！
 
-在这里有一个好消息！
+先来分享一个令人高兴的消息！
 
-在纽约举行的Pokemon DIAMOND & PEARL launch party上，
+听说在纽约举办的 Pokemon DIAMOND & PEARL 发布会，
 
-据说约有6000人前来参加！太厉害了！感谢！
+大约有6000人到场！太厉害了！感谢大家！
 
-美国时间22日的活动在pokemon.com上也进行了流媒体直播，
+美国时间22日的活动也在 pokemon.com 上进行了在线直播，
 
-居然！那一天的访问量高达18万6千人！
+没想到！一天之内的访问人数竟然达到了18万6千人！
 
-也就是说，全世界有18万人观看了！
+也就是说，全世界有18万6千人观看了活动！
 
-太厉害了！太感激了！太高兴了！感谢！
+太厉害了！太感谢了！太高兴了！谢谢大家！
 
-另外，据说在NINTENDO WORLD排队购买钻石·珍珠的人们的样子，
+另外，听说还有人在 YouTube 上传了当时排队购买《宝可梦 钻石·珍珠》的队伍情况。
 
-被上传到了YouTube上。
+据说视频是从队伍末尾（从48街到49街，几乎绕了一圈）一直拍到入口的。
 
-据说拍摄了从队伍末尾（从48街到49街几乎绕了一圈）到入口的画面。
+他们还真会做有意思的事！
 
-真是有趣的事情！
+Joystiq 这个网站也拍摄并播放了活动现场的情况。
 
-在Joystiq这个网站上也有活动的拍摄和播放。
+请搜索“Joystiq at the Pokemon launch party in NYC”试试看。（我刚才也看了。）
 
-请用Joystiq at the Pokemon launch party in NYC
+我希望通过这样的活动，
 
-搜索一下。（マスダモイマミマシタ）
+能让更多人哪怕只是更深入地了解一点游戏！
 
-通过这样的活动，
+而且，如果大家不仅能感受到创作的快乐，也能体会到举办活动、进行发布的快乐，并因此让哪怕多一个人产生“我也想成为创作者！”的想法，我都会非常高兴。
 
-希望能让更多的人对游戏有更深入的理解！！
+同时，我也希望大家能通过宝可梦这款游戏，感受到些什么。
 
-不仅了解制作东西的乐趣，也了解活动的乐趣、发布的乐趣，
-
-希望成为创作者的人哪怕多一个，我也会非常高兴。
-
-并且，希望大家能通过口袋妖怪这个游戏软件感受到一些东西。
-
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 166
-gf_entry_title: みなさん、ポケモンの映画観たことありますか？
+gf_entry_title: 【开发日记】2010年 比克提尼登场
 gf_archive: 2010-07
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一介绍全新的幻之宝可梦比克提尼，以及通过自由船票乘船、在特别事件中与它相遇的方式。
+gf_translation_title: 【开发日记】2010年 比克提尼登场
+gf_translation_summary: 增田顺一介绍全新的幻之宝可梦比克提尼，以及通过自由船票乘船、在特别事件中与它相遇的方式。
 search: true
 source:
   title: 増田部長のめざめるパワー 第166回
   url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
   source_type: official_blog
 gf_archive_id: masuda-166
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-大家看过宝可梦的电影吗？
+大家看过宝可梦电影吗？
 
-把宝可梦游戏软件※带到宝可梦电影院，
+带着宝可梦游戏软件※去看宝可梦电影的话，
 
-就能得到幻之宝可梦。
+就能获得幻之宝可梦。
 
-在电影院座位上就能领取，这是个划时代的系统。
+可以在电影院的座位上领取，这可是个划时代的系统。
 
 2010年的今年是时拉比。
 
-至今为止，能获得这种幻之宝可梦的机会仅限于电影院。
+到目前为止，想要获得这样的幻之宝可梦，都只能去电影院。
 
-但是，我也想让不看宝可梦电影的人，
+不过，我也希望那些不看宝可梦电影的人，
 
-也能体验到获得幻之宝可梦的感动。
+能够感受到获得幻之宝可梦时的感动。
 
-是的，那就是合众图鉴编号000的幻之宝可梦「比克提尼」。
+没错，这就是合众图鉴编号000的幻之宝可梦“比克提尼”。
 
 [http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
 
-而且，不仅仅是单纯地领取。
+而且，并不是只要单纯领取就行。
 
-用「自由船票」乘上船，在特别的专用活动中就能遇见比克提尼。
+乘坐“自由船票”登船，就能在特别的专属事件中与比克提尼相遇。
 
-（详情请等待今后的信息。）
+（详情请继续期待今后的消息哦。）
 
-通过游戏软件发售来赠送幻之宝可梦，其实是首次尝试。
+在游戏软件发售时赠送幻之宝可梦，其实还是第一次尝试。
 
-请一定要领取！
+请一定要拿到它！
 
-那么！
+那么，回头见！
 
-※在电影院能接收宝可梦的是所有能在DS上游玩的宝可梦软件！
+※能够在电影中领取宝可梦的，是所有可以在 DS 上游玩的宝可梦软件！
 
-（钻石·珍珠·白金·心金·魂银）
+（钻石・珍珠・白金・心金・魂银）
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

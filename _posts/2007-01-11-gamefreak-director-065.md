@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 65
-gf_entry_title: 明けましておめでとうございます。 本年もよろしくお願いいたします。
+gf_entry_title: 【开发日记】2007年钻石珍珠幕后分享
 gf_archive: 2007-01
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一预告将分享钻石与珍珠的幕后话题，并谈到 GAME FREAK 面向游戏开发与行业人才培养的努力。
+gf_translation_title: 【开发日记】2007年钻石珍珠幕后分享
+gf_translation_summary: 增田顺一预告将分享钻石与珍珠的幕后话题，并谈到 GAME FREAK 面向游戏开发与行业人才培养的努力。
 search: true
 source:
   title: 増田部長のめざめるパワー 第65回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-065
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,31 +37,31 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-新年快乐。
+新年好！
 
 今年也请多多关照。
 
-2007年也要不断挑战各种事情！
+2007年我也会全力挑战各种各样的事情！
 
-然后，
+还有，
 
-希望GAME FREAK能成为游戏开发的发信基地，
+我希望能让 GAME FREAK 成为传播游戏开发信息的基地，
 
-为许多想“在游戏行业工作！”的人
+并努力去做一些能让许多人产生“我想在游戏行业工作！”这种想法的事。
 
-投入力量。我是这么想的。
+我是这么想的。
 
-那么，这个专栏，
+那么，说回这个专栏……
 
-差不多该以钻石、珍珠为话题
+我想差不多也该开始围绕钻石、珍珠，
 
-写点东西了吧，我在考虑。
+把各种相关话题写下来了。
 
-今年也请来看哦！
+今年也请来看看哦！
 
-请多多关照。
+还请多多关照。
 
-那么！
+那么，回见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

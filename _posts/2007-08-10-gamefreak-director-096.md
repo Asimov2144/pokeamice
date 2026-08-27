@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 96
-gf_entry_title: 明日から夏休み！
+gf_entry_title: 【活动日记】2007年夏日帕尔城
 gf_archive: 2007-08
 gf_categories:
 - 未分類
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一邀请大家参加横滨帕尔城，体验与皮卡丘合影、DP对战和无线通信获取宝可梦的夏日活动。
+gf_translation_title: 【活动日记】2007年夏日帕尔城
+gf_translation_summary: 增田顺一邀请大家参加横滨帕尔城，体验与皮卡丘合影、DP对战和无线通信获取宝可梦的夏日活动。
 search: true
 source:
   title: 増田部長のめざめるパワー 第96回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-096
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -39,25 +41,25 @@ glossary_missing_targets: []
 
 大家，暑假过得开心吗！？
 
-边玩边学，尽情享受吧！
+一起玩、一起学习，开开心心地度过吧！
 
-增田计划8月17日去横滨的Pal City！
+我计划在8月17日去横滨的帕尔城！
 
-幕张也去了，人太多，非常感动！
+我也去了幕张会场，没想到人那么多，真是太激动了！
 
-所以，横滨也要好好享受！
+所以，这次在横滨我也要好好享受一番！
 
-大家也可以和皮卡丘拍照、玩DP对战、
+大家也可以和皮卡丘合影、进行DP对战，
 
-通过无线通信获得宝可梦，等等……
+还可以通过无线通信获得宝可梦，等等……
 
-充满乐趣的Pal City！请一定要来哦！
+帕尔城真是充满欢乐！一定要来哦！
 
-今年的夏天只有今年才有！
+今年的夏天，只有今年才有！
 
-尽情享受吧！
+让我们一起开心地度过吧！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

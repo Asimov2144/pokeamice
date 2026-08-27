@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 217
-gf_entry_title: みなさま！！
+gf_entry_title: 【公告】2011年宝可梦中心脸书页面
 gf_archive: 2011-12
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一向读者送上年末问候，并介绍限时开放的宝可梦中心东京脸书官方页面与抽奖活动。
+gf_translation_title: 【公告】2011年宝可梦中心脸书页面
+gf_translation_summary: 增田顺一向读者送上年末问候，并介绍限时开放的宝可梦中心东京脸书官方页面与抽奖活动。
 search: true
 source:
   title: 増田部長のめざめるパワー 第217回
   url: https://www.gamefreak.co.jp/blog/dir/2011/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-217
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,23 +38,23 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-各位！！
+大家！！
 
-今年一年也承蒙大家多多关照了。
+这一年来也承蒙大家多方关照。
 
-现在，宝可梦中心东京的Facebook官方页面正在限期开放中，
+现在，宝可梦中心东京的 Facebook 官方页面正在限时开放，
 
-在这里，增田热情地聊了聊关于宝可梦中心的事情（笑）。
+我还在这里热情地聊了聊宝可梦中心（笑）。
 
 [http://www.facebook.com/pokemoncentertokyo.official](http://www.facebook.com/pokemoncentertokyo.official)
 
-请务必读一读！！
+请一定去读一读！！
 
-啊，也别忘了给官方页面本身点个「赞」！！
+啊，官方页面本身也别忘了点个“赞”哦！！
 
-有机会获得皮卡丘周边哦！！
+还有机会抽中皮卡丘周边！！
 
-[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)
+[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 169
-gf_entry_title: ★７月３１日（土）BWついに予約開始！！
+gf_entry_title: 【开发日记】宝可梦黑白预约与体验活动
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田记录宝可梦黑白开始预约，并分享在六本木新城体验宝可梦搜查器的兴奋与感受。
+gf_translation_title: 【开发日记】宝可梦黑白预约与体验活动
+gf_translation_summary: 增田记录宝可梦黑白开始预约，并分享在六本木新城体验宝可梦搜查器的兴奋与感受。
 search: true
 source:
   title: 増田部長のめざめるパワー 第169回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-169
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,41 +38,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-★７月３１日（星期六）ＢＷ终于开始预约！！
+★7月31日（星期六）BW终于开始接受预约了！！
 
-清晨，时隔３０年，去了重要的表兄弟所在的茨城。
+一大早，我去了阔别30年的重要表亲所在的茨城。
 
-回来后，工作工作。
+回来后，继续工作，工作。
 
-在神奇宝贝中心东京关门之前，赶紧去预约。
+趁宝可梦中心东京还没关门，赶紧去预约。
 
-哎呀，排队预约这种事，是几年来的第一次！？
+哎呀，排队预约还真是好多年没经历过了！？
 
-增田也好好排队，预约了２个（笑）
+我也老老实实排了队，各预约了两份（笑）
 
-★８月１日（星期日）１５点，在六本木新城。
+★8月1日（星期日）15点，六本木新城。
 
-去了神奇宝贝搜索器ＢＷ完成披露活动！
+我去参加了宝可梦搜查器BW完成披露活动！
 
-RIKACO小姐、三船小姐、木佐小姐作为神奇宝贝妈妈登上讲台。
+RIKACO女士、三船女士和木佐女士作为宝可梦妈妈登上了舞台。
 
 能听到有趣的谈话，真是太好了。
 
-然后，神奇宝贝搜索器ＢＷ，真的很有趣。
+然后，宝可梦搜查器BW真的非常有意思。
 
-让我坐了２次！
+我还坐了两次呢！
 
-不是普通的巴士！！
+它可不只是普通的巴士！！
 
-不只是试玩！！
+也不只是试玩而已！！
 
-声音也很厉害！！
+音效也非常厉害！！
 
-这个，希望大家一定要体验！！
+这个真的希望大家都能亲自体验一下！！
 
 [http://www.pokemon.co.jp/event/about/searcher/?f001=flash](http://www.pokemon.co.jp/event/about/searcher/?f001=flash)
 
-活动的新闻。
+活动相关新闻。
 
 [http://headlines.yahoo.co.jp/hl?a=20100801-00000012-mantan-game](http://headlines.yahoo.co.jp/hl?a=20100801-00000012-mantan-game)
 
@@ -78,15 +80,15 @@ RIKACO小姐、三船小姐、木佐小姐作为神奇宝贝妈妈登上讲台�
 
 [http://www.famitsu.com/game/news/1238350_1124.html](http://www.famitsu.com/game/news/1238350_1124.html)
 
-啊，特别影像增加了哦！
+啊，特别影片又增加了哦！
 
 [http://www.pokemon-sp.jp/series/bw/](http://www.pokemon-sp.jp/series/bw/)
 
-那么！
+那么，回头见！
 
 <img src="/assets/images/gamefreak-director/archive/169/ja/169a.jpg" alt="" loading="lazy">
 
-神奇宝贝中心的姐姐，这也太辛苦了吧！
+宝可梦中心的姐姐看起来也够辛苦的！
 
 <img src="/assets/images/gamefreak-director/archive/169/ja/169b.jpg" alt="" loading="lazy">
 

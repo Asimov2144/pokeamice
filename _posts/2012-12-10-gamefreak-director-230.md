@@ -14,59 +14,59 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 230
-gf_entry_title: 本日、ツイッターでも発表しましたが、 プラズマ団が色々制圧していて、 楽しそうなので、マスダもプラズマ団に入団しました！
+gf_entry_title: 【活动消息】2012年代欧奇希斯提前赠送
 gf_archive: 2012-12
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田宣布加入等离子队，并将原定明年春季赠送的代欧奇希斯提前至12月15日活动现场发放。
+gf_translation_title: 【活动消息】2012年代欧奇希斯提前赠送
+gf_translation_summary: 增田宣布加入等离子队，并将原定明年春季赠送的代欧奇希斯提前至12月15日活动现场发放。
 search: true
 source:
   title: 増田部長のめざめるパワー 第230回
   url: https://www.gamefreak.co.jp/blog/dir/2012/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-230
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 礼物
-- 手下
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-本日，在推特上也发表了，
+今天我也在推特上公布了这件事，不过，
 
-等离子团正在四处压制，
+等离子队正在四处制压，
 
-看起来很有趣，所以增田也加入了等离子团！
+看起来挺有意思，所以我也加入等离子队了！
 
 证据照片在这里！（笑）
 
 <img src="/assets/images/gamefreak-director/archive/230/multi/1.jpg" alt="" loading="lazy">
 
-是小卒！！
+我是手下！！
 
-然后，，竟然！！
+然后……没想到！！
 
-原定于明年春天进行的代欧奇希斯的赠送，
+原定明年春天赠送的代欧奇希斯礼物，
 
-将在12月15日（周六）起的等离子团压制活动会场等处
+将在12月15日（星期六）起的等离子队制压活动会场等地
 
-提前实施！！
+提前送出！！
 
-详情请从这里查看！
+详情请看这里！
 
 [http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)
 
-请注意亲名（笑）！
+请注意训练家名（笑）！
 
 大家，请来活动会场哦！
 
-普拉兹玛—！
+普拉兹玛！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

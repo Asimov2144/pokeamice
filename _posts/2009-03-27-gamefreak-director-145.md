@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 145
-gf_entry_title: ３月２２日無事、北米でプラチナが発売されました！
+gf_entry_title: 【发售消息】《宝可梦 白金》登陆北美
 gf_archive: 2009-03
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 北美版《宝可梦 白金》顺利发售，武德分享跨国联机的乐趣，以及近期海外媒体采访报道。
+gf_translation_title: 【发售消息】《宝可梦 白金》登陆北美
+gf_translation_summary: 北美版《宝可梦 白金》顺利发售，武德分享跨国联机的乐趣，以及近期海外媒体采访报道。
 search: true
 source:
   title: 増田部長のめざめるパワー 第145回
   url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-145
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 武德
@@ -37,21 +39,21 @@ glossary_missing_targets:
 
 ## 中文译文
 
-３月２２日，北美的《白金》顺利发售了！
+3月22日，北美版《宝可梦 白金》顺利发售了！
 
 这样一来，Wi-Fi的世界又扩大了。
 
 日本和北美的玩家可以跨越国界一起游玩，
 
-大家请务必在「Wi-Fi广场」里试试看哦！
+所以大家一定要来“Wi-Fi广场”玩玩看哦！
 
-前几天的采访内容已在网上公开了几篇，在此介绍！
+前几天接受采访的内容，有几篇已经刊登在网上了，介绍给大家！
 
-因为采访的各位也是宝可梦爱好者，
+因为前来采访的人也是宝可梦爱好者，
 
-采访过程非常愉快，度过了欢乐的时光。
+结果都不只是采访了，而是让我度过了一段愉快的时光。
 
-谢谢你们！
+谢谢大家！
 
 ・IGN.com
 
@@ -77,9 +79,9 @@ glossary_missing_targets:
 
 [http://www.whattheyplay.com/features/meeting-the-creators-of-pokemon-platinum/](http://www.whattheyplay.com/features/meeting-the-creators-of-pokemon-platinum/)
 
-北美的各位，请尽情享受《白金》吧！
+北美的各位，请尽情享受《宝可梦 白金》吧！
 
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

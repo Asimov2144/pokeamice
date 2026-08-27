@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 188
-gf_entry_title: ２０１１年２月２７日で１５周年です！ いやー、早いものです。もう１５年も経っちゃいました。
+gf_entry_title: 【活动公告】宝可梦十五周年钢琴演奏
 gf_archive: 2011-02
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦迎来十五周年，横滨宝可梦中心将举办纪念活动，并在宾果大会前安排《黑·白》钢琴演奏。
+gf_translation_title: 【活动公告】宝可梦十五周年钢琴演奏
+gf_translation_summary: 宝可梦迎来十五周年，横滨宝可梦中心将举办纪念活动，并在宾果大会前安排《黑·白》钢琴演奏。
 search: true
 source:
   title: 増田部長のめざめるパワー 第188回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-188
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,37 +38,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-2011年2月27日，15周年！
+2011年2月27日就是15周年了！
 
-哎呀，时间过得真快。已经过去15年了。
+哎呀，时间过得真快。没想到已经过去15年了。
 
-能走到今天，多亏了大家的支持。
+能一路走到今天，也多亏了大家的支持。
 
-大家，真的非常感谢！
+真的非常感谢大家！
 
-这一天，仿佛是为了庆祝宝可梦15周年，东京马拉松也将举办（笑），，，
+这一天，东京马拉松也会举办，简直就像是在为宝可梦15周年庆祝一样（笑），，，
 
-在宝可梦中心横滨店，
+横滨宝可梦中心店将举办
 
-将举办名为“宝可梦舞台 in 地标广场 2011”的活动！
+“宝可梦舞台秀 in Landmark Plaza 2011”活动哦！
 
 [http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)
 
-然后！竟然！！！
+而且！没想到！！！
 
-在宾果大会开始前15分钟，将进行钢琴演奏！！
+宾果大会开始前15分钟，还会有钢琴演奏！！
 
-（11点15分?、12点45分?、14点15分?、15点45分?）
+（11点15分？、12点45分？、14点15分？、15点45分？）
 
-这可不能不听！！
+这可一定得去听听！
 
-这是首次演奏《宝可梦 黑·白》的曲子！
+这还是第一次演奏《宝可梦 黑·白》的音乐！
 
-增田打算在27日中午左右去听！！期待！！
+我计划27日中午左右去听！！好期待！！
 
 大家也一定要来玩哦！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

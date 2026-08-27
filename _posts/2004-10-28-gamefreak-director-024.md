@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 24
-gf_entry_title: ホウエン地方のルネシティにいる、キリちゃん。 わたしがメッセージを書きました。
+gf_entry_title: 【开发日记】红宝石蓝宝石中的特别角色
 gf_archive: 2004-10
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回忆在《红宝石》《蓝宝石》开发末期，将女儿名字化作琉璃市小桐的特别留言。
+gf_translation_title: 【开发日记】红宝石蓝宝石中的特别角色
+gf_translation_summary: 增田顺一回忆在《红宝石》《蓝宝石》开发末期，将女儿名字化作琉璃市小桐的特别留言。
 search: true
 source:
   title: 増田部長のめざめるパワー 第24回
   url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
   source_type: official_blog
 gf_archive_id: masuda-024
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 5
 glossary_missing_targets: []
 ---
@@ -35,45 +37,45 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-丰缘地区琉璃市里的，小桐。
+丰缘地区琉璃市的小桐。
 
-我写了那条留言。
+我写下了那段留言。
 
-送树果的留言，几乎都是我写的，
+送树果的留言，基本上都是我写的，
 
-不过，那个，小桐是特别的。
+不过，小桐可是特别的。
 
-是在开发接近尾声时，偷偷加进去的。
+在临近完成时，我偷偷地把她加了进去。
 
 其实……
 
-“桐”是我女儿的名字，九月出生。
+“小桐”是我女儿的名字，她出生于九月。
 
-所以，也带着心愿，写下了那条留言。
+所以，我也把自己的愿望寄托在那段留言里了。
 
-当时《红宝石》《蓝宝石》基本完成，主要在做调试工作，
+当时《红宝石》《蓝宝石》已经基本完成，工作主要是
 
-但还是有很多需要决定的事情，
+调试，不过还有很多事情要决定，
 
-在我妻子拼命生女儿的时候（陪产），手机邮件来了，
+甚至在妻子努力生女儿的过程中（我在旁陪产），手机邮件也会传过来，
 
-“关于这个，这样规格可以吗？”
+“关于××，采用这样的设定可以吗？”
 
-这种感觉。
+之类的。
 
-从各种意义上说，都是充满紧张感的经历。
+从各种意义上说，那是一次充满紧张感的经历。
 
-明明希望送到，却送不到。或者，
+明明希望它传达到，却偏偏传达不了。之类的，
 
-明明不用送到，却送到了。
+明明不希望传达到，却偏偏传达了。之类的，
 
-这种事情，很有意思吧。
+这种事情，很有意思对吧。
 
-P.S. 时间过得真快，女儿也两岁了。
+PS：时间过得真快，女儿也两岁了。
 
-　　也就是说，《红宝石》《蓝宝石》也两岁了。
+　　　也就是说，《红宝石》《蓝宝石》也两岁了。
 
-那么。
+那么，先这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 140
-gf_entry_title: ポケモンのルール！？
+gf_entry_title: 【开发随笔】宝可梦的规则！？
 gf_archive: 2009-02
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 从草丛里的野生宝可梦到对战规则，增田顺一聊起电子游戏中的限制如何成为规则，以及策划人员看待游戏的方式。
+gf_translation_title: 【开发随笔】宝可梦的规则！？
+gf_translation_summary: 从草丛里的野生宝可梦到对战规则，增田顺一聊起电子游戏中的限制如何成为规则，以及策划人员看待游戏的方式。
 search: true
 source:
   title: 増田部長のめざめるパワー 第140回
   url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-140
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -39,41 +41,41 @@ glossary_missing_targets: []
 
 大家知道宝可梦的规则吗？
 
-比如，对战相关的……
+比如说，和对战有关的……
 
-・只有草丛里才有野生宝可梦。
+・野生宝可梦只会出现在草丛里。
 
-・与训练家对上眼就要对战。
+・和训练家对上眼就会发生对战。
 
-・HP归零就会濒死。
+・HP归零就会陷入濒死。
 
-・能记住的招式有4个。
+・能学会的招式只有4个。
 
-・按速度从快到慢依次出招。
+・由速度快的一方开始依次使出招式。
 
-・只能携带1个道具。
+・可以携带一件道具。
 
-・对战会持续到手持宝可梦全部濒死为止。
+・对战会一直持续到己方携带的宝可梦全部陷入濒死。
 
-・野生宝可梦用道具（精灵球）捕捉。
+・野生宝可梦要用道具（精灵球）捕捉。
 
 ……
 
-在电视游戏中，能做的事情是有限的。
+对于电子游戏来说，能做的事情是有限的。
 
-这些限制，实际上就成了规则。
+而这种限制，其实就成了规则。
 
-因此，看起来规则似乎是自然而然附带的，但是，
+所以看起来，规则仿佛是自然而然地附加上去的，不过，
 
-分解来看，和篮球一样，规则、欲望、技巧等交织在一起。
+拆开来看，就会发现它和篮球一样，是规则、欲望、技巧等彼此交织在一起的。
 
-我想很少有人会用这种眼光来看电视游戏吧……
+我想，大家平时不太会用这样的角度去看电子游戏吧……
 
-但策划人员就是以这样的视角在工作。
+但策划人员就是用这样的视角在工作的。
 
-一旦发现，原本看不见的东西就会显现出来。
+一旦把它找出来，原本看不见的东西也会显现出来。
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

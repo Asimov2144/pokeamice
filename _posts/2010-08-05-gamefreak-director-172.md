@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 172
-gf_entry_title: ディレクターをしているので、音楽を作るのは大変なのですが、 ポケモンの場合、戦闘曲はマスダのカラーが強いので、今回も書いてます。
+gf_entry_title: 【音乐随笔】2010年宝可梦战斗曲
 gf_archive: 2010-08
 gf_categories:
 - ポケモン
 - 音楽
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享本次宝可梦音乐创作，谈到战斗曲、开场博士画面曲，以及红绿演示音乐的改编。
+gf_translation_title: 【音乐随笔】2010年宝可梦战斗曲
+gf_translation_summary: 增田顺一分享本次宝可梦音乐创作，谈到战斗曲、开场博士画面曲，以及红绿演示音乐的改编。
 search: true
 source:
   title: 増田部長のめざめるパワー 第172回
   url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-172
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,33 +38,33 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-因为担任总监，制作音乐很辛苦，
+因为我担任导演，创作音乐其实挺辛苦的，
 
-但宝可梦的战斗曲带有增田的强烈色彩，所以这次也写了。
+不过在宝可梦里，战斗音乐带有很强的“增田风格”，所以这次我也写了。
 
-原野和城镇等，要求赋予各自的特征，
+场地、城镇等部分，则是让它们各自拥有不同的特点，
 
-以与以往不同的表现（不统一感）来作曲，
+请大家用和以往不同的表现方式（不统一感）来创作，
 
-战斗曲则更偏向于拥有共同的核……
+所以战斗音乐嘛，怎么说呢，算是带着一条共通的主线……
 
-可以说是王道，或者说做成了宝可梦风格的曲子。
+可以说是王道风格，也就是很有宝可梦味道的音乐。
 
-从这个意义上，我觉得有红绿的气氛。
+从这个意义上说，我觉得它有红绿的氛围。
 
-然后这次，久违地也写了游戏开始时的曲子。
+还有，这次我时隔许久又写了开始游戏时的音乐。
 
-是的，就是博士在说明宝可梦的那个画面的曲子。
+没错，就是博士讲解宝可梦的那个画面中的音乐。
 
-啊，还有标题演示的曲子也写了。
+啊，还有标题演示的音乐我也写了。
 
-这个是红绿演示的改编。
+这个是红绿演示音乐的改编版。
 
-虽然很辛苦，但……
+辛苦归辛苦……
 
-作曲，果然还是很快乐的。
+创作音乐果然还是很开心。
 
-那么！
+那么，再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

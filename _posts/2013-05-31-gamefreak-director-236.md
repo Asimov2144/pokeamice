@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 236
-gf_entry_title: この年になって生まれて初めての経験をしました！
+gf_entry_title: 【开发日记】首次参加电台节目
 gf_archive: 2013-05
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一走进广播节目录音室，首次担任电台嘉宾，并与生物股长畅聊音乐与宝可梦。
+gf_translation_title: 【开发日记】首次参加电台节目
+gf_translation_summary: 增田顺一走进广播节目录音室，首次担任电台嘉宾，并与生物股长畅聊音乐与宝可梦。
 search: true
 source:
   title: 増田部長のめざめるパワー 第236回
   url: https://www.gamefreak.co.jp/blog/dir/2013/05/index.html
   source_type: official_blog
 gf_archive_id: masuda-236
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -36,75 +38,73 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-到了这个年纪，我经历了人生中第一次的事情！
+到了这个年纪，我经历了人生第一次这样的事！
 
-从早上开始就紧张，前往那个地方。
+从早上开始就紧张兮兮地，前往那个地方。
 
-那个地方是、、、
+那个地方就是……
 
 <img src="/assets/images/gamefreak-director/archive/236/multi/130531.jpg" alt="" loading="lazy">
 
-锵——！！！
+锵锵——！！！
 
 广播节目的录音室！！！
 
 麦克风好酷！！
 
-宽敞的隔间！！
+宽敞的录音间！！
 
 人好多！！
 
-心跳加速，无法平静，紧张地等待着，然后、、、
+我一边心怦怦跳，一边坐立不安、紧张地等待着……
 
-在电影《精灵宝可梦：神速的盖诺赛克特 超梦觉醒》中，
+说到在电影《宝可梦剧场版：极速的盖诺赛克特 超梦觉醒》中，
 
-演唱主题曲《笑颜》的，说到就是这几位，
+演唱主题曲《笑脸》的，正是这几位——
 
-「生物股长」的水野先生、吉冈先生、山下先生！！！
+“生物股长”的水野先生、吉冈小姐和山下先生！！！
 
-哎呀、、、见到他们紧张到爆！！！
+哎呀——……见到本人后，紧张程度直接拉满！！！
 
-于是呢、、、
+所以呢……
 
-生物股长先生们担任主持人的广播节目
+我竟然作为嘉宾，参加了由生物股长担任主持的广播节目
 
-「生物股长的garden☆party」
+《いきものがかりのgarden☆party》！！！
 
-增田竟然！作为嘉宾出演了！！！
+录音开始后，我和生物股长聊了起来。
 
-录制开始，与生物股长先生们的谈话。
+大家都非常亲切，我也渐渐放松下来……
 
-大家都非常温柔，紧张感也渐渐缓解、、、
+回过神来，转眼间……顺利结束！！！
 
-回过神来，转眼间、、、顺利结束！！！
+多亏了大家的温柔，我也留下了“第一次上电台超开心！”的回忆（笑）
 
-多亏了大家的温柔，首次广播超开心！这样的回忆也完成了（笑）
+我还和生物股长聊了音乐以及宝可梦相关的话题，
 
-与生物股长先生们，也聊了音乐和宝可梦相关的话题，
+大家一定要记得去收听哦！！！
 
-大家，请务必去看看哦！！！
+感谢自己能遇到这段美好的缘分。
 
-能遇到这样美好的缘分，非常感谢。
+生物股长、水野先生、吉冈小姐、山下先生，
 
-生物股长，水野先生、吉冈先生、山下先生，
-
-真的非常感谢！！
+真的非常感谢你们！！
 
 再见！
 
 <p class="gf-director-spacer"></p>
 
-「生物股长的garden☆party」增田出演集的播出预定
+《いきものがかりのgarden☆party》增田出演回的播出安排
 
 （宝可梦官方网站）：
 
 [http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)
 
-生物股长先生们的官方网站：
+生物股长官方网站：
 
 [http://ikimonogakari.com/](http://ikimonogakari.com/)
 
-队长水野良树先生的推特：
+领队水野良树先生的推特：
 
 [https://twitter.com/mizunoyoshiki](https://twitter.com/mizunoyoshiki)
 

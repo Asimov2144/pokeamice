@@ -14,38 +14,39 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 185
-gf_entry_title: マスダ＠サンフランシスコです。
+gf_entry_title: 【开发日记】2011年黑白巡回活动
 gf_archive: 2011-02
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田抵达旧金山接受《黑白》采访，参观恶魔岛并体验巡回活动，终于坐上憧憬已久的宣传卡车。
+gf_translation_title: 【开发日记】2011年黑白巡回活动
+gf_translation_summary: 增田抵达旧金山接受《黑白》采访，参观恶魔岛并体验巡回活动，终于坐上憧憬已久的宣传卡车。
 search: true
 source:
   title: 増田部長のめざめるパワー 第185回
   url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-185
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 小物件
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-我是增田，现在在旧金山。
+我是身在旧金山的增田。
 
-从伦敦过来花了11个小时……好远啊……
+从伦敦过来花了11个小时……真远啊……
 
-在旧金山的这两天，要密集接受B&W的采访！
+在旧金山这两天，我要接受满满当当的《黑／白》采访！
 
 然后……在那之前……
 
-好好享受旧金山。
+先好好享受一下旧金山。
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_01.jpg" alt="" loading="lazy">
 
@@ -55,33 +56,35 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_03.jpg" alt="" loading="lazy">
 
-↑增田和今下，还有海狮！！
+↑增田和海狮都在这里！！
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_04.jpg" alt="" loading="lazy">
 
-↑看，有！有！！！
+↑看，真的在！真的在！！！
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_05.jpg" alt="" loading="lazy">
 
-↑和两年前来白金时一样，穿过金门大桥！好大！好酷！
+↑像两年前来《白金》时一样，又经过金门大桥！好大！真帅！
 
-然后，去了宝可梦黑·白巡回展！
+然后，我还去参加了《宝可梦黑／白》巡回活动！
 
 [ﾂ?http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/](http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/)
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_06.jpg" alt="" loading="lazy">
 
-地点在圣何塞。
+地点是在圣何塞。
 
-终于，那辆，向往已久的卡车……
+终于坐上了那辆我一直憧憬的卡车……
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_08.jpg" alt="" loading="lazy">
 
 ↑坐上去啦！！！
 
-我超爱卡车，爱到要放进B&W里！
+我喜欢卡车，甚至把它放进了《黑／白》里！
 
-又一个梦想实现的瞬间！看这笑容（笑）！
+<img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_07.jpg" alt="" loading="lazy">
+
+又一个梦想实现的瞬间！看我这笑容（笑）！
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_10.jpg" alt="" loading="lazy">
 
@@ -91,17 +94,17 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_11.jpg" alt="" loading="lazy">
 
-↑商场里也在卖周边！还有试玩版、动画、电影和集章活动！非常火爆！
+↑商场里还在销售小物件！试玩版、动画、电影，还有集章活动也都安排上了！现场人气超旺！
 
 <img src="/assets/images/gamefreak-director/archive/185/ja/2011_02_14_12.jpg" alt="" loading="lazy">
 
-↑捷克罗姆和莱希拉姆。大小感觉能骑上去！
+↑捷克罗姆和莱希拉姆。大到感觉都能坐上去！
 
-听说接下来，他们要把所有东西再装进两辆卡车，前往下一个目的地！！
+听说接下来会把所有东西重新装进两辆卡车，前往下一个目的地！！
 
-加油啊，卡车司机！！！
+加油啊，卡车司机师傅！！！
 
-再见！
+回见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 227
-gf_entry_title: ２０１２年８月２９日。
+gf_entry_title: 【开发日记】2012年原创游戏亮相
 gf_archive: 2012-08
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK 在任天堂直面会中正式公布《节奏猎人：和谐骑士》，带来不同于宝可梦的全新游戏体验。
+gf_translation_title: 【开发日记】2012年原创游戏亮相
+gf_translation_summary: GAME FREAK 在任天堂直面会中正式公布《节奏猎人：和谐骑士》，带来不同于宝可梦的全新游戏体验。
 search: true
 source:
   title: 増田部長のめざめるパワー 第227回
   url: https://www.gamefreak.co.jp/blog/dir/2012/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-227
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,45 +37,43 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-２０１２年８月２９日。
+今天对 GAME FREAK 来说，是一个特别的日子。
 
-今天对 GAME FREAK 来说是一个特别的日子。
+我们一直把
 
-我们以
+“做出好东西来！”
 
-“做出好东西！”为口号，
+作为共同口号，
 
-一直在不断挑战。
+不断发起挑战。
 
-其结果，刚才在任天堂的
+而这一切的成果，刚才已经在任天堂方面的
 
-”Nintendo Direct“中发表了！
+“Nintendo Direct”中公布了！
 
-这就是与宝可梦不同的、GAME FREAK 的新玩法！！
+这就是不同于宝可梦的、GAME FREAK 带来的全新玩法！！
 
-GAME FREAK 献上的原创游戏最新作！
+GAME FREAK 倾情奉上的最新原创游戏！
 
-『节奏猎人 哈莫奈特』
+《节奏猎人：和谐骑士》
 
-终于可以呈献给大家了。
+终于可以把它带给大家了。
 
-今天，是 GAME FREAK 向前迈出一步的日子。
+今天，成为了 GAME FREAK 向前迈出一步的日子。
 
-今后我们也会不断向前飞跃，
+今后我们也会继续大步向前冲，
 
-请大家多多支持！
+还请大家一如既往地支持我们！
 
-开发本部长 增田顺一
+从 GAME FREAK 官网首页的横幅广告，
 
-从 GAME FREAK 官网首页的横幅，
-
-可以跳转到『节奏猎人 哈莫奈特』的
+可以跳转到《节奏猎人：和谐骑士》的
 
 任天堂特别页面！
 
-还有社长访谈！
+还有社长访谈哦！
 
-[https://www.gamefreak.co.jp/](https://www.gamefreak.co.jp/)
+[https://www.gamefreak.co.jp/](https://www.gamefreak.co.jp/)。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

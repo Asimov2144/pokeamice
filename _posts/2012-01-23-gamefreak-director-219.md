@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 219
-gf_entry_title: 全国のポケモンセンターでサイン会決定！！
+gf_entry_title: 【活动通知】全国宝可梦中心签名会
 gf_archive: 2012-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一回顾签名会从东北地区的提议扩展到全国宝可梦中心，并邀请大家前来见面。
+gf_translation_title: 【活动通知】全国宝可梦中心签名会
+gf_translation_summary: 增田顺一回顾签名会从东北地区的提议扩展到全国宝可梦中心，并邀请大家前来见面。
 search: true
 source:
   title: 増田部長のめざめるパワー 第219回
   url: https://www.gamefreak.co.jp/blog/dir/2012/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-219
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -36,41 +38,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-全国宝可梦中心签名会决定！！
+这次签名会，是在宝可梦中心东北成立的时候，
 
-这次签名会，是在宝可梦中心东北诞生时，
+收到了一位朋友发来的推文，问我是不是不办签名会。
 
-从某位人士那里收到了“不举办签名会吗？”的推文。
+我也一直说，想给东北地区的大家打打气！想办！可是……
 
-增田也一直说想给东北的人们送去元气！想做！但是……
+没想到，在大家发来的推文推动下，
 
-结果，因为大家的推文，
+话题发展成了“大阪呢？福冈呢？横滨呢？”！！
 
-发展成了“大阪呢？福冈呢？横滨呢？”的话题！！
+最后，决定在全国的宝可梦中心举办，
 
-结果，就决定在全国的宝可梦中心举办，
+并朝着实现这一计划推进了！
 
-并朝着实现的方向推进了！
+其实，到目前为止，包括宝可梦世界锦标赛（WCS）世界大会在内，
 
-其实，至今为止，以宝可梦世界锦标赛（WCS）世界大会为首，
+我在北美、伦敦、韩国等地都举办过签名会，
 
-在北美、伦敦、韩国等地都举办过签名会，
+但在日本一次也没办过（笑）
 
-但在日本一次都没办过（笑）
+这次终于要在日本举办签名会了，可是……
 
-这次，终于要在日本举办签名会了，但是……
+没想到会搞得这么声势浩大（笑）
 
-没想到会变成这么盛大的样子（笑）
+Twitter果然厉害（笑）
 
-果然，Twitter很厉害（笑）
+那么，各位，我们宝可梦中心见！！！
 
-那么，大家，我们在宝可梦中心见吧！！！
-
-就算不拿签名，也请来逛逛玩玩（笑）
+即使不领取签名，也请过来看看、逛逛（笑）
 
 [http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 32
-gf_entry_title: ２００５年２月２７日（日） ポケモン赤緑が発売されて９年を迎えます。
+gf_entry_title: 【开发日记】宝可梦九周年回望
 gf_archive: 2005-02
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 回顾宝可梦红绿版发售九年间的经历，增田顺一谈到工作、相遇与成长，以及对游戏创作始终不变的热爱。
+gf_translation_title: 【开发日记】宝可梦九周年回望
+gf_translation_summary: 回顾宝可梦红绿版发售九年间的经历，增田顺一谈到工作、相遇与成长，以及对游戏创作始终不变的热爱。
 search: true
 source:
   title: 増田部長のめざめるパワー 第32回
   url: https://www.gamefreak.co.jp/blog/dir/2005/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-032
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,39 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-２００５年２月２７日（日）
+宝可梦红·绿版发售，迎来了第9个年头。
 
-宝可梦红绿发售至今已迎来９年。
+哎呀，时间过得真快。
 
-哎呀，真快啊。
+一路不停奔跑，回过神来，已经九年了。就是这种感觉。
 
-一路奔跑，回过神来已是９年。就是这样的印象。
+自从宝可梦诞生后，工作量也爆炸式地增加了，
 
-宝可梦诞生以来，工作量爆炸式增长，
+我也因此有机会认识了许许多多的人。
 
-也结识了许多人。
+是“宝可梦”帮我拓展了人脉，
 
-为我拓宽缘分的，是“宝可梦”
+也是“宝可梦”帮我拓展了知识，
 
-为我拓宽知识的，也是“宝可梦”
+对我来说，它就是宝物。
 
-对我来说，它是珍宝。
+这些年来，我也做过许多和本行完全不同的工作，
 
-虽然也完成了许多跨领域的工作，
+但回头读起以前的文件和资料时，还是会感慨：我自己还真是挺能干的嘛。
 
-但重读过去的文件和资料，连自己都感叹：干得真不错啊。
+不过，无论做的是什么工作，都是为了制作出更好的游戏，
 
-不过，无论做什么工作，都是为了创造更好的游戏，
+同时，也是守护并拓展宝可梦世界的重要因素。
 
-而且，这也是守护并扩展宝可梦世界的重要因素。
+所以一刻也不能松懈。
 
-不能松懈。
+这么一想，我果然还是喜欢制作游戏，
 
-这样想来，果然还是喜欢做游戏，
+而且打心底里喜欢亲手创造这款游戏的过程啊。我会这样想。
 
-而且，真心喜欢创造游戏的过程。
+这是一个会让人思考这些事情的年份。九年了。
 
-让人思考这些的一年。９年。
-
-那么。
+那么，回见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

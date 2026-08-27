@@ -14,89 +14,88 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 210
-gf_entry_title: ９月１５日（木）１６：００ 幕張メッセにて日本ゲーム大賞授賞式が行われました！！
+gf_entry_title: 【颁奖礼】2011年宝可梦获四项大奖
 gf_archive: 2011-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦相关作品一举获得四项日本游戏大奖，增田顺一分享颁奖礼现场，并向一直支持宝可梦的粉丝表达感谢。
+gf_translation_title: 【颁奖礼】2011年宝可梦获四项大奖
+gf_translation_summary: 宝可梦相关作品一举获得四项日本游戏大奖，增田顺一分享颁奖礼现场，并向一直支持宝可梦的粉丝表达感谢。
 search: true
 source:
   title: 増田部長のめざめるパワー 第210回
   url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-210
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
-glossary_missing_targets:
-- 宝可梦
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-９月１５日（周四）１６：００
+幕张展览馆举行了日本游戏大奖颁奖典礼！！
 
-在幕張展覽館舉行了日本遊戲大獎頒獎典禮！！
-
-竟然！！寶可夢相關獲得了４個獎項！！
+没想到！！宝可梦相关作品竟然获得了四项大奖！！
 
 太棒了！！
 
-１）經濟產業大臣獎
+１）经济产业大臣奖
 
-「株式會社寶可夢　石原恆和先生」
+“宝可梦公司 石原恒和先生”
 
 [http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)
 
-２）全球獎　日本作品部門
+２）全球奖　日本作品部门
 
-「寶可夢 心金・魂銀」
+“宝可梦 心金·魂银”
 
 [http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)
 
-３）最佳銷售獎
+３）最佳销售奖
 
-４）優秀獎
+４）优秀奖
 
-「寶可夢 黑・白」
+“宝可梦 黑·白”
 
 [http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)
 
-哎呀，真開心啊。
+哎呀，真让人高兴啊。
 
-感謝支持我們的粉絲們！
+感谢一直支持我们的各位粉丝！
 
-其他獲獎作品。
+其他获奖作品。
 
 [http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)
 
-獲得最佳銷售獎，由被選中的粉絲頒發給增田。
+我从获选粉丝手中接过最佳销售奖。
 
 <img src="/assets/images/gamefreak-director/archive/210/multi/210a.jpg" alt="" loading="lazy">
 
-在台上演講的增田。
+在台上发表致辞的我。
 
 <img src="/assets/images/gamefreak-director/archive/210/multi/210b.jpg" alt="" loading="lazy">
 
-特寫（笑）
+来张近照（笑）。
 
 <img src="/assets/images/gamefreak-director/archive/210/multi/210c.jpg" alt="" loading="lazy">
 
-獲得優秀獎的增田。非常感謝。
+接过优秀奖的我。真是太感谢了。
 
 <img src="/assets/images/gamefreak-director/archive/210/multi/210d.jpg" alt="" loading="lazy">
 
-第二次演講的增田。在看哪裡呢（笑）
+第二次发表致辞的我。到底在看哪里啊（笑）。
 
 <img src="/assets/images/gamefreak-director/archive/210/multi/210e.jpg" alt="" loading="lazy">
 
-再次感謝大家，
+最后，再次向大家说一声，
 
-感謝你們玩寶可夢！！
+感谢大家游玩宝可梦！！
 
-那麼。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

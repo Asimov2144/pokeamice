@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 68
-gf_entry_title: 前回の話にも出ましたが、 ３Dというのは非常にニュアンスが難しく、 それでいて非常に複雑です。 ただし、一度形作ると応用が利きますけどけどね。
+gf_entry_title: 【开发日记】钻石珍珠的场景巧思
 gf_archive: 2007-01
 gf_categories:
 - ものづくりについて
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享《钻石》《珍珠》场景中的细节设计，以及楼梯高低差处让画面产生延迟的巧思。
+gf_translation_title: 【开发日记】钻石珍珠的场景巧思
+gf_translation_summary: 增田顺一分享《钻石》《珍珠》场景中的细节设计，以及楼梯高低差处让画面产生延迟的巧思。
 search: true
 source:
   title: 増田部長のめざめるパワー 第68回
   url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-068
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,41 +37,41 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-前回の話にも出ましたが、
+前面的话题中也提到过，
 
-３Dというのは非常にニュアンスが難しく、
+3D这个东西，微妙之处非常难把握，
 
-それでいて非常に複雑です。
+而且还非常复杂。
 
-ただし、一度形作ると応用が利きますけどけどね。
+不过，一旦做成了形，就能灵活应用了。
 
-ダイヤモンド、パールのフィールドで
+在《钻石》《珍珠》的场景中，
 
-気持ちよさを高めるため、
+为了提升游玩时的舒适感，
 
-階段など高さがある場所で、あることをしています。
+在楼梯等有高低差的地方，我们做了某件事。
 
-さあ、何でしょう？
+来，猜猜是什么？
 
-そのときだけ、ある機能が働いています。
+只有在那种时候，某个功能才会启动。
 
-それは、、、
+那就是……
 
-主人公に対して画面が少し遅れるようにしているんです。
+我们让画面相对于主角稍微延迟一点。
 
-実際には画面の中で主人公が少しだけ先走っているように見えます。
+实际上，看起来就像主角在画面里稍微跑到了前面。
 
-これによって、かっちりした画面ではなく柔らかい感じを表現して
+这样一来，画面就不会显得硬邦邦的，而是呈现出柔和的感觉，
 
-気持ちよさを高めています。
+从而提升了舒适感。
 
-階段などで上下すると分かると思います。
+在楼梯等地方上下移动时，应该就能察觉到。
 
-本当にちょっとしたことではありますが、
+虽然真的只是非常细微的一点，
 
-こういった細かい積み重ねで、あの画面ができているのです。
+正是靠这些细节一点点累积，才形成了那个画面。
 
-では。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

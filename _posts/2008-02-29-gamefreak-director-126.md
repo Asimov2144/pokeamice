@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 126
-gf_entry_title: １２周年記念企画第二弾！
+gf_entry_title: 【开发日记】宝可梦皮卡丘叫声诞生记
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田回顾《宝可梦皮卡丘版》中皮卡丘叫声的制作过程，以及用一比特数据实现声音播放的巧妙方法。
+gf_translation_title: 【开发日记】宝可梦皮卡丘叫声诞生记
+gf_translation_summary: 增田回顾《宝可梦皮卡丘版》中皮卡丘叫声的制作过程，以及用一比特数据实现声音播放的巧妙方法。
 search: true
 source:
   title: 増田部長のめざめるパワー 第126回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-126
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets: []
 ---
@@ -37,65 +39,63 @@ glossary_missing_targets: []
 
 12周年纪念企划第二弹！
 
-「宝可梦 皮卡丘版」
+“宝可梦 皮卡丘版”
 
-像动画中的皮卡丘一样，皮卡丘会发出“皮卡丘”的叫声。
+像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。
 
-由于Game Boy没有高性能的采样功能，
+Game Boy没有高性能的采样功能，
 
-必须想办法让它发出“皮卡丘”的叫声。
+所以无论如何，都得想办法让它叫出“皮卡丘”。
 
-于是，当时身为程序员的增田，
+于是，当时还是程序员的我，
 
-制作了将声音转换为1比特数据的转换器，
+制作了一个把声音转换成1比特数据的转换器，
 
-并编写了播放它的程序。
+并编写了播放这些数据的程序。
 
-原理是……
+原理是这样……
 
-首先，用采样器等设备将声音数字化。
+首先，用采样器之类的设备把声音数字化。
 
 <img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_01_s.jpg" alt="" loading="lazy">
 
-※这个波形是帝牙卢卡的叫声。波形看起来就是这样。
+※这个波形是帝牙卢卡的叫声。波形大概会呈现出这种感觉。
 
-放大后，是这样。
+放大后，是这个样子。
 
 <img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_02_s.gif" alt="" loading="lazy">
 
-再进一步放大，
+再放大一些，
 
 <img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_03_s.gif" alt="" loading="lazy">
 
-几乎就是数字状态了。波形作为音量数据被数值化。
+就几乎变成数字状态了。波形已经作为音量数据被数值化。
 
-用转换器将其转换为0和1。
+接着，用转换器把它转换成0和1。
 
-数据看起来……
+数据大概是这样……
 
 <img src="/assets/images/gamefreak-director/archive/126/ja/pt0229_04_s.gif" alt="" loading="lazy">
 
-就是这样。（图片中的红色0和1）
+就是这种感觉。（图片中红色的0和1）
 
-将哪个级别设为1也会影响声音，所以转换器准备了多种转换方式。
+把哪个电平设为1也会影响声音，所以我在转换器里准备了几种转换方式。
 
-将这些0和1用Game Boy的点击噪音（噼啪声！）这样的声音，
+然后利用 Game Boy 的点击噪声（啪嗞！）来高速执行这样的操作：0不发声，1发声。
 
-0不发声，1发声，高速进行。
+高速执行这一点才是关键。
 
-这个高速进行是关键。
+越快，声音就越好听。
 
-越快音质越好。
-
-“皮卡丘”完成了。
+“皮卡丘”就这样完成了。
 
 <img src="/assets/images/gamefreak-director/archive/126/multi/pt0229_05.jpg" alt="" loading="lazy">
 
 <p class="gf-director-spacer"></p>
 
-现在听还是很可爱……
+现在听起来也还是很可爱……
 
-那么。
+那么，下次见。
 
 (c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.
 

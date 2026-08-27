@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 147
-gf_entry_title: 世界初の映像が公開されます！ ４月１９日（日）テレビ東京系列の「ポケモン☆サンデー」にまたマスダでます！
+gf_entry_title: 【节目预告】阿尔宙斯谜团揭晓
 gf_archive: 2009-04
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 4月19日，增田顺一将再次亮相电视东京系列节目，并首次公开与阿尔宙斯有关的影像，敬请收看。
+gf_translation_title: 【节目预告】阿尔宙斯谜团揭晓
+gf_translation_summary: 4月19日，增田顺一将再次亮相电视东京系列节目，并首次公开与阿尔宙斯有关的影像，敬请收看。
 search: true
 source:
   title: 増田部長のめざめるパワー 第147回
   url: https://www.gamefreak.co.jp/blog/dir/2009/04/index.html
   source_type: official_blog
 gf_archive_id: masuda-147
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets:
 - 电视机
@@ -37,23 +39,21 @@ glossary_missing_targets:
 
 ## 中文译文
 
-世界首次的影像即将公开！
+全球首次影像即将公开！
 
-４月１９日（周日）东京电视台系列的「宝可梦☆星期天」中增田将再次登场！
+4月19日（星期日），我又要在电视东京系列的《宝可梦☆星期天》节目中露脸了！
 
-阿尔宙斯的谜团将揭开其一！
+阿尔宙斯的一个谜团将要揭晓！
 
-此情报由宝可梦星期天首次披露！
+这条消息会首次在《宝可梦☆星期天》节目中公开！
 
-请务必观看！
+请大家一定要收看！
 
-啊，顺带一提，从今年４月起宝可梦星期天
+啊，顺便一提，听说从今年4月开始，《宝可梦☆星期天》基本上已经覆盖全国了，
 
-据说几乎已覆盖全国网络，
+所以之前没法收看的朋友，
 
-至今未能收看的各位
-
-也请务必关注哦！
+这次也请务必关注一下哦！
 
 再见！
 

@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 131
-gf_entry_title: 「ポケットモンスター プラチナ」 ついに、９月１３日（土）発売になりました。
+gf_entry_title: 【开发日记】白金版发售与世界大赛
 gf_archive: 2008-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 《宝可梦白金版》正式发售，增田分享美国电子游戏对战赛见闻，并邀请玩家参加明年的世界大赛预选。
+gf_translation_title: 【开发日记】白金版发售与世界大赛
+gf_translation_summary: 《宝可梦白金版》正式发售，增田分享美国电子游戏对战赛见闻，并邀请玩家参加明年的世界大赛预选。
 search: true
 source:
   title: 増田部長のめざめるパワー 第131回
   url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-131
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,51 +37,49 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-「宝可梦 白金」
+终于在9月13日（星期六）发售了。
 
-终于，在９月１３日（周六）发售了。
+开发团队日复一日地倾注努力与心血，
 
-开发人员日复一日，倾注努力与执着，
+倾注最大的爱意制作出了这款游戏。
 
-以最大的爱心制作而成的软件。
+还请大家尽情享受吧！
 
-请务必尽情享受！
+另外！
 
-还有！
+虽然一直忙得团团转，拖到现在才说，
 
-虽然忙得不可开交，迟了一些，
+我去了一趟佛罗里达！
 
-但我去了佛罗里达！
+在宝可梦卡牌世界大赛的会场旁边，
 
-在宝可梦卡牌世界大赛的旁边，
+这次还首次举办了日美对战赛。
 
-这次首次举办的日美对战。
-
-「VIDEO GAME SHOW DOWN 2008」
+“VIDEO GAME SHOW DOWN 2008”
 
 哎呀，真是太棒了。
 
 虽然还有各种需要改进的地方，
 
-电视游戏的比赛也丝毫不逊于卡牌，气氛热烈！
+电子游戏对战也不输卡牌赛，现场气氛同样热烈！
 
-大家都很了解宝可梦，也很懂对战，好厉害！
+大家对宝可梦非常了解，对战也非常熟悉，真厉害！
 
-每一场对战都非常精彩。
+每一场比赛都精彩极了。
 
-明年，终于迎来世界大赛。
+明年终于要举办世界大赛了。
 
-将仅限使用白金版参加。
+届时将只能使用白金版参赛。
 
-从１０月１２日起，全国各地将举行预选赛，
+从10月12日起，预选赛将在全国各地举行，
 
-请喜欢对战的朋友务必参加！
+喜欢对战的人一定一定要来参加哦！
 
-在日本夺冠，然后去美国西海岸的最终舞台吧！
+让我们先在日本赛区夺冠，再一起前往决赛阶段的举办地——美国西海岸吧！
 
-一起以世界第一为目标！！
+然后向世界第一发起挑战吧！！
 
-详情请见世界锦标赛
+详情请见世界锦标赛页面！
 
 [http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)
 

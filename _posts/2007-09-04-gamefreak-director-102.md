@@ -14,23 +14,24 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 102
-gf_entry_title: F1マシンに乗りました。 といっても、大阪駅の前にあるDOCOMOビル地下一階ショールームで。
+gf_entry_title: 【体验日记】坐上F1赛车
 gf_archive: 2007-09
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一在大阪体验模拟F1赛车，回忆深夜观看大奖赛的热爱，并分享首次坐进赛车的兴奋。
+gf_translation_title: 【体验日记】坐上F1赛车
+gf_translation_summary: 增田顺一在大阪体验模拟F1赛车，回忆深夜观看大奖赛的热爱，并分享首次坐进赛车的兴奋。
 search: true
 source:
   title: 増田部長のめざめるパワー 第102回
   url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-102
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 5
 glossary_missing_targets:
 - 大电视
-- 电视机
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
@@ -39,53 +40,53 @@ glossary_missing_targets:
 
 我坐上了F1赛车。
 
-虽然，是在大阪站前的DOCOMO大厦地下一层的展示厅里。
+虽说如此，其实是在大阪站前的DOCOMO大楼地下一层展厅里。
 
-碰巧，手机电池快没电了，就去那里充电。
+碰巧我的手机电池快没电了，所以去那里充电。
 
-F1，我非常喜欢。
+我以前特别喜欢F1。
 
-尤其是摩纳哥GP、意大利GP，赛道和观众都是最棒的，深夜在电视上从不落下地观看。
+尤其是摩纳哥大奖赛、意大利大奖赛，无论赛道还是观众都棒极了，我总会在深夜通过电视机收看。
 
-还用录像带（VHS）录过像。
+我还会录到录像带（VHS）里。
 
-那排气声浪。（用“声浪”来形容，真是美妙！）
+那排气声。（偏偏叫作“音符”，真美！）
 
-还有谨慎争夺领先位置的策略。
+还有谨慎地瞄准第一名的策略。
 
 团队合作。
 
-换胎时的紧张感。
+换轮胎时的紧张感。
 
 以及最新、最强的赛车。
 
-好帅。。。
+真帅啊……
 
-坐上去之后，，，
+坐上去一试……
 
-意外的是，身体能进入的宽度很宽，很宽敞。
+没想到身体能进入的空间很宽，坐起来相当宽松。
 
-相比之下，脚部空间的狭窄让我吃惊。
+相比之下，我更惊讶于脚部空间竟然那么狭窄。
 
-而且，巨大的轮胎裸露在眼前，给人一种压迫感。
+还有那巨大轮胎裸露着、就在眼前的压迫感。
 
-如果以300km/h的速度行驶，肯定会害怕。
+要是以每小时300公里的速度跑起来，肯定会很吓人。
 
-我带着有点傻笑的表情，请店员小姐拍了照，，，
+我带着一脸傻笑，请店里的女店员帮我拍了张照片……
 
-还得到了纪念卡。
+还收到了纪念卡。
 
-背面写着乘坐过的人数！竟然是第2925位！
+背面写着体验者的人数！没想到，我是第2925位！
 
-大家，意外地都坐过呢。
+大家还真是意外地都去坐过啊。
 
-哎呀，我很高兴。真的。
+哎呀——我真的很开心。
 
 相当兴奋。
 
-住在附近的朋友，务必去坐坐看！
+住在附近的朋友，请一定去坐坐看！
 
-那么。
+那么，就这样。
 
 <img src="/assets/images/gamefreak-director/archive/102/multi/102a.jpg" alt="" loading="lazy"><img src="/assets/images/gamefreak-director/archive/102/multi/102b.jpg" alt="" loading="lazy">
 

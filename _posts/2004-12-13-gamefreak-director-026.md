@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 26
-gf_entry_title: 先週、ゲームフリークの忘年会が行われました。 毎年思うのですが、多くの仲間が集まって行う遊びは楽しい。
+gf_entry_title: 【开发日记】2004年 GAME FREAK 年终聚会
 gf_archive: 2004-12
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录公司年终聚会：众人一起玩游戏、聊天，感叹集体游玩的乐趣，并期待年末节庆。
+gf_translation_title: 【开发日记】2004年 GAME FREAK 年终聚会
+gf_translation_summary: 增田顺一记录公司年终聚会：众人一起玩游戏、聊天，感叹集体游玩的乐趣，并期待年末节庆。
 search: true
 source:
   title: 増田部長のめざめるパワー 第26回
   url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
   source_type: official_blog
 gf_archive_id: masuda-026
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 2
 glossary_missing_targets: []
 ---
@@ -35,29 +37,29 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-上周，GAME FREAK 举办了忘年会。
+上周，GAME FREAK 举办了年终聚会。
 
-每年我都会想，和众多伙伴聚在一起玩耍真是快乐。
+每年我都会想，许多伙伴聚在一起玩的游戏就是开心。
 
-我们的忘年会，在下北泽租下某个场所，
+我们会包下下北泽的一个地方，
 
-展开游戏大会。
+在那里举办游戏大会。
 
-那些游戏，有画画的、猜谜的，还有各种有趣的。
+所谓的游戏，包括画画、答题之类的各种有趣项目。
 
-我感叹道：“真是很懂玩乐的工作人员做的啊。”
+真让人感叹，能做出这些活动的，都是非常懂得如何玩乐的工作人员啊。
 
-正因为人多，才能玩得起来的游戏。
+正因为人多，才有只有人多时才能玩的游戏。
 
-正因为人多，才更要享受交谈的乐趣。
+也正因为人多，才可以享受更多的交谈。
 
-最近感觉这样的事变少了。
+但我最近觉得，这样的事情似乎正在减少呢。
 
-接下来圣诞节、大扫除、新年，活动也会增多。
+接下来还有圣诞节、大扫除、元旦，活动也会越来越多。
 
-大家，大声喊出来！尽情享受吧！
+大家都大声喊出来！一起尽情享受吧！
 
-那么！
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

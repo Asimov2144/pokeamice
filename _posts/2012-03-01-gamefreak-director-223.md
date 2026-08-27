@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 223
-gf_entry_title: 今年の映画も楽しみです！！
+gf_entry_title: 【电影资讯】2012年宝可梦双片上映
 gf_archive: 2012-03
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦电影迎来15周年纪念，酋雷姆、凯路迪欧与美洛耶塔将在豪华双片联映中登场，7月14日上映。
+gf_translation_title: 【电影资讯】2012年宝可梦双片上映
+gf_translation_summary: 宝可梦电影迎来15周年纪念，酋雷姆、凯路迪欧与美洛耶塔将在豪华双片联映中登场，7月14日上映。
 search: true
 source:
   title: 増田部長のめざめるパワー 第223回
   url: https://www.gamefreak.co.jp/blog/dir/2012/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-223
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets: []
 ---
@@ -38,35 +40,35 @@ glossary_missing_targets: []
 
 今年的电影也很期待！！
 
-１５周年纪念超大作！
+15周年纪念超大作！
 
-「酋雷姆VS圣剑士凯路迪欧」
+《酋雷姆VS圣剑士凯路迪欧》
 
-然后，同时上映
+以及，同时上映的
 
-「美洛耶塔的闪亮音乐会」
+《美洛耶塔的闪亮音乐会》
 
-今年是豪华的两部连映！
+今年是豪华双片联映！
 
-两部连映，总觉得让人想起从前。
+说到双片联映，总觉得让人想起过去。
 
-好怀念！
+真怀念啊！
 
-首次登场的新宝可梦，凯路迪欧和美洛耶塔
+首次登场的新宝可梦，凯路迪欧和美洛耶塔，
 
-是什么样的宝可梦呢？？
+究竟会是怎样的宝可梦呢？？
 
-会怎样动呢？
+会怎样动起来呢？
 
-会是什么样的故事呢？
+会讲述怎样的故事呢？
 
-７月１４日（周六）公开！
+7月14日（星期六）上映！
 
-增田现在也很期待！！
+我现在就已经开始期待了！！
 
 大家也敬请期待！！！
 
-Ciao！
+再见！
 
 宝可梦电影官方网站：
 
@@ -76,13 +78,13 @@ Ciao！
 
 [http://www.pokemon-movie.jp/trailer/index.php](http://www.pokemon-movie.jp/trailer/index.php)
 
-「酋雷姆VS圣剑士凯路迪欧」
+《酋雷姆VS圣剑士凯路迪欧》
 
 [http://www.pokemon-movie.jp/story/index.php](http://www.pokemon-movie.jp/story/index.php)
 
 [http://www.pokemon-movie.jp/pokemon/index.php](http://www.pokemon-movie.jp/pokemon/index.php)
 
-「美洛耶塔的闪亮音乐会」
+《美洛耶塔的闪亮音乐会》
 
 [http://www.pokemon-movie.jp/recital/index.php](http://www.pokemon-movie.jp/recital/index.php)
 

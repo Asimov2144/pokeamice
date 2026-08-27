@@ -14,73 +14,73 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 232
-gf_entry_title: みなさん、ついにこの時がきました！！！！
+gf_entry_title: 【活动预告】2013年宝可梦最新消息
 gf_archive: 2013-01
 gf_categories:
 - お知らせ
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一号召大家在1月8日晚八点共同观看宝可梦即将公布的最新信息，并列出全球各地的播出时间。
+gf_translation_title: 【活动预告】2013年宝可梦最新消息
+gf_translation_summary: 增田顺一号召大家在1月8日晚八点共同观看宝可梦即将公布的最新信息，并列出全球各地的播出时间。
 search: true
 source:
   title: 増田部長のめざめるパワー 第232回
   url: https://www.gamefreak.co.jp/blog/dir/2013/01/index.html
   source_type: official_blog
 gf_archive_id: masuda-232
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
-glossary_missing_targets:
-- 集友圈
-- 大钳蟹
+glossary_missing_targets: []
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
 
 ## 中文译文
 
-大家，这一刻终于到来了！！！！
+大家，终于等到这一刻了！！！！
 
-今天，2013年1月8日（周二）晚上8点。
+今天，2013年1月8日（星期二）晚上8点。
 
-宝可梦将向大家发布最新情报！！
+宝可梦将向大家公布最新消息！！
 
-希望尽可能多的人看到！
+希望能有尽可能多的人看到！
 
-这一刻，
+这个时刻，
 
-请和家人、恋人、朋友、同事、同学、社团成员，大家一起看！！
+希望大家能和家人、恋人、朋友、同事、同学、集友圈成员，所有人一起观看！！
 
-喜欢宝可梦的人当然要看，
+当然希望喜欢宝可梦的人能看到，
 
-不了解宝可梦的人也请务必观看！！
+也希望不了解宝可梦的人能看到！！
 
-因为想让更多人看到，
+因为希望有更多人看到，
 
-请在公司、学校、俱乐部、社团活动、兴趣小组等场合，
+所以请在公司、学校、大钳蟹、社团活动、集友圈等地方，
 
-告诉大家！　帮忙传播！！
+告诉大家吧！　也请帮忙扩散出去！！
 
-1月8日（周二）晚上8点，请访问宝可梦官方网站！
+请在1月8日（星期二）晚上8点，浏览宝可梦官方网站！
 
-增田也已经等不及了！！
+我也等不及了！！
 
 大家，敬请期待！
 
-Ciao！
+再见！
 
 时间：
 
-・日本　　　　　　　　　　　　　8日（周二）晚上20点
+・日本　　　　　　　　　　　　　8日（星期二）晚上20点
 
-・美国　东海岸　　　　　　　　8日（周二）早上6点
+・美国　东海岸　　　　　　　　　8日（星期二）早上6点
 
-・美国　西海岸　　　　　　　　8日（周二）早上3点
+・美国　西海岸　　　　　　　　　8日（星期二）早上3点
 
-・英国　　　　　　　　　　　　　8日（周二）早上11点
+・英国　　　　　　　　　　　　　8日（星期二）早上11点
 
-・法国・德国　　　　　　　　　 8日（周二）中午12点
+・法国、德国　　　　　　　　　　8日（星期二）中午12点
 
-・意大利・西班牙　　　　　　　8日（周二）中午12点
+・意大利、西班牙　　　　　　　　8日（星期二）中午12点
 
 宝可梦官方网站：
 

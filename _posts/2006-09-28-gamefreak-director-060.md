@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 60
-gf_entry_title: 長らくお待たせ致しました。
+gf_entry_title: 【发售日记】宝可梦钻石珍珠终于发售
 gf_archive: 2006-09
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 宝可梦钻石与珍珠终于发售，增田顺一分享新宿活动现场见闻，感谢玩家彻夜排队，并邀请大家尽情探索各种玩法与无线网络功能。
+gf_translation_title: 【发售日记】宝可梦钻石珍珠终于发售
+gf_translation_summary: 宝可梦钻石与珍珠终于发售，增田顺一分享新宿活动现场见闻，感谢玩家彻夜排队，并邀请大家尽情探索各种玩法与无线网络功能。
 search: true
 source:
   title: 増田部長のめざめるパワー 第60回
   url: https://www.gamefreak.co.jp/blog/dir/2006/09/index.html
   source_type: official_blog
 gf_archive_id: masuda-060
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,35 +39,33 @@ glossary_missing_targets: []
 
 让大家久等了。
 
-今天，2006年9月28日，星期四
+“宝可梦 钻石”
 
-《宝可梦 钻石》
-
-《宝可梦 珍珠》
+“宝可梦 珍珠”
 
 终于发售了！！
 
 今天早上，我去看了从7点45分开始在新宿高岛屋举行的活动，
 
-从昨晚开始通宵排队，或者从凌晨4点就开始排队，
+有很多人从昨晚就彻夜排队，也有人从凌晨4点开始排队，
 
-有这么多人在排队……真的，非常感动。
+这么多人愿意来排队……说真的，我特别感动。
 
-能看到玩游戏的玩家的面孔，
+能够看到前来游玩的大家的表情，
 
-哎呀，果然还是很开心！
+哎呀——果然还是让人高兴！
 
 总之！
 
-请尽情地、慢慢地去玩吧。
+请大家尽情地、慢慢地玩一玩吧。
 
-我想你们会发现各种各样的玩法。
+我想你们一定能发现各种各样的玩法。
 
-然后，也请务必尝试一下WiFi功能哦。
+还有，请务必也试试无线网络功能哦。
 
 那么！
 
-Let's Play！
+开始游戏吧！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

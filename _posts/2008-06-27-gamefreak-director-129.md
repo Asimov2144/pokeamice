@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 129
-gf_entry_title: 今年のポケモン映画では、
+gf_entry_title: 【开发日记】2008年宝可梦音乐彩蛋
 gf_archive: 2008-06
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 带着电影预售票赠送的雷吉奇卡斯进入《宝可梦白金》，不仅能触发三只神柱登场，还会听到熟悉的相遇音乐。
+gf_translation_title: 【开发日记】2008年宝可梦音乐彩蛋
+gf_translation_summary: 带着电影预售票赠送的雷吉奇卡斯进入《宝可梦白金》，不仅能触发三只神柱登场，还会听到熟悉的相遇音乐。
 search: true
 source:
   title: 増田部長のめざめるパワー 第129回
   url: https://www.gamefreak.co.jp/blog/dir/2008/06/index.html
   source_type: official_blog
 gf_archive_id: masuda-129
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 7
 glossary_missing_targets: []
 ---
@@ -37,27 +39,27 @@ glossary_missing_targets: []
 
 今年的宝可梦电影中，
 
-购买预售票就能获得等级100的雷吉奇卡斯！
+只要购买预售票，就能获得等级１００的雷吉奇卡斯！
 
-、、、这个，
+……这件事，
 
-大家应该都已经知道了吧，，，
+我想大家应该已经知道了吧……
 
-把得到的雷吉奇卡斯带到《宝可梦 白金》中！！！
+可是，把这只获得的雷吉奇卡斯带到《宝可梦 白金》里之后！！！
 
-竟然！！
+没想到！！
 
-会触发雷吉洛克、雷吉艾斯、雷吉斯奇鲁三只出现的剧情！
+雷吉洛克、雷吉艾斯和雷吉斯奇鲁这三只就会出现！还会触发这样的事件！
 
-而与这三只遭遇时的背景音乐，
+而且，和这三只相遇时播放的音乐，
 
-是在红宝石、蓝宝石、绿宝石中遭遇时播放的那首曲子。真怀念。。。
+就是在《红宝石》《蓝宝石》和《绿宝石》中相遇时播放的那首曲子。真让人怀念啊……
 
-另外，在《白金》中还有一首曲子，是增田写的。
+另外，在《白金》中我还写了另一首曲子。
 
-那么，是什么曲子呢？？？听了就知道吧！？
+那么，会是哪首曲子呢？？？听到之后，大家能猜出来吗！？
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

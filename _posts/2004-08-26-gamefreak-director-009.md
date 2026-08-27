@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 9
-gf_entry_title: 海外に行って来ました。
+gf_entry_title: 【海外见闻】不同价值观带来新创意
 gf_archive: 2004-08
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录海外见闻，思考教育、社会与文化如何塑造价值观，并由此带来游戏创意。
+gf_translation_title: 【海外见闻】不同价值观带来新创意
+gf_translation_summary: 增田顺一记录海外见闻，思考教育、社会与文化如何塑造价值观，并由此带来游戏创意。
 search: true
 source:
   title: 増田部長のめざめるパワー 第9回
   url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-009
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -35,35 +37,35 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-去海外了。
+我去海外了。
 
-一到海外，就会从伙伴那里听到很多令人兴奋的话题，
+一去海外，就会从伙伴们那里听到很多令人兴奋的故事，
 
-果然，外国人的价值观很有趣。
+果然，外国人的价值观真的很有意思。
 
-出生时的价值观应该是一样的，
+明明人出生时的价值观应该是一样的，
 
-但由于教育、社会和文化的差异，
+却因为教育、社会和文化的差异，
 
-不知不觉中，价值观发生了变化。
+不知不觉间，价值观就发生了变化。
 
-不过，世界上有这么大的差异，真的很有趣。
+不过，世界各地竟然会有这么大的差异，真的很有意思。
 
-在游戏中，
+就连游戏也是这样，
 
 “这是一个重视什么的世界？”
 
-正因为这一点不同，想法也会改变。
+因为这一点不同，构思也会随之改变，对吧。
 
-通过改变价值观，新的创意、玩法和机制就会产生。
+改变价值观，就会产生新的创意、新的玩法和新的机制。
 
-我每次去海外，都带着这样的感受。
+我每次去海外，都会一边想着这些。
 
-、、、但是、、、
+……不过……
 
-反过来想，“日本人的价值观真的很有趣”。
+换个角度想，我又觉得：“日本人的价值观真的很有意思。”
 
-那么。
+那么，就这样。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

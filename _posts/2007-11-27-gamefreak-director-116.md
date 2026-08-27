@@ -14,20 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 116
-gf_entry_title: 新潟に行ってました！ とは、先週の１１月１６日、１７日のこと。 朱鷺メッセでいくつかのプログラムに参加してきました！ 新潟のみなさん、とっても親切で楽しかったです。
-  ありがとうございました！
+gf_entry_title: 【日记】2007年新潟之行
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一记录参加新潟朱鹭展览馆活动的经历，感谢当地读者的热情款待，并期待再次品尝新潟的美酒、美食与特产。
+gf_translation_title: 【日记】2007年新潟之行
+gf_translation_summary: 增田顺一记录参加新潟朱鹭展览馆活动的经历，感谢当地读者的热情款待，并期待再次品尝新潟的美酒、美食与特产。
 search: true
 source:
   title: 増田部長のめざめるパワー 第116回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-116
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
 ---
@@ -36,33 +37,33 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-去新潟了！
+我去新潟了！
 
-这是上周11月16日、17日的事。
+说的是上周11月16日、17日的事。
 
-在朱鹭会展中心参加了几个项目！
+我在朱鹭展览馆参加了几个活动！
 
-新潟的各位，非常亲切，很开心。
+新潟的各位都非常亲切，我玩得很开心。
 
 谢谢大家！
 
-另外，来见增田的各位，我满怀感激之情。
+还有专程来见我的各位，我心里充满了感激。
 
-谢谢。
+谢谢大家。
 
-混在许多老师中间，我缩得很小，但是……
+我混在众多老师当中，显得特别渺小……
 
-今后希望能被称作“游戏”方面的专家，
+今后关于“玩乐”这件事，
 
-我会努力的。
+我也想努力成为一名能够被称作专家的人。
 
-天气突然变冷，新潟应该已经积雪了吧，
+天气突然变冷了，我想新潟现在应该已经积雪了吧，
 
-我想再去新潟玩，吃美味的日本酒、美味的大米、美味的花（菊花），
+为了去吃美味的日本酒、美味的大米、美味的花（菊花），
 
-还有虾等生鲜食品！！
+还有虾等新鲜食材，我还想再去新潟玩！！
 
-那么。
+那么，下次见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

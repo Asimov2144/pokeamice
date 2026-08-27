@@ -14,20 +14,22 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 190
-gf_entry_title: 日本に戻りました！
+gf_entry_title: 【活动记录】2011年宝可梦欧美之行
 gf_archive: 2011-03
 gf_categories:
 - ポケモン
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田顺一分享伦敦与纽约之行的现场照片，记录发售日活动、玩家队伍、试玩会与当地宝可梦氛围。
+gf_translation_title: 【活动记录】2011年宝可梦欧美之行
+gf_translation_summary: 增田顺一分享伦敦与纽约之行的现场照片，记录发售日活动、玩家队伍、试玩会与当地宝可梦氛围。
 search: true
 source:
   title: 増田部長のめざめるパワー 第190回
   url: https://www.gamefreak.co.jp/blog/dir/2011/03/index.html
   source_type: official_blog
 gf_archive_id: masuda-190
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 6
 glossary_missing_targets:
 - 大钳蟹
@@ -37,17 +39,15 @@ glossary_missing_targets:
 
 ## 中文译文
 
-回到日本了！
-
-这是伦敦・纽约的照片特辑！
+这是伦敦和纽约的照片特辑！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190a.jpg" alt="" loading="lazy">
 
-这就是白地毯！　右后方是名为「Sound」的俱乐部入口！
+这就是白色地毯！右后方是“S​​ound”俱乐部的入口！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190b.jpg" alt="" loading="lazy">
 
-行走的增田！
+走路中的我！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190c.jpg" alt="" loading="lazy">
 
@@ -55,25 +55,25 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190d2.jpg" alt="" loading="lazy">
 
-正在说「Thank you！」。大概吧（笑）
+我说着“谢谢！”大概吧（笑）
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190e.jpg" alt="" loading="lazy">
 
-转盘对战进行中！！
+正在进行转盘对战！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190f.jpg" alt="" loading="lazy">
 
-发售日，很多人一大早就来排队了！！
+发售日一大早，就有好多玩家排队等候！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190g.jpg" alt="" loading="lazy">
 
-杉森和增田正在签名！！
+杉森和我正在签名！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190h.jpg" alt="" loading="lazy">
 
 签名中！！
 
-前往纽约
+去纽约
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190i.jpg" alt="" loading="lazy">
 
@@ -85,23 +85,23 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190k.jpg" alt="" loading="lazy">
 
-和人对比一下就能看出大小了。。。好大。。。
+和人一对比，就能看出它有多大了吧……真大……
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190l.jpg" alt="" loading="lazy">
 
-前一天5日的NINTENDO WORLD。大家都在排队！！
+前一天，也就是5日的任天堂世界。大家都排着队呢！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190m.jpg" alt="" loading="lazy">
 
-里面也挤得水泄不通。。。
+里面也是人山人海……
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190n.jpg" alt="" loading="lazy">
 
-活动会场的试玩台。
+活动会场的试玩机。
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190o.jpg" alt="" loading="lazy">
 
-捷克罗姆、莱希拉姆也在！！！
+捷克罗姆、莱希拉姆也来了！！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190p.jpg" alt="" loading="lazy">
 
@@ -109,7 +109,7 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190q.jpg" alt="" loading="lazy">
 
-前往布鲁克林大桥！！　对岸就是飞云市。
+前往布鲁克林大桥！！对岸就是飞云市。
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190r.jpg" alt="" loading="lazy">
 
@@ -121,15 +121,15 @@ glossary_missing_targets:
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190t.jpg" alt="" loading="lazy">
 
-说到北美，就是GAME STOP！！
+说到北美，那当然就是 GAME STOP！！
 
 <img src="/assets/images/gamefreak-director/archive/190/ja/190u.jpg" alt="" loading="lazy">
 
-店内有攻略本。
+店里还有攻略书。
 
-不知大家有没有感受到那种氛围呢！？
+不知道大家有没有感受到现场的气氛呢！？
 
-那么。
+那么，再见。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

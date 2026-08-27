@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 124
-gf_entry_title: ２月２７日。 日本のこの日、ゲームボーイソフト『ポケットモンスター　赤・緑』が発売されました。 ピカチュウやフシギバナ、リザードン、ニャース、ミュウツーが世の中に生まれ出た日です。
+gf_entry_title: 【开发日记】宝可梦诞生12周年
 gf_archive: 2008-02
 gf_categories:
 - ポケモン
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵喵和超梦来
+gf_translation_title: 【开发日记】宝可梦诞生12周年
+gf_translation_summary: 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵喵和超梦来
 search: true
 source:
   title: 増田部長のめざめるパワー 第124回
   url: https://www.gamefreak.co.jp/blog/dir/2008/02/index.html
   source_type: official_blog
 gf_archive_id: masuda-124
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 7
 glossary_missing_targets: []
 ---
@@ -37,37 +39,37 @@ glossary_missing_targets: []
 
 2月27日。
 
-日本的这一天，Game Boy软件《宝可梦 红·绿》发售了。
+在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。
 
-皮卡丘、妙蛙花、喷火龙、喵喵、超梦在这一天诞生于世。
+这是皮卡丘、妙蛙花、喷火龙、喵喵和超梦来到这个世界的日子。
 
-是的，今天对于宝可梦、对于GAME FREAK，
+没错，今天对于宝可梦来说，对于 GAME FREAK 来说，
 
-以及对于包括增田在内的开发人员来说，是有着特别意义的日子。
+对于包括我在内的开发团队成员来说，都是一个有着特殊意义的日子。
 
-当时的员工如今仍在公司内充满活力地进行开发，
+当年的工作人员如今也依然在公司里充满活力地进行开发，
 
-但今天也是回顾过去的好时机。
+而今天也是一个回顾过去的好时机。
 
-创造更好的东西。
+创作出更好的作品。
 
-比起昨天，今天要创造更好的东西——我们怀着这样的心情每天努力着。
+比起昨天，今天要创作出更好的作品——我们每天都怀着这样的心情努力着。
 
-这份心情与当时毫无二致。
+这份心情，和当时没有任何不同。
 
-今后，我也想珍惜这份心情。
+今后，我也想继续珍惜这份心情。
 
 然后……
 
-在世界各地大家的支持下，我们迎来了这12周年。
+在全世界各位的支持下，我们终于迎来了这第12个年头。
 
-真的非常感谢。
+真的非常感谢大家。
 
-谢谢大家！
+谢谢你们！
 
-今后，宝可梦也将继续进化！
+宝可梦今后也还会继续不断进化！
 
-Ciao！
+再见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

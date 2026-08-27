@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 115
-gf_entry_title: 「宇宙」完成しました！
+gf_entry_title: 【开发日记】2007年新办公室落成
 gf_archive: 2007-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田介绍以“宇宙”为主题打造的新办公室，期待在充满灵感的空间里迸发新点子，创造全新的玩法。
+gf_translation_title: 【开发日记】2007年新办公室落成
+gf_translation_summary: 增田介绍以“宇宙”为主题打造的新办公室，期待在充满灵感的空间里迸发新点子，创造全新的玩法。
 search: true
 source:
   title: 増田部長のめざめるパワー 第115回
   url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-115
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -35,37 +37,37 @@ glossary_missing_targets: []
 
 ## 中文译文
 
-「宇宙」完成了！
+“宇宙”完成啦！
 
-然后终于实现了梦寐以求的单层办公区！！
+终于搬进了心心念念的整层办公室！！
 
-这样一来，开发能量更是全开！
+这样一来，开发动力就能彻底释放了！
 
-最重视的是，
+我们最看重的，
 
-创造能诞生灵感的空间。
+就是打造一个能让灵感诞生的空间。
 
-我们的工作是把无变成有，
+我们的工作，就是把什么都没有的零变成一，
 
-所以想创造一个容易产生各种创意的空间。
+所以一直想打造一个更容易产生各种点子的空间。
 
-由此，主题定为「宇宙」，但是……
+于是，我们把主题定为“宇宙”……
 
 终于完成了！！
 
-因为交给了员工们，所以相当随心所欲……
+办公室布置交给工作人员来做了，所以大家相当自由地发挥……
 
-不过，看起来反响不错，总算放心了。
+不过，看起来大家评价都相当不错，我也总算放心了。
 
-那么，在新的办公室里产生新的创意，
+那么，就在新的办公室里想出新的点子，
 
-创造出新的游戏吧！！
+创造出新的玩法吧！！
 
 敬请期待！！
 
-※照片是从増田的座位向前拍摄的。
+※这张照片是从我的座位向前拍摄的。
 
-那么。
+那么，先这样。
 
 <img src="/assets/images/gamefreak-director/archive/115/ja/115.jpg" alt="" loading="lazy">
 

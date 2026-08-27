@@ -14,19 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 92
-gf_entry_title: ついに！！ ゲームフリークのホームページが新しくリニューアルされました！
+gf_entry_title: 【网站更新】2007年 GAME FREAK主页焕新
 gf_archive: 2007-08
 gf_categories:
 - お知らせ
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: GAME FREAK官网全新改版，页面更易浏览，还加入了像素绘制功能，增田专栏也将以全新面貌继续更新。
+gf_translation_title: 【网站更新】2007年 GAME FREAK主页焕新
+gf_translation_summary: GAME FREAK官网全新改版，页面更易浏览，还加入了像素绘制功能，增田专栏也将以全新面貌继续更新。
 search: true
 source:
   title: 増田部長のめざめるパワー 第92回
   url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
   source_type: official_blog
 gf_archive_id: masuda-092
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
 ---
@@ -37,23 +39,23 @@ glossary_missing_targets: []
 
 终于！！
 
-GAME FREAK 的官网全新改版了！
+GAME FREAK 的主页焕新啦！
 
-我觉得变得相当易看了。
+我觉得现在好看得多、也更容易浏览了。
 
-连点阵图都能绘制，这是工作人员精心制作的成果，
+不仅可以绘制像素点，还是工作人员坚持细节、精心制作出来的，
 
-请大家务必务必浏览所有页面！
+所以大家一定一定要把所有页面都看一遍哦！
 
-增田专栏的页面也变得很有型了，
+增田专栏的页面也变得很帅气了，
 
-说不定，写作的节奏会稍微有些变化！？
+所以我写专栏的节奏，说不定也会有一点变化！？
 
-今后我们也会不断改进，
+今后我们也会继续不断改进，
 
-敬请期待 GAME FREAK 官网！
+还请大家期待 GAME FREAK 的主页！
 
-那么。
+那么，回头见！
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>

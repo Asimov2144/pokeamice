@@ -14,20 +14,21 @@ tags:
 - 官方博客
 archive_type: gamefreak_director_column
 gf_entry_no: 62
-gf_entry_title: 今月２０日、しょこたんこと中川翔子さんがいらっしゃいました！ そうです。 ポケモン☆サンデーの取材だったんです。 １２月１７日の放映で
-  ゲームフリークの社内＆増田が出てますので、 良かったら観て下さい！ というか、是非、観て下さいね！
+gf_entry_title: 【开发日记】中川翔子探访 GAME FREAK
 gf_archive: 2006-11
 gf_categories:
 - 日記
-summary: 中文译稿已完成校对；日文原文与官方英文版可展开对照。
+summary: 增田记录中川翔子到访 GAME FREAK，参与《宝可梦☆星期天》采访，并分享电视拍摄和博客持续更新的感想。
+gf_translation_title: 【开发日记】中川翔子探访 GAME FREAK
+gf_translation_summary: 增田记录中川翔子到访 GAME FREAK，参与《宝可梦☆星期天》采访，并分享电视拍摄和博客持续更新的感想。
 search: true
 source:
   title: 増田部長のめざめるパワー 第62回
   url: https://www.gamefreak.co.jp/blog/dir/2006/11/index.html
   source_type: official_blog
 gf_archive_id: masuda-062
-translation_status: proofread
-proofread_confidence: high
+translation_status: openai-machine-translated
+proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets:
 - 大电视
@@ -38,41 +39,39 @@ glossary_missing_targets:
 
 ## 中文译文
 
-本月20日，人称“小香”的中川翔子小姐来我们这里了！
+这个月20日，昵称为“Shokotan”的中川翔子小姐来访了！
 
 没错。
 
-是为了《宝可梦☆星期天》的取材。
+是来接受《宝可梦☆星期天》采访的。
 
-在12月17日的节目中
+在12月17日播出的节目中，
 
-会播出GAME FREAK的公司内部＆增田的镜头，
+会有 GAME FREAK 公司内部以及我的镜头，
 
-如果方便的话，请一定要看！
+如果方便的话，请一定要看看！
 
-应该说，请务必观看哦！
+不，应该说，请务必一定要看看哦！
 
-电视拍摄时，总是搞不清楚该看哪里……
+电视节目的拍摄，我总是不太清楚视线该往哪里放……
 
-到底会是什么效果，真是令人期待。
+真想看看最后会拍成什么样。
 
-顺便一提，有名的[“小香博客”](http://yaplog.jp/strawberry2/)上
-
-也登了我们的事。
+顺便一提，我还被刊登在那篇有名的[「しょこたんぶろぐ」](http://yaplog.jp/strawberry2/)里了哦。
 
 [http://yaplog.jp/strawberry2/archive/10511](http://yaplog.jp/strawberry2/archive/10511)
 
-话说回来，能这么频繁地更新，真是了不起的才能啊。
+不过，能像这样持续更新，真是了不起的才能呢。
 
-真的，我很想学习。
+我真的很想好好学习。
 
 果然，诀窍就是……
 
-“想到的时候就要写下来”
+“想到什么，就该在想到的时候写下来”
 
-就是这么回事吧。
+我想就是这么回事吧。
 
-哎呀，真厉害。
+哎呀——真厉害。
 
 
 <details class="gf-director-language"><summary>查看日文原文</summary>
