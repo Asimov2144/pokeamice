@@ -8,6 +8,7 @@ sidebar: false
 
 {% assign gf = site.data.gamefreak_director %}
 {% assign gf_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_posts = gf_posts | where_exp: "post", "post.gf_archive_id != nil" %}
 
 <section class="key-window key-window--gf">
   <header class="key-window-hero">
