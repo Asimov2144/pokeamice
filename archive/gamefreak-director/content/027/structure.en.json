@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 27,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The ‘previously on your quest’ function\n\nin Pokemon FireRed and LeafGreen is very\n\ncomplicated, and uses lots of backups.\n\nIt was quite likely to end up with many\n\nbugs and our programmers were opposed to\n\nthe idea, so I almost gave up on it…",
+      "images": [],
+      "source_html": "<p>The ‘previously on your quest’ function<br/>\r\nin Pokemon FireRed and LeafGreen is very<br/>\r\ncomplicated, and uses lots of backups.<br/>\r\nIt was quite likely to end up with many<br/>\r\nbugs and our programmers were opposed to<br/>\r\nthe idea, so I almost gave up on it…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But when I explained to the programmers\n\nhow important, interesting, and innovative\n\nthis function would be,\n\nthey understood the concept and its appeal.\n\nThat way we included an unstable (!) feature,\n\nwhich was almost like an experiment.",
+      "images": [],
+      "source_html": "<p>But when I explained to the programmers<br/>\r\nhow important, interesting, and innovative<br/>\r\nthis function would be,<br/>\r\nthey understood the concept and its appeal.<br/>\r\nThat way we included an unstable (!) feature,<br/>\r\nwhich was almost like an experiment.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With this summary function, you have to\n\nnegotiate with the opponent. And for that,\n\nyou need to know about him/her.\n\nIf not, in most cases you lose the negotiation.",
+      "images": [],
+      "source_html": "<p>With this summary function, you have to<br/>\r\nnegotiate with the opponent. And for that,<br/>\r\nyou need to know about him/her.<br/>\r\nIf not, in most cases you lose the negotiation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game designer needs to understand\n\nthe programmers, and the programmers need\n\nto understand the game design.\n\nOf course, graphic designers and sound\n\ndesigners too\n\nneed to understand the game design and\n\nthe program.\n\nIt’s a natural part of the job, but it’s\n\nalso very difficult to achieve.",
+      "images": [],
+      "source_html": "<p>The game designer needs to understand<br/>\r\nthe programmers, and the programmers need<br/>\r\nto understand the game design.<br/>\r\nOf course, graphic designers and sound<br/>\r\ndesigners too<br/>\r\nneed to understand the game design and<br/>\r\nthe program.<br/>\r\nIt’s a natural part of the job, but it’s<br/>\r\nalso very difficult to achieve.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But the thing is, I think it’s like making\n\nnew friends. Communication is possible\n\nwhen we are interested in or understand their\n\ntastes or values.",
+      "images": [],
+      "source_html": "<p>But the thing is, I think it’s like making<br/>\r\nnew friends. Communication is possible<br/>\r\nwhen we are interested in or understand their<br/>\r\ntastes or values.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Whether it’s a business relationship or\n\na personal relationship, you need to have an\n\ninterest in that person or to understand his/her\n\npersonality in order to have a mutual understanding.",
+      "images": [],
+      "source_html": "<p>Whether it’s a business relationship or<br/>\r\na personal relationship, you need to have an<br/>\r\ninterest in that person or to understand his/her<br/>\r\npersonality in order to have a mutual understanding.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, the first thing you need to do is to get\n\ninterested. Whether you can understand or not\n\nis not as important.\n\nYou try to become interested in the program.\n\nYou try to become fascinated with the game\n\ndesign’s appeal. If you try, the result will\n\nsurely show in your work.\n\nThat way you can create a game out of an\n\ninteresting idea.",
+      "images": [],
+      "source_html": "<p>So, the first thing you need to do is to get<br/>\r\ninterested. Whether you can understand or not<br/>\r\nis not as important.<br/>\r\nYou try to become interested in the program.<br/>\r\nYou try to become fascinated with the game<br/>\r\ndesign’s appeal. If you try, the result will<br/>\r\nsurely show in your work.<br/>\r\nThat way you can create a game out of an<br/>\r\ninteresting idea.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In developing video games, it means nothing\n\nif the actual product isn’t a fun game to play,\n\nno matter how interesting the original idea was.",
+      "images": [],
+      "source_html": "<p>In developing video games, it means nothing<br/>\r\nif the actual product isn’t a fun game to play,<br/>\r\nno matter how interesting the original idea was.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

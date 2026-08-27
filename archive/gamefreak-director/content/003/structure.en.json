@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 3,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Yesterday, I did magazine interviews.",
+      "images": [],
+      "source_html": "<p>Yesterday, I did magazine interviews.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes.\n\nPokemon Emerald will go on sale on September 16 (Thursday).\n\nThey came to talk with me about Pokemon Emerald.",
+      "images": [],
+      "source_html": "<p>Yes.<br/>\r\nPokemon Emerald will go on sale on September 16 (Thursday).<br/>\r\nThey came to talk with me about Pokemon Emerald.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But, unfortunately, there’s not much I can talk about\n\ngames like Pokemon…\n\nBecause we want the players to discover\n\neverything themselves.\n\nSo we don’t want to give away any secret.\n\nBut at the same time, I wanted to discuss it\n\nbecause I’m excited about it…\n\nIt was such a dilemma.",
+      "images": [],
+      "source_html": "<p>But, unfortunately, there’s not much I can talk about<br/>\r\ngames like Pokemon…<br/>\r\nBecause we want the players to discover<br/>\r\neverything themselves.<br/>\r\nSo we don’t want to give away any secret.<br/>\r\nBut at the same time, I wanted to discuss it<br/>\r\nbecause I’m excited about it…<br/>\r\nIt was such a dilemma.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please reserve your copy!",
+      "images": [],
+      "source_html": "<p>Please reserve your copy!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Those of you who have played Pokemon Ruby or Sapphire\n\nwill enjoy what’s different in this new game.\n\nThose who have played Pokemon FireRed and LeafGreen\n\nwill find Pokemon Emerald as the latest installment of the series.",
+      "images": [],
+      "source_html": "<p>Those of you who have played Pokemon Ruby or Sapphire<br/>\r\nwill enjoy what’s different in this new game.<br/>\r\nThose who have played Pokemon FireRed and LeafGreen<br/>\r\nwill find Pokemon Emerald as the latest installment of the series.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We have put every kind of tricks and secrets\n\ninto Pokemon Emerald and I’m sure you will have great fun\n\nplaying it.\n\nWe at Game Freak are really proud of\n\nwhat we have achieved this time.\n\nGive it a try!",
+      "images": [],
+      "source_html": "<p>We have put every kind of tricks and secrets<br/>\r\ninto Pokemon Emerald and I’m sure you will have great fun<br/>\r\nplaying it.<br/>\r\nWe at Game Freak are really proud of<br/>\r\nwhat we have achieved this time.<br/>\r\nGive it a try!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

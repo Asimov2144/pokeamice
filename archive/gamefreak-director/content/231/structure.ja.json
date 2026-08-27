@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "article": 231,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、こんにちは！",
+      "images": [],
+      "source_html": "<p>みなさん、こんにちは！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "昨日２０１２年１２月１６日（日）にアニメイト秋葉原店さんで、\n\nサイン会イベントが開催されました！",
+      "images": [],
+      "source_html": "<p>昨日２０１２年１２月１６日（日）にアニメイト秋葉原店さんで、<br/>\r\nサイン会イベントが開催されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "たくさんの方にお越し頂き、本当にありがとうございました！！",
+      "images": [],
+      "source_html": "<p>たくさんの方にお越し頂き、本当にありがとうございました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今回はみなさまへの感謝を込めつつ、当日の様子をお伝えしたいと思います。",
+      "images": [],
+      "source_html": "<p>今回はみなさまへの感謝を込めつつ、当日の様子をお伝えしたいと思います。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_01\" %}",
+      "images": [
+        "231-multi-121217_01"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "当日、早朝からお店の前には行列が！！\n\nどれだけの人に集まってもらえるか、心配していただけに、嬉しい悲鳴！",
+      "images": [],
+      "source_html": "<p>当日、早朝からお店の前には行列が！！<br/>\r\nどれだけの人に集まってもらえるか、心配していただけに、嬉しい悲鳴！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "中には朝４時から並んでくれた方も！！！\n\n寒い中、長時間ありがとうございました。",
+      "images": [],
+      "source_html": "<p>中には朝４時から並んでくれた方も！！！<br/>\r\n寒い中、長時間ありがとうございました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_02\" %}",
+      "images": [
+        "231-multi-121217_02"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_02.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "当初は11：00-、14：00-の2回開催の予定だったのですが、\n\n定員に達してしまったため、なんと、急遽3回目を開催することに！！",
+      "images": [],
+      "source_html": "<p>当初は11：00-、14：00-の2回開催の予定だったのですが、<br/>\r\n定員に達してしまったため、なんと、急遽3回目を開催することに！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "それでも参加できなかった皆さま、すみませんでした。ぜひ、次の機会に！",
+      "images": [],
+      "source_html": "<p>それでも参加できなかった皆さま、すみませんでした。ぜひ、次の機会に！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして１１時００分。\n\nついにイベントがスタート！",
+      "images": [],
+      "source_html": "<p>そして１１時００分。<br/>\r\nついにイベントがスタート！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "最近入団したプラズマ団員として登場！！\n\n「ポケモーニング！！」「プラーズマー！！」",
+      "images": [],
+      "source_html": "<p>最近入団したプラズマ団員として登場！！<br/>\r\n「ポケモーニング！！」「プラーズマー！！」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_03\" %}",
+      "images": [
+        "231-multi-121217_03"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_03.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲームフリーク開発の最新ソフト「[リズムハンターハーモナイト](https://www.gamefreak.co.jp/harmoknight/index.html)」の開発チームも一緒に参加。\n\nツイッターで事前に受け付けたポケモンやハーモナイトに関する質問にお答えしました！",
+      "images": [],
+      "source_html": "<p>ゲームフリーク開発の最新ソフト「<a href=\"https://www.gamefreak.co.jp/harmoknight/index.html\" target=\"_blank\">リズムハンターハーモナイト</a>」の開発チームも一緒に参加。<br/>\r\nツイッターで事前に受け付けたポケモンやハーモナイトに関する質問にお答えしました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_04\" %}",
+      "images": [
+        "231-multi-121217_04"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_04.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、サイン会がスタート！",
+      "images": [],
+      "source_html": "<p>そして、サイン会がスタート！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "写真をよーく見て頂けると分かるかもしれませんが、\n\n今回のサイン会のサイン色紙は特別仕様。なんと、、、！！",
+      "images": [],
+      "source_html": "<p>写真をよーく見て頂けると分かるかもしれませんが、<br/>\r\n今回のサイン会のサイン色紙は特別仕様。なんと、、、！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_05\" %}",
+      "images": [
+        "231-multi-121217_05"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_05.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンと ハーモナイトのコラボレーションイラスト色紙！",
+      "images": [],
+      "source_html": "<p>ポケモンと ハーモナイトのコラボレーションイラスト色紙！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_06\" %}",
+      "images": [
+        "231-multi-121217_06"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_06.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ハーモナイトのディレクター＆キャラクターデザインを担当し、\n\nポケットモンスターでもキャラクターデザインを担当しているジェイムスが\n\n今回のイベントのために作画しました！",
+      "images": [],
+      "source_html": "<p>ハーモナイトのディレクター＆キャラクターデザインを担当し、<br/>\r\nポケットモンスターでもキャラクターデザインを担当しているジェイムスが<br/>\r\n今回のイベントのために作画しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、恒例！？の、集合写真撮影タイム！！\n\n参加頂いた約180名全員との記念写真！",
+      "images": [],
+      "source_html": "<p>そして、恒例！？の、集合写真撮影タイム！！<br/>\r\n参加頂いた約180名全員との記念写真！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_07\" %}",
+      "images": [
+        "231-multi-121217_07"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_07.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_08\" %}",
+      "images": [
+        "231-multi-121217_08"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_08.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_09\" %}",
+      "images": [
+        "231-multi-121217_09"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_09.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_10\" %}",
+      "images": [
+        "231-multi-121217_10"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_10.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_11\" %}",
+      "images": [
+        "231-multi-121217_11"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_11.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_12\" %}",
+      "images": [
+        "231-multi-121217_12"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_12.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みんな、最高です！素敵です！！！！",
+      "images": [],
+      "source_html": "<p>みんな、最高です！素敵です！！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "会場内には「リズムハンター ハーモナイト」の体験コーナーも設置し、\n\n開発スタッフが直接説明させて頂きました。\n\n（まだ体験されていない方はぜひ体験してみてくださいね！）",
+      "images": [],
+      "source_html": "<p>会場内には「リズムハンター ハーモナイト」の体験コーナーも設置し、<br/>\r\n開発スタッフが直接説明させて頂きました。<br/>\r\n（まだ体験されていない方はぜひ体験してみてくださいね！）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_13\" %}",
+      "images": [
+        "231-multi-121217_13"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_13.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "スタッフにとっても、みなさんと触れ合える大変貴重な機会です。",
+      "images": [],
+      "source_html": "<p>スタッフにとっても、みなさんと触れ合える大変貴重な機会です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"231-multi-121217_14\" %}",
+      "images": [
+        "231-multi-121217_14"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2012/12/121217_14.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こういったイベントを開催するといつも思う事なのですが、\n\n今回も皆さんから、たくさんのパワーをもらいました！！！\n\nみなさんと直接話すことができて、嬉しかったです！！",
+      "images": [],
+      "source_html": "<p>こういったイベントを開催するといつも思う事なのですが、<br/>\r\n今回も皆さんから、たくさんのパワーをもらいました！！！<br/>\r\nみなさんと直接話すことができて、嬉しかったです！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いつもいつも、本当にありがとうございます！！！",
+      "images": [],
+      "source_html": "<p>いつもいつも、本当にありがとうございます！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そしてこの場を借りて。\n\nご協力頂いたアニメイトさま、アニメイト秋葉原店の\n\nスタッフの皆さまにも御礼申し上げます。\n\n清水店長、ありがとうございました！！",
+      "images": [],
+      "source_html": "<p>そしてこの場を借りて。<br/>\r\nご協力頂いたアニメイトさま、アニメイト秋葉原店の<br/>\r\nスタッフの皆さまにも御礼申し上げます。<br/>\r\n清水店長、ありがとうございました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "また機会があればぜひ、開催したいです！",
+      "images": [],
+      "source_html": "<p>また機会があればぜひ、開催したいです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさんのお蔭で、今回のサイン会イベントも無事に終えることができました！\n\n本当にありがとうございました！！",
+      "images": [],
+      "source_html": "<p>みなさんのお蔭で、今回のサイン会イベントも無事に終えることができました！<br/>\r\n本当にありがとうございました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+id: masuda-145
+number: 145
+month: 2009-03
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2009/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no145
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no145
+    permalink_validated: true
+    date: '2009-03-27'
+    date_display: 03.27.2009
+    categories:
+    - Info
+    - Pokemon
+    lead: On March 22nd, North American version of Pokemon Platinum have launched!
+    raw_page: archive/gamefreak-director/raw/en/2009/03/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%94%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%94%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2009-03-27'
+    date_display: 2009.03.27
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: ３月２２日無事、北米でプラチナが発売されました！
+    raw_page: archive/gamefreak-director/raw/ja/2009/03/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:21+00:00'
+assets: []

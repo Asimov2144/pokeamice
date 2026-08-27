@@ -1,0 +1,43 @@
+id: masuda-016
+number: 16
+month: 2004-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-16
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-16
+    permalink_validated: true
+    date: '2004-09-10'
+    date_display: 09.10.2004
+    categories:
+    - Diary
+    lead: Not many people know this but I’m fanatic about analog synthesizers. The
+      thing I most like about analog synthesizers is that you can create sounds that
+      do not exist in real world. It sure turns me on.
+    raw_page: archive/gamefreak-director/raw/en/2004/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-09-10'
+    date_display: 2004.09.10
+    categories:
+    - 日記
+    lead: 実は増田、アナログシンセのマニアなんです。 この世に存在しない音が作れるところが大好き！しびれちゃいます。
+    raw_page: archive/gamefreak-director/raw/ja/2004/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:09+00:00'
+assets: []

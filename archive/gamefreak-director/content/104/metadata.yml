@@ -1,0 +1,42 @@
+id: masuda-104
+number: 104
+month: 2007-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no104
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no104
+    permalink_validated: true
+    date: '2007-09-09'
+    date_display: 09.09.2007
+    categories:
+    - Pokemon
+    lead: Yesterday, I went to the awarding ceremony of the Japan Game Awards organized
+      by CESA (Computer Entertainment Supplier’s Association) in Makuhari (Chiba prefecture).
+    raw_page: archive/gamefreak-director/raw/en/2007/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-09-21'
+    date_display: 2007.09.21
+    categories:
+    - ポケモン
+    lead: 昨日、幕張メッセで行われたCESAゲーム大賞授賞式に行ってきました！
+    raw_page: archive/gamefreak-director/raw/ja/2007/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets: []

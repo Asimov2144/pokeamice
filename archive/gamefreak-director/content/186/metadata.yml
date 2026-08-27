@@ -1,0 +1,95 @@
+id: masuda-186
+number: 186
+month: 2011-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no186
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no186
+    permalink_validated: true
+    date: '2011-02-17'
+    date_display: 02.17.2011
+    categories:
+    - Diary
+    lead: Today is the final day at San Francisco.
+    raw_page: archive/gamefreak-director/raw/en/2011/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-02-17'
+    date_display: 2011.02.17
+    categories:
+    - 日記
+    lead: マスダ＠サンフランシスコ最終日です。
+    raw_page: archive/gamefreak-director/raw/ja/2011/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:23+00:00'
+assets:
+- id: 186-en-20110217_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/02/20110217_01.jpg
+  local_path: archive/gamefreak-director/assets/original/186/en/20110217_01.jpg
+  sha256: ef4b27a0f6c8d900f533477439cddad0c8473af02b03af78d425a894d1bb88d2
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 186-en-20110217_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/02/20110217_02.jpg
+  local_path: archive/gamefreak-director/assets/original/186/en/20110217_02.jpg
+  sha256: e2d50cc1e719df5c96c8f9e4a6bc5fd29f76bc57b99f419ff1e0a10bba0e6ec3
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 186-en-20110217_03
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/02/20110217_03.jpg
+  local_path: archive/gamefreak-director/assets/original/186/en/20110217_03.jpg
+  sha256: b90eb900276fcbe1188c3ca10afbbdee2fb64e2fa961c75c1d4dfa34e665c14d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 186-ja-20110217_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/02/20110217_01.jpg
+  local_path: archive/gamefreak-director/assets/original/186/ja/20110217_01.jpg
+  sha256: ef4b27a0f6c8d900f533477439cddad0c8473af02b03af78d425a894d1bb88d2
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 186-ja-20110217_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/02/20110217_02.jpg
+  local_path: archive/gamefreak-director/assets/original/186/ja/20110217_02.jpg
+  sha256: e2d50cc1e719df5c96c8f9e4a6bc5fd29f76bc57b99f419ff1e0a10bba0e6ec3
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 186-ja-20110217_03
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/02/20110217_03.jpg
+  local_path: archive/gamefreak-director/assets/original/186/ja/20110217_03.jpg
+  sha256: b90eb900276fcbe1188c3ca10afbbdee2fb64e2fa961c75c1d4dfa34e665c14d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

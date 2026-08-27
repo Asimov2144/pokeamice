@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 76,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Oh, I’ve been busy in March…\n\nI have been literally swamped with work, but…",
+      "images": [],
+      "source_html": "<p>Oh, I’ve been busy in March…<br/>\r\nI have been literally swamped with work, but…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Holy cow!\n\n“Yoshi’s Eggs(English title: Yoshi),” a game\n\ndeveloped by Game Freak in 1991, is now being\n\ndistributed through Wii’s Virtual Console!",
+      "images": [],
+      "source_html": "<p>Holy cow!<br/>\r\n“Yoshi’s Eggs(English title: Yoshi),” a game<br/>\r\ndeveloped by Game Freak in 1991, is now being<br/>\r\ndistributed through Wii’s Virtual Console!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What a surprise!",
+      "images": [],
+      "source_html": "<p>What a surprise!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even compared with the first Pokemon, which\n\nwas released in 1996, “Yosshi’s Eggs” is such\n\nan old game, but it is very addictive.\n\nPlease give it a try!",
+      "images": [],
+      "source_html": "<p>Even compared with the first Pokemon, which<br/>\r\nwas released in 1996, “Yosshi’s Eggs” is such<br/>\r\nan old game, but it is very addictive.<br/>\r\nPlease give it a try!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Incidentally, I did the music.\n\n(There were only three tones. Very few… but it\n\nhas its own charms, doesn’t it?)",
+      "images": [],
+      "source_html": "<p>Incidentally, I did the music.<br/>\r\n(There were only three tones. Very few… but it<br/>\r\nhas its own charms, doesn’t it?)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also…\n\nI will appear on Pokemon Sunday which airs on\n\nMarch 18th (Sunday). I will make an appearance\n\nwith the three of Robert (a Japanese comic trio).\n\n(This episode was aired in 2007 and no longer\n\navailable.)",
+      "images": [],
+      "source_html": "<p>Also…<br/>\r\nI will appear on Pokemon Sunday which airs on<br/>\r\nMarch 18th (Sunday). I will make an appearance<br/>\r\nwith the three of Robert (a Japanese comic trio).<br/>\r\n(This episode was aired in 2007 and no longer<br/>\r\navailable.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

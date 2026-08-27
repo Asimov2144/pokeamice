@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "article": 120,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "What a surprise!!",
+      "images": [],
+      "source_html": "<p>What a surprise!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game Freak staffs celebrated my birthday just right now!!\n\nTomorrow is my birthday!!\n\nChocolate cake and Starbucks Tall Latte!!\n\nIt was super delicious!!",
+      "images": [],
+      "source_html": "<p>Game Freak staffs celebrated my birthday just right now!!<br/>\r\nTomorrow is my birthday!!<br/>\r\nChocolate cake and Starbucks Tall Latte!!<br/>\r\nIt was super delicious!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Many thanks to all!!\n\nI deeply appreciated it!!",
+      "images": [],
+      "source_html": "<p>Many thanks to all!!<br/>\r\nI deeply appreciated it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"120-en-120a2\" %}{% image id=\"120-en-120c1\" %}{% image id=\"120-en-120b1\" %}",
+      "images": [
+        "120-en-120a2",
+        "120-en-120c1",
+        "120-en-120b1"
+      ],
+      "source_html": "<p><img alt=\"120a2.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/01/120a2.jpg\"/><img alt=\"120c1.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/01/120c1.jpg\"/><img alt=\"120b1.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/01/120b1.jpg\"/></p>"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+id: masuda-119
+number: 119
+month: 2008-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2008/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no119
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no119
+    permalink_validated: true
+    date: '2008-01-10'
+    date_display: 01.10.2008
+    categories:
+    - Diary
+    lead: Greetings. Happy new year! We look forward to your support and encouragement.
+    raw_page: archive/gamefreak-director/raw/en/2008/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2008-01-10'
+    date_display: 2008.01.10
+    categories:
+    - 日記
+    lead: みなさま、明けましておめでとうございます。 本年もどうぞよろしくお願いいたします。
+    raw_page: archive/gamefreak-director/raw/ja/2008/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets: []

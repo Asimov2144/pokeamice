@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 214,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "増田順一、[Twitter](http://twitter.com/Junichi_Masuda)始めました！",
+      "images": [],
+      "source_html": "<p><strong>増田順一、<a href=\"http://twitter.com/Junichi_Masuda\" target=\"_blank\">Twitter</a>始めました！</strong></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、フォローお願い致します！",
+      "images": [],
+      "source_html": "<p>みなさん、フォローお願い致します！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "コラム＆Twitter、ダブルで応援よろしくお願い致します！",
+      "images": [],
+      "source_html": "<p>コラム＆Twitter、ダブルで応援よろしくお願い致します！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://twitter.com/Junichi_Masuda](http://twitter.com/Junichi_Masuda)",
+      "images": [],
+      "source_html": "<p><a href=\"http://twitter.com/Junichi_Masuda\" target=\"_blank\">http://twitter.com/Junichi_Masuda</a></p>"
+    }
+  ]
+}

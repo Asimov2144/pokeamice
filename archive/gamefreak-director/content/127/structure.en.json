@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 127,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "As you might already know,",
+      "images": [],
+      "source_html": "<p>As you might already know,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This autumn, 2008,\n\nLatest series of “Pocket Monsters” will be releasing in Japan!",
+      "images": [],
+      "source_html": "<p>This autumn, 2008,<br/>\r\nLatest series of “Pocket Monsters” will be releasing in Japan!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The title is,\n\n『ポケットモンスター プラチナ』\n\n“Pocket Monsters Platinum (Japanese title)”",
+      "images": [],
+      "source_html": "<p>The title is,<br/>\r\n『ポケットモンスター プラチナ』<br/>\r\n“Pocket Monsters Platinum (Japanese title)”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Currently, GameFreak development team is\n\nworking as hard as they can.\n\nOffice atmosphere is filled with enthusiasm,\n\nand aiming for more createtive contents!\n\nThe team is trying their best to\n\nmake the game’s quality higher!",
+      "images": [],
+      "source_html": "<p>Currently, GameFreak development team is<br/>\r\nworking as hard as they can.<br/>\r\nOffice atmosphere is filled with enthusiasm,<br/>\r\nand aiming for more createtive contents!<br/>\r\nThe team is trying their best to<br/>\r\nmake the game’s quality higher!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please wait and count on our “Pocket Monsters Platinum”!!",
+      "images": [],
+      "source_html": "<p>Please wait and count on our “Pocket Monsters Platinum”!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

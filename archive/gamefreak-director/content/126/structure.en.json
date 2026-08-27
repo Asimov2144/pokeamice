@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "article": 126,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon 12th anniversary column PART 2!",
+      "images": [],
+      "source_html": "<p>Pokemon 12th anniversary column PART 2!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pokemon YELLOW”\n\nIn this game, Pikachu cries “pikachu!”, like TV animation.\n\nOf course, there is no such high quality sampling function\n\non the Game Boy hardware.\n\nTherefore, we must think different way to recreate\n\nthe cry of “pikachu!”.",
+      "images": [],
+      "source_html": "<p>“Pokemon YELLOW”<br/>\r\nIn this game, Pikachu cries “pikachu!”, like TV animation.<br/>\r\nOf course, there is no such high quality sampling function<br/>\r\non the Game Boy hardware.<br/>\r\nTherefore, we must think different way to recreate<br/>\r\nthe cry of “pikachu!”.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At that time, I was a programmer and I came up with\n\nfollowing idea to solve this problem.\n\nProgram the converter to make the sound into\n\none bit data, and recreating the sound.",
+      "images": [],
+      "source_html": "<p>At that time, I was a programmer and I came up with<br/>\r\nfollowing idea to solve this problem.<br/>\r\nProgram the converter to make the sound into<br/>\r\none bit data, and recreating the sound.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The structure is as follows.\n\nFirst of all, make the sound degitalize using\n\nthe equipment, suich as a sampler.\n\n{% image id=\"126-en-pt0229_01_s_en\" %}\n\n*This is the wave of DIALGA’s cry.",
+      "images": [
+        "126-en-pt0229_01_s_en"
+      ],
+      "source_html": "<p>The structure is as follows.<br/>\r\nFirst of all, make the sound degitalize using<br/>\r\nthe equipment, suich as a sampler.<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_01_L.gif\" target=\"_blank\"><img alt=\"pict\" src=\"/blog/dir_english/wp-content/uploads/2008/02/pt0229_01_s_en.jpg\"/></a><br/>\r\n*This is the wave of DIALGA’s cry. </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the maximized picture.\n\n{% image id=\"126-en-pt0229_02_s_en\" %}",
+      "images": [
+        "126-en-pt0229_02_s_en"
+      ],
+      "source_html": "<p>Here’s the maximized picture.<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_02_L.gif\" target=\"_blank\"><img alt=\"pict\" src=\"/blog/dir_english/wp-content/uploads/2008/02/pt0229_02_s_en.gif\"/></a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Enlarged.\n\n{% image id=\"126-en-pt0229_03_s_en\" %}\n\nAlmost completely degitalized.\n\nAbove waves are numerated as sound data.",
+      "images": [
+        "126-en-pt0229_03_s_en"
+      ],
+      "source_html": "<p>Enlarged.<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_03_L.gif\" target=\"_blank\"><img alt=\"pict\" src=\"/blog/dir_english/wp-content/uploads/2008/02/pt0229_03_s_en.gif\"/></a><br/>\r\nAlmost completely degitalized.<br/>\r\nAbove waves are numerated as sound data.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then, convert them into “0″ and “1″.",
+      "images": [],
+      "source_html": "<p>Then, convert them into “0″ and “1″.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Detail data are…\n\n{% image id=\"126-en-pt0229_04_s_en\" %}\n\nlike above picture.",
+      "images": [
+        "126-en-pt0229_04_s_en"
+      ],
+      "source_html": "<p>Detail data are…<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_04_L.gif\" target=\"_blank\"><img alt=\"pict\" src=\"/blog/dir_english/wp-content/uploads/2008/02/pt0229_04_s_en.gif\"/></a><br/>\r\nlike above picture.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since the sound differs depend on\n\nhow we set the level of “1″, few different\n\nconverting systems were prepared.",
+      "images": [],
+      "source_html": "<p>Since the sound differs depend on<br/>\r\nhow we set the level of “1″, few different<br/>\r\nconverting systems were prepared.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Using the Game Boy’s click noise (beep!) to make\n\n“0″ as a silent, and “1″ to sound.\n\nThe important part is, to recreate them with very fast speed.\n\nFaster the better. It will give us a nice sound.",
+      "images": [],
+      "source_html": "<p>Using the Game Boy’s click noise (beep!) to make<br/>\r\n“0″ as a silent, and “1″ to sound.<br/>\r\nThe important part is, to recreate them with very fast speed.<br/>\r\nFaster the better. It will give us a nice sound.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ta-da! “pikachu” is done!\n\n{% image id=\"126-multi-pt0229_05\" %}",
+      "images": [
+        "126-multi-pt0229_05"
+      ],
+      "source_html": "<p>Ta-da! “pikachu” is done!<br/>\n<img alt=\"pikachu\" src=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_05.jpg\"/></p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It still sounds cute…",
+      "images": [],
+      "source_html": "<p>It still sounds cute…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.",
+      "images": [],
+      "source_html": "<p><span class=\"copy\">(c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.</span></p>"
+    }
+  ]
+}

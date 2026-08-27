@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 14,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Maps in Pokemon games look somewhat peculiar, don’t they?",
+      "images": [],
+      "source_html": "<p>Maps in Pokemon games look somewhat peculiar, don’t they?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The thing was, in order to include many graphics\n\nof Pokemon and to save the ROM capacity,\n\nour programmers had to sacrifice something.\n\nTo cope with the problem, we came up with the idea of\n\nusing roads.",
+      "images": [],
+      "source_html": "<p>The thing was, in order to include many graphics<br/>\r\nof Pokemon and to save the ROM capacity,<br/>\r\nour programmers had to sacrifice something.<br/>\r\nTo cope with the problem, we came up with the idea of<br/>\r\nusing roads.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oftentimes limitations like this can make a game\n\nmore entertaining.",
+      "images": [],
+      "source_html": "<p>Oftentimes limitations like this can make a game<br/>\r\nmore entertaining.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For example, the maximum number of letters\n\nyou can use for Pokemon names and moves are fixed.\n\nAlso, the player can carry only 6 Pokemon\n\nand 4 moves at hand.\n\nThis kinds of limitations I think contribute greatly\n\nto the playability of the game.",
+      "images": [],
+      "source_html": "<p>For example, the maximum number of letters<br/>\r\nyou can use for Pokemon names and moves are fixed.<br/>\r\nAlso, the player can carry only 6 Pokemon<br/>\r\nand 4 moves at hand.<br/>\r\nThis kinds of limitations I think contribute greatly<br/>\r\nto the playability of the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When we were developing Pokemon Ruby and Sapphire,\n\nwe went back to where we started\n\nand discussed changing the number of Pokemon\n\nyou can carry, or the number of moves Pokemon can learn,\n\nbut in the end we came to the conclusion that\n\nthe original numbers were the best, and that\n\nnot one more or less would make the game more fun.",
+      "images": [],
+      "source_html": "<p>When we were developing Pokemon Ruby and Sapphire,<br/>\r\nwe went back to where we started<br/>\r\nand discussed changing the number of Pokemon<br/>\r\nyou can carry, or the number of moves Pokemon can learn,<br/>\r\nbut in the end we came to the conclusion that<br/>\r\nthe original numbers were the best, and that<br/>\r\nnot one more or less would make the game more fun.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Limitations force us to think harder and\n\nthey can bring many difficulties, of course,\n\nbut I try to think that they are what “forces us to\n\nthink of ways to polish up our products so that\n\nthey are of the highest quality.”\n\nSo, limitations are important to us.",
+      "images": [],
+      "source_html": "<p>Limitations force us to think harder and<br/>\r\nthey can bring many difficulties, of course,<br/>\r\nbut I try to think that they are what “forces us to<br/>\r\nthink of ways to polish up our products so that<br/>\r\nthey are of the highest quality.”<br/>\r\nSo, limitations are important to us.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+id: masuda-078
+number: 78
+month: 2007-04
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-78
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-78
+    permalink_validated: true
+    date: '2007-04-17'
+    date_display: 04.17.2007
+    categories:
+    - Diary
+    lead: Trip to Germany (2)
+    raw_page: archive/gamefreak-director/raw/en/2007/04/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-04-17'
+    date_display: 2007.04.17
+    categories:
+    - 日記
+    lead: ドイツ（２）
+    raw_page: archive/gamefreak-director/raw/ja/2007/04/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:15+00:00'
+assets: []

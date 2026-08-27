@@ -1,0 +1,96 @@
+id: masuda-131
+number: 131
+month: 2008-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2008/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no131
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no131
+    permalink_validated: true
+    date: '2008-09-17'
+    date_display: 09.17.2008
+    categories:
+    - Pokemon
+    lead: Finally at last, “Pocket Monsters Platinum (Japanese title)” have launched
+      last Saturday, September 13th in Japan.
+    raw_page: archive/gamefreak-director/raw/en/2008/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%93%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%93%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2008-09-16'
+    date_display: 2008.09.16
+    categories:
+    - ポケモン
+    lead: 「ポケットモンスター プラチナ」 ついに、９月１３日（土）発売になりました。
+    raw_page: archive/gamefreak-director/raw/ja/2008/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:20+00:00'
+assets:
+- id: 131-multi-131a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131a.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131a.jpg
+  sha256: 7eeae29f51db234741446f8985124699c6d48b498f84b5859814aaba12403d11
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 131-multi-131b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131b.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131b.jpg
+  sha256: 323cd741d9c3bf28c13ab782bd3e47d3beffac417af78edab1ef67060abc184f
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 131-multi-131c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131c.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131c.jpg
+  sha256: 679610b78764c5a76c5d7a43315e021f1fdc653b42867926ec285752e2f9abaa
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 131-multi-131d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131d.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131d.jpg
+  sha256: 450f7db86aa1419fa26a52b96817d2c01101b5c46b6502754d1a663fd74bcd94
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 131-multi-131e
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131e.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131e.jpg
+  sha256: 42ee5e358e562ac12f960cad0e8a619f61cc6674fc5d7ba9454739d2f2c17d4a
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 131-multi-131f
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131f.jpg
+  local_path: archive/gamefreak-director/assets/original/131/multi/131f.jpg
+  sha256: 9f138400c47251b561ade65c3a42505890f8881f43b69b9efef42b2ecb6538ed
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

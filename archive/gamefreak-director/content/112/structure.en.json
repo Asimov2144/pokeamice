@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 112,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello! Masuda reporting from Las Vegas, Nevada!",
+      "images": [],
+      "source_html": "<p>Hello! Masuda reporting from Las Vegas, Nevada!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Current time is 20:40!!\n\nI am suffering from sleep deprivation from this terrible jet lag…\n\nbut forcing my eyes to open, and start playing\n\nSlot Machine!!!!!",
+      "images": [],
+      "source_html": "<p>Current time is 20:40!!<br/>\r\nI am suffering from sleep deprivation from this terrible jet lag…<br/>\r\nbut forcing my eyes to open, and start playing<br/>\r\nSlot Machine!!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Las Vegas, Nevada is a place people\n\nwill be find endless entertainment.",
+      "images": [],
+      "source_html": "<p>Las Vegas, Nevada is a place people<br/>\r\nwill be find endless entertainment.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even the path from the hotel’s front desk to the elevator\n\n(which leads me to my room I’m staying)\n\nrequire me to walk through the casino areas!\n\nOf course, there are no clocks in casino!\n\nInside of the elevator, there are no “L” mark for Lobby,\n\nbut “C” for casino!\n\nAnd many many more…",
+      "images": [],
+      "source_html": "<p>Even the path from the hotel’s front desk to the elevator<br/>\r\n(which leads me to my room I’m staying)<br/>\r\nrequire me to walk through the casino areas!<br/>\r\nOf course, there are no clocks in casino!<br/>\r\nInside of the elevator, there are no “L” mark for Lobby,<br/>\r\nbut “C” for casino!<br/>\r\nAnd many many more…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "They are trying their best to make guests enjoy staying.\n\nIt’s just amazing!",
+      "images": [],
+      "source_html": "<p>They are trying their best to make guests enjoy staying.<br/>\r\nIt’s just amazing!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Las Vegas is the city formed by those with\n\nthe thoroughgoing minds.\n\nIt is necessary to consider “right & wrong”\n\nwhen gambling money for “pleasure”however,\n\nunderstanding these gambling structure and systems are\n\nvery interesting.",
+      "images": [],
+      "source_html": "<p>Las Vegas is the city formed by those with<br/>\r\nthe thoroughgoing minds.<br/>\r\nIt is necessary to consider “right &amp; wrong”<br/>\r\nwhen gambling money for “pleasure”however,<br/>\r\nunderstanding these gambling structure and systems are<br/>\r\nvery interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Slot machines are system programmed.\n\nPoker is also system programmed as well.",
+      "images": [],
+      "source_html": "<p>Slot machines are system programmed.<br/>\r\nPoker is also system programmed as well.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Starting from management to operation,\n\nevery procedures is to entertain the players\n\nand maintain their gambling interests.",
+      "images": [],
+      "source_html": "<p>Starting from management to operation,<br/>\r\nevery procedures is to entertain the players<br/>\r\nand maintain their gambling interests.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Luck”. This turnabout word may be\n\none of the most important factor in the world.\n\nTherefore, it is better to understand each trap\n\nof gambling before enjoying.",
+      "images": [],
+      "source_html": "<p>“Luck”. This turnabout word may be<br/>\r\none of the most important factor in the world.<br/>\r\nTherefore, it is better to understand each trap<br/>\r\nof gambling before enjoying.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I have to get up at 4 o’clock in the morning!",
+      "images": [],
+      "source_html": "<p>I have to get up at 4 o’clock in the morning!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

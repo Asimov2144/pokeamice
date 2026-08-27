@@ -1,0 +1,98 @@
+id: masuda-162
+number: 162
+month: 2010-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2010/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no162
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no162
+    permalink_validated: true
+    date: '2010-06-19'
+    date_display: 06.19.2010
+    categories:
+    - Diary
+    - Pokemon
+    lead: Under the bright sunshine like mid-summer, I’ve visited “Jisedai(Next Generation)
+      World Hobby Fair”.
+    raw_page: archive/gamefreak-director/raw/en/2010/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2010/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2010-06-19'
+    date_display: 2010.06.19
+    categories:
+    - ポケモン
+    - 日記
+    lead: 真夏のような日差しの中、行ってきました！ 次世代ワールドホビーフェア！
+    raw_page: archive/gamefreak-director/raw/ja/2010/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:21+00:00'
+assets:
+- id: 162-en-162a1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/162a1.jpg
+  local_path: archive/gamefreak-director/assets/original/162/en/162a1.jpg
+  sha256: ae48c897238960fd420058becb395cfd9407e5cdf6a522b3dfabf691056a2b9f
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 162-en-162b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/162b.jpg
+  local_path: archive/gamefreak-director/assets/original/162/en/162b.jpg
+  sha256: e5192d04b963be36ae412c972f4332df0aab473b8621d7c0e9af4010d7f9e9ae
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 162-en-162c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/162c.jpg
+  local_path: archive/gamefreak-director/assets/original/162/en/162c.jpg
+  sha256: b00c7bd3c66705402e4f9f5d70d9da5354c75941fb50164ec76c5f2bfa1dace3
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 162-ja-162a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/06/162a.jpg
+  local_path: archive/gamefreak-director/assets/original/162/ja/162a.jpg
+  sha256: ae48c897238960fd420058becb395cfd9407e5cdf6a522b3dfabf691056a2b9f
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 162-ja-162b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/06/162b.jpg
+  local_path: archive/gamefreak-director/assets/original/162/ja/162b.jpg
+  sha256: e5192d04b963be36ae412c972f4332df0aab473b8621d7c0e9af4010d7f9e9ae
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 162-ja-162c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/06/162c.jpg
+  local_path: archive/gamefreak-director/assets/original/162/ja/162c.jpg
+  sha256: b00c7bd3c66705402e4f9f5d70d9da5354c75941fb50164ec76c5f2bfa1dace3
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

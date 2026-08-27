@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "article": 135,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The game launches on this March 22nd!",
+      "images": [],
+      "source_html": "<p>The game launches on this March 22nd!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pokemon Platinum version” will be launched on\n\nMarch 22nd in North America!\n\n[http://www.pokemon.com/](http://www.pokemon.com/)",
+      "images": [],
+      "source_html": "<p>“Pokemon Platinum version” will be launched on<br/>\r\nMarch 22nd in North America!<br/>\n<a href=\"http://www.pokemon.com/\" target=\"_blank\">http://www.pokemon.com/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I look at the English version package and\n\nits advertisement,\n\nI felt the new face of “Pokemon Platinum version” is created.\n\nMy heart filled with happy expectation!\n\nPlease look forward to upcoming North American version!",
+      "images": [],
+      "source_html": "<p>When I look at the English version package and<br/>\r\nits advertisement,<br/>\r\nI felt the new face of “Pokemon Platinum version” is created.<br/>\r\nMy heart filled with happy expectation!<br/>\r\nPlease look forward to upcoming North American version!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… the other day,\n\nI gave an interview to “Nintendo Power” and “IGN.com.”\n\nQuite interesting questions were asked.\n\nI’m excited to see how’s the article going to be!",
+      "images": [],
+      "source_html": "<p>And… the other day,<br/>\r\nI gave an interview to “Nintendo Power” and “IGN.com.”<br/>\r\nQuite interesting questions were asked.<br/>\r\nI’m excited to see how’s the article going to be!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "One additional info,\n\n[http://www.PokemonPlatinum.com/](http://www.PokemonPlatinum.com/)\n\nwill be opening very soon.",
+      "images": [],
+      "source_html": "<p>One additional info,<br/>\n<a href=\"http://www.PokemonPlatinum.com/\" target=\"_blank\">http://www.PokemonPlatinum.com/</a><br/>\r\nwill be opening very soon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As always, we’d like to ask for your support!\n\n{% image id=\"135-multi-090212_01\" %}",
+      "images": [
+        "135-multi-090212_01"
+      ],
+      "source_html": "<p>As always, we’d like to ask for your support!<br/>\n<img alt=\"As always, we'd like to ask for your support!\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/090212_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s “Hi” from Pichu!\n\n{% image id=\"135-multi-090212_02\" %}",
+      "images": [
+        "135-multi-090212_02"
+      ],
+      "source_html": "<p>Here’s “Hi” from Pichu!<br/>\n<img alt=\"Pichu\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/090212_02.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

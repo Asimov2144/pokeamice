@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 9,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "For the past few days I took a trip to overseas.",
+      "images": [],
+      "source_html": "<p>For the past few days I took a trip to overseas.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I go overseas\n\nmy friends there tell me lots of exciting stories.\n\nTheir sense of values is different from mine\n\nand I find it very interesting.",
+      "images": [],
+      "source_html": "<p>When I go overseas<br/>\r\nmy friends there tell me lots of exciting stories.<br/>\r\nTheir sense of values is different from mine<br/>\r\nand I find it very interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When we’re a baby, no matter where we’re born\n\nwe share the same basic values.\n\nBut as we grow up our sense of values gradually changes\n\nbecause of differences in education, society and culture.\n\nIt’s very interesting to know\n\nthat people have such different ways of thinking.",
+      "images": [],
+      "source_html": "<p>When we’re a baby, no matter where we’re born<br/>\r\nwe share the same basic values.<br/>\r\nBut as we grow up our sense of values gradually changes<br/>\r\nbecause of differences in education, society and culture.<br/>\r\nIt’s very interesting to know<br/>\r\nthat people have such different ways of thinking.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the case of video games,",
+      "images": [],
+      "source_html": "<p>In the case of video games,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“What values are of importance in the society you’re playing in?”",
+      "images": [],
+      "source_html": "<p>“What values are of importance in the society you’re playing in?”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This affects how we come up with ideas for games.",
+      "images": [],
+      "source_html": "<p>This affects how we come up with ideas for games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We can come up with new ideas, new ways of playing\n\nand new sets of rules by trying to think in a new, different way.\n\nWhen I go overseas I always feel this way.",
+      "images": [],
+      "source_html": "<p>We can come up with new ideas, new ways of playing<br/>\r\nand new sets of rules by trying to think in a new, different way.<br/>\r\nWhen I go overseas I always feel this way.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But…\n\nthe flip side of this is…\n\nI find the Japanese sense of values very fascinating\n\nwhen I look at it from outside.",
+      "images": [],
+      "source_html": "<p>But…<br/>\r\nthe flip side of this is…<br/>\r\nI find the Japanese sense of values very fascinating<br/>\r\nwhen I look at it from outside.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

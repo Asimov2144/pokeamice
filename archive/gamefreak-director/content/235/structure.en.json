@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "article": 235,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello everyone!",
+      "images": [],
+      "source_html": "<p>Hello everyone!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Have you had a chance to play “Pokémon Dream Radar”?",
+      "images": [],
+      "source_html": "<p>Have you had a chance to play “Pokémon Dream Radar”?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can get? it as downloadable software for your 3DS\n\n“Pokémon Black 2/White 2.",
+      "images": [],
+      "source_html": "<p>You can get? it as downloadable software for your 3DS<br/>\r\n“Pokémon Black 2/White 2.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For the first Time!!\n\nHere is one page of the presentation,\n\nwith a drawing by game director Takao Unno!\n\n↓↓↓\n\n{% image id=\"235-en-130205\" %}\n\n※■”Pokémon Dream Radar” Game flow\n\n※ Catch the legendary Pokemon using 3DS AR function!?\n\n※・Activate exclusive 3DS software “Pokémon Dream Radar.”\n\n※ Use AR (expanded reality) function with camera.\n\n※ Find “Dream Orbs” surrounding you, and collect them.\n\n※↓\n\n※・If you collect certain amount of “Dream Orbs,”\n\n※ legendary Pokémon will appear on AR monitor.\n\n※↓\n\n※When legendary Pokémon will show up, catch him !",
+      "images": [
+        "235-en-130205"
+      ],
+      "source_html": "<p>For the first Time!!<br/>\r\nHere is one page of the presentation,<br/>\r\nwith a drawing by game director Takao Unno!<br/>\r\n↓↓↓<br/>\n<img alt=\"\" class=\"alignnone size-full wp-image-574\" height=\"238\" src=\"/blog/dir_english/wp-content/uploads/2013/02/130205.gif\" title=\"130205\" width=\"350\"/><br/>\r\n※■”Pokémon Dream Radar” Game flow<br/>\r\n※ Catch the legendary Pokemon using 3DS AR function!?<br/>\r\n※・Activate exclusive 3DS software “Pokémon Dream Radar.”<br/>\r\n※ Use AR (expanded reality) function with camera.<br/>\r\n※ Find “Dream Orbs” surrounding you, and collect them.<br/>\r\n※↓<br/>\r\n※・If you collect certain amount of “Dream Orbs,”<br/>\r\n※ legendary Pokémon will appear on AR monitor.<br/>\r\n※↓<br/>\r\n※When legendary Pokémon will show up, catch him !</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In this game player doesn’t catch Pokémon with Poke Balls,\n\nbut by using Gyro function of 3DS, and repeatedly pressing a button.\n\nTakao drew the illustration to help understand the concept.",
+      "images": [],
+      "source_html": "<p>In this game player doesn’t catch Pokémon with Poke Balls,<br/>\r\nbut by using Gyro function of 3DS, and repeatedly pressing a button.<br/>\r\nTakao drew the illustration to help understand the concept.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The idea is very different to the one in original, RPG style Pokémon games.\n\nThe priority was, to make player feel good, having dynamic controls.",
+      "images": [],
+      "source_html": "<p>The idea is very different to the one in original, RPG style Pokémon games.<br/>\r\nThe priority was, to make player feel good, having dynamic controls.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Like playing tennis, for example.\n\nThe most important thing is to use the racket skillfully.\n\nTo improve your own skill, you can challenge progressively more skillful opponents.\n\nThe type and length of play will depend on who your opponent is.",
+      "images": [],
+      "source_html": "<p>Like playing tennis, for example.<br/>\r\nThe most important thing is to use the racket skillfully.<br/>\r\nTo improve your own skill, you can challenge progressively more skillful opponents.<br/>\r\nThe type and length of play will depend on who your opponent is.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s important to proceed with programming in a smooth manner,\n\nand make a game with no delays.\n\nWe also need to produce the game’s visuals in a smooth and timely fashion, too.",
+      "images": [],
+      "source_html": "<p>It’s important to proceed with programming in a smooth manner,<br/>\r\nand make a game with no delays.<br/>\r\nWe also need to produce the game’s visuals in a smooth and timely fashion, too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What’s the best way to develop a game?\n\nWe considered these questions and used our conclusions\n\nto produce the game “Pokémon Dream Radar”!!!",
+      "images": [],
+      "source_html": "<p>What’s the best way to develop a game?<br/>\r\nWe considered these questions and used our conclusions<br/>\r\nto produce the game “Pokémon Dream Radar”!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you haven’t had a chance to play the game,\n\nplease give it a go!",
+      "images": [],
+      "source_html": "<p>If you haven’t had a chance to play the game,<br/>\r\nplease give it a go!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)\n\n[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)\n\n[http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)\n\n[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/ex/ar_searcher/\" target=\"_blank\">http://www.pokemon.co.jp/ex/ar_searcher/</a><br/>\n<a href=\"http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html\" target=\"_blank\">http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html<br/>\n</a><br/>\n<a href=\"http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/\" target=\"_blank\">http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/</a><br/>\n<a href=\"http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x\" target=\"_blank\">http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

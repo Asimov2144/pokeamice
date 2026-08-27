@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "article": 174,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "■今回は夏休み写真特集！",
+      "images": [],
+      "source_html": "<p>■今回は夏休み写真特集！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174a\" %}\n\n今年の夏も、この大会は盛り上がりました！\n\n８月１３日から１５日まで、\n\nポケモンワールドチャンピオンシップス（WCS）がハワイ島で開催されました！\n\nハワイ島は火山の島で生物のように生きてました。。。\n\n溶岩だらけ！２種類の溶岩があるらしいです。",
+      "images": [
+        "174-ja-174a"
+      ],
+      "source_html": "<p><img alt=\"174a.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174a.jpg\"/><br/>\r\n今年の夏も、この大会は盛り上がりました！<br/>\r\n８月１３日から１５日まで、<br/>\r\nポケモンワールドチャンピオンシップス（WCS）がハワイ島で開催されました！<br/>\r\nハワイ島は火山の島で生物のように生きてました。。。<br/>\r\n溶岩だらけ！２種類の溶岩があるらしいです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174b\" %}\n\nヒルトンホテルの部屋からの眺め！",
+      "images": [
+        "174-ja-174b"
+      ],
+      "source_html": "<p><img alt=\"174b.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174b.jpg\"/><br/>\r\nヒルトンホテルの部屋からの眺め！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174c\" %}\n\n日本と違って湿度が少なく気持ちいい縲怐I\n\nはやく泳ぎたい縲怐I",
+      "images": [
+        "174-ja-174c"
+      ],
+      "source_html": "<p><img alt=\"174c.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174c.jpg\"/><br/>\r\n日本と違って湿度が少なく気持ちいい縲怐I<br/>\r\nはやく泳ぎたい縲怐I</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174d\" %}\n\n巨大なホテルの中の移動はこのトラムで！\n\nすっごく移動速度が遅い（笑）",
+      "images": [
+        "174-ja-174d"
+      ],
+      "source_html": "<p><img alt=\"174d.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174d.jpg\"/><br/>\r\n巨大なホテルの中の移動はこのトラムで！<br/>\r\nすっごく移動速度が遅い（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174e\" %}\n\nWCS会場！でかピカチュウ、浮いてまチュウ！",
+      "images": [
+        "174-ja-174e"
+      ],
+      "source_html": "<p><img alt=\"174e.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174e.jpg\"/><br/>\r\nWCS会場！でかピカチュウ、浮いてまチュウ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174f\" %}\n\nちょっとだけ足の長いピカチュウと記念写真！",
+      "images": [
+        "174-ja-174f"
+      ],
+      "source_html": "<p><img alt=\"174f.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174f.jpg\"/><br/>\r\nちょっとだけ足の長いピカチュウと記念写真！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174g\" %}\n\n時間のある日にハワイ島一周中！\n\nヒロという街にある、ロコモコを発明したお店らしいです！\n\nこれが、すごく安くて美味しかった！",
+      "images": [
+        "174-ja-174g"
+      ],
+      "source_html": "<p><img alt=\"174g.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174g.jpg\"/><br/>\r\n時間のある日にハワイ島一周中！<br/>\r\nヒロという街にある、ロコモコを発明したお店らしいです！<br/>\r\nこれが、すごく安くて美味しかった！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174h\" %}\n\nキラウエア火山活動中！",
+      "images": [
+        "174-ja-174h"
+      ],
+      "source_html": "<p><img alt=\"174h.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174h.jpg\"/><br/>\r\nキラウエア火山活動中！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174i\" %}\n\n初めて見ました。\n\nこれが、コーヒーの実。\n\nこの赤い実を剥くと緑のコーヒー豆が出てきます。",
+      "images": [
+        "174-ja-174i"
+      ],
+      "source_html": "<p><img alt=\"174i.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174i.jpg\"/><br/>\r\n初めて見ました。<br/>\r\nこれが、コーヒーの実。<br/>\r\nこの赤い実を剥くと緑のコーヒー豆が出てきます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174j\" %}\n\nで、こんな機械で焙煎！！これが意外と楽しい！\n\nコーヒー焙煎ゲームが創れますな（笑）",
+      "images": [
+        "174-ja-174j"
+      ],
+      "source_html": "<p><img alt=\"174j.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174j.jpg\"/><br/>\r\nで、こんな機械で焙煎！！これが意外と楽しい！<br/>\r\nコーヒー焙煎ゲームが創れますな（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174k\" %}\n\n現在、マウナケア２８００ｍ登山中！",
+      "images": [
+        "174-ja-174k"
+      ],
+      "source_html": "<p><img alt=\"174k.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174k.jpg\"/><br/>\r\n現在、マウナケア２８００ｍ登山中！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174l\" %}\n\n富士山頂より高い、４２００ｍに到達！！まじ超寒い！！\n\n見える４つの物体は宇宙観測所。一番左が日本の「すばる」\n\nこれによりハワイ島を縦横制覇！！",
+      "images": [
+        "174-ja-174l"
+      ],
+      "source_html": "<p><img alt=\"174l.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174l.jpg\"/><br/>\r\n富士山頂より高い、４２００ｍに到達！！まじ超寒い！！<br/>\r\n見える４つの物体は宇宙観測所。一番左が日本の「すばる」<br/>\r\nこれによりハワイ島を縦横制覇！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174m\" %}\n\n再びWCS会場。ポケモン☆サンデーの取材を受ける森本＆マスダ。\n\nこの模様はテレビ東京系列で９月５日放送予定です。",
+      "images": [
+        "174-ja-174m"
+      ],
+      "source_html": "<p><img alt=\"174m.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174m.jpg\"/><br/>\r\n再びWCS会場。ポケモン☆サンデーの取材を受ける森本＆マスダ。<br/>\r\nこの模様はテレビ東京系列で９月５日放送予定です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174n\" %}\n\nサイン会。たくさんの方々に来て頂きました！\n\nありがとうございました！",
+      "images": [
+        "174-ja-174n"
+      ],
+      "source_html": "<p><img alt=\"174n.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174n.jpg\"/><br/>\r\nサイン会。たくさんの方々に来て頂きました！<br/>\r\nありがとうございました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174o\" %}\n\nん？　まじめにサイン書いてますよ。",
+      "images": [
+        "174-ja-174o"
+      ],
+      "source_html": "<p><img alt=\"174o.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174o.jpg\"/><br/>\r\nん？　まじめにサイン書いてますよ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174p\" %}\n\nジュニア世界一位のチャンピオンと壇上にて握手。",
+      "images": [
+        "174-ja-174p"
+      ],
+      "source_html": "<p><img alt=\"174p.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174p.jpg\"/><br/>\r\nジュニア世界一位のチャンピオンと壇上にて握手。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174q\" %}\n\nみなさん、本当に熱くレベルの高い戦いをありがとう！！",
+      "images": [
+        "174-ja-174q"
+      ],
+      "source_html": "<p><img alt=\"174q.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174q.jpg\"/><br/>\r\nみなさん、本当に熱くレベルの高い戦いをありがとう！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "どこの国が、そして誰が世界を制したのか！？TCGでは、初の女の子優勝も！\n\n詳しくは、こちらから！\n\n[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)\n\nビデオ（ViDeOS）観ると熱さが少し伝わるかな！？",
+      "images": [],
+      "source_html": "<p>どこの国が、そして誰が世界を制したのか！？TCGでは、初の女の子優勝も！<br/>\r\n詳しくは、こちらから！<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2010/\" target=\"_blank\">http://www.pokemonworldchampionships.com/2010/</a><br/>\r\nビデオ（ViDeOS）観ると熱さが少し伝わるかな！？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "マスダ、このビデオゲーム世界大会を、もっともっと盛り上げたいです！",
+      "images": [],
+      "source_html": "<p>マスダ、このビデオゲーム世界大会を、もっともっと盛り上げたいです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、、、帰国。。。",
+      "images": [],
+      "source_html": "<p>そして、、、帰国。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "８月１９日、ポケモン☆サンデー収録のためスタジオへ。\n\n結構、BWについてしゃべりましたよ。\n\nこちらは、９月１２日に放送予定だそうです！観てくださいね！！",
+      "images": [],
+      "source_html": "<p>８月１９日、ポケモン☆サンデー収録のためスタジオへ。<br/>\r\n結構、BWについてしゃべりましたよ。<br/>\r\nこちらは、９月１２日に放送予定だそうです！観てくださいね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174r\" %}\n\n８月２２日、行っちゃいました。\n\n東京タワーにやってきたポケモンサーチャーBW！",
+      "images": [
+        "174-ja-174r"
+      ],
+      "source_html": "<p><img alt=\"174r.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174r.jpg\"/><br/>\r\n８月２２日、行っちゃいました。<br/>\r\n東京タワーにやってきたポケモンサーチャーBW！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174s\" %}\n\n大人でも乗ってよいですか？といって３度目を楽しんだマスダ。\n\nなんだろ、良くできてます。大人でも、まじ楽しいアトラクションですよ。",
+      "images": [
+        "174-ja-174s"
+      ],
+      "source_html": "<p><img alt=\"174s.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174s.jpg\"/><br/>\r\n大人でも乗ってよいですか？といって３度目を楽しんだマスダ。<br/>\r\nなんだろ、良くできてます。大人でも、まじ楽しいアトラクションですよ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、、、\n\n８月２８日、早朝にBW音楽収録の仕事があり、その後、、、",
+      "images": [],
+      "source_html": "<p>そして、、、<br/>\r\n８月２８日、早朝にBW音楽収録の仕事があり、その後、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174t\" %}\n\n５万人が集まる音楽イベント、ａ竏窒獅≠狽奄盾獅ﾉ行ってきました！\n\n楽しむマスダと株式会社ポケモンの古賀さん！！\n\n※遠くに見える小さい粒に見えるのは、、、人です！！",
+      "images": [
+        "174-ja-174t"
+      ],
+      "source_html": "<p><img alt=\"174t.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174t.jpg\"/><br/>\r\n５万人が集まる音楽イベント、ａ竏窒獅≠狽奄盾獅ﾉ行ってきました！<br/>\r\n楽しむマスダと株式会社ポケモンの古賀さん！！<br/>\r\n※遠くに見える小さい粒に見えるのは、、、人です！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "鈴木亜美、AAA、浜崎あゆみ、さすがです。超盛り上がりました！\n\n東方神起の人気も再確認。。。",
+      "images": [],
+      "source_html": "<p>鈴木亜美、AAA、浜崎あゆみ、さすがです。超盛り上がりました！<br/>\r\n東方神起の人気も再確認。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174u\" %}\n\nタオルを振り、マジに楽しむマスダ！！！！！\n\nタオル、、、まじ、やべー。楽しい。。。",
+      "images": [
+        "174-ja-174u"
+      ],
+      "source_html": "<p><img alt=\"174u.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174u.jpg\"/><br/>\r\nタオルを振り、マジに楽しむマスダ！！！！！<br/>\r\nタオル、、、まじ、やべー。楽しい。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-ja-174v\" %}\n\nポケモンサーチャーBWも会場に来てましたよー！！",
+      "images": [
+        "174-ja-174v"
+      ],
+      "source_html": "<p><img alt=\"174v.jpg\" src=\"/blog/dir/wp-content/uploads/2010/09/174v.jpg\"/><br/>\r\nポケモンサーチャーBWも会場に来てましたよー！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こうやって、マスダの夏は過ぎていったのでした。。。\n\nそして、本日９月１日からシアトル、ロンドン出張です！行ってきまーす！\n\nチャオ！",
+      "images": [],
+      "source_html": "<p>こうやって、マスダの夏は過ぎていったのでした。。。<br/>\r\nそして、本日９月１日からシアトル、ロンドン出張です！行ってきまーす！<br/>\r\nチャオ！</p>"
+    }
+  ]
+}

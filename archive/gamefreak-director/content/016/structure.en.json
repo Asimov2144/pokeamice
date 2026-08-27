@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 16,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Not many people know this but I’m fanatic about\n\nanalog synthesizers.\n\nThe thing I most like about analog synthesizers is\n\nthat you can create sounds that do not exist in real world.\n\nIt sure turns me on.",
+      "images": [],
+      "source_html": "<p>Not many people know this but I’m fanatic about<br/>\r\nanalog synthesizers.<br/>\r\nThe thing I most like about analog synthesizers is<br/>\r\nthat you can create sounds that do not exist in real world.<br/>\r\nIt sure turns me on.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I have Roland SH-2, Korg MS-20 and PS3200,\n\nbut the one I have most fun with is Roland System 100M,\n\nbecause it’s patchable.\n\nIt’s an easy-to-handle and fun-to-play instrument.",
+      "images": [],
+      "source_html": "<p>I have Roland SH-2, Korg MS-20 and PS3200,<br/>\r\nbut the one I have most fun with is Roland System 100M,<br/>\r\nbecause it’s patchable.<br/>\r\nIt’s an easy-to-handle and fun-to-play instrument.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Design-wise, I have such an admiration for Moog IIIc.\n\nThat huge machine that Hideki Matsutake\n\n(a support member of Yellow Magic Orchestra) used\n\nfrom his early days.\n\nThe design is super!ﾂ? Nothing beats it!\n\nPanel design goes without saying,\n\nbut the horizontal to vertical ratio of the box,\n\nand the fact is it’s slanted are super cool!\n\nIt’s truly a marriage of function and design.\n\nWhat a beauty.",
+      "images": [],
+      "source_html": "<p>Design-wise, I have such an admiration for Moog IIIc.<br/>\r\nThat huge machine that Hideki Matsutake<br/>\r\n(a support member of Yellow Magic Orchestra) used<br/>\r\nfrom his early days.<br/>\r\nThe design is super!ﾂ? Nothing beats it!<br/>\r\nPanel design goes without saying,<br/>\r\nbut the horizontal to vertical ratio of the box,<br/>\r\nand the fact is it’s slanted are super cool!<br/>\r\nIt’s truly a marriage of function and design.<br/>\r\nWhat a beauty.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Let me explain a little about analog synthesizers\n\nfor a moment here.\n\nAn analog synthesizer is made up with\n\nthree basic parts, each of which has a separate function.\n\nThe VCO is what produces sound.\n\nThe VCF is what shapes the sound.\n\nThe VCA is what controls the volume.\n\nIn other words, every sound we hear has\n\nonly these three basic elements.",
+      "images": [],
+      "source_html": "<p>Let me explain a little about analog synthesizers<br/>\r\nfor a moment here.<br/>\r\nAn analog synthesizer is made up with<br/>\r\nthree basic parts, each of which has a separate function.<br/>\r\nThe VCO is what produces sound.<br/>\r\nThe VCF is what shapes the sound.<br/>\r\nThe VCA is what controls the volume.<br/>\r\nIn other words, every sound we hear has<br/>\r\nonly these three basic elements.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "‘By breaking down a thing into its parts and synthesizing them,\n\nrecreate the thing you started with.”\n\nThis is also true with the vocoder.\n\nThis method seems like the fundamental idea of Dr. Moog,\n\nwho invented the synthesizer.",
+      "images": [],
+      "source_html": "<p>‘By breaking down a thing into its parts and synthesizing them,<br/>\r\nrecreate the thing you started with.”<br/>\r\nThis is also true with the vocoder.<br/>\r\nThis method seems like the fundamental idea of Dr. Moog,<br/>\r\nwho invented the synthesizer.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I am developing a video game, there are times\n\nI think in a similar way.\n\nTo break a thing down into parts and then to reassemble them are\n\nespecially important in seeing how it is supposed to be, I think.",
+      "images": [],
+      "source_html": "<p>When I am developing a video game, there are times<br/>\r\nI think in a similar way.<br/>\r\nTo break a thing down into parts and then to reassemble them are<br/>\r\nespecially important in seeing how it is supposed to be, I think.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

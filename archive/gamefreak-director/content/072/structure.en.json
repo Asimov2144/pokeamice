@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 72,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I’ll write a bit more about Pokemon Diamond\n\nand Pearl today, too.",
+      "images": [],
+      "source_html": "<p>I’ll write a bit more about Pokemon Diamond<br/>\r\nand Pearl today, too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When in a battle, the lower screen shows\n\nthe “FIGHT” button.\n\nIt’s a big button, isn’t it?",
+      "images": [],
+      "source_html": "<p>When in a battle, the lower screen shows<br/>\r\nthe “FIGHT” button.<br/>\r\nIt’s a big button, isn’t it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s a reason.",
+      "images": [],
+      "source_html": "<p>There’s a reason.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The button is big because of its relation\n\nwith the following four moves.\n\nWhen you press the ‘FIGHT’ button,\n\nyou don’t have to move your finger to select\n\na move, only press the button once more.\n\nIn short, I’d like to enable continuous\n\ntouches without moving the finger.\n\nI wanted to design it in such a way.\n\nSo, to make it even clearer, behind the\n\n‘FIGHT’ button we added shadows of the four\n\nmoves.",
+      "images": [],
+      "source_html": "<p>The button is big because of its relation<br/>\r\nwith the following four moves.<br/>\r\nWhen you press the ‘FIGHT’ button,<br/>\r\nyou don’t have to move your finger to select<br/>\r\na move, only press the button once more.<br/>\r\nIn short, I’d like to enable continuous<br/>\r\ntouches without moving the finger.<br/>\r\nI wanted to design it in such a way.<br/>\r\nSo, to make it even clearer, behind the<br/>\r\n‘FIGHT’ button we added shadows of the four<br/>\r\nmoves.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Speaking of which…\n\nEven when you touch on the shadow part of\n\nthe moves, it means you selected ‘FIGHT.’\n\nHow it looks and how it is actually judged\n\nby the game are different.\n\nThis is a technique often employed in game development.",
+      "images": [],
+      "source_html": "<p>Speaking of which…<br/>\r\nEven when you touch on the shadow part of<br/>\r\nthe moves, it means you selected ‘FIGHT.’<br/>\r\nHow it looks and how it is actually judged<br/>\r\nby the game are different.<br/>\r\nThis is a technique often employed in game development.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In order for players to keep the finger\n\nin the same place as long as possible.\n\nWith regard to the lower screen, every scene\n\nis carefully designed with that in mind.",
+      "images": [],
+      "source_html": "<p>In order for players to keep the finger<br/>\r\nin the same place as long as possible.<br/>\r\nWith regard to the lower screen, every scene<br/>\r\nis carefully designed with that in mind.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, the color is different because,\n\neven when you are looking at the top screen,\n\nthat red button is vaguely in sight, and\n\nI want people to remember that it means ‘FIGHT.’\n\nThis way, you can keep on playing without\n\nlowering your eyes to the lower screen,\n\nwithout focusing your eyes.",
+      "images": [],
+      "source_html": "<p>Also, the color is different because,<br/>\r\neven when you are looking at the top screen,<br/>\r\nthat red button is vaguely in sight, and<br/>\r\nI want people to remember that it means ‘FIGHT.’<br/>\r\nThis way, you can keep on playing without<br/>\r\nlowering your eyes to the lower screen,<br/>\r\nwithout focusing your eyes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The moves are labeled with different colors\n\naccording to their types so that you\n\ncan easily distinguish them.",
+      "images": [],
+      "source_html": "<p>The moves are labeled with different colors<br/>\r\naccording to their types so that you<br/>\r\ncan easily distinguish them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Using different colors might seem a simple\n\nthing, but it makes a huge difference in\n\nunderstanding and distinguishing each move,\n\nbecause colors are symbolic.\n\nAlso, little kids with no knowledge of\n\nalphabets can play it.\n\nIn that sense colors are very important.",
+      "images": [],
+      "source_html": "<p>Using different colors might seem a simple<br/>\r\nthing, but it makes a huge difference in<br/>\r\nunderstanding and distinguishing each move,<br/>\r\nbecause colors are symbolic.<br/>\r\nAlso, little kids with no knowledge of<br/>\r\nalphabets can play it.<br/>\r\nIn that sense colors are very important.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

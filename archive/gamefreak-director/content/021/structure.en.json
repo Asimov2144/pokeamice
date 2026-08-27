@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "article": 21,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "In each of Pokemon Ruby, Sapphire, FireRed, LeafGreen,\n\nand Emerald, we included a tiny bit of braille codes.",
+      "images": [],
+      "source_html": "<p>In each of Pokemon Ruby, Sapphire, FireRed, LeafGreen,<br/>\r\nand Emerald, we included a tiny bit of braille codes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today braille is found in many places.\n\nFloor guides, elevators, restrooms, cans of beer,\n\nand handrails on station platforms, etc.",
+      "images": [],
+      "source_html": "<p>Today braille is found in many places.<br/>\r\nFloor guides, elevators, restrooms, cans of beer,<br/>\r\nand handrails on station platforms, etc.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But I suspect most people are unfamiliar with how\n\nit works, much less capable of reading it.\n\nIn fact I had no idea either.",
+      "images": [],
+      "source_html": "<p>But I suspect most people are unfamiliar with how<br/>\r\nit works, much less capable of reading it.<br/>\r\nIn fact I had no idea either.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I first became interested in braille when\n\nI saw an information board at Shimokitazawa station (in Tokyo).",
+      "images": [],
+      "source_html": "<p>I first became interested in braille when<br/>\r\nI saw an information board at Shimokitazawa station (in Tokyo).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As I saw a mass of people at the station,\n\nI wondered how many of them had the knowledge\n\nof braille and could read it.\n\nUntil then I had thought that braille was primarily\n\nfor the blind who read it by touching the dots,\n\nand that it was OK if I had no idea of what it was.",
+      "images": [],
+      "source_html": "<p>As I saw a mass of people at the station,<br/>\r\nI wondered how many of them had the knowledge<br/>\r\nof braille and could read it.<br/>\r\nUntil then I had thought that braille was primarily<br/>\r\nfor the blind who read it by touching the dots,<br/>\r\nand that it was OK if I had no idea of what it was.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But when I thought about it more,\n\nI realized “you didn’t have to touch the dots to read it.”",
+      "images": [],
+      "source_html": "<p>But when I thought about it more,<br/>\r\nI realized “you didn’t have to touch the dots to read it.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, we put in braille codes in some parts of our games\n\nbecause I thought it would be nice if lots of people\n\nwho play Pokemon would become a little more familiar\n\nwith braille, even without knowing it.",
+      "images": [],
+      "source_html": "<p>So, we put in braille codes in some parts of our games<br/>\r\nbecause I thought it would be nice if lots of people<br/>\r\nwho play Pokemon would become a little more familiar<br/>\r\nwith braille, even without knowing it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We didn’t want to educate them, so we tried to let them\n\ndiscover braille by themselves and be interested in it\n\nnaturally as they play the video games.\n\nIt’s an approach that doesn’t force them to learn it,\n\nbut that makes them want to learn it.",
+      "images": [],
+      "source_html": "<p>We didn’t want to educate them, so we tried to let them<br/>\r\ndiscover braille by themselves and be interested in it<br/>\r\nnaturally as they play the video games.<br/>\r\nIt’s an approach that doesn’t force them to learn it,<br/>\r\nbut that makes them want to learn it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A society where people take it for granted that\n\nmost people have some knowledge of braille\n\nand are capable of reading some of it.\n\nA society where you can work and play together\n\nwith other people no matter who they are.",
+      "images": [],
+      "source_html": "<p>A society where people take it for granted that<br/>\r\nmost people have some knowledge of braille<br/>\r\nand are capable of reading some of it.<br/>\r\nA society where you can work and play together<br/>\r\nwith other people no matter who they are.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For us, such an ideal world forms a foundation\n\nfor Pokemon games.",
+      "images": [],
+      "source_html": "<p>For us, such an ideal world forms a foundation<br/>\r\nfor Pokemon games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I hope our players, even a small number of them,\n\nwill find it meaningful.",
+      "images": [],
+      "source_html": "<p>I hope our players, even a small number of them,<br/>\r\nwill find it meaningful.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Braille is becoming popular in foreign countries too.\n\nWe have braille in our games we sell in North America,\n\nGermany, France, Italy, and Spain, in their own languages.",
+      "images": [],
+      "source_html": "<p>Braille is becoming popular in foreign countries too.<br/>\r\nWe have braille in our games we sell in North America,<br/>\r\nGermany, France, Italy, and Spain, in their own languages.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Many thanks to those who cooperated in working on\n\nbraille.",
+      "images": [],
+      "source_html": "<p>Many thanks to those who cooperated in working on<br/>\r\nbraille.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

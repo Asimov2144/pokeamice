@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "article": 205,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the info of World Championships 2011!",
+      "images": [],
+      "source_html": "<p>Here’s the info of World Championships 2011!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Opening ceremony was held on 13th.\n\nRehearsal was already started from 7 o’clock\n\nin the morning.",
+      "images": [],
+      "source_html": "<p>Opening ceremony was held on 13th.<br/>\r\nRehearsal was already started from 7 o’clock<br/>\r\nin the morning.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205a\" %}",
+      "images": [
+        "205-multi-205a"
+      ],
+      "source_html": "<p><img alt=\"205a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everybody aims for the top!",
+      "images": [],
+      "source_html": "<p>Everybody aims for the top!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205b\" %}",
+      "images": [
+        "205-multi-205b"
+      ],
+      "source_html": "<p><img alt=\"205b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Card game battle starts!",
+      "images": [],
+      "source_html": "<p>Card game battle starts!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205c\" %}",
+      "images": [
+        "205-multi-205c"
+      ],
+      "source_html": "<p><img alt=\"205c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205d\" %}",
+      "images": [
+        "205-multi-205d"
+      ],
+      "source_html": "<p><img alt=\"205d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Video game battle starts!",
+      "images": [],
+      "source_html": "<p>Video game battle starts!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205e\" %}",
+      "images": [
+        "205-multi-205e"
+      ],
+      "source_html": "<p><img alt=\"205e.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205f\" %}",
+      "images": [
+        "205-multi-205f"
+      ],
+      "source_html": "<p><img alt=\"205f.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205f.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "During the battle, I was hectic for rehearsal,\n\nsigning autographs and awarding\n\nceremony…\n\nI don’t have my picture=)",
+      "images": [],
+      "source_html": "<p>During the battle, I was hectic for rehearsal,<br/>\r\nsigning autographs and awarding<br/>\r\nceremony…<br/>\r\nI don’t have my picture=)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And closing.\n\nGet off from the platform and\n\ntaking pictures! Pictures!",
+      "images": [],
+      "source_html": "<p>And closing.<br/>\r\nGet off from the platform and<br/>\r\ntaking pictures! Pictures!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205g\" %}",
+      "images": [
+        "205-multi-205g"
+      ],
+      "source_html": "<p><img alt=\"205g.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205h\" %}",
+      "images": [
+        "205-multi-205h"
+      ],
+      "source_html": "<p><img alt=\"205h.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205h.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thank you very much for coming.",
+      "images": [],
+      "source_html": "<p>Thank you very much for coming.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Congratulations to World Champ!\n\nEverybody did a great battle.",
+      "images": [],
+      "source_html": "<p>Congratulations to World Champ!<br/>\r\nEverybody did a great battle.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Congratulations to second place winner!\n\nYou did your best!!\n\nI really want thank to all of you!!",
+      "images": [],
+      "source_html": "<p>Congratulations to second place winner!<br/>\r\nYou did your best!!<br/>\r\nI really want thank to all of you!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205i\" %}",
+      "images": [
+        "205-multi-205i"
+      ],
+      "source_html": "<p><img alt=\"205i.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205i.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This year’s San Diego was terrific!\n\nIt was just exciting.",
+      "images": [],
+      "source_html": "<p>This year’s San Diego was terrific!<br/>\r\nIt was just exciting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I always think watching these kind of events.",
+      "images": [],
+      "source_html": "<p>I always think watching these kind of events.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It is hard to image player’s faces when developing\n\nvideo games in the company.\n\nIt’s like an artist who create contents on internet and CDs,\n\nbut not having exhibition or live tours.\n\nIt is not satisfactorily.\n\nCan’t see customer’s faces. Hard to image\n\nwhat kind of contents they react.",
+      "images": [],
+      "source_html": "<p>It is hard to image player’s faces when developing<br/>\r\nvideo games in the company.<br/>\r\nIt’s like an artist who create contents on internet and CDs,<br/>\r\nbut not having exhibition or live tours.<br/>\r\nIt is not satisfactorily.<br/>\r\nCan’t see customer’s faces. Hard to image<br/>\r\nwhat kind of contents they react.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some artist doesn’t mind about this,\n\nhowever it is like a restaurant just\n\ncooking what chef wants to cook.\n\nIt’s just self satisfactorily.\n\nThis won’t contentment many\n\ncustomers.",
+      "images": [],
+      "source_html": "<p>Some artist doesn’t mind about this,<br/>\r\nhowever it is like a restaurant just<br/>\r\ncooking what chef wants to cook.<br/>\r\nIt’s just self satisfactorily.<br/>\r\nThis won’t contentment many<br/>\r\ncustomers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I received a lot of energy from\n\nthe players with this kind of event.\n\nImaging the future.\n\nEnormous feeling of creation rises\n\nmore and more.",
+      "images": [],
+      "source_html": "<p>I received a lot of energy from<br/>\r\nthe players with this kind of event.<br/>\r\nImaging the future.<br/>\r\nEnormous feeling of creation rises<br/>\r\nmore and more.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Refreshing the mind thinking above,\n\nnightfalls of San Diego covered us.",
+      "images": [],
+      "source_html": "<p>Refreshing the mind thinking above,<br/>\r\nnightfalls of San Diego covered us.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205j\" %}",
+      "images": [
+        "205-multi-205j"
+      ],
+      "source_html": "<p><img alt=\"205j.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205j.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205k\" %}",
+      "images": [
+        "205-multi-205k"
+      ],
+      "source_html": "<p><img alt=\"205k.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205k.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Next day, it’s free time!\n\nAt first, we visited Midway museum.",
+      "images": [],
+      "source_html": "<p>Next day, it’s free time!<br/>\r\nAt first, we visited Midway museum.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205l\" %}",
+      "images": [
+        "205-multi-205l"
+      ],
+      "source_html": "<p><img alt=\"205l.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205l.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Actual aircraft carrier turned into\n\nmuseum! Surprising idea…\n\nI can listen to Japanese guide audio\n\nby using this headset.",
+      "images": [],
+      "source_html": "<p>Actual aircraft carrier turned into<br/>\r\nmuseum! Surprising idea…<br/>\r\nI can listen to Japanese guide audio<br/>\r\nby using this headset.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205m\" %}",
+      "images": [
+        "205-multi-205m"
+      ],
+      "source_html": "<p><img alt=\"205m.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205m.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205n\" %}",
+      "images": [
+        "205-multi-205n"
+      ],
+      "source_html": "<p><img alt=\"205n.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205n.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The door’s gimmick is brilliant.\n\nIt seems like no enemy can’t allowed to enter??",
+      "images": [],
+      "source_html": "<p>The door’s gimmick is brilliant.<br/>\r\nIt seems like no enemy can’t allowed to enter??</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205o\" %}",
+      "images": [
+        "205-multi-205o"
+      ],
+      "source_html": "<p><img alt=\"205o.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205o.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "My favorite food, crabs! Crabs for lunch!\n\nThis Joe’s crab house has nice crabs!",
+      "images": [],
+      "source_html": "<p>My favorite food, crabs! Crabs for lunch!<br/>\r\nThis Joe’s crab house has nice crabs!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205p\" %}",
+      "images": [
+        "205-multi-205p"
+      ],
+      "source_html": "<p><img alt=\"205p.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205p.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And visiting Sea World, as always.",
+      "images": [],
+      "source_html": "<p>And visiting Sea World, as always.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205q\" %}",
+      "images": [
+        "205-multi-205q"
+      ],
+      "source_html": "<p><img alt=\"205q.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205q.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205r\" %}",
+      "images": [
+        "205-multi-205r"
+      ],
+      "source_html": "<p><img alt=\"205r.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205r.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Killer Whale is huge!! Take a look of the size\n\ncomparing human, it’s big.",
+      "images": [],
+      "source_html": "<p>Killer Whale is huge!! Take a look of the size<br/>\r\ncomparing human, it’s big.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205s\" %}",
+      "images": [
+        "205-multi-205s"
+      ],
+      "source_html": "<p><img alt=\"205s.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205s.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Shamu” is the nickname of these killer whales.\n\nEverybody calls “Shamu”!",
+      "images": [],
+      "source_html": "<p>“Shamu” is the nickname of these killer whales.<br/>\r\nEverybody calls “Shamu”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And surprisingly,\n\nwe went to see the ball game!!\n\nPadres VS Mets at Petco Park Stadium!!",
+      "images": [],
+      "source_html": "<p>And surprisingly,<br/>\r\nwe went to see the ball game!!<br/>\r\nPadres VS Mets at Petco Park Stadium!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205t\" %}",
+      "images": [
+        "205-multi-205t"
+      ],
+      "source_html": "<p><img alt=\"205t.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205t.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s a game of San Diego VS New York!!\n\nSince we are at San Diego,\n\nwe are side of Padres!",
+      "images": [],
+      "source_html": "<p>It’s a game of San Diego VS New York!!<br/>\r\nSince we are at San Diego,<br/>\r\nwe are side of Padres!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The seat was on the third-base side(Mets side),\n\nso we moved right away!",
+      "images": [],
+      "source_html": "<p>The seat was on the third-base side(Mets side),<br/>\r\nso we moved right away!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205u\" %}",
+      "images": [
+        "205-multi-205u"
+      ],
+      "source_html": "<p><img alt=\"205u.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205u.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Watching game from outfield of first-base stands!!\n\nGo Padres!!",
+      "images": [],
+      "source_html": "<p>Watching game from outfield of first-base stands!!<br/>\r\nGo Padres!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There is lawn ground and huge screen locates\n\nfar from the ground!\n\nIt’s quite comfortable.",
+      "images": [],
+      "source_html": "<p>There is lawn ground and huge screen locates<br/>\r\nfar from the ground!<br/>\r\nIt’s quite comfortable.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"205-multi-205v\" %}",
+      "images": [
+        "205-multi-205v"
+      ],
+      "source_html": "<p><img alt=\"205v.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/205v.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game is getting excited.\n\nFirst, Mets got 3 runs, but later\n\nPadres rollback and score turned\n\ninto 4 VS 4.\n\nAt the end, Padres lost with\n\nextra innings.\n\nOh… Padres…",
+      "images": [],
+      "source_html": "<p>The game is getting excited.<br/>\r\nFirst, Mets got 3 runs, but later<br/>\r\nPadres rollback and score turned<br/>\r\ninto 4 VS 4.<br/>\r\nAt the end, Padres lost with<br/>\r\nextra innings.<br/>\r\nOh… Padres…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was very fun than I expected.\n\nUnique points are… no net!\n\nBall is coming right at you.\n\n(Will it be self-responsibility if injured?)\n\nFoul ball is given to the audience.\n\nThere’s no cheering music but\n\ncrowd of audience.\n\nMassive crowd and great waves!",
+      "images": [],
+      "source_html": "<p>It was very fun than I expected.<br/>\r\nUnique points are… no net!<br/>\r\nBall is coming right at you.<br/>\r\n(Will it be self-responsibility if injured?)<br/>\r\nFoul ball is given to the audience.<br/>\r\nThere’s no cheering music but<br/>\r\ncrowd of audience.<br/>\r\nMassive crowd and great waves!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There is a lot of places required\n\nto visit to understand.",
+      "images": [],
+      "source_html": "<p>There is a lot of places required<br/>\r\nto visit to understand.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I enjoyed excellent World Championships and San Diego\n\nthen returned to Japan!",
+      "images": [],
+      "source_html": "<p>I enjoyed excellent World Championships and San Diego<br/>\r\nthen returned to Japan!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please do challenge next year’s WCS!",
+      "images": [],
+      "source_html": "<p>Please do challenge next year’s WCS!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is the sight of WCS2011.\n\n[http://www.pokemonworldchampionships.com/2011/](http://www.pokemonworldchampionships.com/2011/)",
+      "images": [],
+      "source_html": "<p>Here is the sight of WCS2011.<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2011/\" target=\"_blank\">http://www.pokemonworldchampionships.com/2011/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A lot of photos from WCS. MTM and signing\n\nautographs are taken.\n\n[http://www.pokemonworldchampionships.com/2011/photosM](http://www.pokemonworldchampionships.com/2011/photos)",
+      "images": [],
+      "source_html": "<p>A lot of photos from WCS. MTM and signing<br/>\r\nautographs are taken.<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2011/photos\" target=\"_blank\">http://www.pokemonworldchampionships.com/2011/photosM</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A lot of videos from WCS. Kick off video is\n\nalso available!\n\n[http://www.pokemonworldchampionships.com/2011/videos](http://www.pokemonworldchampionships.com/2011/videos)",
+      "images": [],
+      "source_html": "<p>A lot of videos from WCS. Kick off video is<br/>\r\nalso available!<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2011/videos\" target=\"_blank\">http://www.pokemonworldchampionships.com/2011/videos</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "article": 30,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "A Happy New Year.\n\nAs always, I look forward to your support\n\nand encouragement.",
+      "images": [],
+      "source_html": "<p>A Happy New Year.<br/>\r\nAs always, I look forward to your support<br/>\r\nand encouragement.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In 2005, too, we at Game Freak will strive to\n\nexplore new possibilities, and to make them into\n\nreality.",
+      "images": [],
+      "source_html": "<p>In 2005, too, we at Game Freak will strive to<br/>\r\nexplore new possibilities, and to make them into<br/>\r\nreality.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well then, let’s begin!",
+      "images": [],
+      "source_html": "<p>Well then, let’s begin!</p>"
+    }
+  ]
+}

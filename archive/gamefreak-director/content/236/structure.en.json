@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "article": 236,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I experienced that unusual place for the first time!\n\nI was nervous all the morning, before going there.\n\nThat place is…",
+      "images": [],
+      "source_html": "<p>I experienced that unusual place for the first time!<br/>\r\nI was nervous all the morning, before going there.<br/>\r\nThat place is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"236-multi-130531\" %}",
+      "images": [
+        "236-multi-130531"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/05/130531.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Taadaa!!!\n\nIt was a radio recording studio, I visited!",
+      "images": [],
+      "source_html": "<p>Taadaa!!!<br/>\r\nIt was a radio recording studio, I visited!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Cool microphones!!\n\nBig booth!!\n\nMany people!!",
+      "images": [],
+      "source_html": "<p>Cool microphones!!<br/>\r\nBig booth!!<br/>\r\nMany people!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was all nervous waiting there with my heart pounding…",
+      "images": [],
+      "source_html": "<p>I was all nervous waiting there with my heart pounding…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Inside, I met with a band named “Ikimono – gakari”\n\nAll members: Yoshiki Mizuno, Kiyoe Yoshioka, Hotaka Yamashita.\n\n*They are very famous in Japan.",
+      "images": [],
+      "source_html": "<p>Inside, I met with a band named “Ikimono – gakari”<br/>\r\nAll members: Yoshiki Mizuno, Kiyoe Yoshioka, Hotaka Yamashita.<br/>\r\n*They are very famous in Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Their song titled “Egao” (“Smile”) is a theme song for an upcoming this summer,\n\nnew Pokémon movie.\n\n*Japanese title will be: ” Shinsoku no Genesect Mewtwo Kakusei ”",
+      "images": [],
+      "source_html": "<p>Their song titled “Egao” (“Smile”) is a theme song for an upcoming this summer,<br/>\r\nnew Pokémon movie.<br/>\r\n*Japanese title will be: ” Shinsoku no Genesect Mewtwo Kakusei ”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was already totally nervous.\n\nAnd then…",
+      "images": [],
+      "source_html": "<p>I was already totally nervous.<br/>\r\nAnd then…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I became a special guest on “Ikimono – gakari” radio program called:\n\n“Ikimono – gakari’s Garden Party”",
+      "images": [],
+      "source_html": "<p>I became a special guest on “Ikimono – gakari” radio program called:<br/>\r\n“Ikimono – gakari’s Garden Party”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The recording started and our chat went very well.\n\nEveryone was very kind, so I wasn’t so nervous anymore.",
+      "images": [],
+      "source_html": "<p>The recording started and our chat went very well.<br/>\r\nEveryone was very kind, so I wasn’t so nervous anymore.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Time passed really quickly in a nice atmosphere, and we finished.\n\nWith everyone’s help, I will remember my first radio recording\n\nas a very nice experience {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>Time passed really quickly in a nice atmosphere, and we finished.<br/>\r\nWith everyone’s help, I will remember my first radio recording<br/>\r\nas a very nice experience <img alt=\":)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We talked about music and Pokémon related themes.\n\nIf You wanna know more, please check it out.",
+      "images": [],
+      "source_html": "<p>We talked about music and Pokémon related themes.<br/>\r\nIf You wanna know more, please check it out.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I want to thank to all band members for a great time.",
+      "images": [],
+      "source_html": "<p>I want to thank to all band members for a great time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Ikimono – gakari’s Garden Party”\n\nThe episode I was invited to.\n\n*Pokemon Official Site:\n\n[http://www.pokemon.co.jp/info/2013/05/130531_m01.html](http://www.pokemon.co.jp/info/2013/05/130531_m01.html)",
+      "images": [],
+      "source_html": "<p>“Ikimono – gakari’s Garden Party”<br/>\r\nThe episode I was invited to.<br/>\r\n*Pokemon Official Site:<br/>\n<a href=\"http://www.pokemon.co.jp/info/2013/05/130531_m01.html\" target=\"_new\">http://www.pokemon.co.jp/info/2013/05/130531_m01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ikimono – gakari’s official sight:\n\n[http://ikimonogakari.com/](http://ikimonogakari.com/)",
+      "images": [],
+      "source_html": "<p>Ikimono – gakari’s official sight:<br/>\n<a href=\"http://ikimonogakari.com/\" target=\"_new\">http://ikimonogakari.com/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Leader, Mr. Mizuno’s twitter:\n\n[https://twitter.com/mizunoyoshiki](https://twitter.com/mizunoyoshiki)",
+      "images": [],
+      "source_html": "<p>Leader, Mr. Mizuno’s twitter:<br/>\n<a href=\"https://twitter.com/mizunoyoshiki\" target=\"_new\">https://twitter.com/mizunoyoshiki</a></p>"
+    }
+  ]
+}

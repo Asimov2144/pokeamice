@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 40,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "These days I often ask myself how people use their\n\ntime in a certain room or a place.",
+      "images": [],
+      "source_html": "<p>These days I often ask myself how people use their<br/>\r\ntime in a certain room or a place.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For an instance, I would find the following types of people\n\non the train…",
+      "images": [],
+      "source_html": "<p>For an instance, I would find the following types of people<br/>\r\non the train…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "- people writing an email with their cell phone\n\n- people playing a game on their cell phone\n\n- people reading a newspaper or a magazine\n\n- people looking at advertisements\n\n- people talking with their friends\n\n- people eating\n\n- people playing a game\n\n- people listening to music\n\n- people doing nothing particular\n\n- people being drunk\n\n- people reading a book\n\n- people wearing a make-up\n\n- people dozing off",
+      "images": [],
+      "source_html": "<p>- people writing an email with their cell phone<br/>\r\n- people playing a game on their cell phone<br/>\r\n- people reading a newspaper or a magazine<br/>\r\n- people looking at advertisements<br/>\r\n- people talking with their friends<br/>\r\n- people eating<br/>\r\n- people playing a game<br/>\r\n- people listening to music<br/>\r\n- people doing nothing particular<br/>\r\n- people being drunk<br/>\r\n- people reading a book<br/>\r\n- people wearing a make-up<br/>\r\n- people dozing off</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*As for myself, I often try to think of topics\n\nfrom reading the advertisements,\n\nor compose music in my head.\n\nBut people will probably think of me as\n\n‘someone doing nothing particular.’",
+      "images": [],
+      "source_html": "<p>*As for myself, I often try to think of topics<br/>\r\nfrom reading the advertisements,<br/>\r\nor compose music in my head.<br/>\r\nBut people will probably think of me as<br/>\r\n‘someone doing nothing particular.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, there are truly a wide variety of activities.\n\nBut I think the cell phone is the king.\n\nEspecially, email.\n\nIt’s hard to come up with an idea that will be\n\nmore popular than that.\n\nIt’s literally irrespective of age or gender.",
+      "images": [],
+      "source_html": "<p>Well, there are truly a wide variety of activities.<br/>\r\nBut I think the cell phone is the king.<br/>\r\nEspecially, email.<br/>\r\nIt’s hard to come up with an idea that will be<br/>\r\nmore popular than that.<br/>\r\nIt’s literally irrespective of age or gender.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But this is only true in Japan, isn’t it?\n\nMaybe the situation is very different in France.",
+      "images": [],
+      "source_html": "<p>But this is only true in Japan, isn’t it?<br/>\r\nMaybe the situation is very different in France.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Like this exercise,\n\nthere are things that you can learn from\n\nbreaking into parts and clarifying each part.",
+      "images": [],
+      "source_html": "<p>Like this exercise,<br/>\r\nthere are things that you can learn from<br/>\r\nbreaking into parts and clarifying each part.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

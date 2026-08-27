@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 5,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "59 years ago today the first US atomic bomb was dropped on Hiroshima.\n\nLet’s take a moment of reflection.\n\nWe should try our best not to repeat that awful act.\n\nWar is wrong.",
+      "images": [],
+      "source_html": "<p>59 years ago today the first US atomic bomb was dropped on Hiroshima.<br/>\r\nLet’s take a moment of reflection.<br/>\r\nWe should try our best not to repeat that awful act.<br/>\r\nWar is wrong.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "……….",
+      "images": [],
+      "source_html": "<p>……….</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game Freak is having a summer holiday from tomorrow.\n\nHolidays are nice, aren’t they?",
+      "images": [],
+      "source_html": "<p>Game Freak is having a summer holiday from tomorrow.<br/>\r\nHolidays are nice, aren’t they?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, a word to those who are going on a trip!",
+      "images": [],
+      "source_html": "<p>So, a word to those who are going on a trip!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As is the case with Pokemon Ruby and Sapphire,\n\nyou can have a battle and trade Pokemon\n\nwith people all over the world\n\nwhen you play Pokemon FireRed or LeafGreen.",
+      "images": [],
+      "source_html": "<p>As is the case with Pokemon Ruby and Sapphire,<br/>\r\nyou can have a battle and trade Pokemon<br/>\r\nwith people all over the world<br/>\r\nwhen you play Pokemon FireRed or LeafGreen.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you’re planning on an overseas trip,\n\ndon’t forget to carry your Gameboy Advance\n\nand a game pak of Pokemon to have a battle and\n\ntrade Pokemon with people you’ve never met!",
+      "images": [],
+      "source_html": "<p>If you’re planning on an overseas trip,<br/>\r\ndon’t forget to carry your Gameboy Advance<br/>\r\nand a game pak of Pokemon to have a battle and<br/>\r\ntrade Pokemon with people you’ve never met!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We at Game Freak believe that\n\neveryone on earth can communicate with each other,\n\nand with that in mind we created such words\n\nas ‘Pokemon’ ‘Pikachu’ ‘Groudon’ ‘Jirachi’\n\nthat are common all over the world.",
+      "images": [],
+      "source_html": "<p>We at Game Freak believe that<br/>\r\neveryone on earth can communicate with each other,<br/>\r\nand with that in mind we created such words<br/>\r\nas ‘Pokemon’ ‘Pikachu’ ‘Groudon’ ‘Jirachi’<br/>\r\nthat are common all over the world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon that appear in Pokemon movies are\n\nthe same all over the world.",
+      "images": [],
+      "source_html": "<p>Pokemon that appear in Pokemon movies are<br/>\r\nthe same all over the world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you go overseas, say the words like ‘Lugia’ or ‘Pikachu’\n\nand people will turn their face and greet you.",
+      "images": [],
+      "source_html": "<p>If you go overseas, say the words like ‘Lugia’ or ‘Pikachu’<br/>\r\nand people will turn their face and greet you.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Whether you’re a kid or a grown-up, let’s\n\nmake friends with people from all over the world!!!",
+      "images": [],
+      "source_html": "<p>Whether you’re a kid or a grown-up, let’s<br/>\r\nmake friends with people from all over the world!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

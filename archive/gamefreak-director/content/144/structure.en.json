@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "article": 144,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The THING suddenly appeared.\n\nBeautiful, gigantic, powerful and graceful.\n\nColored deep reddish steel gray.",
+      "images": [],
+      "source_html": "<p>The THING suddenly appeared.<br/>\r\nBeautiful, gigantic, powerful and graceful.<br/>\r\nColored deep reddish steel gray.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I couldn’t take my eyes off from the bridge.",
+      "images": [],
+      "source_html": "<p>I couldn’t take my eyes off from the bridge.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Golden Gate Bridge.",
+      "images": [],
+      "source_html": "<p>Golden Gate Bridge.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The bridge was just so beautiful,\n\nand impressed me with its presence.",
+      "images": [],
+      "source_html": "<p>The bridge was just so beautiful,<br/>\r\nand impressed me with its presence.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We drove car and viewed from three different spot.\n\nCountenance of the bridge alters depend on the angle.\n\nI gazed without a haste, but felt time was not enough.\n\nThere are many points to be observed,\n\nsuch as main tower, anchorage and cables.",
+      "images": [],
+      "source_html": "<p>We drove car and viewed from three different spot.<br/>\r\nCountenance of the bridge alters depend on the angle.<br/>\r\nI gazed without a haste, but felt time was not enough.<br/>\r\nThere are many points to be observed,<br/>\r\nsuch as main tower, anchorage and cables.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was just wonderful.",
+      "images": [],
+      "source_html": "<p>It was just wonderful.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I always though about,\n\nwhere there’s many people like to taking photos\n\nsuch as sightseeing place,\n\nI feel some kind of power.",
+      "images": [],
+      "source_html": "<p>I always though about,<br/>\r\nwhere there’s many people like to taking photos<br/>\r\nsuch as sightseeing place,<br/>\r\nI feel some kind of power.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This bridge may change its central reservation near future.\n\nNext time, I’m willing to walk over this 2.7km(about 1.7mile) length bridge.",
+      "images": [],
+      "source_html": "<p>This bridge may change its central reservation near future.<br/>\r\nNext time, I’m willing to walk over this 2.7km(about 1.7mile) length bridge.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao",
+      "images": [],
+      "source_html": "<p>Ciao</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"144-multi-144a\" %}\n\n{% image id=\"144-multi-144b\" %}",
+      "images": [
+        "144-multi-144a",
+        "144-multi-144b"
+      ],
+      "source_html": "<p><img alt=\"144a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144a.jpg\"/><br/>\n<img alt=\"144b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144b.jpg\"><br/>\n<img alt=\"144c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144c.jpg\"/><br/>\n<img alt=\"144d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144d.jpg\"/><br/>\r\n*Me and Golden Gate Bridge</img></p>"
+    }
+  ]
+}

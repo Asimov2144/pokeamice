@@ -1,0 +1,54 @@
+id: masuda-095
+number: 95
+month: 2007-08
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-95
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-95
+    permalink_validated: true
+    date: '2007-08-09'
+    date_display: 08.09.2007
+    categories:
+    - Diary
+    - Pokemon
+    lead: On August 7th (Tue), I went to a concert called “PIKACHU THE LIVE” held
+      at Tokyo International Forum! I saw the stage starting at 4 pm, and I was really
+      surprised to find such a huge crowd there!
+    raw_page: archive/gamefreak-director/raw/en/2007/08/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%99%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%99%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-08-09'
+    date_display: 2007.08.09
+    categories:
+    - ポケモン
+    - 日記
+    lead: ８月７日（火）に東京国際フォーラムで行われた、 「ピカチュウ・ザ・ライブ」に行ってきました！ １６時の回だったのですが、すごい人！でビックリ！
+    raw_page: archive/gamefreak-director/raw/ja/2007/08/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:17+00:00'
+assets:
+- id: 095-multi-dscf0003.thumbnail
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/dscf0003.thumbnail.JPG
+  local_path: archive/gamefreak-director/assets/original/095/multi/dscf0003.thumbnail.JPG
+  sha256: e987e841608ce42275a3ce1f3f864c4dead0029eadee82d141d81988d72c7616
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

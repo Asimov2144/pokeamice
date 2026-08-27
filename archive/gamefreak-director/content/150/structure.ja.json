@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 150,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "サンフランシスコで取材を受けたものが記事になりましたよ。",
+      "images": [],
+      "source_html": "<p>サンフランシスコで取材を受けたものが記事になりましたよ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "雑誌、Game Informer　6月号にて\n\nインタビュー記事と写真が掲載されました！\n\n購入出来る方、ぜひ読んでくださいね！",
+      "images": [],
+      "source_html": "<p>雑誌、Game Informer　6月号にて<br/>\r\nインタビュー記事と写真が掲載されました！<br/>\r\n購入出来る方、ぜひ読んでくださいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Gamasutraさんも4月に記事を公開しています。\n\n[http://www.gamasutra.com/php-bin/news_index.php?story=23052](http://www.gamasutra.com/php-bin/news_index.php?story=23052)\n\n[http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php](http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php)",
+      "images": [],
+      "source_html": "<p>Gamasutraさんも4月に記事を公開しています。<br/>\n<a href=\"http://www.gamasutra.com/php-bin/news_index.php?story=23052\" target=\"_blank\">http://www.gamasutra.com/php-bin/news_index.php?story=23052</a><br/>\n<a href=\"http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php\" target=\"_blank\">http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "また、５月９日（土）から始まったアメリカ地区大会が、\n\n６月13日（土）の大会で終了しました！\n\n６地区大会には多くの方々がいらっしゃって下さったようで感謝感激です。",
+      "images": [],
+      "source_html": "<p>また、５月９日（土）から始まったアメリカ地区大会が、<br/>\r\n６月13日（土）の大会で終了しました！<br/>\r\n６地区大会には多くの方々がいらっしゃって下さったようで感謝感激です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "詳しくは大会公式サイトにて\n\n[http://www.pokemonvgc.com](http://www.pokemonvgc.com)",
+      "images": [],
+      "source_html": "<p>詳しくは大会公式サイトにて<br/>\n<a href=\"http://www.pokemonvgc.com\" target=\"_blank\">http://www.pokemonvgc.com</a></p>"
+    }
+  ]
+}

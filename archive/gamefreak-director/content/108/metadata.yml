@@ -1,0 +1,51 @@
+id: masuda-108
+number: 108
+month: 2007-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no108
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no108
+    permalink_validated: true
+    date: '2007-10-03'
+    date_display: 10.03.2007
+    categories:
+    - About creation
+    lead: When you’re out of ideas, you might come upon a new idea by focusing on
+      some topic and keep thinking about it.
+    raw_page: archive/gamefreak-director/raw/en/2007/10/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-10-03'
+    date_display: 2007.10.03
+    categories:
+    - ものづくりについて
+    lead: ネタがないとき、何かに集中してネタを考えていると、 新たなネタが生まれてくるときってありますよね。
+    raw_page: archive/gamefreak-director/raw/ja/2007/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets:
+- id: 108-multi-108
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/10/108.jpg
+  local_path: archive/gamefreak-director/assets/original/108/multi/108.jpg
+  sha256: 3eb5e567f62a86d88e28b6a3dacbd824fc4593f3c4be1347a9ac875a7d602af3
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

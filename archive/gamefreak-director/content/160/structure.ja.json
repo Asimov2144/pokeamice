@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 160,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "２０１０年４月９日。\n\nついに私たちが開発している完全新作のタイトルが広報されました！",
+      "images": [],
+      "source_html": "<p>２０１０年４月９日。<br/>\r\nついに私たちが開発している完全新作のタイトルが広報されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスターブラック」\n\n「ポケットモンスターホワイト」",
+      "images": [],
+      "source_html": "<p>「ポケットモンスターブラック」<br/>\r\n「ポケットモンスターホワイト」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "私たちは、ほんの少しでもクオリティを高めるべく、\n\nいま多くの時間をこの作品につぎ込んでいます。",
+      "images": [],
+      "source_html": "<p>私たちは、ほんの少しでもクオリティを高めるべく、<br/>\r\nいま多くの時間をこの作品につぎ込んでいます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いままで楽しんでくださった方々に更に喜んでいただけるように。\n\nプレイしたことが無い人にも満足いただけるように。\n\nそして今回は、ポケモンを卒業したと思っている方々に。",
+      "images": [],
+      "source_html": "<p>いままで楽しんでくださった方々に更に喜んでいただけるように。<br/>\r\nプレイしたことが無い人にも満足いただけるように。<br/>\r\nそして今回は、ポケモンを卒業したと思っている方々に。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "多くの方々に楽しんで欲しい。\n\nそんな思いで制作しています。",
+      "images": [],
+      "source_html": "<p>多くの方々に楽しんで欲しい。<br/>\r\nそんな思いで制作しています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "この作品によって、ポケットモンスターは革新的に生まれ変わります。",
+      "images": [],
+      "source_html": "<p>この作品によって、ポケットモンスターは革新的に生まれ変わります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ご期待ください。",
+      "images": [],
+      "source_html": "<p>ご期待ください。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ。",
+      "images": [],
+      "source_html": "<p>チャオ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)\n\n[http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/\" target=\"_blank\">http://www.pokemon.co.jp/</a><br/>\n<a href=\"http://www.pokemon.co.jp/bw/index.html\" target=\"_blank\">http://www.pokemon.co.jp/bw/index.html</a></p>"
+    }
+  ]
+}

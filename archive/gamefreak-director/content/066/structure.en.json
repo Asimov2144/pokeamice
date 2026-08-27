@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 66,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Well, a year passes so quickly, doesn’t it?\n\nToday’s my birthday. Now I’m 39!\n\nIt’s a surprise even to myself.",
+      "images": [],
+      "source_html": "<p>Well, a year passes so quickly, doesn’t it?<br/>\r\nToday’s my birthday. Now I’m 39!<br/>\r\nIt’s a surprise even to myself.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m still telling myself to grow up,\n\nto calm down, or to study more.",
+      "images": [],
+      "source_html": "<p>I’m still telling myself to grow up,<br/>\r\nto calm down, or to study more.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The most mysterious thing for me is myself,\n\nso I try not to restrain what I’m capable of,\n\nand will do my best at full throttle!",
+      "images": [],
+      "source_html": "<p>The most mysterious thing for me is myself,<br/>\r\nso I try not to restrain what I’m capable of,<br/>\r\nand will do my best at full throttle!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "By the way…\n\nAs I’ve been developing games, it seems the\n\nnumber of games I created is too few for my age.\n\nTo my surprise, the number of the games we\n\nmade is not that many!\n\nWell, that also means I have special feelings\n\nfor each of our games…\n\nMaybe each game took such a long time to\n\ndevelop.\n\nWell, I’m going to overcome that too, and\n\nwill try something new, something fun!",
+      "images": [],
+      "source_html": "<p>By the way…<br/>\r\nAs I’ve been developing games, it seems the<br/>\r\nnumber of games I created is too few for my age.<br/>\r\nTo my surprise, the number of the games we<br/>\r\nmade is not that many!<br/>\r\nWell, that also means I have special feelings<br/>\r\nfor each of our games…<br/>\r\nMaybe each game took such a long time to<br/>\r\ndevelop.<br/>\r\nWell, I’m going to overcome that too, and<br/>\r\nwill try something new, something fun!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Now, I’m still going to make a scene!",
+      "images": [],
+      "source_html": "<p>Now, I’m still going to make a scene!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "* Masuda and Game Freak staff appear on a\n\nmonthly magazine called “King,” which goes\n\non sale tomorrow, January 13th (Sat).\n\nPlease buy a copy and take a look at it.\n\n(Note: this magazine is no longer available).",
+      "images": [],
+      "source_html": "<p>* Masuda and Game Freak staff appear on a<br/>\r\nmonthly magazine called “King,” which goes<br/>\r\non sale tomorrow, January 13th (Sat).<br/>\r\nPlease buy a copy and take a look at it.<br/>\r\n(Note: this magazine is no longer available).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

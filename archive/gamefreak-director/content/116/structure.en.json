@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 116,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On November 16th and 17th, I visited Niigata prefecture!\n\nI attended few event programs at Toki Messe.\n\nEverybody in Niigata was very kind and it was a great fun.\n\nThank you very much!",
+      "images": [],
+      "source_html": "<p>On November 16th and 17th, I visited Niigata prefecture!<br/>\r\nI attended few event programs at Toki Messe.<br/>\r\nEverybody in Niigata was very kind and it was a great fun.<br/>\r\nThank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I also would like to thank to the people who came to see me.\n\nI deeply appreciate your visit.\n\nThank you again.",
+      "images": [],
+      "source_html": "<p>I also would like to thank to the people who came to see me.<br/>\r\nI deeply appreciate your visit.<br/>\r\nThank you again.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was surrounded by many professors and felt myself trivial…\n\nFrom now on, I’ll try my best to be called the specialist of “PLAY”.",
+      "images": [],
+      "source_html": "<p>I was surrounded by many professors and felt myself trivial…<br/>\r\nFrom now on, I’ll try my best to be called the specialist of “PLAY”.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The temperature is dropping rapidly and\n\nthere are lot of snow in Niigata.\n\nBut, I am willing to visit Niigata again for…\n\nexcellent Japanese sake,\n\ntasty rice,\n\ndelicious eatable flower(chrysanthemum),\n\nshrimp and raw fish!",
+      "images": [],
+      "source_html": "<p>The temperature is dropping rapidly and<br/>\r\nthere are lot of snow in Niigata.<br/>\r\nBut, I am willing to visit Niigata again for…<br/>\r\nexcellent Japanese sake,<br/>\r\ntasty rice,<br/>\r\ndelicious eatable flower(chrysanthemum),<br/>\r\nshrimp and raw fish!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

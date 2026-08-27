@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "article": 102,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "F1マシンに乗りました。\n\nといっても、大阪駅の前にあるDOCOMOビル地下一階ショールームで。",
+      "images": [],
+      "source_html": "<p>F1マシンに乗りました。<br/>\r\nといっても、大阪駅の前にあるDOCOMOビル地下一階ショールームで。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "たまたま、携帯電話の電池が無くなりそうで充電しに行ったんです。",
+      "images": [],
+      "source_html": "<p>たまたま、携帯電話の電池が無くなりそうで充電しに行ったんです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "F１、大好きでした。\n\n特にモナコGP、イタリアGPはコースも観客も最高で深夜にTVで欠かさず観てました。\n\nビデオ（VHS）に録画もしてました。",
+      "images": [],
+      "source_html": "<p>F１、大好きでした。<br/>\r\n特にモナコGP、イタリアGPはコースも観客も最高で深夜にTVで欠かさず観てました。<br/>\r\nビデオ（VHS）に録画もしてました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あのエキゾーストノート。（ノートというところが美しい！）\n\nそして慎重にトップを狙う戦略。\n\nチームワーク。\n\nタイヤ交換の緊張感。\n\nそして、最新、最強のマシン。",
+      "images": [],
+      "source_html": "<p>あのエキゾーストノート。（ノートというところが美しい！）<br/>\r\nそして慎重にトップを狙う戦略。<br/>\r\nチームワーク。<br/>\r\nタイヤ交換の緊張感。<br/>\r\nそして、最新、最強のマシン。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "かっこいい。。。",
+      "images": [],
+      "source_html": "<p>かっこいい。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "乗ってみると、、、\n\n意外にも体が入る幅は広く、ゆったり。\n\nそれよりも足の部分の狭さに驚きました。\n\nそして、巨大なタイヤが丸出しで目の前にある威圧感。\n\n３００km/hで走ったら、さすがに怖そう。",
+      "images": [],
+      "source_html": "<p>乗ってみると、、、<br/>\r\n意外にも体が入る幅は広く、ゆったり。<br/>\r\nそれよりも足の部分の狭さに驚きました。<br/>\r\nそして、巨大なタイヤが丸出しで目の前にある威圧感。<br/>\r\n３００km/hで走ったら、さすがに怖そう。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ちょっとニヤニヤした顔で、ショップのお姉さんに写真を撮ってもらい、、、\n\n記念カードを頂きました。\n\n裏には乗った人の数が！なんと、２９２５番目！\n\nみなさん、意外と乗ってますなぁ。",
+      "images": [],
+      "source_html": "<p>ちょっとニヤニヤした顔で、ショップのお姉さんに写真を撮ってもらい、、、<br/>\r\n記念カードを頂きました。<br/>\r\n裏には乗った人の数が！なんと、２９２５番目！<br/>\r\nみなさん、意外と乗ってますなぁ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、嬉しかったですよ。まじで。\n\nかなり、興奮しました。",
+      "images": [],
+      "source_html": "<p>いやー、嬉しかったですよ。まじで。<br/>\r\nかなり、興奮しました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "近くにお住まいの方、是非乗ってみてください！",
+      "images": [],
+      "source_html": "<p>近くにお住まいの方、是非乗ってみてください！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"102-multi-102a\" %}{% image id=\"102-multi-102b\" %}",
+      "images": [
+        "102-multi-102a",
+        "102-multi-102b"
+      ],
+      "source_html": "<p><img alt=\"102a.jpg\" src=\"/blog/dir/wp-content/uploads/2007/09/102a.jpg\"/><img alt=\"102b.jpg\" src=\"/blog/dir/wp-content/uploads/2007/09/102b.jpg\"/></p>"
+    }
+  ]
+}

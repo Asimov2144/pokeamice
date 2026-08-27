@@ -1,0 +1,41 @@
+id: masuda-181
+number: 181
+month: 2011-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no181
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no181
+    permalink_validated: true
+    date: '2011-01-05'
+    date_display: 01.05.2011
+    categories:
+    - Music
+    lead: Hello everyone,
+    raw_page: archive/gamefreak-director/raw/en/2011/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-01-05'
+    date_display: 2011.01.05
+    categories:
+    - 音楽
+    lead: みなさま
+    raw_page: archive/gamefreak-director/raw/ja/2011/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:23+00:00'
+assets: []

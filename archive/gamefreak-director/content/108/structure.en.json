@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "article": 108,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "When you’re out of ideas, you might come\n\nupon a new idea by focusing on some\n\ntopic and keep thinking about it.",
+      "images": [],
+      "source_html": "<p>When you’re out of ideas, you might come<br/>\r\nupon a new idea by focusing on some<br/>\r\ntopic and keep thinking about it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I was young I had a strong memory, so\n\nI memorized a lot of things, but now…\n\nI forget about things I said or did in a short\n\nperiod of time.\n\nSo, when I come up with an idea…!!!\n\nI’d say to myself ‘This is good!!!’ and\n\ntake a note of it immediately in my daytimer!",
+      "images": [],
+      "source_html": "<p>When I was young I had a strong memory, so<br/>\r\nI memorized a lot of things, but now…<br/>\r\nI forget about things I said or did in a short<br/>\r\nperiod of time.<br/>\r\nSo, when I come up with an idea…!!!<br/>\r\nI’d say to myself ‘This is good!!!’ and<br/>\r\ntake a note of it immediately in my daytimer!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because it’s a shame to lose a good idea…",
+      "images": [],
+      "source_html": "<p>Because it’s a shame to lose a good idea…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I used to use my cell phone to keep note of\n\nmy ideas and send mail from the mobile to\n\nmy PC in the office… but that approach has\n\na limitation.",
+      "images": [],
+      "source_html": "<p>I used to use my cell phone to keep note of<br/>\r\nmy ideas and send mail from the mobile to<br/>\r\nmy PC in the office… but that approach has<br/>\r\na limitation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The limitation is… you can’t draw illustrations.\n\nIf you draw an image when you come up with an idea,\n\nit will be much easier to develop it later.",
+      "images": [],
+      "source_html": "<p>The limitation is… you can’t draw illustrations.<br/>\r\nIf you draw an image when you come up with an idea,<br/>\r\nit will be much easier to develop it later.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That’s why now I’m using a daytimer.\n\nIt’s heavy but very handy.",
+      "images": [],
+      "source_html": "<p>That’s why now I’m using a daytimer.<br/>\r\nIt’s heavy but very handy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"108-multi-108\" %}",
+      "images": [
+        "108-multi-108"
+      ],
+      "source_html": "<p><img alt=\"108.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/10/108.jpg\"/></p>"
+    }
+  ]
+}

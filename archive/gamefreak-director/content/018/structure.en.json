@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 18,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "These days I’m searching for a pair of speakers,\n\nbut I can’t find one I want.",
+      "images": [],
+      "source_html": "<p>These days I’m searching for a pair of speakers,<br/>\r\nbut I can’t find one I want.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the old days I used to make speakers of my own.\n\nI would draw a plan, buy a board and put speakers on it.\n\nI tried many tricks like putting sand into the unit,\n\nwondering if it produces more low-end by making it heavy.\n\nOr change the shape of the cone of the speaker.\n\nOr insert an additional flat board,\n\nor put glue on the cone,\n\nor improve the strength of the magnet …",
+      "images": [],
+      "source_html": "<p>In the old days I used to make speakers of my own.<br/>\r\nI would draw a plan, buy a board and put speakers on it.<br/>\r\nI tried many tricks like putting sand into the unit,<br/>\r\nwondering if it produces more low-end by making it heavy.<br/>\r\nOr change the shape of the cone of the speaker.<br/>\r\nOr insert an additional flat board,<br/>\r\nor put glue on the cone,<br/>\r\nor improve the strength of the magnet …</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not really to make a better sound but to have fun\n\nwith the changes they make to the sound.",
+      "images": [],
+      "source_html": "<p>Not really to make a better sound but to have fun<br/>\r\nwith the changes they make to the sound.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Be it climbing a mountain, or a marathon,\n\nor putting together a plastic model,\n\nor tuning up a car,\n\nit’s vital to finish something once you start it.\n\nEspecially true with game development.",
+      "images": [],
+      "source_html": "<p>Be it climbing a mountain, or a marathon,<br/>\r\nor putting together a plastic model,<br/>\r\nor tuning up a car,<br/>\r\nit’s vital to finish something once you start it.<br/>\r\nEspecially true with game development.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s easy to forget because everyone knows it, but\n\ngames are not physical things.ﾂ? They are contents.\n\nYou can go on adding, changing and deleting\n\nas long as you want to.\n\nThere is nothing to stop you from making changes.\n\nThat’s why it’s really difficult to finish it up.",
+      "images": [],
+      "source_html": "<p>It’s easy to forget because everyone knows it, but<br/>\r\ngames are not physical things.ﾂ? They are contents.<br/>\r\nYou can go on adding, changing and deleting<br/>\r\nas long as you want to.<br/>\r\nThere is nothing to stop you from making changes.<br/>\r\nThat’s why it’s really difficult to finish it up.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So my advice to those who aspire to be game creators.\n\nLearn how to “finish up” and “complete” a project.",
+      "images": [],
+      "source_html": "<p>So my advice to those who aspire to be game creators.<br/>\r\nLearn how to “finish up” and “complete” a project.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

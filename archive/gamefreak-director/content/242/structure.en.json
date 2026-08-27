@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "article": 242,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "pre",
+      "markdown": "What a wonderful achievement!\n\nIn Japan, we’ve already got the Greatest Award,\nthe Best Sales Award, and the Global Award at the Japan Game Awards.\nThis time we’ve got awards in England, too!\n\nAt the Golden Joystick Awards 2014,\nthe greatest game awards in England,\nour Pokémon X and Pokémon Y were awarded\nthe Greatest Handheld Game Awards!\n\nThose awards are the ones from the second oldest historic game awards\nand chosen by users’ votes.\n\nWe thank so many of you who played our games\nand we really appreciate your support.\n\nWe are profoundly grateful for you.\n\nAlso, with those people who worked on the challenging development tasks\nand the localization staff who realized the world-wide simultaneous release,\nI’d like to share this great news\nthat we’ve been awarded such honorific awards!\n\n{% image id=\"242-multi-141031_01\" %}\n{% image id=\"242-multi-141031_02\" %}\n{% image id=\"242-multi-141031_03\" %}\n{% image id=\"242-multi-141031_04\" %}\n\nThose awards could not be realized without your hard work!\n\nChao!",
+      "images": [
+        "242-multi-141031_01",
+        "242-multi-141031_02",
+        "242-multi-141031_03",
+        "242-multi-141031_04"
+      ],
+      "source_html": "<pre>\r\nWhat a wonderful achievement!\r\n\r\nIn Japan, we’ve already got the Greatest Award,\r\nthe Best Sales Award, and the Global Award at the Japan Game Awards.\r\nThis time we’ve got awards in England, too!\r\n\r\nAt the Golden Joystick Awards 2014,\r\nthe greatest game awards in England,\r\nour Pokémon X and Pokémon Y were awarded\r\nthe Greatest Handheld Game Awards!\r\n\r\nThose awards are the ones from the second oldest historic game awards\r\nand chosen by users’ votes.\r\n\r\nWe thank so many of you who played our games\r\nand we really appreciate your support.\r\n\r\nWe are profoundly grateful for you.\r\n\r\nAlso, with those people who worked on the challenging development tasks\r\nand the localization staff who realized the world-wide simultaneous release,\r\nI’d like to share this great news\r\nthat we’ve been awarded such honorific awards!\r\n\r\n<img alt=\"\" src=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_01.jpg\"/>\r\n<img alt=\"\" src=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_02.jpg\"/>\r\n<img alt=\"\" src=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_03.jpg\"/>\r\n<img alt=\"\" src=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_04.jpg\"/>\r\n\r\nThose awards could not be realized without your hard work!\r\n\r\nChao!\r\n</pre>"
+    }
+  ]
+}

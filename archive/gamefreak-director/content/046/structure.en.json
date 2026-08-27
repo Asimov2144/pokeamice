@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "article": 46,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Did everyone see this year’s Pokemon movie?\n\nIn this movie, “Mew”, a Pokemon appeared in the\n\nfirst series, meets ‘Lucario’ introduced in Pokemon\n\nDiamond and Pearl.",
+      "images": [],
+      "source_html": "<p>Did everyone see this year’s Pokemon movie?<br/>\r\nIn this movie, “Mew”, a Pokemon appeared in the<br/>\r\nfirst series, meets ‘Lucario’ introduced in Pokemon<br/>\r\nDiamond and Pearl.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Unlike encounters in the game,\n\nyou might feel some distance between the two Pokemon,\n\nbut I liked the way they met in the movie,\n\nas two Pokemon in a movie.",
+      "images": [],
+      "source_html": "<p>Unlike encounters in the game,<br/>\r\nyou might feel some distance between the two Pokemon,<br/>\r\nbut I liked the way they met in the movie,<br/>\r\nas two Pokemon in a movie.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This movie begins with a war scene.\n\nAnd what with armors for Pokemon and others,\n\nit includes settings that we at Game Freak had\n\ntough time making decisions about.\n\nAt the same time though, there is no certain\n\nopponent this time, and it includes many\n\nchallenging ideas while keeping the world-view\n\nof Pokemon intact.\n\nSo, I like it very much.\n\nIt also brings you to tears.",
+      "images": [],
+      "source_html": "<p>This movie begins with a war scene.<br/>\r\nAnd what with armors for Pokemon and others,<br/>\r\nit includes settings that we at Game Freak had<br/>\r\ntough time making decisions about.<br/>\r\nAt the same time though, there is no certain<br/>\r\nopponent this time, and it includes many<br/>\r\nchallenging ideas while keeping the world-view<br/>\r\nof Pokemon intact.<br/>\r\nSo, I like it very much.<br/>\r\nIt also brings you to tears.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If ‘Lucario’ will grow in such a nice way,\n\nit might become very difficult for us to try to\n\nincorporate this Pokemon in a game.\n\n(it was very hard with Lugia…)\n\nBut this time I came up with ideas like\n\n‘Let’s do this, let’s do that!’ after I saw the movie.",
+      "images": [],
+      "source_html": "<p>If ‘Lucario’ will grow in such a nice way,<br/>\r\nit might become very difficult for us to try to<br/>\r\nincorporate this Pokemon in a game.<br/>\r\n(it was very hard with Lugia…)<br/>\r\nBut this time I came up with ideas like<br/>\r\n‘Let’s do this, let’s do that!’ after I saw the movie.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s a secret… You’ll be surprised when you play!",
+      "images": [],
+      "source_html": "<p>It’s a secret… You’ll be surprised when you play!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In what part of Pokemon Diamond and Pearl does\n\n‘Lucario’ appear?\n\nAs you enjoy the movie, don’t forget to keep that\n\nin mind!",
+      "images": [],
+      "source_html": "<p>In what part of Pokemon Diamond and Pearl does<br/>\r\n‘Lucario’ appear?<br/>\r\nAs you enjoy the movie, don’t forget to keep that<br/>\r\nin mind!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "By the way, do you remember that thing that\n\nlooks like Mew’s family tree at the beginning\n\nof the movie.\n\nThat’s based on Game Freak’s confidential documents\n\nabout Pokemon Diamond and Pearl {% image id=\"046-en-icon_smile\" %} .",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>By the way, do you remember that thing that<br/>\r\nlooks like Mew’s family tree at the beginning<br/>\r\nof the movie.<br/>\r\nThat’s based on Game Freak’s confidential documents<br/>\r\nabout Pokemon Diamond and Pearl <img alt=\":)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/>  .</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "article": 165,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello everyone,",
+      "images": [],
+      "source_html": "<p>Hello everyone,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "it’s quite hot recently, isn’t it?\n\nSpeaking of hot, I remind summer, and\n\nspeaking of summer, I remind Pokemon.\n\nAnd speaking of Pokemon,\n\nI remind Pokemon center, the healing place!!!",
+      "images": [],
+      "source_html": "<p>it’s quite hot recently, isn’t it?<br/>\r\nSpeaking of hot, I remind summer, and<br/>\r\nspeaking of summer, I remind Pokemon.<br/>\r\nAnd speaking of Pokemon,<br/>\r\nI remind Pokemon center, the healing place!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I got tired, I often go to\n\nPokemon Center Tokyo to recover my vital.\n\nThis year, the shop is especially sparkling shiny! {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>When I got tired, I often go to<br/>\r\nPokemon Center Tokyo to recover my vital.<br/>\r\nThis year, the shop is especially sparkling shiny! <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "While I’m checking shiny shop,\n\nI found out “Pokemon Center Official Staff Voice”.\n\n[http://voice.pokemon.co.jp/sv/index.html](http://voice.pokemon.co.jp/sv/index.html)\n\nHave you seen this?\n\nI’m little ashamed I didn’t kow that till today.",
+      "images": [],
+      "source_html": "<p>While I’m checking shiny shop,<br/>\r\nI found out “Pokemon Center Official Staff Voice”.<br/>\n<a href=\"http://voice.pokemon.co.jp/sv/index.html\" target=\"_blank\">http://voice.pokemon.co.jp/sv/index.html<br/>\n</a><br/>\r\nHave you seen this?<br/>\r\nI’m little ashamed I didn’t kow that till today.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And one question comes up…\n\nI wonder whose house is this…<http://voice.pokemon.co.jp/sv/2010/07/post-13.html>",
+      "images": [],
+      "source_html": "<p>And one question comes up…<br/>\r\nI wonder whose house is this…<a href=\"http://voice.pokemon.co.jp/sv/2010/07/post-13.html\" target=\"_blank\"></a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "http://voice.pokemon.co.jp/sv/2010/07/post-13.html",
+      "images": [],
+      "source_html": "<p>http://voice.pokemon.co.jp/sv/2010/07/post-13.html</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

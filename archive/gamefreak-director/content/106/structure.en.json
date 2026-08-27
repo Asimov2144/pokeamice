@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 106,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Since Pokemon Diamond & Pearl went on sale in\n\nJapan, exactly one year has passed today.",
+      "images": [],
+      "source_html": "<p>Since Pokemon Diamond &amp; Pearl went on sale in<br/>\r\nJapan, exactly one year has passed today.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thanks to you, the total copies sold worldwide\n\nsurpassed 10 million at the end of July,\n\nand more than 1.4 million Pokemon\n\nhave been traded worldwide in August only.\n\nEven now so many players seem to be enjoying\n\nit, and I’m really grateful for that.\n\nThank you very much!",
+      "images": [],
+      "source_html": "<p>Thanks to you, the total copies sold worldwide<br/>\r\nsurpassed 10 million at the end of July,<br/>\r\nand more than 1.4 million Pokemon<br/>\r\nhave been traded worldwide in August only.<br/>\r\nEven now so many players seem to be enjoying<br/>\r\nit, and I’m really grateful for that.<br/>\r\nThank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It brings me back so many memories of one year\n\nago, such as the countdown at Takashimaya\n\ndepartment store in Shinjuku.",
+      "images": [],
+      "source_html": "<p>It brings me back so many memories of one year<br/>\r\nago, such as the countdown at Takashimaya<br/>\r\ndepartment store in Shinjuku.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We are determined to keep creating games\n\nthat will be much more than just innovation,\n\nso please keep supporting Game Freak and Pokemon!\n\nI’m counting on your enthusiasm!",
+      "images": [],
+      "source_html": "<p>We are determined to keep creating games<br/>\r\nthat will be much more than just innovation,<br/>\r\nso please keep supporting Game Freak and Pokemon!<br/>\r\nI’m counting on your enthusiasm!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also…\n\nAs most of you must already know,\n\nI’d like to introduce our GTS website that went\n\npublic the other day simultaneously for the\n\nwhole world.",
+      "images": [],
+      "source_html": "<p>Also…<br/>\r\nAs most of you must already know,<br/>\r\nI’d like to introduce our GTS website that went<br/>\r\npublic the other day simultaneously for the<br/>\r\nwhole world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "http://www.pokemon-gts.net/",
+      "images": [],
+      "source_html": "<p>http://www.pokemon-gts.net/</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Doesn’t it look cool?\n\nIt’s fun just to look at it, isn’t it?\n\nThe site gives you so much information almost\n\nlike a stock price list.\n\nYou got to check out this website!",
+      "images": [],
+      "source_html": "<p>Doesn’t it look cool?<br/>\r\nIt’s fun just to look at it, isn’t it?<br/>\r\nThe site gives you so much information almost<br/>\r\nlike a stock price list.<br/>\r\nYou got to check out this website!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

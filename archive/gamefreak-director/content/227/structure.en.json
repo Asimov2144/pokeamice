@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 227,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "August 29th, 2012.\n\nIt is a special day for Game Freak.",
+      "images": [],
+      "source_html": "<p>August 29th, 2012.<br/>\r\nIt is a special day for Game Freak.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our motto is “Let’s make great games!”",
+      "images": [],
+      "source_html": "<p>Our motto is<span style=\"font-size: 120%; font-weight: normal;\"> “Let’s make great games!” </span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Latest results were just announced on “Nintendo Direct”.",
+      "images": [],
+      "source_html": "<p>Latest results were just announced on “Nintendo Direct”.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We are happy to introduce our brand new product !!!\n\nThe latest original game coming from Game Freak !!!\n\nIt’s finally here!",
+      "images": [],
+      "source_html": "<p>We are happy to introduce our brand new product !!!<br/>\r\nThe latest original game coming from Game Freak !!!<br/>\r\nIt’s finally here!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Rhythm Hunter Harmoknight”.\n\n*Japanese title.",
+      "images": [],
+      "source_html": "<p><span style=\"font-size: 130%; font-weight: bold;\">“Rhythm Hunter Harmoknight”.</span><br/>\r\n*Japanese title.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today, we made another jump! And with your support,\n\nwe will keep running with that speed !",
+      "images": [],
+      "source_html": "<p>Today, we made another jump! And with your support,<br/>\r\nwe will keep running with that speed !</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Development Director\n\nJunichi Masuda",
+      "images": [],
+      "source_html": "<p>Development Director<br/>\r\nJunichi Masuda</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can go from GameFreak’s website top banner\n\nto Nintendo’s “Rhythm Hunter Harmoknight” special site.\n\nYou can also read the interview, which Mr. Iwata held with\n\n“Rhythm Hunter Harmoknight” creators.",
+      "images": [],
+      "source_html": "<p>You can go from GameFreak’s website top banner<br/>\r\nto Nintendo’s “Rhythm Hunter Harmoknight” special site.<br/>\r\nYou can also read the interview, which Mr. Iwata held with<br/>\r\n“Rhythm Hunter Harmoknight” creators.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[https://www.gamefreak.co.jp/](https://www.gamefreak.co.jp/)",
+      "images": [],
+      "source_html": "<p><a href=\"https://www.gamefreak.co.jp/\" target=\"_blank\">https://www.gamefreak.co.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*This software can be downloaded only for 3DS, Japanese version.",
+      "images": [],
+      "source_html": "<p>*This software can be downloaded only for 3DS, Japanese version.</p>"
+    }
+  ]
+}

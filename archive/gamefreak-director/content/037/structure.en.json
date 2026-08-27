@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 37,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Last week, I went to E3 game show in LA!",
+      "images": [],
+      "source_html": "<p>Last week, I went to E3 game show in LA!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Overwhelmed by a huge number of\n\ngames showcased in the gigantic hall, I felt the\n\nintense competition among new hardware\n\nmachines like the “Revolution,” the “XBOX 360,”\n\nand the “PS3.”\n\nHoping that the future of gaming will not\n\nbe determined only by technological capabilities\n\nof hardware, I took time to enjoy myself visiting\n\nmany booths in the hall.",
+      "images": [],
+      "source_html": "<p>Overwhelmed by a huge number of<br/>\r\ngames showcased in the gigantic hall, I felt the<br/>\r\nintense competition among new hardware<br/>\r\nmachines like the “Revolution,” the “XBOX 360,”<br/>\r\nand the “PS3.”<br/>\r\nHoping that the future of gaming will not<br/>\r\nbe determined only by technological capabilities<br/>\r\nof hardware, I took time to enjoy myself visiting<br/>\r\nmany booths in the hall.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think it’s a good thing that video games become\n\nmultifaceted and diversified as video games gain\n\nmainstream recognition. There are players who\n\nare into the beauty of the screen image, and also\n\nwho are into the fun aspect of game playing.",
+      "images": [],
+      "source_html": "<p>I think it’s a good thing that video games become<br/>\r\nmultifaceted and diversified as video games gain<br/>\r\nmainstream recognition. There are players who<br/>\r\nare into the beauty of the screen image, and also<br/>\r\nwho are into the fun aspect of game playing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But at the same time,\n\nI hope that hardware too will mature in such a way\n\nthat we can choose between a high-spec machine\n\nand a low-spec machine for which development is not\n\nso difficult and is easy to play.",
+      "images": [],
+      "source_html": "<p>But at the same time,<br/>\r\nI hope that hardware too will mature in such a way<br/>\r\nthat we can choose between a high-spec machine<br/>\r\nand a low-spec machine for which development is not<br/>\r\nso difficult and is easy to play.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If not,\n\nit will be harder to create a groundbreaking game,\n\nand the market will be filled only by games that\n\nsimulate the real world.",
+      "images": [],
+      "source_html": "<p>If not,<br/>\r\nit will be harder to create a groundbreaking game,<br/>\r\nand the market will be filled only by games that<br/>\r\nsimulate the real world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because, when you keep searching for what makes it fun\n\nto play in a game, and thereby simplifying it, the hardware\n\ncapabilities become of secondary importance.",
+      "images": [],
+      "source_html": "<p>Because, when you keep searching for what makes it fun<br/>\r\nto play in a game, and thereby simplifying it, the hardware<br/>\r\ncapabilities become of secondary importance.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

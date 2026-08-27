@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "article": 77,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Trip to Germany (1)",
+      "images": [],
+      "source_html": "<p>Trip to Germany (1)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve been to Germany from April 3rd (Tuesday)\n\nto April 8th (Sunday)!\n\nSo, I will write about Germany in a few\n\ninstallments.",
+      "images": [],
+      "source_html": "<p>I’ve been to Germany from April 3rd (Tuesday)<br/>\r\nto April 8th (Sunday)!<br/>\r\nSo, I will write about Germany in a few<br/>\r\ninstallments.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Firstly… the first day!\n\nOn April 3rd (Tuesday), I went to Narita on\n\nNEX (an express train from Central Tokyo to\n\nNarita airport) two hours before departure,\n\nwhich was surprisingly early at 9:55.\n\nAs I was exchanging yen to euro, having a coffee,\n\nand stuff like that, before I knew it\n\nit was departure time.\n\nMust hurry to the gate. I got on the plane,\n\nand it took off.",
+      "images": [],
+      "source_html": "<p>Firstly… the first day!<br/>\r\nOn April 3rd (Tuesday), I went to Narita on<br/>\r\nNEX (an express train from Central Tokyo to<br/>\r\nNarita airport) two hours before departure,<br/>\r\nwhich was surprisingly early at 9:55.<br/>\r\nAs I was exchanging yen to euro, having a coffee,<br/>\r\nand stuff like that, before I knew it<br/>\r\nit was departure time.<br/>\r\nMust hurry to the gate. I got on the plane,<br/>\r\nand it took off.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some time after departure, I was struck\n\nhow beauty it looked down on the ground, and\n\ntook a note of an idea that I came up with…",
+      "images": [],
+      "source_html": "<p>Some time after departure, I was struck<br/>\r\nhow beauty it looked down on the ground, and<br/>\r\ntook a note of an idea that I came up with…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "After an 11-hour flight, I arrived in Germany\n\nsafely. It was 15:00 in the afternoon.",
+      "images": [],
+      "source_html": "<p>After an 11-hour flight, I arrived in Germany<br/>\r\nsafely. It was 15:00 in the afternoon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At the Frankfurt airport, a staff from\n\nNintendo of Europe (NOE), (who is both a colleague\n\nand a friend) was there to welcome me. I was relieved.\n\nHe gave me a ride. We got on the Autobahn, where\n\nthere is no speed limit, and arrived at NOE in\n\n40 minutes!\n\nThey gave me a tour of the company,\n\nand I was introduced to the President of NOE.\n\nAfter some conversation, we went to the\n\nlocalization office in Frankfurt.",
+      "images": [],
+      "source_html": "<p>At the Frankfurt airport, a staff from<br/>\r\nNintendo of Europe (NOE), (who is both a colleague<br/>\r\nand a friend) was there to welcome me. I was relieved.<br/>\r\nHe gave me a ride. We got on the Autobahn, where<br/>\r\nthere is no speed limit, and arrived at NOE in<br/>\r\n40 minutes!<br/>\r\nThey gave me a tour of the company,<br/>\r\nand I was introduced to the President of NOE.<br/>\r\nAfter some conversation, we went to the<br/>\r\nlocalization office in Frankfurt.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then, we get to the work of localizing Pokemon\n\nDiamond & Pearl. About 10 people came to the\n\nmeeting room. After I talked about detailed features,\n\nhidden settings, and the aim of the scenario,\n\nI listened to the reports from the leaders of\n\nvarious contries’ translators.",
+      "images": [],
+      "source_html": "<p>Then, we get to the work of localizing Pokemon<br/>\r\nDiamond &amp; Pearl. About 10 people came to the<br/>\r\nmeeting room. After I talked about detailed features,<br/>\r\nhidden settings, and the aim of the scenario,<br/>\r\nI listened to the reports from the leaders of<br/>\r\nvarious contries’ translators.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I had a very good feeling after I was through\n\nwith a few points to be checked about the process.",
+      "images": [],
+      "source_html": "<p>I had a very good feeling after I was through<br/>\r\nwith a few points to be checked about the process.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There will be much work to be done before release,\n\nbut I’m sure they will do a great job!",
+      "images": [],
+      "source_html": "<p>There will be much work to be done before release,<br/>\r\nbut I’m sure they will do a great job!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Felt relieved about localization, I was given\n\na ride to the hotel and I checked in.\n\nAfter that, I had dinner with 3 other people,\n\nincluding the President of NOE.\n\nAt that time I became really sleepy and\n\nin the middle of the dish I was really quiet {% image id=\"046-en-icon_smile\" %}\n\nBut I was really glad to have a good time, and\n\nto have an opportunity to listen to fruitful\n\nstories.",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>Felt relieved about localization, I was given<br/>\r\na ride to the hotel and I checked in.<br/>\r\nAfter that, I had dinner with 3 other people,<br/>\r\nincluding the President of NOE.<br/>\r\nAt that time I became really sleepy and<br/>\r\nin the middle of the dish I was really quiet <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/><br/>\r\nBut I was really glad to have a good time, and<br/>\r\nto have an opportunity to listen to fruitful<br/>\r\nstories.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So it went the first, very long day…",
+      "images": [],
+      "source_html": "<p>So it went the first, very long day…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I took a sleep at midnight, but because of jet-lag\n\nI woke up at 1 am.\n\nWhy would I wake up in one hour?",
+      "images": [],
+      "source_html": "<p>I took a sleep at midnight, but because of jet-lag<br/>\r\nI woke up at 1 am.<br/>\r\nWhy would I wake up in one hour?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To be continued!",
+      "images": [],
+      "source_html": "<p>To be continued!</p>"
+    }
+  ]
+}

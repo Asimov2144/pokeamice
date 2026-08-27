@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 203,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "This is Masuda at Narita airport.\n\nDeparting to San Diego.",
+      "images": [],
+      "source_html": "<p>This is Masuda at Narita airport.<br/>\r\nDeparting to San Diego.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How would this year’s [world championships](http://pokemonworlds2011.staging2.pop.us/2011/)\n\nwill be?",
+      "images": [],
+      "source_html": "<p>How would this year’s <a href=\"http://pokemonworlds2011.staging2.pop.us/2011/\" target=\"_blank\">world championships</a><br/>\r\nwill be?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since Japan had the earthquake,\n\nnumber of attendant is small.\n\nBut this time, South Korea will attend this\n\nchampionships for the first time.\n\nI’m looking forward to see their match.",
+      "images": [],
+      "source_html": "<p>Since Japan had the earthquake,<br/>\r\nnumber of attendant is small.<br/>\r\nBut this time, South Korea will attend this<br/>\r\nchampionships for the first time.<br/>\r\nI’m looking forward to see their match.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is the first time of world battle\n\nchampionship based on Pokémon Black/White.\n\nWhich country and person will be the champ?",
+      "images": [],
+      "source_html": "<p>This is the first time of world battle<br/>\r\nchampionship based on Pokémon Black/White.<br/>\r\nWhich country and person will be the champ?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And what kind of Pokémon and their move\n\nwill be most useful?",
+      "images": [],
+      "source_html": "<p>And what kind of Pokémon and their move<br/>\r\nwill be most useful?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m looking forward to see it. Getting excited!",
+      "images": [],
+      "source_html": "<p>I’m looking forward to see it. Getting excited!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m taking off!",
+      "images": [],
+      "source_html": "<p>I’m taking off!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

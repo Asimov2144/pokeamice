@@ -1,0 +1,53 @@
+id: masuda-236
+number: 236
+month: 2013-05
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2013/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-236
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-236
+    permalink_validated: true
+    date: '2013-05-31'
+    date_display: 05.31.2013
+    categories:
+    - Diary
+    - Pokemon
+    lead: I experienced that unusual place for the first time! I was nervous all the
+      morning, before going there. That place is…
+    raw_page: archive/gamefreak-director/raw/en/2013/05/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2013/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2013-05-31'
+    date_display: 2013.05.31
+    categories:
+    - ポケモン
+    - 日記
+    lead: この年になって生まれて初めての経験をしました！
+    raw_page: archive/gamefreak-director/raw/ja/2013/05/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets:
+- id: 236-multi-130531
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/05/130531.jpg
+  local_path: archive/gamefreak-director/assets/original/236/multi/130531.jpg
+  sha256: 3e73daec7adbd3a9cae7afc661d58594c5427c0b6c7f36a97b86dcd48a355223
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

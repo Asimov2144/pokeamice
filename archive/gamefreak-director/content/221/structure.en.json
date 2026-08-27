@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 221,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "IMPORTANT NEWS!!",
+      "images": [],
+      "source_html": "<p>IMPORTANT NEWS!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On this coming Sunday, Februrary 26, 2012, from 7:30 A.M,\n\nI, Masuda, will be appearing on TV TOKYO’s Show, “Pokémon Smash!”",
+      "images": [],
+      "source_html": "<p>On this coming Sunday, Februrary 26, 2012, from 7:30 A.M,<br/>\r\nI, Masuda, will be appearing on TV TOKYO’s Show, “Pokémon Smash!”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not only that.\n\nAnd there…",
+      "images": [],
+      "source_html": "<p>Not only that.<br/>\r\nAnd there…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I will be making a VERY important announcement,\n\nso be sure not to miss it!!",
+      "images": [],
+      "source_html": "<p><span style=\"font-size:120%;line-height:115%\"><strong>I will be making a VERY important announcement,<br/>\r\nso be sure not to miss it!!</strong></span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Watch it live on TV!",
+      "images": [],
+      "source_html": "<p>Watch it live on TV!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And, for those of you who can’t watch television on live,\n\nI will announce the same information right after the show via [twitter](https://twitter.com/#%21/Junichi_Masuda)!!",
+      "images": [],
+      "source_html": "<p>And, for those of you who can’t watch television on live,<br/>\r\nI will announce the same information right after the show via <a href=\"https://twitter.com/#%21/Junichi_Masuda\" target=\"_blank\">twitter</a>!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, I hope you all enjoy the show!!",
+      "images": [],
+      "source_html": "<p>Everyone, I hope you all enjoy the show!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_smash/\" target=\"_blank\">http://www.tv-tokyo.co.jp/anime/pokemon_smash/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*TV program “Pokémon Smash!” can be seen only in Japan.",
+      "images": [],
+      "source_html": "<p>*TV program “Pokémon Smash!” can be seen only in Japan.</p>"
+    }
+  ]
+}

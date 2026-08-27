@@ -1,0 +1,96 @@
+id: masuda-120
+number: 120
+month: 2008-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2008/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no120
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no120
+    permalink_validated: true
+    date: '2008-01-11'
+    date_display: 01.11.2008
+    categories:
+    - Diary
+    lead: What a surprise!!
+    raw_page: archive/gamefreak-director/raw/en/2008/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%92%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%92%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2008-01-11'
+    date_display: 2008.01.11
+    categories:
+    - 日記
+    lead: なんとっ！！ いま！スタッフに誕生日を祝ってもらいました！！ 明日誕生日なんです！！ チョコレートケーキとスタバのトールラテ！！ 超美味しかったー！！
+      感謝感激！！
+    raw_page: archive/gamefreak-director/raw/ja/2008/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets:
+- id: 120-en-120a2
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2008/01/120a2.jpg
+  local_path: archive/gamefreak-director/assets/original/120/en/120a2.jpg
+  sha256: ee55f419fa81582fce8d127c890ad66230dd7d3a6988c3e81f697bc9984965a2
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 120-en-120b1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2008/01/120b1.jpg
+  local_path: archive/gamefreak-director/assets/original/120/en/120b1.jpg
+  sha256: ec657e15245bd44891de897019ff7e1572a451ad391039ac01b48803efb06280
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 120-en-120c1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2008/01/120c1.jpg
+  local_path: archive/gamefreak-director/assets/original/120/en/120c1.jpg
+  sha256: 82604db3d2fef34df326ea3add69bd7a45234a45fd6b788c1c277b5c15a420f9
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 120-ja-120a1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/120a1.jpg
+  local_path: archive/gamefreak-director/assets/original/120/ja/120a1.jpg
+  sha256: ee55f419fa81582fce8d127c890ad66230dd7d3a6988c3e81f697bc9984965a2
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 120-ja-120b1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/120b1.jpg
+  local_path: archive/gamefreak-director/assets/original/120/ja/120b1.jpg
+  sha256: ec657e15245bd44891de897019ff7e1572a451ad391039ac01b48803efb06280
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 120-ja-120c1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/120c1.jpg
+  local_path: archive/gamefreak-director/assets/original/120/ja/120c1.jpg
+  sha256: 82604db3d2fef34df326ea3add69bd7a45234a45fd6b788c1c277b5c15a420f9
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

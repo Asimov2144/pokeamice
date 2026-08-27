@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "article": 130,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-en-130a\" %}",
+      "images": [
+        "130-en-130a"
+      ],
+      "source_html": "<p><img alt=\"130a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/07/130a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve finished my work in NY,\n\nand I’m now in Los Angels!!",
+      "images": [],
+      "source_html": "<p>I’ve finished my work in NY,<br/>\r\nand I’m now in Los Angels!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This morning, I went to the\n\nconference of Nintendo, and I’m\n\nlooking forward to play Wii Music.\n\nI’ll going to the E3 convention center\n\ntomorrow,\n\nQuite exciting!",
+      "images": [],
+      "source_html": "<p>This morning, I went to the<br/>\r\nconference of Nintendo, and I’m<br/>\r\nlooking forward to play Wii Music.<br/>\r\nI’ll going to the E3 convention center<br/>\r\ntomorrow,<br/>\r\nQuite exciting!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, sunshine of LA is extremely intense.\n\nIt’s sizzling…",
+      "images": [],
+      "source_html": "<p>Well, sunshine of LA is extremely intense.<br/>\r\nIt’s sizzling…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-en-130b\" %}　{% image id=\"130-en-130c\" %}　{% image id=\"130-en-130d\" %}",
+      "images": [
+        "130-en-130b",
+        "130-en-130c",
+        "130-en-130d"
+      ],
+      "source_html": "<p><img alt=\"130b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/07/130b.jpg\"/>　<img alt=\"130c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/07/130c.jpg\"/>　<img alt=\"130d.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/07/130d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "BTW,",
+      "images": [],
+      "source_html": "<p>BTW,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I will appear on “Pokemon Sunday” which airs on\n\nJuly 20th (Sunday)!\n\nInside of our company, Game Freak will be\n\nintroduced, too.\n\nYou can check it out the work place of\n\nPokemon development!",
+      "images": [],
+      "source_html": "<p>I will appear on “Pokemon Sunday” which airs on<br/>\r\nJuly 20th (Sunday)!<br/>\r\nInside of our company, Game Freak will be<br/>\r\nintroduced, too.<br/>\r\nYou can check it out the work place of<br/>\r\nPokemon development!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pokemon Sunday” starts early in the morning,\n\nbut I really would like you to watch!!",
+      "images": [],
+      "source_html": "<p>“Pokemon Sunday” starts early in the morning,<br/>\r\nbut I really would like you to watch!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(“Pokemon Sunday” is a TV program\n\nwhich only aired in Japan.)",
+      "images": [],
+      "source_html": "<p>(“Pokemon Sunday” is a TV program<br/>\r\nwhich only aired in Japan.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-en-130e\" %}",
+      "images": [
+        "130-en-130e"
+      ],
+      "source_html": "<p><img alt=\"130e.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/07/130e.jpg\"/></p>"
+    }
+  ]
+}

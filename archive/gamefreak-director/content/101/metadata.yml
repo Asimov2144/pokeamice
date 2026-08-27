@@ -1,0 +1,59 @@
+id: masuda-101
+number: 101
+month: 2007-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no101
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no101
+    permalink_validated: true
+    date: '2007-09-03'
+    date_display: 09.03.2007
+    categories:
+    - Pokemon
+    lead: I went to Palcity held in Osaka on September 2nd (Sun)!
+    raw_page: archive/gamefreak-director/raw/en/2007/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-09-03'
+    date_display: 2007.09.03
+    categories:
+    - ポケモン
+    lead: ９月２日（日）大阪で行われたパルシティに行ってきました！
+    raw_page: archive/gamefreak-director/raw/ja/2007/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:17+00:00'
+assets:
+- id: 101-multi-101a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/101a.jpg
+  local_path: archive/gamefreak-director/assets/original/101/multi/101a.jpg
+  sha256: 09ca778d4329c827c77494df4ddc6c8c966446b90c6c09571fe8d75e105d6f69
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 101-multi-101b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/101b.jpg
+  local_path: archive/gamefreak-director/assets/original/101/multi/101b.jpg
+  sha256: 9ed788e4c533fa9ce5565cf8b83e2fe713c2940530b9fc0dcaf2f4fefedb1fcf
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

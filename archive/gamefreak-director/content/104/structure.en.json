@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 104,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Yesterday, I went to the awarding ceremony of\n\nthe Japan Game Awards organized by CESA\n\n(Computer Entertainment Supplier’s Association)\n\nin Makuhari (Chiba prefecture).",
+      "images": [],
+      "source_html": "<p>Yesterday, I went to the awarding ceremony of<br/>\r\nthe Japan Game Awards organized by CESA<br/>\r\n(Computer Entertainment Supplier’s Association)<br/>\r\nin Makuhari (Chiba prefecture).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To my surprise! Pokemon Diamond & Pearl recevied\n\ntwo awards, Best Sales Award and Award for Excellence.",
+      "images": [],
+      "source_html": "<p>To my surprise! Pokemon Diamond &amp; Pearl recevied<br/>\r\ntwo awards, Best Sales Award and Award for Excellence.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is all thanks to so many of you who played\n\nand supported the game.\n\nI’m so happy.\n\nThank you very much!!!",
+      "images": [],
+      "source_html": "<p>This is all thanks to so many of you who played<br/>\r\nand supported the game.<br/>\r\nI’m so happy.<br/>\r\nThank you very much!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’d also like to express my deepest gratitude\n\nto our development staff. They showed the best\n\nof their powers in this difficult project.\n\nI’m also very grateful for those who helped us\n\npromote Pokemon, in advertising, public relations,\n\nand promotional events.\n\nI’m sure that without the countless number of\n\nthose people involved in this project it wouldn’t\n\nhave been possible to receive these awards.",
+      "images": [],
+      "source_html": "<p>I’d also like to express my deepest gratitude<br/>\r\nto our development staff. They showed the best<br/>\r\nof their powers in this difficult project.<br/>\r\nI’m also very grateful for those who helped us<br/>\r\npromote Pokemon, in advertising, public relations,<br/>\r\nand promotional events.<br/>\r\nI’m sure that without the countless number of<br/>\r\nthose people involved in this project it wouldn’t<br/>\r\nhave been possible to receive these awards.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon has the power to connect people, and\n\nin creating it too it made us work in a united way.\n\nAgain, I’m really grateful to all of you.\n\nThank you very much!",
+      "images": [],
+      "source_html": "<p>Pokemon has the power to connect people, and<br/>\r\nin creating it too it made us work in a united way.<br/>\r\nAgain, I’m really grateful to all of you.<br/>\r\nThank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And I’m looking forward to your support from\n\nnow on too!",
+      "images": [],
+      "source_html": "<p>And I’m looking forward to your support from<br/>\r\nnow on too!</p>"
+    }
+  ]
+}

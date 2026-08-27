@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 138,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "マスダのやっている色々な仕事のうちの１つをご紹介。",
+      "images": [],
+      "source_html": "<p>マスダのやっている色々な仕事のうちの１つをご紹介。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "それは、、、\n\n去年から資料作りを行い、、、\n\nパワーポイントでまとめて、、、\n\n勉強しつつ、、、\n\nリハーサルも何度か、、、",
+      "images": [],
+      "source_html": "<p>それは、、、<br/>\r\n去年から資料作りを行い、、、<br/>\r\nパワーポイントでまとめて、、、<br/>\r\n勉強しつつ、、、<br/>\r\nリハーサルも何度か、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そうです。\n\n２月４日、５日に会社説明会を行ったんです！\n\n[https://www.gamefreak.co.jp/recruit/rec_info090216.html](https://www.gamefreak.co.jp/recruit/rec_info090216.html)",
+      "images": [],
+      "source_html": "<p>そうです。<br/>\r\n２月４日、５日に会社説明会を行ったんです！<br/>\n<a href=\"https://www.gamefreak.co.jp/recruit/rec_info090216.html\" target=\"_blank\">https://www.gamefreak.co.jp/recruit/rec_info090216.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "テレビゲームを、遊び、操作、世界観、遊び相手、という４つに分解、\n\nそこから１つ１つをさらに分解しながら遊びの大切さを話していきました。",
+      "images": [],
+      "source_html": "<p>テレビゲームを、遊び、操作、世界観、遊び相手、という４つに分解、<br/>\r\nそこから１つ１つをさらに分解しながら遊びの大切さを話していきました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして後半はもちろん、ゲームフリークの「ものづくり」の考え方。",
+      "images": [],
+      "source_html": "<p>そして後半はもちろん、ゲームフリークの「ものづくり」の考え方。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "１５分という短い時間の中なのでどこまで伝えられたか分かりませんが、\n\n少しでも伝わったのであれば、嬉しいです。\n\nみなさん、本当に熱心に聞いてくださってました。",
+      "images": [],
+      "source_html": "<p>１５分という短い時間の中なのでどこまで伝えられたか分かりませんが、<br/>\r\n少しでも伝わったのであれば、嬉しいです。<br/>\r\nみなさん、本当に熱心に聞いてくださってました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いつもの開発とまったく違う業務ですので、\n\nほんと、、いろいろ勉強になります。",
+      "images": [],
+      "source_html": "<p>いつもの開発とまったく違う業務ですので、<br/>\r\nほんと、、いろいろ勉強になります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "説明会に参加してくださり、共感してくださった方、\n\nぜひ、一緒に新しい遊びを生みだしていきましょう！\n\nもちろん、今回の説明会に参加できなかった方々も、\n\n面接でお会いできることを楽しみにしていますよ！\n\nご応募お待ちしています！",
+      "images": [],
+      "source_html": "<p>説明会に参加してくださり、共感してくださった方、<br/>\r\nぜひ、一緒に新しい遊びを生みだしていきましょう！<br/>\r\nもちろん、今回の説明会に参加できなかった方々も、<br/>\r\n面接でお会いできることを楽しみにしていますよ！<br/>\r\nご応募お待ちしています！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"138-multi-mz090217_01\" %}\n\nまじめに、テレビゲームを分解。",
+      "images": [
+        "138-multi-mz090217_01"
+      ],
+      "source_html": "<p><img alt=\"講演中\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090217_01.jpg\"/><br/>\r\nまじめに、テレビゲームを分解。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"138-multi-mz090217_02\" %}\n\nちょっと、休憩。。。（国際フォーラムが格好いい、、、）",
+      "images": [
+        "138-multi-mz090217_02"
+      ],
+      "source_html": "<p><img alt=\"東京国際フォーラムとマスダ\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090217_02.jpg\"/><br/>\r\nちょっと、休憩。。。（国際フォーラムが格好いい、、、）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"138-ja-mz090217_03\" %}\n\nいつもは開発で才能を発揮しているスタッフも、疲れ気味。。。\n\n説明会終了後に全員で、パシャリ！　お疲れさまでした。",
+      "images": [
+        "138-ja-mz090217_03"
+      ],
+      "source_html": "<p><img alt=\"説明会スタッフ全員集合！\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090217_03.jpg\"/><br/>\r\nいつもは開発で才能を発揮しているスタッフも、疲れ気味。。。<br/>\r\n説明会終了後に全員で、パシャリ！　お疲れさまでした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

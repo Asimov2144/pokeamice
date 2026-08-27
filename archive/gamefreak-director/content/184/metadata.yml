@@ -1,0 +1,45 @@
+id: masuda-184
+number: 184
+month: 2011-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no184
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no184
+    permalink_validated: true
+    date: '2011-02-10'
+    date_display: 02.10.2011
+    categories:
+    - Pokemon
+    lead: Finally on this March 4th, in Europe! http://www.pokemonblackwhite.com/fr-fr/
+      http://www.pokemonblackwhite.com/es-es/ http://www.pokemonblackwhite.com/it-it/
+      http://www.pokemonblackwhite.com/de-de/ http://www.pokemonblackwhite.com/en-gb/
+    raw_page: archive/gamefreak-director/raw/en/2011/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%98%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-02-10'
+    date_display: 2011.02.10
+    categories:
+    - ポケモン
+    lead: ついに、３月４日に欧州が！ http://www.pokemonblackwhite.com/fr-fr/ http://www.pokemonblackwhite.com/es-es/
+      http://www.pokemonblackwhite.com/it-it/ http://www.pokemonblackwhite.com/de-de/
+      http://www.pokemonblackwhite.com/en-gb/
+    raw_page: archive/gamefreak-director/raw/ja/2011/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:23+00:00'
+assets: []

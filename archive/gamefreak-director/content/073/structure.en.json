@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "article": 73,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "A touchscreen. Now it’s become a everyday\n\nword, hasn’t it?\n\nYes. It’s the lower screen of the Nintendo DS.",
+      "images": [],
+      "source_html": "<p>A touchscreen. Now it’s become a everyday<br/>\r\nword, hasn’t it?<br/>\r\nYes. It’s the lower screen of the Nintendo DS.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I thought, ‘touch’ means to ‘touch something.’\n\nI want to make people touch it.\n\nI want players to touch it.\n\nSo, I wondered what it would be\n\nthat people would like to touch?",
+      "images": [],
+      "source_html": "<p>I thought, ‘touch’ means to ‘touch something.’<br/>\r\nI want to make people touch it.<br/>\r\nI want players to touch it.<br/>\r\nSo, I wondered what it would be<br/>\r\nthat people would like to touch?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And I came up with an answer,\n\n‘a switch.’",
+      "images": [],
+      "source_html": "<p>And I came up with an answer,<br/>\r\n‘a switch.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are very many kinds of switches in\n\nevery corner of the world.\n\nNo matter which country you visit,\n\nit’d be rare to stay in a room\n\nwhere you can’t turn on the light.\n\nAnd the moment you find a switch,\n\nyou feel like pressing it.\n\nOr just click it on and off.",
+      "images": [],
+      "source_html": "<p>There are very many kinds of switches in<br/>\r\nevery corner of the world.<br/>\r\nNo matter which country you visit,<br/>\r\nit’d be rare to stay in a room<br/>\r\nwhere you can’t turn on the light.<br/>\r\nAnd the moment you find a switch,<br/>\r\nyou feel like pressing it.<br/>\r\nOr just click it on and off.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, I went to a shop nearby and bought\n\nabout 10 switches of various shapes.\n\nI studied them with our game designers\n\nand our graphic designers.",
+      "images": [],
+      "source_html": "<p>So, I went to a shop nearby and bought<br/>\r\nabout 10 switches of various shapes.<br/>\r\nI studied them with our game designers<br/>\r\nand our graphic designers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why do we feel like pressing a switch?\n\nWhy do we think we can actually “SWITCH”\n\nsomething on?\n\nWe searched for the reason why people all\n\nover the country have no difficulty in\n\ndealing with it.",
+      "images": [],
+      "source_html": "<p>Why do we feel like pressing a switch?<br/>\r\nWhy do we think we can actually “SWITCH”<br/>\r\nsomething on?<br/>\r\nWe searched for the reason why people all<br/>\r\nover the country have no difficulty in<br/>\r\ndealing with it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The answer we came up with is…",
+      "images": [],
+      "source_html": "<p>The answer we came up with is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The space and the proturberance.",
+      "images": [],
+      "source_html": "<p>The space and the proturberance.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You feel you can press a switch because of the\n\nspace around it.\n\nYou feel you can press a switch because the switch\n\nis protruded (or dented).",
+      "images": [],
+      "source_html": "<p>You feel you can press a switch because of the<br/>\r\nspace around it.<br/>\r\nYou feel you can press a switch because the switch<br/>\r\nis protruded (or dented).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With this as a hint, we made every object that\n\ncan be pressed on the lower screen look like a\n\nswitch. In a word, they have a protuberance and\n\na space around it.\n\nWhile we were developing them,\n\nwe were calling them just ‘switches.’",
+      "images": [],
+      "source_html": "<p>With this as a hint, we made every object that<br/>\r\ncan be pressed on the lower screen look like a<br/>\r\nswitch. In a word, they have a protuberance and<br/>\r\na space around it.<br/>\r\nWhile we were developing them,<br/>\r\nwe were calling them just ‘switches.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Proturberances are, because they appear in the\n\nlower screen, designed from the perspective of\n\nlooking down from above. So, a switch has a\n\nprotuberance pointing downwards.\n\nAnd this became a basic rule in developing\n\ngames for the DS.",
+      "images": [],
+      "source_html": "<p>Proturberances are, because they appear in the<br/>\r\nlower screen, designed from the perspective of<br/>\r\nlooking down from above. So, a switch has a<br/>\r\nprotuberance pointing downwards.<br/>\r\nAnd this became a basic rule in developing<br/>\r\ngames for the DS.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This way, even if you didn’t know that the lower\n\nscreen of the DS is a touchscreen, you see something\n\nthat looks like a switch and feel like pressing it.",
+      "images": [],
+      "source_html": "<p>This way, even if you didn’t know that the lower<br/>\r\nscreen of the DS is a touchscreen, you see something<br/>\r\nthat looks like a switch and feel like pressing it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This was how we made decisions about the design of\n\nthe lower screen.",
+      "images": [],
+      "source_html": "<p>This was how we made decisions about the design of<br/>\r\nthe lower screen.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

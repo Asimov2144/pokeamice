@@ -1,0 +1,59 @@
+id: masuda-206
+number: 206
+month: 2011-08
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-206
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-206
+    permalink_validated: true
+    date: '2011-08-23'
+    date_display: 08.23.2011
+    categories:
+    - Pokemon
+    lead: Charging energy at San Diego, the next day of arriving Japan.
+    raw_page: archive/gamefreak-director/raw/en/2011/08/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%90%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%90%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-08-23'
+    date_display: 2011.08.23
+    categories:
+    - ポケモン
+    lead: サンディエゴでエネルギーをもらい帰国した次の日。
+    raw_page: archive/gamefreak-director/raw/ja/2011/08/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:25+00:00'
+assets:
+- id: 206-multi-206a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/206a.jpg
+  local_path: archive/gamefreak-director/assets/original/206/multi/206a.jpg
+  sha256: 370958db81f7867b3ffde9bfa119bb05fb788db67d892651c9ce9ccc28a0997a
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 206-multi-206b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/206b.jpg
+  local_path: archive/gamefreak-director/assets/original/206/multi/206b.jpg
+  sha256: bd74438c74618e01fb91c3537ceb420ac90c9fa4e2f3f0e3a1da96b9b02bbecb
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "article": 148,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The day, April 26th 2009 !\n\nWe Game Freak areﾂ? proud to announce our 20th anniversary!\n\nWe deeply appreciate for your support from\n\nbottom of our heart.",
+      "images": [],
+      "source_html": "<p>The day, April 26th 2009 !<br/>\r\nWe Game Freak areﾂ? proud to announce our 20th anniversary!<br/>\r\nWe deeply appreciate for your support from<br/>\r\nbottom of our heart.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We would like to keep developing the game not only\n\ncreators’ self-complacency, but to make players\n\nsurprise and enjoyable.\n\nCreating the video games with deliberateness\n\nis our policy, always.",
+      "images": [],
+      "source_html": "<p>We would like to keep developing the game not only<br/>\r\ncreators’ self-complacency, but to make players<br/>\r\nsurprise and enjoyable.<br/>\r\nCreating the video games with deliberateness<br/>\r\nis our policy, always.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We Game Freak will keep running toward the future\n\nfor creating new entertainments.\n\nPlease look forward to play our new work.",
+      "images": [],
+      "source_html": "<p>We Game Freak will keep running toward the future<br/>\r\nfor creating new entertainments.<br/>\r\nPlease look forward to play our new work.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I kept working frantically to make fun games\n\nlast twenty years.\n\nAnd, I’ll keep working frantically in future, too. {% image id=\"148-en-icon_wink\" %}",
+      "images": [
+        "148-en-icon_wink"
+      ],
+      "source_html": "<p>I kept working frantically to make fun games<br/>\r\nlast twenty years.<br/>\r\nAnd, I’ll keep working frantically in future, too. <img alt=\";-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_wink.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

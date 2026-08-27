@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 93,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "In the old days when I was a programmer,\n\nI created an imitation of Tetris as a way\n\nto learn programming.",
+      "images": [],
+      "source_html": "<p>In the old days when I was a programmer,<br/>\r\nI created an imitation of Tetris as a way<br/>\r\nto learn programming.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think it was then that I learned what is\n\nfascinating and magical about games themselves.",
+      "images": [],
+      "source_html": "<p>I think it was then that I learned what is<br/>\r\nfascinating and magical about games themselves.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is,\n\n*the speed of falling blocks\n\n*the speed of rotating blocks\n\n*the speed of moving blocks using the Direction\n\nbutton\n\n*the speed of blocks landing on the bottom\n\nline and get stuck\n\n*the balance of speeds that have been determined\n\ndifferently for each stage\n\nBy changing such different kinds of speeds,\n\nthe game can both be such a fun game and\n\nalso such a boring game.",
+      "images": [],
+      "source_html": "<p>That is,<br/>\r\n*the speed of falling blocks<br/>\r\n*the speed of rotating blocks<br/>\r\n*the speed of moving blocks using the Direction<br/>\r\nbutton<br/>\r\n*the speed of blocks landing on the bottom<br/>\r\nline and get stuck<br/>\r\n*the balance of speeds that have been determined<br/>\r\ndifferently for each stage<br/>\r\nBy changing such different kinds of speeds,<br/>\r\nthe game can both be such a fun game and<br/>\r\nalso such a boring game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was all because of one element, the speed.\n\nYou can see how important, (although if\n\nyou’re not familiar with it, it may seem trivial),\n\nit is to determine the speed.",
+      "images": [],
+      "source_html": "<p>It was all because of one element, the speed.<br/>\r\nYou can see how important, (although if<br/>\r\nyou’re not familiar with it, it may seem trivial),<br/>\r\nit is to determine the speed.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It also makes you realize that Tetris has\n\nbeen created in a way so that a delicate\n\nbalance was achieved.",
+      "images": [],
+      "source_html": "<p>It also makes you realize that Tetris has<br/>\r\nbeen created in a way so that a delicate<br/>\r\nbalance was achieved.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And, if I dare say so,\n\nI learned then that what is important in\n\na game (itself) is not visual images.",
+      "images": [],
+      "source_html": "<p>And, if I dare say so,<br/>\r\nI learned then that what is important in<br/>\r\na game (itself) is not visual images.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "No matter what pretty images you add to\n\na game of Shogi (Japanese chess), it’s the\n\nsame Shogi game when you think about what\n\nmakes the game fun to play (as a game).",
+      "images": [],
+      "source_html": "<p>No matter what pretty images you add to<br/>\r\na game of Shogi (Japanese chess), it’s the<br/>\r\nsame Shogi game when you think about what<br/>\r\nmakes the game fun to play (as a game).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

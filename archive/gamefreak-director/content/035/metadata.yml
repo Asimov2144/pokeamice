@@ -1,0 +1,44 @@
+id: masuda-035
+number: 35
+month: 2005-03
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-35
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-35
+    permalink_validated: true
+    date: '2005-03-18'
+    date_display: 03.18.2005
+    categories:
+    - Diary
+    lead: 25 years ago, we played video games not at home but in places called ‘game
+      centers.’ Game centers had a bad reputation in our society because people thought
+      juvenile delinquents hang out there. As a result, most adults had the image
+      of those people who play video games as delinquents.
+    raw_page: archive/gamefreak-director/raw/en/2005/03/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-03-18'
+    date_display: 2005.03.18
+    categories:
+    - 日記
+    lead: ２５年前、ＴＶゲームをプレイする場所といえば、ゲームセンターでした。 そこは、不良のたまり場として社会的に印象の悪い場所でもあったんです。 結果、ゲームをする人＝不良、のような印象付けがされてしまいました。
+    raw_page: archive/gamefreak-director/raw/ja/2005/03/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:10+00:00'
+assets: []

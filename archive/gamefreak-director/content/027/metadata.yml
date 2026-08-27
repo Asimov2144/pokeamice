@@ -1,0 +1,46 @@
+id: masuda-027
+number: 27
+month: 2004-12
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-27
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-27
+    permalink_validated: true
+    date: '2004-12-16'
+    date_display: 12.16.2004
+    categories:
+    - About creation
+    - Pokemon
+    lead: The ‘previously on your quest’ function in Pokemon FireRed and LeafGreen
+      is very complicated, and uses lots of backups. It was quite likely to end up
+      with many bugs and our programmers were opposed to the idea, so I almost gave
+      up on it…
+    raw_page: archive/gamefreak-director/raw/en/2004/12/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-12-16'
+    date_display: 2004.12.16
+    categories:
+    - ものづくりについて
+    - ポケモン
+    lead: ファイアレッド、リーフグリーンの「あらすじ」の機能は 非常に複雑で多くのバックアップを使い、しかもバグの出る可能性が大きいため、 最初はプログラマにも反対され、断念しようかと思ったのですが、、、
+    raw_page: archive/gamefreak-director/raw/ja/2004/12/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:09+00:00'
+assets: []

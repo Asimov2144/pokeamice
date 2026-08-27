@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 124,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On February 27th.\n\nThe video game “Pocket Monsters RED/GREEN”\n\nfor Game Boy was launched in Japan.\n\nThe day, PIKACHU, VENUSAUR, CHARIZARD, MEOWTH, MEWTWO and\n\nmany other Pokemon gave a birth.",
+      "images": [],
+      "source_html": "<p>On February 27th.<br/>\r\nThe video game “Pocket Monsters RED/GREEN”<br/>\r\nfor Game Boy was launched in Japan.<br/>\r\nThe day, PIKACHU, VENUSAUR, CHARIZARD, MEOWTH, MEWTWO and<br/>\r\nmany other Pokemon gave a birth.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes.\n\nToday is a very special day, not only for GameFreak,\n\nbut to the development staffs including myself.",
+      "images": [],
+      "source_html": "<p>Yes.<br/>\r\nToday is a very special day, not only for GameFreak,<br/>\r\nbut to the development staffs including myself.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The initial members of Pokemon RED/GREEN are\n\nstill working hard in GameFreak.\n\nAnd, today is a good day to look back where we came from.",
+      "images": [],
+      "source_html": "<p>The initial members of Pokemon RED/GREEN are<br/>\r\nstill working hard in GameFreak.<br/>\r\nAnd, today is a good day to look back where we came from.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Aiming for high quality creation.\n\nToday, higher than yesterday.\n\nTomorrow, even higher than today.\n\nWe will keep trying our best with passion above.\n\nThis passion didn’t change a bit from those days.",
+      "images": [],
+      "source_html": "<p>Aiming for high quality creation.<br/>\r\nToday, higher than yesterday.<br/>\r\nTomorrow, even higher than today.<br/>\r\nWe will keep trying our best with passion above.<br/>\r\nThis passion didn’t change a bit from those days.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And we will keep this thought as the most important thing.",
+      "images": [],
+      "source_html": "<p>And we will keep this thought as the most important thing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We reached Pokemon 12th anniversary\n\nand we would like to express our gratitude to\n\nthe people all over the world.\n\nWe deeply appreciate your support.\n\nThank you very very much!",
+      "images": [],
+      "source_html": "<p>We reached Pokemon 12th anniversary<br/>\r\nand we would like to express our gratitude to<br/>\r\nthe people all over the world.<br/>\r\nWe deeply appreciate your support.<br/>\r\nThank you very very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… Pokemon still continues to get evolved!",
+      "images": [],
+      "source_html": "<p>And… Pokemon still continues to get evolved!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

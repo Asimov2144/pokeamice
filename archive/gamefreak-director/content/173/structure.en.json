@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": 173,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "GameFreak’s summer vacation starts\n\nfrom tomorrow.",
+      "images": [],
+      "source_html": "<p>GameFreak’s summer vacation starts<br/>\r\nfrom tomorrow.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ll go to Hawaii for WCS from 12th to 18th!\n\n*WCS = Pokemon World Championships",
+      "images": [],
+      "source_html": "<p>I’ll go to Hawaii for WCS from 12th to 18th!<br/>\r\n*WCS = Pokemon World Championships</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Which country will be the champ?",
+      "images": [],
+      "source_html": "<p>Which country will be the champ?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can check the contents from this site.\n\n[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)\n\nCiao!",
+      "images": [],
+      "source_html": "<p>You can check the contents from this site.<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2010/\" target=\"_blank\">http://www.pokemonworldchampionships.com/2010/<br/>\n</a><br/>\r\nCiao!</p>"
+    }
+  ]
+}

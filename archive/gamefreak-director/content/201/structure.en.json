@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "article": 201,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "200th anniversary part 2!",
+      "images": [],
+      "source_html": "<p>200th anniversary part 2!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I would like to disclose the story of\n\nCastelia City’s pier!\n\nSmall secret will be revealed. =)",
+      "images": [],
+      "source_html": "<p>I would like to disclose the story of<br/>\r\nCastelia City’s pier!<br/>\r\nSmall secret will be revealed. =)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is my development material\n\nfrom Pokémon Black/White.",
+      "images": [],
+      "source_html": "<p>Here is my development material<br/>\r\nfrom Pokémon Black/White.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "==Starting from here.==\n\n\n\n●C3(*1)‘s port is shaped like hand.\n\nOpen hand is the image of C3.",
+      "images": [],
+      "source_html": "<p>==Starting from here.==<br/>\n<em><br/>\r\n●C3<span style=\"color:#cc0000\">(*1)</span>‘s port is shaped like hand.<br/>\r\nOpen hand is the image of C3.</em></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "・Since it is pier, it is floating on the sea.\n\n・Surface is thin concrete.\n\n・Low fence is placed other than platform.\n\n・There are chairs, too.\n\n・There is a mooring mast.",
+      "images": [],
+      "source_html": "<p>・Since it is pier, it is floating on the sea.<br/>\r\n・Surface is thin concrete.<br/>\r\n・Low fence is placed other than platform.<br/>\r\n・There are chairs, too.<br/>\r\n・There is a mooring mast.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To park the ship, ship’s rope will be hooked to mooring mast.\n\n*In the game, ship’s rope is not necessary(won’t be shown).",
+      "images": [],
+      "source_html": "<p>To park the ship, ship’s rope will be hooked to mooring mast.<br/>\r\n*In the game, ship’s rope is not necessary(won’t be shown).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "●Each fingers\n\n(1)Thumb\n\n・Most thick finger of all.\n\n・In western culture, folding other four fingers and up represent\n\naffirmation (good) and down represent death (denial).\n\n[http://en.wikipedia.org/wiki/Thumb](http://en.wikipedia.org/wiki/Thumb)",
+      "images": [],
+      "source_html": "<p>●Each fingers<br/>\r\n(1)Thumb<br/>\r\n・Most thick finger of all.<br/>\r\n・In western culture, folding other four fingers and up represent<br/>\r\naffirmation (good) and down represent death (denial).<br/>\n<a href=\"http://en.wikipedia.org/wiki/Thumb\" target=\"_blank\">http://en.wikipedia.org/wiki/Thumb</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "○OPV（Offshore Patrol Vessel） parks on odd number days.\n\nSail on even number days(not present).",
+      "images": [],
+      "source_html": "<p>○OPV（Offshore Patrol Vessel） parks on odd number days.<br/>\r\nSail on even number days(not present). </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(2)Index finger\n\n[http://en.wikipedia.org/wiki/Index_finger](http://en.wikipedia.org/wiki/Index_finger)",
+      "images": [],
+      "source_html": "<p>(2)Index finger<br/>\n<a href=\"http://en.wikipedia.org/wiki/Index_finger\" target=\"_blank\">http://en.wikipedia.org/wiki/Index_finger</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "○Cabin cruiser(dinner cruise ship). Sail from evening only(to see sunset).\n\n→Large cruiser.\n\n→To show, departing on the evening and sunset can be seen\n\non the half way, and returning on night to see night view.",
+      "images": [],
+      "source_html": "<p>○Cabin cruiser(dinner cruise ship). Sail from evening only(to see sunset).<br/>\r\n→Large cruiser.<br/>\r\n→To show, departing on the evening and sunset can be seen<br/>\r\non the half way, and returning on night to see night view.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(3)Middle Finger\n\n・It is insulting act to stand this finger and rest of fingers fold.\n\n[http://en.wikipedia.org/wiki/Middle_finger](http://en.wikipedia.org/wiki/Middle_finger)",
+      "images": [],
+      "source_html": "<p>(3)Middle Finger<br/>\r\n・It is insulting act to stand this finger and rest of fingers fold.<br/>\n<a href=\"http://en.wikipedia.org/wiki/Middle_finger\" target=\"_blank\">http://en.wikipedia.org/wiki/Middle_finger</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "○Team Plasma’s secret ship sails.\n\nOnly sails on the day of prime numbers.\n\n(2,3,5,7,11,13,17,19,23,29,31)\n\n→Ship will be parked on non prime number days.\n\nNo hints. Objective of this ship is unknown.",
+      "images": [],
+      "source_html": "<p>○Team Plasma’s secret ship sails.<br/>\r\nOnly sails on the day of prime numbers.<br/>\r\n(2,3,5,7,11,13,17,19,23,29,31)<br/>\r\n→Ship will be parked on non prime number days.<br/>\r\nNo hints. Objective of this ship is unknown. </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(4)Ring finger\n\n・In Japan, it is called “medicine finger,” since this\n\nfinger is used for applying medicine.\n\n[http://en.wikipedia.org/wiki/Ring_finger](http://en.wikipedia.org/wiki/Ring_finger)",
+      "images": [],
+      "source_html": "<p>(4)Ring finger<br/>\r\n・In Japan, it is called “medicine finger,” since this<br/>\r\nfinger is used for applying medicine.<br/>\n<a href=\"http://en.wikipedia.org/wiki/Ring_finger\" target=\"_blank\">http://en.wikipedia.org/wiki/Ring_finger</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "○Shuttle cruiser to UT island.",
+      "images": [],
+      "source_html": "<p>○Shuttle cruiser to UT island.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(5)Little finger\n\n・Smallest finger.\n\n・In Japan, this finger is considered as royalty.\n\nThere is action called “Yubikiri(cutting finger)”\n\nas a meaning of promise(honesty).\n\n[http://en.wikipedia.org/wiki/Little_finger](http://en.wikipedia.org/wiki/Little_finger)",
+      "images": [],
+      "source_html": "<p>(5)Little finger<br/>\r\n・Smallest finger.<br/>\r\n・In Japan, this finger is considered as royalty.<br/>\r\nThere is action called “Yubikiri(cutting finger)”<br/>\r\nas a meaning of promise(honesty).<br/>\n<a href=\"http://en.wikipedia.org/wiki/Little_finger\" target=\"_blank\">http://en.wikipedia.org/wiki/Little_finger</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "○Distribution island ship.",
+      "images": [],
+      "source_html": "<p>○Distribution island ship.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "●Ship A (large ship<2000 to 3000t class>). 1 kind.\n\n・Cabin cruiser(theme color white)",
+      "images": [],
+      "source_html": "<p>●Ship A (large ship&lt;2000 to 3000t class&gt;). 1 kind.<br/>\r\n・Cabin cruiser(theme color white)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Luxurious cruiser.\n\nPoint! When this ship parked at the pier of C3, the giant scale of\n\nits size can be seen.",
+      "images": [],
+      "source_html": "<p>Luxurious cruiser.<br/>\r\nPoint! When this ship parked at the pier of C3, the giant scale of<br/>\r\nits size can be seen.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "●Ship B(small ship<1000t class>). 4 kinds.\n\n(Same model but different colors)\n\n・Guard ship(theme color white and red)\n\n・Team Plasma’s secret ship(black)\n\n・UT ship(blue)\n\n・Distribution ship(yellow)",
+      "images": [],
+      "source_html": "<p>●Ship B(small ship&lt;1000t class&gt;). 4 kinds.<br/>\r\n(Same model but different colors)<br/>\r\n・Guard ship(theme color white and red)<br/>\r\n・Team Plasma’s secret ship(black)<br/>\r\n・UT ship(blue)<br/>\r\n・Distribution ship(yellow)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Point! Leading edge cool ship. Small but fast. Few windows.\n\nYou can tell it’s a ship from its silhouette.\n\n==Ends here.==",
+      "images": [],
+      "source_html": "<p>Point! Leading edge cool ship. Small but fast. Few windows.<br/>\r\nYou can tell it’s a ship from its silhouette.<br/>\r\n==Ends here.==</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is about it.",
+      "images": [],
+      "source_html": "<p>This is about it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*1・・・C3 is code name of Castelia City.\n\n※Since this is not the final feature, its might be different\n\nfrom actual game.",
+      "images": [],
+      "source_html": "<p><span style=\"color:#cc0000\">*1</span>・・・C3 is code name of Castelia City.<br/>\r\n※Since this is not the final feature, its might be different<br/>\r\nfrom actual game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Its require a lot of research to create one particular area.",
+      "images": [],
+      "source_html": "<p>Its require a lot of research to create one particular area.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "・Research what the pier is.\n\n・Research the meaning of finger.\n\n・Research the ship based on the search result.\n\n・Research the ship.\n\n・Research how to park the ship.\n\n・Research the meaning of parking.\n\nThen, gather up the whole information.",
+      "images": [],
+      "source_html": "<p>・Research what the pier is.<br/>\r\n・Research the meaning of finger.<br/>\r\n・Research the ship based on the search result.<br/>\r\n・Research the ship.<br/>\r\n・Research how to park the ship.<br/>\r\n・Research the meaning of parking.<br/>\r\nThen, gather up the whole information.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Each and individual fact is gathered\n\nwith the meaning.\n\nThose facts will have persuasion and strongness.",
+      "images": [],
+      "source_html": "<p>Each and individual fact is gathered<br/>\r\nwith the meaning.<br/>\r\nThose facts will have persuasion and strongness.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of course it is important for creators to use their\n\nfeelings and sense, and it need the knowledge\n\nto exercise more.",
+      "images": [],
+      "source_html": "<p>Of course it is important for creators to use their<br/>\r\nfeelings and sense, and it need the knowledge<br/>\r\nto exercise more.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please find the questionable part and research,\n\nas if you are actually creating the game.\n\nIt will be fun!",
+      "images": [],
+      "source_html": "<p>Please find the questionable part and research,<br/>\r\nas if you are actually creating the game.<br/>\r\nIt will be fun!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

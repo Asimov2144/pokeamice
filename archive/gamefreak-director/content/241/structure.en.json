@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "article": 241,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Saturday, October 12th 2013 was the day that my dream came true.",
+      "images": [],
+      "source_html": "<p>Saturday, October 12th 2013 was the day that my dream came true.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was the day that Pokémon X and Pokémon Y launched\n\nall across the world at the same time.\n\nLaunch events were held in France, New York, Germany, and Japan.\n\nThe whole world celebrated the day.",
+      "images": [],
+      "source_html": "<p>It was the day that <em>Pokémon X and Pokémon Y</em> launched<br/>\r\nall across the world at the same time.<br/>\r\nLaunch events were held in France, New York, Germany, and Japan.<br/>\r\nThe whole world celebrated the day.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I feel very grateful.",
+      "images": [],
+      "source_html": "<p>I feel very grateful.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since the launch day is the same worldwide,\n\nall players across the world can enjoy the game at the same time;\n\nsharing the discovery and adventure together.",
+      "images": [],
+      "source_html": "<p>Since the launch day is the same worldwide,<br/>\r\nall players across the world can enjoy the game at the same time;<br/>\r\nsharing the discovery and adventure together.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m happy to have achieved that task and delighted that\n\nI could bring that experience to each and every one of you!\n\nI’m full of appreciation.",
+      "images": [],
+      "source_html": "<p>I’m happy to have achieved that task and delighted that<br/>\r\nI could bring that experience to each and every one of you!<br/>\r\nI’m full of appreciation.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This time, the themes of the game are ‘beauty’, ‘bonds’, and ‘evolution’.\n\nThe game was developed with the aim that the player would\n\nraise their Pokémon with love.",
+      "images": [],
+      "source_html": "<p>This time, the themes of the game are ‘beauty’, ‘bonds’, and ‘evolution’.<br/>\r\nThe game was developed with the aim that the player would<br/>\r\nraise their Pokémon with love.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s an even bigger theme to the game, however;\n\none that I’m always thinking about when I’m directing Pokémon games,\n\nand one that I think applies to the real world:\n\n‘Let’s create a better world together’.",
+      "images": [],
+      "source_html": "<p>There’s an even bigger theme to the game, however;<br/>\r\none that I’m always thinking about when I’m directing Pokémon games,<br/>\r\nand one that I think applies to the real world:<br/>\r\n‘Let’s create a better world together’.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The world is full of wonderful encounters that depend on the\n\ncircumstances we find ourselves in.\n\nIf you were born one year earlier, you may have made a set of\n\ncompletely different friends.\n\nIf your tastes were different, you may have met different people.\n\nSuppose, too, that your parents had never met…\n\nIf you think like this, you realize that everyone’s life\n\ndepends on the chance encounters that they make.",
+      "images": [],
+      "source_html": "<p>The world is full of wonderful encounters that depend on the<br/>\r\ncircumstances we find ourselves in.<br/>\r\nIf you were born one year earlier, you may have made a set of<br/>\r\ncompletely different friends.<br/>\r\nIf your tastes were different, you may have met different people.<br/>\r\nSuppose, too, that your parents had never met…<br/>\r\nIf you think like this, you realize that everyone’s life<br/>\r\ndepends on the chance encounters that they make.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Encountering people is both coincidental and miraculous.\n\nWe encountered each other in the same era, on the same planet.\n\nThat’s a miracle.\n\nThese encounters shouldn’t be about fighting,\n\nbut about making a better world together.\n\nThe titles ‘X’ and ‘Y’ come from this idea.",
+      "images": [],
+      "source_html": "<p>Encountering people is both coincidental and miraculous.<br/>\r\nWe encountered each other in the same era, on the same planet.<br/>\r\nThat’s a miracle.<br/>\r\nThese encounters shouldn’t be about fighting,<br/>\r\nbut about making a better world together.<br/>\r\nThe titles ‘X’ and ‘Y’ come from this idea.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The letters ‘X’ and ‘Y’ suggest lines on an axis.\n\nThe lines of both letters head in different directions,\n\nbut there’s a point at which they cross, or intersect.\n\nI used the letters with the idea of intersection in mind;\n\nthe idea of the common points we share with one another, rather than our differences.",
+      "images": [],
+      "source_html": "<p>The letters ‘X’ and ‘Y’ suggest lines on an axis.<br/>\r\nThe lines of both letters head in different directions,<br/>\r\nbut there’s a point at which they cross, or intersect.<br/>\r\nI used the letters with the idea of intersection in mind;<br/>\r\nthe idea of the common points we share with one another, rather than our differences.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "‘Let’s create a better world together!’\n\nI developed this game to communicate this idea.",
+      "images": [],
+      "source_html": "<p>‘Let’s create a better world together!’<br/>\r\nI developed this game to communicate this idea.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It took three and a half years to develop this game.\n\nTaking into account the localization groups for each language,\n\nmore than five hundred people were involved in the development.",
+      "images": [],
+      "source_html": "<p>It took three and a half years to develop this game.<br/>\r\nTaking into account the localization groups for each language,<br/>\r\nmore than five hundred people were involved in the development.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I deeply appreciate developing this game with all of these wonderful staff,\n\nand I appreciate the miracle of the encounters that I had with them!",
+      "images": [],
+      "source_html": "<p>I deeply appreciate developing this game with all of these wonderful staff,<br/>\r\nand I appreciate the miracle of the encounters that I had with them!</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please enjoy the game from many different directions!",
+      "images": [],
+      "source_html": "<p>Please enjoy the game from many different directions!</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

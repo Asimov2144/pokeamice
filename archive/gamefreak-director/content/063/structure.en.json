@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 63,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I went to Seattle from November 29th to December\n\n2nd. It was a four days and two nights trip!",
+      "images": [],
+      "source_html": "<p>I went to Seattle from November 29th to December<br/>\r\n2nd. It was a four days and two nights trip!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This trip was for the ‘localize’ process,\n\nwhich is to translate into other languages…",
+      "images": [],
+      "source_html": "<p>This trip was for the ‘localize’ process,<br/>\r\nwhich is to translate into other languages…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On the day of our arrival, Seattle was freezing…\n\nAnd it was snowing, although I hear it rarely\n\nsnows in Seattle!\n\nIt made us feel even more freezing…\n\nThe lowest temperature I heard was minus 8 degrees\n\nCelsius (17.6 degrees Fahrenheit)!\n\nI tried to wear many clothes but it was freezing\n\nall the same…",
+      "images": [],
+      "source_html": "<p>On the day of our arrival, Seattle was freezing…<br/>\r\nAnd it was snowing, although I hear it rarely<br/>\r\nsnows in Seattle!<br/>\r\nIt made us feel even more freezing…<br/>\r\nThe lowest temperature I heard was minus 8 degrees<br/>\r\nCelsius (17.6 degrees Fahrenheit)!<br/>\r\nI tried to wear many clothes but it was freezing<br/>\r\nall the same…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was hard to do the job in Seattle because of\n\nthe time difference, but in the end we were able\n\nto do a rewarding job of very high quality even\n\nin such a short period of time.",
+      "images": [],
+      "source_html": "<p>It was hard to do the job in Seattle because of<br/>\r\nthe time difference, but in the end we were able<br/>\r\nto do a rewarding job of very high quality even<br/>\r\nin such a short period of time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The North American version of Pokemon Diamond\n\nand Pearl is now approaching its completion\n\nthanks to the best staff both in North America\n\nand Japan!\n\nThe completion of this game will be even better\n\nthan the current Pokemon series! Please look forward\n\nto it.",
+      "images": [],
+      "source_html": "<p>The North American version of Pokemon Diamond<br/>\r\nand Pearl is now approaching its completion<br/>\r\nthanks to the best staff both in North America<br/>\r\nand Japan!<br/>\r\nThe completion of this game will be even better<br/>\r\nthan the current Pokemon series! Please look forward<br/>\r\nto it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There will be some time before it will actually\n\nbe available on a store shelf, but it includes\n\nthe function of an ultimate trading system called\n\nGlobal Trade Station!\n\nYou will be able to trade with people in North\n\nAmerica!\n\nIt’s just exciting only to think about it!!",
+      "images": [],
+      "source_html": "<p>There will be some time before it will actually<br/>\r\nbe available on a store shelf, but it includes<br/>\r\nthe function of an ultimate trading system called<br/>\r\nGlobal Trade Station!<br/>\r\nYou will be able to trade with people in North<br/>\r\nAmerica!<br/>\r\nIt’s just exciting only to think about it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

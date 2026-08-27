@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 207,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "At last!!!\n\nMy facebook’s “Like” icon added on my columns!!\n\nIn honor of above, here’s a little trivia\n\nbetween Pokémon Black and white!!\n\nFrom my game developing notes.\n\n==Starts here==\n\n\n\nC5 (*1)\n\nWhite version is exportation.\n\nSelling season’s vegetables at market.\n\nTo make the market’s counter changeable\n\nthere are four maps.\n\n(Express the seasons by vegetable color)\n\nThere are people who says “Since this is export city,\n\nthere are city who receives our shipment.”(Same in Black and White)",
+      "images": [],
+      "source_html": "<p>At last!!!<br/>\r\nMy facebook’s “Like” icon added on my columns!!<br/>\r\nIn honor of above, here’s a little trivia<br/>\r\nbetween Pokémon Black and white!!<br/>\r\nFrom my game developing notes.<br/>\r\n==Starts here==<br/>\n<em><br/>\r\nC5 <span style=\"color:#cc0000\">(*1)</span><br/>\r\nWhite version is exportation.<br/>\r\nSelling season’s vegetables at market.<br/>\r\nTo make the market’s counter changeable<br/>\r\nthere are four maps.<br/>\r\n(Express the seasons by vegetable color)<br/>\r\nThere are people who says “Since this is export city,<br/>\r\nthere are city who receives our shipment.”(Same in Black and White)</em></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "※Express seasons by color of vegetables.\n\nSpring: Rape blossoms, Asparagus\n\nSummer: Egg plants, Zucchinis, Tomatoes\n\nAutumn: Chestnuts, Pumpkins\n\nWinter: Celery, Oranges, Brussels sprouts",
+      "images": [],
+      "source_html": "<p>※Express seasons by color of vegetables.<br/>\r\nSpring: Rape blossoms, Asparagus<br/>\r\nSummer: Egg plants, Zucchinis, Tomatoes<br/>\r\nAutumn: Chestnuts, Pumpkins<br/>\r\nWinter: Celery, Oranges, Brussels sprouts</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Black version is importation.\n\nSelling any seasons vegetable with cheap price at the market.\n\n(Everything, anytime)\n\nVarious colored vegetables are selling at market. Mixed colors. One map.\n\nThere are people who says “Since we have various imported stuffs,\n\nthere should be a quite seasons at exported city exist.”(Same in Black and White)",
+      "images": [],
+      "source_html": "<p>Black version is importation.<br/>\r\nSelling any seasons vegetable with cheap price at the market.<br/>\r\n(Everything, anytime)<br/>\r\nVarious colored vegetables are selling at market. Mixed colors. One map.<br/>\r\nThere are people who says “Since we have various imported stuffs,<br/>\r\nthere should be a quite seasons at exported city exist.”(Same in Black and White)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "C6 (*2)\n\nPeople give life to the nature. Some Pokémon eats crops.\n\n(People forgive their act.)\n\nThere are cycles of Winter(soil), Spring(sprout)\n\nSummer(flower), Autumn(crops).\n\nFour maps are used based on the change of\n\nfield seasons.",
+      "images": [],
+      "source_html": "<p>C6 <span style=\"color:#cc0000\">(*2)</span><br/>\r\nPeople give life to the nature. Some Pokémon eats crops.<br/>\r\n(People forgive their act.)<br/>\r\nThere are cycles of Winter(soil), Spring(sprout)<br/>\r\nSummer(flower), Autumn(crops).<br/>\r\nFour maps are used based on the change of<br/>\r\nfield seasons.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In Black version, there are lines of hothouse.\n\nSeasons, temperature and nutrition are under control.\n\nSystem of vegetable management.\n\nPeople can’t enter because of having bacteria.\n\nOne map.",
+      "images": [],
+      "source_html": "<p>In Black version, there are lines of hothouse.<br/>\r\nSeasons, temperature and nutrition are under control.<br/>\r\nSystem of vegetable management.<br/>\r\nPeople can’t enter because of having bacteria.<br/>\r\nOne map.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "==Ends here==",
+      "images": [],
+      "source_html": "<p>==Ends here==</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(*1)C5 : Drift City\n\n(*2)C6 : Mistral City\n\n※Since this is not a final feature, it might have\n\ndifferent parts from actual product.",
+      "images": [],
+      "source_html": "<p> <span style=\"color:#cc0000\">(*1)</span>C5 : Drift City<br/>\n<span style=\"color:#cc0000\">(*2)</span>C6 : Mistral City<br/>\r\n※Since this is not a final feature, it might have<br/>\r\ndifferent parts from actual product.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Adding idea one by one.\n\nAdding idea based on flash idea\n\nwill deepen the meaning strong.",
+      "images": [],
+      "source_html": "<p>Adding idea one by one.<br/>\r\nAdding idea based on flash idea<br/>\r\nwill deepen the meaning strong.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are many delicate parts,\n\nsuch as maps.\n\nThis is very important work.",
+      "images": [],
+      "source_html": "<p>There are many delicate parts,<br/>\r\nsuch as maps.<br/>\r\nThis is very important work.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, everybody might forgetting something.\n\nYou can click “Like” anytime you want!",
+      "images": [],
+      "source_html": "<p>Oh, everybody might forgetting something.<br/>\r\nYou can click “Like” anytime you want!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao! </p>"
+    }
+  ]
+}

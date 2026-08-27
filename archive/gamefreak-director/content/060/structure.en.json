@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 60,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "After a long period of waiting,",
+      "images": [],
+      "source_html": "<p>After a long period of waiting,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today, Thursday, September 28th, 2006.",
+      "images": [],
+      "source_html": "<p>Today, Thursday, September 28th, 2006.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We finally released",
+      "images": [],
+      "source_html": "<p>We finally released</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pokemon Diamond,” and\n\n“Pokemon Pearl”!!",
+      "images": [],
+      "source_html": "<p>“Pokemon Diamond,” and<br/>\r\n“Pokemon Pearl”!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This morning, I went to see an opening event at\n\nTakashimaya (a department store) in Shinjuku that\n\nstarted from 7:45 am.\n\nThere were people who began standing in line last\n\nnight and spent the whole night there, and\n\nothers began standing in line from 4 am.\n\nSuch a lot of people were standing in line…\n\nI was really moved.",
+      "images": [],
+      "source_html": "<p>This morning, I went to see an opening event at<br/>\r\nTakashimaya (a department store) in Shinjuku that<br/>\r\nstarted from 7:45 am.<br/>\r\nThere were people who began standing in line last<br/>\r\nnight and spent the whole night there, and<br/>\r\nothers began standing in line from 4 am.<br/>\r\nSuch a lot of people were standing in line…<br/>\r\nI was really moved.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s such a gratifying experience to actually\n\nsee the faces of those who play our games!",
+      "images": [],
+      "source_html": "<p>It’s such a gratifying experience to actually<br/>\r\nsee the faces of those who play our games!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Anyway!\n\nPlease take the time to play the game thoroughly,\n\nfrom beginning to end.\n\nI’m sure you can find lots of new ways of playing it.\n\nDon’t forget to try WiFi too.",
+      "images": [],
+      "source_html": "<p>Anyway!<br/>\r\nPlease take the time to play the game thoroughly,<br/>\r\nfrom beginning to end.<br/>\r\nI’m sure you can find lots of new ways of playing it.<br/>\r\nDon’t forget to try WiFi too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Now!\n\nLet’s start playing!",
+      "images": [],
+      "source_html": "<p>Now!<br/>\r\nLet’s start playing!</p>"
+    }
+  ]
+}

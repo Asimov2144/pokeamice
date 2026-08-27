@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 178,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、ありがとうございます！！！",
+      "images": [],
+      "source_html": "<p>みなさん、ありがとうございます！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "おかげさまで\n\n「ポケットモンスターブラック・ホワイト」は、",
+      "images": [],
+      "source_html": "<p>おかげさまで<br/>\r\n「ポケットモンスターブラック・ホワイト」は、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "DS史上最多の初週販売本数２５５万本！を達成することができました！\n\nまた、予約数も１８８万本に達しました！",
+      "images": [],
+      "source_html": "<p><span style=\"font-size: 130%; font-weight: bold\">DS史上最多</span>の初週販売本数<span style=\"font-size: 130%; font-weight: bold\">２５５万本！</span>を達成することができました！<br/>\r\nまた、予約数も<span style=\"font-size: 130%; font-weight: bold\">１８８万本</span>に達しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ありがとうございました！！",
+      "images": [],
+      "source_html": "<p>ありがとうございました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "じっくり楽しんで貰えると嬉しいです！",
+      "images": [],
+      "source_html": "<p>じっくり楽しんで貰えると嬉しいです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

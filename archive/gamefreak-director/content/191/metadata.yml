@@ -1,0 +1,42 @@
+id: masuda-191
+number: 191
+month: 2011-04
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no191
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no191
+    permalink_validated: true
+    date: '2011-04-25'
+    date_display: 04.25.2011
+    categories:
+    - others
+    lead: I feel deeply sorry about the huge earthquake at Tohoku(Japan) area. I pray
+      for the souls of the departed.
+    raw_page: archive/gamefreak-director/raw/en/2011/04/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-04-25'
+    date_display: 2011.04.25
+    categories:
+    - 未分類
+    lead: このたびの東北地方太平洋沖地震におきまして、 亡くなられた多くの方々のご冥福を心よりお祈り申し上げます。
+    raw_page: archive/gamefreak-director/raw/ja/2011/04/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:23+00:00'
+assets: []

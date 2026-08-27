@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 12,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンセンター東京がリニューアルしたので、\n\n今日、行って来ました。\n\n前よりも見やすく、綺麗になりました。",
+      "images": [],
+      "source_html": "<p>ポケモンセンター東京がリニューアルしたので、<br/>\n今日、行って来ました。<br/>\n前よりも見やすく、綺麗になりました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "でもまあ、すごい人、人、人。",
+      "images": [],
+      "source_html": "<p>でもまあ、すごい人、人、人。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "お母さんと子供という構成がほとんどでした。\n\n何ででしょうね？",
+      "images": [],
+      "source_html": "<p>お母さんと子供という構成がほとんどでした。<br/>\n何ででしょうね？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "で、子供がカゴを持って、欲しいモノをいれて、\n\nお母さんチェックを受ける。という感じでした。",
+      "images": [],
+      "source_html": "<p>で、子供がカゴを持って、欲しいモノをいれて、<br/>\nお母さんチェックを受ける。という感じでした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "それを見てたら、\n\nお母さんがもっと欲しくなるものも欲しいなぁ。と思ってしまいました。",
+      "images": [],
+      "source_html": "<p>それを見てたら、<br/>\nお母さんがもっと欲しくなるものも欲しいなぁ。と思ってしまいました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "母子が共に欲しいもの。\n\n何でしょうね？",
+      "images": [],
+      "source_html": "<p>母子が共に欲しいもの。<br/>\n何でしょうね？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そんな自分への問いかけから、\n\n”それってゲームでも使えるじゃん！”\n\nというアイディアが生まれることがあります。",
+      "images": [],
+      "source_html": "<p>そんな自分への問いかけから、<br/>\n”それってゲームでも使えるじゃん！”<br/>\nというアイディアが生まれることがあります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、おためしあれ！",
+      "images": [],
+      "source_html": "<p>ぜひ、おためしあれ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

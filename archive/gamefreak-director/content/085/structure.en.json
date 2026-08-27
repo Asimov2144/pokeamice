@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 85,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The other day, I visited JT Biohistory Research\n\nHall located in Takatsuki city, Osaka.",
+      "images": [],
+      "source_html": "<p>The other day, I visited JT Biohistory Research<br/>\r\nHall located in Takatsuki city, Osaka.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The exhibits were presented in a unique way and\n\nthe place was filled with nature’s wonders.\n\nAlso, the director, Professor Nakamura, was such\n\na wonderful person, and her passion made the hall\n\na very attractive place to visit.",
+      "images": [],
+      "source_html": "<p>The exhibits were presented in a unique way and<br/>\r\nthe place was filled with nature’s wonders.<br/>\r\nAlso, the director, Professor Nakamura, was such<br/>\r\na wonderful person, and her passion made the hall<br/>\r\na very attractive place to visit.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The most interesting or educational thing that I\n\nlearned there was the fact that every living being\n\non this planet has DNA.\n\nI mean, all of them.\n\nThat is to say, human beings are not special.\n\nAnd it all began 3.8 billion years ago.",
+      "images": [],
+      "source_html": "<p>The most interesting or educational thing that I<br/>\r\nlearned there was the fact that every living being<br/>\r\non this planet has DNA.<br/>\r\nI mean, all of them.<br/>\r\nThat is to say, human beings are not special.<br/>\r\nAnd it all began 3.8 billion years ago.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What’s more, the basic strategy of DNA seems that\n\nit looks to continue its life as long as possible.\n\nIf you look at it that way, trees live longer\n\nthan humans, and they have more diversity.\n\nYou cannot forget how diverse the insects are, either.",
+      "images": [],
+      "source_html": "<p>What’s more, the basic strategy of DNA seems that<br/>\r\nit looks to continue its life as long as possible.<br/>\r\nIf you look at it that way, trees live longer<br/>\r\nthan humans, and they have more diversity.<br/>\r\nYou cannot forget how diverse the insects are, either.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The wonder of life, and its relation to humans.\n\nIt seems we humans still have a lot to learn about life.",
+      "images": [],
+      "source_html": "<p>The wonder of life, and its relation to humans.<br/>\r\nIt seems we humans still have a lot to learn about life.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you live near the hall, I’d recommend you visit\n\nthere. I’m sure you will discover something you\n\ndidn’t know before somewhere inside the hall.",
+      "images": [],
+      "source_html": "<p>If you live near the hall, I’d recommend you visit<br/>\r\nthere. I’m sure you will discover something you<br/>\r\ndidn’t know before somewhere inside the hall.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "More details here!",
+      "images": [],
+      "source_html": "<p>More details here!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "http://www.brh.co.jp",
+      "images": [],
+      "source_html": "<p>http://www.brh.co.jp</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

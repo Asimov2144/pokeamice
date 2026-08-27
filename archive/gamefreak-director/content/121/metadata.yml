@@ -1,0 +1,59 @@
+id: masuda-121
+number: 121
+month: 2008-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2008/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no121
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no121
+    permalink_validated: true
+    date: '2008-01-15'
+    date_display: 01.15.2008
+    categories:
+    - Diary
+    lead: Only cake’s pictures were shown on the last column, so here’s little appendix.
+    raw_page: archive/gamefreak-director/raw/en/2008/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2008/01/index.html
+    permalink: null
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%92%ef%bc%93%e5%9b%9e%e3%83%bb/
+    permalink_validated: false
+    date: '2008-01-15'
+    date_display: 2008.01.15
+    categories:
+    - 日記
+    lead: 誕生日のときの写真がケーキだけだったので、、、おまけ。
+    raw_page: archive/gamefreak-director/raw/ja/2008/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets:
+- id: 121-multi-123a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/123a.jpg
+  local_path: archive/gamefreak-director/assets/original/121/multi/123a.jpg
+  sha256: 8fc577af59ea517785dcc3feb96c940c6c8f031a3d04368f2d1b8146c746c58c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 121-multi-123b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/123b.jpg
+  local_path: archive/gamefreak-director/assets/original/121/multi/123b.jpg
+  sha256: ab80b0fb2a61644458d27eeb9c23d49681a698521c15317ba5e347c6dc94bbe6
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

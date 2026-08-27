@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "article": 192,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx01\" %}\n\n{% image id=\"192-ja-tx02\" %}",
+      "images": [
+        "192-ja-tx01",
+        "192-ja-tx02"
+      ],
+      "source_html": "<p><img alt=\"tx01.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx01.gif\"/><br/>\n<img alt=\"tx02.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx02.gif\"><br/>\n<img alt=\"tx03.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx03.gif\"/><br/>\n<img alt=\"tx04.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx04.gif\"/><br/>\n<img alt=\"tx05.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx05.gif\"/></img></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-192a\" %}\n\n{% image id=\"192-ja-tx06\" %}{% image id=\"192-ja-192b\" %}\n\n{% image id=\"192-ja-tx07\" %}",
+      "images": [
+        "192-ja-192a",
+        "192-ja-tx06",
+        "192-ja-192b",
+        "192-ja-tx07"
+      ],
+      "source_html": "<p><img alt=\"192a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192a.jpg\"/><br/>\n<img alt=\"tx06.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx06.gif\"/><img alt=\"192b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192b.jpg\"/><br/>\n<img alt=\"tx07.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx07.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx08\" %}\n\n{% image id=\"192-ja-192c\" %}\n\n{% image id=\"192-ja-tx09\" %}{% image id=\"192-ja-192d\" %}\n\n{% image id=\"192-ja-tx10\" %}",
+      "images": [
+        "192-ja-tx08",
+        "192-ja-192c",
+        "192-ja-tx09",
+        "192-ja-192d",
+        "192-ja-tx10"
+      ],
+      "source_html": "<p><img alt=\"tx08.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx08.gif\"/><br/>\n<img alt=\"192c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192c.jpg\"/><br/>\n<img alt=\"tx09.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx09.gif\"/><img alt=\"192d.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192d.jpg\"/><br/>\n<img alt=\"tx10.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx10.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx11\" %}\n\n{% image id=\"192-ja-192e\" %}\n\n{% image id=\"192-ja-tx12\" %}",
+      "images": [
+        "192-ja-tx11",
+        "192-ja-192e",
+        "192-ja-tx12"
+      ],
+      "source_html": "<p><img alt=\"tx11.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx11.gif\"/><br/>\n<img alt=\"192e.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192e.jpg\"/><br/>\n<img alt=\"tx12.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx12.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx13\" %}\n\n{% image id=\"192-ja-192f\" %}\n\n{% image id=\"192-ja-192g\" %}",
+      "images": [
+        "192-ja-tx13",
+        "192-ja-192f",
+        "192-ja-192g"
+      ],
+      "source_html": "<p><img alt=\"tx13.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx13.gif\"/><br/>\n<img alt=\"192f.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192f.jpg\"/><br/>\n<img alt=\"192g.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx14\" %}\n\n{% image id=\"192-ja-192h\" %}\n\n{% image id=\"192-ja-tx15\" %}",
+      "images": [
+        "192-ja-tx14",
+        "192-ja-192h",
+        "192-ja-tx15"
+      ],
+      "source_html": "<p><img alt=\"tx14.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx14.gif\"/><br/>\n<img alt=\"192h.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192h.jpg\"/><br/>\n<img alt=\"tx15.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx15.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx16\" %}\n\n{% image id=\"192-ja-192i\" %}\n\n{% image id=\"192-ja-tx171\" %}",
+      "images": [
+        "192-ja-tx16",
+        "192-ja-192i",
+        "192-ja-tx171"
+      ],
+      "source_html": "<p><img alt=\"tx16.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx16.gif\"/><br/>\n<img alt=\"192i.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192i.jpg\"/><br/>\n<img alt=\"tx171.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx171.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx18\" %}{% image id=\"192-ja-192j\" %}\n\n{% image id=\"192-ja-tx19\" %}\n\n{% image id=\"192-ja-tx20\" %}",
+      "images": [
+        "192-ja-tx18",
+        "192-ja-192j",
+        "192-ja-tx19",
+        "192-ja-tx20"
+      ],
+      "source_html": "<p><img alt=\"tx18.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx18.gif\"/><img alt=\"192j.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192j.jpg\"/><br/>\n<img alt=\"tx19.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx19.gif\"/><br/>\n<img alt=\"tx20.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx20.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx21\" %}\n\n{% image id=\"192-ja-oma\" %}\n\n{% image id=\"192-ja-tx22\" %}\n\n{% image id=\"192-ja-192k\" %}",
+      "images": [
+        "192-ja-tx21",
+        "192-ja-oma",
+        "192-ja-tx22",
+        "192-ja-192k"
+      ],
+      "source_html": "<p><img alt=\"tx21.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx21.gif\"/><br/>\n<img alt=\"oma.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/oma.jpg\"/><br/>\n<img alt=\"tx22.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx22.gif\"/><br/>\n<img alt=\"192k.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192k.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx232\" %}\n\n{% image id=\"192-ja-192l\" %}",
+      "images": [
+        "192-ja-tx232",
+        "192-ja-192l"
+      ],
+      "source_html": "<p><img alt=\"tx232.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx232.gif\"/><br/>\n<img alt=\"192l.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192l.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx24\" %}{% image id=\"192-ja-omb\" %}",
+      "images": [
+        "192-ja-tx24",
+        "192-ja-omb"
+      ],
+      "source_html": "<p><img alt=\"tx24.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx24.gif\"/><img alt=\"omb.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/omb.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx25\" %}{% image id=\"192-ja-192m\" %}\n\n{% image id=\"192-ja-tx26\" %}\n\n{% image id=\"192-ja-omc\" %}\n\n{% image id=\"192-ja-tx27\" %}\n\n{% image id=\"192-ja-192n\" %}\n\n{% image id=\"192-ja-tx28\" %}",
+      "images": [
+        "192-ja-tx25",
+        "192-ja-192m",
+        "192-ja-tx26",
+        "192-ja-omc",
+        "192-ja-tx27",
+        "192-ja-192n",
+        "192-ja-tx28"
+      ],
+      "source_html": "<p><img alt=\"tx25.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx25.gif\"/><img alt=\"192m.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192m.jpg\"/><br/>\n<img alt=\"tx26.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx26.gif\"/><br/>\n<img alt=\"omc.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/omc.jpg\"/><br/>\n<img alt=\"tx27.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx27.gif\"/><br/>\n<img alt=\"192n.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192n.jpg\"/><br/>\n<img alt=\"tx28.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx28.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx29\" %}",
+      "images": [
+        "192-ja-tx29"
+      ],
+      "source_html": "<p><img alt=\"tx29.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx29.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-ja-tx30\" %}\n\n{% image id=\"192-ja-192o\" %}\n\n{% image id=\"192-ja-tx31\" %}",
+      "images": [
+        "192-ja-tx30",
+        "192-ja-192o",
+        "192-ja-tx31"
+      ],
+      "source_html": "<p><img alt=\"tx30.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx30.gif\"/><br/>\n<img alt=\"192o.jpg\" src=\"/blog/dir/wp-content/uploads/2011/04/192o.jpg\"/><br/>\n<img alt=\"tx31.gif\" src=\"/blog/dir/wp-content/uploads/2011/04/tx31.gif\"/></p>"
+    }
+  ]
+}

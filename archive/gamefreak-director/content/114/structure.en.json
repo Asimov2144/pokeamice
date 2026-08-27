@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 114,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "This is Masuda, last day in Las Vegas.",
+      "images": [],
+      "source_html": "<p>This is Masuda, last day in Las Vegas.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today, I started from Pyramid shaped hotel, the Luxor Hotel!",
+      "images": [],
+      "source_html": "<p>Today, I started from Pyramid shaped hotel, the Luxor Hotel!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, everywhere in Las Vegas is extremely fun place.\n\nNot only this place is safe and secured,\n\nbut all hotels are very unique and individual.\n\nEven souvenir shops and car rentals have their own originality.\n\nFor instance, the car rental shop which offering Lamborghini\n\nis very fun and profound.",
+      "images": [],
+      "source_html": "<p>Well, everywhere in Las Vegas is extremely fun place.<br/>\r\nNot only this place is safe and secured,<br/>\r\nbut all hotels are very unique and individual.<br/>\r\nEven souvenir shops and car rentals have their own originality.<br/>\r\nFor instance, the car rental shop which offering Lamborghini<br/>\r\nis very fun and profound.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was exhausted by walking all day and lastly,\n\nI visited the Stratosphere Tower.\n\nYou can see the whole Las Vegas from top of this tower!!",
+      "images": [],
+      "source_html": "<p>I was exhausted by walking all day and lastly,<br/>\r\nI visited the Stratosphere Tower.<br/>\r\nYou can see the whole Las Vegas from top of this tower!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Night view was just awesome!\n\nSuper pretty and beautiful!!\n\nAnd… roller coasters are frightfully super…\n\nIt’s just not possible…",
+      "images": [],
+      "source_html": "<p>Night view was just awesome!<br/>\r\nSuper pretty and beautiful!!<br/>\r\nAnd… roller coasters are frightfully super…<br/>\r\nIt’s just not possible…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And I came back to the hotel just now! The time is 22:30.\n\nI have to get up at 3:00AM tommorow morning.\n\nI wonder I can wake up or not… ?! Stay tuned!\n\nI’ll be returning to Japan via LA!",
+      "images": [],
+      "source_html": "<p>And I came back to the hotel just now! The time is 22:30.<br/>\r\nI have to get up at 3:00AM tommorow morning.<br/>\r\nI wonder I can wake up or not… ?! Stay tuned!<br/>\r\nI’ll be returning to Japan via LA!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

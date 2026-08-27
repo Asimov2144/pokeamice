@@ -1,0 +1,54 @@
+id: masuda-230
+number: 230
+month: 2012-12
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2012/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-230
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-230
+    permalink_validated: true
+    date: '2012-12-12'
+    date_display: 12.12.2012
+    categories:
+    - Info
+    - Pokemon
+    lead: As I announced earlier on my Twitter, because “Team Plasma” is taking control
+      over many places, I myself, decided to join them. It looks fun! Here is a photo
+      to prove it! =)
+    raw_page: archive/gamefreak-director/raw/en/2012/12/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2012/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2012-12-10'
+    date_display: 2012.12.10
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: 本日、ツイッターでも発表しましたが、 プラズマ団が色々制圧していて、 楽しそうなので、マスダもプラズマ団に入団しました！
+    raw_page: archive/gamefreak-director/raw/ja/2012/12/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets:
+- id: 230-multi-1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2012/12/1.jpg
+  local_path: archive/gamefreak-director/assets/original/230/multi/1.jpg
+  sha256: 9f359aa91dbd55630d8ad23ece59ed038093984c8fb088a9b00cd47ad9e070df
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

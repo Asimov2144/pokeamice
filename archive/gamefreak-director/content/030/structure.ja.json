@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "article": 30,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "新年、あけましておめでとうございます。\n\n本年も、どうぞよろしくお願いいたします。",
+      "images": [],
+      "source_html": "<p> 新年、あけましておめでとうございます。<br/>\r\n本年も、どうぞよろしくお願いいたします。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２００５年もゲームフリークは\n\n新たなことにチャレンジするべく、\n\n努力し、そして行動を起こしていきます。",
+      "images": [],
+      "source_html": "<p>２００５年もゲームフリークは<br/>\r\n新たなことにチャレンジするべく、<br/>\r\n努力し、そして行動を起こしていきます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では、はじめましょう！",
+      "images": [],
+      "source_html": "<p>では、はじめましょう！</p>"
+    }
+  ]
+}

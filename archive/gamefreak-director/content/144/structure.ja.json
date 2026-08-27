@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "article": 144,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "それは忽然と現れた。美しく巨大、力強くしなやか。濃い赤鉄色。",
+      "images": [],
+      "source_html": "<p>それは忽然と現れた。美しく巨大、力強くしなやか。濃い赤鉄色。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その橋はマスダの目を釘付けにした。",
+      "images": [],
+      "source_html": "<p>その橋はマスダの目を釘付けにした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゴールデンゲートブリッジ。",
+      "images": [],
+      "source_html": "<p>ゴールデンゲートブリッジ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あまりにも美しいその橋は想像を超える存在感でマスダを圧倒した。",
+      "images": [],
+      "source_html": "<p>あまりにも美しいその橋は想像を超える存在感でマスダを圧倒した。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "車で移動し３ヶ所から見学。\n\n角度によって表情が様々に変化する。\n\nじっくりと観察したものの、まだ物足りなさを感じる。\n\n主塔やアンカレイジ、ケーブルなど観るポイントも多い。",
+      "images": [],
+      "source_html": "<p>車で移動し３ヶ所から見学。<br/>\r\n角度によって表情が様々に変化する。<br/>\r\nじっくりと観察したものの、まだ物足りなさを感じる。<br/>\r\n主塔やアンカレイジ、ケーブルなど観るポイントも多い。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "本当に素晴らしい。",
+      "images": [],
+      "source_html": "<p>本当に素晴らしい。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いつも思うのだが、多くの観光客が集まる場所、写真を撮りたくなる場所には何かしらのパワーを感じる。",
+      "images": [],
+      "source_html": "<p>いつも思うのだが、多くの観光客が集まる場所、写真を撮りたくなる場所には何かしらのパワーを感じる。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "次回、中央分離帯が変化するらしいこの橋、２．７ｋｍを歩くことは必須のようだ。",
+      "images": [],
+      "source_html": "<p>次回、中央分離帯が変化するらしいこの橋、２．７ｋｍを歩くことは必須のようだ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ。\n\n{% image id=\"144-multi-144a\" %}\n\n{% image id=\"144-multi-144b\" %}",
+      "images": [
+        "144-multi-144a",
+        "144-multi-144b"
+      ],
+      "source_html": "<p>チャオ。<br/>\n<img alt=\"144a.jpg\" src=\"/blog/dir/wp-content/uploads/2009/03/144a.jpg\"/><br/>\n<img alt=\"144b.jpg\" src=\"/blog/dir/wp-content/uploads/2009/03/144b.jpg\"><br/>\n<img alt=\"144c.jpg\" src=\"/blog/dir/wp-content/uploads/2009/03/144c.jpg\"/><br/>\n<img alt=\"144d.jpg\" src=\"/blog/dir/wp-content/uploads/2009/03/144d.jpg\"/><br/>\r\nゴールデンゲートブリッジとマスダ。</img></p>"
+    }
+  ]
+}

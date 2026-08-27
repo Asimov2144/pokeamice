@@ -1,47 +1,37 @@
 {% assign gf = site.data.gamefreak_director %}
 
-<aside class="gf-director-sidebar" aria-label="Game Freak 部长专栏作者信息">
-  <nav class="gf-director-sidebar__nav" aria-label="部长专栏导航">
-    <a href="{{ '/gamefreak-director/' | relative_url }}">Posts</a>
-    <a href="{{ '/gamefreak-director/category/' | relative_url }}">Categories</a>
-    <a href="{{ '/gamefreak-director/archive/' | relative_url }}">Archives</a>
-  </nav>
-
-  <section class="gf-director-profile">
-    <p>About me</p>
-    <div class="gf-director-profile__avatar" aria-hidden="true">
-      <span>増</span>
+<aside class="gf-director-sidebar" aria-label="增田顺一作者信息">
+  <section class="gf-director-profile" id="archive-about">
+    <header><h2>About me</h2><span></span></header>
+    <div class="gf-director-profile__identity">
+      <img
+        src="{{ '/assets/images/gamefreak-director/original/masuda-profile.png' | relative_url }}"
+        width="80"
+        height="80"
+        alt="增田顺一"
+      >
+      <div><strong>{{ gf.author.name }}</strong><small>{{ gf.author.name_zh }}</small></div>
     </div>
-    <h2>{{ gf.author.name }}</h2>
-    <strong>{{ gf.author.name_zh }}</strong>
     <dl>
-      <div>
-        <dt>所属</dt>
-        <dd>{{ gf.author.affiliation }}</dd>
-      </div>
-      <div>
-        <dt>职务</dt>
-        <dd>{{ gf.author.role }}</dd>
-      </div>
-      <div>
-        <dt>出生</dt>
-        <dd>{{ gf.author.birthday }}</dd>
-      </div>
-      <div>
-        <dt>出身</dt>
-        <dd>{{ gf.author.birthplace }}</dd>
-      </div>
+      <div><dt>所属</dt><dd>{{ gf.author.affiliation }}</dd></div>
+      <div><dt>职务</dt><dd>{{ gf.author.role }}</dd></div>
+      <div><dt>出生</dt><dd>{{ gf.author.birthday }}</dd></div>
+      <div><dt>出身</dt><dd>{{ gf.author.birthplace }}</dd></div>
     </dl>
     <ul>
-      {% for item in gf.author.profile %}
-        <li>{{ item }}</li>
-      {% endfor %}
+      {% for item in gf.author.profile %}<li>{{ item }}</li>{% endfor %}
     </ul>
   </section>
 
-  <section class="gf-director-sidebar__links">
-    {% for link in gf.external_links %}
-      <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
-    {% endfor %}
+  <section class="gf-director-sidebar__guide">
+    <p>Archive guide</p>
+    <h2>怎样浏览</h2>
+    <p>页首的 Categories 和 Archives 是原位展开的档案抽屉，不会把你带离当前阅读位置。只有选择具体文章时才会打开新页面。</p>
+    <a href="{{ '/gamefreak-director/' | relative_url }}#entries">查看全部已收录文章 →</a>
+  </section>
+
+  <section class="gf-director-sidebar__notice">
+    <strong>UNOFFICIAL ARCHIVE</strong>
+    <p>本专题为非官方数字存档与中文翻译，与 GAME FREAK、Nintendo、The Pokémon Company 无隶属关系。</p>
   </section>
 </aside>

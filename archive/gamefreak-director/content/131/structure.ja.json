@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "article": 131,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスター プラチナ」\n\nついに、９月１３日（土）発売になりました。",
+      "images": [],
+      "source_html": "<p>「ポケットモンスター プラチナ」<br/>\r\nついに、９月１３日（土）発売になりました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "開発スタッフが毎日毎日、努力とこだわりをもって、\n\n最大限の愛情をかけて作ったソフトです。\n\nぜひ、ご堪能くださいませ！",
+      "images": [],
+      "source_html": "<p>開発スタッフが毎日毎日、努力とこだわりをもって、<br/>\r\n最大限の愛情をかけて作ったソフトです。<br/>\r\nぜひ、ご堪能くださいませ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あと！\n\nドタバタしていて、遅くなりましたが、\n\n行ってきました。フロリダ！",
+      "images": [],
+      "source_html": "<p>あと！<br/>\r\nドタバタしていて、遅くなりましたが、<br/>\r\n行ってきました。フロリダ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンカード世界大会の横で、\n\n今回、初めて行った日米戦。",
+      "images": [],
+      "source_html": "<p>ポケモンカード世界大会の横で、<br/>\r\n今回、初めて行った日米戦。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「VIDEO GAME SHOW DOWN 2008」\n\nいやー、最高でした。",
+      "images": [],
+      "source_html": "<p>「VIDEO GAME SHOW DOWN 2008」<br/>\r\nいやー、最高でした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いろいろと改善点はあるものの、\n\nテレビゲームの勝負も、カードに負けず盛り上がりました！\n\nみなさん、とてもポケモンに詳しくて、バトルにも詳しくて、すごい！\n\nどの戦いも素晴らしいものでした。",
+      "images": [],
+      "source_html": "<p>いろいろと改善点はあるものの、<br/>\r\nテレビゲームの勝負も、カードに負けず盛り上がりました！<br/>\r\nみなさん、とてもポケモンに詳しくて、バトルにも詳しくて、すごい！<br/>\r\nどの戦いも素晴らしいものでした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "来年は、ついに世界大会。\n\nプラチナのみでの参加になります。\n\n１０月１２日より全国各地で予選が行われますので、\n\nぜひぜひ、バトルが好きな人は参加してくださいね！\n\n日本で優勝して、ぜひファイナルステージのアメリカ西海岸に行きましょう！\n\nそして世界一を目指しましょう！！",
+      "images": [],
+      "source_html": "<p>来年は、ついに世界大会。<br/>\r\nプラチナのみでの参加になります。<br/>\r\n１０月１２日より全国各地で予選が行われますので、<br/>\r\nぜひぜひ、バトルが好きな人は参加してくださいね！<br/>\r\n日本で優勝して、ぜひファイナルステージのアメリカ西海岸に行きましょう！<br/>\r\nそして世界一を目指しましょう！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "詳しくはワールドチャンピオンシップス\n\n[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)\n\nまで！",
+      "images": [],
+      "source_html": "<p>詳しくはワールドチャンピオンシップス<br/>\n<a href=\"http://www.pokemon.co.jp/special/wcs0809/\" target=\"_blank\">http://www.pokemon.co.jp/special/wcs0809/</a><br/>\r\nまで！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"131-multi-131a\" %}{% image id=\"131-multi-131b\" %}",
+      "images": [
+        "131-multi-131a",
+        "131-multi-131b"
+      ],
+      "source_html": "<p><img alt=\"131a.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131a.jpg\"/><img alt=\"131b.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131b.jpg\"><img alt=\"131c.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131c.jpg\"/><img alt=\"131f.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131f.jpg\"/><img alt=\"131d.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131d.jpg\"/><img alt=\"131e.jpg\" src=\"/blog/dir/wp-content/uploads/2008/09/131e.jpg\"/></img></p>"
+    }
+  ]
+}

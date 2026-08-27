@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": 147,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On Sunday, April 19th.\n\nI’ll have a special appearance again\n\non TV Tokyo’s TV program, “Pokemon Sunday”!",
+      "images": [],
+      "source_html": "<p>On Sunday, April 19th.<br/>\r\nI’ll have a special appearance again<br/>\r\non TV Tokyo’s TV program, “Pokemon Sunday”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "One special announcement!\n\nFrom this April, “Pokemon Sunday” will be\n\nwidely broadcasted in almost entire area of Japan.\n\nPeople who couldn’t check this program before,\n\nplease check it out!",
+      "images": [],
+      "source_html": "<p>One special announcement!<br/>\r\nFrom this April, “Pokemon Sunday” will be<br/>\r\nwidely broadcasted in almost entire area of Japan.<br/>\r\nPeople who couldn’t check this program before,<br/>\r\nplease check it out!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(“Pokemon Sunday” is a TV program\n\nwhich only aired in Japan.)",
+      "images": [],
+      "source_html": "<p>*(“Pokemon Sunday” is a TV program<br/>\r\nwhich only aired in Japan.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

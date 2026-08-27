@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 221,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "とても重要なお知らせです！！！",
+      "images": [],
+      "source_html": "<p>とても重要なお知らせです！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２０１２年２月２６日（日）朝７：３０からテレビ東京系列で放送される",
+      "images": [],
+      "source_html": "<p>２０１２年２月２６日（日）朝７：３０からテレビ東京系列で放送される</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンスマッシュに、マスダが出ます！！！が、、、",
+      "images": [],
+      "source_html": "<p>ポケモンスマッシュに、マスダが出ます！！！が、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "なんと！！！そこで、、、",
+      "images": [],
+      "source_html": "<p>なんと！！！そこで、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "とても重大な発表をしますので、\n\n絶対に見逃さないでください！！！",
+      "images": [],
+      "source_html": "<p><span style=\"font-size:120%;line-height:115%\"><strong>とても重大な発表をしますので、<br/>\r\n絶対に見逃さないでください！！！</strong></span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん生で放送を見てください！！！",
+      "images": [],
+      "source_html": "<p>みなさん生で放送を見てください！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、見られない方には、、、\n\nマスダが[ツイッター](https://twitter.com/#%21/Junichi_Masuda)で放映直後にTVと同じ情報を流します！！！",
+      "images": [],
+      "source_html": "<p>そして、見られない方には、、、<br/>\r\nマスダが<a href=\"https://twitter.com/#%21/Junichi_Masuda\" target=\"_blank\">ツイッター</a>で放映直後にTVと同じ情報を流します！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、楽しみにしていてくださいねー！！！！！",
+      "images": [],
+      "source_html": "<p>みなさん、楽しみにしていてくださいねー！！！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_smash/\" target=\"_blank\">http://www.tv-tokyo.co.jp/anime/pokemon_smash/</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "article": 115,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "「宇宙」完成しました！",
+      "images": [],
+      "source_html": "<p>「宇宙」完成しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そしてついに念願のワンフロアに！！\n\nこれで、さらに開発パワー全開です！",
+      "images": [],
+      "source_html": "<p>そしてついに念願のワンフロアに！！<br/>\r\nこれで、さらに開発パワー全開です！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "何よりも大切に考えたのが、\n\n発想が生まれる空間作りです。",
+      "images": [],
+      "source_html": "<p>何よりも大切に考えたのが、<br/>\r\n発想が生まれる空間作りです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "わたしたちは何もないゼロをイチにするのが仕事ですので、\n\nいろいろなアイディアを生みやすい空間を作りたかったんです。\n\nそこから、テーマを「宇宙」に決めたのですが、、、\n\nようやく完成しました！！",
+      "images": [],
+      "source_html": "<p>わたしたちは何もないゼロをイチにするのが仕事ですので、<br/>\r\nいろいろなアイディアを生みやすい空間を作りたかったんです。<br/>\r\nそこから、テーマを「宇宙」に決めたのですが、、、<br/>\r\nようやく完成しました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "スタッフには任せて貰えたのでかなり自由勝手に。。。\n\nでも、なかなか好評な様子でひと安心です。",
+      "images": [],
+      "source_html": "<p>スタッフには任せて貰えたのでかなり自由勝手に。。。<br/>\r\nでも、なかなか好評な様子でひと安心です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "さあ、新しいオフィスで新しい発想をして、\n\n新しい遊びを生み出しますよ！！",
+      "images": [],
+      "source_html": "<p>さあ、新しいオフィスで新しい発想をして、<br/>\r\n新しい遊びを生み出しますよ！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ご期待ください！！",
+      "images": [],
+      "source_html": "<p>ご期待ください！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "※写真は増田の席から前を撮ったところです。",
+      "images": [],
+      "source_html": "<p>※写真は増田の席から前を撮ったところです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"115-ja-115\" %}",
+      "images": [
+        "115-ja-115"
+      ],
+      "source_html": "<p><img alt=\"115.jpg\" src=\"/blog/dir/wp-content/uploads/2007/11/115.jpg\"/></p>"
+    }
+  ]
+}

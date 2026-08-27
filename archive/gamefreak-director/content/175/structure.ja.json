@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 175,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "本日、「[ポケモンぴあ](http://piabook.com/shop/contents1/pokemon.aspx)」が発売になりました！！",
+      "images": [],
+      "source_html": "<p>本日、「<a href=\"http://piabook.com/shop/contents1/pokemon.aspx\" target=\"_blank\">ポケモンぴあ</a>」が発売になりました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "・AKB４８の指原さんと北原さんがバッチリ出てます！\n\n・黄色いピカチュウの表紙が目印！\n\n・ピカチュウイヤホンも付いてくる！\n\n・杉森をはじめグラフィックスタッフも出てます！\n\n・マスダも出てます！",
+      "images": [],
+      "source_html": "<p>・AKB４８の指原さんと北原さんがバッチリ出てます！<br/>\r\n・黄色いピカチュウの表紙が目印！<br/>\r\n・ピカチュウイヤホンも付いてくる！<br/>\r\n・杉森をはじめグラフィックスタッフも出てます！<br/>\r\n・マスダも出てます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンの歴史も分かるこの本！良くできてます！\n\nぜひ、みなさんご購入ください！！",
+      "images": [],
+      "source_html": "<p>ポケモンの歴史も分かるこの本！良くできてます！<br/>\r\nぜひ、みなさんご購入ください！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、、、",
+      "images": [],
+      "source_html": "<p>そして、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あさって、９月１２日（日）のポケモン☆サンデーに、\n\nマスダ出演してます！！\n\nスペシャルです！\n\n最新情報も出るはず！",
+      "images": [],
+      "source_html": "<p>あさって、９月１２日（日）のポケモン☆サンデーに、<br/>\r\nマスダ出演してます！！<br/>\r\nスペシャルです！<br/>\r\n最新情報も出るはず！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、観て下さい！",
+      "images": [],
+      "source_html": "<p>ぜひ、観て下さい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

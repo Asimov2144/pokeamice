@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "article": 137,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "「あくび」のピカチュウ！",
+      "images": [],
+      "source_html": "<p>「あくび」のピカチュウ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、おねむりピカチュウって知ってますか？",
+      "images": [],
+      "source_html": "<p>みなさん、おねむりピカチュウって知ってますか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "実はいま、ポケモンセンター全店で「おねむりピカチュウまつり」開催チュウ！",
+      "images": [],
+      "source_html": "<p>実はいま、ポケモンセンター全店で「おねむりピカチュウまつり」開催チュウ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "しかも、3月15日（日）まで「あくび」を覚えた「ピカチュウ」を\n\nダイヤモンド・パール・プラチナのどれかにプレゼント・チュウ！",
+      "images": [],
+      "source_html": "<p>しかも、3月15日（日）まで「あくび」を覚えた「ピカチュウ」を<br/>\r\nダイヤモンド・パール・プラチナのどれかにプレゼント・チュウ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そしてこれが、ポケモンセンターで買える「おねむりピカチュウ」フィギュアです！",
+      "images": [],
+      "source_html": "<p>そしてこれが、ポケモンセンターで買える「おねむりピカチュウ」フィギュアです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_01\" %}\n\n手で寝かしつけてみたり。。。",
+      "images": [
+        "137-multi-mz090216_01"
+      ],
+      "source_html": "<p><img alt=\"おねむりピカチュウ\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090216_01.jpg\"/><br/>\r\n手で寝かしつけてみたり。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_02\" %}\n\n一緒に寝てみたり。。。",
+      "images": [
+        "137-multi-mz090216_02"
+      ],
+      "source_html": "<p><img alt=\"添い寝\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090216_02.jpg\"/><br/>\r\n一緒に寝てみたり。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_03\" %}\n\nふかふかの草原で寝たり、、、、、、、、、、、、、、\n\n{% image id=\"137-multi-mz090216_04\" %}\n\nあっ、ちがった！　シェイミに寝たり！",
+      "images": [
+        "137-multi-mz090216_03",
+        "137-multi-mz090216_04"
+      ],
+      "source_html": "<p><img alt=\"ふかふかの草原\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090216_03.jpg\"/><br/>\r\nふかふかの草原で寝たり、、、、、、、、、、、、、、<br/>\n<img alt=\"シェイミとおねむり\" src=\"/blog/dir/wp-content/uploads/2009/02/mz090216_04.jpg\"/><br/>\r\nあっ、ちがった！　シェイミに寝たり！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いろんな場所で寝かしてみると可愛いですよー。\n\nみなさんも、ぜひ試してみてね！！",
+      "images": [],
+      "source_html": "<p>いろんな場所で寝かしてみると可愛いですよー。<br/>\r\nみなさんも、ぜひ試してみてね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

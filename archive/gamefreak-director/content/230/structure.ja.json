@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "article": 230,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "本日、ツイッターでも発表しましたが、\n\nプラズマ団が色々制圧していて、\n\n楽しそうなので、マスダもプラズマ団に入団しました！",
+      "images": [],
+      "source_html": "<p>本日、ツイッターでも発表しましたが、<br/>\r\nプラズマ団が色々制圧していて、<br/>\r\n楽しそうなので、マスダもプラズマ団に入団しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "証拠写真はこちら！（笑）",
+      "images": [],
+      "source_html": "<p>証拠写真はこちら！（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"230-multi-1\" %}",
+      "images": [
+        "230-multi-1"
+      ],
+      "source_html": "<p><img alt=\"プラーズマー\" src=\"/blog/dir/wp-content/uploads/2012/12/1.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "したっぱです！！",
+      "images": [],
+      "source_html": "<p>したっぱです！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、、なんと！！",
+      "images": [],
+      "source_html": "<p>そして、、なんと！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "来春に予定していたデオキシスのプレゼントを\n\n12月15日（土）からのプラズマ団制圧イベント会場等で\n\n先行で実施しちゃいます！！",
+      "images": [],
+      "source_html": "<p>来春に予定していたデオキシスのプレゼントを<br/>\r\n12月15日（土）からのプラズマ団制圧イベント会場等で<br/>\r\n先行で実施しちゃいます！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "詳しくは、こちらから！\n\n[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)",
+      "images": [],
+      "source_html": "<p>詳しくは、こちらから！<br/>\n<a href=\"http://www.pokemon.co.jp/info/2012/12/121210_g01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2012/12/121210_g01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "親名に注目（笑）！",
+      "images": [],
+      "source_html": "<p>親名に注目（笑）！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、イベント会場に来て下さいね！",
+      "images": [],
+      "source_html": "<p>みなさん、イベント会場に来て下さいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "プラーズマー！",
+      "images": [],
+      "source_html": "<p>プラーズマー！</p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 136,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "次回のポケモン☆サンデーに注目！",
+      "images": [],
+      "source_html": "<p>次回のポケモン☆サンデーに注目！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２月１５日（日）の[ポケモン☆サンデー](http://www.tv-tokyo.co.jp/anime/pokemon_sunday/)に\n\nちょびっと、マスダ出演してます！",
+      "images": [],
+      "source_html": "<p>２月１５日（日）の<a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_sunday/\" target=\"_blank\">ポケモン☆サンデー</a>に<br/>\r\nちょびっと、マスダ出演してます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "プラチナのディレクター川内丸も出てます！",
+      "images": [],
+      "source_html": "<p>プラチナのディレクター川内丸も出てます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、（カットされなければ）開発スタッフも何名か出てるはず！",
+      "images": [],
+      "source_html": "<p>そして、（カットされなければ）開発スタッフも何名か出てるはず！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "何となく、うちの会社の雰囲気が伝われば、嬉しいです！",
+      "images": [],
+      "source_html": "<p>何となく、うちの会社の雰囲気が伝われば、嬉しいです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "しっかし、、、いろんな企画があるもんです。。。",
+      "images": [],
+      "source_html": "<p>しっかし、、、いろんな企画があるもんです。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "お見逃しなく！！！",
+      "images": [],
+      "source_html": "<p>お見逃しなく！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

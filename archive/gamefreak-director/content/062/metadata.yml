@@ -1,0 +1,47 @@
+id: masuda-062
+number: 62
+month: 2006-11
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2006/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-62
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-62
+    permalink_validated: true
+    date: '2006-11-22'
+    date_display: 11.22.2006
+    categories:
+    - Diary
+    lead: 'On November 20th, Miss Shoko Nakagawa, a.k.a. ‘Shokotan’ paid us a visit!
+      Yes. It was an interview for ‘Pokemon Sunday’ (a Japanese TV program featuring
+      Pokemon). It will be aired on December 17th, and you will be able to see the
+      inside of Game Freak and me. It will be nice if you have a chance to see the
+      program. No, I mean, don’t forget to watch it! (Note: this program is now put
+      off the air).'
+    raw_page: archive/gamefreak-director/raw/en/2006/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2006/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%96%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%96%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2006-11-22'
+    date_display: 2006.11.22
+    categories:
+    - 日記
+    lead: 今月２０日、しょこたんこと中川翔子さんがいらっしゃいました！ そうです。 ポケモン☆サンデーの取材だったんです。 １２月１７日の放映で ゲームフリークの社内＆増田が出てますので、
+      良かったら観て下さい！ というか、是非、観て下さいね！
+    raw_page: archive/gamefreak-director/raw/ja/2006/11/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:12+00:00'
+assets: []

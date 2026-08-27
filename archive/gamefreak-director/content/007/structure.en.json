@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "article": 7,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "There are many ways to create games\n\nbut the way we work at Game Freak may be a little different\n\nfrom other companies.",
+      "images": [],
+      "source_html": "<p>There are many ways to create games<br/>\r\nbut the way we work at Game Freak may be a little different<br/>\r\nfrom other companies.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is,",
+      "images": [],
+      "source_html": "<p>That is,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We constantly change and tweak what we have come up with.",
+      "images": [],
+      "source_html": "<p>We constantly change and tweak what we have come up with.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To make a fun game even more fun and polish it up,\n\nwe take what we have made and start thinking about it\n\nfrom scratch.\n\nAnd to make the game the most fun to play\n\nwe make endless changes and tweaks\n\nno matter how long it takes.",
+      "images": [],
+      "source_html": "<p>To make a fun game even more fun and polish it up,<br/>\r\nwe take what we have made and start thinking about it<br/>\r\nfrom scratch.<br/>\r\nAnd to make the game the most fun to play<br/>\r\nwe make endless changes and tweaks<br/>\r\nno matter how long it takes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It may not be the best way,\n\nbut I think these tweaks are important\n\nto make our games fun and better.\n\nAnd I’m always thankful for our staff\n\nwho are willing to do all these,\n\nfor their understanding and patience.",
+      "images": [],
+      "source_html": "<p>It may not be the best way,<br/>\r\nbut I think these tweaks are important<br/>\r\nto make our games fun and better.<br/>\r\nAnd I’m always thankful for our staff<br/>\r\nwho are willing to do all these,<br/>\r\nfor their understanding and patience.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How do we nail down an idea?\n\nWell…, let’s say we come up with\n\nthe idea of Janken (rock, paper, scissors).",
+      "images": [],
+      "source_html": "<p>How do we nail down an idea?<br/>\r\nWell…, let’s say we come up with<br/>\r\nthe idea of Janken (rock, paper, scissors).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You come up with the concept of Janken.\n\nThen you make up a rule like you win\n\nif you win 5 games of Janken, and\n\ncall it a feature.\n\nThis is the bare bones of the game.\n\nAnd it’s fun enough.",
+      "images": [],
+      "source_html": "<p>You come up with the concept of Janken.<br/>\r\nThen you make up a rule like you win<br/>\r\nif you win 5 games of Janken, and<br/>\r\ncall it a feature.<br/>\r\nThis is the bare bones of the game.<br/>\r\nAnd it’s fun enough.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But there’s no need to stop there.\n\nHow about you can hit the opponent’s hand\n\n(‘shippe’ in Japanese) after 5 wins?\n\nAnd we put that into the game.\n\nThings start to get exciting. Great.",
+      "images": [],
+      "source_html": "<p>But there’s no need to stop there.<br/>\r\nHow about you can hit the opponent’s hand<br/>\r\n(‘shippe’ in Japanese) after 5 wins?<br/>\r\nAnd we put that into the game.<br/>\r\nThings start to get exciting. Great.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But there must be more and more.\n\nHow about when you win Janken,\n\nyou can play ‘Acchi Muite Hoi’\n\n(What is Acchi Muite Hoi? see http://en.wikipedia.org/wiki/Janken)\n\nWhen you win Acchi Muite Hoi three times,\n\nyou can do the shippe.\n\nGetting more interesting.",
+      "images": [],
+      "source_html": "<p>But there must be more and more.<br/>\r\nHow about when you win Janken,<br/>\r\nyou can play ‘Acchi Muite Hoi’<br/>\r\n(What is Acchi Muite Hoi? see http://en.wikipedia.org/wiki/Janken)<br/>\r\nWhen you win Acchi Muite Hoi three times,<br/>\r\nyou can do the shippe.<br/>\r\nGetting more interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But I need to come up with more and more ideas.\n\nHow about you score one point\n\neach time you do the shippe,\n\nand the one who collects 10 points first wins?\n\nAnd I put that into the game.\n\nIt’s a bit too long.ﾂ? This is too much.",
+      "images": [],
+      "source_html": "<p>But I need to come up with more and more ideas.<br/>\r\nHow about you score one point<br/>\r\neach time you do the shippe,<br/>\r\nand the one who collects 10 points first wins?<br/>\r\nAnd I put that into the game.<br/>\r\nIt’s a bit too long.ﾂ? This is too much.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Isn’t there another way to make it more fun?\n\nwhat if we can play ‘Acchi Muite Hoi’ with both of our hands?\n\nSo I put it into the game.\n\nWell, it’s OK but not much different from\n\nwhen we play with only one hand and much more difficult to play.\n\nNot a very good idea.",
+      "images": [],
+      "source_html": "<p>Isn’t there another way to make it more fun?<br/>\r\nwhat if we can play ‘Acchi Muite Hoi’ with both of our hands?<br/>\r\nSo I put it into the game.<br/>\r\nWell, it’s OK but not much different from<br/>\r\nwhen we play with only one hand and much more difficult to play.<br/>\r\nNot a very good idea.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So I look at it from a different angle.\n\nWhen You win Acchi Muite Hoi once,\n\nyou can do the shippe to the opponent.\n\nAfter you shippe the opponent three times,\n\nyou can draw a picture on the opponent’s face with ink.\n\nGreat!ﾂ? It’s really hot!!\n\nYou can play for a long time without getting bored!",
+      "images": [],
+      "source_html": "<p>So I look at it from a different angle.<br/>\r\nWhen You win Acchi Muite Hoi once,<br/>\r\nyou can do the shippe to the opponent.<br/>\r\nAfter you shippe the opponent three times,<br/>\r\nyou can draw a picture on the opponent’s face with ink.<br/>\r\nGreat!ﾂ? It’s really hot!!<br/>\r\nYou can play for a long time without getting bored!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This way (although this was only a sketch)\n\nI take one game and try to think of the ways\n\nto make it the most fun to play.",
+      "images": [],
+      "source_html": "<p>This way (although this was only a sketch)<br/>\r\nI take one game and try to think of the ways<br/>\r\nto make it the most fun to play.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It takes time, true…\n\nbut the end results show that it’s worth the effort.",
+      "images": [],
+      "source_html": "<p>It takes time, true…<br/>\r\nbut the end results show that it’s worth the effort.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To come up with ideas that will make a familiar game\n\nmore fun to play.\n\nTry it yourself!",
+      "images": [],
+      "source_html": "<p>To come up with ideas that will make a familiar game<br/>\r\nmore fun to play.<br/>\r\nTry it yourself!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See you!",
+      "images": [],
+      "source_html": "<p>See you!</p>"
+    }
+  ]
+}

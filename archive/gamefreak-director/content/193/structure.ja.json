@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "article": 193,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "音楽スタジオに行ってきました！",
+      "images": [],
+      "source_html": "<p>音楽スタジオに行ってきました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "土曜日はあいにくの雨。",
+      "images": [],
+      "source_html": "<p>土曜日はあいにくの雨。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そんな中、東京は赤羽橋駅から東京タワーを横目に音楽スタジオへ！",
+      "images": [],
+      "source_html": "<p>そんな中、東京は赤羽橋駅から東京タワーを横目に音楽スタジオへ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今年の映画はポケモン史上初の２本上映！\n\n２本同時ではありません、、、２本別々に上映です！！",
+      "images": [],
+      "source_html": "<p>今年の映画はポケモン史上初の２本上映！<br/>\r\n２本同時ではありません、、、２本別々に上映です！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "タイトルは、\n\n「ビクティニと黒き英雄ゼクロム」と「ビクティニと白き英雄レシラム」",
+      "images": [],
+      "source_html": "<p>タイトルは、<br/>\r\n「ビクティニと黒き英雄ゼクロム」と「ビクティニと白き英雄レシラム」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、音楽はなんと！２人の作曲家がそれぞれを担当！\n\nなんともすごい！豪華です。",
+      "images": [],
+      "source_html": "<p>そして、音楽はなんと！２人の作曲家がそれぞれを担当！<br/>\r\nなんともすごい！豪華です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、２つの音楽を聞き比べてくださいね。",
+      "images": [],
+      "source_html": "<p>ぜひ、２つの音楽を聞き比べてくださいね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "作曲家の宮崎さん、の後頭部！！いつもお世話になってます！\n\n{% image id=\"193-ja-193a\" %}",
+      "images": [
+        "193-ja-193a"
+      ],
+      "source_html": "<p>作曲家の宮崎さん、の後頭部！！いつもお世話になってます！<br/>\n<img alt=\"193a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/05/193a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "１人１人の芸術家が奏でる１つ１つの楽器。最高の音楽が生まれる瞬間です。\n\n{% image id=\"193-ja-193b\" %}",
+      "images": [
+        "193-ja-193b"
+      ],
+      "source_html": "<p>１人１人の芸術家が奏でる１つ１つの楽器。最高の音楽が生まれる瞬間です。<br/>\n<img alt=\"193b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/05/193b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こうして素晴らしい音楽が奏でられていきます！",
+      "images": [],
+      "source_html": "<p>こうして素晴らしい音楽が奏でられていきます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "映像とリンクして作曲されて、\n\nしかも、スタジオのモニターにも映像が流れるんです。\n\n{% image id=\"193-ja-193c\" %}\n\n映画音楽ってほんと良いですね。\n\nこういう瞬間に立ち会えるのは本当に嬉しい事です。",
+      "images": [
+        "193-ja-193c"
+      ],
+      "source_html": "<p>映像とリンクして作曲されて、<br/>\r\nしかも、スタジオのモニターにも映像が流れるんです。<br/>\n<img alt=\"193c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/05/193c.jpg\"/><br/>\r\n映画音楽ってほんと良いですね。<br/>\r\nこういう瞬間に立ち会えるのは本当に嬉しい事です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "と、感動しつつ、帰りには雨の中の東京タワー。\n\n{% image id=\"193-ja-193d\" %}\n\nてっぺんが雲に覆われてます。\n\nそして、この日のライトアップも美しく希望の光のよう。",
+      "images": [
+        "193-ja-193d"
+      ],
+      "source_html": "<p>と、感動しつつ、帰りには雨の中の東京タワー。<br/>\n<img alt=\"193d.jpg\" src=\"/blog/dir/wp-content/uploads/2011/05/193d.jpg\"/><br/>\r\nてっぺんが雲に覆われてます。<br/>\r\nそして、この日のライトアップも美しく希望の光のよう。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "音楽に感動し、\n\n東京タワーにも感動しつつ。\n\n素晴らしい土曜日でした。",
+      "images": [],
+      "source_html": "<p>音楽に感動し、<br/>\r\n東京タワーにも感動しつつ。<br/>\r\n素晴らしい土曜日でした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

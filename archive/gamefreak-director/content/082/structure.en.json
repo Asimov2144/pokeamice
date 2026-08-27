@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 82,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hi, it’s Masuda reporting from New York.",
+      "images": [],
+      "source_html": "<p>Hi, it’s Masuda reporting from New York.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today, April 22nd at 8 am (US time),\n\nPokemon Diamond & Pearl was released at\n\nthe NINTENDO WORLD in the Rockefeller Center!",
+      "images": [],
+      "source_html": "<p>Today, April 22nd at 8 am (US time),<br/>\r\nPokemon Diamond &amp; Pearl was released at<br/>\r\nthe NINTENDO WORLD in the Rockefeller Center!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "People started to wait in line from last night,\n\nand at 7:30 in the morning more than\n\n200 people were standing in line in front of\n\nthe store!!\n\nAwesome! Only to think how cold it is\n\nin the morning in New York…\n\nIt was so gratifying!",
+      "images": [],
+      "source_html": "<p>People started to wait in line from last night,<br/>\r\nand at 7:30 in the morning more than<br/>\r\n200 people were standing in line in front of<br/>\r\nthe store!!<br/>\r\nAwesome! Only to think how cold it is<br/>\r\nin the morning in New York…<br/>\r\nIt was so gratifying!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With this release, North America and Japan\n\nwill finally be connected!\n\nUntil now, you could basically trade Pokemon\n\nonly within your country, but with Diamond &\n\nPearl, trading becomes global, going beyond\n\nthe national boundaries.\n\nA game where you can feel the Earth.\n\nIt was one of our visions.",
+      "images": [],
+      "source_html": "<p>With this release, North America and Japan<br/>\r\nwill finally be connected!<br/>\r\nUntil now, you could basically trade Pokemon<br/>\r\nonly within your country, but with Diamond &amp;<br/>\r\nPearl, trading becomes global, going beyond<br/>\r\nthe national boundaries.<br/>\r\nA game where you can feel the Earth.<br/>\r\nIt was one of our visions.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Back to the original topic…\n\nI felt very happy to find a huge number of\n\npeople gathered at the stage event!!\n\nThe audience seemed to be older kids,\n\nmost of whom around 12 to 15,\n\nwhich was surprising to me.\n\nI believe they had a good time!\n\nAfter that, we had an autograph session, and\n\nbecause so many people stood in line,\n\nwe couldn’t finish it in the scheduled 30\n\nminutes. In the end we had to call it off\n\nbefore everyone could receive an autograph.\n\nWe’re sorry! It was a good learning experience!!",
+      "images": [],
+      "source_html": "<p>Back to the original topic…<br/>\r\nI felt very happy to find a huge number of<br/>\r\npeople gathered at the stage event!!<br/>\r\nThe audience seemed to be older kids,<br/>\r\nmost of whom around 12 to 15,<br/>\r\nwhich was surprising to me.<br/>\r\nI believe they had a good time!<br/>\r\nAfter that, we had an autograph session, and<br/>\r\nbecause so many people stood in line,<br/>\r\nwe couldn’t finish it in the scheduled 30<br/>\r\nminutes. In the end we had to call it off<br/>\r\nbefore everyone could receive an autograph.<br/>\r\nWe’re sorry! It was a good learning experience!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, Pokemon fans!!\n\nToday, April 22nd, is not only the day we\n\ncelebrate the new release, but an anniversary\n\nwhen Japan and North America is connected through\n\nour game!!\n\nCongratulations! Pokemon Diamond! & Pearl!",
+      "images": [],
+      "source_html": "<p>So, Pokemon fans!!<br/>\r\nToday, April 22nd, is not only the day we<br/>\r\ncelebrate the new release, but an anniversary<br/>\r\nwhen Japan and North America is connected through<br/>\r\nour game!!<br/>\r\nCongratulations! Pokemon Diamond! &amp; Pearl!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

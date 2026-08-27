@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 128,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Attention!\n\nWe are going to have a special video game tournament event!\n\nPokemon Trainers from Japan and the United States,\n\naim for the top Pokemon Trainer!",
+      "images": [],
+      "source_html": "<p>Attention!<br/>\r\nWe are going to have a special video game tournament event!<br/>\r\nPokemon Trainers from Japan and the United States,<br/>\r\naim for the top Pokemon Trainer!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The event title is,\n\nPokemon VIDEO GAME SHOWDOWN 2008!",
+      "images": [],
+      "source_html": "<p>The event title is,<br/>\r\nPokemon VIDEO GAME SHOWDOWN 2008!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The championship’s final will be held in Orlando, Florida!\n\nThe game “Pokemon Diamond / Pearl”\n\nfor Nintendo DS will be used.",
+      "images": [],
+      "source_html": "<p>The championship’s final will be held in Orlando, Florida!<br/>\r\nThe game “Pokemon Diamond / Pearl”<br/>\r\nfor Nintendo DS will be used.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The Pokemon Trainers from Japan have already selected.\n\nLast year, we had a Pokemon battle tournament in Japan,\n\nand the finalists will be there.\n\nAnd now, we are looking for the Trainers in the United States.",
+      "images": [],
+      "source_html": "<p>The Pokemon Trainers from Japan have already selected.<br/>\r\nLast year, we had a Pokemon battle tournament in Japan,<br/>\r\nand the finalists will be there.<br/>\r\nAnd now, we are looking for the Trainers in the United States.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the web sight!\n\n[http://showdown.Pokemon.com/](http://showdown.Pokemon.com/)",
+      "images": [],
+      "source_html": "<p>Here’s the web sight!<br/>\n<a href=\"http://showdown.Pokemon.com/\" target=\"_blank\">http://showdown.Pokemon.com/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The video footage on this web is extremely cool!\n\nThe count down to the showdown has already started!\n\nIt’s quite exciting.",
+      "images": [],
+      "source_html": "<p>The video footage on this web is extremely cool!<br/>\r\nThe count down to the showdown has already started!<br/>\r\nIt’s quite exciting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The Pokemon Trainers in the United States,\n\nplease join this event!!",
+      "images": [],
+      "source_html": "<p>The Pokemon Trainers in the United States,<br/>\r\nplease join this event!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… one of my dream become true!\n\nOf course, I’m planning to be in Orlando, too!\n\nI’m looking forward to this event!\n\nThis 2008, who will be the ultimate Pokemon Trainer of all?",
+      "images": [],
+      "source_html": "<p>And… one of my dream become true!<br/>\r\nOf course, I’m planning to be in Orlando, too!<br/>\r\nI’m looking forward to this event!<br/>\r\nThis 2008, who will be the ultimate Pokemon Trainer of all?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

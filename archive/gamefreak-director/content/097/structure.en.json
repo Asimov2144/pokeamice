@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 97,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "We started a campaign for Pokemon fans in North America\n\nto promote Pokemon trade!",
+      "images": [],
+      "source_html": "<p>We started a campaign for Pokemon fans in North America<br/>\r\nto promote Pokemon trade!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is an event where the users in North America\n\ncan trade their Ponyta with the three of Game Freak\n\nstaff’s Psyduck.",
+      "images": [],
+      "source_html": "<p>This is an event where the users in North America<br/>\r\ncan trade their Ponyta with the three of Game Freak<br/>\r\nstaff’s Psyduck.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m speaking in English in View Interview Video,\n\nalthough it’s a bit embarrassing.\n\n(I didn’t know where to look at…)",
+      "images": [],
+      "source_html": "<p>I’m speaking in English in View Interview Video,<br/>\r\nalthough it’s a bit embarrassing.<br/>\r\n(I didn’t know where to look at…)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At first I was supposed to talk in Japanese and have\n\nEnglish subtitles, but at the last minute we decided\n\nthat I’d better speak in English. That’s because\n\nchildren in North America are not used to reading\n\nsubtitles, and I didn’t want to make it hard for them\n\nto understand me. I thought it would be easier to\n\nshow my passion and to make them feel me as a real\n\nperson at the same time if I talk in English.",
+      "images": [],
+      "source_html": "<p>At first I was supposed to talk in Japanese and have<br/>\r\nEnglish subtitles, but at the last minute we decided<br/>\r\nthat I’d better speak in English. That’s because<br/>\r\nchildren in North America are not used to reading<br/>\r\nsubtitles, and I didn’t want to make it hard for them<br/>\r\nto understand me. I thought it would be easier to<br/>\r\nshow my passion and to make them feel me as a real<br/>\r\nperson at the same time if I talk in English.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I practiced it many times…\n\nMy teacher patiently taught and corrected me\n\nso many times, so it seems that my English is good\n\nenough for kids to understand me.\n\nI’m so relieved…",
+      "images": [],
+      "source_html": "<p>I practiced it many times…<br/>\r\nMy teacher patiently taught and corrected me<br/>\r\nso many times, so it seems that my English is good<br/>\r\nenough for kids to understand me.<br/>\r\nI’m so relieved…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The official NOA website: Pokemon-games:",
+      "images": [],
+      "source_html": "<p>The official NOA website: Pokemon-games:</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "http://www.pokemon-games.com/portal/gamenews.jsp",
+      "images": [],
+      "source_html": "<p>http://www.pokemon-games.com/portal/gamenews.jsp</p>"
+    }
+  ]
+}

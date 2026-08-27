@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "article": 95,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On August 7th (Tue), I went to a concert called\n\n“PIKACHU THE LIVE” held at Tokyo International\n\nForum! I saw the stage starting at 4 pm, and\n\nI was really surprised to find such a huge crowd\n\nthere!",
+      "images": [],
+      "source_html": "<p>On August 7th (Tue), I went to a concert called<br/>\r\n“PIKACHU THE LIVE” held at Tokyo International<br/>\r\nForum! I saw the stage starting at 4 pm, and<br/>\r\nI was really surprised to find such a huge crowd<br/>\r\nthere!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Sound Tracks was performed with\n\nMr. Miyazaki as the conductor,\n\nand they brought back fond memories.\n\nMiss Shoko Nakagawa made me feel like it was\n\nthe fun Pokemon Sunday program.\n\nWhen the song “Mezase Pokemon Master\n\n(the first opening theme song of Pokemon TV animation)”\n\nwas performed, I nearly cried.\n\nLucario’s wave showed the first three Pokemon\n\nonly vaguely, and everyone shouted ‘Pipluuup!!!’\n\nGurin-san made us smile, and Miss Asuka Hayashi’s\n\nJirachi moved us.\n\nSowelu san did a great job of imitating Manaphy,\n\nand when Miss Fumie Akiyoshi sang her song\n\n“Together (the recent ending song of Pokemon TV\n\nanimation)” we all did the routine ‘Good! Good!\n\nSmiiiile!’\n\nI totally enjoyed myself! It was such fun!!!",
+      "images": [],
+      "source_html": "<p>Pokemon Sound Tracks was performed with<br/>\r\nMr. Miyazaki as the conductor,<br/>\r\nand they brought back fond memories.<br/>\r\nMiss Shoko Nakagawa made me feel like it was<br/>\r\nthe fun Pokemon Sunday program.<br/>\r\nWhen the song “Mezase Pokemon Master<br/>\r\n(the first opening theme song of Pokemon TV animation)”<br/>\r\nwas performed, I nearly cried.<br/>\r\nLucario’s wave showed the first three Pokemon<br/>\r\nonly vaguely, and everyone shouted ‘Pipluuup!!!’<br/>\r\nGurin-san made us smile, and Miss Asuka Hayashi’s<br/>\r\nJirachi moved us.<br/>\r\nSowelu san did a great job of imitating Manaphy,<br/>\r\nand when Miss Fumie Akiyoshi sang her song<br/>\r\n“Together (the recent ending song of Pokemon TV<br/>\r\nanimation)” we all did the routine ‘Good! Good!<br/>\r\nSmiiiile!’<br/>\r\nI totally enjoyed myself! It was such fun!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, well…\n\nIt was such a wonderful concert.\n\nI was really moved, and I felt so lucky to enjoy\n\nsuch a great concert.",
+      "images": [],
+      "source_html": "<p>Oh, well…<br/>\r\nIt was such a wonderful concert.<br/>\r\nI was really moved, and I felt so lucky to enjoy<br/>\r\nsuch a great concert.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This concert was held to celebrate the\n\n10th anniversary of Pokemon movies,\n\nand it made me feel that I’d like to go to\n\na concert like this every year…\n\nI know it’s not easily done… but I honestly felt\n\nthat way. The concert was that good.",
+      "images": [],
+      "source_html": "<p>This concert was held to celebrate the<br/>\r\n10th anniversary of Pokemon movies,<br/>\r\nand it made me feel that I’d like to go to<br/>\r\na concert like this every year…<br/>\r\nI know it’s not easily done… but I honestly felt<br/>\r\nthat way. The concert was that good.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And of course!\n\nThank you so much for those of you who came\n\nto the concert, and those of you who supported us!\n\nI’m sure I have received a lot of energies from you!",
+      "images": [],
+      "source_html": "<p>And of course!<br/>\r\nThank you so much for those of you who came<br/>\r\nto the concert, and those of you who supported us!<br/>\r\nI’m sure I have received a lot of energies from you!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I was on my way home, I was lucky to meet\n\npeople who have been supporting me!\n\nIt was great to meet you!\n\nThank you very much!!!",
+      "images": [],
+      "source_html": "<p>When I was on my way home, I was lucky to meet<br/>\r\npeople who have been supporting me!<br/>\r\nIt was great to meet you!<br/>\r\nThank you very much!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"095-multi-dscf0003.thumbnail\" %}",
+      "images": [
+        "095-multi-dscf0003.thumbnail"
+      ],
+      "source_html": "<p><img alt=\"dscf0003.JPG\" height=\"111\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/dscf0003.thumbnail.JPG\" width=\"148\"/></p>"
+    }
+  ]
+}

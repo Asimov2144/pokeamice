@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 42,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "No. 42\n\ncategory: creative",
+      "images": [],
+      "source_html": "<p>No. 42<br/>\r\ncategory: creative</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game design is nothing but design. Therefore,\n\nit will not work if you only prioritize\n\nfunctions and playability over other aspects.",
+      "images": [],
+      "source_html": "<p>Game design is nothing but design. Therefore,<br/>\r\nit will not work if you only prioritize<br/>\r\nfunctions and playability over other aspects.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You need to think of a game as a whole,\n\nas a piece of work and also as a product.\n\nWhile examining its overall balance,\n\nyou need to take much time and care to\n\nelaborate it into a polished product.",
+      "images": [],
+      "source_html": "<p>You need to think of a game as a whole,<br/>\r\nas a piece of work and also as a product.<br/>\r\nWhile examining its overall balance,<br/>\r\nyou need to take much time and care to<br/>\r\nelaborate it into a polished product.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s like CD albums in music.\n\nAn album may contain various styles from\n\na hard-rocking tune to a ballad.\n\nIf all the songs on an album are of the same\n\nkind, you will get exhausted.\n\nYou can’t do it too much, and you can’t do\n\nit too less.",
+      "images": [],
+      "source_html": "<p>It’s like CD albums in music.<br/>\r\nAn album may contain various styles from<br/>\r\na hard-rocking tune to a ballad.<br/>\r\nIf all the songs on an album are of the same<br/>\r\nkind, you will get exhausted.<br/>\r\nYou can’t do it too much, and you can’t do<br/>\r\nit too less.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In terms of playability,\n\neach player makes their individual judgment\n\nwhen there are some aspects in a game\n\nthat may be hard to play, not user-friendly,\n\nor inconvenient.\n\nSo, “who” finds it hard to play is the\n\nfundamental question, I think.",
+      "images": [],
+      "source_html": "<p>In terms of playability,<br/>\r\neach player makes their individual judgment<br/>\r\nwhen there are some aspects in a game<br/>\r\nthat may be hard to play, not user-friendly,<br/>\r\nor inconvenient.<br/>\r\nSo, <strong>“who”</strong> finds it hard to play is the<br/>\r\nfundamental question, I think.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Do kids in Australia really think so?\n\nI think this is the most important question.",
+      "images": [],
+      "source_html": "<p>Do kids in Australia really think so?<br/>\r\nI think this is the most important question.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We can appreciate convenience only when\n\nwe’re surrounded by inconvenience.\n\nI think it’s part of design to have elements\n\nthat might be inconvenient to some people.",
+      "images": [],
+      "source_html": "<p>We can appreciate convenience only when<br/>\r\nwe’re surrounded by inconvenience.<br/>\r\nI think it’s part of design to have elements<br/>\r\nthat might be inconvenient to some people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

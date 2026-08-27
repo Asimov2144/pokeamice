@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 22,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, I went to the Nintendo DS launch party.",
+      "images": [],
+      "source_html": "<p>Today, I went to the Nintendo DS launch party.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Once again I realized it’s a piece of hardware that\n\nexpands the dream of gaming with many interesting features.\n\nThis machine is really cool.",
+      "images": [],
+      "source_html": "<p>Once again I realized it’s a piece of hardware that<br/>\r\nexpands the dream of gaming with many interesting features.<br/>\r\nThis machine is really cool.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As announced at the ceremony by Mr. Ishihara of\n\nthe Pokemon company, we at Game Freak are\n\nin the midst of developing",
+      "images": [],
+      "source_html": "<p>As announced at the ceremony by Mr. Ishihara of<br/>\r\nthe Pokemon company, we at Game Freak are<br/>\r\nin the midst of developing</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Diamond, and\n\nPokemon Pearl.",
+      "images": [],
+      "source_html": "<p>Pokemon Diamond, and<br/>\r\nPokemon Pearl.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There is nothing I can say about these games\n\nat this moment, but we are hard at work night\n\nand day to make the ultimate Pokemon software.",
+      "images": [],
+      "source_html": "<p>There is nothing I can say about these games<br/>\r\nat this moment, but we are hard at work night<br/>\r\nand day to make the ultimate Pokemon software.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "No joking. It’s going to be really fun.",
+      "images": [],
+      "source_html": "<p>No joking. It’s going to be really fun.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’d like to ask for your support and encouragement!",
+      "images": [],
+      "source_html": "<p>I’d like to ask for your support and encouragement!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

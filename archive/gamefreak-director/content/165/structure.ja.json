@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 165,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさん",
+      "images": [],
+      "source_html": "<p>みなさん</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "まじ暑いですね。。。\n\n暑いと言えば夏。\n\n夏と言えば、ポケモン！！\n\nポケモンといえば、体力回復の場所、ポケモンセンター！！！",
+      "images": [],
+      "source_html": "<p>まじ暑いですね。。。<br/>\r\n暑いと言えば夏。<br/>\r\n夏と言えば、ポケモン！！<br/>\r\nポケモンといえば、体力回復の場所、ポケモンセンター！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ということで、疲れたときはポケモンセンタートウキョーにて、\n\n体力を回復しているマスダですが、\n\n今年のポケセンはピカピカで、回復しまくりです（笑）",
+      "images": [],
+      "source_html": "<p>ということで、疲れたときはポケモンセンタートウキョーにて、<br/>\r\n体力を回復しているマスダですが、<br/>\r\n今年のポケセンはピカピカで、回復しまくりです（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そんなピカピカをチェックしていたら発見！\n\n「ポケモンセンターオフィシャル　スタッフボイス」\n\n[http://voice.pokemon.co.jp/v-zenkoku/](http://voice.pokemon.co.jp/v-zenkoku/)",
+      "images": [],
+      "source_html": "<p>そんなピカピカをチェックしていたら発見！<br/>\r\n「ポケモンセンターオフィシャル　スタッフボイス」<br/>\n<a href=\"http://voice.pokemon.co.jp/v-zenkoku/\" target=\"_blank\">http://voice.pokemon.co.jp/v-zenkoku/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、、、見たことありますか？\n\n恥ずかしながら、今日知った（汗）",
+      "images": [],
+      "source_html": "<p>みなさん、、、見たことありますか？<br/>\r\n恥ずかしながら、今日知った（汗）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "で、、、このサイトの写真、、、誰の家で撮った写真なんだろ。。。",
+      "images": [],
+      "source_html": "<p>で、、、このサイトの写真、、、誰の家で撮った写真なんだろ。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

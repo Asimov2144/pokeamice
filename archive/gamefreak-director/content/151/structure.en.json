@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "article": 151,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "From August 12th thru 17th, I’ve visited San Diego (USA).",
+      "images": [],
+      "source_html": "<p>From August 12th thru 17th, I’ve visited San Diego (USA).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "San Diego locates south of Los Angeles Airport.\n\nIt’s about two hour drive.\n\nAround this time of the year in Japan, climate of both\n\ntemperature and humidity are high and hot.\n\nBut here in San Diego, since humidity is very low,\n\nthe place was very comfortable to stay! Less sweat!",
+      "images": [],
+      "source_html": "<p>San Diego locates south of Los Angeles Airport.<br/>\r\nIt’s about two hour drive.<br/>\r\nAround this time of the year in Japan, climate of both<br/>\r\ntemperature and humidity are high and hot.<br/>\r\nBut here in San Diego, since humidity is very low,<br/>\r\nthe place was very comfortable to stay! Less sweat!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And there was…",
+      "images": [],
+      "source_html": "<p>And there was…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon World Championships 2009!!",
+      "images": [],
+      "source_html": "<p>Pokemon World Championships 2009!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Both, Video game and Trading Card Tournament\n\nwere just extremely furious!!\n\nHot battles were held everywhere!\n\nBut the actual temperature was just chilled\n\nbecause of air conditioners! Freezing! {% image id=\"151-en-icon_cool\" %}",
+      "images": [
+        "151-en-icon_cool"
+      ],
+      "source_html": "<p>Both, Video game and Trading Card Tournament<br/>\r\nwere just extremely furious!!<br/>\r\nHot battles were held everywhere!<br/>\r\nBut the actual temperature was just chilled<br/>\r\nbecause of air conditioners! Freezing! <img alt=\"8-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_cool.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There were more than 130 people were\n\nstanding in the line for my autograph!\n\nThank you very very much!",
+      "images": [],
+      "source_html": "<p>There were more than 130 people were<br/>\r\nstanding in the line for my autograph!<br/>\r\nThank you very very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I grant an interview of Pokemon Sunday.\n\nIt will be aired on Sunday August 30th! Please watch!",
+      "images": [],
+      "source_html": "<p>I grant an interview of Pokemon Sunday.<br/>\r\nIt will be aired on Sunday August 30th! Please watch!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At the closing ceremony,\n\na commendation for Video Game World Champion was held.\n\nChamp of the world! Isn’t it just awesome?",
+      "images": [],
+      "source_html": "<p>At the closing ceremony,<br/>\r\na commendation for Video Game World Champion was held.<br/>\r\nChamp of the world! Isn’t it just awesome?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As same as the other year,\n\nthis year’s championship was also just wonderful!",
+      "images": [],
+      "source_html": "<p>As same as the other year,<br/>\r\nthis year’s championship was also just wonderful!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(“Pokemon Sunday” is a TV program\n\nwhich only aired in Japan.)",
+      "images": [],
+      "source_html": "<p>*(“Pokemon Sunday” is a TV program<br/>\r\nwhich only aired in Japan.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s little more.\n\n[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)\n\n[http://www.go-pokemon.com/worlds/2009/](http://www.go-pokemon.com/worlds/2009/)\n\n[http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html](http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html)",
+      "images": [],
+      "source_html": "<p>Here’s little more.<br/>\n<a href=\"http://www.pokemon.co.jp/special/wcs0809/\" target=\"_blank\">http://www.pokemon.co.jp/special/wcs0809/</a><br/>\n<a href=\"http://www.go-pokemon.com/worlds/2009/\" target=\"_blank\">http://www.go-pokemon.com/worlds/2009/</a><br/>\n<a href=\"http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html\" target=\"_blank\">http://latimesblogs.latimes.com/herocomplex/2009/08/world-pokemon-champions-crowned.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151a\" %}\n\nWCS was held at the Hilton San Diego Bayfront.\n\nThe hotel can be found in the back.",
+      "images": [
+        "151-multi-151a"
+      ],
+      "source_html": "<p><img alt=\"151a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151a.jpg\"/><br/>\r\nWCS was held at the Hilton San Diego Bayfront.<br/>\r\nThe hotel can be found in the back.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151b\" %}\n\nView from my room.\n\nIt’s just fun watching ships and conveying cargos. Time flies!",
+      "images": [
+        "151-multi-151b"
+      ],
+      "source_html": "<p><img alt=\"151b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151b.jpg\"/><br/>\r\nView from my room.<br/>\r\nIt’s just fun watching ships and conveying cargos. Time flies!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151c\" %}\n\nThere’re Dialga and Palkia outside of the hall.",
+      "images": [
+        "151-multi-151c"
+      ],
+      "source_html": "<p><img alt=\"151c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151c.jpg\"/><br/>\r\nThere’re Dialga and Palkia outside of the hall.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151d\" %}\n\nThere are tons of people everywhere!",
+      "images": [
+        "151-multi-151d"
+      ],
+      "source_html": "<p><img alt=\"151d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151d.jpg\"/><br/>\r\nThere are tons of people everywhere!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151e\" %}\n\nThis year, Video game and Trading Card tournament were held at the same hall.\n\nSerious battles!",
+      "images": [
+        "151-multi-151e"
+      ],
+      "source_html": "<p><img alt=\"151e.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151e.jpg\"/><br/>\r\nThis year, Video game and Trading Card tournament were held at the same hall.<br/>\r\nSerious battles!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151f\" %}\n\nThe final!",
+      "images": [
+        "151-multi-151f"
+      ],
+      "source_html": "<p><img alt=\"151f.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151f.jpg\"/><br/>\r\nThe final!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151h\" %}\n\nAutograph and hand shake of Kawachimaru and myself.",
+      "images": [
+        "151-multi-151h"
+      ],
+      "source_html": "<p><img alt=\"151h.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151h.jpg\"/><br/>\r\nAutograph and hand shake of Kawachimaru and myself.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151g\" %}\n\nI singned to a cap!",
+      "images": [
+        "151-multi-151g"
+      ],
+      "source_html": "<p><img alt=\"151g.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151g.jpg\"/><br/>\r\nI singned to a cap!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"151-multi-151i\" %}\n\nSun is stunning outside…",
+      "images": [
+        "151-multi-151i"
+      ],
+      "source_html": "<p><img alt=\"151i.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/08/151i.jpg\"/><br/>\r\nSun is stunning outside…</p>"
+    }
+  ]
+}

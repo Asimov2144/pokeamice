@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 154,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Finally, Blu-ray version released!\n\n“STAR TREK (2009)”",
+      "images": [],
+      "source_html": "<p>Finally, Blu-ray version released!<br/>\r\n“STAR TREK (2009)”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s just swell!\n\nPerfectly made!\n\nI got goosebumps all over me when\n\ninitial music came out!\n\nand also title logo came out!\n\nIts just well made!",
+      "images": [],
+      "source_html": "<p>It’s just swell!<br/>\r\nPerfectly made!<br/>\r\nI got goosebumps all over me when<br/>\r\ninitial music came out!<br/>\r\nand also title logo came out!<br/>\r\nIts just well made!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Good movie does agitates me.\n\nExpression of place, era, futuristic image\n\nwere just beautiful.\n\nNot only using narration and words,\n\nsmall detailed parts are explained by visual!",
+      "images": [],
+      "source_html": "<p>Good movie does agitates me.<br/>\r\nExpression of place, era, futuristic image<br/>\r\nwere just beautiful.<br/>\r\nNot only using narration and words,<br/>\r\nsmall detailed parts are explained by visual!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Scenario, conversations, visual, music,\n\nall of them are superb!\n\nI strongly recommend to watch this movie!",
+      "images": [],
+      "source_html": "<p>Scenario, conversations, visual, music,<br/>\r\nall of them are superb!<br/>\r\nI strongly recommend to watch this movie!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*If you don’t have a chance to see\n\nany STAR TREK movie,\n\nI recommend you to start with the old movie\n\nstarring William Shatner.",
+      "images": [],
+      "source_html": "<p>*If you don’t have a chance to see<br/>\r\nany STAR TREK movie,<br/>\r\nI recommend you to start with the old movie<br/>\r\nstarring William Shatner.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 19,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "People’s tastes are intriguing.",
+      "images": [],
+      "source_html": "<p>People’s tastes are intriguing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You might have a preference for girls\n\nwho wear only black or brown-colored clothes,\n\nand when you see someone like that on the street\n\nyou can’t help but stare at her, or",
+      "images": [],
+      "source_html": "<p>You might have a preference for girls<br/>\r\nwho wear only black or brown-colored clothes,<br/>\r\nand when you see someone like that on the street<br/>\r\nyou can’t help but stare at her, or</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can’t help noticing a girl if she has long hair, or\n\nif she wears a hat, or\n\nif she wears a choker, or\n\nif she wears a long skirt and a pair of boots, or\n\nif she wears special costumes or…",
+      "images": [],
+      "source_html": "<p>You can’t help noticing a girl if she has long hair, or<br/>\r\nif she wears a hat, or<br/>\r\nif she wears a choker, or<br/>\r\nif she wears a long skirt and a pair of boots, or<br/>\r\nif she wears special costumes or…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We all have these small preferences and likings that are\n\npurely individual.",
+      "images": [],
+      "source_html": "<p>We all have these small preferences and likings that are<br/>\r\npurely individual.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But there are times when a bunch of people meet\n\nand they all share a particular liking for something.\n\nThey have the same taste even though they grew up differently.",
+      "images": [],
+      "source_html": "<p>But there are times when a bunch of people meet<br/>\r\nand they all share a particular liking for something.<br/>\r\nThey have the same taste even though they grew up differently.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of course, they are not brothers or sisters,\n\nand they went to different schools.\n\nBut they share the sense of what is cool.\n\nIsn’t this strange?",
+      "images": [],
+      "source_html": "<p>Of course, they are not brothers or sisters,<br/>\r\nand they went to different schools.<br/>\r\nBut they share the sense of what is cool.<br/>\r\nIsn’t this strange?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Things and events that many people find attractive.\n\nIt seems we tend to notice them more quickly when\n\nthey have an appeal to a wider range of people.",
+      "images": [],
+      "source_html": "<p>Things and events that many people find attractive.<br/>\r\nIt seems we tend to notice them more quickly when<br/>\r\nthey have an appeal to a wider range of people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 68,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "As I wrote in the previous column,\n\nit is very difficult to express nuances in 3-D,\n\nand also it’s a very complicated process.\n\nHowever, once you come up with a format, you\n\ncan use it for many purposes.",
+      "images": [],
+      "source_html": "<p>As I wrote in the previous column,<br/>\r\nit is very difficult to express nuances in 3-D,<br/>\r\nand also it’s a very complicated process.<br/>\r\nHowever, once you come up with a format, you<br/>\r\ncan use it for many purposes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the field of Pokemon Diamond and Pearl,\n\nwe have set up a certain trick in places where\n\nyou feel the sense of hight, such as staircases,\n\nin order to let the player feel more interactive.",
+      "images": [],
+      "source_html": "<p>In the field of Pokemon Diamond and Pearl,<br/>\r\nwe have set up a certain trick in places where<br/>\r\nyou feel the sense of hight, such as staircases,<br/>\r\nin order to let the player feel more interactive.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What could it be?",
+      "images": [],
+      "source_html": "<p>What could it be?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In those moments only,\n\na certain function is on.",
+      "images": [],
+      "source_html": "<p>In those moments only,<br/>\r\na certain function is on.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is…",
+      "images": [],
+      "source_html": "<p>That is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Compared to the movement of the main character\n\n(player), the screen is a little behind.",
+      "images": [],
+      "source_html": "<p>Compared to the movement of the main character<br/>\r\n(player), the screen is a little behind.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Actually, the player character looks a little\n\nahead in the screen.\n\nWith this effect on, the players will feel more\n\ninteractive because the screen does not look\n\ntoo tight and makes you feel a sense of softness.",
+      "images": [],
+      "source_html": "<p>Actually, the player character looks a little<br/>\r\nahead in the screen.<br/>\r\nWith this effect on, the players will feel more<br/>\r\ninteractive because the screen does not look<br/>\r\ntoo tight and makes you feel a sense of softness.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can experience this effect when you\n\ngo up and down a staircase, for example.",
+      "images": [],
+      "source_html": "<p>You can experience this effect when you<br/>\r\ngo up and down a staircase, for example.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is such a small detail, but the screen was\n\nonly possible by carefully piling up these small details.",
+      "images": [],
+      "source_html": "<p>This is such a small detail, but the screen was<br/>\r\nonly possible by carefully piling up these small details.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "article": 8,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "An idea flashed into my mind!",
+      "images": [],
+      "source_html": "<p>An idea flashed into my mind!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I am a big music lover myself,\n\nand often felt something was missing in video games.",
+      "images": [],
+      "source_html": "<p>I am a big music lover myself,<br/>\r\nand often felt something was missing in video games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes,",
+      "images": [],
+      "source_html": "<p>Yes,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Live shows!",
+      "images": [],
+      "source_html": "<p>Live shows!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What game creators are in need right now is live shows!",
+      "images": [],
+      "source_html": "<p>What game creators are in need right now is live shows!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How am I going to put it?\n\nThese days it’s like we game creators are only selling CDs.\n\nI think I share this feeling with lots of other creators.\n\nIt’s difficult to get responses from video game players.\n\nAnd it’s also difficult to feel responsible for our products.",
+      "images": [],
+      "source_html": "<p>How am I going to put it?<br/>\r\nThese days it’s like we game creators are only selling CDs.<br/>\r\nI think I share this feeling with lots of other creators.<br/>\r\nIt’s difficult to get responses from video game players.<br/>\r\nAnd it’s also difficult to feel responsible for our products.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, I came up with an idea!",
+      "images": [],
+      "source_html": "<p>So, I came up with an idea!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "- how about creating a place where…\n\n- all previous games from Game Freak are put on the shelves, and\n\n- where visitors can play the games they want to play\n\nas long as they want to, and\n\n- where creators and players can chat with each other, and\n\n- where we hold occasional autograph sessions\n\nby graphic designers, and\n\n- where at night you can have a glass of beer or wine…",
+      "images": [],
+      "source_html": "<p>- how about creating a place where…<br/>\r\n- all previous games from Game Freak are put on the shelves, and<br/>\r\n- where visitors can play the games they want to play<br/>\r\nas long as they want to, and<br/>\r\n- where creators and players can chat with each other, and<br/>\r\n- where we hold occasional autograph sessions<br/>\r\nby graphic designers, and<br/>\r\n- where at night you can have a glass of beer or wine…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Hmm…\n\nSounds nice.",
+      "images": [],
+      "source_html": "<p>Hmm…<br/>\r\nSounds nice.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A place like that where all our staff can feel\n\nthe ‘live’ aspect of a concert and a sense of togetherness.",
+      "images": [],
+      "source_html": "<p>A place like that where all our staff can feel<br/>\r\nthe ‘live’ aspect of a concert and a sense of togetherness.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’d like to build a place like that.",
+      "images": [],
+      "source_html": "<p>I’d like to build a place like that.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Although I’m not sure many people would come to such a place.",
+      "images": [],
+      "source_html": "<p>Although I’m not sure many people would come to such a place.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But someday I hope to turn this idea into a reality!!!",
+      "images": [],
+      "source_html": "<p>But someday I hope to turn this idea into a reality!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

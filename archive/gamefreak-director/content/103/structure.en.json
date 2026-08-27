@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 103,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "In the last, 102nd column I wrote ‘I took\n\na ride in a Formula One car!!’ but…",
+      "images": [],
+      "source_html": "<p>In the last, 102nd column I wrote ‘I took<br/>\r\na ride in a Formula One car!!’ but…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As it turned out, I didn’t. I’m shocked…",
+      "images": [],
+      "source_html": "<p>As it turned out, I didn’t. I’m shocked…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I have to thank one of our staff who thoughtfully\n\npointed it out to me!",
+      "images": [],
+      "source_html": "<p>I have to thank one of our staff who thoughtfully<br/>\r\npointed it out to me!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In fact, it was a race car specified\n\nto run in Formula Nippon races!!",
+      "images": [],
+      "source_html": "<p>In fact, it was a race car specified<br/>\r\nto run in Formula Nippon races!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was so excited that I didn’t notice it!\n\nSo, it might be better to rewrite the 102nd\n\ncolumn…\n\nBut I’m of the opinion that when you write\n\nincorrectly, it’s better to write again when\n\nyou learn that what you’ve written is incorrect.\n\nSo I’m writing a column that says I made a mistake.",
+      "images": [],
+      "source_html": "<p>I was so excited that I didn’t notice it!<br/>\r\nSo, it might be better to rewrite the 102nd<br/>\r\ncolumn…<br/>\r\nBut I’m of the opinion that when you write<br/>\r\nincorrectly, it’s better to write again when<br/>\r\nyou learn that what you’ve written is incorrect.<br/>\r\nSo I’m writing a column that says I made a mistake.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This idea… is also good for games…",
+      "images": [],
+      "source_html": "<p>This idea… is also good for games…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Anyhow, the fact that I gave out misinformation\n\nremains…\n\nI apologize.",
+      "images": [],
+      "source_html": "<p>Anyhow, the fact that I gave out misinformation<br/>\r\nremains…<br/>\r\nI apologize.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But then, I’d still recommend it if you live\n\nnearby…",
+      "images": [],
+      "source_html": "<p>But then, I’d still recommend it if you live<br/>\r\nnearby…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

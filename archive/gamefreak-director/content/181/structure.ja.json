@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "article": 181,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさま",
+      "images": [],
+      "source_html": "<p>みなさま</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "新年あけましておめでとうございます。\n\n２０１１年もよろしくお願いいたします。",
+      "images": [],
+      "source_html": "<p>新年あけましておめでとうございます。<br/>\r\n２０１１年もよろしくお願いいたします。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "おめでたいので、めでたい話しを。\n\n１９９４年に発売した『パルスマン』の音楽が入ったサントラ\n\n「メガドライブ?ラストアクションヒーローズ」が発売されました！",
+      "images": [],
+      "source_html": "<p>おめでたいので、めでたい話しを。<br/>\r\n１９９４年に発売した『パルスマン』の音楽が入ったサントラ<br/>\r\n「メガドライブ?ラストアクションヒーローズ」が発売されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "パチ！パチ！パチ！パチ！！！\n\n嬉しーい！！！！",
+      "images": [],
+      "source_html": "<p>パチ！パチ！パチ！パチ！！！<br/>\r\n嬉しーい！！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "１９９４年と言えば、マスダまだ２８歳。。。わけー。",
+      "images": [],
+      "source_html": "<p>１９９４年と言えば、マスダまだ２８歳。。。わけー。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このときのマスダはプログラムと音楽、効果音を担当。\n\n低レベルのシステムから、当たり判定、描画まわり、\n\nラスタースクロール、カラーチェンジなどの演出系、\n\nボスキャラの動作やサウンドプログラムなど、\n\nさまざまなプログラムを書いてました。\n\n愛しのＵＮＩＸマシン上で（笑）",
+      "images": [],
+      "source_html": "<p>このときのマスダはプログラムと音楽、効果音を担当。<br/>\r\n低レベルのシステムから、当たり判定、描画まわり、<br/>\r\nラスタースクロール、カラーチェンジなどの演出系、<br/>\r\nボスキャラの動作やサウンドプログラムなど、<br/>\r\nさまざまなプログラムを書いてました。<br/>\r\n愛しのＵＮＩＸマシン上で（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "なので、、、パルスマンの曲名がそんな感じになってます。",
+      "images": [],
+      "source_html": "<p>なので、、、パルスマンの曲名がそんな感じになってます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そのプログラムの合間を縫って、音楽制作！！効果音制作！！",
+      "images": [],
+      "source_html": "<p>そのプログラムの合間を縫って、音楽制作！！効果音制作！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "メガドライブはＦＭ音源が入っているので、\n\n面白い音や時間的変化のある音を創ることができました。\n\n少しずつパラメータをいじって、音色を変えたり、\n\nドラムの音などはエフェクターでいじってからサンプリングするなど、\n\nかなーり、こだわったのを覚えています。\n\nタイトルもドラムはフレーズサンプリングですし。",
+      "images": [],
+      "source_html": "<p>メガドライブはＦＭ音源が入っているので、<br/>\r\n面白い音や時間的変化のある音を創ることができました。<br/>\r\n少しずつパラメータをいじって、音色を変えたり、<br/>\r\nドラムの音などはエフェクターでいじってからサンプリングするなど、<br/>\r\nかなーり、こだわったのを覚えています。<br/>\r\nタイトルもドラムはフレーズサンプリングですし。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いま聞くとポケモンっぽい曲もありますが、\n\n本来好きなテクノ路線バリバリです。",
+      "images": [],
+      "source_html": "<p>いま聞くとポケモンっぽい曲もありますが、<br/>\r\n本来好きなテクノ路線バリバリです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、買って聞いてみてください！！\n\n（セガストア）\n\n[http://ebten.jp/sega/p/4571164389950/](http://ebten.jp/sega/p/4571164389950/)",
+      "images": [],
+      "source_html": "<p>ぜひ、買って聞いてみてください！！<br/>\r\n（セガストア）<br/>\n<a href=\"http://ebten.jp/sega/p/4571164389950/\" target=\"_blank\">http://ebten.jp/sega/p/4571164389950/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "（アマゾン）\n\nMEGADRIVE ~LAST ACTION HEROES~\n\n[http://www.amazon.co.jp/dp/B004EE1Z02](http://www.amazon.co.jp/dp/B004EE1Z02)",
+      "images": [],
+      "source_html": "<p>（アマゾン）<br/>\r\nMEGADRIVE ~LAST ACTION HEROES~<br/>\n<a href=\"http://www.amazon.co.jp/dp/B004EE1Z02\" target=\"_blank\">http://www.amazon.co.jp/dp/B004EE1Z02</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、ちなみに、\n\nＳＥＧＡのメガドライブで開発したこのパルスマン、\n\nいまは、Ｗｉｉのバーチャルコンソールでプレイできますよ。\n\n[http://vc.sega.jp/vc_pulseman/](http://vc.sega.jp/vc_pulseman/)",
+      "images": [],
+      "source_html": "<p>あ、ちなみに、<br/>\r\nＳＥＧＡのメガドライブで開発したこのパルスマン、<br/>\r\nいまは、Ｗｉｉのバーチャルコンソールでプレイできますよ。<br/>\n<a href=\"http://vc.sega.jp/vc_pulseman/\" target=\"_blank\">http://vc.sega.jp/vc_pulseman/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "杉森さんのセガボイスも。\n\n[http://sega.jp/segavoice/vol65/](http://sega.jp/segavoice/vol65/)",
+      "images": [],
+      "source_html": "<p>杉森さんのセガボイスも。<br/>\n<a href=\"http://sega.jp/segavoice/vol65/\" target=\"_blank\">http://sega.jp/segavoice/vol65/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

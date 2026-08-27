@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 128,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "祝！テレビゲーム日米大会開催決定！",
+      "images": [],
+      "source_html": "<p>祝！テレビゲーム日米大会開催決定！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その名も、\n\nPokemon VIDEO GAME SHOWDOWN 2008！",
+      "images": [],
+      "source_html": "<p>その名も、<br/>\r\nPokemon VIDEO GAME SHOWDOWN 2008！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "決戦場所はアメリカ、フロリダのオーランド！\n\n使用ソフトはダイヤモンド・パール。",
+      "images": [],
+      "source_html": "<p>決戦場所はアメリカ、フロリダのオーランド！<br/>\r\n使用ソフトはダイヤモンド・パール。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "日本代表バトラーは昨年、日本一決定戦で戦ってくれた上位の方々。\n\nそしてアメリカでは今、参加者を募っています。",
+      "images": [],
+      "source_html": "<p>日本代表バトラーは昨年、日本一決定戦で戦ってくれた上位の方々。<br/>\r\nそしてアメリカでは今、参加者を募っています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "HPはここ！\n\n[http://showdown.pokemon.com](http://showdown.pokemon.com)",
+      "images": [],
+      "source_html": "<p>HPはここ！<br/>\n<a href=\"http://showdown.pokemon.com\" target=\"_blank\">http://showdown.pokemon.com</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ビデオが超クール！\n\nそして本戦までのカウントダウンも、すでに始まっています！\n\nドキドキですね。",
+      "images": [],
+      "source_html": "<p>ビデオが超クール！<br/>\r\nそして本戦までのカウントダウンも、すでに始まっています！<br/>\r\nドキドキですね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "アメリカのみなさん、是非参加してください！！\n\n※予選（LAかNY）と本戦に来ていただけるなら、どの国の方でもOK！",
+      "images": [],
+      "source_html": "<p>アメリカのみなさん、是非参加してください！！<br/>\r\n※予選（LAかNY）と本戦に来ていただけるなら、どの国の方でもOK！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これでまたマスダの夢の１つが実現します！",
+      "images": [],
+      "source_html": "<p>これでまたマスダの夢の１つが実現します！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "もちろん、マスダもオーランドに行く予定！\n\nすっごい楽しみにしてます！",
+      "images": [],
+      "source_html": "<p>もちろん、マスダもオーランドに行く予定！<br/>\r\nすっごい楽しみにしてます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２００８年、最強のトレーナーは誰だ！？",
+      "images": [],
+      "source_html": "<p>２００８年、最強のトレーナーは誰だ！？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

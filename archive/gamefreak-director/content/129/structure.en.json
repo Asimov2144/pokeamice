@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 129,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "As you might already know,\n\nwith purchasing this summer’s Pokemon movie pre-ticket,\n\nyou can receive Lv.100 REGIGIGAS!\n\n※Sorry, this promotion will be held only in Japan…",
+      "images": [],
+      "source_html": "<p>As you might already know,<br/>\r\nwith purchasing this summer’s Pokemon movie pre-ticket,<br/>\r\nyou can receive Lv.100 REGIGIGAS!<br/>\r\n※Sorry, this promotion will be held only in Japan…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you bring that REGIGIGAS to the new software\n\n『ポケットモンスター プラチナ』…\n\n※”Pocket Monsters Platinum (Japanese title)”",
+      "images": [],
+      "source_html": "<p>When you bring that REGIGIGAS to the new software<br/>\r\n『ポケットモンスター プラチナ』…<br/>\r\n※”Pocket Monsters Platinum (Japanese title)”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Surprise!!\n\nThere’s an event which appears\n\nREGIROCK, REGICE, REGISTEEL will be activated!!\n\n※Launch date of foreign language version’s\n\n“Pocket Monsters Platinum” is undecided.",
+      "images": [],
+      "source_html": "<p>Surprise!!<br/>\r\nThere’s an event which appears<br/>\r\nREGIROCK, REGICE, REGISTEEL will be activated!!<br/>\r\n※Launch date of foreign language version’s<br/>\r\n“Pocket Monsters Platinum” is undecided.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And the music when encounting these three Pokemon is,\n\nthe one you’ve heard in Pokemon Ruby, Sapphire and Emerald!\n\nHow nostalgic…",
+      "images": [],
+      "source_html": "<p>And the music when encounting these three Pokemon is,<br/>\r\nthe one you’ve heard in Pokemon Ruby, Sapphire and Emerald!<br/>\r\nHow nostalgic…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Addition to this, I wrote one more music to Pocket Monster Platinum.\n\nGuess what??? You might find it out if you listen to it…!?",
+      "images": [],
+      "source_html": "<p>Addition to this, I wrote one more music to Pocket Monster Platinum.<br/>\r\nGuess what??? You might find it out if you listen to it…!?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

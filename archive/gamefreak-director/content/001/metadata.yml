@@ -1,0 +1,30 @@
+id: masuda-001
+number: 1
+month: 2004-08
+roles:
+- first-entry
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
+    permalink: null
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: false
+    date: '2004-08-02'
+    date_display: 2004.08.02
+    categories:
+    - 日記
+    lead: 初めまして。
+    raw_page: archive/gamefreak-director/raw/ja/2004/08/index.html
+languages:
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:07+00:00'
+assets: []

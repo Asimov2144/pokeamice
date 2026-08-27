@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "article": 123,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On February 24th(Sun), I visited to the Kyocera Dome\n\nin Osaka.\n\n“I love Pokemon Club Party (Pokemon Daisuki Club Party)”\n\nwas held there!\n\nTo be precise, this event was exclusive to the members\n\nof Daisuki Club only.",
+      "images": [],
+      "source_html": "<p>On February 24th(Sun), I visited to the Kyocera Dome<br/>\r\nin Osaka.<br/>\r\n“I love Pokemon Club Party (Pokemon Daisuki Club Party)”<br/>\r\nwas held there!<br/>\r\nTo be precise, this event was exclusive to the members<br/>\r\nof Daisuki Club only.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The events were held one in the morning\n\nand the one in the afternoon.\n\nI was impressed by the numbers of the people\n\nand by thier extreme passion!\n\nMany games were ready to play.\n\nThe crowd, not only kids, but thier parent\n\nalso enjoyed games.",
+      "images": [],
+      "source_html": "<p>The events were held one in the morning<br/>\r\nand the one in the afternoon.<br/>\r\nI was impressed by the numbers of the people<br/>\r\nand by thier extreme passion!<br/>\r\nMany games were ready to play.<br/>\r\nThe crowd, not only kids, but thier parent<br/>\r\nalso enjoyed games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The Kyocera Dome is actually a size of baseball stadium.\n\nI should feel amplitude enough, but I couldn’t!",
+      "images": [],
+      "source_html": "<p>The Kyocera Dome is actually a size of baseball stadium.<br/>\r\nI should feel amplitude enough, but I couldn’t!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As I always feel, I really enjoyed the Pokemon events.\n\nI got very excited.",
+      "images": [],
+      "source_html": "<p>As I always feel, I really enjoyed the Pokemon events.<br/>\r\nI got very excited.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I went to see many spots.\n\nSuch as… I checked and realized that the game rules\n\nare really admirable.\n\nAlso, taking a lot of pictures.",
+      "images": [],
+      "source_html": "<p>I went to see many spots.<br/>\r\nSuch as… I checked and realized that the game rules<br/>\r\nare really admirable.<br/>\r\nAlso, taking a lot of pictures.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then… people started to gathering toward to the stage.\n\nYes, the Pokemon live show is just about to start!\n\nAt the entrance, “flowers” were handed over to\n\neach and every kids.\n\n(I wonder why…?)",
+      "images": [],
+      "source_html": "<p>Then… people started to gathering toward to the stage.<br/>\r\nYes, the Pokemon live show is just about to start!<br/>\r\nAt the entrance, “flowers” were handed over to<br/>\r\neach and every kids.<br/>\r\n(I wonder why…?)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On the stage,\n\nThe master of ceremony, Pokemon and audience,\n\nentire attendees search for mysterious Pokemon.",
+      "images": [],
+      "source_html": "<p>On the stage,<br/>\r\nThe master of ceremony, Pokemon and audience,<br/>\r\nentire attendees search for mysterious Pokemon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As show goes on, everybody in this event call\n\nfor the name of Pokemon to face the adversity.\n\nAnd at last, the show reaches to the conclusion,\n\nkids raised thier hand highly holding “flowers!” all at once!\n\nA carpet of flowers! Created by 2,500 audience!\n\n(I did’t expect the “flower” is used like this!)\n\nThen, the mysterious Pokemon showed up!\n\nWhat a happy ending!",
+      "images": [],
+      "source_html": "<p>As show goes on, everybody in this event call<br/>\r\nfor the name of Pokemon to face the adversity.<br/>\r\nAnd at last, the show reaches to the conclusion,<br/>\r\nkids raised thier hand highly holding “flowers!” all at once!<br/>\r\nA carpet of flowers! Created by 2,500 audience!<br/>\r\n(I did’t expect the “flower” is used like this!)<br/>\r\nThen, the mysterious Pokemon showed up!<br/>\r\nWhat a happy ending!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The last scene of the show.\n\nEach flower was handed to thier parents\n\nas an expression of gratitude!!\n\n“A lot thanks!” from kids to thier mom and dad.\n\nIt was a just beautiful sight.",
+      "images": [],
+      "source_html": "<p>The last scene of the show.<br/>\r\nEach flower was handed to thier parents<br/>\r\nas an expression of gratitude!!<br/>\r\n“A lot thanks!” from kids to thier mom and dad.<br/>\r\nIt was a just beautiful sight.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are many marvelous Pokemon events.\n\nBut, this event especially gave me the warm feeling!",
+      "images": [],
+      "source_html": "<p>There are many marvelous Pokemon events.<br/>\r\nBut, this event especially gave me the warm feeling!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For those people who missed this event,\n\nthere may be an another chance in the future!\n\nPlease check “Daisuki Club” out!!",
+      "images": [],
+      "source_html": "<p>For those people who missed this event,<br/>\r\nthere may be an another chance in the future!<br/>\r\nPlease check “Daisuki Club” out!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya",
+      "images": [],
+      "source_html": "<p>See ya</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"123-en-123ae\" %}{% image id=\"123-en-123be\" %}\n\n{% image id=\"123-en-123ce1\" %} {% image id=\"123-en-123de\" %}\n\n{% image id=\"123-en-123ee\" %} {% image id=\"123-en-123fe\" %}\n\n{% image id=\"123-en-123ge\" %} {% image id=\"123-en-123he\" %}\n\n{% image id=\"123-en-123ie\" %}",
+      "images": [
+        "123-en-123ae",
+        "123-en-123be",
+        "123-en-123ce1",
+        "123-en-123de",
+        "123-en-123ee",
+        "123-en-123fe",
+        "123-en-123ge",
+        "123-en-123he",
+        "123-en-123ie"
+      ],
+      "source_html": "<p><img alt=\"123ae.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123ae.jpg\"/><img alt=\"123be.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123be.jpg\"/><br/>\n<img alt=\"123ce1.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123ce1.jpg\"/> <img alt=\"123de.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123de.jpg\"/><br/>\n<img alt=\"123ee.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123ee.jpg\"/> <img alt=\"123fe.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123fe.jpg\"/><br/>\n<img alt=\"123ge.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123ge.jpg\"/> <img alt=\"123he.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123he.jpg\"/><br/>\n<img alt=\"123ie.jpg\" src=\"/blog/dir_english/wp-content/uploads/2008/02/123ie.jpg\"/></p>"
+    }
+  ]
+}

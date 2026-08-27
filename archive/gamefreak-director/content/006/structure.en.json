@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 6,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Now I’m back from my summer holiday!\n\nTime passes quickly when you’re having fun, doesn’t it?",
+      "images": [],
+      "source_html": "<p>Now I’m back from my summer holiday!<br/>\r\nTime passes quickly when you’re having fun, doesn’t it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This summer I had a BBQ party with my friends\n\nin Tochigi prefecture.\n\nAt night we enjoyed fireworks while eating outside.\n\nI also went to Atami and enjoyed turban shell (‘sazae’ in Japanese) there.\n\nOh how delicious.ﾂ? It was great fun! I truly enjoyed the holiday!",
+      "images": [],
+      "source_html": "<p>This summer I had a BBQ party with my friends<br/>\r\nin Tochigi prefecture.<br/>\r\nAt night we enjoyed fireworks while eating outside.<br/>\r\nI also went to Atami and enjoyed turban shell (‘sazae’ in Japanese) there.<br/>\r\nOh how delicious.ﾂ? It was great fun! I truly enjoyed the holiday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yesterday I went to ‘Pokemon Festa’ in Yokohama\n\n(Every summer we hold festivals featuring Pokemon\n\ncalled Pokemon Festa in many cities in Japan).\n\nUnfortunately it was raining and the turnout\n\nwas not so great,\n\nbut still I was glad to see many people come to the festival.\n\nThank you very much!",
+      "images": [],
+      "source_html": "<p>Yesterday I went to ‘Pokemon Festa’ in Yokohama<br/>\r\n(Every summer we hold festivals featuring Pokemon<br/>\r\ncalled Pokemon Festa in many cities in Japan).<br/>\r\nUnfortunately it was raining and the turnout<br/>\r\nwas not so great,<br/>\r\nbut still I was glad to see many people come to the festival.<br/>\r\nThank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We had many different kinds of shows at the festival.\n\nWhat impressed me the most was that\n\nonce a show started on the stage,\n\nso many dads carried their kids on their shoulders\n\nthat they looked like some strange forest.\n\nIt was a spectacular scene.",
+      "images": [],
+      "source_html": "<p>We had many different kinds of shows at the festival.<br/>\r\nWhat impressed me the most was that<br/>\r\nonce a show started on the stage,<br/>\r\nso many dads carried their kids on their shoulders<br/>\r\nthat they looked like some strange forest.<br/>\r\nIt was a spectacular scene.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, I’m glad that everyone seems enjoys playing Pokemon Emerald.\n\nWhat a relief! Nothing is more rewarding than that.",
+      "images": [],
+      "source_html": "<p>Also, I’m glad that everyone seems enjoys playing Pokemon Emerald.<br/>\r\nWhat a relief! Nothing is more rewarding than that.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See you.",
+      "images": [],
+      "source_html": "<p>See you.</p>"
+    }
+  ]
+}

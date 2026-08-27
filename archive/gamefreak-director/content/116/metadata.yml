@@ -1,0 +1,44 @@
+id: masuda-116
+number: 116
+month: 2007-11
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no116
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no116
+    permalink_validated: true
+    date: '2007-11-27'
+    date_display: 11.27.2007
+    categories:
+    - Diary
+    lead: On November 16th and 17th, I visited Niigata prefecture! I attended few
+      event programs at Toki Messe. Everybody in Niigata was very kind and it was
+      a great fun. Thank you very much!
+    raw_page: archive/gamefreak-director/raw/en/2007/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-11-27'
+    date_display: 2007.11.27
+    categories:
+    - 日記
+    lead: 新潟に行ってました！ とは、先週の１１月１６日、１７日のこと。 朱鷺メッセでいくつかのプログラムに参加してきました！ 新潟のみなさん、とっても親切で楽しかったです。
+      ありがとうございました！
+    raw_page: archive/gamefreak-director/raw/ja/2007/11/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets: []

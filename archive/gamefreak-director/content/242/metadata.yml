@@ -1,0 +1,96 @@
+id: masuda-242
+number: 242
+month: 2014-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2014/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-242
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-242
+    permalink_validated: true
+    date: '2014-11-05'
+    date_display: 11.05.2014
+    categories:
+    - Info
+    - Pokemon
+    lead: "What a wonderful achievement!\r\n\r\nIn Japan, we’ve already got the Greatest\
+      \ Award,\r\nthe Best Sales Award, and the Global Award at the Japan Game Awards.\r\
+      \nThis time we’ve got awards in England, too!\r\n\r\nAt the Golden Joystick\
+      \ Awards 2014,\r\nthe greatest game awards in England,\r\nour Pokémon X and\
+      \ Pokémon Y were awarded\r\nthe Greatest Handheld Game Awards!\r\n\r\nThose\
+      \ awards are the ones from the second oldest historic game awards\r\nand chosen\
+      \ by users’ votes.\r\n\r\nWe thank so many of you who played our games\r\nand\
+      \ we really appreciate your support.\r\n\r\nWe are profoundly grateful for you.\r\
+      \n\r\nAlso, with those people who worked on the challenging development tasks\r\
+      \nand the localization staff who realized the world-wide simultaneous release,\r\
+      \nI’d like to share this great news\r\nthat we’ve been awarded such honorific\
+      \ awards! Those awards could not be realized without your hard work!\r\n\r\n\
+      Chao!"
+    raw_page: archive/gamefreak-director/raw/en/2014/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2014/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%94%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%94%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2014-10-31'
+    date_display: 2014.10.31
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: "めでたい！\r\n\r\n日本でも、日本ゲーム大賞にて、\r\n優秀賞、ベストセールス賞、グローバル賞を頂きましたが、\r\nイギリスでも！\r\
+      \n\r\nイギリスのゲーム業界のゲーム大賞授賞式、\r\nGolden Joystick Awards 2014が行われ、\r\nPokémon X,\
+      \ Pokémon Yがハンドヘルド（携帯機ゲーム）大賞に選ばれました！！\r\n\r\n世界で２番目に古い歴史あるゲームアワードでの賞。\r\nそして、ユーザー投票による賞。\r\
+      \n\r\n本当に、多くの方々にプレイして頂き、\r\nそして応援していただき、感謝の気持ちでいっぱいです。\r\n\r\n心から、ありがとう。\r\n\
+      \r\nそして、挑戦的で大変だった開発に携わったスタッフのみんな、\r\n全世界同時を成し遂げたローカライズスタッフのみんな、\r\n栄誉ある賞を頂いたよ！\
+      \ この賞は、みなさんのものです。\r\n\r\nチャオ！"
+    raw_page: archive/gamefreak-director/raw/ja/2014/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets:
+- id: 242-multi-141031_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_01.jpg
+  local_path: archive/gamefreak-director/assets/original/242/multi/141031_01.jpg
+  sha256: 3b63658031e73bc7593e8c318dc96cda6211f5e3fca2850dd8f924ec157fd817
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 242-multi-141031_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_02.jpg
+  local_path: archive/gamefreak-director/assets/original/242/multi/141031_02.jpg
+  sha256: c4f010e81e6d308876b480e0fc0fc1841d2e6698c81b5c46107ec9116002fb57
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 242-multi-141031_03
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_03.jpg
+  local_path: archive/gamefreak-director/assets/original/242/multi/141031_03.jpg
+  sha256: 7fabf746a9cf6635be1ed21ef734ee05c8d756658df1e0e3b155bc3ece0daf67
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 242-multi-141031_04
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2014/10/141031_04.jpg
+  local_path: archive/gamefreak-director/assets/original/242/multi/141031_04.jpg
+  sha256: 547aebca7c7a9b140136fc6bd9cff8ac142a10cab802da86911d86a4c9f49b23
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

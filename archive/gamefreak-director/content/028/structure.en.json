@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 28,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I think most of you use email on your cell\n\nphone or on your PC.\n\nBut when you’re doing that, isn’t there a\n\nmoment when you find it so difficult to write\n\na message to someone?\n\nBecause, unlike a face-to-face conversation,\n\nit’s hard to tell him/her of your feelings.\n\nIt’s especially difficult when your message\n\nis intended for a large number of people.",
+      "images": [],
+      "source_html": "<p>I think most of you use email on your cell<br/>\r\nphone or on your PC.<br/>\r\nBut when you’re doing that, isn’t there a<br/>\r\nmoment when you find it so difficult to write<br/>\r\na message to someone?<br/>\r\nBecause, unlike a face-to-face conversation,<br/>\r\nit’s hard to tell him/her of your feelings.<br/>\r\nIt’s especially difficult when your message<br/>\r\nis intended for a large number of people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The same message can make someone happy and\n\nat the same time make someone else unhappy.",
+      "images": [],
+      "source_html": "<p>The same message can make someone happy and<br/>\r\nat the same time make someone else unhappy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You need to be careful in how you write your\n\nmessages.\n\nBecause no two people read the same message\n\nin exactly the same way, how they feel about\n\nit also differs.\n\nPeople may take the same message differently.\n\nAlso, there are cases when too many words\n\nlead to more confusion.",
+      "images": [],
+      "source_html": "<p>You need to be careful in how you write your<br/>\r\nmessages.<br/>\r\nBecause no two people read the same message<br/>\r\nin exactly the same way, how they feel about<br/>\r\nit also differs.<br/>\r\nPeople may take the same message differently.<br/>\r\nAlso, there are cases when too many words<br/>\r\nlead to more confusion.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The messages in Pokemon games are localized\n\ninto many languages, so I think we need to\n\nwrite messages that make lots of people feel\n\nwarm and happy.",
+      "images": [],
+      "source_html": "<p>The messages in Pokemon games are localized<br/>\r\ninto many languages, so I think we need to<br/>\r\nwrite messages that make lots of people feel<br/>\r\nwarm and happy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For that reason, I make it a rule to read the\n\nsame sentence again and again, trying to read\n\nit from someone else’s point of view.",
+      "images": [],
+      "source_html": "<p>For that reason, I make it a rule to read the<br/>\r\nsame sentence again and again, trying to read<br/>\r\nit from someone else’s point of view.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not messages intended only for those who\n\nare interested to read or understand them,\n\nbut messages that many people, people from\n\nevery part of the globe, can feel the same\n\nway about and empathize with.\n\nSuch messages will be the basis of future\n\nPokemon games.",
+      "images": [],
+      "source_html": "<p>Not messages intended only for those who<br/>\r\nare interested to read or understand them,<br/>\r\nbut messages that many people, people from<br/>\r\nevery part of the globe, can feel the same<br/>\r\nway about and empathize with.<br/>\r\nSuch messages will be the basis of future<br/>\r\nPokemon games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "By the way…\n\nI think PR bulletins and brochures are a great\n\nlearning tool.\n\nThe messages you find in those publications are\n\nso simply put and precise in meaning that few\n\nwould misread or complain about them.\n\nThey must have been checked by a considerable\n\nnumber of people, I think.",
+      "images": [],
+      "source_html": "<p>By the way…<br/>\r\nI think PR bulletins and brochures are a great<br/>\r\nlearning tool.<br/>\r\nThe messages you find in those publications are<br/>\r\nso simply put and precise in meaning that few<br/>\r\nwould misread or complain about them.<br/>\r\nThey must have been checked by a considerable<br/>\r\nnumber of people, I think.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 218,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Suddenly!!!",
+      "images": [],
+      "source_html": "<p>Suddenly!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was selected by overseas site,\n\nIGN’s Top 30 Games People of 2011 ; )",
+      "images": [],
+      "source_html": "<p>I was selected by overseas site,<br/>\n<font size=\"+1\"><strong>IGN’s Top 30 Games People of 2011</strong></font> ; )</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Right over here.\n\n[http://games.ign.com/articles/121/1215234p2.html](http://games.ign.com/articles/121/1215234p2.html)",
+      "images": [],
+      "source_html": "<p>Right over here.<br/>\n<a href=\"http://games.ign.com/articles/121/1215234p2.html\" target=\"_blank\">http://games.ign.com/articles/121/1215234p2.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve little surprised by how big the picture of me was!",
+      "images": [],
+      "source_html": "<p>I’ve little surprised by how big the picture of me was!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokémon Black/White was selected because of\n\ninfrared Battle and trading system,\n\nC gear constant communication and PGL Sync.\n\nHowever, player’s experience does not end just inside the game.\n\nYou stay connected to a real world all the time.",
+      "images": [],
+      "source_html": "<p>Pokémon Black/White was selected because of<br/>\r\ninfrared Battle and trading system,<br/>\r\nC gear constant communication and PGL Sync.<br/>\r\nHowever, player’s experience does not end just inside the game.<br/>\r\nYou stay connected to a real world all the time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I am honestly happy to be selected.\n\nThank you very much IGN!!",
+      "images": [],
+      "source_html": "<p>I am honestly happy to be selected.<br/>\r\nThank you very much IGN!!</p>"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 183,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Record of fastest sales on DS softwares!!!!\n\n[http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf](http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf)",
+      "images": [],
+      "source_html": "<p>Record of fastest sales on DS softwares!!!!<br/>\n<a href=\"http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf\" target=\"_blank\">http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s just soooo happy!\n\nAnd coincidentally, today is my birthday!\n\nI’m glad many people are enjoying the game.",
+      "images": [],
+      "source_html": "<p>It’s just soooo happy!<br/>\r\nAnd coincidentally, today is my birthday!<br/>\r\nI’m glad many people are enjoying the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I’m playing the Poke’mon game,\n\nthe clerk of Poke’mon center says\n\n“Congratulations.”\n\nMy friend and parents sent me a mail of\n\n“Congratulations.”\n\nAnd I receive the birthday present from my staffs…",
+      "images": [],
+      "source_html": "<p>When I’m playing the Poke’mon game,<br/>\r\nthe clerk of Poke’mon center says<br/>\r\n“Congratulations.”<br/>\r\nMy friend and parents sent me a mail of<br/>\r\n“Congratulations.”<br/>\r\nAnd I receive the birthday present from my staffs…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m just so happy!!",
+      "images": [],
+      "source_html": "<p>I’m just so happy!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The info of press release announced today\n\nmade me extra happy!!!!",
+      "images": [],
+      "source_html": "<p>The info of press release announced today<br/>\r\nmade me extra happy!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ll do my best to make this year full of energy!",
+      "images": [],
+      "source_html": "<p>I’ll do my best to make this year full of energy!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

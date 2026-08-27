@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 220,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the important notice of\n\nautograph session!",
+      "images": [],
+      "source_html": "<p>Here’s the important notice of<br/>\r\nautograph session!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Considering the safety,\n\nstyle of management have been changed.",
+      "images": [],
+      "source_html": "<p>Considering the safety,<br/>\r\nstyle of management have been changed.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Sorry everybody!",
+      "images": [],
+      "source_html": "<p>Sorry everybody!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news\" target=\"_blank\">http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even if you are not interested for\n\nautograph session,\n\nthere is a Q&A corner.",
+      "images": [],
+      "source_html": "<p>Even if you are not interested for<br/>\r\nautograph session,<br/>\r\nthere is a Q&amp;A corner.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, please visit!!\n\nLet’s have fun!",
+      "images": [],
+      "source_html": "<p>Everyone, please visit!!<br/>\r\nLet’s have fun!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*This autograph session will be held only in Japan.",
+      "images": [],
+      "source_html": "<p>*This autograph session will be held only in Japan.</p>"
+    }
+  ]
+}

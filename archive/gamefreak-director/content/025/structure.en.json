@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 25,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "During the Christmas season the city becomes\n\nprettier with the illuminations.",
+      "images": [],
+      "source_html": "<p>During the Christmas season the city becomes<br/>\r\nprettier with the illuminations.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why do people come to see the illuminations?\n\nIt’s clear that people don’t like darkness.\n\nSo I understand some people prefer the city.\n\nBut, if you’d just like to get rid of darkness,\n\none giant light bulb will do the job.",
+      "images": [],
+      "source_html": "<p>Why do people come to see the illuminations?<br/>\r\nIt’s clear that people don’t like darkness.<br/>\r\nSo I understand some people prefer the city.<br/>\r\nBut, if you’d just like to get rid of darkness,<br/>\r\none giant light bulb will do the job.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But instead you use lots of small bulbs and\n\npeople gather to look at them.\n\nStrange, isn’t it?",
+      "images": [],
+      "source_html": "<p>But instead you use lots of small bulbs and<br/>\r\npeople gather to look at them.<br/>\r\nStrange, isn’t it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "During special occasions like Christmas\n\nI realize that we have weaknesses for things\n\nthat are available only for a limited time,\n\nand for things that you find beautiful and pretty.",
+      "images": [],
+      "source_html": "<p>During special occasions like Christmas<br/>\r\nI realize that we have weaknesses for things<br/>\r\nthat are available only for a limited time,<br/>\r\nand for things that you find beautiful and pretty.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We feel compelled to buy something because\n\nit’s for a limited time only, or just because\n\nit is beautiful or pretty.\n\nThe flip side of this is that companies try\n\nto use this phenomenon to increase their sales,\n\nor in our case we try to incorporate it\n\nin our games as a twist.\n\nBut as a phenomenon I think it’s interesting.",
+      "images": [],
+      "source_html": "<p>We feel compelled to buy something because<br/>\r\nit’s for a limited time only, or just because<br/>\r\nit is beautiful or pretty.<br/>\r\nThe flip side of this is that companies try<br/>\r\nto use this phenomenon to increase their sales,<br/>\r\nor in our case we try to incorporate it<br/>\r\nin our games as a twist.<br/>\r\nBut as a phenomenon I think it’s interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I myself was a big fan of “Track Yarou Ichibanboshi”\n\n(a Japanese movie series where the main character\n\ndrives a big track with lots of electric lights),",
+      "images": [],
+      "source_html": "<p>I myself was a big fan of “Track Yarou Ichibanboshi”<br/>\r\n(a Japanese movie series where the main character<br/>\r\ndrives a big track with lots of electric lights),</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "so to this day I love the illuminations.\n\nIt may be more accurate to say that I love the\n\nilluminations more than I love the Christmas season.",
+      "images": [],
+      "source_html": "<p>so to this day I love the illuminations.<br/>\r\nIt may be more accurate to say that I love the<br/>\r\nilluminations more than I love the Christmas season.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

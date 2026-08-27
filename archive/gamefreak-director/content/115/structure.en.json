@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "article": 115,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The “Universe” is completed!",
+      "images": [],
+      "source_html": "<p>The “Universe” is completed!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our dream, the whole Game Freak staff working on the same floor\n\nhave finally achieved!!\n\nThe development power will be more increasing!!",
+      "images": [],
+      "source_html": "<p>Our dream, the whole Game Freak staff working on the same floor<br/>\r\nhave finally achieved!!<br/>\r\nThe development power will be more increasing!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What I thought, the most important thing is\n\nto set our office space for creating ideas.",
+      "images": [],
+      "source_html": "<p>What I thought, the most important thing is<br/>\r\nto set our office space for creating ideas.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our work is to create from ZERO to ONE.\n\nI wanted to make this new office space where\n\neasier creation for various ideas.\n\nTherefore, the theme was decided as “Universe”…\n\nIt’s finally completed!!",
+      "images": [],
+      "source_html": "<p>Our work is to create from ZERO to ONE.<br/>\r\nI wanted to make this new office space where<br/>\r\neasier creation for various ideas.<br/>\r\nTherefore, the theme was decided as “Universe”…<br/>\r\nIt’s finally completed!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game Freak staff let me handle the majority of the\n\ncoordination of this new office…\n\nFortunately, it seems I received a favorably review from everybody.\n\nIt’s quite a relief.",
+      "images": [],
+      "source_html": "<p>Game Freak staff let me handle the majority of the<br/>\r\ncoordination of this new office…<br/>\r\nFortunately, it seems I received a favorably review from everybody.<br/>\r\nIt’s quite a relief.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, we are going to create new games\n\nwith a new way of creation\n\nin a new office!!",
+      "images": [],
+      "source_html": "<p>Well, we are going to create new games<br/>\r\nwith a new way of creation<br/>\r\nin a new office!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please count on our next software!!",
+      "images": [],
+      "source_html": "<p>Please count on our next software!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*The following picture is the view from my desk.",
+      "images": [],
+      "source_html": "<p>*The following picture is the view from my desk.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.\n\n{% image id=\"115-en-115\" %}",
+      "images": [
+        "115-en-115"
+      ],
+      "source_html": "<p>See ya.<br/>\n<img alt=\"115.jpg\" src=\"/blog/dir_english/wp-content/uploads/2007/11/115.jpg\"/></p>"
+    }
+  ]
+}

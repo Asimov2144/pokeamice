@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "article": 239,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Check this out!",
+      "images": [],
+      "source_html": "<p>Check this out!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I appeared in “Ikimono-gakari” promotion video clip titled “Egao” ,(“Smile”).\n\n*Ikimono-gakari is a famous Japanese band.",
+      "images": [],
+      "source_html": "<p>I appeared in “Ikimono-gakari” promotion video clip titled “Egao” ,(“Smile”).<br/>\r\n*Ikimono-gakari is a famous Japanese band.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was just amazing!!!",
+      "images": [],
+      "source_html": "<p>It was just amazing!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I had a opportunity to be a part of it, because of my\n\nearlier appearance on “Ikimono-gakari’s” radio show,\n\nwhere I met Yoshiki Mizuno – writer and composer the song.",
+      "images": [],
+      "source_html": "<p>I had a opportunity to be a part of it, because of my<br/>\r\nearlier appearance on “Ikimono-gakari’s” radio show,<br/>\r\nwhere I met Yoshiki Mizuno – writer and composer the song.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Encounting people is wonderful,\n\nas it opens up new possibilities and experiences.",
+      "images": [],
+      "source_html": "<p>Encounting people is wonderful,<br/>\r\nas it opens up new possibilities and experiences.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Early morning in Roppongi, on 9th of June 2013.\n\nThat day I had a flight to Los Angeles,\n\nso I asked to have a recording as a first person.",
+      "images": [],
+      "source_html": "<p>Early morning in Roppongi, on 9th of June 2013.<br/>\r\nThat day I had a flight to Los Angeles,<br/>\r\nso I asked to have a recording as a first person.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was sitting in the middle. Recording started.",
+      "images": [],
+      "source_html": "<p>I was sitting in the middle. Recording started.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"239-multi-130620_01\" %}",
+      "images": [
+        "239-multi-130620_01"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130620_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I did all director asked me to, and…\n\n“OK! Cut! It’s done.”",
+      "images": [],
+      "source_html": "<p>I did all director asked me to, and…<br/>\r\n“OK! Cut! It’s done.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I thought we were just rehearsing,\n\nbut director said it was good.",
+      "images": [],
+      "source_html": "<p>I thought we were just rehearsing,<br/>\r\nbut director said it was good.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "All happened in a split second.\n\nI had fun doing the recording.",
+      "images": [],
+      "source_html": "<p>All happened in a split second.<br/>\r\nI had fun doing the recording.</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is full video clip.\n\n[http://www.youtube.com/watch?v=hLBdm2J9UKA](http://www.youtube.com/watch?v=hLBdm2J9UKA)\n\n*This video clip may be available in Japan only.",
+      "images": [],
+      "source_html": "<p>Here is full video clip.<br/>\n<a href=\"http://www.youtube.com/watch?v=hLBdm2J9UKA\" target=\"_new\">http://www.youtube.com/watch?v=hLBdm2J9UKA</a><br/>\r\n*This video clip may be available in Japan only.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was a great experience !",
+      "images": [],
+      "source_html": "<p>It was a great experience !</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thanks for inviting me, “Ikimono-gakari”",
+      "images": [],
+      "source_html": "<p>Thanks for inviting me, “Ikimono-gakari”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Official site of Ikimono-gakari.\n\n[http://ikimonogakari.com/](http://ikimonogakari.com/)\n\n[http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)(I’m planning to attend the event, too.)",
+      "images": [],
+      "source_html": "<p>Official site of Ikimono-gakari.<br/>\n<a href=\"http://ikimonogakari.com/\" target=\"_new\">http://ikimonogakari.com/</a><br/>\n<a href=\"http://ikimonogakari.com/news/#i6026\" target=\"_new\">http://ikimonogakari.com/news/#i6026</a>(I’m planning to attend the event, too.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 234,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "For the first time ever!",
+      "images": [],
+      "source_html": "<p>For the first time ever!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because Pokémon originates from Japan,\n\nsince Red/Blue in 1996,\n\nwe have been releasing information in Japan first.",
+      "images": [],
+      "source_html": "<p>Because Pokémon originates from Japan,<br/>\r\nsince Red/Blue in 1996,<br/>\r\nwe have been releasing information in Japan first.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But this time everything changes.\n\nPokémon X/Y will be launched at a same time, worldwide!",
+      "images": [],
+      "source_html": "<p>But this time everything changes.<br/>\r\nPokémon X/Y will be launched at a same time, worldwide!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As announced on January 9th, on “Pokémon.com”\n\n- international Pokemon website,\n\nlegendary Pokémon names will be same worldwide.",
+      "images": [],
+      "source_html": "<p>As announced on January 9th, on “Pokémon.com”<br/>\r\n- international Pokemon website,<br/>\r\nlegendary Pokémon names will be same worldwide.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“XERNEAS” “YVELTAL”",
+      "images": [],
+      "source_html": "<p><span style=\"font-size: 130%; font-weight: bold\">“XERNEAS” “YVELTAL”</span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pronunciation for names in Japanese is:\n\n“Zeruneasu”\n\n“Iberutaru”",
+      "images": [],
+      "source_html": "<p>Pronunciation for names in Japanese is:<br/>\r\n“Zeruneasu”<br/>\r\n“Iberutaru”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And in English it is:\n\n“ZURR-nee-us”\n\n“ee-VELL-tall”",
+      "images": [],
+      "source_html": "<p>And in English it is:<br/>\r\n“ZURR-nee-us”<br/>\r\n“ee-VELL-tall”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You might wonder why this information is\n\nnot available on the Japanese official homepage.",
+      "images": [],
+      "source_html": "<p>You might wonder why this information is<br/>\r\nnot available on the Japanese official homepage.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Frankly. This is the first time in a history,\n\nwhile fans from abroad are getting news faster, than fans in Japan.",
+      "images": [],
+      "source_html": "<p>Frankly. This is the first time in a history,<br/>\r\nwhile fans from abroad are getting news faster, than fans in Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In a way, simultaneous game launch,\n\nbecame a special event for our fans from abroad.",
+      "images": [],
+      "source_html": "<p>In a way, simultaneous game launch,<br/>\r\nbecame a special event for our fans from abroad.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So, everyone who just saw the new legendary Pokemon names:\n\n“XERNEAS” “YVELTAL”,\n\ncongratulations !\n\nYou are the very first in the world!!!",
+      "images": [],
+      "source_html": "<p>So, everyone who just saw the new legendary Pokemon names:<br/>\r\n“XERNEAS” “YVELTAL”,<br/>\r\ncongratulations !<br/>\r\nYou are the very first in the world!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)\n\n[http://www.pokemon.co.jp/ex/xy/legend/](http://www.pokemon.co.jp/ex/xy/legend/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.com/pokemonxy/en-us\" target=\"_blank\">http://www.pokemon.com/pokemonxy/en-us</a><br/>\n<a href=\"http://www.pokemon.co.jp/ex/xy/legend/\" target=\"_blank\">http://www.pokemon.co.jp/ex/xy/legend/</a></p>"
+    }
+  ]
+}

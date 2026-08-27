@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 119,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Greetings. Happy new year!\n\nWe look forward to your support\n\nand encouragement.",
+      "images": [],
+      "source_html": "<p>Greetings. Happy new year!<br/>\r\nWe look forward to your support<br/>\r\nand encouragement.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In 2008, we Game Freak will try for\n\nvarious things as always!\n\nAnd we will keep striving to create\n\nnew innovation beyond the imagination.",
+      "images": [],
+      "source_html": "<p>In 2008, we Game Freak will try for<br/>\r\nvarious things as always!<br/>\r\nAnd we will keep striving to create<br/>\r\nnew innovation beyond the imagination.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well,\n\nI’d like to ask a question to you.\n\nDo you have an aspiration for this year?",
+      "images": [],
+      "source_html": "<p>Well,<br/>\r\nI’d like to ask a question to you.<br/>\r\nDo you have an aspiration for this year?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I, Masuda’s aspiration will be\n\n‘to gather up stuffs firmly’.\n\nLast year was the year of ‘Challenge’…\n\nThis year, I’d like to gather many things up firmly.\n\nIf you don’t have any aspiration yet,\n\ntry to come up with one!",
+      "images": [],
+      "source_html": "<p>I, Masuda’s aspiration will be<br/>\r\n‘to gather up stuffs firmly’.<br/>\r\nLast year was the year of ‘Challenge’…<br/>\r\nThis year, I’d like to gather many things up firmly.<br/>\r\nIf you don’t have any aspiration yet,<br/>\r\ntry to come up with one!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, yes.\n\nHere’s a little surprise for you.",
+      "images": [],
+      "source_html": "<p>Oh, yes.<br/>\r\nHere’s a little surprise for you.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please play Pokemon Diamond / Pearl on January 12th.\n\nYou’ll find something different!!!!!",
+      "images": [],
+      "source_html": "<p>Please play Pokemon Diamond / Pearl on January 12th.<br/>\r\nYou’ll find something different!!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I hope this year, things go well for all of you.",
+      "images": [],
+      "source_html": "<p>I hope this year, things go well for all of you.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

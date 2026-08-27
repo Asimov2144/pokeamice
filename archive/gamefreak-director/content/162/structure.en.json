@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 162,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Under the bright sunshine like mid-summer,\n\nI’ve visited “Jisedai(Next Generation) World Hobby Fair”.",
+      "images": [],
+      "source_html": "<p>Under the bright sunshine like mid-summer,<br/>\r\nI’ve visited “Jisedai(Next Generation) World Hobby Fair”.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since the pavilion are separated into “Game & Hobby”\n\nand “Goods Shop”, less spectators visited compared\n\nto last year.\n\nNevertheless, both pavilions were extremely\n\ncrowded! What a fever!",
+      "images": [],
+      "source_html": "<p>Since the pavilion are separated into “Game &amp; Hobby”<br/>\r\nand “Goods Shop”, less spectators visited compared<br/>\r\nto last year.<br/>\r\nNevertheless, both pavilions were extremely<br/>\r\ncrowded! What a fever!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Stage of Pokemon corner was excited, too!\n\nActual size of “Reshiram” and “Zekrom”\n\nwere displayed and I got agitated!\n\nI got portrait of “Pokemon Black/White”!\n\nIt’s super cool!\n\nPokemon will launch not only the movie\n\nbut game, too!!\n\nPlease count on us!",
+      "images": [],
+      "source_html": "<p>Stage of Pokemon corner was excited, too!<br/>\r\nActual size of “Reshiram” and “Zekrom”<br/>\r\nwere displayed and I got agitated!<br/>\r\nI got portrait of “Pokemon Black/White”!<br/>\r\nIt’s super cool!<br/>\r\nPokemon will launch not only the movie<br/>\r\nbut game, too!!<br/>\r\nPlease count on us!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-en-162a1\" %}\n\nBoth of them are little big for Pokemon!",
+      "images": [
+        "162-en-162a1"
+      ],
+      "source_html": "<p><img alt=\"162a1.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/162a1.jpg\"/><br/>\r\nBoth of them are little big for Pokemon!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-en-162b\" %}\n\nMe and Zekrom! I want ride on it!",
+      "images": [
+        "162-en-162b"
+      ],
+      "source_html": "<p><img alt=\"162b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/162b.jpg\"/><br/>\r\nMe and Zekrom! I want ride on it!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-en-162c\" %}\n\nPokemon stage. Exciting!",
+      "images": [
+        "162-en-162c"
+      ],
+      "source_html": "<p><img alt=\"162c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/162c.jpg\"/><br/>\r\nPokemon stage. Exciting!</p>"
+    }
+  ]
+}

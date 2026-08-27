@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 196,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "６月４日土曜日午後、今日も映画音楽を収録中のスタジオへ！",
+      "images": [],
+      "source_html": "<p>６月４日土曜日午後、今日も映画音楽を収録中のスタジオへ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今日はとってもいい天気！\n\nギンギンに光る太陽の近くに六本木ヒルズが見えます！\n\n{% image id=\"196-ja-193a\" %}",
+      "images": [
+        "196-ja-193a"
+      ],
+      "source_html": "<p>今日はとってもいい天気！<br/>\r\nギンギンに光る太陽の近くに六本木ヒルズが見えます！<br/>\n<img alt=\"193a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/193a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ビルの２Fにあるスタジオ！\n\n日の光も差し込み、気持ちいい！！\n\n{% image id=\"196-ja-193b\" %}",
+      "images": [
+        "196-ja-193b"
+      ],
+      "source_html": "<p>ビルの２Fにあるスタジオ！<br/>\r\n日の光も差し込み、気持ちいい！！<br/>\n<img alt=\"193b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/193b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こういう機材って、こころ踊りますよねー。\n\n{% image id=\"196-ja-193c\" %}",
+      "images": [
+        "196-ja-193c"
+      ],
+      "source_html": "<p>こういう機材って、こころ踊りますよねー。<br/>\n<img alt=\"193c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/193c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "気持ちよく、仕事ができるスタジオでした！",
+      "images": [],
+      "source_html": "<p>気持ちよく、仕事ができるスタジオでした！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

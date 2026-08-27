@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "article": 204,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "サンディエゴのホテルに無事到着してます！",
+      "images": [],
+      "source_html": "<p>サンディエゴのホテルに無事到着してます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "成田で雷が鳴り響き、飛行機が遅れるという知らせが来たときには、\n\n雷を写真に納めるぞ！と楽しんでました！",
+      "images": [],
+      "source_html": "<p>成田で雷が鳴り響き、飛行機が遅れるという知らせが来たときには、<br/>\r\n雷を写真に納めるぞ！と楽しんでました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "音ゲーのような感じで、タイミングを見計らい、\n\n前回光った場所、間や音から、シャッターチャンスを狙い、\n\nご覧のように見事！その姿を写すことができました！",
+      "images": [],
+      "source_html": "<p>音ゲーのような感じで、タイミングを見計らい、<br/>\r\n前回光った場所、間や音から、シャッターチャンスを狙い、<br/>\r\nご覧のように見事！その姿を写すことができました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204a\" %}",
+      "images": [
+        "204-multi-204a"
+      ],
+      "source_html": "<p><img alt=\"204a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして予定より１時間ぐらい遅れてロサンゼルスへ。\n\nロスでは、入国審査で待たされ。。。\n\nさらに、１時間以上かかり。。。",
+      "images": [],
+      "source_html": "<p>そして予定より１時間ぐらい遅れてロサンゼルスへ。<br/>\r\nロスでは、入国審査で待たされ。。。<br/>\r\nさらに、１時間以上かかり。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ロスからサンディエゴまでのバスも渋滞に巻き込まれ。。。",
+      "images": [],
+      "source_html": "<p>ロスからサンディエゴまでのバスも渋滞に巻き込まれ。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204b\" %}",
+      "images": [
+        "204-multi-204b"
+      ],
+      "source_html": "<p><img alt=\"204b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "写真は、反対車線です。\n\nさて、片側何車線でしょう？（笑）\n\nこれで渋滞するなんて。。。",
+      "images": [],
+      "source_html": "<p>写真は、反対車線です。<br/>\r\nさて、片側何車線でしょう？（笑）<br/>\r\nこれで渋滞するなんて。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "当初の予定よりも３時間遅れでホテル到着！\n\n雷から始まった旅。いやーしかし、長い旅だった。。。",
+      "images": [],
+      "source_html": "<p>当初の予定よりも３時間遅れでホテル到着！<br/>\r\n雷から始まった旅。いやーしかし、長い旅だった。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ホテルでは、すでに準備ができています。",
+      "images": [],
+      "source_html": "<p>ホテルでは、すでに準備ができています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204c\" %}",
+      "images": [
+        "204-multi-204c"
+      ],
+      "source_html": "<p><img alt=\"204c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "奥のゼクロムの前にいる２人を見るとその広さが分かりますよね。",
+      "images": [],
+      "source_html": "<p>奥のゼクロムの前にいる２人を見るとその広さが分かりますよね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "リハーサルや食事を済ませ、、、ホテルに戻り、、、\n\nこっそり、会場内へ。。。",
+      "images": [],
+      "source_html": "<p>リハーサルや食事を済ませ、、、ホテルに戻り、、、<br/>\r\nこっそり、会場内へ。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204d\" %}",
+      "images": [
+        "204-multi-204d"
+      ],
+      "source_html": "<p><img alt=\"204d.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "現地時間１３日から開催されるワールドチャンピオンシップス。\n\n静かにその時を待ちます。",
+      "images": [],
+      "source_html": "<p>現地時間１３日から開催されるワールドチャンピオンシップス。<br/>\r\n静かにその時を待ちます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いろんな国の言葉で「ようこそ！」",
+      "images": [],
+      "source_html": "<p>いろんな国の言葉で「ようこそ！」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204e\" %}",
+      "images": [
+        "204-multi-204e"
+      ],
+      "source_html": "<p><img alt=\"204e.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "とっても、いい感じです。",
+      "images": [],
+      "source_html": "<p>とっても、いい感じです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204f\" %}",
+      "images": [
+        "204-multi-204f"
+      ],
+      "source_html": "<p><img alt=\"204f.jpg\" src=\"/blog/dir/wp-content/uploads/2011/08/204f.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "外はすっかり夜中。。。",
+      "images": [],
+      "source_html": "<p>外はすっかり夜中。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ベイフロントからマスダがお届けしました！",
+      "images": [],
+      "source_html": "<p>ベイフロントからマスダがお届けしました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では、おやすみなさい！！",
+      "images": [],
+      "source_html": "<p>では、おやすみなさい！！</p>"
+    }
+  ]
+}

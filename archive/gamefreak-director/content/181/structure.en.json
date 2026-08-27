@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "article": 181,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello everyone,",
+      "images": [],
+      "source_html": "<p>Hello everyone,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Happy New Year!\n\nWe ask for your continued good\n\nwill in this new year.",
+      "images": [],
+      "source_html": "<p>Happy New Year!<br/>\r\nWe ask for your continued good<br/>\r\nwill in this new year.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s a merry topic.\n\nThe CD which contains “Pulseman(1994)” sound track,\n\n“Mega Drive -Last Action Heroes-”\n\nhave launched!",
+      "images": [],
+      "source_html": "<p>Here’s a merry topic.<br/>\r\nThe CD which contains “Pulseman(1994)” sound track,<br/>\r\n“Mega Drive -Last Action Heroes-”<br/>\r\nhave launched!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Applause! Clap! Clap! Clap!!!\n\nSooooo happy!!!!",
+      "images": [],
+      "source_html": "<p>Applause! Clap! Clap! Clap!!!<br/>\r\nSooooo happy!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was just 28 in the year 1994. How young.",
+      "images": [],
+      "source_html": "<p>I was just 28 in the year 1994. How young.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Around this time, I was in charge of\n\nprogramming, sound and sound effects.\n\nI wrote the program of low level system,\n\nwhich contains collision, graphic, raster scroll,\n\ncolor change, movement of boss character,\n\nsound program and so on,\n\non my loving UNIX machine.",
+      "images": [],
+      "source_html": "<p>Around this time, I was in charge of<br/>\r\nprogramming, sound and sound effects.<br/>\r\nI wrote the program of low level system,<br/>\r\nwhich contains collision, graphic, raster scroll,<br/>\r\ncolor change, movement of boss character,<br/>\r\nsound program and so on,<br/>\r\non my loving UNIX machine.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So music of “Pulseman” was\n\ncomposed above circumstances.",
+      "images": [],
+      "source_html": "<p>So music of “Pulseman” was<br/>\r\ncomposed above circumstances.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Main work is game programming,\n\nand addition to this,\n\ncomposing music and creating sound effects!!",
+      "images": [],
+      "source_html": "<p>Main work is game programming,<br/>\r\nand addition to this,<br/>\r\ncomposing music and creating sound effects!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since Mega Drive contains FM sound source,\n\nI could made an interesting sound.\n\nTweaking parameter and change the tunes.\n\nSound of drum is created by effector and\n\nsampled.\n\nI remember I was deeply obsessive.\n\nDrum on the title screen was phrase sampling.",
+      "images": [],
+      "source_html": "<p>Since Mega Drive contains FM sound source,<br/>\r\nI could made an interesting sound.<br/>\r\nTweaking parameter and change the tunes.<br/>\r\nSound of drum is created by effector and<br/>\r\nsampled.<br/>\r\nI remember I was deeply obsessive.<br/>\r\nDrum on the title screen was phrase sampling.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some music sounds like Pokemon, but\n\nessential was techno music straight.",
+      "images": [],
+      "source_html": "<p>Some music sounds like Pokemon, but<br/>\r\nessential was techno music straight.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please purchase and listen to it!!",
+      "images": [],
+      "source_html": "<p>Please purchase and listen to it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "<Sega Store>\n\n[http://ebten.jp/sega/p/4571164389950/](http://ebten.jp/sega/p/4571164389950/)",
+      "images": [],
+      "source_html": "<p>&lt;Sega Store&gt;<br/>\n<a href=\"http://ebten.jp/sega/p/4571164389950/\" target=\"_blank\">http://ebten.jp/sega/p/4571164389950/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "<Amazon>\n\nMEGADRIVE ~LAST ACTION HEROES~\n\n[http://www.amazon.co.jp/dp/B004EE1Z02](http://www.amazon.co.jp/dp/B004EE1Z02)",
+      "images": [],
+      "source_html": "<p>&lt;Amazon&gt;<br/>\r\nMEGADRIVE ~LAST ACTION HEROES~<br/>\n<a href=\"http://www.amazon.co.jp/dp/B004EE1Z02\" target=\"_blank\">http://www.amazon.co.jp/dp/B004EE1Z02</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, this “Pulseman” game for Sega Mega Drive\n\ncan be played on Wii, Virtual Console now.\n\n[http://vc.sega.jp/vc_pulseman/](http://vc.sega.jp/vc_pulseman/)",
+      "images": [],
+      "source_html": "<p>Oh, this “Pulseman” game for Sega Mega Drive<br/>\r\ncan be played on Wii, Virtual Console now.<br/>\n<a href=\"http://vc.sega.jp/vc_pulseman/\" target=\"_blank\">http://vc.sega.jp/vc_pulseman/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s comment from Sugimori.\n\n[http://sega.jp/segavoice/vol65/](http://sega.jp/segavoice/vol65/)",
+      "images": [],
+      "source_html": "<p>Here’s comment from Sugimori.<br/>\n<a href=\"http://sega.jp/segavoice/vol65/\" target=\"_blank\">http://sega.jp/segavoice/vol65/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 61,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Now, we’re holding a series of concerts\n\ncalled “Pokemon Happy Birthday Concert”\n\nin celebration of Pokemon’s 10th anniversary.\n\nIt is for the members of ‘Pokemon Daisuki Club’\n\nand ‘club.nintendo,’ and guests are chosen\n\nby lottery…",
+      "images": [],
+      "source_html": "<p>Now, we’re holding a series of concerts<br/>\r\ncalled “Pokemon Happy Birthday Concert”<br/>\r\nin celebration of Pokemon’s 10th anniversary.<br/>\r\nIt is for the members of ‘Pokemon Daisuki Club’<br/>\r\nand ‘club.nintendo,’ and guests are chosen<br/>\r\nby lottery…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Concerts are really nice, aren’t they?",
+      "images": [],
+      "source_html": "<p>Concerts are really nice, aren’t they?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "While it’s difficult to make an opportunity\n\nto meet everybody, I hope to do something\n\nabout it through these concerts.",
+      "images": [],
+      "source_html": "<p>While it’s difficult to make an opportunity<br/>\r\nto meet everybody, I hope to do something<br/>\r\nabout it through these concerts.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As it’s very different from our usual developing\n\njob, there are many occasions that I’m confused\n\nabout what to do, but for the time being I’m having\n\nfun despite all that.",
+      "images": [],
+      "source_html": "<p>As it’s very different from our usual developing<br/>\r\njob, there are many occasions that I’m confused<br/>\r\nabout what to do, but for the time being I’m having<br/>\r\nfun despite all that.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The concerts started in Tokyo on October 28th (Sat),\n\nand next in Kyushu on November 5th (Sun) and\n\nin Hyogo on November 12th (Sun).\n\nAt all three locations we had such a large\n\nnumber of people coming to the concerts and it\n\npleased me more than anything to see the guests\n\nhaving a good time.\n\nMany thanks to those who came.",
+      "images": [],
+      "source_html": "<p>The concerts started in Tokyo on October 28th (Sat),<br/>\r\nand next in Kyushu on November 5th (Sun) and<br/>\r\nin Hyogo on November 12th (Sun).<br/>\r\nAt all three locations we had such a large<br/>\r\nnumber of people coming to the concerts and it<br/>\r\npleased me more than anything to see the guests<br/>\r\nhaving a good time.<br/>\r\nMany thanks to those who came.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game music played by an orchestra.\n\nI’m sure you can enjoy the power of music very much,\n\nsuch as its beauty, excitement, and powerful sounds.",
+      "images": [],
+      "source_html": "<p>Game music played by an orchestra.<br/>\r\nI’m sure you can enjoy the power of music very much,<br/>\r\nsuch as its beauty, excitement, and powerful sounds.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The final concert is in Hokkaido.\n\nI guarantee it’s going to be fun,\n\nso if you have a ticket, make sure to attend it!",
+      "images": [],
+      "source_html": "<p>The final concert is in Hokkaido.<br/>\r\nI guarantee it’s going to be fun,<br/>\r\nso if you have a ticket, make sure to attend it!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

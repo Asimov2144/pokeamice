@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "article": 121,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "誕生日のときの写真がケーキだけだったので、、、おまけ。",
+      "images": [],
+      "source_html": "<p>誕生日のときの写真がケーキだけだったので、、、おまけ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ローソクに灯がともる。\n\nケーキとスタバとマスダ。\n\n{% image id=\"121-multi-123a\" %}",
+      "images": [
+        "121-multi-123a"
+      ],
+      "source_html": "<p>ローソクに灯がともる。<br/>\r\nケーキとスタバとマスダ。<br/>\n<img alt=\"123a.jpg\" src=\"/blog/dir/wp-content/uploads/2008/01/123a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "スタッフとケーキをほおばるマスダ。\n\n{% image id=\"121-multi-123b\" %}",
+      "images": [
+        "121-multi-123b"
+      ],
+      "source_html": "<p>スタッフとケーキをほおばるマスダ。<br/>\n<img alt=\"123b.jpg\" src=\"/blog/dir/wp-content/uploads/2008/01/123b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "過去の情報に新しい情報を付加する、というこの試み！！（ナンチャッテ）\n\nしかーし、、、\n\n情報はやっぱり速い方が嬉しいですね。。。",
+      "images": [],
+      "source_html": "<p>過去の情報に新しい情報を付加する、というこの試み！！（ナンチャッテ）<br/>\r\nしかーし、、、<br/>\r\n情報はやっぱり速い方が嬉しいですね。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "何ででしょうね？\n\nリアルな感じがしないから？\n\nライブな感じがしないから？",
+      "images": [],
+      "source_html": "<p>何ででしょうね？<br/>\r\nリアルな感じがしないから？<br/>\r\nライブな感じがしないから？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "新聞だったら古い情報でも許せるのに、\n\nWebだと許せない感じが、、、これまた不思議。",
+      "images": [],
+      "source_html": "<p>新聞だったら古い情報でも許せるのに、<br/>\r\nWebだと許せない感じが、、、これまた不思議。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、そうそう、みなさん１２日、ダイヤモンド・パールをプレイしました？\n\n雪の感じが違ってたでしょ？\n\nキッサキも綺麗に。\n\n全世界の１月１２日は全世界で同じ天気だったってことですね。（コレガヤリタカッタ！）\n\nあ、あと、ポケモンもいつもより少しだけ多くいたようだし、タマゴもすこーし活発だったはず。",
+      "images": [],
+      "source_html": "<p>あ、そうそう、みなさん１２日、ダイヤモンド・パールをプレイしました？<br/>\r\n雪の感じが違ってたでしょ？<br/>\r\nキッサキも綺麗に。<br/>\r\n全世界の１月１２日は全世界で同じ天気だったってことですね。（コレガヤリタカッタ！）<br/>\r\nあ、あと、ポケモンもいつもより少しだけ多くいたようだし、タマゴもすこーし活発だったはず。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

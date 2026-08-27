@@ -1,0 +1,41 @@
+id: masuda-112
+number: 112
+month: 2007-11
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no112
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no112
+    permalink_validated: true
+    date: '2007-11-06'
+    date_display: 11.06.2007
+    categories:
+    - Diary
+    lead: Hello! Masuda reporting from Las Vegas, Nevada!
+    raw_page: archive/gamefreak-director/raw/en/2007/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
+    permalink: null
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%ef%bc%91%ef%bc%91%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: false
+    date: '2007-11-06'
+    date_display: 2007.11.06
+    categories:
+    - 日記
+    lead: こんにちは！増田＠ラスベガスです！
+    raw_page: archive/gamefreak-director/raw/ja/2007/11/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets: []

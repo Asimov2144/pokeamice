@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 111,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Surprise!!!\n\nFrom now on, my columns will be translated into English!!",
+      "images": [],
+      "source_html": "<p>Surprise!!!<br/>\r\nFrom now on, my columns will be translated into English!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Hiro Nakamura, our Game Designer who lived abroad\n\nfor many years, will be translating my columns!",
+      "images": [],
+      "source_html": "<p>Hiro Nakamura, our Game Designer who lived abroad<br/>\r\nfor many years, will be translating my columns!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our plans are to provide translation as carefully and discreetly as possible.\n\nThese translations will require time, and due to our busy\n\ndevelopment schedule, updates in English may be delayed.\n\nWe apologize in advance for any inconvenience this may cause.",
+      "images": [],
+      "source_html": "<p>Our plans are to provide translation as carefully and discreetly as possible.<br/>\r\nThese translations will require time, and due to our busy<br/>\r\ndevelopment schedule, updates in English may be delayed.<br/>\r\nWe apologize in advance for any inconvenience this may cause.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I want all my readers to understand the subtle details\n\nand nuances of my messages.\n\nMy intention is to retain the original nuances\n\nby working Hiro on future translation.",
+      "images": [],
+      "source_html": "<p>I want all my readers to understand the subtle details<br/>\r\nand nuances of my messages.<br/>\r\nMy intention is to retain the original nuances<br/>\r\nby working Hiro on future translation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And, here’s a message from Hiro!",
+      "images": [],
+      "source_html": "<p>And, here’s a message from Hiro!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": ">>>>>>>>>>>>>>>>>>>>>>\n\nHiya! This is Hiro Nakamura. I’m a Game Designer @ GameFreak.\n\nAlthough my English is far from perfect,\n\nI hope you’ll find our English columns interesting!\n\n>>>>>>>>>>>>>>>>>>>>>>",
+      "images": [],
+      "source_html": "<p>&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;<br/>\r\nHiya! This is Hiro Nakamura. I’m a Game Designer @ GameFreak.<br/>\r\nAlthough my English is far from perfect,<br/>\r\nI hope you’ll find our English columns interesting!<br/>\r\n&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Simultaneous updates will not be possible,\n\nbut I hope not only domestic,\n\nbut overseas readers will look forward to read my columns!",
+      "images": [],
+      "source_html": "<p>Simultaneous updates will not be possible,<br/>\r\nbut I hope not only domestic,<br/>\r\nbut overseas readers will look forward to read my columns!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And one more thing!\n\nPrevious columns will also get translated into English!\n\nAgain, converting all previous columns into English require much more time,\n\nso we will provide the contents as time progresses.\n\nPlease stay tuned for more of our “Director’s Columns”!",
+      "images": [],
+      "source_html": "<p>And one more thing!<br/>\r\nPrevious columns will also get translated into English!<br/>\r\nAgain, converting all previous columns into English require much more time,<br/>\r\nso we will provide the contents as time progresses.<br/>\r\nPlease stay tuned for more of our “Director’s Columns”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

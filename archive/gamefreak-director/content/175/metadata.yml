@@ -1,0 +1,43 @@
+id: masuda-175
+number: 175
+month: 2010-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2010/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no175
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no175
+    permalink_validated: true
+    date: '2010-09-10'
+    date_display: 09.10.2010
+    categories:
+    - Info
+    - Pokemon
+    lead: “Pokemon Pia” have launched today!!
+    raw_page: archive/gamefreak-director/raw/en/2010/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2010/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%97%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%97%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2010-09-10'
+    date_display: 2010.09.10
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: 本日、「 ポケモンぴあ 」が発売になりました！！
+    raw_page: archive/gamefreak-director/raw/ja/2010/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:22+00:00'
+assets: []

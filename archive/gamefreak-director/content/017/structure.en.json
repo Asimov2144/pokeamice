@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 17,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "It’s just a question but\n\nwhy do they call “priority” seats on the trains?\n\nI understand their concept, but in reality they are\n\nmore like “reserved” seats.\n\nSomewhere between “priority” and “reserved.”\n\nThe word “priority” doesn’t seem to fit to describe\n\nwhat they are.",
+      "images": [],
+      "source_html": "<p>It’s just a question but<br/>\r\nwhy do they call “priority” seats on the trains?<br/>\r\nI understand their concept, but in reality they are<br/>\r\nmore like “reserved” seats.<br/>\r\nSomewhere between “priority” and “reserved.”<br/>\r\nThe word “priority” doesn’t seem to fit to describe<br/>\r\nwhat they are.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you’re on a train or waiting for an elevator,\n\nyou feel less willing to yield.",
+      "images": [],
+      "source_html": "<p>When you’re on a train or waiting for an elevator,<br/>\r\nyou feel less willing to yield.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But when I’m looking for a spot in a parking lot,\n\nI feel I shouldn’t park in spots with a big “priority”\n\nsign. I don’t really know why.\n\nI don’t know why but I feel I shouldn’t park\n\nin spots like that because\n\nit’s reserved for other people.",
+      "images": [],
+      "source_html": "<p>But when I’m looking for a spot in a parking lot,<br/>\r\nI feel I shouldn’t park in spots with a big “priority”<br/>\r\nsign. I don’t really know why.<br/>\r\nI don’t know why but I feel I shouldn’t park<br/>\r\nin spots like that because<br/>\r\nit’s reserved for other people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I develop games, too, I notice that we have\n\ndifferent feelings about the same thing\n\ndepending on how we look at it.\n\nWe become less conscious of certain aspects\n\nwhen we stop focusing on it.",
+      "images": [],
+      "source_html": "<p>When I develop games, too, I notice that we have<br/>\r\ndifferent feelings about the same thing<br/>\r\ndepending on how we look at it.<br/>\r\nWe become less conscious of certain aspects<br/>\r\nwhen we stop focusing on it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In game development,\n\nthe parts where we want the player to notice,\n\nand the parts where we want the player not to notice,\n\nboth are equally important.",
+      "images": [],
+      "source_html": "<p>In game development,<br/>\r\nthe parts where we want the player to notice,<br/>\r\nand the parts where we want the player not to notice,<br/>\r\nboth are equally important.</p>"
+    }
+  ]
+}

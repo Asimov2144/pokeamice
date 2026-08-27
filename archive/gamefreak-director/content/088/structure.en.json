@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": 88,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, thank you very much!!!",
+      "images": [],
+      "source_html": "<p>Everyone, thank you very much!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thanks to you, we can now announce that more\n\nthan 10 million Pokemon have been traded\n\nthrough the Global Trade Station (GTS).\n\nI’m thrilled !!!\n\nIt’s a number that exceeds our expectations.\n\nEspecially those in North America seem more\n\nlikely to be connected via WiFi. Thanks!",
+      "images": [],
+      "source_html": "<p>Thanks to you, we can now announce that more<br/>\r\nthan <span style=\"color:#ff6600;font-weight:bold\">10 million</span> Pokemon have been traded<br/>\r\nthrough the Global Trade Station (GTS).<br/>\r\nI’m thrilled !!!<br/>\r\nIt’s a number that exceeds our expectations.<br/>\r\nEspecially those in North America seem more<br/>\r\nlikely to be connected via WiFi. Thanks!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Diamond & Pearl will be released in\n\nEurope on July 27th.\n\nWith this release, 4 more languages, Italian,\n\nFrench, Spanish, and German, will be also available.\n\nPlease try trading Pokemon with those in\n\nabroad by making Pokemon carry your mail.",
+      "images": [],
+      "source_html": "<p>Pokemon Diamond &amp; Pearl will be released in<br/>\r\nEurope on July 27th.<br/>\r\nWith this release, 4 more languages, Italian,<br/>\r\nFrench, Spanish, and German, will be also available.<br/>\r\nPlease try trading Pokemon with those in<br/>\r\nabroad by making Pokemon carry your mail.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

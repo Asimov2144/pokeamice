@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 60,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "長らくお待たせ致しました。",
+      "images": [],
+      "source_html": "<p> 長らくお待たせ致しました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "本日、２００６年９月２８日木曜日",
+      "images": [],
+      "source_html": "<p>本日、２００６年９月２８日木曜日</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスター　ダイヤモンド」\n\n「ポケットモンスター　　パール　　」",
+      "images": [],
+      "source_html": "<p><span style=\"font-size:150%;fobt-weight:bold\">「ポケットモンスター　ダイヤモンド」<br/>\r\n「ポケットモンスター　　パール　　」</span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ついに発売となりました！！",
+      "images": [],
+      "source_html": "<p>ついに発売となりました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今朝、７時４５分からの新宿高島屋でのイベントを見てきたのですが、\n\n昨日の夜から徹夜してくれたり、早朝４時から並んでくれたりと、\n\n多くの方々が並んでくださっていて、、、ほんと、感激しました。",
+      "images": [],
+      "source_html": "<p>今朝、７時４５分からの新宿高島屋でのイベントを見てきたのですが、<br/>\r\n昨日の夜から徹夜してくれたり、早朝４時から並んでくれたりと、<br/>\r\n多くの方々が並んでくださっていて、、、ほんと、感激しました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "遊んでくださる方の顔が見えるというのは、\n\nいやー、やっぱり嬉しい！",
+      "images": [],
+      "source_html": "<p>遊んでくださる方の顔が見えるというのは、<br/>\r\nいやー、やっぱり嬉しい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "とにかく！\n\nたっぷりとそしてじっくりと遊んでみてください。\n\nいろいろな遊び方を発見できると思います。\n\nそして、是非WiFiもトライしてみてくださいね。",
+      "images": [],
+      "source_html": "<p>とにかく！<br/>\r\nたっぷりとそしてじっくりと遊んでみてください。<br/>\r\nいろいろな遊び方を発見できると思います。<br/>\r\nそして、是非WiFiもトライしてみてくださいね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！\n\nレッツ　プレイ！",
+      "images": [],
+      "source_html": "<p>では！<br/>\r\nレッツ　プレイ！</p>"
+    }
+  ]
+}

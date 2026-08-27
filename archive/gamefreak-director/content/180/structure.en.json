@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 180,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "It’s finally announced today!",
+      "images": [],
+      "source_html": "<p>It’s finally announced today!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The launch date of\n\nNorth American version\n\nPoke’mon Black and White.",
+      "images": [],
+      "source_html": "<p>The launch date of<br/>\r\nNorth American version<br/>\r\nPoke’mon Black and White.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.com/us/](http://www.pokemon.com/us/)\n\n[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.com/us/\" target=\"_blank\">http://www.pokemon.com/us/</a><br/>\n<a href=\"http://www.pokemonblackwhite.com/en-us/\" target=\"_blank\">http://www.pokemonblackwhite.com/en-us/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Finally, we could trade our Poke’mon\n\nwith North American players.",
+      "images": [],
+      "source_html": "<p>Finally, we could trade our Poke’mon<br/>\r\nwith North American players.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "World Championship sure will be excited.",
+      "images": [],
+      "source_html": "<p>World Championship sure will be excited.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/wcs/2011/?a001=flash](http://www.pokemon.co.jp/wcs/2011/?a001=flash)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/wcs/2011/?a001=flash\" target=\"_blank\">http://www.pokemon.co.jp/wcs/2011/?a001=flash</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m really looking forward to it.",
+      "images": [],
+      "source_html": "<p>I’m really looking forward to it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

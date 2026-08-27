@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "article": 105,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "９月２３日（日）、２４日（月）に四国の松山に行ってきました！",
+      "images": [],
+      "source_html": "<p>９月２３日（日）、２４日（月）に四国の松山に行ってきました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "寿退職したスタッフが式と披露宴に招いてくれたんです。\n\n嬉しいことです。ありがとう！",
+      "images": [],
+      "source_html": "<p>寿退職したスタッフが式と披露宴に招いてくれたんです。<br/>\r\n嬉しいことです。ありがとう！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "四国は東京よりかなり暖かく汗ばむ陽気！\n\nとても良い天気に恵まれ、本当に素晴らしい式でした。\n\n花嫁さん、とっても綺麗で素敵でしたよ！",
+      "images": [],
+      "source_html": "<p>四国は東京よりかなり暖かく汗ばむ陽気！<br/>\r\nとても良い天気に恵まれ、本当に素晴らしい式でした。<br/>\r\n花嫁さん、とっても綺麗で素敵でしたよ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして次の日！\n\n時間が少しあったので観光！",
+      "images": [],
+      "source_html": "<p>そして次の日！<br/>\r\n時間が少しあったので観光！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ホテルから歩いて松山城へ。\n\nまずはリフトかロープウェイを選べます。メズラシイ！\n\nで、、中腹まで登ります。",
+      "images": [],
+      "source_html": "<p>ホテルから歩いて松山城へ。<br/>\r\nまずはリフトかロープウェイを選べます。メズラシイ！<br/>\r\nで、、中腹まで登ります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そこからは歩き！\n\nかなり坂も厳しく息があがります。アセダクダク！",
+      "images": [],
+      "source_html": "<p>そこからは歩き！<br/>\r\nかなり坂も厳しく息があがります。アセダクダク！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "石垣、門、樹、建物。。。\n\n日本の城は、いかにして敵から守るか、攻め辛いかで設計されています。まさに要塞。\n\n石垣の曲線美に感動。\n\n門の前では遠くに天守閣が見え威圧感を放ち。\n\n松の木でたいまつや薬に。\n\n槍で敵を突けるように無数の穴が建物に空けてある。\n\nとても勉強になりました。",
+      "images": [],
+      "source_html": "<p>石垣、門、樹、建物。。。<br/>\r\n日本の城は、いかにして敵から守るか、攻め辛いかで設計されています。まさに要塞。<br/>\r\n石垣の曲線美に感動。<br/>\r\n門の前では遠くに天守閣が見え威圧感を放ち。<br/>\r\n松の木でたいまつや薬に。<br/>\r\n槍で敵を突けるように無数の穴が建物に空けてある。<br/>\r\nとても勉強になりました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "愛媛県の松山城、守りに特化したような作りで素晴らしかったです。\n\nみなさんも是非行ってみてください！\n\n戦いと守りの哲学垣間見られます。",
+      "images": [],
+      "source_html": "<p>愛媛県の松山城、守りに特化したような作りで素晴らしかったです。<br/>\r\nみなさんも是非行ってみてください！<br/>\r\n戦いと守りの哲学垣間見られます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"105-multi-105a\" %} {% image id=\"105-multi-105b\" %}{% image id=\"105-multi-105c\" %}",
+      "images": [
+        "105-multi-105a",
+        "105-multi-105b",
+        "105-multi-105c"
+      ],
+      "source_html": "<p><span class=\"file-link image\"> </span><span class=\"file-link image\"></span><span class=\"file-link image\"><img alt=\"105a.jpg\" src=\"/blog/dir/wp-content/uploads/2007/09/105a.jpg\"/></span><span class=\"file-link image\"> </span><span class=\"file-link image\"><img alt=\"105b.jpg\" src=\"/blog/dir/wp-content/uploads/2007/09/105b.jpg\"/></span><span class=\"file-link image\"><img alt=\"105c.jpg\" src=\"/blog/dir/wp-content/uploads/2007/09/105c.jpg\"/></span></p>"
+    }
+  ]
+}

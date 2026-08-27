@@ -1,0 +1,106 @@
+id: masuda-193
+number: 193
+month: 2011-05
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no193
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no193
+    permalink_validated: true
+    date: '2011-05-30'
+    date_display: 05.30.2011
+    categories:
+    - Music
+    - Pokemon
+    lead: I went to music studio last Saturday!
+    raw_page: archive/gamefreak-director/raw/en/2011/05/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%93%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%93%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-05-29'
+    date_display: 2011.05.29
+    categories:
+    - ポケモン
+    - 音楽
+    lead: 音楽スタジオに行ってきました！
+    raw_page: archive/gamefreak-director/raw/ja/2011/05/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:24+00:00'
+assets:
+- id: 193-en-193a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/05/193a.jpg
+  local_path: archive/gamefreak-director/assets/original/193/en/193a.jpg
+  sha256: 19d229f38477a9ba8b132d0a7c18df0b22ccdfed40ee5ae4ab0eb3beaf9199a1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-en-193b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/05/193b.jpg
+  local_path: archive/gamefreak-director/assets/original/193/en/193b.jpg
+  sha256: b485ef3286b954bad195f301bbadcacd194ce2df7376ef9b94fbaaf3ad5e92f4
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-en-193d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/05/193d.jpg
+  local_path: archive/gamefreak-director/assets/original/193/en/193d.jpg
+  sha256: 4dde692d47d0fdac6cc7608a7d150204c5fef2b296ceeaf2a2052387b345660d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-ja-193a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/05/193a.jpg
+  local_path: archive/gamefreak-director/assets/original/193/ja/193a.jpg
+  sha256: 19d229f38477a9ba8b132d0a7c18df0b22ccdfed40ee5ae4ab0eb3beaf9199a1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-ja-193b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/05/193b.jpg
+  local_path: archive/gamefreak-director/assets/original/193/ja/193b.jpg
+  sha256: b485ef3286b954bad195f301bbadcacd194ce2df7376ef9b94fbaaf3ad5e92f4
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-ja-193c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/05/193c.jpg
+  local_path: archive/gamefreak-director/assets/original/193/ja/193c.jpg
+  sha256: a619f4bf302c06f6bba4a9da4fd4a31ebb45e204a939913241f4262b241aaa9e
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 193-ja-193d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/05/193d.jpg
+  local_path: archive/gamefreak-director/assets/original/193/ja/193d.jpg
+  sha256: 4dde692d47d0fdac6cc7608a7d150204c5fef2b296ceeaf2a2052387b345660d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

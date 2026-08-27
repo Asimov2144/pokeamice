@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 222,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello there!",
+      "images": [],
+      "source_html": "<p>Hello there!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What was an announcement I talked\n\nabout in previous 221st directors column??",
+      "images": [],
+      "source_html": "<p>What was an announcement I talked<br/>\r\nabout in previous 221st directors column??</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is…",
+      "images": [],
+      "source_html": "<p>That is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Brand new softwares presented by\n\nGameFreak,",
+      "images": [],
+      "source_html": "<p>Brand new softwares presented by<br/>\r\nGameFreak,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pocket Monsters Black 2″\n\n“Pocket Monsters White 2″",
+      "images": [],
+      "source_html": "<p>“Pocket Monsters Black 2″<br/>\r\n“Pocket Monsters White 2″</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "will be launching on June in Japan!!",
+      "images": [],
+      "source_html": "<p>will be launching on June in Japan!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are two Pokémon which\n\nappears in this game.\n\nTheir names are…",
+      "images": [],
+      "source_html": "<p>There are two Pokémon which<br/>\r\nappears in this game.<br/>\r\nTheir names are…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Black Kyurem” and,\n\n“White Kyurem”",
+      "images": [],
+      "source_html": "<p>“Black Kyurem” and,<br/>\r\n“White Kyurem”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It seems above two Pokémon are related with\n\nZekrom and Reshiram…",
+      "images": [],
+      "source_html": "<p>It seems above two Pokémon are related with<br/>\r\nZekrom and Reshiram…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you want to see their appearance,\n\ncheck this official page!!",
+      "images": [],
+      "source_html": "<p>If you want to see their appearance,<br/>\r\ncheck this official page!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/ex/b2w2/](http://www.pokemon.co.jp/ex/b2w2/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/ex/b2w2/\" target=\"_blank\">http://www.pokemon.co.jp/ex/b2w2/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Stay tuned!\n\nPlease wait for more new information!!",
+      "images": [],
+      "source_html": "<p>Stay tuned!<br/>\r\nPlease wait for more new information!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

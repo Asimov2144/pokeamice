@@ -1,0 +1,46 @@
+id: masuda-045
+number: 45
+month: 2005-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-45
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-45
+    permalink_validated: true
+    date: '2005-06-29'
+    date_display: 06.29.2005
+    categories:
+    - Diary
+    - Pokemon
+    lead: In creating games, I often think about the situation where players play
+      the game, and how they play it. Also, I try to imagine in what kind of place
+      and environment they play our games. When I picture these in my head, things
+      start to make sense.
+    raw_page: archive/gamefreak-director/raw/en/2005/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-06-29'
+    date_display: 2005.06.29
+    categories:
+    - ポケモン
+    - 日記
+    lead: ゲームを作っていてよく考えるのは、 遊んでいる状況、状態。 そして、空間と環境。 それらを想像すると見えてくることがあります。
+    raw_page: archive/gamefreak-director/raw/ja/2005/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:11+00:00'
+assets: []

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 150,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Here’s an interview article revealed when I had a\n\nbusiness trip to San Francisco.",
+      "images": [],
+      "source_html": "<p>Here’s an interview article revealed when I had a<br/>\r\nbusiness trip to San Francisco.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On June issue of “Game Informer” magazine,\n\nmy interview article and picture are written up!\n\nPeople who can pick up this magazine,\n\nplease do take a look!",
+      "images": [],
+      "source_html": "<p>On June issue of “Game Informer” magazine,<br/>\r\nmy interview article and picture are written up!<br/>\r\nPeople who can pick up this magazine,<br/>\r\nplease do take a look!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Website “Gamasutra” also released an\n\ninterview article on this April.\n\n[http://www.gamasutra.com/php-bin/news_index.php?story=23052](http://www.gamasutra.com/php-bin/news_index.php?story=23052)\n\n[http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php](http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php)",
+      "images": [],
+      "source_html": "<p>Website “Gamasutra” also released an<br/>\r\ninterview article on this April.<br/>\n<a href=\"http://www.gamasutra.com/php-bin/news_index.php?story=23052\" target=\"_blank\">http://www.gamasutra.com/php-bin/news_index.php?story=23052</a><br/>\n<a href=\"http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php\" target=\"_blank\">http://www.gamasutra.com/view/feature/3979/the_art_of_balance_pokmons_.php</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And,\n\n“Pokemon World Championships 2009.”\n\nThe championshios for United States Nationals\n\nstarted on Saturday May 9th and ended on Saturday June 13th!\n\nThere are six regional championships were held in\n\nUnited States and I heard there are tons of people\n\nparticipated those events.\n\nI deeply apprecite for all for coming.",
+      "images": [],
+      "source_html": "<p>And,<br/>\r\n“Pokemon World Championships 2009.”<br/>\r\nThe championshios for United States Nationals<br/>\r\nstarted on Saturday May 9th and ended on Saturday June 13th!<br/>\r\nThere are six regional championships were held in<br/>\r\nUnited States and I heard there are tons of people<br/>\r\nparticipated those events.<br/>\r\nI deeply apprecite for all for coming.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please check following\n\n“Pokemon Video Game Championships” site for detail.\n\n[http://www.pokemonvgc.com/](http://www.pokemonvgc.com/)",
+      "images": [],
+      "source_html": "<p>Please check following<br/>\r\n“Pokemon Video Game Championships” site for detail.<br/>\n<a href=\"http://www.pokemonvgc.com/\" target=\"_blank\">http://www.pokemonvgc.com/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

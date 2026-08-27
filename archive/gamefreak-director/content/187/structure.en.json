@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 187,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "In April issue of “Nintendo Dream (released on this Feb. 21st)” magazine,\n\nthere’s an article of our interview.",
+      "images": [],
+      "source_html": "<p>In April issue of “Nintendo Dream (released on this Feb. 21st)” magazine,<br/>\r\nthere’s an article of our interview.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the article of “Battle Dojo Returns,” we Game Freak\n\nand the staff of Nintendo Dream had a Pokemon battle!!\n\nHow’s the conclusion!?",
+      "images": [],
+      "source_html": "<p>In the article of “Battle Dojo Returns,” we Game Freak<br/>\r\nand the staff of Nintendo Dream had a Pokemon battle!!<br/>\r\nHow’s the conclusion!?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, there’s an article of our graphic designer talking about\n\nPokemon and characters!!",
+      "images": [],
+      "source_html": "<p>Also, there’s an article of our graphic designer talking about<br/>\r\nPokemon and characters!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And about bridges. I’ve talked about bridges deeply.\n\nWhy the bridge designed in certain shape?\n\nIs there any certain model? Etc… etc…\n\nIt might be little strange for game magazine!",
+      "images": [],
+      "source_html": "<p>And about bridges. I’ve talked about bridges deeply.<br/>\r\nWhy the bridge designed in certain shape?<br/>\r\nIs there any certain model? Etc… etc…<br/>\r\nIt might be little strange for game magazine!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Tons of contents!\n\nPlease purchase!!",
+      "images": [],
+      "source_html": "<p>Tons of contents!<br/>\r\nPlease purchase!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Nintendo Dream” magazine is only available in Japan.",
+      "images": [],
+      "source_html": "<p>*”Nintendo Dream” magazine is only available in Japan.</p>"
+    }
+  ]
+}

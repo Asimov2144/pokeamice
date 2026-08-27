@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 91,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "ついに！",
+      "images": [],
+      "source_html": "<p>ついに！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "欧州時間の２００７年７月２７日（金）",
+      "images": [],
+      "source_html": "<p>欧州時間の２００７年７月２７日（金）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "待ちに待った欧州版『Poke’mon DIAMOND & PEARL』が発売されました！",
+      "images": [],
+      "source_html": "<p>待ちに待った欧州版『Poke’mon DIAMOND &amp; PEARL』が発売されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これによって、ようやく地球が１つになりました！",
+      "images": [],
+      "source_html": "<p>これによって、ようやく地球が１つになりました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ちなみに、欧州版とはドイツ、フランス、スペイン、イタリア語がありますんで、\n\nニックネームの不思議なポケモンもやってくると思います。",
+      "images": [],
+      "source_html": "<p>ちなみに、欧州版とはドイツ、フランス、スペイン、イタリア語がありますんで、<br/>\r\nニックネームの不思議なポケモンもやってくると思います。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、ジオネットでの点を増やして下さい！\n\nその点１つ１つがポケモンファンのつながりです！",
+      "images": [],
+      "source_html": "<p>そして、ジオネットでの点を増やして下さい！<br/>\r\nその点１つ１つがポケモンファンのつながりです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ひとつの星の、地球上の世界が繋がるポケモン交換の世界。\n\nぜひトライしてみてくださいね！",
+      "images": [],
+      "source_html": "<p>ひとつの星の、地球上の世界が繋がるポケモン交換の世界。<br/>\r\nぜひトライしてみてくださいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

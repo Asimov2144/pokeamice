@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 32,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On Sunday, February 27th, 2005,\n\nit will mark the 9th anniversary since\n\nthe launch of Pokemon Red and Green.",
+      "images": [],
+      "source_html": "<p>On Sunday, February 27th, 2005,<br/>\r\nit will mark the 9th anniversary since<br/>\r\nthe launch of Pokemon Red and Green.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Wow, time passes so fast.\n\nI’ve been running and running and without\n\nknowing it 9 years have passed.\n\nThat’s how it seems to me.",
+      "images": [],
+      "source_html": "<p>Wow, time passes so fast.<br/>\r\nI’ve been running and running and without<br/>\r\nknowing it 9 years have passed.<br/>\r\nThat’s how it seems to me.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since we created Pokemon, my workloads\n\nskyrocketed, and also I was able to meet many people.\n\n“Pokemon” expanded my personal relationships.\n\n“Pokemon” widened my sphere of knowledge.\n\nFor me, Pokemon is a treasure.",
+      "images": [],
+      "source_html": "<p>Since we created Pokemon, my workloads<br/>\r\nskyrocketed, and also I was able to meet many people.<br/>\r\n“Pokemon” expanded my personal relationships.<br/>\r\n“Pokemon” widened my sphere of knowledge.<br/>\r\nFor me, Pokemon is a treasure.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I also did many kinds of jobs that were not my\n\nspeciality, but now I read over old papers and\n\ndocuments, if I dare say so, I’m impressed how hard I worked.\n\nBut no matter what I was working at,\n\nit was to make a better game, and it was\n\ninvaluable for keeping the world of Pokemon\n\nalive and for expanding it.\n\nThere was never a time when I could cut corners.",
+      "images": [],
+      "source_html": "<p>I also did many kinds of jobs that were not my<br/>\r\nspeciality, but now I read over old papers and<br/>\r\ndocuments, if I dare say so, I’m impressed how hard I worked.<br/>\r\nBut no matter what I was working at,<br/>\r\nit was to make a better game, and it was<br/>\r\ninvaluable for keeping the world of Pokemon<br/>\r\nalive and for expanding it.<br/>\r\nThere was never a time when I could cut corners.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As I look back I realize how much I love creating\n\ngames, and also the process of game creation\n\nfrom the bottom of my heart.",
+      "images": [],
+      "source_html": "<p>As I look back I realize how much I love creating<br/>\r\ngames, and also the process of game creation<br/>\r\nfrom the bottom of my heart.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Such thoughts came upon my mind. It’s been 9 years.",
+      "images": [],
+      "source_html": "<p>Such thoughts came upon my mind. It’s been 9 years.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

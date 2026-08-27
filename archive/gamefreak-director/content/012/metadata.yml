@@ -1,0 +1,42 @@
+id: masuda-012
+number: 12
+month: 2004-08
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-12
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-12
+    permalink_validated: true
+    date: '2004-08-31'
+    date_display: 08.31.2004
+    categories:
+    - Diary
+    lead: Today I went to Pokemon center Tokyo for the first time since its reopening.
+      The center is now more neatly arranged and looks cleaner.
+    raw_page: archive/gamefreak-director/raw/en/2004/08/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-08-31'
+    date_display: 2004.08.31
+    categories:
+    - 日記
+    lead: ポケモンセンター東京がリニューアルしたので、 今日、行って来ました。 前よりも見やすく、綺麗になりました。
+    raw_page: archive/gamefreak-director/raw/ja/2004/08/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:08+00:00'
+assets: []

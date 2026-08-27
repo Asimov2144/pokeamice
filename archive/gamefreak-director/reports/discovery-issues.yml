@@ -1,0 +1,32 @@
+generated_at: '2026-08-27T05:49:31+00:00'
+issues:
+- lang: ja
+  month: 2006-12
+  source_url: https://www.gamefreak.co.jp/blog/dir/2006/12/index.html
+  status: duplicate-article-number
+  article_number: 64
+  dates:
+  - '2006-12-18'
+  - '2006-12-13'
+  note: Both posts remain preserved in the raw monthly capture.
+- lang: en
+  month: 2006-07
+  source_url: https://www.gamefreak.co.jp/blog/dir_english/2006/07/HPC-index.UNKNOWN.UNKNOWN
+  status: malformed-official-link
+  error: The official archive emitted an UNKNOWN placeholder URL.
+  fallback_source: https://www.gamefreak.co.jp/blog/dir_english/
+- lang: en
+  month: 2006-12
+  source_url: https://www.gamefreak.co.jp/blog/dir_english/2006/12/index.html
+  status: duplicate-article-number
+  article_number: 64
+  dates:
+  - '2006-12-18'
+  - '2006-12-13'
+  note: Both posts remain preserved in the raw monthly capture.
+- lang: en
+  month: 2014-10
+  source_url: https://www.gamefreak.co.jp/blog/dir_english/2014/10/HPC-index.UNKNOWN.UNKNOWN
+  status: malformed-official-link
+  error: The official archive emitted an UNKNOWN placeholder URL.
+  fallback_source: https://www.gamefreak.co.jp/blog/dir_english/

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 140,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Rules of Pokemon!?",
+      "images": [],
+      "source_html": "<p>Rules of Pokemon!?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Do you know the rules of Pokemon?",
+      "images": [],
+      "source_html": "<p>Do you know the rules of Pokemon?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here are some examples from Pokemon battle…\n\n- Wild Pokemon can be encountered only in grassy areas.\n\n- Battle starts when making an eye contact\n\nwith other Pokemon trainer.\n\n- When Pokemon’s HP turns zip, it faints.\n\n- Pokemon can learn up to four moves.\n\n- Whoever’s speed is the fastest, use its move first.\n\n- Pokemon can hold one item.\n\n- Battle continues till your party’s all Pokemon faints.\n\n- Wild Pokemon can be caught by using item(Poke Ball).\n\nand so on.",
+      "images": [],
+      "source_html": "<p>Here are some examples from Pokemon battle…<br/>\r\n- Wild Pokemon can be encountered only in grassy areas.<br/>\r\n- Battle starts when making an eye contact<br/>\r\nwith other Pokemon trainer.<br/>\r\n- When Pokemon’s HP turns zip, it faints.<br/>\r\n- Pokemon can learn up to four moves.<br/>\r\n- Whoever’s speed is the fastest, use its move first.<br/>\r\n- Pokemon can hold one item.<br/>\r\n- Battle continues till your party’s all Pokemon faints.<br/>\r\n- Wild Pokemon can be caught by using item(Poke Ball).<br/>\r\nand so on.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In case of video games, things what we could\n\nare restricted.\n\nThe fact is, those restrictions became rules.",
+      "images": [],
+      "source_html": "<p>In case of video games, things what we could<br/>\r\nare restricted.<br/>\r\nThe fact is, those restrictions became rules.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Therefore, although the game looks natural\n\nwith many rules,\n\nonce its disassembled,\n\nthere are many factors such as\n\nrules, desires, moves, are entangled.\n\nJust like basketball.",
+      "images": [],
+      "source_html": "<p>Therefore, although the game looks natural<br/>\r\nwith many rules,<br/>\r\nonce its disassembled,<br/>\r\nthere are many factors such as<br/>\r\nrules, desires, moves, are entangled.<br/>\r\nJust like basketball.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I know you don’t play video games with this kind of angle,\n\nbut our game designers face this particular viewpoint\n\nwhile they are working.",
+      "images": [],
+      "source_html": "<p>I know you don’t play video games with this kind of angle,<br/>\r\nbut our game designers face this particular viewpoint<br/>\r\nwhile they are working.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you find any,\n\nyou can see the things you couldn’t see before.",
+      "images": [],
+      "source_html": "<p>If you find any,<br/>\r\nyou can see the things you couldn’t see before.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

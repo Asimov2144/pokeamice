@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "article": 194,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Location of spider object, take a wild guess…?\n\n{% image id=\"194-en-194a\" %}",
+      "images": [
+        "194-en-194a"
+      ],
+      "source_html": "<p>Location of spider object, take a wild guess…?<br/>\n<img alt=\"194a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On May 30th, today I have a business meeting with\n\nthe Pokémon Company at Roppongi Hills(Tokyo) building.\n\n{% image id=\"194-en-194b\" %}",
+      "images": [
+        "194-en-194b"
+      ],
+      "source_html": "<p>On May 30th, today I have a business meeting with<br/>\r\nthe Pokémon Company at Roppongi Hills(Tokyo) building.<br/>\n<img alt=\"194b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Impressed by its big entrance and design…\n\n{% image id=\"194-en-194c\" %}",
+      "images": [
+        "194-en-194c"
+      ],
+      "source_html": "<p>Impressed by its big entrance and design…<br/>\n<img alt=\"194c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Cool entrance. People are so small!!\n\n{% image id=\"194-en-194d\" %}",
+      "images": [
+        "194-en-194d"
+      ],
+      "source_html": "<p>Cool entrance. People are so small!!<br/>\n<img alt=\"194d.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "View of the right side from entrance.\n\nI wonder why the design have done like this??\n\n{% image id=\"194-en-194e\" %}",
+      "images": [
+        "194-en-194e"
+      ],
+      "source_html": "<p>View of the right side from entrance.<br/>\r\nI wonder why the design have done like this??<br/>\n<img alt=\"194e.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In front of super cool building…\n\nI wonder how the design come up\n\nlike this?\n\n{% image id=\"194-en-194f\" %}",
+      "images": [
+        "194-en-194f"
+      ],
+      "source_html": "<p>In front of super cool building…<br/>\r\nI wonder how the design come up<br/>\r\nlike this?<br/>\n<img alt=\"194f.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194f.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Entrance of the Pokèmon Company.\n\n{% image id=\"194-en-194g\" %}",
+      "images": [
+        "194-en-194g"
+      ],
+      "source_html": "<p>Entrance of the Pokèmon Company.<br/>\n<img alt=\"194g.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Entrance…\n\n{% image id=\"194-en-194h\" %}",
+      "images": [
+        "194-en-194h"
+      ],
+      "source_html": "<p>Entrance…<br/>\n<img alt=\"194h.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194h.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Entrance.\n\n{% image id=\"194-en-194i\" %}",
+      "images": [
+        "194-en-194i"
+      ],
+      "source_html": "<p>Entrance.<br/>\n<img alt=\"194i.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194i.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "View from the meeting room.\n\n{% image id=\"194-en-194j\" %}",
+      "images": [
+        "194-en-194j"
+      ],
+      "source_html": "<p>View from the meeting room.<br/>\n<img alt=\"194j.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194j.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This day in Tokyo, wind is blowing\n\nstrong and cloud is floating away.\n\n{% image id=\"194-en-194k\" %}\n\nNo mountain can be seen from Tokyo!!\n\nOnly mountain we can see is Mt. Fuji!!\n\nThat’s the view from Tokyo!",
+      "images": [
+        "194-en-194k"
+      ],
+      "source_html": "<p>This day in Tokyo, wind is blowing<br/>\r\nstrong and cloud is floating away.<br/>\n<img alt=\"194k.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/194k.jpg\"/><br/>\r\nNo mountain can be seen from Tokyo!!<br/>\r\nOnly mountain we can see is Mt. Fuji!!<br/>\r\nThat’s the view from Tokyo!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It is necessary to think as follows for creation.\n\nIf I make a structure, how to build the awesome building?\n\nWhere is the best location to live with the view?",
+      "images": [],
+      "source_html": "<p>It is necessary to think as follows for creation.<br/>\r\nIf I make a structure, how to build the awesome building?<br/>\r\nWhere is the best location to live with the view?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

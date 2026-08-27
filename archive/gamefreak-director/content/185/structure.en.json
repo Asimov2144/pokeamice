@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "article": 185,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "This is Masuda reporting from San Francisco.",
+      "images": [],
+      "source_html": "<p>This is Masuda reporting from San Francisco.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It took 11 hours from London. It was quite far.",
+      "images": [],
+      "source_html": "<p>It took 11 hours from London. It was quite far.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ll have an interview for two days regarding Pokemon\n\nBlack and White version here in San Francisco!",
+      "images": [],
+      "source_html": "<p>I’ll have an interview for two days regarding Pokemon<br/>\r\nBlack and White version here in San Francisco!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And before that, I enjoy my stay in San Francisco.\n\n{% image id=\"185-en-2011_02_14_01\" %}",
+      "images": [
+        "185-en-2011_02_14_01"
+      ],
+      "source_html": "<p>And before that, I enjoy my stay in San Francisco.<br/>\n<img alt=\"2011_02_14_01.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_02\" %}\n\nAlcatrazz island in the myst.",
+      "images": [
+        "185-en-2011_02_14_02"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_02.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_02.jpg\"/><br/>\r\nAlcatrazz island in the myst.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_03\" %}\n\nMe and sea lions!!",
+      "images": [
+        "185-en-2011_02_14_03"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_03.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_03.jpg\"/><br/>\r\nMe and sea lions!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_04\" %}\n\nTake a look!!!",
+      "images": [
+        "185-en-2011_02_14_04"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_04.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_04.jpg\"/><br/>\r\nTake a look!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_05\" %}\n\nPassing through the Golden Gate Bridge! Last time I visited was for Pokemon\n\nPlatinum version two years ago. Huge! Cool!",
+      "images": [
+        "185-en-2011_02_14_05"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_05.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_05.jpg\"/><br/>\r\nPassing through the Golden Gate Bridge! Last time I visited was for Pokemon<br/>\r\nPlatinum version two years ago. Huge! Cool!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… I visited Pokemon Black and White version tour!\n\n[ﾂ?http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/](http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/)\n\n{% image id=\"185-en-2011_02_14_06\" %}\n\nLocation is San Jose.",
+      "images": [
+        "185-en-2011_02_14_06"
+      ],
+      "source_html": "<p>And… I visited Pokemon Black and White version tour!<br/>\n<a href=\"http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/\" target=\"_blank\">ﾂ?http://www.pokemon.com/us/news/bw_mall_tour-2011-01-10/</a><br/>\n<img alt=\"2011_02_14_06.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_06.jpg\"/><br/>\r\nLocation is San Jose.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Finally at last, my dream…\n\n{% image id=\"185-en-2011_02_14_08\" %}\n\ncomes to the real thing! I’m riding on it!!!",
+      "images": [
+        "185-en-2011_02_14_08"
+      ],
+      "source_html": "<p>Finally at last, my dream…<br/>\n<img alt=\"2011_02_14_08.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_08.jpg\"/><br/>\r\ncomes to the real thing! I’m riding on it!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I love trucks, so I showed them in Pokemon Black and White version.\n\n{% image id=\"185-en-2011_02_14_07\" %}\n\nAnother dream comes to reality! Look at my smile!",
+      "images": [
+        "185-en-2011_02_14_07"
+      ],
+      "source_html": "<p>I love trucks, so I showed them in Pokemon Black and White version.<br/>\n<img alt=\"2011_02_14_07.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_07.jpg\"/><br/>\r\nAnother dream comes to reality! Look at my smile!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_10\" %}\n\nJust superb!!",
+      "images": [
+        "185-en-2011_02_14_10"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_10.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_10.jpg\"/><br/>\r\nJust superb!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_09\" %}\n\n{% image id=\"185-en-2011_02_14_11\" %}\n\nPokemon goods were selling at the shopping mall!\n\nDemo version can be played and animation, movies, stamp rally\n\nwas held! It was just exciting!",
+      "images": [
+        "185-en-2011_02_14_09",
+        "185-en-2011_02_14_11"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_09.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_09.jpg\"/><br/>\n<img alt=\"2011_02_14_11.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_11.jpg\"/><br/>\r\nPokemon goods were selling at the shopping mall!<br/>\r\nDemo version can be played and animation, movies, stamp rally<br/>\r\nwas held! It was just exciting!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"185-en-2011_02_14_12\" %}\n\nZekrom and Reshiram. It’s big enough so people can ride on it!\n\nThese two trucks are heading to the next destination with\n\nfully stuffed items and goods!!",
+      "images": [
+        "185-en-2011_02_14_12"
+      ],
+      "source_html": "<p><img alt=\"2011_02_14_12.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/2011_02_14_12.jpg\"/><br/>\r\nZekrom and Reshiram. It’s big enough so people can ride on it!<br/>\r\nThese two trucks are heading to the next destination with<br/>\r\nfully stuffed items and goods!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Keep it up! Drivers!!",
+      "images": [],
+      "source_html": "<p>Keep it up! Drivers!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "article": 126,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "１２周年記念企画第二弾！",
+      "images": [],
+      "source_html": "<p>１２周年記念企画第二弾！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスター　ピカチュウバージョン」\n\nアニメのピカチュウのように、ピカチュウが”ピカチュウ”と鳴きます。\n\nゲームボーイでは高性能なサンプリングの機能はありませんから、\n\nどうにかして、”ピカチュウ”と鳴かせなければなりません。",
+      "images": [],
+      "source_html": "<p>「ポケットモンスター　ピカチュウバージョン」<br/>\r\nアニメのピカチュウのように、ピカチュウが”ピカチュウ”と鳴きます。<br/>\r\nゲームボーイでは高性能なサンプリングの機能はありませんから、<br/>\r\nどうにかして、”ピカチュウ”と鳴かせなければなりません。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そこで、当時プログラマでもあったマスダは、\n\n音声を１ビットデータにするコンバータを作成し、\n\nそれを再生するプログラムを組みました。",
+      "images": [],
+      "source_html": "<p>そこで、当時プログラマでもあったマスダは、<br/>\r\n音声を１ビットデータにするコンバータを作成し、<br/>\r\nそれを再生するプログラムを組みました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "仕組みとしては、、\n\nまず、サンプラーなどの機材で音をデジタル化します。\n\n{% image id=\"126-ja-pt0229_01_s\" %}\n\n※この波形はディアルガの鳴き声です。波形ではこんな感じになります。",
+      "images": [
+        "126-ja-pt0229_01_s"
+      ],
+      "source_html": "<p>仕組みとしては、、<br/>\r\nまず、サンプラーなどの機材で音をデジタル化します。<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_01_L.gif\" target=\"_blank\"><img alt=\"サンプラー画像\" src=\"/blog/dir/wp-content/uploads/2008/02/pt0229_01_s.jpg\"/></a><br/>\r\n※この波形はディアルガの鳴き声です。波形ではこんな感じになります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "拡大すると、こんな感じ。\n\n{% image id=\"126-ja-pt0229_02_s\" %}",
+      "images": [
+        "126-ja-pt0229_02_s"
+      ],
+      "source_html": "<p>拡大すると、こんな感じ。<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_02_L.gif\" target=\"_blank\"><img alt=\"サンプラー画像\" src=\"/blog/dir/wp-content/uploads/2008/02/pt0229_02_s.gif\"/></a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "さらに拡大すると、\n\n{% image id=\"126-ja-pt0229_03_s\" %}\n\nほぼ、デジタルな状態に。波形は音量データとして数値化されています。",
+      "images": [
+        "126-ja-pt0229_03_s"
+      ],
+      "source_html": "<p>さらに拡大すると、<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_03_L.gif\" target=\"_blank\"><img alt=\"サンプラー画像\" src=\"/blog/dir/wp-content/uploads/2008/02/pt0229_03_s.gif\"/></a><br/>\r\nほぼ、デジタルな状態に。波形は音量データとして数値化されています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これをコンバーターで、０と１に。",
+      "images": [],
+      "source_html": "<p>これをコンバーターで、０と１に。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "データとしては、、、\n\n{% image id=\"126-ja-pt0229_04_s\" %}\n\nこんな感じに。（画像の赤い０と１）",
+      "images": [
+        "126-ja-pt0229_04_s"
+      ],
+      "source_html": "<p>データとしては、、、<br/>\n<a href=\"https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/02/pt0229_04_L.gif\" target=\"_blank\"><img alt=\"サンプラー画像\" src=\"/blog/dir/wp-content/uploads/2008/02/pt0229_04_s.gif\"/></a><br/>\r\nこんな感じに。（画像の赤い０と１）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "どのレベルを１にするかでも音に影響するので、コンバーターには変換方式をいくつか用意しておきます。",
+      "images": [],
+      "source_html": "<p>どのレベルを１にするかでも音に影響するので、コンバーターには変換方式をいくつか用意しておきます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "この０と１をゲームボーイのクリックノイズ（ブチツ！）といった音で、\n\n０は鳴らさない。１は鳴らす。というのを高速に行います。\n\nこの高速に行う、というのがポイント。\n\n早いほど良い音になります。",
+      "images": [],
+      "source_html": "<p>この０と１をゲームボーイのクリックノイズ（ブチツ！）といった音で、<br/>\r\n０は鳴らさない。１は鳴らす。というのを高速に行います。<br/>\r\nこの高速に行う、というのがポイント。<br/>\r\n早いほど良い音になります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "”ピカチュウ”の完成です。\n\n{% image id=\"126-multi-pt0229_05\" %}",
+      "images": [
+        "126-multi-pt0229_05"
+      ],
+      "source_html": "<p>”ピカチュウ”の完成です。<br/>\n<img alt=\"ピカチュウ\" src=\"/blog/dir/wp-content/uploads/2008/02/pt0229_05.jpg\"/></p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いま聞いても可愛い。。。",
+      "images": [],
+      "source_html": "<p>いま聞いても可愛い。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.",
+      "images": [],
+      "source_html": "<p><span class=\"copy\">(c)1995,1996,1998 Nintendo/Creatures Inc./GAME FREAK inc.</span></p>"
+    }
+  ]
+}

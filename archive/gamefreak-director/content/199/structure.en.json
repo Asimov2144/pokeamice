@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "article": 199,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Going to E3 convention center.\n\nThere is a tank at the entrance! =)\n\n{% image id=\"199-en-199a\" %}",
+      "images": [
+        "199-en-199a"
+      ],
+      "source_html": "<p>Going to E3 convention center.<br/>\r\nThere is a tank at the entrance! =)<br/>\n<img alt=\"199a.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "After checking major booth,\n\nlet’s check peripheral items.\n\nStrangely, I love these staffs.\n\n{% image id=\"199-en-199b\" %}",
+      "images": [
+        "199-en-199b"
+      ],
+      "source_html": "<p>After checking major booth,<br/>\r\nlet’s check peripheral items.<br/>\r\nStrangely, I love these staffs.<br/>\n<img alt=\"199b.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Wow, I want this for my home! =)\n\n{% image id=\"199-en-199c\" %}",
+      "images": [
+        "199-en-199c"
+      ],
+      "source_html": "<p>Wow, I want this for my home! =)<br/>\n<img alt=\"199c.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Wooow! Its Lamborghini!!\n\n{% image id=\"199-en-199d\" %}",
+      "images": [
+        "199-en-199d"
+      ],
+      "source_html": "<p>Wooow! Its Lamborghini!!<br/>\n<img alt=\"199d.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are lots of my lovable Lamborghini…\n\n{% image id=\"199-en-199e\" %}",
+      "images": [
+        "199-en-199e"
+      ],
+      "source_html": "<p>There are lots of my lovable Lamborghini…<br/>\n<img alt=\"199e.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Seat, too!\n\n{% image id=\"199-en-199f\" %}\n\nSuper… It’s just incredible!",
+      "images": [
+        "199-en-199f"
+      ],
+      "source_html": "<p>Seat, too!<br/>\n<img alt=\"199f.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199f.jpg\"/><br/>\r\nSuper… It’s just incredible!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In another booth, there is a dome screen.\n\n180 degree world expands!\n\n{% image id=\"199-en-199g\" %}",
+      "images": [
+        "199-en-199g"
+      ],
+      "source_html": "<p>In another booth, there is a dome screen.<br/>\r\n180 degree world expands!<br/>\n<img alt=\"199g.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This one is cool, too.\n\nSurprising! Racing game using three monitors.\n\n{% image id=\"199-en-199h\" %}",
+      "images": [
+        "199-en-199h"
+      ],
+      "source_html": "<p>This one is cool, too.<br/>\r\nSurprising! Racing game using three monitors.<br/>\n<img alt=\"199h.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199h.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s another one.\n\n{% image id=\"199-en-199i\" %}",
+      "images": [
+        "199-en-199i"
+      ],
+      "source_html": "<p>Here’s another one.<br/>\n<img alt=\"199i.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199i.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, here is another.\n\nWhy don’t you get one?\n\n{% image id=\"199-en-199j\" %}",
+      "images": [
+        "199-en-199j"
+      ],
+      "source_html": "<p>Oh, here is another.<br/>\r\nWhy don’t you get one?<br/>\n<img alt=\"199j.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199j.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And…\n\nYes, here it is! PS Vita!\n\n{% image id=\"199-en-199k\" %}\n\nI want to develop fun game…",
+      "images": [
+        "199-en-199k"
+      ],
+      "source_html": "<p>And…<br/>\r\nYes, here it is! PS Vita!<br/>\n<img alt=\"199k.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199k.jpg\"/><br/>\r\nI want to develop fun game…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Atari, the world first commercial video game starter in 1972.\n\nThere are few cabinet consoles.\n\n{% image id=\"199-en-199l\" %}",
+      "images": [
+        "199-en-199l"
+      ],
+      "source_html": "<p>Atari, the world first commercial video game starter in 1972.<br/>\r\nThere are few cabinet consoles.<br/>\n<img alt=\"199l.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199l.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Flying carp!\n\n{% image id=\"199-en-199m\" %}",
+      "images": [
+        "199-en-199m"
+      ],
+      "source_html": "<p>Flying carp!<br/>\n<img alt=\"199m.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199m.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What a macho! I’m afraid I can’t win against him.\n\n{% image id=\"199-en-199n\" %}",
+      "images": [
+        "199-en-199n"
+      ],
+      "source_html": "<p>What a macho! I’m afraid I can’t win against him.<br/>\n<img alt=\"199n.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199n.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Scary!\n\n{% image id=\"199-en-199o\" %}",
+      "images": [
+        "199-en-199o"
+      ],
+      "source_html": "<p>Scary!<br/>\n<img alt=\"199o.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199o.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Event facilities, scary.\n\n{% image id=\"199-en-199p\" %}\n\nTons of video games.\n\nThere a lot of point worthy of note.\n\nMany parts to study.\n\nIt was stimulating.",
+      "images": [
+        "199-en-199p"
+      ],
+      "source_html": "<p>Event facilities, scary.<br/>\n<img alt=\"199p.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199p.jpg\"/><br/>\r\nTons of video games.<br/>\r\nThere a lot of point worthy of note.<br/>\r\nMany parts to study.<br/>\r\nIt was stimulating.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Many companies are working hard together\n\nto bring us a new technology of future.\n\nI left E3 convention center with above thought.",
+      "images": [],
+      "source_html": "<p>Many companies are working hard together<br/>\r\nto bring us a new technology of future.<br/>\r\nI left E3 convention center with above thought.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, video game is the ultimate entertainment!!",
+      "images": [],
+      "source_html": "<p>Well, video game is the ultimate entertainment!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See you!",
+      "images": [],
+      "source_html": "<p>See you!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"199-en-199q\" %}",
+      "images": [
+        "199-en-199q"
+      ],
+      "source_html": "<p><img alt=\"199q.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/199q.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!!",
+      "images": [],
+      "source_html": "<p>Ciao!!</p>"
+    }
+  ]
+}

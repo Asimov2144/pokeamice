@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "article": 121,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Only cake’s pictures were shown on the last column,\n\nso here’s little appendix.",
+      "images": [],
+      "source_html": "<p>Only cake’s pictures were shown on the last column,<br/>\r\nso here’s little appendix.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Candles are burning.\n\nThe cake, Starbucks and I, Masuda.",
+      "images": [],
+      "source_html": "<p>Candles are burning.<br/>\r\nThe cake, Starbucks and I, Masuda.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"121-multi-123a\" %}",
+      "images": [
+        "121-multi-123a"
+      ],
+      "source_html": "<p><img alt=\"123a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/123a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Munching cake with staffs.",
+      "images": [],
+      "source_html": "<p>Munching cake with staffs.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"121-multi-123b\" %}",
+      "images": [
+        "121-multi-123b"
+      ],
+      "source_html": "<p><img alt=\"123b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/01/123b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is a new attempt.\n\nAdding a new information over the old one!! (What da ya know!)\n\nNevertheless…\n\nIt’ll be more pleasant, if the information is much faster…",
+      "images": [],
+      "source_html": "<p>This is a new attempt.<br/>\r\nAdding a new information over the old one!! (What da ya know!)<br/>\r\nNevertheless…<br/>\r\nIt’ll be more pleasant, if the information is much faster…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why is that?\n\nBecause if it’s not, they aren’t real?\n\nBecause if it’s not, they aren’t live?",
+      "images": [],
+      "source_html": "<p>Why is that?<br/>\r\nBecause if it’s not, they aren’t real?<br/>\r\nBecause if it’s not, they aren’t live?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The old information on the newspaper can be tolerable,\n\nhowever on the web, it’s contrary…\n\nVery intriguing.",
+      "images": [],
+      "source_html": "<p>The old information on the newspaper can be tolerable,<br/>\r\nhowever on the web, it’s contrary…<br/>\r\nVery intriguing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "BTW, have you played Pokemon Diamond and Pearl\n\non this January 12th?\n\nDid you find snow was falling bit different?\n\nSnowpoint City was just beautiful!",
+      "images": [],
+      "source_html": "<p>BTW, have you played Pokemon Diamond and Pearl<br/>\r\non this January 12th?<br/>\r\nDid you find snow was falling bit different?<br/>\r\nSnowpoint City was just beautiful!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This means, on January 12th,\n\nｔhe weather all over the world were same.\n\n(I’ve always want to do that!)",
+      "images": [],
+      "source_html": "<p>This means, on January 12th,<br/>\r\nｔhe weather all over the world were same.<br/>\r\n(I’ve always want to do that!)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "article": 211,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On Monday September 19th, I was in Nagoya\n\nwhole day.",
+      "images": [],
+      "source_html": "<p>On Monday September 19th, I was in Nagoya<br/>\r\nwhole day.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The reason why is…",
+      "images": [],
+      "source_html": "<p>The reason why is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I visited “Famitsu presents: Press Start 2011″,\n\nvideo games classic concert!",
+      "images": [],
+      "source_html": "<p>I visited “Famitsu presents: Press Start 2011″,<br/>\r\nvideo games classic concert!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And I was planned to have a speech about\n\nPokémon’s 15th anniversary and Black & White’s\n\none year anniversary… there are lots of\n\ncontents I want to speak, however\n\nthere are not much time given.\n\nI talked about Pokémon briefly.",
+      "images": [],
+      "source_html": "<p>And I was planned to have a speech about<br/>\r\nPokémon’s 15th anniversary and Black &amp; White’s<br/>\r\none year anniversary… there are lots of<br/>\r\ncontents I want to speak, however<br/>\r\nthere are not much time given.<br/>\r\nI talked about Pokémon briefly.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "However, it was a very nice concert!\n\nEssence of video game is well contained.",
+      "images": [],
+      "source_html": "<p>However, it was a very nice concert!<br/>\r\nEssence of video game is well contained.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, music was splendid.\n\nI personally liked the music of\n\n“Spelunker”, “Gradius” and “Final Fantasy IV”…",
+      "images": [],
+      "source_html": "<p>Well, music was splendid.<br/>\r\nI personally liked the music of<br/>\r\n“Spelunker”, “Gradius” and “Final Fantasy IV”…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was just cool.",
+      "images": [],
+      "source_html": "<p>It was just cool.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of course, Pokémon music was excellent, too.\n\nThe music was arranged by Kage-yan,\n\nour sound designer.\n\nVery nice!",
+      "images": [],
+      "source_html": "<p>Of course, Pokémon music was excellent, too.<br/>\r\nThe music was arranged by Kage-yan,<br/>\r\nour sound designer.<br/>\r\nVery nice!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I ate chicken wings after the concert.\n\nWhich was also very nice.",
+      "images": [],
+      "source_html": "<p>I ate chicken wings after the concert.<br/>\r\nWhich was also very nice.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Wearing suit at the dressing room.\n\n{% image id=\"211-multi-211a\" %}",
+      "images": [
+        "211-multi-211a"
+      ],
+      "source_html": "<p>Wearing suit at the dressing room.<br/>\n<img alt=\"211a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/211a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Me and Kage-yan(right).\n\n{% image id=\"211-multi-211b\" %}",
+      "images": [
+        "211-multi-211b"
+      ],
+      "source_html": "<p>Me and Kage-yan(right).<br/>\n<img alt=\"211b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/211b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": ">>PRESS START 2011\n\n[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)",
+      "images": [],
+      "source_html": "<p>&gt;&gt;PRESS START 2011<br/>\n<a href=\"http://www.famitsu.com/famiweb/pressstart/\" target=\"_blank\">http://www.famitsu.com/famiweb/pressstart/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

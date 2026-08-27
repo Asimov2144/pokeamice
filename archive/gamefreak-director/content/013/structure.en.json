@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 13,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today I’ll write about some geeky stories of old days.",
+      "images": [],
+      "source_html": "<p>Today I’ll write about some geeky stories of old days.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When we started developing for Pokemon Red and Blue,\n\nwe at Game Freak took a plunge and bought a UNIX machine\n\ncalled SUN SPARCstation 1.",
+      "images": [],
+      "source_html": "<p>When we started developing for Pokemon Red and Blue,<br/>\r\nwe at Game Freak took a plunge and bought a UNIX machine<br/>\r\ncalled SUN SPARCstation 1.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even now I think it was such a bold step because\n\nit was very very expensive.",
+      "images": [],
+      "source_html": "<p>Even now I think it was such a bold step because<br/>\r\nit was very very expensive.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We also installed LAN boards from Allied Telesis\n\nin our PC9801Xa and Epson computers in order to set up a LAN environment.\n\nFour or five of us logged into the network from different\n\ncomputers so that we could work together, but it was so slow.",
+      "images": [],
+      "source_html": "<p>We also installed LAN boards from Allied Telesis<br/>\r\nin our PC9801Xa and Epson computers in order to set up a LAN environment.<br/>\r\nFour or five of us logged into the network from different<br/>\r\ncomputers so that we could work together, but it was so slow.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I was in technical school I studied CG and C language\n\nusing a medium-sized computer by DEC, and before I knew it\n\nI was really into UNIX.",
+      "images": [],
+      "source_html": "<p>When I was in technical school I studied CG and C language<br/>\r\nusing a medium-sized computer by DEC, and before I knew it<br/>\r\nI was really into UNIX.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For someone like me, therefore, SUN was such an easy-to-use\n\nmachine…",
+      "images": [],
+      "source_html": "<p>For someone like me, therefore, SUN was such an easy-to-use<br/>\r\nmachine…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But it sometimes crashed.ﾂ? “What on earth is going on?”\n\nThen there were times it never rebooted… “Oh my goodness!”",
+      "images": [],
+      "source_html": "<p>But it sometimes crashed.ﾂ? “What on earth is going on?”<br/>\r\nThen there were times it never rebooted… “Oh my goodness!”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Whenever this happened I used to yell at the computer\n\n“Start up!!! Please!”ﾂ? It was almost like a prayer.",
+      "images": [],
+      "source_html": "<p>Whenever this happened I used to yell at the computer<br/>\r\n“Start up!!! Please!”ﾂ? It was almost like a prayer.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "These days we used streamer tapes that were as large\n\nas VHS cassettes for backups.\n\nBut they took so long that we didn’t back up as\n\noften as we should have.\n\nSo when computers crashed there was a possibility that\n\nmore than a month’s worth of all of our contributions\n\nmight go down the drain.\n\nWe tried every possible means to rescue the computers.",
+      "images": [],
+      "source_html": "<p>These days we used streamer tapes that were as large<br/>\r\nas VHS cassettes for backups.<br/>\r\nBut they took so long that we didn’t back up as<br/>\r\noften as we should have.<br/>\r\nSo when computers crashed there was a possibility that<br/>\r\nmore than a month’s worth of all of our contributions<br/>\r\nmight go down the drain.<br/>\r\nWe tried every possible means to rescue the computers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We read manuals in English and impossibly thick books on computers.\n\nWe also asked for help on Nifty Serve’s bulletin board.",
+      "images": [],
+      "source_html": "<p>We read manuals in English and impossibly thick books on computers.<br/>\r\nWe also asked for help on Nifty Serve’s bulletin board.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When a machine didn’t start up for a continuos period\n\n(like reboots during startup),\n\nI was so completely preoccupied with the problem\n\nthat I even had a dream of my machine starting up!",
+      "images": [],
+      "source_html": "<p>When a machine didn’t start up for a continuos period<br/>\r\n(like reboots during startup),<br/>\r\nI was so completely preoccupied with the problem<br/>\r\nthat I even had a dream of my machine starting up!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Looking back it was a very good learning experience.",
+      "images": [],
+      "source_html": "<p>Looking back it was a very good learning experience.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From Masuda, a vi mania.",
+      "images": [],
+      "source_html": "<p>From Masuda, a vi mania.</p>"
+    }
+  ]
+}

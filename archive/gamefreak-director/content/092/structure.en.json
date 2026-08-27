@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 92,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "At last!!",
+      "images": [],
+      "source_html": "<p>At last!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Game Freak’s website has been redesigned and\n\nrelaunched anew!",
+      "images": [],
+      "source_html": "<p>Game Freak’s website has been redesigned and<br/>\r\nrelaunched anew!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think it’s become much more eye-friendly.\n\nThe new website is designed with a passion\n\nfor details, such as you can use dots on the\n\npages.\n\nI’d love it if you could take a look at all\n\nthe pages!",
+      "images": [],
+      "source_html": "<p>I think it’s become much more eye-friendly.<br/>\r\nThe new website is designed with a passion<br/>\r\nfor details, such as you can use dots on the<br/>\r\npages.<br/>\r\nI’d love it if you could take a look at all<br/>\r\nthe pages!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since my column page also has been redesigned\n\nin a cool way, there might be a small change\n\nin my update pace!?",
+      "images": [],
+      "source_html": "<p>Since my column page also has been redesigned<br/>\r\nin a cool way, there might be a small change<br/>\r\nin my update pace!?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As we hope to make our website even better,\n\nplease look forward to new changes in\n\nGame Freak website!",
+      "images": [],
+      "source_html": "<p>As we hope to make our website even better,<br/>\r\nplease look forward to new changes in<br/>\r\nGame Freak website!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

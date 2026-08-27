@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 10,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today I’ll write a little about some small details of our games.",
+      "images": [],
+      "source_html": "<p>Today I’ll write a little about some small details of our games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In our games, be it Pokemon Ruby, Sapphire, FireRed, or LeafGreen,\n\nwhen the player character hits a wall,\n\ns/he will move forward slower than when s/he normally walks.\n\nS/he moves forward.",
+      "images": [],
+      "source_html": "<p>In our games, be it Pokemon Ruby, Sapphire, FireRed, or LeafGreen,<br/>\r\nwhen the player character hits a wall,<br/>\r\ns/he will move forward slower than when s/he normally walks.<br/>\r\nS/he moves forward.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are many ways to implement this but…",
+      "images": [],
+      "source_html": "<p>There are many ways to implement this but…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think when a player presses the plus control button,\n\nthe character needs to respond to what the player is doing.",
+      "images": [],
+      "source_html": "<p>I think when a player presses the plus control button,<br/>\r\nthe character needs to respond to what the player is doing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Therefore,",
+      "images": [],
+      "source_html": "<p>Therefore,</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In our games when the character hits a wall,\n\nthe character does not stop walking\n\nbut ‘tries to walk on’ at half speed.\n\nBut s/he cannot move forward.\n\nSo, in order to tell the player\n\nthat there is no moving on for the character,\n\na ‘beep’ sound effect is triggered.",
+      "images": [],
+      "source_html": "<p>In our games when the character hits a wall,<br/>\r\nthe character does not stop walking<br/>\r\nbut ‘tries to walk on’ at half speed.<br/>\r\nBut s/he cannot move forward.<br/>\r\nSo, in order to tell the player<br/>\r\nthat there is no moving on for the character,<br/>\r\na ‘beep’ sound effect is triggered.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, many ways of implementation are possible\n\nfor this kind of effect, but,\n\nhow we think of the situation and how to implement it into the game\n\nis what is most fun in creating games.",
+      "images": [],
+      "source_html": "<p>Well, many ways of implementation are possible<br/>\r\nfor this kind of effect, but,<br/>\r\nhow we think of the situation and how to implement it into the game<br/>\r\nis what is most fun in creating games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Such details may seem trivial and insignificant,\n\nbut I think they are of prime importance.",
+      "images": [],
+      "source_html": "<p>Such details may seem trivial and insignificant,<br/>\r\nbut I think they are of prime importance.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

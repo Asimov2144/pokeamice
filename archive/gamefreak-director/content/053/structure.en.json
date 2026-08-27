@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 53,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, the long wait is now over!",
+      "images": [],
+      "source_html": "<p>Everyone, the long wait is now over!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Software for Game Boy Advance",
+      "images": [],
+      "source_html": "<p>Software for Game Boy Advance</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Screw Breaker (English name: Drill Dozer)”",
+      "images": [],
+      "source_html": "<p>“Screw Breaker (English name: Drill Dozer)”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "is finally rolled out today, September 22nd, 2005!!!",
+      "images": [],
+      "source_html": "<p>is finally rolled out today, September 22nd, 2005!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It has been a while since Game Freak\n\ndeveloped an action game!!\n\nIt features the Rumble Pak and also\n\ncomes with a 5 page comic by Ken Sugimori.\n\nThis comic will explain the story of “Screw Breaker!”",
+      "images": [],
+      "source_html": "<p>It has been a while since Game Freak<br/>\r\ndeveloped an action game!!<br/>\r\nIt features the Rumble Pak and also<br/>\r\ncomes with a 5 page comic by Ken Sugimori.<br/>\r\nThis comic will explain the story of “Screw Breaker!”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We created this game with as much passion\n\nas we had when we made Pokemon!\n\nWe at Game Freak are all very proud to\n\npresent you this new game!!",
+      "images": [],
+      "source_html": "<p>We created this game with as much passion<br/>\r\nas we had when we made Pokemon!<br/>\r\nWe at Game Freak are all very proud to<br/>\r\npresent you this new game!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please go buy a copy!",
+      "images": [],
+      "source_html": "<p>Please go buy a copy!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao! (Now I’m going to a game store!)",
+      "images": [],
+      "source_html": "<p>Ciao! (Now I’m going to a game store!)</p>"
+    }
+  ]
+}

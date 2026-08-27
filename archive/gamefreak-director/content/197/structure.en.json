@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "article": 197,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On Monday June 6th, I took N’EX train to depart Tokyo!\n\n{% image id=\"197-en-197a\" %}\n\nLook at the face of this train.\n\nWhat a powerful face.\n\n{% image id=\"197-en-197b\" %}\n\nSooo cool…",
+      "images": [
+        "197-en-197a",
+        "197-en-197b"
+      ],
+      "source_html": "<p>On Monday June 6th, I took N’EX train to depart Tokyo!<br/>\n<img alt=\"197a.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197a.jpg\"/><br/>\r\nLook at the face of this train.<br/>\r\nWhat a powerful face.<br/>\n<img alt=\"197b.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197b.jpg\"/><br/>\r\nSooo cool…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The reason why I took N’EX train is,\n\nyes, I’m heading to E3 show at Los Angeles!",
+      "images": [],
+      "source_html": "<p>The reason why I took N’EX train is,<br/>\r\nyes, I’m heading to E3 show at Los Angeles!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "First, taking N’EX train from Tokyo to\n\nNarita. Approximately one hour.\n\nAnd riding airplane departing on the evening\n\nfrom Narita and its took ten hour flight.",
+      "images": [],
+      "source_html": "<p>First, taking N’EX train from Tokyo to<br/>\r\nNarita. Approximately one hour.<br/>\r\nAnd riding airplane departing on the evening<br/>\r\nfrom Narita and its took ten hour flight.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There is a 16 hour lag between\n\nJapan and LA. Arriving at LA on the\n\nmorning 11 o’clock of June 6th.\n\n(Including daylight saving time)",
+      "images": [],
+      "source_html": "<p>There is a 16 hour lag between<br/>\r\nJapan and LA. Arriving at LA on the<br/>\r\nmorning 11 o’clock of June 6th.<br/>\r\n(Including daylight saving time)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Repeating June 6th once again =)",
+      "images": [],
+      "source_html": "<p>Repeating June 6th once again =)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "One step out from the airport, it’s LA!\n\nAir, humidity, and smell is completely\n\ndifferent!!",
+      "images": [],
+      "source_html": "<p>One step out from the airport, it’s LA!<br/>\r\nAir, humidity, and smell is completely<br/>\r\ndifferent!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Riding on a cab on the way to hotel!\n\nI took the picture of LA from cab =)\n\n{% image id=\"197-en-197c\" %}",
+      "images": [
+        "197-en-197c"
+      ],
+      "source_html": "<p>Riding on a cab on the way to hotel!<br/>\r\nI took the picture of LA from cab =)<br/>\n<img alt=\"197c.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Road is wide! And it’s free!!\n\n(But bumpy! Only little rain and small budget?)\n\n{% image id=\"197-en-197d\" %}",
+      "images": [
+        "197-en-197d"
+      ],
+      "source_html": "<p>Road is wide! And it’s free!!<br/>\r\n(But bumpy! Only little rain and small budget?)<br/>\n<img alt=\"197d.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Finally arrived at the hotel!\n\nThis is a view from my room!\n\n{% image id=\"197-en-197e\" %}",
+      "images": [
+        "197-en-197e"
+      ],
+      "source_html": "<p>Finally arrived at the hotel!<br/>\r\nThis is a view from my room!<br/>\n<img alt=\"197e.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m very sleepy…\n\nbut heading towards to Santa Monica!\n\n{% image id=\"197-en-197f\" %}",
+      "images": [
+        "197-en-197f"
+      ],
+      "source_html": "<p>I’m very sleepy…<br/>\r\nbut heading towards to Santa Monica!<br/>\n<img alt=\"197f.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197f.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s ocean!!\n\n{% image id=\"197-en-197g\" %}",
+      "images": [
+        "197-en-197g"
+      ],
+      "source_html": "<p>It’s ocean!!<br/>\n<img alt=\"197g.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s ocean!!! Ocean and sky are just huge!!\n\n{% image id=\"197-en-197h\" %}",
+      "images": [
+        "197-en-197h"
+      ],
+      "source_html": "<p>It’s ocean!!! Ocean and sky are just huge!!<br/>\n<img alt=\"197h.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197h.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Theme park at Santa Monica!\n\nFerris wheel rotates very quickly!\n\n{% image id=\"197-en-197i\" %}",
+      "images": [
+        "197-en-197i"
+      ],
+      "source_html": "<p>Theme park at Santa Monica!<br/>\r\nFerris wheel rotates very quickly!<br/>\n<img alt=\"197i.JPG\" src=\"/blog/dir_english/wp-content/uploads/2011/06/197i.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are arcade, game center too!\n\nMainly the games were hunting games!!\n\n(I guess the reason of the difference of games\n\nfrom US to Japan is based on\n\nhunting people and agricultural people.)",
+      "images": [],
+      "source_html": "<p>There are arcade, game center too!<br/>\r\nMainly the games were hunting games!!<br/>\r\n(I guess the reason of the difference of games<br/>\r\nfrom US to Japan is based on<br/>\r\nhunting people and agricultural people.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Going to seafood restaurant after above.\n\nAfter I got stuffed, I became extremely sleepy…",
+      "images": [],
+      "source_html": "<p>Going to seafood restaurant after above.<br/>\r\nAfter I got stuffed, I became extremely sleepy…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s a lot of difference between\n\nJapan and LA.",
+      "images": [],
+      "source_html": "<p>There’s a lot of difference between<br/>\r\nJapan and LA.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It is possible to check and search miscellaneous things\n\nby using internet.\n\nHowever it is a privilege for traveler who actually can\n\nhear, vision, taste, feel and smell\n\nthose five senses.",
+      "images": [],
+      "source_html": "<p>It is possible to check and search miscellaneous things<br/>\r\nby using internet.<br/>\r\nHowever it is a privilege for traveler who actually can<br/>\r\nhear, vision, taste, feel and smell<br/>\r\nthose five senses.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Trip abroad a lot! While you are young!!",
+      "images": [],
+      "source_html": "<p>Trip abroad a lot! While you are young!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

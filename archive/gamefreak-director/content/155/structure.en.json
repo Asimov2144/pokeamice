@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 155,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Happy new year!\n\nWe ask for your continued good\n\nwill in this new year.",
+      "images": [],
+      "source_html": "<p>Happy new year!<br/>\r\nWe ask for your continued good<br/>\r\nwill in this new year.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In 2010, I would like to challenge\n\nnew things and work even harder to\n\ncreate video games with even more\n\ncare and affection.",
+      "images": [],
+      "source_html": "<p>In 2010, I would like to challenge<br/>\r\nnew things and work even harder to<br/>\r\ncreate video games with even more<br/>\r\ncare and affection.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I ensure Game Freak is the group of\n\nprofessionals which always aiming the\n\nhigh target.\n\nAnd chasing dreams and hopes.",
+      "images": [],
+      "source_html": "<p>I ensure Game Freak is the group of<br/>\r\nprofessionals which always aiming the<br/>\r\nhigh target.<br/>\r\nAnd chasing dreams and hopes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We will keep it up, so please count on us.\n\nGame Freak will do the best on year 2010!",
+      "images": [],
+      "source_html": "<p>We will keep it up, so please count on us.<br/>\r\nGame Freak will do the best on year 2010!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

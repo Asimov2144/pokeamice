@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 180,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "本日、発表されました！",
+      "images": [],
+      "source_html": "<p>本日、発表されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "北米版、ブラック・ホワイト発売日。",
+      "images": [],
+      "source_html": "<p>北米版、ブラック・ホワイト発売日。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.com/us/](http://www.pokemon.com/us/)\n\n[http://www.pokemonblackwhite.com/en-us/](http://www.pokemonblackwhite.com/en-us/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.com/us/\" target=\"_blank\">http://www.pokemon.com/us/</a><br/>\n<a href=\"http://www.pokemonblackwhite.com/en-us/\" target=\"_blank\">http://www.pokemonblackwhite.com/en-us/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これで、北米の人と交換などが楽しめますね。",
+      "images": [],
+      "source_html": "<p>これで、北米の人と交換などが楽しめますね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ワールドチャンピオンシップも盛り上がるはず。\n\n[http://www.pokemon.co.jp/wcs/2011/?a001=flash](http://www.pokemon.co.jp/wcs/2011/?a001=flash)",
+      "images": [],
+      "source_html": "<p>ワールドチャンピオンシップも盛り上がるはず。<br/>\n<a href=\"http://www.pokemon.co.jp/wcs/2011/?a001=flash\" target=\"_blank\">http://www.pokemon.co.jp/wcs/2011/?a001=flash</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "とっても楽しみです。",
+      "images": [],
+      "source_html": "<p>とっても楽しみです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

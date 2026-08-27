@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 109,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I always liked music since I was a kid, and\n\nI listen to a really wide variety of music\n\neveryday.",
+      "images": [],
+      "source_html": "<p>I always liked music since I was a kid, and<br/>\r\nI listen to a really wide variety of music<br/>\r\neveryday.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In classical music, for example, Stravinsky\n\nand Shostakovich.\n\nI played the trombone in my high-school brass\n\nband, but was not really into classical music.\n\nBut once I found Stravinsky’s “The Rite of Spring”\n\nand “The Firebird” and Shostakovich’s\n\nsymphonies no. 5 and 7…\n\nI became such an enthusiastic fan that I began\n\nto collect their works, read their autobiographies,\n\nand buy the scores.\n\nThey were really great. Wonderful. Cool.\n\nTheir works also taught me about composing music.",
+      "images": [],
+      "source_html": "<p>In classical music, for example, Stravinsky<br/>\r\nand Shostakovich.<br/>\r\nI played the trombone in my high-school brass<br/>\r\nband, but was not really into classical music.<br/>\r\nBut once I found Stravinsky’s “The Rite of Spring”<br/>\r\nand “The Firebird” and Shostakovich’s<br/>\r\nsymphonies no. 5 and 7…<br/>\r\nI became such an enthusiastic fan that I began<br/>\r\nto collect their works, read their autobiographies,<br/>\r\nand buy the scores.<br/>\r\nThey were really great. Wonderful. Cool.<br/>\r\nTheir works also taught me about composing music.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of rock, Linkin Park and SlipKnoT.\n\nThey are just fabulous with their screaming\n\nvocals, and their faces look cool too!\n\nThe way how they arrange their songs, with DJs\n\nand guitars and percussions, is both powerful\n\nand sophisticated.",
+      "images": [],
+      "source_html": "<p>Of rock, Linkin Park and SlipKnoT.<br/>\r\nThey are just fabulous with their screaming<br/>\r\nvocals, and their faces look cool too!<br/>\r\nThe way how they arrange their songs, with DJs<br/>\r\nand guitars and percussions, is both powerful<br/>\r\nand sophisticated.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of techno, Underground and The Prodigy.\n\nI have nothing but admiration for them.\n\nThey are cool and their beats just groove.\n\nYou can’t help but dance.\n\nAlso, I think there’s not many people who are\n\nbetter at manipulating synthesizers.",
+      "images": [],
+      "source_html": "<p>Of techno, Underground and The Prodigy.<br/>\r\nI have nothing but admiration for them.<br/>\r\nThey are cool and their beats just groove.<br/>\r\nYou can’t help but dance.<br/>\r\nAlso, I think there’s not many people who are<br/>\r\nbetter at manipulating synthesizers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of club music, I prefer Gabba and music from Rotterdam.\n\nThey are noisy and more like hardcore.\n\nThey too make unbelievable sounds. Trashed sounds.\n\nDistorted sounds. Impossible song structure.\n\nImpossible speed.\n\nIt won’t be too much to say if I said their music\n\nis made solely for the purpose of making people dance\n\nand get stoned.\n\nWow… fantastic.",
+      "images": [],
+      "source_html": "<p>Of club music, I prefer Gabba and music from Rotterdam.<br/>\r\nThey are noisy and more like hardcore.<br/>\r\nThey too make unbelievable sounds. Trashed sounds.<br/>\r\nDistorted sounds. Impossible song structure.<br/>\r\nImpossible speed.<br/>\r\nIt won’t be too much to say if I said their music<br/>\r\nis made solely for the purpose of making people dance<br/>\r\nand get stoned.<br/>\r\nWow… fantastic.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As I’ve written these words I realized that in the end\n\nI always like things that’s “cool.”\n\nHmm… I think I got it.",
+      "images": [],
+      "source_html": "<p>As I’ve written these words I realized that in the end<br/>\r\nI always like things that’s “cool.”<br/>\r\nHmm… I think I got it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

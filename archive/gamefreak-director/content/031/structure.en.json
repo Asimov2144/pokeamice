@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 31,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Everyone!\n\nIf you happen to find a magazine called “Yu-Ge”\n\n(“USED GAMES”)…\n\nJust buy a copy. Don’t even think about it!!!\n\n(At present, this magazine is being published\n\nunder a different name, and this issue is no longer\n\navailable.)",
+      "images": [],
+      "source_html": "<p>Everyone!<br/>\r\nIf you happen to find a magazine called “Yu-Ge”<br/>\r\n(“USED GAMES”)…<br/>\r\nJust buy a copy. Don’t even think about it!!!<br/>\r\n(At present, this magazine is being published<br/>\r\nunder a different name, and this issue is no longer<br/>\r\navailable.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why? Because the magazine comes with a mini CD which\n\nincludes “Quinty,” the very first Game Freak game!\n\nThis is the first time “Quinty” was ever released on CD!\n\nI feel really happy about this.",
+      "images": [],
+      "source_html": "<p>Why? Because the magazine comes with a mini CD which<br/>\r\nincludes “Quinty,” the very first Game Freak game!<br/>\r\nThis is the first time “Quinty” was ever released on CD!<br/>\r\nI feel really happy about this.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Quinty” was the first game I composed game music for,\n\nand it was during that time that I established a basic\n\nunderstanding of game music.",
+      "images": [],
+      "source_html": "<p>“Quinty” was the first game I composed game music for,<br/>\r\nand it was during that time that I established a basic<br/>\r\nunderstanding of game music.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And, more than anything, the biggest and most important\n\nthing was that I met Tajiri and Sugimori\n\nthrough the development of this game.",
+      "images": [],
+      "source_html": "<p>And, more than anything, the biggest and most important<br/>\r\nthing was that I met Tajiri and Sugimori<br/>\r\nthrough the development of this game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Both in terms of my life, and also in terms of my\n\nway of thinking and sense of value.\n\nThey are really awesome, wonderful people.",
+      "images": [],
+      "source_html": "<p>Both in terms of my life, and also in terms of my<br/>\r\nway of thinking and sense of value.<br/>\r\nThey are really awesome, wonderful people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "While Tajiri was explaining to me the idea for a character\n\ncalled “Manekko Mimi,”\n\n(an enemy that mimics the player character. Mimi,\n\nan enemy, moves when the player makes a move,\n\nand when s/he stops, Mimi will stop too!)",
+      "images": [],
+      "source_html": "<p>While Tajiri was explaining to me the idea for a character<br/>\r\ncalled “Manekko Mimi,”<br/>\r\n(an enemy that mimics the player character. Mimi,<br/>\r\nan enemy, moves when the player makes a move,<br/>\r\nand when s/he stops, Mimi will stop too!)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I suggested to him, “Then, how about music too will\n\nstop when the player stops!”\n\nTajiri already knew what game music was really about,\n\nand said, “Yes, that’s fun!’",
+      "images": [],
+      "source_html": "<p>I suggested to him, “Then, how about music too will<br/>\r\nstop when the player stops!”<br/>\r\nTajiri already knew what game music was really about,<br/>\r\nand said, “Yes, that’s fun!’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This idea seems to be due partly to my long experience\n\nof playing such games as Pac-man and Xevious.\n\nBut it was then that I really came to understand\n\nthe importance of interactive aspects in game music.",
+      "images": [],
+      "source_html": "<p>This idea seems to be due partly to my long experience<br/>\r\nof playing such games as Pac-man and Xevious.<br/>\r\nBut it was then that I really came to understand<br/>\r\nthe importance of interactive aspects in game music.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And, to this day my musical approach remains the same.\n\nIn creating game music, you must first think of the game itself.\n\nThat’s my theory.",
+      "images": [],
+      "source_html": "<p>And, to this day my musical approach remains the same.<br/>\r\nIn creating game music, you must first think of the game itself.<br/>\r\nThat’s my theory.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Maybe my approach for game music is more similar\n\nto the way Jazz, Opera, or Ballet music are composed.",
+      "images": [],
+      "source_html": "<p>Maybe my approach for game music is more similar<br/>\r\nto the way Jazz, Opera, or Ballet music are composed.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

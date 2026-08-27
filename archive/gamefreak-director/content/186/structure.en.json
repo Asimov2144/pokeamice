@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 186,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today is the final day at San Francisco.",
+      "images": [],
+      "source_html": "<p>Today is the final day at San Francisco.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve finished about 12 interviews\n\nwhile I’m staying at US. It took two days.\n\nIt was rough…",
+      "images": [],
+      "source_html": "<p>I’ve finished about 12 interviews<br/>\r\nwhile I’m staying at US. It took two days.<br/>\r\nIt was rough…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some interviewers speak to me in Japanese,\n\nand they love Japan very much.\n\nIt was very nice atmosphere.",
+      "images": [],
+      "source_html": "<p>Some interviewers speak to me in Japanese,<br/>\r\nand they love Japan very much.<br/>\r\nIt was very nice atmosphere.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Above all, every interviewer were excited about March 6th!",
+      "images": [],
+      "source_html": "<p>Above all, every interviewer were excited about March 6th!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "March 4th in Europe, March 6th in North America.\n\nIt is getting exciting!!",
+      "images": [],
+      "source_html": "<p>March 4th in Europe, March 6th in North America.<br/>\r\nIt is getting exciting!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m heading back to Japan.",
+      "images": [],
+      "source_html": "<p>I’m heading back to Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"186-en-20110217_01\" %}\n\nAt the retail shop “Game Stop,” there are huge poster and huge demo package,\n\nwhite and black balloons were decorated!\n\n…. Zekrom is in my back. It’s hiding ; )",
+      "images": [
+        "186-en-20110217_01"
+      ],
+      "source_html": "<p><img alt=\"20110217_01.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/20110217_01.jpg\"/><br/>\r\nAt the retail shop “Game Stop,” there are huge poster and huge demo package,<br/>\r\nwhite and black balloons were decorated!<br/>\r\n…. Zekrom is in my back. It’s hiding ; )</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"186-en-20110217_02\" %}\n\nWhen it comes to San Francisco, it’s trolley. It’s spinning on the turntable.",
+      "images": [
+        "186-en-20110217_02"
+      ],
+      "source_html": "<p><img alt=\"20110217_02.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/20110217_02.jpg\"/><br/>\r\nWhen it comes to San Francisco, it’s trolley. It’s spinning on the turntable.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"186-en-20110217_03\" %}\n\nView from my hotel room. It’s always clouded except the first day. And it’s cold outside!",
+      "images": [
+        "186-en-20110217_03"
+      ],
+      "source_html": "<p><img alt=\"20110217_03.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/02/20110217_03.jpg\"/><br/>\r\nView from my hotel room. It’s always clouded except the first day. And it’s cold outside!</p>"
+    }
+  ]
+}

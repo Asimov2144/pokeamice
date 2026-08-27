@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "article": 190,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "日本に戻りました！",
+      "images": [],
+      "source_html": "<p>日本に戻りました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ロンドン・ＮＹの写真特集です！",
+      "images": [],
+      "source_html": "<p>ロンドン・ＮＹの写真特集です！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190a\" %}\n\nこれがホワイトカーペット！　右奥が「Ｓｏｕｎｄ」というクラブの入り口！",
+      "images": [
+        "190-ja-190a"
+      ],
+      "source_html": "<p><img alt=\"190a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190a.jpg\"/><br/>\r\nこれがホワイトカーペット！　右奥が「Ｓｏｕｎｄ」というクラブの入り口！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190b\" %}\n\n歩くマスダ！",
+      "images": [
+        "190-ja-190b"
+      ],
+      "source_html": "<p><img alt=\"190b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190b.jpg\"/><br/>\r\n歩くマスダ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190c\" %}\n\nステージで英語でスピーチ！",
+      "images": [
+        "190-ja-190c"
+      ],
+      "source_html": "<p><img alt=\"190c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190c.jpg\"/><br/>\r\nステージで英語でスピーチ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190d2\" %}\n\n「サンキュー！」と言ってます。たぶん（笑）",
+      "images": [
+        "190-ja-190d2"
+      ],
+      "source_html": "<p><img alt=\"190d2.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190d2.jpg\"/><br/>\r\n「サンキュー！」と言ってます。たぶん（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190e\" %}\n\nローテーションバトル中！！",
+      "images": [
+        "190-ja-190e"
+      ],
+      "source_html": "<p><img alt=\"190e.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190e.jpg\"/><br/>\r\nローテーションバトル中！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190f\" %}\n\n発売日、たくさん朝から並んでくれています！！",
+      "images": [
+        "190-ja-190f"
+      ],
+      "source_html": "<p><img alt=\"190f.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190f.jpg\"/><br/>\r\n発売日、たくさん朝から並んでくれています！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190g\" %}\n\n杉森とマスダサイン中！！",
+      "images": [
+        "190-ja-190g"
+      ],
+      "source_html": "<p><img alt=\"190g.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190g.jpg\"/><br/>\r\n杉森とマスダサイン中！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190h\" %}\n\nサイン中！！",
+      "images": [
+        "190-ja-190h"
+      ],
+      "source_html": "<p><img alt=\"190h.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190h.jpg\"/><br/>\r\nサイン中！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "NYへ\n\n{% image id=\"190-ja-190i\" %}\n\nニュージャージーのモールにて。",
+      "images": [
+        "190-ja-190i"
+      ],
+      "source_html": "<p>NYへ<br/>\n<img alt=\"190i.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190i.jpg\"/><br/>\r\nニュージャージーのモールにて。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190j\" %}\n\nここにも、あのトラックがっ！！！！！",
+      "images": [
+        "190-ja-190j"
+      ],
+      "source_html": "<p><img alt=\"190j.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190j.jpg\"/><br/>\r\nここにも、あのトラックがっ！！！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190k\" %}\n\n人と対比すると大きさが分かりますね。。。でかい。。。",
+      "images": [
+        "190-ja-190k"
+      ],
+      "source_html": "<p><img alt=\"190k.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190k.jpg\"/><br/>\r\n人と対比すると大きさが分かりますね。。。でかい。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190l\" %}\n\n前日５日のNINTENDO　WORLD。並んでくださってます！！",
+      "images": [
+        "190-ja-190l"
+      ],
+      "source_html": "<p><img alt=\"190l.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190l.jpg\"/><br/>\r\n前日５日のNINTENDO　WORLD。並んでくださってます！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190m\" %}\n\n中もごった返してます。。。",
+      "images": [
+        "190-ja-190m"
+      ],
+      "source_html": "<p><img alt=\"190m.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190m.jpg\"/><br/>\r\n中もごった返してます。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190n\" %}\n\nイベント会場の試遊台。",
+      "images": [
+        "190-ja-190n"
+      ],
+      "source_html": "<p><img alt=\"190n.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190n.jpg\"/><br/>\r\nイベント会場の試遊台。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190o\" %}\n\nゼクロム、レシラムも！！！",
+      "images": [
+        "190-ja-190o"
+      ],
+      "source_html": "<p><img alt=\"190o.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190o.jpg\"/><br/>\r\nゼクロム、レシラムも！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190p\" %}\n\nリアルアララギ博士。",
+      "images": [
+        "190-ja-190p"
+      ],
+      "source_html": "<p><img alt=\"190p.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190p.jpg\"/><br/>\r\nリアルアララギ博士。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190q\" %}\n\nブルックリンブリッジへ！！　向こう岸がヒウンシティ。",
+      "images": [
+        "190-ja-190q"
+      ],
+      "source_html": "<p><img alt=\"190q.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190q.jpg\"/><br/>\r\nブルックリンブリッジへ！！　向こう岸がヒウンシティ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190r\" %}\n\nシッポウシティ。",
+      "images": [
+        "190-ja-190r"
+      ],
+      "source_html": "<p><img alt=\"190r.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190r.jpg\"/><br/>\r\nシッポウシティ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190s\" %}\n\n発売日当日！！",
+      "images": [
+        "190-ja-190s"
+      ],
+      "source_html": "<p><img alt=\"190s.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190s.jpg\"/><br/>\r\n発売日当日！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190t\" %}\n\n北米といえば、GAME　STOP！！",
+      "images": [
+        "190-ja-190t"
+      ],
+      "source_html": "<p><img alt=\"190t.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190t.jpg\"/><br/>\r\n北米といえば、GAME　STOP！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"190-ja-190u\" %}\n\n店内には攻略本も。",
+      "images": [
+        "190-ja-190u"
+      ],
+      "source_html": "<p><img alt=\"190u.jpg\" src=\"/blog/dir/wp-content/uploads/2011/03/190u.jpg\"/><br/>\r\n店内には攻略本も。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "なんとなく、空気感は伝わったでしょうか！？",
+      "images": [],
+      "source_html": "<p>なんとなく、空気感は伝わったでしょうか！？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

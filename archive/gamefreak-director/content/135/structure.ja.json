@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "article": 135,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "THE GAME LAUNCHES ON MARCH 22ND!",
+      "images": [],
+      "source_html": "<p>THE GAME LAUNCHES ON  MARCH 22ND!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "３月２２日北米でプラチナが発売されます！\n\n[http://www.pokemon.com/](http://www.pokemon.com/)",
+      "images": [],
+      "source_html": "<p>３月２２日北米でプラチナが発売されます！<br/>\n<a href=\"http://www.pokemon.com/\" target=\"blank\">http://www.pokemon.com/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "英語のパッケージや宣伝を見ると\n\nプラチナにもう１つの顔が出来たようで、わくわくします！\n\n北米版、楽しみに待っていてください！",
+      "images": [],
+      "source_html": "<p>英語のパッケージや宣伝を見ると<br/>\r\nプラチナにもう１つの顔が出来たようで、わくわくします！<br/>\r\n北米版、楽しみに待っていてください！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "で、、先日、、、\n\nその取材（NINTENDO POWER & ign.com）を行ったのですが、\n\nなかなか面白い質問もあったりして、、、\n\nどんな記事になるのか、これも楽しみです！",
+      "images": [],
+      "source_html": "<p>で、、先日、、、<br/>\r\nその取材（NINTENDO POWER &amp; ign.com）を行ったのですが、<br/>\r\nなかなか面白い質問もあったりして、、、<br/>\r\nどんな記事になるのか、これも楽しみです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、そうそう、\n\n[http://www.PokemonPlatinum.com/](http://www.PokemonPlatinum.com/)\n\nも、もうすぐオープンです。",
+      "images": [],
+      "source_html": "<p>あ、そうそう、<br/>\n<a href=\"http://www.PokemonPlatinum.com/\" target=\"blank\">http://www.PokemonPlatinum.com/</a><br/>\r\nも、もうすぐオープンです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２００９年も、応援よろしく！\n\n{% image id=\"135-multi-090212_01\" %}",
+      "images": [
+        "135-multi-090212_01"
+      ],
+      "source_html": "<p>２００９年も、応援よろしく！<br/>\n<img alt=\"応援よろしく！\" src=\"/blog/dir/wp-content/uploads/2009/02/090212_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ピチューもよろしく！\n\n{% image id=\"135-multi-090212_02\" %}",
+      "images": [
+        "135-multi-090212_02"
+      ],
+      "source_html": "<p>ピチューもよろしく！<br/>\n<img alt=\"ピチューもよろしく！\" src=\"/blog/dir/wp-content/uploads/2009/02/090212_02.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

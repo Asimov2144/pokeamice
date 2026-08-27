@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 160,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On April 9th, 2010.\n\nFinally, our current working brand new\n\ntitle is announced!",
+      "images": [],
+      "source_html": "<p>On April 9th, 2010.<br/>\r\nFinally, our current working brand new<br/>\r\ntitle is announced!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Pocket Monsters Black”\n\n“Pocket Monsters White”",
+      "images": [],
+      "source_html": "<p>“Pocket Monsters Black”<br/>\r\n“Pocket Monsters White”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We are spending a lot of time to make\n\nthe game high quality.",
+      "images": [],
+      "source_html": "<p>We are spending a lot of time to make<br/>\r\nthe game high quality.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We create games for people who already\n\nplayed previous series.\n\nAlso, for the people who haven’t played the\n\nprevious series.\n\nAnd lastly, for whom graduated Pokemon.",
+      "images": [],
+      "source_html": "<p>We create games for people who already<br/>\r\nplayed previous series.<br/>\r\nAlso, for the people who haven’t played the<br/>\r\nprevious series.<br/>\r\nAnd lastly, for whom graduated Pokemon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I want many people to play our games.",
+      "images": [],
+      "source_html": "<p>I want many people to play our games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With this “Black/White”, Pokemon will be\n\nrevolutionary reborn.",
+      "images": [],
+      "source_html": "<p>With this “Black/White”, Pokemon will be<br/>\r\nrevolutionary reborn.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please wait.",
+      "images": [],
+      "source_html": "<p>Please wait.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao[http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)\n\n[http://www.pokemon.co.jp/bw/index.html](http://www.pokemon.co.jp/bw/index.html)",
+      "images": [],
+      "source_html": "<p>Ciao<a href=\"http://www.pokemon.co.jp/\" target=\"_blank\">http://www.pokemon.co.jp/</a><br/>\n<a href=\"http://www.pokemon.co.jp/bw/index.html\" target=\"_blank\">http://www.pokemon.co.jp/bw/index.html</a></p>"
+    }
+  ]
+}

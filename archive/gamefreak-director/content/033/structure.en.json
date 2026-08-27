@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "article": 33,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, unlike usual columns, I have an announcement to make.",
+      "images": [],
+      "source_html": "<p>Today, unlike usual columns, I have an announcement to make.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A special event to celebrate the 9th anniversary of Pokemon\n\nfrom our Game Designers at Game Freak!!",
+      "images": [],
+      "source_html": "<p>A special event to celebrate the 9th anniversary of Pokemon<br/>\r\nfrom our Game Designers at Game Freak!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m looking forward to seeing you!",
+      "images": [],
+      "source_html": "<p>I’m looking forward to seeing you!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(Please note that this column “Kono Yubi Tomare (Follow Me)”\n\nwas an event planned and held in 2005.)",
+      "images": [],
+      "source_html": "<p>(Please note that this column “Kono Yubi Tomare (Follow Me)”<br/>\r\nwas an event planned and held in 2005.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Director Masuda presents “Kono Yubi Tomare (Follow Me)!”",
+      "images": [],
+      "source_html": "<p>Director Masuda presents “Kono Yubi Tomare (Follow Me)!”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“How do the general players think of Pokemon…?”\n\nWith such a question from the Development director at\n\nGame Freak, we started a project.",
+      "images": [],
+      "source_html": "<p>“How do the general players think of Pokemon…?”<br/>\r\nWith such a question from the Development director at<br/>\r\nGame Freak, we started a project.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This will be an invitation to Pokemon enthusiasts to come\n\nto our company and have a chat with our director, Masuda!.",
+      "images": [],
+      "source_html": "<p>This will be an invitation to Pokemon enthusiasts to come<br/>\r\nto our company and have a chat with our director, Masuda!.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Those of you who love Pokemon!\n\nThose of you who want to be game creators!\n\nWouldn’t you like to talk and discuss with\n\nour Development director in a cozy atmosphere?",
+      "images": [],
+      "source_html": "<p>Those of you who love Pokemon!<br/>\r\nThose of you who want to be game creators!<br/>\r\nWouldn’t you like to talk and discuss with<br/>\r\nour Development director in a cozy atmosphere?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*How to participate\n\nSend a postcard to Game Freak with the answers\n\nto the questions below.",
+      "images": [],
+      "source_html": "<p>*How to participate<br/>\r\nSend a postcard to Game Freak with the answers<br/>\r\nto the questions below.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*Who are eligible?\n\nThose of you who love Pokemon and also want\n\nto become a game creator.",
+      "images": [],
+      "source_html": "<p>*Who are eligible?<br/>\r\nThose of you who love Pokemon and also want<br/>\r\nto become a game creator.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*On the top side of a postcard, write\n\n“Kono Yubi Tomare (Follow Me)” project\n\nGame Freak, Inc.\n\nKashiwa Third Building 5F\n\n1-40-6 Kitazawa\n\nSetagaya-ku, Tokyo\n\n155-0031\n\n(We have moved our office and are no longer there.)",
+      "images": [],
+      "source_html": "<p>*On the top side of a postcard, write<br/>\r\n“Kono Yubi Tomare (Follow Me)” project<br/>\r\nGame Freak, Inc.<br/>\r\nKashiwa Third Building 5F<br/>\r\n1-40-6 Kitazawa<br/>\r\nSetagaya-ku, Tokyo<br/>\r\n155-0031<br/>\r\n(We have moved our office and are no longer there.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*On the flip side, write\n\n1) your name\n\n2) your age\n\n3) your address and telephone number\n\n4) your occupation\n\n5) your email address\n\n6) a word to Game Freak! such as\n\n“I would like to ask Masuda such and such questions”\n\n“What I like about Pokemon is…”\n\n“I’d like to become such and such game creator”\n\netc. Really anything. You can write as many questions as you like.",
+      "images": [],
+      "source_html": "<p>*On the flip side, write<br/>\r\n1) your name<br/>\r\n2) your age<br/>\r\n3) your address and telephone number<br/>\r\n4) your occupation<br/>\r\n5) your email address<br/>\r\n6) a word to Game Freak! such as<br/>\r\n“I would like to ask Masuda such and such questions”<br/>\r\n“What I like about Pokemon is…”<br/>\r\n“I’d like to become such and such game creator”<br/>\r\netc. Really anything. You can write as many questions as you like.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our staff at Game Freak will read your postcards,\n\nand we will announce the time and place of the event\n\nwhen there are enough people to attend it.\n\nThose who were selected will receive a postcard or an email\n\nfrom Game Freak containing information about the event.",
+      "images": [],
+      "source_html": "<p>Our staff at Game Freak will read your postcards,<br/>\r\nand we will announce the time and place of the event<br/>\r\nwhen there are enough people to attend it.<br/>\r\nThose who were selected will receive a postcard or an email<br/>\r\nfrom Game Freak containing information about the event.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Reports of the event will be posted on this site later.\n\nAlso, the comments from those who were unfortunately\n\nnot chosen may be posted on this site.",
+      "images": [],
+      "source_html": "<p>Reports of the event will be posted on this site later.<br/>\r\nAlso, the comments from those who were unfortunately<br/>\r\nnot chosen may be posted on this site.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We hope many of you will send us a card!",
+      "images": [],
+      "source_html": "<p>We hope many of you will send us a card!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Kono Yubi Tomare (Follow Me) organizing staff, Sato & Ohmori",
+      "images": [],
+      "source_html": "<p>Kono Yubi Tomare (Follow Me) organizing staff, Sato &amp; Ohmori</p>"
+    }
+  ]
+}

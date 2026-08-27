@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "article": 176,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Two more days!!",
+      "images": [],
+      "source_html": "<p>Two more days!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Clock is ticking!!\n\n[http://www.pokemon.co.jp/](http://www.pokemon.co.jp/)\n\n31hrs 25min 57sec to go.",
+      "images": [],
+      "source_html": "<p>Clock is ticking!!<br/>\n<a href=\"http://www.pokemon.co.jp/\" target=\"_blank\">http://www.pokemon.co.jp/</a><br/>\r\n31hrs 25min 57sec to go.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I become tense… {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>I become tense… <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Last night, I had a dream which nobody\n\nis buying…",
+      "images": [],
+      "source_html": "<p>Last night, I had a dream which nobody<br/>\r\nis buying…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "No no,\n\nCheer up!",
+      "images": [],
+      "source_html": "<p>No no,<br/>\r\nCheer up!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Story of Pokemon Black/White is disclosed\n\non Nintendo’s website called “Shacho ga kiku.”\n\n[http://www.nintendo.co.jp/ds/irbj/index.html](http://www.nintendo.co.jp/ds/irbj/index.html)\n\nI talked deeply to Mr. Iwata’s question.",
+      "images": [],
+      "source_html": "<p>Story of Pokemon Black/White is disclosed<br/>\r\non Nintendo’s website called “Shacho ga kiku.”<br/>\n<a href=\"http://www.nintendo.co.jp/ds/irbj/index.html\" target=\"_blank\">http://www.nintendo.co.jp/ds/irbj/index.html</a><br/>\r\nI talked deeply to Mr. Iwata’s question.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Shacho ga kiku” is interview from Nintendo’s\n\npresident, Mr. Iwata.",
+      "images": [],
+      "source_html": "<p>*”Shacho ga kiku” is interview from Nintendo’s<br/>\r\npresident, Mr. Iwata.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Saturday Septemver 18th,\n\nPokemon Black/White have launched!!",
+      "images": [],
+      "source_html": "<p>On Saturday Septemver 18th,<br/>\r\nPokemon Black/White have launched!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Odaiba’s McDonald changes into\n\n“Pokemon Black/White MacDonald”!\n\nI’m going to see this change first thing in the morning.\n\n[http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html](http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html)",
+      "images": [],
+      "source_html": "<p>Odaiba’s McDonald changes into<br/>\r\n“Pokemon Black/White MacDonald”!<br/>\r\nI’m going to see this change first thing in the morning.<br/>\n<a href=\"http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html\" target=\"_blank\">http://www.mcd-holdings.co.jp/news/2010/promotion/promo0914b.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*Odaiba is one of the major city in Tokyo.",
+      "images": [],
+      "source_html": "<p>*Odaiba is one of the major city in Tokyo.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In Pokemon Center Tokyo, new goods are available!\n\nI’ll go to Pokemon Center Tokyo for reserved my Black/White.\n\n[http://www.pokemon.co.jp/info/2010/08/p100813_01.html](http://www.pokemon.co.jp/info/2010/08/p100813_01.html)",
+      "images": [],
+      "source_html": "<p>In Pokemon Center Tokyo, new goods are available!<br/>\r\nI’ll go to Pokemon Center Tokyo for reserved my Black/White.<br/>\n<a href=\"http://www.pokemon.co.jp/info/2010/08/p100813_01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2010/08/p100813_01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Thursday September 23rd, event will be held at\n\nRoppongi Hills.\n\nIt’s Pokemon festival! Best Wishes\n\n[http://www.tv-tokyo.co.jp/anime/pokemon_bw/](http://www.tv-tokyo.co.jp/anime/pokemon_bw/)\n\nClick here??\n\n[http://www.tv-tokyo.co.jp/](http://www.tv-tokyo.co.jp/)",
+      "images": [],
+      "source_html": "<p>On Thursday September 23rd, event will be held at<br/>\r\nRoppongi Hills.<br/>\r\nIt’s Pokemon festival! Best Wishes<br/>\n<a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_bw/\" target=\"_blank\">http://www.tv-tokyo.co.jp/anime/pokemon_bw/<br/>\n</a><br/>\r\nClick here??<br/>\n<a href=\"http://www.tv-tokyo.co.jp/\" target=\"_blank\">http://www.tv-tokyo.co.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon searcher Black/White is coming!\n\nWhoever not experienced before, plase give it a try!\n\nSpecial movie playing!\n\n[http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main](http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main)",
+      "images": [],
+      "source_html": "<p>Pokemon searcher Black/White is coming!<br/>\r\nWhoever not experienced before, plase give it a try!<br/>\r\nSpecial movie playing!<br/>\n<a href=\"http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main\" target=\"_blank\">http://www.pokemon.co.jp/event/about/searcher/index.html?a001=main</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s getting exciting!!",
+      "images": [],
+      "source_html": "<p>It’s getting exciting!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please enjoy Pokemon Black/White not only\n\nthe information but event, too!!",
+      "images": [],
+      "source_html": "<p>Please enjoy Pokemon Black/White not only<br/>\r\nthe information but event, too!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

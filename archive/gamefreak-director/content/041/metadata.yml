@@ -1,0 +1,43 @@
+id: masuda-041
+number: 41
+month: 2005-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-41
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-41
+    permalink_validated: true
+    date: '2005-06-21'
+    date_display: 06.21.2005
+    categories:
+    - Diary
+    lead: Yesterday, I had a talk with an excellent sales representative. He was such
+      a serious, energetic, and honest person, and we had to make a tough decision
+      whether or not to purchase their products.
+    raw_page: archive/gamefreak-director/raw/en/2005/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-06-21'
+    date_display: 2005.06.21
+    categories:
+    - 日記
+    lead: 昨日、素晴らしい営業の方とお話をしました。 すごくまじめで、エネルギッシュ、まっとうな方で、 こちらも商品を買うかどうか、真剣に悩みました。
+    raw_page: archive/gamefreak-director/raw/ja/2005/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:10+00:00'
+assets: []

@@ -1,0 +1,44 @@
+id: masuda-132
+number: 132
+month: 2008-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2008/09/index.html
+    permalink: null
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no131-2
+    permalink_validated: false
+    date: '2008-09-18'
+    date_display: 09.18.2008
+    categories:
+    - Info
+    - Pokemon
+    lead: “Pocket Monsters Platinum (Japanese title)”! This game have achieved the
+      fastest million copies sold within opening 3-day in Nintendo DS history in Japan!
+    raw_page: archive/gamefreak-director/raw/en/2008/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2008/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%93%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%93%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2008-09-18'
+    date_display: 2008.09.18
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: 「ポケットモンスター プラチナ」が、 DSソフト史上最速の「３日で１００万本突破！」を達成しました！
+    raw_page: archive/gamefreak-director/raw/ja/2008/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:20+00:00'
+assets: []

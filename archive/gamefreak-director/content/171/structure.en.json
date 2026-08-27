@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "article": 171,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Tuesday August 3rd, I got an interview\n\nabout Black/White for the first time!",
+      "images": [],
+      "source_html": "<p>Tuesday August 3rd, I got an interview<br/>\r\nabout Black/White for the first time!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Believe it or not, an interview was held with\n\nAKB48′s Ms. Kitahara and Ms. Sashihara!",
+      "images": [],
+      "source_html": "<p>Believe it or not, an interview was held with<br/>\r\nAKB48′s Ms. Kitahara and Ms. Sashihara!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”AKB48″ is the most popular idol group in Japan.",
+      "images": [],
+      "source_html": "<p>*”AKB48″ is the most popular idol group in Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Interview was held at GameFreak’s office.",
+      "images": [],
+      "source_html": "<p>Interview was held at GameFreak’s office.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Taking photo with these ladies made me tense.\n\nEverybody become tense with this situation!!",
+      "images": [],
+      "source_html": "<p>Taking photo with these ladies made me tense.<br/>\r\nEverybody become tense with this situation!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not only they are cute, but I found out\n\nthey are Pokemon maniacs! I’m surprised!\n\nTheir conversations are seriously deep. {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p>Not only they are cute, but I found out<br/>\r\nthey are Pokemon maniacs! I’m surprised!<br/>\r\nTheir conversations are seriously deep. <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was very fun interview and please count\n\non for the article!",
+      "images": [],
+      "source_html": "<p>It was very fun interview and please count<br/>\r\non for the article!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please check “Pokemon Pia (available on September 10th)” for\n\nmy nervous face and fun interview article.",
+      "images": [],
+      "source_html": "<p>Please check “Pokemon Pia (available on September 10th)” for<br/>\r\nmy nervous face and fun interview article.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Pokemon Pia” is available only in Japan.",
+      "images": [],
+      "source_html": "<p>*”Pokemon Pia” is available only in Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is the blog of two ladies.\n\nYou can check out their contents.",
+      "images": [],
+      "source_html": "<p>Here is the blog of two ladies.<br/>\r\nYou can check out their contents.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Official blog of Ms. Rie Kitahara “Sanji no oyatsu”\n\n[http://ameblo.jp/kitahara-rie/entry-10609653756.html](http://ameblo.jp/kitahara-rie/entry-10609653756.html)",
+      "images": [],
+      "source_html": "<p>Official blog of Ms. Rie Kitahara “Sanji no oyatsu”<br/>\n<a href=\"http://ameblo.jp/kitahara-rie/entry-10609653756.html\" target=\"_blank\">http://ameblo.jp/kitahara-rie/entry-10609653756.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Official blog of Ms. Rino Sashihara “Sashihara quality”\n\n[http://ameblo.jp/sashihara-rino/entry-10609435064.html](http://ameblo.jp/sashihara-rino/entry-10609435064.html)",
+      "images": [],
+      "source_html": "<p>Official blog of Ms. Rino Sashihara “Sashihara quality”<br/>\n<a href=\"http://ameblo.jp/sashihara-rino/entry-10609435064.html\" target=\"_blank\">http://ameblo.jp/sashihara-rino/entry-10609435064.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*Both blog are written in Japanese.",
+      "images": [],
+      "source_html": "<p>*Both blog are written in Japanese.</p>"
+    }
+  ]
+}

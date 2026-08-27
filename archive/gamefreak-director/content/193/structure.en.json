@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "article": 193,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I went to music studio last Saturday!",
+      "images": [],
+      "source_html": "<p>I went to music studio last Saturday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Unfortunately, it was raining day.",
+      "images": [],
+      "source_html": "<p>Unfortunately, it was raining day.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I visited to music studio via Akabanebashi station\n\nwith Tokyo Tower a side glance!",
+      "images": [],
+      "source_html": "<p>I visited to music studio via Akabanebashi station<br/>\r\nwith Tokyo Tower a side glance!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This year, two Pokèmon movie will be\n\nshown!\n\nNot simultaneously, two individual movies are\n\nseparately shown!",
+      "images": [],
+      "source_html": "<p>This year, two Pokèmon movie will be<br/>\r\nshown!<br/>\r\nNot simultaneously, two individual movies are<br/>\r\nseparately shown!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Titles of two movies are\n\n“Victini to kuroki eiyu Zekrom(Japanese title)” and\n\n“Victini to shiroki eiyu Reshiram(Japanese title).”",
+      "images": [],
+      "source_html": "<p>Titles of two movies are<br/>\r\n“Victini to kuroki eiyu Zekrom(Japanese title)” and<br/>\r\n“Victini to shiroki eiyu Reshiram(Japanese title).”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And there are two music composer\n\nfor each movie!\n\nWhat a luxurious arrangement!",
+      "images": [],
+      "source_html": "<p>And there are two music composer<br/>\r\nfor each movie!<br/>\r\nWhat a luxurious arrangement!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please do listen to the music and\n\nfeel the differences.",
+      "images": [],
+      "source_html": "<p>Please do listen to the music and<br/>\r\nfeel the differences.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Back of the head of composer Mr. Miyazaki!!\n\nMany thanks to his help!\n\n{% image id=\"193-en-193a\" %}",
+      "images": [
+        "193-en-193a"
+      ],
+      "source_html": "<p>Back of the head of composer Mr. Miyazaki!!<br/>\r\nMany thanks to his help!<br/>\n<img alt=\"193a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/193a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Play of each and individual artist’s instrument.\n\nThe moment of supreme music give a birth.\n\n{% image id=\"193-en-193b\" %}\n\nThis is how splendid music created.",
+      "images": [
+        "193-en-193b"
+      ],
+      "source_html": "<p>Play of each and individual artist’s instrument.<br/>\r\nThe moment of supreme music give a birth.<br/>\n<img alt=\"193b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/193b.jpg\"/><br/>\r\nThis is how splendid music created.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The music is linked with monitor and\n\nthe film can be seen in the studio.\n\n{% image id=\"193-en-193a\" %}\n\nMovie music is really great.\n\nI’m extremely grateful to attend\n\nthis kind of moment.",
+      "images": [
+        "193-en-193a"
+      ],
+      "source_html": "<p>The music is linked with monitor and<br/>\r\nthe film can be seen in the studio.<br/>\n<img alt=\"193a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/193a.jpg\"/><br/>\r\nMovie music is really great.<br/>\r\nI’m extremely grateful to attend<br/>\r\nthis kind of moment.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On the way home,\n\nI found Tokyo Tower in the rain.\n\n{% image id=\"193-en-193d\" %}\n\nTop of the tower is covered with the mist.\n\nThe light up is beautiful as it represent\n\nthe light of hope.",
+      "images": [
+        "193-en-193d"
+      ],
+      "source_html": "<p>On the way home,<br/>\r\nI found Tokyo Tower in the rain.<br/>\n<img alt=\"193d.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/05/193d.jpg\"/><br/>\r\nTop of the tower is covered with the mist.<br/>\r\nThe light up is beautiful as it represent<br/>\r\nthe light of hope.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was impressed by the music,\n\nand excited by the Tokyo Tower.\n\nIt was wonderful Saturday.",
+      "images": [],
+      "source_html": "<p>I was impressed by the music,<br/>\r\nand excited by the Tokyo Tower.<br/>\r\nIt was wonderful Saturday.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

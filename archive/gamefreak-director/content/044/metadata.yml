@@ -1,0 +1,42 @@
+id: masuda-044
+number: 44
+month: 2005-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-44
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-44
+    permalink_validated: true
+    date: '2005-06-28'
+    date_display: 06.28.2005
+    categories:
+    - About creation
+    lead: Things you look at every day, or things you take for granted. Most of them
+      are associated with some kind of ideas and are fixed firmly in the brain.
+    raw_page: archive/gamefreak-director/raw/en/2005/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-06-28'
+    date_display: 2005.06.28
+    categories:
+    - ものづくりについて
+    lead: 普段見ているモノ、当たり前だと感じること それらの多くは、何かしらの観念が働いていて、 しっかりと脳内で固定されています。
+    raw_page: archive/gamefreak-director/raw/ja/2005/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:10+00:00'
+assets: []

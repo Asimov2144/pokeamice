@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 195,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "To all of you, I have a special information to share with you!",
+      "images": [],
+      "source_html": "<p>To all of you, I have a special information to share with you!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Riding on Ginza metro and get off\n\nat Aoyama Ichome station(Tokyo).\n\n{% image id=\"195-en-195a\" %}",
+      "images": [
+        "195-en-195a"
+      ],
+      "source_html": "<p>Riding on Ginza metro and get off<br/>\r\nat Aoyama Ichome station(Tokyo).<br/>\n<img alt=\"195a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/195a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There will be a Meijikinenkan (Hall).\n\n{% image id=\"195-en-195b\" %}",
+      "images": [
+        "195-en-195b"
+      ],
+      "source_html": "<p>There will be a Meijikinenkan (Hall).<br/>\n<img alt=\"195b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/195b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, it is a AMD(Association of Media in Digital) Award ’10.\n\nPokémon Black/White have selected as one of\n\n“The AMD Award.”\n\nNot only that, we received “The AMD Chairman Award”\n\nas well!!\n\n{% image id=\"195-en-195c\" %}",
+      "images": [
+        "195-en-195c"
+      ],
+      "source_html": "<p>Yes, it is a AMD(Association of Media in Digital) Award ’10.<br/>\r\nPokémon Black/White have selected as one of<br/>\r\n“The AMD Award.”<br/>\r\nNot only that, we received “The AMD Chairman Award”<br/>\r\nas well!!<br/>\n<img alt=\"195c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/195c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It is a great honor to receive the award among\n\nmovies, visuals, softwares, internet and AKB48.\n\nI feel grateful to accept “The AMD Chairman Award” and\n\n“The Governor Award.”",
+      "images": [],
+      "source_html": "<p>It is a great honor to receive the award among<br/>\r\nmovies, visuals, softwares, internet and AKB48.<br/>\r\nI feel grateful to accept “The AMD Chairman Award” and<br/>\r\n“The Governor Award.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I received these two award on behalf of\n\nour Game Freak staff.\n\nAll developer staffs of Game Freak, you did an excellent job!\n\nCongratulations!",
+      "images": [],
+      "source_html": "<p>I received these two award on behalf of<br/>\r\nour Game Freak staff.<br/>\r\nAll developer staffs of Game Freak, you did an excellent job!<br/>\r\nCongratulations!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And of course, because of your support made this\n\nresult.\n\nThank you very very much!",
+      "images": [],
+      "source_html": "<p>And of course, because of your support made this<br/>\r\nresult.<br/>\r\nThank you very very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m sitting third from the left side in a front row.\n\nMy eyes look scary…\n\n[http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)",
+      "images": [],
+      "source_html": "<p>I’m sitting third from the left side in a front row.<br/>\r\nMy eyes look scary…<br/>\n<a href=\"http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet\" target=\"_blank\">http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.famitsu.com/news/201105/31044403.html\" target=\"_blank\">http://www.famitsu.com/news/201105/31044403.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

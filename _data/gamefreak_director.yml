@@ -9,7 +9,13 @@ external_links:
   - label: "GameFreak Site"
     url: "https://www.gamefreak.co.jp/"
   - label: "English Version"
-    url: "https://www.gamefreak.co.jp/blog/dir/en/"
+    url: "https://www.gamefreak.co.jp/blog/dir_english/"
+asset_sources:
+  page_pattern: "https://www.gamefreak.co.jp/blog/dir/wp-content/themes/default/static/img/bg.png"
+  header_photo: "https://www.gamefreak.co.jp/blog/dir/wp-content/themes/default/static/img/bg_top_image.png"
+  title_logo: "https://www.gamefreak.co.jp/blog/dir/wp-content/themes/default/static/img/logo.png"
+  profile_photo: "https://www.gamefreak.co.jp/blog/dir/wp-content/themes/default/static/img/thum_masuda.png"
+  archived_at: "2026-08-27"
 author:
   name: "増田 順一"
   name_zh: "增田顺一"

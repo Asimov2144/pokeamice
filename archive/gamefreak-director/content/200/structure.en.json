@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "article": 200,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hooray! It’s a 200th anniversary!",
+      "images": [],
+      "source_html": "<p>Hooray! It’s a 200th anniversary!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thank you very much for your support!\n\nMy columns have reached 200 times.",
+      "images": [],
+      "source_html": "<p>Thank you very much for your support!<br/>\r\nMy columns have reached 200 times.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With this 200th anniversary, this site have drastically renewaled!!\n\nThank you, Maimai!\n\nAnd thank you for checking the contents, Satochin!\n\nAlso thank you for the translation with delicate nuance, Hiro!\n\nAnd hello to mademoiselle Shiho!",
+      "images": [],
+      "source_html": "<p>With this 200th anniversary, this site have drastically renewaled!!<br/>\r\nThank you, Maimai!<br/>\r\nAnd thank you for checking the contents, Satochin!<br/>\r\nAlso thank you for the translation with delicate nuance, Hiro!<br/>\r\nAnd hello to mademoiselle Shiho!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since it’s 200th anniversary,\n\nhere is undisclosed trivia of Black and White!!\n\nIt’s really small trivia though. =)",
+      "images": [],
+      "source_html": "<p>Since it’s 200th anniversary,<br/>\r\nhere is undisclosed trivia of Black and White!!<br/>\r\nIt’s really small trivia though. =)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is…\n\nthe sound effect of scrolling conversation.\n\nI believe player listen to this sound effect most\n\nwhile playing.",
+      "images": [],
+      "source_html": "<p>That is…<br/>\r\nthe sound effect of scrolling conversation.<br/>\r\nI believe player listen to this sound effect most<br/>\r\nwhile playing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Piding!”",
+      "images": [],
+      "source_html": "<p>“Piding!”</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When there’s this sound effect,\n\npeople find out somebody’s playing Pokémon.\n\nI made this sound effect with extra caution\n\nin Red/Green.",
+      "images": [],
+      "source_html": "<p>When there’s this sound effect,<br/>\r\npeople find out somebody’s playing Pokémon.<br/>\r\nI made this sound effect with extra caution<br/>\r\nin Red/Green.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This sound effect was heritage to Ruby/Sapphire,\n\nDiamond/Pearl with minor changed sound…",
+      "images": [],
+      "source_html": "<p>This sound effect was heritage to Ruby/Sapphire,<br/>\r\nDiamond/Pearl with minor changed sound…</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In current Black/White, I would like to make it\n\nto brand new sound.\n\nTherefor, I carried out original intention of\n\nRed/Green’s sound effects.",
+      "images": [],
+      "source_html": "<p>In current Black/White, I would like to make it<br/>\r\nto brand new sound.<br/>\r\nTherefor, I carried out original intention of<br/>\r\nRed/Green’s sound effects.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, I used this Red/Green’s “Piding!” sound made\n\ninto sampling data. Then tune up a few times\n\nand made it to the most beautiful tune.",
+      "images": [],
+      "source_html": "<p>Yes, I used this Red/Green’s “Piding!” sound made<br/>\r\ninto sampling data. Then tune up a few times<br/>\r\nand made it to the most beautiful tune.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Probably, I listen to this sound effect most in my life.=)\n\nTherefore, I have strong effusive to this\n\nsound effect.",
+      "images": [],
+      "source_html": "<p>Probably, I listen to this sound effect most in my life.=)<br/>\r\nTherefore, I have strong effusive to this<br/>\r\nsound effect.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Would you listen to this sound effect?\n\nIsn’t it sound cool?",
+      "images": [],
+      "source_html": "<p>Would you listen to this sound effect?<br/>\r\nIsn’t it sound cool?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

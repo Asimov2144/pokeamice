@@ -1,0 +1,88 @@
+id: masuda-244
+number: 244
+month: 2015-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2015/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-244
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-244
+    permalink_validated: true
+    date: '2015-09-14'
+    date_display: 09.14.2015
+    categories:
+    - Info
+    - Pokemon
+    lead: "Finally, we have successfully presented Pokémon GO to the public.\r\nI,\
+      \ Masuda, have received on Twitter a lot of pleasing messages from around the\
+      \ world, including:\r\n\r\n“I’m very looking forward to trying it! I’m excited!”\r\
+      \n\r\n“I want to go on an adventure right now!” and\r\n\r\n“My childhood dream\
+      \ has come true.”\r\n\r\nPeople’s support, among others, gives me power.\r\n\
+      \r\nThere is nothing more encouraging for me as a person engaged in making things\
+      \ for people. I am happy.\r\n\r\nI sincerely appreciate support from you all!\r\
+      \n\r\nWhile I am participating in the development of Pokémon GO for the construction\
+      \ of its world view and for its game design and music, we are trying to make\
+      \ it enjoyable as a location-based game by removing and dismantling the world\
+      \ view of Pokémon as well as common knowledge in game design, and rebuilding\
+      \ them into a new design.\r\n\r\nThere is still a long way to go in its development,\
+      \ but I’ll go on making the best things with Niantic so that people around the\
+      \ globe can enjoy them.\r\n\r\nWe hope to exert continued efforts to make products\
+      \ enjoyable for all, including Pokémon fans and Ingress fans across the world,\
+      \ and even for those with no experience of playing with Pokémon.\r\n\r\nToward\
+      \ the 20th anniversary of Pokémon, we express our hearty thanks to all.\r\n\r\
+      \nPokémon GO is scheduled to be released for smartphones (on iOS/Android) in\
+      \ 2016.\r\n\r\nWe hope you’ll like it! Images from the presentation http://www.pokemon.com/us/pokemon-news/news-from-the-pokemon-go-announcement/#\
+      \ Video footage\r\nJapan https://www.youtube.com/watch?v=lKUwVYUKii4 United\
+      \ States https://www.youtube.com/watch?v=2sj2iQyBTQs España https://www.youtube.com/user/PokemonOficialES\
+      \ Italia https://www.youtube.com/user/PokemonUfficiale Deutschland https://www.youtube.com/user/Pokemonoffiziell\
+      \ France https://www.youtube.com/user/PokemonOfficielFR Niantic,Inc. http://www.nianticlabs.com/index.html\
+      \ Media http://www.gameinformer.com/b/news/archive/2015/09/10/reader-discussion-how-far-would-you-travel-to-catch-a-pokemon.aspx\
+      \ http://www.eurogamer.net/articles/2015-09-10-gps-enabled-pokemon-go-app-announced\
+      \ http://www.gamespot.com/articles/pokemon-go-announced-for-androidiphone/1100-6430435/\
+      \ http://www.shacknews.com/article/91207/pokemon-go-is-a-new-mobile-game-from-the-creators-of-ingress\
+      \ http://www.polygon.com/2015/9/10/9300011/pokemon-go-android-ios-smartphones-nintendo"
+    raw_page: archive/gamefreak-director/raw/en/2015/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2015/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2015-09-11'
+    date_display: 2015.09.11
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: ついに『Pokémon GO』を発表することができました。
+    raw_page: archive/gamefreak-director/raw/ja/2015/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:28+00:00'
+assets:
+- id: 244-multi-0911_002
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2015/09/0911_002.jpg
+  local_path: archive/gamefreak-director/assets/original/244/multi/0911_002.jpg
+  sha256: fa2adf13f26fd27e9d330ff0ed4b05bdfb8ae28e4d562ed688a0cb6faa11f4e1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 244-multi-0911_003
+  role: linked-original
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2015/09/0911_003.jpg
+  local_path: archive/gamefreak-director/assets/original/244/multi/0911_003.jpg
+  sha256: 24b6796688e149c0154aad2e8d99a58f511c04384970fbd813f7e5ab52bfcf75
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

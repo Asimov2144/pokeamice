@@ -1,0 +1,62 @@
+id: masuda-075
+number: 75
+month: 2007-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-75
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-75
+    permalink_validated: true
+    date: '2007-02-28'
+    date_display: 02.28.2007
+    categories:
+    - Diary
+    - Pokemon
+    lead: I’ve been unable to post new entries because I’m busy these days, so I’ll
+      write in a different format.
+    raw_page: archive/gamefreak-director/raw/en/2007/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-02-28'
+    date_display: 2007.02.28
+    categories:
+    - ポケモン
+    - 日記
+    lead: ここ最近忙しくて更新できていないので、たまには違う角度から。
+    raw_page: archive/gamefreak-director/raw/ja/2007/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:14+00:00'
+assets:
+- id: 075-multi-070228a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/070228a.jpg
+  local_path: archive/gamefreak-director/assets/original/075/multi/070228a.jpg
+  sha256: 861fc1069f1fbb69b73255b2619ed9a87e1a1b462062025684567fba0eed0cbf
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 075-multi-070228b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/070228b.jpg
+  local_path: archive/gamefreak-director/assets/original/075/multi/070228b.jpg
+  sha256: 8b8affd516c8afc4edce6f908f0b0e792dd59c9edd7d1c83712cf07ca776c2de
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

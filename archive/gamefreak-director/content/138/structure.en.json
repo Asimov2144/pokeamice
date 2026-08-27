@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "article": 138,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I’m working on a various business and\n\nhere is a one of my work I would like you to introduce.",
+      "images": [],
+      "source_html": "<p>I’m working on a various business and<br/>\r\nhere is a one of my work I would like you to introduce.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is the thing…\n\nI created the materials from last year…\n\nGathering the contents to the Power Point…\n\nKeep studying it…\n\nDoing several rehearsels…",
+      "images": [],
+      "source_html": "<p>That is the thing…<br/>\r\nI created the materials from last year…<br/>\r\nGathering the contents to the Power Point…<br/>\r\nKeep studying it…<br/>\r\nDoing several rehearsels…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes!\n\nwe Game Freak had a lecture meeting!",
+      "images": [],
+      "source_html": "<p>Yes!<br/>\r\nwe Game Freak had a lecture meeting!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I disassembled the Video Games into following four elements.\n\nWhich are “Playing”, “Controlling”, “View of the world”,\n\nand “Opponent”.\n\nThen, explained one element by one in detail\n\nhow important they are for game play.",
+      "images": [],
+      "source_html": "<p>I disassembled the Video Games into following four elements.<br/>\r\nWhich are “Playing”, “Controlling”, “View of the world”,<br/>\r\nand “Opponent”.<br/>\r\nThen, explained one element by one in detail<br/>\r\nhow important they are for game play.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The second half of the meeting was used for\n\nthe “Creation of Game Freak’s Style.”",
+      "images": [],
+      "source_html": "<p>The second half of the meeting was used for<br/>\r\nthe “Creation of Game Freak’s Style.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are only short period of time I can use,\n\nand wondering how much contents I imparted.\n\nI will be delighted if everyone received my message\n\neven a bit.",
+      "images": [],
+      "source_html": "<p>There are only short period of time I can use,<br/>\r\nand wondering how much contents I imparted.<br/>\r\nI will be delighted if everyone received my message<br/>\r\neven a bit.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This business is completely\n\ndifferent from what I’m doing in normal days.\n\nIt’s very inspiring and… difficult!",
+      "images": [],
+      "source_html": "<p>This business is completely<br/>\r\ndifferent from what I’m doing in normal days.<br/>\r\nIt’s very inspiring and… difficult!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"138-multi-mz090217_01\" %}\n\nDisassembele the video game earnestly.",
+      "images": [
+        "138-multi-mz090217_01"
+      ],
+      "source_html": "<p><img alt=\"pt01\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090217_01.jpg\"/><br/>\r\nDisassembele the video game earnestly.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"138-multi-mz090217_02\" %}\n\nLittle break…\n\n(The building “International Forum” looks really cool…)",
+      "images": [
+        "138-multi-mz090217_02"
+      ],
+      "source_html": "<p><img alt=\"pt02\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090217_02.jpg\"/><br/>\r\nLittle break…<br/>\r\n(The building “International Forum” looks really cool…)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

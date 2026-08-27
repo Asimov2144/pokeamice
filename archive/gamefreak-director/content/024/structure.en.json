@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 24,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "There’s a girl named Kiri-chan in Sootpolis city of\n\nHoenn region.\n\nI wrote her message.",
+      "images": [],
+      "source_html": "<p>There’s a girl named Kiri-chan in Sootpolis city of<br/>\r\nHoenn region.<br/>\r\nI wrote her message.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I wrote most of the message that appears when\n\nshe gives you berries, because that Kiri is\n\na special character for me.\n\nNear the end of the game’s development, I asked\n\nto include her without letting many people know\n\nabout it.",
+      "images": [],
+      "source_html": "<p>I wrote most of the message that appears when<br/>\r\nshe gives you berries, because that Kiri is<br/>\r\na special character for me.<br/>\r\nNear the end of the game’s development, I asked<br/>\r\nto include her without letting many people know<br/>\r\nabout it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because…\n\nKiri is the name of my daughter who was born in September.\n\nThat’s why I came up with that message,\n\nwith my hope for her.",
+      "images": [],
+      "source_html": "<p>Because…<br/>\r\nKiri is the name of my daughter who was born in September.<br/>\r\nThat’s why I came up with that message,<br/>\r\nwith my hope for her.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At that time, Pokemon Ruby and Sapphire was almost complete\n\nand we were mostly debugging the game, but\n\nthere still were decisions to be made.\n\nAnd while I was beside my wife who was giving\n\nbirth to my daughter,\n\nI would get mail on my mobile, such as,\n\n‘The feature for yata-yata is going to be like this, OK?’\n\nIn many ways it was a tension-filled experience.",
+      "images": [],
+      "source_html": "<p>At that time, Pokemon Ruby and Sapphire was almost complete<br/>\r\nand we were mostly debugging the game, but<br/>\r\nthere still were decisions to be made.<br/>\r\nAnd while I was beside my wife who was giving<br/>\r\nbirth to my daughter,<br/>\r\nI would get mail on my mobile, such as,<br/>\r\n‘The feature for yata-yata is going to be like this, OK?’<br/>\r\nIn many ways it was a tension-filled experience.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The message you want to deliver will not arrive\n\nat its destination, and the message you didn’t mean\n\nto send ends up being delivered.\n\nIt’s an interesting phenomenon, isn’t it?",
+      "images": [],
+      "source_html": "<p>The message you want to deliver will not arrive<br/>\r\nat its destination, and the message you didn’t mean<br/>\r\nto send ends up being delivered.<br/>\r\nIt’s an interesting phenomenon, isn’t it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "PS\n\nTime flies and my daughter is now 2 years old.\n\nSo are Pokemon Ruby and Sapphire.",
+      "images": [],
+      "source_html": "<p>PS<br/>\r\nTime flies and my daughter is now 2 years old.<br/>\r\nSo are Pokemon Ruby and Sapphire.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

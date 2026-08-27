@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 218,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "いつのまに！！！",
+      "images": [],
+      "source_html": "<p>いつのまに！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "海外のエンターテインメント情報サイト・IGNさんで、",
+      "images": [],
+      "source_html": "<p>海外のエンターテインメント情報サイト・IGNさんで、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "IGN’s Top 30 Games People of 2011",
+      "images": [],
+      "source_html": "<p><font size=\"+1\"><strong>IGN’s Top 30 Games People of 2011</strong></font></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "に、、、\n\n選ばれていました（笑）",
+      "images": [],
+      "source_html": "<p>に、、、<br/>\r\n選ばれていました（笑）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ここ、ここ。\n\n[http://games.ign.com/articles/121/1215234p2.html](http://games.ign.com/articles/121/1215234p2.html)",
+      "images": [],
+      "source_html": "<p>ここ、ここ。<br/>\n<a href=\"http://games.ign.com/articles/121/1215234p2.html\" target=\"_blank\">http://games.ign.com/articles/121/1215234p2.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ちょっと自分の顔写真が大きくてビビリましたが（汗）。",
+      "images": [],
+      "source_html": "<p>ちょっと自分の顔写真が大きくてビビリましたが（汗）。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスターブラック・ホワイトは、\n\n赤外線からのバトルや交換、常時通信のCギア、PGLとのゲームシンクなど、\n\nゲームの中だけで閉じない仕組みを多く取り入れました。\n\nそのことが評価された模様。",
+      "images": [],
+      "source_html": "<p>ポケットモンスターブラック・ホワイトは、<br/>\r\n赤外線からのバトルや交換、常時通信のCギア、PGLとのゲームシンクなど、<br/>\r\nゲームの中だけで閉じない仕組みを多く取り入れました。<br/>\r\nそのことが評価された模様。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "評価されたこと、素直に嬉しいです。",
+      "images": [],
+      "source_html": "<p>評価されたこと、素直に嬉しいです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "IGNさん、ありがとうございます！！",
+      "images": [],
+      "source_html": "<p>IGNさん、ありがとうございます！！</p>"
+    }
+  ]
+}

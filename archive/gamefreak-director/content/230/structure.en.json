@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "article": 230,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "As I announced earlier on my Twitter,\n\nbecause “Team Plasma” is taking control over many places,\n\nI myself, decided to join them. It looks fun!\n\nHere is a photo to prove it! =)",
+      "images": [],
+      "source_html": "<p>As I announced earlier on my Twitter,<br/>\r\nbecause “Team Plasma” is taking control over many places,<br/>\r\nI myself, decided to join them. It looks fun!<br/>\r\nHere is a photo to prove it! =)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"230-multi-1\" %}",
+      "images": [
+        "230-multi-1"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2012/12/1.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s a “Grunt” !!",
+      "images": [],
+      "source_html": "<p>It’s a “Grunt” !!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, starting from the Saturday December 15th,\n\nPokémon “Deoxys” will be distributed during selected\n\n“Team Plasma” supremacy events!",
+      "images": [],
+      "source_html": "<p>Also, starting from the Saturday December 15th,<br/>\r\nPokémon “Deoxys” will be distributed during selected<br/>\r\n“Team Plasma” supremacy events!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can read about it in details here:\n\n[http://www.pokemon.co.jp/info/2012/12/121210_g01.html](http://www.pokemon.co.jp/info/2012/12/121210_g01.html)",
+      "images": [],
+      "source_html": "<p>You can read about it in details here:<br/>\n<a href=\"http://www.pokemon.co.jp/info/2012/12/121210_g01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2012/12/121210_g01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Take a look at the name of “OT” (Original Trainer) =)\n\nAnd please come to the event !",
+      "images": [],
+      "source_html": "<p>Take a look at the name of “OT” (Original Trainer) =)<br/>\r\nAnd please come to the event !</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Plaaasma!!",
+      "images": [],
+      "source_html": "<p>Plaaasma!!</p>"
+    }
+  ]
+}

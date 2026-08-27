@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 234,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "世界初のこと。",
+      "images": [],
+      "source_html": "<p>世界初のこと。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "１９９６年ポケットモンスター赤緑が発売されてから、\n\nポケットモンスターの情報発信は、必ず日本からでした。",
+      "images": [],
+      "source_html": "<p>１９９６年ポケットモンスター赤緑が発売されてから、<br/>\r\nポケットモンスターの情報発信は、必ず日本からでした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "それは、日本で先にゲームが発売されるから。",
+      "images": [],
+      "source_html": "<p>それは、日本で先にゲームが発売されるから。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "しかし、『ポケットモンスター　Ｘ・Ｙ』は全世界同時発売。",
+      "images": [],
+      "source_html": "<p>しかし、『ポケットモンスター　Ｘ・Ｙ』は全世界同時発売。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２０１３年１月９日、\n\nポケモン海外公式サイト、Pokémon.comで、\n\n世界共通名称である伝説ポケモンの名前が発表されました。",
+      "images": [],
+      "source_html": "<p>２０１３年１月９日、<br/>\r\nポケモン海外公式サイト、Pokémon.comで、<br/>\r\n世界共通名称である伝説ポケモンの名前が発表されました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」",
+      "images": [],
+      "source_html": "<p><span style=\"font-size: 130%; font-weight: bold\">「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」</span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "※日本読みは、「ゼルネアス」　「イベルタル」",
+      "images": [],
+      "source_html": "<p>※日本読みは、「ゼルネアス」　「イベルタル」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "なぜ、日本の公式ＨＰに情報がないのかな？と思ったかも知れません。",
+      "images": [],
+      "source_html": "<p>なぜ、日本の公式ＨＰに情報がないのかな？と思ったかも知れません。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "実は、ポケモンの歴史の中で、\n\n初めて海外の方が日本よりも先に情報を得た日なのです。",
+      "images": [],
+      "source_html": "<p>実は、ポケモンの歴史の中で、<br/>\r\n初めて海外の方が日本よりも先に情報を得た日なのです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "同時発売だから出来ること。出来たこと。\n\nある意味事件であり、海外の方にとっては記念日となったのです。",
+      "images": [],
+      "source_html": "<p>同時発売だから出来ること。出来たこと。<br/>\r\nある意味事件であり、海外の方にとっては記念日となったのです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あの日、「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」の名前を見た方、\n\nおめでとうございます！\n\n世界で最初にポケモンの名前を知ったのは、あなたです。",
+      "images": [],
+      "source_html": "<p>あの日、「ＸＥＲＮＥＡＳ」　「ＹＶＥＬＴＡＬ」の名前を見た方、<br/>\r\nおめでとうございます！<br/>\r\n世界で最初にポケモンの名前を知ったのは、あなたです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/ex/xy/legend/](http://www.pokemon.co.jp/ex/xy/legend/)\n\n[http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/ex/xy/legend/\" target=\"_blank\">http://www.pokemon.co.jp/ex/xy/legend/</a><br/>\n<a href=\"http://www.pokemon.com/pokemonxy/en-us\" target=\"_blank\">http://www.pokemon.com/pokemonxy/en-us</a></p>"
+    }
+  ]
+}

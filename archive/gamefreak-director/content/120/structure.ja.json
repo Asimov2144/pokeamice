@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "article": 120,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "なんとっ！！\n\nいま！スタッフに誕生日を祝ってもらいました！！\n\n明日誕生日なんです！！\n\nチョコレートケーキとスタバのトールラテ！！\n\n超美味しかったー！！\n\n感謝感激！！",
+      "images": [],
+      "source_html": "<p>なんとっ！！<br/>\r\nいま！スタッフに誕生日を祝ってもらいました！！<br/>\r\n明日誕生日なんです！！<br/>\r\nチョコレートケーキとスタバのトールラテ！！<br/>\r\n超美味しかったー！！<br/>\r\n感謝感激！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ありがとう！！",
+      "images": [],
+      "source_html": "<p>ありがとう！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"120-ja-120a1\" %}{% image id=\"120-ja-120c1\" %}{% image id=\"120-ja-120b1\" %}",
+      "images": [
+        "120-ja-120a1",
+        "120-ja-120c1",
+        "120-ja-120b1"
+      ],
+      "source_html": "<p><img alt=\"120a1.jpg\" src=\"/blog/dir/wp-content/uploads/2008/01/120a1.jpg\"/><img alt=\"120c1.jpg\" src=\"/blog/dir/wp-content/uploads/2008/01/120c1.jpg\"/><img alt=\"120b1.jpg\" src=\"/blog/dir/wp-content/uploads/2008/01/120b1.jpg\"/></p>"
+    }
+  ]
+}

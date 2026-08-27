@@ -1,0 +1,59 @@
+id: masuda-135
+number: 135
+month: 2009-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2009/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no135
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no135
+    permalink_validated: true
+    date: '2009-02-12'
+    date_display: 02.12.2009
+    categories:
+    - Pokemon
+    lead: The game launches on this March 22nd!
+    raw_page: archive/gamefreak-director/raw/en/2009/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%935%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%935%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2009-02-12'
+    date_display: 2009.02.12
+    categories:
+    - ポケモン
+    lead: THE GAME LAUNCHES ON  MARCH 22ND!
+    raw_page: archive/gamefreak-director/raw/ja/2009/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:20+00:00'
+assets:
+- id: 135-multi-090212_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/090212_01.jpg
+  local_path: archive/gamefreak-director/assets/original/135/multi/090212_01.jpg
+  sha256: 8c2bdb7aaa7fc40234181471e07278560af4109cdac85b8e8b6f84247836653d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 135-multi-090212_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/090212_02.jpg
+  local_path: archive/gamefreak-director/assets/original/135/multi/090212_02.jpg
+  sha256: db543c865c22b57978df6ce2e3dd5e180e3534f4d8f11db645f0ecc61d795384
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

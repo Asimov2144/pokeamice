@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 196,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On the afternoon of Saturday June 4th,\n\nAgain, I visited recording studio for recording session of\n\nPokémon movie!",
+      "images": [],
+      "source_html": "<p>On the afternoon of Saturday June 4th,<br/>\r\nAgain, I visited recording studio for recording session of<br/>\r\nPokémon movie!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today is very sunny day!\n\nRoppongi Hills(Tokyo) can be seen under the\n\nglittering sun!\n\n{% image id=\"196-en-193a\" %}",
+      "images": [
+        "196-en-193a"
+      ],
+      "source_html": "<p>Today is very sunny day!<br/>\r\nRoppongi Hills(Tokyo) can be seen under the<br/>\r\nglittering sun!<br/>\n<img alt=\"193a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/193a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Studio locates on the second floor.\n\nSunshine is pretty comfortable!!\n\n{% image id=\"196-en-193b\" %}",
+      "images": [
+        "196-en-193b"
+      ],
+      "source_html": "<p>Studio locates on the second floor.<br/>\r\nSunshine is pretty comfortable!!<br/>\n<img alt=\"193b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/193b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "These instrument make me dazzle.\n\n{% image id=\"196-en-193c\" %}",
+      "images": [
+        "196-en-193c"
+      ],
+      "source_html": "<p>These instrument make me dazzle.<br/>\n<img alt=\"193c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/06/193c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was cozy and work effective studio!",
+      "images": [],
+      "source_html": "<p>It was cozy and work effective studio!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

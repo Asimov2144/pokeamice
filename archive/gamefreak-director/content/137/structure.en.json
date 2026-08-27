@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "article": 137,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "“YAWN” learned Pikachu!",
+      "images": [],
+      "source_html": "<p>“YAWN” learned Pikachu!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Do you know sleeping Pikachu?",
+      "images": [],
+      "source_html": "<p>Do you know sleeping Pikachu?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Currently, there’s a special campaign called\n\n“Sleeping Pikachu Festival”\n\nheld at all POKeMON CENTER in Japan!",
+      "images": [],
+      "source_html": "<p>Currently, there’s a special campaign called<br/>\r\n“Sleeping Pikachu Festival”<br/>\r\nheld at all POKeMON CENTER in Japan!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Visit Pokemon Center Japan for receiving\n\nYAWN learned Pikachu to your\n\neither Pokemon Diamond, Pearl or Platinum.\n\nThis present continues till this March 15th(Sunday).",
+      "images": [],
+      "source_html": "<p>Visit Pokemon Center Japan for receiving<br/>\r\nYAWN learned Pikachu to your<br/>\r\neither Pokemon Diamond, Pearl or Platinum.<br/>\r\nThis present continues till this March 15th(Sunday).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… here is the figure of “Sleeping Pikachu”\n\nwhich sold in Pokemon Center Japan!",
+      "images": [],
+      "source_html": "<p>And… here is the figure of “Sleeping Pikachu”<br/>\r\nwhich sold in Pokemon Center Japan!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_01\" %}\n\nLet Pikachu sleep on my hand…",
+      "images": [
+        "137-multi-mz090216_01"
+      ],
+      "source_html": "<p><img alt=\"Pikachu\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_01.jpg\"/><br/>\r\nLet Pikachu sleep on my hand…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_02\" %}\n\nSleep together…",
+      "images": [
+        "137-multi-mz090216_02"
+      ],
+      "source_html": "<p><img alt=\"Sleep together\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_02.jpg\"/><br/>\r\nSleep together…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"137-multi-mz090216_03\" %}\n\nSleeping on a fluffy meadow…\n\n{% image id=\"137-multi-mz090216_04\" %}\n\nOops!\n\nSleeping on Shaymin’s back!",
+      "images": [
+        "137-multi-mz090216_03",
+        "137-multi-mz090216_04"
+      ],
+      "source_html": "<p><img alt=\"Sleeping on a fluffy meadow\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_03.jpg\"/><br/>\r\nSleeping on a fluffy meadow…<br/>\n<img alt=\"Oops!\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_04.jpg\"/><br/>\r\nOops!<br/>\r\nSleeping on Shaymin’s back!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Sleeping Pikachu matches with various places.\n\nPlease give it a try!!",
+      "images": [],
+      "source_html": "<p>Sleeping Pikachu matches with various places.<br/>\r\nPlease give it a try!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*This Sleeping Pikachu figure is sold only in Pokemon Center Japan.",
+      "images": [],
+      "source_html": "<p>*This Sleeping Pikachu figure is sold only in Pokemon Center Japan.</p>"
+    }
+  ]
+}

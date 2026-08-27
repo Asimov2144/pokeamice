@@ -1,0 +1,123 @@
+id: masuda-238
+number: 238
+month: 2013-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2013/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-238
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-238
+    permalink_validated: true
+    date: '2013-06-20'
+    date_display: 06.20.2013
+    categories:
+    - Pokemon
+    lead: Today I’d like to talk a bit about this year’s E3, which took place in Los
+      Angeles from the 11th of June.
+    raw_page: archive/gamefreak-director/raw/en/2013/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2013-06-19'
+    date_display: 2013.06.19
+    categories:
+    - ポケモン
+    lead: ６月１１日にロサンゼルスで行われたＥ３について！
+    raw_page: archive/gamefreak-director/raw/ja/2013/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets:
+- id: 238-multi-130619_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_01.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_01.jpg
+  sha256: dd84c1313fc4887f9e482c8bd183e9ce630e6d4c546ad3d12d4587755d92c27c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_02.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_02.jpg
+  sha256: cd9104b134d05012857532ea7d2bb966215b44ad94102be7f4647370cc7ec8eb
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_03
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_03.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_03.jpg
+  sha256: bfe16dfe5a6e37c64659b6d0cfb19821246bbdb1c2caec8443faec14da6b724d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_04
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_04.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_04.jpg
+  sha256: d34df6a0e9f28c00bb0c83513cd9ca7bcb72899a7782c1351ea598cefbddf369
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_05
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_05.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_05.jpg
+  sha256: 8fdcff4d38986f7acccad25099f6531d1791635bd1758bc4229e3f230495e2ba
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_06
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_06.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_06.jpg
+  sha256: 0aa35b168a2400d920d4d7b837b22daa5acd98cb9f04236d08ab179bfcf6b683
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_07
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_07.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_07.jpg
+  sha256: e0faff2e591916f54bb7910b9f0a17b09e9e3e135b231f329c297db4d8d160b1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_08
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_08.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_08.jpg
+  sha256: f8e2677baaab241c7fbce5564c86e1a67343d0d1f301395b0cdf0be9ef3b713c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 238-multi-130619_09
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2013/06/130619_09.jpg
+  local_path: archive/gamefreak-director/assets/original/238/multi/130619_09.jpg
+  sha256: 33154831e125e94031f27b57a6f858db27a7144d8e6f48478227367139443895
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

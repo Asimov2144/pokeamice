@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "article": 210,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On Thursday September 15th at 16:00 o’clock,\n\n“Japan Game Award” was held at Makuhari Messe.",
+      "images": [],
+      "source_html": "<p>On Thursday September 15th at 16:00 o’clock,<br/>\r\n“Japan Game Award” was held at Makuhari Messe.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Believe it or not, we received four award\n\nwith Pokémon related!!\n\nBravo!!",
+      "images": [],
+      "source_html": "<p>Believe it or not, we received four award<br/>\r\nwith Pokémon related!!<br/>\r\nBravo!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "1)Ministry of Economic Industry Award\n\nThe Pokémon Company’s “Mr. Tsunekazu Ishihara”\n\n[http://awards.cesa.or.jp/prize/prize_04.html](http://awards.cesa.or.jp/prize/prize_04.html)",
+      "images": [],
+      "source_html": "<p>1)Ministry of Economic Industry Award<br/>\r\nThe Pokémon Company’s “Mr. Tsunekazu Ishihara”<br/>\n<a href=\"http://awards.cesa.or.jp/prize/prize_04.html\" target=\"_blank\">http://awards.cesa.or.jp/prize/prize_04.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "2)Global Award Japanese game section\n\n“Pocket monsters Heart Gold / Soul Silver”\n\n[http://awards.cesa.or.jp/prize/year/14.html](http://awards.cesa.or.jp/prize/year/14.html)",
+      "images": [],
+      "source_html": "<p>2)Global Award Japanese game section<br/>\r\n“Pocket monsters Heart Gold / Soul Silver”<br/>\n<a href=\"http://awards.cesa.or.jp/prize/year/14.html\" target=\"_blank\">http://awards.cesa.or.jp/prize/year/14.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "3)Best Sales Award\n\n4)Award for Excellence\n\n“Pocket Monsters Black / White”\n\n[http://awards.cesa.or.jp/prize/year/11.html](http://awards.cesa.or.jp/prize/year/11.html)",
+      "images": [],
+      "source_html": "<p>3)Best Sales Award<br/>\r\n4)Award for Excellence<br/>\r\n“Pocket Monsters Black / White”<br/>\n<a href=\"http://awards.cesa.or.jp/prize/year/11.html\" target=\"_blank\">http://awards.cesa.or.jp/prize/year/11.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, I’m quite happy.\n\nThank you for the supporting fans.",
+      "images": [],
+      "source_html": "<p>Well, I’m quite happy.<br/>\r\nThank you for the supporting fans.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Other awarded video games.\n\n[http://awards.cesa.or.jp/prize/prize_01.html](http://awards.cesa.or.jp/prize/prize_01.html)",
+      "images": [],
+      "source_html": "<p>Other awarded video games.<br/>\n<a href=\"http://awards.cesa.or.jp/prize/prize_01.html\" target=\"_blank\">http://awards.cesa.or.jp/prize/prize_01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Receiving “Best Sales Award” from\n\nselected fan.\n\n{% image id=\"210-multi-210a\" %}",
+      "images": [
+        "210-multi-210a"
+      ],
+      "source_html": "<p>Receiving “Best Sales Award” from<br/>\r\nselected fan.<br/>\n<img alt=\"210a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/210a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Having a speech on the stage.\n\n{% image id=\"210-multi-210b\" %}",
+      "images": [
+        "210-multi-210b"
+      ],
+      "source_html": "<p>Having a speech on the stage.<br/>\n<img alt=\"210b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/210b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Little bit more close =)\n\n{% image id=\"210-multi-210c\" %}",
+      "images": [
+        "210-multi-210c"
+      ],
+      "source_html": "<p>Little bit more close =)<br/>\n<img alt=\"210c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/210c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Receiving “Award for Excellence”.\n\nGrateful.\n\n{% image id=\"210-multi-210d\" %}",
+      "images": [
+        "210-multi-210d"
+      ],
+      "source_html": "<p>Receiving “Award for Excellence”.<br/>\r\nGrateful.<br/>\n<img alt=\"210d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/210d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "2nd speech. I wonder what was I looking =)\n\n{% image id=\"210-multi-210e\" %}",
+      "images": [
+        "210-multi-210e"
+      ],
+      "source_html": "<p>2nd speech. I wonder what was I looking =)<br/>\n<img alt=\"210e.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/210e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Again everyone,\n\nThank you for supporting\n\nPocket Monsters!!",
+      "images": [],
+      "source_html": "<p>Again everyone,<br/>\r\nThank you for supporting<br/>\r\nPocket Monsters!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

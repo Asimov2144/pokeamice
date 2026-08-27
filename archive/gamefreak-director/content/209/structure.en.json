@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 209,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Have you see the live performance of MTM\n\non September 4th?",
+      "images": [],
+      "source_html": "<p>Have you see the live performance of MTM<br/>\r\non September 4th?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Three songs were performed!",
+      "images": [],
+      "source_html": "<p>Three songs were performed!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Long ago, when “Pokémon Smash!!” was called\n\n“Pokémon Sunday”, Shokotan visited Game Freak\n\nfor asking one song from me.\n\nTherefore, I created the song, and that song\n\nwas performed by MTM!",
+      "images": [],
+      "source_html": "<p>Long ago, when “Pokémon Smash!!” was called<br/>\r\n“Pokémon Sunday”, Shokotan visited Game Freak<br/>\r\nfor asking one song from me.<br/>\r\nTherefore, I created the song, and that song<br/>\r\nwas performed by MTM!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And next comes to…\n\nMTM with battle woman M’s\n\ntheme of Cynthia.",
+      "images": [],
+      "source_html": "<p>And next comes to…<br/>\r\nMTM with battle woman M’s<br/>\r\ntheme of Cynthia.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Lastly,\n\nMusic of legendary Pokemon’s music\n\nwith Victini.\n\nKids must be surprised.\n\nIt’s super techno=)",
+      "images": [],
+      "source_html": "<p>Lastly,<br/>\r\nMusic of legendary Pokemon’s music<br/>\r\nwith Victini.<br/>\r\nKids must be surprised.<br/>\r\nIt’s super techno=)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I believe people got excited!!\n\nProbably.",
+      "images": [],
+      "source_html": "<p>I believe people got excited!!<br/>\r\nProbably.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the blog from Shokotan!!\n\n[http://ameblo.jp/nakagawa-shoko/entry-11008093892.html](http://ameblo.jp/nakagawa-shoko/entry-11008093892.html)\n\n[http://ameblo.jp/nakagawa-shoko/entry-11008070267.html](http://ameblo.jp/nakagawa-shoko/entry-11008070267.html)",
+      "images": [],
+      "source_html": "<p>Here’s the blog from Shokotan!!<br/>\n<a href=\"http://ameblo.jp/nakagawa-shoko/entry-11008093892.html\" target=\"_blank\">http://ameblo.jp/nakagawa-shoko/entry-11008093892.html</a><br/>\n<a href=\"http://ameblo.jp/nakagawa-shoko/entry-11008070267.html\" target=\"_blank\">http://ameblo.jp/nakagawa-shoko/entry-11008070267.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How wonderful!",
+      "images": [],
+      "source_html": "<p>How wonderful!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

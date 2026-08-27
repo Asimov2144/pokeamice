@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 41,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Yesterday, I had a talk with an excellent\n\nsales representative.\n\nHe was such a serious, energetic,\n\nand honest person, and we had to make a\n\ntough decision whether or not to purchase\n\ntheir products.",
+      "images": [],
+      "source_html": "<p>Yesterday, I had a talk with an excellent<br/>\r\nsales representative.<br/>\r\nHe was such a serious, energetic,<br/>\r\nand honest person, and we had to make a<br/>\r\ntough decision whether or not to purchase<br/>\r\ntheir products.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As we create software, which is to be sold\n\nas a packaged product, we too are a seller.",
+      "images": [],
+      "source_html": "<p>As we create software, which is to be sold<br/>\r\nas a packaged product, we too are a seller.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "However, because we do not actually sell our\n\ngames by ourselves, we tend to lose sight of\n\nthe seller’s perspective.",
+      "images": [],
+      "source_html": "<p>However, because we do not actually sell our<br/>\r\ngames by ourselves, we tend to lose sight of<br/>\r\nthe seller’s perspective.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From there, it’s easy to think that our task\n\nis to make good games and that good games\n\nwill sell themselves.\n\nOf course, this is a trap.",
+      "images": [],
+      "source_html": "<p>From there, it’s easy to think that our task<br/>\r\nis to make good games and that good games<br/>\r\nwill sell themselves.<br/>\r\nOf course, this is a trap.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Actually, we are definitely on the selling side.",
+      "images": [],
+      "source_html": "<p>Actually, we are definitely on the selling side.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How important it is to have the power for\n\nyour products, and, how knowledgeable you need\n\nto be about them.\n\nAlso, how important timing is in business\n\nnegotiation.\n\nI learned from the sales representative\n\nthe importance of these complex aspects of\n\nsales strategy.",
+      "images": [],
+      "source_html": "<p>How important it is to have the power for<br/>\r\nyour products, and, how knowledgeable you need<br/>\r\nto be about them.<br/>\r\nAlso, how important timing is in business<br/>\r\nnegotiation.<br/>\r\nI learned from the sales representative<br/>\r\nthe importance of these complex aspects of<br/>\r\nsales strategy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s hard to meet the deadline, but as a seller,\n\nit’s important to release a good product in\n\na timely fashion. I realized that anew today.",
+      "images": [],
+      "source_html": "<p>It’s hard to meet the deadline, but as a seller,<br/>\r\nit’s important to release a good product in<br/>\r\na timely fashion. I realized that anew today.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

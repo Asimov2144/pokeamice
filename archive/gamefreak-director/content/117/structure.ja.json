@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "article": 117,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "ずっと乗りたかったんですが、、、ついに乗りました！！！",
+      "images": [],
+      "source_html": "<p>ずっと乗りたかったんですが、、、ついに乗りました！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "日本が世界に誇る最高の電車、新幹線N700系！！",
+      "images": [],
+      "source_html": "<p>日本が世界に誇る最高の電車、新幹線N700系！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "700系には何度も乗っているんですが、、、\n\nN700系に乗ることが出来るなんて！！夢のようです！",
+      "images": [],
+      "source_html": "<p>700系には何度も乗っているんですが、、、<br/>\r\nN700系に乗ることが出来るなんて！！夢のようです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "超興奮！！\n\n携帯で写真撮りまくり！",
+      "images": [],
+      "source_html": "<p>超興奮！！<br/>\r\n携帯で写真撮りまくり！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"117-ja-117a1\" %}　{% image id=\"117-ja-117b\" %}",
+      "images": [
+        "117-ja-117a1",
+        "117-ja-117b"
+      ],
+      "source_html": "<p><img alt=\"117a1.jpg\" src=\"/blog/dir/wp-content/uploads/2007/11/117a1.jpg\"/>　<img alt=\"117b.jpg\" src=\"/blog/dir/wp-content/uploads/2007/11/117b.jpg\">　<img alt=\"117c.jpg\" src=\"/blog/dir/wp-content/uploads/2007/11/117c.jpg\"/></img></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"117-ja-117d\" %}",
+      "images": [
+        "117-ja-117d"
+      ],
+      "source_html": "<p><img alt=\"117d.jpg\" src=\"/blog/dir/wp-content/uploads/2007/11/117d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、そうそう。\n\n乗ったのは任天堂さんへの出張の帰り、\n\nつまり、京都から東京へ向かう電車です。",
+      "images": [],
+      "source_html": "<p>あ、そうそう。<br/>\r\n乗ったのは任天堂さんへの出張の帰り、<br/>\r\nつまり、京都から東京へ向かう電車です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "どうやら、最終電車はいつもN700系らしいです。。。\n\n今度から、いつも最終電車にしようかなぁ。。。なんて。",
+      "images": [],
+      "source_html": "<p>どうやら、最終電車はいつもN700系らしいです。。。<br/>\r\n今度から、いつも最終電車にしようかなぁ。。。なんて。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、しかしすごい。\n\n特にカーブの多い日本ならではの、\n\n車体を傾斜させて速度を落とさないという発想。すごすぎ！",
+      "images": [],
+      "source_html": "<p>いやー、しかしすごい。<br/>\r\n特にカーブの多い日本ならではの、<br/>\r\n車体を傾斜させて速度を落とさないという発想。すごすぎ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "超かっこよかったです！",
+      "images": [],
+      "source_html": "<p>超かっこよかったです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "詳しくは新幹線N700系のサイトをどうぞ！\n\n[http://n700.jp/](http://n700.jp/)",
+      "images": [],
+      "source_html": "<p>詳しくは新幹線N700系のサイトをどうぞ！<br/>\n<a href=\"http://n700.jp/\" target=\"_blank\"> http://n700.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

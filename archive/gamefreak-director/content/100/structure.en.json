@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 100,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The memorable 100th column!\n\nI would like to express my gratitude for those\n\nwho keep reading my columns.\n\nSo, as a token of my gratitude, I’m going to tell\n\nyou a secret tip about Pokemon Diamond & Pearl!",
+      "images": [],
+      "source_html": "<p>The memorable 100th column!<br/>\r\nI would like to express my gratitude for those<br/>\r\nwho keep reading my columns.<br/>\r\nSo, as a token of my gratitude, I’m going to tell<br/>\r\nyou a secret tip about Pokemon Diamond &amp; Pearl!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Those of you who play it everyday might already\n\nknow this, but…\n\nIn Pokemon Diamond & Pearl, we featured a function\n\nby which the weather will change!",
+      "images": [],
+      "source_html": "<p>Those of you who play it everyday might already<br/>\r\nknow this, but…<br/>\r\nIn Pokemon Diamond &amp; Pearl, we featured a function<br/>\r\nby which the weather will change!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As the game is now available in North America and in\n\nEurope, the feature to change the weather is\n\nexactly the same all over the world.\n\nThat means!",
+      "images": [],
+      "source_html": "<p>As the game is now available in North America and in<br/>\r\nEurope, the feature to change the weather is<br/>\r\nexactly the same all over the world.<br/>\r\nThat means!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In a word,\n\nthe weather is the same all over the world on\n\nthe same day.",
+      "images": [],
+      "source_html": "<p>In a word,<br/>\r\nthe weather is the same all over the world on<br/>\r\nthe same day.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "That is, we put in a function that will enable you\n\nto say, as a universal greeting word,\n\n‘you find lots of snow in — city on — day\n\nof — month.’",
+      "images": [],
+      "source_html": "<p>That is, we put in a function that will enable you<br/>\r\nto say, as a universal greeting word,<br/>\r\n‘you find lots of snow in — city on — day<br/>\r\nof — month.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is a small feature, but if you’re playing\n\nPokemon with your friends, why don’t you say\n\nsomething about the weather to them?\n\nYou might just find something that’s a\n\nlittle different from things you already knew.",
+      "images": [],
+      "source_html": "<p>This is a small feature, but if you’re playing<br/>\r\nPokemon with your friends, why don’t you say<br/>\r\nsomething about the weather to them?<br/>\r\nYou might just find something that’s a<br/>\r\nlittle different from things you already knew.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is another trick we included that will open up\n\nthe world of gaming. We intended to let players enjoy\n\ntalking about the game outside the game.",
+      "images": [],
+      "source_html": "<p>This is another trick we included that will open up<br/>\r\nthe world of gaming. We intended to let players enjoy<br/>\r\ntalking about the game outside the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

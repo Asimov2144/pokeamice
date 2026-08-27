@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 86,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, I gave a lecture from 10 am at my old school,\n\nJapan Electronics College.\n\nThe school is located near Okubo in Shinjuku (Tokyo),\n\nand it’s been many years since I last visited there.\n\nI felt as if I was still a student.",
+      "images": [],
+      "source_html": "<p>Today, I gave a lecture from 10 am at my old school,<br/>\r\nJapan Electronics College.<br/>\r\nThe school is located near Okubo in Shinjuku (Tokyo),<br/>\r\nand it’s been many years since I last visited there.<br/>\r\nI felt as if I was still a student.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The lecture was only about 40-minute long, but\n\nmost students listened to my talk intently\n\nand I think it was a meaningful event.\n\nI hope to have given them some inspiration,\n\neven if it’s small.",
+      "images": [],
+      "source_html": "<p>The lecture was only about 40-minute long, but<br/>\r\nmost students listened to my talk intently<br/>\r\nand I think it was a meaningful event.<br/>\r\nI hope to have given them some inspiration,<br/>\r\neven if it’s small.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As for me, I attended the Computer Graphics course\n\nat that school. Then, CG was not as advanced as\n\nit is now. It was a tool a doctor of mathematics\n\nused for his research, not a tool to ‘express yourself\n\nin drawing,’ and the technology was still primitive.\n\nTechniques such as scan-line method, ray-tracing, radiosity,\n\nand bump mapping were available, but in ray-tracing,\n\nfor example, it took more than 1 day to draw one picture.\n\nNow we use virtual images for those time-consuming\n\nmanipulations. Computer graphics has become a technique\n\nto draw pictures, not a tool to display an object in\n\na truly real way.",
+      "images": [],
+      "source_html": "<p>As for me, I attended the Computer Graphics course<br/>\r\nat that school. Then, CG was not as advanced as<br/>\r\nit is now. It was a tool a doctor of mathematics<br/>\r\nused for his research, not a tool to ‘express yourself<br/>\r\nin drawing,’ and the technology was still primitive.<br/>\r\nTechniques such as scan-line method, ray-tracing, radiosity,<br/>\r\nand bump mapping were available, but in ray-tracing,<br/>\r\nfor example, it took more than 1 day to draw one picture.<br/>\r\nNow we use virtual images for those time-consuming<br/>\r\nmanipulations. Computer graphics has become a technique<br/>\r\nto draw pictures, not a tool to display an object in<br/>\r\na truly real way.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I was a student, I learned various topics from\n\nUNIX (OS), 3D programming, such mathematical topics as\n\nnormal vector and matrix, to how to come up with\n\nideas, how to write a plot, or how to draw illustrations.\n\nAt that time, I immersed myself with what I found\n\ninteresting, but somewhere inside my mind I had a\n\ndoubt about their usefulness in the future.\n\nThat was not the case!\n\nI’m making full use of what I learned then\n\nfor my current job.\n\nLearning is a strange process, isn’t it?",
+      "images": [],
+      "source_html": "<p>When I was a student, I learned various topics from<br/>\r\nUNIX (OS), 3D programming, such mathematical topics as<br/>\r\nnormal vector and matrix, to how to come up with<br/>\r\nideas, how to write a plot, or how to draw illustrations.<br/>\r\nAt that time, I immersed myself with what I found<br/>\r\ninteresting, but somewhere inside my mind I had a<br/>\r\ndoubt about their usefulness in the future.<br/>\r\nThat was not the case!<br/>\r\nI’m making full use of what I learned then<br/>\r\nfor my current job.<br/>\r\nLearning is a strange process, isn’t it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

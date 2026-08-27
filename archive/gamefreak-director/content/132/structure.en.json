@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": 132,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "“Pocket Monsters Platinum (Japanese title)”!\n\nThis game have achieved the fastest million copies sold\n\nwithin opening 3-day in Nintendo DS history in Japan!",
+      "images": [],
+      "source_html": "<p>“Pocket Monsters Platinum (Japanese title)”!<br/>\r\nThis game have achieved the fastest million copies sold<br/>\r\nwithin opening 3-day in Nintendo DS history in Japan!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m truly delighted!\n\nI really would like to appreciate every one of you.\n\nThank you very very much!",
+      "images": [],
+      "source_html": "<p>I’m truly delighted!<br/>\r\nI really would like to appreciate every one of you.<br/>\r\nThank you very very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our gratitude is already concentrated\n\ninside of this “Platinum”.\n\nPlease do enjoy the game!",
+      "images": [],
+      "source_html": "<p>Our gratitude is already concentrated<br/>\r\ninside of this “Platinum”.<br/>\r\nPlease do enjoy the game!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

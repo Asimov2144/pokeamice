@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 188,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "It will be 15 years anniversary of Pokemon on\n\nFebruary 27th 2011!\n\nTime flies. 15 years already.",
+      "images": [],
+      "source_html": "<p>It will be 15 years anniversary of Pokemon on<br/>\r\nFebruary 27th 2011!<br/>\r\nTime flies. 15 years already.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thanks to everybody.\n\nBecause of all of your support!",
+      "images": [],
+      "source_html": "<p>Thanks to everybody.<br/>\r\nBecause of all of your support!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Tokyo Marathon will be held on the same day as if\n\ncelebrating this Pokemon anniversary.\n\nAt Pokemon Center Yokohama, there will be an event\n\ncalled “Pokemon Stage in Landmark Plaza 2011″ will be held.\n\n[http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news](http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news)",
+      "images": [],
+      "source_html": "<p>Tokyo Marathon will be held on the same day as if<br/>\r\ncelebrating this Pokemon anniversary.<br/>\r\nAt Pokemon Center Yokohama, there will be an event<br/>\r\ncalled “Pokemon Stage in Landmark Plaza 2011″ will be held.<br/>\n<a href=\"http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news\" target=\"_blank\">http://www.pokemon.co.jp/info/2011/02/p110210_01.html?a001=news</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not only that!!!\n\nThere will be a live piano play in every 15 minutes\n\nbefore the bingo event.\n\n(From 11:15, from 12:45, from 14:15 and from 15:45)\n\nMust be there!!",
+      "images": [],
+      "source_html": "<p>Not only that!!!<br/>\r\nThere will be a live piano play in every 15 minutes<br/>\r\nbefore the bingo event.<br/>\r\n(From 11:15, from 12:45, from 14:15 and from 15:45)<br/>\r\nMust be there!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is the first live performance of\n\nPocket Monsters Black and White!",
+      "images": [],
+      "source_html": "<p>This is the first live performance of<br/>\r\nPocket Monsters Black and White!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m planning to be there around noon of 27th!!\n\nI’m very excited!!",
+      "images": [],
+      "source_html": "<p>I’m planning to be there around noon of 27th!!<br/>\r\nI’m very excited!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, please visit and enjoy!",
+      "images": [],
+      "source_html": "<p>Everyone, please visit and enjoy!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

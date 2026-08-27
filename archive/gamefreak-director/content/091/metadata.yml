@@ -1,0 +1,29 @@
+id: masuda-091
+number: 91
+month: 2007-07
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%99%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%99%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-07-30'
+    date_display: 2007.07.30
+    categories:
+    - ポケモン
+    lead: ついに！
+    raw_page: archive/gamefreak-director/raw/ja/2007/07/index.html
+languages:
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:17+00:00'
+assets: []

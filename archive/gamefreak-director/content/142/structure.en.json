@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 142,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Here’s a surprise announcement for\n\nPokemon Sunday viewers!!",
+      "images": [],
+      "source_html": "<p>Here’s a surprise announcement for<br/>\r\nPokemon Sunday viewers!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Sunday March 15th (from 7:30AM), channel TV Tokyo,\n\nI’ll have a special appearance with Shoko-tan\n\nand other two executive producers on Pokemon Sunday!",
+      "images": [],
+      "source_html": "<p>On Sunday March 15th (from 7:30AM), channel TV Tokyo,<br/>\r\nI’ll have a special appearance with Shoko-tan<br/>\r\nand other two executive producers on Pokemon Sunday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*It’s little hard for me to pronounce “Executive Producer”,\n\nbut I hope I said with proper pronunciation in the show.",
+      "images": [],
+      "source_html": "<p>*It’s little hard for me to pronounce “Executive Producer”,<br/>\r\nbut I hope I said with proper pronunciation in the show.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The substance of this program can’t be unveiled.\n\nIt’s still a secret!\n\nYou’ll find out by watching this Pokemon Sunday!",
+      "images": [],
+      "source_html": "<p>The substance of this program can’t be unveiled.<br/>\r\nIt’s still a secret!<br/>\r\nYou’ll find out by watching this Pokemon Sunday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And…\n\nOn Saturday 14th, I’m visiting Nintendo’s\n\nSan Francisco office for\n\nhaving an interview of Pokemon Platinum version.\n\nSince I love checking out bridges,\n\nI’m looking forward to see Golden Gate Bridge!\n\nIt’s so exciting!",
+      "images": [],
+      "source_html": "<p>And…<br/>\r\nOn Saturday 14th, I’m visiting Nintendo’s<br/>\r\nSan Francisco office for<br/>\r\nhaving an interview of Pokemon Platinum version.<br/>\r\nSince I love checking out bridges,<br/>\r\nI’m looking forward to see Golden Gate Bridge!<br/>\r\nIt’s so exciting!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(“Pokemon Sunday” is a TV program\n\nwhich only aired in Japan.)",
+      "images": [],
+      "source_html": "<p>*(“Pokemon Sunday” is a TV program<br/>\r\nwhich only aired in Japan.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

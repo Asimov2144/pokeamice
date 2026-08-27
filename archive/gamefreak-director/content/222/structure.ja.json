@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 222,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "こんにちは！",
+      "images": [],
+      "source_html": "<p>こんにちは！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "前回の２２１回でお知らせした重大な発表とは？？",
+      "images": [],
+      "source_html": "<p>前回の２２１回でお知らせした重大な発表とは？？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "それは、、、",
+      "images": [],
+      "source_html": "<p>それは、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲームフリークが制作した最新ソフト、",
+      "images": [],
+      "source_html": "<p>ゲームフリークが制作した最新ソフト、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスターブラック２」\n\n「ポケットモンスターホワイト２」",
+      "images": [],
+      "source_html": "<p>「ポケットモンスターブラック２」<br/>\r\n「ポケットモンスターホワイト２」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "が、６月に日本で発売となります！！",
+      "images": [],
+      "source_html": "<p>が、６月に日本で発売となります！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このソフトに登場する２匹のポケモンの名前、、、\n\nその名も、",
+      "images": [],
+      "source_html": "<p>このソフトに登場する２匹のポケモンの名前、、、<br/>\r\nその名も、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ブラックキュレム」\n\n「ホワイトキュレム」",
+      "images": [],
+      "source_html": "<p>「ブラックキュレム」<br/>\r\n「ホワイトキュレム」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その新しい力には、ゼクロム・レシラムが関係しているとか、、、",
+      "images": [],
+      "source_html": "<p>その新しい力には、ゼクロム・レシラムが関係しているとか、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "どんな姿かは、公式サイトをチェック！！",
+      "images": [],
+      "source_html": "<p>どんな姿かは、公式サイトをチェック！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/ex/b2w2/](http://www.pokemon.co.jp/ex/b2w2/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/ex/b2w2/\" target=\"_blank\">http://www.pokemon.co.jp/ex/b2w2/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "お楽しみに！\n\n期待していて下さいね！！",
+      "images": [],
+      "source_html": "<p>お楽しみに！<br/>\r\n期待していて下さいね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "article": 239,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "なんとっ！！",
+      "images": [],
+      "source_html": "<p>なんとっ！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いきものがかりさんの「笑顔」のプロモーションビデオに出演させて頂きました！！",
+      "images": [],
+      "source_html": "<p>いきものがかりさんの「笑顔」のプロモーションビデオに出演させて頂きました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こんなことがあるなんて！！！",
+      "images": [],
+      "source_html": "<p>こんなことがあるなんて！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いきものがかりさんのラジオに出演したのがきっかけで、\n\n「笑顔」作詞作曲の水野さんともツイッターで繋がり、、、\n\nそして今回、お話をいただいて、、、",
+      "images": [],
+      "source_html": "<p>いきものがかりさんのラジオに出演したのがきっかけで、<br/>\r\n「笑顔」作詞作曲の水野さんともツイッターで繋がり、、、<br/>\r\nそして今回、お話をいただいて、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "出会いってすごい。どんどん世界が広がっていく。",
+      "images": [],
+      "source_html": "<p>出会いってすごい。どんどん世界が広がっていく。</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２０１３年６月９日。\n\n朝の六本木。\n\nロサンゼルスに行く日だったので、\n\n収録の１番早い時間にしてもらって撮影１番目。",
+      "images": [],
+      "source_html": "<p>２０１３年６月９日。<br/>\r\n朝の六本木。<br/>\r\nロサンゼルスに行く日だったので、<br/>\r\n収録の１番早い時間にしてもらって撮影１番目。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "真ん中あたりのイスに座って。撮影開始。",
+      "images": [],
+      "source_html": "<p>真ん中あたりのイスに座って。撮影開始。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"239-multi-130620_01\" %}",
+      "images": [
+        "239-multi-130620_01"
+      ],
+      "source_html": "<p><img alt=\"\" src=\"/blog/dir/wp-content/uploads/2013/06/130620_01.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "監督に言われるまま視線を動かす。。。動かす。。。動かす。。。",
+      "images": [],
+      "source_html": "<p>監督に言われるまま視線を動かす。。。動かす。。。動かす。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「はい、お疲れさまでした！」",
+      "images": [],
+      "source_html": "<p>「はい、お疲れさまでした！」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "リハーサルかと思いきや、、、\n\n監督さんからOKが。",
+      "images": [],
+      "source_html": "<p>リハーサルかと思いきや、、、<br/>\r\n監督さんからOKが。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、、、あっという間の出来事でしたが、\n\n想い出に残るスタジオ撮影でした！！",
+      "images": [],
+      "source_html": "<p>いやー、、、あっという間の出来事でしたが、<br/>\r\n想い出に残るスタジオ撮影でした！！</p>"
+    },
+    {
+      "type": "spacer"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "完成したPVはこちら。\n\n[http://www.youtube.com/watch?v=hLBdm2J9UKA](http://www.youtube.com/watch?v=hLBdm2J9UKA)",
+      "images": [],
+      "source_html": "<p>完成したPVはこちら。<br/>\n<a href=\"http://www.youtube.com/watch?v=hLBdm2J9UKA\" target=\"_new\">http://www.youtube.com/watch?v=hLBdm2J9UKA</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "もんの凄い体験をさせていただきました！！",
+      "images": [],
+      "source_html": "<p>もんの凄い体験をさせていただきました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いきものがかりのみなさん、本当にありがとうございました！！！",
+      "images": [],
+      "source_html": "<p>いきものがかりのみなさん、本当にありがとうございました！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いきものがかりオフィシャルサイト。\n\n[http://ikimonogakari.com/](http://ikimonogakari.com/)\n\n[http://ikimonogakari.com/news/#i6026](http://ikimonogakari.com/news/#i6026)（イベント、マスダも行く予定です）",
+      "images": [],
+      "source_html": "<p>いきものがかりオフィシャルサイト。<br/>\n<a href=\"http://ikimonogakari.com/\" target=\"_new\">http://ikimonogakari.com/</a><br/>\n<a href=\"http://ikimonogakari.com/news/#i6026\" target=\"_new\">http://ikimonogakari.com/news/#i6026</a>（イベント、マスダも行く予定です）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+id: masuda-223
+number: 223
+month: 2012-03
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2012/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-223
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-223
+    permalink_validated: true
+    date: '2012-03-01'
+    date_display: 03.01.2012
+    categories:
+    - Info
+    - Pokemon
+    lead: 'The movie of this year looks pretty good!! It’s Pokémon 15th anniversary
+      movie! “Kyurem vs. The Sacred Swordsman: Keldeo” Addition to above movie, there’s
+      one more short film.'
+    raw_page: archive/gamefreak-director/raw/en/2012/03/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2012/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%92%ef%bc%93%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%92%ef%bc%93%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2012-03-01'
+    date_display: 2012.03.01
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: 今年の映画も楽しみです！！
+    raw_page: archive/gamefreak-director/raw/ja/2012/03/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:26+00:00'
+assets: []

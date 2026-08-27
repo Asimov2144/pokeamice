@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 177,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Finally at last,\n\ntomorrow will be the day!",
+      "images": [],
+      "source_html": "<p>Finally at last,<br/>\r\ntomorrow will be the day!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We spent four years for creating\n\nPokemon Black/White with great care.",
+      "images": [],
+      "source_html": "<p>We spent four years for creating<br/>\r\nPokemon Black/White with great care.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I feel it was long time and also,\n\nshort time.",
+      "images": [],
+      "source_html": "<p>I feel it was long time and also,<br/>\r\nshort time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This time, region’s image is New York.",
+      "images": [],
+      "source_html": "<p>This time, region’s image is New York.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Did you know that?",
+      "images": [],
+      "source_html": "<p>Did you know that?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Take a look for a moment for header of\n\nthis column’s back ground picture.",
+      "images": [],
+      "source_html": "<p>Take a look for a moment for header of<br/>\r\nthis column’s back ground picture.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, it’s NY!!",
+      "images": [],
+      "source_html": "<p>Yes, it’s NY!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s Brooklyn Bridge on the right.",
+      "images": [],
+      "source_html": "<p>There’s Brooklyn Bridge on the right.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve been there twice and it was stimulating fun city.",
+      "images": [],
+      "source_html": "<p>I’ve been there twice and it was stimulating fun city.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I feel nostalgic…",
+      "images": [],
+      "source_html": "<p>I feel nostalgic…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Entire GameFreak put full effort on this project.\n\nWe are proudly present our game.",
+      "images": [],
+      "source_html": "<p>Entire GameFreak put full effort on this project.<br/>\r\nWe are proudly present our game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I hope you enjoy this game.",
+      "images": [],
+      "source_html": "<p>I hope you enjoy this game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+id: masuda-158
+number: 158
+month: 2010-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2010/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no158
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no158
+    permalink_validated: true
+    date: '2010-01-13'
+    date_display: 01.13.2010
+    categories:
+    - Diary
+    lead: I write this column in the train on the way to the office using cellular
+      phone. There are many people doing many activities in the train.
+    raw_page: archive/gamefreak-director/raw/en/2010/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2010/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%95%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%95%ef%bc%98%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2010-01-13'
+    date_display: 2010.01.13
+    categories:
+    - 日記
+    lead: このコラムはいつも通勤中に携帯電話で書いているんですが、 電車に乗っていると、人の行動が気になります。
+    raw_page: archive/gamefreak-director/raw/ja/2010/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:21+00:00'
+assets: []

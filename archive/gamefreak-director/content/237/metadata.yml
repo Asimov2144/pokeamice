@@ -1,0 +1,44 @@
+id: masuda-237
+number: 237
+month: 2013-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2013/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-237
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-237
+    permalink_validated: true
+    date: '2013-06-18'
+    date_display: 06.18.2013
+    categories:
+    - About creation
+    - Pokemon
+    lead: For this game we spent lots of time and on localization from Japanese to
+      many other languages. Thanks to our collaboration with various teams and companies
+      over a period of seven years, we managed to achieve our dream.
+    raw_page: archive/gamefreak-director/raw/en/2013/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2013/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%93%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2013-06-18'
+    date_display: 2013.06.18
+    categories:
+    - ポケモン
+    lead: 日本語から各国語へ翻訳するローカライズという作業。 そのローカライズの方法、組織の組み立て直し。 関係各社さん、ほか多くの方々の協力を得て、 約７年をかけて、ついに達成することができました。
+    raw_page: archive/gamefreak-director/raw/ja/2013/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets: []

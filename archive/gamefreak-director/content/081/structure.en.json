@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 81,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "It’s Masuda reporting from New York.",
+      "images": [],
+      "source_html": "<p>It’s Masuda reporting from New York.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As you all know, the US version\n\nof Pokemon Diamond & Pearl will be launched\n\non April 22nd (US time; 23rd in Japan)!",
+      "images": [],
+      "source_html": "<p>As you all know, the US version<br/>\r\nof Pokemon Diamond &amp; Pearl will be launched<br/>\r\non April 22nd (US time; 23rd in Japan)!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "An event to celebrate the release is scheduled\n\nto be held on that day in Rockefeller Center\n\nin Manhattan, New York! How exciting!\n\nI’m here in New York to do interviews with\n\nmedia and to appear on that event (a Q & A\n\nsession on stage and a signing session).",
+      "images": [],
+      "source_html": "<p>An event to celebrate the release is scheduled<br/>\r\nto be held on that day in Rockefeller Center<br/>\r\nin Manhattan, New York! How exciting!<br/>\r\nI’m here in New York to do interviews with<br/>\r\nmedia and to appear on that event (a Q &amp; A<br/>\r\nsession on stage and a signing session).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes! At last! The US version will be launched!\n\nWith this release, American and Japanese\n\npokemon fans, who have never met with each\n\nother, will be able to trade Pokemon through\n\nGTS!\n\nAnd, when you trade!!\n\nThe GTS (Geonet) will switch to the Global Map mode!",
+      "images": [],
+      "source_html": "<p>Yes! At last! The US version will be launched!<br/>\r\nWith this release, American and Japanese<br/>\r\npokemon fans, who have never met with each<br/>\r\nother, will be able to trade Pokemon through<br/>\r\nGTS!<br/>\r\nAnd, when you trade!!<br/>\r\nThe GTS (Geonet) will switch to the Global Map mode!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And when you give Pokemon a mail!\n\nIts content will be automatically translated.\n\nSo, for instance, when you write a mail,\n\nsay, “PIKACHU SUKI” on the Japanese version\n\nof Pokemon Diamond, will be translated as\n\n“I LOVE PIKACHU!’ and delivered to a US version user.\n\nAnd vice versa.\n\nAwesome, isn’t it?!",
+      "images": [],
+      "source_html": "<p>And when you give Pokemon a mail!<br/>\r\nIts content will be automatically translated.<br/>\r\nSo, for instance, when you write a mail,<br/>\r\nsay, “PIKACHU SUKI” on the Japanese version<br/>\r\nof Pokemon Diamond, will be translated as<br/>\r\n“I LOVE PIKACHU!’ and delivered to a US version user.<br/>\r\nAnd vice versa.<br/>\r\nAwesome, isn’t it?!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The feature of creating sentences in mail and\n\nin the Union Room is designed for use not in Japan\n\nbut in Europe, where many languages are used\n\nsimultaneously.\n\nYes. Because we included a feature to create\n\na sentence from one or two words, automatic translation\n\nbetween multiple languages has become readily\n\navailable for people all over the world.\n\nTherefore, I’m afraid exchanging mail between\n\nJapanese people may not be as easy as\n\nin the previous games.\n\nBut, our ingenious staff created this feature\n\nwith conviction, and are proud of it, because\n\n‘instantaneous worldwide translation is now\n\npossible!’\n\nWhat a great job they have done!",
+      "images": [],
+      "source_html": "<p>The feature of creating sentences in mail and<br/>\r\nin the Union Room is designed for use not in Japan<br/>\r\nbut in Europe, where many languages are used<br/>\r\nsimultaneously.<br/>\r\nYes. Because we included a feature to create<br/>\r\na sentence from one or two words, automatic translation<br/>\r\nbetween multiple languages has become readily<br/>\r\navailable for people all over the world.<br/>\r\nTherefore, I’m afraid exchanging mail between<br/>\r\nJapanese people may not be as easy as<br/>\r\nin the previous games.<br/>\r\nBut, our ingenious staff created this feature<br/>\r\nwith conviction, and are proud of it, because<br/>\r\n‘instantaneous worldwide translation is now<br/>\r\npossible!’<br/>\r\nWhat a great job they have done!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please try the GTS to trade Pokemon!\n\nAnd try sending a mail too.\n\nAnd, don’t forget to collect points on the\n\nGeonet globe!",
+      "images": [],
+      "source_html": "<p>Please try the GTS to trade Pokemon!<br/>\r\nAnd try sending a mail too.<br/>\r\nAnd, don’t forget to collect points on the<br/>\r\nGeonet globe!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you use these functions, Pokemon Diamond &\n\nPearl will give you a new gaming experience.",
+      "images": [],
+      "source_html": "<p>When you use these functions, Pokemon Diamond &amp;<br/>\r\nPearl will give you a new gaming experience.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+id: masuda-026
+number: 26
+month: 2004-12
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no26
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no26
+    permalink_validated: true
+    date: '2004-12-13'
+    date_display: 12.13.2004
+    categories:
+    - Diary
+    lead: Last week we at Game Freak had an end-of-the-year party. Every year, I find
+      it fun to have a party where lots of friends meet and play together.
+    raw_page: archive/gamefreak-director/raw/en/2004/12/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%96%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-12-13'
+    date_display: 2004.12.13
+    categories:
+    - 日記
+    lead: 先週、ゲームフリークの忘年会が行われました。 毎年思うのですが、多くの仲間が集まって行う遊びは楽しい。
+    raw_page: archive/gamefreak-director/raw/ja/2004/12/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:09+00:00'
+assets: []

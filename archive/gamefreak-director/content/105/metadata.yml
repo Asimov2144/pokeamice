@@ -1,0 +1,68 @@
+id: masuda-105
+number: 105
+month: 2007-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no105
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no105
+    permalink_validated: true
+    date: '2007-09-27'
+    date_display: 09.27.2007
+    categories:
+    - Diary
+    lead: 'No. 103 category: information'
+    raw_page: archive/gamefreak-director/raw/en/2007/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-09-27'
+    date_display: 2007.09.27
+    categories:
+    - 日記
+    lead: ９月２３日（日）、２４日（月）に四国の松山に行ってきました！
+    raw_page: archive/gamefreak-director/raw/ja/2007/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets:
+- id: 105-multi-105a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105a.jpg
+  local_path: archive/gamefreak-director/assets/original/105/multi/105a.jpg
+  sha256: 31e7039db0abbec6e8b236c1d0d28a8615abe374b6686073ed453848ca146e46
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 105-multi-105b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105b.jpg
+  local_path: archive/gamefreak-director/assets/original/105/multi/105b.jpg
+  sha256: 41588f6df3fdac7b82fde86c97c3ba0cd01c679a68aef05f4d8c411e4280701a
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 105-multi-105c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105c.jpg
+  local_path: archive/gamefreak-director/assets/original/105/multi/105c.jpg
+  sha256: df404f3117c6a9e5961de8abe8e6d8fa81537dabb19f90f0dd0648124e18e2ee
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

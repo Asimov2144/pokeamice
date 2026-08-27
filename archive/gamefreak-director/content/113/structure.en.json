@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 113,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello there!\n\nThis is Masuda in Las Vegas.",
+      "images": [],
+      "source_html": "<p>Hello there!<br/>\r\nThis is Masuda in Las Vegas.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In Pokemon Diamond and Pearl.\n\nWhen you communicate in the Union Room with foreign version,\n\nyour greeting word which come out first will be\n\ntranslated! Such as “ciao” and “bonjour” !!\n\nPlease give it a try!",
+      "images": [],
+      "source_html": "<p>In Pokemon Diamond and Pearl.<br/>\r\nWhen you communicate in the Union Room with foreign version,<br/>\r\nyour greeting word which come out first will be<br/>\r\ntranslated! Such as “ciao” and “bonjour” !!<br/>\r\nPlease give it a try!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ok, let’s move on to the next subject.\n\nToday.\n\nAt 4:15AM, I’ve got a morning call…\n\nAt 5:00AM, I ate bacons, potatoes, scrambled eggs and breads, then…\n\nAt 5:30AM, a group meeting at the hotel’s entrance!!\n\nExtremely sleeeeeepy zzz…",
+      "images": [],
+      "source_html": "<p>Ok, let’s move on to the next subject.<br/>\r\nToday.<br/>\r\nAt 4:15AM, I’ve got a morning call…<br/>\r\nAt 5:00AM, I ate bacons, potatoes, scrambled eggs and breads, then…<br/>\r\nAt 5:30AM, a group meeting at the hotel’s entrance!!<br/>\r\nExtremely sleeeeeepy  zzz…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, I attended the Grand Canyon tour!!\n\nMy sleepiness was simply overwhelming…\n\nI managed to take a massive numbers of photos during\n\nthe flight and the bus trasportation to keep my drowsiness away!!\n\nIt was just impressive!!",
+      "images": [],
+      "source_html": "<p>Yes, I attended the Grand Canyon tour!!<br/>\r\nMy sleepiness was simply overwhelming…<br/>\r\nI managed to take a massive numbers of photos during<br/>\r\nthe flight and the bus trasportation to keep my drowsiness away!!<br/>\r\nIt was just impressive!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And finally, our private plane have landed at the Grand Canyon.",
+      "images": [],
+      "source_html": "<p>And finally, our private plane have landed at the Grand Canyon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The bus took me to the two best locations of Grand Canyon and\n\nI did enjoy the tremendous landscape!!!",
+      "images": [],
+      "source_html": "<p>The bus took me to the two best locations of Grand Canyon and<br/>\r\nI did enjoy the tremendous landscape!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Phew! It was just wonderful!\n\nIt was unexpected menace than I imagined. Dynamism!\n\nWords could not describe how great the view was.\n\nIf you have a opportunity to visit this place, please do check it out!",
+      "images": [],
+      "source_html": "<p>Phew! It was just wonderful!<br/>\r\nIt was unexpected menace than I imagined. Dynamism!<br/>\r\nWords could not describe how great the view was.<br/>\r\nIf you have a opportunity to visit this place, please do check it out!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Realization of earth’s greatness and liveness.\n\nI felt the power of our planet earth.",
+      "images": [],
+      "source_html": "<p>Realization of earth’s greatness and liveness.<br/>\r\nI felt the power of our planet earth.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Just superb!!!!",
+      "images": [],
+      "source_html": "<p>Just superb!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*Currently, it’s 7PM in Japan, and 2AM here.\n\nWhine! Just sleepy….",
+      "images": [],
+      "source_html": "<p>*Currently, it’s 7PM in Japan, and 2AM here.<br/>\r\nWhine! Just sleepy….</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Good night everyone…",
+      "images": [],
+      "source_html": "<p>Good night everyone…</p>"
+    }
+  ]
+}

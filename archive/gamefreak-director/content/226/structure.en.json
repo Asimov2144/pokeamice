@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 226,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "New challenge!!",
+      "images": [],
+      "source_html": "<p>New challenge!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We have been developing a system, which would allow us to make a new,\n\ngreat games, without loosing a creative freedom.",
+      "images": [],
+      "source_html": "<p>We have been developing a system, which would allow us to make a new,<br/>\r\ngreat games, without loosing a creative freedom.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even so, its pretty hard to come up with something new.",
+      "images": [],
+      "source_html": "<p>Even so, its pretty hard to come up with something new.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then,\n\nin a year 2009,\n\nWe rearranged the whole structure again.\n\nComing up with developing system, which initially requires only three people,\n\nand concentrates on practical part instead of complex proposals.",
+      "images": [],
+      "source_html": "<p>Then,<br/>\r\nin a year 2009,<br/>\r\nWe rearranged the whole structure again.<br/>\r\nComing up with developing system, which initially requires only three people,<br/>\r\nand concentrates on practical part instead of complex proposals.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why we gave up on a traditional methods?\n\nHow interesting it would be, if dodgeball or basketball games,\n\nwere just proposals submitted on paper? Not really.",
+      "images": [],
+      "source_html": "<p>Why we gave up on a traditional methods?<br/>\r\nHow interesting it would be, if dodgeball or basketball games,<br/>\r\nwere just proposals submitted on paper? Not really.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We concluded, that it is much better, to have an opportunity to play and\n\nimprove an ideas in practice, from the very beginning.\n\nIt improves potential,? and creative opportunities.",
+      "images": [],
+      "source_html": "<p>We concluded, that it is much better, to have an opportunity to play and<br/>\r\nimprove an ideas in practice, from the very beginning.<br/>\r\nIt improves potential,? and creative opportunities.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Since then, GameFreak has been working in this, new unique style.",
+      "images": [],
+      "source_html": "<p>Since then, GameFreak has been working in this, new unique style.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And in a year 2012,\n\nwe will announce a new software.\n\nIt is coming!\n\nA new game from GameFreak! Other than Pokémon!\n\nEveryone, please wait !!!",
+      "images": [],
+      "source_html": "<p>And in a year 2012,<br/>\r\nwe will announce a new software.<br/>\r\nIt is coming!<br/>\r\nA new game from GameFreak! Other than Pokémon!<br/>\r\nEveryone, please wait !!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*This software can be downloaded only for 3DS, Japanese version.",
+      "images": [],
+      "source_html": "<p>*This software can be downloaded only for 3DS, Japanese version.</p>"
+    }
+  ]
+}

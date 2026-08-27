@@ -1,0 +1,61 @@
+id: masuda-211
+number: 211
+month: 2011-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-211
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-211
+    permalink_validated: true
+    date: '2011-09-22'
+    date_display: 09.22.2011
+    categories:
+    - Music
+    - Pokemon
+    lead: On Monday September 19th, I was in Nagoya whole day.
+    raw_page: archive/gamefreak-director/raw/en/2011/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-09-22'
+    date_display: 2011.09.22
+    categories:
+    - ポケモン
+    - 音楽
+    lead: ９月１９日（月）１日中、名古屋にいました。
+    raw_page: archive/gamefreak-director/raw/ja/2011/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:26+00:00'
+assets:
+- id: 211-multi-211a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/211a.jpg
+  local_path: archive/gamefreak-director/assets/original/211/multi/211a.jpg
+  sha256: 134ab6f314667abe724003194b9f21d012b5f33fe66348596b3c8e5c7940737c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 211-multi-211b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/09/211b.jpg
+  local_path: archive/gamefreak-director/assets/original/211/multi/211b.jpg
+  sha256: 602f714ab514bddbcf43d6a51624855aa56e64cad9cdc3fcde69b9cc48998003
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

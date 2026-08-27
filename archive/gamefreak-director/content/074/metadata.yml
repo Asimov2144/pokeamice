@@ -1,0 +1,47 @@
+id: masuda-074
+number: 74
+month: 2007-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-74
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-74
+    permalink_validated: true
+    date: '2007-02-01'
+    date_display: 02.01.2007
+    categories:
+    - About creation
+    - Pokemon
+    lead: This was the first time for us to develop for the DS, and we wondered if
+      we should change the traditional control system. The control system for the
+      the Game Boy Advance, for which we have been developing, consisted of the Direction
+      Button and the A, B, L, R buttons.
+    raw_page: archive/gamefreak-director/raw/en/2007/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%97%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-02-01'
+    date_display: 2007.02.01
+    categories:
+    - ものづくりについて
+    - ポケモン
+    lead: 今回、初めてDSで開発することになったわけですが、 今までのゲームボーイアドバンスというハードでは、 十字ボタン、A、B、L、Rボタンという構成でした。
+      その操作系をどうやって変化させるか、もしくは変化させないか。
+    raw_page: archive/gamefreak-director/raw/ja/2007/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:14+00:00'
+assets: []

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "article": 117,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I’ve been wanted to ride that train for a long time… and…\n\nI finally made it!!!",
+      "images": [],
+      "source_html": "<p>I’ve been wanted to ride that train for a long time… and…<br/>\r\nI finally made it!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The finest train which Japan proud to the world,\n\nbullet train(shinkansen) “N700″!!",
+      "images": [],
+      "source_html": "<p>The finest train which Japan proud to the world,<br/>\r\nbullet train(shinkansen) “N700″!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I took a bullet train “700″ for many times,\n\nbut I never had a chance to ride on the “N700″.\n\nMy dream became into reality!",
+      "images": [],
+      "source_html": "<p>I took a bullet train “700″ for many times,<br/>\r\nbut I never had a chance to ride on the “N700″.<br/>\r\nMy dream became into reality!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So exciting!!\n\nTaking a pictures with my cell phone!",
+      "images": [],
+      "source_html": "<p>So exciting!!<br/>\r\nTaking a pictures with my cell phone!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"117-en-117a2\" %} {% image id=\"117-en-117b2\" %}",
+      "images": [
+        "117-en-117a2",
+        "117-en-117b2"
+      ],
+      "source_html": "<p><img alt=\"117a2.jpg\" src=\"/blog/dir_english/wp-content/uploads/2007/11/117a2.jpg\"/> <img alt=\"117b2.jpg\" src=\"/blog/dir_english/wp-content/uploads/2007/11/117b2.jpg\"> <img alt=\"117c2.jpg\" src=\"/blog/dir_english/wp-content/uploads/2007/11/117c2.jpg\"/></img></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"117-en-117d2\" %}",
+      "images": [
+        "117-en-117d2"
+      ],
+      "source_html": "<p><img alt=\"117d2.jpg\" src=\"/blog/dir_english/wp-content/uploads/2007/11/117d2.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, the reason why I had a chance to ride on the “N700″ is,\n\nbecause I visited Nintendo for business trip.\n\nTherefore the bullet train I took was,\n\nfrom Kyoto bound for Tokyo.",
+      "images": [],
+      "source_html": "<p>Oh, the reason why I had a chance to ride on the “N700″ is,<br/>\r\nbecause I visited Nintendo for business trip.<br/>\r\nTherefore the bullet train I took was,<br/>\r\nfrom Kyoto bound for Tokyo.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It seems like the last train of the day always will be “N700″…\n\nOk, let’s take this last train everytime I have a business tirp to Kyoto.\n\nHmm… probably not.",
+      "images": [],
+      "source_html": "<p>It seems like the last train of the day always will be “N700″…<br/>\r\nOk, let’s take this last train everytime I have a business tirp to Kyoto.<br/>\r\nHmm… probably not.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, it was impressive.\n\nEspecially, the conception of not reducing velocity by\n\ninclining car body.\n\nThis idea may came up especially in Japan,\n\nbecause we have a great numbers of curves. Most impressive!",
+      "images": [],
+      "source_html": "<p>Well, it was impressive.<br/>\r\nEspecially, the conception of not reducing velocity by<br/>\r\ninclining car body.<br/>\r\nThis idea may came up especially in Japan,<br/>\r\nbecause we have a great numbers of curves. Most impressive!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was super cool!",
+      "images": [],
+      "source_html": "<p>It was super cool!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For more details, please check the following website\n\nabout the bullet train “N700″!!",
+      "images": [],
+      "source_html": "<p>For more details, please check the following website<br/>\r\nabout the bullet train “N700″!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://n700.jp/](http://n700.jp/)",
+      "images": [],
+      "source_html": "<p><a href=\"http://n700.jp/\" target=\"_blank\">http://n700.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

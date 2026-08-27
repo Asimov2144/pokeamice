@@ -30,6 +30,12 @@ codekit-config.json
 weibo
 DREAM 2008.12
 archive/raw-images
+# Game Freak archive binaries are local preservation material. Keep the
+# reproducible manifests, normalized content, translations, and reports in Git.
+archive/gamefreak-director/raw/
+archive/gamefreak-director/assets/original/
+archive/gamefreak-director/warc/
+archive/gamefreak-director/reports/first-run-obsolete-assets/
 migration/inbox
 migration/import-wizard
 

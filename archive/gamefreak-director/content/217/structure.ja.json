@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 217,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさま！！",
+      "images": [],
+      "source_html": "<p>みなさま！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今年一年も大変お世話になりました。",
+      "images": [],
+      "source_html": "<p>今年一年も大変お世話になりました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いま、ポケモンセンタートウキョーのFacebook公式ページが期間限定でオープンしていますが、",
+      "images": [],
+      "source_html": "<p>いま、ポケモンセンタートウキョーのFacebook公式ページが期間限定でオープンしていますが、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ここで、マスダがポケモンセンターについて熱く語りました（笑）。\n\n[http://www.facebook.com/pokemoncentertokyo.official](http://www.facebook.com/pokemoncentertokyo.official)",
+      "images": [],
+      "source_html": "<p>ここで、マスダがポケモンセンターについて熱く語りました（笑）。<br/>\n<a href=\"http://www.facebook.com/pokemoncentertokyo.official\" target=\"_blank\">http://www.facebook.com/pokemoncentertokyo.official</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、読んでみてください！！",
+      "images": [],
+      "source_html": "<p>ぜひ、読んでみてください！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、公式ページ自体にも「いいね！」をお忘れなく！！",
+      "images": [],
+      "source_html": "<p>あ、公式ページ自体にも「いいね！」をお忘れなく！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ピカチュウグッズが当たります！！\n\n[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)",
+      "images": [],
+      "source_html": "<p>ピカチュウグッズが当たります！！<br/>\n<a href=\"http://www.pokemon.co.jp/info/2011/11/111107_p01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2011/11/111107_p01.html</a></p>"
+    }
+  ]
+}

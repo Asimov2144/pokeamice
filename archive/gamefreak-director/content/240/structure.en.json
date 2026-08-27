@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "article": 240,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, Wednesday July 31st; 10:00AM.\n\nAt this time, for the first time, Game Freak published its own game.",
+      "images": [],
+      "source_html": "<p>Today, Wednesday July 31st; 10:00AM.<br/>\r\nAt this time, for the first time, Game Freak published its own game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "‘Solitiba’.",
+      "images": [],
+      "source_html": "<p>‘Solitiba’.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s a new kind of mix of solitaire and horse racing.",
+      "images": [],
+      "source_html": "<p>It’s a new kind of mix of solitaire and horse racing.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game isn’t an action game, or a simulation game.",
+      "images": [],
+      "source_html": "<p>The game isn’t an action game, or a simulation game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You play a round of solitaire, and the results are reflected in the following horse race.\n\nIf your round of solitaire goes well, your horse will gallop skillfully.",
+      "images": [],
+      "source_html": "<p>You play a round of solitaire, and the results are reflected in the following horse race.<br/>\r\nIf your round of solitaire goes well, your horse will gallop skillfully.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game of solitaire is well known for being an open-ended sort of game to pass the time.\n\nBut in ‘Solitiba’, there’s a definite objective. This game is based on a new type of solitaire.",
+      "images": [],
+      "source_html": "<p>The game of solitaire is well known for being an open-ended sort of game to pass the time.<br/>\r\nBut in ‘Solitiba’, there’s a definite objective. This game is based on a new type of solitaire.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "A strain developed by Game Freak.",
+      "images": [],
+      "source_html": "<p>A strain developed by Game Freak.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please give the game a try!",
+      "images": [],
+      "source_html": "<p>Please give the game a try!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Official Home Page:\n\n[https://www.gamefreak.co.jp/solitiba/index.html](https://www.gamefreak.co.jp/solitiba/index.html)",
+      "images": [],
+      "source_html": "<p>Official Home Page:<br/>\n<a href=\"https://www.gamefreak.co.jp/solitiba/index.html\" target=\"_new\">https://www.gamefreak.co.jp/solitiba/index.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Promotion Video:\n\n[http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be](http://www.youtube.com/watch?v=6Gr6P6qYflA&feature=youtu.be)",
+      "images": [],
+      "source_html": "<p>Promotion Video:<br/>\n<a href=\"http://www.youtube.com/watch?v=6Gr6P6qYflA&amp;feature=youtu.be\" target=\"_new\">http://www.youtube.com/watch?v=6Gr6P6qYflA&amp;feature=youtu.be</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*This game is playable only for Japanese 3DS hardware.",
+      "images": [],
+      "source_html": "<p>*This game is playable only for Japanese 3DS hardware.</p>"
+    },
+    {
+      "type": "spacer"
+    }
+  ]
+}

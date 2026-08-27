@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 183,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "DSソフト史上最速！！！！\n\n[http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf](http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf)",
+      "images": [],
+      "source_html": "<p>DSソフト史上最速！！！！<br/>\n<a href=\"http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf\" target=\"_blank\">http://www.pokemon.co.jp/corporate/press/objects/pdf/poke_110112.pdf</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、嬉しいです！\n\nしかも、今日は偶然にもマスダの誕生日！\n\n本当に多くの方々に遊んで頂けて幸せです。",
+      "images": [],
+      "source_html": "<p>いやー、嬉しいです！<br/>\r\nしかも、今日は偶然にもマスダの誕生日！<br/>\r\n本当に多くの方々に遊んで頂けて幸せです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "朝、ポケモンをプレイしていてポケモンセンターで「おめでとう！」と言われ、\n\n友達や親からも「おめでとう！」メールが届き、\n\nスタッフからはプレゼントをもらい、、、",
+      "images": [],
+      "source_html": "<p>朝、ポケモンをプレイしていてポケモンセンターで「おめでとう！」と言われ、<br/>\r\n友達や親からも「おめでとう！」メールが届き、<br/>\r\nスタッフからはプレゼントをもらい、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "本当に幸せです！！",
+      "images": [],
+      "source_html": "<p>本当に幸せです！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今日このプレスリリースを発表されたことも嬉しい！！！！",
+      "images": [],
+      "source_html": "<p>今日このプレスリリースを発表されたことも嬉しい！！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ここから１年も、エネルギッシュに行動、実行していこうと思ってます！",
+      "images": [],
+      "source_html": "<p>ここから１年も、エネルギッシュに行動、実行していこうと思ってます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

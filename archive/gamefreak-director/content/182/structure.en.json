@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 182,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Zoroark comes to Game Freak!",
+      "images": [],
+      "source_html": "<p>Zoroark comes to Game Freak!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On coming Sunday January 9th,\n\nZoroark comes to Game Freak on TV program\n\n“Poke’mon Smash!”!\n\n[http://www.tv-tokyo.co.jp/anime/pokemon_smash/](http://www.tv-tokyo.co.jp/anime/pokemon_smash/)",
+      "images": [],
+      "source_html": "<p>On coming Sunday January 9th,<br/>\r\nZoroark comes to Game Freak on TV program<br/>\r\n“Poke’mon Smash!”!<br/>\n<a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_smash/\" target=\"_blank\">http://www.tv-tokyo.co.jp/anime/pokemon_smash/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ll have a special appearance, too!",
+      "images": [],
+      "source_html": "<p>I’ll have a special appearance, too!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Don’t miss it!!",
+      "images": [],
+      "source_html": "<p>Don’t miss it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*TV program “Poke’mon Smash!” will be aired\n\nonly in Japan.",
+      "images": [],
+      "source_html": "<p>*TV program “Poke’mon Smash!” will be aired<br/>\r\nonly in Japan.</p>"
+    }
+  ]
+}

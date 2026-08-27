@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 9,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "海外に行って来ました。",
+      "images": [],
+      "source_html": "<p> 海外に行って来ました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "海外に行くと、仲間から刺激的な話をたくさん聞くんですが、\n\nやっぱり、外国人の価値観って面白い。",
+      "images": [],
+      "source_html": "<p>海外に行くと、仲間から刺激的な話をたくさん聞くんですが、<br/>\nやっぱり、外国人の価値観って面白い。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "生まれた時の価値観は同じはずなのに、\n\n教育や社会、文化の違いで、\n\nいつの間にか、価値観が変化していく。\n\nでも、世界でこんなに違うのって、ほんと面白いです。",
+      "images": [],
+      "source_html": "<p>生まれた時の価値観は同じはずなのに、<br/>\n教育や社会、文化の違いで、<br/>\nいつの間にか、価値観が変化していく。<br/>\nでも、世界でこんなに違うのって、ほんと面白いです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲームでも、",
+      "images": [],
+      "source_html": "<p>ゲームでも、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「何を大事にしている世界か？」",
+      "images": [],
+      "source_html": "<p>「何を大事にしている世界か？」</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このことが違うことで、発想が変わりますよね。",
+      "images": [],
+      "source_html": "<p>このことが違うことで、発想が変わりますよね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "価値観を変えることで新しいアイディアや遊び、仕組みがでてくる。\n\nいつも、そんなことを感じながら海外に行ってます。",
+      "images": [],
+      "source_html": "<p>価値観を変えることで新しいアイディアや遊び、仕組みがでてくる。<br/>\nいつも、そんなことを感じながら海外に行ってます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "、、、でも、、、\n\n逆に考えると、「日本人の価値観ってほんと面白い」と思います。",
+      "images": [],
+      "source_html": "<p>、、、でも、、、<br/>\n逆に考えると、「日本人の価値観ってほんと面白い」と思います。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

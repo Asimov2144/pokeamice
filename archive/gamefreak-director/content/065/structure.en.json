@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 65,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "A happy new year.\n\nThis year too I’m looking forward to your\n\nsupport and encouragement.",
+      "images": [],
+      "source_html": "<p>A happy new year.<br/>\r\nThis year too I’m looking forward to your<br/>\r\nsupport and encouragement.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In 2007 too, we will keep on challenging\n\nmany new things!",
+      "images": [],
+      "source_html": "<p>In 2007 too, we will keep on challenging<br/>\r\nmany new things!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And,\n\nI hope Game Freak will become a base station\n\nfrom which information about game development\n\nwill be sent out.\n\nI will try to do more to make people think\n\n“I want to work in the game industry!!”",
+      "images": [],
+      "source_html": "<p>And,<br/>\r\nI hope Game Freak will become a base station<br/>\r\nfrom which information about game development<br/>\r\nwill be sent out.<br/>\r\nI will try to do more to make people think<br/>\r\n“I want to work in the game industry!!”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "About this column…\n\nIt seems it’s about time to write on various\n\ntopics related to Pokemon Diamond and Pearl.",
+      "images": [],
+      "source_html": "<p>About this column…<br/>\r\nIt seems it’s about time to write on various<br/>\r\ntopics related to Pokemon Diamond and Pearl.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please keep on visiting this page this year!\n\nI’m looking forward to seeing you.",
+      "images": [],
+      "source_html": "<p>Please keep on visiting this page this year!<br/>\r\nI’m looking forward to seeing you.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

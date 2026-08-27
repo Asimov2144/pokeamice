@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 87,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "At Tokyo National Museum, the “Leonardo da Vinci”\n\nspecial exibition is being held.\n\nDid you go there?",
+      "images": [],
+      "source_html": "<p>At Tokyo National Museum, the “Leonardo da Vinci”<br/>\r\nspecial exibition is being held.<br/>\r\nDid you go there?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I found not only his paintings but his philosophy\n\nand thought very interesting.\n\nHe must have been passionate about his research,\n\nmust have been inquisitive and full of curiosity,\n\nand must have been a master of inventions and\n\ndiscoveries. I got such impressions.",
+      "images": [],
+      "source_html": "<p>I found not only his paintings but his philosophy<br/>\r\nand thought very interesting.<br/>\r\nHe must have been passionate about his research,<br/>\r\nmust have been inquisitive and full of curiosity,<br/>\r\nand must have been a master of inventions and<br/>\r\ndiscoveries. I got such impressions.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you look at something that’s a result of a\n\nhighly sophisticated thought, you feel it’s awkward\n\nto say that it is of high quality because it is\n\nso artisitic.",
+      "images": [],
+      "source_html": "<p>When you look at something that’s a result of a<br/>\r\nhighly sophisticated thought, you feel it’s awkward<br/>\r\nto say that it is of high quality because it is<br/>\r\nso artisitic.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Although the number of pictures he painted before\n\nhe died is small, his knowledge, techniques, and\n\nideas are truly overwhelming.\n\nIn ‘Annunciation,’ you can sense the\n\nother-worldness only by looking at the trees.\n\nAlso, in a different picture, it’s amazing that he\n\ncarefully studied the proportions of the body of\n\na horse or the human face in such detail, even\n\nthough it might not have occurred to him if he\n\nhadn’t built a huge construction.\n\nThe invention of aerial perspective is amazing too.",
+      "images": [],
+      "source_html": "<p>Although the number of pictures he painted before<br/>\r\nhe died is small, his knowledge, techniques, and<br/>\r\nideas are truly overwhelming.<br/>\r\nIn ‘Annunciation,’ you can sense the<br/>\r\nother-worldness only by looking at the trees.<br/>\r\nAlso, in a different picture, it’s amazing that he<br/>\r\ncarefully studied the proportions of the body of<br/>\r\na horse or the human face in such detail, even<br/>\r\nthough it might not have occurred to him if he<br/>\r\nhadn’t built a huge construction.<br/>\r\nThe invention of aerial perspective is amazing too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How many times have I used the word ‘amazing’?\n\nHe’s so amazing that you can make up such a question!",
+      "images": [],
+      "source_html": "<p>How many times have I used the word ‘amazing’?<br/>\r\nHe’s so amazing that you can make up such a question!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "After I visited the exhibition, my fixed ideas\n\nwere destroyed, and also my sense of value was\n\nsuspended.\n\nIn many ways I received a pleasing sense of shock.",
+      "images": [],
+      "source_html": "<p>After I visited the exhibition, my fixed ideas<br/>\r\nwere destroyed, and also my sense of value was<br/>\r\nsuspended.<br/>\r\nIn many ways I received a pleasing sense of shock.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The exhibition ends this weekend on June 17th\n\n(Sun). If you haven’t been there, hurry!",
+      "images": [],
+      "source_html": "<p>The exhibition ends this weekend on June 17th<br/>\r\n(Sun). If you haven’t been there, hurry!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

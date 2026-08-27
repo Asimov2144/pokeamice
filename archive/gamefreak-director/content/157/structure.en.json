@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 157,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today is my birthday!",
+      "images": [],
+      "source_html": "<p>Today is my birthday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And I would like to talk about\n\nwhat kind of timing does an idea comes up.",
+      "images": [],
+      "source_html": "<p>And I would like to talk about<br/>\r\nwhat kind of timing does an idea comes up.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Hello, Idea”",
+      "images": [],
+      "source_html": "<p>“Hello, Idea”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is a TV commercial of Frisk.\n\nHave you seen it?",
+      "images": [],
+      "source_html": "<p>This is a TV commercial of Frisk.<br/>\r\nHave you seen it?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s very fine commercial and\n\nI love it very much.",
+      "images": [],
+      "source_html": "<p>It’s very fine commercial and<br/>\r\nI love it very much.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you need ideas, where is the place\n\nyou get ideas?",
+      "images": [],
+      "source_html": "<p>When you need ideas, where is the place<br/>\r\nyou get ideas?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Mine is…",
+      "images": [],
+      "source_html": "<p>Mine is…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the train… 30%\n\nIn the bath tub… 25%\n\nMeeting room… 15%\n\nIn the bed… 10%\n\nWhile e-mailing… 9%\n\nWhile walking… 5%\n\nWhile net surfing… 3%\n\nOn the plane… 2%\n\nIn the bath roomﾂ… 1%\n\nAt the air port… 0%",
+      "images": [],
+      "source_html": "<p>In the train… 30%<br/>\r\nIn the bath tub… 25%<br/>\r\nMeeting room… 15%<br/>\r\nIn the bed… 10%<br/>\r\nWhile e-mailing… 9%<br/>\r\nWhile walking… 5%<br/>\r\nWhile net surfing… 3%<br/>\r\nOn the plane… 2%<br/>\r\nIn the bath roomﾂ… 1%<br/>\r\nAt the air port… 0%</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Surprisingly enough, some ideas come up\n\nwhile we’re having a meeting.\n\nSince creation is our trade,\n\nthis kind of scene can be seen in Game Freak.",
+      "images": [],
+      "source_html": "<p>Surprisingly enough, some ideas come up<br/>\r\nwhile we’re having a meeting.<br/>\r\nSince creation is our trade,<br/>\r\nthis kind of scene can be seen in Game Freak.</p>"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 50,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Don’t you think material things are overwhelming?",
+      "images": [],
+      "source_html": "<p>Don’t you think material things are overwhelming?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This world is filled with them.",
+      "images": [],
+      "source_html": "<p>This world is filled with them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Why do people buy things?\n\nWhy are we so obsessed with them?",
+      "images": [],
+      "source_html": "<p>Why do people buy things?<br/>\r\nWhy are we so obsessed with them?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s strange.",
+      "images": [],
+      "source_html": "<p>It’s strange.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our appetite for possession is complex.\n\nSome people might want to brag about it,\n\nand others just like to own it.",
+      "images": [],
+      "source_html": "<p>Our appetite for possession is complex.<br/>\r\nSome people might want to brag about it,<br/>\r\nand others just like to own it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You don’t feel much desire for possession\n\nif it’s a refrigerator or a washing machine.\n\nBut when it attains some (in a broad sense)\n\nindividual character, you recognize a new value\n\nand want to possess it.",
+      "images": [],
+      "source_html": "<p>You don’t feel much desire for possession<br/>\r\nif it’s a refrigerator or a washing machine.<br/>\r\nBut when it attains some (in a broad sense)<br/>\r\nindividual character, you recognize a new value<br/>\r\nand want to possess it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The size and function of a product first attract us.\n\nIf its design is cool, we want it more.\n\nIt becomes even more attractive if it has some\n\nsense of character (or should I say, a brand-image).",
+      "images": [],
+      "source_html": "<p>The size and function of a product first attract us.<br/>\r\nIf its design is cool, we want it more.<br/>\r\nIt becomes even more attractive if it has some<br/>\r\nsense of character (or should I say, a brand-image).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With a special something, a product becomes\n\nmore attractive and many people begin to\n\nlust after it.\n\nIn other cases, by adding something extra to\n\nan existing category of products, only a specific\n\ngroup of people begin to feel like owning them.",
+      "images": [],
+      "source_html": "<p>With a special something, a product becomes<br/>\r\nmore attractive and many people begin to<br/>\r\nlust after it.<br/>\r\nIn other cases, by adding something extra to<br/>\r\nan existing category of products, only a specific<br/>\r\ngroup of people begin to feel like owning them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Find something you had no particular interest in,\n\nand ask yourself what something extra would make\n\nit attractive for you?",
+      "images": [],
+      "source_html": "<p>Find something you had no particular interest in,<br/>\r\nand ask yourself what something extra would make<br/>\r\nit attractive for you?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When you ask yourself such a question,\n\nyou may come up with many new and fun ideas.",
+      "images": [],
+      "source_html": "<p>When you ask yourself such a question,<br/>\r\nyou may come up with many new and fun ideas.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

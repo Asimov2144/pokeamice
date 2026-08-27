@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 15,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Well, Kyushu (the southernmost of Japan’s four major islands)\n\nis a great place.",
+      "images": [],
+      "source_html": "<p>Well, Kyushu (the southernmost of Japan’s four major islands)<br/>\r\nis a great place.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "My father and mother both are from Kurate county\n\nin Fukuoka (a prefecture in Kyushu),\n\nso I have many relatives living in Kyushu.",
+      "images": [],
+      "source_html": "<p>My father and mother both are from Kurate county<br/>\r\nin Fukuoka (a prefecture in Kyushu),<br/>\r\nso I have many relatives living in Kyushu.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I was a kid, my family went back to Kyushu during\n\nsummer vacation.\n\nWe would dive into the sea and catch fish\n\nwith spears, collect shellfish and crabs,\n\ngo fishing with rods, or with a net,\n\ngo to the river to catch crabs and shrimps,\n\ncatch sleeping fish in the river with hands at night,\n\nand go hunting for beetles.",
+      "images": [],
+      "source_html": "<p>When I was a kid, my family went back to Kyushu during<br/>\r\nsummer vacation.<br/>\r\nWe would dive into the sea and catch fish<br/>\r\nwith spears, collect shellfish and crabs,<br/>\r\ngo fishing with rods, or with a net,<br/>\r\ngo to the river to catch crabs and shrimps,<br/>\r\ncatch sleeping fish in the river with hands at night,<br/>\r\nand go hunting for beetles.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Now I realize all that we did was to catching something.\n\nI had a great memory of all this.",
+      "images": [],
+      "source_html": "<p>Now I realize all that we did was to catching something.<br/>\r\nI had a great memory of all this.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Kyushu has a lot of mountains and also\n\nthe sea and the rivers are very clean.\n\nSo you can find lots of wildlife there.\n\nAnd most importantly people are very friendly.\n\nThere is no place like Kyushu.",
+      "images": [],
+      "source_html": "<p>Kyushu has a lot of mountains and also<br/>\r\nthe sea and the rivers are very clean.<br/>\r\nSo you can find lots of wildlife there.<br/>\r\nAnd most importantly people are very friendly.<br/>\r\nThere is no place like Kyushu.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The Hoenn region in Pokemon Ruby, Sapphire and Emerald is\n\nmodeled after Kyushu because I wanted to recatch\n\nmy memories of summer in Kyushu.",
+      "images": [],
+      "source_html": "<p>The Hoenn region in Pokemon Ruby, Sapphire and Emerald is<br/>\r\nmodeled after Kyushu because I wanted to recatch<br/>\r\nmy memories of summer in Kyushu.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The concept of the Hoenn region is a place where\n\nPokemon and humans get along well, and also where\n\npeople can meet friends and develop relationships\n\nwith other people.\n\nWe designed the region with the importance of human\n\nrelationships and the warm heart of the Kyushu people\n\nin mind.\n\n(Ho in “Hoenn”「豊緑」means ‘rich’ and Enn means\n\n‘green’ in Japanese kanji.)",
+      "images": [],
+      "source_html": "<p>The concept of the Hoenn region is a place where<br/>\r\nPokemon and humans get along well, and also where<br/>\r\npeople can meet friends and develop relationships<br/>\r\nwith other people.<br/>\r\nWe designed the region with the importance of human<br/>\r\nrelationships and the warm heart of the Kyushu people<br/>\r\nin mind.<br/>\r\n(Ho in “Hoenn”「豊緑」means ‘rich’ and Enn means<br/>\r\n‘green’ in Japanese kanji.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The reason why the island is rotated 90 degrees counterclockwise\n\nis because we thought it brings a better playability that way.",
+      "images": [],
+      "source_html": "<p>The reason why the island is rotated 90 degrees counterclockwise<br/>\r\nis because we thought it brings a better playability that way.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "OK, Kyushu.ﾂ? I’ll visit there again.\n\nOf course, on the way I will play Pokemon Emerald.",
+      "images": [],
+      "source_html": "<p>OK, Kyushu.ﾂ? I’ll visit there again.<br/>\r\nOf course, on the way I will play Pokemon Emerald.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

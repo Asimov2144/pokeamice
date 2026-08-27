@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 162,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "真夏のような日差しの中、行ってきました！\n\n次世代ワールドホビーフェア！",
+      "images": [],
+      "source_html": "<p>真夏のような日差しの中、行ってきました！<br/>\r\n次世代ワールドホビーフェア！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲーム＆ホビー会場とグッズ会場が別れたのもあってか、\n\n去年よりも人が少ないそうだとか。\n\nそれでも、会場は大賑わい！凄い熱気！",
+      "images": [],
+      "source_html": "<p>ゲーム＆ホビー会場とグッズ会場が別れたのもあってか、<br/>\r\n去年よりも人が少ないそうだとか。<br/>\r\nそれでも、会場は大賑わい！凄い熱気！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンコーナーのステージも盛り上がってましたよ！",
+      "images": [],
+      "source_html": "<p>ポケモンコーナーのステージも盛り上がってましたよ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "等身大レシラム、ゼクロムもあってマスダ１人で興奮！",
+      "images": [],
+      "source_html": "<p>等身大レシラム、ゼクロムもあってマスダ１人で興奮！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスターブラック・ホワイトの下敷きも貰いました！これも格好いい！",
+      "images": [],
+      "source_html": "<p>ポケットモンスターブラック・ホワイトの下敷きも貰いました！これも格好いい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今年は映画もゲームもポケモンは、やります！！\n\n期待して下さい！",
+      "images": [],
+      "source_html": "<p>今年は映画もゲームもポケモンは、やります！！<br/>\r\n期待して下さい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-ja-162a\" %}\n\nポケモンとしては結構デカイ２人！",
+      "images": [
+        "162-ja-162a"
+      ],
+      "source_html": "<p><img alt=\"162a.jpg\" src=\"/blog/dir/wp-content/uploads/2010/06/162a.jpg\"/><br/>\r\nポケモンとしては結構デカイ２人！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-ja-162b\" %}\n\nゼクロムとマスダ！　こいつに乗りてぇー！",
+      "images": [
+        "162-ja-162b"
+      ],
+      "source_html": "<p><img alt=\"162b.jpg\" src=\"/blog/dir/wp-content/uploads/2010/06/162b.jpg\"/><br/>\r\nゼクロムとマスダ！　こいつに乗りてぇー！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"162-ja-162c\" %}\n\nポケモンのステージ。盛り上がりチュウ！",
+      "images": [
+        "162-ja-162c"
+      ],
+      "source_html": "<p><img alt=\"162c.jpg\" src=\"/blog/dir/wp-content/uploads/2010/06/162c.jpg\"/><br/>\r\nポケモンのステージ。盛り上がりチュウ！</p>"
+    }
+  ]
+}

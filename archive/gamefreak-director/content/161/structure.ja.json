@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 161,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "本日、日本時間午前１時００分。\n\n全世界同時広報されました。",
+      "images": [],
+      "source_html": "<p>本日、日本時間午前１時００分。<br/>\r\n全世界同時広報されました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスターブラック\n\nポケットモンスターホワイト",
+      "images": [],
+      "source_html": "<p>ポケットモンスターブラック<br/>\r\nポケットモンスターホワイト</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "日本は２０１０年９月発売予定です！！",
+      "images": [],
+      "source_html": "<p>日本は２０１０年９月発売予定です！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "本日の読売新聞朝刊にもババーンッ！と出てます！",
+      "images": [],
+      "source_html": "<p>本日の読売新聞朝刊にもババーンッ！と出てます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "パッケージポケモンは「レシラム」「ゼクロム」です。\n\nどのような活躍をするのか！？\n\n楽しみにしていてください。",
+      "images": [],
+      "source_html": "<p>パッケージポケモンは「レシラム」「ゼクロム」です。<br/>\r\nどのような活躍をするのか！？<br/>\r\n楽しみにしていてください。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このソフトでポケットモンスターは覚醒します。",
+      "images": [],
+      "source_html": "<p>このソフトでポケットモンスターは覚醒します。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "日本サイト：\n\n[http://www.pokemon-sp.jp/](http://www.pokemon-sp.jp/)",
+      "images": [],
+      "source_html": "<p>日本サイト：<br/>\n<a href=\"http://www.pokemon-sp.jp/\" target=\"_blank\">http://www.pokemon-sp.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "海外サイト：\n\n[http://www.pokemon.com/](http://www.pokemon.com/)\n\n※「SELECT　LANGUAGE」で言語を変えられます！音も格好いい！",
+      "images": [],
+      "source_html": "<p>海外サイト：<br/>\n<a href=\"http://www.pokemon.com/\" target=\"_blank\">http://www.pokemon.com/</a><br/>\r\n※「SELECT　LANGUAGE」で言語を変えられます！音も格好いい！</p>"
+    }
+  ]
+}

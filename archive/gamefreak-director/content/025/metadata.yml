@@ -1,0 +1,41 @@
+id: masuda-025
+number: 25
+month: 2004-12
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-25
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-25
+    permalink_validated: true
+    date: '2004-12-07'
+    date_display: 12.07.2004
+    categories:
+    - Diary
+    lead: During the Christmas season the city becomes prettier with the illuminations.
+    raw_page: archive/gamefreak-director/raw/en/2004/12/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/12/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-12-07'
+    date_display: 2004.12.07
+    categories:
+    - 日記
+    lead: クリスマスシーズンになると電飾が多くて綺麗ですよね。
+    raw_page: archive/gamefreak-director/raw/ja/2004/12/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:09+00:00'
+assets: []

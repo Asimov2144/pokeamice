@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "article": 122,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "This time, I’d like to write about how we address\n\noversea’s Pokemon names.",
+      "images": [],
+      "source_html": "<p>This time, I’d like to write about how we address<br/>\r\noversea’s Pokemon names.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It requires a lot of effort to name enourmous\n\nnumber of Pokemon.\n\nAddition to this, especially the naming of\n\nleading Pokemon needed to be worldwidely same,\n\nand this is, one tough work.",
+      "images": [],
+      "source_html": "<p>It requires a lot of effort to name enourmous<br/>\r\nnumber of Pokemon.<br/>\r\nAddition to this, especially the naming of<br/>\r\nleading Pokemon needed to be worldwidely same,<br/>\r\nand this is, one tough work.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For example, Pokemon’s name “DIALGA.”\n\nWe got a comments from Spanish translation team\n\nin Europe about the image of this name.\n\nTheir impressions are… alga and seaweed.\n\nTherefore, they would like to have a different\n\nname other than this.\n\nWell, they are right. Even in English, ALGA\n\nnearly means seaweed.\n\nThe image from this word might be certain…",
+      "images": [],
+      "source_html": "<p>For example, Pokemon’s name “DIALGA.”<br/>\r\nWe got a comments from Spanish translation team<br/>\r\nin Europe about the image of this name.<br/>\r\nTheir impressions are… alga and seaweed.<br/>\r\nTherefore, they would like to have a different<br/>\r\nname other than this.<br/>\r\nWell, they are right. Even in English, ALGA<br/>\r\nnearly means seaweed.<br/>\r\nThe image from this word might be certain…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But it is not good to give up easily.\n\nThis is the starting point of adjusting\n\nthe image and thought.",
+      "images": [],
+      "source_html": "<p>But it is not good to give up easily.<br/>\r\nThis is the starting point of adjusting<br/>\r\nthe image and thought.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Even the word ALGA is “alga (close to seaweed),”\n\nthe name is constructed with “DI + ALGA.”\n\nLet’s think from the Japanese origin name.",
+      "images": [],
+      "source_html": "<p>Even the word ALGA is “alga (close to seaweed),”<br/>\r\nthe name is constructed with “DI + ALGA.”<br/>\r\nLet’s think from the Japanese origin name.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then… suppose, the part of DI （pronounce “Dee”）\n\n>Does it recognized as Dee+Alga?\n\n(which means Dee + Seaweed?)\n\n>Is there any paticular meaning in DI?\n\n>Does people find out the image of seaweed instantly from this name?\n\nand so on.\n\nExchange of discussion continues with the word “ALGA.”",
+      "images": [],
+      "source_html": "<p>Then… suppose, the part of DI （pronounce “Dee”）<br/>\r\n&gt;Does it recognized as Dee+Alga?<br/>\r\n(which means Dee + Seaweed?)<br/>\r\n&gt;Is there any paticular meaning in DI?<br/>\r\n&gt;Does people find out the image of seaweed instantly from this name?<br/>\r\nand so on.<br/>\r\nExchange of discussion continues with the word “ALGA.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This is a sample of naming the pokemon which\n\nwill be used the same name worldwide.\n\nAnd due to the miscellaneous reasons, the name\n\ncocluded to DIALGA.\n\nIt was one of the final candidate, and the name sounds\n\nvery cool in Japanese.",
+      "images": [],
+      "source_html": "<p>This is a sample of naming the pokemon which<br/>\r\nwill be used the same name worldwide.<br/>\r\nAnd due to the miscellaneous reasons, the name<br/>\r\ncocluded to DIALGA.<br/>\r\nIt was one of the final candidate, and the name sounds<br/>\r\nvery cool in Japanese.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We finalized the name “DIALGA” in Spainish version also.\n\nWell, what do you think about this name?\n\nI wonder Spanish players image seaweed from this name or not.",
+      "images": [],
+      "source_html": "<p>We finalized the name “DIALGA” in Spainish version also.<br/>\r\nWell, what do you think about this name?<br/>\r\nI wonder Spanish players image seaweed from this name or not.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Starting from original Japanese.\n\nThen, English, German, French, Spanish, Italian and Korean…\n\nAs the world of Pokemon expands, there are pleasure and adversity\n\nof localizing into their languages.",
+      "images": [],
+      "source_html": "<p>Starting from original Japanese.<br/>\r\nThen, English, German, French, Spanish, Italian and Korean…<br/>\r\nAs the world of Pokemon expands, there are pleasure and adversity<br/>\r\nof localizing into their languages.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

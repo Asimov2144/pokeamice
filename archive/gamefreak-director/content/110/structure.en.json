@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 110,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The other day I did a battle with “Golgo”\n\nthe Center Chief of Pokemon Sunday!\n\n(“Golgo the Center Chief” is one of the regular\n\npersonalities in Pokemon Sunday, a TV program.)",
+      "images": [],
+      "source_html": "<p>The other day I did a battle with “Golgo”<br/>\r\nthe Center Chief of Pokemon Sunday!<br/>\r\n(“Golgo the Center Chief” is one of the regular<br/>\r\npersonalities in Pokemon Sunday, a TV program.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The scene will be broadcast in Pokemon Sunday on\n\nOctober 14th (Sun).",
+      "images": [],
+      "source_html": "<p>The scene will be broadcast in Pokemon Sunday on<br/>\r\nOctober 14th (Sun).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "How did it turn out???\n\nThe viewers have a chance to win presents too!!",
+      "images": [],
+      "source_html": "<p>How did it turn out???<br/>\r\nThe viewers have a chance to win presents too!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please check it out!!",
+      "images": [],
+      "source_html": "<p>Please check it out!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "(This episode was aired in 2007 and no longer\n\navailable.)",
+      "images": [],
+      "source_html": "<p>(This episode was aired in 2007 and no longer<br/>\r\navailable.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

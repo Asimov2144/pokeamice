@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 168,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "いよいよ、明日３１日（土）から予約開始！！",
+      "images": [],
+      "source_html": "<p>いよいよ、明日３１日（土）から予約開始！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "やっぱ初日に予約したいので、\n\nマスダは明日、最近よく行くポケモンセンタートウキョーに行こうと計画中！",
+      "images": [],
+      "source_html": "<p>やっぱ初日に予約したいので、<br/>\r\nマスダは明日、最近よく行くポケモンセンタートウキョーに行こうと計画中！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これこれ！\n\n[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)",
+      "images": [],
+      "source_html": "<p>これこれ！<br/>\n<a href=\"http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main\" target=\"_blank\">http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "これが欲しい！\n\nサウンドロップ！",
+      "images": [],
+      "source_html": "<p>これが欲しい！<br/>\r\nサウンドロップ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "レシラムカラー、ゼクロムカラーで登場！\n\nなんと、ポケモンセンター回復音とそれぞれの鳴き声が入ってる！！",
+      "images": [],
+      "source_html": "<p>レシラムカラー、ゼクロムカラーで登場！<br/>\r\nなんと、ポケモンセンター回復音とそれぞれの鳴き声が入ってる！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このサウンドロップ、実はマスダも音を確認しましたが、\n\nリアルに鳴き声が再現されていて格好良かったですよ！",
+      "images": [],
+      "source_html": "<p>このサウンドロップ、実はマスダも音を確認しましたが、<br/>\r\nリアルに鳴き声が再現されていて格好良かったですよ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "サウンドロップ、、、\n\nSOUND+DROP（音のしずくペンダント）ですかね？\n\n楽しい雰囲気のある造語ですよね！",
+      "images": [],
+      "source_html": "<p>サウンドロップ、、、<br/>\r\nSOUND+DROP（音のしずくペンダント）ですかね？<br/>\r\n楽しい雰囲気のある造語ですよね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "追伸：マスダも会員のポケモンだいすきクラブでは、こんな情報も！\n\n[http://www.pokemon.jp/portal/html/bw/index.cfm](http://www.pokemon.jp/portal/html/bw/index.cfm)",
+      "images": [],
+      "source_html": "<p>追伸：マスダも会員のポケモンだいすきクラブでは、こんな情報も！<br/>\n<a href=\"http://www.pokemon.jp/portal/html/bw/index.cfm\" target=\"_blank\">http://www.pokemon.jp/portal/html/bw/index.cfm</a></p>"
+    }
+  ]
+}

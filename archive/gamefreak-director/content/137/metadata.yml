@@ -1,0 +1,79 @@
+id: masuda-137
+number: 137
+month: 2009-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2009/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no137
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no137
+    permalink_validated: true
+    date: '2009-02-16'
+    date_display: 02.16.2009
+    categories:
+    - Diary
+    - Pokemon
+    lead: “YAWN” learned Pikachu!
+    raw_page: archive/gamefreak-director/raw/en/2009/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2009/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%937%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%937%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2009-02-16'
+    date_display: 2009.02.16
+    categories:
+    - ポケモン
+    - 日記
+    lead: 「あくび」のピカチュウ！
+    raw_page: archive/gamefreak-director/raw/ja/2009/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:20+00:00'
+assets:
+- id: 137-multi-mz090216_01
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_01.jpg
+  local_path: archive/gamefreak-director/assets/original/137/multi/mz090216_01.jpg
+  sha256: 97b5a8fe4efa489de2540082605fb0d551c126824a8eb4fb890e2dc72c105734
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 137-multi-mz090216_02
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_02.jpg
+  local_path: archive/gamefreak-director/assets/original/137/multi/mz090216_02.jpg
+  sha256: af06ff02449d619f5312ece98b8f635cc8c0cd20a996216d804943ea29b933ef
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 137-multi-mz090216_03
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_03.jpg
+  local_path: archive/gamefreak-director/assets/original/137/multi/mz090216_03.jpg
+  sha256: cf995bf106be09ffb2b1bb2e46ac143d8d5d9409af6983a52ba70e148b5c3e12
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 137-multi-mz090216_04
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/02/mz090216_04.jpg
+  local_path: archive/gamefreak-director/assets/original/137/multi/mz090216_04.jpg
+  sha256: f020222c6e3a2a81e00a207d94ab4bfde11f9201caff65fc16ebcab9cd557756
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

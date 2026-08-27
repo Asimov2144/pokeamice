@@ -1,0 +1,204 @@
+id: masuda-197
+number: 197
+month: 2011-06
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no197
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no197
+    permalink_validated: true
+    date: '2011-06-07'
+    date_display: 06.07.2011
+    categories:
+    - Diary
+    lead: On Monday June 6th, I took N’EX train to depart Tokyo! Look at the face
+      of this train. What a powerful face. Sooo cool…
+    raw_page: archive/gamefreak-director/raw/en/2011/06/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/06/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%99%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-06-07'
+    date_display: 2011.06.07
+    categories:
+    - 日記
+    lead: ６月６日（月）、東京発のN’EXに乗りました！ このフェイス。アップだとより一層、力強さが伝わりますよね。 かっちょええ。。。
+    raw_page: archive/gamefreak-director/raw/ja/2011/06/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:24+00:00'
+assets:
+- id: 197-en-197a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197a.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197a.jpg
+  sha256: cd701a16d4a33371230772c97e8e617d472ee5f5a163fb943fcdf1b3ef704340
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197b.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197b.jpg
+  sha256: 9905afc251bae740f3b5f52e38cb42e0319d5ea43f8efe6b9aded1b13fd7eb49
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197c.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197c.jpg
+  sha256: d5569a2326d989263fb3b42c583aedb8a1391ffc5f8d6ccb05bb1020acc1d6ec
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197d.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197d.jpg
+  sha256: 192212e2aae4dfae29adbd82acabea7221a5afe8e9712edc495d9eb025ae834b
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197e
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197e.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197e.jpg
+  sha256: fd2a6b32c5e6f8456437c8ce372f7302146f6666d3aa2b5e252f6001630e4444
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197f
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197f.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197f.jpg
+  sha256: 541a6d3f0d2732db59f89dc126df1f26cb17947b61e7869a68a66b5feba6d127
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197g
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197g.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197g.jpg
+  sha256: 82f30e91eb5db9a56322035fa2c8a069d63aa3919240b50b8240e65f7e29b3bd
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197h
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197h.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197h.jpg
+  sha256: 6b9edb8e855857da9ecb8840115e1bf5d366d8556286ad1b58292249804d5073
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-en-197i
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2011/06/197i.jpg
+  local_path: archive/gamefreak-director/assets/original/197/en/197i.jpg
+  sha256: eab596c26c817ea29ca005cf38ad6b38d49318a08af327ec9ae71b7242a71cb1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197a.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197a.jpg
+  sha256: cd701a16d4a33371230772c97e8e617d472ee5f5a163fb943fcdf1b3ef704340
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197b.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197b.jpg
+  sha256: 9905afc251bae740f3b5f52e38cb42e0319d5ea43f8efe6b9aded1b13fd7eb49
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197c.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197c.jpg
+  sha256: d5569a2326d989263fb3b42c583aedb8a1391ffc5f8d6ccb05bb1020acc1d6ec
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197d.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197d.jpg
+  sha256: 192212e2aae4dfae29adbd82acabea7221a5afe8e9712edc495d9eb025ae834b
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197e
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197e.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197e.jpg
+  sha256: fd2a6b32c5e6f8456437c8ce372f7302146f6666d3aa2b5e252f6001630e4444
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197f
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197f.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197f.jpg
+  sha256: 541a6d3f0d2732db59f89dc126df1f26cb17947b61e7869a68a66b5feba6d127
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197g
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197g.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197g.jpg
+  sha256: 82f30e91eb5db9a56322035fa2c8a069d63aa3919240b50b8240e65f7e29b3bd
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197h
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197h.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197h.jpg
+  sha256: 6b9edb8e855857da9ecb8840115e1bf5d366d8556286ad1b58292249804d5073
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 197-ja-197i
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/06/197i.jpg
+  local_path: archive/gamefreak-director/assets/original/197/ja/197i.jpg
+  sha256: eab596c26c817ea29ca005cf38ad6b38d49318a08af327ec9ae71b7242a71cb1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

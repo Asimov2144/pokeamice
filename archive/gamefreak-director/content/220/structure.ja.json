@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 220,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンセンターのサイン会についてお知らせです！",
+      "images": [],
+      "source_html": "<p>ポケモンセンターのサイン会についてお知らせです！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "安全と健康を確保するため、\n\n運営方法が変更になりました！",
+      "images": [],
+      "source_html": "<p>安全と健康を確保するため、<br/>\r\n運営方法が変更になりました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、ごめんなさい！",
+      "images": [],
+      "source_html": "<p>みなさん、ごめんなさい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news](http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news\" target=\"_blank\">http://www.pokemon.co.jp/info/2012/01/120120_p02.html?a001=news</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "質問コーナーもあるので、サインに興味がなくても、、\n\nみなさん、ぜひお越しください！！\n\nみんなで盛り上がりましょう！",
+      "images": [],
+      "source_html": "<p>質問コーナーもあるので、サインに興味がなくても、、<br/>\r\nみなさん、ぜひお越しください！！<br/>\r\nみんなで盛り上がりましょう！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

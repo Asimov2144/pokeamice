@@ -1,0 +1,41 @@
+id: masuda-167
+number: 167
+month: 2010-07
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2010/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no167
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no167
+    permalink_validated: true
+    date: '2010-07-29'
+    date_display: 07.29.2010
+    categories:
+    - Pokemon
+    lead: “Pokemon have changed” “Completion of Pokemon which kids to adult can enjoy”
+    raw_page: archive/gamefreak-director/raw/en/2010/07/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2010/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2010-07-29'
+    date_display: 2010.07.29
+    categories:
+    - ポケモン
+    lead: 「ポケモンが変わった」 「子供も大人も楽しめるポケモン、完成」
+    raw_page: archive/gamefreak-director/raw/ja/2010/07/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:22+00:00'
+assets: []

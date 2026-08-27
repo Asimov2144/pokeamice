@@ -1,0 +1,42 @@
+id: masuda-021
+number: 21
+month: 2004-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2004/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-21
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-21
+    permalink_validated: true
+    date: '2004-10-04'
+    date_display: 10.04.2004
+    categories:
+    - Diary
+    lead: In each of Pokemon Ruby, Sapphire, FireRed, LeafGreen, and Emerald, we included
+      a tiny bit of braille codes.
+    raw_page: archive/gamefreak-director/raw/en/2004/10/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2004/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2004-10-04'
+    date_display: 2004.10.04
+    categories:
+    - 日記
+    lead: ルビー、サファイア、ファイアレッド、リーフグリーン、エメラルドの 各ソフトには、ほんの少しだけ点字が入っています。
+    raw_page: archive/gamefreak-director/raw/ja/2004/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:09+00:00'
+assets: []

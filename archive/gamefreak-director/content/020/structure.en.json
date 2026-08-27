@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 20,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, on September 30th, “Palette” (http://www.pokepale.com),\n\nan information website on Pokemon, is going to be closed.\n\nIt’s such a shame because I often visited the site.\n\nIt was a great site because they updated information quite often.",
+      "images": [],
+      "source_html": "<p>Today, on September 30th, “Palette” (http://www.pokepale.com),<br/>\r\nan information website on Pokemon, is going to be closed.<br/>\r\nIt’s such a shame because I often visited the site.<br/>\r\nIt was a great site because they updated information quite often.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s not an easy job to manage a website.\n\nOnce you start a site, it’s often difficult to decide when to quit.\n\nIn the case of Pokemon Crystal, we too found it difficult\n\nto decide how long we should keep on managing the Nintendo server.\n\nI remember having many discussions about it.",
+      "images": [],
+      "source_html": "<p>It’s not an easy job to manage a website.<br/>\r\nOnce you start a site, it’s often difficult to decide when to quit.<br/>\r\nIn the case of Pokemon Crystal, we too found it difficult<br/>\r\nto decide how long we should keep on managing the Nintendo server.<br/>\r\nI remember having many discussions about it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Things that are difficult to quit.ﾂ? Things that are addictive.\n\nIt’s fun to look for these things.\n\nA certain part of your favorite song, TV programs, novels,\n\nsports activities, driving a car, climbing mountains.\n\n(put another way, if you create something that’s addictive,\n\nyou can expect people to go crazy about it)",
+      "images": [],
+      "source_html": "<p>Things that are difficult to quit.ﾂ? Things that are addictive.<br/>\r\nIt’s fun to look for these things.<br/>\r\nA certain part of your favorite song, TV programs, novels,<br/>\r\nsports activities, driving a car, climbing mountains.<br/>\r\n(put another way, if you create something that’s addictive,<br/>\r\nyou can expect people to go crazy about it)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Things you can’t quit once you start.\n\nI’m starting to feel that this column is like that too …\n\nIt takes courage to stop doing something.",
+      "images": [],
+      "source_html": "<p>Things you can’t quit once you start.<br/>\r\nI’m starting to feel that this column is like that too …<br/>\r\nIt takes courage to stop doing something.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Many thanks to the Palette administrator!",
+      "images": [],
+      "source_html": "<p>Many thanks to the Palette administrator!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

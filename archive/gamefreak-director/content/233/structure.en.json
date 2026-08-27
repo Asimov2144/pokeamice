@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "article": 233,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello everyone!",
+      "images": [],
+      "source_html": "<p>Hello everyone!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Did you have a chance to watch our announcement video\n\non the 8th of January(Japan time) ?\n\nIf you haven’t seen it yet, you can check it out at here:",
+      "images": [],
+      "source_html": "<p>Did you have a chance to watch our announcement video<br/>\r\non the 8th of January(Japan time) ?<br/>\r\nIf you haven’t seen it yet, you can check it out at here:</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)\n\n[http://www.pokemon.com/pokemonxy/fr-fr](http://www.pokemon.com/pokemonxy/fr-fr)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.com/pokemonxy/en-us\" target=\"_blank\">http://www.pokemon.com/pokemonxy/en-us</a><br/>\n<a href=\"http://www.pokemon.com/pokemonxy/fr-fr\" target=\"_blank\">http://www.pokemon.com/pokemonxy/fr-fr</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And here is the link to the Nintendo Pokémon Direct video,\n\nin which you can learn about the history of Pokémon:",
+      "images": [],
+      "source_html": "<p>And here is the link to the Nintendo Pokémon Direct video,<br/>\r\nin which you can learn about the history of Pokémon:</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.youtube.com/watch?v=VzO6J981nAw](http://www.youtube.com/watch?v=VzO6J981nAw)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.youtube.com/watch?v=VzO6J981nAw\" target=\"_blank\">http://www.youtube.com/watch?v=VzO6J981nAw</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And links for Japanese fans:",
+      "images": [],
+      "source_html": "<p>And links for Japanese fans:</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://youtu.be/2MYbmIxzer8](http://youtu.be/2MYbmIxzer8)\n\n[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://youtu.be/2MYbmIxzer8\" target=\"_blank\">http://youtu.be/2MYbmIxzer8</a><br/>\n<a href=\"http://www.nintendo.co.jp/pokemon/direct20130108/index.html\" target=\"_blank\">http://www.nintendo.co.jp/pokemon/direct20130108/index.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And here is the press release.",
+      "images": [],
+      "source_html": "<p>And here is the press release.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "———————————————\n\nWe are aiming to deliver genuine entertainment that can be enjoyed\n\nsimultaneously by people from all over the world.",
+      "images": [],
+      "source_html": "<p>———————————————<br/>\r\nWe are aiming to deliver genuine entertainment that can be enjoyed<br/>\r\nsimultaneously by people from all over the world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Never-before-seen Pokémon that will be discovered for the first time by people from across the globe.\n\nPokémon that are brought to life and look as if they are right in front you.\n\nStunningly dynamic Pokémon battles.\n\nBreathtakingly beautiful visuals that take full advantage of the 3DS hardware’s power.\n\nAn innovate communication system that will make you feel connected with\n\nplayers from around the world as you play the game.\n\nA new battle mechanism that allows your Pokémon to become even more powerful\n\nwhen the bonds you share grow stronger.\n\nA story and music that can be enjoyed by all.",
+      "images": [],
+      "source_html": "<p>Never-before-seen Pokémon that will be discovered for the first time by people from across the globe.<br/>\r\nPokémon that are brought to life and look as if they are right in front you.<br/>\r\nStunningly dynamic Pokémon battles.<br/>\r\nBreathtakingly beautiful visuals that take full advantage of the 3DS hardware’s power.<br/>\r\nAn innovate communication system that will make you feel connected with<br/>\r\nplayers from around the world as you play the game.<br/>\r\nA new battle mechanism that allows your Pokémon to become even more powerful<br/>\r\nwhen the bonds you share grow stronger.<br/>\r\nA story and music that can be enjoyed by all.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Whether this is the player’s first game, or if he or she is a veteran of the Pokémon series,\n\nour goal is to deliver genuine entertainment that will make all players smile,\n\nregardless of their age, gender, country, language, or culture.",
+      "images": [],
+      "source_html": "<p>Whether this is the player’s first game, or if he or she is a veteran of the Pokémon series,<br/>\r\nour goal is to deliver genuine entertainment that will make all players smile,<br/>\r\nregardless of their age, gender, country, language, or culture.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The Pokémon series has always been more than just a game.\n\nIt’s a series that brings people together, and encourages them to get excited and\n\nhave fun as if they were at a festival.\n\nThat is why I wanted to achieve my long-time dream of a worldwide simultaneous release\n\nwith these new entries to the series.",
+      "images": [],
+      "source_html": "<p>The Pokémon series has always been more than just a game.<br/>\r\nIt’s a series that brings people together, and encourages them to get excited and<br/>\r\nhave fun as if they were at a festival.<br/>\r\nThat is why I wanted to achieve my long-time dream of a worldwide simultaneous release<br/>\r\nwith these new entries to the series.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokémon X and Pokémon Y–the evolved sixth generation of Pokémon.",
+      "images": [],
+      "source_html": "<p>Pokémon X and Pokémon Y–the evolved sixth generation of Pokémon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Genuine entertainment that people have been waiting for is here.",
+      "images": [],
+      "source_html": "<p>Genuine entertainment that people have been waiting for is here.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "October 2013.",
+      "images": [],
+      "source_html": "<p>October 2013.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I look forward to being able to play with everyone from around the world.",
+      "images": [],
+      "source_html": "<p>I look forward to being able to play with everyone from around the world.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!\n\n———————————————",
+      "images": [],
+      "source_html": "<p>Ciao!<br/>\r\n———————————————</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ends here.",
+      "images": [],
+      "source_html": "<p>Ends here.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m directing the game, and leading the talented team here at Game Freak.\n\nWe’re currently hard at work creating a game we think will be really something special.",
+      "images": [],
+      "source_html": "<p>I’m directing the game, and leading the talented team here at Game Freak.<br/>\r\nWe’re currently hard at work creating a game we think will be really something special.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please wait until October to experience it yourself!",
+      "images": [],
+      "source_html": "<p>Please wait until October to experience it yourself!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

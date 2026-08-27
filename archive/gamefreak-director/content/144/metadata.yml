@@ -1,0 +1,78 @@
+id: masuda-144
+number: 144
+month: 2009-03
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2009/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no144
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no144
+    permalink_validated: true
+    date: '2009-03-26'
+    date_display: 03.26.2009
+    categories:
+    - Diary
+    lead: The THING suddenly appeared. Beautiful, gigantic, powerful and graceful.
+      Colored deep reddish steel gray.
+    raw_page: archive/gamefreak-director/raw/en/2009/03/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2009/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%94%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2009-03-26'
+    date_display: 2009.03.26
+    categories:
+    - 日記
+    lead: それは忽然と現れた。美しく巨大、力強くしなやか。濃い赤鉄色。
+    raw_page: archive/gamefreak-director/raw/ja/2009/03/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:20+00:00'
+assets:
+- id: 144-multi-144a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144a.jpg
+  local_path: archive/gamefreak-director/assets/original/144/multi/144a.jpg
+  sha256: f4b07ab86819b95bcdb9f164b58c817d822c11135e4358e9757b5ea528814b42
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 144-multi-144b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144b.jpg
+  local_path: archive/gamefreak-director/assets/original/144/multi/144b.jpg
+  sha256: f6f09267037b6aca2626958137c4673ff0121c650487a3edc77057661f574dce
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 144-multi-144c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144c.jpg
+  local_path: archive/gamefreak-director/assets/original/144/multi/144c.jpg
+  sha256: 59a16d3fbc1f014be78bc2023687469e88d815d08bcabb89188a0fc445f21881
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 144-multi-144d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2009/03/144d.jpg
+  local_path: archive/gamefreak-director/assets/original/144/multi/144d.jpg
+  sha256: 087183745ca4a6fecd30b7fa571a77499e99d8170ba9eb36101ce706eccef09d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

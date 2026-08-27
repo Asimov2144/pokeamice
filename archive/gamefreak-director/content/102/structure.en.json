@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "article": 102,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I took a ride in a Formula One car.\n\nWell, not on the road but in a showroom on\n\nthe first basement of the DOCOMO Building in\n\nfront of Osaka station.",
+      "images": [],
+      "source_html": "<p>I took a ride in a Formula One car.<br/>\r\nWell, not on the road but in a showroom on<br/>\r\nthe first basement of the DOCOMO Building in<br/>\r\nfront of Osaka station.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "My cell phone was running out of battery,\n\nso I went in there to recharge it.",
+      "images": [],
+      "source_html": "<p>My cell phone was running out of battery,<br/>\r\nso I went in there to recharge it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I used to love Formula One races.\n\nEspecially Monaco Grand Prix and Italian\n\nGrand Prix, because both the circuits and\n\nthe audiences were fantastic. I never missed\n\nthose races when they were aired on TV at midnight.\n\nI even taped them on VHS cassettes.",
+      "images": [],
+      "source_html": "<p>I used to love Formula One races.<br/>\r\nEspecially Monaco Grand Prix and Italian<br/>\r\nGrand Prix, because both the circuits and<br/>\r\nthe audiences were fantastic. I never missed<br/>\r\nthose races when they were aired on TV at midnight.<br/>\r\nI even taped them on VHS cassettes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Oh, those exhaust notes\n\n(it’s beautiful to call them ‘notes’).\n\nAnd the strategy to carefully aim for\n\nthe top position.\n\nTeamwork.\n\nThe tension you feel when they change the\n\ntires.\n\nAnd the latest, most powerful machines.",
+      "images": [],
+      "source_html": "<p>Oh, those exhaust notes<br/>\r\n(it’s beautiful to call them ‘notes’).<br/>\r\nAnd the strategy to carefully aim for<br/>\r\nthe top position.<br/>\r\nTeamwork.<br/>\r\nThe tension you feel when they change the<br/>\r\ntires.<br/>\r\nAnd the latest, most powerful machines.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "They are so cool…",
+      "images": [],
+      "source_html": "<p>They are so cool…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When inside a F1 car, I found to my\n\nsurprise that the width was wide enough for\n\nmy body and comfortable. Rather, I was\n\nsurprised to find how small the leg room\n\nwas.\n\nAnd the gigantic tires without fenders\n\nlooked really intimidating in front of my eyes.\n\nIt will be quite scary if I drive it at\n\n300 km (186 miles) per hour.",
+      "images": [],
+      "source_html": "<p>When inside a F1 car, I found to my<br/>\r\nsurprise that the width was wide enough for<br/>\r\nmy body and comfortable. Rather, I was<br/>\r\nsurprised to find how small the leg room<br/>\r\nwas.<br/>\r\nAnd the gigantic tires without fenders<br/>\r\nlooked really intimidating in front of my eyes.<br/>\r\nIt will be quite scary if I drive it at<br/>\r\n300 km (186 miles) per hour.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With a grin on my face, I asked a sales lady\n\nto take a picture of me inside the car…\n\nand I got a commemorative card.\n\nOn its back, the number of people who sat\n\non the car was printed! I was the 2925th!\n\nMore people than I expected, I thought.",
+      "images": [],
+      "source_html": "<p>With a grin on my face, I asked a sales lady<br/>\r\nto take a picture of me inside the car…<br/>\r\nand I got a commemorative card.<br/>\r\nOn its back, the number of people who sat<br/>\r\non the car was printed! I was the 2925th!<br/>\r\nMore people than I expected, I thought.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Well, I felt really happy just to sit on it.\n\nIt was exciting.",
+      "images": [],
+      "source_html": "<p>Well, I felt really happy just to sit on it.<br/>\r\nIt was exciting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you live close by, I’d recommend you try it!",
+      "images": [],
+      "source_html": "<p>If you live close by, I’d recommend you try it!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"102-multi-102a\" %}{% image id=\"102-multi-102b\" %}",
+      "images": [
+        "102-multi-102a",
+        "102-multi-102b"
+      ],
+      "source_html": "<p><img alt=\"102a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/102a.jpg\"/><img alt=\"102b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/102b.jpg\"/></p>"
+    }
+  ]
+}

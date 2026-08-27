@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 168,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Finally, Pokemon Black/White’s reservation\n\nstarts from tomorrow 31st!",
+      "images": [],
+      "source_html": "<p>Finally, Pokemon Black/White’s reservation<br/>\r\nstarts from tomorrow 31st!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’d like to reserve on the first day,\n\nso I am planning to visit Pokemon Center Tokyo\n\ntomorrow!",
+      "images": [],
+      "source_html": "<p>I’d like to reserve on the first day,<br/>\r\nso I am planning to visit Pokemon Center Tokyo<br/>\r\ntomorrow!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Take a look at this!\n\n[http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main](http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main)",
+      "images": [],
+      "source_html": "<p>Take a look at this!<br/>\n<a href=\"http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main\" target=\"_blank\"> http://www.pokemon.co.jp/info/2010/07/p100716_01.html?a001=main</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I want this!\n\nIts called “Soundrop”",
+      "images": [],
+      "source_html": "<p>I want this!<br/>\r\nIts called “Soundrop”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are two color variations. “Reshiram ver.” and “Zekrom ver.”!\n\nIt’s contains Pokemon Center’s healing sound effect\n\nand each of the Pokemon cry.",
+      "images": [],
+      "source_html": "<p>There are two color variations. “Reshiram ver.” and “Zekrom ver.”!<br/>\r\nIt’s contains Pokemon Center’s healing sound effect<br/>\r\nand each of the Pokemon cry.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I checked this “Soundrop” and I realized\n\nthe sound of Pokemon cry were well replayed!",
+      "images": [],
+      "source_html": "<p>I checked this “Soundrop” and I realized<br/>\r\nthe sound of Pokemon cry were well replayed!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Soundrop”…\n\nI assume the word made from\n\nSOUND + DROP (pendant of sound drop).\n\nIts coinage word of fun!",
+      "images": [],
+      "source_html": "<p>“Soundrop”…<br/>\r\nI assume the word made from<br/>\r\nSOUND + DROP (pendant of sound drop).<br/>\r\nIts coinage word of fun!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is interesting news from Pokemon Daisuki Club!\n\n(I’m also a member of this club)\n\n[http://www.pokemon.jp/portal/html/bw/index.cfm](http://www.pokemon.jp/portal/html/bw/index.cfm)",
+      "images": [],
+      "source_html": "<p>Here is interesting news from Pokemon Daisuki Club!<br/>\r\n(I’m also a member of this club)<br/>\n<a href=\"http://www.pokemon.jp/portal/html/bw/index.cfm\" target=\"_blank\"> http://www.pokemon.jp/portal/html/bw/index.cfm</a></p>"
+    }
+  ]
+}

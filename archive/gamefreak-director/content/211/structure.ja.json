@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "article": 211,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "９月１９日（月）１日中、名古屋にいました。",
+      "images": [],
+      "source_html": "<p>９月１９日（月）１日中、名古屋にいました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "何故かと言えば、、、",
+      "images": [],
+      "source_html": "<p>何故かと言えば、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ファミ通プレゼンツ「PRESS START 2011」という\n\nゲーム音楽のクラシックコンサートに行ってました！",
+      "images": [],
+      "source_html": "<p>ファミ通プレゼンツ「PRESS START 2011」という<br/>\r\nゲーム音楽のクラシックコンサートに行ってました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "で、、\n\n舞台で話すことになっていたのですが、、、\n\n時間の関係か、、\n\nポケモンの話を少しだけしかできず、、、\n\nひえー、１５周年とか、昨日でBW１周年とか、、、\n\n喋りたいことがたくさんあったのに（泣）",
+      "images": [],
+      "source_html": "<p>で、、<br/>\r\n舞台で話すことになっていたのですが、、、<br/>\r\n時間の関係か、、<br/>\r\nポケモンの話を少しだけしかできず、、、<br/>\r\nひえー、１５周年とか、昨日でBW１周年とか、、、<br/>\r\n喋りたいことがたくさんあったのに（泣）</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "まあ、しかし、\n\nゲーム音楽の魅力が十分に引き出された良いコンサートでした！",
+      "images": [],
+      "source_html": "<p>まあ、しかし、<br/>\r\nゲーム音楽の魅力が十分に引き出された良いコンサートでした！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、音楽って良いですよね。\n\n個人的にはスペランカー、グラディウス、ＦＦ４に感動。。。",
+      "images": [],
+      "source_html": "<p>いやー、音楽って良いですよね。<br/>\r\n個人的にはスペランカー、グラディウス、ＦＦ４に感動。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "やばいです。",
+      "images": [],
+      "source_html": "<p>やばいです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "あ、もちろん、ポケモンも感動。\n\nアレンジはうちのスタッフ、かげやん。\n\n良い感じ~。",
+      "images": [],
+      "source_html": "<p>あ、もちろん、ポケモンも感動。<br/>\r\nアレンジはうちのスタッフ、かげやん。<br/>\r\n良い感じ~。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "帰りに手羽先食べた。\n\nこれまた、良い感じ~。",
+      "images": [],
+      "source_html": "<p>帰りに手羽先食べた。<br/>\r\nこれまた、良い感じ~。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "舞台用スーツで。楽屋にて。\n\n{% image id=\"211-multi-211a\" %}",
+      "images": [
+        "211-multi-211a"
+      ],
+      "source_html": "<p>舞台用スーツで。楽屋にて。<br/>\n<img alt=\"211a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/09/211a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "マスダとかげやん。\n\n{% image id=\"211-multi-211b\" %}",
+      "images": [
+        "211-multi-211b"
+      ],
+      "source_html": "<p>マスダとかげやん。<br/>\n<img alt=\"211b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/09/211b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": ">>PRESS START 2011\n\n[http://www.famitsu.com/famiweb/pressstart/](http://www.famitsu.com/famiweb/pressstart/)",
+      "images": [],
+      "source_html": "<p>&gt;&gt;PRESS START 2011<br/>\n<a href=\"http://www.famitsu.com/famiweb/pressstart/\" target=\"_blank\">http://www.famitsu.com/famiweb/pressstart/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+id: masuda-109
+number: 109
+month: 2007-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no109
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no109
+    permalink_validated: true
+    date: '2007-10-04'
+    date_display: 10.04.2007
+    categories:
+    - Music
+    lead: I always liked music since I was a kid, and I listen to a really wide variety
+      of music everyday.
+    raw_page: archive/gamefreak-director/raw/en/2007/10/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-10-04'
+    date_display: 2007.10.04
+    categories:
+    - 音楽
+    lead: 昔から音楽は大好きで、今でも本当に様々なジャンルの音楽を聴いています。
+    raw_page: archive/gamefreak-director/raw/ja/2007/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets: []

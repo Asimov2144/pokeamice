@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 26,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Last week we at Game Freak had an end-of-the-year party.\n\nEvery year, I find it fun to have a party\n\nwhere lots of friends meet and play together.",
+      "images": [],
+      "source_html": "<p>Last week we at Game Freak had an end-of-the-year party.<br/>\r\nEvery year, I find it fun to have a party<br/>\r\nwhere lots of friends meet and play together.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At our end-of-the-year party, we reserve a certain\n\nplace in Shimokitazawa (Tokyo) and have a big game party.\n\nOur staff make up games like drawing pictures\n\nor quiz-show type games, and they are such fun.\n\nTheir understanding of what a fun game is\n\nreally impresses me.",
+      "images": [],
+      "source_html": "<p>At our end-of-the-year party, we reserve a certain<br/>\r\nplace in Shimokitazawa (Tokyo) and have a big game party.<br/>\r\nOur staff make up games like drawing pictures<br/>\r\nor quiz-show type games, and they are such fun.<br/>\r\nTheir understanding of what a fun game is<br/>\r\nreally impresses me.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The games that are only possible with lots of people.\n\nWe can enjoy talking to many people especially\n\nwhen there are so many people to talk to.",
+      "images": [],
+      "source_html": "<p>The games that are only possible with lots of people.<br/>\r\nWe can enjoy talking to many people especially<br/>\r\nwhen there are so many people to talk to.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I feel that these days we have fewer and fewer\n\noccasions like that.",
+      "images": [],
+      "source_html": "<p>I feel that these days we have fewer and fewer<br/>\r\noccasions like that.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In the days ahead there are many events like\n\nChristmas, the end-of-the-year housecleaning,\n\nand the New Year.\n\nLet’s all shout! and have a great time!",
+      "images": [],
+      "source_html": "<p>In the days ahead there are many events like<br/>\r\nChristmas, the end-of-the-year housecleaning,<br/>\r\nand the New Year.<br/>\r\nLet’s all shout! and have a great time!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

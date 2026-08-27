@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 173,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "ゲームフリークは明日から夏期休暇。",
+      "images": [],
+      "source_html": "<p>ゲームフリークは明日から夏期休暇。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "マスダは１２日縲怩P８日までＷＣＳのため、ハワイへ！",
+      "images": [],
+      "source_html": "<p>マスダは１２日縲怩P８日までＷＣＳのため、ハワイへ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "世界一はどこの国が征するのか？",
+      "images": [],
+      "source_html": "<p>世界一はどこの国が征するのか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その模様は、こちらからチェックできると思います。\n\n[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)",
+      "images": [],
+      "source_html": "<p>その模様は、こちらからチェックできると思います。<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2010/\" target=\"_blank\">http://www.pokemonworldchampionships.com/2010/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

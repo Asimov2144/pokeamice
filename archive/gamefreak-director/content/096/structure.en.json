@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 96,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Our summer vacation starts tomorrow!",
+      "images": [],
+      "source_html": "<p>Our summer vacation starts tomorrow!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Are you enjoying your summer vacation!?\n\nLet’s all enjoy summer, both when you play\n\nand you study!",
+      "images": [],
+      "source_html": "<p>Are you enjoying your summer vacation!?<br/>\r\nLet’s all enjoy summer, both when you play<br/>\r\nand you study!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As for me, I’m planning to go to a Pokemon\n\nevent at Palcity in Yokohama on August 17th.\n\nI went to the one held in Makuhari (Chiba prefecture)\n\nand I felt great to find so many people there.\n\nSo, I’m very much looking forward to Yokohama, too.",
+      "images": [],
+      "source_html": "<p>As for me, I’m planning to go to a Pokemon<br/>\r\nevent at Palcity in Yokohama on August 17th.<br/>\r\nI went to the one held in Makuhari (Chiba prefecture)<br/>\r\nand I felt great to find so many people there.<br/>\r\nSo, I’m very much looking forward to Yokohama, too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At the event at Palcity, you will be able to\n\ntake pictures with Pikachu, play Pokemon Diamond/Pearl\n\nbattles, and collect Pokemon via wireless communication,\n\namong other things…\n\nIt must be a great fun! Please come visit us!",
+      "images": [],
+      "source_html": "<p>At the event at Palcity, you will be able to<br/>\r\ntake pictures with Pikachu, play Pokemon Diamond/Pearl<br/>\r\nbattles, and collect Pokemon via wireless communication,<br/>\r\namong other things…<br/>\r\nIt must be a great fun! Please come visit us!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This year’s summer is different from\n\nany other summer!\n\nLet’s experience it fully!",
+      "images": [],
+      "source_html": "<p>This year’s summer is different from<br/>\r\nany other summer!<br/>\r\nLet’s experience it fully!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

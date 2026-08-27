@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "article": 179,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hello, everyone.",
+      "images": [],
+      "source_html": "<p>Hello, everyone.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s December 27th already…\n\nThe year 2010 will soon be over.",
+      "images": [],
+      "source_html": "<p>It’s December 27th already…<br/>\r\nThe year 2010 will soon be over.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We proudly presented Poke’mon Black and White\n\nthis 2010.\n\nThanks for your support.\n\nI really appreciated.",
+      "images": [],
+      "source_html": "<p>We proudly presented Poke’mon Black and White<br/>\r\nthis 2010.<br/>\r\nThanks for your support.<br/>\r\nI really appreciated.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And…\n\nI have to apologize regarding PGL.",
+      "images": [],
+      "source_html": "<p>And…<br/>\r\nI have to apologize regarding PGL.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The player of one fourth is playing this PGL.\n\nSo many players in Japan…",
+      "images": [],
+      "source_html": "<p>The player of one fourth is playing this PGL.<br/>\r\nSo many players in Japan…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The number was beyond our expectations.\n\nWe are so sorry.",
+      "images": [],
+      "source_html": "<p>The number was beyond our expectations.<br/>\r\nWe are so sorry.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The things will be getting better little by little.\n\nPlease count on.",
+      "images": [],
+      "source_html": "<p>The things will be getting better little by little.<br/>\r\nPlease count on.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "By the way,\n\nHere is my recent activities.",
+      "images": [],
+      "source_html": "<p>By the way,<br/>\r\nHere is my recent activities.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The other day, I visited Poke’mon Center Osaka.\n\nWe showed illustrations and ideas of Poke’mon during\n\nthe development period.\n\nHere is my illustrations, too.\n\n[http://www.pokemon.co.jp/gp/pokecen/osaka/](http://www.pokemon.co.jp/gp/pokecen/osaka/)\n\n[http://www.pokemon.co.jp/gp/pokecen/english/?inc=pokecen](http://www.pokemon.co.jp/gp/pokecen/english/?inc=pokecen)",
+      "images": [],
+      "source_html": "<p>The other day, I visited Poke’mon Center Osaka.<br/>\r\nWe showed illustrations and ideas of Poke’mon during<br/>\r\nthe development period.<br/>\r\nHere is my illustrations, too.<br/>\n<a href=\"http://www.pokemon.co.jp/gp/pokecen/osaka/\" target=\"_blank\">http://www.pokemon.co.jp/gp/pokecen/osaka/</a><br/>\n<a href=\"http://www.pokemon.co.jp/gp/pokecen/english/?inc=pokecen\" target=\"_blank\">http://www.pokemon.co.jp/gp/pokecen/english/?inc=pokecen</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I had an interview from the magazine\n\ncalled “Da Vinci.”\n\nI’m on page 132.\n\nThis magazine is currently available,\n\nit’s December 6th issue.\n\nThis magazine is for older reader.",
+      "images": [],
+      "source_html": "<p>I had an interview from the magazine<br/>\r\ncalled “Da Vinci.”<br/>\r\nI’m on page 132.<br/>\r\nThis magazine is currently available,<br/>\r\nit’s December 6th issue.<br/>\r\nThis magazine is for older reader.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And also on “Coro Coro G” comic book,\n\nI had a special appearance with Shoko-tan.\n\nI had Poke’mon battle with her, but I lost.",
+      "images": [],
+      "source_html": "<p>And also on “Coro Coro G” comic book,<br/>\r\nI had a special appearance with Shoko-tan.<br/>\r\nI had Poke’mon battle with her, but I lost.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Both of them are pretty neat.",
+      "images": [],
+      "source_html": "<p>Both of them are pretty neat.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And lastly, I have a appearance on Nintendo’s special web page\n\ncalled “josidaisei ga kiku.”\n\n[http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html](http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html)",
+      "images": [],
+      "source_html": "<p>And lastly, I have a appearance on Nintendo’s special web page<br/>\r\ncalled “josidaisei ga kiku.”<br/>\n<a href=\"http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html\" target=\"_blank\">http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game contents PGL is available only in Japan.\n\nThe “Da Vinci” magazine and “Coro Coro G” comic book\n\nare only available in Japan.",
+      "images": [],
+      "source_html": "<p>The game contents PGL is available only in Japan.<br/>\r\nThe “Da Vinci” magazine and “Coro Coro G” comic book<br/>\r\nare only available in Japan.</p>"
+    }
+  ]
+}

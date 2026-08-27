@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "article": 110,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "先日、ポケモン☆サンデーのゴルゴ所長と戦ってきました！",
+      "images": [],
+      "source_html": "<p>先日、ポケモン☆サンデーのゴルゴ所長と戦ってきました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その模様が、１０月１４日（日）の[ポケモン☆サンデー](http://www.tv-tokyo.co.jp/anime/pokemon_sunday/)に放送されます！！",
+      "images": [],
+      "source_html": "<p>その模様が、１０月１４日（日）の<a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_sunday/\" target=\"_blank\">ポケモン☆サンデー</a>に放送されます！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "結果がどうなったか！！！\n\nそして、何とプレゼントも！！",
+      "images": [],
+      "source_html": "<p>結果がどうなったか！！！<br/>\r\nそして、何とプレゼントも！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひ、みなさん観て下さいね！！",
+      "images": [],
+      "source_html": "<p>ぜひ、みなさん観て下さいね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

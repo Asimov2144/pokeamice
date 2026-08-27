@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 175,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "“Pokemon Pia” have launched today!!",
+      "images": [],
+      "source_html": "<p>“Pokemon Pia” have launched today!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "-AKB48′s Ms. Sashihara and Ms. Kitahara are on pages!\n\n-Yellow Pikachu is on the cover page!\n\n-It comes with Pikachu ear phone!\n\n-GameFreak’s graphic staffs interview\n\nstarring Sugimori!\n\n-My interview, too!",
+      "images": [],
+      "source_html": "<p>-AKB48′s Ms. Sashihara and Ms. Kitahara are on pages!<br/>\r\n-Yellow Pikachu is on the cover page!<br/>\r\n-It comes with Pikachu ear phone!<br/>\r\n-GameFreak’s graphic staffs interview<br/>\r\nstarring Sugimori!<br/>\r\n-My interview, too!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "History of Pokemon can be learned from this magazine.\n\nIt is really well made!\n\nPlease take a look and buy it!!",
+      "images": [],
+      "source_html": "<p>History of Pokemon can be learned from this magazine.<br/>\r\nIt is really well made!<br/>\r\nPlease take a look and buy it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And…",
+      "images": [],
+      "source_html": "<p>And…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Day after tomorrow on Sunday September 12th.\n\nI’ll have a special appearance on “Pokemon Sunday”!\n\nLatest information will the disclosed!",
+      "images": [],
+      "source_html": "<p>Day after tomorrow on Sunday September 12th.<br/>\r\nI’ll have a special appearance on “Pokemon Sunday”!<br/>\r\nLatest information will the disclosed!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please take a look!",
+      "images": [],
+      "source_html": "<p>Please take a look!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Pokemon Pia” is sold in Japan only.\n\n*”Pokemon Sunday” is aired in Japan only.",
+      "images": [],
+      "source_html": "<p>*”Pokemon Pia” is sold in Japan only.<br/>\r\n*”Pokemon Sunday” is aired in Japan only.</p>"
+    }
+  ]
+}

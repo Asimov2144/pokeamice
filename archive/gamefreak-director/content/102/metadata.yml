@@ -1,0 +1,60 @@
+id: masuda-102
+number: 102
+month: 2007-09
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no102
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no102
+    permalink_validated: true
+    date: '2007-09-04'
+    date_display: 09.04.2007
+    categories:
+    - Diary
+    lead: I took a ride in a Formula One car. Well, not on the road but in a showroom
+      on the first basement of the DOCOMO Building in front of Osaka station.
+    raw_page: archive/gamefreak-director/raw/en/2007/09/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/09/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%92%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-09-04'
+    date_display: 2007.09.04
+    categories:
+    - 日記
+    lead: F1マシンに乗りました。 といっても、大阪駅の前にあるDOCOMOビル地下一階ショールームで。
+    raw_page: archive/gamefreak-director/raw/ja/2007/09/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets:
+- id: 102-multi-102a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/102a.jpg
+  local_path: archive/gamefreak-director/assets/original/102/multi/102a.jpg
+  sha256: 9302646be28242a5074e6e0df39f7d798e855cde379924975dac2c495b35943c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 102-multi-102b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/102b.jpg
+  local_path: archive/gamefreak-director/assets/original/102/multi/102b.jpg
+  sha256: cb2495b39f2fc4f4d7fd4c837a0665105058a3dd615584592bdf92f7018e51c1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

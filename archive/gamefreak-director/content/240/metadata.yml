@@ -1,0 +1,42 @@
+id: masuda-240
+number: 240
+month: 2013-07
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2013/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-240
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-240
+    permalink_validated: true
+    date: '2013-07-31'
+    date_display: 07.31.2013
+    categories:
+    - Info
+    lead: Today, Wednesday July 31st; 10:00AM. At this time, for the first time, Game
+      Freak published its own game.
+    raw_page: archive/gamefreak-director/raw/en/2013/07/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2013/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac240%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac240%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2013-07-31'
+    date_display: 2013.07.31
+    categories:
+    - お知らせ
+    lead: 本日、２０１３年７月３１日（水）１０：００ＡＭ ゲームフリーク初の自社パブリッシングソフトが発売になりました。
+    raw_page: archive/gamefreak-director/raw/ja/2013/07/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:27+00:00'
+assets: []

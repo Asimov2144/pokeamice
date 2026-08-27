@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 153,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On November 20th 2009, 11:30PM.\n\nFront of Shibuya station, Tokyo.\n\nAn image of Pokemon appeared\n\non four giant screens at the intersection.",
+      "images": [],
+      "source_html": "<p>On November 20th 2009, 11:30PM.<br/>\r\nFront of Shibuya station, Tokyo.<br/>\r\nAn image of Pokemon appeared<br/>\r\non four giant screens at the intersection.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, Pokemon Gold/Silver hail its\n\n10th anniversary on next day, 21st.",
+      "images": [],
+      "source_html": "<p>Yes, Pokemon Gold/Silver hail its<br/>\r\n10th anniversary on next day, 21st.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here is the memorial image!\n\n[http://www.youtube.com/watch?v=M4xQj4WfUgI](http://www.youtube.com/watch?v=M4xQj4WfUgI)",
+      "images": [],
+      "source_html": "<p>Here is the memorial image!<br/>\n<a href=\"http://www.youtube.com/watch?v=M4xQj4WfUgI\" target=\"_blank\">http://www.youtube.com/watch?v=M4xQj4WfUgI</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I also watched this image.\n\nThe music I created long ago,\n\nit was played with loud music and\n\nnostalgic feeling occupied my heart.\n\nThis strong impression made me happy.",
+      "images": [],
+      "source_html": "<p>I also watched this image.<br/>\r\nThe music I created long ago,<br/>\r\nit was played with loud music and<br/>\r\nnostalgic feeling occupied my heart.<br/>\r\nThis strong impression made me happy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From January 29th 2010,\n\nMEW will be distributed to the following\n\ngame paks. “Pokemon\n\nDiamond/Pearl/Platinum\n\nHeart Gold/Soul Silver”\n\nPlease receive it!",
+      "images": [],
+      "source_html": "<p>From January 29th 2010,<br/>\r\nMEW will be distributed to the following<br/>\r\ngame paks. “Pokemon<br/>\r\nDiamond/Pearl/Platinum<br/>\r\nHeart Gold/Soul Silver”<br/>\r\nPlease receive it!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s more.\n\n[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)\n\n[http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)\n\n[http://news.dengeki.com/elem/000/000/215/215000/](http://news.dengeki.com/elem/000/000/215/215000/)",
+      "images": [],
+      "source_html": "<p>Here’s more.<br/>\n<a href=\"http://www.famitsu.com/game/news/1229894_1124.html\" target=\"_blank\">http://www.famitsu.com/game/news/1229894_1124.html</a><br/>\n<a href=\"http://news.dengeki.com/elem/000/000/214/214674/\" target=\"_blank\">http://news.dengeki.com/elem/000/000/214/214674/</a><br/>\n<a href=\"http://news.dengeki.com/elem/000/000/215/215000/\" target=\"_blank\">http://news.dengeki.com/elem/000/000/215/215000/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Hooray!!",
+      "images": [],
+      "source_html": "<p>Hooray!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(This “Gold and Silver” Mew campaign is\n\navailable only in Japan.)",
+      "images": [],
+      "source_html": "<p>*(This “Gold and Silver” Mew campaign is<br/>\r\navailable only in Japan.)</p>"
+    }
+  ]
+}

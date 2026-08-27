@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 51,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "The act of creating video games.",
+      "images": [],
+      "source_html": "<p>The act of creating video games.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s a process of converting such feelings\n\nas ‘interesting,’ ‘fun,’ and ‘cozy’ into\n\ndigital information and then recording\n\n(programming) them.",
+      "images": [],
+      "source_html": "<p>It’s a process of converting such feelings<br/>\r\nas ‘interesting,’ ‘fun,’ and ‘cozy’ into<br/>\r\ndigital information and then recording<br/>\r\n(programming) them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When such digitally recorded feelings are\n\nplayed back by players (users), a game emerges\n\nitself as a game and a feeling emerges itself\n\nas a feeling.",
+      "images": [],
+      "source_html": "<p>When such digitally recorded feelings are<br/>\r\nplayed back by players (users), a game emerges<br/>\r\nitself as a game and a feeling emerges itself<br/>\r\nas a feeling.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The job of a game designer is to digitalize\n\nour feelings. Thus, you need to study about both\n\nsensibility and digital technologies.\n\nYou also need to analyze your feelings so that\n\nyou can tell your feelings to other people.\n\nWhat’s more, you also need to think about\n\nhow players will play the game.",
+      "images": [],
+      "source_html": "<p>The job of a game designer is to digitalize<br/>\r\nour feelings. Thus, you need to study about both<br/>\r\nsensibility and digital technologies.<br/>\r\nYou also need to analyze your feelings so that<br/>\r\nyou can tell your feelings to other people.<br/>\r\nWhat’s more, you also need to think about<br/>\r\nhow players will play the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This might sound difficult, but actually it’s\n\nfun to create games.\n\nMore than anything, it’s a process where you\n\nstart from scratch and entertain other people.",
+      "images": [],
+      "source_html": "<p>This might sound difficult, but actually it’s<br/>\r\nfun to create games.<br/>\r\nMore than anything, it’s a process where you<br/>\r\nstart from scratch and entertain other people.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

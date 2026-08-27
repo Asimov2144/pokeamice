@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "article": 235,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、こんにちは！",
+      "images": [],
+      "source_html": "<p>みなさん、こんにちは！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスター　ブラック２・ホワイト２」と連動する３DSダウンロードソフト、",
+      "images": [],
+      "source_html": "<p>「ポケットモンスター　ブラック２・ホワイト２」と連動する３DSダウンロードソフト、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "「ポケモンARサーチャー」プレイしていただけましたでしょうか？",
+      "images": [],
+      "source_html": "<p>「ポケモンARサーチャー」プレイしていただけましたでしょうか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "初公開！！これが、プレゼン書類の１ページ！\n\n（海野ディレクターが描いた女の子主人公と伝説ポケモンも！）\n\n↓↓↓\n\n{% image id=\"235-ja-130205\" %}",
+      "images": [
+        "235-ja-130205"
+      ],
+      "source_html": "<p>初公開！！これが、プレゼン書類の１ページ！<br/>\r\n（海野ディレクターが描いた女の子主人公と伝説ポケモンも！）<br/>\r\n↓↓↓<br/>\n<img alt=\"\" src=\"/blog/dir/wp-content/uploads/2013/02/130205.gif\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "このソフトは、ポケモンをモンスターボールで捕まえるのではなく、\n\n３DSのジャイロ機能を使って、ボタン連打でポケモンを捕まえるアクションゲームです！\n\nそのため、イメージから全体を伝えるように海野ディレクターが書いています。",
+      "images": [],
+      "source_html": "<p>このソフトは、ポケモンをモンスターボールで捕まえるのではなく、<br/>\r\n３DSのジャイロ機能を使って、ボタン連打でポケモンを捕まえるアクションゲームです！<br/>\r\nそのため、イメージから全体を伝えるように海野ディレクターが書いています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスターのようなRPGを作る時と、こういったアクションゲームを作るときでは、\n\n優先させることが違います。",
+      "images": [],
+      "source_html": "<p>ポケットモンスターのようなRPGを作る時と、こういったアクションゲームを作るときでは、<br/>\r\n優先させることが違います。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "アクションゲームは、操作感の気持ちよさと、何度も遊べることが大切。",
+      "images": [],
+      "source_html": "<p>アクションゲームは、操作感の気持ちよさと、何度も遊べることが大切。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "テニスでいえば、\n\nテニスラケットを気持ちよく振れることが一番大事。\n\nあとは、ちょっと強い人とプレイしながら上達させていく。\n\n上達したら、またちょっと強い人とプレイさせる。\n\nそうやってプレイヤーのプレイスキルを上げていく。\n\n相手とのレベルバランスによって、何度でも遊べるかどうかが決まってきます。",
+      "images": [],
+      "source_html": "<p>テニスでいえば、<br/>\r\nテニスラケットを気持ちよく振れることが一番大事。<br/>\r\nあとは、ちょっと強い人とプレイしながら上達させていく。<br/>\r\n上達したら、またちょっと強い人とプレイさせる。<br/>\r\nそうやってプレイヤーのプレイスキルを上げていく。<br/>\r\n相手とのレベルバランスによって、何度でも遊べるかどうかが決まってきます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "操作の優先順位を上げること。\n\nそれには、処理が遅くならないように、\n\n心地よく操作できるようにプログラムすること。\n\nビジュアルの処理を減らすなどの工夫が必要になります。",
+      "images": [],
+      "source_html": "<p>操作の優先順位を上げること。<br/>\r\nそれには、処理が遅くならないように、<br/>\r\n心地よく操作できるようにプログラムすること。<br/>\r\nビジュアルの処理を減らすなどの工夫が必要になります。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "どのように作ると気持ちよいのか？\n\n工夫に工夫を重ねて１つ１つ作り上げていきます。",
+      "images": [],
+      "source_html": "<p>どのように作ると気持ちよいのか？<br/>\r\n工夫に工夫を重ねて１つ１つ作り上げていきます。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そうやって完成していった「ポケモンＡＲサーチャー」！！！",
+      "images": [],
+      "source_html": "<p>そうやって完成していった「ポケモンＡＲサーチャー」！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "まだ、プレイされていない方、ぜひ、プレイしてみてくださいね！",
+      "images": [],
+      "source_html": "<p>まだ、プレイされていない方、ぜひ、プレイしてみてくださいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/ex/ar_searcher/](http://www.pokemon.co.jp/ex/ar_searcher/)\n\n[http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html](http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/ex/ar_searcher/\" target=\"_new\">http://www.pokemon.co.jp/ex/ar_searcher/</a><br/>\n<a href=\"http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html\" target=\"_new\">http://www.nintendo.co.jp/3ds/eshop/ncgj/index.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/](http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/)\n\n[http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x](http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/\" target=\"_new\">http://www.pokemon.com/us/pokemon-video-games/pokemon-dream-radar/</a><br/>\n<a href=\"http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x\" target=\"_new\">http://www.nintendo.com/games/detail/LkW-geugqTdlGWQVECuUyjU0RaWX7t1x</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

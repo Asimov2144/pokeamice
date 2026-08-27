@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "article": 232,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "At last! The time has come.",
+      "images": [],
+      "source_html": "<p>At last! The time has come.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Tuesday, 8th of January. At 8.00pm of Japan time,\n\nwe will announce some Pokémon news to everyone!!\n\nI would like everyone to check it out!",
+      "images": [],
+      "source_html": "<p>On Tuesday, 8th of January. At 8.00pm of Japan time,<br/>\r\nwe will announce some Pokémon news to everyone!!<br/>\r\nI would like everyone to check it out!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I would like everyone to share this moment with\n\nyour family, love ones, friends and colleagues!!",
+      "images": [],
+      "source_html": "<p>I would like everyone to share this moment with<br/>\r\nyour family, love ones, friends and colleagues!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of course, everyone who love Pokémon,\n\nbut those who don’t know Pokémon yet are also welcome to join us!",
+      "images": [],
+      "source_html": "<p>Of course, everyone who love Pokémon,<br/>\r\nbut those who don’t know Pokémon yet are also welcome to join us!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I want everybody to check this info, therefore\n\nplease spread and share this information at office,\n\nschool, club activities, any circle!!\n\nI would like everyone to share and spread this news widely!",
+      "images": [],
+      "source_html": "<p>I want everybody to check this info, therefore<br/>\r\nplease spread and share this information at office,<br/>\r\nschool, club activities, any circle!!<br/>\r\nI would like everyone to share and spread  this news widely!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In Japan You can check official Pokémon website at 8:00PM on January the 8th.",
+      "images": [],
+      "source_html": "<p>In Japan You can check official Pokémon website at 8:00PM on January the 8th. </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For the exact time of the announcement in your time zone, please check the official Nintendo website.\n\nYou can find the links below.",
+      "images": [],
+      "source_html": "<p>For the exact time of the announcement in your time zone, please check the official Nintendo website.<br/>\r\nYou can find the links below.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I am also looking forward to it!",
+      "images": [],
+      "source_html": "<p>I am also looking forward to it! </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Japan\n\n8th(Tue) 8:00PM",
+      "images": [],
+      "source_html": "<p>Japan<br/>\r\n8th(Tue) 8:00PM</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "USA Eastern Time\n\n8th (Tue) 6:00AM",
+      "images": [],
+      "source_html": "<p>USA Eastern Time<br/>\r\n8th (Tue) 6:00AM</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "USA Pacific Time\n\n8th (Tue) 3:00AM",
+      "images": [],
+      "source_html": "<p>USA Pacific Time<br/>\r\n8th (Tue) 3:00AM</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "United Kingdom\n\n8th(Tue)11:00AM",
+      "images": [],
+      "source_html": "<p>United Kingdom<br/>\r\n8th(Tue)11:00AM</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "France, Italy, Germany, Spain\n\n8th (Tue) 12:00PM",
+      "images": [],
+      "source_html": "<p>France, Italy, Germany, Spain<br/>\r\n8th (Tue) 12:00PM</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokémon Official Site:\n\n[http://www.pokemon.com/](http://www.pokemon.com/)\n\n[http://www.pokemon.co.jp/ex/important_announce/?a001=msign](http://www.pokemon.co.jp/ex/important_announce/?a001=msign)",
+      "images": [],
+      "source_html": "<p>Pokémon Official Site:<br/>\n<a href=\"http://www.pokemon.com/\" target=\"_blank\">http://www.pokemon.com/</a><br/>\n<a href=\"http://www.pokemon.co.jp/ex/important_announce/?a001=msign\" target=\"_blank\">http://www.pokemon.co.jp/ex/important_announce/?a001=msign</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Nintendo Homepage:\n\n[http://www.nintendo.co.jp/](http://www.nintendo.co.jp/)\n\n[http://www.nintendo.com/](http://www.nintendo.com/?country=US&lang=en)\n\n[http://www.nintendo.fr/](http://www.nintendo.fr/)\n\n[http://www.nintendo.it/](http://www.nintendo.it/)\n\n[http://www.nintendo.de/](http://www.nintendo.de/)\n\n[http://www.nintendo.es/](http://www.nintendo.es/)",
+      "images": [],
+      "source_html": "<p>Nintendo Homepage:<br/>\n<a href=\"http://www.nintendo.co.jp/\" target=\"_blank\">http://www.nintendo.co.jp/</a><br/>\n<a href=\"http://www.nintendo.com/?country=US&amp;lang=en\" target=\"_blank\">http://www.nintendo.com/</a><br/>\n<a href=\"http://www.nintendo.fr/\" target=\"_blank\">http://www.nintendo.fr/</a><br/>\n<a href=\"http://www.nintendo.it/\" target=\"_blank\">http://www.nintendo.it/</a><br/>\n<a href=\"http://www.nintendo.de/\" target=\"_blank\">http://www.nintendo.de/</a><br/>\n<a href=\"http://www.nintendo.es/\" target=\"_blank\">http://www.nintendo.es/</a></p>"
+    }
+  ]
+}

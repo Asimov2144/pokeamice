@@ -1,0 +1,86 @@
+id: masuda-080
+number: 80
+month: 2007-04
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-80
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-80
+    permalink_validated: true
+    date: '2007-04-19'
+    date_display: 04.19.2007
+    categories:
+    - Diary
+    lead: Trip to Germany (4)
+    raw_page: archive/gamefreak-director/raw/en/2007/04/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%98%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%98%ef%bc%90%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-04-19'
+    date_display: 2007.04.19
+    categories:
+    - 日記
+    lead: ドイツ（４）
+    raw_page: archive/gamefreak-director/raw/ja/2007/04/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:15+00:00'
+assets:
+- id: 080-en-ger001
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger001.jpg
+  local_path: archive/gamefreak-director/assets/original/080/en/ger001.jpg
+  sha256: 40b9f5ea92ec549a52b2f26f00c1b5b3e600442f366226beffc76e9e937b4fdc
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 080-ja-ger0011
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger0011.jpg
+  local_path: archive/gamefreak-director/assets/original/080/ja/ger0011.jpg
+  sha256: 40b9f5ea92ec549a52b2f26f00c1b5b3e600442f366226beffc76e9e937b4fdc
+  capture_source: source-url-correction
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger001.jpg
+- id: 080-multi-ger002
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger002.jpg
+  local_path: archive/gamefreak-director/assets/original/080/multi/ger002.jpg
+  sha256: e5d1bda44cbbfa188d8f6cc28ef6c8430691027455e7c4d1134368cbedd1dd3d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 080-multi-ger003
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger003.jpg
+  local_path: archive/gamefreak-director/assets/original/080/multi/ger003.jpg
+  sha256: 73f24bd109bf09cdba5ff5e1d959b422efedd1d10054bd08d55a22a864f10905
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 080-multi-ger004
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/08/ger004.jpg
+  local_path: archive/gamefreak-director/assets/original/080/multi/ger004.jpg
+  sha256: f4e082a3c520c0b67c3d016f4cc593a74cbe487e7d55dd9e7ee22fee4bac11d9
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

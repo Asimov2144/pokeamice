@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "article": 131,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Finally at last,\n\n“Pocket Monsters Platinum (Japanese title)” have launched\n\nlast Saturday, September 13th in Japan.",
+      "images": [],
+      "source_html": "<p>Finally at last,<br/>\r\n“Pocket Monsters Platinum (Japanese title)” have launched<br/>\r\nlast Saturday, September 13th in Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our development staff have spent days\n\nwith their great energy and affection\n\nto make this game ultimate.\n\nPlease play and enjoy!",
+      "images": [],
+      "source_html": "<p>Our development staff have spent days<br/>\r\nwith their great energy and affection<br/>\r\nto make this game ultimate.<br/>\r\nPlease play and enjoy!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Addition to this!\n\nDue to hectic days,\n\nit might be little late to report…",
+      "images": [],
+      "source_html": "<p>Addition to this!<br/>\r\nDue to hectic days,<br/>\r\nit might be little late to report…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’ve visited Florida!",
+      "images": [],
+      "source_html": "<p>I’ve visited Florida!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It was the first time to have the\n\nPokemon video game battle between Japan and US.\n\nThe battle arena was located next to the\n\n“Card World Championships” booth.\n\nThis is the first time to have a competition\n\nfor both countries.",
+      "images": [],
+      "source_html": "<p>It was the first time to have the<br/>\r\nPokemon video game battle between Japan and US.<br/>\r\nThe battle arena was located next to the<br/>\r\n“Card World Championships” booth.<br/>\r\nThis is the first time to have a competition<br/>\r\nfor both countries.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Video Game Showdown 2008″\n\nIt was just awesome.",
+      "images": [],
+      "source_html": "<p>“Video Game Showdown 2008″<br/>\r\nIt was just awesome.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Although many incidents needed to be improved,\n\nbut this Video Game Showdown was extremely HOT\n\nas well as Pokemon card championship!\n\nAll participants are not only knows Pokemon\n\nbut comprehend Pokemon battle very well.\n\nJust splendid!\n\nEach and every battle was marvelous.",
+      "images": [],
+      "source_html": "<p>Although many incidents needed to be improved,<br/>\r\nbut this Video Game Showdown was extremely HOT<br/>\r\nas well as Pokemon card championship!<br/>\r\nAll participants are not only knows Pokemon<br/>\r\nbut comprehend Pokemon battle very well.<br/>\r\nJust splendid!<br/>\r\nEach and every battle was marvelous.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The WORLD video game championship will be\n\nheld next year.\n\nBe the region champ and climb toward the final stage\n\nwhich wiｌｌ be held in the west coast of United States!\n\nAnd aim for the top of the world!!",
+      "images": [],
+      "source_html": "<p>The WORLD video game championship will be<br/>\r\nheld next year.<br/>\r\nBe the region champ and climb toward the final stage<br/>\r\nwhich wiｌｌ be held in the west coast of United States!<br/>\r\nAnd aim for the top of the world!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please check following sight for details.\n\n[http://www.pokemon.co.jp/special/wcs0809/](http://www.pokemon.co.jp/special/wcs0809/)",
+      "images": [],
+      "source_html": "<p>Please check following sight for details.<br/>\n<a href=\"http://www.pokemon.co.jp/special/wcs0809/\" target=\"_blank\">http://www.pokemon.co.jp/special/wcs0809/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"131-multi-131a\" %}{% image id=\"131-multi-131b\" %}",
+      "images": [
+        "131-multi-131a",
+        "131-multi-131b"
+      ],
+      "source_html": "<p><img alt=\"131a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131a.jpg\"/><img alt=\"131b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131b.jpg\"><img alt=\"131c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131c.jpg\"/><img alt=\"131f.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131f.jpg\"/><img alt=\"131d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131d.jpg\"/><img alt=\"131e.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2008/09/131e.jpg\"/></img></p>"
+    }
+  ]
+}

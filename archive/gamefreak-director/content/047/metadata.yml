@@ -1,0 +1,46 @@
+id: masuda-047
+number: 47
+month: 2005-07
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-47
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-47
+    permalink_validated: true
+    date: '2005-07-28'
+    date_display: 07.28.2005
+    categories:
+    - Pokemon
+    lead: As you can find the information about it in the August issue of Coro Coro
+      Comics (a Japanese manga magazine) that is currently on sale, (this column was
+      written in 2005, and that issue is no longer available for purchase). When you
+      play Pokemon Diamond and Pearl, you can link with Pokemon games for GameBoy
+      Advance, such as Pokemon Ruby and Sapphire, FireRed and LeafGreen, and Emerald.
+    raw_page: archive/gamefreak-director/raw/en/2005/07/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/07/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%94%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-07-28'
+    date_display: 2005.07.28
+    categories:
+    - ポケモン
+    lead: 発売中のコロコロコミック８月号にも載っていますが、 ポケットモンスター　ダイヤモンド＆パールでは、 ゲームボーイアドバンス用のソフト、 ルビー＆サファイア、ファイアレッド＆リーフグリーン、エメラルドの
+      ５つのソフトと繋がります。
+    raw_page: archive/gamefreak-director/raw/ja/2005/07/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:11+00:00'
+assets: []

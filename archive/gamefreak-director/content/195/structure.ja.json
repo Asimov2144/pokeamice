@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "article": 195,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさまへ、嬉しいご報告です！",
+      "images": [],
+      "source_html": "<p>みなさまへ、嬉しいご報告です！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "東京の銀座線、青山一丁目駅を降りて歩きます。\n\n{% image id=\"195-ja-195a\" %}",
+      "images": [
+        "195-ja-195a"
+      ],
+      "source_html": "<p>東京の銀座線、青山一丁目駅を降りて歩きます。<br/>\n<img alt=\"195a.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/195a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そこは、明治記念館。\n\n{% image id=\"195-ja-195b\" %}",
+      "images": [
+        "195-ja-195b"
+      ],
+      "source_html": "<p>そこは、明治記念館。<br/>\n<img alt=\"195b.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/195b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そうです、第１６回AMDアワードにて\n\n年間コンテンツ賞「優秀賞」受賞の９作品のひとつに選ばれ、\n\nさらに、AMD理事長賞をいただきました！！",
+      "images": [],
+      "source_html": "<p>そうです、第１６回AMDアワードにて<br/>\r\n年間コンテンツ賞「優秀賞」受賞の９作品のひとつに選ばれ、<br/>\r\nさらに、AMD理事長賞をいただきました！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"195-ja-195c\" %}",
+      "images": [
+        "195-ja-195c"
+      ],
+      "source_html": "<p><img alt=\"195c.jpg\" src=\"/blog/dir/wp-content/uploads/2011/06/195c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "映画や映像、ソフト、インターネット、AKB48と、\n\n非常に幅広い中で優秀賞とAMD理事長賞を戴けたこと、\n\n本当に嬉しく思っています。",
+      "images": [],
+      "source_html": "<p>映画や映像、ソフト、インターネット、AKB48と、<br/>\r\n非常に幅広い中で優秀賞とAMD理事長賞を戴けたこと、<br/>\r\n本当に嬉しく思っています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "代表してマスダが２つの賞を貰いましたが、\n\nこれは、スタッフ全員で頑張った証。\n\n開発スタッフのみんな、本当に頑張った甲斐あったね！おめでとう！",
+      "images": [],
+      "source_html": "<p>代表してマスダが２つの賞を貰いましたが、<br/>\r\nこれは、スタッフ全員で頑張った証。<br/>\r\n開発スタッフのみんな、本当に頑張った甲斐あったね！おめでとう！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そしてもちろん、受賞は作品を支持して下さったみなさまのおかげでもあります。\n\n本当にありがとうございます！",
+      "images": [],
+      "source_html": "<p>そしてもちろん、受賞は作品を支持して下さったみなさまのおかげでもあります。<br/>\r\n本当にありがとうございます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "最前列、左から３番目がマスダ。目が恐い。。。\n\n[http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet](http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet)",
+      "images": [],
+      "source_html": "<p>最前列、左から３番目がマスダ。目が恐い。。。<br/>\n<a href=\"http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet\" target=\"_blank\">http://headlines.yahoo.co.jp/hl?a=20110531-00000060-impress-inet</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.famitsu.com/news/201105/31044403.html](http://www.famitsu.com/news/201105/31044403.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.famitsu.com/news/201105/31044403.html\" target=\"_blank\">http://www.famitsu.com/news/201105/31044403.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 143,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "This is Masuda, reporting from San Francisco at 7:10 PM.",
+      "images": [],
+      "source_html": "<p>This is Masuda, reporting from San Francisco at 7:10 PM.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "After having eight interviews,\n\nI’ve return to the hotel to write this column.",
+      "images": [],
+      "source_html": "<p>After having eight interviews,<br/>\r\nI’ve return to the hotel to write this column.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I had a wonderful time having an interview today, because\n\nmajority of interviewers are big fan of Pokemon!",
+      "images": [],
+      "source_html": "<p>I had a wonderful time having an interview today, because<br/>\r\nmajority of interviewers are big fan of Pokemon!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Not like domestic interviews,\n\noverseas interviewers are not asking detailed game questions,\n\nbut many question with more broader vision of video games.\n\nIt is little tough to answer,\n\nbut their questions were quite interesting.",
+      "images": [],
+      "source_html": "<p>Not like domestic interviews,<br/>\r\noverseas interviewers are not asking detailed game questions,<br/>\r\nbut many question with more broader vision of video games.<br/>\r\nIt is little tough to answer,<br/>\r\nbut their questions were quite interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Director of Pokemon Platinum, Kawachimaru\n\nseemed bit tired, but looked stimulated.",
+      "images": [],
+      "source_html": "<p>Director of Pokemon Platinum, Kawachimaru<br/>\r\nseemed bit tired, but looked stimulated.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Platinum North American version will be\n\nlaunching on March 22nd!!",
+      "images": [],
+      "source_html": "<p>Pokemon Platinum North American version will be<br/>\r\nlaunching on March 22nd!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "BTW, I’ve visited Golden Gate Bridge!\n\nI’ll write about this after I returned to Japan.\n\nPlease wait!",
+      "images": [],
+      "source_html": "<p>BTW, I’ve visited Golden Gate Bridge!<br/>\r\nI’ll write about this after I returned to Japan.<br/>\r\nPlease wait!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 178,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Thank you very much, everyone!!!",
+      "images": [],
+      "source_html": "<p>Thank you very much, everyone!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With your support, Pokemon Black/White\n\nsold 2.55million copies on the first week!\n\nThis is DS’s game record!\n\nReserved number was 1.88 million copies!",
+      "images": [],
+      "source_html": "<p>With your support, Pokemon Black/White<br/>\r\nsold <span style=\"font-size: 130%; font-weight: bold\">2.55million</span> copies on the first week!<br/>\r\nThis is <span style=\"font-size: 130%; font-weight: bold\">DS’s game record!</span><br/>\r\nReserved number was <span style=\"font-size: 130%; font-weight: bold\">1.88 million</span> copies!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thank you very much!!",
+      "images": [],
+      "source_html": "<p>Thank you very much!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I hope you’ll enjoy the game!",
+      "images": [],
+      "source_html": "<p>I hope you’ll enjoy the game!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*Pokemon Black/White is launched only in Japan.",
+      "images": [],
+      "source_html": "<p>*Pokemon Black/White is launched only in Japan.</p>"
+    }
+  ]
+}

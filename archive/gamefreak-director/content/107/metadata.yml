@@ -1,0 +1,54 @@
+id: masuda-107
+number: 107
+month: 2007-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no107
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no107
+    permalink_validated: true
+    date: '2007-10-01'
+    date_display: 10.01.2007
+    categories:
+    - Diary
+    - Pokemon
+    lead: On September 29th (Sat), I went to the International conference hall inside
+      Waseda University’s comprehensive academic information center in Takadanobaba,
+      Tokyo.
+    raw_page: archive/gamefreak-director/raw/en/2007/10/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%90%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-10-01'
+    date_display: 2007.10.01
+    categories:
+    - ポケモン
+    - 日記
+    lead: ９月２９日（土）に東京都、高田馬場にある 早稲田大学総合学術情報センター内、国際会議場に行ってきました。
+    raw_page: archive/gamefreak-director/raw/ja/2007/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:18+00:00'
+assets:
+- id: 107-multi-107
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/10/107.jpg
+  local_path: archive/gamefreak-director/assets/original/107/multi/107.jpg
+  sha256: c7dac37a64ba70e4daf52aee3d9377eccd0bfd50e18973cb8893137ae0eb0b3b
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "article": 146,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Hooray to “Pokemon Center Tokyo”!!",
+      "images": [],
+      "source_html": "<p>Hooray to “Pokemon Center Tokyo”!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Center Tokyo have selected as the third place in…\n\n“2008: Overseas travelers’ most wanted place to visit in Japan.”",
+      "images": [],
+      "source_html": "<p>Pokemon Center Tokyo have selected as the third place in…<br/>\r\n“2008: Overseas travelers’ most wanted place to visit in Japan.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The sight named “TripAdvisor” came up with the conclusion\n\nbased on their website calculation.",
+      "images": [],
+      "source_html": "<p>The sight named “TripAdvisor” came up with the conclusion<br/>\r\nbased on their website calculation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": ">2008: Overseas travelers’ most wanted place to visit in Japan ranking.",
+      "images": [],
+      "source_html": "<p>&gt;2008: Overseas travelers’ most wanted place to visit in Japan ranking.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "1 Tsukiji Fish Market / Tokyo\n\n2 Tokyo Disneyland / Chiba\n\n3 Pokemon Center Tokyo / Tokyo\n\n4 Roppongi Hills / Tokyo\n\n5 Tokyo Disney Sea / Chiba\n\n6 Sensoji (Asakusa Kannon Temple) / Tokyo\n\n7 Kinkakuji (Golden Pavilion) / Kyoto\n\n8 Fushimi Inari Shrine / Kyoto\n\n9 Spa World / Osaka\n\n10 Universal Studios Japan / Osaka\n\n11 Oedo-Onsen-Monogatari / Tokyo\n\n12 Kiyomizu Temple / Kyoto\n\n13 La Qua / Tokyo\n\n14 Osaka Castle / Osaka\n\n15 Meiji Jingu / Tokyo\n\n16 Takaragawa Onsen / Gunma\n\n17 Osaka Aquarium Kaiyukan / Osaka\n\n18 Shitennoji / Osaka\n\n19 Hokkaido Jingu / Hokkaido\n\n20 Shinjuku Gyoen National Garden / Tokyo",
+      "images": [],
+      "source_html": "<p>1 Tsukiji Fish Market / Tokyo<br/>\r\n2 Tokyo Disneyland / Chiba<br/>\n<span style=\"font-size: 120%; color: #ff0000\">3 Pokemon Center Tokyo / Tokyo</span><br/>\r\n4 Roppongi Hills / Tokyo<br/>\r\n5 Tokyo Disney Sea / Chiba<br/>\r\n6 Sensoji (Asakusa Kannon Temple) / Tokyo<br/>\r\n7 Kinkakuji (Golden Pavilion) / Kyoto<br/>\r\n8 Fushimi Inari Shrine / Kyoto<br/>\r\n9 Spa World / Osaka<br/>\r\n10 Universal Studios Japan / Osaka<br/>\r\n11 Oedo-Onsen-Monogatari / Tokyo<br/>\r\n12 Kiyomizu Temple / Kyoto<br/>\r\n13 La Qua / Tokyo<br/>\r\n14 Osaka Castle / Osaka<br/>\r\n15 Meiji Jingu / Tokyo<br/>\r\n16 Takaragawa Onsen / Gunma<br/>\r\n17 Osaka Aquarium Kaiyukan / Osaka<br/>\r\n18 Shitennoji / Osaka<br/>\r\n19 Hokkaido Jingu / Hokkaido<br/>\r\n20 Shinjuku Gyoen National Garden / Tokyo</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "for more info; TripAdvisor [http://www.tripadvisor.jp/HotSpotsJapan](http://www.tripadvisor.jp/HotSpotsJapan)",
+      "images": [],
+      "source_html": "<p>for more info; TripAdvisor <a href=\"http://www.tripadvisor.jp/HotSpotsJapan\" target=\"_blank\">http://www.tripadvisor.jp/HotSpotsJapan</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Isn’ it cool?\n\nSee ya!",
+      "images": [],
+      "source_html": "<p>Isn’ it cool?<br/>\r\nSee ya!</p>"
+    }
+  ]
+}

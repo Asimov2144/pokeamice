@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "article": 69,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I think when you play Pokemon Diamond and Pearl,\n\nyou realize that the player character enters\n\nvarious houses and buildings again and again.",
+      "images": [],
+      "source_html": "<p>I think when you play Pokemon Diamond and Pearl,<br/>\r\nyou realize that the player character enters<br/>\r\nvarious houses and buildings again and again.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We created various ways of showing how\n\nthe player character goes in and comes out.\n\nToday I’d like to write about that.",
+      "images": [],
+      "source_html": "<p>We created various ways of showing how<br/>\r\nthe player character goes in and comes out.<br/>\r\nToday I’d like to write about that.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "First, when the player character goes inside\n\na house. We wanted the players to feel as\n\nstrongly as possible the fact that they are\n\nmoving into a small space called a house.",
+      "images": [],
+      "source_html": "<p>First, when the player character goes inside<br/>\r\na house. We wanted the players to feel as<br/>\r\nstrongly as possible the fact that they are<br/>\r\nmoving into a small space called a house.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, when the player character gets out of\n\na house, we wanted the players to feel\n\nthat they have moved from a small space\n\nthat is the inside of the house to a large\n\nspace called the field as strongly as possible.\n\nWe staged the screen with that in mind.",
+      "images": [],
+      "source_html": "<p>Also, when the player character gets out of<br/>\r\na house, we wanted the players to feel<br/>\r\nthat they have moved from a small space<br/>\r\nthat is the inside of the house to a large<br/>\r\nspace called the field as strongly as possible.<br/>\r\nWe staged the screen with that in mind.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The act of going in and that of coming out\n\nhas slightly different meanings, so we prepared\n\ntwo ways of presenting the scene,\n\none for going in and the other for coming out.",
+      "images": [],
+      "source_html": "<p>The act of going in and that of coming out<br/>\r\nhas slightly different meanings, so we prepared<br/>\r\ntwo ways of presenting the scene,<br/>\r\none for going in and the other for coming out.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The aspect we were concerned the most\n\nwas the speed of the movement.\n\nThe player character goes in and comes out\n\nof many houses for a considerable\n\nnumber of times.\n\nSo, we tried to make the player character move\n\nas quickly as possible.",
+      "images": [],
+      "source_html": "<p>The aspect we were concerned the most<br/>\r\nwas the speed of the movement.<br/>\r\nThe player character goes in and comes out<br/>\r\nof many houses for a considerable<br/>\r\nnumber of times.<br/>\r\nSo, we tried to make the player character move<br/>\r\nas quickly as possible.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When the player character enters a house,\n\n(1) the screen is zoomed in\n\n(2) the door opens\n\n(3) the player character enters the house\n\n(4) and closes the door\n\n(5) the whole screen becomes gradually darker\n\nThis is the sequence of procedures that happens.",
+      "images": [],
+      "source_html": "<p>When the player character enters a house,<br/>\r\n(1) the screen is zoomed in<br/>\r\n(2) the door opens<br/>\r\n(3) the player character enters the house<br/>\r\n(4) and closes the door<br/>\r\n(5) the whole screen becomes gradually darker<br/>\r\nThis is the sequence of procedures that happens.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When the player character comes out of a house,\n\n(1) a: the screen becomes divided into two parts,\n\ntopmost and lowermost, and the whole screen becomes\n\nlighter;\n\nb: the magnified view returns to normal view\n\nc: the door opens\n\n[these three actions happen simultaneously]\n\n(2) the player character comes out of the house\n\n(3) and closes the door\n\nThis is how the sequence of procedures goes.",
+      "images": [],
+      "source_html": "<p>When the player character comes out of a house,<br/>\r\n(1) a: the screen becomes divided into two parts,<br/>\r\ntopmost and lowermost, and the whole screen becomes<br/>\r\nlighter;<br/>\r\nb: the magnified view returns to normal view<br/>\r\nc: the door opens<br/>\r\n[these three actions happen simultaneously]<br/>\r\n(2) the player character comes out of the house<br/>\r\n(3) and closes the door<br/>\r\nThis is how the sequence of procedures goes.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We decided that, when you enter a house,\n\nyou wouldn’t mind it if it takes some time\n\nbecause you have a sense of expectations.\n\nBut when you get out of the house, you’d want\n\nto act quickly because oftentimes you have other\n\nmission at hand!",
+      "images": [],
+      "source_html": "<p>We decided that, when you enter a house,<br/>\r\nyou wouldn’t mind it if it takes some time<br/>\r\nbecause you have a sense of expectations.<br/>\r\nBut when you get out of the house, you’d want<br/>\r\nto act quickly because oftentimes you have other<br/>\r\nmission at hand!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "While keeping such player’s desire in mind,\n\nwe need to stage the scene effectively.\n\nTherefore, the above-mentioned three features\n\nhappen simultaneously so that it doesn’t take\n\ntoo long.",
+      "images": [],
+      "source_html": "<p>While keeping such player’s desire in mind,<br/>\r\nwe need to stage the scene effectively.<br/>\r\nTherefore, the above-mentioned three features<br/>\r\nhappen simultaneously so that it doesn’t take<br/>\r\ntoo long.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Such stage production is also a small detail,\n\nbut we have more creative freedom than television\n\nor films because games are run by programs.\n\nThis of course means it takes more efforts,\n\nbut I think we should make the most of this\n\nfreedom and search for new ways of presentation.\n\nIt’s another aspect of game programming that\n\nI care about very much.",
+      "images": [],
+      "source_html": "<p>Such stage production is also a small detail,<br/>\r\nbut we have more creative freedom than television<br/>\r\nor films because games are run by programs.<br/>\r\nThis of course means it takes more efforts,<br/>\r\nbut I think we should make the most of this<br/>\r\nfreedom and search for new ways of presentation.<br/>\r\nIt’s another aspect of game programming that<br/>\r\nI care about very much.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "article": 57,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "こんにちは。",
+      "images": [],
+      "source_html": "<p>こんにちは。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "少し目覚めてきている増田です。",
+      "images": [],
+      "source_html": "<p>少し目覚めてきている増田です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "長らくお待たせ致しました！",
+      "images": [],
+      "source_html": "<p>長らくお待たせ致しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ついに、",
+      "images": [],
+      "source_html": "<p>ついに、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスター　ダイヤモンド・パールの発売日が発表されました！",
+      "images": [],
+      "source_html": "<p>ポケットモンスター　ダイヤモンド・パールの発売日が発表されました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２００６年９月２８日（木）です！",
+      "images": [],
+      "source_html": "<p>２００６年９月２８日（木）です！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今日から公開の映画を観ながら、、、、\n\n期待を膨らませながら、、、\n\n夏休みを思いっきり満喫しながら、、、\n\nもう少しだけお待ちくださいね。",
+      "images": [],
+      "source_html": "<p>今日から公開の映画を観ながら、、、、<br/>\r\n期待を膨らませながら、、、<br/>\r\n夏休みを思いっきり満喫しながら、、、<br/>\r\nもう少しだけお待ちくださいね。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "じっくり楽しめるゲームになっていると思いますので、\n\n予約はもちろん！！！！！\n\n発売されたときには、買ってくださいね！",
+      "images": [],
+      "source_html": "<p>じっくり楽しめるゲームになっていると思いますので、<br/>\r\n予約はもちろん！！！！！<br/>\r\n発売されたときには、買ってくださいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして最後までじっくりと細部まで遊び込んでください！\n\nそれが作り手としては何よりも嬉しいんですよね。これが。",
+      "images": [],
+      "source_html": "<p>そして最後までじっくりと細部まで遊び込んでください！<br/>\r\nそれが作り手としては何よりも嬉しいんですよね。これが。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では、みなさん！\n\nDPをどうぞよろしくお願いします！",
+      "images": [],
+      "source_html": "<p>では、みなさん！<br/>\r\nDPをどうぞよろしくお願いします！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "こちらもどうぞ。\n\n映画「みんなのゴニョニョ日誌」\n\n[http://blog.pokemon-movie.jp/](http://blog.pokemon-movie.jp/)\n\n[http://blog.pokemon-movie.jp/archives/2006/07/post_80.html](http://blog.pokemon-movie.jp/archives/2006/07/post_80.html)",
+      "images": [],
+      "source_html": "<p>こちらもどうぞ。<br/>\r\n映画「みんなのゴニョニョ日誌」<br/>\n<a href=\"http://blog.pokemon-movie.jp/\" target=\"_blank\">http://blog.pokemon-movie.jp/</a><br/>\n<a href=\"http://blog.pokemon-movie.jp/archives/2006/07/post_80.html\" target=\"_blank\">http://blog.pokemon-movie.jp/archives/2006/07/post_80.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

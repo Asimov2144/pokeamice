@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "article": 105,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "No. 103\n\ncategory: information",
+      "images": [],
+      "source_html": "<p>No. 103<br/>\r\ncategory: information</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On September 23rd (Sun) and 24th (Mon),\n\nI went to Matsuyama in Shikoku Island!",
+      "images": [],
+      "source_html": "<p>On September 23rd (Sun) and 24th (Mon),<br/>\r\nI went to Matsuyama in Shikoku Island!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "One of our staff who left the company to\n\nget married invited me to their wedding and\n\nthe following banquet.\n\nI’m so happy for her. Thank you!",
+      "images": [],
+      "source_html": "<p>One of our staff who left the company to<br/>\r\nget married invited me to their wedding and<br/>\r\nthe following banquet.<br/>\r\nI’m so happy for her. Thank you!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Shikoku was much warmer than in Tokyo and\n\nI was almost sweating!\n\nWith such nice weather, they had a truly\n\nwonderful wedding.\n\nThe bride, you were so pretty and elegant!",
+      "images": [],
+      "source_html": "<p>Shikoku was much warmer than in Tokyo and<br/>\r\nI was almost sweating!<br/>\r\nWith such nice weather, they had a truly<br/>\r\nwonderful wedding.<br/>\r\nThe bride, you were so pretty and elegant!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And the next day!\n\nI had some time to spare so I went on\n\nsightseeing!",
+      "images": [],
+      "source_html": "<p>And the next day!<br/>\r\nI had some time to spare so I went on<br/>\r\nsightseeing!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From my hotel I walked to Matsuyama castle.\n\nThere, you can choose to ride either the lift\n\nor the ropeway. Isn’t it rare!\n\nEither way, they take you to the middle.",
+      "images": [],
+      "source_html": "<p>From my hotel I walked to Matsuyama castle.<br/>\r\nThere, you can choose to ride either the lift<br/>\r\nor the ropeway. Isn’t it rare!<br/>\r\nEither way, they take you to the middle.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From there you have to walk!\n\nThe hill is rather steep and I was losing\n\nmy breath. I got all sweaty!",
+      "images": [],
+      "source_html": "<p>From there you have to walk!<br/>\r\nThe hill is rather steep and I was losing<br/>\r\nmy breath. I got all sweaty!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The stonewalls, the gates, the trees, the castle…\n\nJapanese castles are designed so that they\n\ncan best defend against an enemy, so that\n\nenemies find it the most difficult to attack.\n\nThey are, in a word, a fortress.\n\nI was moved by the beauty of the rounded stone\n\nwalls.\n\nAt the gate, you could see the castle tower\n\nin the distance, with its intimidating posture.\n\nAnd the pine trees were planted because they\n\ncould be turned into torches and medicine.\n\nAnd the building has numerous holes so that\n\nyou could attack the enemy with spears through\n\nthese holes.\n\nI learned a lot from these techniques.",
+      "images": [],
+      "source_html": "<p>The stonewalls, the gates, the trees, the castle…<br/>\r\nJapanese castles are designed so that they<br/>\r\ncan best defend against an enemy, so that<br/>\r\nenemies find it the most difficult to attack.<br/>\r\nThey are, in a word, a fortress.<br/>\r\nI was moved by the beauty of the rounded stone<br/>\r\nwalls.<br/>\r\nAt the gate, you could see the castle tower<br/>\r\nin the distance, with its intimidating posture.<br/>\r\nAnd the pine trees were planted because they<br/>\r\ncould be turned into torches and medicine.<br/>\r\nAnd the building has numerous holes so that<br/>\r\nyou could attack the enemy with spears through<br/>\r\nthese holes.<br/>\r\nI learned a lot from these techniques.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Matsuyama caslte in Ehime prefecture.\n\nIt was a wonderful construction with particular\n\nemphasis on defensive strategies.\n\nI’d recommend you visit there!\n\nI’m sure you can sense the philosophy of\n\nattack and of defense.",
+      "images": [],
+      "source_html": "<p>Matsuyama caslte in Ehime prefecture.<br/>\r\nIt was a wonderful construction with particular<br/>\r\nemphasis on defensive strategies.<br/>\r\nI’d recommend you visit there!<br/>\r\nI’m sure you can sense the philosophy of<br/>\r\nattack and of defense.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"105-multi-105a\" %} {% image id=\"105-multi-105b\" %}{% image id=\"105-multi-105c\" %}",
+      "images": [
+        "105-multi-105a",
+        "105-multi-105b",
+        "105-multi-105c"
+      ],
+      "source_html": "<p><span class=\"file-link image\"> </span><span class=\"file-link image\"></span><span class=\"file-link image\"><img alt=\"105a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105a.jpg\"/></span><span class=\"file-link image\"> </span><span class=\"file-link image\"><img alt=\"105b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105b.jpg\"/></span><span class=\"file-link image\"><img alt=\"105c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/09/105c.jpg\"/></span></p>"
+    }
+  ]
+}

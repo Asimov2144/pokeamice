@@ -1,0 +1,46 @@
+id: masuda-067
+number: 67
+month: 2007-01
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-67
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-67
+    permalink_validated: true
+    date: '2007-01-16'
+    date_display: 01.16.2007
+    categories:
+    - Diary
+    - Pokemon
+    lead: On January 9th (Tue), the ceremony for “Invitation Awards” was held at Grand
+      Hyatt Tokyo in Roppongi. (“Invitation Awards” are a prize to celebrate Japanese
+      image creators)
+    raw_page: archive/gamefreak-director/raw/en/2007/01/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/01/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%96%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%96%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-01-16'
+    date_display: 2007.01.16
+    categories:
+    - ポケモン
+    - 日記
+    lead: １月９日（火）六本木のグランドハイアット東京にて、 「インビテーション・アワード」の授賞式が行われました。 そこで！ゲーム賞をいただきました！
+      ゲーム業界が映像業界の一員として一緒に表彰されるのはとても嬉しいことです。
+    raw_page: archive/gamefreak-director/raw/ja/2007/01/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:13+00:00'
+assets: []

@@ -1,0 +1,29 @@
+samples:
+  - number: 1
+    month: "2004-08"
+    roles:
+      - first-entry
+    expected_languages:
+      - ja
+    known_missing_languages:
+      - en
+    minimum_article_assets: 0
+
+  - number: 73
+    month: "2007-01"
+    roles:
+      - official-english
+      - development-article
+    expected_languages:
+      - ja
+      - en
+    minimum_article_assets: 0
+
+  - number: 199
+    month: "2011-06"
+    roles:
+      - image-heavy
+    expected_languages:
+      - ja
+      - en
+    minimum_article_assets: 10

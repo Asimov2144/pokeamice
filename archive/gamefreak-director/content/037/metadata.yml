@@ -1,0 +1,41 @@
+id: masuda-037
+number: 37
+month: 2005-05
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-37
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-37
+    permalink_validated: true
+    date: '2005-05-30'
+    date_display: 05.30.2005
+    categories:
+    - Diary
+    lead: Last week, I went to E3 game show in LA!
+    raw_page: archive/gamefreak-director/raw/en/2005/05/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/05/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-05-30'
+    date_display: 2005.05.30
+    categories:
+    - 日記
+    lead: 先週LAで行われた、E3に行ってきました！
+    raw_page: archive/gamefreak-director/raw/ja/2005/05/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:10+00:00'
+assets: []

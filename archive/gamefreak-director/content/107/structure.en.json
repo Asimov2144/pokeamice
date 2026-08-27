@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "article": 107,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "On September 29th (Sat), I went to\n\nthe International conference hall inside\n\nWaseda University’s comprehensive academic information\n\ncenter in Takadanobaba, Tokyo.",
+      "images": [],
+      "source_html": "<p>On September 29th (Sat), I went to<br/>\r\nthe International conference hall inside<br/>\r\nWaseda University’s comprehensive academic information<br/>\r\ncenter in Takadanobaba, Tokyo.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We received a society award (industrial art) from\n\nJapan Information-Culturology Society.\n\nIt’s been more than 20 years since I last\n\nreceived a testimonial, but it was as gratifying\n\nas it was when I was young.",
+      "images": [],
+      "source_html": "<p>We received a society award (industrial art) from<br/>\r\nJapan Information-Culturology Society.<br/>\r\nIt’s been more than 20 years since I last<br/>\r\nreceived a testimonial, but it was as gratifying<br/>\r\nas it was when I was young.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Then, I gave a 30-minute speech, entitled\n\n‘The Information Culture Of Pokemon.’",
+      "images": [],
+      "source_html": "<p>Then, I gave a 30-minute speech, entitled<br/>\r\n‘The Information Culture Of Pokemon.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I was nervous in front of many distinguished\n\nscholars, but I felt it necessary to let them know\n\nabout Pokemon’s history and its position in today’s\n\nsociety. So I started from there.\n\nI talked about such topics as …\n\n* Pokemon was originally a video game.\n\n* In Pokemon, we’re striving to let players feel\n\nreal instead of presenting realistic visual images.\n\n* The world of Pokemon is based on Japanese culture\n\nbut various other cultures are also added and mixed.\n\n* Each Pokemon has its own individual information.\n\n* Players raise their Pokemon from its infant level so\n\nthat it becomes more different from any other Pokemon.\n\n* Looked from the informational viewpoint, almost\n\nevery Pokemon is different from others.\n\n* At present, those Pokemon are being traded between\n\ntotal strangers all over the Earth.\n\n* In just one month in August, 1.4 million\n\npeople traded Pokemon all over the world.\n\n* Information exchange between strangers around the\n\nglobe is probably the world’s first.\n\n* By translating mail automatically, players are\n\nexperiencing cultural exchanges.\n\n* Now we have a website called Pokemon GTS.",
+      "images": [],
+      "source_html": "<p>I was nervous in front of many distinguished<br/>\r\nscholars, but I felt it necessary to let them know<br/>\r\nabout Pokemon’s history and its position in today’s<br/>\r\nsociety. So I started from there.<br/>\r\nI talked about such topics as …<br/>\r\n* Pokemon was originally a video game.<br/>\r\n* In Pokemon, we’re striving to let players feel<br/>\r\nreal instead of presenting realistic visual images.<br/>\r\n* The world of Pokemon is based on Japanese culture<br/>\r\nbut various other cultures are also added and mixed.<br/>\r\n* Each Pokemon has its own individual information.<br/>\r\n* Players raise their Pokemon from its infant level so<br/>\r\nthat it becomes more different from any other Pokemon.<br/>\r\n* Looked from the informational viewpoint, almost<br/>\r\nevery Pokemon is different from others.<br/>\r\n* At present, those Pokemon are being traded between<br/>\r\ntotal strangers all over the Earth.<br/>\r\n* In just one month in August, 1.4 million<br/>\r\npeople traded Pokemon all over the world.<br/>\r\n* Information exchange between strangers around the<br/>\r\nglobe is probably the world’s first.<br/>\r\n* By translating mail automatically, players are<br/>\r\nexperiencing cultural exchanges.<br/>\r\n* Now we have a website called Pokemon GTS.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I tried to explain the act of trading worlds in\n\nterms of information culture.",
+      "images": [],
+      "source_html": "<p>I tried to explain the act of trading worlds in<br/>\r\nterms of information culture.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I talked about these topics using videos and\n\nPower Point, and many attendees seem to be\n\ninterested both in video games and in Pokemon.\n\nI’m really relieved. It was well worth my efforts!",
+      "images": [],
+      "source_html": "<p>I talked about these topics using videos and<br/>\r\nPower Point, and many attendees seem to be<br/>\r\ninterested both in video games and in Pokemon.<br/>\r\nI’m really relieved. It was well worth my efforts!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The fact was that I was asked to give a speech\n\njust two weeks ago, and I didn’t know whether\n\nI could do it or not because there wasn’t much\n\ntime for preparation. But I said I’d do it because\n\nI wanted to make more and more people understand\n\nwhat video games are and what Pokemon is.",
+      "images": [],
+      "source_html": "<p>The fact was that I was asked to give a speech<br/>\r\njust two weeks ago, and I didn’t know whether<br/>\r\nI could do it or not because there wasn’t much<br/>\r\ntime for preparation. But I said I’d do it because<br/>\r\nI wanted to make more and more people understand<br/>\r\nwhat video games are and what Pokemon is.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m glad to hear that my speech was received\n\nvery well.\n\nIt was a really good experience.",
+      "images": [],
+      "source_html": "<p>I’m glad to hear that my speech was received<br/>\r\nvery well.<br/>\r\nIt was a really good experience.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "PS:\n\nProfessor Katagata, Professor Sakamoto of Miyagi\n\nUniversity, thank you very much!",
+      "images": [],
+      "source_html": "<p>PS:<br/>\r\nProfessor Katagata, Professor Sakamoto of Miyagi<br/>\r\nUniversity, thank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thank you!\n\nSee ya.",
+      "images": [],
+      "source_html": "<p>Thank you!<br/>\r\nSee ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"107-multi-107\" %}",
+      "images": [
+        "107-multi-107"
+      ],
+      "source_html": "<p><img alt=\"107.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/10/107.jpg\"/></p>"
+    }
+  ]
+}

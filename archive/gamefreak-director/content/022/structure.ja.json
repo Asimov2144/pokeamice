@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 22,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "本日、ニンテンドーＤＳの発表会に行って来ました。",
+      "images": [],
+      "source_html": "<p> 本日、ニンテンドーＤＳの発表会に行って来ました。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いくつもの遊び道具が備わった夢が広がるハードだと改めて実感しました。\n\nとっても良い感じです。",
+      "images": [],
+      "source_html": "<p>いくつもの遊び道具が備わった夢が広がるハードだと改めて実感しました。<br/>\r\nとっても良い感じです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "この発表会で、（株）ポケモンの石原さんからアナウンスがあった通り、",
+      "images": [],
+      "source_html": "<p>この発表会で、（株）ポケモンの石原さんからアナウンスがあった通り、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケットモンスター　ダイヤモンド\n\nポケットモンスター　パール",
+      "images": [],
+      "source_html": "<p>ポケットモンスター　ダイヤモンド<br/>\r\nポケットモンスター　パール</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "を現在、ゲームフリークで開発しています。",
+      "images": [],
+      "source_html": "<p>を現在、ゲームフリークで開発しています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "まだまだ、何も言えませんが、\n\n究極のポケモンソフトを作るべく、日夜がんばっております。",
+      "images": [],
+      "source_html": "<p>まだまだ、何も言えませんが、<br/>\r\n究極のポケモンソフトを作るべく、日夜がんばっております。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いや。まじで面白いですよ。",
+      "images": [],
+      "source_html": "<p>いや。まじで面白いですよ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、応援、よろしくお願いいたします！",
+      "images": [],
+      "source_html": "<p>みなさん、応援、よろしくお願いいたします！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では。",
+      "images": [],
+      "source_html": "<p>では。</p>"
+    }
+  ]
+}

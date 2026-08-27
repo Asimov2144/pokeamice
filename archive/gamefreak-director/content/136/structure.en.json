@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 136,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Please check next “Pokemon Sunday”!",
+      "images": [],
+      "source_html": "<p>Please check next “Pokemon Sunday”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Sunday February 15th, I’ll make a brief\n\nappearance on “Pokemon Sunday”!",
+      "images": [],
+      "source_html": "<p>On Sunday February 15th, I’ll make a brief<br/>\r\nappearance on “Pokemon Sunday”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Kawachimaru, the director of Pokemon Platinum\n\nwill also have a appearance!",
+      "images": [],
+      "source_html": "<p>Kawachimaru, the director of Pokemon Platinum<br/>\r\nwill also have a appearance!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some of our development staff will be shown,\n\nunless it’s not crossed out.",
+      "images": [],
+      "source_html": "<p>Some of our development staff will be shown,<br/>\r\nunless it’s not crossed out.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I hope you can feel the atmosphere of our company!",
+      "images": [],
+      "source_html": "<p>I hope you can feel the atmosphere of our company!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… I was amazed at the ideas of what\n\nTV crew come up with.",
+      "images": [],
+      "source_html": "<p>And… I was amazed at the ideas of what<br/>\r\nTV crew come up with.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Don’t miss it!",
+      "images": [],
+      "source_html": "<p>Don’t miss it!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(“Pokemon Sunday” is a TV program\n\nwhich only aired in Japan.)",
+      "images": [],
+      "source_html": "<p>*(“Pokemon Sunday” is a TV program<br/>\r\nwhich only aired in Japan.)</p>"
+    }
+  ]
+}

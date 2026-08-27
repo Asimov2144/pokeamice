@@ -1,0 +1,44 @@
+id: masuda-215
+number: 215
+month: 2011-10
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2011/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-215
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-215
+    permalink_validated: true
+    date: '2011-10-18'
+    date_display: 10.18.2011
+    categories:
+    - Music
+    - Pokemon
+    lead: “N” Special!!! Part II of Pocket Monsters Black and White one year anniversary!
+      Here is a part of N’s initial draft.
+    raw_page: archive/gamefreak-director/raw/en/2011/10/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2011/10/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%91%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2011-10-14'
+    date_display: 2011.10.14
+    categories:
+    - ポケモン
+    - 音楽
+    lead: N特集！！！
+    raw_page: archive/gamefreak-director/raw/ja/2011/10/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:26+00:00'
+assets: []

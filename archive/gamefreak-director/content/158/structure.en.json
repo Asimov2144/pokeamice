@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 158,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I write this column in the train\n\non the way to the office using cellular phone.\n\nThere are many people doing many\n\nactivities in the train.",
+      "images": [],
+      "source_html": "<p>I write this column in the train<br/>\r\non the way to the office using cellular phone.<br/>\r\nThere are many people doing many<br/>\r\nactivities in the train.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "For examples…\n\n-reading bookﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 4 persons\n\n-reading newspaperﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person\n\n-reading comic magazineﾂ? 1 person\n\n-sleepingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 2 persons\n\n-using cellular phoneﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 3 persons\n\n-playing gameﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person\n\n-watching train adﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person\n\n-talkingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 5 persons\n\n-just sittingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person\n\njust like above.",
+      "images": [],
+      "source_html": "<p>For examples…<br/>\r\n-reading bookﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 4 persons<br/>\r\n-reading newspaperﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person<br/>\r\n-reading comic magazineﾂ? 1 person<br/>\r\n-sleepingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 2 persons<br/>\r\n-using cellular phoneﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 3 persons<br/>\r\n-playing gameﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person<br/>\r\n-watching train adﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person<br/>\r\n-talkingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 5 persons<br/>\r\n-just sittingﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ?ﾂ? 1 person<br/>\r\njust like above.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everybody spend their own time in the train.",
+      "images": [],
+      "source_html": "<p>Everybody spend their own time in the train.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think activities in the train differ depend on\n\ntime, train and country.",
+      "images": [],
+      "source_html": "<p>I think activities in the train differ depend on<br/>\r\ntime, train and country.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But one thing is in common.\n\nEvery passenger synchronizes based on the\n\nmovement of the train.",
+      "images": [],
+      "source_html": "<p>But one thing is in common.<br/>\r\nEvery passenger synchronizes based on the<br/>\r\nmovement of the train.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When there are many people\n\ncrossing their legs,\n\nand watching its movement…\n\nIt is quite interesting.",
+      "images": [],
+      "source_html": "<p>When there are many people<br/>\r\ncrossing their legs,<br/>\r\nand watching its movement…<br/>\r\nIt is quite interesting.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "What are you doing while riding in\n\nthe train?",
+      "images": [],
+      "source_html": "<p>What are you doing while riding in<br/>\r\nthe train?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

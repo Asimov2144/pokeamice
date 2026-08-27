@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 217,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Everyone!!",
+      "images": [],
+      "source_html": "<p>Everyone!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thanks for your support this year.",
+      "images": [],
+      "source_html": "<p>Thanks for your support this year.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Currently, the official sight of Pokémon Center Tokyo has\n\na limited edition.\n\nI expressed my strong feeling of Pokémon Center. =)\n\n[http://www.facebook.com/pokemoncentertokyo.official](http://www.facebook.com/pokemoncentertokyo.official)",
+      "images": [],
+      "source_html": "<p>Currently, the official sight of Pokémon Center Tokyo has<br/>\r\na limited edition.<br/>\r\nI expressed my strong feeling of Pokémon Center. =)<br/>\n<a href=\"http://www.facebook.com/pokemoncentertokyo.official\" target=\"_blank\">http://www.facebook.com/pokemoncentertokyo.official</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please take a look at it!!",
+      "images": [],
+      "source_html": "<p>Please take a look at it!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Don’t forget to”Like” this on the official page!!",
+      "images": [],
+      "source_html": "<p>Don’t forget to”Like” this on the official page!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You might win Pikachu goods!!\n\n[http://www.pokemon.co.jp/info/2011/11/111107_p01.html](http://www.pokemon.co.jp/info/2011/11/111107_p01.html)",
+      "images": [],
+      "source_html": "<p>You might win Pikachu goods!!<br/>\n<a href=\"http://www.pokemon.co.jp/info/2011/11/111107_p01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2011/11/111107_p01.html</a></p>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 118,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "‘Welcome! This is the Global Trade\n\nStation, or GTS for short.’\n\nGTS starts with above message by the lady\n\nat the counter.",
+      "images": [],
+      "source_html": "<p>‘Welcome! This is the Global Trade<br/>\r\nStation, or GTS for short.’<br/>\r\nGTS starts with above message by the lady<br/>\r\nat the counter.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I have a confident that the player will sure\n\nto trade their Pokemon at least once with this GTS system.\n\nHowever, I wondered how we could make the trade\n\nnumber of times…\n\nNot only domestic, but overseas trading,\n\nespecially the people you have never met.\n\nThis was the big theme of creating GTS in\n\nPokemon Diamond and Pearl.",
+      "images": [],
+      "source_html": "<p>I have a confident that the player will sure<br/>\r\nto trade their Pokemon at least once with this GTS system.<br/>\r\nHowever, I wondered how we could make the trade<br/>\r\nnumber of times…<br/>\r\nNot only domestic, but overseas trading,<br/>\r\nespecially the people you have never met.<br/>\r\nThis was the big theme of creating GTS in<br/>\r\nPokemon Diamond and Pearl.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I believe high game playability means,\n\nto make the game fun playing many times repeartedly.\n\nSame as this GTS.",
+      "images": [],
+      "source_html": "<p>I believe high game playability means,<br/>\r\nto make the game fun playing many times repeartedly.<br/>\r\nSame as this GTS.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "So we considered the following contents.\n\n>some Pokemon’s Pokedex descriptions are written in foreign language,\n\n>automatic mail translation,\n\n>the location of the opponent you traded is pointed on the globe,\n\n>country/city name is indicated when you set the cursor on the point,\n\n>rare colored Pokemon’s Egg can be found little easier,\n\n>Pokemon traded with different country have better growth\n\nthan the one normally traded,\n\nIdeas like above are incorporated in the game.",
+      "images": [],
+      "source_html": "<p>So we considered the following contents.<br/>\r\n&gt;some Pokemon’s Pokedex descriptions are written in foreign language,<br/>\r\n&gt;automatic mail translation,<br/>\r\n&gt;the location of the opponent you traded is pointed on the globe,<br/>\r\n&gt;country/city name is indicated when you set the cursor on the point,<br/>\r\n&gt;rare colored Pokemon’s Egg can be found little easier,<br/>\r\n&gt;Pokemon traded with different country have better growth<br/>\r\n  than the one normally traded,<br/>\r\nIdeas like above are incorporated in the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It requires a very large effort to make the player\n\nto play one certain thing.\n\nOnce the player lose the interest to the “Play”,\n\nthey will stop playing very easily.",
+      "images": [],
+      "source_html": "<p>It requires a very large effort to make the player<br/>\r\nto play one certain thing.<br/>\r\nOnce the player lose the interest to the “Play”,<br/>\r\nthey will stop playing very easily.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "To make the player not to get bored\n\n(which means ‘to make the player addictive’),\n\nit is important to set the variety of enjoyment entangled.\n\nEven it’s a small,\n\nif the idea’s theme is set to the right course,\n\nit is substantial to embrace to the game.\n\nPutting together the small pieces of fun elements,\n\nthose make the game more luxurious.",
+      "images": [],
+      "source_html": "<p>To make the player not to get bored<br/>\r\n(which means ‘to make the player addictive’),<br/>\r\nit is important to set the variety of enjoyment entangled.<br/>\r\nEven it’s a small,<br/>\r\nif the idea’s theme is set to the right course,<br/>\r\nit is substantial to embrace to the game.<br/>\r\nPutting together the small pieces of fun elements,<br/>\r\nthose make the game more luxurious.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Like this GTS,\n\nIt is very important to enunciate the theme\n\nloud and crystal clear.",
+      "images": [],
+      "source_html": "<p>Like this GTS,<br/>\r\nIt is very important to enunciate the theme<br/>\r\nloud and crystal clear.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

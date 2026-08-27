@@ -1,0 +1,114 @@
+id: masuda-117
+number: 117
+month: 2007-11
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no117
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no117
+    permalink_validated: true
+    date: '2007-11-28'
+    date_display: 11.28.2007
+    categories:
+    - Diary
+    lead: I’ve been wanted to ride that train for a long time… and… I finally made
+      it!!!
+    raw_page: archive/gamefreak-director/raw/en/2007/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%97%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-11-28'
+    date_display: 2007.11.28
+    categories:
+    - 日記
+    lead: ずっと乗りたかったんですが、、、ついに乗りました！！！
+    raw_page: archive/gamefreak-director/raw/ja/2007/11/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets:
+- id: 117-en-117a2
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2007/11/117a2.jpg
+  local_path: archive/gamefreak-director/assets/original/117/en/117a2.jpg
+  sha256: 355918f5ecd100054df7fb5544f3530c8b9695e57c4a78171024e9005922ba6f
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-en-117b2
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2007/11/117b2.jpg
+  local_path: archive/gamefreak-director/assets/original/117/en/117b2.jpg
+  sha256: 3632145c1cbdcbdbc7d43598d14a7fd3603d85b7ce6f1bdeb93c5506b141704f
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-en-117c2
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2007/11/117c2.jpg
+  local_path: archive/gamefreak-director/assets/original/117/en/117c2.jpg
+  sha256: 6fc6e6a38dda10889f711eb4679f554bb875307c8a9fc0f94c7ff4f3048b7111
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-en-117d2
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2007/11/117d2.jpg
+  local_path: archive/gamefreak-director/assets/original/117/en/117d2.jpg
+  sha256: 049eb505a48c980a52f1171144e3eae3c4c9665f471a8dbffb426de344158d02
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-ja-117a1
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/11/117a1.jpg
+  local_path: archive/gamefreak-director/assets/original/117/ja/117a1.jpg
+  sha256: 3229774c2a2cbbe01e99ebfb34d1b8087434b2422646442b673a26b2aa5a46fe
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-ja-117b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/11/117b.jpg
+  local_path: archive/gamefreak-director/assets/original/117/ja/117b.jpg
+  sha256: 9e1d23a08d8fd227d6581d55cd45b9d39c3b72b34749509c47b7898424796fa7
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-ja-117c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/11/117c.jpg
+  local_path: archive/gamefreak-director/assets/original/117/ja/117c.jpg
+  sha256: 4761515f512cacfbbe97ba12ab3ee34d99ba6a3fd5e5e567e949dcddbfbd2122
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 117-ja-117d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/11/117d.jpg
+  local_path: archive/gamefreak-director/assets/original/117/ja/117d.jpg
+  sha256: d4292cf63baca65a17a750a3b85d047ce9d79a4e535dcbe7c1d1a8069bc734b1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

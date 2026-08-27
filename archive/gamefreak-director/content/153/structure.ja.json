@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "article": 153,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "２００９年１１月２０日（金）午後１１時３０分。\n\n東京都渋谷区、渋谷駅前。\n\nスクランブル交差点にある４つの巨大ビジョンに映像が流れた。",
+      "images": [],
+      "source_html": "<p>２００９年１１月２０日（金）午後１１時３０分。<br/>\r\n東京都渋谷区、渋谷駅前。<br/>\r\nスクランブル交差点にある４つの巨大ビジョンに映像が流れた。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そう、翌２１日、「ポケットモンスター 金・銀」が発売され１０年を迎えるのだ。",
+      "images": [],
+      "source_html": "<p>そう、翌２１日、「ポケットモンスター 金・銀」が発売され１０年を迎えるのだ。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "その時の記念映像がこれだ！\n\n[http://www.youtube.com/watch?v=M4xQj4WfUgI](http://www.youtube.com/watch?v=M4xQj4WfUgI)",
+      "images": [],
+      "source_html": "<p>その時の記念映像がこれだ！<br/>\n<a href=\"http://www.youtube.com/watch?v=M4xQj4WfUgI\" target=\"_blank\">http://www.youtube.com/watch?v=M4xQj4WfUgI</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "マスダも見に行った、この映像。\n\n何か、懐かしさと大音量で流れる自分の曲に、\n\nちょっと嬉しくて感動的でした。",
+      "images": [],
+      "source_html": "<p>マスダも見に行った、この映像。<br/>\r\n何か、懐かしさと大音量で流れる自分の曲に、<br/>\r\nちょっと嬉しくて感動的でした。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２０１０年１月２９日からは、\n\n「ダイヤモンド・パール・プラチナ・ハートゴールド・ソウルシルバー」に向けて\n\nミュウの配信も行われますので、\n\nぜひ、みなさんもゲットしてくださいね！",
+      "images": [],
+      "source_html": "<p>２０１０年１月２９日からは、<br/>\r\n「ダイヤモンド・パール・プラチナ・ハートゴールド・ソウルシルバー」に向けて<br/>\r\nミュウの配信も行われますので、<br/>\r\nぜひ、みなさんもゲットしてくださいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "おまけ\n\n[http://www.famitsu.com/game/news/1229894_1124.html](http://www.famitsu.com/game/news/1229894_1124.html)\n\n[http://news.dengeki.com/elem/000/000/214/214674/](http://news.dengeki.com/elem/000/000/214/214674/)\n\n[http://news.dengeki.com/elem/000/000/215/215000/](http://news.dengeki.com/elem/000/000/215/215000/)",
+      "images": [],
+      "source_html": "<p>おまけ<br/>\n<a href=\"http://www.famitsu.com/game/news/1229894_1124.html\" target=\"_blank\">http://www.famitsu.com/game/news/1229894_1124.html</a><br/>\n<a href=\"http://news.dengeki.com/elem/000/000/214/214674/\" target=\"_blank\">http://news.dengeki.com/elem/000/000/214/214674/</a><br/>\n<a href=\"http://news.dengeki.com/elem/000/000/215/215000/\" target=\"_blank\">http://news.dengeki.com/elem/000/000/215/215000/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"153-ja-091126\" %}",
+      "images": [
+        "153-ja-091126"
+      ],
+      "source_html": "<p><img alt=\"ピース！\" src=\"/blog/dir/wp-content/uploads/2009/11/091126.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ピース！！",
+      "images": [],
+      "source_html": "<p>ピース！！</p>"
+    }
+  ]
+}

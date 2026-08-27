@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 53,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさま、お待たせ致しました！",
+      "images": [],
+      "source_html": "<p>みなさま、お待たせ致しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲームボーイアドバンス用ソフト",
+      "images": [],
+      "source_html": "<p>ゲームボーイアドバンス用ソフト</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "スクリューブレイカー\n\n轟振どりるれろ",
+      "images": [],
+      "source_html": "<p><span style=\"color:#ff3300\">スクリューブレイカー<br/>\r\n轟振どりるれろ</span></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "本日、２００５年９月２２日、ついに発売です！！！",
+      "images": [],
+      "source_html": "<p>本日、２００５年９月２２日、ついに発売です！！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "久々にゲームフリーク制作のアクションゲーム！！\n\n振動カートリッジ、杉森建の５ページマンガ付き！\n\nこのマンガで「どりるれろ」の理由が分かる！",
+      "images": [],
+      "source_html": "<p>久々にゲームフリーク制作のアクションゲーム！！<br/>\r\n振動カートリッジ、杉森建の５ページマンガ付き！<br/>\r\nこのマンガで「どりるれろ」の理由が分かる！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ポケモンと同じく愛情を掛けて創り上げました！\n\nゲームフリークスタッフから自信を込めて、\n\nこの世に送り出します！！",
+      "images": [],
+      "source_html": "<p>ポケモンと同じく愛情を掛けて創り上げました！<br/>\r\nゲームフリークスタッフから自信を込めて、<br/>\r\nこの世に送り出します！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ぜひぜひ、お買い求め下さい！",
+      "images": [],
+      "source_html": "<p>ぜひぜひ、お買い求め下さい！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！（今からお店に行ってきます！）",
+      "images": [],
+      "source_html": "<p>チャオ！（今からお店に行ってきます！）</p>"
+    }
+  ]
+}

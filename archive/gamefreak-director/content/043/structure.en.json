@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 43,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "I’ve got to get on the 8:20 train!\n\nI’ll be late for 9 am class!",
+      "images": [],
+      "source_html": "<p>I’ve got to get on the 8:20 train!<br/>\r\nI’ll be late for 9 am class!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "These will force us into the fight against time.",
+      "images": [],
+      "source_html": "<p>These will force us into the fight against time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because time is fixed, we need to follow it.",
+      "images": [],
+      "source_html": "<p>Because time is fixed, we need to follow it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If there was not a fixed timetable for trains,\n\nor if the time to start class or work was not\n\nset beforehand, you wouldn’t have to worry about it.\n\nAnd you would have a more relaxed mind.",
+      "images": [],
+      "source_html": "<p>If there was not a fixed timetable for trains,<br/>\r\nor if the time to start class or work was not<br/>\r\nset beforehand, you wouldn’t have to worry about it.<br/>\r\nAnd you would have a more relaxed mind.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because time is fixed,\n\nyou try to be on the safe side and\n\ndo stuff in advance.\n\nThen, you start to notice things that\n\nyou didn’t notice before.\n\nWhen you have time to spare,\n\nyou will have more room in your heart.\n\nYou might help an old lady with her bag,\n\nor do something you normally wouldn’t do.\n\nYou might become more kind.\n\nYou might take notice of weeds around your house,\n\nor flowers, or the moon on the way home, or the stars.\n\nThings you didn’t notice before.",
+      "images": [],
+      "source_html": "<p>Because time is fixed,<br/>\r\nyou try to be on the safe side and<br/>\r\ndo stuff in advance.<br/>\r\nThen, you start to notice things that<br/>\r\nyou didn’t notice before.<br/>\r\nWhen you have time to spare,<br/>\r\nyou will have more room in your heart.<br/>\r\nYou might help an old lady with her bag,<br/>\r\nor do something you normally wouldn’t do.<br/>\r\nYou might become more kind.<br/>\r\nYou might take notice of weeds around your house,<br/>\r\nor flowers, or the moon on the way home, or the stars.<br/>\r\nThings you didn’t notice before.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "If you think that way, time affects us very strongly,\n\ndoesn’t it?\n\nAlso, wouldn’t you agree that everyone in Japan\n\nis too time-conscious and hypersensitive about time?",
+      "images": [],
+      "source_html": "<p>If you think that way, time affects us very strongly,<br/>\r\ndoesn’t it?<br/>\r\nAlso, wouldn’t you agree that everyone in Japan<br/>\r\nis too time-conscious and hypersensitive about time?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "These days I’m getting conscious of how time affects us.",
+      "images": [],
+      "source_html": "<p>These days I’m getting conscious of how time affects us.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’d rather live a more relaxed, slow life.",
+      "images": [],
+      "source_html": "<p>I’d rather live a more relaxed, slow life.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "article": 206,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Charging energy at San Diego,\n\nthe next day of arriving Japan.",
+      "images": [],
+      "source_html": "<p>Charging energy at San Diego,<br/>\r\nthe next day of arriving Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Tokyo is hot!\n\nHumidity is just enormous!\n\nIt’s like tropical jungle!",
+      "images": [],
+      "source_html": "<p>Tokyo is hot!<br/>\r\nHumidity is just enormous!<br/>\r\nIt’s like tropical jungle!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Such day…",
+      "images": [],
+      "source_html": "<p>Such day…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "at this location!",
+      "images": [],
+      "source_html": "<p>at this location!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"206-multi-206a\" %}",
+      "images": [
+        "206-multi-206a"
+      ],
+      "source_html": "<p><img alt=\"206a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/206a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Yes, it’s Tokyo Tower!!",
+      "images": [],
+      "source_html": "<p>Yes, it’s Tokyo Tower!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here at Tokyo Tower,\n\n[Pokémon Card game’s summer carnival](http://www.pokemon-card.com/event/card-event/summer_carnival/) is\n\ncurrently taking place.\n\nIt will be held till Sunday August 28th.\n\nOpening everyday!",
+      "images": [],
+      "source_html": "<p>Here at Tokyo Tower,<br/>\n<a href=\"http://www.pokemon-card.com/event/card-event/summer_carnival/\" target=\"_blank\">Pokémon Card game’s summer carnival</a> is<br/>\r\ncurrently taking place.<br/>\r\nIt will be held till Sunday August 28th.<br/>\r\nOpening everyday!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You thought I visit for above event?\n\nNope, there’s another purpose.",
+      "images": [],
+      "source_html": "<p>You thought I visit for above event?<br/>\r\nNope, there’s another purpose.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Recording of TV program “Pokémon Smash”!",
+      "images": [],
+      "source_html": "<p>Recording of TV program “Pokémon Smash”!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Its usually many people in the waiting room,\n\nhowever, this time it is private room.",
+      "images": [],
+      "source_html": "<p>Its usually many people in the waiting room,<br/>\r\nhowever, this time it is private room.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"206-multi-206b\" %}",
+      "images": [
+        "206-multi-206b"
+      ],
+      "source_html": "<p><img alt=\"206b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/206b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Waiting for the actual shooting with Mr. Morimoto.\n\nMake up is done and snacks are ready,\n\nit’s just perfect.",
+      "images": [],
+      "source_html": "<p>Waiting for the actual shooting with Mr. Morimoto.<br/>\r\nMake up is done and snacks are ready,<br/>\r\nit’s just perfect.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But I feel awkward.=)",
+      "images": [],
+      "source_html": "<p>But I feel awkward.=)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And… I forgot to ask the day of on air.",
+      "images": [],
+      "source_html": "<p>And… I forgot to ask the day of on air.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Therefor…",
+      "images": [],
+      "source_html": "<p>Therefor…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Everyone, please watch [“Pokémon Smash”](http://www.tv-tokyo.co.jp/anime/pokemon_smash/) every week!",
+      "images": [],
+      "source_html": "<p>Everyone, please watch <a href=\"http://www.tv-tokyo.co.jp/anime/pokemon_smash/\" target=\"_blank\">“Pokémon Smash”</a> every week!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*TV program “Pokémon Smash” is aired only in Japan.",
+      "images": [],
+      "source_html": "<p>*TV program “Pokémon Smash” is aired only in Japan.</p>"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "article": 132,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "「ポケットモンスター プラチナ」が、\n\nDSソフト史上最速の「３日で１００万本突破！」を達成しました！",
+      "images": [],
+      "source_html": "<p>「ポケットモンスター プラチナ」が、<br/>\r\nDSソフト史上最速の「３日で１００万本突破！」を達成しました！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "とても嬉しいです！\n\nこれも、みなさまのお陰です。\n\n本当に、ありがとうございます！",
+      "images": [],
+      "source_html": "<p>とても嬉しいです！<br/>\r\nこれも、みなさまのお陰です。<br/>\r\n本当に、ありがとうございます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "わたしたちからのお礼の気持ちは、\n\nプラチナに込めてありますので、\n\nたっぷりと楽しんで下さいね！",
+      "images": [],
+      "source_html": "<p>わたしたちからのお礼の気持ちは、<br/>\r\nプラチナに込めてありますので、<br/>\r\nたっぷりと楽しんで下さいね！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では！",
+      "images": [],
+      "source_html": "<p>では！</p>"
+    }
+  ]
+}

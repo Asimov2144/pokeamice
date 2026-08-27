@@ -1,0 +1,45 @@
+id: masuda-034
+number: 34
+month: 2005-03
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2005/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-34
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-34
+    permalink_validated: true
+    date: '2005-03-14'
+    date_display: 03.14.2005
+    categories:
+    - Diary
+    - Pokemon
+    lead: Thank you very much for those who applied for Kono Yubi Tomore (Follow Me)!!
+      How will this event turn out!? And what stories will be unveiled!? I’m very
+      much looking forward to it!!!
+    raw_page: archive/gamefreak-director/raw/en/2005/03/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2005/03/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%93%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2005-03-14'
+    date_display: 2005.03.14
+    categories:
+    - ポケモン
+    - 日記
+    lead: このゆびとまれ、たくさんの応募、ありがとうございました！！ どういう展開になるのか！？そして、どんな話が飛び出すのか！？ とても楽しみにしています！！！
+    raw_page: archive/gamefreak-director/raw/ja/2005/03/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:10+00:00'
+assets: []

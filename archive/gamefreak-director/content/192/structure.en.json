@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "article": 192,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "AnnyongHaseyo!",
+      "images": [],
+      "source_html": "<p>AnnyongHaseyo!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On April 21st, Korean version of Pokemon Black and White\n\nhave launched.",
+      "images": [],
+      "source_html": "<p>On April 21st, Korean version of Pokemon Black and White<br/>\r\nhave launched.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I visited Korea for the launch event.\n\nKorea is the country I always wanted to go!!",
+      "images": [],
+      "source_html": "<p>I visited Korea for the launch event.<br/>\r\nKorea is the country I always wanted to go!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Leaving Haneda(Tokyo), and\n\narriving at Gimpo airport(Korea).",
+      "images": [],
+      "source_html": "<p>Leaving Haneda(Tokyo), and<br/>\r\narriving at Gimpo airport(Korea).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Heading to the center of the city by car.\n\n{% image id=\"192-en-192a\" %}\n\nOn the way to the city,\n\nthere are many beautiful bridges.",
+      "images": [
+        "192-en-192a"
+      ],
+      "source_html": "<p>Heading to the center of the city by car.<br/>\n<img alt=\"192a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192a.jpg\"/><br/>\r\nOn the way to the city,<br/>\r\nthere are many beautiful bridges.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-en-192b\" %}\n\nSkyscrapers, same as Tokyo.",
+      "images": [
+        "192-en-192b"
+      ],
+      "source_html": "<p><img alt=\"192b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192b.jpg\"/><br/>\r\nSkyscrapers, same as Tokyo.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Speaking of Korea, delicious meals!\n\n{% image id=\"192-en-192c\" %}\n\nLet’s eat something. I ate live octopus!! It was moving…",
+      "images": [
+        "192-en-192c"
+      ],
+      "source_html": "<p>Speaking of Korea, delicious meals!<br/>\n<img alt=\"192c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192c.jpg\"/><br/>\r\nLet’s eat something. I ate live octopus!! It was moving…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-en-192d\" %}\n\nI ate crabs, too. It was spicy, but somewhat tasty.",
+      "images": [
+        "192-en-192d"
+      ],
+      "source_html": "<p><img alt=\"192d.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192d.jpg\"/><br/>\r\nI ate crabs, too. It was spicy, but somewhat tasty.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And Pokemon Korea office.\n\n{% image id=\"192-en-192e\" %}\n\nMany staffs were working!",
+      "images": [
+        "192-en-192e"
+      ],
+      "source_html": "<p>And Pokemon Korea office.<br/>\n<img alt=\"192e.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192e.jpg\"/><br/>\r\nMany staffs were working!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Beautiful sight from the rooftop.\n\n{% image id=\"192-en-192f\" %}\n\n{% image id=\"192-en-192g\" %}",
+      "images": [
+        "192-en-192f",
+        "192-en-192g"
+      ],
+      "source_html": "<p>Beautiful sight from the rooftop.<br/>\n<img alt=\"192f.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192f.jpg\"/><br/>\n<img alt=\"192g.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192g.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Little fire extinguisher got my attention.\n\n{% image id=\"192-en-192h\" %}\n\nFat and cute. Bottlish…",
+      "images": [
+        "192-en-192h"
+      ],
+      "source_html": "<p>Little fire extinguisher got my attention.<br/>\n<img alt=\"192h.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192h.jpg\"/><br/>\r\nFat and cute. Bottlish…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Heading to the hotel.\n\n{% image id=\"192-en-192i\" %}\n\nView from the hotel was fantastic.\n\nCool skyscrapers.",
+      "images": [
+        "192-en-192i"
+      ],
+      "source_html": "<p>Heading to the hotel.<br/>\n<img alt=\"192i.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192i.jpg\"/><br/>\r\nView from the hotel was fantastic.<br/>\r\nCool skyscrapers.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And the morning of launch day, 21st.\n\n{% image id=\"192-en-192j\" %}\n\nTime is nine o’clock in the morning.",
+      "images": [
+        "192-en-192j"
+      ],
+      "source_html": "<p>And the morning of launch day, 21st.<br/>\n<img alt=\"192j.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192j.jpg\"/><br/>\r\nTime is nine o’clock in the morning.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Some people start waiting from 8:30 in the morning.\n\nIt was cold morning, but thank you for coming!!\n\nMany people visited to this event!!\n\n{% image id=\"192-en-oma\" %}\n\nI’m just so happy!!!!\n\n{% image id=\"192-en-192k\" %}",
+      "images": [
+        "192-en-oma",
+        "192-en-192k"
+      ],
+      "source_html": "<p>Some people start waiting from 8:30 in the morning.<br/>\r\nIt was cold morning, but thank you for coming!!<br/>\r\nMany people visited to this event!!<br/>\n<img alt=\"oma.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/oma.jpg\"/><br/>\r\nI’m just so happy!!!!<br/>\n<img alt=\"192k.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192k.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Life size dolls of first three Pokemon!!\n\n{% image id=\"192-en-192l\" %}\n\nFirst, self introduction.\n\n{% image id=\"192-en-omb\" %}",
+      "images": [
+        "192-en-192l",
+        "192-en-omb"
+      ],
+      "source_html": "<p>Life size dolls of first three Pokemon!!<br/>\n<img alt=\"192l.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192l.jpg\"/><br/>\r\nFirst, self introduction.<br/>\n<img alt=\"omb.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/omb.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ta-da—!\n\n{% image id=\"192-en-192m\" %}\n\nReshiram, Zekrom and the chair I used for the signing autographs.",
+      "images": [
+        "192-en-192m"
+      ],
+      "source_html": "<p>Ta-da—!<br/>\n<img alt=\"192m.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192m.jpg\"/><br/>\r\nReshiram, Zekrom and the chair I used for the signing autographs.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-en-omc\" %}\n\nSigning autographs.",
+      "images": [
+        "192-en-omc"
+      ],
+      "source_html": "<p><img alt=\"omc.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/omc.jpg\"/><br/>\r\nSigning autographs.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"192-en-192n\" %}\n\nHangul is coordinated by vowels and consonants.\n\nIf you learn Hangul, you soon be able to learn it.\n\nThis is my first time to write in Hangul, the name of girl fan.",
+      "images": [
+        "192-en-192n"
+      ],
+      "source_html": "<p><img alt=\"192n.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192n.jpg\"/><br/>\r\nHangul is coordinated by vowels and consonants.<br/>\r\nIf you learn Hangul, you soon be able to learn it.<br/>\r\nThis is my first time to write in Hangul, the name of girl fan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "All of Korea Pokemon fans are nice and warm.\n\nThank you very much for the letter and drawings.\n\nI’ve received a lot of energy from many people.\n\nI’ll work as hard as I could.",
+      "images": [],
+      "source_html": "<p>All of Korea Pokemon fans are nice and warm.<br/>\r\nThank you very much for the letter and drawings.<br/>\r\nI’ve received a lot of energy from many people.<br/>\r\nI’ll work as hard as I could.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "After the event, I visited Myungdong and found a banner.\n\n{% image id=\"192-en-192o\" %}\n\nIt says “People in Japan, please don’t give up. Hang on.\n\nWe are friend of yours.”",
+      "images": [
+        "192-en-192o"
+      ],
+      "source_html": "<p>After the event, I visited Myungdong and found a banner.<br/>\n<img alt=\"192o.jpg\" src=\"/blog/dir_english/wp-content/uploads/2011/04/192o.jpg\"/><br/>\r\nIt says “People in Japan, please don’t give up. Hang on.<br/>\r\nWe are friend of yours.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I’m extremely moved.",
+      "images": [],
+      "source_html": "<p>I’m extremely moved.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "People of Korea, Thank you very much!\n\nKamsaHamnida!",
+      "images": [],
+      "source_html": "<p>People of Korea, Thank you very much!<br/>\r\nKamsaHamnida!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    }
+  ]
+}

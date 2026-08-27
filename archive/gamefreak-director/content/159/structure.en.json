@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "article": 159,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "New and original series of “Pocket Monsters”\n\nis currently under the development\n\nfor 2010 launch!",
+      "images": [],
+      "source_html": "<p>New and original series of “Pocket Monsters”<br/>\r\nis currently under the development<br/>\r\nfor 2010 launch!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/index.html](http://www.pokemon.co.jp/index.html)\n\n[http://www.pokemon.co.jp/info/game/g100129_02.html](http://www.pokemon.co.jp/info/game/g100129_02.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/index.html\" target=\"_blank\">http://www.pokemon.co.jp/index.html</a><br/>\n<a href=\"http://www.pokemon.co.jp/info/game/g100129_02.html\" target=\"_blank\">http://www.pokemon.co.jp/info/game/g100129_02.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Today, its finally announced!!\n\nHooray!!!",
+      "images": [],
+      "source_html": "<p>Today, its finally announced!!<br/>\r\nHooray!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Of course, Game Freak is developing the game.",
+      "images": [],
+      "source_html": "<p>Of course, Game Freak is developing the game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Our development team is currently\n\nworking on revolutionary\n\nnew “Pocket Monsters” to\n\noverwhelm the past series!",
+      "images": [],
+      "source_html": "<p>Our development team is currently<br/>\r\nworking on revolutionary<br/>\r\nnew “Pocket Monsters” to<br/>\r\noverwhelm the past series!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As it announced, “Pocket Monsters\n\nDiamond/Pearl” sold over 17.15 million\n\ncopies all over the world.\n\n(Sold 5.8 million copies in Japan)\n\n(Population of Tokyo is about 13 million people)",
+      "images": [],
+      "source_html": "<p>As it announced, “Pocket Monsters<br/>\r\nDiamond/Pearl” sold over 17.15 million<br/>\r\ncopies all over the world.<br/>\r\n(Sold 5.8 million copies in Japan)<br/>\r\n(Population of Tokyo is about 13 million people)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We are developing the game to\n\noverwhelm previous Diamond/Pearl!\n\nWe are expecting your support!",
+      "images": [],
+      "source_html": "<p>We are developing the game to<br/>\r\noverwhelm previous Diamond/Pearl!<br/>\r\nWe are expecting your support!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Please count on us!",
+      "images": [],
+      "source_html": "<p>Please count on us!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, there will be a special appearance of\n\nmyself in “Pokemon Sunday” on\n\nSunday February 7th.\n\nPlease watch. You’ll get some information!!",
+      "images": [],
+      "source_html": "<p>Also, there will be a special appearance of<br/>\r\nmyself in “Pokemon Sunday” on<br/>\r\nSunday February 7th.<br/>\r\nPlease watch. You’ll get some information!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*(TV program “Pokemon Sunday” is\n\nonly aired in Japan.)",
+      "images": [],
+      "source_html": "<p>*(TV program “Pokemon Sunday” is<br/>\r\nonly aired in Japan.)</p>"
+    }
+  ]
+}

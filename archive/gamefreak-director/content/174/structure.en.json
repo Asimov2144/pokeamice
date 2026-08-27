@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "article": 174,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "■Today is summertime photo special!",
+      "images": [],
+      "source_html": "<p>■Today is summertime photo special!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174a\" %}\n\nPokemon World Championships (WCS)\n\nwas held at Hawaii island!\n\nThe event was held from August 13th thru 15th\n\nand it was very excited!",
+      "images": [
+        "174-en-174a"
+      ],
+      "source_html": "<p><img alt=\"174a.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174a.jpg\"/><br/>\r\nPokemon World Championships (WCS)<br/>\r\nwas held at Hawaii island!<br/>\r\nThe event was held from August 13th thru 15th<br/>\r\nand it was very excited!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The lava of Hawaii looked like live animal…\n\nEverywhere is block lava!\n\nI heard there’s two different kind of lava exist.",
+      "images": [],
+      "source_html": "<p>The lava of Hawaii looked like live animal…<br/>\r\nEverywhere is block lava!<br/>\r\nI heard there’s two different kind of lava exist.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174b\" %}\n\nView from Hilton hotel!",
+      "images": [
+        "174-en-174b"
+      ],
+      "source_html": "<p><img alt=\"174b.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174b.jpg\"/><br/>\r\nView from Hilton hotel!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174c\" %}\n\nHumidity is low compared to Japan!\n\nFeels great!\n\nI really want to swim!",
+      "images": [
+        "174-en-174c"
+      ],
+      "source_html": "<p><img alt=\"174c.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174c.jpg\"/><br/>\r\nHumidity is low compared to Japan!<br/>\r\nFeels great!<br/>\r\nI really want to swim!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174d\" %}\n\nUsing this tram for transport\n\nbetween hotels.\n\nIt moves very slow though… {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "174-en-174d",
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p><img alt=\"174d.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174d.jpg\"/><br/>\r\nUsing this tram for transport<br/>\r\nbetween hotels.<br/>\r\nIt moves very slow though… <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174e\" %}\n\nHere is WCS site.\n\nGiant Pikachu is floating!",
+      "images": [
+        "174-en-174e"
+      ],
+      "source_html": "<p><img alt=\"174e.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174e.jpg\"/><br/>\r\nHere is WCS site.<br/>\r\nGiant Pikachu is floating!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174f\" %}\n\nTaking picture with long legged Pikachu!",
+      "images": [
+        "174-en-174f"
+      ],
+      "source_html": "<p><img alt=\"174f.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174f.jpg\"/><br/>\r\nTaking picture with long legged Pikachu!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174g\" %}\n\nWhile I have a time, I travel around the\n\nHawaii island.\n\nLocomoco was invented in the city named Hilo.\n\nIt was very cheap and very tasty!",
+      "images": [
+        "174-en-174g"
+      ],
+      "source_html": "<p><img alt=\"174g.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174g.jpg\"/><br/>\r\nWhile I have a time, I travel around the<br/>\r\nHawaii island.<br/>\r\nLocomoco was invented in the city named Hilo.<br/>\r\nIt was very cheap and very tasty!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174h\" %}\n\nAn active volcano Kilauea!",
+      "images": [
+        "174-en-174h"
+      ],
+      "source_html": "<p><img alt=\"174h.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174h.jpg\"/><br/>\r\nAn active volcano Kilauea!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174i\" %}\n\nThis is first time I see.\n\nThe actual coffee beans.\n\nGreen coffee beans comes out\n\nif you peel off this red skins.",
+      "images": [
+        "174-en-174i"
+      ],
+      "source_html": "<p><img alt=\"174i.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174i.jpg\"/><br/>\r\nThis is first time I see.<br/>\r\nThe actual coffee beans.<br/>\r\nGreen coffee beans comes out<br/>\r\nif you peel off this red skins.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174j\" %}\n\nThis machine roast beans!!\n\nIt looked really interesting!\n\nI would make a coffee roasting game {% image id=\"046-en-icon_smile\" %}",
+      "images": [
+        "174-en-174j",
+        "046-en-icon_smile"
+      ],
+      "source_html": "<p><img alt=\"174j.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174j.jpg\"/><br/>\r\nThis machine roast beans!!<br/>\r\nIt looked really interesting!<br/>\r\nI would make a coffee roasting game <img alt=\":-)\" class=\"wp-smiley\" src=\"/blog/dir_english/wp-includes/images/smilies/icon_smile.gif\"/> </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174k\" %}\n\nClimbing Mt. Mauna Kea at 2800m!",
+      "images": [
+        "174-en-174k"
+      ],
+      "source_html": "<p><img alt=\"174k.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174k.jpg\"/><br/>\r\nClimbing Mt. Mauna Kea at 2800m!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174l\" %}\n\nFinally reached to 4200m, it is higher than Mt. Fuji!!\n\nIt’s freezing!!\n\nThe four objects in the picture is space observatory.\n\nOne on the far left is Japan’s “Subaru”.\n\nHawaii island can be observed by these observatory.",
+      "images": [
+        "174-en-174l"
+      ],
+      "source_html": "<p><img alt=\"174l.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174l.jpg\"/><br/>\r\nFinally reached to 4200m, it is higher than Mt. Fuji!!<br/>\r\nIt’s freezing!!<br/>\r\nThe four objects in the picture is space observatory.<br/>\r\nOne on the far left is Japan’s “Subaru”.<br/>\r\nHawaii island can be observed by these observatory.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174m\" %}\n\nWCS site again.\n\nMe and Morimoto is having an interview.\n\nIt will be aired on September 5th in\n\n“Pokemon Sunday”.",
+      "images": [
+        "174-en-174m"
+      ],
+      "source_html": "<p><img alt=\"174m.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174m.jpg\"/><br/>\r\nWCS site again.<br/>\r\nMe and Morimoto is having an interview.<br/>\r\nIt will be aired on September 5th in<br/>\r\n“Pokemon Sunday”.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174n\" %}\n\nAn autograph session.\n\nSo many people visited for autograph!\n\nThank you very much!",
+      "images": [
+        "174-en-174n"
+      ],
+      "source_html": "<p><img alt=\"174n.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174n.jpg\"/><br/>\r\nAn autograph session.<br/>\r\nSo many people visited for autograph!<br/>\r\nThank you very much!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174o\" %}\n\nHuh? I ‘m signing neatly.",
+      "images": [
+        "174-en-174o"
+      ],
+      "source_html": "<p><img alt=\"174o.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174o.jpg\"/><br/>\r\nHuh? I ‘m signing neatly.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174p\" %}\n\nShaking hands with World Champ of Junior class.",
+      "images": [
+        "174-en-174p"
+      ],
+      "source_html": "<p><img alt=\"174p.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174p.jpg\"/><br/>\r\nShaking hands with World Champ of Junior class.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174q\" %}\n\nAll Pokemon battle were high level and\n\nexciting! Thank you very much!!",
+      "images": [
+        "174-en-174q"
+      ],
+      "source_html": "<p><img alt=\"174q.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174q.jpg\"/><br/>\r\nAll Pokemon battle were high level and<br/>\r\nexciting! Thank you very much!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Who and what country become champ!?\n\nIn TCG(Trading Card Game), girl become a champ for the first time!\n\nPlease check here for detail.\n\n[http://www.pokemonworldchampionships.com/2010/](http://www.pokemonworldchampionships.com/2010/)\n\nI hope you can feel the heat watching this video (ViDeOS).",
+      "images": [],
+      "source_html": "<p>Who and what country become champ!?<br/>\r\nIn TCG(Trading Card Game), girl become a champ for the first time!<br/>\r\nPlease check here for detail.<br/>\n<a href=\"http://www.pokemonworldchampionships.com/2010/\" target=\"_blank\">http://www.pokemonworldchampionships.com/2010/</a><br/>\r\nI hope you can feel the heat watching this video (ViDeOS).</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I really want to make this video game championship\n\nmore and more exciting.\n\nAnd… returning to Japan.",
+      "images": [],
+      "source_html": "<p>I really want to make this video game championship<br/>\r\nmore and more exciting.<br/>\r\nAnd… returning to Japan.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On August 19th, I’ve visited the TV studio\n\nfor “Pokemon Sunday”recording.\n\nI talked a lot about Pokemon Black/White.\n\nIt will be aired on September 12th!\n\nPlease check it out!!",
+      "images": [],
+      "source_html": "<p>On August 19th, I’ve visited the TV studio<br/>\r\nfor “Pokemon Sunday”recording.<br/>\r\nI talked a lot about Pokemon Black/White.<br/>\r\nIt will be aired on September 12th!<br/>\r\nPlease check it out!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174r\" %}\n\nOn August 22nd, I went to\n\nTokyo Tower for experiencing\n\nPokemon searcher Black/White!",
+      "images": [
+        "174-en-174r"
+      ],
+      "source_html": "<p><img alt=\"174r.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174r.jpg\"/><br/>\r\nOn August 22nd, I went to<br/>\r\nTokyo Tower for experiencing<br/>\r\nPokemon searcher Black/White!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174s\" %}\n\nI asked “Does adult OK to play?”\n\nI enjoyed three times in total.\n\nWell, it is well made.\n\nIt is extremely fun attraction even for adult players.",
+      "images": [
+        "174-en-174s"
+      ],
+      "source_html": "<p><img alt=\"174s.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174s.jpg\"/><br/>\r\nI asked “Does adult OK to play?”<br/>\r\nI enjoyed three times in total.<br/>\r\nWell, it is well made.<br/>\r\nIt is extremely fun attraction even for adult players.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And…\n\nAugust 28th, I did the work of Pokemon Black/White\n\nmusic recording in early morning then…",
+      "images": [],
+      "source_html": "<p>And…<br/>\r\nAugust 28th, I did the work of Pokemon Black/White<br/>\r\nmusic recording in early morning then…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174t\" %}\n\nI visited music event called “a-nation”!\n\nwhich 50,000 people crowd.\n\nPicture on the left is myself, and right is Mr. Koga\n\nfrom Pokemon Company.\n\n*Small dots in rear is all audience!!",
+      "images": [
+        "174-en-174t"
+      ],
+      "source_html": "<p><img alt=\"174t.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174t.jpg\"/><br/>\r\nI visited music event called “a-nation”!<br/>\r\nwhich 50,000 people crowd.<br/>\r\nPicture on the left is myself, and right is Mr. Koga<br/>\r\nfrom Pokemon Company.<br/>\r\n*Small dots in rear is all audience!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ami Suzuki, AAA, Ayumi Hamazaki… it was very exciting.\n\nTohoshinki(TVXQ), I reconfirmed their popularity…",
+      "images": [],
+      "source_html": "<p>Ami Suzuki, AAA, Ayumi Hamazaki… it was very exciting.<br/>\r\nTohoshinki(TVXQ), I reconfirmed their popularity…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174u\" %}\n\nShaking towel and enjoying the concert!!!!!\n\nTowel… gosh, it is very fun.",
+      "images": [
+        "174-en-174u"
+      ],
+      "source_html": "<p><img alt=\"174u.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174u.jpg\"/><br/>\r\nShaking towel and enjoying the concert!!!!!<br/>\r\nTowel… gosh, it is very fun.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"174-en-174v\" %}\n\nPokemon searcher Black/White\n\ncame to the site!!",
+      "images": [
+        "174-en-174v"
+      ],
+      "source_html": "<p><img alt=\"174v.jpg\" src=\"/blog/dir_english/wp-content/uploads/2010/09/174v.jpg\"/><br/>\r\nPokemon searcher Black/White<br/>\r\ncame to the site!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "My summer goes like above…\n\nAnd today, from September 1st, I’ll visit\n\nSeattle and London for business trip.",
+      "images": [],
+      "source_html": "<p>My summer goes like above…<br/>\r\nAnd today, from September 1st, I’ll visit<br/>\r\nSeattle and London for business trip.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Pokemon Sunday” is aired only in Japan.",
+      "images": [],
+      "source_html": "<p>*”Pokemon Sunday” is aired only in Japan.</p>"
+    }
+  ]
+}

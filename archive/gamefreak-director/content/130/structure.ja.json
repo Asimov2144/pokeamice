@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "article": 130,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-ja-130a\" %}",
+      "images": [
+        "130-ja-130a"
+      ],
+      "source_html": "<p><img alt=\"130a.jpg\" src=\"/blog/dir/wp-content/uploads/2008/07/130a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "NYで仕事を済ませ、いまロスアンゼルスに来ています！",
+      "images": [],
+      "source_html": "<p>NYで仕事を済ませ、いまロスアンゼルスに来ています！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今朝、任天堂さんのカンファレンスを聞き、\n\nＷｉｉＭＵＳＩＣを楽しみにしているところ。\n\n明日は、Ｅ３にいく予定です。\n\n楽しみ！",
+      "images": [],
+      "source_html": "<p>今朝、任天堂さんのカンファレンスを聞き、<br/>\r\nＷｉｉＭＵＳＩＣを楽しみにしているところ。<br/>\r\n明日は、Ｅ３にいく予定です。<br/>\r\n楽しみ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、しっかし、ＬＡの日差しは強烈です。こげそう。。。",
+      "images": [],
+      "source_html": "<p>いやー、しっかし、ＬＡの日差しは強烈です。こげそう。。。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-ja-130b\" %}　{% image id=\"130-ja-130c\" %}　{% image id=\"130-ja-130d\" %}",
+      "images": [
+        "130-ja-130b",
+        "130-ja-130c",
+        "130-ja-130d"
+      ],
+      "source_html": "<p><img alt=\"130b.jpg\" src=\"/blog/dir/wp-content/uploads/2008/07/130b.jpg\"/>　<img alt=\"130c.jpg\" src=\"/blog/dir/wp-content/uploads/2008/07/130c.jpg\"/>　<img alt=\"130d.jpg\" src=\"/blog/dir/wp-content/uploads/2008/07/130d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "さて！！\n\n話は全然変わりますが、、、",
+      "images": [],
+      "source_html": "<p>さて！！<br/>\r\n話は全然変わりますが、、、</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "７月２０日（日）のポケモン☆サンデーにマスダ出ます！",
+      "images": [],
+      "source_html": "<p>７月２０日（日）のポケモン☆サンデーにマスダ出ます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ゲームフリークの社内も紹介してます。\n\nわたしたちは、こんな場所でポケモンを開発してるんですよ！",
+      "images": [],
+      "source_html": "<p>ゲームフリークの社内も紹介してます。<br/>\r\nわたしたちは、こんな場所でポケモンを開発してるんですよ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "朝早いですが、ぜひぜひ、見てくださいね！！",
+      "images": [],
+      "source_html": "<p>朝早いですが、ぜひぜひ、見てくださいね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"130-ja-130e\" %}",
+      "images": [
+        "130-ja-130e"
+      ],
+      "source_html": "<p><img alt=\"130e.jpg\" src=\"/blog/dir/wp-content/uploads/2008/07/130e.jpg\"/></p>"
+    }
+  ]
+}

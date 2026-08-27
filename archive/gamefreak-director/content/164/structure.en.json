@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "article": 164,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon movie started from Saturday July 10th\n\nthis year!",
+      "images": [],
+      "source_html": "<p>Pokemon movie started from Saturday July 10th<br/>\r\nthis year!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I went to the theater on opening day\n\nand received figure of Zoroark!",
+      "images": [],
+      "source_html": "<p>I went to the theater on opening day<br/>\r\nand received figure of Zoroark!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "This year’s distribution Pokemon is “Celebi”.\n\nYou can receive it with one of the following Game Paks.\n\nPokemon Diamond/Pearl/Platinum and\n\nHeart Gold/Soul Silver.",
+      "images": [],
+      "source_html": "<p>This year’s distribution Pokemon is “Celebi”.<br/>\r\nYou can receive it with one of the following Game Paks.<br/>\r\nPokemon Diamond/Pearl/Platinum and<br/>\r\nHeart Gold/Soul Silver.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "“Celebi” is rare Pokemon in Gold/Silver\n\nwhich won’t appear during the normal game play.",
+      "images": [],
+      "source_html": "<p>“Celebi” is rare Pokemon in Gold/Silver<br/>\r\nwhich won’t appear during the normal game play.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Theme of “Celebi” is based on nature.\n\nWhere beautiful nature exist, Celebi appears.\n\nIn the movie, to prevent nature destruction\n\nwould be dramatic. But it is not good\n\nto destroy nature to meet Pokemon.",
+      "images": [],
+      "source_html": "<p>Theme of “Celebi” is based on nature.<br/>\r\nWhere beautiful nature exist, Celebi appears.<br/>\r\nIn the movie, to prevent nature destruction<br/>\r\nwould be dramatic. But it is not good<br/>\r\nto destroy nature to meet Pokemon.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s trivia.\n\nIf you bring your “Celebi” to\n\nPocket Monster Black/White,\n\nspecial event will be activated.\n\nZorua will appear in the game!!!!",
+      "images": [],
+      "source_html": "<p>Here’s trivia.<br/>\r\nIf you bring your “Celebi” to<br/>\r\nPocket Monster Black/White,<br/>\r\nspecial event will be activated.<br/>\r\nZorua will appear in the game!!!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Zorua and Zoroark won’t appear in the game\n\nPocket Monster Black/White.\n\nPlease watch a movie and receive Celebi!",
+      "images": [],
+      "source_html": "<p>Zorua and Zoroark won’t appear in the game<br/>\r\nPocket Monster Black/White.<br/>\r\nPlease watch a movie and receive Celebi!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "On Sunday, I visited Pokemon Center Tokyo\n\nto see a new Pikachu goods which start selling\n\nfrom 10th.\n\nThere’s Pikachu everywhere.\n\nThe shop is doing a roaring trade.",
+      "images": [],
+      "source_html": "<p>On Sunday, I visited Pokemon Center Tokyo<br/>\r\nto see a new Pikachu goods which start selling<br/>\r\nfrom 10th.<br/>\r\nThere’s Pikachu everywhere.<br/>\r\nThe shop is doing a roaring trade.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!\n\n<http://www.pokemon.co.jp/gp/pokecen/tokyo/>",
+      "images": [],
+      "source_html": "<p>Ciao!<br/>\n<a href=\"http://www.pokemon.co.jp/gp/pokecen/tokyo/\" target=\"_blank\"></a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "http://www.pokemon.co.jp/gp/pokecen/tokyo/",
+      "images": [],
+      "source_html": "<p>http://www.pokemon.co.jp/gp/pokecen/tokyo/</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "[http://www.pokemon.co.jp/info/2010/06/p100625_01.html](http://www.pokemon.co.jp/info/2010/06/p100625_01.html)",
+      "images": [],
+      "source_html": "<p><a href=\"http://www.pokemon.co.jp/info/2010/06/p100625_01.html\" target=\"_blank\">http://www.pokemon.co.jp/info/2010/06/p100625_01.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "*”Celebi campaign” is distributed only in Japan.",
+      "images": [],
+      "source_html": "<p>*”Celebi campaign” is distributed only in Japan.</p>"
+    }
+  ]
+}

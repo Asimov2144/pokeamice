@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "article": 203,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "マスダはいま成田空港に来ています。\n\nサンディエゴに出発です。",
+      "images": [],
+      "source_html": "<p>マスダはいま成田空港に来ています。<br/>\r\nサンディエゴに出発です。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "今年の[ワールドチャンピオンシップス](http://pokemonworlds2011.staging2.pop.us/2011/)は、\n\nどんな大会になるのか？",
+      "images": [],
+      "source_html": "<p>今年の<a href=\"http://pokemonworlds2011.staging2.pop.us/2011/\" target=\"_blank\">ワールドチャンピオンシップス</a>は、<br/>\r\nどんな大会になるのか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "震災の影響で日本からの参加が少ないので、\n\nそこは残念ですが、\n\n韓国が初参加ということで、\n\nどう攻めてくるのか、楽しみです。",
+      "images": [],
+      "source_html": "<p>震災の影響で日本からの参加が少ないので、<br/>\r\nそこは残念ですが、<br/>\r\n韓国が初参加ということで、<br/>\r\nどう攻めてくるのか、楽しみです。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "ブラック・ホワイトでの初めてのバトル世界大会。\n\n世界一の座はどこの国の誰がなるのでしょうか？",
+      "images": [],
+      "source_html": "<p>ブラック・ホワイトでの初めてのバトル世界大会。<br/>\r\n世界一の座はどこの国の誰がなるのでしょうか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、どんなポケモンでどんなわざが流行るのでしょうか？",
+      "images": [],
+      "source_html": "<p>そして、どんなポケモンでどんなわざが流行るのでしょうか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "いやー、楽しみです。盛り上がってきましたよ！",
+      "images": [],
+      "source_html": "<p>いやー、楽しみです。盛り上がってきましたよ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "では、行ってきます！",
+      "images": [],
+      "source_html": "<p>では、行ってきます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}

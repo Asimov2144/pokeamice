@@ -3,7 +3,7 @@ layout: gamefreak-director
 title: "Game Freak 部长专栏"
 permalink: /gamefreak-director/
 gf_mode: index
-summary: "Game Freak 官方“増田部長のめざめるパワー”的站内存档入口，用于收录、翻译和检索增田顺一部长专栏。"
+summary: "在保留原站版式、图片位置和写作节奏的前提下，整理日文原文、官方英文版与中文译稿。"
 archive_type: article
 categories: [文档, Game Freak]
 tags: [Game Freak, 增田顺一, 部长专栏, 官方博客]
@@ -27,5 +27,7 @@ entities:
     - 宝可梦
 ---
 
-这个入口页用于集中展示已经导入本站的 Game Freak 部长专栏文章。  
-之后每篇文章只需要使用 `layout: gamefreak-director`，并填写 `gf_entry_no`、`gf_entry_title`、`gf_categories` 和 `source.url`。
+<aside class="gf-director-editorial-note">
+  <strong>关于这个存档</strong>
+  <p>正文默认以中文呈现；日文原文和官方英文版会在内容整理完成后逐篇开放。换行、留白与图片顺序均以原页面为基准。</p>
+</aside>

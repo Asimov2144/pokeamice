@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 12,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today I went to Pokemon center Tokyo for the first time\n\nsince its reopening.\n\nThe center is now more neatly arranged and looks cleaner.",
+      "images": [],
+      "source_html": "<p>Today I went to Pokemon center Tokyo for the first time<br/>\r\nsince its reopening.<br/>\r\nThe center is now more neatly arranged and looks cleaner.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The number of customers there was totally beyond my expectation.",
+      "images": [],
+      "source_html": "<p>The number of customers there was totally beyond my expectation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Most of them were mothers and their kids.\n\nWhy is that?",
+      "images": [],
+      "source_html": "<p>Most of them were mothers and their kids.<br/>\r\nWhy is that?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Kids were carrying a shopping basket, putting the stuff they wanted,\n\nand moms were saying yes and no to their purchases.",
+      "images": [],
+      "source_html": "<p>Kids were carrying a shopping basket, putting the stuff they wanted,<br/>\r\nand moms were saying yes and no to their purchases.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "As I looked at them doing that, I started to feel\n\nthat there must be more items that moms want to buy.",
+      "images": [],
+      "source_html": "<p>As I looked at them doing that, I started to feel<br/>\r\nthat there must be more items that moms want to buy.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Things both moms and kids want to have?\n\nWhat would they be?",
+      "images": [],
+      "source_html": "<p>Things both moms and kids want to have?<br/>\r\nWhat would they be?</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I ask myself a question like that, it sometimes leads to\n\nan idea that “can be used in our games too!.”",
+      "images": [],
+      "source_html": "<p>When I ask myself a question like that, it sometimes leads to<br/>\r\nan idea that “can be used in our games too!.”</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s an interesting exercise.ﾂ? Try it yourself!",
+      "images": [],
+      "source_html": "<p>It’s an interesting exercise.ﾂ? Try it yourself!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya!",
+      "images": [],
+      "source_html": "<p>See ya!</p>"
+    }
+  ]
+}

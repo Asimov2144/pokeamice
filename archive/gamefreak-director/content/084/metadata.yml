@@ -1,0 +1,169 @@
+id: masuda-084
+number: 84
+month: 2007-04
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-84
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-84
+    permalink_validated: true
+    date: '2007-04-27'
+    date_display: 04.27.2007
+    categories:
+    - Diary
+    - Pokemon
+    lead: “Golden Week” starts tomorrow! Let us all make lots of wonderful memories!
+    raw_page: archive/gamefreak-director/raw/en/2007/04/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/04/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%98%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%98%ef%bc%94%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-04-27'
+    date_display: 2007.04.27
+    categories:
+    - ポケモン
+    - 日記
+    lead: 明日からゴールデンウイーク！ たっくさん想い出を作りましょうね！
+    raw_page: archive/gamefreak-director/raw/ja/2007/04/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:16+00:00'
+assets:
+- id: 084-en-ny001
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny001.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny001.jpg
+  sha256: 15316c38ff4934fbca237273e22a6a2cd5041fec66de62142073292bcd1208a1
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031203id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny001.jpg
+  wayback_timestamp: '20120601031203'
+  substitute_url: null
+- id: 084-en-ny002
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny002.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny002.jpg
+  sha256: 3196dbaff5a2d26c15eefa4a79053a43bd6a266e21dd711a5d9cded5714f6036
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031146id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny002.jpg
+  wayback_timestamp: '20120601031146'
+  substitute_url: null
+- id: 084-en-ny003
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny003.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny003.jpg
+  sha256: 4aad093274163332a31b4c3ed8f5f777d94d5dd27eff3f6a2f351f93803c4857
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031216id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny003.jpg
+  wayback_timestamp: '20120601031216'
+  substitute_url: null
+- id: 084-en-ny004
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny004.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny004.jpg
+  sha256: 46db2d7d0de4cd3ed4edf3c5b7898a182a006d47e674c7762d05d9ee1a93da9d
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031142id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny004.jpg
+  wayback_timestamp: '20120601031142'
+  substitute_url: null
+- id: 084-en-ny005
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny005.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny005.jpg
+  sha256: 3f5e16c9d0d3585553b06bf0855b2aba7b01e79d53271a5051f477c129dcc8cc
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031126id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny005.jpg
+  wayback_timestamp: '20120601031126'
+  substitute_url: null
+- id: 084-en-ny006
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny006.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny006.jpg
+  sha256: 43b1f249b521b753264c2eaf72a143869f8b52f789dc92dfe0430391a8f56863
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031229id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny006.jpg
+  wayback_timestamp: '20120601031229'
+  substitute_url: null
+- id: 084-en-ny007
+  role: inline
+  original_url: http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny007.jpg
+  local_path: archive/gamefreak-director/assets/original/084/en/ny007.jpg
+  sha256: e70c034fdcf62fcaa63ad96981d00f7e5cfdb7f949f6c15038c4b22ce8d204ca
+  capture_source: internet-archive
+  wayback_url: https://web.archive.org/web/20120601031150id_/http://gamefreak.sakura.ne.jp/blog/dir/wp-content/uploads/2007/07/ny007.jpg
+  wayback_timestamp: '20120601031150'
+  substitute_url: null
+- id: 084-ja-ny001
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny001.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny001.jpg
+  sha256: 15316c38ff4934fbca237273e22a6a2cd5041fec66de62142073292bcd1208a1
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny002
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny002.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny002.jpg
+  sha256: 3196dbaff5a2d26c15eefa4a79053a43bd6a266e21dd711a5d9cded5714f6036
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny003
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny003.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny003.jpg
+  sha256: 4aad093274163332a31b4c3ed8f5f777d94d5dd27eff3f6a2f351f93803c4857
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny004
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny004.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny004.jpg
+  sha256: 46db2d7d0de4cd3ed4edf3c5b7898a182a006d47e674c7762d05d9ee1a93da9d
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny005
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny005.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny005.jpg
+  sha256: 3f5e16c9d0d3585553b06bf0855b2aba7b01e79d53271a5051f477c129dcc8cc
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny006
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny006.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny006.jpg
+  sha256: 43b1f249b521b753264c2eaf72a143869f8b52f789dc92dfe0430391a8f56863
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 084-ja-ny007
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/07/ny007.jpg
+  local_path: archive/gamefreak-director/assets/original/084/ja/ny007.jpg
+  sha256: e70c034fdcf62fcaa63ad96981d00f7e5cfdb7f949f6c15038c4b22ce8d204ca
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

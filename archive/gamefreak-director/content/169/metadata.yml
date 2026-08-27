@@ -1,0 +1,115 @@
+id: masuda-169
+number: 169
+month: 2010-08
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2010/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no169
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no169
+    permalink_validated: true
+    date: '2010-08-02'
+    date_display: 08.02.2010
+    categories:
+    - Diary
+    - Pokemon
+    lead: ★Saturday, July 31st is the day of starting reservation of Pokemon Black/White!!
+    raw_page: archive/gamefreak-director/raw/en/2010/08/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2010/08/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%96%ef%bc%99%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2010-08-02'
+    date_display: 2010.08.02
+    categories:
+    - ポケモン
+    - 日記
+    lead: ★７月３１日（土）BWついに予約開始！！
+    raw_page: archive/gamefreak-director/raw/ja/2010/08/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:22+00:00'
+assets:
+- id: 169-en-169a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/169a.jpg
+  local_path: archive/gamefreak-director/assets/original/169/en/169a.jpg
+  sha256: 166eb2ac690b62e105aebab0c9a5fdd670087ea42f7ed578e39b108e8568235a
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-en-169b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/169b.jpg
+  local_path: archive/gamefreak-director/assets/original/169/en/169b.jpg
+  sha256: c0c723dad23cb2dcdd05a23adf763da33d76ce3195d3367ec2f36a23f0c5ac82
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-en-169c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/169c.jpg
+  local_path: archive/gamefreak-director/assets/original/169/en/169c.jpg
+  sha256: de3fda8a3371544d449fae159e34a59f4f006f2cf7d2f7d7304a7e5e9f44d044
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-en-169d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2010/09/169d.jpg
+  local_path: archive/gamefreak-director/assets/original/169/en/169d.jpg
+  sha256: 29f9fa91d91e9f988d52196b88101bcd872520fecf95e5bfd7384f52fe8dee1c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-ja-169a
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/08/169a.jpg
+  local_path: archive/gamefreak-director/assets/original/169/ja/169a.jpg
+  sha256: 166eb2ac690b62e105aebab0c9a5fdd670087ea42f7ed578e39b108e8568235a
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-ja-169b
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/08/169b.jpg
+  local_path: archive/gamefreak-director/assets/original/169/ja/169b.jpg
+  sha256: c0c723dad23cb2dcdd05a23adf763da33d76ce3195d3367ec2f36a23f0c5ac82
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-ja-169c
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/08/169c.jpg
+  local_path: archive/gamefreak-director/assets/original/169/ja/169c.jpg
+  sha256: de3fda8a3371544d449fae159e34a59f4f006f2cf7d2f7d7304a7e5e9f44d044
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 169-ja-169d
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2010/08/169d.jpg
+  local_path: archive/gamefreak-director/assets/original/169/ja/169d.jpg
+  sha256: 29f9fa91d91e9f988d52196b88101bcd872520fecf95e5bfd7384f52fe8dee1c
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

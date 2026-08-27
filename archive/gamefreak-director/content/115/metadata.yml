@@ -1,0 +1,59 @@
+id: masuda-115
+number: 115
+month: 2007-11
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no115
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no115
+    permalink_validated: true
+    date: '2007-11-22'
+    date_display: 11.22.2007
+    categories:
+    - Diary
+    lead: The “Universe” is completed!
+    raw_page: archive/gamefreak-director/raw/en/2007/11/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2007/11/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%91%ef%bc%91%ef%bc%95%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2007-11-22'
+    date_display: 2007.11.22
+    categories:
+    - 日記
+    lead: 「宇宙」完成しました！
+    raw_page: archive/gamefreak-director/raw/ja/2007/11/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:19+00:00'
+assets:
+- id: 115-en-115
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir_english/wp-content/uploads/2007/11/115.jpg
+  local_path: archive/gamefreak-director/assets/original/115/en/115.jpg
+  sha256: 590a0a508bfe333dc18ecf992283480676fc33b189cfe2bd98a71aef706c2ac0
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null
+- id: 115-ja-115
+  role: inline
+  original_url: https://www.gamefreak.co.jp/blog/dir/wp-content/uploads/2007/11/115.jpg
+  local_path: archive/gamefreak-director/assets/original/115/ja/115.jpg
+  sha256: 590a0a508bfe333dc18ecf992283480676fc33b189cfe2bd98a71aef706c2ac0
+  capture_source: http-response
+  wayback_url: null
+  wayback_timestamp: null
+  substitute_url: null

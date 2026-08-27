@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "article": 71,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, I will write in a somewhat serious tone.\n\nI’ll explain the reason why we chose the finger\n\nas the input device for the touchscreen.",
+      "images": [],
+      "source_html": "<p>Today, I will write in a somewhat serious tone.<br/>\r\nI’ll explain the reason why we chose the finger<br/>\r\nas the input device for the touchscreen.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "When I first saw a prototype of the Nintendo DS\n\nat Nintendo, Mr. Miyamoto was already using\n\na stylus to operate it.\n\nHe used the stylus to manipulate the objects\n\nthat would make quick movements,\n\nsimilar to the way you’d use a PDA.",
+      "images": [],
+      "source_html": "<p>When I first saw a prototype of the Nintendo DS<br/>\r\nat Nintendo, Mr. Miyamoto was already using<br/>\r\na stylus to operate it.<br/>\r\nHe used the stylus to manipulate the objects<br/>\r\nthat would make quick movements,<br/>\r\nsimilar to the way you’d use a PDA.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are machines like ATM machines or ticket\n\nmachines at train stations that use touch\n\nsensitive panels. These machines have a large\n\ndisplay and are intended for ordinary people,\n\nso you can touch the panel directly to operate it.\n\nYou can use it intuitively.\n\nThey don’t have a stylus.",
+      "images": [],
+      "source_html": "<p>There are machines like ATM machines or ticket<br/>\r\nmachines at train stations that use touch<br/>\r\nsensitive panels. These machines have a large<br/>\r\ndisplay and are intended for ordinary people,<br/>\r\nso you can touch the panel directly to operate it.<br/>\r\nYou can use it intuitively.<br/>\r\nThey don’t have a stylus.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "From that, I realized a simple fact.\n\nA stylus is necessary only\n\n:when the screen is small and operation is\n\ndifficult, and\n\n:when manipulating small objects",
+      "images": [],
+      "source_html": "<p>From that, I realized a simple fact.<br/>\r\nA stylus is necessary only<br/>\r\n:when the screen is small and operation is<br/>\r\ndifficult, and<br/>\r\n:when manipulating small objects</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Let’s put it another way. There is no need\n\nfor a stylus except for the above cases.\n\nYou can touch the screen directly, intuitively.\n\nAnd if not, it wouldn’t make sense\n\nto call it ‘touch.’",
+      "images": [],
+      "source_html": "<p>Let’s put it another way. There is no need<br/>\r\nfor a stylus except for the above cases.<br/>\r\nYou can touch the screen directly, intuitively.<br/>\r\nAnd if not, it wouldn’t make sense<br/>\r\nto call it ‘touch.’</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "With such philosophy, we tried to develop a game\n\nthat is mainly operable by the finger,\n\na game where a player will feel the need for\n\na stylus as seldom as possible.",
+      "images": [],
+      "source_html": "<p>With such philosophy, we tried to develop a game<br/>\r\nthat is mainly operable by the finger,<br/>\r\na game where a player will feel the need for<br/>\r\na stylus as seldom as possible.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The disadvantage of this approach is that\n\nthe finger can’t select small objects.\n\nWe paid a special attention to that problem.",
+      "images": [],
+      "source_html": "<p>The disadvantage of this approach is that<br/>\r\nthe finger can’t select small objects.<br/>\r\nWe paid a special attention to that problem.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "While the development was under way, I felt\n\nmost strongly about making Pokemon battle operable\n\nby the finger.",
+      "images": [],
+      "source_html": "<p>While the development was under way, I felt<br/>\r\nmost strongly about making Pokemon battle operable<br/>\r\nby the finger.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There are several reasons.\n\nEven when battles themselves are complex,\n\nthe operation should be easy enough for everybody.\n\nAnd, a quick, intuitive operation.\n\nA new way of operation.",
+      "images": [],
+      "source_html": "<p>There are several reasons.<br/>\r\nEven when battles themselves are complex,<br/>\r\nthe operation should be easy enough for everybody.<br/>\r\nAnd, a quick, intuitive operation.<br/>\r\nA new way of operation.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Players need to have a sense of being a Pokemon\n\ntrainer who is giving orders.\n\nIn a battle, as I said earlier, the commands\n\nshould be not too many and operable by the finger,\n\nwithout the need for a stylus.\n\nSomeone else can easily meddle with your playing.\n\nLike, when a kid is playing, grandpa comes in\n\nand makes a move on the screen with his finger.\n\nWell, the kid might feel unhappy, but then\n\ncommunication will be established between them.",
+      "images": [],
+      "source_html": "<p>Players need to have a sense of being a Pokemon<br/>\r\ntrainer who is giving orders.<br/>\r\nIn a battle, as I said earlier, the commands<br/>\r\nshould be not too many and operable by the finger,<br/>\r\nwithout the need for a stylus.<br/>\r\nSomeone else can easily meddle with your playing.<br/>\r\nLike, when a kid is playing, grandpa comes in<br/>\r\nand makes a move on the screen with his finger.<br/>\r\nWell, the kid might feel unhappy, but then<br/>\r\ncommunication will be established between them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Thus, the game was being developed with\n\nthe assumption that battles should be playable\n\nby the finger.",
+      "images": [],
+      "source_html": "<p>Thus, the game was being developed with<br/>\r\nthe assumption that battles should be playable<br/>\r\nby the finger.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "However, in later developments, there are\n\nmany objections to this approach because the\n\nlower screen becomes dirty with fingers.\n\nBoth inside and outside the company,\n\nmany people preferred the stylus.\n\nIn the end, there were even people who thought\n\nit better to use the traditional\n\nDirection Button.\n\nWe had many different thoughts about it.",
+      "images": [],
+      "source_html": "<p>However, in later developments, there are<br/>\r\nmany objections to this approach because the<br/>\r\nlower screen becomes dirty with fingers.<br/>\r\nBoth inside and outside the company,<br/>\r\nmany people preferred the stylus.<br/>\r\nIn the end, there were even people who thought<br/>\r\nit better to use the traditional<br/>\r\nDirection Button.<br/>\r\nWe had many different thoughts about it.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "But I myself had a conviction that it’s better\n\nto use the finger.",
+      "images": [],
+      "source_html": "<p>But I myself had a conviction that it’s better<br/>\r\nto use the finger.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Because, an absolute beginner can make a selection.\n\nPeople around a beginner can teach him/her how\n\nto play. So, I explained the situation and place\n\nwhere the game would be actually played.\n\nI said I wanted to create a new way to play\n\nthis game.",
+      "images": [],
+      "source_html": "<p>Because, an absolute beginner can make a selection.<br/>\r\nPeople around a beginner can teach him/her how<br/>\r\nto play. So, I explained the situation and place<br/>\r\nwhere the game would be actually played.<br/>\r\nI said I wanted to create a new way to play<br/>\r\nthis game.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Also, this is a bit too extreme but…\n\nI said things like,\n\nKids wouldn’t care much about dirt, and\n\nonly Japanese people are concerned about how\n\nclean the screen is, or\n\nwe are too accustomed to the operations of\n\npast Pokemon games.\n\nWhen I went overseas and spotted foreigners\n\nplaying a game without stylus,\n\nI took their pictures.\n\nThat way, little by little, I persuaded those\n\nwith different opinions.\n\nIt was very very difficult.\n\nBut in the end, people came to understand my idea.\n\nMaybe they became used to it too.",
+      "images": [],
+      "source_html": "<p>Also, this is a bit too extreme but…<br/>\r\nI said things like,<br/>\r\nKids wouldn’t care much about dirt, and<br/>\r\nonly Japanese people are concerned about how<br/>\r\nclean the screen is, or<br/>\r\nwe are too accustomed to the operations of<br/>\r\npast Pokemon games.<br/>\r\nWhen I went overseas and spotted foreigners<br/>\r\nplaying a game without stylus,<br/>\r\nI took their pictures.<br/>\r\nThat way, little by little, I persuaded those<br/>\r\nwith different opinions.<br/>\r\nIt was very very difficult.<br/>\r\nBut in the end, people came to understand my idea.<br/>\r\nMaybe they became used to it too.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pokemon Diamond & Pearl is a finger-operation game.\n\nI’d like people to play it as if they are\n\ntelling Pokemon to do such and such things,\n\nintuitively.\n\nThis is how I thought it best to play this game.\n\nPlease give it a try!",
+      "images": [],
+      "source_html": "<p>Pokemon Diamond &amp; Pearl is a finger-operation game.<br/>\r\nI’d like people to play it as if they are<br/>\r\ntelling Pokemon to do such and such things,<br/>\r\nintuitively.<br/>\r\nThis is how I thought it best to play this game.<br/>\r\nPlease give it a try!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "See ya.",
+      "images": [],
+      "source_html": "<p>See ya.</p>"
+    }
+  ]
+}

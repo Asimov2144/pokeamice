@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "article": 204,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Arrived at San Diego’s hotel safely!",
+      "images": [],
+      "source_html": "<p>Arrived at San Diego’s hotel safely!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s thunder at Narita airport and the plane announced\n\nits delay. I was enjoying taking photo of thunder.",
+      "images": [],
+      "source_html": "<p>There’s thunder at Narita airport and the plane announced<br/>\r\nits delay. I was enjoying taking photo of thunder.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It’s like music game to taking the opportunity of\n\nshooting photos.\n\nConsidering the last flash and its sound,\n\nI could take the photo nicely! Here!",
+      "images": [],
+      "source_html": "<p>It’s like music game to taking the opportunity of<br/>\r\nshooting photos.<br/>\r\nConsidering the last flash and its sound,<br/>\r\nI could take the photo nicely! Here! </p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204a\" %}",
+      "images": [
+        "204-multi-204a"
+      ],
+      "source_html": "<p><img alt=\"204a.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204a.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Plane delayed about an hour and arrived\n\nat Los Angeles.\n\nI also waited at the immigration more than\n\nan hour…",
+      "images": [],
+      "source_html": "<p>Plane delayed about an hour and arrived<br/>\r\nat Los Angeles.<br/>\r\nI also waited at the immigration more than<br/>\r\nan hour…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "And there is a traffic jam from Los Angeles to San Diego…",
+      "images": [],
+      "source_html": "<p>And there is a traffic jam from Los Angeles to San Diego…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204b\" %}",
+      "images": [
+        "204-multi-204b"
+      ],
+      "source_html": "<p><img alt=\"204b.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204b.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The picture above is opposite lane.\n\nTake a wild guess how many lane there is!?=)\n\nAll those lanes are jammed…",
+      "images": [],
+      "source_html": "<p>The picture above is opposite lane.<br/>\r\nTake a wild guess how many lane there is!?=)<br/>\r\nAll those lanes are jammed…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Three hours delay from the initial schedule.\n\nThe trip started from thunder, and it was quite\n\na long ride.",
+      "images": [],
+      "source_html": "<p>Three hours delay from the initial schedule.<br/>\r\nThe trip started from thunder, and it was quite<br/>\r\na long ride.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "At the hotel, preparation is ready.",
+      "images": [],
+      "source_html": "<p>At the hotel, preparation is ready.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204c\" %}",
+      "images": [
+        "204-multi-204c"
+      ],
+      "source_html": "<p><img alt=\"204c.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204c.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "You can find the size of the hotel if you check\n\nZekrom far away. There’s two people standing\n\nin front of Zekrom.",
+      "images": [],
+      "source_html": "<p>You can find the size of the hotel if you check<br/>\r\nZekrom far away. There’s two people standing<br/>\r\nin front of Zekrom.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Checking rehearsal and finishing meal, back to hotel\n\nand sneak into the convention center…",
+      "images": [],
+      "source_html": "<p>Checking rehearsal and finishing meal, back to hotel<br/>\r\nand sneak into the convention center…</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204d\" %}",
+      "images": [
+        "204-multi-204d"
+      ],
+      "source_html": "<p><img alt=\"204d.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204d.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "World Championships will start on 13th at\n\nSan Diego time.",
+      "images": [],
+      "source_html": "<p>World Championships will start on 13th at<br/>\r\nSan Diego time.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s a “Welcome” signs in many different\n\nlanguages.",
+      "images": [],
+      "source_html": "<p>There’s a “Welcome” signs in many different<br/>\r\nlanguages.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204e\" %}",
+      "images": [
+        "204-multi-204e"
+      ],
+      "source_html": "<p><img alt=\"204e.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204e.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "It looks very nice.",
+      "images": [],
+      "source_html": "<p>It looks very nice.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "{% image id=\"204-multi-204f\" %}",
+      "images": [
+        "204-multi-204f"
+      ],
+      "source_html": "<p><img alt=\"204f.jpg\" src=\"../../../../../www.gamefreak.co.jp/blog/dir/wp-content/uploads/2011/08/204f.jpg\"/></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Its so dark outside… it’s midnight.",
+      "images": [],
+      "source_html": "<p>Its so dark outside… it’s midnight.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Here’s the report from Masuda\n\nat the bay front.",
+      "images": [],
+      "source_html": "<p>Here’s the report from Masuda<br/>\r\nat the bay front.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Good night!!",
+      "images": [],
+      "source_html": "<p>Good night!!</p>"
+    }
+  ]
+}

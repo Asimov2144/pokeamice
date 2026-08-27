@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "article": 161,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, at 1:00AM in Japan,\n\nIt is announced worldwide.",
+      "images": [],
+      "source_html": "<p>Today, at 1:00AM in Japan,<br/>\r\nIt is announced worldwide.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pocket Monsters Black\n\nPocket Monsters White",
+      "images": [],
+      "source_html": "<p>Pocket Monsters Black<br/>\r\nPocket Monsters White</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "The game will be launch in September 2010\n\nin Japan!!",
+      "images": [],
+      "source_html": "<p>The game will be launch in September 2010<br/>\r\nin Japan!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "There’s a huge advertisement\n\non today’s Yomiuri Shimbun\n\n(major newspaper in Japan)!!",
+      "images": [],
+      "source_html": "<p>There’s a huge advertisement<br/>\r\non today’s Yomiuri Shimbun<br/>\r\n(major newspaper in Japan)!!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Package Pokemon are “Reshiram” and “Zekrom”.\n\nHow did they appear in the game!?\n\nPlease count on us.",
+      "images": [],
+      "source_html": "<p>Package Pokemon are “Reshiram” and “Zekrom”.<br/>\r\nHow did they appear in the game!?<br/>\r\nPlease count on us.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Pocket Monsters arouse with this software.",
+      "images": [],
+      "source_html": "<p>Pocket Monsters arouse with this software.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Ciao!",
+      "images": [],
+      "source_html": "<p>Ciao!</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Japanese sight:\n\n[http://www.pokemon-sp.jp/](http://www.pokemon-sp.jp/)",
+      "images": [],
+      "source_html": "<p>Japanese sight:<br/>\n<a href=\"http://www.pokemon-sp.jp/\" target=\"_blank\">http://www.pokemon-sp.jp/</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "Overseas sight:\n\n[http://www.pokemon.com/](http://www.pokemon.com/)\n\n*You can select language. Sound is cool, too!",
+      "images": [],
+      "source_html": "<p>Overseas sight:<br/>\n<a href=\"http://www.pokemon.com/\" target=\"_blank\">http://www.pokemon.com/</a><br/>\r\n*You can select language. Sound is cool, too!</p>"
+    }
+  ]
+}

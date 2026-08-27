@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "article": 23,
+  "lang": "en",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "Today, I went to CESA Game Awards Ceremony.",
+      "images": [],
+      "source_html": "<p>Today, I went to CESA Game Awards Ceremony.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We received ‘Award for excellence’ and ‘Best Sales Award.’\n\nIt’s such an honor.",
+      "images": [],
+      "source_html": "<p>We received ‘Award for excellence’ and ‘Best Sales Award.’<br/>\r\nIt’s such an honor.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In particular, winning ‘Best Sales Award’ means\n\nthat a lot of people played our games, so\n\nit’s a prize that means the most to me as a director.",
+      "images": [],
+      "source_html": "<p>In particular, winning ‘Best Sales Award’ means<br/>\r\nthat a lot of people played our games, so<br/>\r\nit’s a prize that means the most to me as a director.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "I think it’s a result of our efforts to achieve\n\nthe following two goals in one package;\n\na game that’s easy to play, and a game that\n\npresents a new way of playing using the wireless function.\n\n(These goals must have been very hard for our staff,\n\nbut they all did a great job.)",
+      "images": [],
+      "source_html": "<p>I think it’s a result of our efforts to achieve<br/>\r\nthe following two goals in one package;<br/>\r\na game that’s easy to play, and a game that<br/>\r\npresents a new way of playing using the wireless function.<br/>\r\n(These goals must have been very hard for our staff,<br/>\r\nbut they all did a great job.)</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "We think Pokemon FireRed and LeafGreen are the foundation\n\nfor our next games, Pokemon Diamond and Pearl.\n\nIf you haven’t played these yet, please try them.",
+      "images": [],
+      "source_html": "<p>We think Pokemon FireRed and LeafGreen are the foundation<br/>\r\nfor our next games, Pokemon Diamond and Pearl.<br/>\r\nIf you haven’t played these yet, please try them.</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "In receiving these wonderful awards, I’m really grateful\n\nfor all of you who are always supportive of us.\n\nThank you very much!",
+      "images": [],
+      "source_html": "<p>In receiving these wonderful awards, I’m really grateful<br/>\r\nfor all of you who are always supportive of us.<br/>\r\nThank you very much!</p>"
+    }
+  ]
+}

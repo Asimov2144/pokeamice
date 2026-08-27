@@ -1,0 +1,43 @@
+id: masuda-221
+number: 221
+month: 2012-02
+roles: []
+author:
+  name_ja: 増田 順一
+  name_en: Junichi Masuda
+series:
+  name_ja: 増田部長のめざめるパワー
+  name_en: HIDDEN POWER of masuda
+sources:
+  en:
+    page_url: https://www.gamefreak.co.jp/blog/dir_english/2012/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir_english/no-221
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir_english/no-221
+    permalink_validated: true
+    date: '2012-02-24'
+    date_display: 02.24.2012
+    categories:
+    - Info
+    - Pokemon
+    lead: IMPORTANT NEWS!!
+    raw_page: archive/gamefreak-director/raw/en/2012/02/index.html
+  ja:
+    page_url: https://www.gamefreak.co.jp/blog/dir/2012/02/index.html
+    permalink: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%92%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_reported: https://www.gamefreak.co.jp/blog/dir/%e3%83%bb%e7%ac%ac%ef%bc%92%ef%bc%92%ef%bc%91%e5%9b%9e%e3%83%bb/
+    permalink_validated: true
+    date: '2012-02-24'
+    date_display: 2012.02.24
+    categories:
+    - お知らせ
+    - ポケモン
+    lead: とても重要なお知らせです！！！
+    raw_page: archive/gamefreak-director/raw/ja/2012/02/index.html
+languages:
+  en: true
+  ja: true
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-27T06:00:26+00:00'
+assets: []

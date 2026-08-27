@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "article": 233,
+  "lang": "ja",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、こんにちは！",
+      "images": [],
+      "source_html": "<p>みなさん、こんにちは！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "２０１３年１月８日。\n\n日本時間２０：００からの発表見てくれましたか？",
+      "images": [],
+      "source_html": "<p>２０１３年１月８日。<br/>\r\n日本時間２０：００からの発表見てくれましたか？</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "まだの人は、こちらを！\n\n公式『ポケットモンスター　Ｘ・Ｙ』プロモーションビデオ　（YouTube）\n\n[http://youtu.be/2MYbmIxzer8](http://youtu.be/2MYbmIxzer8)",
+      "images": [],
+      "source_html": "<p>まだの人は、こちらを！<br/>\r\n公式『ポケットモンスター　Ｘ・Ｙ』プロモーションビデオ　（YouTube）<br/>\n<a href=\"http://youtu.be/2MYbmIxzer8\" target=\"_blank\">http://youtu.be/2MYbmIxzer8</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "任天堂さんのポケモンダイレクト！（ポケモンの歴史が分かります！）\n\n[http://www.nintendo.co.jp/pokemon/direct20130108/index.html](http://www.nintendo.co.jp/pokemon/direct20130108/index.html)",
+      "images": [],
+      "source_html": "<p>任天堂さんのポケモンダイレクト！（ポケモンの歴史が分かります！）<br/>\n<a href=\"http://www.nintendo.co.jp/pokemon/direct20130108/index.html\" target=\"_blank\">http://www.nintendo.co.jp/pokemon/direct20130108/index.html</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして海外版は、こちらを！\n\n[http://www.pokemon.com/pokemonxy/en-us](http://www.pokemon.com/pokemonxy/en-us)\n\n[http://www.pokemon.com/pokemonxy/fr-fr](http://www.pokemon.com/pokemonxy/fr-fr)\n\n[http://www.youtube.com/watch?v=VzO6J981nAw](http://www.youtube.com/watch?v=VzO6J981nAw)",
+      "images": [],
+      "source_html": "<p>そして海外版は、こちらを！<br/>\n<a href=\"http://www.pokemon.com/pokemonxy/en-us\" target=\"_blank\">http://www.pokemon.com/pokemonxy/en-us</a><br/>\n<a href=\"http://www.pokemon.com/pokemonxy/fr-fr\" target=\"_blank\">http://www.pokemon.com/pokemonxy/fr-fr</a><br/>\n<a href=\"http://www.youtube.com/watch?v=VzO6J981nAw\" target=\"_blank\">http://www.youtube.com/watch?v=VzO6J981nAw</a></p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "そして、広報リリースが、こちら！！\n\n———————————————",
+      "images": [],
+      "source_html": "<p>そして、広報リリースが、こちら！！<br/>\r\n———————————————</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "世界中の人々が同時に体験できる、「本物の遊び」を。",
+      "images": [],
+      "source_html": "<p>世界中の人々が同時に体験できる、「本物の遊び」を。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "世界各国で発見される、誰も見たことのない新しいポケモン。\n\nまるでそこに存在するかのように生き生きと動くポケモン。\n\nポケモンたちが繰り広げる大迫力のバトル。\n\n３ＤＳというハードが持っている能力を最大限に活かして表現する、圧倒的な美しさ。\n\n世界中の人々と一緒に遊んでいるかのような感覚を与える、革新的な通信システム。\n\nプレイヤーとポケモンの絆が深くなることで、さらにポケモンが強くなる新しいバトルの仕組み。\n\n誰もが楽しめるシナリオと音楽。\n\n\u001a\n\nわたしたちが目指したのは、\n\n初めてゲームを遊ぶ人も、昔からポケモンをプレイしてくれている人も、\n\n年齢や性別、国、言語、文化も飛び越え、笑顔の輪が世界中に広がっていく\n\n「本物の遊び」をみなさんに提供することです。\n\n\u001a\n\n\u001a\n\nポケットモンスターは、ゲームの中だけに閉じることなく、人と人がつながり、\n\nお祭りのように、みんなで盛り上がることができるゲームです。\n\nだからこそ、今作ではわたしにとって長年の夢であった”世界同時発売”を実現しました。\n\n\u001a\n\n第６世代、進化を遂げた『ポケットモンスター　Ｘ』『ポケットモンスター　Ｙ』。\n\n\u001a\n\nみなさんが期待する、「本物の遊び」がここにあります。\n\n\u001a\n\n２０１３年１０月。\n\n世界中のみなさんと一緒にプレイできる事を今から楽しみにしています。\n\n\u001a\n\nチャオ！",
+      "images": [],
+      "source_html": "<p>世界各国で発見される、誰も見たことのない新しいポケモン。<br/>\r\nまるでそこに存在するかのように生き生きと動くポケモン。<br/>\r\nポケモンたちが繰り広げる大迫力のバトル。<br/>\r\n３ＤＳというハードが持っている能力を最大限に活かして表現する、圧倒的な美しさ。<br/>\r\n世界中の人々と一緒に遊んでいるかのような感覚を与える、革新的な通信システム。<br/>\r\nプレイヤーとポケモンの絆が深くなることで、さらにポケモンが強くなる新しいバトルの仕組み。<br/>\r\n誰もが楽しめるシナリオと音楽。<br/>\r\n\u001a<br/>\r\nわたしたちが目指したのは、<br/>\r\n初めてゲームを遊ぶ人も、昔からポケモンをプレイしてくれている人も、<br/>\r\n年齢や性別、国、言語、文化も飛び越え、笑顔の輪が世界中に広がっていく<br/>\r\n「本物の遊び」をみなさんに提供することです。<br/>\r\n\u001a<br/>\r\n\u001a<br/>\r\nポケットモンスターは、ゲームの中だけに閉じることなく、人と人がつながり、<br/>\r\nお祭りのように、みんなで盛り上がることができるゲームです。<br/>\r\nだからこそ、今作ではわたしにとって長年の夢であった”世界同時発売”を実現しました。<br/>\r\n\u001a<br/>\r\n第６世代、進化を遂げた『ポケットモンスター　Ｘ』『ポケットモンスター　Ｙ』。<br/>\r\n\u001a<br/>\r\nみなさんが期待する、「本物の遊び」がここにあります。<br/>\r\n\u001a<br/>\r\n２０１３年１０月。<br/>\r\n世界中のみなさんと一緒にプレイできる事を今から楽しみにしています。<br/>\r\n\u001a<br/>\r\nチャオ！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "株式会社ゲームフリーク取締役開発本部長\n\nポケットモンスターＸ・Ｙ　ディレクター　　増田順一\n\n———————————————",
+      "images": [],
+      "source_html": "<p>株式会社ゲームフリーク取締役開発本部長<br/>\r\nポケットモンスターＸ・Ｙ　ディレクター　　増田順一<br/>\r\n———————————————</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "というわけで、ディレクターやってます！",
+      "images": [],
+      "source_html": "<p>というわけで、ディレクターやってます！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "最高のスタッフと共に、最高のものづくりをしています。",
+      "images": [],
+      "source_html": "<p>最高のスタッフと共に、最高のものづくりをしています。</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "みなさん、１０月を楽しみに待っていてくださいね！！",
+      "images": [],
+      "source_html": "<p>みなさん、１０月を楽しみに待っていてくださいね！！</p>"
+    },
+    {
+      "type": "paragraph",
+      "markdown": "チャオ！",
+      "images": [],
+      "source_html": "<p>チャオ！</p>"
+    }
+  ]
+}
