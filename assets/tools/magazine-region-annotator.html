@@ -352,6 +352,10 @@
       background: var(--accent-soft);
     }
 
+    .page-item.needs-review {
+      border-left: 4px solid #c47a20;
+    }
+
     .region-item.is-selected {
       border-color: var(--green);
       background: rgba(78, 126, 97, 0.1);
@@ -892,6 +896,21 @@
       <div class="hint" id="imageImportStatus" hidden></div>
 
       <div class="draft-card">
+        <div><strong>扫描预处理（可选）</strong></div>
+        <div class="draft-status">先自动判断单页或跨页，再校正装订缝、裁切暗边和纸色；原图不会修改。</div>
+        <label class="check-row">装订方向
+          <select id="scanPrepBinding">
+            <option value="right">日文杂志 · 右装订</option>
+            <option value="left">西文杂志 · 左装订</option>
+          </select>
+        </label>
+        <label class="check-row"><input id="scanPrepNoTone" type="checkbox">保留原色，不自动调白</label>
+        <label class="check-row"><input id="scanPrepOuterTrim" type="checkbox">自动裁掉外侧书口（建议先小批量试用）</label>
+        <button class="btn primary" id="prepareScansButton" type="button" disabled>预处理后载入</button>
+        <div class="draft-status" id="scanPrepStatus">请先选择原图文件夹。</div>
+      </div>
+
+      <div class="draft-card">
         <div class="draft-status" id="draftStatus">临时保存：等待内容</div>
         <div class="button-row">
           <button class="btn btn-small" id="saveDraftButton" type="button">立即保存</button>
@@ -1135,6 +1154,9 @@
       selectedRegionIds: new Set(),
       zoom: 0.15,
       imageFolderName: "",
+      sourceFolderToken: "",
+      sourceFolderPath: "",
+      scanPrepBusy: false,
       crossPageGroupId: "",
       panMode: false,
       spaceDown: false,
@@ -1153,6 +1175,11 @@
       folderButton: document.getElementById("folderButton"),
       folderPathHint: document.getElementById("folderPathHint"),
       imageImportStatus: document.getElementById("imageImportStatus"),
+      scanPrepBinding: document.getElementById("scanPrepBinding"),
+      scanPrepNoTone: document.getElementById("scanPrepNoTone"),
+      scanPrepOuterTrim: document.getElementById("scanPrepOuterTrim"),
+      prepareScansButton: document.getElementById("prepareScansButton"),
+      scanPrepStatus: document.getElementById("scanPrepStatus"),
       importButton: document.getElementById("importButton"),
       importInput: document.getElementById("importInput"),
       clearButton: document.getElementById("clearButton"),
@@ -1607,8 +1634,10 @@
       state.pages.forEach((page, index) => {
         const item = document.createElement("button");
         item.type = "button";
-        item.className = "page-item" + (index === state.currentPage ? " is-active" : "");
-        item.innerHTML = `<strong>${escapeHtml(page.name)}</strong><span>${page.width} x ${page.height} / ${page.regions.length} 区</span>`;
+        item.className = "page-item" + (index === state.currentPage ? " is-active" : "") + (page.preparationReview?.length ? " needs-review" : "");
+        const prepLabel = page.preparationReview?.length ? " · 预处理待检查" : page.prepared ? " · 已预处理" : "";
+        item.innerHTML = `<strong>${escapeHtml(page.name)}</strong><span>${page.width} x ${page.height} / ${page.regions.length} 区${prepLabel}</span>`;
+        if (page.preparationReview?.length) item.title = `预处理待检查：${page.preparationReview.join("、")}`;
         item.addEventListener("click", () => loadPage(index));
         els.pageList.appendChild(item);
       });
@@ -2722,13 +2751,83 @@
         });
         const selection = await response.json().catch(() => ({}));
         if (!response.ok) throw new Error(selection.error || `服务器返回 ${response.status}`);
-        if (!selection.cancelled) await importSelectedLocalFolder(selection);
+        if (!selection.cancelled) {
+          state.sourceFolderToken = selection.token || "";
+          state.sourceFolderPath = selection.folder || "";
+          els.prepareScansButton.disabled = !state.sourceFolderToken;
+          els.scanPrepStatus.textContent = `已选择 ${selection.files?.length || 0} 张原图；可直接分区，也可以先预处理。`;
+          await importSelectedLocalFolder(selection);
+        }
       } catch (error) {
         els.folderPathHint.textContent = `本机文件夹选择不可用，已切换到浏览器选择：${error.message || error}`;
         els.folderInput.click();
       } finally {
         els.folderButton.disabled = false;
         els.folderButton.textContent = originalText;
+      }
+    }
+
+    function scanPrepReasonLabel(reason) {
+      return ({
+        page_kind_uncertain: "无法确定单页或跨页",
+        page_model_failed: "页面判断模型未完成",
+        page_confidence_low: "页面判断信心不足",
+        wide_page_not_split: "宽页尚未安全拆分",
+        seam_tilt_unresolved: "装订缝倾斜仍需确认",
+        outer_edge_detected_not_trimmed: "检测到书口但未自动裁切",
+        archive_over_budget: "存档图体积异常",
+      })[reason] || reason;
+    }
+
+    async function prepareSelectedScans() {
+      if (!state.sourceFolderToken || state.scanPrepBusy) return;
+      state.scanPrepBusy = true;
+      els.prepareScansButton.disabled = true;
+      els.prepareScansButton.textContent = "正在分页、裁切与调色…";
+      els.scanPrepStatus.textContent = "正在分析页面。跨页或版式不确定时才会调用视觉模型。";
+      try {
+        const response = await fetch("/api/prepare-scan-pages", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            sourceFolderToken: state.sourceFolderToken,
+            binding: els.scanPrepBinding.value,
+            noTone: els.scanPrepNoTone.checked,
+            vlm: "auto",
+            outerTrim: els.scanPrepOuterTrim.checked ? "auto" : "off",
+          }),
+        });
+        const result = await response.json().catch(() => ({}));
+        if (!response.ok) throw new Error(result.error || `服务器返回 ${response.status}`);
+
+        state.pages = [];
+        state.currentPage = -1;
+        state.activeRegionId = null;
+        state.selectedRegionIds.clear();
+        await importSelectedLocalFolder(result.archiveSelection);
+
+        const reviewByStem = new Map();
+        (result.reviewPages || []).forEach((page) => {
+          const filename = String(page.source || "").split(/[\\/]/).pop() || "";
+          const stem = filename.replace(/\.[^.]+$/, "");
+          reviewByStem.set(stem, (page.reasons || []).map(scanPrepReasonLabel));
+        });
+        state.pages.forEach((page) => {
+          const stem = page.name.replace(/\.[^.]+$/, "").replace(/-[ab]$/, "");
+          page.prepared = true;
+          page.preparationReview = reviewByStem.get(stem) || [];
+        });
+        const summary = result.summary || {};
+        const reviewCount = Number(summary.review_count || 0);
+        els.scanPrepStatus.textContent = `预处理完成：输出 ${summary.processed_count || state.pages.length} 张源图，拆分 ${summary.split_count || 0} 张，调色 ${summary.tone_count || 0} 张；${reviewCount ? `${reviewCount} 张以橙线标出，分区前请先看一眼` : "没有高风险页面"}。清单：${result.manifestPath}`;
+        setImageImportStatus(`已载入 OCR 存档图；原图仍保留在 ${state.sourceFolderPath}。`, reviewCount ? "warn" : "info");
+        render();
+      } catch (error) {
+        els.scanPrepStatus.textContent = `预处理失败：${error.message || error}`;
+      } finally {
+        state.scanPrepBusy = false;
+        els.prepareScansButton.disabled = !state.sourceFolderToken;
+        els.prepareScansButton.textContent = "预处理后载入";
       }
     }
 
@@ -2973,6 +3072,7 @@
     });
 
     els.folderButton.addEventListener("click", chooseOriginalImageFolder);
+    els.prepareScansButton.addEventListener("click", prepareSelectedScans);
     els.folderInput.addEventListener("change", (event) => {
       loadImages(event.target.files).catch((error) => {
         setImageImportStatus(`导入失败：${error.message || error}`, "warn");

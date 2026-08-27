@@ -33,7 +33,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageOps
 
 try:
     import cv2
@@ -53,6 +53,7 @@ PAPER_LUMA_CLEAR = 235.0   # brighter highlights than this means a paper page
 PAPER_LUMA_DARK = 200.0    # dimmer than this means full-bleed art, leave colour alone
 MIN_DESKEW_DEG = 0.50      # below this, rotating costs more detail than it recovers
 MIN_SEAM_TILT_DEG = 0.30   # below this, a vertical cut is already on the seam
+MAX_SEAM_TILT_DEG = 2.00   # ScanTailor caps spine tilt here; measured spreads agree
 TONE_BLACK_OK = 25.0       # blacks at or under this need no pulling down
 TONE_CAST_OK = 8.0         # channel spread at or under this is not a visible cast
 TONE_PAPER_OK = 245.0      # highlights at or above this are already paper white
@@ -81,9 +82,22 @@ class Measurement:
     colour_cast: float
 
 
+def upright_image(opened: Image.Image) -> Image.Image:
+    """Materialise the display orientation recorded by the scanner/camera.
+
+    Pillow deliberately exposes JPEG pixels as stored.  Several pokepia scans
+    store their pixels upside down and rely on EXIF orientation 3, so ignoring
+    metadata makes an apparently successful preparation unusable for OCR.
+    ``exif_transpose`` handles all mirrored/rotated EXIF variants and removes
+    the tag from the returned image so downstream encoders cannot apply it a
+    second time.
+    """
+    return ImageOps.exif_transpose(opened).convert("RGB")
+
+
 def working_copy(path: Path) -> tuple[np.ndarray, tuple[int, int]]:
     with Image.open(path) as opened:
-        image = opened.convert("RGB")
+        image = upright_image(opened)
         full = image.size
         scale = WORK_WIDTH / image.width
         if scale < 1:
@@ -140,6 +154,14 @@ def gutter_of(rgb: np.ndarray, box: list[float]) -> tuple[float, float]:
     column = inner.mean(axis=0)
     span = len(column)
 
+    # Vertical persistence, the gate ScanTailor's spine search uses: a binding
+    # runs the whole height, so nearly every row of its column is dark, while a
+    # photograph is dark only across the rows it occupies. Scoring on this as
+    # well as on local darkness stops a picture edge from ever looking like a
+    # seam, rather than relying on the blur difference alone to cancel it.
+    ink = max(40.0, float(np.percentile(inner, 85)) * 0.72)
+    persistence = (inner < ink).mean(axis=0)
+
     def blur(width_px: int) -> np.ndarray:
         size = max(3, width_px | 1)
         return np.convolve(column, np.ones(size, dtype=np.float32) / size, mode="same")
@@ -153,7 +175,9 @@ def gutter_of(rgb: np.ndarray, box: list[float]) -> tuple[float, float]:
     valley = wide - narrow
 
     lo, hi = int(span * 0.35), int(span * 0.65)
-    index = int(np.argmax(valley[lo:hi])) + lo
+    window = slice(lo, hi)
+    scored = valley[window] * np.clip(persistence[window], 0.0, 1.0)
+    index = int(np.argmax(scored)) + lo
     contrast = float(valley[index])
     absolute = (x0 + index) / width
     return round(absolute, 5), round(contrast, 2)
@@ -252,7 +276,7 @@ def seam_tilt_of(rgb: np.ndarray, seam_x: float, contrast: float,
         slope, intercept = np.polyfit(ys_arr, xs_arr, 1)
 
     tilt = float(np.degrees(np.arctan(slope)))
-    if abs(tilt) > 12.0:
+    if abs(tilt) > MAX_SEAM_TILT_DEG:
         return 0.0, int(len(ys_arr))       # implausible for a bound page
     return round(tilt, 3), int(len(ys_arr))
 
@@ -274,15 +298,43 @@ def skew_of(rgb: np.ndarray) -> float | None:
     return round(float(np.median(angles)), 3) if angles else None
 
 
-def tone_of(rgb: np.ndarray) -> tuple[list[float], float, float, float]:
-    """Colour of the page's highlights, its darkest ink, and the colour cast."""
+def tone_reference_of(rgb: np.ndarray) -> tuple[list[float], float, float, float, bool]:
+    """Estimate a neutral white reference, darkest ink, and colour cast.
+
+    The brightest pixels are not necessarily paper: on the Aoi Yu photo pages
+    the cyan backdrop occupies most of the upper histogram. Treating it as
+    paper made the tone pass nearly invisible and reinforced the cast. Prefer
+    bright *low-chroma* pixels (paper, white type, clothing, page edges).  When
+    no trustworthy neutral exists, return a neutral scalar estimate and mark
+    it unreliable.  A caller may still use its luminance for classification,
+    but must not perform per-channel white balance from a coloured highlight.
+    """
     gray = luma_of(rgb)
-    highlight_cut = float(np.percentile(gray, 85))
-    highlights = rgb[gray >= highlight_cut]
-    paper = highlights.mean(axis=0) if len(highlights) else np.array([255.0, 255.0, 255.0])
+    chroma = rgb.max(axis=2) - rgb.min(axis=2)
+    bright_cut = float(np.percentile(gray, 65))
+    neutral = rgb[(gray >= bright_cut) & (chroma <= 24.0)]
+    minimum = max(64, round(gray.size * 0.002))
+    if len(neutral) >= minimum:
+        paper = np.percentile(neutral, 90, axis=0)
+        reliable = True
+    else:
+        # A yellow illustration can have RGB 246/231/65 at the top of its
+        # histogram.  Treating that as paper sends the blue channel through a
+        # radically different curve and destroys the artwork.  Preserve hue by
+        # exposing only a neutral luminance estimate to the rest of the pass.
+        level = float(np.percentile(gray, 95))
+        paper = np.array([level, level, level], dtype=np.float32)
+        reliable = False
+    paper_luma = float(paper @ np.array([0.299, 0.587, 0.114], dtype=np.float32))
     black = float(np.percentile(gray, 2))
     cast = float(paper.max() - paper.min())
-    return [round(float(v), 2) for v in paper], round(highlight_cut, 2), round(black, 2), round(cast, 2)
+    return ([round(float(v), 2) for v in paper], round(paper_luma, 2),
+            round(black, 2), round(cast, 2), reliable)
+
+
+def tone_of(rgb: np.ndarray) -> tuple[list[float], float, float, float]:
+    """Compatibility wrapper for callers that only need tone measurements."""
+    return tone_reference_of(rgb)[:4]
 
 
 def measure(path: Path) -> Measurement:
@@ -355,7 +407,7 @@ def ask_model(path: Path, model: str, timeout: int) -> dict:
     if not api_key:
         raise RuntimeError("set VLM_OCR_API_KEY or DASHSCOPE_API_KEY to classify pages")
     with Image.open(path) as opened:
-        image = opened.convert("RGB")
+        image = upright_image(opened)
         scale = 1024 / max(image.size)
         if scale < 1:
             image = image.resize((round(image.width * scale), round(image.height * scale)), Image.LANCZOS)
@@ -417,7 +469,10 @@ def classify(path: Path, measurement: Measurement, mode: str, model: str, timeou
             split=not portrait and confident_seam,
             tone_policy=tone_policy_for(kind, measurement),
             decided_by="cv",
-            confidence=0.9 if portrait else min(0.9, measurement.gutter_contrast / 100),
+            confidence=(0.9 if portrait else min(
+                0.95,
+                0.65 + max(0.0, measurement.gutter_contrast - GUTTER_CONFIDENT) / 100,
+            )),
             reason=(
                 "portrait page with paper highlights" if portrait
                 else f"seam contrast {measurement.gutter_contrast}"
@@ -627,6 +682,112 @@ def trim_dark_edges(image: Image.Image, paper_luma: float, limit: float = 0.09) 
     return image.crop((left, top, width - right, height - bottom))
 
 
+def trim_scanner_frame(image: Image.Image, limit: float = 0.06,
+                       min_step: float = 9.0) -> tuple[Image.Image, tuple[int, int, int, int]]:
+    """Crop the scanner bed or book block around a rectangular printed page.
+
+    `trim_dark_edges` intentionally only removes bands that are uniformly dark.
+    Real scans also have a mid-grey platen, pale page stacks, and graded shadows.
+    Those are better identified by the first sustained luminance *step* where
+    the physical sheet begins. Median row/column profiles ignore most text and
+    photographs.  The search is restricted to the outer 6%, and no automatic
+    cut may consume more than 5% of a side: a larger candidate is more likely a
+    masthead or a layout edge and must be left for review.
+
+    The returned tuple is left, top, right, bottom pixels removed.
+    """
+    original_width, original_height = image.size
+    scale = min(1.0, WORK_WIDTH / max(original_width, original_height))
+    if scale < 1.0:
+        preview = image.resize(
+            (max(1, round(original_width * scale)), max(1, round(original_height * scale))),
+            Image.BILINEAR,
+        )
+    else:
+        preview = image
+    preview_rgb = np.asarray(preview.convert("RGB"), dtype=np.float32)
+    gray = luma_of(preview_rgb)
+
+    def boundary(profile: np.ndarray, colours: np.ndarray) -> int:
+        length = len(profile)
+        cap = max(8, min(length // 4, round(length * limit)))
+        bridge = max(2, round(length * 0.004))
+        blur = max(3, round(length * 0.006) | 1)
+        pad = blur // 2
+        smooth = np.convolve(
+            np.pad(profile, (pad, pad), mode="edge"),
+            np.ones(blur, dtype=np.float32) / blur,
+            mode="valid",
+        )
+        response = np.abs(smooth[bridge:] - smooth[:-bridge])
+        lo = 1
+        hi = max(lo + 1, min(cap, len(response)))
+        # The strongest edge is often not the sheet edge.  On pokepia page019
+        # the grey platen ended around 1% from the side, but the cover headline
+        # at 6% produced the largest response and ate visible lettering.  Walk
+        # in from the rim and take the first sustained response cluster.
+        candidates = np.flatnonzero(response[lo:hi] >= min_step) + lo
+        if not len(candidates):
+            return 0
+        runs = np.split(candidates, np.where(np.diff(candidates) > 1)[0] + 1)
+        run = next((part for part in runs if len(part) >= 2), None)
+        if run is None:
+            return 0
+        index = int(run[np.argmax(response[run])])
+        step = float(response[index])
+        outside = profile[max(0, index - bridge * 3):index]
+        inside = profile[index + bridge:index + bridge * 4]
+        contrast = (abs(float(np.median(inside)) - float(np.median(outside)))
+                    if len(outside) and len(inside) else 0.0)
+        if max(step, contrast) < min_step:
+            return 0
+        if (index + bridge) / length > 0.05:
+            return 0
+        # Scanner platens and page-stack shadows are neutral.  A coloured strip
+        # at the rim is normally printed design: pokepia page063 has a yellow
+        # frame whose inner edge looked exactly like a paper boundary in luma,
+        # and cropping it removed the first interview column.
+        outside_colours = colours[:max(index, 1)]
+        outside_colour = np.median(outside_colours, axis=0)
+        if float(outside_colour.max() - outside_colour.min()) > 28.0:
+            return 0
+        # Land just inside the sheet rather than on the anti-aliased boundary.
+        return min(cap, index + bridge)
+
+    row_colours = np.median(preview_rgb, axis=1)
+    column_colours = np.median(preview_rgb, axis=0)
+    top_small = boundary(np.median(gray, axis=1), row_colours)
+    bottom_small = boundary(np.median(gray, axis=1)[::-1], row_colours[::-1])
+    left_small = boundary(np.median(gray, axis=0), column_colours)
+    right_small = boundary(np.median(gray, axis=0)[::-1], column_colours[::-1])
+
+    inverse = 1.0 / scale
+    left = round(left_small * inverse)
+    top = round(top_small * inverse)
+    right = round(right_small * inverse)
+    bottom = round(bottom_small * inverse)
+    # The detected step sits on an anti-aliased physical edge. Move a few
+    # pixels further inward on detected sides so a one-pixel platen hairline
+    # does not survive in the OCR derivative.
+    safety_x = max(1, round(original_width * 0.0015))
+    safety_y = max(1, round(original_height * 0.0015))
+    if left:
+        left += safety_x
+    if right:
+        right += safety_x
+    if top:
+        top += safety_y
+    if bottom:
+        bottom += safety_y
+    if original_width - left - right < original_width * 0.72:
+        left = right = 0
+    if original_height - top - bottom < original_height * 0.72:
+        top = bottom = 0
+    if not (left or top or right or bottom):
+        return image, (0, 0, 0, 0)
+    return image.crop((left, top, original_width - right, original_height - bottom)), (left, top, right, bottom)
+
+
 def deskew(image: Image.Image, angle: float | None, fill: tuple[int, int, int]) -> tuple[Image.Image, float]:
     """Straighten the page, keeping the result only if it measurably improved.
 
@@ -723,22 +884,74 @@ class PageResult:
     deskewed_by: float = 0.0
     seam_straightened_by: float = 0.0
     outer_trimmed: list[int] = field(default_factory=lambda: [0, 0])
+    page_trims: list[dict] = field(default_factory=list)
     tone_applied: bool = False
+    source_orientation: int | None = None
+    orientation_normalized: bool = False
+    orientation_transform: str = "none"
+    workflow_status: str = "ready"
+    review_reasons: list[str] = field(default_factory=list)
     note: str = ""
 
 
-def process(path: Path, out_dir: Path, args) -> PageResult:
+def review_reasons_for(result: PageResult) -> list[str]:
+    """Return page-level gates before a prepared page moves on to OCR.
+
+    This is deliberately conservative: preprocessing may propose a split or a
+    colour repair, but an uncertain wide page must remain visible to a person
+    instead of silently becoming OCR input.
+    """
+    decision = result.decision
+    measurement = result.measurement
+    reasons = []
+    if decision.get("kind") == "unknown":
+        reasons.append("page_kind_uncertain")
+    if decision.get("decided_by") == "vlm-failed":
+        reasons.append("page_model_failed")
+    if float(decision.get("confidence") or 0) < 0.65:
+        reasons.append("page_confidence_low")
+    if (float(measurement.get("aspect") or 0) >= SPREAD_ASPECT
+            and not decision.get("split")
+            and decision.get("kind") not in {"art", "foldout"}):
+        reasons.append("wide_page_not_split")
+    if (abs(float(measurement.get("seam_tilt") or 0)) >= MIN_SEAM_TILT_DEG
+            and decision.get("split") and not result.seam_straightened_by):
+        reasons.append("seam_tilt_unresolved")
+    if (any(float(value or 0) > 0 for value in measurement.get("outer_edges") or [])
+            and not any(result.outer_trimmed)
+            and not any(any(trim.get("removed") or []) for trim in result.page_trims)):
+        reasons.append("outer_edge_detected_not_trimmed")
+    return list(dict.fromkeys(reasons))
+
+
+def process(path: Path, out_dir: Path, args, source_root: Path | None = None) -> PageResult:
+    with Image.open(path) as source_probe:
+        source_orientation = source_probe.getexif().get(274)
+    orientation_names = {
+        2: "mirror-horizontal", 3: "rotate-180", 4: "mirror-vertical",
+        5: "transpose", 6: "rotate-90-cw", 7: "transverse", 8: "rotate-270-cw",
+    }
     measurement = measure(path)
     decision = classify(path, measurement, args.vlm, args.model, args.timeout)
+    source_root = source_root or path.parent
+    try:
+        source_relative = path.relative_to(source_root)
+    except ValueError:
+        source_relative = Path(path.name)
     result = PageResult(
-        source=path.name, source_bytes=path.stat().st_size,
+        source=source_relative.as_posix(), source_bytes=path.stat().st_size,
         measurement=asdict(measurement), decision=asdict(decision),
+        source_orientation=source_orientation,
+        orientation_normalized=source_orientation in orientation_names,
+        orientation_transform=orientation_names.get(source_orientation, "none"),
     )
     if args.dry_run:
+        result.review_reasons = review_reasons_for(result)
+        result.workflow_status = "review" if result.review_reasons else "ready"
         return result
 
     with Image.open(path) as opened:
-        full = opened.convert("RGB")
+        full = upright_image(opened)
         fill = tuple(int(round(v)) for v in measurement.paper_rgb)
         outer = resolve_outer_trim(args.outer_trim, measurement)
         if outer != (0.0, 0.0):
@@ -764,23 +977,65 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
                   if decision.split and seam else [("", full)])
         for suffix, piece in pieces:
             piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])
+            trim_basis = piece.size
+            piece, frame_removed = trim_scanner_frame(piece)
             piece = trim_dark_edges(piece, measurement.paper_luma)
             piece, rotated = deskew(piece, measurement.skew_deg, fill)
+            if rotated:
+                rotated_piece = piece
+                trimmed_piece, after_rotation = trim_scanner_frame(rotated_piece)
+                combined = tuple(a + b for a, b in zip(frame_removed, after_rotation))
+                max_x = round(trim_basis[0] * 0.055)
+                max_y = round(trim_basis[1] * 0.055)
+                if (combined[0] <= max_x and combined[2] <= max_x
+                        and combined[1] <= max_y and combined[3] <= max_y):
+                    piece = trimmed_piece
+                    frame_removed = combined
             result.deskewed_by = rotated
             if decision.tone_policy == "paper" and not args.no_tone:
-                piece = normalise_tone(piece, measurement.black_point, measurement.paper_rgb)
-                result.tone_applied = True
+                preview = piece
+                if max(piece.size) > WORK_WIDTH:
+                    ratio = WORK_WIDTH / max(piece.size)
+                    preview = piece.resize(
+                        (round(piece.width * ratio), round(piece.height * ratio)),
+                        Image.BILINEAR,
+                    )
+                piece_paper, piece_luma, piece_black, piece_cast, tone_reliable = tone_reference_of(
+                    np.asarray(preview.convert("RGB"), dtype=np.float32)
+                )
+                if tone_reliable:
+                    piece = normalise_tone(piece, piece_black, piece_paper)
+                    result.tone_applied = True
+            else:
+                piece_paper = measurement.paper_rgb
+                piece_luma = measurement.paper_luma
+                piece_black = measurement.black_point
+                piece_cast = measurement.colour_cast
+                tone_reliable = decision.tone_policy != "paper"
+            result.page_trims.append({
+                "piece": suffix or "single",
+                "removed": list(frame_removed),
+                "tone_reference": {
+                    "white_rgb": piece_paper,
+                    "white_luma": piece_luma,
+                    "black_point": piece_black,
+                    "colour_cast": piece_cast,
+                    "reliable": tone_reliable,
+                },
+            })
             stem = path.stem + (f"-{suffix}" if suffix else "")
+            relative_parent = source_relative.parent
             untouched = (not suffix and not rotated
                          and not result.seam_straightened_by and not result.tone_applied
+                         and not result.orientation_normalized
                          and piece.size == (measurement.width, measurement.height))
             # Half a spread should not be measured against the whole source file.
             budget = round(result.source_bytes / len(pieces))
 
             if "archive" in args.profiles:
-                target = out_dir / "archive" / f"{stem}.jpg"
+                target = out_dir / "archive" / relative_parent / f"{stem}.jpg"
                 written = encode(piece, target, args.archive_quality, None, budget)
-                if written["over_budget"] and untouched:
+                if written["over_budget"] and untouched and path.suffix.lower() in {".jpg", ".jpeg"}:
                     # Nothing was changed and every quality overshot: the source
                     # is already the smallest honest version of this page.
                     target.write_bytes(path.read_bytes())
@@ -788,11 +1043,17 @@ def process(path: Path, out_dir: Path, args) -> PageResult:
                                "size": [measurement.width, measurement.height],
                                "quality": None, "copied_source": True}
                     result.note = "archive copied from source; re-encoding could not beat it"
+                written["profile"] = "archive"
+                written["relative_path"] = target.relative_to(out_dir).as_posix()
                 result.outputs.append(written)
             if "web" in args.profiles:
-                result.outputs.append(encode(
-                    piece, out_dir / "web" / f"{stem}.jpg",
-                    args.web_quality, args.web_long_edge, None))
+                target = out_dir / "web" / relative_parent / f"{stem}.jpg"
+                written = encode(piece, target, args.web_quality, args.web_long_edge, None)
+                written["profile"] = "web"
+                written["relative_path"] = target.relative_to(out_dir).as_posix()
+                result.outputs.append(written)
+    result.review_reasons = review_reasons_for(result)
+    result.workflow_status = "review" if result.review_reasons else "ready"
     return result
 
 
@@ -843,12 +1104,17 @@ def main() -> int:
         return 1
     print(f"{len(files)} images under {source.name}\n")
 
-    results, calls = [], 0
+    results, errors, calls = [], [], 0
     for index, path in enumerate(files, start=1):
         try:
-            result = process(path, out_dir, args)
+            result = process(path, out_dir, args, source)
         except Exception as exc:
             print(f"{index:>4}/{len(files)}  {path.name[:34]:<34} ERROR {type(exc).__name__}: {str(exc)[:90]}")
+            errors.append({
+                "source": path.relative_to(source).as_posix(),
+                "error_type": type(exc).__name__,
+                "message": str(exc)[:500],
+            })
             continue
         calls += 1 if result.decision["decided_by"].startswith("vlm") else 0
         results.append(result)
@@ -859,12 +1125,24 @@ def main() -> int:
               f"{result.source_bytes/1048576:>6.1f}M -> {produced/1048576:>6.1f}M "
               f"({len(result.outputs)} files, {result.decision['decided_by']})")
 
-    if not args.dry_run and results:
+    if not args.dry_run and (results or errors):
         out_dir.mkdir(parents=True, exist_ok=True)
+        review = sum(item.workflow_status == "review" for item in results)
         manifest = {
             "source": str(source),
             "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "settings": {k: (sorted(v) if isinstance(v, set) else v) for k, v in vars(args).items()},
+            "summary": {
+                "input_count": len(files),
+                "processed_count": len(results),
+                "error_count": len(errors),
+                "ready_count": len(results) - review,
+                "review_count": review,
+                "split_count": sum(1 for item in results if item.decision["split"]),
+                "tone_count": sum(1 for item in results if item.tone_applied),
+                "model_call_count": calls,
+            },
+            "errors": errors,
             "pages": [asdict(item) for item in results],
         }
         (out_dir / "scan-manifest.json").write_text(
@@ -874,7 +1152,9 @@ def main() -> int:
     produced = sum(entry["bytes"] for item in results for entry in item.outputs)
     splits = sum(1 for item in results if item.decision["split"])
     toned = sum(1 for item in results if item.tone_applied)
-    print(f"\n{len(results)} pages | {splits} split | {toned} tone-normalised | {calls} model calls")
+    review = sum(item.workflow_status == "review" for item in results)
+    print(f"\n{len(results)} pages | {splits} split | {toned} tone-normalised | "
+          f"{review} review | {len(errors)} errors | {calls} model calls")
     if original and not args.dry_run:
         print(f"{original/1048576:.1f} MB in -> {produced/1048576:.1f} MB out "
               f"({100*produced/original:.0f}%), manifest at {out_dir / 'scan-manifest.json'}")

@@ -1271,9 +1271,12 @@ GAME FREAK => GAME FREAK</textarea>
         <div class="button-row">
           <button class="primary" id="buildPostBtn" type="button">生成扫描对照页 Markdown</button>
           <button id="buildSegmentsBtn" type="button">生成段落 YAML</button>
+          <button id="buildWordPressBtn" type="button">当前页 WordPress 预览</button>
+          <button id="packageCaseBtn" type="button">当前页开发案例 ZIP</button>
           <button id="copyOutputBtn" type="button">复制输出</button>
           <button id="downloadOutputBtn" type="button">下载</button>
         </div>
+        <div id="wordpressExportStatus" class="status">WordPress 导出会自动检查多框定位、待翻译段落和日中轮次。</div>
         <div id="statusText" class="status">等待操作</div>
         <pre id="output" class="output"></pre>
       </section>
@@ -1389,6 +1392,9 @@ GAME FREAK => GAME FREAK</textarea>
       deepseekStatus: document.querySelector("#deepseekStatus"),
       buildPostBtn: document.querySelector("#buildPostBtn"),
       buildSegmentsBtn: document.querySelector("#buildSegmentsBtn"),
+      buildWordPressBtn: document.querySelector("#buildWordPressBtn"),
+      packageCaseBtn: document.querySelector("#packageCaseBtn"),
+      wordpressExportStatus: document.querySelector("#wordpressExportStatus"),
       copyOutputBtn: document.querySelector("#copyOutputBtn"),
       downloadOutputBtn: document.querySelector("#downloadOutputBtn"),
       statusText: document.querySelector("#statusText"),
@@ -1424,7 +1430,13 @@ GAME FREAK => GAME FREAK</textarea>
       reboxMode: false,
       reboxStart: null,
       reboxDraft: null,
-      rerunBusy: false
+      rerunBusy: false,
+      workflowContext: {
+        sourceQueue: "",
+        projectOutputDir: "",
+        sourceFolder: ""
+      },
+      lastWordPressExport: null
     };
 
     const sample = `translation_segments:
@@ -1834,6 +1846,16 @@ GAME FREAK => GAME FREAK</textarea>
       return `${scanPath.replace(/\/$/, "")}/${encodeURIComponent(item.pageName)}`;
     }
 
+    function mappedSourceRelativePath(item) {
+      const url = mappedSourceUrl(item);
+      if (!url || !url.startsWith("/api/local-image")) return "";
+      try {
+        return new URL(url, location.origin).searchParams.get("path") || "";
+      } catch (_) {
+        return "";
+      }
+    }
+
     function hasMappedSource(item) {
       const keys = [item?.pageName, pathBasename(item?.sourceImage)].filter(Boolean).map((key) => key.toLowerCase());
       return keys.some((key) => state.sourceFiles.has(key));
@@ -1978,6 +2000,23 @@ GAME FREAK => GAME FREAK</textarea>
       return out.join("\n").trim();
     }
 
+    function parseScanBoxes(block) {
+      const boxes = [];
+      const single = parseScalar(block, "scan_box", "").replace(/^\[|\]$/g, "").trim();
+      if (single) boxes.push(single);
+      const lines = block.replace(/\r/g, "").split("\n");
+      const start = lines.findIndex((line) => /^\s*scan_boxes:\s*$/.test(line));
+      if (start >= 0) {
+        for (let i = start + 1; i < lines.length; i += 1) {
+          const line = lines[i];
+          if (/^\s{4}[A-Za-z_][\w_-]*:/.test(line) || /^\s{2}-\s+(?=[A-Za-z_][\w_-]*:)/.test(line)) break;
+          const match = line.match(/^\s*-\s*\[([^\]]+)\]\s*$/);
+          if (match && match[1].trim()) boxes.push(match[1].trim());
+        }
+      }
+      return [...new Set(boxes)];
+    }
+
     function parseComments(block) {
       const comments = [];
       const single = parseScalar(block, "comment", "");
@@ -2003,11 +2042,20 @@ GAME FREAK => GAME FREAK</textarea>
         ? item.comments.map(String).filter(Boolean)
         : String(item.comments || item.comment || "").split("\n").filter(Boolean);
       if (annotationNote && !comments.includes(annotationNote)) comments.unshift(annotationNote);
+      const incomingBoxes = Array.isArray(item.scanBoxes ?? item.scan_boxes)
+        ? (item.scanBoxes ?? item.scan_boxes)
+        : [];
+      const normalizedBoxes = incomingBoxes.map((value) => Array.isArray(value) ? value.join(", ") : String(value || "").replace(/^\[|\]$/g, "").trim()).filter(Boolean);
+      const primaryBox = Array.isArray(item.scanBox || item.scan_box)
+        ? (item.scanBox || item.scan_box).join(", ")
+        : String(item.scanBox || item.scan_box || "").replace(/^\[|\]$/g, "").trim();
+      if (primaryBox && !normalizedBoxes.includes(primaryBox)) normalizedBoxes.unshift(primaryBox);
       return {
         id: item.id || uid(),
         speaker: item.speaker || `段落 ${index + 1}`,
         scanPage: Number(item.scanPage ?? item.scan_page ?? 0),
-        scanBox: Array.isArray(item.scanBox || item.scan_box) ? (item.scanBox || item.scan_box).join(", ") : String(item.scanBox || item.scan_box || ""),
+        scanBox: primaryBox || normalizedBoxes[0] || "",
+        scanBoxes: normalizedBoxes,
         original: kind === "image" ? "" : (item.original || ""),
         translation: item.translation == null ? "" : String(item.translation),
         comments,
@@ -2046,11 +2094,13 @@ GAME FREAK => GAME FREAK</textarea>
         blocks.push(body.replace(/^\s*-\s+/, ""));
       }
       return blocks.map((block, index) => {
-        const box = parseScalar(block, "scan_box", "").replace(/^\[|\]$/g, "");
+        const boxes = parseScanBoxes(block);
+        const box = boxes[0] || "";
         return normalizeSegment({
           speaker: parseScalar(block, "speaker", `段落 ${index + 1}`),
           scan_page: parseScalar(block, "scan_page", "0"),
           scan_box: box,
+          scan_boxes: boxes,
           original: parseBlockText(block, "original"),
           translation: parseBlockText(block, "translation"),
           comments: parseComments(block),
@@ -2380,6 +2430,11 @@ GAME FREAK => GAME FREAK</textarea>
       item.status = els.statusInput.value;
       item.scanPage = Number(els.scanPageInput.value || 0);
       item.scanBox = els.scanBoxInput.value.trim();
+      item.scanBoxes = Array.isArray(item.scanBoxes) ? item.scanBoxes.filter(Boolean) : [];
+      if (item.scanBox) {
+        if (item.scanBoxes.length) item.scanBoxes[0] = item.scanBox;
+        else item.scanBoxes = [item.scanBox];
+      }
       item.writingDirection = els.writingDirectionInput.value || "auto";
       item.regionAngle = Number(els.regionAngleInput.value || 0);
       item.original = els.originalInput.value;
@@ -2397,6 +2452,7 @@ GAME FREAK => GAME FREAK</textarea>
         Number(item.regionAngle) ? `旋转 ${item.regionAngle}°` : "",
         item.regionId ? `区域 ${item.regionId}` : "",
         item.groupId ? `合并组 ${item.groupId}` : "",
+        item.scanBoxes?.length > 1 ? `合并区域 ${item.scanBoxes.length} 个` : "",
         item.kind === "image" ? "版面元素 图片（不参与 OCR / 翻译）" : "",
         item.captionFor ? `图注对应 ${item.captionFor}` : "",
         item.imagePath ? `图片 ${item.imagePath}` : "",
@@ -2712,6 +2768,16 @@ GAME FREAK => GAME FREAK</textarea>
       if (!item.comments.includes(text)) item.comments.push(text);
     }
 
+    function translationBoundaryWarning(original, translation) {
+      const sourceLength = String(original || "").replace(/\s+/g, "").length;
+      const targetLength = String(translation || "").replace(/\s+/g, "").length;
+      if (!targetLength) return "翻译结果为空";
+      if (sourceLength >= 40 && targetLength > Math.max(sourceLength * 2.1, sourceLength + 160)) {
+        return `译文异常变长（原文 ${sourceLength} / 译文 ${targetLength}），可能混入邻近段落`;
+      }
+      return "";
+    }
+
     async function translateWithDeepSeek(items) {
       const config = deepSeekConfig();
       if (!config.apiKey) {
@@ -2729,7 +2795,7 @@ GAME FREAK => GAME FREAK</textarea>
         messages: [
           {
             role: "system",
-            content: "你是宝可梦、任天堂、GAME FREAK 相关日文杂志的翻译编辑。请严格返回 JSON 数组，每项包含 index、translation、note。不要输出 Markdown，不要包裹代码块。"
+            content: "你是宝可梦、任天堂、GAME FREAK 相关日文杂志的翻译编辑。请严格返回 JSON 数组，每项包含 index、translation、note。每个 index 只能翻译该项 original，禁止复制、续写或合并相邻 index 的内容。原文若截断，译文也保留截断语义。不要输出 Markdown，不要包裹代码块。"
           },
           {
             role: "user",
@@ -2769,10 +2835,19 @@ GAME FREAK => GAME FREAK</textarea>
         const content = data.choices?.[0]?.message?.content || "";
         const jsonText = content.match(/\[[\s\S]*\]/)?.[0] || content;
         const translated = JSON.parse(jsonText);
+        let rejected = 0;
         translated.forEach((result) => {
           const item = state.segments.find((segment) => segment.id === requestMap.get(result.index));
           if (!item) return;
-          if (result.translation) item.translation = String(result.translation).trim();
+          const nextTranslation = String(result.translation || "").trim();
+          const boundaryWarning = translationBoundaryWarning(item.original, nextTranslation);
+          if (boundaryWarning) {
+            rejected += 1;
+            item.status = "review";
+            appendNote(item, `翻译边界保护：${boundaryWarning}。本次结果未自动覆盖。`);
+            return;
+          }
+          if (nextTranslation) item.translation = nextTranslation;
           appendNote(item, result.note);
           if (item.translation && item.translation !== "待翻译") item.status = "translated";
         });
@@ -2780,7 +2855,7 @@ GAME FREAK => GAME FREAK</textarea>
         loadActive();
         renderList();
         buildSegmentsBtnFlash();
-        setDeepSeekStatus(`已翻译 ${translated.length} 段。`);
+        setDeepSeekStatus(`已翻译 ${translated.length - rejected} 段${rejected ? `；${rejected} 段因边界异常转入复核` : ""}。`);
       } catch (error) {
         setDeepSeekStatus(`翻译失败：${error.message}`);
       }
@@ -2811,7 +2886,12 @@ GAME FREAK => GAME FREAK</textarea>
         if (Number(item.regionAngle)) lines.push(`    angle: ${item.regionAngle}`);
         if (item.exclusions && item.exclusions !== "[]") lines.push(`    exclusions: ${item.exclusions}`);
         if (item.annotationNote) lines.push(`    annotation_note: ${quoteYaml(item.annotationNote)}`);
-        if (item.scanBox) lines.push(`    scan_box: [${item.scanBox}]`);
+        if (item.scanBoxes?.length > 1) {
+          lines.push("    scan_boxes:");
+          item.scanBoxes.forEach((box) => lines.push(`      - [${box}]`));
+        } else if (item.scanBox) {
+          lines.push(`    scan_box: [${item.scanBox}]`);
+        }
         if (item.kind === "image") {
           lines.push(`    image: ${quoteYaml(item.imagePath)}`);
           lines.push(`    alt: ${quoteYaml(item.imageAlt || item.speaker || "杂志图片")}`);
@@ -2847,6 +2927,7 @@ GAME FREAK => GAME FREAK</textarea>
           options: state.learningOptions,
           favorites: state.learningFavorites
         },
+        workflowContext: state.workflowContext,
         meta: {
           postTitle: els.postTitle.value,
           postDate: els.postDate.value,
@@ -2883,6 +2964,7 @@ GAME FREAK => GAME FREAK</textarea>
             words: Array.isArray(payload.learning.favorites?.words) ? payload.learning.favorites.words : []
           };
         }
+        state.workflowContext = { ...state.workflowContext, ...(payload.workflowContext || {}) };
       } catch (error) {
         state.segments = [];
       }
@@ -2905,6 +2987,99 @@ GAME FREAK => GAME FREAK</textarea>
       a.click();
       a.remove();
       URL.revokeObjectURL(url);
+    }
+
+    function workbenchWordPressPayload() {
+      saveActive();
+      const current = activeSegment();
+      if (!current) throw new Error("请先导入并选择一个段落");
+      const currentPage = Number(current.scanPage || 0);
+      const segments = state.segments.filter((item) => Number(item.scanPage || 0) === currentPage);
+      const pageName = current.pageName || segments.find((item) => item.pageName)?.pageName || "";
+      const sourceRelativePath = mappedSourceRelativePath(current);
+      if (!state.sourceFolderToken || !sourceRelativePath) {
+        throw new Error("请先选择并成功载入当前页的原图文件夹");
+      }
+      return {
+        meta: {
+          title: els.postTitle.value.trim() || "OCR 日中对照稿",
+          date: els.postDate.value,
+          publication: els.publication.value.trim(),
+          issue: els.issue.value.trim(),
+          translator: els.translator.value.trim(),
+          summary: els.summaryInput.value.trim(),
+          tags: els.postTags.value.split(",").map((value) => value.trim()).filter(Boolean)
+        },
+        workflow: state.workflowContext,
+        pageName,
+        sourceFolderToken: state.sourceFolderToken,
+        sourceRelativePath,
+        segments: segments.map((item) => ({
+          ...item,
+          comments: [...item.comments],
+          scanBoxes: [...(item.scanBoxes || [])],
+          ocrHistory: undefined
+        }))
+      };
+    }
+
+    function setWordPressExportStatus(message, link = null) {
+      els.wordpressExportStatus.replaceChildren(document.createTextNode(message));
+      if (link) {
+        const anchor = document.createElement("a");
+        anchor.href = encodeURI(link.href);
+        anchor.textContent = link.label;
+        anchor.target = link.target || "_blank";
+        anchor.rel = "noopener";
+        anchor.style.marginLeft = "0.6em";
+        els.wordpressExportStatus.appendChild(anchor);
+      }
+    }
+
+    async function generateWordPressExport(downloadZip = false) {
+      let payload;
+      try {
+        payload = workbenchWordPressPayload();
+      } catch (error) {
+        setWordPressExportStatus(error.message);
+        return;
+      }
+      const fingerprint = JSON.stringify(payload);
+      let result = state.lastWordPressExport?.fingerprint === fingerprint ? state.lastWordPressExport.result : null;
+      els.buildWordPressBtn.disabled = true;
+      els.packageCaseBtn.disabled = true;
+      setWordPressExportStatus(result ? "正在使用刚生成的开发案例…" : "正在生成当前页 WordPress 预览并执行发布检查…");
+      try {
+        if (!result) {
+          const response = await fetch("/api/export-wordpress-workbench", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          const data = await response.json().catch(() => ({}));
+          if (!response.ok || !data.ok) throw new Error(data.error || `导出服务返回 ${response.status}`);
+          result = data;
+          state.lastWordPressExport = { fingerprint, result };
+        }
+        const issueText = result.issues?.length ? `；检测到 ${result.issues.length} 项需复核` : "；自动检查通过";
+        if (downloadZip) {
+          const anchor = document.createElement("a");
+          anchor.href = encodeURI(result.zipUrl);
+          anchor.download = "";
+          document.body.appendChild(anchor);
+          anchor.click();
+          anchor.remove();
+          setWordPressExportStatus(`开发案例 ZIP 已生成${issueText}`, { href: `/${result.qaPath}`, label: "查看报告" });
+        } else {
+          setWordPressExportStatus(`当前页预览已生成${issueText}`, { href: result.previewUrl, label: "打开预览" });
+          window.open(encodeURI(result.previewUrl), "_blank", "noopener");
+        }
+      } catch (error) {
+        setWordPressExportStatus(`WordPress 导出失败：${error.message}`);
+      } finally {
+        els.buildWordPressBtn.disabled = false;
+        els.packageCaseBtn.disabled = false;
+      }
     }
 
     function render() {
@@ -2945,6 +3120,11 @@ GAME FREAK => GAME FREAK</textarea>
       }
       els.importMode.value = "segments";
       els.importText.value = payload.yaml;
+      state.workflowContext = {
+        sourceQueue: payload.sourceQueue || "",
+        projectOutputDir: payload.projectOutputDir || "",
+        sourceFolder: payload.sourceFolder || ""
+      };
       importNow(`${payload.title || "ocr-project"}.yml`);
       localStorage.removeItem("pokeamice.ocr.queue.handoff.v1");
       params.delete("queueHandoff");
@@ -3205,6 +3385,8 @@ GAME FREAK => GAME FREAK</textarea>
       state.lastOutput = md;
       setStatus("已生成扫描对照页 Markdown，模板为 scan-translation。");
     });
+    els.buildWordPressBtn.addEventListener("click", () => generateWordPressExport(false));
+    els.packageCaseBtn.addEventListener("click", () => generateWordPressExport(true));
     els.copyOutputBtn.addEventListener("click", () => copyText(els.output.textContent || state.lastOutput));
     els.downloadOutputBtn.addEventListener("click", () => {
       const text = els.output.textContent || buildPostMarkdown();

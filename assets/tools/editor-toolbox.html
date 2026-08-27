@@ -403,9 +403,11 @@
           <article class="flow">
             <div class="flow__head"><strong>扫描杂志与访谈</strong><span>完整流程</span></div>
             <div class="flow__steps">
-              <div class="flow__step"><b>01</b><span>杂志分区</span></div><i class="flow__arrow">→</i>
-              <div class="flow__step"><b>02</b><span>OCR 整理</span></div><i class="flow__arrow">→</i>
-              <div class="flow__step"><b>03</b><span>翻译发布</span></div>
+              <div class="flow__step"><b>01</b><span>扫描预处理</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>02</b><span>分区 OCR</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>03</b><span>返工分流</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>04</b><span>翻译学习</span></div><i class="flow__arrow">→</i>
+              <div class="flow__step"><b>05</b><span>发布</span></div>
             </div>
           </article>
         </div>
@@ -428,7 +430,7 @@
       { id: "home", group: "概览", icon: "⌂", title: "工作台总览", short: "查看完整编辑流程", description: "从素材整理到发布的一站式编辑流程", key: "Alt+1", path: "" },
       { id: "workflow", group: "项目", icon: "✓", title: "项目工作流", short: "登记进度与发布检查", description: "管理资料来源、编辑阶段、检查项和下一步动作", key: "Alt+2", path: "/assets/tools/project-workflow-board.html" },
       { id: "web", group: "内容收录", icon: "W", title: "网页访谈收录", short: "抓取网页并生成草稿", description: "整理网页正文、来源信息与访谈元数据", key: "Alt+3", path: "/assets/tools/web-interview-capture.html" },
-      { id: "region", group: "扫描处理", icon: "▦", title: "杂志分区", short: "标注版面与阅读顺序", description: "处理跨栏、图文区块和扫描页 OCR 区域", key: "Alt+4", path: "/assets/tools/magazine-region-annotator.html" },
+      { id: "region", group: "扫描处理", icon: "▦", title: "扫描预处理与杂志分区", short: "分页、裁切、调色后标注版面", description: "原图不改动；先自动拆分跨页、校正与调色，再处理图文区块和 OCR 阅读顺序", key: "Alt+4", path: "/assets/tools/magazine-region-annotator.html" },
       { id: "queue", group: "扫描处理", icon: "↪", title: "OCR 项目队列", short: "自动分流与人工放行", description: "把方向、混框、坐标输出和振假名异常送去返工，其余内容进入翻译或学习", key: "Alt+5", path: "/assets/tools/ocr-project-queue.html" },
       { id: "ocr", group: "扫描处理", icon: "O", title: "OCR 翻译工作台", short: "校对 OCR 与对照翻译", description: "整理扫描段落、译文、评注和对照文章", key: "Alt+6", path: "/assets/tools/ocr-translation-workbench.html" },
       { id: "translate", group: "翻译整理", icon: "译", title: "文章翻译编辑器", short: "专注翻译与术语校对", description: "逐段翻译、批注、图片替换与 Markdown 生成", key: "Alt+7", path: "/assets/tools/article-translation-editor.html" },

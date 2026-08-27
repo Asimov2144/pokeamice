@@ -10,17 +10,24 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from prepare_scan_pages import (  # noqa: E402
     Measurement,
+    PageResult,
     content_box_of,
+    classify,
     encode,
     gutter_of,
     normalise_tone,
     outer_page_edges,
     resolve_outer_trim,
+    review_reasons_for,
     seam_span_of,
     seam_tilt_of,
     split_at,
     tone_policy_for,
+    tone_of,
+    tone_reference_of,
     trim_dark_edges,
+    trim_scanner_frame,
+    upright_image,
 )
 
 
@@ -100,12 +107,42 @@ def test_seam_tilt_is_found_when_the_binding_really_leans():
     width, height = 1200, 800
     canvas = np.full((height, width, 3), 220, dtype=np.uint8)
     for y in range(height):
-        x = 560 + round(y * 0.08)           # about 4.6 degrees
+        x = 580 + round(y * 0.025)          # about 1.4 degrees
         canvas[y, x:x + 14] = 40
     seam, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
     tilt, bands = seam_tilt_of(canvas.astype(np.float32), seam, contrast)
     assert bands >= 15
-    assert 3.5 < tilt < 5.5, f"expected roughly 4.6 degrees, got {tilt}"
+    assert 1.0 < tilt < 1.9, f"expected roughly 1.4 degrees, got {tilt}"
+
+
+def test_implausible_seam_tilt_is_refused():
+    """A bound page does not lean far. ScanTailor caps its spine search at 2
+    degrees and the measured spreads here sit inside +/-0.75, so a larger fit is
+    evidence the wrong feature was tracked, not a crooked book."""
+    width, height = 1200, 800
+    canvas = np.full((height, width, 3), 220, dtype=np.uint8)
+    for y in range(height):
+        x = 520 + round(y * 0.14)           # about 8 degrees
+        canvas[y, x:x + 14] = 40
+    seam, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    tilt, _ = seam_tilt_of(canvas.astype(np.float32), seam, contrast)
+    assert tilt == 0.0, f"a wild tilt must fall back to a vertical cut, got {tilt}"
+
+
+def test_a_tall_photo_edge_does_not_outscore_the_binding():
+    """Persistence is what tells a spine from a picture edge.
+
+    ScanTailor gates its spine search on the fraction of rows that are dark in
+    a column. A binding runs the whole height; a photograph is dark only over
+    the rows it covers.
+    """
+    width, height = 1200, 900
+    canvas = np.full((height, width, 3), 240, dtype=np.uint8)
+    canvas[:520, 470:520] = 25              # a tall, very dark picture edge
+    canvas[:, 620:632] = 70                 # the real seam, weaker but full height
+    seam, contrast = gutter_of(canvas.astype(np.float32), [0.0, 0.0, 1.0, 1.0])
+    assert 0.50 < seam < 0.54, f"the full-height seam should win, got {seam}"
+    assert contrast > 35
 
 
 def test_flat_page_reports_no_usable_gutter():
@@ -139,6 +176,50 @@ def test_trim_leaves_a_printed_black_masthead_alone():
     assert trimmed.size == (300, 400), "a masthead deeper than the allowance must survive"
 
 
+def test_scanner_frame_trim_removes_mid_grey_bed_around_a_page():
+    array = np.full((600, 420, 3), 145, dtype=np.uint8)
+    array[24:574, 18:402] = (232, 238, 240)
+    array[120:500, 70:350] = (70, 75, 78)
+    trimmed, removed = trim_scanner_frame(Image.fromarray(array))
+    assert removed[0] >= 12 and removed[1] >= 18
+    assert removed[2] >= 12 and removed[3] >= 18
+    assert trimmed.width < 400 and trimmed.height < 570
+
+
+def test_scanner_frame_uses_first_page_edge_not_stronger_internal_art():
+    array = np.full((600, 420, 3), 180, dtype=np.uint8)
+    array[18:582, 14:406] = (225, 218, 190)  # subtle paper/platen boundary
+    array[70:145, 14:406] = 15               # much stronger full-width masthead
+    trimmed, removed = trim_scanner_frame(Image.fromarray(array))
+    assert 10 <= removed[0] <= 30
+    assert 12 <= removed[1] <= 36, f"must stop at the sheet edge, got {removed}"
+    assert removed[1] < 50, "the masthead must not be mistaken for the top of the page"
+
+
+def test_scanner_frame_never_auto_crops_deep_inside_a_page():
+    array = np.full((600, 420, 3), 240, dtype=np.uint8)
+    array[:, :35] = 30                        # printed sidebar at 8.3% of width
+    trimmed, removed = trim_scanner_frame(Image.fromarray(array))
+    assert removed[0] == 0, "an edge deeper than the 5% safety gate needs review"
+    assert trimmed.width == 420
+
+
+def test_coloured_printed_frame_is_not_a_scanner_edge():
+    array = np.full((600, 420, 3), (245, 205, 25), dtype=np.uint8)
+    array[20:580, 20:400] = (245, 245, 240)
+    trimmed, removed = trim_scanner_frame(Image.fromarray(array))
+    assert removed == (0, 0, 0, 0), "a yellow magazine frame is printed content"
+    assert trimmed.size == (420, 600)
+
+
+def test_scanner_frame_trim_does_not_chase_an_internal_masthead():
+    array = np.full((600, 420, 3), 240, dtype=np.uint8)
+    array[90:190] = 20
+    trimmed, removed = trim_scanner_frame(Image.fromarray(array))
+    assert removed == (0, 0, 0, 0)
+    assert trimmed.size == (420, 600)
+
+
 def test_tone_normalisation_whitens_paper_and_removes_cast():
     array = np.full((100, 100, 3), 0, dtype=np.uint8)
     array[:, :] = (238, 232, 205)          # yellowed paper
@@ -148,6 +229,41 @@ def test_tone_normalisation_whitens_paper_and_removes_cast():
     assert paper.min() >= 250, f"paper should reach white, got {paper}"
     assert int(paper.max()) - int(paper.min()) <= 2, "per-channel mapping should clear the cast"
     assert result[50, 50].max() < 40, "ink should come down toward the target black"
+
+
+def test_tone_measurement_prefers_neutral_white_over_cyan_photo_background():
+    array = np.full((200, 300, 3), (165, 225, 232), dtype=np.uint8)
+    array[145:195, 20:280] = (236, 233, 230)
+    array[60:110, 100:200] = (20, 30, 32)
+    paper, paper_luma, _, cast = tone_of(array.astype(np.float32))
+    assert min(paper) >= 228, f"white clothing or paper should win, got {paper}"
+    assert paper_luma >= 230
+    assert cast <= 10, f"cyan background must not become the white reference: {cast}"
+
+
+def test_coloured_highlight_is_never_used_as_a_white_balance_reference():
+    array = np.full((200, 300, 3), (246, 231, 65), dtype=np.uint8)
+    array[60:140, 80:220] = (35, 32, 15)
+    paper, _, _, cast, reliable = tone_reference_of(array.astype(np.float32))
+    assert reliable is False, "a yellow illustration has no measured paper white"
+    assert max(paper) - min(paper) == 0, "fallback must preserve hue, not invent a cast correction"
+    assert cast == 0
+
+
+def test_exif_orientation_is_materialised_before_processing(tmp_path=None):
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as directory:
+        source = Path(directory) / "upside-down.jpg"
+        array = np.zeros((80, 60, 3), dtype=np.uint8)
+        array[:20] = (250, 20, 20)
+        exif = Image.Exif()
+        exif[274] = 3
+        Image.fromarray(array).save(source, exif=exif, quality=100)
+        with Image.open(source) as opened:
+            upright = np.asarray(upright_image(opened))
+        assert upright[-10:, :, 0].mean() > 220, "EXIF 3 must move the stored top edge to the bottom"
+        assert upright[:10, :, 0].mean() < 40
 
 
 def test_art_pages_keep_their_colour():
@@ -263,6 +379,62 @@ def test_outer_edges_find_a_block_that_is_darker_and_busier():
     left, right = outer_page_edges(canvas.astype(np.float32))
     assert 0.045 < left < 0.075, f"edge should land near the block boundary, got {left}"
     assert right == 0.0, "the clean side must stay untouched"
+
+
+def test_uncertain_wide_page_is_gated_before_ocr():
+    result = PageResult(
+        source="nested/page001.jpg",
+        source_bytes=100,
+        measurement={"aspect": 1.45, "seam_tilt": 0.0, "outer_edges": [0.0, 0.0]},
+        decision={
+            "kind": "unknown", "split": False, "decided_by": "vlm-failed",
+            "confidence": 0.0,
+        },
+    )
+    reasons = review_reasons_for(result)
+    assert "page_kind_uncertain" in reasons
+    assert "page_model_failed" in reasons
+    assert "wide_page_not_split" in reasons
+
+
+def test_confident_single_page_can_continue_to_ocr():
+    result = PageResult(
+        source="page001.jpg",
+        source_bytes=100,
+        measurement={"aspect": 0.71, "seam_tilt": 0.0, "outer_edges": [0.0, 0.0]},
+        decision={
+            "kind": "single", "split": False, "decided_by": "cv",
+            "confidence": 0.9,
+        },
+    )
+    assert review_reasons_for(result) == []
+
+
+def test_successful_piece_trim_resolves_detected_outer_edge_gate():
+    result = PageResult(
+        source="page001.jpg",
+        source_bytes=100,
+        measurement={"aspect": 0.71, "seam_tilt": 0.0, "outer_edges": [0.03, 0.0]},
+        decision={
+            "kind": "single", "split": False, "decided_by": "cv",
+            "confidence": 0.9,
+        },
+        page_trims=[{"piece": "single", "removed": [20, 0, 0, 0]}],
+    )
+    assert review_reasons_for(result) == []
+
+
+def test_cv_seam_threshold_maps_to_workflow_confidence(tmp_path=None):
+    measurement = Measurement(
+        width=1400, height=900, aspect=1.55, content_box=[0, 0, 1, 1],
+        gutter_x=0.5, gutter_contrast=49.0, seam_span=[0.49, 0.51],
+        outer_edges=[0.0, 0.0], skew_deg=0.0, seam_tilt=0.0, seam_bands=20,
+        paper_rgb=[245.0, 245.0, 245.0], paper_luma=245.0,
+        black_point=10.0, colour_cast=0.0,
+    )
+    decision = classify(Path("unused.jpg"), measurement, "never", "unused", 1)
+    assert decision.split is True
+    assert decision.confidence >= 0.65
 
 
 if __name__ == "__main__":

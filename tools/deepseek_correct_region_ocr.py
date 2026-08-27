@@ -168,6 +168,8 @@ def write_outputs(out_dir: Path, entries: list[dict]) -> None:
             f"- region_id: {item.get('region_id') or ''}",
             f"- order: {item.get('order') or index}",
         ])
+        if item.get("group_id"):
+            md_lines.append(f"- group_id: {item['group_id']}")
         if not is_image:
             md_lines.append(f"- writing_direction: {item.get('writing_direction') or 'auto'}")
         if item.get("image_ref"):
@@ -208,6 +210,8 @@ def write_outputs(out_dir: Path, entries: list[dict]) -> None:
             yaml_lines.append(f'    writing_direction: "{yaml_string(item.get("writing_direction") or "auto")}"')
         if item.get("region_id"):
             yaml_lines.append(f'    region_id: "{yaml_string(item.get("region_id"))}"')
+        if item.get("group_id"):
+            yaml_lines.append(f'    group_id: "{yaml_string(item.get("group_id"))}"')
         if item.get("image_ref"):
             yaml_lines.append(f'    caption_for: "{yaml_string(item.get("image_ref"))}"')
         members = item.get("members") or [item]

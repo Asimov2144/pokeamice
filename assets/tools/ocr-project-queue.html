@@ -358,6 +358,8 @@
         createdAt: new Date().toISOString(),
         title: state.queue?.project?.title || "OCR 项目",
         sourceQueue: state.currentPath,
+        projectOutputDir: state.queue?.project?.output_dir || "",
+        sourceFolder: state.queue?.project?.source_folder || "",
         mode,
         rework,
         yaml: segmentsYaml(items),

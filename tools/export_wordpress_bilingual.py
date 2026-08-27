@@ -104,10 +104,17 @@ def paired_text(item: dict) -> str:
     return "\n".join(rows)
 
 
-def segment_html(item: dict, index: int, scan_width: int, scan_height: int, lead: bool = False) -> str:
+def segment_html(
+    item: dict,
+    index: int,
+    scan_width: int,
+    scan_height: int,
+    lead: bool = False,
+    label: str = "",
+) -> str:
     normalized_boxes = boxes_for(item, scan_width, scan_height)
     class_name = "pm-segment pm-lead" if lead else "pm-segment"
-    label = "导语" if lead else "访谈正文"
+    label = label or ("导语" if lead else "访谈正文")
     return (
         f'<section class="{class_name}" tabindex="0" data-boxes="{esc(json.dumps(normalized_boxes))}">\n'
         f'  <div class="pm-segment-head"><span class="pm-order">{index}</span><span class="pm-label">{label}</span></div>\n'
@@ -164,6 +171,73 @@ def article_html(entries: list[dict], scan_image: Path, media_base: str) -> str:
   <div class="pm-layout">
     <aside class="pm-scan"><div class="pm-scan-stage"><img src="{esc(scan_src)}" alt="《CONTINUE》2006 vol.31 苍井优采访扫描页"></div><p class="pm-scan-note">点击右侧段落可定位原扫描区域。当前测试图由已保存分区按原坐标重建；正式上线前请替换为原扫描图。</p></aside>
     <main class="pm-reading">{"".join(content)}<p class="pm-source-meta">来源：《CONTINUE》2006 vol.31，页 014–015。OCR：qwen-vl-ocr-latest；校对与初译：DeepSeek；状态：待最终人工复核。</p></main>
+  </div>
+</article>
+""".strip()
+
+
+def workbench_article_html(payload: dict, entries: list[dict], scan_image: Path, media_base: str) -> str:
+    """Render arbitrary workbench segments without relying on fixture region ids."""
+    with Image.open(scan_image) as image:
+        scan_width, scan_height = image.size
+    meta = payload.get("meta") or {}
+    title = str(meta.get("title") or "OCR 日中对照稿")
+    publication = str(meta.get("publication") or "")
+    issue = str(meta.get("issue") or "")
+    translator = str(meta.get("translator") or "")
+    summary = str(meta.get("summary") or "")
+    scan_src = media_base + "/" + scan_image.name
+    image_entries = [item for item in entries if item.get("type") == "image"]
+    captions_by_image: dict[str, list[dict]] = {}
+    for caption in [item for item in entries if item.get("type") == "caption"]:
+        captions_by_image.setdefault(str(caption.get("image_ref") or ""), []).append(caption)
+    body_parts = []
+    number = 1
+    for item in sorted(entries, key=lambda row: (int(row.get("page_index") or 0), int(row.get("order") or 0))):
+        kind = str(item.get("type") or "text")
+        if kind == "caption" and item.get("image_ref"):
+            continue
+        if kind == "image":
+            body_parts.append(
+                figure_html(
+                    item,
+                    captions_by_image.get(str(item.get("region_id") or ""), []),
+                    number,
+                    media_base,
+                    scan_width,
+                    scan_height,
+                )
+            )
+        else:
+            body_parts.append(
+                segment_html(
+                    item,
+                    number,
+                    scan_width,
+                    scan_height,
+                    lead=False,
+                    label=str(item.get("speaker") or item.get("region_type") or "对照段落"),
+                )
+            )
+        number += 1
+    pending = sum(
+        1
+        for item in entries
+        if item.get("type") != "image" and str(item.get("translation") or "").strip() in {"", "待翻译"}
+    )
+    status = "可发布候选" if pending == 0 else f"仍有 {pending} 段待翻译"
+    meta_line = " · ".join(value for value in (publication, issue, f"译者：{translator}" if translator else "") if value)
+    return f"""
+<article class="pm-interview">
+  <header class="pm-header">
+    <div><div class="pm-kicker">SCAN ARCHIVE · INTERVIEW</div><h1>{esc(title)}</h1><div class="pm-meta">{esc(meta_line)}</div></div>
+    <span class="pm-status">{esc(status)} · 发布前复核</span>
+  </header>
+  {f'<p class="pm-summary">{esc(summary)}</p>' if summary else ''}
+  <nav class="pm-tools" aria-label="阅读显示"><span class="pm-label">阅读方式</span><button type="button" data-view="both" aria-pressed="true">日中对照</button><button type="button" data-view="ja" aria-pressed="false">只看日文</button><button type="button" data-view="zh" aria-pressed="false">只看中文</button></nav>
+  <div class="pm-layout">
+    <aside class="pm-scan"><div class="pm-scan-stage"><img src="{esc(scan_src)}" alt="{esc(title)}扫描页"></div><p class="pm-scan-note">点击右侧段落可定位原扫描区域；合并区域会同时显示多个选框。</p></aside>
+    <main class="pm-reading">{''.join(body_parts)}<p class="pm-source-meta">OCR、校对与翻译工作台导出 · 状态：发布前最终人工复核。</p></main>
   </div>
 </article>
 """.strip()

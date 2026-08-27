@@ -70,3 +70,6 @@ automation-tests/**
 # Python bytecode
 __pycache__/
 *.py[cod]
+
+# Prepared scan output; regenerate with tools/prepare_scan_pages.py
+scan-prepared/

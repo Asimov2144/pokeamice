@@ -8,6 +8,7 @@ if str(TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_DIR))
 
 from deepseek_correct_region_ocr import suspicious_correction
+from export_workbench_wordpress_case import entry_from_segment
 from export_wordpress_bilingual import utterances
 
 
@@ -37,6 +38,23 @@ class InterviewAlignmentTests(unittest.TestCase):
 
     def test_keeps_non_interview_lead_lines_separate(self):
         self.assertEqual(["一行目", "二行目"], utterances("一行目\n二行目", "ja"))
+
+
+class WorkbenchCaseExportTests(unittest.TestCase):
+    def test_preserves_all_boxes_from_a_merged_region(self):
+        entry = entry_from_segment(
+            {
+                "regionId": "qwen-r4",
+                "scanBox": [10, 20, 110, 220],
+                "scanBoxes": [[10, 20, 110, 220], [120, 20, 220, 220]],
+                "original": "日本語",
+                "translation": "中文",
+            },
+            0,
+        )
+        self.assertEqual([10, 20, 110, 220], entry["box"])
+        self.assertEqual(2, len(entry["members"]))
+        self.assertEqual("qwen-r4-box-2", entry["members"][1]["region_id"])
 
 
 if __name__ == "__main__":

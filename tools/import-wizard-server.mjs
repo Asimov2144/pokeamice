@@ -198,14 +198,19 @@ async function readOcrProjectQueue(input) {
 }
 
 function selectedImagePath(token, requestedPath) {
-  const folder = selectedImageFolders.get(String(token || ""));
-  if (!folder) throw new Error("原图文件夹会话已失效，请重新选择文件夹");
+  const folder = selectedImageFolder(token);
   const file = resolve(folder, String(requestedPath || ""));
   const relativePath = relative(folder, file);
   if (!relativePath || relativePath.startsWith("..") || isAbsolute(relativePath)) {
     throw new Error("原图路径超出所选文件夹");
   }
   return file;
+}
+
+function selectedImageFolder(token) {
+  const folder = selectedImageFolders.get(String(token || ""));
+  if (!folder) throw new Error("原图文件夹会话已失效，请重新选择文件夹");
+  return folder;
 }
 
 async function readJson(req, maxBytes = 120 * 1024 * 1024) {
@@ -232,7 +237,7 @@ function safeInsideRoot(file) {
 
 function slugify(input) {
   const value = String(input || "")
-    .normalize("NFKD")
+    .normalize("NFKC")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
     .replace(/&/g, " and ")
@@ -916,6 +921,72 @@ function pythonExecutable() {
   return candidates[0];
 }
 
+async function prepareScanPages(body) {
+  const sourceFolder = selectedImageFolder(body.sourceFolderToken);
+  const sourceInfo = await stat(sourceFolder);
+  if (!sourceInfo.isDirectory()) throw new Error("原图文件夹不存在或不可读取");
+
+  const binding = body.binding === "left" ? "left" : "right";
+  const vlm = ["auto", "always", "never"].includes(body.vlm) ? body.vlm : "auto";
+  const outerTrim = String(body.outerTrim || "off").trim().toLowerCase();
+  if (!/^(off|auto|\d+(?:\.\d+)?%?)$/.test(outerTrim)) {
+    throw new Error("外缘裁切只接受关闭、自动、像素数或百分比");
+  }
+  const limit = Math.max(0, Math.min(500, Number.parseInt(body.limit || 0, 10) || 0));
+  const model = String(body.model || "qwen3-vl-flash").trim().slice(0, 100) || "qwen3-vl-flash";
+  const sourceSlug = slugify(basename(sourceFolder)).slice(0, 64);
+  const jobId = `${sourceSlug}-${Date.now().toString(36)}-${randomUUID().slice(0, 6)}`;
+  const outDir = safeInsideRoot(join(root, "scan-prepared", jobId));
+  await mkdir(outDir, { recursive: true });
+
+  const args = [
+    join(root, "tools", "prepare_scan_pages.py"),
+    "--source", sourceFolder,
+    "--out", outDir,
+    "--vlm", vlm,
+    "--model", model,
+    "--binding", binding,
+    "--profiles", "archive,web",
+    "--outer-trim", outerTrim,
+  ];
+  if (body.noTone) args.push("--no-tone");
+  if (body.noStraighten) args.push("--no-straighten");
+  if (limit) args.push("--limit", String(limit));
+
+  const result = await runCommand(pythonExecutable(), args);
+  const manifestFile = join(outDir, "scan-manifest.json");
+  const manifest = JSON.parse(await readFile(manifestFile, "utf8"));
+  if (!Number(manifest.summary?.processed_count || 0)) {
+    throw new Error("扫描预处理没有生成可用页面，请查看清单中的失败记录");
+  }
+  const archiveFolder = join(outDir, "archive");
+  const webFolder = join(outDir, "web");
+  const archiveSelection = await prepareImageFolder(archiveFolder);
+  const webSelection = await prepareImageFolder(webFolder);
+  archiveSelection.folderName = `${basename(sourceFolder)}-prepared`;
+  webSelection.folderName = `${basename(sourceFolder)}-preview`;
+  const reviewPages = (manifest.pages || [])
+    .filter((page) => page.workflow_status === "review")
+    .map((page) => ({
+      source: page.source,
+      reasons: page.review_reasons || [],
+      decision: page.decision || {},
+    }));
+
+  return {
+    ok: true,
+    jobId,
+    outputDir: displayPath(outDir),
+    manifestPath: displayPath(manifestFile),
+    summary: manifest.summary || {},
+    reviewPages,
+    errors: manifest.errors || [],
+    archiveSelection,
+    webSelection,
+    stdout: result.stdout,
+  };
+}
+
 async function evaluateOcrReplacement(oldText, firstText, secondText, proposal) {
   const runId = `rework-eval-${Date.now().toString(36)}-${randomUUID().slice(0, 8)}`;
   const runDir = sessionPath(runId);
@@ -1060,6 +1131,86 @@ async function acceptOcrRework(body) {
   return { ok: true, item };
 }
 
+function resolveWorkbenchAsset(value) {
+  const raw = String(value || "").trim();
+  if (!raw) return "";
+  if (isAbsolute(raw)) return safeInsideRoot(raw);
+  return safeInsideRoot(resolve(root, raw.replace(/^[/\\]+/, "")));
+}
+
+async function exportWorkbenchWordPress(body) {
+  const segments = Array.isArray(body.segments) ? body.segments.slice(0, 500) : [];
+  if (!segments.length) throw new Error("工作台里没有可导出的段落");
+  const pageName = String(body.pageName || segments.find((item) => item.pageName)?.pageName || "");
+  let sourceImage = "";
+  if (body.sourceFolderToken && (body.sourceRelativePath || pageName)) {
+    sourceImage = selectedImagePath(body.sourceFolderToken, body.sourceRelativePath || basename(pageName));
+  } else if (body.sourceImage) {
+    const candidate = String(body.sourceImage);
+    if (isAbsolute(candidate)) {
+      throw new Error("请先在工作台选择原图文件夹，确保导出只读取已授权的扫描图");
+    }
+    sourceImage = resolveWorkbenchAsset(candidate);
+  }
+  if (!sourceImage) throw new Error("找不到原始扫描图，请先选择原图文件夹");
+  const sourceInfo = await stat(sourceImage);
+  if (!sourceInfo.isFile()) throw new Error("原始扫描图不是有效文件");
+
+  const resolvedSegments = [];
+  for (const segment of segments) {
+    const next = { ...segment };
+    if (next.kind === "image" && next.imagePath) {
+      try {
+        next.resolvedImagePath = resolveWorkbenchAsset(next.imagePath);
+      } catch {
+        next.resolvedImagePath = "";
+      }
+    }
+    resolvedSegments.push(next);
+  }
+  const exportRoot = safeInsideRoot(join(root, "automation-tests", "workbench-wordpress-exports"));
+  await mkdir(exportRoot, { recursive: true });
+  const baseSlug = slugify(body.meta?.title || "ocr-wordpress-case").slice(0, 72);
+  const exportId = `${baseSlug}-${Date.now().toString(36)}-${randomUUID().slice(0, 6)}`;
+  const outDir = safeInsideRoot(join(exportRoot, exportId));
+  const requestDir = sessionPath(`wordpress-${Date.now().toString(36)}-${randomUUID().slice(0, 8)}`);
+  await mkdir(requestDir, { recursive: true });
+  const payloadFile = join(requestDir, "workbench-export.json");
+  const payload = {
+    meta: body.meta || {},
+    workflow: {
+      sourceQueue: String(body.workflow?.sourceQueue || ""),
+      projectOutputDir: String(body.workflow?.projectOutputDir || ""),
+      exportedAt: new Date().toISOString()
+    },
+    resolvedSourceImage: sourceImage,
+    segments: resolvedSegments
+  };
+  await writeFile(payloadFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  const result = await runCommand(pythonExecutable(), [
+    join(root, "tools", "export_workbench_wordpress_case.py"),
+    "--payload", payloadFile,
+    "--out", outDir
+  ]);
+  const lines = result.stdout.trim().split(/\r?\n/).filter(Boolean);
+  const report = JSON.parse(lines.at(-1) || "{}");
+  const previewPath = displayPath(join(outDir, "public", "index.html"));
+  const zipPath = `${displayPath(outDir)}.zip`;
+  return {
+    ok: true,
+    exportId,
+    outputDir: displayPath(outDir),
+    previewPath,
+    previewUrl: `/${previewPath}`,
+    zipPath,
+    zipUrl: `/${zipPath}`,
+    wordpressPath: displayPath(join(outDir, "public", "wordpress-paste.html")),
+    qaPath: displayPath(join(outDir, "docs", "qa-report.md")),
+    issues: report.issues || [],
+    stats: report.stats || {}
+  };
+}
+
 async function handleApi(req, res, requestUrl) {
   if (req.method === "OPTIONS") {
     send(res, 204, "");
@@ -1082,6 +1233,10 @@ async function handleApi(req, res, requestUrl) {
   if (requestUrl.pathname === "/api/resolve-source-image" && req.method === "POST") {
     const body = await readJson(req);
     sendJson(res, 200, await resolveSourceImage(body.pageName || body.page_name || ""));
+    return true;
+  }
+  if (requestUrl.pathname === "/api/prepare-scan-pages" && req.method === "POST") {
+    sendJson(res, 200, await prepareScanPages(await readJson(req)));
     return true;
   }
   if (requestUrl.pathname === "/api/local-image" && req.method === "GET") {
@@ -1142,6 +1297,10 @@ async function handleApi(req, res, requestUrl) {
   }
   if (requestUrl.pathname === "/api/accept-ocr-rework" && req.method === "POST") {
     sendJson(res, 200, await acceptOcrRework(await readJson(req)));
+    return true;
+  }
+  if (requestUrl.pathname === "/api/export-wordpress-workbench" && req.method === "POST") {
+    sendJson(res, 200, await exportWorkbenchWordPress(await readJson(req)));
     return true;
   }
   if (requestUrl.pathname === "/api/analyze-layout" && req.method === "POST") {
