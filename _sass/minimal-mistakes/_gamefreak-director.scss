@@ -718,9 +718,10 @@
   padding: 0 18px 0 0;
   color: var(--gf-ink);
   background: #fff;
-  font-size: 24px;
-  font-weight: 400;
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 800;
   letter-spacing: 0.1em;
+  line-height: 1.2;
 }
 
 .gf-director-post__header time {
@@ -733,10 +734,75 @@
 }
 
 .gf-director-post__lead {
-  margin: 0 0 30px;
-  font-size: 13px;
-  line-height: 2;
+  margin: 0 0 22px;
+  color: var(--gf-ink);
+  font-size: clamp(18px, 2.4vw, 24px);
+  font-weight: 800;
+  line-height: 1.45;
   letter-spacing: 0.1em;
+}
+
+.gf-director-language-switcher {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin: 0 0 22px;
+  border-top: 1px solid var(--gf-line);
+  border-bottom: 1px solid var(--gf-line);
+  padding: 10px 0;
+}
+
+.gf-director-language-switcher__label {
+  flex: 0 0 auto;
+  color: var(--gf-muted);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.gf-director-language-switcher__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.gf-director-language-switcher__tab {
+  border: 1px solid var(--gf-line);
+  border-radius: 999px;
+  padding: 5px 11px;
+  color: var(--gf-muted);
+  background: transparent;
+  font: inherit;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.gf-director-language-switcher__tab:hover,
+.gf-director-language-switcher__tab:focus-visible,
+.gf-director-language-switcher__tab[aria-selected="true"] {
+  border-color: var(--gf-blue);
+  color: #fff;
+  background: var(--gf-blue);
+}
+
+.gf-director-language-panel[hidden] {
+  display: none;
+}
+
+.gf-director-language-panel {
+  white-space: pre-line;
+}
+
+.gf-director-language-empty {
+  color: var(--gf-muted);
+  font-style: italic;
+}
+
+.gf-director-post__content > .gf-director-translation-note,
+.gf-director-post__content > h2#中文译文 {
+  display: none;
 }
 
 .gf-director-post__content {
@@ -1118,6 +1184,15 @@
   .gf-director-post__header h1,
   .gf-director-post__header time {
     padding: 0;
+  }
+
+  .gf-director-language-switcher {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .gf-director-language-switcher__tabs {
+    justify-content: flex-start;
   }
 
   .gf-director-pager {

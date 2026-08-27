@@ -226,7 +226,8 @@ layout: default
             {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>{% endif %}
           </header>
           {% if page.gf_entry_title %}<p class="gf-director-post__lead">{{ page.gf_entry_title }}</p>{% endif %}
-          <div class="gf-director-post__content">{{ content }}</div>
+          <div class="gf-director-language-switcher" data-gf-language-switcher aria-label="阅读语言"></div>
+          <div class="gf-director-post__content" data-gf-language-content>{{ content }}</div>
           {% if page.gf_categories %}
             <footer class="gf-director-post__footer">
               <span>Posted in：</span>
@@ -269,3 +270,80 @@ layout: default
     <span>Original text and images © GAME FREAK inc. · Archive presentation by PokeAmice</span>
   </footer>
 </div>
+
+<script>
+  (function () {
+    function initLanguageSwitcher(switcher) {
+      const section = switcher.closest('.gf-director-post');
+      const content = section && section.querySelector('[data-gf-language-content]');
+      if (!content || switcher.dataset.ready === 'true') return;
+      switcher.dataset.ready = 'true';
+
+      const panels = {
+        zh: document.createElement('div'),
+        ja: document.createElement('div'),
+        en: document.createElement('div')
+      };
+      panels.zh.className = 'gf-director-language-panel';
+      panels.ja.className = 'gf-director-language-panel';
+      panels.en.className = 'gf-director-language-panel';
+      panels.zh.dataset.gfLanguagePanel = 'zh';
+      panels.ja.dataset.gfLanguagePanel = 'ja';
+      panels.en.dataset.gfLanguagePanel = 'en';
+
+      let hasJapanese = false;
+      let hasEnglish = false;
+      Array.from(content.children).forEach(function (node) {
+        if (node.matches('aside.gf-director-translation-note') || (node.matches('h2') && node.id === '中文译文')) {
+          node.remove();
+          return;
+        }
+        if (!node.matches('details.gf-director-language')) {
+          panels.zh.appendChild(node);
+          return;
+        }
+        const label = (node.querySelector('summary') || {}).textContent || '';
+        const target = label.indexOf('英文') >= 0 ? panels.en : panels.ja;
+        if (target === panels.en) hasEnglish = true;
+        else hasJapanese = true;
+        Array.from(node.childNodes).forEach(function (child) {
+          if (!(child.nodeType === 1 && child.matches('summary'))) target.appendChild(child);
+        });
+        node.remove();
+      });
+      if (!hasJapanese) panels.ja.innerHTML = '<p class="gf-director-language-empty">暂无日文原文。</p>';
+      if (!hasEnglish) panels.en.innerHTML = '<p class="gf-director-language-empty">该篇暂无官方英文版。</p>';
+      panels.zh.hidden = false;
+      panels.ja.hidden = true;
+      panels.en.hidden = true;
+      content.appendChild(panels.zh);
+      content.appendChild(panels.ja);
+      content.appendChild(panels.en);
+
+      const heading = document.createElement('span');
+      heading.className = 'gf-director-language-switcher__label';
+      heading.textContent = '阅读语言';
+      const tabs = document.createElement('div');
+      tabs.className = 'gf-director-language-switcher__tabs';
+      [['zh', '中文'], ['ja', '日文原文'], ['en', '官方英文']].forEach(function (item) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'gf-director-language-switcher__tab';
+        button.dataset.gfLanguage = item[0];
+        button.setAttribute('aria-selected', item[0] === 'zh' ? 'true' : 'false');
+        button.textContent = item[1];
+        button.addEventListener('click', function () {
+          Object.keys(panels).forEach(function (key) { panels[key].hidden = key !== item[0]; });
+          tabs.querySelectorAll('button').forEach(function (tab) {
+            tab.setAttribute('aria-selected', tab.dataset.gfLanguage === item[0] ? 'true' : 'false');
+          });
+        });
+        tabs.appendChild(button);
+      });
+      switcher.appendChild(heading);
+      switcher.appendChild(tabs);
+    }
+
+    document.querySelectorAll('[data-gf-language-switcher]').forEach(initLanguageSwitcher);
+  }());
+</script>
