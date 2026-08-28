@@ -1264,11 +1264,36 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
     return result
 
 
-def discover(source: Path) -> list[Path]:
-    return sorted(
+VARIANT_SUFFIXES = ("-tuya",)
+
+
+def discover(source: Path, keep_variants: bool = False) -> tuple[list[Path], list[Path]]:
+    """Find the scans to prepare, and the redundant variants set aside.
+
+    catelog and fossil each carry an "-tuya" copy beside most originals, already
+    processed and smaller. Preparing both spends real work twice: those copies
+    accounted for 264MB of catelog's output and 127MB of fossil's, 31% of the
+    two folders combined. A variant is only skipped when the original it shadows
+    is present, so a folder holding nothing else still processes normally.
+    """
+    found = sorted(
         p for p in source.rglob("*")
         if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES
     )
+    if keep_variants:
+        return found, []
+    known = {p.parent / p.name for p in found}
+    keep, skipped = [], []
+    for path in found:
+        stem = path.stem
+        shadowed = next(
+            (path.parent / f"{stem[: -len(tag)]}{path.suffix}"
+             for tag in VARIANT_SUFFIXES if stem.endswith(tag)), None)
+        if shadowed is not None and shadowed in known:
+            skipped.append(path)
+        else:
+            keep.append(path)
+    return keep, skipped
 
 
 def main() -> int:
@@ -1293,6 +1318,8 @@ def main() -> int:
                              "best calibrated once from the outer_edges values in the manifest.")
     parser.add_argument("--no-straighten", action="store_true",
                         help="Always cut spreads on a vertical line, ignoring seam tilt.")
+    parser.add_argument("--keep-variants", action="store_true",
+                        help="Also prepare -tuya style copies that shadow an original.")
     parser.add_argument("--limit", type=int, default=0, help="Process at most this many pages.")
     parser.add_argument("--dry-run", action="store_true", help="Measure and classify without writing.")
     args = parser.parse_args()
@@ -1311,7 +1338,10 @@ def main() -> int:
         if not source.drive or not Path(source.drive + "/").exists():
             print(f"drive {source.drive or '?'} is not mounted; reconnect it and run again")
         return 2
-    files = discover(source)
+    files, variants = discover(source, args.keep_variants)
+    if variants:
+        print(f"skipping {len(variants)} processed variant(s) shadowing an original "
+              f"(e.g. {variants[0].name}); pass --keep-variants to include them")
     if args.limit:
         files = files[: args.limit]
     if not files:

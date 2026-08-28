@@ -13,6 +13,7 @@ from prepare_scan_pages import (  # noqa: E402
     PageResult,
     content_box_of,
     classify,
+    discover,
     encode,
     gutter_of,
     normalise_tone,
@@ -476,6 +477,11 @@ def test_page_box_needs_a_size_the_folder_agrees_on():
     assert choose_page_box(shrunken, (0.96, 0.95)) is None, "a page cannot lose a fifth of its width"
 
 
+def test_page_box_rejects_a_single_axis_internal_layout_edge():
+    candidate = {"wolf": [0.0, 0.0, 0.93917, 1.0]}
+    assert choose_page_box(candidate, (0.992, 0.982)) is None, "5% width loss is an internal panel, not a page edge"
+
+
 def test_consensus_needs_several_pages_and_keeps_layouts_apart():
     def measured(aspect, box):
         return Measurement(
@@ -493,6 +499,26 @@ def test_consensus_needs_several_pages_and_keeps_layouts_apart():
     assert round(result[False][0], 2) == 0.80, "single pages are a separate population"
 
     assert consensus_page_size(spreads[:2]) == {}, "two samples are not a consensus"
+
+
+def test_processed_variants_are_skipped_only_beside_their_original(tmp=None):
+    """A -tuya copy duplicates work; alone in a folder it is the only scan there.
+
+    Those copies were 264MB of catelog's output and 127MB of fossil's, 31% of
+    the two folders together.
+    """
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        for name in ("CATE001.jpg", "CATE001-tuya.jpg", "CATE002-tuya.jpg"):
+            (root / name).write_bytes(b"x")
+        keep, skipped = discover(root)
+        assert [p.name for p in skipped] == ["CATE001-tuya.jpg"]
+        assert "CATE002-tuya.jpg" in [p.name for p in keep], "an orphan variant is the scan"
+
+        kept_all, none_skipped = discover(root, keep_variants=True)
+        assert len(kept_all) == 3 and none_skipped == []
 
 
 if __name__ == "__main__":
