@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 3Dグラフィック講習会
+title: 【工作日志】2008年3D图形培训记录
 date: '2008-10-24'
 permalink: /gamefreak-staff/entry-93/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 93
-gf_entry_title: 3Dグラフィック講習会
+gf_entry_title: 【工作日志】2008年3D图形培训记录
 gf_original_title: 3Dグラフィック講習会
-gf_translation_title: ''
-translation_available: false
-summary: みなさんこんにちは！ ナギーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年3D图形培训记录
+translation_available: true
+summary: 纳吉分享参与公司内部3D图形培训的经历，介绍2D与3D表现差异，以及程序员理解图形制作工具后的收获。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 3Dグラフィック講習会
@@ -27,7 +47,87 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！<br>
+
+我是纳吉。
+
+我每次都会写游戏相关的文章，<br>
+
+但这次，我想聊聊工作上的事情。
+
+我的职业是程序员，<br>
+
+大家觉得程序员是做什么工作的呢？
+
+正如[松田](http://www.gamefreak.co.jp/blog/staff/?p=91)所说，程序员的工作就是向计算机发出指令。<br>
+
+比如“让宝可梦的图形显示出来”“让场地地图显示出来”等等……。
+
+在宝可梦 钻石·珍珠中，<br>
+
+我们会根据情况分别使用两种图形表现方式。
+
+“宝可梦的图形”和<br>
+
+“场地地图的图形”<br>
+
+看起来完全不一样，对吧？
+
+前者称为2D图形，后者称为3D图形。
+
+打个比方的话，<br>
+
+2D就像画在图画纸上的画，<br>
+
+3D则像用黏土制作的模型。
+
+2D没有立体感，但擅长传达形象，也更容易从视觉上理解。<br>
+
+3D因为有高低差等效果，看起来更有立体感，所以擅长表现真实感。
+
+在分别使用这两种表现方式不同的图形时，<br>
+
+程序员的工作……也就是向计算机发出指令的方式，也会有所不同。
+
+这次我开始负责3D方面的工作，于是和新入职的图形设计师们一起，<br>
+
+参加了公司内部的3D图形培训。
+
+就像之前[カニ子写过声音培训的内容](http://www.gamefreak.co.jp/blog/staff/?p=61)一样，<br>
+
+公司内部经常会举办这类培训。
+
+培训主要围绕3D图形的制作方法和工具的使用方式展开。
+
+刚才我把3D比作黏土制作的模型，<br>
+
+图形设计师制作3D图形时也是一样的。
+
+就像用黏土制作模型一样，把一块普通的方形黏土拉长成柱状，<br>
+
+再加上窗户和入口的图案，就能变成一栋建筑。
+
+像这样用电脑制作3D图形时，要使用专门的工具，<br>
+
+而且功能非常丰富。<br>
+
+拉伸黏土、切割黏土、粘合黏土……。
+
+程序员了解图形设计师的工作后，工作起来会更顺利，<br>
+
+在向计算机发出指令时，也能采用更好的方法。
+
+我在培训中了解了这些内容，度过了非常有意义的时间！<br>
+
+这下我获得了比以前更深入的知识，应该能把工作做得更好了。<br>
+
+接下来的工作也要加油——！！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさんこんにちは！<br>
 
 ナギーです。

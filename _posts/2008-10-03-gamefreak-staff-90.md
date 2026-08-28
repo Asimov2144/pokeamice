@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: プラチナここだけの話 その２
+title: 【工作日志】2008年白金版联机趣闻
 date: '2008-10-03'
 permalink: /gamefreak-staff/entry-90/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 90
-gf_entry_title: プラチナここだけの話 その２
+gf_entry_title: 【工作日志】2008年白金版联机趣闻
 gf_original_title: プラチナここだけの話 その２
-gf_translation_title: ''
-translation_available: false
-summary: みなさん、こんにちは！ プラチナでプランニングリーダーを担当していた、 ゲームデザイナーの太田と申します。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年白金版联机趣闻
+translation_available: true
+summary: 白金版策划太田分享宝可梦中心地下 Wi-Fi广场，以及收集星之碎片和传授招式的小窍门。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · プラチナここだけの話 その２
@@ -27,7 +47,87 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！<br>
+
+我是负责《白金版》策划统筹的、<br>
+
+游戏设计师太田。
+
+这次的《白金版》寄托了希望朋友、家人，<br>
+
+大家都能一起享受游戏的心情，<br>
+
+所以加入了许多通过通信游玩的内容。<br>
+
+在这些可以通过通信游玩的设施中，<br>
+
+有一个叫作 Wi-Fi广场的地方，就在宝可梦中心的地下。<br>
+
+这里是随时都能轻松进入的设施，我也经常去玩。<br>
+
+我会玩广场游戏，按按触摸玩具，<br>
+
+和大家聊天，和许多人交流哦。<br>
+
+能和喜欢宝可梦的各位一起玩，我真的非常开心。<br>
+
+如果有机会遇到我，请和我一起玩。<br>
+
+我最擅长玩滚滚魔尼尼！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/90/tetsuzi081003-ecfe4970.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/90/tetsuzi081003-ecfe4970.jpg" alt="Wi-Fiひろば 楽しいです！" loading="lazy"></a></figure>
+
+顺便问问大家，<br>
+
+你们知道在多多罗钢铁厂里，<br>
+
+有位大叔会用“星之碎片”交换“各种碎片”吗？<br>
+
+把这位大叔交换给你的“彩色碎片”，<br>
+
+交给那些喜欢“碎片”的人，<br>
+
+他们居然会教宝可梦招式！<br>
+
+因为可以教给宝可梦原本学不会的招式，<br>
+
+所以一定有很多人想让宝可梦不断学会新招式吧。<br>
+
+不过，这需要用来交换“彩色碎片”的“星之碎片”才行。<br>
+
+这可是只在这里告诉大家的小秘密，<br>
+
+有一个地方可以收集到很多这样的“星之碎片”。<br>
+
+那就是钢铁岛！<br>
+
+在这个地方使用探宝器，<br>
+
+就能找到隐藏起来的“星之碎片”。<br>
+
+请努力找找看吧！<br>
+
+而且，就算已经拿走过一次，<br>
+
+过一段时间再去，也有可能再次找到！<br>
+
+想收集很多的人，可以时不时去看看哦。
+
+就像这样，《白金版》里还有许许多多的玩法。<br>
+
+下次请大家也试着找找只在这里才有的小秘密吧。<br>
+
+请和最喜欢的宝可梦一起，尽情冒险，探索《白金版》的世界吧！<br>
+
+如果大家能享受游戏中的每一个角落，我会非常开心。<br>
+
+那么，再见。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさん、こんにちは！<br>
 
 プラチナでプランニングリーダーを担当していた、<br>

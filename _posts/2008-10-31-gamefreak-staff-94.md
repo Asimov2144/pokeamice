@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 太平燕
+title: 【工作日志】2008年太平燕美食记
 date: '2008-10-31'
 permalink: /gamefreak-staff/entry-94/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 94
-gf_entry_title: 太平燕
+gf_entry_title: 【工作日志】2008年太平燕美食记
 gf_original_title: 太平燕
-gf_translation_title: ''
-translation_available: false
-summary: スタッフボイスをご覧のみなさま、ご無沙汰しています
-translation_status: missing
+gf_translation_title: 【工作日志】2008年太平燕美食记
+translation_available: true
+summary: 策划员G面分享熊本名产太平燕，从丰富配料、鲜美汤底到清爽粉丝，记录一场轻松愉快的用餐体验。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 太平燕
@@ -27,7 +47,65 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+好久不见，前来阅读 Staff Voice 的各位！
+
+面条就是恋人！我是策划员 G 面！
+
+这次要向大家介绍的“面”是“太平燕”！！<br>
+
+顾名思义，这是道中华料理。简单来说，就是用粉丝做的汤。<br>
+
+虽然我没尝过中国本土的味道，但在日本，太平燕是熊本的名产。
+
+它的构成似乎大多和九州的另一道名产“什锦面”很相似。
+
+闲话先放一边，来说说我对太平燕的感想吧。
+
+首先，先大口大口地品尝那些看着就让人开心的丰富配料（蔬菜、海鲜、肉类）。<br>
+
+味道不断变化，真是非常有趣。
+
+接着，连汤一起“滋溜”一口。<br>
+
+配料的味道融进汤里，滋味别提多浓郁了。<br>
+
+尽情享受满满的鲜味。
+
+不过，舌头总会不知不觉变得有些沉重。
+
+这时候就来一口粉丝，滑溜溜地吸进去。<br>
+
+通透的口感，舒服的顺滑感。<br>
+
+这是劲道十足的小麦面条难以带来的清爽感。<br>
+
+就像让口腔一下子清清爽爽地重新归零了。
+
+再来一口配料和汤。
+
+然后是粉丝。<br>
+
+接着又是配料和汤……
+
+转眼间就吃完了！
+
+大家有机会的话，也请务必尝尝！
+
+蔬菜很多，面条又是粉丝，在各种面食当中，<br>
+
+我觉得这算是一道很健康的料理，<br>
+
+特别推荐给各位女性朋友！<br>
+
+那么，下回再见啦！！
+
+也祝大家享受美好的面条生活！！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 スタッフボイスをご覧のみなさま、ご無沙汰しています
 
 麺が恋人！ プランナーのG麺です！

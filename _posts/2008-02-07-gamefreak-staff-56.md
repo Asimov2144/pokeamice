@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 社内ポケモンDPゲーム大会開催
+title: 【工作日志】2008年公司宝可梦对战大会
 date: '2008-02-07'
 permalink: /gamefreak-staff/entry-56/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 56
-gf_entry_title: 社内ポケモンDPゲーム大会開催
+gf_entry_title: 【工作日志】2008年公司宝可梦对战大会
 gf_original_title: 社内ポケモンDPゲーム大会開催
-gf_translation_title: ''
-translation_available: false
-summary: お久しぶりです。なぎーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年公司宝可梦对战大会
+translation_available: true
+summary: GAME FREAK员工为争夺最强宝可梦使用者之名展开对战，森本与劲敌Kabi上演激烈决胜。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 社内ポケモンDPゲーム大会開催
@@ -27,7 +47,140 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+好久不见，我是Nagii。
+
+“GAME FREAK员工中，最强的宝可梦使用者究竟是谁！？”
+
+为了回答这个问题，在新天地三轩茶屋，<br>
+
+公司内部宝可梦DP对战大会举办了。
+
+这次想为大家介绍一下大会的情况。
+
+参加宝可梦大会的选手总共有12名。<br>
+
+大会提前一个月发布了举办通知，选手们在大会开始前一直努力培育宝可梦。<br>
+
+有人在电车里一点一点地赚取经验值，<br>
+
+也有人使用《宝可梦对战革命》进行Wi-Fi对战……
+
+当天。<br>
+
+比赛采用循环赛形式进行。<br>
+
+每天大约进行3场比赛，整个大会持续了3天。<br>
+
+详细规则请见下方。
+
+宝可梦DP公司内部对战规则
+
+使用的软件为《宝可梦 钻石》或<br>
+
+《宝可梦 珍珠》。
+对战方式 单打对战
+规则 标准杯
+宝可梦数量 3只
+宝可梦等级 最高50级
+不能使用相同的宝可梦
+不能让宝可梦携带相同的道具
+禁止使用部分宝可梦和道具
+参赛宝可梦 3～6只
+可以先互相查看队伍<br>
+
+和《宝可梦对战革命》一样，<br>
+
+先向对手展示自己携带的宝可梦，再从中选择3只。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/56/nagi_080206_01-912a20d4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/56/nagi_080206_01-912a20d4.jpg" alt="对战中" loading="lazy"></a></figure>
+
+第一天，大家都按部就班地有胜有负，比赛在互有进退中进行着……<br>
+
+没想到从第二天才参战的森本一上来就取得了4连胜！<br>
+
+那也是理所当然的，森本在上一次大会中曾经以全胜战绩夺冠，<br>
+
+是个不论自己还是他人都公认的GAME FREAK最强宝可梦使用者。
+
+不过，要是让他轻轻松松卫冕，那可就没意思了。<br>
+
+为了阻止森本连胜，Osenbei、Maa，还有大家纷纷向他发起挑战！<br>
+
+结果是惨败。<br>
+
+大家一个接一个地发起挑战，却只是在让森本的连胜纪录不断刷新！<br>
+
+连胜纪录终于达到10连胜，距离全胜只差一场。
+
+就在这时，森本的劲敌Kabi（策划）终于站了出来。<br>
+
+Kabi在上一次大会中曾和森本争夺冠军，是彼此的劲敌。<br>
+
+虽然最后屈居亚军，但实力丝毫不逊于森本！<br>
+
+没错，两人在宝可梦对战方面，就是非得一决高下不可的关系。<br>
+
+森本赌上自己的不败战绩，而Kabi则要阻止劲敌保持不败，最后一战就此拉开帷幕！
+
+森本选手对Kabi选手的比赛开始了！！<br>
+
+森本的双尾怪手和Kabi的耿鬼面对面站在场上。<br>
+
+先手，双尾怪手使出以牙还牙！<br>
+
+属性相性不利，本以为会被一击打倒，没想到耿鬼凭借气势披带撑了下来！<br>
+
+没想到这时，耿鬼使出了双倍奉还！！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/56/nagi_080206-cbb62f57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/56/nagi_080206-cbb62f57.jpg" alt="耿鬼使出双倍奉还的瞬间" loading="lazy"></a></figure>
+
+一击打倒了森本的双尾怪手！
+
+紧接着，耿鬼又用同命打倒了森本派出的下一只宝可梦——怪力。<br>
+
+最后，森本派出暴鲤龙苦苦支撑，<br>
+
+但还是遗憾地倒在了Kabi的波克基斯面前。<br>
+
+Kabi获胜！<br>
+
+正因为双方都对彼此的战术了如指掌，这才打出了一场内容如此丰富的比赛。
+
+不过，虽然没能保持全胜……冠军还是森本选手！<br>
+
+GAME FREAK最强的名号果然不是浪得虚名！<br>
+
+恭喜你！
+
+但是！！<br>
+
+其实事情还没有结束！<br>
+
+这次大会的前5名，接下来还要前往更加激烈的战场。<br>
+
+更加激烈的战场究竟是什么？下回想为大家介绍那里的情况。
+
+最后再附赠一点小花絮，介绍一下大会期间流行的宝可梦！
+
+1．暴鲤龙　12人中有5人使用<br>
+
+2．烈焰猴　12人中有4人使用<br>
+
+3．烈咬陆鲨　12人中有3人使用<br>
+
+3．斗笠菇　12人中有3人使用<br>
+
+3．波克基斯　12人中有3人使用<br>
+
+3．幸福蛋　　12人中有3人使用<br>
+
+3．巨金怪　12人中有3人使用
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 お久しぶりです。なぎーです。
 
 「ゲームフリークスタッフ、最強のポケモン使いは誰！？」

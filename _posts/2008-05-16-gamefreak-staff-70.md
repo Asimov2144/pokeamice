@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 会社対抗ポケモンDPゲーム大会開催
+title: 【工作日志】2008年宝可梦对抗赛
 date: '2008-05-16'
 permalink: /gamefreak-staff/entry-70/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 70
-gf_entry_title: 会社対抗ポケモンDPゲーム大会開催
+gf_entry_title: 【工作日志】2008年宝可梦对抗赛
 gf_original_title: 会社対抗ポケモンDPゲーム大会開催
-gf_translation_title: ''
-translation_available: false
-summary: お久しぶりです。 なぎーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年宝可梦对抗赛
+translation_available: true
+summary: 记录 GAME FREAK 与宝可梦公司举行宝可梦DP对抗赛，从激战打平到加赛决出胜负的现场。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 会社対抗ポケモンDPゲーム大会開催
@@ -27,7 +47,183 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+好久不见。<br>
+
+我是小凪。
+
+大家还记得我吗？<br>
+
+之前，我们举办过[公司内部宝可梦DP对战大会](http://www.gamefreak.co.jp/blog/staff/?p=56)。<br>
+
+那场热烈而激烈的战斗，最终由森本夺得冠军，就此落下帷幕。
+
+然而。
+
+没错，战士是没有休息时间的。
+
+没想到，我们居然要和宝可梦公司举办公司对抗宝可梦DP对战大会了！<br>
+
+参赛者是公司内部大会中取得前五名的五位选手。昨日的敌人就是今天的朋友！大家团结一心，奋勇作战。<br>
+
+这次就来为大家介绍一下三月举办的这场大会。
+
+比赛形式是团体战。<br>
+
+由宝可梦公司对阵 GAME FREAK，进行团体战。<br>
+
+“先锋、次锋、中坚、副将、主将”五位选手分别对战，<br>
+
+胜者方面，主将战可获得2分，其他比赛获得1分，<br>
+
+队伍总分取得4分即可获胜！<br>
+
+另外，游戏对战规则和前些日子举办的大会相同。
+
+那么，大会开始！<br>
+
+如果把所有比赛都解说一遍，篇幅就太长了，所以这次将以集锦的形式为大家介绍。
+
+先锋战，由 GAME FREAK 队的毛毛选手对阵宝可梦公司队的久孝选手，<br>
+
+双方展开对决。<br>
+
+这场比赛中，毛毛选手的沙奈朵大显身手！<br>
+
+它用“精神强念”攻击对手的双尾怪手和双弹瓦斯，<br>
+
+有时命中要害，有时攻击弱点，成功将它们击倒。
+
+次锋战，说起来就是我——小凪，对阵小光选手的比赛。<br>
+
+没想到对手是冰之队。<br>
+
+在“暴雪王”的“降雪”效果下，每回合都会因为冰雹而损失 HP，<br>
+
+但我巧妙地运用能攻击冰属性弱点的烈焰猴，取得了胜利。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/70/nagi080417_01-6810990d.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/70/nagi080417_01-6810990d.jpg" alt="対戦中の二人" loading="lazy"></a></figure>
+
+中坚战是目标三连胜的西格尔选手，对阵小虎选手！<br>
+
+西格尔选手的烈咬陆鲨大显身手。<br>
+
+它用威力强大的“逆鳞”击倒小虎选手的宝可梦，夺得了胜利！
+
+从先锋、次锋到中坚，GAME FREAK 以势不可挡的气势取得三连胜。<br>
+
+再赢一场，就胜利了！！
+
+副将战，为了在这场比赛中一决胜负，卡比选手向巧克棒选手发起挑战。<br>
+
+没想到比赛陷入了混战。<br>
+
+卡比选手的波克基斯用“电磁波”，<br>
+
+不断让巧克棒选手手中的宝可梦陷入麻痹。<br>
+
+可是巧克棒选手的拉帝欧斯使出“精神强念”和“流星群”，<br>
+
+把卡比选手的烈焰猴和波克基斯都击倒了。<br>
+
+最后，卡比选手接下了巧克棒选手的果然翁使出的<br>
+
+“双倍奉还”，遗憾落败！
+
+最后的主将战，由 GAME FREAK 最强的森本选手对阵，<br>
+
+宝可梦公司最强的王牌选手——银河选手！<br>
+
+没想到，第一回合银河选手的青铜钟就使出了“戏法空间”！<br>
+
+在速度颠倒的情况下，森本选手的暴鲤龙<br>
+
+被银河选手的怪力逼到了濒死边缘。<br>
+
+最后变成了森本选手的玛狃拉对阵怪力。<br>
+
+把弱于怪力的玛狃拉留到了最后，<br>
+
+结果被怪力的“爆裂拳”击倒，输掉了比赛。
+
+副将战和主将战也输了，比分居然变成了3比3……。<br>
+
+结果打成了平局。<br>
+
+以上，辛苦大家了！
+
+……才不会就这样结束！<br>
+
+于是，决定在这里进行冠军决胜战。<br>
+
+GAME FREAK 队派出卡比选手，<br>
+
+宝可梦公司队则选出了小虎选手。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/70/vs_mov_btn_off-b6a4b428.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/70/vs_mov_btn_off-b6a4b428.gif" alt="対戦動画を見る！（新しいウィンドウが開きます）" loading="lazy"></a></figure><br>
+
+（如果访问过于集中，可能会无法观看视频。<br>
+
+　这种情况下，请隔一段时间后再试着访问）
+
+卡比选手对阵小虎选手的战斗开始了！<br>
+
+双方一上来是卡比选手的暴鲤龙对阵小虎选手的烈焰猴。<br>
+
+烈焰猴一上来就用“挑衅”封住了暴鲤龙的“龙之舞”。<br>
+
+如果这时让暴鲤龙使出“攀瀑”，烈焰猴本来应该已经倒下了。真是精彩的预判！<br>
+
+接着，烈焰猴又用“急速折返”退回去了。<br>
+
+一上来就是如此精彩的比赛！
+
+小虎选手接下来派出的是拉帝亚斯。<br>
+
+面对用“反射壁”和“冥想”不断提升能力的拉帝亚斯，<br>
+
+卡比选手换下暴鲤龙，派出波克基斯，但在顽强坚持之后，还是被击倒了！
+
+拉帝亚斯的特防提高了，再加上“反射壁”，物理攻击也很难奏效。简直就像一座要塞。<br>
+
+……能打倒它吗！？<br>
+
+GAME FREAK 队的大家都在注视着卡比选手。
+
+卡比选手派出烈焰猴对阵拉帝亚斯。<br>
+
+接着烈焰猴先使出“击掌奇袭”，随后用“急速折返”，给拉帝亚斯造成了巨大伤害！<br>
+
+而且，拉帝亚斯还因为波克基斯造成的麻痹而无法行动。<br>
+
+通过“急速折返”换上场的暴鲤龙，用“冰冻牙”击倒了拉帝亚斯！<br>
+
+现场顿时一阵骚动。真是漂亮的连携攻击！
+
+拉帝亚斯被击倒后，小虎选手派出的是巨金怪！<br>
+
+卡比选手的暴鲤龙用“地震”攻击了它的弱点，但巨金怪硬是撑了下来，接着使出“大爆炸”！！<br>
+
+双方都受到了极其严重的伤害，双双倒下。
+
+双方都只剩下最后一只宝可梦，最后登场的竟然是……卡比选手的烈焰猴对阵小虎选手的烈焰猴。<br>
+
+以烈焰猴的防御力，似乎很难承受对手的“近身战”。<br>
+
+也就是说，这是烈焰猴之间的速度对决！先行动的是……小虎选手的烈焰猴！<br>
+
+小虎选手的烈焰猴使出“近身战”，卡比选手的烈焰猴当场失去战斗能力！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/70/nagi080417_02-91d430b3.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/70/nagi080417_02-91d430b3.jpg" alt="対戦中の二人" loading="lazy"></a></figure>
+
+结果是……GAME FREAK 队落败！<br>
+
+不过，这真是一场精彩的比赛！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 お久しぶりです。<br>
 
 なぎーです。

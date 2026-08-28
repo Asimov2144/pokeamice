@@ -17,44 +17,50 @@
       "images": []
     },
     {
-      "type": "div",
-      "markdown": "■アルベルト男爵<br>\n\n「男爵」とか言って実際は本物の爵位は無くて自称・男爵なんだろうなーと考えながらうさんくさくまとめました。<br>\n\n「ジラーチ」の時に買ったハデ衣装の資料がまた役立ちました。\n\n{% legacy_image id=\"gamefreak-art-a2d1ef211b06\" alt=\"アルベルト男爵\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■アルベルト男爵<br>\n\n「男爵」とか言って実際は本物の爵位は無くて自称・男爵なんだろうなーと考えながらうさんくさくまとめました。<br>\n\n「ジラーチ」の時に買ったハデ衣装の資料がまた役立ちました。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-a2d1ef211b06\" alt=\"アルベルト男爵\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-a2d1ef211b06\" %}</div></div>",
       "images": [
+        "gamefreak-art-a2d1ef211b06",
         "gamefreak-art-a2d1ef211b06"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■アリス<br>\n\n髪の色はブリーチっぽいツートンカラーで考えましたが本編では完全ブロンドに変更になりました。幼い時代も表現しなくてはならないのでナチュラルにするのは当然ですね。<br>\n\n僕の中ではシンオウの若者にはマフラーが流行っている設定なので、アリスもヒカリ同様マフラースタイルです。\n\n{% legacy_image id=\"gamefreak-art-14e6cd57d6a9\" alt=\"アリス\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■アリス<br>\n\n髪の色はブリーチっぽいツートンカラーで考えましたが本編では完全ブロンドに変更になりました。幼い時代も表現しなくてはならないのでナチュラルにするのは当然ですね。<br>\n\n僕の中ではシンオウの若者にはマフラーが流行っている設定なので、アリスもヒカリ同様マフラースタイルです。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-14e6cd57d6a9\" alt=\"アリス\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-14e6cd57d6a9\" %}</div></div>",
       "images": [
+        "gamefreak-art-14e6cd57d6a9",
         "gamefreak-art-14e6cd57d6a9"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■トニオ<br>\n\n容姿に関係なくアリスに愛されている幸せキャラなので思いっきり洒落てない服を着せました。\n\n{% legacy_image id=\"gamefreak-art-7608564fc95b\" alt=\"トニオ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■トニオ<br>\n\n容姿に関係なくアリスに愛されている幸せキャラなので思いっきり洒落てない服を着せました。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-7608564fc95b\" alt=\"トニオ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-7608564fc95b\" %}</div></div>",
       "images": [
+        "gamefreak-art-7608564fc95b",
         "gamefreak-art-7608564fc95b"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■マキ<br>\n\nアリスの髪型ををロングにしたので、メリハリとしてもう一人の女子はまとめ系ヘア、ということでこのような形に。<br>\n\nオデコの横の生え際が曖昧（線がつながっていない）になっているところが気に入っています。<br>\n\n若干しょこたんの事を頭の隅に置いて描きましたが、あまり反映されていないかも。\n\n{% legacy_image id=\"gamefreak-art-d8ec184f171d\" alt=\"マキ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■マキ<br>\n\nアリスの髪型ををロングにしたので、メリハリとしてもう一人の女子はまとめ系ヘア、ということでこのような形に。<br>\n\nオデコの横の生え際が曖昧（線がつながっていない）になっているところが気に入っています。<br>\n\n若干しょこたんの事を頭の隅に置いて描きましたが、あまり反映されていないかも。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-d8ec184f171d\" alt=\"マキ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-d8ec184f171d\" %}</div></div>",
       "images": [
+        "gamefreak-art-d8ec184f171d",
         "gamefreak-art-d8ec184f171d"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■ダイ<br>\n\n初めてドレッドヘアーを描いてみました。描きやすく上手い具合にまとめられたと思います<br>\n\n自分の中では結構新機軸なキャラです\n\n{% legacy_image id=\"gamefreak-art-a4b8e156a24a\" alt=\"ダイ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■ダイ<br>\n\n初めてドレッドヘアーを描いてみました。描きやすく上手い具合にまとめられたと思います<br>\n\n自分の中では結構新機軸なキャラです</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-a4b8e156a24a\" alt=\"ダイ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-a4b8e156a24a\" %}</div></div>",
       "images": [
+        "gamefreak-art-a4b8e156a24a",
         "gamefreak-art-a4b8e156a24a"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■カツミ<br>\n\nテーマは三角？髪のハネと上半身のボタンが三角形に配置されています。<br>\n\nなぜかはもう忘れましたが、ドダイトスのどっしり感を出したかったのかもしれません。たぶん。パンツはシルバーのイメージで。トレーナー３人組はそれぞれの手持ちポケモンのイメージカラーでコーディネイトしています。\n\n{% legacy_image id=\"gamefreak-art-f573a8a36c1c\" alt=\"カツミ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■カツミ<br>\n\nテーマは三角？髪のハネと上半身のボタンが三角形に配置されています。<br>\n\nなぜかはもう忘れましたが、ドダイトスのどっしり感を出したかったのかもしれません。たぶん。パンツはシルバーのイメージで。トレーナー３人組はそれぞれの手持ちポケモンのイメージカラーでコーディネイトしています。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-f573a8a36c1c\" alt=\"カツミ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-f573a8a36c1c\" %}</div></div>",
       "images": [
+        "gamefreak-art-f573a8a36c1c",
         "gamefreak-art-f573a8a36c1c"
       ]
     }

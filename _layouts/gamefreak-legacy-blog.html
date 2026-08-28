@@ -20,6 +20,8 @@ layout: default
     <nav aria-label="专题导航">
       <a href="{{ '/' | append: blog.slug | append: '/' | relative_url }}">HOME</a>
       <a href="{{ blog.archive_url }}" target="_blank" rel="noopener">ORIGINAL ↗</a>
+      <a href="#gf-legacy-about">ABOUT</a>
+      <a href="#gf-legacy-archive">過去日志</a>
       <a href="{{ '/gamefreak-director/' | relative_url }}">MASUDA</a>
       {% if blog_key == 'art' %}<a href="{{ '/gamefreak-staff/' | relative_url }}">STAFF</a>{% else %}<a href="{{ '/gamefreak-art/' | relative_url }}">ART</a>{% endif %}
     </nav>
@@ -35,6 +37,8 @@ layout: default
   </div>
 
   <main class="gf-legacy-content" id="main">
+    <div class="gf-legacy-layout">
+      <div class="gf-legacy-primary">
     {% if mode == 'index' %}
       <header class="gf-legacy-intro">
         <p class="gf-legacy-intro__eyebrow">GAME FREAK LEGACY BLOG</p>
@@ -112,6 +116,43 @@ layout: default
         {% assign next_index = current_index | plus: 1 %}{% if current_index != nil and next_index < chronological.size %}{% assign next_post = chronological[next_index] %}<a href="{{ next_post.url | relative_url }}"><span>下一篇</span><strong>{{ next_post.gf_entry_title | default: next_post.title }}</strong></a>{% endif %}
       </nav>
     {% endif %}
+      </div>
+
+      <aside class="gf-legacy-sidebar" aria-label="博客信息">
+        <section class="gf-legacy-sidebar__block" id="gf-legacy-about">
+          <h2>About</h2>
+          {% if blog.about_image %}<img class="gf-legacy-about__image" src="{{ blog.about_image | relative_url }}" alt="{{ blog.author_zh }}" loading="lazy">{% endif %}
+          <div class="gf-legacy-about__copy">
+            <p data-gf-language-text="zh-CN">{{ blog.about_zh | default: blog.description }}</p>
+            <p data-gf-language-text="ja" hidden>{{ blog.about_ja | default: blog.description }}</p>
+          </div>
+          {% if blog.about_credits %}<div class="gf-legacy-about__credits">{% for credit in blog.about_credits %}<span><img src="{{ credit.image | relative_url }}" alt="" loading="lazy"><small>{{ credit.label }}</small></span>{% endfor %}</div>{% endif %}
+          {% if blog.about_credit %}<p class="gf-legacy-about__credit">{{ blog.about_credit }}</p>{% endif %}
+          <p class="gf-legacy-sidebar__copyright">原文与图片版权归 GAME FREAK 及相关权利方所有。</p>
+        </section>
+
+        <section class="gf-legacy-sidebar__block" id="gf-legacy-archive">
+          <h2>過去ログいちらん <span>Archive</span></h2>
+          <details class="gf-legacy-archive-list">
+            <summary>浏览全部 {{ legacy_posts | size }} 篇文章</summary>
+            <ul>
+              {% for post in legacy_posts %}
+                <li><a href="{{ post.url | relative_url }}"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m" }}</time><span>{% if post.translation_available %}{{ post.gf_translation_title }}{% else %}{{ post.gf_original_title | default: post.title }}{% endif %}</span></a></li>
+              {% endfor %}
+            </ul>
+          </details>
+        </section>
+
+        {% if blog.categories %}
+          <section class="gf-legacy-sidebar__block gf-legacy-tags">
+            <h2>标签 / 分类</h2>
+            <ul>
+              {% for tag in blog.categories %}<li><span class="gf-legacy-tag">{{ tag.zh }}</span><small>{{ tag.ja }}</small></li>{% endfor %}
+            </ul>
+          </section>
+        {% endif %}
+      </aside>
+    </div>
   </main>
 
   <footer class="gf-legacy-footer">
@@ -140,6 +181,9 @@ layout: default
     });
     site.querySelectorAll('[data-gf-legacy-language] [data-language]').forEach(function (button) {
       button.setAttribute('aria-pressed', button.dataset.language === effectiveLanguage ? 'true' : 'false');
+    });
+    site.querySelectorAll('[data-gf-language-text]').forEach(function (text) {
+      text.hidden = text.dataset.gfLanguageText !== effectiveLanguage;
     });
     try { localStorage.setItem('gf-legacy-language', language); } catch (error) {}
   }

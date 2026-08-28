@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 恐怖！ 金縛り体験
+title: 【工作日志】2008年首次遭遇鬼压床
 date: '2008-07-24'
 permalink: /gamefreak-staff/entry-81/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 81
-gf_entry_title: 恐怖！ 金縛り体験
+gf_entry_title: 【工作日志】2008年首次遭遇鬼压床
 gf_original_title: 恐怖！ 金縛り体験
-gf_translation_title: ''
-translation_available: false
-summary: どうも、こんにちわ！ さり気なく ゴールデンウィークの記事 で初登場していた、 入社二年目プログラマーのほっしーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年首次遭遇鬼压床
+translation_available: true
+summary: 入社第二年的程序员记录首次遭遇“鬼压床”的惊险经历，并分享了它与疲劳及突然运动之间的关系。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 恐怖！ 金縛り体験
@@ -27,7 +47,113 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！<br>
+
+之前在[黄金周的文章](http://www.gamefreak.co.jp/blog/staff/?p=69)里不经意间首次登场过的，<br>
+
+我是入社第二年的程序员小星。
+
+突然问一句，大家有过“鬼压床”的经历吗？<br>
+
+我曾经好几次“鬼压床”，所以一直想当然地以为，<br>
+
+谁应该都至少体验过一次“鬼压床”吧。<br>
+
+可是我问了问身边的人，<br>
+
+才发现，没想到有很多人一次“鬼压床”都没经历过。<br>
+
+所以这次，我想讲讲自己第一次“鬼压床”时的事情！<br>
+
+不擅长听恐怖故事的人请注意……
+
+＊＊＊＊＊
+
+那是我上中学的时候，在马拉松大会举行那天的深夜。<br>
+
+我本来应该因为马拉松大会的疲劳而睡得很熟，<br>
+
+可我却像之前一直在睡觉都是假的一样，一下子就醒了。<br>
+
+那是一种至今从未体验过的奇妙感觉。<br>
+
+在意识迅速清醒的过程中，<br>
+
+不知为何，一个不安的念头掠过脑海：“现在该不会动不了身体吧？”<br>
+
+我战战兢兢地试着让右手用力……<br>
+
+可是，不知为何，右手动不了了！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/81/hossi080724-0ad8762f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/81/hossi080724-0ad8762f.jpg" alt="睡眠中イメージ" loading="lazy"></a></figure>
+
+“咦？”
+
+正想发出声音时，<br>
+
+我发现自己连声音都发不出来了。<br>
+
+我试着想办法说出点什么，<br>
+
+结果也只能发出类似呻吟的声音。<br>
+
+紧接着，我感觉全身都不对劲。<br>
+
+大家有没有过这样的感觉：在小腿即将抽筋前，<br>
+
+会感觉到“接下来这条腿就要抽筋了”？<br>
+
+我感觉到的，就像是那种感觉的全身版。
+
+果然，下一瞬间，我感到全身传来仿佛被紧紧勒住般的剧烈疼痛。<br>
+
+没错，就像全身都抽筋了一样！
+
+“……！！……！！”
+
+胸口像被紧紧压住，喘不过气，全身都传来剧痛，<br>
+
+当然，因为身体动不了，我既没法在床上滚来滚去，<br>
+
+连声音都发不出来，自然也没法呼救。<br>
+
+我能做的事情，大概就只有思考了，<br>
+
+可疼得什么都想不了，只能在脑海里一遍遍念着记不太清的佛号，<br>
+
+不知不觉间，“鬼压床”就这样一下子解除了。<br>
+
+全身都被汗湿透了。
+
+＊＊＊＊＊
+
+后来我在网上查了一下，<br>
+
+发现“鬼压床”的原因早已被解释清楚，<br>
+
+医学上称之为“睡眠麻痹”。<br>
+
+据说，平时不运动的身体突然进行运动时，更容易发生这种情况。<br>
+
+我的情况也不例外，正是因为平时不运动的身体，<br>
+
+却跑完了马拉松大会的全程。<br>
+
+我本来还以为那种恐怖一定是幽灵作祟，医学真是厉害啊。
+
+不过话说回来，那种剧痛也确实足以让古人误以为是幽灵作祟。
+
+好像没能讲成什么特别恐怖的故事，<br>
+
+但大家也请注意不要“鬼压床”，<br>
+
+小心运动不足，以及突然进行剧烈运动……！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 どうも、こんにちわ！<br>
 
 さり気なく[ゴールデンウィークの記事](http://www.gamefreak.co.jp/blog/staff/?p=69)で初登場していた、<br>

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ハワイの島の、いちばんあつい日
+title: 【工作日志】2007年夏威夷岛最热的一天
 date: '2007-08-30'
 permalink: /gamefreak-staff/entry-18/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 18
-gf_entry_title: ハワイの島の、いちばんあつい日
+gf_entry_title: 【工作日志】2007年夏威夷岛最热的一天
 gf_original_title: ハワイの島の、いちばんあつい日
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、よっしーです?。
-translation_status: missing
+gf_translation_title: 【工作日志】2007年夏威夷岛最热的一天
+translation_available: true
+summary: 记录宝可梦卡牌游戏世界冠军赛现场，感受激烈对战、热烈气氛与夏威夷岛壮阔自然。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ハワイの島の、いちばんあつい日
@@ -27,7 +47,81 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是 Yossy～。
+
+我在 GAME FREAK 担任图形设计师。<br>
+
+我的主要工作，是制作游戏画面。
+
+除此之外，除了游戏画面，<br>
+
+GAME FREAK 的图形设计师们，<br>
+
+也会为宝可梦卡牌游戏绘制插画哦～。
+
+就是这样，<br>
+
+这次想和大家聊聊宝可梦卡牌游戏。
+
+这个月中旬，也就是 8 月 11～12 日，<br>
+
+宝可梦卡牌游戏的最高规格赛事<br>
+
+“世界冠军赛 2007”举办了。
+
+举办地点是在夏威夷岛！
+
+来自世界 30 多个国家、一路赢过各国大赛的顶尖玩家齐聚一堂，<br>
+
+在这座炎热的南国岛屿上，展开了热烈无比的对战！
+
+面对这样精彩的舞台，我，Yossy，亲自前往了现场。
+
+现场会场。<br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/18/yoshi01_04-a08a73cf.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/18/yoshi01_04-a08a73cf.jpg" alt="ハワイ：ワールドチャンピオンシップ2007" loading="lazy"></a></figure>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/18/yoshi01_01-946572b7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/18/yoshi01_01-946572b7.jpg" alt="トロフィーとカード" loading="lazy"></a></figure><br>
+颁发给漂亮地赢得对战、一路过关斩将的玩家们的奖杯和卡牌。闪闪发亮！<br>
+
+看着那座奖杯入迷的，是 GAME FREAK 的<br>
+
+艺术总监杉森建和图形设计师吉田宏信。
+
+两位这次还在卡牌大赛上举办了签名会哦～。
+
+说到夏威夷岛，那当然就是壮阔的大自然！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/18/yoshi01_02-ef27c10b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/18/yoshi01_02-ef27c10b.jpg" alt="雄大な自然" loading="lazy"></a></figure><br>
+
+亲眼看到火山喷发的遗迹和日落，我再次切身体会到大自然的辽阔，不禁深受感动。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/18/yoshi01_03-934f51d6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/18/yoshi01_03-934f51d6.jpg" alt="ペトログラフ" loading="lazy"></a></figure><br>
+
+夏威夷古代人刻下并使用的岩刻文字（岩画）。<br>
+
+很有历史感呢。真是充满浪漫气息～。
+
+在卡牌大赛上活力十足的玩家们所散发出的热情，<br>
+
+还有夏威夷岛辽阔的大自然，我都亲身感受到了，
+
+气温和情绪都热得不得了！
+
+能够遇见一个个充满活力的场景，经历各种各样的事情并为之感动，<br>
+
+心灵也会变得更加丰盈，真好呢。
+
+今后，我也想把这么美好的点点滴滴，<br>
+
+不断地、尽可能多地加入到
+
+每天的生活中去～
+
+这是再次深深感慨到这一点的 Yossy。<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、よっしーです?。
 
 ゲームフリークでグラフィックデザイナーをしています。<br>

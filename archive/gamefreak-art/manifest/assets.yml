@@ -1,7 +1,24 @@
 schema_version: 1
-generated_at: '2026-08-28T05:09:32+00:00'
-network_requests: 19
+generated_at: '2026-08-28T06:38:53+00:00'
+network_requests: 0
 assets:
+- id: gamefreak-art-d53ef127972b
+  article: null
+  roles:
+  - zoom-button
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/zoom_off.gif
+  pair_url: null
+  local_path: archive/gamefreak-art/assets/original/shared/zoom_off-d53ef127.gif
+  captured_at: '2026-08-28T06:37:59+00:00'
+  capture_source: internet-archive-fixed-snapshot
+  wayback_timestamp: '20130808124032'
+  wayback_url: https://web.archive.org/web/20130822203301id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/zoom_off.gif
+  status: 200
+  content_type: image/gif
+  bytes: 1553
+  sha256: cae28140e0f032ba3d4af9d0dd9211b22ebb0bcb1fc1ad9389c31ced05c19a5d
+  width: 87
+  height: 22
 - id: gamefreak-art-2e71567307b3
   article: null
   roles:
@@ -53,6 +70,23 @@ assets:
   sha256: 74bfc9c3d7535b5e005e1c2a8eabdb049e6790a27a363814b4e8da0337839de0
   width: null
   height: null
+- id: gamefreak-art-918a4d6a6892
+  article: null
+  roles:
+  - about-image
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/uploads/2012/11/pro.jpg
+  pair_url: null
+  local_path: archive/gamefreak-art/assets/original/shared/pro-918a4d6a.jpg
+  captured_at: '2026-08-28T06:37:58+00:00'
+  capture_source: internet-archive-fixed-snapshot
+  wayback_timestamp: '20130808124032'
+  wayback_url: https://web.archive.org/web/20130822170708id_/http://www.gamefreak.co.jp/blog/art/wp-content/uploads/2012/11/pro.jpg
+  status: 200
+  content_type: image/jpeg
+  bytes: 28146
+  sha256: 291f05f05e8c9ff5249220ee53dbc38ad928ee7e2768d2470330fd46cc034060
+  width: 140
+  height: 140
 - id: gamefreak-art-a2d1ef211b06
   article: 5
   roles:

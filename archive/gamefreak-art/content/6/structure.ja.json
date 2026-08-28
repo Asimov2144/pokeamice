@@ -12,23 +12,26 @@
       "images": []
     },
     {
-      "type": "div",
-      "markdown": "■ゼロ<br>\n\nギラティナの力を欲するうちに<br>\n\n自分自身がギラティナになりたい！というコスプレ的な感情が高まって<br>\n\nこの妙なスーツを作ったんではないかという解釈をしました。<br>\n\n清潔好きらしいのでベースは滅菌服っぽく。<br>\n\nあと、うまくいったと思うのはキャラ全体の配色です。\n\n{% legacy_image id=\"gamefreak-art-d24e1152cffd\" alt=\"ゼロ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■ゼロ<br>\n\nギラティナの力を欲するうちに<br>\n\n自分自身がギラティナになりたい！というコスプレ的な感情が高まって<br>\n\nこの妙なスーツを作ったんではないかという解釈をしました。<br>\n\n清潔好きらしいのでベースは滅菌服っぽく。<br>\n\nあと、うまくいったと思うのはキャラ全体の配色です。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-d24e1152cffd\" alt=\"ゼロ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-d24e1152cffd\" %}</div></div>",
       "images": [
+        "gamefreak-art-d24e1152cffd",
         "gamefreak-art-d24e1152cffd"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■ムゲン<br>\n\n反転世界に5年間も一人でいられるタフな不良中年。<br>\n\n飄々とした無責任男的なイメージでアロハシャツに短パン。<br>\n\nバックパックはメカ設定さんにお任せしたので<br>\n\nアタリだけ取ってあります。\n\n{% legacy_image id=\"gamefreak-art-40324ee0486b\" alt=\"ムゲン\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■ムゲン<br>\n\n反転世界に5年間も一人でいられるタフな不良中年。<br>\n\n飄々とした無責任男的なイメージでアロハシャツに短パン。<br>\n\nバックパックはメカ設定さんにお任せしたので<br>\n\nアタリだけ取ってあります。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-40324ee0486b\" alt=\"ムゲン\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-40324ee0486b\" %}</div></div>",
       "images": [
+        "gamefreak-art-40324ee0486b",
         "gamefreak-art-40324ee0486b"
       ]
     },
     {
-      "type": "div",
-      "markdown": "■インフィ<br>\n\nディスプレイ内にいる人工知能メイド。<br>\n\n「たぶんCGで作画します」と言われていたので<br>\n\n「手描きで描きづらいデザインの方が<br>\n\nCG処理のしがいがあるに違いない！」と勝手に判断して<br>\n\n変な塗り分けとか抜き穴だらけのめんどくさい形状にしてしまいました。<br>\n\n手描きパートが無くて良かったです。<br>\n\nモチーフは勿論「∞（無限）」マークです。\n\n{% legacy_image id=\"gamefreak-art-ca2cd5068e58\" alt=\"インフィ\" %}",
+      "type": "art-entry",
+      "markdown": "<div class=\"gf-legacy-art-entry\"><div class=\"gf-legacy-art-entry__copy\">■インフィ<br>\n\nディスプレイ内にいる人工知能メイド。<br>\n\n「たぶんCGで作画します」と言われていたので<br>\n\n「手描きで描きづらいデザインの方が<br>\n\nCG処理のしがいがあるに違いない！」と勝手に判断して<br>\n\n変な塗り分けとか抜き穴だらけのめんどくさい形状にしてしまいました。<br>\n\n手描きパートが無くて良かったです。<br>\n\nモチーフは勿論「∞（無限）」マークです。</div><div class=\"gf-legacy-art-entry__visual\">{% legacy_image id=\"gamefreak-art-ca2cd5068e58\" alt=\"インフィ\" %}{% legacy_zoom button=\"gamefreak-art-d53ef127972b\" hover=\"gamefreak-art-d53ef127972b\" target=\"gamefreak-art-ca2cd5068e58\" %}</div></div>",
       "images": [
+        "gamefreak-art-ca2cd5068e58",
         "gamefreak-art-ca2cd5068e58"
       ]
     }

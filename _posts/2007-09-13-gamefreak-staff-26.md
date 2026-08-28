@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: デコぼこクライミング！
+title: 【工作日志】2007年的攀岩休日
 date: '2007-09-13'
 permalink: /gamefreak-staff/entry-26/
 categories:
@@ -10,16 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 26
-gf_entry_title: デコぼこクライミング！
+gf_entry_title: 【工作日志】2007年的攀岩休日
 gf_original_title: デコぼこクライミング！
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、プランナーをしているデコです。 でこっぱちなデコは、体を動かすことが大好きです。 特に、仕組みやルールがよく分からないスポーツに挑戦するのは、
-  新鮮でとっても楽しい！ という訳で、今年の２月からフリークライミングを始めました。
-translation_status: missing
+gf_translation_title: 【工作日志】2007年的攀岩休日
+translation_available: true
+summary: 规划员德科记录挑战自由攀岩的休日：从设计路线到反复失败，享受全身运动与达成目标的喜悦。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · デコぼこクライミング！
@@ -28,7 +47,69 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是担任策划工作的德科。<br>
+
+额头鼓鼓的德科，非常喜欢活动身体。<br>
+
+尤其是挑战那些机制和规则都不太明白的运动，<br>
+
+感觉新鲜又特别有趣！<br>
+
+所以，我从今年2月开始练习自由攀岩了。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/26/deko01-023f06db.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/26/deko01-023f06db.jpg" alt="フリークライミング！" loading="lazy"></a></figure>
+
+上周的休息日，我也和年轻员工一起去攀岩馆爬墙了。<br>
+
+我觉得攀岩可以按照自己的节奏进行，<br>
+
+即使平时不怎么运动的人，也能轻松享受这项运动。<br>
+
+它不只需要臂力，还会用到腹肌和腿腰，对想做全身运动的人来说很不错。
+
+在开始攀爬前，先考虑好要怎么前进的路线，<br>
+
+然后按照脑海中的构想操控身体，这正是德科最喜欢的事情。<br>
+
+明明是自己的身体，却没法随心所欲地行动，那种焦躁感，<br>
+
+以及拼尽全力终于抵达终点时的喜悦，<br>
+
+都是日常生活中无法获得的刺激。<br>
+
+顺利爬上去的时候，我会在心里不停地喊：“成功了！我做到了！”<br>
+
+大概连升级音效都会响起来。<br>
+
+不过因为害羞，表现喜悦时还是会稍微收敛一些。
+
+虽然买了攀岩鞋，已经彻底成了攀岩的俘虏，<br>
+
+但我现在正苦战于一道无法完成的线路。<br>
+
+无论挑战多少次都只会掉下来，已经快要哭了。<br>
+
+每次我都会不甘心地想：“是我的身体太重了吗？”“是力量不够吗？”<br>
+
+不过，攀岩就是单纯地好玩。光是挑战它就让人感到幸福。<br>
+
+因为有了目标之后，就会突然干劲十足嘛。
+
+活动身体之后吃的饭，味道好极了！<br>
+
+我非常喜欢吃东西，所以这同样也是一种幸福。<br>
+
+泡过澡之后，指尖会一阵阵地疼，<br>
+
+但伴随着舒服的疲劳感，我能睡得特别香。这也是幸福。<br>
+
+这就是德科攀爬墙壁的休日。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、プランナーをしているデコです。<br>
 
 でこっぱちなデコは、体を動かすことが大好きです。<br>

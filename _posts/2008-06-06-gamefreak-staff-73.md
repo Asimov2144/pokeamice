@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: つゆやきそば
+title: 【工作日志】2008年汤汁炒面随笔
 date: '2008-06-06'
 permalink: /gamefreak-staff/entry-73/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 73
-gf_entry_title: つゆやきそば
+gf_entry_title: 【工作日志】2008年汤汁炒面随笔
 gf_original_title: つゆやきそば
-gf_translation_title: ''
-translation_available: false
-summary: スタッフボイスをご覧のみなさん、はじめまして！ プランナーのG麺です。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年汤汁炒面随笔
+translation_available: true
+summary: 规划员G面介绍心爱的汤汁炒面，边写边回味炒面与拉面汤相遇的奇妙滋味。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · つゆやきそば
@@ -27,7 +47,49 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，感谢大家阅读员工博客！<br>
+
+我是规划员G面。
+
+今天想写写我的“嘴中恋人”——面！！
+
+最近我最喜欢的，毫无疑问就是某处的“汤汁炒面”了！
+
+看到这里，可能有人完全不知道这是什么，<br>
+
+所以请允许我简单说明一下……。
+
+首先，请想象一下普通的炒面。
+
+不要把它盛在盘子里，而是盛进大碗。
+
+然后，浇上酱油味的拉面汤。
+
+最后撒上配料。把天妇罗碎屑和长葱零零散散地撒上去。
+
+完成！　大功告成！！
+
+这大概就是“汤汁炒面”了！<br>
+
+（毕竟只是大概，如果有说错的地方，还请大家指正）
+
+面条炒得香喷喷的，即使泡在汤里也不容易泡软，依然保持着弹性。汤是以鸡架为底，带着酱油味，调味稍微清淡一些。每当把面条挑起来时，裹在面上的酱汁就会融进汤里，一点一点为汤增添鲜味和浓郁口感。一口。两口。三口。随着筷子不断向前，汤的色泽、香气和鲜味也在不断变化。那味道乍一尝，甚至会让人觉得两者有些不搭。可不知怎么的，又带着几分怀旧，或者说，是一种温和的味道。真是种不可思议的面啊？我不禁这么想。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" alt="G面画" loading="lazy"></a></figure>
+
+大家有机会的话，也请务必尝一尝！<br>
+
+虽然我已经彻底爱上它了，但拿来当作学校或职场上的聊天话题，我想应该也很合适哦——！
+
+那就下回再见！！
+
+也祝大家享受美好的面食生活。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 スタッフボイスをご覧のみなさん、はじめまして！<br>
 
 プランナーのG麺です。

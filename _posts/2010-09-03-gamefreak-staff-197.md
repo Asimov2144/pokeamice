@@ -10,6 +10,26 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 197
@@ -105,7 +125,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/sato100903-7244fc86.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/sato100903-7244fc86.jpg" alt="滝" loading="lazy"></a></figure>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer30-c01e8eed.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer30-c01e8eed.jpg" alt="カラシ" loading="lazy"></a></figure><br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" alt="カラシ" loading="lazy"></a></figure><br>
 
 この夏はウワサの水木しげるロードへ行ってきました！<br>
 

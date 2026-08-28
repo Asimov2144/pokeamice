@@ -52,6 +52,14 @@ BLOGS: dict[str, dict[str, Any]] = {
         "theme_css": "http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/style.css",
         "header_asset": "http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/art_tit.jpg",
         "background_asset": "http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/bg.jpg",
+        "about_url": "http://www.gamefreak.co.jp/blog/art/?page_id=228",
+        "about_snapshot": "20130808124032",
+        "archive_page_url": "http://www.gamefreak.co.jp/blog/art/",
+        "archive_snapshot": "20130808124032",
+        "about_image": "http://www.gamefreak.co.jp/blog/art/wp-content/uploads/2012/11/pro.jpg",
+        "categories": [{"ja": "アートワーク", "zh": "艺术作品"}, {"ja": "設定画", "zh": "设定图"}],
+        "about_ja": "株式会社ゲームフリーク アートディレクター杉森建のアートワーク。",
+        "about_zh": "GAME FREAK 股份有限公司艺术总监杉森建的艺术作品。",
     },
     "staff": {
         "slug": "gamefreak-staff",
@@ -68,6 +76,24 @@ BLOGS: dict[str, dict[str, Any]] = {
         "theme_css": "http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/style.css",
         "header_asset": "http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/title.jpg",
         "background_asset": "http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/bg.jpg",
+        "about_url": "http://www.gamefreak.co.jp/blog/staff/?page_id=2",
+        "about_snapshot": "20130808162750",
+        "archive_page_url": "http://www.gamefreak.co.jp/blog/staff/?page_id=245",
+        "archive_snapshot": "20130808162750",
+        "about_credit_images": [
+            "http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg",
+            "http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer30.jpg",
+        ],
+        "categories": [
+            {"ja": "GF紹介", "zh": "GF介绍"},
+            {"ja": "にっき", "zh": "日记"},
+            {"ja": "ポケモン", "zh": "宝可梦"},
+            {"ja": "採用", "zh": "招聘"},
+            {"ja": "更新のおしらせ", "zh": "更新通知"},
+            {"ja": "未分類", "zh": "未分类"},
+        ],
+        "about_ja": "「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。\nちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を書いたり書かなかったりしていこうと思います。",
+        "about_zh": "《晴时偶有阴》是 GAME FREAK 员工记录工作与日常的随笔博客。\n这里会时不时写下那些有点奇怪、却很有趣的公司生活。",
     },
 }
 
@@ -259,6 +285,10 @@ def discover_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
     index_path = root / "raw" / "index.html"
     index_meta = root / "raw" / "index.meta.yml"
     index_html = fetcher.capture(blog["index_url"], blog["snapshot"], index_path, index_meta)
+    if blog.get("about_url"):
+        capture_support_page(fetcher, blog, "about", blog["about_url"], blog.get("about_snapshot", blog["snapshot"]))
+    if blog.get("archive_page_url") and blog["archive_page_url"] != blog["index_url"]:
+        capture_support_page(fetcher, blog, "archive", blog["archive_page_url"], blog.get("archive_snapshot", blog["snapshot"]))
     soup = BeautifulSoup(index_html, "html.parser")
 
     articles: list[dict[str, Any]] = []
@@ -311,6 +341,48 @@ def load_manifest(blog: dict[str, Any]) -> dict[str, Any]:
     if not path.exists():
         raise FileNotFoundError(f"Run discover for {blog['slug']} first")
     return load_yaml(path)
+
+
+def capture_support_page(fetcher: Fetcher, blog: dict[str, Any], kind: str, url: str, timestamp: str) -> Path:
+    """Capture a blog-level About/archive page, falling back to the nearest CDX hit."""
+    root = archive_root(blog)
+    body = root / "raw" / f"{kind}.html"
+    meta = root / "raw" / f"{kind}.meta.yml"
+    if body.exists() and meta.exists() and not fetcher.refresh:
+        return body
+    replay = wayback_url(timestamp, url, "")
+    capture_source = "internet-archive-fixed-snapshot"
+    selected_timestamp = timestamp
+    try:
+        response = fetcher.request(replay)
+    except RuntimeError:
+        try:
+            response, selected_timestamp = find_cdx_capture(fetcher, url, timestamp)
+            capture_source = "internet-archive-cdx-fallback"
+        except RuntimeError as exc:
+            # Some WordPress utility pages were never captured reliably. The
+            # translated About copy in _data still renders, so keep discovery
+            # and the rest of the archive usable when this auxiliary page is
+            # unavailable.
+            print(f"warning: unable to capture {kind} page {url}: {exc}")
+            return body
+    atomic_write(body, response.content)
+    write_yaml(
+        meta,
+        {
+            "original_url": url,
+            "requested_replay_url": replay,
+            "final_url": response.url,
+            "wayback_timestamp": selected_timestamp,
+            "capture_source": capture_source,
+            "captured_at": utc_now(),
+            "status": response.status_code,
+            "content_type": response.headers.get("Content-Type"),
+            "bytes": len(response.content),
+            "sha256": sha256_bytes(response.content),
+        },
+    )
+    return body
 
 
 def load_article_post(article: dict[str, Any], blog: dict[str, Any]) -> Tag:
@@ -451,6 +523,12 @@ def fetch_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
         blog["header_asset"]: {"theme-header"},
         blog["background_asset"]: {"theme-background"},
     }
+    if blog.get("about_image"):
+        shared_urls[blog["about_image"]] = {"about-image"}
+    for url in blog.get("about_credit_images", []):
+        shared_urls[url] = {"about-credit-image"}
+    if blog_name == "art":
+        shared_urls["http://www.gamefreak.co.jp/blog/art/wp-content/images/zoom_off.gif"] = {"zoom-button"}
     for url, roles in shared_urls.items():
         destination = root / "assets" / "original" / "shared" / unique_asset_name(url)
         assets[url] = download_asset(fetcher, blog, url, destination, roles, None)
@@ -536,6 +614,34 @@ def extract_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
         for child in list(right.children):
             if isinstance(child, NavigableString) and not child.strip():
                 continue
+            if blog_name == "art" and isinstance(child, Tag) and child.name == "div" and "comset" in (child.get("class") or []):
+                # The original art layout places the commentary and its
+                # 150px thumbnail side by side, with a separate image-button
+                # linking to the full-resolution drawing. Preserve that
+                # relationship instead of flattening the two siblings.
+                commentary = child.select_one(":scope > .com")
+                thumbnail = child.select_one(":scope > .sm")
+                commentary_markdown = inline_markdown(commentary, assets, article["source_url"], blog) if commentary else ""
+                thumbnail_markdown = inline_markdown(thumbnail, assets, article["source_url"], blog) if thumbnail else ""
+                zoom_anchor = commentary.select_one(":scope .zoom a[href]") if commentary else None
+                zoom_url = unwrap_wayback_url(str(zoom_anchor.get("href") or ""), article["source_url"]) if zoom_anchor else ""
+                full_record = assets.get(zoom_url)
+                zoom_off = assets.get("http://www.gamefreak.co.jp/blog/art/wp-content/images/zoom_off.gif")
+                zoom_on = assets.get("http://www.gamefreak.co.jp/blog/art/wp-content/images/zoom_on.gif")
+                zoom_markdown = ""
+                if full_record and zoom_off:
+                    zoom_markdown = f'{{% legacy_zoom button="{zoom_off["id"]}" hover="{zoom_off["id"]}" target="{full_record["id"]}" %}}'
+                row = (
+                    '<div class="gf-legacy-art-entry">'
+                    f'<div class="gf-legacy-art-entry__copy">{commentary_markdown}</div>'
+                    f'<div class="gf-legacy-art-entry__visual">{thumbnail_markdown}{zoom_markdown}</div>'
+                    '</div>'
+                )
+                image_ids = re.findall(r'legacy_image id="([^"]+)"', row)
+                image_ids.extend(re.findall(r'legacy_zoom[^>]+target="([^"]+)"', row))
+                blocks.append({"type": "art-entry", "markdown": row, "images": image_ids})
+                markdown_parts.append(row)
+                continue
             markdown = inline_markdown(child, assets, article["source_url"], blog)
             if not markdown:
                 continue
@@ -567,6 +673,7 @@ def extract_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
                 "date": article["date"],
                 "title": article["title"],
                 "tags": article.get("tags", []),
+                "blog_categories": blog.get("categories", []),
                 "author": {"name_ja": blog["author_ja"], "name_zh": blog["author_zh"]},
                 "series": {"name_ja": blog["title_ja"], "name_zh": blog["title_zh"]},
                 "source": {"url": article["source_url"], "wayback_url": article["wayback_url"], "raw_page": article["raw_page"]},
@@ -608,6 +715,7 @@ def publish_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
     asset_manifest = load_yaml(root / "manifest" / "assets.yml")
     asset_by_id = {item["id"]: item for item in asset_manifest.get("assets", [])}
     public_root = REPO_ROOT / "assets" / "images" / "gamefreak-legacy" / blog_name
+    blog_category_tags = [item.get("zh") for item in blog.get("categories", []) if item.get("zh")]
 
     for item in asset_manifest.get("assets", []):
         source = REPO_ROOT / item["local_path"]
@@ -617,6 +725,8 @@ def publish_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
             relative = Path("shared") / f"header{source.suffix.lower()}"
         elif item.get("article") is None and "theme-background" in item.get("roles", []):
             relative = Path("shared") / f"background{source.suffix.lower()}"
+        elif item.get("article") is None and "about-image" in item.get("roles", []):
+            relative = Path("shared") / f"profile{source.suffix.lower()}"
         else:
             relative = Path("shared") / source.name if item.get("article") is None else Path(str(item["article"])) / source.name
         destination = public_root / relative
@@ -652,9 +762,24 @@ def publish_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
             url = asset_relative(display)
             alt = match.group(2)
             role_class = " gf-legacy-art-zoom" if "design-full-resolution" in item.get("roles", []) else ""
-            label = '<span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span>' if role_class else ""
+            label = ""
             return f'<figure class="gf-legacy-image{role_class}"><a href="{href}" target="_blank" rel="noopener"><img src="{url}" alt="{alt}" loading="lazy"></a>{label}</figure>'
-        return re.sub(r'\{%\s*legacy_image\s+id="([^"]+)"\s+alt="([^"]*)"\s*%\}', replace, body).strip()
+        def replace_zoom(match: re.Match[str]) -> str:
+            button = asset_by_id.get(match.group(1))
+            hover = asset_by_id.get(match.group(2)) or button
+            target = asset_by_id.get(match.group(3))
+            if not button or not target:
+                return ""
+            button_url = asset_relative(button)
+            hover_url = asset_relative(hover)
+            target_url = asset_relative(target)
+            return (
+                f'<a class="gf-legacy-zoom-button" href="{target_url}" target="_blank" rel="noopener" '
+                f'style="--gf-legacy-zoom-hover: url(\'{hover_url}\')" aria-label="查看原尺寸设定图">'
+                f'<img src="{button_url}" alt="ズーム" width="87" height="22"></a>'
+            )
+        result = re.sub(r'\{%\s*legacy_zoom\s+button="([^"]+)"\s+hover="([^"]+)"\s+target="([^"]+)"\s*%\}', replace_zoom, body)
+        return re.sub(r'\{%\s*legacy_image\s+id="([^"]+)"\s+alt="([^"]*)"\s*%\}', replace, result).strip()
 
     for article in manifest["articles"]:
         ja_meta, ja_body = content_parts(root / "content" / str(article["id"]) / "ja.md")
@@ -667,7 +792,9 @@ def publish_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
             "date": article["date"],
             "permalink": f"/{blog['slug']}/entry-{article['id']}/",
             "categories": ["官方博客", "Game Freak", "数字存档"],
-            "tags": ["Game Freak", blog["author_zh"], *article.get("tags", [])],
+            "tags": list(dict.fromkeys(["Game Freak", blog["author_zh"], *blog_category_tags, *article.get("tags", [])])),
+            "gf_source_tags": article.get("tags", []),
+            "gf_blog_categories": blog.get("categories", []),
             "archive_type": "gamefreak_legacy_blog",
             "gf_legacy_blog": blog_name,
             "gf_legacy_post_id": article["id"],

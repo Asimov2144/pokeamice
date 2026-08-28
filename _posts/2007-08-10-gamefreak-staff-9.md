@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: もういくつ寝ると
+title: 【工作日志】2007年夏日休假计划
 date: '2007-08-10'
 permalink: /gamefreak-staff/entry-9/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 9
-gf_entry_title: もういくつ寝ると
+gf_entry_title: 【工作日志】2007年夏日休假计划
 gf_original_title: もういくつ寝ると
-gf_translation_title: ''
-translation_available: false
-summary: 明日から夏休み！ のカニ子です。 大人になっても夏休みは楽しみ！
-translation_status: missing
+gf_translation_title: 【工作日志】2007年夏日休假计划
+translation_available: true
+summary: GAME FREAK员工分享夏日回忆与假期计划，最后还有一只让人想起宝可梦的金丝熊。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · もういくつ寝ると
@@ -27,7 +47,81 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+明天开始放暑假！我是蟹子。<br>
+
+就算长大了，也还是很期待暑假！
+
+我在 GAME FREAK 找了几个人，问他们：<br>
+
+“请告诉我你夏天的回忆吧。”<br>
+
+“请告诉我你夏天的特别计划吧。”
+
+平面设计师 Yoshi 的回忆是——
+
+在他21岁还是22岁的那个夏天，<br>
+
+他和几个朋友一起，去拜访住在九州的一位熟人。<br>
+
+那天晚上，<br>
+
+他们去了一个据说在九州能看到美丽星空的小镇，<br>
+
+在离小镇不远的一座湖旁边，<br>
+
+大家躺在横跨湖面的那座大桥上，<br>
+
+仰面朝天，在地上摆成“大”字！<br>
+
+一起玩了场“青春游戏”，说着：“星星也太漂亮了吧！”<br>
+
+顺便一提，就在那一晚，<br>
+
+在满天繁星之中，他们还看到了好多次流星，真的非常感动。（´ｪ｀（Yoshi）
+
+清爽过头了，耀眼得让人睁不开眼……<br>
+
+Yoshi 平时就是这么个清爽的人设。
+
+平面设计师 Enoki 今年夏天的计划是——
+
+这　个　夏　天　我　要　飞　上　天　！！<br>
+
+我要变成风，变成鸟，呀呼————！（Enoki）
+
+就是这样。好热烈。
+
+听说他要挑战滑翔伞。真是个挑战者啊——
+
+大家夏天都要尽情玩个痛快！<br>
+
+去体验各种各样的事情，创造许多回忆，<br>
+
+焕然一新，等假期结束后带着笑容去公司或学校吧！<br>
+
+希望大家都能度过一个美好的暑假。
+
+今天的 GAME FREAK 员工宠物是<br>
+
+Yuffie（主人姓名）家的一只金丝熊，名叫“Poko”，是女孩子。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/9/poko01_01-309b1f02.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/9/poko01_01-309b1f02.jpg" alt="ポコ" loading="lazy"></a></figure>
+
+它是老鼠，身体颜色偏黄，耳朵又是黑色的地方，难道不像那只宝可梦吗？<br>
+
+我以前还在本公司的入职面试上说过这种话。<br>
+
+现在回想起来，真是太丢人了！<br>
+
+为了排解这份羞耻感，我揉了揉它肚子附近的毛，让它变得蓬蓬的。（Yuffie）
+
+它露出了极其陶醉的表情。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 明日から夏休み！ のカニ子です。<br>
 
 大人になっても夏休みは楽しみ！

@@ -3,6 +3,11 @@ post_id: 5
 date: '2007-08-01'
 title: 「ディアルガVSパルキアVSダークライ」デザイン画
 tags: []
+blog_categories:
+- ja: アートワーク
+  zh: 艺术作品
+- ja: 設定画
+  zh: 设定图
 author:
   name_ja: 杉森 建
   name_zh: 杉森建
@@ -137,4 +142,4 @@ assets:
 rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
-extracted_at: '2026-08-28T06:00:43+00:00'
+extracted_at: '2026-08-28T06:42:47+00:00'

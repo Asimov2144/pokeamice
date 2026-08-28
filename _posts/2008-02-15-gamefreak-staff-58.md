@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: クライスラーは笑う
+title: 【工作日志】2008年小提琴与平面设计
 date: '2008-02-15'
 permalink: /gamefreak-staff/entry-58/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 58
-gf_entry_title: クライスラーは笑う
+gf_entry_title: 【工作日志】2008年小提琴与平面设计
 gf_original_title: クライスラーは笑う
-gf_translation_title: ''
-translation_available: false
-summary: みなさんこんにちわー！グラフィックデザイナーのねこスQです。 皆さん如何御過ごしでしょうか。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年小提琴与平面设计
+translation_available: true
+summary: 平面设计师分享学习小提琴六年的经历，谈音乐训练与图像创作之间意外相通的想象力与身体运用。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · クライスラーは笑う
@@ -27,7 +47,71 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好——！我是平面设计师ねこスQ。<br>
+
+各位最近过得怎么样？
+
+上次提供照片时，我还自称“ねこカスQD”，不过这个名字不但稍微有点长，<br>
+
+还挺常见的（？），所以决定稍微缩短一下，改称“ねこスQ”。<br>
+
+今后也请多多关照。
+
+这次想给大家介绍一下我正在学习的兴趣爱好之类的事情。
+
+之前在员工日志里登场过的げいのうさん，学的是三味线，<br>
+
+其实我也在学习乐器，到现在学小提琴已经六年了。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/58/neko_0802_01-e8f19d21.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/58/neko_0802_01-e8f19d21.jpg" alt="バイオリン" loading="lazy"></a></figure>
+
+说起六年，可能听起来挺长，实际上，<br>
+
+也就是终于从初学者进步到了初级，正朝着中级前进的感觉。要想演奏得潇洒，<br>
+
+前面还有很长的路要走呢——<br>
+
+不过，这也是我选择小提琴的理由之一。既然都要跟着老师学习，<br>
+
+那就挑战一下稍微难一点的乐器吧，好好把古典乐演奏出来！当时我是这么想的。
+
+大家可能会觉得，平面设计的工作和小提琴完全没有交集嘛！
+
+但其实也不完全是这样。
+
+一直坐着工作的话，肩膀和腰总是很容易出问题，<br>
+
+而小提琴是一种要用到全身的乐器，所以我觉得，它作为转换心情时的<br>
+
+运动，正合适呢。<br>
+
+想要让声音响亮、悠长又优美，手腕、手肘和肩膀就必须彼此配合，<br>
+
+顺畅地做出幅度较大的动作。从这一点来说，小提琴或许也很适合以手臂为吃饭家伙的平面设计师，<br>
+
+也说不定呢。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/58/neko_0802_02-a1dc7541.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/58/neko_0802_02-a1dc7541.jpg" alt="バイオリン演奏中" loading="lazy"></a></figure>
+
+而我觉得两者最相通的一点就是！都非常需要拓展想象力，<br>
+
+如果只是默默地演奏乐谱上写着的音符，似乎很容易变成单调又无趣的<br>
+
+演奏。
+
+老师教我说，想象乐曲创作的时代、当时作曲家的心情，或者调查时代背景，<br>
+
+一边拓展对乐曲的想象，一边填补音符之间的空白，这个过程非常重要。这样的想象力，似乎也有和做平面设计相通的地方。
+
+今后我也会把聆听的人、观看的人放在心上，继续贪心地坚持下去，<br>
+
+我是这么打算的。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさんこんにちわー！グラフィックデザイナーのねこスQです。<br>
 
 皆さん如何御過ごしでしょうか。

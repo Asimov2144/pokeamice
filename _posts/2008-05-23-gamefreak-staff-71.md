@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 22階の恐怖
+title: 【工作日志】二十二层的游戏机恐惧
 date: '2008-05-23'
 permalink: /gamefreak-staff/entry-71/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 71
-gf_entry_title: 22階の恐怖
+gf_entry_title: 【工作日志】二十二层的游戏机恐惧
 gf_original_title: 22階の恐怖
-gf_translation_title: ''
-translation_available: false
-summary: スティックです。
-translation_status: missing
+gf_translation_title: 【工作日志】二十二层的游戏机恐惧
+translation_available: true
+summary: 斯蒂克盘点办公室里的游戏机，从员工个人设备数到约三百台，最后发现还有更可怕的软件数量。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 22階の恐怖
@@ -27,7 +47,39 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+我是斯蒂克。
+
+其实，我发现了一件可怕的事。<br>
+
+这真的相当恐怖。<br>
+
+要说到底有什么这么恐怖，那就是 GAME FREAK 的<br>
+
+办公室里存在着的“游戏机数量”！
+
+毕竟是开发游戏的公司，
+
+有很多游戏机不是理所当然的吗！
+
+我仿佛都能听到这样的声音，<br>
+
+确实如此，不过还是让我们认真算一算。<br>
+
+现在 GAME FREAK 大约有60名员工。<br>
+
+首先，每位开发人员都有一套开发设备。
+
+接下来，再考虑一下大家个人拥有的数量。<br>
+
+任天堂DS发售时，基本上所有人都买了一台。<br>
+
+之后DS Lite发售时，我想大家也都买了。
+
+把宝可梦？ No, original gameboy advance sp
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 スティックです。
 
 実は私、恐ろしい事に気付いてしまいました。<br>

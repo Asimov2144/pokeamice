@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: プラチナここだけの話 その３
+title: 【工作日志】2008年白金开发幕后
 date: '2008-10-10'
 permalink: /gamefreak-staff/entry-91/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 91
-gf_entry_title: プラチナここだけの話 その３
+gf_entry_title: 【工作日志】2008年白金开发幕后
 gf_original_title: プラチナここだけの話 その３
-gf_translation_title: ''
-translation_available: false
-summary: みなさん、始めまして！ ポケットモンスター プラチナのプログラムリーダー、松田です。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年白金开发幕后
+translation_available: true
+summary: 程序负责人松田分享白金的开发工作，并介绍对战开拓区、Wi-Fi广场及其中隐藏的小秘密。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · プラチナここだけの話 その３
@@ -27,7 +47,117 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，初次见面！<br>
+
+我是《宝可梦 白金》的程序组负责人松田。
+
+即使听到“程序员”，很多人可能也会觉得“？”吧？<br>
+
+简单来说，<br>
+
+游戏设计师构思游戏，图形设计师绘制画面，音效人员制作音乐。<br>
+
+那么，要怎样才能在游戏机上呈现这些内容呢？<br>
+
+其实！这部分就是由程序员负责的！<br>
+
+“把场地地图显示在画面上”<br>
+
+“在这个场景播放这首音乐”<br>
+
+“按下 X 按钮后显示菜单”<br>
+
+游戏机也是计算机。所谓计算机，如果没有人下达指令，<br>
+
+就什么也不会做。下达这些指令，就是程序员的职责。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/91/matsuda081010-bf58ad80.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/91/matsuda081010-bf58ad80.jpg" alt="ポケットモンスター プラチナ、プログラマーリーダーの松田です" loading="lazy"></a></figure>
+
+那么！这可是只有这里才会说的事，<br>
+
+因为这次是最终回，所以我会比平时多聊一会儿！
+
+首先是代表白金的设施之一“对战开拓区”！<br>
+
+大家都有在玩吗？<br>
+
+我也是一次次挑战、一次次落败，每天都郁闷不已。
+
+在对战开拓区的设施中获胜后，<br>
+
+可以获得对战点数作为奖励。<br>
+
+攒下对战点数后，可以兑换珍贵的招式学习器和道具，<br>
+
+还可以玩宝可梦刮刮乐……真是让人充满憧憬呢。
+
+而且对战开拓区的各个设施中，<br>
+
+还有和朋友组队进行战斗的“双打对战”。<br>
+
+其实！在双打对战中获胜的话，<br>
+
+会比单人战斗时获得更多对战点数！<br>
+
+大家注意到了吗？<br>
+
+如果想获得很多对战点数，还是两个人一起玩<br>
+
+划算得多呢。<br>
+
+当然，无线通信和 Wi-Fi 通信都可以！<br>
+
+让高手一边帮助初学者一边推进游戏很有意思，<br>
+
+高手之间一路势如破竹地获胜也很有意思哦。<br>
+
+Wi-Fi 通信当然支持语音聊天，<br>
+
+即使相隔很远，也可以一边商量一边挑战。<br>
+
+希望大家能借此机会，联系住在远方的表兄弟姐妹，<br>
+
+或者已经搬走的朋友，一起玩游戏！
+
+还有一个代表白金的设施，那就是“Wi-Fi 广场”！<br>
+
+许多人可以聚集在同一个地方一起玩。<br>
+
+大家已经去玩过了吗？<br>
+
+我经常在睡觉前，躺在床上滚来滚去的时候去那里玩。<br>
+
+有这样一个能轻松地和许多人交流的地方，真是不错。
+
+这个“Wi-Fi 广场”里有三个小游戏。<br>
+
+它们各自都藏着秘密。<br>
+
+比如“不断果然翁”。<br>
+
+玩上好几次之后？……啊！果然翁比平时更大了！<br>
+
+玩小游戏时，偶尔会发生和平时不一样的事情！<br>
+
+这个概率并没有低到很难遇上，所以应该有不少人会说“我已经玩到了”吧？<br>
+
+其他两个小游戏也会发生一些稍微特别的事情，<br>
+
+请大家一定要亲自确认看看哦！
+
+大家觉得怎么样呢？<br>
+
+白金各位负责人带来的“只有这里才会说的事”，这次也要结束了。<br>
+
+《宝可梦 白金》是全体工作人员倾注全力制作完成的作品。<br>
+
+希望大家能把白金的世界玩个彻底，不放过每一个角落。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさん、始めまして！<br>
 
 ポケットモンスター プラチナのプログラムリーダー、松田です。

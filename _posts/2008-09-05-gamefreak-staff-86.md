@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 採用：たくさんのご応募ありがとうございます！
+title: 【工作日志】2009届招聘报名结束
 date: '2008-09-05'
 permalink: /gamefreak-staff/entry-86/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 86
-gf_entry_title: 採用：たくさんのご応募ありがとうございます！
+gf_entry_title: 【工作日志】2009届招聘报名结束
 gf_original_title: 採用：たくさんのご応募ありがとうございます！
-gf_translation_title: ''
-translation_available: false
-summary: 採用担当のさとうです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009届招聘报名结束
+translation_available: true
+summary: GAME FREAK记录应届毕业生招聘第二轮报名结束，感谢学生们踊跃应聘，并介绍公司正在认真进行选拔。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 採用：たくさんのご応募ありがとうございます！
@@ -27,7 +47,39 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+2009年度应届毕业生招聘第二轮报名已于9月1日截止。<br>
+
+非常感谢各位同学踊跃报名！<br>
+
+报名从7月1日开始，想必也有不少人是在酷暑正盛的时候制作作品……<br>
+
+辛苦大家了！
+
+这就是大家投来的申请材料中的一部分。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/86/sato080905-0e01dfbe.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/86/sato080905-0e01dfbe.jpg" alt="たくさんの応募書類" loading="lazy"></a></figure>
+
+其实，这只是大家投来的申请材料中的一小部分。<br>
+
+真的非常感谢！
+
+至于大家关心的选拔，目前公司内部负责招聘的工作人员，<br>
+
+一边因为应聘人数之多而喜不自胜，一边也没有停下开发工作，<br>
+
+正在认真进行选拔。<br>
+
+结果还请大家再耐心等一等。
+
+转眼已经9月了，也就是说，2010年度应届毕业生招聘很快就要在各处陆续开始了吧。<br>
+
+当然，GAME FREAK也不例外！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 採用担当のさとうです。
 
 2009年度新卒採用２次募集の受付が9/1をもって終了いたしました。<br>

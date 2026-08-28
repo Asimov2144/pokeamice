@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 大好きなポケモン
+title: 【工作日志】2007年员工最爱的宝可梦
 date: '2007-10-02'
 permalink: /gamefreak-staff/entry-35/
 categories:
@@ -10,15 +10,35 @@ categories:
 tags:
 - Game Freak
 - GAME FREAK 员工
+- GF介绍
+- 日记
+- 宝可梦
+- 招聘
+- 更新通知
+- 未分类
+gf_source_tags: []
+gf_blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 35
-gf_entry_title: 大好きなポケモン
+gf_entry_title: 【工作日志】2007年员工最爱的宝可梦
 gf_original_title: 大好きなポケモン
-gf_translation_title: ''
-translation_available: false
-summary: 初めまして。プランナー＋サウンドのラッペンです。
-translation_status: missing
+gf_translation_title: 【工作日志】2007年员工最爱的宝可梦
+translation_available: true
+summary: 员工拉彭分享名片上的宝可梦与办公桌收藏，讲述自己对溶食兽的热爱。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 大好きなポケモン
@@ -27,7 +47,49 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是负责策划＋音效的拉彭。
+
+员工的名片上，都画着各不相同的宝可梦。<br>
+
+以前蟹子的文章里提到过，<br>
+
+名片上的宝可梦，基本都是从红绿中登场的151只里选的。
+
+我的名片上画的是红绿里我最喜欢的鲤鱼王，不过……<br>
+
+在所有宝可梦中，我最喜欢的是它！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/35/rap01-604cd102.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/35/rap01-604cd102.jpg" alt="ゴクリン集合" loading="lazy"></a></figure>
+
+溶・食・兽！<br>
+
+因为实在太喜欢溶食兽，我的电脑上方已经变成这样了。<br>
+
+溶食兽好可爱。真想一直把它们堆在头上！溶食兽热潮！万岁！（出自DP）
+
+这些可不是因为身为员工才拿到的，全都是自己买的！
+
+平时我总是热情地讲自己有多喜欢溶食兽，<br>
+
+所以有同事在便利店看到溶食兽，就会买来送给我，<br>
+
+也有去宝可梦中心的员工送我伴手礼，说：“有溶食兽！”<br>
+
+除了自己买的以外，也不断收到了别人送的，结果就增加到了这么多。
+
+同样地，策划N先生手边也聚集了一大群皮皮，<br>
+
+战斗总监M先生的桌上则堆满了梦幻。<br>
+
+大家都知道，谁最喜欢哪只宝可梦。
+
+要是能推出等身大的溶食兽玩偶就好了……
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 初めまして。プランナー＋サウンドのラッペンです。
 
 社員の名刺には、それぞれ違うポケモンが描かれている。<br>

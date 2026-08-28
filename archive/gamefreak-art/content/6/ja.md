@@ -22,7 +22,7 @@ status: source-extracted
 
 細部や色などが異なります
 
-■ゼロ<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■ゼロ<br>
 
 ギラティナの力を欲するうちに<br>
 
@@ -32,11 +32,9 @@ status: source-extracted
 
 清潔好きらしいのでベースは滅菌服っぽく。<br>
 
-あと、うまくいったと思うのはキャラ全体の配色です。
+あと、うまくいったと思うのはキャラ全体の配色です。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-d24e1152cffd" alt="ゼロ" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-d24e1152cffd" %}</div></div>
 
-{% legacy_image id="gamefreak-art-d24e1152cffd" alt="ゼロ" %}
-
-■ムゲン<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■ムゲン<br>
 
 反転世界に5年間も一人でいられるタフな不良中年。<br>
 
@@ -44,11 +42,9 @@ status: source-extracted
 
 バックパックはメカ設定さんにお任せしたので<br>
 
-アタリだけ取ってあります。
+アタリだけ取ってあります。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-40324ee0486b" alt="ムゲン" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-40324ee0486b" %}</div></div>
 
-{% legacy_image id="gamefreak-art-40324ee0486b" alt="ムゲン" %}
-
-■インフィ<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■インフィ<br>
 
 ディスプレイ内にいる人工知能メイド。<br>
 
@@ -62,6 +58,4 @@ CG処理のしがいがあるに違いない！」と勝手に判断して<br>
 
 手描きパートが無くて良かったです。<br>
 
-モチーフは勿論「∞（無限）」マークです。
-
-{% legacy_image id="gamefreak-art-ca2cd5068e58" alt="インフィ" %}
+モチーフは勿論「∞（無限）」マークです。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-ca2cd5068e58" alt="インフィ" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-ca2cd5068e58" %}</div></div>

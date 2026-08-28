@@ -24,50 +24,38 @@ status: source-extracted
 
 コメント：杉森建
 
-■ダモス<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■ダモス<br>
 
 もみあげと太眉で昔の人感を表現するというストレートな手法を用いています。<br>
 
-三日月模様のペンダントに意味はないのですが、「天文学者」という初期設定のなごりで天体に関心があるような雰囲気にしました。あと、モンスターボールにも見えるように。
+三日月模様のペンダントに意味はないのですが、「天文学者」という初期設定のなごりで天体に関心があるような雰囲気にしました。あと、モンスターボールにも見えるように。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-9ece7a72e892" alt="ダモス" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-9ece7a72e892" %}</div></div>
 
-{% legacy_image id="gamefreak-art-9ece7a72e892" alt="ダモス" %}
-
-■シーナ<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■シーナ<br>
 
 「遺跡の守り人」とは、巫女みたいなものかなと考えました。しかし、タイムスリップものなので、古代の人物とのギャップが必要と考え、あまりみこみこした古めかしい感じでなく気品のあるユニフォームのような衣装にしました。<br>
 
-ダモスの子孫としてのつながりはもちろん眉毛。あと瞳の色です。
+ダモスの子孫としてのつながりはもちろん眉毛。あと瞳の色です。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-4b11883a4191" alt="シーナ" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-4b11883a4191" %}</div></div>
 
-{% legacy_image id="gamefreak-art-4b11883a4191" alt="シーナ" %}
-
-■ギシン<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■ギシン<br>
 
 ダモスと対極なキャラにしたかったのでガッチリに対してやせ形。月に対して太陽、といった感じです。<br>
 
-体の布の巻き方は、描くのがとてもめんどくさいのですが雰囲気重視で入れました。
+体の布の巻き方は、描くのがとてもめんどくさいのですが雰囲気重視で入れました。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-36ed77e78a67" alt="ギシン" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-36ed77e78a67" %}</div></div>
 
-{% legacy_image id="gamefreak-art-36ed77e78a67" alt="ギシン" %}
-
-■ケビン<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■ケビン<br>
 
 これも現代パートのキャラなので、肉体派でなく細身で。<br>
 
-また遺跡に関わるような人は文系だろうという思いと文系なのに一生懸命シーナの護衛をやっているところからおぼっちゃまぽいイメージが思い浮かびました。
+また遺跡に関わるような人は文系だろうという思いと文系なのに一生懸命シーナの護衛をやっているところからおぼっちゃまぽいイメージが思い浮かびました。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-dc2115079b35" alt="ケビン" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-dc2115079b35" %}</div></div>
 
-{% legacy_image id="gamefreak-art-dc2115079b35" alt="ケビン" %}
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■タップ<br>
 
-■タップ<br>
+ダモスとギシンがシリアスな雰囲気になったのでなごみ系がいないと息が詰まるなー、と思いちょっとマンガチック成分多めなおじいさんにしました。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-575c5c06d07d" alt="タップ" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-575c5c06d07d" %}</div></div>
 
-ダモスとギシンがシリアスな雰囲気になったのでなごみ系がいないと息が詰まるなー、と思いちょっとマンガチック成分多めなおじいさんにしました。
-
-{% legacy_image id="gamefreak-art-575c5c06d07d" alt="タップ" %}
-
-■カンタ＆カコ<br>
+<div class="gf-legacy-art-entry"><div class="gf-legacy-art-entry__copy">■カンタ＆カコ<br>
 
 「夏休みに田舎で出会う現地の子供」がテーマです。<br>
 
-髪型を手持ちポケモンのイメージでまとめてみました。カコは最初描く予定がなく、「カンタの妹ならこんな感じ」というスケッチで、靴のディテールとかが無くて大ラフな絵になっています。
-
-{% legacy_image id="gamefreak-art-a18ee4ca2cc6" alt="カンタ＆カコ" %}
+髪型を手持ちポケモンのイメージでまとめてみました。カコは最初描く予定がなく、「カンタの妹ならこんな感じ」というスケッチで、靴のディテールとかが無くて大ラフな絵になっています。</div><div class="gf-legacy-art-entry__visual">{% legacy_image id="gamefreak-art-a18ee4ca2cc6" alt="カンタ＆カコ" %}{% legacy_zoom button="gamefreak-art-d53ef127972b" hover="gamefreak-art-d53ef127972b" target="gamefreak-art-a18ee4ca2cc6" %}</div></div>
 
 <br>

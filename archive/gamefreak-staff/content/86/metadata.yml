@@ -3,6 +3,19 @@ post_id: 86
 date: '2008-09-05'
 title: 採用：たくさんのご応募ありがとうございます！
 tags: []
+blog_categories:
+- ja: GF紹介
+  zh: GF介绍
+- ja: にっき
+  zh: 日记
+- ja: ポケモン
+  zh: 宝可梦
+- ja: 採用
+  zh: 招聘
+- ja: 更新のおしらせ
+  zh: 更新通知
+- ja: 未分類
+  zh: 未分类
 author:
   name_ja: ゲームフリークスタッフ
   name_zh: GAME FREAK 员工
@@ -27,4 +40,4 @@ assets:
 rights:
   archive_type: unofficial
   original_copyright: GAME FREAK inc.
-extracted_at: '2026-08-28T06:00:47+00:00'
+extracted_at: '2026-08-28T06:42:48+00:00'

@@ -10,6 +10,18 @@ art:
   expected_count: 5
   posts_per_page: 5
   header_image: /assets/images/gamefreak-legacy/art/shared/header.jpg
+  about_image: /assets/images/gamefreak-legacy/art/shared/profile.jpg
+  about_ja: |-
+    株式会社ゲームフリーク アートディレクター杉森建のアートワーク。
+    このブログに掲載されている全ての文章・画像・データなどは、当社に帰属致します。
+  about_zh: |-
+    GAME FREAK 股份有限公司艺术总监杉森建的艺术作品。
+    本博客刊载的文字、图片与数据等内容归本公司所有。
+  categories:
+    - ja: アートワーク
+      zh: 艺术作品
+    - ja: 設定画
+      zh: 设定图
 
 staff:
   slug: gamefreak-staff
@@ -23,3 +35,28 @@ staff:
   expected_count: 209
   posts_per_page: 10
   header_image: /assets/images/gamefreak-legacy/staff/shared/header.jpg
+  about_ja: |-
+    「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。
+    ちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を書いたり書かなかったりしていこうと思います。
+  about_zh: |-
+    《晴时偶有阴》是 GAME FREAK 员工记录工作与日常的随笔博客。
+    这里会时不时写下那些有点奇怪、却很有趣的公司生活。
+  about_credit: "工作人员头像照片：anakawho、lorelei。Thank you!"
+  about_credits:
+    - image: /assets/images/gamefreak-legacy/staff/shared/writer28-4ea1b9d3.jpg
+      label: "Photo by anakawho"
+    - image: /assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg
+      label: "Photo by lorelei"
+  categories:
+    - ja: GF紹介
+      zh: GF介绍
+    - ja: にっき
+      zh: 日记
+    - ja: ポケモン
+      zh: 宝可梦
+    - ja: 採用
+      zh: 招聘
+    - ja: 更新のおしらせ
+      zh: 更新通知
+    - ja: 未分類
+      zh: 未分类
