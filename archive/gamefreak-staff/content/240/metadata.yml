@@ -1,0 +1,90 @@
+article_id: gamefreak-staff-240
+post_id: 240
+date: '2012-01-20'
+title: 遅ればせながら……
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=240
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=240
+  raw_page: archive/gamefreak-staff/raw/posts/240.html
+assets:
+- id: gamefreak-staff-f48e11af2aef
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer44.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer44-f48e11af.gif
+  sha256: bbf90137445e807f99e627618e5fa779f3d5c9579c397a6984aee019effb3f4f
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130823044629id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer44.gif
+- id: gamefreak-staff-9070e2888ef2
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer46.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer46-9070e288.gif
+  sha256: 729b643fb7c65252f39dd55d0c01f75d337374b768708554dcb7f606ce1e29d2
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130823012147id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer46.gif
+- id: gamefreak-staff-4bdc1d7a2782
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer51.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer51-4bdc1d7a.jpg
+  sha256: c2abed1a04bf98182a716b74d2c667954023c49431102049a21e6ffaa67f054f
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130823005229id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer51.jpg
+- id: gamefreak-staff-8469c5b5573d
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer54.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer54-8469c5b5.gif
+  sha256: 8127c7bd06f629ab3cfb694bb4dafb6ebd202a98b1bf3be8931d422552ba77ac
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130822214454id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer54.gif
+- id: gamefreak-staff-11cb984c1ce5
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer55.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer55-11cb984c.jpg
+  sha256: de94707ff8ec8159c2ff7b25e7eb5a65173e4ed61ff4dd36041a3b9baed94731
+  width: 40
+  height: 40
+  wayback_url: https://web.archive.org/web/20130822215321id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer55.jpg
+- id: gamefreak-staff-eeafcfb15b21
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer56.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer56-eeafcfb1.jpg
+  sha256: 12652f0c75ec4b23aeb39712126af6817114fd72ab10a83e44d5e5eee670363a
+  width: 204
+  height: 204
+  wayback_url: https://web.archive.org/web/20130823044647id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer56.jpg
+- id: gamefreak-staff-80f88a0ad7ba
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer57.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/240/writer57-80f88a0a.gif
+  sha256: ca12bdd1ec12fee34040217c1be05c96581f371d35aa64802148ce681f0185d2
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130823005028id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer57.gif
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

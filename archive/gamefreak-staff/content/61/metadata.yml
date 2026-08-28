@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-61
+post_id: 61
+date: '2008-03-06'
+title: サウンド講習会
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=61
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=61
+  raw_page: archive/gamefreak-staff/raw/posts/61.html
+assets:
+- id: gamefreak-staff-66901a059243
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080309_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/61/kani_080309_01-66901a05.jpg
+  sha256: beed6a21b773430d4da717a1d7073094ac4c11fcb8f17789a99ccfcf8c93ddd9
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414085423id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080309_01.jpg
+- id: gamefreak-staff-82c4174d3f1e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080309_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/61/kani_080309_02-82c4174d.jpg
+  sha256: 559cc46d5e9b1b70b939c68665efa2e7a745bd51bcfff9aa943ba866787cdd29
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414142609id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080309_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

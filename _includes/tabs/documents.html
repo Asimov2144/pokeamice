@@ -1,5 +1,5 @@
 <div class="tab-list">
-  {% assign docs_posts = site.posts | where: "category", "文档" %}
+  {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
   {% for post in docs_posts limit:10 %}
   <div class="list__item">
     <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">

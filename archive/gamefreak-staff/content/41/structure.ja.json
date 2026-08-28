@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "採用担当のもりもとです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "２００８年度の新卒採用が終わったと思いきや、\n\nもう次の２００９年度新卒採用が始まってしまいました。\n\n２００９年度っていうと、再来年ですよ！！\n\n学生さんたちも早くから大変ですね。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "もちろん、我々も・・・。\n\n２００９年度の新卒採用では、ＧＦ初の企業説明会を行う予定！！\n\n今、その準備に向けていろいろと動いております。\n\n１１月にはオフィスの引っ越しもありまして・・・いやあ忙しい。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "その引っ越し先のオフィスは、現在、内装工事中ですが、\n\nとてもかっこいいオフィスになる予定です。\n\n新オフィスのテーマは「宇宙」。うひょー！ワクワクしますな。\n\n新卒のみなさんは、その新しいオフィスで働くことになりますので、ご期待下さい。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "[リクナビ２００９の採用ページはこちらから](http://rikunabi2009.yahoo.co.jp/bin/KDBG00100.cgi?KOKYAKU_ID=1509563001&MAGIC=)",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "これが引っ越し先のキャロットタワー。\n\nここの２２階がうちのオフィスになる予定です。\n\n{% legacy_image id=\"gamefreak-staff-ce8845bef8ec\" alt=\"キャロットタワー\" %}",
+      "images": [
+        "gamefreak-staff-ce8845bef8ec"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "実は引っ越し先のキャロットタワーは現在のオフィスの屋上からも見えるのです。\n\n{% legacy_image id=\"gamefreak-staff-a3dd4c021b21\" alt=\"遠くに見えるキャロットタワー\" %}",
+      "images": [
+        "gamefreak-staff-a3dd4c021b21"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは、総務部のボーダー丸です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-0d76264d86a7\" alt=\"ワイナリー1\" %}\n\nさて、ここはどこでしょう？\n\n答えは、山梨にある有名なワイナリー（ワイン用ぶどう畑）です。",
+      "images": [
+        "gamefreak-staff-0d76264d86a7"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "少し前の話になりますが、\n\n2月にぶどうの樹の剪定、そして4月には植樹の体験に行ってきました。\n\n{% legacy_image id=\"gamefreak-staff-de2300599e7f\" alt=\"ワイナリー2\" %}\n\nボーダー丸はここのワインがとても好きでして、\n\nそのワインになる樹に直接触れるという、スペシャルな企画に参加してきました！\n\n貴重な体験すぎて、大興奮で楽しんできたわけですが、\n\nこの時の話は長くなるので別の機会にするとして・・・。",
+      "images": [
+        "gamefreak-staff-de2300599e7f"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "本題は、この時の作業で持ち帰ることができた枝についてです。\n\n{% legacy_image id=\"gamefreak-staff-8f5f3d48d5b7\" alt=\"ワイナリー3\" %}\n\nこれ、わかりますか？\n\n左下にまとまって置いてあるのが剪定されて切り離された枝です。\n\n今回の剪定では、1本の樹に対し2本の枝だけを残し、\n\n残りは全て切り離されてしまったのです。\n\nちょっともったいない気持ちになりましたが、\n\nおいしいぶどうを作るには重要なこと！と農場長に教えてもらいました。",
+      "images": [
+        "gamefreak-staff-8f5f3d48d5b7"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "で、その“ただの枝”にしか見えないものたちを、\n\n将来ぶどうが生るのではないかという期待を僅かに抱きつつ、\n\n栽培してみることにしました。\n\n{% legacy_image id=\"gamefreak-staff-150c32d5a9e3\" alt=\"持ち帰った枝\" %}\n\n( ↑持ち帰った枝です)",
+      "images": [
+        "gamefreak-staff-150c32d5a9e3"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "それから1ヶ月ほどは全く変化もなく、\n\nやっぱり東京のマンションでは無理だよなぁ…と思っていたところ、\n\nなんと5月には枝から芽がではじめたのです。\n\n{% legacy_image id=\"gamefreak-staff-c0e6a5d60d7f\" alt=\"芽がではじめました！\" %}\n\nきれいな緑色した葉が、枝から破裂するように飛び出たような感じ。\n\nこの最初に芽をだしたぶどうの品種は甲州で、発芽後はもう大変です。\n\nものすごいスピードで成長するんですね。びっくりです！",
+      "images": [
+        "gamefreak-staff-c0e6a5d60d7f"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-c291e6b21397\" alt=\"どんどん成長します\" %}\n\n7日くらいでこんなにまで成長し・・・\n\nその後は、甲州以外にも次々に芽が吹きはじめ、\n\n6月には、メルロー、シャルドネ、カベルネ・ソーヴィニヨンetc、\n\n9本の枝が再生をはじめました！\n\n{% legacy_image id=\"gamefreak-staff-049401009270\" alt=\"鉢植え\" %}",
+      "images": [
+        "gamefreak-staff-c291e6b21397",
+        "gamefreak-staff-049401009270"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "ただの枝にしか見えなかったものが\n\n日々立派に成長していく姿を目の当たりにして、\n\n生命力を感じるとともに、どんなことも意志さえあれば\n\n可能性は存在するんだと勝手に感じたボーダー丸でした。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "いつかこのぶどうたちのワインが飲めるまで（？！）\n\nがんばって育てていきまーす！！\n\n{% legacy_image id=\"gamefreak-staff-5bddb3a634ec\" alt=\"ぶどうの葉とスカイツリー\" %}",
+      "images": [
+        "gamefreak-staff-5bddb3a634ec"
+      ]
+    }
+  ]
+}

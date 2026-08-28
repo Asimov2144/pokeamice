@@ -1,0 +1,70 @@
+article_id: gamefreak-staff-165
+post_id: 165
+date: '2010-01-22'
+title: それぞれの冬’10！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=165
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=165
+  raw_page: archive/gamefreak-staff/raw/posts/165.html
+assets:
+- id: gamefreak-staff-652d88b0431f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/165/writer06-652d88b0.jpg
+  sha256: 5691e0a76d19860f055c6fd365a44db841b43a6dd39cc819c1406ff03c93d28c
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130414103213id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer06.jpg
+- id: gamefreak-staff-747a58bef9aa
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_06.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/165/writer10_06-747a58be.gif
+  sha256: 79870976746ca789cc5ff8ff7066c93d0ef5363c698b93170899ce63bb2fcaf5
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130414205241id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer10_06.gif
+- id: gamefreak-staff-707010161046
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer12.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/165/writer12-70701016.jpg
+  sha256: 9812d5f46a07df3537aa099d63af8afa0c102ecc6b3d3bce7c7bd7e11cd61871
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130414083643id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer12.jpg
+- id: gamefreak-staff-c505828e65e1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer17.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/165/writer17-c505828e.jpg
+  sha256: 9bf8683f8f3672bf40750e3771ddbbe4539d23a36f0eb04b68314ba424b5aca1
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130414120719id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer17.jpg
+- id: gamefreak-staff-a55742a47d80
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer23.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/165/writer23-a55742a4.gif
+  sha256: 97446e5ef395aa15573ec6ea64b287b0ad3477c16ed583c30cca06b341b0273c
+  width: 50
+  height: 50
+  wayback_url: https://web.archive.org/web/20130414192535id_/http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer23.gif
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-226
+post_id: 226
+date: '2011-03-04'
+title: 「社員紹介」はじめました！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=226
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=226
+  raw_page: archive/gamefreak-staff/raw/posts/226.html
+assets:
+- id: gamefreak-staff-1081c750de02
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/03/sato110304_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/226/sato110304_01-1081c750.jpg
+  sha256: 3d2d137aabeec145d9a26bdbad146676c3c6fe73d252af9a7d7a2dc379d7f6f8
+  width: 314
+  height: 362
+  wayback_url: https://web.archive.org/web/20130414125957id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/03/sato110304_01.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

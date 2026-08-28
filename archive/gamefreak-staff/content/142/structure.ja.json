@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "『ポケットモンスター ハートゴールド・ソウルシルバー』\n\nディレクターのもりもとです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-3aedbd5fbe67\" alt=\"ポケウォーカーといっしょ\" %}",
+      "images": [
+        "gamefreak-staff-3aedbd5fbe67"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "いよいよ、明日９／１２（土）、\n\nハートゴールド・ソウルシルバーが発売となります！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "リメイクとは思えないくらい新要素盛りだくさんで、\n\nとってもお得なソフトとなっていますので、是非是非遊んで下さい！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "一度もポケモンを遊んだことのない人もこの機会に！\n\nポケモンは大人でも十分すぎるくらい楽しめるソフトですよ！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "もりもとも、新しいルールの対戦で勝ち続けるために、\n\nハートゴールド・ソウルシルバーでポケモンを育てたいと思います。\n\n楽しみ楽しみ。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "★おまけ★\n\n先日、任天堂ＨＰの『社長が訊く』というコーナーで\n\nハートゴールド・ソウルシルバーについて語ってきました！\n\n[http://touch-ds.jp/mfs/st112/interview1.html](http://touch-ds.jp/mfs/st112/interview1.html)",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "今後、このブログでもハートゴールド・ソウルシルバーの\n\nスタッフに登場してもらって、いろんな開発話を語ってもらう予定ですので、\n\nお楽しみに！",
+      "images": []
+    }
+  ]
+}

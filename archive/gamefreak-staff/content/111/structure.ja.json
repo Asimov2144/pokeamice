@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "Web担当のカニ子です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "1/1より募集していた年賀ドットコンテストの結果を本日発表しました！\n\n結果は[年賀ドットコンテスト発表ページ](http://www.gamefreak.co.jp/sp/2009dot/index.html)で見る事ができます。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-fd29bd20bd06\" alt=\"佳作：さちよさんの「モーモーミルク、飲む？」\" %}",
+      "images": [
+        "gamefreak-staff-fd29bd20bd06"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "今年もWeb開発チームによる選考と\n\n有志スタッフによる投票で賞を決めたのですが、\n\n力作揃いでどのドットを選ぶか悩まされました。\n\nどれもこれもすばらしい作品だったと思います。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "みなさま2009年も沢山のご応募ありがとうございました！",
+      "images": []
+    }
+  ]
+}

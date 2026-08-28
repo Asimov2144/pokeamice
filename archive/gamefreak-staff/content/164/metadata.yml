@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-164
+post_id: 164
+date: '2010-01-15'
+title: お雑煮
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=164
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=164
+  raw_page: archive/gamefreak-staff/raw/posts/164.html
+assets:
+- id: gamefreak-staff-bb24c15b282b
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/maa100115_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/164/maa100115_01-bb24c15b.jpg
+  sha256: 0c35740fad732625e4985c8ec3cc140763b8cbb8434b98e2a68340c4457c1b98
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414171903id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/maa100115_01.jpg
+- id: gamefreak-staff-1aefb2f452e2
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/maa100115_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/164/maa100115_02-1aefb2f4.jpg
+  sha256: 03c06ee1bd5a8b017d47050437e4710e1ceeafbea8a2a8eb15332a123b5b4797
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414180306id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/maa100115_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

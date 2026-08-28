@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-137
+post_id: 137
+date: '2009-07-31'
+title: 中途の新人から見たGF
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=137
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=137
+  raw_page: archive/gamefreak-staff/raw/posts/137.html
+assets:
+- id: gamefreak-staff-ec21bbf42bc7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/zidanu090731.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/137/zidanu090731-ec21bbf4.jpg
+  sha256: 13b771463bbd78e0ba84e6a4603dbf41ad78d928330c6bdd096f5dbfce8c0bdc
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414172547id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/zidanu090731.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

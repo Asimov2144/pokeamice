@@ -7,6 +7,9 @@ sidebar:
 ---
 
 {% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" %}
+{% assign gf_art_posts = gf_legacy_posts | where: "gf_legacy_blog", "art" %}
+{% assign gf_staff_posts = gf_legacy_posts | where: "gf_legacy_blog", "staff" %}
 {% assign interview_posts = site.posts | where_exp: "post", "post.categories contains '访谈翻译'" %}
 
 <section class="key-window-hub">
@@ -16,7 +19,15 @@ sidebar:
     <span>这里不是普通文章列表，而是给长期资料项目准备的入口。每个窗口可以汇总文章、来源、年月归档、分类、人物作品和工作流状态。</span>
   </header>
 
-  <div class="key-window-grid">
+  <section class="key-window-panel">
+    <header>
+      <div>
+        <p>Official Blog Archive</p>
+        <h3>Game Freak 三种博客</h3>
+      </div>
+      <a href="{{ '/search/' | relative_url }}?type=Game%20Freak%20%E5%8D%9A%E5%AE%A2">检索全部博客文章 →</a>
+    </header>
+    <div class="key-window-grid">
     <a class="key-window-card key-window-card--primary" href="{{ '/keys/gamefreak-director/' | relative_url }}">
       <span>Official Blog</span>
       <strong>Game Freak 部长专栏</strong>
@@ -24,6 +35,23 @@ sidebar:
       <p>还原“増田部長のめざめるパワー”的分类、年月归档和文章信息。</p>
     </a>
 
+    <a class="key-window-card" href="{{ '/gamefreak-art/' | relative_url }}">
+      <span>Official Art Blog</span>
+      <strong>杉森建的绘画日和</strong>
+      <em>{{ gf_art_posts | size }} 篇 · 原尺寸设定图</em>
+      <p>存档杉森建公开的电影角色设计稿、设计说明和 ZOOM 原图。</p>
+    </a>
+
+    <a class="key-window-card" href="{{ '/gamefreak-staff/' | relative_url }}">
+      <span>Staff Diary</span>
+      <strong>晴时偶有阴</strong>
+      <em>{{ gf_staff_posts | size }} 篇员工日志</em>
+      <p>汇总 GAME FREAK 员工关于开发、工作、招聘、活动和日常的记录。</p>
+    </a>
+    </div>
+  </section>
+
+  <div class="key-window-grid">
     <a class="key-window-card" href="{{ '/resource-graph/' | relative_url }}">
       <span>Guide</span>
       <strong>站内关系图谱</strong>
@@ -55,6 +83,14 @@ sidebar:
       <a href="{{ '/keys/gamefreak-director/' | relative_url }}">
         <strong>{{ gf_director_posts | size }}</strong>
         <span>部长专栏</span>
+      </a>
+      <a href="{{ '/gamefreak-art/' | relative_url }}">
+        <strong>{{ gf_art_posts | size }}</strong>
+        <span>杉森建绘画博客</span>
+      </a>
+      <a href="{{ '/gamefreak-staff/' | relative_url }}">
+        <strong>{{ gf_staff_posts | size }}</strong>
+        <span>员工博客</span>
       </a>
       <a href="{{ '/search/' | relative_url }}?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91">
         <strong>{{ interview_posts | size }}</strong>

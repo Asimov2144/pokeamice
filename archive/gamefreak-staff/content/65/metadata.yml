@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-65
+post_id: 65
+date: '2008-04-03'
+title: 杉森建のドット絵講座
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=65
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=65
+  raw_page: archive/gamefreak-staff/raw/posts/65.html
+assets:
+- id: gamefreak-staff-951b1ded45a4
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/enoki0804.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/65/enoki0804-951b1ded.jpg
+  sha256: 193175fe52b82002d20950829740bd481e948cd5cf2196d28e091f2f7c63d514
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414132636id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/enoki0804.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

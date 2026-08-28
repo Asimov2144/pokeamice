@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-101
+post_id: 101
+date: '2008-12-12'
+title: グラフィックデザイナー歴8ヶ月
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=101
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=101
+  raw_page: archive/gamefreak-staff/raw/posts/101.html
+assets:
+- id: gamefreak-staff-f38fffad8289
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/karashi081212.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/101/karashi081212-f38fffad.jpg
+  sha256: cf010eab8e813b37c1ea71630dc2a45c52d2ac63c18c37b05a75678532153d67
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414143251id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/karashi081212.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

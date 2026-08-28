@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-50
+post_id: 50
+date: '2007-12-27'
+title: 今年ももうすぐ終わりですね
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=50
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=50
+  raw_page: archive/gamefreak-staff/raw/posts/50.html
+assets:
+- id: gamefreak-staff-e00463df0444
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/50/tubassa_1227_01-e00463df.jpg
+  sha256: a6ad8c0a9c150fc009e5e7866dd7a2fa7c91af31af95a75b18f73deeb6f6652f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414194707id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_01.jpg
+- id: gamefreak-staff-b4c5fc3561df
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/50/tubassa_1227_02-b4c5fc35.jpg
+  sha256: 25f45c23c8f6d310915a8b6f32a6fa2a6c98c75da7299ad487e011e88b8c6820
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414155236id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_02.jpg
+- id: gamefreak-staff-dc2544a63b28
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/50/tubassa_1227_03-dc2544a6.jpg
+  sha256: 8c922ef7488b4316a5f4374d1854794ec75269d02762cc62b3e20cc02ed69b0f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414171956id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_03.jpg
+- id: gamefreak-staff-93b59b20f5b3
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/50/tubassa_1227_04-93b59b20.jpg
+  sha256: 4a3ac4f938ebef4d88b4b227a850581fdb0770405e23a4caf45169379c166123
+  width: 288
+  height: 352
+  wayback_url: https://web.archive.org/web/20130414165014id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/tubassa_1227_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

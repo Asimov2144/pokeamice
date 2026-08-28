@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-59
+post_id: 59
+date: '2008-02-21'
+title: 世田谷線のミニチュア
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=59
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=59
+  raw_page: archive/gamefreak-staff/raw/posts/59.html
+assets:
+- id: gamefreak-staff-d9aff6a4c119
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/tuya_0802_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/59/tuya_0802_01-d9aff6a4.jpg
+  sha256: 598d902c878161df61188ae8c46970df69bd590805bd0ce6cc1383735ffff923
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414142619id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/tuya_0802_01.jpg
+- id: gamefreak-staff-f0c2fa5b1eb7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/tuya_0802_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/59/tuya_0802_02-f0c2fa5b.jpg
+  sha256: 679631576c3e4cc076148b47430845f9f4fce4b7a8b220b68d2146303ea641e2
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414085604id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/tuya_0802_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

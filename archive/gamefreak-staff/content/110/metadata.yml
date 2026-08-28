@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-110
+post_id: 110
+date: '2009-01-30'
+title: 音楽をはじめたきっかけ
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=110
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=110
+  raw_page: archive/gamefreak-staff/raw/posts/110.html
+assets:
+- id: gamefreak-staff-63957be3cf54
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/kage090130_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/110/kage090130_02-63957be3.jpg
+  sha256: 60ab885164525f64e1e484d0b43638f4977fca37835c26de2f7b1634729962fb
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414120817id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/kage090130_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

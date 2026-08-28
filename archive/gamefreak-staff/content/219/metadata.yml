@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-219
+post_id: 219
+date: '2011-02-18'
+title: 社内ポケモンバトル大会 その後
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=219
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=219
+  raw_page: archive/gamefreak-staff/raw/posts/219.html
+assets:
+- id: gamefreak-staff-721d494944ab
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/219/110218_hihozu01-721d4949.jpg
+  sha256: a28f7b426b5fdaae2314e6bf8e4200ab54a74d2d7a404fb5af20e2ac6b4079ec
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414125808id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu01.jpg
+- id: gamefreak-staff-e243b5bb6e7e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/219/110218_hihozu02-e243b5bb.jpg
+  sha256: 0cb6582ce9378a73f6cf218e68ec2855f44fc8aac22e97cfc06f78314fd764a8
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414103559id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu02.jpg
+- id: gamefreak-staff-5b485e90505e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/219/110218_hihozu03-5b485e90.jpg
+  sha256: f3796e7e73efe443018b800775e1630ca5a27bafdfef6469514157c52d320414
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414084546id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110218_hihozu03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

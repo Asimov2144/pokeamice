@@ -1,0 +1,70 @@
+article_id: gamefreak-staff-39
+post_id: 39
+date: '2007-10-23'
+title: 秋のイベント♪
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=39
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=39
+  raw_page: archive/gamefreak-staff/raw/posts/39.html
+assets:
+- id: gamefreak-staff-b89d6b8448ab
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/39/johnny01_01-b89d6b84.jpg
+  sha256: e9aa10108871beb3d1f65c66d12b8d99e95a9c69b15dad27a9d5bfaf0033ed06
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130419092158id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_01.jpg
+- id: gamefreak-staff-20786023fa04
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/39/johnny01_02-20786023.jpg
+  sha256: df1c580dcacad47f603055a0f6521255b2472252531da90ff1d47cf4af2c3a89
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092159id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_02.jpg
+- id: gamefreak-staff-4b0a6f68b442
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/39/johnny01_03-4b0a6f68.jpg
+  sha256: f2d5a94259531ec2ac1c2f5056bdd89a42cf4f43c759abaf519c638b12e0fccb
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092200id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_03.jpg
+- id: gamefreak-staff-3a3a0c0af9a7
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/39/johnny01_04-3a3a0c0a.jpg
+  sha256: 4b9347af101cdc26018c98fafa8661e0ae2fda8153ca82d98e6fb0eeff0bd5f5
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092201id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_04.jpg
+- id: gamefreak-staff-9269fff8003b
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_05.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/39/johnny01_05-9269fff8.jpg
+  sha256: e0f8870e39215005035a7796e262e044af4a06e5ab226204550a4d73b8efe04a
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092200id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/10/johnny01_05.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

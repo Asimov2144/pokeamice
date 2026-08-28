@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-173
+post_id: 173
+date: '2010-03-12'
+title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=173
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=173
+  raw_page: archive/gamefreak-staff/raw/posts/173.html
+assets:
+- id: gamefreak-staff-4e54af2ebad5
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/03/penguin_100312.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/173/penguin_100312-4e54af2e.jpg
+  sha256: b6679d3ae381f4a1591ac4a860bac3050e0c243f464305bb27e0b3fa0fd1c946
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135315id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/03/penguin_100312.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

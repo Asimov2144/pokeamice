@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-111
+post_id: 111
+date: '2009-02-02'
+title: 年賀ドットコンテスト09、結果発表！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=111
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=111
+  raw_page: archive/gamefreak-staff/raw/posts/111.html
+assets:
+- id: gamefreak-staff-fd29bd20bd06
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/kani090202.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/111/kani090202-fd29bd20.jpg
+  sha256: 52195244a105758af72fc1e47edeb0098b47f0d77b5e32291d08fe570d3ff1a7
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135250id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/kani090202.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

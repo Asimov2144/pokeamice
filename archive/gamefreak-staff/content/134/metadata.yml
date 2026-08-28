@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-134
+post_id: 134
+date: '2009-07-10'
+title: アンケートにみるゲームフリーク社員
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=134
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=134
+  raw_page: archive/gamefreak-staff/raw/posts/134.html
+assets:
+- id: gamefreak-staff-1ffd956c6e7c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_01.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/134/nagi090710_01-1ffd956c.gif
+  sha256: 5e36be7ebba8c0a6ff6a8059d5b0212256380c02e52cbe301e6d3f340b92ebfe
+  width: 468
+  height: 415
+  wayback_url: https://web.archive.org/web/20130414205025id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_01.gif
+- id: gamefreak-staff-6861a9221f2a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_02.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/134/nagi090710_02-6861a922.gif
+  sha256: 1e045352bb5c4b80b649bfc351d5c725b6d034905d21f0abbf304023149574f4
+  width: 468
+  height: 415
+  wayback_url: https://web.archive.org/web/20130414152847id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_02.gif
+- id: gamefreak-staff-98cdcace4fd8
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_03.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/134/nagi090710_03-98cdcace.gif
+  sha256: c03049ebe0fdb633cb9074390cd95cf0d336fe7895eb3b7b9bc78f28dcbfe74f
+  width: 468
+  height: 298
+  wayback_url: https://web.archive.org/web/20130414161728id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/07/nagi090710_03.gif
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-44
+post_id: 44
+date: '2007-11-15'
+title: さよなら下北沢
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=44
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=44
+  raw_page: archive/gamefreak-staff/raw/posts/44.html
+assets:
+- id: gamefreak-staff-6c052f74a4d4
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/44/morim02_01-6c052f74.jpg
+  sha256: 62123c06fc12f4fa186f3695a605911f50c7476855542c54f467f3d10f4fbfd0
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130419092321id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_01.jpg
+- id: gamefreak-staff-2dbe069c86d3
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/44/morim02_02-2dbe069c.jpg
+  sha256: 0d699002ba0884396854b65b96e8e7a66ffcd396c1ba6bc1255bc673a811ccc8
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414200252id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_02.jpg
+- id: gamefreak-staff-071cb63b811f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/44/morim02_03-071cb63b.jpg
+  sha256: 04ffc1a665df6d351b858a76d81b894c4215f20a11818417785e36c4b1ba6727
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130419092320id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/morim02_03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

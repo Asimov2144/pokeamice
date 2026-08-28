@@ -1,0 +1,94 @@
+---
+layout: gamefreak-legacy-blog
+title: 睡眠の話
+date: '2011-08-05'
+permalink: /gamefreak-staff/entry-232/
+categories:
+- 官方博客
+- Game Freak
+- 数字存档
+tags:
+- Game Freak
+- GAME FREAK 员工
+archive_type: gamefreak_legacy_blog
+gf_legacy_blog: staff
+gf_legacy_post_id: 232
+gf_entry_title: 睡眠の話
+gf_original_title: 睡眠の話
+gf_translation_title: ''
+translation_available: false
+summary: はじめまして、グラフィックデザイナーのマッツンです。 暑くて寝苦しい日が続いていますが、皆さんは良質な睡眠を とっていますか？ というわけで、今日は睡眠の話をしたいと思います！
+translation_status: missing
+search: true
+source:
+  title: 晴れたり時々曇ったり · 睡眠の話
+  url: http://www.gamefreak.co.jp/blog/staff/?p=232
+  archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=232
+  source_type: official_blog_wayback
+---
+
+<div data-gf-language-panel="ja">
+はじめまして、グラフィックデザイナーのマッツンです。
+
+暑くて寝苦しい日が続いていますが、皆さんは良質な睡眠を
+
+とっていますか？
+
+というわけで、今日は睡眠の話をしたいと思います！
+
+先日、健康診断があり、普段はどちらかというと健康に無頓着な僕も
+
+このときばかりは体に気を遣っていました。
+
+それで色々と健康について調べてみたのですが、中でも特に興味が
+
+湧いたのが睡眠です。
+
+ご存知の方もいらっしゃると思いますが、睡眠は
+
+「どれだけ眠ったか」ではなく、「質の良い眠りをとったか」が重要です。
+
+良質な睡眠をとるためには、就寝2時間前に食事を済ませたり、
+
+リラックス効果のあるハーブティーを飲むなど、様々な方法がありますが、
+
+「一番手軽そう！」という理由で“ツボ押し”を試してみました。
+
+その中でも、これは！！と思ったツボがありましたので、2つ紹介します。
+
+まずひとつ目は「寝る前に押すツボ」。
+
+これは頭維（ずい）というツボで、人差し指か中指で頭の中心に
+
+向かうように左右両側をじんわり押します。
+
+**▼頭維**
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/232/110805_01-9349b753.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/232/110805_01-9349b753.jpg" alt="頭維" loading="lazy"></a></figure>
+
+寝る前以外にも、頭がボーっとしたり、物事に集中できないなどの
+
+症状にも効果があるそうです。
+
+もうひとつは「起きてから押す」ツボ。
+
+こちらは晴明（せいめい）というツボで、左右の目頭から
+
+人差し指一本分額に向かったところにあります。
+
+**▼晴明**
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/232/110805_02-b3ae878b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/232/110805_02-b3ae878b.jpg" alt="晴明" loading="lazy"></a></figure>
+
+「10秒押したら10秒離す」を5回ほど繰り返すと効果的らしいです。
+
+目元をスッキリさせ、視界を広げるのに効果的です。
+
+いずれも劇的！とは言えないまでも、僕にとってはそれなりに効果がありました。
+
+興味のある方は、一度試してみてはいかがでしょうか？
+
+良質の睡眠をとることができるようになり、ダルさやボーっとした感覚が抜けて、
+
+テキパキと仕事ができるようになったマッツンでした！
+</div>

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "Web担当のカニ子です。先週はみんなでお盆休みでした！\n\n恒例ゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。",
+      "images": []
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-d03ced8cc346\" alt=\"さとう\" %}\n\n地元に帰省してのんびり過ごしていました。\n\n毎日従兄弟の子供たちとゲームをしたり、星を眺めたり、花火をしたり…\n\nとっても楽しかったのですが、おかげでたくさん蚊にさされてちょっとつらいです。\n\n田舎の蚊は強かったです。\n\n（さとう）",
+      "images": [
+        "gamefreak-staff-d03ced8cc346"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-557f3455272c\" alt=\"ディア\" %}\n\nポケモンめいっぱいゲットだぜー！！\n\nということで\n\nポケモンフェスタにはじまって、映画を観たり\n\n帰省ついでにおひっこししたばかりのポケモンセンターナゴヤへ行きました。\n\nポケモンラッピングされた東京モノレールや ミュースカイ号も見ることができ\n\nスタンプラリーもセブンイレブンや名鉄、高速道路まで行っちゃって\n\nまさに「ポケモンの夏」一色でした！\n\n（ディア）",
+      "images": [
+        "gamefreak-staff-557f3455272c"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-9899debf1065\" alt=\"っゃっゃ\" %}\n\nずーーーーーーとしていなかった部屋の掃除をしたら\n\nホコリにやられ、ずーーーーーと鼻水と目のかゆみが\n\n止まらなくなり鼻水オリンピック記録を更新！助けて。\n\n（っやっや）",
+      "images": [
+        "gamefreak-staff-9899debf1065"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-28e2d3c0dbf3\" alt=\"マー\" %}\n\nシーカヤックを体験してきました。\n\n大海原を人力で進んでいく様にロマンを感じました！\n\n（マー）",
+      "images": [
+        "gamefreak-staff-28e2d3c0dbf3"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-d6ad55735aef\" alt=\"えるかつ\" %}\n\nご当地愛に溢れるえるかつは石川県に帰省していました。\n\n能登、七尾、金沢をドライブし、食事は不足していた海鮮分を摂取！\n\nやっぱり地元の魚介が一番です。\n\n実家から歩いて３分の所に湧き水が出ていてびっくりしました。\n\n水質調査も合格したそうで、冷たくて美味しい山の水を毎日飲んで過ごしましたよー！\n\n（えるかつ）",
+      "images": [
+        "gamefreak-staff-d6ad55735aef"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-af63cbbc578c\" alt=\"げいのう\" %}\n\nヒロさんご一家と栃木の山へサマーキャンプに行き、\n\n薫製作りに初挑戦しました。\n\n肉もいいけど、意外にハンペンの薫製がおいしくて驚きでした。\n\n（げいのう）",
+      "images": [
+        "gamefreak-staff-af63cbbc578c"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-58822b653fb3\" alt=\"ユッフィー\" %}\n\nインディプロレスを観に行きました。\n\n試合開始前はビヤガーデンになっていて、レスラーが料理を作って売ってました。\n\nさすがにしょっぱかったです。\n\nあと、またハムスターに子どもが生まれました。\n\n（ユッフィー）",
+      "images": [
+        "gamefreak-staff-58822b653fb3"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-470ddfd96dd9\" alt=\"なぎー\" %}\n\nオリンピックの時期に合わせて新しくTVを購入しました。\n\nなので夏休み後半は、自宅でゲーム三昧でした。\n\nオリンピックは見たのかって？　記憶にございません。\n\n（なぎー）",
+      "images": [
+        "gamefreak-staff-470ddfd96dd9"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-a55742a47d80\" alt=\"マシュー\" %}\n\nずっとしてみたかった「※人形のカスタマイズ」をしていました。\n\n（※髪や目の色や、表情等を自分好みに変えたりする事です。）\n\n久しぶりにおもいっきり工作出来て、とっても楽しかったです！\n\nカスタマイズ結果はというと…まだまだ完成まで先が長そうです；\n\n（マシュー）",
+      "images": [
+        "gamefreak-staff-a55742a47d80"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "帰省した人が多いですけど、\n\n混んでるのを避けて家にこもってた人もチラホラ。\n\nカニ子も夏バテていてあまり元気無かったので、\n\nこの夏はマンガ喫茶行ったりしかしていませんでした。\n\n涼しい所でずっとマンガ読めるとかさいこーです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "夏休みあんまり何もしてなかったので、\n\n会社に勤めてた事とか幻だったのかも…と思ってましたけど、\n\n普通に月曜日が来て安心したようながっかりしたような。\n\nでも、休み明けにみんなの元気な顔が見れて良かったです！",
+      "images": []
+    }
+  ]
+}

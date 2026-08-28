@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは！\n\nWeb担当のカニ子です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "本日より[ゲームフリークひみつきち](http://secretbase.gamefreak.co.jp/)の新ネタ[「モジヅラ」](http://secretbase.gamefreak.co.jp/mozi/)を公開しました！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-3dcbed99c201\" alt=\"モジヅラサンプル\" %}",
+      "images": [
+        "gamefreak-staff-3dcbed99c201"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "これは入力フォームに適当な文字を入れて送信すると、\n\n入力した文字が顔っぽく配置されるコンテンツです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "モジヅラの元ネタはゲーフリの休憩スペースに\n\nみんなが息抜きに書けるらくがき帳が置いてあって、\n\nそこで「へのへのもへじ」みたいな顔文字がブームになった時があったのです。\n\nこれ面白そうだし作ってみよう、というノリで公開に至りました。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "ベースになってるイラストは\n\nゲームフリークのグラフィックデザイナー達によるものです。\n\n文字とイラストの組み合わせも合わせてお楽しみ下さい！",
+      "images": []
+    }
+  ]
+}

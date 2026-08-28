@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-184
+post_id: 184
+date: '2010-05-28'
+title: とうきょうのしゃかいじん
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=184
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=184
+  raw_page: archive/gamefreak-staff/raw/posts/184.html
+assets:
+- id: gamefreak-staff-a74532877dee
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/05/wamo100528.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/184/wamo100528-a7453287.jpg
+  sha256: 5763f73b4b4c7c877bc187639d61ad78da852a1cb4c045273f077185cd5e1676
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414094215id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/05/wamo100528.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-144
+post_id: 144
+date: '2009-09-18'
+title: みんなで行こう！工場見学
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=144
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=144
+  raw_page: archive/gamefreak-staff/raw/posts/144.html
+assets:
+- id: gamefreak-staff-452b83632576
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/144/iwashi0918_01-452b8363.jpg
+  sha256: 66c0ea3a71910972343f0847c0c463d533cd6d3571f3938db85b5b1c164fd3cf
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414200941id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_01.jpg
+- id: gamefreak-staff-7be1af144673
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/144/iwashi0918_02-7be1af14.jpg
+  sha256: 232453ab12be87ba0e64c384cf962dfdba6724653cc907ee0183b8373a477e61
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414144403id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_02.jpg
+- id: gamefreak-staff-a9f56c0113e6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/144/iwashi0918_03-a9f56c01.jpg
+  sha256: 0e3ac4580715b08f254dac59ecf8e270a579eb99b67220861b2a5fb5b78aef2d
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414164956id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_03.jpg
+- id: gamefreak-staff-7006cc4807cd
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/144/iwashi0918_04-7006cc48.jpg
+  sha256: 5dac91c44c4e30ec0e59c47ea02185b64d69e8afc11bade404e53263b2550369
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414171916id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/iwashi0918_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

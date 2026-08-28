@@ -1,0 +1,140 @@
+article_id: gamefreak-art-7
+post_id: 7
+date: '2009-08-03'
+title: 「アルセウス 超克の時空へ」デザイン画
+tags: []
+author:
+  name_ja: 杉森 建
+  name_zh: 杉森建
+series:
+  name_ja: 杉森建のお絵かき日和
+  name_zh: 杉森建的绘画日和
+source:
+  url: http://www.gamefreak.co.jp/blog/art/?p=7
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=7
+  raw_page: archive/gamefreak-art/raw/index.html
+assets:
+- id: gamefreak-art-9ece7a72e892
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/damos.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s01.jpg
+  local_path: archive/gamefreak-art/assets/original/7/damos-9ece7a72.jpg
+  sha256: 35418b88b99ab26acac55b4f497a4e3e024103693cef8954dbdcbe23b2aa896d
+  width: 452
+  height: 618
+  wayback_url: https://web.archive.org/web/20130917173354id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/damos.jpg
+- id: gamefreak-art-36ed77e78a67
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/gisin.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s03.jpg
+  local_path: archive/gamefreak-art/assets/original/7/gisin-36ed77e7.jpg
+  sha256: d9da54b8491498e18f5e4c606fab4f33ae1a9270bcb054433250d38d2de1b403
+  width: 431
+  height: 587
+  wayback_url: https://web.archive.org/web/20130916065004id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/gisin.jpg
+- id: gamefreak-art-a18ee4ca2cc6
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kanta.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s06.jpg
+  local_path: archive/gamefreak-art/assets/original/7/kanta-a18ee4ca.jpg
+  sha256: 185ee33be6b30820aca0a4bae0346d24a29fff021fb3177c0cd9c8277d51719c
+  width: 520
+  height: 570
+  wayback_url: https://web.archive.org/web/20130917200106id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kanta.jpg
+- id: gamefreak-art-dc2115079b35
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kebin.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s04.jpg
+  local_path: archive/gamefreak-art/assets/original/7/kebin-dc211507.jpg
+  sha256: d0d509f65770dbaca181564d574a73010e8f12c4f5390ebae8f8fd097e647872
+  width: 620
+  height: 596
+  wayback_url: https://web.archive.org/web/20110711173020id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kebin.jpg
+- id: gamefreak-art-8cb3785a7a53
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s01.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/damos.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s01-8cb3785a.jpg
+  sha256: cc92dc04403d1b8e9a271c7abd48b902f9201a6f3a2316a730ff57402b421ca0
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822203317id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s01.jpg
+- id: gamefreak-art-3d92d31ca72d
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s02.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/si_na.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s02-3d92d31c.jpg
+  sha256: cba48eba9bcf5f9f354b10f3c8d2c850aeebb872117b74e088c6844661a3fc52
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822194040id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s02.jpg
+- id: gamefreak-art-6b4147f681f9
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s03.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/gisin.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s03-6b4147f6.jpg
+  sha256: eee80a7bae19ea885cb59be3327bf937df57b2b4615b1e2ddd35c625cf71cda4
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822184851id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s03.jpg
+- id: gamefreak-art-47f49c03387e
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s04.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kebin.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s04-47f49c03.jpg
+  sha256: eed6bd977e49d090d01a79dab4bdfd0994a147e6b963f3f395ac89527d552de2
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822203329id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s04.jpg
+- id: gamefreak-art-b671b9f0e181
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s05.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/tap.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s05-b671b9f0.jpg
+  sha256: af0a5c1d23afa0cb6e357b25f75167f75bd8df58dc809932c1199eefdbfddf55
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822193511id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s05.jpg
+- id: gamefreak-art-732ac40bafff
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s06.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/kanta.jpg
+  local_path: archive/gamefreak-art/assets/original/7/s06-732ac40b.jpg
+  sha256: c7e99d8ebc4d148f179ae432381e5455d4cdb64b890e2c9328c618fe9834ac81
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822164638id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s06.jpg
+- id: gamefreak-art-4b11883a4191
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/si_na.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s02.jpg
+  local_path: archive/gamefreak-art/assets/original/7/si_na-4b11883a.jpg
+  sha256: 5fb86cfd05fbd6660400e3789a4397231fd1d42ae795cf2daabeef0c56c26ec2
+  width: 513
+  height: 585
+  wayback_url: https://web.archive.org/web/20130917164913id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/si_na.jpg
+- id: gamefreak-art-575c5c06d07d
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/tap.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/s05.jpg
+  local_path: archive/gamefreak-art/assets/original/7/tap-575c5c06.jpg
+  sha256: 493d8d83b3a954db767de6da6b8903ab63888ff627ae25e0a403abe30704cb31
+  width: 535
+  height: 547
+  wayback_url: https://web.archive.org/web/20130915185408id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0908/tap.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:09:32+00:00'

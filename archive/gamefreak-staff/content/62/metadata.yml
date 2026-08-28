@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-62
+post_id: 62
+date: '2008-03-14'
+title: ケーキ祭り
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=62
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=62
+  raw_page: archive/gamefreak-staff/raw/posts/62.html
+assets:
+- id: gamefreak-staff-5d0b5c2c0b71
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080314_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/62/kani_080314_02-5d0b5c2c.jpg
+  sha256: 6ed257dc1d31325de17b6b7a3698ca1df71310df06bb6fd6bdf2caf3937c3551
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414132529id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080314_02.jpg
+- id: gamefreak-staff-71fde094256f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080314_05.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/62/kani_080314_05-71fde094.jpg
+  sha256: 57fae4bfebb597ab2d5a5c391c6cd680fae825c523e0124c25d64b571a8e1254
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414143042id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/03/kani_080314_05.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

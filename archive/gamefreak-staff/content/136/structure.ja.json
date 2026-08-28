@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは！\n\nWeb開発のカニ子です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "先日日食が起こっていたらしいです。\n\n私の席は窓に背を向けているので気が付かなかったのですが、\n\nゲームフリークのスタッフは見たのか？\n\nというのを聞いてまわってみました。",
+      "images": []
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-652d88b0431f\" alt=\"ラッペン\" %}\n\n楽しみにしていて、日食グラスを２コも用意していたのに、見逃しました…。\n\nしかも曇り空だから諦めて仕事をしていたら、\n\n会社でも一瞬見えたと聞いて日食ショックはさらに倍増。\n\n次の機会は2035年ということなので頑張りたいです！（ラッペン）",
+      "images": [
+        "gamefreak-staff-652d88b0431f"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-ea404dfa203c\" alt=\"ほず\" %}\n\n皆既日食と言っても「少し曇った時」くらいの\n\n暗さかと思っていたのですが、\n\nテレビを見てびっくりしました。\n\n・・・ま、真っ暗じゃないですか！\n\n日食を見ながら、月見うどんが食べたかったです。（ほず）",
+      "images": [
+        "gamefreak-staff-ea404dfa203c"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-c591faa12582\" alt=\"デコ\" %}\n\n忘れてました。次の２６年後はちゃんと見ます！（デコ）",
+      "images": [
+        "gamefreak-staff-c591faa12582"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-58822b653fb3\" alt=\"ユッフィー\" %}\n\n体調をくずして会社を休み、家で爆睡していました！\n\n日食は気付いたら終わっていて、\n\nキャベツと煮込んだ袋ラーメンを食べつつ、\n\n芸能人の語る日食をテレビで見てました。\n\nサボってたわけじゃないよ！\n\nみなさんも体調の変化（エアコンとか）には注意！（ユッフィー）",
+      "images": [
+        "gamefreak-staff-58822b653fb3"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-b99a7f7698a5\" alt=\"ボーダー丸\" %}\n\n世界の日食を夜テレビで観ました。\n\nもし近い将来、太陽の存在が消えてしまったら、\n\n地球人はどうなってしまうのだろうか…。\n\nそんな普段思わないことを考えながら、\n\n自分が自分の力だけで生きているのでは\n\nないということを感じた日でした。\n\nでも、未来に誰かが太陽も作ってしまうかも！？\n\n（ボーダー丸）",
+      "images": [
+        "gamefreak-staff-b99a7f7698a5"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-9899debf1065\" alt=\"っやっや\" %}\n\n日食の日、生憎のくもり空なので、見れないと信じきっていました。\n\nお茶を買いにキャロットタワー下に降りたら…",
+      "images": [
+        "gamefreak-staff-9899debf1065"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "写真のような人々が…\n\n{% legacy_image id=\"gamefreak-staff-9b96ef00f2c3\" alt=\"集まる人々\" %}\n\nなんの騒ぎだろう？\n\n{% legacy_image id=\"gamefreak-staff-352f00659e22\" alt=\"空を見上げる人々\" %}\n\nきっと、お台場の等身大ガンダムが三茶に歩いて来たに違いない！\n\nと思いきや、空を見上げたら三日月の様な影が雲に映し出されていました。",
+      "images": [
+        "gamefreak-staff-9b96ef00f2c3",
+        "gamefreak-staff-352f00659e22"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "『おぉ、日食！』思わず声をあげました。",
+      "images": []
+    },
+    {
+      "type": "div",
+      "markdown": "生憎、携帯電話のカメラしかなく撮影を試みたのですが…\n\n{% legacy_image id=\"gamefreak-staff-998fe40904b5\" alt=\"日食\" %}\n\n光ってしまって三日月に見えません…",
+      "images": [
+        "gamefreak-staff-998fe40904b5"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "肉眼ではどんな風に太陽が見えたのか\n\n日食を甘食で表現してみました。",
+      "images": []
+    },
+    {
+      "type": "div",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-232183d5cddf\" alt=\"普段の甘食\" %}\n\n普段の甘食\n\n↓\n\n{% legacy_image id=\"gamefreak-staff-682c15488427\" alt=\"日食の甘食\" %}\n\n日食の甘食",
+      "images": [
+        "gamefreak-staff-232183d5cddf",
+        "gamefreak-staff-682c15488427"
+      ]
+    },
+    {
+      "type": "div",
+      "markdown": "２６年後には、ちゃんとしたカメラで日食の方を撮りたいです。\n\n（っやっや）",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "それでは、次のゲームフリーク日食レポートは\n\n26年後という事でまたお会いしましょう。",
+      "images": []
+    }
+  ]
+}

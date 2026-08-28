@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは！\n\nファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。\n\n皆さんとは約１年ぶりの再会になりますね?。\n\nお元気でしたか？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "僕は相も変わらずファミコンコレクションを続けているわけですが、",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-e543f4fc698d\" alt=\"ファミコンコレクション\" %}",
+      "images": [
+        "gamefreak-staff-e543f4fc698d"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "これだけ長い間集めていると、いつの間にか『自分もファミコンソフトを作りたい』\n\nという欲望がメラメラと沸いてきます。ですが・・・\n\nご存知の方もいると思いますが、ファミリーコンピュータはすでに生産終了となっています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "そこで、叶わぬ夢を少しでも実現させたい思いと、ファミコンを愛するあまりに、\n\n自作でオリジナルのラベルを作っては、コレクション棚に飾る日々を送っています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-ce759883c547\" alt=\"自作オリジナルラベル\" %}\n\n{% legacy_image id=\"gamefreak-staff-2386bb87e27f\" alt=\"自作オリジナルラベル\" %}",
+      "images": [
+        "gamefreak-staff-ce759883c547",
+        "gamefreak-staff-2386bb87e27f"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "自分で言うのなんですが、かなりパチもの臭いですね?。\n\nそこがいいんですけどね。\n\n残念ながらネタ的にみなさんにお見せできるのはこの２本しかなかったので、\n\n急遽スタッフボイス用に作ってきました。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-17ef3d031961\" alt=\"ファミコンコレクター\" %}",
+      "images": [
+        "gamefreak-staff-17ef3d031961"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "まぁこれもなんともコメントしづらい微妙なネタですが。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "自分で作ったソフトを自分で集めて楽しむ。\n\nこれぞ究極のコレクションじゃないでしょうか！\n\nそれではまた?",
+      "images": []
+    }
+  ]
+}

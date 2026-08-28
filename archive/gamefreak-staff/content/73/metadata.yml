@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-73
+post_id: 73
+date: '2008-06-06'
+title: つゆやきそば
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=73
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=73
+  raw_page: archive/gamefreak-staff/raw/posts/73.html
+assets:
+- id: gamefreak-staff-cea7d9dc4991
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/gmen080606.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/73/gmen080606-cea7d9dc.jpg
+  sha256: 112bb544ec9f38e8651ab80a83d1151e348c7a0f3ff57899479378fbb66d17e5
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414174824id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/gmen080606.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

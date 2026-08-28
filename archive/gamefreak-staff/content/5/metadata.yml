@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-5
+post_id: 5
+date: '2007-08-07'
+title: 夏の暑さにどりるれろ
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=5
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=5
+  raw_page: archive/gamefreak-staff/raw/posts/5.html
+assets:
+- id: gamefreak-staff-8d121bcd0c4a
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/imo01-17-55-27.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/5/imo01-17-55-27-8d121bcd.jpg
+  sha256: 1fddb4dd22d35fc5dc717b3d15ffa5a8b3c86b41d9fd22bc318727a8243e9f24
+  width: 518
+  height: 388
+  wayback_url: https://web.archive.org/web/20111111112711id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/imo01-17-55-27.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

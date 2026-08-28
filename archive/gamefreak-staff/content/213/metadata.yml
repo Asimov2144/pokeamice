@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-213
+post_id: 213
+date: '2010-12-24'
+title: ゲームフリーク忘年会2010
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=213
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=213
+  raw_page: archive/gamefreak-staff/raw/posts/213.html
+assets:
+- id: gamefreak-staff-ddd5953694af
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/ari101224_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/213/ari101224_01-ddd59536.jpg
+  sha256: 0db7f3ec8174fecaf05f269f85c138f82a6d6fb94274955626b1e951a4433236
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414171452id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/ari101224_01.jpg
+- id: gamefreak-staff-366e07638da7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/ari101224_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/213/ari101224_02-366e0763.jpg
+  sha256: a5a854b7f4f59404911294d7b88b6b683ccefaee41cac0ec0127153c3a5b5428
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414175351id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/ari101224_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

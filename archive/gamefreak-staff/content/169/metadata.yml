@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-169
+post_id: 169
+date: '2010-02-12'
+title: わたしたちの就職活動1 「元気になりたいとき」
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=169
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=169
+  raw_page: archive/gamefreak-staff/raw/posts/169.html
+assets:
+- id: gamefreak-staff-ebb980b86490
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/02/hozu100212.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/169/hozu100212-ebb980b8.jpg
+  sha256: 3bf8c25a6e0b987f10c333a487fd47f8f33d4c05946c397681f369652362cffa
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414143241id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/02/hozu100212.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

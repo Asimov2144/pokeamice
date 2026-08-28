@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-140
+post_id: 140
+date: '2009-08-28'
+title: しゃちの夏、日本の夏
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=140
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=140
+  raw_page: archive/gamefreak-staff/raw/posts/140.html
+assets:
+- id: gamefreak-staff-abe0615f81f6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/08/syachi090828.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/140/syachi090828-abe0615f.jpg
+  sha256: 3f92f1f7c7a70ef260e1cb133c68107c43506621da1d6de2f76c2a48f77b54cc
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414162731id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/08/syachi090828.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

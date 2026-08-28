@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-43
+post_id: 43
+date: '2007-11-13'
+title: ファミコンショップGF
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=43
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=43
+  raw_page: archive/gamefreak-staff/raw/posts/43.html
+assets:
+- id: gamefreak-staff-c78c362534a6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/43/onisan_01_01-c78c3625.jpg
+  sha256: 1221073ed522b720027d1d2434caae8a90e647389e6480099f5cf9479a148caf
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092155id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_01.jpg
+- id: gamefreak-staff-2694529e1bc6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/43/onisan_01_02-2694529e.jpg
+  sha256: 4f097cd7f1406393e6222671dcff89eecbdfc3929ca0a13964d1028cb8adfbc2
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092155id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_02.jpg
+- id: gamefreak-staff-df543f7358f0
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_03s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/43/onisan_01_03s-df543f73.jpg
+  sha256: 8223fff52f9db9f2979042140ee6dd810d2835483926bd807f6f3925a1483a67
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092155id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_03s.jpg
+- id: gamefreak-staff-7eff9e9ed0eb
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_04s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/43/onisan_01_04s-7eff9e9e.jpg
+  sha256: e28cc9273db962b6d9404d4372556fb3439b17d4a7ba45b7d9885ce34548be12
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092156id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/onisan_01_04s.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

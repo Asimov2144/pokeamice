@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-71
+post_id: 71
+date: '2008-05-23'
+title: 22階の恐怖
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=71
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=71
+  raw_page: archive/gamefreak-staff/raw/posts/71.html
+assets:
+- id: gamefreak-staff-8a49bcaea8a3
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080522_last.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/71/stick080522_last-8a49bcae.jpg
+  sha256: 31683a78be8acd453e8d9abc918b666845ce18e14c53560e972b59e95fcf7895
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414142924id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080522_last.jpg
+- id: gamefreak-staff-bb60591dee07
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080523_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/71/stick080523_01-bb60591d.jpg
+  sha256: 29cc14b6ac61f13a33c06f19aa0390451b2cf5146ee8a502973c0adae874cdaf
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414125242id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080523_01.jpg
+- id: gamefreak-staff-0d366cc70ab2
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080523_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/71/stick080523_02-0d366cc7.jpg
+  sha256: 082d629c0c5c27a5fd936847e1599a1cb56cfdb1d79b80a864236273be077c8f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414102950id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/stick080523_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-237
+post_id: 237
+date: '2011-11-04'
+title: 朝食ノススメ
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=237
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=237
+  raw_page: archive/gamefreak-staff/raw/posts/237.html
+assets:
+- id: gamefreak-staff-598c7d03dca6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/11/y_111104.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/237/y_111104-598c7d03.jpg
+  sha256: 19f6c01fb07823386555af33618931e9b037f57998395059438e53e1cedd4d06
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130822224439id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/11/y_111104.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

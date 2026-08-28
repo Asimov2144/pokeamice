@@ -1,0 +1,80 @@
+article_id: gamefreak-art-6
+post_id: 6
+date: '2008-08-01'
+title: 「ギラティナと氷空の花束 シェイミ」デザイン画
+tags: []
+author:
+  name_ja: 杉森 建
+  name_zh: 杉森建
+series:
+  name_ja: 杉森建のお絵かき日和
+  name_zh: 杉森建的绘画日和
+source:
+  url: http://www.gamefreak.co.jp/blog/art/?p=6
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=6
+  raw_page: archive/gamefreak-art/raw/index.html
+assets:
+- id: gamefreak-art-ca2cd5068e58
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/infi.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_03.jpg
+  local_path: archive/gamefreak-art/assets/original/6/infi-ca2cd506.jpg
+  sha256: f2f465a3a34a9ba9216757f5a61cf6473f81ff1b5cdf14a70e88e82198c4cf83
+  width: 448
+  height: 595
+  wayback_url: https://web.archive.org/web/20130917024557id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/infi.jpg
+- id: gamefreak-art-40324ee0486b
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/mugen.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_01.jpg
+  local_path: archive/gamefreak-art/assets/original/6/mugen-40324ee0.jpg
+  sha256: cac645d66d2e38a7fbf3aea2bb952ffb0bcce9fd16a6f8f7bad9aeb66fb222f3
+  width: 448
+  height: 595
+  wayback_url: https://web.archive.org/web/20130916193855id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/mugen.jpg
+- id: gamefreak-art-ef796ccfeecd
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_01.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/mugen.jpg
+  local_path: archive/gamefreak-art/assets/original/6/s08_01-ef796ccf.jpg
+  sha256: 6afb07ee496c6928c6766e9e691ed3832d3add3a4eea1d82d765f41b000faaf4
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822172004id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_01.jpg
+- id: gamefreak-art-0dc23b70a039
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_02.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/zero.jpg
+  local_path: archive/gamefreak-art/assets/original/6/s08_02-0dc23b70.jpg
+  sha256: 04b295c05ac14094407c34ee19f1d27f3f7ce523bb097ae2a45decf37ae982cc
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822185533id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_02.jpg
+- id: gamefreak-art-579fb90c3e33
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_03.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/infi.jpg
+  local_path: archive/gamefreak-art/assets/original/6/s08_03-579fb90c.jpg
+  sha256: bf88290f4267c15f4d632b62e8b0cf9231103ee6a805365db86cfd2da73fed9c
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822203134id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_03.jpg
+- id: gamefreak-art-d24e1152cffd
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/zero.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/s08_02.jpg
+  local_path: archive/gamefreak-art/assets/original/6/zero-d24e1152.jpg
+  sha256: 39e74af906a403ce9a5a0cf854ee32617883a4f4acabd99e284aaeb1ad7efd39
+  width: 448
+  height: 595
+  wayback_url: https://web.archive.org/web/20130916124440id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/0808/zero.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:09:32+00:00'

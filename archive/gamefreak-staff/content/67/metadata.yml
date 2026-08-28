@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-67
+post_id: 67
+date: '2008-04-18'
+title: いしかわけん！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=67
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=67
+  raw_page: archive/gamefreak-staff/raw/posts/67.html
+assets:
+- id: gamefreak-staff-86e430048226
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/lkatu080418.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/67/lkatu080418-86e43004.jpg
+  sha256: f130e2becd6a8f401f74ab7ca913688cbd2e146509e7630cadd15bda1f132691
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414121439id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/lkatu080418.jpg
+- id: gamefreak-staff-7eb68a9b4016
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/lkatu080418_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/67/lkatu080418_02-7eb68a9b.jpg
+  sha256: 791f81ebfcbed770f2950f497a80c9e60149dd90b1fb068c9d93b9f3e9fdd7e6
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135727id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/lkatu080418_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

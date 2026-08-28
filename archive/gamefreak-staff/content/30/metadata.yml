@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-30
+post_id: 30
+date: '2007-09-21'
+title: 謎のロッカー
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=30
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=30
+  raw_page: archive/gamefreak-staff/raw/posts/30.html
+assets:
+- id: gamefreak-staff-e9ed3a1f46e2
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/30/dosoku01-e9ed3a1f.jpg
+  sha256: 9401cbcd5e3089644d8216ff3b20e54b09c62de75d58edd58bdfab8e5a85be2c
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092236id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku01.jpg
+- id: gamefreak-staff-f1a37c030f07
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/30/dosoku02-f1a37c03.jpg
+  sha256: d74b7a767c9c987bb0f41c0fa78d4651292b585fdb2f82fd313c1c2cdf513c00
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092236id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku02.jpg
+- id: gamefreak-staff-93a643d4f6a7
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/30/dosoku03-93a643d4.jpg
+  sha256: b0b4bb139d0d79076301b3a3366efab02218949879b81ed49e6ed32104c41ed6
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092238id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/09/dosoku03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

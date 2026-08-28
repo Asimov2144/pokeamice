@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-232
+post_id: 232
+date: '2011-08-05'
+title: 睡眠の話
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=232
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=232
+  raw_page: archive/gamefreak-staff/raw/posts/232.html
+assets:
+- id: gamefreak-staff-9349b753d102
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/08/110805_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/232/110805_01-9349b753.jpg
+  sha256: c86014f0c9aa962c370224a247bcad3e14ef442102b1d44aba00107ed461f0d6
+  width: 158
+  height: 158
+  wayback_url: https://web.archive.org/web/20130414094108id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/08/110805_01.jpg
+- id: gamefreak-staff-b3ae878b6036
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/08/110805_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/232/110805_02-b3ae878b.jpg
+  sha256: a3a5f463a8bee291ec01500b89e187338b231529ba1e388037bdc57d1e01972b
+  width: 158
+  height: 158
+  wayback_url: https://web.archive.org/web/20130414133540id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/08/110805_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

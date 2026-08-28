@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-87
+post_id: 87
+date: '2008-09-12'
+title: ポケットモンスター プラチナ明日発売です！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=87
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=87
+  raw_page: archive/gamefreak-staff/raw/posts/87.html
+assets:
+- id: gamefreak-staff-f2ab94ce3345
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/09/kawa080912.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/87/kawa080912-f2ab94ce.jpg
+  sha256: d172d6a512a10e0a5c65e9473844b0913afedcd9a411377c55276ebcfa00cbc1
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414205013id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/09/kawa080912.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-243
+post_id: 243
+date: '2012-06-29'
+title: 発売！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=243
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=243
+  raw_page: archive/gamefreak-staff/raw/posts/243.html
+assets:
+- id: gamefreak-staff-67fab9b7a41a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y00.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/243/y00-67fab9b7.jpg
+  sha256: cc30f96211476e12fa773c572c9bb4c5763bf6b65e1a8242c350895b15eeb5a6
+  width: 340
+  height: 153
+  wayback_url: https://web.archive.org/web/20130822213936id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y00.jpg
+- id: gamefreak-staff-f01ff1eaa5bd
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/243/y01-f01ff1ea.jpg
+  sha256: 7f1fbec87237f2fd236612531bc28eecce19edff2446ba5c5bca033f10c69441
+  width: 254
+  height: 340
+  wayback_url: https://web.archive.org/web/20130822231512id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y01.jpg
+- id: gamefreak-staff-9d0fb8ae67b1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/243/y02-9d0fb8ae.jpg
+  sha256: 489abfb8f64406460f1bbadbf3936c8b10911c14d6bb640143a2f612629cbb26
+  width: 340
+  height: 250
+  wayback_url: https://web.archive.org/web/20130822233545id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2012/06/y02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

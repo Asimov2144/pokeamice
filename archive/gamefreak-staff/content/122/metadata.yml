@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-122
+post_id: 122
+date: '2009-04-17'
+title: ゲームフリークの先輩たち
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=122
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=122
+  raw_page: archive/gamefreak-staff/raw/posts/122.html
+assets:
+- id: gamefreak-staff-56ac8d570e2d
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/04/hozu090417.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/122/hozu090417-56ac8d57.jpg
+  sha256: 588c1affaf2dab0e517dd6e7b3de7843fdf07634c8385917bdb673f14c96e966
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414132112id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/04/hozu090417.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-74
+post_id: 74
+date: '2008-06-11'
+title: 採用：２次募集の日程が決まりました！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=74
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=74
+  raw_page: archive/gamefreak-staff/raw/posts/74.html
+assets:
+- id: gamefreak-staff-5b4b408c378f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/morimoto080609_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/74/morimoto080609_01-5b4b408c.jpg
+  sha256: 8a013a9484c3bdffa721cd4c9d372561c5ad80482153422091431b6d2c428c94
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414102432id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/morimoto080609_01.jpg
+- id: gamefreak-staff-085df29c8035
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/morimoto080609_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/74/morimoto080609_02-085df29c.jpg
+  sha256: 22b4b9e7171595af59e7609f74aff467c6e5149581d3833d7877c3fd794756af
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414124038id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/06/morimoto080609_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

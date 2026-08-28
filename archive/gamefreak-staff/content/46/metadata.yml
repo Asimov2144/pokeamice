@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-46
+post_id: 46
+date: '2007-11-22'
+title: しばしの旅気分
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=46
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=46
+  raw_page: archive/gamefreak-staff/raw/posts/46.html
+assets:
+- id: gamefreak-staff-111d4e092389
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/kani1121_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/46/kani1121_01-111d4e09.jpg
+  sha256: 64621797b42812551dd0bc05460d1584de089e33717a06110fb2a9ac75604a94
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414200055id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/kani1121_01.jpg
+- id: gamefreak-staff-8492fe1af9e1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/kani1121_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/46/kani1121_02-8492fe1a.jpg
+  sha256: 3b6885549426e70341331208ad525aabee4fbf4eeea7ebe7d1dbb1887dcb84a3
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414160818id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/11/kani1121_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

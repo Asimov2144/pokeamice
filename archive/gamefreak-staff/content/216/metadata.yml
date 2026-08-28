@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-216
+post_id: 216
+date: '2011-01-24'
+title: プログラミングの楽しみ
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=216
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=216
+  raw_page: archive/gamefreak-staff/raw/posts/216.html
+assets:
+- id: gamefreak-staff-6ae9e39062d4
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/01/110121_masa.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/216/110121_masa-6ae9e390.jpg
+  sha256: 7b05fb06a4a42e7e15c42ae73c3a1754c76dd9e8dd38e54506bf122b9b5a205d
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414202928id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/01/110121_masa.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

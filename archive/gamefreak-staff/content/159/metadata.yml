@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-159
+post_id: 159
+date: '2009-12-11'
+title: 金沢カレー
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=159
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=159
+  raw_page: archive/gamefreak-staff/raw/posts/159.html
+assets:
+- id: gamefreak-staff-015b269c042a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/eru091211.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/159/eru091211-015b269c.jpg
+  sha256: adabab5d9520e7f9d3b66116c0f8b024b47e4df774bcc328fe43b71a0a1439eb
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414103005id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/eru091211.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

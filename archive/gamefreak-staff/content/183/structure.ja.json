@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "お久しぶりです。電線です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "暑くなったり、寒くなったり大変です。皆さん風邪などひいていませんか？\n\nこんな陽気ですが、植物達は元気よく花を咲かせてくれています。\n\n梅、菜の花、桜、チューリップ、つつじの季節が過ぎ、\n\n都内は今、薔薇の季節です。\n\nキャロットタワーのご近所さんの軒先でも薔薇が咲いていますよ。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "今年はどの花も力強く、長く咲いていたような気がしませんか？\n\n私の感じたことですが、桜は、儚げというよりは、力強く咲いていました。\n\n暖かさにせっつかれたり、寒さに引き止められたりしながら、\n\n強い花を作り上げたのでしょうか。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-accb51b7cccd\" alt=\"シロツメクサ\" %}",
+      "images": [
+        "gamefreak-staff-accb51b7cccd"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "つつじの花もとても色鮮やかで、形もしっかりとしています。\n\n葉っぱに埋もれながらも、まだ粘り強く咲き残っています。\n\n早咲きのものはもう終わりのようですが、遅咲きのつつじは\n\n今日明日が見頃でしょうか。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-19ef93acf65c\" alt=\"つつじ\" %}",
+      "images": [
+        "gamefreak-staff-19ef93acf65c"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "そして薔薇。\n\nあちこちの庭で綺麗な花を咲かせています。東京圏に在住の方で\n\nご覧になってない方は、薔薇の名所に足を運ばれてはいかがでしょうか？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-417fe564288d\" alt=\"薔薇\" %}",
+      "images": [
+        "gamefreak-staff-417fe564288d"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "今は紫陽花の蕾が大きくなってきているところです。\n\nところどころ、咲き始めてもいます。これから、梅雨の季節になると思います。\n\n雨が続くと、オフィスの窓から富士山の陰も見えず、少し憂鬱です。\n\nせめて道端の紫陽花でも眺めながらやりすごすことにしたいと思います。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-5c21e148c09f\" alt=\"紫陽花\" %}",
+      "images": [
+        "gamefreak-staff-5c21e148c09f"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "それではまた。",
+      "images": []
+    }
+  ]
+}

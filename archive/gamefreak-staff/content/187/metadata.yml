@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-187
+post_id: 187
+date: '2010-06-18'
+title: この電車が凄い！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=187
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=187
+  raw_page: archive/gamefreak-staff/raw/posts/187.html
+assets:
+- id: gamefreak-staff-1a4c3bd22e92
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/06/hiito100618_1.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/187/hiito100618_1-1a4c3bd2.gif
+  sha256: ccd15152ab3d1f796fed359abbd14ad71e82f7176d279404a3d003eec645f6a3
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414172351id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/06/hiito100618_1.gif
+- id: gamefreak-staff-a0680740f578
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/06/hiito100618_2.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/187/hiito100618_2-a0680740.jpg
+  sha256: 8525d302560e546d2a28f9adcf9bac0f9e3e3915addc85c84a559a6b2800ad22
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414144220id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/06/hiito100618_2.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

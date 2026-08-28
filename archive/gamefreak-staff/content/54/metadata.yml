@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-54
+post_id: 54
+date: '2008-01-25'
+title: すきー。
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=54
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=54
+  raw_page: archive/gamefreak-staff/raw/posts/54.html
+assets:
+- id: gamefreak-staff-2864c0ee95ef
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/54/senbei_0125_01-2864c0ee.jpg
+  sha256: e5305104dd3c7ebe6e83b824b711e1d88899da2c3d2ebfcda3983249f5e22922
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414195023id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_01.jpg
+- id: gamefreak-staff-954d7fbe5e79
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/54/senbei_0125_02-954d7fbe.jpg
+  sha256: 9e1264cbbb4ae60329146c76562a9d1d59dab842ae49d680bbde2e9c790d7250
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414155542id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_02.jpg
+- id: gamefreak-staff-699d348982b6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/54/senbei_0125_03-699d3489.jpg
+  sha256: bc2f337f9367cb70865a4f82042c6602c1184cbe691a2fa0dc9f14585520e04e
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414171820id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_03.jpg
+- id: gamefreak-staff-f49eaf8e0f43
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/54/senbei_0125_04-f49eaf8e.jpg
+  sha256: 09f7a852df7d4250f10eac918f2e5d6af1e990a62ac140c3b12bac3f249cd06d
+  width: 464
+  height: 262
+  wayback_url: https://web.archive.org/web/20130414165313id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/senbei_0125_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

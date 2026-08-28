@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-207
+post_id: 207
+date: '2010-11-12'
+title: 「ポケットモンスターブラック・ホワイト」のつくりかた 7
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=207
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=207
+  raw_page: archive/gamefreak-staff/raw/posts/207.html
+assets:
+- id: gamefreak-staff-bde32c5b1b7c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/207/bw101112-bde32c5b.jpg
+  sha256: 7da9218bfcbe940f6d7487d254f2ae294ddeec095f132ddd2fe04569f22c0837
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414121505id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112.jpg
+- id: gamefreak-staff-6d512d70be0a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/207/bw101112_01-6d512d70.jpg
+  sha256: d526228d3ee1376d197b0130793a1024120192e9019626ab6a269d8983c6d291
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414091533id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112_01.jpg
+- id: gamefreak-staff-28a0c9c16449
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/207/bw101112_02-28a0c9c1.jpg
+  sha256: 24e1c9086edee8421a2149d69c6430c81d131028d3670ec2aeef644b30891e23
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414132341id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/11/bw101112_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

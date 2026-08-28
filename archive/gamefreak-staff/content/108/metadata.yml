@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-108
+post_id: 108
+date: '2009-01-16'
+title: 究極のコレクション
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=108
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=108
+  raw_page: archive/gamefreak-staff/raw/posts/108.html
+assets:
+- id: gamefreak-staff-17ef3d031961
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami090116.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/108/fami090116-17ef3d03.jpg
+  sha256: f9e163db6986fa63f67830721b9229849e0110e7466c942cb3a7e9f48ab852b3
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135303id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami090116.jpg
+- id: gamefreak-staff-e543f4fc698d
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/108/fami_02-e543f4fc.jpg
+  sha256: d835008dd2b7daf6b06d5a3b4cc06de9714a7719dbc99a6f76251889c106bc4e
+  width: 320
+  height: 240
+  wayback_url: https://web.archive.org/web/20130414131730id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_02.jpg
+- id: gamefreak-staff-ce759883c547
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/108/fami_03-ce759883.jpg
+  sha256: 387c8c7eec3c61ef23eeee95280b5c96a834ee0b79a13f3da393a03c54da6b7f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414124015id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_03.jpg
+- id: gamefreak-staff-2386bb87e27f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/108/fami_04-2386bb87.jpg
+  sha256: 53eea2abbeb93fdc98fc887d57f7930b6038f250cd91d6a169f6c32d7e0883dd
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414124919id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/01/fami_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

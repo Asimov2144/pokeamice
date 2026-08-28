@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-116
+post_id: 116
+date: '2009-03-06'
+title: こねこね土いじり
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=116
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=116
+  raw_page: archive/gamefreak-staff/raw/posts/116.html
+assets:
+- id: gamefreak-staff-e9c6b26c466e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/deco090306.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/116/deco090306-e9c6b26c.jpg
+  sha256: b2f3e385500ea791819e249856a77a0de4a4fb0a2cc178251429ab24f9914c59
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414124005id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/deco090306.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

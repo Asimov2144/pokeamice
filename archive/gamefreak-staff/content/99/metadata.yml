@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-99
+post_id: 99
+date: '2008-12-01'
+title: ポケモンプラチナバトル大会開催
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=99
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=99
+  raw_page: archive/gamefreak-staff/raw/posts/99.html
+assets:
+- id: gamefreak-staff-daead84bd037
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwa081201_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/99/iwa081201_01-daead84b.jpg
+  sha256: 508d435baae14f9b87c40ac0d099ec298e8ddb5932e07bf87ed03d84cd558f6a
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414200540id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwa081201_01.jpg
+- id: gamefreak-staff-8534bdb48e1c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwa081201_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/99/iwa081201_02-8534bdb4.jpg
+  sha256: 7f349a929b73bef1c820215a52a91bc146fd5b8bd7d0863260eb38325662b60f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414143936id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwa081201_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

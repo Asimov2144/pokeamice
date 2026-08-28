@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-120
+post_id: 120
+date: '2009-04-03'
+title: 10年前の自分に伝えたい事 パート２
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=120
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=120
+  raw_page: archive/gamefreak-staff/raw/posts/120.html
+assets:
+- id: gamefreak-staff-04d6c8003d13
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/04/onisan090403.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/120/onisan090403-04d6c800.jpg
+  sha256: 56100ea1379938f9a5e68091cf688b77f2270670c1f675b139375ff6979bb791
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414100450id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/04/onisan090403.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

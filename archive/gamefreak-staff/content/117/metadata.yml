@@ -1,0 +1,70 @@
+article_id: gamefreak-staff-117
+post_id: 117
+date: '2009-03-13'
+title: ボードゲーム会
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=117
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=117
+  raw_page: archive/gamefreak-staff/raw/posts/117.html
+assets:
+- id: gamefreak-staff-e606a770cd0c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/117/nagi090313_01-e606a770.jpg
+  sha256: 5a2940773b04ef3ba8dc19c9d02f3d5b766a6ae5e45fbe5b293769f52d8b27dd
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414083434id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_01.jpg
+- id: gamefreak-staff-55b786d798ff
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/117/nagi090313_02-55b786d7.jpg
+  sha256: 3e0706641b5dde4e29f4f4b272551ce1de5255c6aadeac08de29c4550542be2d
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135858id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_02.jpg
+- id: gamefreak-staff-a8b5445c5143
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/117/nagi090313_03-a8b5445c.jpg
+  sha256: 9fa5a25b60f02eedb43eca497f982b39a73b5a24f6845365422e92b4e62ede52
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414131657id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_03.jpg
+- id: gamefreak-staff-b34e48523f6c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/117/nagi090313_04-b34e4852.jpg
+  sha256: 6945f45fd71dadab55de33c02b670072eba7ae0a10b3c0c339dbb7956e52d118
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414120555id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_04.jpg
+- id: gamefreak-staff-348b197e8a07
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_05.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/117/nagi090313_05-348b197e.jpg
+  sha256: 83eec810ea0c79aa6c1e4f1f2e933c9651f089e58162fa6b9b7f3631ea593a10
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414133555id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/nagi090313_05.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

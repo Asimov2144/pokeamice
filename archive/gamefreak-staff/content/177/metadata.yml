@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-177
+post_id: 177
+date: '2010-04-09'
+title: 春！社会人10年生です
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=177
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=177
+  raw_page: archive/gamefreak-staff/raw/posts/177.html
+assets:
+- id: gamefreak-staff-d7a3ec9b8a13
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/04/kani100409.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/177/kani100409-d7a3ec9b.jpg
+  sha256: 7abec440873732323c8e48ff3e596e1e206e918aa69f8efdf9dedb3e25ec788b
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414180239id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/04/kani100409.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

@@ -1,0 +1,190 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+
+  "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="ja">
+
+
+<head>
+
+<title>晴れたり時々曇ったり</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="WordPress 3.4.2">
+
+<link rel="stylesheet" href="http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/style.css" type="text/css" media="screen">
+<link rel="alternate" type="application/rss+xml" title="晴れたり時々曇ったり RSS Feed" href="http://www.gamefreak.co.jp/blog/staff/?feed=rss2">
+<link rel="pingback" href="http://www.gamefreak.co.jp/blog/staff/xmlrpc.php">
+
+<script src="/common/as.js" type="text/javascript"></script>
+<script type="text/javascript" src="/common/window.js" ></script>
+
+</head>
+
+
+
+<body>
+
+	<div id="container">
+
+		<div id="logo">晴れたり時々曇ったり</div>
+
+		<ul id="nav">
+
+			<li class="current_page_item"><a href="http://www.gamefreak.co.jp/blog/staff">Home</a></li><li class="page_item page-item-2"><a href="http://www.gamefreak.co.jp/blog/staff/?page_id=2">About</a></li>
+<li class="page_item page-item-245"><a href="http://www.gamefreak.co.jp/blog/staff/?page_id=245">過去ログいちらん</a></li>
+
+		</ul>
+
+		<div class="clear"></div>
+
+	</div>
+
+	<div class="spacer"></div>
+
+	<div class="content">
+
+	
+				<div class="post">
+			<div class="left">
+				<h5>01</h5>
+				<b>10月</b></br>
+				<b>2010</b>
+			</div>
+			<div class="right">
+				<h2><a href="http://www.gamefreak.co.jp/blog/staff/?p=201">「ポケットモンスターブラック・ホワイト」のつくりかた　1</a></h2>
+				<p>こんにちは、Web担当のにょろリカです。<br />
+早いものでもう10月、<br />
+「ポケットモンスターブラック・ホワイト」発売から12日が経ちました。<br />
+みなさんはジムバッジを何個ゲットしましたか？<br />
+私は先週、8個目のバッジをゲットし、そのままクリアまでこぎつけました！</p>
+<p>さて、今回から9週に渡って、「ポケットモンスターブラック・ホワイト」の<br />
+開発に携わったスタッフへのインタビューを掲載していきたいと思います。<br />
+第1回目の今日は、プログラマーの「ともやん」から<br />
+プログラミングにまつわるアレコレを聞き出してみました！</p>
+<p>&#8212;&#8211;<br />
+<strong><em>―それでは、まずはじめに自己紹介をお願いします。</em></strong></p>
+<p>こんにちは、プログラマーのともやんです。<br />
+「ポケットモンスターブラック･ホワイト」では、フィールドの開発を担当しました。<br />
+フィールド開発の中でも、主に「レール移動」という部分と、<br />
+ホワイトフォレスト、ブラックシティ、フィールドの表現…例えば<br />
+ライティングやアニメーションのプログラミングをしました。</p>
+<p><strong><em>―「レール移動」というのは、エンドロールのスタッフリストにある<br />
+　「レールシステムプログラム」のことですよね？<br />
+　これってゲームのどの部分なのでしょう？</em></strong></p>
+<p>「レール移動」は、スカイアローブリッジやヒウンシティ、チャンピオンロードの<br />
+ような「まっすぐじゃない道」のことです。十字キーの上ボタンを押しているだけで、<br />
+視点がぐるっと回転する道。<br />
+「レール」というだけあって、一方向のボタンを押しているだけで、電車がレールに<br />
+乗って走るような動きをします。タワーオブヘブンも「レール移動」ですね。</p>
+<p><em><strong>―十字キーの上ボタンを押しているのに主人公が斜め上向きに動くので、<br />
+最初はびっくりしました！<br />
+自分がどう操作をしているのか分からなくなってしまい、主人公が<br />
+あっちこっちに行ってしまったり(笑)。すぐに慣れましたが。<br />
+今回、ともやんはいくつか担当していますが、特に思い出深かったところは<br />
+どこでしょうか？</strong></em></p>
+<p>やっぱり「レール移動」ですね。<br />
+今までなかった動きじゃないですか。<br />
+今までは「前ボタン」を押すと前にしか進まない。<br />
+それまでのポケモンでは、ゲームの中で「前」へ進む＝「奥」に進む<br />
+ことだったのに、「回転する」という動きが入るので、ユーザーの方は<br />
+最初のうちはちょっと戸惑うかもしれませんよね。<br />
+それで、「グリッド移動」と「レール移動」の区切りが分からないように<br />
+滑らかに動かすにはどうしたらいいんだろう？というところを<br />
+ずっと考えていました。<br />
+グリッドとレールをキレイに繋げて、ユーザーの方の操作感が<br />
+変わらないように作るにはどうしたらいいかな？って。</p>
+<p>ちなみに、「グリッド移動」というのは、ゲームのマップ全体を一定サイズの<br />
+マス目で区切って、それを一歩にカウントするやり方です。<br />
+チェスを想像してもらうと分かりやすいかも。<br />
+「グリッド移動」は上下左右の4方向しかありません。<br />
+それに対して、「レール移動」は回転するので、色々な動きが実現できる。<br />
+斜め上に進むとか。</p>
+<p>全体に関わる部分では、一番苦労したのは「処理落ち」です。<br />
+処理落ちというのは簡単にいうと、本来あるべき速度での動きや表示が<br />
+できなくなってしまう状態です。<br />
+今回は、街を歩いているときに主人公の動きがスローモーションになって<br />
+しまうという現象が発生して、それが開発終了近くまで解消できなかったんです。<br />
+プログラム的な話しになるけど、そのときは、表示の制限をかけたり、<br />
+データのサイズを落としてみたり、表示の方式を変えたり、細かいところを<br />
+たくさん微調整して解消しました。</p>
+<p><em><strong>―今はとても滑らかに動いていますよね。<br />
+　「グリッド」と「レール」も、「主人公の動き方が違うぞ！？」とは思いましたが、<br />
+　つなぎ目が不自然とかはまったく感じませんでした。<br />
+　「ポケットモンスターブラック・ホワイト」をリリースした今、ともやんの<br />
+　「次なる野望！！」みたいなものがあれば、ぜひ聞かせて欲しいのですが。</strong></em></p>
+<p>今後は、「自分のゲーム」を作りたいですね。企画から自分が立てて、<br />
+プログラムを組んで。<br />
+僕は自然が大好きなので、そのあたりを取り入れたソフトを作りたいなーと<br />
+思っています。<br />
+企画も考えていますよ。詳しいことはまだ言えませんが(笑)。</p>
+<p><em><strong>―プログラマーが企画するゲームがどんなものになるのかが気になります！<br />
+　最後になりますが、「ポケットモンスターブラック・ホワイト」で、ともやんが<br />
+　「ココに注目して欲しい！」と思うところを教えてください。</strong></em></p>
+<p>「ポケットモンスターブラック・ホワイト」は色々な視点から街を見ることが<br />
+できるようになったので、今までと違う視点から見た景色を楽しんでください。<br />
+それが「レール移動」です！(笑)</p>
+<p><img src="http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/10/bw101001.jpg" /></p>
+<p>以上、ともやんでした！<br />
+&#8212;&#8211;</p>
+<p>いかがでしたでしょうか。<br />
+今後もプランナーやグラフィックデザイナーへインタビューをしていきますので、<br />
+どうぞお楽しみに！</p>
+<br>			</div>
+			<div class="clear"></div>
+		</div>
+		
+<div class="alignleft">&laquo; <a href="http://www.gamefreak.co.jp/blog/staff/?p=200" rel="prev">プログラマー積極採用中！</a></div>
+<div class="alignright"> <a href="http://www.gamefreak.co.jp/blog/staff/?p=202" rel="next">「ポケットモンスターブラック・ホワイト」のつくりかた　2</a> &raquo;</div>
+
+	
+﻿	</div>
+
+	<div class="spacer"></div>
+
+	<div class="sidebar">
+
+		<div id="fleft">
+
+ <h3>リンク</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.gamefreak.co.jp/">ゲームフリーク</a></li>
+<li><a href="http://www.gamefreak.co.jp/blog/art/">杉森健のお絵かき日和</a></li>
+<li><a href="http://www.gamefreak.co.jp/blog/dir/">増田部長のめざめるパワー</a></li>
+
+	</ul>
+
+<h3>カテゴリー</h3>		<ul>
+	<li class="cat-item cat-item-5"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=5" title="GF紹介 に含まれる投稿をすべて表示">GF紹介</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=4" title="にっき に含まれる投稿をすべて表示">にっき</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=6" title="ポケモン に含まれる投稿をすべて表示">ポケモン</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=7" title="採用 に含まれる投稿をすべて表示">採用</a>
+</li>
+	<li class="cat-item cat-item-3"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=3" title="更新のおしらせ に含まれる投稿をすべて表示">更新のおしらせ</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://www.gamefreak.co.jp/blog/staff/?cat=1" title="未分類 に含まれる投稿をすべて表示">未分類</a>
+</li>
+		</ul>
+
+		</div>
+
+		<div id="fright">
+
+			 <h3>ブログ内検索</h3><form role="search" method="get" id="searchform" action="http://www.gamefreak.co.jp/blog/staff/" >
+	<div><label class="screen-reader-text" for="s">検索:</label>
+	<input type="text" value="" name="s" id="s" />
+	<input type="submit" id="searchsubmit" value="検索" />
+	</div>
+	</form><h3>おしらせとか</h3>		<ul>
+			<li class="page_item page-item-2"><a href="http://www.gamefreak.co.jp/blog/staff/?page_id=2">About</a></li>
+<li class="page_item page-item-245"><a href="http://www.gamefreak.co.jp/blog/staff/?page_id=245">過去ログいちらん</a></li>
+		</ul>
+		
+		</div>
+
+		<div class="clear"></div>
+
+	</div>﻿	<div class="spacer"></div>	<div class="content">		<div id="centerit">			Copyright &copy; 2013 <a href="http://www.gamefreak.co.jp/blog/staff/" title="晴れたり時々曇ったり" ><strong>晴れたり時々曇ったり</strong></a><br />		Proudly powered by <a href="http://wordpress.org">WordPress</a>, <strong><a href="http://www.themelab.com" title="Theme Lab">Free WordPress Themes</a></strong>		</div>	</div></body></html>

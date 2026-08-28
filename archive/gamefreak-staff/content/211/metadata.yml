@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-211
+post_id: 211
+date: '2010-12-10'
+title: 12月！メリーなんとか2010
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=211
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=211
+  raw_page: archive/gamefreak-staff/raw/posts/211.html
+assets:
+- id: gamefreak-staff-37cad847e1a4
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/kani101210_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/211/kani101210_01-37cad847.jpg
+  sha256: a05e2126979affd84e374e51ddcffb1ad3d334beed958481309927c4c0beb190
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414144233id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/kani101210_01.jpg
+- id: gamefreak-staff-5932ecf3849e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/kani101210_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/211/kani101210_02-5932ecf3.jpg
+  sha256: 1880632a2128bbbddacec5fb7740db44f6d96c744d377f3e161584d54b41e13c
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414201305id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/kani101210_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

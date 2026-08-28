@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-235
+post_id: 235
+date: '2011-09-30'
+title: モチベーションアップの秘訣
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=235
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=235
+  raw_page: archive/gamefreak-staff/raw/posts/235.html
+assets:
+- id: gamefreak-staff-0edf525f1477
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/09/pen01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/235/pen01-0edf525f.jpg
+  sha256: 3a9c71473ffd19ffc50ec6ca361d967dca500437824aba7c1cf33accf78cc08e
+  width: 314
+  height: 235
+  wayback_url: https://web.archive.org/web/20130822210901id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/09/pen01.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-90
+post_id: 90
+date: '2008-10-03'
+title: プラチナここだけの話 その２
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=90
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=90
+  raw_page: archive/gamefreak-staff/raw/posts/90.html
+assets:
+- id: gamefreak-staff-ecfe4970e0d1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/10/tetsuzi081003.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/90/tetsuzi081003-ecfe4970.jpg
+  sha256: f30b10f4cd5e584a3223a89e0a7228d4fa4aab3041db8d0d06ef01ea54bca862
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414145929id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/10/tetsuzi081003.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

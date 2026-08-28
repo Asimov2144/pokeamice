@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-24
+post_id: 24
+date: '2007-09-06'
+title: ゲームフリークの名刺
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=24
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=24
+  raw_page: archive/gamefreak-staff/raw/posts/24.html
+assets:
+- id: gamefreak-staff-e1919b8aa798
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/09/meisi01_s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/24/meisi01_s-e1919b8a.jpg
+  sha256: c4878bab9c5b79d9fb042a827cb01e2eff459a84d0abfd2cb8b19cb0a440c745
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092237id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/09/meisi01_s.jpg
+- id: gamefreak-staff-579ec37b1326
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/09/meisi02_s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/24/meisi02_s-579ec37b.jpg
+  sha256: 8a8d7165e7c306d631d843176782cc6cd2748ff69dae210c392605b6835d22f4
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092238id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/09/meisi02_s.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

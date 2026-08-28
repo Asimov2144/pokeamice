@@ -1,0 +1,25 @@
+art:
+  slug: gamefreak-art
+  title: 杉森建のお絵かき日和
+  title_zh: 杉森建的绘画日和
+  author: 杉森 建
+  author_zh: 杉森建
+  description: 杉森建公开宝可梦电影角色设定稿与设计说明的官方历史博客。
+  source_url: http://www.gamefreak.co.jp/blog/art/
+  archive_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/
+  expected_count: 5
+  posts_per_page: 5
+  header_image: /assets/images/gamefreak-legacy/art/shared/header.jpg
+
+staff:
+  slug: gamefreak-staff
+  title: 晴れたり時々曇ったり
+  title_zh: 晴时偶有阴
+  author: ゲームフリークスタッフ
+  author_zh: GAME FREAK 员工
+  description: GAME FREAK 员工轮流记录开发、工作、活动与日常生活的官方历史博客。
+  source_url: http://www.gamefreak.co.jp/blog/staff/
+  archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/
+  expected_count: 209
+  posts_per_page: 10
+  header_image: /assets/images/gamefreak-legacy/staff/shared/header.jpg

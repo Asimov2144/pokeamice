@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-115
+post_id: 115
+date: '2009-02-27'
+title: まぼろしの緑ナンバー
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=115
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=115
+  raw_page: archive/gamefreak-staff/raw/posts/115.html
+assets:
+- id: gamefreak-staff-4258a5bff5e0
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/yufu090227_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/115/yufu090227_01-4258a5bf.jpg
+  sha256: 254b795a25cccb156c35a6eaf8d030e591b1ac939be6f9c519bc2f3eaa85787d
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414083116id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/yufu090227_01.jpg
+- id: gamefreak-staff-715d29863bd6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/yufu090227_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/115/yufu090227_02-715d2986.jpg
+  sha256: 36559c70c0f67213e3ff846b0acc8c9bcb08c94afd211c420d875cc9535f5c41
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135409id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/yufu090227_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

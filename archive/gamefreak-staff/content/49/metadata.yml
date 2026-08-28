@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-49
+post_id: 49
+date: '2007-12-20'
+title: しゃちのアクアリウム日記
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=49
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=49
+  raw_page: archive/gamefreak-staff/raw/posts/49.html
+assets:
+- id: gamefreak-staff-9bb503a61306
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/shachi_1220_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/49/shachi_1220_01-9bb503a6.jpg
+  sha256: f3670bf874b296b8e7dda5eb039362251f6e2c05d47f02c8cac2821aef913312
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414153322id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/shachi_1220_01.jpg
+- id: gamefreak-staff-8d6d4cbbd637
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/shachi_1220_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/49/shachi_1220_02-8d6d4cbb.jpg
+  sha256: 05f08e466fb6bc46858de62f9a1f83b2aca393ee1028711216208ef90741d6cd
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414193632id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/shachi_1220_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

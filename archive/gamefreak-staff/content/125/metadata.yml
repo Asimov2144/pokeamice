@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-125
+post_id: 125
+date: '2009-05-08'
+title: 動物園で発見！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=125
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=125
+  raw_page: archive/gamefreak-staff/raw/posts/125.html
+assets:
+- id: gamefreak-staff-69b451d4e62c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/ms090508.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/125/ms090508-69b451d4.jpg
+  sha256: f7c39455b958ec1b38839d6a9e396e331bb0e943c131ed2561be050bbebdc847
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414090729id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/ms090508.jpg
+- id: gamefreak-staff-d6273ff07f61
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/ms090508_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/125/ms090508_02-d6273ff0.jpg
+  sha256: c76a24c28bfbba6f258041aad2b8941114f812502da4dd9bd27b05732263a8e2
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414142932id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/ms090508_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

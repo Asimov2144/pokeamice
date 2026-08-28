@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "はじめまして！\n\n今年の春に入社したプランナーの、いわしです！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "この度試用期間を終えて、\n\nゲームフリークの正式な一員として加わることができました！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-2f861296e566\" alt=\"名刺を貰ってる所\" %}",
+      "images": [
+        "gamefreak-staff-2f861296e566"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "正社員となった記念品をいただきました。\n\nと、いうことは・・・？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-3043279180ec\" alt=\"いわし名刺\" %}",
+      "images": [
+        "gamefreak-staff-3043279180ec"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "じゃじゃーん！\n\n頂きました、いわしの名刺です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "前に[カニ子さんの日記](http://www.gamefreak.co.jp/blog/staff/?p=24)にも書いていましたが、\n\nゲームフリークでは社員一人一人の名刺に\n\n違ったポケモンが描かれています。\n\nいわしのポケモンはウインディです。かっこいい！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "名刺を貰ったことは、ゲームフリークの正式な一員として\n\n今まで以上に頑張って行かなければいけない！という決意にもなりました。\n\nアグノムな気分です。（リッシ！）",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "まだまだ素人に毛が生えた程度（しかも1本）の\n\n実力しかない僕ですが、いつの日か、\n\n皆様の手に届く様な良質な遊びを企画できる様、\n\n日々精進の気持ちで頑張っていきたいと思います！",
+      "images": []
+    }
+  ]
+}

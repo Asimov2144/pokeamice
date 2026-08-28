@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-161
+post_id: 161
+date: '2009-12-25'
+title: 2009年ゲームフリーク忘年会
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=161
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=161
+  raw_page: archive/gamefreak-staff/raw/posts/161.html
+assets:
+- id: gamefreak-staff-541f6cde2440
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/161/kani091225_01-541f6cde.jpg
+  sha256: b6831ad100fdc4ae2a4d1fc273c6843a985df215ff95ea65d1004fa3e63ac18b
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414123955id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_01.jpg
+- id: gamefreak-staff-e7756f09ddf7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/161/kani091225_02-e7756f09.jpg
+  sha256: 3ebba49f8b25e77eb170884d5e5d0dbd5340cb699b4d4530346d8d37dcd02e56
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414114354id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_02.jpg
+- id: gamefreak-staff-55102fa4aa83
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/161/kani091225_03-55102fa4.jpg
+  sha256: 7c979f9e191973d710086b9339f9ea1b08fa6ff23f983d3a4547d09f4113a2df
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414090826id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/kani091225_03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

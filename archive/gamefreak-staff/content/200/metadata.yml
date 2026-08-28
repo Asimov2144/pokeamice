@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-200
+post_id: 200
+date: '2010-09-24'
+title: プログラマー積極採用中！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=200
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=200
+  raw_page: archive/gamefreak-staff/raw/posts/200.html
+assets:
+- id: gamefreak-staff-9da0e63f5cfc
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/sato100924.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/200/sato100924-9da0e63f.jpg
+  sha256: 65a61546396948df2e58d6bbefadaacea4865f66808b9c5779bf515cd09e747b
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414113833id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/sato100924.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

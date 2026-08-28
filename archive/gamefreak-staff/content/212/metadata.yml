@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-212
+post_id: 212
+date: '2010-12-17'
+title: ポケモンカードティーチング＆ポケモンカード大会
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=212
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=212
+  raw_page: archive/gamefreak-staff/raw/posts/212.html
+assets:
+- id: gamefreak-staff-c962416673a1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/nagi101217_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/212/nagi101217_01-c9624166.jpg
+  sha256: 5dc474913f7b988e925b6febcee2e4fe2ce2c14b578bdc23d337bbb33bc96579
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414183553id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/nagi101217_01.jpg
+- id: gamefreak-staff-214152b4b470
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/nagi101217_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/212/nagi101217_02-214152b4.jpg
+  sha256: 8f5e8e0b5762d7210b7f6194346e9b50fa38456aa5dbe07fd2d5dabde4c946ee
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414174332id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/12/nagi101217_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

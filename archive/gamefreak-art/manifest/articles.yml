@@ -1,0 +1,63 @@
+schema_version: 1
+generated_at: '2026-08-28T05:08:33+00:00'
+mode: all
+blog:
+  slug: gamefreak-art
+  root_url: http://www.gamefreak.co.jp/blog/art/
+  snapshot: '20130808124032'
+  index_url: http://www.gamefreak.co.jp/blog/art/
+  title_ja: 杉森建のお絵かき日和
+  title_zh: 杉森建的绘画日和
+  author_ja: 杉森 建
+  author_zh: 杉森建
+  expected_count: 5
+  theme_css: http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/style.css
+  header_asset: http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/art_tit.jpg
+  background_asset: http://www.gamefreak.co.jp/blog/art/wp-content/themes/clean-minimal/bg.jpg
+network_requests: 0
+articles:
+- id: 5
+  archive_id: gamefreak-art-5
+  date: '2007-08-01'
+  title: 「ディアルガVSパルキアVSダークライ」デザイン画
+  lead: 劇場版ポケットモンスター ダイヤモンドパール 「ディアルガVSパルキアVSダークライ」 アニメオリジナルキャラクターデザイン画です！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/art/?p=5
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=5
+  raw_page: archive/gamefreak-art/raw/index.html
+- id: 6
+  archive_id: gamefreak-art-6
+  date: '2008-08-01'
+  title: 「ギラティナと氷空の花束 シェイミ」デザイン画
+  lead: 劇場版ポケットモンスター ダイヤモンドパール 「ギラティナと氷空の花束 シェイミ」 アニメオリジナルキャラクターデザイン画です！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/art/?p=6
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=6
+  raw_page: archive/gamefreak-art/raw/index.html
+- id: 7
+  archive_id: gamefreak-art-7
+  date: '2009-08-03'
+  title: 「アルセウス 超克の時空へ」デザイン画
+  lead: 劇場版ポケットモンスター ダイヤモンドパール 「アルセウス 超克の時空へ」 アニメオリジナルキャラクターデザイン画です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/art/?p=7
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=7
+  raw_page: archive/gamefreak-art/raw/index.html
+- id: 8
+  archive_id: gamefreak-art-8
+  date: '2010-08-06'
+  title: 「幻影の覇者 ゾロアーク」デザイン画
+  lead: 「幻影の覇者 ゾロアーク」デザイン画
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/art/?p=8
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=8
+  raw_page: archive/gamefreak-art/raw/index.html
+- id: 226
+  archive_id: gamefreak-art-226
+  date: '2011-08-01'
+  title: 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」デザイン画
+  lead: 劇場版ポケットモンスター ベストウイッシュ 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」 アニメオリジナルキャラクターデザイン画を、今年も公開します！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/art/?p=226
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=226
+  raw_page: archive/gamefreak-art/raw/index.html

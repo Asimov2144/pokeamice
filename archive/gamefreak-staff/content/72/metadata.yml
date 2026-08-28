@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-72
+post_id: 72
+date: '2008-05-30'
+title: 週末のスリル
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=72
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=72
+  raw_page: archive/gamefreak-staff/raw/posts/72.html
+assets:
+- id: gamefreak-staff-368d53898934
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/72/kani080527_01-368d5389.jpg
+  sha256: 2255cd5d5d2392919d5ca6aec6af1eb305aaa97fd3bf7cb162c55b7cf41facab
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414162544id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_01.jpg
+- id: gamefreak-staff-be7913bf4564
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/72/kani080527_02-be7913bf.jpg
+  sha256: b959d05a033b14907faaa604b0ccfadd3a999f0bde2e8081fc8389c206a07e5f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414185248id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_02.jpg
+- id: gamefreak-staff-af826bb4242a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/72/kani080527_03-af826bb4.jpg
+  sha256: bff5c2c765aee105496f5fadea99d3b96bb3839d4597d2184785bf7503b13b0c
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414203406id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/05/kani080527_03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-9
+post_id: 9
+date: '2007-08-10'
+title: もういくつ寝ると
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=9
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=9
+  raw_page: archive/gamefreak-staff/raw/posts/9.html
+assets:
+- id: gamefreak-staff-309b1f027f6f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/08/poko01_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/9/poko01_01-309b1f02.jpg
+  sha256: ea39713b66e4dea244d84b7a7e050fcda992deae7f09d0eb40abd9129125dbe0
+  width: 480
+  height: 360
+  wayback_url: https://web.archive.org/web/20130414083228id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/08/poko01_01.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは、Web担当のにょろリカです。\n\nいよいよ明日は「ポケットモンスターブラック・ホワイト」が発売されますね。\n\n今回は「ポケットモンスターブラック・ホワイト」マスターアップ当日の\n\n模様をお届けいたします！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "マスターアップとは「納期」、つまり、「ポケットモンスターブラック・ホワイト」が\n\n完成した日のこと。\n\nオフィスフロアに、マスターアップを告げる増田の声が響くと、\n\n開発スタッフたちがオフィス中央のCometにゾロゾロと集まってきます。\n\n{% legacy_image id=\"gamefreak-staff-09ebe8bbb42d\" alt=\"フロア1\" %}",
+      "images": [
+        "gamefreak-staff-09ebe8bbb42d"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "まずは増田の挨拶。\n\n「みんな、お疲れ様でした！」\n\n{% legacy_image id=\"gamefreak-staff-c361c6cc461b\" alt=\"増田部長\" %}",
+      "images": [
+        "gamefreak-staff-c361c6cc461b"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "ドリンクを片手に、しばし歓談です。\n\n{% legacy_image id=\"gamefreak-staff-900716b15623\" alt=\"フロア2\" %}\n\n{% legacy_image id=\"gamefreak-staff-539d7c65ae98\" alt=\"フロア3\" %}",
+      "images": [
+        "gamefreak-staff-900716b15623",
+        "gamefreak-staff-539d7c65ae98"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "ゲームフリークにはいくつかの「サークル」があり、スタッフは希望する\n\n「サークル」でそれぞれ活動をしています。\n\nそのひとつ「グッズサークル」から全スタッフへサプライズプレゼント！\n\n{% legacy_image id=\"gamefreak-staff-c89022e0f8c9\" alt=\"グッズサークルからプレゼント\" %}",
+      "images": [
+        "gamefreak-staff-c89022e0f8c9"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "何だか分かりますか？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-13c809fd7bb3\" alt=\"マシュマロ\" %}\n\n最初の3匹のポケモン「ツタージャ」「ポカブ」「ミジュマル」が描かれたマシュマロ！\n\n今回のために企画をして作った、どこにも売っていないオリジナルグッズです。\n\nとても可愛くて食べてしまうのがもったいないくらい！(食べますが)",
+      "images": [
+        "gamefreak-staff-13c809fd7bb3"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "いかがでしたでしょうか。\n\nほんの一部でしたが、みなさんにマスターアップの様子が伝わると嬉しいです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "「ポケットモンスターブラック・ホワイト」は\n\n本当にギリギリまで、全スタッフがとことんこだわって作り上げました。\n\nみなさんに楽しんで遊んでもらえることを、ゲームフリークスタッフ一同、\n\n心から願っています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "スタッフボイスでは、今後も「ポケットモンスターブラック・ホワイト」\n\n開発スタッフの声をお届けします。どうぞお楽しみに！\n\n[ポケットモンスターブラック・ホワイト公式サイト](http://www.pokemon-sp.jp/series/bw/){% legacy_image id=\"gamefreak-staff-ba9916a21f6c\" alt=\"ポケットモンスターブラック・ホワイト\" %}",
+      "images": [
+        "gamefreak-staff-ba9916a21f6c"
+      ]
+    }
+  ]
+}

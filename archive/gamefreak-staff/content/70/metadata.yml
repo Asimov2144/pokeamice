@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-70
+post_id: 70
+date: '2008-05-16'
+title: 会社対抗ポケモンDPゲーム大会開催
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=70
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=70
+  raw_page: archive/gamefreak-staff/raw/posts/70.html
+assets:
+- id: gamefreak-staff-6810990dcd56
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/nagi080417_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/70/nagi080417_01-6810990d.jpg
+  sha256: d440835bc10163928c4e64be8eaba9657fc6ab563a6359d40eeca01f70708a23
+  width: 367
+  height: 208
+  wayback_url: https://web.archive.org/web/20130414100120id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/nagi080417_01.jpg
+- id: gamefreak-staff-91d430b3b8e3
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/nagi080417_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/70/nagi080417_02-91d430b3.jpg
+  sha256: 2375890afb4d02c57f4bc9469e4227ee1ef99704dff845ceb0b7fef5e9010b63
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135245id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/nagi080417_02.jpg
+- id: gamefreak-staff-b6a4b428869a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/vs_mov_btn_off.gif
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/70/vs_mov_btn_off-b6a4b428.gif
+  sha256: 6a96793bb561760ffdc0d97cd780b29211591d7f99180ab0f801af4d8cafe17a
+  width: 190
+  height: 66
+  wayback_url: https://web.archive.org/web/20130414112735id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/04/vs_mov_btn_off.gif
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

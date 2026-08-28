@@ -75,6 +75,8 @@ window.pokeamiceSearchSeed = [
       {% assign type_label = "访谈翻译" %}
     {% elsif type_label == "scan_translation" %}
       {% assign type_label = "扫描翻译" %}
+    {% elsif type_label == "gamefreak_director_column" or type_label == "gamefreak_legacy_blog" %}
+      {% assign type_label = "Game Freak 博客" %}
     {% elsif type_label == nil or type_label == "" %}
       {% if post.categories contains "访谈翻译" %}
         {% assign type_label = "访谈翻译" %}
@@ -152,6 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function contentType(raw) {
     const text = String(raw || "");
+    if (/gamefreak_director_column|gamefreak_legacy_blog|game freak 博客/i.test(text)) return "Game Freak 博客";
     if (/scan|扫描/i.test(text)) return "扫描翻译";
     if (/interview|访谈/i.test(text)) return "访谈翻译";
     if (/translation|翻译/i.test(text)) return "翻译";

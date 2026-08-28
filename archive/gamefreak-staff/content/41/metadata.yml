@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-41
+post_id: 41
+date: '2007-10-30'
+title: 新卒採用始めました！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=41
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=41
+  raw_page: archive/gamefreak-staff/raw/posts/41.html
+assets:
+- id: gamefreak-staff-ce8845bef8ec
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/morim1023_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/41/morim1023_01-ce8845be.jpg
+  sha256: 9b41b4ff4533134bda9a5c939cf6a9f61154c4d6cad932c81c0153c3a5e83d76
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130419092157id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/morim1023_01.jpg
+- id: gamefreak-staff-a3dd4c021b21
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/morim1023_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/41/morim1023_02-a3dd4c02.jpg
+  sha256: 95219cf97ddf5b9762850b9ab76332e0eceae642e0dcfc5a7fc4de7b6de0630f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092158id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/morim1023_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

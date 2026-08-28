@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-220
+post_id: 220
+date: '2011-02-25'
+title: 間もなく2012年度新卒採用の応募受付を開始します！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=220
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=220
+  raw_page: archive/gamefreak-staff/raw/posts/220.html
+assets:
+- id: gamefreak-staff-4b09abd7fe09
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110225_nyoro.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/220/110225_nyoro-4b09abd7.jpg
+  sha256: 36c5f8158f6ef509efd05d36d444f4d18b95cc4668ffb9ac1228f77bf94cec73
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414110404id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/02/110225_nyoro.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

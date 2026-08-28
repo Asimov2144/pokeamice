@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは！採用担当さとうです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。\n\nさて、ゲームフリークでも2011年度新卒採用エントリーを受付中です！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "まずは[リクナビ](http://job.rikunabi.com/2011/company/top/r189900076/)よりエントリーをお願い致します。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "今年もどんな方々とお会いできるのか…今からとても楽しみにしています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "今後このブログで、ゲームフリークスタッフに就職活動時の話を\n\n語ってもらう予定です。\n\nこんなこと考えていた、こんな苦労があった、などなど。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-11d662bbe019\" alt=\"会社案内パンフレット\" %}",
+      "images": [
+        "gamefreak-staff-11d662bbe019"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "就職活動中の方はチェックしてみてくださいね。",
+      "images": []
+    }
+  ]
+}

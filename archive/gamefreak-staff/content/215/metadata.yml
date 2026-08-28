@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-215
+post_id: 215
+date: '2011-01-14'
+title: 出会いの冬
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=215
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=215
+  raw_page: archive/gamefreak-staff/raw/posts/215.html
+assets:
+- id: gamefreak-staff-d646e43d8d47
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/01/110114_sato.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/215/110114_sato-d646e43d.jpg
+  sha256: db28efc53b09eb8b2921cd6902456c7fbbaca6735956a2db0eb7c8afcb1f0159
+  width: 314
+  height: 236
+  wayback_url: https://web.archive.org/web/20130414152910id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2011/01/110114_sato.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

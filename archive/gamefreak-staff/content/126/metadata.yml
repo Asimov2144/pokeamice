@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-126
+post_id: 126
+date: '2009-05-18'
+title: お待たせしました！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=126
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=126
+  raw_page: archive/gamefreak-staff/raw/posts/126.html
+assets:
+- id: gamefreak-staff-7a72956a1ca8
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/morimoto090515.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/126/morimoto090515-7a72956a.jpg
+  sha256: f41a709f1663711804f2ed178d9d41013e0492cb371de1f7d31e77a73eba14f4
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414090314id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/morimoto090515.jpg
+- id: gamefreak-staff-627c459f8ce6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/morimoto090515_lg.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/126/morimoto090515_lg-627c459f.jpg
+  sha256: 874a11905c4131853cd4960f48e1cf1999ffb37f00970fe181973e17bdc5f73b
+  width: 445
+  height: 83
+  wayback_url: https://web.archive.org/web/20130414121147id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/05/morimoto090515_lg.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

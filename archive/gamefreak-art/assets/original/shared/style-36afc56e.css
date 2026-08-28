@@ -1,0 +1,172 @@
+/*  
+
+Theme Name: Clean Minimal
+
+Theme URI: http://www.themelab.com/free-wordpress-themes/
+
+Description: A black and white minimalistic theme.  Visit <a href="http://www.themelab.com">Theme Lab</a> for more free themes.
+
+Version: 1.0
+
+Author: Theme Lab
+
+Author URI: http://www.themelab.com/
+
+*/
+
+		*{margin:0;padding:0;text-decoration:none;list-style:none;}
+
+		body{background:#fff url(bg.jpg);font-family:verdana, helvetica, sans-serif;font-size:12px;line-height:18px;color:#333;}
+
+		a{color:#000;text-decoration:none;font-weight:bold;outline:none;}
+
+		/* a:hover{color:#289bc6;} */
+
+		
+
+		#container{width:800px;height:150px;background:#fff;margin:0 auto;background:url(art_tit.jpg)}
+
+		#logo{margin:0 0 0 15px ;font-size:20px;line-height:37px;color:#222;height:37px;float:left;;visibility:hidden}
+
+		#nav{float:right;margin-right:10px;}
+
+		#nav li{display:inline;}
+
+		#nav li a{padding:13px 60px 3px 3px;font-weight:normal;color:#000;background:#fff;text-transform:uppercase;line-height:40px;}
+
+#nav li a:hover, #nav li .active, #nav .current_page_item a, #nav li a.current_page_item{background:#000;color:#fff;}
+
+		/* #nav li a:active{background:#289bc6;} */
+
+		.clear{clear:both;}
+
+		
+
+		.spacer{height:20px;}
+
+		.content{margin:0 auto;padding:10px;width:780px;background:#fff;}
+
+.sidebar{margin:0 auto;padding:10px;width:780px;background:#fff;}
+
+.sidebar h3{padding:5px 5px 4px 5px;background:#000;color:#fff;text-transform:uppercase;font-weight:normal;}
+
+		#categories{border-bottom:1px solid #000;line-height:21px;}
+
+		#categories li{display:inline;margin:0 5px 0 0;}
+
+		#categories li a{padding:5px;color:#000;text-transform:uppercase;font-weight:normal;}
+
+		#categories li a:hover, #categories li b{padding:5px 5px 4px 5px;background:#000;color:#fff;text-transform:uppercase;font-weight:normal;}
+
+		/* #categories li a:active, #categories li b:hover, #categories li b:active{background:#289bc6;} */
+
+		
+
+		.post{margin:10px 0 0 0; border-bottom:2px solid #000; padding:0 0 2em 0}
+
+		.post .left{width:100px;float:left;margin-top:-10px;}
+
+		.post .left h5{font-weight:normal;font-size:72px;height:72px;line-height:72px;}
+
+		.post .left b{font-weight:normal;font-size:25px;line-height:25px;}
+		
+		.post .right h2{margin:0 0 1em 0}
+
+		.post .right h2 a{text-transform:uppercase;padding:3px;font-weight:normal;font-size:30px;line-height:32px;}
+
+		.post .right h2 a:hover{text-decoration:underline;}
+
+		.post .right{width:670px;float:right;}
+		
+		/*Ç®äGÇ©Ç´ì˙òaóp*/
+		
+		.post .right .comset{
+	clear:both;
+	padding:5px 0 5px 0;
+	border-top:dotted 2px #999999;
+	}
+
+.post .right .sm{
+	float:right;
+	width:160px;
+	margin:0 0 0 0;
+	}
+
+/*blog entry*/
+.post .right .sm img {
+	padding:5px;
+	background-color:#ffffff;
+	border:1px solid #dfdfdf;
+}
+
+.post .right .sm img:hover {
+	padding:5px;
+	background-color:#efefef;
+	border:1px solid #dfdfdf;
+}
+
+.post .right .com{
+	float:right;
+	text-align:left;
+	margin:0 0 10px 10px;
+	width:300px;
+	}
+
+.post .right .zoom{
+	text-align:right;
+	margin:0 0 0 0;
+	}
+
+/*Ç®äGÇ©Ç´ì˙òaópÅ@Ç®ÇÌÇË*/
+
+		.sidebar ul{line-height:21px;}
+
+		.sidebar ul li{display:inline;margin:0 5px 0 0;}
+
+		.sidebar ul li a{padding:5px;color:#000;text-transform:uppercase;font-weight:normal;display:block;}
+
+		.sidebar ul li a:hover{padding:5px;background:#666;color:#fff;text-transform:uppercase;font-weight:normal;}
+
+		#fright #pro{
+	text-align:center;
+	}
+
+		#fright .proimg img{
+	padding:2px;
+	background-color:#ffffff;
+	border:1px solid #666666;
+	margin:0 3px 0 0;
+	}
+
+		.footerul{line-height:21px;}
+
+		.footerul li{display:inline;margin:0 5px 0 0;}
+
+		.footerul li a{padding:5px;color:#000;text-transform:uppercase;font-weight:normal;display:block;}
+
+		.footerul li a:hover, .footerul li b{padding:5px 5px 4px 5px;background:#000;color:#fff;text-transform:uppercase;font-weight:normal;}
+
+		/* .footerul li a:active, .footerul li b:hover, .footerul li b:active{background:#289bc6;} */
+
+		/* .footerul li b{border-bottom:1px solid #000;width:100%;}*/
+
+		
+
+		#fleft{width:48%;float:left;}
+
+		#fright{width:48%;float:right;}
+
+		
+
+		#centerit{text-align:center;}
+
+
+
+.commentlist li{padding:10px;background:#eee;}
+
+.commentlist li.alt{background:#ddd;}
+
+.alignright {float:right;}
+
+.alignleft {float:left;}
+

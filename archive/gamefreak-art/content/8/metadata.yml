@@ -1,0 +1,120 @@
+article_id: gamefreak-art-8
+post_id: 8
+date: '2010-08-06'
+title: 「幻影の覇者 ゾロアーク」デザイン画
+tags: []
+author:
+  name_ja: 杉森 建
+  name_zh: 杉森建
+series:
+  name_ja: 杉森建のお絵かき日和
+  name_zh: 杉森建的绘画日和
+source:
+  url: http://www.gamefreak.co.jp/blog/art/?p=8
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=8
+  raw_page: archive/gamefreak-art/raw/index.html
+assets:
+- id: gamefreak-art-2147b6d47ffb
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/goon.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_goon.jpg
+  local_path: archive/gamefreak-art/assets/original/8/goon-2147b6d4.jpg
+  sha256: dbd7d8d98571974804e52011df5fcce5156ad1f1152eafb2c4c0ece66ccd503a
+  width: 400
+  height: 580
+  wayback_url: https://web.archive.org/web/20130918021300id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/goon.jpg
+- id: gamefreak-art-9052e2359266
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/joetomo.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_joetomo.jpg
+  local_path: archive/gamefreak-art/assets/original/8/joetomo-9052e235.jpg
+  sha256: 4f864eb1ae877dabc409733fc57484a7a60661f06c4f24f991b6cd234d488128
+  width: 700
+  height: 565
+  wayback_url: https://web.archive.org/web/20130917111615id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/joetomo.jpg
+- id: gamefreak-art-bc32ea1a2622
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kodai.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kodai.jpg
+  local_path: archive/gamefreak-art/assets/original/8/kodai-bc32ea1a.jpg
+  sha256: d511d44a781041d14295d210fae50df624ed60aef8a52aea8149b6ca5b9eab36
+  width: 641
+  height: 573
+  wayback_url: https://web.archive.org/web/20110711173257id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kodai.jpg
+- id: gamefreak-art-498327771801
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kuruto.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kuruto.jpg
+  local_path: archive/gamefreak-art/assets/original/8/kuruto-49832777.jpg
+  sha256: bdd86648ad09e89b14e2f5cf62cfcfc5d49ab94dfdb920d4c989ab6ae40c79f9
+  width: 767
+  height: 594
+  wayback_url: https://web.archive.org/web/20130915133246id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kuruto.jpg
+- id: gamefreak-art-6f90a601083d
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/rioka.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_rioka.jpg
+  local_path: archive/gamefreak-art/assets/original/8/rioka-6f90a601.jpg
+  sha256: a620ae56c026307f85f8cb57e3eefac4ccd918e450b6dec35d1aa910a7f21a72
+  width: 728
+  height: 593
+  wayback_url: https://web.archive.org/web/20130915120809id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/rioka.jpg
+- id: gamefreak-art-dedd39c97359
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_goon.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/goon.jpg
+  local_path: archive/gamefreak-art/assets/original/8/s_goon-dedd39c9.jpg
+  sha256: 5841da6282f8abe691002d188d2cee190ad8639fa2c9310d82542abbc706e70f
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822203306id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_goon.jpg
+- id: gamefreak-art-0012f6e45030
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_joetomo.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/joetomo.jpg
+  local_path: archive/gamefreak-art/assets/original/8/s_joetomo-0012f6e4.jpg
+  sha256: f535164a453120ac9682578ead78213d5b132e4ec5d4d5526417a3d1c037aa4a
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822161656id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_joetomo.jpg
+- id: gamefreak-art-a464f0e50175
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kodai.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kodai.jpg
+  local_path: archive/gamefreak-art/assets/original/8/s_kodai-a464f0e5.jpg
+  sha256: 0a174750b5e183b26a2cdf5a2a75c76f8904009144f850169224366b31943825
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822163439id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kodai.jpg
+- id: gamefreak-art-28437356f774
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kuruto.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/kuruto.jpg
+  local_path: archive/gamefreak-art/assets/original/8/s_kuruto-28437356.jpg
+  sha256: 7b47f68b8dffffecc5f98e4f63eb4bc58bf802026d54faccf4a04150333d803b
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822164239id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_kuruto.jpg
+- id: gamefreak-art-1e3e657464cf
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_rioka.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/rioka.jpg
+  local_path: archive/gamefreak-art/assets/original/8/s_rioka-1e3e6574.jpg
+  sha256: 9044f39ae0dbb08ae6e203c8d2d6981eec6329fce23c2bb718506e6a3252b7ea
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822195355id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1008/s_rioka.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:09:32+00:00'

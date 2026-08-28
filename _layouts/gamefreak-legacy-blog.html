@@ -1,0 +1,160 @@
+---
+layout: default
+---
+{% assign blog_key = page.gf_legacy_blog | default: page.gf_blog %}
+{% assign blog = site.data.gamefreak_legacy_blogs[blog_key] %}
+{% assign legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" | where: "gf_legacy_blog", blog_key | sort: "date" | reverse %}
+{% assign mode = page.gf_mode | default: "post" %}
+{% assign archive_page = page.gf_archive_page | default: 1 %}
+{% assign posts_per_page = blog.posts_per_page | default: 10 %}
+{% assign archive_offset = archive_page | minus: 1 | times: posts_per_page %}
+{% assign visible_posts = legacy_posts | slice: archive_offset, posts_per_page %}
+{% assign page_count_numerator = legacy_posts.size | plus: posts_per_page | minus: 1 %}
+{% assign archive_page_count = page_count_numerator | divided_by: posts_per_page %}
+
+<div class="gf-legacy-site gf-legacy-site--{{ blog_key }}">
+  <header class="gf-legacy-header"{% if blog.header_image %} style="--gf-legacy-header-image: url('{{ blog.header_image | relative_url }}')"{% endif %}>
+    <a class="gf-legacy-header__home" href="{{ '/' | append: blog.slug | append: '/' | relative_url }}">
+      <span class="screen-reader-text">返回{{ blog.title }}</span>
+    </a>
+    <nav aria-label="专题导航">
+      <a href="{{ '/' | append: blog.slug | append: '/' | relative_url }}">HOME</a>
+      <a href="{{ blog.archive_url }}" target="_blank" rel="noopener">ORIGINAL ↗</a>
+      <a href="{{ '/gamefreak-director/' | relative_url }}">MASUDA</a>
+      {% if blog_key == 'art' %}<a href="{{ '/gamefreak-staff/' | relative_url }}">STAFF</a>{% else %}<a href="{{ '/gamefreak-art/' | relative_url }}">ART</a>{% endif %}
+    </nav>
+  </header>
+
+  <div class="gf-legacy-notice">
+    <p><strong>PokeAmice Archive</strong><span>非官方数字存档与中文翻译</span></p>
+    <dl>
+      <div><dt>已收录</dt><dd>{{ legacy_posts | size }} / {{ blog.expected_count }}</dd></div>
+      <div><dt>作者</dt><dd>{{ blog.author_zh }}</dd></div>
+      <div><dt>来源</dt><dd><a href="{{ blog.archive_url }}" target="_blank" rel="noopener">Web Archive ↗</a></dd></div>
+    </dl>
+  </div>
+
+  <main class="gf-legacy-content" id="main">
+    {% if mode == 'index' %}
+      <header class="gf-legacy-intro">
+        <p class="gf-legacy-intro__eyebrow">GAME FREAK LEGACY BLOG</p>
+        <h1>{{ blog.title }}</h1>
+        <p>{{ blog.description }}</p>
+      </header>
+      <div class="gf-legacy-language gf-legacy-language--archive" data-gf-legacy-language role="group" aria-label="阅读语言">
+        <span>阅读语言</span>
+        <button type="button" data-language="zh-CN" aria-pressed="true">中文译文</button>
+        <button type="button" data-language="ja" aria-pressed="false">日文原文</button>
+      </div>
+      <section class="gf-legacy-stream" aria-label="连续文章列表">
+        {% for post in visible_posts %}
+          <article class="gf-legacy-stream__item" data-gf-legacy-entry data-translation-available="{{ post.translation_available | default: false }}">
+            <time class="gf-legacy-stream__date" datetime="{{ post.date | date_to_xmlschema }}">
+              <strong>{{ post.date | date: "%d" }}</strong>
+              <span>{{ post.date | date: "%m月" }}<br>{{ post.date | date: "%Y" }}</span>
+            </time>
+            <div class="gf-legacy-stream__main">
+              <h2><a href="{{ post.url | relative_url }}">
+                {% if post.translation_available %}<span data-gf-language-title="zh-CN">{{ post.gf_translation_title }}</span>{% endif %}
+                <span data-gf-language-title="ja"{% if post.translation_available %} hidden{% endif %}>{{ post.gf_original_title | default: post.title }}</span>
+              </a></h2>
+              <div class="gf-legacy-post__body">{{ post.content }}</div>
+              <p class="gf-legacy-stream__permalink"><a href="{{ post.url | relative_url }}">固定链接 / 来源信息 →</a></p>
+            </div>
+          </article>
+        {% endfor %}
+      </section>
+      {% if archive_page_count > 1 %}
+        <nav class="gf-legacy-archive-pager" aria-label="博客分页">
+          {% if archive_page > 1 %}
+            {% assign newer_page = archive_page | minus: 1 %}
+            {% if newer_page == 1 %}{% assign newer_url = '/' | append: blog.slug | append: '/' %}{% else %}{% assign newer_url = '/' | append: blog.slug | append: '/page/' | append: newer_page | append: '/' %}{% endif %}
+            <a class="gf-legacy-archive-pager__newer" href="{{ newer_url | relative_url }}">« Newer Entries</a>
+          {% endif %}
+          <span>{{ archive_page }} / {{ archive_page_count }}</span>
+          {% if archive_page < archive_page_count %}
+            {% assign older_page = archive_page | plus: 1 %}
+            {% assign older_url = '/' | append: blog.slug | append: '/page/' | append: older_page | append: '/' %}
+            <a class="gf-legacy-archive-pager__older" href="{{ older_url | relative_url }}">Older Entries »</a>
+          {% endif %}
+        </nav>
+      {% endif %}
+    {% else %}
+      {% assign chronological = legacy_posts | reverse %}
+      {% assign current_index = nil %}
+      {% for candidate in chronological %}{% if candidate.url == page.url %}{% assign current_index = forloop.index0 %}{% endif %}{% endfor %}
+      <article class="gf-legacy-post">
+        <aside class="gf-legacy-post__date">
+          <strong>{{ page.date | date: "%d" }}</strong>
+          <span>{{ page.date | date: "%m月" }}<br>{{ page.date | date: "%Y" }}</span>
+        </aside>
+        <div class="gf-legacy-post__main">
+          <nav class="gf-legacy-post__back"><a href="{{ '/' | append: blog.slug | append: '/' | relative_url }}">← 返回文章列表</a></nav>
+          <h1>
+            {% if page.translation_available %}<span data-gf-language-title="zh-CN">{{ page.gf_translation_title }}</span>{% endif %}
+            <span data-gf-language-title="ja"{% if page.translation_available %} hidden{% endif %}>{{ page.gf_original_title | default: page.gf_entry_title | default: page.title }}</span>
+          </h1>
+          <div class="gf-legacy-language" data-gf-legacy-language role="group" aria-label="阅读语言">
+            <span>阅读语言{% unless page.translation_available %} · 中文翻译准备中{% endunless %}</span>
+            <button type="button" data-language="zh-CN" aria-pressed="true"{% unless page.translation_available %} disabled title="中文翻译准备中"{% endunless %}>中文译文</button>
+            <button type="button" data-language="ja" aria-pressed="false">日文原文</button>
+          </div>
+          <div class="gf-legacy-post__body">{{ content }}</div>
+          <details class="gf-legacy-source">
+            <summary>来源与存档信息</summary>
+            <p><a href="{{ page.source.url }}" target="_blank" rel="noopener">原始地址 ↗</a>　<a href="{{ page.source.archive_url }}" target="_blank" rel="noopener">Web Archive 快照 ↗</a></p>
+            <p>本专题为非官方数字存档与中文翻译；原文与图片版权归 GAME FREAK 及相关权利方所有。</p>
+          </details>
+        </div>
+      </article>
+      <nav class="gf-legacy-pager" aria-label="文章前后导航">
+        {% if current_index != nil and current_index > 0 %}{% assign previous_index = current_index | minus: 1 %}{% assign previous_post = chronological[previous_index] %}<a href="{{ previous_post.url | relative_url }}"><span>上一篇</span><strong>{{ previous_post.gf_entry_title | default: previous_post.title }}</strong></a>{% endif %}
+        {% assign next_index = current_index | plus: 1 %}{% if current_index != nil and next_index < chronological.size %}{% assign next_post = chronological[next_index] %}<a href="{{ next_post.url | relative_url }}"><span>下一篇</span><strong>{{ next_post.gf_entry_title | default: next_post.title }}</strong></a>{% endif %}
+      </nav>
+    {% endif %}
+  </main>
+
+  <footer class="gf-legacy-footer">
+    <span>UNOFFICIAL ARCHIVE</span>
+    <span>Original text and images © GAME FREAK inc.</span>
+  </footer>
+</div>
+
+<script>
+(function () {
+  function applyLanguage(site, language) {
+    const effectiveLanguage = site.querySelector('[data-gf-language-panel="' + language + '"]') ? language : 'ja';
+    site.querySelectorAll('[data-gf-legacy-entry], .gf-legacy-post').forEach(function (entry) {
+      const requestedPanel = entry.querySelector('[data-gf-language-panel="' + effectiveLanguage + '"]');
+      const fallbackPanel = entry.querySelector('[data-gf-language-panel="ja"]');
+      const activePanel = requestedPanel || fallbackPanel;
+      entry.querySelectorAll('[data-gf-language-panel]').forEach(function (panel) {
+        panel.hidden = panel !== activePanel;
+      });
+      const requestedTitle = entry.querySelector('[data-gf-language-title="' + effectiveLanguage + '"]');
+      const fallbackTitle = entry.querySelector('[data-gf-language-title="ja"]');
+      const activeTitle = requestedTitle || fallbackTitle;
+      entry.querySelectorAll('[data-gf-language-title]').forEach(function (title) {
+        title.hidden = title !== activeTitle;
+      });
+    });
+    site.querySelectorAll('[data-gf-legacy-language] [data-language]').forEach(function (button) {
+      button.setAttribute('aria-pressed', button.dataset.language === effectiveLanguage ? 'true' : 'false');
+    });
+    try { localStorage.setItem('gf-legacy-language', language); } catch (error) {}
+  }
+
+  document.querySelectorAll('[data-gf-legacy-language]').forEach(function (switcher) {
+    switcher.addEventListener('click', function (event) {
+      const button = event.target.closest('[data-language]');
+      if (!button || button.disabled) return;
+      applyLanguage(switcher.closest('.gf-legacy-site'), button.dataset.language);
+    });
+  });
+  document.querySelectorAll('.gf-legacy-site').forEach(function (site) {
+    let language = 'zh-CN';
+    try { language = localStorage.getItem('gf-legacy-language') || language; } catch (error) {}
+    applyLanguage(site, language);
+  });
+})();
+</script>

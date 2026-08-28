@@ -1,0 +1,120 @@
+article_id: gamefreak-art-226
+post_id: 226
+date: '2011-08-01'
+title: 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」デザイン画
+tags: []
+author:
+  name_ja: 杉森 建
+  name_zh: 杉森建
+series:
+  name_ja: 杉森建のお絵かき日和
+  name_zh: 杉森建的绘画日和
+source:
+  url: http://www.gamefreak.co.jp/blog/art/?p=226
+  wayback_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=226
+  raw_page: archive/gamefreak-art/raw/index.html
+assets:
+- id: gamefreak-art-240555b0e741
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/dred.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_dred.jpg
+  local_path: archive/gamefreak-art/assets/original/226/dred-240555b0.jpg
+  sha256: 314e33877b2136388ce753e099655c603c1217689c67a7dcd7349f7fb228e9cd
+  width: 615
+  height: 480
+  wayback_url: https://web.archive.org/web/20130917225828id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/dred.jpg
+- id: gamefreak-art-57b97a4b8502
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/janta.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_janta.jpg
+  local_path: archive/gamefreak-art/assets/original/226/janta-57b97a4b.jpg
+  sha256: 62df2b9c05926f005fadbf8ea3b2d4a33c0121af762ea514b9f5d55a7668eaf4
+  width: 526
+  height: 480
+  wayback_url: https://web.archive.org/web/20111215153324id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/janta.jpg
+- id: gamefreak-art-1cb15f05c7e7
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/karita.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_karita.jpg
+  local_path: archive/gamefreak-art/assets/original/226/karita-1cb15f05.jpg
+  sha256: be5d2150f14710b1170ceb60020edb30679c353bd5c9fef12cd9bc5fe6a54fa6
+  width: 531
+  height: 480
+  wayback_url: https://web.archive.org/web/20130915220411id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/karita.jpg
+- id: gamefreak-art-9601019f414d
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/kidstr.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_kidstr.jpg
+  local_path: archive/gamefreak-art/assets/original/226/kidstr-9601019f.jpg
+  sha256: cfe5b1dec29444660386be6c25d8cbd09c411ae6d7c8075e2d1d2cb53e7ef157
+  width: 977
+  height: 562
+  wayback_url: https://web.archive.org/web/20130915091824id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/kidstr.jpg
+- id: gamefreak-art-3a18514f748b
+  roles:
+  - design-full-resolution
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/momont.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_momont.jpg
+  local_path: archive/gamefreak-art/assets/original/226/momont-3a18514f.jpg
+  sha256: 951d3be6cb6c0138357d3083d22f6e32e731c6e3e050b687417f9a5c6afeacd4
+  width: 465
+  height: 480
+  wayback_url: https://web.archive.org/web/20130918011900id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/momont.jpg
+- id: gamefreak-art-727c389a2b8e
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_dred.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/dred.jpg
+  local_path: archive/gamefreak-art/assets/original/226/s_dred-727c389a.jpg
+  sha256: 41d404262b1023b36d38c46d49e0904e4b9c10125360ee34148b9e4ce2fbd95f
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822182516id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_dred.jpg
+- id: gamefreak-art-54046f3f249c
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_janta.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/janta.jpg
+  local_path: archive/gamefreak-art/assets/original/226/s_janta-54046f3f.jpg
+  sha256: 6cc5398cf4fc833d2fde0275e9f8bd3d9c975c6f356444a7a315c9057e5f9a12
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822181934id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_janta.jpg
+- id: gamefreak-art-721b2c30cb7c
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_karita.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/karita.jpg
+  local_path: archive/gamefreak-art/assets/original/226/s_karita-721b2c30.jpg
+  sha256: e0e4fc500158999527007d6a39cd5257e10b12a5c210810f498565edff513eb0
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822163504id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_karita.jpg
+- id: gamefreak-art-fc576a868f47
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_kidstr.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/kidstr.jpg
+  local_path: archive/gamefreak-art/assets/original/226/s_kidstr-fc576a86.jpg
+  sha256: 79fbbb5fca24e3d94c23f7a4a57e36ba4e901bcc4d681bf90fa62a8517a9f182
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822203312id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_kidstr.jpg
+- id: gamefreak-art-c23c623e2bc1
+  roles:
+  - design-thumbnail
+  original_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_momont.jpg
+  pair_url: http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/momont.jpg
+  local_path: archive/gamefreak-art/assets/original/226/s_momont-c23c623e.jpg
+  sha256: 0516de34020eca4b75f02718b2b1f92d3efe5458bd930614354312ceb334b8f7
+  width: 150
+  height: 150
+  wayback_url: https://web.archive.org/web/20130822193859id_/http://www.gamefreak.co.jp/blog/art/wp-content/images/1108/s_momont.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:09:32+00:00'

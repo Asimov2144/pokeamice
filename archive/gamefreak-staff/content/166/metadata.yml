@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-166
+post_id: 166
+date: '2010-01-29'
+title: 社内ポケモンHGSSバトル大会！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=166
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=166
+  raw_page: archive/gamefreak-staff/raw/posts/166.html
+assets:
+- id: gamefreak-staff-9894a3e3803c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/nagi_100129.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/166/nagi_100129-9894a3e3.jpg
+  sha256: c7195dcca2e01dce7dc6887ad38d88b6cef12e57f946855f57b0800728bd960b
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414140721id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/01/nagi_100129.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

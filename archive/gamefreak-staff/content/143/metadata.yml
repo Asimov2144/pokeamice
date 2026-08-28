@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-143
+post_id: 143
+date: '2009-09-14'
+title: 中途採用がアツイ訳。
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=143
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=143
+  raw_page: archive/gamefreak-staff/raw/posts/143.html
+assets:
+- id: gamefreak-staff-a51b56bc407d
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/sato090914.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/143/sato090914-a51b56bc.jpg
+  sha256: 00a98d61eda963786e01dcd2f660bf82a427e5d0fd1f0c8e5ebb8665308bc115
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414122326id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/sato090914.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-114
+post_id: 114
+date: '2009-02-23'
+title: 会社説明会に出席して
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=114
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=114
+  raw_page: archive/gamefreak-staff/raw/posts/114.html
+assets:
+- id: gamefreak-staff-26ccc86aabe6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/kani090223.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/114/kani090223-26ccc86a.jpg
+  sha256: b15d7ab8b276396ce36e62c1020a9b0241fee088ecc5201c4058ffb66d8ffeab
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414085541id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/02/kani090223.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

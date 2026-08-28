@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-181
+post_id: 181
+date: '2010-05-07'
+title: 入社1年目の思い出
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=181
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=181
+  raw_page: archive/gamefreak-staff/raw/posts/181.html
+assets:
+- id: gamefreak-staff-21074d212c66
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/05/rapen100507.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/181/rapen100507-21074d21.jpg
+  sha256: bf2bb1fc370644dd0972c63f315131e8009f1c3766b9134e284f9dd886284c29
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414201548id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/05/rapen100507.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

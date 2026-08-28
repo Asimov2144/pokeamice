@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-176
+post_id: 176
+date: '2010-04-02'
+title: フレッシュなお話
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=176
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=176
+  raw_page: archive/gamefreak-staff/raw/posts/176.html
+assets:
+- id: gamefreak-staff-bc43d895ae86
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/04/nyoro100402.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/176/nyoro100402-bc43d895.jpg
+  sha256: 68d1bf835fd91f59e68de5a52dc7c7ad9a2324f1b0f888fca4e2b3b09ec48823
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414182658id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/04/nyoro100402.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

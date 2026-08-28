@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは。\n\n採用担当さとうです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "先日、ゲームフリークの中途採用ページに[「社員紹介」](https://www.gamefreak.co.jp/career/person.html)を追加しました！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-1081c750de02\" alt=\"クリックでジャンプ\" %}",
+      "images": [
+        "gamefreak-staff-1081c750de02"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "これは中途採用でゲームフリークに入社した社員に、\n\n「今までどのようなキャリアを積んできたのか」\n\n「仕事に対してどう思っているのか」\n\n「なぜ、人生の転機にゲームフリークという会社を選んだのか」\n\n・・・といったことをインタビューし、まとめています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "ゲームフリークにはさまざまなタイプの人間がいる、\n\nということを知っていただきたいと思います！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "ちなみに今回、「社員紹介」を掲載しようと思った理由は、\n\nゲームフリークについて固定されたイメージをお持ちの方が\n\n非常に多いといつも感じているためです。\n\nよく知らないまま「自分とは合わないな･･･」と思われているとしたら\n\n採用担当として悔しい限りです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "だからこそ、[中途採用ページのトップ](https://www.gamefreak.co.jp/career/index.html)には、\n\n**「誤解してませんか？」**という言葉をどーんと載せています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "まずは、ゲームフリークにはどんな人間が働いているのか、\n\n[「社員紹介」](https://www.gamefreak.co.jp/career/person.html)からのぞいてみてください！",
+      "images": []
+    }
+  ]
+}

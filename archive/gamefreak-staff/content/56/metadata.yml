@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-56
+post_id: 56
+date: '2008-02-07'
+title: 社内ポケモンDPゲーム大会開催
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=56
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=56
+  raw_page: archive/gamefreak-staff/raw/posts/56.html
+assets:
+- id: gamefreak-staff-cbb62f57cd45
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/nagi_080206.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/56/nagi_080206-cbb62f57.jpg
+  sha256: 2839c099f1e2b10df9223c68c649656cc5be869d26fe18e64aa691cbf02bc624
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414144139id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/nagi_080206.jpg
+- id: gamefreak-staff-912a20d4c883
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/nagi_080206_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/56/nagi_080206_01-912a20d4.jpg
+  sha256: ad6517f23e8b5b7b0b8a62128812e97d4f9ee351383ab4dbcce95e5179c5419d
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414155151id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/01/nagi_080206_01.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-201
+post_id: 201
+date: '2010-10-01'
+title: 「ポケットモンスターブラック・ホワイト」のつくりかた 1
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=201
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=201
+  raw_page: archive/gamefreak-staff/raw/posts/201.html
+assets:
+- id: gamefreak-staff-31c02b814e61
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/10/bw101001.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/201/bw101001-31c02b81.jpg
+  sha256: d501226166dbbe09e2412efe59b21fe92925f2d30fc9d334fa0fb551d7511516
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414191024id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/10/bw101001.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

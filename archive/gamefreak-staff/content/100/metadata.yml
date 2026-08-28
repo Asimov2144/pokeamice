@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-100
+post_id: 100
+date: '2008-12-05'
+title: ポケモンプラチナバトル大会決勝
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=100
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=100
+  raw_page: archive/gamefreak-staff/raw/posts/100.html
+assets:
+- id: gamefreak-staff-87cce8d69dd7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/100/iwashi081205_01-87cce8d6.jpg
+  sha256: b098abc060697ceb38ec65191436c3eaecaf24ba564e00cc8e509ea5423762f1
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414115741id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_01.jpg
+- id: gamefreak-staff-3744a208d5c2
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/100/iwashi081205_02-3744a208.jpg
+  sha256: 56b041389e7d4d0fb0575f5f70812c2ebd2c60b754a092dca9b492a62320a24b
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414110537id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_02.jpg
+- id: gamefreak-staff-0be0de4c3abc
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/100/iwashi081205_03-0be0de4c.jpg
+  sha256: cb436b485a3471a1e275c6f301db5b375c4538c9b0cc312ef3de3b6ff4156b5a
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414095950id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_03.jpg
+- id: gamefreak-staff-fc4065a8be71
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/100/iwashi081205_04-fc4065a8.jpg
+  sha256: 2240e8089aed501c486d68cda34d007f3fbae9f916b952ffd82684851bb70327
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414084527id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/12/iwashi081205_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-79
+post_id: 79
+date: '2008-07-11'
+title: 研修期間終了！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=79
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=79
+  raw_page: archive/gamefreak-staff/raw/posts/79.html
+assets:
+- id: gamefreak-staff-2f861296e566
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/iwashi080707_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/79/iwashi080707_01-2f861296.jpg
+  sha256: 8a25ba7ee59ffe9ed4f8ee7cf96e18ad189b3e8657a119ca732ebeb43e682aa0
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414153155id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/iwashi080707_01.jpg
+- id: gamefreak-staff-3043279180ec
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/iwashi080707_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/79/iwashi080707_02-30432791.jpg
+  sha256: 564f2cadebb66a4ac922f735d7adf8fd2bc1d84a019f99c79cb14e1dcbb9a7a4
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414192313id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/iwashi080707_02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

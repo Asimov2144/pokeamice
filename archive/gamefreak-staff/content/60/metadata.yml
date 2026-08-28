@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-60
+post_id: 60
+date: '2008-02-29'
+title: No Video Games, No Life.
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=60
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=60
+  raw_page: archive/gamefreak-staff/raw/posts/60.html
+assets:
+- id: gamefreak-staff-fab2f4554439
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2008/02/hiro_0229_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/60/hiro_0229_02-fab2f455.jpg
+  sha256: 71ff45aca54f832f2dfeeb7ee8043228e81973f81f826b35c3fa496fbed925f4
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20131119173644id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2008/02/hiro_0229_02.jpg
+- id: gamefreak-staff-001624e55ed5
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/hiro_0229_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/60/hiro_0229_01-001624e5.jpg
+  sha256: 3968e30a4a08233c51d0d12b9b3df249ac4ddfc81efd255f40de8d8ca3cf5dc2
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414125753id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/02/hiro_0229_01.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

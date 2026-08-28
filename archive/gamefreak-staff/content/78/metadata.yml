@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-78
+post_id: 78
+date: '2008-07-01'
+title: 採用：本日から新卒採用二次募集スタートです！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=78
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=78
+  raw_page: archive/gamefreak-staff/raw/posts/78.html
+assets:
+- id: gamefreak-staff-a2bbc038b006
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/sato080701.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/78/sato080701-a2bbc038.jpg
+  sha256: bac830257ec7258639f5c64cb2329772940f47dd9c1831fd1ea56829ea2bd406
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414182619id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/sato080701.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-82
+post_id: 82
+date: '2008-08-01'
+title: Nintendo 2008 E3 Media Briefing
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=82
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=82
+  raw_page: archive/gamefreak-staff/raw/posts/82.html
+assets:
+- id: gamefreak-staff-a2d7cdd53919
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/82/jonny080731_01-a2d7cdd5.jpg
+  sha256: 81232a1e85cc19e2c9a810d50b609aa75dff4cb69a04250413b188b55edd4e35
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414160018id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_01.jpg
+- id: gamefreak-staff-5041bbc6582e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/82/jonny080731_02-5041bbc6.jpg
+  sha256: d572c27d939d234946b46ea7b7183b354dc2b19b55d1cd512cf0efa7d0030cc6
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414195505id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_02.jpg
+- id: gamefreak-staff-94ec72e0906c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/82/jonny080731_03-94ec72e0.jpg
+  sha256: f92ef349591266e4279147f32abe1aeaa36e52f3adb634f9b82bc985c9bde86f
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414175721id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_03.jpg
+- id: gamefreak-staff-04999a975c9a
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/82/jonny080731_04-04999a97.jpg
+  sha256: b22c616ad3a7b5a439ef8854e763248b5eb3ca900442fb9109052301791c39da
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414190427id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2008/07/jonny080731_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

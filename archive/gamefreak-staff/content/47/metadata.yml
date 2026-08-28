@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-47
+post_id: 47
+date: '2007-12-06'
+title: げいのう話
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=47
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=47
+  raw_page: archive/gamefreak-staff/raw/posts/47.html
+assets:
+- id: gamefreak-staff-2b62007f3a56
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/geinou_1206.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/47/geinou_1206-2b62007f.jpg
+  sha256: 141c1d69909d29db91e90e9452731e54da1cb2b1ee4682f2b3f2246f4dc9a2b4
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414185644id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/12/geinou_1206.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-198
+post_id: 198
+date: '2010-09-10'
+title: ポケモンワールドチャンピオンシップス2010！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=198
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=198
+  raw_page: archive/gamefreak-staff/raw/posts/198.html
+assets:
+- id: gamefreak-staff-5b8046a9a2d7
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/198/fujiwa100910_01-5b8046a9.jpg
+  sha256: d87e6bb14af94e6dd7552e5359608feb6ce54fa6b2cd90e56e08a6d5db7658d5
+  width: 314
+  height: 236
+  wayback_url: https://web.archive.org/web/20130414171811id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_01.jpg
+- id: gamefreak-staff-9d0a60b7a08f
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/198/fujiwa100910_02-9d0a60b7.jpg
+  sha256: a6988952ca3828f99ae1dde2931f36f67202cee8b44e7e7b28a99220f0d5635d
+  width: 314
+  height: 236
+  wayback_url: https://web.archive.org/web/20130414180707id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_02.jpg
+- id: gamefreak-staff-d9faa040db3e
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/198/fujiwa100910_03-d9faa040.jpg
+  sha256: 8c545b250e0f9a7ec38d59fdf6f4a5b948bbfe8c86abd2a9676f5a52154feea2
+  width: 314
+  height: 213
+  wayback_url: https://web.archive.org/web/20130414195027id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/09/fujiwa100910_03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

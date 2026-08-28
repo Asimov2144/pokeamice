@@ -1,0 +1,60 @@
+article_id: gamefreak-staff-118
+post_id: 118
+date: '2009-03-27'
+title: 東京マラソン ?東京がひとつになる日?
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=118
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=118
+  raw_page: archive/gamefreak-staff/raw/posts/118.html
+assets:
+- id: gamefreak-staff-ad05627e97b1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/118/border090327_01-ad05627e.jpg
+  sha256: 48eabe2d1010702fa45a023dd5077957831259893eba2c04b35feaeec6268cbd
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414111256id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_01.jpg
+- id: gamefreak-staff-0f95aa7f09d6
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/118/border090327_02-0f95aa7f.jpg
+  sha256: b32b8a202d2b7884f4fa97794bc2091e8c60bcf4d20047b46b85e6f05516002a
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414120327id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_02.jpg
+- id: gamefreak-staff-995c519adccd
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/118/border090327_03-995c519a.jpg
+  sha256: f717a197842ecd3d57b7bf3ccf8e9b4b9f78063b4f9616331ec33b29f7b3d138
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414135222id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_03.jpg
+- id: gamefreak-staff-d8d8b7ef78b2
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_04.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/118/border090327_04-d8d8b7ef.jpg
+  sha256: 57a4401e1cb4d5f721587bc5606045d3f2adb5189e163adeab1be43837d06c06
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414135321id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/03/border090327_04.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:37+00:00'

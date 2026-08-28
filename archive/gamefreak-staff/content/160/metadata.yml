@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-160
+post_id: 160
+date: '2009-12-18'
+title: ＨＧ・ＳＳ 語っちゃいます！ その８
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=160
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=160
+  raw_page: archive/gamefreak-staff/raw/posts/160.html
+assets:
+- id: gamefreak-staff-d8057b578933
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/hgss_bn.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/160/hgss_bn-d8057b57.jpg
+  sha256: e3a6343df8164564b3c46322fde90306dd7b75a6ac96b8210dcfafc9265b7e29
+  width: 180
+  height: 55
+  wayback_url: https://web.archive.org/web/20130414142604id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/09/hgss_bn.jpg
+- id: gamefreak-staff-f0bf25c75ade
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/matsushima091218.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/160/matsushima091218-f0bf25c7.jpg
+  sha256: cf5b0ae15c18073f309dcc01d298e856064477d55e227866030cfe2bfe6fdda8
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130414090116id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2009/12/matsushima091218.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:38+00:00'

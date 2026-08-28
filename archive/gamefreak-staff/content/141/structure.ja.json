@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは、Web開発のカニ子です。\n\n涼しくなってきましたが皆様いかがお過ごしでしょうか。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "さて、本日からゲームフリークWebで\n\n[中途採用特設サイト](http://www.gamefreak.co.jp/recruit/career.html)が公開されました！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "特設サイトらしく新卒採用ページとは違った雰囲気で\n\nゲームフリークへの応募を考えている方に\n\n向けてメッセージを掲載しています。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "募集職種は以下の４職種です。\n\n・グラフィックデザイナー\n\n・プログラマー\n\n・サウンドクリエイター\n\n・プランナー",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "皆様のご応募お待ちしております！",
+      "images": []
+    }
+  ]
+}

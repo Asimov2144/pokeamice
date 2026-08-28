@@ -1,0 +1,30 @@
+article_id: gamefreak-staff-190
+post_id: 190
+date: '2010-07-09'
+title: 中途1年目の僕が見たゲームフリーク
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=190
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=190
+  raw_page: archive/gamefreak-staff/raw/posts/190.html
+assets:
+- id: gamefreak-staff-60877fe1ee5b
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/07/moribi100709.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/190/moribi100709-60877fe1.jpg
+  sha256: 89329f3c39ca93a38d83b7a87aa371b523e1c00e48c94e81e108f97b951add17
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130414181324id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2010/07/moribi100709.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:39+00:00'

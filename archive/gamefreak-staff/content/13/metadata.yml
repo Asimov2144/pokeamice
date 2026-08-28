@@ -1,0 +1,50 @@
+article_id: gamefreak-staff-13
+post_id: 13
+date: '2007-08-22'
+title: エノキのなつやすみ
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=13
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=13
+  raw_page: archive/gamefreak-staff/raw/posts/13.html
+assets:
+- id: gamefreak-staff-5b6ff0aa7d5d
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/13/shime01_01-5b6ff0aa.jpg
+  sha256: bb79449bac026accc7ff6998eb070e0a0f8ad459cff196970061e0e44a146b98
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20111111112710id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_01.jpg
+- id: gamefreak-staff-91314b8d8dcd
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/13/shime01_02-91314b8d.jpg
+  sha256: 052c9a79e4339e3b10446576777ea10fb4c3c76164c4daaeef9323b22b2642fe
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20111111112709id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_02.jpg
+- id: gamefreak-staff-cb79b92e63ea
+  roles:
+  - article-image
+  original_url: http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_03.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/13/shime01_03-cb79b92e.jpg
+  sha256: dce6c07f40745ad839651f1ce9f9e59ff333d3a27aef10ae486ec60c94648557
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20111111112710id_/http://gamefreak.sakura.ne.jp/blog/staff/wp-content/uploads/2007/08/shime01_03.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

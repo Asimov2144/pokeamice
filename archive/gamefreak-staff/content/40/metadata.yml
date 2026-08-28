@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-40
+post_id: 40
+date: '2007-10-26'
+title: プチ秘密
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=40
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=40
+  raw_page: archive/gamefreak-staff/raw/posts/40.html
+assets:
+- id: gamefreak-staff-8bb5565eb2d1
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/kani1025_01_s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/40/kani1025_01_s-8bb5565e.jpg
+  sha256: 3ea0ca7886619f1c2640919f2ec17952925100dcf961ab7fb5369df27c3fa652
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092158id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/kani1025_01_s.jpg
+- id: gamefreak-staff-bf4597eea19c
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/kani1025_02_s.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/40/kani1025_02_s-bf4597ee.jpg
+  sha256: 3d9eb666178111976c929cf3c6e57a437e1ef1f331230eb52cb0d89eccbd2554
+  width: 234
+  height: 314
+  wayback_url: https://web.archive.org/web/20130419092158id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/kani1025_02_s.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'

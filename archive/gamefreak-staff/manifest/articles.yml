@@ -1,0 +1,1929 @@
+schema_version: 1
+generated_at: '2026-08-28T05:15:53+00:00'
+mode: all
+blog:
+  slug: gamefreak-staff
+  root_url: http://www.gamefreak.co.jp/blog/staff/
+  snapshot: '20130808162750'
+  index_url: http://www.gamefreak.co.jp/blog/staff/?page_id=245
+  title_ja: 晴れたり時々曇ったり
+  title_zh: 晴时偶有阴
+  author_ja: ゲームフリークスタッフ
+  author_zh: GAME FREAK 员工
+  expected_count: 209
+  theme_css: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/style.css
+  header_asset: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/title.jpg
+  background_asset: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/bg.jpg
+network_requests: 206
+articles:
+- id: 3
+  archive_id: gamefreak-staff-3
+  date: '2007-08-01'
+  title: はじめましてのごあいさつ
+  lead: はじめまして。ゲームフリークスタッフのカニ子と申します。 ゲームフリークにWeb制作担当として入社しました。 これからよろしくお願いいたします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=3
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=3
+  raw_page: archive/gamefreak-staff/raw/posts/3.html
+- id: 5
+  archive_id: gamefreak-staff-5
+  date: '2007-08-07'
+  title: 夏の暑さにどりるれろ
+  lead: こんにちは、カニ子です。 暑さもきびしい今日この頃ですが、みなさまいかがお過ごしでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=5
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=5
+  raw_page: archive/gamefreak-staff/raw/posts/5.html
+- id: 9
+  archive_id: gamefreak-staff-9
+  date: '2007-08-10'
+  title: もういくつ寝ると
+  lead: 明日から夏休み！ のカニ子です。 大人になっても夏休みは楽しみ！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=9
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=9
+  raw_page: archive/gamefreak-staff/raw/posts/9.html
+- id: 13
+  archive_id: gamefreak-staff-13
+  date: '2007-08-22'
+  title: エノキのなつやすみ
+  lead: はじめまして、エノキです。 ゲームフリークのグラフィックデザイナーです。 お仕事はドットを並べて絵を描くことです。 このサイトのトップページのドット絵キャンバスでも遊んでいます！
+    ドットの可能性は無限大ですね。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=13
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=13
+  raw_page: archive/gamefreak-staff/raw/posts/13.html
+- id: 18
+  archive_id: gamefreak-staff-18
+  date: '2007-08-30'
+  title: ハワイの島の、いちばんあつい日
+  lead: はじめまして、よっしーです?。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=18
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=18
+  raw_page: archive/gamefreak-staff/raw/posts/18.html
+- id: 24
+  archive_id: gamefreak-staff-24
+  date: '2007-09-06'
+  title: ゲームフリークの名刺
+  lead: こんにちは！ お久しぶりのカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=24
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=24
+  raw_page: archive/gamefreak-staff/raw/posts/24.html
+- id: 26
+  archive_id: gamefreak-staff-26
+  date: '2007-09-13'
+  title: デコぼこクライミング！
+  lead: はじめまして、プランナーをしているデコです。 でこっぱちなデコは、体を動かすことが大好きです。 特に、仕組みやルールがよく分からないスポーツに挑戦するのは、
+    新鮮でとっても楽しい！ という訳で、今年の２月からフリークライミングを始めました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=26
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=26
+  raw_page: archive/gamefreak-staff/raw/posts/26.html
+- id: 30
+  archive_id: gamefreak-staff-30
+  date: '2007-09-21'
+  title: 謎のロッカー
+  lead: こんにちは、カニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=30
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=30
+  raw_page: archive/gamefreak-staff/raw/posts/30.html
+- id: 33
+  archive_id: gamefreak-staff-33
+  date: '2007-09-26'
+  title: 社内の流行しているゲーム
+  lead: はじめまして。 プログラマーのなぎーと申します。 入社して半年の新人ですが、よろしくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=33
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=33
+  raw_page: archive/gamefreak-staff/raw/posts/33.html
+- id: 35
+  archive_id: gamefreak-staff-35
+  date: '2007-10-02'
+  title: 大好きなポケモン
+  lead: 初めまして。プランナー＋サウンドのラッペンです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=35
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=35
+  raw_page: archive/gamefreak-staff/raw/posts/35.html
+- id: 36
+  archive_id: gamefreak-staff-36
+  date: '2007-10-12'
+  title: パーティ！
+  lead: こんにちは、エノキです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=36
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=36
+  raw_page: archive/gamefreak-staff/raw/posts/36.html
+- id: 37
+  archive_id: gamefreak-staff-37
+  date: '2007-10-17'
+  title: たのしくおかたづけ
+  lead: こんにちはー。 ハムスター牧場（ただいま部屋に14匹）のオーナー、ユッフィーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=37
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=37
+  raw_page: archive/gamefreak-staff/raw/posts/37.html
+- id: 38
+  archive_id: gamefreak-staff-38
+  date: '2007-10-19'
+  title: ポケモンカードゲーム大会！
+  lead: はじめまして。プランナーのマーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=38
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=38
+  raw_page: archive/gamefreak-staff/raw/posts/38.html
+- id: 39
+  archive_id: gamefreak-staff-39
+  date: '2007-10-23'
+  title: 秋のイベント♪
+  lead: こんにちは、ジョニです。 GFのグラフィックデザイナーで、イベント委員です。 イベント委員は、会社のイベントを考えたり準備したりするスタッフの集まりです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=39
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=39
+  raw_page: archive/gamefreak-staff/raw/posts/39.html
+- id: 40
+  archive_id: gamefreak-staff-40
+  date: '2007-10-26'
+  title: プチ秘密
+  lead: こんにちは、カニ子です。 引越しまでいよいよ一ヶ月切って、社内も慌ただしくなってきました。 とりあえずダンボールだらけです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=40
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=40
+  raw_page: archive/gamefreak-staff/raw/posts/40.html
+- id: 41
+  archive_id: gamefreak-staff-41
+  date: '2007-10-30'
+  title: 新卒採用始めました！
+  lead: 採用担当のもりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=41
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=41
+  raw_page: archive/gamefreak-staff/raw/posts/41.html
+- id: 42
+  archive_id: gamefreak-staff-42
+  date: '2007-11-09'
+  title: ドッツ
+  lead: GFのプログラマー スティックです。はじめまして！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=42
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=42
+  raw_page: archive/gamefreak-staff/raw/posts/42.html
+- id: 43
+  archive_id: gamefreak-staff-43
+  date: '2007-11-13'
+  title: ファミコンショップGF
+  lead: はじめまして、コンニチハ。 コレクター・・・じゃなかった、グラフィックデザイナーをやっています、おにいさんです。 最近すっかり寒くなってきましたね?。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=43
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=43
+  raw_page: archive/gamefreak-staff/raw/posts/43.html
+- id: 44
+  archive_id: gamefreak-staff-44
+  date: '2007-11-15'
+  title: さよなら下北沢
+  lead: もりもとです。 いよいよ来週、ゲームフリークは三軒茶屋にお引っ越しです。 今晩にはネットワークも止まってしまうので、今日が下北沢最後のブログとなります。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=44
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=44
+  raw_page: archive/gamefreak-staff/raw/posts/44.html
+- id: 45
+  archive_id: gamefreak-staff-45
+  date: '2007-11-19'
+  title: こんにちは！ 三軒茶屋！
+  lead: カニ子です。 引越ししました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=45
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=45
+  raw_page: archive/gamefreak-staff/raw/posts/45.html
+- id: 46
+  archive_id: gamefreak-staff-46
+  date: '2007-11-22'
+  title: しばしの旅気分
+  lead: カニ子です。 引越し後なにかとばたばたしている社内ですが、 先日窓の外をふと見るといいものが見えました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=46
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=46
+  raw_page: archive/gamefreak-staff/raw/posts/46.html
+- id: 47
+  archive_id: gamefreak-staff-47
+  date: '2007-12-06'
+  title: げいのう話
+  lead: はじめましてー！ プランナーでシナリオを書いたりしている、げいのうです。 むかーし、むかーし、ゲームフリークが出来る前に アイドルのマネージャーをやってたけどゲームのやりすぎでクビになった、
+    という嘘のプロフィールでゲームの記事を書いていた頃の名前です。 久しぶりに名乗ってみましたよ。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=47
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=47
+  raw_page: archive/gamefreak-staff/raw/posts/47.html
+- id: 48
+  archive_id: gamefreak-staff-48
+  date: '2007-12-17'
+  title: 楽しい時間の過ごし方
+  lead: みなさんこんにちは。情報管理のディアです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=48
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=48
+  raw_page: archive/gamefreak-staff/raw/posts/48.html
+- id: 49
+  archive_id: gamefreak-staff-49
+  date: '2007-12-20'
+  title: しゃちのアクアリウム日記
+  lead: みなさん、こんにちは。プログラム担当の「しゃち」です。 名前負けしないくらい、でっかくて強い？プログラマになるぞ！ と日々修行中のしゃちですが、新しい社屋に引っ越してからというもの
+    日課にしていることがあります。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=49
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=49
+  raw_page: archive/gamefreak-staff/raw/posts/49.html
+- id: 50
+  archive_id: gamefreak-staff-50
+  date: '2007-12-27'
+  title: 今年ももうすぐ終わりですね
+  lead: 皆さん！初めましてゲームフリークのつばっさーです！ よろしくお願いいたします！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=50
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=50
+  raw_page: archive/gamefreak-staff/raw/posts/50.html
+- id: 51
+  archive_id: gamefreak-staff-51
+  date: '2008-01-07'
+  title: 年賀ドットコンテスト、開催！
+  lead: あけましておめでとうございます。 Web担当のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=51
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=51
+  raw_page: archive/gamefreak-staff/raw/posts/51.html
+- id: 52
+  archive_id: gamefreak-staff-52
+  date: '2008-01-11'
+  title: 会社説明会、開催！
+  lead: 採用担当のもりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=52
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=52
+  raw_page: archive/gamefreak-staff/raw/posts/52.html
+- id: 53
+  archive_id: gamefreak-staff-53
+  date: '2008-01-16'
+  title: ファミコンのカタチ
+  lead: お久しぶりです。 おにいさんです。 ファミコンカセットの基盤部分に息を『フゥー！』と吹きかけると、 何故差しやすくなるのかものすごく知りたい、おにいさんです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=53
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=53
+  raw_page: archive/gamefreak-staff/raw/posts/53.html
+- id: 54
+  archive_id: gamefreak-staff-54
+  date: '2008-01-25'
+  title: すきー。
+  lead: 皆さんはじめまして。 スタッフボイス初登場のプログラマーおせんべいです。 生まれも育ちも新潟県の雪っ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=54
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=54
+  raw_page: archive/gamefreak-staff/raw/posts/54.html
+- id: 55
+  archive_id: gamefreak-staff-55
+  date: '2008-01-28'
+  title: 迫る！ しめきり
+  lead: こんにちは、Web担当のカニ子です。 早いものでもう1月も末… 年賀ドットコンテストの締め切りが近づいてまいりました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=55
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=55
+  raw_page: archive/gamefreak-staff/raw/posts/55.html
+- id: 56
+  archive_id: gamefreak-staff-56
+  date: '2008-02-07'
+  title: 社内ポケモンDPゲーム大会開催
+  lead: お久しぶりです。なぎーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=56
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=56
+  raw_page: archive/gamefreak-staff/raw/posts/56.html
+- id: 57
+  archive_id: gamefreak-staff-57
+  date: '2008-02-14'
+  title: 年賀ドットコンテスト、結果発表！
+  lead: Web担当のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=57
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=57
+  raw_page: archive/gamefreak-staff/raw/posts/57.html
+- id: 58
+  archive_id: gamefreak-staff-58
+  date: '2008-02-15'
+  title: クライスラーは笑う
+  lead: みなさんこんにちわー！グラフィックデザイナーのねこスQです。 皆さん如何御過ごしでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=58
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=58
+  raw_page: archive/gamefreak-staff/raw/posts/58.html
+- id: 59
+  archive_id: gamefreak-staff-59
+  date: '2008-02-21'
+  title: 世田谷線のミニチュア
+  lead: はじめまして、サウンド兼、プランナーの『っゃっゃ』です。 最近、念願のデジタル一眼レフカメラを買ってニコニコです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=59
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=59
+  raw_page: archive/gamefreak-staff/raw/posts/59.html
+- id: 60
+  archive_id: gamefreak-staff-60
+  date: '2008-02-29'
+  title: No Video Games, No Life.
+  lead: Hello there!
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=60
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=60
+  raw_page: archive/gamefreak-staff/raw/posts/60.html
+- id: 61
+  archive_id: gamefreak-staff-61
+  date: '2008-03-06'
+  title: サウンド講習会
+  lead: お久しぶりですWeb担当のカニ子です。 暖かくなってきたけど、花粉症つらいですね。 ゲームフリークでも泣いている人が多いです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=61
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=61
+  raw_page: archive/gamefreak-staff/raw/posts/61.html
+- id: 62
+  archive_id: gamefreak-staff-62
+  date: '2008-03-14'
+  title: ケーキ祭り
+  lead: カニ子です。 今日はホワイトデーですね。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=62
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=62
+  raw_page: archive/gamefreak-staff/raw/posts/62.html
+- id: 63
+  archive_id: gamefreak-staff-63
+  date: '2008-03-24'
+  title: 技術の伝承
+  lead: こんにちは。三味線弾きのげいのうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=63
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=63
+  raw_page: archive/gamefreak-staff/raw/posts/63.html
+- id: 65
+  archive_id: gamefreak-staff-65
+  date: '2008-04-03'
+  title: 杉森建のドット絵講座
+  lead: こんにちは、グラフィックデザイナーのエノキです。 今日は、先日行われた社内の講習会の様子をレポートしちゃいます。 今回行われたのは「杉森建のドット絵講座」です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=65
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=65
+  raw_page: archive/gamefreak-staff/raw/posts/65.html
+- id: 66
+  archive_id: gamefreak-staff-66
+  date: '2008-04-11'
+  title: ピッピ牧場
+  lead: はじめまして、もりもとのライバル兼プランナーのカビです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=66
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=66
+  raw_page: archive/gamefreak-staff/raw/posts/66.html
+- id: 67
+  archive_id: gamefreak-staff-67
+  date: '2008-04-18'
+  title: いしかわけん！
+  lead: 皆さん、お初にお目にかかります。 今年４月に入社したばかりの新米ほやほやプランナーのえるかつです。 ゴジラ松井の故郷、石川県からやってきました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=67
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=67
+  raw_page: archive/gamefreak-staff/raw/posts/67.html
+- id: 68
+  archive_id: gamefreak-staff-68
+  date: '2008-04-25'
+  title: 研修生活
+  lead: はじめまして。四月に入社した新人グラフィックデザイナーのマシューです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=68
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=68
+  raw_page: archive/gamefreak-staff/raw/posts/68.html
+- id: 69
+  archive_id: gamefreak-staff-69
+  date: '2008-05-09'
+  title: それぞれのゴールデンウィーク
+  lead: Web担当のカニ子です。先週はゴールデンウィークでした！ ゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=69
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=69
+  raw_page: archive/gamefreak-staff/raw/posts/69.html
+- id: 70
+  archive_id: gamefreak-staff-70
+  date: '2008-05-16'
+  title: 会社対抗ポケモンDPゲーム大会開催
+  lead: お久しぶりです。 なぎーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=70
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=70
+  raw_page: archive/gamefreak-staff/raw/posts/70.html
+- id: 71
+  archive_id: gamefreak-staff-71
+  date: '2008-05-23'
+  title: 22階の恐怖
+  lead: スティックです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=71
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=71
+  raw_page: archive/gamefreak-staff/raw/posts/71.html
+- id: 72
+  archive_id: gamefreak-staff-72
+  date: '2008-05-30'
+  title: 週末のスリル
+  lead: カニ子です。 先週末は友達と温泉旅行に行ってまいりました！ 泊まった宿の近所にあった工房でガラス吹き体験をしてきました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=72
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=72
+  raw_page: archive/gamefreak-staff/raw/posts/72.html
+- id: 73
+  archive_id: gamefreak-staff-73
+  date: '2008-06-06'
+  title: つゆやきそば
+  lead: スタッフボイスをご覧のみなさん、はじめまして！ プランナーのG麺です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=73
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=73
+  raw_page: archive/gamefreak-staff/raw/posts/73.html
+- id: 74
+  archive_id: gamefreak-staff-74
+  date: '2008-06-11'
+  title: 採用：２次募集の日程が決まりました！
+  lead: 採用担当のもりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=74
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=74
+  raw_page: archive/gamefreak-staff/raw/posts/74.html
+- id: 75
+  archive_id: gamefreak-staff-75
+  date: '2008-06-13'
+  title: しゃちの梅雨日記
+  lead: おひさしぶりです、しゃちです。すっかり梅雨ですね！ じめじめ、じとじと。梅雨はキライ！という方も多いのではないでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=75
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=75
+  raw_page: archive/gamefreak-staff/raw/posts/75.html
+- id: 76
+  archive_id: gamefreak-staff-76
+  date: '2008-06-17'
+  title: ゲームフリークひみつきち、公開！
+  lead: こんにちは、Web担当のカニ子です。 今日から 「ゲームフリークひみつきち」 という オタノシミコンテンツが新たに追加されました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=76
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=76
+  raw_page: archive/gamefreak-staff/raw/posts/76.html
+- id: 78
+  archive_id: gamefreak-staff-78
+  date: '2008-07-01'
+  title: 採用：本日から新卒採用二次募集スタートです！
+  lead: こんにちは！そして初めまして。 ゲームフリーク採用担当のさとうと申します。 どうぞよろしくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=78
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=78
+  raw_page: archive/gamefreak-staff/raw/posts/78.html
+- id: 79
+  archive_id: gamefreak-staff-79
+  date: '2008-07-11'
+  title: 研修期間終了！
+  lead: はじめまして！ 今年の春に入社したプランナーの、いわしです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=79
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=79
+  raw_page: archive/gamefreak-staff/raw/posts/79.html
+- id: 80
+  archive_id: gamefreak-staff-80
+  date: '2008-07-18'
+  title: ポケモン☆サンデー放映！
+  lead: はじめまして。 ポケットモンスタープラチナのディレクターかわちまるです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=80
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=80
+  raw_page: archive/gamefreak-staff/raw/posts/80.html
+- id: 81
+  archive_id: gamefreak-staff-81
+  date: '2008-07-24'
+  title: 恐怖！ 金縛り体験
+  lead: どうも、こんにちわ！ さり気なく ゴールデンウィークの記事 で初登場していた、 入社二年目プログラマーのほっしーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=81
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=81
+  raw_page: archive/gamefreak-staff/raw/posts/81.html
+- id: 82
+  archive_id: gamefreak-staff-82
+  date: '2008-08-01'
+  title: Nintendo 2008 E3 Media Briefing
+  lead: お久しぶりです。グラフィックのジョニーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=82
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=82
+  raw_page: archive/gamefreak-staff/raw/posts/82.html
+- id: 83
+  archive_id: gamefreak-staff-83
+  date: '2008-08-07'
+  title: タイ行ってきました！
+  lead: こんにちは、カニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=83
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=83
+  raw_page: archive/gamefreak-staff/raw/posts/83.html
+- id: 84
+  archive_id: gamefreak-staff-84
+  date: '2008-08-22'
+  title: それぞれの夏
+  lead: Web担当のカニ子です。先週はみんなでお盆休みでした！ 恒例ゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=84
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=84
+  raw_page: archive/gamefreak-staff/raw/posts/84.html
+- id: 85
+  archive_id: gamefreak-staff-85
+  date: '2008-08-29'
+  title: ポケモンカードゲーム大会 葉月の陣！
+  lead: みなさんこんにちは！ お久しぶりのナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=85
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=85
+  raw_page: archive/gamefreak-staff/raw/posts/85.html
+- id: 86
+  archive_id: gamefreak-staff-86
+  date: '2008-09-05'
+  title: 採用：たくさんのご応募ありがとうございます！
+  lead: 採用担当のさとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=86
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=86
+  raw_page: archive/gamefreak-staff/raw/posts/86.html
+- id: 87
+  archive_id: gamefreak-staff-87
+  date: '2008-09-12'
+  title: ポケットモンスター プラチナ明日発売です！
+  lead: こんにちは。 ポケットモンスター プラチナのディレクターかわちまるです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=87
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=87
+  raw_page: archive/gamefreak-staff/raw/posts/87.html
+- id: 88
+  archive_id: gamefreak-staff-88
+  date: '2008-09-19'
+  title: なつはポケモン！
+  lead: こんにちは！グラフィックデザイナーのエノキです。 急に涼しくなって、あぁ夏がおわっていくなぁと実感しますね。 思えば夏ってふしぎな季節。 なんだかわくわくピカピカ、特別な時間！って感じるのは、
+    大人になってからも変わりません。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=88
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=88
+  raw_page: archive/gamefreak-staff/raw/posts/88.html
+- id: 89
+  archive_id: gamefreak-staff-89
+  date: '2008-09-26'
+  title: プラチナここだけの話 その１
+  lead: みなさん！ 突然ですが、ここでポケットモンスター プラチナの発売を記念しまして、 『プラチナここだけの話』と題して、全３週にわたり開発部各リーダーの裏話的な
+    ちょっと濃いお話ができたらと思っていますので、お楽しみに！！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=89
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=89
+  raw_page: archive/gamefreak-staff/raw/posts/89.html
+- id: 90
+  archive_id: gamefreak-staff-90
+  date: '2008-10-03'
+  title: プラチナここだけの話 その２
+  lead: みなさん、こんにちは！ プラチナでプランニングリーダーを担当していた、 ゲームデザイナーの太田と申します。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=90
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=90
+  raw_page: archive/gamefreak-staff/raw/posts/90.html
+- id: 91
+  archive_id: gamefreak-staff-91
+  date: '2008-10-10'
+  title: プラチナここだけの話 その３
+  lead: みなさん、始めまして！ ポケットモンスター プラチナのプログラムリーダー、松田です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=91
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=91
+  raw_page: archive/gamefreak-staff/raw/posts/91.html
+- id: 92
+  archive_id: gamefreak-staff-92
+  date: '2008-10-17'
+  title: 秋のイベント なし・ぶどう狩り
+  lead: スティックです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=92
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=92
+  raw_page: archive/gamefreak-staff/raw/posts/92.html
+- id: 93
+  archive_id: gamefreak-staff-93
+  date: '2008-10-24'
+  title: 3Dグラフィック講習会
+  lead: みなさんこんにちは！ ナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=93
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=93
+  raw_page: archive/gamefreak-staff/raw/posts/93.html
+- id: 94
+  archive_id: gamefreak-staff-94
+  date: '2008-10-31'
+  title: 太平燕
+  lead: スタッフボイスをご覧のみなさま、ご無沙汰しています
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=94
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=94
+  raw_page: archive/gamefreak-staff/raw/posts/94.html
+- id: 95
+  archive_id: gamefreak-staff-95
+  date: '2008-11-07'
+  title: coming soon！
+  lead: こんにちは、Web開発のカニ子です。 ゲームフリークでは先月末あたりに風邪が大流行して一瞬危機でした。 今はみんな復活したので良かったです。健康大事ですね。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=95
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=95
+  raw_page: archive/gamefreak-staff/raw/posts/95.html
+- id: 96
+  archive_id: gamefreak-staff-96
+  date: '2008-11-10'
+  title: 公開！モジヅラ
+  lead: こんにちは！ Web担当のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=96
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=96
+  raw_page: archive/gamefreak-staff/raw/posts/96.html
+- id: 97
+  archive_id: gamefreak-staff-97
+  date: '2008-11-14'
+  title: プラチナここだけの話 番外編
+  lead: こんにちは、サウンドデザイナーの佐藤と申します。 プラチナのサウンドは効果音を野原、ＢＧＭを佐藤の２人で担当しました。 前の記事で、各リーダーがプラチナの内容について語りましたが、
+    今回は番外編ということで、プラチナのサウンドについてもお話をしたいと思います！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=97
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=97
+  raw_page: archive/gamefreak-staff/raw/posts/97.html
+- id: 98
+  archive_id: gamefreak-staff-98
+  date: '2008-11-20'
+  title: 世界を守ってます
+  lead: みなさん、はじめまして。 開発部情報管理のユーリーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=98
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=98
+  raw_page: archive/gamefreak-staff/raw/posts/98.html
+- id: 99
+  archive_id: gamefreak-staff-99
+  date: '2008-12-01'
+  title: ポケモンプラチナバトル大会開催
+  lead: こんにちは。 プランナーのいわしです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=99
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=99
+  raw_page: archive/gamefreak-staff/raw/posts/99.html
+- id: 100
+  archive_id: gamefreak-staff-100
+  date: '2008-12-05'
+  title: ポケモンプラチナバトル大会決勝
+  lead: こんにちは！ プランナーのいわしです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=100
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=100
+  raw_page: archive/gamefreak-staff/raw/posts/100.html
+- id: 101
+  archive_id: gamefreak-staff-101
+  date: '2008-12-12'
+  title: グラフィックデザイナー歴8ヶ月
+  lead: はじめまして、今年もあと僅かですね。 今年の4月に入社したグラフィックデザイナーのカラシです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=101
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=101
+  raw_page: archive/gamefreak-staff/raw/posts/101.html
+- id: 102
+  archive_id: gamefreak-staff-102
+  date: '2008-12-19'
+  title: 忘年会２００８！
+  lead: スティックです！ 師走と言えば忘年会ですね。 忘年会と言えばイベント委員会の出番！ という事で今年もゲームフリーク忘年会が開催されました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=102
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=102
+  raw_page: archive/gamefreak-staff/raw/posts/102.html
+- id: 103
+  archive_id: gamefreak-staff-103
+  date: '2008-12-22'
+  title: メリーなんとか
+  lead: いやー もうすぐクリなんとかですね。 ゲームフリークでもツリーが飾られているのでご紹介します。 まぁ、いつも通りの出勤日ですけどね…。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=103
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=103
+  raw_page: archive/gamefreak-staff/raw/posts/103.html
+- id: 104
+  archive_id: gamefreak-staff-104
+  date: '2008-12-26'
+  title: 仕事納め／年賀ドットコンテスト告知
+  lead: こんにちは！ Web開発のカニ子です。 忘年会シーズンですが皆様カニ食べてますか？
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=104
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=104
+  raw_page: archive/gamefreak-staff/raw/posts/104.html
+- id: 105
+  archive_id: gamefreak-staff-105
+  date: '2009-01-06'
+  title: 年始のご挨拶
+  lead: 半年ぶりのもりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=105
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=105
+  raw_page: archive/gamefreak-staff/raw/posts/105.html
+- id: 106
+  archive_id: gamefreak-staff-106
+  date: '2009-01-09'
+  title: それぞれの冬’09！
+  lead: こんにちは、Web開発のカニ子です。 休み明け恒例企画。「みんな休み中何してましたか？」を ゲームフリークスタッフのみんなに聞いてみました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=106
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=106
+  raw_page: archive/gamefreak-staff/raw/posts/106.html
+- id: 107
+  archive_id: gamefreak-staff-107
+  date: '2009-01-13'
+  title: 迫る！ 年賀ドットコンテスト〆切
+  lead: こんにちは、Web開発のカニ子です。 早いものでもう1月も中旬… 年賀ドットコンテスト の締め切りが近づいてまいりました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=107
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=107
+  raw_page: archive/gamefreak-staff/raw/posts/107.html
+- id: 108
+  archive_id: gamefreak-staff-108
+  date: '2009-01-16'
+  title: 究極のコレクション
+  lead: こんにちは！ ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。 皆さんとは約１年ぶりの再会になりますね?。 お元気でしたか？
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=108
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=108
+  raw_page: archive/gamefreak-staff/raw/posts/108.html
+- id: 109
+  archive_id: gamefreak-staff-109
+  date: '2009-01-23'
+  title: 店員と客の会話
+  lead: はじめまして。プログラマーのギンです。 毎日くだらないことを考えるのを趣味にしています。 今日はそんな考え事のひとつを書いてみたいと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=109
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=109
+  raw_page: archive/gamefreak-staff/raw/posts/109.html
+- id: 110
+  archive_id: gamefreak-staff-110
+  date: '2009-01-30'
+  title: 音楽をはじめたきっかけ
+  lead: ゲームフリークのスタッフボイスをご覧のみなさま、はじめまして。 サウンドデザイナーのKAGEです。 サウンド専任で、主にBGMの作編曲の仕事をしています。
+    今回は僕が音楽を始めることになったきっかけについて、 お話したいと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=110
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=110
+  raw_page: archive/gamefreak-staff/raw/posts/110.html
+- id: 111
+  archive_id: gamefreak-staff-111
+  date: '2009-02-02'
+  title: 年賀ドットコンテスト09、結果発表！
+  lead: Web担当のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=111
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=111
+  raw_page: archive/gamefreak-staff/raw/posts/111.html
+- id: 112
+  archive_id: gamefreak-staff-112
+  date: '2009-02-06'
+  title: １０年前の自分に伝えたい事
+  lead: プログラマーのスティックです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=112
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=112
+  raw_page: archive/gamefreak-staff/raw/posts/112.html
+- id: 113
+  archive_id: gamefreak-staff-113
+  date: '2009-02-16'
+  title: 会社説明会開催しました
+  lead: こんにちは。採用担当さとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=113
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=113
+  raw_page: archive/gamefreak-staff/raw/posts/113.html
+- id: 114
+  archive_id: gamefreak-staff-114
+  date: '2009-02-23'
+  title: 会社説明会に出席して
+  lead: こんにちは、Web開発のカニ子です。 先日行われたゲームフリーク会社説明会ですが、 懇談会に出席したスタッフに説明会の感想を聞いてみました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=114
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=114
+  raw_page: archive/gamefreak-staff/raw/posts/114.html
+- id: 115
+  archive_id: gamefreak-staff-115
+  date: '2009-02-27'
+  title: まぼろしの緑ナンバー
+  lead: ユッフィーです。 三十代です。 ハムスター大好きです。 ちょっと前にベトナムに行ったときの話をさせていただきます。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=115
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=115
+  raw_page: archive/gamefreak-staff/raw/posts/115.html
+- id: 116
+  archive_id: gamefreak-staff-116
+  date: '2009-03-06'
+  title: こねこね土いじり
+  lead: こんにちは、デコです。 寒さに負けず、運動していますか？ 久しぶりの登場となったデコですが、 今回は、２年前から習っている「陶芸」についてお話したいと思います。
+    技術的なことに関しては、語れるほど上手くないので、 陶芸が楽しいと感じている部分について、書きたいと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=116
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=116
+  raw_page: archive/gamefreak-staff/raw/posts/116.html
+- id: 117
+  archive_id: gamefreak-staff-117
+  date: '2009-03-13'
+  title: ボードゲーム会
+  lead: みなさんお久しぶりです！ ナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=117
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=117
+  raw_page: archive/gamefreak-staff/raw/posts/117.html
+- id: 118
+  archive_id: gamefreak-staff-118
+  date: '2009-03-27'
+  title: 東京マラソン ?東京がひとつになる日?
+  lead: こんにちは、総務部のボーダー丸です。 3月22日に開催された東京マラソンに参加してきました?。 3万5千人もの人が東京を走る大イベント！！ しかもボーダー丸はフルマラソン初挑戦です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=118
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=118
+  raw_page: archive/gamefreak-staff/raw/posts/118.html
+- id: 120
+  archive_id: gamefreak-staff-120
+  date: '2009-04-03'
+  title: 10年前の自分に伝えたい事 パート２
+  lead: グラフィックデザイナーのおにいさんです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=120
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=120
+  raw_page: archive/gamefreak-staff/raw/posts/120.html
+- id: 121
+  archive_id: gamefreak-staff-121
+  date: '2009-04-10'
+  title: にゅーかまー！
+  lead: ２０代を過ぎると１年が一瞬だ。なんて世間で言いますが こんなに早いとは思いませんでした。１年ぶりの登場になります。 永井豪先生の出身地、石川県からやって来たプランナーのえるかつです。
+    皆さん、お元気でしたでしょうか？
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=121
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=121
+  raw_page: archive/gamefreak-staff/raw/posts/121.html
+- id: 122
+  archive_id: gamefreak-staff-122
+  date: '2009-04-17'
+  title: ゲームフリークの先輩たち
+  lead: はじめまして、新人プランナーのほずです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=122
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=122
+  raw_page: archive/gamefreak-staff/raw/posts/122.html
+- id: 123
+  archive_id: gamefreak-staff-123
+  date: '2009-04-27'
+  title: ゲームフリーク20周年式典！
+  lead: 突然ですが、皆さんは何歳ですか？ 10代の方も、20代の方も、 もしかすると、60代の方も見ていらっしゃるかもしれません。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=123
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=123
+  raw_page: archive/gamefreak-staff/raw/posts/123.html
+- id: 124
+  archive_id: gamefreak-staff-124
+  date: '2009-05-01'
+  title: プログラマーの新人研修
+  lead: こんにちは。 ゲームフリークプログラマーの玉田です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=124
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=124
+  raw_page: archive/gamefreak-staff/raw/posts/124.html
+- id: 125
+  archive_id: gamefreak-staff-125
+  date: '2009-05-08'
+  title: 動物園で発見！
+  lead: スタッフブログをご覧のみなさま、こんにちは。 グラフィックデザイナーのマシューです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=125
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=125
+  raw_page: archive/gamefreak-staff/raw/posts/125.html
+- id: 126
+  archive_id: gamefreak-staff-126
+  date: '2009-05-18'
+  title: お待たせしました！
+  lead: もりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=126
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=126
+  raw_page: archive/gamefreak-staff/raw/posts/126.html
+- id: 127
+  archive_id: gamefreak-staff-127
+  date: '2009-05-22'
+  title: 体、鍛えてます！
+  lead: はじめまして！グラフィックデザイナーのカンタロウです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=127
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=127
+  raw_page: archive/gamefreak-staff/raw/posts/127.html
+- id: 128
+  archive_id: gamefreak-staff-128
+  date: '2009-05-29'
+  title: 俺のゲーム
+  lead: プログラマーのギンです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=128
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=128
+  raw_page: archive/gamefreak-staff/raw/posts/128.html
+- id: 129
+  archive_id: gamefreak-staff-129
+  date: '2009-06-05'
+  title: 犬との生活
+  lead: こんにちは！ 社会人暦２年目！に突入したグラフィックデザイナーのカラシです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=129
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=129
+  raw_page: archive/gamefreak-staff/raw/posts/129.html
+- id: 130
+  archive_id: gamefreak-staff-130
+  date: '2009-06-12'
+  title: 週末の習い事
+  lead: お久しぶりです！グラフィックデザイナーのジョニーです。 今回は私の週末の習いごとについてお話させて頂きます。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=130
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=130
+  raw_page: archive/gamefreak-staff/raw/posts/130.html
+- id: 131
+  archive_id: gamefreak-staff-131
+  date: '2009-06-19'
+  title: 一生読みたい少女漫画
+  lead: こんにちは！ゴクリン愛好家のラッペンです。 今回も趣味に走った話をしますよー！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=131
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=131
+  raw_page: archive/gamefreak-staff/raw/posts/131.html
+- id: 132
+  archive_id: gamefreak-staff-132
+  date: '2009-06-26'
+  title: 採用：採用はご縁
+  lead: こんにちは！採用担当のさとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=132
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=132
+  raw_page: archive/gamefreak-staff/raw/posts/132.html
+- id: 133
+  archive_id: gamefreak-staff-133
+  date: '2009-07-03'
+  title: 初ミュージカル
+  lead: お久しぶりのWeb開発のカニ子です。 先日人生初めてミュージカルを見に行ってきました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=133
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=133
+  raw_page: archive/gamefreak-staff/raw/posts/133.html
+- id: 134
+  archive_id: gamefreak-staff-134
+  date: '2009-07-10'
+  title: アンケートにみるゲームフリーク社員
+  lead: 梅雨の季節、みなさんお元気ですか？ ナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=134
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=134
+  raw_page: archive/gamefreak-staff/raw/posts/134.html
+- id: 135
+  archive_id: gamefreak-staff-135
+  date: '2009-07-17'
+  title: ライブ大好き
+  lead: ネットワークの 電線 です。ゲームを作る人ではありませんが、 ゲームフリークでコンピュータ関係の助っ人をしています。 コンピュータってよくダダをこねるので、「よしよし」となだめます。
+    すると、だいたい言うことを聞いてくれるんですよ！ 他にも、サーバというコンピュータの親玉を作ったり、配線の調節をしたり メールやインターネットがきちんと使えるようにしています。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=135
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=135
+  raw_page: archive/gamefreak-staff/raw/posts/135.html
+- id: 136
+  archive_id: gamefreak-staff-136
+  date: '2009-07-24'
+  title: 日食2009
+  lead: こんにちは！ Web開発のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=136
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=136
+  raw_page: archive/gamefreak-staff/raw/posts/136.html
+- id: 137
+  archive_id: gamefreak-staff-137
+  date: '2009-07-31'
+  title: 中途の新人から見たGF
+  lead: 入社して3ヶ月弱の新人、じだぬです。 とはいっても中途入社なのでフレッシュさには欠けますが…。 仕事は『情報管理』を担当しています。 情報管理のお仕事の内容は
+    過去のユーリーの記事 をご覧下さい。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=137
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=137
+  raw_page: archive/gamefreak-staff/raw/posts/137.html
+- id: 138
+  archive_id: gamefreak-staff-138
+  date: '2009-08-06'
+  title: 時間の価値
+  lead: プランナーのほずです。 研修期間3ヶ月を経て、ついに・・・
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=138
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=138
+  raw_page: archive/gamefreak-staff/raw/posts/138.html
+- id: 139
+  archive_id: gamefreak-staff-139
+  date: '2009-08-21'
+  title: それぞれの夏2009
+  lead: こんにちは、カニ子です。 先週は更新をお休みしたスタッフボイスですが、 ゲームフリークは夏期休暇に入っていました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=139
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=139
+  raw_page: archive/gamefreak-staff/raw/posts/139.html
+- id: 140
+  archive_id: gamefreak-staff-140
+  date: '2009-08-28'
+  title: しゃちの夏、日本の夏
+  lead: こんにちは、プログラマーのしゃちです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=140
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=140
+  raw_page: archive/gamefreak-staff/raw/posts/140.html
+- id: 141
+  archive_id: gamefreak-staff-141
+  date: '2009-09-04'
+  title: 中途採用特設サイト公開！
+  lead: こんにちは、Web開発のカニ子です。 涼しくなってきましたが皆様いかがお過ごしでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=141
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=141
+  raw_page: archive/gamefreak-staff/raw/posts/141.html
+- id: 142
+  archive_id: gamefreak-staff-142
+  date: '2009-09-11'
+  title: ハートゴールド・ソウルシルバー 明日発売です！
+  lead: 『ポケットモンスター ハートゴールド・ソウルシルバー』 ディレクターのもりもとです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=142
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=142
+  raw_page: archive/gamefreak-staff/raw/posts/142.html
+- id: 143
+  archive_id: gamefreak-staff-143
+  date: '2009-09-14'
+  title: 中途採用がアツイ訳。
+  lead: こんにちは！採用担当のさとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=143
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=143
+  raw_page: archive/gamefreak-staff/raw/posts/143.html
+- id: 144
+  archive_id: gamefreak-staff-144
+  date: '2009-09-18'
+  title: みんなで行こう！工場見学
+  lead: こんにちは！ ご無沙汰してます。 プランナーのいわしです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=144
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=144
+  raw_page: archive/gamefreak-staff/raw/posts/144.html
+- id: 145
+  archive_id: gamefreak-staff-145
+  date: '2009-09-25'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その１
+  lead: こんにちは！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=145
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=145
+  raw_page: archive/gamefreak-staff/raw/posts/145.html
+- id: 146
+  archive_id: gamefreak-staff-146
+  date: '2009-10-01'
+  title: 2011年度新卒採用開始しました！
+  lead: こんにちは。採用担当のさとうです。 今日から10月！朝晩の涼しさで本格的な秋を感じますね?。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=146
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=146
+  raw_page: archive/gamefreak-staff/raw/posts/146.html
+- id: 147
+  archive_id: gamefreak-staff-147
+  date: '2009-10-02'
+  title: 殺菌乳酸菌
+  lead: おひさしぶりです。 ハートゴールド・ソウルシルバーの開発に参加していたら、 いつのまにやら入社三年目になっていたプログラマのほっしーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=147
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=147
+  raw_page: archive/gamefreak-staff/raw/posts/147.html
+- id: 148
+  archive_id: gamefreak-staff-148
+  date: '2009-10-09'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その2
+  lead: こんにちは！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=148
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=148
+  raw_page: archive/gamefreak-staff/raw/posts/148.html
+- id: 149
+  archive_id: gamefreak-staff-149
+  date: '2009-10-16'
+  title: 猫がやってきた！
+  lead: グラフィックデザイナーのエノキです。 お久しぶりです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=149
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=149
+  raw_page: archive/gamefreak-staff/raw/posts/149.html
+- id: 150
+  archive_id: gamefreak-staff-150
+  date: '2009-10-23'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その3
+  lead: はじめまして縲怐B グラフィックデザイナーのおおむらと申します。 とつぜんですがみなさん、うつくしい汗、流してますか？ 「本格的なスポーツは大変…」
+    「走るの いやなの」 「そもそも部屋から出るとか面倒くさいじゃないですか」 そんな方におすすめの、なんとなく体を動かした気分になる方法…
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=150
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=150
+  raw_page: archive/gamefreak-staff/raw/posts/150.html
+- id: 151
+  archive_id: gamefreak-staff-151
+  date: '2009-10-27'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その4
+  lead: 開発部サウンドの一之瀬です！ ポケットモンスター ハートゴールド・ソウルシルバー（以下ＨＧ・ＳＳ） ではサウンドリーダーを務めました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=151
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=151
+  raw_page: archive/gamefreak-staff/raw/posts/151.html
+- id: 152
+  archive_id: gamefreak-staff-152
+  date: '2009-10-30'
+  title: うどんを通じて学んだ事
+  lead: こんにちは！ Web担当のカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=152
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=152
+  raw_page: archive/gamefreak-staff/raw/posts/152.html
+- id: 153
+  archive_id: gamefreak-staff-153
+  date: '2009-11-06'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その５
+  lead: こんにちは、開発部サウンドの景山将太です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=153
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=153
+  raw_page: archive/gamefreak-staff/raw/posts/153.html
+- id: 154
+  archive_id: gamefreak-staff-154
+  date: '2009-11-13'
+  title: ソース焼きそば
+  lead: 「カレーライスは飲み物」で検索すると、ものすごい数の記事が出てきますね。 同じくカレーライスを噛まないラッペンです。 噛まなければカレーも一生食べられますよね縲怐Bお久しぶりです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=154
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=154
+  raw_page: archive/gamefreak-staff/raw/posts/154.html
+- id: 155
+  archive_id: gamefreak-staff-155
+  date: '2009-11-20'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その6
+  lead: みなさま、はじめまして！ ハートゴールド・ソウルシルバー（以下HG・SS）、アートディレクター海野です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=155
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=155
+  raw_page: archive/gamefreak-staff/raw/posts/155.html
+- id: 156
+  archive_id: gamefreak-staff-156
+  date: '2009-11-26'
+  title: ＨＧ・ＳＳ 語っちゃいます！ 番外編
+  lead: こんにちは。 プランナーのマーでございます。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=156
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=156
+  raw_page: archive/gamefreak-staff/raw/posts/156.html
+- id: 157
+  archive_id: gamefreak-staff-157
+  date: '2009-12-04'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その7
+  lead: みなさん、はじめまして！ グラフィックデザイナーの鶴田と申します。 ポケットモンスター ハートゴールド・ソウルシルバーでは 主に連れ歩きポケモンのグラフィックを担当いたしました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=157
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=157
+  raw_page: archive/gamefreak-staff/raw/posts/157.html
+- id: 159
+  archive_id: gamefreak-staff-159
+  date: '2009-12-11'
+  title: 金沢カレー
+  lead: 空からおたまじゃくしが降ってきた 石川県でお馴染みのプランナーのえるかつです。 半年ぶりの登場になります。 新型インフルエンザが猛威を振るう今日この頃、
+    皆様お身体には十分にお気をつけ下さいませ。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=159
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=159
+  raw_page: archive/gamefreak-staff/raw/posts/159.html
+- id: 160
+  archive_id: gamefreak-staff-160
+  date: '2009-12-18'
+  title: ＨＧ・ＳＳ 語っちゃいます！ その８
+  lead: はじめまして！ 『ポケットモンスター ハートゴールド・ソウルシルバー』（以下ＨＧ・ＳＳ）で プランニングリーダーを務めました松島です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=160
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=160
+  raw_page: archive/gamefreak-staff/raw/posts/160.html
+- id: 161
+  archive_id: gamefreak-staff-161
+  date: '2009-12-25'
+  title: 2009年ゲームフリーク忘年会
+  lead: こんにちは、Web開発のカニ子です。 忘年会・新年会となにかと飲み会のあるシーズンですが、 スキを見つけてカニを食べて頂ければと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=161
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=161
+  raw_page: archive/gamefreak-staff/raw/posts/161.html
+- id: 162
+  archive_id: gamefreak-staff-162
+  date: '2009-12-25'
+  title: 年賀ドットコンテスト2010のお知らせ
+  lead: Web開発のカニ子から本日は年末スペシャル、 ブログ２本立てでお送りします。 １本はこのお知らせ、もう１本は忘年会レポートです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=162
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=162
+  raw_page: archive/gamefreak-staff/raw/posts/162.html
+- id: 163
+  archive_id: gamefreak-staff-163
+  date: '2010-01-08'
+  title: わたしのふゆやすみ
+  lead: 遅ればせながら、あけましておめでとうございます。 本年もゲームフリークをどうぞ宜しくお願いいたします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=163
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=163
+  raw_page: archive/gamefreak-staff/raw/posts/163.html
+- id: 164
+  archive_id: gamefreak-staff-164
+  date: '2010-01-15'
+  title: お雑煮
+  lead: あけましておめでとうございます。 三食のご飯をすべて餅米にしたいプランナーのマーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=164
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=164
+  raw_page: archive/gamefreak-staff/raw/posts/164.html
+- id: 165
+  archive_id: gamefreak-staff-165
+  date: '2010-01-22'
+  title: それぞれの冬’10！
+  lead: こんにちは、Web担当のにょろリカです。 冬休みが明けて久しいですが、恒例の休み明け企画 「みんな、冬休みは何をしてた？」をゲームフリークスタッフに聞いてみました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=165
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=165
+  raw_page: archive/gamefreak-staff/raw/posts/165.html
+- id: 166
+  archive_id: gamefreak-staff-166
+  date: '2010-01-29'
+  title: 社内ポケモンHGSSバトル大会！
+  lead: おひさしぶりです！ ナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=166
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=166
+  raw_page: archive/gamefreak-staff/raw/posts/166.html
+- id: 167
+  archive_id: gamefreak-staff-167
+  date: '2010-02-02'
+  title: 年賀ドットコンテスト’10、結果発表！
+  lead: こんにちは！Web担当のにょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=167
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=167
+  raw_page: archive/gamefreak-staff/raw/posts/167.html
+- id: 168
+  archive_id: gamefreak-staff-168
+  date: '2010-02-05'
+  title: それぞれの就職活動
+  lead: こんにちは！採用担当さとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=168
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=168
+  raw_page: archive/gamefreak-staff/raw/posts/168.html
+- id: 169
+  archive_id: gamefreak-staff-169
+  date: '2010-02-12'
+  title: わたしたちの就職活動1 「元気になりたいとき」
+  lead: こんにちわ、ほずです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=169
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=169
+  raw_page: archive/gamefreak-staff/raw/posts/169.html
+- id: 170
+  archive_id: gamefreak-staff-170
+  date: '2010-02-19'
+  title: お着物のススメ
+  lead: こんにちは！ 採用担当のさとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=170
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=170
+  raw_page: archive/gamefreak-staff/raw/posts/170.html
+- id: 171
+  archive_id: gamefreak-staff-171
+  date: '2010-02-26'
+  title: 明日は何の日？
+  lead: こんにちは！ Web担当のにょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=171
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=171
+  raw_page: archive/gamefreak-staff/raw/posts/171.html
+- id: 172
+  archive_id: gamefreak-staff-172
+  date: '2010-03-05'
+  title: 春よこい！ しゃちの花日記
+  lead: こんにちは、プログラマーのしゃちです。 みなさん、春ですね！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=172
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=172
+  raw_page: archive/gamefreak-staff/raw/posts/172.html
+- id: 173
+  archive_id: gamefreak-staff-173
+  date: '2010-03-12'
+  title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+  lead: はじめまして！ プログラマーのペンギンです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=173
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=173
+  raw_page: archive/gamefreak-staff/raw/posts/173.html
+- id: 174
+  archive_id: gamefreak-staff-174
+  date: '2010-03-19'
+  title: わたしたちの就職活動3 「日課」
+  lead: みなさん、はじめまして！グラフィックデザイナーのめめたです。 ほず と同じく入社1年目の新人です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=174
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=174
+  raw_page: archive/gamefreak-staff/raw/posts/174.html
+- id: 175
+  archive_id: gamefreak-staff-175
+  date: '2010-03-26'
+  title: 2011年度新卒採用にたくさんのご応募ありがとうございました！
+  lead: こんにちは。採用担当のさとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=175
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=175
+  raw_page: archive/gamefreak-staff/raw/posts/175.html
+- id: 176
+  archive_id: gamefreak-staff-176
+  date: '2010-04-02'
+  title: フレッシュなお話
+  lead: こんにちは、にょろリカです。 早いもので12月に入社してから4ヶ月。 気がつけば、桜の花も見ごろな季節となりました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=176
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=176
+  raw_page: archive/gamefreak-staff/raw/posts/176.html
+- id: 177
+  archive_id: gamefreak-staff-177
+  date: '2010-04-09'
+  title: 春！社会人10年生です
+  lead: こんにちは！ お久しぶりのプランナーのカニ子です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=177
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=177
+  raw_page: archive/gamefreak-staff/raw/posts/177.html
+- id: 178
+  archive_id: gamefreak-staff-178
+  date: '2010-04-16'
+  title: 三軒茶屋の春
+  lead: こんにちは！ 三度の飯より『ネコ』と『カメラ』と『生クリーム』がスキなっやっやです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=178
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=178
+  raw_page: archive/gamefreak-staff/raw/posts/178.html
+- id: 179
+  archive_id: gamefreak-staff-179
+  date: '2010-04-23'
+  title: 僕が新入社員だった頃
+  lead: こんにちは、ユーリーです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=179
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=179
+  raw_page: archive/gamefreak-staff/raw/posts/179.html
+- id: 180
+  archive_id: gamefreak-staff-180
+  date: '2010-04-30'
+  title: おはなみしました
+  lead: こんにちは！お久しぶりです。 憶えていらっしゃいますでしょうか？プランナーの いわし です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=180
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=180
+  raw_page: archive/gamefreak-staff/raw/posts/180.html
+- id: 181
+  archive_id: gamefreak-staff-181
+  date: '2010-05-07'
+  title: 入社1年目の思い出
+  lead: こんにちは、プランナー＋サウンドのラッペンです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=181
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=181
+  raw_page: archive/gamefreak-staff/raw/posts/181.html
+- id: 182
+  archive_id: gamefreak-staff-182
+  date: '2010-05-14'
+  title: 祝！ファミ通アワード受賞
+  lead: 『ポケットモンスター ハートゴールド・ソウルシルバー』 ディレクターの もりもと です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=182
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=182
+  raw_page: archive/gamefreak-staff/raw/posts/182.html
+- id: 183
+  archive_id: gamefreak-staff-183
+  date: '2010-05-21'
+  title: 三茶も花の季節です
+  lead: お久しぶりです。電線です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=183
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=183
+  raw_page: archive/gamefreak-staff/raw/posts/183.html
+- id: 184
+  archive_id: gamefreak-staff-184
+  date: '2010-05-28'
+  title: とうきょうのしゃかいじん
+  lead: はじめまして！ 新人グラフィックデザイナーのわもと申します。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=184
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=184
+  raw_page: archive/gamefreak-staff/raw/posts/184.html
+- id: 185
+  archive_id: gamefreak-staff-185
+  date: '2010-06-07'
+  title: イチゴを狩る！
+  lead: はじめまして！ プランナーのあきらです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=185
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=185
+  raw_page: archive/gamefreak-staff/raw/posts/185.html
+- id: 186
+  archive_id: gamefreak-staff-186
+  date: '2010-06-11'
+  title: 考える時間
+  lead: こんにちは！ 2回目の登場、じだぬです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=186
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=186
+  raw_page: archive/gamefreak-staff/raw/posts/186.html
+- id: 187
+  archive_id: gamefreak-staff-187
+  date: '2010-06-18'
+  title: この電車が凄い！
+  lead: はじめまして、プランナーのタマゴ、ヒートと申します。 今年の4月に入社しました。どうぞよろしくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=187
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=187
+  raw_page: archive/gamefreak-staff/raw/posts/187.html
+- id: 188
+  archive_id: gamefreak-staff-188
+  date: '2010-06-25'
+  title: 中途採用の募集を開始しました！
+  lead: こんにちは。採用担当さとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=188
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=188
+  raw_page: archive/gamefreak-staff/raw/posts/188.html
+- id: 189
+  archive_id: gamefreak-staff-189
+  date: '2010-07-02'
+  title: 山梨?東京下町へ
+  lead: こんにちは、総務部のボーダー丸です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=189
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=189
+  raw_page: archive/gamefreak-staff/raw/posts/189.html
+- id: 190
+  archive_id: gamefreak-staff-190
+  date: '2010-07-09'
+  title: 中途1年目の僕が見たゲームフリーク
+  lead: どうもはじめまして！ 3Dグラフィックデザイナーのもりびです。 宜しくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=190
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=190
+  raw_page: archive/gamefreak-staff/raw/posts/190.html
+- id: 191
+  archive_id: gamefreak-staff-191
+  date: '2010-07-16'
+  title: 入社して思うこと…
+  lead: はじめまして、新人プログラマのいっちーです。 4月1日に入社して、3ヶ月の研修期間を終え、 7月1日に晴れて正社員になりました。 どうぞ宜しくお願いします！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=191
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=191
+  raw_page: archive/gamefreak-staff/raw/posts/191.html
+- id: 192
+  archive_id: gamefreak-staff-192
+  date: '2010-07-23'
+  title: プログラマーの中途採用を開始しました。
+  lead: こんにちは！採用担当さとうです。 ゲームフリークでは本日よりプログラマーの中途採用を開始しました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=192
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=192
+  raw_page: archive/gamefreak-staff/raw/posts/192.html
+- id: 193
+  archive_id: gamefreak-staff-193
+  date: '2010-07-30'
+  title: ぶらり“中途”乗車の旅
+  lead: はじめまして、プログラマーのタピオカです。 どうぞよろしくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=193
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=193
+  raw_page: archive/gamefreak-staff/raw/posts/193.html
+- id: 194
+  archive_id: gamefreak-staff-194
+  date: '2010-08-06'
+  title: 夏の思い出
+  lead: はじめまして、中途入社サウンドのよちよちです。 暑さが続いています！ みなさん体調などくずされていないでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=194
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=194
+  raw_page: archive/gamefreak-staff/raw/posts/194.html
+- id: 195
+  archive_id: gamefreak-staff-195
+  date: '2010-08-20'
+  title: この夏は、東京から出ないことにした。
+  lead: こんにちは！ Web担当のにょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=195
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=195
+  raw_page: archive/gamefreak-staff/raw/posts/195.html
+- id: 196
+  archive_id: gamefreak-staff-196
+  date: '2010-08-27'
+  title: ポケモンサーチャーBW
+  lead: こんにちは、ユーリーです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=196
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=196
+  raw_page: archive/gamefreak-staff/raw/posts/196.html
+- id: 197
+  archive_id: gamefreak-staff-197
+  date: '2010-09-03'
+  title: それぞれの夏 ’10！
+  lead: こんにちは、Web担当のにょろリカです。 ふと気づけばもう9月なんですね。早い！ 今回は去り行く夏を惜しんで、恒例の「みんな、夏休みは何してた？」を
+    お送りします！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=197
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=197
+  raw_page: archive/gamefreak-staff/raw/posts/197.html
+- id: 198
+  archive_id: gamefreak-staff-198
+  date: '2010-09-10'
+  title: ポケモンワールドチャンピオンシップス2010！
+  lead: こんにちは。はじめまして。 3Dグラフィックデザイナーのフジワです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=198
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=198
+  raw_page: archive/gamefreak-staff/raw/posts/198.html
+- id: 199
+  archive_id: gamefreak-staff-199
+  date: '2010-09-17'
+  title: ポケットモンスターブラック・ホワイトが完成した日
+  lead: こんにちは、Web担当のにょろリカです。 いよいよ明日は「ポケットモンスターブラック・ホワイト」が発売されますね。 今回は「ポケットモンスターブラック・ホワイト」マスターアップ当日の
+    模様をお届けいたします！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=199
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=199
+  raw_page: archive/gamefreak-staff/raw/posts/199.html
+- id: 200
+  archive_id: gamefreak-staff-200
+  date: '2010-09-24'
+  title: プログラマー積極採用中！
+  lead: こんにちは！採用担当佐藤です。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=200
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=200
+  raw_page: archive/gamefreak-staff/raw/posts/200.html
+- id: 201
+  archive_id: gamefreak-staff-201
+  date: '2010-10-01'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 1
+  lead: こんにちは、Web担当のにょろリカです。 早いものでもう10月、 「ポケットモンスターブラック・ホワイト」発売から12日が経ちました。 みなさんはジムバッジを何個ゲットしましたか？
+    私は先週、8個目のバッジをゲットし、そのままクリアまでこぎつけました！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=201
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=201
+  raw_page: archive/gamefreak-staff/raw/posts/201.html
+- id: 202
+  archive_id: gamefreak-staff-202
+  date: '2010-10-08'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 2
+  lead: こんにちは、Web担当のにょろリカです。 今週も「ポケットモンスターブラック・ホワイト」開発者インタビューを お届けします。 第2回目の今日は、プランナー・まつみやの
+    「シナリオ ここだけの話し」をお送りします！ —– ―それでは、まず最初に自己紹介をお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=202
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=202
+  raw_page: archive/gamefreak-staff/raw/posts/202.html
+- id: 203
+  archive_id: gamefreak-staff-203
+  date: '2010-10-15'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 3
+  lead: こんにちは、Web担当のにょろリカです。 「ポケットモンスターブラック・ホワイト」開発スタッフインタビュー・第3弾は、 サウンドデザイナー・景山将太に突撃してみました！
+    —— ―それでは、自己紹介をお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=203
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=203
+  raw_page: archive/gamefreak-staff/raw/posts/203.html
+- id: 204
+  archive_id: gamefreak-staff-204
+  date: '2010-10-22'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 4
+  lead: こんにちは、Web担当のにょろリカです。 「ポケットモンスターブラック・ホワイト」開発者インタビュー第4弾は グラフィックデザイナー・ジェイミーのお話をお届けします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=204
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=204
+  raw_page: archive/gamefreak-staff/raw/posts/204.html
+- id: 205
+  archive_id: gamefreak-staff-205
+  date: '2010-10-29'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 5
+  lead: こんにちは、Web担当のにょろリカです。 「ポケットモンスターブラック・ホワイト」開発者インタビューは ちょうど真ん中の5回目を迎えました。 今回はプログラマー・かつおに、通信機能に関する色々を聞いてみました！
+    —– こんにちは、プログラマーのかつおです。 「ポケットモンスターブラック・ホワイト」では通信システム周り全般を 担当しました。どうぞ宜しくお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=205
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=205
+  raw_page: archive/gamefreak-staff/raw/posts/205.html
+- id: 206
+  archive_id: gamefreak-staff-206
+  date: '2010-11-05'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 6
+  lead: こんにちは、Web担当のにょろリカです。 「ポケットモンスターブラック・ホワイトのつくりかた」第6回は プランナー・松島の「ポケモンの設定にまつわる話」を中心にお送りします！
+    —– こんにちは、プランナーの松島です。 「ポケットモンスターブラック・ホワイト」ではポケモンの設定と ネーミング、ポケモン図鑑、それから、伝説のポケモンに関する
+    イベントを担当しました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=206
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=206
+  raw_page: archive/gamefreak-staff/raw/posts/206.html
+- id: 207
+  archive_id: gamefreak-staff-207
+  date: '2010-11-12'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 7
+  lead: こんにちは、にょろリカです。 10月1日からスタートした「ポケットモンスターブラック・ホワイト」 開発者インタビューも残すところあと2回となりました。
+    第7回目の今回は、グラフィックデザイナーおおむらに、キャラクターデザインに ついて聞いてみました?！ —– こんにちは、グラフィックデザイナーのおおむらです。
+    今回は、主にジムリーダーのキャラクターデザインを担当しました。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=207
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=207
+  raw_page: archive/gamefreak-staff/raw/posts/207.html
+- id: 208
+  archive_id: gamefreak-staff-208
+  date: '2010-11-22'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 8
+  lead: こんにちは、にょろリカです。 最近、私の周辺では風邪が蔓延していますが、みなさまは大丈夫ですか？ さて、今回の「ポケットモンスターブラック・ホワイト」開発者インタビューは、
+    情報管理グループ・ユーリーのお話をお届けします。 情報管理グループとは、いったいどのような仕事をしているのでしょうか…？ —– ―こんにちは。まずは自己紹介をお願いします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=208
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=208
+  raw_page: archive/gamefreak-staff/raw/posts/208.html
+- id: 209
+  archive_id: gamefreak-staff-209
+  date: '2010-11-26'
+  title: 2012年度新卒採用、はじめました。
+  lead: こんにちは、Web担当のにょろリカです。 10月1日から始まった「ポケットモンスターブラック・ホワイト」 開発者インタビューも残すところあと1回となりました。
+    が、その前に一休みをして、今回は私・にょろリカのもうひとつの 本業についてお話をしたいと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=209
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=209
+  raw_page: archive/gamefreak-staff/raw/posts/209.html
+- id: 210
+  archive_id: gamefreak-staff-210
+  date: '2010-12-03'
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+  lead: こんにちは、にょろリカです。 10月1日からスタートした「ポケットモンスターブラック・ホワイト」 開発者インタビューも、今日で最終回となりました。
+    今回は、インタビューに登場していないゲームフリーク開発スタッフから 集めた「ひとことコメント」をお届けします。 もうクリアしてしまった方も、まだまだプレイ中の方も、これから始めると
+    いう方も、「ポケットモンスターブラック・ホワイト」の遊び方の参考に なれば幸いです！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=210
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=210
+  raw_page: archive/gamefreak-staff/raw/posts/210.html
+- id: 211
+  archive_id: gamefreak-staff-211
+  date: '2010-12-10'
+  title: 12月！メリーなんとか2010
+  lead: ご無沙汰しておりますプランナーのカニ子です。 忘年会のシーズンですが、皆さま、カニ食べていますか？
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=211
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=211
+  raw_page: archive/gamefreak-staff/raw/posts/211.html
+- id: 212
+  archive_id: gamefreak-staff-212
+  date: '2010-12-17'
+  title: ポケモンカードティーチング＆ポケモンカード大会
+  lead: みなさんお久しぶりです。 ナギーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=212
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=212
+  raw_page: archive/gamefreak-staff/raw/posts/212.html
+- id: 213
+  archive_id: gamefreak-staff-213
+  date: '2010-12-24'
+  title: ゲームフリーク忘年会2010
+  lead: こんにちは、はじめまして！ プログラマーのアーリーです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=213
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=213
+  raw_page: archive/gamefreak-staff/raw/posts/213.html
+- id: 214
+  archive_id: gamefreak-staff-214
+  date: '2011-01-07'
+  title: 新年のご挨拶
+  lead: みなさま、あけましておめでとうございます。 Web担当のにょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=214
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=214
+  raw_page: archive/gamefreak-staff/raw/posts/214.html
+- id: 215
+  archive_id: gamefreak-staff-215
+  date: '2011-01-14'
+  title: 出会いの冬
+  lead: こんにちは。採用担当さとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=215
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=215
+  raw_page: archive/gamefreak-staff/raw/posts/215.html
+- id: 216
+  archive_id: gamefreak-staff-216
+  date: '2011-01-24'
+  title: プログラミングの楽しみ
+  lead: はじめまして！ 昨年4月に新卒入社した、新米プログラマーのまさゆきと申します。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=216
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=216
+  raw_page: archive/gamefreak-staff/raw/posts/216.html
+- id: 217
+  archive_id: gamefreak-staff-217
+  date: '2011-01-28'
+  title: 社内ポケモンバトル大会 開幕！
+  lead: みなさんこんにちはー、めめたです！ ゲームフリークでは、恒例の 「ポケットモンスターブラック・ホワイト 社内バトル大会」が始まりました。 今回はその開会式の模様をレポートしたいと思います！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=217
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=217
+  raw_page: archive/gamefreak-staff/raw/posts/217.html
+- id: 218
+  archive_id: gamefreak-staff-218
+  date: '2011-02-04'
+  title: 祝☆500万本！?ケーキうまうま
+  lead: プランナーのカニ子です。 寒さの厳しい今日この頃ですが、皆様いかがお過ごしでしょうか。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=218
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=218
+  raw_page: archive/gamefreak-staff/raw/posts/218.html
+- id: 219
+  archive_id: gamefreak-staff-219
+  date: '2011-02-18'
+  title: 社内ポケモンバトル大会 その後
+  lead: みなさん、こんにちは！ほずです。 今回は、 先日、めめたがご紹介した社内ポケモンバトル大会 の その後の様子をお届けしたいと思います！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=219
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=219
+  raw_page: archive/gamefreak-staff/raw/posts/219.html
+- id: 220
+  archive_id: gamefreak-staff-220
+  date: '2011-02-25'
+  title: 間もなく2012年度新卒採用の応募受付を開始します！
+  lead: こんにちは、にょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=220
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=220
+  raw_page: archive/gamefreak-staff/raw/posts/220.html
+- id: 226
+  archive_id: gamefreak-staff-226
+  date: '2011-03-04'
+  title: 「社員紹介」はじめました！
+  lead: こんにちは。 採用担当さとうです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=226
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=226
+  raw_page: archive/gamefreak-staff/raw/posts/226.html
+- id: 227
+  archive_id: gamefreak-staff-227
+  date: '2011-03-25'
+  title: 2012年度新卒採用のおはなし
+  lead: こんにちは、採用担当・にょろリカです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=227
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=227
+  raw_page: archive/gamefreak-staff/raw/posts/227.html
+- id: 228
+  archive_id: gamefreak-staff-228
+  date: '2011-04-22'
+  title: 就職活動に思うこと
+  lead: こんにちは、にょろリカです。 ゲームフリークは現在、新卒採用の真っ最中です。 ここをご覧になっている方の中にも、現在就職活動中の学生さんが いらっしゃるのではないでしょうか？
+    今回は、この春でゲームフリーク2年目を迎えたスタッフから、 就職活動中の学生さんへの、ささやかなアドバイスをお送りいたします。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=228
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=228
+  raw_page: archive/gamefreak-staff/raw/posts/228.html
+- id: 229
+  archive_id: gamefreak-staff-229
+  date: '2011-06-03'
+  title: 2012年度新卒 二次募集のお知らせ
+  lead: こんにちは、にょろリカです。 入梅して1週間。 東京では寒暖の差が大きな日が続いていますが、こういうときって 何を着たら良いのか、毎朝悩んでしまいます。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=229
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=229
+  raw_page: archive/gamefreak-staff/raw/posts/229.html
+- id: 230
+  archive_id: gamefreak-staff-230
+  date: '2011-06-29'
+  title: はじめての海外出張
+  lead: おひさしぶりです、グラフィックデザイナーのめめたです。 少し前の話ですが、E3の視察でロサンゼルスに行ってきました。 入社3年目にして初の出張！そして、生まれてはじめての海外です！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=230
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=230
+  raw_page: archive/gamefreak-staff/raw/posts/230.html
+- id: 231
+  archive_id: gamefreak-staff-231
+  date: '2011-07-22'
+  title: 想像力トレーニング！
+  lead: こんにちは。 プランナーのマーでございます。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=231
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=231
+  raw_page: archive/gamefreak-staff/raw/posts/231.html
+- id: 232
+  archive_id: gamefreak-staff-232
+  date: '2011-08-05'
+  title: 睡眠の話
+  lead: はじめまして、グラフィックデザイナーのマッツンです。 暑くて寝苦しい日が続いていますが、皆さんは良質な睡眠を とっていますか？ というわけで、今日は睡眠の話をしたいと思います！
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=232
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=232
+  raw_page: archive/gamefreak-staff/raw/posts/232.html
+- id: 233
+  archive_id: gamefreak-staff-233
+  date: '2011-09-02'
+  title: 初！
+  lead: 皆さん、こんにちは。じだぬです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=233
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=233
+  raw_page: archive/gamefreak-staff/raw/posts/233.html
+- id: 234
+  archive_id: gamefreak-staff-234
+  date: '2011-09-16'
+  title: 褒めて伸ばす！
+  lead: こんにちは！ サウンドのよちよちです。 今回は私が飼っているペットのお話をしたいと思います。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=234
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=234
+  raw_page: archive/gamefreak-staff/raw/posts/234.html
+- id: 235
+  archive_id: gamefreak-staff-235
+  date: '2011-09-30'
+  title: モチベーションアップの秘訣
+  lead: こんにちは、プログラマーのペンギンです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=235
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=235
+  raw_page: archive/gamefreak-staff/raw/posts/235.html
+- id: 236
+  archive_id: gamefreak-staff-236
+  date: '2011-10-21'
+  title: 子育ての秘訣
+  lead: こんにちは。プランナーのあきらです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=236
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=236
+  raw_page: archive/gamefreak-staff/raw/posts/236.html
+- id: 237
+  archive_id: gamefreak-staff-237
+  date: '2011-11-04'
+  title: 朝食ノススメ
+  lead: どうもはじめまして！ 入社して5ヶ月の新人、Ｙと申します。 仕事の方は『情報管理』を担当しています。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=237
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=237
+  raw_page: archive/gamefreak-staff/raw/posts/237.html
+- id: 238
+  archive_id: gamefreak-staff-238
+  date: '2011-11-25'
+  title: 掃除の極意
+  lead: お久しぶりです、にょろリカです。 ここ数回、お役立ち系の日記が続いているので、私にも何か そういうネタは出せないかを考えてみました。 というわけで、大袈裟なタイトルを掲げてしまいましたが、
+    今回は「掃除」のお話しを聞いてください。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=238
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=238
+  raw_page: archive/gamefreak-staff/raw/posts/238.html
+- id: 239
+  archive_id: gamefreak-staff-239
+  date: '2011-12-27'
+  title: セレンディピティ
+  lead: はじめまして！ 今年4月に新卒入社をした、新米プランナーのラッティと申します。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=239
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=239
+  raw_page: archive/gamefreak-staff/raw/posts/239.html
+- id: 240
+  archive_id: gamefreak-staff-240
+  date: '2012-01-20'
+  title: 遅ればせながら……
+  lead: 本年も宜しくお願い申し上げます！ 『情報管理』担当のＹです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=240
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=240
+  raw_page: archive/gamefreak-staff/raw/posts/240.html
+- id: 241
+  archive_id: gamefreak-staff-241
+  date: '2012-02-24'
+  title: 見つめる鍋は煮えない
+  lead: こんにちは、プランナーのいわしです。 前回スタッフボイスに登場したのが2010年4月30日なので、 大変ご無沙汰しております。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=241
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=241
+  raw_page: archive/gamefreak-staff/raw/posts/241.html
+- id: 242
+  archive_id: gamefreak-staff-242
+  date: '2012-06-15'
+  title: 禁煙のすすめ
+  lead: こんにちは、プランナーのヒートです。
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=242
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=242
+  raw_page: archive/gamefreak-staff/raw/posts/242.html
+- id: 243
+  archive_id: gamefreak-staff-243
+  date: '2012-06-29'
+  title: 発売！
+  lead: 新年に続き、またしても遅ればせながらでございますが……
+  tags: []
+  source_url: http://www.gamefreak.co.jp/blog/staff/?p=243
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=243
+  raw_page: archive/gamefreak-staff/raw/posts/243.html

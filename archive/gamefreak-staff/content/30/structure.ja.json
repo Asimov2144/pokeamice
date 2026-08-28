@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "こんにちは、カニ子です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-e9ed3a1f46e2\" alt=\"ゲーフリ玄関\" %}",
+      "images": [
+        "gamefreak-staff-e9ed3a1f46e2"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "これはゲームフリークのいつもの玄関口の風景です。\n\n（「アネックス」っていうのはゲームフリークの別館の愛称です）\n\nこのグレーのロッカーはなんでしょう？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "これは実は靴箱なのです。\n\nゲームフリークは全フロア土足厳禁！\n\nスタッフはもちろんお客様もみんな\n\nゲームフリーク社内に入る時はスリッパなのです。\n\n会社としてはちょっと変わってますよね。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-f1a37c030f07\" alt=\"スリッパ\" %}\n\n嫌がるエノキさんを捕まえてスリッパの写真を撮らせてもらいました。\n\nさて、どっちがカニ子でどっちがエノキさんでしょう。",
+      "images": [
+        "gamefreak-staff-f1a37c030f07"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "土足厳禁な理由はゲームフリークが小さかった頃に\n\nマンションの一室を借りて事務所にしていた名残なのか、\n\n靴を脱ぐ事でリラックスして仕事できるようにするためなのか、\n\nそれとも徹夜作業の後に床で寝れるようにするためなのか…。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "どれもそれっぽいけどカニ子には本当の所はわかりません！\n\n理由はともあれ、靴を履きっぱなしだと足が疲れるので\n\nカニ子的にはけっこうスリッパお気に入りです。\n\n靴を脱ぐと気持ちいいですよねー。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "久々のゲームフリークのペットはねこかすQDさん家のきなことルイです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-93a643d4f6a7\" alt=\"きなことルイ\" %}\n\nなかなか不敵な顔をしております。",
+      "images": [
+        "gamefreak-staff-93a643d4f6a7"
+      ]
+    }
+  ]
+}

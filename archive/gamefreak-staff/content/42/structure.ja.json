@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "markdown": "GFのプログラマー　スティックです。はじめまして！",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "みなさんは「[.S](http://www.dot-s.net/)」（ドッツ）というおもちゃをご存知ですか！？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "５ミリくらいのピンをパネルに差し込んでドット絵を作ろう！という\n\nコンセプトのおもちゃなのですが、ドット絵にこだわる会社ゲームフリークでは\n\nこのおもちゃがとても流行りました。\n\n何色のピンが足りないとか、ピンを差し込むパネル誰かちょうだいとか\n\nジョイントもっと欲しいよ縲怩ﾆか言ってた気がします。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "その時に私が作ったものいくつかを選んでみました。\n\nまずはピカチュウ",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-6654bf57a9f8\" alt=\"ピカチュウ\" %}",
+      "images": [
+        "gamefreak-staff-6654bf57a9f8"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "もう少しでお別れする下北沢を惜しみつつ\n\n外で撮影してみました。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "他にもこんなのも作りました。\n\n何だかみなさん分かりますか？",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-40e86b714f29\" alt=\"なにかな？\" %}",
+      "images": [
+        "gamefreak-staff-40e86b714f29"
+      ]
+    },
+    {
+      "type": "p",
+      "markdown": "答えは「ファミリーコンピュータ用ソフト　クインティの星のパネル」です。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "GFホームページの作品リストを\n\nよーく見てみてくださいね。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "こういう事がゲームフリークのプログラマーの仕事なのです。うそです。",
+      "images": []
+    },
+    {
+      "type": "p",
+      "markdown": "スティックでした！",
+      "images": []
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+article_id: gamefreak-staff-38
+post_id: 38
+date: '2007-10-19'
+title: ポケモンカードゲーム大会！
+tags: []
+author:
+  name_ja: ゲームフリークスタッフ
+  name_zh: GAME FREAK 员工
+series:
+  name_ja: 晴れたり時々曇ったり
+  name_zh: 晴时偶有阴
+source:
+  url: http://www.gamefreak.co.jp/blog/staff/?p=38
+  wayback_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=38
+  raw_page: archive/gamefreak-staff/raw/posts/38.html
+assets:
+- id: gamefreak-staff-977f290bfcaf
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/ma01.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/38/ma01-977f290b.jpg
+  sha256: 2c60576a02b92341e4cc186a9a96736fd1c4835cdf2d467ca1cd296f6bde652a
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092202id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/ma01.jpg
+- id: gamefreak-staff-1c022bdcbb5b
+  roles:
+  - article-image
+  original_url: http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/ma02.jpg
+  pair_url: null
+  local_path: archive/gamefreak-staff/assets/original/38/ma02-1c022bdc.jpg
+  sha256: 8c541b769b409cf6e698cd89cfd7acc8820ffb3223179c526d1c9bf065cfae90
+  width: 314
+  height: 234
+  wayback_url: https://web.archive.org/web/20130419092202id_/http://www.gamefreak.co.jp/blog/staff/wp-content/uploads/2007/10/ma02.jpg
+rights:
+  archive_type: unofficial
+  original_copyright: GAME FREAK inc.
+extracted_at: '2026-08-28T05:25:36+00:00'
