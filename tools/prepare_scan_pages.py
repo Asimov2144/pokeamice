@@ -453,7 +453,13 @@ def choose_page_box(candidates: dict[str, list[float]],
                 + abs((box[3] - box[1]) - expected[1]) / max(expected[1], 1e-6))
 
     best = min(candidates.values(), key=error)
-    return best if error(best) <= 0.15 else None
+    width_error = abs((best[2] - best[0]) - expected[0]) / max(expected[0], 1e-6)
+    height_error = abs((best[3] - best[1]) - expected[1]) / max(expected[1], 1e-6)
+    # A summed 15% error is too forgiving: page040's 93.9% wide candidate
+    # differed by only 5.3% on one axis and was actually an internal layout
+    # edge.  The scanner geometry is stable per folder, so either axis moving
+    # more than 3.5% is enough to reject the candidate.
+    return best if max(width_error, height_error) <= 0.035 else None
 
 
 def consensus_page_size(measurements: list[Measurement]) -> dict[bool, tuple[float, float]]:
@@ -1120,11 +1126,26 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
                 result.seam_straightened_by = round(turned, 3)
         pieces = (split_at(full, span, args.binding)
                   if decision.split and seam else [("", full)])
+        # The binarised page box, chosen against the folder's agreed size, is a
+        # useful first boundary, but it is not a replacement for scanner-frame
+        # cleanup.  A binary mask can stop at a printed colour panel and leave
+        # the real grey platen behind, so every single-page crop still passes
+        # through the neutral-frame and dark-edge safety checks below.
+        single_box = None
+        if not decision.split:
+            single_box = choose_page_box(measurement.page_boxes, expected)
         for suffix, piece in pieces:
-            piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])
-            trim_basis = piece.size
-            piece, frame_removed = trim_scanner_frame(piece)
-            piece = trim_dark_edges(piece, measurement.paper_luma)
+            frame_removed = (0, 0, 0, 0)
+            if single_box is not None:
+                piece = crop_content(piece, single_box)
+                trim_basis = piece.size
+                piece, frame_removed = trim_scanner_frame(piece)
+                piece = trim_dark_edges(piece, measurement.paper_luma)
+            else:
+                piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])
+                trim_basis = piece.size
+                piece, frame_removed = trim_scanner_frame(piece)
+                piece = trim_dark_edges(piece, measurement.paper_luma)
             piece, rotated = deskew(piece, measurement.skew_deg, fill)
             if rotated:
                 rotated_piece = piece
