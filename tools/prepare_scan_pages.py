@@ -1139,8 +1139,19 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
             if single_box is not None:
                 piece = crop_content(piece, single_box)
                 trim_basis = piece.size
-                piece, frame_removed = trim_scanner_frame(piece)
-                piece = trim_dark_edges(piece, measurement.paper_luma)
+                # The safety checks stay, but they are now a touch-up rather than
+                # a second opinion. Left to run freely after the page box they
+                # took 1183px, 17% of the height, off DREAM 2008.12 page001,
+                # reading a full-bleed cover's dark masthead and the characters
+                # along its foot as platen. Anything they want beyond a small
+                # margin contradicts a boundary the whole folder voted on, so it
+                # is refused and the page box result stands.
+                touched, removed = trim_scanner_frame(piece)
+                touched = trim_dark_edges(touched, measurement.paper_luma)
+                allowance = (round(trim_basis[0] * 0.02), round(trim_basis[1] * 0.02))
+                if (trim_basis[0] - touched.size[0] <= allowance[0]
+                        and trim_basis[1] - touched.size[1] <= allowance[1]):
+                    piece, frame_removed = touched, removed
             else:
                 piece = crop_content(piece, measurement.content_box if not suffix else [0.0, 0.0, 1.0, 1.0])
                 trim_basis = piece.size
@@ -1151,8 +1162,12 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
                 rotated_piece = piece
                 trimmed_piece, after_rotation = trim_scanner_frame(rotated_piece)
                 combined = tuple(a + b for a, b in zip(frame_removed, after_rotation))
-                max_x = round(trim_basis[0] * 0.055)
-                max_y = round(trim_basis[1] * 0.055)
+                # A page whose box the folder agreed on gets the same tight
+                # allowance here; only a piece with no page box of its own, half
+                # a spread, still gets the wider one.
+                budget = 0.02 if single_box is not None else 0.055
+                max_x = round(trim_basis[0] * budget)
+                max_y = round(trim_basis[1] * budget)
                 if (combined[0] <= max_x and combined[2] <= max_x
                         and combined[1] <= max_y and combined[3] <= max_y):
                     piece = trimmed_piece
