@@ -1262,11 +1262,19 @@ def main() -> int:
         return 1
 
     source, out_dir = Path(args.source).resolve(), Path(args.out).resolve()
+    if not source.is_dir():
+        # Worth separating from an empty folder: these scans live on an external
+        # drive that is not always mounted, and a whole batch once reported
+        # "no images found" for every title when the volume had simply dropped.
+        print(f"source folder is not available: {source}")
+        if not source.drive or not Path(source.drive + "/").exists():
+            print(f"drive {source.drive or '?'} is not mounted; reconnect it and run again")
+        return 2
     files = discover(source)
     if args.limit:
         files = files[: args.limit]
     if not files:
-        print(f"no images found under {source}")
+        print(f"{source} exists but holds no images this tool can read")
         return 1
     print(f"{len(files)} images under {source.name}\n")
 
