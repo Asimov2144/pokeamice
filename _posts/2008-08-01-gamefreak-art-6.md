@@ -28,64 +28,61 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-劇場版ポケットモンスター ダイヤモンドパール
+劇場版ポケットモンスター ダイヤモンドパール<br>
 
-「ギラティナと氷空の花束 シェイミ」
+「ギラティナと氷空の花束 シェイミ」<br>
 
 アニメオリジナルキャラクターデザイン画です！
 
-ゲームフリークで描き起こされた
+ゲームフリークで描き起こされた<br>
 
-アニメオリジナルキャラクターのデザイン画を大公開！
+アニメオリジナルキャラクターのデザイン画を大公開！<br>
 
-※原案デザインのため、実際に使用されたキャラクターと
+※原案デザインのため、実際に使用されたキャラクターと<br>
 
 細部や色などが異なります
 
-■ゼロ
+■ゼロ<br>
 
-ギラティナの力を欲するうちに
+ギラティナの力を欲するうちに<br>
 
-自分自身がギラティナになりたい！というコスプレ的な感情が高まって
+自分自身がギラティナになりたい！というコスプレ的な感情が高まって<br>
 
-この妙なスーツを作ったんではないかという解釈をしました。
+この妙なスーツを作ったんではないかという解釈をしました。<br>
 
-清潔好きらしいのでベースは滅菌服っぽく。
+清潔好きらしいのでベースは滅菌服っぽく。<br>
 
 あと、うまくいったと思うのはキャラ全体の配色です。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/6/zero-d24e1152.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/6/s08_02-0dc23b70.jpg" alt="ゼロ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/6/zero-d24e1152.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/6/zero-d24e1152.jpg" alt="ゼロ" loading="lazy"></a></figure>
+■ムゲン<br>
 
-■ムゲン
+反転世界に5年間も一人でいられるタフな不良中年。<br>
 
-反転世界に5年間も一人でいられるタフな不良中年。
+飄々とした無責任男的なイメージでアロハシャツに短パン。<br>
 
-飄々とした無責任男的なイメージでアロハシャツに短パン。
-
-バックパックはメカ設定さんにお任せしたので
+バックパックはメカ設定さんにお任せしたので<br>
 
 アタリだけ取ってあります。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/6/mugen-40324ee0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/6/s08_01-ef796ccf.jpg" alt="ムゲン" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/6/mugen-40324ee0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/6/mugen-40324ee0.jpg" alt="ムゲン" loading="lazy"></a></figure>
+■インフィ<br>
 
-■インフィ
+ディスプレイ内にいる人工知能メイド。<br>
 
-ディスプレイ内にいる人工知能メイド。
+「たぶんCGで作画します」と言われていたので<br>
 
-「たぶんCGで作画します」と言われていたので
+「手描きで描きづらいデザインの方が<br>
 
-「手描きで描きづらいデザインの方が
+CG処理のしがいがあるに違いない！」と勝手に判断して<br>
 
-CG処理のしがいがあるに違いない！」と勝手に判断して
+変な塗り分けとか抜き穴だらけのめんどくさい形状にしてしまいました。<br>
 
-変な塗り分けとか抜き穴だらけのめんどくさい形状にしてしまいました。
-
-手描きパートが無くて良かったです。
+手描きパートが無くて良かったです。<br>
 
 モチーフは勿論「∞（無限）」マークです。
 
-
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/6/infi-ca2cd506.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/6/infi-ca2cd506.jpg" alt="インフィ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/6/infi-ca2cd506.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/6/s08_03-579fb90c.jpg" alt="インフィ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 </div>

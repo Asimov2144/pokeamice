@@ -68,6 +68,13 @@ class GameFreakLegacyBlogsPipelineTests(unittest.TestCase):
             201,
         )
 
+    def test_source_breaks_are_preserved_as_explicit_html_breaks(self):
+        node = BeautifulSoup("<p>第一行<br/>第二行</p>", "html.parser").p
+        result = pipeline.inline_markdown(
+            node, {}, pipeline.BLOGS["staff"]["root_url"], pipeline.BLOGS["staff"]
+        )
+        self.assertIn("第一行<br>\n第二行", result)
+
 
 if __name__ == "__main__":
     unittest.main()

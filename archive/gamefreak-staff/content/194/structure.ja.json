@@ -3,27 +3,27 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "はじめまして、中途入社サウンドのよちよちです。\n\n暑さが続いています！\n\nみなさん体調などくずされていないでしょうか。",
+      "markdown": "はじめまして、中途入社サウンドのよちよちです。<br>\n\n暑さが続いています！<br>\n\nみなさん体調などくずされていないでしょうか。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "さて、夏といえば、アウトドア。\n\n海に山にお出かけの方も多いと思いますが、\n\n私がこの時期になると思い出すのは\n\n夏の富士登山です。",
+      "markdown": "さて、夏といえば、アウトドア。<br>\n\n海に山にお出かけの方も多いと思いますが、<br>\n\n私がこの時期になると思い出すのは<br>\n\n夏の富士登山です。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "富士登山は「登らない馬鹿、二度登る馬鹿」などと\n\n言われておりますが\n\n私は３回も登りました…どの馬鹿になるのでしょうか。",
+      "markdown": "富士登山は「登らない馬鹿、二度登る馬鹿」などと<br>\n\n言われておりますが<br>\n\n私は３回も登りました…どの馬鹿になるのでしょうか。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "最初は仲間内の軽いノリで、「一回くらいは行っとくか」とか\n\n「シーズン中の富士山にはさまざまなコスプレした登山客が\n\nいるらしいから見に行きたい」とか\n\nそんな理由でしたが、一度登ったらやみつきになってしまいました！\n\n※富士登山は結構過酷です、本当はこんなに軽いノリで行ってはイケマセン。\n\n準備は万全に！※",
+      "markdown": "最初は仲間内の軽いノリで、「一回くらいは行っとくか」とか<br>\n\n「シーズン中の富士山にはさまざまなコスプレした登山客が<br>\n\nいるらしいから見に行きたい」とか<br>\n\nそんな理由でしたが、一度登ったらやみつきになってしまいました！<br>\n\n※富士登山は結構過酷です、本当はこんなに軽いノリで行ってはイケマセン。<br>\n\n準備は万全に！※",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "一度目は山梨県側の富士吉田口から、10合目まで\n\n二度目は富士吉田口から、8合目までで断念。\n\nそして三度目は、静岡県側の富士宮口から10合目を経由して真の山頂、剣が峰まで。",
+      "markdown": "一度目は山梨県側の富士吉田口から、10合目まで<br>\n\n二度目は富士吉田口から、8合目までで断念。<br>\n\nそして三度目は、静岡県側の富士宮口から10合目を経由して真の山頂、剣が峰まで。",
       "images": []
     },
     {
@@ -33,14 +33,14 @@
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-e99bdbced92b\" alt=\"\" %}\n\n8合目付近から見る地上。すでに雲の上！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-e99bdbced92b\" alt=\"\" %}<br>\n\n8合目付近から見る地上。すでに雲の上！",
       "images": [
         "gamefreak-staff-e99bdbced92b"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-c4732f2f8660\" alt=\"\" %}\n\n{% legacy_image id=\"gamefreak-staff-8a27fb88a711\" alt=\"\" %}\n\n{% legacy_image id=\"gamefreak-staff-64cfaa10d579\" alt=\"\" %}\n\n目の前で雲が生まれているようです。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-c4732f2f8660\" alt=\"\" %}<br>\n\n{% legacy_image id=\"gamefreak-staff-8a27fb88a711\" alt=\"\" %}<br>\n\n{% legacy_image id=\"gamefreak-staff-64cfaa10d579\" alt=\"\" %}<br>\n\n目の前で雲が生まれているようです。",
       "images": [
         "gamefreak-staff-c4732f2f8660",
         "gamefreak-staff-8a27fb88a711",
@@ -49,7 +49,7 @@
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-8a660afe59df\" alt=\"\" %}\n\n10合目神社。シーズン中は人でいっぱい！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-8a660afe59df\" alt=\"\" %}<br>\n\n10合目神社。シーズン中は人でいっぱい！",
       "images": [
         "gamefreak-staff-8a660afe59df"
       ]
@@ -61,14 +61,14 @@
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-47b8edea7b43\" alt=\"\" %}\n\n山頂の火口。\n\nこの写真を撮ったのは8月ですが、雪が残っています！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-47b8edea7b43\" alt=\"\" %}<br>\n\n山頂の火口。<br>\n\nこの写真を撮ったのは8月ですが、雪が残っています！",
       "images": [
         "gamefreak-staff-47b8edea7b43"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-0f806e17503c\" alt=\"\" %}\n\n{% legacy_image id=\"gamefreak-staff-a382f1436715\" alt=\"\" %}\n\n剣が峰の印",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-0f806e17503c\" alt=\"\" %}<br>\n\n{% legacy_image id=\"gamefreak-staff-a382f1436715\" alt=\"\" %}<br>\n\n剣が峰の印",
       "images": [
         "gamefreak-staff-0f806e17503c",
         "gamefreak-staff-a382f1436715"
@@ -76,17 +76,22 @@
     },
     {
       "type": "p",
-      "markdown": "高いお山は数々ありますが、富士山の光景はとっても独特です。\n\n自分の足元から雲が吹き上がってきたり\n\n空の青の色が普段見る青とは全く違って感じられたり\n\n（なんだかだんだん濃くなっていくんですよ）\n\n富士山山頂付近は全く草木がないので、\n\n別の星にいるかのような錯覚が味わえたり\n\n8合目を超えて、だんだん酸素が薄くなってくるのが分かる感じなど\n\n私はとっても感動しました！",
+      "markdown": "高いお山は数々ありますが、富士山の光景はとっても独特です。<br>\n\n自分の足元から雲が吹き上がってきたり<br>\n\n空の青の色が普段見る青とは全く違って感じられたり<br>\n\n（なんだかだんだん濃くなっていくんですよ）<br>\n\n富士山山頂付近は全く草木がないので、<br>\n\n別の星にいるかのような錯覚が味わえたり<br>\n\n8合目を超えて、だんだん酸素が薄くなってくるのが分かる感じなど<br>\n\n私はとっても感動しました！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "そしてなによりすごく達成感があります！\n\n富士山の剣が峰は日本で一番高い所で、\n\nそこに自分の足で登ったんだなあ…と思うと、\n\nとても気持ちがいいのでした。",
+      "markdown": "そしてなによりすごく達成感があります！<br>\n\n富士山の剣が峰は日本で一番高い所で、<br>\n\nそこに自分の足で登ったんだなあ…と思うと、<br>\n\nとても気持ちがいいのでした。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "さすがに3回も登って、最高峰にも立ったので\n\n4度目の登頂はないかな…とは思いますが\n\n忘れられない体験になりました!",
+      "markdown": "さすがに3回も登って、最高峰にも立ったので<br>\n\n4度目の登頂はないかな…とは思いますが<br>\n\n忘れられない体験になりました!",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

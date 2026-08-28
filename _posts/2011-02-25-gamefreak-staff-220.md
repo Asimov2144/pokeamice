@@ -30,39 +30,41 @@ source:
 <div data-gf-language-panel="ja">
 こんにちは、にょろリカです。
 
-さて、今回は「新卒採用担当・にょろリカ」から、
+さて、今回は「新卒採用担当・にょろリカ」から、<br>
 
-2012年3月卒業予定の学生の皆さまにお知らせです。
+2012年3月卒業予定の学生の皆さまにお知らせです。<br>
 
-来週火曜日の3月1日から、2012年度新卒採用の応募書類受付が
+来週火曜日の3月1日から、2012年度新卒採用の応募書類受付が<br>
 
-始まります！
+始まります！<br>
 
-つい先日、[リクナビのエントリー](http://job.rikunabi.com/2012/company/top/r189900076/)を開始したばかりだと思って
+つい先日、[リクナビのエントリー](http://job.rikunabi.com/2012/company/top/r189900076/)を開始したばかりだと思って<br>
 
-いたのですが、あっという間ですね。
+いたのですが、あっという間ですね。<br>
 
-ここを読んでくださっている皆さま、応募作品の制作は順調でしょうか？
+ここを読んでくださっている皆さま、応募作品の制作は順調でしょうか？<br>
 
-各職種の募集要項ページに「応募作品のポイント」を掲載して
+各職種の募集要項ページに「応募作品のポイント」を掲載して<br>
 
 いますので、ぜひ参考にしていただきたいと思います。
 
-⇒[グラフィックデザイナー募集要項](http://www.gamefreak.co.jp/new_employ/outline.html#point)
+⇒[グラフィックデザイナー募集要項](http://www.gamefreak.co.jp/new_employ/outline.html#point)<br>
 
-　⇒[プログラマー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pg.html#point)
+　⇒[プログラマー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pg.html#point)<br>
 
 　⇒[プランナー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pl.html#point)
 
-応募書類の受付期間は2011年3月1日(火)から3月18日(金／必着)です。
+応募書類の受付期間は2011年3月1日(火)から3月18日(金／必着)です。<br>
 
-応募書類の送付方法に関しては特に指定はありません。
+応募書類の送付方法に関しては特に指定はありません。<br>
 
-郵便でも宅配便でもバイク便でも、何でお送りいただいても結構ですが
+郵便でも宅配便でもバイク便でも、何でお送りいただいても結構ですが<br>
 
 **必ず3月18日(金)に到着するようにお送りください。**
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" alt="ポスト" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" alt="ポスト" loading="lazy"></a></figure>
 
 皆さまのご応募を楽しみにお待ちしています！
+
+<br>
 </div>

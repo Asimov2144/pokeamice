@@ -28,7 +28,7 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-スタッフボイスをご覧のみなさん、はじめまして！
+スタッフボイスをご覧のみなさん、はじめまして！<br>
 
 プランナーのG麺です。
 
@@ -36,7 +36,7 @@ source:
 
 最近のお気に入りは、ズバリ、某所の「つゆやきそば」です！
 
-と、書かれて何のことやらサッパリ、知らないという方に向けて、
+と、書かれて何のことやらサッパリ、知らないという方に向けて、<br>
 
 簡単に説明をさせて頂きますと……。
 
@@ -50,19 +50,21 @@ source:
 
 できました！　完成です！！
 
-それが、大体「つゆやきそば」です！
+それが、大体「つゆやきそば」です！<br>
 
 （あくまで大体なので、間違いあればご指摘下さい）
 
 麺は、 香ばしく炒められて、スープに浸っていても、伸びにくく、コシは保たれたまま。スープは、鶏ガラベースで醤油味。少しだけ薄い味つけ。麺をたぐるたびに、麺に絡んだソースが溶けて、少しずつ、スープに旨味とコクが足されてきます。一口。二口。三口。箸を進めるたび、変化していく色。香り。旨味。一瞬、ミスマッチにさえ感じる味。なのに、どこか懐かしいというか、優しい味。なんとも不思議な麺だな?と思います。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" alt="G麺画" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/73/gmen080606-cea7d9dc.jpg" alt="G麺画" loading="lazy"></a></figure>
 
-皆さんも機会があればご賞味ください！
+皆さんも機会があればご賞味ください！<br>
 
 僕は惚れちゃいましたが、学校や職場での話のタネにはなると思いますよー！
 
 それではまた！！
 
 みなさんも、素敵な麺ライフを。
+
+<br>
 </div>

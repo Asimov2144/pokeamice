@@ -3,73 +3,78 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "Web担当のカニ子です。先週はゴールデンウィークでした！\n\nゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。",
+      "markdown": "Web担当のカニ子です。先週はゴールデンウィークでした！<br>\n\nゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。",
       "images": []
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-c591faa12582\" alt=\"デコ\" %}\n\n日中は、ずっと合気道の道場に行ってました。\n\n夜は、姪っ子甥っ子と遊んでました。\n\nそんなゴールデンウィーク でした。（デコ）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-c591faa12582\" alt=\"デコ\" %}<br>\n\n日中は、ずっと合気道の道場に行ってました。<br>\n\n夜は、姪っ子甥っ子と遊んでました。<br>\n\nそんなゴールデンウィーク でした。（デコ）",
       "images": [
         "gamefreak-staff-c591faa12582"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-228248e61477\" alt=\"エノキ\" %}\n\nお花の植え替えをしていました。\n\n部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。\n\nあと、ミニルーターという工具を買ってグラス工作したりしました。（エノキ）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-228248e61477\" alt=\"エノキ\" %}<br>\n\nお花の植え替えをしていました。<br>\n\n部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。<br>\n\nあと、ミニルーターという工具を買ってグラス工作したりしました。（エノキ）",
       "images": [
         "gamefreak-staff-228248e61477"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-af63cbbc578c\" alt=\"げいのう\" %}\n\n３日に犬吠駅で桃太郎電鉄がらみのイベントがあって、\n\n久しぶりにさくまあきらさん（昔、世話になった）にご挨拶しに、\n\nちょっくら顔を出してきました。（げいのう）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-af63cbbc578c\" alt=\"げいのう\" %}<br>\n\n３日に犬吠駅で桃太郎電鉄がらみのイベントがあって、<br>\n\n久しぶりにさくまあきらさん（昔、世話になった）にご挨拶しに、<br>\n\nちょっくら顔を出してきました。（げいのう）",
       "images": [
         "gamefreak-staff-af63cbbc578c"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-557f3455272c\" alt=\"ディア\" %}\n\n家族で観光に行きました。\n\n眠り猫や「見ざる言わざる聞かざる」の三猿、\n\n鳴き竜などで有名な栃木県の　日光東照宮をぐるりと一周。\n\n雨が降りちょっと寒かったので、\n\n帰りに名物の湯波が入った湯波ソバを食べて暖まりました。（ディア）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-557f3455272c\" alt=\"ディア\" %}<br>\n\n家族で観光に行きました。<br>\n\n眠り猫や「見ざる言わざる聞かざる」の三猿、<br>\n\n鳴き竜などで有名な栃木県の　日光東照宮をぐるりと一周。<br>\n\n雨が降りちょっと寒かったので、<br>\n\n帰りに名物の湯波が入った湯波ソバを食べて暖まりました。（ディア）",
       "images": [
         "gamefreak-staff-557f3455272c"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-652d88b0431f\" alt=\"ラッペン\" %}\n\n私はスーパー銭湯に行きました。\n\n汗をたくさんかいたよ。（ラッペン）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-652d88b0431f\" alt=\"ラッペン\" %}<br>\n\n私はスーパー銭湯に行きました。<br>\n\n汗をたくさんかいたよ。（ラッペン）",
       "images": [
         "gamefreak-staff-652d88b0431f"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-57ddcfb7c8a9\" alt=\"ジョニー\" %}\n\nゴールデンウィークのジョニーは\n\n通っているアトリエの仲間と大掃除と釣りBBQの予定だったんですが、\n\n実際は中掃除と雨釣り中止で只の飲み会のゴールデンウィークでした（ジョニー）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-57ddcfb7c8a9\" alt=\"ジョニー\" %}<br>\n\nゴールデンウィークのジョニーは<br>\n\n通っているアトリエの仲間と大掃除と釣りBBQの予定だったんですが、<br>\n\n実際は中掃除と雨釣り中止で只の飲み会のゴールデンウィークでした（ジョニー）",
       "images": [
         "gamefreak-staff-57ddcfb7c8a9"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-3220fb3479df\" alt=\"スティック\" %}\n\n宮崎県の高千穂町に宿泊してきました。\n\n昼は景観が美しいと評判の高千穂峡、夜は夜神楽見物をしてきました。\n\n夜神楽は本当は３３番ある踊りで一晩中行われるという事に驚きました！\n\n関係無いですが、おみやげ屋さんではこの頃有名な知事の顔がたくさん入ってました。\n\n（スティック）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-3220fb3479df\" alt=\"スティック\" %}<br>\n\n宮崎県の高千穂町に宿泊してきました。<br>\n\n昼は景観が美しいと評判の高千穂峡、夜は夜神楽見物をしてきました。<br>\n\n夜神楽は本当は３３番ある踊りで一晩中行われるという事に驚きました！<br>\n\n関係無いですが、おみやげ屋さんではこの頃有名な知事の顔がたくさん入ってました。<br>\n\n（スティック）",
       "images": [
         "gamefreak-staff-3220fb3479df"
       ]
     },
     {
       "type": "div",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-eac4075086cb\" alt=\"ほっしー\" %}\n\n若いうちに若者らしいことをしておこうと思い、\n\n仙台で「ARABAKI ROCK FEST.08」という\n\n野外フェスティバルに行ってきました！初ライブです！\n\n皆が飛び跳ねていたので、なんとなく雰囲気に合わせて僕も飛び跳ねてきました。\n\n翌日は全身が筋肉痛になりました。（ほっしー）",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-eac4075086cb\" alt=\"ほっしー\" %}<br>\n\n若いうちに若者らしいことをしておこうと思い、<br>\n\n仙台で「ARABAKI ROCK FEST.08」という<br>\n\n野外フェスティバルに行ってきました！初ライブです！<br>\n\n皆が飛び跳ねていたので、なんとなく雰囲気に合わせて僕も飛び跳ねてきました。<br>\n\n翌日は全身が筋肉痛になりました。（ほっしー）",
       "images": [
         "gamefreak-staff-eac4075086cb"
       ]
     },
     {
       "type": "p",
-      "markdown": "みんな千差万別な休日の過ごし方、楽しそうですね。\n\nカニ子は友達を家に呼んで一緒にゲームをしたり、\n\nアウトレットモールに行って洋服を見ずに道行く犬を見たりしていました。",
+      "markdown": "みんな千差万別な休日の過ごし方、楽しそうですね。<br>\n\nカニ子は友達を家に呼んで一緒にゲームをしたり、<br>\n\nアウトレットモールに行って洋服を見ずに道行く犬を見たりしていました。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "有意義な休日の後はリフレッシュして良い仕事ができそうです！\n\n…しばらく朝はつらいですけど。",
+      "markdown": "有意義な休日の後はリフレッシュして良い仕事ができそうです！<br>\n\n…しばらく朝はつらいですけど。",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

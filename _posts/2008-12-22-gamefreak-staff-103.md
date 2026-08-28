@@ -28,17 +28,19 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-いやー　もうすぐクリなんとかですね。
+いやー　もうすぐクリなんとかですね。<br>
 
-ゲームフリークでもツリーが飾られているのでご紹介します。
+ゲームフリークでもツリーが飾られているのでご紹介します。<br>
 
 まぁ、いつも通りの出勤日ですけどね…。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" alt="玄関のツリー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" alt="玄関のツリー" loading="lazy"></a></figure><br>
 
 エントランスのツリー
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" alt="venus（会議室）のツリー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" alt="venus（会議室）のツリー" loading="lazy"></a></figure><br>
 
 Venus（会議室）のツリー
+
+<br>
 </div>

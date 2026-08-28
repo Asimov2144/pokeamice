@@ -30,71 +30,73 @@ source:
 <div data-gf-language-panel="ja">
 こんにちは、エノキです。
 
-じつは今回はお知らせがあります。
+じつは今回はお知らせがあります。<br>
 
 なんとなんと、ゲームフリークは、お引っ越しします！
 
-いままで下北沢のゲームフリークオフィスは実は２カ所ありまして、
+いままで下北沢のゲームフリークオフィスは実は２カ所ありまして、<br>
 
-スタッフはその間を、いったりきたりしていたんですけれど
+スタッフはその間を、いったりきたりしていたんですけれど<br>
 
-今度からは社員全員が、一つのフロアに大集合！
+今度からは社員全員が、一つのフロアに大集合！<br>
 
 みんなで顔を合わせてゲームを作ることができるってわけなんです。
 
-通い慣れた下北沢の街を離れることは寂しいけれど
+通い慣れた下北沢の街を離れることは寂しいけれど<br>
 
-新しい街も楽しい場所を探してたくさん探検したい！と
+新しい街も楽しい場所を探してたくさん探検したい！と<br>
 
-スタッフ一同、引越の日を心待ちにしています。
+スタッフ一同、引越の日を心待ちにしています。<br>
 
-さてそんなGFスタッフたち、実はいままで
+さてそんなGFスタッフたち、実はいままで<br>
 
 新オフィスの中を見たことは無かったのですが…。
 
-９月２８日　三軒茶屋キャロットタワー内ゲームフリーク新オフィスにて
+９月２８日　三軒茶屋キャロットタワー内ゲームフリーク新オフィスにて<br>
 
-新オフィスのお披露目と
+新オフィスのお披露目と<br>
 
-ポケットモンスターダイヤモンド・パールの発売１周年をお祝いするために
+ポケットモンスターダイヤモンド・パールの発売１周年をお祝いするために<br>
 
 日頃お世話になっている関係会社の方もお招きしてのパーティが行われました！
 
-初めての新オフィス。
+初めての新オフィス。<br>
 
-まだ家具も機材も入っていなくて、なにより、ひろい！
+まだ家具も機材も入っていなくて、なにより、ひろい！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_01-0f514e24.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_01-0f514e24.jpg" alt="フロアの光景" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_01-0f514e24.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_01-0f514e24.jpg" alt="フロアの光景" loading="lazy"></a></figure>
 
-お祝いですから！軽く立食パーティ形式です。
+お祝いですから！軽く立食パーティ形式です。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_02-f68cab03.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_02-f68cab03.jpg" alt="立食パーティ（１）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_02-f68cab03.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_02-f68cab03.jpg" alt="立食パーティ（１）" loading="lazy"></a></figure><br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_03-cb952bf0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_03-cb952bf0.jpg" alt="立食パーティ（２）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_03-cb952bf0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_03-cb952bf0.jpg" alt="立食パーティ（２）" loading="lazy"></a></figure>
 
-チョコ・フォンデュもあったよ♪
+チョコ・フォンデュもあったよ♪<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_04-147455d0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_04-147455d0.jpg" alt="チョコフォンデュ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_04-147455d0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_04-147455d0.jpg" alt="チョコフォンデュ" loading="lazy"></a></figure>
 
-特製プラマイクッキー！他にもポケモン絵の入ったケーキなども。
+特製プラマイクッキー！他にもポケモン絵の入ったケーキなども。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_05-27892d3a.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_05-27892d3a.jpg" alt="プラマイクッキー！" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_05-27892d3a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_05-27892d3a.jpg" alt="プラマイクッキー！" loading="lazy"></a></figure>
 
-来年入社予定の方々もお招きしました。
+来年入社予定の方々もお招きしました。<br>
 
-このオフィスでいっしょにお仕事がんばりましょう！
+このオフィスでいっしょにお仕事がんばりましょう！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_06-5230ac2b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_06-5230ac2b.jpg" alt="2008年入社予定の方々" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_06-5230ac2b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_06-5230ac2b.jpg" alt="2008年入社予定の方々" loading="lazy"></a></figure>
 
-そして窓から見える…夜景！ステキ！
+そして窓から見える…夜景！ステキ！<br>
 
-世田谷は高い建物が少ないのでずっと遠くまで見渡せます。
+世田谷は高い建物が少ないのでずっと遠くまで見渡せます。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_07-1313f70f.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_07-1313f70f.jpg" alt="キャロットタワーからの夜景" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/36/enoki02_07-1313f70f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/36/enoki02_07-1313f70f.jpg" alt="キャロットタワーからの夜景" loading="lazy"></a></figure>
 
-久しぶりの方々にもお会い出来て、とっても楽しいパーティでした。
+久しぶりの方々にもお会い出来て、とっても楽しいパーティでした。<br>
 
-そしてまた、新オフィスへの期待が膨らみました。
+そしてまた、新オフィスへの期待が膨らみました。<br>
 
 エノキもおひっこしまでに、早めに荷物の整理をしようと思います！
+
+<br>
 </div>

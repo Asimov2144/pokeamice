@@ -34,59 +34,61 @@ source:
 
 遂に……
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y00-67fab9b7.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/243/y00-67fab9b7.jpg" alt="ポケットモンスターブラック2・ホワイト2" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y00-67fab9b7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/243/y00-67fab9b7.jpg" alt="ポケットモンスターブラック2・ホワイト2" loading="lazy"></a></figure>
 
-シリーズ最新作『ポケットモンスターブラック2・ホワイト2』が発売となりましたっ！！
+シリーズ最新作『ポケットモンスターブラック2・ホワイト2』が発売となりましたっ！！<br>
 
-“共鳴”をテーマに様々な新要素を盛り込みつつ、
+“共鳴”をテーマに様々な新要素を盛り込みつつ、<br>
 
-『ポケットモンスターブラック・ホワイト』の2年後を描く
+『ポケットモンスターブラック・ホワイト』の2年後を描く<br>
 
-ゲームフリーク自信作でございます！
+ゲームフリーク自信作でございます！<br>
 
-“2”ではありますが、もちろん今作からのプレイでも
+“2”ではありますが、もちろん今作からのプレイでも<br>
 
-しっかり楽しんで頂ける作りになっております！
+しっかり楽しんで頂ける作りになっております！<br>
 
 そして『ポケモンARサーチャー』も同時発売中！
 
-さて、私「Ｙ」も発売日は各地へ足を運びましたので、
+さて、私「Ｙ」も発売日は各地へ足を運びましたので、<br>
 
-その模様を簡単にレポートしたいと思います。
+その模様を簡単にレポートしたいと思います。<br>
 
 まずは、ポケモンセンタートウキョー。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y01-f01ff1ea.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/243/y01-f01ff1ea.jpg" alt="ポケモンセンタートウキョー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y01-f01ff1ea.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/243/y01-f01ff1ea.jpg" alt="ポケモンセンタートウキョー" loading="lazy"></a></figure>
 
 なかなかの混雑ぶり……。もうしばらく開店をお待ち下さい！
 
-開店後は早速プレイされる方も見られ、
+開店後は早速プレイされる方も見られ、<br>
 
-携帯ゲーム機ならではの光景を目にすることができました。
+携帯ゲーム機ならではの光景を目にすることができました。<br>
 
 ユーザーの皆様が楽しまれている姿こそが、開発の原動力！
 
 お次は発売日イベントの開催されましたアリオ亀有の模様です。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y02-9d0fb8ae.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/243/y02-9d0fb8ae.jpg" alt="アリオ亀有" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/243/y02-9d0fb8ae.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/243/y02-9d0fb8ae.jpg" alt="アリオ亀有" loading="lazy"></a></figure>
 
-『ポケットモンスターブラック2・ホワイト2』の
+『ポケットモンスターブラック2・ホワイト2』の<br>
 
-プロデューサー増田とディレクター海野による作品紹介や、
+プロデューサー増田とディレクター海野による作品紹介や、<br>
 
 『ポケモンARサーチャー』の体験会などが催されました。
 
-7月には『ポケモン全国図鑑Pro』の発売や
+7月には『ポケモン全国図鑑Pro』の発売や<br>
 
-映画『劇場版ポケットモンスターベストウイッシュ「キュレムVS聖剣士ケルディオ」
+映画『劇場版ポケットモンスターベストウイッシュ「キュレムVS聖剣士ケルディオ」<br>
 
 (同時上映「メロエッタのキラキラリサイタル」)』の公開が控えております！
 
-また、夏から秋にかけて、上記以外にも皆様に楽しんで頂けるようなイベントが
+また、夏から秋にかけて、上記以外にも皆様に楽しんで頂けるようなイベントが<br>
 
 催される予定ございますので、ご期待下さい！
 
-(c)2012 Pokémon.
+(c)2012 Pokémon.<br>
 
 (c)1995-2012 Nintendo / Creatures Inc. / GAME FREAK inc.
+
+<br>
 </div>

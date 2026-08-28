@@ -479,7 +479,10 @@ def inline_markdown(node: Tag | NavigableString, assets: dict[str, dict[str, Any
         if current.name in {"script", "style"} or "zoom" in (current.get("class") or []):
             return
         if current.name == "br":
-            parts.append("  \n")
+            # Keep the source blog's deliberate line breaks in rendered HTML.
+            # A literal break is more reliable than Markdown's trailing-spaces
+            # syntax after normalization and translation passes.
+            parts.append("<br>\n")
             return
         if current.name == "img":
             source = unwrap_wayback_url(str(current.get("src") or ""), page_url)
@@ -508,7 +511,7 @@ def inline_markdown(node: Tag | NavigableString, assets: dict[str, dict[str, Any
             walk(child)
 
     walk(node)
-    return re.sub(r" *\n *", "\n", "".join(parts)).strip()
+    return re.sub(r"\n{3,}", "\n\n", "".join(parts)).strip()
 
 
 def extract_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
@@ -622,16 +625,35 @@ def publish_one(blog_name: str, args: argparse.Namespace) -> dict[str, Any]:
             shutil.copyfile(source, destination)
 
     def render(body: str) -> str:
+        def asset_relative(item: dict[str, Any]) -> str:
+            source = Path(item["local_path"])
+            relative = Path("shared") / source.name if item.get("article") is None else Path(str(item["article"])) / source.name
+            return f"/assets/images/gamefreak-legacy/{blog_name}/{relative.as_posix()}"
+
         def replace(match: re.Match[str]) -> str:
             item = asset_by_id.get(match.group(1))
             if not item:
                 return ""
-            source = Path(item["local_path"])
-            relative = Path("shared") / source.name if item.get("article") is None else Path(str(item["article"])) / source.name
-            url = f"/assets/images/gamefreak-legacy/{blog_name}/{relative.as_posix()}"
+            href = asset_relative(item)
+            display = item
+            # The original art blog displayed a 150px preview and put the
+            # full-resolution drawing behind the ZOOM link. Keep that reading
+            # rhythm while still preserving the original file locally.
+            if "design-full-resolution" in item.get("roles", []):
+                thumbnail = next(
+                    (candidate for candidate in asset_manifest.get("assets", [])
+                     if "design-thumbnail" in candidate.get("roles", [])
+                     and candidate.get("pair_url") == item.get("original_url")
+                     and candidate.get("article") == item.get("article")),
+                    None,
+                )
+                if thumbnail:
+                    display = thumbnail
+            url = asset_relative(display)
             alt = match.group(2)
-            role_class = " gf-legacy-full-art" if "design-full-resolution" in item.get("roles", []) else ""
-            return f'<figure class="gf-legacy-image{role_class}"><a href="{url}" target="_blank"><img src="{url}" alt="{alt}" loading="lazy"></a></figure>'
+            role_class = " gf-legacy-art-zoom" if "design-full-resolution" in item.get("roles", []) else ""
+            label = '<span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span>' if role_class else ""
+            return f'<figure class="gf-legacy-image{role_class}"><a href="{href}" target="_blank" rel="noopener"><img src="{url}" alt="{alt}" loading="lazy"></a>{label}</figure>'
         return re.sub(r'\{%\s*legacy_image\s+id="([^"]+)"\s+alt="([^"]*)"\s*%\}', replace, body).strip()
 
     for article in manifest["articles"]:

@@ -28,107 +28,109 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！
+こんにちは！<br>
 
-ご無沙汰してます。
+ご無沙汰してます。<br>
 
 プランナーのいわしです。
 
-随分前に[スティック](http://www.gamefreak.co.jp/blog/staff/?p=92)や[ジョニー](http://www.gamefreak.co.jp/blog/staff/?p=39)の日記の中でも触れられていましたが、
+随分前に[スティック](http://www.gamefreak.co.jp/blog/staff/?p=92)や[ジョニー](http://www.gamefreak.co.jp/blog/staff/?p=39)の日記の中でも触れられていましたが、<br>
 
-ゲームフリークには『イベント委員会』という
+ゲームフリークには『イベント委員会』という<br>
 
 会社内のイベントを取り仕切る役についているスタッフがいます。
 
-人ごとの様に書いていますが、今年はいわしがそのイベント委員会の
+人ごとの様に書いていますが、今年はいわしがそのイベント委員会の<br>
 
 委員長として、他のスタッフと協力してイベントを考えています。
 
-イベント委員会は毎年今くらいの時期にイベントを催すのですが、
+イベント委員会は毎年今くらいの時期にイベントを催すのですが、<br>
 
-一昨年の渓流釣りとバーベキュー、昨年の果物狩り＆バーベキューに
+一昨年の渓流釣りとバーベキュー、昨年の果物狩り＆バーベキューに<br>
 
 続き、今年は工場見学＆バーベキューを催しました！
 
 それでは、今回の工場見学の様子をお伝えしようと思います！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" alt="バスの中" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" alt="バスの中" loading="lazy"></a></figure><br>
 
-今回はとあるビール工場を見学してきました。
+今回はとあるビール工場を見学してきました。<br>
 
-バスを貸し切り、高速道路を利用して約2時間の移動です。
+バスを貸し切り、高速道路を利用して約2時間の移動です。<br>
 
 スタッフのワクワクしている感じが写真から伝わってきますでしょうか？
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" alt="自然の中にある工場" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" alt="自然の中にある工場" loading="lazy"></a></figure><br>
 
-工場と聞くと、煙立つ煙突や無骨な建物群を連想してしまうのですが、
+工場と聞くと、煙立つ煙突や無骨な建物群を連想してしまうのですが、<br>
 
-ビール工場のオシャレな建物と緑いっぱいの敷地に一同ビックリ！
+ビール工場のオシャレな建物と緑いっぱいの敷地に一同ビックリ！<br>
 
 環境問題にも取り組んでいるとのことですが、さすが、説得力あります。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure><br>
 
-工場へ向かうゲームフリークスタッフたち。
+工場へ向かうゲームフリークスタッフたち。<br>
 
-工場内は写真撮影禁止だったので、残念ながらお見せできるものは
+工場内は写真撮影禁止だったので、残念ながらお見せできるものは<br>
 
-ありませんが、工場のスタッフの方に設備やビールの作り方に
+ありませんが、工場のスタッフの方に設備やビールの作り方に<br>
 
-ついて事細かに説明していただけました！
+ついて事細かに説明していただけました！<br>
 
 工場の設備にも、スタッフのお姉さんの丁寧な説明にも感激です。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure><br>
 
-工場見学後は、もはや通例となりつつあるバーベキュー。
+工場見学後は、もはや通例となりつつあるバーベキュー。<br>
 
-食べ放題、飲み放題なので酔っ払って暴れだすスタッフが
+食べ放題、飲み放題なので酔っ払って暴れだすスタッフが<br>
 
-居るのではないかと内心思っていたのですが、そこは皆さん大人なので、
+居るのではないかと内心思っていたのですが、そこは皆さん大人なので、<br>
 
 適度に飲食し、適度に寛いでいました。
 
-帰りのバスでは半分近くのスタッフが眠りについていました。
+帰りのバスでは半分近くのスタッフが眠りについていました。<br>
 
 勉強の秋、食欲の秋を堪能ですね。
 
-いわしはなんだか眠れなかったので、バスから見えた綺麗な満月を
+いわしはなんだか眠れなかったので、バスから見えた綺麗な満月を<br>
 
 眺めていました。（ロマンティックがとまりませんね！）
 
-個人的には、ビール工場そのものは勿論立派でしたし、
+個人的には、ビール工場そのものは勿論立派でしたし、<br>
 
-ガイドとして一緒に回って下さったスタッフのお姉さんの説明の
+ガイドとして一緒に回って下さったスタッフのお姉さんの説明の<br>
 
 上手さに、強いプロ意識と感銘を受けました。
 
-話の節々に豆知識が盛り込まれていて、聞いているスタッフを
+話の節々に豆知識が盛り込まれていて、聞いているスタッフを<br>
 
-全く飽きさせないまま、１時間近く工場内を巡っていけるなんて！
+全く飽きさせないまま、１時間近く工場内を巡っていけるなんて！<br>
 
-そんなにしゃべって声が枯れないんだろうかとか、
+そんなにしゃべって声が枯れないんだろうかとか、<br>
 
-なんでそんなにスラスラ話を進められるんだろうと思いまして、
+なんでそんなにスラスラ話を進められるんだろうと思いまして、<br>
 
 話を伺ってみるとやはり相当練習されているとのことでした。
 
-練習してないと、イベント中の僕みたいに司会進行を
+練習してないと、イベント中の僕みたいに司会進行を<br>
 
 カンペを見てもまともにしゃべれない状態になっちゃうと。
 
-やっぱり日ごろの努力がクォリティに繋がるんですね！
+やっぱり日ごろの努力がクォリティに繋がるんですね！<br>
 
 僕もいろいろ頑張ります！
 
-そんなことを考えていると、バスも無事解散場所へ到着。
+そんなことを考えていると、バスも無事解散場所へ到着。<br>
 
-今回のイベントも無事故無違反でした！
+今回のイベントも無事故無違反でした！<br>
 
-参加したスタッフにも楽しんでもらえた様なので
+参加したスタッフにも楽しんでもらえた様なので<br>
 
 ホッと胸をなでおろしています。
 
 良かった良かった。
+
+<br>
 </div>

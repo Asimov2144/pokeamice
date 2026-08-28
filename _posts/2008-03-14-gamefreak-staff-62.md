@@ -28,27 +28,29 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-カニ子です。
+カニ子です。<br>
 
 今日はホワイトデーですね。
 
 さっき男性スタッフからお返しのケーキを貰いました！
 
-といっても、私は実はバレンタインチョコをあげていないのですが、
+といっても、私は実はバレンタインチョコをあげていないのですが、<br>
 
-ケーキに詳しい男性スタッフが毎年ケーキを買ってきてくれるのです。
+ケーキに詳しい男性スタッフが毎年ケーキを買ってきてくれるのです。<br>
 
 ゼロから有を生み出す錬金術…！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/62/kani_080314_05-71fde094.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/62/kani_080314_05-71fde094.jpg" alt="ケーキと女性スタッフ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/62/kani_080314_05-71fde094.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/62/kani_080314_05-71fde094.jpg" alt="ケーキと女性スタッフ" loading="lazy"></a></figure><br>
 
 いっぱいあって迷っちゃうけど、女性陣のテンション上がり中です。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/62/kani_080314_02-5d0b5c2c.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/62/kani_080314_02-5d0b5c2c.jpg" alt="ケーキ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/62/kani_080314_02-5d0b5c2c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/62/kani_080314_02-5d0b5c2c.jpg" alt="ケーキ" loading="lazy"></a></figure><br>
 
-これは牛をモチーフにしたケーキみたい。隣のはロールケーキです。
+これは牛をモチーフにしたケーキみたい。隣のはロールケーキです。<br>
 
 うまかわいー。
 
 ごちそうさまでした！
+
+<br>
 </div>

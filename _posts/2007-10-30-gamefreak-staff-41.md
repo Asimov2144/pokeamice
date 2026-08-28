@@ -30,39 +30,41 @@ source:
 <div data-gf-language-panel="ja">
 採用担当のもりもとです。
 
-２００８年度の新卒採用が終わったと思いきや、
+２００８年度の新卒採用が終わったと思いきや、<br>
 
-もう次の２００９年度新卒採用が始まってしまいました。
+もう次の２００９年度新卒採用が始まってしまいました。<br>
 
-２００９年度っていうと、再来年ですよ！！
+２００９年度っていうと、再来年ですよ！！<br>
 
 学生さんたちも早くから大変ですね。
 
-もちろん、我々も・・・。
+もちろん、我々も・・・。<br>
 
-２００９年度の新卒採用では、ＧＦ初の企業説明会を行う予定！！
+２００９年度の新卒採用では、ＧＦ初の企業説明会を行う予定！！<br>
 
-今、その準備に向けていろいろと動いております。
+今、その準備に向けていろいろと動いております。<br>
 
 １１月にはオフィスの引っ越しもありまして・・・いやあ忙しい。
 
-その引っ越し先のオフィスは、現在、内装工事中ですが、
+その引っ越し先のオフィスは、現在、内装工事中ですが、<br>
 
-とてもかっこいいオフィスになる予定です。
+とてもかっこいいオフィスになる予定です。<br>
 
-新オフィスのテーマは「宇宙」。うひょー！ワクワクしますな。
+新オフィスのテーマは「宇宙」。うひょー！ワクワクしますな。<br>
 
 新卒のみなさんは、その新しいオフィスで働くことになりますので、ご期待下さい。
 
 [リクナビ２００９の採用ページはこちらから](http://rikunabi2009.yahoo.co.jp/bin/KDBG00100.cgi?KOKYAKU_ID=1509563001&MAGIC=)
 
-これが引っ越し先のキャロットタワー。
+これが引っ越し先のキャロットタワー。<br>
 
-ここの２２階がうちのオフィスになる予定です。
+ここの２２階がうちのオフィスになる予定です。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/41/morim1023_01-ce8845be.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/41/morim1023_01-ce8845be.jpg" alt="キャロットタワー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/41/morim1023_01-ce8845be.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/41/morim1023_01-ce8845be.jpg" alt="キャロットタワー" loading="lazy"></a></figure>
 
-実は引っ越し先のキャロットタワーは現在のオフィスの屋上からも見えるのです。
+実は引っ越し先のキャロットタワーは現在のオフィスの屋上からも見えるのです。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/41/morim1023_02-a3dd4c02.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/41/morim1023_02-a3dd4c02.jpg" alt="遠くに見えるキャロットタワー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/41/morim1023_02-a3dd4c02.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/41/morim1023_02-a3dd4c02.jpg" alt="遠くに見えるキャロットタワー" loading="lazy"></a></figure>
+
+<br>
 </div>

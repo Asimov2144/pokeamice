@@ -28,45 +28,47 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-はじめまして！
+はじめまして！<br>
 
 今年の春に入社したプランナーの、いわしです！
 
-この度試用期間を終えて、
+この度試用期間を終えて、<br>
 
 ゲームフリークの正式な一員として加わることができました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/79/iwashi080707_01-2f861296.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/79/iwashi080707_01-2f861296.jpg" alt="名刺を貰ってる所" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/79/iwashi080707_01-2f861296.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/79/iwashi080707_01-2f861296.jpg" alt="名刺を貰ってる所" loading="lazy"></a></figure>
 
-正社員となった記念品をいただきました。
+正社員となった記念品をいただきました。<br>
 
 と、いうことは・・・？
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/79/iwashi080707_02-30432791.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/79/iwashi080707_02-30432791.jpg" alt="いわし名刺" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/79/iwashi080707_02-30432791.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/79/iwashi080707_02-30432791.jpg" alt="いわし名刺" loading="lazy"></a></figure>
 
-じゃじゃーん！
+じゃじゃーん！<br>
 
 頂きました、いわしの名刺です。
 
-前に[カニ子さんの日記](http://www.gamefreak.co.jp/blog/staff/?p=24)にも書いていましたが、
+前に[カニ子さんの日記](http://www.gamefreak.co.jp/blog/staff/?p=24)にも書いていましたが、<br>
 
-ゲームフリークでは社員一人一人の名刺に
+ゲームフリークでは社員一人一人の名刺に<br>
 
-違ったポケモンが描かれています。
+違ったポケモンが描かれています。<br>
 
 いわしのポケモンはウインディです。かっこいい！
 
-名刺を貰ったことは、ゲームフリークの正式な一員として
+名刺を貰ったことは、ゲームフリークの正式な一員として<br>
 
-今まで以上に頑張って行かなければいけない！という決意にもなりました。
+今まで以上に頑張って行かなければいけない！という決意にもなりました。<br>
 
 アグノムな気分です。（リッシ！）
 
-まだまだ素人に毛が生えた程度（しかも1本）の
+まだまだ素人に毛が生えた程度（しかも1本）の<br>
 
-実力しかない僕ですが、いつの日か、
+実力しかない僕ですが、いつの日か、<br>
 
-皆様の手に届く様な良質な遊びを企画できる様、
+皆様の手に届く様な良質な遊びを企画できる様、<br>
 
 日々精進の気持ちで頑張っていきたいと思います！
+
+<br>
 </div>

@@ -32,39 +32,41 @@ GFのプログラマー　スティックです。はじめまして！
 
 みなさんは「[.S](http://www.dot-s.net/)」（ドッツ）というおもちゃをご存知ですか！？
 
-５ミリくらいのピンをパネルに差し込んでドット絵を作ろう！という
+５ミリくらいのピンをパネルに差し込んでドット絵を作ろう！という<br>
 
-コンセプトのおもちゃなのですが、ドット絵にこだわる会社ゲームフリークでは
+コンセプトのおもちゃなのですが、ドット絵にこだわる会社ゲームフリークでは<br>
 
-このおもちゃがとても流行りました。
+このおもちゃがとても流行りました。<br>
 
-何色のピンが足りないとか、ピンを差し込むパネル誰かちょうだいとか
+何色のピンが足りないとか、ピンを差し込むパネル誰かちょうだいとか<br>
 
 ジョイントもっと欲しいよ縲怩ﾆか言ってた気がします。
 
-その時に私が作ったものいくつかを選んでみました。
+その時に私が作ったものいくつかを選んでみました。<br>
 
 まずはピカチュウ
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/42/stick01_01-6654bf57.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/42/stick01_01-6654bf57.jpg" alt="ピカチュウ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/42/stick01_01-6654bf57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/42/stick01_01-6654bf57.jpg" alt="ピカチュウ" loading="lazy"></a></figure>
 
-もう少しでお別れする下北沢を惜しみつつ
+もう少しでお別れする下北沢を惜しみつつ<br>
 
 外で撮影してみました。
 
-他にもこんなのも作りました。
+他にもこんなのも作りました。<br>
 
 何だかみなさん分かりますか？
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/42/stick01_02-40e86b71.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/42/stick01_02-40e86b71.jpg" alt="なにかな？" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/42/stick01_02-40e86b71.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/42/stick01_02-40e86b71.jpg" alt="なにかな？" loading="lazy"></a></figure>
 
 答えは「ファミリーコンピュータ用ソフト　クインティの星のパネル」です。
 
-GFホームページの作品リストを
+GFホームページの作品リストを<br>
 
 よーく見てみてくださいね。
 
 こういう事がゲームフリークのプログラマーの仕事なのです。うそです。
 
 スティックでした！
+
+<br>
 </div>

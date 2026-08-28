@@ -28,41 +28,43 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-『ポケットモンスター ハートゴールド・ソウルシルバー』
+『ポケットモンスター ハートゴールド・ソウルシルバー』<br>
 
 ディレクターのもりもとです。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" alt="ポケウォーカーといっしょ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" alt="ポケウォーカーといっしょ" loading="lazy"></a></figure>
 
-いよいよ、明日９／１２（土）、
+いよいよ、明日９／１２（土）、<br>
 
 ハートゴールド・ソウルシルバーが発売となります！
 
-リメイクとは思えないくらい新要素盛りだくさんで、
+リメイクとは思えないくらい新要素盛りだくさんで、<br>
 
 とってもお得なソフトとなっていますので、是非是非遊んで下さい！
 
-一度もポケモンを遊んだことのない人もこの機会に！
+一度もポケモンを遊んだことのない人もこの機会に！<br>
 
 ポケモンは大人でも十分すぎるくらい楽しめるソフトですよ！
 
-もりもとも、新しいルールの対戦で勝ち続けるために、
+もりもとも、新しいルールの対戦で勝ち続けるために、<br>
 
-ハートゴールド・ソウルシルバーでポケモンを育てたいと思います。
+ハートゴールド・ソウルシルバーでポケモンを育てたいと思います。<br>
 
 楽しみ楽しみ。
 
-★おまけ★
+★おまけ★<br>
 
-先日、任天堂ＨＰの『社長が訊く』というコーナーで
+先日、任天堂ＨＰの『社長が訊く』というコーナーで<br>
 
-ハートゴールド・ソウルシルバーについて語ってきました！
+ハートゴールド・ソウルシルバーについて語ってきました！<br>
 
 [http://touch-ds.jp/mfs/st112/interview1.html](http://touch-ds.jp/mfs/st112/interview1.html)
 
-今後、このブログでもハートゴールド・ソウルシルバーの
+今後、このブログでもハートゴールド・ソウルシルバーの<br>
 
-スタッフに登場してもらって、いろんな開発話を語ってもらう予定ですので、
+スタッフに登場してもらって、いろんな開発話を語ってもらう予定ですので、<br>
 
 お楽しみに！
+
+<br>
 </div>

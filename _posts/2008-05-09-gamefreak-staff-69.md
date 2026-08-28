@@ -28,91 +28,93 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-Web担当のカニ子です。先週はゴールデンウィークでした！
+Web担当のカニ子です。先週はゴールデンウィークでした！<br>
 
 ゲームフリークのみんなに「どこいきました？なにしてました？」を聞いてみました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" alt="デコ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" alt="デコ" loading="lazy"></a></figure><br>
 
-日中は、ずっと合気道の道場に行ってました。
+日中は、ずっと合気道の道場に行ってました。<br>
 
-夜は、姪っ子甥っ子と遊んでました。
+夜は、姪っ子甥っ子と遊んでました。<br>
 
 そんなゴールデンウィーク でした。（デコ）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure><br>
 
-お花の植え替えをしていました。
+お花の植え替えをしていました。<br>
 
-部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。
+部屋中がアイビーだらけでゲームフリークの[ガイア（会議室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)みたいになって幸せです。<br>
 
 あと、ミニルーターという工具を買ってグラス工作したりしました。（エノキ）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" alt="げいのう" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" alt="げいのう" loading="lazy"></a></figure><br>
 
-３日に犬吠駅で桃太郎電鉄がらみのイベントがあって、
+３日に犬吠駅で桃太郎電鉄がらみのイベントがあって、<br>
 
-久しぶりにさくまあきらさん（昔、世話になった）にご挨拶しに、
+久しぶりにさくまあきらさん（昔、世話になった）にご挨拶しに、<br>
 
 ちょっくら顔を出してきました。（げいのう）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" alt="ディア" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" alt="ディア" loading="lazy"></a></figure><br>
 
-家族で観光に行きました。
+家族で観光に行きました。<br>
 
-眠り猫や「見ざる言わざる聞かざる」の三猿、
+眠り猫や「見ざる言わざる聞かざる」の三猿、<br>
 
-鳴き竜などで有名な栃木県の　日光東照宮をぐるりと一周。
+鳴き竜などで有名な栃木県の　日光東照宮をぐるりと一周。<br>
 
-雨が降りちょっと寒かったので、
+雨が降りちょっと寒かったので、<br>
 
 帰りに名物の湯波が入った湯波ソバを食べて暖まりました。（ディア）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure><br>
 
-私はスーパー銭湯に行きました。
+私はスーパー銭湯に行きました。<br>
 
 汗をたくさんかいたよ。（ラッペン）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure><br>
 
-ゴールデンウィークのジョニーは
+ゴールデンウィークのジョニーは<br>
 
-通っているアトリエの仲間と大掃除と釣りBBQの予定だったんですが、
+通っているアトリエの仲間と大掃除と釣りBBQの予定だったんですが、<br>
 
 実際は中掃除と雨釣り中止で只の飲み会のゴールデンウィークでした（ジョニー）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" alt="スティック" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" alt="スティック" loading="lazy"></a></figure><br>
 
-宮崎県の高千穂町に宿泊してきました。
+宮崎県の高千穂町に宿泊してきました。<br>
 
-昼は景観が美しいと評判の高千穂峡、夜は夜神楽見物をしてきました。
+昼は景観が美しいと評判の高千穂峡、夜は夜神楽見物をしてきました。<br>
 
-夜神楽は本当は３３番ある踊りで一晩中行われるという事に驚きました！
+夜神楽は本当は３３番ある踊りで一晩中行われるという事に驚きました！<br>
 
-関係無いですが、おみやげ屋さんではこの頃有名な知事の顔がたくさん入ってました。
+関係無いですが、おみやげ屋さんではこの頃有名な知事の顔がたくさん入ってました。<br>
 
 （スティック）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" alt="ほっしー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" alt="ほっしー" loading="lazy"></a></figure><br>
 
-若いうちに若者らしいことをしておこうと思い、
+若いうちに若者らしいことをしておこうと思い、<br>
 
-仙台で「ARABAKI ROCK FEST.08」という
+仙台で「ARABAKI ROCK FEST.08」という<br>
 
-野外フェスティバルに行ってきました！初ライブです！
+野外フェスティバルに行ってきました！初ライブです！<br>
 
-皆が飛び跳ねていたので、なんとなく雰囲気に合わせて僕も飛び跳ねてきました。
+皆が飛び跳ねていたので、なんとなく雰囲気に合わせて僕も飛び跳ねてきました。<br>
 
 翌日は全身が筋肉痛になりました。（ほっしー）
 
-みんな千差万別な休日の過ごし方、楽しそうですね。
+みんな千差万別な休日の過ごし方、楽しそうですね。<br>
 
-カニ子は友達を家に呼んで一緒にゲームをしたり、
+カニ子は友達を家に呼んで一緒にゲームをしたり、<br>
 
 アウトレットモールに行って洋服を見ずに道行く犬を見たりしていました。
 
-有意義な休日の後はリフレッシュして良い仕事ができそうです！
+有意義な休日の後はリフレッシュして良い仕事ができそうです！<br>
 
 …しばらく朝はつらいですけど。
+
+<br>
 </div>

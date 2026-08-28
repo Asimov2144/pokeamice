@@ -13,57 +13,62 @@
     },
     {
       "type": "p",
-      "markdown": "ゲームフリークには『イベント委員会』という会社内のイベントを\n\n取り仕切る役についているスタッフがいます。\n\n昨年は[ジョニーが秋のイベントについて](http://www.gamefreak.co.jp/blog/staff/?p=39)書きました。",
+      "markdown": "ゲームフリークには『イベント委員会』という会社内のイベントを<br>\n\n取り仕切る役についているスタッフがいます。<br>\n\n昨年は[ジョニーが秋のイベントについて](http://www.gamefreak.co.jp/blog/staff/?p=39)書きました。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "今年のイベントはぶどう・なし狩り！\n\n食べ放題の果物園でゲームフリークは収穫の秋を感じてきました。",
+      "markdown": "今年のイベントはぶどう・なし狩り！<br>\n\n食べ放題の果物園でゲームフリークは収穫の秋を感じてきました。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-1471dd49bc33\" alt=\"ぶどう狩り\" %}\n\n紙袋の中のぶどうを一生懸命見る人達。\n\n表面の色が濃い程甘いと教えてもらいました。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-1471dd49bc33\" alt=\"ぶどう狩り\" %}<br>\n\n紙袋の中のぶどうを一生懸命見る人達。<br>\n\n表面の色が濃い程甘いと教えてもらいました。",
       "images": [
         "gamefreak-staff-1471dd49bc33"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-415eab3692c1\" alt=\"とんぼ\" %}\n\nとんぼ。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-415eab3692c1\" alt=\"とんぼ\" %}<br>\n\nとんぼ。",
       "images": [
         "gamefreak-staff-415eab3692c1"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-3470e21e1e22\" alt=\"なし狩り\" %}\n\n持ち上げるだけで取れるなんて、梨ってもろいんだなあ。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-3470e21e1e22\" alt=\"なし狩り\" %}<br>\n\n持ち上げるだけで取れるなんて、梨ってもろいんだなあ。",
       "images": [
         "gamefreak-staff-3470e21e1e22"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-bdef7971388a\" alt=\"食べ中\" %}\n\nおいしい？私のよりも？",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-bdef7971388a\" alt=\"食べ中\" %}<br>\n\nおいしい？私のよりも？",
       "images": [
         "gamefreak-staff-bdef7971388a"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-ec5a6958ecb3\" alt=\"なし狩り\" %}\n\n僕は君が甘いと信じてるよ。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-ec5a6958ecb3\" alt=\"なし狩り\" %}<br>\n\n僕は君が甘いと信じてるよ。",
       "images": [
         "gamefreak-staff-ec5a6958ecb3"
       ]
     },
     {
       "type": "p",
-      "markdown": "私は果物園から梨を家に持って帰ったのですが、\n\n冷やしてから食べた梨がこれまたおいしくて\n\n冷蔵庫万歳！、違う違う、梨バンザイ！と\n\n梨好きのスティックは大満足でした。",
+      "markdown": "私は果物園から梨を家に持って帰ったのですが、<br>\n\n冷やしてから食べた梨がこれまたおいしくて<br>\n\n冷蔵庫万歳！、違う違う、梨バンザイ！と<br>\n\n梨好きのスティックは大満足でした。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "イベント委員会のスタッフの方々\n\nいつも楽しいイベントありがとうございます！",
+      "markdown": "イベント委員会のスタッフの方々<br>\n\nいつも楽しいイベントありがとうございます！",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

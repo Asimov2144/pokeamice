@@ -28,71 +28,67 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-劇場版ポケットモンスター ダイヤモンドパール
+劇場版ポケットモンスター ダイヤモンドパール<br>
 
-「アルセウス 超克の時空へ」
+「アルセウス 超克の時空へ」<br>
 
 アニメオリジナルキャラクターデザイン画です。
 
-ゲームフリークで描き起こされた
+ゲームフリークで描き起こされた<br>
 
-アニメオリジナルキャラクターのデザイン画を今年も公開。
+アニメオリジナルキャラクターのデザイン画を今年も公開。<br>
 
-※原案デザインのため、実際に使用されたキャラクターと
+※原案デザインのため、実際に使用されたキャラクターと<br>
 
 細部や色などが異なります
 
 コメント：杉森建
 
-■ダモス
+■ダモス<br>
 
-もみあげと太眉で昔の人感を表現するというストレートな手法を用いています。
+もみあげと太眉で昔の人感を表現するというストレートな手法を用いています。<br>
 
 三日月模様のペンダントに意味はないのですが、「天文学者」という初期設定のなごりで天体に関心があるような雰囲気にしました。あと、モンスターボールにも見えるように。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/damos-9ece7a72.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s01-8cb3785a.jpg" alt="ダモス" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/damos-9ece7a72.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/damos-9ece7a72.jpg" alt="ダモス" loading="lazy"></a></figure>
+■シーナ<br>
 
-■シーナ
-
-「遺跡の守り人」とは、巫女みたいなものかなと考えました。しかし、タイムスリップものなので、古代の人物とのギャップが必要と考え、あまりみこみこした古めかしい感じでなく気品のあるユニフォームのような衣装にしました。
+「遺跡の守り人」とは、巫女みたいなものかなと考えました。しかし、タイムスリップものなので、古代の人物とのギャップが必要と考え、あまりみこみこした古めかしい感じでなく気品のあるユニフォームのような衣装にしました。<br>
 
 ダモスの子孫としてのつながりはもちろん眉毛。あと瞳の色です。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/si_na-4b11883a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s02-3d92d31c.jpg" alt="シーナ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/si_na-4b11883a.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/si_na-4b11883a.jpg" alt="シーナ" loading="lazy"></a></figure>
+■ギシン<br>
 
-■ギシン
-
-ダモスと対極なキャラにしたかったのでガッチリに対してやせ形。月に対して太陽、といった感じです。
+ダモスと対極なキャラにしたかったのでガッチリに対してやせ形。月に対して太陽、といった感じです。<br>
 
 体の布の巻き方は、描くのがとてもめんどくさいのですが雰囲気重視で入れました。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/gisin-36ed77e7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s03-6b4147f6.jpg" alt="ギシン" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/gisin-36ed77e7.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/gisin-36ed77e7.jpg" alt="ギシン" loading="lazy"></a></figure>
+■ケビン<br>
 
-■ケビン
-
-これも現代パートのキャラなので、肉体派でなく細身で。
+これも現代パートのキャラなので、肉体派でなく細身で。<br>
 
 また遺跡に関わるような人は文系だろうという思いと文系なのに一生懸命シーナの護衛をやっているところからおぼっちゃまぽいイメージが思い浮かびました。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/kebin-dc211507.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s04-47f49c03.jpg" alt="ケビン" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/kebin-dc211507.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/kebin-dc211507.jpg" alt="ケビン" loading="lazy"></a></figure>
-
-■タップ
+■タップ<br>
 
 ダモスとギシンがシリアスな雰囲気になったのでなごみ系がいないと息が詰まるなー、と思いちょっとマンガチック成分多めなおじいさんにしました。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/tap-575c5c06.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s05-b671b9f0.jpg" alt="タップ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/tap-575c5c06.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/tap-575c5c06.jpg" alt="タップ" loading="lazy"></a></figure>
+■カンタ＆カコ<br>
 
-■カンタ＆カコ
-
-「夏休みに田舎で出会う現地の子供」がテーマです。
+「夏休みに田舎で出会う現地の子供」がテーマです。<br>
 
 髪型を手持ちポケモンのイメージでまとめてみました。カコは最初描く予定がなく、「カンタの妹ならこんな感じ」というスケッチで、靴のディテールとかが無くて大ラフな絵になっています。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/7/kanta-a18ee4ca.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/7/s06-732ac40b.jpg" alt="カンタ＆カコ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/7/kanta-a18ee4ca.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/7/kanta-a18ee4ca.jpg" alt="カンタ＆カコ" loading="lazy"></a></figure>
+<br>
 </div>

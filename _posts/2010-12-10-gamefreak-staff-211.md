@@ -28,45 +28,47 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-ご無沙汰しておりますプランナーのカニ子です。
+ご無沙汰しておりますプランナーのカニ子です。<br>
 
 忘年会のシーズンですが、皆さま、カニ食べていますか？
 
-12月ということで、ゲームフリークでも季節の変化を告げる
+12月ということで、ゲームフリークでも季節の変化を告げる<br>
 
 イルミネーションが灯りました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/211/kani101210_01-37cad847.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/211/kani101210_01-37cad847.jpg" alt="エントランス" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/211/kani101210_01-37cad847.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/211/kani101210_01-37cad847.jpg" alt="エントランス" loading="lazy"></a></figure><br>
 
 < <エントランス>>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/211/kani101210_02-5932ecf3.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/211/kani101210_02-5932ecf3.jpg" alt="会議室の一角" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/211/kani101210_02-5932ecf3.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/211/kani101210_02-5932ecf3.jpg" alt="会議室の一角" loading="lazy"></a></figure><br>
 
 < <会議室の一角>>
 
-春にはオフィスに梅の花が飾られたりと、季節の変化を
+春にはオフィスに梅の花が飾られたりと、季節の変化を<br>
 
-密かに伝えてくれるアイテムは、ゲームフリークでお気に入りな
+密かに伝えてくれるアイテムは、ゲームフリークでお気に入りな<br>
 
-ことのひとつです。
+ことのひとつです。<br>
 
 季節の変化を感じると、ウキウキしますよね。
 
-そうそう、「ポケットモンスターブラック・ホワイト」でも、季節の
+そうそう、「ポケットモンスターブラック・ホワイト」でも、季節の<br>
 
-変化によるウキウキ感を表現しています。
+変化によるウキウキ感を表現しています。<br>
 
-フィールドの様子をはじめ、季節が変わることで変化する
+フィールドの様子をはじめ、季節が変わることで変化する<br>
 
-要素がありますので、要チェックです！
+要素がありますので、要チェックです！<br>
 
-既にゲームをクリアされた方も、また
+既にゲームをクリアされた方も、また<br>
 
 「ポケットモンスターブラック・ホワイト」の世界を覗いてみてください。
 
-今年も残り21日！
+今年も残り21日！<br>
 
-悔いを残さないため全力を尽くして仕事に挑みます。
+悔いを残さないため全力を尽くして仕事に挑みます。<br>
 
 そしていっぱい食べて飲んで楽しみます！
+
+<br>
 </div>

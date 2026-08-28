@@ -30,7 +30,7 @@ source:
 <div data-gf-language-panel="ja">
 こんにちは！採用担当さとうです。
 
-街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。
+街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。<br>
 
 さて、ゲームフリークでも2011年度新卒採用エントリーを受付中です！
 
@@ -38,13 +38,15 @@ source:
 
 今年もどんな方々とお会いできるのか…今からとても楽しみにしています。
 
-今後このブログで、ゲームフリークスタッフに就職活動時の話を
+今後このブログで、ゲームフリークスタッフに就職活動時の話を<br>
 
-語ってもらう予定です。
+語ってもらう予定です。<br>
 
 こんなこと考えていた、こんな苦労があった、などなど。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" alt="会社案内パンフレット" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" alt="会社案内パンフレット" loading="lazy"></a></figure>
 
 就職活動中の方はチェックしてみてくださいね。
+
+<br>
 </div>

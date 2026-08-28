@@ -29,69 +29,71 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-はじめまして、エノキです。
+はじめまして、エノキです。<br>
 
-ゲームフリークのグラフィックデザイナーです。
+ゲームフリークのグラフィックデザイナーです。<br>
 
-お仕事はドットを並べて絵を描くことです。
+お仕事はドットを並べて絵を描くことです。<br>
 
-このサイトのトップページのドット絵キャンバスでも遊んでいます！
+このサイトのトップページのドット絵キャンバスでも遊んでいます！<br>
 
 ドットの可能性は無限大ですね。
 
-ところでゲームフリークも先週は「なつやすみ！」でした。
+ところでゲームフリークも先週は「なつやすみ！」でした。<br>
 
-いくつになっても、「なつやすみ！」って響きにはわくわくしちゃいます。
+いくつになっても、「なつやすみ！」って響きにはわくわくしちゃいます。<br>
 
 なつやすみはちきゅうでいちばんのイベントです。１日１日が特別なんです！
 
-そんな特別な「なつやすみ！」をさらに特別にするべく…
+そんな特別な「なつやすみ！」をさらに特別にするべく…<br>
 
-今年のエノキは、子供の頃からの夢を叶えることにしました。
+今年のエノキは、子供の頃からの夢を叶えることにしました。<br>
 
-だれしも一度は夢見たはず、「そらをとぶ」です。
+だれしも一度は夢見たはず、「そらをとぶ」です。<br>
 
 ピジョットに、フリーザーにのって空を飛んでみたかった！
 
-きっとポケモンにのってそらをとぶのに一番近い体験は、パラグライダーだとおもいます。
+きっとポケモンにのってそらをとぶのに一番近い体験は、パラグライダーだとおもいます。<br>
 
-夢を叶えるべく、群馬の山へ…
+夢を叶えるべく、群馬の山へ…<br>
 
-今回初体験のエノキは自分で操縦するのではなく、
+今回初体験のエノキは自分で操縦するのではなく、<br>
 
-そらをとぶおじさんに乗せて頂くダンデム飛行にトライ。
+そらをとぶおじさんに乗せて頂くダンデム飛行にトライ。<br>
 
 これならはじめての人でも安心簡単に挑戦できます。
 
-山のうえで風を待って…良い風をみつけて坂をはしる！
+山のうえで風を待って…良い風をみつけて坂をはしる！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_01-5b6ff0aa.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_01-5b6ff0aa.jpg" alt="そらをとぶ（1）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_01-5b6ff0aa.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_01-5b6ff0aa.jpg" alt="そらをとぶ（1）" loading="lazy"></a></figure>
 
-あれっ浮いてるー！！
+あれっ浮いてるー！！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_02-91314b8d.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_02-91314b8d.jpg" alt="そらをとぶ（2）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_02-91314b8d.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_02-91314b8d.jpg" alt="そらをとぶ（2）" loading="lazy"></a></figure>
 
-快適！
+快適！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_03-cb79b92e.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_03-cb79b92e.jpg" alt="そらをとぶ（3）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/13/shime01_03-cb79b92e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/13/shime01_03-cb79b92e.jpg" alt="そらをとぶ（3）" loading="lazy"></a></figure>
 
-上空では椅子にしっかり座った姿勢で快適に足下の街を眺められます。とっても快適！
+上空では椅子にしっかり座った姿勢で快適に足下の街を眺められます。とっても快適！<br>
 
-恐怖も無くて、ふしぎな感覚ですが、空を飛んでる！って実感して泣きそうになりました。
+恐怖も無くて、ふしぎな感覚ですが、空を飛んでる！って実感して泣きそうになりました。<br>
 
-山ってのは土が盛り上がって山なんだな、砂場の砂山と一緒だな、
+山ってのは土が盛り上がって山なんだな、砂場の砂山と一緒だな、<br>
 
-なんて当たり前のことも考えてました。
+なんて当たり前のことも考えてました。<br>
 
-地面が大きくずっとずっと続いていることを感じました。すばらしかった！
+地面が大きくずっとずっと続いていることを感じました。すばらしかった！<br>
 
-大満足で無事に地上に降り立ちました。
+大満足で無事に地上に降り立ちました。<br>
 
 こうしてエノキはまたひとつ夢を叶えることができたわけです。
 
-みなさんはなつやすみをどう過ごされましたか？
+みなさんはなつやすみをどう過ごされましたか？<br>
 
-エノキはもう、来年は何をしようかな？って考えています。
+エノキはもう、来年は何をしようかな？って考えています。<br>
 
 ピカピカまほうはまだまだとけそうにありません！
+
+<br>
 </div>

@@ -30,53 +30,55 @@ source:
 <div data-gf-language-panel="ja">
 お久しぶりです。電線です。
 
-暑くなったり、寒くなったり大変です。皆さん風邪などひいていませんか？
+暑くなったり、寒くなったり大変です。皆さん風邪などひいていませんか？<br>
 
-こんな陽気ですが、植物達は元気よく花を咲かせてくれています。
+こんな陽気ですが、植物達は元気よく花を咲かせてくれています。<br>
 
-梅、菜の花、桜、チューリップ、つつじの季節が過ぎ、
+梅、菜の花、桜、チューリップ、つつじの季節が過ぎ、<br>
 
-都内は今、薔薇の季節です。
+都内は今、薔薇の季節です。<br>
 
 キャロットタワーのご近所さんの軒先でも薔薇が咲いていますよ。
 
-今年はどの花も力強く、長く咲いていたような気がしませんか？
+今年はどの花も力強く、長く咲いていたような気がしませんか？<br>
 
-私の感じたことですが、桜は、儚げというよりは、力強く咲いていました。
+私の感じたことですが、桜は、儚げというよりは、力強く咲いていました。<br>
 
-暖かさにせっつかれたり、寒さに引き止められたりしながら、
+暖かさにせっつかれたり、寒さに引き止められたりしながら、<br>
 
 強い花を作り上げたのでしょうか。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_4-accb51b7.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/183/densen_4-accb51b7.jpg" alt="シロツメクサ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_4-accb51b7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/183/densen_4-accb51b7.jpg" alt="シロツメクサ" loading="lazy"></a></figure>
 
-つつじの花もとても色鮮やかで、形もしっかりとしています。
+つつじの花もとても色鮮やかで、形もしっかりとしています。<br>
 
-葉っぱに埋もれながらも、まだ粘り強く咲き残っています。
+葉っぱに埋もれながらも、まだ粘り強く咲き残っています。<br>
 
-早咲きのものはもう終わりのようですが、遅咲きのつつじは
+早咲きのものはもう終わりのようですが、遅咲きのつつじは<br>
 
 今日明日が見頃でしょうか。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_1-19ef93ac.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/183/densen_1-19ef93ac.jpg" alt="つつじ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_1-19ef93ac.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/183/densen_1-19ef93ac.jpg" alt="つつじ" loading="lazy"></a></figure>
 
-そして薔薇。
+そして薔薇。<br>
 
-あちこちの庭で綺麗な花を咲かせています。東京圏に在住の方で
+あちこちの庭で綺麗な花を咲かせています。東京圏に在住の方で<br>
 
 ご覧になってない方は、薔薇の名所に足を運ばれてはいかがでしょうか？
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_2-417fe564.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/183/densen_2-417fe564.jpg" alt="薔薇" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_2-417fe564.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/183/densen_2-417fe564.jpg" alt="薔薇" loading="lazy"></a></figure>
 
-今は紫陽花の蕾が大きくなってきているところです。
+今は紫陽花の蕾が大きくなってきているところです。<br>
 
-ところどころ、咲き始めてもいます。これから、梅雨の季節になると思います。
+ところどころ、咲き始めてもいます。これから、梅雨の季節になると思います。<br>
 
-雨が続くと、オフィスの窓から富士山の陰も見えず、少し憂鬱です。
+雨が続くと、オフィスの窓から富士山の陰も見えず、少し憂鬱です。<br>
 
 せめて道端の紫陽花でも眺めながらやりすごすことにしたいと思います。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_3-5c21e148.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/183/densen_3-5c21e148.jpg" alt="紫陽花" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/183/densen_3-5c21e148.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/183/densen_3-5c21e148.jpg" alt="紫陽花" loading="lazy"></a></figure>
 
 それではまた。
+
+<br>
 </div>

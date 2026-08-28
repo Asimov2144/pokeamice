@@ -3,7 +3,7 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "カニ子です。\n\n今日はホワイトデーですね。",
+      "markdown": "カニ子です。<br>\n\n今日はホワイトデーですね。",
       "images": []
     },
     {
@@ -13,19 +13,19 @@
     },
     {
       "type": "p",
-      "markdown": "といっても、私は実はバレンタインチョコをあげていないのですが、\n\nケーキに詳しい男性スタッフが毎年ケーキを買ってきてくれるのです。\n\nゼロから有を生み出す錬金術…！",
+      "markdown": "といっても、私は実はバレンタインチョコをあげていないのですが、<br>\n\nケーキに詳しい男性スタッフが毎年ケーキを買ってきてくれるのです。<br>\n\nゼロから有を生み出す錬金術…！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-71fde094256f\" alt=\"ケーキと女性スタッフ\" %}\n\nいっぱいあって迷っちゃうけど、女性陣のテンション上がり中です。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-71fde094256f\" alt=\"ケーキと女性スタッフ\" %}<br>\n\nいっぱいあって迷っちゃうけど、女性陣のテンション上がり中です。",
       "images": [
         "gamefreak-staff-71fde094256f"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-5d0b5c2c0b71\" alt=\"ケーキ\" %}\n\nこれは牛をモチーフにしたケーキみたい。隣のはロールケーキです。\n\nうまかわいー。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-5d0b5c2c0b71\" alt=\"ケーキ\" %}<br>\n\nこれは牛をモチーフにしたケーキみたい。隣のはロールケーキです。<br>\n\nうまかわいー。",
       "images": [
         "gamefreak-staff-5d0b5c2c0b71"
       ]
@@ -33,6 +33,11 @@
     {
       "type": "p",
       "markdown": "ごちそうさまでした！",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

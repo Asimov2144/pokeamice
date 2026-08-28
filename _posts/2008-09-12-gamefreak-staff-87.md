@@ -28,31 +28,33 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは。
+こんにちは。<br>
 
 ポケットモンスター プラチナのディレクターかわちまるです。
 
-いよいよ！
+いよいよ！<br>
 
-明日、9/13（土）！
+明日、9/13（土）！<br>
 
 ポケットモンスター プラチナが発売されます！！
 
-はじめてポケモンを遊ぶ人
+はじめてポケモンを遊ぶ人<br>
 
-ひさしぶりにポケモンを遊ぶ人
+ひさしぶりにポケモンを遊ぶ人<br>
 
 これまでずっとポケモンを遊んできてくれた人
 
-いろんな人に
+いろんな人に<br>
 
-楽しんで遊んでもらえるように作ってきた
+楽しんで遊んでもらえるように作ってきた<br>
 
 自信作です。
 
 みなさん、ぜひ遊んでくださいね！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/87/kawa080912-f2ab94ce.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/87/kawa080912-f2ab94ce.jpg" alt="お祝いで頂いたアレンジメント" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/87/kawa080912-f2ab94ce.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/87/kawa080912-f2ab94ce.jpg" alt="お祝いで頂いたアレンジメント" loading="lazy"></a></figure><br>
 
 お祝いで頂いたアレンジメント
+
+<br>
 </div>

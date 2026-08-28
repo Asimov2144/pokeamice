@@ -3,22 +3,22 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "こんにちは。\n\nポケットモンスター プラチナのディレクターかわちまるです。",
+      "markdown": "こんにちは。<br>\n\nポケットモンスター プラチナのディレクターかわちまるです。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "いよいよ！\n\n明日、9/13（土）！\n\nポケットモンスター プラチナが発売されます！！",
+      "markdown": "いよいよ！<br>\n\n明日、9/13（土）！<br>\n\nポケットモンスター プラチナが発売されます！！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "はじめてポケモンを遊ぶ人\n\nひさしぶりにポケモンを遊ぶ人\n\nこれまでずっとポケモンを遊んできてくれた人",
+      "markdown": "はじめてポケモンを遊ぶ人<br>\n\nひさしぶりにポケモンを遊ぶ人<br>\n\nこれまでずっとポケモンを遊んできてくれた人",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "いろんな人に\n\n楽しんで遊んでもらえるように作ってきた\n\n自信作です。",
+      "markdown": "いろんな人に<br>\n\n楽しんで遊んでもらえるように作ってきた<br>\n\n自信作です。",
       "images": []
     },
     {
@@ -28,10 +28,15 @@
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-f2ab94ce3345\" alt=\"お祝いで頂いたアレンジメント\" %}\n\nお祝いで頂いたアレンジメント",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-f2ab94ce3345\" alt=\"お祝いで頂いたアレンジメント\" %}<br>\n\nお祝いで頂いたアレンジメント",
       "images": [
         "gamefreak-staff-f2ab94ce3345"
       ]
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
+      "images": []
     }
   ]
 }

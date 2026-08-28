@@ -28,39 +28,41 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-プランナーのカニ子です。
+プランナーのカニ子です。<br>
 
 寒さの厳しい今日この頃ですが、皆様いかがお過ごしでしょうか。
 
-先日の増田の[「めざめるパワー」](http://www.gamefreak.co.jp/blog/dir/?p=292)でも書かれていましたが、
+先日の増田の[「めざめるパワー」](http://www.gamefreak.co.jp/blog/dir/?p=292)でも書かれていましたが、<br>
 
-「ポケットモンスターブラック・ホワイト」の販売本数が500万本を突破しました！
+「ポケットモンスターブラック・ホワイト」の販売本数が500万本を突破しました！<br>
 
 こんなにたくさんの方に遊んでいただいて、本当に嬉しく思います！！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/218/110204_kani01-cb560ae0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/218/110204_kani01-cb560ae0.jpg" alt="" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/218/110204_kani01-cb560ae0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/218/110204_kani01-cb560ae0.jpg" alt="" loading="lazy"></a></figure>
 
-お祝いにステキなケーキをいただきました。
+お祝いにステキなケーキをいただきました。<br>
 
-ロールケーキが段々に積み重なっているのですが、
+ロールケーキが段々に積み重なっているのですが、<br>
 
-ものすごくフォトジェニック…。美しい…。
+ものすごくフォトジェニック…。美しい…。<br>
 
 一方は色とりどり、もう一方はブラック・ホワイトの色合いのケーキです。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/218/110204_kani02-ac5b4c5c.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/218/110204_kani02-ac5b4c5c.jpg" alt="" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/218/110204_kani02-ac5b4c5c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/218/110204_kani02-ac5b4c5c.jpg" alt="" loading="lazy"></a></figure>
 
-みんなで集まってモグモグ！
+みんなで集まってモグモグ！<br>
 
-色ごとに味が違って、どれがおいしかった？と情報交換をしながら食べて
+色ごとに味が違って、どれがおいしかった？と情報交換をしながら食べて<br>
 
-盛り上がりました。
+盛り上がりました。<br>
 
 おいしさの余りにファンタジックな写りになったスタッフも。
 
-ごちそうさまでした！
+ごちそうさまでした！<br>
 
-このケーキと皆様から頂いたお祝いの気持ちを糧に、
+このケーキと皆様から頂いたお祝いの気持ちを糧に、<br>
 
 より良い作品を創り続けるためのパワーにしたいと思います！
+
+<br>
 </div>

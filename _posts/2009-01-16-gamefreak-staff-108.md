@@ -28,47 +28,49 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！
+こんにちは！<br>
 
-ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。
+ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。<br>
 
-皆さんとは約１年ぶりの再会になりますね?。
+皆さんとは約１年ぶりの再会になりますね?。<br>
 
 お元気でしたか？
 
 僕は相も変わらずファミコンコレクションを続けているわけですが、
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" alt="ファミコンコレクション" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" alt="ファミコンコレクション" loading="lazy"></a></figure>
 
-これだけ長い間集めていると、いつの間にか『自分もファミコンソフトを作りたい』
+これだけ長い間集めていると、いつの間にか『自分もファミコンソフトを作りたい』<br>
 
-という欲望がメラメラと沸いてきます。ですが・・・
+という欲望がメラメラと沸いてきます。ですが・・・<br>
 
 ご存知の方もいると思いますが、ファミリーコンピュータはすでに生産終了となっています。
 
-そこで、叶わぬ夢を少しでも実現させたい思いと、ファミコンを愛するあまりに、
+そこで、叶わぬ夢を少しでも実現させたい思いと、ファミコンを愛するあまりに、<br>
 
 自作でオリジナルのラベルを作っては、コレクション棚に飾る日々を送っています。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure><br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure>
 
-自分で言うのなんですが、かなりパチもの臭いですね?。
+自分で言うのなんですが、かなりパチもの臭いですね?。<br>
 
-そこがいいんですけどね。
+そこがいいんですけどね。<br>
 
-残念ながらネタ的にみなさんにお見せできるのはこの２本しかなかったので、
+残念ながらネタ的にみなさんにお見せできるのはこの２本しかなかったので、<br>
 
 急遽スタッフボイス用に作ってきました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" alt="ファミコンコレクター" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" alt="ファミコンコレクター" loading="lazy"></a></figure>
 
 まぁこれもなんともコメントしづらい微妙なネタですが。
 
-自分で作ったソフトを自分で集めて楽しむ。
+自分で作ったソフトを自分で集めて楽しむ。<br>
 
-これぞ究極のコレクションじゃないでしょうか！
+これぞ究極のコレクションじゃないでしょうか！<br>
 
 それではまた?
+
+<br>
 </div>

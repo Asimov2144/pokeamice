@@ -28,43 +28,45 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは。
+こんにちは。<br>
 
 採用担当さとうです。
 
 先日、ゲームフリークの中途採用ページに[「社員紹介」](https://www.gamefreak.co.jp/career/person.html)を追加しました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" alt="クリックでジャンプ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/226/sato110304_01-1081c750.jpg" alt="クリックでジャンプ" loading="lazy"></a></figure>
 
-これは中途採用でゲームフリークに入社した社員に、
+これは中途採用でゲームフリークに入社した社員に、<br>
 
-「今までどのようなキャリアを積んできたのか」
+「今までどのようなキャリアを積んできたのか」<br>
 
-「仕事に対してどう思っているのか」
+「仕事に対してどう思っているのか」<br>
 
-「なぜ、人生の転機にゲームフリークという会社を選んだのか」
+「なぜ、人生の転機にゲームフリークという会社を選んだのか」<br>
 
 ・・・といったことをインタビューし、まとめています。
 
-ゲームフリークにはさまざまなタイプの人間がいる、
+ゲームフリークにはさまざまなタイプの人間がいる、<br>
 
 ということを知っていただきたいと思います！
 
-ちなみに今回、「社員紹介」を掲載しようと思った理由は、
+ちなみに今回、「社員紹介」を掲載しようと思った理由は、<br>
 
-ゲームフリークについて固定されたイメージをお持ちの方が
+ゲームフリークについて固定されたイメージをお持ちの方が<br>
 
-非常に多いといつも感じているためです。
+非常に多いといつも感じているためです。<br>
 
-よく知らないまま「自分とは合わないな･･･」と思われているとしたら
+よく知らないまま「自分とは合わないな･･･」と思われているとしたら<br>
 
 採用担当として悔しい限りです。
 
-だからこそ、[中途採用ページのトップ](https://www.gamefreak.co.jp/career/index.html)には、
+だからこそ、[中途採用ページのトップ](https://www.gamefreak.co.jp/career/index.html)には、<br>
 
 **「誤解してませんか？」**という言葉をどーんと載せています。
 
-まずは、ゲームフリークにはどんな人間が働いているのか、
+まずは、ゲームフリークにはどんな人間が働いているのか、<br>
 
 [「社員紹介」](https://www.gamefreak.co.jp/career/person.html)からのぞいてみてください！
+
+<br>
 </div>

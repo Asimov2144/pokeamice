@@ -28,59 +28,61 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-はじめまして、コンニチハ。
+はじめまして、コンニチハ。<br>
 
-コレクター・・・じゃなかった、グラフィックデザイナーをやっています、おにいさんです。
+コレクター・・・じゃなかった、グラフィックデザイナーをやっています、おにいさんです。<br>
 
 最近すっかり寒くなってきましたね?。
 
-ゲームフリークの引っ越しもいよいよ本格的になってきて、社内がザワついています。
+ゲームフリークの引っ越しもいよいよ本格的になってきて、社内がザワついています。<br>
 
-キャビネットから古い書類を整理する人、昔描いたイラストを掘り出して笑っている人、
+キャビネットから古い書類を整理する人、昔描いたイラストを掘り出して笑っている人、<br>
 
-自分のデスクのオモチャを泣く泣く処分している人、それを貰っている人、いろいろいます。
+自分のデスクのオモチャを泣く泣く処分している人、それを貰っている人、いろいろいます。<br>
 
-そんな中、スロースターターな僕も少しずつ会社の荷物を整理し始め、
+そんな中、スロースターターな僕も少しずつ会社の荷物を整理し始め、<br>
 
 整理ついでに、普段ガラクタだらけの家の部屋もキレイに整頓してみました。
 
-という事で、いきなりですが僕のコレクションをみなさんにちょっとずつ紹介したいと思います。
+という事で、いきなりですが僕のコレクションをみなさんにちょっとずつ紹介したいと思います。<br>
 
 スマートに言うと、ただの自慢です（スミマセン・・・）
 
-とにかく、まずは写真をご覧ください！
+とにかく、まずは写真をご覧ください！<br>
 
 今回ご紹介するのはコチラ。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_02-2694529e.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_02-2694529e.jpg" alt="ファミコン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_02-2694529e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_02-2694529e.jpg" alt="ファミコン" loading="lazy"></a></figure>
 
-これ全部、コツコツ集めた『ファミコンソフト』なんです。
+これ全部、コツコツ集めた『ファミコンソフト』なんです。<br>
 
 もちろん今でも遊んでますよ！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_01-c78c3625.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_01-c78c3625.jpg" alt="ファミコン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_01-c78c3625.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_01-c78c3625.jpg" alt="ファミコン" loading="lazy"></a></figure>
 
-ショップじゃありません！
+ショップじゃありません！<br>
 
-僕の部屋です。
+僕の部屋です。<br>
 
 あ、でも奥にお客さんが写ってますね。
 
 アップでどうぞ。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_03s-df543f73.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_03s-df543f73.jpg" alt="ファミコン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_03s-df543f73.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_03s-df543f73.jpg" alt="ファミコン" loading="lazy"></a></figure><br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_04s-7eff9e9e.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_04s-7eff9e9e.jpg" alt="ファミコン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/43/onisan_01_04s-7eff9e9e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/43/onisan_01_04s-7eff9e9e.jpg" alt="ファミコン" loading="lazy"></a></figure>
 
-集め始めた当初はひたすら自分の好きなソフトだけを集めていましたが、
+集め始めた当初はひたすら自分の好きなソフトだけを集めていましたが、<br>
 
-気づくとすべてのファミコンソフトを網羅していました。
+気づくとすべてのファミコンソフトを網羅していました。<br>
 
 総本数にすると2500本以上はあると思いますが、ちゃんと数えた事はありません。
 
-ファミコンを集めて16年、人生の約半分をこのファミコンに捧げているので、
+ファミコンを集めて16年、人生の約半分をこのファミコンに捧げているので、<br>
 
 なかなか面白いモノをみなさんに紹介できると思います。
 
 という事で、次回をお楽しみに！！
+
+<br>
 </div>

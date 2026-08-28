@@ -32,47 +32,49 @@ source:
 
 「収穫の秋！」「食べ物の秋！」ですね。
 
-ゲームフリークには『イベント委員会』という会社内のイベントを
+ゲームフリークには『イベント委員会』という会社内のイベントを<br>
 
-取り仕切る役についているスタッフがいます。
+取り仕切る役についているスタッフがいます。<br>
 
 昨年は[ジョニーが秋のイベントについて](http://www.gamefreak.co.jp/blog/staff/?p=39)書きました。
 
-今年のイベントはぶどう・なし狩り！
+今年のイベントはぶどう・なし狩り！<br>
 
 食べ放題の果物園でゲームフリークは収穫の秋を感じてきました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_01-1471dd49.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_01-1471dd49.jpg" alt="ぶどう狩り" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_01-1471dd49.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_01-1471dd49.jpg" alt="ぶどう狩り" loading="lazy"></a></figure><br>
 
-紙袋の中のぶどうを一生懸命見る人達。
+紙袋の中のぶどうを一生懸命見る人達。<br>
 
 表面の色が濃い程甘いと教えてもらいました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_02-415eab36.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_02-415eab36.jpg" alt="とんぼ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_02-415eab36.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_02-415eab36.jpg" alt="とんぼ" loading="lazy"></a></figure><br>
 
 とんぼ。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_03-3470e21e.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_03-3470e21e.jpg" alt="なし狩り" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_03-3470e21e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_03-3470e21e.jpg" alt="なし狩り" loading="lazy"></a></figure><br>
 
 持ち上げるだけで取れるなんて、梨ってもろいんだなあ。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_04-bdef7971.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_04-bdef7971.jpg" alt="食べ中" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_04-bdef7971.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_04-bdef7971.jpg" alt="食べ中" loading="lazy"></a></figure><br>
 
 おいしい？私のよりも？
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_05-ec5a6958.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_05-ec5a6958.jpg" alt="なし狩り" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/92/stick081017_05-ec5a6958.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/92/stick081017_05-ec5a6958.jpg" alt="なし狩り" loading="lazy"></a></figure><br>
 
 僕は君が甘いと信じてるよ。
 
-私は果物園から梨を家に持って帰ったのですが、
+私は果物園から梨を家に持って帰ったのですが、<br>
 
-冷やしてから食べた梨がこれまたおいしくて
+冷やしてから食べた梨がこれまたおいしくて<br>
 
-冷蔵庫万歳！、違う違う、梨バンザイ！と
+冷蔵庫万歳！、違う違う、梨バンザイ！と<br>
 
 梨好きのスティックは大満足でした。
 
-イベント委員会のスタッフの方々
+イベント委員会のスタッフの方々<br>
 
 いつも楽しいイベントありがとうございます！
+
+<br>
 </div>

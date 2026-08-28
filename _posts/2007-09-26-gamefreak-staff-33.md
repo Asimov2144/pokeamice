@@ -28,41 +28,43 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-はじめまして。
+はじめまして。<br>
 
-プログラマーのなぎーと申します。
+プログラマーのなぎーと申します。<br>
 
 入社して半年の新人ですが、よろしくお願いします。
 
-さて。
+さて。<br>
 
-ゲームフリークには、社名の通りゲーム好きがたくさんいます。
+ゲームフリークには、社名の通りゲーム好きがたくさんいます。<br>
 
-ポケットモンスターダイヤモンドを500時間以上もプレイしている自他ともに認めるポケモンマニアや、
+ポケットモンスターダイヤモンドを500時間以上もプレイしている自他ともに認めるポケモンマニアや、<br>
 
-結婚式でドラクエのコスプレをしてバージンロードを歩いたドラクエ大好きっこ、
+結婚式でドラクエのコスプレをしてバージンロードを歩いたドラクエ大好きっこ、<br>
 
-自宅にファミコンソフトがずらーっと並んだコレクションルームがあるレトロゲー収集家、などなど
+自宅にファミコンソフトがずらーっと並んだコレクションルームがあるレトロゲー収集家、などなど<br>
 
 そんな人たちが多くいる会社なので、年に数回は社内で大流行するゲームがあります。
 
-最近の流行は、もちろん「ポケモン不思議のダンジョン 時の探検隊・闇の探検隊」です！
+最近の流行は、もちろん「ポケモン不思議のダンジョン 時の探検隊・闇の探検隊」です！<br>
 
-みな仲間と協力しながら不思議のダンジョンに潜るのにはまっています！
+みな仲間と協力しながら不思議のダンジョンに潜るのにはまっています！<br>
 
 時の探検隊と闇の探検隊の２つを購入した猛者もいるくらいです。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/33/nagi01_01-83b16b72.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/33/nagi01_01-83b16b72.jpg" alt="ゲーム中" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/33/nagi01_01-83b16b72.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/33/nagi01_01-83b16b72.jpg" alt="ゲーム中" loading="lazy"></a></figure><br>
 
-僕は画面の中から伝わってくる世界観が好きです。
+僕は画面の中から伝わってくる世界観が好きです。<br>
 
-羽ばたきながら口うるさく話すペラップ、愛らしく歩きまわるビッパ、夕ご飯を頬張るギルドのメンバーたち。
+羽ばたきながら口うるさく話すペラップ、愛らしく歩きまわるビッパ、夕ご飯を頬張るギルドのメンバーたち。<br>
 
 丁寧に作られたポケモンたちの細かなアクションが新しい印象を与えてくれます。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/33/nagi01_02-d400ba53.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/33/nagi01_02-d400ba53.jpg" alt="ゲーム中" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/33/nagi01_02-d400ba53.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/33/nagi01_02-d400ba53.jpg" alt="ゲーム中" loading="lazy"></a></figure><br>
 
-もうかなりの勢いで勧めている社員も大勢います。
+もうかなりの勢いで勧めている社員も大勢います。<br>
 
 みなさんも機会があったらやってみてくださいね！
+
+<br>
 </div>

@@ -28,69 +28,71 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-おひさしぶりです、グラフィックデザイナーのめめたです。
+おひさしぶりです、グラフィックデザイナーのめめたです。<br>
 
-少し前の話ですが、E3の視察でロサンゼルスに行ってきました。
+少し前の話ですが、E3の視察でロサンゼルスに行ってきました。<br>
 
 入社3年目にして初の出張！そして、生まれてはじめての海外です！
 
-ロス到着直後の天気は曇りでしたが、とにかく空気がカラっとしていて
+ロス到着直後の天気は曇りでしたが、とにかく空気がカラっとしていて<br>
 
-気持ち良い。「これが海外かー、これがアメリカかー」なんて感動に浸ったのもつかの間、
+気持ち良い。「これが海外かー、これがアメリカかー」なんて感動に浸ったのもつかの間、<br>
 
 さっそくE3会場へ。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_01-018890be.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_01-018890be.jpg" alt="E3" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_01-018890be.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_01-018890be.jpg" alt="E3" loading="lazy"></a></figure>
 
-入場してすぐの場所には大きなモニターがずらっと並び、
+入場してすぐの場所には大きなモニターがずらっと並び、<br>
 
-大迫力のゲーム映像と音楽で会場はおおいに盛り上がっていました。
+大迫力のゲーム映像と音楽で会場はおおいに盛り上がっていました。<br>
 
-どこを見ても試遊をする人たちの姿が目に入ってくるのが新鮮で、
+どこを見ても試遊をする人たちの姿が目に入ってくるのが新鮮で、<br>
 
 まさにゲームショーならではのアツい雰囲気！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_02-8b3a513a.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_02-8b3a513a.jpg" alt="E3" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_02-8b3a513a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_02-8b3a513a.jpg" alt="E3" loading="lazy"></a></figure>
 
-どのブースもインパクトがあって、
+どのブースもインパクトがあって、<br>
 
-楽しい気分や期待感を演出するための工夫が凝らされているなあ……と、
+楽しい気分や期待感を演出するための工夫が凝らされているなあ……と、<br>
 
 ゲームを提供する側の立場として、とても勉強になりました。
 
-増田の[「めざめるパワー」](http://www.gamefreak.co.jp/blog/dir/)に写真満載のE3のレポートがありますので、
+増田の[「めざめるパワー」](http://www.gamefreak.co.jp/blog/dir/)に写真満載のE3のレポートがありますので、<br>
 
 そちらもご覧ください♪
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_03-c1262074.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_03-c1262074.jpg" alt="シーフード" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_03-c1262074.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_03-c1262074.jpg" alt="シーフード" loading="lazy"></a></figure>
 
-他にも、サンタモニカ海を見たり、美味しいシーフードをたくさん
+他にも、サンタモニカ海を見たり、美味しいシーフードをたくさん<br>
 
 食べたり、英会話にしどろもどろしたり……。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_05-63189a9e.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_05-63189a9e.jpg" alt="サンタモニカ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_05-63189a9e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_05-63189a9e.jpg" alt="サンタモニカ" loading="lazy"></a></figure>
 
-冒頭に書いたとおり、今回はじめて海外へ行ったのですが、
+冒頭に書いたとおり、今回はじめて海外へ行ったのですが、<br>
 
-目にするものすべてが新鮮で驚きの連続でした。
+目にするものすべてが新鮮で驚きの連続でした。<br>
 
-日用品のパッケージや街並みの色合い、建物のかたちが、今まで
+日用品のパッケージや街並みの色合い、建物のかたちが、今まで<br>
 
-自分が触れてきたものと何もかも違う！
+自分が触れてきたものと何もかも違う！<br>
 
-テレビや本、ネットなどで見たことはありましたが、実物は迫力が違います。
+テレビや本、ネットなどで見たことはありましたが、実物は迫力が違います。<br>
 
-まさにカルチャーショック！！
+まさにカルチャーショック！！<br>
 
-同時に、デザインをする上で、知らず知らずのうちに
+同時に、デザインをする上で、知らず知らずのうちに<br>
 
-「これはこういう形」「これはこういう色」などといった思い込みに
+「これはこういう形」「これはこういう色」などといった思い込みに<br>
 
 縛られていたんだなあと気づきました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_04-69f48cbe.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_04-69f48cbe.jpg" alt="E3" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/230/memeta110624_04-69f48cbe.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/230/memeta110624_04-69f48cbe.jpg" alt="E3" loading="lazy"></a></figure>
 
-これからはもっと自由に、柔軟に、アイデアを出していけるように
+これからはもっと自由に、柔軟に、アイデアを出していけるように<br>
 
 なりたいと思っためめたでした！
+
+<br>
 </div>

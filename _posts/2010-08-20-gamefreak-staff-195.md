@@ -28,111 +28,113 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！
+こんにちは！<br>
 
 Web担当のにょろリカです。
 
-連日の猛暑でついついエアコンの効いた部屋に閉じこもりがちですが、
+連日の猛暑でついついエアコンの効いた部屋に閉じこもりがちですが、<br>
 
-せっかくの夏！ですからちょっとお出かけをしてきました。
+せっかくの夏！ですからちょっとお出かけをしてきました。<br>
 
 富士山マニアの[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)に対抗して、にょろリカは「海」を目指します。
 
-というわけで、問題。
+というわけで、問題。<br>
 
-ここはどこでしょう？
+ここはどこでしょう？<br>
 
-↓
+↓<br>
 
-↓
+↓<br>
 
-↓
+↓<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" alt="ここはどこでしょう？" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" alt="ここはどこでしょう？" loading="lazy"></a></figure><br>
 
-・
+・<br>
 
-・
+・<br>
 
-・
+・<br>
 
-正解は「東京都」。
+正解は「東京都」。<br>
 
-東京湾から約160km南に位置する新島です。
+東京湾から約160km南に位置する新島です。<br>
 
 都心からジェット船に乗って、わずか2時間半でこの景色。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" alt="水底に自分の影" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" alt="水底に自分の影" loading="lazy"></a></figure><br>
 
-プールじゃないですよ、海です、港です。
+プールじゃないですよ、海です、港です。<br>
 
-写真ではちょっと分かりにくいかもしれませんが、
+写真ではちょっと分かりにくいかもしれませんが、<br>
 
-毎日船や多くの人が出入りする港なのに、海の底に自分の影が
+毎日船や多くの人が出入りする港なのに、海の底に自分の影が<br>
 
 映るほど透明です。
 
-四半世紀ほど前は若者でずいぶんと賑わっていたようですが、
+四半世紀ほど前は若者でずいぶんと賑わっていたようですが、<br>
 
-それも今は昔のお話し。
+それも今は昔のお話し。<br>
 
 今では家族連れなどがチラホラと見られるような、のんびりとした島です。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" alt="乗るしかない！このビッグウェーブに！" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" alt="乗るしかない！このビッグウェーブに！" loading="lazy"></a></figure><br>
 
-サーファーで賑わう羽伏浦。
+サーファーで賑わう羽伏浦。<br>
 
-サーフィンの国際大会が開催されるほど有名なスポットで、
+サーフィンの国際大会が開催されるほど有名なスポットで、<br>
 
-海外からも多くのサーファーが訪ねてくるそうです。
+海外からも多くのサーファーが訪ねてくるそうです。<br>
 
-サーフィンができない私は、アメリカまで流されてしまうのではないかと
+サーフィンができない私は、アメリカまで流されてしまうのではないかと<br>
 
 不安になってしまいますが……。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" alt="羽伏浦" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" alt="羽伏浦" loading="lazy"></a></figure><br>
 
 6.5kmも続く真っ白い砂浜は一見の価値アリ！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" alt="虹" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" alt="虹" loading="lazy"></a></figure><br>
 
 雨上がりの港に大きな虹。合成ではありません。
 
-ちなみに、新島にはコンビニがありません。
+ちなみに、新島にはコンビニがありません。<br>
 
-初めて訪れたときは「不便なんじゃないか？」と思いましたが、
+初めて訪れたときは「不便なんじゃないか？」と思いましたが、<br>
 
-日用品を扱うお店はいくつかありますし、夜中は寝てしまうので
+日用品を扱うお店はいくつかありますし、夜中は寝てしまうので<br>
 
 そんなことも全然なく。
 
-コンビニだけでなく、映画館やゲームセンターといった
+コンビニだけでなく、映画館やゲームセンターといった<br>
 
-いわゆる娯楽施設もありません。
+いわゆる娯楽施設もありません。<br>
 
-泊まった宿にはエアコンもテレビもありませんでした。
+泊まった宿にはエアコンもテレビもありませんでした。<br>
 
-それでも、滞在中は毎朝早起きして、おいしい朝ごはんを食べてから
+それでも、滞在中は毎朝早起きして、おいしい朝ごはんを食べてから<br>
 
-海に行って、宿に戻って昼寝をして、お昼ごはんを食べた後は
+海に行って、宿に戻って昼寝をして、お昼ごはんを食べた後は<br>
 
-自転車に乗って島を探索したり、アイスキャンディーを片手に
+自転車に乗って島を探索したり、アイスキャンディーを片手に<br>
 
-近場を散策したり、夜は花火をしたりと、やることがたくさんあり
+近場を散策したり、夜は花火をしたりと、やることがたくさんあり<br>
 
 毎日とても忙しかったです(笑)。
 
-「本当に必要な物」なんてのは、実は自分が思っているほど
+「本当に必要な物」なんてのは、実は自分が思っているほど<br>
 
 ないのかもしれません。
 
-唯一残念だったのは、海釣り。
+唯一残念だったのは、海釣り。<br>
 
-朝4時半起きでチャレンジし、結果は見事にボウズ……。
+朝4時半起きでチャレンジし、結果は見事にボウズ……。<br>
 
 これをリベンジすべく、また絶対に島を訪ねようと心に決めるにょろリカでした。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" alt="チョビ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" alt="チョビ" loading="lazy"></a></figure><br>
 
 宿にて、鍵を掛けずにドアを半分開けっ放しにしていたら、いつの間にか来客が…。
+
+<br>
 </div>

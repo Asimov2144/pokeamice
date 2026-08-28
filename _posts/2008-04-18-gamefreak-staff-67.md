@@ -28,71 +28,73 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-皆さん、お初にお目にかかります。
+皆さん、お初にお目にかかります。<br>
 
-今年４月に入社したばかりの新米ほやほやプランナーのえるかつです。
+今年４月に入社したばかりの新米ほやほやプランナーのえるかつです。<br>
 
 ゴジラ松井の故郷、石川県からやってきました。
 
-ただいま新人研修真っ最中です！
+ただいま新人研修真っ最中です！<br>
 
-電話応対、名刺の受渡、礼儀作法といったビジネスマナーから
+電話応対、名刺の受渡、礼儀作法といったビジネスマナーから<br>
 
-企画についての研修などの実務的なものまで！
+企画についての研修などの実務的なものまで！<br>
 
-厳しくも優しい総務の方々、親身になって
+厳しくも優しい総務の方々、親身になって<br>
 
-アドバイスをくださる先輩方に囲まれ、すくすくと成長しています。
+アドバイスをくださる先輩方に囲まれ、すくすくと成長しています。<br>
 
-一刻も早く一人前になり、皆様に愛と勇気の溢れる
+一刻も早く一人前になり、皆様に愛と勇気の溢れる<br>
 
-良質な遊びを提供出来るように頑張ります！
+良質な遊びを提供出来るように頑張ります！<br>
 
 よろしくお願い致します！
 
-石川というと加賀市や金沢市が有名ですが、
+石川というと加賀市や金沢市が有名ですが、<br>
 
 僕はさらに北の方の田舎より参りました。
 
-どれぐらい田舎というと
+どれぐらい田舎というと<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/67/lkatu080418-86e43004.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/67/lkatu080418-86e43004.jpg" alt="石川の北の方です" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/67/lkatu080418-86e43004.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/67/lkatu080418-86e43004.jpg" alt="石川の北の方です" loading="lazy"></a></figure><br>
 
 これぐらいです。
 
-やせいのたぬき！いたち！野うさぎ！などは序の口でして
+やせいのたぬき！いたち！野うさぎ！などは序の口でして<br>
 
 屋根裏にはムササビ、森の中にはふくろう　秋に近くなると腹ペコの熊なども・・・。
 
 ところで皆さんは石川県というと、どんな観光地を連想されるのでしょうか？
 
-兼六園
+兼六園<br>
 
-武家屋敷
+武家屋敷<br>
 
-にし・ひがし茶屋街
+にし・ひがし茶屋街<br>
 
-那谷寺
+那谷寺<br>
 
-鶴仙渓
+鶴仙渓<br>
 
-山中、山代、片山津などの温泉地
+山中、山代、片山津などの温泉地<br>
 
-白山スーパー林道
+白山スーパー林道<br>
 
 ２１世紀美術館
 
-などなど、沢山見所があると思いますが
+などなど、沢山見所があると思いますが<br>
 
 元県民のえるかつがオススメしたい観光地はこちら！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/67/lkatu080418_02-7eb68a9b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/67/lkatu080418_02-7eb68a9b.jpg" alt="石川の北の方です" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/67/lkatu080418_02-7eb68a9b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/67/lkatu080418_02-7eb68a9b.jpg" alt="石川の北の方です" loading="lazy"></a></figure><br>
 
 千里浜なぎさドライブウェイ！
 
-ここは何と、海岸沿いの砂浜を自家用車で走ることが出来るのです！
+ここは何と、海岸沿いの砂浜を自家用車で走ることが出来るのです！<br>
 
-砂浜を自動車で走るという、レアな体験が出来るのはそうそう無いと思います。
+砂浜を自動車で走るという、レアな体験が出来るのはそうそう無いと思います。<br>
 
 是非、石川県にお立ち寄りの際はなぎさドライブウェイを！！
+
+<br>
 </div>

@@ -28,31 +28,31 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-はじめまして、サウンド兼、プランナーの『っゃっゃ』です。
+はじめまして、サウンド兼、プランナーの『っゃっゃ』です。<br>
 
 最近、念願のデジタル一眼レフカメラを買ってニコニコです。
 
-さて、
+さて、<br>
 
 唐突ですが『世田谷線のミニチュア』を作ってみました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/59/tuya_0802_01-d9aff6a4.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/59/tuya_0802_01-d9aff6a4.jpg" alt="ミニチュア写真1" loading="lazy"></a></figure><figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/59/tuya_0802_02-f0c2fa5b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/59/tuya_0802_02-f0c2fa5b.jpg" alt="ミニチュア写真2" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/59/tuya_0802_01-d9aff6a4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/59/tuya_0802_01-d9aff6a4.jpg" alt="ミニチュア写真1" loading="lazy"></a></figure><figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/59/tuya_0802_02-f0c2fa5b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/59/tuya_0802_02-f0c2fa5b.jpg" alt="ミニチュア写真2" loading="lazy"></a></figure>
 
-この模型はディテールを出すのにもの凄い時間がかかりました。
+この模型はディテールを出すのにもの凄い時間がかかりました。<br>
 
-気の遠くなるような細かい作業でして、型紙を様々な家やビルの形にしたり
+気の遠くなるような細かい作業でして、型紙を様々な家やビルの形にしたり<br>
 
 色をただ塗るだけでなく、自然な感じを出すために汚したり…何百時間…
 
-って言うことは全くなくて
+って言うことは全くなくて<br>
 
-写真を加工しただけなんですネー
+写真を加工しただけなんですネー<br>
 
 （※最初からミニチュアに見えなかった人もいると思いますが…）
 
-と、言うのも…
+と、言うのも…<br>
 
-2006年に木村伊兵衛写真賞を受賞された本城直季さんの
+2006年に木村伊兵衛写真賞を受賞された本城直季さんの<br>
 
 写真集『small planet』の不思議な感覚に憧れ真似して作ってみたのです。
 
@@ -60,13 +60,15 @@ source:
 
 そこで、ゲームフリークの写真博士『ねこスＱさん』に尋ねてみたら…
 
-カメラのレンズが特殊な事やこの手法を使って表現している人が
+カメラのレンズが特殊な事やこの手法を使って表現している人が<br>
 
-海外では バービエリさんやマルク・レダーさんという写真家が
+海外では バービエリさんやマルク・レダーさんという写真家が<br>
 
 有名な事を教えてくれました。なるほどー
 
-この写真は先日、雪が降った時にオフィスから撮った写真ですが
+この写真は先日、雪が降った時にオフィスから撮った写真ですが<br>
 
 今度は反対側に見える東京タワーを撮ってミニチュアに挑戦してみようかしら。
+
+<br>
 </div>

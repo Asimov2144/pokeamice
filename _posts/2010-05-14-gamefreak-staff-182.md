@@ -28,61 +28,63 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-『ポケットモンスター ハートゴールド・ソウルシルバー』
+『ポケットモンスター ハートゴールド・ソウルシルバー』<br>
 
 ディレクターの[もりもと](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)です。
 
 みなさんお久しぶりです！
 
-先日もりもとはエンターブレインさんで行われた「ファミ通アワード」に
+先日もりもとはエンターブレインさんで行われた「ファミ通アワード」に<br>
 
-出席させていただきました。
+出席させていただきました。<br>
 
-作品を遊んでいただいたみなさまのおかげで
+作品を遊んでいただいたみなさまのおかげで<br>
 
-『ポケットモンスター ハートゴールド・ソウルシルバー』は、
+『ポケットモンスター ハートゴールド・ソウルシルバー』は、<br>
 
 優秀賞を受賞することができました。
 
-[⇒ファミ通アワードの模様はこちらをクリック！](http://www.famitsu.com/game/news/1234602_1124.html)
+[⇒ファミ通アワードの模様はこちらをクリック！](http://www.famitsu.com/game/news/1234602_1124.html)<br>
 
-花束を贈呈してくれた子供がポケウォーカーを
+花束を贈呈してくれた子供がポケウォーカーを<br>
 
 持っていたのがとても嬉しかったです。
 
-「ファミ通アワード」の会場では優秀賞のトロフィーをいただいたのですが、
+「ファミ通アワード」の会場では優秀賞のトロフィーをいただいたのですが、<br>
 
-その後、ゲームフリークのオフィスに、エンターブレインさんから
+その後、ゲームフリークのオフィスに、エンターブレインさんから<br>
 
 巨大な受賞記念カステラが送られてきました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" alt="" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" alt="" loading="lazy"></a></figure>
 
 おいしそ?！！
 
-・
+・<br>
+
+　　　　・<br>
 
 　　　　・
 
-　　　　・
-
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" alt="" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" alt="" loading="lazy"></a></figure>
 
 いやぁ、美味しかった（笑）
 
-ディレクターの無謀ともいえるような要望に答え、最後まで頑張ってくれた
+ディレクターの無謀ともいえるような要望に答え、最後まで頑張ってくれた<br>
 
-開発スタッフのみんなと、開発を支えてくれた関係各社のみなさま、
+開発スタッフのみんなと、開発を支えてくれた関係各社のみなさま、<br>
 
-そして何よりもポケットモンスターを愛してくれているみなさま、
+そして何よりもポケットモンスターを愛してくれているみなさま、<br>
 
 本当にありがとうございました！！
 
-またこの美味しいカステラを食べるべく、ゲーム製作によりいっそう
+またこの美味しいカステラを食べるべく、ゲーム製作によりいっそう<br>
 
-力を入れていきたいと思いますので（おい！）、
+力を入れていきたいと思いますので（おい！）、<br>
 
 現在鋭意開発中の新作もどうぞお楽しみに♪
 
 ※この写真はあくまで演出であり、カステラはスタッフでおいしくいただきました。
+
+<br>
 </div>

@@ -28,33 +28,35 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-みなさま、あけましておめでとうございます。
+みなさま、あけましておめでとうございます。<br>
 
 Web担当のにょろリカです。
 
-ここを読んでいるみなさんは、年末年始をどのように過ごしましたか？
+ここを読んでいるみなさんは、年末年始をどのように過ごしましたか？<br>
 
-私は久しぶりに会った甥っ子（小学校4年生）と
+私は久しぶりに会った甥っ子（小学校4年生）と<br>
 
-「ポケットモンスターブラック・ホワイト」対戦をしたのですが、結果は
+「ポケットモンスターブラック・ホワイト」対戦をしたのですが、結果は<br>
 
-見事にボロ負けでした……。
+見事にボロ負けでした……。<br>
 
-フラットバトルでも勝てず、甥っ子のてもちを2匹にしてもらい、
+フラットバトルでも勝てず、甥っ子のてもちを2匹にしてもらい、<br>
 
-対する私は5匹で挑んでようやく辛勝。
+対する私は5匹で挑んでようやく辛勝。<br>
 
-ゲームフリーク社内では毎年「ポケモンバトル大会」が開催されて
+ゲームフリーク社内では毎年「ポケモンバトル大会」が開催されて<br>
 
-いるのですが、私の参戦はまだまだ先のようです。
+いるのですが、私の参戦はまだまだ先のようです。<br>
 
-いずれこの「社内ポケモンバトル大会」の模様をお届けする予定ですので、
+いずれこの「社内ポケモンバトル大会」の模様をお届けする予定ですので、<br>
 
 どうぞお楽しみに！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" alt="年賀状" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" alt="年賀状" loading="lazy"></a></figure><br>
 
 < <2011年年賀状>>
 
 それでは、2011年もゲームフリークをどうぞ宜しくお願いいたします。
+
+<br>
 </div>

@@ -30,57 +30,59 @@ source:
 <div data-gf-language-panel="ja">
 はじめまして。プランナーのマーです。
 
-先日、ゲームフリークではポケモンカードゲームの社内大会が開かれました。
+先日、ゲームフリークではポケモンカードゲームの社内大会が開かれました。<br>
 
 業務後、会議室にわらわらとカード族が集まってきます。
 
-会議室があっという間に大会会場に！
+会議室があっという間に大会会場に！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/38/ma01-977f290b.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/38/ma01-977f290b.jpg" alt="カード大会（１）" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/38/ma01-977f290b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/38/ma01-977f290b.jpg" alt="カード大会（１）" loading="lazy"></a></figure><br>
 
-ちゃんとプレイマットもしいて本格的。
+ちゃんとプレイマットもしいて本格的。<br>
 
 後ろではピカチュウやカビゴンが大会を見守っています。
 
-それにしても、平日の夜に「カードしようぜ！」と言って
+それにしても、平日の夜に「カードしようぜ！」と言って<br>
 
-これだけの人数が集まるのはゲーム会社ならではかな。
+これだけの人数が集まるのはゲーム会社ならではかな。<br>
 
 気軽に大勢でゲームができるなんてマー幸せ！
 
-今回は全勝でプログラマーのナギーが優勝！
+今回は全勝でプログラマーのナギーが優勝！<br>
 
-出場２回目での快挙です。ウラヤマシ！
+出場２回目での快挙です。ウラヤマシ！<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" alt="カード大会優勝者！" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" alt="カード大会優勝者！" loading="lazy"></a></figure><br>
 
-控えめに優勝カップを掲げるナギー。
+控えめに優勝カップを掲げるナギー。<br>
 
 ほんとはめっちゃ嬉しいくせに！コイツめコイツめ?
 
-ちなみに、カップについている沢山のリボンには
+ちなみに、カップについている沢山のリボンには<br>
 
 歴代優勝者の名前とデッキ名が記入されています。
 
-最近のデッキ名を見てみると…
+最近のデッキ名を見てみると…<br>
 
-「アロマなフシギさん デッキ」
+「アロマなフシギさん デッキ」<br>
 
-「テレポでトラッシュ・ルカナス デッキ」
+「テレポでトラッシュ・ルカナス デッキ」<br>
 
-「烈火のリザードン デッキ」
+「烈火のリザードン デッキ」<br>
 
-「焼き畑農業ゴウカザル デッキ」
+「焼き畑農業ゴウカザル デッキ」<br>
 
-「水周りのことなら安心♪ デッキ」
+「水周りのことなら安心♪ デッキ」<br>
 
 「まるのみますきっぱ デッキ」
 
-ん??、どうでしょう…。
+ん??、どうでしょう…。<br>
 
-巷で流行しているデッキもあれば、
+巷で流行しているデッキもあれば、<br>
 
 ちょっと変わったデッキが優勝してたりもするのかな。
 
 いつか自分もここに名前を刻みたいなー！
+
+<br>
 </div>

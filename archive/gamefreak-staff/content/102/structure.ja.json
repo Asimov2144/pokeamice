@@ -3,88 +3,93 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "スティックです！\n\n師走と言えば忘年会ですね。\n\n忘年会と言えばイベント委員会の出番！\n\nという事で今年もゲームフリーク忘年会が開催されました。",
+      "markdown": "スティックです！<br>\n\n師走と言えば忘年会ですね。<br>\n\n忘年会と言えばイベント委員会の出番！<br>\n\nという事で今年もゲームフリーク忘年会が開催されました。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "イベント委員会のメンバーによると[去年開催された](http://www.gamefreak.co.jp/blog/staff/?p=50)カジノ形式のゲーム大会が\n\n非常に好評だったという事で、今年も同様の形式で忘年会は行われました。\n\nメダルを賭けてゲームに参加し、チーム単位での優勝を目指します。",
+      "markdown": "イベント委員会のメンバーによると[去年開催された](http://www.gamefreak.co.jp/blog/staff/?p=50)カジノ形式のゲーム大会が<br>\n\n非常に好評だったという事で、今年も同様の形式で忘年会は行われました。<br>\n\nメダルを賭けてゲームに参加し、チーム単位での優勝を目指します。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "去年メダルを稼いだ人、稼げなかった人、色々な想いを抱えて\n\nゲームフリーク社員は今回も勝負の場に挑んだのでした！！！",
+      "markdown": "去年メダルを稼いだ人、稼げなかった人、色々な想いを抱えて<br>\n\nゲームフリーク社員は今回も勝負の場に挑んだのでした！！！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-9306276b7af1\" alt=\"乾杯\" %}\n\n増田部長の乾杯で忘年会開始！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-9306276b7af1\" alt=\"乾杯\" %}<br>\n\n増田部長の乾杯で忘年会開始！",
       "images": [
         "gamefreak-staff-9306276b7af1"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-4c242dbda6a2\" alt=\"全体像\" %}\n\n全体像。みんな勝つ気マンマン！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-4c242dbda6a2\" alt=\"全体像\" %}<br>\n\n全体像。みんな勝つ気マンマン！",
       "images": [
         "gamefreak-staff-4c242dbda6a2"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-2d43fa2b3eba\" alt=\"どれだっけ\" %}\n\n神経衰弱。ああ、さっきそこのカードは見たのに！\n\nなんだっけ、なんだっけ。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-2d43fa2b3eba\" alt=\"どれだっけ\" %}<br>\n\n神経衰弱。ああ、さっきそこのカードは見たのに！<br>\n\nなんだっけ、なんだっけ。",
       "images": [
         "gamefreak-staff-2d43fa2b3eba"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-64ba6d671528\" alt=\"ワンペア\" %}\n\nポーカー。この手で勝つにはブラフしかないな…。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-64ba6d671528\" alt=\"ワンペア\" %}<br>\n\nポーカー。この手で勝つにはブラフしかないな…。",
       "images": [
         "gamefreak-staff-64ba6d671528"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-9b4eded74f48\" alt=\"不敵な笑み\" %}\n\n同じくポーカー。僕の手の方が強いぞー！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-9b4eded74f48\" alt=\"不敵な笑み\" %}<br>\n\n同じくポーカー。僕の手の方が強いぞー！",
       "images": [
         "gamefreak-staff-9b4eded74f48"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-2b5574512ce2\" alt=\"ハラハラ\" %}\n\n当たれ…！当たれ…！",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-2b5574512ce2\" alt=\"ハラハラ\" %}<br>\n\n当たれ…！当たれ…！",
       "images": [
         "gamefreak-staff-2b5574512ce2"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-dbaa3a353f3d\" alt=\"どこどこ\" %}\n\nカルタなんて競技もありました。「旅行けば?」　どこ？どこ？",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-dbaa3a353f3d\" alt=\"どこどこ\" %}<br>\n\nカルタなんて競技もありました。「旅行けば?」　どこ？どこ？",
       "images": [
         "gamefreak-staff-dbaa3a353f3d"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-05fabcd15c98\" alt=\"勝てるかな？\" %}\n\n今回の変り種「紙相撲」　田尻社長も興味津々です。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-05fabcd15c98\" alt=\"勝てるかな？\" %}<br>\n\n今回の変り種「紙相撲」　田尻社長も興味津々です。",
       "images": [
         "gamefreak-staff-05fabcd15c98"
       ]
     },
     {
       "type": "p",
-      "markdown": "いやー楽しかった！\n\nスティックのチームはたった３枚の差でチーム優勝を逃しました！\n\n悔しい！",
+      "markdown": "いやー楽しかった！<br>\n\nスティックのチームはたった３枚の差でチーム優勝を逃しました！<br>\n\n悔しい！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "ゲームの前ではどんな人間も素直に一喜一憂できると思うのです。\n\n勝ったから嬉しい。負けたら悔しい。\n\n先輩・後輩関係なし。チームの優勝を目指すのもいいし、\n\n個人のメダル枚数No.1を目指してもいい。",
+      "markdown": "ゲームの前ではどんな人間も素直に一喜一憂できると思うのです。<br>\n\n勝ったから嬉しい。負けたら悔しい。<br>\n\n先輩・後輩関係なし。チームの優勝を目指すのもいいし、<br>\n\n個人のメダル枚数No.1を目指してもいい。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "でも素直になれるのは、そう思えるゲームが用意されているから。\n\nそういうゲームを自分でも用意していきたいと思った忘年会でした。",
+      "markdown": "でも素直になれるのは、そう思えるゲームが用意されているから。<br>\n\nそういうゲームを自分でも用意していきたいと思った忘年会でした。",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

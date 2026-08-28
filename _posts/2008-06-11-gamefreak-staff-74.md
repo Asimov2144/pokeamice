@@ -30,43 +30,45 @@ source:
 <div data-gf-language-panel="ja">
 採用担当のもりもとです。
 
-２００９年度の新卒採用１次募集について、全日程を終了しました！
+２００９年度の新卒採用１次募集について、全日程を終了しました！<br>
 
-学生の皆様にはとても貴重なお時間をゲームフリークの為に割いて頂きまして、
+学生の皆様にはとても貴重なお時間をゲームフリークの為に割いて頂きまして、<br>
 
 大変感謝しております。本当にありがとうございました。
 
-そして、２次募集についての詳細が決定しましたのでお知らせ致します。
+そして、２次募集についての詳細が決定しましたのでお知らせ致します。<br>
 
-２次募集は、応募作品の締め切りが９／１（必着）、選考が９月上旬からとなります。
+２次募集は、応募作品の締め切りが９／１（必着）、選考が９月上旬からとなります。<br>
 
 応募される方は、まずはリクナビからエントリーして下さい。
 
 [リクナビ２００９の採用ページはこちらから](http://rikunabi2009.yahoo.co.jp/bin/KDBG00100.cgi?KOKYAKU_ID=1509563001&MAGIC=)
 
-・・・いろいろと忙しくて、このブログにはひさびさの登場となるもりもとですが、
+・・・いろいろと忙しくて、このブログにはひさびさの登場となるもりもとですが、<br>
 
 みなさん、お元気ですか？
 
-会社を引っ越ししてからいつのまにやら半年以上が経ちました。
+会社を引っ越ししてからいつのまにやら半年以上が経ちました。<br>
 
-もうすっかり快適な新オフィスにも慣れてしまいましたが、
+もうすっかり快適な新オフィスにも慣れてしまいましたが、<br>
 
-いまだに、会社に入るカードキーを席に忘れて閉め出されるなんてことを
+いまだに、会社に入るカードキーを席に忘れて閉め出されるなんてことを<br>
 
 しょっちゅうやっていたりします（笑）。
 
-最近の残念なことは、オフィスの窓からさっぱり富士山が見えなくなったこと。
+最近の残念なことは、オフィスの窓からさっぱり富士山が見えなくなったこと。<br>
 
 引っ越ししてきた当初は週に１、２回は富士山が見えていたのですが。
 
-どうやら富士山は冬にしか見えないようで・・・。
+どうやら富士山は冬にしか見えないようで・・・。<br>
 
 次の冬まで富士山を見るのはお預けのようです。
 
 せっかくなので、冬に撮影したオフィスから見える富士山の写真を！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/74/morimoto080609_01-5b4b408c.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/74/morimoto080609_01-5b4b408c.jpg" alt="朝の富士山" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/74/morimoto080609_01-5b4b408c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/74/morimoto080609_01-5b4b408c.jpg" alt="朝の富士山" loading="lazy"></a></figure><br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/74/morimoto080609_02-085df29c.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/74/morimoto080609_02-085df29c.jpg" alt="夕暮れの富士山" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/74/morimoto080609_02-085df29c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/74/morimoto080609_02-085df29c.jpg" alt="夕暮れの富士山" loading="lazy"></a></figure>
+
+<br>
 </div>

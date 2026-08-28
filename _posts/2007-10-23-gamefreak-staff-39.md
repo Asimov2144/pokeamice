@@ -28,79 +28,81 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは、ジョニです。
+こんにちは、ジョニです。<br>
 
-GFのグラフィックデザイナーで、イベント委員です。
+GFのグラフィックデザイナーで、イベント委員です。<br>
 
 イベント委員は、会社のイベントを考えたり準備したりするスタッフの集まりです。
 
-そんなイベント委員会がこの秋行ったイベントは「渓流釣りとバーベキュー」
+そんなイベント委員会がこの秋行ったイベントは「渓流釣りとバーベキュー」<br>
 
-色変わり始める１０月の山、静かな渓流でのんびりヤマメを釣ったり、
+色変わり始める１０月の山、静かな渓流でのんびりヤマメを釣ったり、<br>
 
 バーベキューをしたりと、自然と一体となってリフレーッシュ！しましょうと。
 
-のんびりな趣旨とは裏腹に、集合は厳しき朝の９時…。
+のんびりな趣旨とは裏腹に、集合は厳しき朝の９時…。<br>
 
 世間はどうであれGFのメンバーには大変なお時間です。
 
-バス移動中はポケモンビンゴゲーム。
+バス移動中はポケモンビンゴゲーム。<br>
 
-しおりに盛り込んだよっしーさん手作りのビンゴシート大活躍♪
+しおりに盛り込んだよっしーさん手作りのビンゴシート大活躍♪<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" alt="旅のしおり" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" alt="旅のしおり" loading="lazy"></a></figure>
 
-奥多摩の山は東京都だけど自然がそのまま残っていて、
+奥多摩の山は東京都だけど自然がそのまま残っていて、<br>
 
-木の匂いと渓流の音でいっぱいな素敵な所でした。
+木の匂いと渓流の音でいっぱいな素敵な所でした。<br>
 
-野生の動物もいて、熊が本当に出るらしいです。
+野生の動物もいて、熊が本当に出るらしいです。<br>
 
 ジョニは一応熊退治用具も持っててました。
 
-そしていざ釣り！釣ったり釣れなかったりしましたがー
+そしていざ釣り！釣ったり釣れなかったりしましたがー<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_02-20786023.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_02-20786023.jpg" alt="渓流釣り中！" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_02-20786023.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_02-20786023.jpg" alt="渓流釣り中！" loading="lazy"></a></figure>
 
-一応賞品をかけたチーム戦という事ですが
+一応賞品をかけたチーム戦という事ですが<br>
 
 焦っても魚は来ないのでのんびりとした大会でした。
 
-釣れたら即さばいて⇒串打ち⇒塩焼き⇒食う！
+釣れたら即さばいて⇒串打ち⇒塩焼き⇒食う！<br>
 
-とれたて焼きたて魚は超おいしい♪
+とれたて焼きたて魚は超おいしい♪<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_03-4b0a6f68.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_03-4b0a6f68.jpg" alt="魚焼き中！" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_03-4b0a6f68.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_03-4b0a6f68.jpg" alt="魚焼き中！" loading="lazy"></a></figure><br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_04-3a3a0c0a.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_04-3a3a0c0a.jpg" alt="楽しくみんなで食事" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_04-3a3a0c0a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_04-3a3a0c0a.jpg" alt="楽しくみんなで食事" loading="lazy"></a></figure>
 
 これぞ釣り、秋のロマンです。
 
-後はアウトドアの定番、バーベキュータイム。
+後はアウトドアの定番、バーベキュータイム。<br>
 
-朝からおなかをすかしていたのでジョニも大変楽しみにしてました。
+朝からおなかをすかしていたのでジョニも大変楽しみにしてました。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" alt="バーベキューで" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" alt="バーベキューで" loading="lazy"></a></figure>
 
-とにかく食う！
+とにかく食う！<br>
 
 野菜もお肉も好きなだけ食べれて、もう、幸せいっぱいです。
 
-皆が幸せでいっぱいになる頃に大会の成績発表、
+皆が幸せでいっぱいになる頃に大会の成績発表、<br>
 
 賞品授与して当日のイベントは終わりー。
 
-帰りはくたくたになったけど、晴天、豊かな自然、おいしいご飯、
+帰りはくたくたになったけど、晴天、豊かな自然、おいしいご飯、<br>
 
 そして仲間達の笑顔に囲まれた楽しい一日でした。
 
-日々仕事で忙しいGFのスタッフ達が、このようなイベントを通じて
+日々仕事で忙しいGFのスタッフ達が、このようなイベントを通じて<br>
 
-いつもと違う場所で新しい事に挑戦できたり、一緒の思い出を残す事ができるので
+いつもと違う場所で新しい事に挑戦できたり、一緒の思い出を残す事ができるので<br>
 
 イベント委員会の仕事はとてもやりがいがあるなーと思います。
 
-次はどんなイベントを開こうかなーと今からわくわくしてしまう
+次はどんなイベントを開こうかなーと今からわくわくしてしまう<br>
 
 以上、ジョニの日記でした?。
+
+<br>
 </div>

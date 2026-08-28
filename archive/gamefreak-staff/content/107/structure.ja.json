@@ -3,20 +3,25 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "こんにちは、Web開発のカニ子です。\n\n早いものでもう1月も中旬…\n\n[年賀ドットコンテスト](http://www.gamefreak.co.jp/information/news_090101.html)の締め切りが近づいてまいりました！",
+      "markdown": "こんにちは、Web開発のカニ子です。<br>\n\n早いものでもう1月も中旬…<br>\n\n[年賀ドットコンテスト](http://www.gamefreak.co.jp/information/news_090101.html)の締め切りが近づいてまいりました！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "〆切は 1/15（木）となっております。\n\n金銀銅の入賞者にはプレゼントも用意していますので、\n\n更なる挑戦者もまだまだお待ちしております。\n\n結果発表は2/2（月）です。オタノシミに！",
+      "markdown": "〆切は 1/15（木）となっております。<br>\n\n金銀銅の入賞者にはプレゼントも用意していますので、<br>\n\n更なる挑戦者もまだまだお待ちしております。<br>\n\n結果発表は2/2（月）です。オタノシミに！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-2385abd6a3b1\" alt=\"梅\" %}\n\nこれは年始から会社に飾られている梅の盆栽です。\n\n春っぽさが感じられて嬉しくなります。",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-2385abd6a3b1\" alt=\"梅\" %}<br>\n\nこれは年始から会社に飾られている梅の盆栽です。<br>\n\n春っぽさが感じられて嬉しくなります。",
       "images": [
         "gamefreak-staff-2385abd6a3b1"
       ]
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
+      "images": []
     }
   ]
 }

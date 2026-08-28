@@ -3,27 +3,32 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "こんにちは。採用担当のさとうです。\n\n今日から10月！朝晩の涼しさで本格的な秋を感じますね?。",
+      "markdown": "こんにちは。採用担当のさとうです。<br>\n\n今日から10月！朝晩の涼しさで本格的な秋を感じますね?。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "そして10月といえば、学生の皆さんの就職活動が\n\n本格的に動き始める時期でもありますね。\n\nそろそろ準備に取り掛かる方も多いのではないでしょうか。\n\nゲームフリークでも本日より2011年度新卒採用を開始しました！\n\nまずは「どんな会社なんだっけ？」ということを\n\n知っていただく為にもエントリーをお願いします。\n\n※エントリーは[リクナビ2011](http://job.rikunabi.com/2011/company/top/r189900076/)から受け付けています。",
+      "markdown": "そして10月といえば、学生の皆さんの就職活動が<br>\n\n本格的に動き始める時期でもありますね。<br>\n\nそろそろ準備に取り掛かる方も多いのではないでしょうか。<br>\n\nゲームフリークでも本日より2011年度新卒採用を開始しました！<br>\n\nまずは「どんな会社なんだっけ？」ということを<br>\n\n知っていただく為にもエントリーをお願いします。<br>\n\n※エントリーは[リクナビ2011](http://job.rikunabi.com/2011/company/top/r189900076/)から受け付けています。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "募集職種は以下の通り３職種です。\n\n・[プログラマー](http://www.gamefreak.co.jp/recruit/pro_about.html)\n\n・[プランナー](http://www.gamefreak.co.jp/recruit/plan_about.html)\n\n・[グラフィックデザイナー](http://www.gamefreak.co.jp/recruit/design_about.html)",
+      "markdown": "募集職種は以下の通り３職種です。<br>\n\n・[プログラマー](http://www.gamefreak.co.jp/recruit/pro_about.html)<br>\n\n・[プランナー](http://www.gamefreak.co.jp/recruit/plan_about.html)<br>\n\n・[グラフィックデザイナー](http://www.gamefreak.co.jp/recruit/design_about.html)",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "ゲームフリークは新しいこと、\n\n面白いことにチャレンジしていける方を求めています！\n\n学生時代とは一味違った、わくわくすることが、きっとあります。",
+      "markdown": "ゲームフリークは新しいこと、<br>\n\n面白いことにチャレンジしていける方を求めています！<br>\n\n学生時代とは一味違った、わくわくすることが、きっとあります。",
       "images": []
     },
     {
       "type": "p",
       "markdown": "あなたのエントリーをお待ちしています。",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

@@ -107,15 +107,16 @@
 .gf-legacy-language button:disabled { border-color: #ddd; color: #aaa; background: #eee; cursor: not-allowed; }
 .gf-legacy-language--archive { position: sticky; z-index: 4; top: 0; margin: 0; padding: 10px 0; background: rgba(255, 255, 255, 0.96); }
 .gf-legacy-translation-pending { border-left: 3px solid var(--gf-accent); margin: 0 0 24px; padding: 7px 11px; color: #777; background: #f5f5f5; font-size: 11px; }
-.gf-legacy-post__body p { margin: 0 0 1.1em; }
+.gf-legacy-post__body p { margin: 0 0 1.1em; white-space: pre-line; }
 .gf-legacy-post__body a { color: var(--gf-accent); }
 .gf-legacy-post__body [hidden] { display: none; }
 
 .gf-legacy-image { margin: 20px 0; text-align: left; }
-.gf-legacy-image img { display: block; max-width: 100%; height: auto; border: 1px solid #ddd; padding: 8px; background: #fff; }
-.gf-legacy-full-art { margin-block: 28px; }
-.gf-legacy-full-art img { width: auto; max-height: none; box-shadow: 0 5px 22px rgba(0, 0, 0, 0.1); }
-.gf-legacy-full-art::after { content: "ZOOM · 点击查看原尺寸设定图"; display: block; margin-top: 5px; color: #888; font-size: 10px; letter-spacing: 0.08em; }
+.gf-legacy-image img { display: block; width: auto; max-width: min(100%, 520px); height: auto; border: 1px solid #ddd; padding: 8px; background: #fff; }
+.gf-legacy-art-zoom { margin-block: 22px; }
+.gf-legacy-art-zoom img { width: 150px; max-width: 150px; box-shadow: 0 5px 22px rgba(0, 0, 0, 0.1); }
+.gf-legacy-art-zoom a { display: inline-block; }
+.gf-legacy-image__zoom-label { display: block; margin-top: 5px; color: #888; font-size: 10px; letter-spacing: 0.08em; }
 
 .gf-legacy-source { margin-top: 32px; border-top: 1px dotted #aaa; padding-top: 12px; color: #777; font-size: 11px; }
 .gf-legacy-source summary { color: #333; cursor: pointer; }

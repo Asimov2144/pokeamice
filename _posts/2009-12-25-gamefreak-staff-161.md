@@ -28,85 +28,87 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは、Web開発のカニ子です。
+こんにちは、Web開発のカニ子です。<br>
 
-忘年会・新年会となにかと飲み会のあるシーズンですが、
+忘年会・新年会となにかと飲み会のあるシーズンですが、<br>
 
 スキを見つけてカニを食べて頂ければと思います。
 
-ゲームフリークでも先日恒例の忘年会が開かれました。
+ゲームフリークでも先日恒例の忘年会が開かれました。<br>
 
 イベント委員会主催によるチーム対抗戦のカジノ大会！
 
-会の前半はそれぞれ10枚のコインを資金にして、
+会の前半はそれぞれ10枚のコインを資金にして、<br>
 
-ブラックジャック・バカラ・ポーカー
+ブラックジャック・バカラ・ポーカー<br>
 
 神経衰弱・ダイズ・ジェンガの６種のゲームに挑みます。
 
-ディーラーをイベント委員会が務めるのですが、
+ディーラーをイベント委員会が務めるのですが、<br>
 
 なかなかの曲者揃いで簡単には勝たせてくれません！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_01-541f6cde.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_01-541f6cde.jpg" alt="ジェンガ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_01-541f6cde.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_01-541f6cde.jpg" alt="ジェンガ" loading="lazy"></a></figure><br>
 
 おっとっと！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_02-e7756f09.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_02-e7756f09.jpg" alt="カジノ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_02-e7756f09.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_02-e7756f09.jpg" alt="カジノ" loading="lazy"></a></figure><br>
 
 どこに賭ければいいの？悩む！
 
-前半で狙い目だったのは神経衰弱で
+前半で狙い目だったのは神経衰弱で<br>
 
-１枚参加費用を払えば後は取ったペア枚数かける１コインが貰える、
+１枚参加費用を払えば後は取ったペア枚数かける１コインが貰える、<br>
 
-１枚でもペアが取れれば損をしないシステムになっているのですが、
+１枚でもペアが取れれば損をしないシステムになっているのですが、<br>
 
-記憶力自慢のスタッフが集まってひどい目にあわされました。
+記憶力自慢のスタッフが集まってひどい目にあわされました。<br>
 
-プログラマーは記憶力があるものなのでしょうか？
+プログラマーは記憶力があるものなのでしょうか？<br>
 
 とにかく神経衰弱はプログラマーが強い気がします。気のせい？
 
-前半戦が終了した後はチーム対抗戦クイズ大会になります。
+前半戦が終了した後はチーム対抗戦クイズ大会になります。<br>
 
-でもその前に…
+でもその前に…<br>
 
-ポケットモンスター ハートゴールド・ソウルシルバーの
+ポケットモンスター ハートゴールド・ソウルシルバーの<br>
 
 発売祝いで頂いたシャンパンをディレクターもりもとが開けます！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" alt="もりもと" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" alt="もりもと" loading="lazy"></a></figure><br>
 
-景気良く吹き出るシャンパンに会場が湧きます。
+景気良く吹き出るシャンパンに会場が湧きます。<br>
 
 私も一口頂いたのですが、とってもおいしいシャンパンでした。
 
-後半はクイズ大会だったのですが、珍問難問揃い！
+後半はクイズ大会だったのですが、珍問難問揃い！<br>
 
-こんな問題が出たので読者の皆様も答えを考えてみてください。
+こんな問題が出たので読者の皆様も答えを考えてみてください。<br>
 
 26階あるキャロットタワーの高さはどれが一番近い？という選択問題です。
 
-A）レジギガス×27匹分
+A）レジギガス×27匹分<br>
 
-B）クフ王のピラミッド×1.5個分
+B）クフ王のピラミッド×1.5個分<br>
 
-C）ゴジラ×3体分
+C）ゴジラ×3体分<br>
 
 D）イベント委員会所属のナギーの身長×70人分
 
 30秒以内に正解がわかったでしょうか？
 
-正解はたぶんAであろうと私の所属するチームは考えたのですが、
+正解はたぶんAであろうと私の所属するチームは考えたのですが、<br>
 
-実はDが正解！ ちゃんと計算すればわかるらしいです。
+実はDが正解！ ちゃんと計算すればわかるらしいです。<br>
 
 酔っぱらって勢いで選んで不正解！
 
-そんなこんなで私の所属するチームはボロ負けでしたが、
+そんなこんなで私の所属するチームはボロ負けでしたが、<br>
 
-年忘れにふさわしい盛り上がりのある楽しい忘年会でした。
+年忘れにふさわしい盛り上がりのある楽しい忘年会でした。<br>
 
 イベント委員会のスタッフ、おつかれさまでした！
+
+<br>
 </div>

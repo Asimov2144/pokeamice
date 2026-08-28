@@ -3,22 +3,27 @@
   "blocks": [
     {
       "type": "p",
-      "markdown": "いやー　もうすぐクリなんとかですね。\n\nゲームフリークでもツリーが飾られているのでご紹介します。\n\nまぁ、いつも通りの出勤日ですけどね…。",
+      "markdown": "いやー　もうすぐクリなんとかですね。<br>\n\nゲームフリークでもツリーが飾られているのでご紹介します。<br>\n\nまぁ、いつも通りの出勤日ですけどね…。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-df70509fbfc4\" alt=\"玄関のツリー\" %}\n\nエントランスのツリー",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-df70509fbfc4\" alt=\"玄関のツリー\" %}<br>\n\nエントランスのツリー",
       "images": [
         "gamefreak-staff-df70509fbfc4"
       ]
     },
     {
       "type": "p",
-      "markdown": "{% legacy_image id=\"gamefreak-staff-42e02dfe6d0a\" alt=\"venus（会議室）のツリー\" %}\n\nVenus（会議室）のツリー",
+      "markdown": "{% legacy_image id=\"gamefreak-staff-42e02dfe6d0a\" alt=\"venus（会議室）のツリー\" %}<br>\n\nVenus（会議室）のツリー",
       "images": [
         "gamefreak-staff-42e02dfe6d0a"
       ]
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
+      "images": []
     }
   ]
 }

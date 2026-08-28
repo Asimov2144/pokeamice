@@ -28,47 +28,49 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！そして初めまして。
+こんにちは！そして初めまして。<br>
 
-ゲームフリーク採用担当のさとうと申します。
+ゲームフリーク採用担当のさとうと申します。<br>
 
 どうぞよろしくお願いします。
 
 さてさて、２００９年度新卒採用のお話です。
 
-本日より２次募集の応募受付を開始いたします！
+本日より２次募集の応募受付を開始いたします！<br>
 
-締め切りは９月１日到着分までとなっておりますので
+締め切りは９月１日到着分までとなっておりますので<br>
 
-お気をつけください。
+お気をつけください。<br>
 
 選考は９月上旬からの開始です。
 
-応募方法は、リクナビからエントリーしていただいた方に
+応募方法は、リクナビからエントリーしていただいた方に<br>
 
-ご連絡しています。
+ご連絡しています。<br>
 
-エントリーは現在も受付中です！
+エントリーは現在も受付中です！<br>
 
 [リクナビ2009の採用ページはこちらから](http://rikunabi2009.yahoo.co.jp/bin/KDBG00100.cgi?KOKYAKU_ID=1509563001&MAGIC=)
 
 ご応募を心からお待ちしております。
 
-ところで先日、ゲームフリークに突如獅子舞が現れました。
+ところで先日、ゲームフリークに突如獅子舞が現れました。<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/78/sato080701-a2bbc038.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/78/sato080701-a2bbc038.jpg" alt="獅子舞に噛まれ中" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/78/sato080701-a2bbc038.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/78/sato080701-a2bbc038.jpg" alt="獅子舞に噛まれ中" loading="lazy"></a></figure><br>
 
 オフィスの中でスタッフを噛み捲くる獅子舞に社内は騒然…！
 
-実はこの獅子舞、ゲームフリーク新人スタッフ達による
+実はこの獅子舞、ゲームフリーク新人スタッフ達による<br>
 
 サプライズ企画だったのです。
 
-現在、社内では「ポケットモンスター プラチナ」の開発で
+現在、社内では「ポケットモンスター プラチナ」の開発で<br>
 
-大忙しの人がたくさんいます。
+大忙しの人がたくさんいます。<br>
 
 そんなスタッフを励まそうと、新人の皆さんが企画してくれたのでした。
 
 こうかは　ばつぐんだ！ったと思います。
+
+<br>
 </div>

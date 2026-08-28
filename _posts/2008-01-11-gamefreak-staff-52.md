@@ -30,33 +30,33 @@ source:
 <div data-gf-language-panel="ja">
 採用担当のもりもとです。
 
-あけましておめでとうございます！
+あけましておめでとうございます！<br>
 
 本年もゲームフリークをよろしくお願いいたします。
 
-年末年始はみなさんいかがお過ごしでしたか？
+年末年始はみなさんいかがお過ごしでしたか？<br>
 
-ゲームフリークは年末年始９連休だったわけですが、
+ゲームフリークは年末年始９連休だったわけですが、<br>
 
-もりもとは親戚の家に行くのと、毎年恒例のセールに付き合うくらいで、
+もりもとは親戚の家に行くのと、毎年恒例のセールに付き合うくらいで、<br>
 
 あとはお節などを作りつつ、ゆっくり過ごしました。
 
-イベントとしては、うちのおばあさんが年始に１００歳を迎えてそのお祝いをしたこと！
+イベントとしては、うちのおばあさんが年始に１００歳を迎えてそのお祝いをしたこと！<br>
 
-１００歳ってすごい！と思いつつ、調べたら日本には１００歳以上のお年寄りが
+１００歳ってすごい！と思いつつ、調べたら日本には１００歳以上のお年寄りが<br>
 
-３万人もいるんですね。しかも１０年前には１万人もいなかったとか。
+３万人もいるんですね。しかも１０年前には１万人もいなかったとか。<br>
 
 いやぁ、びっくり・・・。
 
-さてさて、今年は２００９年度の新卒採用に向けて、
+さてさて、今年は２００９年度の新卒採用に向けて、<br>
 
 ゲームフリーク初の会社説明会を行います！
 
-募集はすでに始まっており、かなり定員が埋まってきています。
+募集はすでに始まっており、かなり定員が埋まってきています。<br>
 
-２００９年度卒業予定で、うちの会社がどんな会社なのか、
+２００９年度卒業予定で、うちの会社がどんな会社なのか、<br>
 
 興味のある方は是非とも早めにご登録下さい。
 
@@ -64,19 +64,21 @@ source:
 
 [リクナビ２００９の採用ページはこちらから](http://rikunabi2009.yahoo.co.jp/bin/KDBG00100.cgi?KOKYAKU_ID=1509563001&MAGIC=)
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/52/morim_0111_01-d7e4241a.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/52/morim_0111_01-d7e4241a.jpg" alt="全体会" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/52/morim_0111_01-d7e4241a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/52/morim_0111_01-d7e4241a.jpg" alt="全体会" loading="lazy"></a></figure>
 
-これは年始に行われた全体会の写真です。
+これは年始に行われた全体会の写真です。<br>
 
-この会場が会社説明会の会場となります。
+この会場が会社説明会の会場となります。<br>
 
-場所はオフィスと同じビルのキャロットタワー２６Ｆなのです。
+場所はオフィスと同じビルのキャロットタワー２６Ｆなのです。<br>
 
 眺めがいいですよー。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/52/morim_0111_02-67094977.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/52/morim_0111_02-67094977.jpg" alt="大掃除" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/52/morim_0111_02-67094977.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/52/morim_0111_02-67094977.jpg" alt="大掃除" loading="lazy"></a></figure>
 
-こちらは年末の大掃除。
+こちらは年末の大掃除。<br>
 
 引っ越したばかりで掃除は楽でした。
+
+<br>
 </div>

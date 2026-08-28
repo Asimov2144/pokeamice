@@ -28,29 +28,31 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！
+こんにちは！<br>
 
 Web担当のカニ子です。
 
 本日より[ゲームフリークひみつきち](http://secretbase.gamefreak.co.jp/)の新ネタ[「モジヅラ」](http://secretbase.gamefreak.co.jp/mozi/)を公開しました！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" alt="モジヅラサンプル" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/96/kani081110-3dcbed99.jpg" alt="モジヅラサンプル" loading="lazy"></a></figure>
 
-これは入力フォームに適当な文字を入れて送信すると、
+これは入力フォームに適当な文字を入れて送信すると、<br>
 
 入力した文字が顔っぽく配置されるコンテンツです。
 
-モジヅラの元ネタはゲーフリの休憩スペースに
+モジヅラの元ネタはゲーフリの休憩スペースに<br>
 
-みんなが息抜きに書けるらくがき帳が置いてあって、
+みんなが息抜きに書けるらくがき帳が置いてあって、<br>
 
-そこで「へのへのもへじ」みたいな顔文字がブームになった時があったのです。
+そこで「へのへのもへじ」みたいな顔文字がブームになった時があったのです。<br>
 
 これ面白そうだし作ってみよう、というノリで公開に至りました。
 
-ベースになってるイラストは
+ベースになってるイラストは<br>
 
-ゲームフリークのグラフィックデザイナー達によるものです。
+ゲームフリークのグラフィックデザイナー達によるものです。<br>
 
 文字とイラストの組み合わせも合わせてお楽しみ下さい！
+
+<br>
 </div>

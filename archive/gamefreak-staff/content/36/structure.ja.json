@@ -8,34 +8,34 @@
     },
     {
       "type": "p",
-      "markdown": "じつは今回はお知らせがあります。\n\nなんとなんと、ゲームフリークは、お引っ越しします！",
+      "markdown": "じつは今回はお知らせがあります。<br>\n\nなんとなんと、ゲームフリークは、お引っ越しします！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "いままで下北沢のゲームフリークオフィスは実は２カ所ありまして、\n\nスタッフはその間を、いったりきたりしていたんですけれど\n\n今度からは社員全員が、一つのフロアに大集合！\n\nみんなで顔を合わせてゲームを作ることができるってわけなんです。",
+      "markdown": "いままで下北沢のゲームフリークオフィスは実は２カ所ありまして、<br>\n\nスタッフはその間を、いったりきたりしていたんですけれど<br>\n\n今度からは社員全員が、一つのフロアに大集合！<br>\n\nみんなで顔を合わせてゲームを作ることができるってわけなんです。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "通い慣れた下北沢の街を離れることは寂しいけれど\n\n新しい街も楽しい場所を探してたくさん探検したい！と\n\nスタッフ一同、引越の日を心待ちにしています。\n\nさてそんなGFスタッフたち、実はいままで\n\n新オフィスの中を見たことは無かったのですが…。",
+      "markdown": "通い慣れた下北沢の街を離れることは寂しいけれど<br>\n\n新しい街も楽しい場所を探してたくさん探検したい！と<br>\n\nスタッフ一同、引越の日を心待ちにしています。<br>\n\nさてそんなGFスタッフたち、実はいままで<br>\n\n新オフィスの中を見たことは無かったのですが…。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "９月２８日　三軒茶屋キャロットタワー内ゲームフリーク新オフィスにて\n\n新オフィスのお披露目と\n\nポケットモンスターダイヤモンド・パールの発売１周年をお祝いするために\n\n日頃お世話になっている関係会社の方もお招きしてのパーティが行われました！",
+      "markdown": "９月２８日　三軒茶屋キャロットタワー内ゲームフリーク新オフィスにて<br>\n\n新オフィスのお披露目と<br>\n\nポケットモンスターダイヤモンド・パールの発売１周年をお祝いするために<br>\n\n日頃お世話になっている関係会社の方もお招きしてのパーティが行われました！",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "初めての新オフィス。\n\nまだ家具も機材も入っていなくて、なにより、ひろい！\n\n{% legacy_image id=\"gamefreak-staff-0f514e240f91\" alt=\"フロアの光景\" %}",
+      "markdown": "初めての新オフィス。<br>\n\nまだ家具も機材も入っていなくて、なにより、ひろい！<br>\n\n{% legacy_image id=\"gamefreak-staff-0f514e240f91\" alt=\"フロアの光景\" %}",
       "images": [
         "gamefreak-staff-0f514e240f91"
       ]
     },
     {
       "type": "p",
-      "markdown": "お祝いですから！軽く立食パーティ形式です。\n\n{% legacy_image id=\"gamefreak-staff-f68cab03f410\" alt=\"立食パーティ（１）\" %}\n\n{% legacy_image id=\"gamefreak-staff-cb952bf0b6d8\" alt=\"立食パーティ（２）\" %}",
+      "markdown": "お祝いですから！軽く立食パーティ形式です。<br>\n\n{% legacy_image id=\"gamefreak-staff-f68cab03f410\" alt=\"立食パーティ（１）\" %}<br>\n\n{% legacy_image id=\"gamefreak-staff-cb952bf0b6d8\" alt=\"立食パーティ（２）\" %}",
       "images": [
         "gamefreak-staff-f68cab03f410",
         "gamefreak-staff-cb952bf0b6d8"
@@ -43,35 +43,40 @@
     },
     {
       "type": "p",
-      "markdown": "チョコ・フォンデュもあったよ♪\n\n{% legacy_image id=\"gamefreak-staff-147455d00ff7\" alt=\"チョコフォンデュ\" %}",
+      "markdown": "チョコ・フォンデュもあったよ♪<br>\n\n{% legacy_image id=\"gamefreak-staff-147455d00ff7\" alt=\"チョコフォンデュ\" %}",
       "images": [
         "gamefreak-staff-147455d00ff7"
       ]
     },
     {
       "type": "p",
-      "markdown": "特製プラマイクッキー！他にもポケモン絵の入ったケーキなども。\n\n{% legacy_image id=\"gamefreak-staff-27892d3ab460\" alt=\"プラマイクッキー！\" %}",
+      "markdown": "特製プラマイクッキー！他にもポケモン絵の入ったケーキなども。<br>\n\n{% legacy_image id=\"gamefreak-staff-27892d3ab460\" alt=\"プラマイクッキー！\" %}",
       "images": [
         "gamefreak-staff-27892d3ab460"
       ]
     },
     {
       "type": "p",
-      "markdown": "来年入社予定の方々もお招きしました。\n\nこのオフィスでいっしょにお仕事がんばりましょう！\n\n{% legacy_image id=\"gamefreak-staff-5230ac2b9825\" alt=\"2008年入社予定の方々\" %}",
+      "markdown": "来年入社予定の方々もお招きしました。<br>\n\nこのオフィスでいっしょにお仕事がんばりましょう！<br>\n\n{% legacy_image id=\"gamefreak-staff-5230ac2b9825\" alt=\"2008年入社予定の方々\" %}",
       "images": [
         "gamefreak-staff-5230ac2b9825"
       ]
     },
     {
       "type": "p",
-      "markdown": "そして窓から見える…夜景！ステキ！\n\n世田谷は高い建物が少ないのでずっと遠くまで見渡せます。\n\n{% legacy_image id=\"gamefreak-staff-1313f70fb01a\" alt=\"キャロットタワーからの夜景\" %}",
+      "markdown": "そして窓から見える…夜景！ステキ！<br>\n\n世田谷は高い建物が少ないのでずっと遠くまで見渡せます。<br>\n\n{% legacy_image id=\"gamefreak-staff-1313f70fb01a\" alt=\"キャロットタワーからの夜景\" %}",
       "images": [
         "gamefreak-staff-1313f70fb01a"
       ]
     },
     {
       "type": "p",
-      "markdown": "久しぶりの方々にもお会い出来て、とっても楽しいパーティでした。\n\nそしてまた、新オフィスへの期待が膨らみました。\n\nエノキもおひっこしまでに、早めに荷物の整理をしようと思います！",
+      "markdown": "久しぶりの方々にもお会い出来て、とっても楽しいパーティでした。<br>\n\nそしてまた、新オフィスへの期待が膨らみました。<br>\n\nエノキもおひっこしまでに、早めに荷物の整理をしようと思います！",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

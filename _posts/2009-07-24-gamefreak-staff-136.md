@@ -28,121 +28,123 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-こんにちは！
+こんにちは！<br>
 
 Web開発のカニ子です。
 
-先日日食が起こっていたらしいです。
+先日日食が起こっていたらしいです。<br>
 
-私の席は窓に背を向けているので気が付かなかったのですが、
+私の席は窓に背を向けているので気が付かなかったのですが、<br>
 
-ゲームフリークのスタッフは見たのか？
+ゲームフリークのスタッフは見たのか？<br>
 
 というのを聞いてまわってみました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure><br>
 
-楽しみにしていて、日食グラスを２コも用意していたのに、見逃しました…。
+楽しみにしていて、日食グラスを２コも用意していたのに、見逃しました…。<br>
 
-しかも曇り空だから諦めて仕事をしていたら、
+しかも曇り空だから諦めて仕事をしていたら、<br>
 
-会社でも一瞬見えたと聞いて日食ショックはさらに倍増。
+会社でも一瞬見えたと聞いて日食ショックはさらに倍増。<br>
 
 次の機会は2035年ということなので頑張りたいです！（ラッペン）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" alt="ほず" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" alt="ほず" loading="lazy"></a></figure><br>
 
-皆既日食と言っても「少し曇った時」くらいの
+皆既日食と言っても「少し曇った時」くらいの<br>
 
-暗さかと思っていたのですが、
+暗さかと思っていたのですが、<br>
 
-テレビを見てびっくりしました。
+テレビを見てびっくりしました。<br>
 
-・・・ま、真っ暗じゃないですか！
+・・・ま、真っ暗じゃないですか！<br>
 
 日食を見ながら、月見うどんが食べたかったです。（ほず）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" alt="デコ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" alt="デコ" loading="lazy"></a></figure><br>
 
 忘れてました。次の２６年後はちゃんと見ます！（デコ）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" alt="ユッフィー" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" alt="ユッフィー" loading="lazy"></a></figure><br>
 
-体調をくずして会社を休み、家で爆睡していました！
+体調をくずして会社を休み、家で爆睡していました！<br>
 
-日食は気付いたら終わっていて、
+日食は気付いたら終わっていて、<br>
 
-キャベツと煮込んだ袋ラーメンを食べつつ、
+キャベツと煮込んだ袋ラーメンを食べつつ、<br>
 
-芸能人の語る日食をテレビで見てました。
+芸能人の語る日食をテレビで見てました。<br>
 
-サボってたわけじゃないよ！
+サボってたわけじゃないよ！<br>
 
 みなさんも体調の変化（エアコンとか）には注意！（ユッフィー）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" alt="ボーダー丸" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" alt="ボーダー丸" loading="lazy"></a></figure><br>
 
-世界の日食を夜テレビで観ました。
+世界の日食を夜テレビで観ました。<br>
 
-もし近い将来、太陽の存在が消えてしまったら、
+もし近い将来、太陽の存在が消えてしまったら、<br>
 
-地球人はどうなってしまうのだろうか…。
+地球人はどうなってしまうのだろうか…。<br>
 
-そんな普段思わないことを考えながら、
+そんな普段思わないことを考えながら、<br>
 
-自分が自分の力だけで生きているのでは
+自分が自分の力だけで生きているのでは<br>
 
-ないということを感じた日でした。
+ないということを感じた日でした。<br>
 
-でも、未来に誰かが太陽も作ってしまうかも！？
+でも、未来に誰かが太陽も作ってしまうかも！？<br>
 
 （ボーダー丸）
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" alt="っやっや" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" alt="っやっや" loading="lazy"></a></figure><br>
 
-日食の日、生憎のくもり空なので、見れないと信じきっていました。
+日食の日、生憎のくもり空なので、見れないと信じきっていました。<br>
 
 お茶を買いにキャロットタワー下に降りたら…
 
-写真のような人々が…
+写真のような人々が…<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_01-9b96ef00.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_01-9b96ef00.jpg" alt="集まる人々" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_01-9b96ef00.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_01-9b96ef00.jpg" alt="集まる人々" loading="lazy"></a></figure><br>
 
-なんの騒ぎだろう？
+なんの騒ぎだろう？<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_02-352f0065.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_02-352f0065.jpg" alt="空を見上げる人々" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_02-352f0065.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_02-352f0065.jpg" alt="空を見上げる人々" loading="lazy"></a></figure><br>
 
-きっと、お台場の等身大ガンダムが三茶に歩いて来たに違いない！
+きっと、お台場の等身大ガンダムが三茶に歩いて来たに違いない！<br>
 
 と思いきや、空を見上げたら三日月の様な影が雲に映し出されていました。
 
 『おぉ、日食！』思わず声をあげました。
 
-生憎、携帯電話のカメラしかなく撮影を試みたのですが…
+生憎、携帯電話のカメラしかなく撮影を試みたのですが…<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_03-998fe409.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_03-998fe409.jpg" alt="日食" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_03-998fe409.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_03-998fe409.jpg" alt="日食" loading="lazy"></a></figure><br>
 
 光ってしまって三日月に見えません…
 
-肉眼ではどんな風に太陽が見えたのか
+肉眼ではどんな風に太陽が見えたのか<br>
 
 日食を甘食で表現してみました。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_04-232183d5.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_04-232183d5.jpg" alt="普段の甘食" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_04-232183d5.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_04-232183d5.jpg" alt="普段の甘食" loading="lazy"></a></figure><br>
 
-普段の甘食
+普段の甘食<br>
 
-↓
+↓<br>
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_05-682c1548.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_05-682c1548.jpg" alt="日食の甘食" loading="lazy"></a></figure>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/kaniko090724_05-682c1548.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/kaniko090724_05-682c1548.jpg" alt="日食の甘食" loading="lazy"></a></figure><br>
 
 日食の甘食
 
-２６年後には、ちゃんとしたカメラで日食の方を撮りたいです。
+２６年後には、ちゃんとしたカメラで日食の方を撮りたいです。<br>
 
 （っやっや）
 
-それでは、次のゲームフリーク日食レポートは
+それでは、次のゲームフリーク日食レポートは<br>
 
 26年後という事でまたお会いしましょう。
+
+<br>
 </div>

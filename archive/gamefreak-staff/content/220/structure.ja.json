@@ -8,17 +8,17 @@
     },
     {
       "type": "p",
-      "markdown": "さて、今回は「新卒採用担当・にょろリカ」から、\n\n2012年3月卒業予定の学生の皆さまにお知らせです。\n\n来週火曜日の3月1日から、2012年度新卒採用の応募書類受付が\n\n始まります！\n\nつい先日、[リクナビのエントリー](http://job.rikunabi.com/2012/company/top/r189900076/)を開始したばかりだと思って\n\nいたのですが、あっという間ですね。\n\nここを読んでくださっている皆さま、応募作品の制作は順調でしょうか？\n\n各職種の募集要項ページに「応募作品のポイント」を掲載して\n\nいますので、ぜひ参考にしていただきたいと思います。",
+      "markdown": "さて、今回は「新卒採用担当・にょろリカ」から、<br>\n\n2012年3月卒業予定の学生の皆さまにお知らせです。<br>\n\n来週火曜日の3月1日から、2012年度新卒採用の応募書類受付が<br>\n\n始まります！<br>\n\nつい先日、[リクナビのエントリー](http://job.rikunabi.com/2012/company/top/r189900076/)を開始したばかりだと思って<br>\n\nいたのですが、あっという間ですね。<br>\n\nここを読んでくださっている皆さま、応募作品の制作は順調でしょうか？<br>\n\n各職種の募集要項ページに「応募作品のポイント」を掲載して<br>\n\nいますので、ぜひ参考にしていただきたいと思います。",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "⇒[グラフィックデザイナー募集要項](http://www.gamefreak.co.jp/new_employ/outline.html#point)\n\n　⇒[プログラマー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pg.html#point)\n\n　⇒[プランナー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pl.html#point)",
+      "markdown": "⇒[グラフィックデザイナー募集要項](http://www.gamefreak.co.jp/new_employ/outline.html#point)<br>\n\n　⇒[プログラマー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pg.html#point)<br>\n\n　⇒[プランナー募集要項](http://www.gamefreak.co.jp/new_employ/outline_pl.html#point)",
       "images": []
     },
     {
       "type": "p",
-      "markdown": "応募書類の受付期間は2011年3月1日(火)から3月18日(金／必着)です。\n\n応募書類の送付方法に関しては特に指定はありません。\n\n郵便でも宅配便でもバイク便でも、何でお送りいただいても結構ですが\n\n**必ず3月18日(金)に到着するようにお送りください。**",
+      "markdown": "応募書類の受付期間は2011年3月1日(火)から3月18日(金／必着)です。<br>\n\n応募書類の送付方法に関しては特に指定はありません。<br>\n\n郵便でも宅配便でもバイク便でも、何でお送りいただいても結構ですが<br>\n\n**必ず3月18日(金)に到着するようにお送りください。**",
       "images": []
     },
     {
@@ -31,6 +31,11 @@
     {
       "type": "p",
       "markdown": "皆さまのご応募を楽しみにお待ちしています！",
+      "images": []
+    },
+    {
+      "type": "br",
+      "markdown": "<br>",
       "images": []
     }
   ]

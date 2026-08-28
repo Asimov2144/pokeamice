@@ -28,73 +28,67 @@ source:
 ---
 
 <div data-gf-language-panel="ja">
-劇場版ポケットモンスター ダイヤモンドパール
+劇場版ポケットモンスター ダイヤモンドパール<br>
 
-「ディアルガVSパルキアVSダークライ」
+「ディアルガVSパルキアVSダークライ」<br>
 
 アニメオリジナルキャラクターデザイン画です！
 
-ゲームフリークで描き起こされた
+ゲームフリークで描き起こされた<br>
 
-アニメオリジナルキャラクターのデザイン画を大公開！
+アニメオリジナルキャラクターのデザイン画を大公開！<br>
 
-※原案デザインのため、実際に使用されたキャラクターと
+※原案デザインのため、実際に使用されたキャラクターと<br>
 
 細部や色などが異なります
 
 コメント：杉森建
 
-■アルベルト男爵
+■アルベルト男爵<br>
 
-「男爵」とか言って実際は本物の爵位は無くて自称・男爵なんだろうなーと考えながらうさんくさくまとめました。
+「男爵」とか言って実際は本物の爵位は無くて自称・男爵なんだろうなーと考えながらうさんくさくまとめました。<br>
 
 「ジラーチ」の時に買ったハデ衣装の資料がまた役立ちました。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/albert-a2d1ef21.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s01-fc133779.jpg" alt="アルベルト男爵" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/albert-a2d1ef21.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/albert-a2d1ef21.jpg" alt="アルベルト男爵" loading="lazy"></a></figure>
+■アリス<br>
 
-■アリス
-
-髪の色はブリーチっぽいツートンカラーで考えましたが本編では完全ブロンドに変更になりました。幼い時代も表現しなくてはならないのでナチュラルにするのは当然ですね。
+髪の色はブリーチっぽいツートンカラーで考えましたが本編では完全ブロンドに変更になりました。幼い時代も表現しなくてはならないのでナチュラルにするのは当然ですね。<br>
 
 僕の中ではシンオウの若者にはマフラーが流行っている設定なので、アリスもヒカリ同様マフラースタイルです。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/alice-14e6cd57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s02-03abe46d.jpg" alt="アリス" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/alice-14e6cd57.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/alice-14e6cd57.jpg" alt="アリス" loading="lazy"></a></figure>
-
-■トニオ
+■トニオ<br>
 
 容姿に関係なくアリスに愛されている幸せキャラなので思いっきり洒落てない服を着せました。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/tonio-7608564f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s03-957baf0b.jpg" alt="トニオ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/tonio-7608564f.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/tonio-7608564f.jpg" alt="トニオ" loading="lazy"></a></figure>
+■マキ<br>
 
-■マキ
+アリスの髪型ををロングにしたので、メリハリとしてもう一人の女子はまとめ系ヘア、ということでこのような形に。<br>
 
-アリスの髪型ををロングにしたので、メリハリとしてもう一人の女子はまとめ系ヘア、ということでこのような形に。
-
-オデコの横の生え際が曖昧（線がつながっていない）になっているところが気に入っています。
+オデコの横の生え際が曖昧（線がつながっていない）になっているところが気に入っています。<br>
 
 若干しょこたんの事を頭の隅に置いて描きましたが、あまり反映されていないかも。
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/maki-d8ec184f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s04-4d417a0f.jpg" alt="マキ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/maki-d8ec184f.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/maki-d8ec184f.jpg" alt="マキ" loading="lazy"></a></figure>
+■ダイ<br>
 
-■ダイ
-
-初めてドレッドヘアーを描いてみました。描きやすく上手い具合にまとめられたと思います
+初めてドレッドヘアーを描いてみました。描きやすく上手い具合にまとめられたと思います<br>
 
 自分の中では結構新機軸なキャラです
 
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/dai-a4b8e156.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s05-b45de3d5.jpg" alt="ダイ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/dai-a4b8e156.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/dai-a4b8e156.jpg" alt="ダイ" loading="lazy"></a></figure>
+■カツミ<br>
 
-■カツミ
-
-テーマは三角？髪のハネと上半身のボタンが三角形に配置されています。
+テーマは三角？髪のハネと上半身のボタンが三角形に配置されています。<br>
 
 なぜかはもう忘れましたが、ドダイトスのどっしり感を出したかったのかもしれません。たぶん。パンツはシルバーのイメージで。トレーナー３人組はそれぞれの手持ちポケモンのイメージカラーでコーディネイトしています。
 
-
-<figure class="gf-legacy-image gf-legacy-full-art"><a href="/assets/images/gamefreak-legacy/art/5/katumi-f573a8a3.jpg" target="_blank"><img src="/assets/images/gamefreak-legacy/art/5/katumi-f573a8a3.jpg" alt="カツミ" loading="lazy"></a></figure>
+<figure class="gf-legacy-image gf-legacy-art-zoom"><a href="/assets/images/gamefreak-legacy/art/5/katumi-f573a8a3.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/art/5/s06-fb9db9fd.jpg" alt="カツミ" loading="lazy"></a><span class="gf-legacy-image__zoom-label">ZOOM · 点击查看原尺寸设定图</span></figure>
 </div>
