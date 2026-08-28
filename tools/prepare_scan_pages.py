@@ -1229,9 +1229,22 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
             if "archive" in args.profiles:
                 target = out_dir / "archive" / relative_parent / f"{stem}.jpg"
                 written = encode(piece, target, args.archive_quality, None, budget)
-                if written["over_budget"] and untouched and path.suffix.lower() in {".jpg", ".jpeg"}:
-                    # Nothing was changed and every quality overshot: the source
-                    # is already the smallest honest version of this page.
+                # A crop worth a few dozen pixels is not worth doubling the file.
+                # fossil is stored at about 0.13 bits per pixel, so re-encoding
+                # even at the quality floor turned 162MB into 358MB to shave a
+                # 40px border. When the trim is marginal and every quality
+                # overshoots, the source is the better archive.
+                marginal = (
+                    not suffix and not rotated
+                    and not result.seam_straightened_by and not result.tone_applied
+                    and not result.orientation_normalized
+                    and measurement.width - piece.size[0] <= round(measurement.width * 0.02)
+                    and measurement.height - piece.size[1] <= round(measurement.height * 0.02)
+                )
+                if (written["over_budget"] and (untouched or marginal)
+                        and path.suffix.lower() in {".jpg", ".jpeg"}):
+                    # Nothing meaningful changed and every quality overshot: the
+                    # source is already the smallest honest version of this page.
                     target.write_bytes(path.read_bytes())
                     written = {"path": target.name, "bytes": result.source_bytes,
                                "size": [measurement.width, measurement.height],
