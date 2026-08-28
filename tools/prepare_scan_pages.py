@@ -571,8 +571,21 @@ def ask_model(path: Path, model: str, timeout: int) -> dict:
         headers={"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
-        payload = json.loads(response.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        # The server explains itself in the body; the status alone does not.
+        # A pokepia run logged seven "HTTP Error 403: Forbidden" classifications
+        # that were really an exhausted free quota, which took three probes to
+        # identify because the manifest recorded only the code.
+        detail = ""
+        try:
+            detail = json.loads(exc.read().decode("utf-8")).get("error", {}).get("message", "")
+        except Exception:
+            pass
+        raise RuntimeError(
+            f"HTTP {exc.code}: {detail or exc.reason}".strip()) from None
     text = payload["choices"][0]["message"]["content"].strip()
     text = text.removeprefix("```json").removeprefix("```").removesuffix("```").strip()
     return json.loads(text)
