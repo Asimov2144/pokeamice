@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 入社して思うこと…
+title: 【工作日志】2010年新人入社三点感受
 date: '2010-07-16'
 permalink: /gamefreak-staff/entry-191/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 191
-gf_entry_title: 入社して思うこと…
+gf_entry_title: 【工作日志】2010年新人入社三点感受
 gf_original_title: 入社して思うこと…
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、新人プログラマのいっちーです。 4月1日に入社して、3ヶ月の研修期間を終え、 7月1日に晴れて正社員になりました。 どうぞ宜しくお願いします！
-translation_status: missing
+gf_translation_title: 【工作日志】2010年新人入社三点感受
+translation_available: true
+summary: 新人程序员分享入社三个月后的感受：办公室、开发协作，以及亲手制作儿时所玩的宝可梦。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 入社して思うこと…
@@ -47,7 +47,77 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是新人程序员一树。<br>
+
+4月1日入社，结束了为期3个月的培训，<br>
+
+并于7月1日正式成为了正式员工。<br>
+
+今后请多多关照！
+
+那么，这次就来聊点新人的话题……<br>
+
+我想和大家说说，进入 GAME FREAK 后感受到的三件事。
+
+首先说说公司内部的样子吧，会议室也太有个性了！<br>
+
+因为官网和公司介绍手册里也有介绍，<br>
+
+想必很多人都知道，总之就是非常独特。<br>
+
+有些房间梦幻得完全不像会议室，还有些房间里<br>
+
+摆放着许多武器……<br>
+
+我当时就想，这果然是游戏公司才有的特色啊。
+
+另外，我每天大部分时间都会待在办公室所在的楼层，那里的隔断<br>
+
+很低，只要站起来，几乎能看见楼层里的所有人。<br>
+
+刚开始我对此很惊讶，不过这样和谁都容易交谈，<br>
+
+待起来也非常舒服，所以我很喜欢。
+
+不过嘛，办公室禁止穿户外鞋、大家都穿拖鞋这一点<br>
+
+是最棒的。毕竟很轻松嘛（笑）
+
+接下来聊聊程序方面。<br>
+
+我觉得和学生时代最不一样的一点，就是并不是只要<br>
+
+做编程就可以了。<br>
+
+每当有事情，就要和策划人员或平面设计师<br>
+
+开会商讨，每次规格发生变更，也都要进行报告。<br>
+
+这些在游戏制作中都是理所当然的事情，<br>
+
+但不习惯的话还真是相当困难，<br>
+
+让我深切感受到自己还远远不够成熟……
+
+最后，说到 GAME FREAK，就是宝可梦。<br>
+
+一想到儿时开始就一直在玩的那个宝可梦，竟然是在这里制作的，<br>
+
+直到现在我仍然充满了不可思议的感觉。<br>
+
+而从今以后，我也必须作为制作团队的一员努力才行！<br>
+
+就这样，我重新下定决心了。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/191/icchie100716-f444213f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/191/icchie100716-f444213f.jpg" alt="いっちーです！" loading="lazy"></a></figure>
+
+不过，玩游戏的时间变少了……真遗憾！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、新人プログラマのいっちーです。<br>
 
 4月1日に入社して、3ヶ月の研修期間を終え、<br>

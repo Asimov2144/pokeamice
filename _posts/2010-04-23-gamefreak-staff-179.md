@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 僕が新入社員だった頃
+title: 【工作日志】2010年新员工入职随笔
 date: '2010-04-23'
 permalink: /gamefreak-staff/entry-179/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 179
-gf_entry_title: 僕が新入社員だった頃
+gf_entry_title: 【工作日志】2010年新员工入职随笔
 gf_original_title: 僕が新入社員だった頃
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、ユーリーです！
-translation_status: missing
+gf_translation_title: 【工作日志】2010年新员工入职随笔
+translation_available: true
+summary: 回忆初入 GAME FREAK 时的紧张与失误，也记录为新员工讲解宝可梦世界观时的所见所感。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 僕が新入社員だった頃
@@ -47,7 +47,67 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是尤里！
+
+好久不见了。<br>
+
+新年度开始了，GAME FREAK 也迎来了新成员！<br>
+
+我一边想着“我刚入职时也这么清新闪亮吗……？”<br>
+
+一边想聊聊和这件事有关的话题。
+
+我从学校毕业后，就一直在 GAME FREAK 工作。<br>
+
+入职以来，我一直从事信息管理工作，隶属于开发部门，<br>
+
+既不是策划，也不是程序员，更不是美术设计师，做的工作到底是什么呢？<br>
+
+在入职前一天，我真是紧张得心脏怦怦直跳。
+
+说到刚入职那会儿，我能想起来的好像只有各种失败和白忙一场……<br>
+
+明明人在办公室里，每天一到晚上，T恤都会被汗水浸得湿透。<br>
+
+现在想想，那可能是因为我举止可疑……太过焦虑，所以一直没法冷静下来吧。<br>
+
+从那时算起，已经过去×年了，<br>
+
+但每年看到加入 GAME FREAK 的新员工时，我还是会想起当初那种心怦怦跳的感觉。
+
+就在前些天，我有机会给新员工讲解宝可梦的世界观以及其他方方面面的内容，<br>
+
+于是我穿插了一些日常对话，试着讲了些像授课一样的东西，<br>
+
+不过新员工们好像还很紧张呢（笑）<br>
+
+其实我也总是会紧张，但 GAME FREAK 里有很多友善的人，<br>
+
+（现在也还是有哦！）所以我想起自己当时得到了他们非常多的帮助。<br>
+
+果然，沟通这种事情真的很重要呢。<br>
+
+现在想想，我真后悔当时没能再主动大胆一些……
+
+最后，想对从今年春天起成为新员工的各位说几句。<br>
+
+刚开始工作时，可能会遇到很多失败，<br>
+
+也可能有很多事情要学习，<br>
+
+但有时候也请深呼吸一下，放松心情。<br>
+
+祝大家拥有一段精彩的职场生活，我会为你们加油的——！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/179/yuli100423-5f5cf3b7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/179/yuli100423-5f5cf3b7.jpg" alt="" loading="lazy"></a></figure><br>
+
+这是我入职以来的朋友↑
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、ユーリーです！
 
 久々の登場です。<br>

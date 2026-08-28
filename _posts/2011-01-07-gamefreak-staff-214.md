@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 新年のご挨拶
+title: 【工作日志】2011年新年问候
 date: '2011-01-07'
 permalink: /gamefreak-staff/entry-214/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 214
-gf_entry_title: 新年のご挨拶
+gf_entry_title: 【工作日志】2011年新年问候
 gf_original_title: 新年のご挨拶
-gf_translation_title: ''
-translation_available: false
-summary: みなさま、あけましておめでとうございます。 Web担当のにょろリカです。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年新年问候
+translation_available: true
+summary: 网站负责人分享新年假期与外甥的宝可梦对战经历，并预告公司内部对战大会。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 新年のご挨拶
@@ -47,7 +47,38 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家，新年好！<br>
+
+我是负责网站工作的妮洛莉卡。
+
+正在阅读这里的各位，年末年初都是怎么度过的呢？<br>
+
+我和久未见面的外甥（小学四年级）进行了<br>
+
+《宝可梦黑·白》的对战，结果是<br>
+
+输得一败涂地……。<br>
+
+就算是平等对战也赢不了，我只好让外甥的队伍减少到两只，<br>
+而我这边出战五只，才总算险胜。<br>
+
+GAME FREAK 公司内部每年都会举办“宝可梦对战大会”，<br>
+不过看来我离参赛还早得很。<br>
+
+今后我们计划为大家带来这场“公司内部宝可梦对战大会”的实况，<br>
+还请大家期待！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/214/110107_nyoro-d45405ff.jpg" alt="年賀状" loading="lazy"></a></figure><br>
+
+<<2011年贺年卡>>
+
+那么，2011年也请大家多多关照 GAME FREAK。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさま、あけましておめでとうございます。<br>
 
 Web担当のにょろリカです。

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 褒めて伸ばす！
+title: 【工作日志】2011年从鹦鹉学会表扬
 date: '2011-09-16'
 permalink: /gamefreak-staff/entry-234/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 234
-gf_entry_title: 褒めて伸ばす！
+gf_entry_title: 【工作日志】2011年从鹦鹉学会表扬
 gf_original_title: 褒めて伸ばす！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！ サウンドのよちよちです。 今回は私が飼っているペットのお話をしたいと思います。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年从鹦鹉学会表扬
+translation_available: true
+summary: 音效组员工分享饲养白腰鹦鹉的经历，讲述用表扬代替强制，建立愉快关系的心得。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 褒めて伸ばす！
@@ -47,7 +47,89 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！我是音效组的Yochiyochi。<br>
+
+这次想和大家聊聊我养的宠物。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/234/yochi01-bd09f424.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/234/yochi01-bd09f424.jpg" alt="コシジロインコ" loading="lazy"></a></figure><br>
+
+这就是我家的白腰鹦鹉。<br>
+
+白腰鹦鹉属于吸蜜鹦鹉科，是一种鸟类，<br>
+
+最大的特点是舌头呈刷子状，主食是水果和花（花粉）。<br>
+
+据说它们的智力很高，有一种说法认为，<br>
+
+其智力程度相当于人类2岁至5岁的幼儿，<br>
+
+因此它们具备多种沟通能力，比如表演才艺、和人进行一定程度的对话，以及接受训练等。
+
+大多数鸟类都是群居动物，所以和狗、人类一样，都是具有社会性的生物。<br>
+
+不过，与狗和人类不同，白腰鹦鹉的群体是非常扁平的组织，<br>
+
+上下级关系相当松散。<br>
+
+所以在训练它们、教它们表演才艺时，采用上位者（人类）<br>
+
+压制并强迫下位者（白腰鹦鹉）的方式，是行不通的。<br>
+
+最有效的方法就是“表扬它，让它进步”。
+
+说个亲身经历吧，我家的白腰鹦鹉不知为什么特别喜欢飞到电视机上，<br>
+
+然后在那里排便，我一直想办法让它改掉这个习惯。<br>
+
+一开始我会大声斥责它，或者它一站到电视机上，就用手把它推下来，<br>
+
+采用这种粗暴的训练方式，可它始终没有改过来。<br>
+
+于是，虽然要承担电视机被弄脏的风险，但我决定白腰鹦鹉站到电视机上时，<br>
+
+完全不说话，也不作任何反应。<br>
+
+它确实好几次在上面排了便，电视机甚至差点坏掉，<br>
+
+但我还是耐心地坚持了下去。<br>
+
+等它主动从电视机上下来、回到我身边时，就表扬它。<br>
+
+如此反复几次后，不知从什么时候开始，它再也不飞到电视机上去了。<br>
+
+虽然看起来很想上去，但它会忍住不去，转而回到我身边。<br>
+
+这时候它会露出一副非常得意的表情，所以必须立刻表扬它。<br>
+
+当然，它在电视机上排便的情况也就此消失了。<br>
+
+至于才艺，我也同样采用“表扬它，让它进步”的方法来教。
+
+我通过家里的白腰鹦鹉学到，原来动物也会因为“受到表扬”而感到开心啊！<br>
+
+不过话说回来，我自己也是喜欢受表扬的类型（笑）。<br>
+
+正因为我喜欢受表扬，所以平时也会提醒自己，要好好地“表扬”对方。
+
+如果能够很好地“表扬”对方，不仅能建立良好而愉快的关系，<br>
+
+有时还可以抑制对方那些“希望他不要做的行为”，<br>
+
+比起否定对方，这种方式更加高效、自然，<br>
+
+我觉得也能营造出让人感觉舒适的周围环境。<br>
+
+不仅如此，还能期待一些额外收获，比如让身边每个人的能力都得到提升。
+
+我想一边好好地“表扬”对方，一边也努力去做些能让人“表扬”自己的事，<br>
+
+这就是通过宠物再次想到这些的Yochiyochi！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！　サウンドのよちよちです。<br>
 
 今回は私が飼っているペットのお話をしたいと思います。

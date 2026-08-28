@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 中途採用がアツイ訳。
+title: 【工作日志】2009年GAME FREAK中途招聘正热
 date: '2009-09-14'
 permalink: /gamefreak-staff/entry-143/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 143
-gf_entry_title: 中途採用がアツイ訳。
+gf_entry_title: 【工作日志】2009年GAME FREAK中途招聘正热
 gf_original_title: 中途採用がアツイ訳。
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！採用担当のさとうです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年GAME FREAK中途招聘正热
+translation_available: true
+summary: GAME FREAK 招聘负责人介绍中途招聘特别网站，以及公司持续创造新游戏、寻找新伙伴的热切想法。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 中途採用がアツイ訳。
@@ -47,7 +47,77 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！我是负责招聘的佐藤。
+
+秋意越来越浓了，<br>
+
+不过，GAME FREAK 的招聘活动依然火热！<br>
+
+为了传达我们对新伙伴的热情，<br>
+
+前几天我们开通了[中途招聘特别网站](http://www.gamefreak.co.jp/recruit/career.html)！
+
+这是一个倾注了许多心意的网站，介绍了我们正在寻找什么样的伙伴，以及想和大家一起制作怎样的游戏。<br>
+
+还请务必抽空来看看，<br>
+
+如果能让您感受到 GAME FREAK<br>
+
+正在非常认真地开展招聘活动，<br>
+
+我们会非常高兴。
+
+不过，为什么要认真到这种程度呢？<br>
+
+也许有人会这样想。<br>
+
+今天就请允许我为大家说明其中的理由。
+
+凭借《宝可梦》系列，<br>
+
+GAME FREAK 作为一家公司建立起了重要的支柱，<br>
+
+但我们并不认为，<br>
+
+那就是作为公司、作为创作者的我们的终点。<br>
+
+我们希望活用至今积累的技术、知识和经验，<br>
+
+今后继续创造能够成为新支柱的“游戏乐趣”。
+
+当然，《宝可梦》系列也在不断进化。<br>
+
+同时兼顾既有支柱和新支柱并不是一件容易的事，<br>
+
+我们也越来越需要与以往不同的思考方式和技术。
+
+正因为是现在这个时期，我们才正在寻找新的伙伴。
+
+能够从零开始参与新游戏的制作，也是只有在这个时机才有的机会。<br>
+
+GAME FREAK 是否是一个能够发挥您过往职业经历的地方，<br>
+
+希望您能来亲自确认一下。
+
+目前正在招聘的是以下 4 个职位。<br>
+
+・平面设计师<br>
+
+・程序员<br>
+
+・音效创作者<br>
+
+・策划
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/143/sato090914-a51b56bc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/143/sato090914-a51b56bc.jpg" alt="お待ちしてます" loading="lazy"></a></figure><br>
+
+那么，期待您的应聘！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！採用担当のさとうです。
 
 秋の気配も濃厚になってきましたが、<br>

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 中途採用の募集を開始しました！
+title: 【工作日志】2010年GAME FREAK招聘新成员
 date: '2010-06-25'
 permalink: /gamefreak-staff/entry-188/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 188
-gf_entry_title: 中途採用の募集を開始しました！
+gf_entry_title: 【工作日志】2010年GAME FREAK招聘新成员
 gf_original_title: 中途採用の募集を開始しました！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは。採用担当さとうです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年GAME FREAK招聘新成员
+translation_available: true
+summary: GAME FREAK启动本年度中途招聘，寻找拥有独特个性的2D、3D图形设计师，也欢迎有意转职者前来应聘。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 中途採用の募集を開始しました！
@@ -47,7 +47,69 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好，我是负责招聘的佐藤。
+
+GAME FREAK 已经开始招募本年度的中途入职员工啦！<br>
+
+招聘职位如下。
+
+・2D图形设计师<br>
+
+・3D图形设计师
+
+招聘详情已刊登在中途招聘页面，<br>
+
+请查看[コチラ](https://www.gamefreak.co.jp/career/outline.html)。
+
+另外，招聘职位还会随时增加或调整！<br>
+
+预计夏天前后会开始招聘程序员，<br>
+
+如果您对此感兴趣，还请务必再次关注 GAME FREAK 的网站。
+
+“虽然目前没有特别考虑跳槽，但对 GAME FREAK 有一点兴趣”<br>
+
+或者，<br>
+
+“现在还很难入职，但等手头的项目结束后想跳槽”<br>
+
+这样的朋友，我们也非常欢迎。<br>
+
+如果您正想着差不多该在新的舞台上做出一番成就了……还请务必来应聘！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/188/sato100625-a7483737.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/188/sato100625-a7483737.jpg" alt="" loading="lazy"></a></figure>
+
+顺带一提，这次招聘中，如果要用一句话概括我们对图形设计师的要求，那就是“个性”。
+
+比如说，对于2D图形设计师，<br>
+
+我们希望遇到的不是“画得很好，却总觉得在哪里见过的画”，<br>
+
+而是能够画出“只有这个人才能画出来的画”的人。<br>
+
+所以，请不要在意“像不像 GAME FREAK 的风格”之类的问题，尽管把作品集发给我们吧！
+
+另外，对于3D图形设计师来说，<br>
+
+除了“在3D领域拥有很强的技术能力”之外，<br>
+
+如果还具备这个人特有的＋α（比如会做角色设计……等等），我们也认为这是一种个性。
+
+我们想遇见的，不是只会完成别人交代工作的操作员，<br>
+
+而是拥有属于自己独特个性、能够和我们一起创造新事物的创作者。<br>
+
+在 GAME FREAK，有能够发挥个性的环境。<br>
+
+……这是否适合自己，不妨参加选拔，亲自确认一下。
+
+期待您的应聘！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは。採用担当さとうです。
 
 ゲームフリークでは今年度の中途採用の募集を開始しました！<br>

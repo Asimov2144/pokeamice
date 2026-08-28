@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 殺菌乳酸菌
+title: 【工作日志】2009年开发现场的乳酸菌
 date: '2009-10-02'
 permalink: /gamefreak-staff/entry-147/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 147
-gf_entry_title: 殺菌乳酸菌
+gf_entry_title: 【工作日志】2009年开发现场的乳酸菌
 gf_original_title: 殺菌乳酸菌
-gf_translation_title: ''
-translation_available: false
-summary: おひさしぶりです。 ハートゴールド・ソウルシルバーの開発に参加していたら、 いつのまにやら入社三年目になっていたプログラマのほっしーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年开发现场的乳酸菌
+translation_available: true
+summary: GAME FREAK程序员分享开发日常中的乳酸菌疑问，并从“近路”谈到寻找更高效工作方法的思考。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 殺菌乳酸菌
@@ -47,7 +47,91 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+好久不见。<br>
+
+参加《心金／魂银》的开发时，<br>
+
+不知不觉已经入职第三年了，我是程序员小星。
+
+最近几乎每天早上，我都会喝小岩井乳业株式会社的“牛奶与乳酸菌”，<br>
+
+这是 GAME FREAK 内的自动贩卖机里卖的饮料。<br>
+
+喝起来清爽、容易入口，喝完之后，<br>
+
+以肠胃为首，总觉得身体整体的状态<br>
+
+好像都会变好一些。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/147/hoshi09102-2dd05940.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/147/hoshi09102-2dd05940.jpg" alt="自動販売機" loading="lazy"></a></figure><br>
+
+GAME FREAK 休息区里的自动贩卖机。
+
+有一次，我注意到“牛奶与乳酸菌”的成分表上，<br>
+
+写着“杀菌乳酸菌饮料”这样的字样。<br>
+
+“杀菌乳酸菌”到底是什么？<br>
+
+是把乳酸菌杀死的意思吗？<br>
+
+可是把乳酸菌杀死的话，不就没有意义了吗……
+
+光烦恼也不会自己得到答案，<br>
+
+所以我和上次一样，去网上查了查[前回に引き続き](http://www.gamefreak.co.jp/blog/staff/?p=81)，<br>
+
+看来所谓“杀菌乳酸菌”，<br>
+
+真的就是把乳酸菌杀死后的东西。<br>
+
+好像也有人简单地称它为“死菌”。
+
+据说，最近的研究发现，摄取乳酸菌时，<br>
+
+即使乳酸菌已经死了，也几乎能带来和活着时一样的<br>
+
+效果。<br>
+
+而且死掉之后会变干、体积变小，<br>
+
+所以一次更容易摄取很多。
+
+（详细内容可以搜索“杀菌乳酸菌”或“死菌”，<br>
+
+　会搜出一大堆资料！）
+
+我原本一直觉得，乳酸菌必须活着送达到肠道才行，<br>
+
+没想到事实竟然正好相反。
+
+这件事在医学上到底是不是真的，<br>
+
+我没有办法判断，<br>
+
+但如果是“以前都说活着喝比较好，结果其实正好相反！”，<br>
+
+那还真是个挺有意思的故事。
+
+在每天的工作中，<br>
+
+有些事情只是因为我们想当然地认为必须做，<br>
+
+其实根本不用做，<br>
+
+这样的事情说不定还真不少。<br>
+
+这也让我思考，作为程序员，<br>
+
+我想磨炼出寻找这种“近路”的敏锐嗅觉。
+
+然后今天我也要喝“牛奶与乳酸菌”……等等，自动贩卖机里没了——！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 おひさしぶりです。<br>
 
 ハートゴールド・ソウルシルバーの開発に参加していたら、<br>

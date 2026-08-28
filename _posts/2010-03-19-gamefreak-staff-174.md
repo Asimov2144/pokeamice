@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: わたしたちの就職活動3 「日課」
+title: 【工作日志】2010年求职路上的夕阳日课
 date: '2010-03-19'
 permalink: /gamefreak-staff/entry-174/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 174
-gf_entry_title: わたしたちの就職活動3 「日課」
+gf_entry_title: 【工作日志】2010年求职路上的夕阳日课
 gf_original_title: わたしたちの就職活動3 「日課」
-gf_translation_title: ''
-translation_available: false
-summary: みなさん、はじめまして！グラフィックデザイナーのめめたです。 ほず と同じく入社1年目の新人です。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年求职路上的夕阳日课
+translation_available: true
+summary: 回忆求职时期的每日习惯：眺望变幻的夕阳，在低落时重新找回画画的动力与安心感。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · わたしたちの就職活動3 「日課」
@@ -47,7 +47,79 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，初次见面！我是图形设计师めめた。<br>
+
+和[ほず](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%BB%E3%81%9A)一样，也是入社第一年的新人。
+
+这次想和大家聊聊我在求职期间的一段小小回忆。<br>
+
+求职期间，我每天都干劲十足，<br>
+
+但有时情绪也会低落。<br>
+
+在那样的日子里，我每天都会眺望一样东西，这成了我的日课。
+
+那就是“夕阳”！
+
+我想，对我来说，对大家来说，夕阳不过是再熟悉不过的<br>
+
+普通风景之一，<br>
+
+但它真的很厉害哦！夕阳。
+
+有时是淡淡橙色渐变的夕阳，<br>
+
+可第二天又会变成仿佛燃烧般通红的夕阳。<br>
+
+不只是晴天，雨后从云层缝隙间照射出来的夕阳也一样，<br>
+
+每一种都有完全不同的美，我真的觉得特别棒。<br>
+
+我会赶紧给它拍照，<br>
+
+可不知为什么，有时拍出来就是没有亲眼看到的那么漂亮（笑）。
+
+我就这样在家和学校之间往返时，放空地看着夕阳度过一段时间。<br>
+
+画不好画、想着“已经不想再画了……”的时候也一样，<br>
+
+只要看到夕阳的颜色，胸口就会涌起一股热意，<br>
+
+“我还想画画”“果然我只能画画！”<br>
+
+我不知道有多少次，是看着夕阳重新获得干劲的。<br>
+
+现在回想起来，即使是不值一提的日课，<br>
+
+那段时间也许是让我认真思考自己的重要时光。
+
+虽然每个人都不一样，但我想，<br>
+
+大家应该都有某种能让自己的心平静下来的东西吧？<br>
+
+就算很忙，拥有这样一段时间也很不错，<br>
+
+因为它也意味着能和自己好好面对面——这就是我想说的。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/174/memeta100319-f70b17f7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/174/memeta100319-f70b17f7.jpg" alt="会社から見える夕焼け" loading="lazy"></a></figure>
+
+顺带一提，从公司窗户看到的夕阳天空也棒极了！<br>
+
+入社以后，我居住的地方和生活方式都发生了很大变化，<br>
+
+所以已经很难每天都放空地眺望夕阳了，<br>
+
+但即便如此，看到一如既往美丽的夕阳时，<br>
+
+还是会莫名感到安心。
+
+所以我才总是会犯困吧……。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさん、はじめまして！グラフィックデザイナーのめめたです。<br>
 
 [ほず](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%BB%E3%81%9A)と同じく入社1年目の新人です。

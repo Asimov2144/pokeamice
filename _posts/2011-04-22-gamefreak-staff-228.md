@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 就職活動に思うこと
+title: 【工作日志】2011年求职与入职心得
 date: '2011-04-22'
 permalink: /gamefreak-staff/entry-228/
 categories:
@@ -33,13 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 228
-gf_entry_title: 就職活動に思うこと
+gf_entry_title: 【工作日志】2011年求职与入职心得
 gf_original_title: 就職活動に思うこと
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、にょろリカです。 ゲームフリークは現在、新卒採用の真っ最中です。 ここをご覧になっている方の中にも、現在就職活動中の学生さんが いらっしゃるのではないでしょうか？
-  今回は、この春でゲームフリーク2年目を迎えたスタッフから、 就職活動中の学生さんへの、ささやかなアドバイスをお送りいたします。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年求职与入职心得
+translation_available: true
+summary: GAME FREAK员工分享求职经验，谈作品展示、个人目标与进入游戏行业后的成长。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 就職活動に思うこと
@@ -48,7 +47,161 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是にょろリカ。<br>
+
+GAME FREAK目前正值应届毕业生招聘季。<br>
+
+正在阅读本页面的各位当中，<br>
+
+应该也有正在求职的学生吧？<br>
+
+这次，我们请几位今年春天进入 GAME FREAK 第二年的员工，<br>
+
+为正在求职的学生们送上一些小小的建议。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/228/writer42-33f96018.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/228/writer42-33f96018.gif" alt="わも" loading="lazy"></a></figure><br>
+
+「[とうきょうのしゃかいじん](http://www.gamefreak.co.jp/blog/staff/?p=184)」这篇文章写完已经过去一年了。<br>
+
+我可能已经完全习惯坐电车上下班了！？我是入职第二年的平面设计师わも。<br>
+
+正在求职的各位，差不多已经到了<br>
+
+开始习惯“正在求职的自己”的时候了吗？还是已经开始觉得厌烦了呢？<br>
+
+两年前的我也一样，穿着还没习惯的西装，费劲地搬着沉重的作品集，<br>
+
+那时我满脑子想的都是：“总之先看看我的作品吧！不管怎样都请让我进公司吧！<br>
+
+我一定会非常非常努力的！”<br>
+
+可是，这样的自我宣传，传达出来的终究只有“我想进公司！<br>
+
+我想成为设计师！”这些想法。<br>
+
+你希望成为策划师吗？<br>
+
+程序员？还是平面设计师呢？<br>
+
+现在回头想想，我觉得，“想成为的职业”是为了实现自己想做的事而采取的<br>
+
+“手段”，而不是目的。<br>
+
+想让对方产生“想和这个人一起工作，做出好东西”的念头，<br>
+
+关键或许就在于，清楚地传达自己从事这份工作后想实现的愿望吧？<br>
+
+也许会觉得有点不好意思，但热情洋溢地畅谈自己想在那家公司做什么，<br>
+
+我认为这是和许多人一起创作、分享目标的第一步。（わも）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/228/writer52-dde19bb9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/228/writer52-dde19bb9.gif" alt="まるしお" loading="lazy"></a></figure><br>
+
+初次见面！我是入职第二年的平面设计师まるしお。<br>
+
+求职期间，我一直提醒自己不要忘记，“公司的内在”其实是由一个个个体组成的。<br>
+
+我觉得，没有社会人经验的时候，很容易对公司这个组织产生一些距离感，<br>
+
+但就像求职学生会思考着“我想做这样的工作！”并为之行动一样，<br>
+
+公司也是由一群思考着“我们想做这样的事！所以需要这样的人！”的人组成的。<br>
+
+在制作并寄出作品时，与其觉得自己是在把作品提交给机械式的审查，<br>
+
+不如抱着“我要把它展示给那些人看！”的心情去宣传，<br>
+
+我想这样会更容易让对方切实感受到你的想法！ （まるしお）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer46-9070e288.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer46-9070e288.gif" alt="いっちー" loading="lazy"></a></figure><br>
+
+大家，好久不见。<br>
+
+我是程序员いっちー！<br>
+
+时间过得真快，从 4 月 1 日起我也进入第二年了。<br>
+
+新人第一年每天都在学习，一年转眼就过去了。<br>
+
+现在想来，学生时代明明有很多时间，<br>
+
+要是那时候能多学习一些、多玩一些，多经历各种各样的事情就好了啊——<br>
+
+我对此感到有些后悔。<br>
+
+现在正在求职的各位学生，请趁现在多经历各种各样的事情，<br>
+
+把它们变成面试时的优势吧。（いっちー）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" alt="まさゆき" loading="lazy"></a></figure><br>
+
+大家好，我是入职第二年的程序员まさゆき。<br>
+
+入职后转眼就过去一年了。<br>
+
+我埋头于编程，参加了各种公司内部活动……<br>
+
+我觉得这一年里，自己无论作为程序员还是作为社会人，都有所成长。<br>
+
+今年也要继续保持这个状态努力！<br>
+
+那么，正在阅读这里的各位求职学生，有没有想象过“5年后、10年后的自己”呢？<br>
+
+不要只是模糊地想着“以后想成为这样的人啊”，而是给未来划分出阶段，<br>
+
+试着描绘自己将来的样子。这样一来，自己想要怎样的工作方式，<br>
+
+以及想成为的自己究竟是什么样子，我想都会变得更加清晰。（まさゆき）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" alt="ヒート" loading="lazy"></a></figure><br>
+
+好久不见，我是策划师ヒート。<br>
+
+今年 4 月 GAME FREAK 也迎来了新员工，一想到自己已经成了“前辈”，<br>
+
+就总觉得有些不好意思。<br>
+
+新员工们拥有和即将进入第二年的我们不同的擅长领域与适性。<br>
+
+希望我们能互相受到刺激，一起学习、共同进步。<br>
+
+目前正在求职、以游戏行业为目标的各位学生，<br>
+
+如果你有擅长的事情，就请对此抱有坚定的自信，并继续提升它。<br>
+
+然后，在面试时试着宣传一下：“我能做到这样的事情！”<br>
+
+我想这会很不错。（ヒート）
+
+觉得怎么样呢？<br>
+
+最后，虽然说得不够好，作为负责招聘的にょろリカ，我也想和大家谈一件事。<br>
+
+正在阅读这里的各位求职者，你们为什么想从事那份工作呢？<br>
+
+比如说，如果你希望通过工作“让别人感到开心”，或者“让许多人露出笑容”，<br>
+
+我认为那只不过是这份工作所带来的结果。<br>
+
+如果你喜欢让别人开心，请深入思考：“我为什么想让别人开心？”<br>
+
+“为此我能做些什么？”<br>
+
+然后，我希望听到你用“自己的话”，告诉我们从中发现的“自己真正想做的事”。<br>
+
+求职并不是“由企业单方面挑选学生的场合”。<br>
+
+我认为，这是学生和企业彼此深入了解，然后决定要不要一起工作的场合。<br>
+
+请务必多多告诉我们关于你们的事情。
+
+我衷心祝愿大家求职成功。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、にょろリカです。<br>
 
 ゲームフリークは現在、新卒採用の真っ最中です。<br>

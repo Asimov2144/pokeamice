@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ＨＧ・ＳＳ 語っちゃいます！ その１
+title: 【工作日志】2009年心金·魂银开发随笔
 date: '2009-09-25'
 permalink: /gamefreak-staff/entry-145/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 145
-gf_entry_title: ＨＧ・ＳＳ 語っちゃいます！ その１
+gf_entry_title: 【工作日志】2009年心金·魂银开发随笔
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その１
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！
-translation_status: missing
+gf_translation_title: 【工作日志】2009年心金·魂银开发随笔
+translation_available: true
+summary: 程序员森介绍心金·魂银的下屏菜单设计，并分享宝可梦性格影响能力值的隐藏提示。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その１
@@ -47,7 +47,125 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！
+
+正如总监森本之前预告的那样，接下来预计会分成全8回，<br>
+
+作为《宝可梦 心金·魂银》（以下简称“心金·魂银”）发售纪念，<br>
+
+我们将以《来聊聊心金·魂银！》为题，陆续刊载参与开发的工作人员的故事。<br>
+
+敬请期待！
+
+作为第1回，这次由开发部程序员森负责。<br>
+
+在心金·魂银项目中，我担任了程序组负责人。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/145/mori090925-bf8fed83.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/145/mori090925-bf8fed83.jpg" alt="森です。" loading="lazy"></a></figure>
+
+程序方面的工作，简单来说，就是写下大量数学公式，<br>
+
+重现策划人员所指示的动作，<br>
+
+把美术设计师画出的图像显示在游戏画面上，<br>
+
+让音效设计师创作的曲子在合适的地方<br>
+
+播放出来，也就是承担着把各种游戏素材黏合在一起的胶水般的角色。<br>
+
+大家理解了吗！这样啊！那就好。
+
+这次的心金·魂银虽然从《宝可梦 钻石·珍珠·白金》中<br>
+
+加入了各种各样的改动，<br>
+
+但首先要说的重大变化之一，应该就是按下X按钮打开的菜单<br>
+
+从上屏移动到了下屏。
+
+菜单会一直显示在画面上。<br>
+
+随时都能调用功能！真方便！如果大家能这样想，我会很开心。
+
+程序组进行了一项名为“下屏化”的工作，<br>
+
+将各种菜单改造成可以通过触摸屏操作的形式，<br>
+
+这就是我们所做的工作。<br>
+
+为什么不和已经发售的《宝可梦 钻石·珍珠·白金》<br>
+
+保持一样呢？<br>
+
+我想，这和心金·魂银项目成立之初起，<br>
+
+总监森本一直提出的主题有关。
+
+总监森本提出的主题是“怀旧而又新鲜”。
+
+“怀旧”的部分，是指这是游戏机版的重制，<br>
+
+而“新鲜”的部分之一，就是下屏化。<br>
+
+宝可梦系列从1996年<br>
+
+发售的《红·绿》算起，如今已经迎来了第13个年头，<br>
+
+但应该也有一些玩家是第一次通过任天堂DS接触游戏的。<br>
+
+对于这样的玩家来说，他们是不是会想更多地使用触摸屏，<br>
+
+更直观地进行操作呢？<br>
+
+我理解森本是想照顾到这样的需求，因而踏入了“下屏化”<br>
+
+这个主题。
+
+我们把希望那些觉得怀念的玩家，<br>
+
+以及第一次接触的玩家，<br>
+
+都能玩得开心的心意，尽可能地融入了游戏中。<br>
+
+请一定拿在手里看看！
+
+不过，这件事只在这里偷偷告诉你……<br>
+
+你不好奇宝可梦“查看能力”画面的秘密吗？<br>
+
+“能力”这一页共有两页，显示在上屏，<br>
+
+仔细观察“攻击、防御、特攻、特防、速度”<br>
+
+这些字，就会发现它们有一点点偏红，或者偏蓝。
+
+其实，这是在表示宝可梦的“性格”<br>
+
+会让能力值产生些许变化。<br>
+
+比如性格“马虎”的宝可梦，<br>
+
+“特防”会显示为蓝色，“特攻”会显示为红色。<br>
+
+红色表示能力提高了，蓝色则表示能力降低了。<br>
+
+想在对战中变强！如果是这样的人，不妨<br>
+
+多留意这里，说不定就能比身边的人更占优势！<br>
+
+……也许吧。你不觉得是这样吗？你也这么觉得吧！
+
+以上就是程序员森的分享。<br>
+
+下一回的《来聊聊心金·魂银！》也敬请期待！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/160/hgss_bn-d8057b57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/160/hgss_bn-d8057b57.jpg" alt="ポケットモンスター ハートゴールド・ソウルシルバー 公式サイト" loading="lazy"></a></figure>
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！
 
 ディレクターもりもとから告知があったようにこれから全８回の予定で<br>

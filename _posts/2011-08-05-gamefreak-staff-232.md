@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 睡眠の話
+title: 【工作日志】2011年聊聊睡眠与穴位
 date: '2011-08-05'
 permalink: /gamefreak-staff/entry-232/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 232
-gf_entry_title: 睡眠の話
+gf_entry_title: 【工作日志】2011年聊聊睡眠与穴位
 gf_original_title: 睡眠の話
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、グラフィックデザイナーのマッツンです。 暑くて寝苦しい日が続いていますが、皆さんは良質な睡眠を とっていますか？ というわけで、今日は睡眠の話をしたいと思います！
-translation_status: missing
+gf_translation_title: 【工作日志】2011年聊聊睡眠与穴位
+translation_available: true
+summary: 健康检查后，小松尝试按压穴位，分享睡前与起床后可按的穴位，以及改善睡眠和工作状态的小方法。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 睡眠の話
@@ -47,7 +47,58 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是平面设计师小松。<br>
+
+最近天气一直很热，晚上也很难睡，大家都有好好睡觉吗？<br>
+
+所以，今天我想聊聊睡眠！
+
+前些日子公司安排了健康检查，平时对健康多少有些不上心的我，<br>
+也只有在这个时候才会注意一下自己的身体。<br>
+
+于是我查了不少健康方面的资料，其中尤其让我感兴趣的，<br>
+就是睡眠。
+
+可能有些人已经知道，睡眠重要的并不是<br>
+“睡了多久”，而是“有没有睡得好”。<br>
+想要获得高质量的睡眠，可以在睡前2小时吃完饭，<br>
+喝一些有放松效果的花草茶，方法可谓多种多样，<br>
+不过我抱着“这个好像最方便！”的想法，试了试“按压穴位”。<br>
+其中有两个穴位让我觉得特别不错，所以介绍给大家。
+
+首先是第一个，“睡前按压的穴位”。<br>
+这是名为头维的穴位，用食指或中指，朝着头部中央的方向，<br>
+缓缓按压左右两侧。
+
+**▼头维**<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/232/110805_01-9349b753.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/232/110805_01-9349b753.jpg" alt="頭維" loading="lazy"></a></figure>
+
+听说除了睡前以外，头脑发懵、无法集中精神等<br>
+症状也能通过按压它得到改善。
+
+另一个是“起床后按压的穴位”。<br>
+这是名为晴明的穴位，位于从左右内眼角向额头方向，<br>
+约一个食指宽的位置。
+
+**▼晴明**<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/232/110805_02-b3ae878b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/232/110805_02-b3ae878b.jpg" alt="晴明" loading="lazy"></a></figure>
+
+据说重复大约5次“按压10秒，松开10秒”，效果会比较好。<br>
+对让眼睛周围变得清爽、拓宽视野也很有效。
+
+虽然不能说效果特别惊人，但对我来说确实起到了一定作用。<br>
+感兴趣的话，不妨试试看？
+
+现在终于能睡个好觉，疲惫和昏沉的感觉也消失了，<br>
+变得能够利利索索地工作的小松！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、グラフィックデザイナーのマッツンです。<br>
 
 暑くて寝苦しい日が続いていますが、皆さんは良質な睡眠を<br>

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 年賀ドットコンテスト’10、結果発表！
+title: 【工作日志】2010年贺年点阵大赛揭晓
 date: '2010-02-02'
 permalink: /gamefreak-staff/entry-167/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 167
-gf_entry_title: 年賀ドットコンテスト’10、結果発表！
+gf_entry_title: 【工作日志】2010年贺年点阵大赛揭晓
 gf_original_title: 年賀ドットコンテスト’10、結果発表！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！Web担当のにょろリカです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年贺年点阵大赛揭晓
+translation_available: true
+summary: 网站负责人介绍贺年点阵大赛结果，回顾评审与公司内部投票，并感谢大家踊跃投稿。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 年賀ドットコンテスト’10、結果発表！
@@ -47,7 +47,29 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！我是网站负责人尼约莉卡。
+
+今天，我们公布了从1月1日起开始征集的“贺年点阵大赛”结果！<br>
+
+今年也是由网站负责人进行评审，再通过 GAME FREAK 员工的<br>
+
+公司内部投票决定的，不过每一件作品都非常精彩，<br>
+
+让我们在评选时大伤脑筋。<br>
+
+这次“贺年点阵大赛”可谓佳作云集，无论是否投稿过，<br>
+
+都请务必来看看吧！！<br>
+
+[贺年点阵大赛结果公布页面](http://www.gamefreak.co.jp/sp/2010dot/index.html)
+
+真的非常感谢大家踊跃投稿！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！Web担当のにょろリカです。
 
 本日、1月1日より募集をしていた「年賀ドットコンテスト」の結果発表をいたしました！<br>

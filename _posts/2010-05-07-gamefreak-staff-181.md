@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 入社1年目の思い出
+title: 【工作日志】2010年入社初年的回忆
 date: '2010-05-07'
 permalink: /gamefreak-staff/entry-181/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 181
-gf_entry_title: 入社1年目の思い出
+gf_entry_title: 【工作日志】2010年入社初年的回忆
 gf_original_title: 入社1年目の思い出
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、プランナー＋サウンドのラッペンです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年入社初年的回忆
+translation_available: true
+summary: 从宝可梦金银发售日入社的新人，回忆水晶版开发现场，以及第一次让文字登上游戏画面的激动。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 入社1年目の思い出
@@ -47,7 +47,93 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是负责企划和音效的拉彭。
+
+这次，nyoroRika Web队长给我下达了任务：<br>
+
+讲讲工作第一年的回忆！<br>
+
+不过，那实在是太久远的回忆了，<br>
+
+所以我想聊聊自己入职 GAME FREAK 第一年的往事！<br>
+
+（话虽如此，那也是十多年前的事了……）
+
+我是在宝可梦金·银发售日入职 GAME FREAK 的。<br>
+
+我刚入职时想到的第一件事，直到现在还记得。<br>
+
+**“为什么大家一个人就带着好几台 Game Boy 呢？”**<br>
+
+这是游戏业界特有的现象呢。<br>
+
+不过，当时真的把我吓了一跳。<br>
+
+如今就连 DS 系列，我也有<br>
+
+平时使用的、和自己通信的、调试用的（公司的）、保存用的、观赏用的等等，<br>
+
+各种各样的设备，已经完全不会觉得奇怪了，<br>
+
+但不知道新入职的员工们会不会也觉得惊讶呢……
+
+刚入职时的我，完全不知道游戏究竟是怎么做出来的，<br>
+
+还以为企划的工作就是写好剧本、设定和大致的企划书，<br>
+
+然后就结束了。<br>
+
+当然不是那么回事。看着前辈们干劲十足地制作地图、脚本、道具以及遇敌设定等内容，<br>
+
+我心想：“我这是来到了一个不得了的地方啊……”<br>
+
+当时也因此稍微感到有些不安。
+
+虽然心里不安，我还是加入了水晶版的开发团队。<br>
+
+一开始，我甚至完全不知道 Game Boy 的画面上到底能显示多少文字，<br>
+
+结果写出了许多离谱的企划书和剧本，<br>
+
+但为了制作出有趣的游戏，我一点一点地学习，努力了起来。<br>
+
+虽然有很多事情值得回忆，但其中最让我难忘的，<br>
+
+还是自己写的文字第一次显示在 Game Boy 画面上时的喜悦。<br>
+
+我激动得浑身发颤，心想：“这些文字将会被全日本的人读到啊。”<br>
+
+（这是个听起来很感人的故事，不过我最开始写的剧本，<br>
+
+　记得好像是杂耍艺人的麦克来着……）
+
+总之，从那次感动到现在，已经过去十一年多了。<br>
+
+但我还远远没有忘记最初的心情！<br>
+
+一个文字、一个音符，都倾注着“希望大家能够 즐 즐? ”的心情来制作。<br>
+
+我从小就想着“想做一些能让别人开心的事，想创造些什么”，<br>
+
+如今能够实现这个愿望，我既感激又幸福。<br>
+
+世上一定有许多怀抱着同样想法的人，有学生、刚参加工作的新人，<br>
+
+也有已经工作多年的前辈。<br>
+
+让我们一起不断为身边的人带去更多快乐吧！
+
+这就是我工作第一年的回忆。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/181/rapen100507-21074d21.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/181/rapen100507-21074d21.jpg" alt="" loading="lazy"></a></figure><br>
+
+这是当时的企划书！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、プランナー＋サウンドのラッペンです。
 
 今回、にょろリカWeb隊長より、社会人1年目の<br>

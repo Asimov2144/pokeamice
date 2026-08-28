@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 朝食ノススメ
+title: 【工作日志】2011年员工谈吃早饭
 date: '2011-11-04'
 permalink: /gamefreak-staff/entry-237/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 237
-gf_entry_title: 朝食ノススメ
+gf_entry_title: 【工作日志】2011年员工谈吃早饭
 gf_original_title: 朝食ノススメ
-gf_translation_title: ''
-translation_available: false
-summary: どうもはじめまして！ 入社して5ヶ月の新人、Ｙと申します。 仕事の方は『情報管理』を担当しています。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年员工谈吃早饭
+translation_available: true
+summary: 新人员工Y从亲身经历出发，分享坚持吃早饭后提升专注力、改善生活节奏的变化。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 朝食ノススメ
@@ -47,7 +47,93 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，你好！<br>
+
+我是入社5个月的新人，Y。<br>
+
+我负责的工作是“信息管理”。
+
+那么，我第一次执笔要写的主题是……“早饭”！<br>
+
+用英语说就是 breakfast！
+
+从上初中到最近这段时间，整整13年里<br>
+
+・因为距离出门前的时间很短<br>
+
+・早上没有食欲<br>
+
+・觉得回答“早饭？我不吃呀”很“帅”<br>
+
+等等这些理由，我一直不吃“早饭”，过着只在中午和晚上吃饭的生活。
+
+毕竟保持了13年的这种习惯，<br>
+
+当然也从来没有觉得有什么不方便。<br>
+
+然而，以我去年结婚为契机，家里开始有一派势力试图<br>
+
+打破我守护了13年的传统……
+
+直截了当地说，就是“我们吃早饭吧！”党。<br>
+
+“我们吃早饭吧！”党（妻子）拼命向我诉说吃“早饭”的好处，<br>
+
+可我也是生活在现代信息社会中的社会人。<br>
+
+当然不可能对妻子说的话照单全收。<br>
+
+“我们吃早饭吧！”党（妻子）对始终不肯老实听话的我忍无可忍，<br>
+
+我则不顾她的反应，按照自己的方式调查了一下“早饭”的好处。
+
+**1.工作效率会提高**<br>
+
+摄取作为大脑活动能量来源的葡萄糖，可以使大脑活动更加活跃。
+
+**2.不容易变胖**<br>
+
+不吃“早饭”会导致基础代谢降低，就算吃同样的分量也更容易发胖。
+
+**3.能够保持营养均衡**<br>
+
+如果只在中午和晚上吃饭，就很难保持一天的营养均衡。<br>
+
+营养失衡的状态持续下去，还有可能成为生活习惯病等疾病的诱因。
+
+诸如此类。<br>
+
+原来如此……在了解到吃早饭的好处比预想中还多之后，<br>
+
+我决定用“百闻不如一见”的道理，亲自试着吃吃看。
+
+刚开始时，连吃一根香蕉都觉得麻烦，但坚持了一周、两周之后，<br>
+
+也许是胃开始工作了吧，每天早上一醒来，竟然会觉得肚子饿。<br>
+
+现在甚至感觉吃火锅也没问题！（虽然不会吃）
+
+虽然必须比以前稍微早一点起床，<br>
+
+但我觉得通过吃饭可以建立起一天的节奏，也能够从一大早就集中精神<br>
+
+投入工作了。<br>
+
+曾经一度处于对立关系的我家，“不吃早饭”党也随之解散，<br>
+
+家里终于恢复了和平。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/237/y_111104-598c7d03.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/237/y_111104-598c7d03.jpg" alt="朝食" loading="lazy"></a></figure>
+
+我想，不吃“早饭”的人应该也不少，<br>
+
+但它带来的好处会让你亲身感受到，远超想象，所以推荐大家试试看！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 どうもはじめまして！<br>
 
 入社して5ヶ月の新人、Ｙと申します。<br>

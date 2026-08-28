@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: まぼろしの緑ナンバー
+title: 【工作日志】2009年越南三轮车历险
 date: '2009-02-27'
 permalink: /gamefreak-staff/entry-115/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 115
-gf_entry_title: まぼろしの緑ナンバー
+gf_entry_title: 【工作日志】2009年越南三轮车历险
 gf_original_title: まぼろしの緑ナンバー
-gf_translation_title: ''
-translation_available: false
-summary: ユッフィーです。 三十代です。 ハムスター大好きです。 ちょっと前にベトナムに行ったときの話をさせていただきます。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年越南三轮车历险
+translation_available: true
+summary: 员工回忆在胡志明市租三轮车载客、迷路迟到，还因吃雷鱼闹肚子的越南旅行经历。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · まぼろしの緑ナンバー
@@ -47,7 +47,101 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+我是尤菲。<br>
+
+三十多岁。<br>
+
+最喜欢仓鼠。<br>
+
+想跟大家聊聊前阵子去越南时的事。
+
+我去的是胡志明市。<br>
+
+当时的交通工具是公交车和三轮车出租车，<br>
+
+公交车挤得满满当当，而且听说三轮车对游客来说很危险。<br>
+
+（我把旅游指南上的内容全盘照信了。）
+
+可是我无论如何都想坐一次三轮车，<br>
+
+一时冲动之下，决定租一整天。<br>
+
+因为我不会越南语，就想着只要用那种“指指说说”的会话书，<br>
+
+应该总能想办法应付过去吧。
+
+我在酒店前拦了辆三轮车，又请酒店工作人员帮忙，<br>
+
+最后谈成了在酒店前取车、在酒店前还车。<br>
+
+当然，我付了足够抵得上车夫一天营业收入的租金。<br>
+
+虽然没有变速挡，<br>
+
+但是能够　跑得　比　跑鞋　还快的<br>
+
+三轮　自行车　入手了！
+
+对了，我完全忘记说了，<br>
+
+这种出租车好像叫“西克洛”。
+
+我骑车经过主干道同起街时，<br>
+
+还能看到不少日本女游客。<br>
+
+越南的物价虽然便宜，但这里曾经是法国殖民地，<br>
+
+时装杂货都非常时髦。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/115/yufu090227_01-4258a5bf.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/115/yufu090227_01-4258a5bf.jpg" alt="街並１" loading="lazy"></a></figure>
+
+在这样时髦又带点俗艳感的街道上，<br>
+
+原本计划在冷静与热情之间，发生一场感觉不错的惊喜，<br>
+
+然后时而受欢迎，时而不受欢迎。<br>
+
+我可是拼命呢。
+
+刚租到自行车，情绪正有点高涨，<br>
+
+于是我主动和一位日本女性搭话，跟她熟络起来。<br>
+
+可是走路的速度和骑车的速度对不上，很难聊天，<br>
+
+既然机会难得，就请她坐上了车。<br>
+
+接着我问她要去哪里，没想到正好是我前一天去过的地方，<br>
+
+于是我临时载上这位客人（车费免费），开始蹬车。<br>
+
+虽然很重，但我会加油的。
+
+可是我竟然彻底忘了自己是个路痴！
+
+最后还是让客人给我导航，才终于到达目的地。<br>
+
+太丢人了。<br>
+
+回程时，我一个人在回酒店的路上迷了路。<br>
+
+因为迟到了约定时间，还被人稍微训了一顿。<br>
+
+第二天吃了雷鱼，把肚子吃坏了。<br>
+
+我还想再去越南。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/115/yufu090227_02-715d2986.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/115/yufu090227_02-715d2986.jpg" alt="街並２" loading="lazy"></a></figure><br>
+
+临时西克洛车夫营业过的街景
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 ユッフィーです。<br>
 
 三十代です。<br>

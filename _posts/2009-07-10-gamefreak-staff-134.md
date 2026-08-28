@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: アンケートにみるゲームフリーク社員
+title: 【工作日志】2009年 GAME FREAK 员工问卷
 date: '2009-07-10'
 permalink: /gamefreak-staff/entry-134/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 134
-gf_entry_title: アンケートにみるゲームフリーク社員
+gf_entry_title: 【工作日志】2009年 GAME FREAK 员工问卷
 gf_original_title: アンケートにみるゲームフリーク社員
-gf_translation_title: ''
-translation_available: false
-summary: 梅雨の季節、みなさんお元気ですか？ ナギーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年 GAME FREAK 员工问卷
+translation_available: true
+summary: 通过内部问卷看看员工的出身地、童年梦想与人生高光时期，展现 GAME FREAK 多元而鲜活的团队面貌。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · アンケートにみるゲームフリーク社員
@@ -47,7 +47,133 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+梅雨季节，大家还好吗？<br>
+
+我是娜吉。
+
+很多人都不喜欢梅雨季节，因为又闷又潮吧。<br>
+
+那么，究竟有多少人讨厌梅雨呢？<br>
+
+我查了一下网上关于梅雨的问卷，<br>
+
+听说有九成以上的人讨厌梅雨。<br>
+
+而且，八成以上的人会减少外出，<br>
+
+七成以上的人会靠上网打发时间。<br>
+
+啊、这样啊……
+
+像这样，看看问卷就能了解到新东西，<br>
+
+有时还会得到意想不到的结果，发现新的事情呢。
+
+GAME FREAK 里有一个公司内部网页委员会，<br>
+
+还有一个只能通过公司内部网络连接的网页，叫作 GF-WEB。
+
+GF-WEB 被用作员工之间的交流工具，<br>
+
+其中还会面向员工进行一些有趣的问卷调查！<br>
+
+（顺便一提，并不是所有人都会参加问卷投票，<br>
+
+所以投票人数大概是员工总数的三分之一到二分之一）
+
+那么！<br>
+
+就让我们通过问卷来看看<br>
+
+GAME FREAK 里都聚集了哪些类型的员工吧！
+
+○员工的出生地是哪里？
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/134/nagi090710_01-1ffd956c.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/134/nagi090710_01-1ffd956c.gif" alt="社員の出身地は？" loading="lazy"></a></figure>
+
+这是关于员工出生地的问卷。<br>
+
+毕竟是位于东京的公司，看来出生在东京和关东地区的人比较多。<br>
+
+北海道、东北等地区虽然也有投票数为 0 的地方，但没关系！我就是东北出身的！<br>
+
+只是因为是问卷，多少会有遗漏，其实员工来自各个地方，分布得很广。
+
+・虽然是支持石川县的艾尔胜，但其实出生在三重县。（艾尔胜）<br>
+
+・我是大分县人。那里是香菇的名产地！不过在老家，什么菜里都会放香菇……<br>
+
+所以学生时代不太喜欢香菇。（沙丁鱼）
+
+○员工小时候的梦想是什么？
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/134/nagi090710_02-6861a922.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/134/nagi090710_02-6861a922.gif" alt="社員の出身地は？" loading="lazy"></a></figure>
+
+作家、漫画家占压倒性多数！<br>
+
+没想到计算机相关职业反而只占少数。<br>
+
+顺便一提，我上小学时在课堂问卷里写的是<br>
+
+“游戏制作人”。<br>
+
+而且那时我根本不知道“游戏制作人”实际是做什么的，<br>
+
+还以为是负责构思游戏内容的人。
+
+・我小时候的梦想是当一名学校老师，<br>
+
+其实我还拿到了教师资格证。（KAGE）<br>
+
+・上小学的时候，我以为自己会因为诺斯特拉达穆斯的大预言／关东大地震<br>
+
+或者富士山喷发……总之会在二十岁之前死掉。（玛）
+
+○到目前为止，人生中最令人难忘的时期是？
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/134/nagi090710_03-98cdcace.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/134/nagi090710_03-98cdcace.gif" alt="社員の出身地は？" loading="lazy"></a></figure>
+
+在员工票选的“人生中最令人难忘的时期”问卷里，获得最多票数的是<br>
+
+“参加工作以后”！<br>
+
+（其实那一项原本打了马赛克，<br>
+
+但因为是太过内部趣味的选项，所以我就当没看见了）<br>
+
+果然是因为很多人都曾把作品带到世人面前，并从中获得感动吧。
+
+・参加工作以后一直都是开心的事呢——还是长大了好！（蟹子）<br>
+
+・绝对是大学时代。参加学会、发表论文、制作游戏，什么都尝试了一番。（艾尔胜）
+
+像这样看看问卷和评论，<br>
+
+就会发现公司里聚集了来自各个地方的人。<br>
+
+有人从小就以游戏业界为目标，<br>
+
+也有人曾经怀抱着完全不同的梦想。
+
+如果把公司笼统地看成一个整体，可能会觉得聚集在这里的都是相似的人。<br>
+
+我加入公司之前也是这么想的。<br>
+
+不过，真正接触之后，我觉得公司确实是由形形色色的人组成的。
+
+这次，我们通过问卷<br>
+
+稍微向大家展示了一些构成 GAME FREAK 的元素。<br>
+
+有趣的问卷还有很多，<br>
+
+以后有机会的话，再来给大家介绍！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 梅雨の季節、みなさんお元気ですか？<br>
 
 ナギーです。

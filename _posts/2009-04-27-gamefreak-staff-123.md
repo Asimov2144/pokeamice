@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ゲームフリーク20周年式典！
+title: 【工作日志】2009年GAME FREAK创立20周年
 date: '2009-04-27'
 permalink: /gamefreak-staff/entry-123/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 123
-gf_entry_title: ゲームフリーク20周年式典！
+gf_entry_title: 【工作日志】2009年GAME FREAK创立20周年
 gf_original_title: ゲームフリーク20周年式典！
-gf_translation_title: ''
-translation_available: false
-summary: 突然ですが、皆さんは何歳ですか？ 10代の方も、20代の方も、 もしかすると、60代の方も見ていらっしゃるかもしれません。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年GAME FREAK创立20周年
+translation_available: true
+summary: 记录GAME FREAK创立20周年庆典：员工共创活动，并从这场面向未来的纪念日展望公司继续创作的道路。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ゲームフリーク20周年式典！
@@ -47,7 +47,101 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+突然想问问，大家都多大了？<br>
+
+不管是十几岁的朋友，还是二十几岁的朋友，<br>
+
+说不定也有六十几岁的朋友正在看这篇文章。
+
+我叫纳吉，今年26岁，入职第三年。大家好。
+
+2009年4月20日，GAME FREAK纪念庆典举行了。<br>
+
+要问是什么纪念庆典的话……
+
+没错，是GAME FREAK创立20周年纪念庆典！
+
+读者当中，应该也有人会说：“GAME FREAK的年纪比我还大！”<br>
+
+对我来说，GAME FREAK是在我上幼儿园的时候诞生的。<br>
+
+这么一想，真是让人有种不可思议的感觉。
+
+那么，GAME FREAK创立20周年纪念庆典分为<br>
+
+第一部和第二部举行。
+
+第一部的内容，是着眼于GAME FREAK今后的未来。<br>
+
+部长进行了发表，公布了GAME FREAK今后将<br>
+
+进一步发展成为富有创造力的公司等内容。
+
+第二部是自助餐会。<br>
+
+不过，并不是普通的自助餐会。<br>
+
+GAME FREAK的各个委员会都设计了别出心裁的演出，<br>
+
+可以说，这是一个由全体GAME FREAK员工共同打造的活动。
+
+首先是交流闲谈。<br>
+
+随着干杯的信号响起，<br>
+
+大家庆祝20周年，聊天、喝酒，吃了个痛快！
+
+接着，会场突然暗了下来，活动委员会入场。<br>
+
+游戏大会开始了！<br>
+
+游戏大会上，大家玩的是一种叫作卡片交换游戏的、<br>
+
+由活动委员会特别制作的原创游戏。
+
+之后的颁奖仪式也是有人欢喜有人忧。<br>
+
+除了豪华奖品之外，还混进了一些让人忍不住怀疑“这也算奖品吗？”的东西。
+
+创立20周年庆典的最后，<br>
+
+在田尻社长的闭幕致辞和三本締め中圆满落幕。
+
+我很感动，因为这场庆祝20周年的庆典，<br>
+
+思考的是公司的未来。<br>
+
+通常，庆祝成立多少周年的聚会，<br>
+
+不是大多都会把焦点放在过去吗？<br>
+
+在这样一个具有纪念意义的日子里思考未来，<br>
+
+我觉得这对于一家不断创作作品的公司来说，是一件很重要的事。
+
+GAME FREAK迎来了创立20周年。
+
+而20年的历史，并不只是一路延续下来而已，<br>
+
+它也是让公司得以存在、创作作品并推动公司运转的员工，<br>
+
+以及最重要的、喜爱着这些作品的大家，<br>
+
+所有这一切汇聚而成的结晶吧，我想。
+
+不过，放眼未来，20周年也只是继续前进路上的一个里程碑。<br>
+
+为了继续创作作品，25年、30年，还有，<br>
+
+今后也会继续向着更加遥远的未来不断奔跑。
+
+今后也请大家多多关照GAME FREAK。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 突然ですが、皆さんは何歳ですか？<br>
 
 10代の方も、20代の方も、<br>

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 見つめる鍋は煮えない
+title: 【工作日志】2012年尝试改变工作方式
 date: '2012-02-24'
 permalink: /gamefreak-staff/entry-241/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 241
-gf_entry_title: 見つめる鍋は煮えない
+gf_entry_title: 【工作日志】2012年尝试改变工作方式
 gf_original_title: 見つめる鍋は煮えない
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、プランナーのいわしです。 前回スタッフボイスに登場したのが2010年4月30日なので、 大変ご無沙汰しております。
-translation_status: missing
+gf_translation_title: 【工作日志】2012年尝试改变工作方式
+translation_available: true
+summary: 策划岩石分享一句英语谚语，并记录自己尝试切换工作内容后，对效率与工作方式的新发现。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 見つめる鍋は煮えない
@@ -47,7 +47,91 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是策划岩石。<br>
+
+上次出现在 Staff Voice 还是 2010 年 4 月 30 日，<br>
+
+真是许久不见了。
+
+突然问一句，大家听说过本篇的标题吗？<br>
+
+其实，这是英语圈的一句谚语。<br>
+
+“守着看的锅永远煮不开（A watched pan never boils）”——也就是说，<br>
+
+“就算一直守在锅前，频繁确认锅有没有煮开，<br>
+
+锅也还是迟迟煮不开”，引申之后，<br>
+
+也可以理解为“盲目埋头于眼前的单一目标，<br>
+
+却迟迟得不到成果”等等。
+
+先不论这句话是否绝对正确，我第一次听到时，<br>
+
+却觉得自己身上还真有不少对应的地方。
+
+我一直都意识到，如果总是在做同一件事，速度和质量就会逐渐下降。<br>
+
+比如在构思点子的时候，刚开始还能一个接一个地冒出想法，<br>
+
+可一直思考下去，渐渐就再也想不出什么了……这种情况<br>
+
+算是比较单纯的例子；还有一种情况是，在不断完善企划的过程中，<br>
+
+即使一直思考各种问题的解决办法，也迟迟看不到突破口，<br>
+
+类似这样的情形。<br>
+
+遇到这种时候，我虽然会一边想着“可恶——”，却也常常逃去做其他完全无关的工作。<br>
+
+不过，做完其他工作之后，<br>
+
+再回过头重新确认那个企划的问题所在，<br>
+
+有时意外地就能一下子想到解决办法。
+
+当然，也有人会觉得，只要能集中注意力，就应该一直集中下去，才能做出“好东西”。<br>
+
+我并不讨厌一直做同一件事，但之前从没认真意识到，<br>
+
+那对自己来说究竟是不是最高效的方式。<br>
+
+不过，自从知道这句谚语之后，<br>
+
+我开始思考“要不要试着改变一下工作方式”之类的问题。
+
+于是我试着连续三天采用这样的方法：“先做这项工作一小时，接下来的一小时，<br>
+
+就算前一项工作还没做完，也去做别的工作。”结果并没有出现<br>
+
+效率明显提升到能够亲身感受到的程度！！<br>
+
+……倒也没有（笑）。不过，我觉得“什么都不动手，<br>
+
+只是一直烦恼”的时间确实大幅减少了。<br>
+
+虽然还得再坚持一段时间才能知道效果，但在那之前，<br>
+
+我连“改变工作方式”这种事都从未想过，<br>
+
+所以光是获得了一个新的视角，<br>
+
+我就觉得这次尝试对自己很有帮助。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/241/iwashi-075a7c89.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/241/iwashi-075a7c89.jpg" alt="自分の席を離れて考え事" loading="lazy"></a></figure>
+
+大家应该也都各自建立起了适合自己的工作或学习方式。<br>
+
+不过，偶尔试着用另一种方法去面对，<br>
+
+说不定能找到更适合自己的工作或学习方式，<br>
+
+又或者重新确认自己的方法其实很适合自己。<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、プランナーのいわしです。<br>
 
 前回スタッフボイスに登場したのが2010年4月30日なので、<br>

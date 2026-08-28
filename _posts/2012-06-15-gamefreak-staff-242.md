@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 禁煙のすすめ
+title: 【工作日志】2012年戒烟与平日禁烟
 date: '2012-06-15'
 permalink: /gamefreak-staff/entry-242/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 242
-gf_entry_title: 禁煙のすすめ
+gf_entry_title: 【工作日志】2012年戒烟与平日禁烟
 gf_original_title: 禁煙のすすめ
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、プランナーのヒートです。
-translation_status: missing
+gf_translation_title: 【工作日志】2012年戒烟与平日禁烟
+translation_available: true
+summary: 规划员希特记录两次戒烟失败，并分享以平日禁烟为折中方案后，在经济、健康与社交方面的变化。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 禁煙のすすめ
@@ -47,7 +47,107 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是规划员希特。
+
+说来也突然，我挑战了戒烟。然后，失败了。
+
+说到底，我为什么想戒烟呢？理由有3个。
+
+**1.经济上的理由**<br>
+
+以我大约每月抽10盒的情况来看，每个月要花四五千日元，<br>
+
+也就是说，这笔开销和电费差不多。<br>
+
+另外，前年还因为增税，每盒烟都涨了价，<br>
+
+今后进一步增税的可能性也很高，今后开销恐怕还会变得更大。
+
+**2.健康上的理由**<br>
+
+戒烟治疗能够适用医保的条件之一，<br>
+
+有一个参考标准是“每天平均吸烟支数×吸烟年数≧200”。<br>
+
+我认为，能适用医保就意味着会被正式判断为患病，<br>
+
+照我的情况计算，再过25年，也就是50岁时就会达到这条线。
+
+**3.社会上的理由**<br>
+
+最近总之就是觉得很抬不起头来。
+
+我非常赞成划分吸烟区和禁烟区，但以前还会划分吸烟区和禁烟区的店，<br>
+
+如今突然大量改为全面禁烟，对吸烟者来说实在是越来越严峻了。
+
+因为以上这些理由，我开始了戒烟……<br>
+
+结果坚持了9天就停下来了。
+
+之后我也没有放弃，又试着戒烟……<br>
+
+这次坚持了6天就停下来了。
+
+失败的理由非常简单。
+
+我没能跨过每周都会到来的“休息日”这堵墙。
+
+作为一名工薪族，至少休息日还是想悠闲地放松一下。<br>
+
+结果不知不觉间，我还是伸手去拿了香烟。
+
+于是。
+
+我回到了最初的目的，试着想了一个折中方案。
+
+说白了就是“平日禁烟”方案。顾名思义，也就是只在工作日禁烟。
+
+至于效果如何……
+
+**1.经济上的理由**<br>
+
+7天里有5天一根烟都不抽，<br>
+
+按本公司标准计算，吸烟支数减少了60%。开销也大幅减少了。
+
+**2.健康上的理由**<br>
+
+虽然还不能太过乐观，但确实比以前改善了。<br>
+
+按照以前的节奏，我本来会在50岁时达到医保适用对象的标准，<br>
+
+但通过平日禁烟，这个时间被推迟到了90岁。
+
+**3.社会上的理由**<br>
+
+因为休息日几乎都待在家里，所以抽烟也主要是在家中，<br>
+
+在意他人目光的机会本身减少了，这也算是一个附带效果。
+
+就像这样，通过“平日禁烟”，这些问题得到了大幅改善。<br>
+
+当然，能够完全戒烟自然是再好不过，<br>
+
+但我想，正因为是折中方案“平日禁烟”，才能坚持下来。
+
+我觉得，把实现目标的门槛设定为100%，追求理想也很重要。<br>
+
+不过，如果门槛高到完全无法前进，那就和什么都没做一样。
+
+这种时候，即使只能完成50%，也可以思考切实可行的方案，<br>
+
+或者设定阶段性的小目标，这些同样很重要。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/242/hiito-c004289f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/242/hiito-c004289f.jpg" alt="ロリポップ" loading="lazy"></a></figure>
+
+最近这段时间，我在休息日待在家里悠闲地抽着烟，也切实感受到了这些道理。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、プランナーのヒートです。
 
 突然ですが、私、禁煙に挑戦しました。そして、失敗しました。

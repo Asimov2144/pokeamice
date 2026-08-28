@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 動物園で発見！
+title: 【工作日志】2009年动物园观察记
 date: '2009-05-08'
 permalink: /gamefreak-staff/entry-125/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 125
-gf_entry_title: 動物園で発見！
+gf_entry_title: 【工作日志】2009年动物园观察记
 gf_original_title: 動物園で発見！
-gf_translation_title: ''
-translation_available: false
-summary: スタッフブログをご覧のみなさま、こんにちは。 グラフィックデザイナーのマシューです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年动物园观察记
+translation_available: true
+summary: 几位平面设计师走进动物园，观察动物与植物，记录图鉴和网络图片无法传达的真实发现。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 動物園で発見！
@@ -47,7 +47,49 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+staff博客的各位读者，大家好。<br>
+
+我是平面设计师马修。
+
+上周，为了通过亲自观察动物，发现许多图鉴和网络图片无法让人感受到的东西，<br>
+
+几位平面设计师一起去了动物园。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/125/ms090508-69b451d4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/125/ms090508-69b451d4.jpg" alt="デッサン中" loading="lazy"></a></figure>
+
+长颈鹿、斑马、大象等等，<br>
+
+这些动物我们虽然都知道，但一旦出现在眼前，还是有许多全新的发现。
+
+比如，我原以为斑马的条纹是黑色的毛，<br>
+
+可观察之后才发现，原来是深棕色的毛。<br>
+
+拿起园内摆放的鹿角时，<br>
+
+发现它比从画或照片中感受到的印象重得多，不禁大吃一惊……<br>
+
+拿起桉树的叶子折断时，<br>
+
+闻到一股非常清爽的香味，让人陶醉……
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/125/ms090508_02-d6273ff0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/125/ms090508_02-d6273ff0.jpg" alt="キリン" loading="lazy"></a></figure>
+
+诸如此类，<br>
+
+亲眼看过、亲手摸过的动物和植物，和在图鉴或网络图片上看到的相比，<br>
+
+给人的印象完全不同，也带来了许多发现。
+
+如果能在今后描绘动物和自然时活用这次的发现就好了——<br>
+
+这是让我获益匪浅的一天！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 スタッフブログをご覧のみなさま、こんにちは。<br>
 
 グラフィックデザイナーのマシューです。

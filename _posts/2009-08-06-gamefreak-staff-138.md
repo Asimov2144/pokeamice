@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 時間の価値
+title: 【工作日志】2009年员工转正后的时间价值
 date: '2009-08-06'
 permalink: /gamefreak-staff/entry-138/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 138
-gf_entry_title: 時間の価値
+gf_entry_title: 【工作日志】2009年员工转正后的时间价值
 gf_original_title: 時間の価値
-gf_translation_title: ''
-translation_available: false
-summary: プランナーのほずです。 研修期間3ヶ月を経て、ついに・・・
-translation_status: missing
+gf_translation_title: 【工作日志】2009年员工转正后的时间价值
+translation_available: true
+summary: 新员工完成三个月培训后转为正式员工，分享如何把握工作的目标、节省沟通时间，并追赶前辈的工作节奏。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 時間の価値
@@ -47,7 +47,89 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+我是策划人员ほず。<br>
+
+经过3个月的培训，终于……
+
+成为正式员工了！！<br>
+
+从入职前就一直憧憬的[名片](http://www.gamefreak.co.jp/blog/staff/?p=24)，<br>
+
+终于拿到手了！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/138/hozu090807-393be544.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/138/hozu090807-393be544.jpg" alt="ポッポ名刺" loading="lazy"></a></figure>
+
+是波波。<br>
+
+看起来很强吧，嘿嘿。
+
+升成波波后，转眼已经一个月了。<br>
+
+成为正式员工后，我有时会觉得，这和培训期间不太一样。
+
+那就是时间轴的不同。
+
+培训期间，主要是按照只属于自己的时间轴度过的。<br>
+
+如果自己失败了，结果会由自己承担，<br>
+
+但无论如何，着急的也只有自己！<br>
+
+（当然，这样也很辛苦就是了，笑）
+
+可是，成为正式员工之后，<br>
+
+我是在和很多人共用的时间轴中度过每一天。<br>
+
+如果自己失败了，就可能会压缩周围人的日程，<br>
+
+反过来，如果自己进展顺利，周围的人也能更顺畅地工作。
+
+最近的我，为了节省时间，私下里一直在注意一件事，<br>
+
+那就是看准工作的“目标”！
+
+交到手上的工作，一定都有它的“目标”。
+
+这项工作是以什么为目的？<br>
+
+希望玩家做出怎样的反应？<br>
+
+要实现它会遇到什么问题？<br>
+
+又该怎样解决这些问题？
+
+对许多“？”层层追问后做出来的东西，会产生说服力，也更容易得到认可。
+
+自己能得到认可会很开心，<br>
+
+而且因为讨论的时间和次数减少了，也能节省周围人的时间，<br>
+
+正是一石二鸟！耶！
+
+……话虽如此，<br>
+
+我还没厉害到能一次就得到认可就是了（笑）
+
+即便如此，当别人对我构思的企划说“哦，不错嘛？”<br>
+
+那一刻的喜悦真是！哎呀！<br>
+
+实在让人无法抗拒！
+
+现在我做每一项工作还都要花不少时间，<br>
+
+但我想再加快、再加快速度，<br>
+
+努力跟上前辈们的工作节奏吧——。
+
+我是ほず！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 プランナーのほずです。<br>
 
 研修期間3ヶ月を経て、ついに・・・

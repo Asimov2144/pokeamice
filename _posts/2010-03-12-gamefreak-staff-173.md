@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+title: 【工作日志】2010年求职：把喜欢变成工作
 date: '2010-03-12'
 permalink: /gamefreak-staff/entry-173/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 173
-gf_entry_title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+gf_entry_title: 【工作日志】2010年求职：把喜欢变成工作
 gf_original_title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして！ プログラマーのペンギンです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年求职：把喜欢变成工作
+translation_available: true
+summary: 程序员企鹅回顾求职时期制作的游戏与攻略本，分享自己坚持应聘游戏公司的理由，以及把喜爱化为工作的想法。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · わたしたちの就職活動2 「“好き”を仕事にしますか？」
@@ -47,7 +47,93 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面！<br>
+
+我是程序员企鹅。
+
+前些天打扫房间时，<br>
+
+发现了好多求职时期的东西。
+
+列出来看看，<br>
+
+・自我宣传文
+<br>
+・贴在简历上的照片
+<br>
+・自己制作的游戏×3
+<br>
+・那些游戏的攻略本
+<br>
+・装有游戏程序的光盘
+
+等等等等。
+
+自己制作的游戏姑且不论，<br>
+
+我甚至还自己做了那些游戏的攻略本。<br>
+
+没想到这些东西居然还在手边……真是一次令人震惊的重逢。
+<br>
+战战兢兢地翻开页面一看，实在是太丢人了！<br>
+
+尤其是那篇自我宣传文，我已经连读都不想读了……
+
+说到求职，一般就是笔试和面试，<br>
+
+不过对程序员来说，有很多公司会要求提交作品。<br>
+
+当然，每家公司对应聘作品的规定都不一样，<br>
+
+但我想大多数公司都会说：<br>
+
+“只要是程序，内容不一定非得是游戏。”<br>
+
+至于我，则是把上面列出的整套东西和简历一起寄去应聘了。
+
+世上除了游戏之外，也有很多程序员的工作，<br>
+
+但我当时强烈地想着：“总之，我就是想在游戏公司工作！”<br>
+
+所以求职时，我始终坚定地只选择游戏公司。<br>
+
+因为我那时想着：“我想把喜欢的事情变成工作。”
+
+我喜欢游戏。<br>
+
+我喜欢编程。<br>
+
+也就是说，<br>
+
+游戏＋编程＝游戏程序员。
+<br>
+很简单吧。
+<br>
+确实非常简单，但我觉得，单纯地喜欢一件事，是非常强大的力量。<br>
+
+实际上，我也是只凭这份心情撑过求职期的！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/173/penguin_100312-4e54af2e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/173/penguin_100312-4e54af2e.jpg" alt="プログラマーですが重たい荷物も運びます！" loading="lazy"></a></figure>
+
+我想也有人会觉得：“不想把喜欢的事情变成工作。”<br>
+
+我能够理解这种想法，但我不一样。<br>
+
+我会忍不住想着：<br>
+
+“喜欢的事情，就想把它钻研到极致！”<br>
+
+或者：<br>
+
+“在喜欢的事情上，我不想输给任何人！”
+
+大家属于哪一派呢？
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして！<br>
 
 プログラマーのペンギンです。

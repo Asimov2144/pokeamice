@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 体、鍛えてます！
+title: 【工作日志】2009：锻炼身体迎接夏天
 date: '2009-05-22'
 permalink: /gamefreak-staff/entry-127/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 127
-gf_entry_title: 体、鍛えてます！
+gf_entry_title: 【工作日志】2009：锻炼身体迎接夏天
 gf_original_title: 体、鍛えてます！
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして！グラフィックデザイナーのカンタロウです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009：锻炼身体迎接夏天
+translation_available: true
+summary: 一位平面设计师分享每日健身、运动经历，以及体能如何帮助游戏开发收尾。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 体、鍛えてます！
@@ -47,7 +47,83 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面！我是平面设计师坎太郎。
+
+这次就当作是自我介绍，<br>
+
+我这个运动狂想和大家聊聊运动的魅力。
+
+我每天早上都会在开始工作前，去健身房挥洒大约一小时的汗水。
+
+训练项目基本是固定的，<br>
+
+先做拉伸，之后在跑步机上跑5～6公里，<br>
+
+再进行肌肉训练，最后结束，整个流程就是这样。<br>
+
+顺便说一句，肌肉训练主要集中在背肌、腹肌和腹外斜肌，<br>
+
+是为了不让肚子凸出来的训练！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/127/kan090522-071213a0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/127/kan090522-071213a0.jpg" alt="ジム用シューズ" loading="lazy"></a></figure><br>
+
+这是健身房用的鞋子。
+
+为什么我要把自己逼到这种程度，<br>
+
+每天早上去健身房呢……
+
+说到底！！是因为想受女孩子欢迎（骗你的）<br>
+
+不过，也不算完全是假的（笑）
+
+其实真正的原因是，如果不活动身体，<br>
+
+我就会积累压力，难受得不得了，因为我是个运动狂。
+
+初中时参加的是篮球部，高中时参加的是田径部，<br>
+
+对美术部之类的文艺社团完全不屑一顾，<br>
+
+只是一个劲儿地挑战自己肉体的极限。
+
+也正因为这样，我在高中时成功练就了<br>
+
+能把50米跑进5秒多的腿部力量，<br>
+
+可最后却因为练得太过头，导致脚背疲劳性骨折，<br>
+
+落得了一个遗憾的结果……
+
+作为这样一个运动狂，我能说的就是，运动实在太棒了。
+
+运动能带来的好处数不胜数，<br>
+
+比如保持健康、提高新陈代谢！释放压力、提高专注力！等等，<br>
+
+有各种各样的效果，而这些效果在工作中也同样能发挥作用。
+
+游戏开发进入尾声后，就会变成一场体力战。<br>
+
+这时候，平日训练培养出的精神力和体力就会开花结果！！
+
+不过这样说可能不太好理解，<br>
+
+具体来说，我实际拥有的底力是，可以三天三夜不睡觉地持续画画。
+
+这到底算不算厉害，我也不知道，但对曾经多次靠这股底力<br>
+
+化险为夷的我来说，这应该是一项值得自豪的能力。
+
+我的目标是，在夏天到来之前练出结实分明的腹肌，<br>
+
+然后尽情享受夏天！大海！群山！！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして！グラフィックデザイナーのカンタロウです。
 
 今回は私の自己紹介ということで<br>

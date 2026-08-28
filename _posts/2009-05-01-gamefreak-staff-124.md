@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: プログラマーの新人研修
+title: 【工作日志】2009年程序员新人培训
 date: '2009-05-01'
 permalink: /gamefreak-staff/entry-124/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 124
-gf_entry_title: プログラマーの新人研修
+gf_entry_title: 【工作日志】2009年程序员新人培训
 gf_original_title: プログラマーの新人研修
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは。 ゲームフリークプログラマーの玉田です。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年程序员新人培训
+translation_available: true
+summary: 玉田介绍程序员新人培训，从低级到高级的游戏编程理念，到 DS 画面显示实践与开发环境适应。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · プログラマーの新人研修
@@ -47,7 +47,95 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好。<br>
+
+我是 GAME FREAK 的程序员玉田。
+
+除了游戏程序之外，我还负责网络、招聘等各种工作，<br>
+
+今年还负责程序员新人的培训。<br>
+
+今天想稍微介绍一下这次新人培训的内容。
+
+我当年还是新人的时候，培训是从用通信软件连接服务器，<br>
+
+然后编写汇编语言的乘法程序开始的。<br>
+
+那时候我还年轻啊……先不说这些自我感慨了。
+
+在讲今年让新人完成的培训课题之前，<br>
+
+先跟大家说说今年我设计培训课题时特别留意的事情吧。<br>
+
+那就是：“做游戏时，需要编写从低级到高级的程序。”<br>
+
+这里说的低级，可不是简单的意思哦！
+
+具体来说，贴近硬件的部分叫作低级，<br>
+
+相反，只由软件构成的抽象部分（比如 AI），<br>
+
+则称为高级。<br>
+
+也就是说，“做游戏时，需要编写从低级到高级的程序”这句话的意思是，<br>
+
+游戏程序员从贴近硬件的部分，到经过软件抽象的部分，<br>
+
+都需要根据不同场景掌握各种各样的知识。
+
+在制作游戏的过程中，程序员有各种各样的工作。<br>
+
+既有制作实际可见的界面的工作，<br>
+
+也有制作供其他程序员使用的内部系统。<br>
+
+有时还要负责制作其他岗位的员工使用的工具。
+
+想到希望新人能成为可以胜任这些各种工作的程序员……<br>
+
+游戏机也是计算机，那么，操作计算机究竟是怎么回事？<br>
+
+低级和高级究竟是怎么回事？能够带着这样的认识来制作程序，<br>
+
+我觉得是非常重要的。
+
+好了，终于要说到现在程序员新人培训的内容了。<br>
+
+在熟悉 GAME FREAK 内部的开发环境这一阶段结束后——网络、各种工具（比如命令行、subversion 之类的，<br>
+
+以后有机会再向大家介绍吧）——<br>
+
+新人们现在正一边查看、编写实际的示例程序，一边学习各种东西。
+
+这次培训让他们完成的课题，是在 DS 上尝试各种画面显示效果。<br>
+
+画面显示是动手操作起来很有趣的部分，<br>
+
+而且，控制 DS 的画面也意味着要操作
+
+非常贴近硬件的部分。<br>
+
+网上有各种方便的工具，<br>
+
+即使是在 Windows 上编程、已经体验过高级部分的
+
+程序，也很少有机会接触贴近硬件的低级
+
+部分，所以我希望他们能趁这个机会多多体验、吸收。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/124/tamada090501-47ca5e79.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/124/tamada090501-47ca5e79.jpg" alt="指導中" loading="lazy"></a></figure>
+
+新人入社大约一个月了，<br>
+
+每天都被新人的吸收能力和记忆力之强震撼，<br>
+
+也让自己重新振作起来，想着“我也必须不断磨炼才行！”是的。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは。<br>
 
 ゲームフリークプログラマーの玉田です。

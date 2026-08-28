@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 週末の習い事
+title: 【工作日志】周末的绘画修行
 date: '2009-06-12'
 permalink: /gamefreak-staff/entry-130/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 130
-gf_entry_title: 週末の習い事
+gf_entry_title: 【工作日志】周末的绘画修行
 gf_original_title: 週末の習い事
-gf_translation_title: ''
-translation_available: false
-summary: お久しぶりです！グラフィックデザイナーのジョニーです。 今回は私の週末の習いごとについてお話させて頂きます。
-translation_status: missing
+gf_translation_title: 【工作日志】周末的绘画修行
+translation_available: true
+summary: 平面设计师约翰尼分享周末参加绘画教室的日常，以及素描与人体速写如何磨炼设计与绘画能力。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 週末の習い事
@@ -47,7 +47,59 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+好久不见！我是平面设计师约翰尼。<br>
+
+这次想和大家聊聊我周末学习绘画的事。
+
+我为了提升自己作为平面设计师的技能，<br>
+
+也为了增强作为画画人的实力，周末会去绘画教室学习。
+
+这是在我学生时代的恩师工作室里进行的基础学习会，白天画素描，<br>
+
+晚上则练习人体速写。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/130/jhony090612-d2953d82.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/130/jhony090612-d2953d82.jpg" alt="素描本" loading="lazy"></a></figure>
+
+素描是仔细观察静物，再一点点描绘深入的训练。<br>
+
+素描能力提高之后，也会对点阵和3D工作产生影响。<br>
+
+速写则是在短时间内捕捉人体的结构与动作，并将其画出来的训练。<br>
+
+我开始喜欢上画出舒展而富有动感的作品了。
+
+画完之后会举行讲评会，<br>
+
+可以听到一起画画的其他行业人士的意见和行业话题，<br>
+
+这些都成了帮助我拓宽视野的养分。
+
+……这样写下来，感觉自己好像正在稳步进步，<br>
+
+但其实我总是没法随心所欲地画出来，大多数时候都在和画画奋战。
+
+每次都要拼命应对眼前的课题，好不容易完成，<br>
+
+如此反复之后，实力才会一点点成长起来。想要变好还真不是件容易的事呢。<br>
+
+而且哪怕只休息一周，也会一下子退步好几周的份量，所以丝毫不能大意。
+
+正是在这样一边烦恼、一边面对课题并脚踏实地坚持下去的努力中，<br>
+
+才能逐渐培养出扎实的底子吧，我想。
+
+虽然我不会忘记“想更快变厉害！”的心情，<br>
+
+但还是想稳稳地掌握能够运用到工作中的绘画能力，<br>
+
+不断提升自己作为平面设计师的本领！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 お久しぶりです！グラフィックデザイナーのジョニーです。<br>
 
 今回は私の週末の習いごとについてお話させて頂きます。

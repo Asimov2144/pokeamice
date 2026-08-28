@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 2011年度新卒採用開始しました！
+title: 【工作日志】GAME FREAK开启校招
 date: '2009-10-01'
 permalink: /gamefreak-staff/entry-146/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 146
-gf_entry_title: 2011年度新卒採用開始しました！
+gf_entry_title: 【工作日志】GAME FREAK开启校招
 gf_original_title: 2011年度新卒採用開始しました！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは。採用担当のさとうです。 今日から10月！朝晩の涼しさで本格的な秋を感じますね?。
-translation_status: missing
+gf_translation_title: 【工作日志】GAME FREAK开启校招
+translation_available: true
+summary: GAME FREAK启动2011年度应届毕业生招聘，面向程序员、策划和美术设计师，欢迎愿意挑战新鲜有趣事物的同学报名。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 2011年度新卒採用開始しました！
@@ -47,7 +47,43 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好。我是负责招聘的佐藤。<br>
+
+今天开始就是10月了！早晚的凉意，让人切实感受到秋天到来了呢。<br>
+
+说到10月，也是各位学生开始正式行动起来求职的时期呢。<br>
+
+想必很多人也差不多要开始准备了吧。<br>
+
+GAME FREAK也从今天开始进行2011年度应届毕业生招聘！<br>
+
+首先，为了让大家了解“这到底是一家什么样的公司？”，<br>
+
+请先来报名吧。<br>
+
+※报名请通过[招聘网站2011](http://job.rikunabi.com/2011/company/top/r189900076/)进行。
+
+招聘职位如下，共有3种。<br>
+
+・[程序员](http://www.gamefreak.co.jp/recruit/pro_about.html)<br>
+
+・[策划](http://www.gamefreak.co.jp/recruit/plan_about.html)<br>
+
+・[美术设计师](http://www.gamefreak.co.jp/recruit/design_about.html)
+
+GAME FREAK期待愿意挑战新鲜事物、<br>
+
+挑战有趣事物的人加入！<br>
+
+这里一定有和学生时代截然不同、令人兴奋的体验。
+
+期待你的报名。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは。採用担当のさとうです。<br>
 
 今日から10月！朝晩の涼しさで本格的な秋を感じますね?。

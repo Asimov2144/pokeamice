@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 社内ポケモンバトル大会 その後
+title: 【工作日志】2011年公司宝可梦对战大会后续
 date: '2011-02-18'
 permalink: /gamefreak-staff/entry-219/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 219
-gf_entry_title: 社内ポケモンバトル大会 その後
+gf_entry_title: 【工作日志】2011年公司宝可梦对战大会后续
 gf_original_title: 社内ポケモンバトル大会 その後
-gf_translation_title: ''
-translation_available: false
-summary: みなさん、こんにちは！ほずです。 今回は、 先日、めめたがご紹介した社内ポケモンバトル大会 の その後の様子をお届けしたいと思います！
-translation_status: missing
+gf_translation_title: 【工作日志】2011年公司宝可梦对战大会后续
+translation_available: true
+summary: 公司内部宝可梦对战大会决出冠军，记录预选赛激战、决赛现场与强者之间的深度博弈。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 社内ポケモンバトル大会 その後
@@ -47,7 +47,87 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！我是Hozu。<br>
+
+这次想为大家带来[前些日子由Memeta介绍过的公司内部宝可梦对战大会](http://www.gamefreak.co.jp/blog/staff/?p=217)的<br>
+
+后续情况！
+
+为了争夺决赛淘汰赛的晋级名额，两个预选联赛中<br>
+
+进行了许多场比赛，<br>
+
+但无论是黑色联盟还是白色联盟，都　激　战　连　连　！！！！<br>
+
+有的员工凭借自己精心挑选的宝可梦奋勇作战，<br>
+
+有的员工用经过周密计算的组合技把对手一个接一个地打倒，<br>
+
+还有新员工接连击败老资格员工，掀起一阵阵波澜……
+
+激烈混战持续了好一阵，<br>
+
+最终，6名决赛晋级者终于确定了！
+
+决赛淘汰赛的会场，是公司内部的开放空间Comet。<br>
+
+DS的画面被投放到电视屏幕上，淘汰赛开始了。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/219/110218_hihozu01-721d4949.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/219/110218_hihozu01-721d4949.jpg" alt="" loading="lazy"></a></figure>
+
+看穿对手的行动，再反过来出其不意……<br>
+
+正当你这么想时，对手却看穿了更深一层……<br>
+
+而对方让你以为他看穿了这一切，其实这也在我方的计划之中！？
+
+每一步都伴随着深不见底的心理博弈，分量十足。
+
+“哦——原来还能这么用啊。”<br>
+
+“哇，居然把对手的反向思路也看穿了！！”<br>
+
+“原来如此，那个道具还可以这样用啊……”
+
+许多员工都看强者对战看得入了迷，<br>
+
+不知不觉间，Comet里竟然聚起了这么多人！！<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/219/110218_hihozu02-e243b5bb.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/219/110218_hihozu02-e243b5bb.jpg" alt="" loading="lazy"></a></figure>
+
+……然后终于！<br>
+
+经过漫长而激烈的战斗，公司内部宝可梦对战大会的优胜者终于决出了！<br>
+
+对宝可梦了如指掌，<br>
+
+凭借出色的战术、努力与运气，漂亮地夺得第一名的是……
+
+对战组组长，森本！！！<br>
+
+作为盖姆弗里克最强者的证明，他获得了奖杯和豪华奖品。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/219/110218_hihozu03-5b485e90.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/219/110218_hihozu03-5b485e90.jpg" alt="" loading="lazy"></a></figure>
+
+宝可梦对战是任何人都能开始尝试的简单玩法，<br>
+
+同时也是越了解就越能发现其深度的玩法。<br>
+
+无论是第一次接触的朋友，还是已经玩过的朋友，都请务必挑战一下宝可梦对战。<br>
+
+你一定能体会到与独自游玩时截然不同的乐趣！<br>
+
+另外，如果你对自己的对战实力有信心，不妨参加[WCS2011](http://www.pokemon.co.jp/wcs/2011/)<br>
+
+怎么样？
+
+以上就是公司内部宝可梦对战大会的现场情况！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 みなさん、こんにちは！ほずです。<br>
 
 今回は、[先日、めめたがご紹介した社内ポケモンバトル大会](http://www.gamefreak.co.jp/blog/staff/?p=217)の<br>

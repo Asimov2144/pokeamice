@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: みんなで行こう！工場見学
+title: 【工作日志】2009年公司工厂参观
 date: '2009-09-18'
 permalink: /gamefreak-staff/entry-144/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 144
-gf_entry_title: みんなで行こう！工場見学
+gf_entry_title: 【工作日志】2009年公司工厂参观
 gf_original_title: みんなで行こう！工場見学
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！ ご無沙汰してます。 プランナーのいわしです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年公司工厂参观
+translation_available: true
+summary: 记录 GAME FREAK 员工包车参观啤酒工厂、了解制作工艺并享用烧烤的一天，也写下对专业精神的感想。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · みんなで行こう！工場見学
@@ -47,7 +47,111 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！<br>
+
+好久不见。<br>
+
+我是策划员いわし。
+
+之前在[斯蒂克](http://www.gamefreak.co.jp/blog/staff/?p=92)和[约翰尼](http://www.gamefreak.co.jp/blog/staff/?p=39)的日记里也提到过，<br>
+
+GAME FREAK 有一个叫“活动委员会”的组织，<br>
+
+由负责统筹公司内部活动的员工组成。
+
+虽然写得像是在说别人的事，但今年我担任了活动委员会的<br>
+
+委员长，正和其他员工一起策划活动。
+
+活动委员会每年都会在这个时候左右举办活动，<br>
+
+继前年去溪流垂钓和烧烤、去年采摘水果并烧烤之后，<br>
+
+今年举办的是工厂参观和烧烤！
+
+那么，下面就来给大家介绍一下这次参观工厂的情况吧！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_01-452b8363.jpg" alt="バスの中" loading="lazy"></a></figure><br>
+
+这次我们参观的是某家啤酒工厂。<br>
+
+我们包了一辆大巴，走高速公路，路上大约花了两小时。<br>
+
+大家兴奋期待的感觉，有从照片中传达出来吗？
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_02-7be1af14.jpg" alt="自然の中にある工場" loading="lazy"></a></figure><br>
+
+一听到工厂，我就会联想到冒着烟的烟囱和粗犷的建筑群，<br>
+
+但啤酒工厂时髦的建筑和绿意盎然的园区让大家都大吃一惊！<br>
+
+听说他们也在努力应对环境问题，确实，这样的环境本身就很有说服力。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_03-a9f56c01.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure><br>
+
+正前往工厂的 GAME FREAK 员工们。<br>
+
+由于工厂内部禁止拍照，很遗憾没法展示给大家看，<br>
+
+但工厂的工作人员非常详细地为我们讲解了设备以及啤酒的制作方法！<br>
+
+无论是工厂的设备，还是那位工作人员姐姐细致的讲解，都让我们非常感动。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/144/iwashi0918_04-7006cc48.jpg" alt="いよいよ工場見学" loading="lazy"></a></figure><br>
+
+参观工厂之后，又进行了如今已经渐渐成为惯例的烧烤。<br>
+
+因为是不限量吃、喝到饱，我本来暗自想着，会不会有员工喝醉后闹起来，<br>
+
+不过大家毕竟都是成年人，所以都适量吃喝，适度放松着。
+
+回程的大巴上，将近一半的员工都睡着了。<br>
+
+真是尽情享受了学习的秋天和食欲的秋天啊。
+
+我不知怎么的睡不着，便一直望着从大巴上看到的美丽满月。<br>
+
+（浪漫得停不下来呢！）
+
+就我个人而言，啤酒工厂本身当然十分出色，<br>
+
+但和我们一同参观、担任讲解员的那位工作人员姐姐，<br>
+
+她出色的讲解能力也让我感受到了强烈的专业精神，十分佩服。
+
+她在讲解的各个环节都穿插了小知识，<br>
+
+让听着的员工完全不会感到厌倦，还能带着我们在工厂里参观将近一个小时！<br>
+
+我不禁想，她讲这么久嗓子不会哑吗，<br>
+
+又是怎么做到如此流畅地推进讲解的呢，<br>
+
+于是便向她请教了一下，果然，她平时下了相当多的功夫练习。
+
+如果没有练习，就会变成像我在活动中那样，<br>
+
+即使看着提示卡，也没法好好完成主持和流程推进。
+
+果然，平日里的努力会与质量挂钩呢！<br>
+
+我也会继续努力的！
+
+正想着这些事情时，大巴也平安抵达了解散地点。<br>
+
+这次活动同样无事故、无违章！<br>
+
+参加活动的员工似乎也都玩得很开心，<br>
+
+我总算放下心来。
+
+太好了，太好了。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！<br>
 
 ご無沙汰してます。<br>

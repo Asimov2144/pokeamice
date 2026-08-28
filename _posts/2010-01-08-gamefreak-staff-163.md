@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: わたしのふゆやすみ
+title: 【工作日志】2010年冬假与网站新负责人
 date: '2010-01-08'
 permalink: /gamefreak-staff/entry-163/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 163
-gf_entry_title: わたしのふゆやすみ
+gf_entry_title: 【工作日志】2010年冬假与网站新负责人
 gf_original_title: わたしのふゆやすみ
-gf_translation_title: ''
-translation_available: false
-summary: 遅ればせながら、あけましておめでとうございます。 本年もゲームフリークをどうぞ宜しくお願いいたします。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年冬假与网站新负责人
+translation_available: true
+summary: 新任网站负责人分享卧床游玩宝可梦银魂的冬假日常，并介绍员工冬假与新年贺图像素大赛。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · わたしのふゆやすみ
@@ -47,7 +47,61 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+迟来的新年好。<br>
+
+今年也请大家多多关照 GAME FREAK。
+
+还有，初次见面！我叫妮罗莉卡，是新任网站负责人。<br>
+
+今后也请大家多多关照。<br>
+
+我于去年12月加入 GAME FREAK，这次将从[蟹子](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)手里<br>
+
+接任网站负责人。<br>
+
+我打算努力把 GAME FREAK 的网站办得热闹起来，<br>
+
+不输给蟹子，所以还请大家期待！<br>
+
+（不过，蟹子小姐，偶尔也请来“Staff Voice”露个面呀！）
+
+说起来，GAME FREAK 一直到本周一都在放“冬假”，<br>
+
+大家是怎么度过的呢？<br>
+
+我从1月1日起身体就不舒服，几乎一直卧床不起……。<br>
+
+原本期待着和朋友见面、出门游玩，结果所有安排都取消了。<br>
+
+我就一直窝在被窝里玩《宝可梦 银魂》，<br>
+
+这样度过了四天。<br>
+
+去玉虹大厦3楼试着“假日上班”，又一个劲儿地和跟随宝可梦的<br>
+
+“京子”（阿柏蛇）说话，完全没有感到无聊，<br>
+
+我觉得自己还是过了一个相当充实的休闲假期！大概吧……。
+
+我也打算陆续向大家介绍 GAME FREAK 员工们的“冬假”，<br>
+
+敬请期待♪
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/163/nyoro100108_01-cdcaaa60.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/163/nyoro100108_01-cdcaaa60.jpg" alt="もち" loading="lazy"></a></figure><br>
+
+不知为何滚在公司里的年糕……
+
+另外，目前正在举办“新年贺图像素大赛”！<br>
+
+请大家踊跃投稿。我们等着大家☆<br>
+
+　[→投稿说明请见这里](http://www.gamefreak.co.jp/information/news_100101.php)
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 遅ればせながら、あけましておめでとうございます。<br>
 
 本年もゲームフリークをどうぞ宜しくお願いいたします。

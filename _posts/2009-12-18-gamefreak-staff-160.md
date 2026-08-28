@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ＨＧ・ＳＳ 語っちゃいます！ その８
+title: 【工作日志】2009年宝可梦开发幕后
 date: '2009-12-18'
 permalink: /gamefreak-staff/entry-160/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 160
-gf_entry_title: ＨＧ・ＳＳ 語っちゃいます！ その８
+gf_entry_title: 【工作日志】2009年宝可梦开发幕后
 gf_original_title: ＨＧ・ＳＳ 語っちゃいます！ その８
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして！ 『ポケットモンスター ハートゴールド・ソウルシルバー』（以下ＨＧ・ＳＳ）で プランニングリーダーを務めました松島です。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年宝可梦开发幕后
+translation_available: true
+summary: 策划负责人松岛回顾心金魂银的剧情重构，分享同行宝可梦的特殊反应，并为开发连载画下句点。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その８
@@ -47,7 +47,129 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面！<br>
+
+《宝可梦 心金・魂银》（以下简称ＨＧ・ＳＳ）中，<br>
+
+我担任的是策划负责人，我叫松岛。
+
+策划负责人的主要工作，是按照森本导演的意向，<br>
+
+整理并汇总要加入游戏的企划和规格，<br>
+
+虽然可以说我参与了ＨＧ・ＳＳ整体各项要素的制作，<br>
+
+但这次，我想和大家聊聊自己尤其深入参与的故事部分。
+
+ＨＧ・ＳＳ是《宝可梦 金・银》的重制版，<br>
+
+所以只要把《金・银》的故事移植过来就大功告成！<br>
+
+……事情可没有这么简单。
+
+从《金・银》到ＨＧ・ＳＳ，已经过去了10年，<br>
+
+而在这10年间，宝可梦的游戏机制也不断进化。
+
+比如，可以选择主角性别这一机制，<br>
+
+是从《宝可梦 水晶版》开始的；<br>
+
+而没有被选为主角的另一位主角，<br>
+
+开始担任辅助角色、引导玩家，则是从《宝可梦 红宝石・蓝宝石》开始的。
+
+宝可梦加入“特性”和“性格”，也是在《红宝石・蓝宝石》时期。
+
+《钻石・珍珠》加入的机制中，<br>
+
+还有宝可梦中心地下的“Ｗｉ竏窒eｉ俱乐部”。
+
+角色扮演游戏的剧情，可以说前期就是决胜关键。<br>
+
+为了让玩家顺畅地进入游戏世界，<br>
+
+　这是一个怎样的世界观<br>
+
+　应该前往哪里<br>
+
+　这里遵循怎样的规则<br>
+
+　有哪些乐趣<br>
+
+等等，都必须借由围绕在主角身边的角色之口，<br>
+
+按顺序传达给玩家。
+
+我们以《金・银》中构建好的故事流程为基础，<br>
+
+加入了《金・银》之后系列作品中开始采用的机制信息，<br>
+
+同时还要讲到ＨＧ・ＳＳ的新要素，比如同行宝可梦和宝可梦竞技场，<br>
+
+此外，10年前曾是剧情亮点的“首次发现宝可梦的蛋”，又该如何处理……<br>
+
+我们就这样面对着许许多多的课题。
+
+以负责制作剧情的工作人员为中心，我们和森本导演反复开会，<br>
+
+搭建起故事前期的流程后又推倒重来，试着调换顺序后又改回去，<br>
+
+设定好角色的职责后再重新审视……<br>
+
+就这样不断摸索，逐一解决了许多课题。
+
+正因为付出了这些努力，我想，<br>
+
+不只是从ＨＧ・ＳＳ开始游玩的玩家，<br>
+
+对于曾经玩过《金・银》的各位来说，<br>
+
+这部作品也应该做到了让大家享受其中与《金・银》的不同之处吧！
+
+那么，说点只在这里告诉大家的事情，<br>
+
+大家有没有试过和正在同行的宝可梦们搭话呢？<br>
+
+它们有时会帮你捡来一些有用的东西，<br>
+
+而且根据搭话地点的不同，<br>
+
+有些宝可梦还会做出和平时稍有不同的反应。
+
+比如，在下雨的地方和小锯鳄搭话，它会显得很开心，<br>
+
+而怕水的火球鼠则会露出一副嫌弃的表情。<br>
+
+在呆呆兽之井和呆呆兽搭话的话……诸如此类。<br>
+
+还有许多“只有这种宝可梦才会有！”的反应藏在游戏里，<br>
+
+请大家一定亲自确认看看！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/160/matsushima091218-f0bf25c7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/160/matsushima091218-f0bf25c7.jpg" alt="ポケットモンスター ハートゴールド・ソウルシルバー" loading="lazy"></a></figure>
+
+以上就是策划负责人松岛的分享。
+
+最后……《ＨＧ・ＳＳ　聊聊心中的ＨＧ・ＳＳ！》这一连载，到本次就要结束了！
+
+除了本栏目中聊到的话题之外，<br>
+
+ＨＧ・ＳＳ里还凝聚了所有参与开发的工作人员倾注的心意与坚持！<br>
+
+如果大家在享受与宝可梦冒险的同时，能够感受到其中哪怕一丝这样的心意，<br>
+
+对开发者来说，就没有比这更令人开心的事了！<br>
+
+感谢大家一直以来的阅读！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/160/hgss_bn-d8057b57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/160/hgss_bn-d8057b57.jpg" alt="ポケットモンスター ハートゴールド・ソウルシルバー 公式サイト" loading="lazy"></a></figure>
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして！<br>
 
 『ポケットモンスター ハートゴールド・ソウルシルバー』（以下ＨＧ・ＳＳ）で<br>

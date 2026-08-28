@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ゲームフリークの先輩たち
+title: 【工作日志】2009年新人的职场日常
 date: '2009-04-17'
 permalink: /gamefreak-staff/entry-122/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 122
-gf_entry_title: ゲームフリークの先輩たち
+gf_entry_title: 【工作日志】2009年新人的职场日常
 gf_original_title: ゲームフリークの先輩たち
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、新人プランナーのほずです！
-translation_status: missing
+gf_translation_title: 【工作日志】2009年新人的职场日常
+translation_available: true
+summary: 入职两周的新人策划分享培训与前辈相处的日常，也展望着成长后回馈大家、成为独当一面的创作者。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ゲームフリークの先輩たち
@@ -47,7 +47,61 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，我是新人策划阿穗！
+
+入职转眼已经两周了，<br>
+
+我在礼仪培训中锻炼作为职场人的本领，<br>
+
+又在策划培训中锻炼作为工匠的本领，<br>
+
+为了成为一名出色的强健创作者，每天都在努力奋斗。
+
+入职前，家里人还吓唬我说：“公司可是又辛苦又严格的哦？”（笑）<br>
+
+不过，GAME FREAK的前辈们不仅温柔，还很有趣，每天都笑声不断。
+
+无论早上、中午还是晚上，看到前辈们总是精神饱满、开朗明快的样子，<br>
+
+我也会不由得想着：自己也要成为一个随时都能给别人带来活力的人！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/122/hozu090417-56ac8d57.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/122/hozu090417-56ac8d57.jpg" alt="学習中" loading="lazy"></a></figure><br>
+
+我从前辈们那里学习各种各样的事情。
+
+当然，有时也会受到严格的指导，<br>
+
+但每一件事都让我受益匪浅。
+
+现在承蒙前辈们照顾的这些，<br>
+
+我一定要在明年回馈给后辈们！
+
+……就在这时候，
+
+正值应届毕业生招聘期间，偶尔会看到穿着西装的学生，<br>
+
+我会一边想着“明年该怎么好好照顾他们呢”，<br>
+
+一边忍不住嘿嘿傻笑起来。
+
+还真是心急，而且有点可疑呢（笑）
+
+首先，我希望能一点一点地，<br>
+
+用成长和成果的形式，回报一直照顾我的前辈们。<br>
+
+然后尽快成长为一个独当一面的人，<br>
+
+也希望自己能在工作中真正派上大用场！
+
+我是阿穗！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、新人プランナーのほずです！
 
 入社してから早２週間、<br>

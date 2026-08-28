@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 究極のコレクション
+title: 【工作日志】2009年任天堂收藏日常
 date: '2009-01-16'
 permalink: /gamefreak-staff/entry-108/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 108
-gf_entry_title: 究極のコレクション
+gf_entry_title: 【工作日志】2009年任天堂收藏日常
 gf_original_title: 究極のコレクション
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！ ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。 皆さんとは約１年ぶりの再会になりますね?。 お元気でしたか？
-translation_status: missing
+gf_translation_title: 【工作日志】2009年任天堂收藏日常
+translation_available: true
+summary: 一位员工回顾持续多年的任天堂收藏，展示自制标签，并畅想亲手制作游戏的乐趣。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 究極のコレクション
@@ -47,7 +47,55 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！<br>
+
+我是那个想知道究竟是谁不知不觉把酱油渍弄到任天堂说明书上的大哥哥。<br>
+
+算起来，我们已经时隔约一年没见了吧？<br>
+
+大家过得还好吗？
+
+我还是一如既往地继续收藏任天堂，
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_02-e543f4fc.jpg" alt="ファミコンコレクション" loading="lazy"></a></figure>
+
+收集了这么长时间，不知不觉间，“我也想制作任天堂游戏软件”的欲望<br>
+
+就熊熊燃烧起来了。不过……<br>
+
+想必有些人已经知道，任天堂主机早就停产了。
+
+所以，出于哪怕只实现一点这个无法实现的梦想的心情，也因为实在太喜欢任天堂了，<br>
+
+我每天都自己制作原创标签，装饰在收藏架上。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_03-ce759883.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure><br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami_04-2386bb87.jpg" alt="自作オリジナルラベル" loading="lazy"></a></figure>
+
+虽说是我自己讲，但这山寨货的气息还真是相当浓啊？<br>
+
+不过我觉得这样才好嘛。<br>
+
+很遗憾，从“话题”的角度来说，能拿给大家看的只有这两款，<br>
+
+所以我就赶紧做了一款，准备拿来写员工博客。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/108/fami090116-17ef3d03.jpg" alt="ファミコンコレクター" loading="lazy"></a></figure>
+
+不过这也是个让人实在有点难以评论的微妙话题。
+
+自己制作的软件，自己收集起来欣赏。<br>
+
+这不就是终极收藏了吗！<br>
+
+那么，下次再见？
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！<br>
 
 ファミコンの説明書にいつの間にか醤油のシミをつけた犯人が知りたい、おにいさんです。<br>

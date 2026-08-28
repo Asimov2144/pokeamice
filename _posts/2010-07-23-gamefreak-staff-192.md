@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: プログラマーの中途採用を開始しました。
+title: 【工作日志】2010年程序员招聘启动
 date: '2010-07-23'
 permalink: /gamefreak-staff/entry-192/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 192
-gf_entry_title: プログラマーの中途採用を開始しました。
+gf_entry_title: 【工作日志】2010年程序员招聘启动
 gf_original_title: プログラマーの中途採用を開始しました。
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！採用担当さとうです。 ゲームフリークでは本日よりプログラマーの中途採用を開始しました！
-translation_status: missing
+gf_translation_title: 【工作日志】2010年程序员招聘启动
+translation_available: true
+summary: GAME FREAK启动程序员社会招聘，介绍通信系统与贴近硬件的编程能力要求，并欢迎热爱游戏与技术的开发者应聘。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · プログラマーの中途採用を開始しました。
@@ -47,7 +47,69 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好！我是招聘负责人佐藤。<br>
+
+GAME FREAK 从今天起开始招聘有工作经验的程序员！
+
+详情请参阅[这里](https://www.gamefreak.co.jp/career/outline.html#pg)。
+
+这次招聘，我们对程序员主要有两方面的要求。<br>
+
+不过，并不是说“希望两方面都具备！”，<br>
+
+只要其中一方面就足够了。（当然，两方面都能胜任的朋友也非常欢迎！）
+
+首先，第一方面是**能够设计通信系统**。<br>
+
+说到我们公司的通信功能，<br>
+
+可能有很多人会想到宝可梦的交换功能。<br>
+
+不过现在，搭载通信功能的电视游戏已经有很多了。<br>
+
+为了让宝可梦的玩法进一步进化，<br>
+
+也为了创作出超越宝可梦的新游戏，<br>
+
+我们希望继续强化通信方面的功能。
+
+第二方面，是**能够在更贴近硬件的部分进行编程**<br>
+
+这一点。<br>
+
+无论多么新颖的企划，如果无法实现，就没法让人玩到。<br>
+
+我们认为，要创作真正全新的“玩法”，需要新的技术，更进一步说，<br>
+
+需要能够创造出新技术的人才。<br>
+
+虽然我们公司没有“研究职位”这一职务，<br>
+
+但我们期待着那些对程序有着永不满足的钻研精神、对最新技术充满好奇心，<br>
+
+并且热爱游戏的朋友！
+
+申请要求请参阅[这里](https://www.gamefreak.co.jp/career/outline.html#pg)。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/192/sato100723-eaabc6e7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/192/sato100723-eaabc6e7.jpg" alt="" loading="lazy"></a></figure>
+
+即使是“我目前没有打算马上换工作……”的朋友，也可以申请。<br>
+
+我们公司并不是随时都在招聘，所以希望珍惜每一次结缘的机会，<br>
+
+也希望能够与大家相遇。<br>
+
+如果您对此感兴趣，还请务必来挑战一下！
+
+[平面设计师也仍在持续招聘中。](https://www.gamefreak.co.jp/career/outline.html#gr)<br>
+
+我们衷心期待您的应聘。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！採用担当さとうです。<br>
 
 ゲームフリークでは本日よりプログラマーの中途採用を開始しました！

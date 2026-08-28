@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: それぞれの冬’09！
+title: 【工作日志】2009年冬日假期记录
 date: '2009-01-09'
 permalink: /gamefreak-staff/entry-106/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 106
-gf_entry_title: それぞれの冬’09！
+gf_entry_title: 【工作日志】2009年冬日假期记录
 gf_original_title: それぞれの冬’09！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、Web開発のカニ子です。 休み明け恒例企画。「みんな休み中何してましたか？」を ゲームフリークスタッフのみんなに聞いてみました。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年冬日假期记录
+translation_available: true
+summary: GAME FREAK 工作人员分享冬假生活：有人旅行看星星，有人滑雪聚会，也有人沉迷游戏与影视，满载轻松趣事迎接新年。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · それぞれの冬’09！
@@ -47,7 +47,171 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好，我是负责网页开发的蟹子。<br>
+
+假期结束后的固定企划。“大家放假期间都做了些什么？”我去问了问<br>
+
+GAME FREAK 的各位工作人员。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure><br>
+
+我通关了大约三款 DS 推理类冒险游戏。<br>
+
+多亏了这些游戏，就连日常生活中也开始思考“这里留下了指纹……”“吃下这个的话，一小时后就会消化……”<br>
+
+之类的事情了。（拉彭）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure><br>
+
+乔尼在除夕举办了跨年火锅聚会。<br>
+
+把周围独居的女孩子们都叫了过来，<br>
+
+大家钻进暖桌里，一边看红白歌会一边热闹个不停（＾＾<br>
+
+红白歌会结束后，大家还聊了聊彼此的新年目标。<br>
+
+因为很开心，所以正在考虑今年年底也再办一次！（乔尼）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" alt="おにいさん" loading="lazy"></a></figure><br>
+
+我在冲绳享受了一把南国风情？。<br>
+
+果然即使是冬天也很暖和，白天只要站着不动，就会热得微微出汗。<br>
+
+从时节来说是淡季，所以确实没有人在游泳，<br>
+
+不过海很漂亮，海滩上还是零零散散有些游客。<br>
+
+最后一天去了我一直很想去的“冲绳美丽海水族馆”，<br>
+
+被鲸鲨那惊人的体型彻底震撼后回来了！！（真的超大哦）<br>
+
+（哥哥）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure><br>
+
+回老家后发现家里养了一只小狗，<br>
+
+它一看到我就像发现了什么有趣的玩伴似的，飞扑了过来。<br>
+
+因为我穿的是带绒球、又长又大的针织毛衣，<br>
+
+结果全身都被它当成狗狗玩具了。（榎木）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/106/writer10_05-a7943436.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/106/writer10_05-a7943436.gif" alt="もりもと" loading="lazy"></a></figure><br>
+
+看足球赛、初诣、逛打折活动，还有新年聚会。<br>
+
+除此之外，我还做了年节菜。<br>
+
+用紫薯做出了紫色的栗金团哦！（森本）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/106/writer27-4319e928.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/106/writer27-4319e928.jpg" alt="いわし" loading="lazy"></a></figure><br>
+
+寒假期间身体一直不太好，基本上就是回老家后整天窝在家里，<br>
+
+不过我想着“只有元旦的日出，无论如何也想去看看！”于是和同样回老家的朋友们一起，<br>
+
+爬上了位于高处的灯塔！当天阴着天，太阳迟迟不肯露面，<br>
+
+我们就玩了三十分钟的山手线游戏来打发时间。虽然早已过了日出时间，<br>
+
+太阳却仿佛要补偿我们似的，展现出了满分般耀眼的光芒。<br>
+
+我不禁感叹，光是因为在1月1日去看，竟然就能显得这么特别啊。（沙丁鱼）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
+
+年末年初回了老家，没出门就这么过了。<br>
+
+借了一大堆 DVD，然后一直循环下面这套流程。<br>
+
+“玩 DS 的同时学习编程→玩 DS 的同时看 DVD→玩 DS 的同时学习编程……”<br>
+
+我觉得 DS、编程和 DVD 大概一样都没真正记进脑子里。<br>
+
+大家可不能变成这样的成年人哦！(凪）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" alt="おせんべい" loading="lazy"></a></figure><br>
+
+寒假里，我挑战了去年也做过的、连续两天一直滑雪的活动。<br>
+
+今年也成功连续两天一直滑雪。<br>
+
+不过今年却得了一种右脚发麻的神秘病。（仙贝）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" alt="スティック" loading="lazy"></a></figure><br>
+
+我一直待在老家。<br>
+
+给父母买了一个数码相框，用数码相机把积攒下来的照片<br>
+
+放了进去，结果父母盯着显示屏看了两个小时，<br>
+
+一动也不动。看来我送了份不错的礼物！<br>
+
+后来还很有乡土气息地让亲戚们在新年见了个面，<br>
+
+奶奶今年90岁！曾孙有15个！<br>
+
+这是一个让我感受到血脉绵延传承的新年。（斯蒂克）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" alt="さとう" loading="lazy"></a></figure><br>
+
+我鼓起勇气挑战了视力矫正手术！<br>
+
+……好可怕。不过，现在看得特别清楚。<br>
+
+还稍微有点不习惯不戴眼镜、不戴隐形眼镜的生活。（佐藤）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" alt="ヒロ" loading="lazy"></a></figure><br>
+
+好久没用了，我从壁橱里把天文望远镜拖了出来，<br>
+
+看了看星星！<br>
+
+在寒冷的夜里观赏月亮和猎户座，<br>
+
+还真是别有一番情趣？。（博）
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" alt="ユッフィー" loading="lazy"></a></figure><br>
+
+趁着折扣开始，我在奥特莱斯购物中心买了这买了那，回去时又去了游戏中心。<br>
+
+一头扎进奖牌游戏里玩了三个小时，<br>
+
+虽然奖牌储蓄增加了，<br>
+
+却错过了末班电车，最后只好坐出租车回家，<br>
+
+实际花掉的钱反而越来越少了。<br>
+
+第二天我本来要去附近的不动尊领取消灾护身符，<br>
+
+途中却又突然想去逛折扣活动，于是只付了钱就离开了。<br>
+
+护身符到现在还没去取。<br>
+
+我的新年到底什么时候才会到来呢？（尤菲）
+
+蟹子的话，大概每天睡了16个小时。<br>
+
+另外还一直看一部讲述漂流到无人岛的海外剧第三季，<br>
+
+想着要是自己漂流到无人岛了该怎么办之类的事情。
+
+寒假最后一天，我还想着要是能一直放假就好了！<br>
+
+甚至想过干脆漂流到无人岛去算了！不过开始工作、出门以后，发现公司还真是开心啊……！能有这种感觉真是太好了。<br>
+
+觉也睡够了，今年也要加油！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、Web開発のカニ子です。<br>
 
 休み明け恒例企画。「みんな休み中何してましたか？」を<br>

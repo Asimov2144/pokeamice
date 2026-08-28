@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 想像力トレーニング！
+title: 【工作日志】2011年想象力训练
 date: '2011-07-22'
 permalink: /gamefreak-staff/entry-231/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 231
-gf_entry_title: 想像力トレーニング！
+gf_entry_title: 【工作日志】2011年想象力训练
 gf_original_title: 想像力トレーニング！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは。 プランナーのマーでございます。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年想象力训练
+translation_available: true
+summary: 策划员从失败的炒菜谈到游戏设计，分享通过删减既有规则来锻炼想象力、发现新视角的方法。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 想像力トレーニング！
@@ -47,7 +47,100 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好。<br>
+
+
+我是策划员小马。
+
+前几天，我久违地自己做了顿饭。<br>
+
+最近很少下厨了，<br>
+
+但看着肚子一点一点鼓起来，<br>
+
+也不能总是在外面吃饭。
+
+我想着做点看起来对身体有益的料理，<br>
+
+于是决定做一道放满蔬菜的炒菜。
+
+我纠结了一下该怎么调味，想着要不要试试中式风味——<br>
+
+便把柚子醋和芝麻油混合在一起，<br>
+
+还撒了点胡椒作为隐藏风味。
+
+没想到最后变成了一种实在说不上来的遗憾味道……。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/231/maa_110722-03c4c009.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/231/maa_110722-03c4c009.jpg" alt="" loading="lazy"></a></figure>
+
+现在想想，这个组合根本就不行……。
+
+满心想着「肯定会很好吃！」做出来的料理，<br>
+
+结果却意外地不好吃……这种事我想还是很常见的。<br>
+
+不过，毕竟是自己做的料理，<br>
+
+就算难吃一点，也能毫不在意地吃下去，这就是自己做饭的好处！
+
+对我来说，做饭这样就可以了，<br>
+
+但换成制作游戏，可就不能这么说了。
+
+那种「没有想象中那么有趣！」的情况，<br>
+
+对于策划员来说，实在是非常让人胃疼的状况！<br>
+
+无论是厨师还是游戏创作者，<br>
+
+都需要努力缩小脑海中的想象与实际做出来的东西之间的差距。<br>
+
+这就是所谓的「锻炼想象力！」。
+
+要锻炼想象力，只能拓宽自己的经验范围。<br>
+
+如果是做饭，只要实际做出来尝尝味道就行了，<br>
+
+但游戏的话，要试着做出来看看就相当困难了。
+
+这次，我想介绍一种简单易行的想象力训练方法。
+
+那就是「删掉现有游戏的一部分规则来玩」。<br>
+
+如果是《宝可梦》系列，<br>
+
+比如删掉「战斗中更换宝可梦」这条规则来游玩。<br>
+
+宝可梦中，「草」「火」「水」等属性之间的相性，<br>
+
+是决定战斗有利与否的重要因素。<br>
+
+因此，一旦遇到自己不擅长应对的对手，就会什么也做不了，直接被打倒。<br>
+
+除此之外，由于手持宝可梦中的第一只也会变得很重要，<br>
+
+玩家会观察训练家的外表，比如「登山男」或「超能力者」，<br>
+
+在战斗开始前预测对手的属性。
+
+我想，通过删减规则，可以获得新的发现和视角。
+
+删掉规则来玩的话，大多时候都会变得非常难玩。<br>
+
+重要的是亲身体验「具体会在什么场景下变得难玩？」，<br>
+
+并理解那条规则原本发挥了什么作用。
+
+对制作游戏感兴趣的人，不妨试试看。<br>
+
+我想你一定会有有趣的发现哦。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは。<br>
 
 プランナーのマーでございます。

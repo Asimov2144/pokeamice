@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: モチベーションアップの秘訣
+title: 【工作日志】2011年慢跑与动力秘诀
 date: '2011-09-30'
 permalink: /gamefreak-staff/entry-235/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 235
-gf_entry_title: モチベーションアップの秘訣
+gf_entry_title: 【工作日志】2011年慢跑与动力秘诀
 gf_original_title: モチベーションアップの秘訣
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、プログラマーのペンギンです。
-translation_status: missing
+gf_translation_title: 【工作日志】2011年慢跑与动力秘诀
+translation_available: true
+summary: 程序员企鹅分享开始晨跑的契机与收获，并介绍用新装备提升动力、让生活变得更规律的小秘诀。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · モチベーションアップの秘訣
@@ -47,7 +47,89 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好，我是程序员企鹅。
+
+突然说起这个，最近我开始当慢跑者了。<br>
+
+每周有两三天，我都会比平时早起，出去跑步，<br>
+
+而且也没有三天打鱼两天晒网！现在已经进入第三个月了。<br>
+
+最近外面流行到被称为“晨跑”，简称“晨慢跑”的程度，<br>
+
+所以正在读这篇文章的各位当中，应该也有晨跑者吧。
+
+我想开始晨跑的契机虽然很普通，主要是意识到了<br>
+
+运动不足和减肥的问题。<br>
+
+进入 GAME FREAK 以后，今年已经是第三年了——每天大半时间都坐在办公桌前，<br>
+
+回过神来，开始在意起肚子……。<br>
+
+虽然想着“再这样下去可不行！”但力量训练太辛苦，坚持不下来（笑），<br>
+
+于是觉得慢跑既轻松又可以按照自己的节奏进行，就开始跑了。
+
+其实，我过去也有过三次慢跑的时期。<br>
+
+倒也没有什么特别的契机让我放弃，只是连续几天不跑之后，<br>
+
+跑步之间的间隔就会逐渐拉长，回过神来，<br>
+
+就已经放弃了……一直是这样的模式。<br>
+
+身体状况和季节的影响，我想多少也有一些。
+
+这次真希望能成为“第四次一定成功”，不过幸好到目前为止，<br>
+
+我还能享受跑步的过程，除了消除运动不足和减肥之外，<br>
+
+还发现了几件“对自己有好处的事”，所以暂时应该可以不勉强自己地坚持下去。<br>
+
+所谓“对自己有好处的事”，就是：<br>
+
+　◎早起→早上的时间变得充裕→早上可以打扫，房间变得一尘不染！<br>
+
+诸如此类，或者：<br>
+
+　◎早起→不再熬夜→生活作息变得规律了！<br>
+
+大概就是这些吧。
+
+这种“好处多多”的结果，在开始慢跑之前其实多少也能<br>
+
+预料到，但即使脑子里明白，<br>
+
+真到了“我要开始跑了！”的时候，往往还是很难迈出第一步。<br>
+
+大家是不是也有过这种情况？<br>
+
+所以，这次我决定开始慢跑时，第一件事就是<br>
+
+买了一双新鞋。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/235/pen01-0edf525f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/235/pen01-0edf525f.jpg" alt="新しいシューズ" loading="lazy"></a></figure>
+
+虽然有点贵，但我咬牙买下了喜欢的新鞋，<br>
+
+积极性顿时大增！<br>
+
+顺带一提，为了让自己更享受下厨，我还<br>
+
+买了一只新的平底锅（笑）。
+
+如果你也有想开始做点新事情，却一直犹豫不决……这种情况，<br>
+
+不妨先准备一些能让这件事变得有趣的工具，也许会是个不错的办法。
+
+以上就是凡事先从装备入手的男人——企鹅！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、プログラマーのペンギンです。
 
 突然ですが、最近、ジョギングを始めました。<br>

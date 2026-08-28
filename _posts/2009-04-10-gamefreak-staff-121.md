@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: にゅーかまー！
+title: 【工作日志】2009年新人入社与成长
 date: '2009-04-10'
 permalink: /gamefreak-staff/entry-121/
 categories:
@@ -33,13 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 121
-gf_entry_title: にゅーかまー！
+gf_entry_title: 【工作日志】2009年新人入社与成长
 gf_original_title: にゅーかまー！
-gf_translation_title: ''
-translation_available: false
-summary: ２０代を過ぎると１年が一瞬だ。なんて世間で言いますが こんなに早いとは思いませんでした。１年ぶりの登場になります。 永井豪先生の出身地、石川県からやって来たプランナーのえるかつです。
-  皆さん、お元気でしたでしょうか？
-translation_status: missing
+gf_translation_title: 【工作日志】2009年新人入社与成长
+translation_available: true
+summary: 新员工入社带来耀眼的新鲜感，作者回顾独居、入职与项目工作的第一年，迎接充满挑战的第二年。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · にゅーかまー！
@@ -48,7 +47,65 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+都说过了20岁以后，一年就会在转眼间过去，<br>
+
+没想到竟然会这么快。这是我时隔一年再次登场。<br>
+
+我是从永井豪老师的故乡石川县来到这里的策划，えるかつ。<br>
+
+大家最近还好吗？
+
+到了4月，盼望已久的新员工们入社了！<br>
+
+他们身上散发出的新鲜感，以及笔直鞠躬问候的身影，耀眼又美好！<br>
+
+每天看着他们，都仿佛看到了去年的自己，不由得沉浸在感伤之中。<br>
+
+接下来，新员工们会接受为期3个月的培训，然后分别分配到各个项目。<br>
+
+我从现在起就开始盼望能和大家一起工作的那一天了。怎么还不快点到来呀——
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/121/el090410-3f401170.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/121/el090410-3f401170.jpg" alt="2009年入社です！" loading="lazy"></a></figure><br>
+
+耀眼的新员工们
+
+回想起来，えるかつ在这一年里也经历了各种各样的事情。<br>
+
+独自生活，连东南西北都分不清……<br>
+
+えるかつ甚至从来没有握过平底锅，<br>
+
+根本没做过什么像样的料理，<br>
+
+但现在会做的菜式也增加了，<br>
+
+有时一周里大部分时间都会自己做饭。哼哼！<br>
+
+初次踏入社会……<br>
+
+从商务礼仪到策划培训，<br>
+
+正式成为 GAME FREAK 员工时的感动，我至今难以忘怀。<br>
+
+之后，我被分配到了项目，<br>
+
+一直在蛮干着向前冲，到现在也还在进行中。<br>
+
+即使这一年让人觉得“转眼就过去了！”，<br>
+
+回头想想，依然是充满学习、内容充实而又浓厚的一年。<br>
+
+虽然えるかつ已经迈入第二年，<br>
+
+但我会保持新人的心态，挑战一切事物。<br>
+
+希望今年也能成为充实而浓厚的一年，我要加油！！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 ２０代を過ぎると１年が一瞬だ。なんて世間で言いますが<br>
 
 こんなに早いとは思いませんでした。１年ぶりの登場になります。<br>

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 俺のゲーム
+title: 【工作日志】2009年做游戏的游戏
 date: '2009-05-29'
 permalink: /gamefreak-staff/entry-128/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 128
-gf_entry_title: 俺のゲーム
+gf_entry_title: 【工作日志】2009年做游戏的游戏
 gf_original_title: 俺のゲーム
-gf_translation_title: ''
-translation_available: false
-summary: プログラマーのギンです。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年做游戏的游戏
+translation_available: true
+summary: 程序员银分享自己沉迷制作游戏的游戏，并记录了开发团队交换作品、互相惊叹的热闹现场。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 俺のゲーム
@@ -47,7 +47,107 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+我是程序员银。
+
+不知怎么的，这个博客里关于游戏的话题好像不多呢。<br>
+
+可能有人会想，是不是大家都太忙了，根本没在玩游戏……<br>
+
+不过，并不是这样。<br>
+
+应该说，反而玩得挺多。
+
+当然，工作确实很忙，<br>
+
+但如果只是一味工作，也会觉得喘不过气来，<br>
+
+而且人的集中力是有限的。<br>
+
+就算不是人，我想应该也一样。<br>
+
+猎豹能够全力奔跑的时间，也只有短短几秒。<br>
+
+电视上经常会播这个。
+
+所以，玩游戏既可以放松一下，<br>
+
+也有研究劲敌产品的意义——它们会在同一家游戏店里并排销售。<br>
+
+当然，比起这些，大家一起热热闹闹地<br>
+
+围绕一款游戏兴奋起来，才是最开心的！<br>
+
+不管是在成为开发者之前，还是成为开发者之后，这一点都没有改变。<br>
+
+在 GAME FREAK，休息时间或下班之后，<br>
+
+也经常能看到大家在各处玩游戏。
+
+既然已经找了这么多借口，<br>
+
+那我想聊聊最近让我沉迷的游戏。<br>
+
+那就是《Made in Ore》。<br>
+
+哎呀，这游戏真有意思。<br>
+
+为了给不了解它的人简单地用一句话说明，<br>
+
+就是“做游戏的游戏”。
+
+我本来就非常喜欢《Made in Wario》系列，<br>
+
+既然这是可以自己制作那种短小游戏的软件，<br>
+
+所以一直很期待它发售。
+
+不过在真正买下它之前，我还是有过一丝犹豫。<br>
+
+因为，明明工作就是做游戏，结果连玩游戏的时候也在做游戏……这合适吗？<br>
+
+会不会被人觉得很傻。<br>
+
+会不会被人说，老老实实工作去吧。<br>
+
+要是只是被这么想想也就算了，万一还被人当面直说出来……
+
+然而，发售日到公司一看，我才知道这些担心完全是多余的。<br>
+
+大家已经在各处制作《Made in Ore》游戏了。<br>
+
+不仅如此，还在互相交换自己做的游戏。<br>
+
+应该说，我已经彻底跟不上进度了。
+
+等、等等，也给我一个游戏嘛。
+
+……好厉害。怎么能用16色画出这么漂亮的点阵图？<br>
+（因为人家就是做这个工作的）
+
+……太强了。怎么能让它做出这么复杂的动作？<br>
+（因为人家就是做这个工作的）
+
+就这样，现在在 GAME FREAK，<br>
+
+收集大家制作的《Made in Ore》游戏，已经成了一个小小的热潮。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/128/gin090529-e073346f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/128/gin090529-e073346f.jpg" alt="DSとわたし" loading="lazy"></a></figure>
+
+不过，《Made in Ore》能做的事情多得不得了。<br>
+
+漂亮的点阵图、抓耳的背景音乐……如果想要全部自己准备，<br>
+
+可以花上无限多的工夫。<br>
+
+为了让品质提高哪怕一点点，一直埋头玩下去，就开始觉得喘不过气来。<br>
+
+渐渐有点累了呢？要不要休息一下，去工作呢……
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 プログラマーのギンです。
 
 なんとなく、このブログにはゲームの話題が少ないですよね。<br>

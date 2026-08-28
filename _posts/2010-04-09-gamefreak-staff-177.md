@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 春！社会人10年生です
+title: 【工作日志】2010年春季职场十年随笔
 date: '2010-04-09'
 permalink: /gamefreak-staff/entry-177/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 177
-gf_entry_title: 春！社会人10年生です
+gf_entry_title: 【工作日志】2010年春季职场十年随笔
 gf_original_title: 春！社会人10年生です
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！ お久しぶりのプランナーのカニ子です。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年春季职场十年随笔
+translation_available: true
+summary: 一位策划回忆入行第一年的小失误，并送给新入职者一份轻松温暖的祝福。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 春！社会人10年生です
@@ -47,7 +47,79 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！<br>
+
+好久不见，我是策划喀妮子。
+
+春天，是各种新事物开始的季节呢。<br>
+
+这个春天开始成为职场新人的朋友们，<br>
+
+应该也有人已经踏入社会了吧。<br>
+
+我也是整整十年前的春天初入职场的。<br>
+
+今天就来聊聊我刚成为职场新人时的一些回忆。
+
+当时我就职的公司还不是 GAME FREAK，<br>
+
+现在回想起来，我还是个嚣张得让人害臊的小丫头。<br>
+
+入职没多久，我就被交给了撰写邮件杂志正文的工作，<br>
+
+有一次，上司指出我写的正文在标点使用上有错误，<br>
+
+据说我当时这样回答了他：
+
+**“前辈，法国那边在正文末尾，句号可是有时加、有时不加的哦。”**
+
+（而且还是一本正经地说的。）
+
+我连自己说过这话都忘了，前几天，<br>
+
+现在仍以朋友身份来往的那位前上司提起这件事时，<br>
+
+我真想找个地洞钻进去！真想回去把十年前的自己揍一顿！<br>
+
+当时我是这么想的。<br>
+
+“你那时候的回答还真是个相当出人意料的变球，挺有意思的。”<br>
+
+还好最后成了一段笑谈……
+
+现在刚成为职场新人的各位，<br>
+
+可能会感受到各种各样的文化差异，<br>
+
+也可能会犯一些小错，<br>
+
+不过只要过上十年，基本都会变成笑谈，所以请放心吧！<br>
+
+我觉得，尽管多去积累一些新鲜的经历也不错。
+
+我刚成为职场新人时，遇到了温柔的上司，<br>
+
+让我觉得“工作原来可以这么开心啊！”，<br>
+
+即使工作环境已经改变，十年过去的今天，<br>
+
+我依然觉得“工作果然还是很开心！”
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/177/kani100409-d7a3ec9b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/177/kani100409-d7a3ec9b.jpg" alt="" loading="lazy"></a></figure>
+
+这个春天刚成为职场新人的各位，<br>
+
+以及今后即将成为职场新人的各位，<br>
+
+职场生活其实还挺开心的哦！<br>
+
+祝大家拥有愉快的职场生活！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！<br>
 
 お久しぶりのプランナーのカニ子です。

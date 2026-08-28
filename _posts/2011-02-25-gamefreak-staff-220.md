@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 間もなく2012年度新卒採用の応募受付を開始します！
+title: 【工作日志】2012年度应届招聘即将开始
 date: '2011-02-25'
 permalink: /gamefreak-staff/entry-220/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 220
-gf_entry_title: 間もなく2012年度新卒採用の応募受付を開始します！
+gf_entry_title: 【工作日志】2012年度应届招聘即将开始
 gf_original_title: 間もなく2012年度新卒採用の応募受付を開始します！
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、にょろリカです。
-translation_status: missing
+gf_translation_title: 【工作日志】2012年度应届招聘即将开始
+translation_available: true
+summary: 应届招聘负责人通知申请材料受理安排，并提醒申请者参考各职位作品要求，按时寄送材料。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 間もなく2012年度新卒採用の応募受付を開始します！
@@ -47,7 +47,49 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+大家好，我是涅洛莉卡。
+
+那么，这次由“应届毕业生招聘负责人·涅洛莉卡”向
+
+计划于2012年3月毕业的各位同学通知一件事。<br>
+
+从下周二的3月1日起，2012年度应届毕业生招聘的申请材料受理
+
+就要开始了！<br>
+
+我还觉得前不久才刚刚开始接受[招聘网站的报名](http://job.rikunabi.com/2012/company/top/r189900076/)，
+
+没想到一转眼就到这个时候了。
+
+正在阅读这篇文章的各位，申请作品制作得还顺利吗？<br>
+
+各职位的招聘详情页面中都刊载了“申请作品的要点”，
+
+还请大家务必参考一下。
+
+⇒[平面设计师招聘详情](http://www.gamefreak.co.jp/new_employ/outline.html#point)<br>
+
+　⇒[程序员招聘详情](http://www.gamefreak.co.jp/new_employ/outline_pg.html#point)<br>
+
+　⇒[策划招聘详情](http://www.gamefreak.co.jp/new_employ/outline_pl.html#point)
+
+申请材料的受理期间为2011年3月1日（周二）至3月18日（周五／必达）。<br>
+
+对于申请材料的寄送方式，没有特别规定。<br>
+
+无论是邮寄、快递还是摩托车快递，使用什么方式寄送都可以，
+
+但**务必确保在3月18日（周五）送达。**
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/220/110225_nyoro-4b09abd7.jpg" alt="ポスト" loading="lazy"></a></figure>
+
+我们期待收到大家的申请！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、にょろリカです。
 
 さて、今回は「新卒採用担当・にょろリカ」から、<br>

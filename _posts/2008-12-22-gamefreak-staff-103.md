@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: メリーなんとか
+title: 【工作日志】2008年GAME FREAK的圣诞树
 date: '2008-12-22'
 permalink: /gamefreak-staff/entry-103/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 103
-gf_entry_title: メリーなんとか
+gf_entry_title: 【工作日志】2008年GAME FREAK的圣诞树
 gf_original_title: メリーなんとか
-gf_translation_title: ''
-translation_available: false
-summary: いやー もうすぐクリなんとかですね。 ゲームフリークでもツリーが飾られているのでご紹介します。 まぁ、いつも通りの出勤日ですけどね…。
-translation_status: missing
+gf_translation_title: 【工作日志】2008年GAME FREAK的圣诞树
+translation_available: true
+summary: 临近圣诞，GAME FREAK员工记录了入口和会议室里装饰的两棵圣诞树，以及一如往常的出勤日常。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · メリーなんとか
@@ -47,7 +47,25 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+哎呀，圣诞节什么的就快到了。<br>
+
+GAME FREAK里也装饰了圣诞树，所以介绍给大家看看。<br>
+
+不过嘛，还是和平时一样的出勤日喽……
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_01-df70509f.jpg" alt="玄関のツリー" loading="lazy"></a></figure><br>
+
+入口的圣诞树
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/103/tuya081222_02-42e02dfe.jpg" alt="venus（会議室）のツリー" loading="lazy"></a></figure><br>
+
+伙星（会议室）的圣诞树
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 いやー　もうすぐクリなんとかですね。<br>
 
 ゲームフリークでもツリーが飾られているのでご紹介します。<br>

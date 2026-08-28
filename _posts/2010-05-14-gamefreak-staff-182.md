@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 祝！ファミ通アワード受賞
+title: 【工作日志】2010年电玩通奖与卡斯特拉蛋糕
 date: '2010-05-14'
 permalink: /gamefreak-staff/entry-182/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 182
-gf_entry_title: 祝！ファミ通アワード受賞
+gf_entry_title: 【工作日志】2010年电玩通奖与卡斯特拉蛋糕
 gf_original_title: 祝！ファミ通アワード受賞
-gf_translation_title: ''
-translation_available: false
-summary: 『ポケットモンスター ハートゴールド・ソウルシルバー』 ディレクターの もりもと です。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年电玩通奖与卡斯特拉蛋糕
+translation_available: true
+summary: 《宝可梦心金·魂银》获优秀奖，开发团队收到巨型卡斯特拉蛋糕，森本分享颁奖现场与感谢。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 祝！ファミ通アワード受賞
@@ -47,7 +47,65 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+『宝可梦 心金·魂银』<br>
+
+我是导演[森本](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)。
+
+大家好久不见！
+
+前几天，我前往 ENTERBRAIN 参加了“电玩通奖”颁奖典礼。<br>
+
+承蒙大家游玩我们的作品，<br>
+
+『宝可梦 心金·魂银』<br>
+
+获得了优秀奖。
+
+[⇒电玩通奖颁奖典礼现场请点击这里！](http://www.famitsu.com/game/news/1234602_1124.html)<br>
+
+负责献上花束的孩子手里拿着宝可梦计步器，<br>
+
+让我特别开心。
+
+在“电玩通奖”的会场，我们领取了优秀奖的奖杯，<br>
+
+之后，ENTERBRAIN 又把一大块巨型的获奖纪念卡斯特拉蛋糕送到了 GAME FREAK 的办公室！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_1-2fbbd466.jpg" alt="" loading="lazy"></a></figure>
+
+看起来好好吃？！！
+
+・<br>
+
+　　　　・<br>
+
+　　　　・
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/182/morimoto100514_2-5e432bdd.jpg" alt="" loading="lazy"></a></figure>
+
+哎呀，真的很好吃（笑）
+
+感谢开发团队的大家回应导演那些甚至可以说是毫无计划的要求，坚持努力到最后；<br>
+
+也感谢支持开发工作的各家公司，<br>
+
+更要感谢所有热爱宝可梦的大家，<br>
+
+真的非常感谢！！
+
+为了还能再次吃到这么美味的卡斯特拉蛋糕，我们也会更加投入游戏制作，<br>
+
+所以（喂！），<br>
+
+目前正在全力开发中的新作，也请大家敬请期待♪
+
+※这张照片只是为了营造效果，卡斯特拉蛋糕已经由工作人员美味地享用了。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 『ポケットモンスター ハートゴールド・ソウルシルバー』<br>
 
 ディレクターの[もりもと](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)です。

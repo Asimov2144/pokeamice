@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 2012年度新卒 二次募集のお知らせ
+title: 【工作日志】2012届应届生二次招聘
 date: '2011-06-03'
 permalink: /gamefreak-staff/entry-229/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 229
-gf_entry_title: 2012年度新卒 二次募集のお知らせ
+gf_entry_title: 【工作日志】2012届应届生二次招聘
 gf_original_title: 2012年度新卒 二次募集のお知らせ
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、にょろリカです。 入梅して1週間。 東京では寒暖の差が大きな日が続いていますが、こういうときって 何を着たら良いのか、毎朝悩んでしまいます。
-translation_status: missing
+gf_translation_title: 【工作日志】2012届应届生二次招聘
+translation_available: true
+summary: GAME FREAK启动2012年度应届生二次招聘，并提醒程序员申请者务必确认作品能正常读取和运行。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 2012年度新卒 二次募集のお知らせ
@@ -47,7 +47,87 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好，我是蜿蜒莉卡。<br>
+
+入梅已经一周了。<br>
+
+东京最近一直是忽冷忽热的天气，遇到这种时候，<br>
+
+我每天早上都会烦恼到底该穿什么才好。
+
+那么，可能已经有不少人知道了，<br>
+
+GAME FREAK已经开始进行2012年度应届生的第二次招聘。<br>
+
+详细信息请参阅各职位的招聘要求。<br>
+
+[策划](http://www.gamefreak.co.jp/new_employ/outline_pl.html)<br>
+
+[程序员](http://www.gamefreak.co.jp/new_employ/outline_pg.html)<br>
+
+[平面设计师](http://www.gamefreak.co.jp/new_employ/outline.html)
+
+对于希望应聘程序员职位的人，有一件事尤其需要注意，<br>
+
+请务必读一读本公司程序员森先生的留言。
+
+你好，我是负责程序员招聘面试和作品筛选的<br>
+
+森。<br>
+
+我每年都很期待看到大家的作品。<br>
+
+今年也让我接触了各种各样的作品。
+在这个过程中，这次有件事想请大家注意，<br>
+
+请听我说一下。<br>
+
+我想拜托大家的是：“请确认应聘作品能够正常运行！”
+程序员应届生应聘时“必须提交编程作品”，但<br>
+
+每年都会发现几份无法读取数据的应聘作品（CD/DVD）。<br>
+
+另外，也会遇到运行程序后发生崩溃、无法运行，或者<br>
+
+因为没有附带必要的DLL而无法运行的情况。
+这些问题可能是由以下原因造成的：<br>
+
+・没有确认刻录好的CD/DVD是否确实能够读取。<br>
+
+・没有在“自己的电脑以外”的PC上确认是否能够运行。<br>
+
+・程序预期作品位于某个特定文件夹中。（例如C:\）<br>
+
+・直接寄送了VisualC等特定环境下的调试版本程序。<br>
+
+诸如此类。
+“我想把作品一直做到截止前的最后一刻！”“我想把作品做到高质量再投递！”大家有这样的想法，我完全能够理解。<br>
+
+正因为如此，也请大家为确认工作留出一点时间，<br>
+
+以免出现作品本身根本无法运行的情况。
+我认为，应聘作品是大家展示自己一路学来的实力时，能够打出的最大一张牌。<br>
+
+如果这张牌连发挥威力的机会都没有，实在太可惜了。<br>
+
+为了避免这种情况，请大家务必在投递前再确认一次，<br>
+
+拜托了。
+我很期待能够接触到大家的作品。
+
+大家觉得怎么样呢？<br>
+
+除了希望应聘程序员职位的人，也请不要因为觉得“我肯定没问题！”就放心下来，<br>
+
+在封好应聘材料之前，再次确认一下必要的文件和数据是否都已准备齐全。
+
+那么，我们期待收到大家的应聘材料！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、にょろリカです。<br>
 
 入梅して1週間。<br>

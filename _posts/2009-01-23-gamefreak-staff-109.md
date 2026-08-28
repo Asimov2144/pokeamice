@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 店員と客の会話
+title: 【工作日志】2009年快餐店里的语言思考
 date: '2009-01-23'
 permalink: /gamefreak-staff/entry-109/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 109
-gf_entry_title: 店員と客の会話
+gf_entry_title: 【工作日志】2009年快餐店里的语言思考
 gf_original_title: 店員と客の会話
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして。プログラマーのギンです。 毎日くだらないことを考えるのを趣味にしています。 今日はそんな考え事のひとつを書いてみたいと思います。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年快餐店里的语言思考
+translation_available: true
+summary: 程序员从一次点餐对话出发，思考店员用语、沟通误差，以及语言表面与真实意图之间的距离。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 店員と客の会話
@@ -47,7 +47,101 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面。我是程序员Gin。<br>
+
+每天都把思考一些无聊的事情当作爱好。<br>
+
+今天想写写其中的一件。
+
+这是前几天我在一家常去的快餐店里想到的事情。
+
+那家店是卖三明治的，因为夹进去的蔬菜种类<br>
+
+很多，所以为了照顾不想加入自己吃不了的蔬菜的客人，<br>
+
+点餐时店员会主动询问，这已经成了一套流程。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/109/gin090123-ea28285e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/109/gin090123-ea28285e.jpg" alt="野菜" loading="lazy"></a></figure>
+
+有一天，店员正在为排在我前面的客人点餐时，<br>
+
+店员问道：
+
+“请问有没有不太喜欢的蔬菜呢？”
+
+那位客人回答：
+
+“倒是没有特别不喜欢的（停顿了几秒）……请不要放橄榄。”
+
+听到这句话的瞬间，我独自感叹道：
+
+“原来如此……真有深意啊！”
+
+店员问“请问有没有不太喜欢的蔬菜呢？”，<br>
+
+在这种情况下，实际想表达的是“有没有不想让我们放进去的蔬菜？”。<br>
+
+至少，店员应该是抱着这样的意思来询问的。
+
+不过仔细想想，这也是理所当然的，<br>
+
+“不喜欢”与“现在不想让店里放进去”，<br>
+
+并不一定完全一致。比如，假如刚好听到“摄取过多多酚<br>
+
+对身体不好”之类的传闻，平时明明很喜欢吃橄榄，<br>
+
+也可能会想：“今天还是别吃了吧。”<br>
+
+（橄榄是默认会放进去的。）
+
+再进一步说，面对“请问有没有不太喜欢的蔬菜？”这个问题，<br>
+
+也可以回答“韭菜”，给店员一个意料之外的答案，让对方为难。<br>
+
+（韭菜不是默认会放进去的。或者说，店里根本没有韭菜，<br>
+
+就算点了也不会给你加进去。）
+
+不过，那位客人并没有这样回答来为难店员（当然了），<br>
+
+大概是想了这样一番事情——“我倒是没有特别不喜欢的蔬菜……可是，<br>
+
+他们问的不是这个意思吧。简单说，就是有没有不想让他们放进去的蔬菜，<br>
+
+对吧。我现在是不想吃橄榄。可是我并不讨厌橄榄，<br>
+
+要我回答‘我不喜欢橄榄’，总觉得又不太愿意。”<br>
+
+所以才出现了（停顿了几秒），最后做出了上面那样的回答。
+
+我在旁边听着这段对话，一边吃着虾仁牛油果三明治，<br>
+
+一边想着：“平时在自己人之间理所当然使用的词，<br>
+
+最好不要以为对外人也能原样传达啊。”
+
+又想着：“反过来说，如果只抓住对方话语的表面，<br>
+
+是不是也有可能听漏了对方真正想表达的事情呢？”
+
+还想着：“话说回来，我觉得最近餐饮店的店员，<br>
+
+是不是太过专注于把说话方式变得温和了。”
+
+以及：“说到底，‘请问空盘子我给您收走了可以吗’，<br>
+
+明明是现在要做的事，为什么要用过去式呢？”<br>
+
+就这样，我还想到了一些别人家店里的情况，<br>
+
+然后吃完了虾仁牛油果三明治。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして。プログラマーのギンです。<br>
 
 毎日くだらないことを考えるのを趣味にしています。<br>

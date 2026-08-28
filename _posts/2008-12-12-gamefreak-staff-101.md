@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: グラフィックデザイナー歴8ヶ月
+title: 【工作日志】八个月的游戏图形设计师
 date: '2008-12-12'
 permalink: /gamefreak-staff/entry-101/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 101
-gf_entry_title: グラフィックデザイナー歴8ヶ月
+gf_entry_title: 【工作日志】八个月的游戏图形设计师
 gf_original_title: グラフィックデザイナー歴8ヶ月
-gf_translation_title: ''
-translation_available: false
-summary: はじめまして、今年もあと僅かですね。 今年の4月に入社したグラフィックデザイナーのカラシです。
-translation_status: missing
+gf_translation_title: 【工作日志】八个月的游戏图形设计师
+translation_available: true
+summary: 入职八个月的新人图形设计师，记录从培训到参与实际开发、学习像素画与工作流程的日常。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · グラフィックデザイナー歴8ヶ月
@@ -47,7 +47,51 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，今年也快过完了呢。<br>
+
+我是今年4月入职的图形设计师卡拉希。
+
+入职之后，转眼间好像已经过了约8个月……真的好快……！
+
+新人培训结束后，[拿到名片](http://www.gamefreak.co.jp/blog/staff/?p=79)的事仿佛还在昨天。<br>
+
+现在作为正式的 GAME FREAK 一员，我每天都在开心地踏踏实实工作。
+
+我这个新人目前正在做的事情是，<br>
+
+一边参与实际的开发工作，一边逐步<br>
+
+学习图形设计师工作所需的<br>
+
+知识以及设备的使用方法等。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/101/karashi081212-f38fffad.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/101/karashi081212-f38fffad.jpg" alt="教わり中" loading="lazy"></a></figure>
+
+此外，我也会参加公司内部举办的图形相关讲习会和<br>
+
+学习会等，或者利用空闲时间，看看共享空间里<br>
+
+摆放的画作和企划书资料。
+
+入职半年，虽然已经相当习惯工作了，<br>
+
+但像素画还是常常画不出自己想要的质量，作为 GAME FREAK 的图形设计师，<br>
+
+没法像前辈们那样利落地推进工作，也时不时会感到焦虑……；
+
+不过，每天都能学到关于如何制作游戏的新知识，<br>
+
+这既新鲜又有趣！
+
+我会以总有一天成为一名合格的 GAME FREAK 图形设计师为目标，<br>
+
+首先努力做好交给我的工作。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 はじめまして、今年もあと僅かですね。<br>
 
 今年の4月に入社したグラフィックデザイナーのカラシです。

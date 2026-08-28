@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: 音楽をはじめたきっかけ
+title: 【工作日志】2009年音乐启蒙与游戏旋律
 date: '2009-01-30'
 permalink: /gamefreak-staff/entry-110/
 categories:
@@ -33,13 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 110
-gf_entry_title: 音楽をはじめたきっかけ
+gf_entry_title: 【工作日志】2009年音乐启蒙与游戏旋律
 gf_original_title: 音楽をはじめたきっかけ
-gf_translation_title: ''
-translation_available: false
-summary: ゲームフリークのスタッフボイスをご覧のみなさま、はじめまして。 サウンドデザイナーのKAGEです。 サウンド専任で、主にBGMの作編曲の仕事をしています。
-  今回は僕が音楽を始めることになったきっかけについて、 お話したいと思います。
-translation_status: missing
+gf_translation_title: 【工作日志】2009年音乐启蒙与游戏旋律
+translation_available: true
+summary: 声音设计师回顾四岁学琴的起点，以及从演奏、创作一路走向游戏音乐开发的经历。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · 音楽をはじめたきっかけ
@@ -48,7 +47,103 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+初次见面，感谢大家阅读 GAME FREAK 的员工日志。<br>
+
+我是声音设计师 KAGE。<br>
+
+我专门负责声音方面的工作，主要从事背景音乐的作曲与编曲。<br>
+
+这次，我想和大家聊聊<br>
+
+我开始接触音乐的契机。
+
+我从4岁左右开始学习钢琴，<br>
+
+契机是当时就读的幼儿园里，<br>
+
+我总是目不转睛地盯着老师弹琴。<br>
+
+因为我看得实在太入神了，听说老师在和家长面谈时，<br>
+
+曾对我母亲说：“他好像对钢琴非常感兴趣呢。”<br>
+
+母亲听到后便问我：“你想学钢琴吗？”<br>
+
+而我回答：“想学！”据说就是这样开始的。<br>
+
+我家里没有人会演奏乐器，也谈不上喜欢音乐，<br>
+
+总的来说，是个和音乐缘分很浅的家庭，<br>
+
+所以我常常会想，父母当时居然买了钢琴给我，<br>
+
+还愿意让我去学习，真是很不容易啊。<br>
+
+对于勇敢的父母和家人的行动，我心中充满了感激（笑）。
+
+我当时的老师不仅对课程，对礼仪规矩等方面也很严格，<br>
+
+听说我经常挨训后哭着回家，<br>
+
+不过我这人毕竟很不服输，只要没能得到通过，<br>
+
+就会因为不甘心而继续练习，如此反复。
+
+即使身边学钢琴的人很少，<br>
+
+即使周围的人一个接一个地放弃了钢琴，我也一直坚持了下来，<br>
+
+我想，纯粹是因为我喜欢音乐。<br>
+
+把原本做不到的事变得能够做到的喜悦，<br>
+
+以及通过汇报演出等机会在众人面前演奏音乐，<br>
+
+从而让别人感到快乐的喜悦，都是无可替代的。
+
+从小学高年级开始，我渐渐从“演奏的喜悦”<br>
+
+转向了“创作的喜悦”，<br>
+
+开始专心投入写曲子。<br>
+
+从那时起，我就隐约开始希望将音乐作为自己的工作。<br>
+
+另外，我当时还经常把《勇者斗恶龙》等游戏的音乐凭耳朵听写出来，<br>
+
+再按照游戏剧情推进的顺序弹奏，<br>
+
+常常玩这种有些特别的游戏（？）。<br>
+
+那就是我开始享受游戏音乐的契机。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/110/kage090130_02-63957be3.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/110/kage090130_02-63957be3.jpg" alt="音楽室" loading="lazy"></a></figure>
+
+从那以后一路走到今天，<br>
+
+真的是一段漫长的旅程，绝不是一条平坦的路，<br>
+
+但为了实现目标需要什么，<br>
+
+以及掌握什么样的能力才重要，<br>
+
+这些我始终牢记在心，一路蛮干着走了过来。<br>
+
+既然还要继续从事这份工作，今后也会一直这样，<br>
+
+不断磨炼自己……！我这样想着。
+
+怀着“想让听到音乐的人感到快乐”的心情，今天也努力投入开发。<br>
+
+为了把好音乐带给大家，我正在努力，<br>
+
+还请期待我们的作品哦！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 ゲームフリークのスタッフボイスをご覧のみなさま、はじめまして。<br>
 
 サウンドデザイナーのKAGEです。<br>

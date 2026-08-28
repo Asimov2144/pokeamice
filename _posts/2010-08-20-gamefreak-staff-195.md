@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: この夏は、東京から出ないことにした。
+title: 【工作日志】2010年盛夏的新岛海风
 date: '2010-08-20'
 permalink: /gamefreak-staff/entry-195/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 195
-gf_entry_title: この夏は、東京から出ないことにした。
+gf_entry_title: 【工作日志】2010年盛夏的新岛海风
 gf_original_title: この夏は、東京から出ないことにした。
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！ Web担当のにょろリカです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年盛夏的新岛海风
+translation_available: true
+summary: 妮罗莉卡离开东京前往新岛，记录清澈港湾、白色沙滩与没有娱乐设施的悠闲岛上生活。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · この夏は、東京から出ないことにした。
@@ -47,7 +47,119 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！<br>
+
+我是负责网站工作的妮罗莉卡。
+
+连续多日的酷暑，让人不知不觉就总想把自己关在开着空调的房间里，<br>
+
+不过，难得是夏天嘛！所以我还是出门去玩了一趟。<br>
+
+为了和富士山狂热者[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)一较高下，妮罗莉卡这次的目标是“大海”。
+
+那么，来出一道题。<br>
+
+这里是哪里呢？<br>
+
+↓<br>
+
+↓<br>
+
+↓<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_01-30687659.jpg" alt="ここはどこでしょう？" loading="lazy"></a></figure><br>
+
+・<br>
+
+・<br>
+
+・<br>
+
+答案是“东京都”。<br>
+
+这里是位于东京湾以南约160公里的新岛。<br>
+
+从东京都心乘坐捷朵船，只需两个半小时，就能看到这样的景色。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_02-6d5ccd3b.jpg" alt="水底に自分の影" loading="lazy"></a></figure><br>
+
+这可不是游泳池哦，是大海，是港口。<br>
+
+照片上可能不太容易看出来，<br>
+
+明明是每天都有船只和许多人进出的港口，海水却清澈到<br>
+
+连自己的影子都能映在海底。
+
+据说大约四分之一世纪前，这里曾经热闹地聚集着许多年轻人，<br>
+
+不过那已经是很久以前的事了。<br>
+
+如今，这是一个悠闲的小岛，只能零零星星看到一些带孩子出游的家庭。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_03-b25be0e9.jpg" alt="乗るしかない！このビッグウェーブに！" loading="lazy"></a></figure><br>
+
+羽伏浦是冲浪手们聚集的地方。<br>
+
+这里是非常有名的冲浪胜地，甚至还举办过冲浪国际大赛，<br>
+
+听说也有许多冲浪手从海外前来。<br>
+
+不会冲浪的我，不禁担心自己会不会就这样被冲到美国去，<br>
+
+不过……
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_04-d4fe5acc.jpg" alt="羽伏浦" loading="lazy"></a></figure><br>
+
+绵延6.5公里的纯白沙滩，非常值得一看！
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_05-471d8036.jpg" alt="虹" loading="lazy"></a></figure><br>
+
+雨后的港口出现了一道巨大的彩虹。不是合成的。
+
+顺带一提，新岛上没有便利店。<br>
+
+第一次来的时候，我还想着“会不会很不方便？”，<br>
+
+不过岛上也有几家卖日用品的店，而且晚上反正会睡觉，<br>
+
+所以完全没有这回事。
+
+不只是便利店，电影院、游戏厅之类的<br>
+
+所谓娱乐设施也都没有。<br>
+
+住的旅馆里甚至连空调和电视机都没有。<br>
+
+即便如此，逗留期间我每天早早起床，吃完美味的早餐后<br>
+
+就去海边，回到旅馆午睡，吃过午饭之后<br>
+
+再骑自行车探索小岛，或者手里拿着冰棒<br>
+
+在附近散散步，晚上还会放烟花，能做的事情多得不得了，<br>
+
+每天都过得特别忙碌（笑）。
+
+所谓“真正需要的东西”，说不定其实<br>
+
+并没有自己想象中那么多。
+
+唯一遗憾的是海钓。<br>
+
+我凌晨四点半起床挑战了一番，结果漂亮地空军了……。<br>
+
+为了报复这次失败，妮罗莉卡在心里决定，绝对还要再去一次这座岛。
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" alt="チョビ" loading="lazy"></a></figure><br>
+
+在旅馆里，我没锁门，还把门半开着，不知不觉间竟然来了一位客人……
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！<br>
 
 Web担当のにょろリカです。

@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: それぞれの就職活動
+title: 【工作日志】2010年招聘与求职故事
 date: '2010-02-05'
 permalink: /gamefreak-staff/entry-168/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 168
-gf_entry_title: それぞれの就職活動
+gf_entry_title: 【工作日志】2010年招聘与求职故事
 gf_original_title: それぞれの就職活動
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは！採用担当さとうです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年招聘与求职故事
+translation_available: true
+summary: GAME FREAK启动2011年度应届招聘，并预告员工分享各自求职时的想法、经历与辛苦。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · それぞれの就職活動
@@ -47,7 +47,29 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好！我是负责招聘的佐藤。
+
+最近在街上也越来越常能看到穿着西装的学生了呢？<br>
+
+说起来，GAME FREAK目前也正在接受2011年度应届毕业生招聘报名！
+
+首先，请通过[Rikunabi](http://job.rikunabi.com/2011/company/top/r189900076/)报名。
+
+今年又会遇到怎样的各位呢……我从现在开始就非常期待了。
+
+接下来，我们计划请GAME FREAK的员工们，讲讲自己求职时的故事。<br>
+
+比如当时在想些什么、经历过哪些辛苦之类的。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/168/sato_100205-11d662bb.jpg" alt="公司介绍宣传册" loading="lazy"></a></figure>
+
+正在求职的朋友们，请记得来看看哦。
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは！採用担当さとうです。
 
 街でもスーツ姿の学生さんを見かけることが多くなってきましたね?。<br>

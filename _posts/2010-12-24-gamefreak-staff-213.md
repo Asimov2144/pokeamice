@@ -1,6 +1,6 @@
 ---
 layout: gamefreak-legacy-blog
-title: ゲームフリーク忘年会2010
+title: 【工作日志】2010年GAME FREAK忘年会
 date: '2010-12-24'
 permalink: /gamefreak-staff/entry-213/
 categories:
@@ -33,12 +33,12 @@ gf_blog_categories:
 archive_type: gamefreak_legacy_blog
 gf_legacy_blog: staff
 gf_legacy_post_id: 213
-gf_entry_title: ゲームフリーク忘年会2010
+gf_entry_title: 【工作日志】2010年GAME FREAK忘年会
 gf_original_title: ゲームフリーク忘年会2010
-gf_translation_title: ''
-translation_available: false
-summary: こんにちは、はじめまして！ プログラマーのアーリーです。
-translation_status: missing
+gf_translation_title: 【工作日志】2010年GAME FREAK忘年会
+translation_available: true
+summary: GAME FREAK员工记录2010年忘年会：抢答与面板问答轮番进行，现场热烈又充满欢笑。
+translation_status: openai-machine-translated
 search: true
 source:
   title: 晴れたり時々曇ったり · ゲームフリーク忘年会2010
@@ -47,7 +47,69 @@ source:
   source_type: official_blog_wayback
 ---
 
-<div data-gf-language-panel="ja">
+<div data-gf-language-panel="zh-CN">
+你好，初次见面！<br>
+
+我是程序员阿利。
+
+今年也所剩无几了呢。<br>
+
+大家已经参加过忘年会了吗？<br>
+
+GAME FREAK 举办了每年惯例的活动小组<br>
+
+主办的忘年会。<br>
+
+我也是活动小组的成员，所以属于主办方。
+
+今年的忘年会是团队对抗的问答大会，<br>
+
+前半部分是抢答，后半部分是面板问答。<br>
+
+抢答环节准备了正式的抢答器，<br>
+
+答题者们也都带着认真严肃的目光迎接答题。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/213/ari101224_01-ddd59536.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/213/ari101224_01-ddd59536.jpg" alt="正解は…？" loading="lazy"></a></figure>
+
+那么，现在来看看实际使用过的一道题！
+
+**以“ゼ”开头的宝可梦有……<br>捷克罗姆、斑斑马、杰尼龟这3只，<br>那么，以“ゼ”结尾的宝可梦是哪一只？**
+
+答案稍后揭晓。
+
+后半部分是面板问答。这边同样全是难题！<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/213/ari101224_02-366e0763.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/213/ari101224_02-366e0763.jpg" alt="相談中" loading="lazy"></a></figure><br>
+
+全体工作人员都在苦思冥想……。
+
+问答环节总共进行了大约1个小时，<br>
+
+时间却在不知不觉间一下子就过去了。
+
+那么，刚才那道题的答案是“**甜甜萤**”。<br>
+
+在这么多宝可梦当中，名字以“ゼ”结尾的<br>
+
+只有这一种。<br>
+
+顺带一提，这道题在出题者念到“以ゼ开头”时，<br>
+
+就已经有答对的队伍出现了！<br>
+
+站在出题方的立场上，还真是有点不甘心呢……。
+
+就这样，忘年会顺利地在热烈的气氛中结束了。<br>
+
+看起来大家都玩得很开心，负责筹备的一方也非常满足。
+
+那么各位，祝大家圣诞快乐，也祝大家过个好年！
+
+<br>
+</div>
+
+<div data-gf-language-panel="ja" hidden>
 こんにちは、はじめまして！<br>
 
 プログラマーのアーリーです。
