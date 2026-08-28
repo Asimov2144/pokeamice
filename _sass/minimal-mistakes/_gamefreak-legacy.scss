@@ -1,14 +1,37 @@
 .gf-legacy-site {
   --gf-accent: #111;
+  // Noto Sans CJK keeps the Chinese glyphs close to the Japanese original.
+  // The following fallbacks cover Windows, macOS and Linux without requiring
+  // a large font binary to be committed to the archive repository.
+  --gf-font-zh: "Noto Sans CJK SC", "Noto Sans SC", "Source Han Sans SC", "思源黑体", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+  --gf-font-ja: "Noto Sans CJK JP", "Noto Sans JP", "Source Han Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
   width: min(800px, calc(100% - 24px));
   margin: 1.4rem auto 2rem;
   color: #333;
   background: #fff;
-  font-family: Verdana, "Yu Gothic", Meiryo, sans-serif;
+  font-family: var(--gf-font-zh);
   font-size: 13px;
   line-height: 1.75;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.15);
 }
+
+.gf-legacy-site h1,
+.gf-legacy-site h2,
+.gf-legacy-site h3,
+.gf-legacy-site h4,
+.gf-legacy-site h5,
+.gf-legacy-site h6,
+.gf-legacy-site button,
+.gf-legacy-site input,
+.gf-legacy-site select,
+.gf-legacy-site textarea { font-family: var(--gf-font-zh); }
+
+.gf-legacy-site [data-gf-language-panel="ja"],
+.gf-legacy-site [data-gf-language-panel="ja"] *,
+.gf-legacy-site [data-gf-language-title="ja"],
+.gf-legacy-site [data-gf-language-text="ja"] { font-family: var(--gf-font-ja); }
 
 .gf-legacy-site--art { --gf-accent: #9a3f3f; }
 .gf-legacy-site--staff { --gf-accent: #6c3e8f; }
