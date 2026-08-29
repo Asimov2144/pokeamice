@@ -31,6 +31,14 @@ from gamefreak_translate_deepseek import (
     validate_translation,
 )
 from gamefreak_translate_openai import call_openai
+from gamefreak_staff_names import (
+    DEFAULT_POLICY as DEFAULT_STAFF_NAMES,
+    applicable_names,
+    load_policy as load_staff_names,
+    name_context,
+    normalize_body as normalize_staff_body,
+    normalize_card_text as normalize_staff_card_text,
+)
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -101,7 +109,14 @@ def existing_translation(path: Path) -> bool:
     return bool(body.strip()) and status not in {"", "missing"} and "中文翻译待完成" not in body
 
 
-def build_prompt(blog_name: str, number: int, source_metadata: dict[str, Any], body: str, glossary: str) -> str:
+def build_prompt(
+    blog_name: str,
+    number: int,
+    source_metadata: dict[str, Any],
+    body: str,
+    glossary: str,
+    staff_names: str = "",
+) -> str:
     blog = BLOGS[blog_name]
     return f"""你是资深日中翻译与宝可梦史料编辑，正在整理 GAME FREAK 的「{blog['series']}」历史博客。
 
@@ -120,6 +135,7 @@ def build_prompt(blog_name: str, number: int, source_metadata: dict[str, Any], b
 7. 不要在中文正文中附上整段日文；日文原文会由网页的“阅读语言”切换单独展示。
 8. 另生成一个用于搜索结果和外部卡片的中文标题与摘要。标题应根据本篇真正主题自然拟写，参考风格：{blog['title_style']}；标题约 10—20 字，摘要约 30—60 字。标题和摘要不得含日文假名，不要只写“第{number}回”或复述占位说明。
 9. 只输出严格 JSON：{{"translation_markdown":"翻译后的 Markdown 正文","translation_title":"可检索中文标题","translation_summary":"30—60字中文摘要"}}。不要输出 front matter、解释或代码围栏。
+{staff_names}
 
 文章元数据：
 - 日期：{source_metadata.get('date') or ''}
@@ -145,8 +161,9 @@ def make_metadata(
     checks: list[dict[str, Any]],
     title: str,
     summary: str,
+    name_annotations: list[dict[str, str]] | None = None,
 ) -> dict[str, Any]:
-    return {
+    metadata = {
         "article_id": source.get("article_id") or f"{BLOGS[blog_name]['slug']}-{number}",
         "post_id": number,
         "lang": "zh-CN",
@@ -165,6 +182,10 @@ def make_metadata(
         "glossary_missing_targets": [check["target"] for check in checks if check["status"] == "missing-target"],
         "glossary_checks": checks,
     }
+    if name_annotations:
+        metadata["staff_name_policy"] = "kana-first; first occurrence annotated"
+        metadata["staff_name_annotations"] = name_annotations
+    return metadata
 
 
 def main() -> None:
@@ -181,6 +202,7 @@ def main() -> None:
     parser.add_argument("--retries", type=int, default=2)
     parser.add_argument("--delay", type=float, default=0.5)
     parser.add_argument("--glossary", default=os.getenv("GAMEFREAK_GLOSSARY_PATH", ""))
+    parser.add_argument("--staff-names", type=Path, default=DEFAULT_STAFF_NAMES)
     parser.add_argument("--reuse-existing", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -193,6 +215,7 @@ def main() -> None:
     if glossary_path is None or not glossary_path.exists():
         raise SystemExit("Glossary Master JSON was not found. Pass --glossary path/to/glossary-master.json.")
     glossary = load_glossary(glossary_path)
+    staff_name_entries = load_staff_names(args.staff_names)
     print(f"Glossary: {glossary_path} ({len(glossary)} usable entries)")
 
     names = ["art", "staff"] if args.blog == "both" else [args.blog]
@@ -216,8 +239,19 @@ def main() -> None:
                 print(f"Would translate {blog_name} [{index}/{len(selected)}] {number} (glossary matches: {len(matches)})")
                 continue
             print(f"OpenAI {blog_name} [{index}/{len(selected)}] {number}")
+            article_names = applicable_names(source_body, staff_name_entries, number) if blog_name == "staff" else []
+            staff_name_prompt = ""
+            if article_names:
+                staff_name_prompt = "\n10. Staff 人物昵称必须遵守以下本篇人物表：\n" + name_context(article_names)
             result = call_openai(
-                build_prompt(blog_name, number, source_metadata, source_body, glossary_context(matches)),
+                build_prompt(
+                    blog_name,
+                    number,
+                    source_metadata,
+                    source_body,
+                    glossary_context(matches),
+                    staff_name_prompt,
+                ),
                 args.api_key,
                 args.base_url,
                 args.model,
@@ -231,6 +265,16 @@ def main() -> None:
             if not summary:
                 summary = re.sub(r"[*_`#]", "", next((p.strip() for p in re.split(r"\n\s*\n", translation) if p.strip()), ""))
                 summary = re.sub(r"\s+", " ", summary).strip()[:60]
+            name_annotations: list[dict[str, str]] = []
+            if blog_name == "staff":
+                translation, name_annotations = normalize_staff_body(
+                    source_body,
+                    translation,
+                    staff_name_entries,
+                    number,
+                )
+                title = normalize_staff_card_text(title, article_names)
+                summary = normalize_staff_card_text(summary, article_names)
             warnings = validate_translation(source_body, translation)
             checks = glossary_checks(matches, translation)
             missing = [check["target"] for check in checks if check["status"] == "missing-target"]
@@ -238,7 +282,23 @@ def main() -> None:
                 warnings.append("missing_glossary_targets: " + ", ".join(missing[:12]))
             if warnings:
                 print(f"  warning: {', '.join(warnings)}")
-            write_markdown(output, make_metadata(blog_name, number, source_metadata, args.model, warnings, glossary_path, matches, checks, title, summary), translation)
+            write_markdown(
+                output,
+                make_metadata(
+                    blog_name,
+                    number,
+                    source_metadata,
+                    args.model,
+                    warnings,
+                    glossary_path,
+                    matches,
+                    checks,
+                    title,
+                    summary,
+                    name_annotations,
+                ),
+                translation,
+            )
             time.sleep(max(args.delay, 0))
 
 

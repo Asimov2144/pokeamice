@@ -1,0 +1,169 @@
+schema_version: 1
+policy:
+  display: kana-first
+  annotation: first-visible-occurrence-per-article
+  format: "{source}（{target}）"
+  note: 中文译名为本存档的编辑统一译名；原站员工昵称优先保留日文写法。
+names:
+  - source_terms: [カニ子]
+    target: 蟹子
+    variants: [蟹子, 螃蟹子, 喀妮子]
+  - source_terms: [エノキ]
+    target: 榎木
+    variants: [榎木, Enoki]
+    exclude_articles: [164]
+  - source_terms: [よっしー]
+    target: 小吉
+    variants: [Yossy, Yoshi]
+  - source_terms: [デコ]
+    target: 德科
+    variants: [德科, 迪可, Deco]
+  - source_terms: [なぎー, ナギー]
+    target: 纳吉
+    variants: [纳吉, Nagi, Nagii, 小凪, 娜吉, 凪]
+  - source_terms: [マー]
+    target: 小玛
+    variants: [小玛, Maa, 小马, 阿玛]
+  - source_terms: [ジョニー, ジョニ]
+    target: 乔尼
+    variants: [乔尼, 约翰尼]
+  - source_terms: [もりもと]
+    target: 森本
+    variants: [森本]
+  - source_terms: [おにいさん]
+    target: 哥哥
+    variants: [哥哥, 大哥]
+  - source_terms: [ねこスQ]
+    target: 猫S Q
+    variants: [猫S Q]
+  - source_terms: [カビ]
+    target: 卡比
+    variants: [卡比, Kabi]
+    exclude_source_suffixes: [ゴン]
+    exclude_variant_suffixes: [兽]
+  - source_terms: [えるかつ]
+    target: 埃尔卡茨
+    variants: [埃尔卡茨, 埃尔克茨, 艾尔卡茨, 艾尔胜, Erukatsu, Elkatsu]
+  - source_terms: [マシュー]
+    target: 马修
+    variants: [马修]
+  - source_terms: [さとう]
+    target: 佐藤
+    variants: [佐藤]
+  - source_terms: [ほっしー]
+    target: 小星
+    variants: [小星, 星星, 霍希]
+  - source_terms: [いわし, イワシ]
+    target: 沙丁鱼
+    variants: [沙丁鱼, 岩石]
+  - source_terms: [カラシ]
+    target: 卡拉希
+    variants: [卡拉希, 芥末]
+  - source_terms: [ギン]
+    target: 银
+    variants: [Gin]
+  - source_terms: [KAGE]
+    target: 影
+    variants: []
+  - source_terms: [スティック]
+    target: 斯蒂克
+    variants: [斯蒂克, Stick, 摇杆]
+  - source_terms: [ラッペン]
+    target: 拉彭
+    variants: [拉彭]
+  - source_terms: [ユッフィー]
+    target: 尤菲
+    variants: [尤菲, 优菲, Yuffie]
+  - source_terms: [ほず]
+    target: 阿穗
+    variants: [阿穗, 穗津, Hozu]
+  - source_terms: [カンタロウ]
+    target: 坎太郎
+    variants: [坎太郎]
+  - source_terms: [しゃち]
+    target: 沙奇
+    variants: [沙奇]
+  - source_terms: [おおむら]
+    target: 大村
+    variants: [大村]
+  - source_terms: [にょろリカ]
+    target: 妮洛莉卡
+    variants: [妮洛莉卡, 妮罗莉卡, 喵罗莉卡, 涅罗莉卡, 涅洛莉卡, nyororika, nyoroRika, NyoroRika, 尼约莉卡, 妮约莉卡, 蜿蜒莉卡]
+  - source_terms: [ペンギン]
+    target: 企鹅
+    variants: [企鹅]
+  - source_terms: [めめた]
+    target: 芽芽
+    variants: [芽芽, Memeta]
+  - source_terms: [ユーリー]
+    target: 尤里
+    variants: [尤里, 尤利]
+  - source_terms: [わも]
+    target: 和本
+    variants: [和本, 和茂]
+  - source_terms: [あきら]
+    target: 阿基拉
+    variants: [阿基拉]
+    exclude_source_prefixes: [さくま]
+    exclude_source_suffixes: [め]
+  - source_terms: [もりび]
+    target: 森比
+    variants: [森比]
+  - source_terms: [タピオカ]
+    target: 塔皮奥卡
+    variants: [塔皮奥卡, Tapioka]
+  - source_terms: [フジワ]
+    target: 藤和
+    variants: [藤和]
+  - source_terms: [ともやん]
+    target: 友彦
+    variants: [友彦]
+  - source_terms: [まつみや]
+    target: 松宫
+    variants: [松宫]
+  - source_terms: [ジェイミー]
+    target: 杰米
+    variants: [杰米]
+  - source_terms: [かつお, カツオ]
+    target: 鲣鱼
+    variants: [鲣鱼]
+  - source_terms: [イクラ]
+    target: 鱼子
+    variants: [鱼子]
+    exclude_articles: [164]
+  - source_terms: [なかつい]
+    target: 中津井
+    variants: [中津井]
+  - source_terms: [ふじわらもとふみ]
+    target: 藤原元史
+    variants: [藤原元史]
+  - source_terms: [ああああ]
+    target: 啊啊啊啊
+    variants: [啊啊啊啊]
+  - source_terms: [トラッシュ]
+    target: 特拉什
+    variants: [特拉什, Trash]
+  - source_terms: [アーリー]
+    target: 阿利
+    variants: [阿利, Early, Arii]
+  - source_terms: [まさゆき]
+    target: 正幸
+    variants: [正幸]
+  - source_terms: [マッツン]
+    target: 小松
+    variants: [小松]
+  - source_terms: [ラッティ]
+    target: 拉蒂
+    variants: [拉蒂]
+  - source_terms: [じろ]
+    target: 次郎
+    variants: [次郎]
+  - source_terms: [ヒート]
+    target: 希特
+    variants: [希特, Heat]
+  - source_terms: [タノウエ]
+    target: 田上
+    variants: [田上]
+  - source_terms: [ナオト]
+    target: 直人
+    variants: [直人]
