@@ -19,7 +19,11 @@ sidebar:
        bright, not the grimy dark of heavy cyberpunk — cyan carries the base
        layer, magenta and violet carry emphasis, white carries the reading. */
     --pa-paper:      #eef7fa;
-    --pa-card:       rgba(255,255,255,.72);
+    /* Nearly opaque, not glass: the site wallpaper is randomback.php, a
+       different image on every load, so anything showing through a panel
+       tints the reading surface a colour nobody chose. The blur stays for
+       the edge; the wallpaper is left to the gaps, as .home-feed does. */
+    --pa-card:       rgba(255,255,255,.94);
     --pa-card-solid: #f7fdff;
     --pa-sunk:       #e0eff4;
     --pa-ink:        #0d1b21;
@@ -50,7 +54,7 @@ sidebar:
      add body.theme-bg-black. Following prefers-color-scheme instead put a dark
      panel inside a light page for anyone whose OS is dark. */
   body.theme-bg-black {
-    --pa-paper:#08161c; --pa-card:rgba(20,42,52,.62); --pa-card-solid:#0f2630; --pa-sunk:#102c36;
+    --pa-paper:#08161c; --pa-card:rgba(15,38,48,.94); --pa-card-solid:#0f2630; --pa-sunk:#102c36;
     --pa-ink:#e2f6fa; --pa-ink-soft:#95b8c4; --pa-ink-faint:#6a8c99;
     --pa-rule:#1d4655; --pa-edge:#35bcd6;
     --pa-accent:#35bcd6; --pa-accent-soft:#123540; --pa-hot:#ff5cb8; --pa-violet:#9a86ff;
