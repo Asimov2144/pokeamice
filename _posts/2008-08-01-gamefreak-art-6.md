@@ -33,6 +33,12 @@ source:
   url: http://www.gamefreak.co.jp/blog/art/?p=6
   archive_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=6
   source_type: official_blog_wayback
+entities:
+  works:
+    - "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

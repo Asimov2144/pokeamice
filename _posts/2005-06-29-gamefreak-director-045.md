@@ -35,6 +35,19 @@ glossary_match_count: 5
 glossary_missing_targets:
 - 大电视
 - 电视机
+entities:
+  people:
+    - "增田顺一"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+    - "罗兰"
+    - "KORG"
+  events:
+    - "宝可梦嘉年华"
+    - "宝可梦乐园"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

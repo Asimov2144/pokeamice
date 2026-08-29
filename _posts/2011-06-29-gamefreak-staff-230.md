@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=230
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=230
   source_type: official_blog_wayback
+entities:
+  people:
+    - "增田顺一"
+    - "めめた"
+  organizations:
+    - "Game Freak"
+  events:
+    - "E3"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=147
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=147
   source_type: official_blog_wayback
+entities:
+  people:
+    - "ほっしー"
+  works:
+    - "宝可梦 心金·魂银"
+  organizations:
+    - "Game Freak"
+    - "小岩井乳业株式会社"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

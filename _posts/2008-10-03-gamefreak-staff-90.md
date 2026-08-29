@@ -45,6 +45,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=90
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=90
   source_type: official_blog_wayback
+entities:
+  people:
+    - "太田"
+  works:
+    - "宝可梦 白金"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=163
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=163
   source_type: official_blog_wayback
+entities:
+  people:
+    - "にょろリカ"
+    - "蟹子"
+  works:
+    - "宝可梦 银魂"
+  organizations:
+    - "Game Freak"
+  events:
+    - "新年贺图像素大赛"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

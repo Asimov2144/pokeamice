@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=123
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=123
   source_type: official_blog_wayback
+entities:
+  people:
+    - "田尻智"
+    - "纳吉"
+  organizations:
+    - "Game Freak"
+  events:
+    - "GAME FREAK创立20周年纪念庆典"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

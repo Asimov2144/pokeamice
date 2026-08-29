@@ -33,6 +33,21 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+    - "かげやん"
+  works:
+    - "宝可梦 黑·白"
+    - "吃豆人"
+    - "宇宙巡航机"
+    - "最终幻想IV"
+  organizations:
+    - "Game Freak"
+    - "Fami通"
+  events:
+    - "PRESS START 2011"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

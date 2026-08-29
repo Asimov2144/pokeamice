@@ -45,6 +45,20 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=99
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=99
   source_type: official_blog_wayback
+entities:
+  people:
+    - "いわし"
+    - "森本"
+    - "蟹子"
+    - "カビ"
+  works:
+    - "宝可梦 白金"
+  organizations:
+    - "Game Freak"
+  events:
+    - "宝可梦白金发售纪念对战大会"
+    - "宝可梦世界大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

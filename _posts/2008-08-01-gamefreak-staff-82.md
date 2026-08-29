@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=82
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=82
   source_type: official_blog_wayback
+entities:
+  people:
+    - "乔尼"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+  events:
+    - "任天堂 2008 E3 普通说明会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

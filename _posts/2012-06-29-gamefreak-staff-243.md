@@ -45,6 +45,24 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=243
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=243
   source_type: official_blog_wayback
+entities:
+  people:
+    - "增田顺一"
+    - "海野"
+  works:
+    - "宝可梦 黑2·白2"
+    - "宝可梦 黑·白"
+    - "宝可梦 AR 搜寻器"
+    - "宝可梦全国图鉴 Pro"
+    - "剧场版宝可梦 超级愿望：酋雷姆 VS 圣剑士凯路迪欧"
+    - "美洛耶塔的闪亮独唱会"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+  events:
+    - "发售日活动"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

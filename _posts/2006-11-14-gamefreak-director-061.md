@@ -33,6 +33,16 @@ proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 大钳蟹
+entities:
+  people:
+    - "增田顺一"
+  organizations:
+    - "Game Freak"
+    - "宝可梦大好き俱乐部"
+    - "Club Nintendo"
+  events:
+    - "宝可梦快乐生日音乐会"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

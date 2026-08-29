@@ -45,6 +45,27 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=70
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=70
   source_type: official_blog_wayback
+entities:
+  people:
+    - "纳吉"
+    - "森本"
+    - "けむし"
+    - "ヒサコウ"
+    - "ヒカリ"
+    - "セガール"
+    - "コトラ"
+    - "カビ"
+    - "チョコぼう"
+    - "ぎんが"
+  works:
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "宝可梦公司"
+    - "Game Freak"
+  events:
+    - "公司内部宝可梦DP对战大会"
+    - "公司对抗宝可梦DP对战大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

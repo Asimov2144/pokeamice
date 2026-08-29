@@ -45,6 +45,19 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=85
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=85
   source_type: official_blog_wayback
+entities:
+  people:
+    - "纳吉"
+    - "小玛"
+    - "特拉什"
+  works:
+    - "宝可梦 白金"
+    - "宝可梦卡牌游戏 破空的激斗"
+  organizations:
+    - "Game Freak"
+  events:
+    - "宝可梦卡牌游戏大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

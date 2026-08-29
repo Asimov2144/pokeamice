@@ -34,6 +34,23 @@ glossary_match_count: 7
 glossary_missing_targets:
 - 拟态
 - 电视机
+entities:
+  people:
+    - "增田顺一"
+    - "森本"
+  works:
+    - "宝可梦 黑·白"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+    - "宝可梦公司"
+    - "罗兰"
+    - "KORG"
+  events:
+    - "宝可梦世界锦标赛"
+    - "a-nation"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

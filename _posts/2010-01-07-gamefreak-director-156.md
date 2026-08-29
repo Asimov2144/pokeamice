@@ -32,6 +32,22 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+    - "罗兰·艾默里奇"
+  works:
+    - "2012"
+    - "飞屋环游记"
+    - "大白鲨3D"
+    - "终结者2"
+    - "阿凡达"
+  organizations:
+    - "Game Freak"
+    - "皮克斯"
+    - "环球影城"
+    - "富士通"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

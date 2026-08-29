@@ -45,6 +45,11 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=53
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=53
   source_type: official_blog_wayback
+entities:
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

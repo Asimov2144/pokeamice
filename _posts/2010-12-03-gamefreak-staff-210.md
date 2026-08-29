@@ -45,6 +45,23 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=210
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=210
   source_type: official_blog_wayback
+entities:
+  people:
+    - "中津井"
+    - "卡比"
+    - "藤原元史"
+    - "啊啊啊啊"
+    - "吉田"
+    - "特拉什"
+    - "阿利"
+    - "拉彭"
+    - "一之濑刚"
+  works:
+    - "宝可梦 黑·白"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

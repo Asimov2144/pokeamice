@@ -33,6 +33,16 @@ source:
   url: http://www.gamefreak.co.jp/blog/art/?p=8
   archive_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=8
   source_type: official_blog_wayback
+entities:
+  people:
+    - "杉森建"
+    - "迈克尔·穆尔"
+  works:
+    - "剧场版宝可梦 钻石·珍珠"
+    - "幻影的霸者 索罗亚克"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=65
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=65
   source_type: official_blog_wayback
+entities:
+  people:
+    - "杉森建"
+    - "榎木"
+  organizations:
+    - "Game Freak"
+  events:
+    - "杉森建的像素画讲座"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

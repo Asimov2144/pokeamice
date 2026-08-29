@@ -33,6 +33,17 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+  works:
+    - "宝可梦 Smash！"
+    - "你能说出宝可梦吗？BW"
+  organizations:
+    - "Game Freak"
+  events:
+    - "《宝可梦 Smash！》大家一起唱！《你能说出宝可梦吗？BW》in 六本木新城"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

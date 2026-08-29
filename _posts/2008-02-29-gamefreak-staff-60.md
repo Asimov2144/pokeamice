@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=60
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=60
   source_type: official_blog_wayback
+entities:
+  people:
+    - "Hiro"
+  works:
+    - "宝可梦 红·绿"
+    - "宝可梦 红宝石·蓝宝石"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Atari"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

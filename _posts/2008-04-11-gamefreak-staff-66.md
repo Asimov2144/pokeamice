@@ -45,6 +45,20 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=66
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=66
   source_type: official_blog_wayback
+entities:
+  people:
+    - "森本"
+    - "卡比"
+  works:
+    - "宝可梦 钻石·珍珠"
+    - "大家的宝可梦牧场"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+  events:
+    - "公司内部宝可梦DP游戏大赛"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

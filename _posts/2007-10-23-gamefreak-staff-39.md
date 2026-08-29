@@ -45,6 +45,20 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=39
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=39
   source_type: official_blog_wayback
+entities:
+  people:
+    - "乔尼"
+    - "小吉"
+  works:
+    - "宝可梦 红·绿"
+    - "宝可梦 红宝石·蓝宝石"
+    - "宝可梦 火红·叶绿"
+    - "宝可梦 金·银"
+  organizations:
+    - "Game Freak"
+  events:
+    - "溪流垂钓与烧烤"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

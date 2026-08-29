@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=182
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=182
   source_type: official_blog_wayback
+entities:
+  people:
+    - "森本"
+  works:
+    - "宝可梦 心金·魂银"
+  organizations:
+    - "ENTERBRAIN"
+    - "Game Freak"
+  events:
+    - "电玩通奖颁奖典礼"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

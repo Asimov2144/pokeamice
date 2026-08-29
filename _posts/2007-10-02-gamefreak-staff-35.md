@@ -45,6 +45,19 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=35
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=35
   source_type: official_blog_wayback
+entities:
+  people:
+    - "拉彭"
+    - "蟹子"
+    - "N先生"
+    - "M先生"
+  works:
+    - "宝可梦 红·绿"
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "Game Freak"
+    - "宝可梦中心"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

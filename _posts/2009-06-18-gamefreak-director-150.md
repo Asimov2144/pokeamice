@@ -33,6 +33,18 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 0
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+  works:
+    - "Game Informer 6月号"
+    - "Gamasutra"
+  organizations:
+    - "Game Freak"
+  events:
+    - "美国地区大会"
+    - "Pokemon World Championships 2009"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

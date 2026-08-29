@@ -45,6 +45,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=197
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=197
   source_type: official_blog_wayback
+entities:
+  works:
+    - "鬼太郎之妻"
+    - "天下统一"
+    - "宝冢DVD"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

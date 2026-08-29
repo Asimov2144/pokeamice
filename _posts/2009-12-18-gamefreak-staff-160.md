@@ -45,6 +45,19 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=160
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=160
   source_type: official_blog_wayback
+entities:
+  people:
+    - "松岛"
+    - "森本"
+  works:
+    - "宝可梦 心金·魂银"
+    - "宝可梦 金·银"
+    - "宝可梦 水晶版"
+    - "宝可梦 红宝石·蓝宝石"
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

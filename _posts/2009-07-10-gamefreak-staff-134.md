@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=134
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=134
   source_type: official_blog_wayback
+entities:
+  people:
+    - "纳吉"
+    - "えるかつ"
+    - "いわし"
+    - "KAGE"
+    - "マー"
+    - "蟹子"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=38
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=38
   source_type: official_blog_wayback
+entities:
+  people:
+    - "小玛"
+    - "纳吉"
+  organizations:
+    - "Game Freak"
+  events:
+    - "宝可梦卡牌游戏社内赛"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

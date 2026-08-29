@@ -45,6 +45,25 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=166
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=166
   source_type: official_blog_wayback
+entities:
+  people:
+    - "纳吉"
+    - "森本"
+    - "鲣鱼"
+    - "卡比"
+    - "直人"
+    - "沙丁鱼"
+  works:
+    - "宝可梦 白金"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+  events:
+    - "宝可梦世界锦标赛"
+    - "公司内部对战大会"
+    - "宝可梦DP游戏大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

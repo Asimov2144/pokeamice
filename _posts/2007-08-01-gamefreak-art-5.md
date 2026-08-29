@@ -33,6 +33,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/art/?p=5
   archive_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=5
   source_type: official_blog_wayback
+entities:
+  people:
+    - "杉森建"
+    - "Shokotan"
+  works:
+    - "剧场版宝可梦 钻石·珍珠"
+    - "帝牙卢卡VS帕路奇亚VS达克莱伊"
+    - "基拉祈"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=151
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=151
   source_type: official_blog_wayback
+entities:
+  people:
+    - "增田顺一"
+    - "一之濑"
+    - "森本"
+  works:
+    - "宝可梦 心金·魂银"
+    - "宝可梦 金·银"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

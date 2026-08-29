@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=117
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=117
   source_type: official_blog_wayback
+entities:
+  works:
+    - "斯特罗齐"
+    - "诅咒的木乃伊"
+    - "维拉·帕莱蒂"
+    - "卡坦岛"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

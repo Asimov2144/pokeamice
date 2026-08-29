@@ -45,6 +45,16 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=89
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=89
   source_type: official_blog_wayback
+entities:
+  people:
+    - "吉田"
+    - "杉森建"
+  works:
+    - "宝可梦 白金"
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

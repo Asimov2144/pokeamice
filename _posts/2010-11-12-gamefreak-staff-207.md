@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=207
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=207
   source_type: official_blog_wayback
+entities:
+  people:
+    - "大村"
+    - "杉森建"
+  works:
+    - "宝可梦 黑·白"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

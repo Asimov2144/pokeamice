@@ -45,6 +45,16 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=59
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=59
   source_type: official_blog_wayback
+entities:
+  people:
+    - "本城直季"
+    - "巴比耶里"
+    - "马克·雷德"
+  works:
+    - "small planet"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

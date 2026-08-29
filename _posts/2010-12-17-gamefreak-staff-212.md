@@ -45,6 +45,20 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=212
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=212
   source_type: official_blog_wayback
+entities:
+  people:
+    - "鹤野刚士"
+    - "纳吉"
+    - "かつお"
+    - "榎木"
+  works:
+    - "宝可梦卡牌游戏BW初学者套装"
+    - "宝可梦卡牌游戏BW 黑色收藏"
+    - "宝可梦卡牌游戏BW 白色收藏"
+  organizations:
+    - "Game Freak"
+    - "宝可梦中心"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

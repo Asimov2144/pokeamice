@@ -45,6 +45,16 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=100
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=100
   source_type: official_blog_wayback
+entities:
+  people:
+    - "森本"
+    - "鲣鱼"
+    - "鱼子"
+  organizations:
+    - "Game Freak"
+  events:
+    - "宝可梦白金对战大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

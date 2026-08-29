@@ -45,6 +45,19 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=106
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=106
   source_type: official_blog_wayback
+entities:
+  people:
+    - "ラッペン"
+    - "ジョニー"
+    - "おにいさん"
+    - "榎木"
+    - "森本"
+    - "いわし"
+  organizations:
+    - "Game Freak"
+  events:
+    - "红白歌会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=203
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=203
   source_type: official_blog_wayback
+entities:
+  people:
+    - "景山将太"
+    - "松宫"
+  works:
+    - "宝可梦 黑·白"
+    - "宝可梦 红·绿"
+    - "宝可梦 黑·白 原声音乐光盘"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

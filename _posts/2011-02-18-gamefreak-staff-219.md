@@ -45,6 +45,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=219
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=219
   source_type: official_blog_wayback
+entities:
+  people:
+    - "森本"
+  organizations:
+    - "Game Freak"
+  events:
+    - "WCS2011"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

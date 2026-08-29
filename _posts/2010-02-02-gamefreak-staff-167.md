@@ -45,6 +45,12 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=167
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=167
   source_type: official_blog_wayback
+entities:
+  organizations:
+    - "Game Freak"
+  events:
+    - "贺年点阵大赛"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

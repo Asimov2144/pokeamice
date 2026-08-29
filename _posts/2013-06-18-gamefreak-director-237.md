@@ -32,6 +32,14 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+  works:
+    - "宝可梦X·Y"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

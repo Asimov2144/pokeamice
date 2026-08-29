@@ -45,6 +45,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=156
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=156
   source_type: official_blog_wayback
+entities:
+  people:
+    - "小玛"
+  works:
+    - "宝可梦 心金·魂银"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

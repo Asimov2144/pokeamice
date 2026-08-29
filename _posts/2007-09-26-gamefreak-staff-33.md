@@ -45,6 +45,16 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=33
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=33
   source_type: official_blog_wayback
+entities:
+  people:
+    - "纳吉"
+  works:
+    - "宝可梦 钻石"
+    - "宝可梦不可思议的迷宫 时之探险队·暗之探险队"
+    - "勇者斗恶龙"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

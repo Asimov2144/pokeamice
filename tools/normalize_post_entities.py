@@ -31,9 +31,42 @@ POSTS = ROOT / "_posts"
 KINDS = ("people", "works", "organizations", "events")
 
 # One canonical spelling per entity, matching what the extractor emits.
+#
+# The extractor is told to use formal names and mostly does, but across 459
+# posts it still returned GAME FREAK five times, 宝可梦GO beside Pokémon GO, and
+# bare surnames where the full name appears elsewhere. Those are the same
+# entity, so they are folded here rather than left to split the index.
 RENAME = {
     "GAME FREAK": "Game Freak",
+    "GameFreak": "Game Freak",
+    "gamefreak": "Game Freak",
     "ゲームフリーク": "Game Freak",
+    "石原": "石原恒和",
+    "增田": "增田顺一",
+    "杉森": "杉森建",
+    "田尻": "田尻智",
+    "大森": "大森滋",
+    "宝可梦GO": "Pokémon GO",
+    "宝可梦 GO": "Pokémon GO",
+    "Pokemon GO": "Pokémon GO",
+    "任天堂株式会社": "任天堂",
+    "Nintendo Co., Ltd.": "任天堂",
+    "株式会社ポケモン": "宝可梦公司",
+    "The Pokémon Company": "宝可梦公司",
+    "宝可梦公司": "宝可梦公司",
+    # The staff blog signs posts with pen names, sometimes in kana and
+    # sometimes transliterated, which split one author across two entries.
+    "もりもと": "森本",
+    "エノキ": "榎木",
+    "なぎー": "纳吉",
+    "スティック": "斯蒂克",
+    "カニ子": "蟹子",
+    "宝可梦 白金版": "宝可梦 白金",
+    "宝可梦 心金・魂银": "宝可梦 心金·魂银",
+    "宝可梦 黑・白": "宝可梦 黑·白",
+    "宝可梦 钻石・珍珠": "宝可梦 钻石·珍珠",
+    "宝可梦世界锦标赛2010": "宝可梦世界锦标赛",
+    "看我嘛": "看我嘛活动",
     "Nintendo": "任天堂",
     "ポケットモンスター": "宝可梦",
     "ポケットモンスター プラチナ": "宝可梦 白金",

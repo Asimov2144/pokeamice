@@ -33,6 +33,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/art/?p=226
   archive_url: https://web.archive.org/web/20130808124032/http://www.gamefreak.co.jp/blog/art/?p=226
   source_type: official_blog_wayback
+entities:
+  people:
+    - "杉森建"
+  works:
+    - "剧场版宝可梦 Best Wishes 比克提尼与黑英雄 捷克罗姆·比克提尼与白英雄 莱希拉姆"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

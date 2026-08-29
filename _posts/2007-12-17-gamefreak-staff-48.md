@@ -45,6 +45,12 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=48
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=48
   source_type: official_blog_wayback
+entities:
+  people:
+    - "增田顺一"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

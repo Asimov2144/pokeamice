@@ -45,6 +45,14 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=42
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=42
   source_type: official_blog_wayback
+entities:
+  people:
+    - "斯蒂克"
+  works:
+    - "昆蒂"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

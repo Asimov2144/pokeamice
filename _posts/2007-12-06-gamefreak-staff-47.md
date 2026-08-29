@@ -45,6 +45,21 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=47
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=47
   source_type: official_blog_wayback
+entities:
+  works:
+    - "宝可梦 红·绿"
+    - "宝可梦 红宝石·蓝宝石"
+    - "宝可梦 火红·叶绿"
+    - "宝可梦 金·银"
+    - "宝可梦 绿宝石"
+    - "宝可梦 水晶版"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+    - "罗兰"
+    - "KORG"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

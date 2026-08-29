@@ -33,6 +33,21 @@ translation_status: openai-machine-translated
 proofread_confidence: null
 glossary_match_count: 4
 glossary_missing_targets: []
+entities:
+  people:
+    - "增田顺一"
+  works:
+    - "宝可梦 战斗革命"
+    - "宝可梦 电影"
+    - "宝可梦 集换式卡牌游戏"
+  organizations:
+    - "小学馆"
+    - "Game Freak"
+    - "任天堂"
+    - "Creatures"
+  events:
+    - "次世代世界兴趣博览会"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

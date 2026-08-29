@@ -33,6 +33,23 @@ proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 大钳蟹
+entities:
+  people:
+    - "增田顺一"
+    - "斯特拉文斯基"
+    - "肖斯塔科维奇"
+  works:
+    - "春之祭"
+    - "火鸟"
+    - "第五交响曲"
+    - "第七交响曲"
+  organizations:
+    - "Game Freak"
+    - "林肯公园"
+    - "活结"
+    - "地下音乐"
+    - "The Prodigy"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

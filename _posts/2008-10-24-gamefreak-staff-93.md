@@ -45,6 +45,18 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=93
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=93
   source_type: official_blog_wayback
+entities:
+  people:
+    - "松田"
+    - "蟹子"
+  works:
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "Game Freak"
+  events:
+    - "3D图形培训"
+    - "声音培训"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

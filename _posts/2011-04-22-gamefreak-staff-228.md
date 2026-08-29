@@ -45,6 +45,17 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=228
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=228
   source_type: official_blog_wayback
+entities:
+  people:
+    - "妮洛莉卡"
+    - "和本"
+    - "まるしお"
+    - "いっちー"
+    - "正幸"
+    - "希特"
+  organizations:
+    - "Game Freak"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

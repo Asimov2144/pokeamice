@@ -45,6 +45,15 @@ source:
   url: http://www.gamefreak.co.jp/blog/staff/?p=88
   archive_url: https://web.archive.org/web/20130808162750/http://www.gamefreak.co.jp/blog/staff/?p=88
   source_type: official_blog_wayback
+entities:
+  people:
+    - "榎木"
+  organizations:
+    - "Game Freak"
+  events:
+    - "宝可梦游戏日美交流赛"
+    - "宝可梦卡牌游戏世界大会"
+
 ---
 
 <div data-gf-language-panel="zh-CN">

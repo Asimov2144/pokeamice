@@ -34,6 +34,22 @@ proofread_confidence: null
 glossary_match_count: 3
 glossary_missing_targets:
 - 大钳蟹
+entities:
+  people:
+    - "增田顺一"
+    - "杉森建"
+  works:
+    - "宝可梦 黑·白"
+  organizations:
+    - "Game Freak"
+    - "任天堂"
+    - "One Direction"
+    - "玩具反斗城"
+    - "GAME STOP"
+  events:
+    - "宝可梦 黑·白 欧洲发售活动"
+    - "宝可梦 黑·白 北美发售活动"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>

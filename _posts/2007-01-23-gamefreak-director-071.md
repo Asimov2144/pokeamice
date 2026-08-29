@@ -34,6 +34,16 @@ proofread_confidence: null
 glossary_match_count: 1
 glossary_missing_targets:
 - 牡丹
+entities:
+  people:
+    - "宫本茂"
+    - "增田顺一"
+  works:
+    - "宝可梦 钻石·珍珠"
+  organizations:
+    - "任天堂"
+    - "Game Freak"
+
 ---
 
 <aside class="gf-director-translation-note"><strong>中文译稿已完成校对</strong><span>译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span></aside>
