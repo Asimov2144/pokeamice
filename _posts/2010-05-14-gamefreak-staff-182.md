@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 『宝可梦 心金·魂银』<br>
 
-我是导演[森本](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)。
+我是导演[もりもと（森本）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%82%E3%82%8A%E3%82%82%E3%81%A8)。
 
 大家好久不见！
 

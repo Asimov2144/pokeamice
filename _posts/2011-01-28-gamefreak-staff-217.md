@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好——我是めめた！<br>
+大家好——我是めめた（芽芽）！<br>
 
 GAME FREAK 的惯例活动<br>
 

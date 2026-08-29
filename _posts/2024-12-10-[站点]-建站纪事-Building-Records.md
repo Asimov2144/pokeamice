@@ -74,8 +74,6 @@ workflow:
 entities:
   works:
     - "宝可梦"
-    - "开源"
-    - "宝可梦友会"
   organizations:
     - "Poke Amice Docs"
 ---

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是负责网站开发的蟹子。<br>
+大家好，我是负责网站开发的カニ子（蟹子）。<br>
 
 转眼间一月都过半了……<br>
 

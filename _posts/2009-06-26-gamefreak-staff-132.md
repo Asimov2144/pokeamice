@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好！我是负责招聘的佐藤。
+你好！我是负责招聘的さとう（佐藤）。
 
 每天都在想着招聘新伙伴的我，<br>
 

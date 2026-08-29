@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好。<br>
 
-我是策划人员いわし。
+我是策划人员いわし（沙丁鱼）。
 
 突然想问问大家，玩宝可梦时，什么时候最投入呢？<br>
 
@@ -70,7 +70,7 @@ source:
 
 其实，GAME FREAK公司内部也举办了宝可梦白金发售纪念对战大会！<br>
 
-之前的[蟹子的日记](http://www.gamefreak.co.jp/blog/staff/?p=95)里也提到过吧。
+之前的[カニ子（蟹子）的日记](http://www.gamefreak.co.jp/blog/staff/?p=95)里也提到过吧。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/99/iwa081201_01-daead84b.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/99/iwa081201_01-daead84b.jpg" alt="みんな対戦中" loading="lazy"></a></figure>
 
@@ -86,7 +86,7 @@ source:
 
 对我来说，最值得关注的果然还是：面对那位曾让无数猛将挑战、<br>
 
-却都被打得落花流水的公司内部最强宝可梦训练家森本，<br>
+却都被打得落花流水的公司内部最强宝可梦训练家もりもと（森本），<br>
 
 这次会不会出现一位能让他尝到败绩的训练家吧～。<br>
 
@@ -94,7 +94,7 @@ source:
 
 本次大会共有26名员工参加，规模相当大。<br>
 
-员工博客里的熟面孔蟹子和卡比等人也参加了哦！<br>
+员工博客里的熟面孔カニ子和カビ（卡比）等人也参加了哦！<br>
 
 由于参赛人数较多，大家被分成两个联盟进行循环赛，<br>
 
@@ -116,7 +116,7 @@ source:
 
 就是这样。<br>
 
-我要靠这套阵容夺得天下！等着我哦——森本先生！
+我要靠这套阵容夺得天下！等着我哦——もりもと先生！
 
 3天后……
 

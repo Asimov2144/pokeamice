@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是负责招聘的 NyoroRika。
+大家好，我是负责招聘的 にょろリカ（妮洛莉卡）。
 
 首先，向在3月11日（星期五）发生的东北地区太平洋近海地震中受灾的<br>
 

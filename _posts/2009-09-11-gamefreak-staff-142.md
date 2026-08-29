@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 《宝可梦 心金·魂银》<br>
 
-我是导演森本。
+我是导演もりもと（森本）。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg" alt="ポケウォーカーといっしょ" loading="lazy"></a></figure>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好！我是溶食兽爱好者拉彭。<br>
+你好！我是溶食兽爱好者ラッペン（拉彭）。<br>
 
 这次也要聊聊我的兴趣啦！
 

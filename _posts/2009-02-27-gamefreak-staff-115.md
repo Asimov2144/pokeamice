@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是尤菲。<br>
+我是ユッフィー（尤菲）。<br>
 
 三十多岁。<br>
 

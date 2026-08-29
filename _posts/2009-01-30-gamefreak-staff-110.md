@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 初次见面，感谢大家阅读 GAME FREAK 的员工日志。<br>
 
-我是声音设计师 KAGE。<br>
+我是声音设计师 KAGE（影）。<br>
 
 我专门负责声音方面的工作，主要从事背景音乐的作曲与编曲。<br>
 

@@ -37,7 +37,7 @@ gf_entry_title: 【工作日志】2010年盛夏的新岛海风
 gf_original_title: この夏は、東京から出ないことにした。
 gf_translation_title: 【工作日志】2010年盛夏的新岛海风
 translation_available: true
-summary: 妮罗莉卡离开东京前往新岛，记录清澈港湾、白色沙滩与没有娱乐设施的悠闲岛上生活。
+summary: 妮洛莉卡离开东京前往新岛，记录清澈港湾、白色沙滩与没有娱乐设施的悠闲岛上生活。
 translation_status: openai-machine-translated
 search: true
 source:
@@ -50,13 +50,13 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是负责网站工作的妮罗莉卡。
+我是负责网站工作的にょろリカ（妮洛莉卡）。
 
 连续多日的酷暑，让人不知不觉就总想把自己关在开着空调的房间里，<br>
 
 不过，难得是夏天嘛！所以我还是出门去玩了一趟。<br>
 
-为了和富士山狂热者[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)一较高下，妮罗莉卡这次的目标是“大海”。
+为了和富士山狂热者[よちよち](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%88%E3%81%A1%E3%82%88%E3%81%A1)一较高下，にょろリカ这次的目标是“大海”。
 
 那么，来出一道题。<br>
 
@@ -150,7 +150,7 @@ source:
 
 我凌晨四点半起床挑战了一番，结果漂亮地空军了……。<br>
 
-为了报复这次失败，妮罗莉卡在心里决定，绝对还要再去一次这座岛。
+为了报复这次失败，にょろリカ在心里决定，绝对还要再去一次这座岛。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/195/100820nyoro_06-95e0e514.jpg" alt="チョビ" loading="lazy"></a></figure><br>
 

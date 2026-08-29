@@ -54,7 +54,7 @@ source:
 
 我的工作是负责“信息管理”。<br>
 
-关于信息管理的工作内容，请参阅[之前尤里的文章](http://www.gamefreak.co.jp/blog/staff/?p=98)。
+关于信息管理的工作内容，请参阅[之前ユーリー（尤里）的文章](http://www.gamefreak.co.jp/blog/staff/?p=98)。
 
 这次，我想谈谈在我这个新人眼中的 GAME FREAK。<br>
 

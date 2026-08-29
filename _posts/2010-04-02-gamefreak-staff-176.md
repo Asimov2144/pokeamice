@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是蜿蜒莉卡。<br>
+大家好，我是にょろリカ（妮洛莉卡）。<br>
 
 不知不觉，从12月入职到现在已经4个月了。<br>
 

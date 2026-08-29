@@ -61,18 +61,13 @@ workflow:
 entities:
   people:
     - "大森滋"
-    - "一之瀬剛"
-    - "James Turnner"
+    - "一之濑刚"
+    - "James Turner"
   works:
     - "宝可梦"
-    - "开发"
-    - "年表"
-    - "第四世代"
-    - "第五世代"
-    - "第六世代"
   organizations:
     - "Game Freak"
-    - "Nintendo"
+    - "任天堂"
 ---
 
 # 近年 Game Freak 开发事件年表

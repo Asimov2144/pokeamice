@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是カニ子。<br>
+大家好，我是カニ子（蟹子）。<br>
 
 上周暂停更新的员工日志，<br>
 
@@ -68,7 +68,7 @@ source:
 
 让大人们手足无措，不过每当他一动不动地凝视着我，那双纯真的眼睛就让我彻底投降了！<br>
 
-总之，这是一个彻头彻尾的笨蛋家长式暑假——！（おにいさん）
+总之，这是一个彻头彻尾的笨蛋家长式暑假——！（おにいさん（哥哥））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" alt="マシュー" loading="lazy"></a></figure><br>
 
@@ -78,7 +78,7 @@ source:
 
 我发现一个星期里原来能做这么多事情！真是又惊讶又感慨。<br>
 
-今后也想比平时更加珍惜每一天，好好度过。（マシュー）
+今后也想比平时更加珍惜每一天，好好度过。（マシュー（马修））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer15-310b7f66.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer15-310b7f66.jpg" alt="しゃち" loading="lazy"></a></figure><br>
 
@@ -90,7 +90,7 @@ source:
 
 车站前的超市居然倒闭了！只好每隔3天步行10公里去采购。<br>
 
-就这样，しゃち度过了没有空调、规律又健康的生活。（しゃち）
+就这样，しゃち（沙奇）度过了没有空调、规律又健康的生活。（しゃち）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" alt="カラシ" loading="lazy"></a></figure><br>
 
@@ -98,7 +98,7 @@ source:
 
 虽然人很多，但馆内很凉快，<br>
 
-看着悠然游动的鱼儿，整个人都被治愈了。（カラシ）
+看着悠然游动的鱼儿，整个人都被治愈了。（カラシ（卡拉希））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" alt="ヒロ" loading="lazy"></a></figure><br>
 
@@ -120,7 +120,7 @@ source:
 
 我本来正怀着幸福的心情眺望着地平线，<br>
 
-却遭到了鸢的袭击，真是倒了大霉。（さとう）
+却遭到了鸢的袭击，真是倒了大霉。（さとう（佐藤））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" alt="おせんべい" loading="lazy"></a></figure><br>
 
@@ -148,13 +148,13 @@ source:
 
 走出电影院时，我有种刚去乡下亲戚家串过门的感觉。<br>
 
-除此之外，还把祭典抽奖抽中的西瓜吃得一干二净，就这样啦——。（ジョニー）
+除此之外，还把祭典抽奖抽中的西瓜吃得一干二净，就这样啦——。（ジョニー（乔尼））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure><br>
 
 开始养猫了！<br>
 
-我觉得全世界没有哪只猫比我家这孩子更可爱、更漂亮、更聪明！（エノキ）
+我觉得全世界没有哪只猫比我家这孩子更可爱、更漂亮、更聪明！（エノキ（榎木））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
 
@@ -170,7 +170,7 @@ source:
 
 一个人的话有些危险，但和伙伴一起就什么都做得到。<br>
 
-和伙伴协力合作真的很重要呢。（なぎー）
+和伙伴协力合作真的很重要呢。（なぎー（纳吉））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer32-e9f38354.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer32-e9f38354.gif" alt="KAGE" loading="lazy"></a></figure><br>
 
@@ -180,13 +180,13 @@ source:
 
 聊起了令人怀念的往事，话题也越聊越热烈。我们互相分享近况，还热烈地<br>
 
-谈起了今后的梦想。得到了非常多的力量。（KAGE）
+谈起了今后的梦想。得到了非常多的力量。（KAGE（影））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" alt="ほっしー" loading="lazy"></a></figure><br>
 
 因为7月买了 iPhone 3G S，所以一会儿下载应用，一会儿编程，<br>
 
-一会儿又摸来摸去，回过神来暑假就结束了。简直已经成了身体的一部分！（ほっしー）
+一会儿又摸来摸去，回过神来暑假就结束了。简直已经成了身体的一部分！（ほっしー（小星））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" alt="スティック" loading="lazy"></a></figure><br>
 
@@ -202,7 +202,7 @@ source:
 
 横跨日本列岛的地幔，今年是不是有点不妙啊。<br>
 
-我开始担心起来，想着是不是该认真考虑一下防灾小物件之类的了。（スティック）
+我开始担心起来，想着是不是该认真考虑一下防灾小物件之类的了。（スティック（斯蒂克））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer19-9899debf.jpg" alt="っゃっゃ" loading="lazy"></a></figure><br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是乔尼。<br>
+你好，我是ジョニー（乔尼）。<br>
 
 我是 GF 的平面设计师，也是活动委员。<br>
 
@@ -66,7 +66,7 @@ source:
 
 坐巴士移动时玩的是宝可梦宾果游戏。<br>
 
-Yoshi亲手制作、放进活动手册里的宾果卡大显身手♪<br>
+よっしー（小吉）亲手制作、放进活动手册里的宾果卡大显身手♪<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_01-b89d6b84.jpg" alt="旅のしおり" loading="lazy"></a></figure>
 
@@ -76,7 +76,7 @@ Yoshi亲手制作、放进活动手册里的宾果卡大显身手♪<br>
 
 那里还有野生动物出没，听说真的会有熊出现。<br>
 
-乔尼姑且还带了些用来赶熊的装备。
+ジョニー姑且还带了些用来赶熊的装备。
 
 然后终于要钓鱼了！有钓到，也有没钓到，不过——<br>
 
@@ -98,7 +98,7 @@ Yoshi亲手制作、放进活动手册里的宾果卡大显身手♪<br>
 
 之后就是户外活动的经典项目，烧烤时间。<br>
 
-从早上开始就饿着肚子，所以乔尼也一直非常期待。<br>
+从早上开始就饿着肚子，所以ジョニー也一直非常期待。<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/39/johnny01_05-9269fff8.jpg" alt="バーベキューで" loading="lazy"></a></figure>
 
@@ -122,7 +122,7 @@ Yoshi亲手制作、放进活动手册里的宾果卡大显身手♪<br>
 
 一想到下次要举办什么活动，我现在就已经兴奋起来了，<br>
 
-以上就是乔尼的日志？。
+以上就是ジョニー的日志？。
 
 <br>
 </div>

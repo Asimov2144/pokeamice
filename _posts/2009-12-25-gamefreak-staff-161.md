@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责 Web 开发的蟹子。<br>
+你好，我是负责 Web 开发的カニ子（蟹子）。<br>
 
 正值忘年会、新年会以及各种聚会接连不断的季节，<br>
 
@@ -94,7 +94,7 @@ GAME FREAK 前些日子也举办了一年一度的忘年会。<br>
 
 为了庆祝《宝可梦 心金／魂银》<br>
 
-发售时收到的香槟，由总监森本来开瓶！
+发售时收到的香槟，由总监もりもと（森本）来开瓶！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/161/kani091225_03-55102fa4.jpg" alt="もりもと" loading="lazy"></a></figure><br>
 
@@ -114,7 +114,7 @@ B）1.5座胡夫金字塔的高度<br>
 
 C）3只哥斯拉的身高<br>
 
-D）活动委员会成员纳吉的身高×70人
+D）活动委员会成员なぎー（纳吉）的身高×70人
 
 大家在30秒以内想出正确答案了吗？
 

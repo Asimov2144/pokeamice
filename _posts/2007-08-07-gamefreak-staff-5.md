@@ -48,11 +48,11 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是螃蟹子。<br>
+你好，我是カニ子（蟹子）。<br>
 
 最近天气越来越热了，大家过得还好吗？
 
-螃蟹子不耐热，所以天气热的时候，经常会摊平在室内，<br>
+カニ子不耐热，所以天气热的时候，经常会摊平在室内，<br>
 
 最近假日的好伙伴是「[スクリューブレイカー 轟振どりるれろ](http://www.nintendo.co.jp/n08/v49j/index.html)」！<br>
 
@@ -74,13 +74,13 @@ source:
 
 而且主角库里莉也很可爱！
 
-螃蟹子不太擅长动作游戏，<br>
+カニ子不太擅长动作游戏，<br>
 
 不过《螺旋破坏者》的教程很贴心，所以玩起来很放心。<br>
 
-但它也不是简单得过头，而是个颇有难度、让人欲罢不能的家伙。这个夏天，螃蟹子就靠钻头过日子了。
+但它也不是简单得过头，而是个颇有难度、让人欲罢不能的家伙。这个夏天，カニ子就靠钻头过日子了。
 
-被热得浑身没劲的是螃蟹子养的猫“芋头”。
+被热得浑身没劲的是カニ子养的猫“芋头”。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/5/imo01-17-55-27-8d121bcd.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/5/imo01-17-55-27-8d121bcd.jpg" alt="さといも" loading="lazy"></a></figure>
 

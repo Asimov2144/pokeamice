@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好。<br>
 
-我是负责招聘的佐藤。
+我是负责招聘的さとう（佐藤）。
 
 前几天，我们在 GAME FREAK 的社会招聘页面上新增了[“员工介绍”](https://www.gamefreak.co.jp/career/person.html)！
 

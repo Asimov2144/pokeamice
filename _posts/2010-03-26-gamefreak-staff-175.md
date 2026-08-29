@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责招聘的佐藤。
+你好，我是负责招聘的さとう（佐藤）。
 
 那么，GAME FREAK 的2011年度应届毕业生招聘，<br>
 

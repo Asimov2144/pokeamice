@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好！初次见面。<br>
 
-我是 GAME FREAK 的招聘负责人佐藤。<br>
+我是 GAME FREAK 的招聘负责人さとう（佐藤）。<br>
 
 请多关照。
 

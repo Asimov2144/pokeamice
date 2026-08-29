@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好——！我是平面设计师ねこスQ。<br>
+大家好——！我是平面设计师ねこスQ（猫S Q）。<br>
 
 各位最近过得怎么样？
 

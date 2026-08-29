@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是负责网站开发的蟹子。
+我是负责网站开发的カニ子（蟹子）。
 
 听说前些日子发生了日食。<br>
 
@@ -68,7 +68,7 @@ GAME FREAK的员工们有没有看到呢？
 
 后来听说公司里也曾有一瞬间能看到，日食带来的冲击顿时又翻了一倍。<br>
 
-听说下一次机会要等到2035年，所以我会努力等到那时！（拉彭）
+听说下一次机会要等到2035年，所以我会努力等到那时！（ラッペン（拉彭））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer34-ea404dfa.jpg" alt="ほず" loading="lazy"></a></figure><br>
 
@@ -80,11 +80,11 @@ GAME FREAK的员工们有没有看到呢？
 
 ……这、这不是全黑了吗！<br>
 
-我真想一边看日食，一边吃月见乌冬面。（穗津）
+我真想一边看日食，一边吃月见乌冬面。（ほず（阿穗））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer04-c591faa1.gif" alt="デコ" loading="lazy"></a></figure><br>
 
-忘记看了。下一个26年后，我一定会好好看！（迪可）
+忘记看了。下一个26年后，我一定会好好看！（デコ（德科））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer07-58822b65.gif" alt="ユッフィー" loading="lazy"></a></figure><br>
 
@@ -98,7 +98,7 @@ GAME FREAK的员工们有没有看到呢？
 
 我可不是在偷懒哦！<br>
 
-大家也要注意身体状况的变化（比如空调之类的）！（优菲）
+大家也要注意身体状况的变化（比如空调之类的）！（ユッフィー（尤菲））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/136/writer33-b99a7f76.gif" alt="ボーダー丸" loading="lazy"></a></figure><br>
 

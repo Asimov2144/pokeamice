@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是尤里！
+大家好，我是ユーリー（尤里）！
 
 好久不见了。<br>
 

@@ -48,13 +48,13 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是涅罗莉卡。<br>
+大家好，我是にょろリカ（妮洛莉卡）。<br>
 
 最近，我周围感冒的人很多，大家都还好吗？<br>
 
 那么，这次为大家带来的是《宝可梦黑／白》开发者访谈，<br>
 
-由信息管理组的尤里为我们讲述。<br>
+由信息管理组的ユーリー（尤里）为我们讲述。<br>
 
 信息管理组究竟是做什么工作的呢……？<br>
 
@@ -62,7 +62,7 @@ source:
 
 **―你好。首先请做一下自我介绍。**
 
-你好，我是信息管理组的尤里。
+你好，我是信息管理组的ユーリー。
 
 **―关于信息管理组的工作，您在[之前的文章](http://www.gamefreak.co.jp/blog/staff/?p=98)中也有过介绍，<br>简单来说，主要负责哪些工作呢？**
 
@@ -138,7 +138,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/208/bw101122-f9d64d4f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/208/bw101122-f9d64d4f.jpg" alt="ユーリー" loading="lazy"></a></figure>
 
-我是尤里！
+我是ユーリー！
 
 <br>
 </div>

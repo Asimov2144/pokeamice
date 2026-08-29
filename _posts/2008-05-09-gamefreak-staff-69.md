@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是负责网站的蟹子。上周是黄金周！<br>
+我是负责网站的カニ子（蟹子）。上周是黄金周！<br>
 
 我问了问 GAME FREAK 的大家：“都去哪儿了？做什么了？”
 
@@ -58,7 +58,7 @@ source:
 
 晚上和外甥女、侄子一起玩。<br>
 
-这就是我的黄金周。（德科）
+这就是我的黄金周。（デコ（德科））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure><br>
 
@@ -66,7 +66,7 @@ source:
 
 房间里到处都是常春藤，变得像 GAME FREAK 的[盖亚（会议室）](http://www.gamefreak.co.jp/recruit/rec_mtg.html)一样，让我觉得特别幸福。<br>
 
-另外，我还买了一个叫作迷你电磨的工具，做了些玻璃工艺品。（榎木）
+另外，我还买了一个叫作迷你电磨的工具，做了些玻璃工艺品。（エノキ（榎木））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/84/writer13-af63cbbc.jpg" alt="げいのう" loading="lazy"></a></figure><br>
 
@@ -92,13 +92,13 @@ source:
 
 我去了超级钱汤。<br>
 
-出了好多汗呀。（拉彭）
+出了好多汗呀。（ラッペン（拉彭））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure><br>
 
-黄金周的乔尼原本计划和一直去的工作室里的伙伴们一起大扫除，再去钓鱼烧烤，<br>
+黄金周的ジョニー（乔尼）原本计划和一直去的工作室里的伙伴们一起大扫除，再去钓鱼烧烤，<br>
 
-结果实际上只进行了中扫除，钓鱼也因为下雨取消了，最后成了单纯的聚会喝酒黄金周。（乔尼）
+结果实际上只进行了中扫除，钓鱼也因为下雨取消了，最后成了单纯的聚会喝酒黄金周。（ジョニー）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer11-3220fb34.jpg" alt="スティック" loading="lazy"></a></figure><br>
 
@@ -108,7 +108,7 @@ source:
 
 我很惊讶，夜神乐原来有整整33种舞蹈，而且据说会持续一整晚！<br>
 
-虽然和前面的事没什么关系，但在特产店里，到处都是最近很有名的知事的脸。（斯蒂克）
+虽然和前面的事没什么关系，但在特产店里，到处都是最近很有名的知事的脸。（スティック（斯蒂克））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" alt="ほっしー" loading="lazy"></a></figure><br>
 
@@ -120,11 +120,11 @@ source:
 
 因为大家都在蹦蹦跳跳，我也不由得配合气氛蹦跶了一番。<br>
 
-第二天全身都肌肉酸痛了。（霍希）
+第二天全身都肌肉酸痛了。（ほっしー（小星））
 
 大家度过假期的方式真是千差万别，看起来都很开心呢。<br>
 
-蟹子则是把朋友叫到家里一起玩游戏，<br>
+カニ子则是把朋友叫到家里一起玩游戏，<br>
 
 还去了奥特莱斯商场，没看衣服，反倒一直看路过的狗。
 

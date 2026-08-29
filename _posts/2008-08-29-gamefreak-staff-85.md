@@ -50,13 +50,13 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好！<br>
 
-好久不见，我是 Nagi。
+好久不见，我是 なぎー（纳吉）。
 
 前几天，公司内部举办了宝可梦卡牌游戏大会，<br>
 
 下面就来为大家介绍一下当时的情况。<br>
 
-在 GAME FREAK，正如[之前 Maa 写过的那样](http://www.gamefreak.co.jp/blog/staff/?p=38)，<br>
+在 GAME FREAK，正如[之前 マー（小玛） 写过的那样](http://www.gamefreak.co.jp/blog/staff/?p=38)，<br>
 
 大家会在工作结束后自发举办宝可梦卡牌游戏大会。<br>
 
@@ -92,7 +92,7 @@ source:
 
 就在于可以围绕宝可梦的组合等方面制定各种策略来战斗。
 
-下面是冠军 Trash 对自己牌组的评论。
+下面是冠军 トラッシュ（特拉什） 对自己牌组的评论。
 
 这副冠军牌组的理念是，<br>
 

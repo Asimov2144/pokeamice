@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是负责网站工作的蟹子。
+我是负责网站工作的カニ子（蟹子）。
 
 从今天起，GAME FREAK[秘密基地](http://secretbase.gamefreak.co.jp/)公开了新内容[“文字脸”](http://secretbase.gamefreak.co.jp/mozi/)！
 

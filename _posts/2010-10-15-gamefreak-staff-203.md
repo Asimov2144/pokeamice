@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责网站工作的 NyoroRika。<br>
+你好，我是负责网站工作的 にょろリカ（妮洛莉卡）。<br>
 
 《宝可梦 黑／白》开发工作人员访谈·第3弹，<br>
 
@@ -166,7 +166,7 @@ source:
 
 完全代入那个角色进行作曲。<br>
 
-我从[企划人员松宫](http://www.gamefreak.co.jp/blog/staff/?p=202)那里拿到剧本，一边朗读台词，<br>
+我从[企划人员まつみや（松宫）](http://www.gamefreak.co.jp/blog/staff/?p=202)那里拿到剧本，一边朗读台词，<br>
 
 一边一直弹着钢琴（笑）。
 

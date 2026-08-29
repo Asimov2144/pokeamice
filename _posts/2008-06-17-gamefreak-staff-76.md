@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责网站工作的蟹子。<br>
+你好，我是负责网站工作的カニ子（蟹子）。<br>
 
 从今天起，新增了名为[“GAME FREAK秘密基地”](http://secretbase.gamefreak.co.jp/)的<br>
 

@@ -37,7 +37,7 @@ gf_entry_title: 【工作日志】2008年E3普通说明会现场
 gf_original_title: Nintendo 2008 E3 Media Briefing
 gf_translation_title: 【工作日志】2008年E3普通说明会现场
 translation_available: true
-summary: 约翰尼首次前往美国，亲历任天堂2008年E3普通说明会，记录会场演出、展示设计与现场带来的收获。
+summary: 乔尼首次前往美国，亲历任天堂2008年E3普通说明会，记录会场演出、展示设计与现场带来的收获。
 translation_status: openai-machine-translated
 search: true
 source:
@@ -48,13 +48,13 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-好久不见，我是负责画面的约翰尼。
+好久不见，我是负责画面的ジョニー（乔尼）。
 
 正如 7 月 16 日的觉醒力量中也写到的，<br>
 
 前两周，任天堂 2008 E3 普通说明会在美国举行，<br>
 
-约翰尼也有幸前往了洛杉矶。
+ジョニー也有幸前往了洛杉矶。
 
 第一次参加，我迈着仿佛要跳起来的步子，前往会场柯达剧院。
 
@@ -62,7 +62,7 @@ source:
 
 柯达剧院是一座美丽的剧场，每年也会在这里举行奥斯卡颁奖典礼。<br>
 
-各处都布满了灯光等演出设备。约翰尼光是看着会场的色彩搭配，就已经陶醉其中了。
+各处都布满了灯光等演出设备。ジョニー光是看着会场的色彩搭配，就已经陶醉其中了。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/82/jonny080731_02-5041bbc6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/82/jonny080731_02-5041bbc6.jpg" alt="ブリーフィング開始！" loading="lazy"></a></figure>
 
@@ -96,7 +96,7 @@ source:
 
 我感觉，他们通过演出、舞台装置、内容和发布者的彼此结合，把那家公司特有的“风格”传达了出来。
 
-对于以传达信息、进行表现为工作的约翰尼来说，这次经历在各个方面都是很好的学习。<br>
+对于以传达信息、进行表现为工作的ジョニー来说，这次经历在各个方面都是很好的学习。<br>
 
 第一次前往美国，又参加了任天堂 2008 E3 普通说明会，<br>
 

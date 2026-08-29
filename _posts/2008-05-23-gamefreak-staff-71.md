@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是斯蒂克。
+我是スティック（斯蒂克）。
 
 其实，我发现了一件可怕的事。<br>
 
@@ -76,7 +76,41 @@ source:
 
 之后DS Lite发售时，我想大家也都买了。
 
-把宝可梦？ No, original gameboy advance sp
+我想，公司里大概也有一半的人会把 Game Boy Advance SP 带来吧。
+
+至于初代 Game Boy，几乎已经没人带来公司了。
+
+拥有 PSP 的人也大约占公司的一半。<br>
+
+公司里设置的家用主机大约有15台。
+
+顺带一提，スティック的桌上有6台。<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/71/stick080523_01-bb60591d.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/71/stick080523_01-bb60591d.jpg" alt="スティックのゲーム機" loading="lazy"></a></figure>
+
+もりもと（森本）的桌上有10台。10台！？<br>
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/71/stick080523_02-0d366cc7.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/71/stick080523_02-0d366cc7.jpg" alt="もりもとのゲーム機" loading="lazy"></a></figure>
+
+看来还有人保留着 Game Boy。
+
+这样把这个、那个和其他设备都加起来……<br>
+
+大约有300台？
+
+也就是说，Carrot Tower 22层里放着约300台游戏机！！！<br>
+
+我觉得，很少有事情能比这更可怕。
+
+啊……<br>
+
+我又注意到一件更可怕的事……
+
+那么，游戏软件的数量又是……
+
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/71/stick080522_last-8a49bcae.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/71/stick080522_last-8a49bcae.jpg" alt="ひきだしの中に…" loading="lazy"></a></figure>
+
+<br>
 </div>
 
 <div data-gf-language-panel="ja" hidden>

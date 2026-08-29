@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好——。<br>
 
-我是仓鼠牧场（目前房间里有14只）的老板，尤菲。<br>
+我是仓鼠牧场（目前房间里有14只）的老板，ユッフィー（尤菲）。<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/37/yufu01-2862071e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/37/yufu01-2862071e.jpg" alt="ハムスター牧場" loading="lazy"></a></figure>
 
@@ -62,11 +62,11 @@ GAME FREAK 有一个叫作“信息管理”的部门，是个有点特殊的部
 
 比如检查动画、漫画等相关商品中有没有出现理解上的偏差，或者在把宝可梦翻译成海外版时负责沟通协调，做的就是这类工作。
 
-而我，就是今年加入信息管理部门的尤菲。<br>
+而我，就是今年加入信息管理部门的ユッフィー。<br>
 
 今后还请大家多多关照。
 
-话说回来，正如榎木先生在下面那篇日志里写的，GAME FREAK 马上就要搬家了。
+话说回来，正如エノキ（榎木）先生在下面那篇日志里写的，GAME FREAK 马上就要搬家了。
 
 说到搬家这个活动，总免不了要做“扔东西”这件事吧。<br>
 
@@ -112,7 +112,7 @@ GAME FREAK 有一个叫作“信息管理”的部门，是个有点特殊的部
 
 才没有人会这么做呢。
 
-以上就是尤菲的记录。
+以上就是ユッフィー的记录。
 
 <br>
 </div>

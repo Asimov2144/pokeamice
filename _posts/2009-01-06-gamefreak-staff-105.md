@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-半年不见，我是森本。
+半年不见，我是もりもと（森本）。
 
 新年好！<br>
 

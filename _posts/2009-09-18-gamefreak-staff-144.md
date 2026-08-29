@@ -52,9 +52,9 @@ source:
 
 好久不见。<br>
 
-我是策划员いわし。
+我是策划员いわし（沙丁鱼）。
 
-之前在[斯蒂克](http://www.gamefreak.co.jp/blog/staff/?p=92)和[约翰尼](http://www.gamefreak.co.jp/blog/staff/?p=39)的日记里也提到过，<br>
+之前在[スティック（斯蒂克）](http://www.gamefreak.co.jp/blog/staff/?p=92)和[ジョニー（乔尼）](http://www.gamefreak.co.jp/blog/staff/?p=39)的日记里也提到过，<br>
 
 GAME FREAK 有一个叫“活动委员会”的组织，<br>
 

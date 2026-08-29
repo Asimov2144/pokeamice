@@ -37,7 +37,7 @@ gf_entry_title: 【工作日志】2011年首次挑战交响乐演出
 gf_original_title: 初！
 gf_translation_title: 【工作日志】2011年首次挑战交响乐演出
 translation_available: true
-summary: 参加PRESS START 2011，见证宝可梦乐曲首次演奏，也分享声音设计师KAGE制作管弦乐乐谱的挑战。
+summary: 参加PRESS START 2011，见证宝可梦乐曲首次演奏，也分享声音设计师影制作管弦乐乐谱的挑战。
 translation_status: openai-machine-translated
 search: true
 source:
@@ -86,7 +86,7 @@ GAME FREAK的作品能够参与其中，真的是一件无比光荣的事。
 
 这次的PRESS START上，有个人进行了人生中的第一次挑战。<br>
 
-他就是声音设计师[KAGE](http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
+他就是声音设计师[KAGE（影）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=kage)。
 
 这次演奏的“宝可梦特别组曲”，<br>
 

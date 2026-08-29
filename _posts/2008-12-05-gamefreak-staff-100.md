@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是策划人员沙丁鱼。
+我是策划人员いわし（沙丁鱼）。
 
 继[上一篇员工博客](http://www.gamefreak.co.jp/blog/staff/?p=99)之后，<br>
 
@@ -70,15 +70,15 @@ source:
 
 就在这时，果然又是这个男人一路胜出。<br>
 
-这位得到大家一致认可的公司内部最强宝可梦训练家，就是森本。<br>
+这位得到大家一致认可的公司内部最强宝可梦训练家，就是もりもと（森本）。<br>
 
-究竟会不会有人击败森本呢……！
+究竟会不会有人击败もりもと呢……！
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/100/iwashi081205_02-3744a208.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/100/iwashi081205_02-3744a208.jpg" alt="もりもとvsかつお" loading="lazy"></a></figure>
 
 有啊！
 
-在上一次大会中也表现出色的鲣鱼，终于在半决赛中击败了森本！<br>
+在上一次大会中也表现出色的かつお（鲣鱼），终于在半决赛中击败了もりもと！<br>
 
 说起来，上一次大会采用的是循环赛，胜场最多的人获得冠军，<br>
 
@@ -90,7 +90,7 @@ source:
 
 面对这出人意料的发展，员工们都兴奋不已。大家的目光全都集中到了决赛上！<br>
 
-决赛由击败森本的鲣鱼，对阵虽然是首次登场却一路高歌猛进的鱼子！<br>
+决赛由击败もりもと的かつお，对阵虽然是首次登场却一路高歌猛进的鱼子！<br>
 
 冠军究竟会花落谁家！？
 

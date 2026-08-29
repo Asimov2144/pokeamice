@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-好久不见，我是负责 Web 开发的蟹子。<br>
+好久不见，我是负责 Web 开发的カニ子（蟹子）。<br>
 
 前几天，我人生第一次去看了音乐剧！
 

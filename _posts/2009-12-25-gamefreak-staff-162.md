@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-Web开发的蟹子为大家带来今天的年末特别篇，<br>
+Web开发的カニ子（蟹子）为大家带来今天的年末特别篇，<br>
 
 这次将连发两篇博客。<br>
 
@@ -78,7 +78,7 @@ Web开发的蟹子为大家带来今天的年末特别篇，<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/162/kani091225_04-f256e6c4.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/162/kani091225_04-f256e6c4.jpg" alt="カニ子です！" loading="lazy"></a></figure>
 
-蟹子今年将从 Web 负责人岗位毕业。<br>
+カニ子今年将从 Web 负责人岗位毕业。<br>
 
 从下次开始，新任 Web 开发负责人就要和大家见面了，<br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面，我是策划员的蛋，名叫Heat。<br>
+初次见面，我是策划员的蛋，名叫ヒート（希特）。<br>
 
 今年4月入职。请大家多多关照。
 

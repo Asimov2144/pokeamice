@@ -35,13 +35,13 @@ workflow:
   published: draft
 entities:
   people:
-    - 增田顺一
-  organizations:
-    - Game Freak
-    - Niantic
+    - "增田顺一"
   works:
-    - Pokémon GO
-    - 宝可梦
+    - "Pokémon GO"
+    - "宝可梦"
+  organizations:
+    - "Game Freak"
+    - "Niantic"
 references:
   - id: gf-director-244
     type: official_blog

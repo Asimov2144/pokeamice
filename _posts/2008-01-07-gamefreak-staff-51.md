@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 新年好！<br>
 
-我是负责网站工作的蟹子。
+我是负责网站工作的カニ子（蟹子）。
 
 2008年，GAME FREAK 也会继续为大家准备各种有趣的企划！<br>
 
@@ -74,7 +74,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/51/kani_0107-dac12278.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/51/kani_0107-dac12278.gif" alt="年賀ドット絵作例" loading="lazy"></a></figure><br>
 
-这是 GF 程序员斯蒂克的作品。<br>
+这是 GF 程序员スティック（斯蒂克）的作品。<br>
 
 期待看到大家施展点阵功力创作的作品。
 

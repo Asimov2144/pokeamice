@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是榎木。
+大家好，我是エノキ（榎木）。
 
 其实这次有一件事要通知大家。<br>
 

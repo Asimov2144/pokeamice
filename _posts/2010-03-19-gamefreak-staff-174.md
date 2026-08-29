@@ -48,9 +48,9 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，初次见面！我是图形设计师めめた。<br>
+大家好，初次见面！我是图形设计师めめた（芽芽）。<br>
 
-和[ほず](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%BB%E3%81%9A)一样，也是入社第一年的新人。
+和[ほず（阿穗）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%BB%E3%81%9A)一样，也是入社第一年的新人。
 
 这次想和大家聊聊我在求职期间的一段小小回忆。<br>
 

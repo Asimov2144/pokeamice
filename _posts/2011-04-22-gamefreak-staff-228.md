@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是にょろリカ。<br>
+大家好，我是にょろリカ（妮洛莉卡）。<br>
 
 GAME FREAK目前正值应届毕业生招聘季。<br>
 
@@ -64,7 +64,7 @@ GAME FREAK目前正值应届毕业生招聘季。<br>
 
 「[とうきょうのしゃかいじん](http://www.gamefreak.co.jp/blog/staff/?p=184)」这篇文章写完已经过去一年了。<br>
 
-我可能已经完全习惯坐电车上下班了！？我是入职第二年的平面设计师わも。<br>
+我可能已经完全习惯坐电车上下班了！？我是入职第二年的平面设计师わも（和本）。<br>
 
 正在求职的各位，差不多已经到了<br>
 
@@ -136,7 +136,7 @@ GAME FREAK目前正值应届毕业生招聘季。<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" alt="まさゆき" loading="lazy"></a></figure><br>
 
-大家好，我是入职第二年的程序员まさゆき。<br>
+大家好，我是入职第二年的程序员まさゆき（正幸）。<br>
 
 入职后转眼就过去一年了。<br>
 
@@ -156,7 +156,7 @@ GAME FREAK目前正值应届毕业生招聘季。<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" alt="ヒート" loading="lazy"></a></figure><br>
 
-好久不见，我是策划师ヒート。<br>
+好久不见，我是策划师ヒート（希特）。<br>
 
 今年 4 月 GAME FREAK 也迎来了新员工，一想到自己已经成了“前辈”，<br>
 

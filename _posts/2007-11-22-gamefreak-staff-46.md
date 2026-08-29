@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是蟹子。<br>
+我是カニ子（蟹子）。<br>
 
 搬到新办公室后，公司里各种事情都忙得团团转，<br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面。我是程序员Gin。<br>
+初次见面。我是程序员ギン（银）。<br>
 
 每天都把思考一些无聊的事情当作爱好。<br>
 

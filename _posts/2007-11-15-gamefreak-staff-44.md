@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是森本。<br>
+我是もりもと（森本）。<br>
 
 终于要到下周了，GAME FREAK 就要搬到三轩茶屋去了。<br>
 
@@ -84,7 +84,7 @@ GAME FREAK 从成立之初就一直在下北泽，<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/44/morim02_01-6c052f74.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/44/morim02_01-6c052f74.jpg" alt="下北沢80周年のれん" loading="lazy"></a></figure>
 
-……总觉得像是要把梦幻留在这里，让森本有点过意不去。<br>
+……总觉得像是要把梦幻留在这里，让もりもと有点过意不去。<br>
 </div>
 
 <div data-gf-language-panel="ja" hidden>

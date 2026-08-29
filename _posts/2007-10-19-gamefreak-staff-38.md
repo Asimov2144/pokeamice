@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面。我是规划师小玛。
+初次见面。我是规划师マー（小玛）。
 
 前些日子，GAME FREAK举办了宝可梦卡牌游戏社内赛。<br>
 
@@ -66,15 +66,15 @@ source:
 
 就能聚来这么多人，也只有游戏公司才会有这种事吧。<br>
 
-能轻轻松松和一大群人一起玩游戏，玛真幸福！
+能轻轻松松和一大群人一起玩游戏，マー真幸福！
 
-这次全胜夺冠的是程序员小凪！<br>
+这次全胜夺冠的是程序员なぎー（纳吉）！<br>
 
 这是他第二次参赛就取得的辉煌战果。真让人羡慕！<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/38/ma02-1c022bdc.jpg" alt="カード大会優勝者！" loading="lazy"></a></figure><br>
 
-小凪低调地举起冠军奖杯。
+なぎー低调地举起冠军奖杯。
 
 明明心里其实开心得不得了！真是的，这家伙！
 

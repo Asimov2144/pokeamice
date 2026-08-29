@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是森本。
+我是もりもと（森本）。
 
 既然已经公布了，<br>
 
@@ -64,7 +64,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/126/morimoto090515_lg-627c459f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/126/morimoto090515_lg-627c459f.jpg" alt="ポケットモンスター ハートゴールド・ソウルシルバー" loading="lazy"></a></figure>
 
-其实，这部作品由我森本担任总监。<br>
+其实，这部作品由我もりもと担任总监。<br>
 
 目前正处于开发进行中的阶段。
 

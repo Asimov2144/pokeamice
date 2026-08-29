@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 初次见面！<br>
 
-我叫正幸，去年4月作为应届毕业生入职，如今是一名新手程序员。
+我叫まさゆき（正幸），去年4月作为应届毕业生入职，如今是一名新手程序员。
 
 我因为喜欢编程而加入了 GAME FREAK，<br>
 
@@ -94,7 +94,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/216/110121_masa-6ae9e390.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/216/110121_masa-6ae9e390.jpg" alt="" loading="lazy"></a></figure>
 
-是正幸！
+是まさゆき！
 
 <br>
 </div>

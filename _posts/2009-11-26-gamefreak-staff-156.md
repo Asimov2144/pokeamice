@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好。<br>
 
-我是企划人员阿玛。
+我是企划人员マー（小玛）。
 
 这次就以《畅谈HG・SS！特别篇》为题，<br>
 

@@ -48,17 +48,17 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责网站工作的喵罗莉卡。<br>
+你好，我是负责网站工作的にょろリカ（妮洛莉卡）。<br>
 
 《宝可梦》开发者访谈<br>
 
 正好迎来了进行到一半的第5回。<br>
 
-这次我向程序员鲣鱼请教了许多通信功能相关的问题！<br>
+这次我向程序员かつお（鲣鱼）请教了许多通信功能相关的问题！<br>
 
 —–<br>
 
-你好，我是程序员鲣鱼。<br>
+你好，我是程序员かつお。<br>
 
 在《宝可梦》中，我负责通信系统相关的整体工作。<br>
 
@@ -182,7 +182,7 @@ C齿轮的画面已经塞得满满当当了，“瞬间交错”和“瞬间交�
 
 打开C齿轮里的Wi-Fi、无线和IR各自的菜单，<br>
 
-里面还会有好几个玩法菜单，所以希望喵罗莉卡先<br>
+里面还会有好几个玩法菜单，所以希望にょろリカ先<br>
 
 从那里开始玩玩看。
 
@@ -200,7 +200,7 @@ C齿轮的画面已经塞得满满当当了，“瞬间交错”和“瞬间交�
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/205/bw101029-149cac98.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/205/bw101029-149cac98.jpg" alt="かつお" loading="lazy"></a></figure>
 
-鲣鱼。
+かつお。
 
 <br>
 </div>

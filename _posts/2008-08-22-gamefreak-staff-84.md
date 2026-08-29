@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是负责网站的蟹子。上周大家一起放了盂兰盆假期！<br>
+我是负责网站的カニ子（蟹子）。上周大家一起放了盂兰盆假期！<br>
 
 我照例问了问 GAME FREAK 的大家：“都去哪儿了？做了些什么？”
 
@@ -62,7 +62,7 @@ source:
 
 乡下的蚊子真厉害。<br>
 
-（さとう）
+（さとう（佐藤））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/84/writer14-557f3455.jpg" alt="ディア" loading="lazy"></a></figure><br>
 
@@ -98,11 +98,11 @@ source:
 
 靠人力在一望无际的大海上前进，感觉特别浪漫！<br>
 
-（マー）
+（マー（小玛））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer22-d6ad5573.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer22-d6ad5573.jpg" alt="えるかつ" loading="lazy"></a></figure><br>
 
-满怀乡土之爱的えるかつ回了趟石川县老家。<br>
+满怀乡土之爱的えるかつ（埃尔卡茨）回了趟石川县老家。<br>
 
 开车游览了能登、七尾和金泽，吃饭则把欠缺的海鲜一次补足！<br>
 
@@ -134,7 +134,7 @@ source:
 
 另外，我家的仓鼠又生小宝宝了。<br>
 
-（ユッフィー）
+（ユッフィー（尤菲））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
 
@@ -144,7 +144,7 @@ source:
 
 你问我有没有看奥运会？不记得了。<br>
 
-（なぎー）
+（なぎー（纳吉））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" alt="マシュー" loading="lazy"></a></figure><br>
 
@@ -156,13 +156,13 @@ source:
 
 至于定制结果嘛……距离完成似乎还早得很呢；<br>
 
-（マシュー）
+（マシュー（马修））
 
 虽然有很多人回了老家，<br>
 
 但也有几个人为了避开拥挤，干脆窝在家里。<br>
 
-蟹子也有点中暑，没什么精神，<br>
+カニ子也有点中暑，没什么精神，<br>
 
 这个夏天基本只去了漫画咖啡店之类的地方。<br>
 

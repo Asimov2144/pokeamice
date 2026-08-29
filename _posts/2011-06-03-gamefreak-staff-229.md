@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是蜿蜒莉卡。<br>
+你好，我是にょろリカ（妮洛莉卡）。<br>
 
 入梅已经一周了。<br>
 

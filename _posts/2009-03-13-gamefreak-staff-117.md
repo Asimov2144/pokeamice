@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好久不见！<br>
 
-我是纳吉。
+我是なぎー（纳吉）。
 
 前些天，GAME FREAK 内部举办了一次桌游会，<br>
 

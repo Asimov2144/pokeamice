@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是程序员 Stick。
+我是程序员 スティック（斯蒂克）。
 
 如果能把三句话传达给十年前的自己，<br>
 

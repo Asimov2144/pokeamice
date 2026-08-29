@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-好久不见，我是策划喀妮子。
+好久不见，我是策划カニ子（蟹子）。
 
 春天，是各种新事物开始的季节呢。<br>
 

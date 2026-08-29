@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是负责网站工作的蟹子。
+我是负责网站工作的カニ子（蟹子）。
 
 正如我之前在[首次音乐剧](http://www.gamefreak.co.jp/blog/staff/?p=133)那篇文章里写过的，<br>
 

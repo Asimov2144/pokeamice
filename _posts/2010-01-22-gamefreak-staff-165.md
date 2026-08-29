@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责网站的涅罗莉卡。<br>
+你好，我是负责网站的にょろリカ（妮洛莉卡）。<br>
 
 虽然寒假结束已经有一阵子了，但我们还是照例策划了假期结束后的特别企划<br>
 
@@ -60,7 +60,7 @@ source:
 
 还摸来摸去的，结果寒假就这么结束了。<br>
 
-我已经无法离开 iPhone 活下去了！（ほっしー）
+我已经无法离开 iPhone 活下去了！（ほっしー（小星））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer23-a55742a4.gif" alt="マシュー" loading="lazy"></a></figure><br>
 
@@ -70,7 +70,7 @@ source:
 
 走在路上时，只要有面带笑容的人从身边经过，我也会变得开心起来。<br>
 
-我想，自己每天也要尽量保持笑容！（マシュー）
+我想，自己每天也要尽量保持笑容！（マシュー（马修））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
 
@@ -84,7 +84,7 @@ source:
 
 也许什么都没进脑子，不过我确实读了书，对吧！？<br>
 
-……可不能长成这样的成年人哦！（なぎー）
+……可不能长成这样的成年人哦！（なぎー（纳吉））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer06-652d88b0.jpg" alt="ラッペン" loading="lazy"></a></figure><br>
 
@@ -94,7 +94,7 @@ source:
 
 炒面当然少不了，还在卖杏子糖的摊位买了好多装满李子的包装<br>
 
-把手和嘴都染得通红，吃了个痛快！（ラッペン）
+把手和嘴都染得通红，吃了个痛快！（ラッペン（拉彭））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" alt="さとう" loading="lazy"></a></figure><br>
 
@@ -104,7 +104,7 @@ source:
 
 但也有过被车站大楼里招呼客人的“生剥鬼”<br>
 
-追着跑，感到有点害怕的时候。（さとう）
+追着跑，感到有点害怕的时候。（さとう（佐藤））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure><br>
 
@@ -118,7 +118,7 @@ source:
 
 大家热热闹闹地聊着平时不会聊的艺人之类的话题，<br>
 
-悠闲自在地迎来了新年？。（ジョニー）
+悠闲自在地迎来了新年？。（ジョニー（乔尼））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" alt="おにいさん" loading="lazy"></a></figure><br>
 
@@ -136,7 +136,7 @@ source:
 
 那时的记忆苏醒了。<br>
 
-是和朋友□□君为了争先后顺序吵架，最后不欢而散的悲伤记忆。（おにいさん）
+是和朋友□□君为了争先后顺序吵架，最后不欢而散的悲伤记忆。（おにいさん（哥哥））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer01-58a67328.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer01-58a67328.gif" alt="カニ子" loading="lazy"></a></figure><br>
 
@@ -150,7 +150,7 @@ source:
 
 能够以更快的势头迅速照顾好孩子的妈妈，也让我大吃一惊。<br>
 
-妈妈真厉害！还有，现摘的草莓超级好吃！（カニ子）
+妈妈真厉害！还有，现摘的草莓超级好吃！（カニ子（蟹子））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" alt="おせんべい" loading="lazy"></a></figure><br>
 
@@ -182,9 +182,9 @@ source:
 
 回程的飞机上，碰巧乘坐了宝可梦飞机。<br>
 
-因为带着孩子，还拿到了皮卡丘束口袋哦！（もりもと）
+因为带着孩子，还拿到了皮卡丘束口袋哦！（もりもと（森本））
 
-对寒假大部分时间都卧病在床的涅罗莉卡来说，大家的寒假真是令人羡慕不已！<br>
+对寒假大部分时间都卧病在床的にょろリカ来说，大家的寒假真是令人羡慕不已！<br>
 
 虽然我现在已经完全康复了，但寒冷的日子还会持续一段时间，<br>
 

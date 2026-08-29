@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是蟹子。
+大家好，我是カニ子（蟹子）。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/30/dosoku01-e9ed3a1f.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/30/dosoku01-e9ed3a1f.jpg" alt="ゲーフリ玄関" loading="lazy"></a></figure>
 
@@ -70,9 +70,9 @@ GAME FREAK 所有楼层都严禁穿鞋进入！<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/30/dosoku02-f1a37c03.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/30/dosoku02-f1a37c03.jpg" alt="スリッパ" loading="lazy"></a></figure><br>
 
-我抓住了不太情愿的榎木先生，请他让我拍了张拖鞋的照片。<br>
+我抓住了不太情愿的エノキ（榎木）先生，请他让我拍了张拖鞋的照片。<br>
 
-那么，哪双是蟹子的，哪双是榎木先生的呢？
+那么，哪双是カニ子的，哪双是エノキ先生的呢？
 
 之所以严禁穿鞋进入，究竟是因为 GAME FREAK 还小的时候，<br>
 
@@ -82,11 +82,11 @@ GAME FREAK 所有楼层都严禁穿鞋进入！<br>
 
 又或者是为了熬夜工作之后能睡在地板上……
 
-每一种说法听起来都挺像那么回事，但蟹子其实不知道真正的原因！<br>
+每一种说法听起来都挺像那么回事，但カニ子其实不知道真正的原因！<br>
 
 不管原因是什么，一直穿着鞋的话脚会很累，<br>
 
-所以从蟹子的角度来说，我还挺喜欢拖鞋的。<br>
+所以从カニ子的角度来说，我还挺喜欢拖鞋的。<br>
 
 脱掉鞋子感觉很舒服，对吧～
 

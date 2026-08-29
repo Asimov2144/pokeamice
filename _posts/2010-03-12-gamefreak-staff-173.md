@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 初次见面！<br>
 
-我是程序员企鹅。
+我是程序员ペンギン（企鹅）。
 
 前些天打扫房间时，<br>
 

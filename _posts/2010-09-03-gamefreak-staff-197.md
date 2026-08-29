@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是负责网站的妮洛莉卡。<br>
+大家好，我是负责网站的にょろリカ（妮洛莉卡）。<br>
 
 回过神来，已经是9月了呢。好快！<br>
 
@@ -62,7 +62,7 @@ source:
 
 只要笑着打个招呼，对方也会露出笑容。<br>
 
-法国的熟食真好吃呀——！（蟹子）<br>
+法国的熟食真好吃呀——！（カニ子（蟹子））<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/kani100903-9d412b07.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/kani100903-9d412b07.jpg" alt="フランスのおそうざい" loading="lazy"></a></figure>
 
@@ -80,7 +80,7 @@ source:
 
 安排了各种欢闹甜蜜的姿势和场景。<br>
 
-我想之后应该会不好意思直视。（约翰尼）
+我想之后应该会不好意思直视。（ジョニー（乔尼））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer24-eac40750.jpg" alt="ほっしー" loading="lazy"></a></figure><br>
 
@@ -90,7 +90,7 @@ source:
 
 转眼间，几万、几十万日元的代币在眼前高速流动，<br>
 
-那个空间既让人害怕，却又有那么一点吸引力。（星星）
+那个空间既让人害怕，却又有那么一点吸引力。（ほっしー（小星））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
 
@@ -108,7 +108,7 @@ source:
 
 ……不过，难得最后一天是星期日，<br>
 
-我却一直睡觉睡到了晚上。（凪）
+我却一直睡觉睡到了晚上。（なぎー（纳吉））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" alt="さとう" loading="lazy"></a></figure><br>
 
@@ -118,7 +118,7 @@ source:
 
 治愈效果一级棒！！<br>
 
-要是东京也有这样的地方，我肯定每天都去……。（佐藤）<br>
+要是东京也有这样的地方，我肯定每天都去……。（さとう（佐藤））<br>
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/sato100903-7244fc86.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/sato100903-7244fc86.jpg" alt="滝" loading="lazy"></a></figure>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/shared/writer30-c01e8eed.jpg" alt="カラシ" loading="lazy"></a></figure><br>
@@ -135,13 +135,13 @@ source:
 
 ↓因为不知怎么的很喜欢百目，所以只给它拍了手机照片，<br>
 
-现在想想，早知道也该拍一下鬼太郎的……。（芥末）<br>
+现在想想，早知道也该拍一下鬼太郎的……。（カラシ（卡拉希））<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/karashi100903-b0379296.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/karashi100903-b0379296.jpg" alt="百目" loading="lazy"></a></figure>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer22-d6ad5573.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer22-d6ad5573.jpg" alt="えるかつ" loading="lazy"></a></figure><br>
 
-艾尔卡茨去度蜜月啦！<br>
+えるかつ（埃尔卡茨）去度蜜月啦！<br>
 
 10天里逛了意大利、法国，外加德国，一共3个国家，<br>
 
@@ -159,7 +159,7 @@ source:
 
 但由于奶酪的味道实在太浓，到了旅行后半段，<br>
 
-开始想念起和食了。（艾尔卡茨）
+开始想念起和食了。（えるかつ）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer46-9070e288.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer46-9070e288.gif" alt="いっちー" loading="lazy"></a></figure><br>
 
@@ -189,7 +189,7 @@ source:
 
 最后喝了机场水龙头里流出来的宝矿力果汁，然后回到了东京。<br>
 
-一边细细品味着爱媛的味道，今天也要努力工作！（和茂）<br>
+一边细细品味着爱媛的味道，今天也要努力工作！（わも（和本））<br>
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/wamo100903-2c1f8658.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/wamo100903-2c1f8658.jpg" alt="甲子園" loading="lazy"></a></figure>
 

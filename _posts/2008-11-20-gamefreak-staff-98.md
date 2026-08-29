@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好，初次见面。<br>
 
-我是开发部信息管理团队的尤利。
+我是开发部信息管理团队的ユーリー（尤里）。
 
 前几天，我去观看了目前正在举行的宝可梦世界锦标赛预选赛。<br>
 
@@ -74,7 +74,7 @@ source:
 
 我现在在“信息管理”团队工作。<br>
 
-关于信息管理，之前尤菲已经[在这里说明过了](http://www.gamefreak.co.jp/blog/staff/?p=37)，<br>
+关于信息管理，之前ユッフィー（尤菲）已经[在这里说明过了](http://www.gamefreak.co.jp/blog/staff/?p=37)，<br>
 
 我们会负责各种各样的工作。<br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面，我是程序员Tapioka。<br>
+初次见面，我是程序员タピオカ（塔皮奥卡）。<br>
 
 今后请多关照。
 
@@ -66,7 +66,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/193/tapioca100730_01-42038159.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/193/tapioca100730_01-42038159.jpg" alt="" loading="lazy"></a></figure>
 
-我，Tapioka，是通过中途招聘来到 GAME FREAK 的程序员。<br>
+我，タピオカ，是通过中途招聘来到 GAME FREAK 的程序员。<br>
 
 在那之前，我也换过好几家公司。<br>
 
@@ -134,7 +134,7 @@ source:
 
 终于抵达了这次出门的目的地车站。
 
-我，Tapioka，作为创作者前往目的地的旅程，<br>
+我，タピオカ，作为创作者前往目的地的旅程，<br>
 
 自从登上名为 GAME FREAK 的电车后，<br>
 

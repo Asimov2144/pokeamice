@@ -37,7 +37,7 @@ gf_entry_title: 【工作日志】2012年尝试改变工作方式
 gf_original_title: 見つめる鍋は煮えない
 gf_translation_title: 【工作日志】2012年尝试改变工作方式
 translation_available: true
-summary: 策划岩石分享一句英语谚语，并记录自己尝试切换工作内容后，对效率与工作方式的新发现。
+summary: 策划沙丁鱼分享一句英语谚语，并记录自己尝试切换工作内容后，对效率与工作方式的新发现。
 translation_status: openai-machine-translated
 search: true
 source:
@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是策划岩石。<br>
+大家好，我是策划いわし（沙丁鱼）。<br>
 
 上次出现在 Staff Voice 还是 2010 年 4 月 30 日，<br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面，我是 Yossy～。
+初次见面，我是 よっしー（小吉）～。
 
 我在 GAME FREAK 担任图形设计师。<br>
 
@@ -76,7 +76,7 @@ GAME FREAK 的图形设计师们，<br>
 
 在这座炎热的南国岛屿上，展开了热烈无比的对战！
 
-面对这样精彩的舞台，我，Yossy，亲自前往了现场。
+面对这样精彩的舞台，我，よっしー，亲自前往了现场。
 
 现场会场。<br>
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/18/yoshi01_04-a08a73cf.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/18/yoshi01_04-a08a73cf.jpg" alt="ハワイ：ワールドチャンピオンシップ2007" loading="lazy"></a></figure>
@@ -118,7 +118,7 @@ GAME FREAK 的图形设计师们，<br>
 
 每天的生活中去～
 
-这是再次深深感慨到这一点的 Yossy。<br>
+这是再次深深感慨到这一点的 よっしー。<br>
 </div>
 
 <div data-gf-language-panel="ja" hidden>

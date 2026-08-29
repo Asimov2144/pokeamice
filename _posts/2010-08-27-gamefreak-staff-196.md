@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是尤里！
+大家好，我是ユーリー（尤里）！
 
 大家已经体验过宝可梦搜索者BW了吗？<br>
 

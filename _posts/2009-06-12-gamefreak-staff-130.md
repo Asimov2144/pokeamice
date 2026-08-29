@@ -37,7 +37,7 @@ gf_entry_title: 【工作日志】周末的绘画修行
 gf_original_title: 週末の習い事
 gf_translation_title: 【工作日志】周末的绘画修行
 translation_available: true
-summary: 平面设计师约翰尼分享周末参加绘画教室的日常，以及素描与人体速写如何磨炼设计与绘画能力。
+summary: 平面设计师乔尼分享周末参加绘画教室的日常，以及素描与人体速写如何磨炼设计与绘画能力。
 translation_status: openai-machine-translated
 search: true
 source:
@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-好久不见！我是平面设计师约翰尼。<br>
+好久不见！我是平面设计师ジョニー（乔尼）。<br>
 
 这次想和大家聊聊我周末学习绘画的事。
 

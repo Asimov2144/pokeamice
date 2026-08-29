@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好！我是负责招聘的佐藤。
+大家好！我是负责招聘的さとう（佐藤）。
 
 秋意越来越浓了，<br>
 

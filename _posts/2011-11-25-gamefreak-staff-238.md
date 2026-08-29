@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-好久不见，我是NyoroRika。<br>
+好久不见，我是にょろリカ（妮洛莉卡）。<br>
 
 最近几次连续写的都是些实用型日记，所以我也试着想了想，自己能不能<br>
 
@@ -138,7 +138,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/238/nyoro_111125-905680bc.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/238/nyoro_111125-905680bc.jpg" alt="柱時計を掛ける場所がない……" loading="lazy"></a></figure>
 
-以上，是正在考虑购买扫地机器人的NyoroRika！
+以上，是正在考虑购买扫地机器人的にょろリカ！
 
 <br>
 </div>

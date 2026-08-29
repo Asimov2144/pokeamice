@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 初次见面！<br>
 
-我是今年春天入职的游戏策划，我叫いわし！
+我是今年春天入职的游戏策划，我叫いわし（沙丁鱼）！
 
 这次终于结束了试用期，<br>
 
@@ -68,7 +68,7 @@ source:
 
 这是我的名片，いわし的名片。
 
-之前在[蟹子小姐的日记](http://www.gamefreak.co.jp/blog/staff/?p=24)里也写过，<br>
+之前在[カニ子（蟹子）小姐的日记](http://www.gamefreak.co.jp/blog/staff/?p=24)里也写过，<br>
 
 在 GAME FREAK，每位员工的名片上<br>
 

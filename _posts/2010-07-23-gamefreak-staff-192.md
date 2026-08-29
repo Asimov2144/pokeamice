@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好！我是招聘负责人佐藤。<br>
+大家好！我是招聘负责人さとう（佐藤）。<br>
 
 GAME FREAK 从今天起开始招聘有工作经验的程序员！
 

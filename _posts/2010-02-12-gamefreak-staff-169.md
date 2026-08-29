@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-大家好，我是Hozu！
+大家好，我是ほず（阿穗）！
 
 已经是2月了呢。
 
@@ -138,7 +138,7 @@ source:
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/169/hozu100212-ebb980b8.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/169/hozu100212-ebb980b8.jpg" alt="元気にお仕事" loading="lazy"></a></figure>
 
-我是Hozu？
+我是ほず？
 
 <br>
 </div>

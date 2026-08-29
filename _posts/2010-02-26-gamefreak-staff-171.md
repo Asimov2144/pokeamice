@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 
-我是负责网站工作的 NyoroRika。
+我是负责网站工作的 にょろリカ（妮洛莉卡）。
 
 突然想问一下，有人知道2月27日是什么日子吗？<br>
 

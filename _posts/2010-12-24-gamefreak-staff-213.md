@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好，初次见面！<br>
 
-我是程序员阿利。
+我是程序员アーリー（阿利）。
 
 今年也所剩无几了呢。<br>
 

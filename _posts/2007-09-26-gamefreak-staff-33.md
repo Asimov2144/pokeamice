@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 初次见面。<br>
 
-我是一名程序员，名叫Nagi。<br>
+我是一名程序员，名叫なぎー（纳吉）。<br>
 
 虽然入职才半年，是个新人，但还请大家多多关照。
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是蟹子。<br>
+你好，我是カニ子（蟹子）。<br>
 
 距离搬家终于不到一个月了，公司内部也变得忙忙碌碌起来。<br>
 
@@ -68,7 +68,7 @@ source:
 
 放下门上的门帘，并设置好防盗设备。<br>
 
-在别人告诉我之前，蟹子也不知道它的存在。
+在别人告诉我之前，カニ子也不知道它的存在。
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/40/kani1025_01_s-8bb5565e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/40/kani1025_01_s-8bb5565e.jpg" alt="秘密のドア" loading="lazy"></a></figure>
 
@@ -98,7 +98,7 @@ source:
 
 一边沉浸在感伤之中，<br>
 
-一边想着“得收拾行李了啊……”今天也在犯懒的蟹子。
+一边想着“得收拾行李了啊……”今天也在犯懒的カニ子。
 
 啊，说起来，[应届毕业生招聘页面](http://www.gamefreak.co.jp/recruit/index.html)上的“GAME FREAK 员工的一天”<br>
 
@@ -112,7 +112,7 @@ source:
 
 放着饭。<br>
 
-不过那只是放着本来该由蟹子吃的饭而已，<br>
+不过那只是放着本来该由カニ子吃的饭而已，<br>
 
 并不是什么座敷童子之类做的。
 

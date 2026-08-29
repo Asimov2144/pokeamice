@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是策划员蟹子。<br>
+我是策划员カニ子（蟹子）。<br>
 
 在这段寒意刺骨的日子里，不知大家过得怎么样呢？
 

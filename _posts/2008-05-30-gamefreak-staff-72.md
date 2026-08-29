@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是蟹子。<br>
+我是カニ子（蟹子）。<br>
 
 上周末和朋友一起去泡温泉旅行啦！<br>
 

@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-初次见面。我是 GAME FREAK 的工作人员蟹子。<br>
+初次见面。我是 GAME FREAK 的工作人员カニ子（蟹子）。<br>
 
 我入职 GAME FREAK，负责网站制作。<br>
 

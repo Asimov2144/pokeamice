@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-你好，我是负责网页开发的蟹子。<br>
+你好，我是负责网页开发的カニ子（蟹子）。<br>
 
 假期结束后的固定企划。“大家放假期间都做了些什么？”我去问了问<br>
 
@@ -60,11 +60,11 @@ GAME FREAK 的各位工作人员。
 
 多亏了这些游戏，就连日常生活中也开始思考“这里留下了指纹……”“吃下这个的话，一小时后就会消化……”<br>
 
-之类的事情了。（拉彭）
+之类的事情了。（ラッペン（拉彭））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer09-57ddcfb7.gif" alt="ジョニー" loading="lazy"></a></figure><br>
 
-乔尼在除夕举办了跨年火锅聚会。<br>
+ジョニー（乔尼）在除夕举办了跨年火锅聚会。<br>
 
 把周围独居的女孩子们都叫了过来，<br>
 
@@ -72,7 +72,7 @@ GAME FREAK 的各位工作人员。
 
 红白歌会结束后，大家还聊了聊彼此的新年目标。<br>
 
-因为很开心，所以正在考虑今年年底也再办一次！（乔尼）
+因为很开心，所以正在考虑今年年底也再办一次！（ジョニー）
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer12-70701016.jpg" alt="おにいさん" loading="lazy"></a></figure><br>
 
@@ -88,7 +88,7 @@ GAME FREAK 的各位工作人员。
 
 被鲸鲨那惊人的体型彻底震撼后回来了！！（真的超大哦）<br>
 
-（哥哥）
+（おにいさん（哥哥））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer02-228248e6.jpg" alt="エノキ" loading="lazy"></a></figure><br>
 
@@ -98,7 +98,7 @@ GAME FREAK 的各位工作人员。
 
 因为我穿的是带绒球、又长又大的针织毛衣，<br>
 
-结果全身都被它当成狗狗玩具了。（榎木）
+结果全身都被它当成狗狗玩具了。（エノキ（榎木））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/106/writer10_05-a7943436.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/106/writer10_05-a7943436.gif" alt="もりもと" loading="lazy"></a></figure><br>
 
@@ -106,7 +106,7 @@ GAME FREAK 的各位工作人员。
 
 除此之外，我还做了年节菜。<br>
 
-用紫薯做出了紫色的栗金团哦！（森本）
+用紫薯做出了紫色的栗金团哦！（もりもと（森本））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/106/writer27-4319e928.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/106/writer27-4319e928.jpg" alt="いわし" loading="lazy"></a></figure><br>
 
@@ -120,7 +120,7 @@ GAME FREAK 的各位工作人员。
 
 太阳却仿佛要补偿我们似的，展现出了满分般耀眼的光芒。<br>
 
-我不禁感叹，光是因为在1月1日去看，竟然就能显得这么特别啊。（沙丁鱼）
+我不禁感叹，光是因为在1月1日去看，竟然就能显得这么特别啊。（いわし（沙丁鱼））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer05-470ddfd9.gif" alt="なぎー" loading="lazy"></a></figure><br>
 
@@ -132,7 +132,7 @@ GAME FREAK 的各位工作人员。
 
 我觉得 DS、编程和 DVD 大概一样都没真正记进脑子里。<br>
 
-大家可不能变成这样的成年人哦！(凪）
+大家可不能变成这样的成年人哦！(なぎー（纳吉））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/165/writer17-c505828e.jpg" alt="おせんべい" loading="lazy"></a></figure><br>
 
@@ -156,7 +156,7 @@ GAME FREAK 的各位工作人员。
 
 奶奶今年90岁！曾孙有15个！<br>
 
-这是一个让我感受到血脉绵延传承的新年。（斯蒂克）
+这是一个让我感受到血脉绵延传承的新年。（スティック（斯蒂克））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/197/writer26-d03ced8c.jpg" alt="さとう" loading="lazy"></a></figure><br>
 
@@ -164,7 +164,7 @@ GAME FREAK 的各位工作人员。
 
 ……好可怕。不过，现在看得特别清楚。<br>
 
-还稍微有点不习惯不戴眼镜、不戴隐形眼镜的生活。（佐藤）
+还稍微有点不习惯不戴眼镜、不戴隐形眼镜的生活。（さとう（佐藤））
 
 <figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/139/writer20-07b3a539.jpg" alt="ヒロ" loading="lazy"></a></figure><br>
 
@@ -194,9 +194,9 @@ GAME FREAK 的各位工作人员。
 
 护身符到现在还没去取。<br>
 
-我的新年到底什么时候才会到来呢？（尤菲）
+我的新年到底什么时候才会到来呢？（ユッフィー（尤菲））
 
-蟹子的话，大概每天睡了16个小时。<br>
+カニ子的话，大概每天睡了16个小时。<br>
 
 另外还一直看一部讲述漂流到无人岛的海外剧第三季，<br>
 

@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 大家好！<br>
 
-我是纳吉。
+我是なぎー（纳吉）。
 
 我每次都会写游戏相关的文章，<br>
 
@@ -94,7 +94,7 @@ source:
 
 参加了公司内部的3D图形培训。
 
-就像之前[カニ子写过声音培训的内容](http://www.gamefreak.co.jp/blog/staff/?p=61)一样，<br>
+就像之前[カニ子（蟹子）写过声音培训的内容](http://www.gamefreak.co.jp/blog/staff/?p=61)一样，<br>
 
 公司内部经常会举办这类培训。
 

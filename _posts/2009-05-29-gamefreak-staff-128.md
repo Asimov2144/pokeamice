@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是程序员银。
+我是程序员ギン（银）。
 
 不知怎么的，这个博客里关于游戏的话题好像不多呢。<br>
 

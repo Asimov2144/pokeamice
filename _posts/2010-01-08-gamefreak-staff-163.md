@@ -52,19 +52,19 @@ source:
 
 今年也请大家多多关照 GAME FREAK。
 
-还有，初次见面！我叫妮罗莉卡，是新任网站负责人。<br>
+还有，初次见面！我叫にょろリカ（妮洛莉卡），是新任网站负责人。<br>
 
 今后也请大家多多关照。<br>
 
-我于去年12月加入 GAME FREAK，这次将从[蟹子](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)手里<br>
+我于去年12月加入 GAME FREAK，这次将从[カニ子（蟹子）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%82%AB%E3%83%8B%E5%AD%90)手里<br>
 
 接任网站负责人。<br>
 
 我打算努力把 GAME FREAK 的网站办得热闹起来，<br>
 
-不输给蟹子，所以还请大家期待！<br>
+不输给カニ子，所以还请大家期待！<br>
 
-（不过，蟹子小姐，偶尔也请来“Staff Voice”露个面呀！）
+（不过，カニ子小姐，偶尔也请来“Staff Voice”露个面呀！）
 
 说起来，GAME FREAK 一直到本周一都在放“冬假”，<br>
 

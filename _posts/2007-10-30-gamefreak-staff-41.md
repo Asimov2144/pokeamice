@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是负责招聘的森本。
+我是负责招聘的もりもと（森本）。
 
 本以为 2008 年度的应届招聘已经结束了，<br>
 

@@ -68,7 +68,7 @@ source:
 
 今年的抱负是“趁铁热时打铁”。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer54-8469c5b5.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer54-8469c5b5.gif" alt="ラッティ" loading="lazy"></a></figure>**【入职第1年的策划：ラッティ的寒假】**<br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer54-8469c5b5.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer54-8469c5b5.gif" alt="ラッティ" loading="lazy"></a></figure>**【入职第1年的策划：ラッティ（拉蒂）的寒假】**<br>
 
 2012年元旦清晨，我登上了锯山山顶。<br>
 
@@ -86,7 +86,7 @@ source:
 
 我是这样想的。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" alt="まさゆき" loading="lazy"></a></figure>**【入职第2年的程序员：まさゆき的寒假】**<br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer51-4bdc1d7a.jpg" alt="まさゆき" loading="lazy"></a></figure>**【入职第2年的程序员：まさゆき（正幸）的寒假】**<br>
 
 我回了老家，和家人久违地见了面，也和当地的朋友一起玩了玩。<br>
 
@@ -96,19 +96,19 @@ source:
 
 今年的目标是“通关12款以上今年发售的游戏”！
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" alt="ヒート" loading="lazy"></a></figure>**【入职第2年的策划：ヒート的寒假】**<br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer44-f48e11af.gif" alt="ヒート" loading="lazy"></a></figure>**【入职第2年的策划：ヒート（希特）的寒假】**<br>
 
 我去了水族馆，观赏了一种名叫“高脚蟹”的巨型螃蟹。它张开腿后，长度能超过2米，<br>
 
 看起来非常壮观。<br>
 
-它实在太有气势、太帅了，以至于之后看到的企鹅和海豹，<br>
+它实在太有气势、太帅了，以至于之后看到的ペンギン（企鹅）和海豹，<br>
 
 我完全没留下什么印象。<br>
 
 今年的目标是“年内再去看两次高脚蟹”。
 
-<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer55-11cb984c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer55-11cb984c.jpg" alt="じろ" loading="lazy"></a></figure>**【入职第1年的策划：じろ的寒假】**<br>
+<figure class="gf-legacy-image"><a href="/assets/images/gamefreak-legacy/staff/240/writer55-11cb984c.jpg" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-legacy/staff/240/writer55-11cb984c.jpg" alt="じろ" loading="lazy"></a></figure>**【入职第1年的策划：じろ（次郎）的寒假】**<br>
 
 初次见面，你好。我是新人策划じろ。<br>
 

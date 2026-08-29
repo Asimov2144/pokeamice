@@ -45,9 +45,6 @@ workflow:
 entities:
   works:
     - "宝可梦"
-    - "简中PTCG"
-    - "宝活小妙招"
-    - "Chrome 插件"
 ---
 
 # 批量下载卡图&查询服务器存档时间

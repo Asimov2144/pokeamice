@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好，初次见面。<br>
 
-我是3D图形设计师藤和。<br>
+我是3D图形设计师フジワ（藤和）。<br>
 
 今年暑假，我飞离了日本炎热的夏天，<br>
 

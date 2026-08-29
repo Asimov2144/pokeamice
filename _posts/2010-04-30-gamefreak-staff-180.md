@@ -50,7 +50,7 @@ source:
 <div data-gf-language-panel="zh-CN">
 你好！好久不见。<br>
 
-还记得我吗？我是策划人员的[いわし](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%84%E3%82%8F%E3%81%97)。
+还记得我吗？我是策划人员的[いわし（沙丁鱼）](http://www.gamefreak.co.jp/blog/staff/index.php?tag=%E3%81%84%E3%82%8F%E3%81%97)。
 
 不知不觉，4月也快结束了呢。<br>
 

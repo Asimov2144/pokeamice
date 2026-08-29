@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是策划人员ほず。<br>
+我是策划人员ほず（阿穗）。<br>
 
 经过3个月的培训，终于……
 

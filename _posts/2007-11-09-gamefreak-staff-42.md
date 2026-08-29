@@ -48,7 +48,7 @@ source:
 ---
 
 <div data-gf-language-panel="zh-CN">
-我是 GF 的程序员斯蒂克。初次见面！
+我是 GF 的程序员スティック（斯蒂克）。初次见面！
 
 大家知道「[.S](http://www.dot-s.net/)」（点阵）这种玩具吗！？
 
@@ -84,7 +84,7 @@ source:
 
 这种事就是 GAME FREAK 程序员的工作。才怪。
 
-斯蒂克！
+スティック！
 
 <br>
 </div>
