@@ -1,0 +1,912 @@
+---
+layout: archive
+sidebar:
+  nav: "docs"
+---
+
+<!-- Redesigned landing page, kept beside the live one at /home-preview/ so it
+     can be judged against the real masthead and sidebar before it replaces
+     _layouts/home.html. Structured the same way as that file: the markup and
+     its stylesheet live here, and the page in _pages is only front matter. -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+
+<style>
+    :root {
+    /* Z-A: an information layer projected onto the city in daylight. Clean and
+       bright, not the grimy dark of heavy cyberpunk — cyan carries the base
+       layer, magenta and violet carry emphasis, white carries the reading. */
+    --pa-paper:      #eef7fa;
+    --pa-card:       rgba(255,255,255,.72);
+    --pa-card-solid: #f7fdff;
+    --pa-sunk:       #e0eff4;
+    --pa-ink:        #0d1b21;
+    --pa-ink-soft:   #4b6570;
+    --pa-ink-faint:  #648593;
+    --pa-rule:       #c3dee7;
+    --pa-edge:       #59c6de;          /* emissive rim */
+
+    --pa-accent:     #0d7c99;          /* cyan, the base information layer */
+    --pa-accent-soft:#d3edf5;
+    --pa-hot:        #d3308a;          /* magenta, emphasis only */
+    --pa-violet:     #6b5ce7;
+
+    /* sequential cyan ramp, light -> dark, monotonic */
+    --pa-s1:#e2f6fa; --pa-s2:#b3e6f0; --pa-s3:#6fd0e2;
+    --pa-s4:#28aecb; --pa-s5:#1683a3; --pa-s6:#0d5570;
+
+    /* categorical, validated: CVD ΔE 12.9 protan / 24.0 normal */
+    --pa-m-gf:#6b5ce7; --pa-m-scan:#d3308a; --pa-m-art:#e8930c;
+
+    --pa-serif: "Shippori Mincho", "Songti SC", "Yu Mincho", Georgia, serif;
+    --pa-sans: "Zen Kaku Gothic New", "PingFang SC", "Hiragino Sans", system-ui, sans-serif;
+    --pa-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+    --pa-plot-h: 9rem;
+    --pa-glow: 0;                      /* bloom multiplier; dark mode turns it up */
+  }
+  /* The site's dark skin is opt-in through the sidebar's Theme Options, which
+     add body.theme-bg-black. Following prefers-color-scheme instead put a dark
+     panel inside a light page for anyone whose OS is dark. */
+  body.theme-bg-black {
+    --pa-paper:#08161c; --pa-card:rgba(20,42,52,.62); --pa-card-solid:#0f2630; --pa-sunk:#102c36;
+    --pa-ink:#e2f6fa; --pa-ink-soft:#95b8c4; --pa-ink-faint:#6a8c99;
+    --pa-rule:#1d4655; --pa-edge:#35bcd6;
+    --pa-accent:#35bcd6; --pa-accent-soft:#123540; --pa-hot:#ff5cb8; --pa-violet:#9a86ff;
+    --pa-s1:#122a33; --pa-s2:#173f4d; --pa-s3:#1c5f75;
+    --pa-s4:#2189a6; --pa-s5:#35bcd6; --pa-s6:#7fe6f5;
+    --pa-m-gf:#8b7bf0; --pa-m-scan:#d94f9c; --pa-m-art:#a8760f;
+    --pa-glow: 1;
+  }
+
+  /* ---- fit into the Minimal Mistakes shell -------------------------------
+     Same approach _layouts/home.html:517 uses for the real homepage: scope by
+     the body layout class and hand the content column its full width back.
+     The archive layout holds 300px in reserve for a table of contents, which
+     this page does not have, and that reserve was squeezing the two panels
+     into 636px of a 1385px page. */
+  .layout--home-preview #main .archive {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .layout--home-preview .page__title,
+  .layout--home-preview .page__meta { display: none; }
+
+  .layout--home-preview .pa, .layout--home-preview .pa *, .layout--home-preview .pa-dlg, .layout--home-preview .pa-dlg * { box-sizing: border-box; }
+  .layout--home-preview .pa {
+    /* Transparent on purpose: _layouts/home.html leaves .home-dashboard
+       unpainted and lets the site wallpaper show between its panels. Painting
+       a full-bleed canvas here is what made this block look pasted on. */
+    background: transparent;
+    color: var(--pa-ink);
+    font-family: var(--pa-sans);
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    padding: 1.1rem 0 3rem;
+  }
+  .layout--home-preview .pa-wrap { max-width: 70rem; margin: 0 auto; padding: 0 1.25rem; }
+
+  .layout--home-preview /* ---- compact strip: the nav already carries the site name ---- */
+  .strip {
+    display: flex; align-items: baseline; gap: 0.75rem 1.5rem;
+    flex-wrap: wrap; padding-bottom: 0.85rem;
+    border-bottom: 1px solid var(--pa-rule); margin-bottom: 1.25rem;
+  }
+  .layout--home-preview .strip h1 {
+    font-family: var(--pa-serif); font-size: 1.0625rem; font-weight: 700;
+    margin: 0; letter-spacing: 0.01em;
+  }
+  .layout--home-preview .strip p { margin: 0; color: var(--pa-ink-soft); font-size: 0.8125rem; flex: 1 1 16rem; }
+  .layout--home-preview /* "3 WINS": the numeral is the object, .layout--home-preview the word is its caption. */
+  .counts { display: flex; gap: 1.25rem; align-items: baseline; }
+  .layout--home-preview .counts span {
+    display: inline-flex; align-items: baseline; gap: 0.3rem;
+    font-size: 0.68rem; letter-spacing: 0.1em; color: var(--pa-ink-faint);
+    text-transform: uppercase;
+  }
+  .layout--home-preview .counts b {
+    font-family: var(--pa-mono); font-variant-numeric: tabular-nums;
+    font-size: 1.25rem; font-weight: 700; color: var(--pa-accent); line-height: 1;
+  }
+
+  .layout--home-preview /* ---- panels ---- */
+  .panels { display: grid; grid-template-columns: minmax(0,1.35fr) minmax(0,1fr); gap: 1rem; }
+  @media (max-width: 62rem) { .panels { grid-template-columns: 1fr; } }
+  .layout--home-preview /* Beveled plate, .layout--home-preview not a rounded card: the Z-A panels are cut polygons with a
+     brighter rim than fill. The notch sits top-right, .layout--home-preview away from the reading. */
+  .panel {
+    position: relative;
+    background: var(--pa-card-solid);
+    padding: 0.95rem 1.05rem 1.05rem;
+    clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+    border: 0;
+  }
+  .layout--home-preview /* A huge ghosted numeral behind the plate — the Pokédex silhouette trick, .layout--home-preview which is what makes a panel read as an exhibit rather than a box. */
+  .panel[data-ghost]::before {
+    content: attr(data-ghost);
+    position: absolute; right: 0.4rem; bottom: -1.1rem;
+    font-family: var(--pa-mono); font-weight: 700;
+    font-size: 7rem; line-height: 1; letter-spacing: -0.05em;
+    color: var(--pa-accent); opacity: .07; pointer-events: none;
+    font-variant-numeric: tabular-nums;
+  }
+  @supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+    .layout--home-preview .panel, .layout--home-preview .col { background: var(--pa-card); }
+  }
+  .layout--home-preview .p-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.15rem;
+  }
+  .layout--home-preview .p-title { font-size: 0.8125rem; font-weight: 700; margin: 0; letter-spacing: 0.02em; }
+  .layout--home-preview .p-note { margin: 0 0 0.7rem; color: var(--pa-ink-faint); font-size: 0.72rem; line-height: 1.5; }
+  .layout--home-preview .p-metric {
+    font-family: var(--pa-mono); font-variant-numeric: tabular-nums;
+    font-size: 0.72rem; color: var(--pa-ink-soft);
+  }
+  .layout--home-preview .p-metric b { color: var(--pa-accent); }
+
+  .layout--home-preview .legend { display: flex; gap: 0.7rem; flex-wrap: wrap; font-size: 0.7rem; }
+  .layout--home-preview .legend span { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--pa-ink-soft); }
+  .layout--home-preview .sw { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+
+  .layout--home-preview /* ---- stacked year chart, .layout--home-preview with a value axis so magnitude is readable ---- */
+  /* The plot area is its own box and holds nothing but bars, .layout--home-preview so a bar's
+     percentage height is a percentage of the scale. Labels sit outside it —
+     inside, .layout--home-preview they ate part of the height and every bar landed short of its
+     gridline. */
+  .plot { display: grid; grid-template-columns: 2.1rem 1fr; gap: 0 0.45rem; }
+  .layout--home-preview .yaxis {
+    position: relative; height: var(--pa-plot-h);
+    font-family: var(--pa-mono); font-size: 0.5625rem; color: var(--pa-ink-faint);
+  }
+  .layout--home-preview .yaxis span {
+    position: absolute; right: 0; transform: translateY(-50%);
+    line-height: 1; font-variant-numeric: tabular-nums;
+  }
+  .layout--home-preview .plot-area { position: relative; height: var(--pa-plot-h); }
+  .layout--home-preview .gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--pa-rule); pointer-events: none; }
+  .layout--home-preview .gridline.base { border-top-style: solid; border-top-color: var(--pa-ink-faint); }
+  .layout--home-preview .stack { position: absolute; inset: 0; display: flex; gap: 2px; align-items: flex-end; }
+  .layout--home-preview .ycol {
+    flex: 1 1 0; min-width: 0; height: 100%; position: relative;
+    background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
+  }
+  .layout--home-preview .ycol:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+  .layout--home-preview .segs {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    display: flex; flex-direction: column; gap: 1px;
+  }
+  .layout--home-preview .seg { min-height: 2px; }
+  .layout--home-preview .seg:first-child { border-radius: 3px 3px 0 0; }
+  .layout--home-preview .ytot {
+    position: absolute; left: 0; right: 0; text-align: center;
+    font-family: var(--pa-mono); font-size: 0.5625rem; color: var(--pa-ink-soft);
+    font-weight: 700; font-variant-numeric: tabular-nums;
+  }
+  .layout--home-preview .xaxis { display: flex; gap: 2px; margin-top: 0.3rem; }
+  .layout--home-preview .xaxis span {
+    flex: 1 1 0; min-width: 0; text-align: center;
+    font-family: var(--pa-mono); font-size: 0.5625rem; color: var(--pa-ink-faint); letter-spacing: -0.04em;
+  }
+  .layout--home-preview .xaxis span[data-on] { color: var(--pa-accent); font-weight: 700; }
+  .layout--home-preview .ycol:hover .segs, .layout--home-preview .ycol[aria-pressed="true"] .segs {
+    outline: 2px solid var(--pa-accent); outline-offset: 1px; border-radius: 3px;
+  }
+  .layout--home-preview .ycol[aria-pressed="true"] .ytot { color: var(--pa-accent); }
+
+  .layout--home-preview /* Version markers: each title's own two cartridge colours. */
+  .vmark { display: inline-flex; gap: 1px; margin-right: 0.35rem; vertical-align: 0.02em; border-radius: 2px; overflow: hidden; }
+  .layout--home-preview .vmark i { width: 6px; height: 11px; display: block; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
+
+  .layout--home-preview /* ---- heatmap ---- */
+  .heat { overflow-x: auto; }
+  .layout--home-preview table.hm { border-collapse: separate; border-spacing: 2px; }
+  .layout--home-preview table.hm tbody th {
+    font-weight: 400; color: var(--pa-ink-soft); text-align: right;
+    padding-right: 0.4rem; white-space: nowrap; font-size: 0.72rem;
+  }
+  .layout--home-preview table.hm thead th {
+    text-align: center; padding: 0 0 0.25rem; font-family: var(--pa-mono);
+    font-size: 0.5625rem; color: var(--pa-ink-faint); letter-spacing: -0.04em; font-weight: 400;
+  }
+  .layout--home-preview .cell {
+    width: 100%; min-width: 26px; height: 21px; border: 0; border-radius: 2px;
+    font-family: var(--pa-mono); font-size: 0.625rem; cursor: pointer;
+    color: var(--pa-ink); padding: 0; line-height: 21px; font-variant-numeric: tabular-nums;
+  }
+  .layout--home-preview .cell[data-v="0"] { background: transparent; box-shadow: inset 0 0 0 1px var(--pa-rule); color: transparent; cursor: default; }
+  .layout--home-preview .cell[data-v="1"] { background: var(--pa-s1); }
+  .layout--home-preview .cell[data-v="2"] { background: var(--pa-s2); }
+  .layout--home-preview .cell[data-v="3"] { background: var(--pa-s3); }
+  .layout--home-preview .cell[data-v="4"] { background: var(--pa-s4); }
+  .layout--home-preview .cell[data-v="5"] { background: var(--pa-s5); color: #fff; }
+  .layout--home-preview .cell[data-v="6"] { background: var(--pa-s6); color: #fff; }
+  .layout--home-preview .cell:not([data-v="0"]):hover { box-shadow: 0 0 0 2px var(--pa-accent); }
+  .layout--home-preview .cell[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--ball); }
+  .layout--home-preview .cell:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 1px; }
+  .layout--home-preview .key { display: flex; align-items: center; gap: 0.3rem; font-size: 0.68rem; color: var(--pa-ink-faint); margin-top: 0.55rem; flex-wrap: wrap; }
+  .layout--home-preview .key i { width: 20px; height: 9px; border-radius: 2px; display: inline-block; font-style: normal; }
+
+  .layout--home-preview /* ---- collections ---- */
+  .shelf { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem,1fr)); gap: 0.75rem; margin-top: 1rem; }
+  .layout--home-preview .col {
+    display: flex; flex-direction: column; gap: 0.5rem; text-align: left; font: inherit;
+    color: inherit; background: var(--pa-card); border: 1px solid var(--pa-rule);
+    border-left: 3px solid var(--c, var(--pa-accent)); border-radius: 0;
+    clip-path: polygon(0 0, calc(100% - 11px) 0, 100% 11px, 100% 100%, 0 100%);
+    padding: 0.8rem 0.9rem; cursor: pointer; transition: transform .14s, border-color .14s;
+    position: relative; overflow: hidden;
+  }
+  .layout--home-preview .col:hover { transform: translateY(-2px); border-color: var(--c, var(--pa-accent)); }
+  .layout--home-preview .col:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+  .layout--home-preview .col-top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem; }
+  .layout--home-preview .col-name { font-weight: 700; font-size: 0.9375rem; }
+  .layout--home-preview .col-n { font-family: var(--pa-mono); font-variant-numeric: tabular-nums; font-size: 1.25rem; color: var(--c, var(--pa-accent)); line-height: 1; }
+  .layout--home-preview .col-bar { height: 4px; border-radius: 2px; background: var(--pa-sunk); overflow: hidden; }
+  .layout--home-preview .col-bar i { display: block; height: 100%; background: var(--c, var(--pa-accent)); }
+  .layout--home-preview .col-streams { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.15rem; }
+  .layout--home-preview .col-streams li { font-size: 0.75rem; color: var(--pa-ink-soft); display: flex; justify-content: space-between; gap: 0.6rem; }
+  .layout--home-preview .col-streams b { font-family: var(--pa-mono); font-weight: 400; color: var(--pa-ink-faint); }
+
+  .layout--home-preview /* ---- finder / results / entities ---- */
+  .bar2 { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 1.5rem 0 0.9rem; }
+  .layout--home-preview .field { flex: 1 1 16rem; display: flex; align-items: center; gap: 0.5rem; background: var(--pa-card);
+           border: 1px solid var(--pa-rule); border-radius: 3px; padding: 0.45rem 0.7rem; }
+  .layout--home-preview .field:focus-within { border-color: var(--pa-accent); box-shadow: 0 0 0 3px var(--pa-accent-soft); }
+  .layout--home-preview .field input { flex: 1; border: 0; background: none; color: var(--pa-ink); font: inherit; outline: none; min-width: 0; }
+  .layout--home-preview .chips { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+  .layout--home-preview /* Type-badge shape: a solid colour tile, .layout--home-preview then the label — the Pokédex
+     むし / かくとう pattern, .layout--home-preview which reads as a category at a glance. */
+  .chip {
+    font: inherit; font-size: 0.78rem; padding: 0.22rem 0.6rem 0.22rem 0.22rem;
+    border: 1px solid var(--pa-rule); background: var(--pa-card-solid); color: var(--pa-ink-soft);
+    border-radius: 3px; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;
+  }
+  .layout--home-preview .chip .tile {
+    width: 15px; height: 15px; border-radius: 2px; flex: none;
+    background: var(--t, var(--pa-accent)); display: block;
+  }
+  .layout--home-preview .chip:hover { border-color: var(--pa-accent); color: var(--pa-ink); }
+  .layout--home-preview .chip[aria-pressed="true"] { background: var(--pa-accent); border-color: var(--pa-accent); color: var(--pa-paper); }
+  .layout--home-preview .chip .n { font-family: var(--pa-mono); font-size: 0.68rem; opacity: .75; margin-left: 0.25rem; }
+  .layout--home-preview .chip-clear { border-style: dashed; }
+
+  .layout--home-preview /* "| ⊙ POKÉDEX" — a rail, .layout--home-preview a mark, .layout--home-preview then the name. */
+  .h2 {
+    font-family: var(--pa-serif); font-size: 1.05rem; font-weight: 700;
+    margin: 1.9rem 0 0.25rem; padding-left: 0.6rem;
+    border-left: 3px solid var(--pa-accent); line-height: 1.35;
+  }
+  .layout--home-preview .p-title {
+    padding-left: 0.5rem; border-left: 3px solid var(--pa-accent); line-height: 1.3;
+  }
+  .layout--home-preview .note { margin: 0 0 0.8rem; color: var(--pa-ink-soft); font-size: 0.8125rem; max-width: 44rem; }
+
+  .layout--home-preview .rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--pa-rule); }
+  .layout--home-preview .rows li { border-bottom: 1px solid var(--pa-rule); }
+  .layout--home-preview .row { width: 100%; display: grid; grid-template-columns: 4.8rem 1fr auto; gap: 0.25rem 0.8rem;
+         align-items: baseline; padding: 0.5rem 0.2rem; background: none; border: 0; font: inherit;
+         color: inherit; text-align: left; cursor: pointer; }
+  .layout--home-preview .row:hover { background: var(--pa-sunk); }
+  .layout--home-preview .row-d { font-family: var(--pa-mono); font-size: 0.7rem; color: var(--pa-ink-faint); }
+  .layout--home-preview .row-k { font-size: 0.66rem; color: var(--pa-ink-soft); border: 1px solid var(--pa-rule); border-radius: 2px; padding: 0.02rem 0.35rem; white-space: nowrap; }
+  .layout--home-preview .row-k[data-draft] { color: var(--ball); border-color: var(--ball); }
+  .layout--home-preview .empty { padding: 1.6rem 0; color: var(--pa-ink-faint); text-align: center; font-size: 0.85rem; }
+
+  .layout--home-preview .ents { display: grid; gap: 0.55rem; }
+  .layout--home-preview .egroup { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
+  .layout--home-preview .erole { font-size: 0.66rem; letter-spacing: 0.1em; color: var(--pa-ink-faint); min-width: 2.2rem; }
+  .layout--home-preview .ent { font: inherit; font-size: 0.78rem; padding: 0.22rem 0.55rem; border: 1px solid var(--pa-rule);
+         border-radius: 999px; background: var(--pa-card); color: var(--pa-ink-soft); cursor: pointer; }
+  .layout--home-preview .ent:hover { border-color: var(--pa-accent); color: var(--pa-accent); }
+  .layout--home-preview .ent .n { font-family: var(--pa-mono); font-size: 0.68rem; opacity: .7; margin-left: 0.2rem; }
+
+  .layout--home-preview /* The battle labels are plates with a bright rim and a pointer tail; the
+     dialog borrows the shape so a popover reads as anchored, .layout--home-preview not stacked. */
+  .pa-dlg {
+    border: 0; border-radius: 0; background: var(--pa-card-solid); color: var(--pa-ink);
+    padding: 0; max-width: 38rem; width: calc(100% - 2rem); max-height: 84vh;
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+    box-shadow: inset 0 0 0 1.5px var(--pa-edge), 0 0 calc(40px * var(--pa-glow)) -8px var(--pa-edge);
+  }
+  .layout--home-preview .pa-dlg::backdrop { background: rgba(22,26,18,.55); }
+  .layout--home-preview .dh { position: sticky; top: 0; background: var(--pa-card); border-bottom: 1px solid var(--pa-rule);
+        padding: 0.9rem 1.1rem 0.75rem; display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
+  .layout--home-preview .dh h3 { font-family: var(--pa-serif); font-size: 1.15rem; margin: 0; }
+  .layout--home-preview .dh p { margin: 0.1rem 0 0; font-size: 0.78rem; color: var(--pa-ink-soft); }
+  .layout--home-preview .dx { font: inherit; font-size: 1.05rem; line-height: 1; background: none; border: 1px solid var(--pa-rule);
+        border-radius: 3px; color: var(--pa-ink-soft); cursor: pointer; padding: 0.15rem 0.45rem; }
+  .layout--home-preview .db { padding: 0.5rem 1.1rem 1.1rem; overflow-y: auto; }
+  .layout--home-preview .refine { border-bottom: 1px solid var(--pa-rule); padding: 0.7rem 0 0.85rem; display: grid; gap: 0.75rem; }
+  .layout--home-preview .rlab { font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pa-ink-faint); margin: 0 0 0.35rem; }
+  .layout--home-preview .years { display: flex; align-items: flex-end; gap: 2px; height: 2.6rem; }
+  .layout--home-preview .yr { flex: 1 1 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 2px;
+        background: none; border: 0; padding: 0; font: inherit; cursor: pointer; min-width: 0; }
+  .layout--home-preview .yr .b { background: var(--pa-s3); border-radius: 1px 1px 0 0; min-height: 2px; }
+  .layout--home-preview .yr:hover .b, .layout--home-preview .yr[aria-pressed="true"] .b { background: var(--pa-accent); }
+  .layout--home-preview .yr .t { font-family: var(--pa-mono); font-size: 0.5rem; color: var(--pa-ink-faint); text-align: center; letter-spacing: -0.04em; }
+  .layout--home-preview .rcount { font-size: 0.72rem; color: var(--pa-ink-faint); font-family: var(--pa-mono); margin: 0.5rem 0 0; }
+
+  .layout--home-preview /* ---- Z-A surface treatment ----
+     Four layers, .layout--home-preview in the order the reference calls for: a projected ground, .layout--home-preview a
+     glass panel, .layout--home-preview an emissive rim, .layout--home-preview and bloom. Every one is confined to fills, .layout--home-preview rims and grounds — never to glyphs, .layout--home-preview so nothing legible is smeared. */
+
+  /* The city grid the interface is projected onto. Two hairline gradients, .layout--home-preview kept under 4% so they read as texture rather than pattern. */
+  .pa {
+    position: relative;
+    background-image:
+      linear-gradient(var(--pa-rule) 1px, transparent 1px),
+      linear-gradient(90deg, var(--pa-rule) 1px, transparent 1px);
+    background-size: 48px 48px, 48px 48px;
+    background-position: -1px -1px;
+  }
+  .layout--home-preview .pa::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(120% 60% at 50% -10%, var(--pa-accent-soft), transparent 70%);
+    opacity: .55;
+  }
+  .layout--home-preview .pa > * { position: relative; }
+  .layout--home-preview /* Motes drifting in the projection volume. Three static layers — no
+     animation, .layout--home-preview so nothing competes with the numbers for attention. */
+  .pa::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 18% 22%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 63% 12%, var(--pa-edge), transparent),
+      radial-gradient(1.5px 1.5px at 82% 44%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 34% 68%, var(--pa-edge), transparent),
+      radial-gradient(1.5px 1.5px at 91% 78%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 8% 88%, var(--pa-edge), transparent);
+    opacity: .5;
+  }
+
+  .layout--home-preview /* Panels read as glass: the ground shows through, .layout--home-preview the rim is brighter than
+     the fill, .layout--home-preview and a scanline pass sits on top of the fill only. */
+  .panel {
+    position: relative;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-color: color-mix(in srgb, var(--pa-edge) 45%, transparent);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--pa-edge) 18%, transparent),
+      0 0 calc(18px * var(--pa-glow)) -6px var(--pa-edge);
+    overflow: hidden;
+  }
+  .layout--home-preview /* Two passes: a broad diagonal light band sweeping the plate, .layout--home-preview and fine
+     scanlines under it. The band is what the Pokédex screen actually shows. */
+  .panel::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background:
+      linear-gradient(103deg, transparent 18%,
+        color-mix(in srgb, var(--pa-edge) 13%, transparent) 33%,
+        color-mix(in srgb, var(--pa-edge) 4%, transparent) 46%, transparent 62%),
+      repeating-linear-gradient(to bottom,
+        color-mix(in srgb, var(--pa-edge) 7%, transparent) 0 1px, transparent 1px 4px);
+  }
+  .layout--home-preview /* The rim is drawn as its own layer so the bevel keeps a glowing edge. */
+  .panel-rim {
+    position: absolute; inset: 0; pointer-events: none; z-index: 2;
+    clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--pa-edge) 62%, transparent);
+  }
+  .layout--home-preview .panel > * { position: relative; z-index: 1; }
+
+  .layout--home-preview /* Emissive rim on the collection cards; the left edge is the material's hue. */
+  .col {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    box-shadow: 0 0 calc(14px * var(--pa-glow)) -7px var(--c, var(--pa-edge));
+  }
+  .layout--home-preview .col:hover { box-shadow: 0 0 calc(22px * var(--pa-glow)) -6px var(--c, var(--pa-edge)); }
+
+  .layout--home-preview /* Bloom is reserved for the two brightest ramp steps and for selection, .layout--home-preview which is where the reference puts it: reward and emphasis. */
+  .cell[data-v="5"] { box-shadow: 0 0 calc(8px * var(--pa-glow)) -2px var(--pa-s5); }
+  .layout--home-preview .cell[data-v="6"] { box-shadow: 0 0 calc(12px * var(--pa-glow)) -2px var(--pa-s6); }
+  .layout--home-preview .cell:not([data-v="0"]):hover {
+    box-shadow: 0 0 0 2px var(--pa-accent), 0 0 calc(14px * var(--pa-glow)) -3px var(--pa-accent);
+  }
+  .layout--home-preview .cell[aria-pressed="true"] {
+    box-shadow: 0 0 0 2px var(--pa-hot), 0 0 calc(16px * var(--pa-glow)) -3px var(--pa-hot);
+  }
+  .layout--home-preview .seg:first-child { box-shadow: 0 -1px calc(9px * var(--pa-glow)) -3px currentColor; }
+  .layout--home-preview .counts b { text-shadow: 0 0 calc(14px * var(--pa-glow)) color-mix(in srgb, var(--pa-accent) 55%, transparent); }
+
+  .layout--home-preview /* In dark mode the ramp runs dark->bright, .layout--home-preview so the bright steps need dark
+     numerals: light text on them measured 2.02:1 and 1.29:1, .layout--home-preview unreadable. */
+  :root[data-theme="dark"] .cell[data-v="5"], :root:not([data-theme="light"]) .cell[data-v="5"], :root[data-theme="dark"] .cell[data-v="6"], :root:not([data-theme="light"]) .cell[data-v="6"] { color: #08161c; }
+
+  .layout--home-preview /* Selection and search focus use magenta — the reference's emphasis hue. */
+  .chip[aria-pressed="true"] {
+    background: var(--pa-accent); border-color: var(--pa-accent); color: var(--pa-paper);
+  }
+  .layout--home-preview .chip[aria-pressed="true"] .tile { box-shadow: 0 0 0 1.5px var(--pa-paper); }
+  .layout--home-preview .chip-clear { border-color: color-mix(in srgb, var(--pa-hot) 55%, transparent); color: var(--pa-hot); }
+  .layout--home-preview .row-k[data-draft] { color: var(--pa-hot); border-color: var(--pa-hot); }
+  .layout--home-preview .field:focus-within {
+    border-color: var(--pa-edge);
+    box-shadow: 0 0 0 3px var(--pa-accent-soft), 0 0 calc(16px * var(--pa-glow)) -6px var(--pa-edge);
+  }
+
+  .layout--home-preview /* clip-path crops an outline, .layout--home-preview so clipped elements show focus as an inset
+     ring instead — otherwise keyboard focus vanishes on the cards. */
+  .col:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 2px var(--pa-accent), 0 0 calc(22px * var(--pa-glow)) -6px var(--c, var(--pa-edge));
+  }
+
+  .layout--home-preview /* Motes and the projected grid are decoration; a viewer who asked for less
+     motion or higher contrast should not have to read through them. */
+  @media (prefers-contrast: more) {
+    .layout--home-preview .pa { background-image: none; }
+    .layout--home-preview .pa::before, .layout--home-preview .pa::after, .layout--home-preview .panel::after { display: none; }
+    .layout--home-preview .panel { background: var(--pa-card-solid); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+  @media (max-width: 40rem) { .row { grid-template-columns: 1fr auto; } .layout--home-preview .row-d { grid-column: 1/-1; } }
+</style>
+
+
+<div class="pa">
+<div class="pa-wrap">
+
+  <div class="strip">
+    <h1>资料库</h1>
+    <p>Game Freak 官网连载、杂志扫描双语译文、自撰长文与整理资料。</p>
+    <div class="counts">
+      <span><b id="cTotal">476</b> 件</span>
+      <span><b>483</b> 实体</span>
+      <span><b>2004–26</b></span>
+    </div>
+  </div>
+
+  <div class="panels">
+    <section class="panel" data-ghost="476">
+      <span class="panel-rim"></span>
+      <div class="p-head">
+        <h2 class="p-title">每年产出</h2>
+        <div class="legend" id="legend"></div>
+      </div>
+      <p class="p-note">2007 年两条 Game Freak 官网连载并行，此后五年是资料最密集的时期。点击年份筛选。</p>
+      <div class="plot">
+        <div class="yaxis" id="yaxis"></div>
+        <div>
+          <div class="plot-area">
+            <div id="grid"></div>
+            <div class="stack" id="stack"></div>
+          </div>
+          <div class="xaxis" id="xaxis"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" data-ghost="260">
+      <span class="panel-rim"></span>
+      <div class="p-head">
+        <h2 class="p-title">作品被讨论的时间</h2>
+        <span class="p-metric" id="heatMetric"></span>
+      </div>
+      <p class="p-note">色深即当年提及篇数。点击格子筛选那一年的那部作品。</p>
+      <div class="heat" id="heat"></div>
+      <div class="key" id="key"></div>
+    </section>
+  </div>
+
+  <div class="shelf" id="shelf"></div>
+
+  <div class="bar2">
+    <label class="field">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <input id="q" type="search" placeholder="检索标题、刊名、人物、年份…" autocomplete="off">
+    </label>
+    <div class="chips" id="facets"></div>
+  </div>
+
+  <section id="resSec" hidden>
+    <h2 class="h2">检索结果 <span id="resN" style="font-family:var(--pa-mono);color:var(--pa-accent)"></span></h2>
+    <p class="note" id="resWhy"></p>
+    <ul class="rows" id="results"></ul>
+  </section>
+
+  <h2 class="h2">人物与作品</h2>
+  <p class="note">从实体反查资料。已标注 158 位人物、128 部作品、92 个组织、105 项事件。</p>
+  <div class="ents" id="ents"></div>
+
+</div>
+</div>
+
+<dialog class="pa-dlg" id="dlg">
+  <div class="dh"><div><h3 id="dt"></h3><p id="ds"></p></div>
+    <button class="dx" id="dc" aria-label="关闭">×</button></div>
+  <div class="db" id="db"></div>
+</dialog>
+
+<script>
+(function () {
+  "use strict";
+
+  var MATS = [
+    { id:"gf",      name:"Game Freak 官网", c:"var(--pa-m-gf)" },
+    { id:"scan",    name:"杂志扫描翻译",     c:"var(--pa-m-scan)" },
+    { id:"article", name:"自撰与整理",       c:"var(--pa-m-art)" }
+  ];
+  var YEARS = {
+    2004:{gf:29,scan:0,article:0}, 2005:{gf:26,scan:0,article:0},
+    2006:{gf:9,scan:2,article:0},  2007:{gf:80,scan:0,article:0},
+    2008:{gf:69,scan:1,article:2}, 2009:{gf:77,scan:0,article:0},
+    2010:{gf:78,scan:0,article:0}, 2011:{gf:59,scan:0,article:0},
+    2012:{gf:18,scan:0,article:0}, 2013:{gf:10,scan:0,article:0},
+    2014:{gf:2,scan:0,article:0},  2015:{gf:2,scan:0,article:0},
+    2021:{gf:0,scan:1,article:0},  2022:{gf:0,scan:0,article:2},
+    2024:{gf:0,scan:0,article:5},  2025:{gf:0,scan:0,article:1},
+    2026:{gf:0,scan:2,article:1}
+  };
+  var COLS = [
+    { id:"gf", name:"Game Freak 官网", n:459, span:"2004–2015", c:"var(--pa-m-gf)",
+      streams:[["部长专栏",245],["员工博客",214]] },
+    { id:"scan", name:"杂志扫描翻译", n:6, span:"2006–2026", c:"var(--pa-m-scan)",
+      streams:[["原刊双语对照",5],["专栏翻译",1]] },
+    { id:"article", name:"自撰与整理", n:11, span:"2022–2026", c:"var(--pa-m-art)",
+      streams:[["长文与考据",4],["年表与工具",4],["站点记事",3]] }
+  ];
+  /* `v` is each title's own pair of version colours — the identity a reader
+     already recognises. It marks the row; magnitude stays with the cell ramp,
+     so the two encodings never compete. */
+  var WORKS = [
+    { name:"红·绿",        v:["#cf2029","#0f8a4a"], y:{2004:3,2005:2,2007:6,2008:4,2009:5,2010:5,2011:3,2013:1} },
+    { name:"金·银",        v:["#c9a227","#9aa3a8"], y:{2004:1,2005:2,2007:4,2008:4,2009:6,2010:5,2011:1} },
+    { name:"红宝石·蓝宝石", v:["#a01722","#1348a8"], y:{2004:6,2005:4,2006:1,2007:4,2008:3,2009:2,2010:1} },
+    { name:"火红·叶绿",    v:["#e2521d","#5da32a"], y:{2004:8,2005:5,2006:2,2007:3,2008:1,2009:1} },
+    { name:"绿宝石",       v:["#1f9d63"],           y:{2004:4,2005:5,2006:2,2007:2,2008:1,2009:1} },
+    { name:"钻石·珍珠",    v:["#5f9ec9","#d4779b"], y:{2004:2,2005:3,2006:6,2007:22,2008:10,2009:4,2010:4,2011:1} },
+    { name:"白金",         v:["#7d878c"],           y:{2007:2,2008:14,2009:9,2010:4,2011:1} },
+    { name:"心金·魂银",    v:["#c99a1e","#8f9aa1"], y:{2008:2,2009:12,2010:6,2011:1} },
+    { name:"黑·白",        v:["#25262a","#d8d8d2"], y:{2009:6,2010:28,2011:13,2012:2} }
+  ];
+  var HY = [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013];
+  var ENTS = [
+    { name:"增田顺一", role:"人物", n:259, years:{2004:29,2005:26,2006:9,2007:55,2008:21,2009:21,2010:30,2011:39,2012:15,2013:10,2014:2,2015:2}, series:{gf:257,article:2} },
+    { name:"杉森建", role:"人物", n:22, years:{2004:2,2005:1,2007:5,2008:3,2009:4,2010:4,2011:3}, series:{gf:21,article:1} },
+    { name:"森本", role:"人物", n:20, years:{2008:4,2009:6,2010:7,2011:3}, series:{gf:20} },
+    { name:"田尻智", role:"人物", n:7, years:{2004:1,2005:1,2007:2,2009:1,2011:1,2026:1}, series:{gf:6,article:1} },
+    { name:"钻石·珍珠", role:"作品", n:52, years:{2004:2,2005:3,2006:6,2007:22,2008:10,2009:4,2010:4,2011:1}, series:{gf:52} },
+    { name:"黑·白", role:"作品", n:49, years:{2009:6,2010:28,2011:13,2012:2}, series:{gf:49} },
+    { name:"白金", role:"作品", n:30, years:{2007:2,2008:14,2009:9,2010:4,2011:1}, series:{gf:30} },
+    { name:"Game Freak", role:"组织", n:466, years:{2004:29,2005:26,2006:9,2007:80,2008:72,2009:77,2010:78,2011:59,2012:18,2013:10,2014:2,2015:2,2022:1,2024:2,2025:1}, series:{gf:459,article:6,scan:1} },
+    { name:"任天堂", role:"组织", n:67, years:{2004:5,2005:4,2007:12,2008:11,2009:10,2010:12,2011:8,2012:3,2025:2}, series:{gf:61,article:6} },
+    { name:"Creatures", role:"组织", n:24, years:{2007:5,2008:6,2009:5,2010:5,2011:3}, series:{gf:24} },
+    { name:"E3", role:"事件", n:7, years:{2005:1,2006:1,2008:2,2010:2,2011:1}, series:{gf:7} }
+  ];
+  /* Real per-year entry ranges, so a generated title carries a number the
+     archive actually has. */
+  var RANGES = {
+    col:  {2004:[1,29],2005:[30,55],2006:[56,64],2007:[65,118],2008:[119,134],
+           2009:[135,154],2010:[155,180],2011:[181,217],2012:[218,231],
+           2013:[232,241],2014:[242,243],2015:[244,244]},
+    blog: {2007:[3,50],2008:[51,104],2009:[105,162],2010:[163,213],
+           2011:[214,239],2012:[240,243]}
+  };
+  var COL_PER_YEAR = {2004:29,2005:26,2006:9,2007:54,2008:16,2009:20,2010:26,
+                      2011:37,2012:14,2013:10,2014:2,2015:2};
+  var NAMED = {
+    "2015-09-11":["部长专栏 第244回 Pokémon GO 发布","gf","专栏",0],
+    "2026-08-29":["pokepia page019 分区整理","scan","扫描",1],
+    "2026-06-21":["与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇","scan","专栏翻译",0],
+    "2026-06-24":["宝扭蛋怎么找","article","整理",0],
+    "2025-01-01":["近年 Game Freak 开发事件年表","article","整理",0],
+    "2024-12-30":["2025 新年快乐","article","站点",0],
+    "2024-12-24":["卡图下载 查询时间","article","整理",0],
+    "2024-12-10":["建站纪事 Building Records","article","站点",0],
+    "2024-10-24":["拨云见日 从百代市到水脉图书馆","article","自撰",0],
+    "2024-02-27":["2024 宝可梦日","article","站点",0],
+    "2022-10-10":["宝可梦传说阿尔宙斯 日本游戏大赏 岩尾获奖感言","article","访谈",0],
+    "2022-05-31":["更新日志","article","站点",0],
+    "2021-11-01":["DREAM 25TH OCR 横排访谈示例","scan","扫描",1],
+    "2008-12-03":["DREAM 2008.12 Qwen-VL-OCR 分区示例","scan","扫描",1],
+    "2006-12-03":["Nintendo Power 2006 Qwen-VL-OCR 整理稿","scan","扫描",1],
+    "2006-11-01":["苍井优 × 皮卡丘","scan","扫描",0]
+  };
+
+  /* Build the full archive from the same counts the charts use, so a bar of 80
+     opens a list of 80. Without this the sample held ten items and most years
+     filtered to nothing, which read as a broken filter rather than thin data. */
+  var ITEMS = (function () {
+    var out = [];
+    Object.keys(NAMED).forEach(function (d) {
+      var n = NAMED[d];
+      out.push({ d:d, t:n[0], k:n[1], kind:n[2], draft:n[3], works:[] });
+    });
+    Object.keys(YEARS).map(Number).forEach(function (y) {
+      var need = YEARS[y];
+      var already = out.filter(function (i) { return +i.d.slice(0,4) === y; });
+      var have = { gf:0, scan:0, article:0 };
+      already.forEach(function (i) { have[i.k] += 1; });
+
+      /* Named entries already cover part of the year's quota. */
+      var gfLeft = need.gf - have.gf;
+      var cols = Math.min(COL_PER_YEAR[y] || 0, gfLeft);
+      var cr = RANGES.col[y] || [1, 1];
+      for (var c = 0; c < cols; c++) {
+        out.push({ d: stamp(y, c, cols), t: "部长专栏 第" + (cr[0] + c) + "回",
+                   k: "gf", kind: "专栏", draft: 0, works: [] });
+      }
+      /* Only 2007-2012 ran the staff blog; the other years are column only. */
+      var blogs = gfLeft - cols;
+      var br = RANGES.blog[y];
+      for (var b = 0; br && b < blogs; b++) {
+        out.push({ d: stamp(y, b, Math.max(blogs, 1)), t: "员工博客 第" + (br[0] + b) + "回",
+                   k: "gf", kind: "博客", draft: 0, works: [] });
+      }
+      for (var sc = have.scan; sc < need.scan; sc++) {
+        out.push({ d: stamp(y, sc, 3), t: "扫描整理 " + y + "-" + (sc + 1),
+                   k: "scan", kind: "扫描", draft: 1, works: [] });
+      }
+      for (var a = have.article; a < need.article; a++) {
+        out.push({ d: stamp(y, a, 3), t: "整理稿 " + y + "-" + (a + 1),
+                   k: "article", kind: "整理", draft: 0, works: [] });
+      }
+    });
+
+    /* Hang the heatmap's mentions on real rows, so clicking a cell of 22
+       returns 22 entries rather than a year's worth. */
+    WORKS.forEach(function (w) {
+      Object.keys(w.y).forEach(function (y) {
+        var pool = out.filter(function (i) {
+          return +i.d.slice(0,4) === +y && i.k === "gf";
+        });
+        for (var n = 0; n < w.y[y] && n < pool.length; n++) { pool[n].works.push(w.name); }
+      });
+    });
+    return out.sort(function (a, b) { return a.d < b.d ? 1 : -1; });
+  }());
+
+  function stamp(year, index, span) {
+    var month = Math.min(12, 1 + Math.floor(index / Math.max(span, 1) * 12));
+    var day = 1 + (index * 7) % 27;
+    return year + "-" + String(month).padStart(2, "0") + "-" + String(day).padStart(2, "0");
+  }
+
+  var LABEL = { gf:"Game Freak 官网", scan:"杂志扫描翻译", article:"自撰与整理" };
+
+  var state = { q:"", facet:null, year:null, work:null, workYear:null };
+  var refine = { e:null, year:null, series:null };
+
+  function $(i){ return document.getElementById(i); }
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function total(y){ return MATS.reduce(function(s,m){ return s+YEARS[y][m.id]; },0); }
+
+  function renderLegend(){
+    $("legend").innerHTML = MATS.map(function(m){
+      return '<span><i class="sw" style="background:'+m.c+'"></i>'+esc(m.name)+"</span>"; }).join("");
+  }
+
+  /* A value axis and per-bar totals: without them the bars show proportion but
+     not magnitude, and "80 in 2007" is the whole point. */
+  function renderStack(){
+    var ys = Object.keys(YEARS).map(Number).sort(function(a,b){return a-b;});
+    var peak = Math.max.apply(null, ys.map(total));
+    var top = Math.ceil(peak / 20) * 20;          /* 80 -> 80, so the tallest bar meets the top line */
+    var ticks = [0, 0.25, 0.5, 0.75, 1];
+
+    /* Ticks and gridlines share one formula, and a bar of value v is exactly
+       v/top of the plot height — the axis and the bars cannot drift apart. */
+    $("yaxis").innerHTML = ticks.map(function(f){
+      return '<span style="top:'+((1-f)*100)+'%">'+Math.round(top*f)+"</span>"; }).join("");
+    $("grid").innerHTML = ticks.map(function(f){
+      return '<div class="gridline'+(f===0?" base":"")+'" style="top:'+((1-f)*100)+'%"></div>'; }).join("");
+
+    $("stack").innerHTML = ys.map(function(y){
+      var t = total(y), on = state.year===y;
+      var pct = t ? (t / top) * 100 : 0;
+      var segs = MATS.filter(function(m){ return YEARS[y][m.id]>0; }).map(function(m){
+        return '<span class="seg" style="height:'+(YEARS[y][m.id]/t*100)+'%;background:'+m.c+'"></span>';
+      }).join("");
+      return '<button class="ycol" data-y="'+y+'" aria-pressed="'+on+'" title="'+y+"　"+t+' 件">'+
+        (t ? '<span class="ytot" style="bottom:calc('+pct+'% + 3px)">'+t+"</span>" : "") +
+        '<span class="segs" style="height:'+pct+'%">'+segs+"</span></button>";
+    }).join("");
+
+    $("xaxis").innerHTML = ys.map(function(y){
+      return "<span"+(state.year===y?" data-on":"")+">"+String(y).slice(2)+"</span>"; }).join("");
+  }
+
+  function bucket(n){ return !n?0 : n<=2?1 : n<=5?2 : n<=10?3 : n<=15?4 : n<=25?5 : 6; }
+
+  function renderHeat(){
+    var grand = WORKS.reduce(function(s,w){
+      return s + Object.values(w.y).reduce(function(a,b){return a+b;},0); },0);
+    $("heatMetric").innerHTML = "共 <b>"+grand+"</b> 次提及";
+    var head = "<thead><tr><th></th>"+HY.map(function(y){
+      return "<th>"+String(y).slice(2)+"</th>"; }).join("")+"</tr></thead>";
+    var body = WORKS.map(function(w){
+      var mark = '<span class="vmark">'+w.v.map(function(c){
+        return '<i style="background:'+c+'"></i>'; }).join("")+"</span>";
+      return "<tr><th>"+mark+esc(w.name)+"</th>"+HY.map(function(y){
+        var n = w.y[y]||0;
+        var on = state.work===w.name && state.workYear===y;
+        return "<td>"+(n
+          ? '<button class="cell" data-v="'+bucket(n)+'" data-w="'+esc(w.name)+'" data-wy="'+y+
+            '" aria-pressed="'+on+'" title="'+esc(w.name)+"　"+y+"　"+n+' 篇">'+n+"</button>"
+          : '<div class="cell" data-v="0"></div>')+"</td>";
+      }).join("")+"</tr>";
+    }).join("");
+    $("heat").innerHTML = '<table class="hm">'+head+"<tbody>"+body+"</tbody></table>";
+    $("key").innerHTML = "提及篇数　"+
+      [["1–2","--pa-s1"],["3–5","--pa-s2"],["6–10","--pa-s3"],["11–15","--pa-s4"],["16–25","--pa-s5"],["25+","--pa-s6"]]
+        .map(function(p){ return '<i style="background:var('+p[1]+')"></i>'+p[0]; }).join("　");
+  }
+
+  function renderShelf(){
+    var max = Math.max.apply(null, COLS.map(function(c){ return c.n; }));
+    $("shelf").innerHTML = COLS.map(function(c){
+      return '<button class="col" data-open="'+c.id+'" style="--c:'+c.c+'">'+
+        '<span class="col-top"><span class="col-name">'+esc(c.name)+"</span>"+
+        '<span class="col-n">'+c.n+"</span></span>"+
+        '<span class="col-bar"><i style="width:'+(c.n/max*100)+'%"></i></span>'+
+        '<ul class="col-streams">'+c.streams.map(function(s){
+          return "<li><span>"+esc(s[0])+"</span><b>"+s[1]+"</b></li>"; }).join("")+
+        "</ul></button>";
+    }).join("");
+  }
+
+  function renderFacets(){
+    var extra = "";
+    if (state.year || state.work) {
+      extra = '<button class="chip chip-clear" data-clearall>清除筛选</button>';
+    }
+    $("facets").innerHTML = COLS.map(function(c){
+      return '<button class="chip" data-facet="'+c.id+'" aria-pressed="'+(state.facet===c.id)+
+        '" style="--t:'+c.c+'"><span class="tile"></span>'+
+        esc(c.name)+'<span class="n">'+c.n+"</span></button>"; }).join("")+extra;
+  }
+
+  function rowHtml(i){
+    return '<li><button class="row" data-item="'+esc(i.t)+'">'+
+      '<span class="row-d">'+i.d+"</span><span>"+esc(i.t)+"</span>"+
+      '<span class="row-k"'+(i.draft?" data-draft":"")+">"+
+      esc(i.draft?i.kind+" · 待校对":i.kind)+"</span></button></li>";
+  }
+
+  function renderResults(){
+    var on = state.q || state.facet || state.year || state.work;
+    $("resSec").hidden = !on;
+    if (!on) { return; }
+    var why = [];
+    if (state.year) { why.push(state.year+" 年"); }
+    if (state.work) { why.push("《"+state.work+"》"+(state.workYear?" · "+state.workYear:"")); }
+    if (state.facet) { why.push(LABEL[state.facet]); }
+    if (state.q) { why.push('“'+state.q+'”'); }
+    $("resWhy").textContent = why.length ? "筛选：" + why.join("　·　") : "";
+    var hits = ITEMS.filter(function(i){
+      if (state.facet && i.k!==state.facet) { return false; }
+      if (state.year && i.d.slice(0,4)!==String(state.year)) { return false; }
+      /* A heatmap cell means "this title, that year" — match the association,
+         not merely the year, or a cell of 22 would return the year's 80. */
+      if (state.work && i.works.indexOf(state.work)===-1) { return false; }
+      if (state.workYear && i.d.slice(0,4)!==String(state.workYear)) { return false; }
+      if (!state.q) { return true; }
+      return (i.t+" "+i.d+" "+i.kind).toLowerCase().indexOf(state.q.toLowerCase())!==-1;
+    });
+    $("resN").textContent = hits.length;
+    var CAP = 60;
+    $("results").innerHTML = hits.length
+      ? hits.slice(0, CAP).map(rowHtml).join("") +
+        (hits.length > CAP
+          ? '<li class="empty">另有 ' + (hits.length - CAP) + ' 件，继续缩小筛选或使用检索。</li>'
+          : "")
+      : '<li class="empty">没有匹配的资料。清除筛选或换个词。</li>';
+  }
+
+  function renderEnts(){
+    $("ents").innerHTML = ["人物","作品","组织","事件"].map(function(r){
+      var g = ENTS.filter(function(e){ return e.role===r; });
+      if (!g.length) { return ""; }
+      return '<div class="egroup"><span class="erole">'+r+"</span>"+
+        g.map(function(e){
+          return '<button class="ent" data-ent="'+esc(e.name)+'">'+esc(e.name)+
+            '<span class="n">'+e.n+"</span></button>"; }).join("")+"</div>";
+    }).join("");
+  }
+
+  var dlg = $("dlg");
+  function open(t,s,h){ $("dt").textContent=t; $("ds").textContent=s; $("db").innerHTML=h;
+    if (dlg.showModal) { dlg.showModal(); } }
+
+  function est(e){
+    var pick = refine.year ? [String(refine.year)] : Object.keys(e.years);
+    var t = pick.reduce(function(s,y){ return s+(e.years[y]||0); },0);
+    if (!refine.series) { return t; }
+    return Math.max(refine.year?0:1, Math.round(t*((e.series[refine.series]||0)/e.n)));
+  }
+
+  function entBody(){
+    var e = refine.e; if (!e) { return; }
+    var ys = Object.keys(e.years).map(Number).sort(function(a,b){return a-b;});
+    var peak = Math.max.apply(null, ys.map(function(y){ return e.years[y]; }));
+    var bars = ys.map(function(y){
+      return '<button class="yr" data-yr="'+y+'" aria-pressed="'+(refine.year===y)+'" title="'+y+"　"+e.years[y]+
+        ' 件"><span class="b" style="height:'+Math.max(e.years[y]/peak*100,5)+'%"></span>'+
+        '<span class="t">'+String(y).slice(2)+"</span></button>"; }).join("");
+    var tint = { gf:"var(--pa-m-gf)", scan:"var(--pa-m-scan)", article:"var(--pa-m-art)" };
+    var chips = Object.keys(e.series).map(function(s){
+      return '<button class="chip" data-ser="'+s+'" aria-pressed="'+(refine.series===s)+
+        '" style="--t:'+(tint[s]||"var(--pa-accent)")+'"><span class="tile"></span>'+
+        esc(LABEL[s]||s)+'<span class="n">'+e.series[s]+"</span></button>"; }).join("");
+    var f = refine.year||refine.series;
+    $("db").innerHTML = '<div class="refine"><div><p class="rlab">按年份</p><div class="years">'+bars+
+      "</div></div><div><p class=\"rlab\">按材料</p><div class=\"chips\">"+chips+
+      (f?'<button class="chip chip-clear" data-rclear>清除</button>':"")+"</div></div></div>"+
+      '<p class="rcount">'+(f?"筛选后约 "+est(e)+" 件":"全部 "+e.n+" 件")+"</p>"+
+      '<ul class="rows">'+ITEMS.slice(0,4).map(rowHtml).join("")+"</ul>";
+  }
+
+  document.addEventListener("click", function(ev){
+    var t;
+    if ((t = ev.target.closest("[data-y]"))) {
+      var y = Number(t.dataset.y);
+      state.year = state.year===y ? null : y;
+      state.work = state.workYear = null;
+      renderStack(); renderHeat(); renderFacets(); renderResults();
+      if (state.year) { $("resSec").scrollIntoView({behavior:"smooth",block:"nearest"}); }
+      return;
+    }
+    if ((t = ev.target.closest("[data-w]"))) {
+      var w = t.dataset.w, wy = Number(t.dataset.wy);
+      var same = state.work===w && state.workYear===wy;
+      state.work = same ? null : w;
+      state.workYear = same ? null : wy;
+      state.year = null;
+      renderHeat(); renderStack(); renderFacets(); renderResults();
+      if (state.work) { $("resSec").scrollIntoView({behavior:"smooth",block:"nearest"}); }
+      return;
+    }
+    if (ev.target.closest("[data-clearall]")) {
+      state.year = state.work = state.workYear = null;
+      renderStack(); renderHeat(); renderFacets(); renderResults();
+      return;
+    }
+    if ((t = ev.target.closest("[data-open]"))) {
+      var c = COLS.filter(function(x){ return x.id===t.dataset.open; })[0];
+      open(c.name, c.span+"　共 "+c.n+" 件",
+        '<ul class="rows">'+ITEMS.filter(function(i){ return i.k===c.id; }).map(rowHtml).join("")+"</ul>");
+      return;
+    }
+    if ((t = ev.target.closest("[data-ent]"))) {
+      var e = ENTS.filter(function(x){ return x.name===t.dataset.ent; })[0];
+      refine = { e:e, year:null, series:null };
+      open(e.name, e.role+"　出现于 "+e.n+" 件资料", ""); entBody();
+      return;
+    }
+    if ((t = ev.target.closest("[data-yr]"))) {
+      var v = Number(t.dataset.yr); refine.year = refine.year===v?null:v; entBody(); return;
+    }
+    if ((t = ev.target.closest("[data-ser]"))) {
+      var s = t.dataset.ser; refine.series = refine.series===s?null:s; entBody(); return;
+    }
+    if (ev.target.closest("[data-rclear]")) { refine.year=refine.series=null; entBody(); return; }
+    if ((t = ev.target.closest("[data-facet]"))) {
+      state.facet = state.facet===t.dataset.facet?null:t.dataset.facet;
+      renderFacets(); renderResults(); return;
+    }
+    if ((t = ev.target.closest("[data-item]"))) {
+      var it = ITEMS.filter(function(x){ return x.t===t.dataset.item; })[0];
+      open(it.t, it.d+"　"+it.kind,
+        '<p style="color:var(--pa-ink-soft);font-size:.85rem">正式版本会显示摘要、来源刊物、页码与实体链接。</p>');
+    }
+  });
+
+  $("dc").addEventListener("click", function(){ dlg.close(); });
+  dlg.addEventListener("click", function(e){ if (e.target===dlg) { dlg.close(); } });
+  $("q").addEventListener("input", function(e){ state.q=e.target.value.trim(); renderResults(); });
+
+  renderLegend(); renderStack(); renderHeat(); renderShelf();
+  renderFacets(); renderEnts(); renderResults();
+}());
+</script>

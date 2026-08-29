@@ -79,3 +79,9 @@ __pycache__/
 
 # Prepared scan output; regenerate with tools/prepare_scan_pages.py
 scan-prepared/
+.preview/
+
+# Local Jekyll build used to check pages before pushing.
+.preview-build/
+.claude/launch.json
+/vendor/
