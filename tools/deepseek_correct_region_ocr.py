@@ -15,6 +15,23 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 
+def parse_json_response(content: str) -> dict:
+    """Accept fenced JSON, leading prose, and literal newlines in strings."""
+    candidate = str(content or "").strip()
+    if candidate.startswith("```"):
+        candidate = re.sub(r"^```(?:json)?\s*", "", candidate, flags=re.I)
+        candidate = re.sub(r"\s*```$", "", candidate)
+    if "{" in candidate and not candidate.startswith("{"):
+        candidate = candidate[candidate.find("{") : candidate.rfind("}") + 1]
+    try:
+        value = json.loads(candidate)
+    except json.JSONDecodeError:
+        value = json.loads(candidate, strict=False)
+    if not isinstance(value, dict):
+        raise ValueError("DeepSeek response JSON is not an object")
+    return value
+
+
 def build_prompt(item: dict, raw_text: str, context: str) -> str:
     return f"""
 你是日文杂志访谈 OCR 校对与中文翻译助手。
@@ -80,7 +97,7 @@ def call_deepseek(prompt: str, model: str, api_key: str, base_url: str, temperat
             with urllib.request.urlopen(request, timeout=120) as response:
                 data = json.loads(response.read().decode("utf-8"))
             content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
-            return json.loads(content)
+            return parse_json_response(content)
         except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError) as exc:
             last_error = exc
             if attempt < retries:
@@ -259,6 +276,17 @@ def main() -> None:
         action="store_true",
         help="Reuse unchanged entries from llm-corrections.json and only call the API for changed OCR text.",
     )
+    parser.add_argument(
+        "--continue-on-error",
+        action="store_true",
+        help="Keep raw OCR and continue when one region returns an invalid response.",
+    )
+    parser.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=10,
+        help="Rewrite correction outputs after this many regions (default: 10).",
+    )
     args = parser.parse_args()
 
     if not args.api_key:
@@ -301,31 +329,42 @@ def main() -> None:
             continue
         print(f"DeepSeek [{index + 1}/{len(entries)}]: {item.get('speaker')}")
         context = build_context(entries, index)
-        result = call_deepseek(
-            build_prompt(item, raw_text, context),
-            args.model,
-            args.api_key,
-            args.base_url,
-            args.temperature,
-            args.retries,
-        )
-        next_text = entries[index + 1].get("original_raw", "") if index + 1 < len(entries) else ""
-        warnings = suspicious_correction(raw_text, result.get("original_corrected", raw_text), next_text)
-        if warnings:
-            print(f"Retry current region only [{index + 1}/{len(entries)}]: {', '.join(warnings)}")
+        try:
             result = call_deepseek(
-                build_prompt(item, raw_text, "无；本次为边界保护重试，只允许当前区域内容。"),
+                build_prompt(item, raw_text, context),
                 args.model,
                 args.api_key,
                 args.base_url,
                 args.temperature,
                 args.retries,
             )
-            warnings = suspicious_correction(raw_text, result.get("original_corrected", raw_text), "")
-        item["original_corrected"] = result.get("original_corrected", raw_text)
-        item["translation"] = result.get("translation", "")
-        item["correction_note"] = result.get("correction_note", "")
-        item["reliability_warnings"] = warnings
+            next_text = entries[index + 1].get("original_raw", "") if index + 1 < len(entries) else ""
+            warnings = suspicious_correction(raw_text, result.get("original_corrected", raw_text), next_text)
+            if warnings:
+                print(f"Retry current region only [{index + 1}/{len(entries)}]: {', '.join(warnings)}")
+                result = call_deepseek(
+                    build_prompt(item, raw_text, "无；本次为边界保护重试，只允许当前区域内容。"),
+                    args.model,
+                    args.api_key,
+                    args.base_url,
+                    args.temperature,
+                    args.retries,
+                )
+                warnings = suspicious_correction(raw_text, result.get("original_corrected", raw_text), "")
+            item["original_corrected"] = result.get("original_corrected", raw_text)
+            item["translation"] = result.get("translation", "")
+            item["correction_note"] = result.get("correction_note", "")
+            item["reliability_warnings"] = warnings
+        except (RuntimeError, ValueError, json.JSONDecodeError) as exc:
+            if not args.continue_on_error:
+                raise
+            item["original_corrected"] = raw_text
+            item["translation"] = ""
+            item["correction_note"] = f"DeepSeek 返回不可解析，保留原始 OCR，待人工复核：{exc}"
+            item["reliability_warnings"] = ["translation_failed"]
+            print(f"FAILED [{index + 1}/{len(entries)}], kept raw OCR: {exc}")
+        if args.checkpoint_every > 0 and (index + 1) % args.checkpoint_every == 0:
+            write_outputs(out_dir, entries)
 
     write_outputs(out_dir, entries)
 
