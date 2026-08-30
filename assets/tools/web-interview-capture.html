@@ -411,68 +411,20 @@
     </section>
   </main>
 
-  <script>
+  <script type="module">
+    /* The capture transform lives in lib/web-capture.mjs so that this tool
+       and POST /api/build-web-capture produce the same draft from the same
+       input. Editing it here alone would put the two out of step. */
+    import {
+      buildWebCapture, splitParagraphs, splitList, slugify, today
+    } from "./lib/web-capture.mjs";
+
     const $ = (id) => document.getElementById(id);
     const fields = ["template", "sourceUrl", "title", "date", "publication", "author", "interviewee", "summary", "people", "works", "organizations", "tags", "sourceText"];
     const state = { paragraphs: [] };
 
-    function splitList(value) {
-      return String(value || "").split(/[,，、\n]/).map((item) => item.trim()).filter(Boolean);
-    }
-
-    function yamlString(value) {
-      const text = String(value || "").replaceAll("\\", "\\\\").replaceAll('"', '\\"');
-      return `"${text}"`;
-    }
-
-    function yamlList(key, items) {
-      if (!items.length) return `${key}: []`;
-      return `${key}:\n${items.map((item) => `  - ${yamlString(item)}`).join("\n")}`;
-    }
-
-    function nestedYamlList(key, items, indent = "  ") {
-      if (!items.length) return `${indent}${key}: []`;
-      return `${indent}${key}:\n${items.map((item) => `${indent}  - ${yamlString(item)}`).join("\n")}`;
-    }
-
-    function slugify(text) {
-      const ascii = String(text || "")
-        .normalize("NFKD")
-        .replace(/[^\w\s-]/g, "")
-        .trim()
-        .replace(/\s+/g, "-")
-        .toLowerCase();
-      return ascii || "web-interview";
-    }
-
-    function today() {
-      const now = new Date();
-      const year = now.getFullYear();
-      const month = String(now.getMonth() + 1).padStart(2, "0");
-      const day = String(now.getDate()).padStart(2, "0");
-      return `${year}-${month}-${day}`;
-    }
-
-    function cleanHtmlToText(input) {
-      const raw = String(input || "").trim();
-      if (!raw) return "";
-      if (!/[<][a-zA-Z!/]/.test(raw)) return raw;
-      const doc = new DOMParser().parseFromString(raw, "text/html");
-      doc.querySelectorAll("script, style, nav, footer, header, aside, iframe, noscript").forEach((node) => node.remove());
-      doc.querySelectorAll("br").forEach((node) => node.replaceWith("\n"));
-      doc.querySelectorAll("p, h1, h2, h3, h4, li, blockquote").forEach((node) => {
-        node.appendChild(doc.createTextNode("\n\n"));
-      });
-      return doc.body.textContent || "";
-    }
-
     function paragraphsFromSource() {
-      const cleaned = cleanHtmlToText($("sourceText").value)
-        .replace(/\r/g, "\n")
-        .replace(/[ \t]+\n/g, "\n")
-        .replace(/\n{3,}/g, "\n\n")
-        .trim();
-      state.paragraphs = cleaned.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean);
+      state.paragraphs = splitParagraphs($("sourceText").value);
       renderPreview();
       return state.paragraphs;
     }
@@ -503,93 +455,40 @@
       })[char]);
     }
 
-    function markdownParagraph(text) {
-      return String(text || "").replace(/\n+/g, "\n").trim();
+    /* Everything the transform needs, read off the form in one place, so the
+       tool and POST /api/build-web-capture take the same shape of input. */
+    function captureFields() {
+      return {
+        source: $("sourceText").value,
+        paragraphs: state.paragraphs,
+        title: $("title").value,
+        date: $("date").value,
+        sourceUrl: $("sourceUrl").value,
+        publication: $("publication").value,
+        author: $("author").value,
+        interviewee: $("interviewee").value,
+        people: $("people").value,
+        works: $("works").value,
+        organizations: $("organizations").value,
+        tags: $("tags").value,
+        summary: $("summary").value,
+        template: $("template").value,
+        accessedOn: today()
+      };
     }
 
     function buildMarkdown() {
-      const paragraphs = state.paragraphs.length ? state.paragraphs : paragraphsFromSource();
-      const title = $("title").value.trim() || "未命名网页访谈";
-      const date = $("date").value || today();
-      const sourceUrl = $("sourceUrl").value.trim();
-      const publication = $("publication").value.trim();
-      const author = $("author").value.trim();
-      const interviewee = $("interviewee").value.trim();
-      const people = splitList($("people").value || interviewee);
-      const works = splitList($("works").value);
-      const organizations = splitList($("organizations").value);
-      const tags = splitList($("tags").value || "web-archive, interview");
-      const summary = $("summary").value.trim();
-      const template = $("template").value;
-      const sourceId = "source-web";
-      const categories = template === "parallel" ? ["访谈翻译", "网页收录"] : ["文档", "网页收录"];
-      const lines = [
-        "---",
-        `title: ${yamlString(title)}`,
-        `date: ${date}`,
-        `layout: ${template === "parallel" ? "parallel-translation" : "single"}`,
-        yamlList("categories", categories),
-        yamlList("tags", tags),
-        `archive_type: ${template === "parallel" ? "interview_translation" : "article"}`,
-        "source:",
-        `  title: ${yamlString(publication || title)}`,
-        sourceUrl ? `  url: ${yamlString(sourceUrl)}` : "  url:",
-        "  source_type: web_article",
-        "  language: ja",
-        publication ? `publication: ${yamlString(publication)}` : "publication:",
-        author ? `author: ${yamlString(author)}` : "author:",
-        interviewee ? `interviewee: ${yamlString(interviewee)}` : "interviewee:",
-        summary ? `summary: ${yamlString(summary)}` : "summary:",
-        "workflow:",
-        "  capture: done",
-        "  translation: draft",
-        "  proofreading: pending",
-        "  published: draft",
-        "entities:",
-        nestedYamlList("people", people),
-        nestedYamlList("works", works),
-        nestedYamlList("organizations", organizations),
-        "references:",
-        `  - id: ${sourceId}`,
-        "    type: web_article",
-        author ? `    author: ${yamlString(author)}` : "",
-        `    year: ${date.slice(0, 4)}`,
-        `    title: ${yamlString(title)}`,
-        publication ? `    publication: ${yamlString(publication)}` : "",
-        sourceUrl ? `    url: ${yamlString(sourceUrl)}` : "",
-        `    accessed: ${yamlString(today())}`,
-        "---",
-        ""
-      ].filter((line) => line !== "");
-
-      if (summary) {
-        lines.push(summary + `{% include citation-ref.html id="${sourceId}" %}`, "");
-      }
-
-      if (template === "parallel") {
-        lines.push("parallel_items:");
-        paragraphs.forEach((paragraph) => {
-          lines.push("  - type: paragraph");
-          lines.push("    original: |-");
-          markdownParagraph(paragraph).split("\n").forEach((line) => lines.push(`      ${line}`));
-          lines.push("    translation: |-");
-          lines.push("      ");
-        });
-      } else {
-        paragraphs.forEach((paragraph, index) => {
-          lines.push(markdownParagraph(paragraph) + (index === 0 ? `{% include citation-ref.html id="${sourceId}" %}` : ""), "");
-        });
-      }
-
-      $("output").value = lines.join("\n");
-      renderFilename(date, title);
+      if (!state.paragraphs.length) paragraphsFromSource();
+      const result = buildWebCapture(captureFields());
+      state.paragraphs = result.paragraphs;
+      $("output").value = result.markdown;
+      renderFilename(result);
     }
 
-    function renderFilename(date, title) {
+    function renderFilename(result) {
       const wrap = $("filenameHint");
       wrap.innerHTML = "";
-      const file = `${date}-[网页收录]-${slugify(title)}.md`;
-      ["建议文件名", file, "_posts"].forEach((text) => {
+      ["建议文件名", result.filename, result.directory].forEach((text) => {
         const span = document.createElement("span");
         span.textContent = text;
         wrap.appendChild(span);

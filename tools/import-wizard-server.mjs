@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 import { spawn } from "node:child_process";
+/* the same transform the capture tool runs in the browser, so a draft built
+   by hand and one built through the API come out identical */
+import { buildWebCapture } from "../assets/tools/lib/web-capture.mjs";
+import { buildArticleMarkdown } from "../assets/tools/lib/article-markdown.mjs";
 import { randomUUID } from "node:crypto";
 import { createServer } from "node:http";
 import {
@@ -29,6 +33,9 @@ const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
+  /* without this an ES module is served as octet-stream and the browser
+     refuses to execute it, which breaks every tool that imports lib/ */
+  ".mjs": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".md": "text/markdown; charset=utf-8",
   ".png": "image/png",
@@ -1363,6 +1370,24 @@ async function handleApi(req, res, requestUrl) {
     sendJson(res, 200, buildManifest());
     return true;
   }
+  if (requestUrl.pathname === "/api/build-web-capture" && req.method === "POST") {
+    const body = await readJson(req);
+    if (!body || (!body.source && !Array.isArray(body.paragraphs))) {
+      sendJson(res, 400, { error: "Missing source (or paragraphs)" });
+      return true;
+    }
+    sendJson(res, 200, { ok: true, ...buildWebCapture(body) });
+    return true;
+  }
+  if (requestUrl.pathname === "/api/build-article-markdown" && req.method === "POST") {
+    const body = await readJson(req);
+    if (!body || !Array.isArray(body.blocks)) {
+      sendJson(res, 400, { error: "Missing blocks (array)" });
+      return true;
+    }
+    sendJson(res, 200, { ok: true, markdown: buildArticleMarkdown(body) });
+    return true;
+  }
   if (requestUrl.pathname === "/api/publish" && req.method === "POST") {
     sendJson(res, 200, await publishImport(await readJson(req)));
     return true;
@@ -1480,74 +1505,83 @@ async function maybeAsync(endpoint, body, work) {
 
 
 const API_SPEC = [
-  { path: "/api/manifest", method: "GET", summary: "这份接口说明。",
+  { path: "/api/manifest", method: "GET", effect: "read", summary: "这份接口说明。",
     optional: [] },
-  { path: "/api/jobs", method: "GET",
+  { path: "/api/jobs", method: "GET", effect: "read",
     summary: "列出本次运行内的后台任务（不含结果体）。", optional: [] },
-  { path: "/api/job/{id}", method: "GET", dynamic: "/api/job/",
+  { path: "/api/job/{id}", method: "GET", effect: "read", dynamic: "/api/job/",
     summary: "查询单个后台任务：status 为 running / done / failed，done 时 result 为该接口原本的返回值。",
     optional: [] },
 
-  { path: "/api/workflow-state", method: "GET",
+  { path: "/api/workflow-state", method: "GET", effect: "read",
     summary: "读取编辑进度：每个项目走到哪一阶段、检查项完成情况。无记录时 state 为 null。",
     optional: [] },
-  { path: "/api/workflow-state", method: "POST",
+  { path: "/api/workflow-state", method: "POST", effect: "replace",
     summary: "整份写回编辑进度。形状不合法时返回 400 并说明原因。",
     required: ["state"] },
 
-  { path: "/api/list-import-sources", method: "GET",
+  { path: "/api/list-import-sources", method: "GET", effect: "read",
     summary: "列出可导入的本地 Markdown 文件。", optional: [] },
-  { path: "/api/read-local-file", method: "POST",
+  { path: "/api/read-local-file", method: "POST", effect: "read",
     summary: "读取仓库内某个文件的文本。", required: ["path"] },
-  { path: "/api/read-url", method: "GET",
+  { path: "/api/read-url", method: "GET", effect: "read",
     summary: "抓取网页正文（查询参数 url）。", query: ["url"] },
-  { path: "/api/read-url", method: "POST",
+  { path: "/api/read-url", method: "POST", effect: "read",
     summary: "抓取网页正文。", required: ["url"] },
 
-  { path: "/api/select-image-folder", method: "POST",
+  { path: "/api/select-image-folder", method: "POST", effect: "session",
     summary: "选定原图文件夹，返回后续接口使用的 token 与图片清单。", required: ["path"] },
-  { path: "/api/local-image", method: "GET",
+  { path: "/api/local-image", method: "GET", effect: "read",
     summary: "读取已选文件夹内的一张图（查询参数 token、path）。", query: ["token", "path"] },
-  { path: "/api/resolve-source-image", method: "POST",
+  { path: "/api/resolve-source-image", method: "POST", effect: "read",
     summary: "按页名定位原图。", required: ["pageName"] },
-  { path: "/api/prepare-scan-pages", method: "POST",
+  { path: "/api/prepare-scan-pages", method: "POST", effect: "new-output",
     summary: "扫描件拆页、校正、调色、裁切。长任务，返回 jobId 与输出目录。",
     required: ["sourceFolderToken"],
     optional: ["async", "binding", "limit", "model", "noStraighten", "noTone", "outerTrim", "vlm"] },
-  { path: "/api/analyze-layout", method: "POST",
+  { path: "/api/analyze-layout", method: "POST", effect: "read",
     summary: "分析版面分区。", required: ["pages"] },
-  { path: "/api/analyze-page-orientation", method: "POST",
+  { path: "/api/analyze-page-orientation", method: "POST", effect: "read",
     summary: "判断页面文字方向。", required: ["pages"] },
 
-  { path: "/api/run-ocr", method: "POST",
+  { path: "/api/run-ocr", method: "POST", effect: "new-output",
     summary: "按分区标注跑 OCR。长任务。",
     required: ["annotationJson", "imageDir"],
     optional: ["async", "deepSeek", "engine", "model", "out", "promptFile", "sessionId"] },
-  { path: "/api/rerun-region-ocr", method: "POST",
+  { path: "/api/rerun-region-ocr", method: "POST", effect: "replace",
     summary: "重跑单个区域的 OCR。",
     required: ["pageName", "regionId"],
     optional: ["angle", "exclusions", "model", "regionType", "scanBox",
                "sourceFolderToken", "sourceImage", "speaker", "writingDirection"] },
-  { path: "/api/list-ocr-project-queues", method: "GET",
+  { path: "/api/list-ocr-project-queues", method: "GET", effect: "read",
     summary: "列出 OCR 项目队列。", optional: [] },
-  { path: "/api/read-ocr-project-queue", method: "POST",
+  { path: "/api/read-ocr-project-queue", method: "POST", effect: "read",
     summary: "读取某个队列，含需返工的区域。", required: ["path"] },
-  { path: "/api/run-ocr-rework", method: "POST",
+  { path: "/api/run-ocr-rework", method: "POST", effect: "replace",
     summary: "对队列中某一项跑返工。长任务。", required: ["path", "key"],
     optional: ["async"] },
-  { path: "/api/accept-ocr-rework", method: "POST",
+  { path: "/api/accept-ocr-rework", method: "POST", effect: "replace",
     summary: "采纳返工结果。", required: ["path", "key"] },
 
-  { path: "/api/stage", method: "POST",
+  { path: "/api/stage", method: "POST", effect: "session",
     summary: "暂存一篇待发布文章，返回 sessionId。",
     required: ["mode"],
     optional: ["html", "markdown", "slug", "sourceTitle", "sourceUrl", "text", "title", "uploads"] },
-  { path: "/api/publish", method: "POST",
+  { path: "/api/build-web-capture", method: "POST", effect: "pure",
+    summary: "把网页正文或 HTML 转成站点草稿，返回 markdown 与建议文件名。不写盘。",
+    required: ["source"],
+    optional: ["accessedOn", "author", "date", "interviewee", "organizations", "paragraphs",
+               "people", "publication", "sourceUrl", "summary", "tags", "template", "title", "works"] },
+  { path: "/api/build-article-markdown", method: "POST", effect: "pure",
+    summary: "把翻译分块渲染成文章 Markdown。mode 取 template / parallel / display。不写盘。",
+    required: ["blocks"],
+    optional: ["meta", "mode"] },
+  { path: "/api/publish", method: "POST", effect: "overwrite",
     summary: "把暂存内容写成站点文章。",
     required: ["sessionId", "title"],
     optional: ["categories", "date", "format", "markdown", "maxWidth", "outputMode",
                "quality", "slug", "sourceTitle", "sourceUrl", "tags"] },
-  { path: "/api/export-wordpress-workbench", method: "POST",
+  { path: "/api/export-wordpress-workbench", method: "POST", effect: "overwrite",
     summary: "把工作台内容导出为 WordPress 双语稿。",
     required: ["pageName", "segments"],
     optional: ["meta", "sourceFolderToken", "sourceImage", "sourceRelativePath", "workflow"] }
@@ -1562,7 +1596,15 @@ function buildManifest() {
     contract: {
       request: "POST 接口收 JSON 请求体；GET 接口用查询参数。",
       response: "成功为 {ok:true, ...}；失败为 {error:\"...\"} 或 {ok:false, error:\"...\"}，并带非 200 状态码。",
-      longRunning: "标注为长任务的接口默认同步执行，可能耗时数分钟。请求体带 \"async\": true 时立即返回 {jobId, poll}，再轮询 GET /api/job/{id} 取结果。"
+      longRunning: "标注为长任务的接口默认同步执行，可能耗时数分钟。请求体带 \"async\": true 时立即返回 {jobId, poll}，再轮询 GET /api/job/{id} 取结果。",
+      effects: {
+        read: "只读，重跑安全。",
+        pure: "纯计算不写盘；同样输入必得同样输出，重跑安全。",
+        replace: "整体替换目标内容；重跑得到同一结果，重跑安全（幂等）。",
+        "new-output": "每次生成一个新的输出目录并返回其 id；重跑安全但会留下多份产物，需要自行清理。",
+        session: "创建或更新一个会话 / token；重跑会得到新的 id，旧的仍然有效。",
+        overwrite: "按 slug 或页名写入站点文件，会覆盖同名内容；重跑安全但会覆盖此前的人工修改，请先确认目标。"
+      }
     },
     endpoints: API_SPEC
   };
@@ -1588,6 +1630,10 @@ function assertManifestMatchesRoutes(source) {
   const described = new Set(API_SPEC.map((entry) => `${entry.method} ${entry.path}`));
   const undescribed = [...routed].filter((key) => !described.has(key));
   const missing = [...described].filter((key) => !routed.has(key));
+  /* An endpoint whose re-run behaviour nobody wrote down is one a caller has
+     to guess about, and callers that retry guess wrong. */
+  const untagged = API_SPEC.filter((entry) => !entry.effect).map((e) => `${e.method} ${e.path}`);
+  if (untagged.length) console.error("[manifest] no effect declared for:", untagged.join(", "));
   if (undescribed.length || missing.length) {
     console.error("[manifest] out of step with the routes:");
     if (undescribed.length) console.error("  routed but not described:", undescribed.join(", "));

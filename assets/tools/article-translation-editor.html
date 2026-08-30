@@ -845,7 +845,11 @@
     </aside>
   </main>
 
-  <script>
+  <script type="module">
+    /* The article transform lives in lib/article-markdown.mjs so this tool
+       and POST /api/build-article-markdown produce the same file. */
+    import { buildArticleMarkdown, normalizeFontSize } from "./lib/article-markdown.mjs";
+
     const defaultTerms = [
       ["Pokémon", "宝可梦"],
       ["Pokemon", "宝可梦"],
@@ -1051,21 +1055,6 @@
         id: block.id || makeId("image"),
         type: "image"
       };
-    }
-
-    function normalizeFontSize(value) {
-      const size = String(value || "").trim();
-      return ["", "small", "normal", "large", "xlarge"].includes(size) ? size : "";
-    }
-
-    function fontSizeLabel(value) {
-      return {
-        "": "默认",
-        small: "小号",
-        normal: "正文",
-        large: "大号",
-        xlarge: "特大"
-      }[normalizeFontSize(value)] || "默认";
     }
 
     function splitTextToBlocks(text) {
@@ -1623,142 +1612,26 @@
       return escapeHtml(value).replaceAll("'", "&#39;");
     }
 
-    function frontMatter() {
-      const title = els.title.value.trim() || "未命名翻译";
-      return [
-        "---",
-        `title: \"${title.replaceAll("\"", "\\\"")}\"`,
-        `date: ${els.date.value || ""}`,
-        "categories:",
-        "  - 翻译",
-        "tags:",
-        "  - Pokemon",
-        "  - translation",
-        `source: ${state.sourceUrl || els.sourceUrl.value.trim() || ""}`,
-        "---",
-        ""
-      ].join("\n");
-    }
-
-    function yamlScalar(value, indent = 0) {
-      const pad = " ".repeat(indent);
-      const text = String(value || "").trim();
-      if (!text) return "''";
-      if (!/[\n\r]/.test(text) && text.length <= 72 && !/[:#{}\[\],&*?|<>=!%@`]/.test(text)) {
-        return JSON.stringify(text);
-      }
-      return `|-\n${text.split(/\r?\n/).map((line) => `${pad}  ${line}`).join("\n")}`;
-    }
-
-    function templateFrontMatter() {
-      const title = els.title.value.trim() || "未命名翻译";
-      const lines = [
-        "---",
-        "layout: parallel-translation",
-        `title: ${JSON.stringify(title)}`,
-        `date: ${els.date.value || ""}`,
-        "toc: true",
-        "toc_sticky: true",
-        "parallel_view: translation",
-        "categories:",
-        "  - 翻译",
-        "tags:",
-        "  - Pokemon",
-        "  - translation",
-        `source: ${JSON.stringify(state.sourceUrl || els.sourceUrl.value.trim() || "")}`,
-        "parallel_items:"
-      ];
-
-      state.blocks.forEach((block) => {
-        if (block.type === "heading") {
-          lines.push("  - type: heading");
-          lines.push(`    level: ${Math.min(Math.max(Number(block.level) || 2, 2), 4)}`);
-          lines.push(`    original: ${yamlScalar(block.source, 4)}`);
-          lines.push(`    translation: ${yamlScalar(block.translation || block.source, 4)}`);
-          if (block.note.trim()) lines.push(`    note: ${yamlScalar(block.note, 4)}`);
-          return;
-        }
-        if (block.type === "image") {
-          const image = block.replacement || block.original;
-          if (!image) return;
-          lines.push("  - type: image");
-          lines.push(`    image: ${JSON.stringify(image)}`);
-          if (block.alt || block.caption) lines.push(`    alt: ${yamlScalar(block.alt || block.caption, 4)}`);
-          if (block.caption) lines.push(`    caption: ${yamlScalar(block.caption, 4)}`);
-          return;
-        }
-        lines.push("  - type: paragraph");
-        lines.push(`    original: ${yamlScalar(block.source, 4)}`);
-        lines.push(`    translation: ${yamlScalar(block.translation, 4)}`);
-        if (normalizeFontSize(block.fontSize)) lines.push(`    font_size: ${JSON.stringify(normalizeFontSize(block.fontSize))}`);
-        if (block.note.trim()) lines.push(`    note: ${yamlScalar(block.note, 4)}`);
-      });
-
-      lines.push("---", "");
-      return lines.join("\n");
-    }
-
-    function cleanMarkdownLine(value) {
-      return String(value || "").replace(/\s+/g, " ").trim();
-    }
-
-    function escapeComment(value) {
-      return String(value || "").replaceAll("--", "- -").trim();
-    }
-
-    function parallelTextBlock(block) {
-      const source = cleanMarkdownLine(block.source);
-      const translation = cleanMarkdownLine(block.translation);
-      const lines = [];
-      const size = normalizeFontSize(block.fontSize);
-      if (size) lines.push(`<!-- 字号：${fontSizeLabel(size)} -->`);
-      if (source) lines.push(`> 原文：${source}`);
-      lines.push(translation ? `译文：${translation}` : "译文：");
-      if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
-      return lines.join("\n\n");
-    }
-
-    function displayTextBlock(block) {
-      const lines = [];
-      const size = normalizeFontSize(block.fontSize);
-      if (size) lines.push(`<div class="paragraph-size-${size}">`);
-      if (block.translation.trim()) lines.push(block.translation.trim());
-      if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
-      if (block.source.trim()) lines.push(`<!-- 原文：${escapeComment(block.source)} -->`);
-      if (size) lines.push("</div>");
-      return lines.join("\n\n");
+    /* Everything the transform needs, gathered in one place, so this tool and
+       POST /api/build-article-markdown take the same shape of input. */
+    function articleMeta() {
+      return {
+        title: els.title.value,
+        date: els.date.value,
+        sourceUrl: state.sourceUrl || els.sourceUrl.value.trim()
+      };
     }
 
     function buildMarkdown() {
-      const mode = els.markdownMode.value;
-      if (mode === "template") {
-        const md = templateFrontMatter();
-        els.markdownPreview.textContent = md;
-        return md;
-      }
-      const body = state.blocks.map((block) => {
-        if (block.type === "heading") {
-          const headingText = cleanMarkdownLine(block.translation || block.source || "未命名小标题");
-          const marks = "#".repeat(Math.min(Math.max(Number(block.level) || 2, 2), 4));
-          const lines = [`${marks} ${headingText}`];
-          if (mode === "parallel" && block.source.trim()) lines.push(`> 原文标题：${cleanMarkdownLine(block.source)}`);
-          if (mode === "display" && block.source.trim()) lines.push(`<!-- 原文标题：${escapeComment(block.source)} -->`);
-          if (block.note.trim()) lines.push(`> 译注：${block.note.trim()}`);
-          return lines.join("\n\n");
-        }
-        if (block.type === "image") {
-          const url = block.replacement || block.original;
-          if (!url) return "";
-          const alt = block.alt || block.caption || "image";
-          const caption = block.caption ? `\n*${block.caption.trim()}*` : "";
-          return `![${alt}](${url})${caption}`;
-        }
-        return mode === "parallel" ? parallelTextBlock(block) : displayTextBlock(block);
-      }).filter(Boolean).join("\n\n");
-      const md = `${frontMatter()}${body}\n`;
+      const md = buildArticleMarkdown({
+        mode: els.markdownMode.value,
+        blocks: state.blocks,
+        meta: articleMeta()
+      });
       els.markdownPreview.textContent = md;
       return md;
     }
+
 
     function saveConfig() {
       const config = {
