@@ -1262,7 +1262,8 @@ async function handleApi(req, res, requestUrl) {
     return true;
   }
   if (requestUrl.pathname === "/api/prepare-scan-pages" && req.method === "POST") {
-    sendJson(res, 200, await prepareScanPages(await readJson(req)));
+    const body = await readJson(req);
+    sendJson(res, 200, await maybeAsync("/api/prepare-scan-pages", body, () => prepareScanPages(body)));
     return true;
   }
   if (requestUrl.pathname === "/api/local-image" && req.method === "GET") {
@@ -1310,7 +1311,8 @@ async function handleApi(req, res, requestUrl) {
     return true;
   }
   if (requestUrl.pathname === "/api/run-ocr" && req.method === "POST") {
-    sendJson(res, 200, await runOcrImport(await readJson(req)));
+    const body = await readJson(req);
+    sendJson(res, 200, await maybeAsync("/api/run-ocr", body, () => runOcrImport(body)));
     return true;
   }
   if (requestUrl.pathname === "/api/rerun-region-ocr" && req.method === "POST") {
@@ -1318,7 +1320,8 @@ async function handleApi(req, res, requestUrl) {
     return true;
   }
   if (requestUrl.pathname === "/api/run-ocr-rework" && req.method === "POST") {
-    sendJson(res, 200, await runOcrRework(await readJson(req)));
+    const body = await readJson(req);
+    sendJson(res, 200, await maybeAsync("/api/run-ocr-rework", body, () => runOcrRework(body)));
     return true;
   }
   if (requestUrl.pathname === "/api/accept-ocr-rework" && req.method === "POST") {
@@ -1344,6 +1347,20 @@ async function handleApi(req, res, requestUrl) {
   if (requestUrl.pathname === "/api/workflow-state" && req.method === "POST") {
     const result = await writeWorkflowState(await readJson(req));
     sendJson(res, result.ok ? 200 : 400, result);
+    return true;
+  }
+  if (requestUrl.pathname.startsWith("/api/job/") && req.method === "GET") {
+    const id = decodeURIComponent(requestUrl.pathname.slice("/api/job/".length));
+    const found = describeJob(id);
+    sendJson(res, found.ok ? 200 : 404, found);
+    return true;
+  }
+  if (requestUrl.pathname === "/api/jobs" && req.method === "GET") {
+    sendJson(res, 200, { ok: true, jobs: [...jobs.values()].map(({ result, ...rest }) => rest) });
+    return true;
+  }
+  if (requestUrl.pathname === "/api/manifest" && req.method === "GET") {
+    sendJson(res, 200, buildManifest());
     return true;
   }
   if (requestUrl.pathname === "/api/publish" && req.method === "POST") {
@@ -1403,6 +1420,182 @@ async function writeWorkflowState(body) {
 }
 
 
+/* ---- API description ------------------------------------------------------
+   Anything driving this pipeline that is not the bundled HTML - a script, an
+   agent - otherwise has to read 1300 lines of this file to learn what the
+   endpoints are and what they want. GET /api/manifest answers that in one
+   call.
+
+   `required` and `optional` are the request-body keys each handler actually
+   reads. They are declared rather than derived, so assertManifestMatchesRoutes()
+   below fails at startup if a route is added without describing it, or
+   described without existing: a manifest that has drifted from the routes is
+   worse than none. */
+
+/* ---- background jobs ------------------------------------------------------
+   prepare-scan-pages, run-ocr and run-ocr-rework shell out to Python and can
+   run for minutes. Answering them synchronously is fine for the bundled UI,
+   which sits and waits, but a caller with a request timeout gets no answer and
+   - worse - no way to find out whether the work actually happened.
+
+   These endpoints keep their synchronous behaviour, so nothing that already
+   calls them changes. Passing "async": true instead starts the work, answers
+   immediately with a jobId, and leaves the result to be collected from
+   GET /api/job/<id>. */
+
+const jobs = new Map();
+const JOB_HISTORY = 50;
+
+function startJob(endpoint, work) {
+  const id = `${endpoint.replace(/^\/api\//, "")}-${Date.now().toString(36)}-${randomUUID().slice(0, 6)}`;
+  const job = { id, endpoint, status: "running", startedAt: new Date().toISOString(),
+                finishedAt: null, result: null, error: null };
+  jobs.set(id, job);
+  /* trim oldest finished jobs; a long session should not grow without bound */
+  if (jobs.size > JOB_HISTORY) {
+    for (const [key, value] of jobs) {
+      if (value.status !== "running") { jobs.delete(key); }
+      if (jobs.size <= JOB_HISTORY) break;
+    }
+  }
+  work()
+    .then((result) => { job.status = "done"; job.result = result; })
+    .catch((error) => { job.status = "failed"; job.error = error?.message || String(error); })
+    .finally(() => { job.finishedAt = new Date().toISOString(); });
+  return { ok: true, jobId: id, status: "running", poll: `/api/job/${id}` };
+}
+
+function describeJob(id) {
+  const job = jobs.get(id);
+  if (!job) return { ok: false, error: `Unknown job ${id}` };
+  return { ok: true, ...job };
+}
+
+/* Run an endpoint's work either way, from one place, so the two paths cannot
+   drift into doing different things. */
+async function maybeAsync(endpoint, body, work) {
+  if (body && body.async === true) return startJob(endpoint, work);
+  return work();
+}
+
+
+const API_SPEC = [
+  { path: "/api/manifest", method: "GET", summary: "这份接口说明。",
+    optional: [] },
+  { path: "/api/jobs", method: "GET",
+    summary: "列出本次运行内的后台任务（不含结果体）。", optional: [] },
+  { path: "/api/job/{id}", method: "GET", dynamic: "/api/job/",
+    summary: "查询单个后台任务：status 为 running / done / failed，done 时 result 为该接口原本的返回值。",
+    optional: [] },
+
+  { path: "/api/workflow-state", method: "GET",
+    summary: "读取编辑进度：每个项目走到哪一阶段、检查项完成情况。无记录时 state 为 null。",
+    optional: [] },
+  { path: "/api/workflow-state", method: "POST",
+    summary: "整份写回编辑进度。形状不合法时返回 400 并说明原因。",
+    required: ["state"] },
+
+  { path: "/api/list-import-sources", method: "GET",
+    summary: "列出可导入的本地 Markdown 文件。", optional: [] },
+  { path: "/api/read-local-file", method: "POST",
+    summary: "读取仓库内某个文件的文本。", required: ["path"] },
+  { path: "/api/read-url", method: "GET",
+    summary: "抓取网页正文（查询参数 url）。", query: ["url"] },
+  { path: "/api/read-url", method: "POST",
+    summary: "抓取网页正文。", required: ["url"] },
+
+  { path: "/api/select-image-folder", method: "POST",
+    summary: "选定原图文件夹，返回后续接口使用的 token 与图片清单。", required: ["path"] },
+  { path: "/api/local-image", method: "GET",
+    summary: "读取已选文件夹内的一张图（查询参数 token、path）。", query: ["token", "path"] },
+  { path: "/api/resolve-source-image", method: "POST",
+    summary: "按页名定位原图。", required: ["pageName"] },
+  { path: "/api/prepare-scan-pages", method: "POST",
+    summary: "扫描件拆页、校正、调色、裁切。长任务，返回 jobId 与输出目录。",
+    required: ["sourceFolderToken"],
+    optional: ["async", "binding", "limit", "model", "noStraighten", "noTone", "outerTrim", "vlm"] },
+  { path: "/api/analyze-layout", method: "POST",
+    summary: "分析版面分区。", required: ["pages"] },
+  { path: "/api/analyze-page-orientation", method: "POST",
+    summary: "判断页面文字方向。", required: ["pages"] },
+
+  { path: "/api/run-ocr", method: "POST",
+    summary: "按分区标注跑 OCR。长任务。",
+    required: ["annotationJson", "imageDir"],
+    optional: ["async", "deepSeek", "engine", "model", "out", "promptFile", "sessionId"] },
+  { path: "/api/rerun-region-ocr", method: "POST",
+    summary: "重跑单个区域的 OCR。",
+    required: ["pageName", "regionId"],
+    optional: ["angle", "exclusions", "model", "regionType", "scanBox",
+               "sourceFolderToken", "sourceImage", "speaker", "writingDirection"] },
+  { path: "/api/list-ocr-project-queues", method: "GET",
+    summary: "列出 OCR 项目队列。", optional: [] },
+  { path: "/api/read-ocr-project-queue", method: "POST",
+    summary: "读取某个队列，含需返工的区域。", required: ["path"] },
+  { path: "/api/run-ocr-rework", method: "POST",
+    summary: "对队列中某一项跑返工。长任务。", required: ["path", "key"],
+    optional: ["async"] },
+  { path: "/api/accept-ocr-rework", method: "POST",
+    summary: "采纳返工结果。", required: ["path", "key"] },
+
+  { path: "/api/stage", method: "POST",
+    summary: "暂存一篇待发布文章，返回 sessionId。",
+    required: ["mode"],
+    optional: ["html", "markdown", "slug", "sourceTitle", "sourceUrl", "text", "title", "uploads"] },
+  { path: "/api/publish", method: "POST",
+    summary: "把暂存内容写成站点文章。",
+    required: ["sessionId", "title"],
+    optional: ["categories", "date", "format", "markdown", "maxWidth", "outputMode",
+               "quality", "slug", "sourceTitle", "sourceUrl", "tags"] },
+  { path: "/api/export-wordpress-workbench", method: "POST",
+    summary: "把工作台内容导出为 WordPress 双语稿。",
+    required: ["pageName", "segments"],
+    optional: ["meta", "sourceFolderToken", "sourceImage", "sourceRelativePath", "workflow"] }
+];
+
+function buildManifest() {
+  return {
+    ok: true,
+    service: "pokeamice import-wizard",
+    root,
+    baseUrl: `http://${host}:${port}`,
+    contract: {
+      request: "POST 接口收 JSON 请求体；GET 接口用查询参数。",
+      response: "成功为 {ok:true, ...}；失败为 {error:\"...\"} 或 {ok:false, error:\"...\"}，并带非 200 状态码。",
+      longRunning: "标注为长任务的接口默认同步执行，可能耗时数分钟。请求体带 \"async\": true 时立即返回 {jobId, poll}，再轮询 GET /api/job/{id} 取结果。"
+    },
+    endpoints: API_SPEC
+  };
+}
+
+/* A manifest is only worth having if it cannot quietly go stale. */
+function assertManifestMatchesRoutes(source) {
+  const routed = new Set();
+  const exact = /requestUrl\.pathname === "(\/api\/[a-z-]+)" && req\.method === "(GET|POST)"/g;
+  let match;
+  while ((match = exact.exec(source))) routed.add(`${match[2]} ${match[1]}`);
+  /* Path-parameter routes are dispatched by prefix, not equality, so they are
+     matched on the prefix a spec entry declares. */
+  const prefixed = /requestUrl\.pathname\.startsWith\("(\/api\/[a-z-]+\/)"\) && req\.method === "(GET|POST)"/g;
+  const prefixes = new Set();
+  while ((match = prefixed.exec(source))) prefixes.add(`${match[2]} ${match[1]}`);
+  for (const entry of API_SPEC) {
+    if (entry.dynamic && prefixes.has(`${entry.method} ${entry.dynamic}`)) {
+      routed.add(`${entry.method} ${entry.path}`);
+    }
+  }
+  routed.add("GET /api/manifest");
+  const described = new Set(API_SPEC.map((entry) => `${entry.method} ${entry.path}`));
+  const undescribed = [...routed].filter((key) => !described.has(key));
+  const missing = [...described].filter((key) => !routed.has(key));
+  if (undescribed.length || missing.length) {
+    console.error("[manifest] out of step with the routes:");
+    if (undescribed.length) console.error("  routed but not described:", undescribed.join(", "));
+    if (missing.length) console.error("  described but not routed:", missing.join(", "));
+  }
+}
+
+
 const server = createServer(async (req, res) => {
   try {
     const requestUrl = new URL(req.url || "/", `http://${host}:${port}`);
@@ -1434,7 +1627,16 @@ server.on("error", (error) => {
   throw error;
 });
 
-server.listen(port, host, () => {
+server.listen(port, host, async () => {
   console.log(`Editor toolbox: http://${host}:${port}/assets/tools/editor-toolbox.html`);
   console.log(`Import wizard: http://${host}:${port}/assets/tools/import-wizard.html`);
+  console.log(`API manifest:  http://${host}:${port}/api/manifest`);
+  /* Check the description against the routes on every start, so a new endpoint
+     that nobody described is noticed here rather than by whatever was relying
+     on the manifest being complete. */
+  try {
+    assertManifestMatchesRoutes(await readFile(new URL(import.meta.url), "utf8"));
+  } catch (error) {
+    console.error("[manifest] could not self-check:", error.message);
+  }
 });
