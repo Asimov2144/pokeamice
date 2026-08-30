@@ -6,6 +6,7 @@ import {
   readdir,
   mkdir,
   readFile,
+  rename,
   stat,
   writeFile
 } from "node:fs/promises";
@@ -1336,12 +1337,71 @@ async function handleApi(req, res, requestUrl) {
     sendJson(res, 200, await analyzePageOrientation(await readJson(req)));
     return true;
   }
+  if (requestUrl.pathname === "/api/workflow-state" && req.method === "GET") {
+    sendJson(res, 200, await readWorkflowState());
+    return true;
+  }
+  if (requestUrl.pathname === "/api/workflow-state" && req.method === "POST") {
+    const result = await writeWorkflowState(await readJson(req));
+    sendJson(res, result.ok ? 200 : 400, result);
+    return true;
+  }
   if (requestUrl.pathname === "/api/publish" && req.method === "POST") {
     sendJson(res, 200, await publishImport(await readJson(req)));
     return true;
   }
   return false;
 }
+
+/* ---- workflow state -------------------------------------------------------
+   The board in assets/tools/project-workflow-board.html was the only thing that
+   knew which stage a project had reached, and it kept that in the browser's
+   localStorage. An agent driving the pipeline over this API could run every
+   step but could not see which ones were already done, so the two could not be
+   handed work between them. The state lives on disk now; the board still keeps
+   a localStorage copy so it works with the server stopped. */
+
+const workflowStateFile = join(root, ".workflow-state", "projects.json");
+
+function validateWorkflowState(value) {
+  if (!value || typeof value !== "object") return "state must be an object";
+  if (!Array.isArray(value.projects)) return "state.projects must be an array";
+  for (const project of value.projects) {
+    if (!project || typeof project !== "object") return "each project must be an object";
+    if (typeof project.id !== "string" || !project.id) return "each project needs a string id";
+  }
+  if (value.activeId != null && typeof value.activeId !== "string") return "activeId must be a string";
+  return null;
+}
+
+async function readWorkflowState() {
+  try {
+    const raw = await readFile(workflowStateFile, "utf8");
+    const state = JSON.parse(raw);
+    const problem = validateWorkflowState(state);
+    if (problem) return { ok: true, state: null, corrupt: problem };
+    const info = await stat(workflowStateFile);
+    return { ok: true, state, savedAt: info.mtime.toISOString() };
+  } catch (error) {
+    if (error.code === "ENOENT") return { ok: true, state: null };
+    throw error;
+  }
+}
+
+async function writeWorkflowState(body) {
+  const state = body && body.state;
+  const problem = validateWorkflowState(state);
+  if (problem) return { ok: false, error: problem };
+  await mkdir(dirname(workflowStateFile), { recursive: true });
+  /* write-then-rename: a crash mid-write leaves the previous state intact
+     rather than a half-written file the board would refuse to load */
+  const temp = `${workflowStateFile}.${randomUUID().slice(0, 8)}.tmp`;
+  await writeFile(temp, `${JSON.stringify(state, null, 2)}
+`, "utf8");
+  await rename(temp, workflowStateFile);
+  return { ok: true, savedAt: new Date().toISOString(), projects: state.projects.length };
+}
+
 
 const server = createServer(async (req, res) => {
   try {

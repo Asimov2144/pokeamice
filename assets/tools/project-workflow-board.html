@@ -4,20 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>项目工作流推进台</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
-    :root {
-      --bg: #f2f5f7;
-      --panel: #fff;
-      --ink: #1d2730;
-      --muted: #65727d;
-      --line: #dce4ea;
-      --accent: #b84848;
-      --accent-soft: rgba(184, 72, 72, 0.1);
-      --blue: #2f6f9f;
-      --green: #34785e;
-      --amber: #a86a1e;
-      --shadow: 0 14px 34px rgba(29, 39, 48, 0.09);
-    }
+    
 
     * { box-sizing: border-box; }
 
@@ -462,6 +451,16 @@
       accent-color: var(--accent);
     }
 
+    .storage-note {
+      margin: var(--s-2) 0 0;
+      font-size: var(--t-xs);
+      color: var(--muted);
+    }
+
+    .storage-note[data-warn="1"] {
+      color: var(--amber);
+    }
+
     .note-output {
       min-height: 160px;
       font-family: Consolas, "SFMono-Regular", "Microsoft YaHei", monospace;
@@ -541,6 +540,7 @@
         <p>Publishing Workflow</p>
         <h1>项目工作流推进台</h1>
         <span>把访谈收录、扫描 OCR、翻译、评注、索引、发布拆成可以一步步推进的项目。</span>
+        <p id="storageNote" class="storage-note" role="status">正在读取工作流状态…</p>
       </header>
 
       <section class="toolbar">
@@ -565,7 +565,7 @@
         <div class="row">
           <button id="exportData" type="button">导出 JSON</button>
           <button id="importData" type="button">导入</button>
-          <input id="importFile" type="file" accept="application/json" hidden>
+          <input id="importFile" aria-label="导入 JSON 文件" type="file" accept="application/json" hidden>
         </div>
         <p>进度保存在当前浏览器的本地存储中。需要换电脑时先导出 JSON。</p>
       </footer>
@@ -671,7 +671,7 @@
         <div class="panel-body">
           <button id="generateNote" type="button">生成 Markdown 清单</button>
           <button id="copyNote" type="button">复制清单</button>
-          <textarea id="noteOutput" class="note-output" readonly></textarea>
+          <textarea id="noteOutput" aria-label="生成的 Markdown 清单" class="note-output" readonly></textarea>
         </div>
       </aside>
     </div>
@@ -717,12 +717,25 @@
       }
     ];
 
-    let state = loadState();
+    /* Where the board's state lives
+       ---------------------------------------------------------------
+       On disk, through /api/workflow-state, so that anything else driving the
+       pipeline - the import-wizard API, a script, an agent - can see which
+       stage a project has reached. This board used to be the only holder of
+       that knowledge and kept it in localStorage, where nothing outside the
+       browser could read it.
+
+       localStorage stays as a mirror, not as the record: the tools are meant
+       to work with the server stopped, and a stale tab must never overwrite
+       newer work. So the server wins on load whenever it answers, the local
+       copy is only used when it does not, and writes go to both. */
+    let serverAvailable = false;
+    let state = loadLocalState();
     let activeId = state.activeId || state.projects[0]?.id || null;
 
     const $ = (id) => document.getElementById(id);
 
-    function loadState() {
+    function loadLocalState() {
       try {
         const data = JSON.parse(localStorage.getItem(storageKey));
         if (data && Array.isArray(data.projects)) return data;
@@ -730,9 +743,56 @@
       return { projects: defaults, activeId: defaults[0].id };
     }
 
+    async function loadState() {
+      try {
+        const response = await fetch("/api/workflow-state", { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const payload = await response.json();
+        serverAvailable = true;
+        if (payload.state && Array.isArray(payload.state.projects)) {
+          setStorageNote(`已连接工作流状态文件${payload.savedAt ? `（${payload.savedAt.slice(0, 16).replace("T", " ")} 保存）` : ""}`);
+          return payload.state;
+        }
+        /* server is up but has no file yet - seed it from whatever this
+           browser was holding, so nothing is lost on first run */
+        setStorageNote("已连接工作流状态文件（尚无记录，将从本地副本建立）");
+        return loadLocalState();
+      } catch (_) {
+        serverAvailable = false;
+        setStorageNote("未连接本地服务，进度仅保存在此浏览器。运行 npm run tools 后可与脚本共享。", true);
+        return loadLocalState();
+      }
+    }
+
+    function setStorageNote(text, warn = false) {
+      const note = $("storageNote");
+      if (!note) return;
+      note.textContent = text;
+      note.dataset.warn = warn ? "1" : "";
+    }
+
+    let savePending = null;
     function saveState() {
       state.activeId = activeId;
-      localStorage.setItem(storageKey, JSON.stringify(state, null, 2));
+      const payload = JSON.stringify(state, null, 2);
+      localStorage.setItem(storageKey, payload);
+      if (!serverAvailable) return;
+      /* the board saves on every keystroke; collapse those into one write */
+      clearTimeout(savePending);
+      savePending = setTimeout(async () => {
+        try {
+          const response = await fetch("/api/workflow-state", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ state })
+          });
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          setStorageNote("进度已写入工作流状态文件");
+        } catch (error) {
+          serverAvailable = false;
+          setStorageNote(`写入状态文件失败（${error.message}），进度仍保存在此浏览器。`, true);
+        }
+      }, 400);
     }
 
     function activeProject() {
@@ -1052,7 +1112,13 @@
       event.target.value = "";
     });
 
-    render();
+    (async () => {
+      state = await loadState();
+      activeId = state.activeId || state.projects[0]?.id || null;
+      render();
+      /* seed the file on first run so the API has something to serve */
+      if (serverAvailable) saveState();
+    })();
   </script>
 </body>
 </html>

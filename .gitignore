@@ -85,3 +85,7 @@ scan-prepared/
 .preview-build/
 .claude/launch.json
 /vendor/
+
+# Editorial progress for the workflow board; shared between the board and
+# anything driving the pipeline through /api/workflow-state, machine-local.
+.workflow-state/
