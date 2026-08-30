@@ -1,0 +1,102 @@
+/* Shared design system for the editor tools.
+   ==========================================================================
+   The eight tools in this folder each carried their own copy of the palette,
+   under the same names but with values that had drifted apart: seven different
+   backgrounds, six shadows, five border colours, four accents. Near-misses are
+   harder to read than either identical or clearly different surfaces - the eye
+   never settles - which is why moving between the tools felt like moving
+   between eight products.
+
+   Direction: Swiss/minimal, which is what dense professional tools want -
+   grid, whitespace, high contrast, no ornament. Two type roles only: mono
+   carries every number and identifier, sans carries every label. Colour is
+   spent on state, never on decoration.
+
+   Each colour below is the value the majority of the tools already used, so
+   this is a convergence rather than a redesign. The one value that changed for
+   everyone is --amber: every previous variant measured below 4.5:1 against
+   both the panel and the page.
+
+   Contrast against --panel (#fff) / --bg (#f3f6f8):
+     --ink     15.16 / 13.97      --accent   5.17 / 4.77
+     --muted    4.93 /  4.55      --green    5.07 / 4.67
+     --blue     5.39 /  4.97      --amber    4.89 / 4.51
+   White text on --accent, --green, --blue, --amber: 5.17, 5.07, 5.39, 4.89.
+
+   Tool-specific tokens (--nav, --rail, --header, --soft, …) stay in the tool
+   that needs them; only what all of them share lives here. */
+
+:root {
+  /* ---- surface and ink ---- */
+  --bg: #f3f6f8;
+  --panel: #fff;
+  --ink: #1d2730;
+  --muted: #65727d;
+  --line: #dce3ea;
+
+  /* ---- state ---- */
+  --accent: #b84848;                        /* primary action, current step */
+  --accent-soft: rgba(184, 72, 72, 0.1);
+  --green: #3f7a59;                         /* done, passing */
+  --blue: #2f6f9f;                          /* information, links */
+  --amber: #9e641c;                         /* needs attention */
+
+  --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
+
+  /* ---- type ----------------------------------------------------------
+     No webfonts: these tools run locally and offline, and the CJK subset of
+     a webfont family costs more than it returns here. The system stacks give
+     the same two roles for free. */
+  --font-sans: "Inter", "Segoe UI", "PingFang SC", "Hiragino Sans GB",
+               "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Mono", "JetBrains Mono",
+               Consolas, Menlo, monospace;
+
+  /* A fixed scale, so a size is chosen from the ladder rather than invented.
+     11px exists only for dense table furniture and never for prose. */
+  --t-xs: 11px;
+  --t-sm: 12px;
+  --t-base: 14px;
+  --t-md: 16px;
+  --t-lg: 18px;
+  --t-xl: 24px;
+
+  /* ---- rhythm ---- */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 24px;
+  --s-6: 32px;
+
+  --radius: 8px;
+  --radius-sm: 6px;
+
+  /* ---- focus ----
+     One ring, defined once, so no tool has to invent its own. */
+  --focus-ring: 0 0 0 2px var(--panel), 0 0 0 4px var(--blue);
+}
+
+/* Every number and identifier reads in mono, every label in sans. Applying it
+   here rather than per-tool is what makes the eight feel like one product. */
+:where(code, kbd, samp, pre, .mono, [data-mono]) {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* A visible focus ring on everything interactive. :where() keeps specificity
+   at zero, so a tool can still override it without !important. */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

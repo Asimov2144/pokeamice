@@ -4,18 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>网页访谈收录工具</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
-    :root {
-      --bg: #f3f6f8;
-      --panel: #fff;
-      --ink: #1d2730;
-      --muted: #64717d;
-      --line: #dce3ea;
-      --accent: #b84848;
-      --accent-soft: rgba(184, 72, 72, 0.1);
-      --blue: #2f6f9f;
-      --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
-    }
+    
 
     * { box-sizing: border-box; }
 
@@ -395,7 +386,7 @@
       </header>
       <div class="stack">
         <p class="hint">可以直接粘贴网页正文，也可以粘贴网页 HTML。工具会清理脚本、导航和多余空行，再按段落拆分。跨域网页不适合直接抓取，手动粘贴最稳定。</p>
-        <textarea id="sourceText" class="source-input" placeholder="在这里粘贴网页正文或 HTML"></textarea>
+        <textarea id="sourceText" aria-label="网页正文或 HTML" class="source-input" placeholder="在这里粘贴网页正文或 HTML"></textarea>
       </div>
       <div class="actions">
         <button id="extract">清理并预览段落</button>
@@ -411,7 +402,7 @@
       </header>
       <div class="stack">
         <div class="chips" id="filenameHint"></div>
-        <textarea id="output" class="output" spellcheck="false"></textarea>
+        <textarea id="output" aria-label="生成结果" class="output" spellcheck="false"></textarea>
       </div>
       <div class="actions">
         <button class="primary" id="copy">复制 Markdown</button>

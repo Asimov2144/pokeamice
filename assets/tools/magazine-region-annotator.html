@@ -4,19 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Magazine Region Annotator</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
-    :root {
-      --bg: #f5f7fa;
-      --panel: #ffffff;
-      --ink: #1f2a35;
-      --muted: #64717f;
-      --line: #dfe5eb;
-      --accent: #bd4b4b;
-      --accent-soft: rgba(189, 75, 75, 0.12);
-      --blue: #3f789d;
-      --green: #4e7e61;
-      --shadow: 0 8px 22px rgba(31, 42, 53, 0.08);
-    }
+    
 
     * {
       box-sizing: border-box;
@@ -883,14 +873,14 @@
       <div class="field">
         <label for="imageInput">导入图片</label>
         <input id="imageInput" type="file" accept="image/*,.tif,.tiff" multiple>
-        <input id="folderInput" type="file" accept="image/*,.tif,.tiff" multiple webkitdirectory hidden>
+        <input id="folderInput" aria-label="导入图片文件夹" type="file" accept="image/*,.tif,.tiff" multiple webkitdirectory hidden>
       </div>
 
       <div class="button-row">
         <button class="btn" id="folderButton" type="button" title="选择原图所在文件夹后，自动填写原图目录和输出目录前缀">选择原图文件夹</button>
         <button class="btn" id="importButton" type="button">导入 JSON</button>
         <button class="btn danger" id="clearButton" type="button">清空</button>
-        <input id="importInput" type="file" accept="application/json,.json" hidden>
+        <input id="importInput" aria-label="导入 JSON 文件" type="file" accept="application/json,.json" hidden>
       </div>
       <div class="hint" id="folderPathHint">选择原图文件夹后，会自动填写原图目录，并用最后一层文件夹名生成输出目录前缀。若浏览器隐藏绝对路径，会优先套用你记住过的路径。</div>
       <div class="hint" id="imageImportStatus" hidden></div>

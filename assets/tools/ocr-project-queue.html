@@ -4,21 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OCR 项目队列</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
     :root {
-      --bg: #eef2f4;
-      --panel: #fff;
-      --ink: #17232c;
-      --muted: #65727d;
-      --line: #d9e1e6;
-      --accent: #b44747;
-      --accent-soft: #f8eaea;
-      --green: #2f7959;
       --green-soft: #e8f5ee;
-      --amber: #a86817;
       --amber-soft: #fff4dc;
-      --blue: #356f9d;
-      --shadow: 0 16px 38px rgba(30, 44, 55, .09);
     }
     * { box-sizing: border-box; }
     html, body { min-height: 100%; margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif; }
@@ -108,7 +98,7 @@
         <div class="hint">自动筛出值得返工的区域；其余内容直接进入翻译或学习模式。</div>
       </header>
       <section class="side-tools">
-        <input id="projectSearch" type="search" placeholder="搜索项目或原图文件夹">
+        <input id="projectSearch" aria-label="搜索项目或原图文件夹" type="search" placeholder="搜索项目或原图文件夹">
         <button id="refreshProjects" type="button">刷新项目</button>
       </section>
       <section id="projectList" class="project-list"></section>
@@ -136,7 +126,7 @@
             <button type="button" data-filter="ready">可以放行</button>
             <button type="button" data-filter="image">图片</button>
           </div>
-          <input id="regionSearch" type="search" placeholder="搜索页码 / 区域名称" style="min-height:34px;border:1px solid var(--line);border-radius:8px;padding:0 10px">
+          <input id="regionSearch" aria-label="搜索页码或区域名称" type="search" placeholder="搜索页码 / 区域名称" style="min-height:34px;border:1px solid var(--line);border-radius:8px;padding:0 10px">
         </section>
       </div>
       <section id="queue" class="queue"></section>

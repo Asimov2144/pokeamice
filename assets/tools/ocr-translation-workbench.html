@@ -4,20 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>OCR 翻译整理工作台</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
-    :root {
-      --bg: #f3f6f8;
-      --panel: #fff;
-      --ink: #1d2730;
-      --muted: #65727d;
-      --line: #dce4ea;
-      --accent: #b84848;
-      --accent-soft: rgba(184, 72, 72, 0.1);
-      --blue: #2f6f9f;
-      --green: #34785e;
-      --amber: #a86a1e;
-      --shadow: 0 12px 30px rgba(29, 39, 48, 0.08);
-    }
+    
 
     * { box-sizing: border-box; }
     [hidden] { display: none !important; }
@@ -250,12 +239,15 @@
 
     .stage-strip {
       display: grid;
-      grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 6px;
+      /* auto-fit + a real minimum: five across when there is room, wrapping to
+         two or one when there is not - never five 23px slivers. */
+      grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+      gap: var(--s-2);
     }
 
     .stage {
       min-height: 48px;
+      overflow-wrap: anywhere;
       border: 1px solid var(--line);
       border-radius: 8px;
       padding: 7px;
@@ -264,13 +256,13 @@
 
     .stage strong {
       display: block;
-      font-size: 12px;
+      font-size: var(--t-sm);
       line-height: 1.2;
     }
 
     .stage span {
       color: var(--muted);
-      font-size: 11px;
+      font-size: var(--t-xs);
     }
 
     .stage.is-active {
@@ -392,7 +384,9 @@
 
     .editor-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(260px, 34%);
+      /* the editing column had no floor, so the 260px side panel could squeeze
+         it to 137px; below 620px they stack instead of both being too narrow */
+      grid-template-columns: minmax(280px, 1fr) minmax(240px, 34%);
       gap: 12px;
       min-height: 0;
       overflow: auto;
@@ -986,28 +980,28 @@
             <option value="post">已有扫描文章 Markdown</option>
           </select>
         </label>
-        <textarea id="importText" class="import-box" placeholder="粘贴 translation-segments.yml 或 regions-ocr.md"></textarea>
+        <textarea id="importText" aria-label="粘贴 translation-segments.yml 或 regions-ocr.md" class="import-box" placeholder="粘贴 translation-segments.yml 或 regions-ocr.md"></textarea>
         <div class="button-row">
           <button class="primary" id="parseImportBtn" type="button">导入段落</button>
           <button id="importFileBtn" type="button">导入文件</button>
           <button id="loadSampleBtn" type="button">载入示例</button>
           <button id="restoreQueueBackupBtn" type="button" hidden>恢复队列前内容</button>
           <button id="clearBtn" type="button">清空</button>
-          <input id="importFileInput" type="file" accept=".yml,.yaml,.md,.markdown,.json,text/yaml,text/markdown,application/json,text/plain" hidden>
+          <input id="importFileInput" aria-label="选择导入文件" type="file" accept=".yml,.yaml,.md,.markdown,.json,text/yaml,text/markdown,application/json,text/plain" hidden>
         </div>
         <div class="hint">导入时会自动区分正文与分区注释；只有 OCR 原文进入待翻译区，页码、类型、坐标、角度等信息会单独保留。</div>
       </section>
 
       <section class="section">
         <div class="section-title">筛选</div>
-        <select id="filterStatus">
+        <select id="filterStatus" aria-label="按状态筛选">
           <option value="all">全部段落</option>
           <option value="ocr">OCR 初稿</option>
           <option value="checked">已校对</option>
           <option value="translated">已翻译</option>
           <option value="review">需复核</option>
         </select>
-        <input id="searchText" type="search" placeholder="搜索原文 / 译文 / 备注">
+        <input id="searchText" aria-label="搜索原文、译文或备注" type="search" placeholder="搜索原文 / 译文 / 备注">
       </section>
 
       <section class="section">
@@ -1139,7 +1133,7 @@
 
           <div class="field-group" id="originalFieldGroup">
             <h2>待翻译原文（日文 OCR）</h2>
-            <textarea id="originalInput" class="original" placeholder="OCR 日文原文"></textarea>
+            <textarea id="originalInput" aria-label="待翻译原文（日文 OCR）" class="original" placeholder="OCR 日文原文"></textarea>
             <div class="button-row">
               <button id="cleanRubyBtn" type="button">清理孤立假名</button>
               <button id="termFixBtn" type="button">术语修正</button>
@@ -1153,14 +1147,14 @@
             <div class="button-row format-toolbar" aria-label="译文格式">
               <button id="boldTranslationBtn" type="button" title="加粗">B</button>
               <button id="underlineTranslationBtn" type="button" title="下划线">U</button>
-              <select id="translationSizeSelect" title="字号">
+              <select id="translationSizeSelect" aria-label="译文字号" title="字号">
                 <option value="">字号</option>
                 <option value="small">小字</option>
                 <option value="medium">正文</option>
                 <option value="large">大字</option>
               </select>
             </div>
-            <textarea id="translationInput" class="translation" placeholder="填写翻译；也可以先保留“待翻译”"></textarea>
+            <textarea id="translationInput" aria-label="译文" class="translation" placeholder="填写翻译；也可以先保留“待翻译”"></textarea>
             <div class="button-row">
               <button id="makePromptBtn" type="button">生成翻译提示词</button>
               <button id="copyTranslationBtn" type="button">复制译文</button>
@@ -1169,7 +1163,7 @@
 
           <div class="field-group" id="commentsFieldGroup">
             <h2>评注 / 链接解析</h2>
-            <textarea id="commentsInput" placeholder="每行一条评注，可写术语、链接、图片说明、校对疑点"></textarea>
+            <textarea id="commentsInput" aria-label="评注与链接" placeholder="每行一条评注，可写术语、链接、图片说明、校对疑点"></textarea>
           </div>
         </section>
 
@@ -1204,7 +1198,7 @@
 
           <div class="field-group" id="termsFieldGroup">
             <h2>术语表</h2>
-            <textarea id="termsInput">W-Fi => Wi-Fi
+            <textarea id="termsInput" aria-label="术语表">W-Fi => Wi-Fi
 フラチナ => プラチナ
 ニンドルリ => ニンドリ
 ゲームフリーオープニング => ゲームフリーク
@@ -1229,7 +1223,7 @@ GAME FREAK => GAME FREAK</textarea>
           <label>译者<input id="translator" type="text" value="机器初稿 / 待人工校对"></label>
         </div>
         <label>文章扫描图路径<input id="scanImage" type="text" value="/assets/img/interviews/dream-2008-12-qwen/page006-tuya.jpg"></label>
-        <label>校对原图文件夹</label>
+        <label for="sourceFolder">校对原图文件夹</label>
         <div class="source-path-row">
           <input id="sourceFolder" type="text" placeholder="导入 OCR 后自动识别，也可以手动选择">
           <button id="chooseSourceFolderBtn" type="button">选择文件夹</button>

@@ -4,19 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>文章翻译编辑器</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
     :root {
-      --bg: #f4f6f8;
-      --panel: #ffffff;
-      --ink: #1d2730;
-      --muted: #64717d;
-      --line: #dce3ea;
-      --accent: #b84848;
-      --accent-soft: rgba(184, 72, 72, 0.11);
       --focus: #2f6f9f;
-      --green: #3f7a59;
       --yellow: #a36d18;
-      --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
     }
 
     * {
@@ -783,15 +775,15 @@
           <button id="exportJsonBtn">导出 JSON</button>
         </div>
         <button id="importMarkdownBtn">从草稿导入 Markdown</button>
-        <input id="jsonFile" type="file" accept="application/json" hidden>
+        <input id="jsonFile" aria-label="导入 JSON 文件" type="file" accept="application/json" hidden>
         <button id="downloadMdBtn" class="primary">下载 Markdown</button>
       </section>
     </aside>
 
     <section class="panel workspace">
       <div class="toolbar">
-        <input id="title" type="text" placeholder="文章标题">
-        <input id="date" type="date">
+        <input id="title" aria-label="文章标题" type="text" placeholder="文章标题">
+        <input id="date" aria-label="文章日期" type="date">
         <span id="focusProgress" class="focus-only focus-progress">0 / 0 段已翻译</span>
         <button id="focusParseBtn" class="focus-only">解析草稿</button>
         <button id="focusTranslateBtn" class="focus-only primary">翻译未完成段</button>
@@ -799,7 +791,7 @@
         <details class="toolbar-more">
           <summary>更多操作</summary>
           <div class="toolbar-more__panel">
-            <select id="markdownMode" title="导出格式">
+            <select id="markdownMode" aria-label="Markdown 生成模式" title="导出格式">
               <option value="parallel">对照稿</option>
               <option value="display">展示稿</option>
               <option value="template">模板稿</option>
@@ -814,7 +806,7 @@
       </div>
       <details class="source-draft-panel" open>
         <summary>原文草稿</summary>
-        <textarea id="sourceHtml" class="source-draft" placeholder="链接解析失败时，可在这里粘贴网页源码、正文，或直接整理原文。"></textarea>
+        <textarea id="sourceHtml" aria-label="原文草稿：网页源码或正文" class="source-draft" placeholder="链接解析失败时，可在这里粘贴网页源码、正文，或直接整理原文。"></textarea>
         <div class="hint">这里是完整原文编辑区，适合在解析前删减广告、导航和多余内容。</div>
       </details>
       <div id="editorList" class="editor-list">
@@ -1612,7 +1604,7 @@
         item.innerHTML = `
           <img src="${escapeAttr(image.original)}" alt="">
           <div class="small">${escapeHtml(image.original)}</div>
-          <input data-image-field="replacement" data-id="${image.id}" value="${escapeAttr(image.replacement)}" placeholder="替换后的 COS 地址">
+          <input data-image-field="replacement" data-id="${image.id}" value="${escapeAttr(image.replacement)}" placeholder="替换后的 COS 地址" aria-label="替换后的 COS 地址">
           <button data-image-action="prefix" data-id="${image.id}">用前缀生成地址</button>
         `;
         els.imageList.appendChild(item);

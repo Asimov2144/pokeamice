@@ -4,19 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>文章导入向导</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
     :root {
-      --bg: #f3f5f7;
-      --panel: #fff;
-      --ink: #1d2730;
-      --muted: #65727d;
-      --line: #dce3ea;
       --soft: #f7f9fb;
-      --accent: #b84848;
-      --accent-soft: rgba(184, 72, 72, 0.1);
-      --blue: #2f6f9f;
-      --green: #3f7a59;
-      --shadow: 0 10px 24px rgba(29, 39, 48, 0.08);
     }
 
     * { box-sizing: border-box; }
@@ -530,7 +521,7 @@
       </div>
       <div class="editor-grid">
         <div class="markdown-editor">
-          <textarea id="markdownEditor" placeholder="生成草稿后在这里编辑 Markdown"></textarea>
+          <textarea id="markdownEditor" aria-label="Markdown 草稿" placeholder="生成草稿后在这里编辑 Markdown"></textarea>
         </div>
         <article class="preview" id="previewPane"></article>
       </div>

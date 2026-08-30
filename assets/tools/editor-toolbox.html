@@ -4,20 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Poke Amice 编辑工具箱</title>
+  <link rel="stylesheet" href="tokens.css">
   <style>
     :root {
-      --bg: #eef1f4;
-      --panel: #ffffff;
-      --ink: #20272e;
-      --muted: #6f7882;
-      --line: #dde2e7;
-      --accent: #b94a4a;
-      --accent-soft: #f7eaea;
       --nav: #24292f;
       --nav-soft: #30363d;
       --nav-text: #d8dee4;
-      --green: #3e7555;
-      --shadow: 0 12px 32px rgba(31, 38, 45, 0.11);
       --rail: 252px;
       --header: 66px;
     }
@@ -316,7 +308,9 @@
     body.rail-collapsed .nav-item { grid-template-columns: 1fr; justify-items: center; padding: 6px; }
 
     @media (max-width: 900px) {
-      :root { --rail: 72px; }
+      :root {
+      --rail: 72px;
+    }
       .brand { justify-content: center; padding: 0; }
       .brand__copy,
       .nav-group__title,
@@ -330,7 +324,10 @@
     }
 
     @media (max-width: 620px) {
-      :root { --rail: 0px; --header: 58px; }
+      :root {
+      --rail: 0px;
+      --header: 58px;
+    }
       .brand,
       .sidebar { display: none; }
       .shell { grid-template-columns: 1fr; grid-template-rows: var(--header) minmax(0, 1fr); }
@@ -420,7 +417,7 @@
 
   <dialog id="commandDialog">
     <div class="command">
-      <input id="commandSearch" type="search" placeholder="搜索工具，例如：翻译、OCR、导入" autocomplete="off">
+      <input id="commandSearch" aria-label="搜索工具" type="search" placeholder="搜索工具，例如：翻译、OCR、导入" autocomplete="off">
       <div id="commandList" class="command__list"></div>
     </div>
   </dialog>
