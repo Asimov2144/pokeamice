@@ -282,9 +282,11 @@ sidebar:
           </section>
 
           <section class="ct-pane ct-out">
-            <h2 class="h2"><i class="fas fa-list-ul" aria-hidden="true"></i>检索结果 <span id="resN"></span></h2>
-            <p class="note" id="resWhy"></p>
-            <ul class="rows" id="results"></ul>
+            <div class="ct-out-body">
+              <h2 class="h2"><i class="fas fa-list-ul" aria-hidden="true"></i>检索结果 <span id="resN"></span></h2>
+              <p class="note" id="resWhy"></p>
+              <ul class="rows" id="results"></ul>
+            </div>
           </section>
         </div>
       </div>
@@ -3550,19 +3552,26 @@ body.theme-bg-black .gf-home-library__search label {
      produced it. */
   .pa .ct-deck, .pa-dlg .ct-deck {
     display: grid; grid-template-columns: minmax(0, 330px) minmax(0, 1fr);
-    gap: 0.9rem; margin-top: 1rem; align-items: start;
+    gap: 0.9rem; margin-top: 1rem; align-items: stretch;
   }
   @media (max-width: 940px) {
     .pa .ct-deck, .pa-dlg .ct-deck { grid-template-columns: 1fr; }
   }
-  .pa .ct-pane, .pa-dlg .ct-pane { min-width: 0; }
+  .pa .ct-pane, .pa-dlg .ct-pane { min-width: 0; min-height: 0; }
+  .pa .ct-out, .pa-dlg .ct-out { position: relative; min-height: 22rem; }
+  .pa .ct-out-body, .pa-dlg .ct-out-body {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+  }
   .pa .ct-filters .rlab, .pa-dlg .ct-filters .rlab {
     margin: 0.9rem 0 0.4rem; font-size: 0.68rem; letter-spacing: 0.08em;
     text-transform: uppercase; color: var(--pa-ink-faint);
   }
   /* The result list scrolls inside its pane rather than growing the page:
-     120 rows is 8000px, and the chart would be long gone. */
-  .pa .ct-out .rows, .pa-dlg .ct-out .rows { max-height: 30rem; }
+     120 rows is 8000px, and the chart would be long gone. It takes whatever
+     height the filter column sets, so the two columns end on the same line. */
+  .pa .ct-out .rows, .pa-dlg .ct-out .rows {
+    flex: 1 1 auto; min-height: 0; max-height: none;
+  }
 
   /* A row is a link now that every entry carries its real URL. */
   .pa .row, .pa-dlg .row { text-decoration: none; color: inherit; }
@@ -3983,18 +3992,40 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
   var LABEL = { gf: "Game Freak 官网", scan: "杂志扫描翻译", article: "自撰与整理" };
 
-  /* Cartridge colours for the titles a reader recognises on sight. Anything
-     not listed gets no marker rather than an invented colour. */
-  var VER = {
-    "宝可梦 红·绿": ["#cf2029", "#0f8a4a"], "宝可梦 金·银": ["#c9a227", "#9aa3a8"],
-    "宝可梦 红宝石·蓝宝石": ["#a01722", "#1348a8"], "宝可梦 火红·叶绿": ["#e2521d", "#5da32a"],
-    "宝可梦 绿宝石": ["#1f9d63"], "宝可梦 钻石·珍珠": ["#5f9ec9", "#d4779b"],
-    "宝可梦 白金": ["#7d878c"], "宝可梦 心金·魂银": ["#c99a1e", "#8f9aa1"],
-    "宝可梦 黑·白": ["#25262a", "#d8d8d2"], "宝可梦 黑2·白2": ["#3a3f45", "#e3e3dd"],
-    "宝可梦 X·Y": ["#2a5ca8", "#c0392b"], "宝可梦 太阳·月亮": ["#e8a020", "#3f51b5"],
-    "宝可梦 剑·盾": ["#1f7ec4", "#b3123a"], "宝可梦传说 阿尔宙斯": ["#8d6b3f"],
-    "宝可梦传说 Z-A": ["#0d7c99", "#d3308a"], "Pokémon GO": ["#4a90d9", "#f2c14e"]
+  /* One table drives both the row marker and the row order: `v` is the
+     title's own cartridge colours, `r` its Japanese release year. Titles that
+     are not listed fall back to no marker and to their earliest mention year,
+     which keeps them in a sensible place without inventing a release date. */
+  var WORK_META = {
+    "宝可梦 红·绿":          { r: 1996, v: ["#cf2029", "#0f8a4a"] },
+    "宝可梦 蓝":             { r: 1996, v: ["#1348a8"] },
+    "宝可梦 皮卡丘版":        { r: 1998, v: ["#f2c14e"] },
+    "宝可梦 金·银":          { r: 1999, v: ["#c9a227", "#9aa3a8"] },
+    "宝可梦 水晶版":          { r: 2000, v: ["#3fb6c4"] },
+    "宝可梦 红宝石·蓝宝石":   { r: 2002, v: ["#a01722", "#1348a8"] },
+    "宝可梦 火红·叶绿":       { r: 2004, v: ["#e2521d", "#5da32a"] },
+    "宝可梦 绿宝石":          { r: 2004, v: ["#1f9d63"] },
+    "宝可梦 钻石·珍珠":       { r: 2006, v: ["#5f9ec9", "#d4779b"] },
+    "宝可梦 白金":            { r: 2008, v: ["#7d878c"] },
+    "宝可梦 心金·魂银":       { r: 2009, v: ["#c99a1e", "#8f9aa1"] },
+    "宝可梦 黑·白":           { r: 2010, v: ["#25262a", "#d8d8d2"] },
+    "宝可梦 黑2·白2":         { r: 2012, v: ["#3a3f45", "#e3e3dd"] },
+    "宝可梦 X·Y":             { r: 2013, v: ["#2a5ca8", "#c0392b"] },
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石": { r: 2014, v: ["#b3123a", "#1f5fb8"] },
+    "Pokémon GO":             { r: 2016, v: ["#4a90d9", "#f2c14e"] },
+    "宝可梦 太阳·月亮":       { r: 2016, v: ["#e8a020", "#3f51b5"] },
+    "宝可梦 究极之日·究极之月": { r: 2017, v: ["#d4761a", "#2f3f7a"] },
+    "宝可梦 剑·盾":           { r: 2019, v: ["#1f7ec4", "#b3123a"] },
+    "宝可梦 晶灿钻石·明亮珍珠": { r: 2021, v: ["#7fb4d8", "#e39ab6"] },
+    "宝可梦传说 阿尔宙斯":     { r: 2022, v: ["#8d6b3f"] },
+    "宝可梦 朱·紫":           { r: 2022, v: ["#c0392b", "#7b3f9e"] },
+    "宝可梦传说 Z-A":         { r: 2025, v: ["#0d7c99", "#d3308a"] }
   };
+
+  /* Every row in this chart is a Pokémon title, so printing 宝可梦 on all of
+     them says nothing and costs the label column its width. The full name is
+     kept for filtering and stays on the tooltip. */
+  function shortWork(name) { return name.replace(/^宝可梦\s*/, ""); }
 
   var ITEMS = [], YEARS = {}, AX = [], COLS = [], WORKS = [], ENTS = [], TAGS = [];
   var state = { q: "", facet: null, year: null, work: null, workYear: null, tag: null };
@@ -4051,20 +4082,27 @@ document.addEventListener("DOMContentLoaded", () => {
       };
     });
 
-    var byWork = {};
+    var byWork = {}, SERIES = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
     ITEMS.forEach(function (i) {
-      (i.w || []).forEach(function (w) {
+      (i.w || []).filter(function (w) { return !SERIES[w]; }).forEach(function (w) {
         byWork[w] = byWork[w] || {};
         bump(byWork[w], yearOf(i));
       });
     });
     WORKS = Object.keys(byWork).map(function (name) {
-      var yy = byWork[name];
+      var yy = byWork[name], meta = WORK_META[name];
+      var mentions = Object.keys(yy).map(Number);
       return {
-        name: name, y: yy, v: VER[name] || null,
+        name: name, short: shortWork(name), y: yy, v: meta ? meta.v : null,
+        /* release year where it is known, earliest mention as a stand-in
+           where it is not, so one key orders the whole column */
+        r: meta ? meta.r : Math.min.apply(null, mentions),
         n: Object.keys(yy).reduce(function (s, k) { return s + yy[k]; }, 0)
       };
-    }).sort(function (a, b) { return b.n - a.n; }).slice(0, 10);
+    })
+      /* take the ten most-discussed titles, then read them in release order */
+      .sort(function (a, b) { return b.n - a.n; }).slice(0, 10)
+      .sort(function (a, b) { return a.r - b.r || a.name.localeCompare(b.name); });
 
     var roles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]];
     var reg = {};
@@ -4140,7 +4178,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ' 篇" aria-label="' + esc(w.name) + " " + y + " 年 " + n + ' 篇">' + n + "</button>"
           : '<div class="cell" data-v="0"></div>';
       }).join("");
-      return '<div class="crow crow-heat"><div class="clab" title="' + esc(w.name) + '">' + mark + esc(w.name) + "</div>" +
+      return '<div class="crow crow-heat"><div class="clab" title="' + esc(w.name) + "　" + w.r + '">' + mark + esc(w.short) + "</div>" +
         '<div class="cplot">' + cells + "</div></div>";
     }).join("");
 
@@ -4215,7 +4253,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderResults() {
     var why = [];
     if (state.year) { why.push(state.year + " 年"); }
-    if (state.work) { why.push("《" + state.work + "》" + (state.workYear ? " · " + state.workYear : "")); }
+    if (state.work) { why.push("《" + shortWork(state.work) + "》" + (state.workYear ? " · " + state.workYear : "")); }
     if (state.facet) { why.push(LABEL[state.facet]); }
     if (state.tag) { why.push("#" + state.tag); }
     if (state.q) { why.push("“" + state.q + "”"); }
