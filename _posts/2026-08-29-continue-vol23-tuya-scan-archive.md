@@ -1,5 +1,5 @@
 ---
-layout: scan-translation
+layout: parallel-translation
 title: '[扫描访谈] CONTINUE Vol.23 自动化对照存档'
 title_ja: CONTINUE Vol.23
 date: '2026-08-29'
@@ -18,7 +18,7 @@ issue: Vol.23
 interviewee: CONTINUE 杂志访谈
 translator: Qwen-VL-OCR 识别 / DeepSeek 校对翻译
 summary: CONTINUE Vol.23 扫描页的自动分页、分区、日文 OCR、中文翻译与原图对照存档。
-source_pages: 11 页准备图
+source_pages: 11 页（Docs 仅展示插图裁片）
 original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
@@ -32,29 +32,6 @@ workflow:
   published: online
 review_scope: 机器校对与翻译已完成；风险区域保留人工返工标记。
 pending_review_regions: 43
-scan_pages:
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page000-tuya.jpg
-  label: page000-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page001-1-tuya.jpg
-  label: page001-1-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page001-tuya.jpg
-  label: page001-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page02-tuya.jpg
-  label: page02-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page03-tuya.jpg
-  label: page03-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page04-1-tuya.jpg
-  label: page04-1-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page04-tuya.jpg
-  label: page04-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page05-1-tuya.jpg
-  label: page05-1-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page05-2-tuya.jpg
-  label: page05-2-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page05-tuya.jpg
-  label: page05-tuya
-- image: /assets/images/scan-archive/continue-vol23-tuya-20260829/page06-tuya.jpg
-  label: page06-tuya
 translation_segments:
 - speaker: body
   type: paragraph

@@ -1,7 +1,7 @@
 ---
-layout: scan-translation
-title: '[扫描访谈] 苍井优 × 皮卡丘'
-title_ja: 蒼井優 ♥ ピカチュウ
+layout: parallel-translation
+title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
+title_ja: CONTINUE Vol.31
 date: '2026-08-29'
 categories:
 - 访谈翻译
@@ -14,11 +14,11 @@ tags:
 - 日中对照
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: CONTINUE
-issue: 2006 vol.31
-interviewee: 苍井优
+issue: Vol.31
+interviewee: CONTINUE 杂志访谈
 translator: Qwen-VL-OCR 识别 / DeepSeek 校对翻译
-summary: 苍井优谈到童年时哥哥唱的宝可梦歌曲、自己的游戏习惯，以及在外景期间学做饭的经历。
-source_pages: 33 页准备图
+summary: CONTINUE Vol.31 扫描页的自动分页、分区、日文 OCR、中文翻译与原图对照存档。
+source_pages: 18 页（Docs 仅展示插图裁片）
 original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
@@ -32,73 +32,6 @@ workflow:
   published: online
 review_scope: 机器校对与翻译已完成；风险区域保留人工返工标记。
 pending_review_regions: 87
-scan_pages:
-- image: /assets/images/scan-archive/continue-vol31-20260829/page033.jpg
-  label: page033
-- image: /assets/images/scan-archive/continue-vol31-20260829/page034-a.jpg
-  label: page034-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page034-b.jpg
-  label: page034-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page036.jpg
-  label: page036
-- image: /assets/images/scan-archive/continue-vol31-20260829/page039-a.jpg
-  label: page039-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page039-b.jpg
-  label: page039-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page040-a.jpg
-  label: page040-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page040-b.jpg
-  label: page040-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page041-a.jpg
-  label: page041-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page041-b.jpg
-  label: page041-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page042-a.jpg
-  label: page042-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page042-b.jpg
-  label: page042-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page043-a.jpg
-  label: page043-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page043-b.jpg
-  label: page043-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page044-a.jpg
-  label: page044-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page044-b.jpg
-  label: page044-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page045-a.jpg
-  label: page045-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page045-b.jpg
-  label: page045-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page046-a.jpg
-  label: page046-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page046-b.jpg
-  label: page046-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page047-a.jpg
-  label: page047-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page047-b.jpg
-  label: page047-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page048-a.jpg
-  label: page048-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page048-b.jpg
-  label: page048-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page049-a.jpg
-  label: page049-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page049-b.jpg
-  label: page049-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page050-a.jpg
-  label: page050-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page050-b.jpg
-  label: page050-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page051-a.jpg
-  label: page051-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page051-b.jpg
-  label: page051-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page052-a.jpg
-  label: page052-a
-- image: /assets/images/scan-archive/continue-vol31-20260829/page052-b.jpg
-  label: page052-b
-- image: /assets/images/scan-archive/continue-vol31-20260829/page053.jpg
-  label: page053
 translation_segments:
 - speaker: body
   type: paragraph

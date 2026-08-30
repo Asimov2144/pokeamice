@@ -120,11 +120,12 @@ def publish_one(args: argparse.Namespace) -> None:
             for row in queue.get("regions") or []
         }
     asset_dir.mkdir(parents=True, exist_ok=True)
-    pages, _ = copy_pages(prep_dir, asset_dir, manifest)
     segments = build_segments(entries, asset_dir, queue_regions)
     pending = sum(1 for item in segments if item.get("review_status") == "review")
     metadata = {
-        "layout": "scan-translation",
+        # Docs/GitHub Pages uses a lightweight reading view. Full-page scans
+        # remain in the local prepared output for the main-site publication.
+        "layout": "parallel-translation",
         "title": args.title,
         "title_ja": args.title_ja,
         "date": args.date,
@@ -136,7 +137,7 @@ def publish_one(args: argparse.Namespace) -> None:
         "interviewee": args.interviewee,
         "translator": "Qwen-VL-OCR 识别 / DeepSeek 校对翻译",
         "summary": args.summary,
-        "source_pages": f"{len(pages)} 页准备图",
+        "source_pages": f"{len(manifest.get('pages') or [])} 页（Docs 仅展示插图裁片）",
         "original_lang": "ja",
         "translation_lang": "zh-CN",
         "parallel_view": "translation",
@@ -151,11 +152,11 @@ def publish_one(args: argparse.Namespace) -> None:
         },
         "review_scope": "机器校对与翻译已完成；风险区域保留人工返工标记。",
         "pending_review_regions": pending,
-        "scan_pages": pages,
         "translation_segments": segments,
     }
     write_post(ROOT / "_posts" / args.post_name, metadata)
-    print(json.dumps({"post": str(ROOT / "_posts" / args.post_name), "pages": len(pages), "segments": len(segments), "pending_review": pending}, ensure_ascii=False))
+    image_count = sum(1 for item in segments if item.get("kind") == "image")
+    print(json.dumps({"post": str(ROOT / "_posts" / args.post_name), "image_crops": image_count, "segments": len(segments), "pending_review": pending}, ensure_ascii=False))
 
 
 def main() -> None:

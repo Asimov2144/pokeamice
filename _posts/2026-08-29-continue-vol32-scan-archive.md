@@ -1,5 +1,5 @@
 ---
-layout: scan-translation
+layout: parallel-translation
 title: '[扫描访谈] CONTINUE Vol.32 自动化对照存档'
 title_ja: CONTINUE Vol.32
 date: '2026-08-29'
@@ -17,8 +17,8 @@ publication: CONTINUE
 issue: Vol.32
 interviewee: CONTINUE 杂志访谈
 translator: Qwen-VL-OCR 识别 / DeepSeek 校对翻译
-summary: CONTINUE Vol.32 扫描页的自动分页、分区、竖排识别、中文翻译与原图对照存档。
-source_pages: 16 页准备图
+summary: CONTINUE Vol.32 扫描页的自动分页、分区、日文 OCR、中文翻译与原图对照存档。
+source_pages: 9 页（Docs 仅展示插图裁片）
 original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
@@ -32,39 +32,6 @@ workflow:
   published: online
 review_scope: 机器校对与翻译已完成；风险区域保留人工返工标记。
 pending_review_regions: 79
-scan_pages:
-- image: /assets/images/scan-archive/continue-vol32-20260829/page016.jpg
-  label: page016
-- image: /assets/images/scan-archive/continue-vol32-20260829/page019-a.jpg
-  label: page019-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page019-b.jpg
-  label: page019-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page023-a.jpg
-  label: page023-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page023-b.jpg
-  label: page023-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page025-a.jpg
-  label: page025-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page025-b.jpg
-  label: page025-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page026-a.jpg
-  label: page026-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page026-b.jpg
-  label: page026-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page028-a.jpg
-  label: page028-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page028-b.jpg
-  label: page028-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page029-a.jpg
-  label: page029-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page029-b.jpg
-  label: page029-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page030-a.jpg
-  label: page030-a
-- image: /assets/images/scan-archive/continue-vol32-20260829/page030-b.jpg
-  label: page030-b
-- image: /assets/images/scan-archive/continue-vol32-20260829/page032.jpg
-  label: page032
 translation_segments:
 - speaker: body
   type: paragraph
