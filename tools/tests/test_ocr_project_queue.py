@@ -157,6 +157,30 @@ class OcrProjectQueueTests(unittest.TestCase):
         )
         self.assertIn("direction_conflict_suppressed", [reason["code"] for reason in reasons])
 
+    def test_repeated_glyph_hallucination_is_blocked(self):
+        reasons = MODULE.review_reasons(
+            {"type": "body", "writing_direction": "vertical"},
+            {},
+            "た" * 45 + "ならな",
+        )
+        self.assertIn("ocr_text_repetition", [reason["code"] for reason in reasons])
+
+    def test_long_body_without_kana_is_blocked(self):
+        reasons = MODULE.review_reasons(
+            {"type": "body", "writing_direction": "vertical"},
+            {},
+            "財政状況予算編成企画調整行政機関地域振興事業計画" * 4,
+        )
+        self.assertIn("japanese_text_implausible", [reason["code"] for reason in reasons])
+
+    def test_dual_ocr_disagreement_is_blocked(self):
+        reasons = MODULE.review_reasons(
+            {"type": "body", "writing_direction": "vertical"},
+            {"quality_warnings": ["dual_ocr_disagreement:0.731"]},
+            "これは読み取った日本語の本文です。",
+        )
+        self.assertIn("dual_ocr_disagreement", [reason["code"] for reason in reasons])
+
 
 if __name__ == "__main__":
     unittest.main()

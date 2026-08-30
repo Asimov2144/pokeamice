@@ -32,6 +32,11 @@ class OcrReworkLoopTests(unittest.TestCase):
         result = MODULE.evaluate_replacement("本文", "12, 23, 40, 50, 99, 本文です", "12, 23, 40, 50, 99, 本文です", proposal)
         self.assertEqual(result["decision"], "human_review")
 
+    def test_repeated_single_glyph_is_unhealthy(self):
+        health = MODULE.text_health("た" * 40 + "ならな")
+        self.assertIn("repeated_glyph_pattern", health["blockers"])
+        self.assertLess(health["score"], 0.6)
+
     def test_short_changed_caption_is_not_silently_replaced(self):
         proposal = {"auto_replace_allowed": True, "reason_codes": ["direction_conflict"]}
         result = MODULE.evaluate_replacement("増田順一", "増田順二", "増田順二", proposal)

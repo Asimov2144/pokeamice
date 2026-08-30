@@ -8,6 +8,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from difflib import SequenceMatcher
 from pathlib import Path
 
 try:
@@ -115,6 +116,16 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
+def normalized_ocr_similarity(left: str, right: str) -> float:
+    left_compact = re.sub(r"\s+", "", str(left or ""))
+    right_compact = re.sub(r"\s+", "", str(right or ""))
+    if not left_compact and not right_compact:
+        return 1.0
+    if not left_compact or not right_compact:
+        return 0.0
+    return SequenceMatcher(None, left_compact, right_compact).ratio()
+
+
 def quality_warnings(text: str) -> list[str]:
     warnings = []
     if not text.strip():
@@ -124,6 +135,10 @@ def quality_warnings(text: str) -> list[str]:
         unique_ratio = len(set(lines)) / len(lines)
         if unique_ratio < 0.35:
             warnings.append(f"severe_line_repetition:{unique_ratio:.2f}")
+    if len(lines) >= 6:
+        pairs = list(zip(lines, lines[1:]))
+        if len(set(pairs)) < len(pairs):
+            warnings.append("repeated_line_sequence")
     if re.search(r"(.{24,160}?)(?:\s*\1){2,}", text, flags=re.DOTALL):
         warnings.append("repeated_text_block")
     coordinate_lines = [line for line in lines if COORDINATE_PREFIX.match(line)]
@@ -429,7 +444,70 @@ def prepare_column_crops(
             direction_overridden = declared in {"horizontal", "vertical"}
     if effective not in {"horizontal", "vertical"}:
         return [], {"strategy": "column_detection", "declared_direction": declared, "orientation": orientation, "column_count": 0}
+    source_width, source_height = (orientation.get("source_size") or [0, 0])[:2]
+    if effective == "vertical" and source_width > 0 and source_height >= source_width * 4.5:
+        # A very narrow vertical strip is already one physical text column.
+        # Running gutter detection on individual glyph strokes can invent 2-4
+        # fake columns and scramble their reading order.
+        box = [0, 0, int(source_width), int(source_height)]
+        return [], {
+            "strategy": "column_detection",
+            "declared_direction": declared,
+            "effective_direction": effective,
+            "direction_overridden": direction_overridden,
+            "direction_override_suppressed": direction_override_suppressed,
+            "orientation": orientation,
+            "direction": "vertical",
+            "column_count": 1,
+            "columns": [box],
+            "detected_columns": [box],
+            "detected_column_count": 1,
+            "too_many_columns": False,
+            "reading_order": "top_to_bottom",
+            "forced_single_column": True,
+            "source_size": [int(source_width), int(source_height)],
+        }
     columns = detect_physical_columns(image_path, effective, max_columns)
+    if effective == "vertical":
+        glyph_width = int((columns.get("glyph_size") or [0, 0])[0] or 0)
+        minimum_column_width = max(8, round(glyph_width * 1.15))
+        filtered_boxes = [
+            box
+            for box in (columns.get("detected_columns") or [])
+            if int(box[2]) - int(box[0]) >= minimum_column_width
+        ]
+        if len(filtered_boxes) >= 2:
+            columns = {
+                **columns,
+                "columns": filtered_boxes if len(filtered_boxes) <= max_columns else [],
+                "detected_columns": filtered_boxes,
+                "detected_column_count": len(filtered_boxes),
+                "column_count": len(filtered_boxes),
+                "too_many_columns": len(filtered_boxes) > max_columns,
+                "edge_artifacts_filtered": True,
+            }
+    detected_boxes = columns.get("detected_columns") or columns.get("columns") or []
+    if (
+        effective == "vertical"
+        and len(detected_boxes) >= 2
+        and source_width > 0
+        and source_height > 0
+        and source_width >= source_height * 0.55
+    ):
+        # Qwen OCR preserves the reading order of a complete horizontal band
+        # much better than independently OCRing 10-20 narrow physical columns.
+        # Keep the column detector as diagnostics and verify the whole-band OCR
+        # with a second request below.
+        return [], {
+            "strategy": "whole_vertical_block",
+            "whole_block_selected": True,
+            "declared_direction": declared,
+            "effective_direction": effective,
+            "direction_overridden": direction_overridden,
+            "direction_override_suppressed": direction_override_suppressed,
+            "orientation": orientation,
+            **columns,
+        }
     boxes = columns.get("columns") or []
     if len(boxes) <= 1:
         return [], {
@@ -481,6 +559,53 @@ def join_column_texts(texts: list[str], direction: str) -> tuple[str, dict]:
     }
 
 
+def prepare_vertical_subblock_crops(
+    image_path: Path,
+    detected_columns: list,
+    prepared_dir: Path,
+    columns_per_block: int = 3,
+) -> list[Path]:
+    if Image is None or ImageOps is None:
+        return []
+    boxes = [
+        [int(value) for value in box]
+        for box in detected_columns
+        if isinstance(box, (list, tuple)) and len(box) == 4
+    ]
+    boxes = sorted(boxes, key=lambda box: box[0])
+    if len(boxes) < 2:
+        return []
+    prepared_dir.mkdir(parents=True, exist_ok=True)
+    paths = []
+    with Image.open(image_path) as opened:
+        source = ImageOps.exif_transpose(opened).convert("RGB")
+        group_count = max(2, (len(boxes) + max(2, columns_per_block) - 1) // max(2, columns_per_block))
+        boundaries = [0]
+        ink = None
+        if np is not None:
+            grayscale = np.asarray(source.convert("L"))
+            ink = (grayscale < 220).mean(axis=0)
+        for group_index in range(1, group_count):
+            ideal = round(source.width * group_index / group_count)
+            search_radius = max(12, round(source.width / group_count * 0.16))
+            low = max(boundaries[-1] + 24, ideal - search_radius)
+            high = min(source.width - 24, ideal + search_radius)
+            boundary = ideal
+            if ink is not None and high > low:
+                boundary = min(range(low, high + 1), key=lambda x: float(ink[max(0, x - 2) : x + 3].sum()))
+            boundaries.append(boundary)
+        boundaries.append(source.width)
+        for index, (left, right) in enumerate(zip(boundaries, boundaries[1:]), start=1):
+            top = 0
+            bottom = source.height
+            if right <= left or bottom <= top:
+                continue
+            path = prepared_dir / f"{image_path.stem}__subblock-{index:02d}.png"
+            source.crop((left, top, right, bottom)).save(path, optimize=True)
+            paths.append(path)
+    return paths
+
+
 def prepare_vertical_long_strip(
     image_path: Path,
     item: dict | None,
@@ -524,7 +649,7 @@ def prepare_vertical_long_strip(
     }
 
 
-def reverse_vertical_column_order(text: str, enabled: bool) -> tuple[str, dict]:
+def reverse_vertical_column_order(text: str, enabled: bool, reverse: bool = True) -> tuple[str, dict]:
     if not enabled:
         return text, {}
     columns = [line.strip() for line in text.splitlines() if line.strip()]
@@ -534,12 +659,13 @@ def reverse_vertical_column_order(text: str, enabled: bool) -> tuple[str, dict]:
             "column_count": len(columns),
             "reversed": False,
         }
-    return "".join(reversed(columns)), {
+    ordered = list(reversed(columns)) if reverse else columns
+    return "".join(ordered), {
         "strategy": "vertical_column_order",
         "column_count": len(columns),
-        "reversed": True,
-        "model_order": "visual_left_to_right",
-        "reading_order": "right_to_left",
+        "reversed": reverse,
+        "model_order": "visual_left_to_right" if reverse else "top_to_bottom_chunks",
+        "reading_order": "right_to_left" if reverse else "top_to_bottom",
     }
 
 
@@ -794,6 +920,7 @@ def main() -> None:
             column_split_used = len(column_paths) > 1
             recovery = {}
             postprocessing = {}
+            consistency = {}
             if column_split_used:
                 effective_direction = column_preprocessing.get("effective_direction") or "horizontal"
                 column_prompt = SINGLE_VERTICAL_COLUMN_PROMPT if effective_direction == "vertical" else HORIZONTAL_LAYOUT_COLUMN_PROMPT
@@ -880,7 +1007,9 @@ def main() -> None:
                     args.vertical_long_strip_ratio,
                     args.disable_vertical_long_strip_padding,
                 )
-                preprocessing = column_preprocessing or vertical_preprocessing
+                preprocessing = {**column_preprocessing, **vertical_preprocessing}
+                if column_preprocessing and vertical_preprocessing:
+                    preprocessing["column_detection"] = column_preprocessing
                 raw_text = call_vlm_api(
                     request_image_path,
                     args.api_url,
@@ -897,6 +1026,255 @@ def main() -> None:
                     args.disable_thinking,
                 )
                 initial_warnings = quality_warnings(raw_text)
+                if column_preprocessing.get("whole_block_selected"):
+                    second_text = call_vlm_api(
+                        request_image_path,
+                        args.api_url,
+                        args.api_key,
+                        args.model,
+                        prompt_with_region_hint(args.prompt, region_hint, False),
+                        args.temperature,
+                        args.max_tokens,
+                        args.retries,
+                        args.retry_delay,
+                        args.enable_thinking,
+                        args.thinking_budget,
+                        args.image_detail,
+                        args.disable_thinking,
+                    )
+                    similarity = normalized_ocr_similarity(raw_text, second_text)
+                    consistency = {
+                        "strategy": "dual_whole_block",
+                        "similarity": round(similarity, 4),
+                        "second_text": second_text,
+                    }
+                    whole_lines = [line.strip() for line in raw_text.splitlines() if line.strip()]
+                    whole_line_lengths = sorted(len(re.sub(r"\s+", "", line)) for line in whole_lines)
+                    median_line_length = (
+                        whole_line_lengths[len(whole_line_lengths) // 2] if whole_line_lengths else 0
+                    )
+                    detected_column_count = int(column_preprocessing.get("detected_column_count") or 0)
+                    fragmented_column_output = (
+                        len(whole_lines) >= max(6, round(detected_column_count * 0.6))
+                        and median_line_length <= 28
+                    )
+                    whole_warnings = list(
+                        dict.fromkeys(quality_warnings(raw_text) + quality_warnings(second_text))
+                    )
+                    fallback_needed = (
+                        similarity < 0.9
+                        or fragmented_column_output
+                        or any(
+                            value.startswith("coordinate_dump")
+                            or value.startswith("severe_line_repetition")
+                            or value in {"repeated_text_block", "repeated_line_sequence"}
+                            for value in whole_warnings
+                        )
+                    )
+                    if fallback_needed:
+                        subblock_paths = prepare_vertical_subblock_crops(
+                            image_path,
+                            column_preprocessing.get("detected_columns") or [],
+                            prepared_dir,
+                        )
+                        subblock_texts = []
+                        subblock_checks = []
+                        subblock_warnings = []
+                        block_prompt = prompt_with_region_hint(OCR_RECOVERY_PROMPT, region_hint, False)
+                        for subblock_index, subblock_path in enumerate(subblock_paths, start=1):
+                            request_images.append(str(subblock_path))
+                            first_subblock = call_vlm_api(
+                                subblock_path,
+                                args.api_url,
+                                args.api_key,
+                                args.model,
+                                block_prompt,
+                                args.temperature,
+                                args.max_tokens,
+                                args.retries,
+                                args.retry_delay,
+                                args.enable_thinking,
+                                args.thinking_budget,
+                                args.image_detail,
+                                args.disable_thinking,
+                            )
+                            second_subblock = call_vlm_api(
+                                subblock_path,
+                                args.api_url,
+                                args.api_key,
+                                args.model,
+                                block_prompt,
+                                args.temperature,
+                                args.max_tokens,
+                                args.retries,
+                                args.retry_delay,
+                                args.enable_thinking,
+                                args.thinking_budget,
+                                args.image_detail,
+                                args.disable_thinking,
+                            )
+                            first_subblock, first_cleanup = strip_coordinate_prefixes(first_subblock)
+                            second_subblock, second_cleanup = strip_coordinate_prefixes(second_subblock)
+                            first_ordering = {"strategy": "model_natural_vertical_order"}
+                            second_ordering = {"strategy": "model_natural_vertical_order"}
+                            subblock_orientation = detect_text_orientation(subblock_path)
+                            component_count = int(subblock_orientation.get("component_count") or 0)
+                            compact_length = len(re.sub(r"\s+", "", first_subblock))
+                            component_coverage = compact_length / max(component_count, 1)
+                            tertiary_rework = {}
+                            if (
+                                subblock_index == 1
+                                or
+                                not first_subblock.strip()
+                                or not second_subblock.strip()
+                                or (component_count >= 40 and component_coverage < 0.24)
+                            ):
+                                single_paths, single_metadata = prepare_column_crops(
+                                    subblock_path,
+                                    {"writing_direction": "vertical", "confidence": 1.0},
+                                    args.model,
+                                    prepared_dir / "single-columns",
+                                    8,
+                                    False,
+                                )
+                                first_columns = []
+                                second_columns = []
+                                column_checks = []
+                                for single_index, single_path in enumerate(single_paths, start=1):
+                                    request_images.append(str(single_path))
+                                    first_column = call_vlm_api(
+                                        single_path,
+                                        args.api_url,
+                                        args.api_key,
+                                        args.model,
+                                        SINGLE_VERTICAL_COLUMN_PROMPT,
+                                        args.temperature,
+                                        args.max_tokens,
+                                        args.retries,
+                                        args.retry_delay,
+                                        args.enable_thinking,
+                                        args.thinking_budget,
+                                        args.image_detail,
+                                        args.disable_thinking,
+                                    )
+                                    second_column = call_vlm_api(
+                                        single_path,
+                                        args.api_url,
+                                        args.api_key,
+                                        args.model,
+                                        SINGLE_VERTICAL_COLUMN_PROMPT,
+                                        args.temperature,
+                                        args.max_tokens,
+                                        args.retries,
+                                        args.retry_delay,
+                                        args.enable_thinking,
+                                        args.thinking_budget,
+                                        args.image_detail,
+                                        args.disable_thinking,
+                                    )
+                                    first_column, _ = strip_coordinate_prefixes(first_column)
+                                    second_column, _ = strip_coordinate_prefixes(second_column)
+                                    column_similarity = normalized_ocr_similarity(first_column, second_column)
+                                    first_columns.append(first_column)
+                                    second_columns.append(second_column)
+                                    column_checks.append({
+                                        "index": single_index,
+                                        "similarity": round(column_similarity, 4),
+                                        "first_length": len(re.sub(r"\s+", "", first_column)),
+                                        "second_text": second_column,
+                                    })
+                                rebuilt_first, rebuilt_first_order = join_column_texts(first_columns, "vertical")
+                                rebuilt_second, rebuilt_second_order = join_column_texts(second_columns, "vertical")
+                                tertiary_succeeded = (
+                                    len(single_paths) >= 2
+                                    and all(item.get("first_length", 0) > 0 for item in column_checks)
+                                    and all(item.get("second_text", "").strip() for item in column_checks)
+                                    and all(float(item.get("similarity") or 0) >= 0.9 for item in column_checks)
+                                )
+                                tertiary_rework = {
+                                    "strategy": "single_vertical_column_rework",
+                                    "succeeded": tertiary_succeeded,
+                                    "column_detection": single_metadata,
+                                    "columns": column_checks,
+                                }
+                                if tertiary_succeeded:
+                                    first_subblock = rebuilt_first
+                                    second_subblock = rebuilt_second
+                                    first_ordering = rebuilt_first_order
+                                    second_ordering = rebuilt_second_order
+                                    compact_length = len(re.sub(r"\s+", "", first_subblock))
+                                    component_coverage = compact_length / max(component_count, 1)
+                            subblock_similarity = normalized_ocr_similarity(first_subblock, second_subblock)
+                            check = {
+                                "index": subblock_index,
+                                "image": str(subblock_path),
+                                "similarity": round(subblock_similarity, 4),
+                                "component_coverage": round(component_coverage, 4),
+                                "second_text": second_subblock,
+                                "column_ordering": first_ordering,
+                            }
+                            if first_ordering != second_ordering:
+                                check["second_column_ordering"] = second_ordering
+                            if tertiary_rework:
+                                check["tertiary_rework"] = tertiary_rework
+                            if first_cleanup or second_cleanup:
+                                check["coordinate_cleanup"] = {
+                                    "first": first_cleanup,
+                                    "second": second_cleanup,
+                                }
+                            subblock_checks.append(check)
+                            subblock_texts.append(first_subblock)
+                            subblock_warnings.extend(quality_warnings(first_subblock))
+                            subblock_warnings.extend(quality_warnings(second_subblock))
+                            if not first_subblock.strip() or not second_subblock.strip():
+                                subblock_warnings.append(f"subblock_ocr_empty:{subblock_index}")
+                            if component_count >= 40 and component_coverage < 0.24:
+                                subblock_warnings.append(
+                                    f"subblock_ocr_low_coverage_{subblock_index}:{component_coverage:.3f}"
+                                )
+                            if subblock_similarity < 0.9:
+                                subblock_warnings.append(
+                                    f"dual_ocr_disagreement_subblock_{subblock_index}:{subblock_similarity:.3f}"
+                                )
+                        rebuilt_text, rebuilt_order = join_column_texts(subblock_texts, "vertical")
+                        subblock_warnings.extend(quality_warnings(rebuilt_text))
+                        subblock_warnings = list(dict.fromkeys(subblock_warnings))
+                        fallback_succeeded = (
+                            len(subblock_paths) >= 2
+                            and bool(rebuilt_text.strip())
+                            and not any(value.startswith("dual_ocr_disagreement") for value in subblock_warnings)
+                            and not any(value.startswith("coordinate_dump") for value in subblock_warnings)
+                            and not any(value.startswith("subblock_ocr_empty") for value in subblock_warnings)
+                            and not any(value.startswith("subblock_ocr_low_coverage") for value in subblock_warnings)
+                            and "empty_output" not in subblock_warnings
+                        )
+                        consistency["subblocks"] = subblock_checks
+                        recovery = {
+                            "strategy": "vertical_subblock_rework",
+                            "reason": (
+                                "dual_ocr_disagreement"
+                                if similarity < 0.9
+                                else "whole_block_column_fragments"
+                                if fragmented_column_output
+                                else "whole_block_quality_warning"
+                            ),
+                            "succeeded": fallback_succeeded,
+                            "initial_similarity": round(similarity, 4),
+                            "subblock_count": len(subblock_paths),
+                        }
+                        if fallback_succeeded:
+                            raw_text = rebuilt_text
+                            initial_warnings = subblock_warnings
+                            preprocessing["fallback_strategy"] = "vertical_subblock_rework"
+                            preprocessing["subblock_count"] = len(subblock_paths)
+                            postprocessing = rebuilt_order
+                        else:
+                            if similarity < 0.9:
+                                initial_warnings.append(f"dual_ocr_disagreement:{similarity:.3f}")
+                            if fragmented_column_output:
+                                initial_warnings.append("whole_block_column_fragments")
+                            initial_warnings.extend(whole_warnings)
+                            initial_warnings.extend(subblock_warnings)
                 use_vertical_postprocessing = bool(vertical_preprocessing)
             if not column_split_used and any(warning.startswith("coordinate_dump") for warning in initial_warnings):
                 recovered_text = call_vlm_api(
@@ -937,7 +1315,15 @@ def main() -> None:
             if column_split_used:
                 text = raw_text.strip()
             else:
-                text, postprocessing = reverse_vertical_column_order(raw_text, use_vertical_postprocessing)
+                detected_columns = int(preprocessing.get("detected_column_count") or 0)
+                reverse_chunks = detected_columns > 1
+                text, vertical_postprocessing = reverse_vertical_column_order(
+                    raw_text,
+                    use_vertical_postprocessing,
+                    reverse=reverse_chunks,
+                )
+                if vertical_postprocessing:
+                    postprocessing = vertical_postprocessing
             if coordinate_cleanup:
                 postprocessing = {
                     **coordinate_cleanup,
@@ -945,7 +1331,7 @@ def main() -> None:
                 }
             if not text:
                 raise RuntimeError("Model returned an empty OCR result.")
-            warnings = list(dict.fromkeys(quality_warnings(raw_text) + quality_warnings(text)))
+            warnings = list(dict.fromkeys(initial_warnings + quality_warnings(raw_text) + quality_warnings(text)))
             elapsed = int(time.monotonic() - started)
             txt_path.write_text(text + ("\n" if text else ""), encoding="utf-8")
             (out_dir / f"{image_path.stem}.md").write_text(text + ("\n" if text else ""), encoding="utf-8")
@@ -962,6 +1348,7 @@ def main() -> None:
                         **({"preprocessing": preprocessing} if preprocessing else {}),
                         **({"postprocessing": postprocessing} if postprocessing else {}),
                         **({"recovery": recovery} if recovery else {}),
+                        **({"consistency": consistency} if consistency else {}),
                         "quality_warnings": warnings,
                         "elapsed_seconds": elapsed,
                     },

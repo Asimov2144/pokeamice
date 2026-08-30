@@ -7,7 +7,7 @@ TOOLS_DIR = Path(__file__).resolve().parents[1]
 if str(TOOLS_DIR) not in sys.path:
     sys.path.insert(0, str(TOOLS_DIR))
 
-from deepseek_correct_region_ocr import suspicious_correction
+from deepseek_correct_region_ocr import result_verdict, suspicious_correction
 from export_workbench_wordpress_case import entry_from_segment
 from export_wordpress_bilingual import utterances
 
@@ -24,6 +24,21 @@ class DeepSeekBoundaryTests(unittest.TestCase):
         raw = "蒼井 これは長い\nインタビュー本文です。" * 8
         corrected = raw.replace("\n", "")
         self.assertEqual([], suspicious_correction(raw, corrected, ""))
+
+    def test_blocks_large_semantic_rewrite(self):
+        raw = "ゲーム開発について田尻さんに話を聞きました。" * 4
+        corrected = "市内農業振興協会は牛の飼料費軽減事業を実施します。" * 4
+        warnings = suspicious_correction(raw, corrected, "")
+        self.assertTrue(any(value.startswith("corrected_text_changed_too_much:") for value in warnings))
+
+    def test_low_confidence_translation_is_not_usable(self):
+        status, _, issues = result_verdict(
+            {"verification_status": "usable", "confidence": 0.4, "issues": []},
+            "開発について話しました。",
+            [],
+        )
+        self.assertEqual("uncertain", status)
+        self.assertTrue(any(value.startswith("verification_confidence_low:") for value in issues))
 
 
 class InterviewAlignmentTests(unittest.TestCase):

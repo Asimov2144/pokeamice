@@ -8,6 +8,12 @@ param(
   [string]$ServerUrl = "http://127.0.0.1:4175",
   [ValidateRange(1, 4)]
   [int]$BatchSize = 4,
+  [ValidateRange(40, 95)]
+  [int]$VlmJpegQuality = 78,
+  [ValidateRange(800, 2400)]
+  [int]$VlmMaxEdge = 1600,
+  [ValidateSet("none", "suggest", "apply")]
+  [string]$OrientationMode = "suggest",
   [switch]$ContinueOnError
 )
 
@@ -37,15 +43,42 @@ function Get-PagePayload([string]$Path, [int]$Rotation = 0) {
     if ($Rotation) { $image.RotateFlip($rotateType) }
     $width = $image.Width
     $height = $image.Height
-    if ($Rotation) {
-      $stream = [System.IO.MemoryStream]::new()
+    $sourceForVlm = $image
+    $preview = $null
+    if ($VlmMaxEdge -gt 0 -and [Math]::Max($width, $height) -gt $VlmMaxEdge) {
+      $scale = $VlmMaxEdge / [double][Math]::Max($width, $height)
+      $scaledWidth = [Math]::Max(1, [int][Math]::Round($width * $scale))
+      $scaledHeight = [Math]::Max(1, [int][Math]::Round($height * $scale))
+      $preview = [System.Drawing.Bitmap]::new($scaledWidth, $scaledHeight)
+      $graphics = [System.Drawing.Graphics]::FromImage($preview)
       try {
-        $image.Save($stream, [System.Drawing.Imaging.ImageFormat]::Jpeg)
-        $imageBytes = $stream.ToArray()
+        $graphics.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic
+        $graphics.PixelOffsetMode = [System.Drawing.Drawing2D.PixelOffsetMode]::HighQuality
+        $graphics.DrawImage($image, 0, 0, $scaledWidth, $scaledHeight)
       }
-      finally { $stream.Dispose() }
+      finally { $graphics.Dispose() }
+      $sourceForVlm = $preview
     }
-    else { $imageBytes = [IO.File]::ReadAllBytes($resolved) }
+    # Layout/orientation calls only need a faithful preview. Always encode a
+    # temporary JPEG so PNG/TIFF and oversized JPEG inputs do not travel to
+    # the VLM at their original byte size. Coordinates remain normalized and
+    # the original dimensions are retained below for mapping back to scans.
+    $stream = [System.IO.MemoryStream]::new()
+    $jpegParams = [System.Drawing.Imaging.EncoderParameters]::new(1)
+    $jpegParams.Param[0] = [System.Drawing.Imaging.EncoderParameter]::new(
+      [System.Drawing.Imaging.Encoder]::Quality, [long]$VlmJpegQuality)
+    try {
+      $codec = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() |
+        Where-Object { $_.MimeType -eq "image/jpeg" } |
+        Select-Object -First 1
+      $sourceForVlm.Save($stream, $codec, $jpegParams)
+      $imageBytes = $stream.ToArray()
+    }
+    finally {
+      $jpegParams.Dispose()
+      $stream.Dispose()
+      if ($preview) { $preview.Dispose() }
+    }
   }
   finally {
     $image.Dispose()
@@ -58,7 +91,7 @@ function Get-PagePayload([string]$Path, [int]$Rotation = 0) {
     ".tiff" { "image/tiff" }
     default { "image/jpeg" }
   }
-  if ($Rotation) { $mime = "image/jpeg" }
+  $mime = "image/jpeg"
   $relative = [System.IO.Path]::GetRelativePath($imageRootPath, $resolved).Replace("\", "/")
   return [ordered]@{
     name = $relative
@@ -102,20 +135,40 @@ $payloads = @($PagePaths | ForEach-Object {
   $original = Get-PagePayload $_ 0
   $rotation = 0
   $orientation = $null
-  try {
-    Write-Host "Page orientation: $($original.name)"
-    $orientationBody = @{ pages = @($original) } | ConvertTo-Json -Depth 6 -Compress
-    $orientationResponse = Invoke-RestMethod -Uri "$($ServerUrl.TrimEnd('/'))/api/analyze-page-orientation" -Method Post -ContentType "application/json; charset=utf-8" -Body $orientationBody -TimeoutSec 300
-    $orientation = $orientationResponse.pages[0]
-    $rotation = [int]$orientation.rotation
+  if ($OrientationMode -eq "none") {
+    $orientation = [ordered]@{
+      rotation = 0
+      suggestedRotation = 0
+      confidence = 1
+      uncertain = $false
+      hasReadableText = $true
+      reason = "使用已预处理扫描方向"
+    }
   }
-  catch {
-    Write-Warning "Page orientation failed for $($original.name); using 0 degrees."
-    $orientation = [ordered]@{ rotation = 0; confidence = 0; uncertain = $true; hasReadableText = $true; reason = $_.Exception.Message }
+  else {
+    try {
+      Write-Host "Page orientation ($OrientationMode): $($original.name)"
+      $orientationBody = @{ pages = @($original) } | ConvertTo-Json -Depth 6 -Compress
+      $orientationResponse = Invoke-RestMethod -Uri "$($ServerUrl.TrimEnd('/'))/api/analyze-page-orientation" -Method Post -ContentType "application/json; charset=utf-8" -Body $orientationBody -TimeoutSec 300
+      $orientation = $orientationResponse.pages[0]
+    }
+    catch {
+      Write-Warning "Page orientation failed for $($original.name); using 0 degrees."
+      $orientation = [ordered]@{ rotation = 0; suggestedRotation = 0; confidence = 0; uncertain = $true; hasReadableText = $true; reason = $_.Exception.Message }
+    }
+  }
+  $suggestedRotation = [int]($orientation.suggestedRotation ?? $orientation.rotation)
+  $rotation = if ($OrientationMode -eq "apply") { [int]$orientation.rotation } else { 0 }
+  if ($OrientationMode -eq "suggest" -and $suggestedRotation -ne 0) {
+    $orientation.uncertain = $true
+    $orientation.reason = "建议 $suggestedRotation°，未自动应用；$($orientation.reason)"
   }
   $payload = Get-PagePayload $_ $rotation
   $pageOrientation[$payload.name] = [ordered]@{
     rotation = $rotation
+    suggestedRotation = $suggestedRotation
+    applied = ($rotation -ne 0)
+    mode = $OrientationMode
     confidence = [double]$orientation.confidence
     uncertain = [bool]$orientation.uncertain
     hasReadableText = [bool]$orientation.hasReadableText
@@ -179,6 +232,9 @@ $annotationPages = @($results | ForEach-Object {
       pageType = $_.pageType
       readingDirection = $_.readingDirection
       pageRotation = [int]$_.pageOrientation.rotation
+      suggestedPageRotation = [int]$_.pageOrientation.suggestedRotation
+      pageRotationApplied = [bool]$_.pageOrientation.applied
+      pageOrientationMode = [string]$_.pageOrientation.mode
       rotationConfidence = [double]$_.pageOrientation.confidence
       rotationUncertain = [bool]$_.pageOrientation.uncertain
       rotationReason = [string]$_.pageOrientation.reason

@@ -6,6 +6,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from difflib import SequenceMatcher
 from pathlib import Path
 
 from ocr_regions_from_annotation import grouped_manifest, public_output_file, read_ocr_text, yaml_string
@@ -45,6 +46,8 @@ def build_prompt(item: dict, raw_text: str, context: str) -> str:
 5. 输出必须是 JSON，不要 Markdown，不要解释 JSON 之外的内容。
 6. 只处理“当前 OCR 原文”。邻近上下文只用于判断词义，绝对不能复制、续写或翻译到结果中。
 7. 当前原文如果在词语中途截断，必须保留截断状态，不得从邻区补全。
+8. 先判断 OCR 原文是否足以校对。如果文本明显乱码、重复、语义不连贯或不像可读日文，必须拒绝翻译，不能把乱码解释成通顺内容。
+9. verification_status 只能是 usable、uncertain 或 reject。只有 usable 才能给出 translation；其余两种必须把 translation 留空。
 
 区域信息：
 - page: {item.get("page_name")}
@@ -63,7 +66,10 @@ OCR 原文：
 {{
   "original_corrected": "校对后的日文原文",
   "translation": "中文翻译",
-  "correction_note": "简短说明修正依据；如果没有明显修正则写：未发现明确 OCR 修正"
+  "correction_note": "简短说明修正依据；如果没有明显修正则写：未发现明确 OCR 修正",
+  "verification_status": "usable",
+  "confidence": 0.0,
+  "issues": []
 }}
 """.strip()
 
@@ -121,6 +127,10 @@ def suspicious_correction(raw_text: str, corrected_text: str, next_text: str = "
     warnings = []
     if len(raw) >= 80 and len(corrected) > max(len(raw) + 80, round(len(raw) * 1.28)):
         warnings.append(f"corrected_text_expanded:{len(raw)}->{len(corrected)}")
+    if len(raw) >= 24 and corrected:
+        similarity = SequenceMatcher(None, raw, corrected).ratio()
+        if similarity < 0.72:
+            warnings.append(f"corrected_text_changed_too_much:{similarity:.3f}")
     next_probe = next_raw[:48]
     if len(next_probe) >= 32 and next_probe in corrected and next_probe not in raw:
         warnings.append("neighbor_context_copied")
@@ -145,6 +155,38 @@ def cache_key(item: dict) -> tuple[str, str, str]:
         str(item.get("region_id") or ""),
         str(item.get("original_raw") or ""),
     )
+
+
+def queue_key(item: dict) -> tuple[str, str]:
+    return (str(item.get("page_name") or ""), str(item.get("region_id") or ""))
+
+
+def load_queue(path: Path) -> dict[tuple[str, str], dict]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {queue_key(item): item for item in payload.get("regions") or []}
+
+
+def result_verdict(result: dict, raw_text: str, warnings: list[str]) -> tuple[str, float, list[str]]:
+    status = str(result.get("verification_status") or "uncertain").strip().lower()
+    if status not in {"usable", "uncertain", "reject"}:
+        status = "uncertain"
+    try:
+        confidence = max(0.0, min(1.0, float(result.get("confidence") or 0)))
+    except (TypeError, ValueError):
+        confidence = 0.0
+    issues = [str(value) for value in result.get("issues") or [] if str(value).strip()]
+    note = str(result.get("correction_note") or "")
+    caution = re.search(r"无法(?:判断|确定|校对)|大量.{0,8}(?:乱码|错字)|语义不连贯|不可读|严重污染", note)
+    if caution and len(normalized_text(raw_text)) >= 20:
+        status = "reject"
+        issues.append("correction_note_reports_unusable_ocr")
+    if warnings:
+        status = "reject"
+        issues.extend(warnings)
+    if status == "usable" and confidence < 0.82:
+        status = "uncertain"
+        issues.append(f"verification_confidence_low:{confidence:.3f}")
+    return status, confidence, list(dict.fromkeys(issues))
 
 
 def load_entries(out_dir: Path, ocr_dir: Path) -> list[dict]:
@@ -265,6 +307,16 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Correct region OCR text with DeepSeek.")
     parser.add_argument("--out", required=True, help="Region OCR output folder.")
     parser.add_argument("--ocr-dir", required=True, help="PaddleOCR output folder for crops.")
+    parser.add_argument(
+        "--queue",
+        default="",
+        help="Project queue JSON. Defaults to <out>/project-queue.json and is required unless --include-review is used.",
+    )
+    parser.add_argument(
+        "--include-review",
+        action="store_true",
+        help="Also send review-queue OCR to DeepSeek. Intended only for diagnostics; publication should never use it.",
+    )
     parser.add_argument("--model", default=os.getenv("DEEPSEEK_MODEL", "deepseek-chat"))
     parser.add_argument("--base-url", default=os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com"))
     parser.add_argument("--api-key", default=os.getenv("DEEPSEEK_API_KEY", ""))
@@ -295,6 +347,19 @@ def main() -> None:
     out_dir = Path(args.out).resolve()
     ocr_dir = Path(args.ocr_dir).resolve()
     entries = load_entries(out_dir, ocr_dir)
+    queue_path = Path(args.queue).resolve() if args.queue else out_dir / "project-queue.json"
+    queue_regions: dict[tuple[str, str], dict] = {}
+    if queue_path.exists():
+        queue_regions = load_queue(queue_path)
+    elif not args.include_review:
+        raise SystemExit(f"Missing OCR project queue: {queue_path}. Build the queue before translation.")
+    for entry in entries:
+        queue_entry = queue_regions.get(queue_key(entry))
+        accepted_text = str((queue_entry or {}).get("segment", {}).get("original") or "").strip()
+        rework_state = str((queue_entry or {}).get("rework", {}).get("state") or "")
+        if accepted_text and rework_state in {"manually_accepted", "auto_replaced"}:
+            entry["original_raw"] = accepted_text
+            entry["ocr_source"] = rework_state
     if args.limit > 0:
         entries = entries[: args.limit]
 
@@ -318,13 +383,37 @@ def main() -> None:
             item["original_corrected"] = ""
             item["translation"] = ""
             item["correction_note"] = "该区域没有 OCR 文本。"
+            item["verification_status"] = "reject"
+            item["verification_confidence"] = 0.0
+            item["verification_issues"] = ["empty_ocr"]
+            continue
+        queue_item = queue_regions.get(queue_key(item))
+        if not args.include_review and (not queue_item or queue_item.get("status") != "ready"):
+            reason_codes = [
+                str(reason.get("code"))
+                for reason in (queue_item or {}).get("reasons") or []
+                if reason.get("code")
+            ]
+            if not queue_item:
+                reason_codes.append("missing_queue_entry")
+            item["original_corrected"] = raw_text
+            item["translation"] = ""
+            item["correction_note"] = "OCR 风险队列未通过，未送入翻译。"
+            item["reliability_warnings"] = ["ocr_review_required", *reason_codes]
+            item["verification_status"] = "reject"
+            item["verification_confidence"] = 0.0
+            item["verification_issues"] = reason_codes
+            print(f"SKIP REVIEW [{index + 1}/{len(entries)}]: {item.get('speaker')} ({', '.join(reason_codes)})")
             continue
         previous = cached.get(cache_key(item))
-        if previous and previous.get("translation"):
+        if previous and previous.get("translation") and previous.get("verification_status") == "usable":
             item["original_corrected"] = previous.get("original_corrected", raw_text)
             item["translation"] = previous.get("translation", "")
             item["correction_note"] = previous.get("correction_note", "")
             item["reliability_warnings"] = previous.get("reliability_warnings", [])
+            item["verification_status"] = previous.get("verification_status", "usable")
+            item["verification_confidence"] = previous.get("verification_confidence", 0.0)
+            item["verification_issues"] = previous.get("verification_issues", [])
             print(f"Reuse [{index + 1}/{len(entries)}]: {item.get('speaker')}")
             continue
         print(f"DeepSeek [{index + 1}/{len(entries)}]: {item.get('speaker')}")
@@ -351,10 +440,14 @@ def main() -> None:
                     args.retries,
                 )
                 warnings = suspicious_correction(raw_text, result.get("original_corrected", raw_text), "")
-            item["original_corrected"] = result.get("original_corrected", raw_text)
-            item["translation"] = result.get("translation", "")
+            status, confidence, issues = result_verdict(result, raw_text, warnings)
+            item["original_corrected"] = result.get("original_corrected", raw_text) if status == "usable" else raw_text
+            item["translation"] = result.get("translation", "") if status == "usable" else ""
             item["correction_note"] = result.get("correction_note", "")
-            item["reliability_warnings"] = warnings
+            item["reliability_warnings"] = list(dict.fromkeys([*warnings, *([] if status == "usable" else [f"translation_{status}"])]))
+            item["verification_status"] = status
+            item["verification_confidence"] = confidence
+            item["verification_issues"] = issues
         except (RuntimeError, ValueError, json.JSONDecodeError) as exc:
             if not args.continue_on_error:
                 raise
@@ -362,6 +455,9 @@ def main() -> None:
             item["translation"] = ""
             item["correction_note"] = f"DeepSeek 返回不可解析，保留原始 OCR，待人工复核：{exc}"
             item["reliability_warnings"] = ["translation_failed"]
+            item["verification_status"] = "reject"
+            item["verification_confidence"] = 0.0
+            item["verification_issues"] = ["translation_failed"]
             print(f"FAILED [{index + 1}/{len(entries)}], kept raw OCR: {exc}")
         if args.checkpoint_every > 0 and (index + 1) % args.checkpoint_every == 0:
             write_outputs(out_dir, entries)

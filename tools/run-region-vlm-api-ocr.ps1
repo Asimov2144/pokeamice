@@ -40,6 +40,7 @@ $vlmScript = Join-Path $root "tools\vlm_api_ocr_regions.py"
 $cropsDir = Join-Path $outPath "crops"
 $ocrDir = Join-Path $outPath "ocr-vlm-api"
 $manifestPath = Join-Path $outPath "region-manifest.json"
+$apiKeyWasExplicit = [bool]$ApiKey
 
 if (-not $ApiUrl) { $ApiUrl = $env:VLM_OCR_API_URL }
 if (-not $ApiKey -and $Model -match 'deepseek') { $ApiKey = $env:DEEPSEEK_API_KEY }
@@ -81,7 +82,9 @@ $vlmArgs = @(
   "--max-auto-columns", $MaxAutoColumns
 )
 if ($Prompt) { $vlmArgs += @("--prompt", $Prompt) }
-if ($ApiKey) { $vlmArgs += @("--api-key", $ApiKey) }
+# Environment-configured keys are read directly by the Python worker. Avoid
+# copying them into the process command line where diagnostics can expose them.
+if ($apiKeyWasExplicit) { $vlmArgs += @("--api-key", $ApiKey) }
 if ($SkipExisting) { $vlmArgs += "--skip-existing" }
 if ($DisableAutoColumnSplit) { $vlmArgs += "--disable-auto-column-split" }
 if ($ContinueOnError) { $vlmArgs += "--continue-on-error" }
@@ -99,22 +102,6 @@ Write-Host "3/4 合并 Markdown / 模板 YAML..."
 & $python $cropScript --annotation $AnnotationJson --images $ImageDir --out $outPath --ocr-dir $ocrDir --merge-only
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 
-if ($DeepSeek) {
-  Write-Host "附加步骤：DeepSeek 校对 / 翻译..."
-  $deepSeekScript = Join-Path $root "tools\deepseek_correct_region_ocr.py"
-  $deepSeekArgs = @(
-    $deepSeekScript,
-    "--out", $outPath,
-    "--ocr-dir", $ocrDir,
-    "--model", $DeepSeekModel
-  )
-  if ($DeepSeekLimit -gt 0) {
-    $deepSeekArgs += @("--limit", $DeepSeekLimit)
-  }
-  & $python @deepSeekArgs
-  if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-}
-
 if (-not $SkipQueue) {
   Write-Host "4/4 生成半自动项目队列..."
   $queueScript = Join-Path $root "tools\build_ocr_project_queue.py"
@@ -122,4 +109,24 @@ if (-not $SkipQueue) {
   if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 } else {
   Write-Host "4/4 Targeted rerun: skip standalone project queue."
+}
+
+if ($DeepSeek) {
+  if ($SkipQueue) {
+    throw "DeepSeek 翻译前必须先生成项目队列；请移除 -SkipQueue。"
+  }
+  Write-Host "附加步骤：仅校对 / 翻译已通过 OCR 队列的区域..."
+  $deepSeekScript = Join-Path $root "tools\deepseek_correct_region_ocr.py"
+  $deepSeekArgs = @(
+    $deepSeekScript,
+    "--out", $outPath,
+    "--ocr-dir", $ocrDir,
+    "--queue", (Join-Path $outPath "project-queue.json"),
+    "--model", $DeepSeekModel
+  )
+  if ($DeepSeekLimit -gt 0) {
+    $deepSeekArgs += @("--limit", $DeepSeekLimit)
+  }
+  & $python @deepSeekArgs
+  if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 }

@@ -11,9 +11,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 try:
-    from ocr_rework_loop import build_repair_proposal
+    from ocr_rework_loop import build_repair_proposal, text_health
 except ModuleNotFoundError:  # Imported by tests/tools as a module from the repo root.
-    from tools.ocr_rework_loop import build_repair_proposal
+    from tools.ocr_rework_loop import build_repair_proposal, text_health
 
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -22,6 +22,7 @@ if hasattr(sys.stdout, "reconfigure"):
 
 KANA_LINE = re.compile(r"^[\u3040-\u30ff\u31f0-\u31ffー・\s]{1,28}[?？!！、。]?$")
 KANJI = re.compile(r"[\u3400-\u9fff]")
+KANA = re.compile(r"[\u3040-\u30ff\u31f0-\u31ff]")
 
 
 def public_output_file(out_dir: Path, subdir: str, filename: str) -> str:
@@ -125,7 +126,7 @@ def review_reasons(item: dict, ocr_result: dict, text: str) -> list[dict]:
     original_size = preprocessing.get("original_size") or [0, 0]
     column_count = postprocessing.get("column_count")
     split_succeeded = preprocessing.get("strategy") == "physical_column_split" and int(column_count or 0) >= 2
-    if preprocessing.get("too_many_columns"):
+    if preprocessing.get("too_many_columns") and not preprocessing.get("whole_block_selected"):
         reasons.append({
             "code": "multicolumn_exceeds_limit",
             "label": "多栏数量超过自动拆分上限",
@@ -190,13 +191,56 @@ def review_reasons(item: dict, ocr_result: dict, text: str) -> list[dict]:
             "detail": str(ocr_result.get("error") or "没有得到可用正文"),
         })
 
-    if any(value.startswith("severe_line_repetition") or value == "repeated_text_block" for value in warnings):
+    if any(
+        value.startswith("severe_line_repetition")
+        or value in {"repeated_text_block", "repeated_line_sequence"}
+        for value in warnings
+    ):
         reasons.append({
             "code": "repeated_ocr_text",
             "label": "OCR 文字重复",
             "severity": "high",
             "detail": "检测到大段或多行重复文字",
         })
+    if "whole_block_column_fragments" in warnings:
+        reasons.append({
+            "code": "whole_block_column_fragments",
+            "label": "整块竖排阅读顺序不可靠",
+            "severity": "high",
+            "detail": "模型按视觉列片段返回，自动子区返工仍未通过覆盖率检查。",
+        })
+    disagreement = next((value for value in warnings if value.startswith("dual_ocr_disagreement")), "")
+    if disagreement:
+        score = disagreement.partition(":")[2]
+        reasons.append({
+            "code": "dual_ocr_disagreement",
+            "label": "两次 OCR 结果不一致",
+            "severity": "high",
+            "detail": f"同一区域重复识别的一致度仅 {score or '未知'}，不能自动进入翻译。",
+            **({"score": float(score)} if score else {}),
+        })
+
+    health = text_health(text)
+    if any(code in {"repeated_block", "repeated_lines", "repeated_glyph_pattern"} for code in health.get("blockers") or []):
+        reasons.append({
+            "code": "ocr_text_repetition",
+            "label": "OCR 文本存在机械重复",
+            "severity": "high",
+            "detail": "字符、短语或整行出现不符合正文的重复，禁止进入翻译。",
+            "score": health.get("score"),
+        })
+    compact = re.sub(r"\s+", "", str(text or ""))
+    if item.get("type") == "body" and len(compact) >= 60:
+        kana_ratio = len(KANA.findall(compact)) / max(len(compact), 1)
+        kanji_ratio = len(KANJI.findall(compact)) / max(len(compact), 1)
+        if kana_ratio < 0.018 and kanji_ratio >= 0.12:
+            reasons.append({
+                "code": "japanese_text_implausible",
+                "label": "正文不像连续日文",
+                "severity": "high",
+                "detail": f"长正文的假名比例仅 {kana_ratio:.1%}，可能是乱码、坐标或错误方向识别。",
+                "score": round(kana_ratio, 4),
+            })
 
     furigana = furigana_contamination(text)
     if furigana:

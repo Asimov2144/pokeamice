@@ -57,11 +57,14 @@ def build_segments(entries: list[dict], asset_dir: Path, queue_regions: dict[tup
         kind = "image" if item.get("type") == "image" else "caption" if item.get("type") == "caption" else "text"
         original = str(item.get("original_corrected") or item.get("original_raw") or "").strip()
         translation = str(item.get("translation") or "").strip()
+        verification_status = str(item.get("verification_status") or "unverified").strip().lower()
         warnings = [str(value) for value in item.get("reliability_warnings") or [] if value]
         review_flags = [str(value) for value in item.get("review_flags") or [] if value]
         queue_item = queue_regions.get((str(item.get("page_name") or ""), str(item.get("region_id") or "")), {})
         if queue_item.get("status") == "review":
             warnings.extend(str(reason.get("code")) for reason in queue_item.get("reasons") or [] if reason.get("code"))
+        if kind != "image" and verification_status != "usable":
+            warnings.append(f"translation_{verification_status}")
         comments = [str(value) for value in (item.get("correction_note"), *warnings, *review_flags) if value]
         if not translation and kind != "image":
             translation = "（待人工复核：暂无可靠译文）"
@@ -77,6 +80,7 @@ def build_segments(entries: list[dict], asset_dir: Path, queue_regions: dict[tup
             "scan_box": [int(value) for value in item.get("box") or []],
             "writing_direction": str(item.get("writing_direction") or "auto"),
             "review_status": "review" if queue_item.get("status") == "review" or warnings or review_flags else "ready",
+            "verification_status": verification_status if kind != "image" else "not_applicable",
         }
         if item.get("group_id"):
             row["group_id"] = str(item["group_id"])
@@ -121,7 +125,24 @@ def publish_one(args: argparse.Namespace) -> None:
         }
     asset_dir.mkdir(parents=True, exist_ok=True)
     segments = build_segments(entries, asset_dir, queue_regions)
+    source_page_count = len({str(item.get("page_name") or "") for item in entries if item.get("page_name")})
+    manually_verified = any(str(item.get("ocr_source") or "") == "manually_accepted" for item in entries)
     pending = sum(1 for item in segments if item.get("review_status") == "review")
+    text_segments = [item for item in segments if item.get("kind") != "image"]
+    ready_text = [item for item in text_segments if item.get("review_status") == "ready"]
+    ready_ratio = len(ready_text) / max(len(text_segments), 1)
+    if pending and not args.allow_partial:
+        raise SystemExit(
+            f"Publication blocked: {pending} region(s) still require review. "
+            "Resolve them first or use --allow-partial for a deliberately incomplete Docs preview."
+        )
+    if args.allow_partial and ready_ratio < args.minimum_ready_ratio:
+        raise SystemExit(
+            f"Partial publication blocked: only {ready_ratio:.1%} of text regions passed; "
+            f"minimum is {args.minimum_ready_ratio:.1%}."
+        )
+    if args.allow_partial:
+        segments = [item for item in segments if item.get("kind") == "image" or item.get("review_status") == "ready"]
     metadata = {
         # Docs/GitHub Pages uses a lightweight reading view. Full-page scans
         # remain in the local prepared output for the main-site publication.
@@ -135,9 +156,13 @@ def publish_one(args: argparse.Namespace) -> None:
         "publication": "CONTINUE",
         "issue": args.issue,
         "interviewee": args.interviewee,
-        "translator": "Qwen-VL-OCR 识别 / DeepSeek 校对翻译",
+        "translator": (
+            "Qwen-VL-OCR 识别 / DeepSeek 翻译 / 人工原图校对"
+            if manually_verified
+            else "Qwen-VL-OCR 识别 / DeepSeek 校对翻译"
+        ),
         "summary": args.summary,
-        "source_pages": f"{len(manifest.get('pages') or [])} 页（Docs 仅展示插图裁片）",
+        "source_pages": f"{source_page_count} 页（Docs 仅展示插图裁片）",
         "original_lang": "ja",
         "translation_lang": "zh-CN",
         "parallel_view": "translation",
@@ -147,16 +172,17 @@ def publish_one(args: argparse.Namespace) -> None:
             "preprocess": "done",
             "ocr": "done",
             "translation": "machine-translated",
-            "proofreading": "deepseek-proofread",
+            "proofreading": "manual-verified" if manually_verified else "deepseek-proofread",
             "published": "online",
         },
-        "review_scope": "机器校对与翻译已完成；风险区域保留人工返工标记。",
+        "review_scope": "页面仅包含通过 OCR 队列与翻译验证门槛的文字；未通过区域不会发布。",
         "pending_review_regions": pending,
+        "published_text_coverage": round(ready_ratio, 4),
         "translation_segments": segments,
     }
     write_post(ROOT / "_posts" / args.post_name, metadata)
     image_count = sum(1 for item in segments if item.get("kind") == "image")
-    print(json.dumps({"post": str(ROOT / "_posts" / args.post_name), "image_crops": image_count, "segments": len(segments), "pending_review": pending}, ensure_ascii=False))
+    print(json.dumps({"post": str(ROOT / "_posts" / args.post_name), "image_crops": image_count, "segments": len(segments), "pending_review": pending, "ready_text_ratio": round(ready_ratio, 4)}, ensure_ascii=False))
 
 
 def main() -> None:
@@ -171,6 +197,8 @@ def main() -> None:
     parser.add_argument("--interviewee", default="杂志采访")
     parser.add_argument("--summary", required=True)
     parser.add_argument("--date", default="2026-08-29")
+    parser.add_argument("--allow-partial", action="store_true", help="Publish only verified regions and omit review regions.")
+    parser.add_argument("--minimum-ready-ratio", type=float, default=0.9)
     publish_one(parser.parse_args())
 
 

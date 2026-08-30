@@ -60,6 +60,9 @@ def text_health(text: str) -> dict:
     if re.search(r"(.{18,120}?)(?:\s*\1){2,}", raw, re.DOTALL):
         blockers.append("repeated_block")
         score -= 0.55
+    if re.search(r"(.)\1{8,}", compact) or re.search(r"(.{2,8})\1{4,}", compact):
+        blockers.append("repeated_glyph_pattern")
+        score -= 0.55
     if len(lines) >= 8:
         unique_ratio = len(set(lines)) / len(lines)
         if unique_ratio < 0.45:

@@ -81,6 +81,12 @@ class VerticalLongStripTests(unittest.TestCase):
         self.assertEqual(metadata["column_count"], 2)
         self.assertTrue(metadata["reversed"])
 
+    def test_single_vertical_column_chunks_keep_top_to_bottom_order(self):
+        text, metadata = MODULE.reverse_vertical_column_order("上の続き\n中央\n下の続き", True, reverse=False)
+        self.assertEqual(text, "上の続き中央下の続き")
+        self.assertFalse(metadata["reversed"])
+        self.assertEqual(metadata["reading_order"], "top_to_bottom")
+
     def test_image_structure_detects_and_splits_vertical_columns(self):
         with tempfile.TemporaryDirectory() as temp:
             source = Path(temp) / "vertical.png"
@@ -119,6 +125,68 @@ class VerticalLongStripTests(unittest.TestCase):
             self.assertEqual(len(paths), 3)
             self.assertTrue(metadata["direction_overridden"])
             self.assertEqual(metadata["effective_direction"], "vertical")
+
+    def test_narrow_vertical_strip_is_never_split_by_glyph_strokes(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "single-column.png"
+            image = Image.new("RGB", (72, 720), "white")
+            draw = ImageDraw.Draw(image)
+            for y in range(20, 690, 24):
+                draw.rectangle((26, y, 42, y + 18), fill="black")
+            image.save(source)
+            paths, metadata = MODULE.prepare_column_crops(
+                source,
+                {"writing_direction": "vertical", "confidence": 1.0},
+                "qwen-vl-ocr-latest",
+                root / "prepared",
+                8,
+                False,
+            )
+            self.assertEqual(paths, [])
+            self.assertTrue(metadata["forced_single_column"])
+            self.assertEqual(metadata["detected_column_count"], 1)
+
+    def test_wide_vertical_band_uses_whole_block_ocr(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "wide-band.png"
+            image = Image.new("RGB", (900, 420), "white")
+            draw = ImageDraw.Draw(image)
+            for x in range(70, 860, 45):
+                for y in range(30, 390, 28):
+                    draw.rectangle((x, y, x + 14, y + 20), fill="black")
+            image.save(source)
+            paths, metadata = MODULE.prepare_column_crops(
+                source,
+                {"writing_direction": "vertical", "confidence": 1.0},
+                "qwen-vl-ocr-latest",
+                root / "prepared",
+                16,
+                False,
+            )
+            self.assertEqual(paths, [])
+            self.assertEqual(metadata["strategy"], "whole_vertical_block")
+            self.assertTrue(metadata["whole_block_selected"])
+            self.assertGreaterEqual(metadata["detected_column_count"], 2)
+
+    def test_ocr_similarity_ignores_whitespace_only(self):
+        score = MODULE.normalized_ocr_similarity("永田町へ\n行く", "永田町へ 行く")
+        self.assertEqual(score, 1.0)
+
+    def test_repeated_line_sequence_is_warned(self):
+        warnings = MODULE.quality_warnings("甲\n乙\n丙\n甲\n乙\n丁")
+        self.assertIn("repeated_line_sequence", warnings)
+
+    def test_vertical_columns_are_grouped_into_subblocks(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            source = root / "band.png"
+            Image.new("RGB", (720, 360), "white").save(source)
+            boxes = [[x, 20, x + 24, 340] for x in range(20, 620, 40)]
+            paths = MODULE.prepare_vertical_subblock_crops(source, boxes, root / "prepared", 6)
+            self.assertEqual(len(paths), 3)
+            self.assertTrue(all(path.exists() for path in paths))
 
     def test_wide_high_confidence_heading_suppresses_structure_override(self):
         with tempfile.TemporaryDirectory() as temp:

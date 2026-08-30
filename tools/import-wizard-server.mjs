@@ -649,6 +649,27 @@ function normalizeLayoutResponse(raw, width, height) {
   };
 }
 
+function layoutQualityIssues(layout, width, height) {
+  const regions = Array.isArray(layout?.regions) ? layout.regions : [];
+  const textRegions = regions.filter((region) => region.type !== "image");
+  const verticalBodies = regions.filter((region) =>
+    region.sourceType === "interview_body" && region.writingDirection === "vertical"
+  );
+  const narrowTallBodies = verticalBodies.filter((region) => {
+    const [left, top, right, bottom] = region.box || [];
+    return (right - left) / Math.max(width, 1) < 0.045 && (bottom - top) / Math.max(height, 1) > 0.18;
+  });
+  const issues = [];
+  if (textRegions.length > 32) issues.push(`文字領域が多すぎます（${textRegions.length}個）`);
+  if (narrowTallBodies.length >= 3) {
+    issues.push(
+      `縦書き本文を1列ずつ切っています（${narrowTallBodies.length}個）。` +
+      "横罫線・大きな横空白ごとに段を分け、同じ段の連続2〜6列を1領域にまとめてください"
+    );
+  }
+  return issues;
+}
+
 function normalizePageOrientation(raw) {
   const value = typeof raw === "string" ? JSON.parse(cleanModelJson(raw)) : raw;
   const rotation = Number(value?.rotation_cw);
@@ -711,9 +732,10 @@ async function requestQwenLayout(page) {
   const apiUrl = (process.env.VLM_OCR_API_URL || "https://dashscope.aliyuncs.com/compatible-mode/v1").replace(/\/+$/, "");
   const prompt = await readFile(join(root, "tools", "prompts", "magazine-layout-segmentation-strict-ja.txt"), "utf8");
   let parseError = null;
-  for (let attempt = 0; attempt < 2; attempt += 1) {
+  for (let attempt = 0; attempt < 3; attempt += 1) {
     const retryInstruction = attempt
-      ? "\n\n前回の応答はJSONとして解析できませんでした。省略記号やコメントを使わず、完全で有効なJSONを最初から最後まで出力してください。"
+      ? `\n\n前回の応答は品質検査に失敗しました：${parseError?.message || "JSON解析失敗"}。` +
+        "省略記号やコメントを使わず、上記の問題を修正した完全なJSONを最初から最後まで出力してください。"
       : "";
     const payload = {
       model: process.env.VLM_LAYOUT_MODEL || DEFAULT_LAYOUT_MODEL,
@@ -742,12 +764,15 @@ async function requestQwenLayout(page) {
     const content = data?.choices?.[0]?.message?.content;
     if (!content) throw new Error("Qwen 布局返回为空");
     try {
-      return normalizeLayoutResponse(content, page.width, page.height);
+      const normalized = normalizeLayoutResponse(content, page.width, page.height);
+      const issues = layoutQualityIssues(normalized, page.width, page.height);
+      if (issues.length) throw new Error(issues.join("；"));
+      return normalized;
     } catch (error) {
       parseError = error;
     }
   }
-  throw new Error(`Qwen 布局 JSON 连续两次无法解析：${parseError?.message || parseError}`);
+  throw new Error(`Qwen 布局连续三次未通过结构检查：${parseError?.message || parseError}`);
 }
 
 async function analyzeLayout(body) {
@@ -933,7 +958,7 @@ async function prepareScanPages(body) {
     throw new Error("外缘裁切只接受关闭、自动、像素数或百分比");
   }
   const limit = Math.max(0, Math.min(500, Number.parseInt(body.limit || 0, 10) || 0));
-  const model = String(body.model || "qwen3-vl-flash").trim().slice(0, 100) || "qwen3-vl-flash";
+  const model = String(body.model || DEFAULT_LAYOUT_MODEL).trim().slice(0, 100) || DEFAULT_LAYOUT_MODEL;
   const sourceSlug = slugify(basename(sourceFolder)).slice(0, 64);
   const jobId = `${sourceSlug}-${Date.now().toString(36)}-${randomUUID().slice(0, 6)}`;
   const outDir = safeInsideRoot(join(root, "scan-prepared", jobId));
