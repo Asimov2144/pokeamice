@@ -35,6 +35,10 @@ sidebar:
         <span>总览</span>
         <strong>{{ all_posts | size }}</strong>
       </a>
+      <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
+        <span>资料检索</span>
+        <strong>{{ all_posts | size }}</strong>
+      </a>
       <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
         <span>近期发布</span>
         <strong>{{ recent_posts_count }}</strong>
@@ -235,6 +239,57 @@ sidebar:
       </div>
     </section>
 
+    <!-- Retrieval console. Search across the top, the distribution chart under
+         it, and filters beside their results at the bottom - so choosing a
+         year, a work, a family or a tag and reading the answer happen on one
+         screen instead of scrolling between four stacked blocks. -->
+    <section class="home-section" id="retrieval">
+      <div class="pa">
+        <input type="hidden" id="indexUrl" value="{{ '/assets/js/retrieval-index.json' | relative_url }}">
+        <input type="hidden" id="searchBase" value="{{ '/search/' | relative_url }}">
+
+        <div class="bar2">
+          <label class="field">
+            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+              <circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <input id="q" type="search" placeholder="检索标题、原刊标题、摘要、标签、人物与作品…" autocomplete="off">
+          </label>
+          <span id="clearWrap"></span>
+          <span id="fullText"></span>
+        </div>
+
+        <p class="note" id="retrievalLoading">正在载入检索索引…</p>
+
+        <section class="panel ct-chart" data-ghost="ARCHIVE">
+          <span class="panel-rim"></span>
+          <div class="p-head">
+            <h2 class="p-title"><i class="fas fa-chart-simple" aria-hidden="true"></i>年份与作品分布</h2>
+            <div class="legend" id="legend"></div>
+          </div>
+          <p class="p-note">上为每年产出，下为各作品被讨论的年份，共用一条时间轴。<span class="p-metric" id="heatMetric"></span></p>
+          <div class="cgrid" id="cgrid"></div>
+          <div class="key" id="key"></div>
+        </section>
+
+        <div class="ct-deck">
+          <section class="ct-pane ct-filters">
+            <h2 class="h2"><i class="fas fa-sliders" aria-hidden="true"></i>筛选</h2>
+            <div class="shelf" id="families"></div>
+            <p class="rlab"><i class="fas fa-hashtag" aria-hidden="true"></i>标签</p>
+            <div class="chips" id="tags"></div>
+          </section>
+
+          <section class="ct-pane ct-out">
+            <h2 class="h2"><i class="fas fa-list-ul" aria-hidden="true"></i>检索结果 <span id="resN"></span></h2>
+            <p class="note" id="resWhy"></p>
+            <ul class="rows" id="results"></ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
     <section class="home-section" id="recent-updates">
       <div class="section-heading">
         <p class="section-kicker">Latest</p>
@@ -278,6 +333,10 @@ sidebar:
       <h2>栏目切换</h2>
       <a href="#overview" class="home-nav-link active" data-scroll-ignore>
         <span>总览</span>
+        <strong>{{ all_posts | size }}</strong>
+      </a>
+      <a href="#retrieval" class="home-nav-link" data-scroll-ignore>
+        <span>资料检索</span>
         <strong>{{ all_posts | size }}</strong>
       </a>
       <a href="#recent-updates" class="home-nav-link" data-scroll-ignore>
@@ -394,6 +453,14 @@ sidebar:
       </section>
     </div>
 
+    <div class="sidebar-context" data-sidebar-context="retrieval">
+      <section class="sidebar-panel">
+        <h2>人物与作品</h2>
+        <p class="sidebar-note">从实体反查资料：已标注 158 位人物、128 部作品、92 个组织、105 项事件。点开可按年份和材料二次筛选。</p>
+        <div class="pa"><div class="ents" id="ents"></div></div>
+      </section>
+    </div>
+
     <div class="sidebar-context" data-sidebar-context="documents">
       <section class="sidebar-panel">
         <h2>文档分类</h2>
@@ -475,6 +542,16 @@ sidebar:
     </div>
   </aside>
 </div>
+
+<dialog class="pa-dlg" id="dlg">
+  <div class="dh"><div><h3 id="dt"></h3><p id="ds"></p></div>
+    <button class="dx" id="dc" aria-label="关闭">×</button></div>
+  <div class="db" id="db"></div>
+</dialog>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
 
 <style>
 html {
@@ -1790,7 +1867,7 @@ html::-webkit-scrollbar-track {
     top: 76px;
     z-index: 8;
     display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(6, minmax(0, 1fr));
     gap: 8px;
     border-bottom: 1px solid #dfe5eb;
     border-radius: 10px 10px 0 0;
@@ -3026,6 +3103,670 @@ body.theme-bg-black .gf-home-library__search label {
     min-height: 0;
   }
 }
+
+  /* ==== retrieval section ==== every rule scoped to .pa / .pa-dlg and every
+     custom property prefixed --pa-, so none of it reaches the theme chrome. */
+
+    :root {
+    /* Z-A: an information layer projected onto the city in daylight. Clean and
+       bright, not the grimy dark of heavy cyberpunk — cyan carries the base
+       layer, magenta and violet carry emphasis, white carries the reading. */
+    --pa-paper:      #eef7fa;
+    /* Nearly opaque, not glass: the site wallpaper is randomback.php, a
+       different image on every load, so anything showing through a panel
+       tints the reading surface a colour nobody chose. The blur stays for
+       the edge; the wallpaper is left to the gaps, as .home-feed does. */
+    --pa-card:       rgba(255,255,255,.94);
+    --pa-card-solid: #f7fdff;
+    --pa-sunk:       #e0eff4;
+    --pa-ink:        #0d1b21;
+    --pa-ink-soft:   #4b6570;
+    --pa-ink-faint:  #5b7986;   /* 4.52:1 on the panel */
+    --pa-rule:       #c3dee7;
+    --pa-edge:       #59c6de;          /* emissive rim */
+
+    --pa-accent:     #0d7c99;          /* cyan, the base information layer */
+    --pa-accent-soft:#d3edf5;
+    --pa-hot:        #d3308a;          /* magenta, emphasis only */
+    --pa-violet:     #6b5ce7;
+
+    /* sequential cyan ramp, light -> dark, monotonic */
+    --pa-s1:#e2f6fa; --pa-s2:#b3e6f0; --pa-s3:#6fd0e2;
+    --pa-s4:#28aecb; --pa-s5:#1683a3; --pa-s6:#0d5570;
+
+    /* categorical, validated: CVD ΔE 12.9 protan / 24.0 normal */
+    --pa-m-gf:#6b5ce7; --pa-m-scan:#d3308a; --pa-m-art:#e8930c;
+
+    --pa-serif: "Shippori Mincho", "Songti SC", "Yu Mincho", Georgia, serif;
+    --pa-sans: "Zen Kaku Gothic New", "PingFang SC", "Hiragino Sans", system-ui, sans-serif;
+    --pa-mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace;
+    --pa-plot-h: 9rem;
+    --pa-glow: 0;                      /* bloom multiplier; dark mode turns it up */
+  }
+  /* The site's dark skin is opt-in through the sidebar's Theme Options, which
+     add body.theme-bg-black. Following prefers-color-scheme instead put a dark
+     panel inside a light page for anyone whose OS is dark. */
+  body.theme-bg-black {
+    --pa-paper:#08161c; --pa-card:rgba(15,38,48,.94); --pa-card-solid:#0f2630; --pa-sunk:#102c36;
+    --pa-ink:#e2f6fa; --pa-ink-soft:#95b8c4; --pa-ink-faint:#6e8f9c;   /* 4.53:1 */
+    --pa-rule:#1d4655; --pa-edge:#35bcd6;
+    --pa-accent:#35bcd6; --pa-accent-soft:#123540; --pa-hot:#ff5cb8; --pa-violet:#9a86ff;
+    --pa-s1:#122a33; --pa-s2:#173f4d; --pa-s3:#1c5f75;
+    --pa-s4:#2189a6; --pa-s5:#35bcd6; --pa-s6:#7fe6f5;
+    --pa-m-gf:#8b7bf0; --pa-m-scan:#d94f9c; --pa-m-art:#a8760f;
+    --pa-glow: 1;
+  }
+
+  
+
+  .pa, .pa *, .pa-dlg, .pa-dlg * { box-sizing: border-box; }
+  .pa {
+    /* Transparent on purpose: _layouts/home.html leaves .home-dashboard
+       unpainted and lets the site wallpaper show between its panels. Painting
+       a full-bleed canvas here is what made this block look pasted on. */
+    background: transparent;
+    color: var(--pa-ink);
+    font-family: var(--pa-sans);
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    padding: 0;
+  }
+  .pa-wrap { max-width: none; margin: 0; padding: 0; }
+
+  /* ---- panels ---- */
+  /* Beveled plate, not a rounded card: the Z-A panels are cut polygons with a
+     brighter rim than fill. The notch sits top-right, away from the reading. */
+  .pa .panel, .pa-dlg .panel {
+    position: relative;
+    background: var(--pa-card-solid);
+    padding: 0.95rem 1.05rem 1.05rem;
+    clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+    border: 0;
+  }
+  /* A huge ghosted numeral behind the plate — the Pokédex silhouette trick, which is what makes a panel read as an exhibit rather than a box. */
+  .pa .panel[data-ghost]::before, .pa-dlg .panel[data-ghost]::before {
+    content: attr(data-ghost);
+    position: absolute; right: 0.4rem; bottom: -1.1rem;
+    font-family: var(--pa-mono); font-weight: 700;
+    font-size: 7rem; line-height: 1; letter-spacing: -0.05em;
+    color: var(--pa-accent); opacity: .07; pointer-events: none;
+    font-variant-numeric: tabular-nums;
+  }
+  @supports (backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px)) {
+    .pa .panel, .pa-dlg .panel, .pa .col, .pa-dlg .col { background: var(--pa-card); }
+  }
+  .pa .p-head, .pa-dlg .p-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.15rem;
+  }
+  .pa .p-title, .pa-dlg .p-title { font-size: 0.8125rem; font-weight: 700; margin: 0; letter-spacing: 0.02em; }
+  .pa .p-note, .pa-dlg .p-note { margin: 0 0 0.7rem; color: var(--pa-ink-faint); font-size: 0.72rem; line-height: 1.5; }
+  .pa .p-metric, .pa-dlg .p-metric {
+    font-family: var(--pa-mono); font-variant-numeric: tabular-nums;
+    font-size: 0.72rem; color: var(--pa-ink-soft);
+  }
+  .pa .p-metric b, .pa-dlg .p-metric b { color: var(--pa-accent); }
+
+  .pa .legend, .pa-dlg .legend { display: flex; gap: 0.7rem; flex-wrap: wrap; font-size: 0.7rem; }
+  .pa .legend span, .pa-dlg .legend span { display: inline-flex; align-items: center; gap: 0.3rem; color: var(--pa-ink-soft); }
+  .pa .sw, .pa-dlg .sw { width: 9px; height: 9px; border-radius: 2px; flex: none; }
+
+  /* ---- one chart, one year axis --------------------------------------
+     The bars and the heatmap are both keyed by year, so they share a single
+     axis instead of drawing one each. Two things follow from that: the year
+     axis is rendered once (it used to be duplicated), and the heatmap no
+     longer sits beside the bars competing for width - it sits under them,
+     column-aligned, with room for every year.
+
+     Alignment is structural, not tuned. Every row is the same two-column
+     grid, and inside the plot half every cell is `flex: 1 1 0` with the same
+     gap, so a bar and the heat cell below it cannot drift apart. */
+  .pa .cgrid, .pa-dlg .cgrid { --pa-lab: 140px; display: grid; gap: 2px 0; }
+  .pa .crow, .pa-dlg .crow {
+    display: grid; grid-template-columns: var(--pa-lab) minmax(0, 1fr);
+    gap: 0 0.5rem; align-items: center;
+  }
+  .pa .clab, .pa-dlg .clab {
+    min-width: 0; font-size: 0.72rem; color: var(--pa-ink-soft);
+    text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .pa .cplot, .pa-dlg .cplot { display: flex; gap: 2px; min-width: 0; }
+  .pa .cplot > *, .pa-dlg .cplot > * { flex: 1 1 0; min-width: 0; }
+
+  /* bars row */
+  .pa .crow-bars, .pa-dlg .crow-bars { align-items: stretch; margin-bottom: 0.15rem; }
+  .pa .crow-bars .clab, .pa-dlg .crow-bars .clab { position: relative; height: var(--pa-plot-h); }
+  .pa .yaxis, .pa-dlg .yaxis {
+    position: absolute; inset: 0;
+    font-family: var(--pa-mono); font-size: 0.5625rem; color: var(--pa-ink-faint);
+  }
+  .pa .yaxis span, .pa-dlg .yaxis span {
+    position: absolute; right: 0; transform: translateY(-50%);
+    line-height: 1; font-variant-numeric: tabular-nums;
+  }
+  .pa .plot-area, .pa-dlg .plot-area { position: relative; height: var(--pa-plot-h); }
+  .pa .gridline, .pa-dlg .gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--pa-rule); pointer-events: none; }
+  .pa .gridline.base, .pa-dlg .gridline.base { border-top-style: solid; border-top-color: var(--pa-ink-faint); }
+  .pa .stack, .pa-dlg .stack { position: absolute; inset: 0; display: flex; gap: 2px; align-items: flex-end; }
+  .pa .ycol, .pa-dlg .ycol {
+    flex: 1 1 0; min-width: 0; height: 100%; position: relative;
+    background: none; border: 0; padding: 0; cursor: pointer; font: inherit;
+  }
+  .pa .ycol:focus-visible, .pa-dlg .ycol:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+  .pa .segs, .pa-dlg .segs {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    display: flex; flex-direction: column; gap: 1px;
+  }
+  .pa .seg, .pa-dlg .seg { min-height: 2px; }
+  .pa .seg:first-child, .pa-dlg .seg:first-child { border-radius: 3px 3px 0 0; }
+  .pa .ytot, .pa-dlg .ytot {
+    position: absolute; left: 0; right: 0; text-align: center;
+    font-family: var(--pa-mono); font-size: 0.5625rem; color: var(--pa-ink-soft);
+    font-weight: 700; font-variant-numeric: tabular-nums;
+  }
+  .pa .ycol:hover .segs, .pa-dlg .ycol:hover .segs, .pa .ycol[aria-pressed="true"] .segs, .pa-dlg .ycol[aria-pressed="true"] .segs {
+    outline: 2px solid var(--pa-accent); outline-offset: 1px; border-radius: 3px;
+  }
+  .pa .ycol[aria-pressed="true"] .ytot, .pa-dlg .ycol[aria-pressed="true"] .ytot { color: var(--pa-accent); }
+
+  /* the shared axis */
+  .pa .crow-axis, .pa-dlg .crow-axis { margin: 0.1rem 0 0.35rem; }
+  .pa .crow-axis .cplot span, .pa-dlg .crow-axis .cplot span {
+    text-align: center; font-family: var(--pa-mono); font-size: 0.5625rem;
+    color: var(--pa-ink-faint); letter-spacing: -0.06em;
+  }
+  .pa .crow-axis .cplot span[data-on], .pa-dlg .crow-axis .cplot span[data-on] { color: var(--pa-accent); font-weight: 700; }
+
+  /* heat rows */
+  .pa .crow-heat .clab, .pa-dlg .crow-heat .clab { display: flex; align-items: center; justify-content: flex-end; gap: 0.1rem; }
+  .pa .vmark, .pa-dlg .vmark { display: inline-flex; gap: 1px; margin-right: 0.35rem; border-radius: 2px; overflow: hidden; flex: none; }
+  .pa .vmark i, .pa-dlg .vmark i { width: 6px; height: 11px; display: block; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
+  .pa .cell, .pa-dlg .cell {
+    width: 100%; height: 21px; border: 0; border-radius: 2px;
+    font-family: var(--pa-mono); font-size: 0.625rem; cursor: pointer;
+    color: var(--pa-ink); padding: 0; line-height: 21px; font-variant-numeric: tabular-nums;
+  }
+  .pa .cell[data-v="0"], .pa-dlg .cell[data-v="0"] { background: transparent; box-shadow: inset 0 0 0 1px var(--pa-rule); color: transparent; cursor: default; }
+  .pa .cell[data-v="1"], .pa-dlg .cell[data-v="1"] { background: var(--pa-s1); }
+  .pa .cell[data-v="2"], .pa-dlg .cell[data-v="2"] { background: var(--pa-s2); }
+  .pa .cell[data-v="3"], .pa-dlg .cell[data-v="3"] { background: var(--pa-s3); }
+  .pa .cell[data-v="4"], .pa-dlg .cell[data-v="4"] { background: var(--pa-s4); }
+  .pa .cell[data-v="5"], .pa-dlg .cell[data-v="5"] { background: var(--pa-s5); color: #fff; }
+  .pa .cell[data-v="6"], .pa-dlg .cell[data-v="6"] { background: var(--pa-s6); color: #fff; }
+  .pa .cell:not([data-v="0"]):hover, .pa-dlg .cell:not([data-v="0"]):hover { box-shadow: 0 0 0 2px var(--pa-accent); }
+  .pa .cell[aria-pressed="true"], .pa-dlg .cell[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--pa-hot); }
+  .pa .cell:focus-visible, .pa-dlg .cell:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 1px; }
+  .pa .key, .pa-dlg .key { display: flex; align-items: center; gap: 0.3rem; font-size: 0.68rem; color: var(--pa-ink-faint); margin-top: 0.55rem; flex-wrap: wrap; }
+  .pa .key i, .pa-dlg .key i { width: 20px; height: 9px; border-radius: 2px; display: inline-block; font-style: normal; }
+
+  /* 23 years is a lot of columns; below this the labels get their own line. */
+  @media (max-width: 900px) {
+    .pa .crow, .pa-dlg .crow { grid-template-columns: 96px minmax(0, 1fr); }
+    .pa .cell, .pa-dlg .cell { font-size: 0.5rem; }
+  }
+
+  /* ---- collections ---- */
+  /* One row, not three cards. The stacked version spent ~200px of height
+     on three numbers and pushed the chart under the fold. */
+  .pa .shelf, .pa-dlg .shelf { display: grid; grid-template-columns: 1fr; gap: 0.5rem; margin: 0 0 1rem; }
+  .pa .col, .pa-dlg .col {
+    position: relative; overflow: hidden;
+    display: grid; grid-template-columns: minmax(0,1fr) auto;
+    align-items: baseline; gap: 0 0.5rem;
+    text-align: left; font: inherit; color: inherit;
+    background: var(--pa-card); border: 1px solid var(--pa-rule);
+    border-left: 3px solid var(--c, var(--pa-accent)); border-radius: 0;
+    clip-path: polygon(0 0, calc(100% - 9px) 0, 100% 9px, 100% 100%, 0 100%);
+    padding: 0.4rem 0.6rem 0.5rem; cursor: pointer;
+    transition: border-color .14s, background .14s;
+  }
+  .pa .col[aria-pressed="true"], .pa-dlg .col[aria-pressed="true"] {
+    border-color: var(--c, var(--pa-accent));
+    box-shadow: inset 0 0 0 1px var(--c, var(--pa-accent));
+  }
+  .pa .col:hover, .pa-dlg .col:hover { border-color: var(--c, var(--pa-accent)); }
+  .pa .col:focus-visible, .pa-dlg .col:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+
+  .pa .col-name, .pa-dlg .col-name { font-weight: 700; font-size: 0.8125rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .pa .col-n, .pa-dlg .col-n { font-family: var(--pa-mono); font-variant-numeric: tabular-nums; font-size: 1.05rem; font-weight: 700; color: var(--c, var(--pa-accent)); line-height: 1; }
+  /* the proportion bar is the card's bottom edge, so it costs no height */
+  .pa .col-bar, .pa-dlg .col-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--pa-sunk); }
+  .pa .col-bar i, .pa-dlg .col-bar i { display: block; height: 100%; background: var(--c, var(--pa-accent)); }
+  .pa .col-streams, .pa-dlg .col-streams {
+    grid-column: 1 / -1; margin: 0.1rem 0 0; padding: 0; list-style: none;
+    display: flex; flex-wrap: wrap; gap: 0 0.5rem;
+  }
+  .pa .col-streams li, .pa-dlg .col-streams li { font-size: 0.68rem; color: var(--pa-ink-faint); display: inline-flex; gap: 0.2rem; }
+  .pa .col-streams b, .pa-dlg .col-streams b { font-family: var(--pa-mono); font-weight: 400; color: var(--pa-ink-faint); }
+
+  /* ---- finder / results / entities ---- */
+  .pa .bar2, .pa-dlg .bar2 { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin: 0 0 0.9rem; }
+  .pa .field, .pa-dlg .field { flex: 1 1 16rem; display: flex; align-items: center; gap: 0.5rem; background: var(--pa-card);
+           border: 1px solid var(--pa-rule); border-radius: 3px; padding: 0.45rem 0.7rem; }
+  .pa .field:focus-within, .pa-dlg .field:focus-within { border-color: var(--pa-accent); box-shadow: 0 0 0 3px var(--pa-accent-soft); }
+  .pa .field input, .pa-dlg .field input { flex: 1; border: 0; background: none; color: var(--pa-ink); font: inherit; outline: none; min-width: 0; }
+  .pa .chips, .pa-dlg .chips { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+  /* Type-badge shape: a solid colour tile, then the label — the Pokédex
+     むし / かくとう pattern, which reads as a category at a glance. */
+  .pa .chip, .pa-dlg .chip {
+    font: inherit; font-size: 0.78rem; padding: 0.22rem 0.6rem 0.22rem 0.22rem;
+    border: 1px solid var(--pa-rule); background: var(--pa-card-solid); color: var(--pa-ink-soft);
+    border-radius: 3px; cursor: pointer; display: inline-flex; align-items: center; gap: 0.4rem;
+  }
+  .pa .chip .tile, .pa-dlg .chip .tile {
+    width: 15px; height: 15px; border-radius: 2px; flex: none;
+    background: var(--t, var(--pa-accent)); display: block;
+  }
+  .pa .chip:hover, .pa-dlg .chip:hover { border-color: var(--pa-accent); color: var(--pa-ink); }
+  .pa .chip[aria-pressed="true"], .pa-dlg .chip[aria-pressed="true"] { background: var(--pa-accent); border-color: var(--pa-accent); color: var(--pa-paper); }
+  .pa .chip .n, .pa-dlg .chip .n { font-family: var(--pa-mono); font-size: 0.68rem; opacity: .75; margin-left: 0.25rem; }
+  .pa .chip-clear, .pa-dlg .chip-clear { border-style: dashed; }
+
+  /* "| ⊙ POKÉDEX" — a rail, a mark, then the name. */
+  .pa .h2, .pa-dlg .h2 {
+    font-family: var(--pa-serif); font-size: 1.05rem; font-weight: 700;
+    margin: 1.9rem 0 0.25rem; padding-left: 0.6rem;
+    border-left: 3px solid var(--pa-accent); line-height: 1.35;
+  }
+  .pa .p-title, .pa-dlg .p-title {
+    padding-left: 0.5rem; border-left: 3px solid var(--pa-accent); line-height: 1.3;
+  }
+  .pa .note, .pa-dlg .note { margin: 0 0 0.8rem; color: var(--pa-ink-soft); font-size: 0.8125rem; max-width: 44rem; }
+
+  .pa .rows, .pa-dlg .rows {
+    list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--pa-rule);
+    max-height: 420px; overflow-y: auto; overscroll-behavior: contain;
+  }
+  .pa .rows li, .pa-dlg .rows li { border-bottom: 1px solid var(--pa-rule); }
+  .pa .row, .pa-dlg .row { width: 100%; display: grid; grid-template-columns: 4.8rem 1fr auto; gap: 0.25rem 0.8rem;
+         align-items: baseline; padding: 0.5rem 0.2rem; background: none; border: 0; font: inherit;
+         color: inherit; text-align: left; cursor: pointer; }
+  .pa .row:hover, .pa-dlg .row:hover { background: var(--pa-sunk); }
+  .pa .row-d, .pa-dlg .row-d { font-family: var(--pa-mono); font-size: 0.7rem; color: var(--pa-ink-faint); }
+  .pa .row-k, .pa-dlg .row-k { font-size: 0.66rem; color: var(--pa-ink-soft); border: 1px solid var(--pa-rule); border-radius: 2px; padding: 0.02rem 0.35rem; white-space: nowrap; }
+  .pa .row-k[data-draft], .pa-dlg .row-k[data-draft] { color: var(--pa-hot); border-color: var(--pa-hot); }
+  .pa .empty, .pa-dlg .empty { padding: 1.6rem 0; color: var(--pa-ink-faint); text-align: center; font-size: 0.85rem; }
+
+  .pa .ents, .pa-dlg .ents { display: grid; gap: 0.55rem; }
+  .pa .egroup, .pa-dlg .egroup { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; }
+  .pa .erole, .pa-dlg .erole { font-size: 0.66rem; letter-spacing: 0.1em; color: var(--pa-ink-faint); min-width: 2.2rem; }
+  .pa .ent, .pa-dlg .ent { font: inherit; font-size: 0.78rem; padding: 0.22rem 0.55rem; border: 1px solid var(--pa-rule);
+         border-radius: 999px; background: var(--pa-card); color: var(--pa-ink-soft); cursor: pointer; }
+  .pa .ent:hover, .pa-dlg .ent:hover { border-color: var(--pa-accent); color: var(--pa-accent); }
+  .pa .ent .n, .pa-dlg .ent .n { font-family: var(--pa-mono); font-size: 0.68rem; opacity: .7; margin-left: 0.2rem; }
+
+  /* The battle labels are plates with a bright rim and a pointer tail; the
+     dialog borrows the shape so a popover reads as anchored, not stacked. */
+  .pa-dlg {
+    border: 0; border-radius: 0; background: var(--pa-card-solid); color: var(--pa-ink);
+    padding: 0; max-width: 38rem; width: calc(100% - 2rem); max-height: 84vh;
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+    box-shadow: inset 0 0 0 1.5px var(--pa-edge), 0 0 calc(40px * var(--pa-glow)) -8px var(--pa-edge);
+  }
+  .pa-dlg::backdrop { background: rgba(22,26,18,.55); }
+  .pa .dh, .pa-dlg .dh { position: sticky; top: 0; background: var(--pa-card); border-bottom: 1px solid var(--pa-rule);
+        padding: 0.9rem 1.1rem 0.75rem; display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; }
+  .pa .dh h3, .pa-dlg .dh h3 { font-family: var(--pa-serif); font-size: 1.15rem; margin: 0; }
+  .pa .dh p, .pa-dlg .dh p { margin: 0.1rem 0 0; font-size: 0.78rem; color: var(--pa-ink-soft); }
+  .pa .dx, .pa-dlg .dx { font: inherit; font-size: 1.05rem; line-height: 1; background: none; border: 1px solid var(--pa-rule);
+        border-radius: 3px; color: var(--pa-ink-soft); cursor: pointer; padding: 0.15rem 0.45rem; }
+  .pa .db, .pa-dlg .db { padding: 0.5rem 1.1rem 1.1rem; overflow-y: auto; }
+  .pa .refine, .pa-dlg .refine { border-bottom: 1px solid var(--pa-rule); padding: 0.7rem 0 0.85rem; display: grid; gap: 0.75rem; }
+  .pa .rlab, .pa-dlg .rlab { font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pa-ink-faint); margin: 0 0 0.35rem; }
+  .pa .years, .pa-dlg .years { display: flex; align-items: flex-end; gap: 2px; height: 2.6rem; }
+  .pa .yr, .pa-dlg .yr { flex: 1 1 0; display: flex; flex-direction: column; justify-content: flex-end; gap: 2px;
+        background: none; border: 0; padding: 0; font: inherit; cursor: pointer; min-width: 0; }
+  .pa .yr .b, .pa-dlg .yr .b { background: var(--pa-s3); border-radius: 1px 1px 0 0; min-height: 2px; }
+  .pa .yr:hover .b, .pa-dlg .yr:hover .b, .pa .yr[aria-pressed="true"] .b, .pa-dlg .yr[aria-pressed="true"] .b { background: var(--pa-accent); }
+  .pa .yr .t, .pa-dlg .yr .t { font-family: var(--pa-mono); font-size: 0.5rem; color: var(--pa-ink-faint); text-align: center; letter-spacing: -0.04em; }
+  .pa .rcount, .pa-dlg .rcount { font-size: 0.72rem; color: var(--pa-ink-faint); font-family: var(--pa-mono); margin: 0.5rem 0 0; }
+
+  /* ---- Z-A surface treatment ----
+     Four layers, in the order the reference calls for: a projected ground, a
+     glass panel, an emissive rim, and bloom. Every one is confined to fills, rims and grounds — never to glyphs, so nothing legible is smeared. */
+
+  /* The city grid the interface is projected onto. Two hairline gradients, kept under 4% so they read as texture rather than pattern. */
+  .pa {
+    position: relative;
+    background-image:
+      linear-gradient(var(--pa-rule) 1px, transparent 1px),
+      linear-gradient(90deg, var(--pa-rule) 1px, transparent 1px);
+    background-size: 48px 48px, 48px 48px;
+    background-position: -1px -1px;
+  }
+  .pa::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: radial-gradient(120% 60% at 50% -10%, var(--pa-accent-soft), transparent 70%);
+    opacity: .55;
+  }
+  .pa > * { position: relative; }
+  /* Motes drifting in the projection volume. Three static layers — no
+     animation, so nothing competes with the numbers for attention. */
+  .pa::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background-image:
+      radial-gradient(1.5px 1.5px at 18% 22%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 63% 12%, var(--pa-edge), transparent),
+      radial-gradient(1.5px 1.5px at 82% 44%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 34% 68%, var(--pa-edge), transparent),
+      radial-gradient(1.5px 1.5px at 91% 78%, var(--pa-edge), transparent),
+      radial-gradient(1px 1px at 8% 88%, var(--pa-edge), transparent);
+    opacity: .5;
+  }
+
+  /* Panels read as glass: the ground shows through, the rim is brighter than
+     the fill, and a scanline pass sits on top of the fill only. */
+  .pa .panel, .pa-dlg .panel {
+    position: relative;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-color: color-mix(in srgb, var(--pa-edge) 45%, transparent);
+    box-shadow:
+      inset 0 0 0 1px color-mix(in srgb, var(--pa-edge) 18%, transparent),
+      0 0 calc(18px * var(--pa-glow)) -6px var(--pa-edge);
+    overflow: hidden;
+  }
+  /* Two passes: a broad diagonal light band sweeping the plate, and fine
+     scanlines under it. The band is what the Pokédex screen actually shows. */
+  .pa .panel::after, .pa-dlg .panel::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background:
+      linear-gradient(103deg, transparent 18%,
+        color-mix(in srgb, var(--pa-edge) 13%, transparent) 33%,
+        color-mix(in srgb, var(--pa-edge) 4%, transparent) 46%, transparent 62%),
+      repeating-linear-gradient(to bottom,
+        color-mix(in srgb, var(--pa-edge) 7%, transparent) 0 1px, transparent 1px 4px);
+  }
+  /* The rim is drawn as its own layer so the bevel keeps a glowing edge. */
+  .pa .panel-rim, .pa-dlg .panel-rim {
+    position: absolute; inset: 0; pointer-events: none; z-index: 2;
+    clip-path: polygon(0 0, calc(100% - 14px) 0, 100% 14px, 100% 100%, 0 100%);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--pa-edge) 62%, transparent);
+  }
+  .pa .panel > *, .pa-dlg .panel > * { position: relative; z-index: 1; }
+
+  /* Emissive rim on the collection cards; the left edge is the material's hue. */
+  .pa .col, .pa-dlg .col {
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    box-shadow: 0 0 calc(14px * var(--pa-glow)) -7px var(--c, var(--pa-edge));
+  }
+  .pa .col[aria-pressed="true"], .pa-dlg .col[aria-pressed="true"] {
+    border-color: var(--c, var(--pa-accent));
+    box-shadow: inset 0 0 0 1px var(--c, var(--pa-accent));
+  }
+  .pa .col:hover, .pa-dlg .col:hover { box-shadow: 0 0 calc(22px * var(--pa-glow)) -6px var(--c, var(--pa-edge)); }
+
+  /* Bloom is reserved for the two brightest ramp steps and for selection, which is where the reference puts it: reward and emphasis. */
+  .pa .cell[data-v="5"], .pa-dlg .cell[data-v="5"] { box-shadow: 0 0 calc(8px * var(--pa-glow)) -2px var(--pa-s5); }
+  .pa .cell[data-v="6"], .pa-dlg .cell[data-v="6"] { box-shadow: 0 0 calc(12px * var(--pa-glow)) -2px var(--pa-s6); }
+  .pa .cell:not([data-v="0"]):hover, .pa-dlg .cell:not([data-v="0"]):hover {
+    box-shadow: 0 0 0 2px var(--pa-accent), 0 0 calc(14px * var(--pa-glow)) -3px var(--pa-accent);
+  }
+  .pa .cell[aria-pressed="true"], .pa-dlg .cell[aria-pressed="true"] {
+    box-shadow: 0 0 0 2px var(--pa-hot), 0 0 calc(16px * var(--pa-glow)) -3px var(--pa-hot);
+  }
+  .pa .seg:first-child, .pa-dlg .seg:first-child { box-shadow: 0 -1px calc(9px * var(--pa-glow)) -3px currentColor; }
+  .pa .counts b, .pa-dlg .counts b { text-shadow: 0 0 calc(14px * var(--pa-glow)) color-mix(in srgb, var(--pa-accent) 55%, transparent); }
+
+  /* In dark mode the ramp runs dark->bright, so the bright steps need dark
+     numerals: light text on them measured 2.02:1 and 1.29:1, unreadable. */
+  body.theme-bg-black .pa .cell[data-v="5"],
+  body.theme-bg-black .pa .cell[data-v="6"] { color: #08161c; }
+
+  /* Selection and search focus use magenta — the reference's emphasis hue. */
+  .pa .chip[aria-pressed="true"], .pa-dlg .chip[aria-pressed="true"] {
+    background: var(--pa-accent); border-color: var(--pa-accent); color: var(--pa-paper);
+  }
+  .pa .chip[aria-pressed="true"] .tile, .pa-dlg .chip[aria-pressed="true"] .tile { box-shadow: 0 0 0 1.5px var(--pa-paper); }
+  .pa .chip-clear, .pa-dlg .chip-clear { border-color: color-mix(in srgb, var(--pa-hot) 55%, transparent); color: var(--pa-hot); }
+  .pa .row-k[data-draft], .pa-dlg .row-k[data-draft] { color: var(--pa-hot); border-color: var(--pa-hot); }
+  .pa .field:focus-within, .pa-dlg .field:focus-within {
+    border-color: var(--pa-edge);
+    box-shadow: 0 0 0 3px var(--pa-accent-soft), 0 0 calc(16px * var(--pa-glow)) -6px var(--pa-edge);
+  }
+
+  /* clip-path crops an outline, so clipped elements show focus as an inset
+     ring instead — otherwise keyboard focus vanishes on the cards. */
+  .pa .col:focus-visible, .pa-dlg .col:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 2px var(--pa-accent), 0 0 calc(22px * var(--pa-glow)) -6px var(--c, var(--pa-edge));
+  }
+
+  /* Motes and the projected grid are decoration; a viewer who asked for less
+     motion or higher contrast should not have to read through them. */
+  @media (prefers-contrast: more) {
+    .pa { background-image: none; }
+    .pa::before, .pa::after, .pa .panel::after, .pa-dlg .panel::after { display: none; }
+    .pa .panel, .pa-dlg .panel { background: var(--pa-card-solid); }
+  }
+  @media (prefers-reduced-motion: reduce) { .pa *, .pa-dlg * { transition: none !important; } }
+  @media (max-width: 40rem) { .pa .row, .pa-dlg .row { grid-template-columns: 1fr auto; } .pa .row-d, .pa-dlg .row-d { grid-column: 1/-1; } }
+
+  /* ---- retrieval console layout ---------------------------------------
+     Filters and their results sit side by side, and the chart that drives
+     them stays above both, so a click and its answer are on one screen. The
+     stacked version put the result list a full page below the control that
+     produced it. */
+  .pa .ct-deck, .pa-dlg .ct-deck {
+    display: grid; grid-template-columns: minmax(0, 330px) minmax(0, 1fr);
+    gap: 0.9rem; margin-top: 1rem; align-items: start;
+  }
+  @media (max-width: 940px) {
+    .pa .ct-deck, .pa-dlg .ct-deck { grid-template-columns: 1fr; }
+  }
+  .pa .ct-pane, .pa-dlg .ct-pane { min-width: 0; }
+  .pa .ct-filters .rlab, .pa-dlg .ct-filters .rlab {
+    margin: 0.9rem 0 0.4rem; font-size: 0.68rem; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--pa-ink-faint);
+  }
+  /* The result list scrolls inside its pane rather than growing the page:
+     120 rows is 8000px, and the chart would be long gone. */
+  .pa .ct-out .rows, .pa-dlg .ct-out .rows { max-height: 30rem; }
+
+  /* A row is a link now that every entry carries its real URL. */
+  .pa .row, .pa-dlg .row { text-decoration: none; color: inherit; }
+  .pa .row-t, .pa-dlg .row-t { min-width: 0; display: block; }
+  .pa .row-sub, .pa-dlg .row-sub {
+    display: block; font-style: normal; font-size: 0.72rem;
+    color: var(--pa-ink-faint); margin-top: 0.1rem;
+  }
+
+  /* ---- focus mode ------------------------------------------------------
+     Every section except the overview is a workspace, and the theme's author
+     column is 280px of the width it needs. It comes back on 总览. */
+  body.layout--home.home-focus #main > .sidebar { display: none; }
+  body.layout--home.home-focus #main .archive { width: 100%; }
+
+  /* ==== hierarchy pass ==================================================
+     The console read like a street of signs: every element was bold, filled
+     and full-contrast, so nothing was louder than anything else and the eye
+     had no route through it. Three registers now, and only one of them is
+     allowed to be loud:
+
+       print  - Mincho serif, for titles. What the page is.
+       data   - mono, for every numeral. What the archive says.
+       ui     - sans, muted and small, for labels and controls.
+
+     Emphasis is spent on selection and on the few numbers worth reading, and
+     paid for with whitespace everywhere else. */
+
+  .pa .h2, .pa-dlg .h2,
+  .pa .p-title, .pa-dlg .p-title {
+    font-family: var(--pa-serif);
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  .pa .h2, .pa-dlg .h2 { font-size: 1rem; }
+  .pa .p-title, .pa-dlg .p-title { font-size: 0.95rem; }
+  /* captions read as annotation, not as another heading */
+  .pa .p-note, .pa-dlg .p-note,
+  .pa .note, .pa-dlg .note {
+    font-family: var(--pa-serif);
+    font-style: italic;
+    font-size: 0.78rem;
+    line-height: 1.7;
+    color: var(--pa-ink-faint);
+  }
+  .pa .rlab, .pa-dlg .rlab { font-family: var(--pa-sans); }
+
+  /* ---- air -------------------------------------------------------------
+     The blocks were touching. Space is the cheapest hierarchy there is. */
+  .pa .bar2, .pa-dlg .bar2 { margin: 0 0 1.6rem; }
+  .pa .ct-chart, .pa-dlg .ct-chart { padding: 1.3rem 1.4rem 1.5rem; }
+  .pa .ct-deck, .pa-dlg .ct-deck { gap: 1.6rem; margin-top: 1.8rem; }
+  .pa .cgrid, .pa-dlg .cgrid { gap: 3px 0; margin-top: 1rem; }
+  .pa .crow, .pa-dlg .crow { gap: 0 0.9rem; }
+  .pa .shelf, .pa-dlg .shelf { gap: 0.55rem; margin: 0 0 0.4rem; }
+  .pa .key, .pa-dlg .key { margin-top: 1.1rem; }
+
+  /* ---- elevation and light --------------------------------------------
+     One light source, top-left. A panel is lifted off the page by a soft
+     shadow and a lit top edge rather than by a hard border; controls lift
+     further only while the pointer is on them. */
+  .pa .panel, .pa-dlg .panel {
+    box-shadow:
+      0 1px 0 rgba(255,255,255,.9) inset,
+      0 1px 2px rgba(13,27,33,.05),
+      0 12px 28px -18px rgba(13,27,33,.35);
+  }
+  .pa .panel::after, .pa-dlg .panel::after {
+    content: ""; position: absolute; inset: 0; pointer-events: none;
+    background: linear-gradient(160deg, rgba(255,255,255,.55), transparent 42%);
+  }
+  .pa .col, .pa-dlg .col {
+    box-shadow: 0 1px 2px rgba(13,27,33,.04);
+    transition: box-shadow .16s, border-color .16s, transform .16s;
+  }
+  .pa .col:hover, .pa-dlg .col:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px -10px rgba(13,27,33,.45);
+  }
+  /* the watermark was competing with the data it sits behind */
+  .pa .panel[data-ghost]::before, .pa-dlg .panel[data-ghost]::before {
+    opacity: .035;
+    font-size: 5.5rem;
+  }
+
+  /* ---- restraint in the numbers ---------------------------------------
+     Nine works by twenty-three years is 207 cells; printing a numeral in
+     every one turned the ramp into wallpaper and made the colour scale
+     useless. Colour carries magnitude, as a heatmap should. The value is on
+     the cell's tooltip and its aria-label, and the loudest cells - the ones
+     actually worth reading - keep their numeral. */
+  .pa .cell, .pa-dlg .cell { color: transparent; font-weight: 700; }
+  .pa .cell[data-v="5"], .pa-dlg .cell[data-v="5"],
+  .pa .cell[data-v="6"], .pa-dlg .cell[data-v="6"] { color: #fff; }
+  .pa .cell:hover, .pa-dlg .cell:hover,
+  .pa .cell[aria-pressed="true"], .pa-dlg .cell[aria-pressed="true"] { color: var(--pa-ink); }
+  .pa .cell[data-v="5"]:hover, .pa-dlg .cell[data-v="5"]:hover,
+  .pa .cell[data-v="6"]:hover, .pa-dlg .cell[data-v="6"]:hover { color: #fff; }
+
+  /* bar totals: quiet until the bar is chosen or pointed at */
+  .pa .ytot, .pa-dlg .ytot { color: var(--pa-ink-faint); font-weight: 400; opacity: .7; }
+  .pa .ycol:hover .ytot, .pa-dlg .ycol:hover .ytot { opacity: 1; color: var(--pa-ink); }
+  .pa .ycol[aria-pressed="true"] .ytot, .pa-dlg .ycol[aria-pressed="true"] .ytot {
+    opacity: 1; font-weight: 700; color: var(--pa-accent);
+  }
+
+  /* labels step back so the plot is the figure and they are the ground */
+  .pa .clab, .pa-dlg .clab { color: var(--pa-ink-faint); font-size: 0.7rem; }
+  .pa .crow-heat:hover .clab, .pa-dlg .crow-heat:hover .clab { color: var(--pa-ink); }
+  .pa .crow-axis .clab, .pa-dlg .crow-axis .clab {
+    font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; opacity: .65;
+  }
+
+  /* ---- controls: outline, not fill ------------------------------------
+     Every chip was a filled colour block. Filled now means selected, and
+     nothing else does. */
+  .pa .chip, .pa-dlg .chip {
+    background: transparent;
+    border: 1px solid var(--pa-rule);
+    color: var(--pa-ink-soft);
+    font-weight: 400;
+  }
+  .pa .chip:hover, .pa-dlg .chip:hover { border-color: var(--pa-accent); color: var(--pa-ink); }
+  .pa .chip .n, .pa-dlg .chip .n {
+    font-family: var(--pa-mono); color: var(--pa-ink-faint); font-size: 0.68rem;
+  }
+  .pa .chip[aria-pressed="true"] .n, .pa-dlg .chip[aria-pressed="true"] .n { color: inherit; }
+  .pa .col-name, .pa-dlg .col-name { font-family: var(--pa-serif); font-weight: 700; }
+  .pa .col-n, .pa-dlg .col-n { font-weight: 400; }
+  .pa .col[aria-pressed="true"] .col-n, .pa-dlg .col[aria-pressed="true"] .col-n { font-weight: 700; }
+
+  /* ---- icons -----------------------------------------------------------
+     Font Awesome is already loaded site-wide (_includes/head.html:21), so
+     these cost nothing extra. They mark what a region is for; they are not
+     decoration, and they stay the size of the label they sit beside. */
+  .pa .h2 i, .pa-dlg .h2 i,
+  .pa .p-title i, .pa-dlg .p-title i,
+  .pa .rlab i, .pa-dlg .rlab i {
+    color: var(--pa-ink-faint);
+    font-size: 0.78em;
+    margin-right: 0.45rem;
+    width: 1em;
+    text-align: center;
+  }
+
+  /* the result list is the quiet half: one accent, on the date column only */
+  .pa .row-d, .pa-dlg .row-d { color: var(--pa-ink-faint); font-weight: 400; }
+  .pa .row:hover .row-d, .pa-dlg .row:hover .row-d { color: var(--pa-accent); }
+  .pa .row-k, .pa-dlg .row-k { font-weight: 400; opacity: .8; }
+  .pa .row-t, .pa-dlg .row-t { font-family: var(--pa-serif); }
+
+  /* dark: the same rules, with the light source flipped to a rim rather than
+     a wash - a white overlay on a dark panel reads as fog. */
+  body.theme-bg-black .pa .panel {
+    box-shadow:
+      0 1px 0 rgba(53,188,214,.18) inset,
+      0 14px 30px -20px rgba(0,0,0,.8);
+  }
+  body.theme-bg-black .pa .panel::after {
+    background: linear-gradient(160deg, rgba(53,188,214,.07), transparent 45%);
+  }
+  body.theme-bg-black .pa .col { box-shadow: none; }
+  body.theme-bg-black .pa .col:hover { box-shadow: 0 6px 18px -12px rgba(0,0,0,.9); }
+
+  /* ---- family cards ----------------------------------------------------
+     Three cards that are also the material filter. Read left to right: what
+     it is (icon), what it is called (serif), how much of it there is (mono),
+     and what it breaks down into (a quiet caption). The proportion bar is the
+     card's bottom edge, so it costs no height.
+
+     .col-icon is a fixed box on purpose - swapping the Font Awesome glyph for
+     a custom SVG or PNG later means changing the MATS table, not this. */
+  .pa .col, .pa-dlg .col {
+    display: grid;
+    grid-template-columns: 2rem minmax(0, 1fr) auto;
+    grid-template-areas: "icon name count" ".    sub  sub";
+    align-items: center; gap: 0.1rem 0.55rem;
+    padding: 0.6rem 0.75rem 0.7rem;
+  }
+  .pa .col-icon, .pa-dlg .col-icon {
+    grid-area: icon;
+    width: 2rem; height: 2rem; display: grid; place-items: center;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--c, var(--pa-accent)) 12%, transparent);
+    color: var(--c, var(--pa-accent));
+    font-size: 0.82rem;
+  }
+  .pa .col-icon img, .pa-dlg .col-icon img,
+  .pa .col-icon svg, .pa-dlg .col-icon svg { width: 60%; height: 60%; object-fit: contain; }
+  .pa .col-name, .pa-dlg .col-name { grid-area: name; align-self: end; }
+  .pa .col-n, .pa-dlg .col-n { grid-area: count; align-self: end; font-size: 1.15rem; }
+  .pa .col-streams, .pa-dlg .col-streams { grid-area: sub; }
+  .pa .col-streams li, .pa-dlg .col-streams li {
+    display: inline-flex; align-items: baseline; gap: 0.25rem;
+    font-size: 0.68rem; color: var(--pa-ink-faint);
+  }
+  .pa .col-streams li + li::before, .pa-dlg .col-streams li + li::before {
+    content: "·"; margin-right: 0.35rem; color: var(--pa-rule);
+  }
+  .pa .col-streams b, .pa-dlg .col-streams b { font-family: var(--pa-mono); font-weight: 400; }
+  .pa .col[aria-pressed="true"] .col-icon, .pa-dlg .col[aria-pressed="true"] .col-icon {
+    background: var(--c, var(--pa-accent)); color: #fff;
+  }
+
 </style>
 
 <script>
@@ -3086,6 +3827,10 @@ document.addEventListener("DOMContentLoaded", () => {
     overviewLinks.forEach((link) => {
       link.classList.toggle("active", link.getAttribute("href") === current.id);
     });
+    /* Sections other than the overview are workspaces: the theme's author
+       column costs them 280px of width for something they do not use. */
+    document.body.classList.toggle("home-focus", targetId !== "overview");
+
     sidebarContexts.forEach((context) => {
       const contexts = (context.dataset.sidebarContext || "").split(/\s+/);
       const isActive = contexts.includes(targetId);
@@ -3210,4 +3955,418 @@ document.addEventListener("DOMContentLoaded", () => {
     setActivePanel(targetId, { updateHash: false });
   });
 });
+</script>
+
+<script>
+(function () {
+  "use strict";
+
+  /* The retrieval console runs on assets/js/retrieval-index.json, which Jekyll
+     builds from _posts. Everything below - year totals, family counts, the
+     works heatmap, the entity index, the tag list - is derived from that at
+     load time, so a number on screen cannot disagree with the archive. The
+     previous version carried a hand-written sample instead, which is why
+     searching it could not find a column entry that actually exists.
+
+     Body text is deliberately absent: /search/ already runs lunr with
+     search_full_content, and shipping the bodies again would double the
+     payload to answer the same question. */
+
+  var MATS = [
+    /* `i` is a Font Awesome class today because the site already loads it
+       (_includes/head.html:21). The card renders it inside a fixed .col-icon
+       box, so replacing these with <img src="...svg"> later needs no CSS
+       change - only this table and the one line in renderFamilies. */
+    { id: "gf",      name: "Game Freak 官网", c: "var(--pa-m-gf)",   i: "fa-tower-broadcast" },
+    { id: "scan",    name: "杂志扫描翻译",     c: "var(--pa-m-scan)", i: "fa-book-open" },
+    { id: "article", name: "自撰与整理",       c: "var(--pa-m-art)",  i: "fa-pen-nib" }
+  ];
+  var LABEL = { gf: "Game Freak 官网", scan: "杂志扫描翻译", article: "自撰与整理" };
+
+  /* Cartridge colours for the titles a reader recognises on sight. Anything
+     not listed gets no marker rather than an invented colour. */
+  var VER = {
+    "宝可梦 红·绿": ["#cf2029", "#0f8a4a"], "宝可梦 金·银": ["#c9a227", "#9aa3a8"],
+    "宝可梦 红宝石·蓝宝石": ["#a01722", "#1348a8"], "宝可梦 火红·叶绿": ["#e2521d", "#5da32a"],
+    "宝可梦 绿宝石": ["#1f9d63"], "宝可梦 钻石·珍珠": ["#5f9ec9", "#d4779b"],
+    "宝可梦 白金": ["#7d878c"], "宝可梦 心金·魂银": ["#c99a1e", "#8f9aa1"],
+    "宝可梦 黑·白": ["#25262a", "#d8d8d2"], "宝可梦 黑2·白2": ["#3a3f45", "#e3e3dd"],
+    "宝可梦 X·Y": ["#2a5ca8", "#c0392b"], "宝可梦 太阳·月亮": ["#e8a020", "#3f51b5"],
+    "宝可梦 剑·盾": ["#1f7ec4", "#b3123a"], "宝可梦传说 阿尔宙斯": ["#8d6b3f"],
+    "宝可梦传说 Z-A": ["#0d7c99", "#d3308a"], "Pokémon GO": ["#4a90d9", "#f2c14e"]
+  };
+
+  var ITEMS = [], YEARS = {}, AX = [], COLS = [], WORKS = [], ENTS = [], TAGS = [];
+  var state = { q: "", facet: null, year: null, work: null, workYear: null, tag: null };
+  var refine = { e: null, year: null, series: null };
+
+  function $(i) { return document.getElementById(i); }
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+  function yearOf(i) { return +i.d.slice(0, 4); }
+  function total(y) {
+    var r = YEARS[y];
+    return r ? MATS.reduce(function (s, m) { return s + (r[m.id] || 0); }, 0) : 0;
+  }
+  function bump(o, k) { o[k] = (o[k] || 0) + 1; }
+
+  function derive(raw) {
+    ITEMS = raw.items.map(function (i) {
+      i.ents = [].concat(i.p || [], i.w || [], i.o || [], i.v || []);
+      /* one lowercased haystack per item, built once rather than per keystroke */
+      i.hay = [i.t, i.n || "", i.s || "", i.kind, i.d]
+        .concat(i.g || [], i.ents).join(" ").toLowerCase();
+      return i;
+    });
+
+    var lo = 9999, hi = 0;
+    ITEMS.forEach(function (i) {
+      var y = yearOf(i);
+      if (y < lo) { lo = y; }
+      if (y > hi) { hi = y; }
+      YEARS[y] = YEARS[y] || {};
+      YEARS[y][i.k] = (YEARS[y][i.k] || 0) + 1;
+    });
+    /* A continuous axis. Plotting only the years that have entries put 2015
+       hard against 2021 and hid a five-year gap: the axis looked linear but
+       was not. */
+    AX = [];
+    for (var y = lo; y <= hi; y++) { AX.push(y); }
+
+    var streams = {};
+    MATS.forEach(function (m) { streams[m.id] = {}; });
+    ITEMS.forEach(function (i) { bump(streams[i.k], i.kind); });
+    COLS = MATS.map(function (m) {
+      var mine = ITEMS.filter(function (i) { return i.k === m.id; });
+      var ys = mine.map(yearOf);
+      return {
+        id: m.id, name: m.name, c: m.c, i: m.i, n: mine.length,
+        span: ys.length ? Math.min.apply(null, ys) + "–" + Math.max.apply(null, ys) : "",
+        streams: Object.keys(streams[m.id])
+          .map(function (k) { return [k, streams[m.id][k]]; })
+          .sort(function (a, b) { return b[1] - a[1]; })
+      };
+    });
+
+    var byWork = {};
+    ITEMS.forEach(function (i) {
+      (i.w || []).forEach(function (w) {
+        byWork[w] = byWork[w] || {};
+        bump(byWork[w], yearOf(i));
+      });
+    });
+    WORKS = Object.keys(byWork).map(function (name) {
+      var yy = byWork[name];
+      return {
+        name: name, y: yy, v: VER[name] || null,
+        n: Object.keys(yy).reduce(function (s, k) { return s + yy[k]; }, 0)
+      };
+    }).sort(function (a, b) { return b.n - a.n; }).slice(0, 10);
+
+    var roles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]];
+    var reg = {};
+    ITEMS.forEach(function (i) {
+      roles.forEach(function (r) {
+        (i[r[0]] || []).forEach(function (name) {
+          var key = r[1] + "\u241F" + name;
+          var e = reg[key] || (reg[key] = { name: name, role: r[1], n: 0, years: {}, series: {} });
+          e.n++;
+          bump(e.years, yearOf(i));
+          bump(e.series, i.k);
+        });
+      });
+    });
+    ENTS = Object.keys(reg).map(function (k) { return reg[k]; })
+      .sort(function (a, b) { return b.n - a.n; });
+
+    var tg = {};
+    ITEMS.forEach(function (i) { (i.g || []).forEach(function (t) { bump(tg, t); }); });
+    TAGS = Object.keys(tg).map(function (t) { return { t: t, n: tg[t] }; })
+      .sort(function (a, b) { return b.n - a.n; }).slice(0, 22);
+  }
+
+  /* ---------- rendering ---------- */
+
+  function renderLegend() {
+    $("legend").innerHTML = MATS.map(function (m) {
+      return '<span><i class="sw" style="background:' + m.c + '"></i>' + esc(m.name) + "</span>";
+    }).join("");
+  }
+
+  function bucket(n) { return !n ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 10 ? 3 : n <= 15 ? 4 : n <= 25 ? 5 : 6; }
+
+  /* Bars and heatmap render into one grid: both are keyed by year, so they
+     share a single axis instead of drawing one each. Alignment is structural -
+     every row is the same two-column grid and every plot cell is flex:1 - so a
+     bar and the heat cell under it cannot drift apart. */
+  function renderChart() {
+    var peak = Math.max.apply(null, AX.map(total));
+    var top = Math.max(20, Math.ceil(peak / 20) * 20);
+    var ticks = [0, 0.25, 0.5, 0.75, 1];
+
+    var yax = ticks.map(function (f) {
+      return '<span style="top:' + ((1 - f) * 100) + '%">' + Math.round(top * f) + "</span>";
+    }).join("");
+    var grid = ticks.map(function (f) {
+      return '<div class="gridline' + (f === 0 ? " base" : "") + '" style="top:' + ((1 - f) * 100) + '%"></div>';
+    }).join("");
+
+    var bars = AX.map(function (y) {
+      var t = total(y), on = state.year === y, pct = t ? (t / top) * 100 : 0;
+      var segs = t ? MATS.filter(function (m) { return (YEARS[y] || {})[m.id] > 0; }).map(function (m) {
+        return '<span class="seg" style="height:' + (YEARS[y][m.id] / t * 100) + '%;background:' + m.c + '"></span>';
+      }).join("") : "";
+      return '<button class="ycol" data-y="' + y + '" aria-pressed="' + on + '" title="' + y + "　" + t + ' 件">' +
+        (t ? '<span class="ytot" style="bottom:calc(' + pct + '% + 3px)">' + t + "</span>" : "") +
+        '<span class="segs" style="height:' + pct + '%">' + segs + "</span></button>";
+    }).join("");
+
+    var axis = AX.map(function (y) {
+      return "<span" + (state.year === y ? " data-on" : "") + ">" + String(y).slice(2) + "</span>";
+    }).join("");
+
+    var heat = WORKS.map(function (w) {
+      var mark = w.v ? '<span class="vmark">' + w.v.map(function (c) {
+        return '<i style="background:' + c + '"></i>';
+      }).join("") + "</span>" : "";
+      var cells = AX.map(function (y) {
+        var n = w.y[y] || 0, on = state.work === w.name && state.workYear === y;
+        return n
+          ? '<button class="cell" data-v="' + bucket(n) + '" data-w="' + esc(w.name) + '" data-wy="' + y +
+            '" aria-pressed="' + on + '" title="' + esc(w.name) + "　" + y + "　" + n +
+            ' 篇" aria-label="' + esc(w.name) + " " + y + " 年 " + n + ' 篇">' + n + "</button>"
+          : '<div class="cell" data-v="0"></div>';
+      }).join("");
+      return '<div class="crow crow-heat"><div class="clab" title="' + esc(w.name) + '">' + mark + esc(w.name) + "</div>" +
+        '<div class="cplot">' + cells + "</div></div>";
+    }).join("");
+
+    $("cgrid").innerHTML =
+      '<div class="crow crow-bars"><div class="clab"><span class="yaxis">' + yax + "</span></div>" +
+        '<div class="plot-area">' + grid + '<div class="stack">' + bars + "</div></div></div>" +
+      '<div class="crow crow-axis"><div class="clab">年份</div><div class="cplot">' + axis + "</div></div>" +
+      heat;
+
+    var grand = WORKS.reduce(function (s, w) { return s + w.n; }, 0);
+    $("heatMetric").innerHTML = "前 " + WORKS.length + " 部作品共被提及 <b>" + grand + "</b> 次";
+    $("key").innerHTML = "提及篇数　" +
+      [["1–2", "--pa-s1"], ["3–5", "--pa-s2"], ["6–10", "--pa-s3"],
+       ["11–15", "--pa-s4"], ["16–25", "--pa-s5"], ["25+", "--pa-s6"]]
+        .map(function (p) { return '<i style="background:var(' + p[1] + ')"></i>' + p[0]; }).join("　");
+  }
+
+  /* The three families were drawn twice: as cards with sub-counts, and again as
+     filter chips carrying the same three numbers. They are one control now. */
+  function renderFamilies() {
+    var max = Math.max.apply(null, COLS.map(function (c) { return c.n; }));
+    $("families").innerHTML = COLS.map(function (c) {
+      return '<button class="col" data-facet="' + c.id + '" aria-pressed="' + (state.facet === c.id) +
+        '" style="--c:' + c.c + '" title="' + esc(c.name) + "　" + c.span + '">' +
+        '<span class="col-icon"><i class="fas ' + c.i + '" aria-hidden="true"></i></span>' +
+        '<span class="col-name">' + esc(c.name) + "</span>" +
+        '<span class="col-n">' + c.n + "</span>" +
+        '<ul class="col-streams">' + c.streams.map(function (s) {
+          return "<li>" + esc(s[0]) + "<b>" + s[1] + "</b></li>";
+        }).join("") + "</ul>" +
+        '<span class="col-bar"><i style="width:' + (c.n / max * 100) + '%"></i></span>' +
+        "</button>";
+    }).join("");
+  }
+
+  function renderTags() {
+    $("tags").innerHTML = TAGS.map(function (t) {
+      return '<button class="chip" data-tag="' + esc(t.t) + '" aria-pressed="' + (state.tag === t.t) + '">' +
+        esc(t.t) + '<span class="n">' + t.n + "</span></button>";
+    }).join("");
+  }
+
+  function renderClear() {
+    var on = state.q || state.facet || state.year || state.work || state.tag;
+    $("clearWrap").innerHTML = on ? '<button class="chip chip-clear" data-clearall>清除筛选</button>' : "";
+  }
+
+  function rowHtml(i) {
+    return '<li><a class="row" href="' + i.u + '">' +
+      '<span class="row-d">' + i.d + "</span>" +
+      '<span class="row-t">' + esc(i.n || i.t) +
+        /* the staff blog often files the entry title as the post title too;
+           printing both then shows the same line twice */
+        (i.n && i.n !== i.t ? '<em class="row-sub">' + esc(i.t) + "</em>" : "") + "</span>" +
+      '<span class="row-k">' + esc(i.kind) + "</span></a></li>";
+  }
+
+  function hits() {
+    var q = state.q.toLowerCase();
+    return ITEMS.filter(function (i) {
+      if (state.facet && i.k !== state.facet) { return false; }
+      if (state.year && yearOf(i) !== state.year) { return false; }
+      /* A heatmap cell means "this title, that year" - match the association,
+         not merely the year, or a cell of 22 would return the year's 80. */
+      if (state.work && (i.w || []).indexOf(state.work) === -1) { return false; }
+      if (state.workYear && yearOf(i) !== state.workYear) { return false; }
+      if (state.tag && (i.g || []).indexOf(state.tag) === -1) { return false; }
+      return !q || i.hay.indexOf(q) !== -1;
+    });
+  }
+
+  function renderResults() {
+    var why = [];
+    if (state.year) { why.push(state.year + " 年"); }
+    if (state.work) { why.push("《" + state.work + "》" + (state.workYear ? " · " + state.workYear : "")); }
+    if (state.facet) { why.push(LABEL[state.facet]); }
+    if (state.tag) { why.push("#" + state.tag); }
+    if (state.q) { why.push("“" + state.q + "”"); }
+    $("resWhy").textContent = why.length
+      ? "筛选：" + why.join("　·　")
+      : "未筛选，按时间倒序列出全部。点柱选年份，点格选作品，点分类或标签叠加。";
+
+    var h = hits(), CAP = 120;
+    $("resN").textContent = h.length;
+    $("results").innerHTML = h.length
+      ? h.slice(0, CAP).map(rowHtml).join("") +
+        (h.length > CAP ? '<li class="empty">另有 ' + (h.length - CAP) + ' 件，继续缩小筛选。</li>' : "")
+      : '<li class="empty">标题、摘要、标签和实体里没有匹配。</li>';
+
+    /* Bodies are not in this index, so hand the query to the search page that
+       does have them rather than let the reader think there is nothing. */
+    $("fullText").innerHTML = state.q
+      ? '<a class="chip" href="' + $("searchBase").value + "?q=" + encodeURIComponent(state.q) +
+        '">在全文中检索“' + esc(state.q) + '”</a>'
+      : "";
+  }
+
+  function renderEnts() {
+    $("ents").innerHTML = ["人物", "作品", "组织", "事件"].map(function (r) {
+      var g = ENTS.filter(function (e) { return e.role === r; }).slice(0, 12);
+      if (!g.length) { return ""; }
+      return '<div class="egroup"><span class="erole">' + r + "</span>" +
+        g.map(function (e) {
+          return '<button class="ent" data-ent="' + esc(e.name) + '">' + esc(e.name) +
+            '<span class="n">' + e.n + "</span></button>";
+        }).join("") + "</div>";
+    }).join("");
+  }
+
+  /* ---------- entity popover ---------- */
+
+  function open(t, s, h) {
+    $("dt").textContent = t;
+    $("ds").textContent = s;
+    $("db").innerHTML = h;
+    if ($("dlg").showModal) { $("dlg").showModal(); }
+  }
+
+  function entBody() {
+    var e = refine.e;
+    var ys = Object.keys(e.years).map(Number).sort(function (a, b) { return a - b; });
+    var peak = Math.max.apply(null, ys.map(function (y) { return e.years[y]; }));
+    var bars = ys.map(function (y) {
+      return '<button class="yr" data-yr="' + y + '" aria-pressed="' + (refine.year === y) +
+        '" title="' + y + "　" + e.years[y] + ' 件">' +
+        '<span class="b" style="height:' + (e.years[y] / peak * 100) + '%"></span>' +
+        '<span class="t">' + String(y).slice(2) + "</span></button>";
+    }).join("");
+    var tint = { gf: "var(--pa-m-gf)", scan: "var(--pa-m-scan)", article: "var(--pa-m-art)" };
+    var chips = Object.keys(e.series).map(function (s) {
+      return '<button class="chip" data-ser="' + s + '" aria-pressed="' + (refine.series === s) +
+        '" style="--t:' + (tint[s] || "var(--pa-accent)") + '"><span class="tile"></span>' +
+        esc(LABEL[s] || s) + '<span class="n">' + e.series[s] + "</span></button>";
+    }).join("");
+    var f = refine.year || refine.series;
+    var list = ITEMS.filter(function (i) {
+      if (i.ents.indexOf(e.name) === -1) { return false; }
+      if (refine.year && yearOf(i) !== refine.year) { return false; }
+      if (refine.series && i.k !== refine.series) { return false; }
+      return true;
+    });
+    $("db").innerHTML = '<div class="refine"><div><p class="rlab">按年份</p><div class="years">' + bars +
+      '</div></div><div><p class="rlab">按材料</p><div class="chips">' + chips +
+      (f ? '<button class="chip chip-clear" data-rclear>清除</button>' : "") + "</div></div></div>" +
+      '<p class="rcount">' + (f ? "筛选后 " + list.length + " 件" : "全部 " + e.n + " 件") + "</p>" +
+      '<ul class="rows">' + list.slice(0, 40).map(rowHtml).join("") + "</ul>";
+  }
+
+  /* ---------- events ---------- */
+
+  function redraw() {
+    renderChart(); renderFamilies(); renderTags(); renderClear(); renderResults();
+  }
+
+  document.addEventListener("click", function (ev) {
+    var t;
+    /* Scoped to #retrieval so the console's generic hooks cannot answer for
+       controls elsewhere on the page. */
+    if ((t = ev.target.closest("#retrieval [data-y]"))) {
+      var y = Number(t.dataset.y);
+      state.year = state.year === y ? null : y;
+      state.work = state.workYear = null;
+      redraw(); return;
+    }
+    if ((t = ev.target.closest("#retrieval [data-w]"))) {
+      var w = t.dataset.w, wy = Number(t.dataset.wy);
+      var same = state.work === w && state.workYear === wy;
+      state.work = same ? null : w;
+      state.workYear = same ? null : wy;
+      state.year = null;
+      redraw(); return;
+    }
+    if ((t = ev.target.closest("#retrieval [data-facet]"))) {
+      state.facet = state.facet === t.dataset.facet ? null : t.dataset.facet;
+      redraw(); return;
+    }
+    if ((t = ev.target.closest("#retrieval [data-tag]"))) {
+      state.tag = state.tag === t.dataset.tag ? null : t.dataset.tag;
+      redraw(); return;
+    }
+    if (ev.target.closest("[data-clearall]")) {
+      state.facet = state.year = state.work = state.workYear = state.tag = null;
+      state.q = "";
+      $("q").value = "";
+      redraw(); return;
+    }
+    if ((t = ev.target.closest("[data-ent]"))) {
+      var e = ENTS.filter(function (x) { return x.name === t.dataset.ent; })[0];
+      if (!e) { return; }
+      refine = { e: e, year: null, series: null };
+      open(e.name, e.role + "　出现于 " + e.n + " 件资料", "");
+      entBody(); return;
+    }
+    if ((t = ev.target.closest("[data-yr]"))) {
+      var v = Number(t.dataset.yr);
+      refine.year = refine.year === v ? null : v;
+      entBody(); return;
+    }
+    if ((t = ev.target.closest("[data-ser]"))) {
+      var s = t.dataset.ser;
+      refine.series = refine.series === s ? null : s;
+      entBody(); return;
+    }
+    if (ev.target.closest("[data-rclear]")) {
+      refine.year = refine.series = null;
+      entBody(); return;
+    }
+    if (ev.target.closest("#dc")) { $("dlg").close(); }
+  });
+
+  function boot(raw) {
+    derive(raw);
+    $("q").addEventListener("input", function (e) {
+      state.q = e.target.value.trim();
+      renderClear(); renderResults();
+    });
+    renderLegend(); renderEnts(); redraw();
+    $("retrievalLoading").hidden = true;
+  }
+
+  fetch($("indexUrl").value, { credentials: "same-origin" })
+    .then(function (r) { if (!r.ok) { throw new Error("HTTP " + r.status); } return r.json(); })
+    .then(boot)
+    .catch(function (err) {
+      $("retrievalLoading").textContent =
+        "检索索引加载失败（" + err.message + "）。文章仍可通过站内搜索查找。";
+    });
+}());
 </script>

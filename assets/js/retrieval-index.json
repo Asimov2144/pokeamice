@@ -1,0 +1,41 @@
+---
+layout: null
+sitemap: false
+---
+{% comment %}
+  The retrieval section used to run on a hand-written sample: years, counts,
+  works and titles were all synthesised, so searching it could not find a
+  column entry that actually exists. This is the real archive, emitted once at
+  build time and fetched by the homepage.
+
+  It carries what makes a post findable without carrying its body: the title,
+  the original entry title, the summary, the tags and the entity block. Body
+  text stays with the site's lunr index at /search/, which already runs with
+  search_full_content: true - duplicating it here would double the payload for
+  the same answer.
+{% endcomment %}
+{% assign fam = "" %}
+{"generated":"{{ site.time | date_to_xmlschema }}","items":[
+{%- assign n = 0 -%}
+{%- for post in site.posts -%}
+  {%- case post.archive_type -%}
+    {%- when "gamefreak_director_column" -%}{%- assign k = "gf" -%}{%- assign kind = "部长专栏" -%}
+    {%- when "gamefreak_legacy_blog" -%}{%- assign k = "gf" -%}
+      {%- if post.gf_legacy_blog == "art" -%}{%- assign kind = "员工博客 · 美术" -%}
+      {%- else -%}{%- assign kind = "员工博客" -%}{%- endif -%}
+    {%- when "scan_translation" -%}{%- assign k = "scan" -%}{%- assign kind = "扫描翻译" -%}
+    {%- when "interview_translation" -%}{%- assign k = "scan" -%}{%- assign kind = "访谈翻译" -%}
+    {%- else -%}{%- assign k = "article" -%}{%- assign kind = "自撰与整理" -%}
+  {%- endcase -%}
+  {%- if n > 0 %},{% endif -%}{%- assign n = n | plus: 1 %}
+{"d":"{{ post.date | date: '%Y-%m-%d' }}","k":"{{ k }}","kind":{{ kind | jsonify }},"u":"{{ post.url | relative_url }}","t":{{ post.title | jsonify }}
+{%- if post.gf_entry_title %},"n":{{ post.gf_entry_title | jsonify }}{% endif -%}
+{%- if post.summary %},"s":{{ post.summary | strip | jsonify }}{% endif -%}
+{%- if post.tags and post.tags.size > 0 %},"g":{{ post.tags | jsonify }}{% endif -%}
+{%- if post.entities.people and post.entities.people.size > 0 %},"p":{{ post.entities.people | jsonify }}{% endif -%}
+{%- if post.entities.works and post.entities.works.size > 0 %},"w":{{ post.entities.works | jsonify }}{% endif -%}
+{%- if post.entities.organizations and post.entities.organizations.size > 0 %},"o":{{ post.entities.organizations | jsonify }}{% endif -%}
+{%- if post.entities.events and post.entities.events.size > 0 %},"v":{{ post.entities.events | jsonify }}{% endif -%}
+}
+{%- endfor %}
+]}
