@@ -3,12 +3,17 @@ layout: default
 ---
 
 {% assign gf = site.data.gamefreak_director %}
+{% assign gf_line = site.data.gamefreak_lineblog %}
 {% assign gf_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
 {% assign gf_posts = gf_posts | where_exp: "post", "post.gf_archive_id != nil" %}
+{% assign gf_line_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
+{% assign gf_all_posts = gf_posts | concat: gf_line_posts | sort: "date" | reverse %}
 {% assign gf_mode = page.gf_mode | default: "post" %}
-{% assign gf_local_count = gf_posts | size %}
+{% assign gf_director_count = gf_posts | size %}
+{% assign gf_line_count = gf_line_posts | size %}
+{% assign gf_local_count = gf_director_count | plus: gf_line_count %}
 
-<div class="gf-director-site" data-gf-theme="current">
+<div class="gf-director-site" data-gf-theme="current" data-gf-series="{{ page.gf_series | default: 'director' }}">
   <header class="gf-director-banner" aria-label="増田部長のめざめるパワー">
     <div class="gf-director-banner__browse" aria-label="站内档案浏览">
       <details class="gf-director-browser" name="gf-archive-browser">
@@ -33,6 +38,16 @@ layout: default
                       <li><a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a></li>
                     {% endfor %}
                   </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+            {% for category in gf_line.categories %}
+              {% assign matched_posts = gf_line_posts | where_exp: "post", "post.gf_categories contains category.name" %}
+              <li class="gf-director-browser__lineblog-item">
+                <span>{{ category.name }}</span>
+                <small>LINE BLOG · {{ matched_posts | size }} 篇</small>
+                {% if matched_posts.size > 0 %}
+                  <ul>{% for post in matched_posts %}<li><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y.%m.%d" }}</a></li>{% endfor %}</ul>
                 {% endif %}
               </li>
             {% endfor %}
@@ -74,6 +89,21 @@ layout: default
                 {% endif %}
               </li>
             {% endfor %}
+            {% for archive in gf_line.archives %}
+              {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
+              {% assign archive_posts = "" | split: "," %}
+              {% for post in gf_line_posts %}
+                {% assign post_archive_normalized = post.gf_archive | replace: "-0", "-" %}
+                {% if post_archive_normalized == archive_key_normalized %}{% assign archive_posts = archive_posts | push: post %}{% endif %}
+              {% endfor %}
+              <li class="gf-director-browser__lineblog-item {% if archive_posts.size == 0 %}is-empty{% endif %}">
+                <span>{{ archive }}</span>
+                {% if archive_posts.size > 0 %}
+                  <span class="gf-director-browser__archive-links">{% for post in archive_posts %}<a href="{{ post.url | relative_url }}">{{ post.title | truncate: 18 }}</a>{% endfor %}</span>
+                {% else %}<small>待整理</small>{% endif %}
+              </li>
+            {% endfor %}
           </ul>
         </div>
       </details>
@@ -103,7 +133,7 @@ layout: default
       <button type="button" data-gf-theme-choice="2008" aria-pressed="false">2008</button>
     </div>
     <dl>
-      <div><dt>已收录</dt><dd>{{ gf_local_count }} / 244</dd></div>
+      <div><dt>已收录</dt><dd>{{ gf_local_count }} 篇</dd></div>
       <div><dt>阅读语言</dt><dd>中文优先</dd></div>
       <div><dt>来源</dt><dd><a href="{{ gf.source_url }}" target="_blank" rel="noopener">GAME FREAK ↗</a></dd></div>
     </dl>
@@ -116,14 +146,28 @@ layout: default
       {% case gf_mode %}
       {% when "index" %}
         <header class="gf-director-pagehead">
-          <p>Director's Columns · Local Archive</p>
+          <p>Masuda's Blogs · Local Archive</p>
           <h1>{{ page.title | default: gf.title_zh }}</h1>
           <span>{{ page.summary }}</span>
         </header>
+        <nav class="gf-director-era-nav" aria-label="增田顺一博客时期">
+          <a href="#lineblog"><small>2016—2017</small><strong>増田順一 公式ブログ</strong><span>LINE BLOG · {{ gf_line_count }} 篇已整理</span></a>
+          <a href="#entries"><small>2004—2015</small><strong>増田部長のめざめるパワー</strong><span>GAME FREAK · {{ gf_director_count }} 篇已整理</span></a>
+        </nav>
+        <section class="gf-director-section gf-director-section--lineblog" id="lineblog">
+          <header>
+            <p>Continuation · LINE BLOG</p>
+            <div><h2>増田順一 公式ブログ</h2><span>{{ gf_line_count }} / {{ gf_line.expected_count }} 篇</span></div>
+          </header>
+          <p class="gf-director-section__intro">部长专栏于 2015 年结束后，增田顺一从 2016 年起在 LINE BLOG 继续发布创作、活动与日常记录。本站将其作为同一作者档案的后续时期整理。</p>
+          <div class="gf-director-post-list">
+            {% for post in gf_line_posts %}{% include gamefreak-director-entry.html post=post %}{% else %}<p class="gf-director-empty">LINE BLOG 文章正在整理。</p>{% endfor %}
+          </div>
+        </section>
         <section class="gf-director-section" id="entries">
           <header>
-            <p>Latest entries</p>
-            <div><h2>已收录文章</h2><span>{{ gf_local_count }} 篇</span></div>
+            <p>Original column · GAME FREAK</p>
+            <div><h2>増田部長のめざめるパワー</h2><span>{{ gf_director_count }} / 244 篇</span></div>
           </header>
           <div class="gf-director-post-list">
             {% for post in gf_posts %}
@@ -170,6 +214,22 @@ layout: default
           <span>原博客的年月索引。标为“待整理”的月份尚未在本站发布。</span>
         </header>
         <section class="gf-director-section">
+          <header><p>2016—2017</p><div><h2>LINE BLOG</h2><span>{{ gf_line_count }} 篇已整理</span></div></header>
+          <div class="gf-director-archive-grid gf-director-archive-grid--lineblog">
+            {% for archive in gf_line.archives %}
+              {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
+              {% assign archive_posts = "" | split: "," %}
+              {% for post in gf_line_posts %}{% assign post_archive_normalized = post.gf_archive | replace: "-0", "-" %}{% if post_archive_normalized == archive_key_normalized %}{% assign archive_posts = archive_posts | push: post %}{% endif %}{% endfor %}
+              <article id="lineblog-{{ archive_key_normalized | slugify }}" class="{% if archive_posts.size == 0 %}is-empty{% endif %}">
+                <strong>{{ archive }}</strong>
+                {% if archive_posts.size > 0 %}{% for post in archive_posts %}<a href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endfor %}{% else %}<span>待整理</span>{% endif %}
+              </article>
+            {% endfor %}
+          </div>
+        </section>
+        <section class="gf-director-section">
+          <header><p>2004—2015</p><div><h2>部长专栏</h2><span>{{ gf_director_count }} 篇已整理</span></div></header>
           <div class="gf-director-archive-grid">
             {% for archive in gf.archives %}
               {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
@@ -200,7 +260,7 @@ layout: default
 
       {% else %}
         <nav class="gf-director-back" aria-label="文章导航">
-          <a href="{{ '/gamefreak-director/' | relative_url }}">← 返回已收录文章</a><span>中文译稿</span>
+          <a href="{{ '/gamefreak-director/' | relative_url }}">← 返回增田顺一博客档案</a><span>{% if page.gf_series == 'lineblog' %}LINE BLOG · 后续时期{% else %}部长专栏{% endif %}</span>
         </nav>
         {% assign current_archive = page.gf_archive %}
         {% if current_archive == nil or current_archive == empty %}
@@ -208,13 +268,14 @@ layout: default
         {% endif %}
         {% assign current_archive_normalized = current_archive | replace: "-0", "-" %}
         <details class="gf-director-quicknav">
-          <summary><span>快速年月导航</span><small>Quick archive · 2004—2015</small></summary>
+          <summary><span>快速年月导航</span><small>Quick archive · {% if page.gf_series == 'lineblog' %}2016—2017{% else %}2004—2015{% endif %}</small></summary>
           <div class="gf-director-quicknav__months">
-            {% for archive in gf.archives %}
+            {% if page.gf_series == 'lineblog' %}{% assign quick_archives = gf_line.archives %}{% assign quick_posts = gf_line_posts %}{% else %}{% assign quick_archives = gf.archives %}{% assign quick_posts = gf_posts %}{% endif %}
+            {% for archive in quick_archives %}
               {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
               {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
               {% assign archive_count = 0 %}
-              {% for candidate in gf_posts %}
+              {% for candidate in quick_posts %}
                 {% assign candidate_archive = candidate.gf_archive %}
                 {% if candidate_archive == nil or candidate_archive == empty %}
                   {% assign candidate_archive = candidate.date | date: "%Y-%m" %}
@@ -225,20 +286,21 @@ layout: default
                 {% endif %}
               {% endfor %}
               {% if archive_count > 0 %}
-                <a class="{% if archive_key_normalized == current_archive_normalized %}is-current{% endif %}" href="{{ '/gamefreak-director/archive/' | relative_url }}#archive-{{ archive_key_normalized | slugify }}">{{ archive }}</a>
+                <a class="{% if archive_key_normalized == current_archive_normalized %}is-current{% endif %}" href="{{ '/gamefreak-director/archive/' | relative_url }}#{% if page.gf_series == 'lineblog' %}lineblog-{% else %}archive-{% endif %}{{ archive_key_normalized | slugify }}">{{ archive }}</a>
               {% endif %}
             {% endfor %}
           </div>
         </details>
         <section class="gf-director-post">
           <header class="gf-director-post__header">
+            {% if page.gf_series == 'lineblog' %}<span class="gf-director-post__series">増田順一 公式ブログ · LINE BLOG</span>{% endif %}
             <h1>{% if page.gf_entry_no %}・第{{ page.gf_entry_no }}回・{% else %}{{ page.title }}{% endif %}</h1>
             {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time>{% endif %}
           </header>
-          {% if page.gf_entry_title %}<p class="gf-director-post__lead">{{ page.gf_entry_title }}</p>{% endif %}
-          <div class="gf-director-language-switcher" data-gf-language-switcher aria-label="阅读语言"></div>
+          {% if page.gf_entry_title and page.gf_series != 'lineblog' %}<p class="gf-director-post__lead">{{ page.gf_entry_title }}</p>{% endif %}
+          <div class="gf-director-language-switcher" data-gf-language-switcher data-gf-default-language="{% if page.translation_available == false %}ja{% else %}zh{% endif %}" data-gf-show-english="{% if page.gf_series == 'lineblog' %}false{% else %}true{% endif %}" aria-label="阅读语言"></div>
           <div class="gf-director-post__content" data-gf-language-content>{{ content }}</div>
-          {% if page.gf_categories %}
+          {% if page.gf_categories and page.gf_categories.size > 0 %}
             <footer class="gf-director-post__footer">
               <span>Posted in：</span>
               {% for category in page.gf_categories %}<em>{{ category }}</em>{% endfor %}
@@ -248,7 +310,7 @@ layout: default
             <summary>来源、关联链接与研究信息</summary>
             {% if page.source.url %}
               <p class="gf-director-source-links">
-                <a href="{{ page.source.url }}" target="_blank" rel="noopener">查看 GAME FREAK 原始页面 ↗</a>
+                <a href="{{ page.source.url }}" target="_blank" rel="noopener">查看{% if page.gf_series == 'lineblog' %} LINE BLOG{% else %} GAME FREAK{% endif %} 原始页面 ↗</a>
                 {% if page.source.archive_url %}
                   <a href="{{ page.source.archive_url }}" target="_blank" rel="noopener">在 Web Archive 查找快照 ↗</a>
                 {% else %}
@@ -259,22 +321,24 @@ layout: default
             {% include article-link-analysis.html %}
             {% include article-references.html %}
           </details>
-          {% assign older_no = page.gf_entry_no | minus: 1 %}
-          {% assign newer_no = page.gf_entry_no | plus: 1 %}
           {% assign older_post = nil %}
           {% assign newer_post = nil %}
-          {% for candidate in gf_posts %}
-            {% if candidate.gf_entry_no == older_no %}{% assign older_post = candidate %}{% endif %}
-            {% if candidate.gf_entry_no == newer_no %}{% assign newer_post = candidate %}{% endif %}
+          {% assign chronological_posts = gf_all_posts | sort: "date" %}
+          {% assign previous_post = nil %}
+          {% assign current_found = false %}
+          {% for candidate in chronological_posts %}
+            {% if current_found and newer_post == nil %}{% assign newer_post = candidate %}{% endif %}
+            {% if candidate.url == page.url %}{% assign older_post = previous_post %}{% assign current_found = true %}{% endif %}
+            {% assign previous_post = candidate %}
           {% endfor %}
           <nav class="gf-director-pager" aria-label="文章前后导航">
             {% if older_post %}
-              <a class="gf-director-pager__older" href="{{ older_post.url | relative_url }}"><small>上一篇</small><strong>第{{ older_post.gf_entry_no }}回</strong><span>{{ older_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
+              <a class="gf-director-pager__older" href="{{ older_post.url | relative_url }}"><small>上一篇</small><strong>{% if older_post.gf_entry_no %}第{{ older_post.gf_entry_no }}回{% else %}LINE BLOG{% endif %}</strong><span>{{ older_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
             {% else %}
               <span class="gf-director-pager__empty gf-director-pager__older"><small>上一篇</small><strong>已是最早文章</strong></span>
             {% endif %}
             {% if newer_post %}
-              <a class="gf-director-pager__newer" href="{{ newer_post.url | relative_url }}"><small>下一篇</small><strong>第{{ newer_post.gf_entry_no }}回</strong><span>{{ newer_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
+              <a class="gf-director-pager__newer" href="{{ newer_post.url | relative_url }}"><small>下一篇</small><strong>{% if newer_post.gf_entry_no %}第{{ newer_post.gf_entry_no }}回{% else %}LINE BLOG{% endif %}</strong><span>{{ newer_post.gf_entry_title | strip_html | truncate: 54 }}</span></a>
             {% else %}
               <span class="gf-director-pager__empty gf-director-pager__newer"><small>下一篇</small><strong>已是最新文章</strong></span>
             {% endif %}
@@ -286,7 +350,7 @@ layout: default
 
   <footer class="gf-director-colophon">
     <p>非官方数字存档 / 中文翻译</p>
-    <span>Original text and images © GAME FREAK inc. · Archive presentation by PokeAmice</span>
+    <span>Original text and images remain with their respective rights holders · Archive presentation by PokeAmice</span>
   </footer>
 </div>
 
@@ -355,8 +419,9 @@ layout: default
       });
       if (!hasJapanese) panels.ja.innerHTML = '<p class="gf-director-language-empty">暂无日文原文。</p>';
       if (!hasEnglish) panels.en.innerHTML = '<p class="gf-director-language-empty">该篇暂无官方英文版。</p>';
-      panels.zh.hidden = false;
-      panels.ja.hidden = true;
+      const defaultLanguage = switcher.dataset.gfDefaultLanguage === 'ja' ? 'ja' : 'zh';
+      panels.zh.hidden = defaultLanguage !== 'zh';
+      panels.ja.hidden = defaultLanguage !== 'ja';
       panels.en.hidden = true;
       content.appendChild(panels.zh);
       content.appendChild(panels.ja);
@@ -367,12 +432,14 @@ layout: default
       heading.textContent = '阅读语言';
       const tabs = document.createElement('div');
       tabs.className = 'gf-director-language-switcher__tabs';
-      [['zh', '中文'], ['ja', '日文原文'], ['en', '官方英文']].forEach(function (item) {
+      const languageChoices = [['zh', '中文'], ['ja', '日文原文']];
+      if (switcher.dataset.gfShowEnglish !== 'false') languageChoices.push(['en', '官方英文']);
+      languageChoices.forEach(function (item) {
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'gf-director-language-switcher__tab';
         button.dataset.gfLanguage = item[0];
-        button.setAttribute('aria-selected', item[0] === 'zh' ? 'true' : 'false');
+        button.setAttribute('aria-selected', item[0] === defaultLanguage ? 'true' : 'false');
         button.textContent = item[1];
         button.addEventListener('click', function () {
           Object.keys(panels).forEach(function (key) { panels[key].hidden = key !== item[0]; });

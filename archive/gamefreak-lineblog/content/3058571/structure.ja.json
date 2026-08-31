@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3058571-001\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br></div>",
+      "images": [
+        "line-3058571-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">音楽を聞くだけで\n状況が分かるように\n作曲しています\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n例えば・・・\n\n<br>\n\n\n\n<br>\n\n\n街では\nポケモンが飛び出して来ないので\n安心な場所として！\n\n<br>\n\n\n\n<br>\n\n\n\nポケモンセンターは\n\nとにかく安心・安全\n\n回復してくれる場所として！\n\n<br>\n\n\n\n<br>\n\n\n\n\n        道！\n道は冒険感を出して勇ましく！\n（初期は隣町へのお買物な感じで）\n\n<br>\n\n\n\n<br>\n\n\n戦闘！\n戦闘は不思議な生き物\nモンスターと戦うので怖く！\n（でも味方になるのでそこも意識）\n\n<br>\n\n\n\n<br>\n\n\n洞窟！\nどこからでも\nモンスターが出てくるので\n不気味に！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n何をしていてどんな状況か\n誰もが理解しやすいように・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n分かりやすく記号化する\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n音楽だけじゃなくて\nキャラクター設定や\n構成などにも\n使えますので\nぜひお試しくださいね！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br></div>",
+      "images": []
+    }
+  ]
+}

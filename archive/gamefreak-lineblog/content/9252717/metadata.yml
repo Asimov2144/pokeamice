@@ -1,0 +1,56 @@
+article_id: masuda-line-9252717
+post_id: 9252717
+lang: ja
+date: '2017-01-01'
+title: Happy New Year!
+categories: []
+tags:
+- あけましておめでとう
+- ポケモン
+- pokemonGO
+- ピカチュウ
+- ヒトカゲ
+- ゼニガメ
+- フシギダネ
+source: https://lineblog.me/masudajunichi/archives/9252717.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9252717.html
+  wayback_url: https://web.archive.org/web/20170309124054id_/https://lineblog.me/masudajunichi/archives/9252717.html
+  raw_page: raw/articles/9252717.html
+assets:
+- id: line-9252717-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e34c77de84d280e363e604a2d6671773d3c26367e1171160e397c7a717d386c2042684b617a6376622b695a5c4f19253547322008640561502132626574791021606d757d147e0163636d701e366f38346966327d107d5c73
+  display_url: https://obs.line-scdn.net/0m0e34c77de84d280e363e604a2d6671773d3c26367e1171160e397c7a717d386c2042684b617a6376622b695a5c4f19253547322008640561502132626574791021606d757d147e0163636d701e366f38346966327d107d5c73/small
+  local_path: archive/gamefreak-lineblog/assets/9252717/001-06370e9ee6.jpg
+  sha256: 7e1f5c5d299e8bb5db2181cb76ebbfb4e774e318f69cff9da69ae418421919b2
+  width: 576
+  height: 978
+  wayback_url: https://web.archive.org/web/20170309124054id_/https://obs.line-scdn.net/0m0e34c77de84d280e363e604a2d6671773d3c26367e1171160e397c7a717d386c2042684b617a6376622b695a5c4f19253547322008640561502132626574791021606d757d147e0163636d701e366f38346966327d107d5c73
+  retrieval_method: wayback
+- id: line-9252717-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e34c7a8e84d280e363e604a2d6671773d3c26367e1171160e39696571287e6d327b77416d635d503a734d5b4c523a2134634455144f6f46412132626574791021666c767d147e01363867221e366f3b346966327d107d0871
+  display_url: https://obs.line-scdn.net/0m0e34c7a8e84d280e363e604a2d6671773d3c26367e1171160e39696571287e6d327b77416d635d503a734d5b4c523a2134634455144f6f46412132626574791021666c767d147e01363867221e366f3b346966327d107d0871/small
+  local_path: archive/gamefreak-lineblog/assets/9252717/002-ec542b160a.png
+  sha256: 3deb08b48f54abae159f53691f821bd16875f005293939dd6d362ca7189100aa
+  width: 1880
+  height: 1390
+  wayback_url: https://web.archive.org/web/20170309124054id_/https://obs.line-scdn.net/0m0e34c7a8e84d280e363e604a2d6671773d3c26367e1171160e39696571287e6d327b77416d635d503a734d5b4c523a2134634455144f6f46412132626574791021666c767d147e01363867221e366f3b346966327d107d0871
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:17+00:00'

@@ -1,0 +1,38 @@
+article_id: masuda-line-4177709
+post_id: 4177709
+lang: ja
+date: '2016-06-24'
+title: 電圧
+categories:
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4177709.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4177709.html
+  wayback_url: https://web.archive.org/web/20160627075413id_/https://lineblog.me/masudajunichi/archives/4177709.html
+  raw_page: raw/articles/4177709.html
+assets:
+- id: line-4177709-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/c/4c0472e6.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/c/4c0472e6-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4177709/001-68d26479eb.jpg
+  sha256: 9312b3246a7391aec2b48b99979221120e6cc4b72f883e80536cabdf6305d781
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160627075413id_/https://line.blogimg.jp/masudajunichi/imgs/4/c/4c0472e6.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:25+00:00'

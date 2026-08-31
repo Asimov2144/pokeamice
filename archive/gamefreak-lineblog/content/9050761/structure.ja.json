@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">鴨川シーワールド！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-9050761-001\" alt=\"\" %}\n\n\n<br>\n\n\n\n        入って\nいきなり現れたのは・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nベルーガ！\n\n\n{% lineblog_image id=\"line-9050761-002\" alt=\"\" %}\n\n\n\n<br>\n\n\nむっちゃかわいい！\n何この可愛さ！\n\n<br>\n\n\nエコーロケーションや\n音の真似も出来て\n得意技が多いベルーガ！\n\n<br>\n\n\nかわいい！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-003\" alt=\"\" %}\n\n解説も分かりやすくて\nベルーガとの息もピッタリ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして\nイルカ！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-004\" alt=\"\" %}\n\n\n\n速度感ハンパない！\n\n<br>\n\n\n4匹のイルカたちの\n素晴らしいチームワーク！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして鴨川シーワールドと言えば！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nこちら！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-005\" alt=\"\" %}\n\n\n\n<br>\n\n\nシャチ！！\n\n<br>\n\n\n\n<br>\n\n\n親戚のシャチトレーナー\n美和ちゃん大活躍！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-006\" alt=\"\" %}\n\n\n\n        すげーー！！\n    \n\n<br>\n\n\n\n<br>\n\n\nシャチとトレーナーの素晴らしい関係！\n\n<br>\n\n\n\n<br>\n\n\nそして愛！！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-007\" alt=\"\" %}\n\n最後のこのシーン・・\n\n<br>\n\n\n泣きそうになったよ・・\n\n<br>\n\n\n\n<br>\n\n\nトレーナーとの絆\n本当に素晴らしい！\n\n<br>\n\n\n\n<br>\n\n\n美和ちゃん\n\nシャチのララちゃん\nありがとう！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nむっちゃ感動をもらったよ！\n元気をもらったよ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nベルーガ・イルカ・シャチたち\nそしてトレーナーの皆さん\nありがとうございました！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-9050761-008\" alt=\"\" %}\n\n\n\n<br>\n\n\nみなさんも\n是非！\n感動の連続\n<a class=\"gf-lineblog-source-link\" href=\"http://www.kamogawa-seaworld.jp/smp/\" target=\"_blank\" rel=\"noopener\">鴨川シーワールドへ！</a>\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br></div>",
+      "images": [
+        "line-9050761-001",
+        "line-9050761-002",
+        "line-9050761-003",
+        "line-9050761-004",
+        "line-9050761-005",
+        "line-9050761-006",
+        "line-9050761-007",
+        "line-9050761-008"
+      ]
+    }
+  ]
+}

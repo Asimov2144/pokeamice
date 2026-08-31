@@ -1,0 +1,37 @@
+article_id: masuda-line-2778110
+post_id: 2778110
+lang: ja
+date: '2016-04-13'
+title: 整えました！
+categories: []
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2778110.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2778110.html
+  wayback_url: https://web.archive.org/web/20200805003358id_/https://lineblog.me/masudajunichi/archives/2778110.html
+  raw_page: raw/articles/2778110.html
+assets:
+- id: line-2778110-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/e/f/ef930d82.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/e/f/ef930d82-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2778110/001-d72de9811e.jpg
+  sha256: b8a233a48df4af311a8ecdf1a46a9d4708e174559b58157415d426fe5f484968
+  width: 578
+  height: 810
+  wayback_url: https://web.archive.org/web/20200805003358id_/https://line.blogimg.jp/masudajunichi/imgs/e/f/ef930d82.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:05:59+00:00'

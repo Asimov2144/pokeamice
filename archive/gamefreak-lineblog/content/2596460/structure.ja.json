@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケットモンスターX・Yの</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケパルレ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンにお菓子を上げたり</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">可愛がると</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">プレイヤーとの</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">絆が深まります！！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">「キキもゴリゴリする？」</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-2596460-001\" alt=\"\" %}",
+      "images": [
+        "line-2596460-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">手をグーにして上下すると</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">鳴きながら</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">やってくるキキ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">にゃにゃにゃ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">（うん！するする！）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-2596460-002\" alt=\"\" %}</div>",
+      "images": [
+        "line-2596460-002"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">こんな感じで</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケパルレも可愛がれます（笑）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">で・・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">飽きたり遊び疲れると・・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-2596460-003\" alt=\"\" %}</div>",
+      "images": [
+        "line-2596460-003"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">キキは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">大好きな家に戻って</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">寝ます（笑）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">（ダンボールハウス（笑））</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケパルレ開発中のころ・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">プレイヤーが</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">画面をタッチせず</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンを放置したとき</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">どうする？？</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">と考えてたのですが・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">キキを見ていて</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">閃いたのです！！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">そう！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">勝手にモンスターボールに戻る！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">（勝手にダンボールに戻る！）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">やるね、キキ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-2596460-005\" alt=\"\" %}</div>",
+      "images": [
+        "line-2596460-005"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">本日 5歳になった</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">キキのおかけで</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ひとつのアイディア</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">もらったのです！！！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">お誕生日おめでとう、キキ！！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Happy birthday Kiki-chan!</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">いまでも</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">手から水を飲むキキ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-2596460-006\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nうちに来た時は\nこんなにちっちゃかったね！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2596460-007\" alt=\"\" %}\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2596460-008\" alt=\"\" %}\n\n\n<br>\n\n\n可愛すぎるっ！！！\n↑\n完全に親バカ（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2596460-009\" alt=\"\" %}\n\n\n\n\n<br>\n\n\n\n\nキキ！\nこれからもよろしくね！！\n\n<br></div>",
+      "images": [
+        "line-2596460-006",
+        "line-2596460-007",
+        "line-2596460-008",
+        "line-2596460-009"
+      ]
+    }
+  ]
+}

@@ -36,6 +36,10 @@ archive/gamefreak-director/raw/
 archive/gamefreak-director/assets/original/
 archive/gamefreak-director/warc/
 archive/gamefreak-director/reports/first-run-obsolete-assets/
+# LINE BLOG raw HTML and source-resolution working copies are reproducible
+# from their manifests. The published local image copies remain versioned.
+archive/gamefreak-lineblog/raw/
+archive/gamefreak-lineblog/assets/
 migration/inbox
 migration/import-wizard
 

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\n\n\n日本の夜中の2時に放送された</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Treehouse Live @ E3</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\n\n\n\n\n{% lineblog_image id=\"line-4216408-001\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\nかなり多くの方々に\n見て頂けたようで\n嬉しいです！\n\n<br>\n\n\n\n<br>\n\n\nE3 Nintendo の会場から\nLive放送されました！\n\n\n{% lineblog_image id=\"line-4216408-002\" alt=\"\" %}\n\nマスダの座った椅子からの写真！人だかりが！\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4216408-003\" alt=\"\" %}\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n                マスダは\nポケモンを捕まえる事のこだわりと\n音楽と効果音を担当してること\n\n<br>\n\n\nそして\n\n<br>\n\n\nポケモン サン・ムーンとの\n関係について\n\n<br>\n\n\n喋りました！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n宮本さんから\nお話いただいた\nPokémon GO plus\n\n<br>\n\n\n7月下旬に発売予定の事！\nお楽しみに！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4216408-004\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\nいよいよ\nみなさんに\nプレイしてもらえる\nタイミングが近づいてきました！\n\n<br>\n\n\n\n<br>\n\n\nPokémon GO\nお楽しみに！\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-4216408-001",
+        "line-4216408-002",
+        "line-4216408-003",
+        "line-4216408-004"
+      ]
+    }
+  ]
+}

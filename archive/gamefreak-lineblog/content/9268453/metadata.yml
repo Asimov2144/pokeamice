@@ -1,0 +1,52 @@
+article_id: masuda-line-9268453
+post_id: 9268453
+lang: ja
+date: '2017-03-23'
+title: 食われとる？
+categories: []
+tags:
+- ポケモン
+- ポケモンGo
+- コイキング
+source: https://lineblog.me/masudajunichi/archives/9268453.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9268453.html
+  wayback_url: https://web.archive.org/web/20200804234612id_/https://lineblog.me/masudajunichi/archives/9268453.html
+  raw_page: raw/articles/9268453.html
+assets:
+- id: line-9268453-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0hozT6SvorMFVpTx7hQ_ZPAiISNjoQLCpdAzcnbxwZOnscIydVATUjYw4LOzUfOyhbB3AnLzJKChYhejIHFlZ3NSxLOzoQGyoFE3Undz4NFAYgIxxTSSl6O01MbGdGfHADXXsqOklGbCBFeHZUUH0qZw
+  display_url: https://obs.line-scdn.net/0hozT6SvorMFVpTx7hQ_ZPAiISNjoQLCpdAzcnbxwZOnscIydVATUjYw4LOzUfOyhbB3AnLzJKChYhejIHFlZ3NSxLOzoQGyoFE3Undz4NFAYgIxxTSSl6O01MbGdGfHADXXsqOklGbCBFeHZUUH0qZw/small
+  local_path: archive/gamefreak-lineblog/assets/9268453/001-a034075613.jpg
+  sha256: 24fc3f3be03e56704b13ce2b9f9a6264ffbf280d7e1bd51dad6a527d7386dd1d
+  width: 576
+  height: 998
+  wayback_url: https://web.archive.org/web/20200804234612id_/https://obs.line-scdn.net/0hozT6SvorMFVpTx7hQ_ZPAiISNjoQLCpdAzcnbxwZOnscIydVATUjYw4LOzUfOyhbB3AnLzJKChYhejIHFlZ3NSxLOzoQGyoFE3Undz4NFAYgIxxTSSl6O01MbGdGfHADXXsqOklGbCBFeHZUUH0qZw
+  retrieval_method: wayback
+- id: line-9268453-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0h6MTySrc1aWJpAEfWTNwWNSJdbw0QY3NqA3h-WBxWY0wcbH5iAXp6VA5EYgIfdHFsBz9-GDZ-X1oCdC9dARhUAzleYCckdk5vAj1CQRpTRxQfWFFJSWYjDE0DNVBBOS00XTR0AU0GNhdFNy9jUDEgVw
+  display_url: https://obs.line-scdn.net/0h6MTySrc1aWJpAEfWTNwWNSJdbw0QY3NqA3h-WBxWY0wcbH5iAXp6VA5EYgIfdHFsBz9-GDZ-X1oCdC9dARhUAzleYCckdk5vAj1CQRpTRxQfWFFJSWYjDE0DNVBBOS00XTR0AU0GNhdFNy9jUDEgVw/small
+  local_path: archive/gamefreak-lineblog/assets/9268453/002-8064e6f8d8.png
+  sha256: e5067fa5bb912c757d8d53c7c5f595fe91802c4145c9cb5bb3ab199866fe3e93
+  width: 1880
+  height: 1390
+  wayback_url: https://web.archive.org/web/20200804234612id_/https://obs.line-scdn.net/0h6MTySrc1aWJpAEfWTNwWNSJdbw0QY3NqA3h-WBxWY0wcbH5iAXp6VA5EYgIfdHFsBz9-GDZ-X1oCdC9dARhUAzleYCckdk5vAj1CQRpTRxQfWFFJSWYjDE0DNVBBOS00XTR0AU0GNhdFNy9jUDEgVw
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:27+00:00'

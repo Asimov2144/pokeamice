@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモン世界大会2016</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ここサンフランシスコで</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">行われます！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6172283-001\" alt=\"\" %}</div>",
+      "images": [
+        "line-6172283-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">どこの国の誰が</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">世界1位になるのか？</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6172283-002\" alt=\"\" %}\n\nこのトロフィーを手に入れるのは？</div>",
+      "images": [
+        "line-6172283-002"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今回は</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">カードゲーム</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ビデオゲーム</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">に続き</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポッ拳の大会も行われます！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">オープニングセレモニー</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">スタート！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">石原さんからは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">カードゲームの新しいシリーズ</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">GXが発表されました！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6172283-003\" alt=\"\" %}\n\n\n<br></div>",
+      "images": [
+        "line-6172283-003"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">続いて</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">マスダからは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">アローラ地方の新しいポケモン</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6172283-004\" alt=\"\" %}</div>",
+      "images": [
+        "line-6172283-004"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">マケンカニ！！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6172283-005\" alt=\"\" %}\n\n\n<br>\n\n\nカニ好きとしては\nサンフランシスコで\nマケンカニを紹介できて良かった（笑）\n\n<br>\n\n\n\n<br>\n\n\nフィッシャーマンワーフで\n記念撮影したのも紹介（笑）\n\n\n{% lineblog_image id=\"line-6172283-006\" alt=\"\" %}\n\nカニ！\n\n\n<br>\n\n\n\n<br>\n\n\nはやく\nマケンカニと冒険したい！！\n\n\n<br>\n\n\n\n<br></div>",
+      "images": [
+        "line-6172283-005",
+        "line-6172283-006"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ニコ生やTwittchなどでも</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">放送されているので</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">みなさん</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモン世界大会</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ぜひ見てくださいね！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">チャオ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    }
+  ]
+}

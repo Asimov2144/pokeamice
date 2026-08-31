@@ -20,6 +20,7 @@ sitemap: false
 {%- for post in site.posts -%}
   {%- case post.archive_type -%}
     {%- when "gamefreak_director_column" -%}{%- assign k = "gf" -%}{%- assign kind = "部长专栏" -%}
+    {%- when "gamefreak_masuda_lineblog" -%}{%- assign k = "gf" -%}{%- assign kind = "增田顺一 LINE BLOG" -%}
     {%- when "gamefreak_legacy_blog" -%}{%- assign k = "gf" -%}
       {%- if post.gf_legacy_blog == "art" -%}{%- assign kind = "员工博客 · 美术" -%}
       {%- else -%}{%- assign kind = "员工博客" -%}{%- endif -%}

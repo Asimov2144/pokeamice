@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">やってきました控室！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3750246-001\" alt=\"\" %}\n\n\n        いろんな表情のコダックと\nサン・ムーンの3匹も！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-002\" alt=\"\" %}\n\nオーサカのスタッフさんの\nメッセージ色紙と\nイラストが！！\n\n<br>\n\n\nとても嬉しいです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-003\" alt=\"\" %}\n\n大量のみがわりコダックも！\nあちらこちらに（笑）\n\n<br>\n\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nさらに・・・\n\n<br>\n\n\n\n<br>\n\n\nなんと\n            <br>\n\n\nスタッフさんが\nTシャツ\n作ってくれてました！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-004\" alt=\"\" %}\n\n\n<br>\n\n\n凄すぎる！\n\n<br>\n\n\n\n<br>\n\n\n来てみると・・・\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-005\" alt=\"\" %} \n敵トレーナー（笑）\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-006\" alt=\"\" %}\n\n後ろには\n仲よしな\nコダックとニンフィア！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-007\" alt=\"\" %}\n\n首元にはコダックのタグ（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n素晴らしいので\n急遽このTシャツを着て\nサイン会する事にしました（笑）\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3750246-008\" alt=\"\" %}\n\n\n着てますよ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nポケモンセンターオーサカの\nスタッフのみなさん\nお世話になりました！\n本当にありがとうございました！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3750246-001",
+        "line-3750246-002",
+        "line-3750246-003",
+        "line-3750246-004",
+        "line-3750246-005",
+        "line-3750246-006",
+        "line-3750246-007",
+        "line-3750246-008"
+      ]
+    }
+  ]
+}

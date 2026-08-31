@@ -1,0 +1,38 @@
+article_id: masuda-line-3058571
+post_id: 3058571
+lang: ja
+date: '2016-04-30'
+title: ポケモン音楽は記号
+categories:
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3058571.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3058571.html
+  wayback_url: https://web.archive.org/web/20160502062046id_/https://lineblog.me/masudajunichi/archives/3058571.html
+  raw_page: raw/articles/3058571.html
+assets:
+- id: line-3058571-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/d/5/d5b96f18.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/d/5/d5b96f18-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3058571/001-eb1130dbbb.jpg
+  sha256: 28f85b7783cf3563b780c04d8ae821b1b63177528a1d0476cefbb22bac27590a
+  width: 1136
+  height: 848
+  wayback_url: https://web.archive.org/web/20160502062046id_/https://line.blogimg.jp/masudajunichi/imgs/d/5/d5b96f18.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:16+00:00'

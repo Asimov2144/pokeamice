@@ -1,0 +1,50 @@
+article_id: masuda-line-2819347
+post_id: 2819347
+lang: ja
+date: '2016-04-15'
+title: 九州
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2819347.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2819347.html
+  wayback_url: https://web.archive.org/web/20160419201955id_/https://lineblog.me/masudajunichi/archives/2819347.html
+  raw_page: raw/articles/2819347.html
+assets:
+- id: line-2819347-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/5/5/55692b05.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/5/5/55692b05-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2819347/001-0d1868dfb7.jpg
+  sha256: fde9be28953cccf682aa9f2fb5972d30189ed536a28442ce3e82d40655c7513b
+  width: 1136
+  height: 244
+  wayback_url: https://web.archive.org/web/20160419201955id_/https://line.blogimg.jp/masudajunichi/imgs/5/5/55692b05.jpg
+  retrieval_method: wayback
+- id: line-2819347-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/5/7/572b9a81.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/5/7/572b9a81-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2819347/002-f9c0bea983.jpg
+  sha256: 5648bc6e226a51ffe2ce254b8364818b7be617e3a5aaea7cdd05420b6831d2ad
+  width: 1136
+  height: 246
+  wayback_url: https://web.archive.org/web/20160419201955id_/https://line.blogimg.jp/masudajunichi/imgs/5/7/572b9a81.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:01+00:00'

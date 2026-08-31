@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">開店前の</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンセンターオオサカを見学！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3743335-001\" alt=\"\" %}\n\nヒトカゲかわいい！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3743335-002\" alt=\"\" %}\n\n新たなコダックが（笑）\n手が上がってる！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3743335-003\" alt=\"\" %}\n\n\n<br>\n\n\nコダックだらけで\nウケる（笑）\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3743335-004\" alt=\"\" %}\n\nみがわりも！\n\n<br>\n\n\n\n<br>\n\n\n\n\n<br>\n\n\n午後からのサイン会\n楽しみです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n抽選に外れちゃった方も\n当たった方も\nサイン会\n盛り上がっていこう！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3743335-005\" alt=\"\" %}\n\nみんな\nありがとう！！\n\n<br>\n\n\n\n<br>\n\n\n\n\n<br>\n\n\nチャオ！\n\n<br></div>",
+      "images": [
+        "line-3743335-001",
+        "line-3743335-002",
+        "line-3743335-003",
+        "line-3743335-004",
+        "line-3743335-005"
+      ]
+    }
+  ]
+}

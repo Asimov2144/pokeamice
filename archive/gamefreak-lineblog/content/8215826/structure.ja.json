@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">スタートは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">このピカチュウたちと共に！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-8215826-001\" alt=\"\" %}\n\nマスダ挟まれチュウ（笑）\n\n\n<br>\n\n\nサイン会に\n来てくださった皆さん\n本当にありがとうございました！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-8215826-002\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8215826-003\" alt=\"\" %}\n\nサイン会の雰囲気伝わるかな？\n（許可もらいました）\n\n\n<br>\n\n\n\n<br>\n\n\n今日誕生日だったお二人\n\n<br>\n\n\n奄美大島のパンケーキのお兄さん\n\n<br>\n\n\n延岡話で盛り上がった延岡出身の女の子\n\n<br>\n\n\n群馬サファリパークに行ったことない\n群馬県民の女の子\n\n<br>\n\n\n留学生や海外から旅行中に来てくれて\n\n<br>\n\n\nなどなど\n・\n・\n\n<br>\n\n\nみなさんと\nたくさん話す事が出来て\n嬉しかったです！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-8215826-004\" alt=\"\" %}\n\n\n\n<br>\n\n\n日本全国ポケモンセンター\n11ヶ所1100人にサインした\n今回の20周年サイン会\n無事終了です！\n\n<br>\n\n\n\n<br>\n\n\n来てくださった皆さん\n本当にありがとうございました！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n最後に・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-8215826-005\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8215826-006\" alt=\"\" %}\n\nポケモンセンタースカイツリータウン\nここにサインしたよ！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n（オマケ）\n\n\n{% lineblog_image id=\"line-8215826-007\" alt=\"\" %}\n\n\nこの格好で帰宅チュウ（笑）</div>",
+      "images": [
+        "line-8215826-001",
+        "line-8215826-002",
+        "line-8215826-003",
+        "line-8215826-004",
+        "line-8215826-005",
+        "line-8215826-006",
+        "line-8215826-007"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+article_id: masuda-line-2755888
+post_id: 2755888
+lang: ja
+date: '2016-04-12'
+title: CNN_Interview
+categories: []
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2755888.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2755888.html
+  wayback_url: https://web.archive.org/web/20200805003402id_/https://lineblog.me/masudajunichi/archives/2755888.html
+  raw_page: raw/articles/2755888.html
+assets:
+- id: line-2755888-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9a0219ce.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9a0219ce-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2755888/001-9ea6120a17.jpg
+  sha256: 94e30278757dad648e3f033c1359be02c515c01c6e45be7514d1d4eab813b64a
+  width: 518
+  height: 750
+  wayback_url: https://web.archive.org/web/20200805003402id_/https://line.blogimg.jp/masudajunichi/imgs/9/a/9a0219ce.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:05:59+00:00'

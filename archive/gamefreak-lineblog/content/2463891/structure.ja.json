@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">悩みまくりました。</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ヘッダーは大切だなと思い</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">池袋サンシャインシティにある</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンセンター メガトウキョーに</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">協力依頼！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\n\n<br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">そしてカメラマンは\n    <br>\nゲームフリークで人物を\n    <br>\n撮らせたらこのひと！\n    <br>\nMTに依頼！\n    <br>\n\n<br>\n\n<br>\nかなりの内輪（笑）\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\nメガトウキョーのお店がクローズした後\n    <br>\nピカチュウ大量発生（笑）\n    <br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-001\" alt=\"752A1088\" %}\n<br>\n\n<br>\nこのレイアウト\n    <br>\n超かっこいいよね！\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-002\" alt=\"752A1087\" %}\n<br>\nそこで写真を！\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-003\" alt=\"752A1123\" %}\n<br>\nこんなのも！この構図好き！\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-004\" alt=\"752A1101\" %}\n<br>\nMTが笑顔を作る\n    <br>\n魔法の言葉をくれたり（笑）\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-005\" alt=\"752A1068\" %}\n<br>\n\n{% lineblog_image id=\"line-2463891-006\" alt=\"752A1059\" %}\n<br>\n\n<br>\n魔法がかかった後！笑顔！（笑）\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-007\" alt=\"752A1045\" %}\n<br>\nこうして\n    <br>\nヘッダーは作られていったのでした！\n    <br>\n\n<br>\n\n<br>\n単純そうな写真１枚に\n    <br>\n多くの要素\n    <br>\n多くの協力\n    <br>\n磨かれたセンス。\n    <br>\n\n<br>\n\n<br>\nそして\n    <br>\nいつもと違う日常を作ってくれた\n    <br>\nメガトウキョーに感謝！\n    <br>\n\n<br>\n写真を撮ってくれた\n    <br>\nMTに感謝！\n    <br>\n\n<br>\n\n<br>\n\n<br>\n\n<br>\nみんなが１つになって\n    <br>\n１つのヘッダーが作られました！感謝！\n    <br>\n\n<br>\n\n<br>\n\n<br>\n本当にありがとう！！！\n    <br>\n\n<br>\n\n<br>\n\n{% lineblog_image id=\"line-2463891-008\" alt=\"752A1018\" %}おまけ！\n    <br>\n\n<br>\n\n<br></div>",
+      "images": [
+        "line-2463891-001",
+        "line-2463891-002",
+        "line-2463891-003",
+        "line-2463891-004",
+        "line-2463891-005",
+        "line-2463891-006",
+        "line-2463891-007",
+        "line-2463891-008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+article_id: masuda-line-9255050
+post_id: 9255050
+lang: ja
+date: '2017-01-14'
+title: 誕生日
+categories: []
+tags: []
+source: https://lineblog.me/masudajunichi/archives/9255050.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9255050.html
+  wayback_url: https://web.archive.org/web/20170309124647id_/https://lineblog.me/masudajunichi/archives/9255050.html
+  raw_page: raw/articles/9255050.html
+assets:
+- id: line-9255050-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e254476e84d280e363e604a2d6671773d3c26367e1171160e726b5e2a5d5a38616e706f306c785b5c264a6a7b61633f45421c24117f1e524521326265737816216a6a707d147e0130686d751e366f39346966317c437a5c23
+  display_url: https://obs.line-scdn.net/0m0e254476e84d280e363e604a2d6671773d3c26367e1171160e726b5e2a5d5a38616e706f306c785b5c264a6a7b61633f45421c24117f1e524521326265737816216a6a707d147e0130686d751e366f39346966317c437a5c23/small
+  local_path: archive/gamefreak-lineblog/assets/9255050/001-a4ccb37a03.jpg
+  sha256: fabc988cb6ef1387b27247bf0e151af9b7f77593251c202ffbd86c5ee3bebc5a
+  width: 576
+  height: 428
+  wayback_url: https://web.archive.org/web/20170309124647id_/https://obs.line-scdn.net/0m0e254476e84d280e363e604a2d6671773d3c26367e1171160e726b5e2a5d5a38616e706f306c785b5c264a6a7b61633f45421c24117f1e524521326265737816216a6a707d147e0130686d751e366f39346966317c437a5c23
+  retrieval_method: wayback
+- id: line-9255050-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e25440ee84d280e363e604a2d6671773d3c26367e1171160e033b5b6f2e4f5401646f5e4a547e6e58276a525f612e1857621d5503576e675d21326265737816216a6e707d147e01666866221d67326b346966317c437a5970
+  display_url: https://obs.line-scdn.net/0m0e25440ee84d280e363e604a2d6671773d3c26367e1171160e033b5b6f2e4f5401646f5e4a547e6e58276a525f612e1857621d5503576e675d21326265737816216a6e707d147e01666866221d67326b346966317c437a5970/small
+  local_path: archive/gamefreak-lineblog/assets/9255050/002-888db720b6.jpg
+  sha256: 581944e77988a357b98bc1f2e3414ba061deea7ef3609ae04d787476c96be3be
+  width: 576
+  height: 455
+  wayback_url: https://web.archive.org/web/20170309124647id_/https://obs.line-scdn.net/0m0e25440ee84d280e363e604a2d6671773d3c26367e1171160e033b5b6f2e4f5401646f5e4a547e6e58276a525f612e1857621d5503576e675d21326265737816216a6e707d147e01666866221d67326b346966317c437a5970
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:18+00:00'

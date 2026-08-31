@@ -235,6 +235,16 @@ $(document).ready(function () {
     var body = $("body");
     body.removeClass("theme-bg-white theme-bg-black"); // Remove any existing theme classes
 
+    // Reconstructed Game Freak blogs reproduce their original light canvases.
+    // Keep the reader's saved site-wide preference for all other pages, but do
+    // not let it override the archival layouts (including their own era themes).
+    var archiveThemeLocked =
+      body.hasClass("archive-reproduction-theme") ||
+      $(".gf-director-site, .gf-legacy-site").length > 0;
+    if (archiveThemeLocked) {
+      return;
+    }
+
     if (themeName === "white") {
       body.addClass("theme-bg-white");
     } else if (themeName === "black") {

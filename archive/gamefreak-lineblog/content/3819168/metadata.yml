@@ -1,0 +1,74 @@
+article_id: masuda-line-3819168
+post_id: 3819168
+lang: ja
+date: '2016-06-01'
+title: 非日常
+categories:
+- ポケモンセンター
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3819168.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3819168.html
+  wayback_url: https://web.archive.org/web/20160604074839id_/https://lineblog.me/masudajunichi/archives/3819168.html
+  raw_page: raw/articles/3819168.html
+assets:
+- id: line-3819168-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/6/861e8389.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/6/861e8389-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3819168/001-9b1ece0632.jpg
+  sha256: 256208370e5108abc5254f66cf434e1b4430abf3d228e500d35231a3329781c8
+  width: 864
+  height: 648
+  wayback_url: https://web.archive.org/web/20160604074839id_/https://line.blogimg.jp/masudajunichi/imgs/8/6/861e8389.jpg
+  retrieval_method: wayback
+- id: line-3819168-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/1/9/1970858d.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/1/9/1970858d-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3819168/002-655b4b3f9f.jpg
+  sha256: 5cc6d98f53b3c0f56683c17b37ae4be52b29aaefd04c3957e054603f4b2531a1
+  width: 886
+  height: 661
+  wayback_url: https://web.archive.org/web/20160604074839id_/https://line.blogimg.jp/masudajunichi/imgs/1/9/1970858d.jpg
+  retrieval_method: wayback
+- id: line-3819168-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/c/e/ce13e75a.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/c/e/ce13e75a-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3819168/003-a52cc89b4c.jpg
+  sha256: 1b5884dc099ba04aad7889fcc9cf786943b3b8d173833df75bd3b4281c96a5ea
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160604074839id_/https://line.blogimg.jp/masudajunichi/imgs/c/e/ce13e75a.jpg
+  retrieval_method: wayback
+- id: line-3819168-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/6/0656b176.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/6/0656b176-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3819168/004-42b3811b4d.jpg
+  sha256: d5b0399d6dbe70986c4c804ad3b9ae5b91365e7b3579bc308999a6af32f99107
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160604074839id_/https://line.blogimg.jp/masudajunichi/imgs/0/6/0656b176.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:09+00:00'

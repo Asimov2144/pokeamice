@@ -1,0 +1,53 @@
+article_id: masuda-line-9261772
+post_id: 9261772
+lang: ja
+date: '2017-02-17'
+title: ポケモンGO 金銀
+categories: []
+tags:
+- ポケモン
+- ポケモンGO
+- 金銀
+- 作曲
+source: https://lineblog.me/masudajunichi/archives/9261772.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9261772.html
+  wayback_url: https://web.archive.org/web/20170305215559id_/https://lineblog.me/masudajunichi/archives/9261772.html
+  raw_page: raw/articles/9261772.html
+assets:
+- id: line-9261772-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0efacc42e84d280e363e604a2d6671773d3c26367e1171160e2168594873624d3e4f54766c4d6874755d414a666130324b45367209540c7e69213262657078142d6b6c737d147e01623c39751e366f3a346966367b132b5d26
+  display_url: https://obs.line-scdn.net/0m0efacc42e84d280e363e604a2d6671773d3c26367e1171160e2168594873624d3e4f54766c4d6874755d414a666130324b45367209540c7e69213262657078142d6b6c737d147e01623c39751e366f3a346966367b132b5d26/small
+  local_path: archive/gamefreak-lineblog/assets/9261772/001-c0294aedf5.png
+  sha256: 2040ca891f5db6b84c2f80789b70f1660fd77050b1ef9d44eb847e5440ca93fc
+  width: 1390
+  height: 1880
+  wayback_url: https://web.archive.org/web/20170305215559id_/https://obs.line-scdn.net/0m0efacc42e84d280e363e604a2d6671773d3c26367e1171160e2168594873624d3e4f54766c4d6874755d414a666130324b45367209540c7e69213262657078142d6b6c737d147e01623c39751e366f3a346966367b132b5d26
+  retrieval_method: wayback
+- id: line-9261772-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0efacccae84d280e363e604a2d6671773d3c26367e1171160e3263445f467d4e3d5b4c613233634c455e724f434c2c33706238591661277254213262657078142d6a6e737d147e0163686c741e366f38346966367b132b5577
+  display_url: https://obs.line-scdn.net/0m0efacccae84d280e363e604a2d6671773d3c26367e1171160e3263445f467d4e3d5b4c613233634c455e724f434c2c33706238591661277254213262657078142d6a6e737d147e0163686c741e366f38346966367b132b5577/small
+  local_path: archive/gamefreak-lineblog/assets/9261772/002-6b30cba9e2.jpg
+  sha256: 157338a49c44eac7421031a7bf3782fbf2f33da7367bdc12554b2097d11f8f8f
+  width: 2048
+  height: 1536
+  wayback_url: https://web.archive.org/web/20170305215559id_/https://obs.line-scdn.net/0m0efacccae84d280e363e604a2d6671773d3c26367e1171160e3263445f467d4e3d5b4c613233634c455e724f434c2c33706238591661277254213262657078142d6a6e737d147e0163686c741e366f38346966367b132b5577
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:18+00:00'

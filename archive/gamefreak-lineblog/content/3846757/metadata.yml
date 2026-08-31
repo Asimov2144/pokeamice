@@ -1,0 +1,38 @@
+article_id: masuda-line-3846757
+post_id: 3846757
+lang: ja
+date: '2016-06-07'
+title: メェークル
+categories:
+- ポケモン
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3846757.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3846757.html
+  wayback_url: https://web.archive.org/web/20160610184246id_/https://lineblog.me/masudajunichi/archives/3846757.html
+  raw_page: raw/articles/3846757.html
+assets:
+- id: line-3846757-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/8/f87a567d.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/8/f87a567d.jpg
+  local_path: archive/gamefreak-lineblog/assets/3846757/001-19c3582f4d.jpg
+  sha256: c8e1a2c64e8a206ee0ea90f59f9deccbbbe038fd4a629a52a453f2e203003077
+  width: 203
+  height: 384
+  wayback_url: https://web.archive.org/web/20160610184246id_/https://line.blogimg.jp/masudajunichi/imgs/f/8/f87a567d.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:10+00:00'

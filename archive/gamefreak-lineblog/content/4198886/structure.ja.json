@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">素晴らしいL.Aの</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">オーケストラ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4198886-001\" alt=\"\" %}\n\n\n<br>\n\n\n観客との一体感！\n\n\n{% lineblog_image id=\"line-4198886-002\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそんな中・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nステージ横で緊張するマスダ（笑）\n\n\n\n\n{% lineblog_image id=\"line-4198886-003\" alt=\"\" %}\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nついに・・・\n                    <br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n登壇！\n\n\n{% lineblog_image id=\"line-4198886-004\" alt=\"\" %}\n\n\n\n<br>\n\n\n\n<br>\n\n\nみなさんへの感謝の言葉と\n\n<br>\n\n\n今朝の\nサン・ムーンの発表はどうだった？\nという質問\n\n<br>\n\n\n\n<br>\n\n\n\n                    KISEKIの意味を\n出会いの大切さを伝え\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n\n\n{% lineblog_image id=\"line-4198886-005\" alt=\"\" %}\n\n\n\nJeron, Chadありがとう！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n                    ポケモン２０周年の\n記念の年に！\n\n\n{% lineblog_image id=\"line-4198886-006\" alt=\"\" %}\n\n指揮！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4198886-007\" alt=\"\" %}\n\n尻尾あるよ！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4198886-008\" alt=\"\" %}\n\n\n<br>\n\n\nオーケストラのみなさん\n指揮者のSusie \n本当にありがとうございました！ \n\n<br>\n\n\n\n<br>\n\n\n緊張しまくったけど\n最高に\n楽しい時間でした！！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br></div>",
+      "images": [
+        "line-4198886-001",
+        "line-4198886-002",
+        "line-4198886-003",
+        "line-4198886-004",
+        "line-4198886-005",
+        "line-4198886-006",
+        "line-4198886-007",
+        "line-4198886-008"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+article_id: masuda-line-2818987
+post_id: 2818987
+lang: ja
+date: '2016-04-16'
+title: ポケモン史上初！
+categories:
+- 映画
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2818987.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2818987.html
+  wayback_url: https://web.archive.org/web/20160418153847id_/https://lineblog.me/masudajunichi/archives/2818987.html
+  raw_page: raw/articles/2818987.html
+assets:
+- id: line-2818987-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/d/0/d0e8923c.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/d/0/d0e8923c.jpg
+  local_path: archive/gamefreak-lineblog/assets/2818987/001-4bafd0ff49.jpg
+  sha256: ccc66e00f4c8bc4de76aa39deec5acdcc99334a03544f374cd930726c2c6fd59
+  width: 358
+  height: 490
+  wayback_url: https://web.archive.org/web/20160418153847id_/https://line.blogimg.jp/masudajunichi/imgs/d/0/d0e8923c.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:00+00:00'

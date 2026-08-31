@@ -1,0 +1,20 @@
+snapshot: "20180603171931"
+articles:
+  - id: 2413352
+    date: "2016-03-31"
+    title: "はじめまして！　ポケモンのマスダです！"
+    url: "http://lineblog.me/masudajunichi/archives/2413352.html"
+    timestamp: "20160403134328"
+    role: "first-entry"
+  - id: 9297286
+    date: "2017-09-01"
+    title: "なんやろ？"
+    url: "https://lineblog.me/masudajunichi/archives/9297286.html"
+    timestamp: "20171024121940"
+    role: "late-diary"
+  - id: 9302351
+    date: "2017-10-09"
+    title: "夏の思い出"
+    url: "https://lineblog.me/masudajunichi/archives/9302351.html"
+    timestamp: "20171024121940"
+    role: "image-rich"

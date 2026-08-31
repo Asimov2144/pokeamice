@@ -1,0 +1,87 @@
+article_id: masuda-line-6133323
+post_id: 6133323
+lang: ja
+date: '2016-08-18'
+title: Golden Gate Bridge
+categories:
+- 日記
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/6133323.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/6133323.html
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://lineblog.me/masudajunichi/archives/6133323.html
+  raw_page: raw/articles/6133323.html
+assets:
+- id: line-6133323-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/c/4ce99a47.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/c/4ce99a47-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6133323/001-4239ab2145.jpg
+  sha256: b99f817a3378a14017c0f54556f1f045ba66eade66d31a7337baf2325a2300c7
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://line.blogimg.jp/masudajunichi/imgs/4/c/4ce99a47.jpg
+  retrieval_method: wayback
+- id: line-6133323-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/5/0/5051d89b.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/5/0/5051d89b-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6133323/002-2dd655035a.jpg
+  sha256: de2bcea1b5590764bdbd5ba0ed4a17d955fe72a9fabb0eba1f49d26832c1a78f
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://line.blogimg.jp/masudajunichi/imgs/5/0/5051d89b.jpg
+  retrieval_method: wayback
+- id: line-6133323-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/5/357ce644.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/5/357ce644-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6133323/003-04a85085c7.jpg
+  sha256: 85039c87d51b11061c492336ee5c7b45d1f0805d5c92d5545380da052d4aa933
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://line.blogimg.jp/masudajunichi/imgs/3/5/357ce644.jpg
+  retrieval_method: wayback
+- id: line-6133323-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/1/7/173a8b27.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/1/7/173a8b27-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6133323/004-10f40cf129.jpg
+  sha256: aa259fbb19c24e56bfa437172cbc6eac8b8b0d9c5409d81a629f45aea0b54ea0
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://line.blogimg.jp/masudajunichi/imgs/1/7/173a8b27.jpg
+  retrieval_method: wayback
+- id: line-6133323-005
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/5/459c1f9d.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/5/459c1f9d-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6133323/005-bb2839a41b.jpg
+  sha256: 3166affe26e2d1bd977c32ba427c237aa792ba18898ca09103f0f1b2cd887d78
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160824223738id_/https://line.blogimg.jp/masudajunichi/imgs/4/5/459c1f9d.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:00+00:00'

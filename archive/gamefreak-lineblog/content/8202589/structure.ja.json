@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">20周年サイン会の最後は</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">こちら！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-8202589-001\" alt=\"\" %}\n\n咬まれた！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-8202589-002\" alt=\"\" %}\n\nスカイツリータウンにある\nポケモンセンター！\n\n<br>\n\n\n\n<br>\n\n\nまもなくここで\nサイン会が行われます！\n\n\n{% lineblog_image id=\"line-8202589-003\" alt=\"\" %}\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-8202589-004\" alt=\"\" %}\n\nどんなサイン会になるのか？\n\n<br>\n\n\nとっても楽しみです！！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-8202589-001",
+        "line-8202589-002",
+        "line-8202589-003",
+        "line-8202589-004"
+      ]
+    }
+  ]
+}

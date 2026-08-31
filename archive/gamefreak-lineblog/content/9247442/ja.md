@@ -1,0 +1,97 @@
+---
+article_id: masuda-line-9247442
+post_id: 9247442
+lang: ja
+date: '2016-12-08'
+title: スペイン時間
+categories: []
+tags: []
+source: https://lineblog.me/masudajunichi/archives/9247442.html
+status: source-extracted
+---
+
+<div class="gf-lineblog-line gf-lineblog-line--center">みんな大好き</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">イベリコ生ハム！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-001" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8379.JPG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">イベント会場で子供たちにも聞いたら</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">みんな大好きだって！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-002" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8342.JPG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">子供のときから生ハムって</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">何だか素敵！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">そして・・・</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">スペインの時間が</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">かなり</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">日本と違ってて驚いた！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">まず</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">朝7時に起きて朝食</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">必ず甘いものを食べるらしい！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">11時ごろ軽く食べる！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ランチは14時から</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">お客さんが来ると2時間はランチ（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-003" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8388.PNG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">どれも美味しいのだけど</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">昼もディナーって感じ！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ワインやビール</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">みんな飲んでました（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">そして</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">18時から</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">軽くツマミを食べて・・</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">21時か22時から</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ディナー！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">お店もこの時間にからオープン（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-004" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8387.PNG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ディナーもランチも必ず生ハム（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">日本では</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">18時からニュースがあったり</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">19時ごろが</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ゴールデンタイムだったりするけど</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">スペインでは</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">21時からニュース</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">22時頃がゴールデンらしい！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">なので</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">サッカーも22時スタート！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-005" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8389.PNG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">メイン食べてデザート食べて</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">夕食終わるのは</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">日にちを超えて0時とか普通みたい（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">食べて30分後には寝るよ！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">って言ってました（笑）</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-9247442-006" alt="_var_mobile_Media_DCIM_128APPLE_IMG_8324.JPG" %}<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">生ハム美味かった！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">おしゃべりして</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">楽しく笑って</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">美味しく食事する</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">何だか</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">素敵な時間の使い方だなぁって</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">思いました！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">チャオ！</div>

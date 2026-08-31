@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">来たよ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3771831-001\" alt=\"\" %}\n\n\n        このホウオウかっこいいよね！\n\n<br>\n\n\nコダックも！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n<br>\n\n\n抽選会場は・・・\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3771831-002\" alt=\"\" %}\n\n京都高島屋さんの屋上！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n今日は暑い！\n\n<br>\n\n\n\n<br>\n\n\n京都は晴れ29度超えるみたい！\n\n<br>\n\n\n\n<br>\n\n\n暑い暑い中\n抽選に集まってくださった皆さん\nありがとうございます！\n\n<br>\n\n\n\n<br>\n\n\nもし外れちゃっても\n午後のサイン会も\n遊びに来てね！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3771831-001",
+        "line-3771831-002"
+      ]
+    }
+  ]
+}

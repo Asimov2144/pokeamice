@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">仕事の</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">打ち合わせは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">会議室ですが・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">外は気持ちよく</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">晴れまくり！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3526852-001\" alt=\"\" %}\n\nサンフランシスコ・ベイブリッジ！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3526852-002\" alt=\"\" %}\n\nベイエリア！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3526852-003\" alt=\"\" %}\n\n路面電車！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3526852-004\" alt=\"\" %}\n\n丸っこくてかわいい路面電車！\n\n<br>\n\n\n色んな車体があって\n面白い！\n\n<br>\n\n\n\n<br>\n\n\n\n                    調べてみたら\n                \nフィラデルフィアやミラノ\nそして日本の車両\n\n<br>\n\n\n<a class=\"gf-lineblog-source-link\" href=\"https://ja.m.wikipedia.org/wiki/阪堺電気軌道151形電車\" target=\"_blank\" rel=\"noopener\">阪神電気軌道モ151形</a>\n\n\n<br>\n\n\nも使われてるらしい！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n151という数字に\nシンパシーを感じる（笑）\n\n<br>\n\n\n滞在中に\n見つけられるかな？151形（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3526852-001",
+        "line-3526852-002",
+        "line-3526852-003",
+        "line-3526852-004"
+      ]
+    }
+  ]
+}

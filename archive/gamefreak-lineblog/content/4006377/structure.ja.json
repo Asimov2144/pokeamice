@@ -1,0 +1,757 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">みなさんに</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">お知らせです！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームフリークは</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">この夏</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">本気（マジ）で</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームクリエイターを</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">目指すみんなに向けて</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">1日限定の</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">体験型プログラムを</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">開催したいと思います！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">題して・・・</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームフリーク ゼミナール</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">～クリエイターになるためのヒント～</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-001\" alt=\"\" %}",
+      "images": [
+        "line-4006377-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "<br>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">SNSやイベントを通じて</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">「ゲーム業界に入るには</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">どうしたらいいのか」</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">「ゲームを作りたいけど</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">何をしたらいいのか」</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">そんな質問を寄せてくれたみんなに</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">向き合いたいと思い</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">このゲームフリークゼミナール</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">（以下GFゼミ）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">の開催を決定しました！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-002\" alt=\"\" %}ポケモンセンターサッポロのサイン会に集まってくれたみんな！",
+      "images": [
+        "line-4006377-002"
+      ]
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">GFゼミでは</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">社内にはどんな仕事があって</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-003\" alt=\"\" %}\n\n\n<br>",
+      "images": [
+        "line-4006377-003"
+      ]
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">それぞれがどういう風に関わりあって</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームを作り上げ</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-004\" alt=\"\" %}",
+      "images": [
+        "line-4006377-004"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "<br>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">どんな人が活躍しているのか</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-005\" alt=\"\" %}",
+      "images": [
+        "line-4006377-005"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "<br>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">はたまたどんな人を採用しているのか！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-006\" alt=\"\" %}",
+      "images": [
+        "line-4006377-006"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "<br>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">といったことを</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">体験型のプログラムを通して</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">伝える予定です！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲーム業界の一端である</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームフリークが</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">こういったことを伝えることで</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">みんなが</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">\"クリエイターになるためのヒント\"</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">を掴んでくれたらって思います！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ゲームフリーク初の試みではありますが</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">みんなの本気に向き合いたいと</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">第一線で活躍するスタッフや</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">4月に入社したスタッフなど</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">多くの仲間も参加します！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">本気（マジ）なみんなのために</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">本気なプログラムを用意して</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">待っているので</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">応募  待っています！</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-4006377-007\" alt=\"\" %}",
+      "images": [
+        "line-4006377-007"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "<br>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">【応募詳細】</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・開催日時       2016年8月9日（火）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">10:15〜19:00</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・対象     ゲーム業界への就職を目指している\n学生の方</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・募集人数          15名</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">※応募者多数の場合は抽選となります</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・報酬など  交通費/報酬の支給は致しません（昼食の支給有）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・開催地      株式会社ゲームフリーク</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">東京都世田谷区太子堂4丁目1番1号 キャロットタワー 22F</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">アクセス</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">→<a class=\"gf-lineblog-source-link\" href=\"http://www.gamefreak.co.jp/company/access.html\" target=\"_blank\" rel=\"noopener\">http://www.gamefreak.co.jp/company/access.html</a></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・応募受付期間</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">2016年6月8日（水）〜6月30日（木）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">・応募方法       下記メールアドレスに必要事項を記載してご応募くだ\nさい</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">（ご質問等もこちらからお願い致します）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">【Mail】</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">gf_seminar@gamefreak.co.jp</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">【必要事項】</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">氏名・年齢・所属（学校名など）</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">住所・携帯番号・メールアドレス</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">このイベントに参加する理由/参加して</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">得たいもの(字数制限なし\n)</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">※特に興味のある職種や仕事内容があれば記載してください</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">【その他】</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">ご参加頂く方には7月8日（金）までに</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "left",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--left\">連絡を差し上げます</div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "p",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">チャオ！</div>",
+      "images": []
+    }
+  ]
+}

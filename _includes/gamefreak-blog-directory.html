@@ -1,8 +1,10 @@
 {% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_lineblog_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
+{% assign gf_masuda_posts = gf_director_posts | concat: gf_lineblog_posts %}
 {% assign gf_legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" %}
 {% assign gf_art_posts = gf_legacy_posts | where: "gf_legacy_blog", "art" %}
 {% assign gf_staff_posts = gf_legacy_posts | where: "gf_legacy_blog", "staff" %}
-{% assign latest_gf_director = gf_director_posts | first %}
+{% assign latest_gf_director = gf_masuda_posts | sort: "date" | last %}
 {% assign latest_gf_art = gf_art_posts | first %}
 {% assign latest_gf_staff = gf_staff_posts | first %}
 {% assign gf_library_id = include.instance | default: "main" %}
@@ -11,7 +13,7 @@
   <header class="gf-home-library__heading">
     <div>
       <p>GAME FREAK OFFICIAL BLOG ARCHIVE</p>
-      <h3 id="gf-home-library-title-{{ gf_library_id }}">Game Freak 三种博客</h3>
+      <h3 id="gf-home-library-title-{{ gf_library_id }}">Game Freak 博客档案</h3>
       <span>按作者与栏目进入，也可以直接检索全部本地文章、原文和译文。</span>
     </div>
     <a href="{{ '/keys/' | relative_url }}">打开完整文档索引 →</a>
@@ -22,10 +24,10 @@
       <a class="gf-home-blog-card__main" href="{{ '/gamefreak-director/' | relative_url }}">
         <span class="gf-home-blog-card__label">DIRECTOR · 增田顺一</span>
         <strong>増田部長のめざめるパワー</strong>
-        <em>{{ gf_director_posts | size }} 篇 · 2004–2015</em>
-        <p>开发见闻、活动记录、音乐与宝可梦话题。</p>
+        <em>{{ gf_masuda_posts | size }} 篇 · 2004–2017</em>
+        <p>部长专栏及其后续 LINE BLOG：开发、活动、音乐与日常。</p>
       </a>
-      {% if latest_gf_director %}<a class="gf-home-blog-card__latest" href="{{ latest_gf_director.url | relative_url }}"><span>末篇</span>{{ latest_gf_director.title }}</a>{% endif %}
+      {% if latest_gf_director %}<a class="gf-home-blog-card__latest" href="{{ latest_gf_director.url | relative_url }}"><span>后续</span>{{ latest_gf_director.title }}</a>{% endif %}
     </article>
 
     <article class="gf-home-blog-card gf-home-blog-card--art">
@@ -50,7 +52,7 @@
   </div>
 
   <form class="gf-home-library__search" action="{{ '/search/' | relative_url }}" method="get" role="search">
-    <label for="gfBlogSearch-{{ gf_library_id }}">在三种博客中查找人物、作品或话题</label>
+      <label for="gfBlogSearch-{{ gf_library_id }}">在 Game Freak 博客档案中查找人物、作品或话题</label>
     <div>
       <input id="gfBlogSearch-{{ gf_library_id }}" type="search" name="q" placeholder="例如：皮卡丘、黑白、角色设计、招聘">
       <input type="hidden" name="type" value="Game Freak 博客">

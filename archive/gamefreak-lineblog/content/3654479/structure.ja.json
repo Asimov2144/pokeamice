@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">仕事柄</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">なかなか行くことは無さそうな</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">千代田区観光協会！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3654479-001\" alt=\"\" %}\n\n\n<br>\n\n\n今日は会長の森川さんから\nお話を伺い\n食事をする会でした！\n\n<br></div>",
+      "images": [
+        "line-3654479-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">協会内からは素晴らしい景色が！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3654479-002\" alt=\"\" %}\n\nクリックで拡大↑\n\n<br>\n\n\n目の前は皇居！\n右には日本武道館！\n\n<br>\n\n\n\n<br>\n\n\nお堀に一番近い場所らしいのだけど・・\n落ちると\n        <br>\n\n\n登れないであろう高さと作り・・・\n\n<br>\n\n\nあまり近づけない（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそこに何とも美しい月が登場！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nせっかくなので\nみんなで記念撮影（笑）\n\n\n\n{% lineblog_image id=\"line-3654479-003\" alt=\"\" %}\n\n\n\nみなさん凄い方ばかり！後ろに大きな月が！\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n皇居という不思議な空間に\n不思議なほど美しい月が現れて\nパワーに満たされました！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3654479-004\" alt=\"\" %}\n\n\n<br>\n\n\n何だかとってもいい時間でしたよ！\n\n<br>\n\n\n\n\n\n{% lineblog_image id=\"line-3654479-005\" alt=\"\" %}\n\n\n<br>\n\n\nみんなで月光浴！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n（オマケ）\nこれ久しぶりに見たよ！\n風流だよね！\n\n<br>\n\n\n蚊取り線香！\n\n\n{% lineblog_image id=\"line-3654479-006\" alt=\"\" %}</div>",
+      "images": [
+        "line-3654479-002",
+        "line-3654479-003",
+        "line-3654479-004",
+        "line-3654479-005",
+        "line-3654479-006"
+      ]
+    }
+  ]
+}

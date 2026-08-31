@@ -8,6 +8,7 @@ it is copied into the public Jekyll post.
 from __future__ import annotations
 
 import argparse
+import html as html_lib
 import json
 import os
 import re
@@ -37,6 +38,36 @@ STUB_RE = re.compile(r"中文翻译待完成|translation_status:\s*missing")
 MARKER_RE = re.compile(r"\{%\s*(?:image\b[^%]*|spacer\s*)%\}")
 URL_RE = re.compile(r"https?://[^)\s]+")
 JAPANESE_KANA_RE = re.compile(r"[ぁ-んァ-ン]")
+
+# These short/common spellings occur both in the Pokémon glossary and in
+# ordinary blog prose, names, dates, places, food, or event titles.  Injecting
+# them into a translation prompt caused contextually unrelated substitutions
+# such as Junichi -> 武德, Jet lag -> 超级战舰 lag, and Sun Moon Lake -> 盐水.
+# Let the translation model handle these ambiguous words from sentence context.
+GLOSSARY_MATCH_EXCLUSIONS = frozenset({
+    "Aaron", "Blue", "Fisherman", "Grant", "Jet", "Junichi", "Lake",
+    "Master", "May", "MT", "Poppy", "Port", "Red", "Silver", "Sol", "TV",
+    "おしゃべり", "さく", "アンコール", "カウンター", "グッズ",
+    "ゴールドラッシュ", "ダッシュ", "テレビ", "パスタ", "プレゼント",
+    "ボタン", "マイスター", "モミジ", "噴水",
+})
+GLOSSARY_MATCH_EXCLUSION_KEYS = frozenset(term.casefold() for term in GLOSSARY_MATCH_EXCLUSIONS)
+GLOSSARY_PRESERVED_SOURCE_FORMS = frozenset({"Pokémon"})
+
+
+def glossary_search_text(source: str) -> str:
+    """Return reader-visible source text for glossary matching.
+
+    Archive markup contains English file paths, CSS classes, URLs and account
+    handles that can collide with unrelated game glossary entries.  Those
+    implementation details are preserved for publishing, but must not be used
+    as translation context.
+    """
+    text = re.sub(r"\{%.*?%\}", " ", source, flags=re.S)
+    text = re.sub(r"<[^>]+>", " ", text, flags=re.S)
+    text = re.sub(r"(!?\[[^\]]*\])\([^\n)]*\)", r"\1", text)
+    text = URL_RE.sub(" ", text)
+    return html_lib.unescape(text)
 
 
 def utc_now() -> str:
@@ -143,6 +174,8 @@ def load_glossary(path: Path) -> list[dict[str, Any]]:
 
 def glossary_matches(source: str, glossary: list[dict[str, Any]]) -> list[dict[str, Any]]:
     """Find glossary terms in source, avoiding short embedded katakana/kanji hits."""
+    searchable_source = glossary_search_text(source)
+
     def kind(char: str) -> str:
         codepoint = ord(char)
         if "\u3040" <= char <= "\u309f":
@@ -151,6 +184,8 @@ def glossary_matches(source: str, glossary: list[dict[str, Any]]) -> list[dict[s
             return "katakana"
         if "\u3400" <= char <= "\u9fff":
             return "kanji"
+        if char in "_-":
+            return "latin-connector"
         if char.isalnum() or codepoint > 0x7f and char.isalpha():
             return "latin"
         return "other"
@@ -160,25 +195,32 @@ def glossary_matches(source: str, glossary: list[dict[str, Any]]) -> list[dict[s
             return []
         term_kinds = {kind(char) for char in term}
         hits = []
-        start = source.find(term)
+        start = searchable_source.find(term)
         while start >= 0:
             end = start + len(term)
-            before = kind(source[start - 1]) if start else "other"
-            after = kind(source[end]) if end < len(source) else "other"
+            before = kind(searchable_source[start - 1]) if start else "other"
+            after = kind(searchable_source[end]) if end < len(searchable_source) else "other"
             embedded = (
                 (term_kinds == {"katakana"} and (before == "katakana" or after == "katakana"))
                 or (term_kinds == {"kanji"} and (before == "kanji" or after == "kanji"))
-                or (term_kinds == {"latin"} and (before == "latin" or after == "latin"))
+                or (term_kinds == {"latin"} and (
+                    before in {"latin", "latin-connector"} or after in {"latin", "latin-connector"}
+                ))
                 or (term_kinds == {"hiragana"} and len(term) < 4 and (before == "hiragana" or after == "hiragana"))
             )
             if not embedded:
                 hits.append(term)
-            start = source.find(term, start + 1)
+            start = searchable_source.find(term, start + 1)
         return hits
 
     all_candidates = []
     for entry in glossary:
-        hits = sorted({term for term in entry["terms"] for _ in standalone_hits(term)}, key=len, reverse=True)
+        hits = sorted({
+            term
+            for term in entry["terms"]
+            if term.casefold() not in GLOSSARY_MATCH_EXCLUSION_KEYS
+            for _ in standalone_hits(term)
+        }, key=len, reverse=True)
         if hits:
             all_candidates.append({**entry, "hits": hits})
     candidate_terms = [term for entry in all_candidates for term in entry["hits"]]
@@ -205,17 +247,30 @@ def glossary_context(matches: list[dict[str, Any]], limit: int = 120) -> str:
 
 
 def glossary_checks(matches: list[dict[str, Any]], translation: str) -> list[dict[str, Any]]:
-    return [
-        {
+    checks = []
+    for entry in matches:
+        target_occurrences = translation.count(entry["target"])
+        preserved_forms = [
+            term for term in entry["hits"]
+            if term in GLOSSARY_PRESERVED_SOURCE_FORMS and term in translation
+        ]
+        status = (
+            "present" if target_occurrences
+            else "source-form-preserved" if preserved_forms
+            else "missing-target"
+        )
+        check = {
             "source_terms": entry["hits"],
             "target": entry["target"],
-            "target_occurrences": translation.count(entry["target"]),
-            "status": "present" if translation.count(entry["target"]) else "missing-target",
+            "target_occurrences": target_occurrences,
+            "status": status,
             "category": entry.get("category", ""),
             "source": entry.get("source", ""),
         }
-        for entry in matches
-    ]
+        if preserved_forms:
+            check["preserved_source_forms"] = preserved_forms
+        checks.append(check)
+    return checks
 
 
 def build_prompt(number: int, source_metadata: dict[str, Any], body: str, glossary: str) -> str:

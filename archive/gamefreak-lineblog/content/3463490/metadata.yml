@@ -1,0 +1,38 @@
+article_id: masuda-line-3463490
+post_id: 3463490
+lang: ja
+date: '2016-05-14'
+title: シャチトレーナー
+categories:
+- ポケモンセンター
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3463490.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3463490.html
+  wayback_url: https://web.archive.org/web/20160518044756id_/https://lineblog.me/masudajunichi/archives/3463490.html
+  raw_page: raw/articles/3463490.html
+assets:
+- id: line-3463490-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/c/0c11c6ce.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/c/0c11c6ce-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3463490/001-67d893a04d.jpg
+  sha256: eb793beac87fb71c09fb93a594e5f529a87a816044e5545f4a137495baefb725
+  width: 1136
+  height: 1090
+  wayback_url: https://web.archive.org/web/20160518044756id_/https://line.blogimg.jp/masudajunichi/imgs/0/c/0c11c6ce.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:36+00:00'

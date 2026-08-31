@@ -1,0 +1,38 @@
+article_id: masuda-line-2943538
+post_id: 2943538
+lang: ja
+date: '2016-04-21'
+title: キラキラな世界！
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2943538.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2943538.html
+  wayback_url: https://web.archive.org/web/20160423214713id_/https://lineblog.me/masudajunichi/archives/2943538.html
+  raw_page: raw/articles/2943538.html
+assets:
+- id: line-2943538-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7fc40d28.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7fc40d28-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2943538/001-d2655b8894.jpg
+  sha256: ed339ab853feeb2c2be0a12aefae6c055af0827aea6519f5a5c11ddc98393f80
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160423214713id_/https://line.blogimg.jp/masudajunichi/imgs/7/f/7fc40d28.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:07+00:00'

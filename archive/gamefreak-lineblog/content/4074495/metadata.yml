@@ -1,0 +1,50 @@
+article_id: masuda-line-4074495
+post_id: 4074495
+lang: ja
+date: '2016-06-12'
+title: 台湾:可達鴨（こだや）
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4074495.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4074495.html
+  wayback_url: https://web.archive.org/web/20160613214218id_/https://lineblog.me/masudajunichi/archives/4074495.html
+  raw_page: raw/articles/4074495.html
+assets:
+- id: line-4074495-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/a/8a729537.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/a/8a729537-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4074495/001-bae2caac54.jpg
+  sha256: bd9f5ae1bac64f77c8a80bb9661909d957aaace9ff97d0f3c8c0730173ecbb4d
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160613214218id_/https://line.blogimg.jp/masudajunichi/imgs/8/a/8a729537.jpg
+  retrieval_method: wayback
+- id: line-4074495-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/2/7/27152d72.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/2/7/27152d72-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4074495/002-048489f444.jpg
+  sha256: 1f7d51e0a83d06964fb16d95d6fa9b427d5ca62782bb8cab831e068c47c81120
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160613214218id_/https://line.blogimg.jp/masudajunichi/imgs/2/7/27152d72.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:22+00:00'

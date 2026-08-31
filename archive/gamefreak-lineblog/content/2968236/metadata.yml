@@ -1,0 +1,50 @@
+article_id: masuda-line-2968236
+post_id: 2968236
+lang: ja
+date: '2016-07-05'
+title: ポケモンX・Yの作り方 第1回
+categories:
+- ものづくり
+- ポケモン
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2968236.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2968236.html
+  wayback_url: https://web.archive.org/web/20160707233420id_/https://lineblog.me/masudajunichi/archives/2968236.html
+  raw_page: raw/articles/2968236.html
+assets:
+- id: line-2968236-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/7/87ab5474.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/7/87ab5474.jpg
+  local_path: archive/gamefreak-lineblog/assets/2968236/001-a040a080bf.jpg
+  sha256: 7efdef9042d8c506abd1e92b14fedc51faee539808e973005e7e62057a28ab81
+  width: 544
+  height: 253
+  wayback_url: https://web.archive.org/web/20160707233420id_/https://line.blogimg.jp/masudajunichi/imgs/8/7/87ab5474.jpg
+  retrieval_method: wayback
+- id: line-2968236-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9af4d2d3.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9af4d2d3-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2968236/002-1f66baa3ff.jpg
+  sha256: afcf7ae3658437cdbc0c86f1eb489ca022efed87be633373eb7dc8df4d7748fe
+  width: 850
+  height: 636
+  wayback_url: https://web.archive.org/web/20160707233420id_/https://line.blogimg.jp/masudajunichi/imgs/9/a/9af4d2d3.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:14+00:00'

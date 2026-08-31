@@ -4,6 +4,8 @@ source_url: "https://www.gamefreak.co.jp/blog/dir/"
 category_url: "https://www.gamefreak.co.jp/blog/dir/category.html"
 archive_url: "https://www.gamefreak.co.jp/blog/dir/archive.html"
 external_links:
+  - label: "LINE Blog Archive"
+    url: "https://web.archive.org/web/20180603171931/https://lineblog.me/masudajunichi/"
   - label: "Twitter"
     url: "https://twitter.com/Junichi_Masuda"
   - label: "GameFreak Site"

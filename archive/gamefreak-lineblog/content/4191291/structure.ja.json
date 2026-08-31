@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4191291-001\" alt=\"\" %}</div>",
+      "images": [
+        "line-4191291-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Microsoft Theaterで本日行われる</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンのクラシックコンサート</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4191291-002\" alt=\"\" %}</div>",
+      "images": [
+        "line-4191291-002"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">会場がデカ過ぎてビビってます（笑）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">リハーサル！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4191291-003\" alt=\"\" %}\n\n\n<br>\n\n\nマスダも\nオーケストラのみなさんに\n自己紹介して\n指揮のリハーサル！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4191291-004\" alt=\"\" %}\n\n\n<br>\n\n\n\nオーケストラのみなさんは\n\nハリウッドを代表する\n\n素晴らしい方々ばかり！\n\n<br>\n\n\nまたもや超緊張！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\nさあ\nこの後\n20時から開演！\n楽しみです！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-4191291-003",
+        "line-4191291-004"
+      ]
+    }
+  ]
+}

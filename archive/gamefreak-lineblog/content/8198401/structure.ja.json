@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">本日  我々 ロケット団</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">入団のため</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-8198401-001\" alt=\"\" %}</div>",
+      "images": [
+        "line-8198401-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\n\n\nこんなにたくさん来てくれたぜ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-8198401-002\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-003\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-004\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-005\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-006\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-007\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-008\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-009\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-010\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-011\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-012\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-013\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-014\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-8198401-015\" alt=\"\" %}\n\n\n<br>\n\n\n新たなロケット団\n425人の素晴らしき仲間たち\n\n<br>\n\n\n\n<br>\n\n\nありがとう\n\n<br>\n\n\n\n<br>\n\n\nロケット団は\n永遠に不滅です\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ\n\n<br>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n本当は・・・\nポケモンセンタースカイツリータウン\nマスダのサイン会に\n来てくださったみなさんです！\nありがとうございます！\n\n<br></div>",
+      "images": [
+        "line-8198401-002",
+        "line-8198401-003",
+        "line-8198401-004",
+        "line-8198401-005",
+        "line-8198401-006",
+        "line-8198401-007",
+        "line-8198401-008",
+        "line-8198401-009",
+        "line-8198401-010",
+        "line-8198401-011",
+        "line-8198401-012",
+        "line-8198401-013",
+        "line-8198401-014",
+        "line-8198401-015"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">来たよ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンセンター サッポロ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3896106-001\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-3896106-002\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-3896106-003\" alt=\"\" %}\n\n\n<br>\n\n\n\n\n\n<br>\n\n\nあのね・・・\n\n<br>\n\n\n\n<br>\n\n\n京都 30度\n東京 25度\nなのに\n札幌 11度！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nあのね・・・\n\n<br>\n\n\n\n<br>\n\n\n寒いよ！！\n\n<br>\n\n\n\n\n\n\nパーカー着たけど寒い！\nコダックでごまかす（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3896106-005\" alt=\"\" %}\n\n\n<br>\n\n\n\n\n\n\n\nポケモンセンター前のナムコさんスペースにピカチュウが！\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n<br>\n\n\n札幌中心部には\n路面電車が走ってた！\n\n\n{% lineblog_image id=\"line-3896106-007\" alt=\"\" %}\n\n\n<br>\n\n\n住所も分かりやすい！</div>",
+      "images": [
+        "line-3896106-001",
+        "line-3896106-002",
+        "line-3896106-003",
+        "line-3896106-005",
+        "line-3896106-007"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3896106-008\" alt=\"\" %}\n\n南3西4！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3896106-009\" alt=\"\" %}\n\n\n<br>\n\n\n北海道のみなさん\n明日の\n<a class=\"gf-lineblog-source-link\" href=\"http://voice.pokemon.co.jp/stv/2016/05/post-1308.html\" target=\"_blank\" rel=\"noopener\">マスダのサイン会</a>\n\n<a class=\"gf-lineblog-source-link\" href=\"http://voice.pokemon.co.jp/stv/2016/05/post-1308.html\" target=\"_blank\" rel=\"noopener\">ぜひ来てね！</a>\n\n\n<br>\n\n\n\n<br>\n\n\nみんなで楽しく\n盛り上がりましょう！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br></div>",
+      "images": [
+        "line-3896106-008",
+        "line-3896106-009"
+      ]
+    }
+  ]
+}

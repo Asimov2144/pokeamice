@@ -1,0 +1,75 @@
+article_id: masuda-line-4191291
+post_id: 4191291
+lang: ja
+date: '2016-06-15'
+title: Pokémon Symphonic Evolution in L.A（Rehearsal）
+categories:
+- ポケモン
+- 音楽
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4191291.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4191291.html
+  wayback_url: https://web.archive.org/web/20160617141444id_/https://lineblog.me/masudajunichi/archives/4191291.html
+  raw_page: raw/articles/4191291.html
+assets:
+- id: line-4191291-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/7/870b264b.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/7/870b264b-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4191291/001-2557c7b89d.jpg
+  sha256: 7965b574bab7c50938c411a08584f9d60833219ca54d0a792d41d61cbdd937dc
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160617141444id_/https://line.blogimg.jp/masudajunichi/imgs/8/7/870b264b.jpg
+  retrieval_method: wayback
+- id: line-4191291-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/7/9720101f.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/7/9720101f-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4191291/002-f6f6a0eb69.jpg
+  sha256: a509d7c1d8f6ff444398817631294c2f682dad42ee44eae6d35ab00fbd2e4050
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160617141444id_/https://line.blogimg.jp/masudajunichi/imgs/9/7/9720101f.jpg
+  retrieval_method: wayback
+- id: line-4191291-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/d/2/d296289b.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/d/2/d296289b-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4191291/003-f761443f13.jpg
+  sha256: b4abb499ca0ba3d39357eb681e5f5c3d582b4d5441595c6a9b56124d6154c796
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160617141444id_/https://line.blogimg.jp/masudajunichi/imgs/d/2/d296289b.jpg
+  retrieval_method: wayback
+- id: line-4191291-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/c/3/c3fd2c93.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/c/3/c3fd2c93-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4191291/004-398a4064dd.jpg
+  sha256: f8cadb1bcf590be0189b76f12ef2cbfde71f5bd5cedd6cf035a3a386f8afb216
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160617141444id_/https://line.blogimg.jp/masudajunichi/imgs/c/3/c3fd2c93.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:26+00:00'

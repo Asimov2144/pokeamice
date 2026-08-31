@@ -1,0 +1,50 @@
+article_id: masuda-line-4779785
+post_id: 4779785
+lang: ja
+date: '2016-07-07'
+title: リハーサル！
+categories:
+- イベント
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4779785.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4779785.html
+  wayback_url: https://web.archive.org/web/20160708230257id_/https://lineblog.me/masudajunichi/archives/4779785.html
+  raw_page: raw/articles/4779785.html
+assets:
+- id: line-4779785-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/1/01937668.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/1/01937668-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4779785/001-136496c528.jpg
+  sha256: d23b5ade48834fbf3cd58d7b247cf632746f72d3fbe8ffda1ffde75978a08c05
+  width: 924
+  height: 345
+  wayback_url: https://web.archive.org/web/20160708230257id_/https://line.blogimg.jp/masudajunichi/imgs/0/1/01937668.jpg
+  retrieval_method: wayback
+- id: line-4779785-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/b/3b055e42.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/b/3b055e42-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4779785/002-c43c46bcb8.jpg
+  sha256: a3273ba85e49ba54e42b0374911e4dfea1f68f36ec38833ce0dbd760fd0fc486
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160708230257id_/https://line.blogimg.jp/masudajunichi/imgs/3/b/3b055e42.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:49+00:00'

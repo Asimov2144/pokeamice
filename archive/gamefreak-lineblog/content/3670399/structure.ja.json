@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今日は会食で</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">美味しいお肉！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">博多中洲が本店のお店 @ 東京！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3670399-001\" alt=\"\" %}\n\n\n<br>\n\n\n凄くない？！\nお肉のケーキみたい！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3670399-002\" alt=\"\" %}\n\n\n\n<br>\n\n\n左は美味しい豚肉！\n右は美味しい牛肉！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n肉を真ん中の\nテールスープに落として\n煮込んで食べるのです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n肉と野菜の美味しいコラボ！\n\n<br>\n\n\n何だかとってもいい感じ！\n\n        最高！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n※肉以外は暗くしてみました（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3670399-001",
+        "line-3670399-002"
+      ]
+    }
+  ]
+}

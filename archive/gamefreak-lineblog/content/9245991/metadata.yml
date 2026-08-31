@@ -1,0 +1,55 @@
+article_id: masuda-line-9245991
+post_id: 9245991
+lang: ja
+date: '2016-11-30'
+title: '175'
+categories: []
+tags:
+- ポケモン
+- ポケモンサンムーン
+- ポケットモンスターサンムーン
+- サントラ
+- CD
+- 発売日
+source: https://lineblog.me/masudajunichi/archives/9245991.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9245991.html
+  wayback_url: https://web.archive.org/web/20200804235920id_/https://lineblog.me/masudajunichi/archives/9245991.html
+  raw_page: raw/articles/9245991.html
+assets:
+- id: line-9245991-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e62df09e84d280e363e604a2d6671773d3c26367e1171160e193545615c6f4b3d6a6f5c607378566b4b6b54405e323049523a260f566a517121326265777f1d2d636b797d147e01363e3a231e366f383469666428122e5977
+  display_url: https://obs.line-scdn.net/0m0e62df09e84d280e363e604a2d6671773d3c26367e1171160e193545615c6f4b3d6a6f5c607378566b4b6b54405e323049523a260f566a517121326265777f1d2d636b797d147e01363e3a231e366f383469666428122e5977/small
+  local_path: archive/gamefreak-lineblog/assets/9245991/001-60b757621a.jpg
+  sha256: 2e89fe824855322a562bb706fc13b974acaeca7246e9330d04826d5c1dac04da
+  width: 752
+  height: 1003
+  wayback_url: https://web.archive.org/web/20200804235920id_/https://obs.line-scdn.net/0m0e62df09e84d280e363e604a2d6671773d3c26367e1171160e193545615c6f4b3d6a6f5c607378566b4b6b54405e323049523a260f566a517121326265777f1d2d636b797d147e01363e3a231e366f383469666428122e5977
+  retrieval_method: wayback
+- id: line-9245991-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e62e0aee84d280e363e604a2d6671773d3c26367e1171160e1a395c4c5c665561685361694e5048795c6f7445576a275e2347653f1b1f563721326265777f1d2d676d717d147e01336b68751d67323d3469666428122f0873
+  display_url: https://obs.line-scdn.net/0m0e62e0aee84d280e363e604a2d6671773d3c26367e1171160e1a395c4c5c665561685361694e5048795c6f7445576a275e2347653f1b1f563721326265777f1d2d676d717d147e01336b68751d67323d3469666428122f0873/small
+  local_path: archive/gamefreak-lineblog/assets/9245991/002-7a105c71be.png
+  sha256: cbb461f82495578b0cdc09bb24bacf8c2aaf8f3ada841f0216519896019f4830
+  width: 1536
+  height: 1536
+  wayback_url: https://web.archive.org/web/20200804235920id_/https://obs.line-scdn.net/0m0e62e0aee84d280e363e604a2d6671773d3c26367e1171160e1a395c4c5c665561685361694e5048795c6f7445576a275e2347653f1b1f563721326265777f1d2d676d717d147e01336b68751d67323d3469666428122f0873
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:14+00:00'

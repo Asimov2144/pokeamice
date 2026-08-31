@@ -1,0 +1,98 @@
+article_id: masuda-line-3167791
+post_id: 3167791
+lang: ja
+date: '2016-05-02'
+title: キミは？
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3167791.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3167791.html
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://lineblog.me/masudajunichi/archives/3167791.html
+  raw_page: raw/articles/3167791.html
+assets:
+- id: line-3167791-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/b/8bbcd942.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/b/8bbcd942-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/001-8946746828.jpg
+  sha256: 4400d43e83eda646665d256d8c95d5486dbedb212df7168ccb4ef7cb4a016ac4
+  width: 1136
+  height: 696
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/8/b/8bbcd942.jpg
+  retrieval_method: wayback
+- id: line-3167791-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/0/7024a32e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/0/7024a32e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/002-f764574049.jpg
+  sha256: 550e4f39d416e1f524118b7473d12f3025a940e597fa1455d836ae86701ef1b5
+  width: 506
+  height: 758
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/7/0/7024a32e.jpg
+  retrieval_method: wayback
+- id: line-3167791-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/b/3/b313afbe.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/b/3/b313afbe-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/003-87d9d714b2.jpg
+  sha256: 46a035efce35eb27c3af5ed419f83f698404a132ad690906b7ae6621112dd3a8
+  width: 636
+  height: 850
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/b/3/b313afbe.jpg
+  retrieval_method: wayback
+- id: line-3167791-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/e/d/eda12259.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/e/d/eda12259-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/004-3d68ce613f.jpg
+  sha256: 31c68fff9a97d67d77fc47cf26bf945b45d348f39998dad32f1a2d9bc88d8c9e
+  width: 941
+  height: 1034
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/e/d/eda12259.jpg
+  retrieval_method: wayback
+- id: line-3167791-005
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/2/1/214b23b3.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/2/1/214b23b3-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/005-cc2a74342a.jpg
+  sha256: 79b4297a9bdc1cb3b3dfdbfea1b893b16ab428454dd626f792a8dcf11bcda953
+  width: 1136
+  height: 1130
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/2/1/214b23b3.jpg
+  retrieval_method: wayback
+- id: line-3167791-006
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/b/2/b208ad45.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/b/2/b208ad45-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3167791/006-256ba833e9.jpg
+  sha256: 367ed54b0c4e25f94001103e68db1fee840d596b897680a2b7413f868335096c
+  width: 500
+  height: 754
+  wayback_url: https://web.archive.org/web/20160504022204id_/https://line.blogimg.jp/masudajunichi/imgs/b/2/b208ad45.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:20+00:00'

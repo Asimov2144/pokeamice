@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">日曜日の午後</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">効果音作りに飽きてきたので</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">いまさらながら・・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3622521-001\" alt=\"\" %}\n\n\n<br>\n\n\nやってみた！\n\n<br>\n\n\nけど・・・\n比較的どれも違和感ない（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nこのアプリ\nリアルタイム変化が出来るのと\n合成の仕方が絶妙で\n素晴らしいです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n        そして！\n    \n特に違和感ないようにするためとは言え\nこのポイント量の多さには驚いた！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3622521-002\" alt=\"\" %}\n\n設定するのは大変（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n開発での\nデータ作成と同じで\nクオリティを高めようとすると\n莫大なデータ量になったり\n丁寧な作業が必要になります！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3622521-003\" alt=\"\" %}\n\n\n\n            一応・・・丁寧に設定（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n結果！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n            マスダとキキは・・・\n\n\n{% lineblog_image id=\"line-3622521-004\" alt=\"\" %}\n\nあららら・・・残念な結果・・・\nタイガーマスク的な（笑）\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n<br>\n\n\n最後に・・・\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3622521-005\" alt=\"\" %}\n\n\nどれが本物か分からなくなるので\nオリジナルを貼っておきます（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n（オマケ）\n知っている人は多いと思うけど\nこのアプリ\n\"Face swap live\"\nというもの！\n\n<br>\n\n\n「ライブ顔交換」で検索すると\nいろいろ出てくるのでお試しあれ！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3622521-006\" alt=\"\" %}\n\n\n<br>\n\n\n\n宣伝ではありません！（笑）</div>",
+      "images": [
+        "line-3622521-001",
+        "line-3622521-002",
+        "line-3622521-003",
+        "line-3622521-004",
+        "line-3622521-005",
+        "line-3622521-006"
+      ]
+    }
+  ]
+}

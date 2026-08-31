@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケモンセンタートウホクの</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">サイン会</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">まずは</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">控室へ</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3475645-001\" alt=\"\" %}\n\n\n<br>\n\n\n何ということでしょう！\n\n<br>\n\n\n\n<br>\n\n\nエライコッチャ（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3475645-002\" alt=\"\" %}\n\n\n<br>\n\n\nこのパネルだけでも\n凄いのに！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3475645-003\" alt=\"\" %} \n\n<br>\n\n\nポケモンセンタートウホクの3匹\nビクティニ\nピカチュウ\nハリマロン\nを\nかぶったコダック（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n\n{% lineblog_image id=\"line-3475645-004\" alt=\"\" %}\n\n\n<br>\n\n\n筆記用具まで！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n何というクリエイティブな！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nと思っていたら・・・\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3475645-005\" alt=\"\" %}\n\n\n<br>\n\n\nこの水！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nヤバイ・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nこだわりが・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nヤバイ・・・\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3475645-006\" alt=\"\" %}\n\n\n<br>\n\n\nよーく見ると\n至る所に！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n凄すぎです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nポケモンセンタートウホクの\nスタッフのみなさん\n本当にありがとうございました！\n\n<br>\n\n\n素晴らしいクリエイティブに\n感動しました！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-3475645-007\" alt=\"\" %}\n\nありがとう！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3475645-001",
+        "line-3475645-002",
+        "line-3475645-003",
+        "line-3475645-004",
+        "line-3475645-005",
+        "line-3475645-006",
+        "line-3475645-007"
+      ]
+    }
+  ]
+}

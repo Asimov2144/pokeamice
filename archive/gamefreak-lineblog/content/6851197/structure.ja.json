@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">昨夜</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ポケットモンスター サン・ムーンの</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">最新情報が公開されました！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">発売予定の</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">11月18日が</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">近付いて来ただけに</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">発表内容も濃くなってきて</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">なんか</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">発表されるたびに<br>\nドキドキします（笑）<br>\n<br>\n<br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "{% lineblog_image id=\"line-6851197-001\" alt=\"\" %}",
+      "images": [
+        "line-6851197-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": null,
+      "markdown": "6月のE3の時はサン・ムーンの違いも話していませんでした！",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今回は</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">大森ディレクターが</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">タイトルの由来と<br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">１２時間の時差\n    <br>\n表現のこだわりについて\n    <br>\n熱く語っています<br>\n<br>\n<br>\nこちらから！<br>\n↓\n<br>\nファミ通さん</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><a class=\"gf-lineblog-source-link\" href=\"http://www.famitsu.com/news/201609/06115016.html\" target=\"_blank\" rel=\"noopener\">http://www.famitsu.com/news/201609/06115016.html</a></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\nGamerさん</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><a class=\"gf-lineblog-source-link\" href=\"http://www.gamer.ne.jp/news/201609060077/\" target=\"_blank\" rel=\"noopener\">http://www.gamer.ne.jp/news/201609060077/</a></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br>\nINSIDEさん</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><a class=\"gf-lineblog-source-link\" href=\"http://www.inside-games.jp/article/2016/09/06/101632.html\" target=\"_blank\" rel=\"noopener\">http://www.inside-games.jp/article/2016/09/06/101632.html</a>\n<br>\n\n<br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">良いですよね！\n    <br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">そして！<br>\n<br>\n<br>\n<br>\nマスダも大好きな</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">特別映像「ジブンを越えよう」\n\n第二弾！\n\n\n\n{% lineblog_image id=\"line-6851197-002\" alt=\"\" %}\n\n友達って良いねと改めて感じます！\n\n\n<br>\n\n\nこちらから！\n\n↓\n\n\n<a class=\"gf-lineblog-source-link\" href=\"https://www.youtube.com/watch?v=9VgXtwxIW-Q\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=9VgXtwxIW-Q<br></a><br>\n<br>\n<br>\n<br>\nそしてさらに\n\nゲーム紹介映像も！<br>\n<br>\n今回はウルトラビースト<br>\n新ポケモン「タイプ：ヌル」<br>\nアローラフォルムのラッタなどなど<br>\nぞくぞく登場！ \n\n\n\n<br>\n\n\nこちらから！\n\n\n↓\n\n\n<a class=\"gf-lineblog-source-link\" href=\"https://www.youtube.com/watch?v=YR1ssSZfoGY\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=YR1ssSZfoGY</a>\n\n<br></div>",
+      "images": [
+        "line-6851197-002"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6851197-003\" alt=\"\" %}</div>",
+      "images": [
+        "line-6851197-003"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">X・Yのとき全世界同時発売のため\n    <br>\nローカライズのしやすさを考えて\n    <br>\n日本語を６文字にしたのですが\n    <br>\n\n<br>\nまさか\n    <br>\n「タイプ：ヌル」という名前を</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">つけるとは\n    <br>\n思ってもいませんでした！\n    <br>\n\n<br>\n聞いた時\n    <br>\n「素晴らしい！クリエイティブ！」\n    <br>\nと叫びました（笑）\n    <br>\n\n<br>\n\n<br>\n\n<br>\nそしてX・Yの二人も登場！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-6851197-004\" alt=\"\" %}\n\nデクシオのTシャツ欲しい！！（笑）\n\n<br>\n\n<br></div>",
+      "images": [
+        "line-6851197-004"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今後の新情報もお楽しみに！\n    <br>\n\n<br>\n\n<br>\n\n<br>\nチャオ！\n    <br></div>",
+      "images": []
+    }
+  ]
+}

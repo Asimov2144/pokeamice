@@ -1,0 +1,39 @@
+article_id: masuda-line-2964283
+post_id: 2964283
+lang: ja
+date: '2016-04-25'
+title: クリエイター必読書
+categories:
+- ものづくり
+- 本
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2964283.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2964283.html
+  wayback_url: https://web.archive.org/web/20160502062509id_/https://lineblog.me/masudajunichi/archives/2964283.html
+  raw_page: raw/articles/2964283.html
+assets:
+- id: line-2964283-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/a/8a947266.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/a/8a947266-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2964283/001-2c5efcdf3a.jpg
+  sha256: 2cfd296f8b286ac0aaf2a22c30374c473369f7fab682d01a0b0e7fce00e80164
+  width: 530
+  height: 776
+  wayback_url: https://web.archive.org/web/20160502062509id_/https://line.blogimg.jp/masudajunichi/imgs/8/a/8a947266.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:13+00:00'

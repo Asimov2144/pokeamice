@@ -1,0 +1,38 @@
+article_id: masuda-line-3340075
+post_id: 3340075
+lang: ja
+date: '2016-05-08'
+title: Happy Mother's Day!
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3340075.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3340075.html
+  wayback_url: https://web.archive.org/web/20160510130629id_/https://lineblog.me/masudajunichi/archives/3340075.html
+  raw_page: raw/articles/3340075.html
+assets:
+- id: line-3340075-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/3/f3bc3afe.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/3/f3bc3afe-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3340075/001-a8472518ed.jpg
+  sha256: ccdbf79c1bb90a1cfdbc9076501749f0d692241e172017612821f8b75fe5bfbb
+  width: 621
+  height: 840
+  wayback_url: https://web.archive.org/web/20160510130629id_/https://line.blogimg.jp/masudajunichi/imgs/f/3/f3bc3afe.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:26+00:00'

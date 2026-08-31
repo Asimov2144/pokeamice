@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今回のフランス</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">これまた初めてのことばかり</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4849768-001\" alt=\"\" %}\n\n気持ちの良いホテルの屋上での打ち合わせは初（笑）\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-002\" alt=\"\" %}\n\nこの場所での撮影は初！\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-003\" alt=\"\" %}\n\nPokémon GO エッフェル塔でヤドン捕まえたのも初！\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-004\" alt=\"\" %}\n\n初！小さなお城でディナー！\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-005\" alt=\"\" %}\n\n初！Japan Expo! で登壇！\n\n<br>\n\n\n\n\n\n{% lineblog_image id=\"line-4849768-006\" alt=\"\" %}初！Japan Expo 見学！\n\n\n<br>\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-007\" alt=\"\" %}\n\n初めて行ったお店でFruits de mer !\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-008\" alt=\"\" %}\n\nそしてEURO2016 準決勝の勝利に沸く人たち！\n\n爆竹と車のクラクション鳴らしまくりはうるさかったけど（笑）\n\nサッカーでこんなに盛り上がるフランス人を見たのは初！\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4849768-009\" alt=\"\" %}\n\n螺旋階段を登りまくると・・\n\n\n{% lineblog_image id=\"line-4849768-010\" alt=\"\" %}\n\n凱旋門に登ったのは初！\n\n\n<br>\n\n\n\n\n<br>\n↑クリックで動画へ！\n\n\n<br>\n\n\n\n<br>\n\n\nたくさんの\n初めてに\n出会って\n良い時間を過ごしました！\n\n<br>\n\n\n\n<br>\n\n\nみなさんも\n「初！」\n探してみて下さい！\n\n<br>\n\n\n\n<br>\n\n\n実は意外と多いことに\n気付きます！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-4849768-001",
+        "line-4849768-002",
+        "line-4849768-003",
+        "line-4849768-004",
+        "line-4849768-005",
+        "line-4849768-006",
+        "line-4849768-007",
+        "line-4849768-008",
+        "line-4849768-009",
+        "line-4849768-010"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+article_id: masuda-line-4511791
+post_id: 4511791
+lang: ja
+date: '2016-06-27'
+title: ものの理由
+categories:
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4511791.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4511791.html
+  wayback_url: https://web.archive.org/web/20160630110417id_/https://lineblog.me/masudajunichi/archives/4511791.html
+  raw_page: raw/articles/4511791.html
+assets:
+- id: line-4511791-001
+  roles:
+  - article-image
+  original_url: http://parts.blog.livedoor.jp/img/emoji/3/ic_bus.png
+  display_url: http://parts.blog.livedoor.jp/img/emoji/3/ic_bus.png
+  local_path: archive/gamefreak-lineblog/assets/4511791/001-7f9e6799bc.png
+  sha256: 75febba137f672f1615a2e28a44e684745c17f615a801a4d4fa9f7b393dcc0c2
+  width: 15
+  height: 15
+  wayback_url: https://web.archive.org/web/20160630110417id_/http://parts.blog.livedoor.jp/img/emoji/3/ic_bus.png
+  retrieval_method: live-source
+- id: line-4511791-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/b/5/b51a1f29.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/b/5/b51a1f29-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4511791/002-e3c5ce73af.jpg
+  sha256: b4fb129b1c88ff2b861999ba4e66d7de12993916f12ca5da02078f485fe0c778
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160630110417id_/https://line.blogimg.jp/masudajunichi/imgs/b/5/b51a1f29.jpg
+  retrieval_method: wayback
+- id: line-4511791-003
+  roles:
+  - article-image
+  original_url: http://parts.blog.livedoor.jp/img/emoji/3/ic_cat02.png
+  display_url: http://parts.blog.livedoor.jp/img/emoji/3/ic_cat02.png
+  local_path: archive/gamefreak-lineblog/assets/4511791/003-32cd74b08b.png
+  sha256: bfa42274c22897e5aff74e1b0854c4a68b4be6319497499545c5dda6ae23004b
+  width: 15
+  height: 15
+  wayback_url: https://web.archive.org/web/20160630110417id_/http://parts.blog.livedoor.jp/img/emoji/3/ic_cat02.png
+  retrieval_method: live-source
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:42+00:00'

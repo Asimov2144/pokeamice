@@ -1,0 +1,62 @@
+article_id: masuda-line-3017733
+post_id: 3017733
+lang: ja
+date: '2016-04-26'
+title: ゲームフリーク
+categories:
+- 記念日
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3017733.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3017733.html
+  wayback_url: https://web.archive.org/web/20160429113004id_/https://lineblog.me/masudajunichi/archives/3017733.html
+  raw_page: raw/articles/3017733.html
+assets:
+- id: line-3017733-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/a/9/a96c6fa8.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/a/9/a96c6fa8-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3017733/001-ace8c48adc.jpg
+  sha256: eb2495086f9048e16e9f10024c6c3f0e1caef5aacf2651814f133e4f5e455eca
+  width: 1136
+  height: 848
+  wayback_url: https://web.archive.org/web/20160429113004id_/https://line.blogimg.jp/masudajunichi/imgs/a/9/a96c6fa8.jpg
+  retrieval_method: wayback
+- id: line-3017733-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/d/0d29f930.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/d/0d29f930-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3017733/002-b1fc4c1cd1.jpg
+  sha256: 943ce17adb60463edd90f9f44da0f00735930f3e01d71920060390e76390fdf2
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160429113004id_/https://line.blogimg.jp/masudajunichi/imgs/0/d/0d29f930.jpg
+  retrieval_method: wayback
+- id: line-3017733-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/1/4/14c9eafe.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/1/4/14c9eafe-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3017733/003-2c84b09b1c.jpg
+  sha256: c8aa4ae98776ed07b17f5dec416734bcbe0a06f430501614a23c8cbe38aeae53
+  width: 642
+  height: 854
+  wayback_url: https://web.archive.org/web/20160429113004id_/https://line.blogimg.jp/masudajunichi/imgs/1/4/14c9eafe.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:15+00:00'

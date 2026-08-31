@@ -1,0 +1,38 @@
+article_id: masuda-line-8169063
+post_id: 8169063
+lang: ja
+date: '2016-10-15'
+title: 明日のために！
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/8169063.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/8169063.html
+  wayback_url: https://web.archive.org/web/20161024012110id_/https://lineblog.me/masudajunichi/archives/8169063.html
+  raw_page: raw/articles/8169063.html
+assets:
+- id: line-8169063-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/5/353bc29f.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/5/353bc29f-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/8169063/001-0aab56f227.jpg
+  sha256: 49858b819310b237892d9657db9ac34ba28948e16b53298c81c5785537b2b1d7
+  width: 962
+  height: 1280
+  wayback_url: https://web.archive.org/web/20161024012110id_/https://line.blogimg.jp/masudajunichi/imgs/3/5/353bc29f.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:07+00:00'

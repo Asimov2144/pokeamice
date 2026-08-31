@@ -1,0 +1,49 @@
+article_id: masuda-line-4575117
+post_id: 4575117
+lang: ja
+date: '2016-06-29'
+title: ボルケニオンとマギアナ
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4575117.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4575117.html
+  wayback_url: https://web.archive.org/web/20160702023619id_/https://lineblog.me/masudajunichi/archives/4575117.html
+  raw_page: raw/articles/4575117.html
+assets:
+- id: line-4575117-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/b/3/b380ae7a.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/b/3/b380ae7a.jpg
+  local_path: archive/gamefreak-lineblog/assets/4575117/001-af1a14621c.jpg
+  sha256: 0e0d22fdc606e2604996a0a89ae140bca70b4f3c6cf76f6812ea56db4138cd85
+  width: 459
+  height: 640
+  wayback_url: https://web.archive.org/web/20160702023619id_/https://line.blogimg.jp/masudajunichi/imgs/b/3/b380ae7a.jpg
+  retrieval_method: wayback
+- id: line-4575117-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/2/f2ad977e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/2/f2ad977e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4575117/002-43c40f92a6.jpg
+  sha256: 272ab4b475e29eeefc5f9a2cb8661ac565143975a12815f6e7a086cc10479596
+  width: 519
+  height: 751
+  wayback_url: https://web.archive.org/web/20160702023619id_/https://line.blogimg.jp/masudajunichi/imgs/f/2/f2ad977e.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:43+00:00'

@@ -1,4 +1,5 @@
 {% assign gf = site.data.gamefreak_director %}
+{% assign gf_line = site.data.gamefreak_lineblog %}
 
 <aside class="gf-director-sidebar" aria-label="增田顺一作者信息">
   <section class="gf-director-profile" id="archive-about">
@@ -22,6 +23,21 @@
       {% for item in gf.author.profile %}<li>{{ item }}</li>{% endfor %}
     </ul>
   </section>
+
+  <nav class="gf-director-series" aria-label="增田顺一博客时期">
+    <p>Blog timeline</p>
+    <a href="{{ '/gamefreak-director/' | relative_url }}#entries"><span>2004—2015</span><strong>部长专栏</strong></a>
+    <a href="{{ '/gamefreak-director/' | relative_url }}#lineblog"><span>2016—2017</span><strong>LINE BLOG</strong></a>
+  </nav>
+
+  {% if page.gf_series == "lineblog" %}
+    <section class="gf-director-line-profile">
+      <header><h2>LINE BLOG profile</h2><span></span></header>
+      <strong>{{ gf_line.author.name }}</strong>
+      <small>{{ gf_line.author.name_en }} · {{ gf_line.author.job }}</small>
+      {% for line in gf_line.description %}<p>{{ line }}</p>{% endfor %}
+    </section>
+  {% endif %}
 
   <a
     class="gf-director-sidebar__recruit"

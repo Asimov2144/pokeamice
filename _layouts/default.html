@@ -9,7 +9,11 @@
     {% include head/custom.html %}
   </head>
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+  {% assign archive_reproduction_theme_locked = false %}
+  {% if page.layout == "gamefreak-director" or page.layout == "gamefreak-legacy-blog" %}
+    {% assign archive_reproduction_theme_locked = true %}
+  {% endif %}
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}{% if archive_reproduction_theme_locked %} archive-reproduction-theme{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
@@ -35,4 +39,3 @@
   </body>
   
 </html>
-

@@ -1,0 +1,37 @@
+article_id: masuda-line-4948340
+post_id: 4948340
+lang: ja
+date: '2016-07-13'
+title: Pokémon GOについて
+categories:
+- ポケモン
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4948340.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4948340.html
+  wayback_url: https://web.archive.org/web/20160716011018id_/https://lineblog.me/masudajunichi/archives/4948340.html
+  raw_page: raw/articles/4948340.html
+assets:
+- id: line-4948340-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/2/7/2722181c.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/2/7/2722181c.jpg
+  local_path: archive/gamefreak-lineblog/assets/4948340/001-d55de1887e.jpg
+  sha256: 22d2710d0d7586aa4515ad69f90234d1fadd08293697d9e76d3b4a17970b9420
+  width: 358
+  height: 638
+  wayback_url: https://web.archive.org/web/20160716011018id_/https://line.blogimg.jp/masudajunichi/imgs/2/7/2722181c.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:54+00:00'

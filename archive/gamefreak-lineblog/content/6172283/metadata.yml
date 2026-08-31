@@ -1,0 +1,99 @@
+article_id: masuda-line-6172283
+post_id: 6172283
+lang: ja
+date: '2016-08-20'
+title: Pokémon World Championships 2016
+categories:
+- ポケモン
+- イベント
+tags: []
+source: https://lineblog.me/masudajunichi/archives/6172283.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/6172283.html
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://lineblog.me/masudajunichi/archives/6172283.html
+  raw_page: raw/articles/6172283.html
+assets:
+- id: line-6172283-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/2/e/2ead4227.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/2/e/2ead4227-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/001-795ddb0c16.jpg
+  sha256: 3751ab5189ba9737bb3d2a3fe6f7ee3b3ac7e6a367b7e0cac533773f3c338aa5
+  width: 621
+  height: 669
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/2/e/2ead4227.jpg
+  retrieval_method: wayback
+- id: line-6172283-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/9/097137a2.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/9/097137a2-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/002-e11a4aa852.jpg
+  sha256: dcf0cfd28281e5d4af8b5340922b432f2e12af728f8418f6fc603ad03accdbf0
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/0/9/097137a2.jpg
+  retrieval_method: wayback
+- id: line-6172283-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/b/4b5dccf1.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/b/4b5dccf1-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/003-3cf9ade7d8.jpg
+  sha256: 39d3c5a957eda62a8640f851614487a493d02b0cf221cd139fd9fb397fec32a6
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/4/b/4b5dccf1.jpg
+  retrieval_method: wayback
+- id: line-6172283-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/e/5/e506b458.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/e/5/e506b458-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/004-62755cbf1b.jpg
+  sha256: 099b2f01b085d72332faf8133df0438b141a6d94fac45eae7a8c427aab1a6b1d
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/e/5/e506b458.jpg
+  retrieval_method: wayback
+- id: line-6172283-005
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/8/2/82d7c525.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/8/2/82d7c525-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/005-028dfe2737.jpg
+  sha256: 112db5adfe147ca809551af4681765fb8d1001bccca519150965e188e6c533ca
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/8/2/82d7c525.jpg
+  retrieval_method: wayback
+- id: line-6172283-006
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/e/9/e9603864.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/e/9/e9603864-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6172283/006-0fdb4bfb1f.jpg
+  sha256: c977c51096ab30d871eb9e2dcd9f2af65705ab2ec2120ba150c6430d782aaf22
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162835id_/https://line.blogimg.jp/masudajunichi/imgs/e/9/e9603864.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:01+00:00'

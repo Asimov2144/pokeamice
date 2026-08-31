@@ -1,0 +1,38 @@
+article_id: masuda-line-4718539
+post_id: 4718539
+lang: ja
+date: '2016-07-05'
+title: 緊張！
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4718539.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4718539.html
+  wayback_url: https://web.archive.org/web/20160708024556id_/https://lineblog.me/masudajunichi/archives/4718539.html
+  raw_page: raw/articles/4718539.html
+assets:
+- id: line-4718539-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/8/782fac5e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/8/782fac5e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4718539/001-08e7e79fd1.jpg
+  sha256: ba54f8526e77e36121b0dda2f15819bf1df46b2a924ea1fabb62baa2afd12aa6
+  width: 593
+  height: 818
+  wayback_url: https://web.archive.org/web/20160708024556id_/https://line.blogimg.jp/masudajunichi/imgs/7/8/782fac5e.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:48+00:00'

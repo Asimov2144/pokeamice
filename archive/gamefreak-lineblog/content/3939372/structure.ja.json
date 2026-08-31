@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">なんと！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">スタッフさんが</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">千歳空港に行くとの情報を掴んで</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">待っててくださいました！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3939372-001\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\nこんな可愛いウェルカム色紙も！\n\n\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして\n\n\n{% lineblog_image id=\"line-3939372-003\" alt=\"\" %}\n\nCTSピカチュウの場所に\nコダック大量発生（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\nこのサプライズにはビックリ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nポケモンストアのお姉さんたち\n色紙とコダック\nありがとうございました！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n嬉しくて記念に・・・\n\n\n{% lineblog_image id=\"line-3939372-004\" alt=\"\" %}\n\nサインしたよ！\nどこにあるか探してね（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n\n<br>\n\n\n北海道の新千歳空港に\n行った際には\n\n\n{% lineblog_image id=\"line-3939372-005\" alt=\"\" %}\n\n\nぜひ\nポケモンストア新千歳空港店に\nお立ち寄りくださいね！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n<br></div>",
+      "images": [
+        "line-3939372-001",
+        "line-3939372-003",
+        "line-3939372-004",
+        "line-3939372-005"
+      ]
+    }
+  ]
+}

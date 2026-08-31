@@ -1,0 +1,66 @@
+article_id: masuda-line-9241915
+post_id: 9241915
+lang: ja
+date: '2016-11-15'
+title: SOL
+categories: []
+tags:
+- SOL
+- pokemon
+- ポケモン
+- ラジオ
+- SCHOOLOFLOCK
+source: https://lineblog.me/masudajunichi/archives/9241915.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9241915.html
+  wayback_url: https://web.archive.org/web/20161119030124id_/https://lineblog.me/masudajunichi/archives/9241915.html
+  raw_page: raw/articles/9241915.html
+assets:
+- id: line-9241915-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e768cade849241c243f2c4d397b6d70343f7e692345204e1a7234312d2f3e30683a673263323906356b37363d2d3d656122
+  display_url: https://obs.line-scdn.net/0m0e768cade849241c243f2c4d397b6d70343f7e692345204e1a7234312d2f3e30683a673263323906356b37363d2d3d656122/small
+  local_path: archive/gamefreak-lineblog/assets/9241915/001-f6fd671d93.jpg
+  sha256: a51d4892cd56dcbbe8dff259b58f61a27cdf805a43d2c94eafb2ae4834765886
+  width: 529
+  height: 549
+  wayback_url: https://web.archive.org/web/20161119030124id_/https://obs.line-scdn.net/0m0e768cade849241c243f2c4d397b6d70343f7e692345204e1a7234312d2f3e30683a673263323906356b37363d2d3d656122
+  retrieval_method: wayback
+- id: line-9241915-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e768e31e849241c243f2c4d397b6d70343f7e692345204d137b3e3f2c2f3e30686636323f31685c6b6b37363d2d3d633170
+  display_url: https://obs.line-scdn.net/0m0e768e31e849241c243f2c4d397b6d70343f7e692345204d137b3e3f2c2f3e30686636323f31685c6b6b37363d2d3d633170/small
+  local_path: archive/gamefreak-lineblog/assets/9241915/002-e5d15bcd02.jpg
+  sha256: e7bf6d99c3ef9fdbf0219f28309b7c4a0e97499ad1dd762da5bc0ee8837902be
+  width: 1536
+  height: 2048
+  wayback_url: https://web.archive.org/web/20161119030124id_/https://obs.line-scdn.net/0m0e768e31e849241c243f2c4d397b6d70343f7e692345204d137b3e3f2c2f3e30686636323f31685c6b6b37363d2d3d633170
+  retrieval_method: wayback
+- id: line-9241915-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e768d97e849241c243f2c4d397b6d70343f7e692345204d137b3f392a2f3e30686064676631685b3e6b37363d2d3d626672
+  display_url: https://obs.line-scdn.net/0m0e768d97e849241c243f2c4d397b6d70343f7e692345204d137b3f392a2f3e30686064676631685b3e6b37363d2d3d626672/small
+  local_path: archive/gamefreak-lineblog/assets/9241915/003-bd2f878978.jpg
+  sha256: 367e2c7936c492f7628e983659d14d091329a04a45b3803a0a6d3b797a5752c1
+  width: 960
+  height: 1706
+  wayback_url: https://web.archive.org/web/20161119030124id_/https://obs.line-scdn.net/0m0e768d97e849241c243f2c4d397b6d70343f7e692345204d137b3f392a2f3e30686064676631685b3e6b37363d2d3d626672
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:13+00:00'

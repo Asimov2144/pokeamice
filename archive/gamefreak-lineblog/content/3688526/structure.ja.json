@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Not playing... 使用前</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3688526-001\" alt=\"\" %}\n\n\n\n{% lineblog_image id=\"line-3688526-002\" alt=\"\" %}\n\n\n<br></div>",
+      "images": [
+        "line-3688526-001",
+        "line-3688526-002"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">↓</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">↓</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">↓</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">↓</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Playing!!! 使用後</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3688526-003\" alt=\"\" %}\n\n\n{% lineblog_image id=\"line-3688526-004\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nNot playing... 使用前\n\n\n\n{% lineblog_image id=\"line-3688526-005\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n↓\n↓\n↓\n↓\n\n<br>\n\n\n\n<br>\n\n\nPokémon GO playing!!!  使用後\n\n\n\n\n{% lineblog_image id=\"line-3688526-006\" alt=\"\" %}\n\nWalk!\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n位置情報ゲーム\n「ポケモンGO」\nフィールドテストに\n参加してくださっている皆様\nありがとうございます！\n\n<br>\n\n\nIngressを発明した\n天才集団\n<a class=\"gf-lineblog-source-link\" href=\"https://www.nianticlabs.com\" target=\"_blank\" rel=\"noopener\">ナイアンティック</a>さんが\n全力で頑張ってくださってます！\n\n<br>\n\n\nお楽しみに！！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-3688526-003",
+        "line-3688526-004",
+        "line-3688526-005",
+        "line-3688526-006"
+      ]
+    }
+  ]
+}

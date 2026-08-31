@@ -1,0 +1,39 @@
+article_id: masuda-line-7586253
+post_id: 7586253
+lang: ja
+date: '2016-09-29'
+title: Happy 10th Anniversary to Pokémon Diamond and pearl!
+categories:
+- ポケモン
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/7586253.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/7586253.html
+  wayback_url: https://web.archive.org/web/20161001061109id_/https://lineblog.me/masudajunichi/archives/7586253.html
+  raw_page: raw/articles/7586253.html
+assets:
+- id: line-7586253-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/1/3161fd1a.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/1/3161fd1a-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/7586253/001-2fe6a884c2.jpg
+  sha256: b34d35b251a5d850df24419a63dec37b0324799dd0e96ebeebe1785b4dde2e45
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20161001061109id_/https://line.blogimg.jp/masudajunichi/imgs/3/1/3161fd1a.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:05+00:00'

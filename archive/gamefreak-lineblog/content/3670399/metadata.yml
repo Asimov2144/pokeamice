@@ -1,0 +1,50 @@
+article_id: masuda-line-3670399
+post_id: 3670399
+lang: ja
+date: '2016-05-24'
+title: 博多中洲
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3670399.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3670399.html
+  wayback_url: https://web.archive.org/web/20160527051926id_/https://lineblog.me/masudajunichi/archives/3670399.html
+  raw_page: raw/articles/3670399.html
+assets:
+- id: line-3670399-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/5/05251bb0.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/5/05251bb0-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3670399/001-7113ebf386.jpg
+  sha256: 3c0c6cca84c7e5764def370041403ec370f38561cfa080f870d4321b2f648ce8
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160527051926id_/https://line.blogimg.jp/masudajunichi/imgs/0/5/05251bb0.jpg
+  retrieval_method: wayback
+- id: line-3670399-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/0/407c5a38.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/0/407c5a38-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3670399/002-d6b6686436.jpg
+  sha256: c1cad70871784a564a45d75d0ee1be7f90afb9358e661ab1bb8f036b20f28883
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160527051926id_/https://line.blogimg.jp/masudajunichi/imgs/4/0/407c5a38.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:55+00:00'

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">日本食！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-2681233-001\" alt=\"\" %}\n\n\n<br>\n\n\nみなさん\n何だか分かりますか？\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n左上から右に\n\n<br>\n\n\nナマコ酢\nホタルイカ\nアサリ\n\n<br>\n\n\n下の段の左から\n\n<br>\n\n\n北海道のシマエビ\n明石のタコ\nそして こごみ！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nいやー\nどれも美味しかったです！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n        何と言っても\n    \n日本酒との相性抜群！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして\nもうひとつ発見！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n八丈島の\n島とう醤油・・\n何を付けても激ウマ！\n八丈島の唐辛子醤油！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-002\" alt=\"\" %}\n\n\n\n<br>\n\n\nこりゃ\n美味いです！\n海苔にも刺身にも\nこごみにも合う！合う！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n先日の\n明日葉ビールのブログを見て\nプロの方から\nアドバイス\nいただきました！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nなんと！\nウイスキーなどで\n明日葉の粉を溶かすと良いとのこと！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそりゃ\nやってみるでしょ！\nマスダ\n会長ですから（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-003\" alt=\"\" %}\n\n\n<br>\n\n\n\n            これに・・・\n\n<br>\n\n\n混ぜてみます！\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-004\" alt=\"\" %}\n\n\n\n\n<br>\n\n\n\n<br>\n\n\nうおー！\n濃い明日葉出来た！\n\n<br>\n\n\n\n<br>\n\n\nビール入れてみるよ！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-005\" alt=\"\" %}\n\n\n\n<br>\n\n\nあわあわは\nある程度あるけど\n大丈夫そう！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-006\" alt=\"\" %}\n\n\n\n<br>\n\n\nウイスキー入りビールですが\n明日葉もアルコールも\n濃い感じで\n完成！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nこりゃ\n濃くて美味しいぞ！！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n        教えてもらって\nまたひとつ\n進化できました！！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nこういう\nつながり\nありがたいです！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n        何だかとってもいい感じ〜！\n\n<br>\n\n\n美味しい！！！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2681233-007\" alt=\"\" %}\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-2681233-001",
+        "line-2681233-002",
+        "line-2681233-003",
+        "line-2681233-004",
+        "line-2681233-005",
+        "line-2681233-006",
+        "line-2681233-007"
+      ]
+    }
+  ]
+}

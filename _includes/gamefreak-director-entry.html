@@ -2,18 +2,21 @@
 <article class="gf-director-entry">
   <a class="gf-director-entry__main" href="{{ post.url | relative_url }}">
     <div class="gf-director-entry__number">
-      <span>{% if post.gf_entry_no %}・第{{ post.gf_entry_no }}回・{% else %}Entry{% endif %}</span>
+      <span>{% if post.gf_entry_no %}・第{{ post.gf_entry_no }}回・{% elsif post.gf_series == 'lineblog' %}LINE BLOG{% else %}Entry{% endif %}</span>
       {% if post.date %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>{% endif %}
     </div>
     <div class="gf-director-entry__body">
       <h3>{{ post.gf_entry_title | default: post.title }}</h3>
-      <span class="gf-director-entry__read">阅读全文 →</span>
+      <span class="gf-director-entry__read">{% if post.translation_available == false %}阅读日文原文{% else %}阅读全文{% endif %} →</span>
     </div>
   </a>
-  {% if post.gf_categories %}
+  {% if post.gf_categories and post.gf_categories.size > 0 %}
     <div class="gf-director-entry__cats">
       <span>Posted in：</span>
       {% for category in post.gf_categories %}<em>{{ category }}</em>{% endfor %}
     </div>
+  {% endif %}
+  {% if post.gf_source_tags and post.gf_source_tags.size > 0 %}
+    <div class="gf-director-entry__cats gf-director-entry__cats--tags"><span>Tags：</span>{% for tag in post.gf_source_tags %}<em>{{ tag }}</em>{% endfor %}</div>
   {% endif %}
 </article>

@@ -1,0 +1,50 @@
+article_id: masuda-line-4891939
+post_id: 4891939
+lang: ja
+date: '2016-07-11'
+title: 神宿る島
+categories:
+- 勉強
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4891939.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4891939.html
+  wayback_url: https://web.archive.org/web/20160717143055id_/https://lineblog.me/masudajunichi/archives/4891939.html
+  raw_page: raw/articles/4891939.html
+assets:
+- id: line-4891939-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/1/d/1d09a415.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/1/d/1d09a415-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4891939/001-056173cfab.jpg
+  sha256: b94c2d213a1f4810d1b189aef8676cf071305d4baf47ef72d49cea5bfe7b8d40
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160717143055id_/https://line.blogimg.jp/masudajunichi/imgs/1/d/1d09a415.jpg
+  retrieval_method: wayback
+- id: line-4891939-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/e/d/edc94188.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/e/d/edc94188-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/4891939/002-1dfeb8a5e7.jpg
+  sha256: 97a344f95bbfac3c277675654eeabee53b3e80da8f8e13649b276ddc195dafb0
+  width: 536
+  height: 784
+  wayback_url: https://web.archive.org/web/20160717143055id_/https://line.blogimg.jp/masudajunichi/imgs/e/d/edc94188.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:53+00:00'

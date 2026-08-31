@@ -1,0 +1,38 @@
+article_id: masuda-line-3249955
+post_id: 3249955
+lang: ja
+date: '2016-05-05'
+title: たんご
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3249955.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3249955.html
+  wayback_url: https://web.archive.org/web/20160508162550id_/https://lineblog.me/masudajunichi/archives/3249955.html
+  raw_page: raw/articles/3249955.html
+assets:
+- id: line-3249955-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/c/3cc414fa.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/c/3cc414fa-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3249955/001-2c3268d0f3.jpg
+  sha256: 3813d94a821d0de4014ccdc4451f1f0ce962a12bf5bf0c5c27b26a007dfdf678
+  width: 636
+  height: 850
+  wayback_url: https://web.archive.org/web/20160508162550id_/https://line.blogimg.jp/masudajunichi/imgs/3/c/3cc414fa.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:23+00:00'

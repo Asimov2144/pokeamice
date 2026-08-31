@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">ロサンゼルス E3の前に</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">寄っているところがあります！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4073380-001\" alt=\"\" %}タピオカ入りミルクティーが美味い！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4073380-002\" alt=\"\" %}\n\n切符がプラスチックのコイン？\n不思議\n\n<br>\n\n\n\n<br>\n\n\n\n\n\n\nパイナップル？\nこれまた不思議な\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4073380-004\" alt=\"\" %}\n\nお店がたくさん！活気が凄い！！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4073380-005\" alt=\"\" %}\n\n普通に生えてる？\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4073380-006\" alt=\"\" %}\n\n偶然にも<a class=\"gf-lineblog-source-link\" href=\"http://lineblog.me/scandalblog_4/\" target=\"_blank\" rel=\"noopener\">SCANDAL</a>が\nこんなに近くに！\nいまライブしてる！\n（なんと昨夜の夜市も同じ\n\nしかも今日の本番の時間がまた偶然にも同じ！）\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4073380-007\" alt=\"\" %}\n\nこれで分かるかな？\n\n<br>\n\n\n\n<br>\n\n\n小龍包が\n美味しい！！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそう\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nここ！\n\n\n{% lineblog_image id=\"line-4073380-008\" alt=\"\" %}\n\n台湾！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nマスダ\n台湾に\nシークレットゲストとして\n初上陸してます！\n\n<br>\n\n\n\n<br>\n\n\nいまイベント終了して\n台湾にいることを発表できました！\nイベントの様子は後ほど！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n（オマケ）\n台湾に行くには\n宮崎と鹿児島の真上を飛ぶ\nというのを初めて知った！\n\n\n{% lineblog_image id=\"line-4073380-009\" alt=\"\" %}</div>",
+      "images": [
+        "line-4073380-001",
+        "line-4073380-002",
+        "line-4073380-004",
+        "line-4073380-005",
+        "line-4073380-006",
+        "line-4073380-007",
+        "line-4073380-008",
+        "line-4073380-009"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">台湾の</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">士林夜市で</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">買っちゃった！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4074495-001\" alt=\"\" %}\n\n可達鴨\n\n<br>\n\n\n\n<br>\n\n\nコダックの中文\n「こだや」かわいい（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n台湾で\nこんな出会いがあるとは（笑）\n\n\n{% lineblog_image id=\"line-4074495-002\" alt=\"\" %}\n\n\n                可達鴨\n                <br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n台北の\n士林夜市\n恐るべし！\n\n<br>\n\n\n\n<br>\n\n\nそして\nこれを・・・\n\n<br>\n\n\nシークレットゲストとして\n登壇した時\nマスダが履いていたことは\n誰も知らない（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-4074495-001",
+        "line-4074495-002"
+      ]
+    }
+  ]
+}

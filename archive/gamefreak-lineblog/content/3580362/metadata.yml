@@ -1,0 +1,50 @@
+article_id: masuda-line-3580362
+post_id: 3580362
+lang: ja
+date: '2016-05-20'
+title: かがくの ちからって すげー！
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3580362.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3580362.html
+  wayback_url: https://web.archive.org/web/20160522194852id_/https://lineblog.me/masudajunichi/archives/3580362.html
+  raw_page: raw/articles/3580362.html
+assets:
+- id: line-3580362-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/c/1/c1e2fec7.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/c/1/c1e2fec7-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3580362/001-f68c8db286.jpg
+  sha256: 10e3cf3cbb6e93ba60d6d0468fe8fc5ce60eebcc9d4158c4b3d738b94bd8edbf
+  width: 636
+  height: 850
+  wayback_url: https://web.archive.org/web/20160522194852id_/https://line.blogimg.jp/masudajunichi/imgs/c/1/c1e2fec7.jpg
+  retrieval_method: wayback
+- id: line-3580362-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/a/7ad9c531.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/a/7ad9c531-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3580362/002-9cfc21c0f3.jpg
+  sha256: 5b1d2f5f980e3f9addabf14988cb3cefeb4f5e8d38ab7857f4f588815f477ef9
+  width: 503
+  height: 756
+  wayback_url: https://web.archive.org/web/20160522194852id_/https://line.blogimg.jp/masudajunichi/imgs/7/a/7ad9c531.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:53+00:00'

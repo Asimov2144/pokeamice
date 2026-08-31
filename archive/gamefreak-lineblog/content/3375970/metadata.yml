@@ -1,0 +1,38 @@
+article_id: masuda-line-3375970
+post_id: 3375970
+lang: ja
+date: '2016-05-10'
+title: 「ポケットモンスター サン・ムーン」最新情報公開！
+categories:
+- ポケモン
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3375970.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3375970.html
+  wayback_url: https://web.archive.org/web/20160527084505id_/https://lineblog.me/masudajunichi/archives/3375970.html
+  raw_page: raw/articles/3375970.html
+assets:
+- id: line-3375970-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/6/6/661a93a5.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/6/6/661a93a5-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3375970/001-f0a0c06a2c.jpg
+  sha256: 14a09b7f9fcdff27c9f92efee5f90518c03b5212eda08b536cd7fcc889fa9c62
+  width: 1136
+  height: 638
+  wayback_url: https://web.archive.org/web/20160527084505id_/https://line.blogimg.jp/masudajunichi/imgs/6/6/661a93a5.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:31+00:00'

@@ -1,0 +1,52 @@
+article_id: masuda-line-9271045
+post_id: 9271045
+lang: ja
+date: '2017-04-11'
+title: Up-Grade!
+categories: []
+tags:
+- ポケモン
+- ポケモンGO
+- 進化
+source: https://lineblog.me/masudajunichi/archives/9271045.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9271045.html
+  wayback_url: https://web.archive.org/web/20170517030244id_/https://lineblog.me/masudajunichi/archives/9271045.html
+  raw_page: raw/articles/9271045.html
+assets:
+- id: line-9271045-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0hY9jaAtLFBhZXGCiVvyB5QRxFAHkuexwePWARLCJODDgidBEWP2IVIDBcDXYhbB4YOScRbHBxAkMbagciGD9KdSZoMSQoT0MbaR06IydxMCEpQxsBd35MeHIaUCJyLEBAYytJc3MRUWN7L0JAaixNJw
+  display_url: https://obs.line-scdn.net/0hY9jaAtLFBhZXGCiVvyB5QRxFAHkuexwePWARLCJODDgidBEWP2IVIDBcDXYhbB4YOScRbHBxAkMbagciGD9KdSZoMSQoT0MbaR06IydxMCEpQxsBd35MeHIaUCJyLEBAYytJc3MRUWN7L0JAaixNJw/small
+  local_path: archive/gamefreak-lineblog/assets/9271045/001-da76204586.jpg
+  sha256: a54cf61e3fd5ef21191bdd8c67150395c5feef820725faaa3b1e1ff9396ead11
+  width: 568
+  height: 333
+  wayback_url: https://web.archive.org/web/20170517030244id_/https://obs.line-scdn.net/0hY9jaAtLFBhZXGCiVvyB5QRxFAHkuexwePWARLCJODDgidBEWP2IVIDBcDXYhbB4YOScRbHBxAkMbagciGD9KdSZoMSQoT0MbaR06IydxMCEpQxsBd35MeHIaUCJyLEBAYytJc3MRUWN7L0JAaixNJw
+  retrieval_method: wayback
+- id: line-9271045-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0hWr1SKyajCF0MKibe5wB3Ckd3DjJ1SRJVZlIfZ3l8AnN5Rh9dZFAba2tuAz16XhBTYhUfJ358Pz9icwxxag8saF1JKBVBUSxNUi8BQSxeDiwlcT9OLExCMykoXmoiGU8LOBlGOSgvUiggHUwLMRlAbg
+  display_url: https://obs.line-scdn.net/0hWr1SKyajCF0MKibe5wB3Ckd3DjJ1SRJVZlIfZ3l8AnN5Rh9dZFAba2tuAz16XhBTYhUfJ358Pz9icwxxag8saF1JKBVBUSxNUi8BQSxeDiwlcT9OLExCMykoXmoiGU8LOBlGOSgvUiggHUwLMRlAbg/small
+  local_path: archive/gamefreak-lineblog/assets/9271045/002-9b64477351.png
+  sha256: 1be2fe00f5b887fe6f751ed50b2f408c2017c677bc2d78137855c7f7f6e3bf0b
+  width: 1390
+  height: 1880
+  wayback_url: https://web.archive.org/web/20170517030244id_/https://obs.line-scdn.net/0hWr1SKyajCF0MKibe5wB3Ckd3DjJ1SRJVZlIfZ3l8AnN5Rh9dZFAba2tuAz16XhBTYhUfJ358Pz9icwxxag8saF1JKBVBUSxNUi8BQSxeDiwlcT9OLExCMykoXmoiGU8LOBlGOSgvUiggHUwLMRlAbg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:28+00:00'

@@ -1,0 +1,60 @@
+article_id: masuda-line-4594908
+post_id: 4594908
+lang: ja
+date: '2016-06-30'
+title: Pokémon GO フィールドテスト終了します！
+categories:
+- ポケモン
+- ものづくり
+tags: []
+source: https://lineblog.me/masudajunichi/archives/4594908.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/4594908.html
+  wayback_url: https://web.archive.org/web/20160704123244id_/https://lineblog.me/masudajunichi/archives/4594908.html
+  raw_page: raw/articles/4594908.html
+assets:
+- id: line-4594908-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/d/6/d60d1b19.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/d/6/d60d1b19.jpg
+  local_path: archive/gamefreak-lineblog/assets/4594908/001-9633f3f94f.jpg
+  sha256: fdb9de27b353263fe6ba8106e872126bf798024b58d6b1ad0816f521c42ba1de
+  width: 358
+  height: 571
+  wayback_url: https://web.archive.org/web/20160704123244id_/https://line.blogimg.jp/masudajunichi/imgs/d/6/d60d1b19.jpg
+  retrieval_method: wayback
+- id: line-4594908-002
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/9/79a1e678.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/9/79a1e678.jpg
+  local_path: archive/gamefreak-lineblog/assets/4594908/002-28c33e884c.jpg
+  sha256: 1853ba35e17ff9c51c459ce166e465ae604ee38cdbcf205448d4e5096ab8da0f
+  width: 358
+  height: 572
+  wayback_url: https://web.archive.org/web/20160704123244id_/https://line.blogimg.jp/masudajunichi/imgs/7/9/79a1e678.jpg
+  retrieval_method: wayback
+- id: line-4594908-003
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/4/d/4d4f0ea0.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/4/d/4d4f0ea0.jpg
+  local_path: archive/gamefreak-lineblog/assets/4594908/003-90a87de656.jpg
+  sha256: 63f3da520c6f9b6cb79b2947a4cf1de08a73ad4e9935712b899a4ee7432c38e9
+  width: 358
+  height: 555
+  wayback_url: https://web.archive.org/web/20160704123244id_/https://line.blogimg.jp/masudajunichi/imgs/4/d/4d4f0ea0.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:44+00:00'

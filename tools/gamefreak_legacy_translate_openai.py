@@ -1,4 +1,4 @@
-"""Translate the archived Game Freak art and staff blogs with OpenAI.
+"""Translate the archived Game Freak art, staff and Masuda LINE blogs with OpenAI.
 
 The source layer is never modified.  Translations are written into each
 blog's normal ``translations/zh-CN`` layer so the existing legacy-blog
@@ -11,6 +11,7 @@ entries.
 from __future__ import annotations
 
 import argparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 import os
 import re
 import time
@@ -72,6 +73,21 @@ BLOGS: dict[str, dict[str, Any]] = {
             "不要把日记改写成统一的官方公告，也不要替作者补充背景。"
         ),
     },
+    "lineblog": {
+        "slug": "gamefreak-lineblog",
+        "label": "增田顺一 LINE BLOG",
+        "author": "增田顺一",
+        "series": "増田順一 公式ブログ",
+        "content_dir": ROOT / "archive" / "gamefreak-lineblog" / "content",
+        "translation_dir": ROOT / "archive" / "gamefreak-lineblog" / "translations" / "zh-CN",
+        "title_style": "必须以【日记】、【活动】或【创作】之一开头，再接年代与作品/地点/话题",
+        "scene": (
+            "这是增田顺一从 GAME FREAK 部长专栏迁移至 LINE BLOG 后发布的个人日记。"
+            "文章常以居中短句、照片和口语化感叹连续展开，要保留亲切直接的节奏、现场感与个人口吻；"
+            "不要把旅行、活动或生活记录改写成正式新闻稿。"
+            "固定语义：『ちぢめてポケモン』译为『简称“宝可梦”』；『イセ団』译为『伊势团』。"
+        ),
+    },
 }
 
 
@@ -128,12 +144,12 @@ def build_prompt(
 必须遵守：
 1. 只翻译当前正文，不补写背景，不删去句子，不总结；正文开头不要重复日文标题、日期、署名或导语。
 2. 严格保留原文的段落数量、空行、换行节奏和内容顺序。原文用 `<br>` 分开的短句，中文也必须用 `<br>` 保持分行；不得把多段文字挤成一段。
-3. 正文中的 Markdown 链接、URL、HTML 标签，以及 `{{% legacy_image ... %}}`、`{{% spacer %}}` 等标记必须逐字原样保留，位置不能移动；不要翻译 URL、标记属性或图片 id。
+3. 正文中的 Markdown 链接、URL、HTML 标签，以及 `{{% legacy_image ... %}}`、`{{% lineblog_image ... %}}`、`{{% spacer %}}` 等标记必须逐字原样保留，位置不能移动；不要翻译 URL、标记属性或图片 id。
 4. 杉森建文章要保留“设计说明/画面注释/创作者随笔”的层次；Staff 文章要保留不同员工的自述、工作现场与技术细节，不要统一改成新闻稿。
 5. 专有名词必须优先采用下方译名库中的目标译名，并在本篇保持一致。括号内的分类、来源或备注只用于理解，不要把括号说明写入正文；除非括号本身就是原文的一部分。
 6. 日文拟声、结尾语和口头招呼按上下文译成自然中文；例如「チャオ」统一译为“下回再见”并可搭配自然的语气词（咯、啦、呀、喽等），不要一篇内忽译音译、忽译“再见”。
 7. 不要在中文正文中附上整段日文；日文原文会由网页的“阅读语言”切换单独展示。
-8. 另生成一个用于搜索结果和外部卡片的中文标题与摘要。标题应根据本篇真正主题自然拟写，参考风格：{blog['title_style']}；标题约 10—20 字，摘要约 30—60 字。标题和摘要不得含日文假名，不要只写“第{number}回”或复述占位说明。
+8. 另生成一个用于搜索结果和外部卡片的中文标题与摘要。标题应根据本篇真正主题自然拟写，格式要求：{blog['title_style']}；必须保留最前面的全角分类括号，标题总长约 10—20 字，摘要约 30—60 字。标题和摘要不得含日文假名，不要只写“第{number}回”或复述占位说明。
 9. 只输出严格 JSON：{{"translation_markdown":"翻译后的 Markdown 正文","translation_title":"可检索中文标题","translation_summary":"30—60字中文摘要"}}。不要输出 front matter、解释或代码围栏。
 {staff_names}
 
@@ -189,8 +205,8 @@ def make_metadata(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Translate Game Freak art/staff archives with OpenAI.")
-    parser.add_argument("--blog", choices=["art", "staff", "both"], default="both")
+    parser = argparse.ArgumentParser(description="Translate Game Freak art/staff/LINE BLOG archives with OpenAI.")
+    parser.add_argument("--blog", choices=["art", "staff", "lineblog", "both", "all"], default="both")
     parser.add_argument("--start", type=int, default=1)
     parser.add_argument("--end", type=int, default=0)
     parser.add_argument("--limit", type=int, default=0)
@@ -201,13 +217,19 @@ def main() -> None:
     parser.add_argument("--temperature", type=float, default=0.1)
     parser.add_argument("--retries", type=int, default=2)
     parser.add_argument("--delay", type=float, default=0.5)
+    parser.add_argument("--workers", type=int, default=1, help="Concurrent OpenAI requests (1-8).")
     parser.add_argument("--glossary", default=os.getenv("GAMEFREAK_GLOSSARY_PATH", ""))
     parser.add_argument("--staff-names", type=Path, default=DEFAULT_STAFF_NAMES)
     parser.add_argument("--reuse-existing", action="store_true")
+    parser.add_argument(
+        "--refresh-glossary-status",
+        action="store_true",
+        help="Recompute glossary matches, checks, and warnings for existing translations without calling the API.",
+    )
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
-    if not args.api_key and not args.dry_run:
+    if not args.api_key and not args.dry_run and not args.refresh_glossary_status:
         raise SystemExit("Missing OPENAI_API_KEY. Set it in PowerShell before running.")
     glossary_path = Path(args.glossary).expanduser() if args.glossary else next(
         (path for path in DEFAULT_GLOSSARY_CANDIDATES if path.exists()), None
@@ -218,7 +240,7 @@ def main() -> None:
     staff_name_entries = load_staff_names(args.staff_names)
     print(f"Glossary: {glossary_path} ({len(glossary)} usable entries)")
 
-    names = ["art", "staff"] if args.blog == "both" else [args.blog]
+    names = ["art", "staff"] if args.blog == "both" else (["art", "staff", "lineblog"] if args.blog == "all" else [args.blog])
     for blog_name in names:
         selected = [
             item for item in source_articles(blog_name)
@@ -229,16 +251,54 @@ def main() -> None:
             selected = selected[: args.limit]
         output_dir = BLOGS[blog_name]["translation_dir"]
         print(f"{blog_name}: selected {len(selected)} article(s); output={output_dir}")
-        for index, (number, _path, source_metadata, source_body) in enumerate(selected, start=1):
+        if args.refresh_glossary_status:
+            refreshed = 0
+            skipped = 0
+            for number, _path, _source_metadata, source_body in selected:
+                output = output_dir / f"{number}.md"
+                if not output.exists():
+                    skipped += 1
+                    continue
+                metadata, translation = read_markdown(output)
+                if not translation or metadata.get("translation_status") == "missing":
+                    skipped += 1
+                    continue
+                matches = glossary_matches(source_body, glossary)
+                checks = glossary_checks(matches, translation)
+                warnings = validate_translation(source_body, translation)
+                missing = [check["target"] for check in checks if check["status"] == "missing-target"]
+                if missing:
+                    warnings.append("missing_glossary_targets: " + ", ".join(missing[:12]))
+                metadata.update({
+                    "translation_warnings": warnings,
+                    "glossary_source": glossary_path.name,
+                    "glossary_match_count": len(matches),
+                    "glossary_missing_targets": missing,
+                    "glossary_checks": checks,
+                })
+                write_markdown(output, metadata, translation)
+                refreshed += 1
+            print(f"Refreshed {blog_name}: {refreshed} translation(s), {skipped} skipped")
+            continue
+        pending: list[tuple[int, tuple[int, Path, dict[str, Any], str]]] = []
+        for index, item in enumerate(selected, start=1):
+            number = item[0]
             output = output_dir / f"{number}.md"
             if args.reuse_existing and existing_translation(output):
                 print(f"Reuse {blog_name} [{index}/{len(selected)}] {number}")
                 continue
-            matches = glossary_matches(source_body, glossary)
-            if args.dry_run:
+            pending.append((index, item))
+
+        if args.dry_run:
+            for index, (number, _path, _source_metadata, source_body) in pending:
+                matches = glossary_matches(source_body, glossary)
                 print(f"Would translate {blog_name} [{index}/{len(selected)}] {number} (glossary matches: {len(matches)})")
-                continue
-            print(f"OpenAI {blog_name} [{index}/{len(selected)}] {number}")
+            continue
+
+        def translate_one(entry: tuple[int, tuple[int, Path, dict[str, Any], str]]) -> tuple[int, int, list[str]]:
+            index, (number, _path, source_metadata, source_body) = entry
+            output = output_dir / f"{number}.md"
+            matches = glossary_matches(source_body, glossary)
             article_names = applicable_names(source_body, staff_name_entries, number) if blog_name == "staff" else []
             staff_name_prompt = ""
             if article_names:
@@ -259,8 +319,11 @@ def main() -> None:
                 args.retries,
             )
             translation = clean_translation(result["translation_markdown"])
-            fallback_title = f"【{('设定资料' if blog_name == 'art' else '工作日志')}】{str(source_metadata.get('date', ''))[:4]}年第{number}篇"
+            fallback_kind = "设定资料" if blog_name == "art" else ("工作日志" if blog_name == "staff" else "日记")
+            fallback_title = f"【{fallback_kind}】{str(source_metadata.get('date', ''))[:4]}年第{number}篇"
             title = clean_card_text(result.get("translation_title"), 8, 30) or fallback_title
+            if blog_name == "lineblog" and not re.match(r"^【(?:日记|活动|创作)】", title):
+                title = f"【日记】{title}"[:30]
             summary = clean_card_text(result.get("translation_summary"), 30, 60)
             if not summary:
                 summary = re.sub(r"[*_`#]", "", next((p.strip() for p in re.split(r"\n\s*\n", translation) if p.strip()), ""))
@@ -280,8 +343,6 @@ def main() -> None:
             missing = [check["target"] for check in checks if check["status"] == "missing-target"]
             if missing:
                 warnings.append("missing_glossary_targets: " + ", ".join(missing[:12]))
-            if warnings:
-                print(f"  warning: {', '.join(warnings)}")
             write_markdown(
                 output,
                 make_metadata(
@@ -300,6 +361,23 @@ def main() -> None:
                 translation,
             )
             time.sleep(max(args.delay, 0))
+            return index, number, warnings
+
+        workers = max(1, min(args.workers, 8))
+        if workers == 1:
+            for entry in pending:
+                index, number, warnings = translate_one(entry)
+                print(f"OpenAI {blog_name} [{index}/{len(selected)}] {number}", flush=True)
+                if warnings:
+                    print(f"  warning: {', '.join(warnings)}", flush=True)
+        else:
+            with ThreadPoolExecutor(max_workers=workers, thread_name_prefix=f"openai-{blog_name}") as executor:
+                futures = [executor.submit(translate_one, entry) for entry in pending]
+                for future in as_completed(futures):
+                    index, number, warnings = future.result()
+                    print(f"OpenAI {blog_name} [{index}/{len(selected)}] {number}", flush=True)
+                    if warnings:
+                        print(f"  warning: {', '.join(warnings)}", flush=True)
 
 
 if __name__ == "__main__":

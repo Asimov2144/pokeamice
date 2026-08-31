@@ -1,0 +1,50 @@
+article_id: masuda-line-3101639
+post_id: 3101639
+lang: ja
+date: '2016-04-29'
+title: つまらない道も！
+categories:
+- 遊び
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3101639.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3101639.html
+  wayback_url: https://web.archive.org/web/20160502062515id_/https://lineblog.me/masudajunichi/archives/3101639.html
+  raw_page: raw/articles/3101639.html
+assets:
+- id: line-3101639-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/d/3d422505.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/d/3d422505-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3101639/001-6d3e1b20be.jpg
+  sha256: cbeb80e5cbcb5eb6128d95ed719c6addb5cc08e221a6ec82f278f0d97f46e70f
+  width: 1136
+  height: 1136
+  wayback_url: https://web.archive.org/web/20160502062515id_/https://line.blogimg.jp/masudajunichi/imgs/3/d/3d422505.jpg
+  retrieval_method: wayback
+- id: line-3101639-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/9/f99de863.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/9/f99de863-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3101639/002-40d567a887.jpg
+  sha256: 9537d40038920c06cdc8288b460c5b9aa6dc27b04c6ad97e8e86ba5eeeed893c
+  width: 621
+  height: 840
+  wayback_url: https://web.archive.org/web/20160502062515id_/https://line.blogimg.jp/masudajunichi/imgs/f/9/f99de863.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:18+00:00'

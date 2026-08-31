@@ -1,0 +1,37 @@
+article_id: masuda-line-3120877
+post_id: 3120877
+lang: ja
+date: '2016-04-30'
+title: ランキング
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3120877.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3120877.html
+  wayback_url: https://web.archive.org/web/20160504021515id_/https://lineblog.me/masudajunichi/archives/3120877.html
+  raw_page: raw/articles/3120877.html
+assets:
+- id: line-3120877-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/6/36ac5ca6.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/6/36ac5ca6.jpg
+  local_path: archive/gamefreak-lineblog/assets/3120877/001-fa35d1fc54.jpg
+  sha256: 9f6cbac0d041c87f172634c296c4f17d5343821584e4764fe56be043e26b8ced
+  width: 345
+  height: 575
+  wayback_url: https://web.archive.org/web/20160504021515id_/https://line.blogimg.jp/masudajunichi/imgs/3/6/36ac5ca6.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:20+00:00'

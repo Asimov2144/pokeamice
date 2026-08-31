@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">7月に日本で行われた</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Ingressのイベント</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Aegis Nova Tokyo</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-5309273-001\" alt=\"\" %}\n\nNiantic の川島さんと！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-5309273-002\" alt=\"\" %}\n\n川島さんがデザインした\n緻密リアルマップの超格好良いTシャツに\nサイン頂いた！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-5309273-003\" alt=\"\" %}\n\nIngress バスもあったよ！\n\n                かっこいい！\n\n<br>\n\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-5309273-004\" alt=\"\" %}\n\nお台場に1万人近くの人が集まった\nこのイベント\n\n<br>\n\n\n\n<br>\n\n\nIngress 愛と\n位置情報ゲームを愛する皆さんの\n熱量が半端なかったです！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-5309273-005\" alt=\"\" %}\n\nNiantic CEO ジョン・ハンケさんも\n登壇！\n\n<br>\n\n\n\n\n<br>\n\n\n\nマスダは\nEnlightened Level 12！\nレベル13まであとCF 237個・・・\n\n\n\n\n\n\n{% lineblog_image id=\"line-5309273-006\" alt=\"\" %}\n\n\n\n同じチームの勝利は嬉しい！\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n\n<br>\n\n\nマスダも\n2年以上プレイしている\nIngress は\nPokémon GOの兄弟とよく言われるけど\nお兄さんというよりは\n親の存在！\n\n<br>\n\n\n\n<br>\n\n\nなぜなら\nIngressが無かったら\nPokémon GOは\n生まれなかった！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n戦略性の高いクールな位置情報ゲーム\n\nIngress\n\nオススメです！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-5309273-001",
+        "line-5309273-002",
+        "line-5309273-003",
+        "line-5309273-004",
+        "line-5309273-005",
+        "line-5309273-006"
+      ]
+    }
+  ]
+}

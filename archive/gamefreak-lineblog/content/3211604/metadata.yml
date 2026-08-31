@@ -1,0 +1,97 @@
+article_id: masuda-line-3211604
+post_id: 3211604
+lang: ja
+date: '2016-05-03'
+title: にゃ？！
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3211604.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3211604.html
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://lineblog.me/masudajunichi/archives/3211604.html
+  raw_page: raw/articles/3211604.html
+assets:
+- id: line-3211604-001
+  roles:
+  - article-image
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/a/5/a5a64937.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/a/5/a5a64937.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/001-0c4c41ae4a.jpg
+  sha256: b4ecce28fac93c1e7793ed97b7f613be2cbdad66a0e6efba99204251ccc551b8
+  width: 390
+  height: 528
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/a/5/a5a64937.jpg
+  retrieval_method: wayback
+- id: line-3211604-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9abbeb11.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/a/9abbeb11-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/002-40936f9839.jpg
+  sha256: ad2faca29dcd035932bc06ae1739d747ff7093470c746764f41b9478e2984bfb
+  width: 514
+  height: 764
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/9/a/9abbeb11.jpg
+  retrieval_method: wayback
+- id: line-3211604-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7f274f58.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7f274f58-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/003-070ecec100.jpg
+  sha256: d7f061aca7142d450380235eacadd4e6eb86b63c40f9a0fd29507c644a23531b
+  width: 500
+  height: 754
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/7/f/7f274f58.jpg
+  retrieval_method: wayback
+- id: line-3211604-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/c/5/c54fbb3f.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/c/5/c54fbb3f-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/004-c8372a8a9e.jpg
+  sha256: acdf0e298c7053ebb07b03497712b93c98d124c5024a804e1c03613a207b1770
+  width: 508
+  height: 760
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/c/5/c54fbb3f.jpg
+  retrieval_method: wayback
+- id: line-3211604-005
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/5/0/50266a10.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/5/0/50266a10-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/005-4836748578.jpg
+  sha256: a62b97be3e8ad5eb9752065086598d27c33411d0238ee938c72cbba1dd5e9979
+  width: 500
+  height: 754
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/5/0/50266a10.jpg
+  retrieval_method: wayback
+- id: line-3211604-006
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/b/f/bf661825.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/b/f/bf661825-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3211604/006-ecbc3bdd74.jpg
+  sha256: 08809d8de41b75993263f86173cc220ab94ed3cb398684f7a8713e9a92914f73
+  width: 508
+  height: 760
+  wayback_url: https://web.archive.org/web/20160506115633id_/https://line.blogimg.jp/masudajunichi/imgs/b/f/bf661825.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:22+00:00'

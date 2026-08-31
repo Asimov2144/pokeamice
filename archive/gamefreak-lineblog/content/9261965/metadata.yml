@@ -1,0 +1,56 @@
+article_id: masuda-line-9261965
+post_id: 9261965
+lang: ja
+date: '2017-02-20'
+title: ポケモンGOに38番道路？！
+categories: []
+tags:
+- ポケモン
+- ポケモンGO
+- pokemonGO
+- 金銀
+- 金銀ポケモン
+- 音楽
+- 作曲
+source: https://lineblog.me/masudajunichi/archives/9261965.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9261965.html
+  wayback_url: https://web.archive.org/web/20170309124101id_/https://lineblog.me/masudajunichi/archives/9261965.html
+  raw_page: raw/articles/9261965.html
+assets:
+- id: line-9261965-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0ef6e1afe84d280e363e604a2d6671773d3c26367e1171160e226459702e596e124b324a4656615139527f466370163342433c55201a0c645d21326265707e13236661767d147e01656c66731d673268346966367f12200871
+  display_url: https://obs.line-scdn.net/0m0ef6e1afe84d280e363e604a2d6671773d3c26367e1171160e226459702e596e124b324a4656615139527f466370163342433c55201a0c645d21326265707e13236661767d147e01656c66731d673268346966367f12200871/small
+  local_path: archive/gamefreak-lineblog/assets/9261965/001-473efcc7e7.jpg
+  sha256: b8e4c5d493a47be27d236fa58e1f3c1075d908c039b6ae1e828a29634b99ea56
+  width: 576
+  height: 962
+  wayback_url: https://web.archive.org/web/20170309124101id_/https://obs.line-scdn.net/0m0ef6e1afe84d280e363e604a2d6671773d3c26367e1171160e226459702e596e124b324a4656615139527f466370163342433c55201a0c645d21326265707e13236661767d147e01656c66731d673268346966367f12200871
+  retrieval_method: wayback
+- id: line-9261965-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0efbbf49e84d280e363e604a2d6671773d3c26367e1171160e786f59625474523c625468426e6c783e2c624a4f28211737722d5112471e5f6821326265707f14206b6b707d147e01656d3e751e366f38346966367d432e5d76
+  display_url: https://obs.line-scdn.net/0m0efbbf49e84d280e363e604a2d6671773d3c26367e1171160e786f59625474523c625468426e6c783e2c624a4f28211737722d5112471e5f6821326265707f14206b6b707d147e01656d3e751e366f38346966367d432e5d76/small
+  local_path: archive/gamefreak-lineblog/assets/9261965/002-f71f4b6454.jpg
+  sha256: 1c6a445437368b6364ae123ad65853a612f6102494b9c09b159e71ca37f8fc61
+  width: 1014
+  height: 425
+  wayback_url: https://web.archive.org/web/20170309124101id_/https://obs.line-scdn.net/0m0efbbf49e84d280e363e604a2d6671773d3c26367e1171160e786f59625474523c625468426e6c783e2c624a4f28211737722d5112471e5f6821326265707f14206b6b707d147e01656d3e751e366f38346966367d432e5d76
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:19+00:00'

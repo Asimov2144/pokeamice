@@ -1,0 +1,74 @@
+article_id: masuda-line-2648469
+post_id: 2648469
+lang: ja
+date: '2016-04-09'
+title: 効果音（Sound Effects）
+categories:
+- 音
+tags: []
+source: https://lineblog.me/masudajunichi/archives/2648469.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/2648469.html
+  wayback_url: https://web.archive.org/web/20160415021042id_/https://lineblog.me/masudajunichi/archives/2648469.html
+  raw_page: raw/articles/2648469.html
+assets:
+- id: line-2648469-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/a/c/acdad23e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/a/c/acdad23e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2648469/001-8042e4037f.jpg
+  sha256: b3c6a7bcb6361725cb1a682c17994f89c4c87fbd39ef993d42d6918af7759ae1
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160415021042id_/https://line.blogimg.jp/masudajunichi/imgs/a/c/acdad23e.jpg
+  retrieval_method: wayback
+- id: line-2648469-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/8/98466e64.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/8/98466e64-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2648469/002-e61e190d24.jpg
+  sha256: 90e92be368e6cddc1246dd9acced7a22f0c5104ea3d43a4678b0263160330f6c
+  width: 1136
+  height: 1136
+  wayback_url: https://web.archive.org/web/20160415021042id_/https://line.blogimg.jp/masudajunichi/imgs/9/8/98466e64.jpg
+  retrieval_method: wayback
+- id: line-2648469-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/4/046bca36.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/4/046bca36-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2648469/003-95eaa0b5d1.jpg
+  sha256: 1b01f9df01ffa31e94b21d552e73fa8fd31a858d13ee6e7b5f3232d5b82c8b37
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160415021042id_/https://line.blogimg.jp/masudajunichi/imgs/0/4/046bca36.jpg
+  retrieval_method: wayback
+- id: line-2648469-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/1/9/19e02543.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/1/9/19e02543-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/2648469/004-cc6accdb7d.jpg
+  sha256: 29f1942ed88b2ee9e5f15419409c04e3609fa36f45a6a0ea660a5a07fbf67490
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160415021042id_/https://line.blogimg.jp/masudajunichi/imgs/1/9/19e02543.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:05:49+00:00'

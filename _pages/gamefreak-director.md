@@ -3,7 +3,7 @@ layout: gamefreak-director
 title: "Game Freak 部长专栏"
 permalink: /gamefreak-director/
 gf_mode: index
-summary: "在保留原站版式、图片位置和写作节奏的前提下，整理日文原文、官方英文版与中文译稿。"
+summary: "按时间连续整理 2004—2015 年部长专栏与 2016—2017 年 LINE BLOG，保留原文版式、图片位置和写作节奏。"
 archive_type: article
 categories: [文档, Game Freak]
 tags: [Game Freak, 增田顺一, 部长专栏, 官方博客]

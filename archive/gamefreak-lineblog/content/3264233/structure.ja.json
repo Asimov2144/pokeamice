@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-3264233-001\" alt=\"\" %}\n\n\n\n<br>\n\n\n世界中のみなさんに\nお知らせ！\nA big news to everyone in the world!\n<br>\n\n\n<br>\n\n\n<br>\n\n\n2016年5月10日（火）21時頃\n「ポケットモンスター サン・ムーン」の\n新情報を公開します！！\n\n<br>\n\n\nNew \"Pokémon Sun and Moon\" information will be revealed on May 10th, around 21:00 JST! \n        <br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nみなさん\nお待たせしました！\n\n        Finally...\n\n<br>\n\n\n\n<br>\n\n\nようやく新しい情報を\nお届けできます！\n\n        I can give you a brand new information!\n\n<br>\n\n\nお楽しみに！</div>",
+      "images": [
+        "line-3264233-001"
+      ]
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Stay tuned everybody!\n<br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">チャオ！</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">Ciao!</div>",
+      "images": []
+    }
+  ]
+}

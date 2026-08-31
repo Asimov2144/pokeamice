@@ -1,0 +1,124 @@
+---
+article_id: masuda-line-2955963
+post_id: 2955963
+lang: ja
+date: '2016-04-23'
+title: アイディアの話２（重ねる）
+categories: []
+tags:
+- ものづくり
+source: https://lineblog.me/masudajunichi/archives/2955963.html
+status: source-extracted
+---
+
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">普段 目にするものから</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">アイディアを</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">数多く出すこと</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">そしてもうひとつ</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">考えたアイディアに</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">さらにアイディアを</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">足して重ねていくという方法</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-2955963-001" alt="" %}
+
+
+<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">先日 書いた木の<a class="gf-lineblog-source-link" href="https://lineblog.me/masudajunichi/archives/2923701.html" target="_blank" rel="noopener">アイディア</a></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">それは</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">遊びではありません</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">見た目の面白さでした</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">思い付いたアイディアをベースに</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">さらにアイディアを考えます</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木が成長するなら</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">花が咲いたり</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木の実が付くこともある！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木の実</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-2955963-002" alt="" %}
+
+（羽の生えたハートが木の実のつもりw）
+
+<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木の実に注目して・・</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木に体当たりして</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木の実を落とせるとする</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">1分間で</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">どれだけ拾えるか？</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">自己ランキングを作る</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">SNSでランキングを作る</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">{% lineblog_image id="line-2955963-003" alt="" %}
+
+
+<br>
+
+
+
+<br>
+木の実を拾う！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木に体当たりして</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">落ちてくる木の実の数は乱数</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">&lt;偶然の遊び&gt;</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">木の実を時間制限で拾う</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">&lt;競争の遊び&gt;</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">ふたつの遊びが</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">追加されました！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br>
+
+<br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">アイディアにアイディアを重ねて</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">遊びを増やして</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">深みを増していく！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">そうすることで
+    <br>
+より長い時間遊べる遊びになる！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">どうすると面白くなるのか？</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">の鍵は・・</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">感覚ではなく・・</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">遊びがいくつ入っているのか？</div>
+<div class="gf-lineblog-line gf-lineblog-line--center">なのです！</div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
+<div class="gf-lineblog-line gf-lineblog-line--center">チャオ！</div>

@@ -1,0 +1,38 @@
+article_id: masuda-line-6143081
+post_id: 6143081
+lang: ja
+date: '2016-08-19'
+title: Niantic社にて
+categories:
+- Pokémon GO
+tags: []
+source: https://lineblog.me/masudajunichi/archives/6143081.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/6143081.html
+  wayback_url: https://web.archive.org/web/20160822162428id_/https://lineblog.me/masudajunichi/archives/6143081.html
+  raw_page: raw/articles/6143081.html
+assets:
+- id: line-6143081-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/7/37e14e05.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/7/37e14e05-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/6143081/001-4e6ddb8855.jpg
+  sha256: cc5326c94d5dbdba7e958da9a473cbeaab837284a0825bd5e33a9f36ed934d7a
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160822162428id_/https://line.blogimg.jp/masudajunichi/imgs/3/7/37e14e05.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:01+00:00'

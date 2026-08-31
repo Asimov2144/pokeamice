@@ -1,0 +1,50 @@
+article_id: masuda-line-3771831
+post_id: 3771831
+lang: ja
+date: '2016-05-29'
+title: ポケモセンターキョウトに来たよ！
+categories:
+- ポケモンセンター
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3771831.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3771831.html
+  wayback_url: https://web.archive.org/web/20160602082109id_/https://lineblog.me/masudajunichi/archives/3771831.html
+  raw_page: raw/articles/3771831.html
+assets:
+- id: line-3771831-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/0/8/0803931e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/0/8/0803931e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3771831/001-3026f1eb3e.jpg
+  sha256: 7fef55a12bcf5ad588edf5359a91943a222fd726144afad16c2fdb0dd23a9224
+  width: 639
+  height: 852
+  wayback_url: https://web.archive.org/web/20160602082109id_/https://line.blogimg.jp/masudajunichi/imgs/0/8/0803931e.jpg
+  retrieval_method: wayback
+- id: line-3771831-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/9/9/992c72e4.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/9/9/992c72e4-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3771831/002-233dbc0b74.jpg
+  sha256: c687c627d5dea8feab8e92962fd6bc8c3eb9fc707297ba6002847f2ab5c2b73e
+  width: 1136
+  height: 852
+  wayback_url: https://web.archive.org/web/20160602082109id_/https://line.blogimg.jp/masudajunichi/imgs/9/9/992c72e4.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:07:07+00:00'

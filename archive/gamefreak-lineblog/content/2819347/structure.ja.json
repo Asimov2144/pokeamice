@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">九州のみなさん大丈夫ですか？\n\n<br>\n\n\n\n<br>\n\n\nマスダの両親は\n北九州で生まれ育ったので\nたくさんの親戚がいるのですが\n熊本にも親戚がいて・・\nとても心配しました\n\n<br>\n\n\n\n<br>\n\n\nLINEで\n繋がっていたので\nすぐにみんなと連絡が取れて\n良かった・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n心配しました\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nまさか九州で\nこんな大きな地震があるなんて・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n少しでも不安を取り除けるように・・\n願いを込めて\nピカチュウ撮った！\n\n<br>\n\n\n\n\n\n{% lineblog_image id=\"line-2819347-001\" alt=\"\" %}\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-2819347-002\" alt=\"\" %}\n\n\n<br>\n\n\n\n<br>\n\n\n\n九州のみなさん\n\n余震が続いているようですので\n\nお気をつけください！\n\n\n\n<br></div>",
+      "images": [
+        "line-2819347-001",
+        "line-2819347-002"
+      ]
+    }
+  ]
+}

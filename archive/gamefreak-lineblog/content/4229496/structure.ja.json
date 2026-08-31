@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "blocks": [
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">今回は</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">観光できる時間がない（笑）</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">でも</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">行きたかったのが・・・</div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"><br></div>",
+      "images": []
+    },
+    {
+      "type": "div",
+      "alignment": "center",
+      "markdown": "<div class=\"gf-lineblog-line gf-lineblog-line--center\">{% lineblog_image id=\"line-4229496-001\" alt=\"\" %}\n\n\n<br>\n\n\nゲーム屋さん（笑）\n\n<br>\n\n\n\n{% lineblog_image id=\"line-4229496-002\" alt=\"\" %}\n\nポケモンソフトが\nたくさん置かれてた！\nなんか嬉しい！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nそして・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nもう\nポケモン サン・ムーンの予約が\n開始されてたよ！\n\n{% lineblog_image id=\"line-4229496-003\" alt=\"\" %}\n\nおおー！\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n店を出ると・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n気持ち良い景色！\n\n<br>\n\n\n\n{% lineblog_image id=\"line-4229496-004\" alt=\"\" %}\n\nん？\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nよく見ると・・・\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4229496-005\" alt=\"\" %}\n\nハリウッドサインが！\n\n<br>\n\n\n\n<br>\n\n\nラッキー！\n観光した気分（笑）\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\n\n<br>\n\n\nもう1件のゲームストップには\nこんなものが！\n\n<br>\n\n\n\n\n{% lineblog_image id=\"line-4229496-006\" alt=\"\" %}\n\n\n\n<br>\n\n\n迷わず買ったよ（笑）\n\n<br>\n\n\n\n<br>\n\n\nこれで自由時間終了！\n2件のゲーム屋さんに行っただけだけど\n楽しかった！\n\n<br>\n\n\n\n<br>\n\n\nチャオ！</div>",
+      "images": [
+        "line-4229496-001",
+        "line-4229496-002",
+        "line-4229496-003",
+        "line-4229496-004",
+        "line-4229496-005",
+        "line-4229496-006"
+      ]
+    }
+  ]
+}

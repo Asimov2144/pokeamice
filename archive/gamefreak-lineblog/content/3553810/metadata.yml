@@ -1,0 +1,50 @@
+article_id: masuda-line-3553810
+post_id: 3553810
+lang: ja
+date: '2016-05-21'
+title: More Information!（次の新情報）
+categories:
+- ポケモン
+tags: []
+source: https://lineblog.me/masudajunichi/archives/3553810.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/3553810.html
+  wayback_url: https://web.archive.org/web/20160522194847id_/https://lineblog.me/masudajunichi/archives/3553810.html
+  raw_page: raw/articles/3553810.html
+assets:
+- id: line-3553810-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/1/312d705e.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/1/312d705e-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3553810/001-f6f0961025.jpg
+  sha256: 4994e0a2ffae56cfd756595b7942fc4940ab28057742d5b6dc723289157dd680
+  width: 618
+  height: 838
+  wayback_url: https://web.archive.org/web/20160522194847id_/https://line.blogimg.jp/masudajunichi/imgs/3/1/312d705e.jpg
+  retrieval_method: wayback
+- id: line-3553810-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/3/e/3e40f7cd.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/3/e/3e40f7cd-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/3553810/002-09d5973cf3.jpg
+  sha256: 62f8d314a5cd10b035376d901553a610f1c0f11a1a9cef952ef8d714cfe1ae70
+  width: 744
+  height: 616
+  wayback_url: https://web.archive.org/web/20160522194847id_/https://line.blogimg.jp/masudajunichi/imgs/3/e/3e40f7cd.jpg
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:06:43+00:00'

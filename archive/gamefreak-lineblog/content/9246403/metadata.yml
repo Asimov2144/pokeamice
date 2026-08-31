@@ -1,0 +1,82 @@
+article_id: masuda-line-9246403
+post_id: 9246403
+lang: ja
+date: '2016-12-02'
+title: 季節
+categories: []
+tags:
+- 三軒茶屋
+- キャロットタワー
+- 紅葉
+- もみじ
+- 季節
+- ポータル
+- Ingress
+- pokemon
+- pokemonGO
+source: https://lineblog.me/masudajunichi/archives/9246403.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/9246403.html
+  wayback_url: https://web.archive.org/web/20200804235904id_/https://lineblog.me/masudajunichi/archives/9246403.html
+  raw_page: raw/articles/9246403.html
+assets:
+- id: line-9246403-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e1d5d16e84d280e363e604a2d6671773d3c26367e1171160e2c5d79735c604933367f4737484a50637253305e2b3012452406450b69175f4f21326265777d1226606d767d147e01316c6d761e36686c346966642d452c5e23
+  display_url: https://obs.line-scdn.net/0m0e1d5d16e84d280e363e604a2d6671773d3c26367e1171160e2c5d79735c604933367f4737484a50637253305e2b3012452406450b69175f4f21326265777d1226606d767d147e01316c6d761e36686c346966642d452c5e23/small
+  local_path: archive/gamefreak-lineblog/assets/9246403/001-24a195e686.jpg
+  sha256: e1b8f47a96e160894d19838e964002208d08e8d3dbb72a946f41cbee87f18e40
+  width: 1240
+  height: 2048
+  wayback_url: https://web.archive.org/web/20200804235904id_/https://obs.line-scdn.net/0m0e1d5d16e84d280e363e604a2d6671773d3c26367e1171160e2c5d79735c604933367f4737484a50637253305e2b3012452406450b69175f4f21326265777d1226606d767d147e01316c6d761e36686c346966642d452c5e23
+  retrieval_method: wayback
+- id: line-9246403-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e1d5c87e84d280e363e604a2d6671773d3c26367e1171160e7c5b3b6e6c54503344564f4c395f59482f41757d2a680c6a52205129643c594b21326265777d1226616a757d147e01376369231d673233346966642d452b0e20
+  display_url: https://obs.line-scdn.net/0m0e1d5c87e84d280e363e604a2d6671773d3c26367e1171160e7c5b3b6e6c54503344564f4c395f59482f41757d2a680c6a52205129643c594b21326265777d1226616a757d147e01376369231d673233346966642d452b0e20/small
+  local_path: archive/gamefreak-lineblog/assets/9246403/002-d7d5853f54.jpg
+  sha256: 8e92af5125bf8e44bc109e7eae60a9d4a1aeddead1b99c4e27e7de41f8de33d1
+  width: 1536
+  height: 2048
+  wayback_url: https://web.archive.org/web/20200804235904id_/https://obs.line-scdn.net/0m0e1d5c87e84d280e363e604a2d6671773d3c26367e1171160e7c5b3b6e6c54503344564f4c395f59482f41757d2a680c6a52205129643c594b21326265777d1226616a757d147e01376369231d673233346966642d452b0e20
+  retrieval_method: wayback
+- id: line-9246403-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e1d5470e84d280e363e604a2d6671773d3c26367e1171160e3d406841653e642255497577333f524355483b322a22277d20417b13616b526d21326265777d12246368717d147e01313b66771d673268346966642d427a5c20
+  display_url: https://obs.line-scdn.net/0m0e1d5470e84d280e363e604a2d6671773d3c26367e1171160e3d406841653e642255497577333f524355483b322a22277d20417b13616b526d21326265777d12246368717d147e01313b66771d673268346966642d427a5c20/small
+  local_path: archive/gamefreak-lineblog/assets/9246403/003-5e237991e8.jpg
+  sha256: 030596ecaac1aa09e8248c9b7d2f0664db282278fa0314c09e552ff4d94189ad
+  width: 768
+  height: 1024
+  wayback_url: https://web.archive.org/web/20200804235904id_/https://obs.line-scdn.net/0m0e1d5470e84d280e363e604a2d6671773d3c26367e1171160e3d406841653e642255497577333f524355483b322a22277d20417b13616b526d21326265777d12246368717d147e01313b66771d673268346966642d427a5c20
+  retrieval_method: wayback
+- id: line-9246403-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://obs.line-scdn.net/0m0e1d5fc4e84d280e363e604a2d6671773d3c26367e1171160e045e42297d62463969413137637e69445b6370335a0f183340137b2464257e3421326265777d12266a6a757d147e01633e6d7e1d67323d346966642d452e5575
+  display_url: https://obs.line-scdn.net/0m0e1d5fc4e84d280e363e604a2d6671773d3c26367e1171160e045e42297d62463969413137637e69445b6370335a0f183340137b2464257e3421326265777d12266a6a757d147e01633e6d7e1d67323d346966642d452e5575/small
+  local_path: archive/gamefreak-lineblog/assets/9246403/004-ae41f4799c.jpg
+  sha256: bc788e25c81fee007e99ddb187a5ea0c3d5c9cc93bb5e1100909c69eb689456b
+  width: 1536
+  height: 2048
+  wayback_url: https://web.archive.org/web/20200804235904id_/https://obs.line-scdn.net/0m0e1d5fc4e84d280e363e604a2d6671773d3c26367e1171160e045e42297d62463969413137637e69445b6370335a0f183340137b2464257e3421326265777d12266a6a757d147e01633e6d7e1d67323d346966642d452e5575
+  retrieval_method: wayback
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:14+00:00'

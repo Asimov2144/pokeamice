@@ -1,0 +1,74 @@
+article_id: masuda-line-8745863
+post_id: 8745863
+lang: ja
+date: '2016-10-31'
+title: Happy Halloween!
+categories:
+- 日記
+tags: []
+source: https://lineblog.me/masudajunichi/archives/8745863.html
+status: source-extracted
+author:
+  name_ja: 増田順一
+  name_zh: 增田顺一
+series:
+  name_ja: 増田順一 公式ブログ
+  name_zh: 增田顺一 LINE BLOG
+source_record:
+  url: https://lineblog.me/masudajunichi/archives/8745863.html
+  wayback_url: https://web.archive.org/web/20161103085806id_/https://lineblog.me/masudajunichi/archives/8745863.html
+  raw_page: raw/articles/8745863.html
+assets:
+- id: line-8745863-001
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7f08da7c.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/7/f/7f08da7c-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/8745863/001-6eb653a25c.jpg
+  sha256: 56fb7d6b5864792bb8108f955c7b106b79221f80c65ae427fb9c5736becae8d5
+  width: 959
+  height: 1278
+  wayback_url: https://web.archive.org/web/20161103085806id_/https://line.blogimg.jp/masudajunichi/imgs/7/f/7f08da7c.jpg
+  retrieval_method: wayback
+- id: line-8745863-002
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/3/f35d0389.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/3/f35d0389-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/8745863/002-f138b14a6e.jpg
+  sha256: 8af1dc698f6c3ffabcd9536b86b2a37be4c70b0695df9725ee2ec45823742f1c
+  width: 959
+  height: 1278
+  wayback_url: https://web.archive.org/web/20161103085806id_/https://line.blogimg.jp/masudajunichi/imgs/f/3/f35d0389.jpg
+  retrieval_method: wayback
+- id: line-8745863-003
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/f/7/f76eb774.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/f/7/f76eb774-s.jpg
+  local_path: archive/gamefreak-lineblog/assets/8745863/003-d5fd09e833.jpg
+  sha256: 9d1fd9ab56f5d47e4a3e93e496b90b5450602b88d8d1ea93c5570332f27798c0
+  width: 1704
+  height: 1178
+  wayback_url: https://web.archive.org/web/20161103085806id_/https://line.blogimg.jp/masudajunichi/imgs/f/7/f76eb774.jpg
+  retrieval_method: wayback
+- id: line-8745863-004
+  roles:
+  - article-image
+  - full-resolution
+  original_url: https://line.blogimg.jp/masudajunichi/imgs/d/7/d74798dd.jpg
+  display_url: https://line.blogimg.jp/masudajunichi/imgs/d/7/d74798dd-s.jpg
+  local_path: null
+  sha256: null
+  width: null
+  height: null
+  wayback_url: null
+  retrieval_method: null
+rights:
+  archive_type: unofficial
+  original_rights: Original text and images remain with their respective rights holders;
+    LINE BLOG was operated by LINE.
+extracted_at: '2026-08-31T10:08:12+00:00'
