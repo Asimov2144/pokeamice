@@ -740,11 +740,29 @@ async function requestQwenLayout(page) {
   const apiUrl = (process.env.VLM_OCR_API_URL || "https://dashscope.aliyuncs.com/compatible-mode/v1").replace(/\/+$/, "");
   const prompt = await readFile(join(root, "tools", "prompts", "magazine-layout-segmentation-strict-ja.txt"), "utf8");
   let parseError = null;
-  for (let attempt = 0; attempt < 3; attempt += 1) {
-    const retryInstruction = attempt
-      ? `\n\n前回の応答は品質検査に失敗しました：${parseError?.message || "JSON解析失敗"}。` +
-        "省略記号やコメントを使わず、上記の問題を修正した完全なJSONを最初から最後まで出力してください。"
-      : "";
+  const attemptErrors = [];
+  /* The prompt already forbids slicing vertical text column by column, and the
+     model does it anyway - all three attempts failed identically on the
+     Continue vol.32 interview. Repeating the same instruction is not a retry
+     strategy, so later attempts escalate: name the count it produced and ask
+     for far fewer, coarser regions instead of restating the rule. */
+  const attempts = Number(process.env.VLM_LAYOUT_ATTEMPTS || 4);
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    const failure = parseError?.message || "JSON解析失敗";
+    const slicedColumns = /1列ずつ/.test(failure);
+    let retryInstruction = "";
+    if (attempt === 1) {
+      retryInstruction = "\n\n前回の応答は品質検査に失敗しました：" + failure + "。"
+        + "省略記号やコメントを使わず、上記の問題を修正した完全なJSONを最初から最後まで出力してください。";
+    } else if (attempt >= 2) {
+      retryInstruction = "\n\n前回の応答も失敗しました：" + failure + "。"
+        + (slicedColumns
+          ? "縦書き本文の分割が細かすぎます。今回は本文領域の総数を大幅に減らしてください。"
+            + "1ページの本文領域は多くても6個までとし、話者マーク（「田尻」「しょこたん」など）や"
+            + "横罫線・大きな横空白で区切られる段ごとに、その段の縦列すべてを1つの矩形で囲んでください。"
+            + "細長い1列だけの領域は絶対に出力しないでください。"
+          : "領域数を減らし、短く完全なJSONだけを出力してください。途中で切れないよう簡潔にしてください。");
+    }
     const payload = {
       model: process.env.VLM_LAYOUT_MODEL || DEFAULT_LAYOUT_MODEL,
       messages: [{
@@ -755,7 +773,11 @@ async function requestQwenLayout(page) {
         ]
       }],
       temperature: 0,
-      max_tokens: 4096,
+      /* A dense vertical-text page can carry 30+ regions, and at 4096 the reply
+         was being cut mid-array - the failure surfaced as "Expected ',' or ']'
+         after array element at position 10185", which reads like a bad model
+         response but is a truncated one. */
+      max_tokens: Number(process.env.VLM_LAYOUT_MAX_TOKENS || 12288),
       enable_thinking: false
     };
     const response = await fetch(`${apiUrl}/chat/completions`, {
@@ -778,27 +800,39 @@ async function requestQwenLayout(page) {
       return normalized;
     } catch (error) {
       parseError = error;
+      attemptErrors.push(`#${attempt + 1} ${error.message}`);
     }
   }
-  throw new Error(`Qwen 布局连续三次未通过结构检查：${parseError?.message || parseError}`);
+  throw new Error(`Qwen 布局连续 ${attempts} 次未通过结构检查：${attemptErrors.join(" | ")}`);
 }
 
 async function analyzeLayout(body) {
   const pages = Array.isArray(body.pages) ? body.pages : [];
   if (!pages.length) throw new Error("Missing pages");
   if (pages.length > 4) throw new Error("一次最多分析 4 页，请分批运行");
+  /* Per-page results and per-page failures. This used to throw on the first
+     page that failed, taking the pages that had already succeeded with it - a
+     batch containing one dense page lost the good ones for no reason. */
   const results = [];
+  const failures = [];
   for (const page of pages) {
-    if (!page?.dataUrl || !page?.width || !page?.height) throw new Error(`图片数据不完整：${page?.name || "未命名图片"}`);
-    const layout = await requestQwenLayout(page);
-    results.push({
-      name: page.name || "未命名图片",
-      width: Number(page.width),
-      height: Number(page.height),
-      ...layout
-    });
+    const name = page?.name || "未命名图片";
+    if (!page?.dataUrl || !page?.width || !page?.height) {
+      failures.push({ name, error: "图片数据不完整（需要 dataUrl / width / height）" });
+      continue;
+    }
+    try {
+      const layout = await requestQwenLayout(page);
+      results.push({ name, width: Number(page.width), height: Number(page.height), ...layout });
+    } catch (error) {
+      failures.push({ name, error: error.message });
+    }
   }
-  return { model: process.env.VLM_LAYOUT_MODEL || DEFAULT_LAYOUT_MODEL, pages: results };
+  return {
+    model: process.env.VLM_LAYOUT_MODEL || DEFAULT_LAYOUT_MODEL,
+    pages: results,
+    failures
+  };
 }
 
 async function runOcrImport(body) {
