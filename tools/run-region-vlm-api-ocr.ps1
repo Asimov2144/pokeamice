@@ -1,4 +1,4 @@
-param(
+﻿param(
   [Parameter(Mandatory = $true)]
   [string]$AnnotationJson,
   [Parameter(Mandatory = $true)]

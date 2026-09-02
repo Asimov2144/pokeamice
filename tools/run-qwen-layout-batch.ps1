@@ -1,4 +1,4 @@
-param(
+﻿param(
   [Parameter(Mandatory = $true)]
   [string[]]$PagePaths,
   [Parameter(Mandatory = $true)]
@@ -157,7 +157,13 @@ $payloads = @($PagePaths | ForEach-Object {
       $orientation = [ordered]@{ rotation = 0; suggestedRotation = 0; confidence = 0; uncertain = $true; hasReadableText = $true; reason = $_.Exception.Message }
     }
   }
-  $suggestedRotation = [int]($orientation.suggestedRotation ?? $orientation.rotation)
+  # ?? is PowerShell 7 only, and import-wizard-server.mjs runs these with
+  # powershell.exe (5.1), where it is a parse error rather than a fallback.
+  $suggestedRotation = if ($null -ne $orientation.suggestedRotation) {
+    [int]$orientation.suggestedRotation
+  } else {
+    [int]$orientation.rotation
+  }
   $rotation = if ($OrientationMode -eq "apply") { [int]$orientation.rotation } else { 0 }
   if ($OrientationMode -eq "suggest" -and $suggestedRotation -ne 0) {
     $orientation.uncertain = $true
