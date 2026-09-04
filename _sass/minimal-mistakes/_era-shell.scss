@@ -165,7 +165,11 @@ body[data-era="1999"] {
     border-right: 0;
   }
 
-  .greedy-nav a {
+  /* Scoped to the link lists on purpose. The site title is itself an <a>
+     inside .greedy-nav, so a bare '.greedy-nav a' painted the tab background
+     behind it - in 2007 that was white type on a white panel, 1.00:1. */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
     display: block;
     color: $era99-gold !important;
     font-size: 0.7em;
@@ -264,6 +268,17 @@ body[data-era="1999"] {
     max-width: none;
     float: none;
     margin-right: 0;
+  }
+
+  /* The list is out of flow now, but its grid column was not: the body stayed
+     `386px 260px` and the text kept less than half the measure it had been
+     given back. One column, since nothing is beside it any more. */
+  .parallel-translation__body {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .parallel-translation__header {
+    grid-template-columns: minmax(0, 1fr) !important;
   }
 
   .parallel-translation__side {
@@ -394,13 +409,451 @@ body[data-era="1999"] {
   }
 }
 
+/* ==========================================================================
+   2003 · Portal / GBA  (2002-2005)
+   Reference: Serebii.net 2003, Pokemon.com 2002 (design/README.md).
+   Grammar: a portal - banner over a coloured section bar over a grid. Borders
+   are softening to 2-3px, whitespace is scarce, and the section bar carries
+   the site colour rather than the page frame. The board warns that this era's
+   density belongs to the index and never to interview prose, so the shell
+   tightens and the reading column does not.
+   ========================================================================== */
+
+$era03-paper: #ffffff;
+$era03-desk: #e8ecef;
+$era03-ink: #1f2933;
+$era03-rule: #b9c4cc;
+$era03-bar: #2f6f45;
+$era03-bar-dark: #245635;
+$era03-portal: #1b4f8f;
+$era03-link: #10457f;
+
+body.theme-bg-white[data-era="2003"],
+body.theme-bg-black[data-era="2003"],
+body[data-era="2003"] {
+  background: $era03-desk !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era03-paper !important;
+    max-width: 920px !important;
+    margin: 0 auto;
+    border-left: 1px solid $era03-rule;
+    border-right: 1px solid $era03-rule;
+  }
+
+  #main {
+    max-width: 920px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .page__footer {
+    max-width: 920px;
+    margin: 0 auto;
+    background: $era03-bar-dark !important;
+    border-radius: 0;
+  }
+
+  .masthead {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    background: $era03-portal !important;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap {
+    max-width: 920px;
+    padding: 0;
+  }
+
+  .greedy-nav {
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: transparent !important;
+    padding: 0;
+  }
+
+  .greedy-nav .site-logo { order: 1; align-self: center; padding: 6px 0 6px 12px; }
+
+  /* Never flex-grow the title: greedy-nav subtracts it from the room it thinks
+     the links have and moves every one of them into the hamburger. */
+  .greedy-nav .site-title { order: 2; align-self: center; flex: 0 1 auto; padding: 9px 12px; }
+  .greedy-nav .search__toggle { order: 3; align-self: center; margin-right: 8px; }
+  .greedy-nav__toggle { order: 4; align-self: center; }
+
+  .greedy-nav .visible-links {
+    order: 5;
+    flex: 0 0 100%;
+    display: flex;
+    margin: 0;
+    padding: 0 6px;
+    background: $era03-bar;
+    border-top: 1px solid rgba(255, 255, 255, 0.35);
+  }
+
+  .site-title,
+  .masthead .site-title {
+    color: #ffffff !important;
+    font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+    font-weight: 700;
+    font-size: 1.08em;
+  }
+
+  .site-subtitle { color: #bcd4ee !important; font-size: 0.62em; }
+  .search__toggle { color: #ffffff !important; }
+
+  /* Section-bar tabs. The corners have begun to round, and the active cell
+     lifts out of the bar rather than inverting the way a 1999 button did. */
+  .greedy-nav .visible-links .masthead__menu-item { margin: 4px 2px 0; }
+
+  /* Scoped to the link lists on purpose. The site title is itself an <a>
+     inside .greedy-nav, so a bare '.greedy-nav a' painted the tab background
+     behind it - in 2007 that was white type on a white panel, 1.00:1. */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: #ffffff !important;
+    font-size: 0.72em;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 6px 14px;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    background: rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    background: $era03-paper !important;
+    color: $era03-bar-dark !important;
+    text-decoration: none;
+  }
+
+  .greedy-nav .visible-links a:before { display: none; }
+  .greedy-nav button { background: transparent; border: 0; border-radius: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 0 0 3px 3px;
+    border: 1px solid $era03-rule;
+    box-shadow: none;
+    background: $era03-paper;
+  }
+
+  .greedy-nav .hidden-links a { color: $era03-ink !important; background: transparent; }
+  .greedy-nav .hidden-links a:hover { background: $era03-bar !important; color: #ffffff !important; }
+
+
+  /* The list floats for every era, not just 1999: left in the flow it took a
+     260px column and left the prose 546px on a 1020px sheet - the reading
+     column was the thing being squeezed by its own contents list. Off the
+     sheet, the article keeps the whole measure. Widths taper with the era so
+     each one still clears the desk its sheet leaves. */
+  .parallel-translation__body,
+  .parallel-translation__header {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .parallel-translation__article {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-right: 0;
+  }
+
+  .parallel-translation__side {
+    position: fixed;
+    top: 96px;
+    left: calc(50% - 460px - 218px);
+    width: 200px;
+    max-height: calc(100vh - 134px);
+    overflow-y: auto;
+    z-index: 15;
+  }
+
+  .parallel-translation__toc {
+    width: 100%;
+    border: 1px solid $era03-rule !important;
+    border-top: 3px solid $era03-bar !important;
+    border-radius: 3px !important;
+    background: $era03-paper !important;
+    box-shadow: none !important;
+    font-size: 0.84em;
+  }
+
+  .parallel-translation__toc a { color: $era03-link !important; }
+
+  .parallel-translation,
+  .page__content { color: $era03-ink; }
+
+  a { color: $era03-link; }
+
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related {
+    border: 1px solid $era03-rule !important;
+    border-top: 3px solid $era03-bar !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+    background: #fbfcfd !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.4rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+}
+
+/* ==========================================================================
+   2007 · DS / Play Web  (2006-2009)
+   Reference: Diamond / Pearl official site 2006, Daisuki Club 2005.
+   Grammar: modules rather than a portal grid - small rounded panels, pale blue
+   frames, a soft vertical gradient, and signboard tabs on the banner itself
+   instead of a section bar beneath it. The board warns against Flash and large
+   animation here, so every gradient is static and nothing moves.
+   ========================================================================== */
+
+$era07-paper: #ffffff;
+$era07-desk: #dceaf5;
+$era07-ink: #23323d;
+$era07-rule: #a9c9de;
+$era07-blue: #2a6ea3;
+$era07-blue-dark: #1d5c90;
+$era07-sky: #e8f4fc;
+$era07-link: #1668a8;
+
+body.theme-bg-white[data-era="2007"],
+body.theme-bg-black[data-era="2007"],
+body[data-era="2007"] {
+  background: $era07-desk !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era07-paper !important;
+    max-width: 980px !important;
+    margin: 0 auto;
+    border-left: 1px solid $era07-rule;
+    border-right: 1px solid $era07-rule;
+  }
+
+  #main {
+    max-width: 980px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .page__footer {
+    max-width: 980px;
+    margin: 0 auto;
+    background: $era07-blue-dark !important;
+    border-radius: 0 0 8px 8px;
+  }
+
+  .masthead {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    /* Every stop has to carry white type, not just the top one: measured in the
+     browser, #3d84bd is 4.01:1 and the old 55% stop #2f7fbf 4.27:1, so darkening
+     the top alone would have handed the failure to the middle. Both are now
+     clear of the 4.5:1 AA floor - 4.85:1 and 5.43:1 - and the gradient still reads. */
+    background: linear-gradient(180deg, #2f76ad 0%, $era07-blue 55%, $era07-blue-dark 100%) !important;
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap { max-width: 980px; padding: 4px 12px; }
+
+  .greedy-nav { align-items: center; background: transparent !important; }
+  .greedy-nav .site-title { flex: 0 1 auto; }
+
+  .site-title,
+  .masthead .site-title {
+    color: #ffffff !important;
+    font-family: "Trebuchet MS", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+    font-weight: 700;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  }
+
+  /* 9.8px bold is small text, so it needs the full 4.5:1. The pale blue this
+     used to be measured 3.99:1 on the banner; nothing tinted clears the bar on
+     a banner this light, so the subtitle is white and separates from the title
+     by size and tracking instead. */
+  .site-subtitle {
+    color: #ffffff !important;
+    font-size: 0.62em;
+    letter-spacing: 0.08em;
+  }
+  .search__toggle { color: #ffffff !important; }
+
+  .greedy-nav .visible-links .masthead__menu-item { margin: 0 3px; }
+
+  /* The small rounded panel of the era, lit by a static highlight rather than
+     by an animation. */
+  /* Scoped to the link lists on purpose. The site title is itself an <a>
+     inside .greedy-nav, so a bare '.greedy-nav a' painted the tab background
+     behind it - in 2007 that was white type on a white panel, 1.00:1. */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: $era07-blue-dark !important;
+    font-size: 0.72em;
+    font-weight: 700;
+    padding: 5px 13px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+    background: linear-gradient(180deg, #ffffff 0%, $era07-sky 100%);
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    background: linear-gradient(180deg, #fffbe6 0%, #ffe89a 100%) !important;
+    color: $era07-blue-dark !important;
+    text-decoration: none;
+  }
+
+  .greedy-nav .visible-links a:before { display: none; }
+  .greedy-nav button { background: transparent; border: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 6px;
+    border: 1px solid $era07-rule;
+    box-shadow: none;
+    background: $era07-paper;
+  }
+
+  .greedy-nav .hidden-links a { color: $era07-ink !important; background: transparent; border: 0; }
+
+
+  /* Same reasoning as the other eras: the contents list leaves the sheet so
+     the prose is not competing with it for width. */
+  .parallel-translation__body,
+  .parallel-translation__header {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .parallel-translation__article {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-right: 0;
+  }
+
+  .parallel-translation__side {
+    position: fixed;
+    top: 96px;
+    left: calc(50% - 490px - 194px);
+    width: 176px;
+    max-height: calc(100vh - 134px);
+    overflow-y: auto;
+    z-index: 15;
+  }
+
+  .parallel-translation__toc {
+    width: 100%;
+    border: 1px solid $era07-rule !important;
+    border-radius: 8px !important;
+    background: linear-gradient(180deg, #ffffff 0%, $era07-sky 100%) !important;
+    box-shadow: none !important;
+    font-size: 0.84em;
+  }
+
+  .parallel-translation__toc a { color: $era07-link !important; }
+
+  .parallel-translation,
+  .page__content { color: $era07-ink; }
+
+  a { color: $era07-link; }
+
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related {
+    border: 1px solid $era07-rule !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    background: linear-gradient(180deg, #ffffff 0%, $era07-sky 100%) !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.2rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+}
+
+/* Both shells are desktop ideas. Below the theme's own breakpoint the sheet
+   fills the window and only the article keeps its skin. */
+@media (max-width: 900px) {
+  body[data-era="2003"],
+  body.theme-bg-white[data-era="2003"],
+  body.theme-bg-black[data-era="2003"],
+  body[data-era="2007"],
+  body.theme-bg-white[data-era="2007"],
+  body.theme-bg-black[data-era="2007"] {
+    .initial-content,
+    #main,
+    .masthead,
+    .masthead__inner-wrap,
+    .page__footer {
+      max-width: none;
+      border-left: 0;
+      border-right: 0;
+      border-radius: 0;
+    }
+  }
+}
+
+
+/* ==========================================================================
+   Responsive step-down, for every era, kept at the end on purpose.
+   These used to sit between the 1999 and 2003 shells, where the later shells
+   re-declared position:fixed on the same selector at the same specificity and
+   simply won - so 2003 and 2007 kept a fixed table of contents at 375px, with
+   left: calc(50% - 490px - 194px) putting it off the left of the screen. Any
+   override that has to beat all three shells belongs after all three.
+   ========================================================================== */
+
 /* The era shell is a desktop-width idea. Below the masthead's own breakpoint
    the theme collapses to a menu button, and a fixed 860px measure would just
    overflow, so the shell steps back and only the article keeps its skin. */
-/* The list only floats while there is desk to float it on: below this the
-   sheet fills the window and it goes back into the page. */
+/* The list only floats while there is desk to float it on. Below that it goes
+   above the article at full width - never back into a side column, since a
+   column beside the prose is exactly what this moves away from. */
+/* The theme-bg-* classes are repeated here for specificity, not for effect:
+   each era block is written as body.theme-bg-white[data-era="..."], two classes
+   and an attribute, and a bare body[data-era] loses to it however late it
+   comes. Same trap that once kept the sheet colour from applying. */
 @media (max-width: 1380px) {
-  body[data-era="1999"] .parallel-translation__side {
+  body[data-era="1999"] .parallel-translation__side,
+  body.theme-bg-white[data-era="1999"] .parallel-translation__side,
+  body.theme-bg-black[data-era="1999"] .parallel-translation__side,
+  body[data-era="2003"] .parallel-translation__side,
+  body.theme-bg-white[data-era="2003"] .parallel-translation__side,
+  body.theme-bg-black[data-era="2003"] .parallel-translation__side,
+  body[data-era="2007"] .parallel-translation__side,
+  body.theme-bg-white[data-era="2007"] .parallel-translation__side,
+  body.theme-bg-black[data-era="2007"] .parallel-translation__side {
     position: static;
     width: 100%;
     max-height: none;
@@ -409,7 +862,9 @@ body[data-era="1999"] {
 }
 
 @media (max-width: 900px) {
-  body[data-era="1999"] {
+  body[data-era="1999"],
+  body.theme-bg-white[data-era="1999"],
+  body.theme-bg-black[data-era="1999"] {
     background: $era99-paper;
 
     .initial-content,

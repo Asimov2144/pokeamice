@@ -1,0 +1,1453 @@
+/* ==========================================================================
+   POKEAMICE ERA SKIN & IMMERSIVE INTERVIEW READING SYSTEM
+   Based on design/README.md and design/references.yml
+   Supports:
+   - Era 01: 1999 (1996–2001 Early Web / GB 黎明期)
+   - Era 02: 2003 (2002–2005 Portal / GBA 宝石时代)
+   - Era 03: 2007 (2006–2009 DS / Play Web 珍钻时代)
+   - Era 04: 2011 (2010–2012 Connected Web 黑白/PGL时代)
+   - Era 05: 2014 (2013–2016 Editorial Web XY法式杂志时代)
+   - Era 06: 2019 (2017–2021 Switch Microsite 剑盾时代)
+   - Era 07: 2026 (2022–2026 Modern Archive 现代档案馆)
+   - Ambient Modes: Paper (羊皮纸), Dark (暗夜), Zen (专注剧场)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. TOP READING PROGRESS BAR
+   -------------------------------------------------------------------------- */
+.interview-reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: #a24a3b;
+  z-index: 1000;
+  transition: width 0.1s ease-out;
+  pointer-events: none;
+}
+
+/* --------------------------------------------------------------------------
+   1. ERA MASTHEAD & CONTEXT BANNER
+   -------------------------------------------------------------------------- */
+.parallel-era-masthead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 14px;
+  margin-bottom: 16px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 1px solid #dcdad4;
+  background: #fbfaf8;
+  color: #555;
+  transition: all 0.25s ease;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  &__badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 10px;
+    border-radius: 3px;
+    background: #222;
+    color: #fff;
+  }
+
+  &__pub {
+    font-weight: 600;
+    color: #2b2b2b;
+  }
+
+  &__source {
+    color: #666;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    &:hover {
+      color: #0984e3;
+      text-decoration: underline;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. IMMERSIVE READING TOOLBAR
+   -------------------------------------------------------------------------- */
+.parallel-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  background: #fdfdfc;
+  border: 1px solid #e4e2dc;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+
+  &__group {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    background: #f1f0ec;
+    padding: 3px;
+    border-radius: 6px;
+  }
+
+  &__label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #777;
+    margin-right: 4px;
+    padding-left: 4px;
+    font-family: inherit;
+  }
+
+  &__btn {
+    border: none;
+    background: transparent;
+    color: #555;
+    padding: 4px 9px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+
+    &:hover {
+      color: #111;
+      background: rgba(255, 255, 255, 0.7);
+    }
+
+    &.is-active, &[aria-pressed="true"] {
+      background: #ffffff;
+      color: #111;
+      font-weight: 700;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &__zen-btn {
+    border: 1px solid #d4d2cb;
+    background: #fff;
+    color: #333;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 999px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: #111;
+      color: #fff;
+      border-color: #111;
+    }
+
+    &.is-zen-active {
+      background: #ff5252;
+      color: #fff;
+      border-color: #ff5252;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. ZEN / FOCUS THEATER MODE
+   -------------------------------------------------------------------------- */
+body.is-zen-mode {
+  .masthead,
+  .page__footer,
+  .sidebar,
+  .parallel-translation__side,
+  .parallel-translation__summary,
+  .parallel-translation__note,
+  .resource-card,
+  .resource-related,
+  .article-references,
+  .page__taxonomy,
+  .page__date {
+    display: none !important;
+  }
+
+  .parallel-translation__body {
+    display: block !important;
+    max-width: 760px !important;
+    margin: 0 auto !important;
+    padding: 30px 15px !important;
+  }
+
+  .parallel-translation__content {
+    max-width: 760px !important;
+    margin: 0 auto !important;
+  }
+
+  .parallel-text__block {
+    margin-bottom: 24px !important;
+  }
+
+  .parallel-text__cell--translation {
+    font-size: 1.15em !important;
+    line-height: 1.95 !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. AMBIENT READING THEMES (Paper / Dark)
+   -------------------------------------------------------------------------- */
+/* Warm Paper Theme */
+[data-reading-theme="paper"] {
+  background-color: #fbf8f1 !important;
+  color: #2c2720 !important;
+
+  .parallel-translation__article,
+  .parallel-translation__body,
+  .parallel-text {
+    background-color: #fbf8f1 !important;
+    color: #2c2720 !important;
+  }
+
+  .parallel-text__block {
+    background: #fdfbf7 !important;
+    border-color: #ede7d8 !important;
+    color: #2c2720 !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    background: #fffefb !important;
+    box-shadow: 0 1px 4px rgba(70, 60, 40, 0.05) !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #f5efe1 !important;
+    border-color: #ddcfba !important;
+  }
+
+  .parallel-era-masthead,
+  .parallel-toolbar,
+  .parallel-cast-bar {
+    background: #f7f3e8 !important;
+    border-color: #ded6c3 !important;
+  }
+}
+
+/* Midnight Dark Theme */
+[data-reading-theme="dark"] {
+  background-color: #14161a !important;
+  color: #e3e6ed !important;
+
+  .parallel-translation__article,
+  .parallel-translation__body,
+  .parallel-text {
+    background-color: #14161a !important;
+    color: #e3e6ed !important;
+  }
+
+  h1, h2, h3, h4 {
+    color: #f5f6fa !important;
+  }
+
+  .parallel-text__block {
+    background: #1b1e24 !important;
+    border-color: #2c313c !important;
+    color: #e3e6ed !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    background: #1f232b !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #192333 !important;
+    border-color: #2a4163 !important;
+  }
+
+  .parallel-era-masthead,
+  .parallel-toolbar,
+  .parallel-cast-bar {
+    background: #191c22 !important;
+    border-color: #2d3340 !important;
+    color: #abb2bf !important;
+  }
+
+  .parallel-toolbar__group {
+    background: #242933 !important;
+  }
+
+  .parallel-toolbar__btn {
+    color: #cbd2e1 !important;
+    &.is-active {
+      background: #363d4d !important;
+      color: #fff !important;
+    }
+  }
+
+  .parallel-cast-chip {
+    background: #222630 !important;
+    border-color: #333a4a !important;
+    color: #cbd2e1 !important;
+  }
+
+  .parallel-text__cell--original {
+    background: #181a20 !important;
+    border-color: #2d323f !important;
+    color: #8b949e !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. ERA SKIN SPECIFIC STYLING (7 ERAS)
+   -------------------------------------------------------------------------- */
+
+/* === ERA 01: 1999 (Early Web 1996-2001, GB / 赤绿金银黎明期) === */
+[data-era-skin="1999"] {
+  .parallel-era-masthead {
+    border-radius: 0;
+    border: 1px solid #003a70;
+    background: #003a70;
+    color: #ffcb05;
+
+    &__badge {
+      background: #ffcb05;
+      color: #003a70;
+      border-radius: 0;
+      font-weight: 800;
+    }
+
+    &__pub {
+      color: #ffffff;
+    }
+
+    &__source {
+      color: #ffe066;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 0 !important;
+    border: 1px solid #c8c5bc !important;
+    box-shadow: none !important;
+    font-family: Georgia, "Songti SC", SimSun, "Noto Serif SC", serif;
+  }
+
+  .parallel-speaker__badge {
+    border-radius: 0 !important;
+    border: 1px solid #777;
+    background: #f0eee6;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #eef3f9 !important;
+    border-left: 4px solid #003a70 !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    border-left: 4px solid #d82a2a !important;
+  }
+
+  .parallel-cast-chip {
+    border-radius: 0 !important;
+    border: 1px solid #bbb !important;
+  }
+}
+
+/* === ERA 02: 2003 (Portal / GBA Web 2002-2005, 宝石/火红叶绿时代) === */
+[data-era-skin="2003"] {
+  .parallel-era-masthead {
+    border-radius: 2px;
+    border: 1px solid #1b5bb5;
+    background: #174f92;
+    color: #fff;
+
+    &__badge {
+      background: #d82a2a;
+      color: #fff;
+      border-radius: 2px;
+    }
+
+    &__pub {
+      color: #fff;
+    }
+
+    &__source {
+      color: #70d6ff;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 3px !important;
+    border: 1px solid #d0ceca !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04) !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #edf5ff !important;
+    border-left: 4px solid #1b5bb5 !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    border-left: 4px solid #d82a2a !important;
+  }
+}
+
+/* === ERA 03: 2007 (DS / Play Web 2006-2009, 珍钻/白金/心金魂银时代) === */
+[data-era-skin="2007"] {
+  .parallel-era-masthead {
+    border-radius: 8px;
+    border: 1px solid #bcd4ec;
+    background: #e8f2fc;
+    color: #1a5a9c;
+
+    &__badge {
+      background: #2575fc;
+      color: #fff;
+      border-radius: 999px;
+    }
+
+    &__pub {
+      color: #114275;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 8px !important;
+    border: 1px solid #cbe0f5 !important;
+    border-bottom: 2px solid #b3d2f2 !important;
+    box-shadow: 0 2px 6px rgba(37, 117, 252, 0.05) !important;
+  }
+
+  .parallel-speaker__badge {
+    border-radius: 999px !important;
+  }
+
+  .parallel-cast-chip {
+    border-radius: 999px !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #f2f8ff !important;
+    border-left: 4px solid #2575fc !important;
+  }
+}
+
+/* === ERA 04: 2011 (Connected Web 2010-2012, 黑白/B2W2/PGL时代) === */
+[data-era-skin="2011"] {
+  .parallel-era-masthead {
+    border-radius: 6px;
+    border: 1px solid #222;
+    background: #1a1a1a;
+    color: #e5e5e5;
+
+    &__badge {
+      background: #ffffff;
+      color: #111;
+      border-radius: 4px;
+      font-weight: 800;
+    }
+
+    &__pub {
+      color: #fff;
+    }
+
+    &__source {
+      color: #00b4d8;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 6px !important;
+    border: 1px solid #d4d4d4 !important;
+    background: #ffffff !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #f7f9fa !important;
+    border-left: 4px solid #34495e !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    border-left: 4px solid #111 !important;
+  }
+}
+
+/* === ERA 05: 2014 (Editorial Web 2013-2016, XY法式杂志时代) === */
+[data-era-skin="2014"] {
+  .parallel-era-masthead {
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #222;
+    background: transparent;
+    color: #222;
+    padding-left: 0;
+    padding-right: 0;
+
+    &__badge {
+      background: #222;
+      color: #fff;
+      border-radius: 0;
+      letter-spacing: 0.08em;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 4px !important;
+    border: 1px solid #eae7e1 !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03) !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #faf9f7 !important;
+    border-left: 3px solid #7f8c8d !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    border-left: 3px solid #e74c3c !important;
+  }
+}
+
+/* === ERA 06: 2019 (Switch Microsite 2017-2021, 剑盾/极巨化时代) === */
+[data-era-skin="2019"] {
+  .parallel-era-masthead {
+    border-radius: 8px;
+    border: 1px solid #e6005c;
+    background: #4a4678;
+    color: #fff;
+
+    &__badge {
+      background: rgba(255, 255, 255, 0.25);
+      backdrop-filter: blur(4px);
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    &__pub {
+      color: #fff;
+    }
+
+    &__source {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 10px !important;
+    border: 1px solid #e9ecef !important;
+    box-shadow: 0 8px 24px rgba(123, 44, 191, 0.06) !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #fbf9fd !important;
+    border-left: 4px solid #7b2cbf !important;
+  }
+
+  .parallel-text__block.speaker-is-guest {
+    border-left: 4px solid #e6005c !important;
+  }
+}
+
+/* === ERA 07: 2026 (Modern Archive 2022-2026, 现代文库时代) === */
+[data-era-skin="2026"] {
+  .parallel-era-masthead {
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    background: #f9fafb;
+    color: #4b5563;
+
+    &__badge {
+      background: #111827;
+      color: #fff;
+      border-radius: 4px;
+    }
+
+    &__pub {
+      color: #111827;
+    }
+  }
+
+  .parallel-text__block {
+    border-radius: 8px !important;
+    border: 1px solid #e5e7eb !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+  }
+
+  .parallel-text__block.speaker-is-question {
+    background: #f8fafc !important;
+    border-left: 4px solid #475569 !important;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. INTERACTIVE SPEAKER FILTERING (Click cast chip to focus speaker)
+   -------------------------------------------------------------------------- */
+.parallel-cast-chip {
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  &.is-filter-active {
+    outline: 2px solid #ff5252;
+    background: #ff5252 !important;
+    color: #fff !important;
+    .parallel-cast-chip__avatar {
+      background: #fff !important;
+      color: #ff5252 !important;
+    }
+  }
+}
+
+.parallel-text.is-filtering {
+  .parallel-text__block {
+    opacity: 0.25;
+    transition: opacity 0.2s ease;
+    &.is-match-speaker {
+      opacity: 1;
+      transform: scale(1.005);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1) !important;
+    }
+  }
+}
+
+/* --------------------------------------------------------------------------
+   7. ARCHIVE READING SURFACE
+   The board's nostalgia is carried by structure: a paper surface, a source
+   record, small catalog labels, and restrained era-specific accents.
+   -------------------------------------------------------------------------- */
+.layout--parallel-translation {
+  --interview-paper: #f4eee3;
+  --interview-panel: #fffaf1;
+  --interview-ink: #2d2a25;
+  --interview-muted: #7d756b;
+  --interview-line: #c9bfaf;
+  --interview-accent: #a24a3b;
+  background: #e7dfd2;
+}
+
+.layout--parallel-translation .masthead {
+  border-bottom: 1px solid var(--interview-line);
+  background: var(--interview-paper);
+}
+
+.layout--parallel-translation .parallel-translation {
+  width: min(1240px, 100%);
+  padding: clamp(1rem, 3vw, 2.5rem) clamp(0.8rem, 3vw, 2.4rem) 3.5rem;
+}
+
+.layout--parallel-translation .parallel-translation__article {
+  border: 1px solid var(--interview-line);
+  background: var(--interview-paper);
+  box-shadow: 0 18px 40px rgba(72, 57, 40, 0.12);
+}
+
+.layout--parallel-translation .parallel-translation__header {
+  gap: 0.8rem;
+  margin: 0;
+  padding: clamp(1rem, 2vw, 1.6rem) clamp(1rem, 3vw, 2.25rem) 1.15rem;
+  border-bottom: 1px solid var(--interview-line);
+}
+
+.layout--parallel-translation .parallel-translation__header h1 {
+  max-width: 900px;
+  color: var(--interview-ink);
+  font-family: Georgia, "Songti SC", SimSun, serif;
+  font-size: clamp(1.65rem, 3.1vw, 2.85rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1.17;
+}
+
+.layout--parallel-translation .parallel-translation__kicker,
+.parallel-archive-record__eyebrow,
+.parallel-archive-route__label,
+.parallel-source-shelf__label > span,
+.parallel-transcript-heading > span {
+  color: var(--interview-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.64rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.layout--parallel-translation .parallel-translation__meta span {
+  border-color: var(--interview-line);
+  border-radius: 2px;
+  background: rgba(255, 250, 241, 0.72);
+  color: var(--interview-muted);
+}
+
+.layout--parallel-translation .parallel-translation__body {
+  gap: clamp(1.25rem, 3vw, 2.5rem);
+  padding: 1.15rem clamp(1rem, 3vw, 2.25rem) 2.4rem;
+}
+
+.parallel-archive-record {
+  display: grid;
+  grid-template-columns: minmax(8rem, 0.33fr) minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 0.35rem;
+  border: 1px solid var(--interview-line);
+  border-left: 4px solid var(--interview-accent);
+  background: rgba(255, 250, 241, 0.64);
+  padding: 0.9rem 1rem;
+}
+
+.parallel-archive-record__heading h2,
+.parallel-source-shelf__label h2,
+.parallel-transcript-heading h2 {
+  margin: 0.15rem 0 0;
+  color: var(--interview-ink);
+  font-family: Georgia, "Songti SC", SimSun, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.parallel-archive-record__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.7rem 1rem;
+  margin: 0;
+}
+
+.parallel-archive-record__grid > div {
+  min-width: 0;
+  border-left: 1px dotted var(--interview-line);
+  padding-left: 0.7rem;
+}
+
+.parallel-archive-record__grid dt {
+  color: var(--interview-muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.59rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.parallel-archive-record__grid dd {
+  margin-top: 0.15rem;
+  overflow-wrap: anywhere;
+  color: var(--interview-ink);
+  font-size: 0.73rem;
+  line-height: 1.45;
+}
+
+.parallel-archive-route {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.85rem;
+  border-bottom: 1px dotted var(--interview-line);
+  padding: 0 0 0.8rem;
+}
+
+.parallel-archive-route a {
+  color: var(--interview-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.parallel-archive-route a::before {
+  content: "→";
+  margin-right: 0.28rem;
+  color: var(--interview-accent);
+}
+
+.parallel-archive-route a:hover,
+.parallel-archive-route a:focus-visible {
+  color: var(--interview-accent);
+  text-decoration: underline;
+}
+
+.parallel-source-shelf {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr) minmax(10rem, 0.7fr);
+  gap: 1rem;
+  align-items: start;
+  margin: 1rem 0 1.35rem;
+  border-top: 2px solid var(--interview-ink);
+  border-bottom: 1px solid var(--interview-line);
+  padding: 0.8rem 0 1rem;
+}
+
+.parallel-source-shelf figure {
+  margin: 0;
+}
+
+.parallel-source-shelf figure img {
+  display: block;
+  width: 100%;
+  max-height: 18rem;
+  object-fit: contain;
+  object-position: left top;
+  border: 1px solid var(--interview-line);
+  background: #eee4d2;
+  padding: 0.4rem;
+}
+
+.parallel-source-shelf figcaption {
+  margin-top: 0.35rem;
+  color: var(--interview-muted);
+  font-size: 0.64rem;
+}
+
+.parallel-source-shelf > p {
+  margin: 0;
+  color: var(--interview-muted);
+  font-size: 0.72rem;
+  line-height: 1.7;
+}
+
+.parallel-transcript-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 1.6rem 0 0.7rem;
+  border-bottom: 2px solid var(--interview-ink);
+  padding-bottom: 0.45rem;
+}
+
+.parallel-transcript-heading h2 {
+  font-size: 1.35rem;
+}
+
+.layout--parallel-translation .parallel-cast-bar {
+  border-radius: 2px;
+  border-color: var(--interview-line);
+  background: rgba(255, 250, 241, 0.62);
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-cast-chip {
+  appearance: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.layout--parallel-translation .parallel-cast-chip:focus-visible,
+.layout--parallel-translation .parallel-toolbar__btn:focus-visible,
+.layout--parallel-translation .parallel-toolbar__zen-btn:focus-visible {
+  outline: 2px solid var(--interview-accent);
+  outline-offset: 2px;
+}
+
+.layout--parallel-translation .parallel-toolbar {
+  border-radius: 2px;
+  border-color: var(--interview-line);
+  background: rgba(255, 250, 241, 0.8);
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-toolbar__group {
+  border-radius: 2px;
+  background: #e9e0d3;
+}
+
+.layout--parallel-translation .parallel-toolbar__btn {
+  border-radius: 2px;
+  color: var(--interview-ink);
+}
+
+.layout--parallel-translation .parallel-toolbar__btn.is-active,
+.layout--parallel-translation .parallel-toolbar__btn[aria-pressed="true"] {
+  background: var(--interview-accent);
+  color: #fffaf1;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-toolbar__zen-btn {
+  border-radius: 2px;
+  border-color: var(--interview-ink);
+  color: var(--interview-ink);
+}
+
+.layout--parallel-translation .parallel-toolbar__zen-btn:hover,
+.layout--parallel-translation .parallel-toolbar__zen-btn.is-zen-active {
+  border-color: var(--interview-accent);
+  background: var(--interview-accent);
+}
+
+.layout--parallel-translation .parallel-text__block {
+  border-color: var(--interview-line) !important;
+}
+
+.layout--parallel-translation .parallel-text__cell--translation,
+.layout--parallel-translation .parallel-text__cell--original {
+  color: var(--interview-ink);
+}
+
+[data-reading-theme="paper"] .parallel-archive-record,
+[data-reading-theme="paper"] .parallel-source-shelf,
+[data-reading-theme="paper"] .parallel-cast-bar {
+  background: #f7f0e3 !important;
+}
+
+@media (max-width: 760px) {
+  .parallel-archive-record,
+  .parallel-source-shelf {
+    grid-template-columns: 1fr;
+  }
+
+  .parallel-archive-record__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .parallel-source-shelf figure img {
+    max-height: 20rem;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 520px) {
+  .layout--parallel-translation .parallel-translation__body {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .parallel-archive-record__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .parallel-archive-record__grid > div {
+    border-left: 0;
+    border-top: 1px dotted var(--interview-line);
+    padding: 0.55rem 0 0;
+  }
+
+  .parallel-transcript-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interview-reading-progress,
+  .parallel-cast-chip,
+  .parallel-text__block,
+  .parallel-toolbar__btn,
+  .parallel-toolbar__zen-btn {
+    transition: none !important;
+  }
+}
+
+/* ==========================================================================
+   8. READING-FIRST INTERVIEW FLOW
+   The transcript is the article. Metadata remains modular, while dialogue
+   flows as continuous editorial copy with a quiet speaker gutter.
+   ========================================================================== */
+
+.layout--parallel-translation .parallel-archive-record {
+  border-top: 1px solid var(--interview-line);
+  border-right: 0;
+  border-bottom: 1px solid var(--interview-line);
+  border-left: 3px solid var(--interview-accent);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-cast-bar {
+  display: block;
+  margin: 1.35rem 0 1.7rem;
+  border-top: 1px solid var(--interview-line);
+  border-right: 0;
+  border-bottom: 1px solid var(--interview-line);
+  border-left: 0;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0.7rem 0;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-cast-bar__title {
+  display: inline-flex;
+  margin: 0 0.9rem 0 0;
+  color: var(--interview-muted);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+}
+
+.layout--parallel-translation .parallel-cast-bar__title i {
+  color: var(--interview-accent);
+}
+
+.layout--parallel-translation .parallel-cast-bar__list {
+  display: inline-flex;
+  gap: 0.35rem 0.75rem;
+  vertical-align: middle;
+}
+
+.layout--parallel-translation .parallel-cast-chip {
+  gap: 0.35rem;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0.15rem 0.1rem 0.24rem;
+  color: var(--interview-ink);
+  font-size: 0.72rem;
+}
+
+.layout--parallel-translation .parallel-cast-chip:hover,
+.layout--parallel-translation .parallel-cast-chip[aria-pressed="true"] {
+  border-bottom-color: var(--interview-accent);
+  color: var(--interview-accent);
+}
+
+.layout--parallel-translation .parallel-cast-chip__avatar {
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 2px;
+  background: var(--interview-ink) !important;
+  color: var(--interview-paper);
+  font-size: 0.58rem;
+}
+
+.layout--parallel-translation .parallel-cast-chip__tag {
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0;
+  color: var(--interview-muted) !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.05em;
+}
+
+.layout--parallel-translation .parallel-text--web-article {
+  margin: 0 auto;
+  max-width: 67rem;
+}
+
+.layout--parallel-translation .parallel-text--web-article .parallel-text__marker {
+  display: none !important;
+}
+
+.layout--parallel-translation .parallel-transcript-heading {
+  margin-top: 1.2rem;
+  margin-bottom: 0.35rem;
+  border-bottom: 2px solid var(--interview-ink);
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block {
+  display: grid;
+  grid-template-columns: minmax(7rem, 8rem) minmax(0, 1fr);
+  column-gap: clamp(1.25rem, 3.5vw, 3.4rem);
+  margin: 0;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(201, 191, 175, 0.64) !important;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 1.55rem 0 1.45rem;
+  box-shadow: none !important;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block:hover,
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block:focus,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block:hover,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block:focus {
+  border-bottom-color: var(--interview-line) !important;
+  box-shadow: none !important;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block.speaker-switched,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block.speaker-switched {
+  margin-top: 1.15rem;
+  border-top: 1px solid var(--interview-ink) !important;
+  padding-top: 1.65rem;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block:not(.speaker-switched),
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block:not(.speaker-switched) {
+  border-bottom-color: rgba(201, 191, 175, 0.42) !important;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker {
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  margin: 0;
+  padding-top: 0.12rem;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker {
+  visibility: hidden;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker__badge,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker__badge {
+  display: grid;
+  justify-items: start;
+  gap: 0.22rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0 0 0 0.7rem;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker__avatar,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker__avatar {
+  display: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker__name,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker__name {
+  color: var(--interview-ink);
+  font-family: Georgia, "Songti SC", SimSun, serif;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker__role,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker__role {
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0;
+  color: var(--interview-accent) !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__pair,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__pair {
+  grid-column: 2;
+  grid-row: 1;
+  display: block;
+  min-width: 0;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block:not(.has-speaker) .parallel-text__pair,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block:not(.has-speaker) .parallel-text__pair {
+  grid-column: 1 / -1;
+  max-width: 67ch;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--translation,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__cell--original {
+  background: transparent;
+  padding: 0;
+  color: var(--interview-ink) !important;
+  font-size: 1rem;
+  font-weight: 400 !important;
+  line-height: 2.05;
+  cursor: default;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--translation p,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__cell--original p {
+  margin: 0 0 1.05rem;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--translation > :last-child,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__cell--original > :last-child {
+  margin-bottom: 0;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block--small .parallel-text__cell--translation,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block--small .parallel-text__cell--original {
+  font-size: 0.9rem;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block--large .parallel-text__cell--translation,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block--large .parallel-text__cell--original {
+  font-size: 1.08rem;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block--xlarge .parallel-text__cell--translation,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block--xlarge .parallel-text__cell--original {
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-toggle,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-toggle {
+  position: static;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: start;
+  width: auto;
+  min-width: 0;
+  height: auto;
+  margin: 0.65rem 0 0;
+  border: 0;
+  border-bottom: 1px dotted var(--interview-accent);
+  border-radius: 0;
+  background: transparent;
+  padding: 0 0.12rem 0.12rem;
+  color: var(--interview-accent);
+  font-size: 0.59rem;
+  line-height: 1.25;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-toggle::before,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-toggle::before {
+  display: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-popover,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-popover {
+  position: static;
+  grid-column: 2;
+  grid-row: 3;
+  width: auto;
+  margin: 0.65rem 0 0;
+  border: 0;
+  border-top: 1px dotted var(--interview-line);
+  border-radius: 0;
+  background: transparent;
+  padding: 0.6rem 0 0;
+  color: var(--interview-muted);
+  font-size: 0.7rem;
+  line-height: 1.7;
+  box-shadow: none;
+}
+
+/* Explicit comparison mode: two quiet columns, still without dialogue cards. */
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__block {
+  display: grid;
+  grid-template-columns: minmax(7rem, 8rem) minmax(0, 1fr);
+  column-gap: clamp(1.25rem, 3.5vw, 3.4rem);
+  margin: 0;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(201, 191, 175, 0.64) !important;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 1.35rem 0;
+  box-shadow: none !important;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker {
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  margin: 0;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker {
+  visibility: hidden;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__pair {
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 3vw, 2rem);
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker__badge {
+  display: grid;
+  justify-items: start;
+  gap: 0.22rem;
+  border: 0;
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0 0 0 0.7rem;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker__avatar {
+  display: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker__name {
+  color: var(--interview-ink);
+  font-family: Georgia, "Songti SC", SimSun, serif;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker__role {
+  border-radius: 0;
+  background: transparent !important;
+  padding: 0;
+  color: var(--interview-accent) !important;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__cell--original {
+  display: block;
+  border-left: 1px solid var(--interview-line);
+  background: transparent;
+  padding: 0 0 0 1rem;
+  color: var(--interview-muted);
+  font-size: 0.82rem;
+  line-height: 1.85;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__cell--translation {
+  background: transparent;
+  padding: 0;
+  color: var(--interview-ink);
+  font-size: 0.95rem;
+  line-height: 1.9;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--interview-accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note-toggle {
+  position: static;
+  grid-column: 2;
+  grid-row: 2;
+  justify-self: start;
+  width: auto;
+  min-width: 0;
+  height: auto;
+  margin: 0.65rem 0 0;
+  border: 0;
+  border-bottom: 1px dotted var(--interview-accent);
+  border-radius: 0;
+  background: transparent;
+  padding: 0 0.12rem 0.12rem;
+  color: var(--interview-accent);
+  font-size: 0.59rem;
+  line-height: 1.25;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note-toggle::before {
+  display: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note-popover {
+  position: static;
+  grid-column: 2;
+  grid-row: 3;
+  width: auto;
+  margin: 0.65rem 0 0;
+  border: 0;
+  border-top: 1px dotted var(--interview-line);
+  border-radius: 0;
+  background: transparent;
+  padding: 0.6rem 0 0;
+  color: var(--interview-muted);
+  font-size: 0.68rem;
+  line-height: 1.65;
+  box-shadow: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note,
+.layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__comments {
+  margin: 0;
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+@media (max-width: 760px) {
+  .layout--parallel-translation .parallel-cast-bar__title {
+    display: flex;
+    margin-bottom: 0.45rem;
+  }
+
+  .layout--parallel-translation .parallel-cast-bar__list {
+    display: flex;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block,
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__block {
+    grid-template-columns: 1fr;
+    row-gap: 0.65rem;
+    padding: 1.25rem 0 1.2rem;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-speaker,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-speaker,
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-speaker {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker,
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__block.has-speaker:not(.speaker-switched) .parallel-speaker {
+    display: none;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__pair,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__pair,
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__pair {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__pair {
+    grid-template-columns: 1fr;
+    gap: 0.95rem;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__cell--original {
+    border-top: 1px solid var(--interview-line);
+    border-left: 0;
+    padding: 0.85rem 0 0;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note-toggle,
+  .layout--parallel-translation .parallel-translation[data-view="parallel"] .parallel-text--web-article .parallel-text__note-popover {
+    grid-column: 1;
+  }
+
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-toggle,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-toggle,
+  .layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-popover,
+  .layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-popover {
+    grid-column: 1;
+  }
+}

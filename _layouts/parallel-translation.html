@@ -6,37 +6,140 @@ layout: default
 {% assign original_lang = page.original_lang | default: "ja" %}
 {% assign translation_lang = page.translation_lang | default: "zh-CN" %}
 {% assign default_view = page.parallel_view | default: "translation" %}
+{% assign lead_image_item = items | where: "type", "image" | first %}
+{% assign lead_image = page.header.image | default: page.source_image | default: lead_image_item.image | default: lead_image_item.src %}
+{% assign record_source_title = page.source.title | default: page.publication | default: "未标注来源" %}
+{% assign record_people = page.interviewee | default: "未标注" %}
+{% assign record_work = page.entities.works | join: "、" | default: "未标注" %}
+{% assign record_pages = page.pages | default: page.page_range | default: page.page | default: "未标注" %}
+{% assign record_language = page.source.language | default: original_lang | default: "未标注" %}
+{% assign record_status = page.workflow.published | default: "published" %}
+{% assign source_kind = page.source.source_type | default: page.source_kind | default: "web_interview" %}
 
-<main class="parallel-translation" role="main" data-parallel-translation data-view="{{ default_view }}">
+{%- comment -%}
+  The same table used to live here and in _includes/era-skin.html, which is how
+  default.html decides the <body data-era>. Two copies of one mapping is one to
+  keep in step; this reads the shared one.
+{%- endcomment -%}
+{% include era-skin.html %}
+
+<div class="interview-reading-progress" id="readingProgressBar" aria-hidden="true"></div>
+
+<main class="parallel-translation" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
   <article class="parallel-translation__article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
     <header class="parallel-translation__header">
+      <div class="parallel-era-masthead">
+        <div class="parallel-era-masthead__left">
+          <span class="parallel-era-masthead__badge"><i class="fas fa-history"></i> {{ era_label }}</span>
+          <span class="parallel-era-masthead__pub">{{ page.publication | default: page.source.source_type | default: "INTERVIEW ARCHIVE" }}</span>
+          {% if page.date %}<span>{{ page.date | date: "%Y年%m月%d日" }}</span>{% endif %}
+        </div>
+        <div class="parallel-era-masthead__right">
+          {%- comment -%}
+            page.source is a scalar URL on some posts and a mapping on others.
+            Falling back to the mapping itself printed its Ruby inspect into the
+            href - and the quotes inside it closed the attribute early, so the
+            rest of the tag leaked out as visible text. Only take the fallback
+            when it actually looks like a URL.
+
+            Compared against "" rather than blank on purpose. Without ActiveSupport
+            loaded, nil does not respond to blank?, and Liquid's blank comparison
+            then yields nil - so 'u == blank' was never true and 'u != blank' was
+            always true. That combination skipped the fallback below and still
+            emitted the anchor, which is how a dead href="" reached the page.
+          {%- endcomment -%}
+          {% assign parallel_source_url = page.original_link | default: page.source.url | default: "" %}
+          {% if parallel_source_url == "" %}
+            {% assign source_scalar = page.source | append: "" %}
+            {% unless source_scalar contains "=>" %}
+              {% if source_scalar contains "://" %}
+                {% assign parallel_source_url = source_scalar %}
+              {% endif %}
+            {% endunless %}
+          {% endif %}
+          {% if parallel_source_url != "" %}
+            <a class="parallel-era-masthead__source" href="{{ parallel_source_url | escape }}" target="_blank" rel="noopener">
+              <i class="fas fa-external-link-alt"></i> 原始文献
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
       {% if page.kicker %}
         <p class="parallel-translation__kicker">{{ page.kicker }}</p>
       {% endif %}
       <h1 itemprop="headline">{{ page.title }}</h1>
-      <div class="parallel-translation__meta">
-        {% if page.publication %}<span>{{ page.publication }}</span>{% endif %}
+      <div class="parallel-translation__meta" aria-label="访谈概要">
         {% if page.author %}<span>原文：{{ page.author }}</span>{% endif %}
         {% if page.translator %}<span>译者：{{ page.translator }}</span>{% endif %}
-        {% if page.date %}<span>{{ page.date | date: "%Y-%m-%d" }}</span>{% endif %}
+        {% if page.interviewee %}<span>受访：{{ page.interviewee }}</span>{% endif %}
       </div>
-      {% assign parallel_source_url = page.original_link | default: page.source.url | default: page.source %}
-      {% if parallel_source_url %}
-        <a class="parallel-translation__source" href="{{ parallel_source_url }}" target="_blank" rel="noopener">来源</a>
-      {% endif %}
+
       {% include resource-card.html document=page %}
-      <div class="parallel-translation__view" aria-label="阅读模式">
-        <span>阅读模式</span>
-        <button type="button" data-view-choice="translation" aria-pressed="true">译文优先</button>
-        <button type="button" data-view-choice="parallel" aria-pressed="false">左右对照</button>
-        <button type="button" data-view-choice="original" aria-pressed="false">纯原文</button>
+
+      <section class="parallel-archive-record" aria-labelledby="archive-record-title">
+        <div class="parallel-archive-record__heading">
+          <span class="parallel-archive-record__eyebrow">Archive record</span>
+          <h2 id="archive-record-title">档案记录</h2>
+        </div>
+        <dl class="parallel-archive-record__grid">
+          <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
+          <div><dt>Source</dt><dd>{{ record_source_title }}</dd></div>
+          <div><dt>People</dt><dd>{{ record_people }}</dd></div>
+          <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
+          <div><dt>Page</dt><dd>{{ record_pages }}</dd></div>
+          <div><dt>Language</dt><dd>{{ record_language }}</dd></div>
+          <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
+        </dl>
+      </section>
+
+      <div class="parallel-toolbar" aria-label="阅读控制栏">
+        <div class="parallel-toolbar__group" role="group" aria-label="对照模式">
+          <span class="parallel-toolbar__label"><i class="fas fa-columns"></i> 模式</span>
+          <button type="button" class="parallel-toolbar__btn is-active" data-view-choice="translation" aria-pressed="true">译文优先</button>
+          <button type="button" class="parallel-toolbar__btn" data-view-choice="parallel" aria-pressed="false">左右对照</button>
+          <button type="button" class="parallel-toolbar__btn" data-view-choice="original" aria-pressed="false">纯原文</button>
+        </div>
+
+        <div class="parallel-toolbar__group" role="group" aria-label="环境色温">
+          <span class="parallel-toolbar__label"><i class="fas fa-palette"></i> 氛围</span>
+          <button type="button" class="parallel-toolbar__btn is-active" data-theme-choice="auto" title="跟随时代复古皮肤">年代自适应</button>
+          <button type="button" class="parallel-toolbar__btn" data-theme-choice="paper" title="复古温润羊皮纸"><i class="fas fa-file-alt" aria-hidden="true"></i> 羊皮纸</button>
+          <button type="button" class="parallel-toolbar__btn" data-theme-choice="dark" title="夜间剧场暗色"><i class="fas fa-moon" aria-hidden="true"></i> 暗夜</button>
+          <button type="button" class="parallel-toolbar__btn" data-theme-choice="clean" title="现代明朗白"><i class="fas fa-sun" aria-hidden="true"></i> 纯净</button>
+        </div>
+
+        <button type="button" class="parallel-toolbar__zen-btn" id="zenModeToggle" title="隐去侧边栏专注阅读">
+          <i class="fas fa-expand-alt"></i> 专注模式
+        </button>
       </div>
     </header>
 
     <div class="parallel-translation__body">
       <div class="parallel-translation__content" itemprop="text">
+        <nav class="parallel-archive-route" aria-label="档案路径">
+          <span class="parallel-archive-route__label">Archive route</span>
+          <a href="{{ '/search/?type=访谈翻译' | relative_url }}">访谈索引</a>
+          <a href="{{ '/timeline/' | relative_url }}">时间线</a>
+          <a href="#parallel-reading">进入逐段阅读</a>
+        </nav>
+
         {% if page.summary %}
           <p class="parallel-translation__summary">{{ page.summary }}</p>
+        {% endif %}
+
+        {% if lead_image %}
+          <section class="parallel-source-shelf" aria-labelledby="source-shelf-title">
+            <div class="parallel-source-shelf__label">
+              <span>Source shelf</span>
+              <h2 id="source-shelf-title">原始资料</h2>
+            </div>
+            <figure>
+              <img src="{{ lead_image | relative_url }}" alt="{{ lead_image_item.alt | default: page.title | escape }}" loading="lazy" decoding="async">
+              {% if lead_image_item.caption %}<figcaption>{{ lead_image_item.caption | markdownify }}</figcaption>{% endif %}
+            </figure>
+            <p>图像作为阅读入口保留；正文仍以可检索、可对照的文字档案为主。</p>
+          </section>
         {% endif %}
 
         {% if content != "" %}
@@ -47,7 +150,42 @@ layout: default
         {% include resource-related.html %}
         {% include article-references.html %}
 
-        <section class="parallel-text parallel-text--web-article">
+        {% comment %} Collect all speakers in this interview {% endcomment %}
+        {% assign cast_speakers = "" | split: "" %}
+        {% for it in items %}
+          {% if it.speaker and it.speaker != "" %}
+            {% unless cast_speakers contains it.speaker %}
+              {% assign cast_speakers = cast_speakers | push: it.speaker %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+
+        {% if cast_speakers.size > 0 %}
+          <div class="parallel-cast-bar" aria-label="访谈嘉宾与阵容">
+            <div class="parallel-cast-bar__title">
+              <i class="fas fa-microphone-alt"></i> 访谈阵容
+            </div>
+            <div class="parallel-cast-bar__list">
+              {% for sp in cast_speakers %}
+                {% assign is_q = false %}
+                {% if sp contains "提问" or sp contains "记者" or sp contains "问" or sp contains "IGN" or sp contains "TIME" or sp contains "时代周刊" or sp contains "周刊" or sp contains "GI" or sp contains "4Gamer" or sp contains "Fami通" or sp contains "Pokemon.com" or sp contains "G4" %}
+                  {% assign is_q = true %}
+                {% endif %}
+                <button type="button" class="parallel-cast-chip{% if is_q %} parallel-cast-chip--question{% else %} parallel-cast-chip--guest{% endif %}" data-speaker="{{ sp | escape }}" aria-pressed="false">
+                  <span class="parallel-cast-chip__avatar">{% if is_q %}Q{% else %}{{ sp | slice: 0, 1 }}{% endif %}</span>
+                  <span class="parallel-cast-chip__name">{{ sp }}</span>
+                  <span class="parallel-cast-chip__tag">{% if is_q %}提问{% else %}受访{% endif %}</span>
+                </button>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        <section class="parallel-text parallel-text--web-article" id="parallel-reading" aria-labelledby="parallel-reading-title">
+          <header class="parallel-transcript-heading">
+            <span>Transcript / Parallel reading</span>
+            <h2 id="parallel-reading-title">逐段译读</h2>
+          </header>
           {% for item in items %}
             {% assign item_type = item.type | default: "paragraph" %}
             {% if item_type == "heading" %}
@@ -82,7 +220,41 @@ layout: default
               {% endif %}
             {% else %}
               {% assign paragraph_size = item.font_size | default: item.fontSize | default: "" %}
-              <section class="parallel-text__block{% if paragraph_size %} parallel-text__block--{{ paragraph_size }}{% endif %}" id="segment-{{ forloop.index }}" tabindex="0">
+              {% assign is_q = false %}
+              {% if item.speaker %}
+                {% if item.speaker contains "提问" or item.speaker contains "记者" or item.speaker contains "问" or item.speaker contains "IGN" or item.speaker contains "TIME" or item.speaker contains "时代周刊" or item.speaker contains "周刊" or item.speaker contains "GI" or item.speaker contains "4Gamer" or item.speaker contains "Fami通" or item.speaker contains "Pokemon.com" or item.speaker contains "G4" %}
+                  {% assign is_q = true %}
+                {% endif %}
+              {% endif %}
+
+              {% assign is_speaker_switch = false %}
+              {% if forloop.first %}
+                {% if item.speaker %}{% assign is_speaker_switch = true %}{% endif %}
+              {% else %}
+                {% assign prev_idx = forloop.index0 | minus: 1 %}
+                {% assign prev_item = items[prev_idx] %}
+                {% if item.speaker and item.speaker != prev_item.speaker %}
+                  {% assign is_speaker_switch = true %}
+                {% endif %}
+              {% endif %}
+
+              <section class="parallel-text__block{% if paragraph_size %} parallel-text__block--{{ paragraph_size }}{% endif %}{% if item.speaker %} has-speaker{% if is_q %} speaker-is-question{% else %} speaker-is-guest{% endif %}{% endif %}{% if is_speaker_switch %} speaker-switched{% endif %}"
+                id="segment-{{ forloop.index }}"
+                tabindex="0"
+                {% if item.speaker %}data-speaker="{{ item.speaker | escape }}"{% endif %}>
+
+                {% if item.speaker %}
+                  <div class="parallel-speaker" data-speaker-type="{% if is_q %}question{% else %}guest{% endif %}">
+                    <span class="parallel-speaker__badge">
+                      <span class="parallel-speaker__avatar" aria-hidden="true">
+                        {% if is_q %}<i class="fas fa-question"></i>{% else %}{{ item.speaker | slice: 0, 1 }}{% endif %}
+                      </span>
+                      <span class="parallel-speaker__name">{{ item.speaker }}</span>
+                      <span class="parallel-speaker__role">{% if is_q %}提问{% else %}受访{% endif %}</span>
+                    </span>
+                  </div>
+                {% endif %}
+
                 <div class="parallel-text__marker">
                   <span>{{ forloop.index }}</span>
                   {% if item.speaker %}<strong>{{ item.speaker }}</strong>{% endif %}
@@ -225,6 +397,101 @@ layout: default
           });
         });
       }
+    });
+
+    // 1. Reading Progress Bar
+    var progressBar = document.getElementById("readingProgressBar");
+    if (progressBar) {
+      function updateProgress() {
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+        progressBar.style.width = scrolled + "%";
+      }
+      window.addEventListener("scroll", updateProgress, { passive: true });
+      window.addEventListener("resize", updateProgress, { passive: true });
+      updateProgress();
+    }
+
+    // 2. Ambient Reading Themes (Paper / Dark / Clean / Auto)
+    var themeButtons = Array.prototype.slice.call(root.querySelectorAll("[data-theme-choice]"));
+    var themeStorageKey = "pokeamiceReadingTheme";
+    function setTheme(theme) {
+      if (["auto", "paper", "dark", "clean"].indexOf(theme) === -1) theme = "auto";
+      if (theme === "auto") {
+        root.removeAttribute("data-reading-theme");
+      } else {
+        root.setAttribute("data-reading-theme", theme);
+      }
+      themeButtons.forEach(function (b) {
+        b.classList.toggle("is-active", b.getAttribute("data-theme-choice") === theme);
+      });
+      try { localStorage.setItem(themeStorageKey, theme); } catch (_) {}
+    }
+    themeButtons.forEach(function (b) {
+      b.addEventListener("click", function () {
+        setTheme(b.getAttribute("data-theme-choice"));
+      });
+    });
+    var storedTheme = "auto";
+    try { storedTheme = window.localStorage.getItem(themeStorageKey) || "auto"; } catch (_) {}
+    setTheme(storedTheme);
+
+    // 3. Zen / Focus Theater Mode
+    var zenBtn = document.getElementById("zenModeToggle");
+    var zenStorageKey = "pokeamiceZenMode";
+    function toggleZen(force) {
+      var active = (typeof force === "boolean") ? force : !document.body.classList.contains("is-zen-mode");
+      document.body.classList.toggle("is-zen-mode", active);
+      if (zenBtn) {
+        zenBtn.classList.toggle("is-zen-active", active);
+        zenBtn.innerHTML = active ? '<i class="fas fa-compress-alt"></i> 退出专注' : '<i class="fas fa-expand-alt"></i> 专注模式';
+      }
+      try { localStorage.setItem(zenStorageKey, active ? "true" : "false"); } catch (_) {}
+    }
+    if (zenBtn) {
+      zenBtn.addEventListener("click", function () { toggleZen(); });
+      var storedZen = "false";
+      try { storedZen = window.localStorage.getItem(zenStorageKey) || "false"; } catch (_) {}
+      if (storedZen === "true") {
+        toggleZen(true);
+      }
+    }
+
+    // 4. Interactive Cast Chip Speaker Filtering
+    var castChips = Array.prototype.slice.call(root.querySelectorAll(".parallel-cast-chip"));
+    var textSection = root.querySelector(".parallel-text");
+    var activeSpeaker = null;
+
+    castChips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var speaker = chip.getAttribute("data-speaker");
+      if (activeSpeaker === speaker) {
+          // Reset
+          activeSpeaker = null;
+          castChips.forEach(function (c) { c.classList.remove("is-filter-active"); });
+          castChips.forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
+          if (textSection) {
+            textSection.classList.remove("is-filtering");
+            root.querySelectorAll(".parallel-text__block").forEach(function (b) {
+              b.classList.remove("is-match-speaker");
+            });
+          }
+        } else {
+          activeSpeaker = speaker;
+          castChips.forEach(function (c) {
+            c.classList.toggle("is-filter-active", c.getAttribute("data-speaker") === speaker);
+            c.setAttribute("aria-pressed", c.getAttribute("data-speaker") === speaker ? "true" : "false");
+          });
+          if (textSection) {
+            textSection.classList.add("is-filtering");
+            root.querySelectorAll(".parallel-text__block").forEach(function (b) {
+              var match = b.getAttribute("data-speaker") === speaker;
+              b.classList.toggle("is-match-speaker", match);
+            });
+          }
+        }
+      });
     });
 
     try {

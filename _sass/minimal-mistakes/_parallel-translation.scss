@@ -619,6 +619,418 @@
   color: #66777e;
 }
 
+/* ==========================================================================
+   Interview Speaker & Cast Styling (访谈嘉宾与说话人系统)
+   ========================================================================== */
+
+.parallel-cast-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.parallel-cast-bar__title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.76rem;
+  font-weight: 800;
+  color: #334155;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 0.25rem;
+}
+
+.parallel-cast-bar__title i {
+  color: #b84848;
+}
+
+.parallel-cast-bar__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.parallel-cast-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.22rem 0.6rem 0.22rem 0.3rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.parallel-cast-chip__avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #fff;
+}
+
+.parallel-cast-chip__name {
+  color: inherit;
+}
+
+.parallel-cast-chip__tag {
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 0.06rem 0.32rem;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+
+.parallel-cast-chip--question {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+  .parallel-cast-chip__avatar {
+    background: #3b82f6;
+  }
+  .parallel-cast-chip__tag {
+    background: #dbeafe;
+    color: #1e40af;
+  }
+}
+
+.parallel-cast-chip--guest {
+  background: #fffbeb;
+  color: #92400e;
+  border-color: #fde68a;
+  .parallel-cast-chip__avatar {
+    background: #f59e0b;
+  }
+  .parallel-cast-chip__tag {
+    background: #fef3c7;
+    color: #b45309;
+  }
+}
+
+/* Individual Speaker Header on Segments */
+.parallel-speaker {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.65rem;
+  grid-column: 1 / -1;
+  user-select: none;
+}
+
+.parallel-speaker__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.22rem 0.7rem 0.22rem 0.3rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.parallel-speaker__avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 0.72rem;
+  font-weight: 800;
+  line-height: 1;
+  background: #64748b;
+  color: #fff;
+}
+
+.parallel-speaker__name {
+  color: inherit;
+  letter-spacing: 0.01em;
+}
+
+.parallel-speaker__role {
+  font-size: 0.64rem;
+  font-weight: 600;
+  padding: 0.08rem 0.38rem;
+  border-radius: 999px;
+  line-height: 1.2;
+}
+
+/* Question style */
+.parallel-speaker[data-speaker-type="question"] .parallel-speaker__badge {
+  background: #eff6ff;
+  color: #1e40af;
+  border-color: #bfdbfe;
+}
+.parallel-speaker[data-speaker-type="question"] .parallel-speaker__avatar {
+  background: #2563eb;
+  color: #fff;
+}
+.parallel-speaker[data-speaker-type="question"] .parallel-speaker__role {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+/* Default Guest style */
+.parallel-speaker[data-speaker-type="guest"] .parallel-speaker__badge {
+  background: #fefce8;
+  color: #854d0e;
+  border-color: #fef08a;
+}
+.parallel-speaker[data-speaker-type="guest"] .parallel-speaker__avatar {
+  background: #eab308;
+  color: #fff;
+}
+.parallel-speaker[data-speaker-type="guest"] .parallel-speaker__role {
+  background: #fef9c3;
+  color: #a16207;
+}
+
+/* Dialogue Block Styling in Translation View */
+.parallel-translation[data-view="translation"] .parallel-text__block.has-speaker {
+  margin-bottom: 0.85rem;
+  padding: 0.85rem 1.15rem 0.75rem 1.2rem;
+  border-radius: 0 10px 10px 0;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__block.speaker-switched {
+  margin-top: 1.7rem;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__block.speaker-is-question {
+  background: rgba(241, 247, 255, 0.82);
+  border-left: 4.5px solid #3b82f6;
+}
+.parallel-translation[data-view="translation"] .parallel-text__block.speaker-is-question .parallel-text__cell--translation {
+  color: #0f2b5c;
+  font-weight: 500;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__block.speaker-is-guest {
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 4.5px solid #f59e0b;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* Dialogue Block Styling in Parallel / Bilingual View */
+.parallel-translation[data-view="parallel"] .parallel-text__block.has-speaker {
+  border-left-width: 4.5px;
+}
+.parallel-translation[data-view="parallel"] .parallel-text__block.speaker-is-question {
+  border-left-color: #3b82f6;
+  background: rgba(241, 247, 255, 0.4);
+}
+.parallel-translation[data-view="parallel"] .parallel-text__block.speaker-is-guest {
+  border-left-color: #f59e0b;
+}
+
+/* ==========================================================================
+   Creator Palette System (核心主创专属配色体系)
+   ========================================================================== */
+
+/* 增田顺一: Electric Pikachu Gold */
+.parallel-text__block[data-speaker*="增田顺一"],
+.parallel-text__block[data-speaker*="増田"] {
+  border-left-color: #f59e0b !important;
+  .parallel-speaker__badge {
+    background: #fefce8;
+    color: #854d0e;
+    border-color: #fde047;
+  }
+  .parallel-speaker__avatar {
+    background: #eab308;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #fef08a;
+    color: #713f12;
+  }
+}
+
+/* 田尻智: Poké Ball Crimson Red */
+.parallel-text__block[data-speaker*="田尻智"] {
+  border-left-color: #ef4444 !important;
+  .parallel-speaker__badge {
+    background: #fef2f2;
+    color: #991b1b;
+    border-color: #fca5a5;
+  }
+  .parallel-speaker__avatar {
+    background: #ef4444;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #fee2e2;
+    color: #7f1d1d;
+  }
+}
+
+/* 杉森建: Emerald Green */
+.parallel-text__block[data-speaker*="杉森建"] {
+  border-left-color: #10b981 !important;
+  .parallel-speaker__badge {
+    background: #ecfdf5;
+    color: #065f46;
+    border-color: #6ee7b7;
+  }
+  .parallel-speaker__avatar {
+    background: #10b981;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #d1fae5;
+    color: #064e3b;
+  }
+}
+
+/* 森本茂树: Mew Indigo */
+.parallel-text__block[data-speaker*="森本茂树"] {
+  border-left-color: #6366f1 !important;
+  .parallel-speaker__badge {
+    background: #eef2ff;
+    color: #3730a3;
+    border-color: #a5b4fc;
+  }
+  .parallel-speaker__avatar {
+    background: #6366f1;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #e0e7ff;
+    color: #312e81;
+  }
+}
+
+/* 石原恒和: Master Ball Violet */
+.parallel-text__block[data-speaker*="石原恒和"] {
+  border-left-color: #a855f7 !important;
+  .parallel-speaker__badge {
+    background: #faf5ff;
+    color: #581c87;
+    border-color: #d8b4fe;
+  }
+  .parallel-speaker__avatar {
+    background: #a855f7;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #f3e8ff;
+    color: #4c1d95;
+  }
+}
+
+/* 大森滋: Sapphire Cyan */
+.parallel-text__block[data-speaker*="大森滋"] {
+  border-left-color: #06b6d4 !important;
+  .parallel-speaker__badge {
+    background: #ecfeff;
+    color: #155e75;
+    border-color: #67e8f9;
+  }
+  .parallel-speaker__avatar {
+    background: #06b6d4;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #cffafe;
+    color: #164e63;
+  }
+}
+
+/* 海野隆雄: Sunset Orange */
+.parallel-text__block[data-speaker*="海野隆雄"] {
+  border-left-color: #f97316 !important;
+  .parallel-speaker__badge {
+    background: #fff7ed;
+    color: #9a3412;
+    border-color: #fdba74;
+  }
+  .parallel-speaker__avatar {
+    background: #f97316;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #ffedd5;
+    color: #7c2d12;
+  }
+}
+
+/* 渡边哲也: Teal */
+.parallel-text__block[data-speaker*="渡边哲也"] {
+  border-left-color: #14b8a6 !important;
+  .parallel-speaker__badge {
+    background: #f0fdfa;
+    color: #134e4a;
+    border-color: #99f6e4;
+  }
+  .parallel-speaker__avatar {
+    background: #14b8a6;
+    color: #fff;
+  }
+  .parallel-speaker__role {
+    background: #ccfbf1;
+    color: #115e59;
+  }
+}
+
+/* 汤山邦彦: Director Amber */
+.parallel-text__block[data-speaker*="汤山邦彦"] {
+  border-left-color: #b45309 !important;
+  .parallel-speaker__badge {
+    background: #fefce8;
+    color: #78350f;
+    border-color: #fde047;
+  }
+  .parallel-speaker__avatar {
+    background: #b45309;
+    color: #fff;
+  }
+}
+
+/* 宫崎慎二: Symphony Violet */
+.parallel-text__block[data-speaker*="宫崎慎二"] {
+  border-left-color: #7c3aed !important;
+  .parallel-speaker__badge {
+    background: #f5f3ff;
+    color: #5b21b6;
+    border-color: #c4b5fd;
+  }
+  .parallel-speaker__avatar {
+    background: #7c3aed;
+    color: #fff;
+  }
+}
+
+/* 川知丸武 & 须崎春树: Steel Cyan */
+.parallel-text__block[data-speaker*="川知丸武"],
+.parallel-text__block[data-speaker*="须崎春树"] {
+  border-left-color: #0284c7 !important;
+  .parallel-speaker__badge {
+    background: #f0f9ff;
+    color: #075985;
+    border-color: #bae6fd;
+  }
+  .parallel-speaker__avatar {
+    background: #0284c7;
+    color: #fff;
+  }
+}
+
 @media (max-width: 960px) {
   .parallel-translation__body {
     grid-template-columns: 1fr;
