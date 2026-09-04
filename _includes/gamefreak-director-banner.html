@@ -1,0 +1,128 @@
+{%- comment -%}
+The banner of the 増田部長 archive: subject and year/month browsers, the home
+link, and the outbound links.
+
+Nothing here reads `page`, which is why the layout calls it with include_cached
+- it renders once and is reused by all 499 pages. Keep it that way: the moment
+this needs anything page-specific, the cache would serve one page's markup to
+every other, and it has to go back into the layout (or take that value as a
+parameter, which re-keys the cache per value).
+
+The collections are assigned here rather than passed in, so that the work of
+building them is also done only once.
+{%- endcomment -%}
+{% assign gf = site.data.gamefreak_director %}
+{% assign gf_line = site.data.gamefreak_lineblog %}
+{% assign gf_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_posts = gf_posts | where_exp: "post", "post.gf_archive_id != nil" %}
+{% assign gf_line_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
+
+  <header class="gf-director-banner" aria-label="増田部長のめざめるパワー">
+    <div class="gf-director-banner__browse" aria-label="站内档案浏览">
+      <details class="gf-director-browser" name="gf-archive-browser">
+        <summary><span>Categories</span><small>按主题浏览</small></summary>
+        <div class="gf-director-browser__panel">
+          <p class="gf-director-browser__eyebrow">Local archive</p>
+          <h2>分类</h2>
+          <ul>
+            {% for category in gf.categories %}
+              {% assign matched_posts = "" | split: "," %}
+              {% for post in gf_posts %}
+                {% if post.gf_categories contains category.name or post.gf_categories contains category.slug %}
+                  {% assign matched_posts = matched_posts | push: post %}
+                {% endif %}
+              {% endfor %}
+              <li>
+                <span>{{ category.name }}</span>
+                <small>{{ matched_posts | size }} 篇已收录</small>
+                {% if matched_posts.size > 0 %}
+                  <ul>
+                    {% for post in matched_posts %}
+                      <li><a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+            {% for category in gf_line.categories %}
+              {% assign matched_posts = gf_line_posts | where_exp: "post", "post.gf_categories contains category.name" %}
+              <li class="gf-director-browser__lineblog-item">
+                <span>{{ category.name }}</span>
+                <small>LINE BLOG · {{ matched_posts | size }} 篇</small>
+                {% if matched_posts.size > 0 %}
+                  <ul>{% for post in matched_posts %}<li><a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y.%m.%d" }}</a></li>{% endfor %}</ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </details>
+
+      <details class="gf-director-browser" name="gf-archive-browser">
+        <summary><span>Archives</span><small>按年月浏览</small></summary>
+        <div class="gf-director-browser__panel gf-director-browser__panel--archives">
+          <p class="gf-director-browser__eyebrow">2004—2015</p>
+          <h2>年月归档</h2>
+          <ul>
+            {% for archive in gf.archives %}
+              {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {%- comment -%}归档清单使用 2013年7月，文章元数据使用 2013-07；统一去掉月份前导零后再匹配。{%- endcomment -%}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
+              {% assign archive_posts = "" | split: "," %}
+              {% for post in gf_posts %}
+                {% assign post_archive = post.gf_archive %}
+                {% if post_archive == nil or post_archive == empty %}
+                  {% assign post_archive = post.date | date: "%Y-%m" %}
+                {% endif %}
+                {% assign post_archive_normalized = post_archive | replace: "-0", "-" %}
+                {% if post_archive_normalized == archive_key_normalized %}
+                  {% assign archive_posts = archive_posts | push: post %}
+                {% endif %}
+              {% endfor %}
+              <li class="{% if archive_posts.size == 0 %}is-empty{% endif %}">
+                <span>{{ archive }}</span>
+                {% if archive_posts.size > 0 %}
+                  <span class="gf-director-browser__archive-links">
+                    {% for post in archive_posts %}
+                      <a href="{{ post.url | relative_url }}">第{{ post.gf_entry_no }}回</a>
+                    {% endfor %}
+                  </span>
+                {% else %}
+                  <small>待整理</small>
+                {% endif %}
+              </li>
+            {% endfor %}
+            {% for archive in gf_line.archives %}
+              {% assign archive_key = archive | replace: "年", "-" | replace: "月", "" %}
+              {% assign archive_key_normalized = archive_key | replace: "-0", "-" %}
+              {% assign archive_posts = "" | split: "," %}
+              {% for post in gf_line_posts %}
+                {% assign post_archive_normalized = post.gf_archive | replace: "-0", "-" %}
+                {% if post_archive_normalized == archive_key_normalized %}{% assign archive_posts = archive_posts | push: post %}{% endif %}
+              {% endfor %}
+              <li class="gf-director-browser__lineblog-item {% if archive_posts.size == 0 %}is-empty{% endif %}">
+                <span>{{ archive }}</span>
+                {% if archive_posts.size > 0 %}
+                  <span class="gf-director-browser__archive-links">{% for post in archive_posts %}<a href="{{ post.url | relative_url }}">{{ post.title | truncate: 18 }}</a>{% endfor %}</span>
+                {% else %}<small>待整理</small>{% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </details>
+    </div>
+
+    <a class="gf-director-banner__home" href="{{ '/gamefreak-director/' | relative_url }}">
+      <span class="screen-reader-text">返回増田部長のめざめるパワー文章列表</span>
+      <span class="gf-director-banner__title" aria-hidden="true">増田部長のめざめるパワー</span>
+      <span class="gf-director-banner__subtitle" aria-hidden="true">Director's Columns</span>
+    </a>
+
+    <nav class="gf-director-banner__external" aria-label="原站相关链接">
+      {% for link in gf.external_links %}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">
+          <span>{{ link.label }}</span><small>外部链接 ↗</small>
+        </a>
+      {% endfor %}
+    </nav>
+  </header>

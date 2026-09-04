@@ -1,0 +1,39 @@
+{%- comment -%}
+Which months of one series actually have posts, as a comma-separated list of
+the labels from the data file (e.g. "2004年8月,2004年9月").
+
+The quick navigation used to work this out inline, which meant 80 archives x
+245 posts - 19,600 comparisons - on every one of the 499 article pages, to
+reach the same answer every time. Only the "is-current" class on one link
+varies by page, and that stays in the layout.
+
+Takes `series` ("director" or "lineblog") and nothing else, so include_cached
+keeps one result per series and the scan runs twice for the whole site.
+
+The labels contain 年 and 月 but never a comma, so the caller can split on it.
+{%- endcomment -%}
+{%- if include.series == "lineblog" -%}
+  {%- assign months_archives = site.data.gamefreak_lineblog.archives -%}
+  {%- assign months_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" -%}
+{%- else -%}
+  {%- assign months_archives = site.data.gamefreak_director.archives -%}
+  {%- assign months_posts = site.posts | where: "archive_type", "gamefreak_director_column" -%}
+  {%- assign months_posts = months_posts | where_exp: "post", "post.gf_archive_id != nil" -%}
+{%- endif -%}
+{%- assign months_found = "" | split: "," -%}
+{%- for archive in months_archives -%}
+  {%- assign archive_key = archive | replace: "年", "-" | replace: "月", "" -%}
+  {%- assign archive_key_normalized = archive_key | replace: "-0", "-" -%}
+  {%- for candidate in months_posts -%}
+    {%- assign candidate_archive = candidate.gf_archive -%}
+    {%- if candidate_archive == nil or candidate_archive == empty -%}
+      {%- assign candidate_archive = candidate.date | date: "%Y-%m" -%}
+    {%- endif -%}
+    {%- assign candidate_archive_normalized = candidate_archive | replace: "-0", "-" -%}
+    {%- if candidate_archive_normalized == archive_key_normalized -%}
+      {%- assign months_found = months_found | push: archive -%}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{{- months_found | join: "," -}}
