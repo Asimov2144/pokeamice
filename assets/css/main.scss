@@ -8,5 +8,9 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "minimal-mistakes/custom-themes";
+@import "minimal-mistakes/home-archive-desk";
 @import "minimal-mistakes/gamefreak-director";
 @import "minimal-mistakes/gamefreak-legacy";
+/* last, so an era shell can override the theme-bg-* rules in custom-themes,
+   which are !important and would otherwise win on source order */
+@import "minimal-mistakes/era-shell";

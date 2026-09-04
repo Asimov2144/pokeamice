@@ -1,0 +1,51 @@
+{%- comment -%}
+Which era skin a page belongs to, decided in one place.
+
+The mapping used to live inside _layouts/parallel-translation.html, which meant
+only that layout knew about it - and the era could therefore only style the
+article, never the page around it. default.html needs the same answer to put
+the era on <body>, and copying the table there would be a second version of it
+to keep in step.
+
+Sets `era_skin` and `era_label`. Jekyll lets an include's assignments through
+to the caller, so including this is enough:
+
+    {% include era-skin.html %}
+    <body data-era="{{ era_skin }}">
+
+Only interview layouts get an era; everything else is left unset so the site
+chrome stays as it is.
+{%- endcomment -%}
+
+{%- assign era_layout = page.layout | default: layout.layout -%}
+{%- assign era_skin = "" -%}
+{%- assign era_label = "" -%}
+
+{%- if era_layout == "parallel-translation" or era_layout == "scan-translation" -%}
+  {%- assign post_year = page.date | date: "%Y" | plus: 0 -%}
+  {%- if page.era_skin -%}
+    {%- assign era_skin = page.era_skin -%}
+    {%- assign era_label = page.era | default: "特定年代复古专刊" -%}
+  {%- elsif post_year <= 2001 and post_year > 1980 -%}
+    {%- assign era_skin = "1999" -%}
+    {%- assign era_label = "1996–2001 · Early Web 黎明期" -%}
+  {%- elsif post_year >= 2002 and post_year <= 2005 -%}
+    {%- assign era_skin = "2003" -%}
+    {%- assign era_label = "2002–2005 · GBA / 早期门户时代" -%}
+  {%- elsif post_year >= 2006 and post_year <= 2009 -%}
+    {%- assign era_skin = "2007" -%}
+    {%- assign era_label = "2006–2009 · NDS / 触控探索时代" -%}
+  {%- elsif post_year >= 2010 and post_year <= 2012 -%}
+    {%- assign era_skin = "2011" -%}
+    {%- assign era_label = "2010–2012 · Connected / 互联时代" -%}
+  {%- elsif post_year >= 2013 and post_year <= 2016 -%}
+    {%- assign era_skin = "2014" -%}
+    {%- assign era_label = "2013–2016 · Editorial / 杂志美学时代" -%}
+  {%- elsif post_year >= 2017 and post_year <= 2021 -%}
+    {%- assign era_skin = "2019" -%}
+    {%- assign era_label = "2017–2021 · Switch / 开放世界探索" -%}
+  {%- else -%}
+    {%- assign era_skin = "2026" -%}
+    {%- assign era_label = "2022–2026 · Modern Archive / 现代档案馆" -%}
+  {%- endif -%}
+{%- endif -%}

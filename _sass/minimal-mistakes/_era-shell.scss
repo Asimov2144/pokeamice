@@ -1,0 +1,425 @@
+/* Era page shells
+   ==========================================================================
+   _interview-era.scss skins the article. This skins the page around it.
+
+   Until now an era could only reach `<main>`, so a 1999 interview got a period
+   stripe inside a page whose masthead, width and background all read as the
+   present day - the era was a decoration on a modern site rather than a
+   layout language. The era now reaches <body data-era="…">, and the shell can
+   answer to it.
+
+   The rule this follows, from design/README.md's third question - "even with
+   every Pokémon image removed, does the idea still hold?" - is that what
+   changes is typographic and structural grammar, never the information
+   architecture. Every navigation item is still there, in the same order,
+   doing the same thing. A 1999 page does not get a 1999 sitemap; it gets
+   1999's way of drawing one.
+
+   Deliberately not copied from the period, per the same document: tiny type,
+   tiled backgrounds behind reading text, blinking or animated ornament, and
+   third-party screenshots used as decoration. */
+
+/* ==========================================================================
+   1999 · Early Web
+   Reference: Pokémon World 1999 (design/README.md).
+   Grammar: fixed narrow measure, hard 1px rules, square corners, classic link
+   blue, text buttons. The page is a directory you can look through.
+   ========================================================================== */
+
+$era99-ink: #1a1a1a;
+$era99-paper: #fffdf5;
+$era99-navy: #003a70;
+$era99-gold: #ffcb05;
+$era99-rule: #9a958a;
+$era99-link: #0000cc;
+$era99-visited: #551a8b;
+
+body.theme-bg-white[data-era="1999"],
+body.theme-bg-black[data-era="1999"],
+body[data-era="1999"] {
+  /* !important throughout this block: custom-themes.scss paints the shell with
+     !important for the theme-bg-* skins, and White Theme is now the default. */
+  background: #dcd8cc !important;
+
+  /* ---- shell ---------------------------------------------------------
+     A fixed narrow measure is the single most era-defining property in the
+     token table, and the one a fluid modern layout cannot express. */
+  .initial-content {
+    background-image: none !important;
+    background-color: $era99-paper !important;
+    max-width: 860px !important;
+    margin: 0 auto;
+    border-left: 1px solid $era99-rule;
+    border-right: 1px solid $era99-rule;
+  }
+
+  #main {
+    max-width: 860px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  /* the archive layout holds 300px for a table of contents this page has no
+     room for at this measure */
+  #main .archive,
+  #main .page__content {
+    float: none;
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  .page__footer {
+    max-width: 860px;
+    margin: 0 auto;
+    border-top: 1px solid $era99-rule;
+    background: $era99-navy !important;
+    border-radius: 0;
+  }
+
+  /* ---- masthead: a brand band over an index bar ----------------------
+     The period reference is not "a nav with old colours" but a different
+     structure: a title band, and beneath it a full-width strip of contiguous
+     lettered cells divided by hairlines - the index bar that was itself the
+     sitemap.
+
+     The markup is untouched. .greedy-nav is already a flex row, so `order`
+     puts the logo, title and search on the first line and `flex: 0 0 100%`
+     drops the link list onto its own full-width line below. */
+  .masthead {
+    width: 100%;
+    max-width: 860px;
+    margin: 0 auto;
+    background: $era99-navy !important;
+    border: 1px solid $era99-navy;
+    border-bottom: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap {
+    max-width: 860px;
+    padding: 0;
+    font-family: Verdana, "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+  }
+
+  .greedy-nav {
+    flex-wrap: wrap;
+    align-items: stretch;
+    background: transparent !important;
+    padding: 0;
+  }
+
+  /* line one: the brand band */
+  .greedy-nav .site-logo { order: 1; align-self: center; padding: 5px 0 5px 10px; }
+  /* No flex-grow on the title. jquery.greedy-navigation computes
+     availableSpace = nav - logo - title - search - toggle, assuming one row; a
+     title that grows to fill the first row is subtracted in full, the result
+     comes out near zero, and every link is moved into the hamburger - which is
+     exactly what happened. The title stays its own width and the second row
+     keeps the full measure. */
+  .greedy-nav .site-title { order: 2; align-self: center; flex: 0 1 auto; padding: 7px 10px; }
+  .greedy-nav .search__toggle { order: 3; align-self: center; margin-right: 6px; }
+  .greedy-nav__toggle { order: 4; align-self: center; }
+
+  /* line two: the index bar, its own full-width row */
+  .greedy-nav .visible-links {
+    order: 5;
+    flex: 0 0 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.22);
+    border-top: 2px solid $era99-gold;
+  }
+
+  .site-title,
+  .masthead .site-title {
+    color: $era99-gold !important;
+    font-family: Georgia, "Songti SC", SimSun, serif;
+    font-weight: 700;
+    font-size: 1.05em;
+    letter-spacing: 0.02em;
+  }
+
+  .site-subtitle {
+    color: #a8c4de !important;
+    font-size: 0.62em;
+    letter-spacing: 0.02em;
+  }
+
+  .search__toggle {
+    color: $era99-gold !important;
+  }
+
+  /* Contiguous cells: no gaps, a hairline between each, the way a period index
+     bar was a table row. */
+  .greedy-nav .visible-links .masthead__menu-item {
+    margin: 0;
+    border-right: 1px solid rgba(255, 203, 5, 0.4);
+  }
+
+  .greedy-nav .visible-links .masthead__menu-item:last-child {
+    border-right: 0;
+  }
+
+  .greedy-nav a {
+    display: block;
+    color: $era99-gold !important;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.11em;   /* the era's lettering, spaced rather than bold */
+    text-transform: uppercase;
+    padding: 7px 13px;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    white-space: nowrap;
+  }
+
+  /* the outset/inset button relief of the period, in borders rather than
+     images - it costs nothing and is the detail that dates the bar */
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    background: $era99-gold !important;
+    color: $era99-navy !important;
+    text-decoration: none;
+    box-shadow:
+      inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+      inset -1px -1px 0 rgba(0, 0, 0, 0.35);
+  }
+
+  .greedy-nav .visible-links a:active {
+    box-shadow:
+      inset -1px -1px 0 rgba(255, 255, 255, 0.7),
+      inset 1px 1px 0 rgba(0, 0, 0, 0.4);
+  }
+
+  .greedy-nav .visible-links a:before {
+    display: none;   /* the modern underline-grow indicator is not this era */
+  }
+
+  .greedy-nav button {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .greedy-nav .hidden-links {
+    border-radius: 0;
+    border: 1px solid $era99-navy;
+    box-shadow: none;
+    background: $era99-paper;
+  }
+
+  .greedy-nav .hidden-links a {
+    color: $era99-navy !important;
+    border: 0;
+    background: transparent;
+    letter-spacing: 0.08em;
+  }
+
+  .greedy-nav .hidden-links a:hover {
+    background: $era99-navy !important;
+    color: $era99-gold !important;
+  }
+
+  /* ---- reading surface ---- */
+  .parallel-translation,
+  .page__content {
+    font-family: Georgia, "Songti SC", SimSun, "Noto Serif SC", serif;
+    color: $era99-ink;
+  }
+
+  a {
+    color: $era99-link;
+  }
+
+  a:visited {
+    color: $era99-visited;
+  }
+
+  /* Square everything the theme rounded. A single radius left over reads as a
+     mistake rather than as restraint. */
+  .parallel-translation *,
+  .page__content * {
+    border-radius: 0 !important;
+  }
+
+  /* ---- the sheet and the desk ----------------------------------------
+     The contents list was a 260px sticky column inside the 860px sheet, which
+     left the text about 500px - narrower than the list beside it, so titles
+     broke a word to a line. At this measure the page cannot afford a second
+     column.
+
+     So the list moves off the sheet and onto the desk: the narrow page leaves
+     ~270px of empty ground either side at desktop widths, and a period page is
+     a sheet of paper with your tools laid next to it, not a page with a
+     sidebar inside it. The article gets the full measure back. */
+  .parallel-translation__article {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-right: 0;
+  }
+
+  .parallel-translation__side {
+    position: fixed;
+    top: 92px;
+    /* half the viewport, back to the sheet edge, then the list's own width */
+    left: calc(50% - 430px - 244px);
+    width: 224px;
+    max-height: calc(100vh - 130px);
+    overflow-y: auto;
+    z-index: 15;
+  }
+
+  .parallel-translation__toc {
+    width: 100%;
+    border: 1px solid $era99-navy !important;
+    border-radius: 0 !important;
+    background: $era99-paper !important;
+    box-shadow: none !important;
+    font-size: 0.82em;
+  }
+
+  .parallel-translation__toc .toc__menu,
+  .parallel-translation__toc nav {
+    background: transparent;
+  }
+
+  /* the list's own heading, drawn like the masthead's cells */
+  .parallel-translation__toc > *:first-child {
+    background: $era99-navy !important;
+    color: $era99-gold !important;
+    border-radius: 0 !important;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .parallel-translation__toc a {
+    border-bottom: 1px dotted $era99-rule;
+    color: $era99-link !important;
+  }
+
+  /* ---- record blocks --------------------------------------------------
+     資料卡片 / 檔案記錄 / 相關資料 arrive as soft cards with blue accents and
+     rounded corners - a 2010s catalogue idiom sitting inside a 1999 page. They
+     keep their structure and lose the styling: 1px rules, square, and the
+     era's own two colours. */
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related {
+    background: transparent !important;
+    border: 1px solid $era99-rule !important;
+    border-left: 4px solid $era99-navy !important;
+    box-shadow: none !important;
+  }
+
+  .resource-related [class*="item"],
+  .resource-related li,
+  .parallel-archive-record dl,
+  .parallel-archive-record > div {
+    border-color: $era99-rule !important;
+    background: transparent !important;
+  }
+
+  /* The record's seven fields were laid out across the right-hand 441px, which
+     gave each about 94px and a 37px value cell - enough to break "The Ultimate
+     Game Freak: An Interview with Satoshi Tajiri" into one character per line,
+     349px tall. At this measure the record reads down, not across: label above
+     value, two fields to a row, and the whole thing stacked under its heading
+     rather than beside it. */
+  .parallel-archive-record {
+    display: block !important;
+  }
+
+  .parallel-archive-record__heading {
+    border-bottom: 1px solid $era99-rule;
+    margin-bottom: 0.8rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 0.75rem 1.6rem;
+    margin: 0;
+  }
+
+  .parallel-archive-record__grid > div {
+    display: block;
+    min-width: 0;
+    border-bottom: 1px dotted $era99-rule;
+    padding-bottom: 0.5rem;
+  }
+
+  .parallel-archive-record__grid dt {
+    font-size: 0.68em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $era99-navy;
+    margin-bottom: 0.2rem;
+  }
+
+  .parallel-archive-record__grid dd {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+    overflow-wrap: anywhere;   /* a long English source title breaks on spaces,
+                                  not into a column of letters */
+  }
+
+  /* a field whose value is a long title takes the full row */
+  .parallel-archive-record__grid > div:nth-child(2) {
+    grid-column: 1 / -1;
+  }
+
+  /* section labels in the era's lettering rather than a coloured chip */
+  .parallel-archive-record [class*="label"],
+  .resource-related [class*="label"],
+  .parallel-translation__meta [class*="label"] {
+    color: $era99-navy !important;
+    background: transparent !important;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  /* one hard rule instead of soft shadows */
+  .parallel-translation__header {
+    border-bottom: 1px solid $era99-rule;
+  }
+}
+
+/* The era shell is a desktop-width idea. Below the masthead's own breakpoint
+   the theme collapses to a menu button, and a fixed 860px measure would just
+   overflow, so the shell steps back and only the article keeps its skin. */
+/* The list only floats while there is desk to float it on: below this the
+   sheet fills the window and it goes back into the page. */
+@media (max-width: 1380px) {
+  body[data-era="1999"] .parallel-translation__side {
+    position: static;
+    width: 100%;
+    max-height: none;
+    margin: 0 0 1.4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  body[data-era="1999"] {
+    background: $era99-paper;
+
+    .initial-content,
+    #main,
+    .masthead,
+    .masthead__inner-wrap,
+    .page__footer {
+      max-width: none;
+      border-left: 0;
+      border-right: 0;
+    }
+  }
+}

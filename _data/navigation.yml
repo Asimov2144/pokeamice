@@ -1,33 +1,72 @@
 # main links
+# Every entry here resolves to a page that exists. The previous version was
+# largely template leftovers - "POsts", "KEy docs", "MOre at" - and eight of
+# its thirteen targets 404'd: /news/ and both its children, /tags/, and two of
+# the three /keys/ children were never built. Dead navigation is worse than
+# short navigation; a reader cannot tell a missing page from a broken site.
+#
+# The grouping follows what the archive is rather than how it is stored:
+# the material itself, the ways into it, and the tooling that produces it.
+# The four top-level items spell the site's subject:
+#
+#     POsts · KEy docs · MOre at · News   ->   PO KE MO N
+#
+# Keep that. It is the reason the labels are capitalised the way they are, and
+# it is why there are exactly four of them - so anything new belongs in a
+# child, never as a fifth item.
+#
+# What did need fixing was where they pointed: eight of the thirteen targets
+# 404'd (/news/ and both children, /tags/, two of three /keys/ children), while
+# real content - the entity indexes, the retrieval console, the timeline - had
+# no route at all. The acrostic was never the problem; the dead links were.
 main:
   - title: "POsts"
-    url: ./index.html
+    url: /#overview
+    children:
+      - title: "部长专栏"
+        url: /gamefreak-director/
+      - title: "员工博客"
+        url: /gamefreak-staff/
+      - title: "美术资料"
+        url: /gamefreak-art/
+      - title: "访谈翻译"
+        url: /#interview-translations
+      - title: "文档索引"
+        url: /#documents
   - title: "KEy docs"
     url: /keys/
     children:
-      - title: "Documentation Guide"
-        url: /keys/guide/
-      - title: "Architecture"
-        url: /keys/architecture/
-      - title: "Game Freak Director"
-        url: /keys/gamefreak-director/
+      - title: "资料窗口"
+        url: /keys/
+      - title: "资料检索"
+        url: /#retrieval
+      - title: "人物索引"
+        url: /entities/people/
+      - title: "作品索引"
+        url: /entities/works/
+      - title: "组织索引"
+        url: /entities/organizations/
+      - title: "事件索引"
+        url: /entities/events/
+      - title: "资料时间线"
+        url: /timeline/
+      - title: "关系图谱"
+        url: /resource-graph/
   - title: "MOre at"
     url: https://pokeamice.com
-  - title: "News"
-    url: /news/
     children:
-      - title: "Latest Updates"
-        url: /news/latest/
-      - title: "Release Notes"
-        url: /news/releases/
-  - title: "Guide"
-    url: /resource-graph/
-  - title: "Timeline"
-    url: /timeline/
-  - title: "Search"
-    url: /search/
-  - title: "Tags"
-    url: /tags/
+      - title: "宝可梦友会主站"
+        url: https://pokeamice.com
+      - title: "本地工具索引"
+        url: /local-editing-tools/
+      - title: "编辑工作台"
+        url: /editor-workbench/
+      - title: "元数据规范"
+        url: /metadata-schema/
+      - title: "关于本站"
+        url: /about/
+  - title: "News"
+    url: /#recent-updates
 
 
 docs:
