@@ -1472,3 +1472,99 @@ body.is-zen-mode {
   padding: 3px 5px;
   text-align: center;
 }
+
+/* --------------------------------------------------------------------------
+   Reading-first, second pass
+   design/pokeamice_interview_reading_ui_redesign.md, sections 4, 12 and 16.
+
+   In this file because the web-article rules above are the most specific ones
+   for these elements and are imported after _parallel-translation.scss; the
+   same declarations there had no effect at all.
+   -------------------------------------------------------------------------- */
+
+/* Section 12: one paragraph's original, without switching the whole page into
+   a two-column reader. The toggle existed but never showed in reading view.
+   It sits in the margin so the prose column is unbroken. */
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--original {
+  display: block;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__original-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  /* 24px both ways: WCAG 2.2 AA 2.5.8, the same floor the note mark needed */
+  min-width: 24px;
+  min-height: 24px;
+  padding: 2px 6px;
+  border: 1px solid rgba(31, 41, 51, 0.2);
+  border-radius: 3px;
+  cursor: pointer;
+  list-style: none;
+  background: transparent;
+  color: rgba(31, 41, 51, 0.55);
+  font-size: 0.58rem;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__original-toggle::-webkit-details-marker {
+  display: none;
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__original-toggle:hover,
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__original-toggle:focus-visible {
+  border-color: var(--interview-accent);
+  color: var(--interview-accent);
+}
+
+/* Closed, the toggle is all there is. Open, the original follows the
+   translation it belongs to rather than sitting beside it. */
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--original[open] {
+  margin-top: 0.5rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid rgba(31, 41, 51, 0.14);
+}
+
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__cell--original[open] .parallel-text__label {
+  display: block;
+  margin: 0.4rem 0 0.15rem;
+  color: rgba(31, 41, 51, 0.45);
+  font-size: 0.6rem;
+  letter-spacing: 0.08em;
+}
+
+/* Section 4: the summary line reads as one line of small caps-ish metadata,
+   separated by middots rather than stacked labels. */
+.layout--parallel-translation .parallel-translation__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 0.5rem;
+  margin: 0.5rem 0 0;
+  color: rgba(31, 41, 51, 0.6);
+  font-size: 0.72rem;
+}
+
+.layout--parallel-translation .parallel-translation__meta > span + span::before {
+  content: "·";
+  margin-right: 0.5rem;
+  opacity: 0.55;
+}
+
+/* Section 16: what this interview is about, not what this page can do. */
+.layout--parallel-translation .parallel-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 0.55rem;
+  margin: 0.9rem 0 0;
+  font-size: 0.74rem;
+  line-height: 1.5;
+}
+
+.layout--parallel-translation .parallel-topics > span {
+  color: rgba(31, 41, 51, 0.72);
+  border-bottom: 1px solid rgba(31, 41, 51, 0.18);
+  padding-bottom: 1px;
+}

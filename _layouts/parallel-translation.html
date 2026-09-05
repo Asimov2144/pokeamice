@@ -69,13 +69,28 @@ layout: default
         <p class="parallel-translation__kicker">{{ page.kicker }}</p>
       {% endif %}
       <h1 itemprop="headline">{{ page.title }}</h1>
-      <div class="parallel-translation__meta" aria-label="访谈概要">
-        {% if page.author %}<span>原文：{{ page.author }}</span>{% endif %}
-        {% if page.translator %}<span>译者：{{ page.translator }}</span>{% endif %}
-        {% if page.interviewee %}<span>受访：{{ page.interviewee }}</span>{% endif %}
-      </div>
+      {%- comment -%}
+        One line, per section 4. It deliberately does not repeat the era
+        masthead directly above, which already carries the publication, the
+        date and the link to the original - source, date and people appearing
+        across three separate blocks is the specific complaint there. So this
+        line carries only what that one does not: who was interviewed, what
+        language the original is in, who translated it, and how long a read it
+        is.
 
-      {% include resource-card.html document=page %}
+        The resource card - source, issue, people, workflow status - is detail
+        for research, and now sits with the archive record after the article.
+      {%- endcomment -%}
+      {% assign reading_chars = items | map: "translation" | join: "" | size %}
+      {% assign reading_minutes = reading_chars | divided_by: 400 %}
+      {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
+      <p class="parallel-translation__meta" aria-label="访谈概要">
+        {% if page.interviewee %}<span>{{ page.interviewee }}</span>{% endif %}
+        {% if page.author %}<span>{{ page.author }}</span>{% endif %}
+        {% if record_language and record_language != "未标注" %}<span>{{ record_language | upcase }} 原文</span>{% endif %}
+        {% if page.translator %}<span>{{ page.translator }} 译</span>{% endif %}
+        <span>约 {{ reading_minutes }} 分钟</span>
+      </p>
 
       {%- comment -%}
         The archive record and the reading controls used to sit here, between
@@ -160,6 +175,29 @@ layout: default
         {%- endcomment -%}
         {% if page.summary %}
           <p class="parallel-translation__summary">{{ page.summary }}</p>
+        {% endif %}
+
+        {%- comment -%}
+          Content navigation, section 16: what is in this interview worth
+          reading, rather than what this page can do. Built from the entities
+          already recorded in front matter - people, works, organisations -
+          because that is what exists; only 157 of the 4,367 segments across
+          the archive are headings, so a nav built from section titles would be
+          empty on most interviews.
+
+          Text, not links. The entity pages live at /entities/people/<name in
+          hex>/, which Liquid cannot construct, and slugify collapses a CJK
+          name to nothing - either would have produced a row of dead links.
+          The resource card states them as plain text for the same reason.
+        {%- endcomment -%}
+        {% assign topic_terms = "" | split: "" %}
+        {% if page.entities.people %}{% assign topic_terms = topic_terms | concat: page.entities.people %}{% endif %}
+        {% if page.entities.works %}{% assign topic_terms = topic_terms | concat: page.entities.works %}{% endif %}
+        {% if page.entities.organizations %}{% assign topic_terms = topic_terms | concat: page.entities.organizations %}{% endif %}
+        {% if topic_terms.size > 0 %}
+          <p class="parallel-topics" aria-label="本篇涉及">
+            {% for term in topic_terms limit: 8 %}<span>{{ term }}</span>{% endfor %}
+          </p>
         {% endif %}
 
         {% if lead_image %}
@@ -255,9 +293,20 @@ layout: default
                   {% if item.speaker %}<strong>{{ item.speaker }}</strong>{% endif %}
                 </div>
                 <div class="parallel-text__pair">
-                  <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
-                    <summary class="parallel-text__original-toggle" aria-label="展开原文" title="展开原文">
-                      <span aria-hidden="true">原</span>
+                  {%- comment -%}
+                    Section 12 wants the original reachable per paragraph
+                    rather than by switching the whole page into a two-column
+                    reader, and it wants that entry to name the language. The
+                    toggle already existed but was hidden in reading view, so
+                    there was no way to see one paragraph's original; it now
+                    shows the language code the segment declares - EN, JA -
+                    rather than a bare 原, because the original is not always
+                    Japanese in this archive.
+                  {%- endcomment -%}
+                  {% assign seg_lang = item.original_lang | default: original_lang %}
+                  <details class="parallel-text__cell parallel-text__cell--original" lang="{{ seg_lang }}">
+                    <summary class="parallel-text__original-toggle" aria-label="展开这一段的原文" title="展开这一段的原文">
+                      <span aria-hidden="true">{{ seg_lang | slice: 0, 2 | upcase }}</span>
                     </summary>
                     <p class="parallel-text__label">原文</p>
                     {{ item.original | markdownify }}
@@ -311,6 +360,8 @@ layout: default
             {{ content }}
           </section>
         {% endif %}
+
+        {% include resource-card.html document=page %}
 
         <details class="parallel-archive-record" aria-labelledby="archive-record-title">
           {%- comment -%}
