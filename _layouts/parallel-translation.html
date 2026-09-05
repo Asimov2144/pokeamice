@@ -77,53 +77,87 @@ layout: default
 
       {% include resource-card.html document=page %}
 
-      <section class="parallel-archive-record" aria-labelledby="archive-record-title">
-        <div class="parallel-archive-record__heading">
-          <span class="parallel-archive-record__eyebrow">Archive record</span>
-          <h2 id="archive-record-title">档案记录</h2>
-        </div>
-        <dl class="parallel-archive-record__grid">
-          <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
-          <div><dt>Source</dt><dd>{{ record_source_title }}</dd></div>
-          <div><dt>People</dt><dd>{{ record_people }}</dd></div>
-          <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
-          <div><dt>Page</dt><dd>{{ record_pages }}</dd></div>
-          <div><dt>Language</dt><dd>{{ record_language }}</dd></div>
-          <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
-        </dl>
-      </section>
+      {%- comment -%}
+        The archive record and the reading controls used to sit here, between
+        the title and the article, and together with the route, notes, related
+        list and cast bar they put 1,773px between the two - the reading
+        redesign note asks for 300-500px.
 
-      <div class="parallel-toolbar" aria-label="阅读控制栏">
-        <div class="parallel-toolbar__group" role="group" aria-label="对照模式">
-          <span class="parallel-toolbar__label"><i class="fas fa-columns"></i> 模式</span>
-          <button type="button" class="parallel-toolbar__btn is-active" data-view-choice="translation" aria-pressed="true">译文优先</button>
-          <button type="button" class="parallel-toolbar__btn" data-view-choice="parallel" aria-pressed="false">左右对照</button>
-          <button type="button" class="parallel-toolbar__btn" data-view-choice="original" aria-pressed="false">纯原文</button>
-        </div>
+        Neither is reading: the record is research (it now closes the article as
+        a details), and the controls are tools, which belong behind one button
+        rather than across the reader's path. See design/pokeamice_interview_
+        reading_ui_redesign.md, sections 3, 4 and 17.
+      {%- endcomment -%}
+      <details class="parallel-tools" aria-label="阅读工具">
+        <summary class="parallel-tools__summary" title="阅读设置" aria-label="阅读设置">
+          <span aria-hidden="true">⋯</span>
+        </summary>
+        <div class="parallel-tools__panel">
+          <div class="parallel-toolbar__group" role="group" aria-label="对照模式">
+            <span class="parallel-toolbar__label"><i class="fas fa-columns"></i> 模式</span>
+            <button type="button" class="parallel-toolbar__btn is-active" data-view-choice="translation" aria-pressed="true">译文优先</button>
+            <button type="button" class="parallel-toolbar__btn" data-view-choice="parallel" aria-pressed="false">左右对照</button>
+            <button type="button" class="parallel-toolbar__btn" data-view-choice="original" aria-pressed="false">纯原文</button>
+          </div>
 
-        <div class="parallel-toolbar__group" role="group" aria-label="环境色温">
-          <span class="parallel-toolbar__label"><i class="fas fa-palette"></i> 氛围</span>
-          <button type="button" class="parallel-toolbar__btn is-active" data-theme-choice="auto" title="跟随时代复古皮肤">年代自适应</button>
-          <button type="button" class="parallel-toolbar__btn" data-theme-choice="paper" title="复古温润羊皮纸"><i class="fas fa-file-alt" aria-hidden="true"></i> 羊皮纸</button>
-          <button type="button" class="parallel-toolbar__btn" data-theme-choice="dark" title="夜间剧场暗色"><i class="fas fa-moon" aria-hidden="true"></i> 暗夜</button>
-          <button type="button" class="parallel-toolbar__btn" data-theme-choice="clean" title="现代明朗白"><i class="fas fa-sun" aria-hidden="true"></i> 纯净</button>
-        </div>
+          <div class="parallel-toolbar__group" role="group" aria-label="环境色温">
+            <span class="parallel-toolbar__label"><i class="fas fa-palette"></i> 氛围</span>
+            <button type="button" class="parallel-toolbar__btn is-active" data-theme-choice="auto" title="跟随时代复古皮肤">年代自适应</button>
+            <button type="button" class="parallel-toolbar__btn" data-theme-choice="paper" title="复古温润羊皮纸"><i class="fas fa-file-alt" aria-hidden="true"></i> 羊皮纸</button>
+            <button type="button" class="parallel-toolbar__btn" data-theme-choice="dark" title="夜间剧场暗色"><i class="fas fa-moon" aria-hidden="true"></i> 暗夜</button>
+            <button type="button" class="parallel-toolbar__btn" data-theme-choice="clean" title="现代明朗白"><i class="fas fa-sun" aria-hidden="true"></i> 纯净</button>
+          </div>
 
-        <button type="button" class="parallel-toolbar__zen-btn" id="zenModeToggle" title="隐去侧边栏专注阅读">
-          <i class="fas fa-expand-alt"></i> 专注模式
-        </button>
-      </div>
+          <button type="button" class="parallel-toolbar__zen-btn" id="zenModeToggle" title="隐去侧边栏专注阅读">
+            <i class="fas fa-expand-alt"></i> 专注模式
+          </button>
+
+          {%- comment -%}
+            The cast chips filter the transcript by speaker, so they are a
+            reading tool and follow the other tools in here rather than being
+            buried after ninety segments where nobody reading would reach them.
+          {%- endcomment -%}
+          {% assign cast_speakers = "" | split: "" %}
+          {% for it in items %}
+            {% if it.speaker and it.speaker != "" %}
+              {% unless cast_speakers contains it.speaker %}
+                {% assign cast_speakers = cast_speakers | push: it.speaker %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+          {% if cast_speakers.size > 0 %}
+            <div class="parallel-cast-bar" aria-label="访谈嘉宾与阵容">
+              <div class="parallel-cast-bar__title">
+                <i class="fas fa-microphone-alt"></i> 访谈阵容
+              </div>
+              <div class="parallel-cast-bar__list">
+                {% for sp in cast_speakers %}
+                  {% assign is_q = false %}
+                  {% if sp contains "提问" or sp contains "记者" or sp contains "问" or sp contains "IGN" or sp contains "TIME" or sp contains "时代周刊" or sp contains "周刊" or sp contains "GI" or sp contains "4Gamer" or sp contains "Fami通" or sp contains "ファミ通" or sp contains "Pokemon.com" or sp contains "G4" or sp contains "電撃" or sp contains "VGC" %}
+                    {% assign is_q = true %}
+                  {% endif %}
+                  <button type="button" class="parallel-cast-chip{% if is_q %} parallel-cast-chip--question{% else %} parallel-cast-chip--guest{% endif %}" data-speaker="{{ sp | escape }}" aria-pressed="false">
+                    <span class="parallel-cast-chip__avatar">{% if is_q %}Q{% else %}{{ sp | slice: 0, 1 }}{% endif %}</span>
+                    <span class="parallel-cast-chip__name">{{ sp }}</span>
+                    <span class="parallel-cast-chip__tag">{% if is_q %}提问{% else %}受访{% endif %}</span>
+                  </button>
+                {% endfor %}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </details>
     </header>
 
     <div class="parallel-translation__body">
       <div class="parallel-translation__content" itemprop="text">
-        <nav class="parallel-archive-route" aria-label="档案路径">
-          <span class="parallel-archive-route__label">Archive route</span>
-          <a href="{{ '/search/?type=访谈翻译' | relative_url }}">访谈索引</a>
-          <a href="{{ '/timeline/' | relative_url }}">时间线</a>
-          <a href="#parallel-reading">进入逐段阅读</a>
-        </nav>
-
+        {%- comment -%}
+          Only the one-line intro stands between the title and the interview
+          now. The route, the translator's note, the related list and the
+          references all follow the article instead - they are things to do
+          after reading, and each of them used to be something to scroll past
+          before starting.
+        {%- endcomment -%}
         {% if page.summary %}
           <p class="parallel-translation__summary">{{ page.summary }}</p>
         {% endif %}
@@ -140,45 +174,6 @@ layout: default
             </figure>
             <p>图像作为阅读入口保留；正文仍以可检索、可对照的文字档案为主。</p>
           </section>
-        {% endif %}
-
-        {% if content != "" %}
-          <section class="parallel-translation__note">
-            {{ content }}
-          </section>
-        {% endif %}
-        {% include resource-related.html %}
-        {% include article-references.html %}
-
-        {% comment %} Collect all speakers in this interview {% endcomment %}
-        {% assign cast_speakers = "" | split: "" %}
-        {% for it in items %}
-          {% if it.speaker and it.speaker != "" %}
-            {% unless cast_speakers contains it.speaker %}
-              {% assign cast_speakers = cast_speakers | push: it.speaker %}
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-
-        {% if cast_speakers.size > 0 %}
-          <div class="parallel-cast-bar" aria-label="访谈嘉宾与阵容">
-            <div class="parallel-cast-bar__title">
-              <i class="fas fa-microphone-alt"></i> 访谈阵容
-            </div>
-            <div class="parallel-cast-bar__list">
-              {% for sp in cast_speakers %}
-                {% assign is_q = false %}
-                {% if sp contains "提问" or sp contains "记者" or sp contains "问" or sp contains "IGN" or sp contains "TIME" or sp contains "时代周刊" or sp contains "周刊" or sp contains "GI" or sp contains "4Gamer" or sp contains "Fami通" or sp contains "Pokemon.com" or sp contains "G4" %}
-                  {% assign is_q = true %}
-                {% endif %}
-                <button type="button" class="parallel-cast-chip{% if is_q %} parallel-cast-chip--question{% else %} parallel-cast-chip--guest{% endif %}" data-speaker="{{ sp | escape }}" aria-pressed="false">
-                  <span class="parallel-cast-chip__avatar">{% if is_q %}Q{% else %}{{ sp | slice: 0, 1 }}{% endif %}</span>
-                  <span class="parallel-cast-chip__name">{{ sp }}</span>
-                  <span class="parallel-cast-chip__tag">{% if is_q %}提问{% else %}受访{% endif %}</span>
-                </button>
-              {% endfor %}
-            </div>
-          </div>
         {% endif %}
 
         <section class="parallel-text parallel-text--web-article" id="parallel-reading" aria-labelledby="parallel-reading-title">
@@ -222,7 +217,7 @@ layout: default
               {% assign paragraph_size = item.font_size | default: item.fontSize | default: "" %}
               {% assign is_q = false %}
               {% if item.speaker %}
-                {% if item.speaker contains "提问" or item.speaker contains "记者" or item.speaker contains "问" or item.speaker contains "IGN" or item.speaker contains "TIME" or item.speaker contains "时代周刊" or item.speaker contains "周刊" or item.speaker contains "GI" or item.speaker contains "4Gamer" or item.speaker contains "Fami通" or item.speaker contains "Pokemon.com" or item.speaker contains "G4" %}
+                {% if item.speaker contains "提问" or item.speaker contains "记者" or item.speaker contains "问" or item.speaker contains "IGN" or item.speaker contains "TIME" or item.speaker contains "时代周刊" or item.speaker contains "周刊" or item.speaker contains "GI" or item.speaker contains "4Gamer" or item.speaker contains "Fami通" or item.speaker contains "ファミ通" or item.speaker contains "Pokemon.com" or item.speaker contains "G4" or item.speaker contains "電撃" or item.speaker contains "VGC" %}
                   {% assign is_q = true %}
                 {% endif %}
               {% endif %}
@@ -273,7 +268,13 @@ layout: default
                   </div>
                 </div>
                 {% if item.note or item.comment or item.comments %}
-                  <button class="parallel-text__note-toggle" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注">注</button>
+                  {%- comment -%}
+                    A boxed 注 button reads as a review tool sitting in the
+                    prose; the reference mark it replaces is what a footnote
+                    looks like in a printed interview. Behaviour is unchanged -
+                    the accessible name still says what it opens.
+                  {%- endcomment -%}
+                  <button class="parallel-text__note-toggle" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
                   <div class="parallel-text__note-popover">
                     {% if item.note %}
                       <aside class="parallel-text__note" aria-label="译注">{{ item.note | markdownify }}</aside>
@@ -298,6 +299,48 @@ layout: default
             {% endif %}
           {% endfor %}
         </section>
+
+        {%- comment -%}
+          Everything that follows the interview rather than preceding it: the
+          translator's note, the archive record folded away as research, the
+          route onward, and the related material. Same markup as before, moved
+          out of the reader's path.
+        {%- endcomment -%}
+        {% if content != "" %}
+          <section class="parallel-translation__note">
+            {{ content }}
+          </section>
+        {% endif %}
+
+        <details class="parallel-archive-record" aria-labelledby="archive-record-title">
+          {%- comment -%}
+            Keeps __heading as well: the era shells style that class, and
+            renaming it here would quietly drop the record's era styling.
+          {%- endcomment -%}
+          <summary class="parallel-archive-record__heading parallel-archive-record__summary">
+            <span class="parallel-archive-record__eyebrow">Archive record</span>
+            <span id="archive-record-title">档案信息</span>
+          </summary>
+          <dl class="parallel-archive-record__grid">
+            <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
+            <div><dt>Source</dt><dd>{{ record_source_title }}</dd></div>
+            <div><dt>People</dt><dd>{{ record_people }}</dd></div>
+            <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
+            <div><dt>Page</dt><dd>{{ record_pages }}</dd></div>
+            <div><dt>Language</dt><dd>{{ record_language }}</dd></div>
+            <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
+          </dl>
+        </details>
+
+        <nav class="parallel-archive-route" aria-label="档案路径">
+          <span class="parallel-archive-route__label">Archive route</span>
+          <a href="{{ '/search/?type=访谈翻译' | relative_url }}">访谈索引</a>
+          <a href="{{ '/timeline/' | relative_url }}">时间线</a>
+          <a href="#parallel-reading">回到正文开头</a>
+        </nav>
+
+        {% include resource-related.html %}
+        {% include article-references.html %}
       </div>
 
       {% if page.toc %}

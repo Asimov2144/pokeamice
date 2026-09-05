@@ -1451,3 +1451,24 @@ body.is-zen-mode {
     grid-column: 1;
   }
 }
+
+/* --------------------------------------------------------------------------
+   Note mark: keep the era's quiet dotted mark, give it something to aim at.
+
+   The rule above deliberately strips the mark down for web-article pages, and
+   it is more specific than anything in _parallel-translation.scss and imported
+   after it, so the target-size fix has to live here to take effect at all.
+
+   Measured before this: 18.3 x 19.9 CSS px, under the 24 x 24 of WCAG 2.2 AA
+   2.5.8. The padding is invisible - the mark keeps its size and its dotted
+   underline - and only widens the hit area. px rather than rem because the
+   theme scales the root font.
+   -------------------------------------------------------------------------- */
+.layout--parallel-translation .parallel-translation[data-view="translation"] .parallel-text--web-article .parallel-text__note-toggle,
+.layout--parallel-translation .parallel-translation[data-view="original"] .parallel-text--web-article .parallel-text__note-toggle {
+  box-sizing: border-box;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 3px 5px;
+  text-align: center;
+}

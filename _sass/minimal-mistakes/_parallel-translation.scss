@@ -1080,3 +1080,169 @@
     border-left: 2px solid #4f5663;
   }
 }
+
+/* ==========================================================================
+   Reading-first adjustments
+   design/pokeamice_interview_reading_ui_redesign.md, sections 3, 4, 7, 10, 17.
+
+   Measured on the 1999 TIME interview before this: 1,773px between the title
+   and the first sentence, 48 visible controls, and 88 role tags plus 36 note
+   buttons inside the prose. The markup moves handled the first two; what is
+   left here is making the two remaining in-prose marks stop looking like
+   editor chrome, and giving the tool drawer somewhere to live.
+   ========================================================================== */
+
+/* The tool drawer. One mark in the corner of the header instead of a bar of
+   eleven buttons across the reader's path. */
+.parallel-tools {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.parallel-tools__summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* 32px: comfortably over the 24px minimum target size */
+  width: 2rem;
+  height: 2rem;
+  border-radius: 999px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.05rem;
+  line-height: 1;
+  color: rgba(31, 41, 51, 0.62);
+  background: transparent;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.parallel-tools__summary::-webkit-details-marker { display: none; }
+
+.parallel-tools__summary:hover,
+.parallel-tools__summary:focus-visible,
+.parallel-tools[open] .parallel-tools__summary {
+  background: rgba(31, 41, 51, 0.07);
+  color: rgba(31, 41, 51, 0.9);
+}
+
+/* Hide the closed state explicitly rather than leaving it to the browser.
+   Measured: with no author `display` at all, the panel still rendered 376px
+   tall while the drawer was shut - an absolutely positioned child is out of
+   flow, so whatever a closed <details> does to its contents did not reach it.
+   Stating both states costs one rule and does not depend on that behaviour. */
+.parallel-tools:not([open]) .parallel-tools__panel {
+  display: none;
+}
+
+.parallel-tools[open] .parallel-tools__panel {
+  display: flex;
+}
+
+.parallel-tools__panel {
+  position: absolute;
+  top: 2.3rem;
+  right: 0;
+  z-index: 4;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-width: 17rem;
+  max-width: min(24rem, 90vw);
+  padding: 0.85rem 0.95rem;
+  border: 1px solid rgba(31, 41, 51, 0.14);
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 10px 28px rgba(24, 39, 47, 0.16);
+}
+
+/* The header is the drawer's positioning context. */
+.parallel-translation__header { position: relative; }
+
+/* The cast chips are inside the drawer now, so they lay out as a list rather
+   than a bar. */
+.parallel-tools__panel .parallel-cast-bar {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.parallel-tools__panel .parallel-cast-bar__list {
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+/* Archive record, now a details that closes the article rather than a card
+   that opens it. */
+.parallel-archive-record[open] .parallel-archive-record__summary { margin-bottom: 0.8rem; }
+
+.parallel-archive-record__summary {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.parallel-archive-record__summary::-webkit-details-marker { display: none; }
+
+.parallel-archive-record__summary::after {
+  content: "▸";
+  margin-left: auto;
+  font-size: 0.8em;
+  opacity: 0.55;
+  transition: transform 0.15s ease;
+}
+
+.parallel-archive-record[open] .parallel-archive-record__summary::after {
+  transform: rotate(90deg);
+}
+
+/* Reading mode drops the structural furniture the redesign note lists in
+   section 10. The name and the alternation carry the same information, and
+   the badge already distinguishes a question from an answer. Other views keep
+   the tags: research is exactly where naming the roles earns its space. */
+.parallel-translation[data-view="translation"] .parallel-speaker__role {
+  display: none;
+}
+
+/* A footnote mark, not a button. Only in the default reading view - the
+   research views keep the boxed control, where a deliberate target is wanted. */
+.parallel-translation[data-view="translation"] .parallel-text__note-toggle {
+  border: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  /* Stripping the box took the target with it: measured 18.3 x 19.9px, under
+     the 24x24 of WCAG 2.2 AA 2.5.8. The padding is invisible - no border, no
+     background - and only restores something to aim at. Stated in px because
+     the theme scales the root font, so rem here would not settle at 24. */
+  display: inline-block;
+  min-width: 24px;
+  min-height: 24px;
+  padding: 3px 4px;
+  text-align: center;
+  color: rgba(157, 79, 65, 0.85);
+  font-size: 0.85em;
+  vertical-align: super;
+  line-height: 1.15;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__note-toggle::before {
+  content: none;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__note-toggle:hover,
+.parallel-translation[data-view="translation"] .parallel-text__note-toggle:focus-visible {
+  color: #8c3f35;
+  text-decoration: underline;
+}
+
+.parallel-translation[data-view="translation"] .parallel-text__note-toggle[aria-expanded="true"] {
+  border: 0;
+  background: none;
+  color: #8c3f35;
+  text-decoration: underline;
+}
