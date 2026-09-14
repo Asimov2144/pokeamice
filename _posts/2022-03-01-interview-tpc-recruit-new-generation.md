@@ -192,5 +192,6 @@ parallel_items:
   original: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img4.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img4.jpg
   speaker: null
+original_lang: ja
 ---
 > 本篇访谈译自株式会社宝可梦（The Pokémon Company）官方招聘网站特别专栏。来自不同国家、拥有多元学术背景的新卒一代在此畅谈初入宝可梦公司的真实体验、业务监修的心得以及企业长青的核心哲学。

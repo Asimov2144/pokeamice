@@ -115,4 +115,5 @@ source:
 entities:
   works:
   - Pokémon GO
+original_lang: ja
 ---

@@ -33,8 +33,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "大日向 俊（おおひなた しゅん）：ポケモンセンタートウキョー ストアチーフ。2009年新卒入社。"
-  translation: "大日向 俊（Shun Oohinata）：宝可梦公司 宝可梦中心东京（Pokémon Center Tokyo）店长（Store Chief）。2009年应届大学毕业生入职。"
+  original: 大日向 俊（おおひなた しゅん）：ポケモンセンタートウキョー ストアチーフ。2009年新卒入社。
+  translation: 大日向 俊（Shun Oohinata）：宝可梦公司 宝可梦中心东京（Pokémon Center Tokyo）店长（Store Chief）。2009年应届大学毕业生入职。
 - type: heading
   level: 2
   original: 私の仕事内容
@@ -87,4 +87,5 @@ parallel_items:
 entities:
   works:
   - 宝可梦 黑·白
+original_lang: ja
 ---

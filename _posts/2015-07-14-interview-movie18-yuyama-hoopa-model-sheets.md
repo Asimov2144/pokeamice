@@ -290,4 +290,5 @@ parallel_items:
   alt: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
   caption: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
 interviewee: Interviewer
+original_lang: en
 ---

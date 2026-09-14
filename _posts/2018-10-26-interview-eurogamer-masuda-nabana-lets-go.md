@@ -119,4 +119,5 @@ interviewee: Eurogamer, 增田顺一, 菜花健作
 entities:
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+original_lang: en
 ---

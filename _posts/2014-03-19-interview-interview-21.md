@@ -47,9 +47,6 @@ translator: Poke Amice Studio
 interviewee: Miyamoto, 杉森建, 田尻智
 parallel_items:
 - type: paragraph
-  original: 分享
-  translation: 分享
-- type: paragraph
   original: 电子邮件
   translation: 电子邮件
 - type: paragraph

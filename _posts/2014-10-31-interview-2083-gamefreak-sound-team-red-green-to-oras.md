@@ -462,4 +462,5 @@ entities:
   works:
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   - 宝可梦 红·绿
+original_lang: ja
 ---

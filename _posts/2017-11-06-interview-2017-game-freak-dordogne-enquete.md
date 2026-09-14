@@ -512,4 +512,5 @@ parallel_items:
 - type: paragraph
   original: Réagis à cet article sur notre Discord →
   translation: 在我们的 Discord 上对这篇文章做出反应 →
+original_lang: es
 ---

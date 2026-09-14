@@ -1543,6 +1543,7 @@ parallel_items:
 source:
   title: ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛
   url: https://news.denfaminicogamer.jp/projectbook/dabisuta
+original_lang: ja
 ---
 ### 导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作
 

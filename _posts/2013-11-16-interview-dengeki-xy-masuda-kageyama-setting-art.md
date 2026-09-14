@@ -195,4 +195,5 @@ source:
 entities:
   works:
   - 宝可梦 X·Y
+original_lang: ja
 ---

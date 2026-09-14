@@ -206,4 +206,5 @@ entities:
   works:
   - 宝可梦 黑2·白2
   - 宝可梦 黑·白
+original_lang: ja
 ---

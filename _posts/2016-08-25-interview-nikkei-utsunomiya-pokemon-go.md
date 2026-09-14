@@ -442,4 +442,5 @@ interviewee: 宇都宫崇人, 日経ビジネス
 entities:
   works:
   - Pokémon GO
+original_lang: ja
 ---

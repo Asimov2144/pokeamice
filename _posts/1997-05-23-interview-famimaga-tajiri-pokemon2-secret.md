@@ -317,4 +317,5 @@ entities:
   works:
   - 宝可梦 金·银
   - 宝可梦 红·绿
+original_lang: ja
 ---

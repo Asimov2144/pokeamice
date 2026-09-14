@@ -163,4 +163,5 @@ parallel_items:
   translation: GAME FREAK所寻求的，不是等待指示的人，而是怀有“我要让这款游戏变得更有趣”的主体性与热情的人。学生时代的专业和背景不限。请务必和我们一起，打造让全世界玩家惊叹的最顶尖娱乐体验！
   role: answer
 display_title: 入社动机是什么？新人培训如何？能否茁壮成长？6位年轻开发者展开真实心声对谈。
+original_lang: ja
 ---

@@ -48,9 +48,6 @@ parallel_items:
   original: 'Interview: Masuda on Developing Gens 1-4 – Lava Cut Content'
   translation: 访谈：增田谈第1至第4世代开发——熔岩切割内容
 - type: paragraph
-  original: 'Search for:'
-  translation: 搜索：
-- type: paragraph
   original: Written by Dr Lava • November 23, 2020
   translation: 作者：Dr Lava • 2020年11月23日
 - type: paragraph
@@ -547,9 +544,6 @@ parallel_items:
   original: May 1999 (1)
   translation: 1999年5月（1）
 - type: paragraph
-  original: Navigation
-  translation: 导航
-- type: paragraph
   original: Lava’s YouTube Channel
   translation: Lava的YouTube频道
 - type: paragraph
@@ -559,7 +553,4 @@ parallel_items:
 - type: paragraph
   original: About
   translation: 关于
-- type: paragraph
-  original: © Dr Lava 2019
-  translation: © Dr Lava 2019
 ---

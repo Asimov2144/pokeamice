@@ -1160,4 +1160,5 @@ interviewee: 大森滋, 尾上将之, 电玩志
 entities:
   works:
   - 宝可梦 太阳·月亮
+original_lang: ja
 ---

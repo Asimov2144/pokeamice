@@ -331,4 +331,5 @@ parallel_items:
 entities:
   works:
   - 宝可梦随乐拍
+original_lang: ja
 ---

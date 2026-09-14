@@ -8,9 +8,7 @@ era_skin: '2003'
 source_name: 任天堂官网「N.O.M」(No.52)
 source_url: https://web.archive.org/web/20221026123518/https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
 original_link: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
-summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号的实地探秘与高层专访合辑！编辑部在《红宝石·蓝宝石》发售日前夕潜入株式会社宝可梦（The
-  Pokémon Company）总部，亲测GBA 4人连接线2v2协同对战（Multi Battle）的临场震撼；解密野外开凿‘秘密基地’、地毯玩偶装饰以及通过宝可梦中心2楼‘记录角落’（Record
-  Corner）让朋友的基地无缝跨卡带复制投射到自己世界的大互联网络！在专访中，执行制作人石原恒和深度阐述了统括游戏、卡牌、动画与周边的全域生态长青战略，并独家揭秘自己在丰缘地区最喜爱的宝可梦正是大嘴鸥！
+summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号的实地探秘与高层专访合辑！编辑部在《红宝石·蓝宝石》发售日前夕潜入株式会社宝可梦（The Pokémon Company）总部，亲测GBA 4人连接线2v2协同对战（Multi Battle）的临场震撼；解密野外开凿‘秘密基地’、地毯玩偶装饰以及通过宝可梦中心2楼‘记录角落’（Record Corner）让朋友的基地无缝跨卡带复制投射到自己世界的大互联网络！在专访中，执行制作人石原恒和深度阐述了统括游戏、卡牌、动画与周边的全域生态长青战略，并独家揭秘自己在丰缘地区最喜爱的宝可梦正是大嘴鸥！
 entities:
   people:
   - 石原恒和
@@ -102,4 +100,5 @@ interviewee: N.O.M采访者, 【章节导览】, 实机体验报告, 石原恒�
 source:
   title: 任天堂官网「N.O.M」(No.52)
   url: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
+original_lang: ja
 ---

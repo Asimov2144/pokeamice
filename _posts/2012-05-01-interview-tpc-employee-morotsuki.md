@@ -32,8 +32,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "諸月 紗保子（もろつき さほこ）：ポケモンコミュニケーションズ ライセンス企画部 マネジャー。2008年中途入社。"
-  translation: "诸月 纱保子（Sahoko Morotsuki）：宝可梦公司 宝可梦通信部 授权企划部 经理。2008年中途社招入职。"
+  original: 諸月 紗保子（もろつき さほこ）：ポケモンコミュニケーションズ ライセンス企画部 マネジャー。2008年中途入社。
+  translation: 诸月 纱保子（Sahoko Morotsuki）：宝可梦公司 宝可梦通信部 授权企划部 经理。2008年中途社招入职。
 - type: heading
   level: 2
   original: 私の仕事内容
@@ -86,4 +86,5 @@ parallel_items:
 entities:
   works:
   - 宝可梦 黑·白
+original_lang: ja
 ---

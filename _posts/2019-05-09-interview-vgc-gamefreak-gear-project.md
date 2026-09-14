@@ -152,4 +152,5 @@ source:
 entities:
   works:
   - 宝可梦 剑·盾
+original_lang: en
 ---

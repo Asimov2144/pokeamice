@@ -22,7 +22,14 @@ script the other layout uses, so the .parallel-text__* hooks it binds to are
 kept on the turns even though the presentation around them is new.
 {%- endcomment -%}
 {% assign items = page.parallel_items | default: page.translation_segments | default: page.segments %}
-{% assign original_lang = page.original_lang | default: "ja" %}
+{%- comment -%}
+  The source language, from wherever the post keeps it. GameSpot declared
+  `en` under source.language and still showed "JA" beside English, because
+  only original_lang was read and its default was Japanese. There is no
+  default now: a post that says nothing gets no language tag rather than a
+  wrong one, and the lang attribute is left off.
+{%- endcomment -%}
+{% assign original_lang = page.original_lang | default: page.source.language | default: page.source_language | default: "" %}
 {% assign translation_lang = page.translation_lang | default: "zh-CN" %}
 {% assign default_view = page.parallel_view | default: "translation" %}
 {%- comment -%}
@@ -44,7 +51,7 @@ kept on the turns even though the presentation around them is new.
 {% assign record_source_title = page.source.title | default: page.source_name | default: page.publication | default: "未标注来源" %}
 {% assign record_people = page.interviewee | default: "未标注" %}
 {% assign record_work = page.entities.works | join: "、" | default: "未标注" %}
-{% assign record_language = page.source.language | default: original_lang %}
+{% assign record_language = original_lang %}
 {% assign record_status = page.workflow.published | default: "published" %}
 {% assign source_kind = page.source.source_type | default: page.source_kind | default: "web_interview" %}
 {% assign outlet = page.source_name | default: page.publication | default: page.source.title | default: "" %}
@@ -206,8 +213,9 @@ kept on the turns even though the presentation around them is new.
             <div class="ed-turn ed-turn--question parallel-text__block has-speaker speaker-is-question" id="segment-{{ forloop.index }}" data-speaker="{{ item.speaker | default: interviewer_label | escape }}">
               <p class="ed-turn__who">{{ item.speaker | default: interviewer_label }}</p>
               <div class="ed-turn__text parallel-text__pair">
-                <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
-                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{{ item.original_lang | default: original_lang | slice: 0, 2 | upcase }}</span></summary>
+                {% assign seg_lang = item.original_lang | default: original_lang %}
+                <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
                   <div class="ed-orig">{{ item.original | markdownify }}</div>
                 </details>
                 <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
@@ -229,8 +237,9 @@ kept on the turns even though the presentation around them is new.
           <div class="{{ classes }}" id="segment-{{ forloop.index }}"{% if item.speaker %} data-speaker="{{ item.speaker | escape }}"{% endif %}>
             {% if is_answer and item.speaker %}<p class="ed-turn__who">{{ item.speaker }}</p>{% endif %}
             <div class="ed-turn__text parallel-text__pair">
-              <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
-                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{{ item.original_lang | default: original_lang | slice: 0, 2 | upcase }}</span></summary>
+              {% assign seg_lang = item.original_lang | default: original_lang %}
+              <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
                 <div class="ed-orig">{{ item.original | markdownify }}</div>
               </details>
               <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
@@ -274,7 +283,7 @@ kept on the turns even though the presentation around them is new.
           <div><dt>Source</dt><dd>{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">{{ record_source_title }}</a>{% else %}{{ record_source_title }}{% endif %}</dd></div>
           <div><dt>People</dt><dd>{{ answerers | join: "、" | default: record_people }}</dd></div>
           <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
-          <div><dt>Language</dt><dd>{{ record_language | upcase }} → {{ translation_lang }}</dd></div>
+          <div><dt>Language</dt><dd>{% if record_language != "" %}{{ record_language | upcase }} → {% endif %}{{ translation_lang }}</dd></div>
           <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
           {% if page.interview_id %}<div><dt>ID</dt><dd>{{ page.interview_id }}</dd></div>{% endif %}
         </dl>

@@ -598,9 +598,6 @@ parallel_items:
   original: Los comentarios están cerrados.
   translation: 评论已关闭。
 - type: paragraph
-  original: Entradas relacionadas
-  translation: 相关文章
-- type: paragraph
   original: Eventos
   translation: 活动
 - type: paragraph
@@ -645,4 +642,5 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2014-11-01-cronica-ideame-kids-con-junichi-mas/img_02.jpg
   caption: 2014-10-31 09.15.26_lzn
+original_lang: es
 ---

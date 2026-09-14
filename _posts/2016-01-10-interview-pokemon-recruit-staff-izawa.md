@@ -88,4 +88,5 @@ entities:
   works:
   - 宝可梦 X·Y
   - 宝可梦集换式卡牌游戏
+original_lang: ja
 ---

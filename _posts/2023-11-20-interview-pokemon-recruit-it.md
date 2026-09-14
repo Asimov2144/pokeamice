@@ -148,4 +148,5 @@ parallel_items:
 entities:
   works:
   - 宝可梦 朱·紫
+original_lang: ja
 ---

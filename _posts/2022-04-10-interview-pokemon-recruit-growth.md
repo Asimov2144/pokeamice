@@ -38,8 +38,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "林 祐衣（はやし ゆい）：アプリ事業部ディレクター。新卒入社後、アプリ事業部に配属。営業企画部、中国事業部、Pokémon UNITE推進室を経て、現在はアプリ事業部に所属。"
-  translation: "林 祐衣（Yui Hayashi）：开发本部 App事业部 总监（Director）。2016年应届入职后分派至App事业部。历任营业企划部、中国事业部、《Pokémon UNITE》（宝可梦大集结）推进室，目前重返App事业部担任核心总监。"
+  original: 林 祐衣（はやし ゆい）：アプリ事業部ディレクター。新卒入社後、アプリ事業部に配属。営業企画部、中国事業部、Pokémon UNITE推進室を経て、現在はアプリ事業部に所属。
+  translation: 林 祐衣（Yui Hayashi）：开发本部 App事业部 总监（Director）。2016年应届入职后分派至App事业部。历任营业企划部、中国事业部、《Pokémon UNITE》（宝可梦大集结）推进室，目前重返App事业部担任核心总监。
 - type: image
   original: /assets/img/interviews/2022-tpc-recruit-growth/entry2.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-growth/entry2.jpg
@@ -47,8 +47,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "髙草 真生（たかくさ まお）：開発プロデュース部マネジャー。新卒入社後、宣伝企画部に配属。Pokémon GO推進室を経て、現在は開発プロデュース部に所属し、ポケモン×アート推進室を兼務。"
-  translation: "髙草 真生（Mao Takakusa）：开发本部 开发制作部 经理（Manager）。2016年应届入职后分派至宣发企划部。历经Pokémon GO推进室，目前任职于开发制作部，并兼任宝可梦×艺术推进室主管。"
+  original: 髙草 真生（たかくさ まお）：開発プロデュース部マネジャー。新卒入社後、宣伝企画部に配属。Pokémon GO推進室を経て、現在は開発プロデュース部に所属し、ポケモン×アート推進室を兼務。
+  translation: 髙草 真生（Mao Takakusa）：开发本部 开发制作部 经理（Manager）。2016年应届入职后分派至宣发企划部。历经Pokémon GO推进室，目前任职于开发制作部，并兼任宝可梦×艺术推进室主管。
 - type: image
   original: /assets/img/interviews/2022-tpc-recruit-growth/entry3.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-growth/entry3.jpg
@@ -56,8 +56,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "的場 昴樹（まとば こうき）：Pokémon GO推進室マネジャー。新卒入社後、商品部に配属。宣伝企画部を経て、現在はPokémon GO推進室に所属し、音楽プロジェクト「Pokémon Music Collective」も担当。"
-  translation: "的场 昂树（Koki Matoba）：Pokémon GO推进室 经理（Manager）。2016年应届入职后分派至商品部。历经宣发企划部，目前任职于Pokémon GO推进室，并兼管全球音乐合作企划“Pokémon Music Collective”。"
+  original: 的場 昴樹（まとば こうき）：Pokémon GO推進室マネジャー。新卒入社後、商品部に配属。宣伝企画部を経て、現在はPokémon GO推進室に所属し、音楽プロジェクト「Pokémon Music Collective」も担当。
+  translation: 的场 昂树（Koki Matoba）：Pokémon GO推进室 经理（Manager）。2016年应届入职后分派至商品部。历经宣发企划部，目前任职于Pokémon GO推进室，并兼管全球音乐合作企划“Pokémon Music Collective”。
 - type: image
   original: /assets/img/interviews/2022-tpc-recruit-growth/entry4.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-growth/entry4.jpg
@@ -65,8 +65,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "寺田 佑貴（てらだ ゆうき）：プラットフォーム戦略部マネジャー。新卒入社後、Pokémon GO推進室に配属。商品部を経て、現在はプラットフォーム戦略部に所属し、経営企画部を兼務。"
-  translation: "寺田 佑贵（Yuki Terada）：平台战略部 经理（Manager）。2016年应届入职后分派至Pokémon GO推进室。历经商品部，目前任职于平台战略部，并兼任经营企划部关键职务。"
+  original: 寺田 佑貴（てらだ ゆうき）：プラットフォーム戦略部マネジャー。新卒入社後、Pokémon GO推進室に配属。商品部を経て、現在はプラットフォーム戦略部に所属し、経営企画部を兼務。
+  translation: 寺田 佑贵（Yuki Terada）：平台战略部 经理（Manager）。2016年应届入职后分派至Pokémon GO推进室。历经商品部，目前任职于平台战略部，并兼任经营企划部关键职务。
 - type: image
   original: /assets/img/interviews/2022-tpc-recruit-growth/entry5.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-growth/entry5.jpg
@@ -74,8 +74,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "小島 彬（おじま あきら）：アジア事業部マネジャー。新卒入社後、営業企画部に配属。開発プロデュース部を経て、現在はアジア事業部に所属し、そらとぶピカチュウプロジェクトを兼務。"
-  translation: "小岛 彬（Akira Kojima）：亚洲事业部 经理（Manager）。2016年应届入职后分派至营业企划部。历经开发制作部，目前任职于亚洲事业部，并兼管重磅文旅公益项目“飞翔皮卡丘企划”（そらとぶピカチュウプロジェクト）。"
+  original: 小島 彬（おじま あきら）：アジア事業部マネジャー。新卒入社後、営業企画部に配属。開発プロデュース部を経て、現在はアジア事業部に所属し、そらとぶピカチュウプロジェクトを兼務。
+  translation: 小岛 彬（Akira Kojima）：亚洲事业部 经理（Manager）。2016年应届入职后分派至营业企划部。历经开发制作部，目前任职于亚洲事业部，并兼管重磅文旅公益项目“飞翔皮卡丘企划”（そらとぶピカチュウプロジェクト）。
 - type: heading
   level: 2
   original: 今まででいちばん手応えのあった仕事について、教えてください。
@@ -269,4 +269,5 @@ entities:
   works:
   - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
+original_lang: ja
 ---

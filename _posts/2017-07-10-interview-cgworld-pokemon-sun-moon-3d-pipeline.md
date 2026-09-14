@@ -563,4 +563,5 @@ era_skin: '2019'
 entities:
   works:
   - 宝可梦 太阳·月亮
+original_lang: ja
 ---

@@ -168,4 +168,5 @@ entities:
   - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
+original_lang: ja
 ---

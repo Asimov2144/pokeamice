@@ -74,9 +74,6 @@ parallel_items:
   original: ・ これまでGIGAZINEを支援してくれたメンバーのリスト
   translation: ・ 曾支援过GIGAZINE的成员列表
 - type: paragraph
-  original: login
-  translation: 登录
-- type: paragraph
   original: GIGAZINEにログイン
   translation: 登录GIGAZINE
 - type: paragraph

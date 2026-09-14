@@ -115,6 +115,7 @@ parallel_items:
 source:
   title: 卒業生に訊く！未来ロボティクス学科1期生 菜花健作さん
   url: https://www.robotics.it-chiba.ac.jp/j/?p=484
+original_lang: ja
 ---
 ### 导读：跨学科跨界的硬核理工思维与 GAME FREAK 创作者之魂
 

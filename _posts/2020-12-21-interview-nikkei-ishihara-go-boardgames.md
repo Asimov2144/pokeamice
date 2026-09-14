@@ -71,6 +71,7 @@ parallel_items:
 source:
   title: 石原恒和・ポケモン社長　父に囲碁教わりゲーム好きに
   url: https://style.nikkei.com/article/DGXKZO67530060R21C20A2KNTP00/
+original_lang: ja
 ---
 ### 导读：棋盘盘上的孤独推演与千亿商业帝国的原点
 

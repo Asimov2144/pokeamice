@@ -146,4 +146,5 @@ parallel_items:
   speaker: 增田顺一
   note: Xerneas 和 Yveltal 分别代表生命与毁灭，对应游戏的主题。
   role: answer
+original_lang: es
 ---

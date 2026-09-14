@@ -94,9 +94,6 @@ parallel_items:
   original: Join The Pokémon Trainer Club Now! Join Now!
   translation: 立即加入宝可梦训练家俱乐部！立即加入！
 - type: paragraph
-  original: Log In
-  translation: 登录
-- type: paragraph
   original: Pokémon
   translation: 宝可梦
 - type: paragraph
@@ -588,9 +585,6 @@ parallel_items:
   translation: 当时的重点确实是在交换上。所以一切都是围绕这个方面设计的。例如，加入宝可梦图鉴是为了让人们在交换时能记录自己拥有的宝可梦。甚至给它们配招也是为了增加每只宝可梦的价值，让人们愿意交换它们。但对我来说，从零开始创造游戏的过程确实非常难忘。
   speaker: 增田顺一
   role: answer
-- type: paragraph
-  original: Back To Top
-  translation: 返回顶部
 - type: paragraph
   original: RELEASE DATE October 7, 2012
   translation: 发售日期：2012年10月7日

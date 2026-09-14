@@ -50,12 +50,6 @@ parallel_items:
   original: How Let's Go Pikachu / Eevee Update Pokemon Yellow For A New Generation - GameSpot
   translation: 《Let's Go 皮卡丘/伊布》如何为新一代更新《宝可梦 黄》 - GameSpot
 - type: paragraph
-  original: Sign In or Register
-  translation: 登录或注册
-- type: paragraph
-  original: 'Search For : Search'
-  translation: 搜索：搜索
-- type: paragraph
   original: 'Barring a small handful of spin-offs, the Pokemon series is making its proper debut on Nintendo Switch next month with the release of Pokemon: Let’s Go Pikachu and Let’s Go Eevee . Based largely on the classic Pokemon Yellow version, the Let’s Go games return the franchise to its roots in many ways. As in the original, the story is once again set in the Kanto region, and you’ll only encounter the first 151 Pokemon (plus the newly revealed Meltan ) during your adventure.'
   translation: 除少数衍生作品外，宝可梦系列将于下个月在任天堂 Switch 上正式首发，推出《宝可梦：Let's Go 皮卡丘》和《Let's Go 伊布》。这两款游戏在很大程度上基于经典的《宝可梦 黄》版本，在许多方面回归了该系列的本源。与原作一样，故事再次发生在关都地区，在冒险中你只会遇到最初的 151 只宝可梦（外加新公布的 美录坦）。
 - type: paragraph

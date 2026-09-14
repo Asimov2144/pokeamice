@@ -299,4 +299,5 @@ entities:
   works:
   - Pokémon GO
   - 宝可梦集换式卡牌游戏
+original_lang: ja
 ---

@@ -455,4 +455,5 @@ parallel_items:
 entities:
   works:
   - 名侦探皮卡丘
+original_lang: ja
 ---

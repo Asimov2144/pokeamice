@@ -37,8 +37,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "寺田 佑貴（てらだ ゆうき）：アプリ事業部 / ディレクター。経営企画部データチーム兼務。"
-  translation: "寺田 佑贵（Yuki Terada）：开发本部 App事业部 总监（Director），兼任经营企划部数据团队（Data Team）核心成员。"
+  original: 寺田 佑貴（てらだ ゆうき）：アプリ事業部 / ディレクター。経営企画部データチーム兼務。
+  translation: 寺田 佑贵（Yuki Terada）：开发本部 App事业部 总监（Director），兼任经营企划部数据团队（Data Team）核心成员。
 - type: image
   original: /assets/img/interviews/2023-tpc-recruit-data/entry2.png
   translation: /assets/img/interviews/2023-tpc-recruit-data/entry2.png
@@ -46,8 +46,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "水口（みずぐち）：映像企画部 / マネジャー。映像作品プロデュース、経営企画部データチーム兼務。"
-  translation: "水口（Mizuguchi）：影视企划部 经理（Manager）。负责多部宝可梦官方动画与影像作品的统筹制作，兼任经营企划部数据团队成员。"
+  original: 水口（みずぐち）：映像企画部 / マネジャー。映像作品プロデュース、経営企画部データチーム兼務。
+  translation: 水口（Mizuguchi）：影视企划部 经理（Manager）。负责多部宝可梦官方动画与影像作品的统筹制作，兼任经营企划部数据团队成员。
 - type: image
   original: /assets/img/interviews/2023-tpc-recruit-data/entry3.png
   translation: /assets/img/interviews/2023-tpc-recruit-data/entry3.png
@@ -55,8 +55,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "坂上（さかうえ）：システム部。データ分析基盤（DWH）構築チーム担当。"
-  translation: "坂上（Sakaue）：系统部。全社数据分析基盘（Data Warehouse / DWH）架构搭建与全社数据资产推进负责人。"
+  original: 坂上（さかうえ）：システム部。データ分析基盤（DWH）構築チーム担当。
+  translation: 坂上（Sakaue）：系统部。全社数据分析基盘（Data Warehouse / DWH）架构搭建与全社数据资产推进负责人。
 - type: heading
   level: 2
   original: それぞれのお仕事について教えてください。
@@ -167,4 +167,5 @@ parallel_items:
 entities:
   works:
   - 宝可梦 朱·紫
+original_lang: ja
 ---

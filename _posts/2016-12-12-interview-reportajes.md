@@ -637,4 +637,5 @@ parallel_items:
 - type: paragraph
   original: Más lanzamientos
   translation: 更多发售信息
+original_lang: es
 ---

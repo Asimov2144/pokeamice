@@ -57,4 +57,5 @@ parallel_items:
 - type: paragraph
   original: HarmoKnight is available for Nintendo 3DS. Drill Dozer was released for Game Boy Advance in 2006. You can check out the first in this video series with Ken Sugimori and Pulseman in our previous report here .
   translation: 《节奏猎鹰》现已登陆任天堂 3DS。《钻头小精灵》于 2006 年在 Game Boy Advance 上发布。您可以在我们之前的报道中查看本视频系列的第一集，其中包含杉森建和《脉冲超人》的内容。
+original_lang: en
 ---

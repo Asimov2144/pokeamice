@@ -101,9 +101,6 @@ parallel_items:
   translation: 立即加入宝可梦训练家俱乐部！立即加入！
   note: 宝可梦训练家俱乐部是官方会员服务。
 - type: paragraph
-  original: Log In
-  translation: 登录
-- type: paragraph
   original: Pokémon
   translation: 宝可梦
 - type: paragraph
@@ -458,9 +455,6 @@ parallel_items:
   original: Thanks to the developers at GAME FREAK, inc. for giving their time to  give us an in-depth look at Pokémon HeartGold and SoulSilver Versions!  For more information on the games, visit www.pokemongoldsilver.com !
   translation: 感谢GAME FREAK公司的开发者们抽出时间让我们深入了解《宝可梦心金/魂银》！如需了解更多游戏信息，请访问 www.pokemongoldsilver.com！
   note: GAME FREAK是宝可梦系列的主要开发商。
-- type: paragraph
-  original: Back To Top
-  translation: 返回顶部
 - type: paragraph
   original: RELEASE DATE March 14, 2010
   translation: 发售日期：2010年3月14日

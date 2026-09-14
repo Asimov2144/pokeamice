@@ -502,4 +502,5 @@ parallel_items:
 - type: paragraph
   original: Translated by Sushi
   translation: 翻译：Sushi
+original_lang: ja
 ---

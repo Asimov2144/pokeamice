@@ -6,8 +6,8 @@ subtitle: 贴近动画插画却极力警惕复杂化！偏爱冷门怪兽的‘�
 date: '2002-11-01'
 era_skin: '2003'
 source:
-  title: '1-5 開発者よりみなさまへのメッセージ｜Nintendo Online Magazine 2002年11月号 No.52'
-  url: 'https://www.nintendo.co.jp/nom/0211/01/01_05/index.html'
+  title: 1-5 開発者よりみなさまへのメッセージ｜Nintendo Online Magazine 2002年11月号 No.52
+  url: https://www.nintendo.co.jp/nom/0211/01/01_05/index.html
 source_name: 任天堂官网「N.O.M」(No.52)
 source_url: https://web.archive.org/web/20221226221956/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html
 original_link: https://www.nintendo.co.jp/nom/0211/01/01_05/index.html
@@ -63,4 +63,5 @@ parallel_items:
   translation: 和前作一样，有可爱的伙伴，有神秘怪异的同伴，也有帅气威武的巨兽，我们为丰缘地区设计了大量全新的宝可梦。此外，更有那种会让大家惊呼‘诶？这也算宝可梦吗？！’的前卫新怪兽登场，绝对能让大家感受到完全新作带来的绝妙新鲜感。请务必把所有的宝可梦全都收服到图鉴里吧！
   note: ''
 interviewee: N.O.M采访者, 【章节导览】, 杉森建
+original_lang: ja
 ---

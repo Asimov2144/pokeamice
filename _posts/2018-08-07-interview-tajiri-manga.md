@@ -739,4 +739,5 @@ parallel_items:
 - type: paragraph
   original: Reject All Save My Preferences Accept All
   translation: 全部拒绝 保存我的偏好 全部接受
+original_lang: ja
 ---

@@ -176,4 +176,5 @@ parallel_items:
 source:
   title: Special Interview 「ポケモンビジネス、徹底解剖」
   url: https://recruit.pokemon.co.jp/saiyo/interview/business.html
+original_lang: ja
 ---

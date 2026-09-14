@@ -233,4 +233,5 @@ parallel_items:
 entities:
   works:
   - Pokémon GO
+original_lang: ja
 ---

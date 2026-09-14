@@ -38,8 +38,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "太田（おおた）：開発支援部 テクニカルディレクター。『Pokémon HOME』開発・運用、原著作権者（任天堂・クリーチャーズ・ゲームフリーク）協業サーバー基盤、3Dモデル管理ツール統括。"
-  translation: "太田（Ohta）：开发本部 开发支援部 技术总监（Technical Director）。主导《Pokémon HOME》的研发与长线运营、协同原版权方三社（任天堂、Creatures、GAME FREAK）共建服务器通讯基盘、统管全社3D模型与设定资源资产库系统。"
+  original: 太田（おおた）：開発支援部 テクニカルディレクター。『Pokémon HOME』開発・運用、原著作権者（任天堂・クリーチャーズ・ゲームフリーク）協業サーバー基盤、3Dモデル管理ツール統括。
+  translation: 太田（Ohta）：开发本部 开发支援部 技术总监（Technical Director）。主导《Pokémon HOME》的研发与长线运营、协同原版权方三社（任天堂、Creatures、GAME FREAK）共建服务器通讯基盘、统管全社3D模型与设定资源资产库系统。
 - type: image
   original: /assets/img/interviews/2022-tpc-recruit-engineering/entry2.png
   translation: /assets/img/interviews/2022-tpc-recruit-engineering/entry2.png
@@ -47,8 +47,8 @@ parallel_items:
 - type: text
   speaker: 档案
   speaker_orig: プロフィール
-  original: "小川（おがわ）：Pokémon GO推進室 テクニカルディレクター。『Pokémon GO』開発統括、『Pokémon GO Plus』ハードウェア仕様策定、先端テクノロジー×アート企画推進。"
-  translation: "小川（Ogawa）：Pokémon GO推进室 技术总监（Technical Director）。《Pokémon GO》开发统筹、专用外设《Pokémon GO Plus》硬件功能规范主导者、前沿科技×艺术×宝可梦多元跨界企划总舵手。"
+  original: 小川（おがわ）：Pokémon GO推進室 テクニカルディレクター。『Pokémon GO』開発統括、『Pokémon GO Plus』ハードウェア仕様策定、先端テクノロジー×アート企画推進。
+  translation: 小川（Ogawa）：Pokémon GO推进室 技术总监（Technical Director）。《Pokémon GO》开发统筹、专用外设《Pokémon GO Plus》硬件功能规范主导者、前沿科技×艺术×宝可梦多元跨界企划总舵手。
 - type: heading
   level: 2
   original: これまでの主な業務内容を教えてください。
@@ -162,4 +162,5 @@ parallel_items:
 entities:
   works:
   - Pokémon GO
+original_lang: ja
 ---

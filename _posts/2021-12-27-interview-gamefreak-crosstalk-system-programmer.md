@@ -136,4 +136,5 @@ parallel_items:
   translation: 打造10年后GAME FREAK的，正是今后入职的各位。希望大家能尽情享受这个变化的过程本身。
   role: answer
 display_title: 乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK。
+original_lang: ja
 ---

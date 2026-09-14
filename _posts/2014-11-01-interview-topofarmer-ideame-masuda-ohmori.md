@@ -327,4 +327,5 @@ parallel_items:
 - original: No me lo recuerdes buah)
   translation: 别提醒我 呜呜)
 interviewee: 增田顺一, 大森滋, 大森滋 / 增田顺一, 西班牙少年听众
+original_lang: es
 ---

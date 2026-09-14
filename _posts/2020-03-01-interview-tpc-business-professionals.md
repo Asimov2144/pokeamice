@@ -234,4 +234,5 @@ parallel_items:
   speaker: 大洞 翔一
   role: answer
 interviewee: TPC 招聘专栏, The Pokémon Company, 大洞 翔一, 早川 和湖, 松永 充代
+original_lang: ja
 ---

@@ -165,12 +165,6 @@ parallel_items:
   original: 催される予定ございますので、ご期待下さい！
   translation: 敬请期待！
 - type: paragraph
-  original: (c)2012 Pokémon.
-  translation: ©2012 Pokémon.
-- type: paragraph
-  original: (c)1995-2012 Nintendo / Creatures Inc. / GAME FREAK inc.
-  translation: ©1995-2012 Nintendo / Creatures Inc. / GAME FREAK inc.
-- type: paragraph
   original: '02'
   translation: '02'
 - type: paragraph

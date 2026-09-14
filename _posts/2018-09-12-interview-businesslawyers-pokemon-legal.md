@@ -130,4 +130,5 @@ parallel_items:
   image: /assets/img/interviews/2018-09-12-interview-businesslawyers-pokemon-legal/businesslawyers_legal_06.jpg
   alt: 株式会社ポケモン 管理本部管理部法務担当の皆さん
   caption: 株式会社宝可梦 管理总部管理部法务担当的各位
+original_lang: ja
 ---

@@ -170,4 +170,5 @@ entities:
   works:
   - 宝可梦 究极之日·究极之月
   - 宝可梦 太阳·月亮
+original_lang: ja
 ---
