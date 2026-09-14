@@ -31,9 +31,8 @@ workflow:
   proofreading: pending
   published: done
 entities:
-  people: []
   works:
-  - 宝可梦
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - Nintendo
@@ -741,8 +740,3 @@ parallel_items:
   original: Reject All Save My Preferences Accept All
   translation: 全部拒绝 保存我的偏好 全部接受
 ---
-
-
-
-
-

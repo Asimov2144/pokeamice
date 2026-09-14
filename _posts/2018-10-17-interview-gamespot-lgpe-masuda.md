@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》
 original_title: How Let's Go Pikachu / Eevee Update Pokemon Yellow For A New Generation
@@ -19,14 +20,9 @@ entities:
   - 增田顺一
   - 名花健作
   - Kevin Knezevic
-  companies:
-  - GAME FREAK
-  - 任天堂
-  - 株式会社宝可梦
-  - Niantic
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
-  - 宝可梦 黄
+  - 宝可梦 皮卡丘版
   - 宝可梦 红·绿
   - Pokémon GO
 speakers:

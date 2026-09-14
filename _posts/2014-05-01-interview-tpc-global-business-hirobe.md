@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕
 title_ja: Special Interview 003 「グローバル事業、最前線」 ｜ 廣部 圭太
@@ -30,8 +31,8 @@ entities:
   - 廣部圭太
   - 石原恒和
   works:
-  - 宝可梦 X／Y
-  - 宝可梦 黑／白
+  - 宝可梦 X·Y
+  - 宝可梦 黑·白
   - Pokemon Direct
   organizations:
   - 株式会社ポケモン

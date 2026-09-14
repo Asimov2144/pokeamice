@@ -34,7 +34,8 @@ sitemap: false
 {%- if post.summary %},"s":{{ post.summary | strip | jsonify }}{% endif -%}
 {%- if post.tags and post.tags.size > 0 %},"g":{{ post.tags | jsonify }}{% endif -%}
 {%- if post.entities.people and post.entities.people.size > 0 %},"p":{{ post.entities.people | jsonify }}{% endif -%}
-{%- if post.entities.works and post.entities.works.size > 0 %},"w":{{ post.entities.works | jsonify }}{% endif -%}
+{%- assign item_works = post.entities.works | default: post.entities.games -%}
+{%- if item_works and item_works.size > 0 %},"w":{{ item_works | jsonify }}{% endif -%}
 {%- if post.entities.organizations and post.entities.organizations.size > 0 %},"o":{{ post.entities.organizations | jsonify }}{% endif -%}
 {%- if post.entities.events and post.entities.events.size > 0 %},"v":{{ post.entities.events | jsonify }}{% endif -%}
 }

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻
 subtitle: 2011年2月刊 Nintendo Dream 专访实录：飞云大桥螺旋引桥构想、帆巴吊桥开合设计、圆筒大桥入口模型与奇幻桥72%幽灵少女之谜
@@ -93,4 +94,7 @@ interviewee: Nintendo Dream / Pokemon-Memo, 增田顺一
 source:
   title: 「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」（ブリッジ）の設定
   url: http://pokemon-memo.com/2011/02/21/black-white-bridge/
+entities:
+  works:
+  - 宝可梦 黑·白
 ---

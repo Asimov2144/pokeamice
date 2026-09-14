@@ -49,11 +49,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center">猴年</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">以属猴之人的身份开始的2016年</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">也是宝可梦20周年的这一年</div>

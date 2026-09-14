@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生命力办公空间哲学
 title_ja: CANUCH：株式会社ゲームフリーク新オフィスデザイン解説 世界観の創造に必要なのは常に冒険心を持ち続ける事
@@ -204,4 +205,7 @@ parallel_items:
 - original: 'Project Outline Total Floor Area : 2860.59㎡ Year: 07/2020 Location :
     Tokyo, Japan'
   translation: 项目概要 建筑总面积：2,860.59 平方米 竣工时间：2020年7月 地理位置：日本东京都世田谷区三轩茶屋（Carrot Tower）
+entities:
+  works:
+  - 宝可梦 红·绿
 ---

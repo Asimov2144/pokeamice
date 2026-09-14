@@ -42,12 +42,10 @@ entities:
   - 石原 恒和
   - 长畑 成一郎
   - 富江 慎一郎
-  games:
-  - 宝可梦不可思议迷宫 极大之门与∞迷宫
+  works:
+  - 宝可梦不可思议迷宫
   - Rogue
   - 风来的西林
-  pokemon:
-  - 土龙弟弟
 parallel_items:
 - type: image
   image: /assets/img/interviews/2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4/mainvisual4.jpg

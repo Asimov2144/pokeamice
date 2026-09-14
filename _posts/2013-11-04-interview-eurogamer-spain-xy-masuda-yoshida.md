@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道
 original_title: 'Entrevista a Junichi Masuda: Lo raro sería encontrar "a quien no le guste ningún Pokémon"'
@@ -77,4 +78,7 @@ parallel_items:
 source:
   title: Eurogamer.es
   url: https://www.eurogamer.es/entrevista-con-el-director-de-pokemon-x-e-y-lo-raro-seria-encontrar-a-quien-no-le-guste-ningun-pokemon
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

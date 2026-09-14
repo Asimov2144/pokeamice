@@ -33,11 +33,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center">宝可梦迎来20周年之际
     <br>
 接受了CNN的

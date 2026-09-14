@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学
 title_ja: Eurogamer：増田順一氏・菜花健作氏インタビュー ポケモン Let's Go! ピカ・ブイの挑戦
@@ -194,4 +195,7 @@ parallel_items:
   translation: 我特别期待与大师训练家的对战。游戏通关后，玩家仍可自由探索关都地区，并会遇到全部151只宝可梦的大师训练家，他们会向玩家发起挑战，玩家可以击败他们，自己成为大师。这是一项相当艰巨的任务。
   speaker: 菜花健作
 interviewee: Eurogamer, 增田顺一, 菜花健作
+entities:
+  works:
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 ---

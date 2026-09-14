@@ -1,0 +1,32 @@
+---
+title: "宝可梦 电影 - 作品"
+permalink: "/entities/works/e5ae9de58fafe6a2a6+e794b5e5bdb1/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>作品</p>
+    <h2>宝可梦 电影</h2>
+    <span>1 篇文章 · 0 条评注 · 2007</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/works/">返回作品索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第70回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-070/">[GameFreak部长专栏] 第70回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 周六上午，我去了次世代世界兴趣博览会！ 从东京出发的电车上，孩子们已经沉浸在游戏的世界里了。 大家玩着各种各样</span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

@@ -1,0 +1,32 @@
+---
+title: "三岛由纪夫 - 人物"
+permalink: "/entities/people/e4b889e5b29be794b1e7baaae5a4ab/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>三岛由纪夫</h2>
+    <span>1 篇文章 · 0 条评注 · 2008</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · タイ行ってきました！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-83/">【工作日志】2008年泰国旅行记</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是カニ子（蟹子）。 之前也写过箱根旅行的事，&lt;br 我可是无论国内国外都非常喜欢旅行的！&lt;br 上周请了带薪假，去泰国玩了三晚四天！&lt;br 从日本坐飞机大约要6个小时。&lt;br 那里是四季如夏的国家，不过现在正值雨季，热得和日本差不多。 &lt;figure class=&quot;gf-lega</span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

@@ -41,14 +41,9 @@ entities:
   - 岩田 聪
   - 增田 顺一
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 X·Y
-  - 宝可梦 赤·绿
-  pokemon:
-  - 超级路卡利欧
-  - 超级喷火龙X
-  - 路卡利欧
-  - 喷火龙
+  - 宝可梦 红·绿
 parallel_items:
 - type: header
   level: 3
@@ -180,8 +175,3 @@ parallel_items:
   translation: ※9 超级进化（Mega Evolution）＝仅在对战中才能触发的“超越极限的进化”。超级进化后宝可梦外观发生巨变，能力、特性乃至属性均会产生深刻质变；战斗结束后恢复原状。
   note: 官方原注
 ---
-
-
-
-
-

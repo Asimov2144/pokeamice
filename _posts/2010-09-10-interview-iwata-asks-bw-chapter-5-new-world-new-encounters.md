@@ -41,11 +41,8 @@ entities:
   - 增田 顺一
   - 杉森 建
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 黑·白
-  pokemon:
-  - 莱希拉姆
-  - 捷克罗姆
 parallel_items:
 - speaker: 岩田聪
   original: 最後に、楽しみにしてくださっているお客さんたちに、メッセージをお願いしたいと思います。増田さんからお願いします。
@@ -264,8 +261,3 @@ parallel_items:
   translation: 非常感谢。
   note: ''
 ---
-
-
-
-
-

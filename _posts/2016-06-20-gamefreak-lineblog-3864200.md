@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><figure class="gf-lineblog-image"><a href="/assets/images/gamefreak-lineblog/3864200/001-c1e80eb65f.webp" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-lineblog/3864200/001-c1e80eb65f.webp" alt="" loading="lazy" width="639" height="852"></a></figure>
 
 

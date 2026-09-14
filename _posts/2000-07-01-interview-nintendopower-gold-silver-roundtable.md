@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会
 subtitle: 2000年北美发售特刊：六位核心主创齐聚一堂·第二世代300只构想裁撤秘辛、咕咕的钟摆原型、森本偷渡梦幻真相与红蓝宝石早期端倪
@@ -201,4 +202,7 @@ interviewee: Nintendo Power, 一之濑刚, 增田顺一, 太田健典, 杉森建
 source:
   title: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
   url: https://lavacutcontent.com/sugimori-hundreds-pokemon-cut/
+entities:
+  works:
+  - 宝可梦 金·银
 ---

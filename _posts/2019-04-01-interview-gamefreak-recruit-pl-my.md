@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）
 title_ja: 『ポケモン』シリーズのディレクター、そして、私ならではの新規IPを実現させたい。（プランナー M.Y.）

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 《宝可梦 探险寻宝》与《Let's Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈
 original_title: 「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート
@@ -25,18 +26,12 @@ entities:
   - 齐田和生
   - 野村达雄
   - 约翰·汉克
-  companies:
-  - 株式会社宝可梦
-  - GAME FREAK
-  - 任天堂
-  - Niantic
-  - Creatures
   works:
   - 宝可梦 探险寻宝
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - Pokémon GO
   - 宝可梦 红·绿
-  - 宝可梦 皮卡丘
+  - 宝可梦 皮卡丘版
 speakers:
 - name: 石原恒和
   role: 株式会社宝可梦 代表取缔役社长

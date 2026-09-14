@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - Pokémon GO
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">星期天</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">从东京电视台系列</div>

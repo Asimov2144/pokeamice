@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Nintendo</h2>
-    <span>1 篇文章 · 0 条评注 · 2021</span>
+    <span>30 篇文章 · 0 条评注 · 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2010 / 2009 / 2006 / 2004 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,9 +19,185 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2021 · scan_translation · Nintendo DREAM 25th Anniversary</p>
-  <h3><a href="/访谈翻译/扫描存档/扫描访谈-DREAM-25TH-OCR横排访谈示例/">[扫描访谈] DREAM 25TH OCR 横排访谈示例</a></h3>
-  <span>流程说明 本页使用 DREAM 25TH 的 page008 做示例。测试时尝试了整页 OCR、PP-Structure 和 2 栏切分三种方式。 目前最可用的是“先缩放页面，再按人物块或正文块切区，然后对每个区域 OCR”。直接整页 OCR 会把标题、振假名、图片说明和正文混在一起；固定 2 栏切分虽然能改善顺序，但仍会把同页两位受访者的内容交错。 这篇文</span>
+  <p>2020 · interview_translation · Pokemon Business Professionals</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pokemon-company-career/">[访谈翻译] 宝可梦公司（TPC）职业特别访谈：业务骨干眼中的宝可梦事业</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-siliconera-harmoknight-drill-dozer/">[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · Pokémon: Let&#39;s Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-lgpe-masuda/">[访谈翻译] Eurogamer 专访增田顺一与名手工作：通往大师训练家之路</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · GS LGPE采访</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamespot-lgpe-masuda/">[访谈翻译] GameSpot 专访增田顺一：《Let&#39;s Go！皮卡丘／伊布》如何重塑《宝可梦 黄》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · Junichi Masuda on Pokémon Let&#39;s Go&#39;s difficulty, mechanics, and the series&#39; future</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2018-10-12-junichi-masuda-on-pokemo/">[访谈翻译] Junichi Masuda on Pokémon Let&#39;s Go&#39;s difficulty, mechanics, and the series&#39; future</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · helixchamber 田尻 自传漫画 研究</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-tajiri-manga/">[访谈翻译] helixchamber 田尻 自传漫画 研究</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · Early Concept Art 宝可梦早期概念美术</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">[访谈翻译] Early Concept Art 宝可梦早期概念美术</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-201805300063/">[访谈翻译] 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2017-game-freak-dordogne-enquete/">[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-20170905-pokemon-early-design-docum/">[访谈翻译] ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-25043/">[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · Creatures history special interview</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-creatures-20th-anniversary/">[访谈翻译] Creatures 成立20周年特别对谈：石原恒和 × 田中宏和 回顾宝可梦黎明期</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · A Special Movie Pre-Premiere Interview with Director Yuyama</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-movie-18-director-yuyama/">[访谈翻译] 宝可梦电影频道 M18 公映前特别专访：汤山邦彦监督谈《光环的超魔神 胡帕》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cronica-ideame-kids-con-junichi-mas/">[访谈翻译] 增田顺一与大森滋与iDÉAME的孩子们</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · 初代概念美术整理 EN</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">[访谈翻译] 初代概念美术整理 EN</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-ken-sugimori-got-artists-block-duri/">[访谈翻译] Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Entrevista con Junichi Masuda, el &quot;alma&quot; de Pokémon 宝可梦系列的灵魂</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hobbyconsolas-masuda-xy/">[访谈翻译] Hobby Consolas 专访增田顺一：宝可梦系列的灵魂与《X·Y》创新</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · THE PEOPLE BEHIND POKEMON</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-news-gamefreak-interview-2012-10-01/">[访谈翻译] THE PEOPLE BEHIND POKEMON</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · GAME FREAK STAFF 日记</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-staff-diary/">[访谈翻译] GAME FREAK STAFF 日记</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · 鶴田 GF staff blog</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-staff-tsuruta/">[访谈翻译] 鶴田 GF staff blog</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-junichi-masuda-takeshi-kawachimaru/">[访谈翻译] Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2012 · interview_translation · HGSS 众 采访</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg-hgss-interview-2010-03-31/">[访谈翻译] HGSS 众 采访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · ‘Pokemon Peer’ Interview Translations (Pokemon Pia 2010)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2010-09-01-pokebeach-pokemon-pia/">[访谈翻译] Pokémon Pia 杂志访谈英译：第五世代宝可梦与角色设计揭秘</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] Nintendo Power 2009 增田顺一专访：第一至第四世代宝可梦的演进与《白金》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2006 · interview_translation · Shinji Miyazaki ×
+ Game Freak Sound Team
+“Talk about Pokémon Music”</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-shinji-miyazaki-gf-sound-team/">[访谈翻译] 宫崎慎二 × Game Freak 声音团队对谈：“畅谈宝可梦音乐的世界”</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2004 · interview_translation · E3 2004: The Pokémon Creators Speak</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2004-05-13-ign-e3-2004-pokemon-creators/">[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2000 · interview_translation · インターネットにおけるポケモンサイト黎明期の記憶 金銀発売前の整理</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-05-01-kakeru-pokemon-site-dawn/">[访谈翻译] 互联网宝可梦网站黎明期的记忆：金银发售前的整理</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 初代インタビュー・開発会議記録</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理</a></h3>
+  <span></span>
 </article>
 
   </section>

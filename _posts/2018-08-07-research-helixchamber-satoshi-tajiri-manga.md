@@ -646,4 +646,7 @@ parallel_items:
     translation: "小学馆，《漫画特别篇 创造宝可梦的男人 田尻智》。"
   - original: "Our “Gameinformer Crylist” analysis"
     translation: "我们的“Gameinformer叫声列表”分析"
+entities:
+  works:
+  - 宝可梦 红·绿
 ---

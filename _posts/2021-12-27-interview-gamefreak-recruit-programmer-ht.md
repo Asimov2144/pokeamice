@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进
 title_ja: 「組織の効率」強化へ。開発環境をフルクラウド化したい。｜プログラマ社員紹介 H.T.
@@ -28,7 +29,7 @@ entities:
   people:
   - H.T.
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   - 开发环境全云端架构
   organizations:
   - 株式会社ゲームフリーク

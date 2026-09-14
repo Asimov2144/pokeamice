@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡
 subtitle: 万代南梦宫 × 宝可梦公司跨界大对谈：石原恒和的一纸突发企划、三相克制与双相位切换、非人型骨骼动作攻坚、水晶灯火灵参战与进军WCS世界舞台
@@ -422,10 +423,3 @@ source:
   source_type: web_interview
 interviewee: Inside Games, 宇都宫崇人, 星野正昭, 桥本拓也, 须崎春树
 ---
-
-
-
-
-
-
-

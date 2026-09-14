@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）
 subtitle: 田尻智、杉森建、森本茂树、太田健程、增田顺一：五大核心主创全员大起底与《金·银》超前线绝密爆料
@@ -20,23 +21,11 @@ entities:
   - 森本茂树
   - 太田健程
   - 林原惠
-  games:
-  - 宝可梦 赤·绿
-  - 宝可梦 青
-  - 宝可梦 皮卡丘
-  - 宝可梦 2（金·银早期代号）
-  pokemon:
-  - 皮卡丘
-  - 呆壳兽
-  - 蚊香蝌蚪
-  - 耿鬼
-  - 妙蛙花
-  - 妙蛙种子
-  - 妙蛙草
-  - 可达鸭
-  - 梦幻
-  - 霸王花
-  - 卡比兽
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 蓝
+  - 宝可梦 皮卡丘版
+  - 宝可梦 金·银
 parallel_items:
 - type: dialogue
   speaker: 【章节导览】

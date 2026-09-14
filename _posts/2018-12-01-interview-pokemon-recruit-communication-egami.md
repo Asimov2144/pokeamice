@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 『Pokémon GO』特别篇：以现实为舞台、连接全球人际纽带的沟通奇迹（江上周作）
 title_ja: Special Interview 「『Pokémon GO』がつなぐ新しいコミュニケーション」（江上周作）

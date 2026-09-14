@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive
   world of Pokémon'
@@ -200,5 +201,9 @@ source:
   title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive
     world of Pokémon'
   url: https://www.theguardian.com/games/2023/nov/20/pokemon-chief-interview
+entities:
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0855 -->

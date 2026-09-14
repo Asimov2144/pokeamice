@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）
 title_ja: 日経ビジネス ポケモンGO、爆発力生んだ日米協業の舞台裏（前編・後編完全版）
@@ -387,5 +388,7 @@ parallel_items:
 - original: ＊当連載は、日経ビジネス2016年8月22日号特集「世界を変えるポケモンGO これから起こる革新の本質」との連動企画です。併せてこちらもご覧ください。
   translation: ＊本连载是与《日经商务》2016年8月22日号特集‘改变世界的Pokémon GO 即将发生的创新的本质’的联动企划。请一并参阅。
 interviewee: 宇都宫崇人, 日経ビジネス
+entities:
+  works:
+  - Pokémon GO
 ---
-

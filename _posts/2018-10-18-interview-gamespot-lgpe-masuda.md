@@ -36,7 +36,8 @@ entities:
   people:
   - 增田顺一
   works:
-  - 宝可梦
+  - 宝可梦 皮卡丘版
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   organizations:
   - Game Freak
   - Nintendo
@@ -210,8 +211,3 @@ parallel_items:
   translation: 长野大辅：我自己也参与过宝可梦的设计，这确实是一个非常艰巨、耗时的过程。你必须和很多人交流，反复讨论，并且能够真正证明其合理性，才能最终确定设计。
   speaker: 长野大辅
 ---
-
-
-
-
-

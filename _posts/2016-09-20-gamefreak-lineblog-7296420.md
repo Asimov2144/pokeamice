@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <br>
 <div class="gf-lineblog-line gf-lineblog-line--center">东京铜管乐团</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">与</div>

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任
 title_ja: 入社早々、『ポケモン』のコンセプトアートを任されました。｜デザイナー社員紹介 F.K.
@@ -27,7 +28,7 @@ entities:
   - F.K.
   works:
   - 宝可梦 究极之日／究极之月
-  - 宝可梦 太阳／月亮
+  - 宝可梦 太阳·月亮
   organizations:
   - 株式会社ゲームフリーク
   - 女子美術大学

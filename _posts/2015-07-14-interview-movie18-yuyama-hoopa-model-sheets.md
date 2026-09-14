@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选
 title_ja: ポケモン映画公式サイト特設対談：湯山邦彦総監督が語る『光輪の超魔神 フーパ』と伝説のポケモン総登場秘話
@@ -277,4 +278,3 @@ parallel_items:
   caption: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
 interviewee: Interviewer
 ---
-

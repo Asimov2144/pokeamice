@@ -42,10 +42,9 @@ entities:
   - 增田顺一
   - 大谷育江
   - 本·里夫斯
-  games:
+  works:
   - 宝可梦 红·绿
-  - 宝可梦 红·蓝
-  - 宝可梦 皮卡丘
+  - 宝可梦 皮卡丘版
 parallel_items:
 - type: heading
   level: 2
@@ -108,8 +107,3 @@ parallel_items:
   original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
   translation: 欲了解更多关于宝可梦波澜壮阔的发展史，敬请参阅 Game Informer 当期杂志刊载的 12 页独家重磅专题报道，以及我们在专题页面中持续更新的独家幕后深度访谈。
 ---
-
-
-
-
-

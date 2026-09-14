@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 X·Y
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">在法国巴黎举办的</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">Japan Expo 2016</div>

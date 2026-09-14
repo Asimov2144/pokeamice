@@ -34,7 +34,7 @@ entities:
   - 田尻智
   - 增田顺一
   works:
-  - 宝可梦
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - Nintendo
@@ -639,8 +639,3 @@ original_link: http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm
 translator: Poke Amice Studio
 interviewee: 田尻智、增田顺一
 ---
-
-
-
-
-

@@ -72,12 +72,9 @@ workflow:
   proofreading: "done"
   published: "done"
 entities:
-  works:
-    - "宝可梦"
   organizations:
-    - "Poke Amice Docs"
+  - Poke Amice Docs
 ---
-
 # 建站纪事&鸣谢
 前人栽树，后人乘凉。\
 立碑刻道，按图索骥。

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）
 title_ja: ピカチュウ誕生秘話（前編・後編 全景完全版）｜株式会社ポケモン（杉森建 × 西野弘二 × にしだあつこ）

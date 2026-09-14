@@ -39,7 +39,7 @@ entities:
   - 杉森建
   - 森本茂树
   works:
-  - 宝可梦
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - Nintendo
@@ -297,8 +297,3 @@ parallel_items:
   translation: 返回《宝可梦 红/蓝》索引
   note: 《宝可梦 红/蓝》是初代宝可梦游戏的名称，官方中文译名为《宝可梦 红/绿》和《宝可梦 蓝》，但此处原文为Red & Blue，故保留“红/蓝”。
 ---
-
-
-
-
-

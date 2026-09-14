@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落
 title_ja: 世界を変えるチャンスは、意外な場所にある。｜プランナー社員紹介 K.F.

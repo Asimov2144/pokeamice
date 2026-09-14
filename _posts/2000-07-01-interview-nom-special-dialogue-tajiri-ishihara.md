@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）
 subtitle: 宝可梦之父与掌舵人亲述：六年濒临破产的坚持、跨越语言之壁的童年共鸣与真正的生物感
@@ -13,15 +14,10 @@ entities:
   people:
   - 田尻 智
   - 石原 恒和
-  games:
-  - 宝可梦 赤·绿
+  works:
+  - 宝可梦 红·绿
   - 宝可梦 金·银
   - 宝可梦卡牌
-  pokemon:
-  - 皮卡丘
-  - 小火龙
-  - 杰尼龟
-  - 妙蛙种子
 parallel_items:
 - type: heading
   level: 2

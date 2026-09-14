@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来
 title_ja: 開発しているのは、ゲームフリークの未来です。｜プログラマ社員紹介 K.M.
@@ -29,7 +30,7 @@ entities:
   - K.M.
   works:
   - 宝可梦系列专有引擎研发
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   organizations:
   - 株式会社ゲームフリーク

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 1UP.com 深度专访 Game Freak 主创：黑白御三家、莱希拉姆与捷克罗姆诞生秘辛
 original_title: 'How Pokemon Get Made: Game Freak''s designers discuss Black and White''s
@@ -99,4 +100,7 @@ source:
   title: 'How Pokemon Get Made: Game Freak''s designers discuss Black and White''s
     main characters'
   url: https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made
+entities:
+  works:
+  - 宝可梦 黑·白
 ---

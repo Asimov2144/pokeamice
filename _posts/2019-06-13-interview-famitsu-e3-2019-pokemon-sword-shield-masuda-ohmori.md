@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新
 original_title: 『ポケットモンスター ソード・シールド』の“いま聞きたいこと”について増田順一氏、大森滋氏を直撃。「連れて来られるポケモンの話」にも言及！【E32019】
@@ -154,4 +155,7 @@ interviewee: 增田顺一, 大森滋
 source:
   title: ファミ通.com
   url: https://www.famitsu.com/news/201906/13177936.html
+entities:
+  works:
+  - 宝可梦 剑·盾
 ---

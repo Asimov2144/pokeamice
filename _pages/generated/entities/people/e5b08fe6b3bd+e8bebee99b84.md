@@ -1,0 +1,50 @@
+---
+title: "小泽 达雄 - 人物"
+permalink: "/entities/people/e5b08fe6b3bd+e8bebee99b84/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>小泽 达雄</h2>
+    <span>4 篇文章 · 0 条评注 · 2011</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『スーパーポケモンスクランブル』 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife/">[访谈翻译] 社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『スーパーポケモンスクランブル』 第4回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds/">[访谈翻译] 社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『スーパーポケモンスクランブル』 第3回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again/">[访谈翻译] 社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『スーパーポケモンスクランブル』 第2回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations/">[访谈翻译] 社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

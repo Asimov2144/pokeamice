@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学
 original_title: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）'
@@ -282,4 +283,8 @@ interviewee: 取材班, 田中宏和, 石原恒和
 source:
   title: Creatures Inc. Official Special Talk
   url: https://www.creatures.co.jp/history_special_interview
+entities:
+  works:
+  - Pokémon GO
+  - 宝可梦集换式卡牌游戏
 ---

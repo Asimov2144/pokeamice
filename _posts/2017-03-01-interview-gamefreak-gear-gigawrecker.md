@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）
 title_ja: ギアプロジェクト『GIGA WRECKER』開発秘話
@@ -33,8 +34,8 @@ entities:
   works:
   - GIGA WRECKER
   - TEMBO THE BADASS ELEPHANT
-  - 宝可梦 黑／白
-  - 宝可梦 X／Y
+  - 宝可梦 黑·白
+  - 宝可梦 X·Y
   - Gear Project（齿轮企划）
   organizations:
   - 株式会社ゲームフリーク
@@ -181,7 +182,6 @@ parallel_items:
   original: 私はオリジナルタイトルをビジネスとして軌道に乗せて、シリーズ化したいですね。ゲームフリークといえば『ポケットモンスター』ですが、「ゲームフリークのオリジナルアクションゲームもめちゃくちゃ面白い！」と世界中に認知されるようにしたい。ギアプロジェクトは、そうした夢を本気で実現できる場所です。ものづくりに対して貪欲で、情熱を持った仲間がもっと増えてくれたら嬉しいですね。
   translation: 而我的野心是：让我们的原创独立 IP 在商业上彻底走上正轨，并将其成功系列化！一提到 GAME FREAK，全球大众的第一反应永远是《宝可梦》；但我渴望用我们的实力让全世界彻底树立全新的认知——“GAME FREAK 的原创硬核动作游戏同样神乎其神、好玩到炸裂！”齿轮企划正是能够让你把这样看似遥不可及的狂想化为现实的唯一圣地。由衷期盼有更多对造物怀揣无尽贪婪与狂热野心的新伙伴，能够毫不犹豫加入我们的行列！
 ---
-
 <div class="interview-profiles my-5 p-4 bg-light rounded shadow-sm">
   <h3 class="border-bottom pb-2 mb-4 text-primary fw-bold">受访核心年轻主创背景档案</h3>
   <div class="row g-4">

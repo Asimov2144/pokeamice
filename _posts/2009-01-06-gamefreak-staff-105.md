@@ -47,13 +47,10 @@ source:
   source_type: official_blog_wayback
 entities:
   works:
-    - "昆蒂"
-    - "宝可梦"
+  - 昆蒂
   organizations:
-    - "Game Freak"
-
+  - Game Freak
 ---
-
 <div data-gf-language-panel="zh-CN">
 半年不见，我是もりもと（森本）。
 

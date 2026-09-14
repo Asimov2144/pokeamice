@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: N.O.M 2002年11月号：『红宝石·蓝宝石』美术与生态特征（杉森建篇：GBA色彩飞跃与新怪兽克制美学）
 subtitle: 贴近动画插画却极力警惕复杂化！偏爱冷门怪兽的‘父母心’与‘这也是宝可梦？’的颠覆设计
@@ -14,12 +15,8 @@ summary: 刊登于《N.O.M》2002年11月号（No.52）的艺术总监深度对�
 entities:
   people:
   - 杉森 建
-  games:
+  works:
   - 宝可梦 红宝石·蓝宝石
-  pokemon:
-  - 木守宫
-  - 火稚鸡
-  - 水跃鱼
 parallel_items:
 - type: heading
   level: 2
@@ -67,8 +64,3 @@ parallel_items:
   note: ''
 interviewee: N.O.M采访者, 【章节导览】, 杉森建
 ---
-
-
-
-
-

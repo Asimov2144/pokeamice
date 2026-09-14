@@ -43,11 +43,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 太阳·月亮
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><figure class="gf-lineblog-image"><a href="/assets/images/gamefreak-lineblog/9242607/001-599f1caeb1.webp" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-lineblog/9242607/001-599f1caeb1.webp" alt="IMG_8077.JPG" loading="lazy" width="1200" height="1600"></a></figure><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">特别嘉宾是小岛瑠璃子小姐！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>

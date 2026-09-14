@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路
 original_title: 『ポケモン ソード・シールド』ポケモンの育成環境が大幅に変革！ オートセーブの仕様やワイルドエリアの裏話など増田順一氏＆大森滋氏インタビュー
@@ -15,12 +16,10 @@ entities:
   people:
   - 增田顺一
   - 大森滋
-  games:
+  works:
   - 宝可梦 剑·盾
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - 宝可梦 太阳·月亮
-  pokemon:
-  - 皮卡丘
 speakers:
 - name: 增田顺一
   role: GAME FREAK 制作人

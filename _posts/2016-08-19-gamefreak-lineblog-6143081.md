@@ -35,11 +35,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - Pokémon GO
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">在旧金山的</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">Niantic 公司</div>

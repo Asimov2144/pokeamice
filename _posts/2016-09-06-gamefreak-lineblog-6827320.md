@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - Pokémon GO
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">因为想抓化石盔</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">第一次来到世田谷公园！</div>

@@ -56,4 +56,7 @@ parallel_items:
     caption: ""
   - original: "I initially found a cache of images from this book on an alternative gaming news site called Tikisaurus. I searched around the web to find a couple more, and combined it with previously-translated developer interviews to bring you a look at Pokémon’s early history!"
     translation: "我最初在一个名为Tikisaurus的另类游戏新闻网站上发现了这本书中的一批图片。我在网上搜索，又找到了几张，并结合之前翻译的开发人员访谈，为你呈现宝可梦的早期历史！"
+entities:
+  works:
+  - 宝可梦 红·绿
 ---

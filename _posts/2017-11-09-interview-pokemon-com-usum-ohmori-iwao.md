@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道
 subtitle: 从少年时代的初代玩家到制作人与总监：彩虹火箭队平行宇宙集结、究极异兽反常规设计与3DS终章哲学
@@ -19,19 +20,13 @@ entities:
   - 杉森建
   - 坂木
   - 古兹马
-  games:
+  works:
   - 宝可梦 究极之日·究极之月
   - 宝可梦 太阳·月亮
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   - 宝可梦 红宝石·蓝宝石
   - 宝可梦 黑·白
-  - 宝可梦 皮卡丘
-  pokemon:
-  - 奈克洛兹玛
-  - 索尔迦雷欧
-  - 露奈雅拉
-  - 巨翅飞鱼
-  - 皮卡丘
+  - 宝可梦 皮卡丘版
 parallel_items:
 - type: image
   src: /assets/img/interviews/2017-11-09-interview-pokemon-com-usum-ohmori-iwao/hero_ohmori_iwao.jpg

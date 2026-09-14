@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Game Informer 独家特写：Game Freak 是如何设计宝可梦的？——杉森建与增田顺一深度复盘生物设计法则、评审委员会机制与 3D 演进
 original_title: Here's How Game Freak Designs Pokémon Creatures
@@ -90,5 +91,7 @@ parallel_items:
   translation: 随着系列不断向前发展，创作新宝可梦的设计与流程很可能会发生转变与变化，以适应工作室中参与创作的人员以及工作室想要传达的理念。然而，令人安心的是，几乎没有任何创意会被视为禁区。
   speaker: null
 image: /assets/img/interviews/2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures/design_01.jpg
+entities:
+  works:
+  - 宝可梦 太阳·月亮
 ---
-

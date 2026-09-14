@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
 subtitle: 2000年7月 NOM 第23期 核心五位主创圆桌专访（金银篇）：关西舞台构想、屋顶换色门闸加载黑科技、周边抢购与梦幻／胡说树诞生秘话
@@ -183,4 +184,7 @@ interviewee: N.O.M采访者, 增田顺一, 杉森建, 森本茂树, 渡边哲也
 source:
   title: 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻
   url: https://web.archive.org/web/20001018042407/http://www.nintendo.co.jp/nom/0007/gfreak/page04.html
+entities:
+  works:
+  - 宝可梦 金·银
 ---

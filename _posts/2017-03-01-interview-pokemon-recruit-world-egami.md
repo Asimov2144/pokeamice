@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 『Pokémon GO』特别篇：开启次时代大门的那一天（江上周作）
 title_ja: Special Interview 「『Pokémon GO』が開いた次代への扉」 ｜ 江上 周作
@@ -125,4 +126,7 @@ parallel_items:
 source:
   title: Special Interview 「『Pokémon GO』が開いた次代への扉」 （Pokémon GO推進室室長 江上周作）
   url: https://recruit.pokemon.co.jp/saiyo/interview/world.html
+entities:
+  works:
+  - Pokémon GO
 ---

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Game Freak’s Origins And Its Pre-Pokémon Games
 zh_title: Game Informer 专访 GAME FREAK：同人杂志起点与前宝可梦时代的自制主机游戏史

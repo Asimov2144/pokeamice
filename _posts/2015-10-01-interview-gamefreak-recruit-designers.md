@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）
 title_ja: 私がゲームフリークに入った理由 グラフィックデザイナー編
@@ -31,7 +32,7 @@ entities:
   - A.I.
   - T.A.
   works:
-  - 宝可梦 X／Y
+  - 宝可梦 X·Y
   - 宝可梦 终极红宝石／始源蓝宝石
   organizations:
   - 株式会社ゲームフリーク
@@ -177,7 +178,6 @@ parallel_items:
   original: 3D化して日が浅いので、演出面でできることはもっとあると思っています。ポケモンの個性や生態、息づかいがもっとダイレクトに伝わるようなモーションを作りたい。ポケモンのグラフィックはまだまだ進化しますし、その最前線に立てていることが何より誇らしいですね。高い志を持った新しい仲間と一緒に、次の時代の新しい表現を作っていきたいです。
   translation: 《宝可梦》全面迈入 3D 时代才刚刚起步不久，在动作演出上我们能够拓荒的未知疆域还有太多太多。我渴望为每一只宝可梦雕琢出能够让玩家瞬间共鸣其独特生态习性、喜怒哀乐与微弱呼吸的细腻灵魂动作。《宝可梦》的图形表现力绝未封顶，还有着广袤的进化空间；而能够置身于这一历史洪流的最前线执笔挥毫，是我职业生涯最自豪的事情。由衷期待与更多身怀绝技的同行并肩携手，共同开辟下一个时代的全新视觉神话！
 ---
-
 <div class="interview-profiles my-5 p-4 bg-light rounded shadow-sm">
   <h3 class="border-bottom pb-2 mb-4 text-primary fw-bold">受访核心设计师背景档案</h3>
   <div class="row g-4">

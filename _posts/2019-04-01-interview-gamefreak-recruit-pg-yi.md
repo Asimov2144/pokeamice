@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）
 title_ja: 新作タイトルを開発。R&Dで最新技術を追求。両方できる。（プログラマ Y.I.）
@@ -31,7 +32,7 @@ entities:
   people:
   - Y.I.
   works:
-  - 宝可梦 太阳／月亮
+  - 宝可梦 太阳·月亮
   - 精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
   organizations:
   - 株式会社ゲームフリーク

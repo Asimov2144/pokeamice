@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛
 original_title: Ken Sugimori got 'artist's block' during Pokemon X and Y development
@@ -55,4 +56,7 @@ interviewee: Official Nintendo Magazine, Official Nintendo Magazine (Thomas East
 source:
   title: Ken Sugimori got 'artist's block' during Pokemon X and Y development
   url: http://web.archive.org/web/20131030135359/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

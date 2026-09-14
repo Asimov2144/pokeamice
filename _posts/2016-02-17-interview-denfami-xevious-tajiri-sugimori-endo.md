@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈
 subtitle: 从街机厅狂热、同人志《Game Freak》到创世巨作：解密《铁板阵》企划书原件与《宝可梦》谜题构想源流
@@ -17,8 +18,8 @@ entities:
   - 一之濑刚
   - 横井军平
   - 平信一
-  games:
-  - 宝可梦 赤·绿
+  works:
+  - 宝可梦 红·绿
   - 宝可梦 金·银
   - 铁板阵
   - 迷宫塔
@@ -26,9 +27,6 @@ entities:
   - 俄罗斯方块
   - 吃豆人世界
   - 接龙马
-  pokemon:
-  - 皮卡丘
-  - 梦幻
 parallel_items:
 - type: dialogue
   speaker: 【导语】

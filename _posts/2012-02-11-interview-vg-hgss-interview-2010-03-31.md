@@ -41,7 +41,7 @@ entities:
   - 森本茂树
   - 海野隆雄
   works:
-  - 宝可梦
+  - 宝可梦 心金·魂银
   organizations:
   - Game Freak
   - Nintendo
@@ -557,8 +557,3 @@ parallel_items:
   translation: 关于宝可梦国际公司
   note: TPCi 指 The Pokémon Company International，负责日本以外的宝可梦业务。
 ---
-
-
-
-
-

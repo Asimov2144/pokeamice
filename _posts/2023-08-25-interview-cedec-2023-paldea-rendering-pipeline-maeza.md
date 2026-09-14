@@ -40,7 +40,7 @@ entities:
   people:
   - 前泽圭一
   - 五十岚
-  games:
+  works:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾
 parallel_items:
@@ -109,7 +109,3 @@ parallel_items:
   translation: 以上便是本次演讲的精髓。通过写实材质、程序化地形、次表面散射与多层晶格着色等一系列先进图形管线的配合，Game Freak成功描绘出了兼具宝可梦梦幻魅力与广袤自然尺度的全新帕底亚大世界。
   note: ''
 ---
-
-
-
-

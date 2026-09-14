@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Eurogamer 专访增田顺一：详谈《Let's Go! 皮卡丘／伊布》机制革新、美录坦登场与交棒下一代
 original_title: Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the
@@ -189,4 +190,7 @@ source:
   title: Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series'
     future
   url: https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future
+entities:
+  works:
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 ---

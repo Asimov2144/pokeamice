@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 《剧场版 宝可梦 可可》音乐总监专访：冈崎体育谈父子羁绊与萨戮德之歌
 original_title: 【劇場版ポケットモンスター ココ】音楽プロデュースを務める岡崎体育さんインタビュー!! 「掟の歌」は○○モチーフ!? 楽曲制作の裏側を聞いた！
@@ -22,10 +23,6 @@ entities:
   works:
   - 剧场版 宝可梦 可可
   - 剧场版 宝可梦 超梦的逆袭
-  pokemon:
-  - 萨戮德
-  - 可可
-  - 皮卡丘
 speakers:
 - name: 冈崎体育
   role: 音乐总监 / 创作歌手

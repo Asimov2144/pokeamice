@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート
 zh_title: Fami通现场直击：增田顺一、大森滋与岩尾和昌谈《究极之日·究极之月》开发秘闻——究极奈克洛兹玛对战曲揭秘与巨头传承体制
@@ -222,5 +223,8 @@ interviewee: 增田顺一, 大森滋, 岩尾和昌
 source:
   title: 増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート
   url: https://www.famitsu.com/news/201805/15157253.html
+entities:
+  works:
+  - 宝可梦 究极之日·究极之月
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0087 -->

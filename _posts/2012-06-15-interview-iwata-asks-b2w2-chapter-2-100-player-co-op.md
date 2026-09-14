@@ -42,11 +42,9 @@ entities:
   - 海野 隆雄
   - 增田 顺一
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 黑2·白2
   - 宝可梦 黑·白
-  pokemon:
-  - 焰白酋雷姆
 parallel_items:
 - speaker: 岩田聪
   original: 海野さんはつくり手になる前から、『ポケモン』のお客さんだったんですか？
@@ -173,8 +171,3 @@ parallel_items:
   translation: （笑）
   note: ''
 ---
-
-
-
-
-

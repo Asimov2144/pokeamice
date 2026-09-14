@@ -32,8 +32,6 @@ workflow:
 entities:
   people:
   - 石原恒和
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo

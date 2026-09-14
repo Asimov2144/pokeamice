@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）
 title_ja: Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」
@@ -333,4 +334,7 @@ parallel_items:
 source:
   title: Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」
   url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview1.html
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

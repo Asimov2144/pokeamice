@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望
 original_title: 《Pokemon GO》完成度僅 10%？熱潮超過預測 100 倍？開發秘辛圓桌會議深入報導
@@ -263,4 +264,7 @@ interviewee: GNN取材班, 江上周作, 河合敬一, 野村达雄, 须贺健�
 source:
   title: 巴哈姆特電玩資訊站 (GNN新聞)
   url: https://gnn.gamer.com.tw/detail.php?sn=137973
+entities:
+  works:
+  - Pokémon GO
 ---

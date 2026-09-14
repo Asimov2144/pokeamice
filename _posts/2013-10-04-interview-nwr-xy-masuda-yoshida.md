@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训
 original_title: Pokémon X and Y Interview with Game Freak
@@ -85,4 +86,7 @@ parallel_items:
 source:
   title: Nintendo World Report
   url: http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

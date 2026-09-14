@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学
 title_ja: 株式会社ポケモン 採用サイト 特集インタビュー「リーダーが語る、仕事との向き合い方」

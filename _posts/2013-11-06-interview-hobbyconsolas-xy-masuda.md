@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访
 original_title: Entrevista con Junichi Masuda, el "alma" de Pokémon
@@ -148,4 +149,7 @@ parallel_items:
 source:
   title: Hobby Consolas（西班牙最大游戏媒体）
   url: https://www.hobbyconsolas.com/reportajes/entrevista-con-junichi-masuda-59058
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

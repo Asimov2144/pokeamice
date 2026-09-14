@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂
 subtitle: 2010年《TV动画 宝可梦 原声精选集 1997-2010》特别企划：宫崎慎二对话增田顺一、一之濑刚、佐藤仁美·点阵音乐与交响编曲的十三年碰撞

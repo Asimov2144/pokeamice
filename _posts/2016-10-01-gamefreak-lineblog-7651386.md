@@ -35,11 +35,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 白金
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">在伦敦</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">接受欧洲媒体的采访</div>

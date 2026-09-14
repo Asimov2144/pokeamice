@@ -30,9 +30,6 @@ workflow:
   proofreading: pending
   published: done
 entities:
-  people: []
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -290,8 +287,3 @@ parallel_items:
   original: ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
   translation: 宝可梦、Pokémon是任天堂、Creatures、GAME FREAK的注册商标。
 ---
-
-
-
-
-

@@ -43,14 +43,10 @@ entities:
   - 石原 恒和
   - 大谷 育江
   - 杉森 建
-  games:
+  works:
   - 宝可梦 X·Y
-  - 宝可梦 赤·绿
+  - 宝可梦 红·绿
   - 宝可梦 红宝石·蓝宝石
-  pokemon:
-  - 皮卡丘
-  - 仙子伊布
-  - 伊布
 parallel_items:
 - type: header
   level: 3
@@ -242,8 +238,3 @@ parallel_items:
   translation: ※2 首次「Pokémon Direct」＝2013年1月8日全球首播的直面会，首次公开《宝可梦 X·Y》标题与3D画面。※3 『赤·绿』＝初代正统作，1996年2月27日GB平台发售。※4 『红宝石·蓝宝石』＝2002年11月21日GBA平台发售。※5 杉森建＝从初代至今担任宝可梦角色设计总监、Game Freak董事。
   note: 官方原注
 ---
-
-
-
-
-

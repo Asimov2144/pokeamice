@@ -35,7 +35,7 @@ entities:
   people:
   - 增田顺一
   works:
-  - 宝可梦
+  - 宝可梦 白金
   organizations:
   - Game Freak
   - Nintendo
@@ -563,8 +563,3 @@ parallel_items:
   original: © Dr Lava 2019
   translation: © Dr Lava 2019
 ---
-
-
-
-
-

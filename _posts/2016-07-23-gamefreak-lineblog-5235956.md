@@ -35,11 +35,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - Pokémon GO
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <br>
 增田我也
 开始体验正式发布版了！

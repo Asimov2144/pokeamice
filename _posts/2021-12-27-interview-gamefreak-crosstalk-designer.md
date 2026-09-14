@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）
 title_ja: デザイナー対談 「ゲームクリエイターとしての、ゲームフリークデザイナー」 ｜ GAME FREAK 採用情報
@@ -159,4 +160,9 @@ parallel_items:
 source:
   title: デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。
   url: https://www.gamefreak.co.jp/recruit/crosstalk-designer/
+entities:
+  works:
+  - 宝可梦 剑·盾
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
 ---

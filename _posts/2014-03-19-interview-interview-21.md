@@ -37,7 +37,7 @@ entities:
   - 增田顺一
   - 杉森建
   works:
-  - 宝可梦
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - Nintendo
@@ -308,8 +308,3 @@ parallel_items:
   translation: 返回《宝可梦 红／蓝》索引
   note: 《宝可梦 红／蓝》是宝可梦系列第一世代的游戏，通常指《宝可梦 红／绿》的海外版本。
 ---
-
-
-
-
-

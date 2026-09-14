@@ -41,14 +41,10 @@ entities:
   - 岩田 聪
   - 石原 恒和
   - 森本 茂树
-  games:
+  works:
   - 宝可梦 心金·魂银
   - 宝可梦 金·银
   - 生活节拍器DS
-  pokemon:
-  - 凤王
-  - 洛奇亚
-  - 皮卡丘
 parallel_items:
 - speaker: ''
   original: === 4. 「かがくのちからって すげえ」 ===
@@ -499,8 +495,3 @@ parallel_items:
   translation: （笑）
   note: ''
 ---
-
-
-
-
-

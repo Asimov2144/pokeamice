@@ -36,7 +36,7 @@ entities:
   - 增田顺一
   - 海野隆雄
   works:
-  - 宝可梦
+  - 宝可梦 黑2·白2
   organizations:
   - Game Freak
   - Nintendo
@@ -645,8 +645,3 @@ parallel_items:
   translation: 关于宝可梦国际公司
   note: TPCi 指 The Pokémon Company International，即宝可梦国际公司。
 ---
-
-
-
-
-

@@ -43,16 +43,10 @@ entities:
   - 大森 滋
   - 松岛 贤二
   - 森 昭人
-  games:
+  works:
   - 宝可梦 心金·魂银
   - 宝可梦 金·银
   - 皮卡丘2 GS
-  pokemon:
-  - 凤王
-  - 洛奇亚
-  - 菊草叶
-  - 火球鼠
-  - 小锯鳄
 parallel_items:
 - type: header
   level: 3
@@ -171,8 +165,3 @@ parallel_items:
   translation: 新玩家总是有空间的。我希望那些从未玩过宝可梦的人能够加入进来，体验这些宝可梦游戏。同时满足核心玩家和初学者确实很难，但这始终是我思考的问题。
   note: ''
 ---
-
-
-
-
-

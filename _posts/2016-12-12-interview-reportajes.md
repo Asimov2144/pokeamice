@@ -35,8 +35,6 @@ entities:
   people:
   - 增田顺一
   - 大森滋
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo

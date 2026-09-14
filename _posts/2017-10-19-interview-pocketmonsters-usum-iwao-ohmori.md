@@ -27,9 +27,8 @@ workflow:
   proofreading: pending
   published: done
 entities:
-  people: []
   works:
-  - 宝可梦
+  - 宝可梦 究极之日·究极之月
   organizations:
   - Game Freak
   - Nintendo

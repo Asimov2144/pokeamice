@@ -34,8 +34,6 @@ workflow:
 entities:
   people:
   - 增田顺一
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -176,8 +174,3 @@ parallel_items:
   translation: 看到这条卡比兽宝可梦毯子，让人立刻想学钩针编织
   note: 卡比兽是宝可梦中的一种，以其庞大的体型和睡眠习性著称。
 ---
-
-
-
-
-

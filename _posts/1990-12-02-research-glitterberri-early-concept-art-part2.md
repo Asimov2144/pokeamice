@@ -52,4 +52,7 @@ parallel_items:
     translation: "你可能也注意到了，设计提案中没有提及两个独立版本。这是因为分版本的想法源于开发后期，由宫本茂本人建议。"
   - original: "As for Miyamoto’s reasons, well…"
     translation: "至于宫本茂的理由，嗯……"
+entities:
+  works:
+  - 宝可梦 红·绿
 ---

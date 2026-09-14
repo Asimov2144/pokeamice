@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道
 original_title: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
@@ -72,5 +73,8 @@ parallel_items:
   translation: 2014年，Game Freak回归《红宝石／蓝宝石》，为3DS制作重制版《欧米伽红宝石／阿尔法蓝宝石》，由大森担任总监。“我一直听增田说原版《红宝石／蓝宝石》有多艰难，在制作《阿尔法蓝宝石／欧米伽红宝石》时，我心中也带着那种压力，”大森说道，“但在我看来，做这些游戏非常有趣，所以我作为重制版总监的动力超级强。”
   speaker: null
 image: /assets/img/interviews/2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/rs_dev_01.jpg
+entities:
+  works:
+  - 宝可梦 黑·白
+  - 宝可梦 红宝石·蓝宝石
 ---
-

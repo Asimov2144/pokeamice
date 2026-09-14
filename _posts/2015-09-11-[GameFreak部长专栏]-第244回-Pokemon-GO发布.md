@@ -35,13 +35,12 @@ workflow:
   published: draft
 entities:
   people:
-    - "增田顺一"
+  - 增田顺一
   works:
-    - "Pokémon GO"
-    - "宝可梦"
+  - Pokémon GO
   organizations:
-    - "Game Freak"
-    - "Niantic"
+  - Game Freak
+  - Niantic
 references:
   - id: gf-director-244
     type: official_blog
@@ -52,7 +51,6 @@ references:
     url: "https://www.gamefreak.co.jp/blog/dir/"
     note: "原始页面为 Game Freak 官方部长专栏。"
 ---
-
 > 这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。
 
 ## 摘要

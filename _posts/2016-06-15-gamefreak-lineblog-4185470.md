@@ -35,11 +35,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 太阳·月亮
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><figure class="gf-lineblog-image"><a href="/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp" target="_blank" rel="noopener"><img src="/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp" alt="" loading="lazy" width="1136" height="850"></a></figure>
 
 

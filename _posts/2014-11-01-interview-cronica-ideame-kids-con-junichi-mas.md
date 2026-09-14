@@ -36,7 +36,7 @@ entities:
   - 增田顺一
   - 大森滋
   works:
-  - 宝可梦
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   organizations:
   - Game Freak
   - Nintendo

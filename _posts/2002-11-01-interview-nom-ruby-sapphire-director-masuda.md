@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: N.O.M 2002年11月号：『红宝石·蓝宝石』发售纪念大特集（总监构想篇：增田顺一谈丰缘大自然与个性化时代）
 subtitle: 打破单一对战桎梏！华丽大赛、特性性格机制与‘4人联机带来4倍乐趣’的GBA宣言
@@ -11,11 +12,8 @@ summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号（No.52）�
 entities:
   people:
   - 增田 顺一
-  games:
+  works:
   - 宝可梦 红宝石·蓝宝石
-  pokemon:
-  - 固拉多
-  - 盖欧卡
 parallel_items:
 - type: dialogue
   speaker: 【章节导览】

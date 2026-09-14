@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）
 title_ja: Special Interview 「デザイナーの仕事と目線」｜株式会社ポケモン 採用情報

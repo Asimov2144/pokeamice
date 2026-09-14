@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）
 title_ja: プログラマ対談 「『新しい遊び』創りに、終わりはない。プログラマが、その原動力に。」 ｜ GAME FREAK 採用情報
@@ -147,4 +148,8 @@ parallel_items:
 source:
   title: プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。
   url: https://www.gamefreak.co.jp/recruit/crosstalk-programmer/
+entities:
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
 ---

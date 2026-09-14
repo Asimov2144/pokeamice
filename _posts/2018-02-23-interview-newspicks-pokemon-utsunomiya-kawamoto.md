@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人
 original_title: 「ポケモンだから」面白い。ポケモンにすべてを懸ける2人の挑戦
@@ -18,14 +19,8 @@ entities:
   - 宇都宫崇人
   - 河本拓
   - 石原恒和
-  companies:
-  - 株式会社宝可梦
-  - GAME FREAK
-  - Creatures
-  - Niantic
   works:
   - Pokémon GO
-  - 宝可梦
 speakers:
 - name: 宇都宫崇人
   role: 株式会社宝可梦 代表取缔役 首席运营官（COO）

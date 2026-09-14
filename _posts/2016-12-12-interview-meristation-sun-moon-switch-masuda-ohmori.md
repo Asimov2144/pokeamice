@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”
 original_title: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
@@ -68,4 +69,8 @@ parallel_items:
 source:
   title: MeriStation（西班牙权威游戏媒体）
   url: https://as.com/meristation/2016/12/12/noticias/1481540400_157864.html
+entities:
+  works:
+  - 宝可梦 钻石·珍珠
+  - 宝可梦 太阳·月亮
 ---

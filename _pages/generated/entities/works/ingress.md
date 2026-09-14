@@ -1,0 +1,38 @@
+---
+title: "Ingress - 作品"
+permalink: "/entities/works/ingress/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>作品</p>
+    <h2>Ingress</h2>
+    <span>2 篇文章 · 0 条评注 · 2018</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/works/">返回作品索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-miracle/">[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 電ファミニコゲーマー 特集記事：ポケモン GOの奇跡（後編）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

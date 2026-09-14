@@ -40,16 +40,10 @@ entities:
   - 岩田 聪
   - 增田 顺一
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 X·Y
-  - 宝可梦 赤·绿
+  - 宝可梦 红·绿
   - 宝可梦 红宝石·蓝宝石
-  pokemon:
-  - 哲尔尼亚斯
-  - 伊裴尔塔尔
-  - 哈力栗
-  - 火狐狸
-  - 呱呱泡蛙
 parallel_items:
 - type: header
   level: 3
@@ -201,8 +195,3 @@ parallel_items:
   translation: ※1 世界同日发售＝除部分极特殊地区外，全球主要国家和地区同步上市发售。
   note: 官方原注
 ---
-
-
-
-
-

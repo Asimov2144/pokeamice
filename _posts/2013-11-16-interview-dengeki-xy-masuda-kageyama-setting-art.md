@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典
 original_title: 『ポケットモンスター X・Y』のトークイベントをレポ！ 増田順一さんらがBGMや未公開の設定資料などについて語った!!
@@ -173,4 +174,7 @@ interviewee: 增田顺一, 景山将太, 电击Online
 source:
   title: 電撃オンライン
   url: https://dengekionline.com/elem/000/000/753/753933/
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

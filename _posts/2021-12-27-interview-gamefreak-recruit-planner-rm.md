@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方策划特写 R.M.：哪怕是普通的文科生，也能向着顶级游戏策划发起冲击
 title_ja: 普通の文系学生でも、めざせ！ ゲームプランナー。｜プランナー社員紹介 R.M.

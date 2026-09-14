@@ -49,11 +49,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 太阳·月亮
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center">前几天</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">我们举办了宝可梦太阳·月亮原声带的</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">庆功宴！</div>

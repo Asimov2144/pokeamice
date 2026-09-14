@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Business Lawyers 独家专访宝可梦公司法务总监富田裕介：支撑全球千亿IP的法务制片人哲学
 title_ja: 第21回 「ポケモン」を支えるプロデューサーとしての法務 - 株式会社ポケモン

@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 火红·叶绿
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">宝可梦音乐的原点复苏了！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>

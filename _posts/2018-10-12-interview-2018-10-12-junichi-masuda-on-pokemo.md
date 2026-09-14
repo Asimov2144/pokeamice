@@ -33,8 +33,6 @@ workflow:
 entities:
   people:
   - 增田顺一
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -270,8 +268,3 @@ parallel_items:
   translation: “就像回到了2016年”《Pokémon GO》通过重现原版预告片中的时代广场超梦团战来庆祝10周年
   note: 《Pokémon GO》于2016年发布，2026年是其10周年。
 ---
-
-
-
-
-

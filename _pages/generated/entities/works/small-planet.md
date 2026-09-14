@@ -1,0 +1,32 @@
+---
+title: "small planet - 作品"
+permalink: "/entities/works/small-planet/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>作品</p>
+    <h2>small planet</h2>
+    <span>1 篇文章 · 0 条评注 · 2008</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/works/">返回作品索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 世田谷線のミニチュア</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-59/">【工作日志】2008年世田谷线微缩摄影</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是兼任音效制作的策划『っゃっゃ』。&lt;br 最近买到了心心念念的数码单反相机，开心得不得了。 那么，&lt;br 事出突然，我试着做了一张“世田谷线微缩模型”！ &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefr</span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

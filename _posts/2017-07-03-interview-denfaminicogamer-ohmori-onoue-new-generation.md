@@ -41,7 +41,7 @@ entities:
   - 尾上将之
   - 田尻智
   - 增田顺一
-  games:
+  works:
   - 宝可梦 太阳·月亮
   - 宝可梦 红·绿
   - 宝可梦 红宝石·蓝宝石
@@ -380,8 +380,3 @@ parallel_items:
   original: SNSで更新情報をお届け！
   translation: 通过SNS为您推送更新信息！
 ---
-
-
-
-
-

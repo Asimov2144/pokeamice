@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: FUN'S PROJECT 专访西田敦子：皮卡丘之母谈仙子伊布诞生、极简剪影法则与烤羊肉的奇思妙想
 subtitle: 2018年中川翔子流行文化实验室对谈：如何打破妖精刻板印象？纯黑剪影一秒辨识秘诀、A5国誉笔记本与买菜清单边的神兽草图

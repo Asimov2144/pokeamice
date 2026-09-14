@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）
 title_ja: 他業界出身の社員、活躍中！
@@ -31,7 +32,7 @@ entities:
   - S.A.
   - H.I.
   works:
-  - 宝可梦 太阳／月亮
+  - 宝可梦 太阳·月亮
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:
@@ -198,7 +199,6 @@ parallel_items:
   original: まだキャラクターデザインに携わっていないので、まずはそこにチャレンジ。そして将来的には、ギアプロジェクトで自分がディレクターとしてオリジナルタイトルを立ち上げたいです。異業種から転職してきた私でも、情熱と実力さえあれば対等に夢を追える。そのことを証明し、後に続く人たちの道標になりたいですね。異業種で培った独自の武器を持った仲間が、もっと増えてくれたら最高です！
   translation: 虽然我现在已经攻克了建模，但我下一步必须亲自向“宝可梦新物种原案设计”发起强攻！而在更远的未来，我必将踏上齿轮企划的擂台，以游戏总监（Director）的身份从零孕育属于我自己的原创独立神作！即便曾经是来自传统印刷产业的门外汉，只要你怀揣着无可替代的滚烫热血与真才实学，在这家伟大的公司里你就能与任何人平起平坐地追逐人生的终极梦想。我渴望用我个人的轨迹成为后来者的明灯——由衷期盼更多在各个不同行业千锤百炼、手握独门绝技的各路英雄，能够豪迈加入我们的行列！
 ---
-
 <div class="interview-profiles my-5 p-4 bg-light rounded shadow-sm">
   <h3 class="border-bottom pb-2 mb-4 text-primary fw-bold">受访核心跨界先锋背景档案</h3>
   <div class="row g-4">

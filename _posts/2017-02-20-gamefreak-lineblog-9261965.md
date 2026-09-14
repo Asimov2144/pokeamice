@@ -47,11 +47,13 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 心金·魂银
+  - 宝可梦 金·银
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">宝可梦GO中</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">开始出现了金银宝可梦</div>

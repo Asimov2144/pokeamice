@@ -42,15 +42,10 @@ entities:
   - 海野 隆雄
   - 增田 顺一
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 黑2·白2
   - 宝可梦AR搜索器
   - 宝可梦全国图鉴Pro
-  pokemon:
-  - 美洛耶塔
-  - 土地云
-  - 雷电云
-  - 龙卷云
 parallel_items:
 - speaker: ''
   original: === 4. ポケモンセンターを最初の街に ===
@@ -393,8 +388,3 @@ parallel_items:
   translation: 非常感谢。
   note: ''
 ---
-
-
-
-
-

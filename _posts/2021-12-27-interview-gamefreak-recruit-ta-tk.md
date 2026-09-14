@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道
 title_ja: 作り手のニーズを先読みし、新しい環境を創造するTAでありたい。｜テクニカルアーティスト社員紹介 T.K.
@@ -32,7 +33,7 @@ entities:
   people:
   - T.K.
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   - Houdini管线研发
   - 动作捕捉系统

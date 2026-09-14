@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得
 original_title: グラフィックデザイナー・イラストレーター にしだあつこ対談 - 中川翔子のポップカルチャー・ラボ
@@ -451,4 +452,3 @@ parallel_items:
   speaker: 中川翔子
 image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/thumb.jpg
 ---
-

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋
 original_title: 'Entrevistamos a los responsables de Pokémon: "No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo"'
@@ -71,4 +72,7 @@ parallel_items:
 source:
   title: GQ España
   url: https://www.revistagq.com/noticias/articulos/entrevista-pokemon-sol-luna-creadores/25134
+entities:
+  works:
+  - 宝可梦 太阳·月亮
 ---

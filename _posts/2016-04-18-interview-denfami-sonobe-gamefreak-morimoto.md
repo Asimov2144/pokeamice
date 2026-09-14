@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经
 subtitle: 【全文公開】競馬の面白さは「実況」にあり？ 「ダビスタ」開発者・薗部博之氏✕ゲームフリーク「ソリティ馬」開発者 が語る競馬ゲームの“極意”
@@ -1241,7 +1242,6 @@ source:
   title: ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛
   url: https://news.denfaminicogamer.jp/projectbook/dabisuta
 ---
-
 ### 导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作
 
 在 GAME FREAK 漫长而辉煌的独立开发史上，除了享誉全球的《精灵宝可梦》之外，有一款名为《德比骏马》（Derby Stallion / ダビスタ）的传奇赛马模拟游戏，曾彻底改变了 GAME FREAK 早期创作者们的生命轨迹：

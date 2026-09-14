@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界
 title_ja: みんなの声を活かすから、みんなに愛されるゲームになる。｜デザイナー社員紹介 K.N.
@@ -28,7 +29,7 @@ entities:
   - K.N.
   works:
   - 宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク
   - 千葉工業大学

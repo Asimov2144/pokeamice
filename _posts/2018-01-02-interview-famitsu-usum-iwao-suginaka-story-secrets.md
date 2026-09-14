@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Fami通《宝可梦 究极之日·究极之月》主创剧透解密：总监岩尾和昌与主编剧杉中克考详谈阿罗拉“核心”剧情与平行世界可能性
 original_title: 『ポケモン ウルトラサン・ウルトラムーン』あのエピソードの真意は？ 開発者たちが明かす、ストーリー制作秘話【ネタバレ注意】
@@ -142,4 +143,8 @@ interviewee: 岩尾和昌, 杉中克考
 source:
   title: ファミ通.com
   url: https://www.famitsu.com/news/201801/02148529.html
+entities:
+  works:
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦 太阳·月亮
 ---

@@ -60,16 +60,13 @@ workflow:
   published: "done"
 entities:
   people:
-    - "大森滋"
-    - "一之濑刚"
-    - "James Turner"
-  works:
-    - "宝可梦"
+  - 大森滋
+  - 一之濑刚
+  - James Turner
   organizations:
-    - "Game Freak"
-    - "任天堂"
+  - Game Freak
+  - 任天堂
 ---
-
 # 近年 Game Freak 开发事件年表
 ## 第四时代末尾
 ### 2008年初

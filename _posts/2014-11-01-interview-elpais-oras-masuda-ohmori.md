@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋
 original_title: “Crear algo que todos los niños aman, abruma”
@@ -76,10 +77,8 @@ source:
   title: “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋
   url: https://elpais.com/cultura/2014/11/01/actualidad/1414798048_551223.html
   source_type: web_interview
+entities:
+  works:
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  - 宝可梦 X·Y
 ---
-
-
-
-
-
-

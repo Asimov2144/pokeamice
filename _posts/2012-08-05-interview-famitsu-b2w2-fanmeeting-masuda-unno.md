@@ -41,13 +41,9 @@ entities:
   - 海野 隆雄
   - N
   - 盖奇斯
-  games:
+  works:
   - 宝可梦 黑2·白2
   - 宝可梦 黑·白
-  pokemon:
-  - 暗黑酋雷姆
-  - 焰白酋雷姆
-  - 水水獭
 parallel_items:
 - type: header
   level: 3
@@ -89,8 +85,3 @@ parallel_items:
   translation: 增田氏的回答　大家提出的意见，每一条都令我印象深刻。从每一份声音中，我都能学到很多东西。
   note: ''
 ---
-
-
-
-
-

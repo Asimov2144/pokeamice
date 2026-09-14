@@ -34,7 +34,7 @@ entities:
   - 增田顺一
   - 石原恒和
   works:
-  - 宝可梦
+  - 宝可梦 火红·叶绿
   organizations:
   - Game Freak
   - Nintendo
@@ -196,9 +196,3 @@ translator: Poke Amice Studio
 interviewee: 增田顺一, 石原恒和
 era_skin: '2003'
 ---
-
-
-
-
-
-

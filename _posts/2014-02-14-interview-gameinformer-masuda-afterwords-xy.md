@@ -42,17 +42,11 @@ entities:
   - 布拉塔诺博士
   - 弗拉达利
   - 莎娜
-  games:
+  works:
   - 宝可梦 X·Y
   - 宝可梦 黑·白
   - Pokémon HOME
   - Pokémon Bank
-  pokemon:
-  - 火狐狸
-  - 仙子伊布
-  - 哲尔尼亚斯
-  - 伊裴尔塔尔
-  - 超梦
 parallel_items:
 - speaker: 提问
   original: '[This feature originally appeared abridged in Game Informer issue #250.]'
@@ -279,8 +273,3 @@ parallel_items:
   translation: 当然是火狐狸！我喜欢在宝可拍乐乐里和火狐狸一起玩！
   note: ''
 ---
-
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: CGWORLD 专访：为宝可梦设定画注入生命——Creatures 宝可梦CG工作室的现状与未来
 subtitle: 氏家淳子、中广健吾、畠祐贵：从设定画到三维生物的骨骼与生命力塑造
@@ -17,14 +18,12 @@ entities:
   - 中广健吾
   - 畠祐贵
   - 小野宪史
-  games:
+  works:
   - 宝可梦 太阳·月亮
   - 宝可梦 究极之日·究极之月
   - 宝可梦竞技场
   - 宝可梦巡护员
   - 名侦探皮卡丘
-  pokemon:
-  - 皮卡丘
 parallel_items:
 - type: image
   src: /assets/img/interviews/2017-07-10-interview-cgworld-creatures-cg-studio/main_hero.jpg

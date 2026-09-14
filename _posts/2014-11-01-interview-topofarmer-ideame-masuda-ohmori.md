@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录
 title_ja: Topo Gamer現地密着：増田順一氏・大森滋氏バルセロナiDÉAME Kids登壇 子どもたちと語るポケモン創作秘話
@@ -288,4 +289,3 @@ parallel_items:
   translation: 别提醒我 呜呜)
 interviewee: 增田顺一, 大森滋, 大森滋 / 增田顺一, 西班牙少年听众
 ---
-

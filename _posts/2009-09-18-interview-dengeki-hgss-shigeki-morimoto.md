@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛
 title_ja: 電撃オンライン：『ポケットモンスター』最新作についてディレクターの森本茂樹さんを直撃！
@@ -141,5 +142,7 @@ parallel_items:
     宝可梦・Pokemon 是任天堂・Creatures・GAME FREAK的注册商标。
 - original: (c) KADOKAWA Game Linkage Inc.
   translation: © KADOKAWA Game Linkage Inc.
-
+entities:
+  works:
+  - 宝可梦 心金·魂银
 ---

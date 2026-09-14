@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）
 title_ja: Special Interview 「ポケモンビジネス、徹底解剖」 ゲーム×キャラクター×ライセンス「ポケモン」ビジネス考察

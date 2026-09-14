@@ -42,11 +42,9 @@ entities:
   - 杉森建
   - 韦斯利·尹-普尔
   - 井部真那
-  games:
+  works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
-  - 任天堂 DS
-  - 任天堂 3DS
 parallel_items:
 - type: heading
   level: 2
@@ -133,8 +131,3 @@ parallel_items:
   translation: 我最喜欢比克提尼。比克提尼是由伊部真奈小姐设计的。它的理念是作为胜利宝可梦，引导玩家走向胜利。当我请伊部小姐设计它时，我特别要求设计一只对女性也极具吸引力的宝可梦。我喜欢这个概念。
   note: 注：伊部真奈（Mana Ibe）是Game Freak的女性设计师，曾参与多款宝可梦游戏的角色设计。
 ---
-
-
-
-
-

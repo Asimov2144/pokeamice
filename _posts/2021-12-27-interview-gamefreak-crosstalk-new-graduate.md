@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声
 title_ja: 新卒若手対談：入社の理由は？新人研修は？成長できる環境？若手社員6人が、本音で語り合いました。
@@ -28,7 +29,7 @@ entities:
   - I.F.
   - R.N.
   - K.K.
-  games:
+  works:
   - 宝可梦 朱·紫
   - GEAR PROJECT
 parallel_items:

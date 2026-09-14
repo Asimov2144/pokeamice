@@ -42,7 +42,7 @@ entities:
   - 河内丸武史
   - 杉森建
   - 田尻智
-  games:
+  works:
   - 宝可梦 白金
   - 宝可梦 钻石·珍珠
   - 宝可梦 红·绿
@@ -359,8 +359,3 @@ parallel_items:
   translation: 请务必体验与朋友一起游玩的新功能。
   note: ''
 ---
-
-
-
-
-

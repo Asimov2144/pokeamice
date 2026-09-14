@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新
 title_ja: 『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制
@@ -559,12 +560,7 @@ parallel_items:
 - original: これらがビルボードで表現されているかたちだ。このほかテクスチャを使用したパーティクル画像【画像上】や、社内シェーダを活用した1メッシュ／1マテリアルのマルチテクスチャも使用されている
   translation: 这些以公告板形式表现。此外，还使用了利用纹理的粒子图像【图片上】，以及活用公司内部着色器的1网格/1材质的多纹理。
 era_skin: '2019'
+entities:
+  works:
+  - 宝可梦 太阳·月亮
 ---
-
-
-
-
-
-
-
-

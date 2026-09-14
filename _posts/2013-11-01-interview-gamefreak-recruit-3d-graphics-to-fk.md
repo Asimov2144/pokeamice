@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）
 title_ja: 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ
@@ -31,7 +32,7 @@ entities:
   - F.K.
   - 杉森建
   works:
-  - 宝可梦 X／Y
+  - 宝可梦 X·Y
   - Gear Project（齿轮企划）
   organizations:
   - 株式会社ゲームフリーク

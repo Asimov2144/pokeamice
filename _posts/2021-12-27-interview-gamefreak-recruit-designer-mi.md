@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方动作与UI设计师特写 M.I.：不局限于美术图形，而要全盘融入游戏构筑的无限可能
 title_ja: 入社したのは、グラフィックだけでなく、ゲームづくりを丸ごとやりたかったから。｜デザイナー社員紹介 M.I.
@@ -28,7 +29,7 @@ entities:
   people:
   - M.I.
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

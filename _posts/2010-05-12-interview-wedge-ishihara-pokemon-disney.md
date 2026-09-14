@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路
 subtitle: 2010年东大教授滨野保树对谈：累计3万亿日元市场的底层密码·游戏交互性对单向叙事的降维颠覆、实体宝可梦中心创举、小学馆破圈秘史与株式会社宝可梦的自律授权哲学
@@ -148,4 +149,3 @@ source:
   title: ポケモンを育てた仕かけ人たち
   url: https://wedge.ismedia.jp/articles/-/893
 ---
-

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学
 original_title: Nやゲーチスの開発段階のビジュアルが公開！ 増田さん＆海野さんが駆け付けた『ポケットモンスターブラック2・ホワイト2』のイベントをレポ
@@ -201,4 +202,8 @@ interviewee: 增田顺一, 海野隆雄, 电击Online
 source:
   title: 電撃オンライン
   url: https://dengekionline.com/elem/000/000/518/518926/
+entities:
+  works:
+  - 宝可梦 黑2·白2
+  - 宝可梦 黑·白
 ---

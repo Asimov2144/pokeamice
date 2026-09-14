@@ -40,7 +40,7 @@ entities:
   - 增田顺一
   - 杉森建
   - Christian Nutt
-  games:
+  works:
   - 宝可梦 X·Y
 parallel_items:
 - original: When you think of the Pokemon game franchise, of course you think of its iconic monsters. Pokemon, after all, is a portmanteau of its Japanese title, Pocket Monsters, and the series' most iconic mon' is Pikachu, which still serves as its symbol over a decade later. With every game in the franchise, a team of monster designers at developer Game Freak comes up with new creatures for players to battle and catch.
@@ -119,8 +119,3 @@ parallel_items:
   translation: “公司真正的一个优点就是非常开放，可以自由讨论，”他补充道。“我认为我们可以互相交谈，直到双方达成一致。”
   note: ''
 ---
-
-
-
-
-

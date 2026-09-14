@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影
 title_ja: プログラマが「無理」と言ったら、どんなアイデアも実現できない。｜プログラマ社員紹介 T.K.
@@ -28,7 +29,7 @@ entities:
   people:
   - T.K.
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   organizations:
   - 株式会社ゲームフリーク

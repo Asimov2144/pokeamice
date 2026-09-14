@@ -44,9 +44,8 @@ workflow:
   published: "done"
 entities:
   works:
-    - "宝可梦"
+  - 宝可梦集换式卡牌游戏
 ---
-
 # 批量下载卡图&查询服务器存档时间
 **宝活小妙招**\
 ![alt text](https://pokeamice.com/wp-content/uploads/2022/10/anime15.gif){: .align-center}

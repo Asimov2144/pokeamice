@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案
 subtitle: Game Informer 珍贵影像纪实：盖有「圆秘」印章的特殊球原案、电脑崩溃两天的开发惨剧、8字节控制正弦波与40种波形拼出151只叫声的极客奇迹
@@ -232,4 +233,8 @@ interviewee: 增田顺一
 source:
   title: ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中
   url: https://gigazine.net/news/20170905-pokemon-early-design-documents/
+entities:
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 太阳·月亮
 ---

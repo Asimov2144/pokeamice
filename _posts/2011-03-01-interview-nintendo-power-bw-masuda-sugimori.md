@@ -38,7 +38,7 @@ entities:
   people:
   - 增田顺一
   - 杉森建
-  games:
+  works:
   - 宝可梦 黑·白
 parallel_items:
 - type: heading
@@ -275,9 +275,3 @@ parallel_items:
   original: Continue Reading
   translation: 继续阅读
 ---
-
-
-
-
-
-

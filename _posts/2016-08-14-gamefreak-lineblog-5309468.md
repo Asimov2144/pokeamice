@@ -37,11 +37,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center"><br></div>
 <div class="gf-lineblog-line gf-lineblog-line--center">横滨港未来</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">皮卡丘大量出现中</div>

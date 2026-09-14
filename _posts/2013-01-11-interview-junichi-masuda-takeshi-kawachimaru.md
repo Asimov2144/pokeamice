@@ -36,7 +36,8 @@ entities:
   people:
   - 增田顺一
   works:
-  - 宝可梦
+  - 宝可梦 黑·白
+  - 宝可梦 白金
   organizations:
   - Game Freak
   - Nintendo
@@ -529,8 +530,3 @@ parallel_items:
   note: Takeshi Kawachimaru 河内丸武史，宝可梦游戏的设计师。
   speaker: 增田顺一
 ---
-
-
-
-
-

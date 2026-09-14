@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）"
 original_title: "『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー"
@@ -322,4 +323,7 @@ parallel_items:
   image: /assets/img/interviews/2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/ph_73.jpg
   caption: "石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影"
   alt: "石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影"
+entities:
+  works:
+  - 宝可梦 钻石·珍珠
 ---

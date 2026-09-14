@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙斯》双线并行的开放世界技术秘辛
 original_title: 『ポケモン スカーレット・バイオレット』のピカチュウはシリーズ史上最高のふさふさ感を実現。『ポケモンレジェンズ アルセウス』との同時制作における制作環境を解説【CEDEC2022】
@@ -164,4 +165,8 @@ parallel_items:
   speaker: 解说
   original: 我々が大きな間を置かずに高品質なゲームを手にできるのは、こうした企業努力のおかげ。日々感謝しつつ楽しみたいところだ。
   translation: 我们之所以能在不长的时间内获得高品质的游戏，正是得益于这样的企业努力。我们应当心怀感激，每日尽情享受。
+entities:
+  works:
+  - 宝可梦传说 阿尔宙斯
+  - 宝可梦 朱·紫
 ---

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合
 title_ja: 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和

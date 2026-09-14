@@ -35,8 +35,6 @@ workflow:
 entities:
   people:
   - 增田顺一
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo

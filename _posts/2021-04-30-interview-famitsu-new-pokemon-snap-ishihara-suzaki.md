@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Fami通专访《New 宝可梦随乐拍》：石原恒和社长×须崎春树总监畅谈相机生态与22年跨越
 title_ja: ファミ通：石原社長＆須崎Dに聞く『New ポケモンスナップ』開発秘話。写真を撮ることがより手軽になった2021年、ゲームデザインは前作からどう進化したのか？
@@ -298,5 +299,7 @@ parallel_items:
     FREAK的注册商标。Nintendo Switch的logo・Nintendo Switch是任天堂的商标。
 - original: 画面は開発中のものです。
   translation: 画面为开发中内容。
-
+entities:
+  works:
+  - 宝可梦随乐拍
 ---

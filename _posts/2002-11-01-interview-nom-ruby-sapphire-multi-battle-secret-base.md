@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: N.O.M 2002年11月号：『红宝石·蓝宝石』对战革命与秘密基地实测（石原恒和谈品牌、4人双打与数据通信）
 subtitle: 现场直击株式会社宝可梦总部：4人GBA热战、记录角落世界漫游与石原恒和的最爱大嘴鸥
@@ -13,11 +14,9 @@ summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号的实地探
 entities:
   people:
   - 石原 恒和
-  games:
+  works:
   - 宝可梦 红宝石·蓝宝石
   - 宝可梦卡牌
-  pokemon:
-  - 大嘴鸥
 parallel_items:
 - type: dialogue
   speaker: 【章节导览】

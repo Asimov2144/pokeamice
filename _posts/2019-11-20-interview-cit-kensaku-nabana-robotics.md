@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 千叶工大特写专访 GAME FREAK 企划总监名花健作：从机器人学到宝可梦战斗系统构建之道
 subtitle: 卒業生に訊く！未来ロボティクス学科1期生 菜花健作さん – CIT 未来ロボティクス学科

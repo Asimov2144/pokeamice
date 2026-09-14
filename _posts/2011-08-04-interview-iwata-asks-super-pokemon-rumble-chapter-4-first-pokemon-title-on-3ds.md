@@ -42,9 +42,9 @@ entities:
   - 石原 恒和
   - 小泽 达雄
   - 松村 直树
-  games:
+  works:
   - 超级宝可梦乱战
-  - 乱战！宝可梦乱战
+  - 宝可梦乱战
 parallel_items:
 - type: image
   image: /assets/img/interviews/2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4/mainvisual4.jpg

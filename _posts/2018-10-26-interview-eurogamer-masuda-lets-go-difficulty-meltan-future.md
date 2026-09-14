@@ -44,10 +44,10 @@ entities:
   - 增田顺一
   - 菜花健作
   - 克里斯·塔普塞尔
-  games:
+  works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - Pokémon GO
-  - 宝可梦 皮卡丘
+  - 宝可梦 皮卡丘版
   - 宝可梦 红·绿
 parallel_items:
 - type: heading
@@ -195,8 +195,3 @@ parallel_items:
   original: '[Laughs] Sometime... next year.'
   translation: 【大笑】明年的……某个时候吧！
 ---
-
-
-
-
-

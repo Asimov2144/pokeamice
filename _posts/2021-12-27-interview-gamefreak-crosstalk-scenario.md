@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）
 title_ja: シナリオ・世界観設定対談 「誠実にアイデアを考え抜く力と、それを捨てられる軽やかさが大切。」 ｜ GAME FREAK 採用情報

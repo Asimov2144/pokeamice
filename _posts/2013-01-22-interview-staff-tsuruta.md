@@ -30,9 +30,6 @@ workflow:
   proofreading: pending
   published: done
 entities:
-  people: []
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -270,8 +267,3 @@ parallel_items:
   translation: 关于
   note: 网站或博客的'关于'页面链接。
 ---
-
-
-
-
-

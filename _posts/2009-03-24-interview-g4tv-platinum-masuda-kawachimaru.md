@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳
 original_title: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle
@@ -228,4 +229,7 @@ source:
   title: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics,
     Bridges, And More!
   url: https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/
+entities:
+  works:
+  - 宝可梦 白金
 ---

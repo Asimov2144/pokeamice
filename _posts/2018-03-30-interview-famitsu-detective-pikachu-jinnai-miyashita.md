@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Fami通专访《名侦探皮卡丘》主创：热爱咖啡的大叔皮卡丘与人类宝可梦共生莱姆市
 title_ja: ファミ通：コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！
@@ -375,5 +376,7 @@ parallel_items:
     Developed by Creatures Inc.ポケットモンスター・ポケモン・Pokemon・名探偵ピカチュウは、任天堂・クリーチャーズ・ゲームフリークの登録商標です。
   translation: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc.
     Developed by Creatures Inc.宝可梦・Pokemon・名侦探皮卡丘是任天堂、Creatures、GAME FREAK的注册商标。
-
+entities:
+  works:
+  - 名侦探皮卡丘
 ---

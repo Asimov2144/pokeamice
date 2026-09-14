@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃
 title_ja: 自分の成長が、ゲームフリークの成長につながると信じて。｜プログラマ社員紹介 K.O.
@@ -28,7 +29,7 @@ entities:
   people:
   - K.O.
   works:
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   - 宝可梦传说 阿尔宙斯
   organizations:
   - 株式会社ゲームフリーク

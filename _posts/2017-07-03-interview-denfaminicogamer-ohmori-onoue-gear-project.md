@@ -41,14 +41,10 @@ entities:
   - 田尻 智
   - 增田 顺一
   - 森本 茂树
-  games:
+  works:
   - 宝可梦 太阳·月亮
   - 小象历险记
   - 千兆破坏者
-  pokemon:
-  - 索尔迦雷欧
-  - 露奈雅拉
-  - 谜拟丘
 parallel_items:
 - type: header
   level: 3

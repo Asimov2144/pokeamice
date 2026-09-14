@@ -43,11 +43,11 @@ entities:
   - 增田顺一
   - 约翰·汉克
   - 野村达雄
-  games:
+  works:
   - Pokémon GO
   - Ingress
   - 宝可梦 红·绿
-  - 精灵宝可梦 Let's Go！皮卡丘／Let's Go！伊布
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 parallel_items:
 - speaker: ''
   original: 2016年の夏、日本……いや、世界中が熱狂の渦に叩き込まれたゲームがあった。
@@ -798,8 +798,3 @@ parallel_items:
   translation: 本页面可能通过联盟营销计划获得收益。
   note: ''
 ---
-
-
-
-
-

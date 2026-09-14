@@ -38,7 +38,7 @@ entities:
   - 大森滋
   - 海野隆雄
   works:
-  - 宝可梦
+  - 宝可梦 X·Y
   organizations:
   - Game Freak
   - Nintendo
@@ -465,8 +465,3 @@ parallel_items:
   original: Réagis à cet article sur notre Discord →
   translation: 在我们的 Discord 上对这篇文章做出反应 →
 ---
-
-
-
-
-

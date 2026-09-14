@@ -898,4 +898,7 @@ parallel_items:
 - speaker: 桐谷美玲
   original: すごいー！ありがとうございました！
   translation: 真的太珍贵太厉害了！非常感谢老师！！
+entities:
+  works:
+  - 宝可梦 黑·白
 ---

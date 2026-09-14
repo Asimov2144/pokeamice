@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）
 title_ja: ギアプロジェクト『TEMBO THE BADASS ELEPHANT』開発秘話
@@ -32,7 +33,7 @@ entities:
   works:
   - TEMBO THE BADASS ELEPHANT
   - 节奏猎人 哈莫奈特（リズムハンター ハーモナイト）
-  - 宝可梦 X／Y
+  - 宝可梦 X·Y
   - Gear Project（齿轮企划）
   organizations:
   - 株式会社ゲームフリーク
@@ -169,7 +170,6 @@ parallel_items:
   original: 弊社は携帯ハードのゲームを制作しているイメージがあると思いますが、ギアプロジェクトでは本当に何をやってもいいんです。据置機向けでもPC向けでも、ジャンルも自由。また、少人数だからこそ、自分の仕事がダイレクトにゲームのクオリティに反映されます。大きなプロジェクトの歯車のひとつになるのではなく、「自分がこのゲームを作っているんだ」という強烈な手応えと責任感を持てる。そこで得たノウハウや技術は、必ずメインプロジェクトである『ポケットモンスター』の開発にも還元されます。その好循環こそが、ゲームフリークという会社の強みだと実感しています。
   translation: 外界可能往往带有一种固有刻板印象，觉得 GAME FREAK 只是专门制作掌机平台游戏的厂商；但只要进入齿轮企划，你真正可以做任何想做的事情！无论是面向全高清家用主机还是 PC 平台，游戏类型与表现题材完全不受任何束缚。更重要的是，正因为是极少人数的独立小编制，你的每一笔雕琢、每一行代码都会直接赤裸裸地决定整部作品的生死与品质。你不再是大型工业化生产线上可被替代的一枚螺丝钉，而是由始至终怀揣着“是我亲手创造了这部游戏”的强烈实感与神圣责任感。而在这个过程中千锤百炼积累下来的跨平台开发经验、前沿管线与底层技术，最终又会毫无保留地全数反哺给主力大作《宝可梦》的研发军团之中。这种双轮驱动的良性循环，正是 GAME FREAK 能够长盛不衰的核心底蕴所在。
 ---
-
 <div class="interview-profiles my-5 p-4 bg-light rounded shadow-sm">
   <h3 class="border-bottom pb-2 mb-4 text-primary fw-bold">受访核心主创背景档案</h3>
   <div class="row g-4">

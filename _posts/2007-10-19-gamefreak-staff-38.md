@@ -47,15 +47,15 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "小玛"
-    - "纳吉"
+  - 小玛
+  - 纳吉
+  works:
+  - 宝可梦集换式卡牌游戏
   organizations:
-    - "Game Freak"
+  - Game Freak
   events:
-    - "宝可梦卡牌游戏社内赛"
-
+  - 宝可梦卡牌游戏社内赛
 ---
-
 <div data-gf-language-panel="zh-CN">
 初次见面。我是规划师マー（小玛）。
 

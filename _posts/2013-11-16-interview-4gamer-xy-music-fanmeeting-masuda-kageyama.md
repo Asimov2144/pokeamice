@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录
 original_title: 「ポケットモンスター X・Y」のサウンド制作秘話を開発陣が披露。ポケモンセンターヨコハマで開催されたファンミーティングをレポート
@@ -146,4 +147,7 @@ interviewee: 增田顺一, 景山将太
 source:
   title: 4Gamer.net
   url: https://www.4gamer.net/games/198/G019893/20131116014/
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

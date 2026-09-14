@@ -42,14 +42,9 @@ entities:
   - 增田 顺一
   - 约翰·汉克
   - 野村 达雄
-  games:
+  works:
   - Pokémon GO
   - Ingress
-  pokemon:
-  - 皮卡丘
-  - 超梦
-  - 水伊布
-  - 暴鲤龙
 parallel_items:
 - type: header
   level: 3
@@ -380,8 +375,3 @@ parallel_items:
   original: 若ゲのいたり〜ゲームクリエイターの青春〜
   translation: 年轻游戏制作人的青春
 ---
-
-
-
-
-

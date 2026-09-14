@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录
 title_ja: インターネットにおけるポケモンサイト黎明期の記憶（初代赤緑・ミュウ騒動から金銀発売前夜まで）
@@ -142,4 +143,8 @@ parallel_items:
   translation: ・翔的页面（かける）　http://www2u.biglobe.ne.jp/~kakeru/ 这是该内容制作者的网站，即这里的首页。刚开始上网时，想着“想制作只有自己能做的内容”而开设。当时的高中生用真名（笑）凭气势开始的网站能留存20多年，我认为这在宝可梦乃至其他领域都是罕见的事例，不知各位意下如何。即便如此，当时自认为是新人的我，回过神来竟成了宝可梦网站界的活化石。
 - original: メニューへ戻る
   translation: 返回菜单
+entities:
+  works:
+  - 宝可梦 金·银
+  - 宝可梦 红·绿
 ---

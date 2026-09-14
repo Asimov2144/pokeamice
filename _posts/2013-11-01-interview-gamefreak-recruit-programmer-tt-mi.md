@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）
 title_ja: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
@@ -129,4 +130,7 @@ parallel_items:
 source:
   title: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
   url: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_2.html
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

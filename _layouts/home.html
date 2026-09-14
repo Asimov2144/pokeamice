@@ -4450,13 +4450,37 @@ document.addEventListener("DOMContentLoaded", () => {
     "宝可梦 晶灿钻石·明亮珍珠": { r: 2021, v: ["#7fb4d8", "#e39ab6"] },
     "宝可梦传说 阿尔宙斯":     { r: 2022, v: ["#8d6b3f"] },
     "宝可梦 朱·紫":           { r: 2022, v: ["#c0392b", "#7b3f9e"] },
-    "宝可梦传说 Z-A":         { r: 2025, v: ["#0d7c99", "#d3308a"] }
+    "宝可梦传说 Z-A":         { r: 2025, v: ["#0d7c99", "#d3308a"] },
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": { r: 2018, v: ["#f2c14e", "#b88a58"] },
+    "宝可梦集换式卡牌游戏":   { r: 1996, v: ["#f5cd79", "#2980b9"] },
+    "宝可梦竞技场":           { r: 1998, v: ["#8c7ae6", "#2f3640"] },
+    "宝可梦随乐拍":           { r: 1999, v: ["#44bd32", "#e1b12c"] },
+    "宝可梦不可思议迷宫":     { r: 2005, v: ["#00a8ff", "#9c88ff"] },
+    "宝可梦乱战":             { r: 2009, v: ["#e84118", "#fbc531"] },
+    "超级宝可梦乱战":         { r: 2011, v: ["#c23616", "#e1b12c"] },
+    "宝可梦立体图鉴BW":       { r: 2011, v: ["#25262a", "#d8d8d2"] },
+    "名侦探皮卡丘":           { r: 2016, v: ["#fbc531", "#e84118"] }
   };
+
+  var WORK_CANONICAL = {
+    "宝可梦 赤·绿": "宝可梦 红·绿",
+    "宝可梦 剑／盾": "宝可梦 剑·盾",
+    "宝可梦 X／Y": "宝可梦 X·Y",
+    "宝可梦 太阳／月亮": "宝可梦 太阳·月亮",
+    "宝可梦 心金／魂银": "宝可梦 心金·魂银",
+    "宝可梦 黑／白": "宝可梦 黑·白",
+    "宝可梦 黑2／白2": "宝可梦 黑2·白2",
+    "宝可梦 金／银": "宝可梦 金·银",
+    "宝可梦 火红／叶绿": "宝可梦 火红·叶绿",
+    "宝可梦 传说 阿尔宙斯": "宝可梦传说 阿尔宙斯",
+    "Pokémon LEGENDS 阿尔宙斯": "宝可梦传说 阿尔宙斯"
+  };
+  function canonWork(name) { return WORK_CANONICAL[name] || name; }
 
   /* Every row in this chart is a Pokémon title, so printing 宝可梦 on all of
      them says nothing and costs the label column its width. The full name is
      kept for filtering and stays on the tooltip. */
-  function shortWork(name) { return name.replace(/^宝可梦\s*/, ""); }
+  function shortWork(name) { return canonWork(name).replace(/^宝可梦\s*/, ""); }
 
   var ITEMS = [], YEARS = {}, AX = [], COLS = [], WORKS = [], ENTS = [], TAGS = [];
   var WORK_TOTAL = 0, ENTITY_TOTAL = 0, DATASET_RANGE = "—", GENERATED_AT = "—";
@@ -4519,9 +4543,9 @@ document.addEventListener("DOMContentLoaded", () => {
       };
     });
 
-    var byWork = {}, SERIES = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    var byWork = {}, SERIES = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1, "Pokemon": 1 };
     ITEMS.forEach(function (i) {
-      (i.w || []).filter(function (w) { return !SERIES[w]; }).forEach(function (w) {
+      (i.w || []).map(canonWork).filter(function (w) { return !SERIES[w]; }).forEach(function (w) {
         byWork[w] = byWork[w] || {};
         bump(byWork[w], yearOf(i));
       });
@@ -4574,8 +4598,8 @@ document.addEventListener("DOMContentLoaded", () => {
     var lo = 9999, hi = 0;
     var entityRoles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]];
     visible.forEach(function (i) {
-      (i.w || []).forEach(function (w) {
-        if (w !== "宝可梦" && w !== "Pokémon" && w !== "ポケットモンスター") { works[w] = true; }
+      (i.w || []).map(canonWork).forEach(function (w) {
+        if (w !== "宝可梦" && w !== "Pokémon" && w !== "ポケットモンスター" && w !== "Pokemon") { works[w] = true; }
       });
       entityRoles.forEach(function (r) {
         (i[r[0]] || []).forEach(function (name) { entities[r[1] + "\u241F" + name] = true; });
@@ -4628,9 +4652,9 @@ document.addEventListener("DOMContentLoaded", () => {
   function bucket(n) { return !n ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 10 ? 3 : n <= 15 ? 4 : n <= 25 ? 5 : 6; }
 
   function workRows(items) {
-    var byWork = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    var byWork = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1, "Pokemon": 1 };
     items.forEach(function (i) {
-      (i.w || []).filter(function (w) { return !series[w]; }).forEach(function (w) {
+      (i.w || []).map(canonWork).filter(function (w) { return !series[w]; }).forEach(function (w) {
         byWork[w] = byWork[w] || {};
         bump(byWork[w], yearOf(i));
       });
@@ -4986,9 +5010,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function openWorksIndex() {
-    var counts = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    var counts = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1, "Pokemon": 1 };
     hitsExcept("work").forEach(function (i) {
-      (i.w || []).filter(function (w) { return !series[w]; }).forEach(function (w) { bump(counts, w); });
+      (i.w || []).map(canonWork).filter(function (w) { return !series[w]; }).forEach(function (w) { bump(counts, w); });
     });
     var works = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
     var body = works.length ? indexSearch() + '<div class="analytics-index-groups"><section class="analytics-index-group">' +

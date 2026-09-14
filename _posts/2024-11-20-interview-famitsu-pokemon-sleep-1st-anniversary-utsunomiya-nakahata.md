@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
 zh_title: Fami通一周年深度专访：宝可梦社 COO 宇都宫崇人 × SELECT BUTTON 主创团队详解《Pokémon Sleep》睡眠算法、生活方式变革与未来生态

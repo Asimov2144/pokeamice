@@ -41,15 +41,11 @@ entities:
   - 井部真那
   - 田尻智
   - 杉森建
-  games:
+  works:
   - 宝可梦 黑·白
   - 宝可梦 红·绿
   - 宝可梦 金·银
   - 宝可梦 心金·魂银
-  pokemon:
-  - 莱希拉姆
-  - 捷克罗姆
-  - 比克提尼
 parallel_items:
 - speaker: ''
   original: This week marks the long-awaited release of the fifth-generation of Pokémon titles, Black and White. Game Freak producer, Junichi Masuda, and the graphic designer who created many of the game’s 150 new Pokémon, Mana Ibe, tell us about the past, present, and future of the long-running franchise. Did you know the traditional routes found in Pokémon games were initially created as a workaround for cartridge limitations? Did you know that Pokémon originally didn't evolve? If it weren't for the lengthy six-year development cycle of the original games, these series staples would not have existed. Read on to learn more franchise secrets.
@@ -152,8 +148,3 @@ parallel_items:
   translation: 多年前我玩过最初的《红》和《蓝》游戏，那时我还是个孩子，宝可梦至今仍被社会接受并受到人们的喜爱，这让我印象深刻。我从未想过自己会在GAME FREAK工作。现在推出的游戏是由我这一代的人制作的，当然老一辈的人也在参与制作。新游戏与这一代人相契合，我期待它们能随着新一代人的成长而继续进化。
   note: 井部真那（Man Ibe）是GAME FREAK的开发人员，此处提到初代《宝可梦 红/绿》（海外为Red/Blue）及其童年经历。
 ---
-
-
-
-
-

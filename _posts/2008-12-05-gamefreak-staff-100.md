@@ -47,16 +47,16 @@ source:
   source_type: official_blog_wayback
 entities:
   people:
-    - "森本"
-    - "鲣鱼"
-    - "鱼子"
+  - 森本
+  - 鲣鱼
+  - 鱼子
+  works:
+  - 宝可梦 白金
   organizations:
-    - "Game Freak"
+  - Game Freak
   events:
-    - "宝可梦白金对战大会"
-
+  - 宝可梦白金对战大会
 ---
-
 <div data-gf-language-panel="zh-CN">
 你好！<br>
 

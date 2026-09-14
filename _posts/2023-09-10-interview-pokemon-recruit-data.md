@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）
 title_ja: Special Interview 「データ活用で未来を拓く､ITと事業の良い関係」 ｜ 株式会社ポケモン 採用情報
@@ -163,4 +164,7 @@ parallel_items:
   speaker_orig: 坂上
   original: そう言っていただけて心強いです。引き続き、よろしくお願いいたします。
   translation: 能得到二位如此铿锵有力的支持，实在太令人安心振奋了！今后也请多多指教，让我们携手共创宝可梦的数字化未来！
+entities:
+  works:
+  - 宝可梦 朱·紫
 ---

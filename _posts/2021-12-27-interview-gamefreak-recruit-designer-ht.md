@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶
 title_ja: ギアプロジェクトなら、自分のアイディアをゲームにできる。だから、面白い。｜デザイナー社員紹介 H.T.
@@ -29,7 +30,7 @@ entities:
   - H.T.
   works:
   - 小镇英雄
-  - 宝可梦 剑／盾
+  - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

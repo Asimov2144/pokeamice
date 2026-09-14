@@ -33,11 +33,12 @@ source:
 entities:
   people:
   - 增田顺一
+  works:
+  - 宝可梦 太阳·月亮
   organizations:
   - Game Freak
   - LINE BLOG
 ---
-
 <div class="gf-lineblog-line gf-lineblog-line--center">1月12日</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">是增田的生日啦！</div>
 <div class="gf-lineblog-line gf-lineblog-line--center">收到了好多祝福留言和插画</div>

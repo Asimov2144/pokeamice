@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: '[扫描访谈] CONTINUE Vol.31 自动化对照存档'
 title_ja: CONTINUE Vol.31

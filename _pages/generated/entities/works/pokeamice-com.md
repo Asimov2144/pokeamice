@@ -23,7 +23,7 @@ search: false
   <section class="resource-network-section">
     <h2>相关评注</h2>
     <article class="resource-network-card resource-network-card--annotation">
-  <p>2024 · [站点]-建站纪事-Building-Records</p>
+  <p>2024 · Pokeamice.com · [站点]-建站纪事-Building-Records</p>
   <h3><a href="/sites/文档/宝可梦友会/站点-建站纪事-Building-Records/#annotation-random-bg">随机背景方案</a></h3>
   <span>这里记录的是早期站点视觉系统的一部分：通过接口随机抽取背景图，让站点每次打开都有轻微变化。</span>
 </article>

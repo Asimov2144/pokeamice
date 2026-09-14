@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 日本经济新闻 深度特写宝可梦社长石原恒和：从父亲传授围棋到千亿IP帝国舵手，与岩田聪、田尻智的初心原点
 subtitle: 石原恒和・ポケモン社長　父に囲碁教わりゲーム好きに - 日本経済新聞（夕刊「それでも親子」）

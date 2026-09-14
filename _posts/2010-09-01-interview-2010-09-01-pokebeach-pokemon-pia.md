@@ -37,8 +37,6 @@ entities:
   - 井部真那
   - 田上怜子
   - 大村祐介
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -232,8 +230,3 @@ original_link: https://www.pokebeach.com/2010/09/pokemon-peer-interview-translat
 translator: Poke Amice Studio
 interviewee: 井部真那, 全员, 大村祐介, 杉森建, 田上玲子
 ---
-
-
-
-
-

@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）
 title_ja: Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？
@@ -279,4 +280,7 @@ parallel_items:
 source:
   title: Special Interview 002 若手社員座談会 「僕らが未来を変えていく」 それぞれの仕事を通じて見えてきた、若手社員が目指すものとは？
   url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview2.html
+entities:
+  works:
+  - 宝可梦 X·Y
 ---

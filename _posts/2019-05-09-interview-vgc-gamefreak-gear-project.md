@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: VGC 专访 GAME FREAK 尾上将之：GEAR PROJECT 机制与第一制作组的原创野心——追求超越宝可梦的冲击力
 original_title: 'GAME FREAK: ‘WE’RE TRYING TO CREATE SOMETHING MORE THAN POKÉMON’'
@@ -195,4 +196,7 @@ interviewee: VGC, 尾上将之
 source:
   title: Video Games Chronicle (VGC)
   url: https://www.videogameschronicle.com/features/interviews/game-freak-were-trying-to-create-something-more-than-pokemon/
+entities:
+  works:
+  - 宝可梦 剑·盾
 ---

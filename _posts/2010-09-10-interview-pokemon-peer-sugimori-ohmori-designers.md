@@ -43,17 +43,10 @@ entities:
   - 井部真那
   - 田上怜子
   - 增田顺一
-  games:
+  works:
   - 宝可梦 黑·白
   - 宝可梦 白金
   - 宝可梦 心金·魂银
-  pokemon:
-  - 比克提尼
-  - 藤藤蛇
-  - 暖暖猪
-  - 水水獭
-  - 豆豆鸽
-  - 虫宝包
 parallel_items:
 - type: heading
   level: 2
@@ -254,8 +247,3 @@ parallel_items:
 interview_id: PKMN-0071
 subtitle: 2010年9月特刊·17人主力美术团队揭秘：比克提尼苹果兔造型、藤藤蛇傲岸贵族感、水水獭武士演进与全点阵呼吸动画
 ---
-
-
-
-
-

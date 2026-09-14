@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁
 subtitle: 2012年10月官方专访：为何不做《灰》而是双版本正统续作？回忆连线、百人节庆任务与对战平衡组幕后
@@ -262,4 +263,7 @@ interviewee: Pokemon.com, 增田顺一, 海野隆雄
 source:
   title: 'The People behind the Pokémon: Junichi Masuda and Takao Unno Interview'
   url: https://web.archive.org/web/20130731014648/https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/
+entities:
+  works:
+  - 宝可梦 黑2·白2
 ---

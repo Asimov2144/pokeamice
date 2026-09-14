@@ -39,11 +39,9 @@ entities:
   people:
   - 增田顺一
   - 凯尔·希利亚德
-  games:
+  works:
   - 宝可梦 太阳·月亮
   - 宝可梦 红·绿
-  - Game Boy
-  - 任天堂 3DS
 parallel_items:
 - type: heading
   level: 2
@@ -118,8 +116,3 @@ parallel_items:
   translation: 随着系列的发展，创造新宝可梦的设计和流程可能会发生变化，以适应工作室的人员构成以及工作室希望传达的理念。然而，令人安心的是，只要在宝可梦世界中具有生态学与生物学上的合理性，几乎没有任何想法是被禁止的。
   note: ''
 ---
-
-
-
-
-

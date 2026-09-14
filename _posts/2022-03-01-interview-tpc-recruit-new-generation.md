@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变
 date: 2022-03-01 12:00:00 +0900
@@ -192,7 +193,4 @@ parallel_items:
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img4.jpg
   speaker: null
 ---
-
-
-
 > 本篇访谈译自株式会社宝可梦（The Pokémon Company）官方招聘网站特别专栏。来自不同国家、拥有多元学术背景的新卒一代在此畅谈初入宝可梦公司的真实体验、业务监修的心得以及企业长青的核心哲学。

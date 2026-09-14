@@ -35,8 +35,6 @@ entities:
   - 田尻智
   - 增田顺一
   - 杉森建
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo

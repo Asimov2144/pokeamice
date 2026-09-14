@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱
 subtitle: 2011年欧洲首发直击：推倒重来四年研发之路、为何追求所有玩家同一跑线、家用主机与掌机面对面连接之辩、比克提尼与对战狂欢
@@ -162,4 +163,7 @@ interviewee: 增田顺一
 source:
   title: 'Interview: Pokemon in Black and White with Junichi Masuda'
   url: https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda
+entities:
+  works:
+  - 宝可梦 黑·白
 ---

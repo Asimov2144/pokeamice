@@ -30,9 +30,6 @@ workflow:
   proofreading: pending
   published: done
 entities:
-  people: []
-  works:
-  - 宝可梦
   organizations:
   - Game Freak
   - Nintendo
@@ -418,8 +415,3 @@ parallel_items:
   original: Go on an adventure with Hoopa, Pikachu and Satoshi in the theater!
   translation: 在影院与胡帕、皮卡丘和小智一起冒险吧！
 ---
-
-
-
-
-

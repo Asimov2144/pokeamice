@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: 2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》
 original_title: 『ポケットモンスター』受け継がれる音楽のバトン　-『ポケットモンスター 赤・緑』から『ポケットモンスター オメガルビー・アルファサファイア』まで-
@@ -373,4 +374,8 @@ interviewee: 2083取材班, 一之濑刚, 一之瀬佐藤足立, 佐藤仁美, �
 source:
   title: 2083WEB (Game Music Web)
   url: http://www.2083.jp/contents/201410gamefreak/
+entities:
+  works:
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  - 宝可梦 红·绿
 ---

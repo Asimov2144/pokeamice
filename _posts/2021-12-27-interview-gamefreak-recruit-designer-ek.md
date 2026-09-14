@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验
 title_ja: 好きに意見が言える。好きに学べる。いちばん楽しい職場です。｜デザイナー社員紹介 E.K.
@@ -28,8 +29,8 @@ entities:
   people:
   - E.K.
   works:
-  - 宝可梦 太阳／月亮
-  - 宝可梦 剑／盾
+  - 宝可梦 太阳·月亮
+  - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

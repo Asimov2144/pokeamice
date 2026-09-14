@@ -1,4 +1,5 @@
 ---
+archive_type: interview_translation
 layout: parallel-translation
 title: GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK
 title_ja: システムプログラマ対談：変化を楽しみ続ける人が、10年後のゲームフリークを作る。
@@ -25,8 +26,8 @@ entities:
   people:
   - K.M.
   - H.T.
-  games:
-  - 宝可梦 传说 阿尔宙斯
+  works:
+  - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
 parallel_items:
 - type: image
