@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 鶴田 GF staff blog'
 date: '2013-01-22'
 toc: true
@@ -196,6 +196,7 @@ parallel_items:
   translation: 我是图形设计师鹤田。
   speaker: 鹤田
   note: 鹤田是GAME FREAK的图形设计师，负责宝可梦系列的美术工作。
+  role: answer
 - type: paragraph
   original: 次回いよいよ最終回の『ＨＧ・ＳＳ　語っちゃいます！』お楽しみに！
   translation: 下次终于迎来《HG·SS 畅谈！》的最终回，敬请期待！

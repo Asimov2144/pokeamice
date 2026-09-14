@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”
 original_title: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
 interview_id: PKMN-0032
@@ -46,26 +46,72 @@ parallel_items:
   translation: 大森滋在2002年《宝可梦 红宝石／蓝宝石》开发期间，以年轻有为的领导者身份加入GAME FREAK，当时他负责地图设计，同时也是游戏的核心设计人员之一。他还参与过《宝可梦巡护员》等衍生作品，甚至包括GAME FREAK为3DS开发的另一款项目《节奏骑士》（HarmoKnight）。在担任游戏设计师多年、参与多部作品后，他在开发团队中的地位逐渐提升，最终成为系列总监。正如他在采访中所说，他的核心方法论是汲取正统系列与GAME FREAK其他作品的长处，让新项目尽可能做到最好。
   speaker: 大森滋
 - type: dialogue
-  original: 'MeriStation: ¿Cuál fue la principal inspiración para crear una región como Alola, basada en un archipiélago con cuatro Islas en vez de un único territorio tal como estábamos acostumbrados? ¿Qué os ha llevado a tomar esta decisión en la franquicia? Ohmori: Queríamos tratar la naturaleza, queríamos tener una relación estrecha entre humanos y Pokémon. Es por ello que pensamos en Hawaii, porque allí hay una relación realmente natural entre seres humanos y la naturaleza conviven en una relación muy, muy estrecha. El motivo por el que decidimos optar por cuatro islas en vez de un único territorio es porque queríamos, por ejemplo, dar esa sensación de que en cada isla encontrarían una nueva aventura, encuentros diferentes; que con el descubrimiento de una nueva isla el jugador se pudiese encontrar con nuevos retos y especialmente con nuevas maneras de afrontar la aventura Pokémon. Que se sintiese como algo nuevo dentro y se fuese renovando incluso dentro de la propia aventura.'
-  translation: MeriStation：创造阿罗拉这样一个由四座岛屿组成的群岛地区，而非我们以往习惯的单一大陆，主要灵感来源是什么？是什么促使你们在系列中做出这一决定？大森：我们想展现自然，想呈现人类与宝可梦之间的紧密联系。正因如此，我们想到了夏威夷，因为在那里，人类与自然之间有着非常天然的关系，彼此共存，联系极为紧密。我们决定采用四座岛屿而非单一大陆的原因在于，我们希望营造出这样一种感觉：每座岛屿都会带来全新的冒险、不同的邂逅；随着玩家发现新的岛屿，能够遇到新的挑战，尤其是以新的方式去面对宝可梦冒险。让玩家在冒险过程中乃至冒险本身都能感受到新鲜感，不断焕发新意。
+  role: question
+  speaker: MeriStation
+  original: ¿Cuál fue la principal inspiración para crear una región como Alola, basada en un archipiélago con cuatro Islas en vez de un único territorio tal como estábamos acostumbrados? ¿Qué os ha llevado a tomar esta decisión en la franquicia?
+  translation: 创造阿罗拉这样一个由四座岛屿组成的群岛地区，而非我们以往习惯的单一大陆，主要灵感来源是什么？是什么促使你们在系列中做出这一决定？
+  chapter: 阿罗拉为什么是四座岛？
 - type: dialogue
-  original: 'MeriStation: Con esta séptima generación hemos ido viendo muchas referencias a anteriores generaciones, muchos guiños. ¿Las formas regionales [Formas Alola en Sol y Luna] de los Pokémon son algo puntual, tal como ha terminado sucediendo con las Mega Evoluciones? ¿Se trata al contrario de algo que veremos también en el futuro con Pokémon de otras regiones como Johto? Ohmori: En este caso quisimos hacer un guiño a aquellos jugadores que siguen la saga desde Pokémon Rojo y Pokémon Azul, por eso hemos usado tantas referencias. Y por ejemplo, en lo que preguntabas sobre las formas regionales, queríamos un poco que en cada isla se sorprendiese a los jugadores con nuevas formas o evoluciones de Pokémon antiguos que sorprendiesen a aquellos que conocían ya a esas especies pero con una forma diferente; un ejemplo es Exeggutor, que en una de las islas aparece con un cuello muy largo. En el futuro, si encontramos una razón para hacer todo esto, definitivamente seguiremos haciéndolo porque
-    se trata de algo muy interesante y que a la gente le ha gustado mucho.'
-  translation: MeriStation：随着第七世代的到来，我们看到了许多对前几世代的引用和致敬。请问《太阳／月亮》中宝可梦的地区形态（阿罗拉的样子）是像超级进化那样仅限本作的一次性尝试，还是说我们未来会在其他地区（比如城都地区）的宝可梦身上也看到这种设计？大森：在本作中，我们希望能向那些从《宝可梦 红／蓝》时代就一直追随系列的老玩家致敬，因此加入了大量引用。举例来说，关于你提到的地区形态，我们希望在每个岛屿上都能用旧有宝可梦的新形态或新进化来给玩家带来惊喜——让那些早已熟悉这些宝可梦的玩家，看到它们以截然不同的样子出现。一个典型的例子就是椰蛋树，它在其中一个岛屿上以脖子极长的形态登场。未来如果我们能找到合适的理由去做这件事，我们一定会继续做下去，因为这实在是一个非常有趣的设计，而且玩家们也非常喜欢。
+  role: answer
+  speaker: 大森滋
+  original: Queríamos tratar la naturaleza, queríamos tener una relación estrecha entre humanos y Pokémon. Es por ello que pensamos en Hawaii, porque allí hay una relación realmente natural entre seres humanos y la naturaleza conviven en una relación muy, muy estrecha. El motivo por el que decidimos optar por cuatro islas en vez de un único territorio es porque queríamos, por ejemplo, dar esa sensación de que en cada isla encontrarían una nueva aventura, encuentros diferentes; que con el descubrimiento de una nueva isla el jugador se pudiese encontrar con nuevos retos y especialmente con nuevas maneras de afrontar la aventura Pokémon. Que se sintiese como algo nuevo dentro y se fuese renovando incluso dentro de la propia aventura.
+  translation: 我们想展现自然，想呈现人类与宝可梦之间的紧密联系。正因如此，我们想到了夏威夷，因为在那里，人类与自然之间有着非常天然的关系，彼此共存，联系极为紧密。我们决定采用四座岛屿而非单一大陆的原因在于，我们希望营造出这样一种感觉：每座岛屿都会带来全新的冒险、不同的邂逅；随着玩家发现新的岛屿，能够遇到新的挑战，尤其是以新的方式去面对宝可梦冒险。让玩家在冒险过程中乃至冒险本身都能感受到新鲜感，不断焕发新意。
 - type: dialogue
-  original: 'MeriStation: Con respecto a la eliminación de las Máquinas Ocultas (MO) y la introducción de las Poké Monturas, podemos ver que hay más de una referencia a juegos spin off de la saga como Pokémon Ranger y Mundo Misterioso. ¿Cómo puede evolucionar la saga principal en ese sentido? ¿Continuaremos viendo más herencias y préstamos de otros títulos spin off de la franquicia? Ohmori: Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap, pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como
-    trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.'
-  translation: MeriStation：关于取消秘传学习器（秘传招式）并引入宝可骑行，我们可以看到有不少对《宝可梦巡护员》和《宝可梦不可思议的迷宫》等外传作品的借鉴。从这个意义上说，正统系列可以如何进化？我们还会继续看到更多来自该系列其他外传作品的传承与借鉴吗？大森：举例来说，宝可骑行并不是我们从《宝可梦巡护员》里拿过来的，而是围绕让人类与宝可梦尽可能紧密地共存、建立羁绊这一主题，我们思考了怎样才能让它们最大限度地互相帮助；宝可骑行这个点子就是这样诞生的。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可搜寻镜。这个功能取自《宝可梦随乐拍》，我们一开始就想到那款作品，是因为这个功能在任天堂 3DS 的机能下有很多可能性。我们在引入新功能和新机制时就是这么做的。我完全不认为这是在模仿外传作品，但如果我们觉得某些东西能给正统系列带来价值，就一定会毫不犹豫地拿来用。
+  role: question
+  speaker: MeriStation
+  original: Con esta séptima generación hemos ido viendo muchas referencias a anteriores generaciones, muchos guiños. ¿Las formas regionales [Formas Alola en Sol y Luna] de los Pokémon son algo puntual, tal como ha terminado sucediendo con las Mega Evoluciones? ¿Se trata al contrario de algo que veremos también en el futuro con Pokémon de otras regiones como Johto?
+  translation: 随着第七世代的到来，我们看到了许多对前几世代的引用和致敬。请问《太阳／月亮》中宝可梦的地区形态（阿罗拉的样子）是像超级进化那样仅限本作的一次性尝试，还是说我们未来会在其他地区（比如城都地区）的宝可梦身上也看到这种设计？
+  chapter: 地区形态只是一次性的尝试吗？
 - type: dialogue
-  original: 'MeriStation: Analizando el mercado actual de las consolas, vemos que especialmente en Occidente las consolas portátiles tienen un peso cada vez menor. ¿Cómo podría sobrevivir la saga Pokémon en un mercado sin consolas portátiles? Es decir, ¿se podría continuar la saga adaptándose inevitablemente a un mercado eminentemente doméstico? Tenemos el ejemplo de Nintendo Switch, un híbrido que permitiría ambas formas de juego. ¿De qué manera podría beneficiarse la saga principal de Pokémon de una consola así? Masuda: Para Pokémon es muy importante la comunicación. Dónde y cómo juegan nuestros jugadores es algo crucial. Por ejemplo, en Japón los niños suelen jugar en el parque, en casa de uno u otro, reunidos jugando con sus consolas portátiles. En Japón las consolas portátiles están lejos de morir, de hecho cuentan con un mejor estado de salud que las domésticas. Por ello, es importante para nosotros mantener lo mejor posible la comunicación, ese medio por el que la gente se una y se
-    junte para jugar. Sin duda, Nintendo Switch es el futuro, pero tendremos que esperar a que salga al mercado y estudiar cómo puede beneficiarse de Pokémon. Cuando la gente la tenga, tendremos que ver y estudiar profundamente cómo la utilizan para entonces pensar cómo serán las próximas entregas de Pokémon y cómo la saga se podría beneficiar de esta nueva consola.'
-  translation: MeriStation：分析当前主机市场，我们可以看到，尤其是在西方，掌机的分量越来越轻。在没有掌机的市场环境下，宝可梦系列要如何生存？也就是说，该系列是否可能不可避免地要适应一个以家用机为主的市场？我们有任天堂 Switch 的例子，这款混合型主机可以兼顾两种游玩方式。宝可梦正统系列能从这样一款主机上获得怎样的好处？增田：对宝可梦来说，沟通非常重要。玩家在哪里玩、怎么玩，是至关重要的事情。比如在日本，孩子们通常会在公园里、在彼此家里聚在一起，用掌机一起游玩。在日本，掌机远未消亡，事实上它们的状况比家用机还要好。因此，对我们来说，尽可能维持好这种沟通、这种让人们聚在一起游玩的方式，是很重要的。毫无疑问，任天堂 Switch 是未来，但我们必须等它上市，并研究宝可梦能从中获得怎样的好处。当人们拿到它之后，我们必须深入观察和研究他们如何使用它，然后才能思考宝可梦的下一批作品会是什么样，以及该系列能如何从这台新主机上获益。
+  role: answer
+  speaker: 大森滋
+  original: En este caso quisimos hacer un guiño a aquellos jugadores que siguen la saga desde Pokémon Rojo y Pokémon Azul, por eso hemos usado tantas referencias. Y por ejemplo, en lo que preguntabas sobre las formas regionales, queríamos un poco que en cada isla se sorprendiese a los jugadores con nuevas formas o evoluciones de Pokémon antiguos que sorprendiesen a aquellos que conocían ya a esas especies pero con una forma diferente; un ejemplo es Exeggutor, que en una de las islas aparece con un cuello muy largo. En el futuro, si encontramos una razón para hacer todo esto, definitivamente seguiremos haciéndolo porque se trata de algo muy interesante y que a la gente le ha gustado mucho.
+  translation: 在本作中，我们希望能向那些从《宝可梦 红／蓝》时代就一直追随系列的老玩家致敬，因此加入了大量引用。举例来说，关于你提到的地区形态，我们希望在每个岛屿上都能用旧有宝可梦的新形态或新进化来给玩家带来惊喜——让那些早已熟悉这些宝可梦的玩家，看到它们以截然不同的样子出现。一个典型的例子就是椰蛋树，它在其中一个岛屿上以脖子极长的形态登场。未来如果我们能找到合适的理由去做这件事，我们一定会继续做下去，因为这实在是一个非常有趣的设计，而且玩家们也非常喜欢。
 - type: dialogue
-  original: 'MeriStation: Con cada nueva generación, desde los inicios de la saga, hemos visto como se han ido haciendo remakes de anteriores entregas, aproximadamente cada diez u once años desde el lanzamiento original de dichos títulos. Tras Rubí Omega y Zafiro Alga para la tercera generación, es el momento de volver a Sinnoh con Perla y Diamante, que han cumplido recientemente diez años en Japón. ¿Se acerca el momento de plantear los remakes de Pokémon Perla y Pokémon Diamante? Masuda: [Risas] Nos lo dicen mucho en Twitter. Bueno… No sé, no sé… [Risas]'
-  translation: MeriStation：自系列诞生以来，每一代新作推出后，我们都会看到以往作品被重制，大约每隔十年或十一年，就会基于原版作品推出重制版。继第三世代的《宝可梦 欧米伽红宝石／阿尔法蓝宝石》之后，如今该轮到神奥地区了，《宝可梦 钻石／珍珠》在日本也刚刚迎来了十周年。是不是差不多该考虑《宝可梦 钻石／珍珠》的重制了？增田：［笑］推特上经常有人跟我们这么说。嗯……我不知道，不知道啊……［笑］
+  role: question
+  speaker: MeriStation
+  original: Con respecto a la eliminación de las Máquinas Ocultas (MO) y la introducción de las Poké Monturas, podemos ver que hay más de una referencia a juegos spin off de la saga como Pokémon Ranger y Mundo Misterioso. ¿Cómo puede evolucionar la saga principal en ese sentido? ¿Continuaremos viendo más herencias y préstamos de otros títulos spin off de la franquicia?
+  translation: 关于取消秘传学习器（秘传招式）并引入宝可骑行，我们可以看到有不少对《宝可梦巡护员》和《宝可梦不可思议的迷宫》等外传作品的借鉴。从这个意义上说，正统系列可以如何进化？我们还会继续看到更多来自该系列其他外传作品的传承与借鉴吗？
+  chapter: 正统作从外传学到了什么？
 - type: dialogue
-  original: 'MeriStation: Para finalizar, queremos saber cómo intuís que puede estar la saga principal dentro de, digamos cinco años. ¿Es algo que tiene fecha de caducidad? ¿Hasta dónde puede dar de sí este fenómeno? Antes de Pokémon GO, pensábamos que se acercaba irremediablemente la caída de popularidad de la franquicia, pero de repente la fiebre Pokémon ha vuelto en todo el planeta. Masuda: Nosotros hemos realizado todo este camino junto a Nintendo, con sus consolas. Creo que vamos a seguir evolucionando con ellos, con sus consolas. Seguiremos el camino que marquen las consolas de Nintendo en el futuro. Para nosotros Pokémon es un fenómeno social, una herramienta de comunicación; entonces, con la tecnología que tengamos en aquel momento, valoraremos cómo hacer para que a través de esas consolas Pokémon sea la mejor herramienta de comunicación.'
-  translation: MeriStation：最后，我们想知道您如何预见宝可梦主系列在未来五年内的发展。它是否有期限？这一现象还能持续多久？在《Pokémon GO》之前，我们认为该系列的人气正不可避免地走向衰落，但突然间，宝可梦热潮在全球范围内再度兴起。增田：我们与任天堂及其主机一同走过了整个历程。我认为我们将继续与他们、与他们的主机共同进化。我们将追随任天堂主机未来所指引的道路。对我们而言，宝可梦是一种社会现象，一种沟通工具；因此，届时我们将根据当时所拥有的技术，考量如何通过这些主机让宝可梦成为最佳的沟通工具。
+  role: answer
+  speaker: 大森滋
+  original: Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap, pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.
+  translation: 举例来说，宝可骑行并不是我们从《宝可梦巡护员》里拿过来的，而是围绕让人类与宝可梦尽可能紧密地共存、建立羁绊这一主题，我们思考了怎样才能让它们最大限度地互相帮助；宝可骑行这个点子就是这样诞生的。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可搜寻镜。这个功能取自《宝可梦随乐拍》，我们一开始就想到那款作品，是因为这个功能在任天堂 3DS 的机能下有很多可能性。我们在引入新功能和新机制时就是这么做的。我完全不认为这是在模仿外传作品，但如果我们觉得某些东西能给正统系列带来价值，就一定会毫不犹豫地拿来用。
+- type: dialogue
+  role: question
+  speaker: MeriStation
+  original: Analizando el mercado actual de las consolas, vemos que especialmente en Occidente las consolas portátiles tienen un peso cada vez menor. ¿Cómo podría sobrevivir la saga Pokémon en un mercado sin consolas portátiles? Es decir, ¿se podría continuar la saga adaptándose inevitablemente a un mercado eminentemente doméstico? Tenemos el ejemplo de Nintendo Switch, un híbrido que permitiría ambas formas de juego. ¿De qué manera podría beneficiarse la saga principal de Pokémon de una consola así?
+  translation: 分析当前主机市场，我们可以看到，尤其是在西方，掌机的分量越来越轻。在没有掌机的市场环境下，宝可梦系列要如何生存？也就是说，该系列是否可能不可避免地要适应一个以家用机为主的市场？我们有任天堂 Switch 的例子，这款混合型主机可以兼顾两种游玩方式。宝可梦正统系列能从这样一款主机上获得怎样的好处？
+  chapter: Nintendo Switch 会改变宝可梦吗？
+- type: dialogue
+  role: answer
+  speaker: 增田顺一
+  original: Para Pokémon es muy importante la comunicación. Dónde y cómo juegan nuestros jugadores es algo crucial. Por ejemplo, en Japón los niños suelen jugar en el parque, en casa de uno u otro, reunidos jugando con sus consolas portátiles. En Japón las consolas portátiles están lejos de morir, de hecho cuentan con un mejor estado de salud que las domésticas. Por ello, es importante para nosotros mantener lo mejor posible la comunicación, ese medio por el que la gente se una y se junte para jugar. Sin duda, Nintendo Switch es el futuro, pero tendremos que esperar a que salga al mercado y estudiar cómo puede beneficiarse de Pokémon. Cuando la gente la tenga, tendremos que ver y estudiar profundamente cómo la utilizan para entonces pensar cómo serán las próximas entregas de Pokémon y cómo la saga se podría beneficiar de esta nueva consola.
+  translation: 对宝可梦来说，沟通非常重要。玩家在哪里玩、怎么玩，是至关重要的事情。比如在日本，孩子们通常会在公园里、在彼此家里聚在一起，用掌机一起游玩。在日本，掌机远未消亡，事实上它们的状况比家用机还要好。因此，对我们来说，尽可能维持好这种沟通、这种让人们聚在一起游玩的方式，是很重要的。毫无疑问，任天堂 Switch 是未来，但我们必须等它上市，并研究宝可梦能从中获得怎样的好处。当人们拿到它之后，我们必须深入观察和研究他们如何使用它，然后才能思考宝可梦的下一批作品会是什么样，以及该系列能如何从这台新主机上获益。
+  pull: 毫无疑问，Nintendo Switch 是未来。
+- type: dialogue
+  role: question
+  speaker: MeriStation
+  original: Con cada nueva generación, desde los inicios de la saga, hemos visto como se han ido haciendo remakes de anteriores entregas, aproximadamente cada diez u once años desde el lanzamiento original de dichos títulos. Tras Rubí Omega y Zafiro Alga para la tercera generación, es el momento de volver a Sinnoh con Perla y Diamante, que han cumplido recientemente diez años en Japón. ¿Se acerca el momento de plantear los remakes de Pokémon Perla y Pokémon Diamante?
+  translation: 自系列诞生以来，每一代新作推出后，我们都会看到以往作品被重制，大约每隔十年或十一年，就会基于原版作品推出重制版。继第三世代的《宝可梦 欧米伽红宝石／阿尔法蓝宝石》之后，如今该轮到神奥地区了，《宝可梦 钻石／珍珠》在日本也刚刚迎来了十周年。是不是差不多该考虑《宝可梦 钻石／珍珠》的重制了？
+  chapter: 《钻石／珍珠》重制会来吗？
+- type: dialogue
+  role: answer
+  speaker: 增田顺一
+  original: '[Risas] Nos lo dicen mucho en Twitter. Bueno… No sé, no sé… [Risas]'
+  translation: ［笑］推特上经常有人跟我们这么说。嗯……我不知道，不知道啊……［笑］
+- type: dialogue
+  role: question
+  speaker: MeriStation
+  original: Para finalizar, queremos saber cómo intuís que puede estar la saga principal dentro de, digamos cinco años. ¿Es algo que tiene fecha de caducidad? ¿Hasta dónde puede dar de sí este fenómeno? Antes de Pokémon GO, pensábamos que se acercaba irremediablemente la caída de popularidad de la franquicia, pero de repente la fiebre Pokémon ha vuelto en todo el planeta.
+  translation: 最后，我们想知道您如何预见宝可梦主系列在未来五年内的发展。它是否有期限？这一现象还能持续多久？在《Pokémon GO》之前，我们认为该系列的人气正不可避免地走向衰落，但突然间，宝可梦热潮在全球范围内再度兴起。
+  chapter: 宝可梦还能走多远？
+- type: dialogue
+  role: answer
+  speaker: 增田顺一
+  original: Nosotros hemos realizado todo este camino junto a Nintendo, con sus consolas. Creo que vamos a seguir evolucionando con ellos, con sus consolas. Seguiremos el camino que marquen las consolas de Nintendo en el futuro. Para nosotros Pokémon es un fenómeno social, una herramienta de comunicación; entonces, con la tecnología que tengamos en aquel momento, valoraremos cómo hacer para que a través de esas consolas Pokémon sea la mejor herramienta de comunicación.
+  translation: 我们与任天堂及其主机一同走过了整个历程。我认为我们将继续与他们、与他们的主机共同进化。我们将追随任天堂主机未来所指引的道路。对我们而言，宝可梦是一种社会现象，一种沟通工具；因此，届时我们将根据当时所拥有的技术，考量如何通过这些主机让宝可梦成为最佳的沟通工具。
 source:
   title: MeriStation（西班牙权威游戏媒体）
   url: https://as.com/meristation/2016/12/12/noticias/1481540400_157864.html
@@ -73,4 +119,7 @@ entities:
   works:
   - 宝可梦 钻石·珍珠
   - 宝可梦 太阳·月亮
+dateline: 马德里
+dek: 《太阳／月亮》登陆欧洲一周后，MeriStation 与两位系列核心人物的二十分钟闭门对谈
+display_title: Nintendo Switch 就是未来。
 ---

@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 增田顺一与大森滋与iDÉAME的孩子们'
 date: '2014-11-01'
 toc: true
@@ -129,55 +129,72 @@ parallel_items:
 - type: paragraph
   original: ¿Cómo erais de pequeños?
   translation: 你们小时候是什么样子的？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : Cuando era niño me gustaba mucho montar en bicicleta. Y aparte de montarla también la personalizaba, la tuneaba.'
   translation: 小时候我非常喜欢骑自行车。除了骑，我还会自己改装、装饰它。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: 'Shigeru : De niño me gustaba construir cosas. Cuando veía cartones por la calle (o casa) montaba casas de cartón, armaduras de cartón, etc.'
   translation: 茂：小时候我喜欢动手制作东西。当我在街上（或家里）看到纸板时，就会搭纸板房子、纸板盔甲之类的。
   speaker: Shigeru
+  role: answer
 - type: paragraph
   original: ¿Cómo os convertisteis en creadores de videojuegos?
   translation: 你们是如何成为游戏开发者的？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : De pequeño ya me gustaban mucho los videojuegos, y ya pensaba cómo mejorarlos, cómo serían más divertidos, etc. Aprendí a programar y al cabo de un tiempo surgió Pokémon.'
   translation: 我小时候就很喜欢电子游戏，并且会思考如何改进它们，怎样让它们更有趣等等。我学习了编程，过了一段时间，宝可梦就诞生了。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: 'Shigeru : A mi en el colegio se me daban bien las matemáticas y ciencias y me centre en eso (estudiar).'
   translation: 茂：我在学校时数学和理科成绩很好，所以我专注于学习这些科目。
   speaker: Shigeru
+  role: answer
 - type: paragraph
   original: 'Masuda : A mi también me gustaban las matemáticas. Y cocinar. Incluso he hecho paella.'
   translation: 我也喜欢数学，还有烹饪。我甚至做过西班牙海鲜饭。
   speaker: 增田顺一
   note: Paella 是西班牙传统菜肴，此处体现增田的烹饪兴趣。
+  role: answer
 - type: paragraph
   original: ¿Cómo se os ocurren nuevos Pokémon?
   translation: 你们是如何构思新宝可梦的？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : Un ejemplo, cómo veis en pantalla ( unos starters había, generación ¿4? ¿5?) , es basarse en animales o plantas y dotarles de un elemento, cómo puede ser agua o fuego por ejemplo.'
   translation: 举个例子，就像屏幕上显示的（有一些御三家，第4代还是第5代？），我们会以动物或植物为基础，然后赋予它们一种属性，比如水或火。
   speaker: 增田顺一
   note: 括号内为记录者不确定的备注。
+  role: answer
 - type: paragraph
   original: 'Shigeru : También cosas cercanas, cómo un vaso o un micrófono. Un ejemplo sería esta botella, que sería de tipo agua.'
   translation: 茂：也会从身边的事物取材，比如杯子或麦克风。举个例子，这个瓶子，就会是水属性。
   speaker: Shigeru
+  role: answer
 - type: paragraph
   original: ¿Qué impresión tenéis de Barcelona?
   translation: 你们对巴塞罗那有什么印象？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Shigeru : *sugoi* Es la primera vez que vengo a Barcelona, y lo que más me ha llamado la atención son los edificios. Sobre todo los de Gaudí.'
   translation: Shigeru：*厉害* 这是我第一次来巴塞罗那，最吸引我的是那些建筑，尤其是高迪的建筑。
   speaker: Shigeru
   note: sugoi是日语“厉害”的罗马字，表示惊叹。
+  role: answer
 - type: paragraph
   original: 'Masuda: Y la paella está buenísima…'
   translation: Masuda：而且海鲜饭非常好吃……
   speaker: 增田顺一
   note: paella为西班牙海鲜饭。
+  role: answer
 - type: paragraph
   original: (Aplausos)
   translation: （掌声）
@@ -186,6 +203,7 @@ parallel_items:
   translation: Masuda：……还有panellets。
   speaker: 增田顺一
   note: panellets是西班牙加泰罗尼亚地区的传统甜点，由杏仁粉和糖制成。
+  role: answer
 - type: paragraph
   original: ( Aplaudiments )
   translation: （掌声）
@@ -193,26 +211,35 @@ parallel_items:
 - type: paragraph
   original: ¿Qué profesiones distintas intervienen en la creación de un videojuego?
   translation: 在电子游戏的创作中，有哪些不同的职业参与？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : Está el Graphic Designer, que hace las imágenes que veis ( en el PowerPoint había ilustraciones de Pokémon) . Luego está el Planner, que se encarga de hacer el plan: ¿el juego será más divertido si meto esto? ¿Y los combates? Luego el compositor, y  todo esto pasa a los programadores.'
   translation: Masuda：有图形设计师，负责制作你们看到的图像（在PowerPoint中有宝可梦的插图）。然后是策划，负责制定计划：如果我加入这个，游戏会更有趣吗？战斗呢？然后是作曲家，所有这些都交给程序员。
   speaker: 增田顺一
   note: Graphic Designer、Planner、composer、programmers为游戏开发中的常见职位。
+  role: answer
 - type: paragraph
   original: ¿Tenéis ganas de participar en el Salón del Manga?
   translation: 你们期待参加漫画展吗？
   note: Salón del Manga指西班牙的漫画展。
+  role: question
+  speaker: 提问
 - type: paragraph
   original: Shigeru :Me ha gustado mucho ver como reciben el manga (aquí en España). Sí.
   translation: Shigeru：我非常喜欢看到（在西班牙这里）人们如何接受漫画。是的。
   speaker: Shigeru
+  role: answer
 - type: paragraph
   original: ¿Qué es lo más divertido de crear videojuegos?
   translation: 创作电子游戏最有趣的是什么？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : En el equipo están cuatro profesiones (programador, compositor, planner, graphic artist). Se tienen que poner en común y trabajar juntos y eso es de las partes más divertidas de crear videojuegos. Cada uno aporta sus ideas al resto. Que seamos capaz de crear (juntos) algo que jueguen niños de todo el mundo es sensacional. Y tener la oportunidad de hacer este tipo de eventos y reunirnos con vosotros.'
   translation: Masuda：团队中有四种职业（程序员、作曲家、策划、图形艺术家）。他们必须集思广益，共同合作，这是创作电子游戏最有趣的部分之一。每个人都向其他人贡献自己的想法。我们能够（一起）创造出全世界孩子都会玩的东西，这太棒了。而且有机会举办这类活动并与你们相聚。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: (AWWWWWWW APLAUSE)
   translation: （哇——掌声）
@@ -220,11 +247,14 @@ parallel_items:
 - type: paragraph
   original: En España los padres controlan mucho el tiempo para videojuegos de sus hijos. ¿Es igual en Japón o es distinto?
   translation: 在西班牙，父母对孩子的游戏时间控制很严。在日本也是这样，还是有所不同？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Shigeru/Masuda : ¿Cuanto tiempo dedicáis a estudiar?'
   translation: Shigeru/Masuda：你们花多少时间学习？
   speaker: Shigeru/Masuda
   note: 这是对观众的反问，可能暗示日本孩子学习时间也长。
+  role: answer
 - type: paragraph
   original: 'Niños : (poco) (muy poco) (nada)'
   translation: 孩子们：（一点点）（很少）（没有）
@@ -235,29 +265,36 @@ parallel_items:
   original: En Japón ( el controlar el tiempo de jugar ) es igual. Los padres suelen permitir una hora por lo habitual. Mientras juegas vas pensando en cómo seguir disfrutando de ese juego más adelante. Y lo que también se hace es esforzarse más y estudiar más para que te permitan más horas de juego.
   translation: 在日本，（控制游戏时间）也是一样的。父母通常允许玩一个小时。在玩游戏的时候，你会思考之后如何继续享受这个游戏。而且，为了让父母允许更多的游戏时间，你还会更加努力学习和用功。
   speaker: Shigeru
+  role: answer
 - type: paragraph
   original: (Raugh – laugh)
   translation: （笑声）
 - type: paragraph
   original: ¿Qué es lo que queréis transmitir con Pokemon?
   translation: 你们想通过宝可梦传达什么？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: En Pokémon hay muchos mensajes, pero uno de los principales es que todo el mundo, todo el planeta, pudiera vivir en paz. Queremos crear juegos que saquen una sonrisa al ser jugados.
   translation: 宝可梦中包含很多信息，但其中最主要的一个是希望全世界、整个地球都能和平共处。我们想创造能让人在游玩时露出笑容的游戏。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: Por ejemplo, en Pokémon X e Y eran los ejes X e Y que simbolizaban que existen distintas personas y opiniones. Pero que también existen puntos en común. Por ejemplo el hecho de poder darte cuenta de que comparten muchas cosas con otros seres. Tú tienes dos ojos, un caballo también tiene dos ojos, una vaca tiene dos ojos…
   translation: 例如，在《宝可梦 X/Y》中，X轴和Y轴象征着存在不同的人和观点，但也存在共同点。比如，你能意识到你与其他生物共享许多东西。你有两只眼睛，马也有两只眼睛，牛也有两只眼睛……
   speaker: 增田顺一
   note: 此处指《宝可梦 X/Y》的标题含义，象征多元与共通。
+  role: answer
 - type: paragraph
   original: Otro de los puntos que quisimos tocar en X e Y es que cada uno puede tener muchos encuentros en la vida. Y que todos esos encuentros son una maravilla. Es realmente una suerte y una maravilla poder conocer a la gente que te encuentras. Si hubiera nacido 100 años atrás no las habrías podido conocer.
   translation: 我们在《X/Y》中想探讨的另一点是，每个人在生活中都会有很多相遇，而所有这些相遇都是奇妙的。能够认识你所遇到的人，真的是幸运和奇迹。如果你早出生100年，你就无法认识他们了。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: El mensaje es poder conocer al resto de personas y ser amable los unos a los otros. Esos son los mensajes que hay en Pokémon.
   translation: 信息就是能够认识其他人，并且彼此友善。这就是宝可梦中所包含的信息。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: ¿Es malo viciarse a videojuegos? (LOS NINTENDO DEL MAL!)
   translation: 沉迷电子游戏不好吗？（邪恶的任天堂！）
@@ -266,22 +303,27 @@ parallel_items:
   original: Esa es una pregunta difícil. ¿Que es lo que os gusta más comer?
   translation: 这是个很难回答的问题。你们最喜欢吃什么？
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: PIZZZAAAAAAAAAAAAAAAA
   translation: 披——萨————！
   speaker: Niños
+  role: answer
 - type: paragraph
   original: Pues imaginaros que todos los días, todos los días, por la mañana, en la cena, postres … siempre comierais pizza. Os sentaría mal, ¿verdad?
   translation: 那么想象一下，如果每天、每天，早餐、晚餐、甜点……总是吃披萨，你们会不舒服吧？
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: ¡Pero también comería pasteles!
   translation: 但我也会吃蛋糕！
   speaker: Un niño
+  role: answer
 - type: paragraph
   original: Imaginaros que solo comieran pizza. No os sentaría bien. O si os pasáis todo el día estudiando.
   translation: 想象一下你们只吃披萨。那不会舒服的。或者如果你们整天学习也是一样。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: '(Niños: YAY!)'
   translation: （孩子们：耶！）
@@ -289,88 +331,111 @@ parallel_items:
   original: 'Masuda : A mi también me lo parece. Por eso es importante hacer todo tipo de cosas, en su justa medida. También en videojuegos.'
   translation: 增田顺一：我也这么认为。所以，做各种各样的事情，并且适度，是很重要的。在电子游戏方面也是如此。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: Cuando se crea un juego, antes de que salga, ¿se prueba? Es sólo adultos o hay niños?
   translation: 在制作游戏时，在发售之前，会进行试玩吗？只有大人试玩，还是有孩子参与？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: '(¿Shigeru? ¿Masuda?) : Adultos. Hay muchos adultos probando y preparando el juego. Pero ningún niño. Cuando crezcáis ya podréis probar videojuegos antes de que salgan.'
   translation: （田尻智？增田顺一？）：是大人。有很多大人在试玩并准备游戏。但没有孩子。等你们长大了，就能在游戏发售前试玩了。
   speaker: 田尻智/增田顺一
   note: 原文说话人不明确，可能是田尻智或增田顺一。
+  role: answer
 - type: paragraph
   original: ( Niños awwwwww )
   translation: （孩子们：啊……）
 - type: paragraph
   original: ¿Cuántas personas están implicadas en la creación de un videojuego?
   translation: 制作一款电子游戏需要多少人参与？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : Pokemon X/Y, por ejemplo, tuvo un lanzamiento mundial simultáneo, en siete idiomas distintos. Hubo unas 500 personas implicadas.'
   translation: 增田顺一：以《宝可梦 X/Y》为例，它在全球同步发售，支持七种不同语言。大约有500人参与其中。
   speaker: 增田顺一
   note: 《宝可梦 X/Y》是第六世代游戏，首次实现全球同步发售。
+  role: answer
 - type: paragraph
   original: En esta ocasión con Omega Rubí y Zafiro Alfa hay también siete idiomas. Ha habido muchísima gente implicada. Cuando salga podréis elegir jugar en japonés.
   translation: 这次《欧米伽红宝石／阿尔法蓝宝石》也有七种语言。参与的人数非常多。等游戏发售时，你们可以选择用日语来玩。
   speaker: 增田顺一
   note: 《欧米伽红宝石／阿尔法蓝宝石》是《宝可梦 红宝石／蓝宝石》的重制版。
+  role: answer
 - type: paragraph
   original: '(Shigeru: Raugh)'
   translation: （田尻智：笑）
   speaker: 田尻智
   note: 原文为“Shigeru”，即田尻智，宝可梦系列创始人。
+  role: answer
 - type: paragraph
   original: 'Masuda : … o coreano o alguno de los otros idiomas.'
   translation: 增田顺一：……或者韩语，或者其他语言。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: Cuando creáis videojuegos, ¿cómo sabéis si lo que les gusta a los niños japoneses les gustará también a los niños de otros países?
   translation: 当你们制作电子游戏时，如何知道日本孩子喜欢的东西，其他国家的孩子也会喜欢呢？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Masuda : Los videojuegos son un tipo de actividad similar los deportes. Cuando era pequeño había deportes que se practicaban en Japón, y sabía que se jugaba en otros países. Es un elemento en común. Así que juegos que gustan en Japón pueden gustar en otros países.'
   translation: 增田顺一：电子游戏是一种类似于体育的活动。我小时候，有些运动在日本开展，我也知道其他国家也在玩。这是一种共同元素。所以，在日本受欢迎的游戏，在其他国家也可能受欢迎。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: Hay personajes cómo Pikachu donde chicos de todo el mundo querían un personaje «mono», y creamos algo intermedio que pudiera gustar a todo el mundo.
   translation: 像皮卡丘这样的角色，世界各地的孩子们都想要一个“可爱”的角色，我们创造了一个中间形态，能让所有人都喜欢。
   speaker: 增田顺一
   note: “mono”在西班牙语中意为“可爱”，此处指皮卡丘的设计理念。
+  role: answer
 - type: paragraph
   original: ¿Cuál es vuestro Pokémon favorito?
   translation: 你们最喜欢的宝可梦是什么？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: 'Niños: PIKACHUUUU'
   translation: 孩子们：皮卡丘——！
   speaker: 孩子们
+  role: answer
 - type: paragraph
   original: '(Rodaballo y otro de prensa de Areajugones) : ¡MUDKIP!'
   translation: （Rodaballo 和另一位 Areajugones 的媒体记者）：水跃鱼！
   speaker: Rodaballo（Areajugones 记者）
   note: Mudkip 官方译名为水跃鱼。
+  role: question
 - type: paragraph
   original: 'Masuda: Torchic'
   translation: 增田顺一：火稚鸡。
   speaker: 增田顺一
   note: Torchic 官方译名为火稚鸡。
+  role: answer
 - type: paragraph
   original: 'Masuda : Cuando salió Rubí y Zafiro éste era uno de los tres iniciales. Al ver ese pollito tipo fuego nos es familiar, en todos los países. Además salía en la introducción de X/Y.'
   translation: 增田顺一：在《红宝石／蓝宝石》发售时，它是三只初始宝可梦之一。看到这只火属性小鸡，我们在所有国家都会感到熟悉。而且它还出现在《X／Y》的开场动画中。
   speaker: 增田顺一
   note: Rubí y Zafiro 指《宝可梦 红宝石／蓝宝石》；X/Y 指《宝可梦 X／Y》。
+  role: answer
 - type: paragraph
   original: 'Shigeru : Groudon'
   translation: 杉森建：固拉多。
   speaker: 杉森建
   note: Groudon 官方译名为固拉多。
+  role: answer
 - type: paragraph
   original: 'Shigeru : A mi me gustan los Pokémon chulos e imponentes. Este ya tiene 12 años, pero en Omega Rubí y Alfa Zafiro se podrá ver su verdadera forma forma mediante la regresión primigenia ( a.k.a la preevolución supongo)'
   translation: 杉森建：我喜欢酷炫且威严的宝可梦。固拉多已经12岁了，但在《欧米伽红宝石／阿尔法蓝宝石》中，通过原始回归的样子可以看到它的真实形态（我想也就是所谓的原始形态）。
   speaker: 杉森建
   note: regresión primigenia 官方译名为原始回归的样子；Omega Rubí y Alfa Zafiro 指《宝可梦 欧米伽红宝石／阿尔法蓝宝石》。
+  role: answer
 - type: paragraph
   original: 'Masuda : Groudon por ejemplo se llama igual en todos todas las versiones idiomas. Es universal. Podemos estar viajando en varios países , y Pikachu se llama igual en todos lados.'
   translation: 增田顺一：例如固拉多，在所有语言版本中名字都一样。它是全球通用的。我们可以在不同国家旅行，而皮卡丘在世界各地名字都一样。
   speaker: 增田顺一
   note: Pikachu 官方译名为皮卡丘。
+  role: answer
 - type: paragraph
   original: ¿Podéis dibujarnos un Pokémon?
   translation: 你们能给我们画一只宝可梦吗？
@@ -386,6 +451,7 @@ parallel_items:
   translation: 增田顺一：好可爱，对吧？
   speaker: 增田顺一
   note: kawaii 为日语借词，意为可爱。
+  role: answer
 - type: paragraph
   original: (Oh OHHH ohh! Aplausos)
   translation: （哦——哦哦哦——！掌声）
@@ -401,6 +467,7 @@ parallel_items:
   original: 'Masuda : Muchas gracias por invitarnos y escucharnos. Nos hace mucha ilusión y nos motiva mucho. Muchas gracias.'
   translation: 增田顺一：非常感谢邀请我们并倾听我们。这让我们非常兴奋，也给了我们很大的动力。非常感谢。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: (apprause)
   translation: （掌声）
@@ -450,21 +517,25 @@ parallel_items:
   translation: Topofarmer · 2014年11月1日 12:59
   speaker: Topofarmer
   note: Topofarmer 为评论者用户名。
+  role: answer
 - type: paragraph
   original: Para la próxima generación un Pokémon panellet o uno paella, para acompañar al helado. Como si lo viera.
   translation: 下一代宝可梦应该出一个“面包球”或“海鲜饭”宝可梦，来搭配冰淇淋。我仿佛已经看到了。
   speaker: Topofarmer
   note: panellet 是加泰罗尼亚传统甜点，paella 是西班牙海鲜饭，均为西班牙特色食物。
+  role: answer
 - type: paragraph
   original: Me das envidia habiendo ido a este evento  buah)
   translation: 你能去这个活动真让我羡慕 唉)
   speaker: Topofarmer
   note: buah 为西班牙语感叹词，表示羡慕或感叹。
+  role: answer
 - type: paragraph
   original: rodaballo · 01/11/2014 a las 18:29
   translation: 罗达巴约 · 2014年11月1日 18:29
   speaker: rodaballo
   note: rodaballo 为作者笔名。
+  role: answer
 - type: paragraph
   original: 'O un Pokémon Casteller/Gaudí. Si es que lo veo.  :yaya:'
   translation: '或者一个叠人塔/高迪宝可梦。如果我真看到了的话。 :yaya:'

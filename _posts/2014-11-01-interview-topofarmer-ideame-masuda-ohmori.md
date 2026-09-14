@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录
 title_ja: Topo Gamer現地密着：増田順一氏・大森滋氏バルセロナiDÉAME Kids登壇 子どもたちと語るポケモン創作秘話
 date: 2014-11-01 10:00:00 +0900
@@ -24,6 +24,7 @@ parallel_items:
 - original: WHO’S THAT POKEMÓN?
   translation: 那是哪只宝可梦？
   speaker: 主持人 / 少年提问
+  role: question
 - type: image
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_02_2014-10-31-09.15.26_lzn-150x150.jpg
   alt: 2014-10-31 09.15.26_lzn
@@ -33,6 +34,7 @@ parallel_items:
 - original: Y un pescado se desplazó ahí para cubrirlo para Topofarmer. Tan elegante cómo se podía ser.  No os quejaréis, eh?
   translation: 一条鱼游到那里为 Topofarmer 进行报道。要多优雅有多优雅。你们可别抱怨哦，嗯？
   speaker: 主持人 / 少年提问
+  role: question
 - original: Poco antes de las 10:30 aparecía la comitiva del equipo de Nintendo al completo, discretamente, y les presentaban al personal del colegio Lestonnac en el interior.
   translation: 10:30 前不久，任天堂团队全体人员低调出现，并在内部被介绍给 Lestonnac 学校的工作人员。
 - type: image
@@ -86,61 +88,77 @@ parallel_items:
 - original: Cuando era niño me gustaba mucho montar en bicicleta. Y aparte de montarla también la personalizaba, la tuneaba.
   translation: 我小时候很喜欢骑自行车。除了骑，我还喜欢改装它，把它个性化。
   speaker: 增田顺一
+  role: answer
 - original: De niño me gustaba construir cosas. Cuando veía cartones por la calle (o casa) montaba casas de cartón, armaduras de cartón, etc.
   translation: 我小时候喜欢动手做东西。当我在街上（或家里）看到纸板时，就会搭纸板房子、做纸板盔甲等等。
   speaker: 大森滋
+  role: answer
 - original: 'De pequeño ya me gustaban mucho los videojuegos, y ya pensaba cómo mejorarlos, cómo serían más divertidos, etc. Aprendí a programar y al cabo de un tiempo surgió Pokémon. Shigeru: A mi en el colegio se me daban bien las matemáticas y ciencias y me centre en eso (estudiar).'
   translation: 我从小就很喜欢电子游戏，而且已经在思考怎么改进它们，怎么让它们更好玩等等。我学会了编程，过了一段时间，宝可梦就诞生了。 大森滋：我在学校数学和科学成绩不错，所以我就专注在这方面（学习）。
   speaker: 增田顺一
+  role: answer
 - original: A mi también me gustaban las matemáticas. Y cocinar. Incluso he hecho paella.
   translation: 我也喜欢数学。还有烹饪。我甚至做过海鲜饭。
   speaker: 增田顺一
+  role: answer
 - original: Un ejemplo, cómo veis en pantalla (unos starters había, generación ¿4? ¿5?) , es basarse en animales o plantas y dotarles de un elemento, cómo puede ser agua o fuego por ejemplo.
   translation: 举个例子，就像你们在屏幕上看到的（有几个初始宝可梦，第四代？第五代？），就是基于动物或植物，然后赋予它们一个属性，比如水或火。
   speaker: 增田顺一
+  role: answer
 - original: También cosas cercanas, cómo un vaso o un micrófono. Un ejemplo sería esta botella, que sería de tipo agua.
   translation: 也可以是身边的东西，比如一个杯子或一个麦克风。举个例子，这个瓶子，就可以是水属性的。
   speaker: 大森滋
+  role: answer
 - original: '*sugoi* Es la primera vez que vengo a Barcelona, y lo que más me ha llamado la atención son los edificios. Sobre todo los de Gaudí.'
   translation: '*好厉害* 这是我第一次来巴塞罗那，最让我印象深刻的是那些建筑。尤其是高迪的作品。'
   speaker: 大森滋
+  role: answer
 - original: Y la paella está buenísima…
   translation: 还有海鲜饭超好吃……
   speaker: 增田顺一
+  role: answer
 - original: (Aplausos)
   translation: （掌声）
 - original: … y los panellets.
   translation: ……还有潘妮托妮。
   speaker: 增田顺一
+  role: answer
 - original: (Aplaudiments)
   translation: （掌声）
 - original: 'Está el Graphic Designer, que hace las imágenes que veis (en el PowerPoint había ilustraciones de Pokémon). Luego está el Planner, que se encarga de hacer el plan: ¿el juego será más divertido si meto esto? ¿Y los combates? Luego el compositor, y  todo esto pasa a los programadores.'
   translation: 有平面设计师，负责你们看到的图像（PPT里有宝可梦的插图）。然后是策划，负责制定计划：如果我加入这个，游戏会更有趣吗？战斗呢？然后是作曲家，所有这些都会交给程序员。
   speaker: 增田顺一
+  role: answer
 - original: Me ha gustado mucho ver como reciben el manga (aquí en España). Sí.
   translation: 我非常高兴看到大家（在西班牙这里）如此喜爱这部漫画。是的。
   speaker: 大森滋
+  role: answer
 - original: En el equipo están cuatro profesiones (programador, compositor, planner, graphic artist). Se tienen que poner en común y trabajar juntos y eso es de las partes más divertidas de crear videojuegos. Cada uno aporta sus ideas al resto. Que seamos capaz de crear (juntos) algo que jueguen niños de todo el mundo es sensacional. Y tener la oportunidad de hacer este tipo de eventos y reunirnos con vosotros.
   translation: 团队里有四种职业（程序员、作曲家、策划、美术设计师）。他们必须齐心协力，共同合作，这也是制作游戏最有趣的部分之一。每个人都会把自己的想法分享给其他人。我们能够（一起）创造出全世界孩子们都能玩到的作品，这太棒了。而且有机会举办这样的活动，与你们相聚。
   speaker: 增田顺一
+  role: answer
 - original: (AWWWWWWW APLAUSE)
   translation: （啊啊啊啊啊啊掌声）
 - original: ¿Cuanto tiempo dedicáis a estudiar?
   translation: 你们花多长时间学习？
   speaker: 大森滋 / 增田顺一
+  role: answer
 - original: 'Niños : (poco) (muy poco) (nada)'
   translation: 孩子们：（一点点）（非常少）（没有）
   speaker: 西班牙少年听众
+  role: question
 - original: (Raugh. Sí, risilla suya. Raugh)
   translation: （笑声。是的，他轻笑了一声。哈哈）
 - original: En Japón (el controlar el tiempo de jugar) es igual. Los padres suelen permitir una hora por lo habitual. Mientras juegas vas pensando en cómo seguir disfrutando de ese juego más adelante. Y lo que también se hace es esforzarse más y estudiar más para que te permitan más horas de juego.
   translation: 在日本（控制游戏时间）也是一样的。父母通常允许玩一个小时。玩游戏的时候，你会想着以后怎么继续享受这个游戏。另外，大家也会更努力、更用功地学习，好让父母允许你多玩一会儿。
   speaker: 大森滋
+  role: answer
 - original: (Raugh – laugh)
   translation: （哈哈——笑声）
 - original: En Pokémon hay muchos mensajes, pero uno de los principales es que todo el mundo, todo el planeta, pudiera vivir en paz. Queremos crear juegos que saquen una sonrisa al ser jugados.
   translation: 宝可梦里有很多信息，但其中一个主要信息是，希望全世界、整个星球都能和平共处。我们想创造能让人在玩的时候露出笑容的游戏。
   speaker: 增田顺一
+  role: answer
 - original: Por ejemplo, en Pokémon X e Y eran los ejes X e Y que simbolizaban que existen distintas personas y opiniones. Pero que también existen puntos en común. Por ejemplo el hecho de poder darte cuenta de que comparten muchas cosas con otros seres. Tú tienes dos ojos, un caballo también tiene dos ojos, una vaca tiene dos ojos…
   translation: 比如，在《宝可梦 X／Y》中，X轴和Y轴象征着存在不同的人和观点。但也有共同点。比如，你能意识到自己和其他生命有很多共同之处。你有两只眼睛，马也有两只眼睛，牛也有两只眼睛……
 - original: Otro de los puntos que quisimos tocar en X e Y es que cada uno puede tener muchos encuentros en la vida. Y que todos esos encuentros son una maravilla. Es realmente una suerte y una maravilla poder conocer a la gente que te encuentras. Si hubiera nacido 100 años atrás no las habrías podido conocer.
@@ -150,54 +168,69 @@ parallel_items:
 - original: Esa es una pregunta difícil. ¿Que es lo que os gusta más comer?
   translation: 这个问题很难回答。你们最喜欢吃什么？
   speaker: 增田顺一
+  role: answer
 - original: 'Niños: PIZZZAAAAAAAAAAAAAAAA'
   translation: 孩子们：披萨啊啊啊啊啊啊啊啊
   speaker: 西班牙少年听众
+  role: question
 - original: Pues imaginaros que todos los días, todos los días, por la mañana, en la cena, postres … siempre comierais pizza. Os sentaría mal, ¿verdad?
   translation: 那么想象一下，如果每天、每天，早上、晚餐、甜点……总是吃披萨。你会不舒服的，对吧？
   speaker: 增田顺一
+  role: answer
 - original: 'Un niño: ¡Pero también comería pasteles!'
   translation: 一个小朋友：但我也会吃蛋糕！
   speaker: 西班牙少年听众
+  role: question
 - original: Imaginaros que solo comieran pizza. No os sentaría bien. O si os pasáis todo el día estudiando.
   translation: 想象一下如果只吃披萨。你会不舒服的。或者如果你整天都在学习。
   speaker: 增田顺一
+  role: answer
 - original: '(Niños: YAY!)'
   translation: 耶！
   speaker: 现场孩子们
+  role: answer
 - original: A mi también me lo parece. Por eso es importante hacer todo tipo de cosas, en su justa medida. También en videojuegos.
   translation: 我也这么认为。所以重要的是做各种各样的事情，适度就好。在电子游戏中也是如此。
   speaker: 增田顺一
+  role: answer
 - original: '(¿Shigeru? ¿Masuda?): Adultos. Hay muchos adultos probando y preparando el juego. Pero ningún niño. Cuando crezcáis ya podréis probar videojuegos antes de que salgan.'
   translation: 成年人。有很多成年人在测试和准备游戏。但没有孩子。等你们长大了，就可以在游戏发售前试玩了。
   speaker: 大森滋
+  role: answer
 - original: (Niños awwwwww)
   translation: 噢……
   speaker: 现场孩子们
+  role: answer
 - original: Pokemon X/Y, por ejemplo, tuvo un lanzamiento mundial simultáneo, en siete idiomas distintos. Hubo unas 500 personas implicadas.
   translation: 例如，《宝可梦 X／Y》在全球同步发售，有七种不同的语言。大约有500人参与。
   speaker: 增田顺一
+  role: answer
 - original: En esta ocasión con Omega Rubí y Zafiro Alfa hay también siete idiomas. Ha habido muchísima gente implicada. Cuando salga podréis elegir jugar en japonés.
   translation: 这次《欧米伽红宝石／阿尔法蓝宝石》也有七种语言。有很多人参与。当它发售时，你们可以选择用日语玩。
 - original: '(Shigeru: Raugh)'
   translation: （笑）
   speaker: 大森滋
+  role: answer
 - original: … o coreano o alguno de los otros idiomas.
   translation: ……或者韩语或其他语言。
   speaker: 增田顺一
+  role: answer
 - original: Los videojuegos son un tipo de actividad similar los deportes. Cuando era pequeño había deportes que se practicaban en Japón, y sabía que se jugaba en otros países. Es un elemento en común. Así que juegos que gustan en Japón pueden gustar en otros países.
   translation: 电子游戏和体育运动是类似的活动。我小时候，有些运动在日本很流行，我知道在其他国家也有人玩。这是一个共同点。所以在日本受欢迎的游戏在其他国家也可能受欢迎。
   speaker: 增田顺一
+  role: answer
 - original: Hay personajes cómo Pikachu donde chicos de todo el mundo querían un personaje «mono», y creamos algo intermedio que pudiera gustar a todo el mundo.
   translation: 有些角色像皮卡丘，全世界的小朋友都想要一个‘可爱’的角色，我们创造了一个中间值，让全世界都能喜欢。
 - original: 'Niños: PIKACHUUUU'
   translation: 孩子们：皮卡丘——！
   speaker: 西班牙少年听众
+  role: question
 - original: '(Rodaballo y otro de prensa de Areajugones): ¡MUDKIP!'
   translation: （Rodaballo和Areajugones的另一位记者）：水跃鱼！
 - original: Torchic
   translation: 火稚鸡
   speaker: 增田顺一
+  role: answer
 - type: image
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_08_250px-255Torchic.png
   alt: 250px-255Torchic
@@ -205,9 +238,11 @@ parallel_items:
 - original: Cuando salió Rubí y Zafiro éste era uno de los tres iniciales. Al ver ese pollito tipo fuego nos es familiar, en todos los países. Además salía en la introducción de X/Y.
   translation: 当《红宝石／蓝宝石》发售时，它就是三个初始宝可梦之一。看到这只火属性的小鸡，我们感到很亲切，在所有国家都是如此。而且它还出现在《X／Y》的开场中。
   speaker: 增田顺一
+  role: answer
 - original: Groudon
   translation: 固拉多（Groudon）
   speaker: 大森滋
+  role: answer
 - type: image
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_09_250px-383Groudon.png
   alt: 250px-383Groudon
@@ -215,9 +250,11 @@ parallel_items:
 - original: A mi me gustan los Pokémon chulos e imponentes. Este ya tiene 12 años, pero en Omega Rubí y Alfa Zafiro se podrá ver su verdadera forma forma mediante la regresión primigenia (a.k.a la preevolución supongo)
   translation: 我喜欢帅气又威武的宝可梦。这只已经有12年了，但在《欧米伽红宝石／阿尔法蓝宝石》中，通过原始回归（也就是原始进化，我猜）可以看到它的真正形态。
   speaker: 大森滋
+  role: answer
 - original: Groudon por ejemplo se llama igual en todos todas las versiones idiomas. Es universal. Podemos estar viajando en varios países , y Pikachu se llama igual en todos lados.
   translation: 比如固拉多在所有版本和语言中名字都一样。它是全球通用的。我们可以去各个国家旅行，而皮卡丘在所有地方都叫同一个名字。
   speaker: 增田顺一
+  role: answer
 - original: (Shigeru, y más tarde cuatro estudiantes del centro suben al escenario)
   translation: （茂，以及随后四名中心的学生上台）
 - type: image
@@ -233,6 +270,7 @@ parallel_items:
 - original: Qué kawaii, ¿no?
   translation: 好可爱，对吧？
   speaker: 增田顺一
+  role: answer
 - original: (Oh OHHH ohh! Aplausos)
   translation: （哦哦哦哦！掌声）
 - original: (Les regalan a los niños que han dibujado productos de japón. Y les firman autógrafos. Los niños se revolucionan.) ヽ༼ຈل͜ຈ༽ﾉ RIOT ヽ༼ຈل͜ຈ༽ﾉ
@@ -240,6 +278,7 @@ parallel_items:
 - original: Muchas gracias por invitarnos y escucharnos. Nos hace mucha ilusión y nos motiva mucho. Muchas gracias.
   translation: 非常感谢邀请我们并聆听我们。我们非常激动，也备受鼓舞。非常感谢。
   speaker: 增田顺一
+  role: answer
 - original: (apprause)
   translation: （掌声）
 - original: (El director del centro Lestonnac les hace entrega de un anuario de la escuela y Barcelona)

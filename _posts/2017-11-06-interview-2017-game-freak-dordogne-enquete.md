@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材'
 date: '2017-11-06'
 toc: true
@@ -99,16 +99,19 @@ parallel_items:
   original: 'Junichi Masuda : compositeur, programmeur, directeur de rubis jusque XY.'
   translation: 增田顺一：作曲家、程序员，从《红宝石》到《X/Y》的导演。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: 'Shigeru Ohmori : designer puis directeur sur ROSA ainsi que Sun/Moon.'
   translation: 大森滋：在《欧米伽红宝石／阿尔法蓝宝石》以及《太阳／月亮》中担任设计师，随后担任总监。
   note: ROSA 指《宝可梦欧米伽红宝石／阿尔法蓝宝石》（Pokémon Omega Ruby and Alpha Sapphire）。
   speaker: 大森滋
+  role: answer
 - type: paragraph
   original: 'Iwao Kazumasa : designer, système de combat puis directeur des Jeux USUL.'
   translation: 岩尾和昌：设计师，负责战斗系统，随后担任《究极之日／究极之月》的总监。
   note: USUL 指《宝可梦究极之日／究极之月》（Pokémon Ultra Sun and Ultra Moon）。
   speaker: 岩尾和昌
+  role: answer
 - type: paragraph
   original: Pas besoin de les présenter. On retrouve les trois derniers directeurs en date des jeux de série principale.
   translation: 无需介绍。这里汇集了主系列游戏最近的三位总监。
@@ -130,6 +133,7 @@ parallel_items:
   original: 'Takao Unno : designer, illustrateur, directeur artistique.'
   translation: 海野隆雄：设计师、插画师、艺术总监。
   speaker: 海野隆雄
+  role: answer
 - type: paragraph
   original: On retrouve des gens aux compétences variées, probablement là pour prendre des croquis, s'inspirer pour l'anime et les jeux à venir.
   translation: 这里汇集了各种技能的人才，他们可能来此采风，为未来的动画和游戏汲取灵感。
@@ -167,33 +171,40 @@ parallel_items:
   translation: 我在拉斯科四号洞穴！图片链接：twitter.com/VqpWUl0Vkd
   speaker: 增田顺一
   note: 增田顺一（Junichi Masuda）是 GAME FREAK 的游戏总监，此处为他的推文。
+  role: answer
 - type: paragraph
   original: å¢-ç"°é †一@GAME FREAK inc. (@Junichi_Masuda) 27 octobre 2017
   translation: 增田顺一 @GAME FREAK inc. (@Junichi_Masuda) 2017年10月27日
   speaker: 增田顺一
   note: 此为推文日期，原文为乱码，根据上下文推断为增田顺一的账号。
+  role: answer
 - type: paragraph
   original: Grotte de Rouffignac ...
   translation: 鲁菲尼亚克洞穴……
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: Cet endroit est très merveilleux !
   translation: 这个地方太奇妙了！
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: This place is very wonderful!
   translation: 这个地方非常美妙！
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: "ã\x81\"ã\x81\"ã\x81¯ã\x81¨ã\x81¦ã''ç´ 晴ã'‰ã\x81-ã\x81\"ï1/4\x81 #Périgord #France pic.twitter.com/iZeY21Zgnr"
   translation: '这里非常晴朗！#佩里戈尔 #法国 图片链接：twitter.com/iZeY21Zgnr'
   speaker: 增田顺一
   note: 原文为乱码，根据上下文和标签推断为日语，意为“这里非常晴朗”。
+  role: answer
 - type: paragraph
   original: å¢-ç"°é †一@GAME FREAK inc. (@Junichi_Masuda) 28 octobre 2017
   translation: 增田顺一 @GAME FREAK inc. (@Junichi_Masuda) 2017年10月28日
   speaker: 增田顺一
   note: 此为推文日期，原文为乱码。
+  role: answer
 - type: paragraph
   original: Y'a comme un air de déjà-vu.
   translation: 有一种似曾相识的感觉。
@@ -202,6 +213,7 @@ parallel_items:
   translation: 在10月31日的一条推文中，大森茂很好地总结了他们此行的目的：“这是一次以法国洞穴壁画艺术为中心的旅行。我们在拉斯科、孔巴海尔、鲁菲尼亚克、丰德戈姆等地发现了独特的洞穴壁画。”
   speaker: 大森滋
   note: 大森茂（Shigeru Ohmori）是 GAME FREAK 的游戏总监，曾担任《宝可梦 太阳／月亮》等作品的导演。
+  role: answer
 - type: paragraph
   original: Conception et discrétion
   translation: 设计与保密
@@ -230,6 +242,7 @@ parallel_items:
   translation: “增田顺一先生于去年10月26日来到拉斯科二号遗址参观。他确实和一个小团队一起来，但没有人向我介绍他们。他们随后继续前往遗址入口，准备几分钟后开始的预定参观。他（增田）向我坦言喜欢多尔多涅地区，并且多年来一直想参观拉斯科遗址。他们没有提出任何要求，也没有得到任何特殊照顾。预订是由他们下榻的酒店完成的。”
   speaker: Mathieu
   note: 拉斯科二号（Lascaux 2）是拉斯科洞穴的复制品，供游客参观。多尔多涅（Dordogne）是法国的一个地区，以史前洞穴艺术闻名。
+  role: answer
 - type: paragraph
   original: À cela, s'ajoutent les propos du patron de l'hôtel de Bouilhac. " Ce sont des personnes très discrètes. Épicuriens dans l'âme. Nous avons surtout parlé de gastronomie, de foie gras. Pas de leurs projets. "
   translation: 此外，布亚克（Bouilhac）酒店的老板也补充道：“他们是非常低调的人，骨子里是享乐主义者。我们主要谈论了美食和鹅肝，没有谈及他们的计划。”
@@ -279,36 +292,43 @@ parallel_items:
   translation: '"小无赖，这简直是丑闻"——帕沃什科夫人'
   speaker: Mme Pavoshko
   note: 此处为引用某位夫人的话，可能为网络评论或虚构人物，无特定背景。
+  role: answer
 - type: paragraph
   original: J'admire le travail de recherches, bravo. Je rejoins ton avis. Je ne pense pas que le sud de la France soit le cadre d'une future version, mais plutôt qu'ils s'inspirent de quelques aspects culturels qui les intéressent. Pourquoi pas une version avec des voyages temporels qui nous permettrait de voyager entre les époques? On l'a bien fait avec les dimensions (Ultra brèches, Monde distorsion...), ce ne serait que la prochaine étape.
   translation: 我钦佩你的研究工作，太棒了。我同意你的看法。我不认为法国南部会成为未来版本的舞台，而是他们会从感兴趣的文化方面汲取灵感。为什么不做一个有时间旅行的版本，让我们能在不同时代之间穿梭呢？我们已经用维度（究极之洞、毁坏的世界……）做到了，这将是下一步。
   speaker: Nicoblood
   note: Ultra brèches 指究极之洞，Monde distorsion 指毁坏的世界。
+  role: answer
 - type: paragraph
   original: Article très intéressant et très bien écrit !! Ça c'est du Pokemon Trash comme on l'aime :))
   translation: 文章非常有趣，写得很好！！这就是我们喜欢的宝可梦垃圾（笑）
   speaker: milo
   note: Pokemon Trash 可能指一种幽默或自嘲的说法，指对宝可梦的狂热或吐槽。
+  role: answer
 - type: paragraph
   original: Moi je dis Kanto par ce qu'il y a pleins de références à Kanto dans le dernier Pokémon, allez, je dab sur ton travail de recherche
   translation: 我猜是关都，因为最新的宝可梦中有很多对关都的引用，来吧，我为你的研究点赞。
   speaker: Rokumad
   note: Kanto 指关都地区。
+  role: answer
 - type: paragraph
   original: misako c'est pas la mère de lloyd dans ninjago ?
   translation: 美沙子不是忍者神龟里劳埃德的妈妈吗？
   speaker: Bafouillafripouille
   note: 此处提到美沙子（Misako）可能是忍者神龟（Ninjago）中的角色，但原文为 ninjago，可能指乐高幻影忍者。
+  role: answer
 - type: paragraph
   original: Si on reste dans le principe du voyage inter-dimensionnel je pencherai plus sur un jeu avec plusieurs régions. Et pourquoi pas une nouvelle génération sur une région existante ? Sinnoh par exemple et es nombreuses histoires anciennes nous emmèneraient voyager dans le temps à travers les époques (c'est lépop..... ) je vais trop loin xD Mais bon je délire un peu sur ce genre de scénario.
   translation: 如果我们坚持跨维度旅行的原则，我更倾向于一个包含多个地区的游戏。为什么不在现有地区上推出新世代呢？比如神奥地区，许多古老的故事会带我们穿越时空（这是史诗……）我想得太远了 xD 不过我对这种剧情有点着迷。
   speaker: Nosika
   note: Sinnoh 指神奥地区；'c'est lépop.....' 可能是 'c'est l'épopée' 的缩写，意为史诗。
+  role: answer
 - type: paragraph
   original: GG pour le taff ! Je mise sur une nouvelle région avec kalos en fin de jeu
   translation: 干得好！我打赌会有一个新地区，并在游戏后期加入卡洛斯。
   speaker: Pananero
   note: Kalos 指卡洛斯地区。
+  role: answer
 - type: paragraph
   original: Bel article
   translation: 好文章
@@ -319,48 +339,58 @@ parallel_items:
   original: Kazugaya
   translation: Kazugaya
   speaker: Kazugaya
+  role: answer
 - type: paragraph
   original: La signature sous celle de Masuda c'est bien Sawada Misako 沢田美沙子. Mais Kenji je le vois nulle part...
   translation: 增田下面的签名确实是泽田美沙子（沢田美沙子）。但健二我哪里都没看到……
   speaker: Kazugaya
   note: 增田指增田顺一，宝可梦系列游戏制作人。
+  role: answer
 - type: paragraph
   original: Randomeuf
   translation: Randomeuf
   speaker: Randomeuf
+  role: answer
 - type: paragraph
   original: Super article ! Honnêtement, avec l'intérêt que l'équipe de GF porte pour l'art pariétal, je ne peux m'empêcher de faire un lien avec Sinnoh. Préhistoire, histoire, Sinnoh. Région très imprégnée d'histoire et archéologie. Après, ce n'est qu'une intuition, parce que c'est aussi le cas de Kalos. (1/2)
   translation: 超棒的文章！说实话，鉴于GF团队对洞穴壁画艺术的兴趣，我不禁联想到神奥地区。史前、历史、神奥。一个充满历史与考古气息的地区。当然，这只是我的直觉，因为卡洛斯地区也是如此。(1/2)
   speaker: Randomeuf
   note: GF指Game Freak，宝可梦游戏开发商。
+  role: answer
 - type: paragraph
   original: Néanmoins, l'idée d'un jeu se déroulant à Sinnoh sans forcément reprendre les événements et le contexte de DPP, dans le passé par exemple, est à mon sens tout à fait bandante (surtout que la sortie concorderait avec l'attente d'un "remake" 4G). Simple fantasme de fan ou hypothèse plausible ? On verra bien ! (2/2)
   translation: 不过，我认为一个以神奥为背景、但不一定沿用《钻石/珍珠/白金》的事件和背景的游戏，比如设定在过去，这个想法相当令人兴奋（尤其是考虑到发售时间与玩家对第四世代“重制版”的期待相吻合）。这究竟是粉丝的单纯幻想，还是合理的假设？我们拭目以待！(2/2)
   speaker: Randomeuf
   note: DPP指《宝可梦 钻石/珍珠/白金》，第四世代游戏。
+  role: answer
 - type: paragraph
   original: c'est vrai qu'un pokemon la bas avec des grotte a parcourir sa serait cool
   translation: 确实，在那里玩宝可梦，探索洞穴，那会很酷。
   speaker: le gamer
+  role: answer
 - type: paragraph
   original: Goupelin t'es notre héros, un genre de Colombo des temps modernes. Sinon il me semble avoir vu des espèces de pokeballs antiques dans l'anime...
   translation: 妖火红狐你是我们的英雄，有点像现代版的科伦坡。另外，我好像在看动画时见过某种古代精灵球……
   speaker: Ritsuki
   note: Goupelin是用户昵称，此处指该用户。Colombo指《神探可伦坡》中的主角。
+  role: answer
 - type: paragraph
   original: Bah avant les pokeballs on utilisais des noigrumes non ?
   translation: 呃，在精灵球之前，我们不是用球果果吗？
   speaker: Loana
   note: Noigrumes是球果果，宝可梦世界中的一种果实，用于制作精灵球。
+  role: answer
 - type: paragraph
   original: Du coup, même si je ne nie pas l'existence des noigrumes, ne serait-il pas uchronique d'avoir accès à la dématérialisation du Pokémon à l'état d'énergie, quand l'action se déroule dans le passé ? 3/3
   translation: 因此，即使我不否认球果果的存在，但当故事发生在过去时，能够将宝可梦转化为能量状态并存储，这难道不是一种时代错乱吗？3/3
   speaker: Goupelin
   note: uchronique指时代错乱，即历史虚构。
+  role: answer
 - type: paragraph
   original: Goupelin
   translation: Goupelin
   speaker: Goupelin
+  role: answer
 - type: paragraph
   original: Il faut se rendre compte que c'est une technologie ambitieuse qui existe seulement dans le monde alternatif des monstres de poche (imaginez si on avait accès à une technologie similaire ! des millions de personnes verraient leur vie changer et l'économie serait bouleversée). 2/3
   translation: 必须认识到，这是一项雄心勃勃的技术，只存在于宝可梦的平行世界中（想象一下，如果我们也能使用类似的技术！数百万人的生活将发生改变，经济也将被颠覆）。2/3
@@ -369,6 +399,7 @@ parallel_items:
   translation: 妖火红狐
   speaker: Goupelin
   note: Goupelin 是宝可梦妖火红狐的法文名。
+  role: answer
 - type: paragraph
   original: Merci pour le feedback positif, les gars :). @Loana Pokémon devait au tout début s'appeler "Capsule Monsters". Toute l'équation de cet univers repose en effet sur le système de dématérialisation en capsule, inspiré de Dragon Ball (capsule corp.). 1/3
   translation: 感谢大家的积极反馈 :) @Loana 宝可梦最初本应叫做“胶囊怪兽”。这个世界的整个设定确实基于胶囊化的物质传输系统，灵感来自《龙珠》中的万能胶囊。1/3
@@ -377,81 +408,98 @@ parallel_items:
   translation: Pride
   speaker: Pride
   note: 此处为用户名，保留原文。
+  role: answer
 - type: paragraph
   original: 'Yo d''habitude je ne commente jamais les news, mais là il fallait quand même que je le dise: cet article est surpuissant. T''es un tueur gars'
   translation: 哟，我平时从不评论新闻，但这次我必须要说：这篇文章太强了。你真是个狠人，哥们。
   speaker: Pride
+  role: answer
 - type: paragraph
   original: Alpha-Aquilae
   translation: Alpha-Aquilae
   speaker: Alpha-Aquilae
   note: 此处为用户名，保留原文。
+  role: answer
 - type: paragraph
   original: On voit que leur resto est un truc de riches, tout ce qu'il y a sur le menu a l'air dégueulasse. Même le fondant au chocolat est foiré avec cette super idée d'avoir foutu des carottes.
   translation: 看得出他们的餐厅是有钱人的玩意儿，菜单上的东西看起来都很难吃。连巧克力熔岩蛋糕都因为加了胡萝卜这个“好主意”而毁了。
   speaker: Alpha-Aquilae
+  role: answer
 - type: paragraph
   original: c0mpu73rguy
   translation: c0mpu73rguy
   speaker: c0mpu73rguy
   note: 此处为用户名，保留原文。
+  role: answer
 - type: paragraph
   original: Purée, on se refuse rien chez Game Freak ma parole! C'était un gastronomique ce resto. J'applaudis tout de même le travail de recherche, tu es allé loin. Même s'il y a beaucoup trop de suppositions là dedans, (mauvaise foi - ON) si ça se trouve ce sont juste les peintures qui les intéressait, pour les utiliser ailleurs. Genre dans les cavernes du remake de la 4G.
   translation: 天哪，Game Freak 真是啥都敢干！这家餐厅可是米其林级别的。不过我还是很佩服你的调查工作，你走得很远。尽管这里面有太多猜测，（恶意 - 开启）也许他们只是对画作感兴趣，想用在别的地方，比如第四世代重制版的洞穴里。
   speaker: c0mpu73rguy
   note: 4G 指第四世代（神奥地区），此处可能指《宝可梦 晶灿钻石／明亮珍珠》的重制。
+  role: answer
 - type: paragraph
   original: '@c0mpu73rguy: un voyage qui aura surement couté un chèque à 6 chiffres, ça parait un peu light pour juste regarder des peintures, surtout quand tu sais qu''elles sont en photos sur internet.'
   translation: '@c0mpu73rguy: 这趟旅行肯定花了六位数的支票，只为看画似乎有点轻率，尤其是你知道网上有这些画的照片。'
   speaker: Alpha-Aquilae
+  role: answer
 - type: paragraph
   original: Bah, c'est ce que je me disais en plus, ils sont dépensiers chez GF ma parole... Dépenser une somme pareille pour regarder des peintures dans des grottes. (Mauvaise foi - OFF) Sinon, trop mignon le pikachu sur la carte.
   translation: 嗯，我也这么想，Game Freak 真是花钱大手大脚……花那么多钱去看洞穴里的画。（恶意 - 关闭）话说回来，地图上的皮卡丘太可爱了。
   speaker: c0mpu73rguy
+  role: answer
 - type: paragraph
   original: Après, c'est surement couvert directement par TPCi, et pas par GF, et vu le fric que la licence rapporte, j'imagine que c'est pas ça qui va amputer le budget du jeu pour lequel ils auraient fait le voyage.
   translation: 不过，这很可能直接由 TPCi 承担，而不是 Game Freak，而且考虑到这个 IP 带来的收入，我想这不会削减他们为旅行所做游戏的预算。
   speaker: Alpha-Aquilae
   note: TPCi 指 The Pokémon Company International，负责宝可梦品牌国际运营。
+  role: answer
 - type: paragraph
   original: je pense que se ne sera pas que en Dordogne et que sa va s'étendre sur le sud ouest Bordeaux Toulouse Biarritz
   translation: 我认为这不仅仅局限于多尔多涅，还会扩展到西南部的波尔多、图卢兹、比亚里茨。
   speaker: RamSo
   note: 多尔多涅是法国西南部的一个地区，以史前壁画闻名。
+  role: answer
 - type: paragraph
   original: Je penche plus du côté de c0mpu73rguy pour la théorie. Ca me semble un peu léger une zone inspirée du sud de la France, juste en regardant des peintures murales. C'est pas que ça, le sud de la France quand même. Reste à savoir si ce sera pour de la 4G ou pour une potentiel 8G sur switch.
   translation: 我更倾向于c0mpu73rguy的理论。仅仅通过看壁画就认为灵感来自法国南部，这似乎有点牵强。法国南部可不仅仅只有这些。还需确认这是否适用于第四代重制，还是可能为Switch上的第八代游戏。
   speaker: Suemaya
   note: 4G可能指第四世代游戏（神奥地区），8G指第八世代。
+  role: answer
 - type: paragraph
   original: Ah, je n'avals pas vu que Fildrong faisait déjà un direct déçu...
   translation: 啊，我没注意到Fildrong已经对直面会感到失望了……
   speaker: K1ki
   note: Direct指宝可梦直面会（Pokémon Direct）。
+  role: answer
 - type: paragraph
   original: Quels leaks, ils sont officiel et tout comme ceux sortis avant Soleil et Lune où on voyait tous des pokemon ?
   translation: 什么泄露？它们是官方的，就像《太阳／月亮》发售前那些展示宝可梦的泄露一样吗？
   speaker: mecinutile
   note: Soleil et Lune指《宝可梦 太阳／月亮》。
+  role: answer
 - type: paragraph
   original: sur la fin de ton article, tu parles d'un jeu dans le passé, imaginons le concept pour un jeu sur switch, grâce à la capacité d'un légendaire, on voyage dans le temps pour contrer une méchante team, et donc visister des lieux à des époques différentes, avec des formes différentes etc..... quant aux pokéballs, cette solution de voyage temporel règle le problème car tu reviendrais dans le présent pour faire le stock
   translation: 在你文章的最后，你谈到了一个设定在过去的游戏。想象一下Switch上游戏的概念：借助某只传说的宝可梦的能力，我们穿越时空去对抗邪恶组织，从而访问不同时代的场景，看到不同的形态等等……至于精灵球，这种时间旅行解决方案解决了问题，因为你可以回到现在来补充库存。
   speaker: thalkwenda
+  role: answer
 - type: paragraph
   original: thalkwenda Et ils ont la technologie pour ça comme vu en Gen 2 avec la machine temporelle. J'avoue, le concept me plaît. Mais à ce moment là, la zone de jeu devra être plus petite pour pouvoir axer l'aventure sur le voyage dans le temps plus que le voyage tout court.
   translation: thalkwenda 而且他们有这种技术，就像第二世代中的时间机器那样。我承认，这个概念我很喜欢。但那样的话，游戏区域必须更小，以便将冒险重点放在时间旅行上，而不是单纯的空间旅行。
   speaker: c0mpu73rguy
   note: Gen 2指第二世代游戏，其中宝可梦中心有“时间胶囊”功能，可跨世代交换宝可梦。
+  role: answer
 - type: paragraph
   original: Tiens, Masuda a aussi été en Espagne récemment. Et vu les indices présents dans SoLu, notamment les tapus représentant chacun des régions déjà visitées sauf Tokotoro qui rappelle fortement les régions hispaniques, et l'oiseau d'Ula-Ula représentant le flammenco... Pensez pas qu'il faudrait plutôt regarder dans cette direction?
   translation: 话说，增田最近也去了西班牙。鉴于《太阳／月亮》中出现的线索，尤其是代表已访问地区的守护神们，除了卡璞・哞哞强烈让人联想到西班牙地区，还有乌拉乌拉岛的鸟代表弗拉门戈……你们不觉得应该朝这个方向看吗？
   speaker: c0mpu73rguy
   note: Masuda指增田顺一，宝可梦系列游戏总监。SoLu指《宝可梦 太阳／月亮》。Tokotoro是卡璞・哞哞的法语名。Ula-Ula是乌拉乌拉岛。
+  role: answer
 - type: paragraph
   original: '+1130000'
   translation: '+1130000'
   speaker: '+1130000'
   note: 可能是点赞数或用户ID，保留原文。
+  role: answer
 - type: paragraph
   original: '+86600'
   translation: '+86600'

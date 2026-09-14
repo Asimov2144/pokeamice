@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: “为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋
 original_title: “Crear algo que todos los niños aman, abruma”
 interview_id: PKMN-0002

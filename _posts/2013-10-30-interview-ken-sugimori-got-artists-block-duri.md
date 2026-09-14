@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] Ken Sugimori got ''artist''s block'' during Pokemon X and Y development'
 date: '2013-10-30'
 toc: true
@@ -58,6 +58,7 @@ parallel_items:
   original: Ken Sugimori got 'artist's block' during Pokemon X and Y development
   translation: 杉森建在《宝可梦 X/Y》开发期间遭遇“创作瓶颈”
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: Pokemon artist found it difficult to create Xerneas and Yveltal
   translation: 宝可梦画师坦言创作哲尔尼亚斯和伊裴尔塔尔困难重重
@@ -73,19 +74,24 @@ parallel_items:
   translation: “我负责设计这两只（哲尔尼亚斯和伊裴尔塔尔），但过程中完全陷入了困境，”杉森建承认。“所以我把任务交给（同事画师大村祐辅）一段时间，等他取得一些进展后，我再接手完成。所以它们是团队合作的成果。多年来我设计过许多传说宝可梦，但不知为何，这次的概念构思特别困难。这是我第一次不得不借助他人来摆脱创作瓶颈，因此就这一点而言，这两只绝对是这个项目中我印象最深刻的宝可梦。”
   speaker: 杉森建
   note: 大村祐辅（Yusuke Ohmura）是 Game Freak 的画师，曾参与多款宝可梦游戏的设计。
+  role: answer
 - type: paragraph
   original: Sugimori added that the flagship Fairy Pokemon Sylveon had also been designed by another Game Freak artist. "Sylveon was by [designer] Atsuko Nishida," Sugimori added. "Generally speaking, with the straight-on cute Pokemon like that, you can leave those to Nishida and you'll never go wrong that way. What you see in the game is pretty much exactly what she submitted to me; I gave it the OK immediately. I think Nishida definitely has a thing for Eevee in general, so this is a design that's already gone through several iterations in her mind, I'm sure!"
   translation: 杉森建还补充说，招牌妖精属性宝可梦仙子伊布也是由另一位 Game Freak 画师设计的。“仙子伊布是由（设计师）西田敦子设计的，”杉森建补充道。“一般来说，像这种正面直击的可爱宝可梦，交给西田准没错。你在游戏中看到的基本就是她提交给我的原稿；我立刻就批准了。我觉得西田对伊布这个家族肯定情有独钟，所以这个设计在她脑海中肯定已经经过多次迭代了！”
   speaker: 杉森建
   note: 西田敦子（Atsuko Nishida）是 Game Freak 的画师，也是皮卡丘和伊布的设计者。
+  role: answer
 - type: paragraph
   original: What do you think of the new Pokemon in Pokemon X and Y?
   translation: 你对《宝可梦 X/Y》中的新宝可梦有何看法？
+  role: question
+  speaker: 提问
 - type: paragraph
   original: Thomas East
   translation: 托马斯·伊斯特
   speaker: Thomas East
   note: 作者姓名。
+  role: answer
 - type: paragraph
   original: Online Editor
   translation: 在线编辑

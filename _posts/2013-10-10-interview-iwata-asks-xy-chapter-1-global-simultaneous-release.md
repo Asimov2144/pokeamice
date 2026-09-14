@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）'
 original_title: うごく社長が訊く『ポケットモンスター Ｘ・Ｙ』1. シリーズ初の世界同時発売
 date: '2013-10-10'
@@ -54,143 +54,170 @@ parallel_items:
   original: みなさん、こんにちは。任天堂の岩田です。先日、「Pokémon Direct 2013.9.4」を放映しましたが、その収録の際に、プロデューサーの石原さんとディレクターの増田さんは、『ポケットモンスター Ｘ・Ｙ』の新しい魅力について、「Pokémon Direct」でお伝えしたほかにも、たくさんのとても興味深い話をしてくれました。そこで今回は、いつもの「社長が訊く」とちょっと趣向を変えて、「Pokémon Direct」のなかで紹介しきれなかった内容について、ときおりインタビューの映像を交えつつ再編集し、「うごく社長が訊く」としてご紹介することにいたしました。「社長が訊く」も気がつけば、２００回以上続けてきましたが、記事と映像を組み合わせる新しい試みとして、ご覧いただければと思います。よろしくお願いいたします。
   translation: 大家好，我是任天堂的岩田。前几天，我们播出了「Pokémon Direct 2013.9.4」，在录制那次节目时，制作人石原先生和总监增田先生，除了在「Pokémon Direct」中介绍的内容之外，还跟我们聊了很多非常有趣的话题。所以这次，我们稍微改变了一下以往「社长问」的形式，将「Pokémon Direct」中未能完全呈现的内容，穿插着访谈影像重新编辑，以「动态社长问」的形式呈现给大家。不知不觉间，「社长问」已经连载了200多回，这次作为文章与影像相结合的新尝试，希望大家能够喜欢。请多关照。
   note: ''
+  role: question
 - type: dialogue
   speaker: 石原恒和
   original: まさしく長年の目標でしたので、とても感無量です。まあ、ひとことで「世界同時発売」と言いますけど、もともと僕は、この開発がはじまったときは「無理なんじゃないの？」という気持ちだったんです（笑）。
   translation: 这确实是我们多年的目标，所以感慨万千。虽然一句话说“全球同步发售”，但其实在开发刚启动的时候，我心里想的是“这不可能吧？”（笑）。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 言い出しっぺの石原さんも最初は無理だと思っていたんですね（笑）。
   translation: 连提出这个想法的石原先生，最初也觉得做不到啊（笑）。
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: 僕も最初は「ほんとに大丈夫かな？」と思っていましたから。
   translation: 我一开始也担心“真的没问题吗？”。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 増田さんまでも？（笑）
   translation: 连增田先生也这么想？（笑）
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい（笑）。
   translation: 是的（笑）。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: じつはわたしもそうなんです（笑）。
   translation: 其实我也是这样的（笑）。
   note: ''
+  role: question
 - type: dialogue
   speaker: 众人
   original: （笑）
   translation: （笑）
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 最初にその話を聞いたとき、「えっ、本当にやるの！？」と、担当者に聞き返したくらいですから。
   translation: 最初听到这个计划时，我甚至反问负责人：“咦，真的要这么做吗！？”
   note: ''
+  role: question
 - type: dialogue
   speaker: 石原恒和
   original: でも、開発の途中から「できるんだ」と思うようになりました。しかも、それぞれの国で、それぞれの国の言語に合わせて別々のゲームをつくるのではなく、セブンインワン・・・つまり日本語や英語、フランス語などの７つの言語を１本のソフトのなかに入れて、そのなかからお客さんが好きな言語を選んで遊べるという今回の『ポケットモンスター』ができたときは、「自分を褒めてあげたいな」って・・・いや、僕がやったわけじゃないんですけど（笑）。
   translation: 但是，在开发过程中，我开始觉得“原来是可以做到的”。而且，不是针对每个国家、按照各自的语言制作不同的游戏，而是将日语、英语、法语等七种语言整合到一款软件中，让玩家从中选择自己喜欢的语言来游玩——当这样的《宝可梦》完成时，我真想“好好夸夸自己”……不，其实并不是我做的（笑）。
   note: “七合一”指将七种语言整合于同一游戏卡带，实现全球同步发售，是系列首次。
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: あははは（笑）。
   translation: 啊哈哈哈（笑）。
   note: ''
+  role: question
 - type: dialogue
   speaker: 石原恒和
   original: でも、それくらい「できた！」という達成感があって、本当にうれしいです。
   translation: 不过，正因为如此，那种“做到了！”的成就感，真的让我非常高兴。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: つくるのは大変だったでしょうけど、セブンインワンにすることで合理的な面もあったんですよね？
   translation: 制作过程想必非常辛苦，但通过“七合一”的方式，也有其合理的一面吧？
   note: ''
+  role: question
 - type: dialogue
   speaker: 石原恒和
   original: そうですね。これまではそれぞれの国の言語に合わせて７本つくっていたのが、今回は１本つくればいいわけですからね。
   translation: 是的。以往需要针对不同国家的语言分别制作7个版本，而这次只需制作1个版本即可。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 現場でつくっていた増田さんはどうですか？そもそも『ポケットモンスター』というゲームで、セブンインワンなんて、とんでもないことじゃなかったですか？
   translation: 在开发一线的增田先生怎么看？对于《宝可梦》这款游戏而言，实现“七合一”难道不是一件非常了不起的事吗？
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: ええ。
   translation: 确实如此。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: なかでも最大のハードルは何でしたか？
   translation: 其中最大的难关是什么？
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: やっぱりシナリオです。これまでは、まず日本語で書いて、それを英語に翻訳してからフランス語やドイツ語などの各言語に訳すようなかたちだったんです。でも今回は、日本語から直接それぞれの言語に翻訳するようにしました。
   translation: 果然还是剧情文本。以往的做法是先以日语撰写，然后翻译成英语，再以此为基准译成法语、德语等各语言。但这次我们改为从日语直接翻译成各语言。
   note: 此处提及的翻译流程变革，是为了确保全球同步发售时，各语言版本能保持高度一致，同时避免因转译造成的语义偏差。
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: まさに、“直接！”ですね（笑）
   translation: 真可谓“直接！”啊（笑）
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい（笑）。“直接！”でしたので、かなりスピーディーに翻訳作業ができたと思います。
   translation: 是的（笑）。正因为是“直接！”，我觉得翻译工作才能如此迅速推进。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: あと、『ポケットモンスター』の新シリーズがつくられるときは、新しいポケモンがたくさん登場しますので、ポケモンの名前を決めるというのもけっこう大変な仕事だったんじゃないですか？
   translation: 另外，每当《宝可梦》新系列制作时，都会有许多新宝可梦登场，为它们命名想必也是一项相当艰巨的工作吧？
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。チームにはポケモンの名前を付けるスタッフがいるのですが、泣きながらがんばっていました（笑）。
   translation: 是的。团队中有专门负责为宝可梦命名的成员，他们可是含着泪在努力啊（笑）。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: （笑）
   translation: （笑）
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: やっぱり、いろんな名前がつくられて世の中には出尽くしていますので、ポケモンの新しい名前を考えるというのはすごく難しいことなんです。
   translation: 毕竟，世间已有的名字几乎被用尽了，要为宝可梦构思新名字，真是难上加难。
   note: ''
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: それに、“名は体を表す”みたいに、それぞれのポケモンにふさわしい名前を付ける必要があって、しかも権利上の問題がないことが求められるわけですからね。
   translation: 而且，就像“名如其人”一样，必须给每只宝可梦起一个贴切的名字，同时还要确保没有权利上的问题。
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうなんです。しかも今回は、世界のどの国でも同じ名前のものを入れようということで、担当者はすごく苦労したと思うんですけど、できたときの達成感は半端じゃなかったと思います。
   translation: 确实如此。而且这次我们决定在全世界所有国家都使用相同的名字，负责的同事想必付出了极大的辛劳，但完成时的成就感也是无与伦比的。
   note: 指全球统一宝可梦名称，需同时解决商标注册和命名冲突，是《宝可梦 X·Y》全球同步发售的重要挑战之一。
+  role: answer
 - type: dialogue
   speaker: 岩田聪
   original: いい名前ができて、権利関係も世界中でクリアできたときにはきっと・・・（ガッツポーズしながら）こうなりますよね（笑）。
   translation: 当想出了好名字，并且权利问题也在全球范围内解决时，想必会……（摆出胜利姿势）这样吧（笑）。
   note: ''
+  role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい（笑）。
   translation: 是的（笑）。
   note: ''
+  role: answer
 - type: dialogue
-  speaker: 任天堂官方注记
   original: ※1 世界同時発売＝一部地域を除きます。
   translation: ※1 世界同日发售＝除部分极特殊地区外，全球主要国家和地区同步上市发售。
   note: 官方原注

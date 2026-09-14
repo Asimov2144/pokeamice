@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 宝可梦电影频道 M18 公映前特别专访：汤山邦彦监督谈《光环的超魔神 胡帕》'
 date: '2015-07-15'
 toc: true
@@ -56,31 +56,38 @@ parallel_items:
   original: 'Q: The story is described as "For the first time ever! A musical performance using Pokémon cries!", so it''s obvious it has a music theme. What kind of movie is it?'
   translation: 问：故事被描述为“史上首次！用宝可梦的叫声进行的音乐表演！”，显然是以音乐为主题。这是一部怎样的电影呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: '"Pikachu and the Pokémon Musicians" is actually something I''ve been wanting a chance to make since all the way back when the Pocket Monsters TV series first began.'
   translation: 《皮卡丘与宝可梦音乐队》其实是我从宝可梦电视动画系列刚开始时就想做的。
   speaker: 汤山邦彦
   note: 宝可梦电视动画系列即《宝可梦》动画，最初于1997年播出。
+  role: answer
 - type: paragraph
   original: Back when the TV series first began and we decided to have all the Pokémon have individual cries, then got the voice actors to provide these Pokémon voices, I found the "sound" of the cries really interesting.
   translation: 在电视动画刚开始时，我们决定让每只宝可梦都有独特的叫声，并请声优来配音，那时我就觉得这些叫声的“声音”非常有趣。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Right from the get-go, I started thinking about whether we could use these sounds to create music.
   translation: 从一开始，我就在想能否用这些声音来创作音乐。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Even though the thought had entered my mind, though, I really didn't know what would be the best way to go about it.
   translation: 虽然这个想法曾出现在我脑海中，但我真的不知道最好的实现方式是什么。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: As such, it wasn't until this year I decided to finally do this thing.
   translation: 因此，直到今年我才决定最终实现这件事。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: However, I couldn't really just explain to the production staff how the entire "create music with cries" idea was going to work. So we did a demo, an "initial template" so to speak, by getting the voice actors to sing Pokémon cries, then when we heard something we thought worked, we added that to the scenario.
   translation: 然而，我很难仅靠言语向制作人员解释“用叫声创作音乐”的整个构想如何实现。于是我们制作了一个演示，可以说是“初始模板”，让声优们演唱宝可梦的叫声，当我们听到觉得可行的部分时，就将其加入剧本中。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Doing a musical that used nothing but Pokémon voices is something I really wanted to do, but seriously...  being in the planning stage for over 10 years?
   translation: 制作一部只用宝可梦声音的音乐剧是我一直想做的事，但说真的……竟然在企划阶段就花了超过10年？
@@ -92,6 +99,7 @@ parallel_items:
   original: 'Q: This short has a somewhat different feel to it than previous shorts! Could you tell us some details about the production and the trial-and-error process it went through?'
   translation: 问：这部短篇和之前的短篇感觉有些不同！能告诉我们一些制作细节以及反复试验的过程吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: We made this short in a completely different way from how we've made previous ones.
   translation: 我们制作这部短篇的方式与以往完全不同。
@@ -137,61 +145,75 @@ parallel_items:
   original: 'Q: We heard that because this is "Pikachu and the Pokémon Musicians", almost all the music is made up of the sounds of Pokémon voices?'
   translation: 问：我们听说因为这是《皮卡丘与宝可梦音乐剧》，所以几乎所有的音乐都是由宝可梦的叫声构成的？
   speaker: 提问
+  role: question
 - type: paragraph
   original: For that reason, the movie doesn't have a score, yes.
   translation: 因此，这部电影没有配乐，是的。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: For the title sequence, we got LGM (Little Glee Monster, performers of the theme song) to sing a cappella, so while this is the only scene in the movie with a score, the score here is nothing but voices too, consisting purely of a chorus.
   translation: 在片头部分，我们请LGM（Little Glee Monster，主题曲演唱者）进行了无伴奏演唱，所以虽然这是电影中唯一有配乐的场面，但这里的配乐也完全是由人声组成的，纯粹是合唱。
   speaker: 汤山邦彦
   note: LGM即Little Glee Monster，是演唱主题曲的组合。
+  role: answer
 - type: paragraph
   original: Since the Pokémon are "Musicians", there are parts where they each act as specific instruments, though if we think of their cries as singing, it turns into song. Or rather, vocal percussion.
   translation: 由于宝可梦是“音乐家”，所以有些部分它们各自扮演特定的乐器，但如果把它们的叫声当作歌声，那就变成了歌曲。更确切地说，是口技打击乐。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: It's all voices, all through the entire movie.
   translation: 整部电影从头到尾都是人声。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: There's sound effects, though.
   translation: 不过，还是有音效的。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: 'Q: What kind of story is "Pikachu and the Pokémon Musicians"?'
   translation: 问：《皮卡丘与宝可梦音乐剧》是一个怎样的故事？
   speaker: 提问
+  role: question
 - type: paragraph
   original: The story concerns a concert being held in concurrence with "Berry Blossoming", this harvest festival-like celebration they have in the Pokémon's forest. However, various trouble occurs, so this quick little story plays out before "Berry Blossoming" can start.
   translation: 故事讲述的是在宝可梦森林里举行的类似丰收庆典的“果实盛开”活动期间，同时举办了一场音乐会。然而，发生了各种麻烦，所以这个简短的小故事就在“果实盛开”开始之前展开了。
   speaker: 汤山邦彦
   note: '"Berry Blossoming"可能指果实盛开的活动，类似于丰收节。'
+  role: answer
 - type: paragraph
   original: Songs get sung throughout the tale, so it can be enjoyed as a musical.
   translation: 故事中穿插着歌曲，所以可以当作音乐剧来欣赏。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: 'Q: This short seems packed with new things you''re trying out, and it''s really something to look forward to. Can you say a few words to the audience that are going to be watching "Pikachu and the Pokémon Musicians" in the theater?'
   translation: 问：这部短片似乎充满了你尝试的新事物，真的很值得期待。你能对即将在影院观看《皮卡丘与宝可梦音乐剧》的观众说几句话吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: The Pokémon are all happily singing together, so I'd like you to sing and dance along in the theater as well.
   translation: 宝可梦们都在快乐地一起唱歌，所以我也希望你们在影院里一起唱歌跳舞。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: The Narrator, Mizuki Yamamoto, sings along too.
   translation: 旁白山本美月也会一起唱歌。
   speaker: 汤山邦彦
   note: 山本美月是日本女演员、模特，担任本片旁白。
+  role: answer
 - type: paragraph
   original: It'd make me very happy if I made the children in the theater suddenly burst into song together.
   translation: 如果能让影院里的孩子们突然一起唱起歌来，我会非常高兴。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Since even we, the people who made this short, couldn't picture how it would turn out, the audience won't really be able to either. What does Pokémon singing sound like? You're in for a fun surprise at the theater.
   translation: 因为就连我们这些制作这部短片的人也无法想象它会是什么样子，所以观众们大概也想象不到。宝可梦唱歌是什么声音？你们将在影院里得到一个有趣的惊喜。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Lots of nostalgic Pokémon will appear in the short too, so there's something else to look forward to!
   translation: 短片中也会出现许多令人怀念的宝可梦，所以还有更多值得期待的内容！
@@ -210,48 +232,59 @@ parallel_items:
   original: 'Q: What kind of movie is the feature film "The Archdjinni of Rings: Hoopa"?'
   translation: 问：长篇电影《光环的超魔神 胡帕》是一部怎样的电影？
   speaker: 提问
+  role: question
 - type: paragraph
   original: First and foremost, it's a movie where lots of legendary Pokemon appear.
   translation: 首先，这是一部有许多传说宝可梦登场的电影。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: You could call this the ultimate concept for a Pokémon movie, and it's what I used as the starting point for this year's installment.
   translation: 这可以说是宝可梦电影的终极概念，也是我今年这部作品的出发点。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: We were going to have all these legendary Pokémon that have starred in earlier movies appear all together, so figuring out what we were going to have them do was actually really difficult.
   translation: 我们打算让之前电影中登场过的所有传说宝可梦一起出现，所以弄清楚让它们做什么实际上非常困难。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: What made it all possible was this year's star Pokémon, Hoopa.
   translation: 让这一切成为可能的是今年的主角宝可梦——胡帕。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: It has this power to retrieve asolutely anything from faraway places using its rings.
   translation: 它拥有用环从遥远的地方取回任何东西的力量。
   speaker: 汤山邦彦
   note: 原文中“asolutely”应为“absolutely”的拼写错误，翻译时按正确含义处理。
+  role: answer
 - type: paragraph
   original: This power was a perfect fit for gathering an entire lineup of legendary Pokémon.
   translation: 这种力量非常适合聚集一整支传说宝可梦的队伍。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: 'Q: So this star Pokémon with this special power, Hoopa, what kind of Pokémon is it?'
   translation: 问：那么，拥有这种特殊力量的主角宝可梦胡帕，是一种什么样的宝可梦呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: While its natural form is the giant "Unbound Form", it's been deprived of its power thanks to this item called the "Prison Bottle" and turned into the cute, small "Confined Form".
   translation: 虽然它的本来姿态是巨大的“解放形态”，但由于名为“惩戒之壶”的道具而失去了力量，变成了可爱小巧的“束缚形态”。
   speaker: 汤山邦彦
   note: 胡帕的形态名称官方中文为“解放形态”和“束缚形态”。
+  role: answer
 - type: paragraph
   original: As such, both the big Hoopa and the small Hoopa are, in fact, the same Hoopa.
   translation: 因此，大的胡帕和小的胡帕实际上是同一个胡帕。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: The big Hoopa went on a rampage in the past, but rather than it being out of malice, it was more like it was a child that got egged into doing something that escalated way out of control.
   translation: 大的胡帕在过去曾大闹过，但那并非出于恶意，更像是被怂恿的孩子，结果事情升级到完全失控的地步。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: So when such a Pokémon got turned into its current form, one that feels the same but is so much smaller, it may be a prankster, but it also has this really innocent and honest personality and loves simple fun.
   translation: 因此，当这样的宝可梦变成现在的样子时，感觉相同但体型小得多，它可能是个爱恶作剧的家伙，但也有非常天真、诚实的性格，喜欢简单的乐趣。
@@ -260,6 +293,7 @@ parallel_items:
   translation: 问：然而，被囚禁在监狱之瓶中的胡帕的“解放形态”是作为小智和他的朋友们的敌人出现的，对吧？
   speaker: 提问
   note: 监狱之瓶（Prison Bottle）是胡帕的专属道具，用于解放其真正的力量。
+  role: question
 - type: paragraph
   original: What's been confined in the Prison Bottle is Hoopa's true power.
   translation: 被囚禁在监狱之瓶中的是胡帕真正的力量。
@@ -276,6 +310,7 @@ parallel_items:
   original: 'Q: The small Hoopa meets Satoshi and they have an adventure together, so what''s the relationship between Satoshi, Pikachu and Hoopa like?'
   translation: 问：小胡帕遇到了小智，他们一起冒险，那么小智、皮卡丘和胡帕之间的关系是怎样的？
   speaker: 提问
+  role: question
 - type: paragraph
   original: Hoopa is this really innocent little kid. However, it's unable to regain its original, true power.
   translation: 胡帕是一个真正天真无邪的小孩子。然而，它无法恢复其原本的真正力量。
@@ -325,47 +360,58 @@ parallel_items:
   translation: 问：电影以沙漠城市为舞台，您去迪拜采景了，那么这座德塞尔城是个什么样的地方呢？
   speaker: 提问
   note: 德塞尔城（Désser City）为电影中的虚构城市，名字可能源自“沙漠”（Desert）。
+  role: question
 - type: paragraph
   original: The core concept is a place in the middle of a desert filled with hyper-modern skyscapers.
   translation: 核心概念是位于沙漠中央、充满超现代摩天大楼的地方。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: That's the kind of place I wanted to have the legendary Pokemon rampage through.
   translation: 我想让传说宝可梦在这样的地方大闹一场。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: We started looking for places to base it off, and since Dubai is a hypermodern city in the middle of a desert full of skyscrapers, we decided to go there for our scouting.
   translation: 我们开始寻找可以作为原型的地方，而迪拜正是沙漠中充满摩天大楼的超现代城市，于是我们决定去那里采景。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: Dubai isn't just a modern city, lots of older parts of the cityscape still remain there as well.
   translation: 迪拜不仅仅是一座现代城市，城市景观中仍保留着许多古老的部分。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: The movie goes into the particulars of the great rampage Hoopa went on in the past, giving us a story that spans an entire 100 years, so we designed Désser City as a place where different time periods intermingle, making it a part historic and part modern place for legendary Pokémon to appear in.
   translation: 电影详细描绘了胡帕在过去引发的大暴乱，故事跨越了整整100年，因此我们将德塞尔城设计为一个不同时代交融的地方，使其成为传说宝可梦出现的既古老又现代的舞台。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: 'Q: And what is the city''s iconic building, Désser Tower, based on?'
   translation: 问：那么城市的标志性建筑德塞尔塔是以什么为原型呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: Well, you see there's this giant ring on the top of the building, right?.
   translation: 嗯，你看建筑顶部有一个巨大的环，对吧？
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: It's not based on any particular building in Dubai, but instead on...  a certain Pokémon.
   translation: 它并不是以迪拜的某座建筑为原型，而是以……某只宝可梦为原型。
   speaker: 汤山邦彦
   note: 暗示该建筑与胡帕有关，胡帕的环是其标志。
+  role: answer
 - type: paragraph
   original: You'll find out when you watch the movie.
   translation: 看了电影你就会明白了。
   speaker: 汤山邦彦
+  role: answer
 - type: paragraph
   original: 'Q: Can you tell us the highlights of this intense battle being referred to as "Legend VS Legend"?'
   translation: 问：您能谈谈这场被称为“传说VS传说”的激烈战斗的亮点吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: Legendary Pokémon appear in the middle of this city filled with skyscrapers we've modeled after Dubai and a battle beteen them and Satoshi's side unfolds.
   translation: 传说宝可梦出现在我们以迪拜为原型建模的摩天大楼林立的城市中，它们与小智一方的战斗就此展开。
@@ -395,6 +441,7 @@ parallel_items:
   original: 'Q: Finally, can you say a few words to the audience that are going to be watching the movie in the theater?'
   translation: 问：最后，请对即将在影院观看电影的观众说几句话。
   speaker: 提问
+  role: question
 - type: paragraph
   original: This year we have a movie that features a battle between a lot of the legendary Pokémon that have starred in earlier movies on their own, so it's a real big-scale movie.
   translation: 今年的电影中，许多在早期电影中单独登场的传说宝可梦将展开战斗，所以这是一部真正的大规模电影。

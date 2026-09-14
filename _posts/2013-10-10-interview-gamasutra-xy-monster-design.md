@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学'
 original_title: 'How Pokemon are born: Designing the series'' iconic monsters'
 date: '2013-10-10'
@@ -60,10 +60,12 @@ parallel_items:
   original: '"I do believe they represent a very important position in the Pokemon games, of course. They''re the first pokemon you pick," says the game''s director, Junichi Masuda.'
   translation: “我当然相信它们在宝可梦游戏中占有非常重要的地位。它们是你选择的第一只宝可梦，”游戏总监增田顺一说道。
   note: 增田顺一（Junichi Masuda）是Game Freak的董事，长期担任宝可梦游戏的总监和作曲家。
+  role: answer
 - speaker: 吉田宏信
   original: '"I think they''re absolutely necessary to the Pokemon games," Yoshida says. "Personally, I think they''re the ones that should be on the packaging. They''re really the face of that generation, and I think even as designers, they feel a bit more special to us than some of the other pokemon."'
   translation: “我认为它们对宝可梦游戏来说绝对必要，”吉田说。“就我个人而言，我认为它们应该出现在包装上。它们确实是那一世代的门面，而且我认为即使是作为设计师，它们对我们来说也比其他一些宝可梦更特别。”
   note: ''
+  role: answer
 - original: It's not just about aesthetics -- the starters teach players how the game works in fundamental ways, a challenge to accomplish through visual design.
   translation: 这不仅仅是美学问题——初始宝可梦以基本的方式教会玩家游戏机制，这是通过视觉设计实现的一个挑战。
   note: ''
@@ -71,6 +73,7 @@ parallel_items:
   original: '"With the starter pokemon, they always evolve twice, and a lot of players will use these pokemon until the end. They teach the players a bit about the basics, so we need to make sure the designs are at the same time easy to understand -- the way they evolve, for example -- and of course making them appealing is very important to the games," says Masuda.'
   translation: “对于初始宝可梦，它们总是进化两次，许多玩家会一直使用这些宝可梦到最后。它们教会玩家一些基础知识，所以我们需要确保设计同时易于理解——例如它们的进化方式——当然，让它们吸引人对游戏来说非常重要，”增田说。
   note: ''
+  role: answer
 - type: heading
   level: 2
   original: The 20-Person Committee and the Rejection Process
@@ -82,6 +85,7 @@ parallel_items:
   original: '"Since there are 20 of us and we''re working all on our own ideas, we want to make sure we''re not overlapping ideas. At Game Freak, we have an internal server where we can upload our designs and share them with everyone else on the team. This allows us to see what everyone else is working on and get ideas from each other," Yoshida says.'
   translation: “我们一共有20个人，各自都在独立构思，所以要确保想法不重叠。在Game Freak，我们有一个内部服务器，可以把设计上传上去，与团队其他成员共享。这样我们就能看到彼此在做什么，互相汲取灵感。”吉田说道。
   note: ''
+  role: answer
 - original: Getting a monster selected for the final roster, however, is not simple.
   translation: 然而，要让一只宝可梦入选最终阵容并非易事。
   note: ''
@@ -89,6 +93,7 @@ parallel_items:
   original: '"It''s very difficult work every time. There are probably five to 10 times the number of ideas that are rejected as the ones that make it into the final design, so it''s a very difficult process," Yoshida says.'
   translation: “每次都是非常艰难的工作。被否决的创意数量大概是最终入选设计的5到10倍，所以这是一个非常艰难的过程。”吉田说道。
   note: ''
+  role: answer
 - original: The studio has a committee of five people who decide which designs will go into the game -- and which do not make the cut.
   translation: 工作室有一个五人委员会，负责决定哪些设计能进入游戏，哪些不能入选。
   note: ''
@@ -96,6 +101,7 @@ parallel_items:
   original: '"And they also will leave feedback on all of the designs, even the ones that are rejected, to say why they got rejected or why they didn''t choose a certain one. What that lets us do is improve for the future, so we can use that knowledge for the next series of titles," Yoshida says.'
   translation: “他们还会对所有设计给出反馈，即使是落选的设计，也会说明落选的原因或为什么没有选中某个设计。这样我们就能为未来改进，把这些经验用于下一系列的作品。”吉田说道。
   note: ''
+  role: answer
 - type: heading
   level: 2
   original: 'From Setup Sheets to the Pokédex: The Final Supervision'
@@ -107,6 +113,7 @@ parallel_items:
   original: '"I''m in charge of really creating these setup sheets and making the final adjustments to the pokemon," he says. He also created the Pokemon X and Y pokedex -- the in-game catalogue of all the monsters.'
   translation: “我负责实际制作这些设定稿，并对宝可梦进行最终调整。”他说。他还制作了《宝可梦 X/Y》的宝可梦图鉴——游戏内所有宝可梦的图鉴。
   note: ''
+  role: answer
 - original: The monster designs also don't occur in a vacuum. The nature of the game means that various monster 'types' -- there are 18, which function similarly to elements in other RPGs -- are needed to fill the roster and provide for balanced play.
   translation: 宝可梦的设计也并非凭空产生。游戏的性质决定了需要各种宝可梦“属性”——共有18种，其作用类似于其他RPG中的元素——来填充图鉴，并保证游戏的平衡性。
   note: ''
@@ -114,8 +121,10 @@ parallel_items:
   original: '"Of course, we do a lot of free thinking on our own, but we also get orders from the planners, saying, ''We need this type of pokemon,'' or even from Mr. Masuda, the director. He''ll say that we need specific pokemon," Yoshida says.'
   translation: “当然，我们也会进行很多自由构思，但也会接到策划的指令，比如‘我们需要这种属性的宝可梦’，甚至校长增田先生也会提出要求，说我们需要特定的宝可梦。”吉田说道。
   note: 此处“Mr. Masuda”指增田顺一，宝可梦系列的游戏总监，中文官方译名为“增田顺一”，但此处根据上下文译为“校长”可能不准确，应为“增田先生”。
+  role: answer
 - speaker: 吉田宏信
   original: '"Really one of the good things about the company is that it''s really open for discussion," he adds. "We can talk with each other until both parties come to an agreement, I think."'
   translation: “公司真正的一个优点就是非常开放，可以自由讨论，”他补充道。“我认为我们可以互相交谈，直到双方达成一致。”
   note: ''
+  role: answer
 ---

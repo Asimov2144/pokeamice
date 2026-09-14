@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 《Game Informer》独家专访：增田顺一复盘《红宝石·蓝宝石》极限开发（GBA跨代阵痛、特性性格革命与重压下的进退维谷）'
 original_title: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
 date: '2017-08-14'
@@ -62,14 +62,17 @@ parallel_items:
   original: Pokémon Ruby and Sapphire released in 2003 to wide acclaim and impressive sales. In some ways, the titles set a new template for the series introducing double-battles, Pokémon abilities and natures, and Secret Bases. Despite being a huge success, the game almost didn't happen, and at one point, it put Masuda in the hospital.
   translation: 《宝可梦 红宝石》和《宝可梦 蓝宝石》于2003年发售，广受赞誉，销量惊人。在某些方面，这两款作品为系列树立了新的标杆，引入了双打对战、宝可梦的特性与性格，以及秘密基地等要素。尽管取得了巨大成功，但这款游戏几乎未能问世，甚至一度让增田住进了医院。
   note: ''
+  role: question
 - speaker: 增田顺一
   original: The main problem with the game wasn't the technical side, but rather the general opinion surrounding the franchise at the time. After Gold and Silver came out, it was huge, of course, but after that, the general feeling of the media and the public was, 'The Pokémon craze is over, it's dead, it's just a passing fad.' There was this overwhelming pressure from the world that Pokémon was finished.
   translation: 这款游戏的主要问题并不在于技术层面，而在于当时围绕这个系列的整体舆论。金银版发售之后，当然非常火爆，但之后媒体和公众普遍认为：‘宝可梦热潮已经结束，它已经死了，只是一时的风潮。’全世界都弥漫着一种压倒性的压力，认为宝可梦已经完了。
   note: ''
+  role: answer
 - speaker: Game Informer
   original: Just as development began, trademark research revealed the names Ruby and Sapphire may not be usable for the titles. How did the team react to that crisis?
   translation: 就在开发启动之际，商标调查显示“红宝石”和“蓝宝石”这两个名称可能无法用于游戏标题。面对这一危机，团队是如何应对的？
   note: ''
+  role: question
 - type: heading
   level: 3
   original: Stress-Induced Hospitalization & The Nightmare Before Launch
@@ -78,18 +81,22 @@ parallel_items:
   original: I got really stressed out and had to go to the hospital and had some stomach issues and had to get a camera inserted and they didn't know what it was – very stressful. The night before release I had a dream that it was a complete failure, a total nightmare.
   translation: 我压力极大，不得不去医院，胃出了问题，还得做胃镜，他们不知道病因——压力非常大。发售前一夜，我梦见游戏彻底失败，简直是一场恶梦。
   note: 此处“恶梦”对应宝可梦招式“恶梦”，但此处为普通噩梦之意，因glossary要求，故用“恶梦”。
+  role: answer
 - speaker: Game Informer
   original: Alternatively, Shigeru Ohmori, director of Sun and Moon and Omega Ruby and Alpha Sapphire, views the game from an entirely different perspective. Ruby and Sapphire was the very first Pokémon game he worked on at Game Freak, marking his transition from fan to creator.
   translation: 另一方面，《宝可梦 太阳／月亮》和《宝可梦 欧米伽红宝石／阿尔法蓝宝石》的总监大森滋，则从完全不同的视角看待这款游戏。《红宝石／蓝宝石》是他在Game Freak参与的第一款宝可梦游戏，标志着他从粉丝转变为创作者。
   note: ''
+  role: question
 - speaker: 大森滋
   original: It was actually a lot of fun to work on it and I was able to think, 'I'm making this!' It was my first project entering the company, so for me it was full of energy and excitement rather than the terrifying pressure Masuda was feeling.
   translation: 实际上，参与开发非常有趣，我能够想着：‘我正在制作这个！’这是我进入公司后的第一个项目，所以对我来说，它充满了活力和兴奋，而不是增田所感受到的那种可怕压力。
   note: ''
+  role: answer
 - speaker: 增田顺一
   original: Despite the general perception of the series, and my stress-induced hospital visit, we never gave in to the pressure. We at Game Freak took that as a challenge and said, 'It's not dead. We're going to show you guys you're wrong!' Ultimately, it worked out. Game Freak was able to use the names Ruby and Sapphire and the games sold massively. The morning after, the day of release, I went into the local shop and saw people lining up to buy it and was extremely relieved. It was close. Super scary at the time.
   translation: 尽管外界对系列的看法如此，加上我因压力住院，我们从未屈服于压力。我们Game Freak将此视为挑战，并说：‘它没有死。我们要向你们证明你们错了！’最终，一切顺利。Game Freak成功使用了“红宝石”和“蓝宝石”的名称，游戏销量巨大。发售日那天早上，我走进当地的商店，看到人们排队购买，感到无比欣慰。当时真是千钧一发，非常可怕。
   note: ''
+  role: answer
 - type: heading
   level: 3
   original: 'From New Recruit to Remake Director: Shigeru Ohmori''s Full Circle in Hoenn'
@@ -98,8 +105,10 @@ parallel_items:
   original: In 2014, Game Freak returned to Hoenn for the 3DS remakes, Omega Ruby and Alpha Sapphire, with Ohmori stepping up as full director.
   translation: 2014年，Game Freak重返丰缘地区，推出了3DS重制版《宝可梦 欧米伽红宝石》和《宝可梦 阿尔法蓝宝石》，由大森滋担任正式总监。
   note: ''
+  role: question
 - speaker: 大森滋
   original: I kept hearing from Masuda about how hard the original Ruby and Sapphire games were and I kind of had that pressure in mind while creating Alpha Sapphire and Omega Ruby. But from my perspective, it was a lot of fun to work on them originally, so I was super motivated to take the reins as director on the remakes and bring Hoenn to modern 3D.
   translation: 我不断听增田说起原版《红宝石／蓝宝石》开发有多艰难，所以在制作《阿尔法蓝宝石》和《欧米伽红宝石》时，我心中也带着那种压力。但在我看来，当初开发它们非常有趣，所以我非常有动力在重制版中接过总监的重任，将丰缘地区带入现代的3D世界。
   note: ''
+  role: answer
 ---

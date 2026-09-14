@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 初代概念美术整理 EN'
 date: '2014-03-19'
 toc: true
@@ -232,10 +232,12 @@ parallel_items:
   original: “Memory capacity and deciding on a good number of characters became an issue. We actually wanted to have more. We designed around 1.5 times more characters than we actually used.”
   translation: “内存容量和确定合适的角色数量成了问题。我们其实想要更多。我们设计的角色数量大约是实际使用数量的1.5倍。”
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: We designed more than 200 Pokémon for the first games, then whittled them down to 150. The way we’ve approached things is to develop whatever we want without paying any heed to how much memory is available, cutting down on Pokémon we can’t fit in later on.
   translation: 我们为最初的游戏设计了200多只宝可梦，然后削减到150只。我们的做法是随心所欲地开发，不考虑内存有多少，之后再削减那些装不下的宝可梦。
   speaker: 田尻智
+  role: answer
 - type: paragraph
   original: Now let’s take a peek at the second page, a preface which outlines what Sugimori and Tajiri were hoping for Pokémon to become.
   translation: 现在让我们看看第二页，这是一篇序言，概述了杉森建和田尻智对宝可梦未来的期望。
@@ -280,6 +282,7 @@ parallel_items:
   original: At first, the game was more RPG-like. It was only in the middle of development that the goal of the game became completing your Pokédex.
   translation: 起初，游戏更偏向RPG风格。直到开发中期，游戏的目标才变成完成你的宝可梦图鉴。
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: You also may have noticed that the design proposal makes no mention of two separate versions. This is because the idea for the split originated later in development, on the recommendation of Miyamoto himself.
   translation: 你可能也注意到，设计提案中没有提到两个独立的版本。这是因为分版的想法是在开发后期，根据宫本茂本人的建议才产生的。
@@ -287,6 +290,7 @@ parallel_items:
   original: In the beginning, the original Pokémon didn’t have different variations such as Red and Blue. I took the advice of Miyamoto and split it into two, something that was a first for us.
   translation: 起初，最初的宝可梦并没有像《红》和《蓝》这样的不同版本。我采纳了宫本茂的建议，将其分为两个版本，这对我们来说是第一次。
   speaker: 田尻智
+  role: answer
 - type: paragraph
   original: As for Miyamoto’s reasons, well…
   translation: 至于宫本茂的理由，嗯……
@@ -294,6 +298,7 @@ parallel_items:
   original: I didn’t suggest splitting the games because it would allow us to sell more copies of the same thing. I just thought it would be more fun for the players if, say, there were 3 siblings and they all owned something unique. That way, they’d be able to communicate. I didn’t want to release separate versions of the games just to increase the marketability.
   translation: 我建议分版并不是因为这样可以卖出更多份相同的游戏。我只是觉得，如果比如有三个兄弟姐妹，他们都拥有独特的东西，对玩家来说会更有趣。这样他们就能交流。我不想仅仅为了增加市场吸引力而发布不同版本的游戏。
   speaker: Miyamoto
+  role: answer
 - type: paragraph
   original: Index
   translation: 索引

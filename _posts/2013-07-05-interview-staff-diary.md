@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] GAME FREAK STAFF 日记'
 date: '2013-07-05'
 toc: true
@@ -187,23 +187,28 @@ parallel_items:
   translation: 大家好，我是じだぬ。
   speaker: じだぬ
   note: じだぬ可能是GAME FREAK开发者的昵称或笔名。
+  role: answer
 - type: paragraph
   original: だいぶ時間が経ってしまったのですが…
   translation: 虽然已经过去了一段时间……
   speaker: じだぬ
+  role: answer
 - type: paragraph
   original: 先日「PRESS START 2011」に行ってきました！
   translation: 前几天我去了“PRESS START 2011”！
   speaker: じだぬ
   note: PRESS START是日本的一个游戏音乐音乐会活动，每年举办。
+  role: answer
 - type: paragraph
   original: ご存知の方も多いかも知れませんが、PRESS STARTは
   translation: 可能有很多人知道，PRESS START是
   speaker: じだぬ
+  role: answer
 - type: paragraph
   original: ハード、メーカー、作品の新旧を問わず、
   translation: 无论硬件、厂商、作品的新旧，
   speaker: じだぬ
+  role: answer
 - type: paragraph
   original: 日本のゲーム音楽を集めたオーケストラコンサート。
   translation: 这是一场汇集日本游戏音乐的管弦乐音乐会。
@@ -305,62 +310,76 @@ parallel_items:
   translation: 大家好！我是穗。
   speaker: ほず
   note: ほず为GAME FREAK员工，可能是开发团队成员。
+  role: answer
 - type: paragraph
   original: 今回は、 先日、めめたがご紹介した社内ポケモンバトル大会 の
   translation: 这次，我想向大家汇报一下前几天梅梅特介绍过的社内宝可梦对战大会的
   speaker: ほず
   note: めめた为GAME FREAK员工，可能是开发团队成员。
+  role: answer
 - type: paragraph
   original: その後の様子をお届けしたいと思います！
   translation: 后续情况！
   speaker: ほず
+  role: answer
 - type: paragraph
   original: 決勝トーナメント進出をかけ、2つの予選リーグで
   translation: 为了争夺决赛淘汰赛的参赛资格，在两个预选联赛中
   speaker: ほず
+  role: answer
 - type: paragraph
   original: たくさんの試合が行われましたが
   translation: 进行了许多场比赛，
   speaker: ほず
+  role: answer
 - type: paragraph
   original: ブラックリーグもホワイトリーグも　大　接　戦　！！！！
   translation: 黑联赛和白联赛都战况激烈！！！！
   speaker: ほず
   note: 黑联赛和白联赛可能对应游戏版本《黑/白》。
+  role: answer
 - type: paragraph
   original: こだわりのポケモンで大健闘をする社員、
   translation: 有员工凭借精心培养的宝可梦大显身手，
   speaker: ほず
+  role: answer
 - type: paragraph
   original: 計算づくしのコンビネーションでバッタバッタと相手をなぎ倒す社員、
   translation: 有员工依靠精心计算的组合技将对手接连击倒，
   speaker: ほず
+  role: answer
 - type: paragraph
   original: 次々とベテラン社員を打ち負かし、波乱をもたらす新人社員……。
   translation: 还有新人员工接连击败资深员工，掀起波澜……。
   speaker: ほず
+  role: answer
 - type: paragraph
   original: そうした混戦状態が続きましたが、
   translation: 虽然这种混战状态持续了一段时间，
   speaker: ほず
+  role: answer
 - type: paragraph
   original: ついに6名の決勝進出者が決定しました！
   translation: 最终决出了6名进入决赛的选手！
   speaker: ほず
+  role: answer
 - type: paragraph
   original: 決勝トーナメントの会場は、社内のオープンスペース・コメット。
   translation: 决赛淘汰赛的会场是公司内部的开放空间“彗星”。
   speaker: ほず
   note: コメット可能是公司内部会议室或活动区域的名称。
+  role: answer
 - type: paragraph
   original: DSがテレビ画面に映し出され、トーナメントがスタートします。
   translation: DS的画面被投射到电视屏幕上，淘汰赛正式开始。
   speaker: ほず
   note: DS指任天堂DS掌机。
+  role: answer
 - type: paragraph
   original: 相手の手を読み取り、その裏をかく…
   translation: 预判对手的意图，并加以反制……
   speaker: ほず
+  role: answer
 - type: paragraph
   original: かと思いきや、更にその裏を読み取る相手…
   translation: 正当我这么想时，对方却看穿了更深一层……
@@ -447,24 +466,29 @@ parallel_items:
   translation: 我是策划卡妮子。
   speaker: 卡妮子
   note: 卡妮子：GAME FREAK的策划，负责宝可梦系列的游戏设计。
+  role: answer
 - type: paragraph
   original: 寒さの厳しい今日この頃ですが、皆様いかがお過ごしでしょうか。
   translation: 正值严寒时节，大家过得怎么样呢？
   speaker: 卡妮子
+  role: answer
 - type: paragraph
   original: 先日の増田の 「めざめるパワー」 でも書かれていましたが、
   translation: 正如前几天增田在“觉醒力量”中提到的，
   speaker: 卡妮子
   note: 增田：指增田顺一，宝可梦系列的游戏总监。『めざめるパワー』是GAME FREAK官方博客的栏目名，这里保留原文。
+  role: answer
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」の販売本数が500万本を突破しました！
   translation: 《宝可梦 黑／白》的累计销量已突破500万份！
   speaker: 卡妮子
   note: 《宝可梦 黑／白》：2010年发售的NDS游戏，是宝可梦系列第五世代作品。
+  role: answer
 - type: paragraph
   original: こんなにたくさんの方に遊んでいただいて、本当に嬉しく思います！！
   translation: 能有这么多玩家游玩，我们真的非常高兴！！
   speaker: 卡妮子
+  role: answer
 - type: paragraph
   original: お祝いにステキなケーキをいただきました。
   translation: 我们收到了作为庆祝的漂亮蛋糕。
@@ -518,6 +542,7 @@ parallel_items:
   translation: 大家好～我是梅梅塔！
   speaker: めめた
   note: めめた是GAME FREAK员工的昵称，具体身份不详。
+  role: answer
 - type: paragraph
   original: ゲームフリークでは、恒例の
   translation: 在GAME FREAK，一年一度的
@@ -620,40 +645,48 @@ parallel_items:
   translation: 我是娜琪。
   speaker: ナギー
   note: ナギー是GAME FREAK的开发人员，此处为自我介绍。
+  role: answer
 - type: paragraph
   original: 以前もご紹介しましたが 、ゲームフリーク社内では、有志によるポケモンカードゲームの大会が、たびたび開かれています。
   translation: 之前也介绍过，在GAME FREAK公司内部，由志愿者组织的宝可梦卡牌游戏大会经常举办。
   speaker: ナギー
   note: GAME FREAK是宝可梦游戏的开发商。
+  role: answer
 - type: paragraph
   original: 今回はその大会の模様と、ティーチングについてご紹介したいと思います。
   translation: 这次想向大家介绍该大会的情况以及教学活动的相关内容。
   speaker: ナギー
   note: ティーチング指面向新手的规则教学活动。
+  role: answer
 - type: paragraph
   original: ティーチングとは、ポケモンカードゲームを知らない社員を対象に、ルールを一から覚えてもらい、ポケモンカードゲームがどんなものか知ってもらおう！という催しです。
   translation: 所谓“教学”，是针对不了解宝可梦卡牌游戏的员工，让他们从零开始学习规则，了解宝可梦卡牌游戏是什么的活动。
   speaker: ナギー
+  role: answer
 - type: paragraph
   original: ティーチングは、ポケモンセンターでも実施しているので、気になった方はチェックしてみてください。
   translation: 宝可梦中心也会举办类似的教学活动，感兴趣的话请务必查看一下。
   speaker: ナギー
   note: ポケモンセンター指官方宝可梦中心（商店/活动场所）。
+  role: answer
 - type: paragraph
   original: 今回は、ティーチングに「ポケモンカードゲームBWはじめてセット」を使用しました。
   translation: 这次的教学活动使用了《宝可梦卡牌游戏BW 新手套装》。
   speaker: ナギー
   note: BW指宝可梦黑白系列。
+  role: answer
 - type: paragraph
   original: 何と、このセットにはつるの剛士さんと一緒に手順を覚えられる「遊び方DVD」が付いているんです！
   translation: 令人惊讶的是，这个套装中附带了可以跟着つるの剛士先生一起学习步骤的“玩法DVD”！
   speaker: ナギー
   note: つるの剛士是日本艺人，曾参与宝可梦相关活动。
+  role: answer
 - type: paragraph
   original: いつもならば、対戦を後ろで見ながら流れを覚えて貰う、という手順で
   translation: 通常的做法是让新手在后方观看对战来记住流程，
   speaker: ナギー
   note: 句子未完结，可能后续内容被截断。
+  role: answer
 - type: paragraph
   original: 行っているのですが、今回はDVDを見ながら、カードを触りつつ
   translation: 我们正在进行中，但这次是边看DVD边接触卡片，
@@ -1042,41 +1075,50 @@ parallel_items:
   translation: ■我是负责声音的一之濑刚。
   speaker: 一之濑刚
   note: 一之濑刚是GAME FREAK的作曲家，负责宝可梦系列的音乐制作。
+  role: answer
 - type: paragraph
   original: 作曲・編曲・鳴き声作成を担当しています。
   translation: 我负责作曲、编曲以及宝可梦叫声的创作。
   speaker: 一之濑刚
+  role: answer
 - type: paragraph
   original: ビレッジブリッジでは、イッシュドリームに破れ黄昏れている4人がいて、話しかけると歌や楽器を奏でてくれます。
   translation: 在村庄桥，有四位因合众之梦破碎而处于黄昏心境的人，与他们对话，他们会为你唱歌或演奏乐器。
   speaker: 一之濑刚
   note: 村庄桥是《宝可梦 黑/白》中的地点，这里提到的四位角色是游戏中的NPC，他们会演奏音乐。
+  role: answer
 - type: paragraph
   original: 彼らの名前は、タンボ、ソン、ガッチー、れいぞうです。
   translation: 他们的名字是坦波、索恩、加奇和冷藏。
   speaker: 一之濑刚
   note: 这些名字可能源自日语中的拟声词或乐器相关词汇，具体含义不明。
+  role: answer
 - type: paragraph
   original: 彼らを探して一緒に『タソガれ』て下さいね！
   translation: 请找到他们，一起“黄昏”吧！
   speaker: 一之濑刚
   note: “タソガれ”是“黄昏”的变体，可能指游戏中的黄昏时刻或一种放松的氛围。
+  role: answer
 - type: paragraph
   original: いかがでしたでしょうか？
   translation: 您觉得如何呢？
   speaker: 一之濑刚
+  role: answer
 - type: paragraph
   original: まだまだお届けしたい声はたくさんあるのですが、
   translation: 虽然还有很多想传达的声音，
   speaker: 一之濑刚
+  role: answer
 - type: paragraph
   original: 「ポケットモンスターブラック・ホワイト」を遊んでいただくことが、私たちの想いが一番伝わる方法ではないかと思います。
   translation: 但我想，亲自游玩《宝可梦 黑/白》才是最能传达我们心意的方式。
   speaker: 一之濑刚
+  role: answer
 - type: paragraph
   original: ぜひ楽しんでくださいね！
   translation: 请务必享受游戏！
   speaker: 一之濑刚
+  role: answer
 - type: paragraph
   original: '22'
   translation: '22'
@@ -1116,35 +1158,43 @@ parallel_items:
   original: ―こんにちは。まずは自己紹介をお願いします。
   translation: ——你好。首先请做一下自我介绍。
   speaker: 提问
+  role: question
 - type: paragraph
   original: こんにちは、情報管理グループに所属しているユーリーです。
   translation: 你好，我是隶属于信息管理组的Yuri。
   speaker: ユーリー
+  role: answer
 - type: paragraph
   original: ―情報管理グループの仕事についてはユーリーさんの
   translation: ——关于信息管理组的工作，虽然Yuri先生
   speaker: 提问
+  role: question
 - type: paragraph
   original: 以前のエントリー にも説明がありますが、
   translation: 在之前的文章中也已经说明过，
   speaker: 提问
   note: 指Yuri在宝可梦官方博客上发布过的文章。
+  role: question
 - type: paragraph
   original: 簡単にいうと、どんなことをやっているのでしょう？
   translation: 简单来说，你们是做什么的呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 僕たち情報管理グループは、ゲームの開発をしているのではなく、
   translation: 我们信息管理组并不负责游戏开发，
   speaker: ユーリー
+  role: answer
 - type: paragraph
   original: できあがったゲームのストーリーが、前作までの流れから
   translation: 而是负责检查完成的游戏剧情是否偏离了前作以来的脉络，
   speaker: ユーリー
+  role: answer
 - type: paragraph
   original: 逸脱していないか、とか、登場するキャラクターの絵や表現が
   translation: 以及登场的角色画作或表现是否
   speaker: ユーリー
+  role: answer
 - type: paragraph
   original: 「ポケモンの世界観」から外れてないかを監修しています。
   translation: 我们负责监修，确保内容不偏离“宝可梦的世界观”。
@@ -1302,32 +1352,39 @@ parallel_items:
   original: こんにちは、グラフィックデザイナーのおおむらです。
   translation: 你好，我是图形设计师大村。
   speaker: 大村祐介
+  role: answer
 - type: paragraph
   original: 今回は、主にジムリーダーのキャラクターデザインを担当しました。
   translation: 这次我主要负责道馆馆主的角色设计。
   speaker: 大村祐介
+  role: answer
 - type: paragraph
   original: ―さっそく質問ですが、キャラクターデザインはどのような手順で進めるのでしょうか？
   translation: ——马上提问，角色设计是按怎样的步骤进行的呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: プランナーから渡されたシナリオや設定資料を読んで、そこからイメージを固めていくのでしょうか？
   translation: 是阅读策划提供的剧本和设定资料，然后从中确定形象吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 今作のジムリーダーの場合は、プランナーから「こういう性格で、こんな感じのキャラクターが欲しい」といったオーダーが来て、それでそのオーダーを自分なりに解釈してイメージを膨らませていったり、ときにはこちらからプランナーに提案しながら、デザインを進めました。
   translation: 关于本作的道馆馆主，策划会提出“想要这样性格、这种感觉的角色”的要求，我会按照自己的理解去诠释并扩展形象，有时也会主动向策划提出建议，就这样推进设计。
   speaker: 大村祐介
+  role: answer
 - type: paragraph
   original: 例えば、フキヨセシティのジムリーダー・フウロは、最初「姉御肌っぽい感じで」というオーダーだったんです。
   translation: 例如，吹寄市道馆馆主风露，最初的要求是“要有大姐头的感觉”。
   speaker: 大村祐介
   note: フウロ（风露）是吹寄市道馆馆主，擅长飞行属性。
+  role: answer
 - type: paragraph
   original: でも、それだとシッポウシティのジムリーダー・アロエとキャラクターが
   translation: 但是，如果那样的话，就会和七宝市道馆馆主芦荟的角色（形象）……
   speaker: 大村祐介
   note: アロエ（芦荟）是七宝市道馆馆主，擅长普通属性。
+  role: answer
 - type: paragraph
   original: 被ってしまうなーと思って…個性の強い、イロモノだらけのジムリーダーの中に
   translation: 我觉得会撞型……在充满个性强烈的奇葩道馆馆主中，
@@ -1522,6 +1579,7 @@ parallel_items:
   original: ―「伝説のポケモンに関するイベント」とは、どういったものでしょうか？
   translation: ——“与传说宝可梦相关的事件”是指什么样的内容呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 例えば、リバティチケットを手に入れてビクティニに出会うくだりなど、
   translation: 例如，获得自由船票并遇见比克提尼的情节，
@@ -1533,58 +1591,71 @@ parallel_items:
   original: ―ポケモンの設定はいつから担当していますか？
   translation: ——您从什么时候开始负责宝可梦的设定？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 初めて設定を担当したポケモンはセレビィですが、1本のソフトに
   translation: 我第一次负责设定的宝可梦是时拉比，但真正全面参与一款游戏，
   speaker: 松岛贤二
   note: 时拉比是《宝可梦 金/银》中登场的幻之宝可梦。
+  role: answer
 - type: paragraph
   original: 本格的に関わるようになったのは、
   translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
   speaker: 松岛贤二
+  role: answer
 - type: paragraph
   original: 「ポケットモンスター ルビー・サファイア」からです。
   translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
   speaker: 松岛贤二
+  role: answer
 - type: paragraph
   original: それ以前は、「BUSHI青龍伝?二人の勇者?」や、
   translation: 在那之前，我负责过《BUSHI青龙传～两人的勇者～》以及
   speaker: 松岛贤二
   note: 《BUSHI青龙传～两人的勇者～》是GAME FREAK开发的一款游戏。
+  role: answer
 - type: paragraph
   original: 「ポケットモンスター 金・銀」のカントーのシナリオを書いていました。
   translation: 《宝可梦 金/银》中关都地区的剧情。
   speaker: 松岛贤二
   note: 关都地区是《宝可梦 红/绿》的舞台，在《金/银》中作为冒险的后半部分登场。
+  role: answer
 - type: paragraph
   original: ―ポケモンのキャラクターデザインは、グラフィックデザイナー
   translation: ——宝可梦的角色设计是由图形设计师们提交各种设计稿，
   speaker: 提问
+  role: question
 - type: paragraph
   original: 全員から様々なデザインが提出されますが、それをもらってから
   translation: 您是在收到这些设计稿之后，再考虑设定吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 設定を考えるのでしょうか？
   translation: 您是在收到这些设计稿之后，再考虑设定吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: そうです。設定は基本的に後付です。
   translation: 是的。设定基本上是在设计之后追加的。
   speaker: 松岛贤二
+  role: answer
 - type: paragraph
   original: とはいえ、グラフィックデザイナーは基本的な設定を考えた上で
   translation: 不过，图形设计师们是在考虑了基本设定之后进行设计的，
   speaker: 松岛贤二
+  role: answer
 - type: paragraph
   original: デザインしているので、それを聞き出してまとめて、最終的に
   translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
   speaker: 松岛贤二
   note: 杉森指杉森建，宝可梦系列的主要设计师之一。
+  role: answer
 - type: paragraph
   original: 杉森と話し合って決めています。
   translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
   speaker: 松岛贤二
+  role: answer
 - type: paragraph
   original: ポケモン図鑑のテキストは、僕が一人で担当しています。
   translation: 宝可梦图鉴的文本，是由我一个人负责的。

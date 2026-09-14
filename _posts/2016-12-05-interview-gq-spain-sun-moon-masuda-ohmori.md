@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: 专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋
 original_title: 'Entrevistamos a los responsables de Pokémon: "No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo"'
 interview_id: PKMN-0022
@@ -40,11 +40,25 @@ parallel_items:
   original: 'GQ: ‘Pokémon Sol y Luna’ nos pareció “pura alegría de vivir”. ¿Cómo se mantiene la ilusión durante dos décadas de Pokémon? JUNICHI MASUDA: Porque es como un hijo. Es fácil mantener el amor al proyecto desde el principio hasta ahora, en parte por los jugadores de Pokémon. Que se definen a sí mismos como "primera generación", "segunda generación", y nos dejan ver desde cuándo están con nostros.'
   translation: GQ：《宝可梦 太阳／月亮》给我们带来了“纯粹的生活乐趣”。在宝可梦的二十年历程中，是如何保持这份热情的呢？增田顺一：因为它就像我们的孩子一样。从最初到现在，保持对这个项目的热爱很容易，部分原因在于宝可梦的玩家们。他们自称为“第一世代”、“第二世代”，让我们看到他们从何时起与我们同行。
 - type: dialogue
-  original: 'GQ: El primer Pokémon surge en Game Boy, una consola en blanco y negro muy limitada tecnológicamente. ¿Os ha permitido la tecnología actual llegar más allá con ‘Pokémon Sol y Luna’? J.M.: Lo interesante del juego en realidad no ha cambiado mucho desde el primer Pokémon hasta el actual. El concepto sigue siendo el mismo: buscar y capturar Pokémon, luchar contra entrenadores. La parte visual sí ha evolucionado, pero lo que nosotros queríamos hacer al principio era la parte jugable, la parte divertida, y eso lo hemos podido llevar a cabo desde el principio hasta hoy, así que nunca nos hemos visto limitados en cuanto al concepto del juego.'
-  translation: GQ：最初的宝可梦游戏诞生于Game Boy，一款技术上非常受限的黑白掌机。如今的科技是否让《宝可梦 太阳／月亮》实现了更多可能？增田：其实从最初的宝可梦游戏到现在，游戏的核心趣味并没有太大变化。概念始终如一：寻找并捕捉宝可梦，与训练家对战。视觉表现确实有所进化，但我们最初想做的，是游玩的部分，是有趣的部分，而这一点我们从一开始到现在都得以实现，所以在游戏概念上，我们从未感到受限。
+  speaker: GQ
+  original: El primer Pokémon surge en Game Boy, una consola en blanco y negro muy limitada tecnológicamente. ¿Os ha permitido la tecnología actual llegar más allá con ‘Pokémon Sol y Luna’?
+  translation: 最初的宝可梦游戏诞生于Game Boy，一款技术上非常受限的黑白掌机。如今的科技是否让《宝可梦 太阳／月亮》实现了更多可能？
+  role: question
 - type: dialogue
-  original: 'GQ: Al principio, Game Freak era un estudio muy pequeño. ¿Cómo se vivió el éxito mundial del primer Pokémon, el saber que a Pikachu le conocen en todos los países del mundo? J.M.: Con muchísima alegría: habíamos conseguido que la gente lo jugase en todas partes del mundo. Por entonces, creíamos que los juegos de rol japoneses eran complicados para el público occidental, que era difícil que dieran el salto internacional y tuviesen buena acogida. Así que nos sorprendimos y alegramos mucho. Lo que sí cambio es que, de repente, pasamos a tener muchísimo trabajo: todo se multiplicó con la serie de animación, el merchandising, los viajes al extranjero, los eventos como éste... Y el equipo también creció muchísimo.'
-  translation: GQ：起初，GAME FREAK 是一个非常小的工作室。当首款宝可梦游戏在全球范围内取得成功，得知皮卡丘被全世界各个国家的人们所熟知时，你们是如何感受的？增田：无比喜悦：我们成功让全世界的人们都玩上了这款游戏。当时，我们认为日本的角色扮演游戏对西方玩家来说颇为复杂，很难跨越国界并获得良好的反响。因此，我们既感到惊讶又非常高兴。确实发生变化的是，突然间，我们的工作量激增：随着动画系列、周边商品、海外出差以及像这样的活动，一切成倍增长……团队规模也大幅扩张。
+  speaker: 增田顺一
+  original: 'Lo interesante del juego en realidad no ha cambiado mucho desde el primer Pokémon hasta el actual. El concepto sigue siendo el mismo: buscar y capturar Pokémon, luchar contra entrenadores. La parte visual sí ha evolucionado, pero lo que nosotros queríamos hacer al principio era la parte jugable, la parte divertida, y eso lo hemos podido llevar a cabo desde el principio hasta hoy, así que nunca nos hemos visto limitados en cuanto al concepto del juego.'
+  translation: 其实从最初的宝可梦游戏到现在，游戏的核心趣味并没有太大变化。概念始终如一：寻找并捕捉宝可梦，与训练家对战。视觉表现确实有所进化，但我们最初想做的，是游玩的部分，是有趣的部分，而这一点我们从一开始到现在都得以实现，所以在游戏概念上，我们从未感到受限。
+  role: answer
+- type: dialogue
+  speaker: GQ
+  original: Al principio, Game Freak era un estudio muy pequeño. ¿Cómo se vivió el éxito mundial del primer Pokémon, el saber que a Pikachu le conocen en todos los países del mundo?
+  translation: 起初，GAME FREAK 是一个非常小的工作室。当首款宝可梦游戏在全球范围内取得成功，得知皮卡丘被全世界各个国家的人们所熟知时，你们是如何感受的？
+  role: question
+- type: dialogue
+  speaker: 增田顺一
+  original: 'Con muchísima alegría: habíamos conseguido que la gente lo jugase en todas partes del mundo. Por entonces, creíamos que los juegos de rol japoneses eran complicados para el público occidental, que era difícil que dieran el salto internacional y tuviesen buena acogida. Así que nos sorprendimos y alegramos mucho. Lo que sí cambio es que, de repente, pasamos a tener muchísimo trabajo: todo se multiplicó con la serie de animación, el merchandising, los viajes al extranjero, los eventos como éste... Y el equipo también creció muchísimo.'
+  translation: 无比喜悦：我们成功让全世界的人们都玩上了这款游戏。当时，我们认为日本的角色扮演游戏对西方玩家来说颇为复杂，很难跨越国界并获得良好的反响。因此，我们既感到惊讶又非常高兴。确实发生变化的是，突然间，我们的工作量激增：随着动画系列、周边商品、海外出差以及像这样的活动，一切成倍增长……团队规模也大幅扩张。
+  role: answer
 - type: dialogue
   original: 'GQ: ''Pokémon Sol y Luna'' ha sido el mayor éxito de la saga principal en muchos años. ¿Por qué creeis que ha sido tan bien recibido? SHIGERU OHMORI: Nos ha hecho muy felices el éxito mundial, y que en España tanta gente lo esté disfrutando. Es evidente que el 20º aniversario ha influido bastante, que parte de la gente que nos ha seguido en algún momento de estas décadas lo está celebrando con ''Sol y Luna'' ahora. Y el gran éxito que ha tenido ‘Pokémon Go’. Creo que eso también hizo que se despertara un especial interés hacia este ''Pokémon Sol y Luna''.'
   translation: GQ：《宝可梦 太阳／月亮》是多年来该系列主线作品中最为成功的一作。您认为它为何能受到如此热烈的欢迎？大森滋：全球范围内的成功让我们倍感欣喜，西班牙有如此多的人乐在其中，也让我们非常高兴。显然，20周年纪念的影响相当大，这几十年来曾伴随我们左右的部分玩家，如今正通过《太阳／月亮》来庆祝这一时刻。加之《Pokémon GO》取得的巨大成功，我认为这也激发了人们对《宝可梦 太阳／月亮》特别浓厚的兴趣。
@@ -55,17 +69,38 @@ parallel_items:
   original: 'GQ: ¿Y la relación Pokémon/entorno? ¿Cómo se decide, por ejemplo, ambientar el juego actual en Alola [Hawai]? S.O.: Lo primero es tener claro que queremos hacer en el juego. En qué consiste la entrega. Nos planteamos qué son los Pokémon, cuál es su relación con los humanos… Aquí queríamos que la relación entre los humanos y los Pokémon fuese más de amistad. Y pensamos en Hawai, en su concepto de la amistad, en la especial relación de su gente con la naturaleza, mucho más cercana. Eso nos inspiró para crear el mundo de Alola, y también para crear a los nuevos Pokémon.'
   translation: GQ：那么宝可梦与环境的关系呢？比如说，决定将当前游戏设定在阿罗拉地区［夏威夷］，是如何做出这个决定的？大森：首先，我们要明确游戏中想要实现的目标，即这一作品的核心是什么。我们思考宝可梦的本质，它们与人类之间的关系……在这里，我们希望人类与宝可梦之间的关系更多基于友情。于是，我们想到了夏威夷，想到了那里对友情的理解，以及当地人与自然之间那种更为紧密的特殊联系。这激发了我们的灵感，不仅创造了阿罗拉的世界，还催生了新的宝可梦角色。
 - type: dialogue
-  original: 'GQ: ''Pokémon Sol y Luna'' me parece la entrega más accesible de la saga. La historia del niño que descubre su nuevo hogar y los personajes humanos que le acompañan tienen un aire distinto al de todas las entregas anteriores. ¿Se pensó en esa accesibilidad desde el principio? J.M.: Sí, todo está pensado para que quien no haya jugado nunca pueda empezar fácilmente. Todo es muy intuitivo, y hemos integrado las explicaciones necesarias para cualquier elemento del juego. Es especialmente accesible para gente nueva.'
-  translation: GQ：《宝可梦 太阳／月亮》在我看来是该系列中最易上手的一作。故事讲述了一个孩子发现新家园的旅程，以及陪伴他的人类角色，这些都与以往所有作品有着不同的氛围。这种易上手性是从一开始就考虑到的吗？增田：是的，一切都设计得让从未玩过的人也能轻松开始。所有内容都非常直观，我们为游戏中的任何元素都整合了必要的说明。对新手来说尤其友好。
+  speaker: GQ
+  original: '''Pokémon Sol y Luna'' me parece la entrega más accesible de la saga. La historia del niño que descubre su nuevo hogar y los personajes humanos que le acompañan tienen un aire distinto al de todas las entregas anteriores. ¿Se pensó en esa accesibilidad desde el principio?'
+  translation: 《宝可梦 太阳／月亮》在我看来是该系列中最易上手的一作。故事讲述了一个孩子发现新家园的旅程，以及陪伴他的人类角色，这些都与以往所有作品有着不同的氛围。这种易上手性是从一开始就考虑到的吗？
+  role: question
+- type: dialogue
+  speaker: 增田顺一
+  original: Sí, todo está pensado para que quien no haya jugado nunca pueda empezar fácilmente. Todo es muy intuitivo, y hemos integrado las explicaciones necesarias para cualquier elemento del juego. Es especialmente accesible para gente nueva.
+  translation: 是的，一切都设计得让从未玩过的人也能轻松开始。所有内容都非常直观，我们为游戏中的任何元素都整合了必要的说明。对新手来说尤其友好。
+  role: answer
 - type: dialogue
   original: 'GQ: Y, al mismo tiempo, habéis metido un guiño para los jugadores veteranos. En la región podemos ver a los Pokémon originales, los clásicos, con nuevas apariencia y habilidades. S.O.: Lo primero es pensar qué tipo de lugar es Alola, de qué tipo de concepto hablamos y qué características alberga. Es un archipiélago con distintas localizaciones. Hay una isla con un volcán que ya sugiere qué tipo de Pokémon vas a encontrar. En la gran ciudad, por ejemplo, aparecen más roedores porque se alimentan de la comida de los humanos. Y hay una localización que está inspirada directamente en las Galápagos. Así llegamos a la idea de que los Pokémon habrían evolucionado de forma distinta al estar más apartados. Nos parecía interesante hacer el guiño a los jugadores de ''Pokémon Rojo y Azul'', de presentarles a los Pokémon que querían y conocían de forma sorprendente, con una evolución distinta.'
   translation: GQ：同时，你们也为老玩家埋下了一个彩蛋。在这个地区，我们可以看到初代的宝可梦，那些经典角色，以全新的外观和能力登场。大森：首先，我们要思考阿罗拉是个怎样的地方，它承载着何种概念，又具备哪些特色。这是一个由不同地点组成的群岛。有一座岛屿上有火山，这已经暗示了你会遇到什么样的宝可梦。比如，在大城市里，会出现更多啮齿类宝可梦，因为它们以人类的食物为生。还有一个地点的灵感直接来源于科隆群岛。由此，我们萌生了一个想法：如果宝可梦因地处偏远而走上了不同的进化道路，会怎样呢？我们觉得，向《宝可梦 红／蓝》的玩家致敬，以一种令人惊喜的方式，用不同的进化形态，呈现他们喜爱且熟知的宝可梦，会非常有趣。
 - type: dialogue
-  original: 'GQ: ¿Cómo se consigue ese equilibrio al diseñar un juego que tiene que estar dirigido a la vez a nuevos jugadores, a niños, a veteranos que ya tienen edad para ser padres...? J.M.: Pensamos mucho en la edad de nuestros usuarios. Cuando empezamos, nuestro público objetivo tenía 10 años, y ahora tienen 30. Ese público es del que más datos tenemos, es fácil pensar en ellos. Pero el reto es cómo juega una persona de 10 años actual. Dónde, cuándo, de qué manera. Sabemos que los niños y jóvenes actuales necesitan algo más sencillo y accesible. Y también que los de 20 años tienen conductas distintas. Tenemos todo eso en cuenta. [Tras unos segundos en silencio] Y dentro de 10 años, tendremos un rango de edad de 10 a 40 años.'
-  translation: GQ：在设计一款既要面向新玩家、儿童，又要兼顾已为人父母的资深玩家……的游戏时，如何实现这种平衡？增田：我们非常重视用户的年龄层。起初，我们的目标受众是10岁的孩子，如今他们已30岁。这部分人群的数据我们掌握得最多，考虑起来也相对容易。但挑战在于，现在的10岁孩子是如何游戏的——在哪儿玩、何时玩、怎么玩。我们知道，当代的儿童和青少年需要更简单、更易上手的内容。同时，20多岁的年轻人行为模式也有所不同。所有这些我们都考虑在内。 [沉默几秒后] 而10年后，我们的受众年龄跨度将会是10岁到40岁。
+  speaker: GQ
+  original: ¿Cómo se consigue ese equilibrio al diseñar un juego que tiene que estar dirigido a la vez a nuevos jugadores, a niños, a veteranos que ya tienen edad para ser padres...?
+  translation: 在设计一款既要面向新玩家、儿童，又要兼顾已为人父母的资深玩家……的游戏时，如何实现这种平衡？
+  role: question
 - type: dialogue
-  original: 'GQ: ¡¿Estáis pensando en cómo será Pokémon dentro de 10 años?! J.M.: Y más. Seguramente, terminará siendo un juego para todas las generaciones de la familia [risas].'
-  translation: GQ：你们是否在设想10年后的宝可梦会是什么样子？！增田：不止如此。最终，它很可能会成为适合家庭所有世代同乐的游戏［笑］。
+  speaker: 增田顺一
+  original: Pensamos mucho en la edad de nuestros usuarios. Cuando empezamos, nuestro público objetivo tenía 10 años, y ahora tienen 30. Ese público es del que más datos tenemos, es fácil pensar en ellos. Pero el reto es cómo juega una persona de 10 años actual. Dónde, cuándo, de qué manera. Sabemos que los niños y jóvenes actuales necesitan algo más sencillo y accesible. Y también que los de 20 años tienen conductas distintas. Tenemos todo eso en cuenta. [Tras unos segundos en silencio] Y dentro de 10 años, tendremos un rango de edad de 10 a 40 años.
+  translation: 我们非常重视用户的年龄层。起初，我们的目标受众是10岁的孩子，如今他们已30岁。这部分人群的数据我们掌握得最多，考虑起来也相对容易。但挑战在于，现在的10岁孩子是如何游戏的——在哪儿玩、何时玩、怎么玩。我们知道，当代的儿童和青少年需要更简单、更易上手的内容。同时，20多岁的年轻人行为模式也有所不同。所有这些我们都考虑在内。 [沉默几秒后] 而10年后，我们的受众年龄跨度将会是10岁到40岁。
+  role: answer
+- type: dialogue
+  speaker: GQ
+  original: ¡¿Estáis pensando en cómo será Pokémon dentro de 10 años?!
+  translation: 你们是否在设想10年后的宝可梦会是什么样子？！
+  role: question
+- type: dialogue
+  speaker: 增田顺一
+  original: Y más. Seguramente, terminará siendo un juego para todas las generaciones de la familia [risas].
+  translation: 不止如此。最终，它很可能会成为适合家庭所有世代同乐的游戏［笑］。
+  role: answer
 - type: dialogue
   original: 'GQ: Para terminar, ¿cuál es vuestro Pokémon favorito? J.M.: ¡Psyduck! [Masuda tuvo uno en su tarjeta de visita, y cuenta también con uno en su equipo]. Oh, y el Exeggutor de Alola. S.O.: Rockruff. Me gusta mucho su forma de evolucionar [se convierte en dos Pokémon con el mismo nombre, pero muy distintos, dependiendo de si lo hace en ''Sol'' o en ''Luna''].'
   translation: GQ：最后，你们最喜欢的宝可梦是哪只？增田：可达鸭！［增田的名片上就印着一只可达鸭，他的队伍中也有一只］。哦，还有阿罗拉的椰蛋树。大森：岩狗狗。我非常喜欢它的进化方式［根据在《太阳》或《月亮》中进化的不同，它会变成两种同名但截然不同的宝可梦］。

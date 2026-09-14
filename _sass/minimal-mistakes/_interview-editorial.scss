@@ -1,0 +1,557 @@
+/* ==========================================================================
+   Interview, editorial
+   _layouts/interview-editorial.html
+
+   The period is 2014-2017 game media - the launch-era web of Sun / Moon and
+   the 3DS: white ground, a heavy grotesque for display, one warm accent from
+   the Sun cover and one cool one from Moon, hairline rules, tag-shaped
+   metadata, a large photograph, numbered chapters. It is meant to read as
+   that era with the year covered up, which no amount of parchment could do.
+
+   Everything is scoped to the layout's body class, so the other interview
+   layout and the era shells are untouched.
+
+   Sizes are in px, not rem, on purpose: the theme scales the root font to
+   22px at wide viewports, which turned a 56rem hero into 1232px and a 44rem
+   measure into 968px. A component with its own scale has to state it.
+   ========================================================================== */
+
+$ed-ink: #14171c;
+$ed-ink-soft: #4b535e;
+$ed-ink-faint: #8b929c;
+$ed-rule: #e2e5ea;
+$ed-paper: #ffffff;
+$ed-sun: #ff6a1f;          /* Solgaleo's cover orange */
+$ed-moon: #3b5bdb;         /* Lunala's cover blue */
+$ed-display: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$ed-text: "Inter", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$ed-measure: 704px;
+
+.layout--interview-editorial {
+  background: $ed-paper;
+
+  .initial-content {
+    background: $ed-paper !important;
+    background-image: none !important;
+  }
+
+  .ed {
+    position: relative;
+    max-width: 992px;
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 0 20px 64px;
+    color: $ed-ink;
+    font-family: $ed-text;
+    line-height: 1.75;
+  }
+
+  /* ---- tools: one word and a gear, top right ------------------------- */
+  .ed-tools {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    z-index: 5;
+  }
+
+  .ed-tools__summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 24px;
+    padding: 5px 10px;
+    border: 1px solid $ed-rule;
+    border-radius: 999px;
+    background: $ed-paper;
+    color: $ed-ink-soft;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .ed-tools__summary::-webkit-details-marker { display: none; }
+  .ed-tools__summary:hover, .ed-tools[open] .ed-tools__summary { border-color: $ed-ink-soft; color: $ed-ink; }
+  .ed-tools__gear { opacity: 0.7; }
+
+  .ed-tools:not([open]) .ed-tools__panel { display: none; }
+
+  .ed-tools[open] .ed-tools__panel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    min-width: 256px;
+    padding: 14px 16px;
+    border: 1px solid $ed-rule;
+    border-radius: 6px;
+    background: $ed-paper;
+    box-shadow: 0 12px 32px rgba(20, 23, 28, 0.12);
+  }
+
+  .ed-tools__group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+  }
+
+  .ed-tools__label { color: $ed-ink-faint; font-size: 11px; margin-right: 3px; }
+
+  .ed-tools__btn {
+    min-height: 24px;
+    padding: 4px 10px;
+    border: 1px solid $ed-rule;
+    border-radius: 4px;
+    background: $ed-paper;
+    color: $ed-ink-soft;
+    font: inherit;
+    font-size: 11px;
+    cursor: pointer;
+  }
+
+  .ed-tools__btn:hover { border-color: $ed-ink-soft; color: $ed-ink; }
+  .ed-tools__btn.is-active, .ed-tools__btn[aria-pressed="true"], .ed-tools__btn.is-filter-active {
+    border-color: $ed-ink;
+    background: $ed-ink;
+    color: $ed-paper;
+  }
+
+  /* ---- cover ---------------------------------------------------------- */
+  .ed-cover {
+    max-width: $ed-measure;
+    margin: 42px auto 0;
+    padding-top: 19px;
+    border-top: 3px solid $ed-ink;
+  }
+
+  .ed-kicker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 10px;
+    margin: 0 0 22px;
+    color: $ed-sun;
+    font-family: $ed-display;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .ed-kicker > span + span::before { content: "/"; margin-right: 10px; color: $ed-ink-faint; font-weight: 400; }
+
+  .ed-title {
+    margin: 0 0 18px;
+    font-family: $ed-display;
+    font-size: clamp(30px, 4.2vw, 46px);
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    color: $ed-ink;
+  }
+
+  .ed-people {
+    margin: 0 0 10px;
+    font-family: $ed-display;
+    font-size: 17px;
+    font-weight: 700;
+    color: $ed-ink;
+  }
+
+  .ed-dek {
+    max-width: 608px;
+    margin: 0 0 22px;
+    font-size: 16px;
+    line-height: 1.65;
+    color: $ed-ink-soft;
+  }
+
+  .ed-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 9px;
+    margin: 0;
+    padding: 12px 0;
+    border-top: 1px solid $ed-rule;
+    border-bottom: 1px solid $ed-rule;
+    font-size: 12px;
+    color: $ed-ink-faint;
+  }
+
+  .ed-meta > * + *::before { content: "·"; margin-right: 9px; }
+  .ed-meta a { color: $ed-moon; text-decoration: none; }
+  .ed-meta a:hover { text-decoration: underline; }
+
+  /* ---- hero ----------------------------------------------------------- */
+  .ed-hero {
+    display: block;
+    max-width: 896px;
+    margin: 32px auto 42px;
+    padding: 0;
+  }
+
+  .ed-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+  }
+
+  .ed-hero figcaption,
+  .ed-figure figcaption {
+    margin-top: 9px;
+    font-size: 11px;
+    line-height: 1.5;
+    color: $ed-ink-faint;
+  }
+
+  .ed-figure {
+    display: block;
+    max-width: 832px;
+    margin: 38px auto;
+    padding: 0;
+  }
+
+  .ed-figure img { display: block; width: 100%; height: auto; border-radius: 2px; }
+
+  /* ---- body ----------------------------------------------------------- */
+  .ed-body {
+    max-width: $ed-measure;
+    margin: 0 auto;
+    font-size: 17px;
+  }
+
+  /* The turns keep .parallel-text__cell* for the shared script, and the
+     other layout's stylesheet has unscoped base rules on those classes -
+     0.72rem type, its own ink, a hidden toggle. Two classes here outrank
+     one there; these say so explicitly rather than relying on order. */
+  .ed-trans, .ed-orig { font-size: inherit; color: inherit; line-height: inherit; padding: 0; margin: 0; border: 0; background: none; }
+  .ed-orig-toggle { display: inline-flex; }
+  /* .parallel-text__block is a card there - border, radius, shadow, white
+     fill. Here a turn is prose. Measured leaking at 543px before this. */
+  .ed-turn { border: 0; border-radius: 0; padding: 0; background: none; box-shadow: none; }
+
+  .ed-turn { position: relative; margin: 0 0 22px; }
+  .ed-turn p { margin: 0 0 1em; }
+  .ed-turn p:last-child { margin-bottom: 0; }
+
+  /* The lead is the article's own first paragraph, set larger. */
+  .ed-lead .ed-trans { font-size: 19px; line-height: 1.7; color: $ed-ink; }
+
+  /* Chapters: a number in the accent, a short title, then the question. */
+  .ed-chapter { margin-top: 48px; }
+
+  .ed-chapter__head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin: 0 0 18px;
+    padding-top: 19px;
+    border-top: 1px solid $ed-rule;
+  }
+
+  .ed-chapter__num {
+    flex: 0 0 auto;
+    font-family: $ed-display;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: $ed-sun;
+  }
+
+  .ed-chapter__title {
+    margin: 0;
+    font-family: $ed-display;
+    font-size: 23px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    color: $ed-ink;
+  }
+
+  /* Who is speaking. Set to be seen before the text is read: a bar in the
+     speaker's colour, then the name in the display face. Questions in the
+     Sun accent, answers in ink with a Moon bar - two colours, two roles,
+     legible at a glance down the page. No uppercase: it does nothing for a
+     CJK name and would only hit the Latin ones. */
+  .ed-turn__who {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 8px;
+    font-family: $ed-display;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    color: $ed-sun;
+  }
+
+  .ed-turn__who::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 4px;
+    height: 16px;
+    border-radius: 2px;
+    background: currentColor;
+  }
+
+  .ed-turn--answer .ed-turn__who { color: $ed-ink; }
+  .ed-turn--answer .ed-turn__who::before { background: $ed-moon; }
+
+  /* A question is set a little apart from the answers that follow it. */
+  .ed-turn--question .ed-trans {
+    font-size: 17px;
+    font-weight: 600;
+    color: $ed-ink;
+  }
+
+  .ed-turn--question { margin-bottom: 18px; }
+
+  /* No editorial chapter title: the question itself is the head. Sized as a
+     heading so the page still reads big question -> answer, the way section
+     9 of the redesign note lays it out. */
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-chapter__head { margin-bottom: 6px; }
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $ed-display;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: -0.005em;
+  }
+
+  /* ---- original text: a tag in the margin, opening under the paragraph */
+  /* Both stated explicitly. The other stylesheet's unscoped
+     .parallel-text__pair makes every turn a grid, and a closed <details> was
+     still laying out its content at 421px - measured - so the closed state is
+     declared rather than assumed. */
+  .ed-turn__text { position: relative; display: block; }
+  .parallel-text__cell--original:not([open]) .ed-orig { display: none; }
+
+  .ed-orig-toggle {
+    position: absolute;
+    top: 2px;
+    left: -46px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 2px 5px;
+    border: 1px solid $ed-ink-faint;
+    border-radius: 3px;
+    background: $ed-paper;
+    color: $ed-ink-soft;
+    font-family: $ed-display;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .ed-orig-toggle::-webkit-details-marker { display: none; }
+  .ed-orig-toggle:hover, .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $ed-moon; color: $ed-moon; }
+
+  .parallel-text__cell--original { display: block; }
+
+  .parallel-text__cell--original[open] .ed-orig {
+    margin: 6px 0 16px;
+    padding: 3px 0 3px 14px;
+    border-left: 2px solid $ed-rule;
+    font-size: 15px;
+    line-height: 1.65;
+    color: $ed-ink-soft;
+  }
+
+  /* ---- pull quote: the one line you are meant to see -------------------- */
+  .ed-pull {
+    max-width: 832px;
+    margin: 38px auto;
+    padding: 26px 0;
+    /* the theme's blockquote adds a blue left rule and italics; neither
+       belongs on a display quotation ruled in the accent above */
+    border: 0;
+    border-top: 3px solid $ed-sun;
+    border-bottom: 1px solid $ed-rule;
+    font-style: normal;
+    text-align: left;
+  }
+
+  .ed-pull p {
+    margin: 0;
+    font-family: $ed-display;
+    font-size: clamp(24px, 3.4vw, 36px);
+    font-weight: 800;
+    letter-spacing: -0.015em;
+    line-height: 1.25;
+    color: $ed-ink;
+  }
+
+  .ed-pull footer {
+    margin-top: 11px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    color: $ed-ink-faint;
+  }
+
+  /* ---- notes: a reference mark, not a control --------------------------- */
+  .ed-note {
+    display: inline-block;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 3px 4px;
+    border: 0;
+    background: none;
+    color: $ed-sun;
+    font-size: 0.85em;
+    vertical-align: super;
+    line-height: 1.15;
+    cursor: pointer;
+  }
+
+  .parallel-text__note-popover { display: none; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover {
+    display: block;
+    margin: 10px 0 0;
+    padding: 13px 16px;
+    border-left: 2px solid $ed-sun;
+    background: #fff7f2;
+    font-size: 14px;
+    color: $ed-ink-soft;
+  }
+
+  /* ---- epilogue and archive -------------------------------------------- */
+  .ed-epilogue {
+    max-width: $ed-measure;
+    margin: 48px auto 0;
+    padding-top: 22px;
+    border-top: 1px solid $ed-rule;
+    font-size: 15px;
+    color: $ed-ink-soft;
+  }
+
+  .ed-epilogue h2 {
+    margin: 0 0 10px;
+    font-family: $ed-display;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $ed-ink-faint;
+  }
+
+  .ed-archive {
+    max-width: $ed-measure;
+    margin: 56px auto 0;
+    padding-top: 19px;
+    border-top: 3px solid $ed-ink;
+    font-size: 13px;
+    color: $ed-ink-soft;
+  }
+
+  .ed-archive__record > summary {
+    cursor: pointer;
+    list-style: none;
+    font-family: $ed-display;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $ed-ink;
+  }
+
+  .ed-archive__record > summary::-webkit-details-marker { display: none; }
+  .ed-archive__record > summary::after { content: " ▸"; color: $ed-ink-faint; }
+  .ed-archive__record[open] > summary::after { content: " ▾"; }
+
+  .ed-archive .parallel-archive-record__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(176px, 1fr));
+    gap: 10px 19px;
+    margin: 16px 0 0;
+  }
+
+  .ed-archive dt { font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: $ed-ink-faint; }
+  .ed-archive dd { margin: 2px 0 0; color: $ed-ink; }
+  .ed-archive .resource-card { margin-top: 16px; }
+  .ed-archive .parallel-archive-route { margin-top: 19px; display: flex; gap: 16px; flex-wrap: wrap; }
+  .ed-archive .parallel-archive-route a { color: $ed-moon; text-decoration: none; }
+  .ed-archive .parallel-archive-route a:hover { text-decoration: underline; }
+
+  /* ---- views ------------------------------------------------------------ */
+  /* parallel: the original opens beside the translation for every turn */
+  .ed[data-view="parallel"] .ed-turn__text {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 26px;
+  }
+
+  .ed[data-view="parallel"] .ed-orig-toggle { display: none; }
+  .ed[data-view="parallel"] .parallel-text__cell--original .ed-orig,
+  .ed[data-view="parallel"] .parallel-text__cell--original[open] .ed-orig {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 15px;
+    color: $ed-ink-soft;
+  }
+
+  .ed[data-view="parallel"] .ed-body,
+  .ed[data-view="parallel"] .ed-pull,
+  .ed[data-view="parallel"] .ed-cover { max-width: 992px; }
+
+  /* original: only the source language, set as the main text */
+  .ed[data-view="original"] .ed-trans { display: none; }
+  .ed[data-view="original"] .ed-orig-toggle { display: none; }
+  .ed[data-view="original"] .parallel-text__cell--original .ed-orig,
+  .ed[data-view="original"] .parallel-text__cell--original[open] .ed-orig {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    color: $ed-ink;
+  }
+
+  /* speaker filter from the shared script */
+  .ed .parallel-text.is-filtering .parallel-text__block:not(.is-match-speaker) { opacity: 0.22; }
+
+  /* zen: the article alone */
+  &.is-zen-mode .masthead,
+  &.is-zen-mode .page__footer { display: none; }
+
+  /* ---- dark theme, from the same button the other layout has ----------- */
+  .ed[data-reading-theme="dark"] {
+    color: #e6e8ec;
+
+    .ed-tools__summary, .ed-tools[open] .ed-tools__panel, .ed-tools__btn, .ed-orig-toggle { background: #15181d; border-color: #2a2f37; color: #c7ccd4; }
+    .ed-tools__btn.is-active, .ed-tools__btn[aria-pressed="true"] { background: #e6e8ec; color: #15181d; border-color: #e6e8ec; }
+    .ed-cover { border-top-color: #e6e8ec; }
+    .ed-title, .ed-people, .ed-chapter__title, .ed-pull p, .ed-lead .ed-trans, .ed-turn--question .ed-trans, .ed-archive dd, .ed-turn--answer .ed-turn__who { color: #f2f3f5; }
+    .ed-dek, .ed-epilogue, .parallel-text__cell--original[open] .ed-orig { color: #aeb5bf; }
+    .ed-meta, .ed-chapter__head, .ed-pull, .ed-epilogue, .ed-archive { border-color: #2a2f37; }
+    .ed-archive { border-top-color: #e6e8ec; }
+    .parallel-text__block.is-note-open .parallel-text__note-popover { background: #1c1a17; color: #d5cfc7; }
+  }
+
+  &:has(.ed[data-reading-theme="dark"]) { background: #0f1115; }
+  &:has(.ed[data-reading-theme="dark"]) .initial-content { background: #0f1115 !important; }
+
+  /* ---- narrow ------------------------------------------------------------ */
+  @media (max-width: 720px) {
+    .ed { padding: 0 16px 48px; }
+    .ed-tools { right: 16px; }
+    .ed-cover { margin-top: 51px; }
+    .ed-orig-toggle { position: static; margin-bottom: 5px; }
+    .ed[data-view="parallel"] .ed-turn__text { grid-template-columns: minmax(0, 1fr); }
+  }
+}

@@ -14,3 +14,4 @@ search: false
 /* last, so an era shell can override the theme-bg-* rules in custom-themes,
    which are !important and would otherwise win on source order */
 @import "minimal-mistakes/era-shell";
+@import "minimal-mistakes/interview-editorial";

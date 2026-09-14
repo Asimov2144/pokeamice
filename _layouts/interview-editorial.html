@@ -1,0 +1,306 @@
+---
+layout: default
+---
+{%- comment -%}
+An interview republished as an article, not displayed as a record.
+
+The order is editorial: cover, hero photograph, lead, scene, then the
+interview in chapters - each question is a chapter head, each answer is prose
+under the speaker's name, and a line the editor marks with `pull` becomes a
+full-width quotation. The archive - source, record, workflow, related - closes
+the page rather than opening it.
+
+Data contract is the same parallel_items as parallel-translation.html, plus
+three optional editorial fields:
+  item.role     "question" | "answer" on dialogue turns (split_turns.py makes these)
+  item.chapter  short title for a question turn - the chapter head
+  item.pull     the sentence of an answer to pull out full-width
+and on the page: dateline, dek.
+
+The reading tools - view, theme, zen, notes, speaker filter - are the same
+script the other layout uses, so the .parallel-text__* hooks it binds to are
+kept on the turns even though the presentation around them is new.
+{%- endcomment -%}
+{% assign items = page.parallel_items | default: page.translation_segments | default: page.segments %}
+{% assign original_lang = page.original_lang | default: "ja" %}
+{% assign translation_lang = page.translation_lang | default: "zh-CN" %}
+{% assign default_view = page.parallel_view | default: "translation" %}
+{%- comment -%}
+  The cover photograph is the first image, but only if it is a photograph:
+  the recruit pages open with a numbered gif badge, which is not a cover. A
+  page can name one with `hero_image`, or refuse one with `hero: false`.
+{%- endcomment -%}
+{% assign hero = nil %}
+{% unless page.hero == false %}
+  {% for candidate in items %}
+    {% if candidate.type == "image" %}
+      {% assign hero_path = candidate.image | default: candidate.src | default: "" | downcase %}
+      {% unless hero_path contains ".gif" %}{% assign hero = candidate %}{% break %}{% endunless %}
+    {% elsif candidate.role %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
+{% assign record_source_title = page.source.title | default: page.source_name | default: page.publication | default: "未标注来源" %}
+{% assign record_people = page.interviewee | default: "未标注" %}
+{% assign record_work = page.entities.works | join: "、" | default: "未标注" %}
+{% assign record_language = page.source.language | default: original_lang %}
+{% assign record_status = page.workflow.published | default: "published" %}
+{% assign source_kind = page.source.source_type | default: page.source_kind | default: "web_interview" %}
+{% assign outlet = page.source_name | default: page.publication | default: page.source.title | default: "" %}
+{% assign outlet_short = outlet | split: "（" | first | split: "(" | first | strip %}
+{% assign reading_chars = items | map: "translation" | join: "" | size %}
+{% assign reading_minutes = reading_chars | divided_by: 400 %}
+{% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
+{% assign source_url = page.original_link | default: page.source_url | default: page.source.url | default: "" %}
+{% include era-skin.html %}
+
+{%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
+{% assign answerers = "" | split: "" %}
+{% for it in items %}
+  {% if it.role == "answer" and it.speaker %}
+    {% unless answerers contains it.speaker %}{% assign answerers = answerers | push: it.speaker %}{% endunless %}
+  {% endif %}
+{% endfor %}
+{% assign interviewer_label = page.interviewer | default: outlet_short | split: "（" | first | strip %}
+
+<div class="interview-reading-progress" id="readingProgressBar" aria-hidden="true"></div>
+
+{%- comment -%}
+  No `parallel-translation` class on the root. The shared script finds the
+  root by the data attribute, and the class would pull in the other layout's
+  whole [data-view] rule family - it did, and set this page's answers to
+  0.92rem and hid every original toggle before this was removed.
+{%- endcomment -%}
+<main class="ed" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
+
+  {%- comment -%}
+    One small control, not a bar. The current view reads as a word; everything
+    else waits behind the gear. Same buttons and data attributes the shared
+    script binds to.
+  {%- endcomment -%}
+  <details class="ed-tools parallel-tools" aria-label="阅读设置">
+    <summary class="ed-tools__summary">
+      <span class="ed-tools__view" data-ed-current-view>译文</span>
+      <span class="ed-tools__gear" aria-hidden="true">⚙</span>
+      <span class="screen-reader-text">阅读设置</span>
+    </summary>
+    <div class="ed-tools__panel parallel-tools__panel">
+      <div class="ed-tools__group" role="group" aria-label="版本">
+        <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true">译文</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false">双栏对照</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false">原文</button>
+      </div>
+      <div class="ed-tools__group" role="group" aria-label="主题">
+        <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true">年代主题</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false">深色</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false">纯净</button>
+      </div>
+      <div class="ed-tools__group" role="group" aria-label="阅读">
+        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle">专注模式</button>
+      </div>
+      {% if answerers.size > 0 %}
+        <div class="ed-tools__group parallel-cast-bar" role="group" aria-label="只看某人">
+          <span class="ed-tools__label">只看</span>
+          {% for sp in answerers %}
+            <button type="button" class="ed-tools__btn parallel-cast-chip parallel-cast-chip--guest" data-speaker="{{ sp | escape }}" aria-pressed="false">{{ sp }}</button>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </details>
+
+  <article class="ed-article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+
+    {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
+    <header class="ed-cover">
+      <p class="ed-kicker">
+        <span>{{ page.date | date: "%Y" }}</span>
+        {% if page.dateline %}<span>{{ page.dateline }}</span>{% endif %}
+        {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
+      </p>
+      {%- comment -%}
+        The display title can be the line itself - "Nintendo Switch 就是未来" -
+        while page.title stays the full descriptive one for the <title>, the
+        index and search. A magazine cover does not say who ran the interview
+        in the headline; the kicker and the dek already do.
+      {%- endcomment -%}
+      <h1 class="ed-title" itemprop="headline">{{ page.display_title | default: page.title }}</h1>
+      {% if answerers.size > 0 %}
+        <p class="ed-people">{{ answerers | join: " × " }}</p>
+      {% endif %}
+      {% if page.dek %}
+        <p class="ed-dek">{{ page.dek }}</p>
+      {% endif %}
+      <p class="ed-meta">
+        {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
+        <span>{{ page.date | date: "%Y.%m.%d" }}</span>
+        <span>约 {{ reading_minutes }} 分钟</span>
+        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">原文 ↗</a>{% endif %}
+      </p>
+    </header>
+
+    {%- comment -%} The photograph is the cover, not an attachment. {%- endcomment -%}
+    {% if hero %}
+      {% assign hero_src = hero.image | default: hero.src %}
+      <figure class="ed-hero">
+        <img src="{{ hero_src | relative_url }}" alt="{{ hero.alt | default: hero.caption | default: page.title | escape }}" decoding="async">
+        {% if hero.caption %}<figcaption>{{ hero.caption }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+
+    <div class="ed-body parallel-text parallel-text--web-article" id="parallel-reading">
+      {% assign chapter = 0 %}
+      {% assign lead_done = false %}
+      {% for item in items %}
+        {% assign item_type = item.type | default: "paragraph" %}
+
+        {% if item_type == "image" %}
+          {% if item != hero %}
+            {% assign src = item.image | default: item.src %}
+            {% if src %}
+              <figure class="ed-figure">
+                <img src="{{ src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}" loading="lazy" decoding="async">
+                {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
+              </figure>
+            {% endif %}
+          {% endif %}
+
+        {% elsif item_type == "heading" or item_type == "header" %}
+          {%- comment -%}
+            The recruit pieces already carry their questions as headings with
+            the answers under them. A heading that an answer follows is a
+            chapter, numbered like a question turn; any other heading is a
+            plain section head.
+          {%- endcomment -%}
+          {% assign heading_text = item.translation | default: item.title | default: item.original %}
+          {% assign next_item = items[forloop.index] %}
+          {%- comment -%} the recruit pages put a photograph between the question and the answers {%- endcomment -%}
+          {% if next_item.type == "image" %}{% assign after = forloop.index | plus: 1 %}{% assign next_item = items[after] %}{% endif %}
+          {% if next_item.role == "answer" or next_item.type == "profile" %}
+            {% if chapter > 0 %}</section>{% endif %}
+            {% assign chapter = chapter | plus: 1 %}
+            <section class="ed-chapter" id="chapter-{{ chapter }}">
+              <header class="ed-chapter__head">
+                <span class="ed-chapter__num">{% if chapter < 10 %}0{% endif %}{{ chapter }}</span>
+                <h2 class="ed-chapter__title">{{ heading_text }}</h2>
+              </header>
+          {% else %}
+            <h2 class="ed-heading" id="section-{{ forloop.index }}">{{ heading_text }}</h2>
+          {% endif %}
+
+        {% elsif item.role == "question" %}
+          {%- comment -%}
+            A chapter runs from one question to the next, however many answers
+            sit between - closing it after each answer would drop a second
+            reply outside its chapter.
+          {%- endcomment -%}
+          {% if chapter > 0 %}</section>{% endif %}
+          {% assign chapter = chapter | plus: 1 %}
+          <section class="ed-chapter" id="chapter-{{ chapter }}">
+            <header class="ed-chapter__head">
+              <span class="ed-chapter__num">{% if chapter < 10 %}0{% endif %}{{ chapter }}</span>
+              {% if item.chapter %}<h2 class="ed-chapter__title">{{ item.chapter }}</h2>{% endif %}
+            </header>
+            <div class="ed-turn ed-turn--question parallel-text__block has-speaker speaker-is-question" id="segment-{{ forloop.index }}" data-speaker="{{ item.speaker | default: interviewer_label | escape }}">
+              <p class="ed-turn__who">{{ item.speaker | default: interviewer_label }}</p>
+              <div class="ed-turn__text parallel-text__pair">
+                <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
+                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{{ item.original_lang | default: original_lang | slice: 0, 2 | upcase }}</span></summary>
+                  <div class="ed-orig">{{ item.original | markdownify }}</div>
+                </details>
+                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
+              </div>
+            </div>
+
+        {% else %}
+          {%- comment -%}
+            Narrative before the first chapter is the lead and the scene;
+            an answer turn is prose under its speaker's name; a marked line
+            becomes the pull quote after it.
+          {%- endcomment -%}
+          {% assign is_answer = false %}{% if item.role == "answer" or item_type == "profile" %}{% assign is_answer = true %}{% endif %}
+          {% assign classes = "ed-turn parallel-text__block" %}
+          {% if is_answer %}{% assign classes = classes | append: " ed-turn--answer has-speaker speaker-is-guest" %}{% endif %}
+          {% if lead_done == false and is_answer == false and chapter == 0 %}
+            {% assign classes = classes | append: " ed-lead" %}{% assign lead_done = true %}
+          {% endif %}
+          <div class="{{ classes }}" id="segment-{{ forloop.index }}"{% if item.speaker %} data-speaker="{{ item.speaker | escape }}"{% endif %}>
+            {% if is_answer and item.speaker %}<p class="ed-turn__who">{{ item.speaker }}</p>{% endif %}
+            <div class="ed-turn__text parallel-text__pair">
+              <details class="parallel-text__cell parallel-text__cell--original" lang="{{ item.original_lang | default: original_lang }}">
+                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{{ item.original_lang | default: original_lang | slice: 0, 2 | upcase }}</span></summary>
+                <div class="ed-orig">{{ item.original | markdownify }}</div>
+              </details>
+              <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
+            </div>
+            {% if item.note or item.comment or item.comments %}
+              <button class="parallel-text__note-toggle ed-note" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
+              <div class="parallel-text__note-popover">
+                {% if item.note %}<aside class="parallel-text__note" aria-label="译注">{{ item.note | markdownify }}</aside>{% endif %}
+                {% if item.comment %}<aside class="parallel-text__comments" aria-label="段落评论">{{ item.comment | markdownify }}</aside>{% endif %}
+              </div>
+            {% endif %}
+          </div>
+          {% if item.pull %}
+            <blockquote class="ed-pull">
+              <p>{{ item.pull }}</p>
+              {% if item.speaker %}<footer>— {{ item.speaker }}</footer>{% endif %}
+            </blockquote>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% if chapter > 0 %}</section>{% endif %}
+    </div>
+
+    {%- comment -%} Epilogue: the editor's framing, after the interview rather than in front of it. {%- endcomment -%}
+    {% if page.intro %}
+      <aside class="ed-epilogue">
+        <h2>编者按</h2>
+        {{ page.intro | markdownify }}
+      </aside>
+    {% endif %}
+    {% if content != "" %}
+      <aside class="ed-epilogue parallel-translation__note">{{ content }}</aside>
+    {% endif %}
+
+    {%- comment -%} Archive layer: for whoever comes to check, not to read. {%- endcomment -%}
+    <footer class="ed-archive">
+      <details class="ed-archive__record parallel-archive-record">
+        <summary class="parallel-archive-record__heading"><span class="parallel-archive-record__eyebrow">Archive</span> 档案信息</summary>
+        <dl class="parallel-archive-record__grid">
+          <div><dt>Date</dt><dd>{{ page.date | date: "%Y.%m.%d" }}</dd></div>
+          <div><dt>Source</dt><dd>{% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">{{ record_source_title }}</a>{% else %}{{ record_source_title }}{% endif %}</dd></div>
+          <div><dt>People</dt><dd>{{ answerers | join: "、" | default: record_people }}</dd></div>
+          <div><dt>Game / Work</dt><dd>{{ record_work }}</dd></div>
+          <div><dt>Language</dt><dd>{{ record_language | upcase }} → {{ translation_lang }}</dd></div>
+          <div><dt>Status</dt><dd>{{ record_status }}</dd></div>
+          {% if page.interview_id %}<div><dt>ID</dt><dd>{{ page.interview_id }}</dd></div>{% endif %}
+        </dl>
+        {% include resource-card.html document=page %}
+      </details>
+      <nav class="parallel-archive-route" aria-label="档案路径">
+        <a href="{{ '/search/?type=访谈翻译' | relative_url }}">访谈索引</a>
+        <a href="{{ '/timeline/' | relative_url }}">时间线</a>
+        <a href="#parallel-reading">回到开头</a>
+      </nav>
+      {% include resource-related.html %}
+      {% include article-references.html %}
+    </footer>
+  </article>
+</main>
+
+{% include interview-reader-script.html %}
+<script>
+  // The summary shows the current view as a word; keep it in step with the
+  // shared script, which sets data-view on the root.
+  (function () {
+    var root = document.querySelector("[data-parallel-translation]");
+    var label = document.querySelector("[data-ed-current-view]");
+    if (!root || !label) return;
+    var names = { translation: "译文", parallel: "双栏对照", original: "原文" };
+    var sync = function () { label.textContent = names[root.getAttribute("data-view")] || "译文"; };
+    new MutationObserver(sync).observe(root, { attributes: true, attributeFilter: ["data-view"] });
+    sync();
+  })();
+</script>
