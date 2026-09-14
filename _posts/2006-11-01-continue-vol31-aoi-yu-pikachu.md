@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[扫描访谈] 苍井优 × 皮卡丘'
 date: '2006-11-01'
 categories:

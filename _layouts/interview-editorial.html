@@ -68,6 +68,18 @@ kept on the turns even though the presentation around them is new.
 {%- endcomment -%}
 {% assign is_technical = false %}
 {% if page.source_kind == "technical_report" or page.article_kind == "technical_feature" %}{% assign is_technical = true %}{% endif %}
+{%- comment -%}
+  A scanned magazine is a third thing: the unit is the page, not the turn,
+  and the data is one segment per OCR region with the page and box it came
+  from. Detected by shape - translation_segments beside source_pages - or by
+  the archive_type the scan pipeline writes.
+{%- endcomment -%}
+{% assign is_scan = false %}
+{% if page.translation_segments %}
+  {% if page.source_pages or page.scan_pages or page.archive_type == "scan_translation" %}{% assign is_scan = true %}{% endif %}
+{% endif %}
+{%- comment -%} the scan body shows every region crop in place; a cover photograph would repeat page one {%- endcomment -%}
+{% if is_scan %}{% assign hero = nil %}{% endif %}
 {% include era-skin.html %}
 
 {%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
@@ -87,7 +99,7 @@ kept on the turns even though the presentation around them is new.
   whole [data-view] rule family - it did, and set this page's answers to
   0.92rem and hid every original toggle before this was removed.
 {%- endcomment -%}
-<main class="ed{% if is_technical %} ed--technical{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
+<main class="ed{% if is_technical %} ed--technical{% endif %}{% if is_scan %} ed--scan{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
 
   {%- comment -%}
     One small control, not a bar. The current view reads as a word; everything
@@ -151,6 +163,8 @@ kept on the turns even though the presentation around them is new.
         <p class="ed-people">{{ answerers | join: " × " }}</p>
       {% elsif is_technical and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
+      {% elsif is_scan and page.interviewee %}
+        <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% endif %}
       {% if page.dek %}
         <p class="ed-dek">{{ page.dek }}</p>
@@ -174,6 +188,8 @@ kept on the turns even though the presentation around them is new.
 
     {% if is_technical %}
       {% include interview-body-technical.html %}
+    {% elsif is_scan %}
+      {% include interview-body-scan.html %}
     {% else %}
     <div class="ed-body parallel-text parallel-text--web-article" id="parallel-reading">
       {% assign chapter = 0 %}
@@ -287,6 +303,11 @@ kept on the turns even though the presentation around them is new.
       <aside class="ed-epilogue">
         <h2>编者按</h2>
         {{ page.intro | markdownify }}
+      </aside>
+    {% elsif is_scan and page.summary %}
+      <aside class="ed-epilogue">
+        <h2>编者按</h2>
+        {{ page.summary | markdownify }}
       </aside>
     {% endif %}
     {% if content != "" %}

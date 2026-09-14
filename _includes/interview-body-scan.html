@@ -1,0 +1,175 @@
+{%- comment -%}
+The body of a scanned magazine archive - CONTINUE, Nintendo DREAM - in two
+views that were one page before, and served neither reader well.
+
+  READ     turning the magazine: one page at a time, the region crops as
+           figures with their captions, the body regions as prose, the
+           notes as small asides. Nothing about how it was made.
+  ARCHIVE  the OCR record: every region on every page with its id, type,
+           box, writing direction, review status, and the correction the
+           proofreader logged. For whoever is checking the transcription.
+
+The data is translation_segments, one per OCR region, carrying scan_page,
+scan_box, region_type, review_status and comment; `speaker` on these is the
+region type (body, note, image, caption), which is why the old layout printed
+"body 受访" over every paragraph. It is never shown here.
+
+The full-page scans live under archive/, which the build excludes; only the
+region crops are in assets. So ARCHIVE lists boxes as coordinates rather
+than drawing them - the record is complete, the picture is not.
+{%- endcomment -%}
+{% assign segs = page.translation_segments | default: page.segments %}
+{% assign page_count = 0 %}
+{% for s in segs %}
+  {% assign pn = s.scan_page | default: 0 | plus: 1 %}
+  {% if pn > page_count %}{% assign page_count = pn %}{% endif %}
+{% endfor %}
+{% assign pending = page.pending_review_regions | default: 0 %}
+{% assign review_count = 0 %}
+{% for s in segs %}{% if s.review_status == "review" %}{% assign review_count = review_count | plus: 1 %}{% endif %}{% endfor %}
+
+<div class="ed-body sc parallel-text parallel-text--web-article" id="parallel-reading">
+
+  {%- comment -%} the two views, and the page strip for READ {%- endcomment -%}
+  <div class="sc-bar" role="group" aria-label="视图">
+    <div class="sc-views">
+      <button type="button" class="sc-views__btn is-active" data-scan-view-choice="read" aria-pressed="true">阅读</button>
+      <button type="button" class="sc-views__btn" data-scan-view-choice="archive" aria-pressed="false">档案</button>
+    </div>
+    <nav class="sc-pages" aria-label="页码">
+      {% for i in (1..page_count) %}
+        <a href="#scan-page-{{ i }}">{{ i }}</a>
+      {% endfor %}
+      <span class="sc-pages__total">共 {{ page_count }} 页</span>
+    </nav>
+  </div>
+
+  {%- comment -%} ---------------- READ ---------------- {%- endcomment -%}
+  <div class="sc-read" data-scan-pane="read">
+    {% for i in (1..page_count) %}
+      {% assign idx = i | minus: 1 %}
+      <section class="sc-page" id="scan-page-{{ i }}">
+        <header class="sc-page__head">
+          <span class="sc-page__num">第 {{ i }} 页</span>
+          <span class="sc-page__of">/ {{ page_count }}</span>
+        </header>
+        {% for s in segs %}
+          {% assign sp = s.scan_page | default: 0 %}
+          {% if sp != idx %}{% continue %}{% endif %}
+          {% assign kind = s.region_type | default: s.speaker | default: "body" %}
+          {% if s.image %}
+            <figure class="sc-figure">
+              <img src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.translation | default: page.title | escape }}" loading="lazy" decoding="async">
+              {%- comment -%} a caption region that names this image follows it {%- endcomment -%}
+              {% for c in segs %}
+                {% if c.caption_for == s.region_id and c.translation %}<figcaption>{{ c.translation }}</figcaption>{% endif %}
+              {% endfor %}
+            </figure>
+          {% elsif s.caption_for %}
+            {%- comment -%} rendered under its image above {%- endcomment -%}
+          {% elsif s.translation %}
+            {% assign seg_lang = s.original_lang | default: original_lang %}
+            <div class="sc-text parallel-text__block{% if kind == "note" or kind == "caption" %} sc-text--aside{% endif %}" id="segment-{{ forloop.index }}">
+              <div class="ed-turn__text parallel-text__pair">
+                <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+                  <div class="ed-orig">{{ s.original | newline_to_br }}</div>
+                </details>
+                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ s.translation | newline_to_br }}</div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+        {% if i < page_count %}
+          <a class="sc-page__next" href="#scan-page-{{ i | plus: 1 }}">下一页 →</a>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </div>
+
+  {%- comment -%} ---------------- ARCHIVE ---------------- {%- endcomment -%}
+  <div class="sc-archive" data-scan-pane="archive" hidden>
+    <section class="sc-status" aria-label="档案状态">
+      <dl>
+        {% if page.workflow %}
+          {% for stage in page.workflow %}
+            <div><dt>{{ stage[0] }}</dt><dd>{{ stage[1] }}</dd></div>
+          {% endfor %}
+        {% endif %}
+        <div><dt>regions</dt><dd>{{ segs.size }}</dd></div>
+        <div><dt>pending review</dt><dd>{{ review_count }}{% if pending != 0 and pending != review_count %} <small>(declared {{ pending }})</small>{% endif %}</dd></div>
+      </dl>
+      {% if page.review_scope %}<p class="sc-status__scope">{{ page.review_scope }}</p>{% endif %}
+    </section>
+
+    {% for i in (1..page_count) %}
+      {% assign idx = i | minus: 1 %}
+      <section class="sc-apage" id="scan-archive-page-{{ i }}">
+        <h2 class="sc-apage__head">page {{ i }}</h2>
+        {% for s in segs %}
+          {% assign sp = s.scan_page | default: 0 %}
+          {% if sp != idx %}{% continue %}{% endif %}
+          {% assign kind = s.region_type | default: s.speaker | default: "body" %}
+          <article class="sc-region sc-region--{{ kind }}{% if s.review_status == "review" %} sc-region--review{% endif %}" id="region-{{ s.region_id | default: forloop.index }}">
+            <header class="sc-region__head">
+              <code class="sc-region__id">{{ s.region_id | default: forloop.index }}</code>
+              <span class="sc-region__kind">{{ kind }}</span>
+              {% if s.scan_box %}<code class="sc-region__box">[{{ s.scan_box | join: ", " }}]</code>{% endif %}
+              {% if s.writing_direction %}<span class="sc-region__dir">{{ s.writing_direction }}</span>{% endif %}
+              <span class="sc-region__status">{{ s.review_status | default: "unreviewed" }}</span>
+            </header>
+            {% if s.image %}
+              <img class="sc-region__crop" src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.region_id | escape }}" loading="lazy" decoding="async">
+            {% endif %}
+            {% if s.original or s.translation %}
+              <div class="sc-region__pair">
+                <div class="sc-region__cell"><span class="sc-region__label">原文</span>{{ s.original | default: "—" | newline_to_br }}</div>
+                <div class="sc-region__cell"><span class="sc-region__label">译文</span>{{ s.translation | default: "—" | newline_to_br }}</div>
+              </div>
+            {% endif %}
+            {% if s.comment %}<p class="sc-region__comment"><span class="sc-region__label">校勘</span>{{ s.comment }}</p>{% endif %}
+          </article>
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  // READ / ARCHIVE. Remembered per browser; nothing else on the page changes.
+  (function () {
+    var root = document.querySelector("[data-parallel-translation]");
+    if (!root) return;
+    var key = "scanArchiveView";
+    var buttons = Array.prototype.slice.call(root.querySelectorAll("[data-scan-view-choice]"));
+    var panes = Array.prototype.slice.call(root.querySelectorAll("[data-scan-pane]"));
+    function set(view) {
+      root.setAttribute("data-scan-view", view);
+      panes.forEach(function (p) {
+        var show = p.getAttribute("data-scan-pane") === view;
+        p.hidden = !show;
+        // a lazy image that started life in a hidden pane is not always picked
+        // up when the pane appears - measured: a visible crop stayed unloaded
+        // after the switch - so the shown pane's crops are asked for outright
+        if (show) Array.prototype.forEach.call(p.querySelectorAll('img[loading="lazy"]'), function (img) { img.loading = "eager"; });
+      });
+      buttons.forEach(function (b) {
+        var on = b.getAttribute("data-scan-view-choice") === view;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      try { window.localStorage.setItem(key, view); } catch (e) {}
+    }
+    buttons.forEach(function (b) {
+      b.addEventListener("click", function () {
+        set(b.getAttribute("data-scan-view-choice"));
+        // the other pane is a different height; keep the bar where the eye is
+        var bar = root.querySelector(".sc-bar");
+        if (bar) bar.scrollIntoView({ block: "start" });
+      });
+    });
+    var stored = null;
+    try { stored = window.localStorage.getItem(key); } catch (e) {}
+    set(stored === "archive" ? "archive" : "read");
+  })();
+</script>

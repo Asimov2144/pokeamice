@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: '[扫描访谈] CONTINUE Vol.23《名誉无职，行走于永田町》修正版'
 title_ja: 今なぜか「府省ゲーム」！ 名誉無職、永田町を行く
 date: '2026-08-30'

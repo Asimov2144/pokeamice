@@ -1,0 +1,223 @@
+/* ==========================================================================
+   Magazine scan archive body
+   _includes/interview-body-scan.html, inside interview-editorial
+
+   Two views of the same OCR record. READ turns the magazine page by page:
+   the crops as figures, the body regions as prose, the notes as small
+   asides, a page strip to jump by. ARCHIVE is the transcription record:
+   every region with its id, type, box, direction and review status, the
+   original beside the translation, and the proofreader's note. The reader
+   never sees a region id; the checker never has to read around the prose.
+
+   Inherits the cover, tools and archive from the base skin; the era skin
+   sets the type. Only the body vocabulary is here.
+   ========================================================================== */
+
+$sc-ink: #14171c;
+$sc-ink-soft: #4b535e;
+$sc-ink-faint: #8b929c;
+$sc-rule: #e2e5ea;
+$sc-band: #f5f7fa;
+$sc-accent: #b45309;       /* the amber of aged newsprint */
+$sc-review: #b91c1c;
+$sc-ready: #15803d;
+$sc-display: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
+
+.layout--interview-editorial .ed--scan {
+
+  /* ---- the bar: two views, then the pages ------------------------------ */
+  .sc-bar {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 18px;
+    margin: 0 0 28px;
+    padding: 10px 0;
+    border-bottom: 1px solid $sc-rule;
+    background: inherit;
+  }
+
+  .sc-views { display: inline-flex; gap: 0; border: 1px solid $sc-ink; border-radius: 3px; overflow: hidden; }
+
+  .sc-views__btn {
+    min-width: 56px;
+    min-height: 30px;
+    padding: 4px 14px;
+    border: 0;
+    background: none;
+    color: $sc-ink;
+    font-family: $sc-display;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+  }
+
+  .sc-views__btn + .sc-views__btn { border-left: 1px solid $sc-ink; }
+  .sc-views__btn.is-active, .sc-views__btn[aria-pressed="true"] { background: $sc-ink; color: #ffffff; }
+
+  .sc-pages { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; font-family: $sc-mono; font-size: 12px; }
+
+  .sc-pages a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    min-height: 26px;
+    border-radius: 3px;
+    color: $sc-ink-soft;
+    text-decoration: none;
+  }
+
+  .sc-pages a:hover { background: $sc-band; color: $sc-ink; }
+  .sc-pages__total { margin-left: 8px; color: $sc-ink-faint; }
+
+  /* the archive view has no page strip to jump by - its pages are headed */
+  &[data-scan-view="archive"] .sc-pages { display: none; }
+
+  /* ---- READ: one page after another ------------------------------------ */
+  .sc-page { margin: 0 0 56px; scroll-margin-top: 64px; }
+
+  .sc-page__head {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    margin: 0 0 18px;
+    padding-top: 14px;
+    border-top: 2px solid $sc-ink;
+    font-family: $sc-display;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: $sc-accent;
+  }
+
+  .sc-page__of { font-weight: 400; color: $sc-ink-faint; }
+
+  .sc-text { position: relative; margin: 0 0 18px; }
+  .sc-text .ed-trans { white-space: normal; }
+  .sc-text .ed-orig-toggle { left: -46px; }
+
+  /* a note or caption region: smaller, softer, indented by a hairline */
+  .sc-text--aside {
+    margin: 14px 0 22px;
+    padding-left: 14px;
+    border-left: 1px solid $sc-rule;
+    font-size: 14px;
+    line-height: 1.65;
+    color: $sc-ink-soft;
+  }
+
+  .sc-text--aside .ed-orig-toggle { left: -60px; }
+
+  .sc-figure { display: block; margin: 26px 0; padding: 0; }
+  .sc-figure img { display: block; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid $sc-rule; border-radius: 2px; }
+  .sc-figure figcaption { margin-top: 8px; font-size: 13px; line-height: 1.6; color: $sc-ink-soft; }
+
+  .sc-page__next {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: $sc-display;
+    font-size: 13px;
+    font-weight: 700;
+    color: $sc-accent;
+    text-decoration: none;
+  }
+
+  .sc-page__next:hover { text-decoration: underline; }
+
+  /* ---- ARCHIVE: the record ---------------------------------------------- */
+  .sc-status { margin: 0 0 32px; padding: 16px 20px; background: $sc-band; border-left: 3px solid $sc-accent; }
+
+  .sc-status dl {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 8px 18px;
+    margin: 0;
+    font-family: $sc-mono;
+    font-size: 12px;
+  }
+
+  .sc-status dl > div { display: block; }
+  .sc-status dt { margin: 0; color: $sc-ink-faint; font-weight: 400; }
+  .sc-status dd { margin: 0; color: $sc-ink; }
+  .sc-status small { color: $sc-ink-faint; }
+  .sc-status__scope { margin: 12px 0 0; font-size: 13px; color: $sc-ink-soft; }
+
+  .sc-apage { margin: 0 0 44px; }
+
+  .sc-apage__head {
+    margin: 0 0 14px;
+    padding-top: 14px;
+    border-top: 2px solid $sc-ink;
+    font-family: $sc-mono;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $sc-accent;
+  }
+
+  .sc-region { margin: 0 0 10px; padding: 10px 12px 12px; border: 1px solid $sc-rule; border-radius: 3px; }
+  .sc-region--review { border-left: 3px solid $sc-review; }
+
+  .sc-region__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 12px;
+    margin: 0 0 8px;
+    font-family: $sc-mono;
+    font-size: 11px;
+    color: $sc-ink-soft;
+  }
+
+  .sc-region__id { font-weight: 700; color: $sc-ink; }
+  .sc-region__kind { padding: 1px 6px; border-radius: 2px; background: $sc-band; text-transform: uppercase; letter-spacing: 0.06em; }
+  .sc-region__box, .sc-region__dir { color: $sc-ink-faint; }
+  .sc-region__status { margin-left: auto; font-weight: 700; color: $sc-ready; }
+  .sc-region--review .sc-region__status { color: $sc-review; }
+
+  .sc-region__crop { display: block; max-width: 100%; max-height: 320px; height: auto; margin: 0 0 8px; border: 1px solid $sc-rule; }
+
+  .sc-region__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 14px; line-height: 1.65; }
+  .sc-region__cell { min-width: 0; color: $sc-ink; }
+
+  .sc-region__label {
+    display: block;
+    margin: 0 0 3px;
+    font-family: $sc-display;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    color: $sc-ink-faint;
+  }
+
+  .sc-region__comment { margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed $sc-rule; font-size: 13px; line-height: 1.6; color: $sc-ink-soft; }
+
+  /* the archive record lists the original beside the translation itself,
+     so the version buttons do not apply there */
+  &[data-scan-view="archive"] .ed-tools__group[aria-label="版本"] { display: none; }
+
+  @media (max-width: 720px) {
+    .sc-bar { position: static; }
+    .sc-text .ed-orig-toggle, .sc-text--aside .ed-orig-toggle { position: static; margin-bottom: 6px; }
+    .sc-region__pair { grid-template-columns: 1fr; }
+  }
+}
+
+/* dark theme, the base's ground */
+.layout--interview-editorial .ed--scan[data-reading-theme="dark"] {
+  .sc-bar { border-color: #2a2f37; }
+  .sc-views { border-color: #e6e8ec; }
+  .sc-views__btn { color: #e6e8ec; }
+  .sc-views__btn + .sc-views__btn { border-color: #e6e8ec; }
+  .sc-views__btn.is-active, .sc-views__btn[aria-pressed="true"] { background: #e6e8ec; color: #15181d; }
+  .sc-pages a:hover, .sc-status, .sc-region__kind { background: #15181d; }
+  .sc-page__head, .sc-apage__head { border-color: #e6e8ec; }
+  .sc-status dd, .sc-region__id, .sc-region__cell { color: #e6e8ec; }
+  .sc-region, .sc-figure img, .sc-region__crop, .sc-text--aside { border-color: #2a2f37; }
+}
