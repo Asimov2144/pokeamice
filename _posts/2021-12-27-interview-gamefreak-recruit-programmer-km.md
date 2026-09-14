@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - K.M.
 - 研究开发部
 - 自研引擎
@@ -18,13 +18,13 @@ tags:
 - R&D
 - 招聘访谈
 interview_id: PKMN-1016
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-km/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: K.M.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方研究开发部（R&D）总监深度特写：曾在大厂掌舵渲染与主程的 K.M.，坦诚道出“宝可梦拥有 1,000 只以上各不相同的模型，世上没有任何商业引擎能完美承载，唯有自研”的技术决断；详解面向 5 年后前瞻布局的动作形变（Deform）与角色渲染技术路线图；以及在业内顶尖专家云集、福利作息极其优渥的工程师文化中，如何以“解决所有‘困难’，实现所有‘极致考究’”为信条打造下一代技术底座。
+summary: Game Freak 官方研究开发部（R&D）总监深度特写：曾在大厂掌舵渲染与主程的 K.M.，坦诚道出“宝可梦拥有 1,000 只以上各不相同的模型，世上没有任何商业引擎能完美承载，唯有自研”的技术决断；详解面向 5 年后前瞻布局的动作形变（Deform）与角色渲染技术路线图；以及在业内顶尖专家云集、福利作息极其优渥的工程师文化中，如何以“解决所有‘困难’，实现所有‘极致考究’”为信条打造下一代技术底座。
 entities:
   people:
   - K.M.

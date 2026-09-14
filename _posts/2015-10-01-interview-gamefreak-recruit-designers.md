@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 图形设计师
 - 中途招聘
 - UI设计
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1025
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20160403190310/http://www.gamefreak.co.jp/recruit/interview_03.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: T.W.（UI设计师）, A.I.（动作设计师）, T.A.（特效设计师）
 original_lang: ja
 translation_lang: zh-CN
@@ -33,7 +33,7 @@ entities:
   - T.A.
   works:
   - 宝可梦 X·Y
-  - 宝可梦 终极红宝石／始源蓝宝石
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

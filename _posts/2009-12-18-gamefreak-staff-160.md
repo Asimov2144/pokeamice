@@ -9,7 +9,7 @@ categories:
 - 数字存档
 tags:
 - Game Freak
-- GAME FREAK 员工
+- Game Freak 员工
 - GF介绍
 - 日记
 - 宝可梦

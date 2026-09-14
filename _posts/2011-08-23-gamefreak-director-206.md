@@ -37,7 +37,7 @@ entities:
     - "增田顺一"
     - "森本君"
   works:
-    - "宝可梦Smash"
+    - "宝可梦 Smash"
   organizations:
     - "Game Freak"
   events:

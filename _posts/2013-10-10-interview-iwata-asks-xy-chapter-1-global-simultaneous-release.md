@@ -37,9 +37,9 @@ original_link: https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index.html
 summary: 2013年10月，任天堂社长岩田聪与The Pokémon Company社长石原恒和、Game Freak总监增田顺一展开深度对谈。这是宝可梦历史上首次实现全球主要地区同日发售，游戏支持七国语言自由切换。石原坦言从初代起这就是长年夙愿，曾被视作‘绝不可能的梦幻构想’；增田顺一与岩田聪亲述跨越全球时区的测试同步、全怪兽多国语言命名统一注册与防剧透保密体系的非凡攻坚历程。
 entities:
   people:
-  - 岩田 聪
-  - 增田 顺一
-  - 石原 恒和
+  - 岩田聪
+  - 增田顺一
+  - 石原恒和
   works:
   - 宝可梦 X·Y
   - 宝可梦 红·绿

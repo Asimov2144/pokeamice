@@ -10,15 +10,15 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - R.M.
 - 游戏策划
-- 宝可梦 剑／盾
+- 宝可梦 剑·盾
 - 扩充票
 - 团队管理
 - 招聘访谈
 interview_id: PKMN-1018
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pl-rm/
 source:
   name: GAME FREAK 採用情報
@@ -32,7 +32,7 @@ entities:
   people:
   - R.M.
   works:
-  - 宝可梦 剑／盾 扩充票
+  - 宝可梦 剑·盾 扩充票
   - 全新企划项目
   organizations:
   - 株式会社ゲームフリーク

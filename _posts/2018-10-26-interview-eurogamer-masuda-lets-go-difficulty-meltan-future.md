@@ -28,7 +28,7 @@ tags:
 - 皮卡丘
 - 伊布
 - 美录坦
-- Pokemon GO
+- Pokémon GO
 - 秘传学习器
 - 开放世界
 archive_type: interview_translation

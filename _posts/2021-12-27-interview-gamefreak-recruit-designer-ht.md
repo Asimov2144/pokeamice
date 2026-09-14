@@ -10,21 +10,21 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - H.T.
-- GEAR PROJECT
+- Gear Project
 - 小镇英雄
 - 艺术总监
 - 场景设计
 - 招聘访谈
 interview_id: PKMN-1013
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-gr-ht/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: H.T.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线设计师深度特写：曾在大厂从事背景美术、因向往“GEAR PROJECT”原创机制而加入 GAME FREAK 的 H.T.，分享从主系列关卡设计中感受到的“草丛分布与遇敌率极致打磨”的工匠精神；回顾在全原创单机 RPG《小镇英雄》中全面担纲艺术总监、从草图构想到终版交付全流程把控的敏捷开发历程；并真诚呼吁比起单纯想当“美术设计师”的人，更期待渴望成为“全面游戏创作者”的新鲜血液加入团队。
+summary: Game Freak 官方一线设计师深度特写：曾在大厂从事背景美术、因向往“GEAR PROJECT”原创机制而加入 GAME FREAK 的 H.T.，分享从主系列关卡设计中感受到的“草丛分布与遇敌率极致打磨”的工匠精神；回顾在全原创单机 RPG《小镇英雄》中全面担纲艺术总监、从草图构想到终版交付全流程把控的敏捷开发历程；并真诚呼吁比起单纯想当“美术设计师”的人，更期待渴望成为“全面游戏创作者”的新鲜血液加入团队。
 entities:
   people:
   - H.T.

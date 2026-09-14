@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - R&D
 - 研究开发部
 - 田谷正夫
@@ -20,9 +20,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1024
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20160330115800/http://www.gamefreak.co.jp/recruit/interview_02.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: 田谷正夫（S.T. / 研究開発部部長）, M.I.（描画プログラマ）
 original_lang: ja
 translation_lang: zh-CN

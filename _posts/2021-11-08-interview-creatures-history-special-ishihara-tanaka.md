@@ -20,7 +20,7 @@ tags:
 - 宝可梦卡牌
 - MOTHER2
 - 糸井重里
-- Pokemon GO
+- Pokémon GO
 - 第八世代
 - 历史秘辛
 cast:

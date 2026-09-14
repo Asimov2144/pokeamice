@@ -38,7 +38,7 @@ entities:
   organizations:
   - Game Freak
   - Nintendo
-original_title: GAME FREAK STAFF 日记
+original_title: Game Freak STAFF 日记
 original_link: https://web.archive.org/web/20130705083744/http://www.gamefreak.co.jp/blog/staff/?cat=6
 translator: Poke Amice Studio
 interviewee: じだぬ, ほず, めめた, ナギー, ユーリー, 一之濑刚, 卡妮子, 大村祐介, 松岛贤二

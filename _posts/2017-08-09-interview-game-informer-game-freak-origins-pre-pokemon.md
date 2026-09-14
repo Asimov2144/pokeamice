@@ -19,7 +19,7 @@ categories:
 - 宝可梦红绿
 - GAME FREAK
 tags:
-- GAME FREAK
+- Game Freak
 - 增田顺一
 - 田尻智
 - 大森滋

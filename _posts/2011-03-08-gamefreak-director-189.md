@@ -45,7 +45,7 @@ entities:
     - "任天堂"
     - "One Direction"
     - "玩具反斗城"
-    - "GAME STOP"
+    - "GameStop"
   events:
     - "宝可梦 黑·白 欧洲发售活动"
     - "宝可梦 黑·白 北美发售活动"

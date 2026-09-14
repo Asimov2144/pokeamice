@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - M.I.
 - 动作设计
 - UI设计
@@ -18,13 +18,13 @@ tags:
 - 扁平文化
 - 招聘访谈
 interview_id: PKMN-1011
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-gr-mi/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: M.I.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线设计师深度特写：四年制专门学校主修 3D 动画与动作设计的 M.I.，回顾自己被 GAME FREAK“全员皆可全盘参与游戏研发”的扁平创作机制所吸引的求职初心；讲述入职培训时两人组队独立开发迷你游戏、入社第一年便跨界承担剧情与动作策划的难忘体验；以及在崇尚“产出严谨、沟通坦率”的团队氛围中，与一群永葆童心的游戏匠人共同打造梦想作品的真实感受。
+summary: Game Freak 官方一线设计师深度特写：四年制专门学校主修 3D 动画与动作设计的 M.I.，回顾自己被 GAME FREAK“全员皆可全盘参与游戏研发”的扁平创作机制所吸引的求职初心；讲述入职培训时两人组队独立开发迷你游戏、入社第一年便跨界承担剧情与动作策划的难忘体验；以及在崇尚“产出严谨、沟通坦率”的团队氛围中，与一群永葆童心的游戏匠人共同打造梦想作品的真实感受。
 entities:
   people:
   - M.I.

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 黑·白</h2>
-    <span>83 篇文章 · 0 条评注 · 2017 / 2014 / 2013 / 2012 / 2011 / 2010</span>
+    <span>85 篇文章 · 0 条评注 · 2017 / 2014 / 2013 / 2012 / 2011 / 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -37,7 +37,7 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · GAME FREAK 採用情報 (Wayback 历史存档)</p>
+  <p>2017 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-gear-gigawrecker/">GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）</a></h3>
   <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心年轻主创背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
 </article>
@@ -97,6 +97,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
+  <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
+</article>
+
+<article class="resource-network-card">
   <p>2012 · interview_translation</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-employee-morotsuki/">宝可梦公司官方员工特写 诸月纱保子：授权企划部——小学生眼中的宝可梦工作与跨界无尽可能</a></h3>
   <span></span>
@@ -127,15 +133,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第210回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-210/">[GameFreak部长专栏] 第210回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济</span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第211回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-211/">[GameFreak部长专栏] 第211回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月19日（星期一），我一整天都在名古屋。 之所以会在那里，是因为…… 我去参加了 Fami通 Present</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第210回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-210/">[GameFreak部长专栏] 第210回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济</span>
 </article>
 
 <article class="resource-network-card">
@@ -169,6 +175,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）</a></h3>
   <span></span>
@@ -183,12 +195,6 @@ search: false
 <article class="resource-network-card">
   <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2011 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」『ポケモン立体図鑑BW』 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download/">[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）</a></h3>
   <span></span>
 </article>
 
@@ -466,6 +472,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第174回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-174/">[GameFreak部长专栏] 第174回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 ■这次是暑假照片特辑！ &lt;img src=&quot;/assets/images/gamefreak-director</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンサーチャーBW</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-196/">【工作日志】2010年宝可梦搜索者体验</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是ユーリー（尤里）！ 大家已经体验过宝可梦搜索者BW了吗？&lt;br 我也去乘坐体验过了哦？！！ 对于接下来打算体验的朋友来说，这会变成剧透，&lt;br 所以没法告诉大家详细内容，&lt;br 不过，还是可以稍微享受一下《宝可梦黑／白》的世界哦。&lt;br 不管怎么说，探索之旅中的莱希拉姆和捷克</span>
 </article>
 
 <article class="resource-network-card">

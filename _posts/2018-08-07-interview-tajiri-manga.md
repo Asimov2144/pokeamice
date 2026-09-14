@@ -14,7 +14,7 @@ tags:
 - 访谈
 - 开发者访谈
 - 第一世代
-- 田尻 智
+- 田尻智
 - 赤绿
 - EN
 archive_type: interview_translation

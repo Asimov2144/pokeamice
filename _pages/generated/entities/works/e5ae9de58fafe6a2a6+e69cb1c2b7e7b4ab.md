@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 朱·紫</h2>
-    <span>11 篇文章 · 0 条评注 · 2023 / 2022 / 2021</span>
+    <span>12 篇文章 · 0 条评注 · 2024 / 2023 / 2022 / 2021</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2024 · interview_translation · Special Interview 「デザイナーの仕事と目線」（Pokémon × デザイナー）</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-designer/">宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-pokemon-recruit-it/">宝可梦公司官方专访 IT部门特别篇：支撑全球数亿训练家的数字命脉与云端架构（铃木 × 新井 × 中野 × 柴山）</a></h3>
   <span></span>
@@ -37,14 +43,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
+  <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
+  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
   <span></span>
 </article>
 

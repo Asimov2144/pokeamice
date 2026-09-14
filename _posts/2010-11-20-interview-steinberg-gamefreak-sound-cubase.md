@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - music-archives
 tags:
-- GAME FREAK
+- Game Freak
 - 景山将太
 - Steinberg
 - Cubase

@@ -13,7 +13,7 @@ tags:
 - 増田順一
 - 杉森建
 - SPOnG
-- GAME FREAK
+- Game Freak
 - 黑白
 - 第五世代
 - 掌机哲学

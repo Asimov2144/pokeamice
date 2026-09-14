@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - K.F.
 - 游戏策划
 - Pokémon HOME
@@ -18,7 +18,7 @@ tags:
 - 云端生态
 - 招聘访谈
 interview_id: PKMN-1019
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pl-kf/
 source:
   name: GAME FREAK 採用情報

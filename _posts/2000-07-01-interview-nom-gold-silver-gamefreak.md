@@ -10,15 +10,27 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- GAME FREAK
-- 増田順一
+- Game Freak
+- 增田顺一
 - 杉森建
-- 渡辺哲也
+- 渡边哲也
 - 西野弘二
-- 森本茂樹
+- 森本茂树
 - 任天堂
 - 宝可梦金银
 - 开发秘话
+entities:
+  people:
+    - 增田顺一
+    - 杉森建
+    - 渡边哲也
+    - 西野弘二
+    - 森本茂树
+  works:
+    - 宝可梦 金·银
+  organizations:
+    - Game Freak
+    - 任天堂
 era_skin: '1999'
 original_lang: ja
 interview_id: PKMN-0054

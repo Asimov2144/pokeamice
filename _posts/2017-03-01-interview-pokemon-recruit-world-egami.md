@@ -10,7 +10,7 @@ categories:
 - pokemon-company-recruit
 tags:
 - 株式会社ポケモン
-- Pokemon GO
+- Pokémon GO
 - 江上周作
 - AR游戏
 - Niantic

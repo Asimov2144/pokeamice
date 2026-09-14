@@ -16,7 +16,7 @@ categories:
 - 访谈
 - 技术解析
 tags:
-- 宝可梦 朱／紫
+- 宝可梦 朱·紫
 - 宝可梦传说 阿尔宙斯
 - CEDEC
 - Game Freak

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>95 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
+    <span>98 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -33,6 +33,12 @@ search: false
 <article class="resource-network-card">
   <p>2020 · interview_translation · GF 新办公室 设计</p>
   <h3><a href="/developer-interviews/official-archives/interview-canuch-gamefreak-office-architecture/">CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生命力办公空间哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 株式会社ポケモン 採用サイト (Wayback 历史存档)</p>
+  <h3><a href="/developer-interviews/pokemon-recruit/interview-pokemon-recruit-communication-egami/">宝可梦公司官方专访 『Pokémon GO』特别篇：以现实为舞台、连接全球人际纽带的沟通奇迹（江上周作）</a></h3>
   <span></span>
 </article>
 
@@ -81,6 +87,12 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · Gamer.ne.jp</p>
   <h3><a href="/interview-gamer-pokemon-press-conference-2018/">《宝可梦 探险寻宝》与《Let&#39;s Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)</p>
+  <h3><a href="/developer-interviews/pokemon-recruit/interview-tpc-pikachu-origin-sugimori-nishino-nishida/">宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）</a></h3>
   <span></span>
 </article>
 
@@ -175,12 +187,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
@@ -193,9 +199,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第234回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-234/">[GameFreak部长专栏] 第234回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 世界首次。 自从１９９６年《宝可梦 红·绿》发售以来， 宝可梦的信息发布，一直都是从日本开始的。 因为游戏会先</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
+  <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
 </article>
 
 <article class="resource-network-card">
@@ -541,14 +559,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2000 · interview_translation · 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー·初代篇）</p>
-  <h3><a href="/interview-nom-genesis-gamefreak/">任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）</a></h3>
+  <p>2000 · interview_translation · 任天堂官网「N.O.M」(No.23)</p>
+  <h3><a href="/interview-nom-special-dialogue-tajiri-ishihara/">N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2000 · interview_translation · 任天堂官网「N.O.M」(No.23)</p>
-  <h3><a href="/interview-nom-special-dialogue-tajiri-ishihara/">N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）</a></h3>
+  <p>2000 · interview_translation · 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー·初代篇）</p>
+  <h3><a href="/interview-nom-genesis-gamefreak/">任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）</a></h3>
   <span></span>
 </article>
 

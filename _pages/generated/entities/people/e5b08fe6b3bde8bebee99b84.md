@@ -1,6 +1,6 @@
 ---
-title: "松村 直树 - 人物"
-permalink: "/entities/people/e69dbee69d91+e79bb4e6a091/"
+title: "小泽达雄 - 人物"
+permalink: "/entities/people/e5b08fe6b3bde8bebee99b84/"
 layout: "single"
 search: false
 ---
@@ -8,7 +8,7 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>人物</p>
-    <h2>松村 直树</h2>
+    <h2>小泽达雄</h2>
     <span>4 篇文章 · 0 条评注 · 2011</span>
   </div>
   <div class="resource-network-jump">

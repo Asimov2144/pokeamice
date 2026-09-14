@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 大森滋
 - 宝可梦传说阿尔宙斯
 - 宝可梦设计
@@ -20,9 +20,9 @@ tags:
 - 宝可梦剑盾
 - 宝可梦朱紫
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-designer/
-outlet: GAME FREAK 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: H.T., 大森滋, 档案
-interviewer: GAME FREAK 官方招聘团队
+interviewer: Game Freak 官方招聘团队
 parallel_items:
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-designer/mv.jpg

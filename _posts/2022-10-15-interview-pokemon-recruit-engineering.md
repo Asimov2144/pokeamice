@@ -12,9 +12,9 @@ tags:
 - 株式会社ポケモン
 - 招聘访谈
 - 技术总监
-- Pokemon GO
-- Pokemon HOME
-- Pokemon GO Plus
+- Pokémon GO
+- Pokémon HOME
+- Pokémon GO Plus
 - Niantic
 - 宇都宫崇人
 - 基础设施

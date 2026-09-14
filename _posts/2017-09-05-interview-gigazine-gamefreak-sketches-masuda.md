@@ -12,7 +12,7 @@ categories:
 tags:
 - 増田順一
 - 大森滋
-- GAME FREAK
+- Game Freak
 - GIGAZINE
 - Game Informer
 - 开发手稿

@@ -9,7 +9,7 @@ categories:
 - 数字存档
 tags:
 - Game Freak
-- GAME FREAK 员工
+- Game Freak 员工
 - GF介绍
 - 日记
 - 宝可梦
@@ -49,7 +49,7 @@ entities:
   people:
     - "尤里"
   works:
-    - "宝可梦黑／白"
+    - "宝可梦 黑·白"
   organizations:
     - "Game Freak"
 

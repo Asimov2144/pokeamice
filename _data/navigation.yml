@@ -38,6 +38,8 @@ main:
     children:
       - title: "资料窗口"
         url: /keys/
+      - title: "全景数据分析"
+        url: /analytics/
       - title: "资料检索"
         url: /#retrieval
       - title: "人物索引"

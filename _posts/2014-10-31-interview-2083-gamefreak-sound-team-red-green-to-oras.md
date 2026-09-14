@@ -14,7 +14,7 @@ categories:
 - 宝可梦oras
 - 音乐与设计
 tags:
-- GAME FREAK
+- Game Freak
 - 增田顺一
 - 一之濑刚
 - 佐藤仁美

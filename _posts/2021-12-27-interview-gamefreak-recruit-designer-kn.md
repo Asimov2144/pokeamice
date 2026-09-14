@@ -10,25 +10,25 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - K.N.
 - 3D场景建模
 - 关卡设计
 - Let's Go! 皮卡丘／伊布
 - 招聘访谈
 interview_id: PKMN-1010
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-gr-kn/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: K.N.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线设计师深度特写：千叶工业大学工学研究生毕业的 K.N.，分享其从机器人工程跨界游戏美术、因对宝可梦世界的热爱辞退制造企业内定加入 GAME FREAK 的心路历程；详解在《宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布》中担纲场景模型组长时，如何从零构筑3D关卡地形、以倾听姿态凝聚团队智慧的领导风格；以及在任天堂 Switch 高清世代下，如何通过严谨的逻辑推敲精准提炼并传承“宝可梦独有韵味”的创作哲学。
+summary: Game Freak 官方一线设计师深度特写：千叶工业大学工学研究生毕业的 K.N.，分享其从机器人工程跨界游戏美术、因对宝可梦世界的热爱辞退制造企业内定加入 GAME FREAK 的心路历程；详解在《宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布》中担纲场景模型组长时，如何从零构筑3D关卡地形、以倾听姿态凝聚团队智慧的领导风格；以及在任天堂 Switch 高清世代下，如何通过严谨的逻辑推敲精准提炼并传承“宝可梦独有韵味”的创作哲学。
 entities:
   people:
   - K.N.
   works:
-  - 宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - 宝可梦 剑·盾
   organizations:
   - 株式会社ゲームフリーク

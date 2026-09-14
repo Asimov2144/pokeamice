@@ -9,9 +9,9 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 游戏策划
-- Pokemon HOME
+- Pokémon HOME
 - 宝可梦剑盾DLC
 - 谷博行
 - 自研引擎
@@ -19,9 +19,9 @@ tags:
 - 关卡企划
 - 机制设计
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-planner/
-outlet: GAME FREAK 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: K.F.（《Pokémon HOME》总监）、谷博行（H.T. / 《宝可梦 剑·盾 扩展票》总监）
-interviewer: GAME FREAK 官方招聘团队
+interviewer: Game Freak 官方招聘团队
 parallel_items:
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-planner/mv.jpg

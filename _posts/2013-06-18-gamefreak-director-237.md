@@ -36,7 +36,7 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "宝可梦X·Y"
+    - "宝可梦 X·Y"
   organizations:
     - "Game Freak"
 

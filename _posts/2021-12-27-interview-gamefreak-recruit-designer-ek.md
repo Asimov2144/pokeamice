@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - E.K.
 - UI设计
 - 用户体验
@@ -18,13 +18,13 @@ tags:
 - 教育进修
 - 招聘访谈
 interview_id: PKMN-1012
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-gr-ek/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: E.K.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线设计师深度特写：历经两家大型游戏企业历练后加入 GAME FREAK 的 UI 设计团队负责人 E.K.，分享在开放坦诚的团队氛围中打破职能界限协作的愉悦体验；深入剖析在《宝可梦 太阳／月亮》与《剑／盾》中，面对系统日益庞大与信息量激增的挑战，如何始终坚持“让从初学者到资深玩家都能无障碍轻松上手”的易用性设计哲学；以及在公司支持下每周公费进修前沿 3D CG 课程、探索 3D 动态 UI 革命的进取历程。
+summary: Game Freak 官方一线设计师深度特写：历经两家大型游戏企业历练后加入 GAME FREAK 的 UI 设计团队负责人 E.K.，分享在开放坦诚的团队氛围中打破职能界限协作的愉悦体验；深入剖析在《宝可梦 太阳／月亮》与《剑／盾》中，面对系统日益庞大与信息量激增的挑战，如何始终坚持“让从初学者到资深玩家都能无障碍轻松上手”的易用性设计哲学；以及在公司支持下每周公费进修前沿 3D CG 课程、探索 3D 动态 UI 革命的进取历程。
 entities:
   people:
   - E.K.

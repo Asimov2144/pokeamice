@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- GAME FREAK
+- Game Freak
 - 増田順一
 - 海野隆雄
 - Pokemon.com

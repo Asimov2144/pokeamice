@@ -1,6 +1,6 @@
 ---
-title: "大谷 育江 - 人物"
-permalink: "/entities/people/e5a4a7e8b0b7+e882b2e6b19f/"
+title: "森昭人 - 人物"
+permalink: "/entities/people/e6a3aee698ade4baba/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>人物</p>
-    <h2>大谷 育江</h2>
-    <span>1 篇文章 · 0 条评注 · 2013</span>
+    <h2>森昭人</h2>
+    <span>1 篇文章 · 0 条评注 · 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
+  <p>2010 · interview_translation · Game Informer Feature: Interview With Team Behind The Pokémon Franchise: Game Freak</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameinformer-masuda-morimoto-hgss/">[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化</a></h3>
   <span></span>
 </article>
 

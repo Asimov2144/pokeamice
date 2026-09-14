@@ -22,17 +22,16 @@ search: false
 <a href="/entities/organizations/bump-of-chicken/"><strong>BUMP OF CHICKEN</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/cesa/"><strong>CESA</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/club-nintendo/"><strong>Club Nintendo</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/creatures/"><strong>Creatures</strong><span>22 条资料</span></a>
+<a href="/entities/organizations/creatures/"><strong>Creatures</strong><span>23 条资料</span></a>
 <a href="/entities/organizations/dec/"><strong>DEC</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/enterbrain/"><strong>ENTERBRAIN</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/engine-01/"><strong>Engine 01</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/facebook/"><strong>Facebook</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/fami/"><strong>Fami通</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/g4tv/"><strong>G4TV</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/game-stop/"><strong>GAME STOP</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>769 条资料</span></a>
+<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>795 条资料</span></a>
 <a href="/entities/organizations/gamepro/"><strong>GamePro</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/gamestop/"><strong>GameStop</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/gamestop/"><strong>GameStop</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/gamesradar/"><strong>GamesRadar</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/ign/"><strong>IGN</strong><span>4 条资料</span></a>
 <a href="/entities/organizations/jbl/"><strong>JBL</strong><span>1 条资料</span></a>
@@ -56,6 +55,7 @@ search: false
 <a href="/entities/organizations/sega/"><strong>SEGA（世嘉）</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/steam-valve/"><strong>Steam（Valve）</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/tomy/"><strong>TOMY</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/the-pok-mon-company/"><strong>The Pokémon Company</strong><span>11 条资料</span></a>
 <a href="/entities/organizations/the-pok-mon-company-international-tpci/"><strong>The Pokémon Company International (TPCi)</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/the-prodigy/"><strong>The Prodigy</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/tripadvisor/"><strong>TripAdvisor</strong><span>1 条资料</span></a>
@@ -68,8 +68,7 @@ search: false
 <a href="/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"><strong>东京电视台</strong><span>29 条资料</span></a>
 <a href="/entities/organizations/e4b89ce4baace980a0e5bda2e5a4a7e5ada6/"><strong>东京造形大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4b89ce697a5e69cace99381e8b7af/"><strong>东日本铁路</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>89 条资料</span></a>
-<a href="/entities/organizations/e4bbbbe5a4a9e5a082e6a0aae5bc8fe4bc9ae7a4be/"><strong>任天堂株式会社</strong><span>2 条资料</span></a>
+<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>91 条资料</span></a>
 <a href="/entities/organizations/e4bbbbe5a4a9e5a082e6aca7e6b4b2/"><strong>任天堂欧洲</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4bfa1e681afe69687e58c96e5ada6e4bc9a/"><strong>信息文化学会</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e58aa8e794bbe5ba97/"><strong>动画店</strong><span>1 条资料</span></a>
@@ -86,7 +85,6 @@ search: false
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e4b8ade5bf83e4b89ce4baac/"><strong>宝可梦中心东京</strong><span>5 条资料</span></a>
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e4b8ade5bf83e5908de58fa4e5b18b/"><strong>宝可梦中心名古屋</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e4b8ade5bf83e5a4a7e998aae5ba97/"><strong>宝可梦中心大阪店</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e5ae9de58fafe6a2a6e585ace58fb8/"><strong>宝可梦公司</strong><span>5 条资料</span></a>
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e58f91e783a7e58f8be4bfb1e4b990/"><strong>宝可梦发烧友俱乐部</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e5a4a7e5a5bde3818de4bfb1e4b990/"><strong>宝可梦大好き俱乐部</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e99fa9e59bbd/"><strong>宝可梦韩国</strong><span>1 条资料</span></a>
@@ -101,9 +99,6 @@ search: false
 <a href="/entities/organizations/e6989fe5b7b4e5858b/"><strong>星巴克</strong><span>4 条资料</span></a>
 <a href="/entities/organizations/e699aee6b395e5b094e88ca8c2b7e7a68fe5b094e9bb98e9/"><strong>普法尔茨·福尔默酿酒厂</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e69e97e882afe585ace59bad/"><strong>林肯公园</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e6a0aae5bc8fe4bc9ae7a4bee382afe383aae383bce38381/"><strong>株式会社クリーチャーズ</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e6a0aae5bc8fe4bc9ae7a4bee382b2e383bce383a0e38395/"><strong>株式会社ゲームフリーク</strong><span>26 条资料</span></a>
-<a href="/entities/organizations/e6a0aae5bc8fe4bc9ae7a4bee3839de382b1e383a2e383b3/"><strong>株式会社ポケモン</strong><span>6 条资料</span></a>
 <a href="/entities/organizations/e6ada6e894b5e9878ee7be8ee8a193e5a4a7e5ada6/"><strong>武蔵野美術大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e6b4bbe7bb93/"><strong>活结</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e78cbfe4b990e58e85/"><strong>猿乐厅</strong><span>1 条资料</span></a>

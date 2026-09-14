@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - H.T.
 - 环境团队
 - 云原生开发
@@ -18,13 +18,13 @@ tags:
 - 组织效能
 - 招聘访谈
 interview_id: PKMN-1017
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-ht/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: H.T.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线环境与架构工程师深度特写：历经移动游戏大潮与 AI 创业公司 COO 磨砺的 H.T.，分享重返热爱的主机游戏界并加入 GAME FREAK 的心路历程；详解在兼顾研究开发部前沿技术与开发二部主线生产管线中，如何通过构建工程自动化提升全组织效率；深入剖析在兼顾远程在家办公与外协安全协作的大背景下，全面推进 GAME FREAK 开发环境“全云端原生化（Full Cloud Native）”的宏伟愿景与“创作者第一（Creator First）”的开明公司文化。
+summary: Game Freak 官方一线环境与架构工程师深度特写：历经移动游戏大潮与 AI 创业公司 COO 磨砺的 H.T.，分享重返热爱的主机游戏界并加入 GAME FREAK 的心路历程；详解在兼顾研究开发部前沿技术与开发二部主线生产管线中，如何通过构建工程自动化提升全组织效率；深入剖析在兼顾远程在家办公与外协安全协作的大背景下，全面推进 GAME FREAK 开发环境“全云端原生化（Full Cloud Native）”的宏伟愿景与“创作者第一（Creator First）”的开明公司文化。
 entities:
   people:
   - H.T.

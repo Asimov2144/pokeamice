@@ -38,7 +38,7 @@ entities:
     - "增田顺一"
     - "中川翔子"
   works:
-    - "宝可梦冲刺！"
+    - "宝可梦冲刺"
     - "宝可梦☆星期天"
   organizations:
     - "Game Freak"

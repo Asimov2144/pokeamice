@@ -10,7 +10,7 @@ categories:
 - pokemon-recruit
 tags:
 - The Pokémon Company
-- GAME FREAK
+- Game Freak
 - 皮卡丘
 - 雷丘
 - 哥罗丘
@@ -43,7 +43,7 @@ entities:
   - 汤山邦彦
   - 大谷育江
   works:
-  - 宝可梦 红／绿
+  - 宝可梦 红·绿
   - Pokémon GO
   organizations:
   - 株式会社ポケモン

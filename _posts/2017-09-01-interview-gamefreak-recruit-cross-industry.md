@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 中途招聘
 - 异业种转职
 - 动画界跨界
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1030
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20170826153717/http://www.gamefreak.co.jp/recruit/interview_06.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: A.I.（动作设计师 / 前TV动画作画）, S.A.（程序员 / 前大型SIer工程师）, H.I.（角色建模师 / 前印刷出版设计）
 original_lang: ja
 translation_lang: zh-CN

@@ -37,7 +37,7 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "宝可梦 Smash！"
+    - "宝可梦 Smash"
     - "你能说出宝可梦吗？BW"
   organizations:
     - "Game Freak"

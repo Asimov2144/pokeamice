@@ -38,9 +38,9 @@ original_link: https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index4.html
 summary: 在社长问《宝可梦 X·Y》终章中，增田顺一详细解密了‘宝可友友乐（Poké-Amie / ポケパルレ）’命名背后融合法语‘Parler（对话交流）’与英语‘Pal（亲密伙伴）’的深刻用意。石原恒和与增田指出，超级进化绝非单纯的力量膨胀，而必须依赖训练家与宝可梦之间沉淀的深厚羁绊。访谈尾声，岩田聪、石原恒和与增田顺一共同向全世界的新老训练家致以最诚挚的寄语。
 entities:
   people:
-  - 岩田 聪
-  - 增田 顺一
-  - 石原 恒和
+  - 岩田聪
+  - 增田顺一
+  - 石原恒和
   works:
   - 宝可梦 X·Y
   - 宝可梦 红·绿

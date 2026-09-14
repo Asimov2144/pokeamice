@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>89 篇文章 · 0 条评注 · 2025 / 2022 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>91 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2022 · article · 本站传送门</p>
   <h3><a href="/sites/文档/Updates/">[站点]-更新日志</a></h3>
   <span>Poke Amice 更新日志 From New to Old\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 &lt;a href = &quot;https://weibo.com/ttarticle/p/show?id=2309404775939119644801&quot; title = &quot;link weibo</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · Special Interview 003 「グローバル事業、最前線」 （廣部 圭太）</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-global-business-hirobe/">宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕</a></h3>
+  <span>&lt;!-- 底部人物履历档案 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
 </article>
 
 <article class="resource-network-card">
@@ -70,6 +76,12 @@ search: false
   <p>2012 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 発売！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-243/">【工作日志】2012年宝可梦新作发售现场</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 继新年那篇之后，又一次姗姗来迟…… 就在2012年6月23日（星期六）…… 终于…… &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/243/y00-67fab9b7.jpg&quot; t</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2012 · interview_translation · 株式会社ポケモンは、何をする会社か？ ｜ 代表取締役社長 石原 恒和</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-tpc-president-ishihara-what-we-do/">宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合</a></h3>
+  <span>&lt;!-- 底部人物档案卡片 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-3 text-center&quot; &lt;img src=&quot;/assets/img/in</span>
 </article>
 
 <article class="resource-network-card">

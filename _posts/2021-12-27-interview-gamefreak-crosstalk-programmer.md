@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 程序员
 - 系统程序员
 - 游戏程序员
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - 技术选型
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-programmer/
-outlet: GAME FREAK 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: M.O., T.T., 档案
-interviewer: GAME FREAK 官方招聘团队
+interviewer: Game Freak 官方招聘团队
 parallel_items:
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-programmer/mv.jpg

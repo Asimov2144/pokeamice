@@ -8,7 +8,7 @@ era_skin: '2019'
 categories:
 - interviews
 tags:
-- GAME FREAK
+- Game Freak
 - 招聘对谈
 - 系统程序员
 - 底层架构

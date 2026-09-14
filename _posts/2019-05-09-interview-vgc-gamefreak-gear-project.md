@@ -14,7 +14,7 @@ categories:
 - 宝可梦剑盾
 - 公司与战略
 tags:
-- GAME FREAK
+- Game Freak
 - 尾上将之
 - VGC
 - Gear Project

@@ -39,7 +39,7 @@ entities:
   works:
     - "宝可梦 战斗革命"
     - "宝可梦 电影"
-    - "宝可梦 集换式卡牌游戏"
+    - "宝可梦集换式卡牌游戏"
   organizations:
     - "小学馆"
     - "Game Freak"

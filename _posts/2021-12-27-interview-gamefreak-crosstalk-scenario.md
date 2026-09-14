@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 剧本与世界观
 - 招聘访谈
 - 岩尾和昌
@@ -18,9 +18,9 @@ tags:
 - 极巨化
 - 概念设定
 original_url: https://www.gamefreak.co.jp/recruit/crosstalk-scenario/
-outlet: GAME FREAK 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
+outlet: Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk
 interviewee: K.I.（岩尾和昌 / 开发二部副部长 兼 概念与视觉工作室）、K.M.（松岛贤二 / 概念与视觉工作室）
-interviewer: GAME FREAK 官方招聘团队
+interviewer: Game Freak 官方招聘团队
 parallel_items:
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-scenario/mv.jpg

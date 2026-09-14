@@ -10,19 +10,33 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 増田順一
+- 增田顺一
 - 石原恒和
 - 杉森建
-- 森本茂樹
+- 森本茂树
 - 太田健程
-- 一之瀬剛
+- 一之濑刚
 - Nintendo Power
-- GAME FREAK
+- Game Freak
 - 金银
 - 第二世代
 - 废案宝可梦
 - 梦幻
 - 咕咕
+entities:
+  people:
+    - 增田顺一
+    - 石原恒和
+    - 杉森建
+    - 森本茂树
+    - 太田健程
+    - 一之濑刚
+  works:
+    - 宝可梦 金·银
+  organizations:
+    - Game Freak
+    - Nintendo Power
+    - Creatures
 era_skin: '1999'
 original_lang: en
 interview_id: PKMN-0096

@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - K.O.
 - 系统程序员
 - 构建系统
@@ -18,13 +18,13 @@ tags:
 - 持续集成
 - 招聘访谈
 interview_id: PKMN-1015
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-ko/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: K.O.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线系统程序员深度特写：毕业于国立情报科学顶级研究生院（NAIST）的 K.O.，讲述其自幼对宝可梦的热爱与成长为核心系统工程师的历程；详述管理全团队自动化构建与日常集成流水线时“牵一发而动全身”的沉甸甸责任感；以及在公司浓厚的技术钻研氛围中，如何通过引入前沿系统架构与工具链优化，持续为数百名开发者的日常研发提质增效。
+summary: Game Freak 官方一线系统程序员深度特写：毕业于国立情报科学顶级研究生院（NAIST）的 K.O.，讲述其自幼对宝可梦的热爱与成长为核心系统工程师的历程；详述管理全团队自动化构建与日常集成流水线时“牵一发而动全身”的沉甸甸责任感；以及在公司浓厚的技术钻研氛围中，如何通过引入前沿系统架构与工具链优化，持续为数百名开发者的日常研发提质增效。
 entities:
   people:
   - K.O.

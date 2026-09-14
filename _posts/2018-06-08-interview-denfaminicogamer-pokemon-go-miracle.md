@@ -19,7 +19,7 @@ categories:
 - 访谈整理
 tags:
 - Pokemon
-- Pokemon GO
+- Pokémon GO
 - 石原恒和
 - 川岛优志
 - 增田顺一

@@ -38,7 +38,7 @@ entities:
     - "海野总监"
   works:
     - "宝可梦 黑2·白2"
-    - "宝可梦AR搜寻器"
+    - "宝可梦 AR 搜寻器"
   organizations:
     - "Game Freak"
     - "任天堂"

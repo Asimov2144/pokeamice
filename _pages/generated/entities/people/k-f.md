@@ -19,7 +19,7 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2021 · interview_translation · GAME FREAK 採用情報</p>
+  <p>2021 · interview_translation · Game Freak 採用情報</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/">GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落</a></h3>
   <span></span>
 </article>

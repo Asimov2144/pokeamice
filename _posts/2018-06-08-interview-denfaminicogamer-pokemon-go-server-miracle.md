@@ -19,7 +19,7 @@ categories:
 - 访谈整理
 tags:
 - Pokemon
-- Pokemon GO
+- Pokémon GO
 - 石原恒和
 - 川岛优志
 - 增田顺一
@@ -37,11 +37,11 @@ original_link: https://news.denfaminicogamer.jp/interview/180608/2
 summary: 电玩志《Pokémon GO的奇迹》终篇：还原 2016 年 7 月上线那一刻震撼全球的惊涛骇浪。开服首日全球流量便冲破 Google 云计算工程团队预想极限的 50 倍，Niantic 与任天堂工程师日夜兼程加固架构；纽约中央公园深夜数千人狂奔捕获水伊布成为全球头条；石原恒和、川岛优志与增田顺一动情探讨了这款游戏如何打破宅家孤立、促使抑郁症患者走入阳光社区、连接跨世代家庭的真实情感力量。
 entities:
   people:
-  - 石原 恒和
-  - 川岛 优志
-  - 增田 顺一
+  - 石原恒和
+  - 川岛优志
+  - 增田顺一
   - 约翰·汉克
-  - 野村 达雄
+  - 野村达雄
   works:
   - Pokémon GO
   - Ingress

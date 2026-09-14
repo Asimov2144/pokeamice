@@ -19,7 +19,7 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2019 · interview_translation · GAME FREAK 採用情報 (Wayback 历史存档)</p>
+  <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pl-my/">GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）</a></h3>
   <span></span>
 </article>

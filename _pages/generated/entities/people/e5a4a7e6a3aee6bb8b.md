@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>18 篇文章 · 0 条评注 · 2025 / 2019 / 2018 / 2017 / 2016 / 2014 / 2012 / 2009 / 2005</span>
+    <span>21 篇文章 · 0 条评注 · 2025 / 2019 / 2018 / 2017 / 2016 / 2014 / 2012 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -43,14 +43,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-201805300063/">[访谈翻译] 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</a></h3>
+  <p>2018 · interview_translation · Gamer.ne.jp</p>
+  <h3><a href="/interview-gamer-pokemon-press-conference-2018/">《宝可梦 探险寻宝》与《Let&#39;s Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · Gamer.ne.jp</p>
-  <h3><a href="/interview-gamer-pokemon-press-conference-2018/">《宝可梦 探险寻宝》与《Let&#39;s Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈</a></h3>
+  <p>2018 · interview_translation · 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-201805300063/">[访谈翻译] 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</a></h3>
   <span></span>
 </article>
 
@@ -67,6 +67,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · 週刊ファミ通 2017年11月2日号（2017年10月19日刊载）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-usum-ohmori-iwao-director/">[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-20170905-pokemon-early-design-docum/">[访谈翻译] ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</a></h3>
   <span></span>
@@ -75,6 +81,12 @@ search: false
 <article class="resource-network-card">
   <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-game-informer-why-ruby-sapphire-most-challenging/">[访谈翻译] 《Game Informer》独家专访：增田顺一复盘《红宝石·蓝宝石》极限开发（GBA跨代阵痛、特性性格革命与重压下的进退维谷）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · 電ファミニコゲーマー 新世代に訊く：大森滋氏・尾上将之氏インタビュー（後編）</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-gear-project/">[访谈翻译] 电玩志专访大森滋与尾上将之（后篇）：Game Freak 的企划孵化机制与“齿轮企划”破格传承</a></h3>
   <span></span>
 </article>
 
@@ -105,6 +117,12 @@ search: false
 <article class="resource-network-card">
   <p>2012 · interview_translation · HGSS 众 采访</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg-hgss-interview-2010-03-31/">[访谈翻译] HGSS 众 采访</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · Game Informer Feature: Interview With Team Behind The Pokémon Franchise: Game Freak</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameinformer-masuda-morimoto-hgss/">[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化</a></h3>
   <span></span>
 </article>
 

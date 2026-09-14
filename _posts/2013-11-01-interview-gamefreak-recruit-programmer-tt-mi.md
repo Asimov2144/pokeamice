@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 宝可梦XY
 - 程序员
 - 3D渲染
@@ -18,9 +18,9 @@ tags:
 - 座谈访谈
 - Wayback历史归档
 original_url: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_2.html
-outlet: GAME FREAK 官网招聘专栏 (Wayback Machine 历史归档)
+outlet: Game Freak 官网招聘专栏 (Wayback Machine 历史归档)
 interviewee: M.I., T.T.
-interviewer: GAME FREAK 招聘采编团队
+interviewer: Game Freak 招聘采编团队
 parallel_items:
 - type: image
   original: /assets/img/interviews/2013-gamefreak-recruit-programmer/top_image.png

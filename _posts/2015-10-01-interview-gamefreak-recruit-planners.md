@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 游戏策划
 - 中途招聘
 - 地图策划
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1026
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20160330115920/http://www.gamefreak.co.jp/recruit/interview_04.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: H.T.（地图策划 / 前程序员）, R.M.（事件策划）
 original_lang: ja
 translation_lang: zh-CN
@@ -32,7 +32,7 @@ entities:
   - R.M.
   works:
   - 宝可梦 X·Y
-  - 宝可梦 终极红宝石／始源蓝宝石
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

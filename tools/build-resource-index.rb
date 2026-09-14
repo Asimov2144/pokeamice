@@ -45,10 +45,102 @@ def array(value)
   end
 end
 
+Encoding.default_external = "UTF-8"
+Encoding.default_internal = "UTF-8"
+
+CANONICAL_ENTITIES = {
+  "people" => {
+    "增田 顺一" => "增田顺一",
+    "石原 恒和" => "石原恒和",
+    "杉森 建" => "杉森建",
+    "岩田 聪" => "岩田聪",
+    "田尻 智" => "田尻智",
+    "大森 滋" => "大森滋",
+    "森本 茂树" => "森本茂树",
+    "海野 隆雄" => "海野隆雄",
+    "一之濑 刚" => "一之濑刚",
+    "松岛 贤二" => "松岛贤二",
+    "森 昭人" => "森昭人",
+    "小笠原 裕" => "小笠原裕",
+    "竹内 敦" => "竹内敦",
+    "折本 哲也" => "折本哲也",
+    "小泽 达雄" => "小泽达雄",
+    "松村 直树" => "松村直树",
+    "长畑 成一郎" => "长畑成一郎",
+    "富江 慎一郎" => "富江慎一郎",
+    "大谷 育江" => "大谷育江",
+    "景山 将太" => "景山将太",
+    "尾上 将之" => "尾上将之",
+    "岩尾 和昌" => "岩尾和昌",
+    "川岛 优志" => "川岛优志",
+    "野村 达雄" => "野村达雄"
+  },
+  "works" => {
+    "宝可梦 红／绿" => "宝可梦 红·绿",
+    "宝可梦 黑／白" => "宝可梦 黑·白",
+    "宝可梦黑／白" => "宝可梦 黑·白",
+    "寶可夢 黑／白" => "宝可梦 黑·白",
+    "宝可梦 朱／紫" => "宝可梦 朱·紫",
+    "宝可梦 剑／盾" => "宝可梦 剑·盾",
+    "宝可梦 剑／盾 扩充票" => "宝可梦 剑·盾 扩充票",
+    "宝可梦 究极之日／究极之月" => "宝可梦 究极之日·究极之月",
+    "宝可梦 晶灿钻石／明亮珍珠" => "宝可梦 晶灿钻石·明亮珍珠",
+    "宝可梦 终极红宝石／始源蓝宝石" => "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "宝可梦 终极红宝石·始源蓝宝石" => "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布" => "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布" => "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 走吧！皮卡丘／走吧！伊布" => "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 集换式卡牌游戏" => "宝可梦集换式卡牌游戏",
+    "宝可梦X·Y" => "宝可梦 X·Y",
+    "宝可梦AR搜寻器" => "宝可梦 AR 搜寻器",
+    "宝可梦全国图鉴Pro" => "宝可梦全国图鉴 Pro",
+    "宝可梦Smash" => "宝可梦 Smash",
+    "宝可梦 Smash！" => "宝可梦 Smash",
+    "宝可梦冲刺！" => "宝可梦冲刺",
+    "节奏猎人：和谐骑士" => "节奏猎人 和谐骑士",
+    "Pokemon GO" => "Pokémon GO"
+  },
+  "organizations" => {
+    "GAME FREAK" => "Game Freak",
+    "GAMEFREAK" => "Game Freak",
+    "GameFreak" => "Game Freak",
+    "株式会社ゲームフリーク" => "Game Freak",
+    "GAME STOP" => "GameStop",
+    "TPC" => "The Pokémon Company",
+    "宝可梦公司" => "The Pokémon Company",
+    "株式会社ポケモン" => "The Pokémon Company",
+    "任天堂株式会社" => "任天堂",
+    "株式会社クリーチャーズ" => "Creatures",
+    "Creatures Inc." => "Creatures"
+  }
+}.freeze
+
+def normalize_entity(type, name)
+  return "" if name.to_s.strip.empty?
+  raw = name.to_s.strip
+  
+  # Check canonical map first
+  canonical = CANONICAL_ENTITIES.dig(type, raw)
+  return canonical if canonical
+  
+  # For people: strip CJK internal spaces
+  if type == "people"
+    return raw.gsub(/(?<=[\p{Han}\p{Hiragana}\p{Katakana}])\s+(?=[\p{Han}\p{Hiragana}\p{Katakana}])/u, "")
+  end
+  
+  # For works: convert / and ／ to · if surrounded by Pokemon text
+  if type == "works" && raw.include?("宝可梦")
+    return raw.gsub(/[／\/]/, "·")
+  end
+  
+  raw
+end
+
 def entity_map(value)
   value = {} unless value.is_a?(Hash)
   ENTITY_TYPES.keys.each_with_object({}) do |key, memo|
-    memo[key] = array(value[key] || value[key.to_sym])
+    raw_list = array(value[key] || value[key.to_sym])
+    memo[key] = raw_list.map { |name| normalize_entity(key, name) }.reject(&:empty?).uniq
   end
 end
 

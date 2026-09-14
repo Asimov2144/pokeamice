@@ -36,7 +36,7 @@ entities:
   people:
     - "增田顺一"
   works:
-    - "节奏猎人：和谐骑士"
+    - "节奏猎人 和谐骑士"
   organizations:
     - "Game Freak"
     - "任天堂"

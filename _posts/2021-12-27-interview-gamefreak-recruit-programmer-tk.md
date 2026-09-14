@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - T.K.
 - 游戏程序员
 - 宝可梦传说 阿尔宙斯
@@ -18,13 +18,13 @@ tags:
 - 动作系统
 - 招聘访谈
 interview_id: PKMN-1014
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-pg-tk/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: T.K.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线程序员深度特写：专门学校毕业即投身主机研发的 T.K.，分享在《宝可梦 剑／盾》中开发“宝可梦露营”迷你游戏、在《宝可梦传说 阿尔宙斯》中担纲主角奔跑、翻滚、潜行与投掷精灵球等全套实时动作交互核心逻辑的心路历程；揭示策划与程序员紧密协同、扁平碰撞的团队文化；并阐述“程序员绝不轻言放弃，要成为用技术攻克一切创意难题的解决者”的工程师信念。
+summary: Game Freak 官方一线程序员深度特写：专门学校毕业即投身主机研发的 T.K.，分享在《宝可梦 剑／盾》中开发“宝可梦露营”迷你游戏、在《宝可梦传说 阿尔宙斯》中担纲主角奔跑、翻滚、潜行与投掷精灵球等全套实时动作交互核心逻辑的心路历程；揭示策划与程序员紧密协同、扁平碰撞的团队文化；并阐述“程序员绝不轻言放弃，要成为用技术攻克一切创意难题的解决者”的工程师信念。
 entities:
   people:
   - T.K.

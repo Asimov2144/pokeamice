@@ -8,12 +8,12 @@ era_skin: '2019'
 categories:
 - interviews
 tags:
-- GAME FREAK
+- Game Freak
 - 招聘对谈
 - 应届新人
 - 职业发展
 - 新人研修
-- GEAR PROJECT
+- Gear Project
 - 导师制度
 - 年轻开发者
 source:
@@ -31,7 +31,7 @@ entities:
   - K.K.
   works:
   - 宝可梦 朱·紫
-  - GEAR PROJECT
+  - Gear Project
 parallel_items:
 - type: image
   original: /assets/img/interviews/2021-gamefreak-crosstalk-new-graduate/mv.jpg

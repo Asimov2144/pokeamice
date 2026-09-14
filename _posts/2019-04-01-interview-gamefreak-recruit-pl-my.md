@@ -9,21 +9,21 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 招聘专访
 - 游戏策划
 - 武藏野美术大学
 - 齿轮企划
 - 社长杯
-- 宝可梦 走吧！皮卡丘／走吧！伊布
+- 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 - 跟随系统
 - UI策划
 - 女性总监
 - Wayback历史存档
 interview_id: PKMN-1032
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20200804213443/https://www.gamefreak.co.jp/recruit/interview/my/
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: M.Y.（游戏策划）
 original_lang: ja
 translation_lang: zh-CN
@@ -32,7 +32,7 @@ entities:
   people:
   - M.Y.
   works:
-  - 精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   organizations:
   - 株式会社ゲームフリーク
   - 武蔵野美術大学

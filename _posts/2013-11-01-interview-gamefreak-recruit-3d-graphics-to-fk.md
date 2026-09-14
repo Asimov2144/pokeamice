@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 宝可梦XY
 - 3D图形
 - 杉森建
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1021
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_1.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: F.K., T.O.
 original_lang: ja
 translation_lang: zh-CN

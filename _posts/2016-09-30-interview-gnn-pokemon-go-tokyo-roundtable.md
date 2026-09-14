@@ -14,7 +14,7 @@ categories:
 - 宝可梦go
 - 策划与运营
 tags:
-- Pokemon GO
+- Pokémon GO
 - Niantic
 - The Pokémon Company
 - 野村达雄

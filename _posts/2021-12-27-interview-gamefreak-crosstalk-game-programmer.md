@@ -7,7 +7,7 @@ author: GAME FREAK 招聘团队
 categories:
 - interviews
 tags:
-- GAME FREAK
+- Game Freak
 - 程序员
 - 宝可梦传说 阿尔宙斯
 - 招聘访谈

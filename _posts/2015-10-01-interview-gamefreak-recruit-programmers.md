@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 程序员
 - 中途招聘
 - 场地内容程序
@@ -19,9 +19,9 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1027
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20160402065701/http://www.gamefreak.co.jp/recruit/interview_05.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: Y.I.（场地内容程序员 / 玩家控制统括）, M.K.（场地环境程序员 / 管线架构）
 original_lang: ja
 translation_lang: zh-CN
@@ -32,7 +32,7 @@ entities:
   - M.K.
   works:
   - 宝可梦 X·Y
-  - 宝可梦 终极红宝石／始源蓝宝石
+  - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   - 风之克罗诺亚
   - 女神异闻录3
   organizations:

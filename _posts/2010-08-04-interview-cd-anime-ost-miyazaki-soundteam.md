@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - music-archives
 tags:
-- GAME FREAK
+- Game Freak
 - 宮崎慎二
 - 増田順一
 - 一之瀬剛

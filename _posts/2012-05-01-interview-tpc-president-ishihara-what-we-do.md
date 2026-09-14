@@ -30,8 +30,8 @@ entities:
   people:
   - 石原恒和
   works:
-  - 宝可梦 红／绿
-  - 寶可夢 黑／白
+  - 宝可梦 红·绿
+  - 宝可梦 黑·白
   - 電視遊戯大全
   - 宝可梦集换式卡牌游戏
   - Pokemon Center

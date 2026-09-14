@@ -10,16 +10,16 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - T.K.
 - 技术美术
 - TA
-- 宝可梦 剑／盾
+- 宝可梦 剑·盾
 - 宝可梦传说 阿尔宙斯
 - Houdini
 - 招聘访谈
 interview_id: PKMN-1020
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-ta-tk/
 source:
   name: GAME FREAK 採用情報

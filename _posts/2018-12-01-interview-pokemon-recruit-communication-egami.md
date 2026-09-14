@@ -34,8 +34,8 @@ entities:
   - 增田顺一
   works:
   - Pokémon GO
-  - 精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
-  - 宝可梦 红／绿
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  - 宝可梦 红·绿
   organizations:
   - 株式会社ポケモン
   - 株式会社ゲームフリーク

@@ -35,7 +35,7 @@ entities:
   - 為藤
   - 石原恒和
   works:
-  - 宝可梦 朱／紫
+  - 宝可梦 朱·紫
   - 宝可梦集换式卡牌游戏
   - Pokemon Center
   - Pokemon Local Acts（宝可梦地方应援）

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>GameStop</h2>
-    <span>1 篇文章 · 0 条评注 · 2011</span>
+    <span>2 篇文章 · 0 条评注 · 2011</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第189回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-189/">[GameFreak部长专栏] 第189回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 欧洲及北美，《宝可梦黑／白》发售！！！太棒了！！！ 3月2日　从成田前往伦敦。 3月3日　在伦敦市中心一家著名</span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第186回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-186/">[GameFreak部长专栏] 第186回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 我在旧金山的最后一天。 结束了在北美为期两天的媒体采访。 大约有12家公司吧。 确实挺辛苦的，不过…… 有人用</span>

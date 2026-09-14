@@ -1,6 +1,6 @@
 ---
-title: "川岛 优志 - 人物"
-permalink: "/entities/people/e5b79de5b29b+e4bc98e5bf97/"
+title: "松岛贤二 - 人物"
+permalink: "/entities/people/e69dbee5b29be8b4a4e4ba8c/"
 layout: "single"
 search: false
 ---
@@ -8,8 +8,8 @@ search: false
 <section class="resource-network-page">
   <div class="resource-network-hero">
     <p>人物</p>
-    <h2>川岛 优志</h2>
-    <span>1 篇文章 · 0 条评注 · 2018</span>
+    <h2>松岛贤二</h2>
+    <span>1 篇文章 · 0 条评注 · 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2018 · interview_translation · 電ファミニコゲーマー 特集記事：ポケモン GOの奇跡（後編）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-pokemon-go-server-miracle/">[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象</a></h3>
+  <p>2010 · interview_translation · Game Informer Feature: Interview With Team Behind The Pokémon Franchise: Game Freak</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gameinformer-masuda-morimoto-hgss/">[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化</a></h3>
   <span></span>
 </article>
 

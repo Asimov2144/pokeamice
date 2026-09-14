@@ -9,25 +9,25 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - F.K.
 - 概念设计
 - 角色设计
 - 究极之日究极之月
 - 招聘访谈
 interview_id: PKMN-1009
-publication: GAME FREAK 採用情報
+publication: Game Freak 採用情報
 original_link: https://www.gamefreak.co.jp/recruit/interview-gr-fk/
-author: GAME FREAK 官方
+author: Game Freak 官方
 interviewee: F.K.
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 官方一线设计师深度特写：女子美术大学毕业以应届生身份加入 GAME FREAK 的概念原画师 F.K.，回顾入职面试时面试官针对原创生物每一个生理与生态细节的严苛追问；入社伊始即担纲《宝可梦 究极之日／究极之月》异世界舞台概念原画创作的心路历程；以及为了在虚构游戏中构筑具有真实尺度与说服力的世界，走遍秘鲁、墨西哥、埃及与南非考察古代遗迹与建筑结构的创作哲学。
+summary: Game Freak 官方一线设计师深度特写：女子美术大学毕业以应届生身份加入 GAME FREAK 的概念原画师 F.K.，回顾入职面试时面试官针对原创生物每一个生理与生态细节的严苛追问；入社伊始即担纲《宝可梦 究极之日／究极之月》异世界舞台概念原画创作的心路历程；以及为了在虚构游戏中构筑具有真实尺度与说服力的世界，走遍秘鲁、墨西哥、埃及与南非考察古代遗迹与建筑结构的创作哲学。
 entities:
   people:
   - F.K.
   works:
-  - 宝可梦 究极之日／究极之月
+  - 宝可梦 究极之日·究极之月
   - 宝可梦 太阳·月亮
   organizations:
   - 株式会社ゲームフリーク

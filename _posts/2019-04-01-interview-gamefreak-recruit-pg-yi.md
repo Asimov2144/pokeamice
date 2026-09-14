@@ -9,21 +9,21 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - 招聘专访
 - 程序员
 - R&D
 - 宝可梦 太阳／月亮
-- 宝可梦 走吧！皮卡丘／走吧！伊布
+- 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 - 碰撞引擎
 - 跟随系统
 - 明雷遇敌
 - 流式加载
 - Wayback历史存档
 interview_id: PKMN-1031
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20200804213450/https://www.gamefreak.co.jp/recruit/interview/yi/
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: Y.I.（程序员 / 研究开发部）
 original_lang: ja
 translation_lang: zh-CN
@@ -33,7 +33,7 @@ entities:
   - Y.I.
   works:
   - 宝可梦 太阳·月亮
-  - 精灵宝可梦 Let's Go! 皮卡丘／Let's Go! 伊布
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   organizations:
   - 株式会社ゲームフリーク
 parallel_items:

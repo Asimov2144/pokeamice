@@ -35,7 +35,7 @@ entities:
   - GOTCHA!
   - Pokémon GO
   - 宝可梦 剑·盾
-  - 宝可梦 晶灿钻石／明亮珍珠
+  - 宝可梦 晶灿钻石·明亮珍珠
   - 宝可梦传说 阿尔宙斯
   - Pokéfuta（宝可梦井盖）
   organizations:

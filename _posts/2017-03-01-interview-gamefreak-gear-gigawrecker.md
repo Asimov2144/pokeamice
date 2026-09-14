@@ -9,7 +9,7 @@ categories:
 - developer-interviews
 - gamefreak-recruit
 tags:
-- GAME FREAK
+- Game Freak
 - Gear Project
 - 齿轮企划
 - GIGA WRECKER
@@ -20,13 +20,13 @@ tags:
 - 招聘访谈
 - Wayback历史存档
 interview_id: PKMN-1028
-publication: GAME FREAK 採用情報 (Wayback 历史存档)
+publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20170719132104/http://www.gamefreak.co.jp/recruit/interview_01.html
-author: GAME FREAK 採用チーム
+author: Game Freak 採用チーム
 interviewee: M.O.（ディレクター / プランナー）, H.I.（プログラマ）
 original_lang: ja
 translation_lang: zh-CN
-summary: GAME FREAK 罕见直接登陆 Steam 平台并试水 Early Access（抢先体验）的物理破坏动作解谜神作《GIGA WRECKER》官方开发复盘：2010 年新卒同期的策划 M.O. 与程序员 H.I.，在经历《宝可梦 黑·白》与《宝可梦 X·Y》洗礼后，携手向齿轮企划发起冲击。专访深度披露了本作如何从最初的“操纵磁力的机器人动作游戏”逐步演进为将敌人与建筑轰碎、利用残骸瓦砾重组凝聚成重锤、方块与斜坡的硬核物理动作解谜；详述了 GAME FREAK 破天荒直接直面全球 PC 核心玩家社区、并在 INDIE STREAM AWARDS 2016 斩获最佳技术奖与评委会特别奖的幕后全貌；展现了年轻一代创作者在独立闭环开发中所获得的飞跃式成长。
+summary: Game Freak 罕见直接登陆 Steam 平台并试水 Early Access（抢先体验）的物理破坏动作解谜神作《GIGA WRECKER》官方开发复盘：2010 年新卒同期的策划 M.O. 与程序员 H.I.，在经历《宝可梦 黑·白》与《宝可梦 X·Y》洗礼后，携手向齿轮企划发起冲击。专访深度披露了本作如何从最初的“操纵磁力的机器人动作游戏”逐步演进为将敌人与建筑轰碎、利用残骸瓦砾重组凝聚成重锤、方块与斜坡的硬核物理动作解谜；详述了 GAME FREAK 破天荒直接直面全球 PC 核心玩家社区、并在 INDIE STREAM AWARDS 2016 斩获最佳技术奖与评委会特别奖的幕后全貌；展现了年轻一代创作者在独立闭环开发中所获得的飞跃式成长。
 entities:
   people:
   - M.O.
