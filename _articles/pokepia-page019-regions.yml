@@ -1,0 +1,35 @@
+# Metadata for the first connected scan-library Docs archive case.
+# Generated from the qwen-vl-ocr-latest region run on E:\Pokeamice\scan\pokepia.
+article_id: pokepia-page019-regions
+slug: pokepia-page019-regions
+date: 2026-08-29
+
+title: "[扫描页存档] Pokémon PIA page019 自动分区对照"
+title_ja: "Pokémon PIA page019"
+kicker: "SCAN ARCHIVE · REGION OCR"
+publication: "Pokémon PIA"
+issue: "page019"
+interviewee: "杂志页面分区样本"
+translator: "Qwen-VL-OCR 识别 / DeepSeek 校对初译 / 待人工复核"
+source_pages: "page019"
+source_title: "Pokémon PIA · connected scan library"
+original_lang: ja
+translation_lang: zh-CN
+summary: "以连接的访谈扫描图库为输入，展示自动页面转正、分区、竖排识别、图片区保留、OCR 与日中对照发布的完整样本。"
+
+categories: [访谈翻译, 扫描存档]
+tags: [Pokémon PIA, OCR, 自动分区, 日中对照, 扫描存档, page019]
+
+docs:
+  layout: scan-translation
+  scan_image: "/assets/images/scan-archive/pokepia-20260829/page019.jpg"
+  scan_label: "page019"
+  scan_caption: "自动转正与裁切后的 Web 阅读图；原始扫描文件保留在 E 盘图库。"
+  figures:
+    qwen-r7: "/assets/images/scan-archive/pokepia-20260829/page019-qwen-r7.jpg"
+  note: |-
+    本页是连接扫描图库后的自动化流程样本。页面保留原图分区、阅读顺序、文字方向和图片区，方便轻度浏览、全文检索与后续返工。
+
+wordpress:
+  category_ids: []
+  tag_ids: []

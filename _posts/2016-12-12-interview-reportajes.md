@@ -45,9 +45,6 @@ original_link: https://as.com/meristation/2016/12/12/reportajes/1481526000_16084
 translator: Poke Amice Studio
 interviewee: MeriStation, Sergio González, 增田顺一, 大森滋
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2016-12-12-reportajes/img_02.png
-  caption: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
 - type: paragraph
   original: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro" - Meristation'
   translation: 增田与大森访谈，宝可梦之父："Nintendo Switch是未来" - Meristation
@@ -198,7 +195,7 @@ parallel_items:
   speaker: MeriStation
 - type: paragraph
   original: 'Ohmori : Por ejemplo, las Poké Monturas no es que las hayamos cogido de Pokémon Ranger sino que con el tema de poder hacer que los humanos y los Pokémon pudiesen convivir de la forma más estrecha y vinculada posible, nos planteamos cuál podría ser la manera de hacer que se ayudasen lo máximo posible mutuamente; es así como surgió la idea de las Poké Monturas. Otro ejemplo es el Poké Visor que hemos introducido en Pokémon Sol y Luna. Esta función la hemos tomado de Pokémon Snap , pensamos desde el primer momento en ese título por las posibilidades que podía tener esta función con las capacidades de 3DS. Es así como trabajamos a la hora de introducir nuevas funciones y mecánicas. Definitivamente no creo que se trate de imitar a los spin off, pero si tenemos que tomar algo prestado porque pensemos que va a aportar algo a la saga principal, lo haremos sin ninguna duda.'
-  translation: 大森：例如，宝可骑行并不是我们从《宝可梦巡护员》中直接拿来的，而是基于让人类和宝可梦能够尽可能紧密地共同生活、相互帮助的主题，我们思考了如何让他们最大限度地互相协助，由此诞生了宝可骑行的想法。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可梦图鉴相机。这个功能取自《宝可梦 随乐拍》，我们从一开始就考虑到这个功能在3DS上的可能性。我们就是这样引入新功能和机制的。我绝对不认为这是在模仿衍生作品，但如果我们认为某些东西能为正传系列带来价值，我们会毫不犹豫地借鉴。
+  translation: 例如，宝可骑行并不是我们从《宝可梦巡护员》中直接拿来的，而是基于让人类和宝可梦能够尽可能紧密地共同生活、相互帮助的主题，我们思考了如何让他们最大限度地互相协助，由此诞生了宝可骑行的想法。另一个例子是我们在《宝可梦 太阳／月亮》中引入的宝可梦图鉴相机。这个功能取自《宝可梦 随乐拍》，我们从一开始就考虑到这个功能在3DS上的可能性。我们就是这样引入新功能和机制的。我绝对不认为这是在模仿衍生作品，但如果我们认为某些东西能为正传系列带来价值，我们会毫不犹豫地借鉴。
   speaker: 大森滋
   note: 宝可骑行（Poké Monturas）是《宝可梦 太阳／月亮》中的骑乘系统；宝可梦图鉴相机（Poké Visor）是游戏中的拍照功能，源自N64游戏《宝可梦 随乐拍》（Pokémon Snap）。
 - type: paragraph
@@ -216,7 +213,7 @@ parallel_items:
   note: 原文为“Ampliar”，意为“展开”，可能为网页上的交互按钮，此处保留原意。
 - type: paragraph
   original: 'Masuda : Para Pokémon es muy importante la comunicación . Dónde y cómo juegan nuestros jugadores es algo crucial. Por ejemplo, en Japón los niños suelen jugar en el parque, en casa de uno u otro, reunidos jugando con sus consolas portátiles. En Japón las consolas portátiles están lejos de morir, de hecho cuentan con un mejor estado de salud que las domésticas. Por ello, es importante para nosotros mantener lo mejor posible la comunicación, ese medio por el que la gente se una y se junte para jugar.'
-  translation: 增田：对于宝可梦来说，交流非常重要。玩家在哪里玩、怎么玩是至关重要的。例如，在日本，孩子们通常在公园里、在彼此家中聚在一起玩掌机。在日本，掌机远未消亡，实际上它们的健康状况比家用机更好。因此，对我们来说，尽可能保持这种交流很重要，这是人们聚集在一起玩游戏的方式。
+  translation: 对于宝可梦来说，交流非常重要。玩家在哪里玩、怎么玩是至关重要的。例如，在日本，孩子们通常在公园里、在彼此家中聚在一起玩掌机。在日本，掌机远未消亡，实际上它们的健康状况比家用机更好。因此，对我们来说，尽可能保持这种交流很重要，这是人们聚集在一起玩游戏的方式。
   speaker: 增田顺一
   note: 增田顺一（Junichi Masuda）是Game Freak的董事，宝可梦系列的制作人之一。
 - type: paragraph
@@ -238,7 +235,7 @@ parallel_items:
   note: 原文为“Ampliar”，意为“展开”，可能为网页上的交互按钮，此处保留原意。
 - type: paragraph
   original: 'Masuda : [Risas] Nos lo dicen mucho en Twitter. Bueno… No sé, no sé… [Risas]'
-  translation: 增田：[笑] 我们在推特上经常被问到这个问题。嗯……我不知道，我不知道……[笑]
+  translation: '[笑] 我们在推特上经常被问到这个问题。嗯……我不知道，我不知道……[笑]'
   speaker: 增田顺一
 - type: paragraph
   original: 'El futuro de Pokémon: "Una enorme herramienta de comunicación"'
@@ -255,7 +252,7 @@ parallel_items:
   note: 原文为“Ampliar”，意为“展开”，可能为网页上的交互按钮，此处保留原意。
 - type: paragraph
   original: 'Masuda : Nosotros hemos realizado todo este camino junto a Nintendo, con sus consolas. Creo que vamos a seguir evolucionando con ellos, con sus consolas. Seguiremos el camino que marquen las consolas de Nintendo en el futuro. Para nosotros Pokémon es un fenómeno social, una herramienta de comunicación ; entonces, con la tecnología que tengamos en aquel momento, valoraremos cómo hacer para que a través de esas consolas Pokémon sea la mejor herramienta de comunicación.'
-  translation: 增田：我们一直与任天堂及其主机共同走过这段路。我认为我们将继续与他们及其主机一起进化。我们将跟随任天堂未来主机所指引的道路。对我们来说，宝可梦是一种社会现象，一种交流工具；因此，我们将利用当时拥有的技术，考虑如何通过这些主机让宝可梦成为最好的交流工具。
+  translation: 我们一直与任天堂及其主机共同走过这段路。我认为我们将继续与他们及其主机一起进化。我们将跟随任天堂未来主机所指引的道路。对我们来说，宝可梦是一种社会现象，一种交流工具；因此，我们将利用当时拥有的技术，考虑如何通过这些主机让宝可梦成为最好的交流工具。
   speaker: 增田顺一
 - type: paragraph
   original: Pokémon Sol / Pokémon Luna
@@ -280,14 +277,6 @@ parallel_items:
   translation: 华为科技，健康至上
   note: 此为广告语或宣传语，直译保留原意。
 - type: paragraph
-  original: Gamescom 2026 El juego más especial de Gamescom 2026 se llama Bye Bye Bonnie y es español
-  translation: Gamescom 2026：2026年科隆游戏展最特别的游戏名为《再见，柚丽嘉》，且出自西班牙团队。
-  note: Gamescom为科隆游戏展，Bonnie在宝可梦系列中对应角色“柚丽嘉”。
-- type: paragraph
-  original: 'Gamescom 2026 Cronos Lazarus es el capítulo más hardcore de todo Cronos The New Dawn: estas son las claves tras jugarlo'
-  translation: 'Gamescom 2026：《Cronos: The New Dawn》中最硬核的章节是《Cronos Lazarus》，试玩后的关键要点如下。'
-  note: 游戏名称保留原文，hardcore译为“硬核”。
-- type: paragraph
   original: Cómic Reseña de ‘Stalingrado’, un retrato excepcional de la batalla más cruenta de la Segunda Guerra Mundial
   translation: 漫画：《斯大林格勒》评论——二战最惨烈战役的非凡写照
   note: 斯大林格勒战役为二战重要战役。
@@ -295,10 +284,6 @@ parallel_items:
   original: 'Cómic Reseña de ‘Wonder Woman: Tierra muerta’, la reinvención más salvaje y brutal de la heroína'
   translation: 漫画：《神奇女侠：死地》评论——对这位女英雄最狂野、最残酷的重塑
   note: '《Wonder Woman: Tierra muerta》为漫画名称，Tierra muerta直译为“死地”。'
-- type: paragraph
-  original: Gamescom 2026 Ace Combat 8 es uno de los juegos más fotorrealistas que hemos visto
-  translation: Gamescom 2026：《皇牌空战8》是我们见过最逼真的游戏之一
-  note: Ace Combat官方译名为《皇牌空战》。
 - type: paragraph
   original: 'Wo Long: Fallen Dynasty'
   translation: 卧龙：苍天陨落

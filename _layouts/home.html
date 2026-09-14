@@ -10,13 +10,21 @@ sidebar:
 {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
 {% assign interview_posts = site.posts | where_exp: "post", "post.categories contains '访谈翻译'" %}
 {% assign gf_director_posts = site.posts | where: "archive_type", "gamefreak_director_column" %}
+{% assign gf_lineblog_posts = site.posts | where: "archive_type", "gamefreak_masuda_lineblog" %}
 {% assign gf_legacy_posts = site.posts | where: "archive_type", "gamefreak_legacy_blog" %}
 {% assign gf_art_posts = gf_legacy_posts | where: "gf_legacy_blog", "art" %}
 {% assign gf_staff_posts = gf_legacy_posts | where: "gf_legacy_blog", "staff" %}
-{% assign gf_archive_count = gf_director_posts.size | plus: gf_art_posts.size | plus: gf_staff_posts.size %}
+{% assign gf_archive_count = gf_director_posts.size | plus: gf_lineblog_posts.size | plus: gf_art_posts.size | plus: gf_staff_posts.size %}
 {% assign document_index_count = docs_posts.size | plus: gf_archive_count %}
 {% assign latest_gf_art = gf_art_posts | first %}
 {% assign latest_gf_staff = gf_staff_posts | first %}
+{% assign gf_masuda_posts = gf_director_posts | concat: gf_lineblog_posts | sort: "date" | reverse %}
+{% assign latest_gf_director = gf_masuda_posts | first %}
+{% assign latest_post = all_posts | first %}
+{% assign latest_doc = docs_posts | first %}
+{% assign latest_interview = interview_posts | first %}
+{% assign scan_posts = site.posts | where_exp: "post", "post.categories contains '扫描存档'" %}
+{% assign latest_scan = scan_posts | first %}
 {% assign entries_layout = page.entries_layout | default: "list" %}
 {% assign resource_index = site.data.resource-index %}
 {% assign resource_annotation_count = resource_index.annotations | size | default: 0 %}
@@ -54,6 +62,8 @@ sidebar:
     </nav>
 
     <section class="home-section home-overview" id="overview">
+      {% include home-archive-desk.html %}
+      {% comment %}
       <div class="section-heading">
         <p class="section-kicker">Overview</p>
         <h2>站点总览</h2>
@@ -72,7 +82,7 @@ sidebar:
       {% assign latest_interview = interview_posts | first %}
       {% assign scan_posts = site.posts | where_exp: "post", "post.categories contains '扫描存档'" %}
       {% assign latest_scan = scan_posts | first %}
-      {% assign latest_gf_director = gf_director_posts | first %}
+      {% assign latest_gf_director = gf_masuda_posts | first %}
 
       <div class="overview-hero">
         <div class="overview-hero-copy">
@@ -221,7 +231,7 @@ sidebar:
           <a class="overview-dynamic-card" href="{{ '/gamefreak-director/' | relative_url }}">
             <span>官方博客</span>
             <strong>Game Freak 部长专栏</strong>
-            <em>{{ gf_director_posts | size }} 篇专栏条目</em>
+            <em>{{ gf_masuda_posts | size }} 篇增田顺一博客</em>
           </a>
         {% endif %}
       </div>
@@ -237,58 +247,148 @@ sidebar:
           <a href="#interview-translations" data-scroll-ignore>查看访谈</a>
         {% endif %}
       </div>
+      {% endcomment %}
     </section>
 
-    <!-- Retrieval console. Search across the top, the distribution chart under
-         it, and filters beside their results at the bottom - so choosing a
-         year, a work, a family or a tag and reading the answer happen on one
-         screen instead of scrolling between four stacked blocks. -->
+    <!-- Archive Analytics. The index is still the single source of truth; the
+         layout below only gives its existing retrieval controls a clearer
+         analytical hierarchy. -->
     <section class="home-section" id="retrieval">
-      <div class="pa">
+      <div class="pa analytics-dashboard">
         <input type="hidden" id="indexUrl" value="{{ '/assets/js/retrieval-index.json' | relative_url }}">
         <input type="hidden" id="searchBase" value="{{ '/search/' | relative_url }}">
 
-        <div class="bar2">
-          <label class="field">
-            <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
-              <circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-            </svg>
-            <input id="q" type="search" placeholder="检索标题、原刊标题、摘要、标签、人物与作品…" autocomplete="off">
-          </label>
-          <span id="clearWrap"></span>
-          <span id="fullText"></span>
-        </div>
+        <header class="analytics-header">
+          <div>
+            <p class="analytics-kicker">PokeAmice Archive · Analytics</p>
+            <h2>数据库分析</h2>
+            <p class="analytics-intro">从资料规模、时间分布到作品关联，快速发现档案中的结构，再下钻回原始资料。</p>
+          </div>
+          <div class="analytics-header-meta" aria-label="数据集信息">
+            <span><b id="analyticsRange">—</b><em>收录范围</em></span>
+            <span><b id="analyticsUpdated">—</b><em>索引更新</em></span>
+          </div>
+        </header>
+
+        <section class="analytics-kpis" aria-label="当前资料摘要">
+          <button type="button" class="analytics-kpi analytics-kpi--primary" data-kpi-action="results" aria-controls="results">
+            <span class="analytics-kpi-icon"><i class="fas fa-list-ul" aria-hidden="true"></i></span>
+            <span class="analytics-kpi-copy"><span class="analytics-kpi-label">当前结果</span><em>查看匹配资料</em></span>
+            <strong id="kpiRecords">—</strong>
+            <i class="fas fa-chevron-down analytics-kpi-arrow" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="analytics-kpi" data-kpi-action="works" aria-haspopup="dialog" aria-controls="dlg">
+            <span class="analytics-kpi-icon"><i class="fas fa-cube" aria-hidden="true"></i></span>
+            <span class="analytics-kpi-copy"><span class="analytics-kpi-label">相关作品</span><em>打开作品列表</em></span>
+            <strong id="kpiWorks">—</strong>
+            <i class="fas fa-chevron-right analytics-kpi-arrow" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="analytics-kpi" data-kpi-action="entities" aria-haspopup="dialog" aria-controls="dlg">
+            <span class="analytics-kpi-icon"><i class="fas fa-diagram-project" aria-hidden="true"></i></span>
+            <span class="analytics-kpi-copy"><span class="analytics-kpi-label">可浏览实体</span><em>人物 · 作品 · 组织 · 事件</em></span>
+            <strong id="kpiEntities">—</strong>
+            <i class="fas fa-chevron-right analytics-kpi-arrow" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="analytics-kpi" data-kpi-action="timeline" aria-controls="cgrid">
+            <span class="analytics-kpi-icon"><i class="fas fa-clock" aria-hidden="true"></i></span>
+            <span class="analytics-kpi-copy"><span class="analytics-kpi-label">资料年份</span><em>查看时间趋势</em></span>
+            <strong id="kpiCoverage">—</strong>
+            <i class="fas fa-chevron-down analytics-kpi-arrow" aria-hidden="true"></i>
+          </button>
+        </section>
+
+        <section class="analytics-filter-bar" aria-label="全局筛选">
+          <div class="analytics-filter-heading">
+            <div>
+              <span class="analytics-filter-eyebrow">Explore the archive</span>
+              <h3>全局筛选</h3>
+            </div>
+            <span class="analytics-filter-summary" id="filterSummary">未筛选 · 全部资料</span>
+          </div>
+          <div class="analytics-filter-controls">
+            <label class="field">
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="7" cy="7" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <input id="q" type="search" placeholder="检索标题、摘要、标签、人物与作品…" autocomplete="off">
+            </label>
+            <span id="clearWrap"></span>
+            <span id="fullText"></span>
+          </div>
+          <div class="analytics-filter-shortcuts" aria-label="快捷筛选">
+            <button type="button" data-filter-dialog="year"><i class="fas fa-calendar" aria-hidden="true"></i><span>年份</span><b id="quickYearValue">全部</b></button>
+            <button type="button" data-filter-dialog="work"><i class="fas fa-cube" aria-hidden="true"></i><span>作品</span><b id="quickWorkValue">全部</b></button>
+            <button type="button" data-filter-dialog="facet"><i class="fas fa-layer-group" aria-hidden="true"></i><span>材料</span><b id="quickFacetValue">全部</b></button>
+            <button type="button" data-filter-dialog="kind"><i class="fas fa-box-archive" aria-hidden="true"></i><span>来源</span><b id="quickKindValue">全部</b></button>
+          </div>
+          <div class="analytics-active-filters" id="activeFilters" aria-live="polite"></div>
+        </section>
 
         <p class="note" id="retrievalLoading">正在载入检索索引…</p>
 
-        <section class="panel ct-chart" data-ghost="ARCHIVE">
+        <section class="panel ct-chart analytics-chart-card" data-ghost="ARCHIVE">
           <span class="panel-rim"></span>
           <div class="p-head">
-            <h2 class="p-title"><i class="fas fa-chart-simple" aria-hidden="true"></i>年份与作品分布</h2>
+            <div>
+              <h2 class="p-title"><i class="fas fa-chart-simple" aria-hidden="true"></i>记录数量趋势</h2>
+              <p class="analytics-card-subtitle">按年份查看档案产出，矩阵显示作品在时间轴上的被提及密度。</p>
+            </div>
             <div class="legend" id="legend"></div>
           </div>
-          <p class="p-note">上为每年产出，下为各作品被讨论的年份，共用一条时间轴。<span class="p-metric" id="heatMetric"></span></p>
+          <p class="p-note"><span id="chartNote">当前筛选范围</span><span class="p-metric" id="heatMetric"></span></p>
+          <div class="analytics-chart-selection" id="chartSelection" hidden></div>
+          <div class="analytics-mobile-chart" id="mobileChart" aria-label="移动端图表视图"></div>
           <div class="cgrid" id="cgrid"></div>
           <div class="key" id="key"></div>
         </section>
 
-        <div class="ct-deck">
-          <section class="ct-pane ct-filters">
-            <h2 class="h2"><i class="fas fa-sliders" aria-hidden="true"></i>筛选</h2>
+        <section class="analytics-insight" aria-live="polite">
+          <span class="analytics-insight-mark"><i class="fas fa-lightbulb" aria-hidden="true"></i></span>
+          <div>
+            <span class="analytics-insight-label">Quick read</span>
+            <p id="analyticsInsight">正在读取当前视图…</p>
+          </div>
+        </section>
+
+        <div class="ct-deck analytics-main-grid">
+          <section class="ct-pane ct-filters panel analytics-card">
+            <div class="analytics-card-heading">
+              <div>
+                <span class="analytics-section-label">Breakdown</span>
+                <h2 class="h2"><i class="fas fa-layer-group" aria-hidden="true"></i>资料类型</h2>
+              </div>
+              <span class="analytics-card-hint">点击以叠加筛选</span>
+            </div>
             <div class="shelf" id="families"></div>
-            <p class="rlab"><i class="fas fa-hashtag" aria-hidden="true"></i>标签</p>
+            <p class="rlab"><i class="fas fa-hashtag" aria-hidden="true"></i>高频标签</p>
             <div class="chips" id="tags"></div>
           </section>
 
-          <section class="ct-pane ct-out">
+          <section class="ct-pane ct-out panel analytics-card">
             <div class="ct-out-body">
-              <h2 class="h2"><i class="fas fa-list-ul" aria-hidden="true"></i>检索结果 <span id="resN"></span></h2>
+              <div class="analytics-card-heading">
+              <div>
+                <span class="analytics-section-label">Drill down</span>
+                <h2 class="h2"><i class="fas fa-list-ul" aria-hidden="true"></i>匹配资料 <span id="resN"></span></h2>
+              </div>
+                <label class="analytics-result-sort">排序
+                  <select id="resultSort" aria-label="结果排序">
+                    <option value="newest">最新优先</option>
+                    <option value="oldest">最早优先</option>
+                  </select>
+                </label>
+              </div>
               <p class="note" id="resWhy"></p>
               <ul class="rows" id="results"></ul>
             </div>
           </section>
         </div>
+
+        <footer class="analytics-methodology">
+          <span><i class="fas fa-circle-info" aria-hidden="true"></i>统计来自当前检索索引；图表、标签和结果会随筛选同步更新。</span>
+          <a href="{{ '/search/' | relative_url }}">打开全文检索 <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+        </footer>
       </div>
     </section>
 
@@ -369,7 +469,7 @@ sidebar:
           </a>
           <a href="{{ '/gamefreak-director/' | relative_url }}">
             <strong>部长专栏</strong>
-            <span>{{ gf_director_posts | size }} 篇</span>
+            <span>{{ gf_masuda_posts | size }} 篇</span>
           </a>
         </div>
       </section>
@@ -440,7 +540,7 @@ sidebar:
             <li><a href="{{ latest_scan.url | relative_url }}"><span>扫描</span>{{ latest_scan.title }}</a></li>
           {% endif %}
           {% if latest_gf_director %}
-            <li><a href="{{ latest_gf_director.url | relative_url }}"><span>部长专栏</span>{{ latest_gf_director.title }}</a></li>
+            <li><a href="{{ latest_gf_director.url | relative_url }}"><span>增田顺一博客</span>{{ latest_gf_director.title }}</a></li>
           {% endif %}
           {% if latest_gf_art %}
             <li><a href="{{ latest_gf_art.url | relative_url }}"><span>杉森建</span>{{ latest_gf_art.title }}</a></li>
@@ -458,7 +558,7 @@ sidebar:
     <div class="sidebar-context" data-sidebar-context="retrieval">
       <section class="sidebar-panel">
         <h2>人物与作品</h2>
-        <p class="sidebar-note">从实体反查资料：已标注 158 位人物、128 部作品、92 个组织、105 项事件。点开可按年份和材料二次筛选。</p>
+        <p class="sidebar-note">从实体反查资料：点开人物、作品、组织或事件，可按年份和材料二次筛选。</p>
         <div class="pa"><div class="ents" id="ents"></div></div>
       </section>
     </div>
@@ -2242,6 +2342,7 @@ html::-webkit-scrollbar-track {
     --home-panel-height: auto;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     gap: 4px;
     padding: 0 0 24px;
     color: #26323f;
@@ -3411,7 +3512,8 @@ body.theme-bg-black .gf-home-library__search label {
   .pa .dh h3, .pa-dlg .dh h3 { font-family: var(--pa-serif); font-size: 1.15rem; margin: 0; }
   .pa .dh p, .pa-dlg .dh p { margin: 0.1rem 0 0; font-size: 0.78rem; color: var(--pa-ink-soft); }
   .pa .dx, .pa-dlg .dx { font: inherit; font-size: 1.05rem; line-height: 1; background: none; border: 1px solid var(--pa-rule);
-        border-radius: 3px; color: var(--pa-ink-soft); cursor: pointer; padding: 0.15rem 0.45rem; }
+        border-radius: 3px; color: var(--pa-ink-soft); cursor: pointer; padding: 0;
+        min-width: 44px; width: 44px; min-height: 44px; display: grid; place-items: center; flex: none; }
   .pa .db, .pa-dlg .db { padding: 0.5rem 1.1rem 1.1rem; overflow-y: auto; }
   .pa .refine, .pa-dlg .refine { border-bottom: 1px solid var(--pa-rule); padding: 0.7rem 0 0.85rem; display: grid; gap: 0.75rem; }
   .pa .rlab, .pa-dlg .rlab { font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--pa-ink-faint); margin: 0 0 0.35rem; }
@@ -3422,6 +3524,7 @@ body.theme-bg-black .gf-home-library__search label {
   .pa .yr:hover .b, .pa-dlg .yr:hover .b, .pa .yr[aria-pressed="true"] .b, .pa-dlg .yr[aria-pressed="true"] .b { background: var(--pa-accent); }
   .pa .yr .t, .pa-dlg .yr .t { font-family: var(--pa-mono); font-size: 0.5rem; color: var(--pa-ink-faint); text-align: center; letter-spacing: -0.04em; }
   .pa .rcount, .pa-dlg .rcount { font-size: 0.72rem; color: var(--pa-ink-faint); font-family: var(--pa-mono); margin: 0.5rem 0 0; }
+  .pa-dlg .row, .pa-dlg .chip, .pa-dlg .ent { min-height: 44px; }
 
   /* ---- Z-A surface treatment ----
      Four layers, in the order the reference calls for: a projected ground, a
@@ -3776,6 +3879,334 @@ body.theme-bg-black .gf-home-library__search label {
     background: var(--c, var(--pa-accent)); color: #fff;
   }
 
+  /* ---- archive analytics shell ----------------------------------------
+     The existing retrieval index already has the right data model. This
+     layer gives it the visual order of an analysis product: context first,
+     then scope, then evidence, then the records that prove it. */
+  .analytics-dashboard { --analytics-gap: 1rem; }
+  .analytics-header {
+    display: flex; justify-content: space-between; align-items: flex-end;
+    gap: 2rem; margin: 0 0 1.2rem; padding: 0 0.15rem;
+  }
+  .analytics-kicker, .analytics-filter-eyebrow, .analytics-section-label,
+  .analytics-insight-label {
+    display: block; margin: 0 0 0.28rem; color: var(--pa-accent);
+    font-family: var(--pa-mono); font-size: 0.64rem; letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .analytics-header h2 {
+    margin: 0; color: var(--pa-ink); font-family: var(--pa-serif);
+    font-size: clamp(1.55rem, 3vw, 2.3rem); line-height: 1.15;
+  }
+  .analytics-intro {
+    max-width: 38rem; margin: 0.45rem 0 0; color: var(--pa-ink-soft);
+    font-family: var(--pa-serif); font-size: 0.85rem; line-height: 1.7;
+  }
+  .analytics-header-meta {
+    display: flex; flex: none; gap: 1.1rem; align-items: flex-end;
+    color: var(--pa-ink-faint); font-family: var(--pa-mono); text-align: right;
+  }
+  .analytics-header-meta span { display: grid; gap: 0.15rem; }
+  .analytics-header-meta b { color: var(--pa-ink); font-size: 0.82rem; font-weight: 500; }
+  .analytics-header-meta em { font-family: var(--pa-sans); font-size: 0.62rem; font-style: normal; }
+
+  .analytics-kpis {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.55rem; margin-bottom: 0.8rem;
+  }
+  .analytics-kpi {
+    position: relative; min-width: 0; min-height: 3.75rem; padding: 0.55rem 0.65rem;
+    background: var(--pa-card); border: 1px solid var(--pa-rule);
+    border-top: 2px solid var(--pa-rule); clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+    display: grid; grid-template-columns: 1.65rem minmax(0, 1fr) auto 0.65rem;
+    align-items: center; gap: 0.45rem; color: var(--pa-ink); cursor: pointer;
+    font: inherit; text-align: left; transition: border-color .16s, background .16s, transform .16s;
+  }
+  .analytics-kpi:hover { border-color: var(--pa-accent); background: var(--pa-card-solid); transform: translateY(-1px); }
+  .analytics-kpi:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+  .analytics-kpi--primary { border-top-color: var(--pa-accent); }
+  .analytics-kpi-icon {
+    width: 1.65rem; height: 1.65rem; display: grid; place-items: center;
+    border-radius: 50%; background: var(--pa-accent-soft); color: var(--pa-accent); font-size: 0.68rem;
+  }
+  .analytics-kpi-copy { min-width: 0; display: grid; gap: 0.04rem; }
+  .analytics-kpi-label { display: block; color: var(--pa-ink); font-size: 0.72rem; font-weight: 700; white-space: nowrap; }
+  .analytics-kpi strong {
+    display: block; margin: 0; color: var(--pa-ink);
+    font-family: var(--pa-mono); font-size: 1rem;
+    font-weight: 500; line-height: 1.1; font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .analytics-kpi--primary strong { color: var(--pa-accent); }
+  .analytics-kpi em { overflow: hidden; color: var(--pa-ink-faint); font-size: 0.58rem; font-style: normal; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-kpi-arrow { color: var(--pa-ink-faint); font-size: 0.58rem; }
+
+  .analytics-index-groups { display: grid; gap: 1rem; padding-top: 0.5rem; }
+  .analytics-index-search {
+    position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 0.5rem;
+    margin: 0 -0.2rem 0.2rem; padding: 0.5rem 0.2rem; background: var(--pa-card-solid);
+    color: var(--pa-ink-faint);
+  }
+  .analytics-index-search input {
+    width: 100%; min-width: 0; min-height: 44px; padding: 0.55rem 0.65rem; border: 1px solid var(--pa-rule);
+    border-radius: 3px; background: var(--pa-card); color: var(--pa-ink); font: inherit; font-size: 0.78rem;
+  }
+  .analytics-index-search input:focus { border-color: var(--pa-accent); outline: 2px solid var(--pa-accent-soft); }
+  .analytics-index-group h4 {
+    margin: 0 0 0.4rem; color: var(--pa-ink-faint); font-family: var(--pa-sans);
+    font-size: 0.66rem; letter-spacing: 0.1em; text-transform: uppercase;
+  }
+  .analytics-index-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.35rem; }
+  .analytics-index-item {
+    display: flex; justify-content: space-between; align-items: center; gap: 0.6rem;
+    min-width: 0; min-height: 44px; padding: 0.55rem 0.65rem; border: 1px solid var(--pa-rule);
+    border-radius: 3px; background: transparent; color: var(--pa-ink-soft);
+    cursor: pointer; font: inherit; font-size: 0.76rem; text-align: left;
+  }
+  .analytics-index-item span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-index-item b { flex: none; color: var(--pa-accent); font-family: var(--pa-mono); font-size: 0.68rem; font-weight: 500; }
+  .analytics-index-item:hover { border-color: var(--pa-accent); color: var(--pa-ink); }
+  .analytics-index-item:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 1px; }
+  .analytics-index-item-copy { display: grid !important; gap: 2px; min-width: 0; white-space: normal !important; }
+  .analytics-index-item-copy > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-index-item-copy small { color: var(--pa-ink-faint); font-size: 0.66rem; font-weight: 400; }
+  .analytics-entity-tabs {
+    position: sticky; top: 60px; z-index: 2; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px; margin: 0 0 12px; padding: 4px; background: var(--pa-card-solid); border: 1px solid var(--pa-rule);
+  }
+  .analytics-entity-tab {
+    min-height: 44px; padding: 0 6px; border: 1px solid transparent; background: transparent;
+    color: var(--pa-ink-soft); cursor: pointer; font: inherit; font-size: 0.72rem;
+  }
+  .analytics-entity-tab[aria-selected="true"] { border-color: var(--pa-rule); background: var(--pa-accent-soft); color: var(--pa-accent); font-weight: 700; }
+  .analytics-entity-panel[hidden] { display: none; }
+  .analytics-entity-panel.is-collapsed .analytics-index-item:nth-child(n+13) { display: none; }
+  .analytics-entity-more, .analytics-entity-back {
+    width: 100%; min-height: 44px; margin-top: 8px; border: 1px dashed var(--pa-accent);
+    background: var(--pa-accent-soft); color: var(--pa-accent); cursor: pointer; font: inherit; font-size: 0.76rem;
+  }
+  .analytics-entity-back { width: auto; margin: 0 0 12px; padding: 0 12px; border-style: solid; }
+
+  .analytics-filter-bar {
+    margin-bottom: 1rem; padding: 0.85rem 1rem 0.95rem;
+    background: var(--pa-card); border: 1px solid var(--pa-rule);
+    box-shadow: 0 1px 2px rgba(13,27,33,.04);
+  }
+  .analytics-filter-heading, .analytics-filter-controls,
+  .analytics-card-heading, .analytics-methodology {
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  .analytics-filter-heading { align-items: flex-end; margin-bottom: 0.65rem; }
+  .analytics-filter-heading h3 { margin: 0; color: var(--pa-ink); font-family: var(--pa-serif); font-size: 1rem; }
+  .analytics-filter-summary { color: var(--pa-accent); font-family: var(--pa-mono); font-size: 0.68rem; }
+  .analytics-filter-controls { align-items: stretch; }
+  .analytics-filter-controls .field { margin: 0; }
+  .analytics-filter-controls #clearWrap, .analytics-filter-controls #fullText { display: flex; align-items: center; }
+  .analytics-filter-controls .chip { white-space: nowrap; }
+  .analytics-filter-shortcuts {
+    display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-top: 8px;
+  }
+  .analytics-filter-shortcuts button {
+    min-width: 0; min-height: 44px; display: grid; grid-template-columns: 18px minmax(0, 1fr) auto;
+    align-items: center; gap: 8px; padding: 6px 10px; border: 1px solid var(--pa-rule);
+    background: var(--pa-card-solid); color: var(--pa-ink-soft); cursor: pointer; font: inherit; text-align: left;
+  }
+  .analytics-filter-shortcuts button:hover, .analytics-filter-shortcuts button[aria-pressed="true"] { border-color: var(--pa-accent); background: var(--pa-accent-soft); }
+  .analytics-filter-shortcuts i { color: var(--pa-accent); text-align: center; }
+  .analytics-filter-shortcuts span { overflow: hidden; font-size: 0.72rem; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-filter-shortcuts b { overflow: hidden; max-width: 7rem; color: var(--pa-ink-faint); font-family: var(--pa-mono); font-size: 0.66rem; font-weight: 400; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-active-filters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .analytics-active-filters:empty { display: none; }
+  .analytics-active-filter {
+    min-height: 36px; display: inline-flex; align-items: center; gap: 6px; padding: 4px 8px 4px 10px;
+    border: 1px solid var(--pa-accent); background: var(--pa-accent-soft); color: var(--pa-ink-soft);
+    cursor: pointer; font: inherit; font-size: 0.72rem;
+  }
+  .analytics-active-filter i { color: var(--pa-accent); font-size: 0.62rem; }
+  .analytics-active-filter em { color: var(--pa-accent); font-style: normal; font-size: 0.8rem; }
+
+  .analytics-chart-card { margin-bottom: 0; }
+  .analytics-chart-card .p-head { align-items: flex-start; }
+  .analytics-card-subtitle { margin: 0.38rem 0 0; color: var(--pa-ink-faint); font-size: 0.7rem; }
+  .analytics-chart-card .p-note { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .analytics-chart-card .p-metric { margin-left: auto; }
+  .analytics-chart-selection {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 52px;
+    margin: 0 0 12px; padding: 8px 10px 8px 12px; border-left: 3px solid var(--pa-accent);
+    background: var(--pa-accent-soft); color: var(--pa-ink-soft);
+  }
+  .analytics-chart-selection[hidden] { display: none; }
+  .analytics-chart-selection-copy { display: grid; gap: 2px; min-width: 0; }
+  .analytics-chart-selection-copy strong { overflow: hidden; color: var(--pa-ink); font-family: var(--pa-serif); font-size: 0.86rem; text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-chart-selection-copy span { color: var(--pa-ink-faint); font-size: 0.68rem; }
+  .analytics-chart-selection-actions { display: flex; flex: none; gap: 4px; }
+  .analytics-chart-selection-actions button {
+    min-height: 44px; padding: 0 12px; border: 1px solid var(--pa-accent); background: var(--pa-card-solid);
+    color: var(--pa-accent); cursor: pointer; font: inherit; font-size: 0.72rem; font-weight: 700;
+  }
+  .analytics-chart-selection-actions .analytics-chart-clear { width: 44px; padding: 0; color: var(--pa-ink-faint); border-color: var(--pa-rule); }
+  .analytics-mobile-chart { display: none; }
+  .analytics-chart-tabs {
+    display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px;
+    margin: 0 0 12px; padding: 4px; background: var(--pa-sunk); border: 1px solid var(--pa-rule);
+  }
+  .analytics-chart-tab {
+    min-height: 44px; border: 1px solid transparent; background: transparent; color: var(--pa-ink-soft);
+    cursor: pointer; font: inherit; font-size: 0.78rem; font-weight: 700;
+  }
+  .analytics-chart-tab[aria-selected="true"] {
+    border-color: var(--pa-rule); background: var(--pa-card-solid); color: var(--pa-accent);
+    box-shadow: 0 1px 3px color-mix(in srgb, var(--pa-edge) 14%, transparent);
+  }
+  .analytics-mobile-chart-help { margin: 8px 0 0; color: var(--pa-ink-faint); font-size: 0.68rem; }
+  .analytics-mobile-year-scroll {
+    display: flex; gap: 4px; overflow-x: auto; padding: 4px 0 12px;
+    scroll-snap-type: x proximity; scrollbar-width: thin; overscroll-behavior-inline: contain;
+  }
+  .analytics-mobile-year {
+    flex: 0 0 52px; width: 52px; min-height: 188px; display: grid;
+    grid-template-rows: 24px 132px 28px; align-items: end; padding: 0 4px;
+    border: 1px solid transparent; background: transparent; color: var(--pa-ink-soft);
+    cursor: pointer; font: inherit; scroll-snap-align: start;
+  }
+  .analytics-mobile-year:hover, .analytics-mobile-year[aria-pressed="true"] {
+    border-color: var(--pa-accent); background: var(--pa-accent-soft);
+  }
+  .analytics-mobile-year:disabled { cursor: default; opacity: .48; }
+  .analytics-mobile-year:focus-visible, .analytics-mobile-work:focus-visible,
+  .analytics-chart-tab:focus-visible { outline: 2px solid var(--pa-accent); outline-offset: 2px; }
+  .analytics-mobile-year-count {
+    align-self: center; color: var(--pa-ink-faint); font-family: var(--pa-mono);
+    font-size: 0.68rem; font-variant-numeric: tabular-nums; text-align: center;
+  }
+  .analytics-mobile-year-plot {
+    width: 100%; height: 132px; display: flex; align-items: flex-end; justify-content: center;
+    border-bottom: 1px solid var(--pa-rule);
+    background: repeating-linear-gradient(to bottom, transparent 0 32px, var(--pa-rule) 32px 33px);
+  }
+  .analytics-mobile-year-bar {
+    width: 24px; min-height: 2px; display: flex; flex-direction: column; gap: 1px;
+    border-radius: 3px 3px 0 0; overflow: hidden;
+  }
+  .analytics-mobile-year-bar i { display: block; min-height: 2px; }
+  .analytics-mobile-year-label {
+    align-self: center; font-family: var(--pa-mono); font-size: 0.7rem;
+    font-variant-numeric: tabular-nums; text-align: center; white-space: nowrap;
+  }
+  .analytics-mobile-work-list { display: grid; gap: 4px; }
+  .analytics-mobile-work {
+    position: relative; overflow: hidden; min-height: 48px; display: grid;
+    grid-template-columns: minmax(0, 1fr) auto 16px; align-items: center; gap: 12px;
+    padding: 8px 12px; border: 1px solid var(--pa-rule); background: var(--pa-card);
+    color: var(--pa-ink-soft); cursor: pointer; font: inherit; text-align: left;
+  }
+  .analytics-mobile-work::after {
+    content: ""; position: absolute; left: 0; bottom: 0; width: var(--work-pct); height: 3px;
+    background: var(--pa-accent); pointer-events: none;
+  }
+  .analytics-mobile-work:hover, .analytics-mobile-work[aria-pressed="true"] {
+    border-color: var(--pa-accent); background: var(--pa-accent-soft); color: var(--pa-ink);
+  }
+  .analytics-mobile-work-name { overflow: hidden; font-family: var(--pa-serif); text-overflow: ellipsis; white-space: nowrap; }
+  .analytics-mobile-work-count { color: var(--pa-accent); font-family: var(--pa-mono); font-size: 0.78rem; }
+  .analytics-mobile-work i { color: var(--pa-ink-faint); font-size: 0.65rem; }
+  .analytics-results-more { padding: 12px 0 0; border-bottom: 0 !important; }
+  .analytics-results-more button {
+    width: 100%; min-height: 44px; border: 1px solid var(--pa-accent); background: var(--pa-accent-soft);
+    color: var(--pa-accent); cursor: pointer; font: inherit; font-size: 0.78rem; font-weight: 700;
+  }
+  .analytics-results-more button span { margin-left: 0.35rem; color: var(--pa-ink-faint); font-family: var(--pa-mono); font-size: 0.68rem; font-weight: 400; }
+  .analytics-result-sort { display: flex; align-items: center; gap: 6px; color: var(--pa-ink-faint); font-size: 0.68rem; white-space: nowrap; }
+  .analytics-result-sort select {
+    min-height: 44px; padding: 0 28px 0 10px; border: 1px solid var(--pa-rule); border-radius: 0;
+    background: var(--pa-card-solid); color: var(--pa-ink-soft); font: inherit; font-size: 0.72rem;
+  }
+  .pa .rows .row, .pa-dlg .rows .row {
+    position: relative; min-height: 88px; display: grid;
+    grid-template-columns: minmax(0, 1fr) 20px; grid-template-areas: "meta arrow" "title arrow" "related arrow" "source arrow";
+    gap: 4px 12px; align-items: center; padding: 10px 8px;
+  }
+  .row-meta { grid-area: meta; display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .pa .rows .row-t, .pa-dlg .rows .row-t { grid-area: title; color: var(--pa-ink); font-size: 0.88rem; line-height: 1.45; }
+  .row-related { grid-area: related; display: flex; flex-wrap: wrap; gap: 4px 10px; color: var(--pa-ink-faint); font-size: 0.68rem; }
+  .row-related span { display: inline-flex; align-items: center; gap: 4px; min-width: 0; }
+  .row-related i, .row-source i { color: var(--pa-accent); font-size: 0.62rem; }
+  .row-source { grid-area: source; display: inline-flex; align-items: center; gap: 4px; color: var(--pa-ink-faint); font-size: 0.66rem; }
+  .row-arrow { grid-area: arrow; align-self: center; color: var(--pa-ink-faint); font-size: 0.65rem; }
+  .analytics-insight {
+    display: flex; align-items: flex-start; gap: 0.75rem; margin: 1rem 0 0;
+    padding: 0.8rem 1rem; background: color-mix(in srgb, var(--pa-accent-soft) 65%, var(--pa-card));
+    border-left: 3px solid var(--pa-accent);
+  }
+  .analytics-insight-mark { color: var(--pa-accent); font-size: 0.9rem; line-height: 1.4; }
+  .analytics-insight-label { margin-bottom: 0.18rem; font-size: 0.58rem; }
+  .analytics-insight p { margin: 0; color: var(--pa-ink-soft); font-family: var(--pa-serif); font-size: 0.82rem; line-height: 1.55; }
+
+  .analytics-main-grid { margin-top: 1rem !important; }
+  .analytics-card { padding: 1rem 1.05rem 1.05rem !important; }
+  .analytics-card-heading { align-items: flex-start; margin-bottom: 0.75rem; }
+  .analytics-card-heading .h2 { margin: 0; padding-top: 0.05rem; }
+  .analytics-card-hint { flex: none; color: var(--pa-ink-faint); font-size: 0.62rem; text-align: right; }
+  .analytics-card .shelf { margin-top: 0.25rem; }
+  .analytics-card .rlab { margin-top: 1.1rem; }
+  .analytics-methodology {
+    margin-top: 0.85rem; padding: 0 0.15rem; color: var(--pa-ink-faint); font-size: 0.66rem;
+  }
+  .analytics-methodology i { margin-right: 0.25rem; color: var(--pa-accent); }
+  .analytics-methodology a { color: var(--pa-accent); text-decoration: none; white-space: nowrap; }
+  .analytics-methodology a:hover { text-decoration: underline; }
+
+  @media (max-width: 760px) {
+    .analytics-header { align-items: flex-start; flex-direction: column; gap: 0.9rem; }
+    .analytics-header-meta { width: 100%; justify-content: flex-start; text-align: left; }
+    .analytics-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .analytics-filter-heading { align-items: flex-start; flex-direction: column; gap: 0.35rem; }
+    .analytics-filter-controls { align-items: stretch; flex-wrap: wrap; }
+    .analytics-filter-controls .field { flex-basis: 100%; }
+    .analytics-filter-shortcuts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .analytics-methodology { align-items: flex-start; flex-direction: column; }
+  }
+  @media (max-width: 40rem) {
+    .analytics-kpis { gap: 0.35rem; }
+    .analytics-kpi {
+      min-height: 3.35rem; padding: 0.45rem 0.5rem;
+      grid-template-columns: 1.45rem minmax(0, 1fr) auto;
+      grid-template-areas: "icon label value"; gap: 0.35rem;
+    }
+    .analytics-kpi-icon { grid-area: icon; width: 1.45rem; height: 1.45rem; font-size: 0.62rem; }
+    .analytics-kpi-copy { grid-area: label; }
+    .analytics-kpi strong { grid-area: value; font-size: 0.88rem; }
+    .analytics-kpi em, .analytics-kpi-arrow { display: none; }
+    .analytics-kpi-label { font-size: 0.66rem; }
+    .analytics-index-list { grid-template-columns: 1fr; }
+    .analytics-chart-card .p-head { display: block; }
+    .analytics-chart-card .legend { margin-top: 0.75rem; }
+    .analytics-chart-selection { align-items: stretch; flex-direction: column; }
+    .analytics-chart-selection-actions button:first-child { flex: 1; }
+    .analytics-chart-selection-actions { width: 100%; }
+    .analytics-chart-card > .cgrid, .analytics-chart-card > .key { display: none; }
+    .analytics-mobile-chart { display: block; margin-top: 12px; }
+    .pa .ct-out, .pa-dlg .ct-out { min-height: 0; }
+    .pa .ct-out-body, .pa-dlg .ct-out-body { position: static; }
+    .pa .ct-out .rows, .pa-dlg .ct-out .rows {
+      max-height: none; overflow: visible; overscroll-behavior: auto;
+    }
+    .pa-dlg { width: calc(100% - 1rem); max-height: 90dvh; }
+    .pa-dlg .dh { padding: 0.75rem 0.75rem 0.65rem; align-items: flex-start; }
+    .pa-dlg .db { padding: 0.5rem 0.75rem 0.75rem; }
+    .pa-dlg .years {
+      height: 64px; align-items: stretch; gap: 4px; overflow-x: auto;
+      padding-bottom: 4px; scrollbar-width: thin; overscroll-behavior-inline: contain;
+    }
+    .pa-dlg .yr { flex: 0 0 44px; min-width: 44px; min-height: 44px; }
+    .pa-dlg .yr .t { font-size: 0.66rem; }
+    .analytics-active-filter { min-height: 44px; }
+    .analytics-result-sort { align-items: flex-end; flex-direction: column; gap: 2px; }
+    .analytics-card-hint { display: none; }
+  }
+  body.theme-bg-black .analytics-filter-bar,
+  body.theme-bg-black .analytics-kpi { box-shadow: 0 1px 0 rgba(53,188,214,.12) inset; }
+
 </style>
 
 <script>
@@ -4028,8 +4459,11 @@ document.addEventListener("DOMContentLoaded", () => {
   function shortWork(name) { return name.replace(/^宝可梦\s*/, ""); }
 
   var ITEMS = [], YEARS = {}, AX = [], COLS = [], WORKS = [], ENTS = [], TAGS = [];
-  var state = { q: "", facet: null, year: null, work: null, workYear: null, tag: null };
+  var WORK_TOTAL = 0, ENTITY_TOTAL = 0, DATASET_RANGE = "—", GENERATED_AT = "—";
+  var state = { q: "", facet: null, kind: null, year: null, work: null, workYear: null, tag: null, sort: "newest" };
   var refine = { e: null, year: null, series: null };
+  var resultLimit = 10;
+  var entityRoleView = "人物";
 
   function $(i) { return document.getElementById(i); }
   function esc(s) {
@@ -4045,6 +4479,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function bump(o, k) { o[k] = (o[k] || 0) + 1; }
 
   function derive(raw) {
+    YEARS = {};
     ITEMS = raw.items.map(function (i) {
       i.ents = [].concat(i.p || [], i.w || [], i.o || [], i.v || []);
       /* one lowercased haystack per item, built once rather than per keystroke */
@@ -4066,6 +4501,8 @@ document.addEventListener("DOMContentLoaded", () => {
        was not. */
     AX = [];
     for (var y = lo; y <= hi; y++) { AX.push(y); }
+    DATASET_RANGE = ITEMS.length ? lo + "–" + hi : "—";
+    GENERATED_AT = raw.generated || "—";
 
     var streams = {};
     MATS.forEach(function (m) { streams[m.id] = {}; });
@@ -4103,6 +4540,7 @@ document.addEventListener("DOMContentLoaded", () => {
       /* take the ten most-discussed titles, then read them in release order */
       .sort(function (a, b) { return b.n - a.n; }).slice(0, 10)
       .sort(function (a, b) { return a.r - b.r || a.name.localeCompare(b.name); });
+    WORK_TOTAL = Object.keys(byWork).length;
 
     var roles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]];
     var reg = {};
@@ -4119,6 +4557,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     ENTS = Object.keys(reg).map(function (k) { return reg[k]; })
       .sort(function (a, b) { return b.n - a.n; });
+    ENTITY_TOTAL = ENTS.length;
 
     var tg = {};
     ITEMS.forEach(function (i) { (i.g || []).forEach(function (t) { bump(tg, t); }); });
@@ -4128,6 +4567,58 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------- rendering ---------- */
 
+  function formatNumber(n) { return Number(n || 0).toLocaleString("zh-CN"); }
+
+  function renderAnalyticsOverview() {
+    var visible = hits(), works = {}, entities = {}, years = {};
+    var lo = 9999, hi = 0;
+    var entityRoles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]];
+    visible.forEach(function (i) {
+      (i.w || []).forEach(function (w) {
+        if (w !== "宝可梦" && w !== "Pokémon" && w !== "ポケットモンスター") { works[w] = true; }
+      });
+      entityRoles.forEach(function (r) {
+        (i[r[0]] || []).forEach(function (name) { entities[r[1] + "\u241F" + name] = true; });
+      });
+      var y = yearOf(i);
+      years[y] = (years[y] || 0) + 1;
+      if (y < lo) { lo = y; }
+      if (y > hi) { hi = y; }
+    });
+
+    $("analyticsRange").textContent = DATASET_RANGE;
+    $("analyticsUpdated").textContent = String(GENERATED_AT).slice(0, 10);
+    $("kpiRecords").textContent = formatNumber(visible.length);
+    $("kpiWorks").textContent = formatNumber(Object.keys(works).length);
+    $("kpiEntities").textContent = formatNumber(Object.keys(entities).length);
+    $("kpiCoverage").textContent = visible.length ? lo + "–" + hi : "—";
+
+    var summary = [];
+    if (state.facet) { summary.push(LABEL[state.facet]); }
+    if (state.year) { summary.push(state.year + " 年"); }
+    if (state.work) { summary.push(shortWork(state.work)); }
+    if (state.tag) { summary.push("#" + state.tag); }
+    if (state.kind) { summary.push(state.kind); }
+    if (state.q) { summary.push("关键词"); }
+    $("filterSummary").textContent = summary.length
+      ? formatNumber(ITEMS.length) + " → " + formatNumber(visible.length) + " 条 · " + summary.join(" · ")
+      : "未筛选 · 全部资料";
+    $("chartNote").textContent = "当前筛选范围 · " + formatNumber(visible.length) + " 条记录";
+
+    if (!visible.length) {
+      $("analyticsInsight").textContent = "当前筛选没有匹配资料。可以清除一个条件，或尝试更宽泛的关键词。";
+      return;
+    }
+    var topYear = Object.keys(years).sort(function (a, b) { return years[b] - years[a] || b - a; })[0];
+    var materialCounts = {};
+    visible.forEach(function (i) { materialCounts[i.k] = (materialCounts[i.k] || 0) + 1; });
+    var topMaterial = Object.keys(materialCounts).sort(function (a, b) { return materialCounts[b] - materialCounts[a]; })[0];
+    var materialName = LABEL[topMaterial] || "当前资料";
+    $("analyticsInsight").textContent = "当前视图共 " + formatNumber(visible.length) + " 条记录；" +
+      (topYear ? topYear + " 年是资料最集中的年份（" + formatNumber(years[topYear]) + " 条），" : "") +
+      materialName + " 占比最高（" + formatNumber(materialCounts[topMaterial]) + " 条）。点击趋势柱、矩阵单元格或资料类型可继续下钻。";
+  }
+
   function renderLegend() {
     $("legend").innerHTML = MATS.map(function (m) {
       return '<span><i class="sw" style="background:' + m.c + '"></i>' + esc(m.name) + "</span>";
@@ -4136,12 +4627,116 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function bucket(n) { return !n ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 10 ? 3 : n <= 15 ? 4 : n <= 25 ? 5 : 6; }
 
+  function workRows(items) {
+    var byWork = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    items.forEach(function (i) {
+      (i.w || []).filter(function (w) { return !series[w]; }).forEach(function (w) {
+        byWork[w] = byWork[w] || {};
+        bump(byWork[w], yearOf(i));
+      });
+    });
+    return Object.keys(byWork).map(function (name) {
+      var yy = byWork[name], meta = WORK_META[name], years = Object.keys(yy).map(Number);
+      return {
+        name: name, short: shortWork(name), y: yy, v: meta ? meta.v : null,
+        r: meta ? meta.r : Math.min.apply(null, years),
+        n: years.reduce(function (s, y) { return s + yy[y]; }, 0)
+      };
+    }).sort(function (a, b) { return b.n - a.n; }).slice(0, 10)
+      .sort(function (a, b) { return a.r - b.r || a.name.localeCompare(b.name); });
+  }
+
+  function setMobileChartView(view) {
+    var root = $("mobileChart");
+    if (!root) { return; }
+    root.dataset.view = view;
+    Array.prototype.forEach.call(root.querySelectorAll("[data-mobile-chart-tab]"), function (button) {
+      button.setAttribute("aria-selected", button.dataset.mobileChartTab === view ? "true" : "false");
+    });
+    Array.prototype.forEach.call(root.querySelectorAll("[data-mobile-chart-panel]"), function (panel) {
+      panel.hidden = panel.dataset.mobileChartPanel !== view;
+    });
+  }
+
+  function renderMobileChart(yearCounts, yearMats, visibleWorks, top) {
+    var root = $("mobileChart"), view = root.dataset.view || "years";
+    /* Keep zero years in the mobile timeline: removing them visually closes
+       real archival gaps and makes the distribution look continuous. */
+    var activeYears = AX;
+    var years = activeYears.map(function (y) {
+      var t = yearCounts[y] || 0, pct = t ? Math.max(2, t / top * 100) : 0;
+      var segs = MATS.filter(function (m) { return (yearMats[y] || {})[m.id] > 0; }).map(function (m) {
+        return '<i style="height:' + (yearMats[y][m.id] / t * 100) + '%;background:' + m.c + '"></i>';
+      }).join("");
+      return '<button class="analytics-mobile-year" data-y="' + y + '" aria-pressed="' + (state.year === y) + '"' + (t ? '' : ' disabled') +
+        ' aria-label="' + y + ' 年，' + t + ' 条记录">' +
+        '<span class="analytics-mobile-year-count">' + t + '</span>' +
+        '<span class="analytics-mobile-year-plot"><span class="analytics-mobile-year-bar" style="height:' + pct + '%">' + segs + '</span></span>' +
+        '<span class="analytics-mobile-year-label">' + y + '</span></button>';
+    }).join("");
+
+    var rankedWorks = visibleWorks.slice().sort(function (a, b) { return b.n - a.n || a.name.localeCompare(b.name); });
+    var workPeak = rankedWorks.length ? rankedWorks[0].n : 1;
+    var works = rankedWorks.map(function (w) {
+      return '<button class="analytics-mobile-work" data-work-filter="' + esc(w.name) + '" aria-pressed="' + (state.work === w.name) +
+        '" style="--work-pct:' + (w.n / workPeak * 100) + '%">' +
+        '<span class="analytics-mobile-work-name">' + esc(w.short) + '</span>' +
+        '<span class="analytics-mobile-work-count">' + formatNumber(w.n) + '</span>' +
+        '<i class="fas fa-chevron-right" aria-hidden="true"></i></button>';
+    }).join("");
+
+    root.innerHTML = '<div class="analytics-chart-tabs" role="tablist" aria-label="图表视图">' +
+      '<button class="analytics-chart-tab" data-mobile-chart-tab="years" role="tab" aria-controls="mobileChartYears">年份趋势</button>' +
+      '<button class="analytics-chart-tab" data-mobile-chart-tab="works" role="tab" aria-controls="mobileChartWorks">作品排行</button></div>' +
+      '<div id="mobileChartYears" data-mobile-chart-panel="years" role="tabpanel">' +
+        (years ? '<div class="analytics-mobile-year-scroll">' + years + '</div><p class="analytics-mobile-chart-help">左右滑动查看年份，点击柱形即可筛选。</p>' : '<p class="empty">当前筛选没有年份数据。</p>') +
+      '</div><div id="mobileChartWorks" data-mobile-chart-panel="works" role="tabpanel">' +
+        (works ? '<div class="analytics-mobile-work-list">' + works + '</div><p class="analytics-mobile-chart-help">显示当前视图提及最多的 10 部作品，点击即可下钻。</p>' : '<p class="empty">当前筛选没有作品数据。</p>') +
+      '</div>';
+    setMobileChartView(view);
+  }
+
+  function renderChartSelection() {
+    var root = $("chartSelection"), label = "";
+    if (state.work) {
+      label = "《" + shortWork(state.work) + "》" + (state.workYear ? " · " + state.workYear + " 年" : "");
+    } else if (state.year) {
+      label = state.year + " 年";
+    }
+    if (!label) {
+      root.hidden = true;
+      root.innerHTML = "";
+      return;
+    }
+    var count = hits().length;
+    root.hidden = false;
+    root.innerHTML = '<span class="analytics-chart-selection-copy"><strong>' + esc(label) +
+      '</strong><span>图表已选中 · 匹配 ' + formatNumber(count) + ' 条资料</span></span>' +
+      '<span class="analytics-chart-selection-actions"><button type="button" data-chart-results>查看这 ' + formatNumber(count) +
+      ' 条资料</button><button type="button" class="analytics-chart-clear" data-chart-clear aria-label="清除图表选择">×</button></span>';
+    if (state.year && window.matchMedia && window.matchMedia("(max-width: 40rem)").matches) {
+      window.requestAnimationFrame(function () {
+        var selected = root.parentNode.querySelector('.analytics-mobile-year[aria-pressed="true"]');
+        var scroller = root.parentNode.querySelector(".analytics-mobile-year-scroll");
+        if (selected && scroller) { scroller.scrollLeft = selected.offsetLeft - (scroller.clientWidth - selected.offsetWidth) / 2; }
+      });
+    }
+  }
+
   /* Bars and heatmap render into one grid: both are keyed by year, so they
      share a single axis instead of drawing one each. Alignment is structural -
      every row is the same two-column grid and every plot cell is flex:1 - so a
      bar and the heat cell under it cannot drift apart. */
   function renderChart() {
-    var peak = Math.max.apply(null, AX.map(total));
+    var visible = hits(), yearMats = {}, yearCounts = {};
+    visible.forEach(function (i) {
+      var y = yearOf(i);
+      yearMats[y] = yearMats[y] || {};
+      yearMats[y][i.k] = (yearMats[y][i.k] || 0) + 1;
+      yearCounts[y] = (yearCounts[y] || 0) + 1;
+    });
+    var visibleWorks = workRows(visible);
+    var peak = Math.max.apply(null, AX.map(function (y) { return yearCounts[y] || 0; }));
     var top = Math.max(20, Math.ceil(peak / 20) * 20);
     var ticks = [0, 0.25, 0.5, 0.75, 1];
 
@@ -4153,9 +4748,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }).join("");
 
     var bars = AX.map(function (y) {
-      var t = total(y), on = state.year === y, pct = t ? (t / top) * 100 : 0;
-      var segs = t ? MATS.filter(function (m) { return (YEARS[y] || {})[m.id] > 0; }).map(function (m) {
-        return '<span class="seg" style="height:' + (YEARS[y][m.id] / t * 100) + '%;background:' + m.c + '"></span>';
+      var t = yearCounts[y] || 0, on = state.year === y, pct = t ? (t / top) * 100 : 0;
+      var segs = t ? MATS.filter(function (m) { return (yearMats[y] || {})[m.id] > 0; }).map(function (m) {
+        return '<span class="seg" style="height:' + (yearMats[y][m.id] / t * 100) + '%;background:' + m.c + '"></span>';
       }).join("") : "";
       return '<button class="ycol" data-y="' + y + '" aria-pressed="' + on + '" title="' + y + "　" + t + ' 件">' +
         (t ? '<span class="ytot" style="bottom:calc(' + pct + '% + 3px)">' + t + "</span>" : "") +
@@ -4166,7 +4761,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return "<span" + (state.year === y ? " data-on" : "") + ">" + String(y).slice(2) + "</span>";
     }).join("");
 
-    var heat = WORKS.map(function (w) {
+    var heat = visibleWorks.map(function (w) {
       var mark = w.v ? '<span class="vmark">' + w.v.map(function (c) {
         return '<i style="background:' + c + '"></i>';
       }).join("") + "</span>" : "";
@@ -4188,84 +4783,143 @@ document.addEventListener("DOMContentLoaded", () => {
       '<div class="crow crow-axis"><div class="clab">年份</div><div class="cplot">' + axis + "</div></div>" +
       heat;
 
-    var grand = WORKS.reduce(function (s, w) { return s + w.n; }, 0);
-    $("heatMetric").innerHTML = "前 " + WORKS.length + " 部作品共被提及 <b>" + grand + "</b> 次";
+    var grand = visibleWorks.reduce(function (s, w) { return s + w.n; }, 0);
+    $("heatMetric").innerHTML = visibleWorks.length
+      ? "当前视图前 " + visibleWorks.length + " 部作品共被提及 <b>" + grand + "</b> 次"
+      : "当前视图暂无作品实体";
     $("key").innerHTML = "提及篇数　" +
       [["1–2", "--pa-s1"], ["3–5", "--pa-s2"], ["6–10", "--pa-s3"],
        ["11–15", "--pa-s4"], ["16–25", "--pa-s5"], ["25+", "--pa-s6"]]
         .map(function (p) { return '<i style="background:var(' + p[1] + ')"></i>' + p[0]; }).join("　");
+    renderMobileChart(yearCounts, yearMats, visibleWorks, top);
+    renderChartSelection();
   }
 
   /* The three families were drawn twice: as cards with sub-counts, and again as
      filter chips carrying the same three numbers. They are one control now. */
   function renderFamilies() {
-    var max = Math.max.apply(null, COLS.map(function (c) { return c.n; }));
+    var visible = hits(), counts = {}, streams = {};
+    visible.forEach(function (i) {
+      counts[i.k] = (counts[i.k] || 0) + 1;
+      streams[i.k] = streams[i.k] || {};
+      streams[i.k][i.kind] = (streams[i.k][i.kind] || 0) + 1;
+    });
+    var max = Math.max(1, Math.max.apply(null, COLS.map(function (c) { return counts[c.id] || 0; })));
     $("families").innerHTML = COLS.map(function (c) {
+      var n = counts[c.id] || 0, stream = streams[c.id] || {};
       return '<button class="col" data-facet="' + c.id + '" aria-pressed="' + (state.facet === c.id) +
-        '" style="--c:' + c.c + '" title="' + esc(c.name) + "　" + c.span + '">' +
+        '" style="--c:' + c.c + '" title="' + esc(c.name) + "　" + n + ' 件">' +
         '<span class="col-icon"><i class="fas ' + c.i + '" aria-hidden="true"></i></span>' +
         '<span class="col-name">' + esc(c.name) + "</span>" +
-        '<span class="col-n">' + c.n + "</span>" +
-        '<ul class="col-streams">' + c.streams.map(function (s) {
-          return "<li>" + esc(s[0]) + "<b>" + s[1] + "</b></li>";
+        '<span class="col-n">' + formatNumber(n) + "</span>" +
+        '<ul class="col-streams">' + Object.keys(stream).sort(function (a, b) { return stream[b] - stream[a]; }).map(function (s) {
+          return "<li>" + esc(s) + "<b>" + stream[s] + "</b></li>";
         }).join("") + "</ul>" +
-        '<span class="col-bar"><i style="width:' + (c.n / max * 100) + '%"></i></span>' +
+        '<span class="col-bar"><i style="width:' + (n / max * 100) + '%"></i></span>' +
         "</button>";
     }).join("");
   }
 
   function renderTags() {
-    $("tags").innerHTML = TAGS.map(function (t) {
+    var counts = {}, visible = hits();
+    visible.forEach(function (i) { (i.g || []).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; }); });
+    var tags = Object.keys(counts).map(function (t) { return { t: t, n: counts[t] }; })
+      .sort(function (a, b) { return b.n - a.n || a.t.localeCompare(b.t); }).slice(0, 22);
+    $("tags").innerHTML = tags.map(function (t) {
       return '<button class="chip" data-tag="' + esc(t.t) + '" aria-pressed="' + (state.tag === t.t) + '">' +
-        esc(t.t) + '<span class="n">' + t.n + "</span></button>";
+        esc(t.t) + '<span class="n">' + formatNumber(t.n) + "</span></button>";
     }).join("");
   }
 
   function renderClear() {
-    var on = state.q || state.facet || state.year || state.work || state.tag;
+    var on = state.q || state.facet || state.kind || state.year || state.work || state.tag;
     $("clearWrap").innerHTML = on ? '<button class="chip chip-clear" data-clearall>清除筛选</button>' : "";
+    $("quickYearValue").textContent = state.year || state.workYear || "全部";
+    $("quickWorkValue").textContent = state.work ? shortWork(state.work) : "全部";
+    $("quickFacetValue").textContent = state.facet ? LABEL[state.facet] : "全部";
+    $("quickKindValue").textContent = state.kind || "全部";
+    Array.prototype.forEach.call(document.querySelectorAll("#retrieval [data-filter-dialog]"), function (button) {
+      var key = button.dataset.filterDialog;
+      var pressed = key === "year" ? state.year || state.workYear
+        : key === "work" ? state.work
+        : key === "facet" ? state.facet : state.kind;
+      button.setAttribute("aria-pressed", pressed ? "true" : "false");
+    });
+
+    var active = [];
+    if (state.q) { active.push(["q", "关键词：" + state.q]); }
+    if (state.year) { active.push(["year", state.year + " 年"]); }
+    if (state.work) { active.push(["work", "作品：" + shortWork(state.work) + (state.workYear ? " · " + state.workYear : "")]); }
+    if (state.facet) { active.push(["facet", "材料：" + LABEL[state.facet]]); }
+    if (state.kind) { active.push(["kind", "来源：" + state.kind]); }
+    if (state.tag) { active.push(["tag", "#" + state.tag]); }
+    $("activeFilters").innerHTML = active.map(function (f) {
+      return '<button type="button" class="analytics-active-filter" data-clear-filter="' + f[0] +
+        '" aria-label="移除筛选 ' + esc(f[1]) + '"><i class="fas fa-filter" aria-hidden="true"></i>' +
+        '<span>' + esc(f[1]) + '</span><em aria-hidden="true">×</em></button>';
+    }).join("");
   }
 
   function rowHtml(i) {
+    var series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    var works = (i.w || []).filter(function (w) { return !series[w]; }).slice(0, 2);
+    var people = (i.p || []).slice(0, 2);
+    var sourceName = i.k === "article" ? "PokeAmice Docs" : (LABEL[i.k] || i.kind);
+    var related = [];
+    if (works.length) { related.push('<span><i class="fas fa-cube" aria-hidden="true"></i>' + esc(works.map(shortWork).join("、")) + '</span>'); }
+    if (people.length) { related.push('<span><i class="fas fa-user" aria-hidden="true"></i>' + esc(people.join("、")) + '</span>'); }
+    if (!related.length && (i.o || []).length) { related.push('<span><i class="fas fa-building" aria-hidden="true"></i>' + esc(i.o.slice(0, 2).join("、")) + '</span>'); }
     return '<li><a class="row" href="' + i.u + '">' +
-      '<span class="row-d">' + i.d + "</span>" +
+      '<span class="row-meta"><span class="row-d">' + i.d + '</span><span class="row-k">' + esc(i.kind) + '</span></span>' +
       '<span class="row-t">' + esc(i.n || i.t) +
         /* the staff blog often files the entry title as the post title too;
            printing both then shows the same line twice */
         (i.n && i.n !== i.t ? '<em class="row-sub">' + esc(i.t) + "</em>" : "") + "</span>" +
-      '<span class="row-k">' + esc(i.kind) + "</span></a></li>";
+      (related.length ? '<span class="row-related">' + related.join("") + '</span>' : '') +
+      '<span class="row-source"><i class="fas fa-box-archive" aria-hidden="true"></i>' + esc(sourceName) + '</span>' +
+      '<i class="fas fa-chevron-right row-arrow" aria-hidden="true"></i></a></li>';
   }
 
-  function hits() {
+  function matches(i, omit) {
     var q = state.q.toLowerCase();
-    return ITEMS.filter(function (i) {
-      if (state.facet && i.k !== state.facet) { return false; }
-      if (state.year && yearOf(i) !== state.year) { return false; }
-      /* A heatmap cell means "this title, that year" - match the association,
-         not merely the year, or a cell of 22 would return the year's 80. */
-      if (state.work && (i.w || []).indexOf(state.work) === -1) { return false; }
-      if (state.workYear && yearOf(i) !== state.workYear) { return false; }
-      if (state.tag && (i.g || []).indexOf(state.tag) === -1) { return false; }
-      return !q || i.hay.indexOf(q) !== -1;
-    });
+    if (omit !== "facet" && state.facet && i.k !== state.facet) { return false; }
+    if (omit !== "kind" && state.kind && i.kind !== state.kind) { return false; }
+    if (omit !== "year" && state.year && yearOf(i) !== state.year) { return false; }
+    /* A heatmap cell means "this title, that year" - match the association,
+       not merely the year, or a cell of 22 would return the year's 80. */
+    if (omit !== "work" && state.work && (i.w || []).indexOf(state.work) === -1) { return false; }
+    if (omit !== "year" && omit !== "work" && state.workYear && yearOf(i) !== state.workYear) { return false; }
+    if (state.tag && (i.g || []).indexOf(state.tag) === -1) { return false; }
+    return !q || i.hay.indexOf(q) !== -1;
   }
+
+  function hits() { return ITEMS.filter(function (i) { return matches(i, null); }); }
+  function hitsExcept(key) { return ITEMS.filter(function (i) { return matches(i, key); }); }
 
   function renderResults() {
     var why = [];
     if (state.year) { why.push(state.year + " 年"); }
     if (state.work) { why.push("《" + shortWork(state.work) + "》" + (state.workYear ? " · " + state.workYear : "")); }
     if (state.facet) { why.push(LABEL[state.facet]); }
+    if (state.kind) { why.push(state.kind); }
     if (state.tag) { why.push("#" + state.tag); }
     if (state.q) { why.push("“" + state.q + "”"); }
     $("resWhy").textContent = why.length
       ? "筛选：" + why.join("　·　")
-      : "未筛选，按时间倒序列出全部。点柱选年份，点格选作品，点分类或标签叠加。";
+      : "未筛选，按时间倒序列出全部资料。点击图表、类型或标签即可继续下钻。";
 
-    var h = hits(), CAP = 120;
-    $("resN").textContent = h.length;
+    var h = hits().slice(), mobile = window.matchMedia && window.matchMedia("(max-width: 40rem)").matches;
+    h.sort(function (a, b) { return state.sort === "oldest" ? a.d.localeCompare(b.d) : b.d.localeCompare(a.d); });
+    var cap = mobile ? resultLimit : 120;
+    $("resultSort").value = state.sort;
+    $("resN").textContent = "· " + formatNumber(h.length);
     $("results").innerHTML = h.length
-      ? h.slice(0, CAP).map(rowHtml).join("") +
-        (h.length > CAP ? '<li class="empty">另有 ' + (h.length - CAP) + ' 件，继续缩小筛选。</li>' : "")
+      ? h.slice(0, cap).map(rowHtml).join("") +
+        (h.length > cap
+          ? mobile
+            ? '<li class="analytics-results-more"><button type="button" data-results-more>再显示 10 条<span>剩余 ' + formatNumber(h.length - cap) + ' 条</span></button></li>'
+            : '<li class="empty">另有 ' + (h.length - cap) + ' 件，继续缩小筛选。</li>'
+          : "")
       : '<li class="empty">标题、摘要、标签和实体里没有匹配。</li>';
 
     /* Bodies are not in this index, so hand the query to the search page that
@@ -4288,13 +4942,112 @@ document.addEventListener("DOMContentLoaded", () => {
     }).join("");
   }
 
+  function indexSearch() {
+    return '<label class="analytics-index-search"><i class="fas fa-search" aria-hidden="true"></i>' +
+      '<input id="analyticsIndexSearch" type="search" placeholder="在当前列表中查找…" autocomplete="off"></label>';
+  }
+
+  function openYearIndex() {
+    var counts = {};
+    hitsExcept("year").forEach(function (i) { bump(counts, yearOf(i)); });
+    var years = Object.keys(counts).map(Number).sort(function (a, b) { return b - a; });
+    var body = '<div class="analytics-index-groups"><section class="analytics-index-group"><h4>年份 · ' + years.length +
+      '</h4><div class="analytics-index-list">' + years.map(function (year) {
+        return '<button class="analytics-index-item" data-year-filter="' + year + '" data-index-text="' + year + '">' +
+          '<span class="analytics-index-item-copy"><span>' + year + ' 年</span><small>' + formatNumber(counts[year]) +
+          ' 条相关资料</small></span><b>' + formatNumber(counts[year]) + '</b></button>';
+      }).join("") + '</div></section></div>';
+    open("选择年份", "年份数量会随其他筛选条件同步变化。", body);
+  }
+
+  function openFacetIndex() {
+    var counts = {};
+    hitsExcept("facet").forEach(function (i) { bump(counts, i.k); });
+    var body = '<div class="analytics-index-groups"><section class="analytics-index-group"><h4>材料类型</h4><div class="analytics-index-list">' +
+      MATS.map(function (m) {
+        return '<button class="analytics-index-item" data-quick-facet="' + m.id + '" data-index-text="' + esc(m.name.toLowerCase()) + '">' +
+          '<span class="analytics-index-item-copy"><span>' + esc(m.name) + '</span><small>材料分类 · ' + formatNumber(counts[m.id] || 0) +
+          ' 条</small></span><b>' + formatNumber(counts[m.id] || 0) + '</b></button>';
+      }).join("") + '</div></section></div>';
+    open("选择材料", "按档案的三类主要材料来源筛选。", body);
+  }
+
+  function openKindIndex() {
+    var counts = {};
+    hitsExcept("kind").forEach(function (i) { bump(counts, i.kind); });
+    var kinds = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
+    var body = indexSearch() + '<div class="analytics-index-groups"><section class="analytics-index-group"><h4>具体来源 · ' + kinds.length +
+      '</h4><div class="analytics-index-list">' + kinds.map(function (kind) {
+        return '<button class="analytics-index-item" data-kind-filter="' + esc(kind) + '" data-index-text="' + esc(kind.toLowerCase()) + '">' +
+          '<span class="analytics-index-item-copy"><span>' + esc(kind) + '</span><small>具体资料来源</small></span><b>' +
+          formatNumber(counts[kind]) + '</b></button>';
+      }).join("") + '</div></section></div>';
+    open("选择来源", "例如部长专栏、员工博客、扫描翻译或访谈翻译。", body);
+  }
+
+  function openWorksIndex() {
+    var counts = {}, series = { "宝可梦": 1, "Pokémon": 1, "ポケットモンスター": 1 };
+    hitsExcept("work").forEach(function (i) {
+      (i.w || []).filter(function (w) { return !series[w]; }).forEach(function (w) { bump(counts, w); });
+    });
+    var works = Object.keys(counts).sort(function (a, b) { return counts[b] - counts[a] || a.localeCompare(b); });
+    var body = works.length ? indexSearch() + '<div class="analytics-index-groups"><section class="analytics-index-group">' +
+      '<h4>作品 · ' + works.length + '</h4><div class="analytics-index-list">' + works.map(function (w) {
+        return '<button class="analytics-index-item" data-work-filter="' + esc(w) + '" data-index-text="' + esc(w.toLowerCase()) + '">' +
+          '<span class="analytics-index-item-copy"><span>' + esc(shortWork(w)) + '</span><small>作品 · ' + formatNumber(counts[w]) +
+          ' 条相关资料</small></span><b>' + formatNumber(counts[w]) + '</b></button>';
+      }).join("") + '</div></section></div>' : '<p class="empty">当前筛选没有关联作品。</p>';
+    open("相关作品", "点击一部作品，把整个分析页面切换到它的资料。", body);
+  }
+
+  function setEntityRoleView(role) {
+    entityRoleView = role;
+    Array.prototype.forEach.call(document.querySelectorAll("#dlg [data-entity-role]"), function (button) {
+      button.setAttribute("aria-selected", button.dataset.entityRole === role ? "true" : "false");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("#dlg [data-entity-panel]"), function (panel) {
+      panel.hidden = panel.dataset.entityPanel !== role;
+    });
+  }
+
+  function openEntityIndex() {
+    var roles = [["p", "人物"], ["w", "作品"], ["o", "组织"], ["v", "事件"]], groups = {};
+    roles.forEach(function (r) { groups[r[1]] = {}; });
+    hits().forEach(function (i) {
+      roles.forEach(function (r) { (i[r[0]] || []).forEach(function (name) { bump(groups[r[1]], name); }); });
+    });
+    var available = roles.filter(function (r) { return Object.keys(groups[r[1]]).length; });
+    if (!available.some(function (r) { return r[1] === entityRoleView; })) { entityRoleView = available.length ? available[0][1] : "人物"; }
+    var tabs = available.map(function (r) {
+      var label = r[1], count = Object.keys(groups[label]).length;
+      return '<button class="analytics-entity-tab" data-entity-role="' + label + '" role="tab" aria-selected="' +
+        (entityRoleView === label) + '">' + label + '<br><small>' + count + '</small></button>';
+    }).join("");
+    var panels = available.map(function (r) {
+      var label = r[1], names = Object.keys(groups[label]).sort(function (a, b) {
+        return groups[label][b] - groups[label][a] || a.localeCompare(b);
+      });
+      return '<section class="analytics-index-group analytics-entity-panel' + (names.length > 12 ? ' is-collapsed' : '') +
+        '" data-entity-panel="' + label + '" role="tabpanel"><h4>' + label + ' · ' + names.length + '</h4>' +
+        '<div class="analytics-index-list">' + names.map(function (name) {
+          return '<button class="analytics-index-item" data-ent="' + esc(name) + '" data-index-text="' + esc((name + " " + label).toLowerCase()) + '">' +
+            '<span class="analytics-index-item-copy"><span>' + esc(name) + '</span><small>' + label + ' · ' +
+            formatNumber(groups[label][name]) + ' 条资料</small></span><b>' + formatNumber(groups[label][name]) + '</b></button>';
+        }).join("") + '</div>' + (names.length > 12 ? '<button class="analytics-entity-more" data-entity-more>查看全部 ' + names.length + ' 个' + label + '</button>' : '') + '</section>';
+    }).join("");
+    open("可浏览实体", "先选择实体类型，再查看热门条目或搜索完整列表。",
+      available.length ? indexSearch() + '<div class="analytics-entity-tabs" role="tablist" aria-label="实体类型">' + tabs +
+        '</div><div class="analytics-index-groups">' + panels + '</div>' : '<p class="empty">当前筛选没有实体标注。</p>');
+    setEntityRoleView(entityRoleView);
+  }
+
   /* ---------- entity popover ---------- */
 
   function open(t, s, h) {
     $("dt").textContent = t;
     $("ds").textContent = s;
     $("db").innerHTML = h;
-    if ($("dlg").showModal) { $("dlg").showModal(); }
+    if ($("dlg").showModal && !$("dlg").open) { $("dlg").showModal(); }
   }
 
   function entBody() {
@@ -4320,23 +5073,115 @@ document.addEventListener("DOMContentLoaded", () => {
       if (refine.series && i.k !== refine.series) { return false; }
       return true;
     });
-    $("db").innerHTML = '<div class="refine"><div><p class="rlab">按年份</p><div class="years">' + bars +
+    $("db").innerHTML = '<button class="analytics-entity-back" data-back-entity-index><i class="fas fa-arrow-left" aria-hidden="true"></i> 返回实体列表</button>' +
+      '<div class="refine"><div><p class="rlab">按年份</p><div class="years">' + bars +
       '</div></div><div><p class="rlab">按材料</p><div class="chips">' + chips +
       (f ? '<button class="chip chip-clear" data-rclear>清除</button>' : "") + "</div></div></div>" +
       '<p class="rcount">' + (f ? "筛选后 " + list.length + " 件" : "全部 " + e.n + " 件") + "</p>" +
       '<ul class="rows">' + list.slice(0, 40).map(rowHtml).join("") + "</ul>";
   }
 
+  function restoreUrl() {
+    var params = new URLSearchParams(window.location.search);
+    state.q = params.get("q") || "";
+    state.facet = params.get("facet") || null;
+    state.kind = params.get("kind") || null;
+    state.year = params.get("year") ? Number(params.get("year")) : null;
+    state.work = params.get("work") || null;
+    state.workYear = params.get("workYear") ? Number(params.get("workYear")) : null;
+    state.tag = params.get("tag") || null;
+    state.sort = params.get("sort") === "oldest" ? "oldest" : "newest";
+  }
+
+  function syncUrl() {
+    var params = new URLSearchParams(window.location.search);
+    ["q", "facet", "kind", "year", "work", "workYear", "tag", "sort"].forEach(function (key) { params.delete(key); });
+    if (state.q) { params.set("q", state.q); }
+    if (state.facet) { params.set("facet", state.facet); }
+    if (state.kind) { params.set("kind", state.kind); }
+    if (state.year) { params.set("year", state.year); }
+    if (state.work) { params.set("work", state.work); }
+    if (state.workYear) { params.set("workYear", state.workYear); }
+    if (state.tag) { params.set("tag", state.tag); }
+    if (state.sort === "oldest") { params.set("sort", "oldest"); }
+    var query = params.toString();
+    window.history.replaceState(null, "", window.location.pathname + (query ? "?" + query : "") + window.location.hash);
+  }
+
   /* ---------- events ---------- */
 
   function redraw() {
-    renderChart(); renderFamilies(); renderTags(); renderClear(); renderResults();
+    resultLimit = 10;
+    renderAnalyticsOverview(); renderChart(); renderFamilies(); renderTags(); renderClear(); renderResults();
+    syncUrl();
   }
 
   document.addEventListener("click", function (ev) {
     var t;
     /* Scoped to #retrieval so the console's generic hooks cannot answer for
        controls elsewhere on the page. */
+    if ((t = ev.target.closest("#retrieval [data-kpi-action]"))) {
+      var action = t.dataset.kpiAction;
+      if (action === "works") { openWorksIndex(); return; }
+      if (action === "entities") { openEntityIndex(); return; }
+      var target = action === "results" ? document.querySelector("#retrieval .ct-out") : document.querySelector("#retrieval .analytics-chart-card");
+      if (target) { target.scrollIntoView({ behavior: "smooth", block: "start" }); }
+      return;
+    }
+    if ((t = ev.target.closest("#retrieval [data-filter-dialog]"))) {
+      var filterDialog = t.dataset.filterDialog;
+      if (filterDialog === "year") { openYearIndex(); }
+      if (filterDialog === "work") { openWorksIndex(); }
+      if (filterDialog === "facet") { openFacetIndex(); }
+      if (filterDialog === "kind") { openKindIndex(); }
+      return;
+    }
+    if (ev.target.closest("#retrieval [data-chart-results]")) {
+      document.querySelector("#retrieval .ct-out").scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+    if (ev.target.closest("#retrieval [data-chart-clear]")) {
+      state.year = state.work = state.workYear = null;
+      redraw();
+      return;
+    }
+    if ((t = ev.target.closest("#retrieval [data-mobile-chart-tab]"))) {
+      setMobileChartView(t.dataset.mobileChartTab);
+      return;
+    }
+    if (ev.target.closest("#retrieval [data-results-more]")) {
+      resultLimit += 10;
+      renderResults();
+      return;
+    }
+    if ((t = ev.target.closest("[data-year-filter]"))) {
+      state.year = Number(t.dataset.yearFilter);
+      state.workYear = null;
+      redraw();
+      if ($("dlg").open) { $("dlg").close(); }
+      return;
+    }
+    if ((t = ev.target.closest("[data-quick-facet]"))) {
+      state.facet = t.dataset.quickFacet;
+      redraw();
+      if ($("dlg").open) { $("dlg").close(); }
+      return;
+    }
+    if ((t = ev.target.closest("[data-kind-filter]"))) {
+      state.kind = t.dataset.kindFilter;
+      redraw();
+      if ($("dlg").open) { $("dlg").close(); }
+      return;
+    }
+    if ((t = ev.target.closest("[data-work-filter]"))) {
+      state.work = t.dataset.workFilter;
+      state.workYear = state.year = null;
+      redraw();
+      if ($("dlg").open) { $("dlg").close(); }
+      var chart = document.querySelector("#retrieval .analytics-chart-card");
+      if (chart) { chart.scrollIntoView({ behavior: "smooth", block: "start" }); }
+      return;
+    }
     if ((t = ev.target.closest("#retrieval [data-y]"))) {
       var y = Number(t.dataset.y);
       state.year = state.year === y ? null : y;
@@ -4359,11 +5204,31 @@ document.addEventListener("DOMContentLoaded", () => {
       state.tag = state.tag === t.dataset.tag ? null : t.dataset.tag;
       redraw(); return;
     }
+    if ((t = ev.target.closest("#retrieval [data-clear-filter]"))) {
+      var clearKey = t.dataset.clearFilter;
+      if (clearKey === "q") { state.q = ""; $("q").value = ""; }
+      else if (clearKey === "work") { state.work = state.workYear = null; }
+      else { state[clearKey] = null; }
+      redraw(); return;
+    }
     if (ev.target.closest("[data-clearall]")) {
-      state.facet = state.year = state.work = state.workYear = state.tag = null;
+      state.facet = state.kind = state.year = state.work = state.workYear = state.tag = null;
       state.q = "";
       $("q").value = "";
       redraw(); return;
+    }
+    if ((t = ev.target.closest("#dlg [data-entity-role]"))) {
+      setEntityRoleView(t.dataset.entityRole);
+      return;
+    }
+    if ((t = ev.target.closest("#dlg [data-entity-more]"))) {
+      var panel = t.closest("[data-entity-panel]");
+      if (panel) { panel.classList.remove("is-collapsed"); t.hidden = true; }
+      return;
+    }
+    if (ev.target.closest("#dlg [data-back-entity-index]")) {
+      openEntityIndex();
+      return;
     }
     if ((t = ev.target.closest("[data-ent]"))) {
       var e = ENTS.filter(function (x) { return x.name === t.dataset.ent; })[0];
@@ -4389,11 +5254,32 @@ document.addEventListener("DOMContentLoaded", () => {
     if (ev.target.closest("#dc")) { $("dlg").close(); }
   });
 
+  document.addEventListener("input", function (ev) {
+    if (ev.target.id !== "analyticsIndexSearch") { return; }
+    var q = ev.target.value.trim().toLowerCase();
+    document.querySelectorAll("#dlg [data-index-text]").forEach(function (item) {
+      item.hidden = !!q && item.dataset.indexText.indexOf(q) === -1;
+    });
+    document.querySelectorAll("#dlg [data-entity-panel]").forEach(function (panel) {
+      panel.classList.toggle("is-collapsed", !q && panel.querySelectorAll("[data-index-text]").length > 12);
+      var more = panel.querySelector("[data-entity-more]");
+      if (more) { more.hidden = !!q; }
+    });
+  });
+
   function boot(raw) {
     derive(raw);
+    restoreUrl();
+    $("q").value = state.q;
     $("q").addEventListener("input", function (e) {
       state.q = e.target.value.trim();
-      renderClear(); renderResults();
+      redraw();
+    });
+    $("resultSort").addEventListener("change", function (e) {
+      state.sort = e.target.value === "oldest" ? "oldest" : "newest";
+      resultLimit = 10;
+      renderResults();
+      syncUrl();
     });
     renderLegend(); renderEnts(); redraw();
     $("retrievalLoading").hidden = true;

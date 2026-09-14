@@ -1,0 +1,204 @@
+---
+layout: parallel-translation
+title: 电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学
+original_title: Nやゲーチスの開発段階のビジュアルが公開！ 増田さん＆海野さんが駆け付けた『ポケットモンスターブラック2・ホワイト2』のイベントをレポ
+date: '2012-08-05'
+era_skin: '2011'
+source_url: https://dengekionline.com/elem/000/000/518/518926/
+source_name: 電撃オンライン
+original_language: ja
+categories:
+- 采访
+- 现场活动
+- 宝可梦黑白2
+- 角色与对战
+tags:
+- 宝可梦黑白2
+- 增田顺一
+- 海野隆雄
+- 电击Online
+- 第五世代
+- N
+- 魁奇思
+- 合众地区
+- PWT
+- 宝可坞
+cast:
+- name: 増田順一
+  role: 《宝可梦 黑2·白2》制作人 / GAME FREAK 董事
+  avatar: /assets/img/default-avatar.png
+- name: 海野隆雄
+  role: 《宝可梦 黑2·白2》总监 / GAME FREAK 游戏总监
+  avatar: /assets/img/default-avatar.png
+- name: 電撃
+  role: 电击Online 采访记者
+  avatar: /assets/img/default-avatar.png
+parallel_items:
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/01_c20120805_poke_001_cs1w1_298x.jpg
+  caption: 在横滨地标塔举办的粉丝见面会上登台的增田顺一先生（右）和海野隆雄先生（左）
+- original: ポケモンは、“『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティング in ポケモンセンター”を、横浜ランドマークタワーで本日8月5日に開催した。
+  translation: 宝可梦公司于今日（8月5日）在横滨地标大厦（Yokohama Landmark Tower）隆重举办了“《宝可梦 黑2·白2》发售纪念粉丝见面会 in 宝可梦中心”。
+- original: このイベントは、DS用ソフト『ポケットモンスターブラック2・ホワイト2』を開発したゲームフリークの増田順一さんと海野隆雄さんをゲストに迎えたトークショー。ファンへの感謝を伝えるとともに、ソフトの魅力をアピールするために行われた。会場には、抽選で選ばれたファン200人が集まった。
+  translation: 本次活动邀请了负责 Nintendo DS 软件《宝可梦 黑2·白2》开发的 GAME FREAK 制作人增田顺一先生与总监海野隆雄先生作为特邀嘉宾出席对谈会。活动旨在向广大玩家表达由衷的谢意，并深入展现本作的丰富魅力。通过抽选获得资格的200名幸运粉丝齐聚一堂。
+- original: 本記事では、トークショーの部分を中心にレポートをお届けする。トークショーは、増田さんと海野さんに司会者がさまざまな質問を投げ掛ける形式で進行した。初出しとなる貴重な開発資料も飛び出したので、ファンはぜひチェックしてほしい。
+  translation: 本篇报道将以对谈环节为核心为您带来现场纪实。对谈会由主持人向增田先生与海野先生提出各种深度提问的方式展开。现场更有首次对外公开的绝密开发资料重磅亮相，各位宝可梦粉丝千万不可错过！
+- type: heading
+  level: 2
+  original: 開発開始の儀式と「共鳴」のテーマ
+  translation: 开发启动仪式与“共鸣”的主题
+- speaker: 电击Online
+  original: ――『ポケットモンスターブラック2・ホワイト2』を開発するにあたり、最初にしたことは？
+  translation: ――在正式启动《宝可梦 黑2·白2》的开发时，团队做的第一件事是什么？
+- speaker: 海野隆雄
+  original: 海野さん：普通は話し合いなどをするところですが、スタッフ全員で記念撮影をしました。記念になるだけでなく、開発が終わる2年後に、自分や他のスタッフがどう成長したのかを比べるためでもあったんです。
+  translation: 按通常惯例一般是先开会研讨，但我们做的第一件事是组织全体开发人员拍了一张大合影。这不仅是为了留作纪念，更是为了在开发结束的2年之后，能够对比自己和其他伙伴究竟获得了怎样的蜕变与成长。
+- type: heading
+  level: 2
+  original: 100人で遊べる「フェスミッション」と「共鳴」
+  translation: 支持百人同乐的“庆典任务”与“共鸣”
+- speaker: 电击Online
+  original: ――100人で遊べる“フェスミッション”の開発の苦労などについて、教えてください。
+  translation: ――能谈谈支持最多100人同乐的“庆典任务（Funfest Mission）”在开发过程中经历的艰辛吗？
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/02_c20120805_poke_002_cs1w1_298x.jpg
+  caption: 谈论可百人游玩的新功能“庆典任务”的海野先生
+- speaker: 海野隆雄
+  original: 海野さん：今作には“共鳴”というテーマがあります。この“共鳴”には、1人で遊んでも、みんなで遊んでも楽しい、ゲームとゲームが共鳴することで、世界が広がっていくという想いを込めました。
+  translation: 本作确立的核心主题是“共鸣”。在“共鸣”这一概念中，我们寄托了一种愿景——无论是独自游玩还是大家一起玩都能获得充沛的乐趣，通过一台台主机、一部部游戏之间的相互共鸣，让宝可梦的世界无限向外延展。
+- speaker: 海野隆雄
+  original: フェスミッションは、“1人でも100人でも”という要素に魅力に感じたんですが、スタッフが100人おらずどうしよう思いました（笑）。そしてこの要素を、競争なのか協力なのか、どっち付かずにしないように開発していくのが大変でしたね。
+  translation: 对于庆典任务，我们当时觉得“既能1人玩，也能100人同乐”这一构想极具吸引力；但 GAME FREAK 团队当时连100名员工都凑不齐，大家面面相觑不知道该怎么实机测试（笑）。而且在玩法定位上，如何避免它既不像纯粹竞争也不像纯粹合作的模棱两可状态，确保体验的爽快感，开发中确实克服了极大的挑战。
+- type: heading
+  level: 2
+  original: 歴代トレーナーが集う「ポケモンワールドトーナメント（PWT）」
+  translation: 历代馆主与冠军齐聚的“宝可梦世界锦标赛（PWT）”
+- speaker: 电击Online
+  original: ――歴代の登場キャラクターたちとトーナメンでバトルできる“ポケモンワールドトーナメント”を開発したきっかけは？
+  translation: ――让历代登场的人气角色齐聚一堂展开淘汰制锦标赛的“宝可梦世界锦标赛（PWT）”，最初诞生的契机是什么？
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/03_c20120805_poke_003_cs1w1_298x.jpg
+  caption: 历代道馆馆主和冠军集结的“PWT”画面
+- speaker: 海野隆雄
+  original: 海野さん：“ポケモンワールドチャンピオンシップス”（※ポケモンが行っている公式大会）に何度か視察に行ったんですが、そこでバトルしている人たちを見てすごいと思ったんです。
+  translation: 我曾多次前往宝可梦官方世界大赛“Pokémon World Championships”现场视察，目睹那些顶尖选手在赛场上激烈博弈的身姿，内心受到了极大的震撼。
+- speaker: 海野隆雄
+  original: そこから、彼らがゲーム内で本当にチャンピオンとして出てきたらおもしろいのではないかと考えて、だったら他のチャンピオンやジムリーダーたちも出してしまおうとお祭りのような感覚で作りました。
+  translation: 由此我萌生了一个想法：如果这些真正的世界级冠军能够作为游戏中的NPC角色登场，岂不是非常有趣？既然如此，不如索性把历代作品的所有冠军和道馆馆主统统请回舞台！带着这种盛大狂欢节庆的心态，我们最终打造出了 PWT。
+- type: heading
+  level: 2
+  original: 黒の摩天楼・白の樹洞と「ポケウッド」の誕生秘話
+  translation: 黑色摩天楼·白色树洞与“宝可坞”诞生秘话
+- speaker: 电击Online
+  original: ――『ポケットモンスターブラック2』のブラックシティにある“黒の摩天楼”、『ポケットモンスターホワイト2』のホワイトフォレストにある“白の樹洞”という施設について教えてください。
+  translation: ――能否请您介绍一下《宝可梦 黑2》黑城中的“黑色摩天楼”与《宝可梦 白2》白森中的“白色树洞”这两座全新设施？
+- speaker: 海野隆雄
+  original: 海野さん：2年後が舞台になっているということもあり、ブラックシティとホワイトフォレストは想像がつかないぐらい発展させようと考えました。クリア後にバトルを楽しむための施設となっています。
+  translation: 因为本作是以“前作故事的2年后”为舞台，我们希望让黑城与白之森林展现出超乎玩家想象的翻天覆地般的繁荣发展。这两处地点被设计为通关后让玩家尽情沉浸于硬核对战挑战的高难度设施。
+- speaker: 电击Online
+  original: ――“詰め将棋”ならぬ“詰めポケモンバトル”でファンから楽しいという意見が寄せられている“ポケウッド”。この開発経緯も教えてください。
+  translation: ――玩家们纷纷称赞宛如“残局解谜”般充满逻辑趣味的“宝可坞（Pokéstar Studios）”，它的开发缘由是怎样的？
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/04_c20120805_poke_004_cs1w1_143x.jpg
+  caption: 电影拍摄工作室“宝可坞”的布景选择画面
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/05_c20120805_poke_005_cs1w1_143x.jpg
+  caption: 在宝可坞拍摄电影的战斗场景
+- speaker: 海野隆雄
+  original: 海野さん：最初企画書を持っていった時、増田に「なんだ、これ？」と言われました（笑）。僕は（DS『ポケットモンスター ハートゴールド・ソウルシルバー』『ポケットモンスターブラック・ホワイト』にあった）“ポケスロン”や“ミュージカル”のようなミニゲームが好きだったので、本作でも何か新しい遊びを入れたいと思って開発しました。
+  translation: 刚开始把企划案递交给增田先生时，增田直接愣住了：“这到底是啥玩意儿啊？！”（全场大笑）。我个人非常喜欢像《心金·魂银》中的“宝可全能竞技赛（Pokéathlon）”以及《黑·白》中的“宝可梦音乐剧（Musical）”这类趣味迷你玩法，因此极度渴望在本作中加入一种前所未有的崭新游戏形态，便坚持将其完成了。
+- type: heading
+  level: 2
+  original: 2年後の世界観と主人公刷新の意図
+  translation: 2年后的世界观与更换新主角的深意
+- speaker: 电击Online
+  original: ――2年後という舞台設定において、ストーリー上意識したことは？
+  translation: ――在设定为“2年后的世界”这一时间线上，剧情编排层面最注重的是什么？
+- speaker: 海野隆雄
+  original: 海野さん：僕は、『ポケットモンスターブラック・ホワイト』が、あんな終わり方をすると思っていなかったんです。あんな終わり方というと申し訳ないんですけど（笑）。「え、これで終わっちゃうの!?」と思ったんです。
+  translation: 说实话，我当初完全没想到《宝可梦 黑·白》会以那样的方式迎来结局。说“那样的方式”可能对前作主创有点抱歉（笑），但当时我的第一反应确实是：“诶？！难道故事就这么戛然而止了吗？！”
+- speaker: 海野隆雄
+  original: あのすぐ後の続編も考えたんですが、それよりは2年後にすることで街やキャラクターたちの変化を感じてほしいと思いました。あと、2年経ったので、主人公を新しくしました。新しい主人公のほうが、プレイヤーが感情移入しやすいと思ったんです。
+  translation: 我们也曾考虑过紧接着前作结尾的故事，但经过权衡，我们认为将时间拨快2年，能让玩家更加直观、深刻地感受到合众城镇风貌以及各个角色的成长与变迁。另外，既然已经跨越了2年，更换全新的男女主角也顺理成章——全新的主角能让重新踏上这片大地的玩家更容易建立情感代入。
+- type: heading
+  level: 2
+  original: 極秘公開！増田順一のアイデア帳から飛び出した魁奇思・N・闇の三位一体の初期設定画
+  translation: 绝密公开！增田顺一个人创意手记中的魁奇思、N与暗爱三位一体初期设定草图
+- speaker: 电击Online
+  original: ――ポケモンセンターでのグッズでは、ダントツでNが人気だそうですが、Nやゲーチス、ダークトリニティといった登場キャラクターたちについて、エピソードなどがあれば教えてください。
+  translation: ――在宝可梦中心的官方周边中，N的周边人气呈现断层第一的火爆；关于N、魁奇思（Ghetsis）以及暗爱三位一体（Shadow Triad）等关键角色，是否有开发幕后的秘闻能与大家分享？
+- speaker: 增田顺一
+  original: 増田さん：僕はいつもアイデア帳を持ち歩いているんですが、『ポケットモンスターブラック・ホワイト』を作る時に、それをデザイナーに頼んでビジュアル化してもらったんです。その資料を、今回特別に持ってきました。
+  translation: 我平时一直随身携带着一本记录灵感的创意手记。在最初构思《宝可梦 黑·白》时，我把本子里的文字概念与构想委托给美术设计师绘制成了视觉草图。今天为了这次见面会，我特意把这批绝密的历史档案带到了现场！
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/06_c20120805_poke_006_cs1w1_290x.jpg
+  caption: 会场屏幕上展示的魁奇思（盖奇斯）初期形象视觉图。标注了右眼的取景器和充满威慑力的站姿
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/07_c20120805_poke_007_cs1w1_290x.jpg
+  caption: N的初期构想草图。背负着数学公式、孤独与阴影的青年原初设计
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/08_c20120805_poke_008_cs1w1_290x.jpg
+  caption: N的头身比例、帽子、立方体配饰的详细设定画
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/09_c20120805_poke_009_cs1w1_290x.jpg
+  caption: 展示N与幼年宝可梦们互动的印象草图
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/10_c20120805_poke_010_cs1w1_290x.jpg
+  caption: 黑暗三位一体（暗爱三位一体）的初期视觉图。面具和装束的变迁
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/11_c20120805_poke_011_cs1w1_290x.jpg
+  caption: 黑暗三位一体的忍者风格剪影和三位一体的动作草图
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/12_c20120805_poke_012_cs1w1_290x.jpg
+  caption: 等离子团的城堡和实验设施的初期美术设定
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/13_c20120805_poke_013_cs1w1_290x.jpg
+  caption: 盖奇斯华丽礼服和右半身怪异感的设计注释
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/14_c20120805_poke_014_cs1w1_190x.jpg
+  caption: 增田先生的创意笔记本片段（1）
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/15_c20120805_poke_015_cs1w1_190x.jpg
+  caption: 增田先生的创意笔记本片段（2）
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/16_c20120805_poke_016_cs1w1_190x.jpg
+  caption: 增田先生的创意笔记本片段（3）
+- speaker: 增田顺一
+  original: 増田さん：あくまでイメージビジュアルなので、開発していく段階でいろいろ変わっていくこともあるんですが、せっかくなので用意してみました。
+  translation: 这些终究是早期的概念意向图，在实际开发推进的过程中很多设定都经历了调整与演变；不过既然难得有和大家面对面交流的机会，我就毫不保留地拿出来分享给大家了！
+- type: heading
+  level: 2
+  original: Q＆A、巨大横断幕での記念撮影と閉会の挨拶
+  translation: 现场问答、巨幅横幅合影与闭幕寄语
+- speaker: 电击Online
+  original: こうして、大きなサプライズがあったトークショーは終了に。なお、増田さんの話にあった通り、最後のイメージビジュアルはあくまで開発途中のイメージとのことで、本編のゲームとは異なる部分もあるとのこと。開発段階の資料を直接見られる機会はなかなかないので、ファンにとってはとても貴重なものになったのではないだろうか。
+  translation: 伴随着这一重磅惊喜，对谈环节圆满告一段落。正如增田先生所言，最后的这些视觉设定稿仅代表游戏初创时期的概念构想，部分细节与最终正式版游戏存在差异。但能够亲眼目睹顶级游戏开发第一线的珍贵原画档案，对全场所有粉丝而言，毫无疑问是一份无与伦比的珍贵回忆。
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/17_c20120805_poke_017_cs1w1_290x.jpg
+  caption: 倾听粉丝热情提问的增田先生和海野先生
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/18_c20120805_poke_018_cs1w1_290x.jpg
+  caption: 认真回答每一位提问者的开发团队
+- speaker: 电击Online
+  original: この後、ファンからのQ＆Aコーナーや、特製の横断幕を使った来場者全員での記念撮影などがあり、イベントは終了となった。最後に、増田さんと海野さんからファンへのメッセージが送られたので、それを掲載する。
+  translation: 随后，活动开展了粉丝现场提问 Q&A 环节，并拉起印有《黑2·白2》标志的特制巨幅横幅，与全体到场观众进行大合影。活动闭幕之际，增田先生与海野先生向所有支持宝可梦的粉丝送上了真挚寄语。
+- speaker: 增田顺一
+  original: 増田さん：今の記念撮影で話したことを忘れてしまったかもしれませんが、あんな感じで作っていますので、これからもよろしくお願いします。
+  translation: 大家刚才合影时可能一兴奋把我说过的话给忘了（笑），但我们平时就是以那种纯粹而热烈的心态去打磨作品的。今后也请大家一如既往地支持宝可梦！
+- speaker: 海野隆雄
+  original: 海野さん：『ポケットモンスターブラック2・ホワイト2』は、“共鸣”をテーマに作っています。今日、ここにきてくれた人たちと共鳴できたことは、僕にとって一生の宝物です。本当にありがとうございました。
+  translation: 《宝可梦 黑2·白2》是倾注了“共鸣”这一主题倾力打造的作品。今天能够在这里与到场的每一位朋友心意相通、产生深刻的共鸣，对我而言将是一生的宝物。真的非常感谢大家！
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/19_c20120805_poke_019_cs1w1_300x.jpg
+  caption: 展开特制巨大横幅拍摄的全体到场者纪念照
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/20_c20120805_poke_020_cs1w1_290x.jpg
+  caption: 增田氏与海野氏的签名会及与粉丝的直接交流
+- type: image
+  image: /assets/img/interviews/2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art/21_c20120805_poke_021_cs1w1_290x.jpg
+  caption: 被热烈气氛包围的横滨地标塔活动会场全景
+interviewee: 增田顺一, 海野隆雄, 电击Online
+source:
+  title: 電撃オンライン
+  url: https://dengekionline.com/elem/000/000/518/518926/
+---

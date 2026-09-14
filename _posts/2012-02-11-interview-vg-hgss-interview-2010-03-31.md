@@ -50,9 +50,6 @@ original_link: https://web.archive.org/web/20120211023721/http://www.pokemon.com
 translator: Poke Amice Studio
 interviewee: Mori, 增田顺一, 大森滋, 松岛贤二, 森昭人, 森本茂树, 海野隆雄
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2012-02-11-vg-hgss-interview-2010-03-31/img_01.gif
-  caption: Load Indicator2
 - type: paragraph
   original: View Profile
   translation: 查看个人资料
@@ -211,9 +208,6 @@ parallel_items:
 - type: paragraph
   original: Pokémon Fun Zone
   translation: 宝可梦欢乐地带
-- type: paragraph
-  original: None
-  translation: 无
 - type: paragraph
   original: Pokémon Fun Zone!
   translation: 宝可梦欢乐地带！
@@ -468,9 +462,6 @@ parallel_items:
   original: Back To Top
   translation: 返回顶部
 - type: paragraph
-  original: None None
-  translation: ''
-- type: paragraph
   original: RELEASE DATE March 14, 2010
   translation: 发售日期：2010年3月14日
 - type: paragraph
@@ -565,7 +556,9 @@ parallel_items:
   original: About TPCi
   translation: 关于宝可梦国际公司
   note: TPCi 指 The Pokémon Company International，负责日本以外的宝可梦业务。
-- type: image
-  image: /assets/img/interviews/2012-02-11-vg-hgss-interview-2010-03-31/img_02.jpg
-  caption: 相关资料图
 ---
+
+
+
+
+

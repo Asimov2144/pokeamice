@@ -44,7 +44,7 @@ entities:
   - 路卡利欧
   - 妙蛙花
 parallel_items:
-- speaker: 编辑部
+- speaker: 提问
   original: Ken Sugimori has worked on designing Pokémon from the very beginning, and he shared a little secret on how he comes up with designs using a concept of addition by subtraction and vice-versa in an interview with the Yomiuri Shimbun.
   translation: 杉森建从最初就参与宝可梦的设计工作，他在接受《读卖新闻》采访时分享了一个关于设计的小秘密，即如何运用“减法即加法”及其相反的概念来构思设计。
   note: ''
@@ -60,14 +60,6 @@ parallel_items:
   original: But if you were to make Luxray’s head smaller and eyes sharper, it would look cooler. “Making it cooler” is an adjustment I wouldn’t dare to do.
   translation: 但如果把伦琴猫的头缩小、眼睛变得更锐利，它看起来会更酷。而“让它更酷”这种调整我是不敢做的。
   note: ''
-- type: image
-  image: /assets/img/interviews/2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance/luxray.png
-  caption_original: Luxray - Sugimori explains that making its head smaller would make it cooler, but less uniquely memorable.
-  caption_translation: 伦琴猫：杉森建解释如果把头改小、眼神改锐利确实会更帅，但他绝不敢做这种‘让它更帅’的调整。
-- type: image
-  image: /assets/img/interviews/2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance/lucario.png
-  caption_original: Lucario - Balancing cool aesthetic with approachable proportions.
-  caption_translation: 路卡利欧：兼具帅气冷峻与亲和力比例的经典代表。
 - speaker: 提问
   original: That is certainly a unique sensitivity of yours, Sugimori-san.
   translation: 这确实是您独特的审美呢，杉森先生。
@@ -84,8 +76,9 @@ parallel_items:
   original: Exactly. It simply ends at “that’s cool.” After all, as Pokémon that are being sent out to the world, we want them to always remain memorable; however, I feel that in order to do so you have to add a touch to it. For example, look at Oshawott’s cheeks. It has three freckles, and if you take them away Oshawott becomes cuter. However, taking them away makes its face less memorable. Actually, a lot of people told me “I want you to get rid of the freckles,” but I strongly insisted “It is better to have them.” Going by my standards, this is the correct way to design Pokémon.
   translation: 没错。那样就仅仅停留在“好酷”的层面。毕竟，作为面向世界的宝可梦，我们希望它们始终令人难忘；然而，我觉得要做到这一点，就必须加上一点“点睛之笔”。例如，看看水水獭的脸颊。它有三颗雀斑，如果去掉它们，水水獭会变得更可爱。但是，去掉它们会让它的脸不那么令人难忘。实际上，很多人跟我说“我希望你去掉雀斑”，但我强烈坚持“有雀斑更好”。按照我的标准，这才是设计宝可梦的正确方式。
   note: ''
-- type: image
-  image: /assets/img/interviews/2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance/oshawott.png
-  caption_original: Oshawott - The famous 3 freckles that Sugimori insisted on keeping despite team objections.
-  caption_translation: 水水獭：脸颊两侧标志性的雀斑。杉森建顶住团队‘去掉更可爱’的意见坚决保留，成为点睛之笔。
 ---
+
+
+
+
+

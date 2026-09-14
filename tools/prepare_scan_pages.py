@@ -1265,6 +1265,16 @@ def process(path: Path, out_dir: Path, args, source_root: Path | None = None,
 
 
 VARIANT_SUFFIXES = ("-tuya",)
+GENERATED_SCAN_DIRS = {"cache", "thumbs", "_prepared-inputs"}
+
+
+def is_generated_scan_artifact(path: Path, source: Path) -> bool:
+    """Exclude thumbnails and intermediate files nested below a scan folder."""
+    try:
+        parent_parts = {part.lower() for part in path.relative_to(source).parts[:-1]}
+    except ValueError:
+        return False
+    return bool(parent_parts & GENERATED_SCAN_DIRS)
 
 
 def discover(source: Path, keep_variants: bool = False) -> tuple[list[Path], list[Path]]:
@@ -1278,7 +1288,9 @@ def discover(source: Path, keep_variants: bool = False) -> tuple[list[Path], lis
     """
     found = sorted(
         p for p in source.rglob("*")
-        if p.is_file() and p.suffix.lower() in IMAGE_SUFFIXES
+        if p.is_file()
+        and p.suffix.lower() in IMAGE_SUFFIXES
+        and not is_generated_scan_artifact(p, source)
     )
     if keep_variants:
         return found, []
@@ -1302,7 +1314,7 @@ def main() -> int:
     parser.add_argument("--out", required=True, help="Destination folder; originals are never touched.")
     parser.add_argument("--vlm", default="auto", choices=["auto", "always", "never"],
                         help="When to ask the model: auto skips clear portrait paper pages.")
-    parser.add_argument("--model", default=os.getenv("VLM_PAGE_MODEL", "qwen3-vl-flash"))
+    parser.add_argument("--model", default=os.getenv("VLM_PAGE_MODEL", "qwen3.7-plus"))
     parser.add_argument("--timeout", type=int, default=180)
     parser.add_argument("--binding", default="right", choices=["right", "left"],
                         help="Right-bound Japanese titles read right page first; left for Western ones.")

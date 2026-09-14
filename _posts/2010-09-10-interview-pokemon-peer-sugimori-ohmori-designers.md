@@ -1,22 +1,21 @@
 ---
 layout: parallel-translation
-title: '[访谈翻译] Pokemon Peer 官方专访：杉森建、大村祐介、井部真那与田上怜子谈《黑·白》设计秘辛'
+title: Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛
 original_title: 『Pokemon Peer』開発者インタビュー：杉森建、大村祐介、井部真那、田上怜子
 date: '2010-09-10'
 era: 2010–2013 · NDS / 宝可梦 黑·白 黄金时期
-era_skin: '2011'
+era_skin: '2010'
 publication: Pokemon Peer (ポケモン ピア) / Pokebeach
 source_kind: mook_interview
 author: Pokemon Peer Editorial / Translated by Bangiras (Pokebeach)
 translator: Poke Amice Studio
-interviewee: 杉森建, 大村祐介, 井部真那, 田上怜子
+interviewee: 井部真那, 全员, 大村祐介, 杉森建, 田上玲子
 toc: true
 toc_sticky: true
 parallel_view: translation
 categories:
-- 访谈翻译
-- 翻译
-- 访谈整理
+- developer-interviews
+- official-archives
 tags:
 - Pokemon
 - 黑·白
@@ -56,6 +55,10 @@ entities:
   - 豆豆鸽
   - 虫宝包
 parallel_items:
+- type: heading
+  level: 2
+  original: 'Chapter 1: 17 Designers, 156 New Pokémon — Building an Ecosystem from Scratch'
+  translation: 第1章：17位设计师与156只全新宝可梦——从零构筑合众完整生态
 - speaker: 提问
   original: Today we’re meeting with all of the graphic designers, who can be considered the parents of Pokemon.  To start, please tell us how you are involved with the Pocket Monsters series.
   translation: 今天我们采访的是所有图形设计师，他们可以说是宝可梦的父母。首先，请告诉我们你们是如何参与《宝可梦》系列的。
@@ -72,11 +75,19 @@ parallel_items:
   original: Ibe and Tagami came on board at Game Freak when we were working on Pocket Monsters Platinum.  This is the first time they’ve made a game from scratch.
   translation: 井部和田上是在我们开发《宝可梦 白金》时加入Game Freak的。这是他们第一次从零开始制作游戏。
   note: Game Freak是宝可梦系列的主要开发商。
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/victini.png
+  caption: 比克提尼（Victini）：井部真那以切片苹果兔与胜利“V”手势为灵感设计的幻之宝可梦。
+  alt: 比克提尼官方立绘
 - speaker: 井部真那
   original: Right.  The Pokemon I was in charge of designing was Victini.  Aside from that, I designed about 10 other Pokemon.
   translation: 是的。我负责设计的宝可梦是比克提尼。除此之外，我还设计了大约10只其他宝可梦。
   note: 比克提尼是《宝可梦 黑／白》中的幻之宝可梦。
-- speaker: 田上怜子
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/pidove.png
+  caption: 豆豆鸽（Pidove）：取材于城市公园与广场中随处可见的鸽子。
+  alt: 豆豆鸽官方立绘
+- speaker: 田上玲子
   original: I designed Tsutaaja. After that, the Little Pigeon Pokemon Mamepato, and a Bug-type Pokemon called Kurumiru, for example.  I worked on about 10 Pokemon.
   translation: 我设计了藤藤蛇。之后，例如小鸽子宝可梦豆豆鸽，以及虫属性的虫宝包。我设计了大约10只宝可梦。
   note: 藤藤蛇是《宝可梦 黑／白》的初学者宝可梦之一。
@@ -84,10 +95,6 @@ parallel_items:
   original: Between the 4 of you are everything from veterans to newcomers, but how many designers worked on Pocket Monsters Black and White in total?
   translation: 你们四位中既有老手也有新人，那么总共有多少设计师参与了《宝可梦 黑／白》的开发？
   note: ''
-- type: image
-  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/victini.png
-  caption_original: Victini, designed by Mana Ibe with an 'apple rabbit' motif to represent victory.
-  caption_translation: '比克提尼：由井部真那以‘苹果兔’为原型设计，寓意胜利与无限能量，全国图鉴编号特殊设定为 #000。'
 - speaker: 杉森建
   original: 'There were 17 people total.  Each person designed about 10 Pokemon. [Note: 17x10 = 170!]'
   translation: 总共有17个人。每个人设计了大约10只宝可梦。[注：17x10 = 170！]
@@ -120,7 +127,7 @@ parallel_items:
   original: Right. She likes dogs.  The Pokemon designs are a collection of the individual designers’ emotional attachments.  That’s why I originally said, “Why don’t you draw the things you like?”
   translation: 对，她喜欢狗。宝可梦的设计是每位设计师个人情感寄托的集合。所以我最初才说：“你们为什么不画自己喜欢的东西呢？”
   note: ''
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: In my case, it’s bugs.  There really is an insect that wads up leaves, called an Otoshibumi.  I thought that behavior was fascinating, so I tried to design a Pokemon based on it.
   translation: 就我而言，是虫子。确实有一种昆虫会把叶子卷起来，叫做“坠文”。我觉得那种行为很有趣，所以试着设计了一只基于它的宝可梦。
   note: Otoshibumi 可能指卷叶象鼻虫，其卷叶行为类似书信，故得名“坠文”。
@@ -128,6 +135,22 @@ parallel_items:
   original: I looked at the lineup of Pokemon that everyone had submitted to me, and designed whatever was missing.  Piplup from Pocket Monsters Diamond and Pearl was embraced, and this time I was once again designing Water-type Pokemon.  Not to suggest that Water-types are my specialty.
   translation: 我看了大家提交给我的宝可梦阵容，然后设计了缺失的部分。《宝可梦 钻石／珍珠》中的波加曼广受好评，这次我又设计了水属性的宝可梦。这并不是说水属性是我的专长。
   note: ''
+- type: heading
+  level: 2
+  original: 'Chapter 2: The Genesis of the Unova Starters — Snivy, Tepig, and Oshawott'
+  translation: 第2章：合众御三家诞生秘话——藤藤蛇的傲岸、暖暖猪与水水獭的武士魂
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/snivy.png
+  caption: 藤藤蛇（Snivy）：田上玲子融合藤蔓与蛇类异质感设计的草系主角。
+  alt: 藤藤蛇官方立绘
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/tepig.png
+  caption: 暖暖猪（Tepig）：结合中式烤乳猪与可爱小猪特征的火系主角。
+  alt: 暖暖猪官方立绘
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/oshawott.png
+  caption: 水水獭（Oshawott）：大村祐介从海獭习性与和风贝壳小刀构想的水系主角。
+  alt: 水水獭官方立绘
 - speaker: 提问
   original: Mr. Oumura was Mijumaru, Mr. Tagami was Tsutaaja.  You designed the 3 Starter Pokemon.
   translation: 大村先生设计了水水獭，田上先生设计了藤藤蛇。你们设计了这三只初始宝可梦。
@@ -136,7 +159,7 @@ parallel_items:
   original: The 3 Starter Pokemon and the Legendary Pokemon were a lot of trouble.
   translation: 三只初始宝可梦和传说中的宝可梦费了不少功夫。
   note: ''
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: A lot of trouble.  I think of Tsutaaja all the time.
   translation: 确实费了不少功夫。我一直在想藤藤蛇。
   note: ''
@@ -144,15 +167,7 @@ parallel_items:
   original: 'Of course, it was determined that the 3 Starters would be Grass, Fire, and Water-type Pokemon.  We’ll combine the shared horror of our experiences up until now.  The Water-type and dog weren’t cute, the Grass-type and ??? looked scary [note: we''ll fix this sentence later]. (laughs).  This time, a designer who isn’t here presented the Fire-type as a pig, and Mr. Tagami  presented the Grass-type Pokemon as a snake.  I decided it was an interesting combination.'
   translation: 当然，三只初始宝可梦被确定为草、火、水属性。我们将结合至今为止的共同恐怖经历。水属性和狗不可爱，草属性和？？？看起来很吓人（笑）。这次，一位不在场的设计师把火属性设计成了猪，田上先生把草属性设计成了蛇。我觉得这是个有趣的组合。
   note: 原文中“??? ”可能指某种未明确的属性或宝可梦，此处保留原文。
-- type: image
-  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/snivy.png
-  caption_original: Snivy, designed by Reiko Tanoue based on a vine snake with European noble aesthetic.
-  caption_translation: 藤藤蛇：由田上怜子基于‘藤蔓蛇’构思，并融入艾尔米塔什博物馆等欧洲贵族艺术气质设计。
-- type: image
-  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/oshawott.png
-  caption_original: Oshawott, designed by Yusuke Ohmura after observing live sea otters at an aquarium.
-  caption_translation: 水水獭：由大村祐介在水族馆实地观察海獭后设计，腹部贝壳兼具日式扇贝与武士刀元素。
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: I was reading a picture book and it said, “There are snakes that look like vines.”  I said, “That’s it!” (laughs)  It was a hint at an idea.
   translation: 我在读一本图画书，上面写着“有看起来像藤蔓的蛇”。我说：“就是它了！”（笑）这给了我一个灵感。
   note: ''
@@ -160,7 +175,7 @@ parallel_items:
   original: I told him that snakes are discomforting.  “When you see the line entering its stomach, it’s creepy."
   translation: 我告诉他蛇会让人感到不适。“当你看到线条进入它的胃时，会觉得很恐怖。”
   note: ''
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: But being discomforting is a snake’s most important trait.  I was conscious of that with Tsutaaja as well.
   translation: 但令人不适正是蛇最重要的特征。我在设计藤藤蛇时也意识到了这一点。
   note: Tsutaaja是藤藤蛇的日文名。
@@ -176,7 +191,7 @@ parallel_items:
   original: Next we needed to give it a personality.  It will be boring if all 3 Starters have the same personality, so we pick a direction for the personality, such as Naughty or Gentle.  This time, the pig Pokemon was Naughty,  and it had a reckless feel.  Tsutaaja was aristocratic….for example like “The Rose of Versailles”. (laughs)
   translation: 接下来我们需要赋予它个性。如果三只初始宝可梦都有相同的个性会很无聊，所以我们会为个性选择一个方向，比如顽皮或温顺。这次，猪宝可梦是顽皮的，有种鲁莽的感觉。藤藤蛇则是贵族气质的……比如像《凡尔赛玫瑰》那样。（笑）
   note: 《凡尔赛玫瑰》是一部以法国大革命为背景的日本漫画，主角奥斯卡具有贵族气质。
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: I created an image like something out of an art museum.  Like the Hermitage Museum in Russia. (laughs)
   translation: 我创造了一个像艺术博物馆里出来的形象。比如俄罗斯的冬宫博物馆。（笑）
   note: 冬宫博物馆（Hermitage Museum）是俄罗斯圣彼得堡的著名艺术博物馆。
@@ -212,7 +227,7 @@ parallel_items:
   original: At the beginning of development, the entire team went to the zoo.  In this case it was the Tama Zoo that we visited. We each went our own way to watch the animals.  The mole exhibit was really interesting.  Tubes were connected through the ceiling, and the moles ran through them at incredible speeds.  I was shocked.
   translation: 在开发初期，整个团队去了动物园。这次我们去的是多摩动物园。我们各自分头去观察动物。鼹鼠展区非常有趣。管子连接在天花板上，鼹鼠在管子里以惊人的速度奔跑。我很震惊。
   note: 多摩动物园（Tama Zoo）是位于东京都日野市的多摩动物公园，以展示动物自然行为著称。
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: Usually I look at picture books and nature programs on television.  When I heard about Mr. Oomura’s trip to the aquarium, I also went to the zoo to observe the snakes.  But I watched the snakes for about 30 minutes, and they didn’t move at all. (laughs)
   translation: 通常我会看图画书和电视上的自然节目。当我听说大村先生去了水族馆，我也去了动物园观察蛇。但我看了大约30分钟，它们一动也不动。（笑）
   note: 大村先生指大村祐介，此处提到他去了水族馆。
@@ -228,7 +243,7 @@ parallel_items:
   original: Actually observing living animals, of course.  As the game’s development grew more hectic we couldn’t go out to research, but we’d come to understand how the animals moved, captured prey, etc., and that made drawing easier.
   translation: 当然是实际观察活的动物。随着游戏开发变得越来越繁忙，我们无法外出调研，但我们已经了解了动物如何移动、捕猎等，这让绘画变得更容易。
   note: ''
-- speaker: 田上怜子
+- speaker: 田上玲子
   original: When the development was hectic, I would reference the people walking around town.  People’s hairstyles and so on.  It was interesting. (laughs)
   translation: 当开发繁忙时，我会参考镇上行走的人们。人们的发型等等。这很有趣。（笑）
   note: ''
@@ -236,8 +251,11 @@ parallel_items:
   original: It’s as they said.  Many different things went into the Pokemon.  For example, with the Fire-type Pokemon, the pipes from furnaces and ironworks went into the shape of the body and the markings.  By tying different images together, new designs were born... [the rest of this interview will be translated and posted later].
   translation: 正如他们所说。宝可梦融入了许多不同的元素。例如，对于火属性的宝可梦，熔炉和铁厂的管道融入了身体形状和花纹。通过将不同的形象联系在一起，新的设计诞生了……【本访谈的其余部分将在稍后翻译并发布】。
   note: 此处提到的火属性宝可梦可能指小火龙等，其设计灵感可能来自工业元素。
-- type: image
-  image: /assets/img/interviews/2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers/sewaddle.png
-  caption_original: Sewaddle, designed by Reiko Tanoue inspired by tailoring insects.
-  caption_translation: 虫宝包：田上怜子凭借对昆虫习性的热爱，以会缝合树叶的卷叶象鼻虫为原型设计。
+interview_id: PKMN-0071
+subtitle: 2010年9月特刊·17人主力美术团队揭秘：比克提尼苹果兔造型、藤藤蛇傲岸贵族感、水水獭武士演进与全点阵呼吸动画
 ---
+
+
+
+
+

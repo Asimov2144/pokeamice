@@ -93,3 +93,14 @@ scan-prepared/
 # Editorial progress for the workflow board; shared between the board and
 # anything driving the pipeline through /api/workflow-state, machine-local.
 .workflow-state/
+
+# Local temporary directories and caches
+._site*
+.local-backup*
+.codex-build*
+scratch/
+.jid
+.outdir
+.publish-state
+.tok
+continue-vol32-regions.json

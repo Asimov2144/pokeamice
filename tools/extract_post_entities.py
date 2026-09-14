@@ -44,6 +44,7 @@ KINDS = ("people", "works", "organizations", "events")
 # the series, so they are asserted rather than inferred.
 SERIES_FACTS = {
     "gamefreak_director_column": {"people": ["增田顺一"], "organizations": ["Game Freak"]},
+    "gamefreak_masuda_lineblog": {"people": ["增田顺一"], "organizations": ["Game Freak", "LINE BLOG"]},
     "gamefreak_legacy_blog": {"organizations": ["Game Freak"]},
 }
 

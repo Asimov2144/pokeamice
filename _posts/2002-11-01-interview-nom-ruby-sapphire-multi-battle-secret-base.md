@@ -7,7 +7,9 @@ era_skin: '2003'
 source_name: 任天堂官网「N.O.M」(No.52)
 source_url: https://web.archive.org/web/20221026123518/https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
 original_link: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
-summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号的实地探秘与高层专访合辑！编辑部在《红宝石·蓝宝石》发售日前夕潜入株式会社宝可梦（The Pokémon Company）总部，亲测GBA 4人连接线2v2协同对战（Multi Battle）的临场震撼；解密野外开凿‘秘密基地’、地毯玩偶装饰以及通过宝可梦中心2楼‘记录角落’（Record Corner）让朋友的基地无缝跨卡带复制投射到自己世界的大互联网络！在专访中，执行制作人石原恒和深度阐述了统括游戏、卡牌、动画与周边的全域生态长青战略，并独家揭秘自己在丰缘地区最喜爱的宝可梦正是大嘴鸥！
+summary: 刊登于任天堂官方Web杂志《N.O.M》2002年11月号的实地探秘与高层专访合辑！编辑部在《红宝石·蓝宝石》发售日前夕潜入株式会社宝可梦（The
+  Pokémon Company）总部，亲测GBA 4人连接线2v2协同对战（Multi Battle）的临场震撼；解密野外开凿‘秘密基地’、地毯玩偶装饰以及通过宝可梦中心2楼‘记录角落’（Record
+  Corner）让朋友的基地无缝跨卡带复制投射到自己世界的大互联网络！在专访中，执行制作人石原恒和深度阐述了统括游戏、卡牌、动画与周边的全域生态长青战略，并独家揭秘自己在丰缘地区最喜爱的宝可梦正是大嘴鸥！
 entities:
   people:
   - 石原 恒和
@@ -27,10 +29,6 @@ parallel_items:
   original: 本作で最も注目される革新は、ついに実現した4人でのマルチバトル、そしてフィールドに秘密基地を作り、家具を配置できるという点だろう。発売日前夜、N.O.M編集部は株式会社ポケモン本社に潜入し、この2つの画期的な新要素を先行体験してきた！
   translation: 本作最受瞩目的革新，莫过于终于实现的4人联机对战（マルチバトル），以及可以在野外开辟、布置家具的‘秘密基地’。在发售日前夕，N.O.M编辑部潜入株式会社宝可梦总部，提前体验了这两项颠覆性新要素！
   note: マルチバトル即双打对战，指2对2的团队战；秘密基地是玩家在野外特定地点使用技能开辟的私人空间，可布置家具。
-- type: image
-  image: /assets/img/interviews/2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base/taisen.jpg
-  caption_original: GBAを4台つないで2対2のマルチバトルを体験するN.O.M取材班。
-  caption_translation: N.O.M采访团队在株式会社宝可梦总部使用4台GBA连接线展开2对2实机对战。
 - type: dialogue
   speaker: 实机体验报告
   original: 専用通信ケーブルでGBAを4台接続し、ポケモンセンター2階のコロシアムへ。皆でチーム分けを相談し、席に着いたら即バトル開始。いつでも交代してパートナーを変えられるので、操作は非常に直感的で明快だ！
@@ -62,47 +60,47 @@ parallel_items:
   translation: === 执行制作人专访：石原恒和谈跨媒体生态与最爱怪兽大嘴鸥 ===
   note: ''
 - type: dialogue
-  speaker: N.O.M 采访者
+  speaker: N.O.M采访者
   original: 石原さんはエグゼクティブプロデューサーとして、普段どのようなマクロな仕事を担当されているのですか？
   translation: 石原先生作为执行制作人，平时都在负责哪些宏观工作呢？
   note: ''
 - type: dialogue
-  speaker: 石原 恒和
+  speaker: 石原恒和
   original: 私は常に「ポケモンがどのようにすれば長く愛され、遊び続けられるか」を考えています。それはGBAやNGCのゲームソフト開発だけでなく、ポケモンカード、TVアニメ、劇場版映画、そして手元に置いておきたくなるようなフィギュアなどのホビー商品にも及びます。これらの多様なポケモンの遊びが互いにつながり、連動することで、世界観はこれまでにないほど深く、面白くなると確信しています。
   translation: 我一直在思考：“要怎么做，才能让宝可梦能够长长久久地被所有人喜爱和游玩？”这不仅涵盖GBA与NGC上的游戏软件开发，还包括宝可梦卡牌、TV动画、剧场版电影，乃至让人忍不住想收藏的实体手办周边。我坚信，当这些形形色色的宝可梦游玩方式相互串联、互相联动时，整个世界观就会变得前所未有地深邃与有趣。
   note: ''
 - type: dialogue
-  speaker: N.O.M 采访者
+  speaker: N.O.M采访者
   original: 株式会社ポケモンはどのような会社なのでしょうか？
   translation: 株式会社宝可梦是一家怎样的公司呢？
   note: ''
-- type: image
-  image: /assets/img/interviews/2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base/pelipper.png
-  caption_original: 石原恒和氏が一番のお気に入りと明かしたホウエン地方のポケモン・ペリッパー。
-  caption_translation: 石原恒和在专访中揭秘自己全游戏最钟爱的丰缘宝可梦——大嘴鸥。
 - type: dialogue
-  speaker: 石原 恒和
+  speaker: 石原恒和
   original: 私たちは、上記のようなブランド統括を全世界で展開するために設立された会社です。今回の『ルビー・サファイア』では、販売元として任天堂と緊密に連携しつつ、皆様の手元に作品をお届けし、またポケモンセンターの運営やカード大会なども行っています。
   translation: 我们正是为了在全世界开展上述品牌统括业务而设立的公司。在这次《红宝石·蓝宝石》中，我们作为发行方与任天堂紧密携手将作品送到各位手中，同时还运营宝可梦中心专卖店与卡牌赛事。
   note: ''
 - type: dialogue
-  speaker: N.O.M 采访者
+  speaker: N.O.M采访者
   original: 『ルビー・サファイア』の新ポケモンの中で、石原さんが一番好きなのはどのポケモンですか？
   translation: 在《红宝石·蓝宝石》所有新宝可梦中，石原先生最喜欢的究竟是哪一只？
   note: ''
 - type: dialogue
-  speaker: 石原 恒和
+  speaker: 石原恒和
   original: ペリッパーだよ！あの大きな口がなんとも愛らしくて、いろんなものを詰め込めるのが魅力だね！
   translation: 是‘大嘴鸥’！它那憨厚巨大、能把很多东西塞进去的大嘴巴实在太有魅力了！
   note: 大嘴鸥（ペリッパー）是丰缘地区的水系/飞行系宝可梦，以其标志性的大嘴和储水袋闻名。
 - type: dialogue
-  speaker: N.O.M 采访者
+  speaker: N.O.M采访者
   original: 最後に、発売を待つ全国のプレイヤーに一言お願いします！
   translation: 最后，请对全日本期待发售的玩家们送上一句寄语！
   note: ''
 - type: dialogue
-  speaker: 石原 恒和
+  speaker: 石原恒和
   original: 『ルビー・サファイア』がもうすぐ発売されます。ポケモンの世界は新たなホウエン地方で新たな物語を紡ぎます。初めてポケモンに触れる方も、これまで一緒に歩んできた方も、ぜひこの大きな冒険を心から楽しみにしていてください！
   translation: 《红宝石·蓝宝石》即将发售，宝可梦的世界将在全新的丰缘地区展开全新的篇章。不管是初次接触宝可梦的新朋友，还是一直陪伴至今的老玩家，都请全心期待这趟宏大的全新旅程吧！
   note: 丰缘地区（ホウエン地方）是《红宝石·蓝宝石》的舞台，以九州为原型，融合了陆地与海洋的生态。
+interviewee: N.O.M采访者, 【章节导览】, 实机体验报告, 石原恒和
+source:
+  title: 任天堂官网「N.O.M」(No.52)
+  url: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
 ---

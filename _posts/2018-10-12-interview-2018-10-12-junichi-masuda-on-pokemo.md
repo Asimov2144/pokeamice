@@ -43,9 +43,6 @@ original_link: https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-p
 translator: Poke Amice Studio
 interviewee: 名手工作, 增田顺一, 宝可梦官方PR
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2018-10-12-2018-10-12-junichi-masuda-on-pokemo/img_01.jpg
-  caption: 专访配图
 - type: paragraph
   original: Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series' future | Eurogamer.net
   translation: 增田顺一谈《宝可梦 Let's Go》的难度、机制与系列未来 | Eurogamer.net
@@ -272,7 +269,9 @@ parallel_items:
   original: '"It was like being back in 2016" Pokémon Go celebrates 10th anniversary by recreating the original trailer''s Times Square Mewtwo raid'
   translation: “就像回到了2016年”《Pokémon GO》通过重现原版预告片中的时代广场超梦团战来庆祝10周年
   note: 《Pokémon GO》于2016年发布，2026年是其10周年。
-- type: image
-  image: /assets/img/interviews/2018-10-12-2018-10-12-junichi-masuda-on-pokemo/img_02.jpg
-  caption: Chris Tapsell avatar
 ---
+
+
+
+
+

@@ -221,7 +221,7 @@ layout: default
           </header>
           {% for item in items %}
             {% assign item_type = item.type | default: "paragraph" %}
-            {% if item_type == "heading" %}
+            {% if item_type == "heading" or item_type == "section" %}
               {% assign heading_level = item.level | default: 2 | plus: 0 %}
               {% if heading_level < 2 %}{% assign heading_level = 2 %}{% endif %}
               {% if heading_level > 4 %}{% assign heading_level = 4 %}{% endif %}
@@ -400,7 +400,7 @@ layout: default
             <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
             <ul class="toc__menu">
               {% for item in items %}
-                {% if item.type == "heading" %}
+                {% if item.type == "heading" or item.type == "section" %}
                   {% assign heading_text = item.translation | default: item.title | default: item.original %}
                   <li><a href="#section-{{ forloop.index }}">{{ heading_text }}</a></li>
                 {% endif %}

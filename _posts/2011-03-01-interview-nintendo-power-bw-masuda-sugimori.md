@@ -9,7 +9,7 @@ publication: Nintendo Power 杂志第 265 期
 source_kind: magazine
 author: Nintendo Power (Steve Thomason)
 translator: Poke Amice Studio
-interviewee: 增田顺一, 杉森建
+interviewee: Dr. Lava, 增田顺一, 杉森建
 toc: true
 toc_sticky: true
 parallel_view: translation
@@ -41,10 +41,6 @@ entities:
   games:
   - 宝可梦 黑·白
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/hero_bw_masuda_sugimori.png
-  alt: 增田顺一与杉森建在《宝可梦 黑·白》开发期间
-  caption: 任天堂力量专访：增田顺一与杉森建谈《黑·白》的理念重塑与全新合众宝可梦
 - type: heading
   level: 2
   original: Breeding the Fifth
@@ -81,6 +77,7 @@ parallel_items:
   original: 'Dr Lava’s notes: It’s worth noting, in a July 2000 interview with Nintendo Power, Masuda said the team that worked on Gold & Silver was only about 20 developers. Here he says about 70 people worked on Black & White — a substantial increase in manpower between generations 2 and 5.'
   translation: 熔岩博士的注释：值得注意的是，在2000年7月接受《Nintendo Power》采访时，增田表示参与《金／银》开发的团队只有大约20名开发者。而这里他说《黑／白》约有70人参与——从第二世代到第五世代，人力大幅增加。
   note: 熔岩博士（Dr. Lava）是宝可梦历史研究者的网名。
+  type: note
 - speaker: 提问
   original: Can you walk us through the history of the game, and what inspired its new features?
   translation: 你能带我们回顾一下这款游戏的历史，以及新功能的灵感来源吗？
@@ -153,19 +150,19 @@ parallel_items:
   original: '“In terms of how we decide which ones make the cut…hmmm. Well, in the games, Pokemon serve two roles. They fight for you, but they’re also your companions. So a Pokemon needs to seem ferocious enough to be potent in combat, while also looking endearing enough that you’d want it as a friend. It can’t be too ferocious. It’s difficult to strike that balance, so that’s probably the biggest criteria we’re looking for. Another is simply suiting the needs of the game: we know we’ll need a certain amount of Water-type Pokemon, and a certain amount of Flying-type Pokemon, and so on. If the designers submit too many birds, then some of them have to be cut, even if they’re great designs.”'
   translation: “至于如何决定哪些入选……嗯。在游戏中，宝可梦扮演两个角色。它们为你战斗，但也是你的伙伴。所以宝可梦需要看起来足够凶猛以在战斗中强大，同时也要看起来足够可爱让你想把它当作朋友。它不能太凶猛。要取得这种平衡很难，所以这可能是我们最看重的标准。另一个标准就是单纯地满足游戏需求：我们知道我们需要一定数量的水属性宝可梦、一定数量的飞行属性宝可梦等等。如果设计师提交了太多鸟类，那么即使设计很棒，有些也不得不被砍掉。”
   note: ''
-- speaker: Dr Lava
+- speaker: Dr. Lava
   original: 'Dr Lava’s notes: That’s quite a revelation — only a third of the Pokemon designed in Gen 5 made it into the final product. Since the Unovadex was made up of 156 new Pokemon, it sounds like Sugimori’s team must have submitted 400-500 designs for his approval. That sounds similar to what Sugimori said in a July 2000 interview in Nintendo Power: “We came up with several hundred new Pokémon [for Gen 2], but most of them got cut during development.”'
   translation: Dr Lava的注释：这真是个大爆料——第五世代设计的宝可梦中只有三分之一进入了最终成品。由于合众图鉴包含156只新宝可梦，听起来杉森建的团队一定提交了400到500个设计供他审批。这与杉森建在2000年7月《Nintendo Power》采访中所说的相似：“我们为第二世代想出了几百只新宝可梦，但大多数在开发过程中被砍掉了。”
   note: Dr Lava是宝可梦历史考据博主，此处为他的注释。
-- speaker: Dr Lava
+- speaker: Dr. Lava
   original: In a series of 2011 interviews with Nintendo Dream magazine — the Japanese equivalent of Nintendo Power — Ken Sugimori described quite a few Pokemon scrapped during Gen 5’s development. I’ve summarized and analyzed those interviews’ highlights in this video.
   translation: 在2011年与《Nintendo Dream》杂志（日本版《Nintendo Power》）的一系列采访中，杉森建描述了第五世代开发期间被废弃的不少宝可梦。我在这个视频中总结并分析了这些采访的亮点。
   note: ''
-- speaker: Dr Lava
+- speaker: Dr. Lava
   original: But I suppose this raises the question — what should be classified as a “lost Pokemon”? I think we all agree the unused sprites in Gold & Silver’s 1997 demo are lost Pokemon. So is it when Sugimori approves a monster, then it’s discarded later in development? Is it only after it’s given a sprite, or that sprite is programmed into some sort of demo or beta build? That’s a question that deserves its own article, and at the end of the day, probably comes down to your own opinion.
   translation: 但我想这引出了一个问题——什么应该被归类为“失落的宝可梦”？我想我们都同意《金／银》1997年演示中未使用的精灵图是失落的宝可梦。那么，是当杉森建批准一只宝可梦，但后来在开发中被丢弃时算吗？还是只有在它被赋予精灵图，或者该精灵图被编程到某个演示或测试版本中才算？这个问题值得单独写一篇文章，而归根结底，可能取决于你自己的看法。
   note: ''
-- speaker: Dr Lava
+- speaker: Dr. Lava
   original: As Sugimori alluded to in his above quote, at this point he’d been the artist responsible for every Pokemon’s official artwork since Gen 1. It seems this finalized art is only drafted after a Pokemon’s made the final cut and has its sprite programmed into the game. That’s why in earlier generations, Pokemon sprites sometimes don’t perfectly match their official art. Because Sugimori made some revisions to those designs while drafting their official artwork — after the sprite was already finalized. You can see a couple examples pictured above.
   translation: 正如杉森建在上面的引文中提到的，从第一世代起，他就一直是负责每只宝可梦官方艺术图的画师。似乎这些最终艺术图是在宝可梦最终入选并将其精灵图编程到游戏之后才绘制的。这就是为什么在早期世代中，宝可梦的精灵图有时与官方艺术图不完全匹配。因为杉森建在绘制官方艺术图时对设计做了一些修改——而那时精灵图已经定稿了。你可以在上面看到几个例子。
   note: ''
@@ -185,7 +182,7 @@ parallel_items:
   original: “[Laughs] I think one of the joys of Pokemon is being able to use your favorite Pokemon from the Blue and Red Versions all the way through to the newest iterations. So no, I don’t think we can do that.”
   translation: “[笑] 我认为宝可梦的乐趣之一就是能够使用你最喜欢的宝可梦，从《蓝／红》版本一直到最新的作品。所以不，我认为我们不能那样做。”
   note: ''
-- speaker: Dr Lava
+- speaker: Dr. Lava
   original: 'Dr Lava’s notes: Considering the backlash following Game Freak’s announcement that only about half the Pokedex was going to make its way into Sword & Shield, I think it’s safe to assume a good chunk of the Pokemon fanbase agrees with this 2010 Masuda quote. Pokemon is a very nostalgic franchise for many of its fans, and having some of their favorite Pokemon cut from Gen 8 rubbed a lot of them the wrong way.'
   translation: Dr Lava的注释：考虑到GAME FREAK宣布只有大约一半的图鉴宝可梦会出现在《剑／盾》中后引发的强烈反对，我认为可以肯定地说，相当一部分宝可梦粉丝同意增田顺一2010年的这段话。宝可梦对许多粉丝来说是一个非常怀旧的系列，而一些他们最喜欢的宝可梦被从第八世代中移除，这让很多人感到不满。
   note: ''
@@ -262,10 +259,6 @@ parallel_items:
   translation: • 白银支持者：Austin Elliot、Ben Lander、Cody Renton、Dan Attra、Dominik Bender、Elvin Alfonso、Evan Miller、FifthDream、HelpMePlease、Jacky H、Jade M、Jason White、Joey Keilholz、Jonathan Henn、Klotzzilla、Leo Espinoza、Maximilian Kwiatkowski、Nathan Labourdette、Patrick Hood、Paper Wings、Robert Oberlies、Shelby、Slugabed、Znub
   note: ''
 - speaker: ''
-  original: 'Related Articles:'
-  translation: 相关文章：
-  note: ''
-- speaker: ''
   original: '• Gen 5 Historia: Pokemon Origin Stories (Part 1)'
   translation: • 第五世代历史：宝可梦起源故事（第一部分）
   note: ''
@@ -282,3 +275,9 @@ parallel_items:
   original: Continue Reading
   translation: 继续阅读
 ---
+
+
+
+
+
+

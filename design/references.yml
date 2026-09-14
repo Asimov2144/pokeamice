@@ -1,0 +1,359 @@
+references:
+- id: early-1999-pokemon-world
+  year: 1999
+  era: 01 Early Web
+  site: Pokémon World
+  type: Official portal
+  image: null
+  source: https://www.webdesignmuseum.org/gallery/pokemon-world-in-1999
+  source_kind: archival gallery
+  priority: CORE
+  layout: 固定窄幅三栏：左侧目录 / 中央新闻 / 右侧 Pokédex
+  navigation: 大量常驻文本按钮，目录本身就是站点地图
+  visual: 高饱和黄、重复纹理、1px 边框、链接蓝、小型角色插图
+  pokemon_usage: Pikachu、Charizard、Pokédex 直接承担导航与栏目识别
+  reuse: Era Masthead、旧网页式 Index、1px divider、source metadata、小型 NEW 标识
+  avoid: 不要复制小字号、重复背景覆盖正文、过量 GIF/闪烁效果
+  lesson: 早期 Pokémon Web 的关键不是像素，而是“网页是一座可以探索的目录”。
+  tags:
+  - portal
+  - 3-column
+  - index
+  - pokedex
+  - pattern
+- id: portal-2002-pokemon-com
+  year: 2002
+  era: 02 Portal / GBA
+  site: Pokémon.com
+  type: Official portal
+  image: https://www.webdesignmuseum.org/uploaded/fullscreen/pokemon-2002.png
+  source: https://www.webdesignmuseum.org/gallery/pokemon-2002
+  source_kind: archival gallery
+  priority: CORE
+  layout: 左侧纵向导航 + 大主视觉 + 规则化内容格
+  navigation: Pokédex / Games / Card / TV / Movies 等品牌入口并列
+  visual: 红色主舞台、黄色侧栏、圆角容器开始出现，但仍有明显硬边框
+  pokemon_usage: 角色图成为栏目入口与广告视觉，不只作为装饰
+  reuse: Docs 首页 Portal 模式、Era Header、系列入口卡、顶部产品/来源 banner
+  avoid: 正文不要使用整页高饱和红黄
+  lesson: Pokémon 官网从“网页目录”开始转向“品牌门户”。
+  tags:
+  - portal
+  - grid
+  - banner
+  - brand
+- id: community-2003-serebii
+  year: 2003
+  era: 02 Portal / GBA
+  site: Serebii.net
+  type: Community news / database
+  image: https://johtotimes.com/web/images/serebiinets-layout-from-december-2003.png
+  source: https://johtotimes.com/posts/2024-07-18-interview-with-serebii-net
+  source_kind: historical interview / reproduced screenshot
+  priority: CORE
+  layout: 三栏高密度信息页：左侧巨大目录，中间更新流，右侧最近内容
+  navigation: 分类极多，但层级稳定；站点依靠长期一致的栏目位置形成肌肉记忆
+  visual: 深色正文 + 绿色栏目条 + 很少留白
+  pokemon_usage: Celebi 是站点身份，内容本身比品牌装饰更重要
+  reuse: PokeAmice 的 Archive Index、密集资料目录、Recent / Related 区域
+  avoid: 不要把这种密度搬进访谈正文
+  lesson: 社区站的价值在“稳定、高密度、每天都能回来找东西”，不是现代品牌感。
+  tags:
+  - community
+  - dense
+  - news
+  - sidebar
+- id: play-2004-daisuki
+  year: 2004
+  era: 02 Portal / GBA
+  site: Pokémon Daisuki Club
+  type: Official fan community
+  image: https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/137c2e56abfb6fa76b855b3b722eb9f5a530f0ad.jpg
+  source: https://corporate.pokemon.co.jp/en/topics/detail/t-44/
+  source_kind: first-party retrospective
+  priority: CORE
+  layout: 场景插图 + 个人状态 + 新闻/游戏模块
+  navigation: 按钮、角色与任务入口混合；页面有明显“进入 Pokémon 世界”的入口感
+  visual: 森林场景、明亮色块、角色聚集、儿童互联网语汇
+  pokemon_usage: Pokémon 是“陪伴者/引导者”，而不是背景贴纸
+  reuse: 轻量 Discovery 元素、人物/宝可梦作为相关内容入口、页边提示
+  avoid: 访谈页不要真的做成儿童游戏界面
+  lesson: Pokémon 特有的沉浸感来自“角色陪你找东西”。
+  tags:
+  - community
+  - play
+  - character-guide
+  - scene
+- id: play-2005-summer
+  year: 2005
+  era: 02 Portal / GBA
+  site: Daisuki Club — Summer Vacation Challenge
+  type: Official campaign / interactive
+  image: https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/855494d08f27e9d417db091703c2887e6f5de8e0.jpg
+  source: https://corporate.pokemon.co.jp/en/topics/detail/t-44/
+  source_kind: first-party retrospective
+  priority: CORE
+  layout: 整页场景化：岛屿/海岸即导航舞台
+  navigation: 木牌、箭头、角色、任务文本共同完成导航
+  visual: 强插画、立体按钮、拟物标牌、活动 LOGO
+  pokemon_usage: 角色位置本身暗示可互动区域
+  reuse: 章节间的轻型“路标”语言、Archive Trail、下一份档案入口
+  avoid: 不要加入假小游戏、积分、奖励系统来制造沉浸
+  lesson: DS 前夜的 Pokémon Web 把“Menu”改写成了“Adventure Route”。
+  tags:
+  - campaign
+  - map-nav
+  - signpost
+  - adventure
+- id: game-2006-dp
+  year: 2006
+  era: 03 DS / Play Web
+  site: Pokémon Diamond / Pearl Official Site
+  type: Game microsite
+  image: https://livedoor.blogimg.jp/poke00/imgs/f/1/f199f948.gif
+  source: https://blog.livedoor.jp/poke00/archives/50827453.html
+  source_kind: secondary reproduction
+  priority: SECONDARY
+  layout: 大顶图 + 左侧 News + 中央互动区 + What's New
+  navigation: 页面首页同时承担宣传、更新与互动入口
+  visual: 浅蓝框、圆角小面板、动态主视觉、贴纸式 NEW
+  pokemon_usage: Electivire 等角色直接驻留在栏目边缘，加强场景感
+  reuse: 2006–09 Era 的 panel radius、NEW badge、source strip、模块标题条
+  avoid: 不要复刻 Flash 区域和大面积动画
+  lesson: “新作官网”开始从静态宣传册变成持续更新的活动中心。
+  tags:
+  - game
+  - microsite
+  - news
+  - interactive
+- id: knowledge-2006-bulbapedia
+  year: 2006
+  era: 03 DS / Play Web
+  site: Bulbapedia
+  type: Community knowledge base
+  image: https://archives.bulbagarden.net/media/upload/2/2c/Bulbapedia_20060401.png
+  source: https://bulbapedia.bulbagarden.net/wiki/File:Bulbapedia_20060401.png
+  source_kind: archived screenshot
+  priority: CORE
+  layout: MediaWiki 左侧工具栏 + 大型内容索引区
+  navigation: 分类、索引、维护任务、当前事件并列
+  visual: 几乎无装饰；蓝链接、细线、淡色信息盒
+  pokemon_usage: 品牌只在 Logo，内容结构完全知识库化
+  reuse: Docs 的研究模式、索引、实体页、引用/校对工具
+  avoid: 不要让 Wiki 逻辑成为访谈默认阅读逻辑
+  lesson: 这是“资料站”与“阅读页”必须拆开的最好反例/正例：找资料优秀，沉浸阅读并不适合。
+  tags:
+  - wiki
+  - knowledge
+  - index
+  - research
+- id: commerce-2008-center
+  year: 2008
+  era: 03 DS / Play Web
+  site: PokémonCenter.com
+  type: Official commerce
+  image: https://archives.bulbagarden.net/media/upload/6/6f/Pok%C3%A9mon_Center_online.png
+  source: https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Center_online.png
+  source_kind: archived screenshot
+  priority: SECONDARY
+  layout: 顶部分类导航 + 主公告 + 商品格 + 右侧账户/搜索
+  navigation: 分类、搜索、账户、购物车各司其职
+  visual: 圆角容器、分类色、浅蓝背景、商品陈列
+  pokemon_usage: 角色主图用来分区和建立购买情绪
+  reuse: 杂志/扫描“陈列感”、分类色、Archive Shelf
+  avoid: 访谈页不要卡片化每一段
+  lesson: 收藏型内容适合借鉴商品陈列逻辑，但文章正文不适合。
+  tags:
+  - commerce
+  - catalog
+  - cards
+  - collection
+- id: portal-2010-pokemon
+  year: 2010
+  era: 04 Connected Web
+  site: Pokémon.com
+  type: Official portal
+  image: https://www.webdesignmuseum.org/uploaded/fullscreen/2010/pokemon-2010.jpg
+  source: https://www.webdesignmuseum.org/gallery/pokemon-in-2010
+  source_kind: archival gallery
+  priority: CORE
+  layout: 顶部 Tab + 大媒体区 + 彩色功能 tile + 右侧内容列
+  navigation: 主分类减少但更强；每类下有可玩的内容
+  visual: Web 2.0 圆角、渐变、光泽按钮、模块化 tile
+  pokemon_usage: Pokédex、小游戏、动画、TCG 各自拥有独立模块语言
+  reuse: 2010–12 的 tab、module title、轻 dashboard、状态 badge
+  avoid: 不要复刻厚重渐变与光泽按钮
+  lesson: 2010 左右是从 Portal 向 Service Dashboard 过渡的关键节点。
+  tags:
+  - portal
+  - web2
+  - tiles
+  - tabs
+- id: service-2011-pgl
+  year: 2011
+  era: 04 Connected Web
+  site: Pokémon Global Link
+  type: Official connected service
+  image: https://archives.bulbagarden.net/media/upload/7/76/PGL_Website_April_2011_Update.png
+  source: https://bulbapedia.bulbagarden.net/wiki/File:PGL_Website_April_2011_Update.png
+  source_kind: archived screenshot
+  priority: CORE
+  layout: 左侧个人状态 + 中央地图/数据 + 底部服务入口 + 顶部全局导航
+  navigation: 账户、Dream World、Battle、Mail、Customize 都是“系统功能”
+  visual: 黑灰框架、状态卡、图表、世界地图、服务型按钮
+  pokemon_usage: Pokémon 与玩家数据绑定，角色不再只是广告图
+  reuse: 2010–12 Archive Record、人物/游戏实体关联、metadata dashboard
+  avoid: 正文绝不进入 Dashboard
+  lesson: PGL 的核心设计理念是：网页已经成为游戏世界的一部分。
+  tags:
+  - service
+  - dashboard
+  - profile
+  - connected
+- id: editorial-2012-daisuki
+  year: 2012
+  era: 04 Connected Web
+  site: Pokémon Daisuki Club — 2012 redesign
+  type: Official editorial / open site
+  image: https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/9345a460c5aaa48d6417a43f17de314e04db39ca.jpg
+  source: https://corporate.pokemon.co.jp/en/topics/detail/t-44/
+  source_kind: first-party retrospective
+  priority: CORE
+  layout: 横向杂志式内容卡 + 大面积天空/草地背景
+  navigation: 内容以横向滑动/连续陈列的方式被发现
+  visual: 卡片更大、更少边框、白色内容面、背景承担品牌氛围
+  pokemon_usage: 底部角色群像把“内容平台”重新连接到 Pokémon 世界
+  reuse: Docs 首页 timeline / archive carousel、杂志内容地图
+  avoid: 长篇正文不要横向滚动
+  lesson: 这是从封闭社区到开放 Editorial Media 的重要转折。
+  tags:
+  - editorial
+  - horizontal
+  - magazine
+  - open
+- id: character-2014-yadon
+  year: 2014
+  era: 05 Editorial Web
+  site: Slowpoke Paradise / ヤドンパラダイス
+  type: Character microsite
+  image: https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/337217501103bc86a78daff0ec321b66cda8b877.jpg
+  source: https://corporate.pokemon.co.jp/en/topics/detail/t-44/
+  source_kind: first-party retrospective
+  priority: SECONDARY
+  layout: 单一角色大 Hero + 极少导航 + 世界观背景
+  navigation: 围绕角色主题内容，而不是围绕企业栏目
+  visual: 手绘插画、沙滩、音乐符号、超大角色主视觉
+  pokemon_usage: 一只 Pokémon 就是整个站的视觉人格
+  reuse: 人物/宝可梦实体页的 accent、专题页，不适合作为通用访谈模板
+  avoid: 不要让每篇访谈都绑定一只 Pokémon mascot
+  lesson: 现代 Pokémon 网页越来越敢于“少说一点，让角色本身建立气氛”。
+  tags:
+  - character
+  - microsite
+  - hero
+  - editorial
+- id: community-2015-pokebeach
+  year: 2015
+  era: 05 Editorial Web
+  site: PokéBeach
+  type: Community forum / news
+  image: https://www.pokebeach.com/news/0515/forums.jpg
+  source: https://www.pokebeach.com/2015/05/welcome-to-the-new-pokebeach
+  source_kind: first-party community post
+  priority: CONTRAST
+  layout: 大品牌头图 + 常规水平导航 + 论坛分区卡
+  navigation: 社区功能已进入成熟论坛信息架构
+  visual: 比早期社区站更宽、更有留白，仍保留强烈站点个性
+  pokemon_usage: 品牌插图主要集中在 header，内容区更克制
+  reuse: 社区/投稿入口、分区页面、讨论区，而非访谈正文
+  avoid: 不要把论坛卡片结构当成文章结构
+  lesson: 社区站现代化后依然可以保留长年形成的身份，而不必变成官方品牌站。
+  tags:
+  - community
+  - forum
+  - modernized
+  - identity
+- id: service-2016-pgl
+  year: 2016
+  era: 05 Editorial Web
+  site: Pokémon Global Link — Sun / Moon
+  type: Official connected service
+  image: https://www.pokemon-sunmoon-cn.com/sc/common/images/fight/161004_02/img_01.png
+  source: https://www.pokemon-sunmoon-cn.com/sc/fight/161004_02.html
+  source_kind: official regional site
+  priority: SECONDARY
+  layout: 三栏 Dashboard：功能菜单 / News+统计 / Calendar+Ranking
+  navigation: 账户功能比品牌导航更重要
+  visual: 更扁平、更轻、橙色侧栏、白底内容卡
+  pokemon_usage: Pokémon 出现在任务、奖励与战绩语境中
+  reuse: Research mode、状态字段、筛选/排行等数据页面
+  avoid: 不要把数据卡塞进阅读层
+  lesson: 2016 的 PGL 已从 Web 2.0 视觉转向更清晰的应用界面。
+  tags:
+  - service
+  - dashboard
+  - flat
+  - data
+- id: microsite-2019-sword-shield
+  year: 2019
+  era: 06 Switch Microsite
+  site: Pokémon Sword / Shield Official Site
+  type: Game microsite
+  image: https://gamershi.com/uploads/image613454dddd.png
+  source: https://www.pokemon.co.jp/ex/sword_shield/
+  source_kind: official site (screenshot reproduced by third party)
+  priority: CORE
+  layout: 全宽 Hero + 极简顶栏 + 下方卡片式 Topics
+  navigation: Story / System / Pokémon / Character 等减少到少数主入口
+  visual: 作品世界图像占主导，UI chrome 大幅退场
+  pokemon_usage: Zacian / Zamazenta 与 Galar 景观直接构成页面舞台
+  reuse: 2017–21 的大图标题、章节 lead、版本双色 accent
+  avoid: 访谈页不要首屏占满整屏 Hero
+  lesson: Switch 时代的官方站不再靠按钮证明“这是 Pokémon”，而靠世界观本身。
+  tags:
+  - game
+  - hero
+  - region
+  - minimal-nav
+- id: microsite-2021-unite
+  year: 2021
+  era: 06 Switch Microsite
+  site: Pokémon UNITE
+  type: Game / service microsite
+  image: https://image.itmedia.co.jp/news/articles/2106/24/l_ts0153_unite03.jpg
+  source: https://www.pokemonunite.jp/
+  source_kind: official site (screenshot reproduced by press)
+  priority: CONTRAST
+  layout: 斜切大 Hero + 顶部细导航 + TOPICS 纵向内容
+  navigation: 功能标签非常少，页面更像现代产品 Landing
+  visual: 斜线、运动感、白底、大量图像
+  pokemon_usage: 战斗动作直接成为版式方向性
+  reuse: 活动页/赛事页可借鉴动势与大图，但不适合历史访谈默认页
+  avoid: 不要把强运动视觉应用到历史档案
+  lesson: 现代 Pokémon 产品站越来越接近标准高质量产品 Landing Page。
+  tags:
+  - game
+  - landing
+  - dynamic
+  - modern
+- id: modern-2026-official
+  year: 2026
+  era: 07 Modern Archive
+  site: Pokémon Official Website — refreshed design
+  type: Official portal
+  image: https://ph.portal-pokemon.com/images/37d415bc59f60c63b8177f78e20f5666.jpg
+  source: https://ph.portal-pokemon.com/topics/post-4518/
+  source_kind: official regional article
+  priority: CORE
+  layout: 轻量顶栏 + 大卡片轮播 + Pick Up / Topic 纵向区块
+  navigation: Topics / TV-Film / Goods / Apps / Games / Card 等信息架构清晰
+  visual: 大量白空间、图片主导、边框/阴影克制
+  pokemon_usage: 品牌已足够成熟，不需要密集 Pokémon 装饰
+  reuse: PokeAmice 2026 默认层：安静、现代、Entity/Archive 优先
+  avoid: 不要为了“宝可梦感”强行恢复旧时代装饰
+  lesson: 2026 的终点应该是：怀旧退到内容关系里，界面本身成熟而安静。
+  tags:
+  - portal
+  - modern
+  - clean
+  - image-first

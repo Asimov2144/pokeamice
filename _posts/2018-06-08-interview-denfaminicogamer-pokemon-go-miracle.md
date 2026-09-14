@@ -9,7 +9,7 @@ publication: 电ファミニコゲーマー (Denfaminicogamer)
 source_kind: web_magazine
 author: 稲葉ほたて, 斉藤大地 (Denfaminicogamer)
 translator: Poke Amice Studio
-interviewee: 石原恒和, 川岛优志, 增田顺一
+interviewee: 增田顺一, 川岛优志, 石原恒和
 toc: true
 toc_sticky: true
 parallel_view: translation
@@ -49,10 +49,6 @@ entities:
   - 宝可梦 红·绿
   - 精灵宝可梦 Let's Go！皮卡丘／Let's Go！伊布
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/group_main.jpg
-  caption_original: 川島優志氏（Niantic）、石原恒和氏（株式会社ポケモン）、増田順一氏（ゲームフリーク）
-  caption_translation: 从左至右：Niantic 副总裁川岛优志、宝可梦社长石原恒和、Game Freak 董事增田顺一。
 - speaker: ''
   original: 2016年の夏、日本……いや、世界中が熱狂の渦に叩き込まれたゲームがあった。
   translation: 2016年夏天，日本……不，是全世界都陷入了狂热漩涡的一款游戏出现了。
@@ -277,10 +273,6 @@ parallel_items:
   original: ……もちろん、1年くらいかけてですよ？
   translation: ……当然，是花大约一年的时间哦？
   note: ''
-- type: image
-  image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/kawashima_1.jpg
-  caption_original: 川島優志氏：Nianticアジア統括本部長。Google時代のエイプリルフール企画から奔走した立役者。
-  caption_translation: 川岛优志：Niantic 亚洲区副总裁，从 2014 年 Google 愚人节宝可梦挑战赛一路推动两家公司的联手。
 - speaker: 提问
   original: はい（笑）。
   translation: 是的（笑）。
@@ -569,10 +561,6 @@ parallel_items:
   original: そうしてエイプリルフールから2ヵ月後には、すでに開発にGOサインが出ていたわけですよね。相当な速度だと思うのですが……。
   translation: 也就是说，在愚人节之后两个月，开发就已经得到批准了。这速度相当快吧……
   note: ''
-- type: image
-  image: /assets/img/interviews/2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/roundtable.jpg
-  caption_original: 前代未聞のリアル連動ゲームが起こした社会現象の舞台裏を語り合う3氏。
-  caption_translation: 三位主创畅谈这场席卷全球的真实世界 AR 游戏奇迹与背后的技术抗压经历。
 - speaker: 川岛优志
   original: なにせアメリカ本社で行われたジョンを交えた最初のミーティングで、いきなり最初の企画書を石原さんたちが持参されたんですよ。　まさに『Ingress』の上に『ポケモン』が乗っかっているようなサンプルイメージも自作されてもいて、一気に「ぜひ前に進めましょう」となったんですよ。
   translation: 毕竟在由约翰参加的美国总部首次会议上，石原先生他们直接就带来了最初的企划书。他们还自己制作了简直就像是在《Ingress》之上叠加了《宝可梦》的示例图像，于是我们一下子就说“务必推进吧”。
@@ -810,3 +798,8 @@ parallel_items:
   translation: 本页面可能通过联盟营销计划获得收益。
   note: ''
 ---
+
+
+
+
+

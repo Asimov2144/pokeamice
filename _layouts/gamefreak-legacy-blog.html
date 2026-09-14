@@ -22,6 +22,7 @@ layout: default
       <a href="{{ blog.archive_url }}" target="_blank" rel="noopener">ORIGINAL ↗</a>
       <a href="#gf-legacy-about">ABOUT</a>
       <a href="#gf-legacy-archive">過去日志</a>
+      {% if blog_key == 'staff' %}<a href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}">REPORT</a>{% endif %}
       <a href="{{ '/gamefreak-director/' | relative_url }}">MASUDA</a>
       {% if blog_key == 'art' %}<a href="{{ '/gamefreak-staff/' | relative_url }}">STAFF</a>{% else %}<a href="{{ '/gamefreak-art/' | relative_url }}">ART</a>{% endif %}
     </nav>

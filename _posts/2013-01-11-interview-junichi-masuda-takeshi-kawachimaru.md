@@ -528,19 +528,9 @@ parallel_items:
   translation: 增田顺一与河内丸武史畅谈《宝可梦 白金》、粒子物理、桥梁等更多话题！
   note: Takeshi Kawachimaru 河内丸武史，宝可梦游戏的设计师。
   speaker: 增田顺一
-- type: paragraph
-  original: http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/
-  translation: http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/
-- type: paragraph
-  original: http://files.g4tv.com/ImageDb3/139991_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.jpg
-  translation: http://files.g4tv.com/ImageDb3/139991_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.jpg
-  note: 该链接为G4TV网站上的图片地址，内容为增田顺一与河内岳谈论《宝可梦 白金》的粒子物理、桥梁等话题的访谈配图。
-- type: paragraph
-  original: BlogThread_694081
-  translation: 博客帖子编号694081
-  note: 这是G4TV博客中该访谈帖子的标识符。
-- type: paragraph
-  original: Comments are Closed
-  translation: 评论已关闭
-  note: 网页提示，表示该帖子不允许用户发表评论。
 ---
+
+
+
+
+

@@ -52,6 +52,7 @@
               <span>{{ match_label }}</span>
               <strong>{{ candidate.title }}</strong>
             </a>
+            {% if related_count >= related_limit %}{% break %}{% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}

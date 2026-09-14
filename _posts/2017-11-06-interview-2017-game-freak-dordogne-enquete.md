@@ -280,21 +280,13 @@ parallel_items:
   speaker: Mme Pavoshko
   note: 此处为引用某位夫人的话，可能为网络评论或虚构人物，无特定背景。
 - type: paragraph
-  original: 'J''admire le travail de recherches, bravo.
-
-    Je rejoins ton avis. Je ne pense pas que le sud de la France soit le cadre d''une future version, mais plutôt qu''ils s''inspirent de quelques aspects culturels qui les intéressent. Pourquoi pas une version avec des voyages temporels qui nous permettrait de voyager entre les époques? On l''a bien fait avec les dimensions (Ultra brèches, Monde distorsion...), ce ne serait que la prochaine étape.'
-  translation: '我钦佩你的研究工作，太棒了。
-
-    我同意你的看法。我不认为法国南部会成为未来版本的舞台，而是他们会从感兴趣的文化方面汲取灵感。为什么不做一个有时间旅行的版本，让我们能在不同时代之间穿梭呢？我们已经用维度（究极之洞、毁坏的世界……）做到了，这将是下一步。'
+  original: J'admire le travail de recherches, bravo. Je rejoins ton avis. Je ne pense pas que le sud de la France soit le cadre d'une future version, mais plutôt qu'ils s'inspirent de quelques aspects culturels qui les intéressent. Pourquoi pas une version avec des voyages temporels qui nous permettrait de voyager entre les époques? On l'a bien fait avec les dimensions (Ultra brèches, Monde distorsion...), ce ne serait que la prochaine étape.
+  translation: 我钦佩你的研究工作，太棒了。我同意你的看法。我不认为法国南部会成为未来版本的舞台，而是他们会从感兴趣的文化方面汲取灵感。为什么不做一个有时间旅行的版本，让我们能在不同时代之间穿梭呢？我们已经用维度（究极之洞、毁坏的世界……）做到了，这将是下一步。
   speaker: Nicoblood
   note: Ultra brèches 指究极之洞，Monde distorsion 指毁坏的世界。
 - type: paragraph
-  original: 'Article très intéressant et très bien écrit !!
-
-    Ça c''est du Pokemon Trash comme on l''aime :))'
-  translation: '文章非常有趣，写得很好！！
-
-    这就是我们喜欢的宝可梦垃圾（笑）'
+  original: Article très intéressant et très bien écrit !! Ça c'est du Pokemon Trash comme on l'aime :))
+  translation: 文章非常有趣，写得很好！！这就是我们喜欢的宝可梦垃圾（笑）
   speaker: milo
   note: Pokemon Trash 可能指一种幽默或自嘲的说法，指对宝可梦的狂热或吐槽。
 - type: paragraph
@@ -473,3 +465,8 @@ parallel_items:
   original: Réagis à cet article sur notre Discord →
   translation: 在我们的 Discord 上对这篇文章做出反应 →
 ---
+
+
+
+
+

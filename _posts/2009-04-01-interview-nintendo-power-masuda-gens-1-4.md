@@ -42,11 +42,8 @@ entities:
 original_title: 'Nintendo power Interview: Masuda on Developing Gens 1-4'
 original_link: http://lavacutcontent.com/masuda-interview-pokemon-platinum/
 translator: Poke Amice Studio
-interviewee: Doctor Lava, Dr Lava, Dr Lava 的注释, 增田顺一, 川知丸武
+interviewee: Dr. Lava, 增田顺一, 川知丸武
 parallel_items:
-- type: image
-  image: /assets/img/interviews/9999-99-99-masuda-interview-pokemon-platinum/img_01.png
-  caption: 专访配图
 - type: paragraph
   original: 'Interview: Masuda on Developing Gens 1-4 – Lava Cut Content'
   translation: 访谈：增田谈第1至第4世代开发——熔岩切割内容
@@ -79,11 +76,11 @@ parallel_items:
 - type: paragraph
   original: 'Dr Lava’s notes: Action-puzzler Mendel Palace was the first game Game Freak ever produced. It released under the title “Quinty” on the Famicom in 1989, then was localized as “Mendel Palace” when it released stateside on the NES one year later. At the time, Game Freak’s core developers were Satoshi Tajiri, the company’s founder; Ken Sugimori, who later became the Pokemon series’ art director; and Junichi Masuda, who composed and programmed for Gen 1, then became the series’ director.'
   translation: Dr Lava的注释：动作解谜游戏《孟德尔宫殿》是GAME FREAK制作的第一款游戏。它于1989年在FC上以《Quinty》的标题发售，一年后在NES上以《孟德尔宫殿》的标题在北美发行。当时，GAME FREAK的核心开发者是公司创始人田尻智；后来成为宝可梦系列艺术总监的杉森建；以及增田顺一，他为第一世代作曲和编程，后来成为系列导演。
-  speaker: Dr Lava
+  speaker: Dr. Lava
 - type: paragraph
   original: Masuda grew up in Yokohama in the Kanto region, but his parents were originally from Kyushu, the real-world inspirations for the Pokemon games’ Kanto and Hoenn regions — which is no coincidence. Likewise, Tajiri grew up in the rural town of Machida, which served as inspiration for Pallet Town.
   translation: 增田在关都地区的横滨长大，但他的父母来自九州，九州是宝可梦游戏中关都和丰缘地区的现实灵感来源——这并非巧合。同样，田尻在町田的乡村小镇长大，那里是真新镇的灵感来源。
-  speaker: Dr Lava
+  speaker: Dr. Lava
 - type: paragraph
   original: “How do people react when they learn that you work on Pokemon games?”
   translation: “当人们得知你们参与制作宝可梦游戏时，有何反应？”
@@ -272,7 +269,7 @@ parallel_items:
   original: 'Doctor Lava’s notes: Masuda’s controversial strategy of focusing on attracting new fans at the expense of series veterans hasn’t earned him a lot of love in recent years. Dissatisfaction with Masuda’s directorship gradually increased over the generations, finally coming to a head in the Let’s Go Pikachu era. Many longtime fans weren’t happy that so many classic features were cut from Let’s Go — for example, the lack of a breeding mechanic. One month before the games’ release, Masuda addressed the controversy by saying: “I know that a lot of people and fans have spent a lot of time hatching eggs, they’ve hatched… a lot of eggs, but we want them to kind of discover new ways to enjoy Pokémon games, you know I’d be really sad to think that for them, Pokémon is hatching eggs, so with this one we’re trying to show them a different side of the game.” Fans slammed Masuda for his perceived condescension and being “out of touch” — that was the point when backlash reached its climax, and
     two weeks later Masuda announced he’d no longer serve as the series’ director. Nowadays he’s much less hands-on with the franchise, serving instead as one of several producers.'
   translation: Doctor Lava 的注释：增田的争议性策略——以牺牲系列老玩家为代价来吸引新粉丝——近年来并没有为他赢得多少好感。随着世代更迭，对增田担任总监的不满逐渐增加，最终在《Let's Go 皮卡丘》时代达到顶点。许多老玩家对《Let's Go》中删除了大量经典功能感到不满，例如缺乏孵蛋机制。在游戏发售前一个月，增田回应了这一争议，他说：“我知道很多人和粉丝花了很多时间孵蛋，他们孵了很多……很多蛋，但我们希望他们能发现享受宝可梦游戏的新方式，你知道，如果对他们来说宝可梦就是孵蛋，我会很伤心，所以这一作我们试图向他们展示游戏的不同一面。”粉丝们抨击增田，认为他居高临下且“脱离实际”——那是反对声浪达到顶点的时刻，两周后增田宣布他不再担任该系列的总监。如今他不再那么深入参与这个系列，而是担任几位制作人之一。
-  speaker: Doctor Lava
+  speaker: Dr. Lava
   note: Doctor Lava 是宝可梦历史研究者，其笔记在此处作为背景信息。
 - type: paragraph
   original: “Do you have a favorite Pokemon?”
@@ -292,7 +289,7 @@ parallel_items:
 - type: paragraph
   original: The idea of “the next Pikachu” obviously continued into future generations — Plusle, Minun, Pachirisu, Emolga, etc. Interestingly, Game Freak almost made White Pichu a special event Pokemon for HeartGold & SoulSilver, but ended up replacing it with Spiky-eared Pichu. You can read that full story here .
   translation: “下一个皮卡丘”的想法显然延续到了未来的世代——正电拍拍、负电拍拍、帕奇利兹、电飞鼠等等。有趣的是，GAME FREAK 差点让白色皮丘成为《心金／魂银》的特殊活动宝可梦，但最终用刺刺耳皮丘取而代之。你可以在这里阅读完整故事。
-  speaker: Dr Lava 的注释
+  speaker: Dr. Lava
   note: 此处提到的“White Pichu”可能指异色皮丘，但根据上下文，可能是指一种特殊的白色皮丘设计。
 - type: paragraph
   original: I like Bulbasaur. Before I started to work for GAME FREAK, I purchased Pokemon Green Version and I chose it as my starter. It was love at first sight. It’s four-legged and stubby. It’s the same for dogs. I like Corgis because of their stubby legs.
@@ -565,7 +562,9 @@ parallel_items:
 - type: paragraph
   original: © Dr Lava 2019
   translation: © Dr Lava 2019
-- type: image
-  image: /assets/img/interviews/9999-99-99-masuda-interview-pokemon-platinum/img_02.png
-  caption: 相关资料图
 ---
+
+
+
+
+

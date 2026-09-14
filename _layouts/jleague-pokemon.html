@@ -1,0 +1,229 @@
+---
+---
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#10100f">
+    <meta name="description" content="J 联赛球队与联动宝可梦的选择理由、视觉线索与地方文化整理。">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/jleague-pokemon.css' | relative_url }}">
+  </head>
+  <body class="jl-page">
+    {% assign entries = site.data.jleague_pokemon %}
+    {% assign first_entry = entries | first %}
+
+    <a class="jl-skip" href="#jl-index">跳到球队索引</a>
+
+    <div class="jl-app" data-jl-app style="--accent: {{ first_entry.accent }};">
+      <aside class="jl-cover" aria-label="当前球队联动主视觉">
+        <div class="jl-cover__topline">
+          <a class="jl-brand" href="{{ '/' | relative_url }}" aria-label="返回 PokeAmice 文档站首页">
+            <span class="jl-brand__mark" aria-hidden="true">PA</span>
+            <span>PokeAmice<br>Field Notes</span>
+          </a>
+          <span class="jl-cover__edition">J1 / 20</span>
+        </div>
+
+        <figure class="jl-cover__figure">
+          <span class="jl-cover__loader" aria-hidden="true"></span>
+          <img
+            id="jl-cover-image"
+            src="{{ first_entry.images.first.src | relative_url }}"
+            alt="{{ first_entry.images.first.alt }}"
+            width="1080"
+            height="1920"
+            decoding="async">
+        </figure>
+
+        <div class="jl-cover__meta" aria-live="polite">
+          <span id="jl-cover-count">{{ first_entry.number }} / {{ entries.size }}</span>
+          <strong id="jl-cover-pair">{{ first_entry.team }} × {{ first_entry.pokemon }}</strong>
+          <small id="jl-cover-kicker">{{ first_entry.kicker }}</small>
+        </div>
+      </aside>
+
+      <main class="jl-main">
+        <header class="jl-header">
+          <a href="{{ '/' | relative_url }}">PokeAmice Archive</a>
+          <div class="jl-header__rule" aria-hidden="true"></div>
+          <a href="#jl-index">20 组联动</a>
+        </header>
+
+        <nav class="jl-selector" id="jl-index" aria-label="选择球队与联动宝可梦">
+          {% for entry in entries %}
+            <a
+              class="jl-selector__item{% if forloop.first %} is-active{% endif %}"
+              href="#{{ entry.id }}"
+              data-jl-select="{{ entry.id }}"
+              data-cover="{{ entry.images.first.src | relative_url }}"
+              data-cover-alt="{{ entry.images.first.alt | escape }}"
+              data-team="{{ entry.team | escape }}"
+              data-pokemon="{{ entry.pokemon | escape }}"
+              data-kicker="{{ entry.kicker | escape }}"
+              data-number="{{ entry.number }}"
+              data-accent="{{ entry.accent }}"
+              {% if forloop.first %}aria-current="true"{% endif %}>
+              <span class="jl-selector__image">
+                <img
+                  src="{{ entry.images.first.src | relative_url }}"
+                  alt=""
+                  width="360"
+                  height="640"
+                  loading="lazy"
+                  decoding="async">
+              </span>
+              <span class="jl-selector__label">
+                <small>{{ entry.number }}</small>
+                <strong>{{ entry.team }}</strong>
+                <em>{{ entry.pokemon }}</em>
+              </span>
+            </a>
+          {% endfor %}
+        </nav>
+
+        <div class="jl-stories" id="jl-stories" aria-live="polite">
+          {% for entry in entries %}
+            {% assign original = site.data.jleague_original[entry.id] %}
+            {% assign termset = site.data.jleague_terms[entry.id] %}
+            <article
+              class="jl-story{% if forloop.first %} is-active{% endif %}"
+              id="{{ entry.id }}"
+              data-jl-story="{{ entry.id }}"
+              data-accent="{{ entry.accent }}"
+              aria-labelledby="{{ entry.id }}-title">
+              <header class="jl-story__header">
+                <div class="jl-story__number" aria-hidden="true">{{ entry.number }}</div>
+                <p class="jl-story__kicker">{{ entry.kicker }}</p>
+                <h2 id="{{ entry.id }}-title" tabindex="-1">
+                  <span>{{ entry.team }}</span>
+                  <b aria-hidden="true">×</b>
+                  <span>{{ entry.pokemon }}</span>
+                </h2>
+                <p class="jl-story__jp">{{ entry.team_jp }} / {{ entry.pokemon_jp }}</p>
+                <p class="jl-story__deck">{{ entry.deck }}</p>
+                <div class="jl-story__tags" aria-label="关联类型">
+                  {% for tag in entry.tags %}<span>{{ tag }}</span>{% endfor %}
+                </div>
+              </header>
+
+              <section class="jl-evolution" aria-label="宝可梦进化链">
+                <span class="jl-section-label">Evolution line</span>
+                <ol>
+                  {% for pokemon in entry.evolution %}
+                    <li{% if forloop.last %} class="is-final"{% endif %}>
+                      <small>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</small>
+                      <strong>{{ pokemon }}</strong>
+                    </li>
+                  {% endfor %}
+                </ol>
+              </section>
+
+              <div class="jl-story__body">
+                <section class="jl-reasons" aria-labelledby="{{ entry.id }}-reasons">
+                  <div class="jl-section-heading">
+                    <span class="jl-section-label">Why this pairing</span>
+                    <h3 id="{{ entry.id }}-reasons">线索速览</h3>
+                  </div>
+                  <div class="jl-reasons__list">
+                    {% for reason in entry.reasons %}
+                      <section>
+                        <span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+                        <div>
+                          <h4>{{ reason.title }}</h4>
+                          <p>{{ reason.body }}</p>
+                        </div>
+                      </section>
+                    {% endfor %}
+                  </div>
+                </section>
+
+                <aside class="jl-pullquote">
+                  <span>EDITOR'S NOTE</span>
+                  <blockquote>{{ entry.spotlight }}</blockquote>
+                </aside>
+              </div>
+
+              {% if original and original.paragraphs.size > 0 %}
+                <section class="jl-original" aria-labelledby="{{ entry.id }}-original">
+                  <header class="jl-original__header">
+                    <div class="jl-section-heading">
+                      <span class="jl-section-label">Original narrative</span>
+                      <h3 id="{{ entry.id }}-original">原文叙事</h3>
+                    </div>
+                    <p>保留作者的判断过程、排除候选与现场记忆。图像随着相关名词进入正文，而不是在文末集中陈列。</p>
+                  </header>
+
+                  <div class="jl-original__flow">
+                    {% for paragraph in original.paragraphs %}
+                      <div class="jl-original__spread{% if forloop.index > entry.images.size %} is-text-only{% endif %}">
+                        <p class="jl-original__paragraph{% if forloop.first %} is-lead{% endif %}">{{ paragraph }}</p>
+                        {% if forloop.index <= entry.images.size %}
+                          {% assign image_index = forloop.index0 %}
+                          {% assign image = entry.images[image_index] %}
+                          {% assign term = termset.items[image_index] %}
+                          <figure class="jl-term-figure{% cycle ' is-wide', ' is-portrait', ' is-offset' %}">
+                            <button
+                              type="button"
+                              class="jl-term-figure__open"
+                              data-jl-lightbox
+                              data-src="{{ image.src | relative_url }}"
+                              data-alt="{{ image.alt | escape }}"
+                              data-caption="{{ image.caption | escape }}"
+                              aria-label="放大查看：{{ image.caption | escape }}">
+                              <img
+                                src="{{ image.src | relative_url }}"
+                                alt="{{ image.alt }}"
+                                loading="lazy"
+                                decoding="async">
+                            </button>
+                            <figcaption>
+                              <small>{{ term.kind }}</small>
+                              <h4>{{ term.name }}</h4>
+                              <p>{{ image.caption }}</p>
+                            </figcaption>
+                          </figure>
+                        {% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </section>
+              {% endif %}
+
+              <footer class="jl-story__footer">
+                <button type="button" data-jl-prev>
+                  <span>Previous pairing</span>
+                  <strong>上一组</strong>
+                </button>
+                <span>{{ entry.number }} / {{ entries.size }}</span>
+                <button type="button" data-jl-next>
+                  <span>Next pairing</span>
+                  <strong>下一组</strong>
+                </button>
+              </footer>
+            </article>
+          {% endfor %}
+        </div>
+
+        <footer class="jl-colophon">
+          <p>文字与图片依据原稿和整理笔记重新编排。J.LEAGUE、Pokémon 及各俱乐部名称与图像版权归各自权利方所有。</p>
+          <a href="https://www.jleague.jp/special/pokemon/" rel="noopener noreferrer">查看 J 联赛官方企划</a>
+        </footer>
+      </main>
+    </div>
+
+    <dialog class="jl-lightbox" data-jl-lightbox-dialog aria-label="图像查看器">
+      <button class="jl-lightbox__close" type="button" data-jl-lightbox-close aria-label="关闭图像查看器">
+        <span aria-hidden="true"></span>
+      </button>
+      <figure>
+        <img alt="" data-jl-lightbox-image>
+        <figcaption data-jl-lightbox-caption></figcaption>
+      </figure>
+    </dialog>
+
+    <script src="{{ '/assets/js/jleague-pokemon.js' | relative_url }}" defer></script>
+  </body>
+</html>

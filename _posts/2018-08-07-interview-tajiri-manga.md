@@ -42,9 +42,6 @@ original_link: https://helixchamber.com/2018/08/07/tajiri-manga/
 translator: Poke Amice Studio
 interviewee: 开发团队
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2018-08-07-tajiri-manga/img_01.jpg
-  caption: 专访配图
 - type: paragraph
   original: A Closer Look at the Satoshi Tajiri Biographical Manga – Helix Chamber
   translation: 深入解读田尻智传记漫画——Helix Chamber
@@ -717,17 +714,11 @@ parallel_items:
   original: Necessary cookies enable essential site features like secure log-ins and consent preference adjustments. They do not store personal data.
   translation: 必要 Cookie 可启用安全登录和同意偏好调整等基本网站功能。它们不存储个人数据。
 - type: paragraph
-  original: None
-  translation: 无
-- type: paragraph
   original: ► Functional Cookies Remark
   translation: ► 功能性 Cookie 备注
 - type: paragraph
   original: Functional cookies support features like content sharing on social media, collecting feedback, and enabling third-party tools.
   translation: 功能性 Cookie 支持社交媒体内容分享、收集反馈以及启用第三方工具等功能。
-- type: paragraph
-  original: None
-  translation: 无
 - type: paragraph
   original: ► Analytical Cookies Remark
   translation: ► 分析性 Cookie 说明
@@ -735,17 +726,11 @@ parallel_items:
   original: Analytical cookies track visitor interactions, providing insights on metrics like visitor count, bounce rate, and traffic sources.
   translation: 分析性 Cookie 用于追踪访客互动，提供访客数量、跳出率、流量来源等指标的洞察。
 - type: paragraph
-  original: None
-  translation: 无
-- type: paragraph
   original: ► Advertisment Cookies Remark
   translation: ► 广告 Cookie 说明
 - type: paragraph
   original: Advertisement cookies deliver personalized ads based on your previous visits and analyze the effectiveness of ad campaigns.
   translation: 广告 Cookie 根据您之前的访问提供个性化广告，并分析广告活动的效果。
-- type: paragraph
-  original: None
-  translation: 无
 - type: paragraph
   original: ► Unclassified Cookies Remark
   translation: ► 未分类 Cookie 说明
@@ -753,12 +738,11 @@ parallel_items:
   original: Unclassified cookies are cookies that we are in the process of classifying, together with the providers of individual cookies.
   translation: 未分类 Cookie 是指我们正在与各个 Cookie 提供商共同进行分类的 Cookie。
 - type: paragraph
-  original: None
-  translation: 无
-- type: paragraph
   original: Reject All Save My Preferences Accept All
   translation: 全部拒绝 保存我的偏好 全部接受
-- type: image
-  image: /assets/img/interviews/2018-08-07-tajiri-manga/img_02.png
-  caption: 相关资料图
 ---
+
+
+
+
+

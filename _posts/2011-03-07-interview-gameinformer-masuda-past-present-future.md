@@ -9,7 +9,7 @@ publication: Game Informer
 source_kind: magazine_feature
 author: Game Informer Editorial
 translator: Poke Amice Studio
-interviewee: 增田顺一, 井部真那
+interviewee: 井部真那, 增田顺一
 toc: true
 toc_sticky: true
 parallel_view: translation
@@ -75,10 +75,6 @@ parallel_items:
   original: The six-year development cycle
   translation: 六年的开发周期
   note: ''
-- type: image
-  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/reshiram.png
-  caption_original: Reshiram and Zekrom represent the core dualism themes behind Pokémon Black and White.
-  caption_translation: 莱希拉姆与捷克罗姆：象征着《宝可梦 黑·白》背后关于真实与理想的核心二元哲学思考。
 - speaker: 增田顺一
   original: The development processes for the first two games was very long – it was a six-year development span – and at first obviously with the Game Boy the cartridges didn’t have much memory at all, as a result of that, we had to program it in a way for the data to be as small as possible.
   translation: 最初两款游戏的开发过程非常漫长，历时六年。起初，由于Game Boy卡带的存储容量非常有限，我们不得不以尽可能压缩数据的方式进行编程。
@@ -127,10 +123,6 @@ parallel_items:
   original: Aside from that, to be able to communicate with players who are really far away or can’t be in the same area, in Pokémon Black version or Pokémon White version we are introducing the Pokémon Global Link (PGL) that allows players to communicate data from their DS to their computers, go on the Pokémon Global Link website, and view rankings for battles or communicate with players that are really far away. I look forward to seeing how well this does, especially in the United States, as a lot  more people use the internet off their computers.Designing 150 new Pokémon
   translation: 除此之外，为了能与远方或无法身处同一地区的玩家交流，在《宝可梦 黑／白》中，我们引入了宝可梦全球连接（PGL），玩家可以将DS上的数据传输到电脑，访问宝可梦全球连接网站，查看对战排名或与远方玩家交流。我期待这一功能的表现，尤其是在美国，因为更多人通过电脑上网。设计150只新宝可梦
   note: 宝可梦全球连接是《黑／白》的在线服务，支持数据传输和远程互动。
-- type: image
-  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/victini.png
-  caption_original: Victini, designed by Mana Ibe, symbolizing victory in the Unova region.
-  caption_translation: 比克提尼：由年轻原画师井部真那创作，成为合众地区带来胜利与无限能量的象征。
 - speaker: 井部真那
   original: There were about 17 designers for Black and White project at Game Freak and one of the ways we make sure we don’t have too much overlap with any of the previous Pokémon is if we have a new design, we’ll take a silhouette of it, just the outline of it, and color the rest of it in black, and make sure the shape of it doesn’t overlap with previous Pokémon designs, and make sure it still looks original. We also do that with the color palette, color combinations, and make sure that there aren’t any Pokémon in the older games that share that exact same color palette as the new ones. Some of the directions we got from planners was to not be restricted or bound by old designs, for example, just because there might be one type of Pokémon existing in the old games, doesn’t mean you can’t make a similar type of Pokémon in a different light.
   translation: 在GAME FREAK，负责《黑／白》项目的设计师大约有17人。我们确保新宝可梦不与以往任何宝可梦过于重叠的方法之一是，对于新设计，我们会先制作其剪影，只保留轮廓，其余部分涂黑，确保其形状不与之前的宝可梦设计重叠，并确保它看起来仍然具有原创性。我们还会对配色方案和颜色组合进行同样的检查，确保旧游戏中的任何宝可梦都没有与新的宝可梦完全相同的配色。策划人员给我们的指导方向之一是不要被旧设计所限制或束缚，例如，仅仅因为旧游戏中存在某种类型的宝可梦，并不意味着你不能以不同的角度来制作类似类型的宝可梦。
@@ -160,3 +152,8 @@ parallel_items:
   translation: 多年前我玩过最初的《红》和《蓝》游戏，那时我还是个孩子，宝可梦至今仍被社会接受并受到人们的喜爱，这让我印象深刻。我从未想过自己会在GAME FREAK工作。现在推出的游戏是由我这一代的人制作的，当然老一辈的人也在参与制作。新游戏与这一代人相契合，我期待它们能随着新一代人的成长而继续进化。
   note: 井部真那（Man Ibe）是GAME FREAK的开发人员，此处提到初代《宝可梦 红/绿》（海外为Red/Blue）及其童年经历。
 ---
+
+
+
+
+

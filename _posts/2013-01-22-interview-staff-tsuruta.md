@@ -269,16 +269,9 @@ parallel_items:
   original: About
   translation: 关于
   note: 网站或博客的'关于'页面链接。
-- type: paragraph
-  original: 過去ログいちらん
-  translation: 历史存档一览
-  note: 博客的'归档'页面，列出过去的文章。
-- type: paragraph
-  original: Copyright © 2013 晴れたり時々曇ったり
-  translation: 版权所有 © 2013 时而晴朗，时而多云
-  note: 博客名称'晴れたり時々曇ったり'意为'时而晴朗，时而多云'，可能隐喻心情或天气。
-- type: paragraph
-  original: Proudly powered by WordPress , Free WordPress Themes
-  translation: 自豪地采用 WordPress 驱动，免费 WordPress 主题
-  note: WordPress 博客底部的常见声明，表明网站使用 WordPress 构建。
 ---
+
+
+
+
+

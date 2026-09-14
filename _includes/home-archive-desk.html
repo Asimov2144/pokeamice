@@ -1,0 +1,126 @@
+<div class="archive-desk">
+  <header class="archive-desk__hero">
+    <div class="archive-desk__intro">
+      <p class="archive-desk__eyebrow">资料存档</p>
+      <h2>Game Freak 博客与开发资料</h2>
+      <p class="archive-desk__lede">收录增田顺一、杉森建与员工博客，以及开发访谈和整理文档。提供中文译文、日文原文、现存英文版与来源记录。</p>
+      <div class="archive-desk__actions" aria-label="推荐入口">
+        <a class="archive-desk__primary" href="#gf-blog-shelf">浏览博客 <i class="fas fa-arrow-down" aria-hidden="true"></i></a>
+        <a class="archive-desk__secondary" href="#documents" data-scroll-ignore>文档索引 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <dl class="archive-desk__stats" aria-label="站点内容统计">
+        <div><dt>{{ gf_archive_count }}</dt><dd>博客存档</dd></div>
+        <div><dt>{{ docs_posts | size }}</dt><dd>整理文档</dd></div>
+        <div><dt>{{ interview_posts | size }}</dt><dd>访谈译稿</dd></div>
+      </dl>
+    </div>
+
+    <figure class="archive-desk__visual">
+      <img src="{{ '/assets/images/gamefreak-director/original/header-photo.png' | relative_url }}" alt="増田部長のめざめるパワー原站页眉">
+      <figcaption>
+        <span>来源信息</span>
+        <strong>原站素材本地存档</strong>
+        <em>保留版式、图片位置与来源记录</em>
+      </figcaption>
+    </figure>
+  </header>
+
+  <section class="archive-search" aria-labelledby="archive-search-title">
+    <div class="archive-search__heading">
+      <p>站内检索</p>
+      <h3 id="archive-search-title">按人物、作品、年份或主题搜索</h3>
+    </div>
+    <form class="archive-search__bar" action="{{ '/search/' | relative_url }}" method="get" role="search">
+      <i class="fas fa-search" aria-hidden="true"></i>
+      <input type="search" id="homeSmartSearch" name="q" placeholder="输入人物、作品、年份或文章主题" autocomplete="off">
+      <button type="submit">搜索全部档案</button>
+    </form>
+    <div class="archive-search__results" id="homeSmartSearchResults" aria-live="polite"></div>
+  </section>
+
+  <section class="archive-shelf" id="gf-blog-shelf" aria-labelledby="gf-blog-shelf-title">
+    <header class="archive-shelf__heading">
+      <div>
+        <p>博客存档</p>
+        <h3 id="gf-blog-shelf-title">Game Freak 官方博客</h3>
+        <span>支持连续浏览，并可切换中文、日文与现存英文内容。</span>
+      </div>
+      <a href="{{ '/keys/' | relative_url }}">查看完整文档索引 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </header>
+
+    <div class="archive-shelf__layout">
+      <article class="archive-volume archive-volume--director">
+        <a class="archive-volume__cover" href="{{ '/gamefreak-director/' | relative_url }}">
+          <img src="{{ '/assets/images/gamefreak-director/original/header-photo.png' | relative_url }}" alt="増田部長のめざめるパワー原站横幅">
+        </a>
+        <div class="archive-volume__body">
+          <div class="archive-volume__meta"><span>Masuda's Blogs</span><em>2004—2017 · {{ gf_masuda_posts | size }} 篇</em></div>
+          <h4><a href="{{ '/gamefreak-director/' | relative_url }}">増田部長のめざめるパワー</a></h4>
+          <p>增田顺一记录开发现场、音乐、活动与宝可梦话题的部长专栏。</p>
+          {% if latest_gf_director %}
+            <a class="archive-volume__latest" href="{{ latest_gf_director.url | relative_url }}"><span>查看后续时期</span><strong>{{ latest_gf_director.title }}</strong><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          {% endif %}
+        </div>
+      </article>
+
+      <div class="archive-shelf__side">
+        <article class="archive-volume archive-volume--compact archive-volume--art">
+          <a class="archive-volume__cover" href="{{ '/gamefreak-art/' | relative_url }}">
+            <img src="{{ '/assets/images/gamefreak-legacy/art/shared/header.jpg' | relative_url }}" alt="杉森建のお絵かき日和原站横幅">
+          </a>
+          <div class="archive-volume__body">
+            <div class="archive-volume__meta"><span>Art Blog</span><em>2007—2011 · {{ gf_art_posts | size }} 篇</em></div>
+            <h4><a href="{{ '/gamefreak-art/' | relative_url }}">杉森建のお絵かき日和</a></h4>
+            <p>角色设计解说、设定缩略图与可放大的原尺寸图片。</p>
+            {% if latest_gf_art %}<a class="archive-volume__text-link" href="{{ latest_gf_art.url | relative_url }}">末篇：{{ latest_gf_art.title }} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>{% endif %}
+          </div>
+        </article>
+
+        <article class="archive-volume archive-volume--compact archive-volume--staff">
+          <a class="archive-volume__cover" href="{{ '/gamefreak-staff/' | relative_url }}">
+            <img src="{{ '/assets/images/gamefreak-legacy/staff/shared/header.jpg' | relative_url }}" alt="晴れたり時々曇ったり原站横幅">
+          </a>
+          <div class="archive-volume__body">
+            <div class="archive-volume__meta"><span>Staff Blog</span><em>2007—2012 · {{ gf_staff_posts | size }} 篇</em></div>
+            <h4><a href="{{ '/gamefreak-staff/' | relative_url }}">晴れたり時々曇ったり</a></h4>
+            <p>由不同员工轮流记录开发、公司活动、招聘与工作日常。</p>
+            <div class="archive-volume__links">
+              {% if latest_gf_staff %}<a href="{{ latest_gf_staff.url | relative_url }}">阅读末篇</a>{% endif %}
+              <a href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}">查看分析报告</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="archive-routeboard" aria-labelledby="archive-routeboard-title">
+    <article class="archive-routeboard__focus">
+      <p>近期更新</p>
+      <h3 id="archive-routeboard-title">最近更新</h3>
+      {% if latest_post %}
+        <a href="{{ latest_post.url | relative_url }}">
+          <strong>{{ latest_post.title }}</strong>
+          <span>{{ latest_post.excerpt | markdownify | strip_html | truncate: 118 }}</span>
+          <em>打开文章 <i class="fas fa-arrow-right" aria-hidden="true"></i></em>
+        </a>
+      {% else %}
+        <p class="archive-routeboard__empty">暂时没有可显示的更新。</p>
+      {% endif %}
+    </article>
+
+    <nav class="archive-routeboard__routes" aria-label="按阅读目的浏览">
+      <p>分类入口</p>
+      {% if latest_doc %}
+        <a href="{{ latest_doc.url | relative_url }}"><span>01 · 文档</span><strong>{{ latest_doc.title }}</strong><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if latest_interview %}
+        <a href="{{ latest_interview.url | relative_url }}"><span>02 · 访谈</span><strong>{{ latest_interview.title }}</strong><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      {% endif %}
+      {% if latest_scan %}
+        <a href="{{ latest_scan.url | relative_url }}"><span>03 · 扫描存档</span><strong>{{ latest_scan.title }}</strong><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      {% endif %}
+      <a href="#retrieval" data-scroll-ignore><span>04 · 数据库</span><strong>按年份、人物、作品和材料筛选全部档案</strong><i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+    </nav>
+  </section>
+</div>

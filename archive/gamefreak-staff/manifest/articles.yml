@@ -1,5 +1,5 @@
 schema_version: 1
-generated_at: '2026-08-28T05:15:53+00:00'
+generated_at: '2026-08-28T06:37:48+00:00'
 mode: all
 blog:
   slug: gamefreak-staff
@@ -11,10 +11,37 @@ blog:
   author_ja: ゲームフリークスタッフ
   author_zh: GAME FREAK 员工
   expected_count: 209
+  posts_per_page: 10
   theme_css: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/style.css
   header_asset: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/title.jpg
   background_asset: http://www.gamefreak.co.jp/blog/staff/wp-content/themes/clean-minimal/bg.jpg
-network_requests: 206
+  about_url: http://www.gamefreak.co.jp/blog/staff/?page_id=2
+  about_snapshot: '20130808162750'
+  archive_page_url: http://www.gamefreak.co.jp/blog/staff/?page_id=245
+  archive_snapshot: '20130808162750'
+  about_credit_images:
+  - http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer28.jpg
+  - http://www.gamefreak.co.jp/blog/staff/wp-content/themes/staff01/images/writer30.jpg
+  categories:
+  - ja: GF紹介
+    zh: GF介绍
+  - ja: にっき
+    zh: 日记
+  - ja: ポケモン
+    zh: 宝可梦
+  - ja: 採用
+    zh: 招聘
+  - ja: 更新のおしらせ
+    zh: 更新通知
+  - ja: 未分類
+    zh: 未分类
+  about_ja: '「晴れたり時々曇ったり」はゲームフリークスタッフによるつれづれブログです。
+
+    ちょっとヘンだけどおもしろいゲームフリークでの楽しい日々を書いたり書かなかったりしていこうと思います。'
+  about_zh: '《晴时偶有阴》是 GAME FREAK 员工记录工作与日常的随笔博客。
+
+    这里会时不时写下那些有点奇怪、却很有趣的公司生活。'
+network_requests: 1
 articles:
 - id: 3
   archive_id: gamefreak-staff-3

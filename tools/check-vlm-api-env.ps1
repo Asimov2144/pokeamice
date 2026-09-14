@@ -1,5 +1,5 @@
 param(
-  [string]$Model = "qwen3-vl-flash",
+  [string]$Model = "qwen3.7-plus",
   [string]$ApiUrl = ""
 )
 

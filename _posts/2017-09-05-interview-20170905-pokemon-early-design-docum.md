@@ -44,9 +44,6 @@ original_link: https://gigazine.net/news/20170905-pokemon-early-design-documents
 translator: Poke Amice Studio
 interviewee: 增田顺一
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2017-09-05-20170905-pokemon-early-design-docum/img_01.png
-  caption: 专访配图
 - type: paragraph
   original: ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中 - GIGAZINE
   translation: 能够窥见宝可梦制作过程的珍贵设计草图资料及访谈视频现已公开 - GIGAZINE
@@ -333,15 +330,17 @@ parallel_items:
   original: いいえ、後で時間があれば はい、寄付します
   translation: 不，稍后有时间再说 是的，我捐赠
 - type: paragraph
-  original: "喜んでメールでリマインドさせていただきます。\n      引き続き記事をお読みください。"
-  translation: "我们很乐意通过邮件提醒您。\n      请继续阅读文章。"
+  original: 喜んでメールでリマインドさせていただきます。引き続き記事をお読みください。
+  translation: 我们很乐意通过邮件提醒您。请继续阅读文章。
 - type: paragraph
   original: メールアドレス
   translation: 邮箱地址
 - type: paragraph
   original: 送信
   translation: 发送
-- type: image
-  image: /assets/img/interviews/2017-09-05-20170905-pokemon-early-design-docum/img_02.png
-  caption: 相关资料图
 ---
+
+
+
+
+

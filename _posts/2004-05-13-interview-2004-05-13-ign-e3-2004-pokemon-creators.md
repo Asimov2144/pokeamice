@@ -194,4 +194,11 @@ original_title: 'E3 2004: The Pokémon Creators Speak'
 original_link: https://www.ign.com/articles/2004/05/13/e3-2004-the-pokemon-creators-speak
 translator: Poke Amice Studio
 interviewee: 增田顺一, 石原恒和
+era_skin: '2003'
 ---
+
+
+
+
+
+

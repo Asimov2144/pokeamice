@@ -54,11 +54,11 @@ entities:
   - 伊裴尔塔尔
   - 超梦
 parallel_items:
-- speaker: 编辑部
+- speaker: 提问
   original: '[This feature originally appeared abridged in Game Informer issue #250.]'
   translation: '[本文最初以删节版形式刊登于《Game Informer》第250期。]'
   note: ''
-- speaker: 编辑部
+- speaker: 提问
   original: The latest core entry in the Pokémon franchise is the biggest step forward the series has taken in many years. It's a huge game with a newly realized 3D world and 3D Pokémon, and it's full of mystery in both its plot and its development. We spoke with series producer Junichi Masuda about the difficulties of taking Pokémon in this new direction, as well as questions about the plot, general Pokémon lore, and what's going on with Klefki and Espurr.
   translation: 宝可梦系列的最新正统续作是多年来该系列迈出的最大一步。这是一款庞大的游戏，拥有全新呈现的3D世界和3D宝可梦，其剧情和开发过程都充满了神秘感。我们采访了系列制作人增田顺一，探讨了将宝可梦带入这一新方向所面临的困难，以及关于剧情、宝可梦总体设定、钥圈儿和妙喵的相关问题。
   note: ''
@@ -110,10 +110,6 @@ parallel_items:
   original: Read on for details on the immortal character AZ to find out why he's so tall.
   translation: 继续阅读，了解不朽角色AZ的细节，找出他为何如此高大。
   note: ''
-- type: image
-  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/sylveon.png
-  caption_original: Sylveon introduced the new Fairy-type to rebalance Dragon-type dominance.
-  caption_translation: 仙子伊布：作为新属性‘妖精属性’的代表，旨在彻底打破龙属性独大的对战平衡。
 - speaker: 提问
   original: The giant man named AZ was a surprising addition to the story of the game. Was everybody from 3,000 years ago on the Pokémon planet as big as him? What story was the team trying to express by including this character?
   translation: 游戏中加入名为AZ的巨人是个令人意外的设定。三千年前宝可梦世界的人都是像他那么巨大吗？团队加入这个角色想表达怎样的故事？
@@ -170,10 +166,6 @@ parallel_items:
   original: One of the themes we wanted to express in Pokémon X and Pokémon Y was "beauty," so we wanted to use the 3DS's rendering capabilities to their fullest, to focus on that aspect. By doing so, I think we were able to create some very impressive settings.
   translation: 我们在《宝可梦 X》和《宝可梦 Y》中想要表达的主题之一是“美丽”，因此我们希望充分利用3DS的渲染能力来专注于这一方面。通过这样做，我认为我们创造了一些非常令人印象深刻的场景。
   note: ''
-- type: image
-  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/xerneas.png
-  caption_original: Xerneas, representing eternal life in the Kalos mythology.
-  caption_translation: 哲尔尼亚斯：卡洛斯神话中象征永恒生命的生命之树传说的宝可梦。
 - speaker: 增田顺一
   original: Also, one of the cool things about the 3DS is that you don't need special glasses to see the stereoscopic 3D effect. It's not like in a movie theater, where you would need to put on 3D glasses if the scene were to switch to 3D midway. This feature of the 3DS allowed us to use the stereoscopic 3D effect at specific moments in the game where we felt it would be particularly effective.
   translation: 另外，3DS的一个很棒的特点是，你不需要特殊眼镜就能看到立体3D效果。这不像在电影院里，如果场景中途切换到3D，你需要戴上3D眼镜。3DS的这个特性让我们能够在游戏中我们觉得特别有效的特定时刻使用立体3D效果。
@@ -258,10 +250,6 @@ parallel_items:
   original: The Pokémon Espurr has become a popular internet meme with fans citing his vacant expression representing a troubled past. What happened to Espurr, or what did he see that made him so vacant?
   translation: 宝可梦妙喵已成为流行的网络梗，粉丝们认为它空洞的表情代表着一段困扰的过去。妙喵发生了什么，或者它看到了什么让它如此空洞？
   note: ''
-- type: image
-  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/fennekin.png
-  caption_original: Fennekin, Masuda's personal favorite starter to play with in Pokémon-Amie.
-  caption_translation: 火狐狸：增田顺一个人在‘宝可友友乐’中最喜欢与之互动的卡洛斯初学者宝可梦。
 - speaker: 增田顺一
   original: I wonder what happened, too! (laughs) I'd like everyone to think about it. I'm not sure Espurr would be willing to talk about it even if we asked, though. (laughs)
   translation: 我也想知道发生了什么！（笑）我希望大家能思考一下。不过，即使我们问妙喵，我也不确定它是否愿意谈论这件事。（笑）
@@ -291,3 +279,8 @@ parallel_items:
   translation: 当然是火狐狸！我喜欢在宝可拍乐乐里和火狐狸一起玩！
   note: ''
 ---
+
+
+
+
+

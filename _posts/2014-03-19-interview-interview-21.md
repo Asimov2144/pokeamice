@@ -46,9 +46,6 @@ original_link: https://web.archive.org/web/20140319012108/https://www.glitterber
 translator: Poke Amice Studio
 interviewee: Miyamoto, 杉森建, 田尻智
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2014-03-19-interview-21/img_01.jpg
-  caption: 专访配图
 - type: paragraph
   original: 分享
   translation: 分享
@@ -310,7 +307,9 @@ parallel_items:
   original: Return to Pokémon Red & Blue Index
   translation: 返回《宝可梦 红／蓝》索引
   note: 《宝可梦 红／蓝》是宝可梦系列第一世代的游戏，通常指《宝可梦 红／绿》的海外版本。
-- type: image
-  image: /assets/img/interviews/2014-03-19-interview-21/img_03.jpg
-  caption: 相关资料图
 ---
+
+
+
+
+

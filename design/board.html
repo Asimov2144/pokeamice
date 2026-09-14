@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pokémon Web Screenshot Reference Board · PokeAmice</title>
+<style>
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background:#f4f3ef; color:#202020;
+}
+* { box-sizing:border-box; }
+body { margin:0; }
+header {
+  position:sticky; top:0; z-index:10; backdrop-filter:blur(14px);
+  background:rgba(244,243,239,.92); border-bottom:1px solid #d8d5cd;
+}
+.header-inner { max-width:1500px; margin:auto; padding:18px 22px 14px; }
+h1 { margin:0 0 5px; font-size:clamp(22px,3vw,38px); letter-spacing:-.03em; }
+.subtitle { margin:0; color:#69665f; font-size:14px; }
+.controls { margin-top:14px; display:flex; gap:8px; flex-wrap:wrap; }
+button {
+  border:1px solid #cbc7bd; background:#fff; border-radius:999px; padding:7px 11px;
+  cursor:pointer; font-size:13px;
+}
+button.active { background:#222; color:#fff; border-color:#222; }
+main { max-width:1500px; margin:auto; padding:22px; }
+.notice {
+  padding:14px 16px; border:1px solid #d8d5cd; background:#fff; margin-bottom:22px;
+  max-width:900px; line-height:1.6; font-size:14px;
+}
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(315px,1fr)); gap:18px; align-items:start; }
+.card { background:#fff; border:1px solid #d8d5cd; border-radius:12px; overflow:hidden; }
+.card[hidden] { display:none; }
+.shot { display:block; aspect-ratio: 4 / 3; background:#e9e7e1; overflow:hidden; border-bottom:1px solid #dedbd3; }
+.shot img { width:100%; height:100%; object-fit:cover; object-position:top; display:block; transition:transform .2s ease; }
+.shot:hover img { transform:scale(1.015); }
+.no-image { height:100%; display:grid; place-items:center; text-align:center; color:#777; line-height:1.5; font-family:monospace; }
+.card-body { padding:15px 16px 17px; }
+.meta { display:flex; align-items:center; justify-content:space-between; font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:12px; }
+.meta strong { font-size:10px; padding:4px 7px; border:1px solid #bbb; border-radius:999px; }
+.card h2 { margin:9px 0 3px; font-size:20px; line-height:1.2; }
+.type { margin:0 0 10px; color:#777; font-size:12px; }
+.tags { display:flex; flex-wrap:wrap; gap:5px; margin:0 0 12px; }
+.tag { font-size:10px; background:#f0efeb; border-radius:4px; padding:3px 5px; }
+dl { margin:0; display:grid; grid-template-columns:88px 1fr; font-size:12px; line-height:1.45; gap:5px 8px; }
+dt { color:#777; }
+dd { margin:0; }
+.lesson { margin:14px 0 10px; padding-top:12px; border-top:1px solid #ece9e1; line-height:1.55; font-size:13px; }
+.source { font-size:12px; color:inherit; }
+footer { max-width:1500px; margin:auto; padding:20px 22px 50px; color:#777; font-size:12px; }
+@media (max-width:600px) {
+  .header-inner, main, footer { padding-left:14px; padding-right:14px; }
+  .grid { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>Pokémon Web Screenshot Reference Board</h1>
+    <p class="subtitle">PokeAmice · 1999–2026 · structure before nostalgia</p>
+    <div class="controls">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="CORE">CORE</button>
+      <button data-filter="Official">Official-ish</button>
+      <button data-filter="Community">Community</button>
+      <button data-filter="Service">Service / Dashboard</button>
+      <button data-filter="Game">Game microsite</button>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="notice">
+    <strong>使用方法：</strong>不要从单一旧站整套复制主题。每篇访谈分别选择
+    <em>Era Structure</em>、<em>Source Accent</em> 和 <em>Pokémon Context</em>。
+    Board 中的历史截图用于内部设计研究；公开上线时应提炼结构与 CSS 语言，而不是直接复用这些截图作为装饰素材。
+  </div>
+  <section class="grid">
+    
+    <article class="card" data-era="01 Early Web" data-type="Official portal" data-priority="CORE">
+      <a class="shot" href="https://www.webdesignmuseum.org/gallery/pokemon-world-in-1999" target="_blank" rel="noreferrer">
+        <div class="no-image">Open source page<br>to view archived screenshot</div>
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>1999</span><strong>CORE</strong></div>
+        <h2>Pokémon World</h2>
+        <p class="type">Official portal · 01 Early Web</p>
+        <div class="tags"><span class="tag">portal</span><span class="tag">3-column</span><span class="tag">index</span><span class="tag">pokedex</span><span class="tag">pattern</span></div>
+        <dl>
+          <dt>Layout</dt><dd>固定窄幅三栏：左侧目录 / 中央新闻 / 右侧 Pokédex</dd>
+          <dt>Pokémon usage</dt><dd>Pikachu、Charizard、Pokédex 直接承担导航与栏目识别</dd>
+          <dt>Reuse</dt><dd>Era Masthead、旧网页式 Index、1px divider、source metadata、小型 NEW 标识</dd>
+          <dt>Avoid</dt><dd>不要复制小字号、重复背景覆盖正文、过量 GIF/闪烁效果</dd>
+        </dl>
+        <p class="lesson">早期 Pokémon Web 的关键不是像素，而是“网页是一座可以探索的目录”。</p>
+        <a class="source" href="https://www.webdesignmuseum.org/gallery/pokemon-world-in-1999" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="02 Portal / GBA" data-type="Official portal" data-priority="CORE">
+      <a class="shot" href="https://www.webdesignmuseum.org/gallery/pokemon-2002" target="_blank" rel="noreferrer">
+        <img src="https://www.webdesignmuseum.org/uploaded/fullscreen/pokemon-2002.png" alt="Pokémon.com 2002" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2002</span><strong>CORE</strong></div>
+        <h2>Pokémon.com</h2>
+        <p class="type">Official portal · 02 Portal / GBA</p>
+        <div class="tags"><span class="tag">portal</span><span class="tag">grid</span><span class="tag">banner</span><span class="tag">brand</span></div>
+        <dl>
+          <dt>Layout</dt><dd>左侧纵向导航 + 大主视觉 + 规则化内容格</dd>
+          <dt>Pokémon usage</dt><dd>角色图成为栏目入口与广告视觉，不只作为装饰</dd>
+          <dt>Reuse</dt><dd>Docs 首页 Portal 模式、Era Header、系列入口卡、顶部产品/来源 banner</dd>
+          <dt>Avoid</dt><dd>正文不要使用整页高饱和红黄</dd>
+        </dl>
+        <p class="lesson">Pokémon 官网从“网页目录”开始转向“品牌门户”。</p>
+        <a class="source" href="https://www.webdesignmuseum.org/gallery/pokemon-2002" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="02 Portal / GBA" data-type="Community news / database" data-priority="CORE">
+      <a class="shot" href="https://johtotimes.com/posts/2024-07-18-interview-with-serebii-net" target="_blank" rel="noreferrer">
+        <img src="https://johtotimes.com/web/images/serebiinets-layout-from-december-2003.png" alt="Serebii.net 2003" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2003</span><strong>CORE</strong></div>
+        <h2>Serebii.net</h2>
+        <p class="type">Community news / database · 02 Portal / GBA</p>
+        <div class="tags"><span class="tag">community</span><span class="tag">dense</span><span class="tag">news</span><span class="tag">sidebar</span></div>
+        <dl>
+          <dt>Layout</dt><dd>三栏高密度信息页：左侧巨大目录，中间更新流，右侧最近内容</dd>
+          <dt>Pokémon usage</dt><dd>Celebi 是站点身份，内容本身比品牌装饰更重要</dd>
+          <dt>Reuse</dt><dd>PokeAmice 的 Archive Index、密集资料目录、Recent / Related 区域</dd>
+          <dt>Avoid</dt><dd>不要把这种密度搬进访谈正文</dd>
+        </dl>
+        <p class="lesson">社区站的价值在“稳定、高密度、每天都能回来找东西”，不是现代品牌感。</p>
+        <a class="source" href="https://johtotimes.com/posts/2024-07-18-interview-with-serebii-net" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="02 Portal / GBA" data-type="Official fan community" data-priority="CORE">
+      <a class="shot" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">
+        <img src="https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/137c2e56abfb6fa76b855b3b722eb9f5a530f0ad.jpg" alt="Pokémon Daisuki Club 2004" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2004</span><strong>CORE</strong></div>
+        <h2>Pokémon Daisuki Club</h2>
+        <p class="type">Official fan community · 02 Portal / GBA</p>
+        <div class="tags"><span class="tag">community</span><span class="tag">play</span><span class="tag">character-guide</span><span class="tag">scene</span></div>
+        <dl>
+          <dt>Layout</dt><dd>场景插图 + 个人状态 + 新闻/游戏模块</dd>
+          <dt>Pokémon usage</dt><dd>Pokémon 是“陪伴者/引导者”，而不是背景贴纸</dd>
+          <dt>Reuse</dt><dd>轻量 Discovery 元素、人物/宝可梦作为相关内容入口、页边提示</dd>
+          <dt>Avoid</dt><dd>访谈页不要真的做成儿童游戏界面</dd>
+        </dl>
+        <p class="lesson">Pokémon 特有的沉浸感来自“角色陪你找东西”。</p>
+        <a class="source" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="02 Portal / GBA" data-type="Official campaign / interactive" data-priority="CORE">
+      <a class="shot" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">
+        <img src="https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/855494d08f27e9d417db091703c2887e6f5de8e0.jpg" alt="Daisuki Club — Summer Vacation Challenge 2005" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2005</span><strong>CORE</strong></div>
+        <h2>Daisuki Club — Summer Vacation Challenge</h2>
+        <p class="type">Official campaign / interactive · 02 Portal / GBA</p>
+        <div class="tags"><span class="tag">campaign</span><span class="tag">map-nav</span><span class="tag">signpost</span><span class="tag">adventure</span></div>
+        <dl>
+          <dt>Layout</dt><dd>整页场景化：岛屿/海岸即导航舞台</dd>
+          <dt>Pokémon usage</dt><dd>角色位置本身暗示可互动区域</dd>
+          <dt>Reuse</dt><dd>章节间的轻型“路标”语言、Archive Trail、下一份档案入口</dd>
+          <dt>Avoid</dt><dd>不要加入假小游戏、积分、奖励系统来制造沉浸</dd>
+        </dl>
+        <p class="lesson">DS 前夜的 Pokémon Web 把“Menu”改写成了“Adventure Route”。</p>
+        <a class="source" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="03 DS / Play Web" data-type="Game microsite" data-priority="SECONDARY">
+      <a class="shot" href="https://blog.livedoor.jp/poke00/archives/50827453.html" target="_blank" rel="noreferrer">
+        <img src="https://livedoor.blogimg.jp/poke00/imgs/f/1/f199f948.gif" alt="Pokémon Diamond / Pearl Official Site 2006" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2006</span><strong>SECONDARY</strong></div>
+        <h2>Pokémon Diamond / Pearl Official Site</h2>
+        <p class="type">Game microsite · 03 DS / Play Web</p>
+        <div class="tags"><span class="tag">game</span><span class="tag">microsite</span><span class="tag">news</span><span class="tag">interactive</span></div>
+        <dl>
+          <dt>Layout</dt><dd>大顶图 + 左侧 News + 中央互动区 + What's New</dd>
+          <dt>Pokémon usage</dt><dd>Electivire 等角色直接驻留在栏目边缘，加强场景感</dd>
+          <dt>Reuse</dt><dd>2006–09 Era 的 panel radius、NEW badge、source strip、模块标题条</dd>
+          <dt>Avoid</dt><dd>不要复刻 Flash 区域和大面积动画</dd>
+        </dl>
+        <p class="lesson">“新作官网”开始从静态宣传册变成持续更新的活动中心。</p>
+        <a class="source" href="https://blog.livedoor.jp/poke00/archives/50827453.html" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="03 DS / Play Web" data-type="Community knowledge base" data-priority="CORE">
+      <a class="shot" href="https://bulbapedia.bulbagarden.net/wiki/File:Bulbapedia_20060401.png" target="_blank" rel="noreferrer">
+        <img src="https://archives.bulbagarden.net/media/upload/2/2c/Bulbapedia_20060401.png" alt="Bulbapedia 2006" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2006</span><strong>CORE</strong></div>
+        <h2>Bulbapedia</h2>
+        <p class="type">Community knowledge base · 03 DS / Play Web</p>
+        <div class="tags"><span class="tag">wiki</span><span class="tag">knowledge</span><span class="tag">index</span><span class="tag">research</span></div>
+        <dl>
+          <dt>Layout</dt><dd>MediaWiki 左侧工具栏 + 大型内容索引区</dd>
+          <dt>Pokémon usage</dt><dd>品牌只在 Logo，内容结构完全知识库化</dd>
+          <dt>Reuse</dt><dd>Docs 的研究模式、索引、实体页、引用/校对工具</dd>
+          <dt>Avoid</dt><dd>不要让 Wiki 逻辑成为访谈默认阅读逻辑</dd>
+        </dl>
+        <p class="lesson">这是“资料站”与“阅读页”必须拆开的最好反例/正例：找资料优秀，沉浸阅读并不适合。</p>
+        <a class="source" href="https://bulbapedia.bulbagarden.net/wiki/File:Bulbapedia_20060401.png" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="03 DS / Play Web" data-type="Official commerce" data-priority="SECONDARY">
+      <a class="shot" href="https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Center_online.png" target="_blank" rel="noreferrer">
+        <img src="https://archives.bulbagarden.net/media/upload/6/6f/Pok%C3%A9mon_Center_online.png" alt="PokémonCenter.com 2008" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2008</span><strong>SECONDARY</strong></div>
+        <h2>PokémonCenter.com</h2>
+        <p class="type">Official commerce · 03 DS / Play Web</p>
+        <div class="tags"><span class="tag">commerce</span><span class="tag">catalog</span><span class="tag">cards</span><span class="tag">collection</span></div>
+        <dl>
+          <dt>Layout</dt><dd>顶部分类导航 + 主公告 + 商品格 + 右侧账户/搜索</dd>
+          <dt>Pokémon usage</dt><dd>角色主图用来分区和建立购买情绪</dd>
+          <dt>Reuse</dt><dd>杂志/扫描“陈列感”、分类色、Archive Shelf</dd>
+          <dt>Avoid</dt><dd>访谈页不要卡片化每一段</dd>
+        </dl>
+        <p class="lesson">收藏型内容适合借鉴商品陈列逻辑，但文章正文不适合。</p>
+        <a class="source" href="https://archives.bulbagarden.net/wiki/File:Pok%C3%A9mon_Center_online.png" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="04 Connected Web" data-type="Official portal" data-priority="CORE">
+      <a class="shot" href="https://www.webdesignmuseum.org/gallery/pokemon-in-2010" target="_blank" rel="noreferrer">
+        <img src="https://www.webdesignmuseum.org/uploaded/fullscreen/2010/pokemon-2010.jpg" alt="Pokémon.com 2010" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2010</span><strong>CORE</strong></div>
+        <h2>Pokémon.com</h2>
+        <p class="type">Official portal · 04 Connected Web</p>
+        <div class="tags"><span class="tag">portal</span><span class="tag">web2</span><span class="tag">tiles</span><span class="tag">tabs</span></div>
+        <dl>
+          <dt>Layout</dt><dd>顶部 Tab + 大媒体区 + 彩色功能 tile + 右侧内容列</dd>
+          <dt>Pokémon usage</dt><dd>Pokédex、小游戏、动画、TCG 各自拥有独立模块语言</dd>
+          <dt>Reuse</dt><dd>2010–12 的 tab、module title、轻 dashboard、状态 badge</dd>
+          <dt>Avoid</dt><dd>不要复刻厚重渐变与光泽按钮</dd>
+        </dl>
+        <p class="lesson">2010 左右是从 Portal 向 Service Dashboard 过渡的关键节点。</p>
+        <a class="source" href="https://www.webdesignmuseum.org/gallery/pokemon-in-2010" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="04 Connected Web" data-type="Official connected service" data-priority="CORE">
+      <a class="shot" href="https://bulbapedia.bulbagarden.net/wiki/File:PGL_Website_April_2011_Update.png" target="_blank" rel="noreferrer">
+        <img src="https://archives.bulbagarden.net/media/upload/7/76/PGL_Website_April_2011_Update.png" alt="Pokémon Global Link 2011" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2011</span><strong>CORE</strong></div>
+        <h2>Pokémon Global Link</h2>
+        <p class="type">Official connected service · 04 Connected Web</p>
+        <div class="tags"><span class="tag">service</span><span class="tag">dashboard</span><span class="tag">profile</span><span class="tag">connected</span></div>
+        <dl>
+          <dt>Layout</dt><dd>左侧个人状态 + 中央地图/数据 + 底部服务入口 + 顶部全局导航</dd>
+          <dt>Pokémon usage</dt><dd>Pokémon 与玩家数据绑定，角色不再只是广告图</dd>
+          <dt>Reuse</dt><dd>2010–12 Archive Record、人物/游戏实体关联、metadata dashboard</dd>
+          <dt>Avoid</dt><dd>正文绝不进入 Dashboard</dd>
+        </dl>
+        <p class="lesson">PGL 的核心设计理念是：网页已经成为游戏世界的一部分。</p>
+        <a class="source" href="https://bulbapedia.bulbagarden.net/wiki/File:PGL_Website_April_2011_Update.png" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="04 Connected Web" data-type="Official editorial / open site" data-priority="CORE">
+      <a class="shot" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">
+        <img src="https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/9345a460c5aaa48d6417a43f17de314e04db39ca.jpg" alt="Pokémon Daisuki Club — 2012 redesign 2012" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2012</span><strong>CORE</strong></div>
+        <h2>Pokémon Daisuki Club — 2012 redesign</h2>
+        <p class="type">Official editorial / open site · 04 Connected Web</p>
+        <div class="tags"><span class="tag">editorial</span><span class="tag">horizontal</span><span class="tag">magazine</span><span class="tag">open</span></div>
+        <dl>
+          <dt>Layout</dt><dd>横向杂志式内容卡 + 大面积天空/草地背景</dd>
+          <dt>Pokémon usage</dt><dd>底部角色群像把“内容平台”重新连接到 Pokémon 世界</dd>
+          <dt>Reuse</dt><dd>Docs 首页 timeline / archive carousel、杂志内容地图</dd>
+          <dt>Avoid</dt><dd>长篇正文不要横向滚动</dd>
+        </dl>
+        <p class="lesson">这是从封闭社区到开放 Editorial Media 的重要转折。</p>
+        <a class="source" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="05 Editorial Web" data-type="Character microsite" data-priority="SECONDARY">
+      <a class="shot" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">
+        <img src="https://files.corporate.pokemon.co.jp/files/user/topics_img/8/2/337217501103bc86a78daff0ec321b66cda8b877.jpg" alt="Slowpoke Paradise / ヤドンパラダイス 2014" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2014</span><strong>SECONDARY</strong></div>
+        <h2>Slowpoke Paradise / ヤドンパラダイス</h2>
+        <p class="type">Character microsite · 05 Editorial Web</p>
+        <div class="tags"><span class="tag">character</span><span class="tag">microsite</span><span class="tag">hero</span><span class="tag">editorial</span></div>
+        <dl>
+          <dt>Layout</dt><dd>单一角色大 Hero + 极少导航 + 世界观背景</dd>
+          <dt>Pokémon usage</dt><dd>一只 Pokémon 就是整个站的视觉人格</dd>
+          <dt>Reuse</dt><dd>人物/宝可梦实体页的 accent、专题页，不适合作为通用访谈模板</dd>
+          <dt>Avoid</dt><dd>不要让每篇访谈都绑定一只 Pokémon mascot</dd>
+        </dl>
+        <p class="lesson">现代 Pokémon 网页越来越敢于“少说一点，让角色本身建立气氛”。</p>
+        <a class="source" href="https://corporate.pokemon.co.jp/en/topics/detail/t-44/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="05 Editorial Web" data-type="Community forum / news" data-priority="CONTRAST">
+      <a class="shot" href="https://www.pokebeach.com/2015/05/welcome-to-the-new-pokebeach" target="_blank" rel="noreferrer">
+        <img src="https://www.pokebeach.com/news/0515/forums.jpg" alt="PokéBeach 2015" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2015</span><strong>CONTRAST</strong></div>
+        <h2>PokéBeach</h2>
+        <p class="type">Community forum / news · 05 Editorial Web</p>
+        <div class="tags"><span class="tag">community</span><span class="tag">forum</span><span class="tag">modernized</span><span class="tag">identity</span></div>
+        <dl>
+          <dt>Layout</dt><dd>大品牌头图 + 常规水平导航 + 论坛分区卡</dd>
+          <dt>Pokémon usage</dt><dd>品牌插图主要集中在 header，内容区更克制</dd>
+          <dt>Reuse</dt><dd>社区/投稿入口、分区页面、讨论区，而非访谈正文</dd>
+          <dt>Avoid</dt><dd>不要把论坛卡片结构当成文章结构</dd>
+        </dl>
+        <p class="lesson">社区站现代化后依然可以保留长年形成的身份，而不必变成官方品牌站。</p>
+        <a class="source" href="https://www.pokebeach.com/2015/05/welcome-to-the-new-pokebeach" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="05 Editorial Web" data-type="Official connected service" data-priority="SECONDARY">
+      <a class="shot" href="https://www.pokemon-sunmoon-cn.com/sc/fight/161004_02.html" target="_blank" rel="noreferrer">
+        <img src="https://www.pokemon-sunmoon-cn.com/sc/common/images/fight/161004_02/img_01.png" alt="Pokémon Global Link — Sun / Moon 2016" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2016</span><strong>SECONDARY</strong></div>
+        <h2>Pokémon Global Link — Sun / Moon</h2>
+        <p class="type">Official connected service · 05 Editorial Web</p>
+        <div class="tags"><span class="tag">service</span><span class="tag">dashboard</span><span class="tag">flat</span><span class="tag">data</span></div>
+        <dl>
+          <dt>Layout</dt><dd>三栏 Dashboard：功能菜单 / News+统计 / Calendar+Ranking</dd>
+          <dt>Pokémon usage</dt><dd>Pokémon 出现在任务、奖励与战绩语境中</dd>
+          <dt>Reuse</dt><dd>Research mode、状态字段、筛选/排行等数据页面</dd>
+          <dt>Avoid</dt><dd>不要把数据卡塞进阅读层</dd>
+        </dl>
+        <p class="lesson">2016 的 PGL 已从 Web 2.0 视觉转向更清晰的应用界面。</p>
+        <a class="source" href="https://www.pokemon-sunmoon-cn.com/sc/fight/161004_02.html" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="06 Switch Microsite" data-type="Game microsite" data-priority="CORE">
+      <a class="shot" href="https://www.pokemon.co.jp/ex/sword_shield/" target="_blank" rel="noreferrer">
+        <img src="https://gamershi.com/uploads/image613454dddd.png" alt="Pokémon Sword / Shield Official Site 2019" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2019</span><strong>CORE</strong></div>
+        <h2>Pokémon Sword / Shield Official Site</h2>
+        <p class="type">Game microsite · 06 Switch Microsite</p>
+        <div class="tags"><span class="tag">game</span><span class="tag">hero</span><span class="tag">region</span><span class="tag">minimal-nav</span></div>
+        <dl>
+          <dt>Layout</dt><dd>全宽 Hero + 极简顶栏 + 下方卡片式 Topics</dd>
+          <dt>Pokémon usage</dt><dd>Zacian / Zamazenta 与 Galar 景观直接构成页面舞台</dd>
+          <dt>Reuse</dt><dd>2017–21 的大图标题、章节 lead、版本双色 accent</dd>
+          <dt>Avoid</dt><dd>访谈页不要首屏占满整屏 Hero</dd>
+        </dl>
+        <p class="lesson">Switch 时代的官方站不再靠按钮证明“这是 Pokémon”，而靠世界观本身。</p>
+        <a class="source" href="https://www.pokemon.co.jp/ex/sword_shield/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="06 Switch Microsite" data-type="Game / service microsite" data-priority="CONTRAST">
+      <a class="shot" href="https://www.pokemonunite.jp/" target="_blank" rel="noreferrer">
+        <img src="https://image.itmedia.co.jp/news/articles/2106/24/l_ts0153_unite03.jpg" alt="Pokémon UNITE 2021" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2021</span><strong>CONTRAST</strong></div>
+        <h2>Pokémon UNITE</h2>
+        <p class="type">Game / service microsite · 06 Switch Microsite</p>
+        <div class="tags"><span class="tag">game</span><span class="tag">landing</span><span class="tag">dynamic</span><span class="tag">modern</span></div>
+        <dl>
+          <dt>Layout</dt><dd>斜切大 Hero + 顶部细导航 + TOPICS 纵向内容</dd>
+          <dt>Pokémon usage</dt><dd>战斗动作直接成为版式方向性</dd>
+          <dt>Reuse</dt><dd>活动页/赛事页可借鉴动势与大图，但不适合历史访谈默认页</dd>
+          <dt>Avoid</dt><dd>不要把强运动视觉应用到历史档案</dd>
+        </dl>
+        <p class="lesson">现代 Pokémon 产品站越来越接近标准高质量产品 Landing Page。</p>
+        <a class="source" href="https://www.pokemonunite.jp/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+    <article class="card" data-era="07 Modern Archive" data-type="Official portal" data-priority="CORE">
+      <a class="shot" href="https://ph.portal-pokemon.com/topics/post-4518/" target="_blank" rel="noreferrer">
+        <img src="https://ph.portal-pokemon.com/images/37d415bc59f60c63b8177f78e20f5666.jpg" alt="Pokémon Official Website — refreshed design 2026" loading="lazy" referrerpolicy="no-referrer">
+      </a>
+      <div class="card-body">
+        <div class="meta"><span>2026</span><strong>CORE</strong></div>
+        <h2>Pokémon Official Website — refreshed design</h2>
+        <p class="type">Official portal · 07 Modern Archive</p>
+        <div class="tags"><span class="tag">portal</span><span class="tag">modern</span><span class="tag">clean</span><span class="tag">image-first</span></div>
+        <dl>
+          <dt>Layout</dt><dd>轻量顶栏 + 大卡片轮播 + Pick Up / Topic 纵向区块</dd>
+          <dt>Pokémon usage</dt><dd>品牌已足够成熟，不需要密集 Pokémon 装饰</dd>
+          <dt>Reuse</dt><dd>PokeAmice 2026 默认层：安静、现代、Entity/Archive 优先</dd>
+          <dt>Avoid</dt><dd>不要为了“宝可梦感”强行恢复旧时代装饰</dd>
+        </dl>
+        <p class="lesson">2026 的终点应该是：怀旧退到内容关系里，界面本身成熟而安静。</p>
+        <a class="source" href="https://ph.portal-pokemon.com/topics/post-4518/" target="_blank" rel="noreferrer">Open source ↗</a>
+      </div>
+    </article>
+    
+  </section>
+</main>
+<footer>
+  Visual research board generated for PokeAmice Docs. See README.md for full analysis and references.yml for structured metadata.
+</footer>
+<script>
+const buttons=[...document.querySelectorAll('button[data-filter]')];
+const cards=[...document.querySelectorAll('.card')];
+buttons.forEach(btn=>btn.addEventListener('click',()=>{
+  buttons.forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  const f=btn.dataset.filter.toLowerCase();
+  cards.forEach(card=>{
+    const hay=(card.dataset.priority+' '+card.dataset.type+' '+card.dataset.era).toLowerCase();
+    card.hidden = !(f==='all' || hay.includes(f));
+  });
+}));
+</script>
+</body>
+</html>

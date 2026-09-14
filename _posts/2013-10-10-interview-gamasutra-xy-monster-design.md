@@ -43,12 +43,8 @@ entities:
   games:
   - 宝可梦 X·Y
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2013-10-10-interview-gamasutra-xy-monster-design/froakie.png
-  alt: 《宝可梦 X·Y》最初的伙伴与怪兽设计哲学
-  caption: Gamasutra 独家专访：吉田宏信与增田顺一揭晓《X·Y》宝可梦设计委员会与御三家哲学
 - original: When you think of the Pokemon game franchise, of course you think of its iconic monsters. Pokemon, after all, is a portmanteau of its Japanese title, Pocket Monsters, and the series' most iconic mon' is Pikachu, which still serves as its symbol over a decade later. With every game in the franchise, a team of monster designers at developer Game Freak comes up with new creatures for players to battle and catch.
-  translation: 当你想到宝可梦游戏系列时，自然会想到它标志性的宝可梦。毕竟，宝可梦（Pokemon）是日文标题“口袋妖怪”（Pocket Monsters）的合成词，而该系列最具标志性的宝可梦是皮卡丘，十多年后它仍然是该系列的象征。在该系列的每一款游戏中，开发商Game Freak的宝可梦设计团队都会设计出新的生物，供玩家对战和捕捉。
+  translation: 当你想到宝可梦游戏系列时，自然会想到它标志性的宝可梦。毕竟，宝可梦（Pokemon）是日文原标题“Pocket Monsters”（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的缩写合成词，而该系列最具标志性的宝可梦是皮卡丘，十多年后它仍然是该系列的象征。在该系列的每一款游戏中，开发商Game Freak的宝可梦设计团队都会设计出新的生物，供玩家对战和捕捉。
   note: ''
 - original: Hironobu Yoshida led the graphic design team for the game's interface; he also worked on the monster designs alongside a team of about 20 designers who come up with ideas for pokemon.
   translation: 吉田宏信领导了游戏界面的图形设计团队；他还与约20名设计师组成的团队一起参与宝可梦的设计，这些设计师负责构思宝可梦的创意。
@@ -75,10 +71,6 @@ parallel_items:
   original: '"With the starter pokemon, they always evolve twice, and a lot of players will use these pokemon until the end. They teach the players a bit about the basics, so we need to make sure the designs are at the same time easy to understand -- the way they evolve, for example -- and of course making them appealing is very important to the games," says Masuda.'
   translation: “对于初始宝可梦，它们总是进化两次，许多玩家会一直使用这些宝可梦到最后。它们教会玩家一些基础知识，所以我们需要确保设计同时易于理解——例如它们的进化方式——当然，让它们吸引人对游戏来说非常重要，”增田说。
   note: ''
-- type: image
-  image: /assets/img/interviews/2013-10-10-interview-gamasutra-xy-monster-design/fennekin.png
-  alt: 火狐狸官方艺术图
-  caption: 内部服务器共享与 5 人评审团：从 5 至 10 倍草案中脱颖而出的严酷机制
 - type: heading
   level: 2
   original: The 20-Person Committee and the Rejection Process
@@ -104,10 +96,6 @@ parallel_items:
   original: '"And they also will leave feedback on all of the designs, even the ones that are rejected, to say why they got rejected or why they didn''t choose a certain one. What that lets us do is improve for the future, so we can use that knowledge for the next series of titles," Yoshida says.'
   translation: “他们还会对所有设计给出反馈，即使是落选的设计，也会说明落选的原因或为什么没有选中某个设计。这样我们就能为未来改进，把这些经验用于下一系列的作品。”吉田说道。
   note: ''
-- type: image
-  image: /assets/img/interviews/2013-10-10-interview-gamasutra-xy-monster-design/chespin.png
-  alt: 哈力栗官方艺术图
-  caption: 三视图设定稿与最终调整：确保每只宝可梦在 3D 空间下展现统一的设计灵魂
 - type: heading
   level: 2
   original: 'From Setup Sheets to the Pokédex: The Final Supervision'
@@ -131,3 +119,8 @@ parallel_items:
   translation: “公司真正的一个优点就是非常开放，可以自由讨论，”他补充道。“我认为我们可以互相交谈，直到双方达成一致。”
   note: ''
 ---
+
+
+
+
+

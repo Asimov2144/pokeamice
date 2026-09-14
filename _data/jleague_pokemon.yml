@@ -1,0 +1,727 @@
+- id: mito-salamence
+  number: "01"
+  team: "水户蜀葵"
+  team_jp: "水戸ホーリーホック"
+  pokemon: "暴飞龙"
+  pokemon_jp: "ボーマンダ"
+  kicker: "DRAGON / ASCENT"
+  accent: "#0669a9"
+  deck: >-
+    蓝色飞龙、三叶葵纹与漫长升级史叠在一起，让这组搭档不只是颜色相配，更像一支终于长出翅膀的球队。
+  evolution: ["宝贝龙", "甲壳龙", "暴飞龙"]
+  tags: ["队徽", "升级史", "地域文化"]
+  reasons:
+    - title: "从三叶葵纹读到龙"
+      body: >-
+        队徽中央的三叶葵纹关联水户藩主德川光圀“子龙”的意象；球队与球迷文化也长期使用“龙”，从名字到视觉都为暴飞龙铺好了位置。
+    - title: "一段真正的进化史"
+      body: >-
+        水户长期征战 J2，夺冠后才升入 J1。这个过程像甲壳龙一直渴望飞行，最终在漫长等待后进化为暴飞龙，也吻合准神“大器晚成”的成长曲线。
+    - title: "颜色与地方线索"
+      body: >-
+        吉祥物ホーリーくん的绿色身体与红色头部会让人联想到闪光暴飞龙；邻近的常陆太田市还有代表龙神大桥的暴飞龙井盖。
+  spotlight: "球队完成升级，甲壳龙也终于长出翅膀。"
+  images:
+    - src: "/assets/images/jleague-pokemon/01-mito-salamence-01.webp"
+      alt: "水户蜀葵与暴飞龙联动主视觉"
+      caption: "EVOLUTION 联动主视觉：暴飞龙与水户蜀葵队徽。"
+    - src: "/assets/images/jleague-pokemon/01-mito-salamence-02.webp"
+      alt: "水户球迷看台组成葵龙图案"
+      caption: "球队以“葵龙”为庆祝符号，球迷后援会也使用葵龙之名。"
+    - src: "/assets/images/jleague-pokemon/01-mito-salamence-03.webp"
+      alt: "茨城县常陆太田市的暴飞龙宝可梦井盖"
+      caption: "常陆太田市的暴飞龙井盖把联动延伸到地方地标。"
+
+- id: kashiwa-heliolisk
+  number: "02"
+  team: "柏太阳神"
+  team_jp: "柏レイソル"
+  pokemon: "光电伞蜥"
+  pokemon_jp: "エレザード"
+  kicker: "SUN / ELECTRIC"
+  accent: "#d8b600"
+  deck: >-
+    Reysol 的太阳、电机企业的历史，以及光电伞蜥的太阳之石与太阳之力，共同把一个看似备用的选择变成多线闭环。
+  evolution: ["伞电蜥", "光电伞蜥"]
+  tags: ["队名", "企业史", "宝可梦设定"]
+  reasons:
+    - title: "先排除最直观的答案"
+      body: >-
+        Reysol 来自西班牙语 Rey（王）与 Sol（太阳），索尔迦雷欧本来在名称和太阳意象上最直接，但神兽没有进化，无法进入本次 Evolution 的候选范围。
+    - title: "日立制造的电属性"
+      body: >-
+        柏太阳神脱胎于日立制作所足球部。大型电机制造商的企业背景，让电属性不只是外观联想，而是俱乐部历史的一部分。
+    - title: "太阳之石、太阳之力与颈伞"
+      body: >-
+        光电伞蜥使用太阳之石进化，并拥有隐藏特性“太阳之力”；黄、橙、黑配色与球队接近，展开颈伞后的轮廓也很像一轮耀眼太阳。
+    - title: "吉祥物的细节认证"
+      body: >-
+        球迷合影显示，吉祥物与光电伞蜥在眼瞳和颈部环形设计上都很相似，说明它并不是简单被扶正的次选。
+  spotlight: "王与太阳只是起点，电属性才把俱乐部历史接了进来。"
+  images:
+    - src: "/assets/images/jleague-pokemon/02-kashiwa-heliolisk-01.webp"
+      alt: "柏太阳神与光电伞蜥联动主视觉"
+      caption: "光电伞蜥与柏太阳神的太阳、电力和配色线索。"
+    - src: "/assets/images/jleague-pokemon/02-kashiwa-heliolisk-02.webp"
+      alt: "光电伞蜥展开颈伞的视觉"
+      caption: "展开的颈伞强化了太阳的轮廓。"
+    - src: "/assets/images/jleague-pokemon/02-kashiwa-heliolisk-03.webp"
+      alt: "柏太阳神吉祥物与光电伞蜥合影"
+      caption: "眼瞳与颈部圆环，让两种角色语言自然重合。"
+
+- id: tokyo-verdy-decidueye
+  number: "03"
+  team: "东京绿荫"
+  team_jp: "東京ヴェルディ"
+  pokemon: "狙射树枭"
+  pokemon_jp: "ジュナイパー"
+  kicker: "GREEN / ARCHER"
+  accent: "#16824b"
+  deck: >-
+    Verde 的绿色、鹰形队徽与戴帽吉祥物，将狙射树枭一家从颜色、物种和角色动作三个层面同时锁定。
+  evolution: ["木木枭", "投羽枭", "狙射树枭"]
+  tags: ["队名", "队徽", "吉祥物"]
+  reasons:
+    - title: "Verde 就是绿色"
+      body: >-
+        ヴェルディ来自葡萄牙语 Verde。绿色既是球队名称的来源，也是狙射树枭最醒目的视觉识别。
+    - title: "绿色的鹰"
+      body: >-
+        队徽是一只绿色的鹰，背景色与树枭翅膀的色块可以自然融合，物种与颜色都直接对应。
+    - title: "帽子让吉祥物成为关键"
+      body: >-
+        吉祥物リヴェルン的帽子、头部、翅膀与姿态都像狙射树枭；摘下帽子后又有木木枭的神态。2025 年宣传片还把“戴好帽子”写进兄妹观赛故事。
+    - title: "读卖乐园旁的球队"
+      body: >-
+        东京绿荫前身是读卖足球俱乐部，训练场也在读卖乐园旁，与关东宝可乐园的现实位置形成额外背景联系。
+  spotlight: "戴上帽子是狙射树枭，摘下帽子又像木木枭。"
+  images:
+    - src: "/assets/images/jleague-pokemon/03-tokyo-verdy-decidueye-01.webp"
+      alt: "东京绿荫与狙射树枭联动主视觉"
+      caption: "绿色、鹰与帽子共同构成的直观匹配。"
+
+- id: urawa-incineroar
+  number: "04"
+  team: "浦和红钻"
+  team_jp: "浦和レッズ"
+  pokemon: "炽焰咆哮虎"
+  pokemon_jp: "ガオガエン"
+  kicker: "RED DIAMOND / ROAR"
+  accent: "#c9242c"
+  deck: >-
+    红钻像 Z 结晶，黄色圆形像冠军腰带上的火苗，而浦和主场的巨大声浪，正好回应“观众越兴奋，斗志越旺盛”。
+  evolution: ["火斑喵", "炎热喵", "炽焰咆哮虎"]
+  tags: ["队名", "队徽", "主场文化"]
+  reasons:
+    - title: "红钻与 Z 结晶"
+      body: >-
+        “红钻”让队徽产生阿罗拉 Z 结晶的观感；其中黄色圆形又像炽焰咆哮虎腰带上的火苗。
+    - title: "综合色彩而非单一火系"
+      body: >-
+        红、白、黄、黑可以对应多只火系宝可梦，但炽焰咆哮虎在轮廓、格斗舞台感和颜色组合上更完整。白色部分尤其让人联想到闪光形态。
+    - title: "声浪转化为斗志"
+      body: >-
+        图鉴中“观众越兴奋，它的斗志越旺盛”的描述，与浦和主场著名的声势高度契合；特性“威吓”也能被读成对客队的压力。
+  spotlight: "这里的关联不是安静观看，而是让整个主场把斗志推到最高。"
+  images:
+    - src: "/assets/images/jleague-pokemon/04-urawa-incineroar-01.webp"
+      alt: "浦和红钻与炽焰咆哮虎联动主视觉"
+      caption: "红钻、Z 结晶和冠军腰带在同一个画面相遇。"
+    - src: "/assets/images/jleague-pokemon/04-urawa-incineroar-02.webp"
+      alt: "浦和红钻队徽与 Z 结晶视觉对照"
+      caption: "队徽轮廓与 Z 结晶的视觉联想。"
+    - src: "/assets/images/jleague-pokemon/04-urawa-incineroar-03.webp"
+      alt: "炽焰咆哮虎相关图鉴说明"
+      caption: "观众声浪越大，斗志越旺盛。"
+
+- id: chiba-boltund
+  number: "05"
+  team: "千叶市原"
+  team_jp: "ジェフユナイテッド千葉"
+  pokemon: "逐电犬"
+  pokemon_jp: "パルスワン"
+  kicker: "SPEED / UNITED"
+  accent: "#e2bc00"
+  deck: >-
+    电工企业的历史、秋田犬队徽的速度感、United 的合作精神，以及 WON 与“ワン”的语音游戏，让逐电犬成为球迷早已猜中的答案。
+  evolution: ["来电汪", "逐电犬"]
+  tags: ["企业史", "速度", "文字游戏"]
+  reasons:
+    - title: "古河电工留下的电"
+      body: >-
+        球队前身是古河电工足球部，电属性由俱乐部历史自然延伸出来。
+    - title: "秋田犬与猎狐犬共享速度姿态"
+      body: >-
+        队徽的秋田犬与逐电犬的猎狐犬原型并不相同，但前倾、拉长、蓄势待发的身体语言都在强调高速。
+    - title: "United 是合作"
+      body: >-
+        来电汪会为了零食帮助人类工作，拥有“捡球”特性；逐电犬又是狐大盗的天敌。两者都强化了与人合作，正好接住 United 的球队精神。
+    - title: "WON 与ワン"
+      body: >-
+        球队品牌 WON 既指 WE OWN NOW，也解释为秋田犬叫声“ワン”；逐电犬日文名パルスワン因此像一位天生的品牌代言人。
+    - title: "提前一年的官方暗示"
+      body: >-
+        前一年的宝可梦中心联动合影点已经出现来电汪与逐电犬，很多球迷在官宣前就猜到了结果。唯一遗憾是逐电犬仍缺少方便带进主场的毛绒商品。
+  spotlight: "电、速度、合作与一声“汪”，每条线索都指向同一只宝可梦。"
+  images:
+    - src: "/assets/images/jleague-pokemon/05-chiba-boltund-01.webp"
+      alt: "千叶市原与逐电犬联动主视觉"
+      caption: "秋田犬队徽与逐电犬共享向前冲刺的气势。"
+    - src: "/assets/images/jleague-pokemon/05-chiba-boltund-02.webp"
+      alt: "宝可梦中心东京湾与千叶市原联动合影板"
+      caption: "前一年的联动现场已经把来电汪和逐电犬放进球队语境。"
+
+- id: kashima-charizard
+  number: "06"
+  team: "鹿岛鹿角"
+  team_jp: "鹿島アントラーズ"
+  pokemon: "喷火龙"
+  pokemon_jp: "リザードン"
+  kicker: "CHAMPION / ORIGINAL 10"
+  accent: "#b51f2a"
+  deck: >-
+    看似“挂龙头卖鹿肉”，实际选择绕过动物直译，以冠军数量、常青人气和英格兰足球原型，寻找一只足以代表王者球队的宝可梦。
+  evolution: ["小火龙", "火恐龙", "喷火龙"]
+  tags: ["冠军史", "强者象征", "足球文化"]
+  reasons:
+    - title: "鹿角来自鹿岛神宫"
+      body: >-
+        アントラーズ来自 Antlers，鹿的意象源于鹿岛神宫。它解释了球队，却不是最终选宝的唯一方向。
+    - title: "J 联赛的王者"
+      body: >-
+        鹿岛拥有 9 次日本顶级联赛冠军，也是 Original 10 之一。选择需要承接的首先是长期统治力，而不是只找一只有角的宝可梦。
+    - title: "喷火龙是长期强者"
+      body: >-
+        丹帝、艾岚等训练家都以喷火龙为搭档，Mega 环境中的持续强势又让它拥有“常青树”的竞技印象。
+    - title: "为什么不是闪焰王牌"
+      body: >-
+        闪焰王牌太直接地代表足球运动员，单独分给某支球队反而会让其他球队显得失衡；喷火龙作为伽勒尔不败冠军的搭档，仍然保留了足球文化的连接。
+  spotlight: "它代表的不是鹿，而是这支球队长期站在冠军位置上的重量。"
+  images:
+    - src: "/assets/images/jleague-pokemon/06-kashima-charizard-01.webp"
+      alt: "鹿岛鹿角与喷火龙联动主视觉"
+      caption: "王者球队与宝可梦系列的强者象征。"
+
+- id: fc-tokyo-ceruledge
+  number: "07"
+  team: "FC 东京"
+  team_jp: "FC東京"
+  pokemon: "苍炎刃鬼"
+  pokemon_jp: "ソウブレイズ"
+  kicker: "GAS / BLUE FLAME"
+  accent: "#2166a7"
+  deck: >-
+    从炭小侍的红火到苍炎刃鬼的蓝火，既是一条进化线，也像煤与瓦斯由不充分燃烧走向完全燃烧的颜色变化。
+  evolution: ["炭小侍", "苍炎刃鬼"]
+  tags: ["企业史", "配色", "进化隐喻"]
+  reasons:
+    - title: "蓝与红从进化链中补齐"
+      body: >-
+        FC 东京主色为蓝与红。苍炎刃鬼承接蓝色火焰，而红色主要从进化前的炭小侍进入这组视觉。
+    - title: "煤火由红转蓝"
+      body: >-
+        炭小侍的头盔像蜂窝煤；燃烧不充分时火焰偏黄红，充分燃烧时偏蓝。红火升腾成蓝火，正好成为进化强度的视觉叙事。
+    - title: "东京瓦斯的企业记忆"
+      body: >-
+        球队前身是东京瓦斯足球部。瓦斯完全燃烧时内焰苍蓝、外焰橘红，让配色不再只是巧合。
+    - title: "水晶灯火灵为何落后"
+      body: >-
+        水晶灯火灵同样拥有蓝色火焰，但无法同时承接球队前身、煤与瓦斯以及由红转蓝的进化关系。
+  spotlight: "红色不是缺席，它藏在进化前的那团火里。"
+  images:
+    - src: "/assets/images/jleague-pokemon/07-fc-tokyo-ceruledge-01.webp"
+      alt: "FC 东京与苍炎刃鬼联动主视觉"
+      caption: "蓝色火焰与 FC 东京主色。"
+    - src: "/assets/images/jleague-pokemon/07-fc-tokyo-ceruledge-02.webp"
+      alt: "炭小侍与苍炎刃鬼的红蓝火焰对照"
+      caption: "从红火到蓝火的进化，也是一段燃烧状态的变化。"
+
+- id: machida-greninja
+  number: "08"
+  team: "町田泽维亚"
+  team_jp: "FC町田ゼルビア"
+  pokemon: "甲贺忍蛙"
+  pokemon_jp: "ゲッコウガ"
+  kicker: "ORIGIN / TACTICS"
+  accent: "#27509a"
+  deck: >-
+    它不是吉祥物的直译，而是从田尻智的故乡、真新镇的现实原型，再走到“变换自在”战术和水之手里剑的一次浪漫选宝。
+  evolution: ["呱呱泡蛙", "呱头蛙", "甲贺忍蛙"]
+  tags: ["地域原型", "动画", "战术"]
+  reasons:
+    - title: "表面上并不直观"
+      body: >-
+        球队吉祥物是一只翠鸟，蓝色调也让部分球迷先想到狂欢浪舞鸭；甲贺忍蛙的理由需要越过外观才能看见。
+    - title: "小智与田尻智的町田"
+      body: >-
+        动画中存在与小智牵绊变身的甲贺忍蛙；町田又是宝可梦之父田尻智的故乡，也常被视为真新镇原型之一。
+    - title: "变换自在的球风"
+      body: >-
+        球迷把泽维亚多变的战术形容为“变换自在”，标志性的手抛球又像水之手里剑。足球语境补足了角色动作的连接。
+    - title: "异军突起的成长"
+      body: >-
+        町田从较晚进入 J 联赛到首次升入 J1 后迅速具备争冠实力，本身也带有突变式成长的进化感。
+  spotlight: "这是一种要从城市记忆读进去，才会突然明白的匹配。"
+  images:
+    - src: "/assets/images/jleague-pokemon/08-machida-greninja-01.webp"
+      alt: "町田泽维亚与甲贺忍蛙联动主视觉"
+      caption: "城市原型与战术语汇共同支撑甲贺忍蛙。"
+    - src: "/assets/images/jleague-pokemon/08-machida-greninja-02.webp"
+      alt: "町田市内的球队宣传与宝可梦巡礼照片"
+      caption: "町田把球队崛起写进了整座城市的街景。"
+
+- id: kawasaki-palafin
+  number: "09"
+  team: "川崎前锋"
+  team_jp: "川崎フロンターレ"
+  pokemon: "海豚侠"
+  pokemon_jp: "イルカマン"
+  kicker: "DOLPHIN / SUPER SUB"
+  accent: "#55b9de"
+  deck: >-
+    唯一的海豚家族先完成物种对应，而全能形态的换人机制又把川崎擅长用替补制造后半场攻势的传统写了进去。
+  evolution: ["波普海豚", "海豚侠"]
+  tags: ["吉祥物", "替补战术", "球迷文化"]
+  reasons:
+    - title: "唯一的海豚家族"
+      body: >-
+        物种层面几乎没有竞争者。企划前已经有球迷带着海豚侠进场应援，球队之爱早就延伸到这只宝可梦。
+    - title: "Frontale 就是前方与前锋"
+      body: >-
+        フロンターレ来自意大利语 Frontale，含有正面、前方的意思，在足球语境中也直接指向前锋。
+    - title: "全能形态就是超级替补"
+      body: >-
+        海豚侠通过离场再登场变为全能形态，像川崎主动换人后在下半场制造攻势的战术传统。
+    - title: "三笘薰的现实例证"
+      body: >-
+        三笘薰首秀赛季 13 个联赛进球中有 8 个来自替补登场；川崎当季还有 26 球由替补球员攻入，全队都有“超级替补”的影子。
+  spotlight: "离场不是退却，而是为了以全能形态重新登场。"
+  images:
+    - src: "/assets/images/jleague-pokemon/09-kawasaki-palafin-01.webp"
+      alt: "川崎前锋与海豚侠联动主视觉"
+      caption: "海豚吉祥物与全能形态的战术双关。"
+    - src: "/assets/images/jleague-pokemon/09-kawasaki-palafin-02.webp"
+      alt: "川崎前锋球迷收集海豚侠的画面"
+      caption: "球迷在正式企划之前，已经把海豚侠带进球队文化。"
+
+- id: yokohama-azumarill
+  number: "10"
+  team: "横滨水手"
+  team_jp: "横浜F・マリノス"
+  pokemon: "玛力露丽"
+  pokemon_jp: "マリルリ"
+  kicker: "SAILOR / MARU"
+  accent: "#2364a0"
+  deck: >-
+    “水手”是第一层，マリ 的读音与球形尾巴是第二层，大力士和蓝白红配色又把航海劳动与队徽连接起来。
+  evolution: ["露力丽", "玛力露", "玛力露丽"]
+  tags: ["名称", "水手", "配色"]
+  reasons:
+    - title: "游戏里真的有水手使用玛力露丽"
+      body: >-
+        心金魂银的华蓝道馆中可以遇到使用玛力露丽的水手训练家，为这组搭档提供了直接的游戏语境。
+    - title: "像吉祥物家族的新亲戚"
+      body: >-
+        球队吉祥物マリノス君、マリノスケ、マリン都是海鸥家族；玛力露丽名称中的マリ让它听起来像家族新成员。
+    - title: "两个マリ的来源不同"
+      body: >-
+        マリノス来自西班牙语 Marinos（水手），玛力露丽的マリ来自鞠／毬（球）。正是这个差异，把航海和足球通过圆球尾巴连在一起。
+    - title: "大力士与三色"
+      body: >-
+        特性“大力士”可以对应拖船与起锚的体力劳动；蓝、白、红三色则与横滨水手队徽相得益彰。
+  spotlight: "名称看似同源，真正的妙处却在水手与球之间的错位。"
+  images:
+    - src: "/assets/images/jleague-pokemon/10-yokohama-azumarill-01.webp"
+      alt: "横滨水手与玛力露丽联动主视觉"
+      caption: "水手、球形尾巴与三色队徽。"
+    - src: "/assets/images/jleague-pokemon/10-yokohama-azumarill-02.gif"
+      alt: "游戏中使用玛力露丽的水手训练家"
+      caption: "游戏中的水手训练家给出直接出处。"
+    - src: "/assets/images/jleague-pokemon/10-yokohama-azumarill-03.webp"
+      alt: "横滨水手的海鸥吉祥物"
+      caption: "マリノス君、マリノスケ与マリン组成的海鸥家族。"
+    - src: "/assets/images/jleague-pokemon/10-yokohama-azumarill-04.webp"
+      alt: "玛力露丽与横滨水手视觉对照"
+      caption: "蓝白红配色让两套视觉系统自然靠拢。"
+
+- id: shimizu-pawmot
+  number: "11"
+  team: "清水心跳"
+  team_jp: "清水エスパルス"
+  pokemon: "巴布土拨"
+  pokemon_jp: "パーモット"
+  kicker: "PULSE / REVIVAL"
+  accent: "#e97725"
+  deck: >-
+    Pulse 从球队名字进入心跳，巴布土拨再用电力、急救与复生祈祷把“生命感”落实成最完整的一次设定对应。
+  evolution: ["布拨", "布土拨", "巴布土拨"]
+  tags: ["队名", "AED", "市民俱乐部"]
+  reasons:
+    - title: "S-Pulse 的生命感"
+      body: >-
+        S 来自 Soccer、Shimizu、Shizuoka，Pulse 是脉搏与鼓动，代表市民因足球而心跳加速的兴奋。
+    - title: "一支市民型俱乐部"
+      body: >-
+        清水没有单一母企业，而是依托校园足球、青训、地方企业与市民支持。这个出身让“脉搏”更像整座城市共同维持的生命信号。
+    - title: "巴布土拨就是急救者"
+      body: >-
+        它通过双手释放电力进行手当，还能学习“复生祈祷”，恢复失去战斗能力的同伴，设计明显指向 AED。
+    - title: "官方合作补上认证"
+      body: >-
+        日本各地 AED 设置点曾与宝可补给站关联并显示巴布土拨图案，使原型关系得到现实活动呼应。
+    - title: "跌宕战绩让人心跳不止"
+      body: >-
+        从早期争冠到多次降级、九连胜升级和再次回归 J1，球队历史本身就是一条反复加速的心电图。
+  spotlight: "能让心跳加速的橙色电系，只有巴布土拨。"
+  images:
+    - src: "/assets/images/jleague-pokemon/11-shimizu-pawmot-01.webp"
+      alt: "清水心跳与巴布土拨联动主视觉"
+      caption: "Pulse、橙色电系与复苏生命的设定相遇。"
+    - src: "/assets/images/jleague-pokemon/11-shimizu-pawmot-02.webp"
+      alt: "巴布土拨抱住心脏的宣传视觉"
+      caption: "抱住心脏的姿态几乎可以直接成为俱乐部宣传。"
+
+- id: nagoya-typhlosion
+  number: "12"
+  team: "名古屋鲸八"
+  team_jp: "名古屋グランパス"
+  pokemon: "火暴兽"
+  pokemon_jp: "バクフーン"
+  kicker: "GRAMPUS / RISING FIRE"
+  accent: "#bd1d1a"
+  deck: >-
+    新旧队徽的更替像火球鼠进化为火暴兽：旧标圆润、像小兽，新标把鲸八轮廓卷成背部升腾的火焰气流。
+  evolution: ["火球鼠", "火岩鼠", "火暴兽"]
+  tags: ["Logo 进化", "金鯱", "火焰气流"]
+  reasons:
+    - title: "先承认异色方案更直接"
+      body: >-
+        如果企划纳入异色宝可梦，金色鲤鱼王与红色暴鲤龙能对应金鯱和丰田时代的红球衣。但异色不在本次范围内，方案只能转向更深的视觉结构。
+    - title: "新 Logo 是升腾的火焰"
+      body: >-
+        俱乐部把鲸八轮廓处理成向上卷起的火焰气流；火暴兽的背部火焰和阳炎设定同样表现燃烧、升腾与气流。
+    - title: "火暴兽像火焰化的鲸八"
+      body: >-
+        背部火焰像虎鲸背鳍，身体轮廓与新标的弧线接近，周围热浪又像鲸八外侧卷起的火舌。
+    - title: "旧 Logo 属于火球鼠"
+      body: >-
+        旧标圆润、吻部前伸，深浅色块、背鳍与火焰、眼部和小手都接近火球鼠。换标因此像一次完整进化。
+    - title: "怕水的陆地鲸鱼"
+      body: >-
+        球队吉祥物被设定为长期生活在陆地、已经忘记游泳并且怕水的鲸鱼，这个补充又让它更接近火球鼠一家。
+  spotlight: "最精彩的不是动物原型，而是旧标到新标真的完成了一次进化。"
+  images:
+    - src: "/assets/images/jleague-pokemon/12-nagoya-typhlosion-01.webp"
+      alt: "名古屋鲸八与火暴兽联动主视觉"
+      caption: "火暴兽的背部火焰与鲸八新 Logo。"
+    - src: "/assets/images/jleague-pokemon/12-nagoya-typhlosion-02.webp"
+      alt: "火暴兽型球队 Logo 设计"
+      caption: "粉丝设计让火暴兽与新标的轮廓更加清楚。"
+    - src: "/assets/images/jleague-pokemon/12-nagoya-typhlosion-03.webp"
+      alt: "火球鼠与名古屋鲸八旧 Logo 对照"
+      caption: "旧 Logo 的圆润轮廓更像火球鼠。"
+    - src: "/assets/images/jleague-pokemon/12-nagoya-typhlosion-04.webp"
+      alt: "作者第一次购买名古屋鲸八 J1 门票"
+      caption: "联动也把作者重新带回现实中的足球场。"
+
+- id: kyoto-gengar
+  number: "13"
+  team: "京都不死鸟"
+  team_jp: "京都サンガF.C."
+  pokemon: "耿鬼"
+  pokemon_jp: "ゲンガー"
+  kicker: "KYOTO / GHOST STORY"
+  accent: "#68418d"
+  deck: >-
+    凤王因没有进化而出局，耿鬼则用紫色、红白五官、缘朱市与京都怪谈，重新建立一套从地域文化出发的答案。
+  evolution: ["鬼斯", "鬼斯通", "耿鬼"]
+  tags: ["落选方案", "地域原型", "怪谈文化"]
+  reasons:
+    - title: "凤王为什么没有入选"
+      body: >-
+        球队不死鸟意象来自金阁寺金凤凰，吉祥物也是凤凰原型，凤王本来最直观；但它没有进化，无法匹配 Evolution 主题。
+    - title: "紫色之外还有红与白"
+      body: >-
+        球队主色紫色对应耿鬼身体，队徽白色与红色又能分别对应牙齿、舌头和眼睛。
+    - title: "缘朱市就是京都"
+      body: >-
+        缘朱市的现实原型是京都，而当地道馆馆主松叶的王牌正是耿鬼，这是一条非常具体的游戏地理关联。
+    - title: "怪谈之都与僧伽"
+      body: >-
+        京都长期是幽灵、怨灵与怪谈的重要舞台；サンガ又来自梵语“僧伽”，把球队名称与古都寺庙文化间接连在一起。
+  spotlight: "失去凤王之后，京都的夜色反而为耿鬼打开了另一条路。"
+  images:
+    - src: "/assets/images/jleague-pokemon/13-kyoto-gengar-01.webp"
+      alt: "京都不死鸟与耿鬼联动主视觉"
+      caption: "紫色俱乐部与缘朱市道馆王牌。"
+    - src: "/assets/images/jleague-pokemon/13-kyoto-gengar-02.webp"
+      alt: "京都与耿鬼的地域文化对照"
+      caption: "缘朱市、松叶与京都怪谈构成第二套解释。"
+
+- id: gamba-luxray
+  number: "14"
+  team: "大阪钢巴"
+  team_jp: "ガンバ大阪"
+  pokemon: "伦琴猫"
+  pokemon_jp: "レントラー"
+  kicker: "ELECTRIC / LION"
+  accent: "#1c5f9d"
+  deck: >-
+    球迷原先期待路卡利欧，最终答案却落在吉祥物手中的闪电、松下电器的企业历史，以及一只拥有狮子鬃毛的电系宝可梦上。
+  evolution: ["小猫怪", "勒克猫", "伦琴猫"]
+  tags: ["吉祥物", "电器产业", "球迷梗"]
+  reasons:
+    - title: "钢巴小子是一只握着闪电的狮子"
+      body: >-
+        伦琴猫的鬃毛与吉祥物钢巴小子的发型接近，手握闪电的造型更像在等待一只电系狮子接班。
+    - title: "松下电器决定属性"
+      body: >-
+        球队前身是松下电器产业足球部，腰带上的 P 对应 Panasonic；大阪又是松下、夏普、三洋等电器产业的重要基地。
+    - title: "路卡利欧是球迷的另一答案"
+      body: >-
+        公开前后都有球迷认为路卡利欧更适合，但官方更看重吉祥物造型和电器企业史的叠加。
+    - title: "进化与新教练的关西调侃"
+      body: >-
+        官宣当天主教练离任，球迷把进化シンカ调侃成更想要新教练シンカントク；换帅也被顺势读成球队可能发生的现实进化。
+  spotlight: "一只电系狮子，刚好接住钢巴小子手里的那道闪电。"
+  images:
+    - src: "/assets/images/jleague-pokemon/14-gamba-luxray-01.webp"
+      alt: "大阪钢巴与伦琴猫联动主视觉"
+      caption: "电系狮子与大阪钢巴吉祥物。"
+    - src: "/assets/images/jleague-pokemon/14-gamba-luxray-02.webp"
+      alt: "钢巴小子手持闪电的形象"
+      caption: "手中的闪电与狮子鬃毛是最直观的视觉证据。"
+
+- id: cerezo-cherrim
+  number: "15"
+  team: "大阪樱花"
+  team_jp: "セレッソ大阪"
+  pokemon: "樱花儿"
+  pokemon_jp: "チェリム"
+  kicker: "BLOOM / TEAMWORK"
+  accent: "#dc6b88"
+  deck: >-
+    队名、队徽和晴天形态三线全中，胜利应援歌与“花之礼”又让满开从静态图案变成球迷共同制造的赛后情绪。
+  evolution: ["樱花宝", "樱花儿"]
+  tags: ["队名", "队徽", "应援文化"]
+  reasons:
+    - title: "Cerezo 就是樱花树"
+      body: >-
+        队名来自西班牙语中的樱花树，樱花也是大阪市市花；俱乐部愿景正是让梦想像樱花一样在世界足坛满开。
+    - title: "晴天形态就是队徽的情绪"
+      body: >-
+        队徽左侧是盛开的樱花，联动选择笑容满面的晴天形态，把“满开”从文字变成角色表情。
+    - title: "狼母子补充足球团队性"
+      body: >-
+        队徽右侧红狼与狼母子吉祥物代表智慧、敏捷和集体狩猎，说明球队视觉本身也在强调现代足球的协作。
+    - title: "花之礼与胜利应援歌"
+      body: >-
+        樱花儿的“花之礼”能在晴天下强化队友，契合团队运动；球迷共同录制的 CEREZO満開 又像一朵朵樱花同时开放。
+  spotlight: "比赛结束的一刻，花苞、歌声和整座看台一起盛开。"
+  images:
+    - src: "/assets/images/jleague-pokemon/15-cerezo-cherrim-01.webp"
+      alt: "大阪樱花与樱花儿联动主视觉"
+      caption: "队名、队徽与晴天形态的三重对应。"
+    - src: "/assets/images/jleague-pokemon/15-cerezo-cherrim-02.webp"
+      alt: "大阪樱花胜利应援与满开视觉"
+      caption: "满开不只是图案，也是赛后共同歌唱的情绪。"
+
+- id: kobe-houndoom
+  number: "16"
+  team: "神户胜利船"
+  team_jp: "ヴィッセル神戸"
+  pokemon: "黑鲁加"
+  pokemon_jp: "ヘルガー"
+  kicker: "KOBE / DARK HORN"
+  accent: "#8e1930"
+  deck: >-
+    牛没有进化链，企划只能带着限制寻找替代：角、黑白条纹、乐天红 R、火箭队与第二世代神户原型，最终把黑鲁加拼成完整答案。
+  evolution: ["戴鲁比", "黑鲁加"]
+  tags: ["主题限制", "队徽", "第二世代"]
+  reasons:
+    - title: "最直接的牛被主题挡住"
+      body: >-
+        球队吉祥物是牛，神户也与神户牛紧密绑定；但宝可梦现有牛类都没有进化链，无法服务 Evolution 主题。
+    - title: "角与黑白条纹"
+      body: >-
+        普通黑鲁加的角偏羊角，Mega 形态更接近牛角；背部凸起形成的黑白条纹又与队徽纹理相似。
+    - title: "乐天红 R 像火箭队"
+      body: >-
+        乐天是赞助商兼母公司，旧队服胸前巨大的 Rakuten 红 R 很像火箭队制服；黑鲁加在金银中正是干部阿波罗的王牌。
+    - title: "神户对应浅黄市"
+      body: >-
+        神户常被视为浅黄市现实原型，附近哞哞牧场又能联想到神户牛；第二世代的黑鲁加因此多了一层地域时代感。
+  spotlight: "当牛无法进化，角、条纹和第二世代共同完成了替补方案。"
+  images:
+    - src: "/assets/images/jleague-pokemon/16-kobe-houndoom-01.webp"
+      alt: "神户胜利船与黑鲁加联动主视觉"
+      caption: "角与黑白纹理构成第一层对应。"
+    - src: "/assets/images/jleague-pokemon/16-kobe-houndoom-02.webp"
+      alt: "黑鲁加与 Mega 黑鲁加的角和条纹"
+      caption: "Mega 形态让角更接近神户牛的联想。"
+    - src: "/assets/images/jleague-pokemon/16-kobe-houndoom-03.webp"
+      alt: "神户胜利船旧队服上的 Rakuten 红 R"
+      caption: "红 R、火箭队与阿波罗王牌形成意外支线。"
+
+- id: okayama-unfezant
+  number: "17"
+  team: "冈山绿雉"
+  team_jp: "ファジアーノ岡山"
+  pokemon: "高傲雉（雄性）"
+  pokemon_jp: "ケンホロウ"
+  kicker: "PHEASANT / MOMOTARO"
+  accent: "#862143"
+  deck: >-
+    雉鸟同时命中队名、队徽、吉祥物和桃太郎地方文化；从地区联赛到 J1 的漫长路，又让三段进化显得像为球队量身准备。
+  evolution: ["豆豆鸽", "咕咕鸽", "高傲雉"]
+  tags: ["桃太郎", "三重对应", "升级史"]
+  reasons:
+    - title: "队名、队徽、吉祥物全中"
+      body: >-
+        ファジアーノ来自意大利语 Fagiano（雉），队徽与吉祥物雉丸也都直接使用雉鸟，配色同样接近。
+    - title: "冈山县与桃太郎"
+      body: >-
+        雉是冈山县县鸟，也是桃太郎前往鬼岛的伙伴；冈山市的宝可梦井盖早已用高傲雉代表这段故事。
+    - title: "完整的三段升级"
+      body: >-
+        球队从地区联赛起步，进入 J 联赛后再从 J2 升入 J1，像一条真正走完的三段进化链。
+    - title: "为什么明确选择雄性"
+      body: >-
+        吉祥物雉丸是雄雉，现实中的日本绿雉雄鸟也更具观赏性；官方因此明确采用雄性高傲雉。
+  spotlight: "它不是相似，而是队名、地方故事与球队成长同时给出的唯一答案。"
+  images:
+    - src: "/assets/images/jleague-pokemon/17-okayama-unfezant-01.webp"
+      alt: "冈山绿雉与雄性高傲雉联动主视觉"
+      caption: "雉鸟在队名、队徽与桃太郎故事中重复出现。"
+    - src: "/assets/images/jleague-pokemon/17-okayama-unfezant-02.webp"
+      alt: "冈山桃太郎主题宝可梦井盖"
+      caption: "高傲雉早已在地方井盖中代表桃太郎的雉鸡伙伴。"
+
+- id: hiroshima-ursaluna
+  number: "18"
+  team: "广岛三箭"
+  team_jp: "サンフレッチェ広島"
+  pokemon: "月月熊"
+  pokemon_jp: "ガチグマ"
+  kicker: "BLACK BEAR / EVOLUTION"
+  accent: "#563080"
+  deck: >-
+    吉祥物本来更像圈圈熊，但既有联名已经让熊宝宝与圈圈熊进入球队语境；Evolution 主题于是顺势把第三只、更有气势的月月熊推上主场。
+  evolution: ["熊宝宝", "圈圈熊", "月月熊"]
+  tags: ["既有联动", "吉祥物", "进化主题"]
+  reasons:
+    - title: "联动不是从今年才开始"
+      body: >-
+        广岛宝可梦中心翻新时已与球队推出联名商品，并让熊宝宝、圈圈熊担任代言宝，球迷对这条进化线早有认知。
+    - title: "吉祥物就是当地亚洲黑熊"
+      body: >-
+        サンチェ与フレッチェ是熊，而且指向当地亚洲黑熊，也就是月轮熊。
+    - title: "月轮熊连接圈圈熊与月月熊"
+      body: >-
+        圈圈熊和月月熊身上的月亮设计都来自月轮熊原型，物种与图案可以同时对上。
+    - title: "为什么跳过更像的圈圈熊"
+      body: >-
+        圈圈熊外形更接近吉祥物，但 Evolution 主题需要向前走一步；月月熊更有气势，也让已有的三熊同堂正式变成进化故事。
+    - title: "三矢之训是球队名称背景"
+      body: >-
+        サンフレッチェ由日语“三”和意大利语“箭”组成，源自毛利元就“三矢之训”，补充了球队本身的地方文化坐标。
+  spotlight: "圈圈熊更像吉祥物，月月熊却更像这次企划要讲的“进化”。"
+  images:
+    - src: "/assets/images/jleague-pokemon/18-hiroshima-ursaluna-01.webp"
+      alt: "广岛三箭与月月熊联动主视觉"
+      caption: "既有熊家族联动在 Evolution 主题下继续前进。"
+    - src: "/assets/images/jleague-pokemon/18-hiroshima-ursaluna-02.webp"
+      alt: "广岛宝可梦中心与球队联名视觉"
+      caption: "熊宝宝与圈圈熊已经提前进入球队语境。"
+    - src: "/assets/images/jleague-pokemon/18-hiroshima-ursaluna-03.webp"
+      alt: "作者购买的广岛三箭宝可梦联名球衣"
+      caption: "联名球衣让这组搭档从线上企划变成现实收藏。"
+    - src: "/assets/images/jleague-pokemon/18-hiroshima-ursaluna-04.webp"
+      alt: "广岛三箭熊吉祥物与月轮熊意象"
+      caption: "吉祥物指向当地的亚洲黑熊，也就是月轮熊。"
+    - src: "/assets/images/jleague-pokemon/18-hiroshima-ursaluna-05.webp"
+      alt: "熊宝宝圈圈熊月月熊三熊同堂合影板"
+      caption: "三熊同堂把进化链完整呈现在球迷面前。"
+
+- id: fukuoka-beedrill
+  number: "19"
+  team: "福冈黄蜂"
+  team_jp: "アビスパ福岡"
+  pokemon: "大针蜂"
+  pokemon_jp: "スピアー"
+  kicker: "SWARM / STINGER"
+  accent: "#168596"
+  deck: >-
+    Avispa 已经把答案写进队名；真正有趣的是，球队没有画出黄蜂，而是把蜂刺藏进队徽，大针蜂和吉祥物则把这些针重新凸显出来。
+  evolution: ["独角虫", "铁壳蛹", "大针蜂"]
+  tags: ["队名", "团队性", "视觉细节"]
+  reasons:
+    - title: "Avispa 就是黄蜂"
+      body: >-
+        名称层面几乎没有第二答案，但黄蜂并非地方特产，而是球队希望展现的足球风格。
+    - title: "蜂群象征团队运动"
+      body: >-
+        黄蜂是集体行动的动物，像强调协作的足球队；这一逻辑与大阪樱花使用狼群意象相似。
+    - title: "队徽把黄蜂藏成了蜂刺"
+      body: >-
+        队徽没有直接画黄蜂，而是在上下设计蜂刺。大针蜂最强的视觉记忆正是多枚针，Mega 形态甚至把双脚也变成毒针。
+    - title: "吉祥物使用同一种视觉语言"
+      body: >-
+        吉祥物同样使用双针、钉鞋与尾针，把队徽里隐藏的攻击性变成角色动作。
+    - title: "湖蓝来自海军"
+      body: >-
+        球队的 Navy Blue 对应九州历史上的海军，因此颜色并不需要服从现实黄蜂的黄黑配色。
+  spotlight: "队名给出物种，队徽藏起蜂刺，大针蜂再把它们全部亮出来。"
+  images:
+    - src: "/assets/images/jleague-pokemon/19-fukuoka-beedrill-01.webp"
+      alt: "福冈黄蜂与大针蜂联动主视觉"
+      caption: "黄蜂队名与多针角色语言的直接连接。"
+    - src: "/assets/images/jleague-pokemon/19-fukuoka-beedrill-02.webp"
+      alt: "福冈黄蜂吉祥物与大针蜂视觉对照"
+      caption: "双针、钉鞋和尾针把队徽中的蜂刺放大。"
+
+- id: nagasaki-swampert
+  number: "20"
+  team: "长崎成功丸"
+  team_jp: "V・ファーレン長崎"
+  pokemon: "巨沼怪"
+  pokemon_jp: "ラグラージ"
+  kicker: "HOENN / MEMORY"
+  accent: "#df6f26"
+  deck: >-
+    蓝橙配色和腮瓣是视觉答案，长崎作为丰缘原型地是地理答案；作者从水跃鱼入坑、误入新主场的旅行记忆，则让它成为整篇文章最私人也最适合收尾的一组。
+  evolution: ["水跃鱼", "沼跃鱼", "巨沼怪"]
+  tags: ["丰缘原型", "配色", "个人记忆"]
+  reasons:
+    - title: "蓝橙与腮瓣"
+      body: >-
+        球队蓝橙配色与巨沼怪一致，队徽橙色凸起也像巨沼怪的腮瓣，第一眼的视觉匹配已经足够扎实。
+    - title: "长崎是丰缘的起点之一"
+      body: >-
+        长崎县包含未白镇、103 号道路、武斗镇和凯那市等多个丰缘原型地；巨沼怪正来自玩家在这一区域获得的初始伙伴。
+    - title: "从水跃鱼开始的个人进化"
+      body: >-
+        作者由第三世代入坑，最初选择水跃鱼；旅行中又在佐世保市，也就是未白镇原型地，留下木守宫井盖与编号的记忆。
+    - title: "进化时刚好离开长崎"
+      body: >-
+        带着水跃鱼一路进化到最终形态时，旅程也正好从长崎县进入熊本市，个人路线与游戏地理产生巧合。
+    - title: "因为宝可梦误入球队新主场"
+      body: >-
+        作者为宝可梦工艺展和电龙快闪来到一处大型综合场馆，后来才发现那里就是长崎成功丸的新主场“长崎体育场城市”。
+  spotlight: "因为宝可梦到过这里，又因为宝可梦重新认识了这里。"
+  images:
+    - src: "/assets/images/jleague-pokemon/20-nagasaki-swampert-01.webp"
+      alt: "长崎成功丸与巨沼怪联动主视觉"
+      caption: "蓝橙配色、腮瓣与丰缘起点。"
+    - src: "/assets/images/jleague-pokemon/20-nagasaki-swampert-02.webp"
+      alt: "佐世保市木守宫宝可梦井盖"
+      caption: "未白镇原型地的井盖，成为作者旅行记忆的一部分。"
+    - src: "/assets/images/jleague-pokemon/20-nagasaki-swampert-03.webp"
+      alt: "长崎电龙快闪活动照片"
+      caption: "电龙是长崎县应援宝可梦，活动把作者带进场馆。"
+    - src: "/assets/images/jleague-pokemon/20-nagasaki-swampert-04.webp"
+      alt: "长崎体育场城市内部照片"
+      caption: "活动所在的大型综合场馆，后来才被认出是球队新主场。"
+    - src: "/assets/images/jleague-pokemon/20-nagasaki-swampert-05.webp"
+      alt: "长崎成功丸主场看台与宝可梦图案"
+      caption: "现实球场让宝可梦、城市与足球重新连接。"

@@ -44,9 +44,6 @@ original_link: https://www.eurogamer.de/pokemon-lets-go-pikachu-und-evoli-der-la
 translator: Poke Amice Studio
 interviewee: 名手工作, 增田顺一
 parallel_items:
-- type: image
-  image: /assets/img/interviews/9999-99-99-pokemon-lets-go-pikachu-und-evoli-d/img_01.jpg
-  caption: 专访配图
 - type: paragraph
   original: 'Pokémon: Let''s Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer | Eurogamer.de'
   translation: 宝可梦：出发吧！皮卡丘和伊布：通往宝可梦大师的漫长之路 | Eurogamer.de
@@ -178,7 +175,9 @@ parallel_items:
   original: Wenn man diese Relaxo Pokémon-Decke so sieht, will man direkt selbst Häkeln lernen
   translation: 看到这条卡比兽宝可梦毯子，让人立刻想学钩针编织
   note: 卡比兽是宝可梦中的一种，以其庞大的体型和睡眠习性著称。
-- type: image
-  image: /assets/img/interviews/9999-99-99-pokemon-lets-go-pikachu-und-evoli-d/img_02.jpg
-  caption: Ulrich Wimmeroth Avatar
 ---
+
+
+
+
+

@@ -44,63 +44,6 @@ translator: Poke Amice Studio
 interviewee: Hobbyconsolas, 增田顺一
 parallel_items:
 - type: paragraph
-  original: Entrevista con Junichi Masuda, el "alma" de Pokémon
-  translation: 专访增田顺一，宝可梦的“灵魂”人物
-  note: Junichi Masuda 即增田顺一，宝可梦系列游戏的主要开发者之一，常被视为系列的核心人物。
-- type: paragraph
-  original: Hobbycine
-  translation: 影迷爱好
-  note: Hobbycine 可能是一个栏目名称，指电影爱好相关板块。
-- type: paragraph
-  original: newsletter
-  translation: 电子通讯
-- type: paragraph
-  original: Entretenimiento
-  translation: 娱乐
-- type: paragraph
-  original: Recomendados
-  translation: 推荐内容
-- type: paragraph
-  original: Compra tu revista
-  translation: 购买杂志
-- type: paragraph
-  original: Reportaje
-  translation: 专题报道
-- type: paragraph
-  original: 06 nov 2013 - 10:50
-  translation: 2013年11月6日 - 10:50
-- type: paragraph
-  original: El Pokéxperto
-  translation: 宝可梦专家
-  note: Pokéxperto 是 Pokémon 和 experto（专家）的合成词，可能指作者或栏目名称。
-- type: paragraph
-  original: Añádenos en Google
-  translation: 在 Google 上添加我们
-- type: paragraph
-  original: Elígenos como tu fuente preferida en Google.
-  translation: 在 Google 上将我们选为你偏好的来源。
-- type: paragraph
-  original: WhatsApp
-  translation: WhatsApp
-- type: paragraph
-  original: Linkedin
-  translation: 领英
-- type: paragraph
-  original: Telegram
-  translation: 电报
-- type: paragraph
-  original: Beloud
-  translation: Beloud
-- type: paragraph
-  original: Copiar URL
-  translation: 复制链接
-- type: paragraph
-  original: Compartir
-  translation: 分享
-- type: paragraph
-  original: Guardar
-  translation: 保存
-- type: paragraph
   original: Un año después de que Hobby Consolas hablara con Junichi Masuda, la mente creativa tras la saga Pokémon, con motivo de la llegada de Blanco 2 y Negro 2, de nuevo nos lo volvemos a encontrar en el Salón del Manga de Barcelona, donde ha acudido para presentar las nuevas ediciones Pokémon X y Pokémon Y.
   translation: 在Hobby Consolas因《黑2/白2》发售采访过宝可梦系列创意核心增田顺一的一年之后，我们再次在巴塞罗那漫画展上见到了他，此次他是来介绍新作《宝可梦 X》和《宝可梦 Y》的。
   note: 增田顺一（Junichi Masuda）是Game Freak的董事，长期担任宝可梦游戏总监。
@@ -187,79 +130,9 @@ parallel_items:
   translation: “宝可梦种类繁多，很难说清创作时间……不同宝可梦差异很大。例如，哲尔尼亚斯和伊裴尔塔尔，作为《宝可梦 X/Y》的传说宝可梦，花费了很长时间，而且创作与毁灭的主题也考虑到了宝可梦、人类等。”
   speaker: 增田顺一
   note: Xerneas 和 Yveltal 分别代表生命与毁灭，对应游戏的主题。
-- type: paragraph
-  original: Pokémon X/Y
-  translation: 《宝可梦 X/Y》
-- type: paragraph
-  original: 3DS
-  translation: 3DS
-- type: paragraph
-  original: Lanzamiento
-  translation: 发售
-- type: paragraph
-  original: 11-10-2013
-  translation: 2013年10月11日
-- type: paragraph
-  original: Género
-  translation: 类型
-- type: paragraph
-  original: RPG
-  translation: 角色扮演游戏
-- type: paragraph
-  original: Compañía
-  translation: 公司
-- type: paragraph
-  original: Nintendo
-  translation: 任天堂
-- type: paragraph
-  original: Número de jugadores
-  translation: 玩家数量
-- type: paragraph
-  original: 1-4
-  translation: 1-4
-- type: paragraph
-  original: Multijugador
-  translation: 多人游戏
-- type: paragraph
-  original: 'No'
-  translation: 否
-- type: paragraph
-  original: Idioma de los textos
-  translation: 文本语言
-- type: paragraph
-  original: Español
-  translation: 西班牙语
-- type: paragraph
-  original: Hobby 94 Excelente
-  translation: Hobby 94 优秀
-  note: Hobby 94 可能指某游戏杂志或媒体，此处保留原名。
-- type: paragraph
-  original: Ofertas del juego en
-  translation: 游戏优惠信息
-- type: paragraph
-  original: 'Más información sobre:'
-  translation: 更多关于以下内容的信息：
-- type: paragraph
-  original: 3DS
-  translation: 3DS
-  note: 任天堂3DS掌上游戏机。
-- type: paragraph
-  original: Reportajes
-  translation: 专题报道
-- type: paragraph
-  original: generic.tab.search
-  translation: 通用标签：搜索
-  note: 这是网站界面中的通用搜索标签，原文为英文，此处保留原样并翻译为中文。
-- type: paragraph
-  original: Secciones Sobre Hobby Consolas
-  translation: 关于 Hobby Consolas 的栏目
-  note: Hobby Consolas 是西班牙著名的电子游戏杂志和网站，此处保留原名。
-- type: paragraph
-  original: © Henneo Magazines, S.A
-  translation: © Henneo Magazines, S.A
-  note: 版权声明，保留公司名称。
-- type: paragraph
-  original: Queda prohibida toda reproducción sin permiso escrito de la empresa a los efectos del artículo 32.1, párrafo segundo, de la Ley de Propiedad Intelectual. Asimismo, a los efectos establecidos en el artículo 33.1 de Ley de Propiedad Intelectual, la empresa hace constar la correspondiente reserva de derechos, por sí y por medio de sus redactores o autores.
-  translation: 根据《知识产权法》第32.1条第二款的规定，未经本公司书面许可，禁止任何形式的复制。同时，根据《知识产权法》第33.1条的规定，本公司特此声明保留相关权利，包括本公司自身及其编辑或作者的权利。
-  note: 这是西班牙知识产权法的标准法律声明，翻译时需准确传达法律含义。
 ---
+
+
+
+
+

@@ -521,6 +521,21 @@ def test_processed_variants_are_skipped_only_beside_their_original(tmp=None):
         assert len(kept_all) == 3 and none_skipped == []
 
 
+def test_generated_cache_thumbnails_are_not_scan_pages():
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as directory:
+        root = Path(directory)
+        (root / "page001-tuya.jpg").write_bytes(b"scan")
+        cache = root / "out" / "cache" / "thumbs"
+        cache.mkdir(parents=True)
+        (cache / "page001-tuya_0_q200.png").write_bytes(b"thumbnail")
+
+        keep, skipped = discover(root)
+        assert [path.name for path in keep] == ["page001-tuya.jpg"]
+        assert skipped == []
+
+
 if __name__ == "__main__":
     for name, function in sorted(globals().items()):
         if name.startswith("test_") and callable(function):

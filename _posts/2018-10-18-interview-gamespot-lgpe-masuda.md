@@ -45,15 +45,9 @@ original_link: https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-updat
 translator: Poke Amice Studio
 interviewee: 增田顺一, 菜花健作, 锅岛, 长野大辅
 parallel_items:
-- type: image
-  image: /assets/img/interviews/9999-99-99-1100-6462538/img_01.jpg
-  caption: 3451749-pokemon-lets-go-vs-yellow.jpg
 - type: paragraph
   original: How Let's Go Pikachu / Eevee Update Pokemon Yellow For A New Generation - GameSpot
   translation: 《Let's Go 皮卡丘/伊布》如何为新一代更新《宝可梦 黄》 - GameSpot
-- type: paragraph
-  original: Advertisement
-  translation: 广告
 - type: paragraph
   original: Sign In or Register
   translation: 登录或注册
@@ -66,9 +60,6 @@ parallel_items:
 - type: paragraph
   original: The Let’s Go games also diverge from tradition in some dramatic ways, particularly in their connection with Pokemon Go . Not only are you able to transfer certain monsters you catch in the mobile game over to the Switch titles, they also employ Pokemon Go’s catching mechanics, meaning you’re no longer be able to battle wild Pokemon.
   translation: 《Let's Go》系列也在某些方面与传统大相径庭，尤其是与《宝可梦 Go》的联系。你不仅可以将手机游戏中捕获的某些宝可梦转移到 Switch 版本中，它们还采用了《宝可梦 Go》的捕捉机制，这意味着你不再能与野生宝可梦战斗。
-- type: paragraph
-  original: Advertisement
-  translation: 广告
 - type: paragraph
   original: 'GameSpot recently had an opportunity to sit down with Pokemon: Let’s Go director Junichi Masuda and lead game environment designer Kensaku Nabana. Through an interpreter, we discussed what it was like reimagining the traditionally 8-bit world of Kanto in 3D, what changes the development team made in bringing the games to Switch, and how the new Mythical Pokemon Meltan came to be.'
   translation: GameSpot 最近有机会与《宝可梦：Let's Go》的总监 增田顺一 和首席游戏环境设计师 七坂健作 进行了座谈。通过翻译，我们讨论了将传统的 8 位关都世界以 3D 形式重新构想的感觉、开发团队在将游戏带到 Switch 时做了哪些改动，以及新的幻之宝可梦 美录坦 是如何诞生的。
@@ -88,9 +79,6 @@ parallel_items:
   original: Team Rocket seems to play a more prominent role in Let’s Go Pikachu and Eevee. Does this mean we’ll see more of Jessie, James, and Meowth during the story?
   translation: 火箭队在《Let's Go 皮卡丘》和《伊布》中似乎扮演了更重要的角色。这是否意味着我们会在故事中看到更多武藏、小次郎和喵喵？
 - type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
   original: Yeah, they definitely appear more in the game than in the original Pokemon Yellow Version. With these two games, we really set out at the very beginning with a main target in mind, which was younger kids who maybe didn’t own their own smartphones and weren’t able to really participate in the Pokemon Go craze that happened. They weren’t able to go out and join in on that fun, so really providing them with a really fun experience that also had some of that Pokemon Go gameplay. But at the same time, we wanted to introduce these new players, for whom this might be their first Pokemon game, through the original story, kind of ease them into the Pokemon experience that way.
   translation: 是的，他们肯定比原版《宝可梦 黄》中出现的次数更多。对于这两款游戏，我们一开始就设定了一个主要目标，那就是那些可能没有自己智能手机、无法真正参与《宝可梦 Go》热潮的孩子们。他们无法外出加入那种乐趣，所以真正为他们提供一种有趣的体验，同时也包含一些《宝可梦 Go》的游戏玩法。但同时，我们想通过这些新玩家（对他们来说这可能是他们的第一款宝可梦游戏）通过原作故事来介绍他们，以这种方式让他们轻松进入宝可梦体验。
   speaker: 增田顺一
@@ -107,9 +95,6 @@ parallel_items:
 - type: paragraph
   original: In the original games, there was text or some sort of setting where “Pidgey eat Caterpie,” for example. That was fine back then, I think everybody liked it. But, I think, as Pokemon has gone on, the fans kind of have their idea of what Pokemon should be. If we did that now, I think a lot of people wouldn’t really like it, it would give them a bad reaction.
   translation: 在原版游戏中，有文字或某种设定，比如“波波吃绿毛虫”。那时没问题，我想大家都喜欢。但随着宝可梦的发展，粉丝们对宝可梦应该是什么样有了自己的想法。如果现在我们还这样做，我想很多人会不喜欢，会给他们带来不好的反应。
-- type: paragraph
-  original: Advertisement
-  translation: 广告
 - type: paragraph
   original: What about the old man standing outside Celadon Gym who says he loves looking at the pretty girls? Did you have to tone that down as well?
   translation: 那站在玉虹道馆外的那个老人呢？他说他喜欢看漂亮女孩。你们是不是也得淡化这个设定？
@@ -128,9 +113,6 @@ parallel_items:
   original: Also, keeping in mind that we put the focus on having a lot of Pokemon in the environment, walking around in the overall world this time around, so [we focused on] making the visuals look like something where that wouldn’t seem strange. We initially explored a more photorealistic direction, but we settled on this more anime style approach, these cuter visuals.
   translation: 另外，考虑到这次我们把重点放在让大量宝可梦出现在环境中，在整个世界里走来走去，所以我们专注于让视觉效果看起来不会显得奇怪。我们最初尝试了更逼真的方向，但最终确定了这种更偏向动漫风格、更可爱的视觉效果。
 - type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
   original: It definitely leaves a strong impression, seeing how different some very famous scenes from the old game are in Let’s Go, such as the first time you come to the S.S. Anne and see how much more majestic it looks. For some areas like Lavender Town, which was very creepy in the original games, how did you go about expressing that in Let’s Go Pikachu and Eevee?
   translation: 看到《Let's Go》中一些经典场景与旧版截然不同，确实给人留下深刻印象，比如第一次来到圣特安努号时，它看起来更加宏伟。对于像紫苑镇这样在原版游戏中非常阴森的地方，你们是如何在《Let's Go 皮卡丘/伊布》中表现那种感觉的？
 - type: paragraph
@@ -147,9 +129,6 @@ parallel_items:
 - type: paragraph
   original: But, of course, we did have to update some other things. For example, we added more types later on and Pokemon got re-typed, so those exist in the game. And, obviously, you weren’t able to run in the original game. We were only able to create four-way movement, so we decided that we probably couldn’t do that today and it made it much easier to move around, I think.
   translation: 但当然，我们也确实需要更新一些其他内容。例如，后来我们增加了更多属性，宝可梦的属性也进行了调整，所以这些内容都存在于游戏中。而且，显然，在原版游戏中你无法奔跑。我们当时只能实现四方向移动，所以我们认为如今不能再这样了，我觉得这样移动起来会方便得多。
-- type: paragraph
-  original: Advertisement
-  translation: 广告
 - type: paragraph
   original: Even though held items aren’t in it, we’ve seen that Mega Evolutions are. Can you tell us how that’s going to work? Traditionally, your Pokemon has to hold the right item to Mega Evolve.
   translation: 尽管本作中没有携带道具，但我们看到超级进化是存在的。您能告诉我们这将会如何运作吗？传统上，宝可梦需要携带正确的道具才能进行超级进化。
@@ -169,9 +148,6 @@ parallel_items:
   original: Following up on Meltan’s design, here in the States he’s been given a joking/affectionate nickname of “Nut Boy.” I’m curious how you feel about that nickname and if, perhaps, he has a similar nickname in Japan?
   translation: 接着美录坦的设计，在美国这里它被起了个玩笑/爱称“螺母小子”。我很好奇您对这个昵称的看法，以及它在日本是否也有类似的昵称？
 - type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
   original: 'Nabana: I haven’t really seen a lot of nicknames in Japan yet, but for the design, we really tried to make it look like it was kind of a more realistic-looking object, like something that maybe you could see it in real life. It would look weird, but it wouldn’t stand out too much. Initially, I thought this would be a very divisive design, like some people might like it but some people won’t. It looks really strange, but if you look at it more closely, it’s kind of cute at the same time. But it seems like the reaction has been generally really positive, and that’s been a lot of fun. There’s been tons of fan art already and it was revealed just recently, so it’s been exciting for us.'
   translation: 锅岛：我在日本还没有看到很多昵称，但关于设计，我们确实试图让它看起来像一个更逼真的物体，就像你在现实生活中可能看到的东西。它看起来会奇怪，但不会太显眼。起初，我认为这会是一个很有争议的设计，有些人可能喜欢，有些人不会。它看起来真的很奇怪，但如果你仔细看，它同时又有点可爱。不过，似乎反应普遍非常积极，这很有趣。已经有很多粉丝艺术了，而且它最近才公布，所以我们很兴奋。
   speaker: 锅岛
@@ -190,9 +166,6 @@ parallel_items:
   original: 'Masuda: We’re definitely always thinking of that kind of forward-moving functionality, especially since we’ve introduced the Pokemon Bank. Now, up to Ultra Sun and Ultra Moon, you’re able to store your Pokemon. We know they’re very important to everyone. I mean, obviously, people would be very sad if they couldn’t use their Pokemon in a future game. So, it does get complicated when you talk about the details and we’re still figuring it out, but we do have plans to find ways to let players use their Pokemon in the next game.'
   translation: 增田顺一：我们肯定一直在考虑这种前瞻性的功能，尤其是自从我们推出了宝可梦银行。现在，直到《究极之日/究极之月》，你都可以存储你的宝可梦。我们知道它们对每个人都非常重要。我的意思是，显然，如果人们不能在未来的游戏中使用他们的宝可梦，他们会非常难过。所以，当谈到细节时，事情确实变得复杂，我们仍在摸索中，但我们确实有计划找到方法让玩家在下一款游戏中使用他们的宝可梦。
   speaker: 增田顺一
-- type: paragraph
-  original: Advertisement
-  translation: 广告
 - type: paragraph
   original: What are your favorite Pokemon games?
   translation: 你们最喜欢的宝可梦游戏是什么？
@@ -215,9 +188,6 @@ parallel_items:
   translation: 回到《红/绿》以及当时艰辛的开发过程。在更新《Let's Go 皮卡丘/伊布》的冒险时，有没有什么当时特别想解决或实现的事情？
   speaker: 提问
 - type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
   original: 'Masuda: With Red and Green and even games after that, at Game Freak we always wanted to have Pokemon appear in the overworld, in the field itself. But, specifically with the original games, there was no way of doing that with the Game Boy hardware. It just couldn’t handle it. We really wanted to make them feel like living creatures that are in the world with you, so you’ll see on Let’s Go Pikachu and Let’s Go Eevee they’ll all have their own little unique movement characteristics. Some of them will run up and stop. They’re kind of curious. It’ll be fun to just discover how they all react to you.'
   translation: 增田顺一：在《红/绿》以及之后的游戏中，我们在Game Freak一直希望让宝可梦出现在地图上，也就是场景中。但具体到最初的游戏，Game Boy的硬件无法实现这一点。它根本处理不了。我们非常想让它们感觉像是与你共处一个世界的活生生的生物，所以你会看到在《Let's Go 皮卡丘/伊布》中，它们都有各自独特的动作特征。有些会跑过来停下。它们有点好奇。发现它们如何回应你将会很有趣。
   speaker: 增田顺一
@@ -239,124 +209,9 @@ parallel_items:
   original: 'Nabana: I’ve worked on Pokemon designs myself and it really is a very arduous, time consuming process. You’ve got to talk to a lot of people, a lot of back-and-forth and really be able to justify it before we get to a final design.'
   translation: 长野大辅：我自己也参与过宝可梦的设计，这确实是一个非常艰巨、耗时的过程。你必须和很多人交流，反复讨论，并且能够真正证明其合理性，才能最终确定设计。
   speaker: 长野大辅
-- type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
-  original: About the Authors
-  translation: 关于作者
-- type: paragraph
-  original: Kevin Knezevic
-  translation: 凯文·克内泽维奇
-  note: GameSpot编辑，自2017年起为GameSpot撰稿。
-- type: paragraph
-  original: Kevin Knezevic has been writing for GameSpot since 2017. Star Fox Adventures is good and he will die on that hill.
-  translation: 凯文·克内泽维奇自2017年起为GameSpot撰稿。他认为《星际火狐大冒险》很棒，并且会坚持这个观点。
-  note: “die on that hill”是英语习语，意为坚持某个立场。
-- type: paragraph
-  original: Featured In This Story
-  translation: 本文提及的游戏
-- type: paragraph
-  original: 'Pokemon: Let’s Go, Pikachu! / Pokemon: Let’s Go, Eevee!'
-  translation: 《宝可梦：出发吧！皮卡丘》/《宝可梦：出发吧！伊布》
-- type: paragraph
-  original: First Released
-  translation: 首次发售
-- type: paragraph
-  original: Nov 16, 2018
-  translation: 2018年11月16日
-- type: paragraph
-  original: Platforms
-  translation: 平台
-- type: paragraph
-  original: NS
-  translation: 任天堂Switch
-  note: NS为Nintendo Switch的缩写，官方中文名为“任天堂Switch”。
-- type: paragraph
-  original: View Game Hub
-  translation: 查看游戏中心
-- type: paragraph
-  original: Follow
-  translation: 关注
-- type: paragraph
-  original: Advertisement
-  translation: 广告
-- type: paragraph
-  original: Latest on Featured Games
-  translation: 精选游戏最新消息
-- type: paragraph
-  original: Pokemon Day Deals Knock Popular Switch Games Down To Around $36
-  translation: 宝可梦日优惠将热门Switch游戏价格降至约36美元
-  note: 宝可梦日（Pokemon Day）是每年2月27日，纪念宝可梦系列首款游戏发售的节日。
-- type: paragraph
-  original: 6 mos ago
-  translation: 6个月前
-- type: paragraph
-  original: Save On Nintendo Switch Pokemon Games With These Early Black Friday Deals
-  translation: 利用这些黑色星期五提前优惠，在任天堂Switch宝可梦游戏上省钱
-  note: 黑色星期五（Black Friday）是美国感恩节后的购物促销日。
-- type: paragraph
-  original: 2 yrs ago
-  translation: 2年前
-- type: paragraph
-  original: Mario Kart 8 Deluxe Passes 50 Million Sold, Top 10 Best-Selling Switch Games Revealed
-  translation: 《马力欧卡丁车8 豪华版》销量突破5000万，Switch畅销游戏前十名公布
-  note: 《马力欧卡丁车8 豪华版》是任天堂Switch上的竞速游戏。
-- type: paragraph
-  original: 4 yrs ago
-  translation: 4年前
-- type: paragraph
-  original: 'Nintendo Switch: Top 10 Best-Selling Games List Still Has Mario Kart At The Top With 43.5 Million'
-  translation: Nintendo Switch：最畅销游戏前十名榜单中，《马力欧卡丁车》仍以4350万份销量位居榜首
-- type: paragraph
-  original: 5 yrs ago
-  translation: 5年前
-- type: paragraph
-  original: Latest News
-  translation: 最新新闻
-- type: paragraph
-  original: CD Projekt Red Is Still Raking In The Cash As We Wait For The Witcher 4
-  translation: 在等待《巫师4》期间，CD Projekt Red仍在赚得盆满钵满
-- type: paragraph
-  original: 7 hrs ago
-  translation: 7小时前
-- type: paragraph
-  original: Long-Delayed Prison Architect 2 Gets Exciting Update After Two Years Of Mostly Silence
-  translation: 长期跳票的《监狱建筑师2》在沉寂两年后迎来激动人心的更新
-- type: paragraph
-  original: 7 hrs ago
-  translation: 7小时前
-- type: paragraph
-  original: A Real-Life Romance (And The Love Of Fans) Fueled A Classic NES Remake
-  translation: 现实中的浪漫（以及粉丝的热爱）促成了一款经典NES游戏的重制
-- type: paragraph
-  original: 7 hrs ago
-  translation: 7小时前
-- type: paragraph
-  original: Resident Evil Director Says There’s “No Chance” He’d Survive His Own Movie
-  translation: 《生化危机》导演表示他“绝无可能”在自己的电影中幸存
-- type: paragraph
-  original: 9 hrs ago
-  translation: 9小时前
-- type: paragraph
-  original: GameSpot Newsletters, Straight to Your Inbox
-  translation: GameSpot新闻通讯，直达您的收件箱
-- type: paragraph
-  original: Choose what you want to receive — deals, news, or both.
-  translation: 选择您想接收的内容——优惠、新闻，或两者兼收。
-- type: paragraph
-  original: GameSpot News Latest gaming news, reviews, and deals — Monday to Friday. Weekly Deals Top game and gear discounts every week.
-  translation: GameSpot新闻：最新游戏资讯、评测和优惠——周一至周五。每周优惠：每周精选游戏和设备折扣。
-- type: paragraph
-  original: Email Address
-  translation: 电子邮件地址
-- type: paragraph
-  original: Sign Up
-  translation: 注册
-- type: paragraph
-  original: No spam. Unsubscribe anytime.
-  translation: 无垃圾邮件。可随时退订。
-- type: image
-  image: /assets/img/interviews/9999-99-99-1100-6462538/img_02.jpg
-  caption: 3450962-3455743258-8_09_.jpg
 ---
+
+
+
+
+

@@ -52,9 +52,6 @@ original_link: https://www.pocketmonsters.net/content/Miyazaki_Interview_Anime_O
 translator: Poke Amice Studio
 interviewee: Sato, 一之濑刚, 佐藤, 增田顺一, 宫崎慎二
 parallel_items:
-- type: image
-  image: /assets/img/interviews/9999-99-99-miyazaki-interview-anime-ost/img_01.png
-  caption: Pokemon Official Site
 - type: paragraph
   original: Interview with Shinji Miyazaki and the Game Freak sound team - PocketMonsters.Net
   translation: 对宫崎慎二与Game Freak音响团队的访谈 - PocketMonsters.Net
@@ -211,8 +208,8 @@ parallel_items:
   original: '- Regarding the fact that neither Ichinose-san nor Sato-san were originally part of the sound team; does Game Freak often make personnel changes among members?'
   translation: '- 关于一之濑先生和佐藤先生最初都不是音效组成员这一点，Game Freak是否经常在成员之间进行人事调动？'
 - type: paragraph
-  original: "Masuda: No, it’s not personnel changes; it’s more like we approach people who are familiar with music and ask them, “Hey, do you want to try and make a music piece like this?” When we find someone talented, we slowly tell them to “come over here” (laughs).\r\nSo it’s not like they change sections and become part of the sound team."
-  translation: 增田：不，不是人事调动；更像是我们去找那些懂音乐的人，问他们：“嘿，你想不想试着做一首这样的曲子？”当我们发现有才华的人时，就会慢慢告诉他们“到这边来”（笑）。所以并不是他们调换部门，成为音效组的一员。
+  original: 'Masuda: No, it’s not personnel changes; it’s more like we approach people who are familiar with music and ask them, “Hey, do you want to try and make a music piece like this?” When we find someone talented, we slowly tell them to “come over here” (laughs). So it’s not like they change sections and become part of the sound team.'
+  translation: 不，不是人事调动；更像是我们去找那些懂音乐的人，问他们：“嘿，你想不想试着做一首这样的曲子？”当我们发现有才华的人时，就会慢慢告诉他们“到这边来”（笑）。所以并不是他们调换部门，成为音效组的一员。
   speaker: 增田顺一
   note: 增田（增田顺一）是Game Freak的董事，宝可梦系列的主要制作人之一。
 - type: paragraph
@@ -221,7 +218,7 @@ parallel_items:
   speaker: 一之濑刚
 - type: paragraph
   original: 'Masuda: After we let them produce something, we tell them that they’re talented.'
-  translation: 增田：我们让他们创作一些东西之后，会告诉他们“你很有才华”。
+  translation: 我们让他们创作一些东西之后，会告诉他们“你很有才华”。
   speaker: 增田顺一
 - type: paragraph
   original: '- On this CD, all music pieces from the games that were arranged by an orchestra and used for the TV anime are recorded, though it seems like some pieces are used differently in the anime than in the games.'
@@ -237,7 +234,7 @@ parallel_items:
   translation: '- 在动画中，会事先写好一个菜单（所需曲目列表）来配合特定的场景和角色。那么在游戏的情况下，这些音乐是如何制作的呢？'
 - type: paragraph
   original: 'Masuda: First we bring the necessary scenes to light and fortify what kind of image we want to give off in them, but as the production of the game continues, instances where we say, “I want a tune like this” occur as well, as it was the case with the aforementioned boat scene. So instead of determining how we imagine everything beforehand, we often let the people in charge of the sound actually play the game and then have them produce the tunes.'
-  translation: 增田：首先我们会把必要的场景展现出来，并强化我们想要在场景中传达的形象。但随着游戏制作的进行，也会出现像之前提到的船的场景那样，我们说“我想要这样的曲子”的情况。所以我们并不是事先决定好所有想象，而是经常让负责声音的人实际玩游戏，然后让他们制作曲子。
+  translation: 首先我们会把必要的场景展现出来，并强化我们想要在场景中传达的形象。但随着游戏制作的进行，也会出现像之前提到的船的场景那样，我们说“我想要这样的曲子”的情况。所以我们并不是事先决定好所有想象，而是经常让负责声音的人实际玩游戏，然后让他们制作曲子。
   speaker: 增田顺一
 - type: paragraph
   original: 'Ichinose: Being able to produce while looking at the screen would be the most ideal way, but since scenes are still being produced during the development phase, we work with just our imaginations sometimes.'
@@ -245,7 +242,7 @@ parallel_items:
   speaker: 一之濑刚
 - type: paragraph
   original: 'Masuda: If it’s a scene where you walk through a city, we produce thinking how the main character feels. Also, in the game, the timing of the scene changes is entirely up to the player. That’s why they [the tunes] always loop. Even if we think, “At this moment, I’d like to build up excitement” and add   figures somewhere, chances are that the player doesn’t switch scenes during that moment. We have dilemmas like this sometimes, but there is something enjoyable about it as well.'
-  translation: 增田：如果是走过城市的场景，我们会思考主角的感受来制作。另外，在游戏中，场景切换的时机完全取决于玩家。这就是为什么音乐总是循环播放。即使我们想“在这个时刻，我想营造兴奋感”并在某处加入一些元素，玩家也可能不会在那个时刻切换场景。我们有时会遇到这样的困境，但也有其乐趣所在。
+  translation: 如果是走过城市的场景，我们会思考主角的感受来制作。另外，在游戏中，场景切换的时机完全取决于玩家。这就是为什么音乐总是循环播放。即使我们想“在这个时刻，我想营造兴奋感”并在某处加入一些元素，玩家也可能不会在那个时刻切换场景。我们有时会遇到这样的困境，但也有其乐趣所在。
   speaker: 增田顺一
 - type: paragraph
   original: '- Miyazaki-san on the other hand, uses those game tunes as bases to extend arrangements to be played by an orchestra for the anime. What are the difficulties you experience?'
@@ -256,7 +253,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: Yes, during the days of “Red & Green” it was 3 sounds plus background noise.'
-  translation: 增田：是的，在《红·绿》的时代，是3个声音加上背景噪音。
+  translation: 是的，在《红·绿》的时代，是3个声音加上背景噪音。
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: So there were actually sounds that didn’t resonate. But I’m sure those sounds did resonate in Masuda-san’s mind as well. How did they resonate in Masuda-san’s mind? What if my world is entirely different from his? Those were the most difficult questions. The first arrangement does kind of determine the direction, after all. I was very worried and wondered, “Is it really okay this way?”'
@@ -264,7 +261,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: In that sense, you make me think you’re amazing, Miyazaki-san. I really felt like you “picked up all my sounds.”'
-  translation: 增田：从这个意义上说，宫崎先生，您让我觉得您很了不起。我真的觉得您“把我所有的声音都拾起来了”。
+  translation: 从这个意义上说，宫崎先生，您让我觉得您很了不起。我真的觉得您“把我所有的声音都拾起来了”。
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: There is this opening piece that’s also often used in movies (Disc 1, Track 1-3); I think that’s my number one, personally. The tune itself is a good piece, but I also think that if it wasn’t for that [piece], the situation regarding Pokémon music might not be like this today.'
@@ -275,7 +272,7 @@ parallel_items:
   translation: 在Game Freak的人员中，是您来决定世界观并做出诸如“这是一首好曲子，但不符合形象”这样的决定吗，增田先生？
 - type: paragraph
   original: 'Masuda: Since I’m working as a director for the games now, it appears to be that way. And when it comes to troubling aspects, it’s one of the things I worry about very much. For example, if we made one CD and it consisted entirely of heavy rock, you’d become exhausted, wouldn’t you? That’s when you say things like, “Let’s take it a little easier in this scene” or something. We also try to create a flow that adapts to the chronological order of the adventure. Those are things I’m always concerned about.'
-  translation: 增田：由于我现在担任游戏的总监，看起来确实如此。至于令人困扰的方面，这是我非常担心的事情之一。例如，如果我们制作一张CD，全部都是重金属摇滚，你会感到疲惫，不是吗？这时你会说“让我们在这个场景中轻松一点”之类的话。我们也试图创造一种适应冒险时间顺序的流程。这些是我一直关注的事情。
+  translation: 由于我现在担任游戏的总监，看起来确实如此。至于令人困扰的方面，这是我非常担心的事情之一。例如，如果我们制作一张CD，全部都是重金属摇滚，你会感到疲惫，不是吗？这时你会说“让我们在这个场景中轻松一点”之类的话。我们也试图创造一种适应冒险时间顺序的流程。这些是我一直关注的事情。
   speaker: 增田顺一
 - type: paragraph
   original: 'Ichinose: The things Masuda is particular about – for example, whether something is important scenario-wise or concerning places that are important for the worldview – those are things for which he conveys a very clear image. However, other than that, everyone implements their own respective images and if Masuda says nothing, everything is OK.'
@@ -283,7 +280,7 @@ parallel_items:
   speaker: 一之濑刚
 - type: paragraph
   original: 'Masuda: There aren’t that many “no-go’s” getting submitted anyway. But, for example, while the Jouto region had cities around Kyoto serving as models, I said something like, “Don’t make it too Japanese.” By adding non-Japanese music to a Japanese place, I want to create a new, slightly different worldview.'
-  translation: 增田：反正提交上来的“禁区”并不多。但是，例如，城都地区以京都周边的城市为原型，我曾说过“不要做得太日本化”。通过在具有日本风格的地方加入非日本音乐，我想创造一种新的、略有不同的世界观。
+  translation: 反正提交上来的“禁区”并不多。但是，例如，城都地区以京都周边的城市为原型，我曾说过“不要做得太日本化”。通过在具有日本风格的地方加入非日本音乐，我想创造一种新的、略有不同的世界观。
   speaker: 增田顺一
   note: 城都地区（ジョウト）是宝可梦游戏第二世代（金·银）的舞台，原型为日本近畿地方，包括京都、大阪等城市。
 - type: paragraph
@@ -296,8 +293,8 @@ parallel_items:
   speaker: 一之濑刚
   note: 输入音乐：指游戏音乐通过编程输入而非实际演奏，因此作曲时不受乐器演奏限制。
 - type: paragraph
-  original: "Miyazaki: Choosing the instruments is easy. Determining whether their respective figures and orchestra arrangements are effective is also easy. However, I think the difference is that, compared to input works, the feeling of broadness may get lost. \r\nFor example, when the original tune uses a variety of synth strings, there is a broadness to the timbre, but if the chords are played with real strings, it doesn’t seem that way any more."
-  translation: "宫崎：选择乐器很容易。判断它们各自的形象和管弦乐编曲是否有效也很容易。然而，我认为区别在于，与输入作品相比，那种宽广感可能会丢失。\r\n例如，当原曲使用多种合成弦乐时，音色会有一种宽广感，但如果用真实弦乐演奏和弦，就不再是那种感觉了。"
+  original: 'Miyazaki: Choosing the instruments is easy. Determining whether their respective figures and orchestra arrangements are effective is also easy. However, I think the difference is that, compared to input works, the feeling of broadness may get lost. For example, when the original tune uses a variety of synth strings, there is a broadness to the timbre, but if the chords are played with real strings, it doesn’t seem that way any more.'
+  translation: 宫崎：选择乐器很容易。判断它们各自的形象和管弦乐编曲是否有效也很容易。然而，我认为区别在于，与输入作品相比，那种宽广感可能会丢失。例如，当原曲使用多种合成弦乐时，音色会有一种宽广感，但如果用真实弦乐演奏和弦，就不再是那种感觉了。
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Ichinose: I see.'
@@ -361,7 +358,7 @@ parallel_items:
   speaker: 佐藤
 - type: paragraph
   original: 'Masuda: What interests me the most is how you work on the arrangements, Miyazaki-san. Do you write them down on the score directly?'
-  translation: 增田：我最感兴趣的是宫崎先生是如何进行编曲工作的。您是直接写在乐谱上吗？
+  translation: 我最感兴趣的是宫崎先生是如何进行编曲工作的。您是直接写在乐谱上吗？
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: Much has changed over the years. Lately, before I record a live performance by the orchestra, I try to simulate the timbre using synth instruments and make a demo in order to make sure how the overall image of the composition comes across. But in the beginning when I’d just started working, I had no score at first, so I began with copying everything using my ears and then created the image while looking at the music I’d copied and checking the menu I’d been given by the sound director.'
@@ -369,7 +366,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: This music, do you write it in pieces for the respective instruments? Do you line everything up at once or do you write the music piece by piece?'
-  translation: 增田：这些音乐，您是分别针对各个乐器来写的吗？是同时把所有部分都排列出来，还是一段一段地写？
+  translation: 这些音乐，您是分别针对各个乐器来写的吗？是同时把所有部分都排列出来，还是一段一段地写？
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: I do both. If the tune has an impressive melody, I’ll copy the melody first and then think of an appropriate chord. In reverse, if the rhythm is the focus of the tune, I create the rhythm and then think further while playing that.'
@@ -377,7 +374,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: In this sense, it might be a good thing if the timbre isn’t predefined. Personally, I’m one of those who think that, since we’re going through the trouble of making a new game, sounds that haven’t been heard before are preferable. That’s why I use the timbres in a slightly different way every time and hope that, when they’re given to you, Miyazaki-san, you’ll arrange them to have a different shape.'
-  translation: 增田：从这个意义上说，如果音色不是预先定义好的，也许是件好事。就我个人而言，我认为既然我们费尽心思制作新游戏，那么以前没听过的声音更可取。这就是为什么我每次使用音色的方式都略有不同，并希望在交给宫崎先生时，您能将其编排成不同的形态。
+  translation: 从这个意义上说，如果音色不是预先定义好的，也许是件好事。就我个人而言，我认为既然我们费尽心思制作新游戏，那么以前没听过的声音更可取。这就是为什么我每次使用音色的方式都略有不同，并希望在交给宫崎先生时，您能将其编排成不同的形态。
   speaker: 增田顺一
 - type: paragraph
   original: '- Miyazaki-san, is there anything you would like to ask the people of Game Freak?'
@@ -389,7 +386,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: In that regard, we’re the same, I think. When I’m sitting in the bathtub or the train, I suddenly get an idea. Then I whistle it into my cell phone. And then I listen to it afterwards. Although there are times when it turns out to be really bad (laughs).'
-  translation: 增田：在这方面，我想我们是一样的。当我坐在浴缸里或在火车上时，会突然冒出灵感。然后我会用口哨把它吹进手机里。之后再听一遍。虽然有时结果真的很糟糕（笑）。
+  translation: 在这方面，我想我们是一样的。当我坐在浴缸里或在火车上时，会突然冒出灵感。然后我会用口哨把它吹进手机里。之后再听一遍。虽然有时结果真的很糟糕（笑）。
   speaker: 增田顺一
 - type: paragraph
   original: 'Ichinose: Like Miyazaki-san, I think of the melody or the framework of a piece while taking a shower or something. The instance I’m freed after having been pressured by the deadline for my work is the best time for me to think of music pieces. Sorry if the story sounds hopeless (laughs).'
@@ -417,7 +414,7 @@ parallel_items:
   speaker: 佐藤
 - type: paragraph
   original: 'Masuda: I see, so you’re among those who think of the melody later.'
-  translation: 增田：原来如此，你是属于后考虑旋律的那种人。
+  translation: 原来如此，你是属于后考虑旋律的那种人。
   speaker: 增田顺一
 - type: paragraph
   original: 'Sato: I never have any ideas.'
@@ -425,7 +422,7 @@ parallel_items:
   speaker: 佐藤
 - type: paragraph
   original: 'Masuda: I’m one of those who think of the melody first.'
-  translation: 增田：我是先考虑旋律的那种人。
+  translation: 我是先考虑旋律的那种人。
   speaker: 增田顺一
 - type: paragraph
   original: 'Ichinose: Me too.'
@@ -445,7 +442,7 @@ parallel_items:
   speaker: 提问
 - type: paragraph
   original: 'Masuda: It’s still the fight theme from the first games, “Red & Green” [Disc 1, Track 6 Fight (VS Wild Pokémon)].'
-  translation: 增田：还是初代《红·绿》的战斗主题曲（CD1第6轨“战斗（VS野生宝可梦）”）。
+  translation: 还是初代《红·绿》的战斗主题曲（CD1第6轨“战斗（VS野生宝可梦）”）。
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: There are some subtle differences between the versions.'
@@ -453,7 +450,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: This arrangement was even more fantastic than I imagined. If I tried to arrange it myself, it’d end up going in the same direction, you see (laughs).'
-  translation: 增田：这个编曲比我预想的还要精彩。如果我自己来编曲的话，最终也会走向同样的方向吧（笑）。
+  translation: 这个编曲比我预想的还要精彩。如果我自己来编曲的话，最终也会走向同样的方向吧（笑）。
   speaker: 增田顺一
 - type: paragraph
   original: 'Miyazaki: Perhaps it’s that, even if you think there are many possible directions, there is only one truth (laughs). You just think that this is more or less how it should be.'
@@ -461,7 +458,7 @@ parallel_items:
   speaker: 宫崎慎二
 - type: paragraph
   original: 'Masuda: The first time I heard it was on TV (laughs), but at the very beginning of the TV series, there’s this scene where game sounds are suddenly replaced by an orchestra. I still remember that scene.'
-  translation: 增田：我第一次听到它是在电视上（笑），在动画系列的开头，有一个游戏音效突然被管弦乐取代的场景。我至今还记得那个画面。
+  translation: 我第一次听到它是在电视上（笑），在动画系列的开头，有一个游戏音效突然被管弦乐取代的场景。我至今还记得那个画面。
   speaker: 增田顺一
 - type: paragraph
   original: 'Ichinose: For me, it’s Disc 2, Track 9, “Crossing the Ocean”. “A track of mine was arranged and became such a magnificent piece”, I thought. When I heard it for the first time, I actually soliloquized and said, “Thank you so much” (laughs).'
@@ -507,37 +504,4 @@ parallel_items:
 - type: paragraph
   original: Translated by Sushi
   translation: 翻译：Sushi
-- type: paragraph
-  original: This page has been viewed 32269 times.
-  translation: 本页面已被浏览32269次。
-- type: paragraph
-  original: "Last updated 11 Jun 2020 18:46\r\n            by Sunain."
-  translation: 最后更新：2020年6月11日 18:46，由Sunain更新。
-- type: paragraph
-  original: 'Revision #14'
-  translation: '修订版本 #14'
-- type: paragraph
-  original: 'Page Tags: Interview Music'
-  translation: 页面标签：访谈、音乐
-- type: paragraph
-  original: "Pokémon, all assorted characters, images and audio are ©GAME FREAK, Nintendo, Creatures, TV Tokyo, ShoPro\r\n        and The Pokémon Company. All images, text and audio are used in an editorial context.\r\n        No site content, information, translations, news, images or otherwise may be reposted\r\n        to any website without express permission from the staff."
-  translation: 宝可梦、所有相关角色、图像和音频均©GAME FREAK、任天堂、Creatures、东京电视台、ShoPro及宝可梦公司。所有图像、文本和音频均用于编辑目的。未经工作人员明确许可，任何网站不得转载本站任何内容、信息、翻译、新闻、图像或其他材料。
-- type: paragraph
-  original: 'Website Programming: JDS, Hiroki, Sunain | Rev: ea5db73d'
-  translation: 网站编程：JDS、Hiroki、Sunain | 修订版本：ea5db73d
-- type: paragraph
-  original: 'Site: About Us | Contact Us | Terms of Use & Rules | News RSS | Site Updates RSS | Submit News'
-  translation: 网站：关于我们 | 联系我们 | 使用条款与规则 | 新闻RSS | 站点更新RSS | 提交新闻
-- type: paragraph
-  original: 'Interactive: #Pocketmonsters Discord | Forum | Imageboard | Link To Us'
-  translation: 互动：#Pocketmonsters Discord | 论坛 | 贴图板 | 链接我们
-- type: paragraph
-  original: 'Official Sites/Stores:'
-  translation: 官方网站/商店：
-- type: paragraph
-  original: 'Affiliates:'
-  translation: 合作伙伴：
-- type: image
-  image: /assets/img/interviews/9999-99-99-miyazaki-interview-anime-ost/img_02.gif
-  caption: Pokemon Official Japanese Site
 ---

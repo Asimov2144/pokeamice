@@ -48,9 +48,6 @@ original_link: https://web.archive.org/web/20180612124601/http://www.glitterberr
 translator: Poke Amice Studio
 interviewee: 增田顺一, 杉森建, 森本茂树
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2018-06-12-early-concept-art/img_02.png
-  caption: Share
 - type: paragraph
   original: GlitterBerri's Game Translations » Early Concept Art
   translation: GlitterBerri的游戏翻译 » 早期概念艺术
@@ -299,7 +296,9 @@ parallel_items:
   original: Return to Pokémon Red & Blue Index
   translation: 返回《宝可梦 红/蓝》索引
   note: 《宝可梦 红/蓝》是初代宝可梦游戏的名称，官方中文译名为《宝可梦 红/绿》和《宝可梦 蓝》，但此处原文为Red & Blue，故保留“红/蓝”。
-- type: image
-  image: /assets/img/interviews/2018-06-12-early-concept-art/img_03.jpg
-  caption: 相关资料图
 ---
+
+
+
+
+

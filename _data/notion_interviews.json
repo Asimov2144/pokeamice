@@ -1,0 +1,1338 @@
+{
+  "collection_name": "宝可梦采访整合",
+  "schema": {
+    "NGho": {
+      "name": "Date",
+      "type": "date",
+      "date_format": "YYYY/MM/DD"
+    },
+    "lb>l": {
+      "name": "Tags",
+      "type": "multi_select",
+      "options": [
+        {
+          "id": "70f2e3be-7d3a-471d-b9e2-6850f7581540",
+          "color": "default",
+          "value": "增田顺一"
+        },
+        {
+          "id": "84780bd3-124e-43fe-b348-552cc292c28a",
+          "color": "default",
+          "value": "大森滋"
+        },
+        {
+          "id": "658b288f-4a4d-4de3-8acc-f32f679e779b",
+          "color": "blue",
+          "value": "田尻 智"
+        },
+        {
+          "id": "5a5aca31-ac87-4a69-a960-8afd8da3f141",
+          "color": "brown",
+          "value": "杉森建"
+        },
+        {
+          "id": "b4b60a55-c0a2-4bbc-ad30-2acaa49cdb5d",
+          "color": "blue",
+          "value": "西田墩子"
+        },
+        {
+          "id": "0131d3c1-c2c4-48bd-a860-fa2b7adfc49b",
+          "color": "purple",
+          "value": "石原恒和"
+        },
+        {
+          "id": "72340ad1-4882-4b89-a120-4152493b7b6e",
+          "color": "yellow",
+          "value": "西野浩二"
+        },
+        {
+          "id": "d6a3ef61-5b29-4df4-9351-085998a0f3bb",
+          "color": "gray",
+          "value": "岩尾和昌"
+        },
+        {
+          "id": "71a13fb5-b048-4c5c-8050-825c1e32b78d",
+          "color": "green",
+          "value": "大村祐介"
+        },
+        {
+          "id": "c12ba300-8783-40ca-9f07-cbd928375cad",
+          "color": "default",
+          "value": "森本茂树"
+        },
+        {
+          "id": "d76ce2b6-d479-4585-9cdb-5d3b242b4213",
+          "color": "green",
+          "value": "田上怜子"
+        },
+        {
+          "id": "b714632d-85fb-4aba-80b6-7febfdb760e7",
+          "color": "red",
+          "value": "井部真那"
+        },
+        {
+          "id": "a5b09a91-3c67-439d-b04e-7ba50028bb6d",
+          "color": "brown",
+          "value": "吉田宏信"
+        },
+        {
+          "id": "621cc894-ab70-4805-b14a-6ae1a946ec0c",
+          "color": "brown",
+          "value": "河内丸武史"
+        },
+        {
+          "id": "510a9aca-c81f-4a04-a61d-e883e1ac7b17",
+          "color": "purple",
+          "value": "尾上将之"
+        },
+        {
+          "id": "8b795d0b-9923-43ea-86a7-307a44ab6fbb",
+          "color": "default",
+          "value": "松崎翼"
+        },
+        {
+          "id": "2af1f18e-dec0-4a64-928f-1b7bd861510e",
+          "color": "gray",
+          "value": "海野隆雄"
+        },
+        {
+          "id": "14f8a4f1-e16a-4de7-8a44-dac834ded51a",
+          "color": "pink",
+          "value": "田谷正夫"
+        },
+        {
+          "id": "7ed1754d-5a58-44ee-907d-998e3bf7a657",
+          "color": "brown",
+          "value": "斉田和生"
+        },
+        {
+          "id": "cc77db76-705f-452a-80ad-bd7dffc9a692",
+          "color": "brown",
+          "value": "田中宏和"
+        },
+        {
+          "id": "89312895-d429-49b8-881f-abc6d81b0bdc",
+          "color": "gray",
+          "value": "植松俊介"
+        },
+        {
+          "id": "bef14f66-546f-418f-adfe-0b776db1b725",
+          "color": "blue",
+          "value": "一之濑刚"
+        },
+        {
+          "id": "97385560-e140-4cd1-9acf-055b026b6f02",
+          "color": "blue",
+          "value": "野村達雄"
+        },
+        {
+          "id": "e665a58d-3269-4012-acff-1fabf296fece",
+          "color": "red",
+          "value": "高橋伸也"
+        },
+        {
+          "id": "a1d48536-d45f-464d-81d9-2cb596f8f04f",
+          "color": "orange",
+          "value": "Nintendo Power"
+        },
+        {
+          "id": "cb713004-6991-4f38-8659-3dfecb1a5b04",
+          "color": "pink",
+          "value": "帖子"
+        },
+        {
+          "id": "fb1ba987-b391-4dbf-8e6d-cb192d2b8d0b",
+          "color": "blue",
+          "value": "大杂烩"
+        },
+        {
+          "id": "ab6e4738-71c2-49c0-81a2-52f582b9b334",
+          "color": "orange",
+          "value": "皮卡丘"
+        },
+        {
+          "id": "cd78a9bb-820b-4c48-9c61-0e1496ab6391",
+          "color": "gray",
+          "value": "EN"
+        },
+        {
+          "id": "b148fb95-e8f8-494b-9b71-23798addd9df",
+          "color": "gray",
+          "value": "JP"
+        },
+        {
+          "id": "c7551fcf-c85b-42f2-bcfe-e405e5b11348",
+          "color": "brown",
+          "value": "ES"
+        },
+        {
+          "id": "c25e3a3c-17a2-4cbb-af53-8396f130bf7b",
+          "color": "blue",
+          "value": "第一世代"
+        },
+        {
+          "id": "c8793e5f-35f7-41e1-942b-8ef44693c15d",
+          "color": "pink",
+          "value": "第二世代"
+        },
+        {
+          "id": "55b8fdf8-af33-4331-b8b0-676a1a3c7155",
+          "color": "orange",
+          "value": "第三世代"
+        },
+        {
+          "id": "22e23ae1-9636-4af1-9a3d-1bb0e9993958",
+          "color": "red",
+          "value": "第四世代"
+        },
+        {
+          "id": "d934a93b-b858-4294-a25e-f3cfc5dec5a6",
+          "color": "red",
+          "value": "第五世代"
+        },
+        {
+          "id": "b2678eec-873b-4364-92b5-4feaf729d410",
+          "color": "purple",
+          "value": "第六世代"
+        },
+        {
+          "id": "f25ed1f6-4d26-464e-97cd-f5438365f0ee",
+          "color": "gray",
+          "value": "第七世代"
+        },
+        {
+          "id": "a0b91f7b-2689-4877-9b6d-455cb4be22eb",
+          "color": "green",
+          "value": "第八世代"
+        },
+        {
+          "id": "a00b5a49-d47b-4fd8-a0cd-bfaa5c61645e",
+          "color": "orange",
+          "value": "伊布"
+        },
+        {
+          "id": "3d2d2e8d-9653-481d-9922-47a634b3cfe9",
+          "color": "blue",
+          "value": "赤绿"
+        },
+        {
+          "id": "fc7a19c8-208e-42b6-986a-4331ae708278",
+          "color": "pink",
+          "value": "火红叶绿"
+        },
+        {
+          "id": "cd75a9de-065c-4c5f-8bf5-0eff10294fdc",
+          "color": "default",
+          "value": "HGSS"
+        },
+        {
+          "id": "a3684c35-6fe3-4cac-9bd6-bb417356c54b",
+          "color": "gray",
+          "value": "白金"
+        },
+        {
+          "id": "29d59890-5168-4193-84ac-bd5da56a83bb",
+          "color": "brown",
+          "value": "黑白"
+        },
+        {
+          "id": "6d11ba1e-1a1d-4cc5-91b8-8f97ec36b8fe",
+          "color": "brown",
+          "value": "B2W2"
+        },
+        {
+          "id": "234b8970-85a6-4a37-8c9b-0a788e0151bf",
+          "color": "orange",
+          "value": "XY"
+        },
+        {
+          "id": "94c4e323-39d5-4461-ae65-257f53635ec1",
+          "color": "yellow",
+          "value": "ORAS"
+        },
+        {
+          "id": "5886454b-8d92-413f-bb6b-e52adc4190af",
+          "color": "red",
+          "value": "日月"
+        },
+        {
+          "id": "9db9693d-ff08-47da-a148-907d5d46d267",
+          "color": "red",
+          "value": "究极日月"
+        },
+        {
+          "id": "228d8560-c001-4454-99ce-3f7add1b6b4c",
+          "color": "default",
+          "value": "GO"
+        },
+        {
+          "id": "45627089-d004-454b-8288-c006baf65534",
+          "color": "green",
+          "value": "QUEST"
+        },
+        {
+          "id": "71e5d77f-de8c-46b5-8e52-0e12e716ca80",
+          "color": "yellow",
+          "value": "LGPE"
+        },
+        {
+          "id": "a6088ac0-4056-44d4-9d3c-3ac84f0d7dbb",
+          "color": "pink",
+          "value": "剑盾"
+        },
+        {
+          "id": "b1fd2ea5-44d3-4f45-81b8-175ae17321e1",
+          "color": "red",
+          "value": "纸马"
+        },
+        {
+          "id": "2189deeb-1a35-4a04-81aa-e68a1e7e5370",
+          "color": "gray",
+          "value": "短文杂谈"
+        },
+        {
+          "id": "96c9adb2-dd1c-4228-81ad-662326f7217e",
+          "color": "blue",
+          "value": "觉醒力量"
+        },
+        {
+          "id": "ae7ead6b-0b47-44d3-bddf-c0ba749f9f0c",
+          "color": "purple",
+          "value": "SNAP"
+        },
+        {
+          "id": "832b5c05-4f9e-4100-b366-9ac18c6c43d0",
+          "color": "red",
+          "value": "宝拳"
+        },
+        {
+          "id": "c2cad76f-a088-486a-8ed6-77dd37a9f0c2",
+          "color": "yellow",
+          "value": "星野正昭"
+        },
+        {
+          "id": "b5747319-1126-4876-a853-d6c30bc67033",
+          "color": "brown",
+          "value": "宇都宫崇人"
+        },
+        {
+          "id": "9afd4c2c-890a-48c8-b49b-3ad50d6e553d",
+          "color": "brown",
+          "value": "須崎 春樹"
+        },
+        {
+          "id": "ec80984a-01eb-46c9-b115-ade4b8f30e60",
+          "color": "orange",
+          "value": "氏家淳子"
+        },
+        {
+          "id": "863cf7ae-9019-43ce-b4af-94dcefc0bb3e",
+          "color": "pink",
+          "value": "畠祐貴氏"
+        },
+        {
+          "id": "e6a34768-5803-4ad5-bac7-42b2003de4d7",
+          "color": "orange",
+          "value": "中廣健吾"
+        },
+        {
+          "id": "a08eebb5-1847-40ab-abf1-f87210d7aefd",
+          "color": "purple",
+          "value": "LINE"
+        },
+        {
+          "id": "02774fb8-9079-46f6-9327-e03cd7048090",
+          "color": "green",
+          "value": "BLOG"
+        },
+        {
+          "id": "8a5d86b4-e233-40eb-a40f-581a98797225",
+          "color": "orange",
+          "value": "STAFF"
+        },
+        {
+          "id": "f01fdf33-01db-4af8-90d2-04a4ca686b3a",
+          "color": "blue",
+          "value": "杉中克考"
+        },
+        {
+          "id": "291a5437-402e-44c0-bb3f-0de1b9fd37b0",
+          "color": "blue",
+          "value": "足立美奈子"
+        },
+        {
+          "id": "66a20977-caf7-498f-b137-1bbbdf80ea1f",
+          "color": "purple",
+          "value": "佐藤仁美"
+        },
+        {
+          "id": "29bedbef-7bf2-4922-813d-fb5f54871b7f",
+          "color": "blue",
+          "value": "斉藤優史"
+        },
+        {
+          "id": "fa55bd9a-c28d-4908-806d-22873ff32da9",
+          "color": "brown",
+          "value": "菜花健作"
+        },
+        {
+          "id": "6c633153-411f-4dd7-8ef3-0416260d1301",
+          "color": "gray",
+          "value": "大洞翔一"
+        },
+        {
+          "id": "5c2e6fa9-0426-4e65-a1f2-798ef0f817d0",
+          "color": "orange",
+          "value": "今村啓太"
+        },
+        {
+          "id": "e593f95e-ab7e-4165-a8e3-ac6da5a2bb07",
+          "color": "purple",
+          "value": "宝株"
+        },
+        {
+          "id": "4693aea4-5883-471e-833c-18c1bc281c90",
+          "color": "gray",
+          "value": "渡边哲也"
+        },
+        {
+          "id": "79590f6b-0fc1-4abe-a9de-859c8e6dd2b9",
+          "color": "pink",
+          "value": "谷博行"
+        },
+        {
+          "id": "32430fb8-c723-4a42-9f25-a6ccc35373b4",
+          "color": "orange",
+          "value": "金银"
+        },
+        {
+          "id": "081a73bf-3100-4db2-9e4f-af150aae537b",
+          "color": "gray",
+          "value": "宫崎慎二"
+        },
+        {
+          "id": "1e13c110-d869-47b2-a05b-a8ab7d6d9a0a",
+          "color": "pink",
+          "value": "汤山邦彦"
+        },
+        {
+          "id": "4994892f-6434-4852-bce7-63c3c30a08d7",
+          "color": "gray",
+          "value": "剧场版"
+        },
+        {
+          "id": "c9e5842c-2ff4-4cbc-91e8-0760cfdcc5fd",
+          "color": "default",
+          "value": "景山将太"
+        },
+        {
+          "id": "deb774f4-9926-4da7-b608-d6378403afd1",
+          "color": "red",
+          "value": "中川翔子"
+        },
+        {
+          "id": "ecea2fe1-81c1-4452-9a1f-e9f7b586613e",
+          "color": "red",
+          "value": "侦探皮"
+        },
+        {
+          "id": "e38df7dd-4b07-4840-bb52-f85b2cd0bdcf",
+          "color": "yellow",
+          "value": "岡崎体育"
+        },
+        {
+          "id": "0a86ba2c-05f6-493d-8dd2-df6ebe838d5a",
+          "color": "green",
+          "value": "有贺等"
+        },
+        {
+          "id": "2e9f92d8-43a2-4702-a75e-76b377285a02",
+          "color": "brown",
+          "value": "太田健程"
+        },
+        {
+          "id": "ed08e1a1-5235-41ef-83e7-7cb2bab8704a",
+          "color": "green",
+          "value": "第九世代"
+        },
+        {
+          "id": "92e3ff7f-9564-4fa0-b3d8-a843f03cab70",
+          "color": "red",
+          "value": "TPC"
+        },
+        {
+          "id": "b7d93a2d-6c46-4213-9d94-7e79990804f4",
+          "color": "yellow",
+          "value": "宝可梦Sleep"
+        }
+      ]
+    },
+    "r;ks": {
+      "name": "Links",
+      "type": "text"
+    },
+    "title": {
+      "name": "Name",
+      "type": "title"
+    }
+  },
+  "total": 107,
+  "rows": [
+    {
+      "_id": "6ff31a91-3593-4a7a-9597-b6b28a251818",
+      "Title": "‘Pokemon Peer’ Interview Translations",
+      "Date": null,
+      "Tags": "增田顺一,杉森建,井部真那,田上怜子,第五世代,黑白,JP",
+      "Links": "https://www.pokebeach.com/2010/09/pokemon-peer-interview-translations",
+      "Name": "‘Pokemon Peer’ Interview Translations"
+    },
+    {
+      "_id": "346007af-1d2e-4e80-93d1-0f72beba1bcc",
+      "Title": "“Crear algo que aman todos los niños del mundo abruma”",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第六世代,ORAS,ES",
+      "Links": "https://elpais.com/cultura/2014/11/01/actualidad/1414798048_551223.html",
+      "Name": "“Crear algo que aman todos los niños del mundo abruma”"
+    },
+    {
+      "_id": "8f537810-d5a4-4996-bac5-c1f05dc3efe0",
+      "Title": "[Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材",
+      "Date": "2017-11-06",
+      "Tags": "增田顺一,大森滋,岩尾和昌,海野隆雄,第六世代,XY",
+      "Links": "https://www.pokemontrash.com/news/2017-game-freak-dordogne-enquete/",
+      "Name": "[Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材"
+    },
+    {
+      "_id": "2cac9265-9e2c-4c77-b8b6-8a2d1d1bb9e1",
+      "Title": "《Pokemon GO》完成度仅10%？热潮超过预测100 倍？开发秘辛圆桌会议深入报导",
+      "Date": null,
+      "Tags": null,
+      "Links": "https://gnn.gamer.com.tw/detail.php?sn=137973",
+      "Name": "《Pokemon GO》完成度仅10%？热潮超过预测100 倍？开发秘辛圆桌会议深入报导"
+    },
+    {
+      "_id": "fbc6441d-bea2-4d4f-bc5d-3ff987e9db0e",
+      "Title": "「ポケットモンスター X・Y」のサウンド制作秘話を開発陣が披露。ポケモンセンターヨコハマで開催されたファンミーティングをレポート",
+      "Date": null,
+      "Tags": "增田顺一,景山将太,JP,第六世代,XY",
+      "Links": "https://www.4gamer.net/games/198/G019893/20131116014/",
+      "Name": "「ポケットモンスター X・Y」のサウンド制作秘話を開発陣が披露。ポケモンセンターヨコハマで開催されたファンミーティングをレポート"
+    },
+    {
+      "_id": "6a3f0b40-16cc-4982-982b-0da85b1cf986",
+      "Title": "「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」（ブリッジ）の設定",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,黑白,JP",
+      "Links": "http://pokemon-memo.com/2011/02/21/black-white-bridge/",
+      "Name": "「ポケットモンスター ブラック ホワイト」のイッシュ地方の「橋」（ブリッジ）の設定"
+    },
+    {
+      "_id": "0f8d7f17-5bfb-47ff-a970-1f749b705f87",
+      "Title": "｢ポケモン ソード・シールド｣ゲームフリークの増田順一氏と大森滋氏インタビュー",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第八世代,剑盾,JP",
+      "Links": "https://ameblo.jp/angelique-kiss/entry-12539834798.html",
+      "Name": "｢ポケモン ソード・シールド｣ゲームフリークの増田順一氏と大森滋氏インタビュー"
+    },
+    {
+      "_id": "122acb35-fcdd-4c6f-8bd1-084be3b41da6",
+      "Title": "「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,石原恒和,松崎翼,斉田和生,高橋伸也,野村達雄,第八世代,JP,LGPE,QUEST",
+      "Links": "https://www.gamer.ne.jp/news/201805300063/",
+      "Name": "「ポケモンクエスト」「ポケモン Let's Go! ピカチュウ・Let's Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート"
+    },
+    {
+      "_id": "ccd3b6ce-a073-4fa8-a827-519a29561472",
+      "Title": "「ポケモンだけ」だから面白い。ポケモンにすべてを懸けるふたり",
+      "Date": null,
+      "Tags": "宇都宫崇人,第七世代,宝株,JP,河本拓氏",
+      "Links": "https://newspicks.com/news/2833811/body/",
+      "Name": "「ポケモンだけ」だから面白い。ポケモンにすべてを懸けるふたり"
+    },
+    {
+      "_id": "0854cff6-6241-45d7-aa50-fc24ba60d1d7",
+      "Title": "『ポケットモンスター X・Y』のトークイベントをレポ！ 増田順一さんらがBGMや未公開の設定資料などについて語った!!",
+      "Date": null,
+      "Tags": "增田顺一,XY,第六世代,JP",
+      "Links": "https://dengekionline.com/elem/000/000/753/753933/",
+      "Name": "『ポケットモンスター X・Y』のトークイベントをレポ！ 増田順一さんらがBGMや未公開の設定資料などについて語った!!"
+    },
+    {
+      "_id": "1c37cca7-eff1-425a-807f-39ce60f5c267",
+      "Title": "『ポケットモンスター X・Y』増田P×声優・岡本信彦氏インタビュー＆攻略大特集！ 電子版配信もスタートした『電撃Nintendo12月号』を紹介",
+      "Date": null,
+      "Tags": "增田顺一,第六世代,JP,XY",
+      "Links": "https://dengekionline.com/elem/000/000/737/737734/",
+      "Name": "『ポケットモンスター X・Y』増田P×声優・岡本信彦氏インタビュー＆攻略大特集！ 電子版配信もスタートした『電撃Nintendo12月号』を紹介"
+    },
+    {
+      "_id": "2af7da1f-e2ae-4a62-a7fd-4566dd99f0ed",
+      "Title": "『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制",
+      "Date": null,
+      "Tags": "海野隆雄,大森滋,氏家淳子,畠祐貴氏,中廣健吾,植松俊介,第七世代,日月,JP",
+      "Links": "https://cgworld.jp/feature/201707-cgw227GG-pokemon.html",
+      "Name": "『ポケットモンスター サン・ムーン』の3Dアセット制作とそれを可能にする高度な3社協業体制"
+    },
+    {
+      "_id": "c6061168-8560-4440-b80f-c376b7504660",
+      "Title": "『ポケットモンスター ソード・シールド』の“いま聞きたいこと”について増田順一氏、大森滋氏を直撃。「連れて来られるポケモンの話」にも言及！【E32019】",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第八世代,剑盾,JP",
+      "Links": "https://www.famitsu.com/news/201906/13177936.html",
+      "Name": "『ポケットモンスター ソード・シールド』の“いま聞きたいこと”について増田順一氏、大森滋氏を直撃。「連れて来られるポケモンの話」にも言及！【E32019】"
+    },
+    {
+      "_id": "bff4dd01-93fe-4db7-ae3e-8edf12170c48",
+      "Title": "『ポケットモンスター』受け継がれる音楽のバトン",
+      "Date": null,
+      "Tags": "一之濑刚,增田顺一,足立美奈子,佐藤仁美,第六世代,XY,JP",
+      "Links": "http://www.2083.jp/contents/201410gamefreak/",
+      "Name": "『ポケットモンスター』受け継がれる音楽のバトン"
+    },
+    {
+      "_id": "cf094ca7-0f70-48f9-8fa4-c549721d2e8f",
+      "Title": "『ポケモン ウルトラサン・ウルトラムーン』あのエピソードの真意は？ 開発者たちが明かす、ストーリー制作秘話【ネタバレ注意】(1/5)",
+      "Date": null,
+      "Tags": "岩尾和昌,第七世代,究极日月,杉中克考,JP",
+      "Links": "https://www.famitsu.com/news/201801/02148529.html",
+      "Name": "『ポケモン ウルトラサン・ウルトラムーン』あのエピソードの真意は？ 開発者たちが明かす、ストーリー制作秘話【ネタバレ注意】(1/5)"
+    },
+    {
+      "_id": "ae4c6152-1937-4df1-aacc-0608e5f0d915",
+      "Title": "『ポケモン ウルトラサン・ウルトラムーン』について気になることをすべて聞いた！ マル秘情報も飛び出す開発者スペシャルインタビュー(1/5)",
+      "Date": null,
+      "Tags": "大森滋,岩尾和昌,第七世代,究极日月",
+      "Links": "https://www.famitsu.com/news/201710/19143850.html",
+      "Name": "『ポケモン ウルトラサン・ウルトラムーン』について気になることをすべて聞いた！ マル秘情報も飛び出す開発者スペシャルインタビュー(1/5)"
+    },
+    {
+      "_id": "10cb83c0-c726-4bf8-b080-db4adb73a16c",
+      "Title": "【XY】AZ関連、学習装置の仕様変更の理由など(インタビュー記事和訳)",
+      "Date": null,
+      "Tags": "增田顺一,第六世代,XY,JP",
+      "Links": "http://raim2005.blog18.fc2.com/blog-entry-1177.html",
+      "Name": "【XY】AZ関連、学習装置の仕様変更の理由など(インタビュー記事和訳)"
+    },
+    {
+      "_id": "333af00b-e1cf-4c43-8a25-792f92c27ed9",
+      "Title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー",
+      "Date": null,
+      "Tags": "宇都宫崇人,第九世代,TPC,宝可梦Sleep",
+      "Links": "https://www.famitsu.com/article/202411/23904",
+      "Name": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー"
+    },
+    {
+      "_id": "8fb8e6c5-f041-4dc9-a39e-a22d2a0da529",
+      "Title": "【劇場版ポケットモンスター ココ】音楽プロデュースを務める岡崎体育さんインタビュー!!　「掟の歌」は○○モチーフ!?　楽曲制作の裏側を聞いた！",
+      "Date": null,
+      "Tags": "岡崎体育,JP",
+      "Links": "https://corocoro.jp/special/152162/",
+      "Name": "【劇場版ポケットモンスター ココ】音楽プロデュースを務める岡崎体育さんインタビュー!!　「掟の歌」は○○モチーフ!?　楽曲制作の裏側を聞いた！"
+    },
+    {
+      "_id": "988021f8-88de-4ef3-a18e-7490492b8eb8",
+      "Title": "【対談】ポケモンと考える『現実世界と仮想世界をより豊かにする方法』｜宇都宮崇人（株式会社ポケモン代表取締役）×伊藤伸（構想日本理事）",
+      "Date": null,
+      "Tags": "第八世代,宇都宫崇人,JP,GO",
+      "Links": "http://www.kosonippon.org/news/2020/taidan0901/",
+      "Name": "【対談】ポケモンと考える『現実世界と仮想世界をより豊かにする方法』｜宇都宮崇人（株式会社ポケモン代表取締役）×伊藤伸（構想日本理事）"
+    },
+    {
+      "_id": "b194c89a-e836-43d0-aee9-a274add3a604",
+      "Title": "2011 宝可梦的过去 现在 与未来 GI",
+      "Date": "2011-05-07",
+      "Tags": "增田顺一,第一世代,第五世代,EN,赤绿,黑白",
+      "Links": "https://www.gameinformer.com/b/features/archive/2011/03/07/pokemon-past-present-future.aspx",
+      "Name": "2011 宝可梦的过去 现在 与未来 GI"
+    },
+    {
+      "_id": "8277f504-f9d3-4a7d-b9e1-8a2715bfbbd9",
+      "Title": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
+      "Date": "2016-12-05",
+      "Tags": "增田顺一,大森滋,第七世代,日月,ES",
+      "Links": "https://www.revistagq.com/noticias/articulos/entrevista-creadores-pokemon-sol-luna/25043",
+      "Name": "2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功"
+    },
+    {
+      "_id": "eb9ddb3f-fa09-4968-960b-6b9f0a1d3fbb",
+      "Title": "A Special Movie Pre-Premiere Interview with Director Yuyama",
+      "Date": null,
+      "Tags": "汤山邦彦,EN,剧场版",
+      "Links": "https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details",
+      "Name": "A Special Movie Pre-Premiere Interview with Director Yuyama"
+    },
+    {
+      "_id": "9375e15b-dc5f-468c-90e6-d2a1d3215c3d",
+      "Title": "Afterwords – Pokémon X & Y",
+      "Date": null,
+      "Tags": "增田顺一,第六世代,EN,XY",
+      "Links": "https://www.gameinformer.com/b/features/archive/2014/02/14/afterwords-unabridged-pokemon-x-and-y.aspx",
+      "Name": "Afterwords – Pokémon X & Y"
+    },
+    {
+      "_id": "4b7be19a-79d2-4915-9d4e-3d65855f8e95",
+      "Title": "An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!",
+      "Date": null,
+      "Tags": null,
+      "Links": "https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM",
+      "Name": "An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!"
+    },
+    {
+      "_id": "4ed790e2-1bd1-4170-978b-ac254868cfe9",
+      "Title": "BW 社长问",
+      "Date": null,
+      "Tags": "第五世代,黑白,EN,石原恒和,增田顺一,杉森建",
+      "Links": "https://iwataasks.nintendo.com/interviews/#/ds/pokemon-black-white/0/1",
+      "Name": "BW 社长问"
+    },
+    {
+      "_id": "c72ae52e-34c4-445c-9716-42b124984dbb",
+      "Title": "corocoro 初代 扫描",
+      "Date": null,
+      "Tags": "第一世代,JP,赤绿",
+      "Links": "https://corocoro.jp/news/49271/",
+      "Name": "corocoro 初代 扫描"
+    },
+    {
+      "_id": "f5110adc-9a18-4c81-b229-02e2005711fd",
+      "Title": "Creatures history special interview",
+      "Date": null,
+      "Tags": "石原恒和,田中宏和,JP",
+      "Links": "https://www.creatures.co.jp/history_special_interview/",
+      "Name": "Creatures history special interview"
+    },
+    {
+      "_id": "ba3ed093-d900-4950-9376-24fdc5cd0b9b",
+      "Title": "E3 2004 采访",
+      "Date": null,
+      "Tags": "火红叶绿,增田顺一,石原恒和,EN,第三世代",
+      "Links": "https://www.ign.com/articles/2004/05/13/e3-2004-the-pokemon-creators-speak",
+      "Name": "E3 2004 采访"
+    },
+    {
+      "_id": "4feb1c25-7f66-40f0-b48e-c322bbd250d7",
+      "Title": "Early Concept Art 宝可梦早期概念美术",
+      "Date": null,
+      "Tags": "增田顺一,田尻 智,杉森建,森本茂树,EN,第一世代,赤绿",
+      "Links": "https://web.archive.org/web/20180612124601/http://www.glitterberri.com/pokemon-red-blue/early-concept-art",
+      "Name": "Early Concept Art 宝可梦早期概念美术"
+    },
+    {
+      "_id": "4feb02fc-5109-4f99-9d56-ad34545341e3",
+      "Title": "Entrevista con Junichi Masuda, el \"alma\" de Pokémon 宝可梦系列的灵魂",
+      "Date": null,
+      "Tags": "增田顺一,第六世代,XY,ES",
+      "Links": "https://www.hobbyconsolas.com/reportajes/entrevista-con-junichi-masuda-59058",
+      "Name": "Entrevista con Junichi Masuda, el \"alma\" de Pokémon 宝可梦系列的灵魂"
+    },
+    {
+      "_id": "fc60edc0-1ca3-4503-a860-9418799daf43",
+      "Title": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第七世代,日月,ES",
+      "Links": "https://as.com/meristation/2016/12/12/reportajes/1481526000_160843.html",
+      "Name": "Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\""
+    },
+    {
+      "_id": "ea197f4e-a25b-46af-8be9-d07f9092e049",
+      "Title": "Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer",
+      "Date": null,
+      "Tags": "杉森建,海野隆雄,吉田宏信,JP",
+      "Links": "https://www.siliconera.com/game-freak-illustration-video-series-tackles-the-making-of-harmoknight-and-drill-dozer/",
+      "Name": "Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer"
+    },
+    {
+      "_id": "5a266bb3-6da4-48b9-ab30-9f406bcbd202",
+      "Title": "GAME FREAK STAFF 日记",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,BLOG,第四世代,STAFF,JP",
+      "Links": "https://web.archive.org/web/20130705083744/http://www.gamefreak.co.jp/blog/staff/?cat=6",
+      "Name": "GAME FREAK STAFF 日记"
+    },
+    {
+      "_id": "9298c7ac-22f3-4572-9843-52faf6b7a93c",
+      "Title": "GAME FREAK: ‘WE’RE TRYING TO CREATE SOMETHING MORE THAN POKÉMON’",
+      "Date": null,
+      "Tags": "尾上将之,JP,第八世代",
+      "Links": "https://www.videogameschronicle.com/features/interviews/game-freak-were-trying-to-create-something-more-than-pokemon/",
+      "Name": "GAME FREAK: ‘WE’RE TRYING TO CREATE SOMETHING MORE THAN POKÉMON’"
+    },
+    {
+      "_id": "93371b9e-c42f-47dc-a08d-f1cd6e4c5062",
+      "Title": "GF 新办公室 设计",
+      "Date": null,
+      "Tags": "JP,STAFF",
+      "Links": "https://canuch.com/projects/game-freak",
+      "Name": "GF 新办公室 设计"
+    },
+    {
+      "_id": "40be8f88-bc67-4f70-a07f-eb0db52c4e2e",
+      "Title": "GF如何设计宝可梦",
+      "Date": null,
+      "Tags": "帖子,大杂烩,杉森建,西野浩二,增田顺一,EN",
+      "Links": "https://www.resetera.com/threads/how-game-freak-designs-pokémon.105057/page-3",
+      "Name": "GF如何设计宝可梦"
+    },
+    {
+      "_id": "4a9e051c-b7c6-423b-82cc-928d0907901e",
+      "Title": "GF远古官网采访",
+      "Date": null,
+      "Tags": "增田顺一,第一世代,杉森建,田尻 智,森本茂树,JP,太田健程",
+      "Links": "https://web.archive.org/web/19971016215524/http://www.gamefreak.co.jp/POKEMON/INTER/INTER.HTM",
+      "Name": "GF远古官网采访"
+    },
+    {
+      "_id": "4869ad74-6aa9-43e3-92cf-3636b28fa9f7",
+      "Title": "GI GF如何设计宝可梦",
+      "Date": null,
+      "Tags": "第一世代,第七世代,增田顺一,EN",
+      "Links": "https://www.gameinformer.com/b/features/archive/2017/08/10/heres-how-game-freak-designs-pokemon-creatures.aspx",
+      "Name": "GI GF如何设计宝可梦"
+    },
+    {
+      "_id": "fbe47fae-82f2-4d12-b4df-b23db9c4558c",
+      "Title": "GS LGPE采访",
+      "Date": null,
+      "Tags": "第八世代,皮卡丘,伊布,LGPE,EN,增田顺一",
+      "Links": "https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462538/",
+      "Name": "GS LGPE采访"
+    },
+    {
+      "_id": "46d4bdcb-83ba-4401-8a30-088394a0ed77",
+      "Title": "helixchamber 田尻 自传漫画 研究",
+      "Date": null,
+      "Tags": "第一世代,田尻 智,赤绿,EN",
+      "Links": "https://helixchamber.com/2018/08/07/tajiri-manga/",
+      "Name": "helixchamber 田尻 自传漫画 研究"
+    },
+    {
+      "_id": "7d69a1ef-bd23-4c99-9d1e-62a74f36d8d4",
+      "Title": "HGSS 众 采访",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,森本茂树,河内丸武史,海野隆雄,第四世代,HGSS,EN",
+      "Links": "https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/",
+      "Name": "HGSS 众 采访"
+    },
+    {
+      "_id": "2afbcb06-2c15-49d9-9ea0-77fc6d86fa62",
+      "Title": "HGSS 开发团队采访 GI",
+      "Date": null,
+      "Tags": "HGSS,第四世代,森本茂树,大森滋,增田顺一,海野隆雄,EN",
+      "Links": "https://www.gameinformer.com/b/features/archive/2010/03/19/game-freak-pokemon-interview.aspx",
+      "Name": "HGSS 开发团队采访 GI"
+    },
+    {
+      "_id": "24b0d8ed-e66f-4f08-9f51-937f59b42693",
+      "Title": "HIDDEN POWER of MASUDA 增田部长的觉醒力量",
+      "Date": null,
+      "Tags": "增田顺一,觉醒力量,EN,BLOG",
+      "Links": "https://www.gamefreak.co.jp/blog/dir_english/",
+      "Name": "HIDDEN POWER of MASUDA 增田部长的觉醒力量"
+    },
+    {
+      "_id": "3da22335-e40c-4538-b891-f373a5661060",
+      "Title": "How Pokemon Get Made\nGame Freak's designers discuss Black and White's main characters.",
+      "Date": null,
+      "Tags": "杉森建,第五世代,黑白,EN",
+      "Links": "https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made",
+      "Name": "How Pokemon Get Made\nGame Freak's designers discuss Black and White's main characters."
+    },
+    {
+      "_id": "c53ae5c1-3041-4195-bdde-43c1ac0572e3",
+      "Title": "Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!",
+      "Date": null,
+      "Tags": "第四世代,增田顺一,河内丸武史,白金,黑白,EN",
+      "Links": "https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/",
+      "Name": "Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!"
+    },
+    {
+      "_id": "d804e874-cd1b-4954-accc-7ce2b559263a",
+      "Title": "Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series' future",
+      "Date": null,
+      "Tags": "增田顺一,第八世代,LGPE,EN",
+      "Links": "https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future",
+      "Name": "Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series' future"
+    },
+    {
+      "_id": "01b4348f-aff3-4dfd-823c-bdb68993f442",
+      "Title": "Ken Sugimori got 'artist's block' during Pokemon X and Y development",
+      "Date": null,
+      "Tags": "杉森建,大村祐介,XY,第六世代,EN",
+      "Links": "http://web.archive.org/web/20131030135359/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/",
+      "Name": "Ken Sugimori got 'artist's block' during Pokemon X and Y development"
+    },
+    {
+      "_id": "a07c825b-3c76-438d-99fd-0409e4897be0",
+      "Title": "MASUDA LINE BLOG",
+      "Date": null,
+      "Tags": "增田顺一,LINE,BLOG,JP",
+      "Links": "https://lineblog.me/masudajunichi/archives/4368914.html",
+      "Name": "MASUDA LINE BLOG"
+    },
+    {
+      "_id": "5d3a6a65-fc09-476f-92ce-3456d1e1ffcb",
+      "Title": "NEW POKEMON SNAP 石原  須崎",
+      "Date": null,
+      "Tags": "石原恒和,SNAP,須崎 春樹,JP",
+      "Links": "https://www.famitsu.com/news/202104/30218824.html",
+      "Name": "NEW POKEMON SNAP 石原  須崎"
+    },
+    {
+      "_id": "98a34fb3-9046-45cb-9a5c-916f4057071a",
+      "Title": "Nintendo power Interview: Masuda on Developing Gens 1-4",
+      "Date": null,
+      "Tags": "增田顺一,河内丸武史,第四世代,白金,EN",
+      "Links": "http://lavacutcontent.com/masuda-interview-pokemon-platinum/",
+      "Name": "Nintendo power Interview: Masuda on Developing Gens 1-4"
+    },
+    {
+      "_id": "e7c1db35-95f7-47d8-a75c-0c6077515494",
+      "Title": "Nintendo World Report Pokémon X and Y Interview with Game Freak",
+      "Date": null,
+      "Tags": "EN,XY,增田顺一",
+      "Links": "http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak",
+      "Name": "Nintendo World Report Pokémon X and Y Interview with Game Freak"
+    },
+    {
+      "_id": "17aff0e8-4bb4-4809-8f4f-1f52e9697f28",
+      "Title": "NOM 初代",
+      "Date": null,
+      "Tags": "增田顺一,渡边哲也,杉森建,西野浩二,森本茂树,第一世代,赤绿,JP",
+      "Links": "https://www.nintendo.co.jp/nom/0007/gfreak/index.html",
+      "Name": "NOM 初代"
+    },
+    {
+      "_id": "c7128adb-f2d3-478a-aa9e-37d84750576f",
+      "Title": "NOW 金银",
+      "Date": null,
+      "Tags": "渡边哲也,增田顺一,杉森建,西野浩二,森本茂树,第二世代,金银,JP",
+      "Links": "https://www.nintendo.co.jp/nom/0007/gfreak/page04.html",
+      "Name": "NOW 金银"
+    },
+    {
+      "_id": "4f10f09d-a65b-46af-87c0-d638d1720a2e",
+      "Title": "ntrevista a Junichi Masuda: Lo raro sería encontrar \"a quien no le guste ningún Pokémon\" 难得的是找到一个所有的宝可梦都不喜欢的人",
+      "Date": null,
+      "Tags": "增田顺一,第六世代,XY,ES",
+      "Links": "https://www.eurogamer.es/entrevista-con-el-director-de-pokemon-x-e-y-lo-raro-seria-encontrar-a-quien-no-le-guste-ningun-pokemon",
+      "Name": "ntrevista a Junichi Masuda: Lo raro sería encontrar \"a quien no le guste ningún Pokémon\" 难得的是找到一个所有的宝可梦都不喜欢的人"
+    },
+    {
+      "_id": "e7d336de-0123-49d2-9c3e-d4aa8598a246",
+      "Title": "Nやゲーチスの開発段階のビジュアルが公開！ 増田さん＆海野さんが駆け付けた『ポケットモンスターブラック2・ホワイト2』のイベントをレポ",
+      "Date": null,
+      "Tags": "增田顺一,海野隆雄,第五世代,B2W2,JP",
+      "Links": "https://dengekionline.com/elem/000/000/518/518926/",
+      "Name": "Nやゲーチスの開発段階のビジュアルが公開！ 増田さん＆海野さんが駆け付けた『ポケットモンスターブラック2・ホワイト2』のイベントをレポ"
+    },
+    {
+      "_id": "249033a8-530f-4e39-8b58-9a5ee37e5aef",
+      "Title": "Pokemon Business Professionals",
+      "Date": null,
+      "Tags": "宝株,STAFF,JP",
+      "Links": "https://recruit.pokemon.co.jp/saiyo/interview/career.html",
+      "Name": "Pokemon Business Professionals"
+    },
+    {
+      "_id": "743a5213-7daf-49ac-b511-e849daa8ceb6",
+      "Title": "Pokémon: Let's Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer",
+      "Date": null,
+      "Tags": "增田顺一,菜花健作,Nintendo Power,第八世代,LGPE",
+      "Links": "https://www.eurogamer.de/pokemon-lets-go-pikachu-und-evoli-der-lange-weg-zum-meistertrainer",
+      "Name": "Pokémon: Let's Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer"
+    },
+    {
+      "_id": "6ccac3ed-e8e6-4997-9f61-7e7d49cc9cae",
+      "Title": "POKKEN TOURNAMENT INSIDE采访",
+      "Date": null,
+      "Tags": "宝拳,星野正昭,宇都宫崇人,須崎 春樹,JP",
+      "Links": "https://www.inside-games.jp/article/2016/05/12/98566_2.html",
+      "Name": "POKKEN TOURNAMENT INSIDE采访"
+    },
+    {
+      "_id": "19e4f378-2369-406b-9894-194432824554",
+      "Title": "Shinji Miyazaki ×\n Game Freak Sound Team\n“Talk about Pokémon Music”",
+      "Date": null,
+      "Tags": "宫崎慎二,增田顺一,一之濑刚,佐藤仁美,EN",
+      "Links": "https://www.pocketmonsters.net/content/Miyazaki_Interview_Anime_OST",
+      "Name": "Shinji Miyazaki ×\n Game Freak Sound Team\n“Talk about Pokémon Music”"
+    },
+    {
+      "_id": "84a18fdb-b850-4e51-a1f9-de3c56339f34",
+      "Title": "THE PEOPLE BEHIND POKEMON",
+      "Date": null,
+      "Tags": "增田顺一,海野隆雄,第五世代,B2W2,EN",
+      "Links": "https://web.archive.org/web/20130731014648/https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/",
+      "Name": "THE PEOPLE BEHIND POKEMON"
+    },
+    {
+      "_id": "d59b6a39-7c5f-403d-b2d5-b637865e9d68",
+      "Title": "TWI上搜先辈",
+      "Date": null,
+      "Tags": "增田顺一,JP",
+      "Links": "https://twisave.com/gazigo/search/増田順一",
+      "Name": "TWI上搜先辈"
+    },
+    {
+      "_id": "ff3eaf14-7d28-4741-9ed6-be5a0b4a1042",
+      "Title": "XY 时期采访 2013",
+      "Date": null,
+      "Tags": "增田顺一,XY,第六世代,EN",
+      "Links": "http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak",
+      "Name": "XY 时期采访 2013"
+    },
+    {
+      "_id": "2424da99-4d3e-45c4-9a4e-5d2758de90d4",
+      "Title": "インターネットにおけるポケモンサイト黎明期の記憶 金银发售前的整理",
+      "Date": null,
+      "Tags": "田尻 智,增田顺一,JP,第二世代,第一世代",
+      "Links": "http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm",
+      "Name": "インターネットにおけるポケモンサイト黎明期の記憶 金银发售前的整理"
+    },
+    {
+      "_id": "d118ed1b-d5b5-4ead-ad78-33d3da73e436",
+      "Title": "グラフィックデザイナー・イラストレーター にしだあつこ対談",
+      "Date": null,
+      "Tags": "中川翔子,西田墩子",
+      "Links": "https://funs-project.com/poplab/007/",
+      "Name": "グラフィックデザイナー・イラストレーター にしだあつこ対談"
+    },
+    {
+      "_id": "b1154bcd-056f-4a83-b6c3-c6fd9f61269b",
+      "Title": "ゲームフリーク - ポケモンの制作現場から",
+      "Date": null,
+      "Tags": "景山将太,JP,第五世代,黑白",
+      "Links": "https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html",
+      "Name": "ゲームフリーク - ポケモンの制作現場から"
+    },
+    {
+      "_id": "e89ed3be-5b37-4b92-a657-ef74143dc63b",
+      "Title": "サイバーコネクトツー／プログラマーコース　谷博行（8/9～8/13）",
+      "Date": null,
+      "Tags": "谷博行",
+      "Links": "https://www.gff.jp/internship/2010/09/89813-2.html",
+      "Name": "サイバーコネクトツー／プログラマーコース　谷博行（8/9～8/13）"
+    },
+    {
+      "_id": "51edec79-1fa5-415c-a486-6b492e0116df",
+      "Title": "その他のポケモンのゲーム関連記事 初代采访整理",
+      "Date": null,
+      "Tags": "田尻 智,增田顺一,杉森建,JP,第一世代,赤绿",
+      "Links": "http://sunanohi.web.fc2.com/pokemon/magazine/game.html#kaigi9",
+      "Name": "その他のポケモンのゲーム関連記事 初代采访整理"
+    },
+    {
+      "_id": "b6ea9eb3-4283-40ce-aa9c-78a7bdcdd4b4",
+      "Title": "ついに本日11月16日発売！ 「ポケットモンスター Let's Go! ピカチュウ・イーブイ」発売記念イベントレポート",
+      "Date": null,
+      "Tags": "增田顺一,斉藤優史,大森滋,第八世代,LGPE,JP",
+      "Links": "https://akiba-souken.com/article/37143/",
+      "Name": "ついに本日11月16日発売！ 「ポケットモンスター Let's Go! ピカチュウ・イーブイ」発売記念イベントレポート"
+    },
+    {
+      "_id": "39185309-58c1-460a-9035-ddd6ee1fb1b2",
+      "Title": "ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第七世代,JP",
+      "Links": "https://gigazine.net/news/20170905-pokemon-early-design-documents/",
+      "Name": "ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中"
+    },
+    {
+      "_id": "62f96dc5-cdb9-4417-b08f-59ea5405a78d",
+      "Title": "ポケモン　びあ采访　EN",
+      "Date": null,
+      "Tags": "杉森建,第五世代,大村祐介,田上怜子,井部真那,EN,黑白",
+      "Links": "https://www.pokebeach.com/2010/09/pokemon-peer-interview-translations",
+      "Name": "ポケモン　びあ采访　EN"
+    },
+    {
+      "_id": "414efdf7-946c-4566-872c-22c61b2775c3",
+      "Title": "ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催",
+      "Date": null,
+      "Tags": "增田顺一,景山将太,JP,第六世代,XY",
+      "Links": "https://www.famitsu.com/news/201311/16043307.html",
+      "Name": "ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催"
+    },
+    {
+      "_id": "fa8c7f77-64af-451c-833d-336b1b6edd56",
+      "Title": "ポケモンBWシリーズ不満点まとめwiki（3代目）",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,黑白,JP",
+      "Links": "https://w.atwiki.jp/bwhuman2/",
+      "Name": "ポケモンBWシリーズ不満点まとめwiki（3代目）"
+    },
+    {
+      "_id": "56a078d6-788d-4bd7-99df-3374d4961053",
+      "Title": "ポケモンBWシリーズ不満点まとめwiki（3代目）  インタビュー関係",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,JP,黑白",
+      "Links": "https://w.atwiki.jp/bwhuman2/pages/16.html",
+      "Name": "ポケモンBWシリーズ不満点まとめwiki（3代目）  インタビュー関係"
+    },
+    {
+      "_id": "82f3738b-e4b2-4513-b363-a3d87a0c33d1",
+      "Title": "ポケモンGO、爆発力生んだ日米協業の舞台裏",
+      "Date": null,
+      "Tags": "宇都宫崇人,JP,GO",
+      "Links": "https://business.nikkei.com/atcl/report/16/081700063/081700002/",
+      "Name": "ポケモンGO、爆発力生んだ日米協業の舞台裏"
+    },
+    {
+      "_id": "85a87d14-83f9-4398-a007-26d7a4ab5eee",
+      "Title": "ポケモンの設定画に命を吹き込むクリーチャーズアセット制作にとどまらない現状と未来とは",
+      "Date": null,
+      "Tags": "侦探皮,第七世代,JP",
+      "Links": "https://cgworld.jp/interview/creatures-201707.html",
+      "Name": "ポケモンの設定画に命を吹き込むクリーチャーズアセット制作にとどまらない現状と未来とは"
+    },
+    {
+      "_id": "69161053-0ddd-422d-bc35-016f8dfdfd72",
+      "Title": "ポケモンを育てた仕かけ人たち",
+      "Date": null,
+      "Tags": "石原恒和,第五世代,JP",
+      "Links": "https://wedge.ismedia.jp/articles/-/893",
+      "Name": "ポケモンを育てた仕かけ人たち"
+    },
+    {
+      "_id": "856787dd-37a4-4932-812f-942a20e38db8",
+      "Title": "ポケモン式ジョブローテーションによって得られる「変化への対応力」とは",
+      "Date": null,
+      "Tags": "第八世代,JP,大洞翔一,今村啓太,宝株",
+      "Links": "https://newspicks.com/news/6367027/body/",
+      "Name": "ポケモン式ジョブローテーションによって得られる「変化への対応力」とは"
+    },
+    {
+      "_id": "416224f5-1650-424e-975c-fd6c83200735",
+      "Title": "ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一",
+      "Date": null,
+      "Tags": "石原恒和,增田顺一,GO,第七世代",
+      "Links": "https://news.denfaminicogamer.jp/interview/180608/2",
+      "Name": "ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一"
+    },
+    {
+      "_id": "8c4a9787-49f0-4ab1-8d4d-534f25ba0a00",
+      "Title": "ポケモン開発スタッフインタビュー BW",
+      "Date": null,
+      "Tags": "第五世代,黑白,JP",
+      "Links": "https://twishort.com/RBgdc",
+      "Name": "ポケモン開発スタッフインタビュー BW"
+    },
+    {
+      "_id": "3b5f2007-dc32-4101-9de1-cfae85d497f6",
+      "Title": "先辈黑白时期采访（with 杉森）",
+      "Date": null,
+      "Tags": "增田顺一,杉森建,第五世代,黑白,EN",
+      "Links": "https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda",
+      "Name": "先辈黑白时期采访（with 杉森）"
+    },
+    {
+      "_id": "614cb7b1-5409-4d58-8657-b630d0b39301",
+      "Title": "初代概念美术整理 EN",
+      "Date": null,
+      "Tags": "田尻 智,增田顺一,杉森建,第一世代,赤绿,EN",
+      "Links": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+      "Name": "初代概念美术整理 EN"
+    },
+    {
+      "_id": "c8a7916e-2ca5-415e-82e5-49748a4cb979",
+      "Title": "卒業生に訊く！未来ロボティクス学科1期生 菜花健作さん",
+      "Date": null,
+      "Tags": "第七世代,菜花健作,日月,JP",
+      "Links": "https://www.robotics.it-chiba.ac.jp/j/?p=484",
+      "Name": "卒業生に訊く！未来ロボティクス学科1期生 菜花健作さん"
+    },
+    {
+      "_id": "b1db2fe8-8140-47d6-96d5-2f5782bcb2b8",
+      "Title": "吉田宏信 设计标志性宝可梦",
+      "Date": null,
+      "Tags": "吉田宏信,XY,第六世代,EN",
+      "Links": "https://www.gamedeveloper.com/production/how-pokemon-are-born-designing-the-series-iconic-monsters",
+      "Name": "吉田宏信 设计标志性宝可梦"
+    },
+    {
+      "_id": "cbc23113-c5ec-42f4-8075-1472a3cda6f2",
+      "Title": "増田順一先生、大森滋先生が来校！今夜は2時間丸ごと「ポケモン」の授業！",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第七世代,日月",
+      "Links": "https://www.tfm.co.jp/lock/staff/index.php?itemid=8978",
+      "Name": "増田順一先生、大森滋先生が来校！今夜は2時間丸ごと「ポケモン」の授業！"
+    },
+    {
+      "_id": "39225ead-868d-4907-9112-5280e10a15c6",
+      "Title": "増田順一氏＆海野隆雄氏が登壇！　『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティングが開催!!",
+      "Date": null,
+      "Tags": "增田顺一,海野隆雄,第五世代,B2W2,JP",
+      "Links": "https://www.famitsu.com/news/201208/05019240.html",
+      "Name": "増田順一氏＆海野隆雄氏が登壇！　『ポケットモンスターブラック2・ホワイト2』発売記念ファンミーティングが開催!!"
+    },
+    {
+      "_id": "9936c365-a60d-4209-9362-7527dca54a31",
+      "Title": "増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,岩尾和昌,第七世代,究极日月,JP",
+      "Links": "https://www.famitsu.com/news/201805/15157253.html",
+      "Name": "増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート"
+    },
+    {
+      "_id": "334a41c6-6966-4bb3-ac63-b030b55584b3",
+      "Title": "增田&杉森 BW开发访谈",
+      "Date": null,
+      "Tags": "增田顺一,杉森建,第五世代,EN,黑白",
+      "Links": "http://lavacutcontent.com/masuda-sugimori-gen-5/",
+      "Name": "增田&杉森 BW开发访谈"
+    },
+    {
+      "_id": "739c4346-3f6c-4435-8964-655dab17b188",
+      "Title": "增田顺一与大森滋与iDÉAME的孩子们",
+      "Date": null,
+      "Tags": "增田顺一,大森滋,第六世代,ORAS,ES",
+      "Links": "https://www.topofarmer.com/2014/11/01/cronica-ideame-kids-con-junichi-masuda-y-shigeru-ohmori/",
+      "Name": "增田顺一与大森滋与iDÉAME的孩子们"
+    },
+    {
+      "_id": "efff2d90-ae30-4ddc-b263-e98902928c7f",
+      "Title": "大森 x 尾上 继承Game Freak传奇的年轻导演",
+      "Date": null,
+      "Tags": "大森滋,第七世代,日月,尾上将之,JP",
+      "Links": "https://news.denfaminicogamer.jp/interview/170703",
+      "Name": "大森 x 尾上 继承Game Freak传奇的年轻导演"
+    },
+    {
+      "_id": "d6e3c315-3d46-453b-8600-726668cff187",
+      "Title": "宝可梦新生代开发组采访 大森 滋・尾上 将之",
+      "Date": null,
+      "Tags": "大森滋,尾上将之,JP",
+      "Links": "https://news.denfaminicogamer.jp/interview/170703/2",
+      "Name": "宝可梦新生代开发组采访 大森 滋・尾上 将之"
+    },
+    {
+      "_id": "b1f8c025-ef10-4ab2-8f5b-587d4b51025b",
+      "Title": "寝ても覚めてもゲーム！ ポケモンはまだ進化する？　J教室 3時限",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,JP",
+      "Links": "https://www.youtube.com/watch?v=C-iE1WIpaFE",
+      "Name": "寝ても覚めてもゲーム！ ポケモンはまだ進化する？　J教室 3時限"
+    },
+    {
+      "_id": "0d7ffb69-4db9-4562-a2cb-be2aab28621b",
+      "Title": "旧ゲームメモ　 增田顺一",
+      "Date": null,
+      "Tags": "第五世代,增田顺一,黑白,JP",
+      "Links": "http://gamememo.com/tag/masuda-jyuniti/",
+      "Name": "旧ゲームメモ　 增田顺一"
+    },
+    {
+      "_id": "4e82831d-af42-4941-b5ba-15797cef363d",
+      "Title": "有贺等 作品合集",
+      "Date": null,
+      "Tags": "有贺等,第七世代,第六世代,第八世代",
+      "Links": "https://twitter.com/i/events/996656664785780736",
+      "Name": "有贺等 作品合集"
+    },
+    {
+      "_id": "10407d95-0ee5-48a7-94d7-b75ae6eb6fee",
+      "Title": "杉森 平衡宝可梦设计",
+      "Date": null,
+      "Tags": "杉森建,EN,短文杂谈",
+      "Links": "https://www.siliconera.com/pokmon-designer-on-balancing-cool-or-cute-pokmon-by-adding-uncool-or-uncute-features/",
+      "Name": "杉森 平衡宝可梦设计"
+    },
+    {
+      "_id": "57aeb72d-aca0-42f7-aed6-d8a896e09f42",
+      "Title": "杉森 第二世代百余只宝可梦的创作",
+      "Date": null,
+      "Tags": "杉森建,第二世代,Nintendo Power,EN",
+      "Links": "http://lavacutcontent.com/sugimori-hundreds-pokemon-cut/",
+      "Name": "杉森 第二世代百余只宝可梦的创作"
+    },
+    {
+      "_id": "dc751b7a-0a71-41d9-b625-b9a0acbeb9ae",
+      "Title": "杉森的绘画天气",
+      "Date": null,
+      "Tags": "杉森建,第四世代,第五世代,BLOG,JP",
+      "Links": "https://web.archive.org/web/20120621081017/gamefreak.co.jp/blog/art",
+      "Name": "杉森的绘画天气"
+    },
+    {
+      "_id": "beca0c92-befc-47bd-a390-cfa70d7ec924",
+      "Title": "田尻 Times 究极的Game Freak",
+      "Date": null,
+      "Tags": "田尻 智,第一世代",
+      "Links": "http://content.time.com/time/magazine/article/0,9171,2040095,00.html",
+      "Name": "田尻 Times 究极的Game Freak"
+    },
+    {
+      "_id": "7e9365ca-ed4d-4f81-8f20-4498fbdc74df",
+      "Title": "皮卡丘的创造者-美版访谈",
+      "Date": null,
+      "Tags": "皮卡丘,第一世代,西田墩子,西野浩二,杉森建,EN",
+      "Links": "https://www.pokemon.com/us/pokemon-news/creator-profile-the-creators-of-pikachu/",
+      "Name": "皮卡丘的创造者-美版访谈"
+    },
+    {
+      "_id": "3a67055d-73c4-4b4e-8df2-2d1c622bc959",
+      "Title": "石原恒和・ポケモン社長　父に囲碁教わりゲーム好きに",
+      "Date": null,
+      "Tags": "石原恒和,第八世代,宝株,JP",
+      "Links": "https://style.nikkei.com/article/DGXKZO67530060R21C20A2KNTP00/",
+      "Name": "石原恒和・ポケモン社長　父に囲碁教わりゲーム好きに"
+    },
+    {
+      "_id": "4fb4ba00-50d8-4155-9e99-2bf4438660f1",
+      "Title": "第21回 「ポケモン」を支えるプロデューサーとしての法務 - 株式会社ポケモン",
+      "Date": null,
+      "Tags": "STAFF,宝株,JP",
+      "Links": "https://www.businesslawyers.jp/articles/491",
+      "Name": "第21回 「ポケモン」を支えるプロデューサーとしての法務 - 株式会社ポケモン"
+    },
+    {
+      "_id": "984e311d-77f0-4cda-b77a-df574e1f4030",
+      "Title": "若手クリエイターの紹介 谷博行",
+      "Date": null,
+      "Tags": "谷博行,JP",
+      "Links": "http://fukuoka-game.com/young_creator/",
+      "Name": "若手クリエイターの紹介 谷博行"
+    },
+    {
+      "_id": "9bd9e743-f671-4c18-9ff9-e8840d6c662e",
+      "Title": "誌面では語りきれなかった、ポケットモンスター ブラック・ホワイトの開発秘話!!",
+      "Date": null,
+      "Tags": "增田顺一,第五世代,黑白,JP",
+      "Links": "https://weekly.ascii.jp/elem/000/002/602/2602549/?r=1",
+      "Name": "誌面では語りきれなかった、ポケットモンスター ブラック・ホワイトの開発秘話!!"
+    },
+    {
+      "_id": "5d4f3848-77fa-41b5-94ab-0395a826fac0",
+      "Title": "赛马的乐趣 森本 茂树X田谷 正夫X一之瀬 剛",
+      "Date": null,
+      "Tags": "森本茂树,田谷正夫,一之濑刚,纸马,JP",
+      "Links": "https://news.denfaminicogamer.jp/projectbook/dabisuta",
+      "Name": "赛马的乐趣 森本 茂树X田谷 正夫X一之瀬 剛"
+    },
+    {
+      "_id": "2e2ac8bf-70bb-41e3-80c3-d57b33e4b604",
+      "Title": "鶴田 GF staff blog",
+      "Date": null,
+      "Tags": "BLOG,STAFF,JP",
+      "Links": "https://web.archive.org/web/20130122112708/http://www.gamefreak.co.jp/blog/staff/?p=157",
+      "Name": "鶴田 GF staff blog"
+    },
+    {
+      "_id": "18d3f89c-7c67-808e-9221-d0892a14f7c6",
+      "Title": "1111",
+      "Date": null,
+      "Tags": null,
+      "Links": null,
+      "Name": "1111"
+    },
+    {
+      "_id": "18d3f89c-7c67-8034-a505-f85bd55d9896",
+      "Title": null,
+      "Date": null,
+      "Tags": null,
+      "Links": null,
+      "Name": null
+    }
+  ]
+}

@@ -131,7 +131,7 @@ parallel_items:
   translation: 你们小时候是什么样子的？
 - type: paragraph
   original: 'Masuda : Cuando era niño me gustaba mucho montar en bicicleta. Y aparte de montarla también la personalizaba, la tuneaba.'
-  translation: 增田：小时候我非常喜欢骑自行车。除了骑，我还会自己改装、装饰它。
+  translation: 小时候我非常喜欢骑自行车。除了骑，我还会自己改装、装饰它。
   speaker: 增田顺一
 - type: paragraph
   original: 'Shigeru : De niño me gustaba construir cosas. Cuando veía cartones por la calle (o casa) montaba casas de cartón, armaduras de cartón, etc.'
@@ -142,7 +142,7 @@ parallel_items:
   translation: 你们是如何成为游戏开发者的？
 - type: paragraph
   original: 'Masuda : De pequeño ya me gustaban mucho los videojuegos, y ya pensaba cómo mejorarlos, cómo serían más divertidos, etc. Aprendí a programar y al cabo de un tiempo surgió Pokémon.'
-  translation: 增田：我小时候就很喜欢电子游戏，并且会思考如何改进它们，怎样让它们更有趣等等。我学习了编程，过了一段时间，宝可梦就诞生了。
+  translation: 我小时候就很喜欢电子游戏，并且会思考如何改进它们，怎样让它们更有趣等等。我学习了编程，过了一段时间，宝可梦就诞生了。
   speaker: 增田顺一
 - type: paragraph
   original: 'Shigeru : A mi en el colegio se me daban bien las matemáticas y ciencias y me centre en eso (estudiar).'
@@ -150,7 +150,7 @@ parallel_items:
   speaker: Shigeru
 - type: paragraph
   original: 'Masuda : A mi también me gustaban las matemáticas. Y cocinar. Incluso he hecho paella.'
-  translation: 增田：我也喜欢数学，还有烹饪。我甚至做过西班牙海鲜饭。
+  translation: 我也喜欢数学，还有烹饪。我甚至做过西班牙海鲜饭。
   speaker: 增田顺一
   note: Paella 是西班牙传统菜肴，此处体现增田的烹饪兴趣。
 - type: paragraph
@@ -158,7 +158,7 @@ parallel_items:
   translation: 你们是如何构思新宝可梦的？
 - type: paragraph
   original: 'Masuda : Un ejemplo, cómo veis en pantalla ( unos starters había, generación ¿4? ¿5?) , es basarse en animales o plantas y dotarles de un elemento, cómo puede ser agua o fuego por ejemplo.'
-  translation: 增田：举个例子，就像屏幕上显示的（有一些御三家，第4代还是第5代？），我们会以动物或植物为基础，然后赋予它们一种属性，比如水或火。
+  translation: 举个例子，就像屏幕上显示的（有一些御三家，第4代还是第5代？），我们会以动物或植物为基础，然后赋予它们一种属性，比如水或火。
   speaker: 增田顺一
   note: 括号内为记录者不确定的备注。
 - type: paragraph

@@ -43,7 +43,7 @@ entities:
 original_title: GAME FREAK STAFF 日记
 original_link: https://web.archive.org/web/20130705083744/http://www.gamefreak.co.jp/blog/staff/?cat=6
 translator: Poke Amice Studio
-interviewee: じだぬ, ほず, めめた, ナギー, ユーリー, 一之濑刚, 卡妮子, 受访嘉宾, 大村祐介
+interviewee: じだぬ, ほず, めめた, ナギー, ユーリー, 一之濑刚, 卡妮子, 大村祐介, 松岛贤二
 parallel_items:
 - type: paragraph
   original: 晴れたり時々曇ったり
@@ -1538,25 +1538,25 @@ parallel_items:
 - type: paragraph
   original: 初めて設定を担当したポケモンはセレビィですが、1本のソフトに
   translation: 我第一次负责设定的宝可梦是时拉比，但真正全面参与一款游戏，
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
   note: 时拉比是《宝可梦 金/银》中登场的幻之宝可梦。
 - type: paragraph
   original: 本格的に関わるようになったのは、
   translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
 - type: paragraph
   original: 「ポケットモンスター ルビー・サファイア」からです。
   translation: 是从《宝可梦 红宝石/蓝宝石》开始的。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
 - type: paragraph
   original: それ以前は、「BUSHI青龍伝?二人の勇者?」や、
   translation: 在那之前，我负责过《BUSHI青龙传～两人的勇者～》以及
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
   note: 《BUSHI青龙传～两人的勇者～》是GAME FREAK开发的一款游戏。
 - type: paragraph
   original: 「ポケットモンスター 金・銀」のカントーのシナリオを書いていました。
   translation: 《宝可梦 金/银》中关都地区的剧情。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
   note: 关都地区是《宝可梦 红/绿》的舞台，在《金/银》中作为冒险的后半部分登场。
 - type: paragraph
   original: ―ポケモンのキャラクターデザインは、グラフィックデザイナー
@@ -1573,20 +1573,20 @@ parallel_items:
 - type: paragraph
   original: そうです。設定は基本的に後付です。
   translation: 是的。设定基本上是在设计之后追加的。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
 - type: paragraph
   original: とはいえ、グラフィックデザイナーは基本的な設定を考えた上で
   translation: 不过，图形设计师们是在考虑了基本设定之后进行设计的，
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
 - type: paragraph
   original: デザインしているので、それを聞き出してまとめて、最終的に
   translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
   note: 杉森指杉森建，宝可梦系列的主要设计师之一。
 - type: paragraph
   original: 杉森と話し合って決めています。
   translation: 所以我会听取他们的想法并进行整理，最后与杉森讨论后决定。
-  speaker: 受访嘉宾
+  speaker: 松岛贤二
 - type: paragraph
   original: ポケモン図鑑のテキストは、僕が一人で担当しています。
   translation: 宝可梦图鉴的文本，是由我一个人负责的。
@@ -1799,14 +1799,4 @@ parallel_items:
 - type: paragraph
   original: About
   translation: 关于
-- type: paragraph
-  original: 過去ログいちらん
-  translation: 历史存档一览
-- type: paragraph
-  original: Copyright © 2013 晴れたり時々曇ったり
-  translation: 版权所有 © 2013 时而晴朗时而多云
-  note: 博客名称，意译为“时而晴朗时而多云”
-- type: paragraph
-  original: Proudly powered by WordPress , Free WordPress Themes
-  translation: 由WordPress强力驱动，免费WordPress主题
 ---

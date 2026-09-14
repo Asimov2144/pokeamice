@@ -43,10 +43,6 @@ entities:
   - 宝可梦 红·绿
   - 宝可梦 黄
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/hero_pikachu_creators.jpg
-  alt: 皮卡丘的创造者们：杉森建、西野弘二与西田敦子
-  caption: 皮卡丘诞生秘辛：从大福饼到风靡全球的电气鼠
 - type: heading
   level: 2
   original: Learn Pikachu’s origin story from Ken Sugimori, Koji Nishino, and Atsuko Nishida.
@@ -79,7 +75,7 @@ parallel_items:
   original: We spoke with three creators who developed Pokémon Red and Pokémon Green and were deeply involved with the creation of Pikachu.
   translation: 我们采访了三位开发《宝可梦 红》和《宝可梦 绿》并深度参与皮卡丘创作的创作者。
   note: ''
-- speaker: ''
+- speaker: 杉森建
   original: Ken Sugimori is one of the founding members of GAME FREAK Inc. He was in charge of the official character design for Pokémon Red and Pokémon Green. He is currently a director at the company.
   translation: 杉森建是GAME FREAK公司的创始成员之一。他负责《宝可梦 红》和《宝可梦 绿》的官方角色设计。目前他是公司的董事。
   note: ''
@@ -109,7 +105,7 @@ parallel_items:
   note: ''
 - speaker: 杉森建
   original: “It involves not only character design but the design of the game itself. Pokémon, as its [Japanese] title ‘Pocket Monsters' suggests, is a game in which monsters battle each other. At the time, I figured that since they were monsters, they should have a tough look, but midway through I thought, ‘I'd like some cute ones, too.' There weren't many designers in the company at the time and I was doing most of it, and since I was designing from the perspective of a man, I hadn't thought of creating a cute Pokémon. That is why I asked some of our female staff, like Nishida, to join.”
-  translation: “这不仅仅涉及角色设计，还涉及游戏本身的设计。宝可梦，正如其日文标题‘口袋妖怪’所示，是一款怪物之间互相战斗的游戏。当时，我认为既然是怪物，就应该看起来强悍，但中途我想到，‘我也想要一些可爱的。’当时公司里设计师不多，大部分设计都由我负责，而且我是从男性的视角出发，没有想过要创造可爱的宝可梦。因此，我邀请了一些女性员工，比如西田，加入进来。”
+  translation: “这不仅仅涉及角色设计，还涉及游戏本身的设计。宝可梦，正如其日文原名‘Pocket Monsters’（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的字面涵义所示，是一款怪物之间互相战斗的游戏。当时，我认为既然是怪物，就应该看起来强悍，但中途我想到，‘我也想要一些可爱的。’当时公司里设计师不多，大部分设计都由我负责，而且我是从男性的视角出发，没有想过要创造可爱的宝可梦。因此，我邀请了一些女性员工，比如西田，加入进来。”
   note: ''
 - speaker: 提问
   original: What was the reason behind why you wanted not only tough Pokémon but cute ones as well?
@@ -484,3 +480,8 @@ parallel_items:
   translation: 希望这能让宝可梦粉丝们更好地了解皮卡丘的诞生过程。三位创作者倾注在创造这只宝可梦上的深厚情感，是它如今深受众人喜爱的原因之一。而皮卡丘的故事仍在继续发展——未来我们将会看到怎样的皮卡丘呢？
   note: ''
 ---
+
+
+
+
+

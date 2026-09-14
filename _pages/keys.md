@@ -52,6 +52,13 @@ sidebar:
   </section>
 
   <div class="key-window-grid">
+    <a class="key-window-card key-window-card--primary" href="{{ '/keys/gamefreak-staff-analysis/' | relative_url }}">
+      <span>Analysis</span>
+      <strong>员工博客内容分析</strong>
+      <em>209 篇 · 年份 / 主题 / 人物 / 图片</em>
+      <p>从完整存档观察 GAME FREAK 的开发现场、公司文化和多作者叙事。</p>
+    </a>
+
     <a class="key-window-card" href="{{ '/resource-graph/' | relative_url }}">
       <span>Guide</span>
       <strong>站内关系图谱</strong>

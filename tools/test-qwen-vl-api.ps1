@@ -1,7 +1,7 @@
-param(
+﻿param(
   [string]$ApiUrl = "",
   [string]$ApiKey = "",
-  [string]$Model = "qwen3-vl-flash",
+  [string]$Model = "qwen3.7-plus",
   [string]$ImagePath = "",
   [string]$ImageUrl = "https://img.alicdn.com/imgextra/i1/O1CN01gDEY8M1W114Hi3XcN_!!6000000002727-0-tps-1024-406.jpg",
   [string]$Prompt = "请只回答：连接测试成功。",
@@ -34,9 +34,13 @@ import base64
 import json
 import mimetypes
 import os
+import sys
+import urllib.error
+import urllib.request
 from pathlib import Path
 
-import httpx
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 api_url = os.environ["TEST_QWEN_API_URL"].rstrip("/")
 api_key = os.environ["TEST_QWEN_API_KEY"]
@@ -70,13 +74,21 @@ payload = {
 print("POST", api_url + "/chat/completions")
 print("model", model)
 print("image", "local base64" if image_path else image_url)
-with httpx.Client(timeout=180, http2=False, follow_redirects=True) as client:
-    response = client.post(
-        api_url + "/chat/completions",
-        headers={"Authorization": "Bearer " + api_key, "Content-Type": "application/json"},
-        content=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
-    )
-print("status", response.status_code)
-print(response.text[:2000])
-response.raise_for_status()
+request = urllib.request.Request(
+    api_url + "/chat/completions",
+    data=json.dumps(payload, ensure_ascii=False).encode("utf-8"),
+    headers={"Authorization": "Bearer " + api_key, "Content-Type": "application/json"},
+    method="POST",
+)
+try:
+    with urllib.request.urlopen(request, timeout=180) as response:
+        status = response.status
+        response_text = response.read().decode("utf-8", errors="replace")
+except urllib.error.HTTPError as error:
+    status = error.code
+    response_text = error.read().decode("utf-8", errors="replace")
+print("status", status)
+print(response_text[:2000])
+if status >= 400:
+    raise SystemExit(1)
 '@ | & $python -

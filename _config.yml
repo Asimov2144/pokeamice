@@ -186,7 +186,8 @@ exclude:
   - /.ocr-home
   - /.paddlex-cache
   - /.bundle-cache
-  - /.gem-spec-cache
+  - /.preview-build
+  - /data
   - /.ruby-tmp
   - /_site
   - /assets/data/weibo-archive.json

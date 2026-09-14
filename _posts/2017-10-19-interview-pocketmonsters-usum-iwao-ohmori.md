@@ -38,9 +38,6 @@ original_link: https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM
 translator: Poke Amice Studio
 interviewee: Pokemon.com, 大森滋, 岩尾和昌
 parallel_items:
-- type: image
-  image: /assets/img/interviews/9999-99-99-interview-game-freak-usum/img_01.jpg
-  caption: 专访配图
 - type: paragraph
   original: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon! - PocketMonsters.Net
   translation: 《究极之日／究极之月》开发者独家专访！ - PocketMonsters.Net
@@ -72,7 +69,7 @@ parallel_items:
   translation: 大森滋：我的弟弟在《宝可梦 红／绿》发售时正好是合适的年龄，我买了游戏和他一起玩。我们俩都深深沉迷其中，经常和他的朋友们一起对战和交换宝可梦。
   speaker: 大森滋
 - type: paragraph
-  original: "I knew I wanted to work in video games as a game designer, but there weren't a lot of companies at the time\r\nrecruiting for that position. However, I found a job posting at GAME FREAK to the position and applied for it."
+  original: I knew I wanted to work in video games as a game designer, but there weren't a lot of companies at the time recruiting for that position. However, I found a job posting at GAME FREAK to the position and applied for it.
   translation: 我知道自己想以游戏设计师的身份进入电子游戏行业，但当时招聘该职位的公司并不多。不过，我看到了GAME FREAK的招聘启事，便申请了。
   speaker: 大森滋
 - type: paragraph
@@ -93,7 +90,7 @@ parallel_items:
   original: The Roots of Pokémon Ultra Sun and Pokémon Ultra Moon
   translation: 《究极之日／究极之月》的根源
 - type: paragraph
-  original: "Pokemon.com: These games are a bit of a departure from previous follow-up titles like Pokémon Yellow:\r\nSpecial Pikachu Edition or even Pokémon Black Version 2 and Pokémon White Version 2. What would you call out as the core concept behind Pokémon Ultra Sun and Pokémon Ultra Moon?"
+  original: 'Pokemon.com: These games are a bit of a departure from previous follow-up titles like Pokémon Yellow: Special Pikachu Edition or even Pokémon Black Version 2 and Pokémon White Version 2. What would you call out as the core concept behind Pokémon Ultra Sun and Pokémon Ultra Moon?'
   translation: Pokemon.com：这些游戏与之前的后续作品，如《宝可梦 黄：皮卡丘特别版》或《宝可梦 黑2／白2》相比，有些不同。您认为《宝可梦 究极之日／究极之月》的核心概念是什么？
   speaker: Pokemon.com
   note: 《宝可梦 黄》是初代游戏的加强版，以皮卡丘为特色；《宝可梦 黑2／白2》是《黑／白》的直接续作。
@@ -110,7 +107,7 @@ parallel_items:
   translation: 岩尾先生：《究极之日／究极之月》可以说是我们迄今为止努力的集大成之作。在开发之初，我们就知道要做一些以其他宝可梦游戏角色为特色的内容。起初，我们只打算让前作中的一些关主训练家出现在代理人对战中，但这些角色个性十足，我们的剧情作者觉得可以构思一个只有《究极之日／究极之月》才能实现的故事来展现他们。于是，通关后的彩虹火箭队剧情就这样开始了。
   speaker: 岩尾和昌
 - type: paragraph
-  original: "In the game, each of the bosses comes from a world in which they managed to fulfill their dark ambitions.\r\nWorlds in which the player character must not have existed. Playing with parallel worlds like this is only possible because of the existence of an Ultra Wormhole in Pokémon Ultra Sun and Pokémon Ultra Moon. Because the player character exists in the Alola region, he or she will have the chance to stop them from achieving their ambitions."
+  original: In the game, each of the bosses comes from a world in which they managed to fulfill their dark ambitions. Worlds in which the player character must not have existed. Playing with parallel worlds like this is only possible because of the existence of an Ultra Wormhole in Pokémon Ultra Sun and Pokémon Ultra Moon. Because the player character exists in the Alola region, he or she will have the chance to stop them from achieving their ambitions.
   translation: 在游戏中，每位关主训练家都来自一个他们成功实现了黑暗野心的世界。在那个世界里，玩家角色一定不存在。之所以能这样玩转平行世界，是因为《究极之日／究极之月》中存在究极之洞。由于玩家角色存在于阿罗拉地区，他或她将有机会阻止他们实现野心。
 - type: paragraph
   original: Familiar Characters Return
@@ -231,39 +228,4 @@ parallel_items:
 - type: paragraph
   original: Many thanks to Mr. Iwao and Mr. Ohmori for taking the time to chat with us about their latest game.
   translation: 非常感谢岩尾先生和大森先生抽出时间与我们谈论他们的最新游戏。
-- type: paragraph
-  original: This page has been viewed 8965 times.
-  translation: 此页面已被浏览 8965 次。
-- type: paragraph
-  original: "Last updated 09 Nov 2017 20:23\r\n            by Sunain."
-  translation: 最后更新于 2017 年 11 月 9 日 20:23，由 Sunain 更新。
-  note: Sunain 可能是网站编辑或管理员的名字。
-- type: paragraph
-  original: 'Revision #7'
-  translation: '修订版本 #7'
-- type: paragraph
-  original: 'Page Tags: Interview Ultra Sun Ultra Moon Shigeru Ohmori'
-  translation: 页面标签：访谈、究极之日、究极之月、大森滋
-  note: 大森滋是《宝可梦 究极之日／究极之月》的游戏总监。
-- type: paragraph
-  original: "Pokémon, all assorted characters, images and audio are ©GAME FREAK, Nintendo, Creatures, TV Tokyo, ShoPro\r\n        and The Pokémon Company. All images, text and audio are used in an editorial context.\r\n        No site content, information, translations, news, images or otherwise may be reposted\r\n        to any website without express permission from the staff."
-  translation: 宝可梦、所有相关角色、图像和音频均©GAME FREAK、任天堂、Creatures、东京电视台、ShoPro 和 The Pokémon Company。所有图像、文本和音频均用于编辑用途。未经工作人员明确许可，任何网站内容、信息、翻译、新闻、图像或其他内容均不得转载至任何网站。
-- type: paragraph
-  original: 'Website Programming: JDS, Hiroki, Sunain | Rev: ea5db73d'
-  translation: 网站编程：JDS、Hiroki、Sunain | 修订版本：ea5db73d
-- type: paragraph
-  original: 'Site: About Us | Contact Us | Terms of Use & Rules | News RSS | Site Updates RSS | Submit News'
-  translation: 网站：关于我们 | 联系我们 | 使用条款与规则 | 新闻 RSS | 网站更新 RSS | 提交新闻
-- type: paragraph
-  original: 'Interactive: #Pocketmonsters Discord | Forum | Imageboard | Link To Us'
-  translation: 互动：#Pocketmonsters Discord | 论坛 | 贴图版 | 链接我们
-- type: paragraph
-  original: 'Official Sites/Stores:'
-  translation: 官方网站/商店：
-- type: paragraph
-  original: 'Affiliates:'
-  translation: 合作伙伴：
-- type: image
-  image: /assets/img/interviews/9999-99-99-interview-game-freak-usum/img_02.png
-  caption: Battle Screen
 ---

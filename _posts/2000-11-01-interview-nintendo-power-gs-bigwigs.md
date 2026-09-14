@@ -9,7 +9,7 @@ publication: Nintendo Power 杂志第 134 期
 source_kind: magazine
 author: Nintendo Power
 translator: Poke Amice Studio
-interviewee: 杉森建, 增田顺一, 石原恒和, 森本茂树, 太田健典, 一之濑刚
+interviewee: 一之濑刚, 增田顺一, 太田健典, 杉森建, 森本茂树, 石原恒和
 toc: true
 toc_sticky: true
 parallel_view: translation
@@ -46,10 +46,6 @@ entities:
   games:
   - 宝可梦 金·银
 parallel_items:
-- type: image
-  image: /assets/img/interviews/2000-11-01-interview-nintendo-power-gs-bigwigs/hero_sugimori_gs_cut.png
-  alt: 杉森建与《宝可梦 金·银》废案与新宝可梦设计
-  caption: 任天堂力量官方对谈：主创团队谈《金·银》漫长开发与被舍弃的数百只废案宝可梦
 - type: heading
   level: 2
   original: Nintendo Power Chats with Pokémon Bigwigs
@@ -138,7 +134,7 @@ parallel_items:
   original: And as I explained in my video about Gen 2’s cut content, Satoru Iwata even volunteered to help Game Freak with their programming problems in Gold & Silver. This is despite the fact Iwata was actually president of HAL Laboratories at the time, not a member of Game Freak — he just helped out with their data compression issues for the fun of it.
   translation: 正如我在关于第二世代被删减内容的视频中所解释的，岩田聪甚至自愿帮助 GAME FREAK 解决《金／银》的编程问题。尽管事实上岩田聪当时是 HAL Laboratory 的社长，并非 GAME FREAK 的成员——他只是出于兴趣帮助他们解决数据压缩问题。
   note: 岩田聪后来成为任天堂的社长，以编程天才著称。
-- speaker: ''
+- speaker: 森本茂树
   original: 'Shigeki Morimoto can actually be found as an NPC in Ultra Sun & Moon, where he tells the player about Iwata’s contribution to the series: “When we were having trouble fitting all the data in for Gold and Silver, and we were really in a pinch, this amazing guy came along and made a program for us that solved all our problems.”'
   translation: 实际上，在《究极之日／究极之月》中，森本茂树可以作为 NPC 出现，他会告诉玩家岩田聪对系列的贡献：“当我们为《金／银》的数据存储而苦恼，真的陷入困境时，这位了不起的人出现了，为我们编写了一个程序，解决了我们所有的问题。”
   note: 森本茂树在《究极之日／究极之月》中以游戏开发者身份客串出现。
@@ -194,6 +190,7 @@ parallel_items:
   original: 'Related Interview: Sugimori reveals Gen 5 Pokemon origin stories'
   translation: 相关访谈：杉森建揭示第五世代宝可梦的起源故事
   note: ''
+  type: note
 - type: heading
   level: 3
   original: Back to the Interview
@@ -251,3 +248,9 @@ parallel_items:
   translation: “我们正在开发一款继《金》和《银》之后推出的新宝可梦游戏。目前还不能透露它对应哪个平台。我一直在思考宝可梦的不同语言版本，以及它们之间无法进行交换的问题。如果我们能让它们彼此兼容，那将会更加有趣。世界各地的宝可梦用户就能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦世界里也做到同样的事情，那就太棒了！”
   note: 石原恒和是宝可梦公司的社长，此处提及的“新宝可梦游戏”可能指后来的《宝可梦水晶》或跨语言交换功能，但当时尚未公开。
 ---
+
+
+
+
+
+

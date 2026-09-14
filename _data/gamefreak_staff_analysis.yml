@@ -1,0 +1,1114 @@
+schema_version: 1
+source_manifest_generated_at: '2026-08-28T06:37:48+00:00'
+method:
+  article_authority: archive/gamefreak-staff/manifest/articles.yml
+  text_layer: archive/gamefreak-staff/content/*/ja.md
+  translation_layer: archive/gamefreak-staff/translations/zh-CN/*.md
+  people_policy: archive/gamefreak-staff/staff-names.yml
+  note: 主题和职位为日文标题及正文的关键词命中，类别彼此重叠；人物统计表示正文提及，不等同于署名作者。
+overview:
+  articles: 209
+  first_date: '2007-08-01'
+  last_date: '2012-06-29'
+  calendar_days: 1795
+  years: 6
+  translations: 209
+  translation_rate: 100.0
+  source_characters: 174032
+  average_characters: 833
+  median_characters: 748
+  images: 468
+  image_articles: 195
+  image_article_rate: 93.3
+  links: 114
+  link_articles: 83
+  link_article_rate: 39.7
+  named_people: 51
+cadence:
+  median_gap_days: 7.0
+  average_gap_days: 8.6
+  within_10_days: 176
+  within_10_days_rate: 84.6
+  longest_gap_days: 112
+  longest_gap_from: '2012-02-24'
+  longest_gap_to: '2012-06-15'
+years:
+- year: 2007
+  count: 25
+  share: 12.0
+  relative: 44.6
+- year: 2008
+  count: 52
+  share: 24.9
+  relative: 92.9
+- year: 2009
+  count: 56
+  share: 26.8
+  relative: 100.0
+- year: 2010
+  count: 51
+  share: 24.4
+  relative: 91.1
+- year: 2011
+  count: 21
+  share: 10.0
+  relative: 37.5
+- year: 2012
+  count: 4
+  share: 1.9
+  relative: 7.1
+themes:
+- id: pokemon
+  label: 宝可梦与作品
+  description: 宝可梦作品、对战、卡牌、角色和开发访谈。
+  count: 87
+  share: 41.6
+  keywords:
+  - ポケモン
+  - ポケットモンスター
+  - ブラック・ホワイト
+  - ハートゴールド
+  - ソウルシルバー
+- id: development
+  label: 开发与制作
+  description: 企划、程序、美术、声音、设计与制作现场。
+  count: 125
+  share: 59.8
+  keywords:
+  - 開発
+  - プログラム
+  - プログラマー
+  - グラフィック
+  - デザイン
+  - サウンド
+  - 企画
+- id: recruitment
+  label: 招聘与职业
+  description: 应届招聘、说明会、面试、求职与新人经验。
+  count: 68
+  share: 32.5
+  keywords:
+  - 採用
+  - 就職
+  - 新卒
+  - 会社説明会
+  - 面接
+  - 入社
+- id: company
+  label: 公司与集体活动
+  description: 办公室、公司制度、员工活动、比赛与聚会。
+  count: 111
+  share: 53.1
+  keywords:
+  - 社内
+  - 会社
+  - オフィス
+  - イベント
+  - パーティ
+  - 大会
+  - 引越し
+- id: daily-life
+  label: 日常、兴趣与旅行
+  description: 假期、旅行、饮食、运动、宠物和个人兴趣。
+  count: 59
+  share: 28.2
+  keywords:
+  - 旅行
+  - 夏休み
+  - 冬休み
+  - 休日
+  - 料理
+  - 食べ
+  - スポーツ
+  - ペット
+  - 趣味
+roles:
+- label: 企划
+  count: 67
+  share: 32.1
+- label: 程序
+  count: 44
+  share: 21.1
+- label: 美术与图形
+  count: 65
+  share: 31.1
+- label: 网站
+  count: 28
+  share: 13.4
+- label: 声音
+  count: 28
+  share: 13.4
+- label: 招聘
+  count: 27
+  share: 12.9
+source_tags: []
+people:
+- source: カニ子
+  target: 蟹子
+  article_count: 43
+  share: 20.6
+  first:
+    id: 3
+    date: '2007-08-01'
+    title: はじめましてのごあいさつ
+    title_zh: 【工作日志】网站焕新与点阵画布
+    url: /gamefreak-staff/entry-3/
+    target: 蟹子
+  last:
+    id: 218
+    date: '2011-02-04'
+    title: 祝☆500万本！?ケーキうまうま
+    title_zh: 【工作日志】2011年销量庆祝蛋糕
+    url: /gamefreak-staff/entry-218/
+    target: 蟹子
+- source: にょろリカ
+  target: 妮洛莉卡
+  article_count: 25
+  share: 12.0
+  first:
+    id: 163
+    date: '2010-01-08'
+    title: わたしのふゆやすみ
+    title_zh: 【工作日志】2010年冬假与网站新负责人
+    url: /gamefreak-staff/entry-163/
+    target: 妮洛莉卡
+  last:
+    id: 238
+    date: '2011-11-25'
+    title: 掃除の極意
+    title_zh: 【工作日志】2011年大扫除心得
+    url: /gamefreak-staff/entry-238/
+    target: 妮洛莉卡
+- source: もりもと
+  target: 森本
+  article_count: 20
+  share: 9.6
+  first:
+    id: 41
+    date: '2007-10-30'
+    title: 新卒採用始めました！
+    title_zh: 【工作日志】2007年应届招聘启动
+    url: /gamefreak-staff/entry-41/
+    target: 森本
+  last:
+    id: 219
+    date: '2011-02-18'
+    title: 社内ポケモンバトル大会 その後
+    title_zh: 【工作日志】2011年公司宝可梦对战大会后续
+    url: /gamefreak-staff/entry-219/
+    target: 森本
+- source: さとう
+  target: 佐藤
+  article_count: 18
+  share: 8.6
+  first:
+    id: 78
+    date: '2008-07-01'
+    title: 採用：本日から新卒採用二次募集スタートです！
+    title_zh: 【工作日志】2008年招聘与狮舞惊喜
+    url: /gamefreak-staff/entry-78/
+    target: 佐藤
+  last:
+    id: 226
+    date: '2011-03-04'
+    title: 「社員紹介」はじめました！
+    title_zh: 【工作日志】2011年员工介绍页面上线
+    url: /gamefreak-staff/entry-226/
+    target: 佐藤
+- source: なぎー
+  target: 纳吉
+  article_count: 18
+  share: 8.6
+  first:
+    id: 33
+    date: '2007-09-26'
+    title: 社内の流行しているゲーム
+    title_zh: 【工作日志】2007年公司里流行的游戏
+    url: /gamefreak-staff/entry-33/
+    target: 纳吉
+  last:
+    id: 212
+    date: '2010-12-17'
+    title: ポケモンカードティーチング＆ポケモンカード大会
+    title_zh: 【工作日志】2010年卡牌教学与公司大会
+    url: /gamefreak-staff/entry-212/
+    target: 纳吉
+- source: エノキ
+  target: 榎木
+  article_count: 12
+  share: 5.7
+  first:
+    id: 9
+    date: '2007-08-10'
+    title: もういくつ寝ると
+    title_zh: 【工作日志】2007年夏日休假计划
+    url: /gamefreak-staff/entry-9/
+    target: 榎木
+  last:
+    id: 212
+    date: '2010-12-17'
+    title: ポケモンカードティーチング＆ポケモンカード大会
+    title_zh: 【工作日志】2010年卡牌教学与公司大会
+    url: /gamefreak-staff/entry-212/
+    target: 榎木
+- source: スティック
+  target: 斯蒂克
+  article_count: 11
+  share: 5.3
+  first:
+    id: 42
+    date: '2007-11-09'
+    title: ドッツ
+    title_zh: 【工作日志】2007年点阵玩具热潮
+    url: /gamefreak-staff/entry-42/
+    target: 斯蒂克
+  last:
+    id: 144
+    date: '2009-09-18'
+    title: みんなで行こう！工場見学
+    title_zh: 【工作日志】2009年公司工厂参观
+    url: /gamefreak-staff/entry-144/
+    target: 斯蒂克
+- source: ラッペン
+  target: 拉彭
+  article_count: 11
+  share: 5.3
+  first:
+    id: 35
+    date: '2007-10-02'
+    title: 大好きなポケモン
+    title_zh: 【工作日志】2007年员工最爱的宝可梦
+    url: /gamefreak-staff/entry-35/
+    target: 拉彭
+  last:
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 拉彭
+- source: おにいさん
+  target: 哥哥
+  article_count: 10
+  share: 4.8
+  first:
+    id: 43
+    date: '2007-11-13'
+    title: ファミコンショップGF
+    title_zh: 【工作日志】2007年任天堂游戏收藏日常
+    url: /gamefreak-staff/entry-43/
+    target: 哥哥
+  last:
+    id: 170
+    date: '2010-02-19'
+    title: お着物のススメ
+    title_zh: 【工作日志】2010年和服的魅力
+    url: /gamefreak-staff/entry-170/
+    target: 哥哥
+- source: ジョニー
+  target: 乔尼
+  article_count: 10
+  share: 4.8
+  first:
+    id: 39
+    date: '2007-10-23'
+    title: 秋のイベント♪
+    title_zh: 【工作日志】2007年秋日溪流垂钓与烧烤
+    url: /gamefreak-staff/entry-39/
+    target: 乔尼
+  last:
+    id: 197
+    date: '2010-09-03'
+    title: それぞれの夏 ’10！
+    title_zh: 【工作日志】2010年员工们各自的夏日
+    url: /gamefreak-staff/entry-197/
+    target: 乔尼
+- source: いわし
+  target: 沙丁鱼
+  article_count: 9
+  share: 4.3
+  first:
+    id: 79
+    date: '2008-07-11'
+    title: 研修期間終了！
+    title_zh: 【工作日志】2008年研修结束，正式加入
+    url: /gamefreak-staff/entry-79/
+    target: 沙丁鱼
+  last:
+    id: 241
+    date: '2012-02-24'
+    title: 見つめる鍋は煮えない
+    title_zh: 【工作日志】2012年尝试改变工作方式
+    url: /gamefreak-staff/entry-241/
+    target: 沙丁鱼
+- source: マー
+  target: 小玛
+  article_count: 9
+  share: 4.3
+  first:
+    id: 38
+    date: '2007-10-19'
+    title: ポケモンカードゲーム大会！
+    title_zh: 【工作日志】2007年GAME FREAK宝可梦卡牌赛
+    url: /gamefreak-staff/entry-38/
+    target: 小玛
+  last:
+    id: 231
+    date: '2011-07-22'
+    title: 想像力トレーニング！
+    title_zh: 【工作日志】2011年想象力训练
+    url: /gamefreak-staff/entry-231/
+    target: 小玛
+- source: ユッフィー
+  target: 尤菲
+  article_count: 7
+  share: 3.3
+  first:
+    id: 9
+    date: '2007-08-10'
+    title: もういくつ寝ると
+    title_zh: 【工作日志】2007年夏日休假计划
+    url: /gamefreak-staff/entry-9/
+    target: 尤菲
+  last:
+    id: 136
+    date: '2009-07-24'
+    title: 日食2009
+    title_zh: 【工作日志】2009年GAME FREAK观日食记
+    url: /gamefreak-staff/entry-136/
+    target: 尤菲
+- source: えるかつ
+  target: 埃尔卡茨
+  article_count: 6
+  share: 2.9
+  first:
+    id: 67
+    date: '2008-04-18'
+    title: いしかわけん！
+    title_zh: 【工作日志】2008年新人报到与石川故乡推荐
+    url: /gamefreak-staff/entry-67/
+    target: 埃尔卡茨
+  last:
+    id: 197
+    date: '2010-09-03'
+    title: それぞれの夏 ’10！
+    title_zh: 【工作日志】2010年员工们各自的夏日
+    url: /gamefreak-staff/entry-197/
+    target: 埃尔卡茨
+- source: ほず
+  target: 阿穗
+  article_count: 6
+  share: 2.9
+  first:
+    id: 122
+    date: '2009-04-17'
+    title: ゲームフリークの先輩たち
+    title_zh: 【工作日志】2009年新人的职场日常
+    url: /gamefreak-staff/entry-122/
+    target: 阿穗
+  last:
+    id: 219
+    date: '2011-02-18'
+    title: 社内ポケモンバトル大会 その後
+    title_zh: 【工作日志】2011年公司宝可梦对战大会后续
+    url: /gamefreak-staff/entry-219/
+    target: 阿穗
+- source: ほっしー
+  target: 小星
+  article_count: 6
+  share: 2.9
+  first:
+    id: 69
+    date: '2008-05-09'
+    title: それぞれのゴールデンウィーク
+    title_zh: 【工作日志】2008年各自的黄金周
+    url: /gamefreak-staff/entry-69/
+    target: 小星
+  last:
+    id: 197
+    date: '2010-09-03'
+    title: それぞれの夏 ’10！
+    title_zh: 【工作日志】2010年员工们各自的夏日
+    url: /gamefreak-staff/entry-197/
+    target: 小星
+- source: カビ
+  target: 卡比
+  article_count: 6
+  share: 2.9
+  first:
+    id: 56
+    date: '2008-02-07'
+    title: 社内ポケモンDPゲーム大会開催
+    title_zh: 【工作日志】2008年公司宝可梦对战大会
+    url: /gamefreak-staff/entry-56/
+    target: 卡比
+  last:
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 卡比
+- source: デコ
+  target: 德科
+  article_count: 6
+  share: 2.9
+  first:
+    id: 26
+    date: '2007-09-13'
+    title: デコぼこクライミング！
+    title_zh: 【工作日志】2007年的攀岩休日
+    url: /gamefreak-staff/entry-26/
+    target: 德科
+  last:
+    id: 136
+    date: '2009-07-24'
+    title: 日食2009
+    title_zh: 【工作日志】2009年GAME FREAK观日食记
+    url: /gamefreak-staff/entry-136/
+    target: 德科
+- source: しゃち
+  target: 沙奇
+  article_count: 5
+  share: 2.4
+  first:
+    id: 49
+    date: '2007-12-20'
+    title: しゃちのアクアリウム日記
+    title_zh: 【工作日志】2007年海水鱼水族箱日常
+    url: /gamefreak-staff/entry-49/
+    target: 沙奇
+  last:
+    id: 172
+    date: '2010-03-05'
+    title: 春よこい！ しゃちの花日記
+    title_zh: 【工作日志】2010年春日花事
+    url: /gamefreak-staff/entry-172/
+    target: 沙奇
+- source: マシュー
+  target: 马修
+  article_count: 5
+  share: 2.4
+  first:
+    id: 68
+    date: '2008-04-25'
+    title: 研修生活
+    title_zh: 【工作日志】2008年新人研修生活
+    url: /gamefreak-staff/entry-68/
+    target: 马修
+  last:
+    id: 165
+    date: '2010-01-22'
+    title: それぞれの冬’10！
+    title_zh: 【工作日志】2010年冬日假期与员工日常
+    url: /gamefreak-staff/entry-165/
+    target: 马修
+- source: ユーリー
+  target: 尤里
+  article_count: 5
+  share: 2.4
+  first:
+    id: 98
+    date: '2008-11-20'
+    title: 世界を守ってます
+    title_zh: 【工作日志】守护宝可梦的世界观
+    url: /gamefreak-staff/entry-98/
+    target: 尤里
+  last:
+    id: 208
+    date: '2010-11-22'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 8
+    title_zh: 【工作日志】2010年黑白开发：信息管理组
+    url: /gamefreak-staff/entry-208/
+    target: 尤里
+- source: KAGE
+  target: 影
+  article_count: 4
+  share: 1.9
+  first:
+    id: 110
+    date: '2009-01-30'
+    title: 音楽をはじめたきっかけ
+    title_zh: 【工作日志】2009年音乐启蒙与游戏旋律
+    url: /gamefreak-staff/entry-110/
+    target: 影
+  last:
+    id: 233
+    date: '2011-09-02'
+    title: 初！
+    title_zh: 【工作日志】2011年首次挑战交响乐演出
+    url: /gamefreak-staff/entry-233/
+    target: 影
+- source: かつお
+  target: 鲣鱼
+  article_count: 4
+  share: 1.9
+  first:
+    id: 100
+    date: '2008-12-05'
+    title: ポケモンプラチナバトル大会決勝
+    title_zh: 【工作日志】2008年宝可梦白金决赛
+    url: /gamefreak-staff/entry-100/
+    target: 鲣鱼
+  last:
+    id: 212
+    date: '2010-12-17'
+    title: ポケモンカードティーチング＆ポケモンカード大会
+    title_zh: 【工作日志】2010年卡牌教学与公司大会
+    url: /gamefreak-staff/entry-212/
+    target: 鲣鱼
+- source: めめた
+  target: 芽芽
+  article_count: 4
+  share: 1.9
+  first:
+    id: 174
+    date: '2010-03-19'
+    title: わたしたちの就職活動3 「日課」
+    title_zh: 【工作日志】2010年求职路上的夕阳日课
+    url: /gamefreak-staff/entry-174/
+    target: 芽芽
+  last:
+    id: 230
+    date: '2011-06-29'
+    title: はじめての海外出張
+    title_zh: 【工作日志】2011年首次海外出差
+    url: /gamefreak-staff/entry-230/
+    target: 芽芽
+- source: カラシ
+  target: 卡拉希
+  article_count: 4
+  share: 1.9
+  first:
+    id: 101
+    date: '2008-12-12'
+    title: グラフィックデザイナー歴8ヶ月
+    title_zh: 【工作日志】八个月的游戏图形设计师
+    url: /gamefreak-staff/entry-101/
+    target: 卡拉希
+  last:
+    id: 197
+    date: '2010-09-03'
+    title: それぞれの夏 ’10！
+    title_zh: 【工作日志】2010年员工们各自的夏日
+    url: /gamefreak-staff/entry-197/
+    target: 卡拉希
+- source: ヒート
+  target: 希特
+  article_count: 4
+  share: 1.9
+  first:
+    id: 187
+    date: '2010-06-18'
+    title: この電車が凄い！
+    title_zh: 【工作日志】2010年通勤电车的新发现
+    url: /gamefreak-staff/entry-187/
+    target: 希特
+  last:
+    id: 242
+    date: '2012-06-15'
+    title: 禁煙のすすめ
+    title_zh: 【工作日志】2012年戒烟与平日禁烟
+    url: /gamefreak-staff/entry-242/
+    target: 希特
+- source: おおむら
+  target: 大村
+  article_count: 3
+  share: 1.4
+  first:
+    id: 150
+    date: '2009-10-23'
+    title: ＨＧ・ＳＳ 語っちゃいます！ その3
+    title_zh: 【工作日志】2009年宝可梦运动会诞生记
+    url: /gamefreak-staff/entry-150/
+    target: 大村
+  last:
+    id: 207
+    date: '2010-11-12'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 7
+    title_zh: 【工作日志】2010年宝可梦角色设计访谈
+    url: /gamefreak-staff/entry-207/
+    target: 大村
+- source: まさゆき
+  target: 正幸
+  article_count: 3
+  share: 1.4
+  first:
+    id: 216
+    date: '2011-01-24'
+    title: プログラミングの楽しみ
+    title_zh: 【工作日志】2011年编程的乐趣
+    url: /gamefreak-staff/entry-216/
+    target: 正幸
+  last:
+    id: 240
+    date: '2012-01-20'
+    title: 遅ればせながら……
+    title_zh: 【工作日志】2012年寒假与新年目标
+    url: /gamefreak-staff/entry-240/
+    target: 正幸
+- source: よっしー
+  target: 小吉
+  article_count: 3
+  share: 1.4
+  first:
+    id: 9
+    date: '2007-08-10'
+    title: もういくつ寝ると
+    title_zh: 【工作日志】2007年夏日休假计划
+    url: /gamefreak-staff/entry-9/
+    target: 小吉
+  last:
+    id: 39
+    date: '2007-10-23'
+    title: 秋のイベント♪
+    title_zh: 【工作日志】2007年秋日溪流垂钓与烧烤
+    url: /gamefreak-staff/entry-39/
+    target: 小吉
+- source: わも
+  target: 和本
+  article_count: 3
+  share: 1.4
+  first:
+    id: 184
+    date: '2010-05-28'
+    title: とうきょうのしゃかいじん
+    title_zh: 【工作日志】东京新人的通勤日常
+    url: /gamefreak-staff/entry-184/
+    target: 和本
+  last:
+    id: 228
+    date: '2011-04-22'
+    title: 就職活動に思うこと
+    title_zh: 【工作日志】2011年求职与入职心得
+    url: /gamefreak-staff/entry-228/
+    target: 和本
+- source: ペンギン
+  target: 企鹅
+  article_count: 3
+  share: 1.4
+  first:
+    id: 173
+    date: '2010-03-12'
+    title: わたしたちの就職活動2 「“好き”を仕事にしますか？」
+    title_zh: 【工作日志】2010年求职：把喜欢变成工作
+    url: /gamefreak-staff/entry-173/
+    target: 企鹅
+  last:
+    id: 240
+    date: '2012-01-20'
+    title: 遅ればせながら……
+    title_zh: 【工作日志】2012年寒假与新年目标
+    url: /gamefreak-staff/entry-240/
+    target: 企鹅
+- source: あきら
+  target: 阿基拉
+  article_count: 2
+  share: 1.0
+  first:
+    id: 185
+    date: '2010-06-07'
+    title: イチゴを狩る！
+    title_zh: 【工作日志】2010年草莓采摘日记
+    url: /gamefreak-staff/entry-185/
+    target: 阿基拉
+  last:
+    id: 236
+    date: '2011-10-21'
+    title: 子育ての秘訣
+    title_zh: 【工作日志】2011年育儿的秘诀
+    url: /gamefreak-staff/entry-236/
+    target: 阿基拉
+- source: ねこスQ
+  target: 猫S Q
+  article_count: 2
+  share: 1.0
+  first:
+    id: 58
+    date: '2008-02-15'
+    title: クライスラーは笑う
+    title_zh: 【工作日志】2008年小提琴与平面设计
+    url: /gamefreak-staff/entry-58/
+    target: 猫S Q
+  last:
+    id: 60
+    date: '2008-02-29'
+    title: No Video Games, No Life.
+    title_zh: 【工作日志】2008年游戏收藏与创作
+    url: /gamefreak-staff/entry-60/
+    target: 猫S Q
+- source: まつみや
+  target: 松宫
+  article_count: 2
+  share: 1.0
+  first:
+    id: 202
+    date: '2010-10-08'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 2
+    title_zh: 【工作日志】2010年宝可梦剧本幕后
+    url: /gamefreak-staff/entry-202/
+    target: 松宫
+  last:
+    id: 203
+    date: '2010-10-15'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 3
+    title_zh: 【工作日志】2010年宝可梦音乐开发
+    url: /gamefreak-staff/entry-203/
+    target: 松宫
+- source: アーリー
+  target: 阿利
+  article_count: 2
+  share: 1.0
+  first:
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 阿利
+  last:
+    id: 213
+    date: '2010-12-24'
+    title: ゲームフリーク忘年会2010
+    title_zh: 【工作日志】2010年GAME FREAK忘年会
+    url: /gamefreak-staff/entry-213/
+    target: 阿利
+- source: ギン
+  target: 银
+  article_count: 2
+  share: 1.0
+  first:
+    id: 109
+    date: '2009-01-23'
+    title: 店員と客の会話
+    title_zh: 【工作日志】2009年快餐店里的语言思考
+    url: /gamefreak-staff/entry-109/
+    target: 银
+  last:
+    id: 128
+    date: '2009-05-29'
+    title: 俺のゲーム
+    title_zh: 【工作日志】2009年做游戏的游戏
+    url: /gamefreak-staff/entry-128/
+    target: 银
+- source: ジェイミー
+  target: 杰米
+  article_count: 2
+  share: 1.0
+  first:
+    id: 202
+    date: '2010-10-08'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 2
+    title_zh: 【工作日志】2010年宝可梦剧本幕后
+    url: /gamefreak-staff/entry-202/
+    target: 杰米
+  last:
+    id: 204
+    date: '2010-10-22'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 4
+    title_zh: 【工作日志】2010年宝可梦开发访谈
+    url: /gamefreak-staff/entry-204/
+    target: 杰米
+- source: トラッシュ
+  target: 特拉什
+  article_count: 2
+  share: 1.0
+  first:
+    id: 85
+    date: '2008-08-29'
+    title: ポケモンカードゲーム大会 葉月の陣！
+    title_zh: 【工作日志】2008年夏日卡牌大会
+    url: /gamefreak-staff/entry-85/
+    target: 特拉什
+  last:
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 特拉什
+- source: ラッティ
+  target: 拉蒂
+  article_count: 2
+  share: 1.0
+  first:
+    id: 239
+    date: '2011-12-27'
+    title: セレンディピティ
+    title_zh: 【工作日志】2011年与偶然相遇
+    url: /gamefreak-staff/entry-239/
+    target: 拉蒂
+  last:
+    id: 240
+    date: '2012-01-20'
+    title: 遅ればせながら……
+    title_zh: 【工作日志】2012年寒假与新年目标
+    url: /gamefreak-staff/entry-240/
+    target: 拉蒂
+- source: ああああ
+  target: 啊啊啊啊
+  article_count: 1
+  share: 0.5
+  first: &id001
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 啊啊啊啊
+  last: *id001
+- source: じろ
+  target: 次郎
+  article_count: 1
+  share: 0.5
+  first: &id002
+    id: 240
+    date: '2012-01-20'
+    title: 遅ればせながら……
+    title_zh: 【工作日志】2012年寒假与新年目标
+    url: /gamefreak-staff/entry-240/
+    target: 次郎
+  last: *id002
+- source: ともやん
+  target: 友彦
+  article_count: 1
+  share: 0.5
+  first: &id003
+    id: 201
+    date: '2010-10-01'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 1
+    title_zh: 【工作日志】黑白开发现场与轨道移动
+    url: /gamefreak-staff/entry-201/
+    target: 友彦
+  last: *id003
+- source: なかつい
+  target: 中津井
+  article_count: 1
+  share: 0.5
+  first: &id004
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 中津井
+  last: *id004
+- source: ふじわらもとふみ
+  target: 藤原元史
+  article_count: 1
+  share: 0.5
+  first: &id005
+    id: 210
+    date: '2010-12-03'
+    title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+    title_zh: 【工作日志】开发团队谈黑白的制作
+    url: /gamefreak-staff/entry-210/
+    target: 藤原元史
+  last: *id005
+- source: もりび
+  target: 森比
+  article_count: 1
+  share: 0.5
+  first: &id006
+    id: 190
+    date: '2010-07-09'
+    title: 中途1年目の僕が見たゲームフリーク
+    title_zh: 【工作日志】2010年GAME FREAK入职一周年
+    url: /gamefreak-staff/entry-190/
+    target: 森比
+  last: *id006
+- source: カンタロウ
+  target: 坎太郎
+  article_count: 1
+  share: 0.5
+  first: &id007
+    id: 127
+    date: '2009-05-22'
+    title: 体、鍛えてます！
+    title_zh: 【工作日志】2009：锻炼身体迎接夏天
+    url: /gamefreak-staff/entry-127/
+    target: 坎太郎
+  last: *id007
+- source: タノウエ
+  target: 田上
+  article_count: 1
+  share: 0.5
+  first: &id008
+    id: 114
+    date: '2009-02-23'
+    title: 会社説明会に出席して
+    title_zh: 【工作日志】参加公司说明会的现场感想
+    url: /gamefreak-staff/entry-114/
+    target: 田上
+  last: *id008
+- source: タピオカ
+  target: 塔皮奥卡
+  article_count: 1
+  share: 0.5
+  first: &id009
+    id: 193
+    date: '2010-07-30'
+    title: ぶらり“中途”乗車の旅
+    title_zh: 【工作日志】2010年GAME FREAK的中途列车之旅
+    url: /gamefreak-staff/entry-193/
+    target: 塔皮奥卡
+  last: *id009
+- source: ナオト
+  target: 直人
+  article_count: 1
+  share: 0.5
+  first: &id010
+    id: 166
+    date: '2010-01-29'
+    title: 社内ポケモンHGSSバトル大会！
+    title_zh: 【工作日志】2010年公司宝可梦对战大会
+    url: /gamefreak-staff/entry-166/
+    target: 直人
+  last: *id010
+- source: フジワ
+  target: 藤和
+  article_count: 1
+  share: 0.5
+  first: &id011
+    id: 198
+    date: '2010-09-10'
+    title: ポケモンワールドチャンピオンシップス2010！
+    title_zh: 【工作日志】2010宝可梦世界锦标赛
+    url: /gamefreak-staff/entry-198/
+    target: 藤和
+  last: *id011
+- source: マッツン
+  target: 小松
+  article_count: 1
+  share: 0.5
+  first: &id012
+    id: 232
+    date: '2011-08-05'
+    title: 睡眠の話
+    title_zh: 【工作日志】2011年聊聊睡眠与穴位
+    url: /gamefreak-staff/entry-232/
+    target: 小松
+  last: *id012
+longest_articles:
+- id: 202
+  date: '2010-10-08'
+  year: 2010
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 2
+  title_zh: 【工作日志】2010年宝可梦剧本幕后
+  url: /gamefreak-staff/entry-202/
+  characters: 3791
+  images: 1
+  links: 1
+  themes:
+  - pokemon
+  - development
+  - recruitment
+  - company
+- id: 151
+  date: '2009-10-27'
+  year: 2009
+  title: ＨＧ・ＳＳ 語っちゃいます！ その4
+  title_zh: 【工作日志】2009年HG・SS音乐编曲随笔
+  url: /gamefreak-staff/entry-151/
+  characters: 2338
+  images: 2
+  links: 1
+  themes:
+  - pokemon
+  - development
+- id: 203
+  date: '2010-10-15'
+  year: 2010
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 3
+  title_zh: 【工作日志】2010年宝可梦音乐开发
+  url: /gamefreak-staff/entry-203/
+  characters: 2241
+  images: 1
+  links: 2
+  themes:
+  - pokemon
+  - development
+- id: 210
+  date: '2010-12-03'
+  year: 2010
+  title: 「ポケットモンスターブラック・ホワイト」のつくりかた 9(最終回)
+  title_zh: 【工作日志】开发团队谈黑白的制作
+  url: /gamefreak-staff/entry-210/
+  characters: 2220
+  images: 1
+  links: 0
+  themes:
+  - pokemon
+  - development
+- id: 70
+  date: '2008-05-16'
+  year: 2008
+  title: 会社対抗ポケモンDPゲーム大会開催
+  title_zh: 【工作日志】2008年宝可梦对抗赛
+  url: /gamefreak-staff/entry-70/
+  characters: 2113
+  images: 3
+  links: 1
+  themes:
+  - pokemon
+  - company
+most_visual_articles:
+- id: 139
+  date: '2009-08-21'
+  year: 2009
+  title: それぞれの夏2009
+  title_zh: 【工作日志】2009年夏日各自精彩
+  url: /gamefreak-staff/entry-139/
+  characters: 2017
+  images: 15
+  links: 0
+  themes:
+  - pokemon
+  - daily-life
+- id: 197
+  date: '2010-09-03'
+  year: 2010
+  title: それぞれの夏 ’10！
+  title_zh: 【工作日志】2010年员工们各自的夏日
+  url: /gamefreak-staff/entry-197/
+  characters: 1547
+  images: 13
+  links: 0
+  themes:
+  - daily-life
+- id: 178
+  date: '2010-04-16'
+  year: 2010
+  title: 三軒茶屋の春
+  title_zh: 【工作日志】2010年三轩茶屋的春日寻猫
+  url: /gamefreak-staff/entry-178/
+  characters: 1247
+  images: 13
+  links: 0
+  themes:
+  - development
+  - company
+- id: 53
+  date: '2008-01-16'
+  year: 2008
+  title: ファミコンのカタチ
+  title_zh: 【工作日志】2008年任天堂卡带的形状
+  url: /gamefreak-staff/entry-53/
+  characters: 769
+  images: 13
+  links: 0
+  themes:
+  - development
+- id: 106
+  date: '2009-01-09'
+  year: 2009
+  title: それぞれの冬’09！
+  title_zh: 【工作日志】2009年冬日假期记录
+  url: /gamefreak-staff/entry-106/
+  characters: 1744
+  images: 12
+  links: 0
+  themes:
+  - development
+  - company
+  - daily-life

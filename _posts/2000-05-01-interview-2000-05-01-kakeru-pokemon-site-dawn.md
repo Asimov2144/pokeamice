@@ -639,3 +639,8 @@ original_link: http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm
 translator: Poke Amice Studio
 interviewee: 田尻智、增田顺一
 ---
+
+
+
+
+

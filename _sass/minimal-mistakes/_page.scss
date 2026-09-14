@@ -1897,6 +1897,187 @@ body {
   line-height: 1.45;
 }
 
+.gf-staff-report__hero {
+  background:
+    linear-gradient(135deg, rgba(#fff, 0.98), rgba(#edf6fb, 0.94)),
+    repeating-linear-gradient(90deg, transparent 0 34px, rgba(#78a9c7, 0.08) 34px 35px);
+}
+
+.gf-staff-report__stats {
+  grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+}
+
+.gf-staff-report__stats a {
+  min-height: 82px;
+  align-content: center;
+}
+
+.gf-staff-report__stats strong {
+  font-size: 1.2rem;
+}
+
+.gf-staff-report__prose {
+  display: grid;
+  gap: 0.55rem;
+  color: mix($text-color, $muted-text-color, 72%);
+  font-size: 0.8rem;
+  line-height: 1.75;
+}
+
+.gf-staff-report__prose p,
+.gf-staff-report__note {
+  margin: 0;
+}
+
+.gf-staff-report__bars {
+  display: grid;
+  gap: 0.48rem;
+}
+
+.gf-staff-report__bar {
+  display: grid;
+  grid-template-columns: 48px minmax(80px, 1fr) 100px;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.7rem;
+}
+
+.gf-staff-report__bar > span,
+.gf-staff-report__meter {
+  display: block;
+  overflow: hidden;
+  height: 8px;
+  border-radius: 999px;
+  background: mix(#dce8ef, #fff, 78%);
+}
+
+.gf-staff-report__bar i,
+.gf-staff-report__meter i {
+  display: block;
+  width: var(--report-value);
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, mix($primary-color, #76aeca, 48%), #8fc2d8);
+}
+
+.gf-staff-report__bar em {
+  color: $muted-text-color;
+  font-size: 0.66rem;
+  font-style: normal;
+  text-align: right;
+}
+
+.gf-staff-report__topic-grid,
+.gf-staff-report__people,
+.gf-staff-report__rankings {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+.gf-staff-report__topic-grid article,
+.gf-staff-report__people article {
+  border: 1px solid $border-color;
+  border-radius: 7px;
+  padding: 0.65rem;
+  background: #fbfcfd;
+}
+
+.gf-staff-report__topic-grid article > div,
+.gf-staff-report__people header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.gf-staff-report__topic-grid strong,
+.gf-staff-report__people strong {
+  font-size: 0.78rem;
+}
+
+.gf-staff-report__topic-grid em,
+.gf-staff-report__people em {
+  color: $primary-color;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.gf-staff-report__topic-grid p,
+.gf-staff-report__topic-grid small,
+.gf-staff-report__people p,
+.gf-staff-report__note,
+.gf-staff-report__method {
+  color: $muted-text-color;
+  font-size: 0.68rem;
+  line-height: 1.55;
+}
+
+.gf-staff-report__topic-grid p {
+  margin: 0.5rem 0 0.18rem;
+}
+
+.gf-staff-report__meter {
+  margin-top: 0.45rem;
+  height: 6px;
+}
+
+.gf-staff-report__people p {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.45rem;
+  margin: 0.4rem 0 0;
+}
+
+.gf-staff-report__people a {
+  color: mix($primary-color, $text-color, 72%);
+  text-decoration: none;
+}
+
+.gf-staff-report__note {
+  margin-top: 0.65rem;
+  border-left: 3px solid mix($primary-color, #88b7d5, 42%);
+  padding-left: 0.55rem;
+}
+
+.gf-staff-report__rankings {
+  margin-top: 0.7rem;
+}
+
+.gf-staff-report__rankings h4 {
+  margin: 0;
+  font-size: 0.74rem;
+}
+
+.gf-staff-report__method {
+  border: 1px solid $border-color;
+  border-radius: 7px;
+  padding: 0.7rem;
+  background: #fbfcfd;
+}
+
+.gf-staff-report__method summary {
+  cursor: pointer;
+  color: $text-color;
+  font-weight: 800;
+}
+
+@include breakpoint(max-width $small) {
+  .gf-staff-report__bar {
+    grid-template-columns: 42px minmax(60px, 1fr);
+  }
+
+  .gf-staff-report__bar em {
+    grid-column: 2;
+    text-align: left;
+  }
+
+  .gf-staff-report__people p {
+    display: grid;
+  }
+}
+
 .key-window-more a {
   border: 1px solid mix($primary-color, $border-color, 24%);
   border-radius: 999px;

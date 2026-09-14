@@ -1,0 +1,216 @@
+"mito-salamence":
+  items:
+    - image_index: 0
+      name: "暴飞龙 × 水户蜀葵"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "葵龙会"
+      kind: "球迷文化"
+    - image_index: 2
+      name: "常陆太田市·暴飞龙井盖"
+      kind: "地点 / 地标"
+
+"kashiwa-heliolisk":
+  items:
+    - image_index: 0
+      name: "光电伞蜥 × 柏太阳神"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "太阳之力与颈伞"
+      kind: "宝可梦设定"
+    - image_index: 2
+      name: "球队吉祥物"
+      kind: "俱乐部角色"
+
+"tokyo-verdy-decidueye":
+  items:
+    - image_index: 0
+      name: "狙射树枭 × 东京绿荫"
+      kind: "宝可梦 / 俱乐部"
+
+"urawa-incineroar":
+  items:
+    - image_index: 0
+      name: "炽焰咆哮虎 × 浦和红钻"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "红钻与 Z 结晶"
+      kind: "视觉线索"
+    - image_index: 2
+      name: "浦和主场声浪"
+      kind: "主场文化"
+
+"chiba-boltund":
+  items:
+    - image_index: 0
+      name: "逐电犬 × 千叶市原"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "宝可梦中心东京湾"
+      kind: "地点 / 联动现场"
+
+"kashima-charizard":
+  items:
+    - image_index: 0
+      name: "喷火龙 × 鹿岛鹿角"
+      kind: "宝可梦 / 俱乐部"
+
+"fc-tokyo-ceruledge":
+  items:
+    - image_index: 0
+      name: "苍炎刃鬼 × FC 东京"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "炭小侍 → 苍炎刃鬼"
+      kind: "进化线 / 燃烧"
+
+"machida-greninja":
+  items:
+    - image_index: 0
+      name: "甲贺忍蛙 × 町田泽维亚"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "町田市"
+      kind: "地区 / 宝可梦原点"
+
+"kawasaki-palafin":
+  items:
+    - image_index: 0
+      name: "海豚侠 × 川崎前锋"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "海豚侠应援"
+      kind: "球迷文化"
+
+"yokohama-azumarill":
+  items:
+    - image_index: 0
+      name: "玛力露丽 × 横滨水手"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "水手训练家"
+      kind: "游戏角色"
+    - image_index: 2
+      name: "マリノス君一家"
+      kind: "俱乐部吉祥物"
+    - image_index: 3
+      name: "蓝·白·红三色"
+      kind: "视觉系统"
+
+"shimizu-pawmot":
+  items:
+    - image_index: 0
+      name: "巴布土拨 × 清水心跳"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "“心跳”与复苏"
+      kind: "名称 / 宝可梦设定"
+
+"nagoya-typhlosion":
+  items:
+    - image_index: 0
+      name: "火暴兽 × 名古屋鲸八"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "火暴兽与新队徽"
+      kind: "粉丝设计"
+    - image_index: 2
+      name: "火球鼠与旧队徽"
+      kind: "历史视觉"
+    - image_index: 3
+      name: "名古屋的足球现场"
+      kind: "地点 / 作者记忆"
+
+"kyoto-gengar":
+  items:
+    - image_index: 0
+      name: "耿鬼 × 京都不死鸟"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "缘朱市与松叶"
+      kind: "游戏地点 / 人物"
+
+"gamba-luxray":
+  items:
+    - image_index: 0
+      name: "伦琴猫 × 大阪钢巴"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "モフレム与闪电"
+      kind: "俱乐部吉祥物"
+
+"cerezo-cherrim":
+  items:
+    - image_index: 0
+      name: "樱花儿 × 大阪樱花"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "满开"
+      kind: "球队歌曲 / 应援文化"
+
+"kobe-houndoom":
+  items:
+    - image_index: 0
+      name: "黑鲁加 × 神户胜利船"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "Mega 黑鲁加与神户牛"
+      kind: "形态 / 地方名物"
+    - image_index: 2
+      name: "阿波罗与红色 R"
+      kind: "游戏人物 / 火箭队"
+
+"okayama-unfezant":
+  items:
+    - image_index: 0
+      name: "高傲雉 × 冈山绿雉"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "桃太郎与雉鸡伙伴"
+      kind: "地方传说 / 井盖"
+
+"hiroshima-ursaluna":
+  items:
+    - image_index: 0
+      name: "月月熊 × 广岛三箭"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "熊宝宝与圈圈熊"
+      kind: "既有联动"
+    - image_index: 2
+      name: "联名球衣"
+      kind: "俱乐部商品"
+    - image_index: 3
+      name: "亚洲黑熊（月轮熊）"
+      kind: "地方动物 / 吉祥物"
+    - image_index: 4
+      name: "三熊同堂"
+      kind: "进化家族"
+
+"fukuoka-beedrill":
+  items:
+    - image_index: 0
+      name: "大针蜂 × 福冈黄蜂"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "蜂刺与钉鞋"
+      kind: "吉祥物 / 视觉线索"
+
+"nagasaki-swampert":
+  items:
+    - image_index: 0
+      name: "巨沼怪 × 长崎成功丸"
+      kind: "宝可梦 / 俱乐部"
+    - image_index: 1
+      name: "佐世保·木守宫井盖"
+      kind: "地区 / 地标"
+    - image_index: 2
+      name: "电龙·长崎应援宝可梦"
+      kind: "地方联动"
+    - image_index: 3
+      name: "长崎体育场城市"
+      kind: "著名地点"
+    - image_index: 4
+      name: "球队新主场"
+      kind: "现实足球现场"
+
