@@ -3382,7 +3382,10 @@ body.theme-bg-black .gf-home-library__search label {
 
   /* heat rows */
   .pa .crow-heat .clab, .pa-dlg .crow-heat .clab { display: flex; align-items: center; justify-content: flex-end; gap: 0.1rem; }
-  .pa .crow-heat .clab .cname, .pa-dlg .crow-heat .clab .cname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .pa .crow-heat .clab .cname, .pa-dlg .crow-heat .clab .cname {
+    font-family: var(--pa-mono), sans-serif; font-weight: 700; font-size: 0.74rem; letter-spacing: 0.03em;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
+  }
   .pa .vmark, .pa-dlg .vmark { display: inline-flex; gap: 1px; margin-right: 0.35rem; border-radius: 2px; overflow: hidden; flex: none; }
   .pa .vmark i, .pa-dlg .vmark i { width: 6px; height: 11px; display: block; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
   .pa .cell, .pa-dlg .cell {
@@ -4110,10 +4113,12 @@ body.theme-bg-black .gf-home-library__search label {
   }
   .analytics-mobile-work-name {
     display: flex; align-items: center; gap: 6px; min-width: 0;
-    overflow: hidden; font-family: var(--pa-serif); text-overflow: ellipsis; white-space: nowrap;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
   }
   .analytics-mobile-work-name .vmark { margin-right: 0; flex-shrink: 0; }
-  .analytics-mobile-work-name .cname { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .analytics-mobile-work-name .cname { display: flex; align-items: baseline; gap: 6px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .analytics-mobile-work-name strong { font-family: var(--pa-mono); font-size: 0.82rem; font-weight: 700; color: var(--pa-ink); flex-shrink: 0; letter-spacing: 0.02em; }
+  .analytics-mobile-work-sub { font-size: 0.72rem; color: var(--pa-ink-faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .analytics-mobile-work-count { color: var(--pa-accent); font-family: var(--pa-mono); font-size: 0.78rem; }
   .analytics-mobile-work i { color: var(--pa-ink-faint); font-size: 0.65rem; }
   .analytics-results-more { padding: 12px 0 0; border-bottom: 0 !important; }
@@ -4434,45 +4439,45 @@ document.addEventListener("DOMContentLoaded", () => {
      - `s`: Concise, standardized short name fitting within the label column
      - `v`: Authentic cartridge / logo color palette for row pill badge */
   var WORK_META = {
-    "宝可梦 红·绿":                          { r: 1996, s: "红·绿", v: ["#cf2029", "#0f8a4a"] },
-    "宝可梦 蓝":                             { r: 1996, s: "蓝", v: ["#1348a8"] },
-    "宝可梦 皮卡丘版":                        { r: 1998, s: "皮卡丘版", v: ["#f2c14e"] },
-    "宝可梦 金·银":                          { r: 1999, s: "金·银", v: ["#c9a227", "#9aa3a8"] },
-    "宝可梦 水晶版":                          { r: 2000, s: "水晶版", v: ["#3fb6c4"] },
-    "宝可梦 红宝石·蓝宝石":                   { r: 2002, s: "红·蓝宝石", v: ["#a01722", "#1348a8"] },
-    "宝可梦 火红·叶绿":                       { r: 2004, s: "火红·叶绿", v: ["#e2521d", "#5da32a"] },
-    "宝可梦 绿宝石":                          { r: 2004, s: "绿宝石", v: ["#1f9d63"] },
-    "宝可梦 钻石·珍珠":                       { r: 2006, s: "钻石·珍珠", v: ["#5f9ec9", "#d4779b"] },
-    "宝可梦 白金":                            { r: 2008, s: "白金", v: ["#7d878c", "#c0392b"] },
-    "宝可梦 心金·魂银":                       { r: 2009, s: "心金·魂银", v: ["#c99a1e", "#8f9aa1"] },
-    "宝可梦 黑·白":                           { r: 2010, s: "黑·白", v: ["#25262a", "#d8d8d2"] },
-    "宝可梦 黑2·白2":                         { r: 2012, s: "黑2·白2", v: ["#3a3f45", "#e3e3dd"] },
-    "宝可梦 X·Y":                             { r: 2013, s: "X·Y", v: ["#2a5ca8", "#c0392b"] },
-    "宝可梦 欧米伽红宝石·阿尔法蓝宝石":         { r: 2014, s: "始源红·蓝", v: ["#b3123a", "#1f5fb8"] },
-    "Pokémon GO":                             { r: 2016, s: "Pokémon GO", v: ["#4a90d9", "#f2c14e"] },
-    "宝可梦 太阳·月亮":                       { r: 2016, s: "太阳·月亮", v: ["#e8a020", "#3f51b5"] },
-    "宝可梦 究极之日·究极之月":                 { r: 2017, s: "究极日·月", v: ["#d4761a", "#2f3f7a"] },
-    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": { r: 2018, s: "Let's Go 皮·伊", v: ["#f2c14e", "#b88a58"] },
-    "宝可梦 剑·盾":                           { r: 2019, s: "剑·盾", v: ["#1f7ec4", "#b3123a"] },
-    "宝可梦 晶灿钻石·明亮珍珠":                 { r: 2021, s: "晶灿钻·亮珍", v: ["#7fb4d8", "#e39ab6"] },
-    "宝可梦传说 阿尔宙斯":                     { r: 2022, s: "传说 阿尔宙斯", v: ["#8d6b3f", "#1e3799"] },
-    "宝可梦 朱·紫":                           { r: 2022, s: "朱·紫", v: ["#c0392b", "#7b3f9e"] },
-    "宝可梦传说 Z-A":                         { r: 2025, s: "传说 Z-A", v: ["#0d7c99", "#d3308a"] },
-    "宝可梦集换式卡牌游戏":                   { r: 1996, s: "集换式卡牌", v: ["#f39c12", "#2980b9"] },
-    "宝可梦竞技场":                           { r: 1998, s: "竞技场", v: ["#6c5ce7", "#2d3436"] },
-    "宝可梦随乐拍":                           { r: 1999, s: "随乐拍", v: ["#2ed573", "#ffa502"] },
-    "宝可梦不可思议迷宫":                     { r: 2005, s: "不可思议迷宫", v: ["#0984e3", "#6c5ce7"] },
-    "宝可梦☆星期天":                         { r: 2004, s: "宝可梦星期天", v: ["#ffa502", "#ff4757"] },
-    "宝可梦乱战":                             { r: 2009, s: "宝可梦乱战", v: ["#e17055", "#fdcb6e"] },
-    "超级宝可梦乱战":                         { r: 2011, s: "超级乱战", v: ["#d63031", "#fdcb6e"] },
-    "宝可梦立体图鉴BW":                       { r: 2011, s: "立体图鉴BW", v: ["#2d3436", "#00cec9"] },
-    "名侦探皮卡丘":                           { r: 2016, s: "名侦探皮卡丘", v: ["#eccc68", "#2f3542"] },
-    "Pokémon Sleep":                          { r: 2023, s: "Pokémon Sleep", v: ["#70a1ff", "#7bed9f"] },
-    "昆蒂":                                   { r: 1989, s: "昆蒂", v: ["#e84393", "#0984e3"] },
-    "风来的西林":                             { r: 1995, s: "风来的西林", v: ["#d35400", "#27ae60"] },
-    "Gear Project（齿轮企划）":               { r: 2010, s: "齿轮企划", v: ["#636e72", "#b2bec3"] },
-    "铁板阵":                                 { r: 1983, s: "铁板阵", v: ["#57606f", "#ffa502"] },
-    "勇者斗恶龙":                             { r: 1986, s: "勇者斗恶龙", v: ["#3867d6", "#fed330"] },
+    "宝可梦 红·绿":                          { r: 1996, s: "RG", v: ["#cf2029", "#0f8a4a"] },
+    "宝可梦 蓝":                             { r: 1996, s: "Blue", v: ["#1348a8"] },
+    "宝可梦 皮卡丘版":                        { r: 1998, s: "Yellow", v: ["#f2c14e"] },
+    "宝可梦 金·银":                          { r: 1999, s: "GS", v: ["#c9a227", "#9aa3a8"] },
+    "宝可梦 水晶版":                          { r: 2000, s: "Crystal", v: ["#3fb6c4"] },
+    "宝可梦 红宝石·蓝宝石":                   { r: 2002, s: "RS", v: ["#a01722", "#1348a8"] },
+    "宝可梦 火红·叶绿":                       { r: 2004, s: "FRLG", v: ["#e2521d", "#5da32a"] },
+    "宝可梦 绿宝石":                          { r: 2004, s: "Emerald", v: ["#1f9d63"] },
+    "宝可梦 钻石·珍珠":                       { r: 2006, s: "DP", v: ["#5f9ec9", "#d4779b"] },
+    "宝可梦 白金":                            { r: 2008, s: "Pt", v: ["#7d878c", "#c0392b"] },
+    "宝可梦 心金·魂银":                       { r: 2009, s: "HGSS", v: ["#c99a1e", "#8f9aa1"] },
+    "宝可梦 黑·白":                           { r: 2010, s: "BW", v: ["#25262a", "#d8d8d2"] },
+    "宝可梦 黑2·白2":                         { r: 2012, s: "B2W2", v: ["#3a3f45", "#e3e3dd"] },
+    "宝可梦 X·Y":                             { r: 2013, s: "XY", v: ["#2a5ca8", "#c0392b"] },
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石":         { r: 2014, s: "ORAS", v: ["#b3123a", "#1f5fb8"] },
+    "Pokémon GO":                             { r: 2016, s: "GO", v: ["#4a90d9", "#f2c14e"] },
+    "宝可梦 太阳·月亮":                       { r: 2016, s: "SM", v: ["#e8a020", "#3f51b5"] },
+    "宝可梦 究极之日·究极之月":                 { r: 2017, s: "USUM", v: ["#d4761a", "#2f3f7a"] },
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": { r: 2018, s: "LGPE", v: ["#f2c14e", "#b88a58"] },
+    "宝可梦 剑·盾":                           { r: 2019, s: "SwSh", v: ["#1f7ec4", "#b3123a"] },
+    "宝可梦 晶灿钻石·明亮珍珠":                 { r: 2021, s: "BDSP", v: ["#7fb4d8", "#e39ab6"] },
+    "宝可梦传说 阿尔宙斯":                     { r: 2022, s: "LA", v: ["#8d6b3f", "#1e3799"] },
+    "宝可梦 朱·紫":                           { r: 2022, s: "SV", v: ["#c0392b", "#7b3f9e"] },
+    "宝可梦传说 Z-A":                         { r: 2025, s: "PLZA", v: ["#0d7c99", "#d3308a"] },
+    "宝可梦集换式卡牌游戏":                   { r: 1996, s: "PTCG", v: ["#f39c12", "#2980b9"] },
+    "宝可梦竞技场":                           { r: 1998, s: "Stadium", v: ["#6c5ce7", "#2d3436"] },
+    "宝可梦随乐拍":                           { r: 1999, s: "Snap", v: ["#2ed573", "#ffa502"] },
+    "宝可梦不可思议迷宫":                     { r: 2005, s: "PMD", v: ["#0984e3", "#6c5ce7"] },
+    "宝可梦☆星期天":                         { r: 2004, s: "PokéSun", v: ["#ffa502", "#ff4757"] },
+    "宝可梦乱战":                             { r: 2009, s: "Rumble", v: ["#e17055", "#fdcb6e"] },
+    "超级宝可梦乱战":                         { r: 2011, s: "Super Rumble", v: ["#d63031", "#fdcb6e"] },
+    "宝可梦立体图鉴BW":                       { r: 2011, s: "Pokédex 3D", v: ["#2d3436", "#00cec9"] },
+    "名侦探皮卡丘":                           { r: 2016, s: "Det. Pikachu", v: ["#eccc68", "#2f3542"] },
+    "Pokémon Sleep":                          { r: 2023, s: "Sleep", v: ["#70a1ff", "#7bed9f"] },
+    "昆蒂":                                   { r: 1989, s: "Quinty", v: ["#e84393", "#0984e3"] },
+    "风来的西林":                             { r: 1995, s: "Shiren", v: ["#d35400", "#27ae60"] },
+    "Gear Project（齿轮企划）":               { r: 2010, s: "Gear Project", v: ["#636e72", "#b2bec3"] },
+    "铁板阵":                                 { r: 1983, s: "Xevious", v: ["#57606f", "#ffa502"] },
+    "勇者斗恶龙":                             { r: 1986, s: "DQ", v: ["#3867d6", "#fed330"] },
     "TEMBO THE BADASS ELEPHANT":              { r: 2015, s: "TEMBO", v: ["#eb3b5a", "#4b6584"] }
   };
 
@@ -4752,9 +4757,10 @@ document.addEventListener("DOMContentLoaded", () => {
       var mark = w.v && w.v.length ? '<span class="vmark">' + w.v.map(function (c) {
         return '<i style="background:' + c + '"></i>';
       }).join("") + '</span>' : '';
+      var sub = canonWork(w.name).replace(/^宝可梦\s*/, "");
       return '<button class="analytics-mobile-work" data-work-filter="' + esc(w.name) + '" aria-pressed="' + (state.work === w.name) +
         '" style="--work-pct:' + (w.n / workPeak * 100) + '%">' +
-        '<span class="analytics-mobile-work-name">' + mark + '<span class="cname">' + esc(w.short) + '</span></span>' +
+        '<span class="analytics-mobile-work-name">' + mark + '<span class="cname"><strong>' + esc(w.short) + '</strong><small class="analytics-mobile-work-sub">' + esc(sub) + '</small></span></span>' +
         '<span class="analytics-mobile-work-count">' + formatNumber(w.n) + '</span>' +
         '<i class="fas fa-chevron-right" aria-hidden="true"></i></button>';
     }).join("");
@@ -5071,8 +5077,10 @@ document.addEventListener("DOMContentLoaded", () => {
         var mark = colors && colors.length ? '<span class="vmark">' + colors.map(function (c) {
           return '<i style="background:' + c + '"></i>';
         }).join("") + '</span>' : '';
-        return '<button class="analytics-index-item" data-work-filter="' + esc(w) + '" data-index-text="' + esc((w + " " + shortWork(w)).toLowerCase()) + '">' +
-          '<span class="analytics-index-item-copy"><span style="display:flex;align-items:center;gap:6px;">' + mark + esc(shortWork(w)) + '</span><small>作品 · ' + formatNumber(counts[w]) +
+        var sub = canonWork(w).replace(/^宝可梦\s*/, "");
+        var short = shortWork(w);
+        return '<button class="analytics-index-item" data-work-filter="' + esc(w) + '" data-index-text="' + esc((w + " " + short).toLowerCase()) + '">' +
+          '<span class="analytics-index-item-copy"><span style="display:flex;align-items:baseline;gap:6px;">' + mark + '<strong style="font-family:var(--pa-mono);font-size:0.85rem;letter-spacing:0.02em;">' + esc(short) + '</strong><span style="font-size:0.75rem;color:var(--pa-ink-faint);">' + esc(sub) + '</span></span><small>作品 · ' + formatNumber(counts[w]) +
           ' 条相关资料</small></span><b>' + formatNumber(counts[w]) + '</b></button>';
       }).join("") + '</div></section></div>' : '<p class="empty">当前筛选没有关联作品。</p>';
     open("相关作品", "点击一部作品，把整个分析页面切换到它的资料。", body);
