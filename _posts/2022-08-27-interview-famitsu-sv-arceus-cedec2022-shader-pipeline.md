@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙斯》双线并行的开放世界技术秘辛
 original_title: 『ポケモン スカーレット・バイオレット』のピカチュウはシリーズ史上最高のふさふさ感を実現。『ポケモンレジェンズ アルセウス』との同時制作における制作環境を解説【CEDEC2022】
 date: 2022-08-27 12:00:00 +0900
@@ -169,4 +169,5 @@ entities:
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
+source_kind: technical_report
 ---

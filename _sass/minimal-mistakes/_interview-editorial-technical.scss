@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Technical feature body
+   _includes/interview-body-technical.html, inside interview-editorial
+
+   A conference report reads like a GDC or Ars Technica write-up: an
+   executive summary first, a list of what the piece covers, numbered
+   sections, and figures that pace the reading - slides, diagrams, screens -
+   set at the full measure with a numbered caption. The presenter's own
+   paragraphs are set apart under their name; the reporter's prose is the
+   article and carries no label.
+
+   Inherits the cover, tools and archive from the base skin and the era's
+   typography from its skin; only the body vocabulary is defined here.
+   ========================================================================== */
+
+$tf-ink: #14171c;
+$tf-ink-soft: #4b535e;
+$tf-ink-faint: #8b929c;
+$tf-rule: #e2e5ea;
+$tf-band: #f5f7fa;
+$tf-accent: #0f766e;        /* a technical teal, neither Sun nor Moon */
+$tf-display: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$tf-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
+
+.layout--interview-editorial .ed--technical {
+
+  /* the measure widens: figures and diagrams need the room */
+  .ed-cover, .ed-body { max-width: 760px; }
+
+  /* ---- summary: the executive summary in a band ------------------------ */
+  .tf-summary {
+    margin: 0 0 28px;
+    padding: 20px 24px;
+    border-left: 3px solid $tf-accent;
+    background: $tf-band;
+    font-size: 16px;
+    line-height: 1.75;
+    color: $tf-ink;
+  }
+
+  .tf-summary p { margin: 0; }
+
+  .tf-summary__label,
+  .tf-contents__label {
+    margin: 0 0 8px;
+    font-family: $tf-display;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $tf-accent;
+  }
+
+  /* ---- contents: what the piece covers, as numbered anchors ------------ */
+  .tf-contents {
+    margin: 0 0 44px;
+    padding: 18px 24px 18px;
+    border-top: 1px solid $tf-rule;
+    border-bottom: 1px solid $tf-rule;
+  }
+
+  .tf-contents ol {
+    margin: 0;
+    padding: 0 0 0 1.6em;
+    columns: 2;
+    column-gap: 32px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .tf-contents li { margin: 0 0 6px; break-inside: avoid; }
+  .tf-contents li::marker { font-family: $tf-mono; font-size: 12px; color: $tf-accent; }
+  .tf-contents a { color: $tf-ink; text-decoration: none; }
+  .tf-contents a:hover { color: $tf-accent; text-decoration: underline; }
+
+  /* ---- sections --------------------------------------------------------- */
+  .tf-section { margin-top: 56px; }
+
+  .tf-section__head {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 16px;
+    align-items: baseline;
+    margin: 0 0 20px;
+    padding-top: 22px;
+    border-top: 2px solid $tf-ink;
+  }
+
+  .tf-section__num {
+    font-family: $tf-mono;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $tf-accent;
+  }
+
+  .tf-section__title {
+    margin: 0;
+    font-family: $tf-display;
+    font-size: clamp(20px, 2.4vw, 26px);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+    color: $tf-ink;
+  }
+
+  /* ---- prose ------------------------------------------------------------ */
+  .tf-para { position: relative; margin: 0 0 20px; border: 0; padding: 0; background: none; box-shadow: none; }
+  .tf-para p { margin: 0 0 1em; }
+  .tf-para p:last-child { margin-bottom: 0; }
+
+  /* the presenter, in their own words: a name and a rule, not a pill */
+  .tf-para--statement {
+    margin: 26px 0;
+    padding-left: 18px;
+    border-left: 2px solid $tf-accent;
+  }
+
+  .tf-para__who {
+    margin: 0 0 6px;
+    font-family: $tf-display;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    color: $tf-accent;
+  }
+
+  .tf-para--statement .ed-trans { color: $tf-ink; }
+
+  /* ---- figures: full measure, numbered, captioned ------------------------ */
+  .tf-figure {
+    display: block;
+    margin: 32px 0;
+    padding: 0;
+  }
+
+  .tf-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid $tf-rule;
+    border-radius: 3px;
+    background: $tf-band;
+  }
+
+  .tf-figure figcaption {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: $tf-ink-soft;
+  }
+
+  .tf-figure__num {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: $tf-mono;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $tf-accent;
+  }
+
+  /* the original toggle sits in the margin as in the interview body */
+  .tf-para .ed-orig-toggle { left: -46px; }
+  .tf-para--statement .ed-orig-toggle { left: -66px; }
+
+  @media (max-width: 720px) {
+    .tf-contents ol { columns: 1; }
+    .tf-para .ed-orig-toggle, .tf-para--statement .ed-orig-toggle { position: static; margin-bottom: 6px; }
+    .tf-summary, .tf-contents { margin-left: -16px; margin-right: -16px; border-radius: 0; }
+  }
+}
+
+/* dark theme, the base's ground */
+.layout--interview-editorial .ed--technical[data-reading-theme="dark"] {
+  .tf-summary, .tf-figure img { background: #15181d; }
+  .tf-summary, .tf-para--statement .ed-trans, .tf-section__title, .tf-contents a { color: #e6e8ec; }
+  .tf-section__head { border-top-color: #e6e8ec; }
+  .tf-contents, .tf-figure img { border-color: #2a2f37; }
+  .tf-figure figcaption { color: #aeb5bf; }
+}

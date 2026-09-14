@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线'
 original_title: ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート
 date: '2023-08-25'
@@ -44,10 +44,6 @@ entities:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾
 parallel_items:
-- type: heading
-  level: 2
-  original: 'How Game Freak Rendered the Open World of Paldea: Shaders, SSS, Maya Lattice & Houdini Pipeline'
-  translation: 描摹广袤帕底亚：Game Freak 详解《宝可梦 朱·紫》全开放世界视觉渲染与着色器架构
 - speaker: 4Gamer
   original: 2023年8月23日，在游戏开发者大会‘CEDEC 2023’上，Game Freak 的 CG 技术总监前泽圭一进行了题为《【宝可梦 朱·紫】帕底亚地区全景渲染——画面机制彻底解密！》的主题演讲。全系列一贯秉承‘仅看画面就能认出是哪部作品’的前提进行研发。本讲座以《宝可梦 朱·紫》为例，从着色器渲染到资产构建，全面解析宝可梦、主角与开放世界大地的视觉技术体系。
   translation: 2023年8月23日，在游戏开发者大会“CEDEC 2023”上，Game Freak的CG技术总监前泽圭一发表了题为《【宝可梦 朱·紫】帕底亚地区全景渲染——画面机制彻底解密！》的主题演讲。该系列一贯秉承“仅凭画面即可辨识作品”的理念进行开发。本次讲座以《宝可梦 朱·紫》为例，从着色器渲染到资产构建，全面剖析了宝可梦、主角以及开放世界大地的视觉技术体系。
@@ -109,4 +105,5 @@ parallel_items:
   translation: 以上便是本次演讲的精髓。通过写实材质、程序化地形、次表面散射与多层晶格着色等一系列先进图形管线的配合，Game Freak成功描绘出了兼具宝可梦梦幻魅力与广袤自然尺度的全新帕底亚大世界。
   note: ''
 original_lang: zh
+display_title: 描摹广袤帕底亚：Game Freak 详解《宝可梦 朱·紫》全开放世界视觉渲染与着色器架构
 ---

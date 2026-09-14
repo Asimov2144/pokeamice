@@ -60,6 +60,14 @@ kept on the turns even though the presentation around them is new.
 {% assign reading_minutes = reading_chars | divided_by: 400 %}
 {% if reading_minutes < 1 %}{% assign reading_minutes = 1 %}{% endif %}
 {% assign source_url = page.original_link | default: page.source_url | default: page.source.url | default: "" %}
+{%- comment -%}
+  Which body this page gets. A conference report is not an interview: nobody
+  is asked anything, the reporter narrates and the presenter is quoted. The
+  cover, the tools and the archive are the same for both; the body is not.
+  Routed on source_kind so the post does not have to change layout.
+{%- endcomment -%}
+{% assign is_technical = false %}
+{% if page.source_kind == "technical_report" or page.article_kind == "technical_feature" %}{% assign is_technical = true %}{% endif %}
 {% include era-skin.html %}
 
 {%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
@@ -79,7 +87,7 @@ kept on the turns even though the presentation around them is new.
   whole [data-view] rule family - it did, and set this page's answers to
   0.92rem and hid every original toggle before this was removed.
 {%- endcomment -%}
-<main class="ed" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
+<main class="ed{% if is_technical %} ed--technical{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
 
   {%- comment -%}
     One small control, not a bar. The current view reads as a word; everything
@@ -134,8 +142,15 @@ kept on the turns even though the presentation around them is new.
       {%- endcomment -%}
       {%- comment -%} the inner span lets an era paint a highlight band behind each line {%- endcomment -%}
       <h1 class="ed-title" itemprop="headline"><span class="ed-title__text">{{ page.display_title | default: page.title }}</span></h1>
+      {%- comment -%}
+        Who the piece is about. An interview names the people who answer; a
+        technical feature has no answers, so it names the presenters the post
+        declares.
+      {%- endcomment -%}
       {% if answerers.size > 0 %}
         <p class="ed-people">{{ answerers | join: " × " }}</p>
+      {% elsif is_technical and page.interviewee %}
+        <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% endif %}
       {% if page.dek %}
         <p class="ed-dek">{{ page.dek }}</p>
@@ -157,6 +172,9 @@ kept on the turns even though the presentation around them is new.
       </figure>
     {% endif %}
 
+    {% if is_technical %}
+      {% include interview-body-technical.html %}
+    {% else %}
     <div class="ed-body parallel-text parallel-text--web-article" id="parallel-reading">
       {% assign chapter = 0 %}
       {% assign lead_done = false %}
@@ -262,9 +280,10 @@ kept on the turns even though the presentation around them is new.
       {% endfor %}
       {% if chapter > 0 %}</section>{% endif %}
     </div>
+    {% endif %}
 
-    {%- comment -%} Epilogue: the editor's framing, after the interview rather than in front of it. {%- endcomment -%}
-    {% if page.intro %}
+    {%- comment -%} Epilogue: the editor's framing, after the interview rather than in front of it. A technical feature already led with its summary. {%- endcomment -%}
+    {% if page.intro and is_technical == false %}
       <aside class="ed-epilogue">
         <h2>编者按</h2>
         {{ page.intro | markdownify }}

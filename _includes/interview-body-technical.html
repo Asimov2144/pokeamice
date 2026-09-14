@@ -1,0 +1,127 @@
+{%- comment -%}
+The body of a technical feature - a conference report, a pipeline
+walkthrough - as an Ars Technica or GDC write-up rather than an interview.
+
+  summary        the executive summary, from the post's summary field
+  本文你会看到    the section titles as a list, each linking to its section
+  sections       numbered, each a heading item and what follows it
+  figures        every image, numbered, full measure, caption beneath
+  statements     a paragraph the presenter said, rather than the reporter
+                 wrote, set apart with the presenter's name
+
+The reporter narrates; there are no questions, no answers, no speaker pills.
+A paragraph carries a speaker only when it is the presenter's own words -
+the reporter's outlet (4Gamer, 解说, the declared author) is the narrator and
+is not named on every paragraph.
+
+Same items as the interview body. Keeps the .parallel-text__* hooks so the
+shared script's view switching and note popovers work here too.
+{%- endcomment -%}
+{% assign narrator = page.author | default: page.publication | default: page.source_name | default: "" | split: "/" | first | split: "(" | first | strip %}
+{% assign narrators = "解说,专栏解说,4Gamer,4gamer,记者,编辑部,Reporter" | split: "," %}
+{% if narrator != "" %}{% assign narrators = narrators | push: narrator %}{% endif %}
+
+{% assign sections = "" | split: "" %}
+{% for item in items %}
+  {% if item.type == "heading" or item.type == "header" %}
+    {% assign h = item.translation | default: item.title | default: item.original %}
+    {% assign sections = sections | push: h %}
+  {% endif %}
+{% endfor %}
+
+<div class="ed-body tf parallel-text parallel-text--web-article" id="parallel-reading">
+
+  {% if page.summary %}
+    <section class="tf-summary" aria-label="摘要">
+      <p class="tf-summary__label">摘要</p>
+      <p>{{ page.summary }}</p>
+    </section>
+  {% endif %}
+
+  {%- comment -%}
+    What the piece covers, before it starts. The first heading is usually the
+    report's own title restated and is skipped when it matches; the rest are
+    the sections, in order, as anchors.
+  {%- endcomment -%}
+  {% if sections.size > 1 %}
+    <nav class="tf-contents" aria-label="本文你会看到">
+      <p class="tf-contents__label">本文你会看到</p>
+      <ol>
+        {% assign sec_n = 0 %}
+        {% for h in sections %}
+          {% if forloop.first and h == page.display_title %}{% continue %}{% endif %}
+          {% if forloop.first and h == page.title %}{% continue %}{% endif %}
+          {% assign sec_n = sec_n | plus: 1 %}
+          <li><a href="#section-{{ sec_n }}">{{ h }}</a></li>
+        {% endfor %}
+      </ol>
+    </nav>
+  {% endif %}
+
+  {% assign sec = 0 %}
+  {% assign fig = 0 %}
+  {% assign first_heading_seen = false %}
+  {% for item in items %}
+    {% assign item_type = item.type | default: "paragraph" %}
+
+    {% if item_type == "heading" or item_type == "header" %}
+      {% assign h = item.translation | default: item.title | default: item.original %}
+      {%- comment -%} the report's own title, repeated as the first heading, is the cover's job {%- endcomment -%}
+      {% if first_heading_seen == false %}
+        {% assign first_heading_seen = true %}
+        {% if h == page.display_title or h == page.title %}{% continue %}{% endif %}
+      {% endif %}
+      {% if sec > 0 %}</section>{% endif %}
+      {% assign sec = sec | plus: 1 %}
+      <section class="tf-section" id="section-{{ sec }}">
+        <header class="tf-section__head">
+          <span class="tf-section__num">{% if sec < 10 %}0{% endif %}{{ sec }}</span>
+          <h2 class="tf-section__title">{{ h }}</h2>
+        </header>
+
+    {% elsif item_type == "image" %}
+      {% assign src = item.image | default: item.src %}
+      {% if src and item != hero %}
+        {% assign fig = fig | plus: 1 %}
+        <figure class="tf-figure" id="figure-{{ fig }}">
+          <img src="{{ src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}" loading="lazy" decoding="async">
+          {% if item.caption %}<figcaption><span class="tf-figure__num">图 {{ fig }}</span>{{ item.caption }}</figcaption>{% endif %}
+        </figure>
+      {% endif %}
+
+    {% else %}
+      {%- comment -%}
+        Prose. The presenter's own paragraphs are set apart under their name;
+        the reporter's are the article and carry no label.
+      {%- endcomment -%}
+      {% assign speaker = item.speaker | default: "" %}
+      {% assign is_statement = false %}
+      {% if speaker != "" %}
+        {% assign is_statement = true %}
+        {% for n in narrators %}{% if n != "" and speaker contains n %}{% assign is_statement = false %}{% endif %}{% endfor %}
+      {% endif %}
+      {% assign seg_lang = item.original_lang | default: original_lang %}
+      <div class="tf-para parallel-text__block{% if is_statement %} tf-para--statement{% endif %}" id="segment-{{ forloop.index }}"{% if is_statement %} data-speaker="{{ speaker | escape }}"{% endif %}>
+        {% if is_statement %}<p class="tf-para__who">{{ speaker }}</p>{% endif %}
+        <div class="ed-turn__text parallel-text__pair">
+          <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+            <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+            <div class="ed-orig">{{ item.original | markdownify }}</div>
+          </details>
+          <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ item.translation | markdownify }}</div>
+        </div>
+        {% if item.note or item.comment %}
+          <button class="parallel-text__note-toggle ed-note" type="button" data-note-toggle aria-expanded="false" aria-label="查看译注"><span aria-hidden="true">※</span></button>
+          <div class="parallel-text__note-popover">
+            {% if item.note %}<aside class="parallel-text__note" aria-label="译注">{{ item.note | markdownify }}</aside>{% endif %}
+            {% if item.comment %}<aside class="parallel-text__comments" aria-label="段落评论">{{ item.comment | markdownify }}</aside>{% endif %}
+          </div>
+        {% endif %}
+      </div>
+      {% if item.pull %}
+        <blockquote class="ed-pull"><p>{{ item.pull }}</p>{% if speaker != "" %}<footer>— {{ speaker }}</footer>{% endif %}</blockquote>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if sec > 0 %}</section>{% endif %}
+</div>
