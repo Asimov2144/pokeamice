@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>91 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>99 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -229,9 +229,57 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第173回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch173/">[访谈翻译] 首藤刚志动画创作手记 第173回：请不要直白喊出《宝可梦》的主题（地狱启示录作派、合家欢的成人隐线与绝不能挑明的“歧视”母题）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 173: Please Do Not State the Theme of Pokemon Outright</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第172回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：克隆体与本体的“自己究竟为何物？”（梦幻Bug都市传说、多莉羊与科学怪人的悲剧宿命）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 172: What am I? Clone and Original</span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 究極のコレクション</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-108/">【工作日志】2009年任天堂收藏日常</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！&lt;br 我是那个想知道究竟是谁不知不觉把酱油渍弄到任天堂说明书上的おにいさん（哥哥）哥。&lt;br 算起来，我们已经时隔约一年没见了吧？&lt;br 大家过得还好吗？ 我还是一如既往地继续收藏任天堂， &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/asse</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第171回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch171/">[访谈翻译] 首藤刚志动画创作手记 第171回：《宝可梦》超梦能否通行于全世界？（存在主义叩问、替身战胜本体与哥斯拉的跨国隐喻）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 171: Can Mewtwo Travel Across the World?</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第170回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch170/">[访谈翻译] 首藤刚志动画创作手记 第170回：新年寄语与心境（英国国教会认证、海外版税长流与无印时代的距离感）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 170: New Year Greetings and Memoir Reflection</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第169回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch169/">[访谈翻译] 首藤刚志动画创作手记 第169回：《宝可梦》这里是哪里？我是谁？（独白破壁、自我意识觉醒与商业动画的极限突破）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 169: Pokemon - Where is this place? Who am I?</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第168回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch168/">[访谈翻译] 首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生（歌剧魅影的宿命投影、现代声优危机与悲剧巨匠降临）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 168: Mewtwo Strikes Back and Masachika Ichimura</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第167回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch167/">[访谈翻译] 首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 167: Mewtwo Strikes Back before the Pokemon Incident</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第166回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch166/">[访谈翻译] 首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 166: The Theme of Mewtwo Strikes Back</span>
 </article>
 
 <article class="resource-network-card">
@@ -421,15 +469,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第126回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-126/">[GameFreak部长专栏] 第126回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
 </article>
 
 <article class="resource-network-card">

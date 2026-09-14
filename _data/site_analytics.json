@@ -1,16 +1,16 @@
 {
   "overview": {
-    "total_posts": 971,
-    "total_interviews_imported": 474,
+    "total_posts": 979,
+    "total_interviews_imported": 482,
     "total_interviews_planned": 1063,
     "target_milestone": 1000,
-    "interview_progress_pct": 47.4,
+    "interview_progress_pct": 48.2,
     "earliest_year": 1990,
     "latest_year": 2026,
     "years_span": 37,
-    "total_people": 275,
-    "total_works": 190,
-    "total_organizations": 106,
+    "total_people": 286,
+    "total_works": 205,
+    "total_organizations": 111,
     "total_events": 104
   },
   "hall_of_fame": [
@@ -42,6 +42,15 @@
       "url": "/entities/people/e69d89e6a3aee5bbba/"
     },
     {
+      "name": "首藤刚志",
+      "name_en": "Takeshi Shudo",
+      "name_ja": "首藤剛志",
+      "role": "动画初代总编剧 · 剧场版创世者",
+      "posts_count": 34,
+      "years_active": "2008–2009",
+      "url": "/entities/people/e9a696e897a4e5889ae5bf97/"
+    },
+    {
       "name": "岩田聪",
       "name_en": "Satoru Iwata",
       "name_ja": "岩田聡",
@@ -51,20 +60,11 @@
       "url": "/entities/people/e5b2a9e794b0e881aa/"
     },
     {
-      "name": "首藤刚志",
-      "name_en": "Takeshi Shudo",
-      "name_ja": "首藤剛志",
-      "role": "动画初代总编剧 · 剧场版创世者",
-      "posts_count": 26,
-      "years_active": "2008–2008",
-      "url": "/entities/people/e9a696e897a4e5889ae5bf97/"
-    },
-    {
       "name": "汤山邦彦",
       "name_en": "Kunihiko Yuyama",
       "name_ja": "湯山邦彦",
       "role": "动画全系列总监督 · 剧场版监督",
-      "posts_count": 26,
+      "posts_count": 31,
       "years_active": "2008–2018",
       "url": "/entities/people/e6b1a4e5b1b1e982a6e5bda6/"
     },
@@ -109,7 +109,7 @@
       "name_en": "Masakazu Kubo",
       "name_ja": "久保雅一",
       "role": "小学馆制片人 · 动画操盘手“御前样”",
-      "posts_count": 7,
+      "posts_count": 9,
       "years_active": "2008–2008",
       "url": "/entities/people/e4b985e4bf9de99b85e4b880/"
     },
@@ -249,14 +249,14 @@
       "gen": "Gen 1",
       "era_cn": "初代红绿蓝黄 · GB/SGB 时代 (1996–1999)",
       "era_en": "Generation I · Red/Green/Blue/Yellow",
-      "total_posts": 101,
+      "total_posts": 105,
       "works": [
         {
           "cn": "宝可梦 红·绿",
           "abbr": "RG",
           "en": "Pokémon Red & Green",
           "year": 1996,
-          "posts_count": 98,
+          "posts_count": 102,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"
         },
         {
@@ -505,7 +505,7 @@
       "gen": "Media & Spin-offs",
       "era_cn": "全媒体生态 · 卡牌/动画/衍生巨作",
       "era_en": "Transmedia Ecosystem · TCG / Anime / Mobile",
-      "total_posts": 64,
+      "total_posts": 79,
       "works": [
         {
           "cn": "宝可梦集换式卡牌游戏",
@@ -520,7 +520,7 @@
           "abbr": "Anime",
           "en": "Pokémon Animated Series",
           "year": 1997,
-          "posts_count": 26,
+          "posts_count": 33,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
         },
         {
@@ -536,7 +536,7 @@
           "abbr": "Movie 01",
           "en": "Mewtwo Strikes Back",
           "year": 1998,
-          "posts_count": 2,
+          "posts_count": 10,
           "url": "/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"
         },
         {
@@ -553,7 +553,7 @@
   "top_works": [
     {
       "name": "宝可梦 红·绿",
-      "posts_count": 98,
+      "posts_count": 102,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"
     },
     {
@@ -592,14 +592,14 @@
       "url": "/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"
     },
     {
+      "name": "宝可梦 动画系列",
+      "posts_count": 33,
+      "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
+    },
+    {
       "name": "宝可梦 红宝石·蓝宝石",
       "posts_count": 30,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"
-    },
-    {
-      "name": "宝可梦 动画系列",
-      "posts_count": 26,
-      "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
     },
     {
       "name": "Pokémon GO",
@@ -677,15 +677,15 @@
     },
     {
       "year": 2007,
-      "posts": 80
+      "posts": 81
     },
     {
       "year": 2008,
-      "posts": 96
+      "posts": 100
     },
     {
       "year": 2009,
-      "posts": 85
+      "posts": 89
     },
     {
       "year": 2010,
@@ -753,13 +753,13 @@
     },
     {
       "year": 2026,
-      "posts": 5
+      "posts": 4
     }
   ],
   "top_orgs": [
     {
       "name": "Game Freak",
-      "posts_count": 795,
+      "posts_count": 802,
       "url": "/entities/organizations/game-freak/"
     },
     {
@@ -769,28 +769,28 @@
     },
     {
       "name": "任天堂",
-      "posts_count": 91,
+      "posts_count": 99,
       "url": "/entities/organizations/e4bbbbe5a4a9e5a082/"
+    },
+    {
+      "name": "东京电视台",
+      "posts_count": 37,
+      "url": "/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"
+    },
+    {
+      "name": "小学馆",
+      "posts_count": 35,
+      "url": "/entities/organizations/e5b08fe5ada6e9a686/"
+    },
+    {
+      "name": "OLM",
+      "posts_count": 33,
+      "url": "/entities/organizations/olm/"
     },
     {
       "name": "Nintendo",
       "posts_count": 30,
       "url": "/entities/organizations/nintendo/"
-    },
-    {
-      "name": "东京电视台",
-      "posts_count": 29,
-      "url": "/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"
-    },
-    {
-      "name": "小学馆",
-      "posts_count": 27,
-      "url": "/entities/organizations/e5b08fe5ada6e9a686/"
-    },
-    {
-      "name": "OLM",
-      "posts_count": 25,
-      "url": "/entities/organizations/olm/"
     },
     {
       "name": "Creatures",

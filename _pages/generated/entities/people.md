@@ -101,7 +101,7 @@ search: false
 <a href="/entities/people/e4b8ade5b9bfe581a5e590be/"><strong>中广健吾</strong><span>1 条资料</span></a>
 <a href="/entities/people/e4b8ade69d91e88081e5b888/"><strong>中村老师</strong><span>1 条资料</span></a>
 <a href="/entities/people/e4b8ade6b4a5e4ba95/"><strong>中津井</strong><span>1 条资料</span></a>
-<a href="/entities/people/e4b985e4bf9de99b85e4b880/"><strong>久保雅一</strong><span>7 条资料</span></a>
+<a href="/entities/people/e4b985e4bf9de99b85e4b880/"><strong>久保雅一</strong><span>9 条资料</span></a>
 <a href="/entities/people/e4b98ce9be9fe69dbee69cac/"><strong>乌龟松本</strong><span>1 条资料</span></a>
 <a href="/entities/people/e4b994e5b0bc/"><strong>乔尼</strong><span>3 条资料</span></a>
 <a href="/entities/people/e4b994e5b883e696af/"><strong>乔布斯</strong><span>1 条资料</span></a>
@@ -120,6 +120,7 @@ search: false
 <a href="/entities/people/e58da1e6af94/"><strong>卡比</strong><span>3 条资料</span></a>
 <a href="/entities/people/e58f8be5bda6/"><strong>友彦</strong><span>1 条资料</span></a>
 <a href="/entities/people/e58fa4e585b9e9a9ac/"><strong>古兹马</strong><span>1 条资料</span></a>
+<a href="/entities/people/e58fb8e9a9ace8bebde5a4aae9838e/"><strong>司马辽太郎</strong><span>1 条资料</span></a>
 <a href="/entities/people/e59089e58688e59ca3e683a0/"><strong>吉冈圣惠</strong><span>1 条资料</span></a>
 <a href="/entities/people/e59089e794b0/"><strong>吉田</strong><span>3 条资料</span></a>
 <a href="/entities/people/e59089e794b0e5ae8fe4bfa1/"><strong>吉田宏信</strong><span>2 条资料</span></a>
@@ -145,6 +146,7 @@ search: false
 <a href="/entities/people/e5a6aee6b49be88e89e58da1/"><strong>妮洛莉卡</strong><span>2 条资料</span></a>
 <a href="/entities/people/e5a881e5bb89c2b7e5a48fe789b9e7bab3/"><strong>威廉·夏特纳</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5ae87e983bde5aeabe5b487e4baba/"><strong>宇都宫崇人</strong><span>1 条资料</span></a>
+<a href="/entities/people/e5ae87e9878ee9878de59089/"><strong>宇野重吉</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5aeabe5b48e/"><strong>宫崎</strong><span>2 条资料</span></a>
 <a href="/entities/people/e5aeabe5b48ee6858ee4ba8c/"><strong>宫崎慎二</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5aeabe69cace88c82/"><strong>宫本茂</strong><span>4 条资料</span></a>
@@ -170,11 +172,13 @@ search: false
 <a href="/entities/people/e5b79de5b3b6/"><strong>川島</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5b79de69d91e58583e6b097/"><strong>川村元気</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5b7b4e6af94e880b6e9878c/"><strong>巴比耶里</strong><span>1 条资料</span></a>
+<a href="/entities/people/e5b882e69d91e6ada3e4bab2/"><strong>市村正亲</strong><span>3 条资料</span></a>
 <a href="/entities/people/e5b883e68b89e5a194e8afbae58d9ae5a3ab/"><strong>布拉塔诺博士</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5b88ce789b9/"><strong>希特</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5b9b3e4bfa1e4b880/"><strong>平信一</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5bba3e983a8e59cade5a4aa/"><strong>廣部圭太</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5bc97e68b89e8bebee588a9/"><strong>弗拉达利</strong><span>1 条资料</span></a>
+<a href="/entities/people/e5bc97e69c97e8a5bfe696afc2b7e7a68fe789b9c2b7e7a7/"><strong>弗朗西斯·福特·科波拉</strong><span>1 条资料</span></a>
 <a href="/entities/people/e5beb7e7a791/"><strong>德科</strong><span>1 条资料</span></a>
 <a href="/entities/people/e688b8e794b0e698ade590be/"><strong>戸田昭吾</strong><span>1 条资料</span></a>
 <a href="/entities/people/e6898be586a2e58d93e5bf97/"><strong>手冢卓志</strong><span>1 条资料</span></a>
@@ -182,6 +186,7 @@ search: false
 <a href="/entities/people/e68a98e69cace593b2e4b99f/"><strong>折本哲也</strong><span>4 条资料</span></a>
 <a href="/entities/people/e68b89e5bdad/"><strong>拉彭</strong><span>3 条资料</span></a>
 <a href="/entities/people/e68c87e58e9fe88e89e4b983/"><strong>指原莉乃</strong><span>2 条资料</span></a>
+<a href="/entities/people/e6968be897a4e6ada6e5b882/"><strong>斋藤武市</strong><span>1 条资料</span></a>
 <a href="/entities/people/e696afe789b9e68b89e69687e696afe59fba/"><strong>斯特拉文斯基</strong><span>1 条资料</span></a>
 <a href="/entities/people/e696afe89282e5858b/"><strong>斯蒂克</strong><span>5 条资料</span></a>
 <a href="/entities/people/e699afe5b1b1e5b086e5a4aa/"><strong>景山将太</strong><span>3 条资料</span></a>
@@ -227,7 +232,7 @@ search: false
 <a href="/entities/people/e6b0b4e9878ee889afe6a091/"><strong>水野良树</strong><span>2 条资料</span></a>
 <a href="/entities/people/e6b0b8e5b1b1/"><strong>永山</strong><span>1 条资料</span></a>
 <a href="/entities/people/e6b19fe4b88ae591a8e4bd9c/"><strong>江上周作</strong><span>1 条资料</span></a>
-<a href="/entities/people/e6b1a4e5b1b1e982a6e5bda6/"><strong>汤山邦彦</strong><span>26 条资料</span></a>
+<a href="/entities/people/e6b1a4e5b1b1e982a6e5bda6/"><strong>汤山邦彦</strong><span>31 条资料</span></a>
 <a href="/entities/people/e6b299e4b881e9b1bc/"><strong>沙丁鱼</strong><span>1 条资料</span></a>
 <a href="/entities/people/e6b2b3e58685e4b8b8e6ada6e58fb2/"><strong>河内丸武史</strong><span>1 条资料</span></a>
 <a href="/entities/people/e6b2b3e69cace68b93/"><strong>河本拓</strong><span>1 条资料</span></a>
@@ -239,11 +244,13 @@ search: false
 <a href="/entities/people/e789b9e68b89e4bb80/"><strong>特拉什</strong><span>2 条资料</span></a>
 <a href="/entities/people/e78aace5b1b1e78aace5ad90/"><strong>犬山犬子</strong><span>2 条资料</span></a>
 <a href="/entities/people/e78e89e794b0/"><strong>玉田</strong><span>1 条资料</span></a>
+<a href="/entities/people/e78e9be4b8bdc2b7e99baae88eb1/"><strong>玛丽·雪莱</strong><span>1 条资料</span></a>
 <a href="/entities/people/e794b0e4b88ae6809ce5ad90/"><strong>田上怜子</strong><span>2 条资料</span></a>
 <a href="/entities/people/e794b0e5b0bbe699ba/"><strong>田尻智</strong><span>24 条资料</span></a>
 <a href="/entities/people/e794b0e8b0b7e6ada3e5a4ab/"><strong>田谷正夫</strong><span>2 条资料</span></a>
 <a href="/entities/people/e794bae794b0/"><strong>町田</strong><span>1 条资料</span></a>
 <a href="/entities/people/e795a0e7a590e8b4b5/"><strong>畠祐贵</strong><span>1 条资料</span></a>
+<a href="/entities/people/e79b90e9878ee4b883e7949f/"><strong>盐野七生</strong><span>1 条资料</span></a>
 <a href="/entities/people/e79b96e5a587e696af/"><strong>盖奇斯</strong><span>1 条资料</span></a>
 <a href="/entities/people/e79bb4e4baba/"><strong>直人</strong><span>1 条资料</span></a>
 <a href="/entities/people/e79fb3e58e9fe68192e5928c/"><strong>石原恒和</strong><span>52 条资料</span></a>
@@ -256,11 +263,14 @@ search: false
 <a href="/entities/people/e7bd97e585b0c2b7e889bee9bb98e9878ce5a587/"><strong>罗兰·艾默里奇</strong><span>1 条资料</span></a>
 <a href="/entities/people/e7bf94e5ad90/"><strong>翔子</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88296e696afe5a194e7a791e7bbb4e5a587/"><strong>肖斯塔科维奇</strong><span>1 条资料</span></a>
+<a href="/entities/people/e88aa5e5b79de9be99e4b98be4bb8b/"><strong>芥川龙之介</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88ab1e5ad90/"><strong>花子</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88c82e69ca8e581a5e4b880e9838e/"><strong>茂木健一郎</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88e8ee5a89c/"><strong>莎娜</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88eabe6a0bce58d9ae5a3ab/"><strong>莫格博士</strong><span>1 条资料</span></a>
 <a href="/entities/people/e88f9ce88ab1e581a5e4bd9c/"><strong>菜花健作</strong><span>1 条资料</span></a>
+<a href="/entities/people/e890a8e58da1e59fba/"><strong>萨卡基</strong><span>1 条资料</span></a>
+<a href="/entities/people/e890a8e89282e4ba9ae59089e789b9c2b7e99bb7e4bc8a/"><strong>萨蒂亚吉特·雷伊</strong><span>1 条资料</span></a>
 <a href="/entities/people/e89282e5a786c2b7e68b89e9878ce9bb98/"><strong>蒂姆·拉里默</strong><span>1 条资料</span></a>
 <a href="/entities/people/e897a4e58e9fe58583e58fb2/"><strong>藤原元史</strong><span>1 条资料</span></a>
 <a href="/entities/people/e897a4e5928c/"><strong>藤和</strong><span>1 条资料</span></a>
@@ -274,10 +284,11 @@ search: false
 <a href="/entities/people/e9878ee69d91e8bebee99b84/"><strong>野村达雄</strong><span>3 条资料</span></a>
 <a href="/entities/people/e995bfe79591e68890e4b880e9838e/"><strong>长畑成一郎</strong><span>4 条资料</span></a>
 <a href="/entities/people/e998bfe588a9/"><strong>阿利</strong><span>1 条资料</span></a>
+<a href="/entities/people/e998bfe5b094e4bcafe789b9c2b7e788b1e59ba0e696afe5/"><strong>阿尔伯特·爱因斯坦</strong><span>1 条资料</span></a>
 <a href="/entities/people/e99bb7e59089/"><strong>雷吉</strong><span>1 条资料</span></a>
 <a href="/entities/people/e99d92e6b2bce88bb1e4ba8c/"><strong>青沼英二</strong><span>1 条资料</span></a>
 <a href="/entities/people/e99fa6e696afe588a9c2b7e5b0b9-e699aee5b094/"><strong>韦斯利·尹-普尔</strong><span>1 条资料</span></a>
-<a href="/entities/people/e9a696e897a4e5889ae5bf97/"><strong>首藤刚志</strong><span>26 条资料</span></a>
+<a href="/entities/people/e9a696e897a4e5889ae5bf97/"><strong>首藤刚志</strong><span>34 条资料</span></a>
 <a href="/entities/people/e9a9ace4bfae/"><strong>马修</strong><span>1 条资料</span></a>
 <a href="/entities/people/e9a9ace5858bc2b7e99bb7e5beb7/"><strong>马克·雷德</strong><span>1 条资料</span></a>
 <a href="/entities/people/e9a9ace5ba93e696af/"><strong>马库斯</strong><span>1 条资料</span></a>

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>98 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
+    <span>102 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -310,6 +310,30 @@ search: false
   <p>2009 · interview_translation · Interview: Masuda on Developing Gens 1-4</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-kawachimaru-platinum-gens/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第172回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch172/">[访谈翻译] 首藤刚志动画创作手记 第172回：克隆体与本体的“自己究竟为何物？”（梦幻Bug都市传说、多莉羊与科学怪人的悲剧宿命）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 172: What am I? Clone and Original</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第168回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch168/">[访谈翻译] 首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生（歌剧魅影的宿命投影、现代声优危机与悲剧巨匠降临）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 168: Mewtwo Strikes Back and Masachika Ichimura</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第167回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch167/">[访谈翻译] 首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 167: Mewtwo Strikes Back before the Pokemon Incident</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第166回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch166/">[访谈翻译] 首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 166: The Theme of Mewtwo Strikes Back</span>
 </article>
 
 <article class="resource-network-card">
