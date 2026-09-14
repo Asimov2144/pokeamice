@@ -1,0 +1,311 @@
+/* ==========================================================================
+   Interview, editorial - 2019 skin: the Switch-era Game Freak corporate web
+   Reference: gamefreak.co.jp/recruit/interview-gr-kn/, measured 2026-09:
+   body Yu Gothic 15.9px / 500 / line-height 2.0 / 0.05em tracking; section
+   titles Noto Sans JP 31.8px / 700, written as statements rather than
+   questions; English display words in a DIN-style geometric sans at 59.6px
+   with gradient text; ink #333, bands #f5f5f5; a catch copy in white on a
+   highlight band over the photograph; yellow, pink, sky and violet dots
+   floating in the margins.
+
+   Same structure as the base skin - cover, hero, chapters, pull, archive -
+   only the grammar changes. Applies to whatever _includes/era-skin.html
+   calls 2019, which is 2017-2021.
+   ========================================================================== */
+
+$gf-ink: #333333;
+$gf-ink-soft: #5c6470;
+$gf-band: #f5f5f5;
+$gf-mint: #3ec9a7;
+$gf-yellow: #f7c948;
+$gf-pink: #f48fb1;
+$gf-sky: #79b8ea;
+$gf-violet: #7c5cd6;
+$gf-din: "Bahnschrift", "DIN Alternate", "DIN Condensed", "Roboto Condensed", "Arial Narrow", sans-serif;
+$gf-gothic: "Yu Gothic", "YuGothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+$gf-gradient: linear-gradient(100deg, $gf-sky 0%, $gf-violet 55%, $gf-pink 100%);
+
+.layout--interview-editorial .ed[data-era-skin="2019"] {
+  font-family: $gf-gothic;
+  color: $gf-ink;
+  line-height: 2;
+  letter-spacing: 0.05em;
+
+  /* ---- cover: a giant display word behind, dots around, a catch copy ---- */
+  .ed-cover {
+    position: relative;
+    margin-top: 56px;
+    padding-top: 88px;
+    border-top: 0;
+  }
+
+  .ed-cover::before {
+    content: attr(data-era-word);
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: 0;
+    font-family: $gf-din;
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    background: $gf-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    opacity: 0.16;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* The dots: four, in the reference's four colours, placed off the text
+     column and clear of the drawer. One element, the rest are shadows. */
+  .ed-cover::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: -60px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: $gf-yellow;
+    box-shadow:
+      -180px 210px 0 -4px $gf-pink,
+      -640px 140px 0 -8px $gf-sky,
+      40px 330px 0 -10px $gf-violet;
+    pointer-events: none;
+  }
+
+  .ed-cover > * { position: relative; z-index: 1; }
+
+  .ed-kicker {
+    color: $gf-violet;
+    font-family: $gf-din;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+  }
+
+  .ed-kicker > span + span::before { color: $gf-ink-soft; }
+
+  /* the catch copy: white on a highlight band, line by line */
+  .ed-title {
+    font-family: $gf-gothic;
+    font-size: clamp(26px, 3.4vw, 38px);
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.65;
+    margin-bottom: 22px;
+  }
+
+  .ed-title__text {
+    display: inline;
+    padding: 0.08em 0.4em;
+    background: $gf-mint;
+    color: #ffffff;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+  .ed-people {
+    font-family: $gf-gothic;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: $gf-ink;
+  }
+
+  .ed-dek {
+    font-size: 15px;
+    line-height: 2;
+    color: $gf-ink-soft;
+  }
+
+  /* metadata as pills, the way the reference tags a role */
+  .ed-meta {
+    gap: 8px;
+    border: 0;
+    padding: 4px 0 0;
+  }
+
+  .ed-meta > * {
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 999px;
+    background: $gf-band;
+    color: $gf-ink;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+  }
+
+  .ed-meta > * + *::before { content: none; margin: 0; }
+  .ed-meta a { background: $gf-violet; color: #ffffff; }
+
+  /* ---- hero: soft corners, a dot peeking from the frame ----------------- */
+  .ed-hero { position: relative; margin-top: 40px; }
+  .ed-hero img { border-radius: 12px; }
+
+  .ed-hero::before {
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: $gf-sky;
+  }
+
+  .ed-hero figcaption { color: $gf-ink-soft; letter-spacing: 0.04em; }
+
+  /* ---- body ------------------------------------------------------------- */
+  .ed-body { font-size: 16px; }
+  .ed-trans, .ed-orig { font-weight: 500; }
+  .ed-lead .ed-trans { font-size: 17px; line-height: 2.1; font-weight: 500; }
+
+  /* Chapters: a statement in the gothic, big, with no rule above - the
+     reference lets whitespace do the separating - and the number set as a
+     gradient display word. */
+  .ed-chapter { margin-top: 64px; }
+
+  .ed-chapter__head {
+    display: block;
+    border-top: 0;
+    padding-top: 0;
+    margin-bottom: 22px;
+  }
+
+  .ed-chapter__num {
+    display: block;
+    margin-bottom: 8px;
+    font-family: $gf-din;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    line-height: 1;
+    background: $gf-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .ed-chapter__title {
+    font-family: $gf-gothic;
+    font-size: clamp(22px, 2.6vw, 30px);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
+
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $gf-gothic;
+    font-size: 22px;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
+  }
+
+  /* Speakers as pills - the reference's role tag. Violet for an answer, the
+     band for a question. The bar of the base skin goes; the pill is the mark. */
+  .ed-turn__who {
+    display: inline-flex;
+    gap: 0;
+    padding: 3px 14px;
+    border-radius: 999px;
+    background: $gf-band;
+    color: $gf-ink;
+    font-family: $gf-gothic;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .ed-turn__who::before { content: none; }
+  .ed-turn--answer .ed-turn__who { background: $gf-violet; color: #ffffff; }
+  .ed-turn--question .ed-turn__who { background: $gf-band; color: $gf-ink-soft; }
+  .ed-turn--question .ed-trans { font-weight: 700; color: $gf-ink; }
+
+  /* the original: a rounded tag in the violet family */
+  .ed-orig-toggle {
+    border-radius: 999px;
+    border-color: rgba(124, 92, 214, 0.35);
+    color: $gf-violet;
+    font-family: $gf-din;
+    letter-spacing: 0.1em;
+  }
+
+  .ed-orig-toggle:hover,
+  .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $gf-violet; background: $gf-violet; color: #ffffff; }
+  .parallel-text__cell--original[open] .ed-orig { border-left-color: rgba(124, 92, 214, 0.35); }
+
+  /* Pull quote: gradient text, the reference's Cross Talk treatment, set on
+     a pale band rather than between rules. */
+  .ed-pull {
+    max-width: none;
+    margin: 56px -20px;
+    padding: 44px 24px;
+    border: 0;
+    border-radius: 16px;
+    background: $gf-band;
+    text-align: center;
+  }
+
+  .ed-pull p {
+    font-family: $gf-gothic;
+    font-size: clamp(24px, 3vw, 34px);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    line-height: 1.6;
+    background: $gf-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .ed-pull footer { color: $gf-ink-soft; letter-spacing: 0.1em; }
+
+  /* notes and figures take the same rounding */
+  .ed-note { color: $gf-violet; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { border-left-color: $gf-violet; background: #f4f1fb; }
+  .ed-figure img { border-radius: 12px; }
+
+  /* epilogue and archive on the band */
+  .ed-epilogue, .ed-archive { border-top: 0; }
+
+  .ed-archive {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 28px 24px;
+    border-radius: 16px;
+    background: $gf-band;
+  }
+
+  .ed-archive__record > summary { font-family: $gf-din; letter-spacing: 0.14em; }
+  .ed-archive .parallel-archive-route a { color: $gf-violet; }
+
+  /* tools in the same pill language */
+  .ed-tools__summary { border-radius: 999px; border-color: transparent; background: $gf-band; color: $gf-ink; }
+  .ed-tools__btn { border-radius: 999px; }
+  .ed-tools__btn.is-active,
+  .ed-tools__btn[aria-pressed="true"],
+  .ed-tools__btn.is-filter-active { background: $gf-violet; border-color: $gf-violet; }
+
+  @media (max-width: 720px) {
+    .ed-cover::before { font-size: 56px; }
+    .ed-cover::after { display: none; }
+    .ed-pull, .ed-archive { margin-left: -16px; margin-right: -16px; border-radius: 0; }
+  }
+}
+
+/* The 2019 dark theme keeps the gradients and the band highlight; only the
+   ground, the ink and the pills flip. */
+.layout--interview-editorial .ed[data-era-skin="2019"][data-reading-theme="dark"] {
+  color: #e6e8ec;
+
+  .ed-turn__who, .ed-meta > *, .ed-pull, .ed-archive, .ed-tools__summary { background: #1c1f26; color: #e6e8ec; }
+  .ed-turn--answer .ed-turn__who, .ed-meta a { background: $gf-violet; color: #ffffff; }
+  .ed-title__text { background: $gf-mint; color: #0f1115; }
+  .ed-chapter__title, .ed-people, .ed-turn--question .ed-trans { color: #f2f3f5; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { background: #1c1a2a; }
+}

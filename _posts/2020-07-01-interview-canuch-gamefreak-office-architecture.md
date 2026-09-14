@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生命力办公空间哲学
 title_ja: CANUCH：株式会社ゲームフリーク新オフィスデザイン解説 世界観の創造に必要なのは常に冒険心を持ち続ける事
 date: 2020-07-01 10:00:00 +0900
@@ -49,8 +49,7 @@ parallel_items:
   alt: 真新镇向常青森林过渡的绿植景观
   caption: 生动还原训练家迈出小镇、踏入常青森林前所感应到的生机气息
 - original: オフィスの意匠は『ポケットモンスター 赤・緑』の設定をモチーフに、オフィス自体が一つのゲームの世界となるような意図で構成している。「冒険」の始まりの場所として位置するロビーエリアは、ポケモンの鳴き声や太陽の光、息づいた木々や生き物を感じさせるオープニングエリア「マサラタウン」を表現。来客エリアにある会議室はすべてゲーム内に登場する「街」の名前がつけられ、それぞれの街のイメージカラーで空間を彩っている。
-  translation: 办公室的整体设计以《宝可梦 红／绿》的原始设定为主题，意在让整个办公区化身为一个生动的游戏世界。作为“冒险启程之所”的大堂迎宾区，被精心塑造成洋溢着宝可梦叫声、明媚阳光、盎然林木与生灵气息的初始小镇“真新镇（Pallet
-    Town）”。而来客区的各个会议室则全部以游戏中的“城镇”命名，并以各自城镇的标志性主题色彩进行空间粉饰。
+  translation: 办公室的整体设计以《宝可梦 红／绿》的原始设定为主题，意在让整个办公区化身为一个生动的游戏世界。作为“冒险启程之所”的大堂迎宾区，被精心塑造成洋溢着宝可梦叫声、明媚阳光、盎然林木与生灵气息的初始小镇“真新镇（Pallet Town）”。而来客区的各个会议室则全部以游戏中的“城镇”命名，并以各自城镇的标志性主题色彩进行空间粉饰。
 - type: heading
   level: 2
   original: 「中庭」と「住処」：回遊性とセキュリティの調和
@@ -120,8 +119,7 @@ parallel_items:
   alt: 资料阅览与图书收纳架
   caption: 陈列游戏考据资料、生物百科与设计文献的开架书库
 - original: オフィスというフィールドを回遊することで、新たなアイディアを発見できるような冒険心を大切にしたオフィス設計となっている。ゲームフリークの創造姿勢を体現することで、世界観の創造に必要なものは、常に冒険心を持ち続けることであると伝えてくれるオフィスとなっている。
-  translation: 通过在这片如同游戏地图一般的广阔原野中自由穿梭与探索，激发员工随时发现全新灵感的冒险情怀。整座办公室淋漓尽致地展现了 GAME FREAK
-    的造物哲学：构筑宏大世界观所必须的，唯有永远怀揣着一颗冒险之心。
+  translation: 通过在这片如同游戏地图一般的广阔原野中自由穿梭与探索，激发员工随时发现全新灵感的冒险情怀。整座办公室淋漓尽致地展现了 GAME FREAK 的造物哲学：构筑宏大世界观所必须的，唯有永远怀揣着一颗冒险之心。
 - type: heading
   level: 2
   original: 建築写真ギャラリー：ディテールとプロジェクト概要
@@ -198,12 +196,9 @@ parallel_items:
   image: /assets/img/interviews/2020-07-01-interview-canuch-gamefreak-office-architecture/canuch_GF_-041.jpg
   alt: GAME FREAK 新总部建筑摄影 (GF_-041)
   caption: GAME FREAK 新总部空间实景（摄影：Hideki Makiguchi / GF_-041）
-- original: 'Credit Interior designer : Canuch Inc. Photographer : Hideki Makiguchi
-    Project Management : DE-SIGN Inc. Construction : Nomura Co., Ltd.'
-  translation: 演职名单 室内设计：Canuch Inc. 建筑摄影：牧口英树（Hideki Makiguchi） 项目管理：DE-SIGN Inc.
-    施工承造：乃村工艺社（Nomura Co., Ltd.）
-- original: 'Project Outline Total Floor Area : 2860.59㎡ Year: 07/2020 Location :
-    Tokyo, Japan'
+- original: 'Credit Interior designer : Canuch Inc. Photographer : Hideki Makiguchi Project Management : DE-SIGN Inc. Construction : Nomura Co., Ltd.'
+  translation: 演职名单 室内设计：Canuch Inc. 建筑摄影：牧口英树（Hideki Makiguchi） 项目管理：DE-SIGN Inc. 施工承造：乃村工艺社（Nomura Co., Ltd.）
+- original: 'Project Outline Total Floor Area : 2860.59㎡ Year: 07/2020 Location : Tokyo, Japan'
   translation: 项目概要 建筑总面积：2,860.59 平方米 竣工时间：2020年7月 地理位置：日本东京都世田谷区三轩茶屋（Carrot Tower）
 entities:
   works:

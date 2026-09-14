@@ -113,7 +113,7 @@ kept on the turns even though the presentation around them is new.
   <article class="ed-article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
 
     {%- comment -%} Cover: when, where, who, what - before a single control. {%- endcomment -%}
-    <header class="ed-cover">
+    <header class="ed-cover" data-era-word="{% if era_skin == "2019" %}INTERVIEW{% endif %}">
       <p class="ed-kicker">
         <span>{{ page.date | date: "%Y" }}</span>
         {% if page.dateline %}<span>{{ page.dateline }}</span>{% endif %}
@@ -125,7 +125,8 @@ kept on the turns even though the presentation around them is new.
         index and search. A magazine cover does not say who ran the interview
         in the headline; the kicker and the dek already do.
       {%- endcomment -%}
-      <h1 class="ed-title" itemprop="headline">{{ page.display_title | default: page.title }}</h1>
+      {%- comment -%} the inner span lets an era paint a highlight band behind each line {%- endcomment -%}
+      <h1 class="ed-title" itemprop="headline"><span class="ed-title__text">{{ page.display_title | default: page.title }}</span></h1>
       {% if answerers.size > 0 %}
         <p class="ed-people">{{ answerers | join: " × " }}</p>
       {% endif %}

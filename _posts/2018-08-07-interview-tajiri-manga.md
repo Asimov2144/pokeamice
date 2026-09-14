@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] helixchamber 田尻 自传漫画 研究'
 date: '2018-08-07'
 toc: true

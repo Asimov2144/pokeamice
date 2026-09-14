@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] Early Concept Art 宝可梦早期概念美术'
 date: '2018-06-12'
 toc: true
