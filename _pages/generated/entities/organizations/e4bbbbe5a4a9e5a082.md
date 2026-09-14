@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>82 篇文章 · 0 条评注 · 2025 / 2022 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>89 篇文章 · 0 条评注 · 2025 / 2022 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -223,9 +223,51 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/">[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/">[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/">[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/">[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第132回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-132/">[GameFreak部长专栏] 第132回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 《宝可梦 白金》 创下了DS软件史上最快的纪录——“仅用3天销量突破100万份！” 我真的特别开心！ 这也都是</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/">[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/">[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/">[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -367,15 +409,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第126回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-126/">[GameFreak部长专栏] 第126回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第126回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-126/">[GameFreak部长专栏] 第126回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo</span>
 </article>
 
 <article class="resource-network-card">

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T23:09:13+09:00",
+  "generated_at": "2026-09-14T23:25:46+09:00",
   "entities": {
     "people": {
       "田尻智": {
@@ -20059,6 +20059,232 @@
         "url": "/entities/people/e9a696e897a4e5889ae5bf97/",
         "posts": [
           {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
             "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/",
@@ -20617,6 +20843,206 @@
               "organizations": [
                 "株式会社ポケモン",
                 "株式会社ゲームフリーク"
+              ]
+            }
+          },
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -21384,6 +21810,121 @@
         "type_label": "人物",
         "url": "/entities/people/e4b985e4bf9de99b85e4b880/",
         "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
           {
             "id": "62009fe563",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
@@ -22436,6 +22977,35 @@
         "url": "/entities/people/e5b08fe6aca1e9838e/",
         "posts": [
           {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
             "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/",
@@ -22641,6 +23211,35 @@
         "type_label": "人物",
         "url": "/entities/people/e6ada6e8978f/",
         "posts": [
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
           {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
@@ -23378,6 +23977,50 @@
         "annotations": [],
         "years": [
           "2009",
+          "2008"
+        ]
+      },
+      "桥本忍": {
+        "name": "桥本忍",
+        "type": "people",
+        "type_label": "人物",
+        "url": "/entities/people/e6a1a5e69cace5bf8d/",
+        "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
           "2008"
         ]
       },
@@ -33481,6 +34124,28 @@
             }
           },
           {
+            "id": "1bdf3149f3",
+            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
+            "date": "2013-10-10",
+            "year": "2013",
+            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田 聪",
+                "增田 顺一",
+                "石原 恒和"
+              ],
+              "works": [
+                "宝可梦 X·Y",
+                "宝可梦 红·绿",
+                "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
             "id": "150e7a1111",
             "title": "[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/",
@@ -33517,28 +34182,6 @@
                 "石原 恒和",
                 "大谷 育江",
                 "杉森 建"
-              ],
-              "works": [
-                "宝可梦 X·Y",
-                "宝可梦 红·绿",
-                "宝可梦 红宝石·蓝宝石"
-              ]
-            }
-          },
-          {
-            "id": "1bdf3149f3",
-            "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/",
-            "date": "2013-10-10",
-            "year": "2013",
-            "source": "任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X & Y Vol.1 第1回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田 聪",
-                "增田 顺一",
-                "石原 恒和"
               ],
               "works": [
                 "宝可梦 X·Y",
@@ -33880,29 +34523,6 @@
             }
           },
           {
-            "id": "aab439343f",
-            "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
-            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
-            "date": "2009-09-04",
-            "year": "2009",
-            "source": "任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回",
-            "type": "interview_translation",
-            "excerpt": "",
-            "entities": {
-              "people": [
-                "岩田 聪",
-                "石原 恒和",
-                "森本 茂树"
-              ],
-              "works": [
-                "宝可梦 金·银",
-                "宝可梦竞技场",
-                "宝可梦 心金·魂银",
-                "宝可梦 红·绿"
-              ]
-            }
-          },
-          {
             "id": "b6473fdaac",
             "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
             "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-1-red-green-mew/",
@@ -33922,6 +34542,29 @@
                 "宝可梦 心金·魂银",
                 "宝可梦 红·绿",
                 "宝可梦 金·银"
+              ]
+            }
+          },
+          {
+            "id": "aab439343f",
+            "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+            "url": "/访谈翻译/翻译/访谈整理/interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium/",
+            "date": "2009-09-04",
+            "year": "2009",
+            "source": "任天堂公式ウェブサイト「社長が訊く」Vol.1 第3回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "岩田 聪",
+                "石原 恒和",
+                "森本 茂树"
+              ],
+              "works": [
+                "宝可梦 金·银",
+                "宝可梦竞技场",
+                "宝可梦 心金·魂银",
+                "宝可梦 红·绿"
               ]
             }
           },
@@ -33948,6 +34591,232 @@
                 "宝可梦 金·银",
                 "宝可梦 水晶版",
                 "宝可梦 红宝石·蓝宝石"
+              ]
+            }
+          },
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -34518,6 +35387,27 @@
             }
           },
           {
+            "id": "b584c8fb51",
+            "title": "[GameFreak部长专栏] 第124回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-124/",
+            "date": "2008-02-27",
+            "year": "2008",
+            "source": "増田部長のめざめるパワー 第124回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "29a0ae2da4",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
             "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/",
@@ -34543,27 +35433,6 @@
                 "任天堂",
                 "Game Freak",
                 "东京电视台"
-              ]
-            }
-          },
-          {
-            "id": "b584c8fb51",
-            "title": "[GameFreak部长专栏] 第124回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-124/",
-            "date": "2008-02-27",
-            "year": "2008",
-            "source": "増田部長のめざめるパワー 第124回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 红·绿"
-              ],
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -42111,6 +42980,232 @@
         "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/",
         "posts": [
           {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
             "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/",
@@ -43848,6 +44943,119 @@
               ],
               "events": [
                 "宝可梦卡牌游戏大会"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2008"
+        ]
+      },
+      "机动战舰抚子号": {
+        "name": "机动战舰抚子号",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/e69cbae58aa8e68898e888b0e68a9ae5ad90e58fb7/",
+        "posts": [
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2008"
+        ]
+      },
+      "超梦的逆袭": {
+        "name": "超梦的逆袭",
+        "type": "works",
+        "type_label": "作品",
+        "url": "/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/",
+        "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           }
@@ -58114,25 +59322,6 @@
             }
           },
           {
-            "id": "b0b5d8926e",
-            "title": "【活动】2016年火箭队入团日",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
-            "date": "2016-10-16",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · R",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "f6fdf9d24f",
             "title": "【日记】2016年晴空塔后台",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8216041/",
@@ -58179,6 +59368,25 @@
             "source": "増田順一 公式ブログ · ポケモンセンタースカイツリータウンまもなくサイン会！",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"20周年签名会的最后一场</div <div class=\"gf-lineblog-line gf-lineblog-line",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "b0b5d8926e",
+            "title": "【活动】2016年火箭队入团日",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-8198401/",
+            "date": "2016-10-16",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · R",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天　我们为了加入火箭队</div <div class=\"gf-lineblog-line gf-lineblog-line",
             "entities": {
               "people": [
                 "增田顺一"
@@ -58660,6 +59868,25 @@
             }
           },
           {
+            "id": "3e578a719c",
+            "title": "【活动】2016年宝可梦GO咨询",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5460146/",
+            "date": "2016-08-12",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · Pokémon GOへのお問い合わせ",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 这个博客是 为了广泛传达 创作的方法 以及创作者日常的思考等等 希望能够培养 对创作的乐趣和 丰富的感受力 所以由我增田个人创办的</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "cbaf8aca51",
             "title": "【日记】2016年宝可梦与玩家同行",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5865812/",
@@ -58674,25 +59901,6 @@
               ],
               "works": [
                 "Pokémon GO"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "3e578a719c",
-            "title": "【活动】2016年宝可梦GO咨询",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-5460146/",
-            "date": "2016-08-12",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · Pokémon GOへのお問い合わせ",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 这个博客是 为了广泛传达 创作的方法 以及创作者日常的思考等等 希望能够培养 对创作的乐趣和 丰富的感受力 所以由我增田个人创办的</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -60023,25 +61231,6 @@
             }
           },
           {
-            "id": "2e973e43e0",
-            "title": "【日记】2016京都岚山学习会",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3816260/",
-            "date": "2016-05-31",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 京都勉強会 その1",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"要创造出东西</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "ff6a97b80e",
             "title": "【日记】2016京都学习会",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3828794/",
@@ -60080,33 +61269,14 @@
             }
           },
           {
-            "id": "58f4068d03",
-            "title": "【活动】2016年京都宝可梦中心",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3782853/",
-            "date": "2016-05-29",
+            "id": "2e973e43e0",
+            "title": "【日记】2016京都岚山学习会",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3816260/",
+            "date": "2016-05-31",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンターキョウト（控室）",
+            "source": "増田順一 公式ブログ · 京都勉強会 その1",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3782853/001-ef8aa2ab5f.webp\" target=\"blank\" rel=\"n",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "f7d79ce120",
-            "title": "【活动】2016京都宝可梦中心签名会",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3772142/",
-            "date": "2016-05-29",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンターキョウト",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"增",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"要创造出东西</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60137,14 +61307,33 @@
             }
           },
           {
-            "id": "8cf5837508",
-            "title": "【活动】2016年大阪宝可梦中心",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/",
-            "date": "2016-05-28",
+            "id": "58f4068d03",
+            "title": "【活动】2016年京都宝可梦中心",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3782853/",
+            "date": "2016-05-29",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！",
+            "source": "増田順一 公式ブログ · ポケモンセンターキョウト（控室）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"开店前的</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3782853/001-ef8aa2ab5f.webp\" target=\"blank\" rel=\"n",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "f7d79ce120",
+            "title": "【活动】2016京都宝可梦中心签名会",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3772142/",
+            "date": "2016-05-29",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ポケモンセンターキョウト",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"增",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60213,14 +61402,14 @@
             }
           },
           {
-            "id": "7f5d164985",
-            "title": "【日记】2016大阪签名之旅",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/",
-            "date": "2016-05-27",
+            "id": "8cf5837508",
+            "title": "【活动】2016年大阪宝可梦中心",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/",
+            "date": "2016-05-28",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 大阪！（Hello, Osaka!）",
+            "source": "増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"开店前的</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60240,6 +61429,25 @@
             "source": "増田順一 公式ブログ · Welcome! あばれる君&りんかちゃん！",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"没想到！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"大闹一番和琳卡酱</div <div class=\"gf-lineblog-line gf-lineblog-line--c",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "7f5d164985",
+            "title": "【日记】2016大阪签名之旅",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/",
+            "date": "2016-05-27",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 大阪！（Hello, Osaka!）",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60349,14 +61557,14 @@
             }
           },
           {
-            "id": "6de5acfa7a",
-            "title": "【活动】2016宝可梦全球大奖",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3606850/",
+            "id": "8d8a969aa2",
+            "title": "【日记】2016年人脸交换试玩",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3622521/",
             "date": "2016-05-22",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 大賞！（Congratulations !）",
+            "source": "増田順一 公式ブログ · Let's try it!（やってみた！）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"皮卡丘？ Pikachu？ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3606850/001-540efc6fff.webp\" tar",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"星期日下午</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60368,14 +61576,14 @@
             }
           },
           {
-            "id": "8d8a969aa2",
-            "title": "【日记】2016年人脸交换试玩",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3622521/",
+            "id": "6de5acfa7a",
+            "title": "【活动】2016宝可梦全球大奖",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3606850/",
             "date": "2016-05-22",
             "year": "2016",
-            "source": "増田順一 公式ブログ · Let's try it!（やってみた！）",
+            "source": "増田順一 公式ブログ · 大賞！（Congratulations !）",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"星期日下午</div <div class=\"gf-lineblog-line gf-lineblog-line--cente",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"皮卡丘？ Pikachu？ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3606850/001-540efc6fff.webp\" tar",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60447,25 +61655,6 @@
             }
           },
           {
-            "id": "544606632a",
-            "title": "【日记】2016旧金山海鲜午餐",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3565626/",
-            "date": "2016-05-19",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ランチを外で！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"在旧金山</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "5c906164f4",
             "title": "【日记】2016年海边偶遇海鸥",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3556962/",
@@ -60485,14 +61674,14 @@
             }
           },
           {
-            "id": "eab414d2cd",
-            "title": "【日记】2016旧金山路面电车",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3526852/",
-            "date": "2016-05-18",
+            "id": "544606632a",
+            "title": "【日记】2016旧金山海鲜午餐",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3565626/",
+            "date": "2016-05-19",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 路面電車（Tram）",
+            "source": "増田順一 公式ブログ · ランチを外で！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"工作的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"在旧金山</div <div class=\"gf-lineblog-line gf-lineblog-line--center",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60512,6 +61701,25 @@
             "source": "増田順一 公式ブログ · おめでとう！",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一直在舞台和采访等场合</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "eab414d2cd",
+            "title": "【日记】2016旧金山路面电车",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3526852/",
+            "date": "2016-05-18",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 路面電車（Tram）",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"工作的</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60580,25 +61788,6 @@
             }
           },
           {
-            "id": "178c503af0",
-            "title": "【活动】2016年宝可梦中心东北",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3470766/",
-            "date": "2016-05-15",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンタートウホク来たよ！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦中心东北店</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "31f906732b",
             "title": "【活动】2016年仙台宝可梦中心",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3476333/",
@@ -60629,6 +61818,44 @@
             "source": "増田順一 公式ブログ · ポケモンセンタートウホク（控室）",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦中心东北的</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "178c503af0",
+            "title": "【活动】2016年宝可梦中心东北",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3470766/",
+            "date": "2016-05-15",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ポケモンセンタートウホク来たよ！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"宝可梦中心东北店</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "5b7b0e6957",
+            "title": "【活动】2016年东京湾宝可梦中心签名会",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3457903/",
+            "date": "2016-05-14",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ポケモンセンタートウキョーベイ",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天 增田签名会举行啦！ <br 今天也是“替身”周边的 发售日， 当然，可达鸭也有很多！ <br <figure class",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60678,17 +61905,20 @@
             }
           },
           {
-            "id": "5b7b0e6957",
-            "title": "【活动】2016年东京湾宝可梦中心签名会",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3457903/",
-            "date": "2016-05-14",
+            "id": "643d9a4b75",
+            "title": "【活动】2016年宝可梦20周年纪念板",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3437015/",
+            "date": "2016-05-13",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモンセンタートウキョーベイ",
+            "source": "増田順一 公式ブログ · ボードに感激！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天 增田签名会举行啦！ <br 今天也是“替身”周边的 发售日， 当然，可达鸭也有很多！ <br <figure class",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"NICONICO超会议2016</div <div class=\"gf-lineblog-line gf-lineblog-l",
             "entities": {
               "people": [
                 "增田顺一"
+              ],
+              "works": [
+                "宝可梦 金·银"
               ],
               "organizations": [
                 "Game Freak",
@@ -60708,28 +61938,6 @@
             "entities": {
               "people": [
                 "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "643d9a4b75",
-            "title": "【活动】2016年宝可梦20周年纪念板",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3437015/",
-            "date": "2016-05-13",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ボードに感激！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"NICONICO超会议2016</div <div class=\"gf-lineblog-line gf-lineblog-l",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 金·银"
               ],
               "organizations": [
                 "Game Freak",
@@ -60779,6 +61987,28 @@
             }
           },
           {
+            "id": "a87fff4dc2",
+            "title": "【活动】2016年宝可梦新情报",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/",
+            "date": "2016-05-10",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 3 hours to go!",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"感谢大家发来的推特消息</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 太阳·月亮"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "0e69e8cd58",
             "title": "【活动】2016年宝可梦日月新情报",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3375970/",
@@ -60802,20 +62032,17 @@
             }
           },
           {
-            "id": "a87fff4dc2",
-            "title": "【活动】2016年宝可梦新情报",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/",
-            "date": "2016-05-10",
+            "id": "b7655aa8c2",
+            "title": "【日记】2016年宝可梦明日将至",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3355017/",
+            "date": "2016-05-09",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 3 hours to go!",
+            "source": "増田順一 公式ブログ · Look for tomorrow",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"感谢大家发来的推特消息</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"你好！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"你好！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
             "entities": {
               "people": [
                 "增田顺一"
-              ],
-              "works": [
-                "宝可梦 太阳·月亮"
               ],
               "organizations": [
                 "Game Freak",
@@ -60838,25 +62065,6 @@
               ],
               "works": [
                 "宝可梦 太阳·月亮"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "b7655aa8c2",
-            "title": "【日记】2016年宝可梦明日将至",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3355017/",
-            "date": "2016-05-09",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · Look for tomorrow",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"你好！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"你好！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
-            "entities": {
-              "people": [
-                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -60944,14 +62152,14 @@
             }
           },
           {
-            "id": "c90935aad3",
-            "title": "【日记】2016年儿童节与皮卡丘",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3244941/",
+            "id": "8dcf95f955",
+            "title": "【日记】2016年端午节习俗",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3249955/",
             "date": "2016-05-05",
             "year": "2016",
-            "source": "増田順一 公式ブログ · こどもの日",
+            "source": "増田順一 公式ブログ · たんご",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我试着做了一顶！</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -60963,14 +62171,14 @@
             }
           },
           {
-            "id": "8dcf95f955",
-            "title": "【日记】2016年端午节习俗",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3249955/",
+            "id": "c90935aad3",
+            "title": "【日记】2016年儿童节与皮卡丘",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3244941/",
             "date": "2016-05-05",
             "year": "2016",
-            "source": "増田順一 公式ブログ · たんご",
+            "source": "増田順一 公式ブログ · こどもの日",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我试着做了一顶！</div <div class=\"gf-lineblog-line gf-lineblog-line--ce",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61001,14 +62209,14 @@
             }
           },
           {
-            "id": "39372f299f",
-            "title": "【日记】2016暖地板上的猫",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
+            "id": "e3c5fe5412",
+            "title": "【日记】世界各地的斑马线",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
             "date": "2016-05-03",
             "year": "2016",
-            "source": "増田順一 公式ブログ · にゃ？！",
+            "source": "増田順一 公式ブログ · ヨコシマ",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61020,14 +62228,14 @@
             }
           },
           {
-            "id": "e3c5fe5412",
-            "title": "【日记】世界各地的斑马线",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/",
+            "id": "39372f299f",
+            "title": "【日记】2016暖地板上的猫",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/",
             "date": "2016-05-03",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ヨコシマ",
+            "source": "増田順一 公式ブログ · にゃ？！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"我在</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"查",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp\" target=\"blank\" rel=\"n",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61137,25 +62345,6 @@
             }
           },
           {
-            "id": "23bc313ae4",
-            "title": "【日记】2016年春日数花",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/",
-            "date": "2016-04-29",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · つまらない道も！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在这个季节</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "504e83843f",
             "title": "【创作】2016年《游戏的人》",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2777075/",
@@ -61175,20 +62364,17 @@
             }
           },
           {
-            "id": "db4996985d",
-            "title": "【创作】2016年下北泽拍摄",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/",
-            "date": "2016-04-28",
+            "id": "23bc313ae4",
+            "title": "【日记】2016年春日数花",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/",
+            "date": "2016-04-29",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 撮影",
+            "source": "増田順一 公式ブログ · つまらない道も！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"2月9日 上午9:45</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在这个季节</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
-              ],
-              "works": [
-                "宝可梦 红·绿"
               ],
               "organizations": [
                 "Game Freak",
@@ -61227,6 +62413,28 @@
             "entities": {
               "people": [
                 "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "db4996985d",
+            "title": "【创作】2016年下北泽拍摄",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/",
+            "date": "2016-04-28",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 撮影",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"2月9日 上午9:45</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line-",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 红·绿"
               ],
               "organizations": [
                 "Game Freak",
@@ -61276,14 +62484,14 @@
             }
           },
           {
-            "id": "3dee719f40",
-            "title": "【创作】2016年发现身边的新事物",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3006145/",
+            "id": "b418f17d43",
+            "title": "【创作】2016年创作者必读书",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2964283/",
             "date": "2016-04-25",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 見るということ",
+            "source": "増田順一 公式ブログ · クリエイター必読書",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"即便是平时不经意看到的东西</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一旦成为创作者</div <div class=\"gf-lineblog-line gf-lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 给所有创作者 一定要读一读！ <br <br 罗杰·卡约瓦 （Roger Caillois) <br 《游戏与人类》 （<emLes jeux et les hommes</em ） <br <figure class=\"gf-lineblog",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61295,14 +62503,14 @@
             }
           },
           {
-            "id": "b418f17d43",
-            "title": "【创作】2016年创作者必读书",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2964283/",
+            "id": "3dee719f40",
+            "title": "【创作】2016年发现身边的新事物",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-3006145/",
             "date": "2016-04-25",
             "year": "2016",
-            "source": "増田順一 公式ブログ · クリエイター必読書",
+            "source": "増田順一 公式ブログ · 見るということ",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br 给所有创作者 一定要读一读！ <br <br 罗杰·卡约瓦 （Roger Caillois) <br 《游戏与人类》 （<emLes jeux et les hommes</em ） <br <figure class=\"gf-lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"即便是平时不经意看到的东西</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"一旦成为创作者</div <div class=\"gf-lineblog-line gf-lineblog",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61431,25 +62639,6 @@
             }
           },
           {
-            "id": "4778718953",
-            "title": "【创作】2016年谷歌自动驾驶自行车",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2894164/",
-            "date": "2016-04-19",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · センス",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"4月1日公开的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "cc92f8c0d5",
             "title": "【创作】2016年创作中的感觉",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2895101/",
@@ -61469,6 +62658,25 @@
             }
           },
           {
+            "id": "4778718953",
+            "title": "【创作】2016年谷歌自动驾驶自行车",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2894164/",
+            "date": "2016-04-19",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · センス",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"4月1日公开的</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "6e70b8432c",
             "title": "【日记】2016年GAME FREAK工作日常",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2880077/",
@@ -61477,6 +62685,25 @@
             "source": "増田順一 公式ブログ · 日常",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "bb993970b6",
+            "title": "【活动】2016年名古屋宝可梦中心投票",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2855415/",
+            "date": "2016-04-17",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 投票！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"名古屋的各位</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61515,44 +62742,6 @@
             "source": "増田順一 公式ブログ · ポケモンセンターナゴヤ",
             "type": "gamefreak_masuda_lineblog",
             "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"今天在名古屋</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "bb993970b6",
-            "title": "【活动】2016年名古屋宝可梦中心投票",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2855415/",
-            "date": "2016-04-17",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 投票！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"名古屋的各位</div <div class=\"gf-lineblog-line gf-lineblog-line--cent",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
-            "id": "0e5d4f54e4",
-            "title": "【活动】2016宝可梦总选举",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2818987/",
-            "date": "2016-04-16",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ポケモン史上初！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在<br 开始啦！</div <div class=\"gf-lineblog-line gf-lineblog-line--",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61621,6 +62810,25 @@
             }
           },
           {
+            "id": "0e5d4f54e4",
+            "title": "【活动】2016宝可梦总选举",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2818987/",
+            "date": "2016-04-16",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ポケモン史上初！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"现在<br 开始啦！</div <div class=\"gf-lineblog-line gf-lineblog-line--",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "f7b544e245",
             "title": "【日记】2016九州地震",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2819347/",
@@ -61678,25 +62886,6 @@
             }
           },
           {
-            "id": "5275345bd0",
-            "title": "【日记】2016年宝可梦聚餐",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2722533/",
-            "date": "2016-04-12",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 素敵な二人",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"活动上</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"已经见过好多次了……</div <div class=\"gf-lineblog-line gf-lineblog-line--",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "574aeccea6",
             "title": "【活动】2016年宝可梦20周年采访",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2755888/",
@@ -61711,6 +62900,25 @@
               ],
               "works": [
                 "宝可梦 金·银"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "5275345bd0",
+            "title": "【日记】2016年宝可梦聚餐",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2722533/",
+            "date": "2016-04-12",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 素敵な二人",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"活动上</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"已经见过好多次了……</div <div class=\"gf-lineblog-line gf-lineblog-line--",
+            "entities": {
+              "people": [
+                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -61738,25 +62946,6 @@
             }
           },
           {
-            "id": "ea9b8c3f25",
-            "title": "【活动】2016年鹰爪团十周年",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2659314/",
-            "date": "2016-04-09",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · 10周年！",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"10周年</div 祝贺！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2659314/001-f88aa4640e.webp\" tar",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "92c4fbc2be",
             "title": "【创作】2016年宝可梦音效制作",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2648469/",
@@ -61771,6 +62960,25 @@
               ],
               "works": [
                 "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
+            "id": "ea9b8c3f25",
+            "title": "【活动】2016年鹰爪团十周年",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2659314/",
+            "date": "2016-04-09",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · 10周年！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"10周年</div 祝贺！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2659314/001-f88aa4640e.webp\" tar",
+            "entities": {
+              "people": [
+                "增田顺一"
               ],
               "organizations": [
                 "Game Freak",
@@ -61855,14 +63063,14 @@
             }
           },
           {
-            "id": "8706c43f5b",
-            "title": "【日记】2016年八丈岛美味再现",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2554691/",
+            "id": "9f8edd313b",
+            "title": "【日记】2016八丈岛邂逅小麂",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/",
             "date": "2016-04-04",
             "year": "2016",
-            "source": "増田順一 公式ブログ · 再現！",
+            "source": "増田順一 公式ブログ · キョン！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "在八丈岛吃喝过 觉得美味的东西 想要把它们 再现出来！ 给自己的奖励（笑） <br <br 没错！ 伴手礼！！！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2554691/001-30f1f80fd0.webp\" target=\"blank\"",
+            "excerpt": "八丈岛 紫茉莉节最终日！ <br 从早上开始 皮卡丘就活力满满！ <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp\" target=\"blank\" rel=\"noopener\"<img src=\"/as",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61874,14 +63082,14 @@
             }
           },
           {
-            "id": "9f8edd313b",
-            "title": "【日记】2016八丈岛邂逅小麂",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/",
+            "id": "8706c43f5b",
+            "title": "【日记】2016年八丈岛美味再现",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2554691/",
             "date": "2016-04-04",
             "year": "2016",
-            "source": "増田順一 公式ブログ · キョン！",
+            "source": "増田順一 公式ブログ · 再現！",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "八丈岛 紫茉莉节最终日！ <br 从早上开始 皮卡丘就活力满满！ <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp\" target=\"blank\" rel=\"noopener\"<img src=\"/as",
+            "excerpt": "在八丈岛吃喝过 觉得美味的东西 想要把它们 再现出来！ 给自己的奖励（笑） <br <br 没错！ 伴手礼！！！ <br <figure class=\"gf-lineblog-image\"<a href=\"/assets/images/gamefreak-lineblog/2554691/001-30f1f80fd0.webp\" target=\"blank\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61912,25 +63120,6 @@
             }
           },
           {
-            "id": "109da37ddd",
-            "title": "【活动】2016年宝可梦GO开启新世界",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2483480/",
-            "date": "2016-04-01",
-            "year": "2016",
-            "source": "増田順一 公式ブログ · ４月１日といえば・・・",
-            "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"大家还记得吗？ <br <br <br <br 增田说到 <br 提起4月1日，就是这个！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak",
-                "LINE BLOG"
-              ]
-            }
-          },
-          {
             "id": "d98cba1878",
             "title": "【活动】2016年八丈岛小苍兰节",
             "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2484438/",
@@ -61950,14 +63139,14 @@
             }
           },
           {
-            "id": "d38c869b21",
-            "title": "【日记】2016年宝可梦中心头图拍摄",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2463891/",
-            "date": "2016-03-31",
+            "id": "109da37ddd",
+            "title": "【活动】2016年宝可梦GO开启新世界",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2483480/",
+            "date": "2016-04-01",
             "year": "2016",
-            "source": "増田順一 公式ブログ · ヘッダー！",
+            "source": "増田順一 公式ブログ · ４月１日といえば・・・",
             "type": "gamefreak_masuda_lineblog",
-            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"苦恼了好一阵。</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"大家还记得吗？ <br <br <br <br 增田说到 <br 提起4月1日，就是这个！</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"",
             "entities": {
               "people": [
                 "增田顺一"
@@ -61988,6 +63177,25 @@
             }
           },
           {
+            "id": "d38c869b21",
+            "title": "【日记】2016年宝可梦中心头图拍摄",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-lineblog-2463891/",
+            "date": "2016-03-31",
+            "year": "2016",
+            "source": "増田順一 公式ブログ · ヘッダー！",
+            "type": "gamefreak_masuda_lineblog",
+            "excerpt": "<div class=\"gf-lineblog-line gf-lineblog-line--center\"苦恼了好一阵。</div <div class=\"gf-lineblog-line gf-lineblog-line--center\"<br</div <div class=\"gf-lineblog-line gf-lineblog-line--cen",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak",
+                "LINE BLOG"
+              ]
+            }
+          },
+          {
             "id": "6235edbf40",
             "title": "[访谈翻译] Creatures 成立20周年特别对谈：石原恒和 × 田中宏和 回顾宝可梦黎明期",
             "url": "/访谈翻译/翻译/访谈整理/interview-creatures-20th-anniversary/",
@@ -62003,28 +63211,6 @@
               "organizations": [
                 "Game Freak",
                 "Nintendo"
-              ]
-            }
-          },
-          {
-            "id": "9d249ea84e",
-            "title": "[GameFreak部长专栏] 第244回 Pokémon GO 发布",
-            "url": "/官方博客/game-freak/翻译资料/GameFreak部长专栏-第244回-Pokemon-GO发布/",
-            "date": "2015-09-11",
-            "year": "2015",
-            "source": "増田部長のめざめるパワー 第244回",
-            "type": "gamefreak_director_column",
-            "excerpt": "这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。 摘要 本回文章记录了《Pokémon GO》发表后的回应。增田顺一提到自己参与了世界观构建、游戏设计和音乐，并说明该作会与 Niantic 一起继续开发。 正文模板 正式整理时建议使用以下结构： 1. 原文段落 2. 中文译文 3. 译注 / 背景说明 4. 关联链接与",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "Pokémon GO"
-              ],
-              "organizations": [
-                "Game Freak",
-                "Niantic"
               ]
             }
           },
@@ -62047,6 +63233,28 @@
               "organizations": [
                 "Niantic",
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "9d249ea84e",
+            "title": "[GameFreak部长专栏] 第244回 Pokémon GO 发布",
+            "url": "/官方博客/game-freak/翻译资料/GameFreak部长专栏-第244回-Pokemon-GO发布/",
+            "date": "2015-09-11",
+            "year": "2015",
+            "source": "増田部長のめざめるパワー 第244回",
+            "type": "gamefreak_director_column",
+            "excerpt": "这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。 摘要 本回文章记录了《Pokémon GO》发表后的回应。增田顺一提到自己参与了世界观构建、游戏设计和音乐，并说明该作会与 Niantic 一起继续开发。 正文模板 正式整理时建议使用以下结构： 1. 原文段落 2. 中文译文 3. 译注 / 背景说明 4. 关联链接与",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "Pokémon GO"
+              ],
+              "organizations": [
+                "Game Freak",
+                "Niantic"
               ]
             }
           },
@@ -62220,6 +63428,27 @@
             }
           },
           {
+            "id": "5a0309eb56",
+            "title": "[GameFreak部长专栏] 第240回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-240/",
+            "date": "2013-07-31",
+            "year": "2013",
+            "source": "増田部長のめざめるパワー 第240回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 GAME FREAK 首款自主发行的游戏正式发售了。 它的名字叫《纸牌赛马》（Solitiba）。 这是纸牌接",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "纸牌赛马"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "404de7fafe",
             "title": "[访谈翻译] THE PEOPLE BEHIND POKEMON",
             "url": "/访谈翻译/翻译/访谈整理/interview-news-gamefreak-interview-2012-10-01/",
@@ -62239,27 +63468,6 @@
               "organizations": [
                 "Game Freak",
                 "Nintendo"
-              ]
-            }
-          },
-          {
-            "id": "5a0309eb56",
-            "title": "[GameFreak部长专栏] 第240回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-240/",
-            "date": "2013-07-31",
-            "year": "2013",
-            "source": "増田部長のめざめるパワー 第240回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 GAME FREAK 首款自主发行的游戏正式发售了。 它的名字叫《纸牌赛马》（Solitiba）。 这是纸牌接",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "纸牌赛马"
-              ],
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -63059,6 +64267,24 @@
             }
           },
           {
+            "id": "252c207ccb",
+            "title": "[GameFreak部长专栏] 第214回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-214/",
+            "date": "2011-10-07",
+            "year": "2011",
+            "source": "増田部長のめざめるパワー 第214回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 我（增田顺一）开通 Twitter 了！ 大家，请关注我！ 专栏和 Twitter，两个都请大家多多支持！ 下",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "dfe186aacc",
             "title": "[GameFreak部长专栏] 第213回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-213/",
@@ -63075,24 +64301,6 @@
               "organizations": [
                 "Game Freak",
                 "苹果公司"
-              ]
-            }
-          },
-          {
-            "id": "252c207ccb",
-            "title": "[GameFreak部长专栏] 第214回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-214/",
-            "date": "2011-10-07",
-            "year": "2011",
-            "source": "増田部長のめざめるパワー 第214回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 我（增田顺一）开通 Twitter 了！ 大家，请关注我！ 专栏和 Twitter，两个都请大家多多支持！ 下",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -63887,21 +65095,6 @@
             }
           },
           {
-            "id": "a74e4a9980",
-            "title": "【工作日志】2012年度应届招聘即将开始",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-220/",
-            "date": "2011-02-25",
-            "year": "2011",
-            "source": "晴れたり時々曇ったり · 間もなく2012年度新卒採用の応募受付を開始します！",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 大家好，我是にょろリカ（妮洛莉卡）。 那么，这次由“应届毕业生招聘负责人·にょろリカ”向 计划于2012年3月毕业的各位同学通知一件事。<br 从下周二的3月1日起，2012年度应届毕业生招聘的申请材料受理 就要开始了！<br 我还觉得前不久才刚刚开始接受招聘网站的报名， 没想到一转眼就",
-            "entities": {
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "817313d541",
             "title": "[GameFreak部长专栏] 第188回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-188/",
@@ -63922,6 +65115,21 @@
               ],
               "events": [
                 "宝可梦舞台秀 in Landmark Plaza 2011"
+              ]
+            }
+          },
+          {
+            "id": "a74e4a9980",
+            "title": "【工作日志】2012年度应届招聘即将开始",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-220/",
+            "date": "2011-02-25",
+            "year": "2011",
+            "source": "晴れたり時々曇ったり · 間もなく2012年度新卒採用の応募受付を開始します！",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 大家好，我是にょろリカ（妮洛莉卡）。 那么，这次由“应届毕业生招聘负责人·にょろリカ”向 计划于2012年3月毕业的各位同学通知一件事。<br 从下周二的3月1日起，2012年度应届毕业生招聘的申请材料受理 就要开始了！<br 我还觉得前不久才刚刚开始接受招聘网站的报名， 没想到一转眼就",
+            "entities": {
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -64127,6 +65335,28 @@
             }
           },
           {
+            "id": "82d38b5935",
+            "title": "[GameFreak部长专栏] 第182回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-182/",
+            "date": "2011-01-07",
+            "year": "2011",
+            "source": "増田部長のめざめるパワー 第182回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 索罗亚克来到 GAME FREAK！ 1月9日（星期日），《宝可梦冲刺！》（东京电视台系列）的 索罗亚克要来 ",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦冲刺"
+              ],
+              "organizations": [
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "b300c76e8b",
             "title": "【工作日志】2011年新年问候",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-214/",
@@ -64147,28 +65377,6 @@
               ],
               "events": [
                 "宝可梦对战大会"
-              ]
-            }
-          },
-          {
-            "id": "82d38b5935",
-            "title": "[GameFreak部长专栏] 第182回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-182/",
-            "date": "2011-01-07",
-            "year": "2011",
-            "source": "増田部長のめざめるパワー 第182回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 索罗亚克来到 GAME FREAK！ 1月9日（星期日），《宝可梦冲刺！》（东京电视台系列）的 索罗亚克要来 ",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦冲刺"
-              ],
-              "organizations": [
-                "Game Freak",
-                "东京电视台"
               ]
             }
           },
@@ -64820,6 +66028,29 @@
             }
           },
           {
+            "id": "1b161fcf67",
+            "title": "【设定资料】2010年索罗亚克角色设计",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-art-8/",
+            "date": "2010-08-06",
+            "year": "2010",
+            "source": "杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石·珍珠<br “幻影的霸者 索罗亚克”<br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的<br 动画原创角色设计稿一次性公开给大家！<br ※由于是原案设计，实际使用的角色在<br 细节和颜色等方面会有所不同 评论：杉森建 ■科代<br “能看",
+            "entities": {
+              "people": [
+                "杉森建",
+                "迈克尔·穆尔"
+              ],
+              "works": [
+                "剧场版宝可梦 钻石·珍珠",
+                "幻影的霸者 索罗亚克"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "cdbd4228b3",
             "title": "【工作日志】2010年夏日富士登山回忆",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-194/",
@@ -64852,29 +66083,6 @@
               ],
               "events": [
                 "宝可梦世界锦标赛"
-              ]
-            }
-          },
-          {
-            "id": "1b161fcf67",
-            "title": "【设定资料】2010年索罗亚克角色设计",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-art-8/",
-            "date": "2010-08-06",
-            "year": "2010",
-            "source": "杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石·珍珠<br “幻影的霸者 索罗亚克”<br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的<br 动画原创角色设计稿一次性公开给大家！<br ※由于是原案设计，实际使用的角色在<br 细节和颜色等方面会有所不同 评论：杉森建 ■科代<br “能看",
-            "entities": {
-              "people": [
-                "杉森建",
-                "迈克尔·穆尔"
-              ],
-              "works": [
-                "剧场版宝可梦 钻石·珍珠",
-                "幻影的霸者 索罗亚克"
-              ],
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -65828,6 +67036,24 @@
             }
           },
           {
+            "id": "52dffc9aef",
+            "title": "【工作日志】2009年贺年点阵图大赛",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-162/",
+            "date": "2009-12-25",
+            "year": "2009",
+            "source": "晴れたり時々曇ったり · 年賀ドットコンテスト2010のお知らせ",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" Web开发的カニ子（蟹子）为大家带来今天的年末特别篇，<br 这次将连发两篇博客。<br 一篇是这则通知，另一篇是忘年会报告。 那么先来说通知——今年也要举办贺年点阵图大赛！<br 这个大赛从2008年开始举办，这是第3届，<br 但这次将是最后一届。 我们还为获奖者准备了一份小小的礼物",
+            "entities": {
+              "organizations": [
+                "Game Freak"
+              ],
+              "events": [
+                "贺年点阵图大赛"
+              ]
+            }
+          },
+          {
             "id": "26828930db",
             "title": "【工作日志】2009年忘年会欢乐实录",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-161/",
@@ -65848,24 +67074,6 @@
               ],
               "events": [
                 "忘年会"
-              ]
-            }
-          },
-          {
-            "id": "52dffc9aef",
-            "title": "【工作日志】2009年贺年点阵图大赛",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-162/",
-            "date": "2009-12-25",
-            "year": "2009",
-            "source": "晴れたり時々曇ったり · 年賀ドットコンテスト2010のお知らせ",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" Web开发的カニ子（蟹子）为大家带来今天的年末特别篇，<br 这次将连发两篇博客。<br 一篇是这则通知，另一篇是忘年会报告。 那么先来说通知——今年也要举办贺年点阵图大赛！<br 这个大赛从2008年开始举办，这是第3届，<br 但这次将是最后一届。 我们还为获奖者准备了一份小小的礼物",
-            "entities": {
-              "organizations": [
-                "Game Freak"
-              ],
-              "events": [
-                "贺年点阵图大赛"
               ]
             }
           },
@@ -65956,6 +67164,27 @@
             }
           },
           {
+            "id": "a539f3b344",
+            "title": "【工作日志】心金魂银开发取材记",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-156/",
+            "date": "2009-11-26",
+            "year": "2009",
+            "source": "晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ 番外編",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好。<br 我是企划人员マー（小玛）。 这次就以《畅谈HG・SS！特别篇》为题，<br 来聊聊心金・魂银（以下简称HG・SS）<br 开发初期的故事吧。 项目启动后的一大活动……<br 就是取材！ 我们全体开发人员一起前往了<br 作为城都地区原型的古都进行取材。 取材行程是，<br ",
+            "entities": {
+              "people": [
+                "小玛"
+              ],
+              "works": [
+                "宝可梦 心金·魂银"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "ac202e7324",
             "title": "[GameFreak部长专栏] 第153回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-153/",
@@ -65971,27 +67200,6 @@
               "works": [
                 "宝可梦 金·银",
                 "宝可梦 钻石·珍珠·白金·心金·魂银"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
-            "id": "a539f3b344",
-            "title": "【工作日志】心金魂银开发取材记",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-156/",
-            "date": "2009-11-26",
-            "year": "2009",
-            "source": "晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ 番外編",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好。<br 我是企划人员マー（小玛）。 这次就以《畅谈HG・SS！特别篇》为题，<br 来聊聊心金・魂银（以下简称HG・SS）<br 开发初期的故事吧。 项目启动后的一大活动……<br 就是取材！ 我们全体开发人员一起前往了<br 作为城都地区原型的古都进行取材。 取材行程是，<br ",
-            "entities": {
-              "people": [
-                "小玛"
-              ],
-              "works": [
-                "宝可梦 心金·魂银"
               ],
               "organizations": [
                 "Game Freak"
@@ -66756,6 +67964,21 @@
             }
           },
           {
+            "id": "e2dd547a62",
+            "title": "【工作日志】2009年新人的职场日常",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-122/",
+            "date": "2009-04-17",
+            "year": "2009",
+            "source": "晴れたり時々曇ったり · ゲームフリークの先輩たち",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 初次见面，我是新人策划ほず（阿穗）！ 入职转眼已经两周了，<br 我在礼仪培训中锻炼作为职场人的本领，<br 又在策划培训中锻炼作为工匠的本领，<br 为了成为一名出色的强健创作者，每天都在努力奋斗。 入职前，家里人还吓唬我说：“公司可是又辛苦又严格的哦？”（笑）<br 不过，GAME ",
+            "entities": {
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "e48e3c6488",
             "title": "[GameFreak部长专栏] 第147回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-147/",
@@ -66774,21 +67997,6 @@
               "organizations": [
                 "Game Freak",
                 "电视东京"
-              ]
-            }
-          },
-          {
-            "id": "e2dd547a62",
-            "title": "【工作日志】2009年新人的职场日常",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-122/",
-            "date": "2009-04-17",
-            "year": "2009",
-            "source": "晴れたり時々曇ったり · ゲームフリークの先輩たち",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 初次见面，我是新人策划ほず（阿穗）！ 入职转眼已经两周了，<br 我在礼仪培训中锻炼作为职场人的本领，<br 又在策划培训中锻炼作为工匠的本领，<br 为了成为一名出色的强健创作者，每天都在努力奋斗。 入职前，家里人还吓唬我说：“公司可是又辛苦又严格的哦？”（笑）<br 不过，GAME ",
-            "entities": {
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -66864,6 +68072,24 @@
             }
           },
           {
+            "id": "5299d6308f",
+            "title": "【工作日志】2009东京马拉松初体验",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-118/",
+            "date": "2009-03-27",
+            "year": "2009",
+            "source": "晴れたり時々曇ったり · 東京マラソン ?東京がひとつになる日?",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好，我是总务部的滑板客丸。<br 我参加了3月22日举办的东京马拉松。<br 这可是有3万5千人参加、在东京奔跑的大型活动！！<br 而且这还是滑板客丸第一次挑战全程马拉松。 目标是“跑完全程”。<br 或者即使没能跑完全程，也要一直跑到超越自己的极限。<br （既然要做，就应该做到自",
+            "entities": {
+              "organizations": [
+                "Game Freak"
+              ],
+              "events": [
+                "东京马拉松"
+              ]
+            }
+          },
+          {
             "id": "2b20f2d879",
             "title": "[GameFreak部长专栏] 第145回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-145/",
@@ -66887,24 +68113,6 @@
                 "1UP.com",
                 "GamePro",
                 "WhatTheyPlay"
-              ]
-            }
-          },
-          {
-            "id": "5299d6308f",
-            "title": "【工作日志】2009东京马拉松初体验",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-118/",
-            "date": "2009-03-27",
-            "year": "2009",
-            "source": "晴れたり時々曇ったり · 東京マラソン ?東京がひとつになる日?",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好，我是总务部的滑板客丸。<br 我参加了3月22日举办的东京马拉松。<br 这可是有3万5千人参加、在东京奔跑的大型活动！！<br 而且这还是滑板客丸第一次挑战全程马拉松。 目标是“跑完全程”。<br 或者即使没能跑完全程，也要一直跑到超越自己的极限。<br （既然要做，就应该做到自",
-            "entities": {
-              "organizations": [
-                "Game Freak"
-              ],
-              "events": [
-                "东京马拉松"
               ]
             }
           },
@@ -67119,6 +68327,27 @@
             }
           },
           {
+            "id": "c89304e823",
+            "title": "【工作日志】2009年招聘说明会",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-113/",
+            "date": "2009-02-16",
+            "year": "2009",
+            "source": "晴れたり時々曇ったり · 会社説明会開催しました",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好，我是负责招聘的さとう（佐藤）。 转眼已经是2月了。正在为求职活动忙得不可开交的同学，应该有不少吧？<br 前些天，GAME FREAK也面向应届毕业生举办了公司说明会。 <figure class=\"gf-legacy-image\"<a href=\"/assets/images/g",
+            "entities": {
+              "people": [
+                "佐藤"
+              ],
+              "organizations": [
+                "Game Freak"
+              ],
+              "events": [
+                "公司说明会"
+              ]
+            }
+          },
+          {
             "id": "347c959fea",
             "title": "[GameFreak部长专栏] 第137回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-137/",
@@ -67140,27 +68369,6 @@
               ],
               "events": [
                 "睡觉皮卡丘庆典"
-              ]
-            }
-          },
-          {
-            "id": "c89304e823",
-            "title": "【工作日志】2009年招聘说明会",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-staff-113/",
-            "date": "2009-02-16",
-            "year": "2009",
-            "source": "晴れたり時々曇ったり · 会社説明会開催しました",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 你好，我是负责招聘的さとう（佐藤）。 转眼已经是2月了。正在为求职活动忙得不可开交的同学，应该有不少吧？<br 前些天，GAME FREAK也面向应届毕业生举办了公司说明会。 <figure class=\"gf-legacy-image\"<a href=\"/assets/images/g",
-            "entities": {
-              "people": [
-                "佐藤"
-              ],
-              "organizations": [
-                "Game Freak"
-              ],
-              "events": [
-                "公司说明会"
               ]
             }
           },
@@ -67354,24 +68562,6 @@
             }
           },
           {
-            "id": "39edd49eaa",
-            "title": "[GameFreak部长专栏] 第134回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-134/",
-            "date": "2008-12-26",
-            "year": "2008",
-            "source": "増田部長のめざめるパワー 第134回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 今年也快过完了！ 大家觉得，2008年是怎样的一年呢？ 对我来说，这一年可以说是比以往更加深入地思考电子游戏的",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "d007845cff",
             "title": "【工作日志】2008年年末大扫除与贺年点阵赛",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-104/",
@@ -67386,6 +68576,24 @@
               ],
               "events": [
                 "贺年点阵作品比赛"
+              ]
+            }
+          },
+          {
+            "id": "39edd49eaa",
+            "title": "[GameFreak部长专栏] 第134回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-134/",
+            "date": "2008-12-26",
+            "year": "2008",
+            "source": "増田部長のめざめるパワー 第134回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 今年也快过完了！ 大家觉得，2008年是怎样的一年呢？ 对我来说，这一年可以说是比以往更加深入地思考电子游戏的",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -67496,6 +68704,38 @@
             }
           },
           {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
             "id": "56e1507c38",
             "title": "【工作日志】守护宝可梦的世界观",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-98/",
@@ -67531,6 +68771,35 @@
               ],
               "organizations": [
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -67571,6 +68840,34 @@
             }
           },
           {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "f3ee182bd7",
             "title": "【工作日志】2008年太平燕美食记",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-94/",
@@ -67582,6 +68879,33 @@
             "entities": {
               "organizations": [
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -67804,6 +69128,33 @@
             }
           },
           {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "c885fdd9e3",
             "title": "【工作日志】2009届招聘报名结束",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-86/",
@@ -67818,6 +69169,34 @@
               ],
               "organizations": [
                 "Game Freak"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -67845,6 +69224,35 @@
               ],
               "events": [
                 "宝可梦卡牌游戏大会"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -68010,24 +69418,6 @@
             }
           },
           {
-            "id": "3adc27e705",
-            "title": "【设定资料】骑拉帝纳电影角色设计",
-            "url": "/官方博客/game-freak/数字存档/gamefreak-art-6/",
-            "date": "2008-08-01",
-            "year": "2008",
-            "source": "杉森建のお絵かき日和 · 「ギラティナと氷空の花束 シェイミ」デザイン画",
-            "type": "gamefreak_legacy_blog",
-            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石珍珠<br 「骑拉帝纳与冰空的花束 谢米」<br 这是动画原创角色的设计画！ GAME FREAK 绘制的<br 动画原创角色设计画大公开！<br ※由于是原案设计，和实际使用的角色在<br 细节及颜色等方面有所不同 ■零<br 我理解为：他在渴望得到骑拉帝纳力量的过程",
-            "entities": {
-              "works": [
-                "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
-              ],
-              "organizations": [
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "ffc78dca5e",
             "title": "【工作日志】2008年E3普通说明会现场",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-82/",
@@ -68046,6 +69436,24 @@
               ],
               "events": [
                 "任天堂 2008 E3 普通说明会"
+              ]
+            }
+          },
+          {
+            "id": "3adc27e705",
+            "title": "【设定资料】骑拉帝纳电影角色设计",
+            "url": "/官方博客/game-freak/数字存档/gamefreak-art-6/",
+            "date": "2008-08-01",
+            "year": "2008",
+            "source": "杉森建のお絵かき日和 · 「ギラティナと氷空の花束 シェイミ」デザイン画",
+            "type": "gamefreak_legacy_blog",
+            "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石珍珠<br 「骑拉帝纳与冰空的花束 谢米」<br 这是动画原创角色的设计画！ GAME FREAK 绘制的<br 动画原创角色设计画大公开！<br ※由于是原案设计，和实际使用的角色在<br 细节及颜色等方面有所不同 ■零<br 我理解为：他在渴望得到骑拉帝纳力量的过程",
+            "entities": {
+              "works": [
+                "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
+              ],
+              "organizations": [
+                "Game Freak"
               ]
             }
           },
@@ -68404,6 +69812,27 @@
             }
           },
           {
+            "id": "2e47f99017",
+            "title": "[GameFreak部长专栏] 第127回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-127/",
+            "date": "2008-05-16",
+            "year": "2008",
+            "source": "増田部長のめざめるパワー 第127回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 大家可能已经知道了， 2008年，秋季。 《宝可梦》系列最新作品预计将在这个秋天发售！ 它的名字就是， 《宝可",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 白金"
+              ],
+              "organizations": [
+                "Game Freak"
+              ]
+            }
+          },
+          {
             "id": "ea5cd99a12",
             "title": "【工作日志】2008年宝可梦对抗赛",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-70/",
@@ -68435,27 +69864,6 @@
               "events": [
                 "公司内部宝可梦DP对战大会",
                 "公司对抗宝可梦DP对战大会"
-              ]
-            }
-          },
-          {
-            "id": "2e47f99017",
-            "title": "[GameFreak部长专栏] 第127回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-127/",
-            "date": "2008-05-16",
-            "year": "2008",
-            "source": "増田部長のめざめるパワー 第127回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 大家可能已经知道了， 2008年，秋季。 《宝可梦》系列最新作品预计将在这个秋天发售！ 它的名字就是， 《宝可",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 白金"
-              ],
-              "organizations": [
-                "Game Freak"
               ]
             }
           },
@@ -74508,6 +75916,122 @@
             }
           },
           {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "b0c8990a95",
             "title": "[GameFreak部长专栏] 第132回",
             "url": "/官方博客/game-freak/翻译资料/gamefreak-director-132/",
@@ -74526,6 +76050,90 @@
               "organizations": [
                 "Game Freak",
                 "任天堂"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
               ]
             }
           },
@@ -75189,29 +76797,6 @@
             }
           },
           {
-            "id": "e12353bd7d",
-            "title": "[GameFreak部长专栏] 第126回",
-            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-126/",
-            "date": "2008-02-29",
-            "year": "2008",
-            "source": "増田部長のめざめるパワー 第126回",
-            "type": "gamefreak_director_column",
-            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo",
-            "entities": {
-              "people": [
-                "增田顺一"
-              ],
-              "works": [
-                "宝可梦 皮卡丘版"
-              ],
-              "organizations": [
-                "任天堂",
-                "Creatures",
-                "Game Freak"
-              ]
-            }
-          },
-          {
             "id": "528d754f67",
             "title": "【工作日志】2008年游戏收藏与创作",
             "url": "/官方博客/game-freak/数字存档/gamefreak-staff-60/",
@@ -75232,6 +76817,29 @@
                 "Game Freak",
                 "任天堂",
                 "Atari"
+              ]
+            }
+          },
+          {
+            "id": "e12353bd7d",
+            "title": "[GameFreak部长专栏] 第126回",
+            "url": "/官方博客/game-freak/翻译资料/gamefreak-director-126/",
+            "date": "2008-02-29",
+            "year": "2008",
+            "source": "増田部長のめざめるパワー 第126回",
+            "type": "gamefreak_director_column",
+            "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo",
+            "entities": {
+              "people": [
+                "增田顺一"
+              ],
+              "works": [
+                "宝可梦 皮卡丘版"
+              ],
+              "organizations": [
+                "任天堂",
+                "Creatures",
+                "Game Freak"
               ]
             }
           },
@@ -76837,6 +78445,232 @@
         "type_label": "组织",
         "url": "/entities/organizations/e5b08fe5ada6e9a686/",
         "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
           {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
@@ -78623,6 +80457,206 @@
         "url": "/entities/organizations/olm/",
         "posts": [
           {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
             "id": "38ac8b10f1",
             "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
             "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/",
@@ -79276,6 +81310,232 @@
               "organizations": [
                 "Game Freak",
                 "任天堂",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "d68bc457ab",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+            "date": "2008-11-12",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "超梦的逆袭",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "6e61338ecf",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+            "date": "2008-11-05",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "cb7d4aef70",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+            "date": "2008-10-29",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "ced21c726a",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+            "date": "2008-09-10",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "eacc0f0bf3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+            "date": "2008-09-03",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "机动战舰抚子号",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台"
+              ]
+            }
+          },
+          {
+            "id": "57ad93138b",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+            "date": "2008-08-27",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "武藏",
+                "小次郎"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
                 "东京电视台"
               ]
             }
@@ -80038,6 +82298,158 @@
                 "夏令营",
                 "独立摔角",
                 "奥运会"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2008"
+        ]
+      },
+      "集英社": {
+        "name": "集英社",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/e99b86e88bb1e7a4be/",
+        "posts": [
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2008"
+        ]
+      },
+      "NHK": {
+        "name": "NHK",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/nhk/",
+        "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
+              ]
+            }
+          },
+          {
+            "id": "2de6c375c0",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+            "date": "2008-11-19",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "久保雅一"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿"
+              ],
+              "organizations": [
+                "小学馆",
+                "集英社",
+                "NHK",
+                "东京电视台"
+              ]
+            }
+          }
+        ],
+        "annotations": [],
+        "years": [
+          "2008"
+        ]
+      },
+      "日本民间放送联盟": {
+        "name": "日本民间放送联盟",
+        "type": "organizations",
+        "type_label": "组织",
+        "url": "/entities/organizations/e697a5e69cace6b091e997b4e694bee98081e88194e79b9f/",
+        "posts": [
+          {
+            "id": "d41deb9da3",
+            "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+            "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+            "date": "2008-11-26",
+            "year": "2008",
+            "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+            "type": "interview_translation",
+            "excerpt": "",
+            "entities": {
+              "people": [
+                "首藤刚志",
+                "汤山邦彦",
+                "久保雅一",
+                "桥本忍"
+              ],
+              "works": [
+                "宝可梦 动画系列",
+                "宝可梦 红·绿",
+                "超梦的逆袭"
+              ],
+              "organizations": [
+                "OLM",
+                "小学馆",
+                "任天堂",
+                "Game Freak",
+                "东京电视台",
+                "NHK",
+                "日本民间放送联盟"
               ]
             }
           }
@@ -94659,6 +97071,38 @@
           }
         },
         {
+          "id": "d41deb9da3",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+          "date": "2008-11-26",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦",
+              "久保雅一",
+              "桥本忍"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿",
+              "超梦的逆袭"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台",
+              "NHK",
+              "日本民间放送联盟"
+            ]
+          }
+        },
+        {
           "id": "56e1507c38",
           "title": "【工作日志】守护宝可梦的世界观",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-98/",
@@ -94670,6 +97114,32 @@
           "entities": {
             "organizations": [
               "Game Freak"
+            ]
+          }
+        },
+        {
+          "id": "2de6c375c0",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+          "date": "2008-11-19",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "久保雅一"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "小学馆",
+              "集英社",
+              "NHK",
+              "东京电视台"
             ]
           }
         },
@@ -94694,6 +97164,35 @@
             ],
             "organizations": [
               "Game Freak"
+            ]
+          }
+        },
+        {
+          "id": "d68bc457ab",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+          "date": "2008-11-12",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦",
+              "久保雅一"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "超梦的逆袭",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
             ]
           }
         },
@@ -94734,6 +97233,34 @@
           }
         },
         {
+          "id": "6e61338ecf",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+          "date": "2008-11-05",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦",
+              "久保雅一"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
+            ]
+          }
+        },
+        {
           "id": "f3ee182bd7",
           "title": "【工作日志】2008年太平燕美食记",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-94/",
@@ -94745,6 +97272,33 @@
           "entities": {
             "organizations": [
               "Game Freak"
+            ]
+          }
+        },
+        {
+          "id": "cb7d4aef70",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+          "date": "2008-10-29",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
             ]
           }
         },
@@ -94836,6 +97390,27 @@
           }
         },
         {
+          "id": "38c147a825",
+          "title": "[GameFreak部长专栏] 第133回",
+          "url": "/官方博客/game-freak/翻译资料/gamefreak-director-133/",
+          "date": "2008-09-26",
+          "year": "2008",
+          "source": "増田部長のめざめるパワー 第133回",
+          "type": "gamefreak_director_column",
+          "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 之前我写过，在白金版里创作了一首新曲， 猜到是哪首了吗？？ 答案是《战斗！骑拉帝纳》。 感觉怎么样？ 这首战斗",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可梦 白金"
+            ],
+            "organizations": [
+              "Game Freak"
+            ]
+          }
+        },
+        {
           "id": "ffb7ed2b47",
           "title": "【工作日志】2008年白金版开发秘闻",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-89/",
@@ -94852,27 +97427,6 @@
             "works": [
               "宝可梦 白金",
               "宝可梦 钻石·珍珠"
-            ],
-            "organizations": [
-              "Game Freak"
-            ]
-          }
-        },
-        {
-          "id": "38c147a825",
-          "title": "[GameFreak部长专栏] 第133回",
-          "url": "/官方博客/game-freak/翻译资料/gamefreak-director-133/",
-          "date": "2008-09-26",
-          "year": "2008",
-          "source": "増田部長のめざめるパワー 第133回",
-          "type": "gamefreak_director_column",
-          "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 之前我写过，在白金版里创作了一首新曲， 猜到是哪首了吗？？ 答案是《战斗！骑拉帝纳》。 感觉怎么样？ 这首战斗",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "works": [
-              "宝可梦 白金"
             ],
             "organizations": [
               "Game Freak"
@@ -94967,6 +97521,33 @@
           }
         },
         {
+          "id": "ced21c726a",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+          "date": "2008-09-10",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
+            ]
+          }
+        },
+        {
           "id": "c885fdd9e3",
           "title": "【工作日志】2009届招聘报名结束",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-86/",
@@ -94981,6 +97562,34 @@
             ],
             "organizations": [
               "Game Freak"
+            ]
+          }
+        },
+        {
+          "id": "eacc0f0bf3",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+          "date": "2008-09-03",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "机动战舰抚子号",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
             ]
           }
         },
@@ -95008,6 +97617,35 @@
             ],
             "events": [
               "宝可梦卡牌游戏大会"
+            ]
+          }
+        },
+        {
+          "id": "57ad93138b",
+          "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+          "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+          "date": "2008-08-27",
+          "year": "2008",
+          "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+          "type": "interview_translation",
+          "excerpt": "",
+          "entities": {
+            "people": [
+              "首藤刚志",
+              "汤山邦彦",
+              "武藏",
+              "小次郎"
+            ],
+            "works": [
+              "宝可梦 动画系列",
+              "宝可梦 红·绿"
+            ],
+            "organizations": [
+              "OLM",
+              "小学馆",
+              "任天堂",
+              "Game Freak",
+              "东京电视台"
             ]
           }
         },
@@ -95173,6 +97811,24 @@
           }
         },
         {
+          "id": "3adc27e705",
+          "title": "【设定资料】骑拉帝纳电影角色设计",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-art-6/",
+          "date": "2008-08-01",
+          "year": "2008",
+          "source": "杉森建のお絵かき日和 · 「ギラティナと氷空の花束 シェイミ」デザイン画",
+          "type": "gamefreak_legacy_blog",
+          "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石珍珠<br 「骑拉帝纳与冰空的花束 谢米」<br 这是动画原创角色的设计画！ GAME FREAK 绘制的<br 动画原创角色设计画大公开！<br ※由于是原案设计，和实际使用的角色在<br 细节及颜色等方面有所不同 ■零<br 我理解为：他在渴望得到骑拉帝纳力量的过程",
+          "entities": {
+            "works": [
+              "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
+            ],
+            "organizations": [
+              "Game Freak"
+            ]
+          }
+        },
+        {
           "id": "ffc78dca5e",
           "title": "【工作日志】2008年E3普通说明会现场",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-82/",
@@ -95191,24 +97847,6 @@
             ],
             "events": [
               "任天堂 2008 E3 普通说明会"
-            ]
-          }
-        },
-        {
-          "id": "3adc27e705",
-          "title": "【设定资料】骑拉帝纳电影角色设计",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-art-6/",
-          "date": "2008-08-01",
-          "year": "2008",
-          "source": "杉森建のお絵かき日和 · 「ギラティナと氷空の花束 シェイミ」デザイン画",
-          "type": "gamefreak_legacy_blog",
-          "excerpt": "<div data-gf-language-panel=\"zh-CN\" 剧场版宝可梦 钻石珍珠<br 「骑拉帝纳与冰空的花束 谢米」<br 这是动画原创角色的设计画！ GAME FREAK 绘制的<br 动画原创角色设计画大公开！<br ※由于是原案设计，和实际使用的角色在<br 细节及颜色等方面有所不同 ■零<br 我理解为：他在渴望得到骑拉帝纳力量的过程",
-          "entities": {
-            "works": [
-              "剧场版宝可梦 钻石珍珠「骑拉帝纳与冰空的花束 谢米」"
-            ],
-            "organizations": [
-              "Game Freak"
             ]
           }
         },
@@ -95361,6 +97999,25 @@
           }
         },
         {
+          "id": "0de243ffb0",
+          "title": "【工作日志】2008年招聘与办公室日常",
+          "url": "/官方博客/game-freak/数字存档/gamefreak-staff-74/",
+          "date": "2008-06-11",
+          "year": "2008",
+          "source": "晴れたり時々曇ったり · 採用：２次募集の日程が決まりました！",
+          "type": "gamefreak_legacy_blog",
+          "excerpt": "<div data-gf-language-panel=\"zh-CN\" 我是负责招聘的もりもと（森本）。 关于2009年度应届毕业生招聘的第一次招募，所有日程都已经结束啦！<br 非常感谢各位同学从宝贵的时间中抽出时间，为了GAME FREAK参与招聘。<br 真的非常感谢大家。 另外，第二次招募的详细安排也已经确定，现通知如下。<br 第二次招募的应聘作品",
+          "entities": {
+            "people": [
+              "森本"
+            ],
+            "organizations": [
+              "Game Freak",
+              "Recruit Navi"
+            ]
+          }
+        },
+        {
           "id": "e8c09e0e93",
           "title": "[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）",
           "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/",
@@ -95386,25 +98043,6 @@
               "任天堂",
               "Game Freak",
               "东京电视台"
-            ]
-          }
-        },
-        {
-          "id": "0de243ffb0",
-          "title": "【工作日志】2008年招聘与办公室日常",
-          "url": "/官方博客/game-freak/数字存档/gamefreak-staff-74/",
-          "date": "2008-06-11",
-          "year": "2008",
-          "source": "晴れたり時々曇ったり · 採用：２次募集の日程が決まりました！",
-          "type": "gamefreak_legacy_blog",
-          "excerpt": "<div data-gf-language-panel=\"zh-CN\" 我是负责招聘的もりもと（森本）。 关于2009年度应届毕业生招聘的第一次招募，所有日程都已经结束啦！<br 非常感谢各位同学从宝贵的时间中抽出时间，为了GAME FREAK参与招聘。<br 真的非常感谢大家。 另外，第二次招募的详细安排也已经确定，现通知如下。<br 第二次招募的应聘作品",
-          "entities": {
-            "people": [
-              "森本"
-            ],
-            "organizations": [
-              "Game Freak",
-              "Recruit Navi"
             ]
           }
         },
@@ -96068,29 +98706,6 @@
           }
         },
         {
-          "id": "e12353bd7d",
-          "title": "[GameFreak部长专栏] 第126回",
-          "url": "/官方博客/game-freak/翻译资料/gamefreak-director-126/",
-          "date": "2008-02-29",
-          "year": "2008",
-          "source": "増田部長のめざめるパワー 第126回",
-          "type": "gamefreak_director_column",
-          "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo",
-          "entities": {
-            "people": [
-              "增田顺一"
-            ],
-            "works": [
-              "宝可梦 皮卡丘版"
-            ],
-            "organizations": [
-              "任天堂",
-              "Creatures",
-              "Game Freak"
-            ]
-          }
-        },
-        {
           "id": "528d754f67",
           "title": "【工作日志】2008年游戏收藏与创作",
           "url": "/官方博客/game-freak/数字存档/gamefreak-staff-60/",
@@ -96111,6 +98726,29 @@
               "Game Freak",
               "任天堂",
               "Atari"
+            ]
+          }
+        },
+        {
+          "id": "e12353bd7d",
+          "title": "[GameFreak部长专栏] 第126回",
+          "url": "/官方博客/game-freak/翻译资料/gamefreak-director-126/",
+          "date": "2008-02-29",
+          "year": "2008",
+          "source": "増田部長のめざめるパワー 第126回",
+          "type": "gamefreak_director_column",
+          "excerpt": "<aside class=\"gf-director-translation-note\"<strong中文译稿已完成校对</strong<span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。</span</aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo",
+          "entities": {
+            "people": [
+              "增田顺一"
+            ],
+            "works": [
+              "宝可梦 皮卡丘版"
+            ],
+            "organizations": [
+              "任天堂",
+              "Creatures",
+              "Game Freak"
             ]
           }
         },
@@ -117295,6 +119933,35 @@
       }
     },
     {
+      "id": "57ad93138b",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch158/",
+      "date": "2008-08-27",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第158回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦",
+          "武藏",
+          "小次郎"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
+        ]
+      }
+    },
+    {
       "id": "242a57b0ee",
       "title": "【工作日志】2008年夏日卡牌大会",
       "url": "/官方博客/game-freak/数字存档/gamefreak-staff-85/",
@@ -117322,6 +119989,34 @@
       }
     },
     {
+      "id": "eacc0f0bf3",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch159/",
+      "date": "2008-09-03",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第159回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "机动战舰抚子号",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
+        ]
+      }
+    },
+    {
       "id": "c885fdd9e3",
       "title": "【工作日志】2009届招聘报名结束",
       "url": "/官方博客/game-freak/数字存档/gamefreak-staff-86/",
@@ -117336,6 +120031,33 @@
         ],
         "organizations": [
           "Game Freak"
+        ]
+      }
+    },
+    {
+      "id": "ced21c726a",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch160/",
+      "date": "2008-09-10",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第160回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
         ]
       }
     },
@@ -117558,6 +120280,33 @@
       }
     },
     {
+      "id": "cb7d4aef70",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch161/",
+      "date": "2008-10-29",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第161回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
+        ]
+      }
+    },
+    {
       "id": "f3ee182bd7",
       "title": "【工作日志】2008年太平燕美食记",
       "url": "/官方博客/game-freak/数字存档/gamefreak-staff-94/",
@@ -117569,6 +120318,34 @@
       "entities": {
         "organizations": [
           "Game Freak"
+        ]
+      }
+    },
+    {
+      "id": "6e61338ecf",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch162/",
+      "date": "2008-11-05",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第162回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦",
+          "久保雅一"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
         ]
       }
     },
@@ -117609,6 +120386,35 @@
       }
     },
     {
+      "id": "d68bc457ab",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch163/",
+      "date": "2008-11-12",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第163回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦",
+          "久保雅一"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "超梦的逆袭",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台"
+        ]
+      }
+    },
+    {
       "id": "a3899e0d73",
       "title": "【工作日志】2008年白金音乐设计",
       "url": "/官方博客/game-freak/数字存档/gamefreak-staff-97/",
@@ -117633,6 +120439,32 @@
       }
     },
     {
+      "id": "2de6c375c0",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch164/",
+      "date": "2008-11-19",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第164回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "久保雅一"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿"
+        ],
+        "organizations": [
+          "小学馆",
+          "集英社",
+          "NHK",
+          "东京电视台"
+        ]
+      }
+    },
+    {
       "id": "56e1507c38",
       "title": "【工作日志】守护宝可梦的世界观",
       "url": "/官方博客/game-freak/数字存档/gamefreak-staff-98/",
@@ -117644,6 +120476,38 @@
       "entities": {
         "organizations": [
           "Game Freak"
+        ]
+      }
+    },
+    {
+      "id": "d41deb9da3",
+      "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+      "url": "/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/",
+      "date": "2008-11-26",
+      "year": "2008",
+      "source": "WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回",
+      "type": "interview_translation",
+      "excerpt": "",
+      "entities": {
+        "people": [
+          "首藤刚志",
+          "汤山邦彦",
+          "久保雅一",
+          "桥本忍"
+        ],
+        "works": [
+          "宝可梦 动画系列",
+          "宝可梦 红·绿",
+          "超梦的逆袭"
+        ],
+        "organizations": [
+          "OLM",
+          "小学馆",
+          "任天堂",
+          "Game Freak",
+          "东京电视台",
+          "NHK",
+          "日本民间放送联盟"
         ]
       }
     },

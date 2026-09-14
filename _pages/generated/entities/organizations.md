@@ -30,7 +30,7 @@ search: false
 <a href="/entities/organizations/fami/"><strong>Fami通</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/g4tv/"><strong>G4TV</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/game-stop/"><strong>GAME STOP</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>762 条资料</span></a>
+<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>769 条资料</span></a>
 <a href="/entities/organizations/gamepro/"><strong>GamePro</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/gamestop/"><strong>GameStop</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/gamesradar/"><strong>GamesRadar</strong><span>1 条资料</span></a>
@@ -42,12 +42,13 @@ search: false
 <a href="/entities/organizations/korg/"><strong>KORG</strong><span>7 条资料</span></a>
 <a href="/entities/organizations/line-blog/"><strong>LINE BLOG</strong><span>251 条资料</span></a>
 <a href="/entities/organizations/media-factory/"><strong>Media Factory</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/nhk/"><strong>NHK</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/ntt-docomo/"><strong>NTT DOCOMO</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/niantic/"><strong>Niantic</strong><span>3 条资料</span></a>
 <a href="/entities/organizations/nifty/"><strong>Nifty</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>30 条资料</span></a>
 <a href="/entities/organizations/nintendo-power/"><strong>Nintendo Power</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/olm/"><strong>OLM</strong><span>18 条资料</span></a>
+<a href="/entities/organizations/olm/"><strong>OLM</strong><span>25 条资料</span></a>
 <a href="/entities/organizations/one-direction/"><strong>One Direction</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/poke-amice-docs/"><strong>Poke Amice Docs</strong><span>6 条资料</span></a>
 <a href="/entities/organizations/pok-mon-korea-inc/"><strong>Pokémon Korea, Inc.</strong><span>1 条资料</span></a>
@@ -64,10 +65,10 @@ search: false
 <a href="/entities/organizations/pokemon-com/"><strong>pokemon.com</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e3839de382b1e383a2e383b3e382bbe383b3e382bfe383bc/"><strong>ポケモンセンター株式会社</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4b896e59889/"><strong>世嘉</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"><strong>东京电视台</strong><span>21 条资料</span></a>
+<a href="/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"><strong>东京电视台</strong><span>29 条资料</span></a>
 <a href="/entities/organizations/e4b89ce4baace980a0e5bda2e5a4a7e5ada6/"><strong>东京造形大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4b89ce697a5e69cace99381e8b7af/"><strong>东日本铁路</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>82 条资料</span></a>
+<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>89 条资料</span></a>
 <a href="/entities/organizations/e4bbbbe5a4a9e5a082e6a0aae5bc8fe4bc9ae7a4be/"><strong>任天堂株式会社</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/e4bbbbe5a4a9e5a082e6aca7e6b4b2/"><strong>任天堂欧洲</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4bfa1e681afe69687e58c96e5ada6e4bc9a/"><strong>信息文化学会</strong><span>1 条资料</span></a>
@@ -91,9 +92,10 @@ search: false
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e99fa9e59bbd/"><strong>宝可梦韩国</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5aeabe59f8ee5a4a7e5ada6/"><strong>宫城大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5af8ce5a3abe9809a/"><strong>富士通</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e5b08fe5ada6e9a686/"><strong>小学馆</strong><span>19 条资料</span></a>
+<a href="/entities/organizations/e5b08fe5ada6e9a686/"><strong>小学馆</strong><span>27 条资料</span></a>
 <a href="/entities/organizations/e5b08fe5b2a9e4ba95e4b9b3e4b89ae6a0aae5bc8fe4bc9a/"><strong>小岩井乳业株式会社</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e68998e9a9ace696afe891a1e89084e98592e985bfe980a0/"><strong>托马斯葡萄酒酿造所</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/e697a5e69cace6b091e997b4e694bee98081e88194e79b9f/"><strong>日本民间放送联盟</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e697a5e69cace794b5e5ad90e4b893e997a8e5ada6e6a0a1/"><strong>日本电子专门学校</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/e697a9e7a8bbe794b0e5a4a7e5ada6/"><strong>早稻田大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e6989fe5b7b4e5858b/"><strong>星巴克</strong><span>4 条资料</span></a>
@@ -119,6 +121,7 @@ search: false
 <a href="/entities/organizations/e88bb9e69e9ce585ace58fb8/"><strong>苹果公司</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e998bfe587a1e6a3aee69e97/"><strong>阿凡森林</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e99b85e8bebee588a9/"><strong>雅达利</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/e99b86e88bb1e7a4be/"><strong>集英社</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e9baa6e5bd93e58ab3/"><strong>麦当劳</strong><span>1 条资料</span></a>
   </div>
 </section>

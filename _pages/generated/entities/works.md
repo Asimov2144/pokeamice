@@ -86,7 +86,7 @@ search: false
 <a href="/entities/works/x-y/"><strong>宝可梦 X·Y</strong><span>41 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe/"><strong>宝可梦 剑·盾</strong><span>21 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58991efbc8fe79bbe+e689a9e585/"><strong>宝可梦 剑／盾 扩充票</strong><span>1 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"><strong>宝可梦 动画系列</strong><span>18 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"><strong>宝可梦 动画系列</strong><span>26 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e5a4aae998b3c2b7e69c88e4baae/"><strong>宝可梦 太阳·月亮</strong><span>45 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"><strong>宝可梦 心金·魂银</strong><span>34 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e68898e69697e99da9e591bd/"><strong>宝可梦 战斗革命</strong><span>1 条资料</span></a>
@@ -104,7 +104,7 @@ search: false
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7a9b6e69e81e4b98be697a5c2b7e/"><strong>宝可梦 究极之日·究极之月</strong><span>6 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7a9b6e69e81e4b98be697a5efbc8/"><strong>宝可梦 究极之日／究极之月</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7ab8be4bd93e59bbee989b4/"><strong>宝可梦 立体图鉴</strong><span>1 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"><strong>宝可梦 红·绿</strong><span>87 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"><strong>宝可梦 红·绿</strong><span>95 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbfc2b7e8939d/"><strong>宝可梦 红·绿·蓝</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"><strong>宝可梦 红宝石·蓝宝石</strong><span>30 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"><strong>宝可梦 红宝石·蓝宝石·绿宝石</strong><span>2 条资料</span></a>
@@ -176,6 +176,7 @@ search: false
 <a href="/entities/works/e698a5e4b98be7a5ad/"><strong>春之祭</strong><span>1 条资料</span></a>
 <a href="/entities/works/e69993e5afba/"><strong>晓寺</strong><span>1 条资料</span></a>
 <a href="/entities/works/iv/"><strong>最终幻想IV</strong><span>1 条资料</span></a>
+<a href="/entities/works/e69cbae58aa8e68898e888b0e68a9ae5ad90e58fb7/"><strong>机动战舰抚子号</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6a183e5a4aae9838ee794b5e99381/"><strong>桃太郎电铁</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6a2a6e5b9bb/"><strong>梦幻</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6af94e5858be68f90e5b0bce4b88ee799bde88bb1e99b84/"><strong>比克提尼与白英雄莱希拉姆</strong><span>1 条资料</span></a>
@@ -205,6 +206,7 @@ search: false
 <a href="/entities/works/e89ebae6978be7a0b4e59d8fe88085+e8bdb0e68cafe992b/"><strong>螺旋破坏者 轰振钻钻乐乐</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8af85e59292e79a84e69ca8e4b983e4bc8a/"><strong>诅咒的木乃伊</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8b4b9e58aa0e7bd97e79a84e5a99ae7a4bc/"><strong>费加罗的婚礼</strong><span>1 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"><strong>超梦的逆袭</strong><span>2 条资料</span></a>
 <a href="/entities/works/e8b685e7baa7e5ae9de58fafe6a2a6e4b9b1e68898/"><strong>超级宝可梦乱战</strong><span>5 条资料</span></a>
 <a href="/entities/works/e8bfb7e5aeabe5a194/"><strong>迷宫塔</strong><span>1 条资料</span></a>
 <a href="/entities/works/vs/"><strong>酋雷姆VS圣剑士凯路迪欧</strong><span>1 条资料</span></a>
