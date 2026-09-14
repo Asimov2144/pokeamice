@@ -13364,11 +13364,11 @@
   },
   {
     "id": "PKMN-0492",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第7回",
-    "original_title": "シナリオライターの記録 第7回",
-    "url": "http://style.fm/as/05_column/shuto/shuto007.shtml",
+    "title": "首藤刚志手记：第144回 宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+    "original_title": "第144回　『ポケモン』シリーズ構成",
+    "url": "http://www.style.fm/as/05_column/shudo144.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto007.shtml",
-    "date": "2005-02-15",
+    "date": "2008-04-16",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13385,16 +13385,36 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第144回：揭秘长篇动画“系列构成”的真正职责与剧本流水线机制。",
+    "status": "imported",
+    "post_url": "/2008/04/16/interview-takeshi-shudo-pokemon-memoir-ch144/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "田尻智",
+        "石原恒和"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0493",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第8回",
-    "original_title": "シナリオライターの記録 第8回",
-    "url": "http://style.fm/as/05_column/shuto/shuto008.shtml",
+    "title": "首藤刚志手记：第145回 开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）",
+    "original_title": "第145回　『ポケモン』打ち入りパーティで……",
+    "url": "http://www.style.fm/as/05_column/shudo145.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto008.shtml",
-    "date": "2005-09-15",
+    "date": "2008-04-23",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13411,16 +13431,38 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第145回：深情回溯开播誓师酒会，林原惠美、三木真一郎与犬山犬子的热血气场与跨代际受众哲学。",
+    "status": "imported",
+    "post_url": "/2008/04/23/interview-takeshi-shudo-pokemon-memoir-ch145/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "林原惠美",
+        "三木真一郎",
+        "犬山犬子",
+        "松本梨香"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0494",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第9回",
-    "original_title": "シナリオライターの記録 第9回",
-    "url": "http://style.fm/as/05_column/shuto/shuto009.shtml",
+    "title": "首藤刚志手记：第146回 我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）",
+    "original_title": "第146回　アニメ『ポケモン』で僕にできる事は？",
+    "url": "http://www.style.fm/as/05_column/shudo146.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto009.shtml",
-    "date": "2005-04-15",
+    "date": "2008-04-30",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13437,16 +13479,34 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第146回：深情回望身为老派文人在庞大现代企划中的定位，以长辈的胸怀赋能年轻编剧尽情发挥。",
+    "status": "imported",
+    "post_url": "/2008/04/30/interview-takeshi-shudo-pokemon-memoir-ch146/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0495",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第10回",
-    "original_title": "シナリオライターの記録 第10回",
-    "url": "http://style.fm/as/05_column/shuto/shuto010.shtml",
+    "title": "首藤刚志手记：第147回 “无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）",
+    "original_title": "第147回　『ポケモン』何もしてないシリーズ構成",
+    "url": "http://www.style.fm/as/05_column/shudo147.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto010.shtml",
-    "date": "2005-11-15",
+    "date": "2008-05-07",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13463,16 +13523,35 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第147回：从旧软盘中的极简系列大纲，重温第5话武上纯希致敬柘植义春《无能的人》的绝妙神来之笔。",
+    "status": "imported",
+    "post_url": "/2008/05/07/interview-takeshi-shudo-pokemon-memoir-ch147/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "武上纯希",
+        "汤山邦彦"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0496",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第11回",
-    "original_title": "シナリオライターの記録 第11回",
-    "url": "http://style.fm/as/05_column/shuto/shuto011.shtml",
+    "title": "首藤刚志手记：第148回 第9话『宝可梦必胜指南』（应试教育与理论派的落败）",
+    "original_title": "第148回　「ポケモンひっしょうマニュアル」",
+    "url": "http://www.style.fm/as/05_column/shudo148.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto011.shtml",
-    "date": "2005-06-15",
+    "date": "2008-05-14",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13489,16 +13568,34 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第148回：详述第9话名门贵族补习学校的应试内卷隐喻，小智与皮卡丘用实战意志击碎冰冷公式。",
+    "status": "imported",
+    "post_url": "/2008/05/14/interview-takeshi-shudo-pokemon-memoir-ch148/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0497",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第12回",
-    "original_title": "シナリオライターの記録 第12回",
-    "url": "http://style.fm/as/05_column/shuto/shuto012.shtml",
+    "title": "首藤刚志手记：第149回 让宝可梦稍微写实一点……？（校园霸凌的暗线与社会现实反思）",
+    "original_title": "第149回　『ポケモン』ちょっとだけリアルにしたら……？",
+    "url": "http://www.style.fm/as/05_column/shudo149.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto012.shtml",
-    "date": "2005-01-15",
+    "date": "2008-05-21",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13515,8 +13612,26 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔连载手记第149回：剖析动画中现实主义比重的拿捏，反思隐秘阴湿的校园霸凌，在童话中注入刺痛人心的力量。",
+    "status": "imported",
+    "post_url": "/2008/05/21/interview-takeshi-shudo-pokemon-memoir-ch149/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0498",
