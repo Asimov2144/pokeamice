@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Game Freak</h2>
-    <span>756 篇文章 · 0 条评注 · 2025 / 2024 / 2022 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000</span>
+    <span>762 篇文章 · 0 条评注 · 2025 / 2024 / 2022 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -901,12 +901,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 台湾:シークレットゲスト</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/">【活动】2016台湾宝可梦全国联赛</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 台湾:淡水老街</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4074508/">【日记】2016年台湾淡水老街之旅</a></h3>
   <span>昨天的一天 &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4074508/001-ea69e7103f.webp&quot; target=&quot;blank&quot; rel=&quot;noopener&quot;&lt;img src=&quot;/assets/images/gamefreak-l</span>
@@ -916,6 +910,12 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 台湾:可達鴨（こだや）</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4074495/">【日记】2016台湾士林夜市的可达鸭</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;台湾的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 台湾:シークレットゲスト</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4073542/">【活动】2016台湾宝可梦全国联赛</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4073542/001-09000beaa2.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
@@ -931,21 +931,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ぬれる？</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4031356/">【活动】2016横滨皮卡丘大量出现</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · E3</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3891134/">【活动】2016年洛杉矶宝可梦E3</a></h3>
   <span>E3 2016 （电子娱乐博览会） &lt;br 举办地点是 洛杉矶！ &lt;br &lt;br &lt;br 今年将在 洛杉矶时间 6月14日（星期二）至16日（星期四）举办！ &lt;br &lt;br 三年前的E3上， 我们公布了宝可梦 X・Y 全球首次公开的影像 以及最新情报！ &lt;br （照片是E3 2013的彩排现场！） &lt;figure class=&quot;gf-lineblog-ima</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 総選挙720結果発表セレモニー</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/">【活动】2016宝可梦总选举结果公布</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;大家&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;都</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ぬれる？</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4031356/">【活动】2016横滨皮卡丘大量出现</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
 <article class="resource-network-card">
@@ -955,9 +949,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 総選挙720結果発表セレモニー</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3991437/">【活动】2016宝可梦总选举结果公布</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;大家&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;都</span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · メェークル</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3846757/">【创作】2016年坐骑小羊的秘密</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;说起来……&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン総選挙セレモニー！LINE LIVEにて放送！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3895109/">【活动】2016年宝可梦总选举</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3895109/001-f38a90f750.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
@@ -973,21 +979,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン総選挙セレモニー！LINE LIVEにて放送！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3895109/">【活动】2016年宝可梦总选举</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3895109/001-f38a90f750.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンストア新千歳空港店</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3939372/">【活动】2016年新千岁机场宝可梦商店</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;居然！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターサッポロ（控室）</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3921825/">【活动】2016札幌宝可梦中心</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;这次的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンストア新千歳空港店</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3939372/">【活动】2016年新千岁机场宝可梦商店</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;居然！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
 <article class="resource-network-card">
@@ -1003,15 +1003,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/">【活动】2016年宝可梦太阳月亮新情报</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 大家看了吗？ &lt;a class=&quot;gf-lineblog-source-link&quot; href=&quot;http://www.pokemon.co.jp/ex/sunmoon/?a001=msign&quot; target=&quot;blank&quot; rel=&quot;noope</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · あと12時間（12 hours to go)</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3864160/">【活动】2016年宝可梦日月新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3864160/001-155d41f1fd.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケットモンスター サン・ムーン新情報！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3884210/">【活动】2016年宝可梦太阳月亮新情报</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 大家看了吗？ &lt;a class=&quot;gf-lineblog-source-link&quot; href=&quot;http://www.pokemon.co.jp/ex/sunmoon/?a001=msign&quot; target=&quot;blank&quot; rel=&quot;noope</span>
 </article>
 
 <article class="resource-network-card">
@@ -1039,12 +1039,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモセンターキョウトに来たよ！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3771831/">【活动】2016京都宝可梦中心</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;来啦！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターキョウト（控室）</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3782853/">【活动】2016年京都宝可梦中心</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3782853/001-ef8aa2ab5f.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
@@ -1054,6 +1048,18 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターキョウト</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3772142/">【活动】2016京都宝可梦中心签名会</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;今天&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;增</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモセンターキョウトに来たよ！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3771831/">【活动】2016京都宝可梦中心</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;来啦！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/">【活动】2016年大阪宝可梦中心</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;开店前的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
 </article>
 
 <article class="resource-network-card">
@@ -1075,21 +1081,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターオーサカに来たよ！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3743335/">【活动】2016年大阪宝可梦中心</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;开店前的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 大阪！（Hello, Osaka!）</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/">【日记】2016大阪签名之旅</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Welcome! あばれる君&amp;りんかちゃん！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3702782/">【活动】2016年大闹一番来访</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;没想到！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;大闹一番和琳卡酱&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--c</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 大阪！（Hello, Osaka!）</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3737700/">【日记】2016大阪签名之旅</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3737700/001-2276a4fe7b.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
@@ -1105,15 +1105,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 博多中洲</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3670399/">【日记】2016年博多中洲美食</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;今天是会餐&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;美味的肉！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 皇居で月光浴！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3654479/">【日记】2016皇居月光浴</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;因为工作的关系&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 博多中洲</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3670399/">【日记】2016年博多中洲美食</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;今天是会餐&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;美味的肉！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
 </article>
 
 <article class="resource-network-card">
@@ -1141,27 +1141,27 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · かがくの ちからって すげー！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3580362/">【日记】2016年飞机上的无线网络</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;听</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Goodbye San Francisco!</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3571634/">【活动】2016旧金山世界锦标赛之行</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;将于8月举行的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · カモメ（Seagull runaway!）</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3556962/">【日记】2016年海边偶遇海鸥</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;太可爱了！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · かがくの ちからって すげー！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3580362/">【日记】2016年飞机上的无线网络</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;听</span>
 </article>
 
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ランチを外で！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3565626/">【日记】2016旧金山海鲜午餐</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;在旧金山&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · カモメ（Seagull runaway!）</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3556962/">【日记】2016年海边偶遇海鸥</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;太可爱了！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
@@ -1255,15 +1255,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 3 hours to go!</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/">【活动】2016年宝可梦新情报</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;感谢大家发来的推特消息&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 「ポケットモンスター サン・ムーン」最新情報公開！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3375970/">【活动】2016年宝可梦日月新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;《宝可梦 太阳／月亮》最新情报公开。 &lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lin</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 3 hours to go!</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/">【活动】2016年宝可梦新情报</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;感谢大家发来的推特消息&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
 </article>
 
 <article class="resource-network-card">
@@ -1279,15 +1279,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Croatia Music!</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3343483/">【活动】2016克罗地亚音乐会</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 天才钢琴家 安达君邀请我 去听了 克罗地亚音乐会！ &lt;br &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3343483/001-</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Happy Mother&#39;s Day!</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3340075/">【日记】2016母亲节寄语</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;母亲节&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Croatia Music!</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3343483/">【活动】2016克罗地亚音乐会</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 天才钢琴家 安达君邀请我 去听了 克罗地亚音乐会！ &lt;br &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3343483/001-</span>
 </article>
 
 <article class="resource-network-card">
@@ -1321,15 +1321,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ヨコシマ</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/">【日记】世界各地的斑马线</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;我在&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;查</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · にゃ？！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3211604/">【日记】2016暖地板上的猫</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/3211604/001-0c4c41ae4a.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ヨコシマ</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3205071/">【日记】世界各地的斑马线</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;我在&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;查</span>
 </article>
 
 <article class="resource-network-card">
@@ -1341,6 +1341,12 @@ search: false
 <article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 20万人</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3138406/">【日记】2016年推特粉丝突破二十万</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefr</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン音楽は記号</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3058571/">【创作】2016年宝可梦音乐设计</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefr</span>
 </article>
 
@@ -1357,9 +1363,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン音楽は記号</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3058571/">【创作】2016年宝可梦音乐设计</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefr</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · つまらない道も！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/">【日记】2016年春日数花</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在这个季节&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cent</span>
 </article>
 
 <article class="resource-network-card">
@@ -1369,9 +1375,9 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · つまらない道も！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3101639/">【日记】2016年春日数花</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在这个季节&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cent</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 撮影</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/">【创作】2016年下北泽拍摄</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;2月9日 上午9:45&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
 </article>
 
 <article class="resource-network-card">
@@ -1387,12 +1393,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 撮影</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3059194/">【创作】2016年下北泽拍摄</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;2月9日 上午9:45&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 「ポケモン 赤・緑」の音楽CD本日発売！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3033488/">【活动】2016年宝可梦音乐专辑发售</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;宝可梦音乐的原点复苏了！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line</span>
@@ -1405,15 +1405,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · クリエイター必読書</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2964283/">【创作】2016年创作者必读书</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 给所有创作者 一定要读一读！ &lt;br &lt;br 罗杰·卡约瓦 （Roger Caillois) &lt;br 《游戏与人类》 （&lt;emLes jeux et les hommes&lt;/em ） &lt;br &lt;figure class=&quot;gf-lineblog</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 見るということ</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3006145/">【创作】2016年发现身边的新事物</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;即便是平时不经意看到的东西&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;一旦成为创作者&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · クリエイター必読書</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2964283/">【创作】2016年创作者必读书</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br 给所有创作者 一定要读一读！ &lt;br &lt;br 罗杰·卡约瓦 （Roger Caillois) &lt;br 《游戏与人类》 （&lt;emLes jeux et les hommes&lt;/em ） &lt;br &lt;figure class=&quot;gf-lineblog</span>
 </article>
 
 <article class="resource-network-card">
@@ -1423,15 +1423,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 猫</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2969118/">【日记】2016年猫咪日常</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;我家的猫&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · アイディアの話２（重ねる）</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2955963/">【创作】2016年叠加点子</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;从平时映入眼帘的事物中&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 猫</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2969118/">【日记】2016年猫咪日常</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;我家的猫&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
 </article>
 
 <article class="resource-network-card">
@@ -1453,27 +1453,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · センス（後半）</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2895101/">【创作】2016年创作中的感觉</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;制作的感觉固然必要 但要在哪里、如何使用？ 如何配置？ 这样的感觉也很重要 &lt;br &lt;br &lt;br &lt;br 关于感觉这件事 再</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · センス</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2894164/">【创作】2016年谷歌自动驾驶自行车</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;4月1日公开的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 日常</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2880077/">【日记】2016年GAME FREAK工作日常</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · センス（後半）</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2895101/">【创作】2016年创作中的感觉</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;制作的感觉固然必要 但要在哪里、如何使用？ 如何配置？ 这样的感觉也很重要 &lt;br &lt;br &lt;br &lt;br 关于感觉这件事 再</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 投票！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2855415/">【活动】2016年名古屋宝可梦中心投票</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;名古屋的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cent</span>
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 日常</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2880077/">【日记】2016年GAME FREAK工作日常</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;</span>
 </article>
 
 <article class="resource-network-card">
@@ -1486,6 +1480,18 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモンセンターナゴヤ</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2859701/">【活动】2016年名古屋签名会</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;今天在名古屋&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cent</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 投票！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2855415/">【活动】2016年名古屋宝可梦中心投票</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;名古屋的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cent</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン史上初！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2818987/">【活动】2016宝可梦总选举</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在&lt;br 开始啦！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--</span>
 </article>
 
 <article class="resource-network-card">
@@ -1507,12 +1513,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン史上初！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2818987/">【活动】2016宝可梦总选举</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;现在&lt;br 开始啦！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 九州</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2819347/">【日记】2016九州地震</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;九州的大家还好吗？ &lt;br &lt;br 增田的父母 在北九州出生长大 所以那边有很多亲戚 熊本也有亲戚…… 我非常担心 &lt;br &lt;</span>
@@ -1531,15 +1531,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · CNN_Interview</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2755888/">【活动】2016年宝可梦20周年采访</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;宝可梦迎来20周年之际 &lt;br 接受了CNN的 &lt;br 采访！&lt;/div &lt;br &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblo</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 素敵な二人</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2722533/">【日记】2016年宝可梦聚餐</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;活动上&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;已经见过好多次了……&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · CNN_Interview</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2755888/">【活动】2016年宝可梦20周年采访</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;宝可梦迎来20周年之际 &lt;br 接受了CNN的 &lt;br 采访！&lt;/div &lt;br &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblo</span>
 </article>
 
 <article class="resource-network-card">
@@ -1549,15 +1549,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 効果音（Sound Effects）</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2648469/">【创作】2016年宝可梦音效制作</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;制作声音！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 10周年！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2659314/">【活动】2016年鹰爪团十周年</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;10周年&lt;/div 祝贺！ &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/2659314/001-f88aa4640e.webp&quot; tar</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 効果音（Sound Effects）</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2648469/">【创作】2016年宝可梦音效制作</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;制作声音！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
 </article>
 
 <article class="resource-network-card">
@@ -1585,15 +1585,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · キョン！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/">【日记】2016八丈岛邂逅小麂</a></h3>
-  <span>八丈岛 紫茉莉节最终日！ &lt;br 从早上开始 皮卡丘就活力满满！ &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp&quot; target=&quot;blank&quot; rel=&quot;noopener&quot;&lt;img src=&quot;/as</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 再現！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2554691/">【日记】2016年八丈岛美味再现</a></h3>
   <span>在八丈岛吃喝过 觉得美味的东西 想要把它们 再现出来！ 给自己的奖励（笑） &lt;br &lt;br 没错！ 伴手礼！！！ &lt;br &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/2554691/001-30f1f80fd0.webp&quot; target=&quot;blank&quot;</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · キョン！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2540602/">【日记】2016八丈岛邂逅小麂</a></h3>
+  <span>八丈岛 紫茉莉节最终日！ &lt;br 从早上开始 皮卡丘就活力满满！ &lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/2540602/001-7d0f253bb3.webp&quot; target=&quot;blank&quot; rel=&quot;noopener&quot;&lt;img src=&quot;/as</span>
 </article>
 
 <article class="resource-network-card">
@@ -1615,15 +1615,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · はじめまして！　ポケモンのマスダです！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2413352/">【日记】2016增田博客启程</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;大家好！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ヘッダー！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2463891/">【日记】2016年宝可梦中心头图拍摄</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;苦恼了好一阵。&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cen</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · はじめまして！　ポケモンのマスダです！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-2413352/">【日记】2016增田博客启程</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;大家好！&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center</span>
 </article>
 
 <article class="resource-network-card">
@@ -1634,14 +1634,14 @@ search: false
 
 <article class="resource-network-card">
   <p>2015 · gamefreak_director_column · 増田部長のめざめるパワー 第244回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-244/">[GameFreak部长专栏] 第244回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于能够公布《宝可梦GO》了。 &lt;p class=&quot;gf-director-spacer&quot;&lt;/p 我的推特上收</span>
+  <h3><a href="/官方博客/game-freak/翻译资料/GameFreak部长专栏-第244回-Pokemon-GO发布/">[GameFreak部长专栏] 第244回 Pokémon GO 发布</a></h3>
+  <span>这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。 摘要 本回文章记录了《Pokémon GO》发表后的回应。增田顺一提到自己参与了世界观构建、游戏设计和音乐，并说明该作会与 Niantic 一起继续开发。 正文模板 正式整理时建议使用以下结构： 1. 原文段落 2. 中文译文 3. 译注 / 背景说明 4. 关联链接与</span>
 </article>
 
 <article class="resource-network-card">
   <p>2015 · gamefreak_director_column · 増田部長のめざめるパワー 第244回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/GameFreak部长专栏-第244回-Pokemon-GO发布/">[GameFreak部长专栏] 第244回 Pokémon GO 发布</a></h3>
-  <span>这是模板示例页，只保留摘要和结构字段；正式收录时可在这里放入原文、译文、评注和链接解析。 摘要 本回文章记录了《Pokémon GO》发表后的回应。增田顺一提到自己参与了世界观构建、游戏设计和音乐，并说明该作会与 Niantic 一起继续开发。 正文模板 正式整理时建议使用以下结构： 1. 原文段落 2. 中文译文 3. 译注 / 背景说明 4. 关联链接与</span>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-244/">[GameFreak部长专栏] 第244回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于能够公布《宝可梦GO》了。 &lt;p class=&quot;gf-director-spacer&quot;&lt;/p 我的推特上收</span>
 </article>
 
 <article class="resource-network-card">
@@ -1693,15 +1693,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第240回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-240/">[GameFreak部长专栏] 第240回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 GAME FREAK 首款自主发行的游戏正式发售了。 它的名字叫《纸牌赛马》（Solitiba）。 这是纸牌接</span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · THE PEOPLE BEHIND POKEMON</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-news-gamefreak-interview-2012-10-01/">[访谈翻译] THE PEOPLE BEHIND POKEMON</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第240回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-240/">[GameFreak部长专栏] 第240回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 GAME FREAK 首款自主发行的游戏正式发售了。 它的名字叫《纸牌赛马》（Solitiba）。 这是纸牌接</span>
 </article>
 
 <article class="resource-network-card">
@@ -1843,15 +1843,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2012 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 見つめる鍋は煮えない</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-241/">【工作日志】2012年尝试改变工作方式</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是策划いわし（沙丁鱼）。&lt;br 上次出现在 Staff Voice 还是 2010 年 4 月 30 日，&lt;br 真是许久不见了。 突然问一句，大家听说过本篇的标题吗？&lt;br 其实，这是英语圈的一句谚语。&lt;br “守着看的锅永远煮不开（A watched pan never b</span>
-</article>
-
-<article class="resource-network-card">
   <p>2012 · gamefreak_director_column · 増田部長のめざめるパワー 第221回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-221/">[GameFreak部长专栏] 第221回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 这是非常重要的通知！！！ 2012年2月26日（星期日）早上7:30起，东京电视台系列频道播出的 《宝可梦 S</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2012 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 見つめる鍋は煮えない</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-241/">【工作日志】2012年尝试改变工作方式</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是策划いわし（沙丁鱼）。&lt;br 上次出现在 Staff Voice 还是 2010 年 4 月 30 日，&lt;br 真是许久不见了。 突然问一句，大家听说过本篇的标题吗？&lt;br 其实，这是英语圈的一句谚语。&lt;br “守着看的锅永远煮不开（A watched pan never b</span>
 </article>
 
 <article class="resource-network-card">
@@ -1951,15 +1951,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第211回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-211/">[GameFreak部长专栏] 第211回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月19日（星期一），我一整天都在名古屋。 之所以会在那里，是因为…… 我去参加了 Fami通 Present</span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第210回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-210/">[GameFreak部长专栏] 第210回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 幕张展览馆举行了日本游戏大奖颁奖典礼！！ 没想到！！宝可梦相关作品竟然获得了四项大奖！！ 太棒了！！ １）经济</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第211回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-211/">[GameFreak部长专栏] 第211回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 9月19日（星期一），我一整天都在名古屋。 之所以会在那里，是因为…… 我去参加了 Fami通 Present</span>
 </article>
 
 <article class="resource-network-card">
@@ -2149,15 +2149,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第188回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-188/">[GameFreak部长专栏] 第188回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2011年2月27日就是15周年了！ 哎呀，时间过得真快。没想到已经过去15年了。 能一路走到今天，也多亏了大</span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 間もなく2012年度新卒採用の応募受付を開始します！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-220/">【工作日志】2012年度应届招聘即将开始</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是にょろリカ（妮洛莉卡）。 那么，这次由“应届毕业生招聘负责人·にょろリカ”向 计划于2012年3月毕业的各位同学通知一件事。&lt;br 从下周二的3月1日起，2012年度应届毕业生招聘的申请材料受理 就要开始了！&lt;br 我还觉得前不久才刚刚开始接受招聘网站的报名， 没想到一转眼就</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第188回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-188/">[GameFreak部长专栏] 第188回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2011年2月27日就是15周年了！ 哎呀，时间过得真快。没想到已经过去15年了。 能一路走到今天，也多亏了大</span>
 </article>
 
 <article class="resource-network-card">
@@ -2221,15 +2221,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第182回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-182/">[GameFreak部长专栏] 第182回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 索罗亚克来到 GAME FREAK！ 1月9日（星期日），《宝可梦冲刺！》（东京电视台系列）的 索罗亚克要来 </span>
-</article>
-
-<article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 新年のご挨拶</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-214/">【工作日志】2011年新年问候</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家，新年好！&lt;br 我是负责网站工作的にょろリカ（妮洛莉卡）。 正在阅读这里的各位，年末年初都是怎么度过的呢？&lt;br 我和久未见面的外甥（小学四年级）进行了&lt;br 《宝可梦黑·白》的对战，结果是&lt;br 输得一败涂地……。&lt;br 就算是平等对战也赢不了，我只好让外甥的队伍减少到两只，&lt;b</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第182回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-182/">[GameFreak部长专栏] 第182回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 索罗亚克来到 GAME FREAK！ 1月9日（星期日），《宝可梦冲刺！》（东京电视台系列）的 索罗亚克要来 </span>
 </article>
 
 <article class="resource-network-card">
@@ -2341,15 +2341,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケットモンスターブラック・ホワイトが完成した日</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-199/">【工作日志】《宝可梦黑白》完成日</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 明天终于就要发售《宝可梦黑·白》了呢。&lt;br 这次要为大家带来的是《宝可梦黑·白》最终完成当天的&lt;br 现场情况！ 所谓最终完成，就是“交付期限”，也就是《宝可梦黑·白》&lt;br 完成的那一天。&lt;br 当增田宣布最终完成的声音响彻办公</span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第177回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-177/">[GameFreak部长专栏] 第177回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于，明天就要发售了！ 花了四年时间，倾注心血打造出来的《黑／白》。 感觉好像很漫长，又好像很短…… 这次以合</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケットモンスターブラック・ホワイトが完成した日</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-199/">【工作日志】《宝可梦黑白》完成日</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 明天终于就要发售《宝可梦黑·白》了呢。&lt;br 这次要为大家带来的是《宝可梦黑·白》最终完成当天的&lt;br 现场情况！ 所谓最终完成，就是“交付期限”，也就是《宝可梦黑·白》&lt;br 完成的那一天。&lt;br 当增田宣布最终完成的声音响彻办公</span>
 </article>
 
 <article class="resource-network-card">
@@ -2359,15 +2359,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第175回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-175/">[GameFreak部长专栏] 第175回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天，《宝可梦ぴあ》正式发售啦！！ ・AKB48的指原小姐和北原小姐都有精彩亮相！ ・醒目的黄色皮卡丘封面！ </span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ポケモンワールドチャンピオンシップス2010！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-198/">【工作日志】2010宝可梦世界锦标赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，初次见面。&lt;br 我是3D图形设计师フジワ（藤和）。&lt;br 今年暑假，我飞离了日本炎热的夏天，&lt;br 和 GAME FREAK 一行人前往夏威夷岛科纳，参加了在那里举办的&lt;br “宝可梦世界锦标赛2010”！ 从神秘的夏威夷音乐开始，这场气势十足的开场让人印象深刻。&lt;br 我是中途</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第175回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-175/">[GameFreak部长专栏] 第175回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 今天，《宝可梦ぴあ》正式发售啦！！ ・AKB48的指原小姐和北原小姐都有精彩亮相！ ・醒目的黄色皮卡丘封面！ </span>
 </article>
 
 <article class="resource-network-card">
@@ -2377,15 +2377,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · ‘Pokemon Peer’ Interview Translations (Pokemon Pia 2010)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2010-09-01-pokebeach-pokemon-pia/">[访谈翻译] Pokémon Pia 杂志访谈英译：第五世代宝可梦与角色设计揭秘</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第174回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-174/">[GameFreak部长专栏] 第174回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 ■这次是暑假照片特辑！ &lt;img src=&quot;/assets/images/gamefreak-director</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · ‘Pokemon Peer’ Interview Translations (Pokemon Pia 2010)</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2010-09-01-pokebeach-pokemon-pia/">[访谈翻译] Pokémon Pia 杂志访谈英译：第五世代宝可梦与角色设计揭秘</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -2401,12 +2401,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-8/">【设定资料】2010年索罗亚克角色设计</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br “幻影的霸者 索罗亚克”&lt;br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的&lt;br 动画原创角色设计稿一次性公开给大家！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■科代&lt;br “能看</span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 夏の思い出</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-194/">【工作日志】2010年夏日富士登山回忆</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，我是中途入职的音效部门员工Yochiyochi。&lt;br 暑热还在持续！&lt;br 不知道大家的身体状况有没有出问题。 说到夏天，就是户外活动。&lt;br 我想有不少人会去海边、山里游玩，&lt;br 不过每到这个时节，&lt;br 我就会想起夏天爬富士山的经历。 爬富士山常被说成是“不上山的是傻瓜</span>
@@ -2416,6 +2410,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第173回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-173/">[GameFreak部长专栏] 第173回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 GAME FREAK 从明天开始放暑假。 我会为了参加 WCS，于12日至18日前往夏威夷！ 世界冠军将由哪个</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-8/">【设定资料】2010年索罗亚克角色设计</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br “幻影的霸者 索罗亚克”&lt;br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的&lt;br 动画原创角色设计稿一次性公开给大家！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■科代&lt;br “能看</span>
 </article>
 
 <article class="resource-network-card">
@@ -2587,15 +2587,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 春！社会人10年生です</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-177/">【工作日志】2010年春季职场十年随笔</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！&lt;br 好久不见，我是策划カニ子（蟹子）。 春天，是各种新事物开始的季节呢。&lt;br 这个春天开始成为职场新人的朋友们，&lt;br 应该也有人已经踏入社会了吧。&lt;br 我也是整整十年前的春天初入职场的。&lt;br 今天就来聊聊我刚成为职场新人时的一些回忆。 当时我就职的公司还不是 GAME </span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第160回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-160/">[GameFreak部长专栏] 第160回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于，我们正在开发的全新作品公布了正式名称！ “宝可梦黑” “宝可梦白” 为了哪怕只提升一点点品质， 我们现在</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 春！社会人10年生です</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-177/">【工作日志】2010年春季职场十年随笔</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！&lt;br 好久不见，我是策划カニ子（蟹子）。 春天，是各种新事物开始的季节呢。&lt;br 这个春天开始成为职场新人的朋友们，&lt;br 应该也有人已经踏入社会了吧。&lt;br 我也是整整十年前的春天初入职场的。&lt;br 今天就来聊聊我刚成为职场新人时的一些回忆。 当时我就职的公司还不是 GAME </span>
 </article>
 
 <article class="resource-network-card">
@@ -2659,15 +2659,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 社内ポケモンHGSSバトル大会！</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-166/">【工作日志】2010年公司宝可梦对战大会</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见！&lt;br 我是なぎー（纳吉）。 宝可梦世界锦标赛2010的预选终于开始了！&lt;br 我也非常喜欢宝可梦对战，所以很期待大家会展开怎样的比赛！ 那么，在世界锦标赛2010开始之前，公司内部先举办了一场对战大会。&lt;br 当然，公司内部大会采用的规则也遵循世界锦标赛2010的规则。&lt;br</span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第159回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-159/">[GameFreak部长专栏] 第159回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 http://www.pokemon.co.jp/index.html http://www.pokemon.</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 社内ポケモンHGSSバトル大会！</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-166/">【工作日志】2010年公司宝可梦对战大会</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见！&lt;br 我是なぎー（纳吉）。 宝可梦世界锦标赛2010的预选终于开始了！&lt;br 我也非常喜欢宝可梦对战，所以很期待大家会展开怎样的比赛！ 那么，在世界锦标赛2010开始之前，公司内部先举办了一场对战大会。&lt;br 当然，公司内部大会采用的规则也遵循世界锦标赛2010的规则。&lt;br</span>
 </article>
 
 <article class="resource-network-card">
@@ -3055,15 +3055,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ボードゲーム会</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-117/">【工作日志】2009年GAME FREAK桌游会</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好久不见！&lt;br 我是なぎー（纳吉）。 前些天，GAME FREAK 内部举办了一次桌游会，&lt;br 下面就来为大家介绍一下当时的情况。 桌游中有许多新颖的规则，以及令人眼前一亮的心理博弈。&lt;br 而且在玩桌游时，&lt;br 和对手交涉等人与人之间的交流也是不可或缺的。&lt;br 一边加深彼此</span>
-</article>
-
-<article class="resource-network-card">
   <p>2009 · gamefreak_director_column · 増田部長のめざめるパワー 第142回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-142/">[GameFreak部长专栏] 第142回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 3月15日（星期日）早上7点30分，我会在东京电视台的《宝可梦☆星期天》节目中， 和中川翔子、两位执行制作人一</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ボードゲーム会</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-117/">【工作日志】2009年GAME FREAK桌游会</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好久不见！&lt;br 我是なぎー（纳吉）。 前些天，GAME FREAK 内部举办了一次桌游会，&lt;br 下面就来为大家介绍一下当时的情况。 桌游中有许多新颖的规则，以及令人眼前一亮的心理博弈。&lt;br 而且在玩桌游时，&lt;br 和对手交涉等人与人之间的交流也是不可或缺的。&lt;br 一边加深彼此</span>
 </article>
 
 <article class="resource-network-card">
@@ -3331,21 +3331,39 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第157回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch157/">[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第156回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch156/">[访谈翻译] 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · タイ行ってきました！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-83/">【工作日志】2008年泰国旅行记</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是カニ子（蟹子）。 之前也写过箱根旅行的事，&lt;br 我可是无论国内国外都非常喜欢旅行的！&lt;br 上周请了带薪假，去泰国玩了三晚四天！&lt;br 从日本坐飞机大约要6个小时。&lt;br 那里是四季如夏的国家，不过现在正值雨季，热得和日本差不多。 &lt;figure class=&quot;gf-lega</span>
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · Nintendo 2008 E3 Media Briefing</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-82/">【工作日志】2008年E3普通说明会现场</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见，我是负责画面的ジョニー（乔尼）。 正如 7 月 16 日的觉醒力量中也写到的，&lt;br 前两周，任天堂 2008 E3 普通说明会在美国举行，&lt;br ジョニー也有幸前往了洛杉矶。 第一次参加，我迈着仿佛要跳起来的步子，前往会场柯达剧院。 &lt;figure class=&quot;gf-leg</span>
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第155回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch155/">[访谈翻译] 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ギラティナと氷空の花束 シェイミ」デザイン画</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-6/">【设定资料】骑拉帝纳电影角色设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石珍珠&lt;br 「骑拉帝纳与冰空的花束 谢米」&lt;br 这是动画原创角色的设计画！ GAME FREAK 绘制的&lt;br 动画原创角色设计画大公开！&lt;br ※由于是原案设计，和实际使用的角色在&lt;br 细节及颜色等方面有所不同 ■零&lt;br 我理解为：他在渴望得到骑拉帝纳力量的过程</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · Nintendo 2008 E3 Media Briefing</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-82/">【工作日志】2008年E3普通说明会现场</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见，我是负责画面的ジョニー（乔尼）。 正如 7 月 16 日的觉醒力量中也写到的，&lt;br 前两周，任天堂 2008 E3 普通说明会在美国举行，&lt;br ジョニー也有幸前往了洛杉矶。 第一次参加，我迈着仿佛要跳起来的步子，前往会场柯达剧院。 &lt;figure class=&quot;gf-leg</span>
 </article>
 
 <article class="resource-network-card">
@@ -3403,9 +3421,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第152回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch152/">[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · つゆやきそば</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-73/">【工作日志】2008年汤汁炒面随笔</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面，感谢大家阅读员工博客！&lt;br 我是规划员G面。 今天想写写我的“嘴中恋人”——面！！ 最近我最喜欢的，毫无疑问就是某处的“汤汁炒面”了！ 看到这里，可能有人完全不知道这是什么，&lt;br 所以请允许我简单说明一下……。 首先，请想象一下普通的炒面。 不要把它盛在盘子里，而是盛进大碗</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第151回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch151/">[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的宝可梦（“巨大宝可梦之岛”的御前舌战与欧洲酒馆里的抱怨哲学）</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -3421,6 +3451,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第150回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch150/">[访谈翻译] 首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 22階の恐怖</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-71/">【工作日志】二十二层的游戏机恐惧</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是スティック（斯蒂克）。 其实，我发现了一件可怕的事。&lt;br 这真的相当恐怖。&lt;br 要说到底有什么这么恐怖，那就是 GAME FREAK 的&lt;br 办公室里存在着的“游戏机数量”！ 毕竟是开发游戏的公司， 有很多游戏机不是理所当然的吗！ 我仿佛都能听到这样的声音，&lt;br 确实如此，不</span>
@@ -3433,15 +3469,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第127回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-127/">[GameFreak部长专栏] 第127回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家可能已经知道了， 2008年，秋季。 《宝可梦》系列最新作品预计将在这个秋天发售！ 它的名字就是， 《宝可</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 会社対抗ポケモンDPゲーム大会開催</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-70/">【工作日志】2008年宝可梦对抗赛</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见。&lt;br 我是なぎー（纳吉）。 大家还记得我吗？&lt;br 之前，我们举办过公司内部宝可梦DP对战大会。&lt;br 那场热烈而激烈的战斗，最终由もりもと（森本）夺得冠军，就此落下帷幕。 然而。 没错，战士是没有休息时间的。 没想到，我们居然要和宝可梦公司举办公司对抗宝可梦DP对战大会了！</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第127回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-127/">[GameFreak部长专栏] 第127回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 大家可能已经知道了， 2008年，秋季。 《宝可梦》系列最新作品预计将在这个秋天发售！ 它的名字就是， 《宝可</span>
 </article>
 
 <article class="resource-network-card">
@@ -3553,15 +3589,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第126回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-126/">[GameFreak部长专栏] 第126回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 12周年纪念企划第二弹！ “宝可梦 皮卡丘版” 像动画里的皮卡丘一样，皮卡丘会叫出“皮卡丘”。 Game Bo</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · No Video Games, No Life.</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-60/">【工作日志】2008年游戏收藏与创作</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 初次见面！我叫 Hiro，是一名策划师（游戏设计师）。&lt;br 我负责策划游戏创意，也会翻译“觉醒力量”。 我们 GAME FREAK 里有各种各样兴趣爱好的人。&lt;br 喜欢滑雪的“おせんべい”，&lt;br 正在学习乐器的“げいのう”和“ねこスQ（猫S Q）”，&lt;br 以及喜欢攀岩、坐</span>
 </article>
 
 <article class="resource-network-card">
@@ -3571,15 +3607,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）</a></h3>
   <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第124回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-124/">[GameFreak部长专栏] 第124回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 2月27日。 在日本的这一天，Game Boy 软件《宝可梦 红·绿》发售了。 这是皮卡丘、妙蛙花、喷火龙、喵</span>
 </article>
 
 <article class="resource-network-card">
@@ -3643,15 +3679,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第120回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-120/">[GameFreak部长专栏] 第120回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 没想到！！ 现在！工作人员给我庆祝生日了！！ 我明天过生日！！ 巧克力蛋糕和星巴克的 Tall 号拿铁！！ 超</span>
-</article>
-
-<article class="resource-network-card">
   <p>2008 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 会社説明会、開催！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-52/">【工作日志】公司说明会与年末大扫除</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是负责招聘的もりもと（森本）。 新年快乐！&lt;br 今年也请大家多多关照 GAME FREAK。 大家年末年初过得怎么样？&lt;br GAME FREAK 的年末年初一共放了 9 天假，&lt;br もりもと除了去亲戚家，以及陪人参加每年惯例的促销活动之外，&lt;br 就是一边准备年节菜，一边悠闲地度</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2008 · gamefreak_director_column · 増田部長のめざめるパワー 第120回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-120/">[GameFreak部长专栏] 第120回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 没想到！！ 现在！工作人员给我庆祝生日了！！ 我明天过生日！！ 巧克力蛋糕和星巴克的 Tall 号拿铁！！ 超</span>
 </article>
 
 <article class="resource-network-card">
@@ -3709,15 +3745,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第115回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-115/">[GameFreak部长专栏] 第115回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 “宇宙”完成啦！ 终于搬进了心心念念的整层办公室！！ 这样一来，开发动力就能彻底释放了！ 我们最看重的， 就是</span>
-</article>
-
-<article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · しばしの旅気分</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-46/">【工作日志】窗外的东京塔与富士山</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 我是カニ子（蟹子）。&lt;br 搬到新办公室后，公司里各种事情都忙得团团转，&lt;br 前几天无意间望向窗外，发现能看到不错的景色。 东京塔！&lt;br &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/s</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第115回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-115/">[GameFreak部长专栏] 第115回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 “宇宙”完成啦！ 终于搬进了心心念念的整层办公室！！ 这样一来，开发动力就能彻底释放了！ 我们最看重的， 就是</span>
 </article>
 
 <article class="resource-network-card">
@@ -3853,15 +3889,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第104回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-104/">[GameFreak部长专栏] 第104回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 昨天，我去参加了在幕张展览馆举行的 CESA 游戏大奖颁奖典礼！ 没想到！《宝可梦 钻石·珍珠》一举获得了最佳</span>
-</article>
-
-<article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 謎のロッカー</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-30/">【工作日志】2007年GAME FREAK的神秘鞋柜</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是カニ子（蟹子）。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/30/dosoku01-e9ed3a1f.jpg&quot; target=&quot;blank&quot; rel=&quot;noope</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第104回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-104/">[GameFreak部长专栏] 第104回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 昨天，我去参加了在幕张展览馆举行的 CESA 游戏大奖颁奖典礼！ 没想到！《宝可梦 钻石·珍珠》一举获得了最佳</span>
 </article>
 
 <article class="resource-network-card">
@@ -3931,15 +3967,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第96回</p>
-  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-096/">[GameFreak部长专栏] 第96回</a></h3>
-  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 明天开始放暑假！ 大家，暑假过得开心吗！？ 一起玩、一起学习，开开心心地度过吧！ 我计划在8月17日去横滨的帕</span>
-</article>
-
-<article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · もういくつ寝ると</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-9/">【工作日志】2007年夏日休假计划</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 明天开始放暑假！我是カニ子（蟹子）。&lt;br 就算长大了，也还是很期待暑假！ 我在 GAME FREAK 找了几个人，问他们：&lt;br “请告诉我你夏天的回忆吧。”&lt;br “请告诉我你夏天的特别计划吧。” 平面设计师 よっしー（小吉） 的回忆是—— 在他21岁还是22岁的那个夏天，&lt;br 他</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第96回</p>
+  <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-096/">[GameFreak部长专栏] 第96回</a></h3>
+  <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 明天开始放暑假！ 大家，暑假过得开心吗！？ 一起玩、一起学习，开开心心地度过吧！ 我计划在8月17日去横滨的帕</span>
 </article>
 
 <article class="resource-network-card">
@@ -3967,12 +4003,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2007 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ディアルガVSパルキアVSダークライ」デザイン画</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-5/">【设定资料】剧场版三龙角色设计稿</a></h3>
-  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br 《帝牙卢卡VS帕路奇亚VS达克莱伊》&lt;br 这是动画原创角色的设计稿！ GAME FREAK 绘制的&lt;br 动画原创角色设计稿大公开！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■阿尔贝特男爵&lt;br 我一边想</span>
-</article>
-
-<article class="resource-network-card">
   <p>2007 · gamefreak_legacy_blog · 晴れたり時々曇ったり · はじめましてのごあいさつ</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-3/">【工作日志】网站焕新与点阵画布</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 初次见面。我是 GAME FREAK 的工作人员カニ子（蟹子）。&lt;br 我入职 GAME FREAK，负责网站制作。&lt;br 今后还请多多关照。 这次，正值 GAME FREAK 网站全面更新，&lt;br 作为趣味内容的一环，我们从今天开始写员工博客。&lt;br 关于 GAME FREAK 里那些</span>
@@ -3982,6 +4012,12 @@ search: false
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第92回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-092/">[GameFreak部长专栏] 第92回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 终于！！ GAME FREAK 的主页焕新啦！ 我觉得现在好看得多、也更容易浏览了。 不仅可以绘制像素点，还是</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2007 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ディアルガVSパルキアVSダークライ」デザイン画</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-5/">【设定资料】剧场版三龙角色设计稿</a></h3>
+  <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br 《帝牙卢卡VS帕路奇亚VS达克莱伊》&lt;br 这是动画原创角色的设计稿！ GAME FREAK 绘制的&lt;br 动画原创角色设计稿大公开！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■阿尔贝特男爵&lt;br 我一边想</span>
 </article>
 
 <article class="resource-network-card">

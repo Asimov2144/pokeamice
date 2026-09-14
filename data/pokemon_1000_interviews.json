@@ -13635,11 +13635,11 @@
   },
   {
     "id": "PKMN-0498",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第13回",
-    "original_title": "シナリオライターの記録 第13回",
-    "url": "http://style.fm/as/05_column/shuto/shuto013.shtml",
+    "title": "首藤刚志手记：第150回 正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）",
+    "original_title": "第150回　『ポケモン』「マサキのとうだい」",
+    "url": "http://www.style.fm/as/05_column/shudo150.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto013.shtml",
-    "date": "2005-08-15",
+    "date": "2008-05-28",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13656,16 +13656,36 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第150回：深度解构第13话《正辉的灯塔》的哲学底色与雷·布拉德伯里《雾笛》式终极孤独。",
+    "status": "imported",
+    "post_url": "/2008/05/28/interview-takeshi-shudo-pokemon-memoir-ch150/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "大木博士",
+        "正辉"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0499",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第14回",
-    "original_title": "シナリオライターの記録 第14回",
-    "url": "http://style.fm/as/05_column/shuto/shuto014.shtml",
+    "title": "首藤刚志手记：第151回 带字幕的宝可梦（“巨大宝可梦之岛”的御前舌战与欧洲酒馆里的抱怨哲学）",
+    "original_title": "第151回　『ポケモン』字幕つき",
+    "url": "http://www.style.fm/as/05_column/shudo151.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto014.shtml",
-    "date": "2005-03-15",
+    "date": "2008-06-04",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13682,16 +13702,35 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第151回：揭秘动画史上绝无仅有的“宝可梦字幕回”诞生全内幕与欧洲酒馆牢骚哲学。",
+    "status": "imported",
+    "post_url": "/2008/06/04/interview-takeshi-shudo-pokemon-memoir-ch151/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "大谷育江"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0500",
-    "title": "首藤刚志手记：第15回：火箭队三人组的命名灵感与反叛魅力",
-    "original_title": "第15回：ロケット団ムサシ・コジロウ・ニャース誕生秘話",
-    "url": "http://style.fm/as/05_column/shuto/shuto015.shtml",
+    "title": "首藤刚志手记：第152回 宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）",
+    "original_title": "第152回　ポケモンの鳴き声は何国語？",
+    "url": "http://www.style.fm/as/05_column/shudo152.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto015.shtml",
-    "date": "2005-10-15",
+    "date": "2008-06-11",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13708,16 +13747,36 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘火箭队。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第152回：深度剖析宝可梦对战背后的代理战争隐喻、多国语言妙蛙种子废案与少女峡的古典纯爱。",
+    "status": "imported",
+    "post_url": "/2008/06/11/interview-takeshi-shudo-pokemon-memoir-ch152/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "小刚",
+        "小次郎"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0501",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第16回",
-    "original_title": "シナリオライターの記録 第16回",
-    "url": "http://style.fm/as/05_column/shuto/shuto016.shtml",
+    "title": "首藤刚志手记：第155回 不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+    "original_title": "第155回　人間の言うなりにならないポケモン",
+    "url": "http://www.style.fm/as/05_column/shudo155.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto016.shtml",
-    "date": "2005-05-15",
+    "date": "2008-08-06",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13734,16 +13793,36 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第155回：首次公开动画原定“一年半（约80话）完结”的大构想与第31话地鼠的无声反抗。",
+    "status": "imported",
+    "post_url": "/2008/08/06/interview-takeshi-shudo-pokemon-memoir-ch155/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "久保雅一"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿",
+        "宝可梦 金·银"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0502",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第17回",
-    "original_title": "シナリオライターの記録 第17回",
-    "url": "http://style.fm/as/05_column/shuto/shuto017.shtml",
+    "title": "首藤刚志手记：第156回 在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
+    "original_title": "第156回　『ポケモン』でプレッシャー初体験",
+    "url": "http://www.style.fm/as/05_column/shudo156.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto017.shtml",
-    "date": "2005-12-15",
+    "date": "2008-08-13",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13760,16 +13839,39 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第156回：回溯收视狂飙时期的创作心境、深夜交警放行奇遇、火箭队真主角论与《超梦的逆袭》定名。",
+    "status": "imported",
+    "post_url": "/2008/08/13/interview-takeshi-shudo-pokemon-memoir-ch156/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "久保雅一",
+        "武藏",
+        "小次郎",
+        "喵喵"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦：超梦的逆袭",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0503",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第18回",
-    "original_title": "シナリオライターの記録 第18回",
-    "url": "http://style.fm/as/05_column/shuto/shuto018.shtml",
+    "title": "首藤刚志手记：第157回 宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
+    "original_title": "第157回　ポケモン予期せぬ出来事―数ヶ月前",
+    "url": "http://www.style.fm/as/05_column/shudo157.shtml",
     "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto018.shtml",
-    "date": "2005-07-15",
+    "date": "2008-08-20",
     "people": [
       "首藤刚志",
       "汤山邦彦"
@@ -13786,8 +13888,29 @@
       "小智",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第157回：在1997年12月闪烁事件前夜，回溯官方小说双重文体结构与火箭队战歌CM。",
+    "status": "imported",
+    "post_url": "/2008/08/20/interview-takeshi-shudo-pokemon-memoir-ch157/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "花子",
+        "武藏",
+        "小次郎"
+      ],
+      "works": [
+        "宝可梦 动画系列",
+        "宝可梦 红·绿"
+      ],
+      "organizations": [
+        "OLM",
+        "小学馆",
+        "任天堂",
+        "Game Freak",
+        "东京电视台"
+      ]
+    }
   },
   {
     "id": "PKMN-0504",
