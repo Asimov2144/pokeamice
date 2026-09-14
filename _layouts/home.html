@@ -3386,6 +3386,81 @@ body.theme-bg-black .gf-home-library__search label {
     font-family: var(--pa-mono), sans-serif; font-weight: 700; font-size: 0.74rem; letter-spacing: 0.03em;
     overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0;
   }
+  /* 3D cascading split-flap title flipper */
+  .pa .work-flipper, .pa-dlg .work-flipper {
+    position: relative;
+    display: inline-grid;
+    grid-template-areas: "card";
+    perspective: 480px;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 0;
+    max-width: 100%;
+    cursor: pointer;
+    user-select: none;
+  }
+  .pa .flipper-face, .pa-dlg .flipper-face {
+    grid-area: card;
+    display: inline-block;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.48s cubic-bezier(0.34, 1.25, 0.64, 1), opacity 0.32s ease;
+    transition-delay: calc(var(--flip-idx, 0) * 35ms);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: right;
+    min-width: 0;
+  }
+  .pa .face-en, .pa-dlg .face-en {
+    font-family: var(--pa-mono), sans-serif;
+    font-weight: 700;
+    font-size: 0.74rem;
+    letter-spacing: 0.03em;
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  .pa .face-zh, .pa-dlg .face-zh {
+    font-family: var(--pa-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 0.71rem;
+    letter-spacing: 0.01em;
+    transform: rotateX(180deg);
+    opacity: 0;
+  }
+  .pa .work-flipper.is-flipped .face-en, .pa-dlg .work-flipper.is-flipped .face-en {
+    transform: rotateX(-180deg);
+    opacity: 0;
+  }
+  .pa .work-flipper.is-flipped .face-zh, .pa-dlg .work-flipper.is-flipped .face-zh {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+  .pa .work-flipper:hover .flipper-face, .pa-dlg .work-flipper:hover .flipper-face {
+    color: var(--pa-accent);
+  }
+  .pa .analytics-flip-toggle, .pa-dlg .analytics-flip-toggle {
+    display: inline-flex; align-items: center; gap: 4px;
+    background: none; border: 1px dashed var(--pa-rule); border-radius: 3px;
+    padding: 1px 5px; font: inherit; font-size: 0.625rem; color: var(--pa-ink-faint);
+    cursor: pointer; line-height: 1.2;
+    transition: color 0.15s, border-color 0.15s, background 0.15s;
+  }
+  .pa .analytics-flip-toggle:hover, .pa-dlg .analytics-flip-toggle:hover {
+    color: var(--pa-accent); border-color: var(--pa-accent); background: var(--pa-accent-soft);
+  }
+  .pa .analytics-flip-toggle i { font-size: 0.55rem; }
+  @media (prefers-reduced-motion: reduce) {
+    .pa .flipper-face, .pa-dlg .flipper-face {
+      transition: opacity 0.2s ease !important;
+      transform: none !important;
+      transition-delay: 0s !important;
+    }
+    .pa .work-flipper .face-zh { display: none; }
+    .pa .work-flipper.is-flipped .face-en { display: none; }
+    .pa .work-flipper.is-flipped .face-zh { display: inline-block; opacity: 1; }
+  }
   .pa .vmark, .pa-dlg .vmark { display: inline-flex; gap: 1px; margin-right: 0.35rem; border-radius: 2px; overflow: hidden; flex: none; }
   .pa .vmark i, .pa-dlg .vmark i { width: 6px; height: 11px; display: block; box-shadow: inset 0 0 0 1px rgba(0,0,0,.18); }
   .pa .cell, .pa-dlg .cell {
@@ -4439,46 +4514,46 @@ document.addEventListener("DOMContentLoaded", () => {
      - `s`: Concise, standardized short name fitting within the label column
      - `v`: Authentic cartridge / logo color palette for row pill badge */
   var WORK_META = {
-    "宝可梦 红·绿":                          { r: 1996, s: "RG", v: ["#cf2029", "#0f8a4a"] },
-    "宝可梦 蓝":                             { r: 1996, s: "Blue", v: ["#1348a8"] },
-    "宝可梦 皮卡丘版":                        { r: 1998, s: "Yellow", v: ["#f2c14e"] },
-    "宝可梦 金·银":                          { r: 1999, s: "GS", v: ["#c9a227", "#9aa3a8"] },
-    "宝可梦 水晶版":                          { r: 2000, s: "Crystal", v: ["#3fb6c4"] },
-    "宝可梦 红宝石·蓝宝石":                   { r: 2002, s: "RS", v: ["#a01722", "#1348a8"] },
-    "宝可梦 火红·叶绿":                       { r: 2004, s: "FRLG", v: ["#e2521d", "#5da32a"] },
-    "宝可梦 绿宝石":                          { r: 2004, s: "Emerald", v: ["#1f9d63"] },
-    "宝可梦 钻石·珍珠":                       { r: 2006, s: "DP", v: ["#5f9ec9", "#d4779b"] },
-    "宝可梦 白金":                            { r: 2008, s: "Pt", v: ["#7d878c", "#c0392b"] },
-    "宝可梦 心金·魂银":                       { r: 2009, s: "HGSS", v: ["#c99a1e", "#8f9aa1"] },
-    "宝可梦 黑·白":                           { r: 2010, s: "BW", v: ["#25262a", "#d8d8d2"] },
-    "宝可梦 黑2·白2":                         { r: 2012, s: "B2W2", v: ["#3a3f45", "#e3e3dd"] },
-    "宝可梦 X·Y":                             { r: 2013, s: "XY", v: ["#2a5ca8", "#c0392b"] },
-    "宝可梦 欧米伽红宝石·阿尔法蓝宝石":         { r: 2014, s: "ORAS", v: ["#b3123a", "#1f5fb8"] },
-    "Pokémon GO":                             { r: 2016, s: "GO", v: ["#4a90d9", "#f2c14e"] },
-    "宝可梦 太阳·月亮":                       { r: 2016, s: "SM", v: ["#e8a020", "#3f51b5"] },
-    "宝可梦 究极之日·究极之月":                 { r: 2017, s: "USUM", v: ["#d4761a", "#2f3f7a"] },
-    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": { r: 2018, s: "LGPE", v: ["#f2c14e", "#b88a58"] },
-    "宝可梦 剑·盾":                           { r: 2019, s: "SwSh", v: ["#1f7ec4", "#b3123a"] },
-    "宝可梦 晶灿钻石·明亮珍珠":                 { r: 2021, s: "BDSP", v: ["#7fb4d8", "#e39ab6"] },
-    "宝可梦传说 阿尔宙斯":                     { r: 2022, s: "LA", v: ["#8d6b3f", "#1e3799"] },
-    "宝可梦 朱·紫":                           { r: 2022, s: "SV", v: ["#c0392b", "#7b3f9e"] },
-    "宝可梦传说 Z-A":                         { r: 2025, s: "PLZA", v: ["#0d7c99", "#d3308a"] },
-    "宝可梦集换式卡牌游戏":                   { r: 1996, s: "PTCG", v: ["#f39c12", "#2980b9"] },
-    "宝可梦竞技场":                           { r: 1998, s: "Stadium", v: ["#6c5ce7", "#2d3436"] },
-    "宝可梦随乐拍":                           { r: 1999, s: "Snap", v: ["#2ed573", "#ffa502"] },
-    "宝可梦不可思议迷宫":                     { r: 2005, s: "PMD", v: ["#0984e3", "#6c5ce7"] },
-    "宝可梦☆星期天":                         { r: 2004, s: "PokéSun", v: ["#ffa502", "#ff4757"] },
-    "宝可梦乱战":                             { r: 2009, s: "Rumble", v: ["#e17055", "#fdcb6e"] },
-    "超级宝可梦乱战":                         { r: 2011, s: "Super Rumble", v: ["#d63031", "#fdcb6e"] },
-    "宝可梦立体图鉴BW":                       { r: 2011, s: "Pokédex 3D", v: ["#2d3436", "#00cec9"] },
-    "名侦探皮卡丘":                           { r: 2016, s: "Det. Pikachu", v: ["#eccc68", "#2f3542"] },
-    "Pokémon Sleep":                          { r: 2023, s: "Sleep", v: ["#70a1ff", "#7bed9f"] },
-    "昆蒂":                                   { r: 1989, s: "Quinty", v: ["#e84393", "#0984e3"] },
-    "风来的西林":                             { r: 1995, s: "Shiren", v: ["#d35400", "#27ae60"] },
-    "Gear Project（齿轮企划）":               { r: 2010, s: "Gear Project", v: ["#636e72", "#b2bec3"] },
-    "铁板阵":                                 { r: 1983, s: "Xevious", v: ["#57606f", "#ffa502"] },
-    "勇者斗恶龙":                             { r: 1986, s: "DQ", v: ["#3867d6", "#fed330"] },
-    "TEMBO THE BADASS ELEPHANT":              { r: 2015, s: "TEMBO", v: ["#eb3b5a", "#4b6584"] }
+    "宝可梦 红·绿":                          { r: 1996, s: "RG", zh: "红·绿", v: ["#cf2029", "#0f8a4a"] },
+    "宝可梦 蓝":                             { r: 1996, s: "Blue", zh: "蓝", v: ["#1348a8"] },
+    "宝可梦 皮卡丘版":                        { r: 1998, s: "Yellow", zh: "皮卡丘版", v: ["#f2c14e"] },
+    "宝可梦 金·银":                          { r: 1999, s: "GS", zh: "金·银", v: ["#c9a227", "#9aa3a8"] },
+    "宝可梦 水晶版":                          { r: 2000, s: "Crystal", zh: "水晶版", v: ["#3fb6c4"] },
+    "宝可梦 红宝石·蓝宝石":                   { r: 2002, s: "RS", zh: "红·蓝宝石", v: ["#a01722", "#1348a8"] },
+    "宝可梦 火红·叶绿":                       { r: 2004, s: "FRLG", zh: "火红·叶绿", v: ["#e2521d", "#5da32a"] },
+    "宝可梦 绿宝石":                          { r: 2004, s: "Emerald", zh: "绿宝石", v: ["#1f9d63"] },
+    "宝可梦 钻石·珍珠":                       { r: 2006, s: "DP", zh: "钻石·珍珠", v: ["#5f9ec9", "#d4779b"] },
+    "宝可梦 白金":                            { r: 2008, s: "Pt", zh: "白金", v: ["#7d878c", "#c0392b"] },
+    "宝可梦 心金·魂银":                       { r: 2009, s: "HGSS", zh: "心金·魂银", v: ["#c99a1e", "#8f9aa1"] },
+    "宝可梦 黑·白":                           { r: 2010, s: "BW", zh: "黑·白", v: ["#25262a", "#d8d8d2"] },
+    "宝可梦 黑2·白2":                         { r: 2012, s: "B2W2", zh: "黑2·白2", v: ["#3a3f45", "#e3e3dd"] },
+    "宝可梦 X·Y":                             { r: 2013, s: "XY", zh: "X·Y", v: ["#2a5ca8", "#c0392b"] },
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石":         { r: 2014, s: "ORAS", zh: "始源红·蓝", v: ["#b3123a", "#1f5fb8"] },
+    "Pokémon GO":                             { r: 2016, s: "GO", zh: "宝可梦 GO", v: ["#4a90d9", "#f2c14e"] },
+    "宝可梦 太阳·月亮":                       { r: 2016, s: "SM", zh: "太阳·月亮", v: ["#e8a020", "#3f51b5"] },
+    "宝可梦 究极之日·究极之月":                 { r: 2017, s: "USUM", zh: "究极日·月", v: ["#d4761a", "#2f3f7a"] },
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": { r: 2018, s: "LGPE", zh: "Let's Go 皮·伊", v: ["#f2c14e", "#b88a58"] },
+    "宝可梦 剑·盾":                           { r: 2019, s: "SwSh", zh: "剑·盾", v: ["#1f7ec4", "#b3123a"] },
+    "宝可梦 晶灿钻石·明亮珍珠":                 { r: 2021, s: "BDSP", zh: "晶灿钻·亮珍", v: ["#7fb4d8", "#e39ab6"] },
+    "宝可梦传说 阿尔宙斯":                     { r: 2022, s: "LA", zh: "传说 阿尔宙斯", v: ["#8d6b3f", "#1e3799"] },
+    "宝可梦 朱·紫":                           { r: 2022, s: "SV", zh: "朱·紫", v: ["#c0392b", "#7b3f9e"] },
+    "宝可梦传说 Z-A":                         { r: 2025, s: "PLZA", zh: "传说 Z-A", v: ["#0d7c99", "#d3308a"] },
+    "宝可梦集换式卡牌游戏":                   { r: 1996, s: "PTCG", zh: "集换式卡牌", v: ["#f39c12", "#2980b9"] },
+    "宝可梦竞技场":                           { r: 1998, s: "Stadium", zh: "竞技场", v: ["#6c5ce7", "#2d3436"] },
+    "宝可梦随乐拍":                           { r: 1999, s: "Snap", zh: "随乐拍", v: ["#2ed573", "#ffa502"] },
+    "宝可梦不可思议迷宫":                     { r: 2005, s: "PMD", zh: "不可思议迷宫", v: ["#0984e3", "#6c5ce7"] },
+    "宝可梦☆星期天":                         { r: 2004, s: "PokéSun", zh: "宝可梦星期天", v: ["#ffa502", "#ff4757"] },
+    "宝可梦乱战":                             { r: 2009, s: "Rumble", zh: "宝可梦乱战", v: ["#e17055", "#fdcb6e"] },
+    "超级宝可梦乱战":                         { r: 2011, s: "Super Rumble", zh: "超级乱战", v: ["#d63031", "#fdcb6e"] },
+    "宝可梦立体图鉴BW":                       { r: 2011, s: "Pokédex 3D", zh: "立体图鉴BW", v: ["#2d3436", "#00cec9"] },
+    "名侦探皮卡丘":                           { r: 2016, s: "Det. Pikachu", zh: "名侦探皮卡丘", v: ["#eccc68", "#2f3542"] },
+    "Pokémon Sleep":                          { r: 2023, s: "Sleep", zh: "Pokémon Sleep", v: ["#70a1ff", "#7bed9f"] },
+    "昆蒂":                                   { r: 1989, s: "Quinty", zh: "昆蒂", v: ["#e84393", "#0984e3"] },
+    "风来的西林":                             { r: 1995, s: "Shiren", zh: "风来的西林", v: ["#d35400", "#27ae60"] },
+    "Gear Project（齿轮企划）":               { r: 2010, s: "Gear Project", zh: "齿轮企划", v: ["#636e72", "#b2bec3"] },
+    "铁板阵":                                 { r: 1983, s: "Xevious", zh: "铁板阵", v: ["#57606f", "#ffa502"] },
+    "勇者斗恶龙":                             { r: 1986, s: "DQ", zh: "勇者斗恶龙", v: ["#3867d6", "#fed330"] },
+    "TEMBO THE BADASS ELEPHANT":              { r: 2015, s: "TEMBO", zh: "大象特姆博", v: ["#eb3b5a", "#4b6584"] }
   };
 
   var WORK_CANONICAL = {
@@ -4510,6 +4585,20 @@ document.addEventListener("DOMContentLoaded", () => {
     var c = canonWork(name);
     var meta = WORK_META[c] || WORK_META[name];
     if (meta && meta.s) { return meta.s; }
+    var clean = c.replace(/^宝可梦\s*/, "")
+                 .replace(/^Pokémon\s*/i, "")
+                 .replace(/^ポケットモンスター\s*/, "");
+    if (clean.length > 8) {
+      return clean.slice(0, 7) + "…";
+    }
+    return clean;
+  }
+
+  /* Concise Chinese standardized name for flipper backface */
+  function zhWork(name) {
+    var c = canonWork(name);
+    var meta = WORK_META[c] || WORK_META[name];
+    if (meta && meta.zh) { return meta.zh; }
     var clean = c.replace(/^宝可梦\s*/, "")
                  .replace(/^Pokémon\s*/i, "")
                  .replace(/^ポケットモンスター\s*/, "");
@@ -4606,7 +4695,7 @@ document.addEventListener("DOMContentLoaded", () => {
       var yy = byWork[name], meta = WORK_META[name];
       var mentions = Object.keys(yy).map(Number);
       return {
-        name: name, short: shortWork(name), y: yy, v: workColors(name),
+        name: name, short: shortWork(name), zh: zhWork(name), y: yy, v: workColors(name),
         /* release year where it is known, earliest mention as a stand-in
            where it is not, so one key orders the whole column */
         r: meta ? meta.r : Math.min.apply(null, mentions),
@@ -4714,7 +4803,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return Object.keys(byWork).map(function (name) {
       var yy = byWork[name], meta = WORK_META[name], years = Object.keys(yy).map(Number);
       return {
-        name: name, short: shortWork(name), y: yy, v: workColors(name),
+        name: name, short: shortWork(name), zh: zhWork(name), y: yy, v: workColors(name),
         r: meta ? meta.r : Math.min.apply(null, years),
         n: years.reduce(function (s, y) { return s + yy[y]; }, 0)
       };
@@ -4803,6 +4892,33 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  var flipTimer = null, isFlipped = false, isGridHovered = false;
+
+  function toggleTitleFlip(forcedState) {
+    isFlipped = typeof forcedState === "boolean" ? forcedState : !isFlipped;
+    var grid = $("cgrid");
+    if (!grid) { return; }
+    var flippers = grid.querySelectorAll(".work-flipper");
+    for (var i = 0; i < flippers.length; i++) {
+      flippers[i].classList.toggle("is-flipped", isFlipped);
+    }
+  }
+
+  function startTitleFlipper() {
+    if (flipTimer) { clearInterval(flipTimer); }
+    flipTimer = setInterval(function () {
+      if (document.hidden || isGridHovered) { return; }
+      toggleTitleFlip();
+    }, 10000);
+
+    var grid = $("cgrid");
+    if (grid && !grid.dataset.flipperBound) {
+      grid.dataset.flipperBound = "true";
+      grid.addEventListener("mouseenter", function () { isGridHovered = true; });
+      grid.addEventListener("mouseleave", function () { isGridHovered = false; });
+    }
+  }
+
   /* Bars and heatmap render into one grid: both are keyed by year, so they
      share a single axis instead of drawing one each. Alignment is structural -
      every row is the same two-column grid and every plot cell is flex:1 - so a
@@ -4841,7 +4957,8 @@ document.addEventListener("DOMContentLoaded", () => {
       return "<span" + (state.year === y ? " data-on" : "") + ">" + String(y).slice(2) + "</span>";
     }).join("");
 
-    var heat = visibleWorks.map(function (w) {
+    var flipClass = isFlipped ? " is-flipped" : "";
+    var heat = visibleWorks.map(function (w, idx) {
       var mark = w.v && w.v.length ? '<span class="vmark">' + w.v.map(function (c) {
         return '<i style="background:' + c + '"></i>';
       }).join("") + "</span>" : "";
@@ -4853,14 +4970,18 @@ document.addEventListener("DOMContentLoaded", () => {
             ' 篇" aria-label="' + esc(w.name) + " " + y + " 年 " + n + ' 篇">' + n + "</button>"
           : '<div class="cell" data-v="0"></div>';
       }).join("");
-      return '<div class="crow crow-heat"><div class="clab" title="' + esc(w.name) + "　" + w.r + '">' + mark + '<span class="cname">' + esc(w.short) + "</span></div>" +
+      return '<div class="crow crow-heat"><div class="clab" title="' + esc(w.name) + "　" + w.r + '">' + mark +
+        '<div class="work-flipper' + flipClass + '" style="--flip-idx:' + idx + ';" title="点击切换中英文名称 · ' + esc(w.name) + '">' +
+          '<span class="flipper-face face-en">' + esc(w.short) + '</span>' +
+          '<span class="flipper-face face-zh">' + esc(w.zh || w.short) + '</span>' +
+        '</div></div>' +
         '<div class="cplot">' + cells + "</div></div>";
     }).join("");
 
     $("cgrid").innerHTML =
       '<div class="crow crow-bars"><div class="clab"><span class="yaxis">' + yax + "</span></div>" +
         '<div class="plot-area">' + grid + '<div class="stack">' + bars + "</div></div></div>" +
-      '<div class="crow crow-axis"><div class="clab">年份</div><div class="cplot">' + axis + "</div></div>" +
+      '<div class="crow crow-axis"><div class="clab"><button type="button" class="analytics-flip-toggle" data-flip-toggle title="点击翻转中英文简称（约每 10 秒自动翻牌）"><span>作品</span><i class="fas fa-right-left" aria-hidden="true"></i></button></div><div class="cplot">' + axis + "</div></div>" +
       heat;
 
     var grand = visibleWorks.reduce(function (s, w) { return s + w.n; }, 0);
@@ -5231,6 +5352,11 @@ document.addEventListener("DOMContentLoaded", () => {
       redraw();
       return;
     }
+    if ((t = ev.target.closest("#retrieval [data-flip-toggle], #retrieval .work-flipper"))) {
+      toggleTitleFlip();
+      startTitleFlipper();
+      return;
+    }
     if ((t = ev.target.closest("#retrieval [data-mobile-chart-tab]"))) {
       setMobileChartView(t.dataset.mobileChartTab);
       return;
@@ -5369,6 +5495,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
     renderLegend(); renderEnts(); redraw();
     $("retrievalLoading").hidden = true;
+    startTitleFlipper();
   }
 
   fetch($("indexUrl").value, { credentials: "same-origin" })
