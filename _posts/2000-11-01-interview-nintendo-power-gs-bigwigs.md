@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] Nintendo Power 专访 Game Freak 主创团队：《金·银》漫长开发与被舍弃的数百只宝可梦'
 original_title: 'Nintendo Power: Chats with the Pokemon Bigwigs (Gold & Silver)'
 date: '2000-11-01'
@@ -54,26 +54,32 @@ parallel_items:
   original: 'The first Pokémon games came in three colors: Red, Blue and Yellow. Is there any reason you chose Gold and Silver for the new Pokémon games?'
   translation: 最初的宝可梦游戏有红、蓝、黄三个版本。你们选择用“金”和“银”作为新游戏的名字，有什么特别的原因吗？
   note: ''
+  role: question
 - speaker: 石原恒和
   original: “We wanted it to be very different from the previous Pokémon games. Gold and Silver aren’t just colors, they’re also real, material things. Precious things.”
   translation: “我们想让新作与之前的宝可梦游戏截然不同。金和银不仅仅是颜色，它们是真实存在的物质，是珍贵之物。”
   note: 石原恒和是宝可梦公司（The Pokémon Company）的社长，也是宝可梦系列的早期核心人物。
+  role: answer
 - speaker: 提问
   original: How many people worked on Gold and Silver, and how long did it take?
   translation: 有多少人参与了《金》和《银》的开发？花了多长时间？
   note: ''
+  role: question
 - speaker: 增田顺一
   original: “Approximately 20 people, I think. We started three years ago, right after Red and Green (Blue in the U.S.) were finished. We developed the Japanese Blue version and the Yellow version after the original game, too, but we were developing Gold and Silver at the same time.”
   translation: “我想大概有20人左右。我们是在三年前，也就是《红》和《绿》（在美国是《蓝》）完成后立即开始的。之后我们还开发了日本版的《蓝》和《黄》，但同时也在开发《金》和《银》。”
   note: 增田顺一是GAME FREAK的作曲家、游戏设计师，后来成为宝可梦系列的制作人。
+  role: answer
 - speaker: 提问
   original: Could you tell us what’s new in Gold and Silver?
   translation: 能告诉我们《金》和《银》有哪些新内容吗？
   note: ''
+  role: question
 - speaker: 增田顺一
   original: “It’s the same Pokémon World as before, but there is a different story. You’ll see many new Pokémon. I can’t reveal anything more at this time.”
   translation: “世界还是原来的宝可梦世界，但故事不同了。你会看到许多新的宝可梦。目前我还不能透露更多。”
   note: ''
+  role: answer
 - type: heading
   level: 3
   original: 'Context: 20th Century Timeline'
@@ -98,30 +104,37 @@ parallel_items:
   original: What was the hardest part of developing Gold and Silver?
   translation: 开发《金／银》时最困难的部分是什么？
   note: ''
+  role: question
 - speaker: 石原恒和
   original: “We designed Gold and Silver to be compatible with Red, Blue and Yellow, and making sure all the elements in all the versions worked together was a challenge. The debugging process was also tough.”
   translation: “我们将《金／银》设计为与《红／绿／蓝》和《皮卡丘》兼容，确保所有版本中的元素协同工作是一项挑战。调试过程也很艰难。”
   note: 石原恒和是宝可梦公司（The Pokémon Company）的社长，当时担任导演。
+  role: answer
 - speaker: 增田顺一
   original: “Making the game easier to understand for everyone was the most difficult part for me. We looked at everything, even how to catch Pokémon. We thought Gold and Silver would be many people’s introduction to playing Pokémon, and we wanted to be prepared for that.”
   translation: “对我来说，最难的部分是让游戏对每个人来说都更容易理解。我们审视了一切，甚至包括如何捕捉宝可梦。我们认为《金／银》会成为许多人接触宝可梦游戏的入门作品，因此我们希望为此做好准备。”
   note: 增田顺一是GAME FREAK的作曲家兼游戏设计师，后来成为系列制作人。
+  role: answer
 - speaker: 杉森建
   original: “Keeping the game fresh was a difficult thing for me. Lots of people have played Pokémon, and Gold and Silver need to stay fresh and interesting for them, too.”
   translation: “对我来说，保持游戏的新鲜感是件困难的事。很多人已经玩过宝可梦，而《金／银》也需要对他们保持新鲜和有趣。”
   note: 杉森建是宝可梦系列的主要角色设计师和艺术总监。
+  role: answer
 - speaker: 森本茂树
   original: “Keeping true to the feeling of the original Pokémon games while creating a brand-new game was my challenge. Everyone has a unique idea of what Pokémon is, and I didn’t want to betray that.”
   translation: “在创造全新游戏的同时，保持原作宝可梦游戏的感觉是我的挑战。每个人对宝可梦都有独特的理解，我不想辜负这一点。”
   note: 森本茂树是GAME FREAK的开发者，参与了宝可梦系列的程序和设计工作。
+  role: answer
 - speaker: 一之濑刚
   original: “This is the first Pokémon game I have worked on, and it was a challenge for me to learn about and stay true to the atmosphere of the original Pokémon games.”
   translation: “这是我参与的第一款宝可梦游戏，对我来说，学习和保持原作宝可梦游戏的氛围是一个挑战。”
   note: 一之濑刚是GAME FREAK的图形设计师，后来参与了多个宝可梦项目。
+  role: answer
 - speaker: 太田健典
   original: “I was in charge of programming. I tried to make a programming system that was easier to use. I was able to make some changes, but not all, because we were under a very tight schedule.”
   translation: “我负责编程。我试图让编程系统更易于使用。我能够做出一些更改，但并非全部，因为我们的日程非常紧张。”
   note: 太田健典是GAME FREAK的程序员。
+  role: answer
 - type: heading
   level: 3
   original: Problems with Programming
@@ -138,6 +151,7 @@ parallel_items:
   original: 'Shigeki Morimoto can actually be found as an NPC in Ultra Sun & Moon, where he tells the player about Iwata’s contribution to the series: “When we were having trouble fitting all the data in for Gold and Silver, and we were really in a pinch, this amazing guy came along and made a program for us that solved all our problems.”'
   translation: 实际上，在《究极之日／究极之月》中，森本茂树可以作为 NPC 出现，他会告诉玩家岩田聪对系列的贡献：“当我们为《金／银》的数据存储而苦恼，真的陷入困境时，这位了不起的人出现了，为我们编写了一个程序，解决了我们所有的问题。”
   note: 森本茂树在《究极之日／究极之月》中以游戏开发者身份客串出现。
+  role: answer
 - type: heading
   level: 3
   original: Back to the Interview
@@ -146,18 +160,22 @@ parallel_items:
   original: Are there any new Pokémon like Mew in Gold and Silver?
   translation: 在《金·银》中会有像梦幻那样的新宝可梦吗？
   note: ''
+  role: question
 - speaker: 杉森建
   original: “(Laughing) Maybe, maybe not.”
   translation: “（笑）也许有，也许没有。”
   note: ''
+  role: answer
 - speaker: 提问
   original: How do you create new Pokémon?
   translation: 你们是如何创造新宝可梦的？
   note: ''
+  role: question
 - speaker: 杉森建
   original: “There are several ways we come up with Pokémon. Some are inspired by a shape, figure or creature that already exists. For others, we tried to consider what kind of Pokémon would be interesting in game play. For example, in Gold and Silver, we’ll introduce new Pokémon types. Psychic Pokémon seemed to dominate in the previous Pokémon game, so we needed to come up with new Pokémon and types to make Gold and Silver more balanced. We came up with several hundred new Pokémon, but most of them got cut during development.”
   translation: “我们构思宝可梦的方式有好几种。有些是受到已有形状、形象或生物的启发。另一些则是我们尝试思考什么样的宝可梦在游戏中会很有趣。例如，在《金·银》中，我们会引入新的宝可梦属性。在前作中，超能力属性的宝可梦似乎过于强势，所以我们需要设计新的宝可梦和属性，让《金·银》更加平衡。我们构思了几百只新宝可梦，但大部分在开发过程中被砍掉了。”
   note: ''
+  role: answer
 - type: heading
   level: 3
   original: Hundreds of Pokemon
@@ -199,26 +217,32 @@ parallel_items:
   original: What is your favorite Pokémon?
   translation: 你最喜欢的宝可梦是什么？
   note: ''
+  role: question
 - speaker: 石原恒和
   original: “Exeggutor, because I have been using it for a long, long time.”
   translation: “椰蛋树，因为我使用它已经很久很久了。”
   note: ''
+  role: answer
 - speaker: 增田顺一
   original: “Psyduck. He looks funny.”
   translation: “可达鸭。它看起来很有趣。”
   note: ''
+  role: answer
 - speaker: 杉森建
   original: “Hoothoot. It has only one leg. When I was a kid, I had a pet bird. One day, I was surprised to see my bird standing on only one leg. I’ve learned since that that was normal for that kind of bird, but it had already made a big impression on me and I couldn’t forget it. That inspired me to create Hoothoot.”
   translation: “咕咕。它只有一条腿。小时候我养过一只鸟。有一天，我惊讶地发现我的鸟只用一条腿站着。后来我才知道那种鸟这样是正常的，但那一幕已经给我留下了深刻的印象，我无法忘怀。这启发我创造了咕咕。”
   note: 咕咕的设计灵感来源于杉森建童年时观察到的鸟单腿站立的景象。
+  role: answer
 - speaker: 太田健典
   original: “Charmander. Fire-types are cool! I also like Cyndaquil, the new Fire-type Pokémon.”
   translation: “小火龙。火属性很酷！我也喜欢火球鼠，新的火属性宝可梦。”
   note: ''
+  role: answer
 - speaker: 森本茂树
   original: “Mew. I created Mew two weeks before we were finished developing the original Pokémon game. I owe a lot to Mew.”
   translation: “梦幻。我在初代宝可梦游戏开发完成前两周创造了梦幻。我欠梦幻很多。”
   note: 梦幻是森本茂树在初代游戏开发末期临时加入的宝可梦，后来成为传说宝可梦。
+  role: answer
 - type: heading
   level: 3
   original: Creation of Mew
@@ -231,10 +255,12 @@ parallel_items:
   original: “We put Mew in right at the very end. The cartridge was really full and there wasn’t room for much more on there. Then the debug features which weren’t going to be included in the final version of the game were removed, creating a minuscule 300 bytes of free space. So we thought that we could slot Mew in there. What we did would be unthinkable nowadays!”
   translation: “我们是在最后关头才把梦幻加进去的。卡带当时已经装得很满，几乎没有多余空间。后来我们删除了不会出现在最终版本中的调试功能，腾出了微小的300字节空间。于是我们想，可以把梦幻塞进去。我们当时做的事，放到现在简直难以想象！”
   note: 梦幻最初是作为隐藏宝可梦加入的，并未在游戏内正式出现，直到后续活动才公开。
+  role: answer
 - speaker: 石原恒和
   original: “This is in spite of being told after debug ended that you weren’t to tamper with even a single bit! (laughs wryly)”
   translation: “尽管调试结束后，我们被警告连一个比特都不能改动！（苦笑）”
   note: ''
+  role: answer
 - type: heading
   level: 3
   original: Back to the Interview
@@ -243,8 +269,10 @@ parallel_items:
   original: We know that Pokémon Puzzle League and Hey You, Pikachu! will soon hit the US Market, as will Gold and Silver. What is the plan for Pokémon beyond that?
   translation: 我们知道《宝可梦益智联盟》和《嘿，皮卡丘！》即将登陆美国市场，《金》和《银》也一样。那么，宝可梦系列在那之后有什么计划呢？
   note: ''
+  role: question
 - speaker: 石原恒和
   original: “We are working on a new Pokémon game that will come out after Gold and Silver. We can’t say which platform it’s for at this time. I was thinking about the different language versions of Pokémon and how you can’t trade between them. If we can make them compatible with each other, they would be far more interesting. Pokémon users around the world would be able to communicate through the Pokémon game. A world without language barriers is possible in the Star Trek world (laughing), and if we could do the same thing in the Pokémon world, that would be great!”
   translation: “我们正在开发一款继《金》和《银》之后推出的新宝可梦游戏。目前还不能透露它对应哪个平台。我一直在思考宝可梦的不同语言版本，以及它们之间无法进行交换的问题。如果我们能让它们彼此兼容，那将会更加有趣。世界各地的宝可梦用户就能通过宝可梦游戏进行交流。在《星际迷航》的世界里，一个没有语言障碍的世界是可能的（笑），如果我们能在宝可梦世界里也做到同样的事情，那就太棒了！”
   note: 石原恒和是宝可梦公司的社长，此处提及的“新宝可梦游戏”可能指后来的《宝可梦水晶》或跨语言交换功能，但当时尚未公开。
+  role: answer
 ---

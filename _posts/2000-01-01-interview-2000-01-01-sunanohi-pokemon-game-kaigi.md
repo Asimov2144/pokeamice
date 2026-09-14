@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理'
 date: '2000-01-01'
 toc: true
@@ -271,34 +271,42 @@ parallel_items:
   original: 『２』のポケモンは何種類?　新ポケモンは何種類?
   translation: 《2》中总共有多少种宝可梦？新宝可梦有多少种？
   speaker: 提问
+  role: question
 - type: paragraph
   original: どんなポケモンが出てくるのか、ちょっとだけ教えて。
   translation: 能稍微透露一下会出现什么样的宝可梦吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 進化方法は変わるの?　変わるとしたらどうなるの?
   translation: 进化方式会改变吗？如果改变的话会变成什么样？
   speaker: 提问
+  role: question
 - type: paragraph
   original: シナリオは前作の続きになるの?　内容はどうなる?
   translation: 剧情会是前作的延续吗？内容会如何发展？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 今回も2種類発売されるの?　違いは前と同じ?
   translation: 这次也会发售两个版本吗？区别和之前一样吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 前作で捕まえたポケモンは使えるの?　その逆は?
   translation: 前作中捕捉的宝可梦能使用吗？反之（本作宝可梦传到前作）呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 今どのくらいまでできているの?　開発度は何%?
   translation: 目前开发到什么程度了？开发进度是百分之几？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 『２』が発売されるのは、いつごろになるんだろう?
   translation: 《2》大概什么时候发售呢？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 2. その他のポケモンのゲーム関連記事
   translation: 2. 其他宝可梦游戏相关文章
@@ -351,6 +359,7 @@ parallel_items:
   translation: ♪ 成为训练家后能交到150个朋友吗 ♪（第58页 忍者增田的评测）
   speaker: 忍者增田
   note: 此处“150人”指当时宝可梦总数151只（含梦幻），但梦幻未公开，故称150。
+  role: answer
 - type: paragraph
   original: 当時、脚光を浴びていた次世代機よりも、どこでも遊べるゲームボーイを忍者増田氏は愛していて、
   translation: 比起当时备受瞩目的次世代主机，忍者增田更喜爱可以随时随地游玩的Game Boy。
@@ -744,15 +753,18 @@ parallel_items:
   original: 増田 前作をやった人は、解くのも早いですね。逆に、初めての人にとっては、難しいかなあというのがあるんですけど。
   translation: 玩过前作的人，解谜速度也很快。相反，对于初次接触的人来说，可能会觉得有些难。
   speaker: 增田顺一
+  role: answer
 - type: paragraph
   original: ――　でも、初心者にはわかりやすい演出が多いと思いますよ。
   translation: ——不过，我觉得对新手来说，有很多容易理解的演出。
   speaker: 提问
+  role: question
 - type: paragraph
   original: 渡辺 モンスターデザインをやっている杉森（建氏）が、「前作を親父にやらしたんだけど、家から出られないようなんだ」って(笑)。ですから、彼はずっと「もっとわかりやすくしたいなあ」と提言してきたんです。だから、セレクトボタン一発で、釣りができたり自転車に乗れるようにしたのも、彼からの提案なんです。『金・銀』のプレイヤーの対象が、ある程度、小さいお子さんになることも予想されていますし、アニメから入ってくる人もいます。これらのゲーム慣れしていないプレイヤーを想定して、今回は親切設計にしようと。メニュー画面を開いて、下に解説が出るようにしたのも、ディレクターの田尻（智氏）のほうから、最終段階になって「入れて欲しい」という話があったからなんです。ぼくらは、攻略本どころか、取説すら読まない人間ですから、自分たちがやっていて、それらを見ないとゲームを進められないというのは、結構じれったいんですね。
   translation: 渡边：负责宝可梦设计的杉森（建）说：“我让我爸玩前作，结果他好像从房间里出不来”（笑）。所以，他一直提议“想做得更容易理解一些”。因此，按一下选择键就能钓鱼或骑自行车，也是他的提案。我们预想到《金·银》的玩家对象在一定程度上会是低龄儿童，也有从动画开始接触的人。考虑到这些不熟悉游戏的玩家，这次我们决定采用体贴的设计。菜单画面打开后，下方会显示说明，这也是导演田尻（智）在开发最后阶段提出“希望加入”的。我们这些人别说攻略本了，连说明书都不读，所以如果自己玩的时候不靠这些就无法推进游戏的话，会觉得很着急。
   speaker: 渡边哲也
   note: 杉森建是宝可梦系列的角色设计师；田尻智是《宝可梦》系列的生父，当时担任《金·银》的导演。
+  role: answer
 - type: paragraph
   original: ※ 以下後略し、「親切設計」について、増田氏と森本氏もそれぞれ語っている。
   translation: ※ 以下从略，关于“体贴设计”，增田先生和森本先生也各自有所讲述。
@@ -773,27 +785,33 @@ parallel_items:
   original: ――　ところで、杉森さんのお父さんは『ポケモン』をプレイできるようになったんですか?
   translation: ——话说回来，杉森先生的父亲现在能玩《宝可梦》了吗？
   speaker: 提问
+  role: question
 - type: paragraph
   original: 杉森 いやなってないです。
   translation: 不，还是不行。
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: ――　前回のインタビューで、部屋に入ったのはいいけど、出口がわからないで出られずにいるという話を聞きまして(笑)。
   translation: ——在上次采访中，我们听说他进了房间却找不到出口出不来（笑）。
   speaker: 提问
+  role: question
 - type: paragraph
   original: 杉森 だから今回部屋の出口に矢印を入れることを強く要請したんです(笑)。
   translation: 所以这次我强烈要求在房间出口处加上箭头（笑）。
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: ――　おおっ、すごい親孝行(笑)。
   translation: 采访者：哦哦，真是大孝子啊（笑）。
   speaker: 提问
   note: 此处“親孝行”为反讽或调侃，指杉森在游戏中加入箭头是为了照顾玩家，如同孝顺父母一般。
+  role: question
 - type: paragraph
   original: 杉森 それで、できるようになったかはまだわかりませんけどね(笑)。
   translation: 不过，是否真的实现了，现在还不好说呢（笑）。
   speaker: 杉森建
+  role: answer
 - type: paragraph
   original: スペシャルサンクス： ぴスイッチさんのツイート 読み物： 「初代ポケモンの難所について」（かけるのブログ）
   translation: 特别感谢：ぴスイッチ先生的推文 读物：《关于初代宝可梦的难点》（かける的博客）
@@ -824,6 +842,7 @@ parallel_items:
   translation: 采访石原社长：20年后的《宝可梦 红·绿》。
   note: 《宝可梦 红·绿》是宝可梦系列最初的作品。
   speaker: 提问
+  role: question
 - type: paragraph
   original: ポケモン20周年を記念して『赤・緑・青・ピカチュウ』のVC版が発売された際の石原恒和のインタビュー記事。
   translation: 为纪念宝可梦20周年，在《红·绿·蓝·皮卡丘》的Virtual Console版发售之际，对石原恒和的访谈文章。

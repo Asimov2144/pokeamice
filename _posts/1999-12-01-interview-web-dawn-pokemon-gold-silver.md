@@ -1,6 +1,6 @@
 ---
 archive_type: interview_translation
-layout: parallel-translation
+layout: interview-editorial
 title: 宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录
 title_ja: インターネットにおけるポケモンサイト黎明期の記憶（初代赤緑・ミュウ騒動から金銀発売前夜まで）
 date: 1999-12-01 10:00:00 +0900

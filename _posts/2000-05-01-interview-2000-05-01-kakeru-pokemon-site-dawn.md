@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 互联网宝可梦网站黎明期的记忆：金银发售前的整理'
 date: '2000-05-01'
 toc: true

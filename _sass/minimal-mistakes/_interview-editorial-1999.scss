@@ -1,0 +1,278 @@
+/* ==========================================================================
+   Interview, editorial - 1999 skin: the early web, 1996-2001
+   Reference: Pokémon World 1999 and TIME's web edition of the period, via
+   design/README.md and design/pokeamice_interview_reading_ui_redesign.md
+   section 19: a narrow measure, a low-saturation paper ground, hard 1px
+   rules, square corners, classic blue links, small metadata, a serif / sans
+   mix, and no cards, pills, badges or buttons in the prose.
+
+   Same palette as the 1999 site shell in _era-shell.scss - the article and
+   the chrome around it come from the same year. The skin touches type,
+   rules, width, links and images only; the reading structure - cover,
+   lead, chapters, pull quote, archive - is the base layout's and does not
+   change with the era.
+   ========================================================================== */
+
+$e99-ink: #1a1a1a;
+$e99-ink-soft: #444444;
+$e99-paper: #fffdf5;
+$e99-navy: #003a70;
+$e99-gold: #ffcb05;
+$e99-rule: #9a958a;
+$e99-rule-soft: #d8d3c6;
+$e99-link: #0000cc;
+$e99-visited: #551a8b;
+$e99-serif: Georgia, "Times New Roman", "Songti SC", SimSun, "Noto Serif SC", serif;
+$e99-sans: Verdana, Tahoma, "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+$e99-measure: 600px;
+
+.layout--interview-editorial .ed[data-era-skin="1999"] {
+  font-family: $e99-serif;
+  color: $e99-ink;
+  line-height: 1.7;
+  letter-spacing: 0;
+
+  a { color: $e99-link; text-decoration: underline; }
+  a:visited { color: $e99-visited; }
+
+  /* the narrow measure of a 1999 page */
+  .ed-cover, .ed-body, .ed-epilogue, .ed-archive { max-width: $e99-measure; }
+  .ed-hero { max-width: 640px; }
+
+  /* ---- tools: a text link, not a pill ---------------------------------- */
+  .ed-tools__summary {
+    border: 1px solid $e99-rule;
+    border-radius: 0;
+    background: $e99-paper;
+    color: $e99-navy;
+    font-family: $e99-sans;
+    font-size: 11px;
+  }
+
+  .ed-tools[open] .ed-tools__panel { border-color: $e99-rule; border-radius: 0; background: $e99-paper; box-shadow: none; }
+  .ed-tools__btn { border-color: $e99-rule; border-radius: 0; background: $e99-paper; color: $e99-ink; font-family: $e99-sans; }
+  .ed-tools__btn.is-active,
+  .ed-tools__btn[aria-pressed="true"],
+  .ed-tools__btn.is-filter-active { background: $e99-navy; border-color: $e99-navy; color: $e99-gold; }
+
+  /* ---- cover: a rule, a small sans kicker, a serif headline ------------ */
+  .ed-cover {
+    margin-top: 32px;
+    padding-top: 10px;
+    border-top: 1px solid $e99-ink;
+  }
+
+  .ed-kicker {
+    margin-bottom: 14px;
+    font-family: $e99-sans;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: $e99-navy;
+  }
+
+  .ed-kicker > span + span::before { content: "|"; color: $e99-rule; margin: 0 10px 0 0; }
+
+  .ed-title {
+    margin-bottom: 12px;
+    font-family: $e99-serif;
+    font-size: clamp(26px, 3.6vw, 36px);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.2;
+    color: $e99-ink;
+  }
+
+  .ed-title__text { display: inline; padding: 0; background: none; color: inherit; }
+
+  .ed-people {
+    font-family: $e99-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    color: $e99-ink-soft;
+  }
+
+  .ed-dek {
+    font-family: $e99-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: $e99-ink-soft;
+  }
+
+  /* metadata as a small sans line between two hairlines - the way a 1999
+     page dated itself */
+  .ed-meta {
+    gap: 0 8px;
+    padding: 6px 0;
+    border-top: 1px solid $e99-rule;
+    border-bottom: 1px solid $e99-rule;
+    font-family: $e99-sans;
+    font-size: 10px;
+    color: $e99-ink-soft;
+  }
+
+  .ed-meta > * { display: inline; padding: 0; border-radius: 0; background: none; color: inherit; }
+  .ed-meta > * + *::before { content: "|"; margin-right: 8px; color: $e99-rule; }
+  .ed-meta a { color: $e99-link; background: none; }
+
+  /* ---- images: a 1px border, no radius, a caption in small sans ---------- */
+  .ed-hero { margin: 22px auto 28px; }
+  .ed-hero img, .ed-figure img { border: 1px solid $e99-rule; border-radius: 0; padding: 2px; background: #ffffff; }
+  .ed-hero::before { content: none; }
+  .ed-hero figcaption, .ed-figure figcaption { font-family: $e99-sans; font-size: 10px; color: $e99-ink-soft; }
+
+  /* ---- body ------------------------------------------------------------- */
+  .ed-body { font-size: 16px; }
+  .ed-trans, .ed-orig { font-weight: 400; }
+  .ed-lead .ed-trans { font-size: 17px; line-height: 1.65; }
+  .ed-lead .ed-trans p:first-child::first-letter {
+    /* the drop cap of a magazine feature, two lines deep */
+    float: left;
+    margin: 4px 8px 0 0;
+    font-size: 44px;
+    line-height: 0.85;
+    font-weight: 700;
+    color: $e99-navy;
+  }
+
+  /* chapters: a hairline and a serif title; the number is a plain numeral */
+  .ed-chapter { margin-top: 40px; }
+
+  .ed-chapter__head {
+    gap: 10px;
+    margin-bottom: 12px;
+    padding-top: 12px;
+    border-top: 1px solid $e99-rule;
+  }
+
+  .ed-chapter__num {
+    font-family: $e99-sans;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: $e99-navy;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+  }
+
+  .ed-chapter__title {
+    font-family: $e99-serif;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.3;
+  }
+
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $e99-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+
+  /* speakers: a bold small-caps name in sans, no bar, no pill - the way a
+     transcript was set in print */
+  .ed-turn__who {
+    display: block;
+    gap: 0;
+    margin: 0 0 4px;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    font-family: $e99-sans;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $e99-navy;
+  }
+
+  .ed-turn__who::before { content: none; }
+  .ed-turn--answer .ed-turn__who { color: $e99-ink; background: none; }
+  .ed-turn--question .ed-turn__who { color: $e99-navy; background: none; }
+  .ed-turn--question .ed-trans { font-weight: 700; color: $e99-ink; }
+
+  /* the original: a square sans tag */
+  .ed-orig-toggle {
+    border: 1px solid $e99-rule;
+    border-radius: 0;
+    background: $e99-paper;
+    color: $e99-navy;
+    font-family: $e99-sans;
+    letter-spacing: 0.08em;
+  }
+
+  .ed-orig-toggle:hover,
+  .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $e99-navy; background: $e99-navy; color: $e99-gold; }
+  .parallel-text__cell--original[open] .ed-orig { border-left: 1px solid $e99-rule; font-family: $e99-serif; }
+
+  /* pull quote: a ruled serif block, centred, as a magazine sets one */
+  .ed-pull {
+    max-width: $e99-measure;
+    margin: 36px auto;
+    padding: 18px 0;
+    border: 0;
+    border-top: 3px double $e99-ink;
+    border-bottom: 1px solid $e99-ink;
+    border-radius: 0;
+    background: none;
+    text-align: center;
+  }
+
+  .ed-pull p {
+    font-family: $e99-serif;
+    font-size: clamp(20px, 2.6vw, 27px);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.4;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: $e99-ink;
+  }
+
+  .ed-pull footer { font-family: $e99-sans; font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: $e99-ink-soft; }
+
+  /* notes: a superscript mark in the link blue */
+  .ed-note { color: $e99-link; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { border-left: 1px solid $e99-rule; background: #fbf7e6; font-family: $e99-sans; font-size: 12px; }
+
+  /* epilogue and archive: plain, ruled, small sans */
+  .ed-epilogue { border-top: 1px solid $e99-rule; font-family: $e99-serif; }
+  .ed-epilogue h2 { font-family: $e99-sans; color: $e99-navy; }
+
+  .ed-archive {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 12px 0 0;
+    border-top: 1px solid $e99-ink;
+    border-radius: 0;
+    background: none;
+    font-family: $e99-sans;
+    font-size: 12px;
+  }
+
+  .ed-archive__record > summary { font-family: $e99-sans; color: $e99-navy; }
+  .ed-archive .parallel-archive-route a { color: $e99-link; }
+
+  @media (max-width: 720px) {
+    .ed-lead .ed-trans p:first-child::first-letter { font-size: 36px; }
+  }
+}
+
+/* the 1999 page on the site's dark theme: the paper stays warm, the ink
+   inverts, the links go to the light blue of a dark-scheme browser */
+.layout--interview-editorial .ed[data-era-skin="1999"][data-reading-theme="dark"] {
+  color: #e8e4d8;
+  a { color: #8ab4f8; }
+  .ed-title, .ed-chapter__title, .ed-pull p, .ed-lead .ed-trans, .ed-turn--question .ed-trans, .ed-turn--answer .ed-turn__who { color: #f2efe6; }
+  .ed-kicker, .ed-chapter__num, .ed-turn--question .ed-turn__who, .ed-lead .ed-trans p:first-child::first-letter { color: $e99-gold; }
+  .ed-cover, .ed-pull, .ed-archive { border-color: #e8e4d8; }
+  .ed-tools__summary, .ed-tools[open] .ed-tools__panel, .ed-tools__btn, .ed-orig-toggle { background: #1c1a14; border-color: #5a554a; color: #e8e4d8; }
+  .ed-hero img, .ed-figure img { background: #1c1a14; border-color: #5a554a; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { background: #2a2618; color: #e8e4d8; }
+}

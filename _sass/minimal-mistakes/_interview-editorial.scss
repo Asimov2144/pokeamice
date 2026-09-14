@@ -235,8 +235,37 @@ $ed-measure: 704px;
   .ed-trans, .ed-orig { font-size: inherit; color: inherit; line-height: inherit; padding: 0; margin: 0; border: 0; background: none; }
   .ed-orig-toggle { display: inline-flex; }
   /* .parallel-text__block is a card there - border, radius, shadow, white
-     fill. Here a turn is prose. Measured leaking at 543px before this. */
-  .ed-turn { border: 0; border-radius: 0; padding: 0; background: none; box-shadow: none; }
+     fill. Here a turn is prose. Measured leaking at 543px before this.
+     Stated again with the era attribute in the selector: _interview-era.scss
+     keys its own block borders on [data-era-skin="…"] .parallel-text__block,
+     which this root now carries, and that outranked the plain reset - the
+     1999 TIME page came back with every paragraph in a box. */
+  /* !important on purpose, and only here. _interview-era.scss forces its
+     borders, fills and type onto the same hook classes with !important - 130
+     of them - so nothing short of !important can hand these back to the
+     skin. Only the box and the block's colour are forced: measured, the
+     forced type never reached these elements, and the skins' own type rules
+     sit on the cells, where they must keep winning. */
+  .ed-turn,
+  .ed[data-era-skin] .ed-turn,
+  .ed[data-era-skin] .parallel-text__block {
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+    box-shadow: none !important;
+    transition: none !important;
+  }
+  .ed[data-era-skin] .ed-turn,
+  .ed[data-era-skin] .parallel-text__block { color: inherit !important; }
+  .ed[data-era-skin] .ed-trans,
+  .ed[data-era-skin] .ed-orig,
+  .ed[data-era-skin] .parallel-text__cell {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+    background: none !important;
+  }
 
   .ed-turn { position: relative; margin: 0 0 22px; }
   .ed-turn p { margin: 0 0 1em; }
