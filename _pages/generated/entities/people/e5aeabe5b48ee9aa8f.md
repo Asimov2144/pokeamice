@@ -1,18 +1,18 @@
 ---
-title: "谈谈情跳跳舞 - 作品"
-permalink: "/entities/works/e8b088e8b088e68385e8b7b3e8b7b3e8889e/"
+title: "宫崎骏 - 人物"
+permalink: "/entities/people/e5aeabe5b48ee9aa8f/"
 layout: "single"
 search: false
 ---
 
 <section class="resource-network-page">
   <div class="resource-network-hero">
-    <p>作品</p>
-    <h2>谈谈情跳跳舞</h2>
-    <span>2 篇文章 · 0 条评注 · 2009</span>
+    <p>人物</p>
+    <h2>宫崎骏</h2>
+    <span>1 篇文章 · 0 条评注 · 2009</span>
   </div>
   <div class="resource-network-jump">
-    <a href="/entities/works/">返回作品索引</a>
+    <a href="/entities/people/">返回人物索引</a>
     <a href="/timeline/">时间线</a>
     <a href="/resource-graph/">关系图谱</a>
   </div>
@@ -22,12 +22,6 @@ search: false
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第182回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch182/">[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映狂澜（小田原影院赠票往事、大人们的肃穆凝固与对狂热狂澜的战栗警惕）</a></h3>
   <span>lead: 在小田原空前拥挤的影院门口，首藤刚志将两张预售票悄悄赠给因满场而痛哭的陌生母子；在放映厅的黑暗中，大人们在超梦低沉吐出“我是谁”的瞬间彻底凝固入神。然而面对日本本土80亿日元的狂暴神话，首藤却发出了最为清醒的警世预言：他深恶痛绝日本社会未经深思的盲从“群合心理”！宁可在海外经受审判，也绝不甘做迎合虚荣的提线木偶——他迎来了以8000万美元斩获北美</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第171回</p>
-  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch171/">[访谈翻译] 首藤刚志动画创作手记 第171回：《宝可梦》超梦能否通行于全世界？（存在主义叩问、替身战胜本体与哥斯拉的跨国隐喻）</a></h3>
-  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 171: Can Mewtwo Travel Across the World?</span>
 </article>
 
   </section>

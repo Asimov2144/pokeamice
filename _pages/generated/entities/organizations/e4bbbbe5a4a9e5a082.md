@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>107 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>111 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -208,6 +208,30 @@ search: false
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ハートゴールド・ソウルシルバー 明日発売です！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-142/">【工作日志】2009年宝可梦新作明日发售</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 《宝可梦 心金·魂银》&lt;br 我是导演もりもと（森本）。 &lt;figure class=&quot;gf-legacy-image&quot;&lt;a href=&quot;/assets/images/gamefreak-legacy/staff/142/morimoto090911-3aedbd5f.jpg&quot; targ</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第185回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch185/">[访谈翻译] 首藤刚志动画创作手记 第185回：迈向《宝可梦》电影第二部（拒绝赌城背后的超现实音乐剧、金银延期的“游戏时间”、橘子群岛诞生与小刚被除名的荒唐内幕）</a></h3>
+  <span>lead: “小刚被强行踢出主角团的真正原因，竟然是眯眯眼太像亚洲人？！”首藤刚志以怒不可遏的笔触揭开了《洛奇亚爆诞》前夕最耸人听闻的业界荒唐秘辛：高层自作聪明地以“西方人讨厌东洋人面孔”为由暴力开除小刚，首藤痛骂提出这一主意的官僚“简直是个彻头彻尾的大白痴”！加之金银游戏跳票导致的“橘子群岛”救场大漂流、以及为了照料牛顿居里夫人先锋音乐剧而公然拒绝赌城犒劳</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第184回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch184/">[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）</a></h3>
+  <span>lead: 全动漫史最惊心动魄的绝密档案彻底解封！首藤刚志亲笔揭晓《宝可梦》原定大结局的震撼全貌：宝可梦本质是角斗士奴隶，终盘皮卡丘将化身“斯巴达克斯”掀起对抗人类的全族大叛乱；小智陷入种族阵营的撕裂，最懂残缺宝可梦的火箭队与喵喵挺身充当人类与宝可梦共存的调停桥梁；垂暮之年的老小智从虚构乌托邦梦境中醒来，被母亲唤醒后踏上探寻自我存在的崭新征途！文末首藤更自爆</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第183回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch183/">[访谈翻译] 首藤刚志动画创作手记 第183回：《超梦的逆袭》心力交瘁（盛名重负下的创作焦虑、英国国教条文赞赏与安定剂相伴的绝望追问）</a></h3>
+  <span>lead: “《超梦的逆袭》彻底让我心力交瘁……”在全美夺冠、本土狂揽80亿的万丈霞光背后，初代总编剧首藤刚志吐露了他一生中最让人心酸的崩溃独白：高层将胜利归功于“宣扬生命尊严”的漂亮假话，同行冷笑“全凭皮卡丘是摇钱树”；而在大洋彼岸，英国国教会神学高官竟向全教会呈递报告、盛赞小智复活体现了“基督自我牺牲与救赎”的至高神学精义！在烟酒禁令与市售精神安定药片的</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第182回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch182/">[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映狂澜（小田原影院赠票往事、大人们的肃穆凝固与对狂热狂澜的战栗警惕）</a></h3>
+  <span>lead: 在小田原空前拥挤的影院门口，首藤刚志将两张预售票悄悄赠给因满场而痛哭的陌生母子；在放映厅的黑暗中，大人们在超梦低沉吐出“我是谁”的瞬间彻底凝固入神。然而面对日本本土80亿日元的狂暴神话，首藤却发出了最为清醒的警世预言：他深恶痛绝日本社会未经深思的盲从“群合心理”！宁可在海外经受审判，也绝不甘做迎合虚荣的提线木偶——他迎来了以8000万美元斩获北美</span>
 </article>
 
 <article class="resource-network-card">

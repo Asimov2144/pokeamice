@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>漫画初体验系列</h2>
-    <span>2 篇文章 · 0 条评注 · 2009</span>
+    <span>3 篇文章 · 0 条评注 · 2009</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第183回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch183/">[访谈翻译] 首藤刚志动画创作手记 第183回：《超梦的逆袭》心力交瘁（盛名重负下的创作焦虑、英国国教条文赞赏与安定剂相伴的绝望追问）</a></h3>
+  <span>lead: “《超梦的逆袭》彻底让我心力交瘁……”在全美夺冠、本土狂揽80亿的万丈霞光背后，初代总编剧首藤刚志吐露了他一生中最让人心酸的崩溃独白：高层将胜利归功于“宣扬生命尊严”的漂亮假话，同行冷笑“全凭皮卡丘是摇钱树”；而在大洋彼岸，英国国教会神学高官竟向全教会呈递报告、盛赞小智复活体现了“基督自我牺牲与救赎”的至高神学精义！在烟酒禁令与市售精神安定药片的</span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第179回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch179/">[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）</a></h3>
   <span>lead: “小智为何必须石化？皮卡丘为何疯狂释放绝望电击？”初代总编剧首藤刚志首次从剧作哲学层面揭开影史催泪名场面的终极真相：小智的石化绝非规避儿童死亡管制的廉价妥协，而是一个身处对战狂热世界深处的少年、在潜意识中以肉身否定对战时所必经的精神与物理双重悖论固化！皮卡丘那段让全世界观众心碎的电击，是在撕心裂肺地呼唤那个“在狂暴世界中敢于站出来阻止杀戮”的唯一</span>

@@ -46,6 +46,7 @@ search: false
 <a href="/entities/works/e382b9e382afe383aae383a5e383bce38396e383ace382a4/"><strong>スクリューブレイカー</strong><span>1 条资料</span></a>
 <a href="/entities/works/e4b883e6ada6e5a3ab/"><strong>七武士</strong><span>1 条资料</span></a>
 <a href="/entities/works/e4b88de58fafe6809de8aeaee8bfb7e5aeab/"><strong>不可思议迷宫</strong><span>1 条资料</span></a>
+<a href="/entities/works/e4b9b1e4b896e4bdb3e4baba/"><strong>乱世佳人</strong><span>1 条资料</span></a>
 <a href="/entities/works/bw/"><strong>你能说出宝可梦吗？BW</strong><span>1 条资料</span></a>
 <a href="/entities/works/e4be8de68898e9989fe79c9fe58991e88085/"><strong>侍战队真剑者</strong><span>1 条资料</span></a>
 <a href="/entities/works/e4bf84e7bd97e696afe696b9e59d97/"><strong>俄罗斯方块</strong><span>1 条资料</span></a>
@@ -109,7 +110,7 @@ search: false
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"><strong>宝可梦 红宝石·蓝宝石·绿宝石</strong><span>2 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e7bbbfe5ae9de79fb3/"><strong>宝可梦 绿宝石</strong><span>13 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e8939d/"><strong>宝可梦 蓝</strong><span>3 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"><strong>宝可梦 金·银</strong><span>49 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"><strong>宝可梦 金·银</strong><span>50 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3/"><strong>宝可梦 钻石</strong><span>1 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3c2b7e78f8de78fa0/"><strong>宝可梦 钻石·珍珠</strong><span>60 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3c2b7e78f8de78fa0c/"><strong>宝可梦 钻石·珍珠·白金</strong><span>2 条资料</span></a>
@@ -175,10 +176,12 @@ search: false
 <a href="/entities/works/e6a2a6e5b9bb/"><strong>梦幻</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6af94e5858be68f90e5b0bce4b88ee799bde88bb1e99b84/"><strong>比克提尼与白英雄莱希拉姆</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6af94e5858be68f90e5b0bce4b88ee9bb91e88bb1e99b84/"><strong>比克提尼与黑英雄捷克罗姆</strong><span>1 条资料</span></a>
+<a href="/entities/works/e6b0b8e8bf9ce79a84e88fb2e88eb1e5a89c/"><strong>永远的菲莱娜</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6b2b3e7aba5/"><strong>河童</strong><span>1 条资料</span></a>
-<a href="/entities/works/e6b49be5a587e4ba9ae78886e8af9e/"><strong>洛奇亚爆诞</strong><span>2 条资料</span></a>
+<a href="/entities/works/e6b3b0e59da6e5b0bce5858be58fb7/"><strong>泰坦尼克号</strong><span>1 条资料</span></a>
+<a href="/entities/works/e6b49be5a587e4ba9ae78886e8af9e/"><strong>洛奇亚爆诞</strong><span>5 条资料</span></a>
 <a href="/entities/works/e6b581e6989fe4b98be7bb8a/"><strong>流星之绊</strong><span>1 条资料</span></a>
-<a href="/entities/works/e6bcabe794bbe5889de4bd93e9aa8ce7b3bbe58897/"><strong>漫画初体验系列</strong><span>2 条资料</span></a>
+<a href="/entities/works/e6bcabe794bbe5889de4bd93e9aa8ce7b3bbe58897/"><strong>漫画初体验系列</strong><span>3 条资料</span></a>
 <a href="/entities/works/e6bcabe794bbe58e9fe69da5e5a682e6ada4e789a9e8afad/"><strong>漫画原来如此物语</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6bcabe794bbe697a5e69cace58fb2/"><strong>漫画日本史</strong><span>2 条资料</span></a>
 <a href="/entities/works/e781abe9b89f/"><strong>火鸟</strong><span>1 条资料</span></a>
@@ -188,6 +191,7 @@ search: false
 <a href="/entities/works/e79aaee58da1e4b898e4bda0e5a5bde59097/"><strong>皮卡丘你好吗</strong><span>1 条资料</span></a>
 <a href="/entities/works/e79aaee58da1e4b898e78eb0e59cbae6bc94e587ba/"><strong>皮卡丘现场演出</strong><span>1 条资料</span></a>
 <a href="/entities/works/e79aaee58da1e4b898e79a84e58187e69c9f/"><strong>皮卡丘的假期</strong><span>1 条资料</span></a>
+<a href="/entities/works/e79aaee58da1e4b898e79a84e69a91e58187/"><strong>皮卡丘的暑假</strong><span>1 条资料</span></a>
 <a href="/entities/works/e79baee6a087e698afe5ae9de58fafe6a2a6e5a4a7e5b888/"><strong>目标是宝可梦大师</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7a9bae6b5b7e79a84e9a38ee699af/"><strong>空海的风景</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7ac91e884b8/"><strong>笑脸</strong><span>1 条资料</span></a>
@@ -196,7 +200,7 @@ search: false
 <a href="/entities/works/e7acace4ba94e4baa4e5938de69bb2/"><strong>第五交响曲</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7bab8e7898ce8b59be9a9ac/"><strong>纸牌赛马</strong><span>1 条资料</span></a>
 <a href="/entities/works/2/"><strong>终结者2</strong><span>1 条资料</span></a>
-<a href="/entities/works/e7bb93e699b6e5a194e79a84e5b89de78e8b/"><strong>结晶塔的帝王</strong><span>1 条资料</span></a>
+<a href="/entities/works/e7bb93e699b6e5a194e79a84e5b89de78e8b/"><strong>结晶塔的帝王</strong><span>2 条资料</span></a>
 <a href="/entities/works/e7bbb4e68b89c2b7e5b895e88eb1e89282/"><strong>维拉·帕莱蒂</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7bd97e9a9ace4babae79a84e69585e4ba8b/"><strong>罗马人的故事</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7be8ee6b49be880b6e5a194e79a84e997aae4baaee78bac/"><strong>美洛耶塔的闪亮独唱会</strong><span>1 条资料</span></a>
@@ -210,11 +214,11 @@ search: false
 <a href="/entities/works/e89ebae6978be7a0b4e59d8fe88085+e8bdb0e68cafe992b/"><strong>螺旋破坏者 轰振钻钻乐乐</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8a197e8a792e79a84e7aba5e8af9d/"><strong>街角的童话</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8af85e59292e79a84e69ca8e4b983e4bc8a/"><strong>诅咒的木乃伊</strong><span>1 条资料</span></a>
-<a href="/entities/works/e8b088e8b088e68385e8b7b3e8b7b3e8889e/"><strong>谈谈情跳跳舞</strong><span>1 条资料</span></a>
+<a href="/entities/works/e8b088e8b088e68385e8b7b3e8b7b3e8889e/"><strong>谈谈情跳跳舞</strong><span>2 条资料</span></a>
 <a href="/entities/works/e8b4b9e58aa0e7bd97e79a84e5a99ae7a4bc/"><strong>费加罗的婚礼</strong><span>1 条资料</span></a>
-<a href="/entities/works/e8b685e6a2a6e79a84e8af9ee7949f/"><strong>超梦的诞生</strong><span>2 条资料</span></a>
-<a href="/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"><strong>超梦的逆袭</strong><span>18 条资料</span></a>
-<a href="/entities/works/e8b685e6a2a6efbc81e68891e5b0b1e59ca8e8bf99e9878c/"><strong>超梦！我就在这里</strong><span>1 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6e79a84e8af9ee7949f/"><strong>超梦的诞生</strong><span>3 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"><strong>超梦的逆袭</strong><span>22 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6efbc81e68891e5b0b1e59ca8e8bf99e9878c/"><strong>超梦！我就在这里</strong><span>2 条资料</span></a>
 <a href="/entities/works/e8b685e7baa7e5ae9de58fafe6a2a6e4b9b1e68898/"><strong>超级宝可梦乱战</strong><span>5 条资料</span></a>
 <a href="/entities/works/e8bfb7e5aeabe5a194/"><strong>迷宫塔</strong><span>1 条资料</span></a>
 <a href="/entities/works/vs/"><strong>酋雷姆VS圣剑士凯路迪欧</strong><span>1 条资料</span></a>
@@ -224,12 +228,14 @@ search: false
 <a href="/entities/works/e99bbbe8a696e9818ae688afe5a4a7e585a8/"><strong>電視遊戯大全</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9a38ee4b98be5858be7bd97e8afbae4ba9a/"><strong>风之克罗诺亚</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9a38ee69da5e79a84e8a5bfe69e97/"><strong>风来的西林</strong><span>4 条资料</span></a>
+<a href="/entities/works/e9a39ee5b091e788b7/"><strong>飞少爷</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9a39ee5b18be78eafe6b8b8e8aeb0/"><strong>飞屋环游记</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9acbce5a4aae9838ee4b98be5a6bb/"><strong>鬼太郎之妻</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbf/"><strong>魔法小天使</strong><span>2 条资料</span></a>
 <a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbf+e7949ce7949ce4bb9/"><strong>魔法小天使 甜甜仙子</strong><span>1 条资料</span></a>
-<a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbfefbc88e7949ce7949c/"><strong>魔法小天使（甜甜仙子）</strong><span>1 条资料</span></a>
+<a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbfefbc88e7949ce7949c/"><strong>魔法小天使（甜甜仙子）</strong><span>2 条资料</span></a>
 <a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbfefbc88e7949ce7949c/"><strong>魔法小天使（甜甜仙子）梦中飞翔之桥</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9baa6e6a3aee68ea2e999a9/"><strong>麦森探险</strong><span>1 条资料</span></a>
+<a href="/entities/works/e9be99e78cab/"><strong>龙猫</strong><span>1 条资料</span></a>
   </div>
 </section>
