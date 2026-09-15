@@ -1,15 +1,15 @@
 {
   "overview": {
-    "total_posts": 963,
-    "total_interviews_imported": 482,
+    "total_posts": 967,
+    "total_interviews_imported": 486,
     "total_interviews_planned": 1063,
     "target_milestone": 1000,
-    "interview_progress_pct": 48.2,
+    "interview_progress_pct": 48.6,
     "earliest_year": 1990,
     "latest_year": 2026,
     "years_span": 37,
-    "total_people": 285,
-    "total_works": 205,
+    "total_people": 290,
+    "total_works": 214,
     "total_organizations": 111,
     "total_events": 104
   },
@@ -46,9 +46,18 @@
       "name_en": "Takeshi Shudo",
       "name_ja": "首藤剛志",
       "role": "动画初代总编剧 · 剧场版创世者",
-      "posts_count": 34,
+      "posts_count": 38,
       "years_active": "2008–2009",
       "url": "/entities/people/e9a696e897a4e5889ae5bf97/"
+    },
+    {
+      "name": "汤山邦彦",
+      "name_en": "Kunihiko Yuyama",
+      "name_ja": "湯山邦彦",
+      "role": "动画全系列总监督 · 剧场版监督",
+      "posts_count": 33,
+      "years_active": "2008–2018",
+      "url": "/entities/people/e6b1a4e5b1b1e982a6e5bda6/"
     },
     {
       "name": "岩田聪",
@@ -58,15 +67,6 @@
       "posts_count": 32,
       "years_active": "2009–2013",
       "url": "/entities/people/e5b2a9e794b0e881aa/"
-    },
-    {
-      "name": "汤山邦彦",
-      "name_en": "Kunihiko Yuyama",
-      "name_ja": "湯山邦彦",
-      "role": "动画全系列总监督 · 剧场版监督",
-      "posts_count": 31,
-      "years_active": "2008–2018",
-      "url": "/entities/people/e6b1a4e5b1b1e982a6e5bda6/"
     },
     {
       "name": "田尻智",
@@ -505,7 +505,7 @@
       "gen": "Media & Spin-offs",
       "era_cn": "全媒体生态 · 卡牌/动画/衍生巨作",
       "era_en": "Transmedia Ecosystem · TCG / Anime / Mobile",
-      "total_posts": 79,
+      "total_posts": 85,
       "works": [
         {
           "cn": "宝可梦集换式卡牌游戏",
@@ -520,7 +520,7 @@
           "abbr": "Anime",
           "en": "Pokémon Animated Series",
           "year": 1997,
-          "posts_count": 33,
+          "posts_count": 35,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
         },
         {
@@ -536,7 +536,7 @@
           "abbr": "Movie 01",
           "en": "Mewtwo Strikes Back",
           "year": 1998,
-          "posts_count": 10,
+          "posts_count": 14,
           "url": "/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"
         },
         {
@@ -588,7 +588,7 @@
     },
     {
       "name": "宝可梦 动画系列",
-      "posts_count": 33,
+      "posts_count": 35,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
     },
     {
@@ -622,6 +622,11 @@
       "url": "/entities/works/e5ae9de58fafe6a2a6e4bca0e8afb4+e998bfe5b094e5ae9/"
     },
     {
+      "name": "超梦的逆袭",
+      "posts_count": 14,
+      "url": "/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"
+    },
+    {
       "name": "宝可梦 绿宝石",
       "posts_count": 13,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7bbbfe5ae9de79fb3/"
@@ -635,11 +640,6 @@
       "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
       "posts_count": 13,
       "url": "/entities/works/let-s-go-let-s-go/"
-    },
-    {
-      "name": "宝可梦 皮卡丘版",
-      "posts_count": 12,
-      "url": "/entities/works/e5ae9de58fafe6a2a6+e79aaee58da1e4b898e78988/"
     }
   ],
   "timeline_data": [
@@ -685,7 +685,7 @@
     },
     {
       "year": 2009,
-      "posts": 89
+      "posts": 93
     },
     {
       "year": 2010,
@@ -759,7 +759,7 @@
   "top_orgs": [
     {
       "name": "Game Freak",
-      "posts_count": 789,
+      "posts_count": 793,
       "url": "/entities/organizations/game-freak/"
     },
     {
@@ -769,22 +769,22 @@
     },
     {
       "name": "任天堂",
-      "posts_count": 99,
+      "posts_count": 103,
       "url": "/entities/organizations/e4bbbbe5a4a9e5a082/"
     },
     {
       "name": "东京电视台",
-      "posts_count": 37,
+      "posts_count": 41,
       "url": "/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"
     },
     {
       "name": "小学馆",
-      "posts_count": 35,
+      "posts_count": 39,
       "url": "/entities/organizations/e5b08fe5ada6e9a686/"
     },
     {
       "name": "OLM",
-      "posts_count": 33,
+      "posts_count": 37,
       "url": "/entities/organizations/olm/"
     },
     {
