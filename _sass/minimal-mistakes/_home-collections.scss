@@ -1,0 +1,302 @@
+/* ==========================================================================
+   Home: the eras and the collections (overview), and the interview index
+   by era (the 访谈翻译 tab). _includes/home-collections.html and
+   _includes/home-interview-index.html. The desk's own paper, ink and accent
+   tokens, so the new rows sit on the same sheet.
+   ========================================================================== */
+
+/* ---- eras: seven tiles, each in a hint of its own page ------------------ */
+.archive-eras {
+  margin: 0 0 2.5rem;
+}
+
+.archive-eras__heading,
+.archive-collections__heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.archive-eras__heading p,
+.archive-collections__heading p {
+  margin: 0;
+  color: var(--archive-accent);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.archive-eras__heading h3,
+.archive-collections__heading h3 {
+  margin: 0.25rem 0 0;
+  color: var(--archive-ink);
+  font-family: "Noto Serif CJK SC", "Noto Serif SC", serif;
+  font-size: clamp(1.45rem, 3vw, 2.1rem);
+}
+
+.archive-eras__heading span {
+  display: block;
+  max-width: 44rem;
+  margin-top: 0.35rem;
+  color: var(--archive-muted);
+  font-size: 0.76rem;
+}
+
+.archive-eras__heading > a {
+  flex: none;
+  color: var(--archive-accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.archive-eras__strip {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+
+.archive-eras__era {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  padding: 0.85rem 0.9rem 0.8rem;
+  border: 1px solid var(--archive-rule);
+  border-top-width: 3px;
+  border-radius: 0.4rem;
+  background: var(--archive-paper-light);
+  text-decoration: none;
+  transition: transform 0.16s ease, box-shadow 0.16s ease;
+}
+
+.archive-eras__era:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.6rem 1.4rem rgba(64, 47, 30, 0.12);
+}
+
+.archive-eras__era strong {
+  font-family: "Noto Serif CJK SC", "Noto Serif SC", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--archive-ink);
+}
+
+.archive-eras__era span {
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--archive-accent);
+}
+
+.archive-eras__era em {
+  margin-top: 0.3rem;
+  font-style: normal;
+  font-size: 0.7rem;
+  color: var(--archive-muted);
+}
+
+/* each era's top rule is the page it opens onto */
+.archive-eras__era--1999 { border-top-color: #003a70; }
+.archive-eras__era--2003 { border-top-color: #2f6f45; }
+.archive-eras__era--2007 { border-top-color: #2a6ea3; }
+.archive-eras__era--2011 { border-top-color: #2b3038; }
+.archive-eras__era--2014 { border-top-color: #d7263d; }
+.archive-eras__era--2019 { border-top-color: #7c5cd6; }
+.archive-eras__era--2026 { border-top-color: #8f8f88; }
+
+/* ---- collections: six tiles ---------------------------------------------- */
+.archive-collections {
+  margin: 0 0 2.5rem;
+  padding-bottom: 2.25rem;
+  border-bottom: 1px solid var(--archive-rule);
+}
+
+.archive-collections__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+
+.archive-collections__tile {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas: "kicker kicker" "title count" "desc count";
+  gap: 0.1rem 0.8rem;
+  min-width: 0;
+  padding: 0.95rem 1.05rem 1rem;
+  border: 1px solid var(--archive-rule);
+  border-radius: 0.45rem;
+  background: var(--archive-paper);
+  text-decoration: none;
+  transition: border-color 0.16s ease, box-shadow 0.16s ease;
+}
+
+.archive-collections__tile:hover {
+  border-color: var(--archive-accent);
+  box-shadow: 0 0.6rem 1.4rem rgba(64, 47, 30, 0.12);
+}
+
+.archive-collections__kicker {
+  grid-area: kicker;
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--archive-accent);
+}
+
+.archive-collections__tile strong {
+  grid-area: title;
+  font-size: 0.98rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--archive-ink);
+}
+
+.archive-collections__tile em {
+  grid-area: desc;
+  font-style: normal;
+  font-size: 0.72rem;
+  line-height: 1.55;
+  color: var(--archive-muted);
+}
+
+.archive-collections__tile b {
+  grid-area: count;
+  align-self: start;
+  font-family: "Noto Serif CJK SC", "Noto Serif SC", Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  white-space: nowrap;
+  color: var(--archive-ink);
+}
+
+/* ---- the interview index, by era ------------------------------------------ */
+.hii {
+  --hii-ink: #26323f;
+  --hii-muted: #6b7784;
+  --hii-rule: #dfe5eb;
+  --hii-accent: #a44732;
+  color: var(--hii-ink);
+}
+
+.hii-strip {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 0.4rem;
+  margin: 0 0 1.4rem;
+  padding: 0.6rem 0 0.7rem;
+  border-bottom: 1px solid var(--hii-rule);
+  background: #f8fafb;
+}
+
+.hii-strip__era {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--hii-rule);
+  border-radius: 0.35rem;
+  background: #ffffff;
+  text-decoration: none;
+  color: var(--hii-ink);
+}
+
+.hii-strip__era:hover { border-color: var(--hii-accent); }
+.hii-strip__era strong { font-size: 0.95rem; font-weight: 800; letter-spacing: -0.01em; }
+.hii-strip__era span { font-size: 0.6rem; color: var(--hii-muted); }
+.hii-strip__era em { font-style: normal; font-size: 0.66rem; font-weight: 700; color: var(--hii-accent); }
+
+.hii-era { margin: 0 0 2.2rem; scroll-margin-top: 5.5rem; }
+
+.hii-era__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 0.6rem;
+  padding: 0 0 0.5rem;
+  border-bottom: 2px solid var(--hii-ink);
+}
+
+.hii-era__key {
+  font-family: "Noto Serif CJK SC", "Noto Serif SC", Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hii-era__name { margin: 0; font-size: 0.9rem; font-weight: 700; color: var(--hii-ink); }
+.hii-era__count { margin-left: auto; font-size: 0.72rem; color: var(--hii-muted); white-space: nowrap; }
+
+.hii-list { margin: 0; padding: 0; list-style: none; }
+
+.hii-item {
+  display: grid;
+  grid-template-columns: 3.2rem minmax(0, 1fr);
+  grid-template-areas: "year title" "year meta";
+  gap: 0.1rem 0.6rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--hii-rule);
+}
+
+.hii-item__year {
+  grid-area: year;
+  padding-top: 0.15rem;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--hii-muted);
+}
+
+.hii-item__title {
+  grid-area: title;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--hii-ink);
+  text-decoration: none;
+}
+
+.hii-item__title:hover { color: var(--hii-accent); text-decoration: underline; }
+
+.hii-item__meta {
+  grid-area: meta;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.9rem;
+  font-size: 0.7rem;
+  color: var(--hii-muted);
+}
+
+.hii-item__kind {
+  padding: 0 0.4rem;
+  border-radius: 0.25rem;
+  background: rgba(164, 71, 50, 0.1);
+  font-weight: 700;
+  color: var(--hii-accent);
+}
+
+@media (max-width: 1050px) {
+  .archive-eras__strip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .archive-collections__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hii-strip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 700px) {
+  .archive-eras__heading, .archive-collections__heading { flex-direction: column; align-items: start; gap: 0.5rem; }
+  .archive-eras__strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .archive-collections__grid { grid-template-columns: minmax(0, 1fr); }
+  .hii-strip { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hii-item { grid-template-columns: minmax(0, 1fr); grid-template-areas: "year" "title" "meta"; }
+}

@@ -1,0 +1,106 @@
+{%- comment -%}
+The overview's map of the archive as it is now: seven eras to read the
+interviews by, and the collections that grew since the desk was drawn -
+the magazine scans, the conference reports, the 社長が訊く runs, Takeshi
+Shudo's memoir, the recruit interviews, the reproduced blogs.
+
+Each tile says what it is and how many there are, and goes somewhere
+that exists: an era shelf in the interview tab, a search, or the blog
+archive. Counted from the posts on every build; nothing here is typed in.
+
+Expects interview_posts, gf_archive_count, gf_masuda_posts, gf_art_posts,
+gf_staff_posts from the layout.
+{%- endcomment -%}
+{%- assign era_keys = "1999,2003,2007,2011,2014,2019,2026" | split: "," -%}
+{%- assign era_spans = "1996–2001,2002–2005,2006–2009,2010–2012,2013–2016,2017–2021,2022–2026" | split: "," -%}
+{%- assign era_words = "Early Web,Portal,DS Web,Connected,Editorial,Switch,Modern" | split: "," -%}
+{%- assign scan_n = 0 -%}{%- assign tech_n = 0 -%}{%- assign iwata_n = 0 -%}{%- assign memoir_n = 0 -%}{%- assign recruit_n = 0 -%}
+{%- for post in interview_posts -%}
+  {%- assign cats = post.categories | join: "," -%}
+  {%- if post.source_kind == "technical_report" or post.article_kind == "technical_feature" -%}{%- assign tech_n = tech_n | plus: 1 -%}
+  {%- elsif post.translation_segments or post.archive_type == "scan_translation" -%}{%- assign scan_n = scan_n | plus: 1 -%}
+  {%- elsif cats contains "首藤刚志手记" or post.title contains "创作手记" -%}{%- assign memoir_n = memoir_n | plus: 1 -%}
+  {%- elsif cats contains "recruit" or post.title contains "招聘" or post.title contains "採用" -%}{%- assign recruit_n = recruit_n | plus: 1 -%}
+  {%- elsif post.title contains "社长问" or post.publication contains "社長が訊く" -%}{%- assign iwata_n = iwata_n | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<section class="archive-eras" aria-labelledby="archive-eras-title">
+  <header class="archive-eras__heading">
+    <div>
+      <p>按年代阅读</p>
+      <h3 id="archive-eras-title">七个年代，七种页面</h3>
+      <span>每篇访谈按它发表的年代排版——1999 年的窄栏与索引条，2007 年的圆角面板，2026 年的留白。</span>
+    </div>
+    <a href="#interview-translations" data-scroll-ignore>访谈索引 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+  </header>
+  <nav class="archive-eras__strip" aria-label="年代入口">
+    {%- for key in era_keys -%}
+      {%- assign n = 0 -%}
+      {%- for post in interview_posts -%}
+        {%- assign y = post.date | date: "%Y" | plus: 0 -%}
+        {%- assign e = "" -%}
+        {%- assign explicit = post.era_skin | append: "" -%}
+        {%- if post.era_skin and era_keys contains explicit -%}{%- assign e = explicit -%}
+        {%- elsif y <= 2001 -%}{%- assign e = "1999" -%}
+        {%- elsif y <= 2005 -%}{%- assign e = "2003" -%}
+        {%- elsif y <= 2009 -%}{%- assign e = "2007" -%}
+        {%- elsif y <= 2012 -%}{%- assign e = "2011" -%}
+        {%- elsif y <= 2016 -%}{%- assign e = "2014" -%}
+        {%- elsif y <= 2021 -%}{%- assign e = "2019" -%}
+        {%- else -%}{%- assign e = "2026" -%}{%- endif -%}
+        {%- if e == key -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
+      {%- endfor -%}
+      <a class="archive-eras__era archive-eras__era--{{ key }}" href="#interview-translations" data-scroll-ignore data-era-target="era-{{ key }}">
+        <strong>{{ key }}</strong>
+        <span>{{ era_words[forloop.index0] }}</span>
+        <em>{{ era_spans[forloop.index0] }} · {{ n }} 篇</em>
+      </a>
+    {%- endfor -%}
+  </nav>
+</section>
+
+<section class="archive-collections" aria-labelledby="archive-collections-title">
+  <header class="archive-collections__heading">
+    <p>资料库</p>
+    <h3 id="archive-collections-title">按资料类型进入</h3>
+  </header>
+  <div class="archive-collections__grid">
+    <a class="archive-collections__tile" href="{{ '/search/?q=%E6%89%AB%E6%8F%8F%E5%AD%98%E6%A1%A3' | relative_url }}">
+      <span class="archive-collections__kicker">Scans</span>
+      <strong>杂志扫描存档</strong>
+      <em>整页扫描 + 逐段对照 + 校勘记录，阅读与档案两种视图</em>
+      <b>{{ scan_n }} 册</b>
+    </a>
+    <a class="archive-collections__tile" href="{{ '/search/?q=CEDEC' | relative_url }}">
+      <span class="archive-collections__kicker">Technical</span>
+      <strong>技术专题</strong>
+      <em>CEDEC 等开发者会议报道，摘要、目录、编号图表</em>
+      <b>{{ tech_n }} 篇</b>
+    </a>
+    <a class="archive-collections__tile" href="{{ '/search/?q=%E7%A4%BE%E9%95%BF%E9%97%AE' | relative_url }}">
+      <span class="archive-collections__kicker">Iwata Asks</span>
+      <strong>社长问</strong>
+      <em>任天堂官网「社長が訊く」全系列，按章连读</em>
+      <b>{{ iwata_n }} 章</b>
+    </a>
+    <a class="archive-collections__tile" href="{{ '/search/?q=%E9%A6%96%E8%97%A4%E5%88%9A%E5%BF%97' | relative_url }}">
+      <span class="archive-collections__kicker">Memoir</span>
+      <strong>首藤刚志动画创作手记</strong>
+      <em>动画系列构成的连载手记，逐回译出</em>
+      <b>{{ memoir_n }} 回</b>
+    </a>
+    <a class="archive-collections__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98' | relative_url }}">
+      <span class="archive-collections__kicker">Recruit</span>
+      <strong>招聘访谈</strong>
+      <em>Game Freak 与株式会社ポケモン官网的员工访谈</em>
+      <b>{{ recruit_n }} 篇</b>
+    </a>
+    <a class="archive-collections__tile" href="{{ '/gamefreak-director/' | relative_url }}">
+      <span class="archive-collections__kicker">Blogs</span>
+      <strong>Game Freak 官方博客</strong>
+      <em>增田顺一部长专栏、杉森建画日记、员工博客的原站复刻</em>
+      <b>{{ gf_archive_count }} 篇</b>
+    </a>
+  </div>
+</section>

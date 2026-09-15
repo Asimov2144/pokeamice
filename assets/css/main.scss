@@ -9,11 +9,14 @@ search: false
 @import "minimal-mistakes"; // main partials
 @import "minimal-mistakes/custom-themes";
 @import "minimal-mistakes/home-archive-desk";
+@import "minimal-mistakes/home-collections";
 @import "minimal-mistakes/gamefreak-director";
 @import "minimal-mistakes/gamefreak-legacy";
 /* last, so an era shell can override the theme-bg-* rules in custom-themes,
    which are !important and would otherwise win on source order */
 @import "minimal-mistakes/era-shell";
+/* the home dashboard, last: it was an inline block after the page and cascaded over everything */
+@import "minimal-mistakes/home-dashboard";
 @import "minimal-mistakes/interview-editorial";
 @import "minimal-mistakes/interview-editorial-2019";
 @import "minimal-mistakes/interview-editorial-technical";

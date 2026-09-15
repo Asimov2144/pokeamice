@@ -2,16 +2,16 @@
   <header class="archive-desk__hero">
     <div class="archive-desk__intro">
       <p class="archive-desk__eyebrow">资料存档</p>
-      <h2>Game Freak 博客与开发资料</h2>
-      <p class="archive-desk__lede">收录增田顺一、杉森建与员工博客，以及开发访谈和整理文档。提供中文译文、日文原文、现存英文版与来源记录。</p>
+      <h2>宝可梦开发访谈、杂志扫描与 Game Freak 博客</h2>
+      <p class="archive-desk__lede">三十年的开发者访谈按年代排版阅读，杂志扫描逐页对照，官方博客按原站复刻。提供中文译文、原文与来源记录。</p>
       <div class="archive-desk__actions" aria-label="推荐入口">
         <a class="archive-desk__primary" href="#gf-blog-shelf">浏览博客 <i class="fas fa-arrow-down" aria-hidden="true"></i></a>
         <a class="archive-desk__secondary" href="#documents" data-scroll-ignore>文档索引 <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
       </div>
       <dl class="archive-desk__stats" aria-label="站点内容统计">
+        <div><dt>{{ interview_posts | size }}</dt><dd>访谈译稿</dd></div>
         <div><dt>{{ gf_archive_count }}</dt><dd>博客存档</dd></div>
         <div><dt>{{ docs_posts | size }}</dt><dd>整理文档</dd></div>
-        <div><dt>{{ interview_posts | size }}</dt><dd>访谈译稿</dd></div>
       </dl>
     </div>
 
@@ -37,6 +37,8 @@
     </form>
     <div class="archive-search__results" id="homeSmartSearchResults" aria-live="polite"></div>
   </section>
+
+  {% include home-collections.html %}
 
   <section class="archive-shelf" id="gf-blog-shelf" aria-labelledby="gf-blog-shelf-title">
     <header class="archive-shelf__heading">

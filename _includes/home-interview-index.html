@@ -1,0 +1,100 @@
+{%- comment -%}
+The interview index on the home page, by era.
+
+The tab used to list the first hundred interviews with four lines of
+metadata each - 283 KB of markup for a hidden panel, and 157 interviews
+short of the archive. The archive is read by era now: every interview
+page is skinned as 1999 / 2003 / 2007 / 2011 / 2014 / 2019 / 2026, so the
+index is the same seven shelves, each with its count, its years and its
+pieces in date order - one line a piece: year, outlet, title, people.
+
+The era of a post is decided here exactly as _includes/era-skin.html
+decides it for the page: an explicit era_skin that names one of the seven,
+otherwise the year. Kept in step by hand; the two tables are short.
+
+Sets nothing for the caller. Expects interview_posts.
+{%- endcomment -%}
+{%- assign era_keys = "1999,2003,2007,2011,2014,2019,2026" | split: "," -%}
+{%- assign era_names = "1996–2001 · Early Web 黎明期,2002–2005 · GBA / 早期门户,2006–2009 · NDS / 触控探索,2010–2012 · Connected / 互联,2013–2016 · Editorial / 杂志美学,2017–2021 · Switch / 开放世界,2022–2026 · Modern Archive / 现代档案馆" | split: "," -%}
+{%- assign era_spans = "1996–2001,2002–2005,2006–2009,2010–2012,2013–2016,2017–2021,2022–2026" | split: "," -%}
+{%- assign idx_posts = interview_posts | sort: "date" -%}
+{%- assign kinds = "" | split: "" -%}
+
+<div class="hii">
+  <nav class="hii-strip" aria-label="按年代">
+    {%- for key in era_keys -%}
+      {%- assign n = 0 -%}
+      {%- for post in idx_posts -%}
+        {%- assign y = post.date | date: "%Y" | plus: 0 -%}
+        {%- assign e = "" -%}
+        {%- assign explicit = post.era_skin | append: "" -%}
+        {%- if post.era_skin and era_keys contains explicit -%}{%- assign e = explicit -%}
+        {%- elsif y <= 2001 -%}{%- assign e = "1999" -%}
+        {%- elsif y <= 2005 -%}{%- assign e = "2003" -%}
+        {%- elsif y <= 2009 -%}{%- assign e = "2007" -%}
+        {%- elsif y <= 2012 -%}{%- assign e = "2011" -%}
+        {%- elsif y <= 2016 -%}{%- assign e = "2014" -%}
+        {%- elsif y <= 2021 -%}{%- assign e = "2019" -%}
+        {%- else -%}{%- assign e = "2026" -%}{%- endif -%}
+        {%- if e == key -%}{%- assign n = n | plus: 1 -%}{%- endif -%}
+      {%- endfor -%}
+      <a class="hii-strip__era" href="#era-{{ key }}" data-era-key="{{ key }}">
+        <strong>{{ key }}</strong>
+        <span>{{ era_spans[forloop.index0] }}</span>
+        <em>{{ n }} 篇</em>
+      </a>
+    {%- endfor -%}
+  </nav>
+
+  {%- for key in era_keys -%}
+    {%- assign members = "" | split: "" -%}
+    {%- for post in idx_posts -%}
+      {%- assign y = post.date | date: "%Y" | plus: 0 -%}
+      {%- assign e = "" -%}
+      {%- assign explicit = post.era_skin | append: "" -%}
+      {%- if post.era_skin and era_keys contains explicit -%}{%- assign e = explicit -%}
+      {%- elsif y <= 2001 -%}{%- assign e = "1999" -%}
+      {%- elsif y <= 2005 -%}{%- assign e = "2003" -%}
+      {%- elsif y <= 2009 -%}{%- assign e = "2007" -%}
+      {%- elsif y <= 2012 -%}{%- assign e = "2011" -%}
+      {%- elsif y <= 2016 -%}{%- assign e = "2014" -%}
+      {%- elsif y <= 2021 -%}{%- assign e = "2019" -%}
+      {%- else -%}{%- assign e = "2026" -%}{%- endif -%}
+      {%- if e == key -%}{%- assign members = members | push: post -%}{%- endif -%}
+    {%- endfor -%}
+    {%- if members.size > 0 -%}
+    <section class="hii-era" id="era-{{ key }}" data-era-key="{{ key }}">
+      <header class="hii-era__head">
+        <span class="hii-era__key">{{ key }}</span>
+        <h3 class="hii-era__name">{{ era_names[forloop.index0] }}</h3>
+        <span class="hii-era__count">{{ members.size }} 篇</span>
+      </header>
+      <ol class="hii-list">
+        {%- for post in members -%}
+          {%- assign outlet = post.publication | default: post.source_name | default: post.outlet | default: post.source.title | default: "" | split: "（" | first | split: "(" | first | strip -%}
+          {%- assign outlet_len = outlet | size -%}
+          {%- if outlet_len > 22 -%}{%- assign outlet = outlet | truncate: 22 -%}{%- endif -%}
+          {%- assign kind = "" -%}
+          {%- assign cats = post.categories | join: "," -%}
+          {%- if post.source_kind == "technical_report" or post.article_kind == "technical_feature" -%}{%- assign kind = "技术专题" -%}
+          {%- elsif post.translation_segments or post.archive_type == "scan_translation" -%}{%- assign kind = "杂志扫描" -%}
+          {%- elsif cats contains "首藤刚志手记" or post.title contains "创作手记" -%}{%- assign kind = "手记连载" -%}
+          {%- elsif cats contains "recruit" or post.title contains "招聘" or post.title contains "採用" -%}{%- assign kind = "招聘访谈" -%}
+          {%- elsif post.title contains "社长问" or post.publication contains "社長が訊く" -%}{%- assign kind = "社长问" -%}
+          {%- endif -%}
+          {%- assign people = post.interviewee | default: "" | replace: "，", "、" | replace: ", ", "、" | replace: ",", "、" | split: "、" -%}
+          <li class="hii-item"{% if kind != "" %} data-kind="{{ kind }}"{% endif %}>
+            <span class="hii-item__year">{{ post.date | date: "%Y" }}</span>
+            <a class="hii-item__title" href="{{ post.url | relative_url }}">{{ post.display_title | default: post.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " }}</a>
+            <span class="hii-item__meta">
+              {%- if kind != "" -%}<b class="hii-item__kind">{{ kind }}</b>{%- endif -%}
+              {%- if outlet != "" -%}<span>{{ outlet }}</span>{%- endif -%}
+              {%- if post.interviewee -%}<span>{{ people | slice: 0, 3 | join: " × " }}{% if people.size > 3 %} 等{% endif %}</span>{%- endif -%}
+            </span>
+          </li>
+        {%- endfor -%}
+      </ol>
+    </section>
+    {%- endif -%}
+  {%- endfor -%}
+</div>

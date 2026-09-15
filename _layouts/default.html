@@ -20,7 +20,20 @@
   {% if page.layout == "gamefreak-director" or page.layout == "gamefreak-legacy-blog" %}
     {% assign archive_reproduction_theme_locked = true %}
   {% endif %}
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}{% if archive_reproduction_theme_locked %} archive-reproduction-theme{% endif %}"{% if era_skin != "" %} data-era="{{ era_skin }}"{% endif %}>
+  {%- comment -%}
+    The reading theme is painted before the first frame, not after jQuery.
+    _main.js used to add theme-bg-white on document ready, so every page
+    first drew the unnamed default skin - randomback.php wallpaper and all -
+    and then went white about a second later, and the wallpaper request
+    went out regardless. White is on <body> from the server now; the
+    two-line script below swaps in a saved black / default choice while
+    the parser is still inside <body>, before anything has been painted.
+    The reproduction blogs keep their own canvases and get neither.
+  {%- endcomment -%}
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}{% if archive_reproduction_theme_locked %} archive-reproduction-theme{% else %} theme-bg-white{% endif %}"{% if era_skin != "" %} data-era="{{ era_skin }}"{% endif %}>
+    {%- unless archive_reproduction_theme_locked %}
+    <script>(function(){try{var t=localStorage.getItem("selectedTheme");if(t==="black"){document.body.classList.replace("theme-bg-white","theme-bg-black");}else if(t==="default"){document.body.classList.remove("theme-bg-white");}}catch(e){}})();</script>
+    {%- endunless %}
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
