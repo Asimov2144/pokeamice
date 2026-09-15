@@ -1,0 +1,192 @@
+/* ==========================================================================
+   Interview, editorial - 2026 skin: the modern archive, 2022-2026
+   Reference: the refreshed Pokémon official site 2026 and PokeAmice itself
+   (design/README.md, Pattern H), and the 2026 page shell. Grammar: quiet.
+   One typeface, one ink, no accent colour - the number is grey, the name
+   is black, the rule is a hairline. Generous leading and a wider measure,
+   because nothing else is competing for the page.
+
+   Same structure as the base skin; only the grammar changes. Applies to
+   whatever _includes/era-skin.html calls 2026.
+   ========================================================================== */
+
+$e26-ink: #1a1a1a;
+$e26-ink-soft: #55554f;
+$e26-ink-faint: #8f8f88;
+$e26-rule: #e6e6e3;
+$e26-rule-strong: #cfcfca;
+$e26-ground: #fbfbfa;
+$e26-link: #2451b3;
+$e26-sans: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+$e26-measure: 720px;
+
+.layout--interview-editorial .ed[data-era-skin="2026"] {
+  font-family: $e26-sans;
+  color: $e26-ink;
+  line-height: 1.85;
+  letter-spacing: 0.005em;
+
+  a { color: $e26-link; }
+
+  .ed-cover, .ed-body, .ed-epilogue, .ed-archive, .ed-contents, .ed-series-nav, .ed-related { max-width: $e26-measure; }
+
+  /* ---- tools: hairline, no fill ------------------------------------------ */
+  .ed-tools__summary, .ed-tools__btn { border-radius: 4px; border-color: $e26-rule-strong; background: $e26-ground; color: $e26-ink-soft; font-family: $e26-sans; }
+  .ed-tools[open] .ed-tools__panel { border-radius: 6px; border-color: $e26-rule; background: #ffffff; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06); }
+  .ed-tools__btn.is-active,
+  .ed-tools__btn[aria-pressed="true"],
+  .ed-tools__btn.is-filter-active { background: $e26-ink; border-color: $e26-ink; color: #ffffff; }
+
+  /* ---- cover: a hairline, small capitals, a large light headline --------- */
+  .ed-cover { margin-top: 48px; padding-top: 22px; border-top: 1px solid $e26-ink; }
+
+  .ed-kicker { margin-bottom: 22px; font-family: $e26-sans; font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: $e26-ink-soft; }
+  .ed-kicker > span + span::before { content: "/"; margin-right: 10px; color: $e26-rule-strong; font-weight: 400; }
+
+  .ed-title {
+    margin-bottom: 18px;
+    font-family: $e26-sans;
+    font-size: clamp(28px, 3.8vw, 40px);
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: $e26-ink;
+  }
+
+  .ed-title__text { display: inline; padding: 0; background: none; color: inherit; }
+  .ed-people { font-family: $e26-sans; font-size: 15px; font-weight: 500; color: $e26-ink-soft; }
+  .ed-dek { font-family: $e26-sans; font-size: 17px; line-height: 1.7; font-weight: 400; color: $e26-ink-soft; }
+
+  .ed-meta {
+    gap: 0 12px;
+    padding: 12px 0;
+    border-top: 1px solid $e26-rule;
+    border-bottom: 1px solid $e26-rule;
+    font-family: $e26-sans;
+    font-size: 12px;
+    color: $e26-ink-faint;
+  }
+
+  .ed-meta > * { display: inline; padding: 0; border-radius: 0; background: none; color: inherit; }
+  .ed-meta > * + *::before { content: "·"; margin-right: 12px; color: $e26-rule-strong; }
+  .ed-meta a { color: $e26-ink; background: none; text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ---- images: nothing around them ------------------------------------------ */
+  .ed-hero { margin: 36px auto 44px; }
+  .ed-hero img, .ed-figure img { border: 0; border-radius: 4px; padding: 0; background: none; }
+  .ed-hero::before { content: none; }
+  .ed-hero figcaption, .ed-figure figcaption { font-family: $e26-sans; font-size: 12px; color: $e26-ink-faint; }
+
+  /* ---- contents: hairlines and grey numerals -------------------------------- */
+  .ed-contents { border-top: 1px solid $e26-rule; border-bottom: 1px solid $e26-rule; }
+  .ed-contents__summary { padding: 13px 0; font-family: $e26-sans; font-size: 13px; font-weight: 600; color: $e26-ink; }
+  .ed-contents__eyebrow, .ed-related__eyebrow { color: $e26-ink-faint; }
+  .ed-contents__list { padding: 4px 0 18px; font-size: 14px; line-height: 1.6; }
+  .ed-contents__list li::before { color: $e26-ink-faint; font-weight: 600; }
+  .ed-contents__list a { color: $e26-ink; }
+  .ed-contents__list a:hover { color: $e26-link; }
+
+  /* ---- body ---------------------------------------------------------------- */
+  .ed-body { font-size: 17px; }
+  .ed-trans, .ed-orig { font-weight: 400; }
+  .ed-lead .ed-trans { font-size: 19px; line-height: 1.8; }
+
+  /* chapters: a grey numeral, a headline, and air above */
+  .ed-chapter { margin-top: 72px; }
+  .ed-chapter__head { gap: 14px; margin-bottom: 20px; padding-top: 0; border-top: 0; }
+
+  .ed-chapter__num {
+    font-family: $e26-sans;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: $e26-ink-faint;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+  }
+
+  .ed-chapter__title { font-family: $e26-sans; font-size: 22px; font-weight: 600; letter-spacing: -0.015em; line-height: 1.3; color: $e26-ink; }
+
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-chapter__head { margin-bottom: 10px; }
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $e26-sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.015em;
+    color: $e26-ink;
+  }
+
+  /* speakers: the name alone, no bar; the questioner in grey */
+  .ed-turn__who { gap: 0; margin: 0 0 6px; font-family: $e26-sans; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: $e26-ink-faint; }
+  .ed-turn__who::before { content: none; }
+  .ed-turn--answer .ed-turn__who { color: $e26-ink; }
+  .ed-turn--question .ed-trans { font-weight: 600; color: $e26-ink; }
+
+  .ed-orig-toggle { border: 1px solid $e26-rule-strong; border-radius: 4px; background: $e26-ground; color: $e26-ink-faint; font-family: $e26-sans; }
+  .ed-orig-toggle:hover,
+  .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $e26-ink; background: $e26-ink; color: #ffffff; }
+  .parallel-text__cell--original[open] .ed-orig { border-left: 1px solid $e26-rule-strong; color: $e26-ink-soft; }
+
+  /* pull quote: large, light, between two hairlines - no colour */
+  .ed-pull {
+    max-width: $e26-measure;
+    margin: 56px auto;
+    padding: 28px 0;
+    border: 0;
+    border-top: 1px solid $e26-ink;
+    border-bottom: 1px solid $e26-rule;
+    border-radius: 0;
+    background: none;
+    text-align: left;
+  }
+
+  .ed-pull p {
+    font-family: $e26-sans;
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.35;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: $e26-ink;
+  }
+
+  .ed-pull footer { font-family: $e26-sans; font-size: 12px; letter-spacing: 0.08em; color: $e26-ink-faint; }
+
+  .ed-note { color: $e26-ink-faint; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { border-left: 1px solid $e26-rule-strong; background: $e26-ground; font-family: $e26-sans; font-size: 13px; color: $e26-ink-soft; }
+
+  /* series nav and shelf: hairlines only */
+  .ed-series-nav { border-top: 1px solid $e26-ink; border-bottom: 1px solid $e26-rule; }
+  .ed-series-nav__label { color: $e26-ink-faint; }
+  .ed-series-nav__title, .ed-series-nav__pos { font-family: $e26-sans; font-weight: 500; }
+
+  .ed-epilogue { border-top: 1px solid $e26-rule; font-family: $e26-sans; }
+  .ed-epilogue h2 { color: $e26-ink-faint; }
+
+  .ed-related, .ed-archive { border-top: 1px solid $e26-ink; font-family: $e26-sans; }
+  .ed-related__title, .ed-related__head { font-family: $e26-sans; color: $e26-ink; }
+  .ed-related__title { font-weight: 600; letter-spacing: -0.01em; }
+  .ed-related__card { padding: 14px 0 16px; border: 0; border-top: 1px solid $e26-rule-strong; border-radius: 0; background: none; }
+  .ed-related__card:hover { border-top-color: $e26-ink; }
+  .ed-related__kicker, .ed-series__item.is-current::before, .ed-series__item.is-current .ed-series__link::after { color: $e26-ink-faint; }
+  .ed-related__name { font-weight: 600; letter-spacing: -0.005em; }
+  .ed-related__name, .ed-series__link { font-family: $e26-sans; }
+  .ed-series, .ed-series__item { border-color: $e26-rule; }
+  .ed-archive__record > summary { font-family: $e26-sans; font-weight: 600; }
+  .ed-archive .parallel-archive-route a { color: $e26-ink; text-decoration: underline; text-underline-offset: 3px; }
+}
+
+/* dark: the same page with the ink inverted; still no accent */
+.layout--interview-editorial .ed[data-era-skin="2026"][data-reading-theme="dark"] {
+  color: #e8e8e4;
+  a { color: #9db6ff; }
+  .ed-cover, .ed-pull, .ed-series-nav, .ed-related, .ed-archive { border-top-color: #e8e8e4; }
+  .ed-title, .ed-chapter__title, .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans, .ed-turn--question .ed-trans, .ed-lead .ed-trans, .ed-pull p, .ed-turn--answer .ed-turn__who, .ed-related__name, .ed-series__link, .ed-contents__summary, .ed-contents__list a, .ed-meta a, .ed-archive .parallel-archive-route a { color: #f2f2ee; }
+  .ed-meta, .ed-contents, .ed-epilogue, .ed-series, .ed-series__item, .ed-related__card { border-color: #33332f; }
+  .ed-orig-toggle, .ed-tools__summary, .ed-tools__btn, .ed-tools[open] .ed-tools__panel, .parallel-text__block.is-note-open .parallel-text__note-popover { background: #1c1c1a; border-color: #44443f; color: #c9c9c4; }
+  .ed-related__card:hover { border-top-color: #f2f2ee; }
+}

@@ -81,6 +81,39 @@ kept on the turns even though the presentation around them is new.
 {%- comment -%} the scan body shows every region crop in place; a cover photograph would repeat page one {%- endcomment -%}
 {% if is_scan %}{% assign hero = nil %}{% endif %}
 {% include era-skin.html %}
+{%- comment -%} the other chapters of this piece, if it has any - for the nav after the body and the shelf at the end {%- endcomment -%}
+{% include interview-series.html %}
+{%- comment -%}
+  The standfirst. `dek` is the editor's; failing that a short summary reads
+  as one, while a long summary is a synopsis and goes after the piece.
+{%- endcomment -%}
+{% assign dek = page.dek | default: "" %}
+{% assign summary_text = page.summary | default: "" | strip %}
+{% assign summary_len = summary_text | size %}
+{% if dek == "" and summary_len > 0 and summary_len <= 140 %}{% assign dek = summary_text %}{% endif %}
+{%- comment -%}
+  The contents: one line per chapter, numbered as the body numbers them.
+  Same rule as the body - a heading that an answer follows is a chapter,
+  and so is every question - so the anchors line up. Shown for long
+  pieces only; six questions do not need a table.
+{%- endcomment -%}
+{% assign contents = "" | split: "" %}
+{% unless is_technical or is_scan %}
+  {% for item in items %}
+    {% assign c_type = item.type | default: "paragraph" %}
+    {% if c_type == "heading" or c_type == "header" %}
+      {% assign c_next = items[forloop.index] %}
+      {% if c_next.type == "image" %}{% assign c_after = forloop.index | plus: 1 %}{% assign c_next = items[c_after] %}{% endif %}
+      {% if c_next.role == "answer" or c_next.type == "profile" %}
+        {% assign c_title = item.translation | default: item.title | default: item.original | strip_html | truncate: 48 %}
+        {% assign contents = contents | push: c_title %}
+      {% endif %}
+    {% elsif item.role == "question" %}
+      {% assign c_title = item.chapter | default: item.translation | strip_html | strip | truncate: 48 %}
+      {% assign contents = contents | push: c_title %}
+    {% endif %}
+  {% endfor %}
+{% endunless %}
 
 {%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
 {%- comment -%} "众人" answering together is a turn, not a person on the cover {%- endcomment -%}
@@ -168,8 +201,8 @@ kept on the turns even though the presentation around them is new.
       {% elsif is_scan and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% endif %}
-      {% if page.dek %}
-        <p class="ed-dek">{{ page.dek }}</p>
+      {% if dek != "" %}
+        <p class="ed-dek">{{ dek }}</p>
       {% endif %}
       <p class="ed-meta">
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
@@ -186,6 +219,17 @@ kept on the turns even though the presentation around them is new.
         <img src="{{ hero_src | relative_url }}" alt="{{ hero.alt | default: hero.caption | default: page.title | escape }}" decoding="async">
         {% if hero.caption %}<figcaption>{{ hero.caption }}</figcaption>{% endif %}
       </figure>
+    {% endif %}
+
+    {% if contents.size >= 6 %}
+      <details class="ed-contents">
+        <summary class="ed-contents__summary"><span class="ed-contents__eyebrow">Contents</span> 本篇 {{ contents.size }} 章</summary>
+        <ol class="ed-contents__list">
+          {% for c_title in contents %}
+            <li><a href="#chapter-{{ forloop.index }}">{{ c_title }}</a></li>
+          {% endfor %}
+        </ol>
+      </details>
     {% endif %}
 
     {% if is_technical %}
@@ -307,6 +351,25 @@ kept on the turns even though the presentation around them is new.
     </div>
     {% endif %}
 
+    {%- comment -%} One chapter of several: where the reader goes next, before anything else. {%- endcomment -%}
+    {% if series_posts.size > 1 %}
+      <nav class="ed-series-nav" aria-label="本系列">
+        {% if series_prev %}
+          <a class="ed-series-nav__link ed-series-nav__link--prev" href="{{ series_prev.url | relative_url }}" rel="prev">
+            <span class="ed-series-nav__label">← 上一章</span>
+            <span class="ed-series-nav__title">{{ series_prev.display_title | default: series_prev.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: series_label | strip }}</span>
+          </a>
+        {% else %}<span class="ed-series-nav__spacer"></span>{% endif %}
+        <span class="ed-series-nav__pos">第 {{ series_index }} / {{ series_posts.size }} 章</span>
+        {% if series_next %}
+          <a class="ed-series-nav__link ed-series-nav__link--next" href="{{ series_next.url | relative_url }}" rel="next">
+            <span class="ed-series-nav__label">下一章 →</span>
+            <span class="ed-series-nav__title">{{ series_next.display_title | default: series_next.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: series_label | strip }}</span>
+          </a>
+        {% else %}<span class="ed-series-nav__spacer"></span>{% endif %}
+      </nav>
+    {% endif %}
+
     {%- comment -%} Epilogue: the editor's framing, after the interview rather than in front of it. A technical feature already led with its summary. {%- endcomment -%}
     {% if page.intro and is_technical == false %}
       <aside class="ed-epilogue">
@@ -318,10 +381,18 @@ kept on the turns even though the presentation around them is new.
         <h2>编者按</h2>
         {{ page.summary | markdownify }}
       </aside>
+    {% elsif summary_len > 140 and is_technical == false %}
+      <aside class="ed-epilogue">
+        <h2>提要</h2>
+        {{ summary_text | markdownify }}
+      </aside>
     {% endif %}
     {% if content != "" %}
       <aside class="ed-epilogue parallel-translation__note">{{ content }}</aside>
     {% endif %}
+
+    {%- comment -%} The shelf: the rest of the series, the same people, the same game, the same outlet. {%- endcomment -%}
+    {% include interview-related.html %}
 
     {%- comment -%} Archive layer: for whoever comes to check, not to read. {%- endcomment -%}
     <footer class="ed-archive">
@@ -343,7 +414,6 @@ kept on the turns even though the presentation around them is new.
         <a href="{{ '/timeline/' | relative_url }}">时间线</a>
         <a href="#parallel-reading">回到开头</a>
       </nav>
-      {% include resource-related.html %}
       {% include article-references.html %}
     </footer>
   </article>

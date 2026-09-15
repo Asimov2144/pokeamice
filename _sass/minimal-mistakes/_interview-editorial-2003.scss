@@ -1,0 +1,215 @@
+/* ==========================================================================
+   Interview, editorial - 2003 skin: the portal years, 2002-2005
+   Reference: Serebii.net 2003, Pokemon.com 2002, N.O.M (design/README.md).
+   Grammar: a portal's section bar carried the site colour, so a chapter
+   head here is a coloured bar with white type; borders are 2px and soft
+   corners are 3px; Verdana at a portal's size; the accent is the N.O.M
+   green and the link blue of the period. Density stays in the chrome - the
+   reading column keeps the base measure and line-height.
+
+   Same structure as the base skin; only the grammar changes. Applies to
+   whatever _includes/era-skin.html calls 2003.
+   ========================================================================== */
+
+$e03-ink: #1f2933;
+$e03-ink-soft: #4d5966;
+$e03-rule: #b9c4cc;
+$e03-rule-soft: #dde4ea;
+$e03-bar: #2f6f45;
+$e03-bar-dark: #245635;
+$e03-portal: #1b4f8f;
+$e03-link: #10457f;
+$e03-panel: #eef3f7;
+$e03-sans: Verdana, Tahoma, "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+$e03-measure: 660px;
+
+.layout--interview-editorial .ed[data-era-skin="2003"] {
+  font-family: $e03-sans;
+  color: $e03-ink;
+  line-height: 1.75;
+  letter-spacing: 0;
+
+  a { color: $e03-link; }
+
+  .ed-cover, .ed-body, .ed-epilogue, .ed-archive, .ed-contents, .ed-series-nav, .ed-related { max-width: $e03-measure; }
+
+  /* ---- tools: square portal buttons ------------------------------------- */
+  .ed-tools__summary, .ed-tools__btn, .ed-tools[open] .ed-tools__panel { border-radius: 3px; border-color: $e03-rule; font-family: $e03-sans; }
+  .ed-tools__btn.is-active,
+  .ed-tools__btn[aria-pressed="true"],
+  .ed-tools__btn.is-filter-active { background: $e03-portal; border-color: $e03-portal; color: #ffffff; }
+
+  /* ---- cover: a section bar over the headline ---------------------------- */
+  .ed-cover { margin-top: 30px; padding-top: 0; border-top: 0; }
+
+  .ed-kicker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 12px;
+    margin: 0 0 16px;
+    padding: 6px 12px;
+    border-radius: 3px 3px 0 0;
+    background: $e03-bar;
+    color: #ffffff;
+    font-family: $e03-sans;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  .ed-kicker > span + span::before { content: "|"; margin-right: 12px; color: rgba(255, 255, 255, 0.55); font-weight: 400; }
+
+  .ed-title {
+    margin-bottom: 12px;
+    font-family: $e03-sans;
+    font-size: clamp(22px, 3.2vw, 30px);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.3;
+    color: $e03-portal;
+  }
+
+  .ed-title__text { display: inline; padding: 0; background: none; color: inherit; }
+  .ed-people { font-family: $e03-sans; font-size: 15px; font-weight: 700; color: $e03-ink; }
+  .ed-dek { font-family: $e03-sans; font-size: 14px; line-height: 1.7; color: $e03-ink-soft; }
+
+  .ed-meta {
+    gap: 0 10px;
+    padding: 7px 0;
+    border-top: 2px solid $e03-rule;
+    border-bottom: 1px solid $e03-rule;
+    font-family: $e03-sans;
+    font-size: 11px;
+    color: $e03-ink-soft;
+  }
+
+  .ed-meta > * { display: inline; padding: 0; border-radius: 0; background: none; color: inherit; }
+  .ed-meta > * + *::before { content: "|"; margin-right: 10px; color: $e03-rule; }
+  .ed-meta a { color: $e03-link; background: none; }
+
+  /* ---- images: a 2px frame, the portal's soft corner ---------------------- */
+  .ed-hero img, .ed-figure img { border: 2px solid $e03-rule; border-radius: 3px; padding: 0; background: #ffffff; }
+  .ed-hero::before { content: none; }
+  .ed-hero figcaption, .ed-figure figcaption { font-family: $e03-sans; font-size: 11px; color: $e03-ink-soft; }
+
+  /* ---- contents: a panel with the section-bar heading -------------------- */
+  .ed-contents { border: 2px solid $e03-rule; border-radius: 3px; background: $e03-panel; }
+  .ed-contents__summary { padding: 8px 12px; background: $e03-bar; color: #ffffff; font-family: $e03-sans; font-size: 12px; }
+  .ed-contents__summary::after { color: rgba(255, 255, 255, 0.7); }
+  .ed-contents__eyebrow, .ed-related__eyebrow { color: #cfe6d6; }
+  .ed-contents__list { padding: 12px 12px 12px; font-size: 13px; }
+  .ed-contents__list li::before { color: $e03-bar; }
+  .ed-contents__list a { color: $e03-link; }
+
+  /* ---- body ---------------------------------------------------------------- */
+  .ed-body { font-size: 15px; }
+  .ed-lead .ed-trans { font-size: 16px; line-height: 1.75; }
+
+  /* chapters: the coloured bar, the way a portal headed its sections */
+  .ed-chapter { margin-top: 40px; }
+
+  .ed-chapter__head {
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 14px;
+    padding: 7px 12px;
+    border-top: 0;
+    border-radius: 3px;
+    background: $e03-bar;
+    color: #ffffff;
+  }
+
+  .ed-chapter__num {
+    font-family: $e03-sans;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+  }
+
+  .ed-chapter__title { font-family: $e03-sans; font-size: 16px; font-weight: 700; letter-spacing: 0; line-height: 1.35; color: #ffffff; }
+
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-chapter__head { padding: 5px 12px; }
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $e03-sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: 0;
+    color: $e03-portal;
+  }
+
+  /* speakers: a bold name in the portal blue, the bar in the green */
+  .ed-turn__who { font-family: $e03-sans; font-size: 12px; font-weight: 700; letter-spacing: 0.04em; color: $e03-bar; }
+  .ed-turn__who::before { background: $e03-bar; border-radius: 0; }
+  .ed-turn--answer .ed-turn__who { color: $e03-portal; }
+  .ed-turn--answer .ed-turn__who::before { background: $e03-portal; }
+  .ed-turn--question .ed-trans { font-weight: 700; color: $e03-ink; }
+
+  .ed-orig-toggle { border: 1px solid $e03-rule; border-radius: 3px; background: $e03-panel; color: $e03-portal; font-family: $e03-sans; }
+  .ed-orig-toggle:hover,
+  .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $e03-portal; background: $e03-portal; color: #ffffff; }
+  .parallel-text__cell--original[open] .ed-orig { border-left: 2px solid $e03-rule; }
+
+  /* pull quote: a framed panel, as a portal boxed its highlight */
+  .ed-pull {
+    max-width: $e03-measure;
+    margin: 34px auto;
+    padding: 18px 22px;
+    border: 2px solid $e03-rule;
+    border-left: 6px solid $e03-bar;
+    border-radius: 3px;
+    background: $e03-panel;
+    text-align: left;
+  }
+
+  .ed-pull p {
+    font-family: $e03-sans;
+    font-size: clamp(17px, 2.2vw, 21px);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: $e03-portal;
+  }
+
+  .ed-pull footer { font-family: $e03-sans; font-size: 11px; color: $e03-ink-soft; }
+
+  .ed-note { color: $e03-link; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { border-left: 2px solid $e03-rule; background: $e03-panel; font-family: $e03-sans; font-size: 12px; }
+
+  /* series nav and shelf: 2px rules, the green for the label */
+  .ed-series-nav { border-top: 2px solid $e03-rule; border-bottom: 2px solid $e03-rule; }
+  .ed-series-nav__label { color: $e03-bar; }
+  .ed-series-nav__title, .ed-series-nav__pos { font-family: $e03-sans; }
+
+  .ed-epilogue { border-top: 2px solid $e03-rule; font-family: $e03-sans; }
+  .ed-epilogue h2 { color: $e03-bar; }
+
+  .ed-related, .ed-archive { border-top: 2px solid $e03-rule; font-family: $e03-sans; }
+  .ed-related__title, .ed-related__head { font-family: $e03-sans; color: $e03-ink; }
+  .ed-related__card { border: 2px solid $e03-rule-soft; border-top: 3px solid $e03-bar; border-radius: 3px; }
+  .ed-related__card:hover { border-color: $e03-portal; border-top-color: $e03-portal; }
+  .ed-related__kicker, .ed-series__item.is-current::before, .ed-series__item.is-current .ed-series__link::after { color: $e03-bar; }
+  .ed-related__name, .ed-series__link { font-family: $e03-sans; }
+  .ed-series__item, .ed-series { border-color: $e03-rule-soft; }
+  .ed-archive__record > summary { font-family: $e03-sans; color: $e03-portal; }
+  .ed-archive .parallel-archive-route a { color: $e03-link; }
+}
+
+/* dark: the panels go to a deep slate, the bar green stays */
+.layout--interview-editorial .ed[data-era-skin="2003"][data-reading-theme="dark"] {
+  color: #e2e6ea;
+  a { color: #8ab4f8; }
+  .ed-title, .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans, .ed-pull p, .ed-turn--answer .ed-turn__who, .ed-people { color: #a9c8f0; }
+  .ed-turn--question .ed-trans, .ed-lead .ed-trans, .ed-related__name, .ed-series__link { color: #f2f3f5; }
+  .ed-turn--answer .ed-turn__who::before { background: #a9c8f0; }
+  .ed-contents, .ed-pull, .ed-orig-toggle, .ed-tools__summary, .ed-tools[open] .ed-tools__panel, .ed-tools__btn, .ed-related__card, .parallel-text__block.is-note-open .parallel-text__note-popover { background: #1b2027; border-color: #3a444f; color: #e2e6ea; }
+  .ed-meta, .ed-series-nav, .ed-epilogue, .ed-related, .ed-archive, .ed-series, .ed-series__item { border-color: #3a444f; }
+  .ed-hero img, .ed-figure img { background: #1b2027; border-color: #3a444f; }
+}

@@ -1,0 +1,47 @@
+{%- comment -%}
+Which chapters this interview belongs with, decided from the titles.
+
+The series posts - 社長が訊く, N.O.M, the recruit rounds - carry no series
+field; what they share is a title up to "第N章". So the key is the title
+before the first 第 whose next characters are a chapter number, and the
+series is every interview whose title contains that key. Sorted by title,
+which orders single-digit chapters correctly; none of the series runs past 9.
+
+Sets series_key, series_label, series_posts, series_index (1-based), series_prev,
+series_next. Empty when the post is not part of a series.
+{%- endcomment -%}
+{%- assign series_key = "" -%}
+{%- assign series_label = "" -%}
+{%- assign series_posts = "" | split: "" -%}
+{%- assign series_prev = nil -%}
+{%- assign series_next = nil -%}
+{%- assign series_index = 0 -%}
+{%- if page.title contains "第" and page.title contains "章" -%}
+  {%- assign series_head = page.title | split: "第" | first | strip -%}
+  {%- assign series_tail = page.title | remove_first: series_head | remove_first: "第" | slice: 0, 3 -%}
+  {%- assign series_head_len = series_head | size -%}
+  {%- if series_tail contains "章" and series_head_len >= 6 -%}
+    {%- assign series_key = series_head -%}
+    {%- comment -%} the key without the archive's own prefix, for stripping off member titles that have lost theirs {%- endcomment -%}
+    {%- assign series_label = series_head | remove: "[访谈翻译] " | remove: "[扫描访谈] " | strip -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if series_key != "" -%}
+  {%- assign series_found = "" | split: "" -%}
+  {%- assign series_pool = site.posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" -%}
+  {%- for candidate in series_pool -%}
+    {%- if candidate.title contains series_key -%}
+      {%- assign series_found = series_found | push: candidate -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if series_found.size > 1 -%}
+    {%- assign series_posts = series_found | sort: "title" -%}
+    {%- for member in series_posts -%}
+      {%- if member.url == page.url -%}
+        {%- assign series_index = forloop.index -%}
+        {%- unless forloop.first -%}{%- assign prev_i = forloop.index0 | minus: 1 -%}{%- assign series_prev = series_posts[prev_i] -%}{%- endunless -%}
+        {%- unless forloop.last -%}{%- assign series_next = series_posts[forloop.index] -%}{%- endunless -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endif -%}

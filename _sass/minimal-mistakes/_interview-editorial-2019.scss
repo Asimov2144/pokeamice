@@ -282,6 +282,19 @@ $gf-gradient: linear-gradient(100deg, $gf-sky 0%, $gf-violet 55%, $gf-pink 100%)
   }
 
   .ed-archive__record > summary { font-family: $gf-din; letter-spacing: 0.14em; }
+
+  /* contents, series nav, shelf: DIN eyebrows, the violet, rounded cards */
+  .ed-contents { border: 0; border-radius: 12px; background: $gf-band; padding: 0 20px; }
+  .ed-contents__summary { font-family: $gf-gothic; letter-spacing: 0.06em; }
+  .ed-contents__eyebrow, .ed-related__eyebrow, .ed-series-nav__label, .ed-related__kicker { font-family: $gf-din; color: $gf-violet; letter-spacing: 0.14em; }
+  .ed-contents__list li::before, .ed-series__item.is-current::before, .ed-series__item.is-current .ed-series__link::after { color: $gf-violet; font-family: $gf-din; }
+  .ed-contents__list a:hover, a.ed-series__link:hover { color: $gf-violet; }
+  .ed-series-nav { border: 0; border-radius: 12px; background: $gf-band; padding: 18px 20px; }
+  .ed-series-nav__title, .ed-related__name, .ed-related__title, .ed-related__head { font-family: $gf-gothic; letter-spacing: 0.04em; }
+  .ed-related { border-top: 0; }
+  .ed-related__card { border: 0; border-top: 0; border-radius: 12px; background: $gf-band; }
+  .ed-related__card:hover { background: #ece8fa; }
+  .ed-series, .ed-series__item { border-color: #e6e6e6; }
   .ed-archive .parallel-archive-route a { color: $gf-violet; }
 
   /* tools in the same pill language */
@@ -303,7 +316,9 @@ $gf-gradient: linear-gradient(100deg, $gf-sky 0%, $gf-violet 55%, $gf-pink 100%)
 .layout--interview-editorial .ed[data-era-skin="2019"][data-reading-theme="dark"] {
   color: #e6e8ec;
 
-  .ed-turn__who, .ed-meta > *, .ed-pull, .ed-archive, .ed-tools__summary { background: #1c1f26; color: #e6e8ec; }
+  .ed-turn__who, .ed-meta > *, .ed-pull, .ed-archive, .ed-tools__summary, .ed-contents, .ed-series-nav, .ed-related__card { background: #1c1f26; color: #e6e8ec; }
+  .ed-related__card:hover { background: #262a36; }
+  .ed-series, .ed-series__item { border-color: #2a2f37; }
   .ed-turn--answer .ed-turn__who, .ed-meta a { background: $gf-violet; color: #ffffff; }
   .ed-title__text { background: $gf-mint; color: #0f1115; }
   .ed-chapter__title, .ed-people, .ed-turn--question .ed-trans { color: #f2f3f5; }

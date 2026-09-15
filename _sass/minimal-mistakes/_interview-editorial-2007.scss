@@ -1,0 +1,239 @@
+/* ==========================================================================
+   Interview, editorial - 2007 skin: the DS web, 2006-2009
+   Reference: Diamond / Pearl official site 2006, Daisuki Club 2005, and the
+   2007 page shell in _era-shell.scss. Grammar: small rounded panels, a pale
+   blue frame, a soft vertical gradient lit from the top, signboard tabs.
+   Nothing moves - the board warns against Flash and animation here - so
+   every gradient is static and the corners do the work.
+
+   Same structure as the base skin; only the grammar changes. Applies to
+   whatever _includes/era-skin.html calls 2007.
+   ========================================================================== */
+
+$e07-ink: #23323d;
+$e07-ink-soft: #55697a;
+$e07-rule: #a9c9de;
+$e07-rule-soft: #d3e5f0;
+$e07-blue: #2a6ea3;
+$e07-blue-dark: #1d5c90;
+$e07-sky: #e8f4fc;
+$e07-link: #1668a8;
+$e07-sun: #f4b400;
+$e07-sans: "Trebuchet MS", "Meiryo", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+$e07-lit: linear-gradient(180deg, #ffffff 0%, $e07-sky 100%);
+$e07-measure: 680px;
+
+.layout--interview-editorial .ed[data-era-skin="2007"] {
+  font-family: $e07-sans;
+  color: $e07-ink;
+  line-height: 1.8;
+  letter-spacing: 0;
+
+  a { color: $e07-link; }
+
+  .ed-cover, .ed-body, .ed-epilogue, .ed-archive, .ed-contents, .ed-series-nav, .ed-related { max-width: $e07-measure; }
+
+  /* ---- tools: the signboard tab ------------------------------------------ */
+  .ed-tools__summary, .ed-tools__btn { border-radius: 6px; border-color: $e07-rule; background: $e07-lit; color: $e07-blue-dark; font-family: $e07-sans; }
+  .ed-tools[open] .ed-tools__panel { border-radius: 8px; border-color: $e07-rule; }
+  .ed-tools__btn.is-active,
+  .ed-tools__btn[aria-pressed="true"],
+  .ed-tools__btn.is-filter-active { background: linear-gradient(180deg, #3d84bd 0%, $e07-blue-dark 100%); border-color: $e07-blue-dark; color: #ffffff; }
+
+  /* ---- cover: a rounded sky panel ---------------------------------------- */
+  .ed-cover {
+    margin-top: 30px;
+    padding: 18px 22px 4px;
+    border: 1px solid $e07-rule;
+    border-radius: 8px;
+    background: $e07-lit;
+  }
+
+  .ed-kicker { margin-bottom: 12px; font-family: $e07-sans; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; color: $e07-blue; }
+  .ed-kicker > span + span::before { content: "›"; margin-right: 10px; color: $e07-rule; }
+
+  .ed-title {
+    margin-bottom: 10px;
+    font-family: $e07-sans;
+    font-size: clamp(23px, 3.3vw, 32px);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.3;
+    color: $e07-blue-dark;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+
+  .ed-title__text { display: inline; padding: 0; background: none; color: inherit; }
+  .ed-people { font-family: $e07-sans; font-size: 15px; font-weight: 700; color: $e07-ink; }
+  .ed-dek { font-family: $e07-sans; font-size: 14px; line-height: 1.7; color: $e07-ink-soft; }
+
+  .ed-meta {
+    gap: 6px;
+    margin: 12px -22px 0;
+    padding: 9px 22px;
+    border-top: 1px solid $e07-rule-soft;
+    border-bottom: 0;
+    border-radius: 0 0 8px 8px;
+    background: rgba(255, 255, 255, 0.6);
+    font-family: $e07-sans;
+    font-size: 11px;
+    color: $e07-ink-soft;
+  }
+
+  .ed-meta > * { padding: 2px 10px; border: 1px solid $e07-rule-soft; border-radius: 999px; background: #ffffff; color: $e07-ink-soft; }
+  .ed-meta > * + *::before { content: none; margin: 0; }
+  .ed-meta a { color: $e07-link; background: #ffffff; }
+
+  /* ---- images: rounded, framed in the pale blue ---------------------------- */
+  .ed-hero { margin: 22px auto 30px; }
+  .ed-hero img, .ed-figure img { border: 1px solid $e07-rule; border-radius: 8px; padding: 4px; background: #ffffff; }
+  .ed-hero::before { content: none; }
+  .ed-hero figcaption, .ed-figure figcaption { font-family: $e07-sans; font-size: 11px; color: $e07-ink-soft; }
+
+  /* ---- contents: a small lit panel ---------------------------------------- */
+  .ed-contents { border: 1px solid $e07-rule; border-radius: 8px; background: $e07-lit; }
+  .ed-contents__summary { padding: 9px 14px; font-family: $e07-sans; font-size: 12px; color: $e07-blue-dark; }
+  .ed-contents__eyebrow, .ed-related__eyebrow { color: $e07-blue; }
+  .ed-contents__list { padding: 6px 14px 12px; font-size: 13px; }
+  .ed-contents__list li::before { color: $e07-blue; }
+  .ed-contents__list a { color: $e07-ink; }
+
+  /* ---- body ---------------------------------------------------------------- */
+  .ed-body { font-size: 15px; }
+  .ed-lead .ed-trans { font-size: 16px; line-height: 1.8; }
+
+  /* chapters: a signboard - rounded, lit, numbered in a round badge */
+  .ed-chapter { margin-top: 44px; }
+
+  .ed-chapter__head {
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 14px;
+    padding: 8px 14px;
+    border: 1px solid $e07-rule;
+    border-top: 1px solid $e07-rule;
+    border-radius: 8px;
+    background: $e07-lit;
+  }
+
+  .ed-chapter__num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    height: 26px;
+    padding: 0 6px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, #3d84bd 0%, $e07-blue-dark 100%);
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: #ffffff;
+    font-family: $e07-sans;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+
+  .ed-chapter__title { font-family: $e07-sans; font-size: 17px; font-weight: 700; letter-spacing: 0; line-height: 1.35; color: $e07-blue-dark; }
+
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-chapter__head { padding: 6px 14px; }
+  .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans {
+    font-family: $e07-sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.45;
+    letter-spacing: 0;
+    color: $e07-blue-dark;
+  }
+
+  /* speakers: a small rounded label, white on the blue for the guest */
+  .ed-turn__who {
+    display: inline-flex;
+    gap: 0;
+    margin: 0 0 6px;
+    padding: 2px 10px;
+    border: 1px solid $e07-rule;
+    border-radius: 999px;
+    background: $e07-lit;
+    font-family: $e07-sans;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: $e07-blue-dark;
+  }
+
+  .ed-turn__who::before { content: none; }
+  .ed-turn--answer .ed-turn__who { border-color: $e07-blue-dark; background: linear-gradient(180deg, #3d84bd 0%, $e07-blue-dark 100%); color: #ffffff; }
+  .ed-turn--question .ed-trans { font-weight: 700; color: $e07-ink; }
+
+  .ed-orig-toggle { border: 1px solid $e07-rule; border-radius: 6px; background: $e07-lit; color: $e07-blue-dark; font-family: $e07-sans; }
+  .ed-orig-toggle:hover,
+  .parallel-text__cell--original[open] > .ed-orig-toggle { border-color: $e07-blue-dark; background: $e07-blue-dark; color: #ffffff; }
+  .parallel-text__cell--original[open] .ed-orig { border-left: 2px solid $e07-rule; }
+
+  /* pull quote: a lit panel with a sun-yellow rule, the DS era's highlight */
+  .ed-pull {
+    max-width: $e07-measure;
+    margin: 34px auto;
+    padding: 20px 24px;
+    border: 1px solid $e07-rule;
+    border-top: 4px solid $e07-sun;
+    border-bottom: 1px solid $e07-rule;
+    border-radius: 8px;
+    background: $e07-lit;
+    text-align: left;
+  }
+
+  .ed-pull p {
+    font-family: $e07-sans;
+    font-size: clamp(18px, 2.3vw, 22px);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.5;
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    color: $e07-blue-dark;
+  }
+
+  .ed-pull footer { font-family: $e07-sans; font-size: 11px; color: $e07-ink-soft; }
+
+  .ed-note { color: $e07-link; }
+  .parallel-text__block.is-note-open .parallel-text__note-popover { border-left: 2px solid $e07-rule; border-radius: 6px; background: $e07-sky; font-family: $e07-sans; font-size: 12px; }
+
+  /* series nav and shelf: lit panels, rounded */
+  .ed-series-nav { padding: 14px 18px; border: 1px solid $e07-rule; border-radius: 8px; background: $e07-lit; }
+  .ed-series-nav__label { color: $e07-blue; }
+  .ed-series-nav__title, .ed-series-nav__pos { font-family: $e07-sans; }
+
+  .ed-epilogue { border-top: 1px solid $e07-rule; font-family: $e07-sans; }
+  .ed-epilogue h2 { color: $e07-blue; }
+
+  .ed-related, .ed-archive { border-top: 1px solid $e07-rule; font-family: $e07-sans; }
+  .ed-related__title, .ed-related__head { font-family: $e07-sans; color: $e07-ink; }
+  .ed-related__card { border: 1px solid $e07-rule; border-top: 1px solid $e07-rule; border-radius: 8px; background: $e07-lit; }
+  .ed-related__card:hover { border-color: $e07-blue-dark; box-shadow: 0 0 0 1px $e07-blue-dark inset; }
+  .ed-related__kicker, .ed-series__item.is-current::before, .ed-series__item.is-current .ed-series__link::after { color: $e07-blue; }
+  .ed-related__name, .ed-series__link { font-family: $e07-sans; }
+  .ed-series, .ed-series__item { border-color: $e07-rule-soft; }
+  .ed-archive__record > summary { font-family: $e07-sans; color: $e07-blue-dark; }
+  .ed-archive .parallel-archive-route a { color: $e07-link; }
+
+  @media (max-width: 720px) {
+    .ed-cover { padding: 14px 16px 4px; }
+    .ed-meta { margin: 10px -16px 0; padding: 8px 16px; }
+  }
+}
+
+/* dark: the sky becomes a deep blue, the lit panels keep a faint top light */
+.layout--interview-editorial .ed[data-era-skin="2007"][data-reading-theme="dark"] {
+  color: #dfe8ef;
+  a { color: #8ab4f8; }
+  .ed-cover, .ed-chapter__head, .ed-contents, .ed-pull, .ed-series-nav, .ed-related__card, .ed-orig-toggle, .ed-tools__summary, .ed-tools__btn, .ed-tools[open] .ed-tools__panel, .ed-turn__who, .parallel-text__block.is-note-open .parallel-text__note-popover { background: linear-gradient(180deg, #1f2c38 0%, #16212b 100%); border-color: #3a4f60; color: #dfe8ef; }
+  .ed-meta { background: rgba(0, 0, 0, 0.2); border-color: #3a4f60; }
+  .ed-meta > * { background: #16212b; border-color: #3a4f60; color: #b9c8d4; }
+  .ed-title, .ed-chapter__title, .ed-chapter:not(:has(.ed-chapter__title)) .ed-turn--question .ed-trans, .ed-pull p, .ed-people { color: #a9d0f2; text-shadow: none; }
+  .ed-turn--question .ed-trans, .ed-lead .ed-trans, .ed-related__name, .ed-series__link { color: #f2f3f5; }
+  .ed-epilogue, .ed-related, .ed-archive, .ed-series, .ed-series__item { border-color: #3a4f60; }
+  .ed-hero img, .ed-figure img { background: #16212b; border-color: #3a4f60; }
+}
