@@ -87,7 +87,7 @@ search: false
 <a href="/entities/works/x-y/"><strong>宝可梦 X·Y</strong><span>40 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe/"><strong>宝可梦 剑·盾</strong><span>21 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e58991c2b7e79bbe+e689a9e58585/"><strong>宝可梦 剑·盾 扩充票</strong><span>1 条资料</span></a>
-<a href="/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"><strong>宝可梦 动画系列</strong><span>35 条资料</span></a>
+<a href="/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"><strong>宝可梦 动画系列</strong><span>38 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e5a4aae998b3c2b7e69c88e4baae/"><strong>宝可梦 太阳·月亮</strong><span>44 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"><strong>宝可梦 心金·魂银</strong><span>33 条资料</span></a>
 <a href="/entities/works/e5ae9de58fafe6a2a6+e68898e69697e99da9e591bd/"><strong>宝可梦 战斗革命</strong><span>1 条资料</span></a>
@@ -168,7 +168,7 @@ search: false
 <a href="/entities/works/e698a5e4b98be7a5ad/"><strong>春之祭</strong><span>1 条资料</span></a>
 <a href="/entities/works/e69993e5afba/"><strong>晓寺</strong><span>1 条资料</span></a>
 <a href="/entities/works/iv/"><strong>最终幻想IV</strong><span>1 条资料</span></a>
-<a href="/entities/works/e69cbae58aa8e68898e5a3abe9ab98e8bebe/"><strong>机动战士高达</strong><span>1 条资料</span></a>
+<a href="/entities/works/e69cbae58aa8e68898e5a3abe9ab98e8bebe/"><strong>机动战士高达</strong><span>2 条资料</span></a>
 <a href="/entities/works/e69cbae58aa8e68898e888b0e68a9ae5ad90e58fb7/"><strong>机动战舰抚子号</strong><span>1 条资料</span></a>
 <a href="/entities/works/e69d9ce5ad90e698a5/"><strong>杜子春</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6a183e5a4aae9838ee794b5e99381/"><strong>桃太郎电铁</strong><span>1 条资料</span></a>
@@ -176,8 +176,9 @@ search: false
 <a href="/entities/works/e6af94e5858be68f90e5b0bce4b88ee799bde88bb1e99b84/"><strong>比克提尼与白英雄莱希拉姆</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6af94e5858be68f90e5b0bce4b88ee9bb91e88bb1e99b84/"><strong>比克提尼与黑英雄捷克罗姆</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6b2b3e7aba5/"><strong>河童</strong><span>1 条资料</span></a>
-<a href="/entities/works/e6b49be5a587e4ba9ae78886e8af9e/"><strong>洛奇亚爆诞</strong><span>1 条资料</span></a>
+<a href="/entities/works/e6b49be5a587e4ba9ae78886e8af9e/"><strong>洛奇亚爆诞</strong><span>2 条资料</span></a>
 <a href="/entities/works/e6b581e6989fe4b98be7bb8a/"><strong>流星之绊</strong><span>1 条资料</span></a>
+<a href="/entities/works/e6bcabe794bbe5889de4bd93e9aa8ce7b3bbe58897/"><strong>漫画初体验系列</strong><span>2 条资料</span></a>
 <a href="/entities/works/e6bcabe794bbe58e9fe69da5e5a682e6ada4e789a9e8afad/"><strong>漫画原来如此物语</strong><span>1 条资料</span></a>
 <a href="/entities/works/e6bcabe794bbe697a5e69cace58fb2/"><strong>漫画日本史</strong><span>2 条资料</span></a>
 <a href="/entities/works/e781abe9b89f/"><strong>火鸟</strong><span>1 条资料</span></a>
@@ -195,6 +196,7 @@ search: false
 <a href="/entities/works/e7acace4ba94e4baa4e5938de69bb2/"><strong>第五交响曲</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7bab8e7898ce8b59be9a9ac/"><strong>纸牌赛马</strong><span>1 条资料</span></a>
 <a href="/entities/works/2/"><strong>终结者2</strong><span>1 条资料</span></a>
+<a href="/entities/works/e7bb93e699b6e5a194e79a84e5b89de78e8b/"><strong>结晶塔的帝王</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7bbb4e68b89c2b7e5b895e88eb1e89282/"><strong>维拉·帕莱蒂</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7bd97e9a9ace4babae79a84e69585e4ba8b/"><strong>罗马人的故事</strong><span>1 条资料</span></a>
 <a href="/entities/works/e7be8ee6b49be880b6e5a194e79a84e997aae4baaee78bac/"><strong>美洛耶塔的闪亮独唱会</strong><span>1 条资料</span></a>
@@ -210,8 +212,9 @@ search: false
 <a href="/entities/works/e8af85e59292e79a84e69ca8e4b983e4bc8a/"><strong>诅咒的木乃伊</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8b088e8b088e68385e8b7b3e8b7b3e8889e/"><strong>谈谈情跳跳舞</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8b4b9e58aa0e7bd97e79a84e5a99ae7a4bc/"><strong>费加罗的婚礼</strong><span>1 条资料</span></a>
-<a href="/entities/works/e8b685e6a2a6e79a84e8af9ee7949f/"><strong>超梦的诞生</strong><span>1 条资料</span></a>
-<a href="/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"><strong>超梦的逆袭</strong><span>14 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6e79a84e8af9ee7949f/"><strong>超梦的诞生</strong><span>2 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6e79a84e98086e8a2ad/"><strong>超梦的逆袭</strong><span>18 条资料</span></a>
+<a href="/entities/works/e8b685e6a2a6efbc81e68891e5b0b1e59ca8e8bf99e9878c/"><strong>超梦！我就在这里</strong><span>1 条资料</span></a>
 <a href="/entities/works/e8b685e7baa7e5ae9de58fafe6a2a6e4b9b1e68898/"><strong>超级宝可梦乱战</strong><span>5 条资料</span></a>
 <a href="/entities/works/e8bfb7e5aeabe5a194/"><strong>迷宫塔</strong><span>1 条资料</span></a>
 <a href="/entities/works/vs/"><strong>酋雷姆VS圣剑士凯路迪欧</strong><span>1 条资料</span></a>
@@ -225,6 +228,8 @@ search: false
 <a href="/entities/works/e9acbce5a4aae9838ee4b98be5a6bb/"><strong>鬼太郎之妻</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbf/"><strong>魔法小天使</strong><span>2 条资料</span></a>
 <a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbf+e7949ce7949ce4bb9/"><strong>魔法小天使 甜甜仙子</strong><span>1 条资料</span></a>
+<a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbfefbc88e7949ce7949c/"><strong>魔法小天使（甜甜仙子）</strong><span>1 条资料</span></a>
+<a href="/entities/works/e9ad94e6b395e5b08fe5a4a9e4bdbfefbc88e7949ce7949c/"><strong>魔法小天使（甜甜仙子）梦中飞翔之桥</strong><span>1 条资料</span></a>
 <a href="/entities/works/e9baa6e6a3aee68ea2e999a9/"><strong>麦森探险</strong><span>1 条资料</span></a>
   </div>
 </section>

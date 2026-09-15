@@ -29,7 +29,7 @@ search: false
 <a href="/entities/organizations/facebook/"><strong>Facebook</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/fami/"><strong>Fami通</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/g4tv/"><strong>G4TV</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>793 条资料</span></a>
+<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>797 条资料</span></a>
 <a href="/entities/organizations/gamepro/"><strong>GamePro</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/gamestop/"><strong>GameStop</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/gamesradar/"><strong>GamesRadar</strong><span>1 条资料</span></a>
@@ -47,7 +47,7 @@ search: false
 <a href="/entities/organizations/nifty/"><strong>Nifty</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>17 条资料</span></a>
 <a href="/entities/organizations/nintendo-power/"><strong>Nintendo Power</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/olm/"><strong>OLM</strong><span>37 条资料</span></a>
+<a href="/entities/organizations/olm/"><strong>OLM</strong><span>41 条资料</span></a>
 <a href="/entities/organizations/one-direction/"><strong>One Direction</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/poke-amice-docs/"><strong>Poke Amice Docs</strong><span>6 条资料</span></a>
 <a href="/entities/organizations/pok-mon-korea-inc/"><strong>Pokémon Korea, Inc.</strong><span>1 条资料</span></a>
@@ -66,15 +66,16 @@ search: false
 <a href="/entities/organizations/pokemon-com/"><strong>pokemon.com</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e3839de382b1e383a2e383b3e382bbe383b3e382bfe383bc/"><strong>ポケモンセンター株式会社</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4b896e59889/"><strong>世嘉</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"><strong>东京电视台</strong><span>41 条资料</span></a>
+<a href="/entities/organizations/e4b89ce4baace794b5e8a786e58fb0/"><strong>东京电视台</strong><span>45 条资料</span></a>
 <a href="/entities/organizations/e4b89ce4baace980a0e5bda2e5a4a7e5ada6/"><strong>东京造形大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4b89ce697a5e69cace99381e8b7af/"><strong>东日本铁路</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>103 条资料</span></a>
+<a href="/entities/organizations/e4bbbbe5a4a9e5a082/"><strong>任天堂</strong><span>107 条资料</span></a>
 <a href="/entities/organizations/e4bbbbe5a4a9e5a082e6aca7e6b4b2/"><strong>任天堂欧洲</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e4bfa1e681afe69687e58c96e5ada6e4bc9a/"><strong>信息文化学会</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e589a7e59ba2e59b9be5ada3/"><strong>剧团四季</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e58aa8e794bbe5ba97/"><strong>动画店</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e58d83e89189e5b7a5e6a5ade5a4a7e5ada6/"><strong>千葉工業大学</strong><span>1 条资料</span></a>
+<a href="/entities/organizations/e58d8ee7bab3e58584e5bc9f/"><strong>华纳兄弟</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e58da1e699aee7a9ba/"><strong>卡普空</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e59089e58d9ce58a9be5b7a5e4bd9ce5aea4/"><strong>吉卜力工作室</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/e5908de99381/"><strong>名铁</strong><span>1 条资料</span></a>
@@ -93,7 +94,7 @@ search: false
 <a href="/entities/organizations/e5ae9de58fafe6a2a6e99fa9e59bbd/"><strong>宝可梦韩国</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5aeabe59f8ee5a4a7e5ada6/"><strong>宫城大学</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e5af8ce5a3abe9809a/"><strong>富士通</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/e5b08fe5ada6e9a686/"><strong>小学馆</strong><span>39 条资料</span></a>
+<a href="/entities/organizations/e5b08fe5ada6e9a686/"><strong>小学馆</strong><span>43 条资料</span></a>
 <a href="/entities/organizations/e5b08fe5b2a9e4ba95e4b9b3e4b89ae6a0aae5bc8fe4bc9a/"><strong>小岩井乳业株式会社</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e68998e9a9ace696afe891a1e89084e98592e985bfe980a0/"><strong>托马斯葡萄酒酿造所</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/e697a5e69cace6b091e997b4e694bee98081e88194e79b9f/"><strong>日本民间放送联盟</strong><span>1 条资料</span></a>
