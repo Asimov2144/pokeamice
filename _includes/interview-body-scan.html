@@ -57,26 +57,100 @@ than drawing them - the record is complete, the picture is not.
           {% assign sp = s.scan_page | default: 0 %}
           {% if sp != idx %}{% continue %}{% endif %}
           {% assign kind = s.region_type | default: s.speaker | default: "body" %}
+          {%- comment -%}
+            Who is speaking, if anyone. The first pipeline wrote the region
+            type into `speaker`; the proofread one writes the person, or the
+            question itself with a ── dash in front, and repeats it as a
+            【bracketed】 first line of the text. The bracket line is split off:
+            for an answer it is the name already shown above the turn, for a
+            question it is the question.
+          {%- endcomment -%}
+          {% assign who = s.speaker | default: "" %}
+          {% assign generic = "body,note,caption,image,heading,header,figure" | split: "," %}
+          {% if generic contains who %}{% assign who = "" %}{% endif %}
+          {% assign is_q = false %}{% if who != "" %}{% assign dash = who | slice: 0, 2 %}{% if dash == "──" or dash == "——" %}{% assign is_q = true %}{% endif %}{% endif %}
+          {%- comment -%}
+            A person speaks more than once, or is named on the cover. A
+            "speaker" that does neither - the cover line, a photo caption -
+            is a label over a note, not a turn.
+          {%- endcomment -%}
+          {% assign label = "" %}
+          {% if who != "" and is_q == false %}
+            {% assign said = segs | where: "speaker", who | size %}
+            {% assign named = page.interviewee | default: "" %}
+            {% if said < 2 %}{% unless named contains who %}{% assign label = who %}{% assign who = "" %}{% endunless %}{% endif %}
+          {% endif %}
+          {% assign t_head = "" %}{% assign t_body = s.translation | default: "" %}
+          {% assign t_open = t_body | slice: 0, 1 %}
+          {% if t_open == "【" and t_body contains "】" %}
+            {% assign t_first = t_body | split: "】" | first %}
+            {% assign t_head = t_first | remove_first: "【" | strip %}
+            {% assign t_body = t_body | remove_first: t_first | remove_first: "】" | strip %}
+          {% endif %}
+          {% assign o_head = "" %}{% assign o_body = s.original | default: "" %}
+          {% assign o_open = o_body | slice: 0, 1 %}
+          {% if o_open == "【" and o_body contains "】" %}
+            {% assign o_first = o_body | split: "】" | first %}
+            {% assign o_head = o_first | remove_first: "【" | strip %}
+            {% assign o_body = o_body | remove_first: o_first | remove_first: "】" | strip %}
+          {% endif %}
+          {% if is_q %}
+            {%- comment -%} the question is the bracket line; what follows it is a credit {%- endcomment -%}
+            {% assign t_text = t_head | default: t_body %}{% assign o_text = o_head | default: o_body %}
+            {% if t_head == "" %}{% assign t_text = t_body %}{% assign t_body = "" %}{% endif %}
+            {% if o_head == "" %}{% assign o_text = o_body %}{% endif %}
+            {%- comment -%} the interviewer's name is over the turn; the dash that stood for it in print is not needed twice {%- endcomment -%}
+            {% assign t_text = t_text | remove_first: "──" | remove_first: "——" | strip %}
+            {% assign o_text = o_text | remove_first: "──" | remove_first: "——" | strip %}
+          {% else %}
+            {% assign t_text = t_body %}{% assign o_text = o_body %}
+          {% endif %}
+          {% assign seg_lang = s.original_lang | default: original_lang %}
           {% if s.image %}
-            <figure class="sc-figure">
+            {%- comment -%} a whole page is a plate; a crop is a figure {%- endcomment -%}
+            {% assign is_plate = false %}{% if s.image contains "/pages/" or s.region_id contains "fullpage" %}{% assign is_plate = true %}{% endif %}
+            <figure class="sc-figure{% if is_plate %} sc-figure--plate{% endif %}">
               <img src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.translation | default: page.title | escape }}" loading="lazy" decoding="async">
-              {%- comment -%} a caption region that names this image follows it {%- endcomment -%}
+              {%- comment -%} a caption region that names this image follows it; a plate is captioned by its own alt {%- endcomment -%}
+              {% assign captioned = false %}
               {% for c in segs %}
-                {% if c.caption_for == s.region_id and c.translation %}<figcaption>{{ c.translation }}</figcaption>{% endif %}
+                {% if c.caption_for == s.region_id and c.translation %}<figcaption>{{ c.translation }}</figcaption>{% assign captioned = true %}{% endif %}
               {% endfor %}
+              {% if captioned == false and is_plate and s.alt %}<figcaption>{{ s.alt }}</figcaption>{% endif %}
             </figure>
           {% elsif s.caption_for %}
             {%- comment -%} rendered under its image above {%- endcomment -%}
-          {% elsif s.translation %}
-            {% assign seg_lang = s.original_lang | default: original_lang %}
-            <div class="sc-text parallel-text__block{% if kind == "note" or kind == "caption" %} sc-text--aside{% endif %}" id="segment-{{ forloop.index }}">
+          {% elsif s.type == "header" or s.type == "heading" or kind == "heading" %}
+            {%- comment -%} the section title is the speaker field; the text under it is the standfirst {%- endcomment -%}
+            <header class="sc-heading" id="segment-{{ forloop.index }}">
+              {% if who != "" %}<h2 class="sc-heading__title">{{ who }}</h2>{% endif %}
+              {% if t_text != "" %}
+              <div class="sc-text sc-text--standfirst parallel-text__block">
+                <div class="ed-turn__text parallel-text__pair">
+                  <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+                    <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+                    <div class="ed-orig">{{ o_text | newline_to_br }}</div>
+                  </details>
+                  <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
+                </div>
+              </div>
+              {% endif %}
+            </header>
+          {% elsif t_text != "" %}
+            {% assign classes = "sc-text parallel-text__block" %}
+            {% if is_q %}{% assign classes = classes | append: " ed-turn ed-turn--question sc-turn sc-turn--question has-speaker speaker-is-question" %}
+            {% elsif who != "" %}{% assign classes = classes | append: " ed-turn ed-turn--answer sc-turn sc-turn--answer has-speaker speaker-is-guest" %}
+            {% elsif kind == "note" or kind == "caption" or label != "" %}{% assign classes = classes | append: " sc-text--aside" %}{% endif %}
+            <div class="{{ classes }}" id="segment-{{ forloop.index }}"{% if who != "" %} data-speaker="{% if is_q %}{{ interviewer_label | escape }}{% else %}{{ who | escape }}{% endif %}"{% endif %}>
+              {% if is_q %}<p class="ed-turn__who sc-turn__who">{{ interviewer_label }}</p>{% elsif who != "" %}<p class="ed-turn__who sc-turn__who">{{ who }}</p>{% elsif label != "" %}<p class="sc-text__label">{{ label }}</p>{% endif %}
               <div class="ed-turn__text parallel-text__pair">
                 <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
                   <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
-                  <div class="ed-orig">{{ s.original | newline_to_br }}</div>
+                  <div class="ed-orig">{{ o_text | newline_to_br }}</div>
                 </details>
-                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ s.translation | newline_to_br }}</div>
+                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
               </div>
+              {% if is_q and t_body != "" %}<p class="sc-turn__credit">{{ t_body | newline_to_br }}</p>{% endif %}
             </div>
           {% endif %}
         {% endfor %}
@@ -119,7 +193,7 @@ than drawing them - the record is complete, the picture is not.
               <span class="sc-region__status">{{ s.review_status | default: "unreviewed" }}</span>
             </header>
             {% if s.image %}
-              <img class="sc-region__crop" src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.region_id | escape }}" loading="lazy" decoding="async">
+              <img class="sc-region__crop{% if s.image contains "/pages/" or s.region_id contains "fullpage" %} sc-region__crop--plate{% endif %}" src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.region_id | escape }}" loading="lazy" decoding="async">
             {% endif %}
             {% if s.original or s.translation %}
               <div class="sc-region__pair">
