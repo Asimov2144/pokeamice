@@ -20,6 +20,9 @@ Two faults, both found on the live pages:
   The match is on the whole segment, short ones only, so a sentence that
   happens to contain "search" is untouched.
 
+Also drops `note: ""` / `comment: ""` fields - pipeline residue that reads
+as a note to Liquid and drew a mark that opened onto nothing.
+
 Idempotent; the report names every change so it can be read before --write.
 """
 import glob
@@ -98,6 +101,22 @@ def process(path, write):
         notes.append(f"lang {declared or '(none)'} -> {detected}")
         if write:
             data["original_lang"] = detected
+            changed = True
+
+    # empty annotations: `note: ""` on every turn is pipeline residue, and an
+    # empty string is truthy to Liquid, so it used to draw a note mark that
+    # opened onto nothing
+    empties = 0
+    for item in items:
+        if isinstance(item, dict):
+            for key in ("note", "comment", "comments"):
+                if key in item and (item[key] is None or str(item[key]).strip() == ""):
+                    empties += 1
+                    if write:
+                        del item[key]
+    if empties:
+        notes.append(f"empty note fields: {empties}")
+        if write:
             changed = True
 
     # boilerplate
