@@ -26,10 +26,12 @@ import sys
 
 import yaml
 
-STRUCTURAL = re.compile(r"^[【\[『].*[】\]』]$|^(专栏解说|档案|序言|专家档案|旁白|编者按|注记|任天堂官方注记|body)$")
+STRUCTURAL = re.compile(r"^[【\[『].*[】\]』]$|^(专栏解说|档案|序言|专家档案|旁白|编者按|注记|任天堂官方注记|body)$"
+                        r"|.*(导览|报告|介绍|解说|说明)$")   # "N.O.M导览", "实机体验报告", "专访特别介绍": a section voice, not a person
 GENERIC_Q = {"提问", "记者", "问", "q", "interviewer", "采访者", "取材班", "主持人", "现场问答环节",
              "主持人 / 少年提问", "西班牙少年听众", "听众提问", "读者提问", "司会"}
-OUTLET_HINT = re.compile(r"(记者|编辑|采访|取材|通信|\.com|tv|magazine|online|news|通$|志$|周刊|周刊|采编|团队|专栏|媒体|站)", re.I)
+OUTLET_HINT = re.compile(r"(记者|编辑|采访|取材|通信|\.com|tv|magazine|online|news|通$|志$|周刊|周刊|采编|团队|专栏|媒体|站"
+                         r"|dream|1up|factory|pokemon-memo|pocketmonsters|informer|beach|famitsu|dengeki|ign|g4|spong|guardian|wedge|ascii)", re.I)
 
 
 def norm(name):

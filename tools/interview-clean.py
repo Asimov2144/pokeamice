@@ -21,7 +21,8 @@ Two faults, both found on the live pages:
   happens to contain "search" is untouched.
 
 Also drops `note: ""` / `comment: ""` fields - pipeline residue that reads
-as a note to Liquid and drew a mark that opened onto nothing.
+as a note to Liquid and drew a mark that opened onto nothing - and turns a
+paragraph written as "=== 序章 ===" into the heading it is.
 
 Idempotent; the report names every change so it can be read before --write.
 """
@@ -101,6 +102,28 @@ def process(path, write):
         notes.append(f"lang {declared or '(none)'} -> {detected}")
         if write:
             data["original_lang"] = detected
+            changed = True
+
+    # a heading typed as text: "=== 序章：… ===" is a section head the
+    # importer left as a paragraph, and it read as the lead of the article
+    RULED = re.compile(r"^\s*={2,}\s*(.+?)\s*={2,}\s*$", re.S)
+    ruled = 0
+    for item in items:
+        if not isinstance(item, dict) or item.get("type") in ("image", "heading", "header"):
+            continue
+        m = RULED.match(str(item.get("translation") or ""))
+        if m and chr(10) not in m.group(1):
+            ruled += 1
+            if write:
+                item["type"] = "heading"
+                item["translation"] = m.group(1).strip()
+                mo = RULED.match(str(item.get("original") or ""))
+                if mo:
+                    item["original"] = mo.group(1).strip()
+                item.pop("speaker", None); item.pop("role", None)
+    if ruled:
+        notes.append(f"ruled headings: {ruled}")
+        if write:
             changed = True
 
     # empty annotations: `note: ""` on every turn is pipeline residue, and an

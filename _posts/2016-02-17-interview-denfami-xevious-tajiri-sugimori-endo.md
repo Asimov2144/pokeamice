@@ -42,9 +42,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/01_D4S32521.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === ゲーセンがたまり場だった”あの頃” ===
-  translation: === 第1节：街机厅曾是聚集地的“那些年” ===
+- type: heading
+  original: ゲーセンがたまり場だった”あの頃”
+  translation: 第1节：街机厅曾是聚集地的“那些年”
 - type: dialogue
   speaker: 电玩志
   original: 遠藤さんは、田尻さんと杉森さんにお会いしたのは何年ぶりですか？
@@ -230,9 +230,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/06_D4S3313.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 『ゼビウス1000万点への解法』の真相 ===
-  translation: === 第2节：《铁板阵1000万分解法》的惊人真相 ===
+- type: heading
+  original: 『ゼビウス1000万点への解法』の真相
+  translation: 第2节：《铁板阵1000万分解法》的惊人真相
 - type: dialogue
   speaker: 电玩志
   original: マトリックス社の大堀康祐さんが若い頃に出した、『ゼビウス1000万点への解法』の話ですね。
@@ -321,9 +321,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/08_D4S33621.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 『ゼビウス』はどのように企画されたのか ===
-  translation: === 第3节：《铁板阵》究竟是如何策划出来的 ===
+- type: heading
+  original: 『ゼビウス』はどのように企画されたのか
+  translation: 第3节：《铁板阵》究竟是如何策划出来的
 - type: dialogue
   speaker: 电玩志
   original: それでなのですが、実は、今日は『ゼビウス』の企画書を遠藤さんに持ってきていただいたんです。
@@ -476,9 +476,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/16_0001-6.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 「新しい謎を知るたびに遊びたくなった」（田尻氏） ===
-  translation: === 第4节：“每当获悉新的谜团就忍不住想玩”（田尻智） ===
+- type: heading
+  original: 「新しい謎を知るたびに遊びたくなった」（田尻氏）
+  translation: 第4节：“每当获悉新的谜团就忍不住想玩”（田尻智）
 - type: dialogue
   speaker: 电玩志
   original: 田尻さんにとっては、『ゼビウス』が他のシューティングゲームと大きく違ったのは、どういう部分なんですか？
@@ -633,9 +633,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/22_0001-8.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === ゲームフリークは”アーケード上がり”？ ===
-  translation: === 第5节：GAME FREAK是一帮“街机出身”的狂人？ ===
+- type: heading
+  original: ゲームフリークは”アーケード上がり”？
+  translation: 第5节：GAME FREAK是一帮“街机出身”的狂人？
 - type: dialogue
   speaker: 电玩志
   original: ところで、せっかくなので、少し『ゼビウス』の話からは離れてしまうのですが、遠藤さんから見た、田尻さんや杉森さんたちゲームフリークの評価も聞いてみたいのですが。
@@ -797,9 +797,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/26_D4S3420.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === セガ版のテトリスは何が画期的だったのか？ ===
-  translation: === 第6节：世嘉版《俄罗斯方块》究竟有哪些划时代之处？ ===
+- type: heading
+  original: セガ版のテトリスは何が画期的だったのか？
+  translation: 第6节：世嘉版《俄罗斯方块》究竟有哪些划时代之处？
 - type: dialogue
   speaker: 电玩志
   original: ゲームフリークのそういう精神というのは、社内でも引き継がれているのですか？
@@ -917,9 +917,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/29_D4S3299.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 「難易度上昇は、ゲームにとって本質的ではない」 ===
-  translation: === 第7节：“难度上升并非游戏的本质所在” ===
+- type: heading
+  original: 「難易度上昇は、ゲームにとって本質的ではない」
+  translation: 第7节：“难度上升并非游戏的本质所在”
 - type: dialogue
   speaker: 电玩志
   original: いま横井軍平さんのお話が出ましたが、お二人から見て気になるゲームクリエイターの方はいらっしゃいますか？
@@ -1017,9 +1017,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/32_D4S3404.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 日本のクリエイターは「コンセプト」ありき ===
-  translation: === 第8节：日本游戏创作者的“概念先行”哲学 ===
+- type: heading
+  original: 日本のクリエイターは「コンセプト」ありき
+  translation: 第8节：日本游戏创作者的“概念先行”哲学
 - type: dialogue
   speaker: 电玩志
   original: それにしても、遠藤さんは現在、研究者としても活動されているんですね。
@@ -1176,9 +1176,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/36_D4S33781.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === 今明かされるゼビウス星の真相…！ ===
-  translation: === 第9节：此刻揭晓的铁板阵星球惊天真相…！ ===
+- type: heading
+  original: 今明かされるゼビウス星の真相…！
+  translation: 第9节：此刻揭晓的铁板阵星球惊天真相…！
 - type: dialogue
   speaker: 电玩志
   original: そろそろ時間なのですが、やはり田尻さんと遠藤さんがお会いしたとなると、最後に「ゼビウス星」の真相についても聞かなければいけないかな……と。
@@ -1345,9 +1345,9 @@ parallel_items:
   src: /assets/img/interviews/2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo/40_D4S33471.jpg
   alt: 《铁板阵》历史档案
   caption: ''
-- type: dialogue
-  original: === ポケモンがゼビウスから受け継いだもの ===
-  translation: === 第10节：宝可梦从《铁板阵》身上继承的核心衣钵 ===
+- type: heading
+  original: ポケモンがゼビウスから受け継いだもの
+  translation: 第10节：宝可梦从《铁板阵》身上继承的核心衣钵
 - type: dialogue
   speaker: 电玩志
   original: でも、下の世代にとっては、そういう『ゼビウス』の伝説にあたるのが、実は『ポケモン』の思い出なんじゃないでしょうか。やっぱり、僕らも”レベル100技”とかの噂話を、休み時間や放課後に友だちと語り合ったんですよ。
@@ -1407,9 +1407,9 @@ parallel_items:
   original: そんなに解析ができるなら、お前はゲームを作ればいいじゃないか……とも思うんだけど、そういう人たちの仕事を聞くと、もっとこの国の根幹を支える仕事に就く技術屋だったりするんです。そういうエンジニアたちが、パワーユーザーとしてゲームに接してくれる裾野の広さは、もう日本ならではのことですよね。
   translation: 既然能分析到那种程度，我心想你干脆去做游戏不就好了……但一问那些人的工作，发现他们其实是从事支撑这个国家根基的技术工作。那些工程师作为高级玩家接触游戏，这种广泛的参与度，真是日本独有的现象啊。
   role: answer
-- type: dialogue
-  original: === 最後に ===
-  translation: === 第11节：结语：两代创作者的永恒共鸣 ===
+- type: heading
+  original: 最後に
+  translation: 第11节：结语：两代创作者的永恒共鸣
 - type: dialogue
   speaker: 电玩志
   original: では、本当に最後のまとめということで、田尻さんと杉森さんからの”ゲームデザイナー・遠藤雅伸”評をいただけると嬉しいです。

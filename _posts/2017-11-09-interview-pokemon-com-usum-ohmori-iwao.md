@@ -34,9 +34,9 @@ parallel_items:
   original: With the impending release of Pokémon Ultra Sun and Pokémon Ultra Moon for the Nintendo 3DS family of systems, we had the chance to chat with the game's producer, Shigeru Ohmori, and director, Kazumasa Iwao, about their experiences working on the game. Read on to see what they had to say about the creative process behind these new adventures, the secrets behind the development of the games, and much more.
   translation: 随着《宝可梦 究极之日·究极之月》即将在Nintendo 3DS系列平台上发售，我们有幸与游戏制作人大森滋和总监岩尾和昌进行了对话，探讨了他们在开发这款游戏过程中的心得体会。请继续阅读，了解他们关于这些新冒险背后的创意过程、游戏开发背后的秘密以及更多精彩内容。
   role: question
-- type: dialogue
-  original: === First Experiences & Joining GAME FREAK ===
-  translation: === 第1节：从初代小玩家到入职 GAME FREAK ===
+- type: heading
+  original: First Experiences & Joining GAME FREAK
+  translation: 第1节：从初代小玩家到入职 GAME FREAK
 - type: dialogue
   speaker: Pokemon.com
   original: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?
@@ -71,9 +71,9 @@ parallel_items:
   original: I first worked as a game designer on the Pokémon Ruby and Pokémon Sapphire games. I worked on designing the user interface, working on the communication systems, and pitching ideas for the game mechanics.
   translation: 我最初在《宝可梦 红宝石·蓝宝石》中担任游戏设计师，负责用户界面设计、通信系统开发，并为游戏机制提出创意方案。
   role: answer
-- type: dialogue
-  original: === Developing Pokémon Ultra Sun and Pokémon Ultra Moon ===
-  translation: === 第2节：《究极之日·究极之月》的核心主题与集大成定位 ===
+- type: heading
+  original: Developing Pokémon Ultra Sun and Pokémon Ultra Moon
+  translation: 第2节：《究极之日·究极之月》的核心主题与集大成定位
 - type: dialogue
   speaker: Pokemon.com
   original: 'These games are a bit of a departure from previous follow-up titles like Pokémon Yellow: Special Pikachu Edition, or Pokémon Emerald, which were a single new title. How did you come up with the concept of releasing two new games this time around?'
@@ -88,9 +88,9 @@ parallel_items:
   original: We came up with the theme of “core” for the development of the game. We decided we wanted to focus on the core elements of what makes Pokémon games fun, but also deepen them further than ever before. With Pokémon Sun and Pokémon Moon, the story really focused on the legendary Pokémon of each version—Solgaleo and Lunala—and they were very well received. So we wanted to make sure that the story this time around really explored both of these legendary Pokémon and their connection with Necrozma in depth. If we made a single title, it would be difficult to give equal weight to both Solgaleo and Lunala in the story, so we felt that having two versions was necessary.
   translation: 我们在游戏开发中确立了“核心”这一主题。我们决定专注于构成宝可梦游戏乐趣的核心要素，并在此基础上进行前所未有的深化。在《宝可梦 太阳》与《宝可梦 月亮》中，故事紧密围绕各自版本的传说宝可梦——索尔迦雷欧和露奈雅拉展开，它们受到了广泛好评。因此，我们希望这次的故事能深入探索这两只传说宝可梦以及它们与奈克洛兹玛之间的关联。若只制作单一版本，很难在故事中给予索尔迦雷欧和露奈雅拉同等的重视，因此我们认为推出两个版本是必要的。
   role: answer
-- type: dialogue
-  original: === Team Rainbow Rocket & Villain Bosses ===
-  translation: === 第3节：彩虹火箭队诞生与历代反派头目的平行宇宙宿命 ===
+- type: heading
+  original: Team Rainbow Rocket & Villain Bosses
+  translation: 第3节：彩虹火箭队诞生与历代反派头目的平行宇宙宿命
 - type: dialogue
   speaker: Pokemon.com
   original: Bringing back so many characters from previous games with Team Rainbow Rocket unifies the Pokémon universe. What led to the decision to bring all these legendary villains together?
@@ -129,9 +129,9 @@ parallel_items:
   original: It wasn't a huge challenge to come up with a story so that it all made sense. Guzma is a fan-favorite character, so we wanted to make sure he had a prominent role in the story as well. Having him fight alongside the player against Team Rainbow Rocket was a great way to show how much he has grown as a character since the events of Pokémon Sun and Pokémon Moon.
   translation: 构思一个让一切合情合理的故事并非巨大挑战。古兹马是深受粉丝喜爱的角色，所以我们希望确保他在故事中也有重要戏份。让他与玩家并肩作战对抗彩虹火箭队，是展现他自《宝可梦 太阳·月亮》事件以来角色成长的好方法。
   role: answer
-- type: dialogue
-  original: === Directorial Approaches & Mentorship ===
-  translation: === 第4节：总监导师制与游戏设计哲学的代际传承 ===
+- type: heading
+  original: Directorial Approaches & Mentorship
+  translation: 第4节：总监导师制与游戏设计哲学的代际传承
 - type: dialogue
   speaker: Pokemon.com
   original: Mr. Ohmori was the director on Pokémon Omega Ruby and Pokémon Alpha Sapphire, then again on Pokémon Sun and Pokémon Moon, but took a producer role on these games. How did your working relationship function with Mr. Iwao stepping into the director role?
@@ -157,9 +157,9 @@ parallel_items:
   original: As a game designer, I worked directly with a lot of people in different roles, such as programmers and graphic designers. That experience really helped me understand what is required from each role and how to effectively communicate with them.
   translation: 作为游戏设计师，我与许多不同职位的人直接合作，比如程序员和图形设计师。那段经历确实帮助我理解了每个角色需要什么，以及如何与他们有效沟通。
   role: answer
-- type: dialogue
-  original: === Ultra Beasts, Mantine Surf & Competitive Balance ===
-  translation: === 第5节：究极异兽设计差异、巨翅飞鱼冲浪与对战环境平衡 ===
+- type: heading
+  original: Ultra Beasts, Mantine Surf & Competitive Balance
+  translation: 第5节：究极异兽设计差异、巨翅飞鱼冲浪与对战环境平衡
 - type: dialogue
   speaker: Pokemon.com
   original: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?
@@ -212,9 +212,9 @@ parallel_items:
   original: The scenario featuring Team Rainbow Rocket is only accessible after the player completes the main story, so that alone provides a lot of post-game content. There are also new legendary Pokémon to catch through the Ultra Wormhole, the Battle Agency facility, and plenty of side quests that become available after you become the Champion.
   translation: 涉及彩虹火箭队的剧情只有在玩家完成主线故事后才能解锁，因此这本身就提供了大量的一周目通关后内容。此外，还有通过究极之洞捕捉的新传说宝可梦、对战公司设施，以及成为冠军后可用的众多支线任务。
   role: answer
-- type: dialogue
-  original: === Creative Sparks & Looking Ahead ===
-  translation: === 第6节：创意的源初火花与给全球训练家的话 ===
+- type: heading
+  original: Creative Sparks & Looking Ahead
+  translation: 第6节：创意的源初火花与给全球训练家的话
 - type: dialogue
   speaker: Pokemon.com
   original: Where does the original creative spark for a new Pokémon game usually come from? What are the first elements that get decided?

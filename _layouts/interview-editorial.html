@@ -83,10 +83,12 @@ kept on the turns even though the presentation around them is new.
 {% include era-skin.html %}
 
 {%- comment -%} Everyone who answers, for the dek and the speaker filter. {%- endcomment -%}
+{%- comment -%} "众人" answering together is a turn, not a person on the cover {%- endcomment -%}
+{% assign crowd = "众人,全员,一同,全体,众人（笑）,Everyone,All" | split: "," %}
 {% assign answerers = "" | split: "" %}
 {% for it in items %}
   {% if it.role == "answer" and it.speaker %}
-    {% unless answerers contains it.speaker %}{% assign answerers = answerers | push: it.speaker %}{% endunless %}
+    {% unless answerers contains it.speaker or crowd contains it.speaker %}{% assign answerers = answerers | push: it.speaker %}{% endunless %}
   {% endif %}
 {% endfor %}
 {% assign interviewer_label = page.interviewer | default: outlet_short | split: "（" | first | strip %}

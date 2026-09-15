@@ -24,9 +24,9 @@ entities:
   - 宝可梦 皮卡丘版
   - 宝可梦 金·银
 parallel_items:
-- type: dialogue
-  original: === 第1回：田尻智 社長編（ポケモンの生みの親が語る構想と『金・銀』最前線） ===
-  translation: === 第1回：田尻智 社长篇（宝可梦之父谈初代构想与《金·银》超前线） ===
+- type: heading
+  original: 第1回：田尻智 社長編（ポケモンの生みの親が語る構想と『金・銀』最前線）
+  translation: 第1回：田尻智 社长篇（宝可梦之父谈初代构想与《金·银》超前线）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/01_tajiri.jpg
   alt: 田尻智（GAME FREAK代表取缔役社长 / 游戏设计师）
@@ -217,9 +217,9 @@ parallel_items:
   speaker_ja: 田尻智
   translation: 要交好多好多朋友哦！皮卡啾！！
   role: answer
-- type: dialogue
-  original: === 第2回：杉森建 取締役・アートディレクター編（愛用の画材とフシギバナの苦悩） ===
-  translation: === 第2回：杉森建 艺术总监篇（十年画材、画不出的妙蛙花与全主机收藏） ===
+- type: heading
+  original: 第2回：杉森建 取締役・アートディレクター編（愛用の画材とフシギバナの苦悩）
+  translation: 第2回：杉森建 艺术总监篇（十年画材、画不出的妙蛙花与全主机收藏）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/02_sugimori.jpg
   alt: 杉森建（GAME FREAK取缔役 / 艺术总监）
@@ -484,9 +484,9 @@ parallel_items:
   original: ありがとございまちた～ちゃーっ！！次回はゲームフリークいち黒い人がターゲットちゃーっ。
   translation: 谢谢你皮卡～啾！！下次的目标是GAME FREAK里最黑的那个人啾。
   role: question
-- type: dialogue
-  original: === 第3回：森本茂樹 バトルプログラマー編（ミュウ誕生の真実と通信対戦の苦闘） ===
-  translation: === 第3回：森本茂树 战斗设计师篇（偷塞梦幻的始末、通信对战危机与健康恶魔） ===
+- type: heading
+  original: 第3回：森本茂樹 バトルプログラマー編（ミュウ誕生の真実と通信対戦の苦闘）
+  translation: 第3回：森本茂树 战斗设计师篇（偷塞梦幻的始末、通信对战危机与健康恶魔）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/05_morimoto.jpg
   alt: 森本茂树（GAME FREAK程序员 / 宝可梦设计师）
@@ -651,9 +651,9 @@ parallel_items:
   original: ちゃーっ!!　悪魔でちゅう!! ありがとうございました～！次はゲームフリークいち不道徳な人が登場っちゃ～！
   translation: 嚓——！！是恶魔啾！！谢谢大家～！接下来登场的是GAME FREAK最不道德的人嚓～！
   role: question
-- type: dialogue
-  original: === 第4回：太田健程 プログラマー編（空手王と林原めぐみさんへの熱き想い） ===
-  translation: === 第4回：太田健程 演出程序员篇（空手道王、极真空手二段与爱之追寻） ===
+- type: heading
+  original: 第4回：太田健程 プログラマー編（空手王と林原めぐみさんへの熱き想い）
+  translation: 第4回：太田健程 演出程序员篇（空手道王、极真空手二段与爱之追寻）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/06_ohta.png
   alt: 太田健程（GAME FREAK程序员 / 空手道太田）
@@ -813,9 +813,9 @@ parallel_items:
   original: ぴひゃひゃ（笑）ありがとうございました～！ひゅうう・・・つかれるインタビューだったっちゃ。次はゲームフリークいち胸元のセクシーな人の登場でちゅ！せくし～っ
   translation: 皮嘻嘻（笑）谢谢你啦～！呼啊……这次采访好累皮卡。接下来登场的是GAME FREAK中最有胸襟的性感人物！性感～
   role: question
-- type: dialogue
-  original: === 第5回：増田順一 サウンドディレクター編（シオンタウンの音階とコダックへの愛） ===
-  translation: === 第5回：增田顺一 音乐总监篇（性感音乐家、宝可梦叫声体系与紫苑镇秘闻） ===
+- type: heading
+  original: 第5回：増田順一 サウンドディレクター編（シオンタウンの音階とコダックへの愛）
+  translation: 第5回：增田顺一 音乐总监篇（性感音乐家、宝可梦叫声体系与紫苑镇秘闻）
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/03_masuda.jpg
   alt: 增田顺一（GAME FREAK取缔役 / 音乐总监 / 作曲家）
