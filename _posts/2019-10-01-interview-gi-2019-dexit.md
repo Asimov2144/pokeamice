@@ -1,0 +1,68 @@
+---
+layout: interview-editorial
+archive_type: interview_translation
+title: Game Informer 2019：增田顺一谈《宝可梦 剑·盾》图鉴削减与未来回归
+display_title: 被削减的宝可梦将回归
+dek: 增田顺一表示，未进入《剑／盾》的宝可梦会在未来游戏的不同地区登场。
+original_title: Pokémon Cut From Sword And Shield's National Pokédex Will Return In The Future
+date: '2019-10-01'
+era_skin: '2019'
+categories:
+- 访谈翻译
+- 翻译
+- 访谈整理
+tags:
+- 访谈
+- Game Freak
+- Game Informer
+- 宝可梦 剑·盾
+- 增田顺一
+- 全国图鉴
+- 剑盾封面专题 2019
+publication: Game Informer（2019-10-01）
+source_kind: media_feature
+author: Brian Shea
+interviewer: Brian Shea
+interviewee: 增田顺一
+translator: PokeAmice（DeepSeek 初译）
+original_lang: en
+translation_lang: zh-CN
+source:
+  title: Pokémon Cut From Sword And Shield's National Pokédex Will Return In The Future
+  url: https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future
+  language: en
+  source_type: media_interview
+original_link: https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future
+summary: Game Informer采访制作人增田顺一，谈及《宝可梦 剑·盾》削减部分宝可梦的原因：系列积累数量庞大，Game Freak希望优先新玩法。增田称被削减的宝可梦绝对会在未来游戏中回归，宝可梦Home将作为聚集与出发之地。
+entities:
+  people:
+  - 增田顺一
+  works:
+  - 宝可梦 剑·盾
+workflow:
+  fetch: live
+  translation: deepseek-chat
+  proofreading: pending
+  published: draft
+parallel_items:
+- original: Fans are eagerly anticipating Pokémon Sword and Shield, but some of the biggest news coming out of summer was regarding what won't be in the first mainline Pokémon console RPGs. During E3, producer Junichi Masuda explained that not every Pokémon will make the leap into Sword and Shield. This news left many fans disappointed, so I caught up with Masuda during our trip for this month's cover story to dive deeper into the reasoning for the cuts.
+  translation: 粉丝们热切期待《宝可梦 剑·盾》，但今年夏天最重大的新闻之一，却是关于首批宝可梦主机正统RPG中不会出现的内容。在E3期间，制作人增田顺一解释说，并非所有宝可梦都能进入《剑／盾》。这一消息让许多粉丝感到失望，因此在本月封面故事之旅中，我采访了增田，深入探讨削减的原因。
+- original: According to Masuda, the sheer number of Pokémon the series had accumulated over the last two-plus decades got to the point of being unwieldy. "Up until now, we’ve been proud we’ve been able to include so many Pokémon in the games, but as a result of that, there’s actually been quite a few features or gameplay ideas that we’ve had to abandon in the past," he says. "Going forward, thinking about the future of Pokémon, we want to prioritize all those new gameplay ideas, new ways to enjoy the game, and want to challenge ourselves at Game Freak to create new ways to enjoy the game. That’s really what drove the decision for this new direction."
+  translation: 据增田所说，该系列在过去二十多年里积累的宝可梦数量之多，已经到了难以驾驭的地步。他说：“到目前为止，我们一直为能在游戏中收录这么多宝可梦而感到自豪，但正因如此，过去其实有不少功能或玩法构想，我们不得不放弃。”“展望未来，考虑到宝可梦的未来，我们想优先考虑所有那些新的玩法构想、新的享受游戏的方式，并希望在Game Freak挑战自我，创造新的享受游戏的方式。这正是推动我们做出这一新方向决定的原因。”
+- type: image
+  image: /assets/img/interviews/2019-10-01-interview-gi-2019-dexit/001.webp
+  alt: Pokémon Sword and Shield
+- original: The decision was the result of collaborative talks between Game Freak, The Pokémon Company, and Nintendo. "We have a lot of awesome new challenges that we haven’t even revealed in Sword and Shield," Masuda says. "We want to continue to come up with these new features, so we figured this was the best path forward for the franchise"
+  translation: 这一决定是Game Freak、宝可梦公司和任天堂共同商讨的结果。增田说：“我们在《剑／盾》中还有许多尚未公布的了不起的新挑战。”“我们想继续推出这些新功能，所以我们认为这是该系列前进的最佳路径。”
+- original: Things are a bit complicated when diving into how the team decided which Pokémon wouldn't carry over into the Galar region. "A wide variety of discussions happened; it’s not just one kind of criteria for deciding which Pokémon are going to appear in the games, but a lot of different reasons, a lot of different directions, a lot of debate over which ones would be the best in the game," Masuda says. "I think one example of that is figuring out the Pokémon that would make sense for the setting of the game the most; these Pokémon look like they could live in the Galar region. We really spent a lot of effort deciding which would best fit the setting of the adventure and the features that we wanted to implement. I think players will be satisfied. There’s quite a few Pokémon that you’ll encounter in the Galar region Pokédex, so I think players will have fun seeing all the Pokémon."
+  translation: 当深入探讨团队如何决定哪些宝可梦不会进入伽勒尔地区时，情况有些复杂。增田说：“进行了各种各样的讨论；决定哪些宝可梦出现在游戏中，并非只有一种标准，而是有许多不同的理由、许多不同的方向，以及关于哪些最适合游戏的诸多争论。”“我认为其中一个例子就是找出最适合游戏设定的宝可梦；这些宝可梦看起来像是能生活在伽勒尔地区。我们确实花了很多精力来决定哪些最适合冒险的设定以及我们想要实现的功能。我想玩家会满意的。在伽勒尔地区的宝可梦图鉴 App中，你会遇到相当多的宝可梦，所以我认为玩家会乐于见到所有这些宝可梦。”
+- type: image
+  image: /assets/img/interviews/2019-10-01-interview-gi-2019-dexit/002.webp
+  alt: Pokémon Sword and Shield
+- original: When I ask for specifics about the Pokémon that didn't make the cut for Sword and Shield – including names and total number of creatures – Masuda did not elaborate. However, he was much more explicit when I asked if cut Pokémon will return in future games. "Definitely," he says. "You can look forward to seeing Pokémon that don’t appear in these games appearing in different regions in future games. I think Pokémon Home, for a lot of players, will serve as a launching pad to gather them all there and then embark on future adventures."
+  translation: 当我问及未能进入《剑／盾》的宝可梦的具体情况——包括名称和总数——增田没有详细说明。然而，当我问及被削减的宝可梦是否会在未来游戏中回归时，他明确得多。他说：“绝对会。”“你可以期待在这些游戏中没有出现的宝可梦，在未来游戏的不同地区中出现。我认为对许多玩家来说，宝可梦Home将作为一个发射台，把所有宝可梦聚集在那里，然后踏上未来的冒险。”
+- original: Pokémon Home has been announced, but details to this point are scarce. Masuda intends on keeping it that way for a bit longer, but he did offer a bit more insight into the upcoming app. "We’re really designing it as the place for all of your Pokémon together, so it’s really important for the future of the franchise, and it’ll be more than even Pokémon Bank as a place to gather all your Pokémon together in one spot."
+  translation: 宝可梦Home已经公布，但到目前为止细节很少。增田打算再保持一段时间这样，但他确实对这款即将推出的应用提供了一些更深入的见解。“我们真的把它设计成你所有宝可梦聚集在一起的地方，所以它对该系列的未来非常重要，它将不仅仅是宝可梦银行那样的把所有宝可梦聚集在一个地方的地方。”
+- original: We'll have to see which Pokémon we encounter in the Galar region when Pokémon Sword and Shield launch November 15.
+  translation: 当《宝可梦 剑·盾》于11月15日发售时，我们得看看在伽勒尔地区会遇到哪些宝可梦。
+---

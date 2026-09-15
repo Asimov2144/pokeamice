@@ -258,3 +258,15 @@
 - 田尻：Sankei 2018 話の肖像画（付费墙）
 
 视频 14 条（GI 2017/2019 系列、Nintendo Life USUM、NintendoAU 日月 Q&A、Yamaha Sound Roster、ゲームフリークひみつきち ミュウ/セレビィ/ぽこポケ）只登记链接，不入站。
+
+### 8.2 导入结果（2026-09-16 深夜）
+
+上面两批合起来去重后 36 个目标，東洋経済岩田访谈是付费会员页（宝可梦段在付费部分）弃掉，**35 篇全部走完「抓正文 → 角色识别 → DeepSeek 初译 → 编辑版帖子」**，由新写的 `tools/import-web.py` 完成（目标清单在 `design/import_web_targets_2026-09.json`）：
+
+- 正文抓取：urllib 直接拿到 32 篇；Fami通三篇正文是前端渲染的，用浏览器面板抓渲染后的 `div.article-body`；GI 2012 两篇走 Wayback（Burning Questions 还有第 2 页），INSIDE 是三页连读
+- 版式：`――` / `4Gamer：` / `増田　` / 单独一行的人名（Fami通 2026、Gpara）/ `Masuda:` / 英文加粗问句 / `jeuxvideo.com >` / Multiplayer.it 的无标记问答交替，都各有一条规则；讲演报道、封面长文、ORICON 那种夹引语的叙述体保持叙述，不硬拆问答
+- 1,764 个段落，1 处漏译由补译脚本补上；译名统一（吉田博信→吉田宏信、前澤→前泽、`X／Y`→`X·Y`、`黑白2`→`黑2·白2` 等）；图片 43 MB 压到 16 MB（>300 KB 的转成 ≤1280px JPEG）
+- 迷你站构建核对：35 页都渲染在 interview-editorial 上，年代皮肤按年份落在 2007/2011/2014/2019/2026，原文标签 FR/IT/EN/JA 正确，问答页有目次，同类资料书架 3–11 条，图片无缺
+- `workflow.proofreading: pending`，都是初译
+
+清单里还没进站的文章类只剩 7 条：読売「ピカチュウは大福？」（TPC 版已收）、東洋経済（付费）、Sankei 話の肖像画（付费）、そのままスキャン客户案例（非访谈）、增田部长的 blog（另一条线）、两条官网页。

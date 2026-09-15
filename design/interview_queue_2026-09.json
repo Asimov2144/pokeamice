@@ -826,7 +826,7 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0844",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -841,7 +841,8 @@
      "吉田宏信"
     ],
     "language": "FR",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2013-09-19-interview-jv-2013-xy.md"
    },
    {
     "url": "https://www.jeuxvideo.com/news/1130129/junichi-masuda-c-est-difficile-de-creer-de-nouveaux-pokemon.htm",
@@ -854,7 +855,8 @@
     "kind": "interview",
     "note": "同站另一篇，日期待核"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2013-10-20",
@@ -867,7 +869,7 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0846",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -881,7 +883,8 @@
      "增田顺一"
     ],
     "language": "IT",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2013-09-20-interview-multiplayer-2013-xy.md"
    },
    {
     "url": "https://multiplayer.it/articoli/pokemon-spada-scudo-differenze-missioni-secondarie-molto-altro-intervista-junichi-masuda.html",
@@ -894,7 +897,8 @@
     "kind": "interview",
     "note": "同站剑盾期专访"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2014-10-20",
@@ -910,7 +914,7 @@
    "大森滋"
   ],
   "master_id": "PKMN-0837",
-  "queue_status": "no_such_article",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -924,7 +928,8 @@
      "增田顺一"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2018-09-27-interview-polygon-2018-masuda-rb.md"
    },
    {
     "url": "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/",
@@ -935,9 +940,11 @@
      "大森滋"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2019-10-24-interview-polygon-2019-swsh.md"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2014-11-01",
@@ -1008,7 +1015,7 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0685",
-  "queue_status": "no_such_article",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1022,7 +1029,8 @@
      "石原恒和"
     ],
     "language": "JA",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2016-02-27-interview-inside-2016-ishihara-20th.md"
    },
    {
     "url": "https://www.gamebusiness.jp/article/2016/03/03/12036.html",
@@ -1045,7 +1053,8 @@
     "language": "JA",
     "kind": "lecture_report"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2016-10-19",
@@ -1098,7 +1107,7 @@
    "大森滋"
   ],
   "master_id": "PKMN-0839",
-  "queue_status": "replaced",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1113,7 +1122,8 @@
      "大森滋"
     ],
     "language": "EN",
-    "kind": "interview_news"
+    "kind": "interview_news",
+    "post": "2016-10-19-interview-kotaku-2016-popplio.md"
    },
    {
     "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
@@ -1124,9 +1134,11 @@
      "大森滋"
     ],
     "language": "EN",
-    "kind": "interview_news"
+    "kind": "interview_news",
+    "post": "2016-10-25-interview-kotaku-2016-designs.md"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2016-12-12",
@@ -1154,7 +1166,7 @@
    "大森滋"
   ],
   "master_id": "PKMN-0829",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1169,7 +1181,8 @@
      "大森滋"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2017-08-15-interview-gi-2017-spinoffs.md"
    },
    {
     "url": "https://gameinformer.com/b/features/archive/2017/09/22/the-history-of-pokemon-gold-and-silver.aspx",
@@ -1181,7 +1194,8 @@
     ],
     "language": "EN",
     "kind": "feature",
-    "note": "同系列，站内未收"
+    "note": "同系列，站内未收",
+    "post": "2017-09-22-interview-gi-2017-gs-history.md"
    },
    {
     "url": "https://www.gameinformer.com/b/features/archive/2017/08/18/exclusive-reveal-of-a-new-mode-in-pokemon-ultra-sun-and-moon.aspx",
@@ -1193,9 +1207,11 @@
     ],
     "language": "EN",
     "kind": "feature",
-    "note": "同系列，站内未收"
+    "note": "同系列，站内未收",
+    "post": "2017-08-18-interview-gi-2017-usum-mode.md"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2017-11-06",
@@ -1273,7 +1289,8 @@
     ],
     "language": "JA",
     "kind": "making",
-    "note": "PART2 202304-pokemon2.html、PART3 202304-pokemon3.html"
+    "note": "PART2 202304-pokemon2.html、PART3 202304-pokemon3.html",
+    "post": "2023-04-19-interview-cgworld-2023-sv-making-1.md"
    },
    {
     "url": "https://cgworld.jp/stnews/30060/1696657245.html",
@@ -1296,7 +1313,7 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0830",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1310,9 +1327,11 @@
      "增田顺一"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2019-10-01-interview-gi-2019-dexit.md"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2019-10-04",
@@ -1325,7 +1344,7 @@
    "James Turner"
   ],
   "master_id": "PKMN-0831",
-  "queue_status": "replaced",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1342,7 +1361,8 @@
      "岩尾和昌"
     ],
     "language": "EN",
-    "kind": "cover_story"
+    "kind": "cover_story",
+    "post": "2019-11-13-interview-gi-2019-going-big.md"
    },
    {
     "url": "https://gameinformer.com/exclusive-video/2019/10/14/how-pokemon-sword-and-shields-art-director-james-turner-draws-pokemon",
@@ -1362,7 +1382,8 @@
     "language": "EN",
     "kind": "gallery"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2019-10-08",
@@ -1375,7 +1396,7 @@
    "岩尾和昌"
   ],
   "master_id": "PKMN-0832",
-  "queue_status": "replaced",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1392,7 +1413,8 @@
      "岩尾和昌"
     ],
     "language": "EN",
-    "kind": "cover_story"
+    "kind": "cover_story",
+    "post": "2019-11-13-interview-gi-2019-going-big.md"
    },
    {
     "url": "https://gameinformer.com/2019/10/01/sword-and-shields-max-raid-battles-could-be-among-pokemons-most-challenging-encounters",
@@ -1404,7 +1426,8 @@
     "language": "EN",
     "kind": "feature"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2019-10-11",
@@ -1417,7 +1440,7 @@
    "大森滋"
   ],
   "master_id": "PKMN-0833",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1432,7 +1455,8 @@
      "增田顺一"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2019-10-24-interview-gi-2019-champion.md"
    },
    {
     "url": "https://gameinformer.com/interview/2019/10/24/more-burning-questions-for-the-pokemon-series",
@@ -1443,7 +1467,8 @@
      "增田顺一"
     ],
     "language": "EN",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2019-10-24-interview-gi-2019-burning.md"
    },
    {
     "url": "https://gameinformer.com/e3-2019/2019/06/11/pokemon-sword-and-shields-developers-exhibit-the-open-world-wild-area",
@@ -1456,7 +1481,8 @@
     "language": "EN",
     "kind": "feature"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2021-02-27",
@@ -1469,7 +1495,7 @@
    "石原恒和"
   ],
   "master_id": "PKMN-0686",
-  "queue_status": "replaced",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1483,7 +1509,8 @@
      "石原恒和"
     ],
     "language": "JA",
-    "kind": "interview"
+    "kind": "interview",
+    "post": "2021-02-27-interview-oricon-2021-ishihara-25th.md"
    },
    {
     "url": "https://www.tokyo-np.co.jp/article/377497",
@@ -1496,7 +1523,8 @@
     "kind": "interview",
     "note": "日期待核，可能有付费墙"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  },
  {
   "date": "2022-01-28",
@@ -1669,7 +1697,7 @@
    "小幡敏宏"
   ],
   "master_id": "PKMN-0682",
-  "queue_status": "resolved",
+  "queue_status": "imported",
   "url_live": 404,
   "reason": "URL 为生成值，404；标题可作检索线索",
   "resolved_on": "2026-09-16",
@@ -1684,7 +1712,8 @@
      "小幡敏宏"
     ],
     "language": "JA",
-    "kind": "lecture_report"
+    "kind": "lecture_report",
+    "post": "2026-07-28-interview-4gamer-2026-cedec-battle.md"
    },
    {
     "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607224z",
@@ -1695,7 +1724,8 @@
      "小幡敏宏"
     ],
     "language": "JA",
-    "kind": "lecture_report"
+    "kind": "lecture_report",
+    "post": "2026-07-22-interview-denfami-2026-cedec-battle.md"
    },
    {
     "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
@@ -1708,8 +1738,10 @@
     ],
     "language": "JA",
     "kind": "lecture_report",
-    "note": "同届另一场 Z-A 描画技術讲演"
+    "note": "同届另一场 Z-A 描画技術讲演",
+    "post": "2026-07-23-interview-denfami-2026-cedec-pokerig.md"
    }
-  ]
+  ],
+  "imported_on": "2026-09-16"
  }
 ]

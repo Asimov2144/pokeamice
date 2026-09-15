@@ -1,0 +1,1022 @@
+{
+ "note": "2026-09-16 批：17 条 title_only 核出的 14 篇 + note.com「なは」清单里站内没有的 26 篇，去重、去官网页/付费墙后的导入目标。tools/import-web.py 读这份文件；post 字段为写出的帖子。",
+ "targets": [
+  {
+   "key": "jv-2013-xy",
+   "url": "https://www.jeuxvideo.com/news/2013/00068032-interview-sur-pokemon-x-et-y.htm",
+   "lang": "fr",
+   "date": "2013-09-19",
+   "outlet": "jeuxvideo.com",
+   "outlet_zh": "法国 jeuxvideo.com",
+   "title": "Interview sur Pokémon X et Y",
+   "kind": "interview",
+   "asker": "jeuxvideo.com",
+   "speakers": {
+    "Junichi Masuda": "增田顺一",
+    "Hironobu Yoshida": "吉田宏信"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "宝可梦 X·Y",
+    "增田顺一",
+    "吉田宏信",
+    "jeuxvideo.com",
+    "法语"
+   ],
+   "post": "2013-09-19-interview-jv-2013-xy.md"
+  },
+  {
+   "key": "multiplayer-2013-xy",
+   "url": "https://multiplayer.it/articoli/123457-pokemon-x-quel-mostro-di-junichi-masuda.html",
+   "lang": "it",
+   "date": "2013-09-20",
+   "outlet": "Multiplayer.it",
+   "outlet_zh": "意大利 Multiplayer.it",
+   "title": "Quel mostro di Junichi Masuda",
+   "kind": "interview",
+   "asker": "Multiplayer.it",
+   "speakers": {
+    "Junichi Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "宝可梦 X·Y",
+    "增田顺一",
+    "Multiplayer.it",
+    "意大利语"
+   ],
+   "container": "div.article__content",
+   "alternate": true,
+   "post": "2013-09-20-interview-multiplayer-2013-xy.md"
+  },
+  {
+   "key": "gi-2017-spinoffs",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs",
+   "lang": "en",
+   "date": "2017-08-15",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Game Freak's Directors Share Their Favorite Pokémon Spin-Offs",
+   "kind": "interview_feature",
+   "author": "Kyle Hilliard",
+   "asker": "Game Informer",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Ohmori": "大森滋"
+   },
+   "works": [
+    "Pokémon GO",
+    "宝可梦 随乐拍"
+   ],
+   "tags": [
+    "Game Informer",
+    "增田顺一",
+    "大森滋",
+    "衍生作品",
+    "Game Freak 探访 2017"
+   ],
+   "container": "div.field--name-body",
+   "post": "2017-08-15-interview-gi-2017-spinoffs.md"
+  },
+  {
+   "key": "gi-2017-gs-history",
+   "url": "https://gameinformer.com/b/features/archive/2017/09/22/the-history-of-pokemon-gold-and-silver.aspx",
+   "lang": "en",
+   "date": "2017-09-22",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "The History Of Pokémon Gold And Silver",
+   "kind": "interview_feature",
+   "asker": "Game Informer",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Morimoto": "森本茂树",
+    "Ohmori": "大森滋",
+    "Sugimori": "杉森建"
+   },
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 金·银",
+    "增田顺一",
+    "森本茂树",
+    "Game Freak 探访 2017"
+   ],
+   "container": "div.field--name-body",
+   "post": "2017-09-22-interview-gi-2017-gs-history.md"
+  },
+  {
+   "key": "gi-2017-usum-mode",
+   "url": "https://www.gameinformer.com/b/features/archive/2017/08/18/exclusive-reveal-of-a-new-mode-in-pokemon-ultra-sun-and-moon.aspx",
+   "lang": "en",
+   "date": "2017-08-18",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon",
+   "kind": "interview_feature",
+   "asker": "Game Informer",
+   "speakers": {
+    "Ohmori": "大森滋",
+    "Iwao": "岩尾和昌",
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "tags": [
+    "Game Informer",
+    "究极日月",
+    "大森滋",
+    "岩尾和昌",
+    "Game Freak 探访 2017"
+   ],
+   "container": "div.field--name-body",
+   "post": "2017-08-18-interview-gi-2017-usum-mode.md"
+  },
+  {
+   "key": "gi-2019-dexit",
+   "url": "https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future",
+   "lang": "en",
+   "date": "2019-10-01",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Pokémon Cut From Sword And Shield's National Pokédex Will Return In The Future",
+   "kind": "interview_feature",
+   "author": "Brian Shea",
+   "asker": "Game Informer",
+   "speakers": {
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 剑·盾",
+    "增田顺一",
+    "全国图鉴",
+    "剑盾封面专题 2019"
+   ],
+   "container": "div.field--name-body",
+   "post": "2019-10-01-interview-gi-2019-dexit.md"
+  },
+  {
+   "key": "gi-2019-champion",
+   "url": "https://gameinformer.com/interview/2019/10/24/game-freak-talks-sword-and-shields-champion-wild-area-interactions-and-more",
+   "lang": "en",
+   "date": "2019-10-24",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
+   "kind": "interview",
+   "author": "Brian Shea",
+   "asker": "Game Informer",
+   "speakers": {
+    "Ohmori": "大森滋",
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 剑·盾",
+    "大森滋",
+    "增田顺一",
+    "旷野地带",
+    "剑盾封面专题 2019"
+   ],
+   "container": "div.field--name-body",
+   "post": "2019-10-24-interview-gi-2019-champion.md"
+  },
+  {
+   "key": "gi-2019-burning",
+   "url": "https://gameinformer.com/interview/2019/10/24/more-burning-questions-for-the-pokemon-series",
+   "lang": "en",
+   "date": "2019-10-24",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "More Burning Questions For The Pokémon Series",
+   "kind": "interview",
+   "author": "Brian Shea",
+   "asker": "Game Informer",
+   "speakers": {
+    "Ohmori": "大森滋",
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 剑·盾",
+    "大森滋",
+    "增田顺一",
+    "剑盾封面专题 2019"
+   ],
+   "container": "div.field--name-body",
+   "post": "2019-10-24-interview-gi-2019-burning.md"
+  },
+  {
+   "key": "gi-2019-going-big",
+   "url": "https://www.gameinformer.com/feature/2019/11/13/going-big",
+   "lang": "en",
+   "date": "2019-11-13",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Going Big",
+   "kind": "cover_story",
+   "author": "Brian Shea",
+   "asker": "Game Informer",
+   "speakers": {
+    "Ohmori": "大森滋",
+    "Masuda": "增田顺一",
+    "Turner": "James Turner",
+    "Iwao": "岩尾和昌"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 剑·盾",
+    "封面报道",
+    "大森滋",
+    "增田顺一",
+    "James Turner",
+    "岩尾和昌",
+    "极巨化",
+    "剑盾封面专题 2019"
+   ],
+   "container": "div.field--name-body",
+   "post": "2019-11-13-interview-gi-2019-going-big.md"
+  },
+  {
+   "key": "kotaku-2016-popplio",
+   "url": "https://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
+   "lang": "en",
+   "date": "2016-10-19",
+   "outlet": "Kotaku",
+   "outlet_zh": "Kotaku",
+   "title": "Pokémon Sun and Moon's Devs Respond To The Popplio Backlash",
+   "kind": "interview_feature",
+   "author": "Patricia Hernandez",
+   "asker": "Kotaku",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Ohmori": "大森滋"
+   },
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "Kotaku",
+    "宝可梦 太阳·月亮",
+    "增田顺一",
+    "大森滋",
+    "御三家"
+   ],
+   "container": "div.entry-content",
+   "post": "2016-10-19-interview-kotaku-2016-popplio.md"
+  },
+  {
+   "key": "kotaku-2016-designs",
+   "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
+   "lang": "en",
+   "date": "2016-10-25",
+   "outlet": "Kotaku",
+   "outlet_zh": "Kotaku",
+   "title": "The Creators of Pokémon Explain Why Sun and Moon Has Ridiculous Monster Designs",
+   "kind": "interview_feature",
+   "author": "Patricia Hernandez",
+   "asker": "Kotaku",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Ohmori": "大森滋"
+   },
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "Kotaku",
+    "宝可梦 太阳·月亮",
+    "增田顺一",
+    "大森滋",
+    "宝可梦设计",
+    "阿罗拉的样子"
+   ],
+   "container": "div.entry-content",
+   "post": "2016-10-25-interview-kotaku-2016-designs.md"
+  },
+  {
+   "key": "inside-2016-ishihara-20th",
+   "url": "https://www.inside-games.jp/article/2016/02/27/96339.html",
+   "lang": "ja",
+   "date": "2016-02-27",
+   "outlet": "INSIDE",
+   "outlet_zh": "INSIDE（インサイド）",
+   "title": "ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦・・・株式会社ポケモン代表取締役社長・石原恒和氏インタビュー",
+   "kind": "interview",
+   "author": "平林久和、土本学",
+   "asker": "INSIDE",
+   "speakers": {
+    "石原": "石原恒和"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "Pokémon GO",
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "INSIDE",
+    "石原恒和",
+    "20周年",
+    "Pokémon GO",
+    "The Pokémon Company"
+   ],
+   "container": "article.arti-body",
+   "pages": [
+    "https://www.inside-games.jp/article/2016/02/27/96339_2.html",
+    "https://www.inside-games.jp/article/2016/02/27/96339_3.html"
+   ],
+   "post": "2016-02-27-interview-inside-2016-ishihara-20th.md"
+  },
+  {
+   "key": "oricon-2021-ishihara-25th",
+   "url": "https://www.oricon.co.jp/news/2185697/full/",
+   "lang": "ja",
+   "date": "2021-02-27",
+   "outlet": "ORICON NEWS",
+   "outlet_zh": "ORICON NEWS",
+   "title": "「ポケモン」新たな遊び開拓続けた25年　石原恒和社長、核“人との繋がり”に手応え",
+   "kind": "interview_feature",
+   "asker": "ORICON NEWS",
+   "speakers": {
+    "石原": "石原恒和",
+    "石原社長": "石原恒和"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦集换式卡牌游戏",
+    "Pokémon GO"
+   ],
+   "tags": [
+    "ORICON",
+    "石原恒和",
+    "25周年",
+    "The Pokémon Company",
+    "宝可梦卡牌"
+   ],
+   "container": "div.block-detail-body",
+   "post": "2021-02-27-interview-oricon-2021-ishihara-25th.md"
+  },
+  {
+   "key": "polygon-2018-masuda-rb",
+   "url": "https://www.polygon.com/interviews/2018/9/27/17909916/pokemon-red-blue-junichi-masuda-interview/",
+   "lang": "en",
+   "date": "2018-09-27",
+   "outlet": "Polygon",
+   "outlet_zh": "Polygon",
+   "title": "Pokémon director Junichi Masuda talks developing Red and Blue",
+   "kind": "interview",
+   "asker": "Polygon",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "tags": [
+    "Polygon",
+    "增田顺一",
+    "宝可梦 红·绿",
+    "Let's Go",
+    "Pokégon Week"
+   ],
+   "post": "2018-09-27-interview-polygon-2018-masuda-rb.md"
+  },
+  {
+   "key": "polygon-2019-swsh",
+   "url": "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/",
+   "lang": "en",
+   "date": "2019-10-24",
+   "outlet": "Polygon",
+   "outlet_zh": "Polygon",
+   "title": "Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield",
+   "kind": "interview",
+   "asker": "Polygon",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Ohmori": "大森滋"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "Polygon",
+    "宝可梦 剑·盾",
+    "增田顺一",
+    "大森滋",
+    "全国图鉴"
+   ],
+   "post": "2019-10-24-interview-polygon-2019-swsh.md"
+  },
+  {
+   "key": "4gamer-2026-cedec-battle",
+   "url": "https://www.4gamer.net/games/897/G089789/20260728007/",
+   "lang": "ja",
+   "date": "2026-07-28",
+   "outlet": "4Gamer.net",
+   "outlet_zh": "4Gamer.net",
+   "title": "ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pokémon LEGENDS Z-A」での運用事例［CEDEC 2026］",
+   "kind": "lecture_report",
+   "author": "白夢",
+   "asker": "4Gamer",
+   "speakers": {
+    "宗像": "宗像快",
+    "小幡": "小幡敏宏"
+   },
+   "works": [
+    "Pokémon LEGENDS Z-A",
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "4Gamer",
+    "CEDEC 2026",
+    "Pokémon LEGENDS Z-A",
+    "宗像快",
+    "小幡敏宏",
+    "战斗系统",
+    "技术专题"
+   ],
+   "container": "div.maintxt",
+   "post": "2026-07-28-interview-4gamer-2026-cedec-battle.md"
+  },
+  {
+   "key": "denfami-2026-cedec-battle",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607224z",
+   "lang": "ja",
+   "date": "2026-07-22",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "『ポケモン』の複雑すぎるバトルシステムがどうなっているのか、ゲーフリの“ポケモンバトル”専門家に聞いてみた。膨大なパターンを制御すべく、『サン・ムーン』をきっかけに専門チームが発足【CEDEC2026】",
+   "kind": "lecture_report",
+   "author": "シェループ",
+   "asker": "電ファミ",
+   "speakers": {
+    "宗像": "宗像快",
+    "小幡": "小幡敏宏"
+   },
+   "works": [
+    "Pokémon LEGENDS Z-A",
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "CEDEC 2026",
+    "Pokémon LEGENDS Z-A",
+    "宗像快",
+    "小幡敏宏",
+    "战斗系统",
+    "技术专题"
+   ],
+   "container": "#articleBody",
+   "post": "2026-07-22-interview-denfami-2026-cedec-battle.md"
+  },
+  {
+   "key": "denfami-2026-cedec-pokerig",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
+   "lang": "ja",
+   "date": "2026-07-23",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】",
+   "kind": "lecture_report",
+   "asker": "電ファミ",
+   "speakers": {
+    "前澤": "前泽圭一",
+    "スパダフィーナ": "Alfredo Spadafina",
+    "赤木": "赤木达也"
+   },
+   "works": [
+    "Pokémon LEGENDS Z-A"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "CEDEC 2026",
+    "Pokémon LEGENDS Z-A",
+    "前泽圭一",
+    "描画技术",
+    "技术专题"
+   ],
+   "container": "#articleBody",
+   "post": "2026-07-23-interview-denfami-2026-cedec-pokerig.md"
+  },
+  {
+   "key": "gi-2012-b2w2-sequel",
+   "url": "https://gameinformer.com/b/features/archive/2012/09/17/gamefreak-talks-pok-233-mon-s-first-numbered-sequel",
+   "lang": "en",
+   "date": "2012-09-17",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Game Freak Talks Pokémon's First Numbered Sequel",
+   "kind": "interview",
+   "asker": "Game Informer",
+   "speakers": {
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 黑2·白2",
+    "增田顺一"
+   ],
+   "container": "div.field--name-body",
+   "post": "2012-09-17-interview-gi-2012-b2w2-sequel.md"
+  },
+  {
+   "key": "gi-2012-burning-questions",
+   "url": "https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx",
+   "wayback": "https://web.archive.org/web/20130116054809/https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx",
+   "lang": "en",
+   "date": "2012-11-23",
+   "outlet": "Game Informer",
+   "outlet_zh": "Game Informer",
+   "title": "Pokémon's Burning Questions",
+   "kind": "interview",
+   "asker": "Game Informer",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Unno": "海野隆雄"
+   },
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "tags": [
+    "Game Informer",
+    "宝可梦 黑2·白2",
+    "增田顺一",
+    "世界观",
+    "海野隆雄"
+   ],
+   "container": "div.post-content",
+   "pages": [
+    "https://web.archive.org/web/20131213120653id_/http://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx?PostPageIndex=2"
+   ],
+   "post": "2012-11-23-interview-gi-2012-burning-questions.md"
+  },
+  {
+   "key": "nintendolife-2013-xy",
+   "url": "https://www.nintendolife.com/news/2013/09/interview_junichi_masuda_and_hironobu_yoshida_discuss_pokemon_x_and_y_mega_evolutions_and_the_2ds",
+   "lang": "en",
+   "date": "2013-09-21",
+   "outlet": "Nintendo Life",
+   "outlet_zh": "Nintendo Life",
+   "title": "Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS",
+   "kind": "interview",
+   "asker": "Nintendo Life",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Yoshida": "吉田宏信",
+    "Junichi Masuda": "增田顺一",
+    "Hironobu Yoshida": "吉田宏信"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "Nintendo Life",
+    "宝可梦 X·Y",
+    "增田顺一",
+    "吉田宏信",
+    "超级进化"
+   ],
+   "post": "2013-09-21-interview-nintendolife-2013-xy.md"
+  },
+  {
+   "key": "pokemoncom-2014-maestro",
+   "url": "https://www.pokemon.com/us/pokemon-news/a-conversation-with-pokemons-musical-maestro/",
+   "wayback": "https://web.archive.org/web/20140514002944/http://www.pokemon.com/us/pokemon-news/a-conversation-with-pokemons-musical-maestro/",
+   "lang": "en",
+   "date": "2014-05-14",
+   "outlet": "Pokemon.com",
+   "outlet_zh": "Pokemon.com（美国官网）",
+   "title": "A Conversation with Pokémon's Musical Maestro",
+   "kind": "interview_feature",
+   "asker": "Pokemon.com",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 X·Y"
+   ],
+   "tags": [
+    "Pokemon.com",
+    "增田顺一",
+    "音乐",
+    "作曲",
+    "官方档案"
+   ],
+   "post": "2014-05-14-interview-pokemoncom-2014-maestro.md"
+  },
+  {
+   "key": "pokemoncojp-2016-ohmori-sm",
+   "url": "https://www.pokemon.co.jp/ex/sun_moon/topics/160906_01.html",
+   "lang": "ja",
+   "date": "2016-09-06",
+   "outlet": "『ポケットモンスター サン・ムーン』公式サイト",
+   "outlet_zh": "《宝可梦 太阳·月亮》官网",
+   "title": "ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？",
+   "kind": "interview_feature",
+   "asker": "官网编辑部",
+   "speakers": {
+    "大森": "大森滋"
+   },
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "tags": [
+    "官方档案",
+    "宝可梦 太阳·月亮",
+    "大森滋",
+    "两版本"
+   ],
+   "container": "div.topics-detail, div#contents, main",
+   "all_answers_by": "大森滋",
+   "post": "2016-09-06-interview-pokemoncojp-2016-ohmori-sm.md"
+  },
+  {
+   "key": "4gamer-2018-usum-fanmeeting",
+   "url": "https://www.4gamer.net/games/383/G038332/20180512011/",
+   "lang": "ja",
+   "date": "2018-05-12",
+   "outlet": "4Gamer.net",
+   "outlet_zh": "4Gamer.net",
+   "title": "「ポケットモンスター ウルトラサン・ウルトラムーン」のファンミーティングレポート。発売から半年が経過した今だから話せる秘話を，開発陣が語る",
+   "kind": "event_report",
+   "asker": "4Gamer",
+   "speakers": {
+    "増田": "增田顺一",
+    "大森": "大森滋",
+    "岩尾": "岩尾和昌"
+   },
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "tags": [
+    "4Gamer",
+    "究极日月",
+    "增田顺一",
+    "大森滋",
+    "岩尾和昌",
+    "粉丝见面会"
+   ],
+   "container": "div.maintxt",
+   "post": "2018-05-12-interview-4gamer-2018-usum-fanmeeting.md"
+  },
+  {
+   "key": "pokemoncom-2018-letsgo-makers",
+   "url": "https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/",
+   "wayback": "https://web.archive.org/web/20190213144405/https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/",
+   "lang": "en",
+   "date": "2018-11-01",
+   "outlet": "Pokemon.com",
+   "outlet_zh": "Pokemon.com（美国官网）",
+   "title": "Meet the Makers of Pokémon: Let's Go, Pikachu! and Pokémon: Let's Go, Eevee!",
+   "kind": "interview",
+   "asker": "Pokemon.com",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Nabana": "菜花健作",
+    "Junichi Masuda": "增田顺一",
+    "Kensaku Nabana": "菜花健作"
+   },
+   "works": [
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "tags": [
+    "Pokemon.com",
+    "Let's Go",
+    "增田顺一",
+    "菜花健作",
+    "官方档案"
+   ],
+   "post": "2018-11-01-interview-pokemoncom-2018-letsgo-makers.md"
+  },
+  {
+   "key": "vg247-2019-swsh",
+   "url": "https://www.vg247.com/pokemon-sword-shield-interview-no-regrets-national-dex",
+   "lang": "en",
+   "date": "2019-10-24",
+   "outlet": "VG247",
+   "outlet_zh": "VG247",
+   "title": "Pokemon Sword & Shield interview: \"we have no regrets\" around the national dex",
+   "kind": "interview",
+   "asker": "VG247",
+   "speakers": {
+    "Ohmori": "大森滋",
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "tags": [
+    "VG247",
+    "宝可梦 剑·盾",
+    "大森滋",
+    "增田顺一",
+    "全国图鉴"
+   ],
+   "post": "2019-10-24-interview-vg247-2019-swsh.md"
+  },
+  {
+   "key": "famitsu-2019-swsh-autosave",
+   "url": "https://www.famitsu.com/news/201910/25185773.html",
+   "lang": "ja",
+   "date": "2019-10-25",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "増田": "增田顺一",
+    "大森": "大森滋"
+   },
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "ファミ通",
+    "宝可梦 剑·盾",
+    "增田顺一",
+    "大森滋",
+    "自动存档",
+    "培育系统"
+   ],
+   "container": "div.article-body",
+   "post": "2019-10-25-interview-famitsu-2019-swsh-autosave.md"
+  },
+  {
+   "key": "cgworld-2023-sv-making-1",
+   "url": "https://cgworld.jp/article/202304-pokemon1.html",
+   "lang": "ja",
+   "date": "2023-04-19",
+   "outlet": "CGWORLD.jp",
+   "outlet_zh": "CGWORLD.jp",
+   "title": "『ポケットモンスター スカーレット・バイオレット』メイキング［PART1］扱う動きの幅が広い上に、いろいろなアイデアが求められる",
+   "kind": "interview",
+   "asker": "CGWORLD",
+   "speakers": {
+    "米谷": "米谷由贵",
+    "小野寺": "小野寺瞬",
+    "深谷": "深谷卓"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "CGWORLD",
+    "宝可梦 朱·紫",
+    "Creatures",
+    "动作设计",
+    "技术专题"
+   ],
+   "series": "『ポケットモンスター スカーレット・バイオレット』メイキング",
+   "part": 1,
+   "container": "div.article_detail",
+   "asker_aliases": [
+    "若杉"
+   ],
+   "author": "若杉（CGWORLD）",
+   "post": "2023-04-19-interview-cgworld-2023-sv-making-1.md"
+  },
+  {
+   "key": "cgworld-2023-sv-making-2",
+   "url": "https://cgworld.jp/article/202304-pokemon2.html",
+   "lang": "ja",
+   "date": "2023-04-20",
+   "outlet": "CGWORLD.jp",
+   "outlet_zh": "CGWORLD.jp",
+   "title": "『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける",
+   "kind": "interview",
+   "asker": "CGWORLD",
+   "speakers": {
+    "米谷": "米谷由贵",
+    "小野寺": "小野寺瞬",
+    "深谷": "深谷卓"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "CGWORLD",
+    "宝可梦 朱·紫",
+    "Creatures",
+    "动作设计",
+    "技术专题"
+   ],
+   "series": "『ポケットモンスター スカーレット・バイオレット』メイキング",
+   "part": 2,
+   "container": "div.article_detail",
+   "asker_aliases": [
+    "若杉"
+   ],
+   "author": "若杉（CGWORLD）",
+   "post": "2023-04-20-interview-cgworld-2023-sv-making-2.md"
+  },
+  {
+   "key": "cgworld-2023-sv-making-3",
+   "url": "https://cgworld.jp/article/202304-pokemon3.html",
+   "lang": "ja",
+   "date": "2023-04-21",
+   "outlet": "CGWORLD.jp",
+   "outlet_zh": "CGWORLD.jp",
+   "title": "『ポケットモンスター スカーレット・バイオレット』メイキング［PART3］様々なものに興味をもち、ポケモン表現の幅を広げていく",
+   "kind": "interview",
+   "asker": "CGWORLD",
+   "speakers": {
+    "米谷": "米谷由贵",
+    "小野寺": "小野寺瞬",
+    "深谷": "深谷卓"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "CGWORLD",
+    "宝可梦 朱·紫",
+    "Creatures",
+    "动作设计",
+    "技术专题"
+   ],
+   "series": "『ポケットモンスター スカーレット・バイオレット』メイキング",
+   "part": 3,
+   "container": "div.article_detail",
+   "asker_aliases": [
+    "若杉"
+   ],
+   "author": "若杉（CGWORLD）",
+   "post": "2023-04-21-interview-cgworld-2023-sv-making-3.md"
+  },
+  {
+   "key": "denfami-2023-cedec-visual",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/230824n",
+   "lang": "ja",
+   "date": "2023-08-24",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "『ポケモンSV』リアル調の世界とキュートな『ポケモンらしさ』を両立したビジュアル表現を徹底解説。「パルデア地方」の作り方や表情豊かな主人公の表現を紹介するセッションをレポート【CEDEC 2023】",
+   "kind": "lecture_report",
+   "asker": "電ファミ",
+   "speakers": {
+    "前澤": "前泽圭一"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "CEDEC 2023",
+    "宝可梦 朱·紫",
+    "前泽圭一",
+    "视觉表现",
+    "技术专题"
+   ],
+   "container": "#articleBody",
+   "post": "2023-08-24-interview-denfami-2023-cedec-visual.md"
+  },
+  {
+   "key": "famitsu-2023-cedec-sound",
+   "url": "https://www.famitsu.com/news/202308/24314405.html",
+   "lang": "ja",
+   "date": "2023-08-24",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "鳴き声で『ポケモン』世界のリアリティを生み出す。リアルな環境音を作り上げるヒントは山の中にあった【CEDEC2023】",
+   "kind": "lecture_report",
+   "asker": "ファミ通",
+   "speakers": {
+    "一之瀬": "一之濑刚",
+    "北村": "北村一树",
+    "岩本": "岩本翔"
+   },
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "tags": [
+    "ファミ通",
+    "CEDEC 2023",
+    "宝可梦 朱·紫",
+    "一之濑刚",
+    "环境音",
+    "音效",
+    "技术专题"
+   ],
+   "container": "div.article-body",
+   "post": "2023-08-24-interview-famitsu-2023-cedec-sound.md"
+  },
+  {
+   "key": "famitsu-2026-pokopia",
+   "url": "https://www.famitsu.com/article/202602/66124",
+   "lang": "ja",
+   "date": "2026-02-16",
+   "outlet": "ファミ通.com",
+   "outlet_zh": "Fami通.com",
+   "title": "【ぽこポケ】『ぽこ あ ポケモン』開発インタビュー。大森滋氏が『ポケットモンスター』開発時に“マップに草むらを置いた”経験から生まれた！",
+   "kind": "interview",
+   "asker": "ファミ通",
+   "speakers": {
+    "村田": "村田佳奈子",
+    "大森": "大森滋",
+    "枝川": "枝川拓人",
+    "綾野": "绫野万里奈"
+   },
+   "works": [
+    "ぽこ あ ポケモン"
+   ],
+   "tags": [
+    "ファミ通",
+    "ぽこ あ ポケモン",
+    "大森滋",
+    "村田佳奈子",
+    "光荣特库摩",
+    "Nintendo Switch 2"
+   ],
+   "container": "div[class*=ArticleDetailBody_articleBody]",
+   "post": "2026-02-16-interview-famitsu-2026-pokopia.md"
+  },
+  {
+   "key": "gpara-2006-yoshida",
+   "url": "http://www.gpara.com/contents/creator/bn_225.htm",
+   "wayback": "https://web.archive.org/web/20080704081535/http://www.gpara.com/contents/creator/bn_225.htm",
+   "lang": "ja",
+   "date": "2006-04-24",
+   "outlet": "Gpara.com",
+   "outlet_zh": "Gpara.com",
+   "title": "クリエイターズ・ファイル：「作品にはこだわりを持って」ゲームフリーク吉田さん",
+   "kind": "interview",
+   "asker": "Gpara.com",
+   "speakers": {
+    "吉田": "吉田宏信"
+   },
+   "works": [
+    "宝可梦 钻石·珍珠"
+   ],
+   "tags": [
+    "Gpara",
+    "吉田宏信",
+    "角色设计",
+    "Game Freak"
+   ],
+   "post": "2006-04-24-interview-gpara-2006-yoshida.md"
+  },
+  {
+   "key": "4gamer-2013-solitiba",
+   "url": "https://www.4gamer.net/games/226/G022607/20131007064/",
+   "lang": "ja",
+   "date": "2013-10-08",
+   "outlet": "4Gamer.net",
+   "outlet_zh": "4Gamer.net",
+   "title": "ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺 哲也氏に聞いた",
+   "kind": "interview",
+   "asker": "4Gamer",
+   "speakers": {
+    "杉森": "杉森建",
+    "渡辺": "渡边哲也"
+   },
+   "works": [
+    "ソリティ馬"
+   ],
+   "tags": [
+    "4Gamer",
+    "杉森建",
+    "渡边哲也",
+    "ソリティ馬",
+    "自社发行",
+    "Game Freak"
+   ],
+   "container": "div.maintxt",
+   "post": "2013-10-08-interview-4gamer-2013-solitiba.md"
+  }
+ ],
+ "dropped": [
+  {
+   "key": "toyokeizai-2013-iwata",
+   "why": "有料会員限定（4 页中只露第 1–2 页，宝可梦段落在付费部分）"
+  }
+ ]
+}

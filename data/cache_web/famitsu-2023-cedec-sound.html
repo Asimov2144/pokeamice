@@ -1,0 +1,594 @@
+<html><head><meta charset="utf-8"><title>鳴き声で『ポケモン』世界のリアリティを生み出す。リアルな環境音を作り上げるヒントは山の中にあった【CEDEC2023】 | ゲーム・エンタメ最新情報のファミ通.com</title></head><body><!-- rendered https://www.famitsu.com/news/202308/24314405.html --><div class="article-body">
+<div class="article-body__thumbnail">
+<div class="media-image" data-src="/images/000/314/405/y_64e72be81d1fa.jpg"></div>
+</div>
+<div class="article-body__contents">
+<p>　2023年8月23日から25日にかけての3日間で行われた、ゲームに関する技術や知識を共有する国内最大規模のカンファレンス“CEDEC2023”。</p>
+<div class="article-body__contents-pr-primary">
+<!--    <div class="row row--pr">
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="/matome/dff/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/dff_top_1.jpg" style="background-image: url(/img/1812/middle/dff_top_1.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="/matome/r6s/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/r6s.jpg" style="background-image: url(/img/1812/middle/r6s.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="https://www.famitsu.com//sp/thqnordic/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/71_thq.jpg" style="background-image: url(/img/1812/middle/71_thq.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="/matome/rockstar/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/rockstargames.jpg" style="background-image: url(/img/1812/middle/rockstargames.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="/matome/dffoo/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/dissidia.jpg" style="background-image: url(/img/1812/middle/dissidia.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-6 col-sm-4 mb-3">
+                <div class="card-half-banner">
+                    <a href="/career/" class="card-half-banner__inner">
+                        <div class="media-image media-image--contain media-image--banner" data-src="/img/1812/middle/famicareer.jpg" style="background-image: url(/img/1812/middle/famicareer.jpg);"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    <div class="banner-ad-mark">広告</div>-->
+<div class="banner-article">
+<!-- adcloud Zone: [【ファミ通.com】記事中バナー（600_250）] -->
+<!--
+<div class="adcloud_frame sid_d197f81d87fbdcfdfa4e17db5f704a38e1c5534d20b46810 container_div color_#0000CC-#444444-#FFFFFF-#0000FF-#009900"></div>
+-->
+<div class="banner-center">
+
+
+</div>
+<div class="banner-article__ad-mark">広告</div>
+</div>
+</div><p>　本稿では、2日目に行われたセッション“ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！”の内容をまとめてお届けする。</p>
+<p>　本セッションでは、鳥や虫などの一般的な生物が存在しない『<a class="article-link-search-title" href="https://www.famitsu.com/search/?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC&amp;type=game-title"><strong class="article-body___games-link">ポケットモンスター</strong></a>』世界のリアルを作り上げる環境音や環境音としての鳴き声の作りかたや、オープンワールド化してからの環境音の効率的な実装方法、各種デバッグや作業の効率化に関する解説が行われた。</p>
+<p>　登壇したのは、『<a class="article-link-search-title" href="https://www.famitsu.com/games/t/5780/"><strong class="article-body___games-link">ポケットモンスター 金・銀</strong></a>』からシリーズのサウンドデザイナーとして活躍する一之瀬剛氏（ゲームフリーク）、『ポケットモンスター』シリーズのみならず多くのゲームサウンドに携わってきた北村一樹氏（コネクテコ）、そして『<a class="article-link-search-title" href="https://www.famitsu.com/search/?q=Pok%C3%A9mon+LEGENDS+%E3%82%A2%E3%83%AB%E3%82%BB%E3%82%A6%E3%82%B9"><strong class="article-body___games-link">Pokémon LEGENDS アルセウス</strong></a>』や『<a class="article-link-search-title" href="https://www.famitsu.com/games/t/45696/"><strong class="article-body___games-link">ポケットモンスター スカーレット・バイオレット</strong></a>』のサウンド制作に関わった岩本翔氏（フリーランス）の3名。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8a5617.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8a5617.jpg" src="/images/000/314/405/y_64e72be8a5617.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be874793.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be874793.jpg" src="/images/000/314/405/y_64e72be874793.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be824e6e.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be824e6e.jpg" src="/images/000/314/405/y_64e72be824e6e.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　発表は“1.環境鳴き声”、“2.環境音”、“3.効率化・最適化”の3項目に沿って行われ、『ポケットモンスター』シリーズにおける環境音の進化が語られた。</p>
+<p>　開発者目線に限らず、ユーザーから見ても興味深い話が披露されているので、ぜひ最後まで目を通してほしい。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be862d97.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be862d97.jpg" src="/images/000/314/405/y_64e72be862d97.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>公演内容</p>
+<ul class="list1">
+<li>ハードとともに進化する鳴き声の音響表現</li>
+<li>鳴き声そのものも進化</li>
+<li>音の聞こえかたが生み出すリアリティ</li>
+<li>木々や水の出す環境音とその配置</li>
+<li>4つのデバッガーとサウンドのグループ管理で効率化</li>
+<li>ユーザーに喜んでもらうための音作り</li>
+</ul>
+<div class="art-toc" id="art-toc"> <div class="art-toc__h js-art-toc remove">
+<svg class="icn-list-alt"><use href="#icn-list-alt"></use></svg>目次<span class="art-toc__notes"><span class="art-toc__note-cls">閉じる</span><span class="art-toc__note-opn">開く</span></span>
+</div> <ul class="art-toc__b js-art-toc-b">
+<li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-1">ハードとともに進化する鳴き声の音響表現</a> </li> <li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-2">鳴き声そのものも進化</a> </li> <li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-3">音の聞こえかたが生み出すリアリティ</a> </li> <li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-4">木々や水の出す環境音とその配置</a> </li> <li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-5">4つのデバッガーとサウンドのグループ管理で効率化</a> </li> <li>
+<a class="art-toc__h2 js-smooth-scroll" href="#heading-6">ユーザーに喜んでもらうための音作り</a> </li> </ul>
+</div>
+<h2 id="heading-1">ハードとともに進化する鳴き声の音響表現</h2>
+<p>　初めに語られたのは、フィールドを移動している際に聞こえる環境音としてのポケモンたちの鳴き声、環境鳴き声の進化についてだ。一般的に環境音と言えば鳥のさえずりや虫の鳴き声といったものを含むことが多いが、『ポケットモンスター』シリーズの世界にはそういった生物が存在していないため、ポケモンたちの鳴き声を使って表現していくことになる。</p>
+<p>　シリーズで初めて環境鳴き声が取り入れられたのは、『<a class="article-link-search-title" href="https://www.famitsu.com/search/?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC+%E3%83%AB%E3%83%93%E3%83%BC%E3%83%BB%E3%82%B5%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2&amp;type=game-title"><strong class="article-body___games-link">ポケットモンスター ルビー・サファイア</strong></a>』（2002年／GBA）でのこと。当時はエンカウントテーブル、その場に出現するポケモンのリストからランダムに選ばれたものの鳴き声を再生するというシンプルなものだった。1体につき1種類の鳴き声しかなかったため、どのポケモンが鳴いているかの判別は簡単な一方で、情緒感のある環境音には聞こえなかった、と一之瀬氏は語っている。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8a9705.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8a9705.jpg" src="/images/000/314/405/y_64e72be8a9705.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">当時は環境鳴き声もバトルで出した際の鳴き声と同じだった。</figcaption>
+</div>
+</div>
+</div>
+</figure><p>　『<a class="article-link-search-title" href="https://www.famitsu.com/search/?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC+%E3%82%B5%E3%83%B3%E3%83%BB%E3%83%A0%E3%83%BC%E3%83%B3&amp;type=game-title"><strong class="article-body___games-link">ポケットモンスター サン・ムーン</strong></a>』（2016年）はニンテンドー3DSの表現力で自然の豊かさを出すことがテーマになっており、環境鳴き声もバトルと同じものではなく、専用の鳴き声を作成されるといった進化を見せている。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8194f4.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8194f4.jpg" src="/images/000/314/405/y_64e72be8194f4.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　その後シリーズはさらに進化を遂げ、『<a class="article-link-search-title" href="https://www.famitsu.com/games/t/34875/"><strong class="article-body___games-link">ポケットモンスター ソード・シールド</strong></a>』（2019年／Switch）ではカメラも固定ではなくなり、マップもより広大になっていった。それに合わせて環境音も進化させていかなければというタイミングで一之瀬は北村氏に出会い、次世代の環境音制作が始まる。</p>
+<p>　北村氏は『ポケットモンスター ソード・シールド』から『ポケットモンスター スカーレット・バイオレット』までの音響空間で、“生物がポケモンしか存在しない自然環境音をリアルに表現する”ことを目標にした。リアルな空間でポケモンの鳴き声はどのように聞こえるのか、それを調べるために北村氏は実際に山へと足を運ぶ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be802ee3.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be802ee3.jpg" src="/images/000/314/405/y_64e72be802ee3.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be89360b.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be89360b.jpg" src="/images/000/314/405/y_64e72be89360b.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">実際の環境音の謎を解明すべく、収録班は山の奥地へと足を踏み入れた……。</figcaption>
+</div>
+</div>
+</div>
+</figure><p>　横須賀の山奥にある公園に出向き実際の自然環境音を収録したわけだが、ここで行われたのはそれだけではない。5センチ程度の小型スピーカーを草むらなどに配置し、そこからポケモンの鳴き声を再生することで、リアルな環境音のなかで鳴き声がどのように聞こえるかを調べたのだ。</p>
+<p>　ここで録音された音は非常にクオリティの高い環境音になっていたが、どうしても虫や鳥の鳴き声が入ってしまうため、そのままゲームに使用することはできなかった。しかし北村氏はまた、自然界で鳴いている虫の声が電子音に似ていることに気づく。</p>
+<p>　そして「それならば電子音で作っているポケモンの鳴き声も、草木の回折（音波が障害物を回り込むこと）や遮蔽をシミュレートすればリアルになるのでは」という着想を得ていく。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8a0c8f.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8a0c8f.jpg" src="/images/000/314/405/y_64e72be8a0c8f.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be881bc2.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be881bc2.jpg" src="/images/000/314/405/y_64e72be881bc2.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　その後、北村氏は社内のスタジオでスピーカーを約4メートル間隔にランダムな向きで配置し、さらに約4メートルの高さにマイクの指向性を天井に向けて鳴き声の収録を行った。これにより、床や壁を反射した音が収録でき、よりリアルな聞こえかたにでの収録に成功したという。なお、ビデオテープをほぐす音で草むらの音を演出するといった手法も試したようだが、そちらはやや過剰になっていたため不採用になったそうだ。</p>
+<p>　『ポケットモンスター ソード・シールド』では昼と夜、そしてウールーがいるエリアの昼用アセットを作成し、それらを上記の方法で再録音したものを環境鳴き声として利用。これにより過去の作品よりも臨場感のある音が生まれたが、容量の関係もありステージごとの差分を用意することはできなかった。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be7e3f35.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be7e3f35.jpg" src="/images/000/314/405/y_64e72be7e3f35.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　続く『Pokémon LEGENDS アルセウス』（2022年／Switch）では、登場する全ポケモンの鳴き声を、各バリエーションについて遠距離、中距離、近距離のタイプに分けて用意することで、ステージごとの差異も含めた高いクオリティを実現する。しかしアセット数が膨大になってしまうため、登場するポケモンの数が多い完全新作ではこの手法を使うことができなかった。</p>
+<p>　『ポケットモンスター スカーレット・バイオレット』（2022年／Switch）では距離ごとにボイスを分けるのではなく、オーディオミドルウェアのWwiseのエフェクトを使って距離感を出すという方法でアセット数の問題をクリアーしたという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be831740.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be831740.jpg" src="/images/000/314/405/y_64e72be831740.jpg"></a>
+</div>
+</div>
+</div>
+</figure><h2 id="heading-2">鳴き声そのものも進化</h2>
+<p>　音響的な問題が解決されていく一方で、鳴き声を進化させていくうえでもうひとつの課題となっていたのがボイスそのものだ。</p>
+<p>　そもそもオリジナルの波形にバリエーションが少ないこと、『<a class="article-link-search-title" href="https://www.famitsu.com/search/?q=%E3%83%9D%E3%82%B1%E3%83%83%E3%83%88%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC+%E8%B5%A4%E3%83%BB%E7%B7%91"><strong class="article-body___games-link">ポケットモンスター 赤・緑</strong></a>』（1996年／GB）から最新作までで波形の性質がまったく違うために一括で処理するのにも限界があること、鳴き声に対する認知度が高いため変にバリエーションを増やすとイメージを壊してしまうこと、そして最新作では図鑑ナンバーが1000を超えるという物量的問題もあった。一括処理がむずかしいとはいえ、ある程度一括で対応できる手段も必要だったわけだ。</p>
+<p>　『ポケットモンスター 赤・緑』のサウンドを作っていた増田順一氏と一之瀬氏にヒアリングを行った北村氏は、ふたりから受けた言葉としてとくに印象的だったものとして、「クリエイティブが挟まっていることが大事」、そして「その音になってユーザーが喜ぶかが大事」というふたつを挙げた。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be80bfde.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be80bfde.jpg" src="/images/000/314/405/y_64e72be80bfde.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　そこで北村氏は、改めてボイス作りにおける4つの方針を固める。</p>
+<p>　まずはボイスのバリエーションを増やし、ポケモンの表現力を上げること。つぎに、オリジナルのニュアンスを残しつつバリエーションを増やすこと。そして、大量のアセットを効率的に生成し、初代から最新作までを同じようなフローワークで作れるようにする、ということだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be7dda72.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be7dda72.jpg" src="/images/000/314/405/y_64e72be7dda72.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　そこで白羽の矢が立ったのがゲーム効果音生成ツールのGameSynth（ゲームシンセ）などを提供しているtsugiだ。同社の技術協力のもと、GameSynthをベースにした開発が進められ、線形を描くストロークや人間の声を使ってオリジナルのボイスを変調させ、さらにその処理をバッチ機能で一括処理できるツール“PokeSynth（ポケシンセ）”が開発されることとなる。</p>
+<p>　これにより、限られた鳴き声から自由にバリュエーションが生成できるようになり、カットシーンに専用のボイスを用意することでポケモンの感情表現も可能になった。実際、『ポケットモンスター スカーレット・バイオレット』のミライドンやコライドンのカットシーン中の鳴き声は、その場面専用のものが使用されているという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be83eb9b.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be83eb9b.jpg" src="/images/000/314/405/y_64e72be83eb9b.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be843457.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be843457.jpg" src="/images/000/314/405/y_64e72be843457.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">画面中央のコントロール部分に引いた線の形に合わせて鳴き声を変化させたり、人の声を使ったりして強弱を変化させる様子が披露された。複数のボイスに同一の処理を一括で行うことも可能だ。</figcaption>
+</div>
+</div>
+</div>
+</figure><h2 id="heading-3">音の聞こえかたが生み出すリアリティ</h2>
+<p>　続いて北村氏によって解説されたのは環境鳴き声の鳴らしかたについて。</p>
+<p>　『Pokémon LEGENDS アルセウス』では、夜行型のポケモンなら夜に鳴き声が聞こえ、雨が降っているときには雨が苦手なポケモンの鳴き声は聞こえないように、といった“生態に合わせた発声演出”が目標とされた。また、現在いる地点にいるはずがないポケモンが選ばれないよう、ポケモンをピックアップして鳴き声を出す仕掛けが実装されたという。</p>
+<p>　モンスターボールが届く範囲の30メートルまでを近距離、モデルのカリング（簡易表示）が始まる70メートルまでの範囲を中距離、それ以降を遠距離と定義しており、近距離では各ポケモンのアニメーションに仕込まれた鳴き声が聞こえるようになっていたとのことだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be89c3fe.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be89c3fe.jpg" src="/images/000/314/405/y_64e72be89c3fe.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">プレイヤーキャラクターを中心に左右を前後に分けた4エリアで判定が行われ、中距離、遠距離で抽選されたポケモンの鳴き声が出される。</figcaption>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be88f070.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be88f070.jpg" src="/images/000/314/405/y_64e72be88f070.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　これにより訪れる場所ごとに異なる鳴き声が聞こえるようにはなったものの「あくまでランダムに鳴き声を鳴らすに留まり、天候や時間帯と結びついた生態については表現しきれなかった」と北村氏は語る。それを受け、『ポケットモンスター スカーレット・バイオレット』ではそのポケモンが活動するであろう場所や時間帯、天候などを定義することで環境鳴き声をコントロールすることになる。</p>
+<p>　そのためにはまず実際の世界でどんな音が聞こえるのかを知らなくては、ということで再び調査の舞台はリアルな山へと場を移す。山中で朝から晩まで音を調査し、さらに東武動物公園にも足を延ばして動物たちの鳴き声のチェックが行われた。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be86bc87.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be86bc87.jpg" src="/images/000/314/405/y_64e72be86bc87.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8ad534.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8ad534.jpg" src="/images/000/314/405/y_64e72be8ad534.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　観察の結果、まず時間帯による変化としては、夜は虫の鳴き声が中心であり、朝を迎えると鳥の声が混ざりはじめ、日が昇るにつれて鳥の鳴き声の割合が高くなっていくことが判明。また、動物園での観察からは体が小さければ小さいほど鳴く頻度が高い、哺乳類は一定の大きさを超えると鼻を鳴らすなどの鳴きかたも増えてくる、といったことがわかったという。</p>
+<p>　ここから、北村氏はバトルで使われるタイプとは別に、鳴きかたに応じたポケモンのタイプ分けを行った。鳥ポケモン系、虫ポケモン系、大型、小型、夜行型……といった分類を行うことで時間帯などに沿った環境鳴き声を鳴らそうという取り組みだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8151df.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8151df.jpg" src="/images/000/314/405/y_64e72be8151df.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be850d1f.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be850d1f.jpg" src="/images/000/314/405/y_64e72be850d1f.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　また、自然界では動物どうしのコール＆レスポンスなども観測されたため、それも表現できないか、という話が持ち上がる。</p>
+<p>　より豊かな表現をするのではればランダム再生ではなく何らかのパターン、シーケンスが必要だという話になり、岩本氏は最初Wwiseで鳴き声のシーケンサーを作れないかとも考えたが、Wwiseだけで十分なものを作るのはむずかしかったと語る。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be897f01.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be897f01.jpg" src="/images/000/314/405/y_64e72be897f01.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　そこで岩本氏は虫系、鳥系といった種類に応じた鳴きかたの特徴を表すようなシーケンスを定義した。</p>
+<p>　一連の鳴き声に起点や鳴き声に含める感情、そして固定値+ランダム値のインターバルを設定され、同じシーケンスにも揺らぎが生まれるようになった。そのシーケンスどうしをつなげるチェインを作成することで、鳴き声に反応して鳴き声を返す、コール＆レスポンスを再現したという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be820e3e.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be820e3e.jpg" src="/images/000/314/405/y_64e72be820e3e.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be7f2b00.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be7f2b00.jpg" src="/images/000/314/405/y_64e72be7f2b00.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　鳴きかたのタイプ分けや時間帯、エリアに合わせた鳴き声が聞こえるようになったことで、環境音としてのクオリティはさらに高いものとなった。『ポケットモンスター スカーレット・バイオレット』では、プレイヤーキャラクターを中心にした半径約100メートルの範囲でポケモンを抽選し、鳴きかたのタイプごとに違ったシーケンスを出すことで、いまプレイヤーが歩いている環境に合わせた鳴き声が聞こえるようになっているという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be7ee2a2.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be7ee2a2.jpg" src="/images/000/314/405/y_64e72be7ee2a2.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be80751a.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be80751a.jpg" src="/images/000/314/405/y_64e72be80751a.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">昼（1枚目）では鳥タイプの鳴き声が多いのに対し、夜（2枚目）では虫やその他に分類されるタイプの出す音が増えていることがわかる。</figcaption>
+</div>
+</div>
+</div>
+</figure><h2 id="heading-4">木々や水の出す環境音とその配置</h2>
+<p>　環境鳴き声に続いて、川のせせらぎや葉の音といった、いわゆる環境音についても解説が行われた。</p>
+<p>　『ポケットモンスター』シリーズで本格的に環境音への取り組みが行われたのは『<a class="article-link-search-title" href="https://www.famitsu.com/games/t/5780/"><strong class="article-body___games-link">ポケットモンスター ハートゴールド・ソウルシルバー</strong></a>』（2009年／DS）だ。本作では同時に主人公の足音も実装され、水や木々、そして足音によってゲーム内世界の表現がより印象的になった。</p>
+<p>　マスで区切られていたグリッド表現から滑らかな3D表現に変化した『ポケットモンスター サン・ムーン』ではさらに細かな環境音の設定が行われたが、いずれにしても手作業でサウンドを配置しており、マップが変更されるたびに手作業で修正するなど、作業コストも大きかったという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be859a30.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be859a30.jpg" src="/images/000/314/405/y_64e72be859a30.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　『ポケットモンスター ソード・シールド』以降はより広大なフィールドになることもあり環境音制作の進化や作業の効率化は避けられない課題だった。</p>
+<p>　『ポケットモンスター』シリーズのリアリティを構成するのは、ポケモンの環境鳴き声やフィールドのテーマに沿った環境音、絵としては表現されない、洞窟で滴る水の音といった画面外の音など、サウンドの構成要素は多岐に渡る。ただでさえ広いフィールドにこれだけの要素を手作業で配置する、というのは想像するだけで途方もない話だ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be85e57b.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be85e57b.jpg" src="/images/000/314/405/y_64e72be85e57b.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　そこで環境音の自動配置が実施されその方法も進化していくこととなる。</p>
+<p>　まず『Pokémon LEGENDS アルセウス』では、球体やボックス型のエリアを使い、エリアに入ったら発音する、エリアに近づくと発音するといった仕組みが試された。この手法はある程度の範囲をカバーできるとはいえ、やはり配置コストは高く、地形の変化や川のように複雑な地形をカバーしきれないという問題があった。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8291aa.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8291aa.jpg" src="/images/000/314/405/y_64e72be8291aa.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　『ポケットモンスター スカーレット・バイオレット』では、Wwiseの機能を利用し、点群データ（一座標）を使って環境音配置の自動化が行われている。プレイヤーの可聴範囲にある点群をWwiseに送り、発音すべき点が1個以上あれば音を出し、0個になれば音を停止させるという仕組みだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be7e95f6.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be7e95f6.jpg" src="/images/000/314/405/y_64e72be7e95f6.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be878f56.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be878f56.jpg" src="/images/000/314/405/y_64e72be878f56.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　ここで問題になるのは、Wwiseに送る点群の候補をどう集めるか、というポイント。環境音として大きいのは、草の音、水の音、そして木が出す音だ。草については音がどこから聞こえるか、よりも音から伝わる密度感が重要であり、逆に川などが出す水の音はどの方向から聞こえるかが重要になる。木については、シンプルに見えている場所から聞こえる定位感が重要だ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e827160d76b.jpg">
+<img alt="追加34" class="lazy" data-src="/images/000/314/405/y_64e827160d76b.jpg" src="/images/000/314/405/y_64e827160d76b.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">発表時に岩本氏は「『ポケモン』で“くさ”、“みず”と来たらもうひとつは……わかりますね」とほのおタイプを連想させるミスリードから3つ目が“木の音”だと明かして笑いを誘った。</figcaption>
+</div>
+</div>
+</div>
+</figure><p>　このうち、木についてはオブジェクト自体が位置情報を持っているため、近づくと自動的に発音点に追加されるよう設定をするだけで対応できたという。水の音に関してはテクニカルアーティストの協力により、自動判定が実現した。自動判定により、水と陸地の境目を5メートルごとにプロットし、さらに川、海、湖のいずれかなのかも判別されるようになったとのこと。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be867653.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be867653.jpg" src="/images/000/314/405/y_64e72be867653.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be847e3f.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be847e3f.jpg" src="/images/000/314/405/y_64e72be847e3f.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">なお、滝の音に関しては例外的に手動で配置されたという。</figcaption>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be87d5bc.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be87d5bc.jpg" src="/images/000/314/405/y_64e72be87d5bc.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">川や海の自動判別により、川沿いに海に近づいていった際も音が自然に変化するようになったそうだ。</figcaption>
+</div>
+</div>
+</div>
+</figure><p>　最後に残されたのが草の音だが、草は木のように位置情報を持っているわけでもなく、生えている範囲が広大なだけに水のように自動生成をするわけにもいかなかった。そこで、プレイヤーキャラクターを中心としてグリッド上に草地の情報を収集し、配置された草の情報に応じて音を出すという対応がなされた。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be835d73.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be835d73.jpg" src="/images/000/314/405/y_64e72be835d73.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　これらの自動判定により、オープンワールドとなった作品でも効率的に環境音を発生させることができ、よりリアリティのある世界を作ることができたというわけだ。</p>
+<h2 id="heading-5">4つのデバッガーとサウンドのグループ管理で効率化</h2>
+<p>　最後の項目である効率化・最適化のなかでは、開発で使用されたサウンドデバッガーが紹介された。岩本氏はWwiseProfilerを使ってデバッグ対応ができないかと考えたものの、これだけでは対応できない内容もあり、とくにゲーム画面内にデバッグ情報を表示するという作業の効率化を考えるうえでは重要な要素が足りなかったという。そこで起用されたのが、Gizmo、Objects、BGMManager、Historyの4つのデバッガーだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be8862e6.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be8862e6.jpg" src="/images/000/314/405/y_64e72be8862e6.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">Gizmoは音の発生している場所（メリープの足元に見える赤丸）を明示し、そこで再生されているサウンドと、リスナー（プレイヤーキャラクター）との距離も示してくれる。</figcaption>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be88aa47.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be88aa47.jpg" src="/images/000/314/405/y_64e72be88aa47.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">Objectsは足音のようなモーションを自動検知して鳴る音、フィールドにある風車などの設置環境音のトリガー範囲などを視覚化する。</figcaption>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be82d464.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be82d464.jpg" src="/images/000/314/405/y_64e72be82d464.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">BGMManagerはBGMの再生をタイムラインに表示し、一度切り替わってからまた同じBGMに戻る際に頭から再生するか続きを再生するか、といった繊維の設定も調整できる。</figcaption>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be810b6d.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be810b6d.jpg" src="/images/000/314/405/y_64e72be810b6d.jpg"></a>
+</div>
+</div>
+</div>
+<div class="article-body__contents-img-caption-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-caption-col">
+<figcaption class="article-body__contents-caption">Historyは再生されていないサウンドをリストアップし、再生がキャンセルされた理由を表示できる。</figcaption>
+</div>
+</div>
+</div>
+</figure><p>　音の発生点を明示化するGizmoで見える場合はWwiseの設定を、Gizmoで見えなければHistoryにあるかどうかを確認、といった具合に、どの段階でミスが起きているのかが切り分けやすくなり、音が鳴らない場合の確認フローが確立され、作業の効率も上がったそうだ。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be855269.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be855269.jpg" src="/images/000/314/405/y_64e72be855269.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　また、発音制御に関しては、『ポケットモンスター』シリーズの場合同じポケモンの同じ音であっても、自分のポケモンと野生のポケモン、あるいはバトル中のポケモンとで優先度を変化させる必要があるため、通常の仕組みでは管理が難しかったとのこと。</p>
+<p>　そこでプレイヤーに属する音、フィールドに属する音、バトルに属する音、といったグループ分けがなされ、そのなかでさらに音の種類を階層的に分けることで優先度を設定しやすくし、処理の最適化が行われたという。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be83a1b6.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be83a1b6.jpg" src="/images/000/314/405/y_64e72be83a1b6.jpg"></a>
+</div>
+</div>
+</div>
+</figure><figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be84c6f6.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be84c6f6.jpg" src="/images/000/314/405/y_64e72be84c6f6.jpg"></a>
+</div>
+</div>
+</div>
+</figure><h2 id="heading-6">ユーザーに喜んでもらうための音作り</h2>
+<p>　最後に、本セッション全体のまとめが簡単に行われた。</p>
+<p>　環境音や環境鳴き声作りでは、まず環境音を鳴き声と自然音、時間変化などの要素ごとに切り分けて考えていったことがひとつのポイントとして挙げられた。そして、鳴き声を作る際にはただ作るのではなくクリエイティブの考えを重視し、「どうすればユーザーに喜んでもらえるか」というゲーム開発の基本的な視点を忘れないことが大事だという。</p>
+<p>　作業の効率化に関しては、環境音を実装するさいには点群データを利用することで大きな恩恵を受けられたこと、またデバッガーを駆使して情報を可視化することで、実装確認がスムーズに行えた点が強調された。</p>
+<p>　そして最後に一之瀬氏は、ハードが進化していくなかで困っている開発者も多いと思うが、困ったときは外に足を向けて情報を得たり、識者に相談したりし、自分ひとりで悩まず周りに話していく姿勢がユーザーに喜んでもらえるものを作ることにつながる、とセッションを締めくくった。</p>
+<figure class="article-body__contents-img-container article-body__contents-img-container--lazy"><div class="article-body__contents-img-block article-body__contents-img-common-block">
+<div class="article-body__contents-img-common-row">
+<div class="article-body__contents-img-common-col article-body__contents-img-col js-lazy-placeholder">
+<a href="/images/000/314/405/y_64e72be87036b.jpg">
+<img alt="『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】" class="lazy" data-src="/images/000/314/405/y_64e72be87036b.jpg" src="/images/000/314/405/y_64e72be87036b.jpg"></a>
+</div>
+</div>
+</div>
+</figure><p>　環境音というのはある種BGMの裏側に流れる音であるぶん、意識的に聞かなければとくに聞き流してしまうことも多いだろう。しかし今回のセッションを見てもわかる通り、そこには制作陣のこだわりと努力が詰め込まれている。たまには敢えてBGMの音量を下げ、環境音に耳を傾けてみるのもおもしろいだろう。</p>
+<div class="article-body__contents-notes"><p>［2023年8月25日21:15追記］<br>
+記事初出時、記事内の一部人名に誤りがあり修正を行いました。読者並びに関係者の皆様にお詫びして訂正いたします。</p></div>
+</div>
+</div></body></html>

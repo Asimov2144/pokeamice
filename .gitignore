@@ -104,3 +104,6 @@ scratch/
 .publish-state
 .tok
 continue-vol32-regions.json
+
+# import-web.py intermediates (the parsed turns before translation)
+data/cache_web/*.items.json

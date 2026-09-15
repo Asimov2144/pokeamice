@@ -1,0 +1,89 @@
+---
+layout: interview-editorial
+archive_type: interview_translation
+title: Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品
+display_title: 增田与大森最爱的宝可梦衍生作
+dek: Game Freak的增田顺一和大森滋分享各自最喜欢的宝可梦衍生作品，以及未来想尝试的类型。
+original_title: Game Freak's Directors Share Their Favorite Pokémon Spin-Offs
+date: '2017-08-15'
+era_skin: '2019'
+categories:
+- 访谈翻译
+- 翻译
+- 访谈整理
+tags:
+- 访谈
+- Game Freak
+- Game Informer
+- 增田顺一
+- 大森滋
+- 衍生作品
+- Game Freak 探访 2017
+publication: Game Informer（2017-08-15）
+source_kind: media_feature
+author: Kyle Hilliard
+interviewer: Kyle Hilliard
+interviewee: 增田顺一、大森滋
+translator: PokeAmice（DeepSeek 初译）
+original_lang: en
+translation_lang: zh-CN
+source:
+  title: Game Freak's Directors Share Their Favorite Pokémon Spin-Offs
+  url: https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs
+  language: en
+  source_type: media_interview
+original_link: https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs
+summary: Game Informer采访Game Freak的增田顺一与大森滋，询问他们最喜欢的宝可梦衍生作品。增田选择《Pokémon GO》，并谈及开发压力与品牌低谷；大森则偏爱《宝可梦随乐拍》，尤其喜欢便利店打印照片的玩法。两人还提到希望未来尝试钻角犀兽赛跑和2D横版动作等新类型。
+entities:
+  people:
+  - 增田顺一
+  - 大森滋
+  works:
+  - Pokémon GO
+  - 宝可梦 随乐拍
+workflow:
+  fetch: live
+  translation: deepseek-chat
+  proofreading: pending
+  published: draft
+parallel_items:
+- original: 'During our time at Game Freak we spoke with studio co-founder, composer, producer, and director Junichi Masuda and director Shigeru Ohmori extensively about the core Pokémon RPGs, but we did sneak in one question about the Pokémon spin-offs. The franchise has found the most success as an RPG, but it has explored nearly every genre on nearly every platform. Our question for Masuda and Ohmori was simple: what''s your favorite one?'
+  translation: 在Game Freak期间，我们与工作室联合创始人、作曲家、制作人兼总监增田顺一以及总监大森滋就宝可梦核心RPG进行了广泛交谈，但我们也插入了一个关于宝可梦衍生作品的问题。该系列作为RPG取得了最大的成功，但它几乎在几乎所有平台上探索了几乎所有类型。我们对增田和大森的问题很简单：你最喜欢哪一个？
+- original: Masuda was quick to offer an unsurprising answer, especially if you've been following him on twitter lately.
+  translation: 增田很快给出了一个并不令人意外的答案，尤其是如果你最近在推特上关注他的话。
+- original: '"Pokémon Go!" Masuda says, "I am not sure if you can call that a spin-off title." Masuda also brought up the mobile game when we were talking to him about the development of Pokémon Ruby and Sapphire, which he acknowledges were the most difficult for him to create. During the development of those games, he could see the Pokémon brand begin to fade which caused him a great deal of stress, but when the game finally came out, he learned that the franchise was still very popular. “Pokémon Go is experiencing something similar where people are saying, ‘Eh, it’s done. The fad’s over,’ but it was way worse than that after Gold and Silver had settled down and we were working on the next game," Masuda says.'
+  translation: “宝可梦GO！”增田说，“我不确定你是否能称其为衍生作品。”当我们在与他谈论《宝可梦 红宝石·蓝宝石》的开发时，增田也提到了这款手机游戏，他承认这两款游戏对他来说是最难制作的。在这些游戏的开发过程中，他可以看到宝可梦品牌开始衰落，这给他带来了巨大的压力，但当游戏最终问世时，他了解到该系列仍然非常受欢迎。“宝可梦GO正在经历类似的事情，人们说，‘呃，它完了。这股热潮结束了，’但在《金／银》尘埃落定、我们正在制作下一款游戏之后，情况要糟糕得多，”增田说。
+- original: Ohmori's answer was a little more unexpected. "I played a lot of Pokémon Snap. I got really into it," Ohmori says. "The most fun part for me – this may have been a Japan-only thing – but you could take your game to a convenience store and print out the photos you took and could use them like stickers and put them on things. I just had a lot of fun being able to take the photos in the game and print them out as things that I could use." You can check out our in-progress Super Replay of Pokémon Snap by heading here.
+  translation: 大森的答案则有些出人意料。“我玩了很多《宝可梦随乐拍》。我真的很投入，”大森说。“对我来说最有趣的部分——这可能只在日本有——但你可以把游戏带到便利店，打印出你拍的照片，然后像贴纸一样使用它们，贴到东西上。我只是觉得能够在游戏中拍照并打印出来作为我可以使用的东西非常有趣。”你可以点击这里查看我们正在进行中的《宝可梦随乐拍》超级重玩。
+- original: We also asked which genre Pokémon hasn't explored that Masuda and Ohmori would like to see in the future. "It’s kind of an Easter Egg from X and Y, but Rhydon Racing was a thing in that world. There might be a message in there that I really want to create Rhydon racing," Masuda says.
+  translation: 我们还问了增田和大森希望未来看到宝可梦探索哪种尚未涉足的类型。“这算是《X／Y》里的一个彩蛋，但在那个世界里钻角犀兽赛跑是存在的。那里可能有一个信息，就是我真的很想制作钻角犀兽赛跑，”增田说。
+- original: '"I really want to try working on a real action-focused game," Ohmori says. "Of course, we’ve kind of got those already with fighting games as well so it’s hard to say what it would be. Like a 2D side-scrolling action game, maybe."'
+  translation: “我真的很想尝试制作一款真正以动作为主的游戏，”大森说。“当然，我们已经通过格斗游戏有了类似的东西，所以很难说会是什么。也许像2D横版动作游戏。”
+- original: For more on the history of Pokémon, you can check out the latest issue for a 12-page feature covering the franchise’s history, as well as online features and interviews linked below.
+  translation: 想了解更多关于宝可梦的历史，你可以查看最新一期，其中有一篇12页的专题报道，涵盖该系列的历史，以及下面链接的在线专题和采访。
+- original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
+  translation: 宝可梦开发者谈他们在Switch上的主机RPG首秀
+- original: Game Freak’s Origins And Its Pre-Pokémon Games
+  translation: Game Freak的起源及其宝可梦之前的游戏
+- original: Here's How Game Freak Designs Pokemon Creatures
+  translation: 以下是Game Freak设计宝可梦生物的方式
+- original: Game Freak On Player Freedom Vs. Story In Pokémon
+  translation: Game Freak谈宝可梦中的玩家自由与剧情之争
+- original: Discussing Our In-Depth Tour Of Game Freak
+  translation: 谈我们对Game Freak的深入探访
+- original: Everything We Know About Pokémon On The Nintendo Switch
+  translation: 关于Nintendo Switch上宝可梦的已知全部信息
+- original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
+  translation: 为什么《红宝石／蓝宝石》是最难制作的宝可梦作品
+- original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
+  translation: Game Freak的导演们分享他们最喜欢的宝可梦衍生作品
+- original: An Exclusive Look At Pokémon's Early Design Documents
+  translation: 独家一览宝可梦早期设计文档
+- original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
+  translation: 宝可梦创作者谈动画：“我们当时其实不太确定”
+- original: Our Reddit AMA On Our Trip To Visit Game Freak
+  translation: 我们探访Game Freak之行的Reddit AMA
+  note: AMA即“Ask Me Anything”，Reddit上的问答活动形式。
+- original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
+  translation: 独家揭晓《宝可梦 究极之日·究极之月》中的新模式
+---
