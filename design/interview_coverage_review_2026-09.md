@@ -227,3 +227,34 @@
 - 主清单只能当"标题线索"用，**每条都要重新找地址**；`design/interview_queue_2026-09.json` 里 `verified` 已改为"标题可信、URL 待找"
 - 官方档案类（N.O.M、社長が訊く、GF/TPC 招聘）从 Wayback 逐期读目录比按标题搜可靠得多，N.O.M 就是这样一次做完的
 - 1996–2000 的增量几乎全在纸上，砂の碑的书目就是采购单
+
+## 8. 附记（2026-09-16 晚）：17 条 title_only 的真实地址
+
+用浏览器面板开 duckduckgo.com（不走脚本）逐条搜，每个候选都打开核对了正文、日期和话者。结果写回 `interview_queue_2026-09.json`（`resolved[]` / `resolution` / `queue_status`）。17 条里：
+
+| 结果 | 条数 | 条目 |
+|---|---|---|
+| **resolved** 地址找到、内容对得上 | 6 | Jeuxvideo 2013-09-19（增田×吉田，法语）；Multiplayer.it 2013-09-20（伦敦，意语）；GI 2017-08-15 spin-offs；GI 2019-10-01 Dexit；GI 2019-10-24 冠军/旷野补访；4Gamer CEDEC 2026 Z-A 战斗系统（讲演报道，宗像快×小幡敏宏） |
+| **replaced** 标题是编的，但同一采访/同一主题有真文 | 5 | Kotaku 究极异兽→2016-10 Hernandez 电话采访的两篇；Polygon F2P→Pocket Gamer 2013-09-19 + Polygon 2014-10-14；GI Turner / Iwao→封面长文 Going Big（2019-11-13，37 KB）；Fami通 25 周年→ORICON 2021-02-27 石原 |
+| **no_such_article** | 2 | Polygon 2014 口述史（→ Polygon 2018 增田谈红蓝 / 2019 剑盾专访）；Fami通 20 周年田尻·石原·增田重聚（→ INSIDE 2016-02-27 石原，平林久和×土本学） |
+| **already_on_site** | 1 | Eurogamer.de Let's Go——地址本来就对，脚本探测被反爬拦成 404 |
+| **no_interview / not_interview / not_online** | 3 | 4Gamer CEDEC 2011 只有 CESA 新闻稿（授賞理由全文可引）；4Gamer 年末寄语合集不是专访；CGWorld 2019 电影专题不在线（纸刊） |
+
+可直接进导入流程的：Jeuxvideo、Multiplayer.it、GI ×3 + Going Big、Kotaku ×2、INSIDE 2016、ORICON 2021、Polygon 2018/2019、CEDEC 2026 ×2——共 14 篇，都是活链接。
+
+### 8.1 顺带找到的线索库
+
+搜 Fami通 20 周年时撞到 note.com「なは」整理的 **[【ポケモン備忘録】ポケモン開発者インタビューのまとめ](https://note.com/anacon11/n/nf81add1aa7a1)**（2025-04 发布、2026-08 仍在更新）：按世代列出正传+外传+GF 相关的开发者访谈，每条带日期、话者、Wayback 地址。整份抓成 [pokemon_dev_interviews_naha_note.json](pokemon_dev_interviews_naha_note.json)：108 条 = 文章 51 / 官网 22 / 视频 14 / 社長が訊く 9 / N.O.M 7 / GF 员工博客 5。与 `_posts` 前言里的 URL 对过：文章类 51 条里 **26 条站内没有**，其中值得做的——
+
+- 2012 GI「First Numbered Sequel」「Pokémon's Burning Questions」（Wayback）
+- 2013 Nintendo Life 增田×吉田 X·Y；東洋経済 岩田聡谈世界同步发售（只取宝可梦段）
+- 2014 Pokemon.com「Musical Maestro」增田音乐访谈（Wayback）
+- 2016 pokemon.co.jp 大森滋谈日月两版（短）
+- 2018 4Gamer USUM ファンミーティング（Fami通版已收，4Gamer 版未收）；Pokemon.com「Meet the Makers of Let's Go」（Wayback）；読売「ピカチュウは大福？」（TPC 版已收）
+- 2019 VG247「no regrets」；Fami通 10-25 增田×大森；Polygon 10-24；GI 10-24
+- 2023 CGWorld SV メイキング ×3（Creatures 动作组）；電ファミ CEDEC 2023 前澤圭一；Fami通 CEDEC 2023 一之瀬剛环境音
+- 2026 電ファミ CEDEC 2026 ×2；Fami通『ぽこ あ ポケモン』大森滋×コーエーテクモ
+- 旁支：Gpara 2006 吉田宏信；4Gamer 2013 杉森×渡辺 ソリティ馬自社发行
+- 田尻：Sankei 2018 話の肖像画（付费墙）
+
+视频 14 条（GI 2017/2019 系列、Nintendo Life USUM、NintendoAU 日月 Q&A、Yamaha Sound Roster、ゲームフリークひみつきち ミュウ/セレビィ/ぽこポケ）只登记链接，不入站。

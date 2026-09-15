@@ -1,0 +1,1707 @@
+{
+ "source": "https://note.com/anacon11/n/nf81add1aa7a1",
+ "source_title": "【ポケモン備忘録】ポケモン開発者インタビューのまとめ（なは，2025-04-12 公開，2026-08-14 更新）",
+ "captured": "2026-09-16",
+ "note": "网友整理的历代宝可梦开发者访谈线索（正传+外传+GF相关），含 Wayback 地址与话者列表；on_site 为与 _posts 前言 URL 的匹配结果（N.O.M 三期已由 import-nom 导入但 URL 形式不同，故未匹配）",
+ "entries": [
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "ポケットモンスター赤・緑",
+   "date": "1996",
+   "date_raw": "1996年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n02/dmg/apajapbj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "ポケットモンスター青",
+   "date": "1996",
+   "date_raw": "1996年",
+   "kind": "official_site",
+   "urls": [
+    "http://www.nintendo.co.jp/n02/dmg/apej/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "ポケットモンスター ピカチュウ",
+   "date": "1998",
+   "date_raw": "1998年",
+   "kind": "official_site",
+   "urls": [
+    "http://www.nintendo.co.jp/n02/dmg/apsj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "かつてファミコンソフトを自作した集団がいた――ゲームフリーク・増田順一氏が語ったゲーム制作の魅力:ゲームアツマール: ゲームアツマールch(ゲームアツマール) - ニコニコチャンネル：ゲーム",
+   "date": "2014-08-22",
+   "date_raw": "2014年8月22日（アーカイブ 2023.2.4）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20230204141619/https://sp.ch.nicovideo.jp/indies-game/blomaga/ar604905?s=09"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発本部長 - 増田 順一さん"
+   ],
+   "on_site": [
+    "2014-08-22-interview-niconico-gamefreak-origins-masuda.md"
+   ]
+  },
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "ピカチュウは大福？　初めて明かされる誕生秘話 ",
+   "date": "2018-05-02",
+   "date_raw": "2018年5月2日",
+   "kind": "article",
+   "urls": [
+    "https://www.yomiuri.co.jp/fukayomi/20180501-OYT8T50139/"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 - 杉森 建さん",
+    "株式会社ゲームフリーク プランナー - 西野 弘二さん",
+    "フリーランス イラストレーター - にしだ あつこさん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第一世代 : 『赤・緑・青・ピカチュウ』",
+   "title": "ピカチュウ誕生秘話｜株式会社ポケモン ｜ The Pokémon Company",
+   "date": "2018-05-30",
+   "date_raw": "2018年5月30日（アーカイブ 2019.1.8）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20190108050342/http://www.pokemon.co.jp/corporate/pikachu/"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 - 杉森 建さん",
+    "株式会社ゲームフリーク プランナー - 西野 弘二さん",
+    "フリーランス イラストレーター - にしだ あつこさん"
+   ],
+   "on_site": [
+    "2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida.md"
+   ]
+  },
+  {
+   "section": "第二世代 : 『金・銀・クリスタル』",
+   "title": "ポケットモンスター金・銀",
+   "date": "1999",
+   "date_raw": "1999年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n02/dmg/kingin/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第二世代 : 『金・銀・クリスタル』",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2000年6月号　No.22『ポケットモンスター大特集！！』",
+   "date": "2000-06",
+   "date_raw": "2000年6月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026122340mp_/https://www.nintendo.co.jp/nom/0006/index.html"
+   ],
+   "speakers": [
+    "小学館キャラクター企画室 室長 小学館プロダクション メディア事業部 ゼネラルプロデューサー - 久保 雅一さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第二世代 : 『金・銀・クリスタル』",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2000年7月号　No.23『ポケットモンスター大特集２』",
+   "date": "2000-07",
+   "date_raw": "2000年7月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026122342mp_/https://www.nintendo.co.jp/nom/0007/index.html"
+   ],
+   "speakers": [
+    "田尻 智さん（ゲームフリーク）",
+    "石原 恒和さん（クリーチャーズ）",
+    "任天堂株式会社 広報室 企画部部長 - 川口孝司さん",
+    "増田 順一さん（取締役・開発部長）",
+    "渡辺 哲也さん（プログラマー）、",
+    "杉森 建さん（取締役・アートディレクター）",
+    "西野 弘二さん（プランナー）",
+    "森本 茂樹さん（プログラマー・プランナー）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第二世代 : 『金・銀・クリスタル』",
+   "title": "ポケットモンスタークリスタルバ ージョン",
+   "date": "2000",
+   "date_raw": "2000年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n02/dmg/bxpj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第三世代 : 『ルビー・サファイア・エメラルド』『ファイアレッド・リーフグリーン』",
+   "title": "ポケットモンスター　ルビー・サファイア",
+   "date": "2002",
+   "date_raw": "2002年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n08/axvp/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第三世代 : 『ルビー・サファイア・エメラルド』『ファイアレッド・リーフグリーン』",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2002年11月号　No.052『ポケットモンスタールビー・サファイア』大特集",
+   "date": "2002-11",
+   "date_raw": "2002年11月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026123521mp_/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発部長 『ポケットモンスタールビー・サファイア』ディレクター／ゲームデザイナー - 増田 順一さん",
+    "株式会社ゲームフリーク 取締役 『ポケットモンスタールビー・サファイア』アートディレクター - 杉森 建さん",
+    "株式会社ポケモン 代表取締役社長 『ポケットモンスター』エグゼクティブプロデューサー - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2002-11-01-interview-nom-ruby-sapphire-art-director-sugimori.md",
+    "2002-11-01-interview-nom-ruby-sapphire-director-masuda.md"
+   ]
+  },
+  {
+   "section": "第三世代 : 『ルビー・サファイア・エメラルド』『ファイアレッド・リーフグリーン』",
+   "title": "ポケットモンスター ファイアレッド・リーフグリーン",
+   "date": "2004",
+   "date_raw": "2004年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n08/bprj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第三世代 : 『ルビー・サファイア・エメラルド』『ファイアレッド・リーフグリーン』",
+   "title": "ポケットモンスター エメラルド",
+   "date": "2004",
+   "date_raw": "2004年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/n08/bpej/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第三世代 : 『ルビー・サファイア・エメラルド』『ファイアレッド・リーフグリーン』",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2004年9月号　No.074ポケモン総力特集「ポケットモンスター エメラルド」＆ポケモンの歴史と最新情報を探る！",
+   "date": "2004-09",
+   "date_raw": "2004年9月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026122143/https://www.nintendo.co.jp/nom/0409/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "ポケットモンスター ダイヤモンド・パール",
+   "date": "2006",
+   "date_raw": "2006年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/adaj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2006年10月号　No.099『ポケットモンスター ダイヤモンド・パール』『激闘！カスタムロボ』大特集！",
+   "date": "2006-10",
+   "date_raw": "2006年10月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026123148mp_/https://www.nintendo.co.jp/nom/0610/12/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン プロデューサー - 石原 恒和さん",
+    "株式会社ゲームフリーク ディレクター - 増田 順一さん",
+    "株式会社ゲームフリーク アートディレクター - 杉森 建さん"
+   ],
+   "on_site": [
+    "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori.md"
+   ]
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "ポケットモンスター プラチナ",
+   "date": "2008",
+   "date_raw": "2008年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/cpuj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "プラチナここだけの話　その１〜3",
+   "date": "2008-09-26",
+   "date_raw": "2008年9月26日〜11月14日",
+   "kind": "staff_blog",
+   "urls": [
+    "https://web.archive.org/web/20130414181642/http://www.gamefreak.co.jp/blog/staff/?p=89",
+    "https://web.archive.org/web/20130414165440/http://www.gamefreak.co.jp/blog/staff/?p=90",
+    "https://web.archive.org/web/20130414190242/http://www.gamefreak.co.jp/blog/staff/?p=91",
+    "https://web.archive.org/web/20130414160035/http://www.gamefreak.co.jp/blog/staff/?p=97"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!",
+   "date": "2009-05-17",
+   "date_raw": "2009年5月17日（アーカイブ 2012.9.24）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20120924075934/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/"
+   ],
+   "speakers": [
+    "『ポケットモンスター プラチナ』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター プラチナ』ディレクター - 河内丸 武史さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru.md",
+    "2013-01-11-interview-junichi-masuda-takeshi-kawachimaru.md"
+   ]
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "ポケットモンスター ハートゴールド・ソウルシルバー",
+   "date": "2009",
+   "date_raw": "2009年",
+   "kind": "official_site",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/ipkj/index.html"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』",
+   "date": "2009-09-04",
+   "date_raw": "2009年9月4日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/interview/ipkj/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク ディレクター - 森本 茂樹さん",
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew.md"
+   ]
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "『ポケットモンスター』最新作についてディレクターの森本茂樹さんを直撃！ - 電撃オンライン",
+   "date": "2009-09-18",
+   "date_raw": "2009年9月18日",
+   "kind": "article",
+   "urls": [
+    "https://dengekionline.com/elem/000/000/193/193021/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』ディレクター - 森本 茂樹さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-09-18-interview-dengeki-hgss-shigeki-morimoto.md"
+   ]
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "ＨＧ・ＳＳ 語っちゃいます！ その１〜８",
+   "date": "2009-09-25",
+   "date_raw": "2009年9月25日〜12月28日",
+   "kind": "staff_blog",
+   "urls": [
+    "https://web.archive.org/web/20130414185752/http://www.gamefreak.co.jp/blog/staff/?cat=6&paged=3"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第四世代 : 『ダイヤモンド・パール・プラチナ』『ハートゴールド・ソウルシルバー』",
+   "title": "Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.! | News | Pokemon.com",
+   "date": "2010-03-31",
+   "date_raw": "2010年3月31日（アーカイブ 2012.02.11）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』ディレクター - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』ゲームディレクター - 森本 茂樹さん（ゲームフリーク）",
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』プランナー - 松島 賢二さん（ゲームフリーク）",
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』プランナー - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』プログラムリーダー - 森 昭人さん（ゲームフリーク）",
+    "『ポケットモンスター ハートゴールド・ソウルシルバー』アートディレクター -  海野 隆雄さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "『ポケットモンスターブラック・ホワイト』公式サイト",
+   "date": "2010-05-14",
+   "date_raw": "2010年5月14日",
+   "kind": "article",
+   "urls": [
+    "https://www.pokemon.co.jp/series/bw/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "社長が訊く『ポケットモンスターブラック・ホワイト』",
+   "date": "2010-09-10",
+   "date_raw": "2010年9月10日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん",
+    "株式会社ゲームフリーク ディレクター - 増田 順一さん",
+    "株式会社ゲームフリーク２Dアートディレクター - 杉森 健さん"
+   ],
+   "on_site": [
+    "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "誌面では語りきれなかった、ポケットモンスター ブラック・ホワイトの開発秘話!!",
+   "date": "2010-09-13",
+   "date_raw": "2010年9月13日",
+   "kind": "article",
+   "urls": [
+    "https://weekly.ascii.jp/elem/000/002/602/2602549/"
+   ],
+   "speakers": [
+    "『ポケットモンスターブラック・ホワイト』ディレクター - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2010-09-13-interview-weekly-ascii-masuda-bw.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "「ポケットモンスターブラック・ホワイト」のつくりかた　1〜9",
+   "date": "2010-10-01",
+   "date_raw": "2010年10月1日〜12月3日",
+   "kind": "staff_blog",
+   "urls": [
+    "https://web.archive.org/web/20130122121619/http://www.gamefreak.co.jp/blog/staff/?cat=6&paged=2",
+    "https://web.archive.org/web/20130115083734/http://www.gamefreak.co.jp/blog/staff/?cat=6"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "女子大生が訊く『ポケットモンスターブラック・ホワイト』",
+   "date": "2010-12-24",
+   "date_raw": "2010年12月24日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://web.archive.org/web/20101227010653/http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html"
+   ],
+   "speakers": [
+    "女子大生 - 桐谷 美玲さん",
+    "『ポケットモンスターブラック・ホワイト』ディレクター - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスターブラック・ホワイト』アートディレクター - 杉森 建さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda.md",
+    "2010-12-27-gamefreak-director-179.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "『ポケットモンスターブラック２・ホワイト２』公式サイト",
+   "date": "2012-04-14",
+   "date_raw": "2012年4月14日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/b2w2/#btmNavBlk"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "社長が訊く『ポケットモンスターブラック２・ホワイト２』",
+   "date": "2012-06-14",
+   "date_raw": "2012年6月14日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/interview/irej/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発本部長 - 増田 順一さん",
+    "株式会社ゲームフリーク 開発部 アートディレクター エグゼクティブマネジメントグループ - 海野 隆雄さん",
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "Nやゲーチスの開発段階のビジュアルが公開！ 増田さん＆海野さんが駆け付けた『ポケットモンスターブラック2・ホワイト2』のイベントをレポ",
+   "date": "2012-08-05",
+   "date_raw": "2012年8月5日",
+   "kind": "article",
+   "urls": [
+    "https://dengekionline.com/elem/000/000/518/518926/"
+   ],
+   "speakers": [
+    "『ポケットモンスターブラック2・ホワイト2』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスターブラック2・ホワイト2』ディレクター - 海野 隆雄さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "Game Freak Talks Pokémon’s First Numbered Sequel",
+   "date": "2012-09-17",
+   "date_raw": "2012年9月17日（アーカイブ 2013.1.12）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20130112034434/http://www.gameinformer.com/b/features/archive/2012/09/17/gamefreak-talks-pok-233-mon-s-first-numbered-sequel.aspx"
+   ],
+   "speakers": [
+    "『ポケットモンスターブラック2・ホワイト2』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "The People behind the Pokémon | News | Pokemon.com",
+   "date": "2012-10-01",
+   "date_raw": "2012年10月1日",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20131009030237/http://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/"
+   ],
+   "speakers": [
+    "『ポケットモンスターブラック2・ホワイト2』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスターブラック2・ホワイト2』ディレクター - 海野 隆雄さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2012-10-01-interview-pokemon-com-b2w2-masuda-unno.md"
+   ]
+  },
+  {
+   "section": "第五世代 : 『ブラック・ホワイト』『ブラック2・ホワイト2』",
+   "title": "Pokémon's Burning Questions",
+   "date": "2012-11-23",
+   "date_raw": "2012年11月23日",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20130116054809/https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx"
+   ],
+   "speakers": [
+    "『ポケットモンスターブラック2・ホワイト2』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "『ポケットモンスター X』『ポケットモンスター Y』公式サイト",
+   "date": "2013-01-08",
+   "date_raw": "2013年1月8日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/xy/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Pokémon X and Pokémon Y : Honedge Revealed! UK",
+   "date": "2013-07-05",
+   "date_raw": "2013年7月5日",
+   "kind": "video",
+   "urls": [
+    "https://www.youtube.com/watch?v=xqwYdOsbixI"
+   ],
+   "speakers": [
+    "『ポケットモンスター X・Y』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-11-26-gamefreak-director-153.md",
+    "2013-01-21-gamefreak-director-233.md",
+    "2013-06-19-gamefreak-director-238.md",
+    "2013-06-20-gamefreak-director-239.md",
+    "2013-07-31-gamefreak-director-240.md",
+    "2015-09-11-gamefreak-director-244.md",
+    "2016-04-30-gamefreak-lineblog-3120585.md",
+    "2016-09-07-gamefreak-lineblog-6851197.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "「WiiUはゲームをテレビから解放する」任天堂・岩田聡社長ロングインタビュー（中）",
+   "date": "2013-07-31",
+   "date_raw": "2013年7月31日",
+   "kind": "article",
+   "urls": [
+    "https://toyokeizai.net/articles/-/16499?page=2"
+   ],
+   "speakers": [
+    "任天堂 代表取締役社長 - 岩田 聡さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS",
+   "date": "2013-09-21",
+   "date_raw": "2013年9月21日",
+   "kind": "article",
+   "urls": [
+    "https://www.nintendolife.com/news/2013/09/interview_junichi_masuda_and_hironobu_yoshida_discuss_pokemon_x_and_y_mega_evolutions_and_the_2ds"
+   ],
+   "speakers": [
+    "『ポケットモンスター X・Y』チーフデザイナー - 吉田 宏信さん（ゲームフリーク）",
+    "『ポケットモンスター X・Y』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Pokémon X and Y Interview with Game Freak- Interview",
+   "date": "2013-09-24",
+   "date_raw": "2013年9月24日（アーカイブ 2023.8.30）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20230830152634/http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak"
+   ],
+   "speakers": [
+    "『ポケットモンスター X・Y』チーフデザイナー - 吉田 宏信さん（ゲームフリーク）",
+    "『ポケットモンスター X・Y』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2013-10-04-interview-nwr-xy-masuda-yoshida.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "うごく社長が訊く『ポケットモンスター X・Y』",
+   "date": "2013-10-10",
+   "date_raw": "2013年10月10日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発部長 - 増田 順一さん",
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Iwata Asks - Pokémon X and Pokémon Y (1/4)",
+   "date": "2013-10-29",
+   "date_raw": "2013年10月29日",
+   "kind": "video",
+   "urls": [
+    "https://www.youtube.com/watch?v=viLKikZCRAc",
+    "https://m.youtube.com/watch?v=Lg7xXMFUs4A&t=0s",
+    "https://youtu.be/nVSV2uPaKWI?si=w3bur9yh7WmryhG6",
+    "https://youtu.be/-gRCFErCTRc?si=_GCQBJ0nYaF-147Q"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発部長 - 増田 順一さん",
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2009-11-26-gamefreak-director-153.md",
+    "2013-01-21-gamefreak-director-233.md",
+    "2013-06-19-gamefreak-director-238.md",
+    "2013-06-20-gamefreak-director-239.md",
+    "2013-07-31-gamefreak-director-240.md",
+    "2015-09-11-gamefreak-director-244.md",
+    "2016-04-30-gamefreak-lineblog-3120585.md",
+    "2016-09-07-gamefreak-lineblog-6851197.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "『ポケットモンスター X・Y』のトークイベントをレポ！ 増田順一さんらがBGMや未公開の設定資料などについて語った!!",
+   "date": "2013-11-16",
+   "date_raw": "2013年11月16日",
+   "kind": "article",
+   "urls": [
+    "https://dengekionline.com/elem/000/000/753/753933/"
+   ],
+   "speakers": [
+    "『ポケットモンスター X・Y』ディレクター - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター X・Y』サウンドディレクター - 景山 将太さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Afterwords ― Pokémon X &Y - Game Informer",
+   "date": "2014-02-14",
+   "date_raw": "2014年2月14日（アーカイブ 2023.3.19）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20230319072904mp_/https://www.gameinformer.com/b/features/archive/2014/02/14/afterwords-unabridged-pokemon-x-and-y.aspx?PostPageIndex=1",
+    "http://raim2005.blog18.fc2.com/blog-entry-1177.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター X・Y』ディレクター - 増田順一さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2014-02-14-interview-gameinformer-masuda-afterwords-xy.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "A Conversation with Pokémon’s Musical Maestro | Pokemon.com",
+   "date": "2014-05-14",
+   "date_raw": "2014年5月14日（アーカイブ 2014.5.14）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20140514002944/http://www.pokemon.com/us/pokemon-news/a-conversation-with-pokemons-musical-maestro/"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発部長 - 増田 順一さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "『ポケットモンスター オメガルビー』『ポケットモンスター アルファサファイア』公式サイト",
+   "date": "2014-06-11",
+   "date_raw": "2014年6月11日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/oras/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "Video Interview: Junichi Masuda & Shigeru Ohmori (Game Freak) - Pokémon Omega Ruby/Alpha Sapphire",
+   "date": "2014-10-15",
+   "date_raw": "2014年10月15日",
+   "kind": "video",
+   "urls": [
+    "https://m.youtube.com/watch?v=ys7X32MtjqA",
+    "https://web.archive.org/web/20221017184319/https://twishort.com/8iMgc"
+   ],
+   "speakers": [
+    "『ポケットモンスター オメガルビー・アルファサファイア』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター オメガルビー・アルファサファイア』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-11-26-gamefreak-director-153.md",
+    "2013-01-21-gamefreak-director-233.md",
+    "2013-06-19-gamefreak-director-238.md",
+    "2013-06-20-gamefreak-director-239.md",
+    "2013-07-31-gamefreak-director-240.md",
+    "2015-09-11-gamefreak-director-244.md",
+    "2016-04-30-gamefreak-lineblog-3120585.md",
+    "2016-09-07-gamefreak-lineblog-6851197.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第六世代 : 『X・Y』『オメガルビー・アルファサファイア』",
+   "title": "『ポケットモンスター』受け継がれる音楽のバトン　- 『ポケットモンスター 赤・緑』から『ポケットモンスター オメガルビー・アルファサファイア』まで",
+   "date": "2014-10-23",
+   "date_raw": "2014年10月23日",
+   "kind": "article",
+   "urls": [
+    "https://www.2083.jp/contents/201410gamefreak/"
+   ],
+   "speakers": [
+    "『ポケットモンスター オメガルビー・アルファサファイア』プロデューサー - 増田順一さん（ゲームフリーク）",
+    "一之瀬 剛さん（ゲームフリーク）",
+    "足立 美奈子さん（ゲームフリーク）",
+    "佐藤 仁美さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras.md"
+   ]
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "『ポケットモンスター サン・ムーン』公式サイト",
+   "date": "2016-02-27",
+   "date_raw": "2016年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/sun_moon/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？｜『ポケットモンスター サン・ムーン』公式サイト",
+   "date": "2016-09-06",
+   "date_raw": "2016年9月6日",
+   "kind": "article",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/sun_moon/topics/160906_01.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター サン・ムーン』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "Pokémon Sun and Pokémon Moon - Developer Q & A (Nintendo 3DS)",
+   "date": "2016-11-11",
+   "date_raw": "2016年11月11日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/LrsnZhXKkHw?si=fPDypZ6iosuD5R06"
+   ],
+   "speakers": [
+    "『ポケットモンスター サン・ムーン』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター サン・ムーン』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "Sound Roster -Behind the Scene- #2 GAME FREAK",
+   "date": "2017-12-27",
+   "date_raw": "2017年12月27日（2016.12.20 放送）",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/ydWfZFx0iXE?si=4jkixov6EPMS1Edf"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 開発部 サウンドデザイナー/プランナー - 一之瀬 剛さん",
+    "株式会社ゲームフリーク 取締役 兼 開発本部長  『ポケットモンスター サン・ムーン』プロデューサー - 増田 順一さん",
+    "株式会社ゲームフリーク 開発部 サウンドデザイナー - 足立 美奈子さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "【新連載：新世代に訊く】 『ポケモン』新作は“攻略”を検索される前提？ ゲームフリークの伝説を受け継ぐ若きディレクター達 【大森 滋氏・尾上 将之氏インタビュー】",
+   "date": "2017-07-03",
+   "date_raw": "2017年7月3日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/interview/170703"
+   ],
+   "speakers": [
+    "『ポケットモンスター サン・ムーン』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『GIGA WRECKER』ディレクター - 尾上 将之さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage.md"
+   ]
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "Exclusive Game Freak Interview On Player Freedom Vs. Story In Pokémon",
+   "date": "2017-08-12",
+   "date_raw": "2017年8月12日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/HgTUuEG96K4?si=GyG-jc-8_Ij_m8Y4"
+   ],
+   "speakers": [
+    "『ポケットモンスター サン・ムーン』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター サン・ムーン』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "An Exclusive Look At Pokémon's Early Design Documents",
+   "date": "2017-08-17",
+   "date_raw": "2017年8月17日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/9l8V_eQ6wGQ?si=Avq3yrpKjvoSGf39"
+   ],
+   "speakers": [
+    "『ポケットモンスター サン・ムーン』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター サン・ムーン』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "『ポケモン ウルトラサン・ウルトラムーン』について気になることをすべて聞いた！ マル秘情報も飛び出す開発者スペシャルインタビュー",
+   "date": "2017-10-19",
+   "date_raw": "2017年10月19日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201710/19143850.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ディレクター - 岩尾 和昌さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2017-10-19-interview-famitsu-usum-ohmori-iwao-director.md"
+   ]
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "『ポケットモンスター ウルトラサン・ウルトラムーン』公式サイト",
+   "date": "2017-06-06",
+   "date_raw": "2017年6月6日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/usum/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "EXCLUSIVE: Pokémon Ultra Sun & Ultra Moon Interview with Kazumasa Iwao & Shigeru Ohmori",
+   "date": "2017-10-19",
+   "date_raw": "2017年10月19日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/SetEyeL4qDg?si=O5ifZReNkfVIN771"
+   ],
+   "speakers": [
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ディレクター - 岩尾 和昌さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "『ポケモン ウルトラサン・ウルトラムーン』あのエピソードの真意は？ 開発者たちが明かす、ストーリー制作秘話【ネタバレ注意】",
+   "date": "2018-01-02",
+   "date_raw": "2018年1月2日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201801/02148529.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ディレクター - 岩尾 和昌さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ストーリープランニングセクションディレクター - 杉中 克考さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.md"
+   ]
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "「ポケットモンスター ウルトラサン・ウルトラムーン」のファンミーティングレポート。発売から半年が経過した今だから話せる秘話を，開発陣が語る",
+   "date": "2018-05-12",
+   "date_raw": "2018年5月12日",
+   "kind": "article",
+   "urls": [
+    "https://www.4gamer.net/games/383/G038332/20180512011/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ディレクター - 岩尾 和昌さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート",
+   "date": "2018-05-15",
+   "date_raw": "2018年5月15日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201805/15157253.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』プロデューサー - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ウルトラサン・ウルトラムーン』ディレクター - 岩尾 和昌さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music.md"
+   ]
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "『ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ』公式サイト",
+   "date": "2018-05-30",
+   "date_raw": "2018年5月30日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/pika_vee/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第七世代 : 『サン・ムーン』『ウルトラサン・ウルトラムーン』『Let's Go! ピカチュウ・Let's Go! イーブイ』",
+   "title": "Meet the Makers of Pokémon: Let’s Go, Pikachu! and Pokémon: Let’s Go, Eevee!",
+   "date": "2018-11-01",
+   "date_raw": "2018年11月1日（アーカイブ 2019.2.13）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20190213144405/https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/"
+   ],
+   "speakers": [
+    "『ポケットモンスター Let’s Go! ピカチュウ・Let’s Go! イーブイ』ディレクター - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター Let's Go! ピカチュウ・Let's Go! イーブイ』3Dマップグラフィックスリーダー - 菜花 健作さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "『ポケットモンスター ソード・シールド』公式サイト",
+   "date": "2019-02-27",
+   "date_raw": "2019年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/sword_shield/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "『ポケットモンスター ソード・シールド』の“いま聞きたいこと”について増田順一氏、大森滋氏を直撃。「連れて来られるポケモンの話」にも言及！【E32019】",
+   "date": "2019-06-13",
+   "date_raw": "2019年6月13日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201906/13177936.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori.md"
+   ]
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "We Interview Junichi Masuda and Shigeru Ohmori about Pokémon Sword and Pokémon Shield",
+   "date": "2019-06-13",
+   "date_raw": "2019年6月13日",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20190729033018/https://www.pokemon.com/us/pokemon-news/we-interview-junichi-masuda-and-shigeru-ohmori-about-pokemon-sword-and-pokemon-shield/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "101 Rapid-Fire Questions About Pokémon Sword And Shield",
+   "date": "2019-10-03",
+   "date_raw": "2019年10月3日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/5SlzAXoO6CE?si=4oGgQw819tA-7Z_w",
+    "https://pokejournal.hatenablog.com/entry/2019/10/04/002626"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Game Freak Explains Everything About Grookey From Pokémon Sword And Shield",
+   "date": "2019-10-08",
+   "date_raw": "2019年10月8日",
+   "kind": "video",
+   "urls": [
+    "https://www.youtube.com/watch?v=tYL48p-zABc"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』アートディレクター - ジェイムス・ターナーさん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-11-26-gamefreak-director-153.md",
+    "2013-01-21-gamefreak-director-233.md",
+    "2013-06-19-gamefreak-director-238.md",
+    "2013-06-20-gamefreak-director-239.md",
+    "2013-07-31-gamefreak-director-240.md",
+    "2015-09-11-gamefreak-director-244.md",
+    "2016-04-30-gamefreak-lineblog-3120585.md",
+    "2016-09-07-gamefreak-lineblog-6851197.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Game Freak Explains Everything About Scorbunny From Pokémon Sword And Shield",
+   "date": "2019-10-09",
+   "date_raw": "2019年10月9日",
+   "kind": "video",
+   "urls": [
+    "https://www.youtube.com/watch?v=bGSdQ1e4g_k"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』アートディレクター - ジェイムス・ターナーさん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2009-11-26-gamefreak-director-153.md",
+    "2013-01-21-gamefreak-director-233.md",
+    "2013-06-19-gamefreak-director-238.md",
+    "2013-06-20-gamefreak-director-239.md",
+    "2013-07-31-gamefreak-director-240.md",
+    "2015-09-11-gamefreak-director-244.md",
+    "2016-04-30-gamefreak-lineblog-3120585.md",
+    "2016-09-07-gamefreak-lineblog-6851197.md",
+    "2025-01-01-[整理]-GameFreak-Development-TimeLine.md"
+   ]
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Game Freak Explains Everything About Sobble From Pokémon Sword And Shield",
+   "date": "2019-10-10",
+   "date_raw": "2019年10月10日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/bGSdQ1e4g_k?si=ItFcEoUhuIN06f48"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』アートディレクター - ジェイムス・ターナーさん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Pokemon Sword & Shield interview: \"we have no regrets\" around the national dex",
+   "date": "2019-10-24",
+   "date_raw": "2019年10月24日",
+   "kind": "article",
+   "urls": [
+    "https://www.vg247.com/pokemon-sword-shield-interview-no-regrets-national-dex"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
+   "date": "2019-10-24",
+   "date_raw": "2019年10月24日",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20200417094135/https://www.gameinformer.com/interview/2019/10/24/game-freak-talks-sword-and-shields-champion-wild-area-interactions-and-more"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield",
+   "date": "2019-10-24",
+   "date_raw": "2019年10月24日",
+   "kind": "article",
+   "urls": [
+    "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー",
+   "date": "2019-10-25",
+   "date_raw": "2019年10月25日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201910/25185773.html"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "「ポケットモンスター ソード・シールド」インタビュー。「最強」をテーマに，子供たちが楽しめるものを目指して",
+   "date": "2019-11-15",
+   "date_raw": "2019年11月15日",
+   "kind": "article",
+   "urls": [
+    "https://www.4gamer.net/games/451/G045125/20191112090/"
+   ],
+   "speakers": [
+    "『ポケットモンスター ソード・シールド』プロデューサー - 増田 順一さん（ゲームフリーク）",
+    "『ポケットモンスター ソード・シールド』ディレクター - 大森 滋さん（ゲームフリーク）"
+   ],
+   "on_site": [
+    "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest.md"
+   ]
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "『ポケットモンスター ブリリアントダイヤモンド・シャイニングパール』公式サイト",
+   "date": "2021-02-27",
+   "date_raw": "2021年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/bdsp/ja/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第八世代 : 『ソード・シールド』『ブリリアントダイヤモンド・シャイニングパール』『LEGENDS アルセウス』",
+   "title": "『Pokémon LEGENDS アルセウス』公式サイト",
+   "date": "2021-02-27",
+   "date_raw": "2021年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/legends_arceus/ja/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "『ポケットモンスター スカーレット・バイオレット』公式サイト",
+   "date": "2022-02-27",
+   "date_raw": "2022年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/sv/ja/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "『ポケモン スカーレット・バイオレット』のピカチュウはシリーズ史上最高のふさふさ感を実現。『ポケモンレジェンズ アルセウス』との同時制作における制作環境を解説【CEDEC2022】",
+   "date": "2022-08-27",
+   "date_raw": "2022年8月27日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/202208/27273621.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 研究開発部 CGテクノロジーディレクター - 前澤 圭一さん"
+   ],
+   "on_site": [
+    "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline.md"
+   ]
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "『ポケットモンスター スカーレット・バイオレット』メイキング［PART1］扱う動きの幅が広い上に、いろいろなアイデアが求められる",
+   "date": "2023-04-19",
+   "date_raw": "2023年4月19日",
+   "kind": "article",
+   "urls": [
+    "https://cgworld.jp/article/202304-pokemon1.html",
+    "https://cgworld.jp/article/202304-pokemon2.html",
+    "https://cgworld.jp/article/202304-pokemon3.html"
+   ],
+   "speakers": [
+    "株式会社クリーチャーズ アートチームサブマネージャー - 米谷 由貴さん",
+    "株式会社クリーチャーズ アートチームマネージャー - 小野寺 瞬さん",
+    "株式会社クリーチャーズ アートチームマネージャー - 深谷 卓さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "『ポケモンSV』リアル調の世界とキュートな『ポケモンらしさ』を両立したビジュアル表現を徹底解説。「パルデア地方」の作り方や表情豊かな主人公の表現を紹介するセッションをレポート【CEDEC 2023】",
+   "date": "2023-08-24",
+   "date_raw": "2023年8月24日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/kikakuthetower/230824n"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 研究開発部 CGテクノロジーラボディレクター - 前澤 圭一さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "鳴き声で『ポケモン』世界のリアリティを生み出す。リアルな環境音を作り上げるヒントは山の中にあった【CEDEC2023】",
+   "date": "2023-08-24",
+   "date_raw": "2023年8月24日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/202308/24314405.html"
+   ],
+   "speakers": [
+    "一之瀬 剛さん（ゲームフリーク）",
+    "北村 一樹さん（コネクテコ）",
+    "岩本 翔さん（フリーランス）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "『Pokémon LEGENDS Z-A』公式サイト",
+   "date": "2024-02-27",
+   "date_raw": "2024年2月27日",
+   "kind": "official_site",
+   "urls": [
+    "https://www.pokemon.co.jp/ex/legends_z-a/ja/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "CEDEC2026『ポケモン』バトルシステム講演：複雑なシステムがどうなってるのか、ゲーフリの”専門家”に話を聞いてみた",
+   "date": "2026-07-22",
+   "date_raw": "2026年7月22日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/kikakuthetower/2607224z"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 研究開発部  プログラマ - 宗像 快さん",
+    "株式会社ゲームフリーク 研究開発部 プログラマ - 小幡 敏宏さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "第九世代 : 『スカーレット・バイオレット』『LEGENDS Z-A』",
+   "title": "「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】",
+   "date": "2026-07-23",
+   "date_raw": "2026年7月23日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/kikakuthetower/2607233k"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク CGテクノロジーラボ ディレクター - 前澤 圭一さん",
+    "株式会社ゲームフリーク CGテクノロジーラボ 基盤技術セクション 技術展開チーム リーダー - スパダフィーナ アルフレドさん",
+    "株式会社ゲームフリーク CGテクノロジーラボ ワークフローセクション セクションディレクター - 赤木 達也さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "外伝作品",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2003年8月号　\"ゲーム\"へのかつてない挑戦！『ポケモンチャンネル』＆『ファイナルファンタジー・クリスタルクロニクル』大特集",
+   "date": "2003-08",
+   "date_raw": "2003年8月（アーカイブ 2022.10.26）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221026122120/https://www.nintendo.co.jp/nom/0308/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン　石原 恒和さん（エクゼクティブプロデューサー）",
+    "有限会社アンブレラ　小澤 宗明さん（ディレクター）",
+    "有限会社アンブレラ　松村 憲男さん（ディレクター）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "外伝作品",
+   "title": "N.O.M　ニンテンドウオンラインマガジン　2003年11月号　No.064『ポケモンコロシアム』大特集＆ポケモンセンターフクオカがニューオープン",
+   "date": "2003-11",
+   "date_raw": "2003年11月（アーカイブ 2022.10.17）",
+   "kind": "nom",
+   "urls": [
+    "https://web.archive.org/web/20221017184114mp_/http://www.nintendo.co.jp/nom/0311/index.html"
+   ],
+   "speakers": [
+    "ジニアス・ソノリティ株式会社 代表取締役社長 ディレクター - 山名 学さん",
+    "ジニアス・ソノリティ株式会社 取締役 制作統括責任者 ミュージックディレクター - 多和田 吏さん",
+    "ジニアス・ソノリティ株式会社 企画室長 ゲームコンセプト - 三浦 明彦さん",
+    "ジニアス・ソノリティ株式会社 開発部 CGデザイナー グラフィックディレクター - 和田 隆則さん",
+    "ジニアス・ソノリティ株式会社 開発支援研究室長 プログラミングディレクター - 川本 昌之さん",
+    "シナリオライター - 折尾 一則さん",
+    "漫画家 キャラクターデザイン - ヒロモト 森一さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "外伝作品",
+   "title": "社長が訊く『バトル＆ゲット ポケモンタイピングDS』",
+   "date": "2011-04-22",
+   "date_raw": "2011年4月22日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/ds/interview/uzpj/vol1/index.html"
+   ],
+   "speakers": [
+    "任天堂 ネットワーク事業部 - 太田 雅彦さん",
+    "任天堂 開発技術部 - 福元 大輔さん",
+    "任天堂 開発技術部 - 桑原 雅人さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "外伝作品",
+   "title": "社長が訊く『ポケモン立体図鑑BW』",
+   "date": "2011-08-09",
+   "date_raw": "2011年8月9日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/3ds/interview/jrva/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん",
+    "株式会社クリーチャーズ - 小笠原 博之さん",
+    "株式会社クリーチャーズ - 竹内 理恵さん",
+    "株式会社クリーチャーズ - 折本 勝則さん"
+   ],
+   "on_site": [
+    "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "社長が訊く『スーパーポケモンスクランブル』",
+   "date": "2011-08-09",
+   "date_raw": "2011年8月9日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/3ds/interview/accj/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん",
+    "有限会社アンブレラ ディレクター - 松村 憲男さん",
+    "有限会社アンブレラ 代表取締役社長 - 小澤 宗明さん"
+   ],
+   "on_site": [
+    "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "社長が訊く『ポケモン不思議のダンジョン　 ～マグナゲートと∞迷宮（むげんだいめいきゅう）～』",
+   "date": "2012-11-15",
+   "date_raw": "2012年11月15日",
+   "kind": "iwata_asks",
+   "urls": [
+    "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん",
+    "株式会社スパイク・チュンソフト 執行役員第二、第三開発グループ担当 - 長畑 成一朗さん",
+    "株式会社スパイク・チュンソフト 第二開発グループ 第一プランニングセレクション マネージャー - 冨江 慎一郎さん"
+   ],
+   "on_site": [
+    "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！",
+   "date": "2018-03-30",
+   "date_raw": "2018年3月30日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/201803/30154405.html"
+   ],
+   "speakers": [
+    "株式会社クリーチャーズ 取締役『名探偵ピカチュウ』プロデューサー - 陣内 弘之さん",
+    "株式会社クリーチャーズ クリエイティブディレクター『名探偵ピカチュウ』ディレクター - 宮下 尚生さん"
+   ],
+   "on_site": [
+    "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "石原社長＆須崎Dに聞く『New ポケモンスナップ』開発秘話。写真を撮ることがより手軽になった2021年、ゲームデザインは前作からどう進化したのか？",
+   "date": "2021-04-30",
+   "date_raw": "2021年4月30日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/202104/30218824.html"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長・最高経営責任者 - 石原 恒和さん",
+    "『New ポケモンスナップ』ディレクター - 須崎 春樹さん（バンダイナムコスタジオ）"
+   ],
+   "on_site": [
+    "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も",
+   "date": "2023-10-19",
+   "date_raw": "2023年10月19日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/news/202310/19320055.html"
+   ],
+   "speakers": [
+    "株式会社クリーチャーズ 常務取締役 - 陣内 弘之さん",
+    "株式会社ポケモン 代表取締役社長 CEO兼クリーチャーズファウンダー - 石原 恒和さん"
+   ],
+   "on_site": [
+    "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "「あの瞬間」何が起きていたのか？ キーマンたちが初めて語るポケモン GOリリース直後の熱狂、その舞台裏【ポケモン石原恒和×ナイアンティック川島優志×ゲームフリーク増田順一】",
+   "date": "2018-06-08",
+   "date_raw": "2018年6月8日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/interview/180608"
+   ],
+   "speakers": [
+    "株式会社ポケモン 代表取締役社長 - 石原 恒和さん",
+    "Niantic, Inc.アジア統括本部長 - 川島 優志さん",
+    "株式会社ゲームフリーク 取締役 開発本部長 - 増田 順一さん"
+   ],
+   "on_site": [
+    "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle.md"
+   ]
+  },
+  {
+   "section": "外伝作品",
+   "title": "【ぽこポケ】『ぽこ あ ポケモン』開発インタビュー。大森滋氏が『ポケットモンスター』開発時に“マップに草むらを置いた”経験から生まれた！ コーエーテクモゲームスと開発をともにした経緯、ボリューム、マルチプレイの仕様など超深堀り！ | ゲーム・エンタメ最新情報のファミ通.com",
+   "date": "2026-02-16",
+   "date_raw": "2026年2月16日",
+   "kind": "article",
+   "urls": [
+    "https://www.famitsu.com/article/202602/66124"
+   ],
+   "speakers": [
+    "株式会社ポケモン 開発プロデュース本部 アプリ事業部 ディレクター",
+    "『ぽこ あ ポケモン』プロデューサー - 村田 佳奈子さん",
+    "株式会社ゲームフリーク 取締役 開発本部長",
+    "『ぽこ あ ポケモン』コンセプト ＆シニアディレクター - 大森 滋さん",
+    "株式会社コーエーテクモゲームス　エンタテインメント事業部　ω-Forceブランド2部 部長",
+    "『ぽこ あ ポケモン』チーフディレクター - 枝川 拓人さん",
+    "株式会社コーエーテクモゲームス　エンタテインメント制作本部CG1部マネジャー",
+    "『ぽこ あ ポケモン』アートディレクター - 綾野 万里奈さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "ゲームフリークスタッフ時々日記　晴れたり時々曇ったり",
+   "date": "2007",
+   "date_raw": "2007年～2012年更新",
+   "kind": "staff_blog",
+   "urls": [
+    "https://web.archive.org/web/20130414143005/http://www.gamefreak.co.jp/blog/staff/?page_id=245"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "増田部長のめざめるパワー",
+   "date": "",
+   "date_raw": "",
+   "kind": "article",
+   "urls": [],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "杉森建のおえかき日和",
+   "date": "2007",
+   "date_raw": "2007年〜2011年更新",
+   "kind": "staff_blog",
+   "urls": [
+    "https://web.archive.org/web/20130115083749/https://www.gamefreak.co.jp/blog/art/"
+   ],
+   "speakers": [],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "【公式】世間を騒がせた幻のポケモン「ミュウ」の誕生秘話！【#ゲームフリークひみつ きち#10】",
+   "date": "2019-01-18",
+   "date_raw": "2019年1月18日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/TTjUKpNjW-g?si=N08qf_NaWagoxpce",
+    "https://youtu.be/LIqv16TfQ3Q?si=-61g_K1ZEKZjZbWb",
+    "https://youtu.be/LlNd2aWXN3c?si=4gSI65HhrrbAQ08C",
+    "https://youtu.be/z7kRLPqlyVc?si=h8dYPlOtGX_3cvXW"
+   ],
+   "speakers": [
+    "森本 茂樹さん（ゲームフリーク）",
+    "田谷 正夫さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "Gpara.com クリエイターズ・ファイル：「作品にはこだわりを持って」ゲームフリーク吉田さん",
+   "date": "2006-04-24",
+   "date_raw": "2006年4月24日（アーカイブ 2008.7.4）",
+   "kind": "article",
+   "urls": [
+    "https://web.archive.org/web/20080704081535/http://www.gpara.com/contents/creator/bn_225.htm"
+   ],
+   "speakers": [
+    "キャラクターデザイナー - 吉田 宏信さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺 哲也氏に聞いた",
+   "date": "2013-10-08",
+   "date_raw": "2013年10月8日",
+   "kind": "article",
+   "urls": [
+    "https://www.4gamer.net/games/226/G022607/20131007064/"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発1部部長 - 渡辺 哲也さん",
+    "株式会社ゲームフリーク 取締役 アートディレクター - 杉森 建さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "ついにファミコンの名作、あの「クインティ」が帰ってきた！ - GAME Watch",
+   "date": "2014-07-02",
+   "date_raw": "2014年7月2日",
+   "kind": "article",
+   "urls": [
+    "https://game.watch.impress.co.jp/docs/news/655639.html"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 取締役 開発本部部長 - 増田 順一さん",
+    "株式会社ゲームフリーク 取締役 アートディレクター - 杉森 建さん"
+   ],
+   "on_site": [
+    "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto.md"
+   ]
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "「ゼビウス」がなければ「ポケモン」は生まれなかった！？———遠藤雅伸、田尻智、杉森建がその魅力を鼎談。ゲームの歴史を紐解く連載シリーズ「ゲームの企画書」第一回",
+   "date": "2016-02-08",
+   "date_raw": "2016年2月8日",
+   "kind": "article",
+   "urls": [
+    "https://news.denfaminicogamer.jp/projectbook/xevious"
+   ],
+   "speakers": [
+    "東京工芸大学教授、宮城大学客員教授 - 遠藤 雅伸さん",
+    "株式会社ゲームフリーク 代表取締役社長 - 田尻 智さん",
+    "株式会社ゲームフリーク 取締役 - 杉森 建さん"
+   ],
+   "on_site": [
+    "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo.md"
+   ]
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "お客様インタビュー Vol.05 株式会社ゲームフリーク様",
+   "date": "2018",
+   "date_raw": "2018年",
+   "kind": "article",
+   "urls": [
+    "https://sei-syou.com/jisseki/gamefreak"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 経営管理部 - 原口 志保さん"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "田辺恵二の音楽をいっぱいいじっちゃうぞVIDEOS Vol 48 \"一之瀬 剛さんインタビュー\"",
+   "date": "2018-07-09",
+   "date_raw": "2018年7月9日",
+   "kind": "video",
+   "urls": [
+    "https://youtu.be/6-mSPoaRRj0?si=jnkthrmZjRmii8WB"
+   ],
+   "speakers": [
+    "サウンドクリエーター - 一之瀬 剛さん（ゲームフリーク）"
+   ],
+   "on_site": []
+  },
+  {
+   "section": "ゲームフリーク関連",
+   "title": "【話の肖像画】 ゲームクリエーター・田尻智（１）人気ポケモンの生みの親",
+   "date": "2018-09-03",
+   "date_raw": "2018年9月3日",
+   "kind": "article",
+   "urls": [
+    "https://www.sankei.com/article/20180903-27VBSQFENFIRHPWKU6PK4VODWA/?outputType=theme_portrait"
+   ],
+   "speakers": [
+    "株式会社ゲームフリーク 代表取締役社長 - 田尻 智さん"
+   ],
+   "on_site": []
+  }
+ ]
+}

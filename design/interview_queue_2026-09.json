@@ -771,9 +771,36 @@
    "田尻智"
   ],
   "master_id": "PKMN-0683",
-  "queue_status": "title_only",
+  "queue_status": "no_interview",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "4Gamer 上只有两条 CESA 新闻稿（受賞者発表 / 授賞式），无访谈；授賞理由全文可作档案引用",
+  "resolved": [
+   {
+    "url": "https://www.4gamer.net/games/131/G013104/20110831050/",
+    "title": "「CEDEC AWARDS 2011」の受賞者発表。「特別賞」にはゲームフリークの田尻 智氏とポケモンの石原恒和氏",
+    "date": "2011-08-31",
+    "people": [
+     "田尻智",
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "news",
+    "note": "含授賞理由全文"
+   },
+   {
+    "url": "https://www.4gamer.net/games/000/G000000/20110907087/",
+    "title": "「CEDEC AWARDS 2011」5部門の最優秀賞および，特別賞と著述賞が発表に",
+    "date": "2011-09-07",
+    "people": [
+     "田尻智",
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "press_release"
+   }
+  ]
  },
  {
   "date": "2013-10-11",
@@ -799,9 +826,35 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0844",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到；2013-09-19 增田顺一 × 吉田宏信，法语问答体，约 10 KB",
+  "resolved": [
+   {
+    "url": "https://www.jeuxvideo.com/news/2013/00068032-interview-sur-pokemon-x-et-y.htm",
+    "title": "Interview sur Pokémon X et Y",
+    "date": "2013-09-19",
+    "people": [
+     "增田顺一",
+     "吉田宏信"
+    ],
+    "language": "FR",
+    "kind": "interview"
+   },
+   {
+    "url": "https://www.jeuxvideo.com/news/1130129/junichi-masuda-c-est-difficile-de-creer-de-nouveaux-pokemon.htm",
+    "title": "Junichi Masuda : \"C'est difficile de créer de nouveaux Pokémon\"",
+    "date": "",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "FR",
+    "kind": "interview",
+    "note": "同站另一篇，日期待核"
+   }
+  ]
  },
  {
   "date": "2013-10-20",
@@ -814,9 +867,34 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0846",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到；2013-09-20 伦敦试玩会专访（不是米兰），意大利语问答体，约 9 KB",
+  "resolved": [
+   {
+    "url": "https://multiplayer.it/articoli/123457-pokemon-x-quel-mostro-di-junichi-masuda.html",
+    "title": "Quel mostro di Junichi Masuda",
+    "date": "2013-09-20",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "IT",
+    "kind": "interview"
+   },
+   {
+    "url": "https://multiplayer.it/articoli/pokemon-spada-scudo-differenze-missioni-secondarie-molto-altro-intervista-junichi-masuda.html",
+    "title": "Pokémon Spada e Scudo: differenze, missioni secondarie e molto altro — intervista a Junichi Masuda",
+    "date": "2019",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "IT",
+    "kind": "interview",
+    "note": "同站剑盾期专访"
+   }
+  ]
  },
  {
   "date": "2014-10-20",
@@ -832,9 +910,34 @@
    "大森滋"
   ],
   "master_id": "PKMN-0837",
-  "queue_status": "title_only",
+  "queue_status": "no_such_article",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "Polygon 没有 2014 年宝可梦口述史；最接近的真实长文是 2018-09-27 增田谈红蓝开发、2019-10-24 增田×大森剑盾专访",
+  "resolved": [
+   {
+    "url": "https://www.polygon.com/interviews/2018/9/27/17909916/pokemon-red-blue-junichi-masuda-interview/",
+    "title": "Pokémon director Junichi Masuda talks developing Red and Blue",
+    "date": "2018-09-27",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   },
+   {
+    "url": "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/",
+    "title": "Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield",
+    "date": "2019-10-24",
+    "people": [
+     "增田顺一",
+     "大森滋"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   }
+  ]
  },
  {
   "date": "2014-11-01",
@@ -905,9 +1008,44 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0685",
-  "queue_status": "title_only",
+  "queue_status": "no_such_article",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "famitsu.com 无此文，田尻不参加重聚式访谈；20 周年真正的长访谈是 INSIDE 2016-02-27 石原恒和（平林久和×土本学），gamebusiness.jp 同稿",
+  "resolved": [
+   {
+    "url": "https://www.inside-games.jp/article/2016/02/27/96339.html",
+    "title": "ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦・・・株式会社ポケモン代表取締役社長・石原恒和氏インタビュー",
+    "date": "2016-02-27",
+    "people": [
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "interview"
+   },
+   {
+    "url": "https://www.gamebusiness.jp/article/2016/03/03/12036.html",
+    "title": "（同稿）ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦",
+    "date": "2016-03-03",
+    "people": [
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "interview",
+    "note": "INSIDE 同一采访的 GameBusiness 版"
+   },
+   {
+    "url": "https://animeanime.jp/article/2016/02/28/27207.html",
+    "title": "\"ポケモン20年目の挑戦\" 株式会社ポケモン代表取締役社長 石原恒和氏 講演",
+    "date": "2016-02-28",
+    "people": [
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "lecture_report"
+   }
+  ]
  },
  {
   "date": "2016-10-19",
@@ -920,9 +1058,34 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0838",
-  "queue_status": "title_only",
+  "queue_status": "replaced",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "Polygon 2016 无此文；「绝不 F2P」的出处是 Pocket Gamer 2013-09-19（X·Y 期，另有当日全文访谈待找）；Polygon 2014-10-14 是从 ORAS 采访摘出的手游态度短讯",
+  "resolved": [
+   {
+    "url": "https://www.pocketgamer.com/pokemon-x-pokemon-y/game-freaks-junichi-masuda-on-free-to-play-pokemon-not-as-long-as-im-director/",
+    "title": "Game Freak's Junichi Masuda on free-to-play Pokemon: 'not as long as I'm director'",
+    "date": "2013-09-19",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "news",
+    "note": "文末称同日另发全文访谈，地址未找到"
+   },
+   {
+    "url": "https://www.polygon.com/2014/10/14/6949455/pokemon-mobile-game-freak-omega-ruby-alpha-sapphire/",
+    "title": "Game Freak will only bring Pokémon to mobile if it solves a 'problem'",
+    "date": "2014-10-14",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "news"
+   }
+  ]
  },
  {
   "date": "2016-11-20",
@@ -935,9 +1098,35 @@
    "大森滋"
   ],
   "master_id": "PKMN-0839",
-  "queue_status": "title_only",
+  "queue_status": "replaced",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "Kotaku 无究极异兽专访；2016-10 Patricia Hernandez 电话采访增田×大森实际产出两篇（御三家偏好 / 阿罗拉设计为何荒诞）",
+  "resolved": [
+   {
+    "url": "https://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
+    "title": "Pokémon Sun and Moon's Devs Respond To The Popplio Backlash",
+    "date": "2016-10-19",
+    "people": [
+     "增田顺一",
+     "大森滋"
+    ],
+    "language": "EN",
+    "kind": "interview_news"
+   },
+   {
+    "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
+    "title": "The Creators of Pokémon Explain Why Sun and Moon Has Ridiculous Monster Designs",
+    "date": "2016-10-25",
+    "people": [
+     "增田顺一",
+     "大森滋"
+    ],
+    "language": "EN",
+    "kind": "interview_news"
+   }
+  ]
  },
  {
   "date": "2016-12-12",
@@ -965,9 +1154,48 @@
    "大森滋"
   ],
   "master_id": "PKMN-0829",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到（旧 .aspx 地址仍可访问）；同系列 08/09 起源、08/10 设计、08/14 RS、08/17 动画 站内已有，09/22 金银史、08/18 USUM 新模式未收",
+  "resolved": [
+   {
+    "url": "https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs",
+    "title": "Game Freak's Directors Share Their Favorite Pokémon Spin-Offs",
+    "date": "2017-08-15",
+    "people": [
+     "增田顺一",
+     "大森滋"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   },
+   {
+    "url": "https://gameinformer.com/b/features/archive/2017/09/22/the-history-of-pokemon-gold-and-silver.aspx",
+    "title": "The History Of Pokémon Gold And Silver",
+    "date": "2017-09-22",
+    "people": [
+     "增田顺一",
+     "森本茂树"
+    ],
+    "language": "EN",
+    "kind": "feature",
+    "note": "同系列，站内未收"
+   },
+   {
+    "url": "https://www.gameinformer.com/b/features/archive/2017/08/18/exclusive-reveal-of-a-new-mode-in-pokemon-ultra-sun-and-moon.aspx",
+    "title": "Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon",
+    "date": "2017-08-18",
+    "people": [
+     "大森滋",
+     "岩尾和昌"
+    ],
+    "language": "EN",
+    "kind": "feature",
+    "note": "同系列，站内未收"
+   }
+  ]
  },
  {
   "date": "2017-11-06",
@@ -997,9 +1225,24 @@
    "菜花健作"
   ],
   "master_id": "PKMN-0845",
-  "queue_status": "title_only",
+  "queue_status": "already_on_site",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "地址本来就对（之前脚本探测被反爬拦成 404）；站内已有 2018-10-26-interview-eurogamer-masuda-nabana-lets-go.md",
+  "resolved": [
+   {
+    "url": "https://www.eurogamer.de/pokemon-lets-go-pikachu-und-evoli-der-lange-weg-zum-meistertrainer",
+    "title": "Pokémon: Let's Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer",
+    "date": "2018-10-18",
+    "people": [
+     "增田顺一",
+     "菜花健作"
+    ],
+    "language": "DE",
+    "kind": "interview"
+   }
+  ]
  },
  {
   "date": "2019-05-15",
@@ -1013,9 +1256,34 @@
    "Creatures团队"
   ],
   "master_id": "PKMN-0695",
-  "queue_status": "title_only",
+  "queue_status": "not_online",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "cgworld.jp 没有 2019 年电影专题（应为纸刊 CGWORLD 特集，走扫描线）；站上真实的宝可梦 CG 稿是 2023 SV メイキング三篇（Creatures）和 2023 帰ってきた名探偵ピカチュウ 制作実績",
+  "resolved": [
+   {
+    "url": "https://cgworld.jp/article/202304-pokemon1.html",
+    "title": "『ポケットモンスター スカーレット・バイオレット』メイキング［PART1］",
+    "date": "2023-04-19",
+    "people": [
+     "米谷由貴",
+     "小野寺瞬",
+     "深谷卓"
+    ],
+    "language": "JA",
+    "kind": "making",
+    "note": "PART2 202304-pokemon2.html、PART3 202304-pokemon3.html"
+   },
+   {
+    "url": "https://cgworld.jp/stnews/30060/1696657245.html",
+    "title": "【制作実績】帰ってきた 名探偵ピカチュウ",
+    "date": "2023-10",
+    "people": [],
+    "language": "JA",
+    "kind": "news"
+   }
+  ]
  },
  {
   "date": "2019-10-01",
@@ -1028,9 +1296,23 @@
    "增田顺一"
   ],
   "master_id": "PKMN-0830",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到；2019-10-01 Brian Shea，封面报道随文",
+  "resolved": [
+   {
+    "url": "https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future",
+    "title": "Pokémon Cut From Sword And Shield's National Pokédex Will Return In The Future",
+    "date": "2019-10-01",
+    "people": [
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   }
+  ]
  },
  {
   "date": "2019-10-04",
@@ -1043,9 +1325,44 @@
    "James Turner"
   ],
   "master_id": "PKMN-0831",
-  "queue_status": "title_only",
+  "queue_status": "replaced",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "James Turner 没有独立文字专访；其发言在封面长文 Going Big（37 KB，Turner 出现 11 次）；另有 10/14 画法视频与 10/04 概念图集",
+  "resolved": [
+   {
+    "url": "https://www.gameinformer.com/feature/2019/11/13/going-big",
+    "title": "Going Big (Pokémon Sword and Shield cover story)",
+    "date": "2019-11-13",
+    "people": [
+     "大森滋",
+     "增田顺一",
+     "James Turner",
+     "岩尾和昌"
+    ],
+    "language": "EN",
+    "kind": "cover_story"
+   },
+   {
+    "url": "https://gameinformer.com/exclusive-video/2019/10/14/how-pokemon-sword-and-shields-art-director-james-turner-draws-pokemon",
+    "title": "How Pokémon Sword And Shield's Art Director James Turner Draws Pokémon",
+    "date": "2019-10-14",
+    "people": [
+     "James Turner"
+    ],
+    "language": "EN",
+    "kind": "video"
+   },
+   {
+    "url": "https://www.gameinformer.com/gallery/2019/10/04/exclusive-pokemon-sword-and-shield-concept-art-gallery",
+    "title": "Exclusive Pokémon Sword And Shield Concept Art Gallery",
+    "date": "2019-10-04",
+    "people": [],
+    "language": "EN",
+    "kind": "gallery"
+   }
+  ]
  },
  {
   "date": "2019-10-08",
@@ -1058,9 +1375,36 @@
    "岩尾和昌"
   ],
   "master_id": "PKMN-0832",
-  "queue_status": "title_only",
+  "queue_status": "replaced",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "岩尾和昌没有独立专访；极巨化内容在封面长文 Going Big（Iwao 8 次、Dynamax 20 次）和 10/01 Max Raid 随文",
+  "resolved": [
+   {
+    "url": "https://www.gameinformer.com/feature/2019/11/13/going-big",
+    "title": "Going Big (Pokémon Sword and Shield cover story)",
+    "date": "2019-11-13",
+    "people": [
+     "大森滋",
+     "增田顺一",
+     "James Turner",
+     "岩尾和昌"
+    ],
+    "language": "EN",
+    "kind": "cover_story"
+   },
+   {
+    "url": "https://gameinformer.com/2019/10/01/sword-and-shields-max-raid-battles-could-be-among-pokemons-most-challenging-encounters",
+    "title": "Sword And Shield's Max Raid Battles Could Be Among Pokémon's Most Challenging Encounters",
+    "date": "2019-10-01",
+    "people": [
+     "大森滋"
+    ],
+    "language": "EN",
+    "kind": "feature"
+   }
+  ]
  },
  {
   "date": "2019-10-11",
@@ -1073,9 +1417,46 @@
    "大森滋"
   ],
   "master_id": "PKMN-0833",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到；2019-10-24 Redwood City 补访（冠军丹帝、旷野地带互动、时间线），同日另有 More Burning Questions",
+  "resolved": [
+   {
+    "url": "https://gameinformer.com/interview/2019/10/24/game-freak-talks-sword-and-shields-champion-wild-area-interactions-and-more",
+    "title": "Game Freak Talks Sword And Shield's Champion, Wild Area Interactions, And More",
+    "date": "2019-10-24",
+    "people": [
+     "大森滋",
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   },
+   {
+    "url": "https://gameinformer.com/interview/2019/10/24/more-burning-questions-for-the-pokemon-series",
+    "title": "More Burning Questions For The Pokémon Series",
+    "date": "2019-10-24",
+    "people": [
+     "大森滋",
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "interview"
+   },
+   {
+    "url": "https://gameinformer.com/e3-2019/2019/06/11/pokemon-sword-and-shields-developers-exhibit-the-open-world-wild-area",
+    "title": "Pokémon Sword And Shield's Developers Exhibit The Open-World Wild Area",
+    "date": "2019-06-11",
+    "people": [
+     "大森滋",
+     "增田顺一"
+    ],
+    "language": "EN",
+    "kind": "feature"
+   }
+  ]
  },
  {
   "date": "2021-02-27",
@@ -1088,9 +1469,34 @@
    "石原恒和"
   ],
   "master_id": "PKMN-0686",
-  "queue_status": "title_only",
+  "queue_status": "replaced",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "famitsu.com 无 25 周年石原专访；25 周年当天的真实长访谈是 ORICON 2021-02-27；東京新聞〈あの人に迫る〉另一篇待核日期",
+  "resolved": [
+   {
+    "url": "https://www.oricon.co.jp/news/2185697/full/",
+    "title": "「ポケモン」新たな遊び開拓続けた25年　石原恒和社長、核“人との繋がり”に手応え",
+    "date": "2021-02-27",
+    "people": [
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "interview"
+   },
+   {
+    "url": "https://www.tokyo-np.co.jp/article/377497",
+    "title": "<あの人に迫る>石原恒和 ポケモン社長 面白いもの追求、世界へ",
+    "date": "",
+    "people": [
+     "石原恒和"
+    ],
+    "language": "JA",
+    "kind": "interview",
+    "note": "日期待核，可能有付费墙"
+   }
+  ]
  },
  {
   "date": "2022-01-28",
@@ -1234,9 +1640,22 @@
    "岩尾和昌"
   ],
   "master_id": "PKMN-0684",
-  "queue_status": "title_only",
+  "queue_status": "not_interview",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "4Gamer 年末「ゲーム業界著名人コメント集」是每年一篇、一人一段的寄语合集，不是专访；GF 成员是否每年参与未核（2025 首页无）。不建议收录",
+  "resolved": [
+   {
+    "url": "https://www.4gamer.net/games/999/G999905/20251219044/",
+    "title": "4Gamer年末恒例の「ゲーム業界著名人コメント集」企画。194名が2025年を振り返り,新年への決意を語る",
+    "date": "2025-12-19",
+    "people": [],
+    "language": "JA",
+    "kind": "comment_collection",
+    "note": "2024: 20241216014 / 2023: 20231220015 / 2021: 20211220028"
+   }
+  ]
  },
  {
   "date": "2026-02-27",
@@ -1250,8 +1669,47 @@
    "小幡敏宏"
   ],
   "master_id": "PKMN-0682",
-  "queue_status": "title_only",
+  "queue_status": "resolved",
   "url_live": 404,
-  "reason": "URL 为生成值，404；标题可作检索线索"
+  "reason": "URL 为生成值，404；标题可作检索线索",
+  "resolved_on": "2026-09-16",
+  "resolution": "真实地址找到；是 CEDEC 2026 讲演报道（宗像快 × 小幡敏宏「ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例」），4Gamer 与 電ファミ 各一篇，非问答体",
+  "resolved": [
+   {
+    "url": "https://www.4gamer.net/games/897/G089789/20260728007/",
+    "title": "ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pokémon LEGENDS Z-A」での運用事例［CEDEC 2026］",
+    "date": "2026-07-28",
+    "people": [
+     "宗像快",
+     "小幡敏宏"
+    ],
+    "language": "JA",
+    "kind": "lecture_report"
+   },
+   {
+    "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607224z",
+    "title": "『ポケモン』の複雑すぎるバトルシステムがどうなっているのか、ゲーフリの“ポケモンバトル”専門家に聞いてみた【CEDEC2026】",
+    "date": "2026-07-22",
+    "people": [
+     "宗像快",
+     "小幡敏宏"
+    ],
+    "language": "JA",
+    "kind": "lecture_report"
+   },
+   {
+    "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
+    "title": "「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】",
+    "date": "2026-07-23",
+    "people": [
+     "前澤圭一",
+     "スパダフィーナ アルフレド",
+     "赤木達也"
+    ],
+    "language": "JA",
+    "kind": "lecture_report",
+    "note": "同届另一场 Z-A 描画技術讲演"
+   }
+  ]
  }
 ]
