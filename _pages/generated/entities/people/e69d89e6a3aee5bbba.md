@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>杉森建</h2>
-    <span>47 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2005 / 2002 / 2000 / 1997</span>
+    <span>44 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2005 / 2002 / 2000 / 1997</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -76,12 +76,6 @@ search: false
   <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
   <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-ken-sugimori-got-artists-block-duri/">[访谈翻译] Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</a></h3>
-  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -211,12 +205,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2010 · interview_translation · ‘Pokemon Peer’ Interview Translations (Pokemon Pia 2010)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2010-09-01-pokebeach-pokemon-pia/">[访谈翻译] Pokémon Pia 杂志访谈英译：第五世代宝可梦与角色设计揭秘</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「幻影の覇者 ゾロアーク」デザイン画</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-8/">【设定资料】2010年索罗亚克角色设计</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 钻石·珍珠&lt;br “幻影的霸者 索罗亚克”&lt;br 这是动画原创角色设计稿。 今年也要把由 GAME FREAK 绘制的&lt;br 动画原创角色设计稿一次性公开给大家！&lt;br ※由于是原案设计，实际使用的角色在&lt;br 细节和颜色等方面会有所不同 评论：杉森建 ■科代&lt;br “能看</span>
@@ -279,12 +267,6 @@ search: false
 <article class="resource-network-card">
   <p>2002 · interview_translation · 1-5 開発者よりみなさまへのメッセージ｜Nintendo Online Magazine 2002年11月号 No.52</p>
   <h3><a href="/interview-nom-ruby-sapphire-art-director-sugimori/">N.O.M 2002年11月号：『红宝石·蓝宝石』美术与生态特征（杉森建篇：GBA色彩飞跃与新怪兽克制美学）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2000 · interview_translation · Nintendo Power Vol. 134</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-gs-bigwigs/">[访谈翻译] Nintendo Power 专访 Game Freak 主创团队：《金·银》漫长开发与被舍弃的数百只宝可梦</a></h3>
   <span></span>
 </article>
 

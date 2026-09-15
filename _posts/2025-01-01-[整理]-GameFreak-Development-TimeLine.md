@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "[整理] 近年 Game Freak 开发事件年表"
 date: 2025-1-1
 categories: [Game Freak,整理]

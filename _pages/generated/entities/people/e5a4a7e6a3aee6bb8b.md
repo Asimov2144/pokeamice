@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>大森滋</h2>
-    <span>21 篇文章 · 0 条评注 · 2025 / 2019 / 2018 / 2017 / 2016 / 2014 / 2012 / 2010 / 2009 / 2005</span>
+    <span>16 篇文章 · 0 条评注 · 2025 / 2019 / 2018 / 2017 / 2016 / 2010 / 2009 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -49,12 +49,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-201805300063/">[访谈翻译] 「ポケモンクエスト」「ポケモン Let&#39;s Go! ピカチュウ・Let&#39;s Go! イーブイ」、そしてSwitch向け完全新作にも言及したポケモン新作発表会をレポート</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · Pokemon.com / PocketMonsters.net</p>
   <h3><a href="/interview-pokemon-com-usum-ohmori-iwao/">Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道</a></h3>
   <span></span>
@@ -73,12 +67,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-20170905-pokemon-early-design-docum/">[访谈翻译] ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · Why Ruby And Sapphire Were The Most Challenging Pokémon To Make</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-game-informer-why-ruby-sapphire-most-challenging/">[访谈翻译] 《Game Informer》独家专访：增田顺一复盘《红宝石·蓝宝石》极限开发（GBA跨代阵痛、特性性格革命与重压下的进退维谷）</a></h3>
   <span></span>
@@ -91,12 +79,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2017-07-03)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-new-generation/">[访谈翻译] 电玩志专访大森滋与尾上将之：新作是假定会被搜索引擎查攻略？继承 Game Freak 传奇的年轻总监们</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
   <span></span>
@@ -105,18 +87,6 @@ search: false
 <article class="resource-network-card">
   <p>2016 · interview_translation · 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-25043/">[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cronica-ideame-kids-con-junichi-mas/">[访谈翻译] 增田顺一与大森滋与iDÉAME的孩子们</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2012 · interview_translation · HGSS 众 采访</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg-hgss-interview-2010-03-31/">[访谈翻译] HGSS 众 采访</a></h3>
   <span></span>
 </article>
 

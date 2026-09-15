@@ -47,7 +47,6 @@ parallel_items:
 - speaker: 4Gamer
   original: 2023年8月23日，在游戏开发者大会‘CEDEC 2023’上，Game Freak 的 CG 技术总监前泽圭一进行了题为《【宝可梦 朱·紫】帕底亚地区全景渲染——画面机制彻底解密！》的主题演讲。全系列一贯秉承‘仅看画面就能认出是哪部作品’的前提进行研发。本讲座以《宝可梦 朱·紫》为例，从着色器渲染到资产构建，全面解析宝可梦、主角与开放世界大地的视觉技术体系。
   translation: 2023年8月23日，在游戏开发者大会“CEDEC 2023”上，Game Freak的CG技术总监前泽圭一发表了题为《【宝可梦 朱·紫】帕底亚地区全景渲染——画面机制彻底解密！》的主题演讲。该系列一贯秉承“仅凭画面即可辨识作品”的理念进行开发。本次讲座以《宝可梦 朱·紫》为例，从着色器渲染到资产构建，全面剖析了宝可梦、主角以及开放世界大地的视觉技术体系。
-  note: ''
 - type: heading
   level: 3
   original: 'Artistic Direction: Finding Harmony Between Stylized Characters and Realistic Environments'
@@ -55,7 +54,6 @@ parallel_items:
 - speaker: 前泽圭一
   original: 在《宝可梦 朱·紫》中，视觉核心概念被定义为‘写实与变形（Real & Deformed）’。我们的目标是将大自然背景的质感与地貌朝真实物理方向靠拢。然而，宝可梦和人类角色是高度卡通变形的，因此必须找到将它们完美融为一体的平衡折中点。
   translation: 在《宝可梦 朱·紫》中，视觉核心概念被定义为“写实与变形（Real & Deformed）”。我们的目标是将自然背景的质感与地貌向真实物理方向靠拢。然而，宝可梦和人类角色是高度卡通化的变形设计，因此必须找到将两者完美融合的平衡点。
-  note: ''
 - type: heading
   level: 3
   original: 'Pokémon Shaders: Subsurface Scattering, Paradox Particles, and Terastal Stereoscopic Crystals'
@@ -103,7 +101,6 @@ parallel_items:
 - speaker: 4Gamer
   original: 以上便是本次演讲的精髓。通过写实材质、程序化地形、次表面散射与多层晶格着色等一系列先进图形管线的配合，Game Freak 成功描绘出了兼具宝可梦梦幻魅力与广袤自然尺度的全新帕底亚大世界。
   translation: 以上便是本次演讲的精髓。通过写实材质、程序化地形、次表面散射与多层晶格着色等一系列先进图形管线的配合，Game Freak成功描绘出了兼具宝可梦梦幻魅力与广袤自然尺度的全新帕底亚大世界。
-  note: ''
 original_lang: zh
 display_title: 描摹广袤帕底亚：Game Freak 详解《宝可梦 朱·紫》全开放世界视觉渲染与着色器架构
 ---

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 X·Y</h2>
-    <span>42 篇文章 · 0 条评注 · 2019 / 2017 / 2016 / 2015 / 2014 / 2013</span>
+    <span>40 篇文章 · 0 条评注 · 2019 / 2017 / 2016 / 2015 / 2014 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -163,6 +163,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 4Gamer.net</p>
+  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · ファミ通.com 特集記事：『ポケモン』音楽のさまざまな秘密が語られたファンミーティングが開催</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-xy-music-fanmeeting-masuda-kageyama/">[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学</a></h3>
   <span></span>
@@ -171,12 +177,6 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 電撃オンライン</p>
   <h3><a href="/采访/现场活动/宝可梦xy/角色与对战/interview-dengeki-xy-masuda-kageyama-setting-art/">电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · 4Gamer.net</p>
-  <h3><a href="/采访/现场活动/宝可梦xy/音乐与设计/interview-4gamer-xy-music-fanmeeting-masuda-kageyama/">4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录</a></h3>
   <span></span>
 </article>
 
@@ -193,32 +193,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
-  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
-</article>
-
-<article class="resource-network-card">
   <p>2013 · interview_translation · インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tt-mi/">GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-ken-sugimori-got-artists-block-duri/">[访谈翻译] Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</a></h3>
-  <span></span>
+  <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
+  <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
 </article>
 
 <article class="resource-network-card">
   <p>2013 · interview_translation · Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</p>
   <h3><a href="/interview-onm-xy-sugimori/">任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · Entrevista con Junichi Masuda, el &quot;alma&quot; de Pokémon 宝可梦系列的灵魂</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hobbyconsolas-masuda-xy/">[访谈翻译] Hobby Consolas 专访增田顺一：宝可梦系列的灵魂与《X·Y》创新</a></h3>
   <span></span>
 </article>
 

@@ -155,10 +155,6 @@ parallel_items:
   original: URLは以下の通り。アーカイブからの発掘は各自で行うこと。
   translation: 网址如下。请自行从网络存档中挖掘内容。
 - type: paragraph
-  original: http://www.gamefreak.co.jp/POKEMON/INDEX.HTM
-  translation: http://www.gamefreak.co.jp/POKEMON/INDEX.HTM
-  note: 该网址已失效，需通过互联网档案馆等途径访问。
-- type: paragraph
   original: 個人によるファンサイトが生まれたのもこの年だと言って良いだろう。
   translation: 可以说，个人粉丝网站也是在这一年诞生的。
 - type: paragraph

@@ -53,13 +53,11 @@ parallel_items:
   speaker: 岩田聪
   original: 新しくフェアリータイプが加わることで、調整が大変だったんでしょう？
   translation: 新增了妖精属性，调整起来很辛苦吧？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: （しみじみと）大変でした・・・。でも、新しいタイプのポケモンが加わることで全体的なバランスをいちから見直すことになりましたし、その結果、ポケモンが育てやすくなったりととてもいい機会になったと思います。
   translation: （感慨地）确实很辛苦……。不过，因为加入了新的宝可梦属性，我们得以从头审视整体平衡，结果宝可梦变得更容易培育了，我认为这是一个非常好的机会。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
@@ -71,25 +69,21 @@ parallel_items:
   speaker: 岩田聪
   original: 必勝法がかんたんに見つかると遊んでいてもつまんなくなりますから、単純に必勝法が見つからないように、全体を再構築しないといけないわけですよね。
   translation: 如果必胜法很容易被找到，玩起来就会变得无趣，所以必须重新构筑整体，以避免简单的必胜法出现，对吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: そうなんです。でも、ポケモンカードゲームでもドラゴンタイプはとても強かったですし、それに対抗できる勢力が登場することに関しては、自分としても大歓迎でした。ですから、そういう意味では、「久しぶりに新仕様の設計ができるぞ」と、みんなで盛り上がりましたね。
   translation: 确实如此。不过，在宝可梦卡牌游戏中，龙属性也非常强大，对于能与之抗衡的势力登场，我个人是非常欢迎的。所以，从那个意义上说，大家都为“久违地能设计新规格了”而兴奋不已。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: ああ、そうなんですね・・・。「大変だ大変だ」と言いながらも、久しぶりに新仕様の設計ができるのでみんなでワクワク、ニコニコしながら調整をしていたんですね。
   translation: 啊，原来如此……。虽然嘴上说着“好辛苦好辛苦”，但因为久违地能设计新规格，大家是怀着兴奋和喜悦的心情在进行调整的啊。
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: そうですね。それに、たとえばプリンのように、これまでにも登場していたポケモンたちが、新たにフェアリータイプとして登場するようになりましたので、そういう意味でも、すごく新鮮でしたね。
   translation: 是啊。而且，比如像胖丁那样，至今为止已经登场的宝可梦们，现在作为妖精属性登场了，从这个意义上来说，也感到非常新鲜呢。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
@@ -101,37 +95,31 @@ parallel_items:
   speaker: 岩田聪
   original: ポケモンがどんな生活をしているか、みたいな感じを出そうと？
   translation: 是想表现出宝可梦们过着怎样的生活，这样的感觉吗？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうです。「このポケモンたちは、どう暮らしているんだろう」ということが、ちょっと垣間見えるとおもしろいなと思いました。
   translation: 是的。我想如果能稍微窥见“这些宝可梦们是如何生活的呢”这一点，会很有趣。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: そもそも生き物が“群れる”ということは自然界では当たり前のことですからね。
   translation: 本来生物“成群结队”在自然界就是理所当然的事情呢。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうですね。それに「群れバトル」ではいきなり５匹のポケモンが出てきたりしますけど、じっくり観察をするとそれぞれの特性の違いがわかったりするんです。なので「このメスのポケモンを捕まえよう」みたいに、従来とは違ったかたちでバトルを楽しめると思います。
   translation: 是啊。而且在“群聚对战”中，虽然会突然出现5只宝可梦，但如果仔细观察的话，就能发现它们各自特性的不同。所以，像“想抓住这只雌性的宝可梦”这样，我认为能以与以往不同的方式来享受对战。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 駆け引きも楽しめるんですね。
   translation: 这样一来，对战中的策略博弈也变得更加有趣了呢。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうですね。
   translation: 是的，正是如此。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 石原恒和
@@ -143,7 +131,6 @@ parallel_items:
   speaker: 岩田聪
   original: 自分でポケモンの編成を考えて、「これで大丈夫だ」と思っていても、空中戦という、新しい環境が生まれることで、ポケモンの編成を考え直すきっかけになるんですね。
   translation: 即使自己精心构思了队伍配置，觉得“这样应该没问题了”，但空中对战这一全新环境的出现，却成为了促使玩家重新审视队伍构成的契机。
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
@@ -155,13 +142,11 @@ parallel_items:
   speaker: 岩田聪
   original: ああ、「ふゆう」だからですね。
   translation: 啊，是因为“飘浮”特性的缘故吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: そうですね。それで「このポケモンも使える」みたいに、新しい発見をすることも今回の楽しみのひとつですね。
   translation: 是啊。因此，像“这只宝可梦也能派上用场”这样的新发现，也是本次的乐趣之一呢。
-  note: ''
   role: answer
 - type: dialogue
   original: ※6 ポケモンカードゲーム＝『ポケットモンスター』シリーズの世界をテーマにした、２人用の対戦型トレーディングカードゲーム。※7 スカイバトル＝ひこうタイプなど、一部のポケモンしか参加できない空中戦。離れた場所にいるトレーナーとも対決することができる。※8 群れバトル＝野生のポケモンとのバトルのひとつで、複数のポケモンの相手を同時に行う。一度にたくさんのポケモンを倒すことができれば、一気に自分のポケモンを成長させるチャンスにもなる。

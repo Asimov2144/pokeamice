@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 红·绿</h2>
-    <span>102 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
+    <span>101 篇文章 · 0 条评注 · 2026 / 2023 / 2020 / 2018 / 2017 / 2016 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004 / 2000 / 1999 / 1997 / 1990</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -115,12 +115,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2017-07-03)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-new-generation/">[访谈翻译] 电玩志专访大森滋与尾上将之：新作是假定会被搜索引擎查攻略？继承 Game Freak 传奇的年轻总监们</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ゲーム音楽会！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-7296420/">【活动】2016宝可梦游戏音乐会</a></h3>
   <span>&lt;br &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;东京铜管乐团&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;与&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--ce</span>
@@ -187,6 +181,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第4回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution/">[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）</a></h3>
   <span></span>
@@ -195,12 +195,6 @@ search: false
 <article class="resource-network-card">
   <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第2回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie/">[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2013 · interview_translation · 任天堂公式ウェブサイト「うごく社長が訊く」Pokemon X &amp; Y Vol.1 第1回</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-xy-chapter-1-global-simultaneous-release/">[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）</a></h3>
   <span></span>
 </article>
 

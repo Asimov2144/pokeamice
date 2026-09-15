@@ -243,10 +243,6 @@ parallel_items:
   original: Talkabouts
   translation: 话题讨论
 - type: paragraph
-  original: Fresh Ink Online
-  translation: 在线新墨
-  note: 可能为某个专栏或网站名称，此处按字面翻译。
-- type: paragraph
   original: First 15
   translation: 首发15分钟
   note: 可能指游戏实况或评测中的“前15分钟”环节。
@@ -323,9 +319,6 @@ parallel_items:
   translation: AOTS观众军团
   note: AOTS是G4频道的节目《Attack of the Show!》的缩写。
 - type: paragraph
-  original: G4 On Twitter, Facebook And More
-  translation: G4在Twitter、Facebook等社交媒体上
-- type: paragraph
   original: Hot Topics
   translation: 热门话题
 - type: paragraph
@@ -348,9 +341,6 @@ parallel_items:
   original: AOTS
   translation: AOTS
   note: 《Attack of the Show!》的缩写，G4频道的科技与流行文化节目。
-- type: paragraph
-  original: Follow G4 on Twitter
-  translation: 在Twitter上关注G4
 - type: paragraph
   original: TheFeed
   translation: TheFeed

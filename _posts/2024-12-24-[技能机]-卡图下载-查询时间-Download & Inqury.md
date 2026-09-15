@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "[技能机] 卡图下载 查询时间 Download & Time Inqury"
 date: 2024-12-24
 categories: [Tech,PTCG]

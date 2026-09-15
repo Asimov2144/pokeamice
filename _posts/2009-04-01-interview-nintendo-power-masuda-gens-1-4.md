@@ -433,9 +433,6 @@ parallel_items:
   original: Lava’s Latest Video
   translation: Lava 的最新视频
 - type: paragraph
-  original: https://www.youtube.com/watch?v=bzl8yd9x8Sk
-  translation: https://www.youtube.com/watch?v=bzl8yd9x8Sk
-- type: paragraph
   original: New Cut Content Articles
   translation: 新删减内容文章
 - type: paragraph

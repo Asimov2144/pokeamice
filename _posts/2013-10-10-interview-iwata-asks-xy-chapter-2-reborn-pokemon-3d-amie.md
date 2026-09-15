@@ -56,7 +56,6 @@ parallel_items:
   speaker: 岩田聪
   original: 石原さんは、３Ｄ化についてはどうみていましたか？
   translation: 石原先生，您如何看待这次的全3D化呢？
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
@@ -68,7 +67,6 @@ parallel_items:
   speaker: 岩田聪
   original: （笑）
   translation: （笑）
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
@@ -80,55 +78,46 @@ parallel_items:
   speaker: 增田顺一
   original: （しみじみと）難儀でしたねえ。
   translation: （深有感触地）确实很困难啊。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: そもそもたくさんのキャラクターが登場する世の中のゲームのほとんどがそうですけど、これが主役級、これは大ボス、これは中ボス、これがその他です、みたいな分けかたをされていて、ちからのかけかたに強弱をつけてキャラクター開発をするじゃないですか？
   translation: 一般来说，在众多角色登场的游戏中，大多数都会区分主役级、大BOSS、中BOSS以及其他角色，并在开发时投入不同程度的精力，对吧？
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: そうですね。
   translation: 是啊。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: でも、このゲームの場合は、遊ぶ人それぞれに好きなポケモンがいるので、たくさんのポケモンのすべてに均等なエネルギーを注いでつくられることが要求されるわけですよね。
   translation: 不过，就这款游戏而言，每位玩家都有自己喜爱的宝可梦，因此必须将能量均等地倾注到每一只宝可梦身上，才能打造出这款作品，对吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: どれも手を抜けませんからね。
   translation: 每一只都不能马虎啊。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: なので、つくる方は地獄だなあと思うんですけど（笑）。
   translation: 所以，我觉得制作方简直是地狱般的辛苦啊（笑）。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: ええ（笑）。でも、自分たちとしては、そういうことを長年やってきましたので、当然のことではあるんですけどね。
   translation: 是啊（笑）。不过，对我们来说，多年来一直如此，所以这也是理所当然的。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: ところで、今回のタイトルがどうして『Ｘ・Ｙ』と名付けられたのかについてお訊きしたいんですけど。
   translation: 那么，我想请教一下，这次的标题为什么命名为《Ｘ・Ｙ》呢？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。
   translation: 是的。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
@@ -140,49 +129,41 @@ parallel_items:
   speaker: 岩田聪
   original: それで、『Ｘ・Ｙ』と発表すると、「えーっ」という驚きの声とともに、「そうくるとは思わなかった」というような反応が強かったことをわたしはつい昨日のことのように覚えているんですけど、どうして『Ｘ・Ｙ』になったんですか？
   translation: 随后，当宣布标题为《Ｘ・Ｙ》时，伴随着“诶——”的惊讶声，很多人表示“没想到会是这样”，这种反应我至今记忆犹新，仿佛就发生在昨天。那么，为什么最终定为《Ｘ・Ｙ》呢？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: 『Ｘ』というのはＸ軸、『Ｙ』というのはＹ軸を表しているんです。
   translation: “Ｘ”代表X轴，“Ｙ”代表Y轴。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: Ｘ軸は横軸で、Ｙ軸は縦軸と言われますよね。
   translation: X轴是横轴，Y轴是纵轴，对吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。世の中にはいろんな考えや思想を持つ人たちがいて、それぞれ別次元にいるようにも感じるんですけど、それをＸ軸で考える人、Ｙ軸で考える人、というふうに置き換えてみると、縦軸と横軸ですから、どこかで交わるところがきっとあるはずなんです。
   translation: 是的。世界上有各种各样想法和思想的人，感觉他们仿佛处于不同的次元。但如果将其比喻为用X轴思考的人和用Y轴思考的人，由于它们是纵轴和横轴，那么必定会在某处相交。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: たとえ相反する思想であってもどこかで一致する部分がきっとあるはずだと。
   translation: 即便思想相互对立，也一定存在某些共通之处。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうです。考えかたは違っても同じ地球に住む人間ですし、みんな同じように、食べて、寝てを毎日繰り返して暮らしているわけですよね。
   translation: 是的。即便思维方式不同，我们都同住在地球上，每天同样地吃饭、睡觉，重复着这样的生活。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: だから、言葉が違っても、文化が違っても、価値観が違っても、住む環境が違っても、交わるところはきっとあるよ、ということが今作のテーマになっているんですね。
   translation: 所以，即便语言不同、文化不同、价值观不同、生活环境不同，也一定存在交汇之处——这正是本作的主题。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうです。そのようなことをまず最初に考えて、今作の世界観を構築していきました。
   translation: 是的。我们首先思考了这些，然后构筑了本作的世界观。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
@@ -194,7 +175,6 @@ parallel_items:
   speaker: 岩田聪
   original: やっぱり（笑）。
   translation: 果然如此（笑）。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
@@ -206,67 +186,56 @@ parallel_items:
   speaker: 增田顺一
   original: そうですね。それに、今回は伝説のポケモンとして、「ゼルネアス」と「イベルタル」が登場しますけど、それぞれのシルエットがＸとＹに見えるように意識してデザインをするようにしました。
   translation: 是的。而且，这次作为传说宝可梦，哲尔尼亚斯与伊裴尔塔尔登场，我们特意设计得让它们的轮廓分别呈现出Ｘ与Ｙ的形状。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: それは、増田さんが杉森さんにリクエストしたんですか？
   translation: 这是增田先生向杉森先生提出的要求吗？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。
   translation: 是的。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: やっぱりそうなんですね。
   translation: 果然如此啊。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: その２匹は伝説のポケモンなので、しょっちゅう見られるものではないんです。でも、カロス地方に住んでいる人たちのなかには、伝説のポケモンを目撃した人がいて、その興奮を人に伝えるときに「Ｘのかたちに見えた」とか「Ｙのように見えた」というように、伝承として残っているとおもしろいだろうと思いました。
   translation: 这两只宝可梦是传说级别的，并非轻易能见到。但在卡洛斯地区，曾有居民目击过传说宝可梦，当他们向他人传达那份激动时，可能会说“看起来像Ｘ的形状”或“看起来像Ｙ”。我想，若这样的传说流传下来，定会十分有趣。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 口伝えで、伝説のポケモンの存在が明らかになるんですね。
   translation: 也就是说，传说宝可梦的存在是通过口耳相传的方式被揭示出来的。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。
   translation: 是的。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 石原さんは、「タイトルを『Ｘ・Ｙ』にしたい」と相談を受けたとき、どう思いましたか？
   translation: 石原先生，当您收到“想把标题定为《Ｘ・Ｙ》”的咨询时，您是怎么想的？
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: 僕としては大歓迎でした。やっぱり3DSという新しいプラットフォームではじめて出る『ポケットモンスター』シリーズになりますし、これまでとは次元の異なるものづくりをしようという気持ちもありましたので、ピッタリのタイトルだと思いました。
   translation: 我个人是非常欢迎的。毕竟这是宝可梦系列首次登陆3DS这一新平台，而且我们也怀有要制作出与以往不同维度作品的决心，所以我觉得这个标题非常贴切。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: じゃあ、一発ＯＫだったんですね？
   translation: 那么，是一次就通过了吗？
-  note: ''
   role: question
 - type: dialogue
   speaker: 石原恒和
   original: はい（笑）。
   translation: 是的（笑）。
-  note: ''
   role: answer
 - type: dialogue
   original: ※2 最初の「Pok&#233;mon Direct」＝２０１３年１月８日に放映された「Pok&#233;mon Direct 2013.1.8」のこと。この時はじめて『ポケットモンスター Ｘ・Ｙ』のタイトル名称が発表された。※3 『赤・緑』＝シリーズ１作目の『ポケットモンスター 赤・緑』。ゲームボーイ用ソフトとして１９９６年２月２７日発売。※4 『ルビー・サファイア』＝『ポケットモンスター ルビー・サファイア』。ゲームボーイアドバンス用ソフトとして２００２年１１月２１日発売。※5 杉森建さん＝シリーズの第１作から最新作まで、ポケモンのキャラクターデザインを担当。株式会社ゲームフリーク取締役。過去、社長が訊く『ポケットモンスターブラック・ホワイト』に登場。

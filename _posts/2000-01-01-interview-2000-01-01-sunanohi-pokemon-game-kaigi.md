@@ -100,9 +100,6 @@ parallel_items:
   translation: 【宝可梦】“在玉虹百货公司钓梦幻的技巧”是何时、被谁发现的？（2021年3月18日）
   note: タマムシデパート：玉虹百货公司，游戏《宝可梦 红/绿》中的地点。
 - type: paragraph
-  original: 関連リンク
-  translation: 相关链接
-- type: paragraph
   original: HIWASA Kouichiさんのポケモン履歴書のページ
   translation: HIWASA Kouichi先生的宝可梦履历书页面
   note: HIWASA Kouichi：可能为日本游戏行业人士，具体身份待考。
@@ -410,9 +407,6 @@ parallel_items:
 - type: paragraph
   original: 制作者らが望むであろうポケモンを介して生まれるゲームの外側のコミュニケーションの具体例かもしれない。
   translation: 这或许正是制作者们所期望的，通过宝可梦在游戏之外产生的交流的具体例子。
-- type: paragraph
-  original: 関連記事・動画
-  translation: 相关文章・视频
 - type: paragraph
   original: 2017/5/15、Red Bull、テキスト
   translation: 2017年5月15日，Red Bull，文本
@@ -860,10 +854,6 @@ parallel_items:
 - type: paragraph
   original: ゲームフリーク特集が組まれ、記事詳細は以下の通り。
   translation: 本期设有GAME FREAK特辑，文章详情如下。
-- type: paragraph
-  original: 関連記事（ファミ通.com）： ゲームフリークが本日（4月26日）設立30周年！『ポケットモンスター』を作った会社の歴史を作品年表と豆知識で総まとめ
-  translation: 相关文章（Fami通.com）：GAME FREAK于今日（4月26日）迎来成立30周年！通过作品年表和趣味知识全面总结这家创造《宝可梦》的公司历史。
-  note: ファミ通.com：日本著名游戏媒体Fami通官方网站。
 - type: paragraph
   original: 内容 ページ 備考（メモ）
   translation: 内容 页码 备注（笔记）

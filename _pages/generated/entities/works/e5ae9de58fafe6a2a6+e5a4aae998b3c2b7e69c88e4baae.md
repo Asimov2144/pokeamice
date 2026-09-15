@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>45 篇文章 · 0 条评注 · 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
+    <span>44 篇文章 · 0 条评注 · 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -117,12 +117,6 @@ search: false
 <article class="resource-network-card">
   <p>2017 · interview_translation · 電ファミニコゲーマー 新世代に訊く：大森滋氏・尾上将之氏インタビュー（後編）</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-gear-project/">[访谈翻译] 电玩志专访大森滋与尾上将之（后篇）：Game Freak 的企划孵化机制与“齿轮企划”破格传承</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2017 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2017-07-03)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-new-generation/">[访谈翻译] 电玩志专访大森滋与尾上将之：新作是假定会被搜索引擎查攻略？继承 Game Freak 传奇的年轻总监们</a></h3>
   <span></span>
 </article>
 

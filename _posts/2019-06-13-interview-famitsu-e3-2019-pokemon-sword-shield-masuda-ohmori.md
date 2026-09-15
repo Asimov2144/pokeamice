@@ -175,8 +175,6 @@ parallel_items:
   role: answer
 - original: ※記事内で使用している画像は、配信をキャプチャーしたものを使用しています。
   translation: ※本报道中所使用的画面截取自官方直播视频。
-- original: (C)2019 Pokémon. (C)1995-2019 Nintendo/Creatures Inc./GAME FREAK inc. ポケットモンスター・ポケモン・Pokémon・モンスターボールは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
-  translation: ©2019 Pokémon. ©1995-2019 Nintendo/Creatures Inc./GAME FREAK inc.
 - original: 画面は開発中のものです。
   translation: ※画面为开发中画面。
 interviewee: 增田顺一, 大森滋

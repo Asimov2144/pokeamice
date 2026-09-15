@@ -24,10 +24,6 @@ parallel_items:
   original: 『赤・緑』発売当時の「ファミマガ」とセレクトバグ
   translation: 《红／绿》发售当时的《FamiMaga》与Select Bug
 - type: heading
-  level: 3
-  original: 関連リンク
-  translation: 相关链接
-- type: heading
   level: 2
   original: 1. 『赤・緑』発売前後のファミマガ
   translation: 1. 《红／绿》发售前后的FamiMaga
@@ -163,10 +159,6 @@ parallel_items:
   level: 3
   original: 「忍者と高ピョンのポケモンでポン」（p58～59）
   translation: 「忍者与高Pyon的宝可梦大作战」（p58～59）
-- type: heading
-  level: 3
-  original: 関連記事・動画
-  translation: 相关文章・视频
 - type: heading
   level: 3
   original: サイト内リンク

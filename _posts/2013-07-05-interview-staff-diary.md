@@ -284,10 +284,6 @@ parallel_items:
   original: 9月19日（月祝）には名古屋公演が開催されます。
   translation: 9月19日（周一，节假日）将在名古屋举行演出。
 - type: paragraph
-  original: http://www.famitsu.com/famiweb/pressstart/outline.html
-  translation: http://www.famitsu.com/famiweb/pressstart/outline.html
-  note: 这是相关活动介绍页面的链接。
-- type: paragraph
   original: 興味がある方はぜひ行ってみてくださいね！
   translation: 感兴趣的朋友请务必去看看哦！
 - type: paragraph

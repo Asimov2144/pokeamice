@@ -29,7 +29,7 @@ search: false
 <a href="/entities/organizations/facebook/"><strong>Facebook</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/fami/"><strong>Fami通</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/g4tv/"><strong>G4TV</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>802 条资料</span></a>
+<a href="/entities/organizations/game-freak/"><strong>Game Freak</strong><span>789 条资料</span></a>
 <a href="/entities/organizations/gamepro/"><strong>GamePro</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/gamestop/"><strong>GameStop</strong><span>2 条资料</span></a>
 <a href="/entities/organizations/gamesradar/"><strong>GamesRadar</strong><span>1 条资料</span></a>
@@ -45,7 +45,7 @@ search: false
 <a href="/entities/organizations/ntt-docomo/"><strong>NTT DOCOMO</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/niantic/"><strong>Niantic</strong><span>3 条资料</span></a>
 <a href="/entities/organizations/nifty/"><strong>Nifty</strong><span>1 条资料</span></a>
-<a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>30 条资料</span></a>
+<a href="/entities/organizations/nintendo/"><strong>Nintendo</strong><span>17 条资料</span></a>
 <a href="/entities/organizations/nintendo-power/"><strong>Nintendo Power</strong><span>1 条资料</span></a>
 <a href="/entities/organizations/olm/"><strong>OLM</strong><span>33 条资料</span></a>
 <a href="/entities/organizations/one-direction/"><strong>One Direction</strong><span>1 条资料</span></a>

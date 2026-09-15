@@ -46,7 +46,11 @@ BOILERPLATE = re.compile(
     r"related( stories| articles)?|read more|more from|load more|comments?|leave a comment|"
     r"menu|navigation|skip to (main )?content|home|back to top|privacy( policy)?|terms( of (use|service))?|"
     r"copyright.*|©.*|all rights reserved\.?|"
-    r"登录|注册|登录或注册|搜索[:：]?\s*搜索|订阅|分享|广告|相关文章|阅读更多|评论|菜单|返回顶部|隐私政策|使用条款)$",
+    r"(follow )?g4 on twitter.*|fresh ink online|"
+    r"登录|注册|登录或注册|搜索[:：]?\s*搜索|订阅|分享|广告|相关文章.*|阅读更多|评论|菜单|返回顶部|隐私政策|使用条款|"
+    r"[・-]?関連記事.*|[・-]?関連リンク.*|[・-]?おすすめ記事.*|[・-]?相关推荐.*|[・-]?推荐阅读.*|"
+    r"次のページへ?|前のページへ?|トップへ戻る|目次に戻る|禁無断転載|無断転載.*|"
+    r"https?://\S+)$",
     re.I)
 
 
@@ -72,7 +76,7 @@ def detect_language(text):
 def is_boilerplate(item):
     for key in ("original", "translation"):
         text = str(item.get(key) or "").strip()
-        if text and len(text) <= 60 and BOILERPLATE.match(text.strip(" .!?。！？")):
+        if text and len(text) <= 120 and BOILERPLATE.match(text.strip(" .!?。！？")):
             return True
     return False
 
@@ -87,7 +91,10 @@ def process(path, write):
         mark = getattr(exc, "problem_mark", None)
         where = f" line {mark.line + 1}" if mark else ""
         return f"{path.split('/')[-1].split(chr(92))[-1][:58]:60s} UNREADABLE front matter{where}: {str(exc).splitlines()[0][:60]}"
-    items = data.get("parallel_items")
+    items_key = "parallel_items" if "parallel_items" in data else ("translation_segments" if "translation_segments" in data else None)
+    if not items_key:
+        return None
+    items = data[items_key]
     if not isinstance(items, list) or not items:
         return None
     notes, changed = [], False
@@ -152,7 +159,7 @@ def process(path, write):
     if dropped:
         notes.append(f"dropped {len(dropped)}: " + " | ".join(dropped))
         if write:
-            data["parallel_items"] = kept
+            data[items_key] = kept
             changed = True
 
     if changed:

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 钻石·珍珠</h2>
-    <span>61 篇文章 · 0 条评注 · 2017 / 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>60 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,12 +19,6 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2017 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2017-07-03)</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-new-generation/">[访谈翻译] 电玩志专访大森滋与尾上将之：新作是假定会被搜索引擎查攻略？继承 Game Freak 传奇的年轻总监们</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · interview_translation · MeriStation（西班牙权威游戏媒体）</p>
   <h3><a href="/interview-meristation-sun-moon-switch-masuda-ohmori/">MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”</a></h3>
   <span></span>

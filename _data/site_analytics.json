@@ -1,6 +1,6 @@
 {
   "overview": {
-    "total_posts": 979,
+    "total_posts": 963,
     "total_interviews_imported": 482,
     "total_interviews_planned": 1063,
     "target_milestone": 1000,
@@ -8,7 +8,7 @@
     "earliest_year": 1990,
     "latest_year": 2026,
     "years_span": 37,
-    "total_people": 286,
+    "total_people": 285,
     "total_works": 205,
     "total_organizations": 111,
     "total_events": 104
@@ -19,7 +19,7 @@
       "name_en": "Junichi Masuda",
       "name_ja": "増田順一",
       "role": "游戏总监 · 作曲家 · 董事",
-      "posts_count": 572,
+      "posts_count": 561,
       "years_active": "1997–2023",
       "url": "/entities/people/e5a29ee794b0e9a1bae4b880/"
     },
@@ -28,7 +28,7 @@
       "name_en": "Tsunekazu Ishihara",
       "name_ja": "石原恒和",
       "role": "The Pokémon Company 社长兼CEO",
-      "posts_count": 52,
+      "posts_count": 50,
       "years_active": "2000–2024",
       "url": "/entities/people/e79fb3e58e9fe68192e5928c/"
     },
@@ -37,7 +37,7 @@
       "name_en": "Ken Sugimori",
       "name_ja": "杉森建",
       "role": "艺术总监 · 角色设计之神",
-      "posts_count": 47,
+      "posts_count": 44,
       "years_active": "1997–2022",
       "url": "/entities/people/e69d89e6a3aee5bbba/"
     },
@@ -73,7 +73,7 @@
       "name_en": "Satoshi Tajiri",
       "name_ja": "田尻智",
       "role": "宝可梦之父 · GAME FREAK 社长",
-      "posts_count": 24,
+      "posts_count": 23,
       "years_active": "1997–2022",
       "url": "/entities/people/e794b0e5b0bbe699ba/"
     },
@@ -82,27 +82,9 @@
       "name_en": "Shigeru Ohmori",
       "name_ja": "大森滋",
       "role": "游戏总监（太阳·月亮/剑·盾/朱·紫）",
-      "posts_count": 21,
+      "posts_count": 16,
       "years_active": "2005–2025",
       "url": "/entities/people/e5a4a7e6a3aee6bb8b/"
-    },
-    {
-      "name": "森本茂树",
-      "name_en": "Shigeki Morimoto",
-      "name_ja": "森本茂樹",
-      "role": "战斗系统设计者 · 梦幻创造者",
-      "posts_count": 10,
-      "years_active": "1997–2018",
-      "url": "/entities/people/e6a3aee69cace88c82e6a091/"
-    },
-    {
-      "name": "海野隆雄",
-      "name_en": "Takao Unno",
-      "name_ja": "海野隆雄",
-      "role": "美术总监（黑·白）· 资深总监",
-      "posts_count": 10,
-      "years_active": "2010–2019",
-      "url": "/entities/people/e6b5b7e9878ee99a86e99b84/"
     },
     {
       "name": "久保雅一",
@@ -114,12 +96,30 @@
       "url": "/entities/people/e4b985e4bf9de99b85e4b880/"
     },
     {
+      "name": "森本茂树",
+      "name_en": "Shigeki Morimoto",
+      "name_ja": "森本茂樹",
+      "role": "战斗系统设计者 · 梦幻创造者",
+      "posts_count": 8,
+      "years_active": "1997–2018",
+      "url": "/entities/people/e6a3aee69cace88c82e6a091/"
+    },
+    {
+      "name": "海野隆雄",
+      "name_en": "Takao Unno",
+      "name_ja": "海野隆雄",
+      "role": "美术总监（黑·白）· 资深总监",
+      "posts_count": 8,
+      "years_active": "2010–2019",
+      "url": "/entities/people/e6b5b7e9878ee99a86e99b84/"
+    },
+    {
       "name": "一之濑刚",
       "name_en": "Go Ichinose",
       "name_ja": "一之瀬剛",
       "role": "声音总监 · 主力作曲家",
-      "posts_count": 6,
-      "years_active": "2000–2025",
+      "posts_count": 5,
+      "years_active": "2010–2025",
       "url": "/entities/people/e4b880e4b98be6bf91e5889a/"
     },
     {
@@ -249,14 +249,14 @@
       "gen": "Gen 1",
       "era_cn": "初代红绿蓝黄 · GB/SGB 时代 (1996–1999)",
       "era_en": "Generation I · Red/Green/Blue/Yellow",
-      "total_posts": 105,
+      "total_posts": 104,
       "works": [
         {
           "cn": "宝可梦 红·绿",
           "abbr": "RG",
           "en": "Pokémon Red & Green",
           "year": 1996,
-          "posts_count": 102,
+          "posts_count": 101,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"
         },
         {
@@ -281,14 +281,14 @@
       "gen": "Gen 2",
       "era_cn": "金银水晶 · GBC 时代 (1999–2002)",
       "era_en": "Generation II · Gold/Silver/Crystal",
-      "total_posts": 61,
+      "total_posts": 60,
       "works": [
         {
           "cn": "宝可梦 金·银",
           "abbr": "GS",
           "en": "Pokémon Gold & Silver",
           "year": 1999,
-          "posts_count": 50,
+          "posts_count": 49,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"
         },
         {
@@ -305,14 +305,14 @@
       "gen": "Gen 3",
       "era_cn": "红蓝绿宝火叶 · GBA 时代 (2002–2006)",
       "era_en": "Generation III · Ruby/Sapphire/FireRed/LeafGreen/Emerald",
-      "total_posts": 63,
+      "total_posts": 62,
       "works": [
         {
           "cn": "宝可梦 红宝石·蓝宝石",
           "abbr": "RS",
           "en": "Pokémon Ruby & Sapphire",
           "year": 2002,
-          "posts_count": 30,
+          "posts_count": 29,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"
         },
         {
@@ -337,14 +337,14 @@
       "gen": "Gen 4",
       "era_cn": "珍钻白金心金魂银 · NDS 时代 (2006–2010)",
       "era_en": "Generation IV · Diamond/Pearl/Platinum/HeartGold/SoulSilver",
-      "total_posts": 132,
+      "total_posts": 130,
       "works": [
         {
           "cn": "宝可梦 钻石·珍珠",
           "abbr": "DP",
           "en": "Pokémon Diamond & Pearl",
           "year": 2006,
-          "posts_count": 61,
+          "posts_count": 60,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3c2b7e78f8de78fa0/"
         },
         {
@@ -360,7 +360,7 @@
           "abbr": "HGSS",
           "en": "Pokémon HeartGold & SoulSilver",
           "year": 2009,
-          "posts_count": 34,
+          "posts_count": 33,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"
         }
       ]
@@ -369,7 +369,7 @@
       "gen": "Gen 5",
       "era_cn": "黑白·黑2白2 · NDS 黄金黄昏 (2010–2013)",
       "era_en": "Generation V · Black/White/Black 2/White 2",
-      "total_posts": 99,
+      "total_posts": 98,
       "works": [
         {
           "cn": "宝可梦 黑·白",
@@ -384,7 +384,7 @@
           "abbr": "B2W2",
           "en": "Pokémon Black 2 & White 2",
           "year": 2012,
-          "posts_count": 14,
+          "posts_count": 13,
           "url": "/entities/works/2-2/"
         }
       ]
@@ -393,14 +393,14 @@
       "gen": "Gen 6",
       "era_cn": "XY·欧米伽红宝阿尔法蓝宝 · 3DS 时代 (2013–2016)",
       "era_en": "Generation VI · X/Y/Omega Ruby/Alpha Sapphire",
-      "total_posts": 50,
+      "total_posts": 47,
       "works": [
         {
           "cn": "宝可梦 X·Y",
           "abbr": "XY",
           "en": "Pokémon X & Y",
           "year": 2013,
-          "posts_count": 42,
+          "posts_count": 40,
           "url": "/entities/works/x-y/"
         },
         {
@@ -408,7 +408,7 @@
           "abbr": "ORAS",
           "en": "Pokémon Omega Ruby & Alpha Sapphire",
           "year": 2014,
-          "posts_count": 8,
+          "posts_count": 7,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e6aca7e7b1b3e4bcbde7baa2e5ae9/"
         }
       ]
@@ -417,14 +417,14 @@
       "gen": "Gen 7",
       "era_cn": "日月究极日月皮伊 · 3DS/Switch 时代 (2016–2019)",
       "era_en": "Generation VII · Sun/Moon/Ultra Sun/Ultra Moon/Let's Go",
-      "total_posts": 65,
+      "total_posts": 64,
       "works": [
         {
           "cn": "宝可梦 太阳·月亮",
           "abbr": "SM",
           "en": "Pokémon Sun & Moon",
           "year": 2016,
-          "posts_count": 45,
+          "posts_count": 44,
           "url": "/entities/works/e5ae9de58fafe6a2a6+e5a4aae998b3c2b7e69c88e4baae/"
         },
         {
@@ -553,7 +553,7 @@
   "top_works": [
     {
       "name": "宝可梦 红·绿",
-      "posts_count": 102,
+      "posts_count": 101,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2c2b7e7bbbf/"
     },
     {
@@ -563,22 +563,22 @@
     },
     {
       "name": "宝可梦 钻石·珍珠",
-      "posts_count": 61,
+      "posts_count": 60,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e992bbe79fb3c2b7e78f8de78fa0/"
     },
     {
       "name": "宝可梦 金·银",
-      "posts_count": 50,
+      "posts_count": 49,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e98791c2b7e993b6/"
     },
     {
       "name": "宝可梦 太阳·月亮",
-      "posts_count": 45,
+      "posts_count": 44,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e5a4aae998b3c2b7e69c88e4baae/"
     },
     {
       "name": "宝可梦 X·Y",
-      "posts_count": 42,
+      "posts_count": 40,
       "url": "/entities/works/x-y/"
     },
     {
@@ -587,18 +587,18 @@
       "url": "/entities/works/e5ae9de58fafe6a2a6+e799bde98791/"
     },
     {
-      "name": "宝可梦 心金·魂银",
-      "posts_count": 34,
-      "url": "/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"
-    },
-    {
       "name": "宝可梦 动画系列",
       "posts_count": 33,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e58aa8e794bbe7b3bbe58897/"
     },
     {
+      "name": "宝可梦 心金·魂银",
+      "posts_count": 33,
+      "url": "/entities/works/e5ae9de58fafe6a2a6+e5bf83e98791c2b7e9ad82e993b6/"
+    },
+    {
       "name": "宝可梦 红宝石·蓝宝石",
-      "posts_count": 30,
+      "posts_count": 29,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7baa2e5ae9de79fb3c2b7e8939de/"
     },
     {
@@ -622,14 +622,14 @@
       "url": "/entities/works/e5ae9de58fafe6a2a6e4bca0e8afb4+e998bfe5b094e5ae9/"
     },
     {
-      "name": "宝可梦 黑2·白2",
-      "posts_count": 14,
-      "url": "/entities/works/2-2/"
-    },
-    {
       "name": "宝可梦 绿宝石",
       "posts_count": 13,
       "url": "/entities/works/e5ae9de58fafe6a2a6+e7bbbfe5ae9de79fb3/"
+    },
+    {
+      "name": "宝可梦 黑2·白2",
+      "posts_count": 13,
+      "url": "/entities/works/2-2/"
     },
     {
       "name": "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
@@ -657,7 +657,7 @@
     },
     {
       "year": 2000,
-      "posts": 7
+      "posts": 6
     },
     {
       "year": 2002,
@@ -673,7 +673,7 @@
     },
     {
       "year": 2006,
-      "posts": 12
+      "posts": 11
     },
     {
       "year": 2007,
@@ -681,7 +681,7 @@
     },
     {
       "year": 2008,
-      "posts": 100
+      "posts": 99
     },
     {
       "year": 2009,
@@ -689,7 +689,7 @@
     },
     {
       "year": 2010,
-      "posts": 92
+      "posts": 91
     },
     {
       "year": 2011,
@@ -697,19 +697,19 @@
     },
     {
       "year": 2012,
-      "posts": 33
+      "posts": 32
     },
     {
       "year": 2013,
-      "posts": 30
+      "posts": 27
     },
     {
       "year": 2014,
-      "posts": 13
+      "posts": 12
     },
     {
       "year": 2015,
-      "posts": 11
+      "posts": 10
     },
     {
       "year": 2016,
@@ -717,11 +717,11 @@
     },
     {
       "year": 2017,
-      "posts": 61
+      "posts": 59
     },
     {
       "year": 2018,
-      "posts": 25
+      "posts": 22
     },
     {
       "year": 2019,
@@ -729,7 +729,7 @@
     },
     {
       "year": 2020,
-      "posts": 5
+      "posts": 4
     },
     {
       "year": 2021,
@@ -759,7 +759,7 @@
   "top_orgs": [
     {
       "name": "Game Freak",
-      "posts_count": 802,
+      "posts_count": 789,
       "url": "/entities/organizations/game-freak/"
     },
     {
@@ -788,14 +788,14 @@
       "url": "/entities/organizations/olm/"
     },
     {
-      "name": "Nintendo",
-      "posts_count": 30,
-      "url": "/entities/organizations/nintendo/"
-    },
-    {
       "name": "Creatures",
       "posts_count": 23,
       "url": "/entities/organizations/creatures/"
+    },
+    {
+      "name": "Nintendo",
+      "posts_count": 17,
+      "url": "/entities/organizations/nintendo/"
     },
     {
       "name": "The Pokémon Company",

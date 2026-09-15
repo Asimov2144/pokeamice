@@ -53,7 +53,6 @@ parallel_items:
   speaker: 岩田聪
   original: ちなみに「ポケパルレ」の「パルレ」にはどんな意味があるのですか？
   translation: 顺便问一下，“宝可友友乐”中的“友友乐”有什么含义吗？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
@@ -65,121 +64,101 @@ parallel_items:
   speaker: 岩田聪
   original: だから、ポケモンと会話をするように楽しむ、という意味合いを込めたんですね。
   translation: 所以，其中包含了像与宝可梦对话一样享受乐趣的意味吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。それで先ほどお見せしたように「ポケパルレ」で遊ぶとポケモンとすごく仲良くなれるんですけど、やっぱりポケモンですから、表情がないやつだとか、反応が鈍いものもいまして・・・。
   translation: 是的。正如刚才所展示的，在“宝可友友乐”中游玩，可以变得和宝可梦非常亲密。不过，毕竟是宝可梦，也有表情呆滞、反应迟钝的家伙……
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: たとえばカビゴンのように、いつも寝てるポケモンの場合はどうするんですか？
   translation: 比如像卡比兽那样，总是在睡觉的宝可梦，该怎么办呢？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そんな時は、こんなふうに一生懸命・・・（タッチペンで画面をたたくしぐさをして）起こしたりします（笑）。
   translation: 那种时候，就会像这样拼命地……（做出用触控笔敲击屏幕的动作）把它叫醒（笑）。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: （笑）
   translation: （笑）
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: ポケモンはそれぞれの特徴や性質がありますので、今回はそのあたりの表現をたくさん入れまして・・・。
   translation: 因为每只宝可梦都有各自的特征和习性，所以这次我们加入了大量这方面的表现……
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: えっ、それぞれのポケモンに合わせて全部をつくったんですか？
   translation: 诶，你们是配合每只宝可梦，全部做出来的吗？
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。全ポケモンに対して、それぞれ反応が異なるようにつくりました。
   translation: 是的。我们让所有宝可梦都拥有各自不同的反应。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: いやー、驚きました（笑）。
   translation: 哎呀，真是让人吃惊（笑）。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: あははは（笑）。
   translation: 啊哈哈（笑）。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: でも、やっぱり自分のお気に入りのポケモンだけが、ちゃんとつくり込まれてなかったら悲しいですからね。
   translation: 但是，如果只有自己最喜欢的宝可梦没有被精心制作的话，还是会感到难过的吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうなんです。それに、自分が好きなポケモンに対しては、「こういうものだ」という想いがそれぞれのお客さんのなかにあるじゃないですか。ですから、そのような気持ちに応えられるようになるべく合わせたりしてつくりました。
   translation: 确实如此。而且，对于自己喜欢的宝可梦，每位玩家心中都有一种“它应该是这样的”的期待。因此，为了回应这种心情，我们尽可能地去贴合大家的想法来制作。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: そもそも『ポケットモンスター』というのはそれ１本だけでボリューム満点のゲームですけど、さらにもう１本、新しいゲームが追加された感じですね。
   translation: 原本《宝可梦》系列本身就是一款内容丰富的游戏，而这次感觉就像是又追加了一款全新的游戏一样。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: ええ（笑）。
   translation: 是啊（笑）。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: でも、だからといって、「ポケパルレ」は独立した遊びではなく、本編にもちゃんとつながってるんですよね。
   translation: 不过，话虽如此，“宝可友友乐”并不是一个独立的玩法，它与游戏正篇是紧密相连的，对吧。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: そうです。たとえば「バトルをするよりも、ポケモンをかわいがりたい」という人がいて、それで一生懸命にかわいがっていると、バトルでも有利な戦いをしてくれるようになるんです。
   translation: 是的。比如，有些玩家比起对战，更想疼爱宝可梦。当他们努力去宠爱宝可梦时，宝可梦在对战中也会发挥出更有利的表现。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: つまり、バトルが得意でない人でも、ポケモンをかわいがっているうちに、いつの間にか、バトルに強くなっている、ということもありえるんですね。
   translation: 也就是说，即使是不擅长对战的人，在疼爱宝可梦的过程中，不知不觉间就可能变得擅长对战了，这种情况也是有可能的。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: はい。さっきもちょっと言いましたけど、ポケモンと仲良くなると、相手の攻撃をよけたり、逆に攻撃したときに、相手の急所に当たりやすくなったりしますので、バトルがとても楽しくなると思います。
   translation: 是的。刚才也稍微提到过，和宝可梦变得亲密之后，就能更容易躲开对手的攻击，或者在攻击时更容易击中对手的要害，所以我觉得对战会变得非常有趣。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 岩田聪
   original: 今回の『ポケットモンスター Ｘ・Ｙ』は、つくり手が相当な量のエネルギーを注がないと、なかなかできないようなものに仕上がった印象がありますけど、その『ポケットモンスター Ｘ・Ｙ』が世界中でどのような評価をいただけるのか、発売後が本当に楽しみですね。
   translation: 这次的《宝可梦 Ｘ・Ｙ》，给我的印象是，如果制作者不投入相当多的精力，是很难做出这样的成果的。而这部《宝可梦 Ｘ・Ｙ》会在全世界获得怎样的评价，发售之后真是令人期待啊。
-  note: ''
   role: question
 - type: dialogue
   speaker: 增田顺一
   original: スタッフが相当苦労し、「これぞポケモン」っていう自分の世界でもあり、スタッフ全員の世界がひとつになった結晶なので、ぜひ楽しんでほしいです。
   translation: 制作团队付出了相当大的努力，这既是“这就是宝可梦”的我的世界，也是全体工作人员的世界融为一体的结晶，所以希望大家一定要好好享受。
-  note: ''
   role: answer
 - type: dialogue
   speaker: 石原恒和
@@ -191,7 +170,6 @@ parallel_items:
   speaker: 石原恒和 & 增田顺一
   original: ありがとうございました。
   translation: 谢谢大家。
-  note: ''
   role: answer
 - type: dialogue
   original: ※9 メガシンカ＝バトル中にのみ行うことのできる“進化を超えた進化”。メガシンカをすることで、そのポケモンの姿が大きく変わり、能力、特性、タイプなどが変化する。バトルが終了すると、元の姿に戻る。メガシンカについては、「Pok&#233;mon Direct 2013.9.4」でくわしく語られている（メガシンカに関する情報は、動画１２分１５秒以降からご覧いただけます）。
