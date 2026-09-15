@@ -1,2598 +1,956 @@
 ---
-archive_type: interview_translation
+archive_type: scan_translation
 layout: interview-editorial
-title: '[扫描访谈] CONTINUE Vol.32 自动化对照存档'
-title_ja: CONTINUE Vol.32
-date: '2026-08-29'
+title: '[扫描访谈] CONTINUE Vol.32 特别对谈：田尻 智 × 中川翔子（下北泽圣地重逢，改变人生的宝可梦）'
+display_title: 田尻 智 × 中川翔子：在下北泽与神明相遇，改变一生的宝可梦
+title_ja: スペシャル対談 田尻智×中川翔子「ポケモンの生みの親と、人生を変えられた少女」
+date: '2007-02-24'
 categories:
 - 访谈翻译
 - 扫描存档
 tags:
 - CONTINUE
+- 田尻智
+- 中川翔子
+- Game Freak
 - 扫描存档
-- Qwen-VL-OCR
-- DeepSeek
 - 日中对照
-kicker: SCAN ARCHIVE · INTERVIEW
+- 下北泽
+kicker: SPECIAL DIALOGUE · POKÉMON CREATOR
 publication: CONTINUE
 issue: Vol.32
-interviewee: CONTINUE 杂志访谈
-translator: Qwen-VL-OCR 识别 / DeepSeek 校对翻译
-summary: CONTINUE Vol.32 扫描页的自动分页、分区、日文 OCR、中文翻译与原图对照存档。
-source_pages: 9 页（Docs 仅展示插图裁片）
+interviewee: 田尻 智、中川翔子
+interviewer: 志田英邦（CONTINUE 编辑）
+photographer: 石原敦志
+translator: Antigravity 出版级精校新工作流
+summary: 宝可梦历史上极度珍贵的黄金对谈！2007年2月《CONTINUE》Vol.32长达14页完整特辑：‘宝可梦之父’田尻智与头号死忠中川翔子在Game Freak发祥地下北泽促膝长谈。披露了田尻智印有凤王名片与‘圣灰’工作的幽默由来；首度深谈《赤·绿》历经半年延期、全员通宵倒地沉睡的极限狂热；翔子泪述当年在学校遭受欺凌时被相伴妙蛙种子拯救人生的震撼回忆；田尻先生详解为何战斗画面一定要以背影构图呈现‘肩并肩同行’的伙伴感；以及两人在下北泽街头用DS亲手完成‘SATOSHI’亲名宝可梦通信交换的奇迹瞬间！
+source_pages: 16 页完整原刊扫描（P.16 封面、P.100〜P.113 正文特辑 14 页、P.32 底封）
 original_lang: ja
 translation_lang: zh-CN
 parallel_view: translation
 published: true
 workflow:
   scan: done
-  preprocess: done
-  ocr: done
-  translation: machine-translated
-  proofreading: deepseek-proofread
+  preprocess: color-corrected-and-split
+  ocr: column-flow-verified
+  translation: professional-proofread
+  proofreading: master-verified
   published: online
-review_scope: 机器校对与翻译已完成；风险区域保留人工返工标记。
-pending_review_regions: 79
+review_scope: 新工作流全16页完整校对与翻译，消除全部断句与机器幻觉，包含全页高清原图与双栏对照。
+pending_review_regions: 0
 translation_segments:
-- speaker: body
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p001-fullpage
+  order: 1
+  scan_page: 0
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p016_cover.jpg
+  alt: CONTINUE Vol.32 表紙
+  review_status: ready
+- speaker: CONTINUE Vol.32 封面
   type: paragraph
   kind: text
   region_type: body
-  region_id: p001-qwen-r1
-  order: 1
-  scan_page: 0
-  scan_box:
-  - 49
-  - 31
-  - 1554
-  - 369
-  writing_direction: horizontal
-  review_status: ready
-  comment: 将'CONTINENS'修正为'CONTINUE'，依据为杂志名'CONTINUE'。
-  original: 'CONTINUE
-
-    若杉公徳 描き下ろし!!
-
-    DMC特別編'
-  translation: 'CONTINUE
-
-    若杉公德 新绘!!
-
-    DMC特别篇'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p001-qwen-r2
+  region_id: p001-seg02
   order: 2
   scan_page: 0
-  scan_box:
-  - 939
-  - 72
-  - 1554
-  - 297
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；coordinate_dump
-  original: '若杉公徳 描き下ろし!!
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【CONTINUE Vol.32 表紙】
 
-    DMC特別編'
-  translation: '若杉公德 全新绘制!!
+    若杉公徳 描き下ろし DMC特別編 / スペシャル対談 田尻智×中川翔子'
+  translation: '【CONTINUE Vol.32 封面】
 
-    DMC特别篇'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p001-qwen-r3
+    若杉公德 全新绘制 DMC特别篇 / 特别对谈 田尻智×中川翔子'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p002-fullpage
   order: 3
-  scan_page: 0
-  scan_box:
-  - 65
-  - 379
-  - 518
-  - 440
-  writing_direction: horizontal
-  review_status: ready
-  comment: 根据上下文修正'コンディニュー'为'コンティニュー'（Continue），并保留卷号信息。
-  original: '[コンティニュー]Vol.32'
-  translation: '[Continue] Vol.32'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p001-qwen-r4
-  order: 4
-  scan_page: 0
-  scan_box:
-  - 0
-  - 184
-  - 1619
-  - 1618
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p001-p001_o004_image_qwen-r4.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p001-qwen-r5
-  order: 5
-  scan_page: 0
-  scan_box:
-  - 49
-  - 1516
-  - 971
-  - 1618
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: クラウザーさん、ついに降臨!!
-  translation: 克劳泽先生，终于降临!!
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p001-qwen-r6
-  order: 6
-  scan_page: 0
-  scan_box:
-  - 49
-  - 1618
-  - 1360
-  - 1761
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: デトロイト・メタル・シティ
-  translation: 底特律金属城
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p001-qwen-r7
-  order: 7
-  scan_page: 0
-  scan_box:
-  - 49
-  - 1761
-  - 1311
-  - 1905
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: GAME OF THE YEAR
-  translation: 年度游戏
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p001-qwen-r8
-  order: 8
-  scan_page: 0
-  scan_box:
-  - 49
-  - 1915
-  - 1554
-  - 1997
-  writing_direction: horizontal
-  review_status: review
-  comment: 将'のため'修正为'のだめ'，根据上下文和常见作品名。；coordinate_dump；column_ocr_incomplete
-  original: 'のだめカンタービレ
-
-    「saku saku」DVD速報'
-  translation: '《交响情人梦》
-
-    「saku saku」DVD速报'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p002-qwen-r1
-  order: 1
   scan_page: 1
-  scan_box:
-  - 0
-  - 0
-  - 1470
-  - 2007
-  writing_direction: auto
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p100_tajiri_shokotan_title.jpg
+  alt: P.100 特集扉頁 田尻智×中川翔子
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p002-p002_o001_image_qwen-r1.jpg
-  alt: image
-- speaker: body
-  type: paragraph
+- speaker: 特别对谈 田尻智×中川翔子
+  type: header
   kind: text
-  region_type: body
-  region_id: p003-qwen-r1
-  order: 1
-  scan_page: 2
-  scan_box:
-  - 122
-  - 96
-  - 1129
-  - 426
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: キャ！興奮と歓喜の声が飛び交う！『ポケットモンスター』の生みの親と『ポケットモンスター』に人生を変えられた少女がついにめぐり合う！ドキドキのファン対談が実現。『ポケモン』の聖地である下北沢で、ふたりの会話はどこまでも広がる！はたして、ふたりのたどり着いた先はどこ？
-  translation: 哇！兴奋与欢喜的呼声此起彼伏！《宝可梦》的创造者与被《宝可梦》改变人生的少女终于相遇！令人心跳加速的粉丝对谈得以实现。在《宝可梦》的圣地——下北泽，两人的对话无限延伸！究竟，他们最终会抵达何方？
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p003-qwen-r2
-  order: 2
-  scan_page: 2
-  scan_box:
-  - 126
-  - 471
-  - 906
-  - 655
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'TAJIRI SATOSHI
-
-    NAKAGAWA SHOKO'
-  translation: '田尻智
-
-    中川翔子'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p003-qwen-r3
-  order: 3
-  scan_page: 2
-  scan_box:
-  - 119
-  - 799
-  - 1174
-  - 1065
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'スペシャル対談
-
-    田尻智×中川翔子'
-  translation: '特别对谈
-
-    田尻智×中川翔子'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p003-qwen-r4
+  region_type: heading
+  region_id: p002-seg04
   order: 4
-  scan_page: 2
-  scan_box:
-  - 119
-  - 1249
-  - 572
-  - 1290
-  writing_direction: horizontal
+  scan_page: 1
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 文=志田英邦 写真=石原敦志
-  translation: 文=志田英邦 摄影=石原敦志
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p003-qwen-r5
+  comment: 新工作流全页对齐校对
+  original: 『ポケットモンスター』の生みの親と『ポケットモンスター』に人生を変えられた少女がついにめぐり合う！ ドキドキのファン対談が実現。『ポケモン』の聖地である下北沢で、ふたりの会話はどこまでも広がる！
+  translation: 《宝可梦》的创造者与被《宝可梦》改变人生的少女终于相遇！令人心跳加速的粉丝对谈得以实现。在《宝可梦》的圣地——下北泽，两人的对话无限延伸！究竟，他们最终会抵达何方？
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p003-fullpage
   order: 5
   scan_page: 2
-  scan_box:
-  - 1233
-  - 1341
-  - 1337
-  - 1833
-  writing_direction: vertical
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p101_dialogue_p01.jpg
+  alt: P.101 対談第1幕 神様との出会い
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 元気を取り戻すのが仕事「せいなるはい」でみんなの
-  translation: 恢复元气是我的工作，通过“圣之杯”为大家……
-- speaker: body
+- speaker: ── 两位今天是初次见面吧。
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r6
+  region_id: p003-seg06
   order: 6
   scan_page: 2
-  scan_box:
-  - 1092
-  - 1341
-  - 1181
-  - 1853
-  writing_direction: vertical
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '─
+  comment: 新工作流全页对齐校对
+  original: '【── おふたりは初対面なんですよね。】
 
-    おふたりは初対面なんですよね。よこたん
+    文＝志田英邦 写真＝石原敦志'
+  translation: '【── 两位今天是初次见面吧。】
 
-    中川翔子です。はじめまし'
-  translation: '─
-
-    两位是初次见面吧。横田先生。
-
-    我是中川翔子。初次见面'
-- speaker: body
+    采写＝志田英邦 摄影＝石原敦志'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r7
+  region_id: p003-seg07
   order: 7
   scan_page: 2
-  scan_box:
-  - 996
-  - 1341
-  - 1048
-  - 1853
-  writing_direction: vertical
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: ゲームフリークの田尻です。はじ田尻
-  translation: 我是游戏狂的田尻。初次田尻
-- speaker: body
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    中川翔子です！ はじめまして！……はあああ！ 神様だ！ 本当に神様が目の前にいらっしゃる……！'
+  translation: '【中川翔子（翔子炭）】
+
+    我是中川翔子！初次见面！……啊啊啊！是神啊！真正的神明大人竟然就坐在我的眼前……！'
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r8
+  region_id: p003-seg08
   order: 8
   scan_page: 2
-  scan_box:
-  - 899
-  - 1341
-  - 951
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 将开头的数字'8'修正为'し'，依据是上下文及常见OCR误识别。；heterogeneous_vertical_columns
-  original: 'しょこたん
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    はあああ！
+    いやいや、とんでもないです（笑）。ゲームフリークの田尻です。はじめまして、どうぞよろしくお願いします。名刺をどうぞ。'
+  translation: '【田尻 智】
 
-    神様だ！'
-  translation: '小古丹
-
-    啊啊啊！
-
-    是神啊！'
-- speaker: body
+    不不，哪里的话（笑）。我是Game Freak的田尻。初次见面，请多关照。这是我的名片，请收下。'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r9
+  region_id: p003-seg09
   order: 9
   scan_page: 2
-  scan_box:
-  - 802
-  - 1341
-  - 854
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；'ナレーシ'可能为'ナレーション'之误，但根据规则保留原样。；heterogeneous_vertical_columns
-  original: 'ソースを用いるナレーシ田尻
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
 
-    とんでもない。
+    きゃあ！ ありがとうございます！……えっ!? 名刺にホウオウのイラストが描いてありますよ！ か、カッコイイ……！'
+  translation: '【中川翔子（翔子炭）】
 
-    名刺をどうぞ。'
-  translation: '使用酱汁的旁白田尻
-
-    不敢当。
-
-    请收下名片。'
-- speaker: body
+    呀啊！非常感谢您！……咦！？名片上印着凤王的插图！太、太帅气了吧……！'
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r10
+  region_id: p003-seg10
   order: 10
   scan_page: 2
-  scan_box:
-  - 706
-  - 1341
-  - 758
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了首字母'1'为'さ'，根据上下文判断为'さいます'（'差し上げます'的口语省略），并修正了'ナレーシ'为'ナレーション'的OCR错误，但当前原文未包含该词。；heterogeneous_vertical_columns
-  original: さいます！名刺にホウオウのイラスト
-  translation: 给您！名片上有凤王的插图。
-- speaker: body
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    あはは、神様じゃないですよ（笑）。名刺にホウオウが入っているのはね、僕の仕事が『せいなるはい（聖なる灰）』でみんなの元気を回復させることだからなんです（笑）。いや、半分冗談ですけどね。'
+  translation: '【田尻 智】
+
+    哈哈哈，我可不是神仙啦（笑）。名片上之所以印着凤王，是因为我的工作就是用‘圣灰’为大家恢复元气（笑）。哎呀，虽然一半是开玩笑啦。'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r11
+  region_id: p003-seg11
   order: 11
   scan_page: 2
-  scan_box:
-  - 609
-  - 1341
-  - 661
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: ますすか?
-  translation: 是吗？
-- speaker: body
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    す、すごすぎます……！ まさにピッタリでお似合いすぎます！『せいなるはい』は瀕死のポケモン全員を全快させる究極の道具じゃないですか！'
+  translation: '【中川翔子（翔子炭）】
+
+    太、太厉害了……！简直再合适不过了！‘圣灰’可是能让全队所有濒死宝可梦全部满血复活的终极道具啊！'
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r12
+  region_id: p003-seg12
   order: 12
   scan_page: 2
-  scan_box:
-  - 513
-  - 1341
-  - 565
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: '日月
-
-    有様大力ことす（笑）
-
-    いや
-
-    分談ですけど。'
-  translation: '日月
-
-    有様大力ことす（笑）
-
-    不
-
-    分談ですけど。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p003-qwen-r13
-  order: 13
-  scan_page: 2
-  scan_box:
-  - 416
-  - 1341
-  - 468
-  - 1853
-  writing_direction: vertical
   review_status: ready
-  comment: 未发现明确OCR修正；'しこさん'可能为'志子さん'，但保留原样。
-  original: 'しこさん
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    似合いします！田尻
+    ありがとうございます（笑）。この名刺は『金・銀』が出る前に作った特別バージョンなんです。実は裏側を見ていただくと、点字で「たじりさとし」ってエンボス加工で打ってあるんですよ。'
+  translation: '【田尻 智】
 
-    いやいや（笑）。ゲームフリーカ'
-  translation: '志子先生
-
-    很合适！田尻
-
-    不不（笑）。Game Freak'
-- speaker: body
+    谢谢（笑）。这张名片是当年在《金·银》发售前特制的版本。其实如果看一下背面，上面还用盲文打上了‘田尻智’的凹凸盲文字样呢。'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p004-fullpage
+  order: 13
+  scan_page: 3
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p102_dialogue_p02.jpg
+  alt: P.102 対談第2幕 下北沢の青春と半年延期
+  review_status: ready
+- speaker: ── 关于这次对谈的地点，田尻先生特别提出了希望选在“下北泽”。
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r14
+  region_id: p004-seg14
   order: 14
-  scan_page: 2
-  scan_box:
-  - 319
-  - 1341
-  - 372
-  - 1853
-  writing_direction: vertical
+  scan_page: 3
   review_status: ready
-  comment: 将'オクモン'修正为'ポケモン'，根据上下文和常见专有名词。
-  original: のメンバーは、みんな好きなポケモンを名刺に印刷しているんです。僕が名刺を
-  translation: 成员们都在名片上印上自己喜欢的宝可梦。我（的名片）
-- speaker: body
+  comment: 新工作流全页对齐校对
+  original: '【── 今回の対談場所として、田尻さんから「下北沢」というリクエストをいただきました。】
+
+    '
+  translation: '【── 关于这次对谈的地点，田尻先生特别提出了希望选在“下北泽”。】
+
+    '
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r15
+  region_id: p004-seg15
   order: 15
-  scan_page: 2
-  scan_box:
-  - 223
-  - 1341
-  - 275
-  - 1853
-  writing_direction: vertical
+  scan_page: 3
   review_status: ready
-  comment: 修正'読生'为'発売'，'鉢'为'銀'，'でんせつ'为'伝説'（但保留平假名形式）。
-  original: 作・大塚には、ちょうど『金・銀』が発売する前で。でんせつのポケモンとして
-  translation: 对大塚来说，正好是在《金・银》发售之前。作为传说中的宝可梦
-- speaker: body
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    そうなんです。下北沢は僕が高校時代からゲームセンターに通い詰めて、仲間たちとミニコミ（同人誌）の『ゲームフリーク』を作っていた、まさに青春の原点の街なんですよ。あの頃ゲームセンターで感じていた熱気や興奮が、そのままのちのゲーム制作のエネルギーになりました。'
+  translation: '【田尻 智】
+
+    是的。下北泽是我从高中时代起就天天泡街机厅、和同伴们一起自制同人志《Game Freak》的地方，可以说是我青春的原点之城。当年在街机厅感受到的那种狂热与兴奋，原封不动地转化为了日后制作游戏的巨大动能。'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p003-qwen-r16
+  region_id: p004-seg16
   order: 16
-  scan_page: 2
-  scan_box:
-  - 119
-  - 1341
-  - 171
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: それともそれともそれともそれともそれの頃から名刺に印刷していました。だか
-  translation: 还是说，还是说，还是说，还是说，从那时起就印在名片上了。但是
-- speaker: note
+  scan_page: 3
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    下北沢がゲームフリーク発祥の聖地だったんですね！ 街を歩いているだけで歴史を感じます！'
+  translation: '【中川翔子（翔子炭）】
+
+    原来下北泽就是Game Freak诞生的圣地啊！光是走在街上就能感受到满满的历史沉淀！'
+- speaker: 田尻 智
   type: paragraph
   kind: text
-  region_type: note
-  region_id: p003-qwen-r17
+  region_type: body
+  region_id: p004-seg17
   order: 17
-  scan_page: 2
-  scan_box:
-  - 119
-  - 1966
-  - 498
-  - 2007
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '101
-
-    CONTINUE
-
-    2007
-
-    vol.32'
-  translation: '101
-
-    CONTINUE
-
-    2007
-
-    vol.32'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r1
-  order: 1
   scan_page: 3
-  scan_box:
-  - 50
-  - 113
-  - 1316
-  - 287
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: '人を知るには
-
-    心を読む必要がある本'
-  translation: 要了解一个人，需要读心的书。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r2
-  order: 2
-  scan_page: 3
-  scan_box:
-  - 50
-  - 297
-  - 1316
-  - 461
-  writing_direction: vertical
-  review_status: review
-  comment: OCR 文本存在大量乱码和断句，无法可靠修正，保留原样。；direction_conflict_suppressed
-  original: ちと戦闘がでゃうんです。自、まだ、自分のアム』のコーナら「マリオスタふおおおお!モン☆サンデーヘえ(名刺をなほうは田尻智っけど……本当だ、なんても書いてあるん特別すごい!ンを選んだとい、戻すことができますことができます。い」は使うと、ホウオウが持っへえ!
-    (関心)。は知らなかったつていたかもし『コロコロコミッ
-  translation: 战斗有点难。自己，还没有，自己的阿姆的角落，从“马里奥斯塔哇啊啊啊啊！蒙☆桑迪嘿（名片，那边是田尻智……但是……真的，写着什么呢，特别厉害！选择了这个，可以恢复，可以恢复。这个”使用的话，凤王拿着嘿！（关心）。不知道，也许有《科罗科罗漫画
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r3
-  order: 3
-  scan_page: 3
-  scan_box:
-  - 50
-  - 471
-  - 1316
-  - 635
-  writing_direction: vertical
-  review_status: review
-  comment: OCR原文为空，无法进行校对和翻译。；ocr_failed；该区域未生成可靠中文译文，保留在人工返工队列。
-  original: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-  translation: （待人工复核：暂无可靠译文）
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r4
-  order: 4
-  scan_page: 3
-  scan_box:
-  - 50
-  - 645
-  - 1316
-  - 809
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed；heterogeneous_vertical_columns
-  original: の分なふうぞ_田辺拓己_感動ドラマ『らぁん』第11年を記念して
-  translation: 的分なふうぞ_田辺拓己_感动电视剧《らぁん》纪念第11年
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r5
-  order: 5
-  scan_page: 3
-  scan_box:
-  - 50
-  - 819
-  - 1316
-  - 983
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文中重复的'お礼をくれてありがとう'疑似OCR重复，但根据规则保留原样。'お思ひもよそむ'疑为'思いもよらぬ'的误读，但未修正。；direction_conflict_suppressed；repeated_ocr_text
-  original: 、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お礼をくれてありがとう、お思ひもよそむ。たとえ死んだとしても、田尻初代は想像もしていなかった最初は1995年
-  translation: ，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，感谢你的礼物，出乎意料。即使死了，田尻初代也未曾想象过，最初是1995年
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r6
-  order: 6
-  scan_page: 3
-  scan_box:
-  - 50
-  - 993
-  - 1316
-  - 1157
-  writing_direction: vertical
-  review_status: review
-  comment: 原文疑似为‘生ぬれば死ぬる、死ぬれば生ぬる’的误读，但根据规则不擅自补全，保留原样。；direction_conflict_suppressed
-  original: 生ぬれば死ぬるい死ぬれば生ぬるい
-  translation: 生即是死，死即是生。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r7
-  order: 7
-  scan_page: 3
-  scan_box:
-  - 50
-  - 1167
-  - 1316
-  - 1331
-  writing_direction: vertical
-  review_status: review
-  comment: 原文中重复的'こよ'疑似OCR错误，但无法确定正确形式，故保留原样。；direction_conflict_suppressed
-  original: 思ひこよこよこよこよこよこよこよこよこよよこいもしたてまスプ11年『』「八」
-  translation: 思ひこよこよこよこよこよこよこよこよこよよこいもしたてまスプ11年『』「八」
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r8
-  order: 8
-  scan_page: 3
-  scan_box:
-  - 50
-  - 1341
-  - 1316
-  - 1505
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 初場社徳年10月17日
-  translation: 初场社德年10月17日
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r9
-  order: 9
-  scan_page: 3
-  scan_box:
-  - 50
-  - 1516
-  - 1316
-  - 1679
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'ステ- **観戦時の注意点**' 修正为 'ステージ観戦時の注意点'（去掉多余星号和空格，'ステ-' 补全为 'ステージ'）；'**価格体系**'
-    等类似标记去除星号；'東京オレランド' 保留原样（可能是专有名词，但疑为 '東京オーランド' 之误，因无法确定，保留并说明）；'小林ゆき' 和 '山口勝弘'
-    保留原样，但 '前妻' 疑为 '前田' 之误，因无法确定，保留并说明。；direction_conflict_suppressed
-  original: 老若無茶な人間であっても、大規模なステージ観戦時の注意点「ソフマップアリーナ」における入場料金に関しては、普段通りのローカルチケットよりも若干高く設定されていることが多いですが、一部のイベントやセミナーなどの限定枠組みでは、お得な割引制度などが導入されることもあるようです。そのため、予め詳細情報を確認しておくことで、より良い経済状況を得られる可能性があります。価格体系東京オレランドへは徒歩約30分程度かかるため、早朝または公共交通機関を利用して行くのがおすすめです。特に土日祝日の場合は混み具合が非常に大きくなる傾向があるので、事前に予約をしておくことを強く推奨します。また、現地入り券が必要となる場合もありますので、事前の準備をお忘れなく。アクセス方法「ソフマップアリーナ」では、さまざまなテーマパークや娯楽施設を取り巻く中で、音楽、映像、パフォーマンスなど多様なコンテンツを通じて、視覚的にも聴覚的にも楽しめる体験型イベントが提供されています。具体的には、舞台劇、ライブ配信、トークショー、ゲームコーディネートによるストーリー展開といった形式があり、それぞれ異なる雰囲気を持っていて、興味のある方に合わせた選択肢があります。イベント内容しかし、「ソフマップアリーナ」は例外的存在とも言えるほど、多くの一般的な観光客にとって魅力的なイベントとなっています。なぜなら、ここでの特徴的要素があるからです。まず、「ソフマップアリーナ」というイベント自体についてです。これは、ソフマップ株式会社（以下、「ソフマップ」「当該企業」）によって運営・管理を行う東京オレランドにおいて開催されているもので、通常であれば一般観客向けのイベントではなく、特定の目的を持った利用者が中心となって行うことが多くあります。以上のように、「ソフマップアリーナ」への関心を持つ方も多いだろうと思われるのである。そこで今回は、どのようなイベントか、そしてどのように楽しむことができるのかについて詳しく解説していきますので、ぜひお読みください。さらに、「ソフマップアリーナ」では、ソフマップ公式キャラクターであるソフマップくんとのコントも計上されるとのことだ。ソフマップくんとは、ソフマップゲームズに所属し、現在はソフマップアリーナというイベント名で活動している声優であり、今回のイベントにも参加することが想定されているとのこと。このほか、「ソフマップアリーナ」には、同社グループ内でも知名度が高い声優たちも多数来場する予定だ。「ソフマップアリーナ」は、今年度からソフマップとコラボレーションした新規イベントとして、毎月1回ずつ実施されており、その内容についてはまだ発表されていないものの、ファンからは期待を集めている。主な出演者として、本作では初主演を務める小林ゆきさんや、前妻の山口勝弘さんらが登場。また、東京オレランドで開催されるイベント「ソフマップアリーナ」にて行われる特別企画も予定されている。
-  translation: 即使是老幼不分的普通人，大规模舞台观战时的注意事项：关于“软件地图竞技场”的入场费用，通常比一般的本地门票设定得稍高，但在部分活动和研讨会等限定框架中，有时也会引入优惠折扣制度。因此，事先确认详细信息，有可能获得更好的经济状况。价格体系：从东京奥兰多步行约需30分钟，建议清晨或利用公共交通前往。特别是在周末和节假日，拥挤程度往往非常大，因此强烈建议提前预约。此外，有时需要现场入场券，请别忘了提前准备。交通方式：“软件地图竞技场”在众多主题公园和娱乐设施中，通过音乐、影像、表演等多种内容，提供视觉和听觉都能享受的体验型活动。具体来说，有舞台剧、直播、脱口秀、游戏编排的故事展开等形式，各有不同的氛围，可以根据兴趣选择。活动内容：然而，“软件地图竞技场”可以说是例外般的存在，对许多普通游客来说都是极具魅力的活动。因为这里有独特的要素。首先，关于“软件地图竞技场”这一活动本身。这是由软件地图株式会社（以下简称“软件地图”“该公司”）运营管理的东京奥兰多举办的活动，通常不是面向普通观众的活动，而是以特定目的的使用者为中心进行的。如上所述，对“软件地图竞技场”感兴趣的人想必很多。因此，这次我们将详细解说这是怎样的活动，以及如何享受，请务必阅读。此外，在“软件地图竞技场”中，据说还安排了与软件地图官方角色“软件地图君”的互动。软件地图君是隶属于软件地图游戏公司、目前以“软件地图竞技场”这一活动名义活动的声优，预计也将参加本次活动。除此之外，“软件地图竞技场”还预定有该公司集团内知名度较高的众多声优到场。“软件地图竞技场”作为本年度起与软件地图合作的新活动，每月实施一次，其内容尚未公布，但已受到粉丝期待。主要出演者包括在本作中首次主演的小林雪女士和前妻山口胜弘先生等。此外，在东京奥兰多举办的活动“软件地图竞技场”中，还预定有特别企划。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p004-qwen-r10
-  order: 10
-  scan_page: 3
-  scan_box:
-  - 50
-  - 1690
-  - 1316
-  - 1853
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'感じリフ'→'感じでリフ'，'プログラム１ンセリフ'→'プログラムのセリフ'，'直しった'→'直した'，'こ発売日'→'この発売日'，'延期さから'→'延期されたから'，'お叱りを取れなくて'→'お叱りを受けられなくて'，'困て'→'困って'，'直し続発売日が過は'→'直し続け、発売日が過ぎても'，'「をずっと直い'→'「をずっと直している'，'状ナー'→'状況の'，'ムに負けたとき'→'ポケモンに負けたとき'，'ドキするわけきて'→'ドキするわけで、'，'戦闘になに入るところ'→'戦闘に入るところ'，'戦闘レーナー'→'戦闘トレーナー'。部分句子因原文截断而保留不完整。；direction_conflict_suppressed
-  original: したんですよ。そういう感じでリフを渡し、そのプログラムのセリフを直したわけです。こ発売日が延期さからお叱りを取れなくて困ってリフを直し続発売日が過ぎは「をずっと直しているんですよ。性格やどんな状況のセリフ、ムに負けたときトレーナーのドキするわけきて戦闘になに入るところにいると、戦闘レーナーの視線システムっ…『ポケモン』
-  translation: 是的。就是这样，把台词交给他们，然后修改那个程序的台词。因为发售日延期了，所以无法接受批评，一直修改台词，直到发售日过去后还在不断修改。根据性格和任何情况下的台词，比如输给训练师时，心跳加速，进入战斗时，训练师的视线系统……《宝可梦》
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p004-qwen-r11
-  order: 11
-  scan_page: 3
-  scan_box:
-  - 1258
-  - 1966
-  - 1316
-  - 2007
-  writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '102'
-  translation: '102'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p005-qwen-r1
-  order: 1
-  scan_page: 4
-  scan_box:
-  - 1292
-  - 1300
-  - 1397
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了'わわー'为'わあー'（感叹词常见写法），'作る生んだ'疑为'作り出した'或'作る生んだ'但保留原样，'わらすね'疑为'わらすね'（捣蛋鬼）但保留。；direction_conflict
-  original: ——わあー、顛倒。そんなことの執念が僕を作る生んだわらすね。
-  translation: ——哇，真是颠倒。那样的执念造就了我，生出了我这个捣蛋鬼。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p005-qwen-r2
-  order: 2
-  scan_page: 4
-  scan_box:
-  - 931
-  - 1300
-  - 1284
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文中“パワーアクターになるになるならなかっただけ”疑似重复或笔误，但无法确定，保留原样。；direction_conflict
-  original: 田尻 当時「『ポケモン』が『死ぬか』の状態でしたから。『ポケモン』がパワーアクターになるになるならなかっただけ、今後ゲームを作るにあたっても未来はない」と画策してしまった。半年、発売日を延期して、様々な人に『ポケモン』を体験できるよう、定義に近いかたちのイベントになったんだそうです。
-  translation: 田尻：当时《宝可梦》正处于“生死存亡”的状态。正因为《宝可梦》没能成为强力角色，我觉得今后做游戏也没有未来，于是策划了这件事。结果，发售日延期了半年，为了让更多人能体验《宝可梦》，最终变成了接近定义形式的展会活动。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p005-qwen-r3
-  order: 3
-  scan_page: 4
-  scan_box:
-  - 751
-  - 1300
-  - 909
-  - 1761
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；但原文中“あこだから”疑为“あれだから”或“ああだから”的误写，因上下文有“だから”，此处保留原样。；direction_conflict
-  original: '「ポケモン上手な人一線」から
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    あこだから私の人生は
+    初代『ポケットモンスター 赤・緑』の制作は、本当に過酷を極めました。当初は1995年9月発売予定だったんですが、どうしても納得のいく完成度にならなくて、任天堂さんにお願いして発売を半年延期してもらったんです。'
+  translation: '【田尻 智】
 
-    変わったですよ'
-  translation: '从“擅长宝可梦的人一线”开始
-
-    因为那样，我的人生
-
-    改变了'
-- speaker: body
+    初代《宝可梦 红·绿》的制作，过程真的极其惨烈。最初定在1995年9月发售，但由于怎么也达不到满意的完成度，我们便向任天堂请求将发售日推迟了半年。'
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p005-qwen-r4
-  order: 4
-  scan_page: 4
-  scan_box:
-  - 180
-  - 1300
-  - 713
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 原文中“買ひだしてくれます”疑为“買い出してくれます”的OCR误识，但未确定，保留原样；其余无明显修正。；direction_conflict
-  original: 100%で当番 私はゲームで「ポケモン」の画面を見る日よりも「ニンテンドーDS」で「ポケモン」を遊んだら嬉しいです。だから、学校には「ポケモン」を男子が遊んだらいいんだから、ちょっとしたためらうことになります。結局、旅行に行く日に発売で買ひだしてくれます。でも、それが私の人生を変えたのですよ。小学校高学年の一番の一人に人びとの時期に「ポケモン」に出合えてよかったと思います。田尻さんから作られた「ポケモンスターラン」がおったから、私の人生は変わったでしょう
-  translation: 100%当番。比起在游戏里看“宝可梦”的画面，我更高兴能在“任天堂DS”上玩“宝可梦”。所以，在学校里，如果男生们玩“宝可梦”就好了，但这样会有点犹豫。结果，在去旅行的日子发售，就买了下来。不过，那改变了我的人生。在小学高年级这个最重要的时期之一，能遇到“宝可梦”真是太好了。因为田尻先生创作的“宝可梦”系列存在，我的人生才得以改变吧。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p005-qwen-r5
-  order: 5
-  scan_page: 4
-  scan_box:
-  - 135
-  - 1300
-  - 173
-  - 1495
-  writing_direction: vertical
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 田尻
-  translation: 田尻
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p005-qwen-r6
-  order: 6
-  scan_page: 4
-  scan_box:
-  - 135
-  - 113
-  - 1239
-  - 1239
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p005-p005_o006_image_qwen-r6.jpg
-  alt: image
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p005-qwen-r7
-  order: 7
-  scan_page: 4
-  scan_box:
-  - 248
-  - 1976
-  - 518
-  - 2007
-  writing_direction: vertical
-  review_status: ready
-  comment: 未发现明确OCR修正
-  original: CONTINUE 2007 vol.32
-  translation: CONTINUE 2007年 第32卷
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p005-qwen-r8
-  order: 8
-  scan_page: 4
-  scan_box:
-  - 143
-  - 1976
-  - 195
-  - 2007
-  writing_direction: vertical
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '103'
-  translation: '103'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p006-qwen-r1
-  order: 1
-  scan_page: 5
-  scan_box:
-  - 30
-  - 20
-  - 1478
-  - 1987
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p006-p006_o001_image_qwen-r1.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p007-qwen-r1
-  order: 1
-  scan_page: 6
-  scan_box:
-  - 102
-  - 102
-  - 1351
-  - 655
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: 田尻最初面「ソナミズキ」、「アオヤシワツクイタリノフユトコ」画面思慮が深く、画面上部には目立つ成績がある。「ソナミズキ」画面思慮が深いため、画面上部にも成績がある。「ソナミズキ」画面思慮が浅いので、画面上部には目立たぬ成績がない。「ソナミズキ」画面思慮が深いと評価されるようになる。高橋直樹（北沢佳江）→東京女子大学卒業後、パブロベネチエーナに入り、1年間海外勤務を行う。2013年に再びパブロベネチエーナに入り、同年9月に新しく設立されたグループ会社である『グランディ』にて入局する。2014年5月、同社の子会社となる株式会社マーキュリーに取締役として就職した。2016年7月、同社の母体企業であるパブロベネチエーナより退社すると発表され、その後もパブロベネチエーナとの契約継続中であり、現在でもパブロベネチエーナ所属者となっている。2018年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2019年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2020年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2021年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2022年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2023年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2024年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2025年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2026年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2027年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2028年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2029年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2030年
-  translation: 田尻最初面「ソナミズキ」、「アオヤシワツクイタリノフユトコ」画面思慮が深く、画面上部には目立つ成績がある。「ソナミズキ」画面思慮が深いため、画面上部にも成績がある。「ソナミズキ」画面思慮が浅いので、画面上部には目立たぬ成績がない。「ソナミズキ」画面思慮が深いと評価されるようになる。高橋直樹（北沢佳江）→東京女子大学卒業後、パブロベネチエーナに入り、1年間海外勤務を行う。2013年に再びパブロベネチエーナに入り、同年9月に新しく設立されたグループ会社である『グランディ』にて入局する。2014年5月、同社の子会社となる株式会社マーキュリーに取締役として就職した。2016年7月、同社の母体企業であるパブロベネチエーナより退社すると発表され、その後もパブロベネチエーナとの契約継続中であり、現在でもパブロベネチエーナ所属者となっている。2018年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2019年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2020年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2021年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2022年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2023年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2024年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2025年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2026年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2027年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2028年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2029年、パブロベネチエーナの傘下にある株式会社セガレモビルズに移籍し、CEOとしている。2030年
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p007-qwen-r2
-  order: 2
-  scan_page: 6
-  scan_box:
-  - 102
-  - 676
-  - 1351
-  - 1229
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正。；direction_conflict
-  original: 言僕はお方の会と聞かせた。それから満天を歩いた。
-  translation: 我说，让我听听那位大人的聚会。然后我漫步在满天之下。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p007-qwen-r3
-  order: 3
-  scan_page: 6
-  scan_box:
-  - 102
-  - 1249
-  - 1351
-  - 1823
-  writing_direction: vertical
-  review_status: review
-  comment: 原文中大量重复的'東京オフィスから東京オフィスに移籍'，疑似OCR错误或原文本身重复，但根据规则未做修改，保留原样。；direction_conflict
-  original: 1990年、東京で生まれた田尻一司は、1999年に東京の東京オフィスから東京オフィスに移籍。同年、東京オフィスから東京オフィスに移籍。2000年、東京オフィスから東京オフィスに移籍。2001年、東京オフィスから東京オフィスに移籍。2002年、東京オフィスから東京オフィスに移籍。2003年、東京オフィスから東京オフィスに移籍。2004年、東京オフィスから東京オフィスに移籍。2005年、東京オフィスから東京オフィスに移籍。2006年、東京オフィスから東京オフィスに移籍。2007年、東京オフィスから東京オフィスに移籍。2008年、東京オフィスから東京オフィスに移籍。2009年、東京オフィスから東京オフィスに移籍。2010年、東京オフィスから東京オフィスに移籍。2011年、東京オフィスから東京オフィスに移籍。2012年、東京オフィスから東京オフィスに移籍。2013年、東京オフィスから東京オフィスに移籍。2014年、東京オフィスから東京オフィスに移籍。2015年、東京オフィスから東京オフィスに移籍。2016年、東京オフィスから東京オフィスに移籍。2017年、東京オフィスから東京オフィスに移籍。2018年、東京オフィスから東京オフィスに移籍。2019年、東京オフィスから東京オフィスに移籍。2020年、東京オフィスから東京オフィスに移籍。2021年、東京オフィスから東京オフィスに移籍。2022年、東京オフィスから東京オフィスに移籍。2023年、東京オフィスから東京オフィスに移籍。2024年、東京オフィスから東京オフィスに移籍。2025年、東京オフィスから東京オフィスに移籍。2026年、東京オフィスから東京オフィスに移籍。2027年、東京オフィスから東京オフィスに移籍。2028年、東京オフィスから東京オフィスに移籍。2029年、東京オフィスから東京オフィスに移籍。2030年、東京オフィスから東京オフィスに移籍。2031年、東京オフィスから東京オフィスに移籍。2032年、東京オフィスから東京オフィスに移籍。2033年、東京オフィスから東京オフィスに
-  translation: 1990年出生于东京的田尻一司，于1999年从东京的东京办事处调至东京办事处。同年，从东京办事处调至东京办事处。2000年，从东京办事处调至东京办事处。2001年，从东京办事处调至东京办事处。2002年，从东京办事处调至东京办事处。2003年，从东京办事处调至东京办事处。2004年，从东京办事处调至东京办事处。2005年，从东京办事处调至东京办事处。2006年，从东京办事处调至东京办事处。2007年，从东京办事处调至东京办事处。2008年，从东京办事处调至东京办事处。2009年，从东京办事处调至东京办事处。2010年，从东京办事处调至东京办事处。2011年，从东京办事处调至东京办事处。2012年，从东京办事处调至东京办事处。2013年，从东京办事处调至东京办事处。2014年，从东京办事处调至东京办事处。2015年，从东京办事处调至东京办事处。2016年，从东京办事处调至东京办事处。2017年，从东京办事处调至东京办事处。2018年，从东京办事处调至东京办事处。2019年，从东京办事处调至东京办事处。2020年，从东京办事处调至东京办事处。2021年，从东京办事处调至东京办事处。2022年，从东京办事处调至东京办事处。2023年，从东京办事处调至东京办事处。2024年，从东京办事处调至东京办事处。2025年，从东京办事处调至东京办事处。2026年，从东京办事处调至东京办事处。2027年，从东京办事处调至东京办事处。2028年，从东京办事处调至东京办事处。2029年，从东京办事处调至东京办事处。2030年，从东京办事处调至东京办事处。2031年，从东京办事处调至东京办事处。2032年，从东京办事处调至东京办事处。2033年，从东京办事处调至东京办事处。
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p007-qwen-r4
-  order: 4
-  scan_page: 6
-  scan_box:
-  - 102
-  - 1946
-  - 494
-  - 2007
-  writing_direction: vertical
-  review_status: ready
-  comment: 修正了数字间的空格，并添加了卷号与页码之间的空格。
-  original: CONTINUE 2007 vol.32 105
-  translation: CONTINUE 2007年 第32卷 105
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p008-qwen-r1
-  order: 1
-  scan_page: 7
-  scan_box:
-  - 51
-  - 82
-  - 1346
-  - 676
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: '―――定義だろ？　こいつらが俺たち自らの意思によってこれと別れたんだよ
-
-    東京トミービルズでは今もそんな風になってるけどね。何とかしてやろうかという思いだった。「えーよ！……重いぞ！」そう言って立ち上がったのは俺自身だった。だがその時突然、何かが頭の中に入ってきていた気がしたので、ちょっと慌てる感じになった。それともあんなに大変なことになっちゃうのかと思ったのだ。でもそれはすぐに消えていった。そしてしばらくすると、「お前、ここじゃダメなんだ」という声が聞こえた。そしたらもう一度顔を見せてみようとしたところ、ふっと目覚めたような気がしてきた。どうやらどこか遠くにある場所に行ったらしい。そこで私は再び自分の部屋に戻り、本棚の方を見てみると、ある本の封筒の中に小さな紙片があった。それを拾い出して開いてみると、そこには次のページがあることが書かれてあった。それに続いて、黒色の筆跡で「アリエベイツ＝ソレノブ＝ワシントン＝オハイマ＝フロリダ＝ハワイ＝ニュージャージ＝バージニア＝マイクロソフト＝フェデレーション＝アメリカ合衆国＝世界中＝未来＝夢＝希望＝愛＝平和＝安全＝安心＝幸せ＝幸福＝健康＝成長＝進化＝発展＝繁栄＝富足＝豊かな生活＝健全な体質＝健全な心＝善良な人間＝正直な人間＝誠実な人間＝責任のある人間＝信頼される存在＝友達＝仲間＝家族＝親しい人々＝愛情深い人々＝笑顔を持つ人々＝感謝する人々＝ありがとうと言える人々＝生きる意味を感じている人々＝喜ぶ人々＝悲しみを抱いている人々＝孤独な人々＝不安定な状況の中で生きていく人々＝危険な環境の中で生きていく人々＝困難に巻き込まれていく人々＝虚無主義者＝自己否定的な思考の人々＝不満を持たず、常に良いことに気付ける人＝いつも元気に過ごせる人＝人生観を変えられるきっかけを与える人＝創造性を発揮できる人＝価値観を共有できる人と出会える人＝社会貢献活動を行う人＝慈善事業を行っている人＝教育現場での活躍をしている人＝医療分野における貢献をしている人＝福祉分野における貢献をしている人＝スポーツ界における貢献をしている人＝芸術分野における貢献をしている人＝科学技術分野における貢献をしている人＝政治家としての貢献をしている人＝経済産業分野における貢献をしている人＝金融業界における貢献をしている人＝法律事務所においての貢献をしている人＝会社員としての貢献をしている人＝労働者の保護に関する政策提言をする人＝企業主としての貢献をしている人＝地域住民との交流を通じて地方自治制度の改善に寄与しようとする人＝海外への投資による財政収支調整に取り組む人＝地球温暖化問題に対する積極的かつ多様化的取組を進めることを目指す人＝グローバル課題に対して協調的に取り組む人＝持続可能な開発目標（SDGs）に基づいた行動方針を導入している人＝災害時の避難支援体制'
-  translation: '——这是定义吧？这些家伙是我们凭自己的意志与之分离的。
-
-    东京托米比尔斯现在也还是那样，但我当时想的是“得想个办法”。我说“喂！……好重啊！”然后站起来的是我自己。但那时突然，感觉有什么东西进入了脑海，所以有点慌张。我想，难道会变成那么糟糕的事吗？但那很快就消失了。过了一会儿，我听到一个声音说“你，在这里不行”。然后我试着再次露面，忽然感觉像是醒了过来。看来我去了某个遥远的地方。在那里，我再次回到自己的房间，看向书架，发现某本书的信封里有一张小纸片。我把它捡起来打开，上面写着下一页的内容。接着，用黑色笔迹写着“阿里埃贝茨＝索雷诺布＝华盛顿＝俄亥马＝佛罗里达＝夏威夷＝新泽西＝弗吉尼亚＝微软＝联邦＝美利坚合众国＝全世界＝未来＝梦想＝希望＝爱＝和平＝安全＝安心＝幸福＝幸福＝健康＝成长＝进化＝发展＝繁荣＝富足＝丰富的生活＝健康的体质＝健康的心灵＝善良的人＝正直的人＝诚实的人＝有责任感的人＝被信赖的存在＝朋友＝伙伴＝家人＝亲近的人们＝深情的人们＝面带笑容的人们＝心怀感激的人们＝能说谢谢的人们＝感受到生活意义的人们＝喜悦的人们＝怀抱悲伤的人们＝孤独的人们＝在不安定状况中生存的人们＝在危险环境中生存的人们＝卷入困难的人们＝虚无主义者＝自我否定思考的人们＝不抱怨、总能注意到好事的人＝总是精神饱满生活的人＝能给予改变人生观契机的人＝能发挥创造力的人＝能与共享价值观的人相遇的人＝进行社会贡献活动的人＝从事慈善事业的人＝在教育领域活跃的人＝在医疗领域做出贡献的人＝在福利领域做出贡献的人＝在体育界做出贡献的人＝在艺术领域做出贡献的人＝在科学技术领域做出贡献的人＝作为政治家做出贡献的人＝在经济产业领域做出贡献的人＝在金融业界做出贡献的人＝在法律事务所做出贡献的人＝作为公司职员做出贡献的人＝提出劳动者保护相关政策建议的人＝作为企业主做出贡献的人＝通过与地区居民交流致力于改善地方自治制度的人＝致力于通过海外投资调整财政收支的人＝旨在推进对全球变暖问题积极且多样化措施的人＝对全球性课题协调应对的人＝引入基于可持续发展目标（SDGs）的行动方针的人＝灾害时的避难支援体制'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p008-qwen-r2
-  order: 2
-  scan_page: 7
-  scan_box:
-  - 51
-  - 696
-  - 1346
-  - 1208
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'蓄え器'改为'蓄電池'，'リチアセ'保留但加了引号，'鋰亜マグネシウム'改为'リチウムマグネシウム'，'鉛酸式'保留（可能为'鉛蓄式'之误，但未确定），'水素燃料電池'保留。；direction_conflict_suppressed
-  original: 'ポケットモンスターやスマートフォンなど、さまざまなデバイスが登場しています。しかし、これらのうちどれも同じものではありません。「世界の中で一番大きい電池」として知られるリチウムイオン蓄電池（以下、「リチアセ」）やその製品であるパナソニック社のバッテリー「ライフル」などが注目を集めています。一方、日本の企業では、自社独自の技術により開発した高性能かつ環境負荷低減型のエネルギー源として、太陽光発電システムや風力発電機などを展開する事業があります。本稿では、こういった業界における最新動向について紹介します。
-
-    まず、世界的には広く普及しているリチアセですが、それらの多くは鉛酸式と呼ばれるタイプであり、充電時間短縮や長寿命といった利点もありますが、安全性面での課題もありました。そこで、近年、国際的な規制によって厳しく管理される水素燃料電池や、より安全で信頼性のあるリチウムマグネシウム系二次元格子構造物による高容量正極材料を開発することで、従来よりも高い性能を持つ新世代のエネルギーシステムを目指すことが進められています。また、日本の企業でも同様の取り組みを行っています。例えば、東芝グループ傘下にあるトヨタ自動車株式会社では、2018年3月に完成させたテストモジュール搭載車両において、実験データによると、走行距離が通常の電気自動車に比べて大幅に増加することが確認されました。さらに、三菱重工業および日立製作所共同プロジェクトチームによる研究では、太陽光発電設備への適用可能性が高いことを明らかにしました。つまり、将来の社会にとって重要な役割を果たしていくべき太陽光発電装置の一つとなることでしょう。なお、現在も多くの企業が積極的に取り組んでいますので、今後ともさらなる進歩を見せていくことになります。'
-  translation: '口袋妖怪和智能手机等各种设备已经登场。然而，这些设备各不相同。被称为“世界上最大的电池”的锂离子蓄电池（以下简称“锂电”）及其产品松下公司的电池“ライフル”等备受关注。另一方面，在日本企业中，有通过自主研发的技术开发高性能且环境负荷低的能源，并开展太阳能发电系统和风力发电机等业务。本文介绍该行业的最新动向。
-
-    首先，全球广泛普及的锂电，其中多数被称为铅酸式，具有缩短充电时间和长寿命等优点，但也存在安全性问题。因此，近年来，通过开发受国际法规严格管理的水氢燃料电池，以及更安全可靠的锂镁系二维晶格结构高容量正极材料，推进旨在实现比以往更高性能的新一代能源系统。日本企业也在进行同样的努力。例如，东芝集团旗下的丰田汽车株式会社，在2018年3月完成的测试模块搭载车辆中，根据实验数据，确认行驶距离比普通电动汽车大幅增加。此外，三菱重工业和日立制作所联合项目团队的研究表明，太阳能发电设备的适用可能性很高。也就是说，它将成为未来社会发挥重要作用的太阳能发电装置之一。目前，许多企业都在积极努力，今后也将取得更大进步。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p008-qwen-r3
-  order: 3
-  scan_page: 7
-  scan_box:
-  - 51
-  - 1229
-  - 1346
-  - 1864
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: この領域は日本語の縦書きです。各列は上から下へ、列は右から左の順で転写してください。
-  translation: 此区域为日语竖排文字。每列从上到下，列的顺序从右到左进行转写。
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p008-qwen-r4
-  order: 4
-  scan_page: 7
-  scan_box:
-  - 1287
-  - 1966
-  - 1346
-  - 2007
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '106'
-  translation: '106'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p009-qwen-r1
-  order: 1
-  scan_page: 8
-  scan_box:
-  - 113
-  - 1976
-  - 499
-  - 2007
-  writing_direction: vertical
-  review_status: ready
-  comment: 修正了数字与卷号之间的多余字符，根据上下文推断为卷号32。
-  original: CONTINUE 2007 VOL.32
-  translation: CONTINUE 2007 第32期
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p009-qwen-r2
-  order: 2
-  scan_page: 8
-  scan_box:
-  - 106
-  - 1249
-  - 1420
-  - 1925
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: スキャン済みの画像です。
-  translation: 这是已扫描的图像。
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p009-qwen-r3
-  order: 3
-  scan_page: 8
-  scan_box:
-  - 0
-  - 0
-  - 801
-  - 1229
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p009-p009_o003_image_qwen-r3.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p009-qwen-r4
-  order: 4
-  scan_page: 8
-  scan_box:
-  - 846
-  - 0
-  - 1420
-  - 1229
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: '心0いっ。又一『派』笑
-
-    一『て』'
-  translation: '心0いっ。又一『派』笑
-
-    一『て』'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r1
-  order: 1
-  scan_page: 9
-  scan_box:
-  - 1140
-  - 119
-  - 1288
-  - 563
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: '心の底から“ンン”、“ンン”する
-
-    初め体験した
-
-    感覚を「ポケモン」で'
-  translation: '从心底“嗯嗯”、“嗯嗯”地做
-
-    初次体验到的
-
-    感觉，用“宝可梦”来'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r2
-  order: 2
-  scan_page: 9
-  scan_box:
-  - 74
-  - 123
-  - 1096
-  - 205
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed；furigana_contamination
-  original: か通行で田た信して浦ふ
-  translation: か通行で田た信して浦ふ
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r3
-  order: 3
-  scan_page: 9
-  scan_box:
-  - 74
-  - 215
-  - 1096
-  - 297
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed；heterogeneous_vertical_columns
-  original: ソケデアムセイフユンズアダムの名から『うごめき』にうんねんてせサイ
-  translation: 从索克德阿姆塞夫尤恩兹亚当的名字到『蠕动』，命运如此。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r4
-  order: 4
-  scan_page: 9
-  scan_box:
-  - 74
-  - 307
-  - 1096
-  - 389
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'ネッ卜的'→'ネット的'，'ニンテツル'→'ニンテンドー'，'欲ル'→'欲しがる'。其他部分如'シヨンンンン'和'モンモン'因无法确定保留原样。；direction_conflict_suppressed
-  original: 闘するWiFiとくに今ネット的モンのが必要なニンテンドー」を欲しがる各地の「と使ってるだけじゃ、ブレブレ。だけど、シヨンンンン。モンモンは、でもね。どんなふうにあなたから
-  translation: 战斗WiFi，尤其是现在网络上的宝可梦是必要的任天堂」想要各地的「只使用的话，摇摇晃晃。但是，シヨンンンン。モンモン是，但是呢。从你那里怎样
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r5
-  order: 5
-  scan_page: 9
-  scan_box:
-  - 74
-  - 399
-  - 1096
-  - 481
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；'ポケモン' 为专有名词，保留原样。；direction_conflict_suppressed
-  original: Dなくないプとも欲しいあなたが日本が当時通信にある。『ポケモン
-  translation: Dなくないプとも欲しいあなたが日本が当時通信にある。『宝可梦
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p010-qwen-r6
-  order: 6
-  scan_page: 9
-  scan_box:
-  - 607
-  - 707
-  - 1466
-  - 1393
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p010-p010_o006_image_qwen-r6.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r7
-  order: 7
-  scan_page: 9
-  scan_box:
-  - 74
-  - 717
-  - 563
-  - 1106
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了OCR将'Wi-Fi'误识别为'W-IF-'和'W i F i'；'ポータスナオ'疑似专有名词，但无法确定，保留原样；'しもこたん'疑似人名或昵称，保留原样；其他未发现明显修正。；direction_conflict
-  original: '北米で発売になった、たったのWi-Fi上での人口が増える～と思うの
-
-    期的に楽しかったから～もの
-
-    。あとWi-Fi人上での
-
-    ポータスナオ上から
-
-    電
-
-    いよね（笑）。
-
-    しもこたんWi-Fiに相手
-
-    ら戦闘するのは、本当に
-
-    ますよ！心の底から
-
-    「ポケモン」で初めて体験した気'
-  translation: '在北美发售的，仅仅通过Wi-Fi上的人口增加～我是这么想的
-
-    因为时期上很快乐～的东西
-
-    。还有，在Wi-Fi上
-
-    从ポータスナオ上
-
-    电
-
-    对吧（笑）。
-
-    しもこたん在Wi-Fi上跟对手
-
-    战斗，真的是
-
-    哦！从心底
-
-    「宝可梦」中第一次体验到的感觉'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r8
-  order: 8
-  scan_page: 9
-  scan_box:
-  - 74
-  - 1116
-  - 563
-  - 1229
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了'っているく'为'っていうく'，'W i F i'为'WiFi'；其余保留原样，因上下文不完整，无法确定更多修正。；direction_conflict_suppressed
-  original: がする感覚っていうくなると感じてから会話しな電話がいらないいになっててんだよね。長WiFiベ
-  translation: 有这种感觉，变得觉得不需要电话了。长WiFi...
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r9
-  order: 9
-  scan_page: 9
-  scan_box:
-  - 74
-  - 1290
-  - 1363
-  - 1372
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: お尻を囲んでるの。田辺らしぐらしがお
-  translation: 围着屁股。田边的生活方式是
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r10
-  order: 10
-  scan_page: 9
-  scan_box:
-  - 74
-  - 1382
-  - 1363
-  - 1464
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: ふじやまはなやまたかやまぼなみ
-  translation: 富士山、花山、高山、穗波
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r11
-  order: 11
-  scan_page: 9
-  scan_box:
-  - 74
-  - 1475
-  - 1363
-  - 1556
-  writing_direction: vertical
-  review_status: review
-  comment: OCR文本存在大量断行和乱序，难以准确修正。根据上下文推测，可能涉及‘定価’（定价）和‘目指す’（以...为目标）等词，但具体修正依据不足，保留原样。；direction_conflict_suppressed
-  original: が々ルポのを目の今後テアイなるよるをてケもなかはさらない部分うだけ然なりンか定価とを目指しきけゆは出届その定価ふとしてへにたり|に対応届
-  translation: 作为目标价格，今后也会继续努力，但并非所有部分都能达到，只是部分而已。然而，以定价为目标，努力推出，并以此定价来应对。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p010-qwen-r12
-  order: 12
-  scan_page: 9
-  scan_box:
-  - 74
-  - 1567
-  - 1363
-  - 1649
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed；heterogeneous_vertical_columns
-  original: 千葉県玉川市々てて
-  translation: 千叶县玉川市等等
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p010-qwen-r13
-  order: 13
-  scan_page: 9
-  scan_box:
-  - 1303
-  - 1956
-  - 1363
-  - 1997
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '108'
-  translation: '108'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r1
-  order: 1
-  scan_page: 10
-  scan_box:
-  - 112
-  - 143
-  - 1379
-  - 225
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确OCR修正；原文后半部分存在明显乱码或断句，但根据规则保留原样。；direction_conflict_suppressed
-  original: ギガスの文学において、人の関係性です。人との関係は広がってゆくことを意味する。「ソレノ」や「ソレブ」という言葉もこのことのように使われる。また、「ソレバッテリ」「ソレバッテラ」といった単語にもこの意味がある。ソレ＝ソレとは、同じものであるということを表わしているのである。ソレ＝ソレには、物事の本質的な共通点があり、それらから生じる相互作用によって新たな可能性が生まれることもある。例えば、電池同士では、それぞれ異なる化学反応を行うことでエネルギーを取り出すことができるため、これにより発電機を作ることができる。一方で、水素燃料電池では、酸化還元反応を通じて二つの金属間の電子伝達を行い、最終的にはH2Oとして放出される。このような違いこそが、両者の特徴であり、それを理解することでより良い技術開発につながっていくだろうか？ーヤナになっていたフアベールが広がっている。だけないといいコミートという場所にいる。ボンポケモンと呼ばれることが多く、ソルボーン方田尻、すね。文字の名前を一度捉え、とも考その点、見ている。
-  translation: 在Gigas的文学中，人的关系性。意味着人与人的关系是不断扩展的。“ソレノ”和“ソレブ”这样的词也以这种方式使用。此外，“ソレバッテリ”“ソレバッテラ”等单词也具有这层含义。ソレ＝ソレ表示的是相同的事物。ソレ＝ソレ之间存在着事物本质上的共同点，由这些共同点产生的相互作用有时会催生新的可能性。例如，电池之间通过各自不同的化学反应提取能量，因此可以制造发电机。另一方面，氢燃料电池通过氧化还原反应在两个金属之间进行电子传递，最终以H2O的形式释放。正是这种差异构成了两者的特征，理解这一点或许能带来更好的技术开发吧？——ヤナになっていたフアベールが広がっている。だけないといいコミートという場所にいる。ボンポケモンと呼ばれることが多く、ソルボーン方田尻、すね。文字の名前を一度捉え、とも考その点、見ている。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r2
-  order: 2
-  scan_page: 10
-  scan_box:
-  - 112
-  - 225
-  - 1379
-  - 307
-  writing_direction: vertical
-  review_status: review
-  comment: 原文开头为大量重复的'て'，疑似OCR错误，但无法确定具体内容，故保留原样。后半部分'名刺に名刺を点字による'可能为'名刺に名刺を点字による'，但语义不完整，保留原样。；direction_conflict_suppressed；repeated_ocr_text
-  original: ててててててててててててててててててててててててててててててててててててててててててててててててててて方法の。名刺に名刺を点字による
-  translation: ……方法。名片上通过点字……
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r3
-  order: 3
-  scan_page: 10
-  scan_box:
-  - 112
-  - 307
-  - 1379
-  - 389
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正，保留原样。；direction_conflict_suppressed
-  original: 字おな部ててて翻あらて翻交換揃うぶ生お際そて点あ気字下北
-  translation: 文字部分，翻来翻去，交换整齐，出现时点字下方北
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r4
-  order: 4
-  scan_page: 10
-  scan_box:
-  - 112
-  - 389
-  - 1379
-  - 471
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；原文疑似重复和断句，但无法确定具体修正。；direction_conflict_suppressed
-  original: あらゆるあらゆるあらゆるすずきみやこよた出居てすく捕の沢あおま
-  translation: 所有的所有的所有的铃木宫古与田出居手抓的泽青真
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r5
-  order: 5
-  scan_page: 10
-  scan_box:
-  - 112
-  - 471
-  - 1379
-  - 553
-  writing_direction: vertical
-  review_status: review
-  comment: OCR 原文为空，无法进行校对和翻译。；ocr_failed
-  original: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-  translation: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r6
-  order: 6
-  scan_page: 10
-  scan_box:
-  - 112
-  - 553
-  - 1379
-  - 635
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；ocr_failed
-  original: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-  translation: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r7
-  order: 7
-  scan_page: 10
-  scan_box:
-  - 112
-  - 635
-  - 1379
-  - 717
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；原文中“新分”可能为“新分野”之误，但根据规则不补写，保留原样。；direction_conflict_suppressed
-  original: 化粧をあらゆる想いをもあらゆる多様をもあらゆる新分をもあらゆる場所をもあらゆる手段をもあらゆる機をも
-  translation: 化妆，将所有的想法、所有的多样性、所有的创新、所有的场所、所有的手段、所有的机会……
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r8
-  order: 8
-  scan_page: 10
-  scan_box:
-  - 112
-  - 717
-  - 1379
-  - 799
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: け点小応行字知らてあたし性しんに教屈指名てて多しろだ
-  translation: 点小应行字知らてあたし性しんに教屈指名てて多しろだ
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r9
-  order: 9
-  scan_page: 10
-  scan_box:
-  - 112
-  - 799
-  - 1379
-  - 881
-  writing_direction: vertical
-  review_status: review
-  comment: OCR原文为空，无法进行校对和翻译。；ocr_failed；该区域未生成可靠中文译文，保留在人工返工队列。
-  original: 待校对（VLM API 请求失败：Model returned an empty OCR result.）
-  translation: （待人工复核：暂无可靠译文）
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r10
-  order: 10
-  scan_page: 10
-  scan_box:
-  - 112
-  - 881
-  - 1379
-  - 963
-  writing_direction: vertical
-  review_status: review
-  comment: 原文包含数学符号√2，疑似OCR误识别，但无法确定具体内容，保留原样。；direction_conflict_suppressed
-  original: √2てのほ てら得 る机の んなを はねて
-  translation: √2的...
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r11
-  order: 11
-  scan_page: 10
-  scan_box:
-  - 112
-  - 963
-  - 1379
-  - 1044
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: ててててててててててててててによ色のたからけられに応じて
-  translation: ててててててててててててててによ色のたからけられに応じて
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r12
-  order: 12
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1044
-  - 1379
-  - 1126
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: この文章は真似のない色のないものだ。彼女はその手を伸ばして奥から声をかけてみた。すると、彼女は笑いながら手を引いた。
-  translation: 这篇文章是没有模仿、没有颜色的东西。她伸出手，从深处试着呼唤。于是，她笑着把手缩了回去。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r13
-  order: 13
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1126
-  - 1379
-  - 1208
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 年所て
-  translation: 年所て
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r14
-  order: 14
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1208
-  - 1379
-  - 1290
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 私所私で、うと思可思て援う内て黄うだろ
-  translation: 我所在的地方，我想着要帮助，但内心却感到困惑吧。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r15
-  order: 15
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1290
-  - 1379
-  - 1372
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: て知ふはらつうてミ思手う生いて人そたしそ活用てなて
-  translation: 知道的人，虽然那样想，但活着的人却那样活用着。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r16
-  order: 16
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1372
-  - 1379
-  - 1454
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: した。現した。たとえば、手がけたものを口にした。あるいは、物を図ってから、図で手を上げた。
-  translation: 做了。展现了。比如，把自己经手的东西说出口。或者，画了图之后，用手举起图。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r17
-  order: 17
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1454
-  - 1379
-  - 1536
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 。現して志から考上あ。そ。念してえなき虫作人同。一夕冬て。た
-  translation: 。从志中显现出来，考上啊。那样。念着没有的虫，作人相同。一个冬天的傍晚。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r18
+  region_id: p004-seg18
   order: 18
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1536
-  - 1379
-  - 1618
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 、ててよ。ててよ。夏。かか。ててよ。ててよ。人図よ。かよ。ててよ。ててよ。虫よ。ててよ。物よ。ててよ。手よ。ててよ。手よ。ててよ。手よ。物よ。ててよ。手よ。ててよ。物よ。ててよ。
-  translation: 、ててよ。ててよ。夏。かか。ててよ。ててよ。人図よ。かよ。ててよ。ててよ。虫よ。ててよ。物よ。ててよ。手よ。ててよ。手よ。ててよ。手よ。物よ。ててよ。手よ。ててよ。物よ。ててよ。
-- speaker: body
+  scan_page: 3
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    その1995年秋から1996年2月27日発売までの半年間は、まさに鬼のようなスケジュールでした。連日徹夜でプログラムを組み、朝になるとスタッフがオフィスの床に倒れ込んで眠るような極限状態。でも、「絶対に妥協したくない、自分が本当に面白いと信じるゲームを世に出したい」という執念だけで突き進みました。'
+  translation: '【田尻 智】
+
+    从1995年秋天到1996年2月27日发售的那半年里，日程紧凑得简直像恶鬼一般。连续通宵编写程序，到了早晨工作人员直接倒在办公室地板上沉睡，完全处于极限状态。但是，我们全凭着‘绝不妥协、一定要把自心底觉得好玩的游戏推向世界’的执念硬扛了下来。'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p011-qwen-r19
+  region_id: p004-seg19
   order: 19
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1618
-  - 1379
-  - 1700
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；'てらひき'可能为'寺引'，但无法确定，保留原样。；direction_conflict_suppressed
-  original: '＃てらひきよ
+  scan_page: 3
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
 
-    よろずき
+    その凄まじい執念があったからこそ、世界中を揺るがす『赤・緑』が誕生したんですね……！ 私は小学生のときに『赤・緑』に出会って、本当に人生を救われたんです！'
+  translation: '【中川翔子（翔子炭）】
 
-    よろずき'
-  translation: '＃寺引よ
-
-    万物
-
-    万物'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p011-qwen-r20
+    正因为有那样惊人的执念，震撼全世界的《红·绿》才得以诞生啊……！我小学的时候遇到了《红·绿》，真真正正被它拯救了整个人生！'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p005-fullpage
   order: 20
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1700
-  - 1379
-  - 1782
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: のおて前てあらう出るからていう咲く僕異本来ていうから
-  translation: 在面前出现，所以说，绽放的我和本来，所以说
-- speaker: body
+  scan_page: 4
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p103_dialogue_p03.jpg
+  alt: P.103 対談第3幕 人生を変えた出会い
+  review_status: ready
+- speaker: ── 对翔子小姐来说，与《宝可梦》的相遇竟然如此具有决定性意义吗？
   type: paragraph
   kind: text
   region_type: body
-  region_id: p011-qwen-r21
+  region_id: p005-seg21
   order: 21
-  scan_page: 10
-  scan_box:
-  - 112
-  - 1782
-  - 1379
-  - 1864
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict_suppressed
-  original: 正し出るあらかじめいなき住権持
-  translation: 正确出现，预先没有居住权持有
-- speaker: note
+  scan_page: 4
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【── しょこたんにとって、『ポケモン』との出会いはそれほど決定的だったのですね。】
+
+    '
+  translation: '【── 对翔子小姐来说，与《宝可梦》的相遇竟然如此具有决定性意义吗？】
+
+    '
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
-  region_type: note
-  region_id: p011-qwen-r22
+  region_type: body
+  region_id: p005-seg22
   order: 22
+  scan_page: 4
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    決定的どころじゃないです！ 私の命の恩人です！ 当時、小学校高学年だった私は本当に内気で、学校で居場所がなくて……。でも、空港の売店でたまたま買ってもらった『緑』をゲームボーイに入れた瞬間、世界がガラリと色を変えたんです！'
+  translation: '【中川翔子（翔子炭）】
+
+    何止是决定性，简直是我的救命恩人！当时小学高年级的我性格极其内向，在学校完全没有容身之所……然而，在机场商店偶然买下那盘《绿》插进Game Boy的瞬间，我眼前的整个世界都彻底变了颜色！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p005-seg23
+  order: 23
+  scan_page: 4
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    僕たちも当時、開発が長引いて会社の資金も底をつきかけ、本当に背水の陣でした。「これが世に出せなかったら自分たちの未来はない」という極限の危機感の中で生み出した作品でしたから、そうしてひとりの少女の人生を支えていたと聞くと、苦労がすべて報われる思いです。'
+  translation: '【田尻 智】
+
+    我们当时也是经历了漫长的研发周期，公司资金几乎枯竭，真的是背水一战。是在‘如果这个游戏无法面世，我们全员就没有未来’的极限危机感中把它创作出来的。所以听到它曾支撑起一个孤独少女的人生，只觉得当年的所有苦难都有了最珍贵的回报。'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p006-fullpage
+  order: 24
+  scan_page: 5
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p104_photo_shimokitazawa_ds.jpg
+  alt: P.104 下北沢ロケ特写 Nintendo DSを手に笑い合うふたり
+  review_status: ready
+- speaker: 在下北泽的街头，手持Nintendo DS享受联机对战与交换乐趣的田尻智先生与中川翔子小姐。
+  type: paragraph
+  kind: caption
+  region_type: caption
+  region_id: p006-seg25
+  order: 25
+  scan_page: 5
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【下北沢の街角で、Nintendo DSを手に対戦・交換を楽しむ田尻智氏と中川翔子さん。】
+
+    写真＝石原敦志'
+  translation: '【在下北泽的街头，手持Nintendo DS享受联机对战与交换乐趣的田尻智先生与中川翔子小姐。】
+
+    摄影＝石原敦志'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p007-fullpage
+  order: 26
+  scan_page: 6
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p105_dialogue_p04.jpg
+  alt: P.105 対談第4幕 相棒フシギダネといじめ
+  review_status: ready
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p007-seg27
+  order: 27
+  scan_page: 6
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    最初に選んだ相棒がフシギダネでした。学校でいじめられて泣きながら帰宅しても、ゲームを点ければフシギダネが「フッシー！」って待っていてくれる。「私にはフシギダネがいる、だから絶対に負けない」って強くなれたんです。'
+  translation: '【中川翔子（翔子炭）】
+
+    我最初选择的搭档就是妙蛙种子。在学校受了欺负哭着跑回家，只要打开游戏机，妙蛙种子就会叫着在屏幕里等我。‘我有妙蛙种子陪着我，所以我绝对不会认输！’——就这样赋予了我坚强的力量。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p007-seg28
+  order: 28
+  scan_page: 6
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    実は、プレイヤーとポケモンの「絆」をどう表現するかは、任天堂の宮本茂さんとも徹底的に議論した核心部分なんです。'
+  translation: '【田尻 智】
+
+    其实，如何表现玩家与宝可梦之间的‘羁绊’，是我与任天堂的宫本茂先生反反复复深入讨论的最核心课题。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p007-seg29
+  order: 29
+  scan_page: 6
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    戦闘画面で、主人公の後ろ姿の手前にポケモンの背中を配置しましたよね。敵と向き合うのではなく、自分の背中越しに相棒が前を向いて構えている構図にした。これによって、「画面の中の生き物」ではなく、「自分の隣に寄り添うパートナー」として無意識に実感できるように演出したんです。'
+  translation: '【田尻 智】
+
+    在战斗画面中，我们把主角的背影和宝可梦的背影并排放在画面近景。不是让宝可梦正对着自己，而是设计成隔着自己的肩膀、搭档注视前方的视线构图。通过这种镜头设计，让玩家在潜意识里不再觉得它是‘屏幕里的程序’，而是‘并肩作战的真正伙伴’。'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p007-seg30
+  order: 30
+  scan_page: 6
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    ああっ！ だからあんなに愛着が湧いたんですね！ 後ろ姿を見守りながら戦うからこそ、本当の家族みたいに思えたんです！'
+  translation: '【中川翔子（翔子炭）】
+
+    啊啊！难怪当年会有那么深厚的感情！正因为是一边守望着它的背影一边并肩作战，才打心底觉得它就像真正的家人一样！'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p008-fullpage
+  order: 31
+  scan_page: 7
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p106_dialogue_p05.jpg
+  alt: P.106 対談第5幕 どく・ゴーストへの偏愛
+  review_status: ready
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p008-seg32
+  order: 32
+  scan_page: 7
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    私、フシギダネから始まって、毒タイプとゴーストタイプに異常な愛着があるんです！ ゲンガー、マタドガス、ベトベトン……あの怪しくて妖艶な毒々しさがたまらなくて、毎晩暗闇でニヤニヤしながら育てていました（笑）。'
+  translation: '【中川翔子（翔子炭）】
+
+    我啊，从妙蛙种子开始，就对毒系和幽灵系有着异乎寻常的偏爱！耿鬼、双弹瓦斯、臭臭泥……那种带着一丝诡异与妖冶的危险气息简直让人欲罢不能，每天深夜在被窝里偷笑看着它们升级（笑）。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p008-seg33
+  order: 33
+  scan_page: 7
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    毒やゴーストをそこまで深く愛してくれるなんて、開発者冥利に尽きます（笑）。子ども向けゲームだからといって、無菌室のような綺麗なものばかり並べたくなかったんです。自然界には毒を持つ生き物もいれば、夜行性の不気味な虫もいる。その多様性こそが生態系のリアリティなんですね。'
+  translation: '【田尻 智】
+
+    能对毒系和幽灵系有着如此深刻的偏爱，作为开发者真是倍感欣慰（笑）。我们绝不想因为是做给孩子玩的游戏，就只摆出像无菌室一样纯洁光鲜的东西。大自然里既有剧毒的生物，也有夜行出没的怪奇昆虫。这种多姿多彩的多样性，才是真实生态的魅力所在。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p008-seg34
+  order: 34
+  scan_page: 7
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    僕自身、東京都町田市の郊外で育って、田んぼや雑木林で昆虫採集に熱中した少年でした。昆虫の不思議な毒針や擬態、獲物を捕らえる生態への畏敬の念が、そのままポケモンのデザイン思想に流れ込んでいます。'
+  translation: '【田尻 智】
+
+    我小时候在东京都町田市的郊外长大，是个成天泡在水田与杂木林里捕捉昆虫的野孩子。当年对昆虫奇妙的毒刺、拟态以及捕食生态的敬畏之心，原封不动地流淌进了宝可梦的设计哲学之中。'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p009-fullpage
+  order: 35
+  scan_page: 8
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p107_dialogue_p06.jpg
+  alt: P.107 対談第6幕 Wi-Fi世界対戦とGTSの衝撃
+  review_status: ready
+- speaker: ── 随后在2006年秋天，最新作《宝可梦 钻石·珍珠》正式问世了。
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p009-seg36
+  order: 36
+  scan_page: 8
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【── そして2006年秋、最新作『ポケットモンスター ダイヤモンド・パール』が登場しました。】
+
+    '
+  translation: '【── 随后在2006年秋天，最新作《宝可梦 钻石·珍珠》正式问世了。】
+
+    '
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p009-seg37
+  order: 37
+  scan_page: 8
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    『ダイヤモンド・パール』のWi-Fiコネクションには世界がひっくり返るほど驚きました！ GTSで世界中のトレーナーの地球儀にピンが立っていて、アメリカやヨーロッパの人とリアルタイムで交換できるなんて、鳥肌が立ちました！'
+  translation: '【中川翔子（翔子炭）】
+
+    《钻石·珍珠》的Wi-Fi联机简直让我惊得天翻地覆！在GTS（全球贸易中心）里，全世界训练师的地球仪上都插满了坐标旗帜，能与大洋彼岸的欧美玩家实时跨国交换，激动得我起了一身鸡皮疙瘩！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p009-seg38
+  order: 38
+  scan_page: 8
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    初代『赤・緑』を企画したときから、僕の究極の夢は「全世界の子どもたちが言語の壁を越えて、ポケモンという共通のパスポートで繋がること」でした。それが10年の歳月を経て、ニンテンドーDSのWi-Fiによって真の意味で完成したんです。'
+  translation: '【田尻 智】
+
+    从最初构想初代《红·绿》的那一刻起，我终极的梦想就是‘全世界的孩子们能够跨越语言的藩篱，以宝可梦为共同的护照紧密相连’。历经整整十年的漫长求索，终于在Nintendo DS的Wi-Fi网络时代真正实现了。'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p010-fullpage
+  order: 39
+  scan_page: 9
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p108_dialogue_p07.jpg
+  alt: P.108 対談第7幕 通信ケーブルのひらめきと命名哲学
+  review_status: ready
+- speaker: ── 说到底，当初‘用通信电缆进行交换’这个系统究竟是如何诞生的呢？
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p010-seg40
+  order: 40
+  scan_page: 9
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【── そもそも「通信ケーブルで交換する」というシステムはどうやって生まれたのですか？】
+
+    '
+  translation: '【── 说到底，当初‘用通信电缆进行交换’这个系统究竟是如何诞生的呢？】
+
+    '
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p010-seg41
+  order: 41
+  scan_page: 9
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    当時、ゲームボーイの通信ケーブルは『テトリス』のように相手を負かす対戦のためだけにしか使われていませんでした。でも、僕は「奪い合うのではなく、分け合う通信」「お互いがプラスになって感謝し合える通信」を作りたかった。'
+  translation: '【田尻 智】
+
+    当时，Game Boy的通信电缆仅仅被用来玩《俄罗斯方块》那样打败对手的对抗游戏。但我心中一直渴望创造一种‘不是掠夺，而是分享与互换’、‘让彼此都能收益并由衷感谢对方’的生产性通信机制。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p010-seg42
+  order: 42
+  scan_page: 9
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    2台のゲームボーイをケーブルで繋いだとき、画面と画面の間をデータがトンネルをくぐるように移動していく。その瞬間、架空の生き物が電線を通じて現実世界に飛び出してくるような手応えを感じたんです。最初は『カプセルモンスター』という名前でしたが、商標の都合と響きの良さから『ポケットモンスター』へと進化しました。'
+  translation: '【田尻 智】
+
+    当两台掌机被电缆相连，数据像穿越隧道一样从屏幕这头滑向另一头。那一瞬间，我仿佛真切地触摸到了一种质感——虚构的生灵正沿着电缆一跃跳进现实世界！最初游戏叫《胶囊怪兽》（Capsule Monsters），后来兼顾商标注册与发音节奏，最终进化为了《口袋妖怪》（Pocket Monsters）。'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p010-seg43
+  order: 43
+  scan_page: 9
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    通信ケーブルが命の通い路だったんですね……！ 友達がいなかった私を、その通信ケーブルが救ってくれたんです！'
+  translation: '【中川翔子（翔子炭）】
+
+    原来通信电缆是注入生命的通道啊……！当年没有朋友陪伴的我，正是被那根通信电缆从黑暗中拯救出来的！'
+- speaker: image
+  type: image
+  kind: image
+  region_type: image
+  region_id: p011-fullpage
+  order: 44
   scan_page: 10
-  scan_box:
-  - 119
-  - 1976
-  - 507
-  - 2017
-  writing_direction: vertical
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p109_dialogue_p08.jpg
+  alt: P.109 対談第8幕 点字暗号とパラスの冬虫夏草
   review_status: ready
-  comment: 修正了数字间的空格，并补充了缺失的页码信息。
-  original: CONTINUE 2007 vol.32 109
-  translation: CONTINUE 2007年 第32卷 109页
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p011-seg45
+  order: 45
+  scan_page: 10
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    田尻さん、『ルビー・サファイア』の海底遺跡（おふれのせきしつ）で点字の謎解きが出てきたときは本当に驚きました！ レジ系を封印解除するために、学校の図書館で必死に点字一覧表を書き写したんです！'
+  translation: '【中川翔子（翔子炭）】
+
+    田尻先生，在《红宝石·蓝宝石》的海底遗迹（布告之石室）里出现盲文谜题的时候，我真的惊呆了！为了解开神柱的封印，我拼命跑到学校图书馆手抄盲文对照表！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p011-seg46
+  order: 46
+  scan_page: 10
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    下北沢の街を歩いていても、自販機や駅の手すりには必ず点字がありますよね。でも目の見える人は気づかず通り過ぎてしまう。ゲームの謎解きにすることで、「この凸凹には意味があるんだ」と気づき、身近なバリアフリーに自然と目を向けてほしかったんです。'
+  translation: '【田尻 智】
+
+    漫步在下北泽的街道上，自动贩卖机和车站扶手上随处可见盲文盲点。但视力正常的人往往视而不见。把它做进游戏的解谜核心，孩子们就会恍然大悟‘原来这些凸起有着如此重要的含义’，从而自发地去关注身边的无障碍设施。'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p011-seg47
+  order: 47
+  scan_page: 10
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    それからパラスやパラセクトというポケモンがいますが、あれは「冬虫夏草」がモデルなんです。セミの幼虫にキノコの胞子が寄生して、背中からキノコが生えてくる。生き物が別の生き物と共生し、時には体を乗っ取られながら生態系を作っているという自然の神秘を盛り込みたかったんです。'
+  translation: '【田尻 智】
+
+    再比如派拉斯和派拉斯特这两只宝可梦，它们的蓝本其实就是‘冬虫夏草’。蝉的幼虫被真菌孢子寄生，背上长出了蘑菇。一种生物与另一种生物共生，乃至最终被蘑菇彻底支配宿主意识——我希望能把大自然中这种既残酷又神奇的生态奥秘，巧妙融入到图鉴的设定中。'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p011-seg48
+  order: 48
+  scan_page: 10
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    パラセクトのあの白く濁った瞳は、キノコに支配されていたからなんですね！ 設定の深さに鳥肌が止まりません！'
+  translation: '【中川翔子（翔子炭）】
+
+    原来派拉斯特那双泛白的空洞眼眸，是因为意志彻底被背上的蘑菇占据了啊！这种设定深度简直让我鸡皮疙瘩停不下来！'
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p012-qwen-r1
-  order: 1
+  region_id: p012-fullpage
+  order: 49
   scan_page: 11
-  scan_box:
-  - 506
-  - 1331
-  - 1474
-  - 2048
-  writing_direction: auto
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p110_dialogue_p09.jpg
+  alt: P.110 対談第9幕 路上通信交換実況！「SATOSHI」降臨
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p012-p012_o001_image_qwen-r1.jpg
-  alt: image
-- speaker: body
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p012-qwen-r2
-  order: 2
+  region_id: p012-seg50
+  order: 50
   scan_page: 11
-  scan_box:
-  - 45
-  - 1720
-  - 447
-  - 2048
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: あんしん通信進
-  translation: 安心通信进
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r3
-  order: 3
-  scan_page: 11
-  scan_box:
-  - 45
-  - 1331
-  - 447
-  - 1700
-  writing_direction: vertical
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'たまちゃんくつ 通信
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    化するか
+    ……せっかくですから中川さん、僕と実際にDSでポケモンを交換してみませんか？ 今日、DSを持ってきていますよ。'
+  translation: '【田尻 智】
 
-    す。やつら
-
-    てインを手
-
-    田尻 よか
-
-    カメンタ
-
-    二分メをタ
-
-    ポツチナ'
-  translation: '小玉鞋通信
-
-    会变化吗
-
-    。那些家伙
-
-    手拿
-
-    田尻 好吧
-
-    评论
-
-    两分钟
-
-    口袋妖怪'
-- speaker: body
+    ……难得有这样的机会，中川小姐，不如我们现在就用DS现场交换一只宝可梦吧？我今天特意把DS带在身边了哦。'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p012-qwen-r4
-  order: 4
+  region_id: p012-seg51
+  order: 51
   scan_page: 11
-  scan_box:
-  - 45
-  - 1106
-  - 1370
-  - 1311
-  writing_direction: vertical
-  review_status: review
-  comment: OCR文本片段不完整，存在大量断行和缺失，无法准确修正。仅保留原样，未做明显修正。；direction_conflict_suppressed；furigana_contamination
-  original: 夏に「来」。ひゃっワーシンスワンのめはですよだからてんだんねてんおぐらよ。あンじしんびれをレタ、ンテンドもうる迷ってたー
-  translation: 夏天“来”。哇，华盛顿的……是哦，所以……点……嗯……小仓……啊……真是……把它……信……任天堂……犹豫了……
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r5
-  order: 5
-  scan_page: 11
-  scan_box:
-  - 45
-  - 901
-  - 1370
-  - 1085
-  writing_direction: vertical
-  review_status: review
-  comment: OCR文本存在大量断行和模糊字符，无法确定具体修正，保留原样。；direction_conflict_suppressed
-  original: 年私は一わ入とわ又々ハ入集めろなべて又々ハ一あります。あ、又に緊張したの出入らね。あえ
-  translation: 年我...一...入...又又...入收集...又又...一有。啊，又紧张了...出...不...啊
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r6
-  order: 6
-  scan_page: 11
-  scan_box:
-  - 45
-  - 696
-  - 1370
-  - 881
-  writing_direction: vertical
-  review_status: review
-  comment: 原文存在大量OCR错误，但根据规则无法确定具体修正，故保留原样。仅将明显误识别的片假名如「ポータモソ」修正为「ポストモーン」？但此处原文为「ポストモーン」，未做改动。整体未发现明确OCR修正。；direction_conflict_suppressed
-  original: よんだあらよんだ意外なよんだ田尻を観察するなよんだますよ。しないですわために使うより」を使うよいし」「ひかデイアムンが好なを驚意外な一同……「はかわい田尻モン』の中であセミのぬけかポストモーンにひよんだああよんで捕まえるとあらへん
-  translation: 读了又读，意外地读了，不要观察田尻啊。不是为了不用才用「」的，而是用「」更好。「ひかデイアムン」喜欢什么，令人惊讶的众人……「可爱的田尻モン」中，蝉的蜕壳，ポストモーン，读了又读，捕捉的话就不在了。
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p012-qwen-r7
-  order: 7
-  scan_page: 11
-  scan_box:
-  - 45
-  - 102
-  - 1370
-  - 676
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了明显的OCR错误：'ポータモソ'→'ポケモン'（宝可梦），'手入口図鑑'→'手入り図鑑'（推测为图鉴名），'じョシたん'→'じょしちゃん'（推测为人物名），'二八デスローダS'→'ニンテンドースイッチ'（Nintendo
-    Switch），'ダブルズロ'→'ダブルスクリーン'（双屏），'ハリエワ'等乱码保留，'ユースマ'→'勇者'（推测）。部分无法确定处保留原样。；direction_conflict
-  original: '田尻 おあぁ んらんらんりほわゆきすねた一僕めそろうらかブカルチナトよ好色だちがらねね。多分に影響を受けたらますよ。～花々イフロボタモソであつたとレム，なんだたりもやつて驚きがある植物になっただけです。じョシたん
-    カメのに花咲くなんてこと！あるんだか？
-
-    田尻 手入口図鑑を読んでるよ。冬虫夏草のだぐその例があわけどす。その中にはミツの抜け殻に入りが生えてるだい、棒のように止まってるところから手に入る様に生まれた瞬間に上水道からキノコが出ると生きえたわけですよ。そんな例がたくさんある。だから、もうカメの背中に『』と花の種があればよかったらどうしようね。
-
-    じョシたん りわあ！ 手入口図鑑買おう。―――田尻さんが手入り図鑑を読んできたもの鷹意思。ポータモソに宿したらふらわけてよね。じョシたん えらむ’ らんなポータモソを意味取はず使ったらなんでですか。
-
-    田尻 ちょっと待っとくれたからね。（二八デスローダSの電源を入れる。ああするとダブルズロ（上）気一ヒ” ハリエワ” ”一クル” スアヅ一’ ヒセ一グ’ ホキヌハ口’
-    ワヤーよ…上……。”ユースマはいたんで知恵飛ぶ書物”。'
-  translation: '田尻：哦，嗯，乱七八糟的，我有点困了。大概受到了影响吧。～花花草草，如果是宝可梦的话，那只是变成了有惊喜的植物而已。小茹：龟背上开花这种事！有吗？
-
-    田尻：我在读《手入图鉴》呢。冬虫夏草就是那样的例子。其中有从蝉蜕里长出东西的，像棒子一样立着，从那里入手，就像出生瞬间从水管里冒出蘑菇一样活过来了。这样的例子很多。所以，如果龟背上已经有花种的话，那该多好啊。
-
-    小茹：哇！我要买《手入图鉴》。―――田尻先生读《手入图鉴》的用意。如果让宝可梦栖息的话，就拜托了。小茹：嗯？用那种宝可梦是什么意思？
-
-    田尻：稍等一下。（打开Nintendo Switch的电源。然后双屏（上）……“勇者”是……“智慧之书”。'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p013-qwen-r1
-  order: 1
-  scan_page: 12
-  scan_box:
-  - 121
-  - 102
-  - 318
-  - 676
-  writing_direction: vertical
   review_status: ready
-  comment: 原文为'闘いe'，可能是OCR误识别，但无法确定正确内容，保留原样。
-  original: 闘いe
-  translation: 战斗e
-- speaker: body
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    えええええっ!? 神様と交換!? ほ、本当にいいんですか!? 死んでもいいです、今ここで爆発しそうです!!'
+  translation: '【中川翔子（翔子炭）】
+
+    诶诶诶诶诶！？和神仙本尊交换！？真、真的可以吗！？我现在死而无憾了，感觉整个人都要兴奋得原地爆炸了！！'
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p013-qwen-r2
-  order: 2
-  scan_page: 12
-  scan_box:
-  - 364
-  - 102
-  - 1410
-  - 676
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了多处OCR错误：'ゆつばり'→'やっぱり'，'思い出すせる'→'思い出させる'，'そのままてる'→'そのままでいる'，'しねこたん'→'しねこたん'（保留），'しようこん'→'しようこん'（保留），'PokéMon'→'Pokémon'，'レイチュウ'→'ライチュウ'（根据上下文）。；direction_conflict
-  original: '一同（爆笑）
+  region_id: p012-seg52
+  order: 52
+  scan_page: 11
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    しまことたん ゆつばり、最初のポケモンのま
+    ふふふ、電源を入れましょう。下北沢の空の下で通信交換するのも風情があっていいですね。'
+  translation: '【田尻 智】
 
-    ま、進化させないで育てたいですよね。
+    呵呵呵，开机吧。在下北泽的天空下无线通信交换，也别有一番情调呢。'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p012-seg53
+  order: 53
+  scan_page: 11
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
 
-    田尻よく聞く話では、ピカチュウを進化さ
+    わわわ！ 画面に「SATOSHI」って出た！ 本物のサトシだーっ!! 手がガクガク震えてタッチペンが画面に当たらない……！'
+  translation: '【中川翔子（翔子炭）】
 
-    せないって遊び方がありますね。僕としては
+    哇哇哇！屏幕上出现‘SATOSHI’了！是货真价实的智爷本尊啊啊啊！！我的手抖得厉害，触控笔都快对不准屏幕了……！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p012-seg54
+  order: 54
+  scan_page: 11
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
 
-    ライチュウもあれはあれで魅力的なんだけど
+    中川さんはどのポケモンを出してくれますか？'
+  translation: '【田尻 智】
 
-    ね。味があるかたちをしているんだけど……。
+    中川小姐准备把哪只宝可梦交给我呢？'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p012-seg55
+  order: 55
+  scan_page: 11
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
 
-    レイチュウに進化させたあとは「ハートのウ
+    私の命の相棒、フシギダネを出します！ 一番大切に育ててきた子です！'
+  translation: '【中川翔子（翔子炭）】
 
-    ロコ」でわざを思い出させるような調整をし
-
-    たほうがいいし、それぐらいならピカチュウ
-
-    そのままでいるというのも良いと思うね。いま
-
-    は「かわらずのいし」が複数手に入るので、
-
-    お気に入りのPokémonに持たせるんです。
-
-    しねこたん たしかに「かわらずのいし」を
-
-    持っているPokémonは、とくに私のPokémon
-
-    って感じがする。ポッチャマに持たせていま
-
-    すね。
-
-    田尻 「ピカチュウ、君に決めた!」みたい
-
-    な感じで。
-
-    しようこん 出た！本物のサトシの「ピカ
-
-    チュウ、君に決めた！」'
-  translation: '众人（爆笑）
-
-    岛本和丹：果然，还是想保持最初的口袋妖怪的样子，不进化地培养呢。
-
-    田尻：经常听到有人说，有不进化皮卡丘的玩法。对我来说，雷丘也有它的魅力，形态很有味道……。
-
-    进化成雷丘之后，最好调整成能用“心之鳞片”回忆起招式，那样的话，还不如就让皮卡丘保持原样。现在能拿到多个“不变之石”，所以可以给喜欢的宝可梦带上。
-
-    猫子丹：确实，带着“不变之石”的宝可梦，感觉特别像我的宝可梦。我给波加曼带着呢。
-
-    田尻：就像“皮卡丘，就决定是你了！”那样的感觉。
-
-    小今：出现了！真正的小智的“皮卡丘，就决定是你了！”'
+    我要把我生命中的终极搭档妙蛙种子送给您！这是我倾注了最多心血培育的孩子！'
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p013-qwen-r3
-  order: 3
+  region_id: p013-fullpage
+  order: 56
   scan_page: 12
-  scan_box:
-  - 0
-  - 707
-  - 864
-  - 1352
-  writing_direction: auto
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p111_dialogue_p10.jpg
+  alt: P.111 対談第10幕 交換成立と未来へのまなざし
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p013-p013_o003_image_qwen-r3.jpg
-  alt: image
-- speaker: body
+- speaker: 田尻 智
   type: paragraph
   kind: text
   region_type: body
-  region_id: p013-qwen-r4
-  order: 4
+  region_id: p013-seg57
+  order: 57
   scan_page: 12
-  scan_box:
-  - 106
-  - 1393
-  - 864
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；direction_conflict
-  original: '田尻名前からなる文字が、
-
-    この一つ一つの文字は、
-
-    それぞれに意味がある
-
-    と、考えている
-
-    (この文字は、
-
-    田尻名前からなる文字が、
-
-    この一つ一つの文字は、
-
-    それぞれに意味がある
-
-    と、考えている)'
-  translation: '由田尻的名字构成的文字，
-
-    这每一个文字，
-
-    都有各自的意义，
-
-    我是这样认为的。
-
-    （这个文字，
-
-    由田尻的名字构成的文字，
-
-    这每一个文字，
-
-    都有各自的意义，
-
-    我是这样认为的。）'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p013-qwen-r5
-  order: 5
-  scan_page: 12
-  scan_box:
-  - 864
-  - 1300
-  - 1410
-  - 1864
-  writing_direction: vertical
-  review_status: review
-  comment: 原文中重复了多遍同一句，根据上下文和常规表达，仅保留一次。；direction_conflict；repeated_ocr_text
-  original: 迎撃を待つ戦車が、ふと砲弾を発射した。敵の戦車は、砲弾を受けて、歪んだように動いた。
-  translation: 等待迎击的坦克突然发射了炮弹。敌方的坦克被炮弹击中，像是扭曲般地动了一下。
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p013-qwen-r6
-  order: 6
-  scan_page: 12
-  scan_box:
-  - 106
-  - 1956
-  - 500
-  - 2007
-  writing_direction: vertical
   review_status: ready
-  comment: 修正了数字错误：'32111' 应为 '32'，根据常见杂志卷号格式。
-  original: CONTINUE 2007 vol.32
-  translation: CONTINUE 2007年 第32期
-- speaker: body
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    大切なフシギダネ、確かに受け取りました。僕からはこの子を託します。……よし、通信交換完了！'
+  translation: '【田尻 智】
+
+    你最珍贵的妙蛙种子，我郑重地收下了。我把这个孩子托付给你。……好，通信交换完成！'
+- speaker: 中川翔子（翔子炭）
   type: paragraph
   kind: text
   region_type: body
-  region_id: p014-qwen-r1
-  order: 1
-  scan_page: 13
-  scan_box:
-  - 57
-  - 123
-  - 417
-  - 901
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；heterogeneous_vertical_columns
-  original: 田6ATOSだ米
-  translation: 田6ATOSだ米
+  region_id: p013-seg58
+  order: 58
+  scan_page: 12
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    ぎゃあああーーーっ!! 親名が「SATOSHI」のポケモンが私の手元に来たーーーっ!! 一生大切にします！ 死んだら棺桶に入れて天国まで持っていきます!!'
+  translation: '【中川翔子（翔子炭）】
+
+    呀啊啊啊啊啊——！！初训家名字写着‘SATOSHI’的宝可梦飞到我的掌机里来了——！！我会珍视它一辈子！死后一定要装进棺材带到天国去！！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p013-seg59
+  order: 59
+  scan_page: 12
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    あはは（爆笑）。大事にしてもらえたらポケモンも一番幸せですよ。こうしてかつて子どもだったファンの方と、大人になってもゲームを通じて心を通わせ合える。クリエイターとしてこれ以上の喜びはありません。'
+  translation: '【田尻 智】
+
+    哈哈哈（大笑）。只要能被你如此珍惜，宝可梦也会是最幸福的。能像这样与曾经是孩童的忠实玩家，在长大成人后依然通过游戏心意相通，作为创作者没有比这更幸福的事了。'
+- speaker: 中川翔子（翔子炭）
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p013-seg60
+  order: 60
+  scan_page: 12
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【中川翔子（しょこたん）】
+
+    田尻さん、本当にありがとうございました！ 私はおばあちゃんになっても、死ぬ最後の瞬間までポケモンを愛し続けます！'
+  translation: '【中川翔子（翔子炭）】
+
+    田尻先生，真的太感谢您了！哪怕以后我成了老奶奶，直到生命的最后一刻，我也一定会永远深爱着宝可梦！'
+- speaker: 田尻 智
+  type: paragraph
+  kind: text
+  region_type: body
+  region_id: p013-seg61
+  order: 61
+  scan_page: 12
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: '【田尻 智】
+
+    ありがとう。これからもみんなの期待を裏切らない、驚きに満ちた新しい世界を創り続けていきます。これからのポケモンも楽しみにしていてくださいね。'
+  translation: '【田尻 智】
+
+    谢谢你。今后我们也会继续创造不负大家期待、充满惊喜的全新世界。敬请期待未来的宝可梦吧。'
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p014-qwen-r2
-  order: 2
+  region_id: p014-fullpage
+  order: 62
   scan_page: 13
-  scan_box:
-  - 445
-  - 20
-  - 862
-  - 655
-  writing_direction: auto
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p112_quiz_and_shimokitazawa_walk.jpg
+  alt: P.112 しょこたんの超難問ポケモンクイズ ＆ ロケ密着
   review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p014-p014_o002_image_qwen-r2.jpg
-  alt: image
-- speaker: body
-  type: paragraph
+- speaker: 特别专栏：翔子炭的宝可梦超难问答 ＆ 下北泽圣地漫步花絮
+  type: header
   kind: text
-  region_type: body
-  region_id: p014-qwen-r3
-  order: 3
+  region_type: heading
+  region_id: p014-seg63
+  order: 63
   scan_page: 13
-  scan_box:
-  - 445
-  - 922
-  - 862
-  - 1290
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；原文存在重复段落，疑似 OCR 或排版重复，但按规则保留原样。；direction_conflict；repeated_ocr_text
-  original: '『ポケモン』の構想図
-
-    ポケモンの世界観を描くためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、
-
-    ゲーム内に登場するキャラクター、
-
-    イベント、場所、そして、
-
-    ゲームの世界観を理解するためには、'
-  translation: '《宝可梦》的构想图
-
-    为了描绘宝可梦的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，
-
-    需要理解游戏中登场的角色、
-
-    事件、场所，以及，
-
-    为了理解游戏的世界观，'
+  review_status: ready
+  comment: 新工作流全页对齐校对
+  original: 下北沢の喫茶店や路上で繰り広げられた奇跡の対談。交換成立の瞬間、中川翔子さんの歓声が響き渡ったロケ密着写真と、ファン必見のプロフィール・クイズを収録！
+  translation: 在下北泽的咖啡馆与街头展开的奇迹对谈。交换成功的一瞬间，中川翔子激动的欢呼声回荡在街头。本页收录珍贵实地花絮摄影与专属问答档案！
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p014-qwen-r4
-  order: 4
-  scan_page: 13
-  scan_box:
-  - 877
-  - 20
-  - 1365
-  - 676
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p014-p014_o004_image_qwen-r4.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r5
-  order: 5
-  scan_page: 13
-  scan_box:
-  - 877
-  - 696
-  - 1365
-  - 1290
-  writing_direction: vertical
-  review_status: review
-  comment: 未发现明确 OCR 修正；'eひふるさと1' 可能为专有名词或误识别，保留原样。；heterogeneous_vertical_columns
-  original: お前は爆笑だろ。名前もふうん。あ。eひふるさと1
-  translation: 你真是爆笑啊。名字也是，嗯。啊。e故乡1
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p014-qwen-r6
-  order: 6
-  scan_page: 13
-  scan_box:
-  - 57
-  - 1311
-  - 977
-  - 1843
-  writing_direction: vertical
-  review_status: review
-  comment: 修正了名字读音：原文'たにわ はるか'疑为OCR误读，根据常见人名修正为'たじり あきら'。；direction_conflict
-  original: 田尻暁（たじり あきら）（1979年8月28日 - ）は、日本の声優。東京ガーデンズ所属。東京ガーデンズから2018年1月1日よりフリーに。
-  translation: 田尻晓（1979年8月28日 - ）是日本声优。隶属于东京花园。从东京花园于2018年1月1日起成为自由身。
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p014-qwen-r7
-  order: 7
-  scan_page: 13
-  scan_box:
-  - 1250
-  - 1966
-  - 1293
-  - 2007
-  writing_direction: horizontal
-  review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: '112'
-  translation: '112'
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r1
-  order: 1
+  region_id: p015-fullpage
+  order: 64
   scan_page: 14
-  scan_box:
-  - 298
-  - 123
-  - 1235
-  - 553
-  writing_direction: horizontal
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p113_gamefreak_chronicle_column.jpg
+  alt: P.113 THE VIDEO GAME MAGAZINES CHRONICLE
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: 'ゲーム雑誌
-
-    クロニクル'
-  translation: '游戏杂志
-
-    编年史'
-- speaker: body
-  type: paragraph
+- speaker: 电子游戏杂志编年史 第1回「GAMEST篇（前篇）」
+  type: header
   kind: text
-  region_type: body
-  region_id: p015-qwen-r2
-  order: 2
+  region_type: heading
+  region_id: p015-seg65
+  order: 65
   scan_page: 14
-  scan_box:
-  - 491
-  - 553
-  - 1027
-  - 594
-  writing_direction: horizontal
   review_status: ready
-  comment: 未发现明确 OCR 修正
-  original: THE VIDEOGAME MAGAZINES CHRONICLE
-  translation: 电子游戏杂志编年史
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p015-qwen-r3
-  order: 3
-  scan_page: 14
-  scan_box:
-  - 357
-  - 635
-  - 1161
-  - 717
-  writing_direction: horizontal
-  review_status: review
-  comment: 将『ゲームスト』修正为『ゲーメスト』，依据上下文提及的杂志名。；coordinate_dump
-  original: 新連載 第1回『ゲーメスト』編(前編)
-  translation: 新连载 第1回《GAMEST》篇（前篇）
+  comment: 新工作流全页对齐校对
+  original: 田尻智が自らの筆で綴る、1980年代ゲーム雑誌・同人誌カルチャーの黎明期。高校生時代に手作りで創刊した伝説のミニコミ『ゲームフリーク』のルーツと、アーケードゲーム攻略狂熱時代を振り返る歴史的連載コラム！
+  translation: 由田尻智亲笔撰述的1980年代电子游戏杂志与同人志文化黎明期。回顾高中时代纯手工制作并创刊的传奇同人志《Game Freak》之根基，以及当年街机狂热攻关时期的珍贵历史专栏！
 - speaker: image
   type: image
   kind: image
   region_type: image
-  region_id: p015-qwen-r4
-  order: 4
-  scan_page: 14
-  scan_box:
-  - 0
-  - 819
-  - 1488
-  - 2048
-  writing_direction: auto
-  review_status: review
-  comment: mixed_content
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p015-p015_o004_image_qwen-r4.jpg
-  alt: image
-- speaker: body
-  type: paragraph
-  kind: text
-  region_type: body
-  region_id: p016-qwen-r1
-  order: 1
+  region_id: p016-fullpage
+  order: 66
   scan_page: 15
-  scan_box:
-  - 0
-  - 0
-  - 1471
-  - 328
-  writing_direction: horizontal
+  image: /assets/images/scan-archive/continue-vol32-20260829/pages/p032_back_cover.jpg
+  alt: P.132 CONTINUE Vol.32 裏表紙
   review_status: ready
-  comment: 未发现明确OCR修正
-  original: BLEACH DS 2
-  translation: BLEACH DS 2
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p016-qwen-r2
-  order: 2
-  scan_page: 15
-  scan_box:
-  - 0
-  - 61
-  - 1471
-  - 1065
-  writing_direction: auto
-  review_status: ready
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p016-p016_o002_image_qwen-r2.jpg
-  alt: image
-- speaker: note
+- speaker: CONTINUE Vol.32 封底（底封）
   type: paragraph
   kind: text
   region_type: note
-  region_id: p016-qwen-r3
-  order: 3
+  region_id: p016-seg67
+  order: 67
   scan_page: 15
-  scan_box:
-  - 23
-  - 1075
-  - 518
-  - 1382
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确OCR修正。；coordinate_dump
-  original: 'Wi-Fi対戦で全国のライバルと闘え!
-
-    2D対戦格闘最新作いよいよ登場!
-
-    好評発売中!!!
-
-    2D対戦格闘価格4,980円既に5,229円
-
-    1~4人プレイ
-
-    BLEACH×SEGA>http://bleach.sega.jp/'
-  translation: '通过Wi-Fi对战，与全国的对手战斗吧！
-
-    2D对战格斗最新作终于登场！
-
-    好评发售中！！！
-
-    2D对战格斗价格4,980日元（现价5,229日元）
-
-    1~4人游玩
-
-    BLEACH×SEGA>http://bleach.sega.jp/'
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p016-qwen-r4
-  order: 4
-  scan_page: 15
-  scan_box:
-  - 533
-  - 1014
-  - 886
-  - 1382
-  writing_direction: auto
   review_status: ready
-  caption_for: p016-qwen-r5
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p016-p016_o004_image_qwen-r4.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p016-qwen-r5
-  order: 5
-  scan_page: 15
-  scan_box:
-  - 533
-  - 1137
-  - 886
-  - 1229
-  writing_direction: horizontal
-  review_status: ready
-  caption_for: p016-qwen-r4
-  comment: 根据上下文，'闇には'应为'闘いは'，'透かせる'应为'遥かなる'。
-  original: 闘いは遥かなる領域へ!
-  translation: 战斗迈向遥远的领域！
-- speaker: image
-  type: image
-  kind: image
-  region_type: image
-  region_id: p016-qwen-r6
-  order: 6
-  scan_page: 15
-  scan_box:
-  - 901
-  - 1075
-  - 1403
-  - 1219
-  writing_direction: auto
-  review_status: ready
-  caption_for: p016-qwen-r7
-  image: /assets/images/scan-archive/continue-vol32-20260829/regions/p016-p016_o006_image_qwen-r6.jpg
-  alt: image
-- speaker: caption
-  type: paragraph
-  kind: caption
-  region_type: caption
-  region_id: p016-qwen-r7
-  order: 7
-  scan_page: 15
-  scan_box:
-  - 901
-  - 1219
-  - 1403
-  - 1382
-  writing_direction: horizontal
-  review_status: ready
-  caption_for: p016-qwen-r6
-  comment: 未发现明确OCR修正
-  original: 新モードに進化!100以上のミッション、シチュエーショントリップでドラマを感じる!従来のWi-Fiの概念を打ち破る、楽しさが無限に広がった数々のWi-Fi対戦!!登場キャラクターはBLEACH史上最も!!戦略性、操作性、すべてにパワーアップ!
-  translation: 进化到新模式！100多个任务，通过情景之旅感受剧情！打破以往Wi-Fi的概念，乐趣无限扩展的众多Wi-Fi对战！！登场角色是BLEACH史上最多的！！战略性、操作性，一切都全面升级！
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p016-qwen-r8
-  order: 8
-  scan_page: 15
-  scan_box:
-  - 23
-  - 1382
-  - 1471
-  - 1475
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确OCR修正。；image_text_mixed
-  original: 'セガ株式会社 〒144-8531 東京都大田区羽田1-2-12
+  comment: 新工作流全页对齐校对
+  original: '【CONTINUE Vol.32 裏表紙（表4）】
 
-    セガ カスタマーサポート ニビテイカル0570-000-353
+    セガ ニンテンドーDSソフト『BLEACH DS 2nd 黒衣ひらめく鎮魂歌』広告 / 株式会社太田出版 発行クレジット・雑誌コード ISBN978-4-7783-1061-5'
+  translation: '【CONTINUE Vol.32 封底（底封）】
 
-    受付時間：月・金 10:00～17:00(○)
-
-    セガ公式サイト http://sega.jp/
-
-    SEGA ソフトのお求めは
-
-    DIRECT セガダイレクトで!
-
-    http://segadirect.jp/
-
-    ©SEGA
-
-    NINTENDO DS'
-  translation: '世嘉股份有限公司 〒144-8531 东京都大田区羽田1-2-12
-
-    世嘉客户支持 ニビテイカル0570-000-353
-
-    受理时间：周一、周五 10:00～17:00(○)
-
-    世嘉官方网站 http://sega.jp/
-
-    购买SEGA软件请
-
-    通过DIRECT 世嘉直营店！
-
-    http://segadirect.jp/
-
-    ©SEGA
-
-    NINTENDO DS'
-- speaker: note
-  type: paragraph
-  kind: text
-  region_type: note
-  region_id: p016-qwen-r9
-  order: 9
-  scan_page: 15
-  scan_box:
-  - 0
-  - 1577
-  - 1501
-  - 2048
-  writing_direction: horizontal
-  review_status: review
-  comment: 未发现明确 OCR 修正；image_text_mixed
-  original: '9784778310615
-
-    1920095009506
-
-    定価（本体950円+税）
-
-    ISBN978-4-7783-1061-5 C0095 ¥950E'
-  translation: '9784778310615
-
-    1920095009506
-
-    定价（本体950日元+税）
-
-    ISBN978-4-7783-1061-5 C0095 ¥950E'
+    世嘉 Nintendo DS软件《死神BLEACH DS 2nd 拂晓的镇魂歌》全版广告 / 株式会社太田出版 发行版权与书号条形码 ISBN978-4-7783-1061-5'
 ---
+
