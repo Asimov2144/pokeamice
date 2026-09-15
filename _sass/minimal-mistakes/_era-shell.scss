@@ -826,6 +826,697 @@ body[data-era="2007"] {
 
 
 /* ==========================================================================
+   2011 · Connected / Global Link  (2010-2012)
+   Reference: Pokémon Global Link 2011, Pokémon.com 2010 (design/README.md).
+   Grammar: the page is a service. A charcoal frame, glossy tab buttons with
+   a visible highlight, 6-10px corners, a drop shadow under the sheet - the
+   Web 2.0 dashboard at its most confident. The board's one rule for this
+   era: the dashboard is for the record, never for the prose. So the shell
+   is a console and the reading column inside it is left alone.
+   ========================================================================== */
+
+$era11-desk: #e3e6ea;
+$era11-paper: #ffffff;
+$era11-ink: #22272e;
+$era11-rule: #cfd5dc;
+$era11-frame: #2b3038;
+$era11-frame-deep: #1c2026;
+$era11-status: #35b354;     /* the green of a connected account */
+$era11-link: #1f5fbf;
+$era11-sans: Arial, "Helvetica Neue", "Hiragino Kaku Gothic ProN", "Microsoft YaHei", sans-serif;
+
+body.theme-bg-white[data-era="2011"],
+body.theme-bg-black[data-era="2011"],
+body[data-era="2011"] {
+  background: $era11-desk !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era11-paper !important;
+    max-width: 1000px !important;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.14);   /* the era's shadow, once, under the sheet */
+  }
+
+  #main {
+    max-width: 1000px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .page__footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: $era11-frame-deep !important;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+  }
+
+  /* ---- masthead: a console bar with a status line ---------------------- */
+  .masthead {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #3d434c 0%, $era11-frame 60%, $era11-frame-deep 100%) !important;
+    border: 0;
+    border-bottom: 3px solid $era11-status !important;
+    border-radius: 8px 8px 0 0;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap { max-width: 1000px; padding: 6px 14px; font-family: $era11-sans; }
+
+  .greedy-nav { align-items: center; background: transparent !important; }
+  .greedy-nav .site-title { flex: 0 1 auto; }
+
+  .site-title,
+  .masthead .site-title {
+    color: #ffffff !important;
+    font-family: $era11-sans;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .site-subtitle { color: #c3c9d1 !important; font-size: 0.62em; letter-spacing: 0.06em; }
+  .search__toggle { color: #ffffff !important; }
+
+  .greedy-nav .visible-links .masthead__menu-item { margin: 0 3px; }
+
+  /* the glossy tab: a gradient, a dark edge, a light lip along the top */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: #ffffff !important;
+    font-size: 0.72em;
+    font-weight: 700;
+    padding: 6px 13px;
+    border: 1px solid $era11-frame-deep;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #5d646e 0%, #3f454e 50%, #333941 51%, #2c3138 100%);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    background: linear-gradient(180deg, #4d95f0 0%, #2c7be5 50%, #2166c6 51%, #1b57ab 100%) !important;
+    border-color: #17488f;
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+
+  .greedy-nav .visible-links a:before { display: none; }
+  .greedy-nav button { background: transparent; border: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 6px;
+    border: 1px solid $era11-frame-deep;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    background: $era11-frame;
+  }
+
+  .greedy-nav .hidden-links a { border: 0; background: transparent; box-shadow: none; }
+  .greedy-nav .hidden-links a:hover { background: #2c7be5 !important; }
+
+  /* ---- reading surface ---- */
+  .parallel-translation,
+  .page__content { color: $era11-ink; }
+
+  a { color: $era11-link; }
+
+  /* ---- record blocks: this is the era's own idiom, the status card --------
+     A framed panel with a dark header strip, the way the Global Link drew a
+     player's own record. */
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related {
+    border: 1px solid $era11-rule !important;
+    border-radius: 8px !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f5f8 100%) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__heading {
+    margin: -1px -1px 0.8rem;
+    padding: 0.45rem 0.9rem;
+    border-radius: 7px 7px 0 0;
+    background: $era11-frame;
+    color: #ffffff;
+  }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.2rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+
+  .parallel-archive-record [class*="label"],
+  .resource-related [class*="label"],
+  .parallel-translation__meta [class*="label"] {
+    color: #ffffff !important;
+    background: $era11-frame !important;
+    border-radius: 4px;
+  }
+
+  .parallel-translation__toc {
+    border: 1px solid $era11-rule !important;
+    border-radius: 8px !important;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f5f8 100%) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+  }
+
+  .parallel-translation__toc a { color: $era11-link !important; }
+}
+
+/* ==========================================================================
+   2014 · Editorial  (2013-2016)
+   Reference: Daisuki Club 2012 redesign, Slowpoke Paradise 2014
+   (design/README.md). Grammar: the magazine takes over from the portal. A
+   wide white page with no frame at all, a hairline masthead with the title
+   set big and the sections in spaced capitals, a flat black rule where the
+   earlier eras drew a coloured band, and one accent. The chrome recedes so
+   that a single image or a single subject can hold the page.
+   ========================================================================== */
+
+$era14-paper: #ffffff;
+$era14-ink: #111111;
+$era14-ink-soft: #5a5a5a;
+$era14-rule: #e4e4e4;
+$era14-accent: #d7263d;      /* one editorial red */
+$era14-display: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", sans-serif;
+
+body.theme-bg-white[data-era="2014"],
+body.theme-bg-black[data-era="2014"],
+body[data-era="2014"] {
+  background: $era14-paper !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era14-paper !important;
+    max-width: none !important;
+    margin: 0;
+    border: 0;
+  }
+
+  #main {
+    max-width: 1160px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  /* the colophon at the end of a magazine: black, quiet */
+  .page__footer {
+    max-width: none;
+    margin: 0;
+    background: $era14-ink !important;
+    border-top: 0;
+    border-radius: 0;
+    color: #cfcfcf;
+  }
+
+  .page__footer a { color: #ffffff; }
+
+  /* ---- masthead: a title and a rule --------------------------------- */
+  .masthead {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    background: $era14-paper !important;
+    border: 0;
+    border-bottom: 2px solid $era14-ink !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap { max-width: 1160px; padding: 16px 28px; font-family: $era14-display; }
+
+  .greedy-nav { align-items: center; background: transparent !important; }
+  .greedy-nav .site-title { flex: 0 1 auto; }
+
+  .site-title,
+  .masthead .site-title {
+    color: $era14-ink !important;
+    font-family: $era14-display;
+    font-size: 1.25em;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .site-subtitle {
+    color: $era14-ink-soft !important;
+    font-size: 0.58em;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  .search__toggle { color: $era14-ink !important; }
+
+  .greedy-nav .visible-links .masthead__menu-item { margin: 0 2px; }
+
+  /* sections in spaced capitals; the accent appears only as the rule under
+     the one you are pointing at */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: $era14-ink !important;
+    font-size: 0.66em;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 9px 11px 7px;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    border-radius: 0;
+    background: transparent;
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    border-bottom-color: $era14-accent;
+    color: $era14-ink !important;
+    text-decoration: none;
+    background: transparent !important;
+  }
+
+  .greedy-nav .visible-links a:before { display: none; }
+  .greedy-nav button { background: transparent; border: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 0;
+    border: 1px solid $era14-ink;
+    box-shadow: none;
+    background: $era14-paper;
+  }
+
+  .greedy-nav .hidden-links a { border: 0; background: transparent; }
+  .greedy-nav .hidden-links a:hover { background: $era14-ink !important; color: $era14-paper !important; }
+
+  /* ---- reading surface ---- */
+  .parallel-translation,
+  .page__content { color: $era14-ink; }
+
+  a { color: $era14-accent; }
+
+  /* ---- record blocks: flat, ruled, no card ------------------------------ */
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related,
+  .parallel-translation__toc {
+    border: 0 !important;
+    border-top: 3px solid $era14-ink !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.4rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; border-bottom: 1px solid $era14-rule; padding-bottom: 0.4rem; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+
+  .parallel-archive-record [class*="label"],
+  .resource-related [class*="label"],
+  .parallel-translation__meta [class*="label"] {
+    color: $era14-ink !important;
+    background: transparent !important;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .parallel-translation__toc a { color: $era14-ink !important; }
+}
+
+/* ==========================================================================
+   2019 · Switch Microsite  (2017-2021)
+   Reference: Sword / Shield official site 2019, Game Freak corporate 2019
+   (design/README.md). Grammar: the chrome gets out of the way of the
+   image. A thin white bar, a handful of entries, a two-colour accent that
+   is the version pair and nothing else, 4-8px corners, no gradients and no
+   frames. The shell is complete on its own - the bar, the sheet, the
+   footer - so a microsite page still has the whole site behind it: this
+   era had an article skin and no shell, and the bar around it was whatever
+   the theme happened to draw, which is how the way back to the site got lost.
+   ========================================================================== */
+
+$era19-desk: #f4f6f9;
+$era19-paper: #ffffff;
+$era19-ink: #14171c;
+$era19-ink-soft: #5b6470;
+$era19-rule: #e5e8ee;
+$era19-sword: #00a2e8;
+$era19-shield: #e4007f;
+$era19-link: #0b6fb8;
+$era19-navy: #0f1a2e;
+$era19-gothic: "Yu Gothic", "YuGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "PingFang SC", "Microsoft YaHei", sans-serif;
+
+body.theme-bg-white[data-era="2019"],
+body.theme-bg-black[data-era="2019"],
+body[data-era="2019"] {
+  background: $era19-desk !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era19-paper !important;
+    max-width: 1200px !important;
+    margin: 0 auto;
+    border: 0;
+  }
+
+  #main {
+    max-width: 1200px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .page__footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: $era19-navy !important;
+    border-top: 0;
+    border-radius: 0;
+    color: #c9d1de;
+  }
+
+  .page__footer a { color: #ffffff; }
+
+  /* ---- masthead: a white bar under the version line -------------------- */
+  .masthead {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: $era19-paper !important;
+    border: 0;
+    border-top: 4px solid transparent;
+    border-image: linear-gradient(90deg, $era19-sword 0%, $era19-sword 50%, $era19-shield 50%, $era19-shield 100%) 1;
+    border-bottom: 1px solid $era19-rule !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .masthead__inner-wrap { max-width: 1200px; padding: 10px 24px; font-family: $era19-gothic; }
+
+  .greedy-nav { align-items: center; background: transparent !important; }
+  .greedy-nav .site-title { flex: 0 1 auto; }
+
+  .site-title,
+  .masthead .site-title {
+    color: $era19-ink !important;
+    font-family: $era19-gothic;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+  }
+
+  .site-subtitle { color: $era19-ink-soft !important; font-size: 0.6em; letter-spacing: 0.1em; }
+  .search__toggle { color: $era19-ink !important; }
+
+  .greedy-nav .visible-links .masthead__menu-item { margin: 0 2px; }
+
+  /* an entry is a word in a pill you only see when you reach for it */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: $era19-ink !important;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 6px 12px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    background: #eef2f7 !important;
+    color: $era19-ink !important;
+    text-decoration: none;
+  }
+
+  .greedy-nav .visible-links a:before { display: none; }
+  .greedy-nav button { background: transparent; border: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 8px;
+    border: 1px solid $era19-rule;
+    box-shadow: 0 6px 20px rgba(20, 23, 28, 0.1);
+    background: $era19-paper;
+  }
+
+  .greedy-nav .hidden-links a { border-radius: 6px; border: 0; background: transparent; }
+  .greedy-nav .hidden-links a:hover { background: #eef2f7 !important; }
+
+  /* ---- reading surface ---- */
+  .parallel-translation,
+  .page__content { color: $era19-ink; }
+
+  a { color: $era19-link; }
+
+  /* ---- record blocks: soft cards, one hairline, a whisper of shadow ------ */
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related,
+  .parallel-translation__toc {
+    border: 1px solid $era19-rule !important;
+    border-radius: 8px !important;
+    background: $era19-paper !important;
+    box-shadow: 0 1px 3px rgba(20, 23, 28, 0.06) !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.2rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+
+  .parallel-archive-record [class*="label"],
+  .resource-related [class*="label"],
+  .parallel-translation__meta [class*="label"] {
+    color: $era19-ink !important;
+    background: #eef2f7 !important;
+    border-radius: 999px;
+  }
+
+  .parallel-translation__toc a { color: $era19-link !important; }
+}
+
+/* ==========================================================================
+   2026 · Modern Archive  (2022-2026)
+   Reference: the refreshed Pokémon official site 2026, and PokeAmice itself
+   (design/README.md, Pattern H). Grammar: quiet. Off-white ground with no
+   sheet drawn on it, a hairline where every earlier era drew a band, small
+   tracked capitals, no shadow, no gradient, no accent colour in the chrome.
+   The brand is proven; the page proves nothing and shows the record.
+   ========================================================================== */
+
+$era26-ground: #fbfbfa;
+$era26-ink: #1a1a1a;
+$era26-ink-soft: #6b6b66;
+$era26-rule: #e6e6e3;
+$era26-link: #2451b3;
+$era26-sans: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+
+body.theme-bg-white[data-era="2026"],
+body.theme-bg-black[data-era="2026"],
+body[data-era="2026"] {
+  background: $era26-ground !important;
+
+  .initial-content {
+    background-image: none !important;
+    background-color: $era26-ground !important;
+    max-width: none !important;
+    margin: 0;
+    border: 0;
+  }
+
+  #main {
+    max-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .page__footer {
+    max-width: none;
+    margin: 0;
+    background: $era26-ground !important;
+    border-top: 1px solid $era26-rule !important;
+    border-radius: 0;
+    color: $era26-ink-soft;
+  }
+
+  .page__footer a { color: $era26-ink; }
+
+  /* ---- masthead: a hairline ---------------------------------------------- */
+  .masthead {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    background: rgba(251, 251, 250, 0.92) !important;
+    border: 0;
+    border-bottom: 1px solid $era26-rule !important;
+    border-radius: 0;
+    box-shadow: none !important;
+    backdrop-filter: saturate(160%) blur(8px) !important;
+  }
+
+  .masthead__inner-wrap { max-width: 1280px; padding: 12px 32px; font-family: $era26-sans; }
+
+  .greedy-nav { align-items: center; background: transparent !important; }
+  .greedy-nav .site-title { flex: 0 1 auto; }
+
+  .site-title,
+  .masthead .site-title {
+    color: $era26-ink !important;
+    font-family: $era26-sans;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+
+  .site-subtitle { color: $era26-ink-soft !important; font-size: 0.6em; letter-spacing: 0.08em; }
+  .search__toggle { color: $era26-ink !important; }
+
+  .greedy-nav .visible-links .masthead__menu-item { margin: 0 4px; }
+
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a {
+    display: block;
+    color: $era26-ink-soft !important;
+    font-size: 0.68em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 7px 8px;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    white-space: nowrap;
+  }
+
+  .greedy-nav .visible-links a:hover,
+  .greedy-nav .visible-links a:focus-visible {
+    color: $era26-ink !important;
+    background: transparent !important;
+    text-decoration: none;
+  }
+
+  /* the theme's own underline indicator suits this era; it takes the ink */
+  .greedy-nav .visible-links a:before { background: $era26-ink; height: 1px; }
+  .greedy-nav button { background: transparent; border: 0; }
+
+  .greedy-nav .hidden-links {
+    border-radius: 6px;
+    border: 1px solid $era26-rule;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    background: #ffffff;
+  }
+
+  .greedy-nav .hidden-links a { border: 0; background: transparent; }
+  .greedy-nav .hidden-links a:hover { background: $era26-ground !important; }
+
+  /* ---- reading surface ---- */
+  .parallel-translation,
+  .page__content { color: $era26-ink; }
+
+  a { color: $era26-link; }
+
+  /* ---- record blocks: a hairline above, nothing around ------------------- */
+  .parallel-translation__meta,
+  .parallel-archive-record,
+  .resource-related,
+  .parallel-translation__toc {
+    border: 0 !important;
+    border-top: 1px solid $era26-rule !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .parallel-archive-record { display: block !important; }
+
+  .parallel-archive-record__grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 0.6rem 1.4rem;
+  }
+
+  .parallel-archive-record__grid > div { min-width: 0; }
+  .parallel-archive-record__grid > div:nth-child(2) { grid-column: 1 / -1; }
+  .parallel-archive-record__grid dd { overflow-wrap: anywhere; }
+
+  .parallel-archive-record [class*="label"],
+  .resource-related [class*="label"],
+  .parallel-translation__meta [class*="label"] {
+    color: $era26-ink-soft !important;
+    background: transparent !important;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .parallel-translation__toc a { color: $era26-ink !important; }
+}
+
+/* The four later shells are wide ideas too; under the theme's breakpoint
+   the sheet fills the window, the corners go, and only the article keeps
+   its skin. Same shape as the 2003 / 2007 rule above. */
+@media (max-width: 900px) {
+  body[data-era="2011"],
+  body.theme-bg-white[data-era="2011"],
+  body.theme-bg-black[data-era="2011"],
+  body[data-era="2014"],
+  body.theme-bg-white[data-era="2014"],
+  body.theme-bg-black[data-era="2014"],
+  body[data-era="2019"],
+  body.theme-bg-white[data-era="2019"],
+  body.theme-bg-black[data-era="2019"],
+  body[data-era="2026"],
+  body.theme-bg-white[data-era="2026"],
+  body.theme-bg-black[data-era="2026"] {
+    .initial-content,
+    #main,
+    .masthead,
+    .masthead__inner-wrap,
+    .page__footer {
+      max-width: none;
+      border-left: 0;
+      border-right: 0;
+      border-radius: 0;
+      box-shadow: none;
+    }
+
+    #main,
+    .masthead__inner-wrap { padding-left: 16px; padding-right: 16px; }
+  }
+}
+
+
+/* ==========================================================================
    Responsive step-down, for every era, kept at the end on purpose.
    These used to sit between the 1999 and 2003 shells, where the later shells
    re-declared position:fixed on the same selector at the same specificity and
