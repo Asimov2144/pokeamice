@@ -1011,6 +1011,49 @@
    ],
    "container": "div.maintxt",
    "post": "2013-10-08-interview-4gamer-2013-solitiba.md"
+  },
+  {
+   "key": "hobonichi-2021-kubo",
+   "url": "https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-25.html",
+   "lang": "ja",
+   "date": "2021-10-25",
+   "outlet": "ほぼ日刊イトイ新聞",
+   "outlet_zh": "ほぼ日刊イトイ新聞（Hobonichi）",
+   "title": "特集 編集とは何か。12 小学館 久保雅一さん",
+   "kind": "interview",
+   "author": "奥野（ほぼ日）",
+   "asker": "ほぼ日",
+   "asker_aliases": [
+    "──",
+    "――",
+    "奥野"
+   ],
+   "speakers": {
+    "久保": "久保雅一"
+   },
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦：超梦的逆袭",
+    "宝可梦 动画系列"
+   ],
+   "tags": [
+    "ほぼ日",
+    "久保雅一",
+    "小学馆",
+    "CoroCoro",
+    "宝可梦动画",
+    "媒体组合"
+   ],
+   "container": "#talk_wrap",
+   "pages": [
+    "https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-26.html",
+    "https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-27.html",
+    "https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-28.html",
+    "https://www.1101.com/n/s/14editors/masakazu_kubo/2021-10-29.html"
+   ],
+   "note": "5 回连载（10-25〜10-29），第 4・5 回谈宝可梦；每回标题在 h2 的 img alt 里",
+   "join_br": true,
+   "drop": "^20\\d\\d-\\d\\d-\\d\\d-[A-Z]{3}$|次ページイメージ|title_sp"
   }
  ],
  "dropped": [

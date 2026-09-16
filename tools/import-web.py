@@ -177,12 +177,16 @@ def find_container(soup, target):
     return best
 
 
-def split_br(el):
+def split_br(el, join_br=False):
     """The text of an element as paragraphs, a <br> run being a break; each
-    part with whether all of its text sits inside <strong>/<b>."""
+    part with whether all of its text sits inside <strong>/<b>. A site that
+    breaks its lines typographically (ほぼ日 sets every clause on its own
+    line) passes join_br, and a <br> is then nothing at all."""
     parts, cur, bold = [], [], []
     for node in el.descendants:
         if isinstance(node, Tag) and node.name == "br":
+            if join_br:
+                continue
             parts.append(("".join(cur), bool(bold) and all(bold)))
             cur, bold = [], []
         elif isinstance(node, NavigableString) and not isinstance(node, Comment):
@@ -193,12 +197,12 @@ def split_br(el):
     return [(re.sub(r"[ \t\r\n\u3000]+", " ", t).strip(), b) for t, b in parts if t.strip()]
 
 
-def extract_blocks(container):
+def extract_blocks(container, join_br=False):
     """Headings, paragraphs and images of the container in reading order."""
     blocks = []
 
     def emit_text(el, quote=False):
-        for t, b in split_br(el):
+        for t, b in split_br(el, join_br):
             if len(t) >= 2:
                 blocks.append({"t": "text", "x": t, "bold": b, "quote": quote})
 
@@ -221,6 +225,8 @@ def extract_blocks(container):
         name = el.name
         if name in ("h1", "h2", "h3", "h4", "h5"):
             txt = el.get_text(" ", strip=True)
+            if not txt and el.find("img"):        # a heading set as a picture: its alt is the text
+                txt = (el.find("img").get("alt") or "").strip()
             if txt:
                 blocks.append({"t": "h", "x": re.sub(r"\s+", " ", txt), "level": 2 if name in ("h1", "h2") else 3})
             return
@@ -235,6 +241,25 @@ def extract_blocks(container):
                 break
             return
         if name == "figcaption":
+            return
+        if name == "dl":
+            # a definition list as dialogue (ほぼ日): <dt> is the speaker, the <dd>s are the turn;
+            # the label is put in front of every <dd> so each paragraph reads like a marked line
+            # (a question there runs over several <dd>s, which an unmarked paragraph would not keep)
+            label = None
+            for k in el.children:
+                if not isinstance(k, Tag):
+                    continue
+                if k.name == "dt":
+                    label = k.get_text(" ", strip=True)
+                elif k.name == "dd":
+                    for im in k.find_all("img"):
+                        emit_img(im)
+                    for tx, b in split_br(k, join_br):
+                        if label:
+                            tx = (label + " " + tx) if re.match(r"^[―─—–\-]+$", label) else (label + "：" + tx)
+                        if len(tx) >= 2:
+                            blocks.append({"t": "text", "x": tx, "bold": b, "quote": quote})
             return
         if name in ("p", "li", "dd", "dt", "pre"):
             for im in el.find_all("img"):
@@ -270,7 +295,7 @@ def extract_blocks(container):
             wrapper.append(n.__copy__() if isinstance(n, Tag) else NavigableString(str(n)))
         for im in wrapper.find_all("img"):
             emit_img(im)
-        for t, b in split_br(wrapper):
+        for t, b in split_br(wrapper, join_br):
             if len(t) >= 2:
                 blocks.append({"t": "text", "x": t, "bold": b, "quote": quote})
 
@@ -541,7 +566,11 @@ def run(key, targets, dry, glossary):
         soup = parse(fetch(t))
         strip_noise(soup)
         container = find_container(soup, target)
-        blocks += extract_blocks(container)
+        blocks += extract_blocks(container, join_br=bool(target.get("join_br")))
+    # what the page carries besides the piece: a date stamp, the next installment's thumbnail
+    if target.get("drop"):
+        drop = re.compile(target["drop"])
+        blocks = [b for b in blocks if not drop.search(b.get("x") or "") and not drop.search(b.get("alt") or "") and not drop.search(b.get("src") or "")]
     items = tidy(to_items(blocks, target, slug, dry))
     n_q = sum(1 for x in items if x.get("role") == "question")
     n_a = sum(1 for x in items if x.get("role") == "answer")
