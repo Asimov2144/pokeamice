@@ -42,7 +42,7 @@ TILES = {
     "recruit": ("assets/img/interviews/2017-tpc-recruit-passion/entry1.jpg", (0.5, 0.4)),
 }
 PEOPLE_MOSAIC = ["masuda-junichi", "sugimori-ken", "ishihara-tsunekazu", "tajiri-satoshi", "ohmori-shigeru", "unno-takao", "morimoto-shigeki", "kubo-masakazu"]
-WORKS_MOSAIC = ["Scarlet", "Sword", "Sun", "X", "Legends_Arceus", "Omega_Ruby", "Let's_Go_Pikachu", "Legends_Z-A"]
+WORKS_MOSAIC = ["red-green", "gold-silver", "ruby-sapphire", "diamond-pearl", "black-white", "x-y", "sword-shield", "scarlet-violet"]   # assets/img/works (tools/build-work-icons.py)
 
 
 def load(src):
@@ -158,14 +158,13 @@ def main():
     if force or not (OUT / "works.jpg").exists():
         ims = []
         for g in WORKS_MOSAIC:
-            try:
-                ims.append(load(ICON.format(g)).resize((84, 84), Image.LANCZOS))
-            except Exception as exc:
-                print(f"  !! icon {g}: {exc}")
-        bg = Image.new("RGB", (W, H), (240, 244, 248))
+            f = ROOT / "assets" / "img" / "works" / f"{g}.png"
+            if f.exists():
+                ims.append(Image.open(f).convert("RGB").resize((84, 84), Image.LANCZOS))
+        bg = Image.new("RGB", (W, H), (36, 44, 52))
         for i, im in enumerate(ims):
             bg.paste(im, (i % 4 * 84, (i // 4) * 84 + 12))
-        save(bg, "works"); print("  works      <- HOME icons")
+        save(bg, "works"); print("  works      <- the work icons")
     for key in ("timeline", "graph"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")

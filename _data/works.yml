@@ -1,166 +1,216 @@
-# 作品图标：站内 entities.works 名 → 图标。icon 是 Pokémon HOME 的作品图标（game_gallery 同一套），
-# 双版本作品 icon 在名字前、icon2 在名字后；没有 HOME 图标的作品用 color / color2（版本代表色）；mascot 是代表宝可梦的 HOME 渲染图，作次要图。
-- name: "宝可梦 红·绿"
-  color: "#d8262a"
-  color2: "#2f9e44"
+# 作品图标：站内 entities.works 名 → 图标。icon / icon2 是 SteamGridDB「Pokemon Games」图标集（collection 12146）里各版本的
+# 封面主角方形图（tools/build-work-icons.py 抓到 assets/img/works），双版本作品 icon 在名字前、icon2 在名字后；
+# 图标集没有的作品用 color / color2（版本代表色）和 mascot（代表宝可梦的 HOME 渲染图）。
+- name: 宝可梦 红·绿
+  color: '#d8262a'
+  color2: '#2f9e44'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0006.png
-- name: "宝可梦 蓝"
-  color: "#1f5fb0"
+  icon: /assets/img/works/red-green.png
+  icon2: /assets/img/works/red-green-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 蓝
+  color: '#1f5fb0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0009.png
-- name: "宝可梦 皮卡丘版"
-  color: "#f2c94c"
+  icon: /assets/img/works/blue.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 皮卡丘版
+  color: '#f2c94c'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦 金·银"
-  color: "#d4a72c"
-  color2: "#a8adb5"
+  icon: /assets/img/works/yellow.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 金·银
+  color: '#d4a72c'
+  color2: '#a8adb5'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0250.png
-- name: "宝可梦 水晶版"
-  color: "#6bb3d9"
+  icon: /assets/img/works/gold-silver.png
+  icon2: /assets/img/works/gold-silver-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 水晶版
+  color: '#6bb3d9'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0245.png
-- name: "宝可梦 红宝石·蓝宝石"
-  color: "#c9302c"
-  color2: "#2b6cb0"
+  icon: /assets/img/works/crystal.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 红宝石·蓝宝石
+  color: '#c9302c'
+  color2: '#2b6cb0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0383.png
-- name: "宝可梦 绿宝石"
-  color: "#2e9e6b"
+  icon: /assets/img/works/ruby-sapphire.png
+  icon2: /assets/img/works/ruby-sapphire-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 绿宝石
+  color: '#2e9e6b'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0384.png
-- name: "宝可梦 火红·叶绿"
-  color: "#e6522c"
-  color2: "#5fa14a"
+  icon: /assets/img/works/emerald.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 火红·叶绿
+  color: '#e6522c'
+  color2: '#5fa14a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0003.png
-- name: "宝可梦 钻石·珍珠"
-  color: "#4f7fc9"
-  color2: "#c98ab6"
+  icon: /assets/img/works/firered-leafgreen.png
+  icon2: /assets/img/works/firered-leafgreen-2.png
+  icon_credit: SteamGridDB collection 12146 · Lunecho, chickenish
+- name: 宝可梦 钻石·珍珠
+  color: '#4f7fc9'
+  color2: '#c98ab6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0483.png
-- name: "宝可梦 白金"
-  color: "#8a8f99"
+  icon: /assets/img/works/diamond-pearl.png
+  icon2: /assets/img/works/diamond-pearl-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 白金
+  color: '#8a8f99'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0487.png
-- name: "宝可梦 心金·魂银"
-  color: "#d9a441"
-  color2: "#8fa3b8"
+  icon: /assets/img/works/platinum.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 心金·魂银
+  color: '#d9a441'
+  color2: '#8fa3b8'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
-- name: "宝可梦 黑·白"
-  color: "#222222"
-  color2: "#e6e6e6"
+  icon: /assets/img/works/heartgold-soulsilver.png
+  icon2: /assets/img/works/heartgold-soulsilver-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 黑·白
+  color: '#222222'
+  color2: '#e6e6e6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
-- name: "宝可梦 黑2·白2"
-  color: "#2b2b2b"
-  color2: "#dcdcdc"
+  icon: /assets/img/works/black-white.png
+  icon2: /assets/img/works/black-white-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 黑2·白2
+  color: '#2b2b2b'
+  color2: '#dcdcdc'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0646.png
-- name: "宝可梦 X·Y"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_X_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Y_icon.png
+  icon: /assets/img/works/black2-white2.png
+  icon2: /assets/img/works/black2-white2-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 X·Y
+  icon: /assets/img/works/x-y.png
+  icon2: /assets/img/works/x-y-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0716.png
-- name: "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Omega_Ruby_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Alpha_Sapphire_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  icon: /assets/img/works/omega-ruby-alpha-sapphire.png
+  icon2: /assets/img/works/omega-ruby-alpha-sapphire-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0382.png
-- name: "宝可梦 太阳·月亮"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Sun_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Moon_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 太阳·月亮
+  icon: /assets/img/works/sun-moon.png
+  icon2: /assets/img/works/sun-moon-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0791.png
-- name: "宝可梦 究极之日·究极之月"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Ultra_Sun_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Ultra_Moon_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 究极之日·究极之月
+  icon: /assets/img/works/ultra-sun-ultra-moon.png
+  icon2: /assets/img/works/ultra-sun-ultra-moon-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0800.png
-- name: "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Pikachu_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Eevee_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  icon: /assets/img/works/lets-go.png
+  icon2: /assets/img/works/lets-go-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
-- name: "宝可梦 Let's Go！皮卡丘/伊布"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Pikachu_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Eevee_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 Let's Go！皮卡丘/伊布
+  icon: /assets/img/works/lets-go.png
+  icon2: /assets/img/works/lets-go-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
-- name: "宝可梦 剑·盾"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Sword_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Shield_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦 剑·盾
+  icon: /assets/img/works/sword-shield.png
+  icon2: /assets/img/works/sword-shield-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0888.png
-- name: "宝可梦传说 阿尔宙斯"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Legends_Arceus_icon.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦传说 阿尔宙斯
+  icon: /assets/img/works/legends-arceus.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0493.png
-- name: "宝可梦 朱·紫"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Scarlet_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Violet_icon.png
+  icon_credit: SteamGridDB collection 12146 · Skully
+- name: 宝可梦 朱·紫
+  icon: /assets/img/works/scarlet-violet.png
+  icon2: /assets/img/works/scarlet-violet-2.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--1007.png
-- name: "Pokémon LEGENDS Z-A"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Legends_Z-A_icon.png
+  icon_credit: SteamGridDB collection 12146 · Skully
+- name: Pokémon LEGENDS Z-A
+  icon: /assets/img/works/legends-z-a.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "Pokémon GO"
-  color: "#1e88e5"
-  color2: "#ffd54f"
+  icon_credit: SteamGridDB collection 12146 · Skully
+- name: Pokémon GO
+  color: '#1e88e5'
+  color2: '#ffd54f'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦 动画系列"
-  color: "#ffcc00"
-  color2: "#e53935"
+- name: 宝可梦 动画系列
+  color: '#ffcc00'
+  color2: '#e53935'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "超梦的逆袭"
-  color: "#7e57c2"
+- name: 超梦的逆袭
+  color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-- name: "宝可梦：超梦的逆袭"
-  color: "#7e57c2"
+- name: 宝可梦：超梦的逆袭
+  color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-- name: "超梦的诞生"
-  color: "#7e57c2"
+- name: 超梦的诞生
+  color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-- name: "超梦！我就在这里"
-  color: "#7e57c2"
+- name: 超梦！我就在这里
+  color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-- name: "洛奇亚爆诞"
-  color: "#5c6bc0"
+- name: 洛奇亚爆诞
+  color: '#5c6bc0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
-- name: "结晶塔的帝王"
-  color: "#26a69a"
+- name: 结晶塔的帝王
+  color: '#26a69a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0251.png
-- name: "宝可梦集换式卡牌游戏"
-  color: "#f5b400"
-  color2: "#1e3a8a"
+- name: 宝可梦集换式卡牌游戏
+  color: '#f5b400'
+  color2: '#1e3a8a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦卡牌"
-  color: "#f5b400"
-  color2: "#1e3a8a"
+- name: 宝可梦卡牌
+  color: '#f5b400'
+  color2: '#1e3a8a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦不可思议迷宫"
-  color: "#6d4c41"
+- name: 宝可梦不可思议迷宫
+  color: '#6d4c41'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦竞技场"
-  color: "#5c6bc0"
+- name: 宝可梦竞技场
+  color: '#5c6bc0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦圆形竞技场"
-  color: "#5c6bc0"
+- name: 宝可梦圆形竞技场
+  color: '#5c6bc0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦随乐拍"
-  color: "#ff8f00"
+- name: 宝可梦随乐拍
+  color: '#ff8f00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "名侦探皮卡丘"
-  color: "#f2c94c"
+- name: 名侦探皮卡丘
+  color: '#f2c94c'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦打字DS"
-  color: "#2e7d32"
+- name: 宝可梦打字DS
+  color: '#2e7d32'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "Pokémon HOME"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_HOME_icon.png
+- name: Pokémon HOME
+  icon: /assets/img/works/home.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦立体图鉴BW"
-  color: "#222222"
-  color2: "#e6e6e6"
+  icon_credit: SteamGridDB collection 12146 · Varimarthas
+- name: 宝可梦立体图鉴BW
+  color: '#222222'
+  color2: '#e6e6e6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
-- name: "宝可梦乱战"
-  color: "#ef6c00"
+  icon: /assets/img/works/black-white.png
+  icon2: /assets/img/works/black-white-2.png
+  icon_credit: SteamGridDB collection 12146 · chickenish
+- name: 宝可梦乱战
+  color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "超级宝可梦乱战"
-  color: "#ef6c00"
+- name: 超级宝可梦乱战
+  color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦对战革命"
-  color: "#3949ab"
+- name: 宝可梦对战革命
+  color: '#3949ab'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦频道"
-  color: "#00897b"
+- name: 宝可梦频道
+  color: '#00897b'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "Pokémon mini"
-  color: "#9e9d24"
+- name: Pokémon mini
+  color: '#9e9d24'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-- name: "宝可梦 晶灿钻石·明亮珍珠"
-  icon: https://pokeamice.com/game_gallery/icon/HOME_Brilliant_Diamond_icon.png
-  icon2: https://pokeamice.com/game_gallery/icon/HOME_Shining_Pearl_icon.png
-- name: "Pokémon Champions"
+- name: 宝可梦 晶灿钻石·明亮珍珠
+  icon: /assets/img/works/brilliant-diamond-shining-pearl.png
+  icon2: /assets/img/works/brilliant-diamond-shining-pearl-2.png
+  icon_credit: SteamGridDB collection 12146 · Julia
+- name: Pokémon Champions
   icon: https://pokeamice.com/game_gallery/icon/HOME_Champions_icon.png
