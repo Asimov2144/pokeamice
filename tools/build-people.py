@@ -119,7 +119,9 @@ def slug_for(name):
     if re.match(r"^[A-Z]\.[A-Z]\.$", name):          # GF's initials-only staff
         return "gf-" + name.replace(".", "").lower()
     from pypinyin import lazy_pinyin
-    return "-".join(lazy_pinyin(re.sub(r"[·・]", "", name)))
+    s = "-".join(lazy_pinyin(re.sub(r"[·・]", "", name)))
+    s = re.sub(r"[^a-z0-9-]+", "", s.lower())     # a kana or a symbol that pinyin passed through
+    return re.sub(r"-{2,}", "-", s).strip("-")
 
 
 def cmd_registry():
