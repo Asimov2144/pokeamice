@@ -4,7 +4,8 @@ title: 田谷正夫
 person: 田谷正夫
 slug: taya-masao
 permalink: /people/taya-masao/
-aliases: []
+aliases:
+- 田谷正夫
 avatar: ''
 avatar_source: ''
 search: false

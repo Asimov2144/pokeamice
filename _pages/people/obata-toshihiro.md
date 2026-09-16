@@ -6,8 +6,8 @@ slug: obata-toshihiro
 permalink: /people/obata-toshihiro/
 aliases:
 - 小幡敏宏
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/obata-toshihiro.jpg
+avatar_source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
 search: false
 sitemap: true
 ---

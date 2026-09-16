@@ -134,8 +134,8 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1/photo5.jpg
-  caption: 石原 恒和（株式会社宝可梦 代表取缔役社长）
-  alt: 石原恒和肖像
+  caption: 岩田 聪（任天堂 代表取缔役社长）
+  alt: 岩田聪肖像
 - speaker: 石原恒和
   original: 去年、『ポケットモンスターブラック・ホワイト』（※6）が出て、今年に入ってニンテンドー3DSが発売されましたが、『ポケットモンスターブラック・ホワイト』で登場した最新のポケモンを、3DSの新しい能力を全部使って楽しめるものがほしい、とまず思ったんです。
   translation: 去年《宝可梦 黑·白》（※6）正式发售，而今年年初任天堂3DS面世。当时我心中涌起的第一道强烈的愿望就是：我极度渴望能有一款作品，能够倾尽3DS这台新硬件的全部颠覆性能力，让玩家尽情享受《黑·白》中登场的最新宝可梦！

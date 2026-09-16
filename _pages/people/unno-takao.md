@@ -8,7 +8,7 @@ aliases:
 - 海野隆雄
 - Takao Unno
 avatar: /assets/img/people/unno-takao.jpg
-avatar_source: Nintendo DREAM 2012年9月号 P.13
+avatar_source: Bulbapedia File:Takao_Unno.png
 search: false
 sitemap: true
 ---

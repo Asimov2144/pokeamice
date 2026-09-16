@@ -232,8 +232,8 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4/photo16.jpg
-  caption: 石原 恒和（株式会社宝可梦 代表取缔役社长）深情阐述为何将本作作为3DS首发正作
-  alt: 石原社长阐述3DS首发初心
+  caption: 岩田 聪（任天堂 代表取缔役社长）
+  alt: 岩田聪肖像
 - speaker: 石原恒和
   original: ・・・それは「いちばん遊びやすいゲームだから」ですね。やっぱり新しいハードというのは、いろんなポテンシャルや機能を秘めていますけど、今回の3DSは、それがてんこ盛りのところもあって。
   translation: ……那是因为，它毫无疑问是“全天下最容易上手、最包容亲和的游戏”（いちばん遊びやすいゲームだから）！每逢面对全新掌机硬件面世，虽然各方都在竭力挖掘其深邃潜能与繁复机能，而这次的3DS更是将各种黑科技塞得琳琅满目……

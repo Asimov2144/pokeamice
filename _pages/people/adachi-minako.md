@@ -7,8 +7,8 @@ permalink: /people/adachi-minako/
 aliases:
 - 足立美奈子
 - Minako Adachi
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/adachi-minako.jpg
+avatar_source: Bulbapedia File:Minako_Adachi.png
 search: false
 sitemap: true
 ---

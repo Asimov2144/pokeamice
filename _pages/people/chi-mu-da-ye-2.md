@@ -4,7 +4,8 @@ title: 赤木达也
 person: 赤木达也
 slug: chi-mu-da-ye-2
 permalink: /people/chi-mu-da-ye-2/
-aliases: []
+aliases:
+- 赤木達也
 avatar: ''
 avatar_source: ''
 search: false

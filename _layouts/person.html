@@ -43,7 +43,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {% assign co_u = co_all | uniq %}
 {% assign topics_u = topics_all | uniq %}
 {% assign portraits = "" | split: "" %}
-{% if me.portraits %}{% assign portraits = me.portraits | sort: "year" %}{% endif %}
+{% if me.portraits %}{% assign dated = me.portraits | where_exp: "ph", "ph.year" | sort: "year" %}{% assign undated = me.portraits | where_exp: "ph", "ph.year == nil" %}{% assign portraits = dated | concat: undated %}{% endif %}
 
 <div id="main" role="main">
   <div class="archive archive--person">
@@ -75,7 +75,8 @@ carry a `kind` in the registry and never appear as co-interviewees.
           <h2>不同时期</h2>
           <ul>
             {% for ph in portraits %}
-              <li><img src="{{ ph.image | relative_url }}" alt="" loading="lazy" width="64" height="64" title="{{ ph.source }}"><span>{{ ph.year | default: "—" }}</span></li>
+              {% assign from_post = nil %}{% if ph.post %}{% assign from_post = site.posts | where_exp: "p", "p.path contains ph.post" | first %}{% endif %}
+              <li>{% if from_post %}<a href="{{ from_post.url | relative_url }}" title="{{ ph.source }} — {{ from_post.title }}">{% endif %}<img src="{{ ph.image | relative_url }}" alt="" loading="lazy" width="64" height="64" title="{{ ph.source }}">{% if from_post %}</a>{% endif %}<span>{{ ph.year | default: "—" }}</span></li>
             {% endfor %}
           </ul>
         </section>

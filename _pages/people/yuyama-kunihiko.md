@@ -7,8 +7,8 @@ permalink: /people/yuyama-kunihiko/
 aliases:
 - 湯山邦彦
 - Kunihiko Yuyama
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/yuyama-kunihiko.jpg
+avatar_source: Nintendo Wiki (Fandom) File:Kunihiko_Yuyama.png
 search: false
 sitemap: true
 ---

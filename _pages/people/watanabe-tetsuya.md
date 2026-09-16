@@ -7,8 +7,8 @@ permalink: /people/watanabe-tetsuya/
 aliases:
 - 渡辺哲也
 - Tetsuya Watanabe
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/watanabe-tetsuya.jpg
+avatar_source: Bulbapedia File:Tetsuya_Watanabe.png
 search: false
 sitemap: true
 ---

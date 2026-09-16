@@ -1,6 +1,7 @@
 # 人物库：站内 entities.people 的每个名字一条。slug 定 URL（/people/<slug>/），avatar 是主头像，
 # portraits 是不同时期的照片（image / year / source），avatar_source 记主头像出处；aliases 供检索；
-# kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：只添加不覆盖。
+# kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：registry 只添加不覆盖，
+# harvest 按脚本里 PORTRAITS 表（已核对过身份的照片）裁头像；portraits 里的 post 是照片所在的条目，该条目优先显示这张。
 - name: 增田顺一
   slug: masuda-junichi
   aliases:
@@ -15,12 +16,12 @@
   - image: /assets/img/people/masuda-junichi-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
-  - image: /assets/img/people/masuda-junichi-2010.jpg
-    year: 2010
-    source: 電撃GAMES Vol.14（2010）P.252
   - image: /assets/img/people/masuda-junichi-2010-b.jpg
     year: 2010
     source: ダ・ヴィンチ 2011年1月号 P.133
+  - image: /assets/img/people/masuda-junichi-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
   - image: /assets/img/people/masuda-junichi-2011.jpg
     year: 2011
     source: Nintendo DREAM 2011年4月号 P.80
@@ -55,6 +56,10 @@
   avatar: /assets/img/people/ohmori-shigeru.jpg
   avatar_source: 電撃GAMES Vol.14 P.252
   portraits:
+  - image: /assets/img/people/ohmori-shigeru-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-10-09「ＨＧ・ＳＳ 語っちゃいます！ その1」
+    post: 2009-10-09-gamefreak-staff-148
   - image: /assets/img/people/ohmori-shigeru-2010.jpg
     year: 2010
     source: 電撃GAMES Vol.14（2010）P.252
@@ -65,6 +70,10 @@
   avatar: /assets/img/people/ota-tetsuji.jpg
   avatar_source: 電撃GAMES Vol.14 P.252
   portraits:
+  - image: /assets/img/people/ota-tetsuji-2008.jpg
+    year: 2008
+    source: Game Freak 员工博客 2008-10-03「プラチナここだけの話 第2回」
+    post: 2008-10-03-gamefreak-staff-90
   - image: /assets/img/people/ota-tetsuji-2010.jpg
     year: 2010
     source: 電撃GAMES Vol.14（2010）P.252
@@ -86,20 +95,34 @@
   avatar: /assets/img/people/kageyama-shota.jpg
   avatar_source: Nintendo DREAM 2011年1月号 P.18
   portraits:
+  - image: /assets/img/people/kageyama-shota-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-11-06「ＨＧ・ＳＳ 語っちゃいます！ その4」
+    post: 2009-11-06-gamefreak-staff-153
   - image: /assets/img/people/kageyama-shota-2010.jpg
     year: 2010
     source: Nintendo DREAM 2011年1月号 P.18
+  - image: /assets/img/people/kageyama-shota-shota-kageyama.jpg
+    source: Nintendo Wiki (Fandom) File:Shota_Kageyama.jpg
 - name: 海野隆雄
   slug: unno-takao
   aliases:
   - 海野隆雄
   - Takao Unno
   avatar: /assets/img/people/unno-takao.jpg
-  avatar_source: Nintendo DREAM 2012年9月号 P.13
+  avatar_source: Bulbapedia File:Takao_Unno.png
   portraits:
+  - image: /assets/img/people/unno-takao-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-11-20「ＨＧ・ＳＳ 語っちゃいます！ その6」
+    post: 2009-11-20-gamefreak-staff-155
   - image: /assets/img/people/unno-takao-2012.jpg
     year: 2012
     source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/unno-takao-takao-unno-0.jpg
+    source: Nintendo Wiki (Fandom) File:Takao_Unno-0.jpg
+  - image: /assets/img/people/unno-takao-takao-unno.jpg
+    source: Bulbapedia File:Takao_Unno.png
 - name: 一之濑刚
   slug: ichinose-go
   aliases:
@@ -108,12 +131,18 @@
   avatar: /assets/img/people/ichinose-go.jpg
   avatar_source: Nintendo DREAM 2012年9月号 P.13
   portraits:
-  - image: /assets/img/people/ichinose-go-2012.jpg
-    year: 2012
-    source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/ichinose-go-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-10-27「ＨＧ・ＳＳ 語っちゃいます！ その3」
+    post: 2009-10-27-gamefreak-staff-151
   - image: /assets/img/people/ichinose-go-2012-b.jpg
     year: 2012
     source: Nintendo DREAM 2012年10月号 P.28
+  - image: /assets/img/people/ichinose-go-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/ichinose-go-go-ichinose.jpg
+    source: Nintendo Wiki (Fandom) File:Go_Ichinose.png
 - name: 佐藤仁美
   slug: sato-hitomi
   aliases:
@@ -122,12 +151,12 @@
   avatar: /assets/img/people/sato-hitomi.jpg
   avatar_source: Nintendo DREAM 2012年9月号 P.13
   portraits:
-  - image: /assets/img/people/sato-hitomi-2012.jpg
-    year: 2012
-    source: Nintendo DREAM 2012年9月号 P.13
   - image: /assets/img/people/sato-hitomi-2012-b.jpg
     year: 2012
     source: Nintendo DREAM 2012年10月号 P.28
+  - image: /assets/img/people/sato-hitomi-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
 - name: 田尻智
   slug: tajiri-satoshi
   aliases:
@@ -145,7 +174,7 @@
   - 森本茂樹
   - Shigeki Morimoto
   avatar: /assets/img/people/morimoto-shigeki.jpg
-  avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
+  avatar_source: Nintendo Wiki (Fandom) File:Shigeki_Morimoto-0.jpg
   portraits:
   - image: /assets/img/people/morimoto-shigeki-1996.jpg
     year: 1996
@@ -153,6 +182,16 @@
   - image: /assets/img/people/morimoto-shigeki-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
+  - image: /assets/img/people/morimoto-shigeki-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-09-11
+    post: 2009-09-11-gamefreak-staff-142
+  - image: /assets/img/people/morimoto-shigeki-2010.jpg
+    year: 2010
+    source: Game Freak 员工博客 2010-05-14
+    post: 2010-05-14-gamefreak-staff-182
+  - image: /assets/img/people/morimoto-shigeki-shigeki-morimoto-0.jpg
+    source: Nintendo Wiki (Fandom) File:Shigeki_Morimoto-0.jpg
 - name: 西野弘二
   slug: nishino-koji
   aliases:
@@ -161,6 +200,10 @@
   avatar: /assets/img/people/nishino-koji.jpg
   avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
   portraits:
+  - image: /assets/img/people/nishino-koji-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑 1996 P.142
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
   - image: /assets/img/people/nishino-koji-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
@@ -183,9 +226,17 @@
   avatar: /assets/img/people/ishihara-tsunekazu.jpg
   avatar_source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
   portraits:
+  - image: /assets/img/people/ishihara-tsunekazu-2011.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo1
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
   - image: /assets/img/people/ishihara-tsunekazu.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
+  - image: /assets/img/people/ishihara-tsunekazu-2012.jpg
+    year: 2012
+    source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
 - name: 首藤刚志
   slug: shudo-takeshi
   aliases:
@@ -202,6 +253,11 @@
   aliases:
   - 湯山邦彦
   - Kunihiko Yuyama
+  portraits:
+  - image: /assets/img/people/yuyama-kunihiko-kunihiko-yuyama.jpg
+    source: Nintendo Wiki (Fandom) File:Kunihiko_Yuyama.png
+  avatar: /assets/img/people/yuyama-kunihiko.jpg
+  avatar_source: Nintendo Wiki (Fandom) File:Kunihiko_Yuyama.png
 - name: 岩田聪
   slug: iwata-satoru
   aliases:
@@ -213,6 +269,10 @@
   - image: /assets/img/people/iwata-satoru.jpg
     year: 2011
     source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo6（原帖图注错位，按人脸核对）
+  - image: /assets/img/people/iwata-satoru-2012.jpg
+    year: 2012
+    source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
 - name: 久保雅一
   slug: kubo-masakazu
   aliases:
@@ -229,6 +289,15 @@
   aliases:
   - 大村祐介
   - Yusuke Ohmura
+  portraits:
+  - image: /assets/img/people/ohmura-yusuke-2010.jpg
+    year: 2010
+    source: Game Freak 员工博客 2010-11-12「ブラック・ホワイトのつくりかた 第7回」
+    post: 2010-11-12-gamefreak-staff-207
+  - image: /assets/img/people/ohmura-yusuke-yusuke-ohmura.jpg
+    source: Bulbapedia File:Yusuke_Ohmura.jpg
+  avatar: /assets/img/people/ohmura-yusuke.jpg
+  avatar_source: Bulbapedia File:Yusuke_Ohmura.jpg
 - name: 小次郎
   slug: xiao-ci-lang
   kind: character
@@ -243,29 +312,128 @@
   aliases:
   - 岩尾和昌
   - Kazumasa Iwao
+  portraits:
+  - image: /assets/img/people/iwao-kazumasa-2022.jpg
+    year: 2022
+    source: 日本ゲーム大賞2022 優秀賞 受賞コメントページ
+    post: 2022-10-10-[采访]-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言
+  - image: /assets/img/people/iwao-kazumasa-kazumasa-iwao.jpg
+    source: Bulbapedia File:Kazumasa_Iwao.png
+  avatar: /assets/img/people/iwao-kazumasa.jpg
+  avatar_source: 日本ゲーム大賞2022 優秀賞 受賞コメントページ
 - name: 吉田宏信
   slug: yoshida-hironobu
+  aliases:
+  - 吉田宏信
+  - Hironobu Yoshida
+  portraits:
+  - image: /assets/img/people/yoshida-hironobu-2008.jpg
+    year: 2008
+    source: Game Freak 员工博客 2008-09-26「プラチナここだけの話 第1回」
+    post: 2008-09-26-gamefreak-staff-89
+  - image: /assets/img/people/yoshida-hironobu-hironobu-yoshida.jpg
+    source: Bulbapedia File:Hironobu_Yoshida.jpg
+  avatar: /assets/img/people/yoshida-hironobu.jpg
+  avatar_source: Bulbapedia File:Hironobu_Yoshida.jpg
 - name: 大谷育江
   slug: otani-ikue
   aliases:
   - 大谷育江
   - Ikue Otani
+  portraits:
+  - image: /assets/img/people/otani-ikue-ikue-otani.jpg
+    source: Bulbapedia File:Ikue_Otani.jpg
+  avatar: /assets/img/people/otani-ikue.jpg
+  avatar_source: Bulbapedia File:Ikue_Otani.jpg
 - name: 市村正亲
   slug: ichimura-masachika
+  aliases:
+  - 市村正親
+  - Masachika Ichimura
+  portraits:
+  - image: /assets/img/people/ichimura-masachika-2018.jpg
+    year: 2018
+    source: Wikimedia Commons File:Ichimura Masachika from "The Man Who Invented Christmas" at Opening Ceremony of the Tokyo International Film Festival 2018 (45619249711).jpg · Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0
+  avatar: /assets/img/people/ichimura-masachika.jpg
+  avatar_source: Wikimedia Commons File:Ichimura Masachika from "The Man Who Invented Christmas" at Opening Ceremony of the Tokyo International Film Festival 2018 (45619249711).jpg · Dick Thomas Johnson from Tokyo, Japan · CC BY 2.0
 - name: 小笠原裕
   slug: ogasawara-yutaka
+  aliases:
+  - 小笠原裕
+  portraits:
+  - image: /assets/img/people/ogasawara-yutaka-2011.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo2
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+  avatar: /assets/img/people/ogasawara-yutaka.jpg
+  avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo2
 - name: 竹内敦
   slug: takeuchi-atsushi
+  aliases:
+  - 竹内敦
+  portraits:
+  - image: /assets/img/people/takeuchi-atsushi-2011.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo3
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+  avatar: /assets/img/people/takeuchi-atsushi.jpg
+  avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo3
 - name: 折本哲也
   slug: orimoto-tetsuya
+  aliases:
+  - 折本哲也
+  portraits:
+  - image: /assets/img/people/orimoto-tetsuya-2011.jpg
+    year: 2011
+    source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo4
+    post: 2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1
+  avatar: /assets/img/people/orimoto-tetsuya.jpg
+  avatar_source: 社長が訊く『ポケモン立体図鑑BW』第1章 photo4
 - name: 小泽达雄
   slug: ozawa-tatsuo
+  aliases:
+  - 小澤達雄
+  portraits:
+  - image: /assets/img/people/ozawa-tatsuo-2011.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo3
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1
+  avatar: /assets/img/people/ozawa-tatsuo.jpg
+  avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo3
 - name: 松村直树
   slug: matsumura-naoki
+  aliases:
+  - 松村直樹
+  portraits:
+  - image: /assets/img/people/matsumura-naoki-2011.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo2
+    post: 2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1
+  avatar: /assets/img/people/matsumura-naoki.jpg
+  avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo2
 - name: 长畑成一郎
   slug: nagahata-seiichiro
+  aliases:
+  - 長畑成一郎
+  portraits:
+  - image: /assets/img/people/nagahata-seiichiro-2012.jpg
+    year: 2012
+    source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+  avatar: /assets/img/people/nagahata-seiichiro.jpg
+  avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1
 - name: 富江慎一郎
   slug: tomie-shinichiro
+  aliases:
+  - 冨江慎一郎
+  - Shinichiro Tomie
+  portraits:
+  - image: /assets/img/people/tomie-shinichiro-2012.jpg
+    year: 2012
+    source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2
+    post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+  avatar: /assets/img/people/tomie-shinichiro.jpg
+  avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2
 - name: H.T.
   slug: h-t
 - name: 前泽圭一
@@ -273,6 +441,11 @@
   aliases:
   - 前澤圭一
   - Keiichi Maezawa
+  portraits:
+  - image: /assets/img/people/maezawa-keiichi-keiichi-maezawa.jpg
+    source: Nintendo Wiki (Fandom) File:Keiichi_Maezawa.jpg
+  avatar: /assets/img/people/maezawa-keiichi.jpg
+  avatar_source: Nintendo Wiki (Fandom) File:Keiichi_Maezawa.jpg
 - name: 小刚
   slug: xiao-gang
   kind: character
@@ -284,6 +457,14 @@
   kind: character
 - name: 井部真那
   slug: ibe-mana
+  aliases:
+  - 井部真那
+  - Mana Ibe
+  portraits:
+  - image: /assets/img/people/ibe-mana-mana-ibe.jpg
+    source: Bulbapedia File:Mana_Ibe.jpg
+  avatar: /assets/img/people/ibe-mana.jpg
+  avatar_source: Bulbapedia File:Mana_Ibe.jpg
 - name: 野村达雄
   slug: nomura-tatsuo
   aliases:
@@ -301,10 +482,16 @@
     source: Wikimedia Commons File:John Hanke by Gage Skidmore.jpg · Gage Skidmore · CC BY-SA 3.0
 - name: 小野寺瞬
   slug: onodera-shun
+  aliases:
+  - 小野寺瞬
 - name: 深谷卓
   slug: fukaya-taku
+  aliases:
+  - 深谷卓
 - name: 米谷由贵
   slug: yonetani-yuki
+  aliases:
+  - 米谷由貴
 - name: 宗像快
   slug: munakata-kai
   aliases:
@@ -313,24 +500,73 @@
   slug: obata-toshihiro
   aliases:
   - 小幡敏宏
+  portraits:
+  - image: /assets/img/people/obata-toshihiro-toshihiro-obata.jpg
+    source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
+  avatar: /assets/img/people/obata-toshihiro.jpg
+  avatar_source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
 - name: 渡边哲也
   slug: watanabe-tetsuya
   aliases:
   - 渡辺哲也
   - Tetsuya Watanabe
+  portraits:
+  - image: /assets/img/people/watanabe-tetsuya-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑 1996 P.141
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
+  - image: /assets/img/people/watanabe-tetsuya-tetsuya-watanabe.jpg
+    source: Bulbapedia File:Tetsuya_Watanabe.png
+  avatar: /assets/img/people/watanabe-tetsuya.jpg
+  avatar_source: Bulbapedia File:Tetsuya_Watanabe.png
 - name: 西田敦子
   slug: nishida-atsuko
   aliases:
   - 西田敦子
   - Atsuko Nishida
+  portraits:
+  - image: /assets/img/people/nishida-atsuko-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑 1996 P.142
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
+  - image: /assets/img/people/nishida-atsuko-atsuko-nishida.jpg
+    source: Nintendo Wiki (Fandom) File:Atsuko_Nishida.jpg
+  avatar: /assets/img/people/nishida-atsuko.jpg
+  avatar_source: Nintendo Wiki (Fandom) File:Atsuko_Nishida.jpg
 - name: 三浦昌幸
   slug: miura-masayuki
+  aliases:
+  - 三浦昌幸
 - name: 林原惠美
   slug: hayashibara-megumi
+  aliases:
+  - 林原めぐみ
+  - Megumi Hayashibara
+  portraits:
+  - image: /assets/img/people/hayashibara-megumi-megumi-hayashibara.jpg
+    source: Bulbapedia File:Megumi_Hayashibara.jpg
+  avatar: /assets/img/people/hayashibara-megumi.jpg
+  avatar_source: Bulbapedia File:Megumi_Hayashibara.jpg
 - name: 三木真一郎
   slug: miki-shinichiro
+  aliases:
+  - 三木眞一郎
+  - Shin-ichiro Miki
+  portraits:
+  - image: /assets/img/people/miki-shinichiro-shin-ichiro-miki.jpg
+    source: Wikimedia Commons File:Shin-ichiro Miki.jpg · Liverpool Official YouTube channel · CC BY 3.0
+  avatar: /assets/img/people/miki-shinichiro.jpg
+  avatar_source: Wikimedia Commons File:Shin-ichiro Miki.jpg · Liverpool Official YouTube channel · CC BY 3.0
 - name: 犬山犬子
   slug: inuyama-inuko
+  aliases:
+  - 犬山イヌコ
+  - Inuko Inuyama
+  portraits:
+  - image: /assets/img/people/inuyama-inuko-inuko-inuyama.jpg
+    source: Bulbapedia File:Inuko_Inuyama.jpg
+  avatar: /assets/img/people/inuyama-inuko.jpg
+  avatar_source: Bulbapedia File:Inuko_Inuyama.jpg
 - name: 大木博士
   slug: da-mu-bo-shi
   kind: character
@@ -343,10 +579,22 @@
   slug: james-turner
   aliases:
   - James Turner
+  portraits:
+  - image: /assets/img/people/james-turner-2010.jpg
+    year: 2010
+    source: Game Freak 员工博客 2010-10-22「ブラック・ホワイト 開発者インタビュー 第4弾」
+    post: 2010-10-22-gamefreak-staff-204
+  - image: /assets/img/people/james-turner-2019.jpg
+    year: 2019
+    source: Bulbapedia File:James_Turner_2019.jpg
+  avatar: /assets/img/people/james-turner.jpg
+  avatar_source: Bulbapedia File:James_Turner_2019.jpg
 - name: T.M.
   slug: t-m
 - name: 田谷正夫
   slug: taya-masao
+  aliases:
+  - 田谷正夫
 - name: M.I.
   slug: m-i
 - name: A.I.
@@ -361,26 +609,64 @@
   slug: k-k
 - name: 凯尔·希利亚德
   slug: kai-er-xi-li-ya-de
+  aliases:
+  - Kyle Hilliard
 - name: 川岛优志
   slug: kawashima-masashi
+  aliases:
+  - 川島優志
+  - Masashi Kawashima
 - name: 菜花健作
   slug: nabana-kensaku
+  aliases:
+  - 菜花健作
+  - Kensaku Nabana
+  portraits:
+  - image: /assets/img/people/nabana-kensaku-2018.jpg
+    year: 2018
+    source: Bulbapedia File:Kensaku_Nabana_2018.png
+  avatar: /assets/img/people/nabana-kensaku.jpg
+  avatar_source: Bulbapedia File:Kensaku_Nabana_2018.png
 - name: 克里斯·塔普塞尔
   slug: ke-li-si-ta-pu-sai-er
+  aliases:
+  - Chris Tapsell
 - name: K.M.
   slug: k-m
 - name: T.K.
   slug: t-k
 - name: 北村一树
-  slug: bei-cun-yi-shu
+  slug: kitamura-kazuki
+  aliases:
+  - 北村一樹
 - name: 岩本翔
-  slug: yan-ben-xiang
+  slug: iwamoto-sho
+  aliases:
+  - 岩本翔
 - name: 藤原
   slug: fujiwara
+  portraits:
+  - image: /assets/img/people/fujiwara-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑 1996 P.141（藤原基史）
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
+  avatar: /assets/img/people/fujiwara.jpg
+  avatar_source: ポケットモンスター図鑑 1996 P.141（藤原基史）
 - name: 宫本茂
-  slug: gong-ben-mao
+  slug: miyamoto-shigeru
+  aliases:
+  - 宮本茂
+  - Shigeru Miyamoto
+  portraits:
+  - image: /assets/img/people/miyamoto-shigeru-2015.jpg
+    year: 2015
+    source: Wikimedia Commons File:Shigeru Miyamoto 20150610 (cropped).jpg · Minister's Secretariat Personnel Division · CC BY 4.0
+  avatar: /assets/img/people/miyamoto-shigeru.jpg
+  avatar_source: Wikimedia Commons File:Shigeru Miyamoto 20150610 (cropped).jpg · Minister's Secretariat Personnel Division · CC BY 4.0
 - name: 蒂姆·拉里默
   slug: di-mu-la-li-mo
+  aliases:
+  - Tim Larimer
 - name: 横田孝司
   slug: heng-tian-xiao-si
 - name: 入江胜义
@@ -404,9 +690,20 @@
 - name: 折尾
   slug: zhe-wei
 - name: 松本梨香
-  slug: song-ben-li-xiang
+  slug: matsumoto-rica
+  aliases:
+  - 松本梨香
+  - Rica Matsumoto
+  portraits:
+  - image: /assets/img/people/matsumoto-rica-rica-matsumoto.jpg
+    source: Bulbapedia File:Rica_Matsumoto.jpg
+  avatar: /assets/img/people/matsumoto-rica.jpg
+  avatar_source: Bulbapedia File:Rica_Matsumoto.jpg
 - name: 武上纯希
-  slug: wu-shang-chun-xi
+  slug: takegami-junki
+  aliases:
+  - 武上純希
+  - Junki Takegami
 - name: 正辉
   slug: zheng-hui
   kind: character
@@ -488,7 +785,23 @@
   slug: ju-li-fu-ren
   kind: figure
 - name: 松岛贤二
-  slug: song-dao-xian-er
+  slug: matsushima-kenji
+  aliases:
+  - 松島賢二
+  - Kenji Matsushima
+  portraits:
+  - image: /assets/img/people/matsushima-kenji-2009.jpg
+    year: 2009
+    source: Game Freak 员工博客 2009-12-18「ＨＧ・ＳＳ 語っちゃいます！ 最終回」
+    post: 2009-12-18-gamefreak-staff-160
+  - image: /assets/img/people/matsushima-kenji-2010.jpg
+    year: 2010
+    source: Game Freak 员工博客 2010-11-05「ブラック・ホワイトのつくりかた 第6回」
+    post: 2010-11-05-gamefreak-staff-206
+  - image: /assets/img/people/matsushima-kenji-kenji-matsushima.jpg
+    source: Bulbapedia File:Kenji_Matsushima.jpg
+  avatar: /assets/img/people/matsushima-kenji.jpg
+  avatar_source: Bulbapedia File:Kenji_Matsushima.jpg
 - name: 森昭人
   slug: sen-zhao-ren
 - name: 田上怜子
@@ -496,9 +809,20 @@
 - name: 后藤宏典
   slug: hou-teng-hong-dian
 - name: 三枝成彰
-  slug: san-zhi-cheng-zhang
+  slug: saegusa-shigeaki
+  aliases:
+  - 三枝成彰
+  - Shigeaki Saegusa
+  portraits:
+  - image: /assets/img/people/saegusa-shigeaki-2010.jpg
+    year: 2010
+    source: Wikimedia Commons File:Shigeaki Saegusa 20100124 1.jpg · Joi / Joi Ito · CC BY 2.0
+  avatar: /assets/img/people/saegusa-shigeaki.jpg
+  avatar_source: Wikimedia Commons File:Shigeaki Saegusa 20100124 1.jpg · Joi / Joi Ito · CC BY 2.0
 - name: 韦斯利·尹-普尔
   slug: wei-si-li-yin-pu-er
+  aliases:
+  - Wesley Yin-Poole
 - name: N
   slug: n
   kind: character
@@ -518,6 +842,11 @@
   aliases:
   - 足立美奈子
   - Minako Adachi
+  portraits:
+  - image: /assets/img/people/adachi-minako-minako-adachi.jpg
+    source: Bulbapedia File:Minako_Adachi.png
+  avatar: /assets/img/people/adachi-minako.jpg
+  avatar_source: Bulbapedia File:Minako_Adachi.png
 - name: AZ
   slug: az
   kind: character
@@ -531,7 +860,17 @@
   slug: sha-na
   kind: character
 - name: 廣部圭太
-  slug: guang-bu-gui-tai
+  slug: hirobe-keita
+  aliases:
+  - 廣部圭太
+  - Keita Hirobe
+  portraits:
+  - image: /assets/img/people/hirobe-keita-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用サイト インタビュー（2014）
+    post: 2014-05-01-interview-tpc-global-business-hirobe
+  avatar: /assets/img/people/hirobe-keita.jpg
+  avatar_source: 株式会社ポケモン 採用サイト インタビュー（2014）
 - name: T.W.
   slug: t-w
 - name: T.A.
@@ -539,9 +878,20 @@
 - name: M.K.
   slug: m-k
 - name: 远藤雅伸
-  slug: yuan-teng-ya-shen
+  slug: endo-masanobu
+  aliases:
+  - 遠藤雅伸
+  - Masanobu Endo
 - name: 横井军平
-  slug: heng-jing-jun-ping
+  slug: yokoi-gunpei
+  aliases:
+  - 横井軍平
+  - Gunpei Yokoi
+  portraits:
+  - image: /assets/img/people/yokoi-gunpei-gunpei-yokoi.jpg
+    source: Nintendo Wiki (Fandom) File:Gunpei_Yokoi.jpg
+  avatar: /assets/img/people/yokoi-gunpei.jpg
+  avatar_source: Nintendo Wiki (Fandom) File:Gunpei_Yokoi.jpg
 - name: 平信一
   slug: ping-xin-yi
 - name: M.O.
@@ -558,6 +908,8 @@
   slug: xiao-ye-xian-shi
 - name: 本·里夫斯
   slug: ben-li-fu-si
+  aliases:
+  - Ben Reeves
 - name: S.A.
   slug: s-a
 - name: 坂木
@@ -571,10 +923,18 @@
   aliases:
   - 宇都宮崇人
   - Takato Utsunomiya
+  portraits:
+  - image: /assets/img/people/utsunomiya-takato-takato-utsunomiya.jpg
+    source: Bulbapedia File:Takato_Utsunomiya.png
+  avatar: /assets/img/people/utsunomiya-takato.jpg
+  avatar_source: Bulbapedia File:Takato_Utsunomiya.png
 - name: 河本拓
   slug: he-ben-tuo
 - name: 高桥伸也
-  slug: gao-qiao-shen-ye
+  slug: takahashi-shinya
+  aliases:
+  - 高橋伸也
+  - Shinya Takahashi
 - name: 松崎翼
   slug: song-qi-yi
 - name: 齐田和生
@@ -586,15 +946,45 @@
 - name: M.Y.
   slug: m-y
 - name: 冈崎体育
-  slug: gang-qi-ti-yu
+  slug: okazaki-taiiku
+  aliases:
+  - 岡崎体育
+  - Okazaki Taiiku
 - name: 乌龟松本
   slug: wu-gui-song-ben
 - name: 木村KAELA
-  slug: mu-cun-kaela
+  slug: kimura-kaela
+  aliases:
+  - 木村カエラ
+  - Kaela Kimura
+  portraits:
+  - image: /assets/img/people/kimura-kaela-2014.jpg
+    year: 2014
+    source: Wikimedia Commons File:Kaela Kimura MTV VMAJ 2014.jpg · Norio NAKAYAMA from saitama, japan · CC BY-SA 2.0
+  avatar: /assets/img/people/kimura-kaela.jpg
+  avatar_source: Wikimedia Commons File:Kaela Kimura MTV VMAJ 2014.jpg · Norio NAKAYAMA from saitama, japan · CC BY-SA 2.0
 - name: 橘庆太
-  slug: ju-qing-tai
+  slug: tachibana-keita
+  aliases:
+  - 橘慶太
+  - Keita Tachibana
+  portraits:
+  - image: /assets/img/people/tachibana-keita-2020.jpg
+    year: 2020
+    source: Wikimedia Commons File:Keita Tachibana SOS47 20201222.jpg · 警察庁 · CC BY 4.0
+  avatar: /assets/img/people/tachibana-keita.jpg
+  avatar_source: Wikimedia Commons File:Keita Tachibana SOS47 20201222.jpg · 警察庁 · CC BY 4.0
 - name: 小林幸子
-  slug: xiao-lin-xing-zi
+  slug: kobayashi-sachiko
+  aliases:
+  - 小林幸子
+  - Sachiko Kobayashi
+  portraits:
+  - image: /assets/img/people/kobayashi-sachiko-2017.jpg
+    year: 2017
+    source: Wikimedia Commons File:Sachiko Kobayashi 2017 (35361318945).jpg · Tomohiro Ohtake · CC BY-SA 2.0
+  avatar: /assets/img/people/kobayashi-sachiko.jpg
+  avatar_source: Wikimedia Commons File:Sachiko Kobayashi 2017 (35361318945).jpg · Tomohiro Ohtake · CC BY-SA 2.0
 - name: 大洞翔一
   slug: da-dong-xiang-yi
 - name: 今村啓太
@@ -603,7 +993,10 @@
   slug: chuan-cun-yuan-qi
   kind: figure
 - name: 松本理恵
-  slug: song-ben-li-hui
+  slug: matsumoto-rie
+  aliases:
+  - 松本理恵
+  - Rie Matsumoto
 - name: R.S.
   slug: r-s
 - name: A.T.
@@ -646,3 +1039,5 @@
   slug: alfredo-spadafina
 - name: 赤木达也
   slug: chi-mu-da-ye-2
+  aliases:
+  - 赤木達也

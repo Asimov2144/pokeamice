@@ -134,12 +134,13 @@ window.pokeamiceSearchSeed = [
       {% elsif wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: wi.color2 | default: wi.color %}{% assign work_icons = work_icons | push: swatch %}
       {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
     {% endfor %}
-    {%- comment -%} portraits from _data/people.yml, one per name, "" when there is none {%- endcomment -%}
+    {%- comment -%} portraits from _data/people.yml, one per name - the one taken for this entry when there is one, "" when there is none {%- endcomment -%}
     {% assign avatars = "" | split: "" %}
     {% assign slugs = "" | split: "" %}
     {% for who in post.entities.people %}
       {% assign hit = site.data.people | where: "name", who | first %}
-      {% if hit.avatar %}{% assign avatars = avatars | push: hit.avatar %}{% else %}{% assign avatars = avatars | push: "" %}{% endif %}
+      {% include person-avatar.html who=who post=post %}
+      {% assign avatars = avatars | push: pa_src %}
       {% if hit.slug and hit.kind != "character" %}{% assign slugs = slugs | push: hit.slug %}{% else %}{% assign slugs = slugs | push: "" %}{% endif %}
     {% endfor %}
     {

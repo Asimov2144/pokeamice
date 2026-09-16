@@ -61,8 +61,8 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4/photo11.jpg
-  caption: 长畑 成一郎（株式会社Spike Chunsoft 开发制作人）
-  alt: 长畑成一郎肖像
+  caption: 岩田 聪（任天堂株式会社 代表取缔役社长）
+  alt: 岩田聪肖像
 - speaker: 长畑成一郎
   original: まず、自分で思うようにつくってみたうえで、スタッフが遊んでいる雰囲気を見たり、みんなの意見を聞いたりしながら、「ちょっとここは理不尽だな」とか、「ここはもうちょっと緊張感があってもいいかな」というところを、地道に、少しずつ調整していくんです。
   translation: 首先，由我自己按照理想中的构想搭建出一套雏形，接着仔细观察团队员工实际试玩时的神情与反应，倾听大家的真实意见，一边琢磨着“这里确实太不讲道理了”、“这处如果能更有紧张感一点会更好”，然后脚踏实地、一点一滴地反复微调打磨。

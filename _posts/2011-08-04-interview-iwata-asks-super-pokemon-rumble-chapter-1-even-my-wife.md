@@ -279,8 +279,8 @@ parallel_items:
   role: question
 - type: image
   image: /assets/img/interviews/2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo6.jpg
-  caption: 松村 直树（有限会社Ambrella 监督/总监）讲述周末潜行办公室调校数值的故事
-  alt: 松村直树谈数值调校
+  caption: 岩田 聪（任天堂 代表取缔役社长）
+  alt: 岩田聪肖像
 - speaker: 松村直树
   original: まあ・・・いつでもできると思っていて、「あとでいいや」と思っていたんです（笑）。とはいえ、あまりにも評判がよろしくないので、週末にこっそり会社に行って、しこしことバランスの調整をしたんです。
   translation: 咳……我总觉得调数值随时都能调，便总想着“留到后面再慢慢弄吧”（笑）。然而内部试玩反响实在太惨不忍睹了，逼得我在一个周末悄悄潜回空无一人的公司办公室，一个人埋头通宵达旦地死磕所有技能的前后摇、硬直与判定天平！

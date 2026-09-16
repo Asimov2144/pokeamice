@@ -7,8 +7,8 @@ permalink: /people/utsunomiya-takato/
 aliases:
 - 宇都宮崇人
 - Takato Utsunomiya
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/utsunomiya-takato.jpg
+avatar_source: Bulbapedia File:Takato_Utsunomiya.png
 search: false
 sitemap: true
 ---
