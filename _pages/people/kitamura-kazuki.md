@@ -6,8 +6,8 @@ slug: kitamura-kazuki
 permalink: /people/kitamura-kazuki/
 aliases:
 - 北村一樹
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/kitamura-kazuki.jpg
+avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
 search: false
 sitemap: true
 ---

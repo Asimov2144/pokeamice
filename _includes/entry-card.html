@@ -25,16 +25,10 @@ leaves out the summary and the topics (the home page packs its cards).
 {% if include.compact %}{% assign card_pub = card_pub | split: "（" | first | split: " (" | first | default: "" %}{% endif %}
 {% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | default: "暂无摘要" | strip_html | strip_newlines | truncate: 180 %}
 <article class="search-result-card search-result-card--{{ card_kind }}{% if include.compact %} search-result-card--compact{% endif %}">
-  {% if include.compact %}<div class="search-result-card__side">{% endif %}
   {% if card_cover != "" %}
     <a class="search-result-card__cover" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt="" loading="lazy" decoding="async"></a>
   {% else %}
     <a class="search-result-card__cover search-result-card__cover--blank" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><span>{{ card_pub | split: "（" | first | truncate: 12, "" }}</span><small>{{ cp.date | date: "%Y" }}</small></a>
-  {% endif %}
-  {% if include.compact %}
-    {%- comment -%} the works as marks under the cover: the HOME icon (both versions), else the version colours {%- endcomment -%}
-    {% if cp.entities.works %}<div class="search-result-card__marks">{% for w in cp.entities.works limit: 4 %}{% assign wi = site.data.works | where: "name", w | first %}{% assign wshort = w | remove_first: "宝可梦 " | remove_first: "宝可梦：" | remove_first: "Pokémon " %}{% if wi.icon %}<span class="is-mark" title="{{ w }}"><img src="{{ wi.icon }}" alt="{{ w }}" loading="lazy">{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% elsif wi.color %}<span class="is-mark is-mark--swatch" title="{{ w }}" style="background: linear-gradient(135deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"><b>{{ wshort | slice: 0, 2 }}</b></span>{% else %}<span class="is-mark is-mark--text" title="{{ w }}">{{ wshort | slice: 0, 2 }}</span>{% endif %}{% endfor %}</div>{% endif %}
-  </div>
   {% endif %}
   <div class="search-result-card__body">
     <div class="search-result-card__kicker"><span>{{ card_type }}</span>{% if card_pub != "" %}<span>{{ card_pub }}{% if cp.issue %} {{ cp.issue }}{% endif %}</span>{% endif %}</div>
@@ -47,6 +41,6 @@ leaves out the summary and the topics (the home page packs its cards).
       </div>
     {% endif %}
     {% if cp.topics and include.compact != true %}<div class="search-result-card__topics">{% for tp in cp.topics limit: 4 %}<span class="is-topic">{{ tp }}</span>{% endfor %}</div>{% endif %}
-    <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "deepseek" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}</div>
+    <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "deepseek" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}{% if include.compact and cp.entities.works.size > 0 %}<span class="search-result-card__works" aria-label="提到的作品">{% for w in cp.entities.works limit: 4 %}{% assign wi = site.data.works | where: "name", w | first %}{% assign wshort = w | remove_first: "宝可梦 " | remove_first: "宝可梦：" | remove_first: "Pokémon " %}{% if wi.icon %}<i class="is-mark" title="{{ w }}"><img src="{{ wi.icon }}" alt="{{ w }}" loading="lazy">{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</i>{% elsif wi.mascot %}<i class="is-mark is-mark--mascot" title="{{ w }}"{% if wi.color %} style="background: linear-gradient(135deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"{% endif %}><img src="{{ wi.mascot }}" alt="{{ w }}" loading="lazy"></i>{% elsif wi.color %}<i class="is-mark is-mark--swatch" title="{{ w }}" style="background: linear-gradient(135deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"><b>{{ wshort | slice: 0, 2 }}</b></i>{% else %}<i class="is-mark is-mark--text" title="{{ w }}">{{ wshort | slice: 0, 2 }}</i>{% endif %}{% endfor %}</span>{% endif %}</div>
   </div>
 </article>

@@ -6,8 +6,8 @@ slug: chi-mu-da-ye-2
 permalink: /people/chi-mu-da-ye-2/
 aliases:
 - 赤木達也
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/chi-mu-da-ye-2.jpg
+avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
 search: false
 sitemap: true
 ---

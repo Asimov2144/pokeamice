@@ -145,6 +145,10 @@
   - image: /assets/img/people/ichinose-go-2012.jpg
     year: 2012
     source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/ichinose-go-2023.jpg
+    year: 2023
+    source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
+    post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   - image: /assets/img/people/ichinose-go-go-ichinose.jpg
     source: Nintendo Wiki (Fandom) File:Go_Ichinose.png
 - name: 佐藤仁美
@@ -457,10 +461,22 @@
   - 前澤圭一
   - Keiichi Maezawa
   portraits:
+  - image: /assets/img/people/maezawa-keiichi-2022.jpg
+    year: 2022
+    source: CEDiL 講演者プロフィール（CEDEC 2022 セッション 2586）
+    post: 2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline
+  - image: /assets/img/people/maezawa-keiichi-2023.jpg
+    year: 2023
+    source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2782）
+    post: 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza
+  - image: /assets/img/people/maezawa-keiichi-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
+    post: 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
   - image: /assets/img/people/maezawa-keiichi-keiichi-maezawa.jpg
     source: Nintendo Wiki (Fandom) File:Keiichi_Maezawa.jpg
   avatar: /assets/img/people/maezawa-keiichi.jpg
-  avatar_source: Nintendo Wiki (Fandom) File:Keiichi_Maezawa.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
 - name: 小刚
   slug: xiao-gang
   kind: character
@@ -511,15 +527,26 @@
   slug: munakata-kai
   aliases:
   - 宗像快
+  portraits:
+  - image: /assets/img/people/munakata-kai-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
+    post: 2026-07-22-interview-cedec-2026-battle-system-deck
+  avatar: /assets/img/people/munakata-kai.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
 - name: 小幡敏宏
   slug: obata-toshihiro
   aliases:
   - 小幡敏宏
   portraits:
+  - image: /assets/img/people/obata-toshihiro-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
+    post: 2026-07-22-interview-cedec-2026-battle-system-deck
   - image: /assets/img/people/obata-toshihiro-toshihiro-obata.jpg
     source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
   avatar: /assets/img/people/obata-toshihiro.jpg
-  avatar_source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
 - name: 渡边哲也
   slug: watanabe-tetsuya
   aliases:
@@ -654,10 +681,24 @@
   slug: kitamura-kazuki
   aliases:
   - 北村一樹
+  portraits:
+  - image: /assets/img/people/kitamura-kazuki-2023.jpg
+    year: 2023
+    source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
+    post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
+  avatar: /assets/img/people/kitamura-kazuki.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
 - name: 岩本翔
   slug: iwamoto-sho
   aliases:
   - 岩本翔
+  portraits:
+  - image: /assets/img/people/iwamoto-sho-2023.jpg
+    year: 2023
+    source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
+    post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
+  avatar: /assets/img/people/iwamoto-sho.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
 - name: 藤原
   slug: fujiwara
   portraits:
@@ -1054,12 +1095,36 @@
   slug: ling-ye-wan-li-nai
 - name: 髙山玲央名
   slug: gao-shan-ling-yang-ming
+  portraits:
+  - image: /assets/img/people/gao-shan-ling-yang-ming-2023.jpg
+    year: 2023
+    source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2792）
+  - image: /assets/img/people/gao-shan-ling-yang-ming-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）
+    post: 2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers
+  avatar: /assets/img/people/gao-shan-ling-yang-ming.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3341）
 - name: Alfredo Spadafina
   slug: alfredo-spadafina
+  portraits:
+  - image: /assets/img/people/alfredo-spadafina-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
+    post: 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
+  avatar: /assets/img/people/alfredo-spadafina.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
 - name: 赤木达也
   slug: chi-mu-da-ye-2
   aliases:
   - 赤木達也
+  portraits:
+  - image: /assets/img/people/chi-mu-da-ye-2-2026.jpg
+    year: 2026
+    source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
+    post: 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
+  avatar: /assets/img/people/chi-mu-da-ye-2.jpg
+  avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
 - name: 寺田佑贵
   slug: si-tian-you-gui
 - name: T.T.

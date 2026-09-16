@@ -343,33 +343,42 @@
     font-size: 0.66rem;
   }
 
-  /* the left column: the cover, and under it the works as marks - the space the
-     upright cover leaves free */
-  .search-result-card__side {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    min-width: 0;
-  }
-
-  .search-result-card__marks {
+  /* the works the entry mentions, in the facts row beside the date */
+  .search-result-card__facts {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 8px;
+  }
+
+  .search-result-card__works {
+    display: inline-flex;
+    align-items: center;
     gap: 3px;
-    width: 60px;
+    margin-left: auto;
+    padding-left: 8px;
+    border-left: 1px solid #e6ebf0;
+
+    &::before {
+      content: "作品";
+      margin-right: 2px;
+      color: #9aa5b1;
+      font-size: 0.6rem;
+    }
   }
 
   .is-mark {
     display: inline-flex;
     flex: none;
     align-items: center;
-    gap: 1px;
     height: 20px;
+    font-style: normal;
 
     img {
       width: 20px;
       height: 20px;
       border-radius: 5px;
+      object-fit: contain;
     }
 
     img + img {
@@ -377,14 +386,30 @@
     }
   }
 
+  .is-mark--mascot {
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
+    background: #e6ebf0;
+
+    img {
+      width: 20px;
+      height: 20px;
+      border-radius: 0;
+      filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.5));
+    }
+  }
+
   .is-mark--swatch,
   .is-mark--text {
     justify-content: center;
-    width: 20px;
-    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    border-radius: 6px;
     background: #e6ebf0;
     color: #fff;
-    font-size: 0.5rem;
+    font-size: 0.52rem;
     font-weight: 700;
     line-height: 1;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
@@ -867,10 +892,6 @@
     .search-result-card__cover {
       width: 56px;
       height: 76px;
-    }
-
-    .search-result-card__marks {
-      width: 56px;
     }
   }
 }

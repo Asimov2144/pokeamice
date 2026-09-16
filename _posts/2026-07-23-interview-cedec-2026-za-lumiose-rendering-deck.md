@@ -55,7 +55,7 @@ session_abstract_zh: '《Pokémon LEGENDS Z-A》中焕然一新的“密阿雷�
 
   此外也会谈及面向 Nintendo Switch 2 Edition 的对应工作。'
 speakers:
-- name: 前澤 圭一
+- name: 前澤圭一
   org: 株式会社ゲームフリーク
   dept: CGテクノロジーラボ
   role: ディレクター
@@ -63,7 +63,7 @@ speakers:
   org: 株式会社ゲームフリーク
   dept: CGテクノロジーラボ 基盤技術セクション 技術展開チーム
   role: リーダー
-- name: 赤木 達也
+- name: 赤木達也
   org: 株式会社ゲームフリーク
   dept: CGテクノロジーラボ ワークフローセクション
   role: セクションディレクター
@@ -72,7 +72,8 @@ entities:
   - 前泽圭一
   - Alfredo Spadafina
   - 赤木达也
-  works: []
+  works:
+  - Pokémon LEGENDS Z-A
   organizations:
   - 株式会社ゲームフリーク
 workflow:

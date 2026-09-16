@@ -46,14 +46,15 @@ session_abstract: '過去のポケモンシリーズの開発ではCI/CDをパ�
   本セッションでは、CI/CDにKubernetesを導入することのメリット・デメリット、Windowsコンテナを導入する上で直面した課題とその課題をどのように乗り越えたかを事例としてご紹介します。'
 session_abstract_zh: 过去《宝可梦》系列的开发中，CI/CD 构建在公有云的虚拟机（Windows Server）上，但在费用与构建环境并行化方面存在课题。在 2025 年 10 月 16 日全球同步发售的《宝可梦传说 Z-A》开发中，为解决这些课题，我们在 CI/CD 中引入了 Kubernetes 与 Windows 容器。活用 Windows 容器的案例很少，经历了各种试错，但我们一直运用到了发售，并改善了当初的课题。本讲演将以实例形式介绍在 CI/CD 中引入 Kubernetes 的优缺点、引入 Windows 容器时直面的课题以及如何克服这些课题。
 speakers:
-- name: 髙山 玲央名
+- name: 髙山玲央名
   org: 株式会社ゲームフリーク
   dept: 研究開発部
   role: プログラマ
 entities:
   people:
   - 髙山玲央名
-  works: []
+  works:
+  - Pokémon LEGENDS Z-A
   organizations:
   - 株式会社ゲームフリーク
 workflow:

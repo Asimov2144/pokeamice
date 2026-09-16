@@ -48,7 +48,7 @@ pages, proofreading state. The search page inlines it; the home page fetches it 
     {% for w in post.entities.works %}
       {% assign wi = site.data.works | where: "name", w | first %}
       {% if wi.icon %}{% assign pair = wi.icon | append: "|" | append: wi.icon2 %}{% assign work_icons = work_icons | push: pair %}
-      {% elsif wi.color %}{% assign c2 = wi.color2 | default: wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: c2 %}{% assign work_icons = work_icons | push: swatch %}
+      {% elsif wi.color %}{% assign c2 = wi.color2 | default: wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: c2 %}{% if wi.mascot %}{% assign swatch = swatch | append: "|" | append: wi.mascot %}{% endif %}{% assign work_icons = work_icons | push: swatch %}
       {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
     {% endfor %}
     {%- comment -%} portraits from _data/people.yml, one per name - the one taken for this entry when there is one, "" when there is none {%- endcomment -%}

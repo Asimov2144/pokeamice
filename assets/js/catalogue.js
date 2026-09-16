@@ -193,16 +193,20 @@
         const cls = `is-person${av ? " has-avatar" : ""}`;
         return slug ? `<a class="${cls}" href="${escapeHtml(PEOPLE_BASE + slug + "/")}">${inner}</a>` : `<span class="${cls}">${inner}</span>`;
       }).join("");
+      // the works the entry mentions, beside the date: the HOME icon, else the cover
+      // legendary on the version colours, else a coloured tile with the short name
       const marks = compact ? (item.works || []).slice(0, 4).map(function(name, i) {
         const ic = (item.work_icons || [])[i] || "";
         const short = String(name).replace(/^宝可梦[ ：]/, "").replace(/^Pokémon /, "").slice(0, 2);
         if (ic.indexOf("color:") === 0) {
           const cs = ic.slice(6).split("|");
-          return `<span class="is-mark is-mark--swatch" title="${escapeHtml(name)}" style="background: linear-gradient(135deg, ${escapeHtml(cs[0])} 50%, ${escapeHtml(cs[1] || cs[0])} 50%)"><b>${escapeHtml(short)}</b></span>`;
+          const grad = `background: linear-gradient(135deg, ${escapeHtml(cs[0])} 50%, ${escapeHtml(cs[1] || cs[0])} 50%)`;
+          if (cs[2]) return `<i class="is-mark is-mark--mascot" title="${escapeHtml(name)}" style="${grad}"><img src="${escapeHtml(cs[2])}" alt="${escapeHtml(name)}" loading="lazy"></i>`;
+          return `<i class="is-mark is-mark--swatch" title="${escapeHtml(name)}" style="${grad}"><b>${escapeHtml(short)}</b></i>`;
         }
         const icons = ic.split("|").filter(Boolean);
-        if (!icons.length) return `<span class="is-mark is-mark--text" title="${escapeHtml(name)}">${escapeHtml(short)}</span>`;
-        return `<span class="is-mark" title="${escapeHtml(name)}">${icons.map(function(u, j) { return `<img src="${escapeHtml(u)}" alt="${j ? "" : escapeHtml(name)}" loading="lazy">`; }).join("")}</span>`;
+        if (!icons.length) return `<i class="is-mark is-mark--text" title="${escapeHtml(name)}">${escapeHtml(short)}</i>`;
+        return `<i class="is-mark" title="${escapeHtml(name)}">${icons.map(function(u, j) { return `<img src="${escapeHtml(u)}" alt="${j ? "" : escapeHtml(name)}" loading="lazy">`; }).join("")}</i>`;
       }).join("") : "";
       const works = compact ? "" : (item.works || []).slice(0, 3).map(function(name, i) {
         const ic = (item.work_icons || [])[i] || "";
@@ -220,14 +224,14 @@
       const topics = compact ? "" : chips(item.topics, "is-topic", 4);
       return `
         <article class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)}${compact ? " search-result-card--compact" : ""}">
-          ${compact ? `<div class="search-result-card__side">${coverBlock(item)}${marks ? `<div class="search-result-card__marks">${marks}</div>` : ""}</div>` : coverBlock(item)}
+          ${coverBlock(item)}
           <div class="search-result-card__body">
             <div class="search-result-card__kicker">${kicker}</div>
             <h2><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h2>
             ${compact ? "" : `<p>${escapeHtml(lead)}</p>`}
             ${(people || works) ? `<div class="search-result-card__tags">${people}${works}</div>` : ""}
             ${topics ? `<div class="search-result-card__topics">${topics}</div>` : ""}
-            <div class="search-result-card__facts">${facts.map(function(v) { return `<span>${escapeHtml(v)}</span>`; }).join("")}</div>
+            <div class="search-result-card__facts">${facts.map(function(v) { return `<span>${escapeHtml(v)}</span>`; }).join("")}${marks ? `<span class="search-result-card__works" aria-label="提到的作品">${marks}</span>` : ""}</div>
           </div>
         </article>
       `;
