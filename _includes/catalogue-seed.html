@@ -7,21 +7,17 @@ pages, proofreading state. The search page inlines it; the home page fetches it 
 {% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
   {% for post in searchable_posts %}
     {% assign archive_type = post.archive_type | default: post.resource_type %}
-    {% assign type_label = archive_type %}
-    {% if type_label == "interview_translation" %}
-      {% assign type_label = "访谈翻译" %}
-    {% elsif type_label == "scan_translation" %}
+    {%- comment -%} the same rule the home page counts with: a scan, else an interview layout, else a blog, else a document, else an article {%- endcomment -%}
+    {% if archive_type == "scan_translation" %}
       {% assign type_label = "扫描翻译" %}
-    {% elsif type_label == "gamefreak_director_column" or type_label == "gamefreak_masuda_lineblog" or type_label == "gamefreak_legacy_blog" %}
+    {% elsif post.layout == "interview-editorial" or post.layout == "parallel-translation" or archive_type == "interview_translation" or post.categories contains "访谈翻译" %}
+      {% assign type_label = "访谈翻译" %}
+    {% elsif archive_type == "gamefreak_director_column" or archive_type == "gamefreak_masuda_lineblog" or archive_type == "gamefreak_legacy_blog" %}
       {% assign type_label = "Game Freak 博客" %}
-    {% elsif type_label == nil or type_label == "" %}
-      {% if post.categories contains "访谈翻译" %}
-        {% assign type_label = "访谈翻译" %}
-      {% elsif post.categories contains "文档" %}
-        {% assign type_label = "文档" %}
-      {% else %}
-        {% assign type_label = "文章" %}
-      {% endif %}
+    {% elsif post.categories contains "文档" %}
+      {% assign type_label = "文档" %}
+    {% else %}
+      {% assign type_label = "文章" %}
     {% endif %}
     {% assign source_title = post.source.title | default: post.publication | default: post.source.publication | default: "" %}
     {% assign search_title = post.gf_entry_title | default: post.gf_translation_title | default: post.title %}
@@ -52,7 +48,7 @@ pages, proofreading state. The search page inlines it; the home page fetches it 
     {% for w in post.entities.works %}
       {% assign wi = site.data.works | where: "name", w | first %}
       {% if wi.icon %}{% assign pair = wi.icon | append: "|" | append: wi.icon2 %}{% assign work_icons = work_icons | push: pair %}
-      {% elsif wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: wi.color2 | default: wi.color %}{% assign work_icons = work_icons | push: swatch %}
+      {% elsif wi.color %}{% assign c2 = wi.color2 | default: wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: c2 %}{% assign work_icons = work_icons | push: swatch %}
       {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
     {% endfor %}
     {%- comment -%} portraits from _data/people.yml, one per name - the one taken for this entry when there is one, "" when there is none {%- endcomment -%}

@@ -72,7 +72,7 @@ layout: default
       {%- comment -%} the catalogue: as many entries across as the width allows {%- endcomment -%}
       <div class="search-lab__main">
         <div class="search-lab__ai-output" id="deepseekOutput" hidden></div>
-        <div class="search-lab__results" id="filteredSearchResults" data-page-size="60"></div>
+        <div class="search-lab__results" id="filteredSearchResults" data-page-size="60" data-catalogue="{{ '/assets/js/catalogue.json' | relative_url }}"></div>
         <div class="search-lab__more">
           <button type="button" id="searchMore" hidden>显示更多</button>
         </div>

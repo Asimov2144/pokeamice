@@ -14,13 +14,13 @@ avatar. Leaves the path in `pa_src` ("" when the library has no picture).
     {%- assign pa_gap = 6 -%}
     {%- for ph in pa_hit.portraits -%}
       {%- if ph.post and include.post.path contains ph.post -%}
-        {%- assign pa_src = ph.image -%}
+        {%- assign pa_src = ph.image | default: "" -%}
         {%- break -%}
       {%- endif -%}
       {%- if ph.year -%}
         {%- assign pa_d = ph.year | minus: pa_year -%}
         {%- if pa_d < 0 -%}{%- assign pa_d = 0 | minus: pa_d -%}{%- endif -%}
-        {%- if pa_d < pa_gap -%}{%- assign pa_gap = pa_d -%}{%- assign pa_src = ph.image -%}{%- endif -%}
+        {%- if pa_d < pa_gap -%}{%- assign pa_gap = pa_d -%}{%- assign pa_src = ph.image | default: "" -%}{%- endif -%}
       {%- endif -%}
     {%- endfor -%}
   {%- endif -%}

@@ -33,6 +33,7 @@
     let items = (window.pokeamiceSearchSeed || []).slice();
     let loaded = items.length > 0;
     let loading = null;
+    let pendingParams = null;
     let lastResults = [];
     let shown = PAGE;
     let touched = false;
@@ -108,9 +109,11 @@
       }).join("");
     }
 
-    function setSelect(select, value) {
+    function setSelect(select, value, allowNew) {
       if (!select) return;
-      if (value && !Array.from(select.options).some(function(o) { return o.value === value; })) {
+      const known = !value || Array.from(select.options).some(function(o) { return o.value === value; });
+      if (!known) {
+        if (!allowNew) return;               // a stale link names a person or work the library no longer has
         const o = document.createElement("option");
         o.value = value; o.textContent = value;
         select.appendChild(o);
@@ -137,11 +140,17 @@
       if (filterEls.year) filterEls.year.innerHTML = optionList(Array.from(years).sort().reverse(), "全部年份");
       if (filterEls.source) filterEls.source.innerHTML = optionList(Array.from(sources).sort(), "全部来源");
       if (filterEls.type) filterEls.type.innerHTML = optionList(Array.from(types).sort(), "全部类型");
-      setSelect(filterEls.person, keep.person);
-      setSelect(filterEls.work, keep.work);
-      setSelect(filterEls.year, keep.year);
-      setSelect(filterEls.source, keep.source);
-      setSelect(filterEls.type, keep.type);
+      setSelect(filterEls.person, keep.person, true);
+      setSelect(filterEls.work, keep.work, true);
+      setSelect(filterEls.year, keep.year, true);
+      setSelect(filterEls.source, keep.source, true);
+      setSelect(filterEls.type, keep.type, true);
+      if (pendingParams) {
+        ["type", "work", "person", "year", "source"].forEach(function(k) {
+          if (pendingParams.get(k) && filterEls[k]) setSelect(filterEls[k], pendingParams.get(k), false);
+        });
+        pendingParams = null;
+      }
     }
 
     function chips(values, cls, limit) {
@@ -225,7 +234,7 @@
     }
 
     function render() {
-      if (!loaded) { load().then(render); return; }
+      if (!loaded) { load().then(function() { if (loaded) render(); }); return; }
       const filters = getFilters();
       lastResults = items.filter(function(item) { return matches(item, filters); });
       const sort = sortEl ? sortEl.value : "date-desc";
@@ -237,27 +246,36 @@
       if (status) status.textContent = `显示 ${Math.min(shown, lastResults.length)} / ${lastResults.length} 条，库内共 ${items.length} 条`;
       if (moreButton) moreButton.hidden = lastResults.length <= shown;
       resultList.dataset.prerendered = "false";
+      dimButtons.forEach(function(b) {
+        const el = filterEls[b.dataset.dim];
+        b.classList.toggle("is-on", !!el && el.value === b.dataset.value);
+      });
       if (!lastResults.length) {
         resultList.innerHTML = "<p class='search-lab__empty'>没有找到匹配结果。可以放宽筛选，或先只按年份、类型过滤。</p>";
         return;
       }
       resultList.innerHTML = lastResults.slice(0, shown).map(card).join("");
-      dimButtons.forEach(function(b) {
-        const el = filterEls[b.dataset.dim];
-        b.classList.toggle("is-on", !!el && el.value === b.dataset.value);
-      });
     }
 
     function load() {
       if (loaded) return Promise.resolve();
       if (loading) return loading;
+      if (!dataUrl) {
+        if (status && touched) status.textContent = "目录读取失败，请刷新重试。";
+        return Promise.resolve();
+      }
       if (status && touched) status.textContent = "正在读取目录...";
-      loading = fetch(dataUrl, { credentials: "same-origin" }).then(function(r) { return r.json(); }).then(function(data) {
+      // one attempt per reader action: a failure is reported and waits for the next action,
+      // it never retries on its own
+      loading = fetch(dataUrl, { credentials: "same-origin" }).then(function(r) {
+        if (!r.ok) throw new Error(String(r.status));
+        return r.json();
+      }).then(function(data) {
         items = Array.isArray(data) ? data : [];
         loaded = true;
         populateFilters();
       }).catch(function() {
-        if (status) status.textContent = "目录读取失败，请刷新重试。";
+        if (status && touched) status.textContent = "目录读取失败，请刷新重试。";
         loading = null;
       });
       return loading;
@@ -280,9 +298,12 @@
       const params = new URLSearchParams(window.location.search);
       let any = false;
       if (params.get("q")) { queryInput.value = params.get("q"); any = true; }
-      ["type", "work", "person", "year", "source"].forEach(function(k) {
-        if (params.get(k) && filterEls[k]) { setSelect(filterEls[k], params.get(k)); any = true; }
-      });
+      const keys = ["type", "work", "person", "year", "source"].filter(function(k) { return params.get(k) && filterEls[k]; });
+      if (keys.length) {
+        any = true;
+        if (loaded) keys.forEach(function(k) { setSelect(filterEls[k], params.get(k), false); });
+        else pendingParams = params;       // applied once the options exist
+      }
       return any;
     }
 
@@ -306,7 +327,12 @@
         if (!el) return;
         event.preventDefault();
         const next = el.value === button.dataset.value ? "" : button.dataset.value;
-        setSelect(el, next);
+        // a tile on the shelf opens a collection: it starts from a clean slate, a panel button narrows
+        if (button.closest("[data-topics]")) {
+          queryInput.value = "";
+          Object.values(filterEls).forEach(function(select) { if (select) select.value = ""; });
+        }
+        setSelect(el, next, true);
         change();
         const anchor = document.getElementById("overview") || resultList;
         if (window.matchMedia && window.matchMedia("(max-width: 900px)").matches) anchor.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -348,17 +374,16 @@
       });
     }
 
-    const fromUrl = applyQueryParams();
     if (loaded) {
       populateFilters();
       applyQueryParams();
       render();
-    } else if (fromUrl || !prerendered) {
-      load().then(render);
+    } else if (applyQueryParams() || !prerendered) {
+      load().then(function() { if (loaded) render(); });
     } else {
       // the first cards are on the page already; fetch the rest once the page has settled,
       // so the first filter the reader touches answers at once
-      const idle = window.requestIdleCallback || function(fn) { return setTimeout(fn, 1200); };
+      const idle = window.requestIdleCallback ? function(fn) { window.requestIdleCallback(fn, { timeout: 4000 }); } : function(fn) { setTimeout(fn, 1200); };
       idle(function() { if (!touched) load(); });
     }
   }
@@ -372,7 +397,7 @@
     const step = function() {
       if (hold || row.scrollWidth <= row.clientWidth + 4) return;
       const chip = row.querySelector("a");
-      const by = chip ? chip.getBoundingClientRect().width + 6 : 120;
+      const by = chip ? chip.getBoundingClientRect().width + 8 : 180;
       if (row.scrollLeft + row.clientWidth >= row.scrollWidth - 2) row.scrollTo({ left: 0, behavior: "smooth" });
       else row.scrollBy({ left: by, behavior: "smooth" });
     };

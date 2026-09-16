@@ -22,7 +22,7 @@ leaves out the summary and the topics (the home page packs its cards).
   {% if card_pics.first.image %}{% assign card_cover = card_pics.first.image %}{% endif %}
 {% endif %}
 {% assign card_pub = cp.publication | default: cp.source.publication | default: cp.source.title | default: "" %}
-{% if include.compact %}{% assign card_pub = card_pub | split: "（" | first | split: " (" | first %}{% endif %}
+{% if include.compact %}{% assign card_pub = card_pub | split: "（" | first | split: " (" | first | default: "" %}{% endif %}
 {% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | default: "暂无摘要" | strip_html | strip_newlines | truncate: 180 %}
 <article class="search-result-card search-result-card--{{ card_kind }}{% if include.compact %} search-result-card--compact{% endif %}">
   {% if include.compact %}<div class="search-result-card__side">{% endif %}
@@ -47,6 +47,6 @@ leaves out the summary and the topics (the home page packs its cards).
       </div>
     {% endif %}
     {% if cp.topics and include.compact != true %}<div class="search-result-card__topics">{% for tp in cp.topics limit: 4 %}<span class="is-topic">{{ tp }}</span>{% endfor %}</div>{% endif %}
-    <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}</div>
+    <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "deepseek" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}</div>
   </div>
 </article>

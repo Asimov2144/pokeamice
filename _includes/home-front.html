@@ -8,17 +8,16 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
 (years, people, works) stands in for the sidebar's panel.
 {%- endcomment -%}
 {% assign front_posts = site.posts | where_exp: "post", "post.search != false" %}
-{% assign front_scans = front_posts | where: "archive_type", "scan_translation" %}
-{% assign front_interviews = front_posts | where_exp: "post", "post.layout == 'interview-editorial' or post.layout == 'parallel-translation'" %}
 {% assign front_by_year = front_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
 {% assign front_first_year = front_by_year | first %}
 {% assign front_last_year = front_by_year | last %}
+{% include home-dimensions.html strip=true count_only=true %}
 <section class="front" aria-label="资料目录">
   <form class="front__bar" role="search" data-search-lab-form>
     <i class="fas fa-search" aria-hidden="true"></i>
     <input type="search" id="filteredSearchQuery" placeholder="标题、正文、人物、作品、来源…" autocomplete="off" aria-label="站内检索">
     <button type="submit">检索</button>
-    <span class="front__count" aria-label="收录规模"><b>{{ front_posts | size }}</b> 条 · 访谈 <b>{{ front_interviews | size }}</b> · 扫描 <b>{{ front_scans | size }}</b> · {{ front_first_year.name }}–{{ front_last_year.name }}</span>
+    <span class="front__count" aria-label="收录规模"><b>{{ front_posts | size }}</b> 条 · 访谈 <b>{{ dims_n_interview }}</b> · 扫描 <b>{{ dims_n_scan }}</b> · {{ front_first_year.name }}–{{ front_last_year.name }}</span>
   </form>
   {% include home-topics.html %}
 

@@ -113,12 +113,12 @@
   }
 }
 
-/* ---- the collection shelf under the bar: chips that scroll, and drift when left alone ---- */
+/* ---- the collection shelf under the bar: picture tiles that scroll, and drift when left alone ---- */
 .front__topics {
   display: flex;
-  gap: 6px;
-  margin: -4px 0 0;
-  padding: 2px 2px 4px;
+  gap: 8px;
+  margin: -2px 0 0;
+  padding: 2px 2px 6px;
   overflow-x: auto;
   scroll-snap-type: x proximity;
   scrollbar-width: none;
@@ -126,43 +126,102 @@
   &::-webkit-scrollbar {
     display: none;
   }
-
-  a {
-    display: inline-flex;
-    flex: 0 0 auto;
-    align-items: center;
-    gap: 6px;
-    padding: 4px 10px 4px 5px;
-    border: 1px solid #dfe5eb;
-    border-radius: 999px;
-    background: #fff;
-    color: #26323f;
-    font-size: 0.76rem;
-    line-height: 1.2;
-    text-decoration: none;
-    white-space: nowrap;
-    scroll-snap-align: start;
-
-    b {
-      color: #7b8794;
-      font-size: 0.68rem;
-      font-weight: 600;
-    }
-
-    &:hover {
-      border-color: rgba(189, 75, 75, 0.4);
-      color: #a83f3f;
-    }
-  }
 }
 
-.front__topic-kind {
-  padding: 1px 6px;
-  border-radius: 999px;
-  background: #eef2f6;
-  color: #5b6a7a;
-  font-size: 0.62rem;
-  font-weight: 700;
+.front__tile {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  width: 176px;
+  height: 98px;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #26323f;
+  color: #fff;
+  text-decoration: none;
+  scroll-snap-align: start;
+  box-shadow: 0 1px 2px rgba(20, 30, 40, 0.12);
+
+  img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+  }
+
+  /* the picture is a ground for the title: darker along the bottom and the left */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(12, 18, 26, 0.86) 0%, rgba(12, 18, 26, 0.42) 48%, rgba(12, 18, 26, 0.06) 100%);
+  }
+
+  .front__tile-kind,
+  strong,
+  b {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .front__tile-kind {
+    top: 7px;
+    left: 8px;
+    padding: 1px 7px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.86);
+    color: #26323f;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  strong {
+    right: 8px;
+    bottom: 8px;
+    left: 9px;
+    overflow: hidden;
+    font-size: 0.88rem;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-overflow: ellipsis;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 0 10px rgba(0, 0, 0, 0.35);
+    white-space: nowrap;
+  }
+
+  b {
+    top: 7px;
+    right: 8px;
+    padding: 1px 6px;
+    border-radius: 999px;
+    background: rgba(12, 18, 26, 0.6);
+    color: #fff;
+    font-size: 0.62rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  &:hover {
+    color: #fff;
+
+    img {
+      transform: scale(1.05);
+    }
+
+    strong {
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+    }
+  }
+
+  &:focus-visible {
+    outline: 2px solid #9fd7ff;
+    outline-offset: 2px;
+  }
 }
 
 /* ---- the rail and the cards ---- */
@@ -670,6 +729,15 @@
     display: none;
   }
 
+  .front__tile {
+    width: 150px;
+    height: 84px;
+
+    strong {
+      font-size: 0.8rem;
+    }
+  }
+
   .front__grid.search-lab {
     grid-template-columns: minmax(0, 1fr);
     gap: 10px;
@@ -810,7 +878,6 @@
 /* ---- the dark theme (body.theme-bg-black, see _custom-themes.scss) ---- */
 body.theme-bg-black {
   .front__bar,
-  .front__topics a,
   .front__rail-fold,
   .dims__types button,
   .front__dims-row button,
@@ -831,18 +898,12 @@ body.theme-bg-black {
 
   .front__count,
   .front__status,
-  .front__topics a b,
   .dims h2 a,
   .dims__people button b,
   .dims__works button b,
   .dims__types button b,
   .front__dims-row button b {
     color: #b9c2ca;
-  }
-
-  .front__topic-kind {
-    background: #3a424c;
-    color: #dce4ea;
   }
 
   .front__rail-fold summary {
