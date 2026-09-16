@@ -154,7 +154,7 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img01.jpg
-  caption: GAME FREAK 声音团队对谈现场（左起：一之濑刚、增田顺一、佐藤仁美、足立美奈子）
+  caption: 增田顺一（GAME FREAK 董事 / 作曲家）
 - original: タウンやどうろの音楽もそうですけど、その音楽が何故存在するのかというと、その世界観を構築するひとつの要素だからなんです。プレイヤーが好きな曲という話であれば、ゲームの音楽はオフにしてしまって、ほかのメディアで音楽を聞きながらプレイをすればいいじゃないですか。でも、『ポケットモンスター』はそうではなくて、その場所でその曲がかかることで1つの世界が作られているんです。なので、バリエーション豊かな楽曲がパッケージに詰まっていると思います。
   translation: 城镇和道路的音乐也是如此，这些音乐之所以存在，是因为它们是构筑世界观的一个要素。如果说玩家喜欢的曲子，那干脆把游戏音乐关掉，一边用其他媒体听音乐一边玩游戏不就好了吗？但《宝可梦》并非如此，在那个场景中响起那段旋律，才共同构筑出一个完整的世界。因此，我认为丰富多样的乐曲正是被精心封装在这款游戏之中的。
   speaker: 增田顺一
@@ -265,7 +265,7 @@ parallel_items:
   role: answer
 - original: ……頑張ります！
   translation: ……我会努力的！
-  speaker: 一之瀬佐藤足立
+  speaker: 众人
   role: answer
 - original: (笑)。
   translation: （笑）。
@@ -304,7 +304,7 @@ parallel_items:
   role: answer
 - type: image
   image: /assets/img/interviews/2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img02.jpg
-  caption: 从第一世代到第六世代：主创们交流宝可梦音乐的制作哲学与改编心得
+  caption: 佐藤仁美（左）与足立美奈子（右）
 - original: 新規とバージョンアップは気をつけるところがぜんぜん違うんですよ。新規はいかに新しいことを魅力的に見せるかですけど、ナンバリングとして続いていくようなバージョンアップは思い出をいかに壊さないかを大事に考えていかないといけないんです。
   translation: 新增内容与版本升级需要注意的地方完全不同。新增内容的关键在于如何将新事物呈现得富有吸引力，而作为系列编号延续的版本升级，则必须重视如何不破坏玩家心中的回忆。
   speaker: 佐藤仁美
@@ -454,13 +454,29 @@ parallel_items:
   level: 3
   original: 2014年秋リリース！| スマートフォン版『ソリティ馬』
   translation: 2014年秋季发布！| 智能手机版《纸牌跑马》
-interviewee: 2083取材班, 一之濑刚, 一之瀬佐藤足立, 佐藤仁美, 增田顺一, 足立美奈子
+summary: "2014年10月，2083WEB采访GAME FREAK声音团队增田顺一、一之濑刚、佐藤仁美、足立美奈子。增田回顾独自完成《宝可梦 红·绿》全部声音与播放程序，用Ensoniq SQ80从约30个原型中筛选标题曲；一之濑谈及《金·银》起强调亚洲元素与增田风格，野生宝可梦战斗曲至今仍由增田创作。佐藤提到《红·绿》发售时在游戏店打工。足立负责《欧米伽红宝石·阿尔法蓝宝石》编曲，自行车曲纠结两三周。特别篇中一之濑谈《纸牌跑马》音乐与3DS滤波器。"
+dek: "GAME FREAK声音团队谈宝可梦音乐与传承"
+topics:
+- "音乐制作"
+- "芯片音"
+- "开发流程"
+- "系列传承"
+- "音效设计"
+publication: 2083WEB
+interviewee: 增田顺一, 一之濑刚, 佐藤仁美, 足立美奈子
 source:
   title: 2083WEB (Game Music Web)
   url: http://www.2083.jp/contents/201410gamefreak/
 entities:
+  people:
+  - 增田顺一
+  - 一之濑刚
+  - 佐藤仁美
+  - 足立美奈子
   works:
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
   - 宝可梦 红·绿
+  organizations:
+  - Game Freak
 original_lang: ja
 ---

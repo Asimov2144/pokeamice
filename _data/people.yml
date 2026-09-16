@@ -28,6 +28,10 @@
   - image: /assets/img/people/masuda-junichi-2012.jpg
     year: 2012
     source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/masuda-junichi-2014.jpg
+    year: 2014
+    source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー
+    post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
 - name: 杉森建
   slug: sugimori-ken
   aliases:
@@ -157,6 +161,10 @@
   - image: /assets/img/people/sato-hitomi-2012.jpg
     year: 2012
     source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/sato-hitomi-2014.jpg
+    year: 2014
+    source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（左）
+    post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
 - name: 田尻智
   slug: tajiri-satoshi
   aliases:
@@ -843,6 +851,10 @@
   - 足立美奈子
   - Minako Adachi
   portraits:
+  - image: /assets/img/people/adachi-minako-2014.jpg
+    year: 2014
+    source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（右）
+    post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
   - image: /assets/img/people/adachi-minako-minako-adachi.jpg
     source: Bulbapedia File:Minako_Adachi.png
   avatar: /assets/img/people/adachi-minako.jpg
