@@ -167,6 +167,26 @@ source:
   title: Nintendo World Report
   url: http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 X·Y
+summary: "Game Freak 首席设计师吉田宏信与《宝可梦 X·Y》总监增田顺一接受 Nintendo World Report 采访，谈 2013 年 10 月 12 日全球同步发售、超级进化、超级特训、妖精属性、音乐创作与宝可梦设计流程。增田称超级进化约三年前随《X·Y》开发构思，需携带超级石并在战斗中临时变化；他创作了野生、训练家、道馆馆主与四天王战斗音乐；个人喜欢可达鸭、皮丘、比克提尼与仙子伊布。吉田称每代被否决的宝可梦创意约为最终入选的十倍，确定一只设计需半年到一年。"
+dek: "增田顺一与吉田宏信谈《宝可梦 X·Y》的超级进化、全球同步发售与设计流程。"
+topics:
+- "系统设计"
+- "开发流程"
+- "音乐制作"
+- "通信功能"
+- "角色设计"
+mentions:
+  people:
+  - "增田顺一"
+  - "吉田宏信"
+  - "樱井政博"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦+织田信长之野望"
+  - "宝可梦随乐拍"
+  - "宝可梦 钻石·珍珠"
 ---

@@ -79,6 +79,8 @@ parallel_items:
   speaker: null
 image: /assets/img/interviews/2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/rs_dev_01.jpg
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 黑·白
   - 宝可梦 红宝石·蓝宝石

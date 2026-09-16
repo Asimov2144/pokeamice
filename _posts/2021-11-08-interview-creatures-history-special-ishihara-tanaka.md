@@ -296,8 +296,29 @@ source:
   title: Creatures Inc. Official Special Talk
   url: https://www.creatures.co.jp/history_special_interview
 entities:
+  people:
+  - "石原恒和"
+  - "田中宏和"
   works:
   - Pokémon GO
   - 宝可梦集换式卡牌游戏
 original_lang: ja
+summary: "Creatures 会长石原恒和与社长田中宏和回顾公司 1995 年从 APE 独立、1999 年田中从任天堂退职后接任社长的经过，谈及《宝可梦 红·绿》卡匣供应、宝可梦卡牌e 的 GBA 扫描机制、PTCG 与《Pokémon GO》的关联，以及卡牌、游戏、3DCG 三大支柱和 25 周年社史卡组。"
+dek: "石原恒和与田中宏和谈 Creatures 二十五年。"
+topics:
+- "开发流程"
+- "卡牌"
+- "媒体组合"
+- "系统设计"
+- "公司沿革"
+mentions:
+  people:
+  - "石原恒和"
+  - "田中宏和"
+  - "糸井重里"
+  - "野元圣矢"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦乐园Wii ～皮卡丘的大冒险～"
+  - "宝可梦卡牌e"
 ---

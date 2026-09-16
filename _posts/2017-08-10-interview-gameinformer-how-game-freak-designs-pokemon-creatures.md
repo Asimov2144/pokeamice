@@ -97,6 +97,8 @@ parallel_items:
   speaker: null
 image: /assets/img/interviews/2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures/design_01.jpg
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 太阳·月亮
 ---

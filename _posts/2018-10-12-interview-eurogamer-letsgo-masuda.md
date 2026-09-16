@@ -142,6 +142,25 @@ source:
   title: Junichi Masuda on Pokémon Let's Go's difficulty, mechanics, and the series' future
   url: https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future
 entities:
+  people:
+  - "增田顺一"
+  - "菜花健作"
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+summary: "2018年《宝可梦 Let's Go! 皮卡丘／伊布》发售前，Eurogamer 采访总监增田顺一与游戏设计师名花健策。增田说明重返关都意在为以 Switch 为第一台游戏设备的孩子提供入口，并解释移除野生随机对战、改用《Pokémon GO》式体感捕捉，是为适应手机游戏习惯；连锁捕捉可提高完美个体值、稀有与闪光出现率，通关后设大师训练家一对一挑战。秘术取代秘传学习器，避免占用招式栏位。美录坦经《Pokémon GO》神秘盒子获取，可进化为美录梅塔。增田表示将交棒年轻创作者，自己以制作人身份支持，2019年核心 RPG 消息预计次年公布。"
+dek: "增田顺一谈《Let's Go》机制革新、美录坦与交棒下一代。"
+topics:
+- "系统设计"
+- "开发流程"
+- "通信功能"
+- "海外展开"
+- "媒体组合"
+mentions:
+  people:
+  - "增田顺一"
+  - "名花健策"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 Let's Go! 皮卡丘／伊布"
+  - "Pokémon GO"
 ---

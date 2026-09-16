@@ -114,6 +114,22 @@ source:
   title: Hobby Consolas（西班牙最大游戏媒体）
   url: https://www.hobbyconsolas.com/reportajes/entrevista-con-junichi-masuda-59058
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 X·Y
+summary: "2013年，宝可梦游戏总监增田顺一在巴塞罗那国际漫画展接受Hobby Consolas采访。他谈到《宝可梦 X／Y》引入72种新宝可梦与超级进化，玩家平均年龄约20岁；该作是系列首款全球同步发售作品，开发历时三年多、逾五百人参与，发售三周内GTS交换达1000万次。他解释AZ之名取自字母表首尾，说明卡洛斯与合众的国王并非同一角色，并提及超级超梦X／Y的构思、四天王音乐及哲尔尼亚斯与伊裴尔塔尔的创作。"
+dek: "增田顺一谈《宝可梦 X／Y》全球同步发售与设计幕后"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "传说宝可梦"
+- "音乐制作"
+mentions:
+  people:
+  - "增田顺一"
+  - "杉森建"
+  works:
+  - "宝可梦 黑·白"
 ---

@@ -194,6 +194,32 @@ source:
   title: Go Behind the Scenes with the Pokémon Masters at GAME FREAK, inc.!
   url: https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/
 entities:
+  people:
+  - "增田顺一"
+  - "森本茂树"
+  - "松岛贤二"
+  - "大森滋"
+  - "森彰人"
+  - "海野隆雄"
   works:
   - 宝可梦 心金·魂银
+summary: "2010 年，Pokemon.com 与 GAME FREAK 六位开发者增田顺一、森本茂树、松岛贤二、大森滋、森彰人、海野隆雄围绕《宝可梦 心金／魂银》进行圆桌访谈。他们谈到距《宝可梦 金／银》发售十年间硬件进步带来的画面、音效与数据量变化，宝可梦数量翻倍，开发历时近三年、约二十人参与。访谈还涉及宝可计步器、宝可全能竞技赛、缘朱市与铃铛小道等地点、环境音效，以及动画和集换式卡牌游戏对游戏开发的启发。"
+dek: "GAME FREAK 六位主创谈《宝可梦 心金／魂银》开发幕后。"
+topics:
+- "开发流程"
+- "系统设计"
+- "地区设定"
+- "通信功能"
+- "媒体组合"
+mentions:
+  people:
+  - "增田顺一"
+  - "森本茂树"
+  - "松岛贤二"
+  - "大森滋"
+  - "森彰人"
+  - "海野隆雄"
+  works:
+  - "宝可梦 金·银"
+  - "宝可梦 动画系列"
 ---

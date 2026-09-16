@@ -286,6 +286,13 @@
   aliases:
   - 久保雅一
   - Masakazu Kubo
+  portraits:
+  - image: /assets/img/people/kubo-masakazu-2021.jpg
+    year: 2021
+    source: ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）
+    post: 2021-10-25-interview-hobonichi-2021-kubo
+  avatar: /assets/img/people/kubo-masakazu.jpg
+  avatar_source: ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）
 - name: 超梦
   slug: chao-meng
   kind: character
@@ -1053,3 +1060,57 @@
   slug: chi-mu-da-ye-2
   aliases:
   - 赤木達也
+- name: 寺田佑贵
+  slug: si-tian-you-gui
+- name: T.T.
+  slug: t-t
+- name: 古谷翔
+  slug: gu-gu-xiang
+- name: 小岛彬
+  slug: xiao-dao-bin
+- name: 的场昂树
+  slug: de-chang-ang-shu
+- name: 髙草真生
+  slug: gao-cao-zhen-sheng
+- name: 林祐衣
+  slug: lin-you-yi
+- name: 阵内弘之
+  slug: zhen-nei-hong-zhi
+- name: 森彰人
+  slug: sen-zhang-ren
+- name: 诸月纱保子
+  slug: zhu-yue-sha-bao-zi
+- name: 大日向俊
+  slug: da-ri-xiang-jun
+- name: 鹿瀬島英介
+  slug: lu-lai-dao-ying-jie
+- name: 福嶋ゆかり
+  slug: fu-dao
+- name: 大奈路まりな
+  slug: da-nai-lu
+- name: 菅野隼人
+  slug: jian-ye-sun-ren
+- name: 早川裕崇
+  slug: zao-chuan-yu-chong
+- name: 伊泽景胜
+  slug: yi-ze-jing-sheng
+- name: 小杉要
+  slug: xiao-shan-yao
+- name: 吉原有香
+  slug: ji-yuan-you-xiang
+- name: 须贺健人
+  slug: xu-he-jian-ren
+- name: 河合敬一
+  slug: he-he-jing-yi
+- name: 杉中克考
+  slug: shan-zhong-ke-kao
+- name: 宫下尚生
+  slug: gong-xia-shang-sheng
+- name: 须崎春树
+  slug: xu-qi-chun-shu
+- name: 田中宏和
+  slug: tanaka-hirokazu
+- name: K.I.
+  slug: k-i
+- name: 谷博行
+  slug: gu-bo-xing

@@ -150,6 +150,27 @@ source:
   title: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!
   url: https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/
 entities:
+  people:
+  - "河内丸武史"
+  - "增田顺一"
   works:
   - 宝可梦 白金
+summary: "2009 年 G4TV 采访 Game Freak 总监增田顺一与游戏设计师河内丸武史，谈《宝可梦 白金》。河内说明以反物质、CP 对称性破坏等概念设计反转世界，使其与神奥地区相似却相反；并介绍对战开拓区的规则与培育要求。增田谈及帝牙卢卡、帕路奇亚、骑拉帝纳与阿尔宙斯的关系，解释系列专注便携设备因交换为核心，回忆与杉森建设计皮丘、晃晃斑，说明个体值、努力值及物理／特殊招式拆分，最后以桥梁结构比喻宝可梦。"
+dek: "增田顺一与河内丸武史谈《宝可梦 白金》的反转世界、对战开拓区与系列设计。"
+topics:
+- "系统设计"
+- "传说宝可梦"
+- "开发流程"
+- "对战系统"
+- "地区设定"
+mentions:
+  people:
+  - "增田顺一"
+  - "河内丸武史"
+  - "杉森建"
+  - "岩田聪"
+  - "宫本茂"
+  - "小岛秀夫"
+  works:
+  - "宝可梦 钻石·珍珠"
 ---

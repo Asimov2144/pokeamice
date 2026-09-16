@@ -202,6 +202,28 @@ source:
   title: 'The People behind the Pokémon: Junichi Masuda and Takao Unno Interview'
   url: https://web.archive.org/web/20130731014648/https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/
 entities:
+  people:
+  - "增田顺一"
+  - "海野隆雄"
   works:
   - 宝可梦 黑2·白2
+summary: "2012 年 Pokémon.com 专访 GAME FREAK 开发部长增田顺一与《宝可梦 黑2／白2》总监海野隆雄。增田介绍其兼任总监、作曲与剧情编写，海野说明其艺术总监职责及本作总监工作。两人谈到《宝可梦 黑2／白2》在《宝可梦 黑／白》日本发售前三四个月即开始讨论，设定为两年后的合众地区，并加入宝可坞、支持最多 100 人的节庆任务与回忆连线。增田解释不做单一强化版而做双续作的原因，提及曾考虑把初始宝可梦改为五只或钢、毒属性，并说明有专门小组测试对战平衡。他还谈到用推特与玩家交流，以及开发六年的《宝可梦 红／绿》。"
+dek: "增田顺一与海野隆雄谈《宝可梦 黑2／白2》的续作设计与合众两年变迁。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "地区设定"
+- "对战平衡"
+mentions:
+  people:
+  - "增田顺一"
+  - "海野隆雄"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 红宝石·蓝宝石"
+  - "宝可梦 绿宝石"
+  - "宝可梦 钻石·珍珠"
+  - "宝可梦 白金"
+  - "宝可梦 黑·白"
 ---

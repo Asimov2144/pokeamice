@@ -27,6 +27,9 @@ workflow:
   proofreading: pending
   published: done
 entities:
+  people:
+  - "岩尾和昌"
+  - "大森滋"
   works:
   - 宝可梦 究极之日·究极之月
   organizations:
@@ -262,4 +265,25 @@ parallel_items:
 - type: paragraph
   original: Many thanks to Mr. Iwao and Mr. Ohmori for taking the time to chat with us about their latest game.
   translation: 非常感谢岩尾先生和大森先生抽出时间与我们谈论他们的最新游戏。
+summary: "2017年11月9日发布于Pokemon.com的独家专访，受访者为GAME FREAK的岩尾和昌（《究极之日／究极之月》导演）与大森滋（《太阳／月亮》导演、本作制作人）。两人回顾入行经历：岩尾首作《黑／白》负责界面、对战系统与宝可梦音乐剧，大森首作《红宝石／蓝宝石》负责环境与通信功能。访谈说明本作以“核心”为主题，加入彩虹火箭队与历代关主训练家、究极异兽、奈克洛兹玛剧情、巨翅飞鱼冲浪与究极空间跳跃骑行等通关后内容，并谈及杉森建的究极异兽设计概念及导演方法。"
+dek: "GAME FREAK 两位开发者谈《究极之日／究极之月》的设计与制作。"
+topics:
+- "开发流程"
+- "系统设计"
+- "传说宝可梦"
+- "地区设定"
+- "通信功能"
+mentions:
+  people:
+  - "岩尾和昌"
+  - "大森滋"
+  - "杉森建"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 皮卡丘"
+  - "宝可梦 红宝石·蓝宝石"
+  - "宝可梦 黑·白"
+  - "宝可梦 黑2·白2"
+  - "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
+  - "宝可梦 太阳·月亮"
 ---

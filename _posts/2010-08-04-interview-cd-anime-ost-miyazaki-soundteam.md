@@ -454,4 +454,28 @@ interviewee: Media Factory / PocketMonsters.Net, 一之濑刚, 佐藤仁美, 增
 source:
   title: Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”
   url: https://www.pocketmonsters.net/content/Miyazaki_Interview_Anime_OST
+summary: "2010年9月8日发行的《电视动画 宝可梦 原声音乐精选集 1997-2010》小册子收录的圆桌座谈，出席者为动画作曲家宫崎慎二与GAME FREAK的增田顺一、一之濑刚、佐藤仁美。四人谈及各自音乐原点，如增田受《桂河大桥》《宾虚》原声与YMO影响、宫崎因武满彻转向作曲；回顾《红／绿》时代仅3音加噪声的音源限制，以及宫崎将游戏曲改编为管弦乐的过程，涉及《穿越海洋》《水脉市》《白岱森林》《206号道路（白天）》等曲目与城都地区以京都为原型的设定。"
+dek: "动画作曲家与GAME FREAK声音团队谈游戏曲的管弦乐改编"
+topics:
+- "音乐制作"
+- "开发流程"
+- "动画制作"
+- "媒体组合"
+- "地区设定"
+entities:
+  people:
+  - "增田顺一"
+  - "一之濑刚"
+  - "佐藤仁美"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 红宝石·蓝宝石"
+  - "宝可梦 钻石·珍珠"
+  - "宝可梦 动画系列"
+  organizations:
+  - "Game Freak"
+mentions:
+  people:
+  - "宫崎慎二"
+  works: []
 ---

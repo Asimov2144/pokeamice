@@ -361,7 +361,25 @@ source:
   title: Special Interview 001 株式会社ポケモンのキーパーソンが語るそれぞれのキャリアと志向性 「これまでの挑戦、これからの挑戦」
   url: http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview1.html
 entities:
+  people:
+  - "河本拓"
+  - "鹿瀬島英介"
+  - "福嶋ゆかり"
   works:
   - 宝可梦 X·Y
 original_lang: ja
+summary: "2014年株式会社宝可梦三位部长级管理者受访。河本拓2008年入职，2012年任媒体企划部部长，主导《宝可梦 X·Y》全球同步宣发，并提及与日本邮政合作明信片首年发行1452万张。鹿瀬岛英介2007年入职营业企划部，负责正作与卡牌销售，讲述《宝可梦 X·Y》与任天堂联合促销及反斗城圣诞交换大会，并发起POKÉMON with YOU赈灾支援。福嶋ゆかり2005年入职，2010年任品牌管理部部长，负责监修与品牌保护，曾参与卡牌事业及官网改版。"
+dek: "三位核心管理者谈宣发、营业与品牌监修。"
+topics:
+- "市场营销"
+- "销售战略"
+- "品牌管理"
+- "监修"
+- "卡牌游戏"
+mentions:
+  people:
+  - "河本拓"
+  - "鹿瀬岛英介"
+  works:
+  - "宝可梦 钻石·珍珠"
 ---

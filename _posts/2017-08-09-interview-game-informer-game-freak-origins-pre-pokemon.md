@@ -152,5 +152,26 @@ interviewee: Game Informer, 增田顺一
 source:
   title: Game Freak’s Origins And Its Pre-Pokémon Games
   url: https://gameinformer.com/b/features/archive/2017/08/09/game-freaks-origins-and-non-pokemon-games.aspx
+summary: "Game Informer 采访 Game Freak 联合创始人增田顺一，回顾工作室在《宝可梦》之前的历程。Game Freak 起初是田尻智等人制作的迷你漫画杂志，后转向游戏开发。首作《Quinty》（美版《孟德尔宫殿》）为 FC 益智游戏，由南梦宫在日本发行；因南梦宫要求以公司名义签约，团队正式成立 Game Freak。此后为超级任天堂开发《Jerry Boy》（美版《Smart Ball》），与任天堂合作《耀西的蛋》，并制作世嘉 Mega Drive 游戏《神通小精灵》。1993 年《马力欧与瓦力欧》原为超级瞄准镜设计，后改用 SFC 专用鼠标。1996 年《宝可梦 红·绿》发售，开发约六年，期间未与任天堂签订合同。"
+dek: "增田顺一回顾 Game Freak 在《宝可梦》之前的开发历程。"
+topics:
+- "开发流程"
+- "系统设计"
+- "公司历史"
+- "发行合作"
+entities:
+  people:
+  - "增田顺一"
+  works:
+  - "宝可梦 红·绿"
+  organizations:
+  - "Game Freak"
+  - "任天堂"
+mentions:
+  people:
+  - "田尻智"
+  - "宫本茂"
+  - "横井军平"
+  works: []
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0827 -->

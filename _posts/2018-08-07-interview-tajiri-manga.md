@@ -740,4 +740,23 @@ parallel_items:
   original: Reject All Save My Preferences Accept All
   translation: 全部拒绝 保存我的偏好 全部接受
 original_lang: ja
+summary: "Helix Chamber 团队解读 2018 年出版的田尻智传记漫画，该漫画由詹姆斯·特纳在推特上披露。文中复原了 GAME FREAK 内部人气投票表与宝可梦图表，显示投票于 1992 年 10 月首次举行，约 80 只怪兽中椰蛋树第一、呆壳兽第二、皮皮第三；漫画所载投票为 1992 年末或 1993 年举行，前 31 名中可确认第 11 至 20 名顺序无法复原。图表按内部索引与叫声数据排列，含被删宝可梦如 Gyaoon、Barunda、Crocky、Jagg 等。"
+dek: "复原田尻智传记漫画中的 GAME FREAK 内部人气投票与宝可梦图表。"
+topics:
+- "开发流程"
+- "系统设计"
+- "角色设计"
+- "传说宝可梦"
+- "媒体组合"
+mentions:
+  people:
+  - "田尻智"
+  - "杉森建"
+  - "森本茂树"
+  - "詹姆斯·特纳"
+  - "富泽明仁"
+  works:
+  - "宝可梦 金·银"
+  - "宝可梦 太阳·月亮"
+  - "宝可梦 黄"
 ---

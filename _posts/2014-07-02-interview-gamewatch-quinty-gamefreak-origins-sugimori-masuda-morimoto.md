@@ -597,4 +597,25 @@ parallel_items:
   speaker: ''
   original: （船津稔）
   translation: （船津稔）
+summary: "2014年《旋转方块》在Wii U虚拟主机配信之际，GAME FREAK的杉森建与增田顺一接受采访，回顾1989年红白机版开发。两人谈到用Apple II解析FC、以Family BASIC调试，团队约6人、耗时约两年半；杉森负责像素图形，增田负责音乐与音效，田尻智主导企划与调整。游戏采用7×5面板、翻开面板击倒敌人、收集100个星星加速等机制，因容量限制重复利用角色，并利用显示极限位置。增田还提到《旋转方块》曲调被用于《宝可梦 金·银》劲敌曲。"
+dek: "GAME FREAK创业元老回顾《旋转方块》开发与宝可梦原点。"
+topics:
+- "开发流程"
+- "系统设计"
+- "音乐制作"
+- "角色设计"
+- "独立游戏"
+entities:
+  people:
+  - "杉森建"
+  - "增田顺一"
+  works:
+  - "宝可梦 金·银"
+  organizations:
+  - "Game Freak"
+  - "任天堂"
+mentions:
+  people:
+  - "田尻智"
+  works: []
 ---

@@ -78,6 +78,26 @@ source:
   title: 'How Pokemon Get Made: Game Freak''s designers discuss Black and White''s main characters'
   url: https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made
 entities:
+  people:
+  - "海野隆雄"
+  - "杉森建"
+  - "井部真那"
+  - "大村祐介"
   works:
   - 宝可梦 黑·白
+summary: "2011 年 1UP 的 Kevin Gifford 采访 Game Freak 艺术总监杉森建与 3D 艺术总监海野隆雄，谈《宝可梦 黑·白》的角色设计。杉森建称怪物设计流程自由，约 17 名设计师参与，类似公司内部竞赛；他本人负责封面传说宝可梦莱希拉姆与捷克罗姆，先定故事再设计，追求流畅精致，莱希拉姆偏女性化、捷克罗姆偏男性化。三只初始宝可梦由年轻员工设计：井部真那设计暖暖猪，田上玲子设计藤藤蛇，大村祐介设计水水獭，藤藤蛇融入欧洲美学，水水獭进化型为大剑鬼。海野与杉森称最困难之处是为全部 649 只宝可梦制作战斗中持续运动及状态异常的动画。"
+dek: "Game Freak 主创谈《黑·白》御三家与封面传说宝可梦设计。"
+topics:
+- "角色设计"
+- "开发流程"
+- "传说宝可梦"
+- "系统设计"
+mentions:
+  people:
+  - "杉森建"
+  - "海野隆雄"
+  - "井部真那"
+  - "田上玲子"
+  - "大村祐介"
+  works: []
 ---

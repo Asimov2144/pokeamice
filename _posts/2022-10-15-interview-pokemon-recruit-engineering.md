@@ -175,4 +175,18 @@ entities:
   works:
   - Pokémon GO
 original_lang: ja
+summary: "2022年宝可梦公司工程开发特别篇对谈，开发支援部技术总监太田与Pokémon GO推进室技术总监小川回顾各自业务。小川2014年因《Pokémon GO》邀约入职，负责该作开发运营及Pokémon GO Plus硬件功能规范；太田主导《Pokémon HOME》研发，协同任天堂、Creatures、GAME FREAK三社构建联网服务器与3D模型资产系统中台。两人谈及《Pokémon GO》与Niantic合作、跨iOS/Android/Switch平台互通、兼容宝可梦虚拟银行、开服初期客服体系重构等经历。"
+dek: "宝可梦公司两位技术总监谈《Pokémon GO》与《Pokémon HOME》的开发历程。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "海外展开"
+- "媒体组合"
+mentions:
+  people:
+  - "宇都宫崇人"
+  works:
+  - "宝可梦 剑·盾"
+  - "宝可梦 朱·紫"
 ---

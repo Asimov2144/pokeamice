@@ -124,6 +124,25 @@ source:
   title: 'Interview: Pokemon in Black and White with Junichi Masuda'
   url: https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 黑·白
+summary: "2011年《宝可梦 黑／白》伦敦首发夜，SPOnG在莱斯特广场酒吧专访GAME FREAK总监增田顺一与设计师杉森建。增田称本作开发约四年，将过去作品要素全部推倒重建，剥离宝芬制作、地下探险等机制，让玩家从同一起跑线出发。他解释系列坚守掌机是因身边即时交换是核心，家用主机需支持同空间游玩，并提到希望利用3DS多种无线连接。增田还表示最喜欢比克提尼，并期待与竞赛赢家对战。"
+dek: "增田顺一与杉森建谈《宝可梦 黑／白》重启、掌机社交与比克提尼。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "地区设定"
+- "传说宝可梦"
+mentions:
+  people:
+  - "增田顺一"
+  - "杉森建"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 钻石·珍珠"
+  - "宝可梦随乐拍"
+  - "宝可梦战斗革命"
 ---

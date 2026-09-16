@@ -172,6 +172,23 @@ source:
   title: Eurogamer.es
   url: https://www.eurogamer.es/entrevista-con-el-director-de-pokemon-x-e-y-lo-raro-seria-encontrar-a-quien-no-le-guste-ningun-pokemon
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 X·Y
+summary: "2013 年 Eurogamer 在伦敦专访《宝可梦 X／Y》总监增田顺一，Game Freak 设计师吉田宏信亦谈及设计流程。增田表示《X／Y》并非重启，而是降低入门门槛：全球同步发售以保留发现新宝可梦的神秘感，交换不同语言版本可解锁对应图鉴条目；妖精属性为对战平衡而加入；超级进化与初代三只初始宝可梦的赠送在开发两年后确定；加入宝可清爽乐、无限招式学习器与全队共享经验等便利设计。他每年出席宝可梦世界锦标赛观察战术，并称最怕遇到什么宝可梦都不喜欢的人。"
+dek: "增田顺一谈《宝可梦 X／Y》如何降低入门门槛"
+topics:
+- "系统设计"
+- "角色设计"
+- "开发流程"
+- "通信功能"
+- "海外展开"
+mentions:
+  people:
+  - "增田顺一"
+  - "吉田宏信"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 黑·白"
 ---

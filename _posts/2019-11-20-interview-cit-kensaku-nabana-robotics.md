@@ -116,6 +116,25 @@ source:
   title: 卒業生に訊く！未来ロボティクス学科1期生 菜花健作さん
   url: https://www.robotics.it-chiba.ac.jp/j/?p=484
 original_lang: ja
+summary: "千叶工业大学未来机器人学科第一期毕业生名花健作接受母校专访，讲述其学生时代用汽车套件改造双足行走机器人、设计学科招生宣传册并接触3DCG的经历。他现就职于GAME FREAK，自入职起参与《宝可梦》正统系列研发，负责地图原野概念设计、新宝可梦生物设计、3DCG建模与动作制作。他谈到求职季最后关头放弃大型机械制造企业内定转而投递GAME FREAK，并说明机器人学中的矩阵运算与图形着色器、逆运动学等游戏开发工作的关联。"
+dek: "机器人学科一期生名花健作谈GAME FREAK与宝可梦研发"
+topics:
+- "开发流程"
+- "系统设计"
+- "角色设计"
+- "3DCG"
+- "职业经历"
+entities:
+  people:
+  - "菜花健作"
+  works: []
+  organizations:
+  - "Game Freak"
+mentions:
+  people:
+  - "名花健作"
+  works:
+  - "宝可梦"
 ---
 ### 导读：跨学科跨界的硬核理工思维与 GAME FREAK 创作者之魂
 

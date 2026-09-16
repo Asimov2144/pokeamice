@@ -155,7 +155,28 @@ parallel_items:
 - original: (C)2009 Pokemon. (C)1995-2009 Nintendo/Creatures Inc./GAME FREAK inc.ポケットモンスター・ポケモン・Pokemon は任天堂・クリーチャーズ・ゲームフリークの登録商標です。
   translation: (C)2009 Pokemon. (C)1995-2009 Nintendo/Creatures Inc./GAME FREAK inc. 宝可梦・Pokemon 是任天堂・Creatures・GAME FREAK的注册商标。
 entities:
+  people:
+  - "森本茂树"
   works:
   - 宝可梦 心金·魂银
 original_lang: ja
+summary: "2009年9月12日发售的DS游戏《宝可梦 心金·魂银》总监、GAME FREAK的森本茂树接受电击编辑部采访，谈1999年Game Boy《宝可梦 金·银》重制的开发经过。他提到在《宝可梦 钻石·珍珠》阶段已有重制构想，本作以集系列之大成为方针，加入宝可梦跟随行走、宝可全能竞技赛、狩猎地带定制等新要素，并补完《宝可梦 水晶版》中米那君与水君的剧情。跟随行走图形需制作493只以上，宝可步数计可再现晃晃斑花纹差异。"
+dek: "《心金·魂银》总监森本茂树谈重制经过与新增要素。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "地区设定"
+- "媒体组合"
+mentions:
+  people:
+  - "森本茂树"
+  works:
+  - "宝可梦 金·银"
+  - "宝可梦 水晶版"
+  - "宝可梦 钻石·珍珠"
+  - "宝可梦 蓝"
+  - "宝可梦 皮卡丘"
+  - "宝可梦 火红·叶绿"
+  - "宝可梦 红宝石·蓝宝石"
 ---

@@ -113,7 +113,21 @@ source:
   title: Special Interview 「『Pokémon GO』が開いた次代への扉」 （Pokémon GO推進室室長 江上周作）
   url: https://recruit.pokemon.co.jp/saiyo/interview/world.html
 entities:
+  people:
+  - "江上周作"
   works:
   - Pokémon GO
 original_lang: ja
+summary: "宝可梦公司总监兼 Pokémon GO 推进室室长江上周作谈《Pokémon GO》上线后的运营与反响。游戏2016年7月6日从澳大利亚起步，至2017年已在超过150个国家和地区提供服务，韩国2017年1月下旬开服。内部原定一年1亿次下载的目标被远超，Niantic 的技术支撑使服务器未长时间宕机。他提到补给站引发的交通安全问题、与地方政府及企业的合作咨询、面向银发族的普及，以及未来持续更新和让更多宝可梦登场的计划。"
+dek: "江上周作谈《Pokémon GO》上线后的全球扩散与运营。"
+topics:
+- "海外展开"
+- "开发流程"
+- "系统设计"
+- "媒体组合"
+- "企业社会责任"
+mentions:
+  people:
+  - "江上周作"
+  works: []
 ---

@@ -150,7 +150,23 @@ source:
   title: Video Games Chronicle (VGC)
   url: https://www.videogameschronicle.com/features/interviews/game-freak-were-trying-to-create-something-more-than-pokemon/
 entities:
+  people:
+  - "尾上将之"
   works:
   - 宝可梦 剑·盾
 original_lang: en
+summary: "VGC 2019 年专访 GAME FREAK 程序员兼总监尾上将之，谈 Gear Project 原创计划与第一、第二制作组分工。Gear Project 自 2012 年后推出《节奏骑兵》《口袋卡牌骑师》《坏坏大象坦博》《千兆破坏者》四款原创游戏，并开发 Switch 原创 RPG《Town》。尾上 2010 年入职，自《宝可梦 黑·白》起任主系列程序员，首度执导《千兆破坏者》。他谈及 1 组专注原创、2 组负责宝可梦，跨组交流与 R&D 部门提升技术，2019 年三作集中发售源于开发周期重叠。"
+dek: "GAME FREAK 尾上将之谈 Gear Project 与两组分工"
+topics:
+- "开发流程"
+- "系统设计"
+- "跨平台开发"
+- "原创IP"
+- "团队分工"
+mentions:
+  people:
+  - "尾上将之"
+  works:
+  - "宝可梦 黑·白"
+  - "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
 ---

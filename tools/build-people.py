@@ -334,6 +334,7 @@ PORTRAITS = [
     dict(name="西田敦子", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(901, 137, 106, 106), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="西野弘二", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(205, 109, 127, 127), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     # inside other posts
+    dict(name="久保雅一", year=2021, main=True, box=(500, 190, 320, 350), src=_IA + "2021-10-25-interview-hobonichi-2021-kubo/001.jpg", source="ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）", post="2021-10-25-interview-hobonichi-2021-kubo"),
     dict(name="增田顺一", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img01.jpg", source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
     dict(name="佐藤仁美", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img02.jpg", box=(100, 40, 70, 80), source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（左）", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
     dict(name="足立美奈子", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/img02.jpg", box=(275, 35, 80, 85), source="2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（右）", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),

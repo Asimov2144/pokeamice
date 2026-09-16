@@ -489,5 +489,31 @@ interviewee: 中畑虎也, 塚田拓実, 宇都宫崇人, 宮川佳祐
 source:
   title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及
   url: https://www.famitsu.com/article/202411/23904
+summary: "《Pokémon Sleep》2023年7月20日上线，2024年6月全球累计下载量达2000万次。为纪念一周年，Fami通采访株式会社宝可梦COO宇都宫崇人及开发公司SELECT BUTTON的中畑虎也、宫川佳祐、冢田拓实，回顾企划起点（2014年《Ingress》活动、2016年经小川慧介绍结识三人组）、睡眠测量与睡意力量、睡姿图鉴、卡比兽喂食与一日三餐料理、雷公炎帝水君活动、天青石湖畔与黄金旧发电厂场地、Apple Watch支持，并说明开发将移管至株式会社宝可梦与株式会社宝可梦工房。"
+dek: "《Pokémon Sleep》一周年：宇都宫崇人与SELECT BUTTON谈开发与移管"
+topics:
+- "开发流程"
+- "系统设计"
+- "睡眠测量"
+- "活动运营"
+- "开发移管"
+entities:
+  people:
+  - "宇都宫崇人"
+  works:
+  - "Pokémon GO"
+  - "宝可梦 红·绿"
+  organizations:
+  - "株式会社ポケモン"
+  - "Niantic"
+mentions:
+  people:
+  - "中畑虎也"
+  - "宫川佳祐"
+  - "冢田拓实"
+  - "石原恒和"
+  - "小川慧"
+  works:
+  - "Pokémon Sleep"
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0688 -->

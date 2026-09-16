@@ -140,7 +140,21 @@ source:
   title: インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」
   url: http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_2.html
 entities:
+  people:
+  - "T.T."
+  - "M.I."
   works:
   - 宝可梦 X·Y
 original_lang: ja
+summary: "2013年GAME FREAK程序员访谈，入职第9年的T.T.与2011年中途入职的M.I.对谈。T.T.在《宝可梦 X·Y》中担任原野系统负责人，主导玩法机制实验与团队推进，并参与开发环境搭建；M.I.负责3D模型渲染等显示控制程序及公司内部制作管线与开发环境构筑。两人谈到《宝可梦 X·Y》是系列首次全面迈入全3D，T.T.称过去团队在全3D内容制作上如同小学生水平，如今在社招人才与外部合作公司协同下达到成年社会人水平，并强调减少操作延迟、追求顺滑手感，以及公司给予程序员的自主裁量权。"
+dek: "GAME FREAK 两位程序员谈《宝可梦 X·Y》全3D开发与分工。"
+topics:
+- "开发流程"
+- "系统设计"
+- "3D图形"
+- "开发环境"
+- "团队体制"
+mentions:
+  people: []
+  works: []
 ---

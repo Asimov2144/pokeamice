@@ -58,4 +58,18 @@ parallel_items:
   original: HarmoKnight is available for Nintendo 3DS. Drill Dozer was released for Game Boy Advance in 2006. You can check out the first in this video series with Ken Sugimori and Pulseman in our previous report here .
   translation: 《节奏猎鹰》现已登陆任天堂 3DS。《钻头小精灵》于 2006 年在 Game Boy Advance 上发布。您可以在我们之前的报道中查看本视频系列的第一集，其中包含杉森建和《脉冲超人》的内容。
 original_lang: en
+summary: "Game Freak 通过插画视频介绍《节奏骑士》与《钻地少女》的开发。艺术总监 James Turner 绘制《节奏骑士》主角 Tempo，说明该作是 Game Freak 内部企划 Gear Project 的首个游戏项目，设计文档以短篇漫画展示玩法，并谈到毒贝比、小木灵、泥偶巨人等宝可梦的设计。艺术总监海野隆雄说明宝可梦设计先向全体员工征集想法，再按故事、地区与平衡筛选。2D 图形设计师吉田博信负责《钻地少女》角色设计，其最后一次参与像素艺术是《宝可梦 黑2·白2》，并称当时开发像节日，因为《X·Y》将转向 3D 模型。他反对女性主角，在 Jill 设计上加入男孩般眉毛，主角性别由杉森建决定。《节奏骑士》登陆任天堂 3DS，《钻地少女》2006 年登陆 Game Boy Advance。"
+dek: "Game Freak 插画视频谈《节奏骑士》与《钻地少女》开发"
+topics:
+- "角色设计"
+- "开发流程"
+- "系统设计"
+- "像素艺术"
+- "内部企划"
+mentions:
+  people:
+  - "吉田博信"
+  works:
+  - "宝可梦 黑2·白2"
+  - "宝可梦 X·Y"
 ---

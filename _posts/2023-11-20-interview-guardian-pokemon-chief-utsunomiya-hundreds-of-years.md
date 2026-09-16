@@ -120,8 +120,29 @@ source:
   title: '‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon'
   url: https://www.theguardian.com/games/2023/nov/20/pokemon-chief-interview
 entities:
+  people:
+  - "宇都宫崇人"
   works:
   - 宝可梦传说 阿尔宙斯
   - 宝可梦 朱·紫
+summary: "《卫报》2023年文章采访株式会社宝可梦首席运营官宇都宫崇人。他称公司目标是让宝可梦延续数百年，并希望美洲、欧洲、日本约十亿人之外的七十多亿人成为粉丝。文中提及田尻智1990年受Game Boy连接线启发构思交换与对战，2012年退居二线；第18届宝可梦世界锦标赛在横滨举行，2000名参赛者、10000名粉丝到场；宝可梦已超1000种；初代Game Boy游戏销量超4600万份，《宝可梦 剑／盾》2600万份，系列总销量超4.6亿份，《Pokémon GO》约8000万活跃玩家；《宝可梦 朱／紫》因技术问题引发争议；《Pokémon Sleep》《Pokémon Smile》将宝可梦融入日常。"
+dek: "株式会社宝可梦首席运营官宇都宫崇人谈品牌延续与全球扩张。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "媒体组合"
+- "海外展开"
+mentions:
+  people:
+  - "宇都宫崇人"
+  - "田尻智"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 剑·盾"
+  - "Pokémon GO"
+  - "Pokémon Sleep"
+  - "Pokémon Smile"
+  - "宝可梦 动画系列"
 ---
 <!-- 自动对齐双语访谈归档：PKMN-0855 -->

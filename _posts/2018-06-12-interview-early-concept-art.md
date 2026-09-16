@@ -296,4 +296,16 @@ parallel_items:
   original: Return to Pokémon Red & Blue Index
   translation: 返回《宝可梦 红/蓝》索引
   note: 《宝可梦 红/蓝》是初代宝可梦游戏的名称，官方中文译名为《宝可梦 红/绿》和《宝可梦 蓝》，但此处原文为Red & Blue，故保留“红/蓝”。
+summary: "本文由 GlitterBerri 于 2013 年发布，介绍《宝可梦 红／绿／蓝》的灵感来源并翻译早期概念美术。文中提到 1989 年任天堂发布 Game Boy，5 天后田尻智与杉森建将同人杂志《Game Freak》转为游戏公司；田尻受《The Final Fantasy Legend》与 Game Boy 联机功能启发，构想可交换怪兽的游戏，并从《奥特赛文》获得胶囊怪兽灵感。1990 年秋他携企划案赴任天堂获资助；因商标问题，名称由 Capsule Monsters、Capumon 改为 Pocket Monsters。文中还引用 2009 年出版的《田尻智：创造宝可梦的男人》（ISBN 4840127751），并列出 16 页概念图目录。"
+dek: "梳理《宝可梦 红／绿》早期企划与概念美术的翻译存档。"
+topics:
+- "开发流程"
+- "角色设计"
+- "系统设计"
+- "通信功能"
+- "地区设定"
+mentions:
+  people:
+  - "田尻智"
+  works: []
 ---

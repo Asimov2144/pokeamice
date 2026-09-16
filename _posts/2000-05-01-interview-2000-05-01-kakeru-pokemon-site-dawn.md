@@ -634,4 +634,22 @@ original_title: インターネットにおけるポケモンサイト黎明期�
 original_link: http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm
 translator: Poke Amice Studio
 interviewee: 田尻智、增田顺一
+summary: "本文回顾了1996年至1999年互联网上宝可梦网站的黎明期，重点在《宝可梦 金·银》发售前。作者以自身记忆和WebArchive存档为基础，梳理了任天堂官网、Game Freak官网及个人粉丝网站的开设时间，介绍了“宝可梦发烧友俱乐部”“hiwasa's game page”“奥布里工房”等代表性网站，并提及梦幻漏洞、个体值与努力值的命名、任天堂Space World 97试玩报告、宝可梦竞技场对战研究、宝可梦同人志事件等具体事实。"
+dek: "追溯金银发售前互联网宝可梦网站的兴起与早期社区生态。"
+topics:
+- "开发流程"
+- "系统设计"
+- "通信功能"
+- "媒体组合"
+- "卡牌"
+mentions:
+  people:
+  - "杉森建"
+  - "石原恒和"
+  - "久保雅一"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦竞技场"
+  - "宝可梦竞技场2"
+  - "宝可梦 动画系列"
 ---

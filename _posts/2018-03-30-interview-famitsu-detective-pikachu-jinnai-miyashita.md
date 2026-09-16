@@ -453,7 +453,32 @@ parallel_items:
 - original: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.ポケットモンスター・ポケモン・Pokemon・名探偵ピカチュウは、任天堂・クリーチャーズ・ゲームフリークの登録商標です。
   translation: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.宝可梦・Pokemon・名侦探皮卡丘是任天堂、Creatures、GAME FREAK的注册商标。
 entities:
+  people:
+  - "阵内弘之"
+  - "宫下尚生"
   works:
   - 名侦探皮卡丘
 original_lang: ja
+summary: "2018年3月23日发售的任天堂3DS游戏《名侦探皮卡丘》制作人阵内弘之与导演宫下尚生（均属Creatures）接受Fami通采访，谈本作以电影式冒险形式讲述蒂姆与自称名侦探、由大川透配音的大叔嗓音皮卡丘共同解决事件。文中提及企划源于冒险游戏类型空白与养狗经历，去除对战要素、参考图鉴设计诡计、加入协助模式，采用全语音CG动画与动作捕捉，amiibo为特大尺寸，宝可梦中心早期购买特典附阵内执笔的第0章。"
+dek: "Creatures主创谈大叔皮卡丘的诞生与莱姆市设计"
+topics:
+- "角色设计"
+- "地区设定"
+- "开发流程"
+- "系统设计"
+- "媒体组合"
+mentions:
+  people:
+  - "阵内弘之"
+  - "宫下尚生"
+  - "大川透"
+  - "大谷育江"
+  - "柳泽康敬"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 X·Y"
+  - "宝可梦 究极之日／究极之月"
+  - "宝可梦巡护员"
+  - "宝可梦乐园"
+  - "宝可梦 动画系列"
 ---

@@ -166,6 +166,23 @@ source:
   title: Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后
   url: https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html
 entities:
+  people:
+  - "景山将太"
   works:
   - 宝可梦 黑·白
+summary: "2010年Steinberg编辑部专访GAME FREAK声音设计师景山将太，谈《宝可梦 黑／白》音频工作流。景山2007年入职，曾参与《宝可梦 心金／魂银》《任天堂明星大乱斗X》《弧光之源》。声音团队四人，全员统一使用Cubase与Windows 7 64bit，并列出Omnisphere、KOMPLETE 6、Waves Platinum等插件。他负责统括《黑／白》声音，采用交互式声音手法；本作新增100只以上宝可梦，含角色共600只以上，叫声全部新制，早期宝可梦叫声从Game Boy采样保留。原声CD改为2次循环，共4张碟。"
+dek: "GAME FREAK 声音团队谈《宝可梦 黑／白》的 Cubase 工作流与叫声设计"
+topics:
+- "音乐制作"
+- "开发流程"
+- "系统设计"
+- "声音设计"
+- "原声带"
+mentions:
+  people:
+  - "景山将太"
+  - "光田康典"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 心金·魂银"
 ---

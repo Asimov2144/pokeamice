@@ -543,4 +543,7 @@ parallel_items:
   speaker: 中川翔子
   role: question
 image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/thumb.jpg
+entities:
+  people:
+  - "西田敦子"
 ---

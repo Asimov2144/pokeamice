@@ -24,6 +24,13 @@ tags:
 - 梦幻
 - 咕咕
 entities:
+  people:
+  - "增田顺一"
+  - "石原恒和"
+  - "杉森建"
+  - "森本茂树"
+  - "太田健程"
+  - "一之濑刚"
   works:
   - 宝可梦 金·银
 era_skin: '1999'
@@ -60,7 +67,7 @@ parallel_items:
   original: Programmer and monster designer since Gen 1, later went on to direct Emerald, HeartGold, and SoulSilver
   translation: 自第一世代起担任程序员与宝可梦设计师，后执导《绿宝石》《心金／魂银》。
   role: answer
-- speaker: 太田健典
+- speaker: 太田健程
   original: Programmer for Generations 1-3
   translation: 第一至第三世代程序员
   role: answer
@@ -132,7 +139,7 @@ parallel_items:
   original: Ichinose:“This is the first Pokémon game I have worked on, and it was a challenge for me to learn about and stay true to the atmosphere of the original Pokémon games.”
   translation: 一之濑：“这是我参与制作的第一款宝可梦游戏，对我来说，既要了解并忠实于原版宝可梦游戏的氛围，又要在此基础上有所创新，是一大挑战。”
   role: answer
-- speaker: 太田健典
+- speaker: 太田健程
   original: Ota:“I was in charge of programming. I tried to make a programming  system that was easier to use. I was able to make some changes, but not all, because we were under a very tight schedule.”
   translation: 太田：我负责程序方面。我尝试构建一套更易于使用的编程体系。我得以做出一些改动，但并非全部，因为我们的日程非常紧张。
   role: answer
@@ -196,7 +203,7 @@ parallel_items:
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Hoot.png
   caption: 咕咕（Hoothoot）的单足与钟表齿轮造型：杉森建童年爱鸟单足倒换的生物习性与游戏中黑夜报时的钟摆意象完美相融。
   alt: 咕咕设计概念
-- speaker: 太田健典
+- speaker: 太田健程
   original: Ota:“Charmander. Fire-types are cool! I also like Cyndaquil, the new Fire-type Pokémon.”
   translation: 太田：“小火龙。火系宝可梦太帅了！我也很喜欢《金／银》里新出的火系宝可梦火球鼠。”
   role: answer
@@ -238,4 +245,26 @@ interviewee: Nintendo Power, 一之濑刚, 增田顺一, 太田健典, 杉森建
 source:
   title: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)
   url: https://lavacutcontent.com/sugimori-hundreds-pokemon-cut/
+summary: "2000 年《Nintendo Power》第 134 期圆桌访谈，受访者为《宝可梦 金／银》助理总监兼作曲增田顺一、制作人石原恒和、艺术总监杉森建，以及程序员森本茂树、太田健典、作曲一之濑刚。三人谈到《金／银》约 20 人团队、自红绿完成后启动、历时约三年半，与红／绿／蓝／皮卡丘兼容及除错是主要难点；杉森建称第二世代构思了数百只新宝可梦，最终仅约 100 只进入成品，并提到咕咕源于童年所见的鸟。森本茂树回忆在初代开发结束前两周，利用除错功能移除后空出的约 300 字节将梦幻写入卡带。石原恒和透露已着手《金／银》之后的新正统续作，并希望解决各语言版本无法交换的问题。"
+dek: "《Nintendo Power》2000 年圆桌：金／银团队谈三年半开发与废案。"
+topics:
+- "开发流程"
+- "角色设计"
+- "系统设计"
+- "通信功能"
+- "海外展开"
+mentions:
+  people:
+  - "增田顺一"
+  - "石原恒和"
+  - "杉森建"
+  - "森本茂树"
+  - "太田健典"
+  - "一之濑刚"
+  - "岩田聪"
+  works:
+  - "宝可梦 红·绿"
+  - "宝可梦 红宝石·蓝宝石"
+  - "宝可梦 皮卡丘"
+  - "宝可梦方块"
 ---

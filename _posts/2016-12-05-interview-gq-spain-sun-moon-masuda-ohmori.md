@@ -108,6 +108,24 @@ source:
   title: GQ España
   url: https://www.revistagq.com/noticias/articulos/entrevista-pokemon-sol-luna-creadores/25134
 entities:
+  people:
+  - "增田顺一"
   works:
   - 宝可梦 太阳·月亮
+summary: "《GQ》西班牙2016年专访Game Freak的增田顺一与大森滋。文中提到《宝可梦 太阳／月亮》截至11月底在任天堂3DS平台售出近18.5万份，创下首发纪录；《Pokémon GO》带动系列热度。增田表示游戏核心概念始终是捕捉宝可梦与训练家对战，并谈及首作成功后工作量与团队规模扩大。大森说明阿罗拉地区以夏威夷为灵感，引入地区形态，向《宝可梦 红／蓝》玩家致敬，并称宝可梦已超过800种，设计可能耗时半年。"
+dek: "增田顺一与大森滋谈《太阳／月亮》与宝可梦二十年。"
+topics:
+- "开发流程"
+- "地区设定"
+- "系统设计"
+- "海外展开"
+- "媒体组合"
+mentions:
+  people:
+  - "增田顺一"
+  - "大森滋"
+  works:
+  - "Pokémon GO"
+  - "宝可梦 红·绿"
+  - "宝可梦 动画系列"
 ---

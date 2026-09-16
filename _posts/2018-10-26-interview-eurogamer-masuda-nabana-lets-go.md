@@ -117,7 +117,27 @@ parallel_items:
   role: answer
 interviewee: Eurogamer, 增田顺一, 菜花健作
 entities:
+  people:
+  - "增田顺一"
+  - "菜花健作"
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 original_lang: en
+summary: "2018年，GAME FREAK常务董事增田顺一与3D地图设计主管菜花健作在法兰克福任天堂德国总部接受Eurogamer采访，谈Nintendo Switch新作《宝可梦 Let's Go！皮卡丘／伊布》。该作灵感来自1998年Game Boy《宝可梦 皮卡丘版》，以关都地区为舞台，收录第一世代151只宝可梦及阿罗拉形态，可与《Pokémon GO》联动传送宝可梦并触发美录坦。两人谈及精灵球 Plus控制器、附赠梦幻、通关后151位大师训练家挑战，以及具甲武者耗时六个多月的设计过程。"
+dek: "增田顺一与菜花健作谈《Let's Go！皮卡丘／伊布》与系列未来。"
+topics:
+- "系统设计"
+- "通信功能"
+- "开发流程"
+- "媒体组合"
+- "角色设计"
+mentions:
+  people:
+  - "增田顺一"
+  - "菜花健作"
+  works:
+  - "宝可梦 Let's Go！皮卡丘／伊布"
+  - "宝可梦 皮卡丘版"
+  - "宝可梦 太阳·月亮"
+  - "Pokémon GO"
 ---
