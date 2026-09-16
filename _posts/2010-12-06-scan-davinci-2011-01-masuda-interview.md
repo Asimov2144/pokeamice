@@ -10,19 +10,24 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
+  - 访谈
+  - Game Freak
   - ダ・ヴィンチ
-  - 扫描存档
-  - 日中对照
   - 宝可梦 黑·白
   - 增田顺一
+  - 开发流程
+  - 系统设计
+  - 通信功能
+  - 地区设定
+  - 音乐制作
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: ダ・ヴィンチ
 issue: 2011年1月号（通巻201号）
 publisher: メディアファクトリー
-interviewee: 增田顺一
 interviewer: ダ・ヴィンチ 編集部
-dek: 结合对总监增田顺一的专访，解读时隔4年的完全新作《宝可梦 黑·白》面向大人的魅力。
-summary: 《宝可梦》系列1996年诞生，截至2010年全球累计销量突破1亿5000万套。时隔4年的完全新作《宝可梦 黑·白》以单色调包装、纽约原型的合众地区、100多种新宝可梦和强化的通信功能，从开发初期就意识到成年用户。本文结合总监增田顺一的专访，介绍新作的企划理念、剧本、音乐与推荐书籍。
+dek: 增田顺一谈《宝可梦 黑·白》的企划理念与大人向设计
+summary: 《达·芬奇》2011年1月号刊登《宝可梦 黑·白》特集及GAME FREAK开发部长增田顺一专访。文中回顾系列自1996年《宝可梦 红·绿》至2010年《宝可梦 黑·白》的历史，全球累计销量突破1亿5000万套，《黑·白》日本销量突破400万份。增田谈及以纽约为原型的合众地区、100多只新宝可梦、三打对战与转盘对战、C装置擦肩通信、宝可梦全球连接等，并说明作曲中魁奇思使用恶魔音程、N以素数为主题，另介绍其五本爱读书。
 source_pages: P.132–P.133（2 页，另附封面/目次；2048px 页图）
 source:
   title: 『ダ・ヴィンチ』特集「大人だって『ポケモン』が好き！」＆ 増田順一氏 スペシャルインタビュー
@@ -51,6 +56,8 @@ entities:
     - 增田顺一
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -203,7 +210,7 @@ translation_segments:
     review_status: review
     original: 鮮烈なモノトーンのパッケージ、テキストの漢字表記導入など、見た目からして大人受けしそうだが、より深い部分でも「大人」が意識されている。善悪の二元論では片付けられないメッセージ性の強い物語、遊ぶほどに戦術が広がる戦闘システム、Webサイトと連動したコミュニケーション機能。子どもも楽しめるが、大人こそその深い味わいを噛み締めることができる新生『ポケモン』。かつて熱中した「卒業生」も、これから始める「新入生」も、いざ冒険の地へ！
     translation: 鲜明的单色调包装、文本引入汉字表记等，从外观上就似乎很受大人欢迎，而在更深层的地方也意识到了“大人”。无法用善恶二元论简单概括、信息性强烈的故事，越玩战术越丰富的战斗系统，与网站联动的交流功能。孩子也能乐在其中，但唯有大人才能细细品味其深奥韵味的新生《宝可梦》。无论是曾经热衷的“毕业生”，还是即将开始的“新入生”，都请前往冒险之地！
-  - speaker: 连接并扩展宝可梦的世界！完全新作《宝可梦 黑》《宝可梦 白》
+  - speaker: 连接并扩展宝可梦的世界！完全新作《宝可梦 黑》《宝可梦 白》 大幅强化通信功能
     type: heading
     kind: text
     region_type: heading
@@ -212,18 +219,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: つなげて広げるポケモンの世界！完全新作『ポケットモンスターブラック』『ポケットモンスターホワイト』
-    translation: ""
-  - speaker: 大幅强化通信功能
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p132_pokemon_bw_special-h17
-    order: 17
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: 通信機能を大幅強化
+    original: つなげて広げるポケモンの世界！完全新作『ポケットモンスターブラック』『ポケットモンスターホワイト』 通信機能を大幅強化
     translation: ""
   - speaker: body
     type: paragraph
@@ -471,7 +467,7 @@ translation_segments:
     review_status: review
     original: 主人公の行く先々に現われる謎の青年。ポケモンの解放を訴え、自らの正しさを確かめるために行動している。
     translation: 在主角所到之处出现的神秘青年。他主张解放宝可梦，并为确认自身的正确性而行动。
-  - speaker: 为更深入享受《宝可梦》的BOOK＆DVD
+  - speaker: 为更深入享受《宝可梦》的BOOK＆DVD DVD
     type: heading
     kind: text
     region_type: heading
@@ -480,18 +476,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: 『ポケットモンスター』をもっと楽しむためのBOOK＆DVD
-    translation: ""
-  - speaker: DVD
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p132_pokemon_bw_special-h43
-    order: 43
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: DVD
+    original: 『ポケットモンスター』をもっと楽しむためのBOOK＆DVD DVD
     translation: ""
   - speaker: body
     type: paragraph
@@ -828,4 +813,19 @@ translation_segments:
     review_status: review
     original: 東洋経済新報社 2039円AppleCEOスティーブ・ジョブズが同社を追放された後、トップに返り咲くまでを描いた非公認ノンフィクション。「ジョブズは他人のことを気にしない人。落ち込んだ時、『あー、ジョブズぐらい自由奔放でもいいのかな』と安心するために読みます（笑）」（増田）
     translation: 东洋经济新报社 2039日元 描写Apple CEO史蒂夫·乔布斯被该公司驱逐后，直到重返顶峰的未授权纪实作品。“乔布斯是不在意别人的人。消沉的时候，我会为了安心而读它，‘啊，像乔布斯那样自由奔放也可以吧’（笑）。”（增田）
+original_title: 『ダ・ヴィンチ』特集「大人だって『ポケモン』が好き！」＆ 増田順一氏 スペシャルインタビュー
+topics:
+  - 开发流程
+  - 系统设计
+  - 通信功能
+  - 地区设定
+  - 音乐制作
+mentions:
+  people: []
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 金·银
+    - 宝可梦 红宝石·蓝宝石
+    - 宝可梦 钻石·珍珠
+interviewee: 增田顺一
 ---

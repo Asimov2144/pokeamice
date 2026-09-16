@@ -10,20 +10,25 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 音乐
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑·白
+  - 景山将太
+  - 音乐制作
+  - 开发流程
+  - 系统设计
+  - 地区设定
+  - 角色设计
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2011年1月号（Vol.201）
 publisher: 毎日コミュニケーションズ
-interviewee: 景山将太、增田顺一、一之濑刚、佐藤仁美、足立美奈子
+interviewee: 景山将太
 interviewer: Nintendo DREAM 編集部
-dek: 《宝可梦 黑·白》声音总监景山将太讲述完全新作的声音理念、四个主题与团队协作。
-summary: 景山将太谈首次担任《宝可梦 黑·白》声音总监的压力与喜悦，讲述提升音质、戏剧化演出、互动式声音、世界音乐表现四个主题，以及声音团队如何以个性表现合众地区的多样文化。
+dek: 景山将太谈《宝可梦 黑·白》声音制作的四个主题
+summary: 《Nintendo DREAM》2011年1月号刊载的《宝可梦 黑·白》声音专题访谈，由GAME FREAK声音总监景山将太讲述首次担任系列声音总监的经历。他提出提升音质、戏剧化演出、互动式声音、以世界音乐表现多样共存四个主题，与程序总监渡边合作重写DS声音程序，融入爱尔兰、西班牙、凯尔特等元素，并强调须升华为《宝可梦》之声。增田顺一负责全部战斗曲及部分道路曲。原声收录173首，超过《宝可梦 钻石·珍珠》。
 source_pages: P.18–P.23（6 页；2048px 页图）
 source:
   title: "ALL ABOUT ポケットモンスターブラック・ホワイト 音 SOUNDS & MUSIC：楽曲魂 特別編"
@@ -50,12 +55,10 @@ scan_set: ndream-2011-01
 entities:
   people:
     - 景山将太
-    - 增田顺一
-    - 一之濑刚
-    - 佐藤仁美
-    - 足立美奈子
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -67,7 +70,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-01-bw-sound-gakkyoku-damashii/pages/p018_bw_sound_interview_kageyama.jpg"
     alt: Nintendo DREAM 2011年1月号（Vol.201） P.18
     review_status: ready
-  - speaker: "接下来是！声音 SOUNDS & MUSIC"
+  - speaker: "接下来是！声音 SOUNDS & MUSIC 传统与革新共存 乐曲魂 特别篇"
     type: heading
     kind: text
     region_type: heading
@@ -76,29 +79,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: "ここからは! 音 SOUNDS & MUSIC"
-    translation: ""
-  - speaker: 传统与革新共存
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p018_bw_sound_interview_kageyama-h3
-    order: 3
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: 伝統と革新が共存す
-    translation: ""
-  - speaker: 乐曲魂 特别篇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p018_bw_sound_interview_kageyama-h4
-    order: 4
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: 楽曲魂 がっきょくだましい 特別編 とくべつへん
+    original: "ここからは! 音 SOUNDS & MUSIC 伝統と革新が共存す 楽曲魂 がっきょくだましい 特別編 とくべつへん"
     translation: ""
   - speaker: "New \"Pokémon Sound\" soul special interview"
     type: heading
@@ -1035,17 +1016,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-01-bw-sound-gakkyoku-damashii/pages/p021_bw_art_director_masuda_aesthetic.jpg"
     alt: Nintendo DREAM 2011年1月号（Vol.201） P.21
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p021_bw_art_director_masuda_aesthetic-h97
-    order: 97
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト
-    translation: ""
   - speaker: 战斗曲 对桥的执着 导演增田先生！
     type: heading
     kind: text
@@ -1651,17 +1621,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-01-bw-sound-gakkyoku-damashii/pages/p023_bw_special_dialogue_sugimori_masuda_part2.jpg"
     alt: Nintendo DREAM 2011年1月号（Vol.201） P.23
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_bw_special_dialogue_sugimori_masuda_part2-h158
-    order: 158
-    scan_page: 5
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト
-    translation: ""
   - speaker: note
     type: paragraph
     kind: text
@@ -2045,4 +2004,22 @@ translation_segments:
     review_status: review
     original: 「違いを受け入れる世界」と「今までにないもの」という大きなテーマを音で表現できたと思います
     translation: ""
+original_title: "ALL ABOUT ポケットモンスターブラック・ホワイト 音 SOUNDS & MUSIC：楽曲魂 特別編"
+topics:
+  - 音乐制作
+  - 开发流程
+  - 系统设计
+  - 地区设定
+  - 角色设计
+mentions:
+  people:
+    - 增田顺一
+    - 一之濑刚
+    - 佐藤仁美
+    - 足立美奈子
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 金·银
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 心金·魂银
 ---

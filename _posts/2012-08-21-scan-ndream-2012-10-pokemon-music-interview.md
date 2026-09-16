@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑2·白2
-  - 音乐
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑2·白2
+  - 一之濑刚
+  - 佐藤仁美
+  - 增田顺一
+  - 音乐制作
+  - 作曲手法
+  - 角色塑造
+  - 开发流程
+  - 系列回顾
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2012年10月号（Vol.222）
 publisher: 毎日コミュニケーションズ
-interviewee: 一之濑刚、佐藤仁美
+interviewee: 一之濑刚、佐藤仁美、增田顺一
 interviewer: Nintendo DREAM 編集部
-dek: 一之濑刚、佐藤仁美与增田顺一畅谈《宝可梦 黑2·白2》的作曲讲究与系列音乐传承。
-summary: 《宝可梦 黑2·白2》音效团队一之濑刚、佐藤仁美与系列音乐创始人增田顺一对谈，讲述阿克罗玛、艾莉丝、魁奇思等曲目的创作构思，回顾《红·绿》战斗曲在音数制约下诞生的经过，并谈及宝可梦音乐今后的进化方向。
+dek: 一之濑刚、佐藤仁美与增田顺一谈宝可梦音乐的作曲讲究
+summary: 《Nintendo DREAM》2012年10月号刊载《宝可梦 黑2·白2》音效设计师一之濑刚、佐藤仁美与自《宝可梦 红·绿》起负责系列音乐的增田顺一的访谈。佐藤讲述阿克罗玛曲以音高升降表现理想与现实、大小调与无调混杂，艾莉丝冠军曲融入龙叫声与双龙市谐音；一之濑谈阿克罗玛战斗曲加入电子音、魁奇思曲配合杖击音效。三人还谈及黑色摩天楼、白色树洞、陌生人之家、劲敌曲等曲目，回顾《宝可梦 红·绿》受三音限制的八分音符战斗曲，以及帝牙卢卡、帕路奇亚长达140至160小节的曲子。
 source_pages: P.28–P.29（2 页；2048px 页图）
 source:
   title: 特濃！！ポケモン音楽インタビュー さらなる進化を目指して…
@@ -51,8 +58,11 @@ entities:
   people:
     - 一之濑刚
     - 佐藤仁美
+    - 增田顺一
   works:
     - 宝可梦 黑2·白2
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -64,7 +74,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2012-10-pokemon-music-interview/pages/p028_sound_interview.jpg"
     alt: Nintendo DREAM 2012年10月号（Vol.222） P.28
     review_status: ready
-  - speaker: 特浓！！宝可梦音乐访谈
+  - speaker: 特浓！！宝可梦音乐访谈 以进一步的进化为目标……
     type: heading
     kind: text
     region_type: heading
@@ -73,18 +83,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: "特濃!! ポケモン音楽インタビュー"
-    translation: ""
-  - speaker: 以进一步的进化为目标……
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_sound_interview-h3
-    order: 3
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: さらなる進化を目指して…
+    original: "特濃!! ポケモン音楽インタビュー さらなる進化を目指して…"
     translation: ""
   - speaker: body
     type: paragraph
@@ -927,4 +926,23 @@ translation_segments:
     review_status: review
     original: ※「終止」は音楽用語で、音楽の段落の終わりのこと。さまざまな形の終わり方があるが、「アーメン終止」は讃美歌の最後に唱えられる「アーメン」に用いられることから命名されており、古典的な楽曲の最後に用いられることが多い。
     translation: ※「终止」是音乐术语，指音乐段落的结尾。结尾方式有多种形式，其中「阿门终止」因用于赞美诗结尾所唱的「阿门」而得名，多用于古典乐曲的结尾。
+original_title: 特濃！！ポケモン音楽インタビュー さらなる進化を目指して…
+topics:
+  - 音乐制作
+  - 作曲手法
+  - 角色塑造
+  - 开发流程
+  - 系列回顾
+mentions:
+  people:
+    - 杉森建
+    - 海野隆雄
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 金·银
+    - 宝可梦 红宝石·蓝宝石
+    - 宝可梦 绿宝石
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 白金
+    - 宝可梦 黑·白
 ---

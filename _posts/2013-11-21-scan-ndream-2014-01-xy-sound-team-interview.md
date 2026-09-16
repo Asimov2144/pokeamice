@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 X·Y
-  - 音乐
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 X·Y
+  - 景山将太
+  - 佐藤仁美
+  - 足立美奈子
+  - 音乐制作
+  - 开发流程
+  - 地区设定
+  - 声音设计
+  - 现场演奏
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2014年1月号（Vol.237）
 publisher: 徳間書店
 interviewee: 景山将太、佐藤仁美、足立美奈子
 interviewer: Nintendo DREAM 編集部
-dek: GAME FREAK声音团队讲述《宝可梦 X·Y》从一人起步的三年开发，以及如何用声音描绘卡洛斯。
-summary: 景山将太、佐藤仁美、足立美奈子回顾《宝可梦 X·Y》近三年的声音制作：从一人起步，到以法国为原型的卡洛斯取材，围绕「美」与「破坏」确立「像宝可梦」的声音，并谈及娑罗市、道馆馆主战与吉他现场录音。
+dek: 《宝可梦 X·Y》声音团队谈3年开发与「像宝可梦」的声音
+summary: 《宝可梦 X·Y》声音团队访谈，景山将太、佐藤仁美、足立美奈子三人回顾2010年10月启动、历时约3年的开发。景山任声音总监，初期独自摸索3DS流媒体表现并赴法国取材，以「美」与「羁绊」为主题，闪焰队相关曲子由足立负责，成为团队重新讨论「像宝可梦」声音的契机。增田顺一创作的道馆馆主战曲最早完成，采用现场吉他录音。佐藤负责娑罗市等曲目，并参与《来一曲如何？》演奏。访谈还谈及原声带《超级音乐收藏》收录216分钟乐曲。
 source_pages: P.20–P.25（6 页，另附封面/目次；2048px 页图）
 source:
   title: 『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編
@@ -54,6 +61,8 @@ entities:
     - 足立美奈子
   works:
     - 宝可梦 X·Y
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -440,17 +449,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-xy-sound-team-interview/pages/p021_interview.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.21
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p021_interview-h39
-    order: 39
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
   - speaker: 什么是“像宝可梦”的声音
     type: heading
     kind: text
@@ -1308,17 +1306,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-xy-sound-team-interview/pages/p023_interview.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.23
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_interview-h125
-    order: 125
-    scan_page: 5
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
   - speaker: ──
     type: paragraph
     kind: text
@@ -2093,7 +2080,7 @@ translation_segments:
     review_status: review
     original: つまりありふれてて、どこにあっても同じ、というのではない音楽。ちゃんと「意図」があって、音が意味を持っている。そういう曲であれば、誰がどんな曲を作って入れてもいいと思うんです。
     translation: 也就是说，不是那种随处可见、放在哪里都一样的音乐。要有明确的「意图」，让声音带有意义。只要是这样的曲子，我觉得无论谁来写、写什么样的曲子放进去都可以。
-  - speaker: 所有「声音」都有意义，才与「像宝可梦」相通
+  - speaker: 所有「声音」都有意义，才与「像宝可梦」相通 对朋友与演出的热情
     type: heading
     kind: text
     region_type: heading
@@ -2102,18 +2089,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: すべての「音」に意味があることが「ポケモンらしさ」につながる
-    translation: ""
-  - speaker: 对朋友与演出的热情
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p024_interview-h204
-    order: 204
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ともだちと演出への熱意
+    original: すべての「音」に意味があることが「ポケモンらしさ」につながる ともだちと演出への熱意
     translation: ""
   - speaker: 景山将太
     type: paragraph
@@ -2708,4 +2684,21 @@ translation_segments:
     review_status: review
     original: 216分の大ボリュームで現在発売中の「ニンテンドー3DS ポケモン X・Yスーパーミュージックコレクション」。ゲームに使われたすべての曲はもちろん、「ポケットモンスター ジ・オリジン」の一部の楽曲も収録！■発売：ポケモン ■価格：2625円（込）
     translation: 收录时长高达216分钟、目前正在发售的「任天堂3DS 宝可梦 X・Y 超级音乐收藏」。不仅收录了游戏中使用的全部乐曲，还收录了「宝可梦 THE ORIGIN」的部分乐曲！■发售：宝可梦 ■价格：2625日元（含税）
+original_title: 『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編
+topics:
+  - 音乐制作
+  - 开发流程
+  - 地区设定
+  - 声音设计
+  - 现场演奏
+mentions:
+  people:
+    - 增田顺一
+    - 一之濑刚
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 心金·魂银
+    - 宝可梦 黑·白
+    - 宝可梦 黑2·白2
 ---

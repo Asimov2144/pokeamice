@@ -10,20 +10,24 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
+  - 访谈
+  - Game Freak
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 黑·白
-  - 角色设计
   - 大村祐介
+  - 角色设计
+  - 开发流程
+  - 宝可梦设计
+  - 道馆馆主
+  - 采访
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2011年5月号（Vol.205）
 publisher: 毎日コミュニケーションズ
-interviewee: 大村祐介
 interviewer: Nintendo DREAM 編集部
-dek: 《宝可梦 黑·白》人物设计师大村祐介讲述角色创作背后的想法。
-summary: GAME FREAK的大村祐介谈《宝可梦 黑·白》的人物设计。他讲述从怪兽画到入职的经历，分享区分描绘道馆馆主等角色的方法、宝可梦式设计的要点，以及创作角色时重视设定与人性魅力的心得。
+dek: 《宝可梦 黑·白》人物设计者大村祐介谈角色创作
+summary: 《Nintendo DREAM》2011年5月号「角色之神 SPECIAL」第27回采访GAME FREAK的大村祐介，他2005年入职，曾负责《宝可梦 钻石·珍珠》《宝可梦 心金·魂银》的宝可梦设计与2D图形，在《宝可梦 黑·白》中首次负责人物角色设计。他谈到自己受怪兽电影与《新世纪福音战士》影响走上绘画道路，并讲述道馆馆主、北尚南厦、风露、婉龙、小菊儿、白露等角色的区分描绘方法、配色与设定思路，以及「不过于完美」的宝可梦设计要点。文末附7个简短问答，提及市川春子、《龙战士V》等。
 source_pages: P.82–P.84（3 页；2048px 页图）
 source:
   title: 第27回 キャラかみ SPECIAL：大村祐介さん 『ポケットモンスターブラック・ホワイト』人物キャラクターメイキング
@@ -52,6 +56,8 @@ entities:
     - 大村祐介
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -63,7 +69,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-ohmura-character-making/pages/p082_ohmura_character_making_special_1.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.82
     review_status: ready
-  - speaker: 本月的神级人物！---▶大村祐介
+  - speaker: 本月的神级人物！---▶大村祐介 简介
     type: heading
     kind: text
     region_type: heading
@@ -72,18 +78,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: 今月の神サマ！---▶大村祐介さん
-    translation: ""
-  - speaker: 简介
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p082_ohmura_character_making_special_1-h3
-    order: 3
-    scan_page: 0
-    heading_level: 3
-    review_status: review
-    original: Profile
+    original: 今月の神サマ！---▶大村祐介さん Profile
     translation: ""
   - speaker: body
     type: paragraph
@@ -461,4 +456,18 @@ translation_segments:
     review_status: review
     original: "シキミ\nVS\nアララギ\nDS\n『ポケットモンスター\nブラック・ホワイト』\n(株)ポケモン\n2010年9月18日発売 各4800円"
     translation: "婉龙\nVS\n红豆杉\nDS\n《宝可梦\n黑·白》\n宝可梦株式会社\n2010年9月18日发售 各4800日元"
+original_title: 第27回 キャラかみ SPECIAL：大村祐介さん 『ポケットモンスターブラック・ホワイト』人物キャラクターメイキング
+topics:
+  - 角色设计
+  - 开发流程
+  - 宝可梦设计
+  - 道馆馆主
+  - 采访
+mentions:
+  people:
+    - 杉森建
+  works:
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 心金·魂银
+interviewee: 大村祐介
 ---

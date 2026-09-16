@@ -10,20 +10,25 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
+  - 访谈
+  - Game Freak
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 黑·白
   - 增田顺一
-  - Game Freak
+  - 地区设定
+  - 系统设计
+  - 开发流程
+  - 通信功能
+  - 音乐制作
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2011年4月号（Vol.204）
 publisher: 毎日コミュニケーションズ
 interviewee: 增田顺一
 interviewer: Nintendo DREAM 編集部
-dek: 《宝可梦 黑·白》总监增田顺一讲述游戏中桥梁的设计理念与幕后故事。
-summary: 增田顺一在访谈中讲述《宝可梦 黑·白》中天箭桥、连入之桥等桥梁的设计理念，谈及纽约布鲁克林大桥与彩虹大桥的影响、连入以皇居为意象，以及造桥与做游戏在权衡取舍上的相通之处。
+dek: 增田顺一谈《宝可梦 黑·白》中桥梁的设计与用意
+summary: 《Nintendo DREAM》2011年4月号刊载对《宝可梦 黑·白》总监增田顺一的访谈，主题为游戏中桥梁的设计。增田讲述合众地区以纽约为原型、构想始于2006年前后，天箭桥参考布鲁克林大桥与彩虹大桥并融入高迪风格，设计返工约3次；连入以皇居为意象，对战地铁线路图避开其下方；帆巴吊桥、村庄桥、圆筒桥、奇幻桥各有原型与考量。他还谈到造桥与做游戏的相通之处，并提及一之濑刚负责声音玩法。
 source_pages: P.80–P.83（4 页；2048px 页图）
 source:
   title: 増田順一さんが語る『ポケットモンスターブラック・ホワイト』橋 誕生秘話
@@ -52,6 +57,8 @@ entities:
     - 增田顺一
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -63,7 +70,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-masuda-bridges/pages/p080_bw_interview_masuda_bridges_part1.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.80
     review_status: ready
-  - speaker: 增田顺一讲述
+  - speaker: 增田顺一讲述 宝可梦 黑·白 桥梁诞生秘话
     type: heading
     kind: text
     region_type: heading
@@ -72,29 +79,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: 増田順一さんが語る
-    translation: ""
-  - speaker: 宝可梦 黑·白
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p080_bw_interview_masuda_bridges_part1-h3
-    order: 3
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスターブラック・ホワイト
-    translation: ""
-  - speaker: 桥梁诞生秘话
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p080_bw_interview_masuda_bridges_part1-h4
-    order: 4
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: 橋 誕生秘話
+    original: 増田順一さんが語る ポケットモンスターブラック・ホワイト 橋 誕生秘話
     translation: ""
   - speaker: body
     type: paragraph
@@ -333,17 +318,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-masuda-bridges/pages/p081_bw_interview_masuda_bridges_part2.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.81
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p081_bw_interview_masuda_bridges_part2-h28
-    order: 28
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
-    translation: ""
   - speaker: 对天箭桥的讲究
     type: heading
     kind: text
@@ -517,7 +491,7 @@ translation_segments:
     review_status: review
     original: ←イッシュ地方のイラストマップを改めて見ると、確かにハイリンクの左右には同じ形の山がある。同じ『ポケモンB・W』であると同時に他プレイヤーの別世界でもあるという…ある意味パラレルワールド的なイメージなのかな
     translation: ←重新看合众地区的地图插画，确实连入的左右各有一座形状相同的山。既是同一款《宝可梦B・W》，同时又是其他玩家的另一个世界……某种意义上或许是一种平行世界式的意象吧
-  - speaker: 注目连入左右的山
+  - speaker: 注目连入左右的山 连接另一个世界的连入之桥
     type: heading
     kind: text
     region_type: heading
@@ -526,18 +500,7 @@ translation_segments:
     scan_page: 1
     heading_level: 3
     review_status: review
-    original: ハイリンクの左右の山に注目
-    translation: ""
-  - speaker: 连接另一个世界的连入之桥
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p081_bw_interview_masuda_bridges_part2-h47
-    order: 47
-    scan_page: 1
-    heading_level: 3
-    review_status: review
-    original: 別世界をつなぐハイリンクの橋
+    original: ハイリンクの左右の山に注目 別世界をつなぐハイリンクの橋
     translation: ""
   - speaker: ──
     type: paragraph
@@ -927,17 +890,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-masuda-bridges/pages/p083_bw_interview_masuda_bridges_part4.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.83
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p083_bw_interview_masuda_bridges_part4-h86
-    order: 86
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
-    translation: ""
   - speaker: 我觉得也有“不自由的乐趣”
     type: heading
     kind: text
@@ -1254,4 +1206,19 @@ translation_segments:
     review_status: review
     original: それは私も考えました。ポケモンの「そらをとぶ」があるので自動車はいらないかなとも思ったのですが、あんまり人数が多いと途中で落ちちゃうかもしれないので（笑）、バスは必要だろう、とか。あと大きな荷物の運搬とか「それポケモンを使うのはかわいそうだろう」ということには、トラックを使うでしょうし。今回社会とのかかわりもある程度描いておきたかったので、車や船、飛行機も出しています。
     translation: 这一点我也想过。因为宝梦有「飞翔」，我一度觉得不需要汽车，但人数太多的话途中可能会掉下来（笑），所以巴士还是需要的吧。另外，像搬运大件行李这类「用宝可梦来做太可怜了」的事情，就会用卡车吧。这次我也想在一定程度上描绘与社会的关系，所以也让汽车、船和飞机出场了。
+original_title: 増田順一さんが語る『ポケットモンスターブラック・ホワイト』橋 誕生秘話
+topics:
+  - 地区设定
+  - 系统设计
+  - 开发流程
+  - 通信功能
+  - 音乐制作
+mentions:
+  people:
+    - 杉森建
+    - 石原恒和
+    - 一之濑刚
+    - 岩田聪
+  works:
+    - 宝可梦 心金·魂银
 ---

@@ -10,18 +10,22 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
+  - 杂志特辑
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 X·Y
-  - 超级进化
+  - 系统设计
+  - 攻略
+  - 角色设计
+  - 音乐制作
+  - 开发流程
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM
 issue: 2014年1月号（Vol.237）
 publisher: 徳間書店
 interviewer: Nintendo DREAM 編集部
-dek: Nintendo DREAM 2014年1月号特辑的新宝可梦编：12只超级进化宝可梦的特性与对战用法，附至第五道馆的故事攻略页。
-summary: 本帖为 2014年1月号《宝可梦 X·Y》特辑的新宝可梦编（P.6–P.10）：介绍新公开的12只超级进化宝可梦，由编辑部以对谈形式讲解其特性与对战用法；附录收同期的故事攻略编（P.11–P.15，石香镇至香薰市）。密阿雷市观光指南与声音团队访谈另成两帖。
+dek: 《宝可梦 X·Y》22页特辑：超级进化解析、流程攻略与音效团队访谈。
+summary: 《Nintendo DREAM》2014年1月号（Vol.237）的《宝可梦 X·Y》22页特辑，由编辑部角色Mister M、Hiropon、Masato以问答形式解析新公开的12只超级进化宝可梦，说明超级进化每场对战每队仅限一只、超级石在《宝可梦 X》与《宝可梦 Y》中分配不同，并介绍超级暴鲤龙、超级胡地、超级凯罗斯等的能力与特性变化。攻略篇覆盖石香镇至14号道路、密阿雷市观光与第五个道馆，附野生宝可梦数据。访谈篇为原声带发售纪念，直击GAME FREAK音效团队，提及声音总监景山将太与增田顺一。
 source_pages: P.6–P.15（10 页；2048px 页图）
 source:
   title: 『ポケットモンスター Ｘ・Ｙ』新ポケモン編 メガシンカポケモンを徹底解明！＆ストーリー攻略編
@@ -49,6 +53,7 @@ entities:
   people: []
   works:
     - 宝可梦 X·Y
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -60,7 +65,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-mega-evolution-special/pages/p006_mega.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.6
     review_status: ready
-  - speaker: 最新宝可梦情报
+  - speaker: 最新宝可梦情报 地图攻略 音效团队访谈
     type: heading
     kind: text
     region_type: heading
@@ -69,29 +74,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: 最新ポケモン情報
-    translation: ""
-  - speaker: 地图攻略
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p006_mega-h3
-    order: 3
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: マップ攻略
-    translation: ""
-  - speaker: 音效团队访谈
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p006_mega-h4
-    order: 4
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: サウンドチームインタビュー
+    original: 最新ポケモン情報 マップ攻略 サウンドチームインタビュー
     translation: ""
   - speaker: 宝可梦 X POKéMON
     type: heading
@@ -135,7 +118,7 @@ translation_segments:
     review_status: review
     original: 全力サポートガイドALLトレーナーバトルも冒険も100％楽しむ！
     translation: ""
-  - speaker: 目标最强训练家！新的超级进化
+  - speaker: 目标最强训练家！新的超级进化 新宝可梦篇
     type: heading
     kind: text
     region_type: heading
@@ -144,18 +127,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: 目指せ最強トレーナー！新たなメガシンカ
-    translation: ""
-  - speaker: 新宝可梦篇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p006_mega-h10
-    order: 10
-    scan_page: 0
-    heading_level: 3
-    review_status: review
-    original: 新ポケモン編
+    original: 目指せ最強トレーナー！新たなメガシンカ 新ポケモン編
     translation: ""
   - speaker: body
     type: paragraph
@@ -555,7 +527,7 @@ translation_segments:
     review_status: review
     original: 戦闘機を持ち上げるほどのパワーを持つ。上昇した体温は、腹部や腕の外殻を開いて放熱する。
     translation: 拥有足以举起战斗机的力量。上升的体温会通过打开腹部和手臂的外壳来散热。
-  - speaker: 超级凯罗斯
+  - speaker: 超级凯罗斯 虫 飞行
     type: heading
     kind: text
     region_type: heading
@@ -564,18 +536,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: メガカイロス
-    translation: ""
-  - speaker: 虫 飞行
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p008_mega-h51
-    order: 51
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: むし ひこう
+    original: メガカイロス むし ひこう
     translation: ""
   - speaker: body
     type: paragraph
@@ -740,7 +701,7 @@ translation_segments:
     review_status: review
     original: メガシンカ
     translation: 超级进化
-  - speaker: 超级黑鲁加
+  - speaker: 超级黑鲁加 恶 火
     type: heading
     kind: text
     region_type: heading
@@ -749,18 +710,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: メガヘルガー
-    translation: ""
-  - speaker: 恶 火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p008_mega-h69
-    order: 69
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: あく ほのお
+    original: メガヘルガー あく ほのお
     translation: ""
   - speaker: body
     type: paragraph
@@ -792,7 +742,7 @@ translation_segments:
     review_status: review
     original: より高熱を発せられるようになり、その影響でツメの先端が赤くなっている。
     translation: 能够发出更高的热量，受此影响爪尖变成了红色。
-  - speaker: 超级关注点！
+  - speaker: 超级关注点！ 超级雷电兽＆超级黑鲁加
     type: heading
     kind: text
     region_type: heading
@@ -801,18 +751,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: "ここにメガ注目!"
-    translation: ""
-  - speaker: 超级雷电兽＆超级黑鲁加
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p008_mega-h74
-    order: 74
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: "メガライボルト&メガヘルガー"
+    original: "ここにメガ注目! メガライボルト&メガヘルガー"
     translation: ""
   - speaker: body
     type: paragraph
@@ -874,17 +813,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-mega-evolution-special/pages/p009_mega.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.9
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p009_mega-h81
-    order: 81
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
   - speaker: note
     type: paragraph
     kind: text
@@ -1722,7 +1650,7 @@ translation_segments:
     review_status: review
     original: ユキノオー
     translation: 暴雪王
-  - speaker: 这里值得关注超级进化！
+  - speaker: 这里值得关注超级进化！ 超级暴雪王
     type: heading
     kind: text
     region_type: heading
@@ -1731,18 +1659,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: "ここにメガ注目!"
-    translation: ""
-  - speaker: 超级暴雪王
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p010_mega-h166
-    order: 166
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: メガユキノオー
+    original: "ここにメガ注目! メガユキノオー"
     translation: ""
   - speaker: body
     type: paragraph
@@ -1880,7 +1797,7 @@ translation_segments:
     review_status: review
     original: ショウヨウシティジムでバッジを取得したら、セキタイタウンへと向かう。この辺りから、フレア団の行動が目立ち始める。何かを企んでいるのは確かなようだが…。
     translation: 在遥香市道馆取得徽章后，前往石香镇。从这一带开始，闪焰队的行动开始引人注目。他们确实在谋划着什么，不过……
-  - speaker: 石香镇
+  - speaker: 石香镇 11号道路
     type: heading
     kind: text
     region_type: heading
@@ -1889,18 +1806,7 @@ translation_segments:
     scan_page: 5
     heading_level: 3
     review_status: review
-    original: セキタイタウン
-    translation: ""
-  - speaker: 11号道路
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p011_walkthrough-h181
-    order: 181
-    scan_page: 5
-    heading_level: 3
-    review_status: review
-    original: 11番道路
+    original: セキタイタウン 11番道路
     translation: ""
   - speaker: note
     type: paragraph
@@ -2229,7 +2135,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-mega-evolution-special/pages/p013_walkthrough.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.13
     review_status: ready
-  - speaker: 蔚蓝湾
+  - speaker: 蔚蓝湾 出现宝可梦数据
     type: heading
     kind: text
     region_type: heading
@@ -2238,18 +2144,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: アズール湾
-    translation: ""
-  - speaker: 出现宝可梦数据
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p013_walkthrough-h215
-    order: 215
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: 出現ポケモンデータ
+    original: アズール湾 出現ポケモンデータ
     translation: ""
   - speaker: note
     type: paragraph
@@ -2753,17 +2648,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-mega-evolution-special/pages/p015_walkthrough.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.15
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p015_walkthrough-h265
-    order: 265
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
   - speaker: 07 在比翼市前对战
     type: heading
     kind: text
@@ -3373,4 +3257,17 @@ translation_segments:
     review_status: review
     original: 岩 …「いわくだき」で出現　　水 …「なみのり」中に出現　　和 …「ボロのつりざお」で釣る　　良 …「いいつりざお」で釣る
     translation: 岩 …用「碎岩」出现　　水 …「冲浪」中出現　　和 …用「破旧钓竿」钓　　良 …用「好钓竿」钓
+original_title: 『ポケットモンスター Ｘ・Ｙ』新ポケモン編 メガシンカポケモンを徹底解明！＆ストーリー攻略編
+topics:
+  - 系统设计
+  - 攻略
+  - 角色设计
+  - 音乐制作
+  - 开发流程
+mentions:
+  people:
+    - 景山将太
+    - 增田顺一
+  works:
+    - 宝可梦 黑·白
 ---

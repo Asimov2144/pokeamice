@@ -10,18 +10,26 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
+  - 杂志特辑
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 黑2·白2
-  - Game Freak
+  - 海野隆雄
+  - 佐藤仁美
+  - 增田顺一
+  - 一之濑刚
+  - 系统设计
+  - 通信功能
+  - 开发流程
+  - 音乐制作
+  - 攻略
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM
 issue: 2012年10月号（Vol.222）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 編集部
-dek: 新要素攻略与GAME FREAK开发人员访谈，讲述庆典任务与宝可坞的诞生经过。
-summary: 介绍《宝可梦 黑2·白2》庆典任务与宝可坞的攻略要点，并收录增田顺一、海野隆雄等GAME FREAK成员的访谈，讲述连入玩法进化与宝可坞企划的由来。
+dek: 《宝可梦 黑2·白2》新要素攻略与开发秘闻
+summary: 2012年《Nintendo DREAM》10月号刊载《宝可梦 黑2·白2》新要素攻略与开发秘闻。GAME FREAK的增田顺一、海野隆雄、一之濑刚、佐藤仁美受访，谈庆典任务、宝可坞、PWT等新要素。海野称庆典任务源于连入之树玩法的进化，企划书写着「1人也行100人也行」，公司内约50人曾一起游玩；宝可坞以绿幕拍摄设定容纳放飞剧本，兼作对战入门；PWT源于让宝可梦世界锦标赛冠军在游戏内登场的提议，历代训练家以重新编曲的BGM登场。另附传说宝可梦获取与汇合大道店铺攻略。
 source_pages: P.24–P.27（6 页，另附封面/目次；2048px 页图）
 source:
   title: 『ポケットモンスターブラック2・ホワイト2』新要素攻略＋開発秘話：フェスミッション・ポケウッド
@@ -46,9 +54,14 @@ review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工
 pending_review_regions: 298
 scan_set: ndream-2012-10
 entities:
-  people: []
+  people:
+    - 海野隆雄
+    - 佐藤仁美
+    - 增田顺一
+    - 一之濑刚
   works:
     - 宝可梦 黑2·白2
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -141,7 +154,7 @@ translation_segments:
     review_status: review
     original: ゲームフリーク サウンドデザイナー 佐藤仁美さん
     translation: GAME FREAK 音响设计师 佐藤仁美
-  - speaker: 庆典任务 挑战丰富多彩的任务获取报酬！
+  - speaker: 庆典任务 挑战丰富多彩的任务获取报酬！ 在连入中承接任务
     type: heading
     kind: text
     region_type: heading
@@ -150,18 +163,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: フェスミッション バラエティ豊かなミッションに挑戦して報酬ゲット！
-    translation: ""
-  - speaker: 在连入中承接任务
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p024_b2w2_pickup-h11
-    order: 11
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: ハイリンクでミッション受注
+    original: フェスミッション バラエティ豊かなミッションに挑戦して報酬ゲット！ ハイリンクでミッション受注
     translation: ""
   - speaker: body
     type: paragraph
@@ -759,7 +761,7 @@ translation_segments:
     review_status: review
     original: ※のついたミッションは、レベルが上がるとミッション名の数字部分（目標数）が変わります
     translation: 带※的任务在等级提升后，任务名中的数字部分（目标数）会发生变化
-  - speaker: 开发秘话 庆典任务
+  - speaker: 开发秘话 庆典任务 将「共鸣」具现化的新玩法
     type: heading
     kind: text
     region_type: heading
@@ -768,18 +770,7 @@ translation_segments:
     scan_page: 2
     heading_level: 3
     review_status: review
-    original: 開発秘話 フェスミッション
-    translation: ""
-  - speaker: 将「共鸣」具现化的新玩法
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p024_b2w2_pickup-h45
-    order: 45
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: 「共鳴」を具現化する新たな遊び
+    original: 開発秘話 フェスミッション 「共鳴」を具現化する新たな遊び
     translation: ""
   - speaker: ──
     type: paragraph
@@ -891,17 +882,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2012-10-b2w2-pickup-secrets/pages/p025_b2w2_pokewood.jpg"
     alt: Nintendo DREAM 2012年10月号（Vol.222） P.25
     review_status: ready
-  - speaker: 宝可梦 黑2·白2 玩到尽兴特辑！！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p025_b2w2_pokewood-h57
-    order: 57
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: "ポケットモンスター ブラック2・ホワイト2 遊びつくし特集!!"
-    translation: ""
   - speaker: 宝可坞 目标是成为大明星！和宝可梦一起拍电影吧
     type: heading
     kind: text
@@ -1665,7 +1645,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2012-10-b2w2-pickup-secrets/pages/p022_b2w2_legendary.jpg"
     alt: Nintendo DREAM 2012年10月号（Vol.222） P.22
     review_status: ready
-  - speaker: 传说宝可梦的获取
+  - speaker: 传说宝可梦的获取 新要素攻略+开发秘话 特浓音乐访谈 宝可梦 黑2 玩心满载特辑！！
     type: heading
     kind: text
     region_type: heading
@@ -1674,51 +1654,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: 伝説のポケモン入手
-    translation: ""
-  - speaker: 新要素攻略+开发秘话
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_b2w2_legendary-h134
-    order: 134
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: 新要素攻略+開発秘話
-    translation: ""
-  - speaker: 特浓音乐访谈
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_b2w2_legendary-h135
-    order: 135
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: 特濃音楽インタビュー
-    translation: ""
-  - speaker: 宝可梦 黑2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_b2w2_legendary-h136
-    order: 136
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター ブラック2
-    translation: ""
-  - speaker: 玩心满载特辑！！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_b2w2_legendary-h137
-    order: 137
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: "遊びっくし特集!!"
+    original: "伝説のポケモン入手 新要素攻略+開発秘話 特濃音楽インタビュー ポケットモンスター ブラック2 遊びっくし特集!!"
     translation: ""
   - speaker: body
     type: paragraph
@@ -2497,7 +2433,7 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
-  - speaker: 进入殿堂后历代作品的训练家也会登场！！
+  - speaker: 进入殿堂后历代作品的训练家也会登场！！ 开发秘话 PWT
     type: heading
     kind: text
     region_type: heading
@@ -2506,18 +2442,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: "殿堂入り後には歴代作品のトレーナーも登場!!"
-    translation: ""
-  - speaker: 开发秘话 PWT
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p026_b2w2_pwt-h209
-    order: 209
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: 開発秘話 PWT
+    original: "殿堂入り後には歴代作品のトレーナーも登場!! 開発秘話 PWT"
     translation: ""
   - speaker: 还能与现实中的冠军对战！！
     type: heading
@@ -2732,17 +2657,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2012-10-b2w2-pickup-secrets/pages/p027_b2w2_join_avenue.jpg"
     alt: Nintendo DREAM 2012年10月号（Vol.222） P.27
     review_status: ready
-  - speaker: "宝可梦 黑2·白2 玩到尽兴特辑!!"
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_b2w2_join_avenue-h231
-    order: 231
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: "ポケットモンスター ブラック2・ホワイト2 遊びつくし特集!!"
-    translation: ""
   - speaker: 针对对手的宝可梦做好对策吧
     type: heading
     kind: text
@@ -3506,4 +3420,16 @@ translation_segments:
     review_status: review
     original: Upper screen→基礎ポイントを上げる道具、回復の道具のセットなどを売る
     translation: Upper screen→出售提升基础点数的道具、回复道具套装等
+original_title: 『ポケットモンスターブラック2・ホワイト2』新要素攻略＋開発秘話：フェスミッション・ポケウッド
+topics:
+  - 系统设计
+  - 通信功能
+  - 开发流程
+  - 音乐制作
+  - 攻略
+mentions:
+  people: []
+  works:
+    - 宝可梦 黑·白
+interviewee: 海野隆雄、佐藤仁美、增田顺一、一之濑刚
 ---

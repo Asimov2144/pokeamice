@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM 特別付録
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 角色设计
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑·白
+  - 杉森建
+  - 海野隆雄
+  - 大村祐介
+  - 角色设计
+  - 开发流程
+  - 道馆馆主
+  - 四天王
+  - 等离子团
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM 特別付録
 issue: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）
 publisher: 毎日コミュニケーションズ
 interviewee: 杉森建、海野隆雄、大村祐介
 interviewer: Nintendo DREAM 特別付録 編集部
-dek: 杉森建、大村祐介讲述《宝可梦 黑・白》29个登场角色的设计幕后。
-summary: 《宝可梦 黑・白》登场人物设计秘话。杉森建与大村祐介谈主人公、N、魁奇思、红豆杉博士、黑连、白露、道馆馆主、四天王等29个角色的设计经过，包括年龄设定、属性相性、多国籍感等要求与取舍。
+dek: 杉森建、大村祐介谈《宝可梦 黑·白》29个角色的设计幕后。
+summary: 《Nintendo DREAM》2011年7月号附录《宝可梦诞生秘话 完全总集版》的登场人物篇，由杉森建、大村祐介、海野隆雄等人讲述《宝可梦 黑·白》29个角色的设计幕后。内容涉及主人公年龄提高与全员戴帽子的由来、红豆杉博士由男性改为女性、黑连与白露的伙伴定位、N与魁奇思及等离子团的中世纪骑士团印象、三曜市三胞胎馆主体现属性相性、小菊儿的模特与仿生人感、风露的飞行员设定、哈奇库的少林寺与蒙面、艾莉丝与夏卡的龙形细节、四天王越橘婉龙连武嘉德丽雅、冠军阿戴克不会用电脑而随身携带七只以上精灵球，以及对战地铁双胞胎总管的小丑式设计。
 source_pages: P.38–P.46（9 页；2048px 页图）
 source:
   title: "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!"
@@ -54,6 +61,8 @@ entities:
     - 大村祐介
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -65,7 +74,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p038_making_characters_protagonists_fennel.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.38
     review_status: ready
-  - speaker: "29个角色的幕后故事满载!! 登场人物篇"
+  - speaker: "29个角色的幕后故事满载!! 登场人物篇 主人公（女孩・男孩）"
     type: heading
     kind: text
     region_type: heading
@@ -74,18 +83,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: "29キャラの裏話が満載!! 登場人物編"
-    translation: ""
-  - speaker: 主人公（女孩・男孩）
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p038_making_characters_protagonists_fennel-h3
-    order: 3
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: 主人公（女の子・男の子）
+    original: "29キャラの裏話が満載!! 登場人物編 主人公（女の子・男の子）"
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -148,17 +146,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p039_making_characters_juniper_cheren_bianca.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.39
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p039_making_characters_juniper_cheren_bianca-h10
-    order: 10
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: body
     type: paragraph
     kind: text
@@ -190,7 +177,7 @@ translation_segments:
     review_status: review
     original: 実は、今回の博士は開発中盤くらいまで男性だったんですよ。しかも太ったおっさんと年寄りの2人組という最悪の設定（笑）。いくらなんでもそれは花が無さすぎる。増田に文句を言いにいったんですよ。博士を女にしろと（笑）。本当は博士のデザインも大村にやらせようと思っていたんですけど、この設定変更は僕が言いだしっぺだし、自分で女性博士を描いちゃいました。この人はニューヨークのというか、いわゆる働いている女性のイメージですね。オフィスでスニーカー履いて働いているというか、そういう感じです。アララギパパは、この人の父親だったらどんな感じだろうかと逆算してデザインしました。
     translation: 其实，这次的博士到开发中期左右都还是男性。而且还是胖大叔和老头两人组这种最糟糕的设定（笑）。再怎么说也太没有亮点了。我就去找增田抱怨，说把博士改成女性吧（笑）。本来博士的设计也打算让大村来做，但这个设定变更是我先提出来的，所以我就自己画了女性博士。这个人是纽约的，或者说所谓职业女性的形象。像是在办公室里穿着运动鞋工作，就是那种感觉。红豆杉爸爸则是反推，如果他是这个人的父亲会是什么样，据此设计的。
-  - speaker: ●宝可梦博士 红豆杉
+  - speaker: ●宝可梦博士 红豆杉 ●主人公的儿时玩伴 黑连
     type: heading
     kind: text
     region_type: heading
@@ -199,18 +186,7 @@ translation_segments:
     scan_page: 1
     heading_level: 3
     review_status: review
-    original: ●ポケモン博士アララギ
-    translation: ""
-  - speaker: ●主人公的儿时玩伴 黑连
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p039_making_characters_juniper_cheren_bianca-h15
-    order: 15
-    scan_page: 1
-    heading_level: 3
-    review_status: review
-    original: ●主人公の幼なじみ チェレン
+    original: ●ポケモン博士アララギ ●主人公の幼なじみ チェレン
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -274,7 +250,7 @@ translation_segments:
     review_status: review
     original: 「王を守る騎士団っぽい人」というイメージでまとめています。自分としては、この頭の形は冒険でしたね。見方によってはマヌケに見えるかもしれない（笑）。でも、したっぱだし、ちょっとマヌケなくらいでいいのかなと。あと、男女が似てしまうんですよ。そこはちょっとどうかなと思ってたんですけど、実際にフィールド上でしたっぱが集団で出てきたとき、みんな丸い頭なのが異様な雰囲気を出しているんですよ。逆によかったかなと思っています。
     translation: 以“像是守护国王的骑士团的人”这个印象来整合。我自己觉得这个头的形状是冒险。根据看法不同可能会显得有点傻（笑）。但反正是手下，稍微傻一点也没关系吧。还有，男女会变得相似。这一点我本来觉得有点不太行，但实际上在场景上手下集体出现时，大家都是圆头，营造出了异样的氛围。反过来觉得这样也不错。
-  - speaker: ●等离子团魁奇思
+  - speaker: ●等离子团魁奇思 ●等离子团手下（男女）
     type: heading
     kind: text
     region_type: heading
@@ -283,18 +259,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: ●プラズマ団ゲーチス
-    translation: ""
-  - speaker: ●等离子团手下（男女）
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p040_making_characters_n_ghetsis_grunts-h23
-    order: 23
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: ●プラズマ団したっぱ（男女）
+    original: ●プラズマ団ゲーチス ●プラズマ団したっぱ（男女）
     translation: ""
   - speaker: image
     type: image
@@ -306,17 +271,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p041_making_characters_gym_leaders_cilan_burgh_lenora.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.41
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h25
-    order: 25
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -327,7 +281,7 @@ translation_segments:
     review_status: review
     original: この3人は三つ子なんですが、全然似てないですね（笑）。顔もそっくりにしてほしいというオーダーもあったんですが、完全新作の最初のジムリーダーが判で押したように同じ顔で3人出て来たら、つまらないぞと思いまして、僕の考えで個性を持たせることにしました。この3人には、初めて『ポケットモンスター』に触れるユーザーに、タイプ相性を理解してもらう役割があるので、一見してどのタイプを使うかわかる感じにしました。それぞれの髪型を見て、ポッドは炎が燃えてそうだとか、デントは芝生みたいとか、コーンだと水が流れているようだとか。あとはウェーターという感じが薄れないよう、服装などは派手になりすぎないよう気を使ってます。
     translation: 这三个人是三胞胎，但完全不像（笑）。虽然也有要求把脸做得一模一样，但完全新作最初的三个道馆馆主如果像盖章一样同一张脸出现，我觉得很无聊，就按自己的想法赋予了个性。这三个人有让第一次接触《宝可梦》的用户理解属性相性的作用，所以做成一见就能知道使用哪种属性的感觉。看各自的发型，伯特像是火焰在燃烧，天桐像草坪，寇恩则像水流。还有就是注意不要让服务员的印象变淡，服装等不要变得太花哨。
-  - speaker: ●三曜市 道馆馆主伯特＆天桐＆寇恩
+  - speaker: ●三曜市 道馆馆主伯特＆天桐＆寇恩 ●飞云市 道馆馆主亚堤
     type: heading
     kind: text
     region_type: heading
@@ -336,18 +290,7 @@ translation_segments:
     scan_page: 3
     heading_level: 3
     review_status: review
-    original: ●サンヨウシティ ジムリーダーポッド＆デント＆コーン
-    translation: ""
-  - speaker: ●飞云市 道馆馆主亚堤
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h28
-    order: 28
-    scan_page: 3
-    heading_level: 3
-    review_status: review
-    original: ●ヒウンシティ ジムリーダーアーティ
+    original: ●サンヨウシティ ジムリーダーポッド＆デント＆コーン ●ヒウンシティ ジムリーダーアーティ
     translation: ""
   - speaker: note
     type: paragraph
@@ -461,7 +404,7 @@ translation_segments:
     review_status: review
     original: 個人的なイメージからスタートしたんですけど、モデルさんは格闘家などとは違う意味で体を作らないといけない印象があって、ファッションショーを見ていても、無表情で歩いてきて、クルッと回って帰るのが、ちょっとロボットみたいだなと。そのイメージを軸にして、機械的とまではいかないけど、ちょっとアンドロイドっぽい感じでまとめてみました。ちょうどでんきタイプを使うジムリーダーだったので、イメージの相性もよかったです。最初はヘッドホンから伸びてるコードが無かったんですが、シナリオ側から伝えられたカミツレのイメージに「よく音楽を聴いている」という一文があったので、取り入れてみました。ヘッドホンから伸びるコードが髪型にも見えつつ、ロボット感も出せる特徴になったので、最終的にうまくまとまりましたね。
     translation: 大村祐介：虽然是从我个人的印象出发的，但模特给人的印象是，和格斗家等不同意义上必须塑造身体，看时装秀时，面无表情地走出来，转一圈就回去，感觉有点像机器人。以那个印象为核心，虽然没到机械的程度，但试着归纳成了有点仿生人的感觉。正好是使用电属性的道馆馆主，印象的契合度也很好。最初耳机伸出的线是没有的，但剧本那边传达的小菊儿的印象里有一句「经常听音乐」，所以就采纳了。从耳机伸出的线既看起来像发型，又成了能表现出机器人感的特征，最终归纳得很不错。
-  - speaker: ●帆巴市 道馆馆主菊老大
+  - speaker: ●帆巴市 道馆馆主菊老大 ●吹寄市 道馆馆主风露
     type: heading
     kind: text
     region_type: heading
@@ -470,18 +413,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: ●ホドモエシティ ジムリーダーヤーコン
-    translation: ""
-  - speaker: ●吹寄市 道馆馆主风露
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-h41
-    order: 41
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: ●フキヨセシティ ジムリーダーフウロ
+    original: ●ホドモエシティ ジムリーダーヤーコン ●フキヨセシティ ジムリーダーフウロ
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -677,7 +609,7 @@ translation_segments:
     review_status: review
     original: それは「靴下を履いてない」という点だけですよ（笑）。
     translation: 那只是「没穿袜子」这一点而已哦（笑）。
-  - speaker: ●宝可梦联盟 四天王越橘
+  - speaker: ●宝可梦联盟 四天王越橘 ●宝可梦联盟 四天王婉龙
     type: heading
     kind: text
     region_type: heading
@@ -686,18 +618,7 @@ translation_segments:
     scan_page: 6
     heading_level: 3
     review_status: review
-    original: ●ポケモンリーグ 四天王ギーマ
-    translation: ""
-  - speaker: ●宝可梦联盟 四天王婉龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p044_making_characters_elite_four_grimsley_shauntal-h62
-    order: 62
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: ●ポケモンリーグ 四天王シキミ
+    original: ●ポケモンリーグ 四天王ギーマ ●ポケモンリーグ 四天王シキミ
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -991,7 +912,7 @@ translation_segments:
     review_status: review
     original: だから、イラストでは7つ以上のモンスターボールを描く必要があったんです。でも、バトルのルールがわかっていない人に見えても困るので、いつも使うエース級のポケモン6匹はわかりやすい所にあって、それ以外は服の陰から少し見えているだけにしました。
     translation: 所以，插图中必须画出7个以上的精灵球。但要是让人看起来像是不懂对战规则的人也不妥，所以常用的6只王牌级宝可梦放在显眼的位置，其余的只从衣服阴影里露出一点点。
-  - speaker: 宝可梦联盟 冠军阿戴克
+  - speaker: 宝可梦联盟 冠军阿戴克 地铁总管南厦 ●地铁总管北尚
     type: heading
     kind: text
     region_type: heading
@@ -1000,29 +921,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: ●ポケモンリーグ チャンピオンアデク
-    translation: ""
-  - speaker: 地铁总管南厦
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p046_making_characters_subway_masters_alder-h93
-    order: 93
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ●サブウェイマスタークダリ
-    translation: ""
-  - speaker: ●地铁总管北尚
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p046_making_characters_subway_masters_alder-h94
-    order: 94
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ●サブウェイマスターノボリ
+    original: ●ポケモンリーグ チャンピオンアデク ●サブウェイマスタークダリ ●サブウェイマスターノボリ
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -1074,4 +973,19 @@ translation_segments:
     review_status: review
     original: 最初にちらっと見せてもらったときに、今までの『ポケモン』っぽい絵かどうかは置いておいて、キャラクターを一目見て理解できるわかりやすさがあるという意味では、やっぱり『ポケモン』らしいなと思いましたよ。
     translation: 第一次稍微给我看的时候，先不论是不是至今为止『宝可梦』风格的画，从一眼就能理解角色的易懂性这个意义上说，我觉得果然很有『宝可梦』的味道。
+original_title: "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!"
+topics:
+  - 角色设计
+  - 开发流程
+  - 道馆馆主
+  - 四天王
+  - 等离子团
+mentions:
+  people:
+    - 增田顺一
+  works:
+    - 宝可梦 红宝石·蓝宝石
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
 ---

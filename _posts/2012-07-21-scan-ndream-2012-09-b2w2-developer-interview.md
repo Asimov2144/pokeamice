@@ -10,19 +10,28 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑2·白2
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑2·白2
+  - 增田顺一
+  - 海野隆雄
+  - 一之濑刚
+  - 佐藤仁美
+  - 开发流程
+  - 系统设计
+  - 角色设计
+  - 音乐制作
+  - 传说宝可梦
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2012年9月号（Vol.221）
 publisher: 毎日コミュニケーションズ
-interviewee: 增田顺一、海野隆雄
+interviewee: 增田顺一、海野隆雄、一之濑刚、佐藤仁美
 interviewer: Nintendo DREAM 編集部
-dek: GAME FREAK开发团队畅谈《宝可梦 黑2・白2》的制作经过、两年后的角色与酋雷姆的秘密。
-summary: GAME FREAK的增田顺一、海野隆雄、一之濑刚、佐藤仁美接受采访，讲述在DS上推出《2》并做成两个版本的理由、N与等离子队两年后的故事、酋雷姆吸收合体的设定，以及角色形象变化的考量。
+dek: GAME FREAK谈《宝可梦 黑2·白2》的两年后与共鸣
+summary: 《Nintendo DREAM》2012年9月号刊载《宝可梦 黑2·白2》开发人员访谈，采访GAME FREAK的增田顺一（制作人）、海野隆雄（总监兼艺术总监）、一之濑刚与佐藤仁美（音效设计师）。访谈说明本作选择在DS而非3DS发售、首次做成编号续作与双版本的原因，介绍钥匙系统、联合任务、回忆链接等新要素，讲述N、等离子队、阿克罗玛、劲敌等两年后角色的设定，并说明酋雷姆与捷克罗姆、莱希拉姆吸收合体为暗黑酋雷姆、焰白酋雷姆的构想。音乐部分谈及原声集共173曲、超过4小时，7月25日发售，收录《宝可梦 绿宝石》《宝可梦 白金》未CD化曲目。
 source_pages: P.12–P.17（6 页，另附封面/目次；2048px 页图）
 source:
   title: 『ポケットモンスターブラック2・ホワイト2』開発スタッフインタビュー 「2」だからできる冒険を！！
@@ -50,8 +59,12 @@ entities:
   people:
     - 增田顺一
     - 海野隆雄
+    - 一之濑刚
+    - 佐藤仁美
   works:
     - 宝可梦 黑2·白2
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -94,7 +107,7 @@ translation_segments:
     review_status: review
     original: Pokémon ポケットモンスター ブラック2
     translation: ""
-  - speaker: Pokémon 宝可梦 白2
+  - speaker: Pokémon 宝可梦 白2 《宝可梦 黑2・白2》 正因为是《2》才能做到
     type: heading
     kind: text
     region_type: heading
@@ -103,29 +116,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: Pokémon ポケットモンスター ホワイト2
-    translation: ""
-  - speaker: 《宝可梦 黑2・白2》
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_b2w2_interview_intro-h6
-    order: 6
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: 『ポケットモンスターブラック2・ホワイト
-    translation: ""
-  - speaker: 正因为是《2》才能做到
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_b2w2_interview_intro-h7
-    order: 7
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: 『2』だからでき
+    original: Pokémon ポケットモンスター ホワイト2 『ポケットモンスターブラック2・ホワイト 『2』だからでき
     translation: ""
   - speaker: body
     type: paragraph
@@ -137,7 +128,7 @@ translation_segments:
     review_status: review
     original: まずは開発スタッフインタビュー！『ポケモンB2・W2』の開発でおなじみのゲームフリークに、たっぷりとお話を聞いてきました！ 開発の経緯から、Nをはじめ2年後のキャラの話、そしてキュレムの秘密まで…。また本作のサントラ発売に合わせ、“ポケモンの音楽”に関するお話もてんこ盛りでお届けします！
     translation: 首先是开发人员访谈！我们就《宝可梦 黑2・白2》的开发，向老熟人的GAME FREAK进行了充分的采访！从开发的经过，到以N为首的两年后角色的话题，以及酋雷姆的秘密……。此外，配合本作原声带的发售，还为大家带来大量关于“宝可梦的音乐”的话题！
-  - speaker: 访谈
+  - speaker: 访谈 ＋ 攻略 两大专题
     type: heading
     kind: text
     region_type: heading
@@ -146,40 +137,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: インタビュー
-    translation: ""
-  - speaker: ＋
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_b2w2_interview_intro-h10
-    order: 10
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: ＋
-    translation: ""
-  - speaker: 攻略
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_b2w2_interview_intro-h11
-    order: 11
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: 攻略
-    translation: ""
-  - speaker: 两大专题
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_b2w2_interview_intro-h12
-    order: 12
-    scan_page: 2
-    heading_level: 2
-    review_status: review
-    original: 2大特集
+    original: インタビュー ＋ 攻略 2大特集
     translation: ""
   - speaker: note
     type: paragraph
@@ -375,7 +333,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: うちはそうです。企画もプランナーが書類を書いて終わりかといったらそういうわけではなく、プログラマーやグラフィックデザイナーからの意見で、より良くなることもあります。例えば『ポケモンHG・SS』ディレクターの森本は、『ポケモン赤・緑』当時はプログラマーだったんですが、ミュウの絵を描いたのはじつは彼なんです。自分も当時はプログラマーでしたが、音楽も作っていました。もともとゲームフリーク自体が非常に小さかったので、1人1人がいろんなことをやろうというのが社風のベースになっています。もちろん1つの仕事を極めるのも素晴らしいことですが、いろんな仕事を経験する、いろんな立場からアイデアを出し合うのが、ゲームフリークという会社の特徴なんです。
-    translation: 我们确实是这样。企划也不是说策划写完文件就结束了，程序员和美术设计师的意见有时也会让方案变得更好。比如《宝可梦 心金·魂银》的导演森本，在《宝可梦 红·绿》时期是程序员，其实梦幻的图就是他画的。我自己当时也是程序员，同时也在做音乐。GAME FREAK 本身当初非常小，所以每个人都去尝试各种事情，这成了公司风气的基础。当然，把一项工作做到极致也很了不起，但经历各种工作、从各种立场互相提出想法，正是 GAME FREAK 这家公司的特点。
+    translation: 我们确实是这样。企划也不是说策划写完文件就结束了，程序员和美术设计师的意见有时也会让方案变得更好。比如《宝可梦 心金·魂银》的总监森本，在《宝可梦 红·绿》时期是程序员，其实梦幻的图就是他画的。我自己当时也是程序员，同时也在做音乐。GAME FREAK 本身当初非常小，所以每个人都去尝试各种事情，这成了公司风气的基础。当然，把一项工作做到极致也很了不起，但经历各种工作、从各种立场互相提出想法，正是 GAME FREAK 这家公司的特点。
     comment: 森本指森本茂树，后担任《宝可梦 心金·魂银》导演。
   - speaker: caption
     type: paragraph
@@ -2090,4 +2048,24 @@ translation_segments:
     review_status: review
     original: "トーナメント チャンピオン ワタルにちょうせん!←ジョウト地方のチャンピオン・ワタルが登場するトーナメント。その実力はいかに？"
     translation: 锦标赛 挑战冠军阿渡！←城都地区的冠军阿渡登场的锦标赛。其实力究竟如何？
+original_title: 『ポケットモンスターブラック2・ホワイト2』開発スタッフインタビュー 「2」だからできる冒険を！！
+topics:
+  - 开发流程
+  - 系统设计
+  - 角色设计
+  - 音乐制作
+  - 传说宝可梦
+mentions:
+  people:
+    - 大村祐介
+    - 森本茂树
+    - 景山将太
+    - 石原恒和
+    - 松宫稔展
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 绿宝石
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
+    - 宝可梦 黑·白
 ---

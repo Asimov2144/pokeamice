@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM 特別付録
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 角色设计
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑·白
+  - 杉森建
+  - 海野隆雄
+  - 大村祐介
+  - 角色设计
+  - 开发流程
+  - 系统设计
+  - 地区设定
+  - 传说宝可梦
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM 特別付録
 issue: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）
 publisher: 毎日コミュニケーションズ
 interviewee: 杉森建、海野隆雄、大村祐介
 interviewer: Nintendo DREAM 特別付録 編集部
-dek: 杉森建、海野隆雄、大村祐介三人讲述《宝可梦 黑·白》新宝可梦与角色的设计过程。
-summary: GAME FREAK的杉森建、海野隆雄、大村祐介回顾《宝可梦 黑·白》的设计工作，谈及新宝可梦的标准化设计、对战动画的进化、人物插画的分工，以及御三家、豆豆鸽、花椰猴、泡沫栗鼠等具体宝可梦的诞生经过。
+dek: GAME FREAK三人谈《宝可梦 黑·白》设计幕后
+summary: 《Nintendo DREAM》2011年7月号附录收录的《宝可梦 黑·白》诞生秘话总集篇，由GAME FREAK的杉森建、海野隆雄、大村祐介三人讲述。内容涵盖新宝可梦设计流程、17名设计师分工与选拔、御三家暖暖猪/藤藤蛇/水水獭及大剑鬼的诞生、对战动画与体重扬尘演出、人物与道馆馆主设计，以及齿轮儿、双斧战龙、火神蛾等具体案例，并提及西田敦子等设计师。
 source_pages: P.18–P.37（20 页，另附封面/目次；2048px 页图）
 source:
   title: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編
@@ -54,6 +61,8 @@ entities:
     - 大村祐介
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -344,7 +353,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p019_making_pokemon_snivy_tepig.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.19
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集
+  - speaker: 宝可梦诞生秘话＊总集 满载！！ 秘话 总集篇
     type: heading
     kind: text
     region_type: heading
@@ -353,29 +362,7 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: ポケモン誕生秘話＊総集
-    translation: ""
-  - speaker: 满载！！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_making_pokemon_snivy_tepig-h30
-    order: 30
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: 満載！！
-    translation: ""
-  - speaker: 秘话 总集篇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_making_pokemon_snivy_tepig-h31
-    order: 31
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: 秘話 総集編
+    original: ポケモン誕生秘話＊総集 満載！！ 秘話 総集編
     translation: ""
   - speaker: body
     type: paragraph
@@ -922,7 +909,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p021_making_pokemon_patrat_pidove_monkeys.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.21
     review_status: ready
-  - speaker: 大剑鬼 威严宝可梦●水
+  - speaker: 大剑鬼 威严宝可梦●水 难产的水水獭与进化形
     type: heading
     kind: text
     region_type: heading
@@ -931,18 +918,7 @@ translation_segments:
     scan_page: 5
     heading_level: 2
     review_status: review
-    original: ダイケンキかんろくポケモン●みず
-    translation: ""
-  - speaker: 难产的水水獭与进化形
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p021_making_pokemon_patrat_pidove_monkeys-h87
-    order: 87
-    scan_page: 5
-    heading_level: 2
-    review_status: review
-    original: 難産だったミジュマルと進化形
+    original: ダイケンキかんろくポケモン●みず 難産だったミジュマルと進化形
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -1025,7 +1001,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p022_making_pokemon_cinccino_munna_karrablast_shelmet.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.22
     review_status: ready
-  - speaker: 探探鼠
+  - speaker: 探探鼠 警戒宝可梦●一般 豆豆鸽 小鸽宝可梦●一般・飞行 咕咕鸽 野鸽宝可梦●一般・飞行
     type: heading
     kind: text
     region_type: heading
@@ -1034,64 +1010,9 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: ミネズミ
+    original: ミネズミ みはりポケモン●ノーマル マメパト こばとポケモン●ノーマル・ひこう ハトーボー のばとポケモン●ノーマル・ひこう
     translation: ""
-  - speaker: 警戒宝可梦●一般
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h97
-    order: 97
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: みはりポケモン●ノーマル
-    translation: ""
-  - speaker: 豆豆鸽
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h98
-    order: 98
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: マメパト
-    translation: ""
-  - speaker: 小鸽宝可梦●一般・飞行
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h99
-    order: 99
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: こばとポケモン●ノーマル・ひこう
-    translation: ""
-  - speaker: 咕咕鸽
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h100
-    order: 100
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ハトーボー
-    translation: ""
-  - speaker: 野鸽宝可梦●一般・飞行
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h101
-    order: 101
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: のばとポケモン●ノーマル・ひこう
-    translation: ""
-  - speaker: 步哨鼠
+  - speaker: 步哨鼠 警戒宝可梦●一般 轰隆雉鸡 自尊心宝可梦●一般・飞行
     type: heading
     kind: text
     region_type: heading
@@ -1100,40 +1021,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: ミルホッグ
-    translation: ""
-  - speaker: 警戒宝可梦●一般
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h103
-    order: 103
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: けいかいポケモン●ノーマル
-    translation: ""
-  - speaker: 轰隆雉鸡
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h104
-    order: 104
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ケンホロウ
-    translation: ""
-  - speaker: 自尊心宝可梦●一般・飞行
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h105
-    order: 105
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: プライドポケモン●ノーマル・ひこう
+    original: ミルホッグ けいかいポケモン●ノーマル ケンホロウ プライドポケモン●ノーマル・ひこう
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1155,7 +1043,7 @@ translation_segments:
     review_status: review
     original: マメパトも、とにかくハトらしくしていますが、実はハトとハートがかかってて、あちこちにハートのイメージがあるんですよ。マメパトの胸のところとか、マメパトの最終進化形であるケンホロウのみの頭の部分も、正面から見るとハートマークになってるんですよ。ただ、鳩がそのまま大きくなっても強くなさそうなので、ハト→キジバト→キジという流れで進化させてみました。
     translation: 豆豆鸽也是，总之做得像鸽子，但其实鸽子和心（heart）是谐音的，到处都有心的意象。豆豆鸽胸口的地方，还有豆豆鸽最终进化形轰隆雉鸡只有头部的部分，从正面看也是心形。不过，鸽子就算直接变大也好像不会变强，所以试着按鸽子→雉鸠→雉鸡的流程来进化。
-  - speaker: 花椰猴
+  - speaker: 花椰猴 草猴宝可梦●草 爆香猴 高温宝可梦●火 花椰猿 刺猴宝可梦●草 冷水猴 泼水宝可梦●水
     type: heading
     kind: text
     region_type: heading
@@ -1164,86 +1052,9 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: ヤナップ
+    original: ヤナップ くさざるポケモン●くさ バオップ こうおんポケモン●ほのお ヤナッキー とげざるポケモン●くさ ヒヤップ みずかけポケモン●みず
     translation: ""
-  - speaker: 草猴宝可梦●草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h109
-    order: 109
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: くさざるポケモン●くさ
-    translation: ""
-  - speaker: 爆香猴
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h110
-    order: 110
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: バオップ
-    translation: ""
-  - speaker: 高温宝可梦●火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h111
-    order: 111
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: こうおんポケモン●ほのお
-    translation: ""
-  - speaker: 花椰猿
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h112
-    order: 112
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ヤナッキー
-    translation: ""
-  - speaker: 刺猴宝可梦●草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h113
-    order: 113
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: とげざるポケモン●くさ
-    translation: ""
-  - speaker: 冷水猴
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h114
-    order: 114
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ヒヤップ
-    translation: ""
-  - speaker: 泼水宝可梦●水
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h115
-    order: 115
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: みずかけポケモン●みず
-    translation: ""
-  - speaker: 爆香猿
+  - speaker: 爆香猿 火花宝可梦●火
     type: heading
     kind: text
     region_type: heading
@@ -1252,18 +1063,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: バオッキー
-    translation: ""
-  - speaker: 火花宝可梦●火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h117
-    order: 117
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: ひのこポケモン●ほのお
+    original: バオッキー ひのこポケモン●ほのお
     translation: ""
   - speaker: 海野隆雄
     type: paragraph
@@ -1285,7 +1085,7 @@ translation_segments:
     review_status: review
     original: ちなみにこの3匹は、最初の3匹同様、性格づけをしています。進化形は別のデザイナーがデザインしているのですが、それがより強調されて、ヤナッキーがツッパリ風、バオッキーがのんびり風、ヒヤッキーが優しげというかキザというか。最初の3匹ほど強烈に個性を出してはいないんですが、進化前でも、目の表情などからなるべく性格の差が見えてくるようにデザインしました。
     translation: 顺便一提，这三只和最初的御三家一样，也赋予了性格设定。进化形是由别的设计师设计的，那些特征被进一步强调，花椰猿是叛逆风，爆香猿是悠闲风，冷水猿则显得温柔或者说有点装腔作势。虽然没有像最初的御三家那样强烈地展现个性，但在进化前，也尽量通过眼睛的表情等让人看出性格差异来设计。
-  - speaker: 冷水猿
+  - speaker: 冷水猿 放水宝可梦●水
     type: heading
     kind: text
     region_type: heading
@@ -1294,18 +1094,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: ヒヤッキー
-    translation: ""
-  - speaker: 放水宝可梦●水
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p022_making_pokemon_cinccino_munna_karrablast_shelmet-h121
-    order: 121
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: ほうすいポケモン●みず
+    original: ヒヤッキー ほうすいポケモン●みず
     translation: ""
   - speaker: image
     type: image
@@ -1317,18 +1106,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.23
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h123
-    order: 123
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
-  - speaker: 泡沫栗鼠
+  - speaker: 泡沫栗鼠 栗鼠宝可梦●一般
     type: heading
     kind: text
     region_type: heading
@@ -1337,18 +1115,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: チラーミィ
-    translation: ""
-  - speaker: 栗鼠宝可梦●一般
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h125
-    order: 125
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: チンチラポケモン●ノーマル
+    original: チラーミィ チンチラポケモン●ノーマル
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1359,8 +1126,8 @@ translation_segments:
     scan_page: 7
     review_status: review
     original: チラーミィは『ポケモン赤・緑』でいうとピッピみたいなポジションですね。誰が見てもかわいいポケモンを作ってほしいと、増田（増田順一ディレクター）から言われたので、ピカチュウをデザインした、にしだあつこさんにお願いしました。かわいいキャラを描かせたら右に出る人はいない人なので、期待どおりのものが出来たという感じですね。これはもう、元デザインのまま、ほぼいじらずに採用になりました。進化形も、そんなに大きくなったりはしないで、ちょっとゴージャスになったような感じを狙っています。
-    translation: 泡沫栗鼠在《宝可梦 红·绿》里相当于皮皮那样的定位。增田（增田顺一导演）说希望做一只谁看了都觉得可爱的宝可梦，所以我就拜托了设计皮卡丘的西田敦子。她画可爱角色的话无人能出其右，所以感觉做出来的东西正如期待。这个基本就按原设计采用，几乎没有改动。进化形也没有变得太大，目标是营造一种稍微华丽一点的感觉。
-  - speaker: 奇诺栗鼠
+    translation: 泡沫栗鼠在《宝可梦 红·绿》里相当于皮皮那样的定位。增田（增田顺一总监）说希望做一只谁看了都觉得可爱的宝可梦，所以我就拜托了设计皮卡丘的西田敦子。她画可爱角色的话无人能出其右，所以感觉做出来的东西正如期待。这个基本就按原设计采用，几乎没有改动。进化形也没有变得太大，目标是营造一种稍微华丽一点的感觉。
+  - speaker: 奇诺栗鼠 围巾宝可梦●一般
     type: heading
     kind: text
     region_type: heading
@@ -1369,18 +1136,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: チラチーノ
-    translation: ""
-  - speaker: 围巾宝可梦●一般
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h128
-    order: 128
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: スカーフポケモン●ノーマル
+    original: チラチーノ スカーフポケモン●ノーマル
     translation: ""
   - speaker: note
     type: paragraph
@@ -1392,7 +1148,7 @@ translation_segments:
     review_status: review
     original: 杉森 タブンネも、とにかくかわいいポケモンを、というオーダーから作られました。『ポケモン赤・緑』で言うところのラッキーのポジションというか。ポケモンのテレビアニメも全部新ポケモンになるだろうけど、ジョーイさんの後ろには誰がいたらいいんだ？と勝手に心配して(笑)、様になるようなポケモンを考えてみました。あとは、ゲーム的にもラッキーのポジションは重要なので、その役割を担ったうえで、なおかつ新しいものをということでデザインしました。
     translation: 杉森：差不多娃娃也是按照“总之要可爱的宝可梦”这一要求制作的。可以说是《宝可梦 红·绿》中吉利蛋的位置吧。宝可梦的电视动画也全部会变成新宝可梦，我不由自主地担心乔伊小姐身后该站谁好呢（笑），于是试着设计了一只适合站在那里的宝可梦。另外，从游戏角度来说，吉利蛋的位置也很重要，所以设计时让它承担那个角色，同时又要有所创新。
-  - speaker: 差不多娃娃
+  - speaker: 差不多娃娃 听力宝可梦●一般
     type: heading
     kind: text
     region_type: heading
@@ -1401,18 +1157,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: タブンネ
-    translation: ""
-  - speaker: 听力宝可梦●一般
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h131
-    order: 131
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: ヒヤリングポケモン●ノーマル
+    original: タブンネ ヒヤリングポケモン●ノーマル
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1424,7 +1169,7 @@ translation_segments:
     review_status: review
     original: ムンナやムシャーナもにしださん担当です。最初に何にも無い状態で、とにかく何か描いてくださいよという漠然としたオーダーをしたら、頭から「ゆめのけむり」が出ているバクをモチーフにしたというのを描いてきてもらったんですよ。実はゲームの中に夢の設定が入ったのは結構あとで、それにピッタリのポケモンがいるということで、ムシャーナがうまいことハマったんですよ。そうすると進化前も欲しいということで、ムンナが生まれました。ストーリーやシステムよりポケモンのデザインが先行するのは、意外に思うかもしれませんが、そういうこともゲーム作りではよくあるんですよ。
     translation: 杉森建：食梦梦和梦梦蚀也是西田先生负责的。最初在什么都没有的状态下，我给出了一个模糊的要求，说总之先画点什么吧，结果他画来了一只以从头部冒出“梦之烟”的貘为原型的宝可梦。其实游戏中加入梦的设定是相当后面的事，因为正好有与之完美契合的宝可梦，梦梦蚀就巧妙地吻合了。这样一来又想要进化前的形态，食梦梦就诞生了。故事和系统先于宝可梦设计，大家可能会觉得意外，但在游戏制作中这种事很常见。
-  - speaker: 食梦梦
+  - speaker: 食梦梦 食梦宝可梦●超能力 梦梦蚀 半梦半醒宝可梦●超能力 啃咬虫 啃咬宝可梦●虫
     type: heading
     kind: text
     region_type: heading
@@ -1433,64 +1178,9 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: ムンナ
+    original: ムンナ ゆめくいポケモン●エスパー ムシャーナ ゆめうつつポケモン●エスパー カブルモ かぶりつきポケモン●むし
     translation: ""
-  - speaker: 食梦宝可梦●超能力
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h134
-    order: 134
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: ゆめくいポケモン●エスパー
-    translation: ""
-  - speaker: 梦梦蚀
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h135
-    order: 135
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ムシャーナ
-    translation: ""
-  - speaker: 半梦半醒宝可梦●超能力
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h136
-    order: 136
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: ゆめうつつポケモン●エスパー
-    translation: ""
-  - speaker: 啃咬虫
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h137
-    order: 137
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: カブルモ
-    translation: ""
-  - speaker: 啃咬宝可梦●虫
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h138
-    order: 138
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: かぶりつきポケモン●むし
-    translation: ""
-  - speaker: 敏捷虫
+  - speaker: 敏捷虫 脱壳宝可梦●虫 小嘴蜗 蜗牛宝可梦●虫 骑士蜗牛 骑兵宝可梦●虫・钢
     type: heading
     kind: text
     region_type: heading
@@ -1499,62 +1189,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: アギルダー
-    translation: ""
-  - speaker: 脱壳宝可梦●虫
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h140
-    order: 140
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: からぬけポケモン●むし
-    translation: ""
-  - speaker: 小嘴蜗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h141
-    order: 141
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: チョボマキ
-    translation: ""
-  - speaker: 蜗牛宝可梦●虫
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h142
-    order: 142
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: マイマイポケモン●むし
-    translation: ""
-  - speaker: 骑士蜗牛
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h143
-    order: 143
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: シュバルゴ
-    translation: ""
-  - speaker: 骑兵宝可梦●虫・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph-h144
-    order: 144
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: きへいポケモン●むし・はがね
+    original: アギルダー からぬけポケモン●むし チョボマキ マイマイポケモン●むし シュバルゴ きへいポケモン●むし・はがね
     translation: ""
   - speaker: note
     type: paragraph
@@ -1587,7 +1222,7 @@ translation_segments:
     review_status: review
     original: モンメンわたたまポケモン●くさ
     translation: ""
-  - speaker: 百合根娃娃 根茎宝可梦●草
+  - speaker: 百合根娃娃 根茎宝可梦●草 风妖精 风隐宝可梦●草 裙儿小姐 花饰宝可梦●草
     type: heading
     kind: text
     region_type: heading
@@ -1596,29 +1231,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: チュリネねっこポケモン●くさ
-    translation: ""
-  - speaker: 风妖精 风隐宝可梦●草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p024_making_pokemon_chandelure_conkeldurr_klinklang-h149
-    order: 149
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: エルフーンかぜかくれポケモン●くさ
-    translation: ""
-  - speaker: 裙儿小姐 花饰宝可梦●草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p024_making_pokemon_chandelure_conkeldurr_klinklang-h150
-    order: 150
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ドレディアはなかざりポケモン●くさ
+    original: チュリネねっこポケモン●くさ エルフーンかぜかくれポケモン●くさ ドレディアはなかざりポケモン●くさ
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1682,17 +1295,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p025_making_pokemon_garbodor_sawsbuck_beartic.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.25
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p025_making_pokemon_garbodor_sawsbuck_beartic-h157
-    order: 157
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1963,7 +1565,7 @@ translation_segments:
     review_status: review
     original: これもいい顔してるよね。あと夜中に、道にコンビニ袋なんかが落ちているとドキッとするので、このデザインは納得できました。
     translation: 这张脸也不错呢。而且半夜路上掉着便利店塑料袋什么的，会让人吓一跳，所以这个设计我能接受。
-  - speaker: 灰尘山 垃圾场宝可梦●毒
+  - speaker: 灰尘山 垃圾场宝可梦●毒 喷嚏熊 结冰宝可梦●冰
     type: heading
     kind: text
     region_type: heading
@@ -1972,18 +1574,7 @@ translation_segments:
     scan_page: 10
     heading_level: 2
     review_status: review
-    original: ダストダスゴミすてばポケモン●どく
-    translation: ""
-  - speaker: 喷嚏熊 结冰宝可梦●冰
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p026_making_pokemon_bisharp_eelektross_heatmor_durant-h185
-    order: 185
-    scan_page: 10
-    heading_level: 2
-    review_status: review
-    original: クマシュンひょうけつポケモン●こおり
+    original: ダストダスゴミすてばポケモン●どく クマシュンひょうけつポケモン●こおり
     translation: ""
   - speaker: 海野隆雄
     type: paragraph
@@ -2088,7 +1679,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p027_making_pokemon_haxorus_darmanitan_jellicent.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.27
     review_status: ready
-  - speaker: 劈斩司令
+  - speaker: 劈斩司令 刀刃宝可梦●恶・钢
     type: heading
     kind: text
     region_type: heading
@@ -2097,18 +1688,7 @@ translation_segments:
     scan_page: 11
     heading_level: 2
     review_status: review
-    original: キリキザン
-    translation: ""
-  - speaker: 刀刃宝可梦●恶・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h197
-    order: 197
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: とうじんポケモン●あく・はがね
+    original: キリキザン とうじんポケモン●あく・はがね
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -2120,7 +1700,7 @@ translation_segments:
     review_status: review
     original: あく・はがねタイプで都市部に出現するというオーダーが最初にあったので、人工的な感じがいいんじゃないかと思いました。「全身に刃物が付いていて、触る者をみな傷つける」ようなポケモンにと僕から担当デザイナーにオーダーしたら、武将的なものがあがってきました。キリキザンがコマタナたちに命令し、コマタナが敵にしがみついて刃物で倒すという設定もあったので、おなかの辺りに刃を突き出させています。人型をしていますけど、虫みたいなイメージも少しありますね。
     translation: 最初的要求是恶・钢属性、出现在城市区域，所以我觉得带点人工感会比较好。我向负责的设计师提出要求，希望做成“全身附有刀刃、触碰者皆会受伤”的宝可梦，结果对方拿来了武将风格的设计。因为还有劈斩司令命令驹刀小兵、驹刀小兵缠住敌人用刀刃打倒对方的设定，所以让刀刃从腹部附近突出来。虽然是人型，但也稍微有点虫子般的印象。
-  - speaker: 驹刀小兵
+  - speaker: 驹刀小兵 刀刃宝可梦●恶・钢
     type: heading
     kind: text
     region_type: heading
@@ -2129,18 +1709,7 @@ translation_segments:
     scan_page: 11
     heading_level: 2
     review_status: review
-    original: コマタナ
-    translation: ""
-  - speaker: 刀刃宝可梦●恶・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h200
-    order: 200
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: はものポケモン●あく・はがね
+    original: コマタナ はものポケモン●あく・はがね
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -2152,7 +1721,7 @@ translation_segments:
     review_status: review
     original: シビルドンたちのイメージは僕が考えました。ウナギは怪獣にしたら強そうなヤツになるという確信があって、それをそのままポケモンにしちゃっただけなんです。小学生のとき、家が田舎の方で、近くの川でウナギとか普通に取れたんですけど、そこでものすごく大きいウナギが取れたことがあったんです。だいぶ気持ち悪かったんですけど、そういうよくわからない雰囲気が、すごく強そうなイメージに結び付いたんでしょうね。これをポケモンにしてみたら、絶対に得体の知れない面白いものになるぞと。だから、シビビールが一番最初のイメージに近いですね。そして本物のウナギの成長と同じような流れを、ポケモンの進化で表現したかったので、実際にウナギの稚魚を調べて、進化前のシビシラスを考えました。ポケモンでも生き物として正しい、そういうところを守りたいと思っています。
     translation: 电鳗怪它们的形象是我构思的。我确信鳗鱼如果做成怪兽的话会是很强的家伙，就那样直接做成宝可梦了。小学的时候，我家在乡下，附近的河里普通地就能抓到鳗鱼之类的，当时还抓到过一条非常大的鳗鱼。虽然相当恶心，但那种莫名其妙的感觉，大概就与非常强的印象联系在了一起吧。把这个做成宝可梦的话，绝对会成为莫名其妙又有趣的东西。所以，电鳗怪最接近最初的印象。而且我想通过宝可梦的进化来表现与真正鳗鱼成长相同的流程，于是实际调查了鳗鱼的幼鱼，构思出了进化前的电电虫。即使是宝可梦，也想在作为生物的正确性上，守住这些地方。
-  - speaker: 电鳗怪
+  - speaker: 电鳗怪 电鱼宝可梦●电 电电虫 电鱼宝可梦●电 麻麻鳗鱼王 电鱼宝可梦●电 食蚁炉
     type: heading
     kind: text
     region_type: heading
@@ -2161,73 +1730,7 @@ translation_segments:
     scan_page: 11
     heading_level: 2
     review_status: review
-    original: シビビール
-    translation: ""
-  - speaker: 电鱼宝可梦●电
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h203
-    order: 203
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: でんきうおポケモン●でんき
-    translation: ""
-  - speaker: 电电虫
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h204
-    order: 204
-    scan_page: 11
-    heading_level: 2
-    review_status: review
-    original: シビシラス
-    translation: ""
-  - speaker: 电鱼宝可梦●电
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h205
-    order: 205
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: でんきうおポケモン●でんき
-    translation: ""
-  - speaker: 麻麻鳗鱼王
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h206
-    order: 206
-    scan_page: 11
-    heading_level: 2
-    review_status: review
-    original: シビルドン
-    translation: ""
-  - speaker: 电鱼宝可梦●电
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h207
-    order: 207
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: でんきうおポケモン●でんき
-    translation: ""
-  - speaker: 食蚁炉
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h208
-    order: 208
-    scan_page: 11
-    heading_level: 2
-    review_status: review
-    original: クイタラン
+    original: シビビール でんきうおポケモン●でんき シビシラス でんきうおポケモン●でんき シビルドン でんきうおポケモン●でんき クイタラン
     translation: ""
   - speaker: 食蚁兽宝可梦●火
     type: heading
@@ -2250,7 +1753,7 @@ translation_segments:
     review_status: review
     original: クイタランとアイアントは最初からワンセットで考えていました。これは僕がデザインしたんですが、はがねタイプとほのおタイプのペアなら、アリとアリクイがいいなと、割と最初から考えていました。2匹ともチャンピオンロードに出るんですが、アリが洞窟を掘り、それを捕食するためにアリクイが入り込んだというイメージが明確だったので、作るのにそんなに時間はかかっていません。昔から一番小さいポケモンとしてアリのポケモンを作りたかったんですけど、今回は大きさではなくフォルムに重点を置いています。それとはがねタイプという設定を組み合わせて、割と正統派のデザインになりましたね。ただドット絵だと動きが細かくなりすぎて、ちょっと虫っぽすぎたかもしれません。クイタランは鉄を食べるポケモンなので、製鉄所のイメージを加えました。製鉄所の写真を見ると、パイプがぐねぐねと縦横無尽に通っていますよね。パイプみたいなシッポから空気を取り入れて、火を起こしているという設定です。体がゴツくてちょっと兵器的な感じもあるので、目の形などをゆるい感じにしてバランスを取っています。
     translation: 食蚁炉和铁蚁从一开始就是作为一组来考虑的。这个是我设计的，如果是钢属性和火属性的一对，那蚂蚁和食蚁兽就不错，这个想法算是从一开始就有了。两只都会出现在冠军之路，蚂蚁挖掘洞穴，食蚁兽为了捕食它而进入其中，这个意象很明确，所以制作上没花太多时间。我一直想做一个蚂蚁宝可梦，作为最小的宝可梦，但这次重点不在大小而在形态。再结合钢属性的设定，就形成了比较正统的设计。不过做成点阵图后动作变得太细碎，可能显得有点太像虫子了。食蚁炉是吃铁的宝可梦，所以加入了钢铁厂的意象。看钢铁厂的照片，管道纵横交错、四通八达。设定上它从管道一样的尾巴吸入空气来生火。身体粗壮，带点兵器的感觉，所以把眼睛的形状等做得柔和一些来取得平衡。
-  - speaker: 铁蚁
+  - speaker: 铁蚁 铁蚁宝可梦●虫・钢
     type: heading
     kind: text
     region_type: heading
@@ -2259,18 +1762,7 @@ translation_segments:
     scan_page: 11
     heading_level: 2
     review_status: review
-    original: アイアント
-    translation: ""
-  - speaker: 铁蚁宝可梦●虫・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p027_making_pokemon_haxorus_darmanitan_jellicent-h212
-    order: 212
-    scan_page: 11
-    heading_level: 3
-    review_status: review
-    original: てつアリポケモン●むし・はがね
+    original: アイアント てつアリポケモン●むし・はがね
     translation: ""
   - speaker: image
     type: image
@@ -2282,7 +1774,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.28
     review_status: ready
-  - speaker: 牙牙
+  - speaker: 牙牙 牙宝可梦●龙 斧牙龙 颚斧宝可梦●龙
     type: heading
     kind: text
     region_type: heading
@@ -2291,40 +1783,7 @@ translation_segments:
     scan_page: 12
     heading_level: 2
     review_status: review
-    original: キバゴ
-    translation: ""
-  - speaker: 牙宝可梦●龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h215
-    order: 215
-    scan_page: 12
-    heading_level: 3
-    review_status: review
-    original: キバポケモン●ドラゴン
-    translation: ""
-  - speaker: 斧牙龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h216
-    order: 216
-    scan_page: 12
-    heading_level: 2
-    review_status: review
-    original: オノンド
-    translation: ""
-  - speaker: 颚斧宝可梦●龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h217
-    order: 217
-    scan_page: 12
-    heading_level: 3
-    review_status: review
-    original: あごオノポケモン●ドラゴン
+    original: キバゴ キバポケモン●ドラゴン オノンド あごオノポケモン●ドラゴン
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -2336,7 +1795,7 @@ translation_segments:
     review_status: review
     original: オノノクスは、全イッシュポケモンの中で一番最初と言ってもいいくらい早い時期に出てきたんです。まだ僕が『ポケモンプラチナ』に関わっていて、『ポケモンＢ・Ｗ』の開発が本格化していないころ、当時入ってきた新人の女の子に新しいポケモンを描かせることになりまして。「かっこよくて恐竜みたいなポケモンを」というオーダーで描いてもらったのが、オノノクスです。刃物のような突き出た牙で、かみつくのではなく首を振って攻撃するという、恐竜図鑑の解説チックな設定まで考えてもらって、こういう形になりました。最初は新しい人が作っただけあって「ポケモンぽくないなぁ」と思ったんですが、それが逆に魅力だと考えて、思いきって採用しました。進化前の2匹はオノノクスから逆算して作っていった感じです。牙の変化がポイントなので、キバゴとオノンドではあまり形は変わらないんだけど、最後に大きく変わってインパクトを与えられるように、変化の度合いを調整してます。
     translation: 双斧战龙可以说是在所有合众宝可梦中最早出现的一批。当时我还在参与《宝可梦 白金》的工作，《宝可梦 黑·白》的开发还没有正式展开，我们让当时刚入职的一个女孩来画新的宝可梦。以「帅气、像恐龙一样的宝可梦」为要求请她画出来的，就是双斧战龙。连用刀刃般突出的牙齿、不是咬而是甩头攻击这种像恐龙图鉴解说一样的设定，都是她一并想出来的，最终就成了这个样子。一开始因为是新人的作品，我还觉得「不太像宝可梦」，但反过来想这也正是它的魅力，于是果断采用了。进化前的两只，感觉是从双斧战龙倒推着做出来的。因为牙齿的变化是关键，斧牙龙和斧牙龙中间形态在外形上变化不大，但为了让最终进化时能有大幅变化、带来冲击感，我们调整了变化的幅度。
-  - speaker: 双斧战龙
+  - speaker: 双斧战龙 颚斧宝可梦●龙 火红不倒翁 不倒翁宝可梦●火
     type: heading
     kind: text
     region_type: heading
@@ -2345,40 +1804,7 @@ translation_segments:
     scan_page: 12
     heading_level: 2
     review_status: review
-    original: オノノクス
-    translation: ""
-  - speaker: 颚斧宝可梦●龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h220
-    order: 220
-    scan_page: 12
-    heading_level: 3
-    review_status: review
-    original: あごオノポケモン●ドラゴン
-    translation: ""
-  - speaker: 火红不倒翁
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h221
-    order: 221
-    scan_page: 12
-    heading_level: 2
-    review_status: review
-    original: ダルマッカ
-    translation: ""
-  - speaker: 不倒翁宝可梦●火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h222
-    order: 222
-    scan_page: 12
-    heading_level: 3
-    review_status: review
-    original: だるまポケモン●ほのお
+    original: オノノクス あごオノポケモン●ドラゴン ダルマッカ だるまポケモン●ほのお
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -2401,7 +1827,7 @@ translation_segments:
     review_status: review
     original: ヒヒダルマ
     translation: ""
-  - speaker: 爆燃宝可梦●火（普通模式）、火·超能力（达摩模式）
+  - speaker: 爆燃宝可梦●火（普通模式）、火·超能力（达摩模式） 胖嘟嘟 漂浮宝可梦●水·幽灵 轻飘飘
     type: heading
     kind: text
     region_type: heading
@@ -2410,40 +1836,7 @@ translation_segments:
     scan_page: 12
     heading_level: 3
     review_status: review
-    original: えんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード）
-    translation: ""
-  - speaker: 胖嘟嘟
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h226
-    order: 226
-    scan_page: 12
-    heading_level: 2
-    review_status: review
-    original: ブルンゲル
-    translation: ""
-  - speaker: 漂浮宝可梦●水·幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h227
-    order: 227
-    scan_page: 12
-    heading_level: 3
-    review_status: review
-    original: ふゆうポケモン●みず・ゴースト
-    translation: ""
-  - speaker: 轻飘飘
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle-h228
-    order: 228
-    scan_page: 12
-    heading_level: 2
-    review_status: review
-    original: プルリル
+    original: えんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード） ブルンゲル ふゆうポケモン●みず・ゴースト プルリル
     translation: ""
   - speaker: 漂浮宝可梦●水·幽灵
     type: heading
@@ -2476,17 +1869,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p029_making_pokemon_golurk_vanilluxe_basculin.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.29
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p029_making_pokemon_golurk_vanilluxe_basculin-h232
-    order: 232
-    scan_page: 13
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: 死神棺 魂宝可梦●幽灵
     type: heading
     kind: text
@@ -2549,7 +1931,7 @@ translation_segments:
     review_status: review
     original: サーフィンじゃなくて、踏んづけてビリビリしている絵だよ（笑）。背中の足跡っぽい部分をぎゅっと踏むと、ビリビリッとくるんです。
     translation: 不是冲浪，是踩上去被电得麻麻的画哦（笑）。用力踩背上像脚印的部分，就会麻麻地来电。
-  - speaker: 圆蝌蚪 蝌蚪宝可梦●水
+  - speaker: 圆蝌蚪 蝌蚪宝可梦●水 死神棺 棺木宝可梦●幽灵
     type: heading
     kind: text
     region_type: heading
@@ -2558,18 +1940,7 @@ translation_segments:
     scan_page: 13
     heading_level: 3
     review_status: review
-    original: オタマロおたまポケモン●みず
-    translation: ""
-  - speaker: 死神棺 棺木宝可梦●幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p029_making_pokemon_golurk_vanilluxe_basculin-h240
-    order: 240
-    scan_page: 13
-    heading_level: 3
-    review_status: review
-    original: デスカーンかんおけポケモン●ゴースト
+    original: オタマロおたまポケモン●みず デスカーンかんおけポケモン●ゴースト
     translation: ""
   - speaker: 岩殿居蟹 岩居宝可梦●虫・岩
     type: heading
@@ -2717,7 +2088,7 @@ translation_segments:
     review_status: review
     original: ちなみに上半分のアイスの部分も、雪状のクリームが薄くかぶさっているだけで、その下に氷の本体があります。この白いところが全部取れた場合の設定もあるんですが、その姿が世間に出る機会があるのかどうか（笑）。アニメとかならあるのかな。
     translation: 顺带一提，上半部分的冰淇淋部分也只是薄薄盖着一层雪状奶油，下面有冰的本体。也有这个白色部分全部去掉时的设定，但那个样子有没有机会出现在世上呢（笑）。如果是动画之类的话也许会有吧。
-  - speaker: 迷你冰 新雪宝可梦●冰
+  - speaker: 迷你冰 新雪宝可梦●冰 香草冰 冰雪宝可梦●冰
     type: heading
     kind: text
     region_type: heading
@@ -2726,20 +2097,9 @@ translation_segments:
     scan_page: 14
     heading_level: 2
     review_status: review
-    original: バニプッチしんせつポケモン●こおり
+    original: バニプッチしんせつポケモン●こおり バニリッチひょうせつポケモン●こおり
     translation: ""
-  - speaker: 香草冰 冰雪宝可梦●冰
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p030_making_pokemon_volcarona_braviary_mandibuzz-h256
-    order: 256
-    scan_page: 14
-    heading_level: 2
-    review_status: review
-    original: バニリッチひょうせつポケモン●こおり
-    translation: ""
-  - speaker: 双倍多多冰 暴风雪宝可梦●冰
+  - speaker: 双倍多多冰 暴风雪宝可梦●冰 野蛮鲈鱼 粗暴宝可梦●水
     type: heading
     kind: text
     region_type: heading
@@ -2748,18 +2108,7 @@ translation_segments:
     scan_page: 14
     heading_level: 2
     review_status: review
-    original: バイバニラブリザードポケモン●こおり
-    translation: ""
-  - speaker: 野蛮鲈鱼 粗暴宝可梦●水
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p030_making_pokemon_volcarona_braviary_mandibuzz-h258
-    order: 258
-    scan_page: 14
-    heading_level: 2
-    review_status: review
-    original: バスラオらんぼうポケモン●みず
+    original: バイバニラブリザードポケモン●こおり バスラオらんぼうポケモン●みず
     translation: ""
   - speaker: caption
     type: paragraph
@@ -2801,17 +2150,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.31
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty-h263
-    order: 263
-    scan_page: 15
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2952,7 +2290,7 @@ translation_segments:
     review_status: review
     original: 担当のデザイナーはタマゲタケを最初に描いてきて、進化したらこうなるというのを持ってきたんですけど、見た瞬間に爆笑しました（笑）。これはもうモンスターボールと間違えないだろ！と。それじゃあ、名前はモロバレルだ（笑）。彼が作ってくるポケモンは、みんな表情がいいんです。テッシードと同じデザイナーが作ったんですけど、ちょっとこう、ひねた感じの顔をしているというか。ちなみに、顔の真ん中にあるのは黒い点が口です。ここから胞子を吹き出す形になってます。ちょっと横に付いているのが、ごまかすためにそっぽを向きながら口笛を吹いている人みたいで、いい味出していますよね。
     translation: 负责的设计师先画了哎呀球菇，然后带来了它进化后会变成这样的方案，我看到的一瞬间就爆笑了（笑）。心想这下肯定不会和精灵球搞错了！那就叫败露球菇吧（笑）。他做的宝可梦，表情都很好。和种子铁球是同一位设计师做的，该说是长着一张有点别扭的脸吗。顺带一提，脸正中间的黑点是嘴。设计成从这里吹出孢子。稍微偏在旁边的那部分，看起来像是个为了蒙混过关而别过脸吹口哨的人，很有味道。
-  - speaker: 败露球菇
+  - speaker: 败露球菇 蘑菇宝可梦●草・毒 哎呀球菇 蘑菇宝可梦●草・毒 坚果哑铃 刺球宝可梦●草・钢
     type: heading
     kind: text
     region_type: heading
@@ -2961,64 +2299,9 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: モロバレル
+    original: モロバレル きのこポケモン●くさ・どく タマゲタケ きのこポケモン●くさ・どく ナットレイ とげだまポケモン●くさ・はがね
     translation: ""
-  - speaker: 蘑菇宝可梦●草・毒
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h279
-    order: 279
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: きのこポケモン●くさ・どく
-    translation: ""
-  - speaker: 哎呀球菇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h280
-    order: 280
-    scan_page: 16
-    heading_level: 2
-    review_status: review
-    original: タマゲタケ
-    translation: ""
-  - speaker: 蘑菇宝可梦●草・毒
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h281
-    order: 281
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: きのこポケモン●くさ・どく
-    translation: ""
-  - speaker: 坚果哑铃
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h282
-    order: 282
-    scan_page: 16
-    heading_level: 2
-    review_status: review
-    original: ナットレイ
-    translation: ""
-  - speaker: 刺球宝可梦●草・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h283
-    order: 283
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: とげだまポケモン●くさ・はがね
-    translation: ""
-  - speaker: 索罗亚
+  - speaker: 索罗亚 恶狐宝可梦●恶
     type: heading
     kind: text
     region_type: heading
@@ -3027,18 +2310,7 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: ゾロア
-    translation: ""
-  - speaker: 恶狐宝可梦●恶
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h285
-    order: 285
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: わるぎつねポケモン●あく
+    original: ゾロア わるぎつねポケモン●あく
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -3050,7 +2322,7 @@ translation_segments:
     review_status: review
     original: 去年の夏に公開されたポケモン映画の主役ポケモンなんですけど、もともとこれまでのポケモン映画にいなかった、あくタイプの主役が欲しいという話があったんです。ちょうどそのころに先行してデザインが進んでいたポケモンの中に、ゾロアとゾロアークの基になるものがあったんですよ。映画のイメージにも合っているし、ちょうどこれがいいということで、映画のストーリーに組み込まれていった感じです。設計的には、ゾロアークのたてがみがしっぽの代わりになっているのがポイントですね。
     translation: 它是去年夏天上映的宝可梦电影的主角宝可梦。原本有意见提出，希望让此前宝可梦电影中从未出现过的恶属性宝可梦担任主角。恰好当时先行推进设计的宝可梦中，就有索罗亚和索罗亚克的原型。它既符合电影的形象，又正好合适，于是就被编入了电影的故事。在设计上，索罗亚克的鬃毛代替了尾巴，这一点是关键。
-  - speaker: 种子铁球
+  - speaker: 种子铁球 刺果宝可梦●草・钢
     type: heading
     kind: text
     region_type: heading
@@ -3059,18 +2331,7 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: テッシード
-    translation: ""
-  - speaker: 刺果宝可梦●草・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h288
-    order: 288
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: とげのみポケモン●くさ・はがね
+    original: テッシード とげのみポケモン●くさ・はがね
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -3082,7 +2343,7 @@ translation_segments:
     review_status: review
     original: これは開発後半に、くさ・はがねタイプのポケモンを作ってくれというオーダーがあったパターンですね。電気石の洞穴に出ることも決まっていました。草の中を歩くと、服にくっついてくる実があるじゃないですか。ああいうふうにくっつく感じはどうかと企画側から提案され、そこから「鉄のトゲで岩壁にたくさんくっついている」というイメージが湧いてきました。割とシンプルな見た目なんですけど、ポケモンらしいフォルムに落ち着きましたね。
     translation: 这是开发后期接到“请做一只草・钢属性的宝可梦”这一要求的案例。当时也已经决定让它出现在电气石洞穴。走在草丛里时，不是有会粘在衣服上的果实吗？企划方提议说，那种粘上去的感觉怎么样，由此就产生了“用铁刺大量粘附在岩壁上”的形象。虽然外观比较简单，但最终定型成了很有宝可梦风格的样子。
-  - speaker: 头巾混混
+  - speaker: 头巾混混 恶党宝可梦●恶・格斗 滑滑小子 蜕皮宝可梦●恶・格斗
     type: heading
     kind: text
     region_type: heading
@@ -3091,40 +2352,7 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: ズルズキン
-    translation: ""
-  - speaker: 恶党宝可梦●恶・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h291
-    order: 291
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: あくとうポケモン●あく・かくとう
-    translation: ""
-  - speaker: 滑滑小子
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h292
-    order: 292
-    scan_page: 16
-    heading_level: 2
-    review_status: review
-    original: ズルッグ
-    translation: ""
-  - speaker: 蜕皮宝可梦●恶・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h293
-    order: 293
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: だっぴポケモン●あく・かくとう
+    original: ズルズキン あくとうポケモン●あく・かくとう ズルッグ だっぴポケモン●あく・かくとう
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -3136,7 +2364,7 @@ translation_segments:
     review_status: review
     original: デザインのもともとは、腰ばきのズボンみたいな発想です。脱皮した皮が余っているというアイデアは面白いんじゃないかと。これは、アニメーションがすごい効果的でした。あれが無いと、脱皮した自分の皮を持っているということが、よく伝わらなかったと思うんですけど、アニメーションのおかげで成立したところがありますね。
     translation: 设计最初的想法，是像围在腰上的裤子一样。脱下的皮还留着这个点子挺有意思的。这个在动画里效果非常好。如果没有动画，持有自己脱下的皮这一点，大概很难传达清楚，可以说是在动画的帮助下才成立的。
-  - speaker: 索罗亚克
+  - speaker: 索罗亚克 妖狐宝可梦●恶
     type: heading
     kind: text
     region_type: heading
@@ -3145,18 +2373,7 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: ゾロアーク
-    translation: ""
-  - speaker: 妖狐宝可梦●恶
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p032_making_pokemon_mienshao_hydreigon_victini-h296
-    order: 296
-    scan_page: 16
-    heading_level: 3
-    review_status: review
-    original: ばけぎつねポケモン●あく
+    original: ゾロアーク ばけぎつねポケモン●あく
     translation: ""
   - speaker: image
     type: image
@@ -3448,17 +2665,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p035_making_pokemon_swords_of_justice_favorites.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.35
     review_status: ready
-  - speaker: 宝可梦诞生秘话＊总集篇＊
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p035_making_pokemon_swords_of_justice_favorites-h325
-    order: 325
-    scan_page: 19
-    heading_level: 2
-    review_status: review
-    original: ポケモン誕生秘話＊総集編＊
-    translation: ""
   - speaker: 龙卷云 旋风宝可梦●飞行
     type: heading
     kind: text
@@ -3544,7 +2750,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-pokemon/pages/p036_making_pokemon_summary_favorite_poll.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.36
     review_status: ready
-  - speaker: 勾帕路翁
+  - speaker: 勾帕路翁 铁心宝可梦●钢・格斗 代拉基翁 岩窟宝可梦●岩石・格斗 毕力吉翁 草原宝可梦●草・格斗
     type: heading
     kind: text
     region_type: heading
@@ -3553,62 +2759,7 @@ translation_segments:
     scan_page: 20
     heading_level: 2
     review_status: review
-    original: コバルオン
-    translation: ""
-  - speaker: 铁心宝可梦●钢・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p036_making_pokemon_summary_favorite_poll-h335
-    order: 335
-    scan_page: 20
-    heading_level: 3
-    review_status: review
-    original: てっしんポケモン●はがね・かくとう
-    translation: ""
-  - speaker: 代拉基翁
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p036_making_pokemon_summary_favorite_poll-h336
-    order: 336
-    scan_page: 20
-    heading_level: 2
-    review_status: review
-    original: テラキオン
-    translation: ""
-  - speaker: 岩窟宝可梦●岩石・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p036_making_pokemon_summary_favorite_poll-h337
-    order: 337
-    scan_page: 20
-    heading_level: 3
-    review_status: review
-    original: がんくつポケモン●いわ・かくとう
-    translation: ""
-  - speaker: 毕力吉翁
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p036_making_pokemon_summary_favorite_poll-h338
-    order: 338
-    scan_page: 20
-    heading_level: 2
-    review_status: review
-    original: ビリジオン
-    translation: ""
-  - speaker: 草原宝可梦●草・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p036_making_pokemon_summary_favorite_poll-h339
-    order: 339
-    scan_page: 20
-    heading_level: 3
-    review_status: review
-    original: そうげんポケモン●くさ・かくとう
+    original: コバルオン てっしんポケモン●はがね・かくとう テラキオン がんくつポケモン●いわ・かくとう ビリジオン そうげんポケモン●くさ・かくとう
     translation: ""
   - speaker: 海野隆雄
     type: paragraph
@@ -3838,4 +2989,20 @@ translation_segments:
     review_status: review
     original: →イッシュ地方最大の都市であるヒウンシティの様子。天高くそびえたつ高層ビル群の周囲には、波止場と巨大な船も見える。右後方にはスカイアローブリッジも
     translation: →合众地区最大城市飞云市的样子。高耸入云的摩天大楼群周围，还能看到码头和巨大的船只。右后方还有天箭桥
+original_title: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編
+topics:
+  - 角色设计
+  - 开发流程
+  - 系统设计
+  - 地区设定
+  - 传说宝可梦
+mentions:
+  people:
+    - 增田顺一
+    - 西田敦子
+    - 田尻智
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
 ---

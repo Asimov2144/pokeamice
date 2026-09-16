@@ -10,18 +10,22 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
-  - Nintendo DREAM 特別付録
-  - 扫描存档
-  - 日中对照
+  - 杂志特辑
+  - Nintendo DREAM
   - 宝可梦 黑·白
   - 人气投票
+  - 角色设计
+  - 系统设计
+  - 传说宝可梦
+  - 攻略
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM 特別付録
 issue: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 特別付録 編集部
-dek: Nintendo DREAM读者投票选出合众地区最受欢迎的宝可梦与人物角色。
-summary: 2011年Nintendo DREAM附录公布合众地区宝可梦与人物角色人气投票结果：水晶灯火灵以286票居宝可梦榜首，N以366票居人物角色榜首。文中列出前30名宝可梦与前15名角色，并分析男女投票差异及对战强度对人气的影响。
+dek: Nindori读者票选合众地区人气宝可梦与角色结果公布
+summary: 《Nintendo DREAM》2011年7月号附录公布合众地区宝可梦与人物角色人气投票结果，应募约1500票，为杂志史上规模最大。宝可梦部门每人可投3票，水晶灯火灵以286票居首，风妖精、莱希拉姆分列二三名，三首恶龙为男性票第一；人物部门每人可投2票，等离子团的王N以366票夺冠，地铁总管北尚、南厦列二三名。文中还介绍了水晶灯火灵、风妖精、莱希拉姆的获取方法与对战用法，以及N、北尚、南厦的名场面。
 source_pages: P.4–P.17（10 页；2048px 页图）
 source:
   title: 『ポケモン誕生秘話 完全総集版』ポケモン人気投票・人物キャラ部門 結果発表＆TOP3おめでとう企画
@@ -49,6 +53,7 @@ entities:
   people: []
   works:
     - 宝可梦 黑·白
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -175,7 +180,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p005_poll_pokemon_top10_part2.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.5
     review_status: ready
-  - speaker: 宝可梦人气投票 结果发表
+  - speaker: 宝可梦人气投票 结果发表 限定投票结果发表
     type: heading
     kind: text
     region_type: heading
@@ -184,18 +189,7 @@ translation_segments:
     scan_page: 1
     heading_level: 2
     review_status: review
-    original: ポケモン人気投票 結果発表
-    translation: ""
-  - speaker: 限定投票结果发表
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p005_poll_pokemon_top10_part2-h14
-    order: 14
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: 限定投票結果発表
+    original: ポケモン人気投票 結果発表 限定投票結果発表
     translation: ""
   - speaker: body
     type: paragraph
@@ -789,17 +783,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p007_poll_pokemon_21_50_ranking.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.7
     review_status: ready
-  - speaker: 宝可梦人气投票 结果公布
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p007_poll_pokemon_21_50_ranking-h72
-    order: 72
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ケモン人気投票 結果発表
-    translation: ""
   - speaker: caption
     type: paragraph
     kind: text
@@ -991,7 +974,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p008_poll_character_top3.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.8
     review_status: ready
-  - speaker: 首位之争进入白热化！！人物角色部门
+  - speaker: 首位之争进入白热化！！人物角色部门 第1名 等离子团的王N
     type: heading
     kind: text
     region_type: heading
@@ -1000,18 +983,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: "首位争いは白熱の展開に!! 人物キャラ部門"
-    translation: ""
-  - speaker: 第1名 等离子团的王N
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p008_poll_character_top3-h93
-    order: 93
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: 1位プラズマ団の王N
+    original: "首位争いは白熱の展開に!! 人物キャラ部門 1位プラズマ団の王N"
     translation: ""
   - speaker: body
     type: paragraph
@@ -1160,17 +1132,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p009_poll_character_4_15_ranking.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.9
     review_status: ready
-  - speaker: 宝可梦人气投票 结果公布
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p009_poll_character_4_15_ranking-h108
-    order: 108
-    scan_page: 5
-    heading_level: 2
-    review_status: review
-    original: ポケモン人気投票 結果発表
-    translation: ""
   - speaker: caption
     type: paragraph
     kind: text
@@ -1432,7 +1393,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p014_special_top3_pokemon_chandelure.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.14
     review_status: ready
-  - speaker: 人气投票TOP3祝贺企划
+  - speaker: 人气投票TOP3祝贺企划 宝可梦篇
     type: heading
     kind: text
     region_type: heading
@@ -1441,18 +1402,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: 人気投票TOP3おめでとう企画
-    translation: ""
-  - speaker: 宝可梦篇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p014_special_top3_pokemon_chandelure-h136
-    order: 136
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ポケモン編
+    original: 人気投票TOP3おめでとう企画 ポケモン編
     translation: ""
   - speaker: body
     type: paragraph
@@ -1525,7 +1475,7 @@ translation_segments:
     review_status: review
     original: "シャンデラがこんなに、特に女性に大人気だったとは…。そもそもヒトモシの時点でかわいい。あのプニョンとした口は反則だ。シャンデラまで進化すると、かわいいだけでなくゴージャス感もプラス。バトル中は炎とともにシャンデラ自身も左右にユラユラと揺れ、シャンデリアらしさを演出する。この見た目で強い!というギャップもいいのだろう。"
     translation: 没想到吊灯怪竟然如此受欢迎，尤其是在女性玩家中……。其实在烛光灵阶段就已经很可爱了。那张圆嘟嘟的嘴简直是犯规。进化到吊灯怪之后，不只是可爱，还多了华丽感。战斗中它会和火焰一起左右摇晃，营造出吊灯的感觉。顶着这副外表却很强！这种反差大概也是它受欢迎的原因。
-  - speaker: 战斗中摇～摇晃晃
+  - speaker: 战斗中摇～摇晃晃 睡脸好可爱♥
     type: heading
     kind: text
     region_type: heading
@@ -1534,18 +1484,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: バトル中はユ~ラユラ
-    translation: ""
-  - speaker: 睡脸好可爱♥
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p014_special_top3_pokemon_chandelure-h145
-    order: 145
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: 寝顔がラブリー♥
+    original: バトル中はユ~ラユラ 寝顔がラブリー♥
     translation: ""
   - speaker: caption
     type: paragraph
@@ -1782,17 +1721,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p015_special_top3_pokemon_whimsicott_reshiram.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.15
     review_status: ready
-  - speaker: 宝可梦人气投票 结果公布
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p015_special_top3_pokemon_whimsicott_reshiram-h169
-    order: 169
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ポケモン人気投票 結果発表
-    translation: ""
   - speaker: 爱恶作剧的风之宠儿 合众图鉴No.053 风隐宝可梦 风妖精
     type: heading
     kind: text
@@ -2329,7 +2257,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p016_special_top3_character_n.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.16
     review_status: ready
-  - speaker: 人气投票TOP3祝贺企划
+  - speaker: 人气投票TOP3祝贺企划 人物角色篇
     type: heading
     kind: text
     region_type: heading
@@ -2338,18 +2266,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: 人気投票TOP3おめでとう企画
-    translation: ""
-  - speaker: 人物角色篇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p016_special_top3_character_n-h224
-    order: 224
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: 人物キャラ編
+    original: 人気投票TOP3おめでとう企画 人物キャラ編
     translation: ""
   - speaker: body
     type: paragraph
@@ -2687,17 +2604,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-popularity-poll/pages/p017_special_top3_character_subway_masters.jpg"
     alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.17
     review_status: ready
-  - speaker: 宝可梦人气投票 结果公布
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p017_special_top3_character_subway_masters-h258
-    order: 258
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: ポケモン人気投票 結果発表
-    translation: ""
   - speaker: 精通单打对战的黑衣车掌 地铁总管北尚 名场面集
     type: heading
     kind: text
@@ -3074,4 +2980,15 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
+original_title: 『ポケモン誕生秘話 完全総集版』ポケモン人気投票・人物キャラ部門 結果発表＆TOP3おめでとう企画
+topics:
+  - 人气投票
+  - 角色设计
+  - 系统设计
+  - 传说宝可梦
+  - 攻略
+mentions:
+  people:
+    - 西田敦子
+  works: []
 ---

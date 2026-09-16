@@ -10,18 +10,23 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
+  - 杂志特辑
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 X·Y
-  - 密阿雷市
+  - 佐藤仁美
+  - 地区设定
+  - 角色设计
+  - 音乐制作
+  - 攻略
+  - 系统设计
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM
 issue: 2014年1月号（Vol.237）
 publisher: 徳間書店
 interviewer: Nintendo DREAM 編集部
-dek: 卡洛斯地区最大城市密阿雷市的景点、交通、店铺与登场人物一览。
-summary: 介绍密阿雷市的观光景点、出租车与坐骑山羊等交通方式、美术馆与棱镜塔等设施、咖啡馆与专卖店，并附训练家宣传片制作人佐藤与景山的访谈，以及弗拉达利等登场人物名鉴。
+dek: 密阿雷市观光指南与弗拉达利、希特隆人物名鉴
+summary: 2014年1月号《Nintendo DREAM》刊载《宝可梦 X·Y》密阿雷市观光指南与登场人物名鉴。攻略部分介绍密阿雷市交通：出租车起步价710日元、坐骑山羊穿梭车200日元、超高速铁路TMV时速500公里，并列出宝可梦研究所、密阿雷美术馆（入场免费、语音导览200日元）、棱镜塔、试炼屋等设施与45处店铺、咖啡馆。访谈中佐藤仁美谈训练家宣传片企划，称由企划总监提议、与动作设计师合作，音乐按类型下单，景山将太谈提供素材供用户自由发挥。人物名鉴介绍弗拉达利与道馆馆主希特隆。
 source_pages: P.16–P.19（4 页；2048px 页图）
 source:
   title: 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」
@@ -46,9 +51,11 @@ review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工
 pending_review_regions: 217
 scan_set: ndream-2014-01
 entities:
-  people: []
+  people:
+    - 佐藤仁美
   works:
     - 宝可梦 X·Y
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -511,17 +518,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-lumiose-city-guide/pages/p017_lumiose.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.17
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p017_lumiose-h46
-    order: 46
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
   - speaker: 值得一去再去的观光景点
     type: heading
     kind: text
@@ -844,7 +840,7 @@ translation_segments:
     review_status: review
     original: トレーナープロモは、『ポケモン ブラック2・ホワイト2』でポケウッドの音楽も担当された佐藤さんが手がけられたんですよね。
     translation: 训练家宣传片是由曾负责《宝可梦 黑2·白2》宝可梦好莱坞音乐的佐藤先生操刀的吧。
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -864,7 +860,7 @@ translation_segments:
     review_status: review
     original: 動きなどに関してもですか？
     translation: 动作之类的部分也是吗？
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -884,7 +880,7 @@ translation_segments:
     review_status: review
     original: （笑）。ところで、プロモという企画のきっかけはどこから…？
     translation: （笑）。话说回来，宣传片这个企划的契机是从哪里来的……？
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -904,7 +900,7 @@ translation_segments:
     review_status: review
     original: 途中でポケモンをバン！ と出すと、まさに変身シーンですね！
     translation: 中途宝可梦砰！地一下登场，简直就像变身场景！
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -924,7 +920,7 @@ translation_segments:
     review_status: review
     original: 使える音楽も、バラエティに富んでいます。
     translation: 可用的音乐也丰富多样。
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -944,7 +940,7 @@ translation_segments:
     review_status: review
     original: 景山 使い方はユーザーさんにゆだねて、いろいろな表現ができるように僕らはその素材を提供する…という感じでした。SEに関しては、かなりお笑いの要素もありますね。
     translation: 景山 用法就交给用户，我们提供素材，让他们能做出各种表现……大概就是这种感觉。至于音效，搞笑要素相当多呢。
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -954,7 +950,7 @@ translation_segments:
     review_status: review
     original: 「カーッ！」って効果音とか。―― あの「カーッ！」は最高でした（笑）。しかし、本当に自由なプロモが作れちゃいますよね！
     translation: 比如「咔——！」这种效果音。――那个「咔——！」真是绝了（笑）。不过，真的能做出非常自由的宣传片呢！
-  - speaker: 佐藤
+  - speaker: 佐藤仁美
     type: paragraph
     kind: text
     region_type: body
@@ -1742,18 +1738,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2014-01-lumiose-city-guide/pages/p019_lumiose.jpg"
     alt: Nintendo DREAM 2014年1月号（Vol.237） P.19
     review_status: ready
-  - speaker: 宝可梦 X・Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_lumiose-h166
-    order: 166
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター X・Y
-    translation: ""
-  - speaker: 《宝可梦 X・Y》登场人物名鉴
+  - speaker: 《宝可梦 X・Y》登场人物名鉴 正式连载开始！
     type: heading
     kind: text
     region_type: heading
@@ -1762,20 +1747,9 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: 『ポケットモンスター X・Y』登場人物名鑑
+    original: "『ポケットモンスター X・Y』登場人物名鑑 本格連載スタート!"
     translation: ""
-  - speaker: 正式连载开始！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_lumiose-h168
-    order: 168
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: "本格連載スタート!"
-    translation: ""
-  - speaker: 关注「在密阿雷市遇到的人们」！
+  - speaker: 关注「在密阿雷市遇到的人们」！ 卡洛斯收藏
     type: heading
     kind: text
     region_type: heading
@@ -1784,18 +1758,7 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: "「ミアレシティで出会う人々」に注目!"
-    translation: ""
-  - speaker: 卡洛斯收藏
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_lumiose-h170
-    order: 170
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: カロスコレクション
+    original: "「ミアレシティで出会う人々」に注目! カロスコレクション"
     translation: ""
   - speaker: body
     type: paragraph
@@ -2001,7 +1964,7 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
-  - speaker: 密阿雷市道馆馆主
+  - speaker: 密阿雷市道馆馆主 希特隆
     type: heading
     kind: text
     region_type: heading
@@ -2010,18 +1973,7 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: ミアレシティジムリーダー
-    translation: ""
-  - speaker: 希特隆
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_lumiose-h192
-    order: 192
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: シトロン
+    original: ミアレシティジムリーダー シトロン
     translation: ""
   - speaker: caption
     type: paragraph
@@ -2155,7 +2107,7 @@ translation_segments:
     review_status: review
     original: ←カルネと「美しさ」について意見を交わす
     translation: ←与卡露妮就「美丽」交换意见
-  - speaker: 研究者
+  - speaker: 研究者 弗拉达利
     type: heading
     kind: text
     region_type: heading
@@ -2164,18 +2116,7 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: 研究者
-    translation: ""
-  - speaker: 弗拉达利
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p019_lumiose-h207
-    order: 207
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: フラダリ
+    original: 研究者 フラダリ
     translation: ""
   - speaker: caption
     type: paragraph
@@ -2318,4 +2259,17 @@ translation_segments:
     review_status: review
     original: あて先 〒101-8469 ニンドリ編集部「カロスコレクション」係
     translation: 收件地址 邮编101-8469 ニンドリ编辑部「卡洛斯收藏」栏目组
+original_title: 『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」
+topics:
+  - 地区设定
+  - 角色设计
+  - 音乐制作
+  - 攻略
+  - 系统设计
+mentions:
+  people:
+    - 景山将太
+  works:
+    - 宝可梦 黑2·白2
+interviewee: 佐藤仁美
 ---

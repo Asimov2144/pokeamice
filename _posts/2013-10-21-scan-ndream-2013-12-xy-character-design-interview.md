@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 X·Y
-  - 角色设计
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 X·Y
+  - 杉森建
+  - 大村祐介
+  - 中津井优
+  - 角色设计
+  - 地区设定
+  - 开发流程
+  - 一般训练家
+  - 道馆馆主
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2013年12月号（Vol.236）
 publisher: 徳間書店
 interviewee: 杉森建、大村祐介、中津井优
 interviewer: Nintendo DREAM 編集部
-dek: GAME FREAK讲述卡洛斯地区人物与训练家的设计幕后，从法国取材到角色诞生。
-summary: 《宝可梦 X·Y》发售之际，GAME FREAK的杉森建、大村祐介、中津井优接受采访，讲述卡洛斯地区人物设计。内容涵盖赴法取材经历、主角与伙伴莎娜、提耶鲁诺、多罗巴的设定，以及布拉塔诺博士、紫罗兰等角色的开发秘闻。
+dek: GAME FREAK谈卡洛斯地区人物设计的幕后
+summary: 《Nintendo DREAM》2013年12月号刊载《宝可梦 X·Y》人物角色开发访谈，GAME FREAK的杉森建（角色艺术总监）、大村祐介（设计师）、中津井优（策划）讲述卡洛斯地区人物设计。三人谈及为设计训练家赴法国巴黎等地取材约10天、参考当地时尚，一般训练家首次全部插画化，主角以女孩先行的设计顺序，莎娜、提耶鲁诺、多罗巴、布拉塔诺博士、紫罗兰、查克洛等角色的设定由来，以及道馆馆主由4名设计师分担、杉森建自《宝可梦 钻石·珍珠》以来再次绘制道馆馆主。
 source_pages: P.12–P.17（6 页，另附封面/目次；2048px 页图）
 source:
   title: 『ポケットモンスター Ｘ・Ｙ』あるきかた① 人々を知る！ ゲームフリークに訊く！ 人物キャラクター開発秘話
@@ -54,6 +61,8 @@ entities:
     - 中津井优
   works:
     - 宝可梦 X·Y
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -75,7 +84,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2013-12-xy-character-design-interview/pages/p012_character.jpg"
     alt: Nintendo DREAM 2013年12月号（Vol.236） P.12
     review_status: ready
-  - speaker: 通过访谈与攻略彻底指南游戏序盘！
+  - speaker: 通过访谈与攻略彻底指南游戏序盘！ 宝可梦 X·Y 卡洛斯地区的行走方式
     type: heading
     kind: text
     region_type: heading
@@ -84,29 +93,7 @@ translation_segments:
     scan_page: 1
     heading_level: 2
     review_status: review
-    original: "インタビュー&攻略で序盤を徹底ガイド!"
-    translation: ""
-  - speaker: 宝可梦 X·Y
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_character-h4
-    order: 4
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: ポケットモンスター XPOKéMON
-    translation: ""
-  - speaker: 卡洛斯地区的行走方式
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p012_character-h5
-    order: 5
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: カロス地方のあるきかた
+    original: "インタビュー&攻略で序盤を徹底ガイド! ポケットモンスター XPOKéMON カロス地方のあるきかた"
     translation: ""
   - speaker: body
     type: paragraph
@@ -491,7 +478,7 @@ translation_segments:
     review_status: review
     original: もちろん、見てきたものをそのまま表現するのではないですけどね。例えば「ウエイトレス」を描くにしても、実際の向こうのウエイトレスって、普段着のような格好の人が多いんです。とは言え、そのままリアリティを重視しすぎると「店員さん」であることが通じませんし、そういう場合は見た目のわかりやすさの方を重視します。
     translation: 当然，并不是把看到的东西原样表现出来。比如画“女服务员”，实际上那边的女服务员很多都穿着像日常便服一样的打扮。但话说回来，如果太重视真实感，就传达不出“店员”这个身份了，这种时候就优先考虑外观上的易懂性。
-  - speaker: 设计的秘密
+  - speaker: 设计的秘密 一般训练家也全部插画化！
     type: heading
     kind: text
     region_type: heading
@@ -500,18 +487,7 @@ translation_segments:
     scan_page: 2
     heading_level: 2
     review_status: review
-    original: デザインの秘密
-    translation: ""
-  - speaker: 一般训练家也全部插画化！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p013_character-h45
-    order: 45
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: "一般トレーナーもすべてイラスト化!"
+    original: "デザインの秘密 一般トレーナーもすべてイラスト化!"
     translation: ""
   - speaker: ──
     type: paragraph
@@ -1814,4 +1790,18 @@ translation_segments:
     review_status: review
     original: 大村が「シリアス」なら、僕は「愛嬌」のほうの担当かなと思っています。人間だけじゃなく、ポケモンのデザインに関してもそうですね。髪型など、ちょっとしたところに“ヘン”な部分を入れたりしています。特に見てほしいポイントは、久しぶりに描いたジムリーダーですかね。『ポケモン B・W』からは大村が担当していたので、僕が描くのは『ポケモン ダイヤモンド・パール』以来です。ジムリーダー以外にも今回は6名ほどのデザイナーのチームで、バラエティ豊かな人物キャラクターたちを生みだしました。ぜひ、愛してあげてください。
     translation: 如果说大村负责“严肃”，那我想我大概是负责“讨喜”的那一方吧。不只是人物，宝可梦的设计也是一样。比如发型之类，会在一些小地方加入“怪”的部分。特别希望大家关注的点，大概是久违地由我绘制的道馆馆主吧。从《宝可梦 黑·白》开始就是大村负责，所以我画道馆馆主是自《宝可梦 钻石·珍珠》以来。这次除了道馆馆主之外，还有一支约6名设计师组成的团队，创造出了丰富多彩的人物角色。请大家一定要喜爱他们。
+original_title: 『ポケットモンスター Ｘ・Ｙ』あるきかた① 人々を知る！ ゲームフリークに訊く！ 人物キャラクター開発秘話
+topics:
+  - 角色设计
+  - 地区设定
+  - 开发流程
+  - 一般训练家
+  - 道馆馆主
+mentions:
+  people:
+    - 增田顺一
+    - 水谷惠
+  works:
+    - 宝可梦 黑·白
+    - 宝可梦 钻石·珍珠
 ---

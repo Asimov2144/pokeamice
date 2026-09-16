@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 角色设计
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑·白
+  - 杉森建
+  - 海野隆雄
+  - 大村祐介
+  - 角色设计
+  - 宝可梦设计
+  - 开发流程
+  - 道馆馆主
+  - 传说宝可梦
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2011年4月号（Vol.204）
 publisher: 毎日コミュニケーションズ
 interviewee: 杉森建、海野隆雄、大村祐介
 interviewer: Nintendo DREAM 編集部
-dek: GAME FREAK开发团队讲述新宝可梦与角色诞生幕后，续篇访谈。
-summary: Nintendo DREAM 2011年4月号刊载《宝可梦黑·白》开发者访谈续篇。杉森建、海野隆雄、大村祐介讲述三剑客、火神蛾、双斧战龙等新宝可梦及夏加、艾莉丝等角色的设计经过与开发内幕。
+dek: 黑·白开发团队讲述宝可梦与角色的诞生秘闻
+summary: 《Nintendo DREAM》2011年4月号刊载《宝可梦 黑·白》开发访谈续篇，Game Freak的杉森建、海野隆雄、大村祐介讲述宝可梦与角色的设计过程。海野谈及以《三剑客》为原型的勾帕路翁、代拉基翁、毕力吉翁；杉森介绍火神蛾、双斧战龙、火红不倒翁、蟾蜍王、胖嘟嘟、四季鹿、烛光灵、齿轮儿、石居蟹、滑滑小子、哭哭面具、劈斩司令等，并提及西田敦子等设计者。大村讲述夏加、艾莉丝、哈奇库、阿戴克及对战地铁的库达利与诺波利。
 source_pages: P.71–P.79（9 页，另附封面/目次；2048px 页图）
 source:
   title: ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話
@@ -54,6 +61,8 @@ entities:
     - 大村祐介
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -375,17 +384,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p073_bw_interview_volcarona_whimsicott_lilligant.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.73
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-h32
-    order: 32
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
-    translation: ""
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -537,7 +535,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p074_bw_interview_haxorus_darmanitan_stunfisk.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.74
     review_status: ready
-  - speaker: “不像宝可梦正是其魅力所在”
+  - speaker: “不像宝可梦正是其魅力所在” 杉森先生 牙牙 牙宝可梦●龙
     type: heading
     kind: text
     region_type: heading
@@ -546,29 +544,7 @@ translation_segments:
     scan_page: 5
     heading_level: 2
     review_status: review
-    original: 「ポケモンっぽくないのが魅力です」
-    translation: ""
-  - speaker: 杉森先生
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h49
-    order: 49
-    scan_page: 5
-    heading_level: 3
-    review_status: review
-    original: 杉森さん
-    translation: ""
-  - speaker: 牙牙 牙宝可梦●龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h50
-    order: 50
-    scan_page: 5
-    heading_level: 3
-    review_status: review
-    original: キバゴキバポケモン●ドラゴン
+    original: 「ポケモンっぽくないのが魅力です」 杉森さん キバゴキバポケモン●ドラゴン
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -612,7 +588,7 @@ translation_segments:
     review_status: review
     original: ダルマッカだるまポケモン●ほのお
     translation: ""
-  - speaker: 达摩狒狒 爆燃宝可梦●火（普通模式）、火・超能力（达摩模式）
+  - speaker: 达摩狒狒 爆燃宝可梦●火（普通模式）、火・超能力（达摩模式） 双斧战龙 颚斧宝可梦●龙
     type: heading
     kind: text
     region_type: heading
@@ -621,18 +597,7 @@ translation_segments:
     scan_page: 5
     heading_level: 3
     review_status: review
-    original: ヒヒダルマえんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード）
-    translation: ""
-  - speaker: 双斧战龙 颚斧宝可梦●龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h56
-    order: 56
-    scan_page: 5
-    heading_level: 3
-    review_status: review
-    original: オノノクスあごオノポケモン●ドラゴン
+    original: ヒヒダルマえんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード） オノノクスあごオノポケモン●ドラゴン
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -685,18 +650,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p075_bw_interview_jellicent_sawsbuck.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.75
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_jellicent_sawsbuck-h62
-    order: 62
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
-    translation: ""
-  - speaker: 胖嘟嘟
+  - speaker: 胖嘟嘟 漂浮宝可梦●水・幽灵
     type: heading
     kind: text
     region_type: heading
@@ -705,18 +659,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: ブルンゲル
-    translation: ""
-  - speaker: 漂浮宝可梦●水・幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_jellicent_sawsbuck-h64
-    order: 64
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: ふゆうポケモン●みず・ゴースト
+    original: ブルンゲル ふゆうポケモン●みず・ゴースト
     translation: ""
   - speaker: caption
     type: paragraph
@@ -738,7 +681,7 @@ translation_segments:
     review_status: review
     original: オス
     translation: 雄性
-  - speaker: 轻飘飘
+  - speaker: 轻飘飘 漂浮宝可梦●水・幽灵
     type: heading
     kind: text
     region_type: heading
@@ -747,18 +690,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: プルリル
-    translation: ""
-  - speaker: 漂浮宝可梦●水・幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_jellicent_sawsbuck-h68
-    order: 68
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: ふゆうポケモン●みず・ゴースト
+    original: プルリル ふゆうポケモン●みず・ゴースト
     translation: ""
   - speaker: caption
     type: paragraph
@@ -790,7 +722,7 @@ translation_segments:
     review_status: review
     original: 開発のかなり初期に作られた、みずタイプのポケモンです。かわいくてひらひらしてて華やかなポケモンを作りたいということで、きれいなクラゲみたいなイメージで、王子様とお姫様に見えるものを狙ってたんです。それが開発後半に全体のタイプのバランスを調整した際、ゴーストタイプが追加されてしまったんです（笑）。さらに「船を沈める」とか「乗組員の命を吸い取る」とか恐ろしい設定も付けられたので、担当デザイナーががっかりしてました（笑）。初期に作られたポケモンは、そういう紆余曲折を経ることもあります。
     translation: 这是在开发相当初期就做出的水属性宝可梦。当时想做一只可爱、轻盈飘动又华丽的宝可梦，便以漂亮的水母为意象，目标是看起来像王子和公主。结果在开发后期调整整体属性平衡时，被加上了幽灵属性（笑）。而且还被加上了“弄沉船只”“吸走船员性命”之类可怕的设定，负责的设计师因此很失落（笑）。初期做出的宝可梦，有时也会经历这样的曲折。
-  - speaker: 四季鹿
+  - speaker: 四季鹿 季节宝可梦●一般・草
     type: heading
     kind: text
     region_type: heading
@@ -799,18 +731,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: シキジカ
-    translation: ""
-  - speaker: 季节宝可梦●一般・草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_jellicent_sawsbuck-h73
-    order: 73
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: きせつポケモン●ノーマル・くさ
+    original: シキジカ きせつポケモン●ノーマル・くさ
     translation: ""
   - speaker: caption
     type: paragraph
@@ -852,7 +773,7 @@ translation_segments:
     review_status: review
     original: （ふゆのすがた）
     translation: （冬天的样子）
-  - speaker: 萌芽鹿
+  - speaker: 萌芽鹿 季节宝可梦●一般・草
     type: heading
     kind: text
     region_type: heading
@@ -861,18 +782,7 @@ translation_segments:
     scan_page: 6
     heading_level: 2
     review_status: review
-    original: メブキジカ
-    translation: ""
-  - speaker: 季节宝可梦●一般・草
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_jellicent_sawsbuck-h79
-    order: 79
-    scan_page: 6
-    heading_level: 3
-    review_status: review
-    original: きせつポケモン●ノーマル・くさ
+    original: メブキジカ きせつポケモン●ノーマル・くさ
     translation: ""
   - speaker: caption
     type: paragraph
@@ -944,7 +854,7 @@ translation_segments:
     review_status: review
     original: 一番最初のアイデアだと、たき火のポケモンだったんですよ。たき火がロウソクに進化して、ロウソクがランプになるという案を持ってこられたんですが、たき火がロウソクになるって、どういうことよ、と（笑）。確かに文化としてのグレードは上がってるけど、肝心の炎が小さくなっちゃう（笑）。だったら照明器具で統一しようということで、ロウソクからスタートということにしました。ただロウソクをモチーフにしたキャラクターは意外といるんじゃないかと思ったので、そういうものに似てしまわないよう、いかにオリジナリティを出すかは考えてもらいました。結果的にゴーストらしくうまくまとまったと思います。ヒトモシは溶けたロウソクが、ランプラーは炎が表情になっているのも面白いですよね。
     translation: 最初的点子，是篝火宝可梦。有人提出篝火进化成蜡烛，蜡烛再进化成油灯，但篝火变成蜡烛，这算怎么回事啊（笑）。确实作为文化级别是提高了，但关键的火焰却变小了（笑）。既然如此，那就统一成照明器具吧，于是决定从蜡烛开始。不过，以蜡烛为原型的角色意外地挺多的，所以为了不跟那些相似，我们请人思考了如何展现出独创性。结果我觉得很好地总结出了幽灵的风格。烛光灵是融化的蜡烛，灯火幽灵是火焰变成了表情，这也很有趣呢。
-  - speaker: 烛光灵
+  - speaker: 烛光灵 蜡烛宝可梦●幽灵・火 灯火幽灵 油灯宝可梦●幽灵・火 水晶灯火灵 引诱宝可梦●幽灵・火
     type: heading
     kind: text
     region_type: heading
@@ -953,64 +863,9 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: ヒトモシ
+    original: ヒトモシ ろうそくポケモン●ゴースト・ほのお ランプラー ランプポケモン●ゴースト・ほのお シャンデラ いざないポケモン●ゴースト・ほのお
     translation: ""
-  - speaker: 蜡烛宝可梦●幽灵・火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h88
-    order: 88
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: ろうそくポケモン●ゴースト・ほのお
-    translation: ""
-  - speaker: 灯火幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h89
-    order: 89
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ランプラー
-    translation: ""
-  - speaker: 油灯宝可梦●幽灵・火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h90
-    order: 90
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: ランプポケモン●ゴースト・ほのお
-    translation: ""
-  - speaker: 水晶灯火灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h91
-    order: 91
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: シャンデラ
-    translation: ""
-  - speaker: 引诱宝可梦●幽灵・火
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h92
-    order: 92
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: いざないポケモン●ゴースト・ほのお
-    translation: ""
-  - speaker: 圆蝌蚪
+  - speaker: 圆蝌蚪 蝌蚪宝可梦●水
     type: heading
     kind: text
     region_type: heading
@@ -1019,18 +874,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: オタマロ
-    translation: ""
-  - speaker: 蝌蚪宝可梦●水
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h94
-    order: 94
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: おたまポケモン●みず
+    original: オタマロ おたまポケモン●みず
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1042,7 +886,7 @@ translation_segments:
     review_status: review
     original: ギアルに関しては、最初に無機物系というオーダーがあったんですよ。その中で歯車というアイデアが出てきて、今回アニメーションもあるし、表現としても面白いぞと。あとこいつは、僕が好きな“いい顔してるポケモン”ですね。回ったときに違った顔が見えてくるという仕掛けが、非常に面白いと思います。進化していくと歯車が増えて、だんだん大きなものを回し、より大きなエネルギーを生み出していきます。あとレアコイルやタマタマ、ダグトリオといった「複数のものがまとまる」イメージも踏襲しています。
     translation: 关于齿轮儿，最初接到的要求是做无机物系的宝可梦。在这个前提下，我们想到了齿轮这个点子，而且这次还有动画，作为表现方式也很有意思。另外这家伙是我喜欢的“表情不错”的宝可梦。转动的时候能看到不同的脸，这个机关我觉得非常有趣。进化之后齿轮会增多，逐渐转动更大的东西，产生更大的能量。此外也沿袭了三合一磁怪、蛋蛋、三地鼠那种“多个东西合为一体”的印象。
-  - speaker: 齿轮儿
+  - speaker: 齿轮儿 齿轮宝可梦●钢 蟾蜍王 振动宝可梦●水・地面 蓝蟾蜍 振动宝可梦●水・地面
     type: heading
     kind: text
     region_type: heading
@@ -1051,64 +895,9 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: ギアル
+    original: ギアル はぐるまポケモン●はがね ガマゲロゲ しんどうポケモン●みず・じめん ガマガル しんどうポケモン●みず・じめん
     translation: ""
-  - speaker: 齿轮宝可梦●钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h97
-    order: 97
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: はぐるまポケモン●はがね
-    translation: ""
-  - speaker: 蟾蜍王
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h98
-    order: 98
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ガマゲロゲ
-    translation: ""
-  - speaker: 振动宝可梦●水・地面
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h99
-    order: 99
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: しんどうポケモン●みず・じめん
-    translation: ""
-  - speaker: 蓝蟾蜍
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h100
-    order: 100
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ガマガル
-    translation: ""
-  - speaker: 振动宝可梦●水・地面
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h101
-    order: 101
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: しんどうポケモン●みず・じめん
-    translation: ""
-  - speaker: 齿轮组
+  - speaker: 齿轮组 齿轮宝可梦●钢 齿轮怪 齿轮宝可梦●钢
     type: heading
     kind: text
     region_type: heading
@@ -1117,40 +906,7 @@ translation_segments:
     scan_page: 7
     heading_level: 2
     review_status: review
-    original: ギギアル
-    translation: ""
-  - speaker: 齿轮宝可梦●钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h103
-    order: 103
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: はぐるまポケモン●はがね
-    translation: ""
-  - speaker: 齿轮怪
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h104
-    order: 104
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ギギギアル
-    translation: ""
-  - speaker: 齿轮宝可梦●钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h105
-    order: 105
-    scan_page: 7
-    heading_level: 3
-    review_status: review
-    original: はぐるまポケモン●はがね
+    original: ギギアル はぐるまポケモン●はがね ギギギアル はぐるまポケモン●はがね
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1172,18 +928,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p077_bw_interview_crustle_scrafty_cofagrigus_bisharp.jpg"
     alt: Nintendo DREAM 2011年4月号（Vol.204） P.77
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h108
-    order: 108
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
-    translation: ""
-  - speaker: 岩殿居蟹
+  - speaker: 岩殿居蟹 岩居宝可梦●虫・岩石
     type: heading
     kind: text
     region_type: heading
@@ -1192,18 +937,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: イワパレス
-    translation: ""
-  - speaker: 岩居宝可梦●虫・岩石
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h110
-    order: 110
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: いわやどポケモン●むし・いわ
+    original: イワパレス いわやどポケモン●むし・いわ
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1215,7 +949,7 @@ translation_segments:
     review_status: review
     original: これはかなり難産というか、紆余曲折がありました。最初に出てきた案は、こいつの尻尾に火が点いていて、こねた土を焼いて自分の巣を作る。仮に名付けるなら「かまどポケモン」ですかね。でも、ちょっとまどろっこしい（笑）。設計的にも、自分の巣が焼き物であるというのがうまく伝わらなかった。それなら、ストレートに石をくりぬいて住むという形でいいんじゃないかということでイシズマイが決まりました。そして、これがどう進化したらびっくりするかを考え、この場合は極端に巨大化させようと地層になりました。
     translation: 这个算是相当难产，或者说经历了不少曲折。最初提出的方案是，它的尾巴上点着火，把捏好的土烧制成自己的巢。如果起名的话，大概叫“灶宝可梦”吧。不过，有点绕圈子（笑）。在设计上，也没能很好地传达出“自己的巢是烧制出来的”这一点。既然如此，不如直接做成挖空石头住在里面的形式，于是石居蟹就定下来了。然后考虑它怎样进化才会让人吃惊，这种情况下就让它极端巨大化，变成了地层。
-  - speaker: 石居蟹
+  - speaker: 石居蟹 石居宝可梦●虫・岩石 头巾混混 恶党宝可梦●恶・格斗
     type: heading
     kind: text
     region_type: heading
@@ -1224,40 +958,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: イシズマイ
-    translation: ""
-  - speaker: 石居宝可梦●虫・岩石
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h113
-    order: 113
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: いしやどポケモン●むし・いわ
-    translation: ""
-  - speaker: 头巾混混
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h114
-    order: 114
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ズルズキン
-    translation: ""
-  - speaker: 恶党宝可梦●恶・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h115
-    order: 115
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: あくとうポケモン●あく・かくとう
+    original: イシズマイ いしやどポケモン●むし・いわ ズルズキン あくとうポケモン●あく・かくとう
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1269,7 +970,7 @@ translation_segments:
     review_status: review
     original: デザインのもともとは、腰ばきのズボンみたいな発想です。脱皮した皮が余っているというアイデアは面白いんじゃないかと。これは、アニメーションがすごい効果的でした。あれが無いと、脱皮した自分の皮を持っているということが、よく伝わらなかったと思うんですけど、アニメーションのおかげで成立したところがありますね。
     translation: 设计最初的想法，是像围在腰上的裤子一样。蜕下的皮还有剩余这个点子，我觉得挺有趣。这个在动画里效果非常好。如果没有那个动画，身上带着自己蜕下的皮这一点，大概很难传达出来，可以说多亏了动画才成立。
-  - speaker: 滑滑小子
+  - speaker: 滑滑小子 蜕皮宝可梦●恶・格斗 哭哭面具 魂宝可梦●幽灵
     type: heading
     kind: text
     region_type: heading
@@ -1278,40 +979,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: ズルッグ
-    translation: ""
-  - speaker: 蜕皮宝可梦●恶・格斗
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h118
-    order: 118
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: だっぴポケモン●あく・かくとう
-    translation: ""
-  - speaker: 哭哭面具
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h119
-    order: 119
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: デスマス
-    translation: ""
-  - speaker: 魂宝可梦●幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h120
-    order: 120
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: たましいポケモン●ゴースト
+    original: ズルッグ だっぴポケモン●あく・かくとう デスマス たましいポケモン●ゴースト
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1323,7 +991,7 @@ translation_segments:
     review_status: review
     original: デスマスクや棺おけなど、ちょっと怖いものをモチーフにしているのですが、ただ怖いだけでなく、どこかに愛きょうがあるように気を付けています。ポケモンは全部仲間になる可能性があるので、「こいつとは友達になれない」と思われないようにしないと。デスマスの場合は、すっとぼけた表情がポイントですね。ただ、僕らはそれなりに調整したつもりなんですが、小さいお子さんには結構怖がられることもあるようです（笑）。
     translation: 以死亡面具和棺材等有些可怕的东西为主题，但注意不只是可怕，还要在某处带有可爱。因为宝可梦都有可能成为伙伴，不能让人觉得“这家伙没法交朋友”。哭哭面具的话，装傻的表情是关键。不过，我们自认为已经做了相应的调整，但好像也有不少小孩子会被吓到（笑）。
-  - speaker: 劈斩司令
+  - speaker: 劈斩司令 刀刃宝可梦●恶・钢 驹刀小兵 利器宝可梦●恶・钢
     type: heading
     kind: text
     region_type: heading
@@ -1332,40 +1000,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: キリキザン
-    translation: ""
-  - speaker: 刀刃宝可梦●恶・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h123
-    order: 123
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: とうじんポケモン●あく・はがね
-    translation: ""
-  - speaker: 驹刀小兵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h124
-    order: 124
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: コマタナ
-    translation: ""
-  - speaker: 利器宝可梦●恶・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h125
-    order: 125
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: はものポケモン●あく・はがね
+    original: キリキザン とうじんポケモン●あく・はがね コマタナ はものポケモン●あく・はがね
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1377,7 +1012,7 @@ translation_segments:
     review_status: review
     original: あく・はがねタイプで都市部に出現するというオーダーが最初にあったので、人工的な感じがいいんじゃないかと思いました。「全身に刃物が付いていて、触る者をみな傷つける」ようなポケモンにと僕から担当デザイナーにオーダーしたら、武将的なものがあがってきました。キリキザンがコマタナたちに命令し、コマタナが敵にしがみついて刃物で倒すという設定もあったので、おなかの辺りに刃を突き出させています。人型をしていますけど、虫みたいなイメージも少しありますね。
     translation: 最初的要求是恶・钢属性且出现在城市区域，所以我觉得人工感比较好。我向负责的设计师提出“全身带刃、触碰者皆会受伤”这样的宝可梦要求后，对方拿来了武将风格的设计。还有劈斩司令命令驹刀小兵、驹刀小兵缠住敌人用刀刃打倒的设定，所以让刀刃从腹部附近突出来。虽然是人型，但也稍微有些虫子般的印象。
-  - speaker: 迭失棺
+  - speaker: 迭失棺 棺木宝可梦●幽灵
     type: heading
     kind: text
     region_type: heading
@@ -1386,18 +1021,7 @@ translation_segments:
     scan_page: 8
     heading_level: 2
     review_status: review
-    original: デスカーン
-    translation: ""
-  - speaker: 棺木宝可梦●幽灵
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h128
-    order: 128
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: かんおけポケモン●ゴースト
+    original: デスカーン かんおけポケモン●ゴースト
     translation: ""
   - speaker: image
     type: image
@@ -1551,7 +1175,7 @@ translation_segments:
     review_status: review
     original: ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
     translation: ""
-  - speaker: 「想把他做成太阳一般的男人」
+  - speaker: 「想把他做成太阳一般的男人」 大村先生 阿戴克
     type: heading
     kind: text
     region_type: heading
@@ -1560,29 +1184,7 @@ translation_segments:
     scan_page: 10
     heading_level: 2
     review_status: review
-    original: 「太陽のような男にしたかった」
-    translation: ""
-  - speaker: 大村先生
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p079_bw_interview_characters_alder_subway_bosses-h145
-    order: 145
-    scan_page: 10
-    heading_level: 3
-    review_status: review
-    original: 大村さん
-    translation: ""
-  - speaker: 阿戴克
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p079_bw_interview_characters_alder_subway_bosses-h146
-    order: 146
-    scan_page: 10
-    heading_level: 3
-    review_status: review
-    original: アデク
+    original: 「太陽のような男にしたかった」 大村さん アデク
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -1688,4 +1290,16 @@ translation_segments:
     original: ポケモン＆人物誕生秘話の続きは5月号（3月19日発売予定）に掲載！
     translation: ""
     comment: 《Nintendo DREAM》2011年5月号预定于3月19日发售。
+original_title: ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話
+topics:
+  - 角色设计
+  - 宝可梦设计
+  - 开发流程
+  - 道馆馆主
+  - 传说宝可梦
+mentions:
+  people:
+    - 西田敦子
+  works:
+    - 宝可梦 白金
 ---

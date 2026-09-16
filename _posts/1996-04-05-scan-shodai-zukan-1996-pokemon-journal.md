@@ -10,18 +10,22 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
-  - ポケットモンスター図鑑
-  - 扫描存档
-  - 日中对照
+  - 杂志特辑
+  - 官方攻略本
   - 宝可梦 红·绿
-  - 攻略本
+  - 系统设计
+  - 通信功能
+  - 传说宝可梦
+  - 攻略
+  - 世界观设定
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: ポケットモンスター図鑑
 issue: 1996年4月5日初版 / 1997年2月7日第六刷
 publisher: 小学館
 interviewer: ポケットモンスター図鑑 編集部
-dek: 大木博士讲述宝可梦学的起源与精灵球的诞生，正辉则谈收集与对战的实战心得。
-summary: 本文节选自1996年《宝可梦图鉴》第5章，收录大木博士关于宝可梦学起源、精灵球开发与共存之道的演讲，以及正辉关于收集、交换与对战培育的实务建议，并附同期攻略资料页。
+dek: 大木博士与正辉讲述宝可梦的收集、交换与对战。
+summary: 小学馆《宝可梦图鉴》第5章以虚构演讲与专栏形式介绍宝可梦设定。大木博士讲述宝可梦学始于1925年西之森教授与火暴猴的实验，精灵球由此开发，并称已确认150种宝可梦。宝可梦分析师正辉谈收集与交换，称单人最多收集约130种，需与朋友交换，并讲解属性相克、喂药培养、交换获得更多经验值等技巧，还提到大师球与传说的鸟宝可梦。附录以漫画比较宝可梦与交通工具速度、体型和体重。
 source_pages: P.129–P.5（10 页；2048px 页图）
 source:
   title: 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル
@@ -49,6 +53,7 @@ entities:
   people: []
   works:
     - 宝可梦 红·绿
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -60,17 +65,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p131_p129_ch5_journal_part1.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.129
     review_status: ready
-  - speaker: 宝可梦日志
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p131_p129_ch5_journal_part1-h2
-    order: 2
-    scan_page: 0
-    heading_level: 2
-    review_status: review
-    original: ポケモン・ジャーナル
-    translation: ""
   - speaker: image
     type: image
     kind: image
@@ -81,17 +75,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-pokemon-journal/pages/p132_p130_ch5_journal_part2.jpg"
     alt: ポケットモンスター図鑑 1996年4月5日初版 / 1997年2月7日第六刷 P.130
     review_status: ready
-  - speaker: 宝可梦日志
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p132_p130_ch5_journal_part2-h4
-    order: 4
-    scan_page: 1
-    heading_level: 2
-    review_status: review
-    original: ポケモン・ジャーナル
-    translation: ""
   - speaker: body
     type: paragraph
     kind: text
@@ -1141,4 +1124,16 @@ translation_segments:
     original: 東京タワー３３３m
     translation: 东京塔333米
     comment: 东京塔高333米，1996年时为日本最高建筑。
+original_title: 『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル
+topics:
+  - 系统设计
+  - 通信功能
+  - 传说宝可梦
+  - 攻略
+  - 世界观设定
+mentions:
+  people:
+    - 大木博士
+    - 正辉
+  works: []
 ---

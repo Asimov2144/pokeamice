@@ -10,17 +10,22 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
+  - 杂志特辑
   - Nintendo DREAM
+  - 宝可梦打字DS
+  - 系统设计
+  - 教育软件
+  - 外设周边
+  - 地区设定
+  - 传说宝可梦
   - 扫描存档
-  - 日中对照
-  - 衍生作品
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM
 issue: 2011年5月号（Vol.205）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 編集部
-dek: 附带任天堂无线键盘的DS打字游戏，边玩边学宝可梦知识与盲打。
-summary: "介绍《战斗&捕捉！宝可梦打字DS》的玩法与内容：附带专用无线键盘，通过输入宝可梦名字获取信息，收录60多个关卡和400种以上宝可梦，从初学者到高级者都能练习盲打。"
+dek: 宝可梦打字DS：附键盘，输入名字捕捉400种宝可梦
+summary: "2011年5月号《Nintendo DREAM》介绍《战斗&捕捉！宝可梦打字DS》，该作由株式会社宝可梦推出，4月21日发售，5800日元（含税），附带任天堂无线键盘与DS紧凑支架。玩家通过键盘输入宝可梦名字获取其信息，收集信息可解锁更多课程。游戏以合众地区宝可梦为中心，登场400种以上，含比克提尼、捷克罗姆等传说宝可梦，关卡60个以上，地图呈键盘形状。文中介绍主角男女外形选择、委托调查的木内英二与协助者青叶キイ，并说明打字员卡可查看正确率与速度。"
 source_pages: P.64–P.65（2 页；2048px 页图）
 source:
   title: 『バトル＆ゲット！ ポケモンタイピングDS』最新情報
@@ -48,6 +53,7 @@ entities:
   people: []
   works:
     - 宝可梦打字DS
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -163,7 +169,7 @@ translation_segments:
     review_status: review
     original: DSコンパクトスタンドも付属
     translation: 也附带DS紧凑支架
-  - speaker: 附带任天堂无线键盘！
+  - speaker: 附带任天堂无线键盘！ 键盘的规格
     type: heading
     kind: text
     region_type: heading
@@ -172,18 +178,7 @@ translation_segments:
     scan_page: 0
     heading_level: 2
     review_status: review
-    original: "ニンテンドー ワイヤレスキーボードが付属!"
-    translation: ""
-  - speaker: 键盘的规格
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p064_pokemon_typing_ds_intro-h13
-    order: 13
-    scan_page: 0
-    heading_level: 3
-    review_status: review
-    original: キーボードの仕様
+    original: "ニンテンドー ワイヤレスキーボードが付属! キーボードの仕様"
     translation: ""
   - speaker: note
     type: paragraph
@@ -734,4 +729,15 @@ translation_segments:
     review_status: review
     original: "一足先に いっさのタイピング実践いやぁ〜ごめんなさい! 予想外におもしろいです。ぶっちゃけてしまうと最初は「タイピングソフト」って聞いて、う〜んって思っていました。ところが、いざ遊んでみるとなんとも楽しいじゃないですか。絶妙な濃度で『ポケモン』の要素が詰まっていて、タイピングの腕とポケモン知識の両方がそろわないと、なかなか高得点が出ない。自分はどちらも平均以上…と自負していたつもりだったんですが、やってみると「あーこお、この文字タイプしにくい」などわりと穴があったりで、なか満足する結果にならず、つけばあっという間に数時間過するくらい夢中で遊んでまとさ。一方、初心者の視点でも、下画面に指のガイドがありと、タイピングに必要な要しっかりと学べるので、初めーボードに触るきっかけとは、とても優秀なんじゃないーと。付属のキーボードもしりとした作りで、とても満足"
     translation: 抢先一步体验了一足的打字实战，哎呀～抱歉！它出乎意料地有趣。坦白说，最初听到“打字软件”时，我还觉得嗯……。然而实际一玩，竟然这么好玩。它以绝妙的浓度塞满了《宝可梦》的元素，打字技术和宝可梦知识两者不兼备，就很难拿到高分。我自认为两方面都在平均以上……可一玩起来，就会冒出“啊，这个字好难打”之类的不少漏洞，结果并不令人满意，回过神来已经沉迷其中，转眼几个小时就过去了。另一方面，从新手视角来看，下屏幕有手指引导，能扎实学到打字所需的要点，作为初次接触键盘的契机，非常优秀。附带的键盘也做得很扎实，非常满意
+original_title: 『バトル＆ゲット！ ポケモンタイピングDS』最新情報
+topics:
+  - 系统设计
+  - 教育软件
+  - 外设周边
+  - 地区设定
+  - 传说宝可梦
+mentions:
+  people: []
+  works:
+    - 宝可梦 黑·白
 ---

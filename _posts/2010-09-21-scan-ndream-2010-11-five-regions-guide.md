@@ -10,18 +10,26 @@ categories:
   - 杂志特辑
   - 扫描存档
 tags:
+  - 杂志特辑
   - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
   - 宝可梦 黑·白
-  - 合众地方
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  - 宝可梦 红宝石·蓝宝石
+  - 宝可梦 钻石·珍珠
+  - 地区设定
+  - 系统设计
+  - 通信功能
+  - 传说宝可梦
+  - 攻略
+  - 扫描存档
 kicker: SCAN ARCHIVE · FEATURE
 publication: Nintendo DREAM
 issue: 2010年11月号（Vol.199）
 publisher: 毎日コミュニケーションズ
 interviewer: Nintendo DREAM 編集部
-dek: 以观光指南的形式，介绍宝可梦系列五个地区各自的看点与名胜。
-summary: 2010年杂志专题，以观光指南风格介绍《宝可梦 黑·白》的合众地区及关都、城都、丰缘、神奥五个地区，涵盖各地城市、自然景观、设施与登场角色，并附各地观光地图与最佳看点推荐。
+dek: 以观光指南巡游宝可梦五大地区
+summary: 《Nintendo DREAM》2010年11月号（Vol.199）刊载的15页专题，以观光指南形式介绍宝可梦系列五大地区：合众、关都、城都、丰缘、神奥。文中提及《宝可梦 黑·白》新舞台合众地区、飞云市、天箭桥、汇合连线、音乐剧会馆，以及关都深灰科学博物馆、红莲岛喷火遗迹、发电厂、灵魂之家、月见山、七之岛，城都缘朱市、宝可梦全能竞技赛巨蛋、狩猎地带、四大塔、阿露福遗迹，丰缘烟囱山、海底洞窟、凯那市、釜炎镇温泉、绿岭宇宙中心、幻影岛与幻影之塔，神奥森之洋馆、神和镇壁画、三大湖、名胜区、野濑大湿原、毁坏的世界。编辑部另以独断选出瀑布、伴手礼、游戏城、山、钓鱼、自行车、交通工具、对战殿堂等主题的BEST 3。
 source_pages: P.69–P.83（15 页，另附封面/目次；2048px 页图）
 source:
   title: ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド
@@ -53,6 +61,7 @@ entities:
     - 宝可梦 金·银
     - 宝可梦 红宝石·蓝宝石
     - 宝可梦 钻石·珍珠
+  organizations: []
 translation_segments:
   - speaker: image
     type: image
@@ -94,7 +103,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p069_5regions_guide_intro.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.69
     review_status: ready
-  - speaker: 满载让冒险之旅更添乐趣的精选情报！！
+  - speaker: 满载让冒险之旅更添乐趣的精选情报！！ 五大地方观光指南
     type: heading
     kind: text
     region_type: heading
@@ -103,20 +112,9 @@ translation_segments:
     scan_page: 3
     heading_level: 2
     review_status: review
-    original: "冒険の旅をさらに楽しむ厳選情報満載!!"
+    original: "冒険の旅をさらに楽しむ厳選情報満載!! 5大地方観光ガイド"
     translation: ""
-  - speaker: 五大地方观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p069_5regions_guide_intro-h6
-    order: 6
-    scan_page: 3
-    heading_level: 2
-    review_status: review
-    original: 5大地方観光ガイド
-    translation: ""
-  - speaker: ALL ABOUT 宝可梦
+  - speaker: ALL ABOUT 宝可梦 2010最新版
     type: heading
     kind: text
     region_type: heading
@@ -125,18 +123,7 @@ translation_segments:
     scan_page: 3
     heading_level: 3
     review_status: review
-    original: ALL ABOUTポケットモンスター
-    translation: ""
-  - speaker: 2010最新版
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p069_5regions_guide_intro-h8
-    order: 8
-    scan_page: 3
-    heading_level: 3
-    review_status: review
-    original: 2010最新版
+    original: ALL ABOUTポケットモンスター 2010最新版
     translation: ""
   - speaker: note
     type: paragraph
@@ -158,7 +145,7 @@ translation_segments:
     review_status: review
     original: 『ポケモンB・W』でイッシュ地方が登場し、『ポケットモンスター』の舞台は全5地方に。この5つの地方を、観光ガイド風に紹介するとどうなるか…そんなちょっと変わった趣向の特集をお届け！ この記事を参考に、改めていろんな地方を歩いてみてはいかが？
     translation: 《宝可梦 黑·白》中合众地方登场，《宝可梦》的舞台由此扩展到全部五个地方。将这五个地方以观光指南的风格来介绍会是什么样子……本期就为大家送上这样一个别具趣味的专题！不妨参考本报道，重新去各个地方走一走如何？
-  - speaker: 有美食！
+  - speaker: 有美食！ 有大自然！ 有温泉！
     type: heading
     kind: text
     region_type: heading
@@ -167,29 +154,7 @@ translation_segments:
     scan_page: 3
     heading_level: 3
     review_status: review
-    original: グルメあり！
-    translation: ""
-  - speaker: 有大自然！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p069_5regions_guide_intro-h12
-    order: 12
-    scan_page: 3
-    heading_level: 3
-    review_status: review
-    original: 大自然あり！
-    translation: ""
-  - speaker: 有温泉！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p069_5regions_guide_intro-h13
-    order: 13
-    scan_page: 3
-    heading_level: 3
-    review_status: review
-    original: 温泉あり！
+    original: グルメあり！ 大自然あり！ 温泉あり！
     translation: ""
   - speaker: caption
     type: paragraph
@@ -232,7 +197,7 @@ translation_segments:
     review_status: review
     original: 具体的な攻略は今号の別冊付録を見てもらうとして、このページでは物語序盤の見どころを観光案内風に紹介していこう。とはいえ、現在明らかになっているのはまだほんの一部。この先はみんなの目で確かめてほしい。
     translation: 具体攻略请见本期的别册附录，本页则以观光导览的风格介绍故事初期的看点。话虽如此，目前已经公开的还只是极小一部分。接下来的内容就请大家亲眼去确认吧。
-  - speaker: 新舞台
+  - speaker: 新舞台 观光季到来！
     type: heading
     kind: text
     region_type: heading
@@ -241,18 +206,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: 新舞台
-    translation: ""
-  - speaker: 观光季到来！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p070_unova_region_part1-h19
-    order: 19
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: 観光シーズン到来！
+    original: 新舞台 観光シーズン到来！
     translation: ""
   - speaker: body
     type: paragraph
@@ -276,7 +230,7 @@ translation_segments:
     review_status: review
     original: イッシュ地方と歴代４地方を徹底比較
     translation: ""
-  - speaker: 出现其它地区没有的新宝可梦
+  - speaker: 出现其它地区没有的新宝可梦 新宝可梦们
     type: heading
     kind: text
     region_type: heading
@@ -285,18 +239,7 @@ translation_segments:
     scan_page: 4
     heading_level: 3
     review_status: review
-    original: 他地方にはない新ポケモンが出現
-    translation: ""
-  - speaker: 新宝可梦们
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p070_unova_region_part1-h23
-    order: 23
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: 新ポケモンたち
+    original: 他地方にはない新ポケモンが出現 新ポケモンたち
     translation: ""
   - speaker: caption
     type: paragraph
@@ -329,7 +272,7 @@ translation_segments:
     original: おすすめ！ハーイ！ みんな元気？ イッシュ地方のポケモンを研究しているアララギです。このイッシュ地方は、ほかの地方では見られないようなポケモンの宝庫なの！ ポケモン図鑑を渡すから、がんばってポケモンたちをその目で見てきてね。そうそう、エンディング後には「ポケシフター」でほかの地方からポケモンを連れてこられるから、今までのお気に入りポケモンとイッシュを旅することもできるわよ。
     translation: 推荐！你好！大家都好吗？我是研究合众地区宝可梦的阿拉拉基。这个合众地区，是别处见不到的宝可梦的宝库！我会把宝可梦图鉴交给你，努力亲眼去见识宝可梦们吧。对了对了，结局之后可以用「宝可梦传送装置」从其它地区带来宝可梦，所以也能和至今中意的宝可梦一起在合众旅行哦。
     comment: 阿拉拉基（アララギ）是《宝可梦 黑·白》中合众地区的宝可梦博士。
-  - speaker: 史上最大规模的巨大高层都市
+  - speaker: 史上最大规模的巨大高层都市 飞云市
     type: heading
     kind: text
     region_type: heading
@@ -338,20 +281,8 @@ translation_segments:
     scan_page: 4
     heading_level: 3
     review_status: review
-    original: 過去最大規模の巨大高層都市
+    original: 過去最大規模の巨大高層都市 ヒウンシティ
     translation: ""
-  - speaker: 飞云市
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p070_unova_region_part1-h28
-    order: 28
-    scan_page: 4
-    heading_level: 2
-    review_status: review
-    original: ヒウンシティ
-    translation: ""
-    comment: 飞云市（ヒウンシティ）是《宝可梦 黑·白》中合众地区的大都市。
   - speaker: caption
     type: paragraph
     kind: text
@@ -413,17 +344,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p071_unova_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.71
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦五大地区观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p071_unova_region_part2-h35
-    order: 35
-    scan_page: 5
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
   - speaker: 合众地区
     type: heading
     kind: text
@@ -435,7 +355,7 @@ translation_segments:
     review_status: review
     original: イッシュ地方
     translation: ""
-  - speaker: 通过无线通信前往朋友的世界
+  - speaker: 通过无线通信前往朋友的世界 汇合连线
     type: heading
     kind: text
     region_type: heading
@@ -444,18 +364,7 @@ translation_segments:
     scan_page: 5
     heading_level: 3
     review_status: review
-    original: ワイヤレス通信で友達の世界へ
-    translation: ""
-  - speaker: 汇合连线
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p071_unova_region_part2-h38
-    order: 38
-    scan_page: 5
-    heading_level: 3
-    review_status: review
-    original: ハイリンク
+    original: ワイヤレス通信で友達の世界へ ハイリンク
     translation: ""
   - speaker: note
     type: paragraph
@@ -931,17 +840,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p073_kanto_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.73
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 五大地区观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p073_kanto_region_part2-h85
-    order: 85
-    scan_page: 7
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
   - speaker: 大胃王美食家们集合！玉虹食堂
     type: heading
     kind: text
@@ -1466,18 +1364,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p075_johto_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.75
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦5大地区观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_johto_region_part2-h137
-    order: 137
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
-  - speaker: 巡游城都各地的塔 四大塔巡礼
+  - speaker: 巡游城都各地的塔 四大塔巡礼 喇叭芽之塔
     type: heading
     kind: text
     region_type: heading
@@ -1486,18 +1373,7 @@ translation_segments:
     scan_page: 9
     heading_level: 2
     review_status: review
-    original: ジョウト各地の塔を回ろう4大塔巡り
-    translation: ""
-  - speaker: 喇叭芽之塔
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_johto_region_part2-h139
-    order: 139
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: マダツボミのとう
+    original: ジョウト各地の塔を回ろう4大塔巡り マダツボミのとう
     translation: ""
   - speaker: body
     type: paragraph
@@ -1602,7 +1478,7 @@ translation_segments:
     review_status: review
     original: Upper screen
     translation: 上屏
-  - speaker: 铃铛塔
+  - speaker: 铃铛塔 虫宝可梦的圣地自然公园
     type: heading
     kind: text
     region_type: heading
@@ -1611,18 +1487,7 @@ translation_segments:
     scan_page: 9
     heading_level: 3
     review_status: review
-    original: スズのとう
-    translation: ""
-  - speaker: 虫宝可梦的圣地自然公园
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_johto_region_part2-h151
-    order: 151
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: むしポケモンの聖地しぜんこうえん
+    original: スズのとう むしポケモンの聖地しぜんこうえん
     translation: ""
   - speaker: body
     type: paragraph
@@ -2154,17 +2019,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p077_hoenn_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.77
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 五大地区观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_hoenn_region_part2-h204
-    order: 204
-    scan_page: 11
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
   - speaker: 仰望宇宙之星 绿岭宇宙中心
     type: heading
     kind: text
@@ -2558,17 +2412,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p079_sinnoh_region_part2.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.79
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 五大地方观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p079_sinnoh_region_part2-h243
-    order: 243
-    scan_page: 13
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
   - speaker: 宝可梦超级华丽大赛 去看宝可梦们大显身手的舞台
     type: heading
     kind: text
@@ -3083,17 +2926,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p081_best3_views_dangers_gourmet.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.81
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 五大地方观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p081_best3_views_dangers_gourmet-h293
-    order: 293
-    scan_page: 15
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター 5大地方観光ガイド
-    translation: ""
   - speaker: 不能忘记买伴手礼，当地名产有哪些？
     type: heading
     kind: text
@@ -3845,7 +3677,7 @@ translation_segments:
     review_status: review
     original: ↑ここでも大きさ比べができるが、比べるポケモンはテッポウオになる
     translation: ↑这里也能比大小，不过用来比较的宝可梦是铁炮鱼
-  - speaker: 自行车
+  - speaker: 自行车 迎风飞驰！推荐的自行车道
     type: heading
     kind: text
     region_type: heading
@@ -3854,18 +3686,7 @@ translation_segments:
     scan_page: 16
     heading_level: 2
     review_status: review
-    original: 自転車
-    translation: ""
-  - speaker: 迎风飞驰！推荐的自行车道
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p082_best3_hotsprings_ruins_resorts-h368
-    order: 368
-    scan_page: 16
-    heading_level: 2
-    review_status: review
-    original: "風を切れ! おすすめサイクリングロード"
+    original: "自転車 風を切れ! おすすめサイクリングロード"
     translation: ""
   - speaker: body
     type: paragraph
@@ -4074,17 +3895,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2010-11-five-regions-guide/pages/p083_best3_transport_battle_halls.jpg"
     alt: Nintendo DREAM 2010年11月号（Vol.199） P.83
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦5大地区观光指南
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p083_best3_transport_battle_halls-h389
-    order: 389
-    scan_page: 17
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター5大地方観光ガイド
-    translation: ""
   - speaker: 交通工具迷大兴奋！！各地交通工具大集合
     type: heading
     kind: text
@@ -4106,7 +3916,7 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』の旅は徒歩や自転車、ポケモンの「なみのり」「そらをとぶ」で移動するのが基本だが、列車や船に乗ることもある。各地の“乗りもの”にスポットライトを当ててみよう。
     translation: 《宝可梦》的旅行基本上靠步行、骑自行车，以及宝可梦的「冲浪」「飞翔」来移动，不过有时也会乘坐列车或船。让我们来聚焦一下各地的“交通工具”吧。
-  - speaker: 第1名 磁悬浮列车 关都地区 城都地区
+  - speaker: 第1名 磁悬浮列车 关都地区 城都地区 梦幻的高速铁路！
     type: heading
     kind: text
     region_type: heading
@@ -4115,18 +3925,7 @@ translation_segments:
     scan_page: 17
     heading_level: 2
     review_status: review
-    original: 1位 リニア カントー地方 ジョウト地方
-    translation: ""
-  - speaker: 梦幻的高速铁路！
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p083_best3_transport_battle_halls-h393
-    order: 393
-    scan_page: 17
-    heading_level: 3
-    review_status: review
-    original: "夢の高速鉄道!"
+    original: "1位 リニア カントー地方 ジョウト地方 夢の高速鉄道!"
     translation: ""
   - speaker: body
     type: paragraph
@@ -4641,4 +4440,18 @@ translation_segments:
     original: →ナナシマにしかない珍しいバトル施設「トレーナータワー」。受付から屋上に上がるまでのタイムアタックに挑戦できる。カードe+にも連動していたのだ
     translation: →只存在于七之岛的珍稀对战设施“训练家塔”。可以挑战从接待处到登上屋顶的计时赛。还曾与卡片e+联动。
     comment: 七之岛是《火红／叶绿》中新增的群岛区域。
+original_title: ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド
+topics:
+  - 地区设定
+  - 系统设计
+  - 通信功能
+  - 传说宝可梦
+  - 攻略
+mentions:
+  people: []
+  works:
+    - 宝可梦 绿宝石
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
+    - 宝可梦 火红·叶绿
 ---

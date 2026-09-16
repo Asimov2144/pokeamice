@@ -10,19 +10,29 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - 電撃GAMES
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
+  - 访谈
   - Game Freak
+  - 電撃GAMES
+  - 宝可梦 黑·白
+  - 增田顺一
+  - 杉森建
+  - 大森滋
+  - 太田哲司
+  - 水口舞
+  - 系统设计
+  - 通信功能
+  - 角色设计
+  - 地区设定
+  - 开发流程
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: 電撃GAMES
 issue: Vol.14（通巻174号，2010年10月15日発行，電撃Nintendo DS 12月号増刊）
 publisher: アスキー・メディアワークス
 interviewee: 增田顺一、杉森建、大森滋、太田哲司、水口舞
 interviewer: 電撃GAMES 編集部
-dek: GAME FREAK开发成员讲述完全新作《宝可梦 黑·白》中改变的事与不变的事。
-summary: GAME FREAK开发成员增田顺一、杉森建等回顾《宝可梦 黑·白》的开发。为超越《钻石·珍珠》的“究极”，本作以“对极”为概念，仅用新宝可梦构成世界，并新增三打对战、轮盘对战等新规则，同时保留精灵球捕捉等核心要素。
+dek: GAME FREAK 谈《宝可梦 黑·白》改变与不变之处
+summary: 2010年《宝可梦 黑·白》发售之际，GAME FREAK 的增田顺一、杉森建、大森滋、太田哲司、水口舞接受《电击GAMES》采访，谈本作以「再做一次《宝可梦 红·绿》」为目标、结局前只出现新宝可梦，并解释「对极」概念下莱希拉姆与捷克罗姆的黑白反转包装。文中提到首周销量255万份、开发约四年、招式学习器改为无限使用、新增三打对战与转盘对战、C装置与红外线通信、连入之树、宝可梦全球连接与梦境世界，以及以纽约为原型的合众地区和等离子团。
 source_pages: P.252–P.253（6 页，另附封面/目次；2048px 页图）
 source:
   title: GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと
@@ -55,6 +65,8 @@ entities:
     - 水口舞
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -585,7 +597,7 @@ translation_segments:
     review_status: review
     original: 発売からもうすぐ1カ月ということで、すでにエンディングを向かえたプレイヤーも多いと思いますが、クリア後の楽しみ方について、こんな遊びをしてほしいというアドバイスをお願いします。
     translation: 距离发售已经快一个月了，我想已经有很多玩家迎来了结局，关于通关后的游玩方式，请给一些希望玩家这样玩的建议。
-  - speaker: 太田
+  - speaker: 太田哲司
     type: paragraph
     kind: text
     region_type: body
@@ -605,7 +617,7 @@ translation_segments:
     review_status: review
     original: ほかのプレイヤーと共演するのも盛り上がりますよね。あと、ハイリンクにもまだ仕掛けがあるということですが。
     translation: 和其他玩家共同演出也会很热闹。另外，连入之树据说还有机关。
-  - speaker: 大森
+  - speaker: 大森滋
     type: paragraph
     kind: text
     region_type: body
@@ -625,7 +637,7 @@ translation_segments:
     review_status: review
     original: クリア後の要素といえば、さらなる収集や育成もありますが、今回はゲームシンクの存在も大きいですよね。
     translation: 说到通关后的要素，还有进一步的收集和培育，但这次游戏同步的存在也很重要。
-  - speaker: 水口
+  - speaker: 水口舞
     type: paragraph
     kind: text
     region_type: body
@@ -715,7 +727,7 @@ translation_segments:
     review_status: review
     original: 隣接した相手にしか攻撃が届かないので、構成やわざの使い方がダブルバトル以上に重要なように感じますね。
     translation: 因為攻擊只能打到相鄰的對手，感覺編成和招式使用方式比雙打對戰更加重要。
-  - speaker: 太田
+  - speaker: 太田哲司
     type: paragraph
     kind: text
     region_type: body
@@ -1213,7 +1225,7 @@ translation_segments:
     review_status: review
     original: まずは同じゲームをプレイしている人がまわりにいるのを共有したかったというのがコンセプトですね。まわりの人の行動をリアルタイムに表示することで、友達ではなくてもみんなで一緒に冒険をしているんだという一体感をうまく表現できたと思います。一瞬のすれちがいから出会いが生まれ、そこからハイリンクで遊んだり、対戦・交換をしたり……。「友達になる流れ」というのも変ですが、そういうことも実際にあったらというのが理想ですね。――特にハイリンクは、ほかのプレイヤーのゲームの世界に入り込むという、今までのゲームと比べても大きく踏み込んだ仕掛けですよね。
     translation: 首先，我们的概念是希望让玩家感受到身边有和自己玩同一款游戏的人。通过实时显示周围人的行动，我想我们很好地表现出了一种即使不是朋友、大家也在一起冒险的一体感。从一瞬间的擦肩而过中产生邂逅，由此在连入之树一起游玩、对战、交换……说「成为朋友的流程」有点奇怪，但理想状态就是现实中真的会发生这样的事。――尤其是连入之树，它让玩家进入其他玩家的游戏世界，是相比以往游戏都大幅迈进了一步的机制。
-  - speaker: 大森
+  - speaker: 大森滋
     type: paragraph
     kind: text
     region_type: body
@@ -1223,7 +1235,7 @@ translation_segments:
     review_status: review
     original: 通信でお互いに助け合ったり、同調するような遊びができないか、ということで考えました。技術的には常に通信をしているんですが、それを意識させないような自然な状態で相手の世界に入り込んで、入り込まれたほうは「なんだろ
     translation: 我们想的是，能不能通过通信让玩家互相帮助、进行同步式的游玩。技术上是始终在通信的，但我们希望让玩家在没有意识到这一点的情况下自然地进入对方的世界，而被进入的一方则会觉得「这是什么」。
-  - speaker: 「不要浪费与擦肩而过的人之间那一瞬间的游玩」
+  - speaker: 「不要浪费与擦肩而过的人之间那一瞬间的游玩」 在DS之外诞生的新交流
     type: heading
     kind: text
     region_type: heading
@@ -1232,18 +1244,7 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: 「すれちがった人達との一瞬の遊びを無駄にしないように」
-    translation: ""
-  - speaker: 在DS之外诞生的新交流
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p256_high_link_pass_powers-h117
-    order: 117
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: DSの外で生まれる新たなコミュニケーション
+    original: 「すれちがった人達との一瞬の遊びを無駄にしないように」 DSの外で生まれる新たなコミュニケーション
     translation: ""
   - speaker: ──
     type: paragraph
@@ -1315,7 +1316,7 @@ translation_segments:
     review_status: review
     original: プレイヤーがどんな状況か表示され、それがハイリンクに繋がっていくと。
     translation: 会显示玩家处于什么状况，而这又连接到连入之树。
-  - speaker: 大森
+  - speaker: 大森滋
     type: paragraph
     kind: text
     region_type: body
@@ -1385,7 +1386,7 @@ translation_segments:
     review_status: review
     original: 『ポケットモンスター』のプレイヤー人口から考えると、すぐに多数の人がサービスに参加しそうですね。
     translation: 从《宝可梦》的玩家基数来看，感觉马上就会有很多人参加这项服务呢。
-  - speaker: 水口
+  - speaker: 水口舞
     type: paragraph
     kind: text
     region_type: body
@@ -1528,7 +1529,7 @@ translation_segments:
     review_status: review
     original: 低い年齢層にはタッチペン操作が浸透していると思いますが、そこにキー操作も加えるというのは、高い年齢層のプレイヤーを意識してなのでしょうか？
     translation: 低年龄层中触屏笔操作已经普及，在此基础上再加入按键操作，这是考虑到较高年龄层的玩家吗？
-  - speaker: 太田
+  - speaker: 太田哲司
     type: paragraph
     kind: text
     region_type: body
@@ -2338,4 +2339,18 @@ translation_segments:
     review_status: review
     original: ※電撃ゲームスPUSH『ポケットモンスターブラック・ホワイト』についてはP.253から逆にお読みください。
     translation: ※关于电击GAMES PUSH《宝可梦 黑·白》，请从P.253开始倒着阅读。
+original_title: GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと
+topics:
+  - 系统设计
+  - 通信功能
+  - 角色设计
+  - 地区设定
+  - 开发流程
+mentions:
+  people: []
+  works:
+    - 宝可梦 红·绿
+    - 宝可梦 钻石·珍珠
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
 ---

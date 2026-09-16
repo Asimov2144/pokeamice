@@ -10,20 +10,27 @@ categories:
   - 访谈翻译
   - 扫描存档
 tags:
-  - Nintendo DREAM
-  - 扫描存档
-  - 日中对照
-  - 宝可梦 黑·白
-  - 角色设计
+  - 访谈
   - Game Freak
+  - Nintendo DREAM
+  - 宝可梦 黑·白
+  - 杉森建
+  - 海野隆雄
+  - 大村祐介
+  - 角色设计
+  - 宝可梦设计
+  - 开发流程
+  - 传说宝可梦
+  - 人气投票
+  - 扫描存档
 kicker: SCAN ARCHIVE · INTERVIEW
 publication: Nintendo DREAM
 issue: 2011年5月号（Vol.205）
 publisher: 毎日コミュニケーションズ
 interviewee: 杉森建、海野隆雄、大村祐介
 interviewer: Nintendo DREAM 編集部
-dek: GAME FREAK三位开发者讲述四天王与30只宝可梦的诞生秘话，并公布读者人气投票结果。
-summary: 本期为《宝可梦 黑·白》诞生秘话企划第三回。杉森建、海野隆雄、大村祐介讲述四天王越橘、婉龙、连武、嘉德丽雅的设定过程，并披露龙卷云、雷电云、土地云、单首龙系、泥偶巨人系、双倍多多冰系、食蚁炉、铁蚁、麻麻鳗鱼王系、勇士雄鹰等30只宝可梦的设计秘闻，同时公布读者人气投票结果。
+dek: 四天王与30只宝可梦的诞生秘话，及读者人气投票
+summary: 《Nintendo DREAM》2011年5月号刊载《ALL ABOUT 宝可梦 黑·白》第3回，由Game Freak的杉森建、海野隆雄、大村祐介讲述四天王与30只宝可梦的诞生秘话。大村说明越橘、婉龙、连武、嘉德丽雅的设计思路，嘉德丽雅是《宝可梦 白金》对战城堡开拓头脑的成长后姿态。杉森谈及龙卷云、雷电云、土地云以风神雷神为原型，单首龙系以八岐大蛇为意象，泥偶巨人由英国设计师设计。杂志同时举办合众地区153只宝可梦与31位角色的读者人气投票，截止4月20日。
 source_pages: P.69–P.81（13 页，另附封面/目次；2048px 页图）
 source:
   title: ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票
@@ -54,6 +61,8 @@ entities:
     - 大村祐介
   works:
     - 宝可梦 黑·白
+  organizations:
+    - Game Freak
 translation_segments:
   - speaker: image
     type: image
@@ -190,7 +199,7 @@ translation_segments:
     review_status: review
     original: キャラかみ SPECIAL大村祐介さんP82
     translation: ""
-  - speaker: 在那之后的等离子团 P77
+  - speaker: 在那之后的等离子团 P77 宝可梦堂出差版 P85
     type: heading
     kind: text
     region_type: heading
@@ -199,18 +208,7 @@ translation_segments:
     scan_page: 2
     heading_level: 3
     review_status: review
-    original: その後のプラズマ団P77
-    translation: ""
-  - speaker: 宝可梦堂出差版 P85
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p069_bw_special_interview_intro-h15
-    order: 15
-    scan_page: 2
-    heading_level: 3
-    review_status: review
-    original: ポケモン堂出張版P85
+    original: その後のプラズマ団P77 ポケモン堂出張版P85
     translation: ""
   - speaker: note
     type: paragraph
@@ -307,7 +305,7 @@ translation_segments:
     review_status: review
     original: それは「靴下をはいてない」という点だけですよ (笑)。
     translation: 那只是「没穿袜子」这一点而已哦（笑）。
-  - speaker: 越橘
+  - speaker: 越橘 婉龙
     type: heading
     kind: text
     region_type: heading
@@ -316,18 +314,7 @@ translation_segments:
     scan_page: 3
     heading_level: 3
     review_status: review
-    original: ギーマ
-    translation: ""
-  - speaker: 婉龙
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p070_bw_interview_elite4_grimsley_shauntal-h26
-    order: 26
-    scan_page: 3
-    heading_level: 3
-    review_status: review
-    original: シキミ
+    original: ギーマ シキミ
     translation: ""
   - speaker: 大村祐介
     type: paragraph
@@ -390,7 +377,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p071_bw_interview_elite4_marshal_caitlin.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.71
     review_status: ready
-  - speaker: 自由地画着
+  - speaker: 自由地画着 连武
     type: heading
     kind: text
     region_type: heading
@@ -399,20 +386,8 @@ translation_segments:
     scan_page: 4
     heading_level: 2
     review_status: review
-    original: 自由に描いてます」
+    original: 自由に描いてます」 レンブ
     translation: ""
-  - speaker: 连武
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p071_bw_interview_elite4_marshal_caitlin-h34
-    order: 34
-    scan_page: 4
-    heading_level: 3
-    review_status: review
-    original: レンブ
-    translation: ""
-    comment: 连武是《宝可梦 黑·白》中的四天王之一。
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -669,17 +644,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p073_bw_interview_hydreigon_throh_sawk.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.73
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 P
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p073_bw_interview_hydreigon_throh_sawk-h60
-    order: 60
-    scan_page: 6
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト P
-    translation: ""
   - speaker: caption
     type: paragraph
     kind: text
@@ -951,17 +915,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p075_bw_interview_braviary_mandibuzz_eelektross.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.75
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_braviary_mandibuzz_eelektross-h88
-    order: 88
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part
-    translation: ""
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -983,7 +936,7 @@ translation_segments:
     review_status: review
     original: シビルドンでんきうおポケモン●でんき
     translation: ""
-  - speaker: 秃鹰娜 骨鹰宝可梦●恶・飞行
+  - speaker: 秃鹰娜 骨鹰宝可梦●恶・飞行 麻麻小鱼 电鱼宝可梦●电
     type: heading
     kind: text
     region_type: heading
@@ -992,20 +945,9 @@ translation_segments:
     scan_page: 8
     heading_level: 3
     review_status: review
-    original: バルジーナほねわしポケモン●あく・ひこう
+    original: バルジーナほねわしポケモン●あく・ひこう シビシラスでんきうおポケモン●でんき
     translation: ""
-  - speaker: 麻麻小鱼 电鱼宝可梦●电
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_braviary_mandibuzz_eelektross-h92
-    order: 92
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: シビシラスでんきうおポケモン●でんき
-    translation: ""
-  - speaker: 秃鹰丫头 尿布宝可梦●恶・飞行
+  - speaker: 秃鹰丫头 尿布宝可梦●恶・飞行 电鱼宝可梦●电 雏鹰宝可梦●一般·飞行
     type: heading
     kind: text
     region_type: heading
@@ -1014,29 +956,7 @@ translation_segments:
     scan_page: 8
     heading_level: 3
     review_status: review
-    original: バルチャイおむつポケモン●あく・ひこう
-    translation: ""
-  - speaker: 电鱼宝可梦●电
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_braviary_mandibuzz_eelektross-h94
-    order: 94
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: シビビールでんきうおポケモン●でんき
-    translation: ""
-  - speaker: 雏鹰宝可梦●一般·飞行
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_braviary_mandibuzz_eelektross-h95
-    order: 95
-    scan_page: 8
-    heading_level: 3
-    review_status: review
-    original: ワシボンヒナわしポケモン●ノーマル・ひこう
+    original: バルチャイおむつポケモン●あく・ひこう シビビールでんきうおポケモン●でんき ワシボンヒナわしポケモン●ノーマル・ひこう
     translation: ""
   - speaker: 海野隆雄
     type: paragraph
@@ -1058,7 +978,7 @@ translation_segments:
     review_status: review
     original: バルチャイとバルジーナが生まれたのは、逆にかなり開発後半です。これは最初、あくタイプが欲しいというオーダーだけだったんですよ。それを受けて、ゴルーグなどをデザインしたイギリス人の彼が鳥をモチーフにしたポケモンを描いてきた。その時点で鳥モチーフのポケモンはいっぱいいたので、どうしようか悩んだんですが、ウォーグルと対にして採用しました。ドレディアやエルレイドと似たパターンですね。ウォーグルが父親的なのに対して、バルジーナが母親っぽい感じなのもよかったですね。あとバルチャイの腰の骨のような部分は、ほかのポケモンの骨で巣を作って、その中で大きくなっていくという設定です。バルジーナの腰にも歯型みたいな骨がありますが、まだバルチャイがタマゴのときに、バルジーナが巣でタマゴを温めていると、ちょうど骸骨を逆さにしたように見えるんです。この辺の設定はすごくよく出来ていますね。
     translation: 秃鹰小子和秃鹰娜反而是开发相当后期才诞生的。最初只是接到想要恶属性的委托。接到委托后，设计过泥偶巨人等的英国设计师画来了以鸟为原型的宝可梦。当时以鸟为原型的宝可梦已经很多了，我正发愁该怎么办，最后决定与勇士雄鹰成对采用。这和裙儿小姐、艾路雷朵是类似的模式。勇士雄鹰偏父亲形象，秃鹰娜偏母亲形象，这点也很好。另外秃鹰小子腰部像骨头一样的部分，设定是用其他宝可梦的骨头筑巢，并在其中长大。秃鹰娜的腰部也有类似齿痕的骨头，当秃鹰小子还是蛋的时候，秃鹰娜在巢里孵蛋，看起来正好像是倒过来的骸骨。这部分的设定做得非常好。
-  - speaker: 勇猛宝可梦●一般·飞行
+  - speaker: 勇猛宝可梦●一般·飞行 立刻就想到了白头海雕
     type: heading
     kind: text
     region_type: heading
@@ -1067,18 +987,7 @@ translation_segments:
     scan_page: 8
     heading_level: 3
     review_status: review
-    original: ウォーグルゆうもうポケモン●ノーマル・ひこう
-    translation: ""
-  - speaker: 立刻就想到了白头海雕
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p075_bw_interview_braviary_mandibuzz_eelektross-h99
-    order: 99
-    scan_page: 8
-    heading_level: 2
-    review_status: review
-    original: すぐハクトウワシが浮かびました
+    original: ウォーグルゆうもうポケモン●ノーマル・ひこう すぐハクトウワシが浮かびました
     translation: ""
   - speaker: image
     type: image
@@ -1120,7 +1029,7 @@ translation_segments:
     review_status: review
     original: ちなみに、顔の真ん中にあるのは黒い点が口です。ここから胞子を吹き出す形になってます。ちょっと横に付いているのが、ごまかすためにそっぽを向きながら口笛を吹いている人みたいで、いい味出していますよね。
     translation: 顺带一提，脸正中央的黑点是嘴。从这里吹出孢子。稍微偏在一边的部分，像是为了蒙混过关而别过脸吹口哨的人，很有味道。
-  - speaker: 败露球菇
+  - speaker: 败露球菇 蘑菇宝可梦●草·毒 哎呀球菇 蘑菇宝可梦●草・毒 坚果哑铃 刺球宝可梦●草・钢
     type: heading
     kind: text
     region_type: heading
@@ -1129,64 +1038,9 @@ translation_segments:
     scan_page: 9
     heading_level: 2
     review_status: review
-    original: モロバレル
+    original: モロバレル きのこポケモン●くさ・どく タマゲタケ きのこポケモン●くさ・どく ナットレイ とげだまポケモン●くさ・はがね
     translation: ""
-  - speaker: 蘑菇宝可梦●草·毒
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h105
-    order: 105
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: きのこポケモン●くさ・どく
-    translation: ""
-  - speaker: 哎呀球菇
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h106
-    order: 106
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: タマゲタケ
-    translation: ""
-  - speaker: 蘑菇宝可梦●草・毒
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h107
-    order: 107
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: きのこポケモン●くさ・どく
-    translation: ""
-  - speaker: 坚果哑铃
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h108
-    order: 108
-    scan_page: 9
-    heading_level: 2
-    review_status: review
-    original: ナットレイ
-    translation: ""
-  - speaker: 刺球宝可梦●草・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h109
-    order: 109
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: とげだまポケモン●くさ・はがね
-    translation: ""
-  - speaker: 种子铁球
+  - speaker: 种子铁球 刺果宝可梦●草・钢
     type: heading
     kind: text
     region_type: heading
@@ -1195,18 +1049,7 @@ translation_segments:
     scan_page: 9
     heading_level: 2
     review_status: review
-    original: テッシード
-    translation: ""
-  - speaker: 刺果宝可梦●草・钢
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h111
-    order: 111
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: とげのみポケモン●くさ・はがね
+    original: テッシード とげのみポケモン●くさ・はがね
     translation: ""
   - speaker: 杉森建
     type: paragraph
@@ -1218,7 +1061,7 @@ translation_segments:
     review_status: review
     original: これも開発後半に、くさ・はがねタイプのポケモンを作ってくれというオーダーがあったパターンですね。電気石の洞穴に出ることも決まっていました。草の中を歩くと、服にくっついてくる実があるじゃないですか。ああいうふうにくっつく感じはどうかと企画側から提案され、そこから「鉄のトゲで岩壁にたくさんくっついている」というイメージが湧いてきました。割とシンプルな見た目なんですけど、ポケモンらしいフォルムに落ち着きましたね。
     translation: 这也是开发后期接到“做一个草・钢属性的宝可梦”这一需求的情况。当时也已经决定让它出现在电气石洞穴里。走在草丛里时，不是会有果实粘在衣服上吗。企划方提出那种粘附的感觉怎么样，由此我脑中浮现出“用铁刺大量附着在岩壁上”的形象。虽然外观比较简单，但最终落到了很有宝可梦风格的造型上。
-  - speaker: 野蛮鲈鱼
+  - speaker: 野蛮鲈鱼 粗暴宝可梦●水
     type: heading
     kind: text
     region_type: heading
@@ -1227,18 +1070,7 @@ translation_segments:
     scan_page: 9
     heading_level: 2
     review_status: review
-    original: バスラオ
-    translation: ""
-  - speaker: 粗暴宝可梦●水
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p076_bw_interview_amoonguss_ferrothorn_basculin-h114
-    order: 114
-    scan_page: 9
-    heading_level: 3
-    review_status: review
-    original: らんぼうポケモン●みず
+    original: バスラオ らんぼうポケモン●みず
     translation: ""
   - speaker: caption
     type: paragraph
@@ -1321,7 +1153,7 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p077_bw_interview_team_plasma_sages_aftermath.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.77
     review_status: ready
-  - speaker: 附加专栏
+  - speaker: 附加专栏 在那之后的等离子队
     type: heading
     kind: text
     region_type: heading
@@ -1330,18 +1162,7 @@ translation_segments:
     scan_page: 10
     heading_level: 2
     review_status: review
-    original: additional column
-    translation: ""
-  - speaker: 在那之后的等离子队
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p077_bw_interview_team_plasma_sages_aftermath-h124
-    order: 124
-    scan_page: 10
-    heading_level: 2
-    review_status: review
-    original: その後のプラズマ団
+    original: additional column その後のプラズマ団
     translation: ""
   - speaker: body
     type: paragraph
@@ -1743,17 +1564,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p079_bw_poll_unova_pokemon_055_108.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.79
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p079_bw_poll_unova_pokemon_055_108-h164
-    order: 164
-    scan_page: 12
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part
-    translation: ""
   - speaker: note
     type: paragraph
     kind: text
@@ -1794,17 +1604,6 @@ translation_segments:
     image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-05-bw-design-secrets-ex/pages/p081_bw_poll_characters_01_32.jpg"
     alt: Nintendo DREAM 2011年5月号（Vol.205） P.81
     review_status: ready
-  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 P
-    type: heading
-    kind: text
-    region_type: heading
-    region_id: p081_bw_poll_characters_01_32-h169
-    order: 169
-    scan_page: 14
-    heading_level: 2
-    review_status: review
-    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト P
-    translation: ""
   - speaker: 人物角色部门也举办！
     type: heading
     kind: text
@@ -1919,4 +1718,17 @@ translation_segments:
     review_status: review
     original: "ここに記入!!フリガナペンネームお名前〒□□□-□□□□ご住所お電話番号"
     translation: 在此填写！！注音假名 笔名 姓名 邮编□□□-□□□□ 地址 电话号码
+original_title: ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票
+topics:
+  - 角色设计
+  - 宝可梦设计
+  - 开发流程
+  - 传说宝可梦
+  - 人气投票
+mentions:
+  people:
+    - 增田顺一
+  works:
+    - 宝可梦 白金
+    - 宝可梦 心金·魂银
 ---

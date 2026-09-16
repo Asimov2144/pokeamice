@@ -435,6 +435,93 @@ def cover(segs, s, feature):
     return json.loads(raw)
 
 
+# ---------------------------------------------------------------- enrich
+ORG_NAMES = {"game freak": "Game Freak", "ゲームフリーク": "Game Freak", "gamefreak": "Game Freak", "任天堂": "任天堂", "nintendo": "任天堂",
+             "株式会社ポケモン": "株式会社ポケモン", "ポケモン": "株式会社ポケモン", "the pokémon company": "株式会社ポケモン", "creatures": "Creatures", "クリーチャーズ": "Creatures",
+             "小学館": "小学馆", "小学馆": "小学馆", "毎日コミュニケーションズ": "毎日コミュニケーションズ", "マイナビ": "毎日コミュニケーションズ",
+             "アスキー・メディアワークス": "アスキー・メディアワークス", "メディアファクトリー": "メディアファクトリー", "olm": "OLM", "genius sonority": "Genius Sonority"}
+PUB_TAG = {"Nintendo DREAM": "Nintendo DREAM", "Nintendo DREAM 特別付録": "Nintendo DREAM", "電撃GAMES": "電撃GAMES", "ダ・ヴィンチ": "ダ・ヴィンチ",
+           "任天堂公式ガイドブック ポケットモンスター 金・銀": "官方攻略本", "ポケットモンスター図鑑": "官方攻略本"}
+
+
+def enrich(fm, s, feature):
+    """summary / dek / topic tags / organizations, from the whole translation rather than
+    the first pages - the same fields the web-imported interviews carry, so the scans
+    sort and search with them."""
+    segs = fm["translation_segments"]
+    body = []
+    for x in segs:
+        if x.get("type") == "image":
+            continue
+        if x.get("type") == "heading":
+            body.append("## " + x.get("speaker", ""))
+        elif x.get("type") == "table":
+            continue
+        else:
+            who = x.get("speaker", "")
+            who = "" if who in ("body", "note", "caption") else who + "："
+            body.append(who + (x.get("translation") or ""))
+    text = chr(10).join(body)[:14000]
+    year = s["date"][:4]
+    is_interview = feature.get("kind", "interview") in ("interview", "roundtable")
+    prompt = (f"下面是{s['publication_zh']} {s['issue']}（{year} 年）{'访谈' if is_interview else '专题'}《{feature['title_ja']}》的中文译文（杂志扫描逐页转写）。"
+              f"请给出用于站内检索与数据分析的元数据，JSON：\n"
+              f"{{\"summary\": \"140–200 字的内容提要：写清谁在谈什么、有哪些具体的事实与数字（作品、年份、机制、人名），平实，不评价\", "
+              f"\"dek\": \"一句导语，40 字以内\", "
+              f"\"topics\": [\"3–6 个主题标签，短语，如 角色设计 / 音乐制作 / 地区设定 / 开发流程 / 系统设计 / 通信功能 / 传说宝可梦 / 人气投票 / 攻略\"], "
+              f"\"works\": [\"文中实际讨论到的宝可梦作品，用站内写法：宝可梦 红·绿 / 宝可梦 金·银 / 宝可梦 红宝石·蓝宝石 / 宝可梦 钻石·珍珠 / 宝可梦 白金 / 宝可梦 心金·魂银 / 宝可梦 黑·白 / 宝可梦 黑2·白2 / 宝可梦 X·Y / Pokémon GO 等\"], "
+              f"\"organizations\": [\"受访者所属或文中作为主体出现的公司：Game Freak / 任天堂 / 株式会社ポケモン / Creatures 等\"], "
+              f"\"people\": [\"文中发言或被专门介绍的开发者，用站内通行中文名，如 增田顺一、杉森建、大森滋、海野隆雄、大村祐介、景山将太、一之濑刚、佐藤仁美、足立美奈子、田尻智、森本茂树、西野弘二、石原恒和\"]}}\n\n{text}")
+    raw = deepseek([{"role": "system", "content": SYSTEM.format(lang="日语")}, {"role": "user", "content": prompt}], max_tokens=1200)
+    got = json.loads(raw)
+    fm["summary"] = str(got.get("summary") or fm.get("summary") or "").strip()
+    if got.get("dek"):
+        fm["dek"] = str(got["dek"]).strip()
+    fm["original_title"] = feature["title_ja"]
+    fm["topics"] = [str(x).strip() for x in (got.get("topics") or []) if str(x).strip()][:5]
+    fm["mentions"] = {"people": [str(n).strip() for n in (got.get("people") or []) if re.match(r"^[\u4e00-\u9fff·]{2,6}$", str(n).strip())],
+                      "works": [str(w).strip() for w in (got.get("works") or []) if str(w).startswith(("宝可梦", "Pokémon"))]}
+    return normalize_meta(fm, s, feature)
+
+
+GF_PEOPLE = {"增田顺一", "杉森建", "大森滋", "海野隆雄", "大村祐介", "景山将太", "一之濑刚", "佐藤仁美", "足立美奈子", "田尻智", "森本茂树", "西野弘二",
+             "中津井优", "太田哲司", "水口舞", "渡边哲也", "太田健程", "西田敦子", "藤原"}
+
+
+def normalize_meta(fm, s, feature):
+    """entities = who speaks in the transcript (a narrative interview keeps the registry's
+    interviewees) and the registry's works; what the model listed beyond that stays in
+    `mentions`; organizations only for interviews; tags rebuilt from all of it - the same
+    fields the web-imported interviews carry."""
+    segs = fm["translation_segments"]
+    speakers = []
+    for x in segs:
+        sp = x.get("speaker")
+        if x.get("type") == "paragraph" and x.get("region_type") == "body" and sp not in ("body", "──", "全体", "全員", "note", "caption") and sp not in speakers:
+            speakers.append(sp)
+    declared = feature.get("people") or []
+    people = [p for p in declared if p in speakers] + [p for p in speakers if p not in declared]
+    if not speakers:
+        people = list(declared)
+    works = list(dict.fromkeys(feature.get("works") or []))
+    mentions = fm.get("mentions") or {}
+    old_ent = fm.get("entities") or {}
+    m_people = list(dict.fromkeys([x for x in (mentions.get("people") or []) + (old_ent.get("people") or []) if x not in people]))
+    m_works = list(dict.fromkeys([x for x in (mentions.get("works") or []) + (old_ent.get("works") or []) if x not in works]))
+    is_interview = feature.get("kind", "interview") in ("interview", "roundtable")
+    orgs = ["Game Freak"] if is_interview and any(p in GF_PEOPLE for p in people) else []
+    fm["entities"] = {"people": people, "works": works, "organizations": orgs}
+    fm["mentions"] = {"people": m_people, "works": m_works}
+    topics = (fm.get("topics") or [])[:5]
+    tags = ["访谈" if is_interview else "杂志特辑"] + orgs + [PUB_TAG.get(s["publication"], s["publication"])] + works + people[:6] + topics + ["扫描存档"]
+    fm["tags"] = list(dict.fromkeys(x for x in tags if x))
+    if people:
+        fm["interviewee"] = "、".join(people)
+    else:
+        fm.pop("interviewee", None)
+    return fm
+
+
 # ---------------------------------------------------------------- write
 def yaml_str(v):
     v = str(v)
@@ -691,7 +778,7 @@ def cmd_build(s, dry, only, glossary):
 def main():
     global reg_root
     ap = argparse.ArgumentParser()
-    ap.add_argument("cmd", choices=["ocr", "pages", "build", "upload", "fix"])
+    ap.add_argument("cmd", choices=["ocr", "pages", "build", "upload", "fix", "enrich"])
     ap.add_argument("slug")
     ap.add_argument("--workers", type=int, default=4)
     ap.add_argument("--dry-run", action="store_true")
@@ -705,6 +792,15 @@ def main():
             raise SystemExit("VLM_OCR_API_KEY / DASHSCOPE_API_KEY not set")
         for s in sets:
             ocr_set(s, args.workers)
+    elif args.cmd == "enrich":
+        import yaml
+        for s in sets:
+            for feature in s["features"]:
+                for path in POSTS.glob(f"*-scan-{feature['slug']}.md"):
+                    fm = yaml.safe_load(front_matter(path.read_text(encoding="utf-8")))
+                    fm = enrich(fm, s, feature)
+                    path.write_text(post_text(fm), encoding="utf-8", newline="\n")
+                    print(f"{path.name}: tags {len(fm['tags'])} topics {fm['topics']} orgs {fm['entities']['organizations']} people {len(fm['entities']['people'])}")
     elif args.cmd == "fix":
         # a built post, brought up to the current tool without re-translating everything:
         # the items the model dropped are translated, question translations lose the
@@ -742,8 +838,41 @@ def main():
                             x["translation"] = f"{sp} {x.get('translation', '')}"
                             x["speaker"] = "body"
                             demoted += 1
+                    # a heading printed on three or more pages is the magazine's running head, not the article's
+                    norm = lambda h: re.sub(r"[\s　・･★☆＊*!！?？:：、。]", "", h or "")
+                    pages_of = {}
+                    for x in segs:
+                        if x.get("type") == "heading":
+                            pages_of.setdefault(norm(x.get("speaker")), set()).add(x.get("scan_page"))
+                    running = {h for h, pg in pages_of.items() if len(pg) >= 3 or (len(pg) >= 2 and re.match(r"^(ALLABOUT|ポケットモンスター|Pokémon|宝可梦)", h))}
+                    kept = []
+                    for x in segs:
+                        if x.get("type") == "heading" and norm(x.get("speaker")) in running:
+                            demoted += 1
+                            continue
+                        kept.append(x)
+                    segs[:] = kept
+                    # ディレクター is 总监 on this site, not 导演
+                    for x in segs:
+                        if x.get("type") == "paragraph" and "ディレクター" in (x.get("original") or "") and "导演" in (x.get("translation") or ""):
+                            x["translation"] = x["translation"].replace("导演", "总监")
+                    # a title page comes out as a stack of one-word headings (logo, 「＋」, 「攻略」):
+                    # consecutive short headings on one page fold into a single heading
+                    merged = []
+                    for x in segs:
+                        prev = merged[-1] if merged else None
+                        if (x.get("type") == "heading" and prev is not None and prev.get("type") == "heading" and prev.get("scan_page") == x.get("scan_page")
+                                and len(x.get("speaker") or "") <= 12 and len(prev.get("speaker") or "") <= 40):
+                            prev["speaker"] = (prev.get("speaker") or "").rstrip() + " " + (x.get("speaker") or "").strip()
+                            prev["original"] = ((prev.get("original") or "").rstrip() + " " + (x.get("original") or "").strip()).strip()
+                            demoted += 1
+                            continue
+                        merged.append(x)
+                    segs[:] = merged
                     before = sum(1 for x in segs if x.get("type") == "table")
                     fm["translation_segments"] = tabulate(segs)
+                    if fm.get("topics") is not None:
+                        fm = normalize_meta(fm, s, feature)
                     after = sum(1 for x in segs if x.get("type") == "table")
                     path.write_text(post_text(fm), encoding="utf-8", newline="\n")
                     print(f"{path.name}: filled {len(missing)}, demoted {demoted}, tables {before} -> {after}")
