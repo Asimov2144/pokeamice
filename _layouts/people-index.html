@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{%- comment -%}
+The people directory: everyone the library has interviewed, most-covered
+first, each with portrait, count and span. Characters from the anime, which
+the memoir chapters tag as people, are left out.
+{%- endcomment -%}
+{% assign rows = "" | split: "" %}
+{% for e in site.data.people %}
+  {% if e.kind == "character" or e.kind == "figure" %}{% continue %}{% endif %}
+  {% assign name = e.name %}
+  {% assign mine = site.posts | where_exp: "p", "p.entities.people contains name" %}
+  {% if mine.size == 0 %}{% continue %}{% endif %}
+  {% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+  {% assign row = e | jsonify | append: "" %}
+  {% assign key = mine.size | prepend: "00000" | slice: -5, 5 | append: "|" | append: e.slug %}
+  {% assign rows = rows | push: key %}
+{% endfor %}
+{% assign rows = rows | sort | reverse %}
+
+<div id="main" role="main">
+  <div class="archive archive--person">
+    <section class="people">
+      <header class="people__head">
+        <p class="person__kicker">人物库</p>
+        <h1 class="person__name">人物</h1>
+        <p class="people__lede">{{ rows.size }} 位受访者、讲演者与作者，按站内收录篇数排列。点开看每个人的年份分布、作品、来源与全部条目。</p>
+      </header>
+      <ul class="people__grid">
+        {% for r in rows %}
+          {% assign parts = r | split: "|" %}
+          {% assign n = parts[0] | plus: 0 %}
+          {% assign slug = parts[1] %}
+          {% assign e = site.data.people | where: "slug", slug | first %}
+          {% assign name = e.name %}
+          {% assign mine = site.posts | where_exp: "p", "p.entities.people contains name" %}
+          {% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+          {% assign y1 = by_year | first %}{% assign y2 = by_year | last %}
+          <li>
+            <a class="people__card" href="{{ '/people/' | append: slug | append: '/' | relative_url }}">
+              {% if e.avatar %}<img class="people__avatar" src="{{ e.avatar | relative_url }}" alt="" loading="lazy" width="56" height="56">{% else %}<span class="people__avatar people__avatar--blank" aria-hidden="true">{{ name | slice: 0, 1 }}</span>{% endif %}
+              <span class="people__name">{{ name }}</span>
+              {% if e.aliases %}<span class="people__alias">{{ e.aliases | last }}</span>{% endif %}
+              <span class="people__meta">{{ n }} 篇 · {{ y1.name }}{% if y2.name != y1.name %}–{{ y2.name }}{% endif %}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>

@@ -16,16 +16,16 @@ tags:
 - CEDEC 2026
 - 讲演资料
 - CEDiL
-- 前澤圭一
-- スパダフィーナアルフレド
-- 赤木達也
+- 前泽圭一
+- Alfredo Spadafina
+- 赤木达也
 - 株式会社ゲームフリーク
 publication: CEDEC 2026 講演資料（CEDEC Digital Library）
 source_kind: technical_report
 article_kind: slide_deck
 author: 前澤圭一、スパダフィーナアルフレド、赤木達也
 interviewer: CEDEC 2026
-interviewee: 前澤圭一、スパダフィーナアルフレド、赤木達也
+interviewee: 前泽圭一、スパダフィーナアルフレド、赤木達也
 organization: 株式会社ゲームフリーク
 translator: PokeAmice（DeepSeek 初译）
 original_lang: ja
@@ -69,9 +69,9 @@ speakers:
   role: セクションディレクター
 entities:
   people:
-  - 前澤圭一
-  - スパダフィーナアルフレド
-  - 赤木達也
+  - 前泽圭一
+  - Alfredo Spadafina
+  - 赤木达也
   works: []
   organizations:
   - 株式会社ゲームフリーク

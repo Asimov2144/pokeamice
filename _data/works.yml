@@ -1,93 +1,166 @@
-# 作品图标：站内 entities.works 名 → 代表宝可梦的 HOME 渲染图（gallery.pokeamice.com），供检索卡片使用
+# 作品图标：站内 entities.works 名 → 图标。icon 是 Pokémon HOME 的作品图标（game_gallery 同一套），
+# 双版本作品 icon 在名字前、icon2 在名字后；没有 HOME 图标的作品用 color / color2（版本代表色）；mascot 是代表宝可梦的 HOME 渲染图，作次要图。
 - name: "宝可梦 红·绿"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0006.png
+  color: "#d8262a"
+  color2: "#2f9e44"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0006.png
 - name: "宝可梦 蓝"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0009.png
+  color: "#1f5fb0"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0009.png
 - name: "宝可梦 皮卡丘版"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#f2c94c"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦 金·银"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0250.png
+  color: "#d4a72c"
+  color2: "#a8adb5"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0250.png
 - name: "宝可梦 水晶版"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0245.png
+  color: "#6bb3d9"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0245.png
 - name: "宝可梦 红宝石·蓝宝石"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0383.png
+  color: "#c9302c"
+  color2: "#2b6cb0"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0383.png
 - name: "宝可梦 绿宝石"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0384.png
+  color: "#2e9e6b"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0384.png
 - name: "宝可梦 火红·叶绿"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0003.png
+  color: "#e6522c"
+  color2: "#5fa14a"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0003.png
 - name: "宝可梦 钻石·珍珠"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0483.png
+  color: "#4f7fc9"
+  color2: "#c98ab6"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0483.png
 - name: "宝可梦 白金"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0487.png
+  color: "#8a8f99"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0487.png
 - name: "宝可梦 心金·魂银"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
+  color: "#d9a441"
+  color2: "#8fa3b8"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
 - name: "宝可梦 黑·白"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
+  color: "#222222"
+  color2: "#e6e6e6"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
 - name: "宝可梦 黑2·白2"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0646.png
+  color: "#2b2b2b"
+  color2: "#dcdcdc"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0646.png
 - name: "宝可梦 X·Y"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0716.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_X_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Y_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0716.png
 - name: "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0382.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Omega_Ruby_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Alpha_Sapphire_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0382.png
 - name: "宝可梦 太阳·月亮"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0791.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Sun_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Moon_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0791.png
 - name: "宝可梦 究极之日·究极之月"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0800.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Ultra_Sun_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Ultra_Moon_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0800.png
 - name: "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Pikachu_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Eevee_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
 - name: "宝可梦 Let's Go！皮卡丘/伊布"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Pikachu_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Let's_Go_Eevee_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
 - name: "宝可梦 剑·盾"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0888.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Sword_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Shield_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0888.png
 - name: "宝可梦传说 阿尔宙斯"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0493.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Legends_Arceus_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0493.png
 - name: "宝可梦 朱·紫"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--1007.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Scarlet_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Violet_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--1007.png
 - name: "Pokémon LEGENDS Z-A"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Legends_Z-A_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "Pokémon GO"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#1e88e5"
+  color2: "#ffd54f"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦 动画系列"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#ffcc00"
+  color2: "#e53935"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "超梦的逆袭"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
+  color: "#7e57c2"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
 - name: "宝可梦：超梦的逆袭"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
+  color: "#7e57c2"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
 - name: "超梦的诞生"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
+  color: "#7e57c2"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
 - name: "超梦！我就在这里"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
+  color: "#7e57c2"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
 - name: "洛奇亚爆诞"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
+  color: "#5c6bc0"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
 - name: "结晶塔的帝王"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0251.png
+  color: "#26a69a"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0251.png
 - name: "宝可梦集换式卡牌游戏"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#f5b400"
+  color2: "#1e3a8a"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦卡牌"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#f5b400"
+  color2: "#1e3a8a"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦不可思议迷宫"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#6d4c41"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦竞技场"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#5c6bc0"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦圆形竞技场"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#5c6bc0"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦随乐拍"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#ff8f00"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "名侦探皮卡丘"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#f2c94c"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦打字DS"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#2e7d32"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "Pokémon HOME"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  icon: https://pokeamice.com/game_gallery/icon/HOME_HOME_icon.png
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦立体图鉴BW"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
+  color: "#222222"
+  color2: "#e6e6e6"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
 - name: "宝可梦乱战"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#ef6c00"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "超级宝可梦乱战"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#ef6c00"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦对战革命"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#3949ab"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "宝可梦频道"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#00897b"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
 - name: "Pokémon mini"
-  icon: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+  color: "#9e9d24"
+  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
+- name: "宝可梦 晶灿钻石·明亮珍珠"
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Brilliant_Diamond_icon.png
+  icon2: https://pokeamice.com/game_gallery/icon/HOME_Shining_Pearl_icon.png
+- name: "Pokémon Champions"
+  icon: https://pokeamice.com/game_gallery/icon/HOME_Champions_icon.png

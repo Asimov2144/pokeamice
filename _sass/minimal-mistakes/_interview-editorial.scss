@@ -170,7 +170,11 @@ $ed-measure: 704px;
     align-items: center;
     gap: 6px;
     vertical-align: middle;
+    color: inherit;
+    text-decoration: none;
   }
+
+  a.ed-person:hover { text-decoration: underline; }
 
   .ed-person__avatar {
     width: 28px;

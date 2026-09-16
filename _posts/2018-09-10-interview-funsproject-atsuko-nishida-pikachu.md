@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- にしだあつこ
+- 西田敦子
 - 中川翔子
 - FUN'S PROJECT
 - 皮卡丘

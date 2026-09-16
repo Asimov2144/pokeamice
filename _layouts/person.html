@@ -1,0 +1,216 @@
+---
+layout: default
+---
+{%- comment -%}
+A person's page, laid out like a scholar's profile: the person on the left
+with their portraits over the years and the list of what the library holds
+on them; on the right the numbers (entries by year, like citations), the
+people they were interviewed with, the works and the sources. Everything is
+counted from the posts at build time; the registry (_data/people.yml)
+supplies portrait(s), aliases and role. Characters and merely-cited figures
+carry a `kind` in the registry and never appear as co-interviewees.
+{%- endcomment -%}
+{% assign who = page.person %}
+{% assign me = site.data.people | where: "name", who | first %}
+{% assign mine = site.posts | where_exp: "p", "p.entities.people contains who" %}
+{% assign mentions = site.posts | where_exp: "p", "p.mentions.people contains who" %}
+{% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+{% assign years_first = by_year | first %}
+{% assign years_last = by_year | last %}
+{% assign year_max = 0 %}
+{% for y in by_year %}{% if y.size > year_max %}{% assign year_max = y.size %}{% endif %}{% endfor %}
+
+{%- comment -%} works, sources, topics and companions: tallied by hand, Liquid has no flatten {%- endcomment -%}
+{% assign works_all = "" | split: "" %}
+{% assign pubs_all = "" | split: "" %}
+{% assign co_all = "" | split: "" %}
+{% assign topics_all = "" | split: "" %}
+{% for p in mine %}
+  {% for w in p.entities.works %}{% assign works_all = works_all | push: w %}{% endfor %}
+  {% for t in p.topics %}{% assign topics_all = topics_all | push: t %}{% endfor %}
+  {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
+  {% if pub != "" %}{% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}{% assign pubs_all = pubs_all | push: pub_short %}{% endif %}
+  {% for c in p.entities.people %}
+    {% if c == who %}{% continue %}{% endif %}
+    {% assign ce = site.data.people | where: "name", c | first %}
+    {%- comment -%} a co-interviewee is a person: a character or a cited figure is not one {%- endcomment -%}
+    {% if ce == nil or ce.kind == "character" or ce.kind == "figure" %}{% continue %}{% endif %}
+    {% assign co_all = co_all | push: c %}
+  {% endfor %}
+{% endfor %}
+{% assign works_u = works_all | uniq %}
+{% assign pubs_u = pubs_all | uniq %}
+{% assign co_u = co_all | uniq %}
+{% assign topics_u = topics_all | uniq %}
+{% assign portraits = "" | split: "" %}
+{% if me.portraits %}{% assign portraits = me.portraits | sort: "year" %}{% endif %}
+
+<div id="main" role="main">
+  <div class="archive archive--person">
+    <article class="person person--profile">
+
+      <div class="person__main">
+        <header class="person__head">
+          {% if me.avatar %}
+            <img class="person__avatar" src="{{ me.avatar | relative_url }}" alt="" width="132" height="132">
+          {% else %}
+            <span class="person__avatar person__avatar--blank" aria-hidden="true">{{ who | slice: 0, 1 }}</span>
+          {% endif %}
+          <div class="person__id">
+            <p class="person__kicker"><a href="{{ '/people/' | relative_url }}">人物库</a></p>
+            <h1 class="person__name">{{ who }}</h1>
+            {% if me.aliases %}<p class="person__aliases">{{ me.aliases | join: " · " }}</p>{% endif %}
+            {% if me.role or me.org %}<p class="person__role">{{ me.org }}{% if me.org and me.role %} · {% endif %}{{ me.role }}</p>{% endif %}
+            {% if topics_u.size > 0 %}
+            <p class="person__topics">
+              {% for t in topics_u limit: 8 %}<a href="{{ '/search/?q=' | append: t | relative_url }}">{{ t }}</a>{% endfor %}
+            </p>
+            {% endif %}
+            {% if me.avatar_source %}<p class="person__credit">头像：{{ me.avatar_source }}</p>{% endif %}
+          </div>
+        </header>
+
+        {% if portraits.size > 1 %}
+        <section class="person__photos" aria-label="不同时期">
+          <h2>不同时期</h2>
+          <ul>
+            {% for ph in portraits %}
+              <li><img src="{{ ph.image | relative_url }}" alt="" loading="lazy" width="64" height="64" title="{{ ph.source }}"><span>{{ ph.year | default: "—" }}</span></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
+        <section class="person__pubs" aria-label="收录条目">
+          <div class="person__pubs-head">
+            <h2>收录条目 <small>{{ mine.size }}</small></h2>
+            <div class="person__sort" role="group" aria-label="排序">
+              <button type="button" data-sort="year" class="is-active">按年份</button>
+              <button type="button" data-sort="title">按标题</button>
+            </div>
+          </div>
+          <table class="person__table">
+            <thead><tr><th scope="col">条目</th><th scope="col" class="is-num">页</th><th scope="col" class="is-num">年份</th></tr></thead>
+            <tbody>
+              {% for p in mine %}
+                {% assign pub = p.publication | default: p.source.publication | default: p.outlet | default: p.source.title | default: "" %}
+                {% assign pub_short = pub | split: "（" | first | split: " (" | first | strip %}
+                {% assign card_type = "访谈" %}
+                {% if p.archive_type == "scan_translation" %}{% assign card_type = "扫描" %}{% endif %}
+                {% if p.categories contains "杂志特辑" %}{% assign card_type = "特辑" %}{% endif %}
+                {% assign pages = 0 %}
+                {% if p.translation_segments %}{% assign plates = p.translation_segments | where: "type", "image" %}{% assign pages = plates.size %}{% endif %}
+                <tr data-year="{{ p.date | date: '%Y' }}" data-title="{{ p.title | escape }}">
+                  <td>
+                    <a class="person__pub-title" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+                    <div class="person__pub-meta">
+                      {% assign others = "" | split: "" %}
+                      {% for c in p.entities.people %}{% if c != who %}{% assign ce = site.data.people | where: "name", c | first %}{% if ce and ce.kind != "character" and ce.kind != "figure" %}{% assign others = others | push: c %}{% endif %}{% endif %}{% endfor %}
+                      {% if others.size > 0 %}<span class="person__pub-with">与 {{ others | join: "、" }}</span>{% endif %}
+                      <span class="person__pub-src">{{ card_type }}{% if pub_short != "" %} · {{ pub_short }}{% endif %}{% if p.issue %} {{ p.issue | split: "（" | first }}{% endif %}</span>
+                      {% if p.entities.works %}<span class="person__pub-works">{% for w in p.entities.works limit: 2 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% endfor %}</span>{% endif %}
+                    </div>
+                  </td>
+                  <td class="is-num">{% if pages > 0 %}{{ pages }}{% else %}–{% endif %}</td>
+                  <td class="is-num">{{ p.date | date: "%Y" }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </section>
+
+        {% if mentions.size > 0 %}
+        <section class="person__section person__mentions-sec" aria-label="被提及">
+          <h2>被提及 <small>{{ mentions.size }}</small></h2>
+          <ul class="person__mentions">
+            {% for p in mentions %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a> <span>{{ p.date | date: "%Y" }}</span></li>{% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+      </div>
+
+      <aside class="person__side">
+        <section class="person__card person__stats-card" aria-label="收录概况">
+          <h2>收录概况</h2>
+          <dl class="person__stats">
+            <div><dt>收录</dt><dd>{{ mine.size }}</dd></div>
+            {% if by_year.size > 0 %}<div><dt>年份</dt><dd>{{ years_first.name }}{% if years_last.name != years_first.name %}–{{ years_last.name | slice: 2, 2 }}{% endif %}</dd></div>{% endif %}
+            <div><dt>作品</dt><dd>{{ works_u.size }}</dd></div>
+            <div><dt>来源</dt><dd>{{ pubs_u.size }}</dd></div>
+          </dl>
+          {% if by_year.size > 1 %}
+          <ol class="person__chart" aria-label="按年份">
+            {% for y in by_year %}
+              {% assign pct = y.size | times: 100 | divided_by: year_max %}
+              <li title="{{ y.name }}：{{ y.size }} 篇"><i style="height: {{ pct }}%"></i><span>{{ y.name | slice: 2, 2 }}</span></li>
+            {% endfor %}
+          </ol>
+          {% endif %}
+        </section>
+
+        {% if co_u.size > 0 %}
+        <section class="person__card" aria-label="一起受访的人">
+          <h2>一起受访的人</h2>
+          <ul class="person__co">
+            {% for c in co_u %}
+              {% assign n = 0 %}{% for x in co_all %}{% if x == c %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+              {% assign ce = site.data.people | where: "name", c | first %}
+              <li>
+                <a href="{{ '/people/' | append: ce.slug | append: '/' | relative_url }}">
+                  {% if ce.avatar %}<img src="{{ ce.avatar | relative_url }}" alt="" loading="lazy" width="36" height="36">{% else %}<span class="person__co-blank" aria-hidden="true">{{ c | slice: 0, 1 }}</span>{% endif %}
+                  <span class="person__co-name">{{ c }}{% if ce.aliases %}<small>{{ ce.aliases | last }}</small>{% endif %}</span>
+                  <b>{{ n }}</b>
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
+        {% if works_u.size > 0 %}
+        <section class="person__card" aria-label="作品">
+          <h2>作品</h2>
+          <ul class="person__chips">
+            {% for w in works_u %}
+              {% assign n = 0 %}{% for x in works_all %}{% if x == w %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+              {% assign wi = site.data.works | where: "name", w | first %}
+              <li><a class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}" href="{{ '/search/?work=' | append: w | relative_url }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}<b>{{ n }}</b></a></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+
+        {% if pubs_u.size > 0 %}
+        <section class="person__card" aria-label="来源">
+          <h2>来源</h2>
+          <ul class="person__chips">
+            {% for s in pubs_u %}
+              {% assign n = 0 %}{% for x in pubs_all %}{% if x == s %}{% assign n = n | plus: 1 %}{% endif %}{% endfor %}
+              <li><span class="is-source">{{ s }}<b>{{ n }}</b></span></li>
+            {% endfor %}
+          </ul>
+        </section>
+        {% endif %}
+      </aside>
+    </article>
+  </div>
+</div>
+
+<script>
+  // the entry table sorts by year (newest first) or by title; nothing else changes
+  (function () {
+    var table = document.querySelector(".person__table tbody");
+    var buttons = Array.prototype.slice.call(document.querySelectorAll(".person__sort button"));
+    if (!table || !buttons.length) return;
+    function sortBy(key) {
+      var rows = Array.prototype.slice.call(table.querySelectorAll("tr"));
+      rows.sort(function (a, b) {
+        if (key === "title") return a.dataset.title.localeCompare(b.dataset.title, "zh");
+        return b.dataset.year.localeCompare(a.dataset.year);
+      });
+      rows.forEach(function (r) { table.appendChild(r); });
+      buttons.forEach(function (b) { b.classList.toggle("is-active", b.dataset.sort === key); });
+    }
+    buttons.forEach(function (b) { b.addEventListener("click", function () { sortBy(b.dataset.sort); }); });
+  })();
+</script>

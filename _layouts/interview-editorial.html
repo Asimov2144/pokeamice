@@ -210,7 +210,7 @@ kept on the turns even though the presentation around them is new.
       {% assign people_line = answerers %}
       {% if people_line.size == 0 and page.entities.people %}{% assign people_line = page.entities.people %}{% endif %}
       {% if people_line.size > 0 %}
-        <p class="ed-people">{% for who in people_line %}{% assign portrait = site.data.people | where: "name", who | first %}<span class="ed-person">{% if portrait.avatar %}<img class="ed-person__avatar" src="{{ portrait.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}</span>{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
+        <p class="ed-people">{% for who in people_line %}{% assign portrait = site.data.people | where: "name", who | first %}{% if portrait.slug and portrait.kind != "character" %}<a class="ed-person" href="{{ '/people/' | append: portrait.slug | append: '/' | relative_url }}">{% else %}<span class="ed-person">{% endif %}{% if portrait.avatar %}<img class="ed-person__avatar" src="{{ portrait.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}{% if portrait.slug and portrait.kind != "character" %}</a>{% else %}</span>{% endif %}{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
       {% elsif is_technical and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% elsif is_scan and page.interviewee %}

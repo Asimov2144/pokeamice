@@ -10,7 +10,7 @@ categories:
 - developer-interviews
 - official-archives
 tags:
-- 名花健作
+- 菜花健作
 - Game Freak
 - 宝可梦
 - 访谈

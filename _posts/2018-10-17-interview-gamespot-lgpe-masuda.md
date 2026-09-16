@@ -15,7 +15,7 @@ summary: 欧美权威游戏媒体 GameSpot 在《宝可梦 Let's Go！皮卡丘�
 entities:
   people:
   - 增田顺一
-  - 名花健作
+  - 菜花健作
   - Kevin Knezevic
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布

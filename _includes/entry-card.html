@@ -1,0 +1,42 @@
+{%- comment -%}
+One entry of the library as a card - the same card the search page draws in
+the browser, rendered here at build time for the person pages: cover, kind
+and publication, title, summary, works, date. Pass `card_post`.
+{%- endcomment -%}
+{% assign cp = include.card_post %}
+{% assign card_type = "文章" %}
+{% assign card_kind = "article" %}
+{% if cp.archive_type == "scan_translation" %}{% assign card_type = "扫描翻译" %}{% assign card_kind = "scan" %}
+{% elsif cp.layout == "interview-editorial" or cp.layout == "parallel-translation" %}{% assign card_type = "访谈翻译" %}{% assign card_kind = "interview" %}
+{% elsif cp.layout == "gamefreak-director" or cp.layout == "gamefreak-legacy-blog" %}{% assign card_type = "Game Freak 博客" %}{% assign card_kind = "blog" %}{% endif %}
+{% if cp.categories contains "杂志特辑" %}{% assign card_type = "杂志特辑" %}{% assign card_kind = "feature" %}{% endif %}
+{% assign card_cover = cp.image | default: cp.featured_image | default: "" %}
+{% assign card_pages = 0 %}
+{% if cp.translation_segments %}
+  {% assign card_plates = cp.translation_segments | where: "type", "image" %}
+  {% assign card_pages = card_plates.size %}
+  {% if card_plates.first.image %}{% assign card_cover = card_plates.first.image %}{% endif %}
+{% elsif card_cover == "" and cp.parallel_items %}
+  {% assign card_pics = cp.parallel_items | where: "type", "image" %}
+  {% if card_pics.first.image %}{% assign card_cover = card_pics.first.image %}{% endif %}
+{% endif %}
+{% assign card_pub = cp.publication | default: cp.source.publication | default: cp.source.title | default: "" %}
+{% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | strip_html | strip_newlines | truncate: 180 %}
+<article class="search-result-card search-result-card--{{ card_kind }}">
+  {% if card_cover != "" %}
+    <a class="search-result-card__cover" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt="" loading="lazy" decoding="async"></a>
+  {% else %}
+    <a class="search-result-card__cover search-result-card__cover--blank" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><span>{{ card_pub | split: "（" | first | truncate: 12, "" }}</span><small>{{ cp.date | date: "%Y" }}</small></a>
+  {% endif %}
+  <div class="search-result-card__body">
+    <div class="search-result-card__kicker"><span>{{ card_type }}</span>{% if card_pub != "" %}<span>{{ card_pub }}{% if cp.issue %} {{ cp.issue }}{% endif %}</span>{% endif %}</div>
+    <h2><a href="{{ cp.url | relative_url }}">{{ cp.title }}</a></h2>
+    <p>{{ card_lead }}</p>
+    {% if cp.entities.works %}
+      <div class="search-result-card__tags">
+        {% for w in cp.entities.works limit: 3 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% endfor %}
+      </div>
+    {% endif %}
+    <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}</div>
+  </div>
+</article>

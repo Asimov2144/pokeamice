@@ -1,53 +1,648 @@
-# 人物头像：从站内扫描页裁出（来源见 avatar_source），供检索卡片与人物页使用
+# 人物库：站内 entities.people 的每个名字一条。slug 定 URL（/people/<slug>/），avatar 是主头像，
+# portraits 是不同时期的照片（image / year / source），avatar_source 记主头像出处；aliases 供检索；
+# kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：只添加不覆盖。
 - name: 增田顺一
   slug: masuda-junichi
+  aliases:
+  - 増田順一
+  - Junichi Masuda
   avatar: /assets/img/people/masuda-junichi.jpg
   avatar_source: Nintendo DREAM 2011年4月号 P.80
+  portraits:
+  - image: /assets/img/people/masuda-junichi-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑（1996）P.137
+  - image: /assets/img/people/masuda-junichi-1999.jpg
+    year: 1999
+    source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
+  - image: /assets/img/people/masuda-junichi-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
+  - image: /assets/img/people/masuda-junichi-2010-b.jpg
+    year: 2010
+    source: ダ・ヴィンチ 2011年1月号 P.133
+  - image: /assets/img/people/masuda-junichi-2011.jpg
+    year: 2011
+    source: Nintendo DREAM 2011年4月号 P.80
+  - image: /assets/img/people/masuda-junichi-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
 - name: 杉森建
   slug: sugimori-ken
+  aliases:
+  - 杉森建
+  - Ken Sugimori
   avatar: /assets/img/people/sugimori-ken.jpg
   avatar_source: Nintendo DREAM 2011年5月号 P.73
+  portraits:
+  - image: /assets/img/people/sugimori-ken-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑（1996）P.137
+  - image: /assets/img/people/sugimori-ken-1999.jpg
+    year: 1999
+    source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
+  - image: /assets/img/people/sugimori-ken-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
+  - image: /assets/img/people/sugimori-ken-2011.jpg
+    year: 2011
+    source: Nintendo DREAM 2011年5月号 P.73
 - name: 大森滋
   slug: ohmori-shigeru
+  aliases:
+  - 大森滋
+  - Shigeru Ohmori
   avatar: /assets/img/people/ohmori-shigeru.jpg
   avatar_source: 電撃GAMES Vol.14 P.252
+  portraits:
+  - image: /assets/img/people/ohmori-shigeru-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
 - name: 太田哲司
   slug: ota-tetsuji
+  aliases:
+  - 太田哲司
   avatar: /assets/img/people/ota-tetsuji.jpg
   avatar_source: 電撃GAMES Vol.14 P.252
+  portraits:
+  - image: /assets/img/people/ota-tetsuji-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
 - name: 水口舞
   slug: mizuguchi-mai
+  aliases:
+  - 水口舞
   avatar: /assets/img/people/mizuguchi-mai.jpg
   avatar_source: 電撃GAMES Vol.14 P.252
+  portraits:
+  - image: /assets/img/people/mizuguchi-mai-2010.jpg
+    year: 2010
+    source: 電撃GAMES Vol.14（2010）P.252
 - name: 景山将太
   slug: kageyama-shota
+  aliases:
+  - 景山将太
+  - Shota Kageyama
   avatar: /assets/img/people/kageyama-shota.jpg
   avatar_source: Nintendo DREAM 2011年1月号 P.18
+  portraits:
+  - image: /assets/img/people/kageyama-shota-2010.jpg
+    year: 2010
+    source: Nintendo DREAM 2011年1月号 P.18
 - name: 海野隆雄
   slug: unno-takao
+  aliases:
+  - 海野隆雄
+  - Takao Unno
   avatar: /assets/img/people/unno-takao.jpg
   avatar_source: Nintendo DREAM 2012年9月号 P.13
+  portraits:
+  - image: /assets/img/people/unno-takao-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
 - name: 一之濑刚
   slug: ichinose-go
+  aliases:
+  - 一之瀬剛
+  - Go Ichinose
   avatar: /assets/img/people/ichinose-go.jpg
   avatar_source: Nintendo DREAM 2012年9月号 P.13
+  portraits:
+  - image: /assets/img/people/ichinose-go-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/ichinose-go-2012-b.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年10月号 P.28
 - name: 佐藤仁美
   slug: sato-hitomi
+  aliases:
+  - 佐藤仁美
+  - Hitomi Sato
   avatar: /assets/img/people/sato-hitomi.jpg
   avatar_source: Nintendo DREAM 2012年9月号 P.13
+  portraits:
+  - image: /assets/img/people/sato-hitomi-2012.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年9月号 P.13
+  - image: /assets/img/people/sato-hitomi-2012-b.jpg
+    year: 2012
+    source: Nintendo DREAM 2012年10月号 P.28
 - name: 田尻智
   slug: tajiri-satoshi
+  aliases:
+  - 田尻智
+  - Satoshi Tajiri
   avatar: /assets/img/people/tajiri-satoshi.jpg
   avatar_source: ポケットモンスター図鑑 1996 P.137
+  portraits:
+  - image: /assets/img/people/tajiri-satoshi-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑（1996）P.137
 - name: 森本茂树
   slug: morimoto-shigeki
+  aliases:
+  - 森本茂樹
+  - Shigeki Morimoto
   avatar: /assets/img/people/morimoto-shigeki.jpg
   avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
+  portraits:
+  - image: /assets/img/people/morimoto-shigeki-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑（1996）P.139
+  - image: /assets/img/people/morimoto-shigeki-1999.jpg
+    year: 1999
+    source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
 - name: 西野弘二
   slug: nishino-koji
+  aliases:
+  - 西野弘二
+  - Koji Nishino
   avatar: /assets/img/people/nishino-koji.jpg
   avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
+  portraits:
+  - image: /assets/img/people/nishino-koji-1999.jpg
+    year: 1999
+    source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
 - name: 太田健程
   slug: ota-takenori
+  aliases:
+  - 太田健程
+  - Takenori Oota
   avatar: /assets/img/people/ota-takenori.jpg
   avatar_source: ポケットモンスター図鑑 1996 P.139
+  portraits:
+  - image: /assets/img/people/ota-takenori-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑（1996）P.139
+- name: 石原恒和
+  slug: ishihara-tsunekazu
+  aliases:
+  - 石原恒和
+  - Tsunekazu Ishihara
+  avatar: /assets/img/people/ishihara-tsunekazu.jpg
+  avatar_source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
+  portraits:
+  - image: /assets/img/people/ishihara-tsunekazu.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
+- name: 首藤刚志
+  slug: shudo-takeshi
+  aliases:
+  - 首藤剛志
+  - Takeshi Shudo
+  avatar: /assets/img/people/shudo-takeshi.jpg
+  avatar_source: Wikimedia Commons File:Takeshinoshasin.JPG · Takeshi8 · CC BY-SA 3.0
+  portraits:
+  - image: /assets/img/people/shudo-takeshi.jpg
+    year: null
+    source: Wikimedia Commons File:Takeshinoshasin.JPG · Takeshi8 · CC BY-SA 3.0
+- name: 汤山邦彦
+  slug: yuyama-kunihiko
+  aliases:
+  - 湯山邦彦
+  - Kunihiko Yuyama
+- name: 岩田聪
+  slug: iwata-satoru
+  aliases:
+  - 岩田聡
+  - Satoru Iwata
+  avatar: /assets/img/people/iwata-satoru.jpg
+  avatar_source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo6（原帖图注错位，按人脸核对）
+  portraits:
+  - image: /assets/img/people/iwata-satoru.jpg
+    year: 2011
+    source: 社長が訊く『スーパーポケモンスクランブル』第1章 photo6（原帖图注错位，按人脸核对）
+- name: 久保雅一
+  slug: kubo-masakazu
+  aliases:
+  - 久保雅一
+  - Masakazu Kubo
+- name: 超梦
+  slug: chao-meng
+  kind: character
+- name: 小智
+  slug: xiao-zhi
+  kind: character
+- name: 大村祐介
+  slug: ohmura-yusuke
+  aliases:
+  - 大村祐介
+  - Yusuke Ohmura
+- name: 小次郎
+  slug: xiao-ci-lang
+  kind: character
+- name: 武藏
+  slug: wu-cang
+  kind: character
+- name: 梦幻
+  slug: meng-huan
+  kind: character
+- name: 岩尾和昌
+  slug: iwao-kazumasa
+  aliases:
+  - 岩尾和昌
+  - Kazumasa Iwao
+- name: 吉田宏信
+  slug: yoshida-hironobu
+- name: 大谷育江
+  slug: otani-ikue
+  aliases:
+  - 大谷育江
+  - Ikue Otani
+- name: 市村正亲
+  slug: ichimura-masachika
+- name: 小笠原裕
+  slug: ogasawara-yutaka
+- name: 竹内敦
+  slug: takeuchi-atsushi
+- name: 折本哲也
+  slug: orimoto-tetsuya
+- name: 小泽达雄
+  slug: ozawa-tatsuo
+- name: 松村直树
+  slug: matsumura-naoki
+- name: 长畑成一郎
+  slug: nagahata-seiichiro
+- name: 富江慎一郎
+  slug: tomie-shinichiro
+- name: H.T.
+  slug: h-t
+- name: 前泽圭一
+  slug: maezawa-keiichi
+  aliases:
+  - 前澤圭一
+  - Keiichi Maezawa
+- name: 小刚
+  slug: xiao-gang
+  kind: character
+- name: 喵喵
+  slug: miao-miao
+  kind: character
+- name: 皮卡丘
+  slug: pi-ka-qiu
+  kind: character
+- name: 井部真那
+  slug: ibe-mana
+- name: 野村达雄
+  slug: nomura-tatsuo
+  aliases:
+  - 野村達雄
+  - Tatsuo Nomura
+- name: 约翰·汉克
+  slug: john-hanke
+  aliases:
+  - John Hanke
+  avatar: /assets/img/people/john-hanke.jpg
+  avatar_source: Wikimedia Commons File:John Hanke by Gage Skidmore.jpg · Gage Skidmore · CC BY-SA 3.0
+  portraits:
+  - image: /assets/img/people/john-hanke.jpg
+    year: 2016
+    source: Wikimedia Commons File:John Hanke by Gage Skidmore.jpg · Gage Skidmore · CC BY-SA 3.0
+- name: 小野寺瞬
+  slug: onodera-shun
+- name: 深谷卓
+  slug: fukaya-taku
+- name: 米谷由贵
+  slug: yonetani-yuki
+- name: 宗像快
+  slug: munakata-kai
+  aliases:
+  - 宗像快
+- name: 小幡敏宏
+  slug: obata-toshihiro
+  aliases:
+  - 小幡敏宏
+- name: 渡边哲也
+  slug: watanabe-tetsuya
+  aliases:
+  - 渡辺哲也
+  - Tetsuya Watanabe
+- name: 西田敦子
+  slug: nishida-atsuko
+  aliases:
+  - 西田敦子
+  - Atsuko Nishida
+- name: 三浦昌幸
+  slug: miura-masayuki
+- name: 林原惠美
+  slug: hayashibara-megumi
+- name: 三木真一郎
+  slug: miki-shinichiro
+- name: 犬山犬子
+  slug: inuyama-inuko
+- name: 大木博士
+  slug: da-mu-bo-shi
+  kind: character
+- name: 小霞
+  slug: xiao-xia
+  kind: character
+- name: F.K.
+  slug: f-k
+- name: James Turner
+  slug: james-turner
+  aliases:
+  - James Turner
+- name: T.M.
+  slug: t-m
+- name: 田谷正夫
+  slug: taya-masao
+- name: M.I.
+  slug: m-i
+- name: A.I.
+  slug: a-i
+- name: R.M.
+  slug: r-m
+- name: Y.I.
+  slug: y-i
+- name: H.I.
+  slug: h-i
+- name: K.K.
+  slug: k-k
+- name: 凯尔·希利亚德
+  slug: kai-er-xi-li-ya-de
+- name: 川岛优志
+  slug: kawashima-masashi
+- name: 菜花健作
+  slug: nabana-kensaku
+- name: 克里斯·塔普塞尔
+  slug: ke-li-si-ta-pu-sai-er
+- name: K.M.
+  slug: k-m
+- name: T.K.
+  slug: t-k
+- name: 北村一树
+  slug: bei-cun-yi-shu
+- name: 岩本翔
+  slug: yan-ben-xiang
+- name: 藤原
+  slug: fujiwara
+- name: 宫本茂
+  slug: gong-ben-mao
+- name: 蒂姆·拉里默
+  slug: di-mu-la-li-mo
+- name: 横田孝司
+  slug: heng-tian-xiao-si
+- name: 入江胜义
+  slug: ru-jiang-sheng-yi
+- name: 吉野元文
+  slug: ji-ye-yuan-wen
+- name: 福田和彦
+  slug: fu-tian-he-yan
+- name: 赤羽卓美
+  slug: chi-yu-zhuo-mei
+- name: 久須美龍太
+  slug: jiu-xu-mei-long-tai
+- name: 小澤
+  slug: xiao-ze
+- name: 松村
+  slug: song-cun
+- name: 多和田
+  slug: duo-he-tian
+- name: 山名学
+  slug: shan-ming-xue
+- name: 折尾
+  slug: zhe-wei
+- name: 松本梨香
+  slug: song-ben-li-xiang
+- name: 武上纯希
+  slug: wu-shang-chun-xi
+- name: 正辉
+  slug: zheng-hui
+  kind: character
+- name: 花子
+  slug: hua-zi
+  kind: character
+- name: 桥本忍
+  slug: qiao-ben-ren
+  kind: figure
+- name: 斋藤武市
+  slug: zhai-teng-wu-shi
+  kind: figure
+- name: 宇野重吉
+  slug: yu-ye-zhong-ji
+  kind: figure
+- name: 芥川龙之介
+  slug: jie-chuan-long-zhi-jie
+  kind: figure
+- name: 萨卡基
+  slug: sa-ka-ji
+  kind: character
+- name: 司马辽太郎
+  slug: si-ma-liao-tai-lang
+  kind: figure
+- name: 盐野七生
+  slug: yan-ye-qi-sheng
+  kind: figure
+- name: 萨蒂亚吉特·雷伊
+  slug: sa-di-ya-ji-te-lei-yi
+  kind: figure
+- name: 玛丽·雪莱
+  slug: ma-li-xue-lai
+  kind: figure
+- name: 阿尔伯特·爱因斯坦
+  slug: a-er-bo-te-ai-yin-si-tan
+  kind: figure
+- name: 弗朗西斯·福特·科波拉
+  slug: fu-lang-xi-si-fu-te-ke-bo-la
+  kind: figure
+- name: 黑泽明
+  slug: hei-ze-ming
+  kind: figure
+- name: 乔伊
+  slug: qiao-yi
+  kind: character
+- name: 笛卡尔
+  slug: di-ka-er
+  kind: figure
+- name: 赤冢不二夫
+  slug: chi-zhong-bu-er-fu
+  kind: figure
+- name: 小爱
+  slug: xiao-ai
+  kind: character
+- name: 吉拉尔丹
+  slug: ji-la-er-dan
+  kind: figure
+- name: 宫崎骏
+  slug: gong-qi-jun
+  kind: figure
+- name: 押井守
+  slug: ya-jing-shou
+  kind: figure
+- name: 手冢治虫
+  slug: shou-zhong-zhi-chong
+  kind: figure
+- name: 河内丸武史
+  slug: kawachimaru-takeshi
+- name: 小建
+  slug: xiao-jian
+  kind: character
+- name: 牛顿
+  slug: niu-dun
+  kind: figure
+- name: 爱因斯坦
+  slug: ai-yin-si-tan
+  kind: figure
+- name: 居里夫人
+  slug: ju-li-fu-ren
+  kind: figure
+- name: 松岛贤二
+  slug: song-dao-xian-er
+- name: 森昭人
+  slug: sen-zhao-ren
+- name: 田上怜子
+  slug: tian-shang-lian-zi
+- name: 后藤宏典
+  slug: hou-teng-hong-dian
+- name: 三枝成彰
+  slug: san-zhi-cheng-zhang
+- name: 韦斯利·尹-普尔
+  slug: wei-si-li-yin---pu-er
+- name: N
+  slug: n
+  kind: character
+- name: 盖奇斯
+  slug: gai-qi-si
+  kind: character
+- name: Christian Nutt
+  slug: christian-nutt
+- name: 中津井优
+  slug: nakatsui-yu
+  aliases:
+  - 中津井優
+- name: T.O.
+  slug: t-o
+- name: 足立美奈子
+  slug: adachi-minako
+  aliases:
+  - 足立美奈子
+  - Minako Adachi
+- name: AZ
+  slug: az
+  kind: character
+- name: 布拉塔诺博士
+  slug: bu-la-ta-nuo-bo-shi
+  kind: character
+- name: 弗拉达利
+  slug: fu-la-da-li
+  kind: character
+- name: 莎娜
+  slug: sha-na
+  kind: character
+- name: 廣部圭太
+  slug: guang-bu-gui-tai
+- name: T.W.
+  slug: t-w
+- name: T.A.
+  slug: t-a
+- name: M.K.
+  slug: m-k
+- name: 远藤雅伸
+  slug: yuan-teng-ya-shen
+- name: 横井军平
+  slug: heng-jing-jun-ping
+- name: 平信一
+  slug: ping-xin-yi
+- name: M.O.
+  slug: m-o
+- name: 尾上将之
+  slug: wei-shang-jiang-zhi
+- name: 氏家淳子
+  slug: shi-jia-chun-zi
+- name: 中广健吾
+  slug: zhong-guang-jian-wu
+- name: 畠祐贵
+  slug: tian-you-gui
+- name: 小野宪史
+  slug: xiao-ye-xian-shi
+- name: 本·里夫斯
+  slug: ben-li-fu-si
+- name: S.A.
+  slug: s-a
+- name: 坂木
+  slug: ban-mu
+  kind: character
+- name: 古兹马
+  slug: gu-zi-ma
+  kind: character
+- name: 宇都宫崇人
+  slug: utsunomiya-takato
+  aliases:
+  - 宇都宮崇人
+  - Takato Utsunomiya
+- name: 河本拓
+  slug: he-ben-tuo
+- name: 高桥伸也
+  slug: gao-qiao-shen-ye
+- name: 松崎翼
+  slug: song-qi-yi
+- name: 齐田和生
+  slug: qi-tian-he-sheng
+- name: Kevin Knezevic
+  slug: kevin-knezevic
+- name: 江上周作
+  slug: egami-shusaku
+- name: M.Y.
+  slug: m-y
+- name: 冈崎体育
+  slug: gang-qi-ti-yu
+- name: 乌龟松本
+  slug: wu-gui-song-ben
+- name: 木村KAELA
+  slug: mu-cun-KAELA
+- name: 橘庆太
+  slug: ju-qing-tai
+- name: 小林幸子
+  slug: xiao-lin-xing-zi
+- name: 大洞翔一
+  slug: da-dong-xiang-yi
+- name: 今村啓太
+  slug: jin-cun-qi-tai
+- name: 川村元気
+  slug: chuan-cun-yuan-qi
+  kind: figure
+- name: 松本理恵
+  slug: song-ben-li-hui
+- name: R.S.
+  slug: r-s
+- name: A.T.
+  slug: a-t
+- name: I.F.
+  slug: i-f
+- name: R.N.
+  slug: r-n
+- name: E.K.
+  slug: e-k
+- name: K.N.
+  slug: k-n
+- name: K.F.
+  slug: k-f
+- name: K.O.
+  slug: k-o
+- name: 柳本玛リエ
+  slug: liu-ben-ma-リエ
+- name: 五十岚
+  slug: wu-shi-lan
+- name: 町田
+  slug: ting-tian
+- name: 李
+  slug: li
+- name: 川島
+  slug: chuan-dao
+- name: 永山
+  slug: yong-shan
+- name: 為藤
+  slug: wei-teng
+- name: 村田佳奈子
+  slug: cun-tian-jia-nai-zi
+- name: 枝川拓人
+  slug: zhi-chuan-tuo-ren
+- name: 绫野万里奈
+  slug: ling-ye-wan-li-nai
+- name: 髙山玲央名
+  slug: gao-shan-ling-yang-ming
+- name: Alfredo Spadafina
+  slug: alfredo-spadafina
+- name: 赤木达也
+  slug: chi-mu-da-ye-2
