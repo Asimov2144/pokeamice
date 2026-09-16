@@ -1,0 +1,243 @@
+{
+ "source": "https://cedil.cesa.or.jp/cedil_sessions/search?q=ポケモン（另搜 ゲームフリーク / Pokémon / クリーチャーズ / 株式会社ポケモン）",
+ "captured": "2026-09-16",
+ "note": "CEDiL 公开：标题、日期、摘要、讲者简介；讲演资料 PDF 需免费注册登录后下载。on_site 为站内对应帖子。",
+ "sessions": [
+  {
+   "id": 3390,
+   "event": "CEDEC 2026",
+   "date": "2026年07月22日",
+   "title": "ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例",
+   "speakers": [
+    "宗像 快（株式会社ゲームフリーク）",
+    "小幡 敏宏（株式会社ゲームフリーク）"
+   ],
+   "abstract": "『ポケットモンスター』シリーズのバトルシステムは、シリーズを重ねるとともに拡張が繰り返し行われてきました。\nしかし、近年のバトル仕様の複雑化や、開発ラインの増加に伴い、開発効率や保守性、拡張性に課題がありました。\nこれらの課題を解決するために、バトルシステムの基盤設計の見直しと再構築に取り組み、複雑化するポケモン勝負の",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3390",
+   "on_site": "2026-07-28-interview-4gamer-2026-cedec-battle.md / 2026-07-22-interview-denfami-2026-cedec-battle.md",
+   "pokemon_related": true
+  },
+  {
+   "id": 3366,
+   "event": "CEDEC 2026",
+   "date": "2026年07月23日",
+   "title": "ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術",
+   "speakers": [
+    "前澤 圭一（株式会社ゲームフリーク）",
+    "赤木 達也（株式会社ゲームフリーク）"
+   ],
+   "abstract": "『Pokémon LEGENDS Z-A』で生まれ変わった\"ミアレシティ\"。\n前作『スカーレット・バイオレット』の広大な自然環境から一変し、多数の建物が立ち並ぶ都市空間をどのように実装したのか。\n本セッションでは、多数の建造物などを効率的に描画する仕組みや都市環境に適したライティング表現、キャラクターのリギングについて",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3366",
+   "on_site": "2026-07-23-interview-denfami-2026-cedec-pokerig.md",
+   "pokemon_related": true
+  },
+  {
+   "id": 3341,
+   "event": "CEDEC 2026",
+   "date": "2026年07月22日",
+   "title": "『Pokémon LEGENDS Z-A』におけるKubernetes × Windowsコンテナを活用したCI/CDの構築事例",
+   "speakers": [
+    "髙山 玲央名（株式会社ゲームフリーク）"
+   ],
+   "abstract": "過去のポケモンシリーズの開発ではCI/CDをパブリッククラウドの仮想マシン(Windows Server)で構築していましたが、費用とビルド環境の並列化で課題がありました。\n2025年10月16日に全世界同時発売した『Pokémon LEGENDS Z-A』の開発ではこれらの課題を解決するため、CI/CDにKubern",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3341",
+   "on_site": "2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers.md（讲演资料本体）",
+   "pokemon_related": true
+  },
+  {
+   "id": 2819,
+   "event": "CEDEC 2023",
+   "date": "2023年08月24日",
+   "title": "ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！",
+   "speakers": [
+    "一之瀬　剛（株式会社ゲームフリーク）",
+    "北村 一樹（株式会社コネクテコ）",
+    "プロフィール（株式会社スクウェア・エニックス在籍時にサウンドプログラマーとして内製サウンドエンジンの音楽制御システム開発を担当。）"
+   ],
+   "abstract": "『ポケットモンスター スカーレット・バイオレット』および『Pokémon LEGENDS アルセウス』の開発に携わった経験をもとに、\n一般の生物がいない「ポケモンの世界でのリアル」な環境音と鳴き声の制作方法について紹介します。\n広大な冒険の世界を埋め尽くす環境音の実装を効率化するための施策や、ポケモンの鳴き声表現の発展",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2819",
+   "on_site": "2023-08-24-interview-famitsu-2023-cedec-sound.md / 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md",
+   "pokemon_related": true
+  },
+  {
+   "id": 2792,
+   "event": "CEDEC 2023",
+   "date": "2023年08月25日",
+   "title": "Splunkを活用したJenkinsの運用改善テクニック",
+   "speakers": [
+    "立原 春木（株式会社ゲームフリーク）",
+    "金丸方律（株式会社ゲームフリーク）",
+    "髙山玲央名（株式会社ゲームフリーク）"
+   ],
+   "abstract": "ゲームの規模が大規模化し、さらに大規模化した開発環境をクラウド活用によるスケーラブルに開発できるように整備を進めました。\nそれに伴い、インフラ規模や管理するマシン数も増加し、Jenkinsの運用は経験則に基づいた職人技的なスキルではカバーしきれなくなっています。\n統合ログ分析サービス「Splunk」を導入することで、分",
+   "pdf": false,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2792",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 2586,
+   "event": "CEDEC 2022",
+   "date": "2022年08月25日",
+   "title": "【アルセウス＋スカーレット・バイオレット】ポケモン2つを同時に作る、ポケモンモデル制作環境",
+   "speakers": [
+    "前澤 圭一（株式会社ゲームフリーク）"
+   ],
+   "abstract": "『ソード・シールド』までのポケモンモデル制作は、タイトルごとに仕様を定め、それに応じたデータをMaya上で構築していくフロ―になっていました。マテリアルはShaderFXで作成し、ロケータもMaya上ですべて仕込み、タイトルと同じ環境で納品チェックを行う流れです。\nしかし、ポケモンモデルの総数は累計1000種を超えてお",
+   "pdf": false,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2586",
+   "on_site": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.md / 2022-08-27-…shader-pipeline.md",
+   "pokemon_related": true
+  },
+  {
+   "id": 2516,
+   "event": "CEDEC 2022",
+   "date": "2022年08月23日",
+   "title": "ポケモン開発におけるクラウドのセキュリティを担保した開発環境",
+   "speakers": [
+    "立原 春木（株式会社ゲームフリーク）",
+    "岩澤 幸（株式会社ゲームフリーク）",
+    "髙山 玲央名（株式会社ゲームフリーク）"
+   ],
+   "abstract": "ゲーム規模の拡大やゲーム品質の高度化に対応するため、「ソード・シールド」の開発時に研究開発をすすめ\n「Pokémon LEGENDS アルセウス」ではビルドパイプラインのクラウド化を行いました。\n本セッションでは、そのクラウド化の導入に至った経緯や導入からタイトルのリリースまで運用して出た知見をご紹介します。",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2516",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 2782,
+   "event": "CEDEC 2023",
+   "date": "2023年08月23日",
+   "title": "【ポケットモンスター スカーレット・バイオレット】 パルデア地方を描き出す――見た目の仕組みを徹底解説！",
+   "speakers": [
+    "前澤 圭一（GAME FREAK inc.）"
+   ],
+   "abstract": "「絵を見ればどのタイトルかわかる」を前提に、開発しているポケットモンスターシリーズ。\n『ソード・シールド』とも『アルセウス』とも異なる見た目の実現のため、どんな仕組みを取り入れたのか。\nポケモン、主人公、そして世界。それぞれについて、シェーダ処理からアセット構成まで徹底的に解説します！",
+   "pdf": false,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2782",
+   "on_site": "2023-08-24-interview-denfami-2023-cedec-visual.md / 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza.md",
+   "pokemon_related": true
+  },
+  {
+   "id": 3356,
+   "event": "CEDEC 2026",
+   "date": "2026年07月22日",
+   "title": "Pokémon TCG PocketをIntegration & Deliveryし続けるために 〜リリースエンジニアが大規模開発にもたらした安定運用〜",
+   "speakers": [
+    "水本 頑大（株式会社ディー・エヌ・エー）",
+    "山部 薫（株式会社ディー・エヌ・エー）"
+   ],
+   "abstract": "大規模な運営型モバイルゲーム開発では、並行開発するバージョン数の増加、成果物の多様化、分業化等により全体把握難易度が上昇しています。これらは、\"動作するアプリ\"をデリバリーするために必要な「統合」のフェーズで多くの問題を生みます。誰かがこの問題に対応することになりますが、一人や片手間での対応は困難になっています。\nPo",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3356",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 3334,
+   "event": "CEDEC 2026",
+   "date": "2026年07月23日",
+   "title": "「Pokémon TCG Pocket」ゲームサーバーの全貌 - 複雑性に立ち向かうためのアプローチと、目標QPS 2000万 への挑戦",
+   "speakers": [
+    "勝倉 智央（株式会社ディー・エヌ・エー）"
+   ],
+   "abstract": "「Pokémon TCG Pocket」は、2024年10月30日 のリリース以来、世界中で数多くのユーザーの皆さんに楽しんでいただいています。\nカードデータをはじめ、保持するユーザーデータは膨大ですが、安定したゲーム環境を提供してまいりました。\n加えて、さまざまな改修を実施してまいりましたが、いずれも無理なく既存のシ",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3334",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 3296,
+   "event": "CEDEC 2026",
+   "date": "2026年07月24日",
+   "title": "Pokémon TCG Pocketのバトルを支える強化学習AI技術",
+   "speakers": [
+    "坂見 耕輔（株式会社ディー・エヌ・エー）"
+   ],
+   "abstract": "本セッションでは、『Pokémon TCG Pocket』の対戦 AI として用いられている強化学習技術について紹介します。\nなぜ強化学習を用いるという選択をしたのかや、複雑なゲーム環境をどのように強化学習の枠組みに落とし込んだか、また、強化学習を実際のゲームに適用する際に課題となった内容とその解決策を具体的に説明しま",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3296",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 3276,
+   "event": "CEDEC 2026",
+   "date": "2026年07月24日",
+   "title": "大量のデータから「いい感じに」抽選する時系列バケット式抽選法",
+   "speakers": [
+    "柴田 佳祐（株式会社ディー・エヌ・エー）"
+   ],
+   "abstract": "Pokémon TCG Pocketの開発において、「他人のコンテンツを『いい感じ』に抽選して表示する」という機能は、ユーザー体験にとって重要な要素です。例えば、「ゲットチャレンジ」機能は、他のプレイヤーが開封した拡張パックが「いい感じ」に抽選されて自分に提示される機能です。\nしかし、この「いい感じ」の実現には、以下の",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3276",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 3259,
+   "event": "CEDEC 2026",
+   "date": "2026年07月22日",
+   "title": "Pokémon TCG Pocket の安定したバトル実装を支えるカードロジック基盤設計 ～３種のコード生成技術を添えて～",
+   "speakers": [
+    "原田 大輝（株式会社ディー・エヌ・エー）"
+   ],
+   "abstract": "『Pokémon TCG Pocket』はリリース以降、膨大な数のカードを追加し続けています。\nこれらが持つバトルにおける効果や固有のダメージ計算処理（以下、カードロジック）は、パラメータ差異を除いても約500種類に及び、今後も留まることなく増加していきます。\n通常、固有ロジックの増加は保守コストや学習コストの増大を招",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3259",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 3362,
+   "event": "CEDEC 2026",
+   "date": "2026年07月23日",
+   "title": "クラウドネイティブなバージョン管理「Diversion」による開発パイプラインの現代化",
+   "speakers": [
+    "沖 幸太朗（株式会社クリーチャーズ）"
+   ],
+   "abstract": "ゲーム開発におけるアセットの大容量化とチームの分散化が進む現在、従来のオンプレミス型や集中型のバージョン管理システムでは、同期速度の低下やインフラ運用の複雑化といったボトルネックが顕在化しています。\n本セッションでは、これらの課題を解決するために設計されたクラウドネイティブなバージョン管理システム「Diversion」",
+   "pdf": false,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3362",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 2234,
+   "event": "CEDEC 2020",
+   "date": "2020年09月04日",
+   "title": "Technical Artist Bootcamp 2020 :「ToolDev for TA」",
+   "speakers": [
+    "麓　一博（株式会社セガ）",
+    "今野 達斗（株式会社クリーチャーズ）",
+    "清水　宣寿（株式会社セガ）"
+   ],
+   "abstract": "前半：今野「新卒からのTA推移」\n「TAはベテランのアーティストやアートへの造詣が深いプログラマがなるもの」\nこの言葉は僕がTAになるにあたって何度も聞かされた言葉です。本当にそうでしょうか。\n求めるTA像によりますが、決してそんなことはなく、むしろ経験の量に限らず技術面の知識はアーティストの武器になることを、実例を併",
+   "pdf": false,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2234",
+   "on_site": null,
+   "pokemon_related": true
+  },
+  {
+   "id": 2489,
+   "event": "CEDEC 2021",
+   "date": "2021年08月26日",
+   "title": "グローバルゲーム業界最前線2021―ニューノーマル時代を先行する欧米中に日本企業は如何に適応するべきか",
+   "speakers": [
+    "北阪幹生（ニキ株式会社）",
+    "上床 光信（株式会社角川アスキー総合研究所）"
+   ],
+   "abstract": "2020年という激動の時代を乗り越え、グローバルなゲームシーンはニューノーマル時代に移行しています。世界レベルで市場規模が過去最高を更新し、巣ごもりという状況において、如何にゲームというメディアが人々に「潤い」をもたらしたかが明確となりました。これらに加え、欧米では新世代コンソールが着実に浸透するのに加え、eスポーツも",
+   "pdf": true,
+   "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/2489",
+   "on_site": null,
+   "pokemon_related": false
+  }
+ ]
+}

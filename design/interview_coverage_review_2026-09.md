@@ -294,3 +294,23 @@
 | CEDEC 2026 第三场 | 1 | 『Z-A』Kubernetes × Windows 容器 CI/CD——讲演有，报道待找 |
 
 顺带确认了两处本来以为的缺口其实有：スリープ 宇都宮崇人 2024（站内已收）、GF 招聘「プロジェクトストーリー」（在时间线整理里引用过，但没有作为访谈单独收）。
+
+## 10. CEDiL（CEDEC Digital Library）核对（2026-09-16）
+
+cedil.cesa.or.jp 搜「ポケモン / ゲームフリーク / Pokémon / クリーチャーズ / 株式会社ポケモン」共 **15 场宝可梦相关讲演**（[cedil_pokemon_sessions_2026-09.json](cedil_pokemon_sessions_2026-09.json)）。会话页公开标题、日期、摘要、讲者简介；**讲演资料 PDF 要免费注册登录才能下载**。
+
+| 年 | 讲演 | 站内 |
+|---|---|---|
+| 2022 | GF 前澤圭一 ポケモンモデル制作環境 | 有（電ファミ + ファミ通报道） |
+| 2022 | GF 立原春木 ポケモン開発におけるクラウドのセキュリティ | 无——archive.org 有当年免费直播录像 |
+| 2023 | GF 前澤 パルデア地方 见た目の仕組み | 有 |
+| 2023 | GF 一之瀬 おんきょうデザイン | 有 |
+| 2023 | GF 立原 Splunk × Jenkins 運用改善 | 无（纯运维，无报道） |
+| 2026 | GF 宗像×小幡 バトルシステム基盤 | 有（4Gamer + 電ファミ；ファミ通 202607/82439 未收） |
+| 2026 | GF 前澤×赤木 ミアレシティ描画技術 | 有 |
+| 2026 | GF 髙山玲央名 Z-A Kubernetes × Windows コンテナ CI/CD | **本次导入**：讲演资料 59 页由 `tools/import-cedil-deck.py` 做成技术专题（51 张幻灯片图 + 逐页译文 + 摘要与讲者简介） |
+| 2026 | DeNA ポケポケ ×5（リリースエンジニアリング、ゲームサーバー、強化学習AI、抽選法、カードロジック基盤） | 无 |
+| 2026 | Creatures 沖幸太朗 Diversion バージョン管理 | 无 |
+| 2020 | Creatures 今野達斗 TA Bootcamp（合讲） | 无 |
+
+GF 2024、2025 没有 CEDEC 登台（官网 Topics 里那两年只有 SIGGRAPH / Visual Computing）。剩下 8 场没有媒体报道的，资料下载后同样走 `import-cedil-deck.py`：`python tools/import-cedil-deck.py <CEDiL id> <pdf> <slug>`。
