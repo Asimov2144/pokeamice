@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 33.5,
+ "image_tokens": 7010,
+ "completion_tokens": 887,
+ "finish": "stop",
+ "file": "p049_pokemon_do_special_tcg_victini_decks",
+ "image_md5": "754d82ff8619451863017e86c32fe186"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 37.2,
+ "image_tokens": 6530,
+ "completion_tokens": 1083,
+ "finish": "stop",
+ "file": "p073_pokemon_next_tetta",
+ "image_md5": "05dc4f5fc97dfe689e948ea4a50c1df3"
+}

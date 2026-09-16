@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 41.1,
+ "image_tokens": 7277,
+ "completion_tokens": 1436,
+ "finish": "stop",
+ "file": "p074_memorial_200_sakurai_masahiro_dialogue_part3",
+ "image_md5": "34a6d3368fcb67e7a1a93e5ab8d89445"
+}

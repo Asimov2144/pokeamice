@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 20.6,
+ "image_tokens": 6818,
+ "completion_tokens": 699,
+ "finish": "stop",
+ "file": "p076_bw_interview_chandelure_seismitoad_klinklang",
+ "image_md5": "f160a2d2ee75f435123fa91d6d8ed07c"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 35.8,
+ "image_tokens": 6818,
+ "completion_tokens": 975,
+ "finish": "stop",
+ "file": "p079_bw_interview_characters_alder_subway_bosses",
+ "image_md5": "5cde0c33dc00cd2af0fcce55bae7b700"
+}

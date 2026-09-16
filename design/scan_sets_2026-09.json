@@ -1,0 +1,3753 @@
+{
+ "generated": "2026-09-16",
+ "scan_root": "E:/Pokeamice/scan",
+ "image_base": "https://gallery.pokeamice.com/scan-archive",
+ "note": "E:/Pokeamice/scan 里 *_prepared 目录的登记：每套的书目、页清单（web/ 下的 2048px 页图）、以及要成帖的 features（页号范围）。ocr 由 tools/import-scan-set.py 逐页跑 qwen3.8-max 整页转写，缓存在 data/cache_scan/<slug>/。",
+ "sets": [
+  {
+   "slug": "ndream-2010-11",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2010年11月号（Vol.199）",
+   "date": "2010-09-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2010.11_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "Cover / 表紙: 『Nintendo DREAM』2010年11月号 (Vol.199) レシラム＆ゼクロム / ポケモンBW総力特集",
+     "bytes": 546524
+    },
+    {
+     "file": "p002_foldout_poster",
+     "page": 2,
+     "desc": "特別付録 折込ポスター: 『ポケットモンスターブラック・ホワイト』 出会うポケモン、すべてが新しい。全部で100種以上！新ポケモン一覧",
+     "bytes": 426296
+    },
+    {
+     "file": "p004_contents",
+     "page": 4,
+     "desc": "Contents / 目次: P.4-P.5 CONTENTS / 5大地方観光ガイド・新連載マナフィ愛好倶楽部 (重複スキャン page020 除外)",
+     "bytes": 623305
+    },
+    {
+     "file": "p069_5regions_guide_intro",
+     "page": 69,
+     "desc": "特集 扉: ニンドリだけの15ページ特別企画！「ALL ABOUT ポケットモンスター 5大地方観光ガイド」 (P.69)",
+     "bytes": 638529
+    },
+    {
+     "file": "p070_unova_region_part1",
+     "page": 70,
+     "desc": "5大地方観光ガイド 1: イッシュ地方 (ヒウンシティ、シッポウシティ、サンヨウシティ、地下水脈の穴、ヤグルマの森) (P.70)",
+     "bytes": 634822
+    },
+    {
+     "file": "p071_unova_region_part2",
+     "page": 71,
+     "desc": "5大地方観光ガイド 2: イッシュ地方 (ライモンシティ、ホドモエシティ、フキヨセシティ、リゾートデザート、古代の城) (P.71)",
+     "bytes": 563537
+    },
+    {
+     "file": "p072_kanto_region_part1",
+     "page": 72,
+     "desc": "5大地方観光ガイド 3: カントー地方 (マサラタウン、タマムシシティ、ヤマブキシティ、トキワの森、お月見山) (P.72)",
+     "bytes": 616631
+    },
+    {
+     "file": "p073_kanto_region_part2",
+     "page": 73,
+     "desc": "5大地方観光ガイド 4: カントー地方 (グレンタウン、ハナダシティ、シオンタウン、サファリゾーン、無人発電所) (P.73)",
+     "bytes": 617643
+    },
+    {
+     "file": "p074_johto_region_part1",
+     "page": 74,
+     "desc": "5大地方観光ガイド 5: ジョウト地方 (ワカバタウン、コガネシティ、エンジュシティ、スズの塔、うずまき島) (P.74)",
+     "bytes": 610208
+    },
+    {
+     "file": "p075_johto_region_part2",
+     "page": 75,
+     "desc": "5大地方観光ガイド 6: ジョウト地方 (アサギシティ、タンバシティ、フスベシティ、アルフの遺跡、シロガネ山) (P.75)",
+     "bytes": 622429
+    },
+    {
+     "file": "p076_hoenn_region_part1",
+     "page": 76,
+     "desc": "5大地方観光ガイド 7: ホウエン地方 (ミシロタウン、カイナシティ、キンセツシティ、えんとつ山、トクサネシティ) (P.76)",
+     "bytes": 628326
+    },
+    {
+     "file": "p077_hoenn_region_part2",
+     "page": 77,
+     "desc": "5大地方観光ガイド 8: ホウエン地方 (ヒワマキシティ、ミナモシティ、ルネシティ、おくりび山、そらのはしら) (P.77)",
+     "bytes": 591845
+    },
+    {
+     "file": "p078_sinnoh_region_part1",
+     "page": 78,
+     "desc": "5大地方観光ガイド 9: シンオウ地方 (フタバタウン、コトブキシティ、ハクタイシティ、テンガン山、シンジ湖) (P.78)",
+     "bytes": 584601
+    },
+    {
+     "file": "p079_sinnoh_region_part2",
+     "page": 79,
+     "desc": "5大地方観光ガイド 10: シンオウ地方 (ヨスガシティ、ノモセシティ、ナギサシティ、やりのはしら、大湿原) (P.79)",
+     "bytes": 618709
+    },
+    {
+     "file": "p080_best3_mountains_routes_buildings",
+     "page": 80,
+     "desc": "5大地方なんでもベスト3 (1): 高い山 ＆ 長い道路 ＆ 巨大建造物 (P.80)",
+     "bytes": 565555
+    },
+    {
+     "file": "p081_best3_views_dangers_gourmet",
+     "page": 81,
+     "desc": "5大地方なんでもベスト3 (2): 絶景スポット ＆ 危険地帯 ＆ 名物グルメ (P.81)",
+     "bytes": 624276
+    },
+    {
+     "file": "p082_best3_hotsprings_ruins_resorts",
+     "page": 82,
+     "desc": "5大地方なんでもベスト3 (3): 温泉 ＆ 古代遺跡 ＆ リゾート地 (P.82)",
+     "bytes": 592535
+    },
+    {
+     "file": "p083_best3_transport_battle_halls",
+     "page": 83,
+     "desc": "5大地方なんでもベスト3 (4): 各地の乗り物 ＆ バトルの殿堂 (P.83, 180°倒置スキャン補正済, 重複スキャン page040 除外)",
+     "bytes": 588385
+    },
+    {
+     "file": "p148_back_cover",
+     "page": 148,
+     "desc": "Back Cover / 表4 裏表紙: 『毛糸のカービィ』 ＆ 毎日コミュニケーションズ発行クレジット",
+     "bytes": 559671
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2010-11-five-regions-guide",
+     "title_ja": "ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド",
+     "kind": "feature",
+     "files": [
+      "p001_cover",
+      "p002_foldout_poster",
+      "p004_contents",
+      "p069_5regions_guide_intro",
+      "p070_unova_region_part1",
+      "p071_unova_region_part2",
+      "p072_kanto_region_part1",
+      "p073_kanto_region_part2",
+      "p074_johto_region_part1",
+      "p075_johto_region_part2",
+      "p076_hoenn_region_part1",
+      "p077_hoenn_region_part2",
+      "p078_sinnoh_region_part1",
+      "p079_sinnoh_region_part2",
+      "p080_best3_mountains_routes_buildings",
+      "p081_best3_views_dangers_gourmet",
+      "p082_best3_hotsprings_ruins_resorts",
+      "p083_best3_transport_battle_halls"
+     ],
+     "plate_only": [
+      "p001_cover",
+      "p002_foldout_poster",
+      "p004_contents"
+     ],
+     "people": [],
+     "works": [
+      "宝可梦 黑·白",
+      "宝可梦 红·绿",
+      "宝可梦 金·银",
+      "宝可梦 红宝石·蓝宝石",
+      "宝可梦 钻石·珍珠"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "合众地方"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2011-01",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2011年1月号（Vol.201）",
+   "date": "2010-11-20",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2011.1_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "Cover / 表紙: ポケットモンスターB・W 絵と音から魅力を解き明かす",
+     "bytes": 657409
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "Contents / 目次",
+     "bytes": 813030
+    },
+    {
+     "file": "p006_bw_special_intro",
+     "page": 6,
+     "desc": "ALL ABOUT ポケモンB・W 扉絵",
+     "bytes": 723097
+    },
+    {
+     "file": "p007_bw_pokemon_making_intro",
+     "page": 7,
+     "desc": "ポケモン＆新キャラ誕生秘話 導入・色紙プレゼント",
+     "bytes": 656405
+    },
+    {
+     "file": "p008_bw_pokemon_design_process",
+     "page": 8,
+     "desc": "新ポケモンのデザインはどう進んだのか？",
+     "bytes": 942450
+    },
+    {
+     "file": "p009_bw_pokemon_reshiram_zekrom",
+     "page": 9,
+     "desc": "生みの親が語る レシラム・ゼクロム",
+     "bytes": 675747
+    },
+    {
+     "file": "p010_bw_pokemon_snivy_tepig",
+     "page": 10,
+     "desc": "ツタージャ・ポカブ 誕生秘話",
+     "bytes": 669748
+    },
+    {
+     "file": "p011_bw_pokemon_emboar_oshawott_samurott",
+     "page": 11,
+     "desc": "エンブオー・ミジュマル・ダイケンキ 誕生秘話",
+     "bytes": 634250
+    },
+    {
+     "file": "p012_bw_pokemon_zoroark_victini_audino",
+     "page": 12,
+     "desc": "ゾロア・ゾロアーク・ビクティニ・チラーミィ・タブンネ",
+     "bytes": 746707
+    },
+    {
+     "file": "p013_bw_pokemon_emolga_musharna_monkeys",
+     "page": 13,
+     "desc": "エモンガ・ムシャーナ・三猿・ダゲキ・ナゲキ",
+     "bytes": 748286
+    },
+    {
+     "file": "p014_bw_pokemon_accelgor_escavalier_conkeldurr",
+     "page": 14,
+     "desc": "アギルダー・シュバルゴ・ローブシン・ヤブクロン・クマシュン・シンボラー",
+     "bytes": 764690
+    },
+    {
+     "file": "p015_bw_characters_protagonists_juniper",
+     "page": 15,
+     "desc": "登場人物編 主人公・アララギ博士・アララギパパ",
+     "bytes": 664300
+    },
+    {
+     "file": "p016_bw_characters_cheren_bianca_n_ghetsis",
+     "page": 16,
+     "desc": "チェレン・ベル・マコモ・N・プラズマ団・ゲーチス",
+     "bytes": 748385
+    },
+    {
+     "file": "p017_bw_characters_gym_leaders_cilan_elesa_skyla",
+     "page": 17,
+     "desc": "ジムリーダー サンヨウ三兄弟・アロエ・アーティ・カミツレ・ヤーコン・フウロ",
+     "bytes": 815464
+    },
+    {
+     "file": "p018_bw_sound_interview_kageyama",
+     "page": 18,
+     "desc": "楽曲魂 特別編 景山将太さんインタビュー",
+     "bytes": 809065
+    },
+    {
+     "file": "p019_bw_sound_roundtable_masuda_ichinose_sato_kageyama",
+     "page": 19,
+     "desc": "サウンドチーム座談会 増田順一・一之瀬剛・佐藤仁美・景山将太",
+     "bytes": 959576
+    },
+    {
+     "file": "p020_bw_sound_pokemon_cries_interactive",
+     "page": 20,
+     "desc": "ポケモンの鳴き声・街の音楽・インタラクティブサウンド",
+     "bytes": 900997
+    },
+    {
+     "file": "p021_bw_art_director_masuda_aesthetic",
+     "page": 21,
+     "desc": "絵画・美術へのこだわり ディレクター増田さんのこと！",
+     "bytes": 862726
+    },
+    {
+     "file": "p022_bw_special_dialogue_sugimori_masuda_part1",
+     "page": 22,
+     "desc": "杉森建×増田順一 スペシャル対談 Part 1",
+     "bytes": 938305
+    },
+    {
+     "file": "p023_bw_special_dialogue_sugimori_masuda_part2",
+     "page": 23,
+     "desc": "杉森建×増田順一 スペシャル対談 Part 2",
+     "bytes": 955909
+    },
+    {
+     "file": "p069_memorial_200_muscle_chief_editor_greeting",
+     "page": 69,
+     "desc": "創刊200号突破記念 新たな門出スペシャル / マッスル新編集長挨拶",
+     "bytes": 846768
+    },
+    {
+     "file": "p070_memorial_200_editorial_team_walkthrough",
+     "page": 70,
+     "desc": "ニンドリ編集部、魅せます！ お仕事マップ",
+     "bytes": 857597
+    },
+    {
+     "file": "p071_memorial_200_staff_roster_chronology",
+     "page": 71,
+     "desc": "歴代編集部員名簿・年表・マッスル号",
+     "bytes": 900264
+    },
+    {
+     "file": "p072_memorial_200_sakurai_masahiro_dialogue_part1",
+     "page": 72,
+     "desc": "新たな門出に桜井さんがやってきた!! 桜井政博インタビュー Part 1",
+     "bytes": 842357
+    },
+    {
+     "file": "p073_memorial_200_sakurai_masahiro_dialogue_part2",
+     "page": 73,
+     "desc": "桜井政博インタビュー Part 2",
+     "bytes": 886218
+    },
+    {
+     "file": "p074_memorial_200_sakurai_masahiro_dialogue_part3",
+     "page": 74,
+     "desc": "桜井政博インタビュー Part 3",
+     "bytes": 865047
+    },
+    {
+     "file": "p075_memorial_200_sakurai_masahiro_dialogue_part4",
+     "page": 75,
+     "desc": "桜井政博インタビュー Part 4・色紙プレゼント",
+     "bytes": 802279
+    },
+    {
+     "file": "p118_column_paris_nintendo_report_florent_gorges",
+     "page": 118,
+     "desc": "パリ発！任天堂レポート Florent Gorges",
+     "bytes": 916945
+    },
+    {
+     "file": "p126_nintendo_scramble_3ds_hands_on_event",
+     "page": 126,
+     "desc": "ニンドリスクランブル 3DS体験イベント告知",
+     "bytes": 786886
+    },
+    {
+     "file": "p999_back_cover_super_robot_wars_l",
+     "page": 999,
+     "desc": "Back Cover / 表4: スーパーロボット大戦L",
+     "bytes": 700974
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2011-01-bw-design-secrets",
+     "title_ja": "ALL ABOUT ポケットモンスターブラック・ホワイト 絵 GRAPHICS & ILLUSTRATION：ポケモン＆人物誕生秘話",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "杉森建",
+      "海野隆雄",
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p006_bw_special_intro",
+      "p007_bw_pokemon_making_intro",
+      "p008_bw_pokemon_design_process",
+      "p009_bw_pokemon_reshiram_zekrom",
+      "p010_bw_pokemon_snivy_tepig",
+      "p011_bw_pokemon_emboar_oshawott_samurott",
+      "p012_bw_pokemon_zoroark_victini_audino",
+      "p013_bw_pokemon_emolga_musharna_monkeys",
+      "p014_bw_pokemon_accelgor_escavalier_conkeldurr",
+      "p015_bw_characters_protagonists_juniper",
+      "p016_bw_characters_cheren_bianca_n_ghetsis",
+      "p017_bw_characters_gym_leaders_cilan_elesa_skyla"
+     ]
+    },
+    {
+     "slug": "ndream-2011-01-bw-sound-gakkyoku-damashii",
+     "title_ja": "ALL ABOUT ポケットモンスターブラック・ホワイト 音 SOUNDS & MUSIC：楽曲魂 特別編",
+     "kind": "interview",
+     "people": [
+      "景山将太",
+      "增田顺一",
+      "一之濑刚",
+      "佐藤仁美",
+      "足立美奈子"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "音乐",
+      "Game Freak"
+     ],
+     "files": [
+      "p018_bw_sound_interview_kageyama",
+      "p019_bw_sound_roundtable_masuda_ichinose_sato_kageyama",
+      "p020_bw_sound_pokemon_cries_interactive",
+      "p021_bw_art_director_masuda_aesthetic",
+      "p022_bw_special_dialogue_sugimori_masuda_part1",
+      "p023_bw_special_dialogue_sugimori_masuda_part2"
+     ],
+     "plate_only": []
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2011-04",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2011年4月号（Vol.204）",
+   "date": "2011-02-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2011.4_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 592677
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 753405
+    },
+    {
+     "file": "p071_bw_interview_part2_intro",
+     "page": 71,
+     "desc": "",
+     "bytes": 763483
+    },
+    {
+     "file": "p072_bw_interview_swords_of_justice",
+     "page": 72,
+     "desc": "",
+     "bytes": 780048
+    },
+    {
+     "file": "p073_bw_interview_volcarona_whimsicott_lilligant",
+     "page": 73,
+     "desc": "",
+     "bytes": 859626
+    },
+    {
+     "file": "p074_bw_interview_haxorus_darmanitan_stunfisk",
+     "page": 74,
+     "desc": "",
+     "bytes": 874165
+    },
+    {
+     "file": "p075_bw_interview_jellicent_sawsbuck",
+     "page": 75,
+     "desc": "",
+     "bytes": 834903
+    },
+    {
+     "file": "p076_bw_interview_chandelure_seismitoad_klinklang",
+     "page": 76,
+     "desc": "",
+     "bytes": 828094
+    },
+    {
+     "file": "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp",
+     "page": 77,
+     "desc": "",
+     "bytes": 821347
+    },
+    {
+     "file": "p078_bw_interview_characters_drayden_iris_brycen",
+     "page": 78,
+     "desc": "",
+     "bytes": 902458
+    },
+    {
+     "file": "p079_bw_interview_characters_alder_subway_bosses",
+     "page": 79,
+     "desc": "",
+     "bytes": 902305
+    },
+    {
+     "file": "p080_bw_interview_masuda_bridges_part1",
+     "page": 80,
+     "desc": "",
+     "bytes": 811940
+    },
+    {
+     "file": "p081_bw_interview_masuda_bridges_part2",
+     "page": 81,
+     "desc": "",
+     "bytes": 874401
+    },
+    {
+     "file": "p082_bw_interview_masuda_bridges_part3",
+     "page": 82,
+     "desc": "",
+     "bytes": 884132
+    },
+    {
+     "file": "p083_bw_interview_masuda_bridges_part4",
+     "page": 83,
+     "desc": "",
+     "bytes": 874724
+    },
+    {
+     "file": "p999_back_cover_ridge_racer_3d",
+     "page": 999,
+     "desc": "",
+     "bytes": 570745
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2011-04-bw-design-secrets-part2",
+     "title_ja": "ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "杉森建",
+      "海野隆雄",
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p071_bw_interview_part2_intro",
+      "p072_bw_interview_swords_of_justice",
+      "p073_bw_interview_volcarona_whimsicott_lilligant",
+      "p074_bw_interview_haxorus_darmanitan_stunfisk",
+      "p075_bw_interview_jellicent_sawsbuck",
+      "p076_bw_interview_chandelure_seismitoad_klinklang",
+      "p077_bw_interview_crustle_scrafty_cofagrigus_bisharp",
+      "p078_bw_interview_characters_drayden_iris_brycen",
+      "p079_bw_interview_characters_alder_subway_bosses"
+     ]
+    },
+    {
+     "slug": "ndream-2011-04-masuda-bridges",
+     "title_ja": "増田順一さんが語る『ポケットモンスターブラック・ホワイト』橋 誕生秘話",
+     "kind": "interview",
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "增田顺一",
+      "Game Freak"
+     ],
+     "files": [
+      "p080_bw_interview_masuda_bridges_part1",
+      "p081_bw_interview_masuda_bridges_part2",
+      "p082_bw_interview_masuda_bridges_part3",
+      "p083_bw_interview_masuda_bridges_part4"
+     ],
+     "plate_only": []
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2011-05",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2011年5月号（Vol.205）",
+   "date": "2011-03-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2011.5_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 637037
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 720265
+    },
+    {
+     "file": "p006_3ds_launch_akiba_shibuya",
+     "page": 6,
+     "desc": "",
+     "bytes": 600653
+    },
+    {
+     "file": "p007_3ds_launch_report_muscle",
+     "page": 7,
+     "desc": "",
+     "bytes": 794094
+    },
+    {
+     "file": "p064_pokemon_typing_ds_intro",
+     "page": 64,
+     "desc": "",
+     "bytes": 793261
+    },
+    {
+     "file": "p065_pokemon_typing_ds_details",
+     "page": 65,
+     "desc": "",
+     "bytes": 818862
+    },
+    {
+     "file": "p069_bw_special_interview_intro",
+     "page": 69,
+     "desc": "",
+     "bytes": 775048
+    },
+    {
+     "file": "p070_bw_interview_elite4_grimsley_shauntal",
+     "page": 70,
+     "desc": "",
+     "bytes": 709857
+    },
+    {
+     "file": "p071_bw_interview_elite4_marshal_caitlin",
+     "page": 71,
+     "desc": "",
+     "bytes": 731763
+    },
+    {
+     "file": "p072_bw_interview_forces_of_nature_mienshao",
+     "page": 72,
+     "desc": "",
+     "bytes": 700761
+    },
+    {
+     "file": "p073_bw_interview_hydreigon_throh_sawk",
+     "page": 73,
+     "desc": "",
+     "bytes": 614977
+    },
+    {
+     "file": "p074_bw_interview_golurk_heatmor_durant",
+     "page": 74,
+     "desc": "",
+     "bytes": 766001
+    },
+    {
+     "file": "p075_bw_interview_braviary_mandibuzz_eelektross",
+     "page": 75,
+     "desc": "",
+     "bytes": 705794
+    },
+    {
+     "file": "p076_bw_interview_amoonguss_ferrothorn_basculin",
+     "page": 76,
+     "desc": "",
+     "bytes": 703661
+    },
+    {
+     "file": "p077_bw_interview_team_plasma_sages_aftermath",
+     "page": 77,
+     "desc": "",
+     "bytes": 776683
+    },
+    {
+     "file": "p078_bw_poll_unova_pokemon_000_054",
+     "page": 78,
+     "desc": "",
+     "bytes": 868033
+    },
+    {
+     "file": "p079_bw_poll_unova_pokemon_055_108",
+     "page": 79,
+     "desc": "",
+     "bytes": 823069
+    },
+    {
+     "file": "p080_bw_poll_unova_pokemon_109_155",
+     "page": 80,
+     "desc": "",
+     "bytes": 879070
+    },
+    {
+     "file": "p081_bw_poll_characters_01_32",
+     "page": 81,
+     "desc": "",
+     "bytes": 807276
+    },
+    {
+     "file": "p082_ohmura_character_making_special_1",
+     "page": 82,
+     "desc": "",
+     "bytes": 607599
+    },
+    {
+     "file": "p083_ohmura_character_making_special_2",
+     "page": 83,
+     "desc": "",
+     "bytes": 684382
+    },
+    {
+     "file": "p084_ohmura_character_making_special_3",
+     "page": 84,
+     "desc": "",
+     "bytes": 694225
+    },
+    {
+     "file": "p085_pokemon_do_united_tower_movie",
+     "page": 85,
+     "desc": "",
+     "bytes": 902905
+    },
+    {
+     "file": "p118_nintendo_paris_report_michael_jackson",
+     "page": 118,
+     "desc": "",
+     "bytes": 920311
+    },
+    {
+     "file": "p999_back_cover_famista_2011",
+     "page": 999,
+     "desc": "",
+     "bytes": 635936
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2011-05-bw-design-secrets-ex",
+     "title_ja": "ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "杉森建",
+      "海野隆雄",
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p069_bw_special_interview_intro",
+      "p070_bw_interview_elite4_grimsley_shauntal",
+      "p071_bw_interview_elite4_marshal_caitlin",
+      "p072_bw_interview_forces_of_nature_mienshao",
+      "p073_bw_interview_hydreigon_throh_sawk",
+      "p074_bw_interview_golurk_heatmor_durant",
+      "p075_bw_interview_braviary_mandibuzz_eelektross",
+      "p076_bw_interview_amoonguss_ferrothorn_basculin",
+      "p077_bw_interview_team_plasma_sages_aftermath",
+      "p078_bw_poll_unova_pokemon_000_054",
+      "p079_bw_poll_unova_pokemon_055_108",
+      "p080_bw_poll_unova_pokemon_109_155",
+      "p081_bw_poll_characters_01_32"
+     ]
+    },
+    {
+     "slug": "ndream-2011-05-ohmura-character-making",
+     "title_ja": "第27回 キャラかみ SPECIAL：大村祐介さん 『ポケットモンスターブラック・ホワイト』人物キャラクターメイキング",
+     "kind": "interview",
+     "people": [
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "大村祐介"
+     ],
+     "files": [
+      "p082_ohmura_character_making_special_1",
+      "p083_ohmura_character_making_special_2",
+      "p084_ohmura_character_making_special_3"
+     ],
+     "plate_only": []
+    },
+    {
+     "slug": "ndream-2011-05-pokemon-typing-ds",
+     "title_ja": "『バトル＆ゲット！ ポケモンタイピングDS』最新情報",
+     "kind": "feature",
+     "people": [],
+     "works": [
+      "宝可梦打字DS"
+     ],
+     "tags": [
+      "衍生作品"
+     ],
+     "files": [
+      "p064_pokemon_typing_ds_intro",
+      "p065_pokemon_typing_ds_details"
+     ],
+     "plate_only": []
+    }
+   ],
+   "master_dir": "archive_300dpi",
+   "scan_note": "原扫描右缘裁去了每行末尾数字（P.73 等页可见），转写只含可见文字，译文按上下文补全语义。"
+  },
+  {
+   "slug": "ndream-2012-09",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2012年9月号（Vol.221）",
+   "date": "2012-07-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2012.9_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 663551
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 778657
+    },
+    {
+     "file": "p012_b2w2_interview_intro",
+     "page": 12,
+     "desc": "",
+     "bytes": 659391
+    },
+    {
+     "file": "p013_b2w2_interview_unno",
+     "page": 13,
+     "desc": "",
+     "bytes": 832518
+    },
+    {
+     "file": "p014_b2w2_interview_masuda",
+     "page": 14,
+     "desc": "",
+     "bytes": 875268
+    },
+    {
+     "file": "p015_b2w2_interview_legendary",
+     "page": 15,
+     "desc": "",
+     "bytes": 821186
+    },
+    {
+     "file": "p016_b2w2_interview_sound",
+     "page": 16,
+     "desc": "",
+     "bytes": 893800
+    },
+    {
+     "file": "p017_b2w2_guide_new_elements",
+     "page": 17,
+     "desc": "",
+     "bytes": 759876
+    },
+    {
+     "file": "p054_palutena_special_intro",
+     "page": 54,
+     "desc": "",
+     "bytes": 610261
+    },
+    {
+     "file": "p055_palutena_questionnaire_1",
+     "page": 55,
+     "desc": "",
+     "bytes": 695827
+    },
+    {
+     "file": "p056_palutena_questionnaire_2",
+     "page": 56,
+     "desc": "",
+     "bytes": 787492
+    },
+    {
+     "file": "p057_palutena_qa_1",
+     "page": 57,
+     "desc": "",
+     "bytes": 754002
+    },
+    {
+     "file": "p058_palutena_qa_2",
+     "page": 58,
+     "desc": "",
+     "bytes": 716881
+    },
+    {
+     "file": "p059_palutena_qa_3",
+     "page": 59,
+     "desc": "",
+     "bytes": 722068
+    },
+    {
+     "file": "p060_palutena_dialogue_sakurai_hirabayashi_1",
+     "page": 60,
+     "desc": "",
+     "bytes": 704231
+    },
+    {
+     "file": "p061_palutena_dialogue_sakurai_hirabayashi_2",
+     "page": 61,
+     "desc": "",
+     "bytes": 739534
+    },
+    {
+     "file": "p062_palutena_dialogue_sakurai_hirabayashi_3",
+     "page": 62,
+     "desc": "",
+     "bytes": 621391
+    },
+    {
+     "file": "p063_palutena_dialogue_sakurai_hirabayashi_4",
+     "page": 63,
+     "desc": "",
+     "bytes": 501027
+    },
+    {
+     "file": "p064_gakkyoku_damashii_palutena_1",
+     "page": 64,
+     "desc": "",
+     "bytes": 753184
+    },
+    {
+     "file": "p065_gakkyoku_damashii_palutena_2",
+     "page": 65,
+     "desc": "",
+     "bytes": 807592
+    },
+    {
+     "file": "p072_pokemon_next_genesect",
+     "page": 72,
+     "desc": "",
+     "bytes": 825864
+    },
+    {
+     "file": "p073_pokemon_next_tetta",
+     "page": 73,
+     "desc": "",
+     "bytes": 846767
+    },
+    {
+     "file": "p126_sales_ranking",
+     "page": 126,
+     "desc": "",
+     "bytes": 837596
+    },
+    {
+     "file": "p999_back_cover",
+     "page": 999,
+     "desc": "",
+     "bytes": 692471
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2012-09-b2w2-developer-interview",
+     "title_ja": "『ポケットモンスターブラック2・ホワイト2』開発スタッフインタビュー 「2」だからできる冒険を！！",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "增田顺一",
+      "海野隆雄"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "宝可梦 黑2·白2",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p012_b2w2_interview_intro",
+      "p013_b2w2_interview_unno",
+      "p014_b2w2_interview_masuda",
+      "p015_b2w2_interview_legendary",
+      "p016_b2w2_interview_sound",
+      "p017_b2w2_guide_new_elements"
+     ],
+     "supplement": [
+      "p017_b2w2_guide_new_elements"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2012-10",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2012年10月号（Vol.222）",
+   "date": "2012-08-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2012.10_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "表紙：ニンドリ 2012年10月号 Vol.222（とびだせ どうぶつの森 / B2W2）",
+     "bytes": 716909
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "目次：CONTENTS P3",
+     "bytes": 748031
+    },
+    {
+     "file": "p022_b2w2_legendary",
+     "page": 22,
+     "desc": "特集：伝説のポケモン入手 ゼクロム・レシラム・キュレム、三聖剣",
+     "bytes": 800481
+    },
+    {
+     "file": "p023_b2w2_legendary",
+     "page": 23,
+     "desc": "特集：伝説のポケモン入手 レジ系・霊獣フォルム・隠れ特性",
+     "bytes": 774933
+    },
+    {
+     "file": "p024_b2w2_pickup",
+     "page": 24,
+     "desc": "新要素攻略＋開発秘話：フェスミッション開発秘話",
+     "bytes": 812095
+    },
+    {
+     "file": "p025_b2w2_pokewood",
+     "page": 25,
+     "desc": "新要素攻略＋開発秘話：ポケウッド映画撮影秘話",
+     "bytes": 847748
+    },
+    {
+     "file": "p026_b2w2_pwt",
+     "page": 26,
+     "desc": "新要素攻略：PWT（ポケモントーナメント）歴代強豪バトル",
+     "bytes": 756183
+    },
+    {
+     "file": "p027_b2w2_join_avenue",
+     "page": 27,
+     "desc": "新要素攻略：ジョインアベニュー発展ガイド",
+     "bytes": 802535
+    },
+    {
+     "file": "p028_sound_interview",
+     "page": 28,
+     "desc": "特集：特濃！！ポケモン音楽インタビュー さらなる進化を目指して…（前編）",
+     "bytes": 837272
+    },
+    {
+     "file": "p029_sound_interview",
+     "page": 29,
+     "desc": "特集：特濃！！ポケモン音楽インタビュー さらなる進化を目指して…（後編 / パルスマン）",
+     "bytes": 849469
+    },
+    {
+     "file": "p030_pokemon_next_genesect",
+     "page": 30,
+     "desc": "連載：ポケモン堂NEXT 幻のポケモン・ゲノセクト その能力とは？",
+     "bytes": 810386
+    },
+    {
+     "file": "p031_pokemon_next_contest",
+     "page": 31,
+     "desc": "連載：ポケモン堂NEXT 全国図鑑Pro・ARサーチャー写真コンテスト",
+     "bytes": 870319
+    },
+    {
+     "file": "p126_sales_ranking",
+     "page": 126,
+     "desc": "連載：ニンドリ売上データランキング研究所（B2W2 累計250万本）",
+     "bytes": 867064
+    },
+    {
+     "file": "p999_back_cover",
+     "page": 999,
+     "desc": "広告：裏表紙 ロストヒーローズ（LOST HEROES）",
+     "bytes": 759585
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2012-10-b2w2-pickup-secrets",
+     "title_ja": "『ポケットモンスターブラック2・ホワイト2』新要素攻略＋開発秘話：フェスミッション・ポケウッド",
+     "kind": "feature",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "宝可梦 黑2·白2",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p022_b2w2_legendary",
+      "p023_b2w2_legendary",
+      "p024_b2w2_pickup",
+      "p025_b2w2_pokewood",
+      "p026_b2w2_pwt",
+      "p027_b2w2_join_avenue"
+     ],
+     "supplement": [
+      "p022_b2w2_legendary",
+      "p023_b2w2_legendary",
+      "p026_b2w2_pwt",
+      "p027_b2w2_join_avenue"
+     ]
+    },
+    {
+     "slug": "ndream-2012-10-pokemon-music-interview",
+     "title_ja": "特濃！！ポケモン音楽インタビュー さらなる進化を目指して…",
+     "kind": "interview",
+     "people": [
+      "一之濑刚",
+      "佐藤仁美"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑2·白2"
+     ],
+     "tags": [
+      "宝可梦 黑2·白2",
+      "音乐",
+      "Game Freak"
+     ],
+     "files": [
+      "p028_sound_interview",
+      "p029_sound_interview"
+     ],
+     "plate_only": []
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2013-12",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2013年12月号（Vol.236）",
+   "date": "2013-10-21",
+   "publisher": "徳間書店",
+   "dir": "DREAM 2013.12_prepared",
+   "pages": [
+    {
+     "file": "p000_ad_x",
+     "page": 0,
+     "desc": "",
+     "bytes": 488422
+    },
+    {
+     "file": "p000_ad_y",
+     "page": 0,
+     "desc": "",
+     "bytes": 528824
+    },
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 762623
+    },
+    {
+     "file": "p002_yamauchi",
+     "page": 2,
+     "desc": "",
+     "bytes": 1040472
+    },
+    {
+     "file": "p012_character",
+     "page": 12,
+     "desc": "",
+     "bytes": 686252
+    },
+    {
+     "file": "p013_character",
+     "page": 13,
+     "desc": "",
+     "bytes": 786865
+    },
+    {
+     "file": "p014_character",
+     "page": 14,
+     "desc": "",
+     "bytes": 597718
+    },
+    {
+     "file": "p015_character",
+     "page": 15,
+     "desc": "",
+     "bytes": 687468
+    },
+    {
+     "file": "p016_character",
+     "page": 16,
+     "desc": "",
+     "bytes": 533815
+    },
+    {
+     "file": "p017_character",
+     "page": 17,
+     "desc": "",
+     "bytes": 726420
+    },
+    {
+     "file": "p112_columns",
+     "page": 112,
+     "desc": "",
+     "bytes": 956780
+    },
+    {
+     "file": "p113_columns",
+     "page": 113,
+     "desc": "",
+     "bytes": 1007801
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2013-12-xy-character-design-interview",
+     "title_ja": "『ポケットモンスター Ｘ・Ｙ』あるきかた① 人々を知る！ ゲームフリークに訊く！ 人物キャラクター開発秘話",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover"
+     ],
+     "people": [
+      "杉森建",
+      "大村祐介",
+      "中津井优"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 X·Y"
+     ],
+     "tags": [
+      "宝可梦 X·Y",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p012_character",
+      "p013_character",
+      "p014_character",
+      "p015_character",
+      "p016_character",
+      "p017_character"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2014-01",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2014年1月号（Vol.237）",
+   "date": "2013-11-21",
+   "publisher": "徳間書店",
+   "dir": "DREAM 2014.1_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 742868
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 734248
+    },
+    {
+     "file": "p006_mega",
+     "page": 6,
+     "desc": "",
+     "bytes": 681236
+    },
+    {
+     "file": "p007_mega",
+     "page": 7,
+     "desc": "",
+     "bytes": 634575
+    },
+    {
+     "file": "p008_mega",
+     "page": 8,
+     "desc": "",
+     "bytes": 654913
+    },
+    {
+     "file": "p009_mega",
+     "page": 9,
+     "desc": "",
+     "bytes": 644809
+    },
+    {
+     "file": "p010_mega",
+     "page": 10,
+     "desc": "",
+     "bytes": 670279
+    },
+    {
+     "file": "p011_walkthrough",
+     "page": 11,
+     "desc": "",
+     "bytes": 718975
+    },
+    {
+     "file": "p012_walkthrough",
+     "page": 12,
+     "desc": "",
+     "bytes": 609682
+    },
+    {
+     "file": "p013_walkthrough",
+     "page": 13,
+     "desc": "",
+     "bytes": 670140
+    },
+    {
+     "file": "p014_walkthrough",
+     "page": 14,
+     "desc": "",
+     "bytes": 596205
+    },
+    {
+     "file": "p015_walkthrough",
+     "page": 15,
+     "desc": "",
+     "bytes": 713423
+    },
+    {
+     "file": "p016_lumiose",
+     "page": 16,
+     "desc": "",
+     "bytes": 709726
+    },
+    {
+     "file": "p017_lumiose",
+     "page": 17,
+     "desc": "",
+     "bytes": 759673
+    },
+    {
+     "file": "p018_lumiose",
+     "page": 18,
+     "desc": "",
+     "bytes": 736738
+    },
+    {
+     "file": "p019_lumiose",
+     "page": 19,
+     "desc": "",
+     "bytes": 745755
+    },
+    {
+     "file": "p020_interview",
+     "page": 20,
+     "desc": "",
+     "bytes": 802580
+    },
+    {
+     "file": "p021_interview",
+     "page": 21,
+     "desc": "",
+     "bytes": 738673
+    },
+    {
+     "file": "p022_interview",
+     "page": 22,
+     "desc": "",
+     "bytes": 853492
+    },
+    {
+     "file": "p023_interview",
+     "page": 23,
+     "desc": "",
+     "bytes": 809032
+    },
+    {
+     "file": "p024_interview",
+     "page": 24,
+     "desc": "",
+     "bytes": 776727
+    },
+    {
+     "file": "p025_interview",
+     "page": 25,
+     "desc": "",
+     "bytes": 840387
+    },
+    {
+     "file": "p026_goods",
+     "page": 26,
+     "desc": "",
+     "bytes": 894846
+    },
+    {
+     "file": "p027_goods",
+     "page": 27,
+     "desc": "",
+     "bytes": 848160
+    },
+    {
+     "file": "p126_ranking",
+     "page": 126,
+     "desc": "",
+     "bytes": 788924
+    },
+    {
+     "file": "p128_back",
+     "page": 128,
+     "desc": "",
+     "bytes": 873611
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2014-01-xy-sound-team-interview",
+     "title_ja": "『ポケットモンスター Ｘ・Ｙ』サウンドチーム インタビュー「楽曲魂」特別編",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "景山将太",
+      "佐藤仁美",
+      "足立美奈子"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 X·Y"
+     ],
+     "tags": [
+      "宝可梦 X·Y",
+      "音乐",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p020_interview",
+      "p021_interview",
+      "p022_interview",
+      "p023_interview",
+      "p024_interview",
+      "p025_interview"
+     ]
+    },
+    {
+     "slug": "ndream-2014-01-mega-evolution-special",
+     "title_ja": "『ポケットモンスター Ｘ・Ｙ』新ポケモン編 メガシンカポケモンを徹底解明！＆ストーリー攻略編",
+     "kind": "feature",
+     "people": [],
+     "works": [
+      "宝可梦 X·Y"
+     ],
+     "tags": [
+      "宝可梦 X·Y",
+      "超级进化"
+     ],
+     "files": [
+      "p006_mega",
+      "p007_mega",
+      "p008_mega",
+      "p009_mega",
+      "p010_mega",
+      "p011_walkthrough",
+      "p012_walkthrough",
+      "p013_walkthrough",
+      "p014_walkthrough",
+      "p015_walkthrough"
+     ],
+     "plate_only": [],
+     "supplement": [
+      "p011_walkthrough",
+      "p012_walkthrough",
+      "p013_walkthrough",
+      "p014_walkthrough",
+      "p015_walkthrough"
+     ]
+    },
+    {
+     "slug": "ndream-2014-01-lumiose-city-guide",
+     "title_ja": "『ポケットモンスター Ｘ・Ｙ』ミアレシティ完全観光ガイド＆登場人物名鑑「カロスコレクション」",
+     "kind": "feature",
+     "people": [],
+     "works": [
+      "宝可梦 X·Y"
+     ],
+     "tags": [
+      "宝可梦 X·Y",
+      "密阿雷市"
+     ],
+     "files": [
+      "p016_lumiose",
+      "p017_lumiose",
+      "p018_lumiose",
+      "p019_lumiose"
+     ],
+     "plate_only": []
+    }
+   ]
+  },
+  {
+   "slug": "ndream-bw-tanjou-hiwa-2011",
+   "publication": "Nintendo DREAM 特別付録",
+   "publication_zh": "Nintendo DREAM 2011年7月号 特别附录",
+   "issue": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）",
+   "date": "2011-05-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "黑白 诞生秘话_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "Cover / 表紙: ポケモン誕生秘話 完全総集版",
+     "bytes": 716188
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "Contents / 目次 & はじめに (編集長 マッスル五十嵐)",
+     "bytes": 734799
+    },
+    {
+     "file": "p004_poll_pokemon_top10_part1",
+     "page": 4,
+     "desc": "ポケモン人気投票 結果発表 第1位～第3位 (シャンデラ, エルフーン, レシラム)",
+     "bytes": 668261
+    },
+    {
+     "file": "p005_poll_pokemon_top10_part2",
+     "page": 5,
+     "desc": "ポケモン人気投票 結果発表 第4位～第10位 (ランクルス, サザンドラ, ジャローダ, ツタージャ, バチュル, ミジュマル, ドレディア)",
+     "bytes": 731360
+    },
+    {
+     "file": "p006_poll_pokemon_11_20",
+     "page": 6,
+     "desc": "ポケモン人気投票 結果発表 第11位～第20位 (ゼクロム, デンチュラ, ヤナップ, ペンドラー, ウルガモス, エモンガ, ゾロアーク, ヒトモシ, ビクティニ, チラーミィ)",
+     "bytes": 728057
+    },
+    {
+     "file": "p007_poll_pokemon_21_50_ranking",
+     "page": 7,
+     "desc": "ポケモン人気投票 結果発表 第21位～第50位＆イッシュ全ポケモン順位一覧",
+     "bytes": 785932
+    },
+    {
+     "file": "p008_poll_character_top3",
+     "page": 8,
+     "desc": "人物キャラ部門 結果発表 第1位～第3位 (1位 N 366票, 2位 ノボリ 348票, 3位 クダリ 298票)",
+     "bytes": 739828
+    },
+    {
+     "file": "p009_poll_character_4_15_ranking",
+     "page": 9,
+     "desc": "人物キャラ部門 結果発表 第4位～第15位＆総合順位・編集部コメント",
+     "bytes": 779908
+    },
+    {
+     "file": "p010_reader_postcards_part1",
+     "page": 10,
+     "desc": "みんなのおハガキ大紹介 Part 1 (マッスル五十嵐感謝感激企画)",
+     "bytes": 800106
+    },
+    {
+     "file": "p011_reader_postcards_part2",
+     "page": 11,
+     "desc": "みんなのおハガキ大紹介 Part 2",
+     "bytes": 877875
+    },
+    {
+     "file": "p012_reader_postcards_part3",
+     "page": 12,
+     "desc": "みんなのおハガキ大紹介 Part 3",
+     "bytes": 887964
+    },
+    {
+     "file": "p013_reader_postcards_part4",
+     "page": 13,
+     "desc": "みんなのおハガキ大紹介 Part 4 & 読者イラスト",
+     "bytes": 826458
+    },
+    {
+     "file": "p014_special_top3_pokemon_chandelure",
+     "page": 14,
+     "desc": "人気投票TOP3おめでとう企画 ポケモン編: 第1位 シャンデラ徹底特集",
+     "bytes": 714985
+    },
+    {
+     "file": "p015_special_top3_pokemon_whimsicott_reshiram",
+     "page": 15,
+     "desc": "人気投票TOP3おめでとう企画 ポケモン編: 第2位 エルフーン & 第3位 レシラム特集",
+     "bytes": 732701
+    },
+    {
+     "file": "p016_special_top3_character_n",
+     "page": 16,
+     "desc": "人気投票TOP3おめでとう企画 人物キャラ編: 第1位 プラズマ団の王 N 名場面集",
+     "bytes": 731771
+    },
+    {
+     "file": "p017_special_top3_character_subway_masters",
+     "page": 17,
+     "desc": "人気投票TOP3おめでとう企画 人物キャラ編: 第2位・第3位 サブウェイマスター ノボリ＆クダリ 名場面集",
+     "bytes": 718429
+    },
+    {
+     "file": "p018_making_pokemon_roundtable_intro",
+     "page": 18,
+     "desc": "ポケモン誕生秘話 総集編 導入・スペシャル会談 (杉森建・海野隆雄・大村祐介)",
+     "bytes": 705150
+    },
+    {
+     "file": "p019_making_pokemon_snivy_tepig",
+     "page": 19,
+     "desc": "ポケモン誕生秘話: ツタージャ・ジャノビー・ジャローダ / ポカブ・チャオブー",
+     "bytes": 834487
+    },
+    {
+     "file": "p020_making_pokemon_emboar_oshawott_samurott",
+     "page": 20,
+     "desc": "ポケモン誕生秘話: エンブオー / ミジュマル・フタチマル・ダイケンキ",
+     "bytes": 663577
+    },
+    {
+     "file": "p021_making_pokemon_patrat_pidove_monkeys",
+     "page": 21,
+     "desc": "ポケモン誕生秘話: ミネズミ・ミルホッグ / マメパト・ハトーボー・ケンホロウ / ヤナップ・バオップ・ヒヤップ・進化形",
+     "bytes": 669959
+    },
+    {
+     "file": "p022_making_pokemon_cinccino_munna_karrablast_shelmet",
+     "page": 22,
+     "desc": "ポケモン誕生秘話: チラーミィ・チラチーノ / ムンナ・ムシャーナ / カブルモ・シュバルゴ / チョボマキ・アギルダー",
+     "bytes": 709076
+    },
+    {
+     "file": "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph",
+     "page": 23,
+     "desc": "ポケモン誕生秘話: モンメン・エルフーン / チュリネ・ドレディア / タブンネ / エモンガ / シンボラー",
+     "bytes": 728996
+    },
+    {
+     "file": "p024_making_pokemon_chandelure_conkeldurr_klinklang",
+     "page": 24,
+     "desc": "ポケモン誕生秘話: ヒトモシ・ランプラー・シャンデラ / ドッコラー・ドテッコツ・ローブシン / ギアル・ギギアル・ギギギアル",
+     "bytes": 691536
+    },
+    {
+     "file": "p025_making_pokemon_garbodor_sawsbuck_beartic",
+     "page": 25,
+     "desc": "ポケモン誕生秘話: ヤブクロン・ダストダス / シキジカ・メブキジカ / クマシュン・ツンベアー",
+     "bytes": 689082
+    },
+    {
+     "file": "p026_making_pokemon_bisharp_eelektross_heatmor_durant",
+     "page": 26,
+     "desc": "ポケモン誕生秘話: コマタナ・キリキザン / シビシラス・シビビール・シビルドン / クイタラン / アイアント",
+     "bytes": 677318
+    },
+    {
+     "file": "p027_making_pokemon_haxorus_darmanitan_jellicent",
+     "page": 27,
+     "desc": "ポケモン誕生秘話: キバゴ・オノンド・オノノクス / ダルマッカ・ヒヒダルマ / プルリル・ブルンゲル",
+     "bytes": 702032
+    },
+    {
+     "file": "p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle",
+     "page": 28,
+     "desc": "ポケモン誕生秘話: オタマロ・ガマガル・ガマゲロゲ / マッギョ / デスマス・デスカーン / イシズマイ・イワパレス",
+     "bytes": 698883
+    },
+    {
+     "file": "p029_making_pokemon_golurk_vanilluxe_basculin",
+     "page": 29,
+     "desc": "ポケモン誕生秘話: ゴビット・ゴルーグ / バニプッチ・バニリッチ・バイバニラ / バスラオ",
+     "bytes": 722868
+    },
+    {
+     "file": "p030_making_pokemon_volcarona_braviary_mandibuzz",
+     "page": 30,
+     "desc": "ポケモン誕生秘話: メラルバ・ウルガモス / ワシボン・ウォーグル / バルチャイ・バルジーナ",
+     "bytes": 711206
+    },
+    {
+     "file": "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty",
+     "page": 31,
+     "desc": "ポケモン誕生秘話: タマゲタケ・モロバレル / テッシード・ナットレイ / ゾロア・ゾロアーク / ズルッグ・ズルズキン",
+     "bytes": 724977
+    },
+    {
+     "file": "p032_making_pokemon_mienshao_hydreigon_victini",
+     "page": 32,
+     "desc": "ポケモン誕生秘話: コジョフー・コジョンド / モノズ・ジヘッド・サザンドラ / ビクティニ",
+     "bytes": 685774
+    },
+    {
+     "file": "p033_making_pokemon_reshiram_zekrom",
+     "page": 33,
+     "desc": "ポケモン誕生秘話: 伝説のポケモン レシラム / ゼクロム",
+     "bytes": 711669
+    },
+    {
+     "file": "p034_making_pokemon_forces_of_nature_throh_sawk",
+     "page": 34,
+     "desc": "ポケモン誕生秘話: コピペロス トルネロス・ボルトロス・ランドロス / ナゲキ・ダゲキ",
+     "bytes": 626991
+    },
+    {
+     "file": "p035_making_pokemon_swords_of_justice_favorites",
+     "page": 35,
+     "desc": "ポケモン誕生秘話: 聖剣士 コバルオン・テラキオン・ビリジオン / イッシュ地方で一番のお気に入りは？",
+     "bytes": 677845
+    },
+    {
+     "file": "p036_making_pokemon_summary_favorite_poll",
+     "page": 36,
+     "desc": "ポケモン誕生秘話: 開発者インタビュー総括＆お気に入りポケモン談義",
+     "bytes": 685990
+    },
+    {
+     "file": "p037_special_single_illustration_gallery",
+     "page": 37,
+     "desc": "特別企画「ポケモンB・W」一枚絵ギャラリー (バトルサブウェイ, ミュージカル, ゲーチス, ブラックシティ/ホワイトフォレスト, ヒウンシティ)",
+     "bytes": 722386
+    },
+    {
+     "file": "p038_making_characters_protagonists_fennel",
+     "page": 38,
+     "desc": "29キャラの裏話が満載!! 登場人物編: 主人公 (男の子・女の子) / マコモ",
+     "bytes": 671177
+    },
+    {
+     "file": "p039_making_characters_juniper_cheren_bianca",
+     "page": 39,
+     "desc": "登場人物編: アララギ博士・アララギパパ / チェレン / ベル",
+     "bytes": 708985
+    },
+    {
+     "file": "p040_making_characters_n_ghetsis_grunts",
+     "page": 40,
+     "desc": "登場人物編: N (エヌ) / ゲーチス / プラズマ団したっぱ (男女)",
+     "bytes": 623369
+    },
+    {
+     "file": "p041_making_characters_gym_leaders_cilan_burgh_lenora",
+     "page": 41,
+     "desc": "登場人物編 ジムリーダー: ポッド＆デント＆コーン / アーティ / アロエ",
+     "bytes": 680285
+    },
+    {
+     "file": "p042_making_characters_gym_leaders_clay_skyla_elesa",
+     "page": 42,
+     "desc": "登場人物編 ジムリーダー: ヤーコン / フウロ / カミツレ",
+     "bytes": 658454
+    },
+    {
+     "file": "p043_making_characters_gym_leaders_brycen_iris_drayden",
+     "page": 43,
+     "desc": "登場人物編 ジムリーダー: ハチク / アイリス / シャガ",
+     "bytes": 728656
+    },
+    {
+     "file": "p044_making_characters_elite_four_grimsley_shauntal",
+     "page": 44,
+     "desc": "登場人物編 四天王: ギーマ / シキミ",
+     "bytes": 659031
+    },
+    {
+     "file": "p045_making_characters_elite_four_marshal_caitlin",
+     "page": 45,
+     "desc": "登場人物編 四天王: レンブ / カトレア (※コクラン解説)",
+     "bytes": 755055
+    },
+    {
+     "file": "p046_making_characters_subway_masters_alder",
+     "page": 46,
+     "desc": "登場人物編: サブウェイマスター クダリ・ノボリ / ポケモンリーグチャンピオン アデク",
+     "bytes": 737021
+    },
+    {
+     "file": "p047_pokemon_do_special_movie_distributions",
+     "page": 47,
+     "desc": "特別企画「ポケモン堂」出張版: 劇場版プレゼントポケモン (ゼクロム・レシラム)＆前売券ビクティニ",
+     "bytes": 697090
+    },
+    {
+     "file": "p048_pokemon_do_special_pgl_pokemon_cafe",
+     "page": 48,
+     "desc": "特別企画「ポケモン堂」出張版: PGL「ポケモンカフェ」＆ポケモンセンターコラボグッズ",
+     "bytes": 757274
+    },
+    {
+     "file": "p049_pokemon_do_special_tcg_victini_decks",
+     "page": 49,
+     "desc": "特別企画「ポケモン堂」出張版: ポケモンカードゲームBW バトルテーマデッキ「ビクティニ」＆拡張パック「レッドコレクション」",
+     "bytes": 801904
+    },
+    {
+     "file": "p050_pokemon_do_special_tcg_tournament_colophon",
+     "page": 50,
+     "desc": "特別企画「ポケモン堂」出張版: マッスル五十嵐レポート はじめて大会へGO!! / バトリオV / 奥付 (ニンドリ2011年7月号 附録)",
+     "bytes": 772042
+    },
+    {
+     "file": "p999_back_cover",
+     "page": 999,
+     "desc": "Back Cover / 表4: ポケモン誕生秘話 完全総集版 (ニンテンドードリーム2011年7月号 別冊付録)",
+     "bytes": 723027
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-bw-tanjou-hiwa-2011-pokemon",
+     "title_ja": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "杉森建",
+      "海野隆雄",
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p018_making_pokemon_roundtable_intro",
+      "p019_making_pokemon_snivy_tepig",
+      "p020_making_pokemon_emboar_oshawott_samurott",
+      "p021_making_pokemon_patrat_pidove_monkeys",
+      "p022_making_pokemon_cinccino_munna_karrablast_shelmet",
+      "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph",
+      "p024_making_pokemon_chandelure_conkeldurr_klinklang",
+      "p025_making_pokemon_garbodor_sawsbuck_beartic",
+      "p026_making_pokemon_bisharp_eelektross_heatmor_durant",
+      "p027_making_pokemon_haxorus_darmanitan_jellicent",
+      "p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle",
+      "p029_making_pokemon_golurk_vanilluxe_basculin",
+      "p030_making_pokemon_volcarona_braviary_mandibuzz",
+      "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty",
+      "p032_making_pokemon_mienshao_hydreigon_victini",
+      "p033_making_pokemon_reshiram_zekrom",
+      "p034_making_pokemon_forces_of_nature_throh_sawk",
+      "p035_making_pokemon_swords_of_justice_favorites",
+      "p036_making_pokemon_summary_favorite_poll",
+      "p037_special_single_illustration_gallery"
+     ]
+    },
+    {
+     "slug": "ndream-bw-tanjou-hiwa-2011-characters",
+     "title_ja": "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!",
+     "kind": "interview",
+     "people": [
+      "杉森建",
+      "海野隆雄",
+      "大村祐介"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "角色设计",
+      "Game Freak"
+     ],
+     "files": [
+      "p038_making_characters_protagonists_fennel",
+      "p039_making_characters_juniper_cheren_bianca",
+      "p040_making_characters_n_ghetsis_grunts",
+      "p041_making_characters_gym_leaders_cilan_burgh_lenora",
+      "p042_making_characters_gym_leaders_clay_skyla_elesa",
+      "p043_making_characters_gym_leaders_brycen_iris_drayden",
+      "p044_making_characters_elite_four_grimsley_shauntal",
+      "p045_making_characters_elite_four_marshal_caitlin",
+      "p046_making_characters_subway_masters_alder"
+     ],
+     "plate_only": []
+    },
+    {
+     "slug": "ndream-bw-tanjou-hiwa-2011-popularity-poll",
+     "title_ja": "『ポケモン誕生秘話 完全総集版』ポケモン人気投票・人物キャラ部門 結果発表＆TOP3おめでとう企画",
+     "kind": "feature",
+     "files": [
+      "p004_poll_pokemon_top10_part1",
+      "p005_poll_pokemon_top10_part2",
+      "p006_poll_pokemon_11_20",
+      "p007_poll_pokemon_21_50_ranking",
+      "p008_poll_character_top3",
+      "p009_poll_character_4_15_ranking",
+      "p014_special_top3_pokemon_chandelure",
+      "p015_special_top3_pokemon_whimsicott_reshiram",
+      "p016_special_top3_character_n",
+      "p017_special_top3_character_subway_masters"
+     ],
+     "people": [],
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "人气投票"
+     ],
+     "plate_only": []
+    }
+   ]
+  },
+  {
+   "slug": "davinci-2011-01",
+   "publication": "ダ・ヴィンチ",
+   "publication_zh": "ダ・ヴィンチ（Da Vinci）",
+   "issue": "2011年1月号（通巻201号）",
+   "date": "2010-12-06",
+   "publisher": "メディアファクトリー",
+   "dir": "ダ　ウチい_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "Cover / 表紙: 『ダ・ヴィンチ』2011年1月号 (表紙・向井理 / 2010年 BOOK OF THE YEAR)",
+     "bytes": 350562
+    },
+    {
+     "file": "p002_ad_young_kun",
+     "page": 2,
+     "desc": "広告: マガジンハウス ムトウマサヤ『ヤングくん 1』人気4コマベスト10",
+     "bytes": 520534
+    },
+    {
+     "file": "p007_contents",
+     "page": 7,
+     "desc": "Contents / 目次: 『ダ・ヴィンチ』2011年1月号 目次 (P.7)",
+     "bytes": 556949
+    },
+    {
+     "file": "p058_kojima_hanazawa_part1",
+     "page": 58,
+     "desc": "特別対談 扉: 小島秀夫 (『MGS PW』) × 花沢健吾 (『アイアムアヒーロー』) 「ぼくたちを作品づくりに突き動かすもの」 (P.58)",
+     "bytes": 505857
+    },
+    {
+     "file": "p059_kojima_hanazawa_part2",
+     "page": 59,
+     "desc": "特別対談 1: ゾンビと非モテ系、破壊衝動と日常のリアリティ、MGS PWの冷戦 (P.59)",
+     "bytes": 686912
+    },
+    {
+     "file": "p060_kojima_hanazawa_part3",
+     "page": 60,
+     "desc": "特別対談 2: ウイルスの如く広がる匿名ネット情報、現実で味わえない生き方 (P.60)",
+     "bytes": 600623
+    },
+    {
+     "file": "p061_kojima_hanazawa_part4",
+     "page": 61,
+     "desc": "特別対談 3: 結語・ひきこもりが生き残る終末世界 ＆ 『キャッスルヴァニア ロード オブ シャドウ』 (P.61)",
+     "bytes": 654837
+    },
+    {
+     "file": "p132_pokemon_bw_special",
+     "page": 132,
+     "desc": "特集: 『ポケットモンスターブラック・ホワイト』 「大人だって『ポケモン』が好き！」 (P.132)",
+     "bytes": 663259
+    },
+    {
+     "file": "p133_masuda_junichi_interview",
+     "page": 133,
+     "desc": "インタビュー: 株式会社ゲームフリーク 増田順一氏 スペシャルインタビュー ＆ クリエイター必携ブックガイド ＆ BW音楽の世界 (P.133)",
+     "bytes": 636097
+    },
+    {
+     "file": "p148_back_cover",
+     "page": 148,
+     "desc": "Back Cover / 表4 裏表紙: 20世紀フォックス 『サウンド・オブ・ミュージック』BD ＆ メディアファクトリー発行クレジット",
+     "bytes": 688183
+    }
+   ],
+   "features": [
+    {
+     "slug": "davinci-2011-01-masuda-interview",
+     "title_ja": "『ダ・ヴィンチ』特集「大人だって『ポケモン』が好き！」＆ 増田順一氏 スペシャルインタビュー",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p007_contents"
+     ],
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "宝可梦 黑·白",
+      "增田顺一"
+     ],
+     "files": [
+      "p001_cover",
+      "p007_contents",
+      "p132_pokemon_bw_special",
+      "p133_masuda_junichi_interview"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "dengeki-games-vol14",
+   "publication": "電撃GAMES",
+   "publication_zh": "電撃GAMES",
+   "issue": "Vol.14（通巻174号，2010年10月15日発行，電撃Nintendo DS 12月号増刊）",
+   "date": "2010-10-15",
+   "publisher": "アスキー・メディアワークス",
+   "dir": "电击 GAMES VOL.14_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "表1（雑誌表紙）RED DEAD REDEMPTION 特集1 / ポケモンBW開発者インタビュー PUSH",
+     "bytes": 601767
+    },
+    {
+     "file": "p252_interview_intro",
+     "page": 252,
+     "desc": "P.252 DENGEKI GAMES PUSH 特集扉絵・スタッフ集合写真（増田・杉森・大森・太田・水口）",
+     "bytes": 870231
+    },
+    {
+     "file": "p253_wild_pokemon_streetpass",
+     "page": 253,
+     "desc": "P.253 カノコ～ライモン野生ポケモン31匹データ & それゆけ！すれちがい実地調査隊（新宿・秋葉原・ポケセン）",
+     "bytes": 879257
+    },
+    {
+     "file": "p254_battle_subway_rules",
+     "page": 254,
+     "desc": "P.254 新バトルルール（トリプル・ローテーション）・ミラクルシューター・バトルサブウェイ・レシラム/ゼクロム誕生秘話",
+     "bytes": 897798
+    },
+    {
+     "file": "p255_making_pokemon_pdw",
+     "page": 255,
+     "desc": "P.255 ポケモンという生き物を再びイチから生み出す / 御三家デザイン秘話 / ポケモンドリームワールド（PDW）",
+     "bytes": 805315
+    },
+    {
+     "file": "p256_high_link_pass_powers",
+     "page": 256,
+     "desc": "P.256 すれちがい通信・ハイリンク・デルパワー・DSの外で生まれる新たなコミュニケーション",
+     "bytes": 926701
+    },
+    {
+     "file": "p257_c_gear_infra_interview",
+     "page": 257,
+     "desc": "P.257 C-Gear（赤外線・ワイヤレス・Wi-Fi）・ストーリーと地方名（イッシュ）の意味・大人のユーザーへの意識",
+     "bytes": 917223
+    }
+   ],
+   "features": [
+    {
+     "slug": "dengeki-games-vol14-bw-gamefreak-interview",
+     "title_ja": "GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと",
+     "kind": "interview",
+     "files": [
+      "p001_cover",
+      "p252_interview_intro",
+      "p253_wild_pokemon_streetpass",
+      "p254_battle_subway_rules",
+      "p255_making_pokemon_pdw",
+      "p256_high_link_pass_powers",
+      "p257_c_gear_infra_interview"
+     ],
+     "people": [
+      "增田顺一",
+      "杉森建",
+      "大森滋",
+      "太田哲司",
+      "水口舞"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "interviewer": "電撃GAMES 編集部",
+     "works": [
+      "宝可梦 黑·白"
+     ],
+     "tags": [
+      "電撃GAMES",
+      "宝可梦 黑·白",
+      "Game Freak"
+     ],
+     "plate_only": [
+      "p001_cover"
+     ],
+     "supplement": [
+      "p253_wild_pokemon_streetpass"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "uwashin-2000-05",
+   "publication": "噂の真相",
+   "publication_zh": "噂の真相（谣言的真相）",
+   "issue": "2000年5月号（第22巻第5号）",
+   "date": "2000-04-10",
+   "publisher": "噂の真相",
+   "dir": "谎言的真相 2000.5_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 322525
+    },
+    {
+     "file": "p006_toc",
+     "page": 6,
+     "desc": "",
+     "bytes": 577986
+    },
+    {
+     "file": "p007_toc",
+     "page": 7,
+     "desc": "",
+     "bytes": 496000
+    },
+    {
+     "file": "p082",
+     "page": 82,
+     "desc": "",
+     "bytes": 546861
+    },
+    {
+     "file": "p083",
+     "page": 83,
+     "desc": "",
+     "bytes": 511513
+    },
+    {
+     "file": "p084",
+     "page": 84,
+     "desc": "",
+     "bytes": 526479
+    },
+    {
+     "file": "p085",
+     "page": 85,
+     "desc": "",
+     "bytes": 530262
+    }
+   ],
+   "features": [
+    {
+     "slug": "uwashin-2000-05-tajiri",
+     "title_ja": "世界的ヒットとなった『ポケモン』に隠蔽された〝生みの親〟の悲劇的人生（レポーター 常田裕）",
+     "kind": "feature",
+     "plate_only": [
+      "p001_cover",
+      "p006_toc",
+      "p007_toc"
+     ],
+     "people": [
+      "田尻智"
+     ],
+     "works": [
+      "宝可梦 红·绿"
+     ],
+     "tags": [
+      "田尻智",
+      "Game Freak",
+      "报刊"
+     ],
+     "files": [
+      "p001_cover",
+      "p006_toc",
+      "p007_toc",
+      "p082",
+      "p083",
+      "p084",
+      "p085"
+     ],
+     "interviewer": "常田裕（レポーター）",
+     "skip": "八卦周刊报道：正文是关于田尻智私生活的未经证实传闻（药物、婚外情、离婚、精神状态），涉及在世个人隐私与名誉；转写已存 data/cache_scan/uwashin-2000-05，是否成帖由站主决定"
+    }
+   ]
+  },
+  {
+   "slug": "uwashin-2001-04",
+   "publication": "噂の真相",
+   "publication_zh": "噂の真相（谣言的真相）",
+   "issue": "2001年4月号（第23巻第4号）",
+   "date": "2001-03-10",
+   "publisher": "噂の真相",
+   "dir": "谎言的真相 2001.4_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 325390
+    },
+    {
+     "file": "p078",
+     "page": 78,
+     "desc": "",
+     "bytes": 634581
+    },
+    {
+     "file": "p079",
+     "page": 79,
+     "desc": "",
+     "bytes": 554567
+    },
+    {
+     "file": "p080",
+     "page": 80,
+     "desc": "",
+     "bytes": 548598
+    },
+    {
+     "file": "p081",
+     "page": 81,
+     "desc": "",
+     "bytes": 565993
+    }
+   ],
+   "features": [
+    {
+     "slug": "uwashin-2001-04-shogakukan",
+     "title_ja": "小学館のドル箱『ポケモン』仕掛人に銀座ホステスとの泥沼の不倫劇（レポーター 石川一成）",
+     "kind": "feature",
+     "plate_only": [
+      "p001_cover"
+     ],
+     "people": [],
+     "works": [
+      "宝可梦 动画系列"
+     ],
+     "tags": [
+      "小学馆",
+      "报刊"
+     ],
+     "files": [
+      "p001_cover",
+      "p078",
+      "p079",
+      "p080",
+      "p081"
+     ],
+     "skip": "八卦周刊报道：指名道姓的小学馆制作人婚外情传闻，与开发史无关且涉及个人名誉；转写已存 data/cache_scan/uwashin-2001-04，默认不成帖"
+    }
+   ]
+  },
+  {
+   "slug": "gs-guidebook-1999",
+   "publication": "任天堂公式ガイドブック ポケットモンスター 金・銀",
+   "publication_zh": "小学馆 任天堂公式ガイドブック《宝可梦 金·银》",
+   "issue": "巻末特集（P.192–P.203）",
+   "date": "1999-12-01",
+   "publisher": "小学館",
+   "dir": "金银攻略_prepared",
+   "pages": [
+    {
+     "file": "p192_tools_mystery_gift",
+     "page": 192,
+     "desc": "",
+     "bytes": 568581
+    },
+    {
+     "file": "p193_interview_koko_ga_shiritai_intro",
+     "page": 193,
+     "desc": "",
+     "bytes": 685827
+    },
+    {
+     "file": "p194_interview_development_time_pkrs",
+     "page": 194,
+     "desc": "",
+     "bytes": 666704
+    },
+    {
+     "file": "p195_interview_new_pokemon_creation",
+     "page": 195,
+     "desc": "",
+     "bytes": 622051
+    },
+    {
+     "file": "p196_interview_251st_pokemon_celebi",
+     "page": 196,
+     "desc": "",
+     "bytes": 613530
+    },
+    {
+     "file": "p197_interview_shiny_unown_26_letters",
+     "page": 197,
+     "desc": "",
+     "bytes": 587915
+    },
+    {
+     "file": "p198_staff_zukan_part1",
+     "page": 198,
+     "desc": "",
+     "bytes": 743543
+    },
+    {
+     "file": "p199_staff_zukan_part2",
+     "page": 199,
+     "desc": "",
+     "bytes": 717755
+    },
+    {
+     "file": "p200_oak_interview_utsugi_lecture_part1",
+     "page": 200,
+     "desc": "",
+     "bytes": 641214
+    },
+    {
+     "file": "p201_utsugi_lecture_part2",
+     "page": 201,
+     "desc": "",
+     "bytes": 712550
+    },
+    {
+     "file": "p202_utsugi_lecture_part3",
+     "page": 202,
+     "desc": "",
+     "bytes": 694611
+    },
+    {
+     "file": "p203_utsugi_lecture_part4_letter",
+     "page": 203,
+     "desc": "",
+     "bytes": 691800
+    }
+   ],
+   "features": [
+    {
+     "slug": "gs-guidebook-1999-developer-interview",
+     "title_ja": "ポケットモンスター 金・銀 開発スタッフ直撃インタビュー ポケモン金・銀のココが知りたい！",
+     "kind": "interview",
+     "people": [
+      "森本茂树",
+      "杉森建",
+      "增田顺一",
+      "西野弘二"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二"
+     },
+     "works": [
+      "宝可梦 金·银"
+     ],
+     "tags": [
+      "宝可梦 金·银",
+      "攻略本",
+      "Game Freak"
+     ],
+     "files": [
+      "p193_interview_koko_ga_shiritai_intro",
+      "p194_interview_development_time_pkrs",
+      "p195_interview_new_pokemon_creation",
+      "p196_interview_251st_pokemon_celebi",
+      "p197_interview_shiny_unown_26_letters"
+     ],
+     "plate_only": []
+    },
+    {
+     "slug": "gs-guidebook-1999-staff-zukan-journal",
+     "title_ja": "ポケットモンスター 金・銀 公式ガイドブック 巻末特集：かいはつスタッフずかん＆ポケモンジャーナル臨時増刊",
+     "kind": "feature",
+     "people": [],
+     "works": [
+      "宝可梦 金·银"
+     ],
+     "tags": [
+      "宝可梦 金·银",
+      "攻略本",
+      "Game Freak"
+     ],
+     "files": [
+      "p192_tools_mystery_gift",
+      "p198_staff_zukan_part1",
+      "p199_staff_zukan_part2",
+      "p200_oak_interview_utsugi_lecture_part1",
+      "p201_utsugi_lecture_part2",
+      "p202_utsugi_lecture_part3",
+      "p203_utsugi_lecture_part4_letter"
+     ],
+     "plate_only": [],
+     "supplement": [
+      "p192_tools_mystery_gift"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "shodai-zukan-1996",
+   "publication": "ポケットモンスター図鑑",
+   "publication_zh": "小学馆《ポケットモンスター図鑑》（1996 年初代官方图鉴）",
+   "issue": "1996年4月5日初版 / 1997年2月7日第六刷",
+   "date": "1996-04-05",
+   "publisher": "小学館",
+   "dir": "初代攻略本_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": null,
+     "desc": "Cover / 表紙: ポケットモンスター図鑑 (Aspect / Creatures)",
+     "bytes": 668373
+    },
+    {
+     "file": "p002_inside_cover",
+     "page": null,
+     "desc": "Inside Front Cover / 表2 見返し (赤緑ポケモングリッドスプライト)",
+     "bytes": 602806
+    },
+    {
+     "file": "p003_title",
+     "page": null,
+     "desc": "Title Page / 本扉: ポケットモンスター図鑑",
+     "bytes": 1029690
+    },
+    {
+     "file": "p004_p002_olympic_track",
+     "page": 2,
+     "desc": "ポケモンオリンピック: 陸上・走る力・時速1000kmの衝撃 ドードリオ vs 新幹線",
+     "bytes": 591397
+    },
+    {
+     "file": "p005_p003_olympic_power",
+     "page": 3,
+     "desc": "ポケモンオリンピック: 怪力・パワー自慢・ビルを投げ飛ばすカイリキー",
+     "bytes": 598887
+    },
+    {
+     "file": "p006_p004_olympic_sea",
+     "page": 4,
+     "desc": "ポケモンオリンピック: 水泳・水中スピード対決・潜水艦より速いゴルダック",
+     "bytes": 526974
+    },
+    {
+     "file": "p007_p005_olympic_sky",
+     "page": 5,
+     "desc": "ポケモンオリンピック: 飛行・大空の王者・マッハ2で飛ぶピジョット",
+     "bytes": 606614
+    },
+    {
+     "file": "p008_p006_contents",
+     "page": 6,
+     "desc": "目次 CONTENTS & 本書の使い方",
+     "bytes": 307714
+    },
+    {
+     "file": "p009_p007_ch1_intro_town",
+     "page": 7,
+     "desc": "第1章 ポケモン大百科 扉: まちのまわり",
+     "bytes": 1155505
+    },
+    {
+     "file": "p010_p008_zukan",
+     "page": 8,
+     "desc": "第1章 ポケモン大百科 (P.8)",
+     "bytes": 690120
+    },
+    {
+     "file": "p011_p009_zukan",
+     "page": 9,
+     "desc": "第1章 ポケモン大百科 (P.9)",
+     "bytes": 578020
+    },
+    {
+     "file": "p012_p010_zukan",
+     "page": 10,
+     "desc": "第1章 ポケモン大百科 (P.10)",
+     "bytes": 686299
+    },
+    {
+     "file": "p013_p011_zukan",
+     "page": 11,
+     "desc": "第1章 ポケモン大百科 (P.11)",
+     "bytes": 725305
+    },
+    {
+     "file": "p014_p012_zukan",
+     "page": 12,
+     "desc": "第1章 ポケモン大百科 (P.12)",
+     "bytes": 708328
+    },
+    {
+     "file": "p015_p013_zukan",
+     "page": 13,
+     "desc": "第1章 ポケモン大百科 (P.13)",
+     "bytes": 631900
+    },
+    {
+     "file": "p016_p014_zukan",
+     "page": 14,
+     "desc": "第1章 ポケモン大百科 (P.14)",
+     "bytes": 613254
+    },
+    {
+     "file": "p017_p015_zukan",
+     "page": 15,
+     "desc": "第1章 ポケモン大百科 (P.15)",
+     "bytes": 601663
+    },
+    {
+     "file": "p018_p016_zukan",
+     "page": 16,
+     "desc": "第1章 ポケモン大百科 (P.16)",
+     "bytes": 526971
+    },
+    {
+     "file": "p019_p017_zukan",
+     "page": 17,
+     "desc": "第1章 ポケモン大百科 (P.17)",
+     "bytes": 620775
+    },
+    {
+     "file": "p020_p018_zukan",
+     "page": 18,
+     "desc": "第1章 ポケモン大百科 (P.18)",
+     "bytes": 596329
+    },
+    {
+     "file": "p021_p019_zukan",
+     "page": 19,
+     "desc": "第1章 ポケモン大百科 (P.19)",
+     "bytes": 550135
+    },
+    {
+     "file": "p022_p020_zukan",
+     "page": 20,
+     "desc": "第1章 ポケモン大百科 (P.20)",
+     "bytes": 678399
+    },
+    {
+     "file": "p023_p021_zukan",
+     "page": 21,
+     "desc": "第1章 ポケモン大百科 (P.21)",
+     "bytes": 643920
+    },
+    {
+     "file": "p024_p022_zukan",
+     "page": 22,
+     "desc": "第1章 ポケモン大百科 (P.22)",
+     "bytes": 680723
+    },
+    {
+     "file": "p025_p023_zukan",
+     "page": 23,
+     "desc": "第1章 ポケモン大百科 (P.23)",
+     "bytes": 591847
+    },
+    {
+     "file": "p026_p024_zukan",
+     "page": 24,
+     "desc": "第1章 ポケモン大百科 (P.24)",
+     "bytes": 677583
+    },
+    {
+     "file": "p027_p025_zukan",
+     "page": 25,
+     "desc": "第1章 ポケモン大百科 (P.25)",
+     "bytes": 751169
+    },
+    {
+     "file": "p028_p026_zukan",
+     "page": 26,
+     "desc": "第1章 ポケモン大百科 (P.26)",
+     "bytes": 627920
+    },
+    {
+     "file": "p029_p027_zukan",
+     "page": 27,
+     "desc": "第1章 ポケモン大百科 (P.27)",
+     "bytes": 604434
+    },
+    {
+     "file": "p030_p028_zukan",
+     "page": 28,
+     "desc": "第1章 ポケモン大百科 (P.28)",
+     "bytes": 535624
+    },
+    {
+     "file": "p031_p029_zukan",
+     "page": 29,
+     "desc": "第1章 ポケモン大百科 (P.29)",
+     "bytes": 575961
+    },
+    {
+     "file": "p032_p030_zukan",
+     "page": 30,
+     "desc": "第1章 ポケモン大百科 (P.30)",
+     "bytes": 669255
+    },
+    {
+     "file": "p033_p031_zukan",
+     "page": 31,
+     "desc": "第1章 ポケモン大百科 (P.31)",
+     "bytes": 701266
+    },
+    {
+     "file": "p034_p032_zukan",
+     "page": 32,
+     "desc": "第1章 ポケモン大百科 (P.32)",
+     "bytes": 579061
+    },
+    {
+     "file": "p035_p033_zukan",
+     "page": 33,
+     "desc": "第1章 ポケモン大百科 (P.33)",
+     "bytes": 635653
+    },
+    {
+     "file": "p036_p034_zukan",
+     "page": 34,
+     "desc": "第1章 ポケモン大百科 (P.34)",
+     "bytes": 666229
+    },
+    {
+     "file": "p037_p035_zukan",
+     "page": 35,
+     "desc": "第1章 ポケモン大百科 (P.35)",
+     "bytes": 618343
+    },
+    {
+     "file": "p038_p036_zukan",
+     "page": 36,
+     "desc": "第1章 ポケモン大百科 (P.36)",
+     "bytes": 601219
+    },
+    {
+     "file": "p039_p037_zukan",
+     "page": 37,
+     "desc": "第1章 ポケモン大百科 (P.37)",
+     "bytes": 617038
+    },
+    {
+     "file": "p040_p038_zukan",
+     "page": 38,
+     "desc": "第1章 ポケモン大百科 (P.38)",
+     "bytes": 594738
+    },
+    {
+     "file": "p041_p039_zukan",
+     "page": 39,
+     "desc": "第1章 ポケモン大百科 (P.39)",
+     "bytes": 541810
+    },
+    {
+     "file": "p042_p040_zukan",
+     "page": 40,
+     "desc": "第1章 ポケモン大百科 (P.40)",
+     "bytes": 705220
+    },
+    {
+     "file": "p043_p041_zukan",
+     "page": 41,
+     "desc": "第1章 ポケモン大百科 (P.41)",
+     "bytes": 649672
+    },
+    {
+     "file": "p044_p042_zukan",
+     "page": 42,
+     "desc": "第1章 ポケモン大百科 (P.42)",
+     "bytes": 701442
+    },
+    {
+     "file": "p045_p043_zukan",
+     "page": 43,
+     "desc": "第1章 ポケモン大百科 (P.43)",
+     "bytes": 683693
+    },
+    {
+     "file": "p046_p044_zukan",
+     "page": 44,
+     "desc": "第1章 ポケモン大百科 (P.44)",
+     "bytes": 627480
+    },
+    {
+     "file": "p047_p045_zukan",
+     "page": 45,
+     "desc": "第1章 ポケモン大百科 (P.45)",
+     "bytes": 590463
+    },
+    {
+     "file": "p048_p046_zukan",
+     "page": 46,
+     "desc": "第1章 ポケモン大百科 (P.46)",
+     "bytes": 660478
+    },
+    {
+     "file": "p049_p047_zukan",
+     "page": 47,
+     "desc": "第1章 ポケモン大百科 (P.47)",
+     "bytes": 599072
+    },
+    {
+     "file": "p050_p048_zukan",
+     "page": 48,
+     "desc": "第1章 ポケモン大百科 (P.48)",
+     "bytes": 592418
+    },
+    {
+     "file": "p051_p049_zukan_habitat_chart1",
+     "page": 49,
+     "desc": "第1章 ポケモン大百科: 生息地別分布図 1",
+     "bytes": 772054
+    },
+    {
+     "file": "p052_p050_zukan_habitat_chart2",
+     "page": 50,
+     "desc": "第1章 ポケモン大百科: 生息地別分布図 2",
+     "bytes": 597177
+    },
+    {
+     "file": "p053_p051_zukan_habitat_chart3",
+     "page": 51,
+     "desc": "第1章 ポケモン大百科: 生息地別分布図 3",
+     "bytes": 766535
+    },
+    {
+     "file": "p054_p052_zukan_mew_special",
+     "page": 52,
+     "desc": "第1章 ポケモン大百科: No.151 幻のポケモン ミュウ 特別レポート",
+     "bytes": 574826
+    },
+    {
+     "file": "p055_p053_ch2_field_intro",
+     "page": 53,
+     "desc": "第2章 フィールド＆ダンジョン 扉: カントー地方全図",
+     "bytes": 1233447
+    },
+    {
+     "file": "p056_p054_field",
+     "page": 54,
+     "desc": "第2章 フィールド＆ダンジョン (P.54)",
+     "bytes": 822775
+    },
+    {
+     "file": "p057_p055_field",
+     "page": 55,
+     "desc": "第2章 フィールド＆ダンジョン (P.55)",
+     "bytes": 742254
+    },
+    {
+     "file": "p058_p056_field",
+     "page": 56,
+     "desc": "第2章 フィールド＆ダンジョン (P.56)",
+     "bytes": 616043
+    },
+    {
+     "file": "p059_p057_field",
+     "page": 57,
+     "desc": "第2章 フィールド＆ダンジョン (P.57)",
+     "bytes": 623295
+    },
+    {
+     "file": "p060_p058_field",
+     "page": 58,
+     "desc": "第2章 フィールド＆ダンジョン (P.58)",
+     "bytes": 577367
+    },
+    {
+     "file": "p061_p059_field",
+     "page": 59,
+     "desc": "第2章 フィールド＆ダンジョン (P.59)",
+     "bytes": 574591
+    },
+    {
+     "file": "p062_p060_field",
+     "page": 60,
+     "desc": "第2章 フィールド＆ダンジョン (P.60)",
+     "bytes": 554095
+    },
+    {
+     "file": "p063_p061_field",
+     "page": 61,
+     "desc": "第2章 フィールド＆ダンジョン (P.61)",
+     "bytes": 558975
+    },
+    {
+     "file": "p064_p062_field",
+     "page": 62,
+     "desc": "第2章 フィールド＆ダンジョン (P.62)",
+     "bytes": 504290
+    },
+    {
+     "file": "p065_p063_field",
+     "page": 63,
+     "desc": "第2章 フィールド＆ダンジョン (P.63)",
+     "bytes": 514949
+    },
+    {
+     "file": "p066_p064_field",
+     "page": 64,
+     "desc": "第2章 フィールド＆ダンジョン (P.64)",
+     "bytes": 464938
+    },
+    {
+     "file": "p067_p065_field",
+     "page": 65,
+     "desc": "第2章 フィールド＆ダンジョン (P.65)",
+     "bytes": 600720
+    },
+    {
+     "file": "p068_p066_field",
+     "page": 66,
+     "desc": "第2章 フィールド＆ダンジョン (P.66)",
+     "bytes": 612525
+    },
+    {
+     "file": "p069_p067_field",
+     "page": 67,
+     "desc": "第2章 フィールド＆ダンジョン (P.67)",
+     "bytes": 614012
+    },
+    {
+     "file": "p070_p068_field",
+     "page": 68,
+     "desc": "第2章 フィールド＆ダンジョン (P.68)",
+     "bytes": 482975
+    },
+    {
+     "file": "p071_p069_field",
+     "page": 69,
+     "desc": "第2章 フィールド＆ダンジョン (P.69)",
+     "bytes": 559155
+    },
+    {
+     "file": "p072_p070_field",
+     "page": 70,
+     "desc": "第2章 フィールド＆ダンジョン: イワヤマ 9番道路 10番道路 (P.70, スキャナ平床トリミング済)",
+     "bytes": 598004
+    },
+    {
+     "file": "p073_p071_field",
+     "page": 71,
+     "desc": "第2章 フィールド＆ダンジョン (P.71)",
+     "bytes": 588680
+    },
+    {
+     "file": "p074_p072_field",
+     "page": 72,
+     "desc": "第2章 フィールド＆ダンジョン (P.72)",
+     "bytes": 573215
+    },
+    {
+     "file": "p075_p073_field",
+     "page": 73,
+     "desc": "第2章 フィールド＆ダンジョン (P.73)",
+     "bytes": 545871
+    },
+    {
+     "file": "p076_p074_field",
+     "page": 74,
+     "desc": "第2章 フィールド＆ダンジョン (P.74)",
+     "bytes": 709598
+    },
+    {
+     "file": "p077_p075_field",
+     "page": 75,
+     "desc": "第2章 フィールド＆ダンジョン (P.75)",
+     "bytes": 499923
+    },
+    {
+     "file": "p078_p076_field",
+     "page": 76,
+     "desc": "第2章 フィールド＆ダンジョン (P.76)",
+     "bytes": 539855
+    },
+    {
+     "file": "p079_p077_field",
+     "page": 77,
+     "desc": "第2章 フィールド＆ダンジョン (P.77)",
+     "bytes": 532159
+    },
+    {
+     "file": "p080_p078_field",
+     "page": 78,
+     "desc": "第2章 フィールド＆ダンジョン (P.78)",
+     "bytes": 518152
+    },
+    {
+     "file": "p081_p079_field",
+     "page": 79,
+     "desc": "第2章 フィールド＆ダンジョン (P.79)",
+     "bytes": 445673
+    },
+    {
+     "file": "p082_p080_field",
+     "page": 80,
+     "desc": "第2章 フィールド＆ダンジョン (P.80)",
+     "bytes": 588151
+    },
+    {
+     "file": "p083_p081_field",
+     "page": 81,
+     "desc": "第2章 フィールド＆ダンジョン (P.81)",
+     "bytes": 537010
+    },
+    {
+     "file": "p084_p082_field",
+     "page": 82,
+     "desc": "第2章 フィールド＆ダンジョン (P.82)",
+     "bytes": 513878
+    },
+    {
+     "file": "p085_p083_field",
+     "page": 83,
+     "desc": "第2章 フィールド＆ダンジョン (P.83)",
+     "bytes": 510652
+    },
+    {
+     "file": "p086_p084_field",
+     "page": 84,
+     "desc": "第2章 フィールド＆ダンジョン (P.84)",
+     "bytes": 443451
+    },
+    {
+     "file": "p087_p085_field",
+     "page": 85,
+     "desc": "第2章 フィールド＆ダンジョン (P.85)",
+     "bytes": 554100
+    },
+    {
+     "file": "p088_p086_field",
+     "page": 86,
+     "desc": "第2章 フィールド＆ダンジョン (P.86)",
+     "bytes": 515256
+    },
+    {
+     "file": "p089_p087_field",
+     "page": 87,
+     "desc": "第2章 フィールド＆ダンジョン (P.87)",
+     "bytes": 600881
+    },
+    {
+     "file": "p090_p088_field",
+     "page": 88,
+     "desc": "第2章 フィールド＆ダンジョン (P.88)",
+     "bytes": 605754
+    },
+    {
+     "file": "p091_p089_field",
+     "page": 89,
+     "desc": "第2章 フィールド＆ダンジョン (P.89)",
+     "bytes": 673755
+    },
+    {
+     "file": "p092_p090_field",
+     "page": 90,
+     "desc": "第2章 フィールド＆ダンジョン (P.90)",
+     "bytes": 603857
+    },
+    {
+     "file": "p093_p091_field",
+     "page": 91,
+     "desc": "第2章 フィールド＆ダンジョン (P.91)",
+     "bytes": 596252
+    },
+    {
+     "file": "p094_p092_field",
+     "page": 92,
+     "desc": "第2章 フィールド＆ダンジョン (P.92)",
+     "bytes": 529915
+    },
+    {
+     "file": "p095_p093_field",
+     "page": 93,
+     "desc": "第2章 フィールド＆ダンジョン (P.93)",
+     "bytes": 558223
+    },
+    {
+     "file": "p096_p094_field",
+     "page": 94,
+     "desc": "第2章 フィールド＆ダンジョン (P.94)",
+     "bytes": 668871
+    },
+    {
+     "file": "p097_p095_field",
+     "page": 95,
+     "desc": "第2章 フィールド＆ダンジョン (P.95)",
+     "bytes": 558131
+    },
+    {
+     "file": "p098_p096_field",
+     "page": 96,
+     "desc": "第2章 フィールド＆ダンジョン (P.96)",
+     "bytes": 662165
+    },
+    {
+     "file": "p099_p097_field",
+     "page": 97,
+     "desc": "第2章 フィールド＆ダンジョン (P.97)",
+     "bytes": 602236
+    },
+    {
+     "file": "p100_p098_field",
+     "page": 98,
+     "desc": "第2章 フィールド＆ダンジョン (P.98)",
+     "bytes": 724896
+    },
+    {
+     "file": "p101_p099_field",
+     "page": 99,
+     "desc": "第2章 フィールド＆ダンジョン (P.99)",
+     "bytes": 639206
+    },
+    {
+     "file": "p102_p100_field",
+     "page": 100,
+     "desc": "第2章 フィールド＆ダンジョン (P.100)",
+     "bytes": 633316
+    },
+    {
+     "file": "p103_p101_ch3_data_intro",
+     "page": 101,
+     "desc": "第3章 完全データファイル 扉",
+     "bytes": 1167471
+    },
+    {
+     "file": "p104_p102_data",
+     "page": 102,
+     "desc": "第3章 完全データファイル (P.102)",
+     "bytes": 631246
+    },
+    {
+     "file": "p105_p103_data",
+     "page": 103,
+     "desc": "第3章 完全データファイル (P.103)",
+     "bytes": 801715
+    },
+    {
+     "file": "p106_p104_data",
+     "page": 104,
+     "desc": "第3章 完全データファイル (P.104)",
+     "bytes": 799042
+    },
+    {
+     "file": "p107_p105_data",
+     "page": 105,
+     "desc": "第3章 完全データファイル (P.105)",
+     "bytes": 750726
+    },
+    {
+     "file": "p108_p106_data",
+     "page": 106,
+     "desc": "第3章 完全データファイル (P.106)",
+     "bytes": 596100
+    },
+    {
+     "file": "p109_p107_data",
+     "page": 107,
+     "desc": "第3章 完全データファイル (P.107)",
+     "bytes": 738488
+    },
+    {
+     "file": "p110_p108_data",
+     "page": 108,
+     "desc": "第3章 完全データファイル (P.108)",
+     "bytes": 910665
+    },
+    {
+     "file": "p111_p109_data",
+     "page": 109,
+     "desc": "第3章 完全データファイル (P.109)",
+     "bytes": 877624
+    },
+    {
+     "file": "p112_p110_data",
+     "page": 110,
+     "desc": "第3章 完全データファイル (P.110)",
+     "bytes": 758374
+    },
+    {
+     "file": "p113_p111_data",
+     "page": 111,
+     "desc": "第3章 完全データファイル (P.111)",
+     "bytes": 731632
+    },
+    {
+     "file": "p114_p112_data",
+     "page": 112,
+     "desc": "第3章 完全データファイル (P.112)",
+     "bytes": 799364
+    },
+    {
+     "file": "p115_p113_data",
+     "page": 113,
+     "desc": "第3章 完全データファイル (P.113)",
+     "bytes": 755646
+    },
+    {
+     "file": "p116_p114_data",
+     "page": 114,
+     "desc": "第3章 完全データファイル (P.114)",
+     "bytes": 832372
+    },
+    {
+     "file": "p117_p115_data",
+     "page": 115,
+     "desc": "第3章 完全データファイル (P.115)",
+     "bytes": 766625
+    },
+    {
+     "file": "p118_p116_data",
+     "page": 116,
+     "desc": "第3章 完全データファイル (P.116)",
+     "bytes": 760124
+    },
+    {
+     "file": "p119_p117_data",
+     "page": 117,
+     "desc": "第3章 完全データファイル (P.117)",
+     "bytes": 715740
+    },
+    {
+     "file": "p120_p118_data",
+     "page": 118,
+     "desc": "第3章 完全データファイル (P.118)",
+     "bytes": 787822
+    },
+    {
+     "file": "p121_p119_data",
+     "page": 119,
+     "desc": "第3章 完全データファイル (P.119)",
+     "bytes": 792074
+    },
+    {
+     "file": "p122_p120_data",
+     "page": 120,
+     "desc": "第3章 完全データファイル (P.120)",
+     "bytes": 830507
+    },
+    {
+     "file": "p123_p121_data",
+     "page": 121,
+     "desc": "第3章 完全データファイル (P.121)",
+     "bytes": 942116
+    },
+    {
+     "file": "p124_p122_data",
+     "page": 122,
+     "desc": "第3章 完全データファイル (P.122)",
+     "bytes": 443949
+    },
+    {
+     "file": "p125_p123_ch4_battle_trade_intro",
+     "page": 123,
+     "desc": "第4章 通信交換・対戦のススメ 扉",
+     "bytes": 1009629
+    },
+    {
+     "file": "p126_p124_battle_trade",
+     "page": 124,
+     "desc": "第4章 通信交換・対戦のススメ (P.124)",
+     "bytes": 705533
+    },
+    {
+     "file": "p127_p125_battle_trade",
+     "page": 125,
+     "desc": "第4章 通信交換・対戦のススメ (P.125)",
+     "bytes": 719657
+    },
+    {
+     "file": "p128_p126_battle_trade",
+     "page": 126,
+     "desc": "第4章 通信交換・対戦のススメ (P.126)",
+     "bytes": 425764
+    },
+    {
+     "file": "p129_p127_battle_trade",
+     "page": 127,
+     "desc": "第4章 通信交換・対戦のススメ (P.127)",
+     "bytes": 560803
+    },
+    {
+     "file": "p130_p128_battle_trade",
+     "page": 128,
+     "desc": "第4章 通信交換・対戦のススメ (P.128)",
+     "bytes": 515929
+    },
+    {
+     "file": "p131_p129_ch5_journal_part1",
+     "page": 129,
+     "desc": "第5章 ポケモン・ジャーナル 扉・タマムシ大学研究報告 ポケモンとは何か？",
+     "bytes": 1167974
+    },
+    {
+     "file": "p132_p130_ch5_journal_part2",
+     "page": 130,
+     "desc": "第5章 ポケモン・ジャーナル: 祖先・化石ポケモンと古代の生態系",
+     "bytes": 993151
+    },
+    {
+     "file": "p133_p131_ch5_journal_part3",
+     "page": 131,
+     "desc": "第5章 ポケモン・ジャーナル: 進化のメカニズム・石による突然変異",
+     "bytes": 1019374
+    },
+    {
+     "file": "p134_p132_ch5_journal_part4",
+     "page": 132,
+     "desc": "第5章 ポケモン・ジャーナル: モンスターボールの歴史・西野教授の縮小習性発見",
+     "bytes": 1077019
+    },
+    {
+     "file": "p135_p133_ch5_journal_part5",
+     "page": 133,
+     "desc": "第5章 ポケモン・ジャーナル: 南米ギアナでのミュウ発見・オーキド博士論文",
+     "bytes": 1040655
+    },
+    {
+     "file": "p136_p134_ch5_journal_part6",
+     "page": 134,
+     "desc": "第5章 ポケモン・ジャーナル: 人間とポケモンの共存史・カントー学会の未来",
+     "bytes": 1015327
+    },
+    {
+     "file": "p137_p135_ch6_interview_part1",
+     "page": 135,
+     "desc": "第6章 開発スタッフ・インタヴュー 扉: 6年の歳月をかけたモンスターたち",
+     "bytes": 1129370
+    },
+    {
+     "file": "p138_p136_ch6_interview_part2",
+     "page": 136,
+     "desc": "第6章 開発スタッフ・インタヴュー: 集合写真・田尻智×杉森建×増田順一×森本茂樹",
+     "bytes": 758508
+    },
+    {
+     "file": "p139_p137_ch6_interview_part3",
+     "page": 137,
+     "desc": "第6章 開発スタッフ・インタヴュー: カプセル怪獣構想・通信ケーブルの革命",
+     "bytes": 521782
+    },
+    {
+     "file": "p140_p138_ch6_interview_part4",
+     "page": 138,
+     "desc": "第6章 開発スタッフ・インタヴュー: 赤・緑バージョン分離案・宮本茂さんの助言",
+     "bytes": 686712
+    },
+    {
+     "file": "p141_p139_ch6_interview_part5",
+     "page": 139,
+     "desc": "第6章 開発スタッフ・インタヴュー: メモリ限界への挑戦・バックアップRAM拡大",
+     "bytes": 567699
+    },
+    {
+     "file": "p142_p140_ch6_interview_part6",
+     "page": 140,
+     "desc": "第6章 開発スタッフ・インタヴュー: 対戦バランス調整・ミュウの秘密実装",
+     "bytes": 746359
+    },
+    {
+     "file": "p143_p141_ch6_interview_part7",
+     "page": 141,
+     "desc": "第6章 開発スタッフ・インタヴュー: スタッフメッセージ 1 (田尻智・杉森建・増田順一)",
+     "bytes": 559344
+    },
+    {
+     "file": "p144_p142_ch6_interview_part8",
+     "page": 142,
+     "desc": "第6章 開発スタッフ・インタヴュー: スタッフメッセージ 2 (森本茂樹・太田哲司・渡辺哲也)",
+     "bytes": 579064
+    },
+    {
+     "file": "p145_p143_ch6_interview_part9",
+     "page": 143,
+     "desc": "第6章 開発スタッフ・インタヴュー: スタッフメッセージ 3 (藤原基史・西野弘二・西田敦子)",
+     "bytes": 690047
+    },
+    {
+     "file": "p146_p144_colophon",
+     "page": 144,
+     "desc": "奥付: ポケットモンスター図鑑 発行データ・スタッフクレジット",
+     "bytes": 430052
+    },
+    {
+     "file": "p147_inside_back_cover",
+     "page": null,
+     "desc": "Inside Back Cover / 表3 見返し (赤緑ポケモングリッドスプライト)",
+     "bytes": 610234
+    },
+    {
+     "file": "p148_back_cover",
+     "page": null,
+     "desc": "Back Cover / 表4 裏表紙 (Aspect 定価980円・バーコード)",
+     "bytes": 672181
+    }
+   ],
+   "features": [
+    {
+     "slug": "shodai-zukan-1996-staff-interview",
+     "title_ja": "『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」",
+     "kind": "interview",
+     "files": [
+      "p001_cover",
+      "p008_p006_contents",
+      "p137_p135_ch6_interview_part1",
+      "p138_p136_ch6_interview_part2",
+      "p139_p137_ch6_interview_part3",
+      "p140_p138_ch6_interview_part4",
+      "p141_p139_ch6_interview_part5",
+      "p142_p140_ch6_interview_part6",
+      "p143_p141_ch6_interview_part7",
+      "p144_p142_ch6_interview_part8",
+      "p145_p143_ch6_interview_part9",
+      "p146_p144_colophon"
+     ],
+     "plate_only": [
+      "p001_cover",
+      "p008_p006_contents"
+     ],
+     "people": [
+      "田尻智",
+      "渡边哲也",
+      "森本茂树",
+      "太田敏",
+      "西田敦子",
+      "增田顺一",
+      "杉森建",
+      "藤原",
+      "西野弘二"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "渡辺": "渡边哲也",
+      "太田": "太田敏",
+      "藤原": "藤原",
+      "西田": "西田敦子"
+     },
+     "works": [
+      "宝可梦 红·绿"
+     ],
+     "tags": [
+      "宝可梦 红·绿",
+      "攻略本",
+      "Game Freak",
+      "田尻智"
+     ],
+     "question_mark": "●",
+     "interviewer": "『ポケットモンスター図鑑』編集部"
+    },
+    {
+     "slug": "shodai-zukan-1996-pokemon-journal",
+     "title_ja": "『ポケットモンスター図鑑』第5章 ポケモン・ジャーナル",
+     "kind": "feature",
+     "files": [
+      "p004_p002_olympic_track",
+      "p005_p003_olympic_power",
+      "p006_p004_olympic_sea",
+      "p007_p005_olympic_sky",
+      "p131_p129_ch5_journal_part1",
+      "p132_p130_ch5_journal_part2",
+      "p133_p131_ch5_journal_part3",
+      "p134_p132_ch5_journal_part4",
+      "p135_p133_ch5_journal_part5",
+      "p136_p134_ch5_journal_part6"
+     ],
+     "people": [],
+     "works": [
+      "宝可梦 红·绿"
+     ],
+     "tags": [
+      "宝可梦 红·绿",
+      "攻略本"
+     ],
+     "plate_only": [],
+     "supplement": [
+      "p004_p002_olympic_track",
+      "p005_p003_olympic_power",
+      "p006_p004_olympic_sea",
+      "p007_p005_olympic_sky"
+     ]
+    }
+   ],
+   "ocr_pages": [
+    "p001_cover",
+    "p002_inside_cover",
+    "p003_title",
+    "p004_p002_olympic_track",
+    "p005_p003_olympic_power",
+    "p006_p004_olympic_sea",
+    "p007_p005_olympic_sky",
+    "p008_p006_contents",
+    "p054_p052_zukan_mew_special",
+    "p131_p129_ch5_journal_part1",
+    "p132_p130_ch5_journal_part2",
+    "p133_p131_ch5_journal_part3",
+    "p134_p132_ch5_journal_part4",
+    "p135_p133_ch5_journal_part5",
+    "p136_p134_ch5_journal_part6",
+    "p137_p135_ch6_interview_part1",
+    "p138_p136_ch6_interview_part2",
+    "p139_p137_ch6_interview_part3",
+    "p140_p138_ch6_interview_part4",
+    "p141_p139_ch6_interview_part5",
+    "p142_p140_ch6_interview_part6",
+    "p143_p141_ch6_interview_part7",
+    "p144_p142_ch6_interview_part8",
+    "p145_p143_ch6_interview_part9",
+    "p146_p144_colophon"
+   ]
+  }
+ ]
+}

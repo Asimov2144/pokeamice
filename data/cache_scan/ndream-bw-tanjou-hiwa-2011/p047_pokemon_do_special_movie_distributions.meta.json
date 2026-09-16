@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.0,
+ "image_tokens": 7010,
+ "completion_tokens": 760,
+ "finish": "stop",
+ "file": "p047_pokemon_do_special_movie_distributions",
+ "image_md5": "a7e64cf9a31773b70e87737b9c585a70"
+}

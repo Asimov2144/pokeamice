@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 31.0,
+ "image_tokens": 3176,
+ "completion_tokens": 794,
+ "finish": "stop",
+ "file": "p145_p143_ch6_interview_part9",
+ "image_md5": "5c2dde158504a7a3a5c01dfe29cc8e5e"
+}

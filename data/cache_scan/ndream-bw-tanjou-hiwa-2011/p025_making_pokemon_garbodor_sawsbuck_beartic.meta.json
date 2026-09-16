@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.8,
+ "image_tokens": 7010,
+ "completion_tokens": 727,
+ "finish": "stop",
+ "file": "p025_making_pokemon_garbodor_sawsbuck_beartic",
+ "image_md5": "eab6a87a2802fd85561af9c4baef793b"
+}

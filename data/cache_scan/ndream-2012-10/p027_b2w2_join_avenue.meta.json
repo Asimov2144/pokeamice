@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.1,
+ "image_tokens": 7010,
+ "completion_tokens": 1912,
+ "finish": "stop",
+ "file": "p027_b2w2_join_avenue",
+ "image_md5": "0f929966914e06625d28eac2f4fb6608"
+}

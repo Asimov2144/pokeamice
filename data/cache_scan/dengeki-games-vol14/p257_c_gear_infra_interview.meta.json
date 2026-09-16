@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 52.3,
+ "image_tokens": 6818,
+ "completion_tokens": 2106,
+ "finish": "stop",
+ "file": "p257_c_gear_infra_interview",
+ "image_md5": "3cf0eb45dd40040ec2a705541f6dbe53"
+}

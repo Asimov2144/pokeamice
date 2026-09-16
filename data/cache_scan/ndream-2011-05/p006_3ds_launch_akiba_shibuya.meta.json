@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 22.8,
+ "image_tokens": 6914,
+ "completion_tokens": 309,
+ "finish": "stop",
+ "file": "p006_3ds_launch_akiba_shibuya",
+ "image_md5": "860f804f8b1fb9ee858b88924d91c3ef"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 20.2,
+ "image_tokens": 7298,
+ "completion_tokens": 501,
+ "finish": "stop",
+ "file": "p999_back_cover_ridge_racer_3d",
+ "image_md5": "5aaabd88e4ba5d886315395112580d8c"
+}

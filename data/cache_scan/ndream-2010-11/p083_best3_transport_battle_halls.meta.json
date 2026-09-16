@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 19.5,
+ "image_tokens": 8582,
+ "completion_tokens": 1048,
+ "finish": "stop",
+ "file": "p083_best3_transport_battle_halls",
+ "image_md5": "930c813f1c54ba4eaea189619b3e3ef6"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 21.4,
+ "image_tokens": 6722,
+ "completion_tokens": 670,
+ "finish": "stop",
+ "file": "p081_bw_poll_characters_01_32",
+ "image_md5": "ee90cbb24aeea0d93797e63688fed943"
+}

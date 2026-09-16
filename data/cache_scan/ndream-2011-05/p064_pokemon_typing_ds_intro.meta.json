@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.1,
+ "image_tokens": 6722,
+ "completion_tokens": 734,
+ "finish": "stop",
+ "file": "p064_pokemon_typing_ds_intro",
+ "image_md5": "a4bc9dbab6b9a23d4437763dcd6ffc99"
+}

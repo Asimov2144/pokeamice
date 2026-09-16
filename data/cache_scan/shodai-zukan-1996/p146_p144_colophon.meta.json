@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 20.9,
+ "image_tokens": 3038,
+ "completion_tokens": 728,
+ "finish": "stop",
+ "file": "p146_p144_colophon",
+ "image_md5": "d2800f39005cb444f2617695abe648e8"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.4,
+ "image_tokens": 7010,
+ "completion_tokens": 886,
+ "finish": "stop",
+ "file": "p014_special_top3_pokemon_chandelure",
+ "image_md5": "f8ef103472e72658d8734fb75024c8a6"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.0,
+ "image_tokens": 6914,
+ "completion_tokens": 1171,
+ "finish": "stop",
+ "file": "p069_memorial_200_muscle_chief_editor_greeting",
+ "image_md5": "f307a7ee9b605fe5ce94eb6d0b787d02"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 25.3,
+ "image_tokens": 7010,
+ "completion_tokens": 759,
+ "finish": "stop",
+ "file": "p030_making_pokemon_volcarona_braviary_mandibuzz",
+ "image_md5": "9796370e4203ff8d08715ca6e6187290"
+}

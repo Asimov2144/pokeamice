@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 21.7,
+ "image_tokens": 6914,
+ "completion_tokens": 509,
+ "finish": "stop",
+ "file": "p075_bw_interview_jellicent_sawsbuck",
+ "image_md5": "ca199d90248fa402b094cb1b0437ffc4"
+}

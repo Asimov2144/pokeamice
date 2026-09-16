@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 33.6,
+ "image_tokens": 6722,
+ "completion_tokens": 1171,
+ "finish": "stop",
+ "file": "p017_bw_characters_gym_leaders_cilan_elesa_skyla",
+ "image_md5": "83297021b5c51d4b3c734c340b3d4ecd"
+}

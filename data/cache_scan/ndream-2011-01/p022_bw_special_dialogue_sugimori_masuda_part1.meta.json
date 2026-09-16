@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 36.3,
+ "image_tokens": 7010,
+ "completion_tokens": 1390,
+ "finish": "stop",
+ "file": "p022_bw_special_dialogue_sugimori_masuda_part1",
+ "image_md5": "440c58d940b331c42a8fb87dd07a1950"
+}

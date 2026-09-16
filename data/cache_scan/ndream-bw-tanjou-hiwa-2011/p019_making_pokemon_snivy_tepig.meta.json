@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 41.2,
+ "image_tokens": 7010,
+ "completion_tokens": 1388,
+ "finish": "stop",
+ "file": "p019_making_pokemon_snivy_tepig",
+ "image_md5": "089a578b92fdefaa296f643f9e34ba32"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 35.4,
+ "image_tokens": 8582,
+ "completion_tokens": 834,
+ "finish": "stop",
+ "file": "p076_hoenn_region_part1",
+ "image_md5": "c1a529bb51dc6df1193fea0d073250ad"
+}

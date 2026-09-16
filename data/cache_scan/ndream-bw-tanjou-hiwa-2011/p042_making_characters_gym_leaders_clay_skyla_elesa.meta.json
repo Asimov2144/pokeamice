@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 28.9,
+ "image_tokens": 7010,
+ "completion_tokens": 644,
+ "finish": "stop",
+ "file": "p042_making_characters_gym_leaders_clay_skyla_elesa",
+ "image_md5": "cebd16f28be8f2b6fdbf44919250a154"
+}

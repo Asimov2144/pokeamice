@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 57.5,
+ "image_tokens": 16202,
+ "completion_tokens": 916,
+ "finish": "stop",
+ "file": "p194_interview_development_time_pkrs",
+ "image_md5": "f0caf04598986f42446b29fd572895f9"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 37.8,
+ "image_tokens": 6914,
+ "completion_tokens": 1342,
+ "finish": "stop",
+ "file": "p118_column_paris_nintendo_report_florent_gorges",
+ "image_md5": "3f03c3720b336a154e626307162b848e"
+}

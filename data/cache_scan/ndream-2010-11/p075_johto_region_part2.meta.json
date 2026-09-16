@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.4,
+ "image_tokens": 8582,
+ "completion_tokens": 1209,
+ "finish": "stop",
+ "file": "p075_johto_region_part2",
+ "image_md5": "324a580f5cb5aa305b5dc866451687b3"
+}

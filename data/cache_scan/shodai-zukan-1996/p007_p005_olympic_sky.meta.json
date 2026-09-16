@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 21.9,
+ "image_tokens": 3130,
+ "completion_tokens": 129,
+ "finish": "stop",
+ "file": "p007_p005_olympic_sky",
+ "image_md5": "67b767dd52eba6fcded87cfe1525e9d5"
+}

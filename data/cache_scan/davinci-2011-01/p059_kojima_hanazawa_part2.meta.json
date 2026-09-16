@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 49.8,
+ "image_tokens": 8582,
+ "completion_tokens": 1665,
+ "finish": "stop",
+ "file": "p059_kojima_hanazawa_part2",
+ "image_md5": "713c9197c3a21b04b377ef8cecf869ba"
+}

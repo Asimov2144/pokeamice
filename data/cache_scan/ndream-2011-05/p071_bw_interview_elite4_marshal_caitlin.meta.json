@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 18.4,
+ "image_tokens": 6722,
+ "completion_tokens": 978,
+ "finish": "stop",
+ "file": "p071_bw_interview_elite4_marshal_caitlin",
+ "image_md5": "9a65c35ef4435b716cc038a1110bb103"
+}

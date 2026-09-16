@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 35.1,
+ "image_tokens": 7010,
+ "completion_tokens": 882,
+ "finish": "stop",
+ "file": "p031_making_pokemon_amoonguss_ferrothorn_zoroark_scrafty",
+ "image_md5": "7c18c10a5c2f13d02627f6bf47a4dd4f"
+}

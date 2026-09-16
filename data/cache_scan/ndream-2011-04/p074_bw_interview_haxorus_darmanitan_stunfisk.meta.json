@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.8,
+ "image_tokens": 6818,
+ "completion_tokens": 758,
+ "finish": "stop",
+ "file": "p074_bw_interview_haxorus_darmanitan_stunfisk",
+ "image_md5": "6cc8548757c6e6ffba39ff48f31d15ed"
+}

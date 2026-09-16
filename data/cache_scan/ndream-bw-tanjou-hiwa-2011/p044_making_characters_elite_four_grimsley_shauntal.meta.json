@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 21.9,
+ "image_tokens": 7010,
+ "completion_tokens": 684,
+ "finish": "stop",
+ "file": "p044_making_characters_elite_four_grimsley_shauntal",
+ "image_md5": "e1a44a3e3a3f354bb8e355b7a770f4f2"
+}

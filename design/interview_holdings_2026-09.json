@@ -1,0 +1,7039 @@
+{
+ "generated": "2026-09-16",
+ "note": "由 _posts/ 中 layout=interview-editorial / parallel-translation 的帖子逐篇读 front matter 生成；medium 为按域名与字段推断的材料类别；year 为原刊年份（扫描帖按期号、研究整理帖按 era）。用于与外部访谈库比对：以 url（去 Wayback 前缀）或 outlet+year+people 为键。扫描帖（medium=纸媒·自扫描）无 url，以 outlet+issue 为键。",
+ "count": 326,
+ "posts": [
+  {
+   "file": "1990-12-01-research-glitterberri-early-concept-art-part1.md",
+   "title": "GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）",
+   "year": 1996,
+   "date": "1990-12-01",
+   "lang": "en",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "GlitterBerri's Game Translations",
+   "issue": null,
+   "domain": "glitterberri.com (wayback)",
+   "url": "https://web.archive.org/web/20180612124601/http://www.glitterberri.com/pokemon-red-blue/early-concept-art",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "1990-12-02-research-glitterberri-early-concept-art-part2.md",
+   "title": "GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（后篇：关都城市规划手绘、初代战斗界面演进与未采用废案）",
+   "year": 1996,
+   "date": "1990-12-02",
+   "lang": "en",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "GlitterBerri's Game Translations",
+   "issue": null,
+   "domain": "glitterberri.com (wayback)",
+   "url": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "1996-04-05-scan-shodai-zukan-1996-pokemon-journal.md",
+   "title": "《ポケットモンスター図鑑》1996：宝可梦期刊——大木博士与正辉谈宝可梦研究",
+   "year": 1996,
+   "date": "1996-04-05",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "ポケットモンスター図鑑",
+   "issue": "1996年4月5日初版 / 1997年2月7日第六刷",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "1996-04-05-scan-shodai-zukan-1996-staff-interview.md",
+   "title": "《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」",
+   "year": 1996,
+   "date": "1996-04-05",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "ポケットモンスター図鑑",
+   "issue": "1996年4月5日初版 / 1997年2月7日第六刷",
+   "domain": "",
+   "url": "",
+   "people": [
+    "田尻智",
+    "渡边哲也",
+    "森本茂树",
+    "太田敏",
+    "西田敦子",
+    "增田顺一",
+    "杉森建",
+    "藤原",
+    "西野弘二"
+   ],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "1997-05-23-interview-famimaga-tajiri-pokemon2-secret.md",
+   "title": "初代宝可梦黎明期杂志专访全集：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈",
+   "year": 1997,
+   "date": "1997-05-23",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "",
+   "issue": null,
+   "domain": "sunanohi.web.fc2.com",
+   "url": "http://sunanohi.web.fc2.com/pokemon/magazine/game.html#kaigi9",
+   "people": [],
+   "works": [
+    "宝可梦 金·银",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "1997-10-16-interview-gamefreak-official-red-green-staff.md",
+   "title": "GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）",
+   "year": 1997,
+   "date": "1997-10-16",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "GAME FREAK 官方网站 (web.archive.org)",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "http://www.gamefreak.co.jp/POKEMON/INTER/INTER.HTM",
+   "people": [
+    "田尻智",
+    "杉森建",
+    "增田顺一",
+    "森本茂树",
+    "太田健程",
+    "林原惠"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 蓝",
+    "宝可梦 皮卡丘版",
+    "宝可梦 金·银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak.md",
+   "title": "[访谈翻译] 《时代周刊》(TIME) 独家专访宝可梦之父田尻智：究极的 Game Freak（町田田园昆虫少年、GB通信线顿悟与无暴力游戏哲学）",
+   "year": 1999,
+   "date": "1999-11-22",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "《时代周刊》(TIME Magazine) 1999年11月22日号",
+   "issue": null,
+   "domain": "content.time.com",
+   "url": "http://content.time.com/time/magazine/article/0,9171,2040095,00.html",
+   "people": [
+    "田尻智",
+    "宫本茂",
+    "蒂姆·拉里默",
+    "横田孝司"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "脉冲超人",
+    "旋转方块",
+    "太空格斗/太空侵略者",
+    "铁板阵"
+   ],
+   "source_kind": "magazine",
+   "article_kind": null
+  },
+  {
+   "file": "1999-12-01-interview-web-dawn-pokemon-gold-silver.md",
+   "title": "宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录",
+   "year": 1999,
+   "date": "1999-12-01",
+   "lang": "ja",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "",
+   "issue": null,
+   "domain": "www2u.biglobe.ne.jp",
+   "url": "http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm",
+   "people": [],
+   "works": [
+    "宝可梦 金·银",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "1999-12-01-scan-gs-guidebook-1999-developer-interview.md",
+   "title": "《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」",
+   "year": 1999,
+   "date": "1999-12-01",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "任天堂公式ガイドブック ポケットモンスター 金・銀",
+   "issue": "巻末特集（P.192–P.203）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "森本茂树",
+    "杉森建",
+    "增田顺一",
+    "西野弘二"
+   ],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal.md",
+   "title": "《宝可梦 金·银》官方攻略本 1999：开发人员图鉴与宝可梦研究报告",
+   "year": 1999,
+   "date": "1999-12-01",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "任天堂公式ガイドブック ポケットモンスター 金・銀",
+   "issue": "巻末特集（P.192–P.203）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi.md",
+   "title": "[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理",
+   "year": 2000,
+   "date": "2000-01-01",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "",
+   "issue": null,
+   "domain": "sunanohi.web.fc2.com",
+   "url": "http://sunanohi.web.fc2.com/pokemon/magazine/game.html",
+   "people": [
+    "田尻智",
+    "增田顺一",
+    "杉森建"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn.md",
+   "title": "[访谈翻译] 互联网宝可梦网站黎明期的记忆：金银发售前的整理",
+   "year": 2000,
+   "date": "2000-05-01",
+   "lang": "ja",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "",
+   "issue": null,
+   "domain": "www2u.biglobe.ne.jp",
+   "url": "http://www2u.biglobe.ne.jp/~kakeru/pokemon/pokemon_site.htm",
+   "people": [
+    "田尻智",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit.md",
+   "title": "N.O.M 2000年6月号：久保雅一谈宝可梦的媒体展开",
+   "year": 2000,
+   "date": "2000-06-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2000年6月号（No.23）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0006/04/04c01.html",
+   "people": [
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "超梦的逆袭",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2000-07-01-interview-nintendopower-gold-silver-roundtable.md",
+   "title": "Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会",
+   "year": 2000,
+   "date": "2000-07-01",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "",
+   "issue": null,
+   "domain": "lavacutcontent.com",
+   "url": "https://lavacutcontent.com/sugimori-hundreds-pokemon-cut/",
+   "people": [],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2000-07-01-interview-nom-genesis-gamefreak.md",
+   "title": "任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）",
+   "year": 2000,
+   "date": "2000-07-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "Nintendo Online Magazine",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0007/gfreak/index.html",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2000-07-01-interview-nom-gold-silver-gamefreak.md",
+   "title": "任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻",
+   "year": 2000,
+   "date": "2000-07-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "",
+   "issue": null,
+   "domain": "nintendo.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20001018042407/http://www.nintendo.co.jp/nom/0007/gfreak/page04.html",
+   "people": [],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara.md",
+   "title": "N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）",
+   "year": 2000,
+   "date": "2000-07-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」(No.23)",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0007/taidan1/index.html",
+   "people": [
+    "田尻智",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "宝可梦卡牌"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world.md",
+   "title": "N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e",
+   "year": 2001,
+   "date": "2001-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2001年11月号（No.40）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0111/03/index.html",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦集换式卡牌游戏",
+    "宝可梦 金·银",
+    "宝可梦 水晶版"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2001-11-01-interview-nom-2001-pokemon-card-e-creatures.md",
+   "title": "N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈",
+   "year": 2001,
+   "date": "2001-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2001年11月号（No.40）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0111/01/page02.html",
+   "people": [
+    "入江胜义",
+    "吉野元文",
+    "福田和彦",
+    "赤羽卓美"
+   ],
+   "works": [
+    "宝可梦集换式卡牌游戏"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2001-11-01-interview-nom-2001-pokemon-mini-developers.md",
+   "title": "N.O.M 2001年11月号：宝可梦迷你开发者访谈——三浦昌幸与久須美谈硬件与软件同步开发",
+   "year": 2001,
+   "date": "2001-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2001年11月号（No.40）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0111/02/page02.html",
+   "people": [
+    "三浦昌幸",
+    "久須美龍太"
+   ],
+   "works": [
+    "Pokémon mini"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2002-11-01-interview-nom-ruby-sapphire-art-director-sugimori.md",
+   "title": "N.O.M 2002年11月号：『红宝石·蓝宝石』美术与生态特征（杉森建篇：GBA色彩飞跃与新怪兽克制美学）",
+   "year": 2002,
+   "date": "2002-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」(No.52)",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0211/01/01_05/index.html",
+   "people": [
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2002-11-01-interview-nom-ruby-sapphire-director-masuda.md",
+   "title": "N.O.M 2002年11月号：『红宝石·蓝宝石』发售纪念大特集（总监构想篇：增田顺一谈丰缘大自然与个性化时代）",
+   "year": 2002,
+   "date": "2002-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」(No.52)",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0211/01/01_05/index.html",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base.md",
+   "title": "N.O.M 2002年11月号：『红宝石·蓝宝石』对战革命与秘密基地实测（石原恒和谈品牌、4人双打与数据通信）",
+   "year": 2002,
+   "date": "2002-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」(No.52)",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0211/01/01_04/index.html",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 红宝石·蓝宝石",
+    "宝可梦卡牌"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2003-08-01-interview-nom-2003-pokemon-channel-staff.md",
+   "title": "N.O.M 2003年8月号：GC《宝可梦频道》开发访谈——石原恒和、小澤、松村",
+   "year": 2003,
+   "date": "2003-08-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2003年8月号（No.61）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0308/p_inter/index.html",
+   "people": [
+    "小澤",
+    "松村",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦频道"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2003-11-01-interview-nom-2003-pokemon-colosseum-staff.md",
+   "title": "N.O.M 2003年11月号：Genius Sonority谈《宝可梦圆形竞技场》开发",
+   "year": 2003,
+   "date": "2003-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2003年11月号（No.64）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0311/soft/interv.html",
+   "people": [
+    "三浦昌幸",
+    "多和田",
+    "山名学",
+    "折尾"
+   ],
+   "works": [
+    "宝可梦圆形竞技场"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2004-05-13-interview-2004-05-13-ign-e3-2004-pokemon-creators.md",
+   "title": "[访谈翻译] E3 2004 IGN 访谈：宝可梦创作者谈火红·叶绿与无线对战",
+   "year": 2004,
+   "date": "2004-05-13",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "ign.com",
+   "url": "https://www.ign.com/articles/2004/05/13/e3-2004-the-pokemon-creators-speak",
+   "people": [
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 火红·叶绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2026-08-29-continue-vol23-tuya-scan-archive.md",
+   "title": "[扫描访谈] CONTINUE Vol.23《名誉无职，行走于永田町》修正版",
+   "year": 2005,
+   "date": "2026-08-30",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "CONTINUE",
+   "issue": "Vol.23",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2006-04-24-interview-gpara-2006-yoshida.md",
+   "title": "Gpara.com 2006：Game Freak吉田宏信谈对作品的执着",
+   "year": 2006,
+   "date": "2006-04-24",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "Gpara.com（2006-04-24）",
+   "issue": null,
+   "domain": "gpara.com",
+   "url": "http://www.gpara.com/contents/creator/bn_225.htm",
+   "people": [
+    "吉田宏信"
+   ],
+   "works": [
+    "宝可梦 钻石·珍珠"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori.md",
+   "title": "N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈",
+   "year": 2006,
+   "date": "2006-10-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「N.O.M」2006年10月号（No.99）",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/nom/0610/12/i01.html",
+   "people": [
+    "增田顺一",
+    "杉森建",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 钻石·珍珠",
+    "宝可梦对战革命"
+   ],
+   "source_kind": "official_web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori.md",
+   "title": "任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）",
+   "year": 2006,
+   "date": "2006-10-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "Nintendo Online Magazine",
+   "issue": null,
+   "domain": "nintendo.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20221026123148/https://www.nintendo.co.jp/nom/0610/12/index.html",
+   "people": [],
+   "works": [
+    "宝可梦 钻石·珍珠"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2006-11-01-continue-vol31-aoi-yu-pikachu.md",
+   "title": "[扫描访谈] 苍井优 × 皮卡丘",
+   "year": 2006,
+   "date": "2006-11-01",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "CONTINUE",
+   "issue": "2006 vol.31",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2026-08-29-continue-vol31-scan-archive.md",
+   "title": "[扫描访谈] CONTINUE Vol.31 自动化对照存档",
+   "year": 2006,
+   "date": "2026-08-29",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "CONTINUE",
+   "issue": "Vol.31",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2026-08-29-continue-vol32-scan-archive.md",
+   "title": "[扫描访谈] CONTINUE Vol.32 特别对谈：田尻 智 × 中川翔子（下北泽圣地重逢，改变人生的宝可梦）",
+   "year": 2007,
+   "date": "2007-02-24",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "CONTINUE",
+   "issue": "Vol.32",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）",
+   "year": 2008,
+   "date": "2008-02-27",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo138.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第139回：游戏改编动画的最初思索（未知黑白卡带与戏剧矛盾的碰撞）",
+   "year": 2008,
+   "date": "2008-03-05",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo139.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第140回：请倾注爱去对待宝可梦（第一次企划会，皮卡丘与皮皮的抉择）",
+   "year": 2008,
+   "date": "2008-03-12",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo140.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第141回：我亲自试玩了游戏（从无台词的黑白世界中捕捉戏剧灵魂）",
+   "year": 2008,
+   "date": "2008-03-19",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo141.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和",
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第142回：宝可梦能做成音乐剧吗？（用歌声与韵律打破传统打怪升级）",
+   "year": 2008,
+   "date": "2008-03-26",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo142.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第143回：第1、2话开播（《伴我同行》少年离家的世界观奠基）",
+   "year": 2008,
+   "date": "2008-04-09",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo143.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和",
+    "林原惠美",
+    "三木真一郎",
+    "犬山犬子"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第144回：宝可梦的“系列构成”之职（剧本团队搭建与无为而治）",
+   "year": 2008,
+   "date": "2008-04-16",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo144.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "田尻智",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-04-23-interview-takeshi-shudo-pokemon-memoir-ch145.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第145回：开播誓师酒会（幼童与成人的双重剧场，火箭队的灵魂载体）",
+   "year": 2008,
+   "date": "2008-04-23",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo145.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "林原惠美",
+    "三木真一郎",
+    "犬山犬子",
+    "松本梨香"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-04-30-interview-takeshi-shudo-pokemon-memoir-ch146.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第146回：我能为『宝可梦』做些什么？（从台上发言到赋能后辈编剧）",
+   "year": 2008,
+   "date": "2008-04-30",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo146.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第147回：“无所作为”的系列构成（软盘遗存与第5话尼比道馆小刚之缘）",
+   "year": 2008,
+   "date": "2008-05-07",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo147.shtml",
+   "people": [
+    "首藤刚志",
+    "武上纯希",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第148回：第9话『宝可梦必胜指南』（应试教育与理论派的落败）",
+   "year": 2008,
+   "date": "2008-05-14",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo148.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-05-21-interview-takeshi-shudo-pokemon-memoir-ch149.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第149回：让宝可梦稍微写实一点……？（校园霸凌的暗线与社会现实反思）",
+   "year": 2008,
+   "date": "2008-05-21",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo149.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第150回：正辉的灯塔（迷雾中呼唤同伴的远古孤独，与雷·布拉德伯里的雾笛）",
+   "year": 2008,
+   "date": "2008-05-28",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo150.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "大木博士",
+    "正辉"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第151回：带字幕的宝可梦（“巨大宝可梦之岛”的御前舌战与欧洲酒馆里的抱怨哲学）",
+   "year": 2008,
+   "date": "2008-06-04",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo151.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "大谷育江"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第152回：宝可梦的叫声是哪国语言？（代理战争隐喻、彼得潘情结与多国语言会议的废案）",
+   "year": 2008,
+   "date": "2008-06-11",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo152.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "小刚",
+    "小次郎"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第155回：不对人类言听计从的宝可梦（第31话地鼠之意图与原定80话完结的大构想）",
+   "year": 2008,
+   "date": "2008-08-06",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo155.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿",
+    "宝可梦 金·银"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第156回：在『宝可梦』中初尝压力（深夜被警官放行的奇遇、火箭队才是真主角与超梦的诞生）",
+   "year": 2008,
+   "date": "2008-08-13",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo156.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "久保雅一",
+    "武藏",
+    "小次郎",
+    "喵喵"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦：超梦的逆袭",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第157回：宝可梦意料之外的事件——数月之前（世界观附录的哲学狂想、小说绝版之谜与闪烁阴影）",
+   "year": 2008,
+   "date": "2008-08-20",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo157.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "花子",
+    "武藏",
+    "小次郎"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第158回：宝可梦事件以一句“活该！哈哈”拉开序幕（深夜恶毒来电、高热作词狂澜与恶梦初现）",
+   "year": 2008,
+   "date": "2008-08-27",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo158.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "武藏",
+    "小次郎"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-09-03-interview-takeshi-shudo-pokemon-memoir-ch159.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第159回：宝可梦事件 当夜的辗转难眠（百寸荧幕复盘、显像管直接光刺激与未曾喊停的自责）",
+   "year": 2008,
+   "date": "2008-09-03",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo159.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "机动战舰抚子号",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第160回：宝可梦事件 当天医院里的急救前线（制作方封口令、朋友忠告与小田原医院的病榻回忆）",
+   "year": 2008,
+   "date": "2008-09-10",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo160.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-10-29-interview-takeshi-shudo-pokemon-memoir-ch161.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第161回：宝可梦事件第2天（全国停播令下达、无声的剧本研讨会与没有恶意的创作尊严）",
+   "year": 2008,
+   "date": "2008-10-29",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo161.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第162回：宝可梦事件 相关人士的众生相（总监督叹息逮捕、任天堂游戏恐慌与被封印的历史）",
+   "year": 2008,
+   "date": "2008-11-05",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo162.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第163回：宝可梦动画陷入绝境的幕后操盘手（“御前样”久保雅一、东京湾游轮盛典与超越吉卜力的野望）",
+   "year": 2008,
+   "date": "2008-11-12",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo163.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "超梦的逆袭",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-11-19-interview-takeshi-shudo-pokemon-memoir-ch164.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第164回：宝可梦事件 直至NHK隐瞒丑闻败露（小学馆内部政治绞杀与出头之鸟的日本社会学）",
+   "year": 2008,
+   "date": "2008-11-19",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo164.shtml",
+   "people": [
+    "首藤刚志",
+    "久保雅一"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-11-26-interview-takeshi-shudo-pokemon-memoir-ch165.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）",
+   "year": 2008,
+   "date": "2008-11-26",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo165.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "久保雅一",
+    "桥本忍"
+   ],
+   "works": [
+    "宝可梦 动画系列",
+    "宝可梦 红·绿",
+    "超梦的逆袭"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第166回：《超梦的逆袭》的主题（档期延误危机、吉卜力战书与“我是谁”的终极追问）",
+   "year": 2008,
+   "date": "2008-12-03",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo166.shtml",
+   "people": [
+    "首藤刚志",
+    "久保雅一",
+    "汤山邦彦",
+    "斋藤武市",
+    "宇野重吉"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "皮卡丘的假期",
+    "宝可梦 动画系列",
+    "宝可梦 红·绿",
+    "杜子春",
+    "魔法小天使"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第167回：事件前夕的《超梦的逆袭》（文艺复兴人本主义觉醒、梦幻台词全删减与市村正亲定音）",
+   "year": 2008,
+   "date": "2008-12-10",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo167.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "市村正亲"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-12-17-interview-takeshi-shudo-pokemon-memoir-ch168.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第168回：《超梦的逆袭》市村正亲先生（歌剧魅影的宿命投影、现代声优危机与悲剧巨匠降临）",
+   "year": 2008,
+   "date": "2008-12-17",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo168.shtml",
+   "people": [
+    "首藤刚志",
+    "市村正亲",
+    "汤山邦彦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "宝可梦 红·绿",
+    "魔法小天使"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2008-12-24-interview-takeshi-shudo-pokemon-memoir-ch169.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第169回：《宝可梦》这里是哪里？我是谁？（独白破壁、自我意识觉醒与商业动画的极限突破）",
+   "year": 2008,
+   "date": "2008-12-24",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo169.shtml",
+   "people": [
+    "首藤刚志",
+    "市村正亲",
+    "久保雅一",
+    "汤山邦彦",
+    "芥川龙之介"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "超梦的诞生",
+    "宝可梦 动画系列",
+    "河童"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-01-07-interview-takeshi-shudo-pokemon-memoir-ch170.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第170回：新年寄语与心境（英国国教会认证、海外版税长流与无印时代的距离感）",
+   "year": 2009,
+   "date": "2009-01-07",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo170.shtml",
+   "people": [
+    "首藤刚志"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "花样男子",
+    "流星之绊",
+    "漫画日本史",
+    "机动战士高达"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第171回：《宝可梦》超梦能否通行于全世界？（存在主义叩问、替身战胜本体与哥斯拉的跨国隐喻）",
+   "year": 2009,
+   "date": "2009-01-14",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo171.shtml",
+   "people": [
+    "首藤刚志",
+    "萨卡基",
+    "司马辽太郎",
+    "盐野七生",
+    "萨蒂亚吉特·雷伊"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "哥斯拉",
+    "谈谈情跳跳舞",
+    "空海的风景",
+    "罗马人的故事"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-01-21-interview-takeshi-shudo-pokemon-memoir-ch172.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第172回：克隆体与本体的“自己究竟为何物？”（梦幻Bug都市传说、多莉羊与科学怪人的悲剧宿命）",
+   "year": 2009,
+   "date": "2009-01-21",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo172.shtml",
+   "people": [
+    "首藤刚志",
+    "玛丽·雪莱",
+    "阿尔伯特·爱因斯坦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 红·绿",
+    "弗兰肯斯坦",
+    "漫画日本史"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第173回：请不要直白喊出《宝可梦》的主题（地狱启示录作派、合家欢的成人隐线与绝不能挑明的“歧视”母题）",
+   "year": 2009,
+   "date": "2009-01-28",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo173.shtml",
+   "people": [
+    "首藤刚志",
+    "弗朗西斯·福特·科波拉",
+    "汤山邦彦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "现代启示录",
+    "宝可梦 动画系列",
+    "花样男子"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第174回：谈及“歧视”也请不要夸大其词（十八岁的杀意剧本、德国酒馆的吉普赛少女与克隆宝可梦的深层绝望）",
+   "year": 2009,
+   "date": "2009-02-04",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo174.shtml",
+   "people": [
+    "首藤刚志",
+    "黑泽明",
+    "汤山邦彦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "战国魔神豪将军 时之异邦人",
+    "七武士",
+    "街角的童话",
+    "十八岁的杀意"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）",
+   "year": 2009,
+   "date": "2009-02-18",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo175.shtml",
+   "people": [
+    "首藤刚志",
+    "小智",
+    "超梦",
+    "梦幻"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "洛奇亚爆诞",
+    "宝可梦 动画系列"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第176回：休载两周的致歉与反思（涩谷工作间的孤绝崩溃、救护车中的三次昏厥与破例敬语自白）",
+   "year": 2009,
+   "date": "2009-03-11",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo176.shtml",
+   "people": [
+    "首藤刚志",
+    "小霞",
+    "超梦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "魔法小天使 甜甜仙子",
+    "战国魔神豪将军",
+    "银河英雄传说",
+    "漫画原来如此物语"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）",
+   "year": 2009,
+   "date": "2009-03-18",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo177.shtml",
+   "people": [
+    "首藤刚志",
+    "小智",
+    "超梦",
+    "梦幻",
+    "汤山邦彦"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru.md",
+   "title": "G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳",
+   "year": 2009,
+   "date": "2009-03-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "G4TV",
+   "issue": null,
+   "domain": "g4tv.com (wayback)",
+   "url": "https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/",
+   "people": [],
+   "works": [
+    "宝可梦 白金"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）",
+   "year": 2009,
+   "date": "2009-03-25",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo178.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "超梦",
+    "梦幻",
+    "小智"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "魔法小天使（甜甜仙子）",
+    "漫画初体验系列"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-01-interview-nintendo-power-masuda-gens-1-4.md",
+   "title": "[访谈翻译] Nintendo Power 2009 增田顺一专访：第一至第四世代宝可梦的演进与《白金》",
+   "year": 2009,
+   "date": "2009-04-01",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "",
+   "issue": null,
+   "domain": "lavacutcontent.com",
+   "url": "http://lavacutcontent.com/masuda-interview-pokemon-platinum/",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 白金"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）",
+   "year": 2009,
+   "date": "2009-04-01",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo179.shtml",
+   "people": [
+    "首藤刚志",
+    "小智",
+    "超梦",
+    "梦幻",
+    "武藏",
+    "小次郎",
+    "喵喵",
+    "乔伊"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "机动战士高达",
+    "漫画初体验系列",
+    "魔法小天使（甜甜仙子）梦中飞翔之桥"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第180回：宝可梦的眼泪与超梦的记忆消除（奇迹生命的共鸣、原定终章伏笔回收与全员遗忘的宿命悲剧）",
+   "year": 2009,
+   "date": "2009-04-08",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo180.shtml",
+   "people": [
+    "首藤刚志",
+    "小智",
+    "超梦",
+    "梦幻",
+    "小刚",
+    "笛卡尔",
+    "赤冢不二夫"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "宝可梦 动画系列",
+    "超梦！我就在这里"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）",
+   "year": 2009,
+   "date": "2009-04-15",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo181.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "超梦",
+    "市村正亲",
+    "小智",
+    "皮卡丘",
+    "小爱",
+    "吉拉尔丹"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "超梦的诞生",
+    "洛奇亚爆诞",
+    "结晶塔的帝王"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映狂澜（小田原影院赠票往事、大人们的肃穆凝固与对狂热狂澜的战栗警惕）",
+   "year": 2009,
+   "date": "2009-04-22",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo182.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "超梦",
+    "宫崎骏",
+    "押井守"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "皮卡丘的暑假",
+    "龙猫",
+    "谈谈情跳跳舞",
+    "洛奇亚爆诞"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第183回：《超梦的逆袭》心力交瘁（盛名重负下的创作焦虑、英国国教条文赞赏与安定剂相伴的绝望追问）",
+   "year": 2009,
+   "date": "2009-04-30",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo183.shtml",
+   "people": [
+    "首藤刚志",
+    "手冢治虫",
+    "超梦",
+    "小智",
+    "皮卡丘"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "超梦的诞生",
+    "魔法小天使（甜甜仙子）",
+    "漫画初体验系列",
+    "飞少爷"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-05-01-interview-nintendo-power-masuda-kawachimaru-platinum-gens.md",
+   "title": "[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）",
+   "year": 2009,
+   "date": "2009-05-01",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "《Nintendo Power》第240/241期 (2009年4/5月号)",
+   "issue": null,
+   "domain": "lavacutcontent.com",
+   "url": "https://lavacutcontent.com/masuda-interview-pokemon-platinum/",
+   "people": [
+    "增田顺一",
+    "河内丸武史",
+    "杉森建",
+    "田尻智"
+   ],
+   "works": [
+    "宝可梦 白金",
+    "宝可梦 钻石·珍珠",
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "宝可梦 水晶版",
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": "magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）",
+   "year": 2009,
+   "date": "2009-05-14",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo184.shtml",
+   "people": [
+    "首藤刚志",
+    "小智",
+    "皮卡丘",
+    "超梦",
+    "武藏",
+    "小次郎",
+    "喵喵",
+    "大木博士"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "洛奇亚爆诞",
+    "结晶塔的帝王",
+    "超梦！我就在这里",
+    "乱世佳人",
+    "泰坦尼克号"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185.md",
+   "title": "[访谈翻译] 首藤刚志动画创作手记 第185回：迈向《宝可梦》电影第二部（拒绝赌城背后的超现实音乐剧、金银延期的“游戏时间”、橘子群岛诞生与小刚被除名的荒唐内幕）",
+   "year": 2009,
+   "date": "2009-05-20",
+   "lang": "ja",
+   "medium": "手记连载（首藤刚志）",
+   "outlet": "WEBアニメスタイル「シナリオえーだば創作術」",
+   "issue": null,
+   "domain": "style.fm",
+   "url": "http://www.style.fm/as/05_column/shudo185.shtml",
+   "people": [
+    "首藤刚志",
+    "汤山邦彦",
+    "小智",
+    "小霞",
+    "小刚",
+    "小建",
+    "牛顿",
+    "爱因斯坦",
+    "居里夫人"
+   ],
+   "works": [
+    "超梦的逆袭",
+    "洛奇亚爆诞",
+    "宝可梦 金·银",
+    "永远的菲莱娜"
+   ],
+   "source_kind": "memoir_serialization",
+   "article_kind": null
+  },
+  {
+   "file": "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew.md",
+   "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第1章：岩田聪 × 石原恒和 × 森本茂树——赶上末班车的赤绿与偷塞“梦幻”的真相",
+   "year": 2009,
+   "date": "2009-09-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/ipkj/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "森本茂树",
+    "田尻智"
+   ],
+   "works": [
+    "宝可梦 心金·魂银",
+    "宝可梦 红·绿",
+    "宝可梦 金·银"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king.md",
+   "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第2章：岩田聪 × 石原恒和——“便携玩具之王”与跳出卡带的宝可梦生态",
+   "year": 2009,
+   "date": "2009-09-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/ipkj/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 心金·魂银",
+    "口袋皮卡丘",
+    "宝可梦集换式卡牌游戏"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium.md",
+   "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第3章：岩田聪亲述当年为《金·银》写压缩代码救场与一周移植宝可梦竞技场",
+   "year": 2009,
+   "date": "2009-09-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/ipkj/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 金·银",
+    "宝可梦竞技场",
+    "宝可梦 心金·魂银",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following.md",
+   "title": "[访谈翻译] 社长问《宝可梦 心金·魂银》第4章：Pokéwalker软硬件开发、全493只宝可梦跟随与十周年致玩家",
+   "year": 2009,
+   "date": "2009-09-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/ipkj/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 心金·魂银",
+    "宝可梦 金·银",
+    "生活节拍器DS"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2009-09-18-interview-dengeki-hgss-shigeki-morimoto.md",
+   "title": "电击独家专访《心金·魂银》总监森本茂树：集大成之作与梦幻诞生秘辛",
+   "year": 2009,
+   "date": "2009-09-18",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "電撃オンライン",
+   "issue": null,
+   "domain": "dengekionline.com",
+   "url": "https://dengekionline.com/elem/000/000/193/193021/",
+   "people": [],
+   "works": [
+    "宝可梦 心金·魂银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-03-19-interview-gameinformer-masuda-morimoto-hgss.md",
+   "title": "[访谈翻译] Game Informer 专访《心金·魂银》开发团队：增田顺一与森本茂树揭秘重制哲学与十周年进化",
+   "year": 2010,
+   "date": "2010-03-19",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2010/03/19/game-freak-pokemon-interview.aspx",
+   "people": [
+    "森本茂树",
+    "增田顺一",
+    "海野隆雄",
+    "大森滋",
+    "松岛贤二",
+    "森昭人"
+   ],
+   "works": [
+    "宝可梦 心金·魂银",
+    "宝可梦 金·银",
+    "皮卡丘2 GS"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto.md",
+   "title": "走入幕后对话 GAME FREAK 的宝可梦大师：《心金／魂银》十周年重塑·六位核心主创深度圆桌访谈",
+   "year": 2010,
+   "date": "2010-03-31",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Pokémon.com Official",
+   "issue": null,
+   "domain": "pokemon.com (wayback)",
+   "url": "https://web.archive.org/web/20120211023721/http://www.pokemon.com/us/pokemon-news/vg_hgss_interview-2010-03-31/",
+   "people": [],
+   "works": [
+    "宝可梦 心金·魂银"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-05-12-interview-wedge-ishihara-pokemon-disney.md",
+   "title": "WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路",
+   "year": 2010,
+   "date": "2010-05-12",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "wedge.ismedia.jp",
+   "url": "https://wedge.ismedia.jp/articles/-/893",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam.md",
+   "title": "动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂",
+   "year": 2010,
+   "date": "2010-08-04",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "pocketmonsters.net",
+   "url": "https://www.pocketmonsters.net/content/Miyazaki_Interview_Anime_OST",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "杉森建",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 钻石·珍珠",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑·白》第2章：焕然一新的宝可梦世界（为什么要把舞台搬到海外大都会曼哈顿）",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "杉森建",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 钻石·珍珠"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-iwata-asks-bw-chapter-3-expanding-play-communication.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑·白》第3章：因通信而拓展的游玩方式（随时无线连接、红外与C-Gear革命）",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "石原恒和",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦全球连接"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-iwata-asks-bw-chapter-4-unchanging-pokemon-essence.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑·白》第4章：未曾改变的“宝可梦本质”（等离子队、哲学反思与永不毕业的乐趣）",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "杉森建",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-iwata-asks-bw-chapter-5-new-world-new-encounters.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑·白》第5章：崭新的世界与崭新的相遇（3D高低差视角与主创致玩家寄语）",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irbj/vol1/index5.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "杉森建",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-10-interview-pokemon-peer-sugimori-ohmori-designers.md",
+   "title": "Pokémon Pia 官方特刊专访：杉森建、大村祐介、井部真那与田上玲子详谈《宝可梦 黑／白》156只新宠设计秘辛",
+   "year": 2010,
+   "date": "2010-09-10",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "Pokemon Peer (ポケモン ピア) / Pokebeach",
+   "issue": null,
+   "domain": "pokebeach.com",
+   "url": "https://www.pokebeach.com/2010/09/pokemon-peer-interview-translations",
+   "people": [
+    "杉森建",
+    "大村祐介",
+    "井部真那",
+    "田上怜子",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 白金",
+    "宝可梦 心金·魂银"
+   ],
+   "source_kind": "mook_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-13-interview-weekly-ascii-masuda-bw.md",
+   "title": "[访谈翻译] 周刊 ASCII 专访增田顺一：杂志未及详叙的《宝可梦 黑·白》开发秘话",
+   "year": 2010,
+   "date": "2010-09-13",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "週刊アスキー (Weekly ASCII)",
+   "issue": null,
+   "domain": "weekly.ascii.jp",
+   "url": "https://weekly.ascii.jp/elem/000/002/602/2602549/?r=1",
+   "people": [
+    "增田顺一",
+    "后藤宏典",
+    "三枝成彰"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 钻石·珍珠",
+    "宝可梦 心金·魂银"
+   ],
+   "source_kind": "web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2010-09-21-scan-ndream-2010-11-five-regions-guide.md",
+   "title": "Nintendo DREAM 2010：宝可梦五大地区观光指南",
+   "year": 2010,
+   "date": "2010-09-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2010年11月号（Vol.199）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "宝可梦 红宝石·蓝宝石",
+    "宝可梦 钻石·珍珠"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview.md",
+   "title": "電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变",
+   "year": 2010,
+   "date": "2010-10-15",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "電撃GAMES",
+   "issue": "Vol.14（通巻174号，2010年10月15日発行，電撃Nintendo DS 12月号増刊）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "增田顺一",
+    "杉森建",
+    "大森滋",
+    "太田哲司",
+    "水口舞"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda.md",
+   "title": "任天堂官方特别企划“女大学生问”：《宝可梦 黑·白》——桐谷美玲 专访 增田顺一 × 杉森建",
+   "year": 2010,
+   "date": "2010-11-01",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网特别企划 (Nintendo Official)",
+   "issue": null,
+   "domain": "nintendo.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20101227010653/http://www.nintendo.co.jp/ds/interview/irbj/sp/index.html",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-11-20-interview-steinberg-gamefreak-sound-cubase.md",
+   "title": "Steinberg 深度专访 GAME FREAK 声音团队：走进《宝可梦 黑／白》音频工作流与叫声设计幕后",
+   "year": 2010,
+   "date": "2010-11-20",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "japan.steinberg.net",
+   "url": "https://japan.steinberg.net/jp/artists/steinberg_stories/gamefreak.html",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2010-11-20-scan-ndream-2011-01-bw-design-secrets.md",
+   "title": "Nintendo DREAM 2010：宝可梦 黑·白 美术与插画诞生秘闻",
+   "year": 2010,
+   "date": "2010-11-20",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年1月号（Vol.201）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "海野隆雄",
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii.md",
+   "title": "Nintendo DREAM 2010：宝可梦 黑·白 声音总监景山将太访谈",
+   "year": 2010,
+   "date": "2010-11-20",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年1月号（Vol.201）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "景山将太",
+    "增田顺一",
+    "一之濑刚",
+    "佐藤仁美",
+    "足立美奈子"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2010-12-06-scan-davinci-2011-01-masuda-interview.md",
+   "title": "ダ・ヴィンチ 2010：增田顺一谈《宝可梦 黑·白》",
+   "year": 2010,
+   "date": "2010-12-06",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "ダ・ヴィンチ",
+   "issue": "2011年1月号（通巻201号）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-02-21-interview-nintendodream-bw-bridges-masuda.md",
+   "title": "Nintendo Dream 专访增田顺一：《宝可梦 黑／白》合众大桥世界观设定·高迪美学、喷火龙剪影与力学隐喻",
+   "year": 2011,
+   "date": "2011-02-21",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "",
+   "issue": null,
+   "domain": "pokemon-memo.com",
+   "url": "http://pokemon-memo.com/2011/02/21/black-white-bridge/",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2011-02-21-scan-ndream-2011-04-bw-design-secrets-part2.md",
+   "title": "Nintendo DREAM 2011：宝可梦黑·白开发者访谈 宝可梦与角色诞生秘话",
+   "year": 2011,
+   "date": "2011-02-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年4月号（Vol.204）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "海野隆雄",
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-02-21-scan-ndream-2011-04-masuda-bridges.md",
+   "title": "Nintendo DREAM 2011：增田顺一谈《宝可梦 黑·白》桥梁诞生秘话",
+   "year": 2011,
+   "date": "2011-02-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年4月号（Vol.204）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains.md",
+   "title": "[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）",
+   "year": 2011,
+   "date": "2011-03-01",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Eurogamer",
+   "issue": null,
+   "domain": "eurogamer.net",
+   "url": "https://www.eurogamer.net/the-brains-behind-pokemon-black-and-white-interview",
+   "people": [
+    "增田顺一",
+    "杉森建",
+    "韦斯利·尹-普尔",
+    "井部真那"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "web_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-01-interview-nintendo-power-bw-masuda-sugimori.md",
+   "title": "[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦",
+   "year": 2011,
+   "date": "2011-03-01",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "Nintendo Power 杂志第 265 期",
+   "issue": null,
+   "domain": "lavacutcontent.com",
+   "url": "https://lavacutcontent.com/masuda-sugimori-gen-5/",
+   "people": [
+    "增田顺一",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-04-interview-spong-bw-launch-masuda-sugimori.md",
+   "title": "SPOnG 专访增田顺一与杉森建：伦敦首发夜谈《宝可梦 黑／白》重启原点、掌机社交哲学与比克提尼之爱",
+   "year": 2011,
+   "date": "2011-03-04",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "spong.com",
+   "url": "https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-05-interview-1up-black-white-how-pokemon-get-made.md",
+   "title": "1UP.com 深度专访 Game Freak 主创：黑白御三家、莱希拉姆与捷克罗姆诞生秘辛",
+   "year": 2011,
+   "date": "2011-03-05",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "1UP.com",
+   "issue": null,
+   "domain": "1up.com (wayback)",
+   "url": "https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-07-interview-gameinformer-masuda-past-present-future.md",
+   "title": "[访谈翻译] Game Informer 专访增田顺一与井部真那：宝可梦 15 年的过去、现在与未来",
+   "year": 2011,
+   "date": "2011-03-07",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2011/03/07/pokemon-past-present-future.aspx",
+   "people": [
+    "增田顺一",
+    "井部真那",
+    "田尻智",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "宝可梦 心金·魂银"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex.md",
+   "title": "Nintendo DREAM 2011：宝可梦 黑·白 宝可梦与角色诞生秘话EX",
+   "year": 2011,
+   "date": "2011-03-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年5月号（Vol.205）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "海野隆雄",
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-21-scan-ndream-2011-05-ohmura-character-making.md",
+   "title": "Nintendo DREAM 2011：大村祐介谈《宝可梦 黑·白》人物设计",
+   "year": 2011,
+   "date": "2011-03-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年5月号（Vol.205）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-03-21-scan-ndream-2011-05-pokemon-typing-ds.md",
+   "title": "Nintendo DREAM 2011：宝可梦打字DS 最新情报",
+   "year": 2011,
+   "date": "2011-03-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2011年5月号（Vol.205）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦打字DS"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters.md",
+   "title": "Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇",
+   "year": 2011,
+   "date": "2011-05-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM 特別付録",
+   "issue": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "海野隆雄",
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon.md",
+   "title": "Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇",
+   "year": 2011,
+   "date": "2011-05-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM 特別付録",
+   "issue": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "海野隆雄",
+    "大村祐介"
+   ],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-popularity-poll.md",
+   "title": "Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 人气投票结果",
+   "year": 2011,
+   "date": "2011-05-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM 特別付録",
+   "issue": "『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download.md",
+   "title": "[访谈翻译] 社长问《宝可梦立体图鉴BW》第1章：三分钟极速下载的挑战（石原恒和要求3DS出厂预装、SpotPass每日空降与图鉴复制机制）",
+   "year": 2011,
+   "date": "2011-06-16",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/jrva/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小笠原裕",
+    "竹内敦",
+    "折本哲也"
+   ],
+   "works": [
+    "宝可梦立体图鉴BW",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality.md",
+   "title": "[访谈翻译] 社长问《宝可梦立体图鉴BW》第2章：仿佛宝可梦就伫立在那里（N64时代传承至今的3D建模、自投阴影与30人精工动作）",
+   "year": 2011,
+   "date": "2011-06-16",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/jrva/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小笠原裕",
+    "竹内敦",
+    "折本哲也"
+   ],
+   "works": [
+    "宝可梦立体图鉴BW",
+    "宝可梦 黑·白",
+    "宝可梦竞技场",
+    "宝可梦随乐拍"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation.md",
+   "title": "[访谈翻译] 社长问《宝可梦立体图鉴BW》第3章：“一目了然被看穿也无妨”（石原恒和现场手绘比克提尼AR码、开发者直呼“欢迎破解”与可成长的图鉴）",
+   "year": 2011,
+   "date": "2011-06-16",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/jrva/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小笠原裕",
+    "竹内敦",
+    "折本哲也"
+   ],
+   "works": [
+    "宝可梦立体图鉴BW",
+    "宝可梦 黑·白",
+    "宝可梦随乐拍"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all.md",
+   "title": "[访谈翻译] 社长问《宝可梦立体图鉴BW》第4章：宏愿是装进每一台3DS（加速度计自适应贴墙AR、任天堂内部惊呼“为何免费”与全国版蓝图）",
+   "year": 2011,
+   "date": "2011-06-16",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/jrva/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小笠原裕",
+    "竹内敦",
+    "折本哲也"
+   ],
+   "works": [
+    "宝可梦立体图鉴BW",
+    "宝可梦 黑·白",
+    "超级宝可梦乱战"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife.md",
+   "title": "[访谈翻译] 社长问《超级宝可梦乱战》第1章：“连我家太太也着迷”（发条玩具设定、捏气泡纸般的爽快感与周末潜行数值大调整）",
+   "year": 2011,
+   "date": "2011-08-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/accj/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小泽达雄",
+    "松村直树"
+   ],
+   "works": [
+    "超级宝可梦乱战",
+    "宝可梦乱战",
+    "皮卡丘你好吗",
+    "宝可梦频道"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations.md",
+   "title": "[访谈翻译] 社长问《超级宝可梦乱战》第2章：300亿种宝可梦的相遇（600只全员集结、称号与一期一会的组队战术）",
+   "year": 2011,
+   "date": "2011-08-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/accj/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小泽达雄",
+    "松村直树"
+   ],
+   "works": [
+    "超级宝可梦乱战",
+    "宝可梦乱战",
+    "宝可梦冲刺",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again.md",
+   "title": "[访谈翻译] 社长问《超级宝可梦乱战》第3章：“想再玩一次”（马力欧俱乐部测试员的盛赞、Mii擦肩通信与发条玩具纸雕特典）",
+   "year": 2011,
+   "date": "2011-08-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/accj/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小泽达雄",
+    "松村直树"
+   ],
+   "works": [
+    "超级宝可梦乱战",
+    "宝可梦乱战",
+    "宝可梦立体图鉴BW"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds.md",
+   "title": "[访谈翻译] 社长问《超级宝可梦乱战》第4章：作为3DS首部宝可梦正作（“电车坐过站”沉迷指标、前十分钟黄金律与Super命名哲学）",
+   "year": 2011,
+   "date": "2011-08-04",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/accj/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "小泽达雄",
+    "松村直树"
+   ],
+   "works": [
+    "超级宝可梦乱战",
+    "宝可梦乱战"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-05-01-interview-tpc-employee-morotsuki.md",
+   "title": "宝可梦公司官方员工特写 诸月纱保子：授权企划部——小学生眼中的宝可梦工作与跨界无尽可能",
+   "year": 2012,
+   "date": "2012-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 (Wayback Machine 历史存档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20120531113059/http://www.pokemon.co.jp/corporate/job/employee/morotsuki/",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2012-05-01-interview-tpc-employee-oohinata.md",
+   "title": "宝可梦公司官方员工特写 大日向俊：宝可梦中心东京店长——连接现实训练家的桥梁与‘大家庭’哲学",
+   "year": 2012,
+   "date": "2012-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 (Wayback Machine 历史存档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20120531113059/http://www.pokemon.co.jp/corporate/job/employee/oohinata/",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2012-05-01-interview-tpc-president-ishihara-what-we-do.md",
+   "title": "宝可梦公司官方社长专访 石原恒和：宝可梦公司究竟是一家做什么的公司？——从《电视游戏大全》、大葱鸭次元跃迁到游戏与现实的优雅融合",
+   "year": 2012,
+   "date": "2012-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 企業情報・採用サイト",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20120531132153/http://www.pokemon.co.jp/corporate/interview/",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 黑·白",
+    "電視遊戯大全",
+    "宝可梦集换式卡牌游戏",
+    "Pokemon Center"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2012-06-15-interview-iwata-asks-b2w2-chapter-1-two-sequels-two-years-later.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第1章：为何打破传统做正统数字续篇（“两部续篇”与“两年之后”）",
+   "year": 2012,
+   "date": "2012-06-15",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irej/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "海野隆雄",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑2·白2",
+    "宝可梦 黑·白",
+    "宝可梦 白金"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第2章：百人实时同屏的庆典任务与遗迹通信挑战",
+   "year": 2012,
+   "date": "2012-06-15",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irej/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "海野隆雄",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑2·白2",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-06-15-interview-iwata-asks-b2w2-chapter-3-pokestar-studios-space-fantasy.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第3章：双版本同时发售的双钥匙联动机制与宝可梦好莱坞太空幻想",
+   "year": 2012,
+   "date": "2012-06-15",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irej/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "海野隆雄",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures.md",
+   "title": "[访谈翻译] 社长问《宝可梦 黑2·白2》第4章：为什么在3DS已上市时坚守NDS硬件（桧扇市全新开局、宝可梦本质与三神器联动）",
+   "year": 2012,
+   "date": "2012-06-15",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/ds/interview/irej/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "海野隆雄",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 黑2·白2",
+    "宝可梦AR搜索器",
+    "宝可梦全国图鉴 Pro"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview.md",
+   "title": "Nintendo DREAM 2012：《宝可梦 黑2・白2》GAME FREAK开发访谈",
+   "year": 2012,
+   "date": "2012-07-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2012年9月号（Vol.221）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "增田顺一",
+    "海野隆雄"
+   ],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art.md",
+   "title": "电击Online 现场直击：增田顺一与海野隆雄谈《宝可梦 黑2·白2》开发秘闻——魁奇思与N的初期绝密草图公开、百人庆典任务与PWT设计哲学",
+   "year": 2012,
+   "date": "2012-08-05",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "電撃オンライン",
+   "issue": null,
+   "domain": "dengekionline.com",
+   "url": "https://dengekionline.com/elem/000/000/518/518926/",
+   "people": [],
+   "works": [
+    "宝可梦 黑2·白2",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno.md",
+   "title": "[访谈翻译] 周刊 Fami通 独家专访：增田顺一与海野隆雄《黑2·白2》发售纪念展会（N与盖奇斯的早期废案设定草图解密）",
+   "year": 2012,
+   "date": "2012-08-05",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "週刊ファミ通 (Famitsu.com)",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201208/05019240.html",
+   "people": [
+    "增田顺一",
+    "海野隆雄",
+    "N",
+    "盖奇斯"
+   ],
+   "works": [
+    "宝可梦 黑2·白2",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets.md",
+   "title": "Nintendo DREAM 2012：黑2白2庆典任务与宝可坞开发秘闻",
+   "year": 2012,
+   "date": "2012-08-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2012年10月号（Vol.222）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2012-08-21-scan-ndream-2012-10-pokemon-music-interview.md",
+   "title": "Nintendo DREAM 2012：宝可梦音乐访谈 一之濑刚、佐藤仁美、增田顺一",
+   "year": 2012,
+   "date": "2012-08-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2012年10月号（Vol.222）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "一之濑刚",
+    "佐藤仁美"
+   ],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-09-17-interview-gi-2012-b2w2-sequel.md",
+   "title": "Game Informer 2012：增田顺一谈《宝可梦 黑2·白2》首款编号续作",
+   "year": 2012,
+   "date": "2012-09-17",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2012-09-17）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2012/09/17/gamefreak-talks-pok-233-mon-s-first-numbered-sequel",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-10-01-interview-pokemon-com-b2w2-masuda-unno.md",
+   "title": "Pokémon.com 官方专访增田顺一与海野隆雄：《宝可梦 黑2／白2》双续篇革新、好莱坞之星与合众两年变迁",
+   "year": 2012,
+   "date": "2012-10-01",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "",
+   "issue": null,
+   "domain": "pokemon.com (wayback)",
+   "url": "https://web.archive.org/web/20130731014648/https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/",
+   "people": [],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination.md",
+   "title": "[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第1章：不可思议的组合（石原恒和千次游玩之缘与醒来变成宝可梦的原点）",
+   "year": 2012,
+   "date": "2012-11-22",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "长畑成一郎",
+    "富江慎一郎"
+   ],
+   "works": [
+    "宝可梦不可思议迷宫",
+    "不可思议迷宫",
+    "风来的西林"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama.md",
+   "title": "[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第2章：系统本身成为戏剧（Rogue机制与王道物语的共生、AR圆环与现实连接）",
+   "year": 2012,
+   "date": "2012-11-22",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "长畑成一郎",
+    "富江慎一郎"
+   ],
+   "works": [
+    "宝可梦不可思议迷宫",
+    "风来的西林"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition.md",
+   "title": "[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第3章：“决定版”（单一包装的魄力、Chunsoft自DQ时代传承的亲切感与难度哲学）",
+   "year": 2012,
+   "date": "2012-11-22",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "长畑成一郎",
+    "富江慎一郎"
+   ],
+   "works": [
+    "宝可梦不可思议迷宫",
+    "勇者斗恶龙",
+    "勇者斗恶龙V 天空的新娘",
+    "风来的西林"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers.md",
+   "title": "[访谈翻译] 社长问《宝可梦不可思议迷宫 极大之门与∞迷宫》第4章：“随机数”的魔法（背叛与期待的一纸之隔、硬派游戏哲学与土龙弟弟的执念）",
+   "year": 2012,
+   "date": "2012-11-22",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "石原恒和",
+    "长畑成一郎",
+    "富江慎一郎"
+   ],
+   "works": [
+    "宝可梦不可思议迷宫",
+    "Rogue",
+    "风来的西林"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2012-11-23-interview-gi-2012-burning-questions.md",
+   "title": "Game Informer 2012：增田顺一与海野隆雄谈宝可梦世界设定",
+   "year": 2012,
+   "date": "2012-11-23",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2012-11-23）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx",
+   "people": [
+    "增田顺一",
+    "海野隆雄"
+   ],
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-01-11-interview-junichi-masuda-takeshi-kawachimaru.md",
+   "title": "[访谈翻译] Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!",
+   "year": 2013,
+   "date": "2013-01-11",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "g4tv.com (wayback)",
+   "url": "https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 白金"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-01-22-interview-staff-tsuruta.md",
+   "title": "[访谈翻译] 鶴田 GF staff blog",
+   "year": 2013,
+   "date": "2013-01-22",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20130122112708/http://www.gamefreak.co.jp/blog/staff/?p=157",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-07-05-interview-staff-diary.md",
+   "title": "[访谈翻译] GAME FREAK STAFF 日记",
+   "year": 2013,
+   "date": "2013-07-05",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20130705083744/http://www.gamefreak.co.jp/blog/staff/?cat=6",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-09-19-interview-jv-2013-xy.md",
+   "title": "法国 jeuxvideo.com 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "year": 2013,
+   "date": "2013-09-19",
+   "lang": "fr",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "法国 jeuxvideo.com（2013-09-19）",
+   "issue": null,
+   "domain": "jeuxvideo.com",
+   "url": "https://www.jeuxvideo.com/news/2013/00068032-interview-sur-pokemon-x-et-y.htm",
+   "people": [
+    "吉田宏信",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-09-20-interview-multiplayer-2013-xy.md",
+   "title": "意大利 Multiplayer.it 2013：采访增田顺一谈《宝可梦 X·Y》",
+   "year": 2013,
+   "date": "2013-09-20",
+   "lang": "it",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "意大利 Multiplayer.it（2013-09-20）",
+   "issue": null,
+   "domain": "multiplayer.it",
+   "url": "https://multiplayer.it/articoli/123457-pokemon-x-quel-mostro-di-junichi-masuda.html",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-09-21-interview-nintendolife-2013-xy.md",
+   "title": "Nintendo Life 2013：增田顺一与吉田宏信谈《宝可梦 X·Y》",
+   "year": 2013,
+   "date": "2013-09-21",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Nintendo Life（2013-09-21）",
+   "issue": null,
+   "domain": "nintendolife.com",
+   "url": "https://www.nintendolife.com/news/2013/09/interview_junichi_masuda_and_hironobu_yoshida_discuss_pokemon_x_and_y_mega_evolutions_and_the_2ds",
+   "people": [
+    "吉田宏信",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-04-interview-nwr-xy-masuda-yoshida.md",
+   "title": "Nintendo World Report 独家专访增田顺一与吉田宏信：从3D全面进化到超级超级特训",
+   "year": 2013,
+   "date": "2013-10-04",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Nintendo World Report",
+   "issue": null,
+   "domain": "nintendoworldreport.com",
+   "url": "http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-08-interview-4gamer-2013-solitiba.md",
+   "title": "4Gamer.net 2013：Game Freak杉森建与渡边哲也谈原点回归与自主发行",
+   "year": 2013,
+   "date": "2013-10-08",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "4Gamer.net（2013-10-08）",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/226/G022607/20131007064/",
+   "people": [
+    "杉森建",
+    "渡边哲也"
+   ],
+   "works": [
+    "ソリティ馬"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-10-interview-gamasutra-xy-monster-design.md",
+   "title": "[访谈翻译] Gamasutra 专访吉田宏信与增田顺一：宝可梦是如何诞生的？标志性生物的设计哲学",
+   "year": 2013,
+   "date": "2013-10-10",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Gamasutra / Game Developer",
+   "issue": null,
+   "domain": "gamedeveloper.com",
+   "url": "https://www.gamedeveloper.com/production/how-pokemon-are-born-designing-the-series-iconic-monsters",
+   "people": [
+    "吉田宏信",
+    "增田顺一",
+    "杉森建",
+    "Christian Nutt"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "feature_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release.md",
+   "title": "[访谈翻译] 社长问《宝可梦 X·Y》第1章：系列首次全球同日发售的奇迹（七国语言同步、跨时区保密与全球命名挑战）",
+   "year": 2013,
+   "date": "2013-10-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 红·绿",
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-10-interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie.md",
+   "title": "[访谈翻译] 社长问《宝可梦 X·Y》第2章：焕然一新的宝可梦与全3D建模（皮卡丘大谷育江原声录制与生动表情）",
+   "year": 2013,
+   "date": "2013-10-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index2.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "石原恒和",
+    "大谷育江",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 红·绿",
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-10-interview-iwata-asks-xy-chapter-3-new-battles-fairy-type.md",
+   "title": "[访谈翻译] 社长问《宝可梦 X·Y》第3章：全新属性妖精与对战数值重构（时隔14年的对战革命与龙属性制衡）",
+   "year": 2013,
+   "date": "2013-10-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index3.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 金·银"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-10-interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution.md",
+   "title": "[访谈翻译] 社长问《宝可梦 X·Y》第4章：让宝可梦变得更加亲近（宝可友友乐、超级进化与致玩家信）",
+   "year": 2013,
+   "date": "2013-10-10",
+   "lang": "ja",
+   "medium": "官方·任天堂（社長が訊く / N.O.M / 開発者に訊きました）",
+   "outlet": "任天堂官网「社長が訊く」",
+   "issue": null,
+   "domain": "nintendo.co.jp",
+   "url": "https://www.nintendo.co.jp/3ds/interview/ekjj/vol1/index4.html",
+   "people": [
+    "岩田聪",
+    "增田顺一",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "official_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-21-scan-ndream-2013-12-xy-character-design-interview.md",
+   "title": "Nintendo DREAM 2013：GAME FREAK谈宝可梦X·Y人物设计",
+   "year": 2013,
+   "date": "2013-10-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2013年12月号（Vol.236）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "杉森建",
+    "大村祐介",
+    "中津井优"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-10-24-interview-onm-xy-sugimori.md",
+   "title": "任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛",
+   "year": 2013,
+   "date": "2013-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Official Nintendo Magazine",
+   "issue": null,
+   "domain": "officialnintendomagazine.co.uk (wayback)",
+   "url": "http://web.archive.org/web/20131030135359/http://www.officialnintendomagazine.co.uk/55616/ken-sugimori-got-artists-block-during-pokemon-x-and-y-development/",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-01-interview-gamefreak-recruit-3d-graphics-to-fk.md",
+   "title": "GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）",
+   "year": 2013,
+   "date": "2013-11-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_1.html",
+   "people": [
+    "T.O.",
+    "F.K.",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "Gear Project（齿轮企划）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-01-interview-gamefreak-recruit-programmer-tt-mi.md",
+   "title": "GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）",
+   "year": 2013,
+   "date": "2013-11-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 官网招聘专栏 (Wayback Machine 历史归档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20140209100018/http://www.gamefreak.co.jp/recruit/interview_2.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida.md",
+   "title": "Eurogamer 专访增田顺一：“世上根本找不出一个讨厌所有宝可梦的人”——《宝可梦 X／Y》革新之道",
+   "year": 2013,
+   "date": "2013-11-04",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "Eurogamer.es",
+   "issue": null,
+   "domain": "eurogamer.es",
+   "url": "https://www.eurogamer.es/entrevista-con-el-director-de-pokemon-x-e-y-lo-raro-seria-encontrar-a-quien-no-le-guste-ningun-pokemon",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-06-interview-hobbyconsolas-xy-masuda.md",
+   "title": "专访宝可梦系列的“灵魂”增田顺一：历时三年五百人打造的全球同步奇迹——《Hobby Consolas》西班牙专访",
+   "year": 2013,
+   "date": "2013-11-06",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "Hobby Consolas（西班牙最大游戏媒体）",
+   "issue": null,
+   "domain": "hobbyconsolas.com",
+   "url": "https://www.hobbyconsolas.com/reportajes/entrevista-con-junichi-masuda-59058",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.md",
+   "title": "4Gamer 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》音乐制作秘辛、布拉塔诺博士设定与横滨粉丝见面会全记录",
+   "year": 2013,
+   "date": "2013-11-16",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "4Gamer.net",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/198/G019893/20131116014/",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art.md",
+   "title": "电击Online 现场直击：增田顺一与景山将太谈《宝可梦 X·Y》未公开设定资料、弗拉达利装甲设计与卡洛斯音乐盛典",
+   "year": 2013,
+   "date": "2013-11-16",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "電撃オンライン",
+   "issue": null,
+   "domain": "dengekionline.com",
+   "url": "https://dengekionline.com/elem/000/000/753/753933/",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama.md",
+   "title": "[访谈翻译] 周刊 Fami通 独家专访：增田顺一与景山将太谈《宝可梦 X·Y》音频制作秘辛与卡洛斯法兰西音乐美学",
+   "year": 2013,
+   "date": "2013-11-16",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "週刊ファミ通 (Famitsu.com)",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201311/16043307.html",
+   "people": [
+    "增田顺一",
+    "景山将太",
+    "一之濑刚"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-21-scan-ndream-2014-01-lumiose-city-guide.md",
+   "title": "Nintendo DREAM 2013：宝可梦X·Y密阿雷市观光指南与人物名鉴",
+   "year": 2013,
+   "date": "2013-11-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2014年1月号（Vol.237）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-21-scan-ndream-2014-01-mega-evolution-special.md",
+   "title": "Nintendo DREAM 2013：《宝可梦 X·Y》超级进化宝可梦彻底解析（附前五道馆故事攻略）",
+   "year": 2013,
+   "date": "2013-11-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2014年1月号（Vol.237）",
+   "domain": "",
+   "url": "",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2013-11-21-scan-ndream-2014-01-xy-sound-team-interview.md",
+   "title": "Nintendo DREAM 2013：《宝可梦 X·Y》声音团队访谈「乐曲魂」特别篇",
+   "year": 2013,
+   "date": "2013-11-21",
+   "lang": "ja",
+   "medium": "纸媒·自扫描",
+   "outlet": "Nintendo DREAM",
+   "issue": "2014年1月号（Vol.237）",
+   "domain": "",
+   "url": "",
+   "people": [
+    "景山将太",
+    "佐藤仁美",
+    "足立美奈子"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2014-02-14-interview-gameinformer-masuda-afterwords-xy.md",
+   "title": "[访谈翻译] Game Informer 独家专访增田顺一：《宝可梦 X·Y》全景事后解密与宝可友友乐诞生",
+   "year": 2014,
+   "date": "2014-02-14",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2014/02/14/afterwords-unabridged-pokemon-x-and-y.aspx",
+   "people": [
+    "增田顺一",
+    "AZ",
+    "布拉塔诺博士",
+    "弗拉达利",
+    "莎娜"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 黑·白",
+    "Pokémon HOME",
+    "Pokémon Bank"
+   ],
+   "source_kind": "magazine_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2014-03-19-interview-interview-21.md",
+   "title": "[访谈翻译] 初代概念美术整理 EN",
+   "year": 2014,
+   "date": "2014-03-19",
+   "lang": "en",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "",
+   "issue": null,
+   "domain": "glitterberri.com (wayback)",
+   "url": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+   "people": [
+    "增田顺一",
+    "杉森建"
+   ],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-05-01-interview-tpc-global-business-hirobe.md",
+   "title": "宝可梦公司官方专访 广部圭太社长室部长：全球事业最前线——『宝可梦 X·Y』史上首次全球同步宣发与发售内幕",
+   "year": 2014,
+   "date": "2014-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview3.html",
+   "people": [
+    "廣部圭太",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 黑·白",
+    "Pokemon Direct"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-05-01-interview-tpc-leaders-challenge.md",
+   "title": "宝可梦公司官方专访 领袖篇：支撑全球事业的核心管理者谈职业轨迹与挑战志向（河本拓 × 鹿瀬岛英介 × 福嶋ゆかり）",
+   "year": 2014,
+   "date": "2014-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 官方招聘网站 (Wayback Machine 历史归档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview1.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-05-01-interview-tpc-youth-roundtable.md",
+   "title": "宝可梦公司官方专访 青年座谈会：由我们来改变未来（大奈路まりな × 菅野隼人 × 古谷翔）",
+   "year": 2014,
+   "date": "2014-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 官方招聘网站 (Wayback Machine 历史归档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20140531170655/http://www.pokemon.co.jp/corporate/job/saiyo/interview/interview2.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-05-14-interview-pokemoncom-2014-maestro.md",
+   "title": "Pokemon.com 2014：增田顺一谈二十余年游戏作曲与宝可梦音乐",
+   "year": 2014,
+   "date": "2014-05-14",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Pokemon.com（美国官网）（2014-05-14）",
+   "issue": null,
+   "domain": "pokemon.com",
+   "url": "https://www.pokemon.com/us/pokemon-news/a-conversation-with-pokemons-musical-maestro/",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto.md",
+   "title": "GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点",
+   "year": 2014,
+   "date": "2014-07-02",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "game.watch.impress.co.jp",
+   "url": "https://game.watch.impress.co.jp/docs/news/655639.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-08-22-interview-niconico-gamefreak-origins-masuda.md",
+   "title": "NicoNico专访 GAME FREAK 增田顺一：曾有一群自制FC游戏的极客——《旋转方块》家庭作坊时代、九人打造红绿与结构主义游戏哲学",
+   "year": 2014,
+   "date": "2014-08-22",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "NicoNico Blomaga",
+   "issue": null,
+   "domain": "sp.ch.nicovideo.jp (wayback)",
+   "url": "https://web.archive.org/web/20230204141619/https://sp.ch.nicovideo.jp/indies-game/blomaga/ar604905?s=09",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras.md",
+   "title": "2083WEB 专访 GAME FREAK 声音团队：传承十八载的宝可梦音乐接力棒——从《红·绿》芯片音到《欧米伽红宝石·阿尔法蓝宝石》",
+   "year": 2014,
+   "date": "2014-10-31",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "2083WEB (Game Music Web)",
+   "issue": null,
+   "domain": "2083.jp",
+   "url": "http://www.2083.jp/contents/201410gamefreak/",
+   "people": [],
+   "works": [
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-11-01-interview-elpais-oras-masuda-ohmori.md",
+   "title": "“为全世界所有孩子创造喜爱的作品，让人既感动又心怀敬畏”——西班牙《国家报》专访增田顺一与大森滋",
+   "year": 2014,
+   "date": "2014-11-01",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "El País（西班牙国家报）",
+   "issue": null,
+   "domain": "elpais.com",
+   "url": "https://elpais.com/cultura/2014/11/01/actualidad/1414798048_551223.html",
+   "people": [],
+   "works": [
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2014-11-01-interview-topofarmer-ideame-masuda-ohmori.md",
+   "title": "Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录",
+   "year": 2014,
+   "date": "2014-11-01",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "",
+   "issue": null,
+   "domain": "topofarmer.com",
+   "url": "https://www.topofarmer.com/2014/11/01/cronica-ideame-kids-con-junichi-masuda-y-shigeru-ohmori/",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-05-20-interview-pokemon-recruit-business-anatomy.md",
+   "title": "宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）",
+   "year": 2015,
+   "date": "2015-05-20",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 官方招聘网站 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/business.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets.md",
+   "title": "宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选",
+   "year": 2015,
+   "date": "2015-07-14",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "pocketmonsters.net",
+   "url": "https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-08-01-interview-gamefreak-gear-tembo-turner.md",
+   "title": "GAME FREAK 官方访谈 齿轮企划特别篇：『TEMBO THE BADASS ELEPHANT』横版动作爆破开发秘话（James Turner × T.M.）",
+   "year": 2015,
+   "date": "2015-08-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20160405054948/http://www.gamefreak.co.jp/recruit/interview_01.html",
+   "people": [
+    "James Turner",
+    "T.M."
+   ],
+   "works": [
+    "TEMBO THE BADASS ELEPHANT",
+    "节奏猎人 哈莫奈特（リズムハンター ハーモナイト）",
+    "宝可梦 X·Y",
+    "Gear Project（齿轮企划）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-09-01-interview-gamefreak-rnd-launch-taya-mi.md",
+   "title": "GAME FREAK 官方专访：研究开发部（R&D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）",
+   "year": 2015,
+   "date": "2015-09-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20160330115800/http://www.gamefreak.co.jp/recruit/interview_02.html",
+   "people": [
+    "田谷正夫",
+    "M.I."
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 蓝",
+    "Gear Project（齿轮企划）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-10-01-interview-gamefreak-recruit-designers.md",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（图形设计师篇：T.W. × A.I. × T.A.）",
+   "year": 2015,
+   "date": "2015-10-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20160403190310/http://www.gamefreak.co.jp/recruit/interview_03.html",
+   "people": [
+    "T.W.",
+    "A.I.",
+    "T.A."
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-10-01-interview-gamefreak-recruit-planners.md",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（策划篇：H.T. × R.M.）",
+   "year": 2015,
+   "date": "2015-10-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20160330115920/http://www.gamefreak.co.jp/recruit/interview_04.html",
+   "people": [
+    "H.T.",
+    "R.M."
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-10-01-interview-gamefreak-recruit-programmers.md",
+   "title": "GAME FREAK 官方专访：我加入游戏狂想的理由（程序员篇：Y.I. × M.K.）",
+   "year": 2015,
+   "date": "2015-10-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20160402065701/http://www.gamefreak.co.jp/recruit/interview_05.html",
+   "people": [
+    "Y.I.",
+    "M.K."
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "风之克罗诺亚",
+    "女神异闻录3"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2015-11-08-interview-creatures-20th-anniversary.md",
+   "title": "[访谈翻译] Creatures 成立20周年特别对谈：石原恒和 × 田中宏和 回顾宝可梦黎明期",
+   "year": 2015,
+   "date": "2015-11-08",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "",
+   "issue": null,
+   "domain": "creatures.co.jp",
+   "url": "https://www.creatures.co.jp/history_special_interview/",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-01-10-interview-pokemon-recruit-staff-furutani.md",
+   "title": "宝可梦公司官方员工特写03 古谷翔：App事业部——知识与新颖脑洞，皆是创造宝可梦未来的强大武器",
+   "year": 2016,
+   "date": "2016-01-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Pokémon Business Professionals",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/staff/staff003.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-01-10-interview-pokemon-recruit-staff-hayakawa.md",
+   "title": "宝可梦公司官方员工特写05 早川裕崇：法务部——构筑守护全球宝可梦世界观的法律长城",
+   "year": 2016,
+   "date": "2016-01-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Pokémon Business Professionals",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/staff/staff005.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-01-10-interview-pokemon-recruit-staff-izawa.md",
+   "title": "宝可梦公司官方员工特写01 伊泽景胜：卡牌事业部——让触碰宝可梦的人都成为善良温柔的人",
+   "year": 2016,
+   "date": "2016-01-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Pokémon Business Professionals",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/staff/staff001.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦集换式卡牌游戏"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-01-10-interview-pokemon-recruit-staff-kosugi.md",
+   "title": "宝可梦公司官方员工特写04 小杉要：集团统括部——传统与革新并行，维系长盛不衰的经营中枢",
+   "year": 2016,
+   "date": "2016-01-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Pokémon Business Professionals",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/staff/staff004.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-01-10-interview-pokemon-recruit-staff-yoshihara.md",
+   "title": "宝可梦公司官方员工特写02 吉原有香：品牌管理部——发掘足以与皮卡丘比肩的代表性宝可梦",
+   "year": 2016,
+   "date": "2016-01-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Pokémon Business Professionals",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/staff/staff002.html",
+   "people": [],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo.md",
+   "title": "电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈",
+   "year": 2016,
+   "date": "2016-02-17",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "电ファミニコゲーマー",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/project/kikakusyo1_xevious",
+   "people": [
+    "远藤雅伸",
+    "田尻智",
+    "杉森建",
+    "一之濑刚",
+    "横井军平",
+    "平信一"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 金·银",
+    "铁板阵",
+    "迷宫塔",
+    "麦森探险",
+    "俄罗斯方块",
+    "吃豆人世界",
+    "接龙马"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-02-27-interview-inside-2016-ishihara-20th.md",
+   "title": "INSIDE 2016：宝可梦20年，石原恒和谈现实与虚拟的连接",
+   "year": 2016,
+   "date": "2016-02-27",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "INSIDE（インサイド）（2016-02-27）",
+   "issue": null,
+   "domain": "inside-games.jp",
+   "url": "https://www.inside-games.jp/article/2016/02/27/96339.html",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "Pokémon GO",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2016-04-18-interview-denfami-sonobe-gamefreak-morimoto.md",
+   "title": "Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经",
+   "year": 2016,
+   "date": "2016-04-18",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "Denfaminicogamer",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/projectbook/dabisuta",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-05-12-interview-inside-pokken-tournament-developers.md",
+   "title": "Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡",
+   "year": 2016,
+   "date": "2016-05-12",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "inside-games.jp",
+   "url": "https://www.inside-games.jp/article/2016/05/12/98566_2.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-08-25-interview-nikkei-utsunomiya-pokemon-go.md",
+   "title": "日经商务 独家专访宝可梦公司开发总监宇都宫崇人：〈Pokémon GO〉引爆全球狂潮的日美协同内幕（全两篇完整收录）",
+   "year": 2016,
+   "date": "2016-08-25",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "business.nikkei.com",
+   "url": "https://business.nikkei.com/atcl/report/16/081700063/081700002/",
+   "people": [],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-09-06-interview-pokemoncojp-2016-ohmori-sm.md",
+   "title": "宝可梦官网 2016：总监大森滋谈两款软件寄托的想法",
+   "year": 2016,
+   "date": "2016-09-06",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "《宝可梦 太阳·月亮》官网（2016-09-06）",
+   "issue": null,
+   "domain": "pokemon.co.jp",
+   "url": "https://www.pokemon.co.jp/ex/sun_moon/topics/160906_01.html",
+   "people": [
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable.md",
+   "title": "巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望",
+   "year": 2016,
+   "date": "2016-09-30",
+   "lang": "zh",
+   "medium": "网络媒体·日文",
+   "outlet": "巴哈姆特電玩資訊站 (GNN新聞)",
+   "issue": null,
+   "domain": "gnn.gamer.com.tw",
+   "url": "https://gnn.gamer.com.tw/detail.php?sn=137973",
+   "people": [],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-10-19-interview-kotaku-2016-popplio.md",
+   "title": "Kotaku 2016：增田顺一与大森滋回应波普海狮争议",
+   "year": 2016,
+   "date": "2016-10-19",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Kotaku（2016-10-19）",
+   "issue": null,
+   "domain": "kotaku.com",
+   "url": "https://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2016-10-25-interview-kotaku-2016-designs.md",
+   "title": "Kotaku 2016：宝可梦创作者谈《太阳／月亮》荒诞设计",
+   "year": 2016,
+   "date": "2016-10-25",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Kotaku（2016-10-25）",
+   "issue": null,
+   "domain": "kotaku.com",
+   "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2016-12-05-interview-25043.md",
+   "title": "[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: \"No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo\" 20年前我们并不相信会如此成功",
+   "year": 2016,
+   "date": "2016-12-05",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "",
+   "issue": null,
+   "domain": "revistagq.com",
+   "url": "https://www.revistagq.com/noticias/articulos/entrevista-creadores-pokemon-sol-luna/25043",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-12-05-interview-gq-spain-sun-moon-masuda-ohmori.md",
+   "title": "专访宝可梦领舵人：“20年前我们根本不敢想这样的游戏能风靡全球”——《GQ》西班牙专访增田顺一与大森滋",
+   "year": 2016,
+   "date": "2016-12-05",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "GQ España",
+   "issue": null,
+   "domain": "revistagq.com",
+   "url": "https://www.revistagq.com/noticias/articulos/entrevista-pokemon-sol-luna-creadores/25134",
+   "people": [],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori.md",
+   "title": "MeriStation 独家深度专访增田顺一与大森滋：“Nintendo Switch 就是未来”",
+   "year": 2016,
+   "date": "2016-12-12",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "MeriStation（西班牙权威游戏媒体）",
+   "issue": null,
+   "domain": "as.com",
+   "url": "https://as.com/meristation/2016/12/12/noticias/1481540400_157864.html",
+   "people": [],
+   "works": [
+    "宝可梦 钻石·珍珠",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2016-12-12-interview-reportajes.md",
+   "title": "[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: \"Nintendo Switch es el futuro\"",
+   "year": 2016,
+   "date": "2016-12-12",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "",
+   "issue": null,
+   "domain": "as.com",
+   "url": "https://as.com/meristation/2016/12/12/reportajes/1481526000_160843.html",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-03-01-interview-gamefreak-gear-gigawrecker.md",
+   "title": "GAME FREAK 官方访谈 齿轮企划第2弹：Steam 物理破坏动作神作『GIGA WRECKER』开发秘话（M.O. × H.I.）",
+   "year": 2017,
+   "date": "2017-03-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20170719132104/http://www.gamefreak.co.jp/recruit/interview_01.html",
+   "people": [
+    "M.O.",
+    "H.I."
+   ],
+   "works": [
+    "GIGA WRECKER",
+    "TEMBO THE BADASS ELEPHANT",
+    "宝可梦 黑·白",
+    "宝可梦 X·Y",
+    "Gear Project（齿轮企划）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-03-01-interview-pokemon-recruit-world-egami.md",
+   "title": "宝可梦公司官方专访 『Pokémon GO』特别篇：开启次时代大门的那一天（江上周作）",
+   "year": 2017,
+   "date": "2017-03-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 官方招聘网站 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/world.html",
+   "people": [],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-05-10-interview-pokemon-recruit-passion.md",
+   "title": "宝可梦公司官方专访 青年员工座谈：凝聚无尽可能，我们将改变未来（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
+   "year": 2017,
+   "date": "2017-05-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/passion.html",
+   "people": [],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-06-01-interview-gamefreak-rnd-ta-taya-kk.md",
+   "title": "GAME FREAK 官方专访：面向次世代的挑战！研究开发部与技术美术（TA）的全新合流（田谷正夫 × K.K.）",
+   "year": 2017,
+   "date": "2017-06-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20170821152257/http://www.gamefreak.co.jp/recruit/interview_02.html",
+   "people": [
+    "田谷正夫",
+    "K.K."
+   ],
+   "works": [
+    "宝可梦 X·Y",
+    "宝可梦 太阳·月亮",
+    "宝可梦 蓝"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage.md",
+   "title": "Denfami 独家专访 GAME FREAK 新世代总监：大森滋 × 尾上将之详谈传承田尻智传奇、〈太阳／月亮〉搜寻时代设计哲学与齿轮企划（全四回完整收录）",
+   "year": 2017,
+   "date": "2017-07-03",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/interview/170703",
+   "people": [],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-07-03-interview-denfaminicogamer-ohmori-onoue-gear-project.md",
+   "title": "[访谈翻译] 电玩志专访大森滋与尾上将之（后篇）：Game Freak 的企划孵化机制与“齿轮企划”破格传承",
+   "year": 2017,
+   "date": "2017-07-03",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "电ファミニコゲーマー (Denfaminicogamer)",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/interview/170703/2",
+   "people": [
+    "大森滋",
+    "尾上将之",
+    "田尻智",
+    "增田顺一",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮",
+    "小象历险记",
+    "千兆破坏者"
+   ],
+   "source_kind": "web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2017-07-10-interview-cgworld-creatures-cg-studio.md",
+   "title": "CGWORLD 专访：为宝可梦设定画注入生命——Creatures 宝可梦CG工作室的现状与未来",
+   "year": 2017,
+   "date": "2017-07-10",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "CGWORLD.jp",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/interview/creatures-201707.html",
+   "people": [
+    "氏家淳子",
+    "中广健吾",
+    "畠祐贵",
+    "小野宪史"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮",
+    "宝可梦 究极之日·究极之月",
+    "宝可梦竞技场",
+    "宝可梦巡护员",
+    "名侦探皮卡丘"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline.md",
+   "title": "CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新",
+   "year": 2017,
+   "date": "2017-07-10",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/feature/201707-cgw227GG-pokemon.html",
+   "people": [],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-07-15-interview-cgworld-creatures-3d-character-life.md",
+   "title": "CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术",
+   "year": 2017,
+   "date": "2017-07-15",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/interview/creatures-201707.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon.md",
+   "title": "Game Freak’s Origins And Its Pre-Pokémon Games",
+   "year": 2017,
+   "date": "2017-08-09",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/09/game-freaks-origins-and-non-pokemon-games.aspx",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-10-interview-game-informer-how-game-freak-designs-pokemon-creatures.md",
+   "title": "[访谈翻译] 《Game Informer》独家专访：增田顺一揭秘宝可梦生物设计全流程与内部评审（三头猫进化论、GB像素限制与圆润大眼演变）",
+   "year": 2017,
+   "date": "2017-08-10",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/10/heres-how-game-freak-designs-pokemon-creatures.aspx",
+   "people": [
+    "增田顺一",
+    "凯尔·希利亚德"
+   ],
+   "works": [
+    "宝可梦 太阳·月亮",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "web_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-10-interview-gameinformer-how-game-freak-designs-pokemon-creatures.md",
+   "title": "Game Informer 独家特写：Game Freak 是如何设计宝可梦的？——杉森建与增田顺一深度复盘生物设计法则、评审委员会机制与 3D 演进",
+   "year": 2017,
+   "date": "2017-08-10",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer 独家封面特辑",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2017/08/10/heres-how-game-freak-designs-pokemon-creatures.aspx",
+   "people": [],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "web",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging.md",
+   "title": "[访谈翻译] 《Game Informer》独家专访：增田顺一复盘《红宝石·蓝宝石》极限开发（GBA跨代阵痛、特性性格革命与重压下的进退维谷）",
+   "year": 2017,
+   "date": "2017-08-14",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/14/why-ruby-and-sapphire-were-the-most-challenging-pokemon-to-make.aspx",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "凯尔·希利亚德"
+   ],
+   "works": [
+    "宝可梦 红宝石·蓝宝石",
+    "宝可梦 金·银",
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石"
+   ],
+   "source_kind": "web_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging.md",
+   "title": "Game Informer 独家专访：为何《红宝石·蓝宝石》是 Game Freak 史上最艰巨的一役？——增田顺一复盘 GBA 转型阵痛、健康危机与破局之道",
+   "year": 2017,
+   "date": "2017-08-14",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer 独家特写",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2017/08/14/why-ruby-and-sapphire-were-the-most-challenging-pokemon-to-make.aspx",
+   "people": [],
+   "works": [
+    "宝可梦 黑·白",
+    "宝可梦 红宝石·蓝宝石"
+   ],
+   "source_kind": "web",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-15-interview-gi-2017-spinoffs.md",
+   "title": "Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品",
+   "year": 2017,
+   "date": "2017-08-15",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2017-08-15）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/15/game-freaks-directors-share-their-favorite-pokemon-spin-offs",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "Pokémon GO",
+    "宝可梦 随乐拍"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-17-interview-game-informer-creators-on-pokemon-anime.md",
+   "title": "[访谈翻译] Game Informer 独家专访：增田顺一谈初代动画——“我们起初并不确定它能否成功”与大谷育江皮卡丘之声的诞生",
+   "year": 2017,
+   "date": "2017-08-17",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer (Ben Reeves 独家专访)",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/08/17/pokemons-creators-on-the-anime-we-werent-really-sure-about-it.aspx",
+   "people": [
+    "增田顺一",
+    "大谷育江",
+    "本·里夫斯"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 皮卡丘版"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2017-08-18-interview-gi-2017-usum-mode.md",
+   "title": "Game Informer 2017：岩尾和昌谈《宝可梦 究极之日·究极之月》新摄影模式",
+   "year": 2017,
+   "date": "2017-08-18",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2017-08-18）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/b/features/archive/2017/08/18/exclusive-reveal-of-a-new-mode-in-pokemon-ultra-sun-and-moon.aspx",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "岩尾和昌"
+   ],
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2017-09-01-interview-gamefreak-recruit-cross-industry.md",
+   "title": "GAME FREAK 官方专访：跨界英才大展身手！异业种转职加入游戏狂想的先锋们（A.I. × S.A. × H.I.）",
+   "year": 2017,
+   "date": "2017-09-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20170826153717/http://www.gamefreak.co.jp/recruit/interview_06.html",
+   "people": [
+    "A.I.",
+    "S.A.",
+    "H.I."
+   ],
+   "works": [
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-09-05-interview-gigazine-gamefreak-sketches-masuda.md",
+   "title": "GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案",
+   "year": 2017,
+   "date": "2017-09-05",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "gigazine.net",
+   "url": "https://gigazine.net/news/20170905-pokemon-early-design-documents/",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-09-22-interview-gi-2017-gs-history.md",
+   "title": "Game Informer 2017：增田顺一谈《宝可梦 金·银》的开发困境与京都灵感",
+   "year": 2017,
+   "date": "2017-09-22",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2017-09-22）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/b/features/archive/2017/09/22/the-history-of-pokemon-gold-and-silver.aspx",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "杉森建",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 金·银"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2017-10-19-interview-famitsu-usum-ohmori-iwao-director.md",
+   "title": "[访谈翻译] Fami通《宝可梦 究极之日·究极之月》开发团队深度访谈：大森滋与岩尾和昌谈阿罗拉终极进化与年轻体制",
+   "year": 2017,
+   "date": "2017-10-19",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "週刊ファミ通",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201710/19143850.html",
+   "people": [
+    "大森滋",
+    "岩尾和昌",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 究极之日·究极之月",
+    "宝可梦 太阳·月亮",
+    "宝可梦 黑·白"
+   ],
+   "source_kind": "magazine_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori.md",
+   "title": "[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》",
+   "year": 2017,
+   "date": "2017-10-19",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "pocketmonsters.net",
+   "url": "https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM",
+   "people": [],
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-11-06-interview-2017-game-freak-dordogne-enquete.md",
+   "title": "[访谈翻译] [Enquête] Game Freak en Dordogne : le futur de Pokémon ? GF 前往南法取材",
+   "year": 2017,
+   "date": "2017-11-06",
+   "lang": "es",
+   "medium": "网络媒体·西/法/意",
+   "outlet": "",
+   "issue": null,
+   "domain": "pokemontrash.com",
+   "url": "https://www.pokemontrash.com/news/2017-game-freak-dordogne-enquete/",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "海野隆雄"
+   ],
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2017-11-09-interview-pokemon-com-usum-ohmori-iwao.md",
+   "title": "Pokemon.com 官方独家专访：大森滋与岩尾和昌揭秘《宝可梦 究极之日·究极之月》集大成之道",
+   "year": 2017,
+   "date": "2017-11-09",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Pokemon.com / PocketMonsters.net",
+   "issue": null,
+   "domain": "pokemon.com",
+   "url": "https://www.pokemon.com/us/pokemon-news/an-exclusive-interview-with-the-makers-of-pokemon-ultra-sun-and-pokemon-ultra-moon/",
+   "people": [
+    "大森滋",
+    "岩尾和昌",
+    "杉森建",
+    "坂木",
+    "古兹马"
+   ],
+   "works": [
+    "宝可梦 究极之日·究极之月",
+    "宝可梦 太阳·月亮",
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石",
+    "宝可梦 红宝石·蓝宝石",
+    "宝可梦 黑·白",
+    "宝可梦 皮卡丘版"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.md",
+   "title": "Fami通《宝可梦 究极之日·究极之月》主创剧透解密：总监岩尾和昌与主编剧杉中克考详谈阿罗拉“核心”剧情与平行世界可能性",
+   "year": 2018,
+   "date": "2018-01-02",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201801/02148529.html",
+   "people": [],
+   "works": [
+    "宝可梦 究极之日·究极之月",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-02-23-interview-newspicks-pokemon-utsunomiya-kawamoto.md",
+   "title": "正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人",
+   "year": 2018,
+   "date": "2018-02-23",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "NewsPicks",
+   "issue": null,
+   "domain": "newspicks.com",
+   "url": "https://newspicks.com/news/2836245/",
+   "people": [
+    "宇都宫崇人",
+    "河本拓",
+    "石原恒和"
+   ],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita.md",
+   "title": "Fami通专访《名侦探皮卡丘》主创：热爱咖啡的大叔皮卡丘与人类宝可梦共生莱姆市",
+   "year": 2018,
+   "date": "2018-03-30",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201803/30154405.html",
+   "people": [],
+   "works": [
+    "名侦探皮卡丘"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-05-01-interview-tpc-pikachu-origin-sugimori-nishino-nishida.md",
+   "title": "宝可梦官方绝密档案：『皮卡丘诞生秘话』——大福原型、幻之进化型“哥罗丘”与常青森林独占欲秘史（杉森建 × 西野弘二 × 西田敦子）",
+   "year": 2018,
+   "date": "2018-05-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 公式アーカイブ (Wayback 历史存档)",
+   "issue": null,
+   "domain": "pokemon.co.jp (wayback)",
+   "url": "https://web.archive.org/web/20190108050342/http://www.pokemon.co.jp/corporate/pikachu/",
+   "people": [
+    "杉森建",
+    "西野弘二",
+    "にしだあつこ",
+    "田尻智",
+    "汤山邦彦",
+    "大谷育江"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-05-12-interview-4gamer-2018-usum-fanmeeting.md",
+   "title": "4Gamer.net 2018：Game Freak谈《宝可梦 究极之日·究极之月》秘话",
+   "year": 2018,
+   "date": "2018-05-12",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "4Gamer.net（2018-05-12）",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/383/G038332/20180512011/",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "岩尾和昌"
+   ],
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "source_kind": "event_report",
+   "article_kind": null
+  },
+  {
+   "file": "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music.md",
+   "title": "増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート",
+   "year": 2018,
+   "date": "2018-05-15",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com (Famitsu)",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201805/15157253.html",
+   "people": [],
+   "works": [
+    "宝可梦 究极之日·究极之月"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-05-30-interview-gamer-pokemon-press-conference-2018.md",
+   "title": "《宝可梦 探险寻宝》与《Let's Go！皮卡丘·伊布》新作发布会现场深度全记录与主创访谈",
+   "year": 2018,
+   "date": "2018-05-30",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "Gamer.ne.jp",
+   "issue": null,
+   "domain": "gamer.ne.jp",
+   "url": "https://www.gamer.ne.jp/news/201805300063/",
+   "people": [
+    "石原恒和",
+    "增田顺一",
+    "高桥伸也",
+    "大森滋",
+    "松崎翼",
+    "齐田和生",
+    "野村达雄",
+    "约翰·汉克"
+   ],
+   "works": [
+    "宝可梦 探险寻宝",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Pokémon GO",
+    "宝可梦 红·绿",
+    "宝可梦 皮卡丘版"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle.md",
+   "title": "[访谈翻译] 电玩志三巨头对谈：石原恒和 × 川岛优志 × 增田顺一谈《Pokemon GO》奇迹与现实交汇",
+   "year": 2018,
+   "date": "2018-06-08",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "电ファミニコゲーマー (Denfaminicogamer)",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/interview/180608",
+   "people": [
+    "石原恒和",
+    "川岛优志",
+    "增田顺一",
+    "约翰·汉克",
+    "野村达雄"
+   ],
+   "works": [
+    "Pokémon GO",
+    "Ingress",
+    "宝可梦 红·绿",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": "web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle.md",
+   "title": "[访谈翻译] 电玩志三巨头对谈（后篇）：石原恒和 × 川岛优志 × 增田顺一揭秘《Pokemon GO》50倍服务器洪峰与社会现象",
+   "year": 2018,
+   "date": "2018-06-08",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "电ファミニコゲーマー (Denfaminicogamer)",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/interview/180608/2",
+   "people": [
+    "石原恒和",
+    "川岛优志",
+    "增田顺一",
+    "约翰·汉克",
+    "野村达雄"
+   ],
+   "works": [
+    "Pokémon GO",
+    "Ingress"
+   ],
+   "source_kind": "web_magazine",
+   "article_kind": null
+  },
+  {
+   "file": "2018-06-12-interview-early-concept-art.md",
+   "title": "[访谈翻译] Early Concept Art 宝可梦早期概念美术",
+   "year": 2018,
+   "date": "2018-06-12",
+   "lang": "en",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "",
+   "issue": null,
+   "domain": "glitterberri.com (wayback)",
+   "url": "https://web.archive.org/web/20180612124601/http://www.glitterberri.com/pokemon-red-blue/early-concept-art",
+   "people": [
+    "增田顺一",
+    "杉森建",
+    "森本茂树"
+   ],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design.md",
+   "title": "FUN'S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得",
+   "year": 2018,
+   "date": "2018-06-25",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "DNP 大日本印刷 FUN'S PROJECT",
+   "issue": null,
+   "domain": "funs-project.com",
+   "url": "https://funs-project.com/poplab/007/",
+   "people": [],
+   "works": [],
+   "source_kind": "web",
+   "article_kind": null
+  },
+  {
+   "file": "2018-07-26-interview-creators-of-pikachu.md",
+   "title": "[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二",
+   "year": 2018,
+   "date": "2018-07-26",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Pokemon.com 官方特辑",
+   "issue": null,
+   "domain": "pokemon.com",
+   "url": "https://www.pokemon.com/us/pokemon-news/creator-profile-the-creators-of-pikachu/",
+   "people": [
+    "杉森建",
+    "西田敦子",
+    "西野弘二"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 皮卡丘版"
+   ],
+   "source_kind": "web",
+   "article_kind": null
+  },
+  {
+   "file": "2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance.md",
+   "title": "[访谈翻译] 读卖新闻 × Siliconera 专访杉森建：宝可梦设计的“减法美学”与帅气/可爱的微妙平衡",
+   "year": 2018,
+   "date": "2018-07-27",
+   "lang": "en",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "読売新聞 (Yomiuri Shimbun) / Siliconera",
+   "issue": null,
+   "domain": "siliconera.com",
+   "url": "https://www.siliconera.com/pokmon-designer-on-balancing-cool-or-cute-pokmon-by-adding-uncool-or-uncute-features/",
+   "people": [
+    "杉森建"
+   ],
+   "works": [],
+   "source_kind": "newspaper_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2018-08-07-interview-tajiri-manga.md",
+   "title": "[访谈翻译] helixchamber 田尻 自传漫画 研究",
+   "year": 2018,
+   "date": "2018-08-07",
+   "lang": "ja",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "",
+   "issue": null,
+   "domain": "helixchamber.com",
+   "url": "https://helixchamber.com/2018/08/07/tajiri-manga/",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-08-07-research-helixchamber-satoshi-tajiri-manga.md",
+   "title": "Helix Chamber 深度特写：解读田尻智自传漫画——初代胶囊怪兽草案、1992年内部人气投票与失落原案全考证",
+   "year": 2018,
+   "date": "2018-08-07",
+   "lang": "ja",
+   "medium": "研究整理（GlitterBerri / HelixChamber / 同人回忆）",
+   "outlet": "Helix Chamber",
+   "issue": null,
+   "domain": "helixchamber.com",
+   "url": "https://helixchamber.com/2018/08/07/what-does-satoshi-tajiris-manga-tell-us-about-pokemons-earliest-development/",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-09-10-interview-funsproject-atsuko-nishida-pikachu.md",
+   "title": "FUN'S PROJECT 专访西田敦子：皮卡丘之母谈仙子伊布诞生、极简剪影法则与烤羊肉的奇思妙想",
+   "year": 2018,
+   "date": "2018-09-10",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "funs-project.com",
+   "url": "https://funs-project.com/poplab/007/",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-09-12-interview-businesslawyers-pokemon-legal.md",
+   "title": "Business Lawyers 独家专访宝可梦公司法务总监富田裕介：支撑全球千亿IP的法务制片人哲学",
+   "year": 2018,
+   "date": "2018-09-12",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "businesslawyers.jp",
+   "url": "https://www.businesslawyers.jp/articles/491",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-09-27-interview-polygon-2018-masuda-rb.md",
+   "title": "Polygon 2018：增田顺一谈《宝可梦 红·蓝》的开发",
+   "year": 2018,
+   "date": "2018-09-27",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Polygon（2018-09-27）",
+   "issue": null,
+   "domain": "polygon.com",
+   "url": "https://www.polygon.com/interviews/2018/9/27/17909916/pokemon-red-blue-junichi-masuda-interview/",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2018-10-12-interview-eurogamer-letsgo-masuda.md",
+   "title": "Eurogamer 专访增田顺一：详谈《Let's Go! 皮卡丘／伊布》机制革新、美录坦登场与交棒下一代",
+   "year": 2018,
+   "date": "2018-10-12",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Eurogamer",
+   "issue": null,
+   "domain": "eurogamer.net",
+   "url": "https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future",
+   "people": [],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-10-17-interview-gamespot-lgpe-masuda.md",
+   "title": "GameSpot 独家深度专访：增田顺一谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》如何为新世代重塑《宝可梦 黄》",
+   "year": 2018,
+   "date": "2018-10-17",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "GameSpot",
+   "issue": null,
+   "domain": "gamespot.com",
+   "url": "https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/",
+   "people": [
+    "增田顺一",
+    "名花健作",
+    "Kevin Knezevic"
+   ],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 皮卡丘版",
+    "宝可梦 红·绿",
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-10-18-interview-gamespot-lgpe-masuda.md",
+   "title": "[访谈翻译] GameSpot 专访增田顺一：《Let's Go！皮卡丘／伊布》如何重塑《宝可梦 黄》",
+   "year": 2018,
+   "date": "2018-10-18",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamespot.com",
+   "url": "https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462538/",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 皮卡丘版",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future.md",
+   "title": "[访谈翻译] Eurogamer 独家专访：增田顺一谈《Let's Go！皮卡丘／伊布》降维难度、美录坦解密企划与开放世界愿景",
+   "year": 2018,
+   "date": "2018-10-26",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Eurogamer.net (Chris Tapsell 独家专访)",
+   "issue": null,
+   "domain": "eurogamer.net",
+   "url": "https://www.eurogamer.net/junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future",
+   "people": [
+    "增田顺一",
+    "菜花健作",
+    "克里斯·塔普塞尔"
+   ],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "Pokémon GO",
+    "宝可梦 皮卡丘版",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2018-10-26-interview-eurogamer-masuda-nabana-lets-go.md",
+   "title": "Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let's Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学",
+   "year": 2018,
+   "date": "2018-10-26",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "eurogamer.de",
+   "url": "https://www.eurogamer.de/pokemon-lets-go-pikachu-und-evoli-der-lange-weg-zum-meistertrainer",
+   "people": [],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2018-11-01-interview-pokemoncom-2018-letsgo-makers.md",
+   "title": "Pokemon.com（美国官网）2018：增田顺一与菜花健作谈《宝可梦 Let's Go！皮卡丘·Let's Go！伊布》",
+   "year": 2018,
+   "date": "2018-11-01",
+   "lang": "en",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Pokemon.com（美国官网）（2018-11-01）",
+   "issue": null,
+   "domain": "pokemon.com",
+   "url": "https://www.pokemon.com/us/pokemon-news/meet-the-makers-of-pokemon-lets-go-pikachu-and-pokemon-lets-go-eevee/",
+   "people": [
+    "增田顺一",
+    "菜花健作"
+   ],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2018-12-01-interview-pokemon-recruit-communication-egami.md",
+   "title": "宝可梦公司官方专访 『Pokémon GO』特别篇：以现实为舞台、连接全球人际纽带的沟通奇迹（江上周作）",
+   "year": 2018,
+   "date": "2018-12-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用サイト (Wayback 历史存档)",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20201101011443/https://recruit.pokemon.co.jp/saiyo/interview/communication.html",
+   "people": [
+    "江上周作",
+    "增田顺一"
+   ],
+   "works": [
+    "Pokémon GO",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-04-01-interview-gamefreak-recruit-pg-yi.md",
+   "title": "GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&D 前沿技术追求（Y.I.）",
+   "year": 2019,
+   "date": "2019-04-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20200804213450/https://www.gamefreak.co.jp/recruit/interview/yi/",
+   "people": [
+    "Y.I."
+   ],
+   "works": [
+    "宝可梦 太阳·月亮",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-04-01-interview-gamefreak-recruit-pl-my.md",
+   "title": "GAME FREAK 官方专访 策划特辑：我的提案在宝可梦中生根发芽，立志成为系列首位女性总监（M.Y.）",
+   "year": 2019,
+   "date": "2019-04-01",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報 (Wayback 历史存档)",
+   "issue": null,
+   "domain": "gamefreak.co.jp (wayback)",
+   "url": "http://web.archive.org/web/20200804213443/https://www.gamefreak.co.jp/recruit/interview/my/",
+   "people": [
+    "M.Y."
+   ],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-05-09-interview-vgc-gamefreak-gear-project.md",
+   "title": "VGC 专访 GAME FREAK 尾上将之：GEAR PROJECT 机制与第一制作组的原创野心——追求超越宝可梦的冲击力",
+   "year": 2019,
+   "date": "2019-05-09",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Video Games Chronicle (VGC)",
+   "issue": null,
+   "domain": "videogameschronicle.com",
+   "url": "https://www.videogameschronicle.com/features/interviews/game-freak-were-trying-to-create-something-more-than-pokemon/",
+   "people": [],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-05-18-interview-siliconera-harmoknight-drill-dozer.md",
+   "title": "[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘",
+   "year": 2019,
+   "date": "2019-05-18",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "",
+   "issue": null,
+   "domain": "siliconera.com",
+   "url": "https://www.siliconera.com/game-freak-illustration-video-series-tackles-the-making-of-harmoknight-and-drill-dozer/",
+   "people": [
+    "杉森建",
+    "海野隆雄"
+   ],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori.md",
+   "title": "Fami通 E3 2019 现场直击增田顺一与大森滋：正面回应宝可梦登场方针转变（全国图鉴决策）、极巨团体战与旷野地带革新",
+   "year": 2019,
+   "date": "2019-06-13",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201906/13177936.html",
+   "people": [],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-01-interview-gi-2019-dexit.md",
+   "title": "Game Informer 2019：增田顺一谈《宝可梦 剑·盾》图鉴削减与未来回归",
+   "year": 2019,
+   "date": "2019-10-01",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2019-10-01）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/2019/10/01/pokemon-cut-from-sword-and-shields-national-pokedex-will-return-in-the-future",
+   "people": [
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd.md",
+   "title": "[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力",
+   "year": 2019,
+   "date": "2019-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Eurogamer",
+   "issue": null,
+   "domain": "eurogamer.net",
+   "url": "https://www.eurogamer.net/pokemon-sword-and-shield-junichi-masuda-shigeru-ohmori-interview",
+   "people": [
+    "增田顺一",
+    "大森滋",
+    "克里斯·塔普塞尔"
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "Pokémon GO",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "塞尔达传说：旷野之息"
+   ],
+   "source_kind": "web_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-24-interview-gi-2019-burning.md",
+   "title": "Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈",
+   "year": 2019,
+   "date": "2019-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2019-10-24）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/interview/2019/10/24/more-burning-questions-for-the-pokemon-series",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-24-interview-gi-2019-champion.md",
+   "title": "Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》",
+   "year": 2019,
+   "date": "2019-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2019-10-24）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://gameinformer.com/interview/2019/10/24/game-freak-talks-sword-and-shields-champion-wild-area-interactions-and-more",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-24-interview-polygon-2019-swsh.md",
+   "title": "Polygon 2019：增田顺一与大森滋谈《宝可梦 剑·盾》",
+   "year": 2019,
+   "date": "2019-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Polygon（2019-10-24）",
+   "issue": null,
+   "domain": "polygon.com",
+   "url": "https://www.polygon.com/interviews/2019/10/24/20929597/game-freak-explains-the-1000-staff-missing-creatures-and-leek-size-of-pokemon-sword-and-shield/",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-24-interview-vg247-2019-swsh.md",
+   "title": "VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议",
+   "year": 2019,
+   "date": "2019-10-24",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "VG247（2019-10-24）",
+   "issue": null,
+   "domain": "vg247.com",
+   "url": "https://www.vg247.com/pokemon-sword-shield-interview-no-regrets-national-dex",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦 Let's Go！皮卡丘/伊布"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-25-interview-famitsu-2019-swsh-autosave.md",
+   "title": "Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档",
+   "year": 2019,
+   "date": "2019-10-25",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "Fami通.com（2019-10-25）",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201910/25185773.html",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-10-25-interview-famitsu-sword-shield-masuda-ohmori.md",
+   "title": "《宝可梦 剑·盾》增田顺一 × 大森滋发售前夕核心深度专访：极巨化与培育减负的变革之路",
+   "year": 2019,
+   "date": "2019-10-25",
+   "lang": "ja",
+   "medium": "纸媒·转录/网络版",
+   "outlet": "ファミ通.com / 週刊ファミ通 2019年11月28日号",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/201910/25185698.html",
+   "people": [
+    "增田顺一",
+    "大森滋"
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest.md",
+   "title": "[访谈翻译] 4Gamer《宝可梦 剑·盾》发售纪念专访：大森滋与增田顺一详解“最强”设计哲学、极巨化与伽勒尔生态",
+   "year": 2019,
+   "date": "2019-11-12",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "4Gamer.net (Gueed 独家专访)",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/451/G045125/20191112090/",
+   "people": [
+    "大森滋",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦 太阳·月亮",
+    "宝可梦 X·Y"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2019-11-13-interview-gi-2019-going-big.md",
+   "title": "Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》",
+   "year": 2019,
+   "date": "2019-11-13",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "Game Informer（2019-11-13）",
+   "issue": null,
+   "domain": "gameinformer.com",
+   "url": "https://www.gameinformer.com/feature/2019/11/13/going-big",
+   "people": [
+    "James Turner",
+    "增田顺一",
+    "大森滋",
+    "岩尾和昌"
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2019-11-20-interview-cit-kensaku-nabana-robotics.md",
+   "title": "千叶工大特写专访 GAME FREAK 企划总监名花健作：从机器人学到宝可梦战斗系统构建之道",
+   "year": 2019,
+   "date": "2019-11-20",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "CIT 未来ロボティクス学科",
+   "issue": null,
+   "domain": "robotics.it-chiba.ac.jp",
+   "url": "https://www.robotics.it-chiba.ac.jp/j/?p=484",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2020-03-01-interview-tpc-business-professionals.md",
+   "title": "宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学",
+   "year": 2020,
+   "date": "2020-03-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/career.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2020-07-01-interview-canuch-gamefreak-office-architecture.md",
+   "title": "CANUCH 建筑设计深度特写：揭秘 GAME FREAK 东京新总部——以“红·绿宝可梦世界与常青森林探索”为核心的生命力办公空间哲学",
+   "year": 2020,
+   "date": "2020-07-01",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "canuch.com",
+   "url": "https://canuch.com/projects/game-freak",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2020-12-21-interview-nikkei-ishihara-go-boardgames.md",
+   "title": "日本经济新闻 深度特写宝可梦社长石原恒和：从父亲传授围棋到千亿IP帝国舵手，与岩田聪、田尻智的初心原点",
+   "year": 2020,
+   "date": "2020-12-21",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "日本経済新聞",
+   "issue": null,
+   "domain": "style.nikkei.com",
+   "url": "https://style.nikkei.com/article/DGXKZO67530060R21C20A2KNTP00/",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2020-12-25-interview-corocoro-coco-okazaki-taiiku.md",
+   "title": "《剧场版 宝可梦 可可》音乐总监专访：冈崎体育谈父子羁绊与萨戮德之歌",
+   "year": 2020,
+   "date": "2020-12-25",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "コロコロオンライン（Corocoro Online）",
+   "issue": null,
+   "domain": "corocoro.jp",
+   "url": "https://corocoro.jp/special/152162/",
+   "people": [
+    "冈崎体育",
+    "乌龟松本",
+    "木村KAELA",
+    "橘庆太",
+    "小林幸子",
+    "石原恒和"
+   ],
+   "works": [
+    "剧场版 宝可梦 可可",
+    "剧场版 宝可梦 超梦的逆袭"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-02-27-interview-oricon-2021-ishihara-25th.md",
+   "title": "ORICON NEWS 2021：宝可梦25周年 石原恒和谈人与人的联系",
+   "year": 2021,
+   "date": "2021-02-27",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ORICON NEWS（2021-02-27）",
+   "issue": null,
+   "domain": "oricon.co.jp",
+   "url": "https://www.oricon.co.jp/news/2185697/full/",
+   "people": [
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 红·绿",
+    "宝可梦集换式卡牌游戏",
+    "Pokémon GO"
+   ],
+   "source_kind": "media_feature",
+   "article_kind": null
+  },
+  {
+   "file": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md",
+   "title": "Fami通专访《New 宝可梦随乐拍》：石原恒和社长×须崎春树总监畅谈相机生态与22年跨越",
+   "year": 2021,
+   "date": "2021-04-30",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/202104/30218824.html",
+   "people": [],
+   "works": [
+    "宝可梦随乐拍"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-11-08-interview-creatures-history-special-ishihara-tanaka.md",
+   "title": "Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学",
+   "year": 2021,
+   "date": "2021-11-08",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "Creatures Inc. Official Special Talk",
+   "issue": null,
+   "domain": "creatures.co.jp",
+   "url": "https://www.creatures.co.jp/history_special_interview",
+   "people": [],
+   "works": [
+    "Pokémon GO",
+    "宝可梦集换式卡牌游戏"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-11-29-interview-newspicks-pokemon-job-rotation.md",
+   "title": "NewsPicks 独家专访宝可梦公司役员大洞翔一 × 今村啓太：千亿IP背后的“组织应变力”——轮岗机制、音乐短片〈GOTCHA!〉诞生记与全日本宝可梦井盖哲学",
+   "year": 2021,
+   "date": "2021-11-29",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "NewsPicks Brand Design",
+   "issue": null,
+   "domain": "newspicks.com",
+   "url": "https://newspicks.com/news/6367027/body/",
+   "people": [
+    "大洞翔一",
+    "今村啓太",
+    "川村元気",
+    "松本理恵"
+   ],
+   "works": [
+    "GOTCHA!",
+    "Pokémon GO",
+    "宝可梦 剑·盾",
+    "宝可梦 晶灿钻石·明亮珍珠",
+    "宝可梦传说 阿尔宙斯",
+    "Pokéfuta（宝可梦井盖）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-designer.md",
+   "title": "GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-designer/",
+   "people": [],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-game-programmer.md",
+   "title": "GAME FREAK 官方对谈 游戏程序员篇：最重要的是否能把握住“玩法的本质”（M.O. × K.I.）",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-game-programmer/",
+   "people": [],
+   "works": [
+    "宝可梦传说 阿尔宙斯"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-new-graduate.md",
+   "title": "GAME FREAK 官方对谈 应届新人篇：入社动机、新人培训与成长土壤——6位年轻开发者的真实心声",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-new-graduate/",
+   "people": [
+    "R.S.",
+    "T.M.",
+    "A.T.",
+    "I.F.",
+    "R.N.",
+    "K.K."
+   ],
+   "works": [
+    "宝可梦 朱·紫",
+    "Gear Project"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-planner.md",
+   "title": "GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-planner/",
+   "people": [],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-programmer.md",
+   "title": "GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-programmer/",
+   "people": [],
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-scenario.md",
+   "title": "GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 株式会社ゲームフリーク 官方招聘专栏 Crosstalk",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-scenario/",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-crosstalk-system-programmer.md",
+   "title": "GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/crosstalk-system-programmer/",
+   "people": [
+    "K.M.",
+    "H.T."
+   ],
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-concept-artist-fk.md",
+   "title": "GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-gr-fk/",
+   "people": [
+    "F.K."
+   ],
+   "works": [
+    "宝可梦 究极之日·究极之月",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-designer-ek.md",
+   "title": "GAME FREAK 官方UI设计组长特写 E.K.：自由建言与持续进修，打造全年龄友好的无障碍UI体验",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-gr-ek/",
+   "people": [
+    "E.K."
+   ],
+   "works": [
+    "宝可梦 太阳·月亮",
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-designer-ht.md",
+   "title": "GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-gr-ht/",
+   "people": [
+    "H.T."
+   ],
+   "works": [
+    "小镇英雄",
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-designer-kn.md",
+   "title": "GAME FREAK 官方3D场景设计师特写 K.N.：善于倾听每一份声音，方能打磨出深获喜爱的游戏世界",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-gr-kn/",
+   "people": [
+    "K.N."
+   ],
+   "works": [
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布",
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-designer-mi.md",
+   "title": "GAME FREAK 官方动作与UI设计师特写 M.I.：不局限于美术图形，而要全盘融入游戏构筑的无限可能",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-gr-mi/",
+   "people": [
+    "M.I."
+   ],
+   "works": [
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-planner-kf.md",
+   "title": "GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pl-kf/",
+   "people": [
+    "K.F."
+   ],
+   "works": [
+    "Pokémon HOME",
+    "宝可梦系列生态架构"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-planner-rm.md",
+   "title": "GAME FREAK 官方策划特写 R.M.：哪怕是普通的文科生，也能向着顶级游戏策划发起冲击",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pl-rm/",
+   "people": [
+    "R.M."
+   ],
+   "works": [
+    "宝可梦 剑·盾 扩充票",
+    "全新企划项目"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-programmer-ht.md",
+   "title": "GAME FREAK 官方云端架构工程师特写 H.T.：全面强化组织效能——推动开发环境向全云端架构演进",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pg-ht/",
+   "people": [
+    "H.T."
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "开发环境全云端架构"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-programmer-km.md",
+   "title": "GAME FREAK 官方研发总监特写 K.M.：我们所研发的，正是 GAME FREAK 的未来",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pg-km/",
+   "people": [
+    "K.M."
+   ],
+   "works": [
+    "宝可梦系列专有引擎研发",
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-programmer-ko.md",
+   "title": "GAME FREAK 官方系统程序员特写 K.O.：深信自身的持续成长，必然带动 GAME FREAK 整体的飞跃",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pg-ko/",
+   "people": [
+    "K.O."
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-programmer-tk.md",
+   "title": "GAME FREAK 官方程序员特写 T.K.：如果程序员轻言“不可能”，那么任何天马行空的创意都将化为泡影",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-pg-tk/",
+   "people": [
+    "T.K."
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2021-12-27-interview-gamefreak-recruit-ta-tk.md",
+   "title": "GAME FREAK 官方技术美术（TA）特写 T.K.：敏锐预判创作者需求、亲手开拓崭新环境的 TA 之道",
+   "year": 2021,
+   "date": "2021-12-27",
+   "lang": "ja",
+   "medium": "官方·Game Freak 招聘/官网",
+   "outlet": "Game Freak 採用情報",
+   "issue": null,
+   "domain": "gamefreak.co.jp",
+   "url": "https://www.gamefreak.co.jp/recruit/interview-ta-tk/",
+   "people": [
+    "T.K."
+   ],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯",
+    "Houdini管线研发",
+    "动作捕捉系统"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2022-03-01-interview-tpc-recruit-new-generation.md",
+   "title": "宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变",
+   "year": 2022,
+   "date": "2022-03-01",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/newgeneration.html",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2022-04-10-interview-pokemon-recruit-growth.md",
+   "title": "宝可梦公司官方专访 职场成长特别篇：自那时起五年——我们在千亿舞台上的当下坐标（林祐衣 × 髙草真生 × 的场昂树 × 寺田佑贵 × 小岛彬）",
+   "year": 2022,
+   "date": "2022-04-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/growth.html",
+   "people": [],
+   "works": [
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.md",
+   "title": "[访谈翻译] CEDEC 2022 专访报告：Game Freak 如何双轨并行开发《传说 阿尔宙斯》与《朱·紫》？千种宝可梦资产通用化与差异化渲染管线",
+   "year": 2022,
+   "date": "2022-08-25",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "電ファミニコゲーマー (CEDEC 2022 特别专栏)",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/220825t",
+   "people": [
+    "前泽圭一",
+    "柳本玛リエ"
+   ],
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫",
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "technical_report",
+   "article_kind": null
+  },
+  {
+   "file": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline.md",
+   "title": "Famitsu / CEDEC 2022 专访《宝可梦 朱／紫》：皮卡丘实现系列史上最佳蓬松毛发质感——与《传说 阿尔宙斯》双线并行的开放世界技术秘辛",
+   "year": 2022,
+   "date": "2022-08-27",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/202208/27273621.html",
+   "people": [],
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "technical_report",
+   "article_kind": null
+  },
+  {
+   "file": "2022-10-15-interview-pokemon-recruit-engineering.md",
+   "title": "宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）",
+   "year": 2022,
+   "date": "2022-10-15",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/engineering.html",
+   "people": [],
+   "works": [
+    "Pokémon GO"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2023-04-19-interview-cgworld-2023-sv-making-1.md",
+   "title": "CGWORLD.jp 2023：Creatures 谈《宝可梦 朱·紫》动画制作",
+   "year": 2023,
+   "date": "2023-04-19",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "CGWORLD.jp（2023-04-19）",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/article/202304-pokemon1.html",
+   "people": [
+    "小野寺瞬",
+    "深谷卓",
+    "米谷由贵"
+   ],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2023-04-20-interview-cgworld-2023-sv-making-2.md",
+   "title": "CGWORLD.jp 2023：Creatures动画师谈《宝可梦 朱·紫》动作制作",
+   "year": 2023,
+   "date": "2023-04-20",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "CGWORLD.jp（2023-04-20）",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/article/202304-pokemon2.html",
+   "people": [
+    "小野寺瞬",
+    "深谷卓",
+    "米谷由贵"
+   ],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2023-04-21-interview-cgworld-2023-sv-making-3.md",
+   "title": "CGWORLD.jp 2023：Creatures 动画师谈《宝可梦 朱·紫》宝可梦动作制作",
+   "year": 2023,
+   "date": "2023-04-21",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "CGWORLD.jp（2023-04-21）",
+   "issue": null,
+   "domain": "cgworld.jp",
+   "url": "https://cgworld.jp/article/202304-pokemon3.html",
+   "people": [
+    "小野寺瞬",
+    "深谷卓",
+    "米谷由贵"
+   ],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2023-08-24-interview-denfami-2023-cedec-visual.md",
+   "title": "电Fami Nico Gamer（電ファミニコゲーマー） 2023：Game Freak前泽圭一谈《宝可梦 朱·紫》视觉表现与帕底亚地区制作",
+   "year": 2023,
+   "date": "2023-08-24",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "电Fami Nico Gamer（2023-08-24）",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/230824n",
+   "people": [
+    "前泽圭一"
+   ],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "lecture_report",
+   "article_kind": null
+  },
+  {
+   "file": "2023-08-24-interview-famitsu-2023-cedec-sound.md",
+   "title": "Fami通.com 2023：一之濑刚等谈宝可梦环境叫声与环境音的制作",
+   "year": 2023,
+   "date": "2023-08-24",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "Fami通.com（2023-08-24）",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/202308/24314405.html",
+   "people": [
+    "一之濑刚",
+    "北村一树",
+    "岩本翔"
+   ],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": "lecture_report",
+   "article_kind": null
+  },
+  {
+   "file": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza.md",
+   "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线",
+   "year": 2023,
+   "date": "2023-08-25",
+   "lang": "zh",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "4Gamer.net (CEDEC 2023 特别报道 / Igarashi)",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/619/G061991/20230823075/",
+   "people": [
+    "前泽圭一",
+    "五十岚"
+   ],
+   "works": [
+    "宝可梦 朱·紫",
+    "宝可梦 剑·盾"
+   ],
+   "source_kind": "technical_report",
+   "article_kind": null
+  },
+  {
+   "file": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md",
+   "title": "[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎",
+   "year": 2023,
+   "date": "2023-08-25",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "4Gamer.net (CEDEC 2023 特别报道 / Igarashi)",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/256/G025650/20230825014/",
+   "people": [
+    "一之濑刚",
+    "北村一树",
+    "岩本翔",
+    "增田顺一"
+   ],
+   "works": [
+    "宝可梦 朱·紫",
+    "宝可梦 剑·盾",
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 红宝石·蓝宝石",
+    "宝可梦 心金·魂银",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "technical_report",
+   "article_kind": null
+  },
+  {
+   "file": "2023-09-10-interview-pokemon-recruit-data.md",
+   "title": "宝可梦公司官方专访 数据活用特别篇：以数据开拓未来——IT与业务部门的深度共振（寺田佑贵 × 水口 × 坂上）",
+   "year": 2023,
+   "date": "2023-09-10",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/data.html",
+   "people": [],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai.md",
+   "title": "Famitsu 专访《名侦探皮卡丘 归来》：石原恒和×阵内弘之——大叔皮卡丘是“会说人类语言的宝可梦”的终点，兼谈《赤·绿》诞生秘话与《Pokémon Sleep》",
+   "year": 2023,
+   "date": "2023-10-19",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/news/202310/19320055.html",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿",
+    "名侦探皮卡丘"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years.md",
+   "title": "‘Our goal is to keep Pokémon alive for hundreds of years’: inside the secretive world of Pokémon",
+   "year": 2023,
+   "date": "2023-11-20",
+   "lang": "en",
+   "medium": "网络媒体·英文",
+   "outlet": "The Guardian",
+   "issue": null,
+   "domain": "theguardian.com",
+   "url": "https://www.theguardian.com/games/2023/nov/20/pokemon-chief-interview",
+   "people": [],
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2023-11-20-interview-pokemon-recruit-it.md",
+   "title": "宝可梦公司官方专访 IT部门特别篇：支撑全球数亿训练家的数字命脉与云端架构（铃木 × 新井 × 中野 × 柴山）",
+   "year": 2023,
+   "date": "2023-11-20",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報 Special Interview",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/it.html",
+   "people": [],
+   "works": [
+    "宝可梦 朱·紫"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2024-02-15-interview-pokemon-recruit-designer.md",
+   "title": "宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）",
+   "year": 2024,
+   "date": "2024-02-15",
+   "lang": "ja",
+   "medium": "官方·株式会社ポケモン / Creatures / Pokémon.com",
+   "outlet": "株式会社ポケモン 採用情報",
+   "issue": null,
+   "domain": "recruit.pokemon.co.jp",
+   "url": "https://recruit.pokemon.co.jp/saiyo/interview/designer.html",
+   "people": [
+    "町田",
+    "李",
+    "川島",
+    "永山",
+    "為藤",
+    "石原恒和"
+   ],
+   "works": [
+    "宝可梦 朱·紫",
+    "宝可梦集换式卡牌游戏",
+    "Pokemon Center",
+    "Pokemon Local Acts（宝可梦地方应援）"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata.md",
+   "title": "【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及",
+   "year": 2024,
+   "date": "2024-11-20",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "ファミ通.com (Famitsu)",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/article/202411/23904",
+   "people": [],
+   "works": [],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2026-02-16-interview-famitsu-2026-pokopia.md",
+   "title": "Fami通.com 2026：《ぽこ あ ポケモン》开发访谈——大森滋谈从「放草丛」的原体验到三社共同开发",
+   "year": 2026,
+   "date": "2026-02-16",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "Fami通.com（2026-02-16）",
+   "issue": null,
+   "domain": "famitsu.com",
+   "url": "https://www.famitsu.com/article/202602/66124",
+   "people": [
+    "大森滋",
+    "村田佳奈子",
+    "枝川拓人",
+    "绫野万里奈"
+   ],
+   "works": [
+    "ぽこ あ ポケモン"
+   ],
+   "source_kind": "media_interview",
+   "article_kind": null
+  },
+  {
+   "file": "2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇.md",
+   "title": "与宝可梦同行的30年【1996年】初代《红·绿》与梦幻的幻之宝可梦 前篇",
+   "year": 2026,
+   "date": "2026-06-21",
+   "lang": "ja",
+   "medium": "网络媒体·日文",
+   "outlet": "",
+   "issue": null,
+   "domain": "dengekionline.com",
+   "url": "https://dengekionline.com/article/202602/67042",
+   "people": [],
+   "works": [
+    "宝可梦 红·绿",
+    "梦幻"
+   ],
+   "source_kind": null,
+   "article_kind": null
+  },
+  {
+   "file": "2026-07-22-interview-cedec-2026-battle-system-deck.md",
+   "title": "CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）",
+   "year": 2026,
+   "date": "2026-07-22",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "CEDEC 2026 講演資料（CEDEC Digital Library）",
+   "issue": null,
+   "domain": "cedil.cesa.or.jp",
+   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3390",
+   "people": [
+    "宗像快",
+    "小幡敏宏"
+   ],
+   "works": [],
+   "source_kind": "technical_report",
+   "article_kind": "slide_deck"
+  },
+  {
+   "file": "2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers.md",
+   "title": "CEDEC 2026：《宝可梦传说 Z-A》Kubernetes×Windows 容器 CI/CD 构建实例（GAME FREAK 髙山玲央名）",
+   "year": 2026,
+   "date": "2026-07-22",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "CEDEC 2026 講演資料（CEDEC Digital Library）",
+   "issue": null,
+   "domain": "cedil.cesa.or.jp",
+   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3341",
+   "people": [
+    "髙山玲央名"
+   ],
+   "works": [],
+   "source_kind": "technical_report",
+   "article_kind": "slide_deck"
+  },
+  {
+   "file": "2026-07-22-interview-denfami-2026-cedec-battle.md",
+   "title": "电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak对战专职团队谈宝可梦战斗系统重构",
+   "year": 2026,
+   "date": "2026-07-22",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "电Fami Nico Gamer（2026-07-22）",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607224z",
+   "people": [
+    "宗像快",
+    "小幡敏宏"
+   ],
+   "works": [
+    "Pokémon LEGENDS Z-A",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "lecture_report",
+   "article_kind": null
+  },
+  {
+   "file": "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck.md",
+   "title": "CEDEC 2026：GAME FREAK 讲《Pokémon LEGENDS Z-A》密阿雷市渲染与绑定技术",
+   "year": 2026,
+   "date": "2026-07-23",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "CEDEC 2026 講演資料（CEDEC Digital Library）",
+   "issue": null,
+   "domain": "cedil.cesa.or.jp",
+   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3366",
+   "people": [
+    "前澤圭一",
+    "スパダフィーナアルフレド",
+    "赤木達也"
+   ],
+   "works": [],
+   "source_kind": "technical_report",
+   "article_kind": "slide_deck"
+  },
+  {
+   "file": "2026-07-23-interview-denfami-2026-cedec-pokerig.md",
+   "title": "电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak谈《宝可梦传说 Z-A》密阿雷市渲染技术",
+   "year": 2026,
+   "date": "2026-07-23",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "电Fami Nico Gamer（2026-07-23）",
+   "issue": null,
+   "domain": "news.denfaminicogamer.jp",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
+   "people": [
+    "Alfredo Spadafina",
+    "前泽圭一",
+    "赤木达也"
+   ],
+   "works": [
+    "Pokémon LEGENDS Z-A"
+   ],
+   "source_kind": "lecture_report",
+   "article_kind": null
+  },
+  {
+   "file": "2026-07-28-interview-4gamer-2026-cedec-battle.md",
+   "title": "4Gamer.net 2026：Game Freak谈宝可梦战斗系统基础设计与Z-A实时制运用",
+   "year": 2026,
+   "date": "2026-07-28",
+   "lang": "ja",
+   "medium": "技术讲演（CEDEC）",
+   "outlet": "4Gamer.net（2026-07-28）",
+   "issue": null,
+   "domain": "4gamer.net",
+   "url": "https://www.4gamer.net/games/897/G089789/20260728007/",
+   "people": [
+    "宗像快",
+    "小幡敏宏"
+   ],
+   "works": [
+    "Pokémon LEGENDS Z-A",
+    "宝可梦 太阳·月亮"
+   ],
+   "source_kind": "lecture_report",
+   "article_kind": null
+  }
+ ]
+}

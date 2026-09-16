@@ -1,0 +1,1077 @@
+---
+archive_type: scan_translation
+layout: interview-editorial
+title: Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇
+display_title: 宝可梦诞生秘话 29个角色的幕后
+title_ja: "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!"
+date: 2011-05-21
+era_skin: 2011
+categories:
+  - 访谈翻译
+  - 扫描存档
+tags:
+  - Nintendo DREAM 特別付録
+  - 扫描存档
+  - 日中对照
+  - 宝可梦 黑·白
+  - 角色设计
+  - Game Freak
+kicker: SCAN ARCHIVE · INTERVIEW
+publication: Nintendo DREAM 特別付録
+issue: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）
+publisher: 毎日コミュニケーションズ
+interviewee: 杉森建、海野隆雄、大村祐介
+interviewer: Nintendo DREAM 特別付録 編集部
+dek: 杉森建、大村祐介讲述《宝可梦 黑・白》29个登场角色的设计幕后。
+summary: 《宝可梦 黑・白》登场人物设计秘话。杉森建与大村祐介谈主人公、N、魁奇思、红豆杉博士、黑连、白露、道馆馆主、四天王等29个角色的设计经过，包括年龄设定、属性相性、多国籍感等要求与取舍。
+source_pages: P.38–P.46（9 页；2048px 页图）
+source:
+  title: "『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!"
+  source_type: magazine_scan
+  language: ja
+  publication: Nintendo DREAM 特別付録
+  issue: 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子）
+source_kind: magazine_interview
+original_lang: ja
+translation_lang: zh-CN
+parallel_view: translation
+published: true
+translator: qwen3.8-max 整页转写 / DeepSeek 初译
+workflow:
+  scan: done
+  preprocess: "prepared set (dedup, deskew, 2048px web)"
+  ocr: qwen3.8-max full-page
+  translation: deepseek-machine
+  proofreading: pending
+  published: online
+review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工逐字校对，读者请以页图为准。
+pending_review_regions: 90
+scan_set: ndream-bw-tanjou-hiwa-2011
+entities:
+  people:
+    - 杉森建
+    - 海野隆雄
+    - 大村祐介
+  works:
+    - 宝可梦 黑·白
+translation_segments:
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p038_making_characters_protagonists_fennel-fullpage
+    order: 1
+    scan_page: 0
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p038_making_characters_protagonists_fennel.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.38
+    review_status: ready
+  - speaker: "29个角色的幕后故事满载!! 登场人物篇"
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p038_making_characters_protagonists_fennel-h2
+    order: 2
+    scan_page: 0
+    heading_level: 2
+    review_status: review
+    original: "29キャラの裏話が満載!! 登場人物編"
+    translation: ""
+  - speaker: 主人公（女孩・男孩）
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p038_making_characters_protagonists_fennel-h3
+    order: 3
+    scan_page: 0
+    heading_level: 2
+    review_status: review
+    original: 主人公（女の子・男の子）
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p038_making_characters_protagonists_fennel-r4
+    order: 4
+    scan_page: 0
+    review_status: review
+    original: 今回は、増田（増田順一ディレクター）から主人公の年齢を上げてくれというオーダーがありました。今までのように10歳とか11歳のイメージではなくて、もっと上の世代にしてくれと。あと、ポケモンの主人公に必要な要素として帽子とかばんがあって、これがデザインの取っ掛かりになることが意外と多いんです。どうしようかと思っていたら、増田の方からあがってきたNのデザインが、キャップをかぶっていたんです。Nというキャラクターはまるっきり敵というイメージではなく、割と主人公たちに近い存在だと聞いていたので、じゃあ全員キャップをかぶらせたら面白いんじゃないかと。これまでもキャップの男の子主人公はいたんですけど、キャップの女の子主人公はいませんでしたし。女の子でキャップだとどういう服装かなというところを考えていって、こういうショートパンツなどが固まっていった感じで
+    translation: 这次增田（增田顺一总监）提出要求，希望把主人公的年龄提高。不是以往那种10岁或11岁的印象，而是设定成更高的世代。另外，宝可梦的主人公需要帽子、包之类的要素，这些意外地经常成为设计的切入点。我正想着该怎么办时，增田那边拿来的N的设计里，就戴着帽子。听说N这个角色并不是纯粹的敌人形象，而是与主人公们比较接近的存在，所以我想，那让所有人都戴上帽子会不会很有趣。以往也有戴帽子的男孩主人公，但没有戴帽子的女孩主人公。女孩戴帽子的话该穿什么样的服装呢，我一边思考一边设计，像这样的短裤等就逐渐确定下来了。
+  - speaker: ●梦的研究者 真菰
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p038_making_characters_protagonists_fennel-h5
+    order: 5
+    scan_page: 0
+    heading_level: 3
+    review_status: review
+    original: ●夢の研究者 マコモ
+    translation: ""
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p038_making_characters_protagonists_fennel-r6
+    order: 6
+    scan_page: 0
+    review_status: review
+    original: 目よりは年齢はちょっと高いけど、自称「夢見る乙女」ですと言われて（笑）。美人なんだけど、思い込みが激しい点がちょっと…、みたいなキャラのつもりでデザインしました。もともと研究対象が夢だったので、すぐに妄想に走ってしまいそうな、ちょっととろんとした目にしています。
+    translation: 年龄比外表看起来稍微大一些，但自称“爱做梦的少女”（笑）。虽然是个美人，但有点过于深信不疑……我是以这种感觉的角色来设计的。因为原本研究对象就是梦，所以眼神做得有些迷离，像是随时会陷入妄想一样。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p038_making_characters_protagonists_fennel-r7
+    order: 7
+    scan_page: 0
+    review_status: review
+    original: マコモは当初はいなかったキャラなんです。あるときゲームシンクについて説明できるキャラが1人欲しいと言われて、そのとき一般トレーナーの女性研究員のフィールド上のドット絵がすでにあったので、それを基にしています。あまり元のイメージを崩せないので、何かワンポイントでキャラを立たせるものが欲しいと思い、マコモの設定を聞いてみたんですよ。するとアララギ博士とだいたい同い年で、見た
+    translation: 真菰原本是不存在的角色。有一次，有人提出希望有一个能说明游戏同步的角色，当时一般训练家女性研究员在地图上的像素图已经有了，就以那个为基础。因为不能太破坏原本的印象，所以我想找一些能作为亮点让角色立起来的东西，于是去问了真菰的设定。结果得知她和红豆杉博士大致同岁，看起来
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p038_making_characters_protagonists_fennel-r8
+    order: 8
+    scan_page: 0
+    review_status: review
+    original: 冒険を繰り広げる主人公、ともに旅立つ仲間、立ちはだかるジムリーダーや四天王、そして暗躍するプラズマ団…。物語を彩る名キャラクターたちの誕生秘話を、公式イラストとともにお届け！
+    translation: 展开冒险的主人公、一同踏上旅程的伙伴、阻挡在前的道馆馆主和四天王，以及暗中活动的等离子队……。我们将配合官方插画，为您送上这些点缀故事的名角色们的诞生秘闻！
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p039_making_characters_juniper_cheren_bianca-fullpage
+    order: 9
+    scan_page: 1
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p039_making_characters_juniper_cheren_bianca.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.39
+    review_status: ready
+  - speaker: 宝可梦诞生秘话＊总集篇＊
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p039_making_characters_juniper_cheren_bianca-h10
+    order: 10
+    scan_page: 1
+    heading_level: 2
+    review_status: review
+    original: ポケモン誕生秘話＊総集編＊
+    translation: ""
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p039_making_characters_juniper_cheren_bianca-r11
+    order: 11
+    scan_page: 1
+    review_status: review
+    original: す。あとは町なかで道行く女の子を観察して、こういうのがはやっているのかとか、こういうのにグッとくるなあとか、そういうイメージを総合して最終的にまとめましたね。男の子主人公は割と、女の子のイメージから逆算というか、釣り合う感じで考えるんですけど、今回はイケメン風にしようと。本当はイケメンキャラが好きじゃないんで、できるだけやらないんですが（笑）。『ポケモンＤ・Ｐ』や『ポケモンＲ・Ｓ』の主人公は、短髪の元気系や熱血系にしていましたが、今回はカッコイイ系を目指して、ちょっとおしゃれな髪型などでまとめました。
+    translation: ……。此外，我还观察街上走过的女孩子，把“原来流行这种”“这种让人心动”之类的印象综合起来，最终定稿。男孩主人公则相对是从女孩的形象反推，或者说按与之相配的感觉来考虑，但这次决定做成帅气风格。其实我并不喜欢帅哥角色，所以尽量不这么做（笑）。《宝可梦 钻石・珍珠》和《宝可梦 红宝石・蓝宝石》的主人公是短发元气型或热血型，而这次以帅气型为目标，用稍微时尚的发型等来统一。
+  - speaker: ●宝可梦博士 红豆杉爸爸
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p039_making_characters_juniper_cheren_bianca-h12
+    order: 12
+    scan_page: 1
+    heading_level: 3
+    review_status: review
+    original: ●ポケモン博士アララギパパ
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p039_making_characters_juniper_cheren_bianca-r13
+    order: 13
+    scan_page: 1
+    review_status: review
+    original: 実は、今回の博士は開発中盤くらいまで男性だったんですよ。しかも太ったおっさんと年寄りの2人組という最悪の設定（笑）。いくらなんでもそれは花が無さすぎる。増田に文句を言いにいったんですよ。博士を女にしろと（笑）。本当は博士のデザインも大村にやらせようと思っていたんですけど、この設定変更は僕が言いだしっぺだし、自分で女性博士を描いちゃいました。この人はニューヨークのというか、いわゆる働いている女性のイメージですね。オフィスでスニーカー履いて働いているというか、そういう感じです。アララギパパは、この人の父親だったらどんな感じだろうかと逆算してデザインしました。
+    translation: 其实，这次的博士到开发中期左右都还是男性。而且还是胖大叔和老头两人组这种最糟糕的设定（笑）。再怎么说也太没有亮点了。我就去找增田抱怨，说把博士改成女性吧（笑）。本来博士的设计也打算让大村来做，但这个设定变更是我先提出来的，所以我就自己画了女性博士。这个人是纽约的，或者说所谓职业女性的形象。像是在办公室里穿着运动鞋工作，就是那种感觉。红豆杉爸爸则是反推，如果他是这个人的父亲会是什么样，据此设计的。
+  - speaker: ●宝可梦博士 红豆杉
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p039_making_characters_juniper_cheren_bianca-h14
+    order: 14
+    scan_page: 1
+    heading_level: 3
+    review_status: review
+    original: ●ポケモン博士アララギ
+    translation: ""
+  - speaker: ●主人公的儿时玩伴 黑连
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p039_making_characters_juniper_cheren_bianca-h15
+    order: 15
+    scan_page: 1
+    heading_level: 3
+    review_status: review
+    original: ●主人公の幼なじみ チェレン
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p039_making_characters_juniper_cheren_bianca-r16
+    order: 16
+    scan_page: 1
+    review_status: review
+    original: この2人は、シナリオ側から伝えられたイメージが大本ですね。まじめでちょっと融通がきかなくて、理知的なのがチェレン。ベルの方は「マイペースな女の子」くらいのシンプルな情報だけもらって、それを基にデザイン自体は割と自由に描いたものです。主人公とチェレンやベルはバトルすることもあるんですが、ぶつかり合うライバルという訳ではなく、あくまで主人公の味方なので、あんまりツンケンした感じにせず、親しみやすいようにしました。チェレンについては、今までの『ポケットモンスター』シリーズに普通の黒髪の少年がそんなにいないのと、黒髪自体に親しみやすいイメージを持っていたので、そこは迷わずに決めました。あと生徒会長をやっていそうなイメージもあって、ジャケットみたいなものを着せました。ネクタイは『ポケットモンスター』に登場する少年としてはキザすぎるので、中に着ているシャツの模様が遠目にネクタイに見えるくらいに抑えています。ベルのデザインを始めたのは開発の後半で、そのときには女性ジムリーダーのデザインが固まっていたんですが、全体を見渡すと変わった人が多くて、丸いラインを持った女の子らしい女の子がいなかったんです。今回は、女の子主人公も活発な感じだったので、それと真逆になるようにまとめていきました。女の子主人公は生足が出ていたりする感じなので、じゃあベルはあまり露出しないようにしようと。これはチェレンとベルのデザインに共通してるんですけど、すごく派手だとか、とがったオシャレな人にならないようにしてます。すごくオシャレなキャラクターというと、例えばモデルのカミツレになると思うんですけど、あまり身近じゃない、手の届かない感じが魅力だと思うんですよ。それとは逆に、言い方は悪いかもしれませんが、そこまでイケてない人にしたいなと。一緒にいてあんまり緊張しないようなイメージでまとめました。
+    translation: 这两个人，基本上是以剧本方面给出的印象为基础。认真、有点不知变通、理智的是黑连。白露那边只得到了“我行我素的女孩”这种简单的信息，在此基础上，设计本身画得比较自由。主人公和黑连、白露有时也会对战，但并不是互相冲突的劲敌，终究是主人公的伙伴，所以没有弄得太冷淡，而是做得容易亲近。关于黑连，至今为止的《宝可梦》系列里普通黑发少年并不多，而且黑发本身就给人容易亲近的印象，所以这一点没有犹豫就决定了。另外还有种像是学生会长的感觉，就给他穿了类似夹克的外套。领带作为《宝可梦》中登场的少年来说太花哨了，所以抑制到里面穿的衬衫花纹远看像是领带的程度。白露的设计是在开发后半段才开始的，那时女性道馆馆主的设计已经确定，但整体看下来奇怪的人很多，没有圆润线条、像女孩的女孩。这次女孩子主人公也是活泼的感觉，所以就朝着与之相反的方向去整合。女孩子主人公是露腿的感觉，那么白露就尽量不暴露。这一点是黑连和白露的设计共通的，就是不要变成非常花哨、或者很尖锐时髦的人。说到非常时髦的角色，比如模特小菊儿，我觉得那种不太贴近身边、够不着的感觉是她的魅力。与之相反，说起来可能不太好听，但我想做成没那么时髦的人。以在一起不会太紧张的形象来整合。
+  - speaker: ●主人公的儿时玩伴 白露
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p039_making_characters_juniper_cheren_bianca-h17
+    order: 17
+    scan_page: 1
+    heading_level: 3
+    review_status: review
+    original: ●主人公の幼なじみ ベル
+    translation: ""
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p040_making_characters_n_ghetsis_grunts-fullpage
+    order: 18
+    scan_page: 2
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p040_making_characters_n_ghetsis_grunts.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.40
+    review_status: ready
+  - speaker: ●等离子团N（艾努）
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p040_making_characters_n_ghetsis_grunts-h19
+    order: 19
+    scan_page: 2
+    heading_level: 2
+    review_status: review
+    original: ●プラズマ団N（エヌ）
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p040_making_characters_n_ghetsis_grunts-r20
+    order: 20
+    scan_page: 2
+    review_status: review
+    original: Nは増田のイメージが中心ですね。とにかく天才を出したいというオーダーを、増田の下にいた女性デザイナーが彼女なりに「天才とは何か」を考えた結果、ちょっと見た目が中性的で、芸術家タイプというか、敵らしからぬデザインがあがってきました。ストレートにイケメンですが、ポーズを見るとわかるんですけど、ちょっと普通とは違う人です（笑）。天才ならではの危うい感じがあります。ゲーチスに関しても詳細な設定があって、それを基に、Nを描いたデザイナーがデザインしています。とにかく、ゲーチスに関しては異様な感じにしたいと。かなり異様な服を着ていて、異様な姿をしています。プラズマ団自体は、中世の騎士団みたいなイメージですね。ロゴもそんな感じです。ただ、したっぱのデザインは毎回割と悩むんですよ。今回したっぱを描いたのは大村なんですけど。
+    translation: N是以增田的印象为中心的。总之要做出天才，这个要求由增田手下的女性设计师按她自己的方式思考“天才是什么”，结果出来的设计是外表有点中性、艺术家类型，或者说不太像敌人的设计。直接说是帅哥，但看姿势就能明白，是有点和普通人不一样的人（笑）。有天才特有的危险感。魁奇思也有详细的设定，基于那个设定，由画N的设计师来设计。总之，魁奇思想做成异样的感觉。穿着相当异样的衣服，样子也很异样。等离子团本身是中世纪骑士团那样的印象。标志也是那种感觉。不过手下的设计每次都比较苦恼。这次画手下的是大村。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p040_making_characters_n_ghetsis_grunts-r21
+    order: 21
+    scan_page: 2
+    review_status: review
+    original: 「王を守る騎士団っぽい人」というイメージでまとめています。自分としては、この頭の形は冒険でしたね。見方によってはマヌケに見えるかもしれない（笑）。でも、したっぱだし、ちょっとマヌケなくらいでいいのかなと。あと、男女が似てしまうんですよ。そこはちょっとどうかなと思ってたんですけど、実際にフィールド上でしたっぱが集団で出てきたとき、みんな丸い頭なのが異様な雰囲気を出しているんですよ。逆によかったかなと思っています。
+    translation: 以“像是守护国王的骑士团的人”这个印象来整合。我自己觉得这个头的形状是冒险。根据看法不同可能会显得有点傻（笑）。但反正是手下，稍微傻一点也没关系吧。还有，男女会变得相似。这一点我本来觉得有点不太行，但实际上在场景上手下集体出现时，大家都是圆头，营造出了异样的氛围。反过来觉得这样也不错。
+  - speaker: ●等离子团魁奇思
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p040_making_characters_n_ghetsis_grunts-h22
+    order: 22
+    scan_page: 2
+    heading_level: 2
+    review_status: review
+    original: ●プラズマ団ゲーチス
+    translation: ""
+  - speaker: ●等离子团手下（男女）
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p040_making_characters_n_ghetsis_grunts-h23
+    order: 23
+    scan_page: 2
+    heading_level: 2
+    review_status: review
+    original: ●プラズマ団したっぱ（男女）
+    translation: ""
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-fullpage
+    order: 24
+    scan_page: 3
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p041_making_characters_gym_leaders_cilan_burgh_lenora.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.41
+    review_status: ready
+  - speaker: 宝可梦诞生秘话＊总集篇＊
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h25
+    order: 25
+    scan_page: 3
+    heading_level: 2
+    review_status: review
+    original: ポケモン誕生秘話＊総集編＊
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-r26
+    order: 26
+    scan_page: 3
+    review_status: review
+    original: この3人は三つ子なんですが、全然似てないですね（笑）。顔もそっくりにしてほしいというオーダーもあったんですが、完全新作の最初のジムリーダーが判で押したように同じ顔で3人出て来たら、つまらないぞと思いまして、僕の考えで個性を持たせることにしました。この3人には、初めて『ポケットモンスター』に触れるユーザーに、タイプ相性を理解してもらう役割があるので、一見してどのタイプを使うかわかる感じにしました。それぞれの髪型を見て、ポッドは炎が燃えてそうだとか、デントは芝生みたいとか、コーンだと水が流れているようだとか。あとはウェーターという感じが薄れないよう、服装などは派手になりすぎないよう気を使ってます。
+    translation: 这三个人是三胞胎，但完全不像（笑）。虽然也有要求把脸做得一模一样，但完全新作最初的三个道馆馆主如果像盖章一样同一张脸出现，我觉得很无聊，就按自己的想法赋予了个性。这三个人有让第一次接触《宝可梦》的用户理解属性相性的作用，所以做成一见就能知道使用哪种属性的感觉。看各自的发型，伯特像是火焰在燃烧，天桐像草坪，寇恩则像水流。还有就是注意不要让服务员的印象变淡，服装等不要变得太花哨。
+  - speaker: ●三曜市 道馆馆主伯特＆天桐＆寇恩
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h27
+    order: 27
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: ●サンヨウシティ ジムリーダーポッド＆デント＆コーン
+    translation: ""
+  - speaker: ●飞云市 道馆馆主亚堤
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h28
+    order: 28
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: ●ヒウンシティ ジムリーダーアーティ
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-r29
+    order: 29
+    scan_page: 3
+    review_status: review
+    original: 大村 芸術家でイケメンというオーダーだったんですが、イケメンにしてくれというのは、非常につらいオーダーなんですよ。イケメンって何だろうってわからなくて（笑）。ストレートなイケメンはすでにNがいますし、長髪はどうだとも言われたんですけど、そういう人が2人いてもなあと。イケメンなんですけど、かわいげのあるイメージにしたいと思って、もじゃもじゃ頭で完璧には決まってはいないようにしました。あとはもう、女性スタッフに片っ端から「イケメンって例えば誰？」って、聞いて調べたんですよ（笑）。その結果を総合して、ちょっとタレ目とか、タレ目なんだけど鼻筋は通ってるという要素を取り出して、じゃあもう、みんなが言うならその要素を入れようと（笑）。
+    translation: 大村：要求是设计成艺术家兼帅哥，但让我做成帅哥，这要求非常难办。我根本不明白帅哥到底是什么（笑）。正统派的帅哥已经有N在了，也有人提议用长发，但我想着有两个这样的人也不太好吧。虽然要帅，但我想做出带点可爱感的形象，于是弄成蓬乱的头发，让他看起来不是完美无缺。还有就是，我挨个去问女性工作人员「帅哥比如说谁？」，做了调查（笑）。综合那些结果，提取出有点下垂眼、虽然是下垂眼但鼻梁挺直这些要素，心想既然大家都这么说，那就把这些要素加进去吧（笑）。
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-r30
+    order: 30
+    scan_page: 3
+    review_status: review
+    original: 杉森 客観的なイケメンだね（笑）。
+    translation: 杉森：是客观意义上的帅哥呢（笑）。
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-r31
+    order: 31
+    scan_page: 3
+    review_status: review
+    original: 大村 でもやっぱり、何人かに聞いていくと同じ名前が出てきたんですよ。いろんな人がカッコイイと思うからには、何か基準のようなものはあるんでしょうね。
+    translation: 大村：不过果然，问了几个人之后，相同的名字就冒出来了。既然各种各样的人都觉得帅，那大概是有某种标准之类的东西吧。
+  - speaker: ●七宝市 道馆馆主芦荟
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-h32
+    order: 32
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: ●シッポウシティ ジムリーダーアロエ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p041_making_characters_gym_leaders_cilan_burgh_lenora-r33
+    order: 33
+    scan_page: 3
+    review_status: review
+    original: ひと言でいうと肝っ玉母ちゃんです。今回のジムリーダーは多国籍、多民族感を大切にしてほしいと言われていて、その中でこの人は黒人の女の人で、迫力のある体つきというか、母性みたいなものを込めてほしいというオーダーがありました。母親のイメージを考えたときに、エプロンが出てきたんですけど、それだけだと普通の母親にしか見えません。アロエは博物館の館長で、化石の発掘をしたりもするアクティブな人だと聞いたので、フィールドワークで使うワークエプロンのような要素を混ぜてみました。エプロンを持っているジムリーダーは今までいなかったので、その点でもいいかなと思っています。
+    translation: 大村祐介：用一句话说就是有胆量的老妈。这次的道馆馆主被要求重视多国籍、多民族感，其中这个人被要求设计成黑人女性，要有充满魄力的体型，或者说要融入母性。思考母亲的形象时，围裙就冒出来了，但只有围裙的话看起来就只是个普通的母亲。听说芦荟是博物馆馆长，还会挖掘化石，是个活跃的人，所以我就试着混入了做田野调查时用的工作围裙的要素。至今没有拿围裙的道馆馆主，从这一点来说我觉得也不错。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-fullpage
+    order: 34
+    scan_page: 4
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p042_making_characters_gym_leaders_clay_skyla_elesa.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.42
+    review_status: ready
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-r35
+    order: 35
+    scan_page: 4
+    review_status: review
+    original: ヤーコンのデザインは結構大変でした。まず、鉱山王で会社の社長、そして日系人のイメージ。元からその街にいた人ではなく、昔で言うところのアメリカンドリームを追いかけっていった人みたいなイメージだと聞きまして。開拓していった人ということで、西部劇っぽいコスチュームにしました。あとは、今回はジムリーダーの体格に差を付けてほしいとも言われていたので、カミツレとは対照的に、なるべく背を縮めて、ずんぐりむっくりになるようにしています。あと社長といってもすっと机に座っている人じゃなくて、なんでも自分でやらないと気が済まない人だという設定だったので、忙しそうな雰囲気を出すために電話などを持たせています。
+    translation: 大村祐介：菊老大的设计相当费劲。首先，是矿山王兼公司社长，还有日裔人的形象。听说不是原本就住在那座城市的人，而是像过去所说的追逐美国梦的那种人。因为是开拓者，所以做成了西部片风格的服装。还有就是，这次被要求让道馆馆主的体格有差异，所以和小菊儿形成对照，尽量把身高压低，做得矮胖敦实。还有，虽说是社长，但不是一直坐在桌前的人，而是设定成不自己动手就不甘心的人，所以让他拿着电话之类的东西，以营造出忙碌的氛围。
+  - speaker: ●雷文市 道馆馆主小菊儿
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-h36
+    order: 36
+    scan_page: 4
+    heading_level: 2
+    review_status: review
+    original: ●ライモンシティ ジムリーダーカミツレ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-r37
+    order: 37
+    scan_page: 4
+    review_status: review
+    original: モデルさんということで、ちょっとほかの人とは一線を画しちゃうくらい足が長いというのをやりたかったんです。もしかしたら浮くかなとも思ったんですけど、モデルという設定を大切にしたかったので。
+    translation: 大村祐介：因为是模特，所以我想把腿做得长到和其他人拉开一条线的程度。虽然也想过会不会显得突兀，但我想重视模特这个设定。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-r38
+    order: 38
+    scan_page: 4
+    review_status: review
+    original: 実際のモデルも、人間離れして顔が小さい人とかいますからね。
+    translation: 杉森建：现实中的模特里，也有脸小得不像常人的人呢。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-r39
+    order: 39
+    scan_page: 4
+    review_status: review
+    original: 個人的なイメージからスタートしたんですけど、モデルさんは格闘家などとは違う意味で体を作らないといけない印象があって、ファッションショーを見ていても、無表情で歩いてきて、クルッと回って帰るのが、ちょっとロボットみたいだなと。そのイメージを軸にして、機械的とまではいかないけど、ちょっとアンドロイドっぽい感じでまとめてみました。ちょうどでんきタイプを使うジムリーダーだったので、イメージの相性もよかったです。最初はヘッドホンから伸びてるコードが無かったんですが、シナリオ側から伝えられたカミツレのイメージに「よく音楽を聴いている」という一文があったので、取り入れてみました。ヘッドホンから伸びるコードが髪型にも見えつつ、ロボット感も出せる特徴になったので、最終的にうまくまとまりましたね。
+    translation: 大村祐介：虽然是从我个人的印象出发的，但模特给人的印象是，和格斗家等不同意义上必须塑造身体，看时装秀时，面无表情地走出来，转一圈就回去，感觉有点像机器人。以那个印象为核心，虽然没到机械的程度，但试着归纳成了有点仿生人的感觉。正好是使用电属性的道馆馆主，印象的契合度也很好。最初耳机伸出的线是没有的，但剧本那边传达的小菊儿的印象里有一句「经常听音乐」，所以就采纳了。从耳机伸出的线既看起来像发型，又成了能表现出机器人感的特征，最终归纳得很不错。
+  - speaker: ●帆巴市 道馆馆主菊老大
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-h40
+    order: 40
+    scan_page: 4
+    heading_level: 2
+    review_status: review
+    original: ●ホドモエシティ ジムリーダーヤーコン
+    translation: ""
+  - speaker: ●吹寄市 道馆馆主风露
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-h41
+    order: 41
+    scan_page: 4
+    heading_level: 2
+    review_status: review
+    original: ●フキヨセシティ ジムリーダーフウロ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p042_making_characters_gym_leaders_clay_skyla_elesa-r42
+    order: 42
+    scan_page: 4
+    review_status: review
+    original: 最初は、空港で荷物を運んだり、貨物機を飛ばしたりする男どもをまとめる姉御肌というオーダーだったので、初期デザインは顔つきもワイルドだったんですよ。でも、今の感覚だと姉御肌のキャラクターはちょっと古いんじゃないかと思いまして、割とまっすぐスタンダードなかわいらしいお姉さんに換えたいと言って、現在の形になりました。8人のジムリーダーのバランスを考えても、その方がいいかと思いまして。フウロはパイロットでもあるんですけど、コスチュームは、最初にちょっとセクシー系のお姉さんにしてほしいと言われたときの名残が残っています。太ももについている袋のようなものは、設定では中にモンスターボールが入ってるんですよ。マガジンを入れるような袋の中にモンスターボールを入れていて、1つ出すと、また次のが上がってきて、またそれを出すみたいな小物を思いついたので、アクセントとして付けてみました。
+    translation: 最初接到的要求是设计一个在机场搬运货物、驾驶货机的一群男人中的大姐头型角色，所以初期设计的面相也比较粗犷。不过按现在的感觉来看，大姐头型的角色是不是有点过时了，于是我说想换成比较正统、标准的可爱大姐姐，就成了现在的样子。考虑到8位道馆馆主之间的平衡，我觉得这样也更好。风露同时也是飞行员，她的服装还保留着最初被要求做成有点性感的大姐姐时的痕迹。大腿上那个像袋子一样的东西，设定上是里面装着精灵球。我想到一个小道具：把精灵球装进类似弹匣的袋子里，取出一颗后下一颗会顶上来，再取出来，就把它加上去作为点缀了。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-fullpage
+    order: 43
+    scan_page: 5
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p043_making_characters_gym_leaders_brycen_iris_drayden.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.43
+    review_status: ready
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r44
+    order: 44
+    scan_page: 5
+    review_status: review
+    original: 結構ドラマチックな人なんですよ。アクション映画のスターだったのに、撮影中にけがをして引退せざるを得なくなり、落ち込んでいたところをアデクに声をかけられ、それでポケモンを極める道に進んだ、という設定でして。なかなか難儀な人だなあと（笑）。氷に囲まれた厳しい場所で黙々と修行している人なので、ストイックな感じを出しました。また東洋人ということだったんで、少林寺のイメージも加えています。あととにかく素性を隠したい人なので、企画側からはフルフェイスの仮面を付けてくれと言われたんですけど、それはちょっとやりすぎと思いました。ひとりだけ特別になりすぎちゃうので、もう少しゆるいところで、アイマスクみたいな覆面にとどめました。
+    translation: 他是个相当有戏剧性的人。设定上他原本是动作片明星，却在拍摄中受伤不得不引退，正消沉时被阿戴克搭话，于是走上了钻研宝可梦的道路。真是个够辛苦的人啊（笑）。他是在被冰包围的严酷之地默默修行的人，所以做出了克己的感觉。另外因为设定是东方人，也加入了少林寺的印象。还有，他总之是个想隐藏身份的人，企划方要求给他戴上全脸面具，但我觉得那有点过头了。只有他一个人太特殊了，所以在更宽松的程度上，只做到像眼罩一样的蒙面。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r45
+    order: 45
+    scan_page: 5
+    review_status: review
+    original: それらをどうデザインに落とし込むかというところで悩んだんですが、服装はあまり悩まず少林寺拳法のものを基にして、ただそれだけだと寒そうなので、襟のところとか、要所要所を暖かそうなものに置き換えてみました。どうして袖が片方しかないんだと思われるかもしれませんが、寒い所で片肌脱ぎでいる方が、なんかやせ我慢しているみたいで、修行する人っぽいかもと。
+    translation: 我烦恼的是怎么把这些落实到设计上，不过服装没怎么纠结，以少林寺拳法的服装为基础，只是那样看着太冷，就把领口等关键部位换成了看着暖和的东西。大家可能会想为什么只有一只袖子，但在寒冷的地方单肩露臂，反而像是硬撑着逞强，更像修行的人吧。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r46
+    order: 46
+    scan_page: 5
+    review_status: review
+    original: 修行する人は、自分の体をいじめるもんだからね。目のところのマスクは、なんだか「まぼろし探偵」（※3）みたいに見えるよね（笑）。
+    translation: 修行的人就是要折腾自己的身体嘛。眼睛那里的面罩，看起来总觉得像《幻影侦探》（※3）呢（笑）。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r47
+    order: 47
+    scan_page: 5
+    review_status: review
+    original: 現実的に考えれば、だいたい顔がわかっちゃうはずですけど、ゲームや漫画の世界だとこれで正体不明になります（笑）。
+    translation: 从现实角度考虑，大致都能看出脸来，但在游戏和漫画的世界里，这样就成了身份不明（笑）。
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r48
+    order: 48
+    scan_page: 5
+    review_status: review
+    original: ※3…「まぼろし探偵」は、1950年代後半から60年代にかけてマンガ、テレビドラマ等で人気を博した少年向けのヒーロー活劇。赤い帽子、黄色いマフラー、目の周りを覆う黒いマスクが主人公のトレードマークだった。
+    translation: ※3……《幻影侦探》是20世纪50年代后半到60年代在漫画、电视剧等领域广受欢迎的面向少年的英雄活剧。红帽子、黄围巾、遮住眼睛周围的黑面罩是主角的标志。
+  - speaker: ●雪花市 道馆馆主哈奇库
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-h49
+    order: 49
+    scan_page: 5
+    heading_level: 2
+    review_status: review
+    original: ●セッカシティ ジムリーダーハチク
+    translation: ""
+  - speaker: ●双龙市 道馆馆主（宝可梦 白）艾莉丝
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-h50
+    order: 50
+    scan_page: 5
+    heading_level: 2
+    review_status: review
+    original: ●ソウリュウシティ ジムリーダー（ポケモンホワイト）アイリス
+    translation: ""
+  - speaker: ●双龙市 道馆馆主（宝可梦 黑）夏卡
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-h51
+    order: 51
+    scan_page: 5
+    heading_level: 2
+    review_status: review
+    original: ●ソウリュウシティ ジムリーダー（ポケモンブラック）シャガ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r52
+    order: 52
+    scan_page: 5
+    review_status: review
+    original: ソフトのバージョンによってジムリーダーが変わることなど、企画側から具体的な設定を渡されていたんですが、とにかく対であることを強調したデザインにしてほしいと。そこで、シャガは登場人物の中で最高齢くらいに設定して、対になるアイリスは将来性がすごく豊かな少女と設定してます。色のイメージも、シャガは白が多いのに対して、アイリスはかなり日焼けした感じで、その対比を前面に出してます。アイリスにはちょっとファンタジーっぽい背景があって、企画側から「ドラゴンタイプのポケモンと共生している一族の子」だと伝えられたんです。なかなか難しいことを言うなぁと（笑）。それがシャガに能力を見込まれて、ソウリュウシティに留学しているという形です。だからこの2人に血のつながりはありません。アイリスのデザインは、都会に出てきた野性児のイメージです。上に着ているのが民族衣装で、シャガに連れてこられた最初はこれしか着ていなかったと思うんですけど、それで走り回られると目のやり場に困るので、シャガが靴とレギンスを買い与えた…というイメージで肉付けしていきました。髪型については、ドラゴンタイプのポケモンと一緒に暮らすので、自分もそれに近い格好の方がコミュニケーションが取りやすかろうと、ドラゴンに見えなくもないシルエットになるようデザインしました。黄色いリボンが目で、後ろにしっぽが伸びる感じですね。細かいことなんですけど、アイリスの前髪がドラゴンの上あごで、シャガのヒゲがドラゴンの下あごにもなっています。
+    translation: 软件版本不同道馆馆主也会不同，这一点企划方已经给了具体设定，不过他们要求总之要设计成强调二者成对。于是，夏卡被设定为登场人物中年龄最大的，与之成对的艾莉丝则被设定为将来性非常丰富的少女。颜色的印象上，夏卡以白色居多，艾莉丝则晒得很黑，把这种对比放在了前面。艾莉丝有几分奇幻色彩的背景，企划方告诉我她是“与龙属性宝可梦共生的族人之子”。我想这可真难办啊（笑）。设定上她是被夏卡看中能力，来到双龙市留学。所以这两人没有血缘关系。艾莉丝的设计是来到城市的野孩子的形象。她上面穿的是民族服装，我想她刚被夏卡带来时只穿这个，但那样到处乱跑会让人不知往哪儿看，于是夏卡给她买了鞋和打底裤……我就是用这样的印象来丰满角色的。发型方面，因为要和龙属性宝可梦一起生活，自己打扮得接近它们会更容易沟通，所以设计成了看起来也像龙的轮廓。黄色缎带是眼睛，后面伸出去的是尾巴的感觉。虽然是细节，艾莉丝的刘海是龙的上颚，夏卡的胡子也成了龙的下颚。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r53
+    order: 53
+    scan_page: 5
+    review_status: review
+    original: そうだったんだ（笑）。
+    translation: 原来是这样啊（笑）。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p043_making_characters_gym_leaders_brycen_iris_drayden-r54
+    order: 54
+    scan_page: 5
+    review_status: review
+    original: 言わないと誰にも気づかれない設定なんですが（笑）。シャガは年こそとっているんですが、ハチクみたいに自分に厳しいストイックな性格で、ポケモンバトルだけでなく自分自身も強くあらねばという人なんです。それで威厳を保って街をまとめている市長なんですね。ただのムキムキの人だと市長らしくないと思ったので、ぱっつんぱっつんに張ったシャツで力強さを知性を両立させつつ、それを立てていく小物を付けていけばイケるだろうと、デザインはあまり悩みませんでした。サスペンダーは厚い胸板に張り付かせることで体格の良さを強調しつつ、年をとった紳士の雰囲気も出すために付けています。髪型はきれいになでつけられた感じにし、上品さを出そうとしました。
+    translation: 这是不说就没人会注意到的设定（笑）。夏卡虽然上了年纪，但和哈奇库一样是严于律己的克己性格，是那种不仅宝可梦对战，自己本身也必须强大的人。因此他保持着威严，统合着城市，是市长。我觉得光是肌肉发达的人不像市长，所以用绷得紧紧的衬衫兼顾力量与知性，再加上能衬托这一点的配饰应该就行，设计上没怎么纠结。背带贴在厚实的胸膛上，既强调体格好，又带出年长绅士的氛围。发型做成梳理得整整齐齐的感觉，以显出高雅。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-fullpage
+    order: 55
+    scan_page: 6
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p044_making_characters_elite_four_grimsley_shauntal.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.44
+    review_status: ready
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r56
+    order: 56
+    scan_page: 6
+    review_status: review
+    original: 今回はジムリーダーの設定を出したプランナーと、四天王やアデク、チェレン、ベルの設定を出したプランナーが別なんです。ジムリーダー担当の方は、すごく細かい背景を作ってくる人なんですけど、四天王担当の方は、大まかなオーダーのみで僕にかなりゆだねてくれる人なので、結構自由に描いてますね。
+    translation: 这次负责道馆馆主设定和负责四天王、阿戴克、黑连、白露设定的策划是不同的人。负责道馆馆主的那位，会做出非常细致的背景设定，而负责四天王的那位，只给出大致的指示，很大程度上交给我来发挥，所以我画得相当自由。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r57
+    order: 57
+    scan_page: 6
+    review_status: review
+    original: 四天王の色は、当初黒と白でまとめようと思っていたんです。最終的にはうまくいかなかったんですけど、シキミとギーマが黒で、レンブとカトレアが白ですね。その名残もあって、ギーマとシキミが自分の中でセットというか、ドラキュラと猫娘のイメージなんですよ。
+    translation: 四天王的配色，当初是想用黑与白来统一的。虽然最终没能完全做到，但婉龙和越橘是黑色，连武和嘉德丽雅是白色。也因为有这个残留，在我心里越橘和婉龙算是一组，是吸血鬼和猫娘的形象。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r58
+    order: 58
+    scan_page: 6
+    review_status: review
+    original: ギーマはセリフなどがキザっぽいんですけど、ただのキザな人じゃなくて、ギャンブルにここまで身を投じるからには何か事情があったんだろうなと考えまして。自分の中では、家が落ちぶれてしまった御曹司みたいなイメージがあって、ギャンブラーなんですけど、家柄が良さそうなイメージを無くさないように描きました。つかみどころがない、底が見えない感じのほうがギャンブラーとして深みが出るかと思いまして。あとは服装に赤と黒というルーレットの色を入れてみました。
+    translation: 越橘的台词之类的虽然有点装腔作势，但他不是单纯的装腔作势之人，我想既然会如此投身于赌博，应该有什么隐情吧。在我心里，他有种家道中落的富家少爷的形象，虽然是赌徒，但我画的时候注意不失去那种出身良好的感觉。让人觉得捉摸不透、深不见底，这样作为赌徒会更有深度。另外，服装上加入了红与黑这种轮盘的颜色。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r59
+    order: 59
+    scan_page: 6
+    review_status: review
+    original: ギーマのモチーフは石田純一じゃないの？（笑）
+    translation: 越橘的原型不会是石田纯一吧？（笑）
+    comment: 石田纯一为日本男演员，此处为杉森建的玩笑。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r60
+    order: 60
+    scan_page: 6
+    review_status: review
+    original: それは「靴下を履いてない」という点だけですよ（笑）。
+    translation: 那只是「没穿袜子」这一点而已哦（笑）。
+  - speaker: ●宝可梦联盟 四天王越橘
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-h61
+    order: 61
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: ●ポケモンリーグ 四天王ギーマ
+    translation: ""
+  - speaker: ●宝可梦联盟 四天王婉龙
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-h62
+    order: 62
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: ●ポケモンリーグ 四天王シキミ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r63
+    order: 63
+    scan_page: 6
+    review_status: review
+    original: 企画側から渡された設定は「小説家志望の女性」でした。でも若い女性の作家をイラストにするのは結構難しいんですよ。文学賞の授賞式の写真なんかを調べてみると、黒髪で黒い服という人が多かったので、そこはゴーストタイプと合うなとは思ったのですが。そうした方々は芸能人ではないので、シンプルな格好が多いんです。で、具体的にイラスト化するには何かわかりやすい特徴が必要になるんですが、その特徴を外したら、すぐくシンプルに見える人にしたいと思いまして。だからシキミも、この首に巻いているものを取ると、真っ黒い割と地味な格好になります。
+    translation: 企划方给出的设定是「立志成为小说家的女性」。但把年轻女性作家画成插图是相当困难的。我查了查文学奖颁奖仪式的照片，发现很多人是黑发配黑衣，我觉得这一点和幽灵属性很搭。不过那些人不是艺人，所以打扮大多很简单。而要具体画成插图，就需要有某种容易辨认的特征，但去掉那个特征后，我希望她看起来是个简单朴素的人。所以婉龙也是，取下脖子上围的东西后，就是一身全黑、比较朴素的打扮。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r64
+    order: 64
+    scan_page: 6
+    review_status: review
+    original: あと、ゴーストタイプ使いとしてのモチーフも欲しくなって、黒猫というか、黒猫娘みたいなイメージでまとめていきました。さすがにポケモンのキャラクターの頭にネコ耳をつけるわけにはいかないんで…。
+    translation: 另外，我也想要一个作为幽灵属性使用者的主题，于是就以黑猫、或者说黑猫娘那样的形象来统一了。毕竟总不能给宝可梦角色的头上加猫耳嘛……
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r65
+    order: 65
+    scan_page: 6
+    review_status: review
+    original: いかないかな？
+    translation: 不能加吗？
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r66
+    order: 66
+    scan_page: 6
+    review_status: review
+    original: 僕はいけないと思って（笑）、首に巻いているものの後ろに大きなリボンをつけました。首に巻いているものの止め具を鼻だと思って見れば、何となく猫に見えてくるようにデザインしています。
+    translation: 我觉得不能加（笑），于是在脖子上围的东西后面加了一个大蝴蝶结。把脖子上围的东西的扣子看成鼻子的话，设计上就会隐约看起来像猫。
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r67
+    order: 67
+    scan_page: 6
+    review_status: review
+    original: 大村さんの一番お気に入りのキャラは？
+    translation: 大村先生最喜欢的角色是？
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p044_making_characters_elite_four_grimsley_shauntal-r68
+    order: 68
+    scan_page: 6
+    review_status: review
+    original: 大村 自分が描いた中でデザインとして気に入ってるのは、シキミですね。結構ストレートに趣味に走ったものなので（笑）。地味に見えるんですけど、よく見てみると、意外とほかにはないキャラを描けたんじゃないかと思っています。
+    translation: 大村：在我自己画的角色中，作为设计比较中意的是婉龙。这个角色相当直接地按自己的喜好来画的（笑）。虽然看起来朴素，但仔细看的话，我觉得画出了其他角色所没有的独特之处。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p045_making_characters_elite_four_marshal_caitlin-fullpage
+    order: 69
+    scan_page: 7
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p045_making_characters_elite_four_marshal_caitlin.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.45
+    review_status: ready
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r70
+    order: 70
+    scan_page: 7
+    review_status: review
+    original: 企画側からもらった設定は「ストリートファイトで鍛えた人」でした。アデクの押しかけ弟子で、レンブ本人はアデクを師だと言ってますが、アデクがどう思っているのかはわかりません。レンブは融通がきかないという思いつめるタイプで、師匠がフラフラしているのも良くは思っていないようです。それが険しい表情にも表れていますね。
+    translation: 企划方给出的设定是“在街头格斗中锻炼出来的人”。他是阿戴克硬收的徒弟，连武本人说阿戴克是师父，但阿戴克怎么想就不知道了。连武是那种不通融、爱钻牛角尖的类型，对师父游手好闲的样子似乎也不太认可。这一点也表现在他严峻的表情上。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r71
+    order: 71
+    scan_page: 7
+    review_status: review
+    original: デザインは苦労しました。最初は大きなフードをかぶって、そこにキャップを付けていたんです。そういう人を実際街で見て、これなら強そうで、かつ思いつめた感じも出せると思ったんですが…顔が奥に引っ込んでしまうので、どうして難しい。結局、フードはすっぱりと諦めました。そうしたらいい意味で頭のデザインに諦めがついたんです。改めて周りを見渡すと坊主頭のキャラがいないので、坊主に近い短髪にしてみたら、意外と自分としては新しい感じが出せました。あと全体的な色は黄色と黒を互い違いに使っています。師匠のアデクが獅子なので、レンブは虎のイメージですね。
+    translation: 设计上费了不少功夫。最初是戴一个大兜帽，上面再扣一顶帽子。我在街上实际见过那样的人，觉得这样既显得强，又能表现出钻牛角尖的感觉……但脸会陷进去，所以很难办。最后干脆放弃了兜帽。这样一来，反而在头部设计上想开了。重新环顾四周，发现没有光头角色，于是试着做成接近光头的短发，结果自己觉得意外地有了新鲜感。另外整体颜色是黄色和黑色交替使用。师父阿戴克是狮子，连武就是老虎的形象。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r72
+    order: 72
+    scan_page: 7
+    review_status: review
+    original: 彼はストリートで戦う人なので、当初はあまり特定の流派にしたくなかったんです。そこでだぶだぶのズボンとダウンベストみたいなものを道着に見立てていたんですが、杉森から、やっぱり何か流派があったほうがまとめやすいんじゃないかとアドバイスされまして。そこで、ストリートに飛び出すまでは空手をやっていたことにしました。帯をしめてみたら、シルエットがちょうど空手の道着っぽくなって良かったですね。父親が空手の師範代で、家を出ていくときに「どんな格好をしてもいいから、帯だけはしておけ！」と言われたとか、そういうバックボーンを考えながらデザインしました。
+    translation: 他是在街头战斗的人，所以当初不太想把他归入某个特定流派。于是把肥大的裤子和羽绒背心之类的东西当作道服来设计，但杉森建议说，还是有个流派更容易统合。于是设定为在走上街头之前练过空手道。系上腰带后，轮廓正好有点像空手道道服，效果不错。父亲是空手道师范代，离家时被说“穿什么都行，但腰带一定要系着！”之类的，我是一边考虑这种背景一边设计的。
+  - speaker: ●宝可梦联盟 四天王连武
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p045_making_characters_elite_four_marshal_caitlin-h73
+    order: 73
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ●ポケモンリーグ 四天王レンブ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r74
+    order: 74
+    scan_page: 7
+    review_status: review
+    original: カトレアは『ポケモンプラチナ』や『ポケモンHG・SS』のバトルフロンティアに登場していた人物の成長した姿です。その数年後くらいという設定で、あまりそうは見えないんですけど、見た目よりは年齢が高いかもしれません。
+    translation: 嘉德丽雅是曾在《宝可梦白金》和《宝可梦心金·魂银》的对战开拓区登场的人物成长后的样子。设定上是那之后几年，虽然不太看得出来，但年龄可能比外表要大。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r75
+    order: 75
+    scan_page: 7
+    review_status: review
+    original: バトルフロンティアに出てきたときは14歳くらいのイメージかな。
+    translation: 杉森：在对战开拓区登场时，印象中大概是14岁左右吧。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r76
+    order: 76
+    scan_page: 7
+    review_status: review
+    original: まあ同一人物なので、バトルフロンティア登場時と同じ要素を使ってデザインしようと最初に決めました。白っぽい服にピンクを加えつつ、大きいリボンを付けるとか。ただ、そのままだと面白くないので、特徴的なところをさらに強調しています。僕の好みもあるんですが、髪の量をとことん多くしてみました。四天王なので、ちょっと神々しい、天使っぽいくらいの感じでいいだろうと思いまして。それで、かなり箔の付いた姿になりましたね。
+    translation: 嗯，因为是同一个人，所以一开始就决定使用与对战开拓区登场时相同的元素来设计。在偏白的衣服上加入粉色，再配上大蝴蝶结。不过，照原样就没意思了，所以进一步强调了特征部分。也有我个人喜好的原因，把发量做到了极致。因为是四天王，所以觉得稍微有点神圣、像天使一样的感觉也不错。因此，就成了相当有气派的形象。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r77
+    order: 77
+    scan_page: 7
+    review_status: review
+    original: あと彼女はエスパータイプの使い手なんですが、エスパータイプの人は超能力で髪型を作っていてほしいという願望が個人的にありまして。両端のリボンを超能力で浮かせて、髪型を保ってるみたいにしています。またお嬢様なので、ちょっと偉そうなぐらいがいいと思い、手は後ろで組ませています。ジャローダもそうなんですけど、「やってちょうだい」とアゴで使う感じです（笑）。
+    translation: 另外她是超能力属性的使用者，我个人有个愿望，就是希望超能力属性的人能用超能力来塑造发型。两端的蝴蝶结用超能力浮起来，以此来保持发型。还有，因为她是大小姐，所以觉得稍微有点傲慢比较好，就让她把手背在身后。君主蛇也是这样，有种用下巴指使别人“给我做”的感觉（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r78
+    order: 78
+    scan_page: 7
+    review_status: review
+    original: カトレアのポケモンの腕に関しては、若いときから強かったけど、使わせてもらえなかった、みたいなイメージがあるんです。
+    translation: 杉森：关于嘉德丽雅的宝可梦实力，我有个印象是，她从小就很强，但一直不被允许使用。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r79
+    order: 79
+    scan_page: 7
+    review_status: review
+    original: 超能力がうまく制御できないから禁止されていたけど、それが可能になったので、力試しとしてイッシュ地方に1人でやってきたわけです。
+    translation: 因为无法很好地控制超能力所以被禁止，但后来变得可以控制了，所以就作为试炼独自来到合众地区。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r80
+    order: 80
+    scan_page: 7
+    review_status: review
+    original: カトレア本人はコクラン（※）を置いて1人で来たつもりですけど、意外と近くで見守っているのかも…。
+    translation: 杉森：嘉德丽雅本人是打算抛下石兰一个人来的，但说不定意外地就在附近守护着她……
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r81
+    order: 81
+    scan_page: 7
+    review_status: review
+    original: カトレアが電車の改札でお金を払わず素通りしちゃっているところを、コクランが後から追いかけてこっそりお金を払ってるとか（笑）。
+    translation: 嘉德丽雅在电车检票口不付钱就径直走过去，石兰从后面追上来偷偷替她付钱之类的（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r82
+    order: 82
+    scan_page: 7
+    review_status: review
+    original: まあ単なる想像でしかないんですが、陰でサポートしているのかもしれませんね。
+    translation: 不过这也只是单纯的想象，说不定他真在背后默默支持着她呢。
+  - speaker: 宝可梦联盟 四天王嘉德丽雅
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p045_making_characters_elite_four_marshal_caitlin-h83
+    order: 83
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ●ポケモンリーグ 四天王カトレア
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r84
+    order: 84
+    scan_page: 7
+    review_status: review
+    original: ※「コクラン」って？
+    translation: ※“石兰”是谁？
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p045_making_characters_elite_four_marshal_caitlin-r85
+    order: 85
+    scan_page: 7
+    review_status: review
+    original: 『ポケモンプラチナ』『ポケモンHG・SS』のバトルフロンティアにあった一施設「バトルキャッスル」のフロンティアブレーン。バトルキャッスルは戦いぶりに応じてもらえるCP（キャッスルポイント）で回復したり道具をレンタルするのだが、このCPをくれるのが少女時代のカトレアだった。フロンティアブレーン戦になると、カトレアの執事だったコクランがプレイヤーの相手となる。
+    translation: 《宝可梦 白金》《宝可梦 心金·魂银》的对战开拓区中一个设施“对战城堡”的开拓区首领。对战城堡会根据战斗表现给予CP（城堡点数），用来回复或租借道具，而给予这个CP的正是少女时代的嘉德丽雅。进入开拓区首领战时，曾是嘉德丽雅管家的石兰会与玩家对战。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p046_making_characters_subway_masters_alder-fullpage
+    order: 86
+    scan_page: 8
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-bw-tanjou-hiwa-2011-characters/pages/p046_making_characters_subway_masters_alder.jpg"
+    alt: Nintendo DREAM 特別付録 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』（2011年7月号 Vol.207 付録小冊子） P.46
+    review_status: ready
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r87
+    order: 87
+    scan_page: 8
+    review_status: review
+    original: アデクは今までのチャンピオンとやることが随分違っている人なので、結構大変でした。まずポケモンリーグにいないというのが、大きな特徴だったりしますし。でもやっていること自体は、今までのチャンピオンの中で、一番チャンピオンらしいと思うんですよ。ポケモンの良さや魅力を人に伝えるために行動しているわけですから。自分としては魅力的な人だなぁと思いながらデザインしたんですが、最初に伝えられた「伝道師っぽい」というイメージを僕が大層に受け止めてしまって、なんかキリストみたいな人物になっちゃったんです。そのイメージがなかなか離れなかったので、杉森と相談したところ、「伝道師をやわらかいイメージにしたら、風来坊になるよね」というアイデアが出てきました。旅をしているのでマントのようなものを羽織らせよう、いろんなところを歩きまわっているので服もボロボロな感じにしようと、それからは必要な要素が順調に出てきました。
+    translation: 阿戴克和以往的冠军所做的事大不相同，所以相当费劲。首先他不在宝可梦联盟，这就是一大特征。不过他所做的事本身，我觉得在以往的冠军中是最有冠军样子的。因为他行动的目的是向人们传达宝可梦的优点与魅力。我自己是抱着“这是个有魅力的人”的想法来设计的，但最初接到的“像传道师”这个印象被我理解得过于夸张，结果就变成了有点像基督的人物。这个印象迟迟挥之不去，于是和杉森商量后，冒出了“把传道师做成柔和的形象，就成了流浪者”这个点子。既然在旅行，就让他披上类似披风的东西；既然四处走动，衣服也弄得破破烂烂的——之后必要的要素就顺利出来了。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r88
+    order: 88
+    scan_page: 8
+    review_status: review
+    original: イラストで岩付きなのは、放浪している感じにしたかったので、どこか高い所に登って、次はあっちに行ってみるかな…みたいなイメージを出すためです。あと、デザイン上は太陽みたいな男にしたいという意図もあり、太陽を連想させるのにわかりやすいのがライオンだろうということで、髪型を獅子のたてがみのような形にまとめていきました。
+    translation: 插图中让他站在岩石上，是想营造出流浪的感觉，表现出他爬上某个高处、想着“接下来去那边看看吧……”这样的意象。另外，设计上也有想把他做成太阳一般的男人的意图，而最容易让人联想到太阳的就是狮子，于是把发型整理成了狮子鬃毛般的形状。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r89
+    order: 89
+    scan_page: 8
+    review_status: review
+    original: あとアデクは、首だけでなくマントの下にもモンスターボールをぶら下げていますよね。これは彼がパソコンの使い方を知らないという設定だからなんですよ。だからポケモンをパソコンに預けられない（笑）。
+    translation: 还有，阿戴克不只是脖子上，披风下面也挂着精灵球。这是因为设定上他不知道怎么用电脑。所以他没法把宝可梦寄存在电脑里（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r90
+    order: 90
+    scan_page: 8
+    review_status: review
+    original: 本当だったら、手持ちは6匹までしか持てないから、7つ以上のモンスターボールを持っているのは変なんですけど、彼はパソコンが使えませんから、手持ち以外も全部持ち歩いているんです（笑）。じゃらじゃらと大量のボールをぶら下げてる。
+    translation: 按理说，随身只能带6只，所以持有7个以上的精灵球是很奇怪的，但他不会用电脑，所以除了随身携带的以外也全都带在身上（笑）。叮叮当当地挂着一大堆球。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r91
+    order: 91
+    scan_page: 8
+    review_status: review
+    original: だから、イラストでは7つ以上のモンスターボールを描く必要があったんです。でも、バトルのルールがわかっていない人に見えても困るので、いつも使うエース級のポケモン6匹はわかりやすい所にあって、それ以外は服の陰から少し見えているだけにしました。
+    translation: 所以，插图中必须画出7个以上的精灵球。但要是让人看起来像是不懂对战规则的人也不妥，所以常用的6只王牌级宝可梦放在显眼的位置，其余的只从衣服阴影里露出一点点。
+  - speaker: 宝可梦联盟 冠军阿戴克
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p046_making_characters_subway_masters_alder-h92
+    order: 92
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ●ポケモンリーグ チャンピオンアデク
+    translation: ""
+  - speaker: 地铁总管南厦
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p046_making_characters_subway_masters_alder-h93
+    order: 93
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ●サブウェイマスタークダリ
+    translation: ""
+  - speaker: ●地铁总管北尚
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p046_making_characters_subway_masters_alder-h94
+    order: 94
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ●サブウェイマスターノボリ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r95
+    order: 95
+    scan_page: 8
+    review_status: review
+    original: 彼らのデザインはあまり迷いませんでした。もらった設定は「バトルサブウェイに登場する双子の車掌」でした。バトルサブウェイと聞いたときに、ほかの開発メンバーはみんな普通にサブウェイ、サブウェイって言ってるんですけど…正直、僕はだいぶクレイジーだなと思いまして（笑）。だって電車の中で戦うって、かなりクレイジーじゃないですか。その第一印象を素直に生かして、じゃあクレイジーというか、エキセントリックな人物にしようと。イメージとしてはピエロですね。すごい実力者なのに、えたいが知れないというか、底知れない感じで、少し不気味なくらいの方が挑みがいがあると思いました。
+    translation: 他们的设计没怎么让我犹豫。拿到的设定是「在对战地铁登场的双子列车员」。听到对战地铁时，其他开发成员都理所当然地说着地铁、地铁……说实话，我觉得这相当疯狂（笑）。毕竟在电车里战斗，不是相当疯狂吗。我坦率地活用这第一印象，那就做成疯狂，或者说古怪的人物吧。形象上就是小丑。明明是实力超群的人，却让人摸不着底细，深不可测，带着一点诡异感，反而更让人有挑战的欲望。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r96
+    order: 96
+    scan_page: 8
+    review_status: review
+    original: 車掌のコートのデザインは線路をイメージしています。丈の長さを誇張して見栄えを良くしつつ、袖とかをダブダブとさせてピエロの衣装に近づけていった結果、今の服装になりました。ちなみに、ノボリとクダリの顔の違いは口だけです。双子ですけど、まったく同じではどうしてもキャラクターの個性が無くなってしまうので、そこは差をつけました。でも、これだけでも想像できる性格ががらっと変わるんじゃないでしょうか。
+    translation: 列车员外套的设计以铁轨为意象。把衣长夸张化以提升观感，同时让袖子等部分松松垮垮，逐渐接近小丑的服装，最终成了现在的样子。顺带一提，北尚和南厦脸部的区别只有嘴。虽然是双胞胎，但完全一样的话角色个性无论如何都会消失，所以在那一点上做了区分。不过，仅凭这一点，能想象出的性格应该就会截然不同吧。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r97
+    order: 97
+    scan_page: 8
+    review_status: review
+    original: 正直なところ、自分ではかなり冒険したデザインだったので、杉森には「『ポケモン』の世界でこのキャラはないんじゃない？」とか言われると思ったんですが…。
+    translation: 说实话，因为自己觉得这是相当冒险的设计，本以为杉森会说「在『宝可梦』的世界里不会有这种角色吧？」之类的……。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r98
+    order: 98
+    scan_page: 8
+    review_status: review
+    original: いや、別に全然問題ないけど（笑）。
+    translation: 不，其实完全没问题（笑）。
+  - speaker: 海野隆雄
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p046_making_characters_subway_masters_alder-r99
+    order: 99
+    scan_page: 8
+    review_status: review
+    original: 最初にちらっと見せてもらったときに、今までの『ポケモン』っぽい絵かどうかは置いておいて、キャラクターを一目見て理解できるわかりやすさがあるという意味では、やっぱり『ポケモン』らしいなと思いましたよ。
+    translation: 第一次稍微给我看的时候，先不论是不是至今为止『宝可梦』风格的画，从一眼就能理解角色的易懂性这个意义上说，我觉得果然很有『宝可梦』的味道。
+---

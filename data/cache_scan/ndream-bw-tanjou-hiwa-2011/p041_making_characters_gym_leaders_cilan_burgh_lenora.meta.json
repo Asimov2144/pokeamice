@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 13.2,
+ "image_tokens": 7010,
+ "completion_tokens": 602,
+ "finish": "stop",
+ "file": "p041_making_characters_gym_leaders_cilan_burgh_lenora",
+ "image_md5": "e9c76b2bcca12a4fb70b678593dd8f65"
+}

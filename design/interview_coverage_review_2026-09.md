@@ -314,3 +314,18 @@ cedil.cesa.or.jp 搜「ポケモン / ゲームフリーク / Pokémon / クリ�
 | 2020 | Creatures 今野達斗 TA Bootcamp（合讲） | 无 |
 
 GF 2024、2025 没有 CEDEC 登台（官网 Topics 里那两年只有 SIGGRAPH / Visual Computing）。剩下 8 场没有媒体报道的，资料下载后同样走 `import-cedil-deck.py`：`python tools/import-cedil-deck.py <CEDiL id> <pdf> <slug>`。
+
+
+---
+
+## 11. 扫描集导入（2026-09-16 晚）
+
+`E:/Pokeamice/scan/` 里 15 套 `*_prepared`（Nintendo DREAM 2010.11 / 2011.1 / 2011.4 / 2011.5 / 2012.9 / 2012.10 / 2013.12 / 2014.1、誕生秘話付録、電撃GAMES Vol.14、ダ・ヴィンチ 2011.1、噂の真相 2000.5 / 2001.4、金銀公式ガイド巻末、初代『ポケットモンスター図鑑』）由 `tools/import-scan-set.py` 导入，登记表 [scan_sets_2026-09.json](scan_sets_2026-09.json)。
+
+**先核对再用**：随集附带的 `ocr_transcriptions/*.md` 与页图逐段比对——電撃GAMES 那份忠实，DREAM 2011.1 P18–P23「景山将太访谈」整篇是模型写的（问答、编后记、"すぎやまこういち／光田康典"都不在页面上）。因此所有页面重新由 qwen3.8-max 整页转写：默认分辨率会错字（ラッコ→シカ、问句并进答句），改喂 300 dpi 母版并开 `vl_high_resolution_images` 后与页面逐字一致；DREAM 2011.5 的 archive/ 是坏的（1112×1529），按 manifest 的 crop box 从原扫描重切；同期右缘被扫描裁掉的行尾已在帖内 `review_scope` 注明。
+
+**结果**：24 帖 / 206 页图 / 4,357 段原文+译文，页图上腾讯云 COS（`scan-archive/<feature>/pages/`），仓库不增重；帖子沿用 CONTINUE 的 `scan_translation` 版式（逐页：页图 → 标题 → 问答/正文/图说），新增：标题下保留日文原标题、`[表]` 块渲染成表格（带原文切换）、攻略/数据页作为「附录：同期攻略与资料页」排在访谈之后。全部 `workflow.proofreading: pending`。
+
+**未成帖**：噂の真相 2000.5「隠蔽された生みの親の悲劇的人生」与 2001.4「小学館…泥沼の不倫劇」——八卦周刊，正文是关于在世个人私生活的未经证实传闻，转写已存 `data/cache_scan/uwashin-*`，是否发布由站主决定；DREAM 各期的非宝可梦页（桜井政博 200 号、3DS 发售报道、山内溥追悼、ランキング研究所、ポケモン堂 专栏）与初代図鑑的图鉴正文（123 页）未转写/未成帖。
+
+**对第 5 节纸媒缺口的影响**：ニンドリ 2010–2014 五代（BW / B2W2 / XY）的开发者访谈已入库；仍缺 DP / Pt / HGSS（2006–2009）、ORAS / SM / USUM / LGPE / 剑盾 / BDSP / LA / SV / ZA 各期。`E:/Pokeamice/scan/` 里尚未 prepare 的原扫描：DREAM 2008.10 / 2008.11 附录 / 2008.12 / 2009.11 / 2010.4、DREAM 25TH、FAMI 2008.3.28 / 2009.9.24 / 2009.10.1 / 2010.1.14 / 2010.1.21 增刊 / 2010.3.18 / 2013.10.24 / 2013.11.14、OFFICE 2008、SWITCH、LGPE EXTRA、DP anime、xy/oras/swsh 攻略本、pokepia——这些走同一条线即可。

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.8,
+ "image_tokens": 6818,
+ "completion_tokens": 1310,
+ "finish": "stop",
+ "file": "p083_bw_interview_masuda_bridges_part4",
+ "image_md5": "8de30a386ff3f9cb2539c00602c57f01"
+}

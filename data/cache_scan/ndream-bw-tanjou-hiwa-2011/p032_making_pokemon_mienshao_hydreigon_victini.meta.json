@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 14.8,
+ "image_tokens": 7010,
+ "completion_tokens": 742,
+ "finish": "stop",
+ "file": "p032_making_pokemon_mienshao_hydreigon_victini",
+ "image_md5": "8e95b464e7c5df77e70b493508f7de0f"
+}

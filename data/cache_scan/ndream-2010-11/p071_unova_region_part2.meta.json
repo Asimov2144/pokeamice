@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 33.0,
+ "image_tokens": 8582,
+ "completion_tokens": 497,
+ "finish": "stop",
+ "file": "p071_unova_region_part2",
+ "image_md5": "59d63f61eff61305d172f48c72317093"
+}

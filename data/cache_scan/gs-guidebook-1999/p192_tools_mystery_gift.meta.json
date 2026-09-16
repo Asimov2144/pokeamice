@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 104.2,
+ "image_tokens": 16220,
+ "completion_tokens": 766,
+ "finish": "stop",
+ "file": "p192_tools_mystery_gift",
+ "image_md5": "e756c1380989d3540b5ff435a4b876d5"
+}

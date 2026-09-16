@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.1,
+ "image_tokens": 6914,
+ "completion_tokens": 586,
+ "finish": "stop",
+ "file": "p072_bw_interview_swords_of_justice",
+ "image_md5": "ae68c60531e3f5c440d8394a2a180de7"
+}

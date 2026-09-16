@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 45.9,
+ "image_tokens": 6722,
+ "completion_tokens": 1602,
+ "finish": "stop",
+ "file": "p013_b2w2_interview_unno",
+ "image_md5": "4db39cb45e5690a477747cbaee54be7c"
+}

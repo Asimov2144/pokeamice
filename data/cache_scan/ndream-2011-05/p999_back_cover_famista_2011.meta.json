@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 10.8,
+ "image_tokens": 6914,
+ "completion_tokens": 459,
+ "finish": "stop",
+ "file": "p999_back_cover_famista_2011",
+ "image_md5": "ec549becb9475b303bc631b93b83cbed"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 19.1,
+ "image_tokens": 7010,
+ "completion_tokens": 455,
+ "finish": "stop",
+ "file": "p038_making_characters_protagonists_fennel",
+ "image_md5": "fa1f4cdbb4008dc23ab7b2fe4c703468"
+}

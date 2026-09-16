@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.9,
+ "image_tokens": 6818,
+ "completion_tokens": 1010,
+ "finish": "stop",
+ "file": "p078_bw_interview_characters_drayden_iris_brycen",
+ "image_md5": "dbc121eb818779582999959e56793281"
+}

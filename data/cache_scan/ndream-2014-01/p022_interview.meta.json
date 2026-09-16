@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 55.9,
+ "image_tokens": 7010,
+ "completion_tokens": 1846,
+ "finish": "stop",
+ "file": "p022_interview",
+ "image_md5": "ec78e57bbf4ecd72739597010560a7e1"
+}

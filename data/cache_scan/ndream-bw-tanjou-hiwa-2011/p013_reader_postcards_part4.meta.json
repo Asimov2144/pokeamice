@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 51.5,
+ "image_tokens": 7010,
+ "completion_tokens": 2126,
+ "finish": "stop",
+ "file": "p013_reader_postcards_part4",
+ "image_md5": "ce6cd422ef4e02f1e7f05fa3eb2ca4a0"
+}

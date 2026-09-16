@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 24.8,
+ "image_tokens": 7010,
+ "completion_tokens": 341,
+ "finish": "stop",
+ "file": "p004_poll_pokemon_top10_part1",
+ "image_md5": "8d62fa4919fd2876019f6a3dd3a6e7bb"
+}

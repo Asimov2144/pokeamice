@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 25.9,
+ "image_tokens": 6530,
+ "completion_tokens": 1370,
+ "finish": "stop",
+ "file": "p061_palutena_dialogue_sakurai_hirabayashi_2",
+ "image_md5": "ffb3ff34f1c9af60f4bc4c256509310e"
+}

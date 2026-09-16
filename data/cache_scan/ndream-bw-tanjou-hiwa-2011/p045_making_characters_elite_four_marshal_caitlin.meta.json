@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 45.5,
+ "image_tokens": 7010,
+ "completion_tokens": 1012,
+ "finish": "stop",
+ "file": "p045_making_characters_elite_four_marshal_caitlin",
+ "image_md5": "11c6d6b4643e3b6ea710bf5db6f9d91c"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.5,
+ "image_tokens": 6747,
+ "completion_tokens": 1422,
+ "finish": "stop",
+ "file": "p255_making_pokemon_pdw",
+ "image_md5": "ee94974de8401f986441c7c265db8ec3"
+}

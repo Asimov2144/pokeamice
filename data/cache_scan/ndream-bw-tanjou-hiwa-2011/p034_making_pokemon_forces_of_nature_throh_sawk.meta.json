@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 23.9,
+ "image_tokens": 7010,
+ "completion_tokens": 551,
+ "finish": "stop",
+ "file": "p034_making_pokemon_forces_of_nature_throh_sawk",
+ "image_md5": "e783b5c0557f7289c6f25db6fa9f9cd0"
+}

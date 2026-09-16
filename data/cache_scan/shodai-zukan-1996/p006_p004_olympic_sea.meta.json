@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 12.5,
+ "image_tokens": 3198,
+ "completion_tokens": 138,
+ "finish": "stop",
+ "file": "p006_p004_olympic_sea",
+ "image_md5": "6db77c89b8329595a0b0bc28c6f5a2cb"
+}

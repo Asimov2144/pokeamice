@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 28.8,
+ "image_tokens": 7010,
+ "completion_tokens": 890,
+ "finish": "stop",
+ "file": "p048_pokemon_do_special_pgl_pokemon_cafe",
+ "image_md5": "8b59400c7bb3bee1b33ca155e1dcbe22"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.8,
+ "image_tokens": 7010,
+ "completion_tokens": 749,
+ "finish": "stop",
+ "file": "p039_making_characters_juniper_cheren_bianca",
+ "image_md5": "5abd745ef10e12a1784142fbc5d797dc"
+}

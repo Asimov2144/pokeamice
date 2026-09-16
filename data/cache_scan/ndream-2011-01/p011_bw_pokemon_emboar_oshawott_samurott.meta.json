@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 11.4,
+ "image_tokens": 6842,
+ "completion_tokens": 566,
+ "finish": "stop",
+ "file": "p011_bw_pokemon_emboar_oshawott_samurott",
+ "image_md5": "706779c555bae9306f77b383fab86ceb"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 32.4,
+ "image_tokens": 6914,
+ "completion_tokens": 911,
+ "finish": "stop",
+ "file": "p070_memorial_200_editorial_team_walkthrough",
+ "image_md5": "32947631f0ca9ca96ca034f7feaeb4b2"
+}

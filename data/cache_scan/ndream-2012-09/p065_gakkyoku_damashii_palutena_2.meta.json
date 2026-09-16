@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.5,
+ "image_tokens": 6434,
+ "completion_tokens": 1921,
+ "finish": "stop",
+ "file": "p065_gakkyoku_damashii_palutena_2",
+ "image_md5": "b5a79dae7d75a1677985d7ab82fa1f3f"
+}

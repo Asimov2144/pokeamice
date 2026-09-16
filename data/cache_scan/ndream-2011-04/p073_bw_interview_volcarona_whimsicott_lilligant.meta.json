@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 38.0,
+ "image_tokens": 6914,
+ "completion_tokens": 779,
+ "finish": "stop",
+ "file": "p073_bw_interview_volcarona_whimsicott_lilligant",
+ "image_md5": "52267d3ae7a5ccb7b23b7627d199c2e2"
+}

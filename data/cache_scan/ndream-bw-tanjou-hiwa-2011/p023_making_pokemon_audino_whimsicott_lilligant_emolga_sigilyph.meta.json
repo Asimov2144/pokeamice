@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.1,
+ "image_tokens": 7010,
+ "completion_tokens": 889,
+ "finish": "stop",
+ "file": "p023_making_pokemon_audino_whimsicott_lilligant_emolga_sigilyph",
+ "image_md5": "b7d46a7cedf0e4db23ac4dff24129b82"
+}

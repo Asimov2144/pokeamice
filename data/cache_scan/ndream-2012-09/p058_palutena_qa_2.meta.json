@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 17.9,
+ "image_tokens": 6722,
+ "completion_tokens": 949,
+ "finish": "stop",
+ "file": "p058_palutena_qa_2",
+ "image_md5": "5b3eda1f6d09aae18b08d857e0edc095"
+}

@@ -75,7 +75,8 @@ than drawing them - the record is complete, the picture is not.
             is a label over a note, not a turn.
           {%- endcomment -%}
           {% assign label = "" %}
-          {% if who != "" and is_q == false %}
+          {% assign is_head = false %}{% if s.type == "header" or s.type == "heading" or kind == "heading" %}{% assign is_head = true %}{% endif %}
+          {% if who != "" and is_q == false and is_head == false %}
             {% assign said = segs | where: "speaker", who | size %}
             {% assign named = page.interviewee | default: "" %}
             {% if said < 2 %}{% unless named contains who %}{% assign label = who %}{% assign who = "" %}{% endunless %}{% endif %}
@@ -118,12 +119,38 @@ than drawing them - the record is complete, the picture is not.
               {% endfor %}
               {% if captioned == false and is_plate and s.alt %}<figcaption>{{ s.alt }}</figcaption>{% endif %}
             </figure>
+          {% elsif s.type == "table" and s.rows_zh %}
+            {%- comment -%} a data table from the page: the translation as a table, the printed rows behind the toggle {%- endcomment -%}
+            <div class="sc-table parallel-text__block" id="segment-{{ forloop.index }}">
+              {% if s.table_caption %}<p class="sc-table__caption">{{ s.table_caption }}</p>{% endif %}
+              <div class="sc-table__scroll">
+                <table>
+                  {% for row in s.rows_zh %}
+                    {% if forloop.first %}<thead><tr>{% for cell in row %}<th>{{ cell }}</th>{% endfor %}</tr></thead><tbody>{% else %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endif %}
+                    {% if forloop.last %}</tbody>{% endif %}
+                  {% endfor %}
+                </table>
+              </div>
+              <details class="sc-table__orig"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
+                <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这张表的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
+                <div class="sc-table__scroll">
+                  <table>
+                    {% for row in s.rows_ja %}
+                      {% if forloop.first %}<thead><tr>{% for cell in row %}<th>{{ cell }}</th>{% endfor %}</tr></thead><tbody>{% else %}<tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>{% endif %}
+                      {% if forloop.last %}</tbody>{% endif %}
+                    {% endfor %}
+                  </table>
+                </div>
+              </details>
+            </div>
           {% elsif s.caption_for %}
             {%- comment -%} rendered under its image above {%- endcomment -%}
           {% elsif s.type == "header" or s.type == "heading" or kind == "heading" %}
             {%- comment -%} the section title is the speaker field; the text under it is the standfirst {%- endcomment -%}
-            <header class="sc-heading" id="segment-{{ forloop.index }}">
-              {% if who != "" %}<h2 class="sc-heading__title">{{ who }}</h2>{% endif %}
+            <header class="sc-heading{% if s.heading_level == 3 %} sc-heading--sub{% endif %}" id="segment-{{ forloop.index }}">
+              {% if who != "" %}{% if s.heading_level == 3 %}<h3 class="sc-heading__title sc-heading__title--sub">{{ who }}</h3>{% else %}<h2 class="sc-heading__title">{{ who }}</h2>{% endif %}{% endif %}
+              {%- comment -%} a heading transcribed from the page keeps its Japanese under the translation; a standfirst, when there is one, is the pair below {%- endcomment -%}
+              {% if t_text == "" and o_text != "" %}<p class="sc-heading__orig"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>{{ o_text }}</p>{% endif %}
               {% if t_text != "" %}
               <div class="sc-text sc-text--standfirst parallel-text__block">
                 <div class="ed-turn__text parallel-text__pair">

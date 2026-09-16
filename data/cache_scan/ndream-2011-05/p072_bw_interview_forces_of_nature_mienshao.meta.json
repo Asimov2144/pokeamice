@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.2,
+ "image_tokens": 6914,
+ "completion_tokens": 749,
+ "finish": "stop",
+ "file": "p072_bw_interview_forces_of_nature_mienshao",
+ "image_md5": "6c65cc47fa540e4f5254aa5cf2d10cb9"
+}

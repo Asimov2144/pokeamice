@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.8,
+ "image_tokens": 7010,
+ "completion_tokens": 665,
+ "finish": "stop",
+ "file": "p018_making_pokemon_roundtable_intro",
+ "image_md5": "cbf403ad6f34f3dd5b7bd0a014c59619"
+}

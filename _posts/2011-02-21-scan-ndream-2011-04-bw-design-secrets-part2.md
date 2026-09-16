@@ -1,0 +1,1691 @@
+---
+archive_type: scan_translation
+layout: interview-editorial
+title: Nintendo DREAM 2011：宝可梦黑·白开发者访谈 宝可梦与角色诞生秘话
+display_title: 宝可梦黑·白诞生秘话
+title_ja: ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話
+date: 2011-02-21
+era_skin: 2011
+categories:
+  - 访谈翻译
+  - 扫描存档
+tags:
+  - Nintendo DREAM
+  - 扫描存档
+  - 日中对照
+  - 宝可梦 黑·白
+  - 角色设计
+  - Game Freak
+kicker: SCAN ARCHIVE · INTERVIEW
+publication: Nintendo DREAM
+issue: 2011年4月号（Vol.204）
+publisher: 毎日コミュニケーションズ
+interviewee: 杉森建、海野隆雄、大村祐介
+interviewer: Nintendo DREAM 編集部
+dek: GAME FREAK开发团队讲述新宝可梦与角色诞生幕后，续篇访谈。
+summary: Nintendo DREAM 2011年4月号刊载《宝可梦黑·白》开发者访谈续篇。杉森建、海野隆雄、大村祐介讲述三剑客、火神蛾、双斧战龙等新宝可梦及夏加、艾莉丝等角色的设计经过与开发内幕。
+source_pages: P.71–P.79（9 页，另附封面/目次；2048px 页图）
+source:
+  title: ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話
+  source_type: magazine_scan
+  language: ja
+  publication: Nintendo DREAM
+  issue: 2011年4月号（Vol.204）
+source_kind: magazine_interview
+original_lang: ja
+translation_lang: zh-CN
+parallel_view: translation
+published: true
+translator: qwen3.8-max 整页转写 / DeepSeek 初译
+workflow:
+  scan: done
+  preprocess: "prepared set (dedup, deskew, 2048px web)"
+  ocr: qwen3.8-max full-page
+  translation: deepseek-machine
+  proofreading: pending
+  published: online
+review_scope: 整页由视觉模型一次转写、DeepSeek 初译；未经人工逐字校对，读者请以页图为准。
+pending_review_regions: 145
+scan_set: ndream-2011-04
+entities:
+  people:
+    - 杉森建
+    - 海野隆雄
+    - 大村祐介
+  works:
+    - 宝可梦 黑·白
+translation_segments:
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p001_cover-fullpage
+    order: 1
+    scan_page: 0
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p001_cover.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.1
+    review_status: ready
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p003_contents-fullpage
+    order: 2
+    scan_page: 1
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p003_contents.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.3
+    review_status: ready
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p071_bw_interview_part2_intro-fullpage
+    order: 3
+    scan_page: 2
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p071_bw_interview_part2_intro.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.71
+    review_status: ready
+  - speaker: "那个超人气企划时隔3个月复活!!"
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p071_bw_interview_part2_intro-h4
+    order: 4
+    scan_page: 2
+    heading_level: 2
+    review_status: review
+    original: "あの大人気企画が3か月ぶりに復活!!"
+    translation: ""
+  - speaker: "ALL ABOUT 宝可梦黑 宝可梦白 Part 2 宝可梦&角色诞生秘话Plus"
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p071_bw_interview_part2_intro-h5
+    order: 5
+    scan_page: 2
+    heading_level: 2
+    review_status: review
+    original: "ALL ABOUT ポケットモンスターブラック ポケットモンスターホワイト Part 2ポケモン&キャラクター誕生秘話プラス"
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p071_bw_interview_part2_intro-r6
+    order: 6
+    scan_page: 2
+    review_status: review
+    original: "『ポケモンB・W』ディレクター増田順一さんが語る橋誕生秘話も!!80ページから"
+    translation: "《宝可梦B・W》总监增田顺一讲述的桥诞生秘话也!!从第80页开始"
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p071_bw_interview_part2_intro-r7
+    order: 7
+    scan_page: 2
+    review_status: review
+    original: "新たな伝説のポケモンを入手!"
+    translation: "获得新的传说宝可梦!"
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p071_bw_interview_part2_intro-r8
+    order: 8
+    scan_page: 2
+    review_status: review
+    original: ポケモン堂 84ページからSpecial
+    translation: 宝可梦堂 从第84页开始Special
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p071_bw_interview_part2_intro-r9
+    order: 9
+    scan_page: 2
+    review_status: review
+    original: "ニンドリ1月号に掲載され、大好評を博した「『ポケットモンスターブラック・ホワイト』ポケモン&人物誕生秘話」。ひ続きを!!という皆さんの声に応え、その続編がついに実現!! 新たなポケモン、物キャラが生まれるまでのお話を、イラストとともにたっぷりとお見せします!!"
+    translation: "刊登于Nintendo DREAM 1月号、大受好评的《宝可梦黑・白 宝可梦&角色诞生秘话》。应大家“想看续篇!!”的呼声，续篇终于实现!! 新宝可梦、新角色诞生之前的故事，将配合插图大量呈现!!"
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r10
+    order: 10
+    scan_page: 2
+    review_status: review
+    original: ゲームフリーク 取締役2Dアートディレクター
+    translation: GAME FREAK 董事 2D艺术总监
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r11
+    order: 11
+    scan_page: 2
+    review_status: review
+    original: 杉森 建さん
+    translation: 杉森建
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r12
+    order: 12
+    scan_page: 2
+    review_status: review
+    original: 2Dアートディレクターとして、ット絵方面の統括とポケモンおびキャラクターデザイン全般のイレクションを担当
+    translation: 作为2D艺术总监，负责像素画方面的统筹以及宝可梦和角色设计整体的指导
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r13
+    order: 13
+    scan_page: 2
+    review_status: review
+    original: ゲームフリーク3Dアートディレクター海野隆雄さん
+    translation: GAME FREAK 3D艺术总监 海野隆雄
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r14
+    order: 14
+    scan_page: 2
+    review_status: review
+    original: フィールドやデモシーンなど、主に3D部分に関するディレクションを担当。ポケモンのデザインやドット絵にも関わる
+    translation: 负责场景和演示画面等主要与3D部分相关的指导。也参与宝可梦的设计和像素画
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r15
+    order: 15
+    scan_page: 2
+    review_status: review
+    original: ゲームフリーク2Dグラフィックデザイナー大村祐介さん
+    translation: GAME FREAK 2D图形设计师 大村祐介
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p071_bw_interview_part2_intro-r16
+    order: 16
+    scan_page: 2
+    review_status: review
+    original: 2Dグラフィックデザイナーとして、主に人物のドット絵のまとめと、ジムリーダーなど人物のデザインを担当
+    translation: 作为2D图形设计师，主要负责人物像素画的汇总，以及道馆馆主等人物角色的设计。
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p071_bw_interview_part2_intro-r17
+    order: 17
+    scan_page: 2
+    review_status: review
+    original: "ちなみに1月号では…ポケモンはレシラム、ゼクロムを筆頭に最初の3匹やエモンガ、タブンネなど全43匹、人物キャラは主人公、幼なじみ、N、6つ目のジムのジムリーダーまで全16人を掲載。今号は後半に登場するポケモンや人物キャラを中心に紹介するよ!!それではスタート!!"
+    translation: 顺带一提，1月号中……宝可梦以莱希拉姆、捷克罗姆为首，加上最初的3只以及电飞鼠、差不多娃娃等共43只，人物角色则从主角、青梅竹马、N到第6个道馆的馆主共16人。本号则主要介绍后半段登场的宝可梦和人物角色！！那么开始吧！！
+    comment: 莱希拉姆、捷克罗姆是《宝可梦 黑／白》的封面传说的宝可梦。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p072_bw_interview_swords_of_justice-fullpage
+    order: 18
+    scan_page: 3
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p072_bw_interview_swords_of_justice.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.72
+    review_status: ready
+  - speaker: 创作者讲述诞生秘闻满载！！新宝可梦篇
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p072_bw_interview_swords_of_justice-h19
+    order: 19
+    scan_page: 3
+    heading_level: 2
+    review_status: review
+    original: "生みの親が語る誕生秘話満載!!新ポケモン編"
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p072_bw_interview_swords_of_justice-r20
+    order: 20
+    scan_page: 3
+    review_status: review
+    original: "ポケモンを守るために戦ったという3匹の伝説のポケモンや、ウルガモスのような強大なポケモンのほか、編集部が注目したポケモンをピックアップしてお届け!"
+    translation: 除了为了保护宝可梦而战斗的3只传说的宝可梦，以及火神蛾这样强大的宝可梦之外，编辑部还挑选了关注的宝可梦一并送上！
+  - speaker: “目标是像三剑客那样三者三样的强大”
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p072_bw_interview_swords_of_justice-h21
+    order: 21
+    scan_page: 3
+    heading_level: 2
+    review_status: review
+    original: 「三銃士のような三者三様の強さを目指しました」
+    translation: ""
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p072_bw_interview_swords_of_justice-r22
+    order: 22
+    scan_page: 3
+    review_status: review
+    original: 海野さん
+    translation: 海野先生
+  - speaker: 海野隆雄
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p072_bw_interview_swords_of_justice-r23
+    order: 23
+    scan_page: 3
+    review_status: review
+    original: この3匹は私がデザインしました。まず企画側からのオーダーで、デュマ(※1)の「三銃士」が基本的なイメージだと伝えられました。それに加えて、かくとうタイプであり、人にものを教えるような賢さを持ったポケモンだという話を受けてデザインしました。4本足の獣系だということも決っていたので、割とデザインはしやすかった方ですね。ちなみに、三銃士のアトスに当たるのはコバルオンで、ポルトスがテラキオン、アラミスがビリジオンです。
+    translation: 这3只是我设计的。首先企划方提出要求，告知以仲马的《三剑客》为基本印象。再加上它们是格斗属性，且是拥有教导人类般智慧的宝可梦，我据此进行了设计。因为已经决定是四足兽类，所以设计起来相对容易。顺带一提，相当于三剑客中阿多斯的是勾帕路翁，波尔多斯是代拉基翁，阿拉密斯是毕力吉翁。
+    comment: 《三剑客》是法国作家大仲马的小说，主角为阿多斯、波尔多斯、阿拉密斯三人。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p072_bw_interview_swords_of_justice-r24
+    order: 24
+    scan_page: 3
+    review_status: review
+    original: 開発中はそのまま、アトス、ポルトス、アラミスって呼んでたね(笑)。
+    translation: 开发期间就直接叫它们阿多斯、波尔多斯、阿拉密斯呢（笑）。
+  - speaker: 海野隆雄
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p072_bw_interview_swords_of_justice-r25
+    order: 25
+    scan_page: 3
+    review_status: review
+    original: 基本的には三者三様の強さというか、見た目で特徴がわかることを大切にしています。コバルオンは鋭く突くような角やフォルムに。ビリジオンは素早く動きつつ、横に伸びている角で、華麗に敵を切る。テラキオンの角はオノをイメージしているんですけど、それで切るというよりは、敵の攻撃を受け止めて力強く押し返すイメージです。3匹にそれぞれ別の特徴があって、全員そろうことで本当の力を発揮するという雰囲気を出していきたいなと。あと、人にものを教えたり、ポケモンを導く存在ですので、獣なんだけど人語を解するくらい賢く見えるよう、顔のデザインには気を使いました。
+    translation: 基本上重视的是三者三样的强大，或者说能从外观看出特征。勾帕路翁设计成尖锐突刺的角和形态。毕力吉翁则是动作敏捷，以横向伸展的角华丽地斩击敌人。代拉基翁的角以斧头为意象，但与其说是用来砍，不如说是承受敌人攻击并强有力地推回去的印象。3只各有不同特征，我希望营造出集齐全员才能发挥真正实力的氛围。另外，因为它们是教导人类、引导宝可梦的存在，所以虽然是兽类，但在脸部设计上很注意让它们看起来聪明到能理解人语。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p072_bw_interview_swords_of_justice-r26
+    order: 26
+    scan_page: 3
+    review_status: review
+    original: 顔が割と漫画チックな方向なので、体型もあまりリアルな獣っぽくはしないでくれと僕の方からオーダーしました。ちょっとファンタジーっぽい体型にしてくれと。そういう形で賢い感じを出すと同時に、ほかの獣っぽいポケモンとの差別化を狙っています。
+    translation: 因为脸部偏向漫画风格，所以我要求体型也不要太像真实的野兽。希望做成稍微有点奇幻感的体型。这样既能表现出聪明感，同时也旨在与其他兽类宝可梦区别开来。
+  - speaker: 勾帕路翁 铁心宝可梦●钢・格斗
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p072_bw_interview_swords_of_justice-h27
+    order: 27
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: コバルオンてっしんポケモン●はがね・かくとう
+    translation: ""
+  - speaker: 毕力吉翁 草原宝可梦●草・格斗
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p072_bw_interview_swords_of_justice-h28
+    order: 28
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: ビリジオンそうげんポケモン●くさ・かくとう
+    translation: ""
+  - speaker: 代拉基翁 岩窟宝可梦●岩石・格斗
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p072_bw_interview_swords_of_justice-h29
+    order: 29
+    scan_page: 3
+    heading_level: 3
+    review_status: review
+    original: テラキオンがんくつポケモン●いわ・かくとう
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p072_bw_interview_swords_of_justice-r30
+    order: 30
+    scan_page: 3
+    review_status: review
+    original: ※1…アレクサンドル・デュマ。19世紀を代表するフランスの作家で、代表作は「モンテ・クリスト伯(巌窟王)」「三銃士(ダルタニャン物語)」など。
+    translation: ※1…亚历山大·仲马。代表19世纪的法国作家，代表作有《基督山伯爵（岩窟王）》《三剑客（达达尼昂故事）》等。
+    comment: 亚历山大·仲马即通常所说的大仲马。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-fullpage
+    order: 31
+    scan_page: 4
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p073_bw_interview_volcarona_whimsicott_lilligant.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.73
+    review_status: ready
+  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-h32
+    order: 32
+    scan_page: 4
+    heading_level: 2
+    review_status: review
+    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r33
+    order: 33
+    scan_page: 4
+    review_status: review
+    original: 開発前半は結構自由にポケモンのアイデアを出していくんですけど、それをまとめていくと、このタイプが足りない、というのが見えてきます。そこを埋めていくのが開発後半の作業ですね。例えば、「○○タイプのポケモンが不足していて、そのポケモンは後半のこういう場所に出現する予定である」ということが、企画側から具体的にオーダーされるんです。
+    translation: 开发前半段，我们会相当自由地提出宝可梦的点子，但把这些点子汇总起来后，就会发现某些属性有所欠缺。填补这些欠缺就是开发后半段的工作。比如，企划方会具体提出要求：“某某属性的宝可梦不足，那只宝可梦预定在后半段的某个地点出现。”
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r34
+    order: 34
+    scan_page: 4
+    review_status: review
+    original: ウルガモスの場合は、むし・ほのおタイプであること、遺跡の奥に出てくる強いポケモンであることが決まっていました。そこで「強い虫とはなんぞや」ということをみんなで考えました。今作では蛾をモチーフにしたポケモンがいなかったので、威厳を持たせた強そうな蛾を描こうと、太陽をイメージした6枚羽を付け、神々しい感じをプラスしています。ウルガモスはチャンピオンが使う切り札的なポケモンでもあるので、とにかく強そうに見えるように気を使いました。あと羽の黒い点は、太陽の黒点をイメージしました。
+    translation: 火神蛾的情况，已经定下它是虫・火属性，并且是会在遗迹深处出现的强大宝可梦。于是大家一起思考“强大的虫究竟是什么样”。本作中还没有以蛾为主题的宝可梦，所以为了画出带有威严、看起来很强大的蛾，我们加上了以太阳为意象的6片翅膀，增添了神圣感。火神蛾也是冠军使用的王牌宝可梦，所以特别留意让它看起来足够强大。另外，翅膀上的黑点是以太阳黑子为意象。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r35
+    order: 35
+    scan_page: 4
+    review_status: review
+    original: メラルバは、首の辺りから突き出ている部分が、岡本太郎（※2）の太陽の塔みたいなイメージですね。
+    translation: 燃烧虫从脖子附近突出来的部分，意象上有点像冈本太郎（※2）的太阳之塔。
+    comment: 冈本太郎是日本艺术家，太阳之塔是大阪万博会的标志性建筑。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r36
+    order: 36
+    scan_page: 4
+    review_status: review
+    original: ウルガモスは、初め4枚羽だったんですよ。でも4枚羽だと普通の蛾にしか見えないので、それがすごく気になっていて。6枚羽にしたことで、だいぶグレードが上がりました。
+    translation: 火神蛾最初是4片翅膀。但4片翅膀看起来就只是普通的蛾，我一直很在意这一点。改成6片翅膀后，档次提升了不少。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r37
+    order: 37
+    scan_page: 4
+    review_status: review
+    original: メラルバたいまつポケモン●むし・ほのお
+    translation: 燃烧虫 火炬宝可梦●虫・火
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r38
+    order: 38
+    scan_page: 4
+    review_status: review
+    original: ウルガモスたいようポケモン●むし・ほのお
+    translation: 火神蛾 太阳宝可梦●虫・火
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r39
+    order: 39
+    scan_page: 4
+    review_status: review
+    original: モンメンわたたまポケモン●くさ
+    translation: 木棉球 棉球宝可梦●草
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r40
+    order: 40
+    scan_page: 4
+    review_status: review
+    original: エルフーンかぜかくれポケモン●くさ
+    translation: 风妖精 风隐宝可梦●草
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r41
+    order: 41
+    scan_page: 4
+    review_status: review
+    original: チュリネねっこポケモン●くさ
+    translation: 百合根娃娃 根茎宝可梦●草
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r42
+    order: 42
+    scan_page: 4
+    review_status: review
+    original: ドレディアはなかざりポケモン●くさ
+    translation: 裙儿小姐 花饰宝可梦●草
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r43
+    order: 43
+    scan_page: 4
+    review_status: review
+    original: 片方のバージョンにしか出ないポケモンは、最初からそれを想定して作る場合もあるんですが、「特定のタイプを作りすぎたけど、ボツにするのは惜しい」という状況になったとき、バージョンで分けてバランスが取ることがあるんです。この4匹はそのパターンですね。
+    translation: 只在一个版本中出现的宝可梦，有时从一开始就设想好了，但当我们觉得“特定属性做得太多了，但废弃又可惜”时，就会通过版本区分来取得平衡。这4只就是这种情况。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r44
+    order: 44
+    scan_page: 4
+    review_status: review
+    original: この4匹は、どれもピカチュウをデザインした、にしだあつこさんがデザインしています。モンメンとエルフーンは綿がモチーフで、綿がふわふわ飛んでるんだけど、羊のようにも見えるのがポイントです。羊みたいなポケモンはすでにいるんですけど、くさタイプなのに羊みたいという発想が面白いですよね。
+    translation: 这4只都是由设计了皮卡丘的西田敦子设计的。木棉球和风妖精以棉花为主题，棉花轻飘飘地飞着，但看起来也像羊，这是关键点。像羊的宝可梦已经存在了，但明明是草属性却像羊，这个想法很有趣吧。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r45
+    order: 45
+    scan_page: 4
+    review_status: review
+    original: チュリネとドレディアは、当初はその間にもう1匹の進化形が設定されていて、本当は2回進化するポケモンだったんです。ドレディアは非常にゴージャスな趣のあるポケモンですが、最初にデザインがあがってきたとき、ちょっと線が多くて細かすぎるなとも思ったんですよ。そういう場合はふだんだと僕の方で花びらの枚数を減らしたりして単純化するんですけど、ドレディアは「ごてごてしたお嬢様感」が魅力なので、ドットできちんと表現できるか若干不安だったんですが、思い切ってそのままにしました。
+    translation: 百合根娃娃和裙儿小姐，当初在它们之间还设定了一个进化形态，其实是进化两次的宝可梦。裙儿小姐是非常华丽有情趣的宝可梦，但最初设计稿出来时，我觉得线条有点多、太细了。通常这种情况下我会减少花瓣数量来简化，但裙儿小姐的魅力在于“繁复的大小姐感”，虽然有点担心像素画能否好好表现，但还是果断保持原样了。
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p073_bw_interview_volcarona_whimsicott_lilligant-r46
+    order: 46
+    scan_page: 4
+    review_status: review
+    original: ちなみにドレディアという名前は、「濁点が付いたお嬢様っぽい名前にしてくれ」という僕のオーダーが反映されています。
+    translation: 顺便说一句，裙儿小姐这个名字，反映了我“请取一个带浊点、像大小姐的名字”的要求。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-fullpage
+    order: 47
+    scan_page: 5
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p074_bw_interview_haxorus_darmanitan_stunfisk.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.74
+    review_status: ready
+  - speaker: “不像宝可梦正是其魅力所在”
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h48
+    order: 48
+    scan_page: 5
+    heading_level: 2
+    review_status: review
+    original: 「ポケモンっぽくないのが魅力です」
+    translation: ""
+  - speaker: 杉森先生
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h49
+    order: 49
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: 杉森さん
+    translation: ""
+  - speaker: 牙牙 牙宝可梦●龙
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h50
+    order: 50
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: キバゴキバポケモン●ドラゴン
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-r51
+    order: 51
+    scan_page: 5
+    review_status: review
+    original: オノノクスは、全イッシュポケモンの中で一番最初と言ってもいいくらい早い時期に出来たんです。まだ僕が『ポケモンプラチナ』に関わっていて、『ポケモンＢ・Ｗ』の開発が本格化していないころ、当時入ってきた新人の女の子に新しいポケモンを描かせることになりまして。「かっこよくて恐竜みたいなポケモンを」というオーダーで描いてもらったのが、オノノクスです。刃物のような突き出た牙で、かみつくのではなく首を振って攻撃するという、恐竜図鑑の解説チックな設定まで考えてもらって、こういう形になりました。最初は新しい人が作っただけあって「ポケモンぽくないなぁ」と思ったんですが、それが逆に魅力だと考えて、思いきって採用しました。進化前の2匹はオノノクスから逆算して作っていった感じです。牙の変化がポイントなので、キバゴとオノンドではあまり形は変わらないんだけど、最後に大きく変わってインパクトを与えられるように、変化の度合いを調整してます。
+    translation: 双斧战龙可以说是在所有合众宝可梦中最早诞生的。当时我还在参与《宝可梦 白金》的工作，《宝可梦 黑·白》的开发还没有正式化，那时决定让新来的女孩画一只新宝可梦。我要求“画一只帅气、像恐龙的宝可梦”，她画出来的就是双斧战龙。用像刀刃一样突出的牙齿，不是咬而是摇头攻击，连这种像恐龙图鉴解说一样的设定都帮我想好了，最终成了这个样子。最初因为是新人的作品，我觉得“不太像宝可梦”，但反过来想这正是魅力所在，就果断采用了。进化前的两只感觉是从双斧战龙反推出来的。牙齿的变化是关键，所以牙牙和斧牙龙外形变化不大，但最后要大幅改变以带来冲击，调整了变化的程度。
+  - speaker: 斧牙龙 颚斧宝可梦●龙
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h52
+    order: 52
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: オノンドあごオノポケモン●ドラゴン
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-r53
+    order: 53
+    scan_page: 5
+    review_status: review
+    original: これもオノノクスと同じ女性デザイナー担当です。ダルマがモチーフと聞いてちょっと驚いたんですけど、彼女が言うには、お祭りなんかでダルマを燃やしたりするじゃないですか。そこで火とダルマが結びついたらしくて。面白い発想だと納得させられました。あと、ダルマの基になった達磨大師という人がいるんですが、彼女がその肖像画を見て「なんかゴリラみたいな人」というイメージを持ったそうで。それでダルマ型のゴリラのようなポケモンになったようです（笑）。
+    translation: 这也是和双斧战龙同一位女性设计师负责的。听说以不倒翁为主题时我有点惊讶，但她说，庙会等场合不是会烧不倒翁吗？于是火和不倒翁就联系起来了。我觉得这个想法很有趣，就被说服了。还有，不倒翁的原型是达摩大师，她看了那幅肖像画后，觉得“好像大猩猩一样的人”。于是就成了不倒翁型的大猩猩一样的宝可梦（笑）。
+  - speaker: 火红不倒翁 不倒翁宝可梦●火
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h54
+    order: 54
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: ダルマッカだるまポケモン●ほのお
+    translation: ""
+  - speaker: 达摩狒狒 爆燃宝可梦●火（普通模式）、火・超能力（达摩模式）
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h55
+    order: 55
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: ヒヒダルマえんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード）
+    translation: ""
+  - speaker: 双斧战龙 颚斧宝可梦●龙
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h56
+    order: 56
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: オノノクスあごオノポケモン●ドラゴン
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-r57
+    order: 57
+    scan_page: 5
+    review_status: review
+    original: オノノクスとダルマッカとブルリルとマッギョは、全部同じ女性デザイナーが担当します。並べるとわかるんですけど、非常に個性的な発想をする人ですよね。マッギョは「平たいポケモンがいないから、一番平たいポケモンを作りたい」と最初に言い出しまして。ペラペラなのを絵で表現するのは難しいんですが、「平たいなら踏まれるんじゃないか」ということで、踏まれたら電気を流すトラップみたいなポケモンを考案しました。当初はアンコウをモチーフにみず・でんきタイプとして作っていて、色も青かったんですが、開発後半に全体のタイプのバランスを調整したときに、じめん・でんきタイプに変更されてしまって（笑）。それなら茶色だよねということで、カレイみたいな色になりました。
+    translation: 双斧战龙、火红不倒翁、蓝蟾蜍和蟾蜍王，全部由同一位女性设计师负责。把它们摆在一起就能看出来，她有着非常独特的构思。蟾蜍王最初提出的是“因为没有扁平的宝可梦，所以想做最扁平的宝可梦”。用图画表现扁平的东西很难，不过既然扁平，那就会被踩，于是设计出了被踩到就会放电的陷阱型宝可梦。起初是以鮟鱇鱼为原型做成水・电属性的，颜色也是蓝色的，但在开发后期调整整体属性平衡时，被改成了地面・电属性（笑）。既然这样那就该是茶色，于是变成了像鲽鱼一样的颜色。
+  - speaker: 海野隆雄
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-r58
+    order: 58
+    scan_page: 5
+    review_status: review
+    original: 最初にあがってきたラフデザインでは、マッギョの上に人が乗ってサーフィンしている絵もありませんでしたっけ？
+    translation: 最初提交的草稿设计里，不是还有一张人站在蟾蜍王上面冲浪的图吗？
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-r59
+    order: 59
+    scan_page: 5
+    review_status: review
+    original: サーフィンじゃなくて、踏んづけてビリビリしている絵だよ（笑）。背中の足跡っぽい部分をぎゅっと踏むと、ビリビリッとくるんです。
+    translation: 不是冲浪，是踩上去被电得麻麻的图哦（笑）。用力踩背上像脚印的部分，就会麻麻地来电。
+  - speaker: 蟾蜍王 陷阱宝可梦●地面・电
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p074_bw_interview_haxorus_darmanitan_stunfisk-h60
+    order: 60
+    scan_page: 5
+    heading_level: 3
+    review_status: review
+    original: マッギョトラップポケモン●じめん・でんき
+    translation: ""
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p075_bw_interview_jellicent_sawsbuck-fullpage
+    order: 61
+    scan_page: 6
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p075_bw_interview_jellicent_sawsbuck.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.75
+    review_status: ready
+  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h62
+    order: 62
+    scan_page: 6
+    heading_level: 2
+    review_status: review
+    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
+    translation: ""
+  - speaker: 胖嘟嘟
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h63
+    order: 63
+    scan_page: 6
+    heading_level: 2
+    review_status: review
+    original: ブルンゲル
+    translation: ""
+  - speaker: 漂浮宝可梦●水・幽灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h64
+    order: 64
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: ふゆうポケモン●みず・ゴースト
+    translation: ""
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r65
+    order: 65
+    scan_page: 6
+    review_status: review
+    original: メス
+    translation: 雌性
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r66
+    order: 66
+    scan_page: 6
+    review_status: review
+    original: オス
+    translation: 雄性
+  - speaker: 轻飘飘
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h67
+    order: 67
+    scan_page: 6
+    heading_level: 2
+    review_status: review
+    original: プルリル
+    translation: ""
+  - speaker: 漂浮宝可梦●水・幽灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h68
+    order: 68
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: ふゆうポケモン●みず・ゴースト
+    translation: ""
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r69
+    order: 69
+    scan_page: 6
+    review_status: review
+    original: オス
+    translation: 雄性
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r70
+    order: 70
+    scan_page: 6
+    review_status: review
+    original: メス
+    translation: 雌性
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p075_bw_interview_jellicent_sawsbuck-r71
+    order: 71
+    scan_page: 6
+    review_status: review
+    original: 開発のかなり初期に作られた、みずタイプのポケモンです。かわいくてひらひらしてて華やかなポケモンを作りたいということで、きれいなクラゲみたいなイメージで、王子様とお姫様に見えるものを狙ってたんです。それが開発後半に全体のタイプのバランスを調整した際、ゴーストタイプが追加されてしまったんです（笑）。さらに「船を沈める」とか「乗組員の命を吸い取る」とか恐ろしい設定も付けられたので、担当デザイナーががっかりしてました（笑）。初期に作られたポケモンは、そういう紆余曲折を経ることもあります。
+    translation: 这是在开发相当初期就做出的水属性宝可梦。当时想做一只可爱、轻盈飘动又华丽的宝可梦，便以漂亮的水母为意象，目标是看起来像王子和公主。结果在开发后期调整整体属性平衡时，被加上了幽灵属性（笑）。而且还被加上了“弄沉船只”“吸走船员性命”之类可怕的设定，负责的设计师因此很失落（笑）。初期做出的宝可梦，有时也会经历这样的曲折。
+  - speaker: 四季鹿
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h72
+    order: 72
+    scan_page: 6
+    heading_level: 2
+    review_status: review
+    original: シキジカ
+    translation: ""
+  - speaker: 季节宝可梦●一般・草
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h73
+    order: 73
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: きせつポケモン●ノーマル・くさ
+    translation: ""
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r74
+    order: 74
+    scan_page: 6
+    review_status: review
+    original: （はるのすがた）
+    translation: （春天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r75
+    order: 75
+    scan_page: 6
+    review_status: review
+    original: （なつのすがた）
+    translation: （夏天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r76
+    order: 76
+    scan_page: 6
+    review_status: review
+    original: （あきのすがた）
+    translation: （秋天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r77
+    order: 77
+    scan_page: 6
+    review_status: review
+    original: （ふゆのすがた）
+    translation: （冬天的样子）
+  - speaker: 萌芽鹿
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h78
+    order: 78
+    scan_page: 6
+    heading_level: 2
+    review_status: review
+    original: メブキジカ
+    translation: ""
+  - speaker: 季节宝可梦●一般・草
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p075_bw_interview_jellicent_sawsbuck-h79
+    order: 79
+    scan_page: 6
+    heading_level: 3
+    review_status: review
+    original: きせつポケモン●ノーマル・くさ
+    translation: ""
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r80
+    order: 80
+    scan_page: 6
+    review_status: review
+    original: （はるのすがた）
+    translation: （春天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r81
+    order: 81
+    scan_page: 6
+    review_status: review
+    original: （なつのすがた）
+    translation: （夏天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r82
+    order: 82
+    scan_page: 6
+    review_status: review
+    original: （あきのすがた）
+    translation: （秋天的样子）
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p075_bw_interview_jellicent_sawsbuck-r83
+    order: 83
+    scan_page: 6
+    review_status: review
+    original: （ふゆのすがた）
+    translation: （冬天的样子）
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p075_bw_interview_jellicent_sawsbuck-r84
+    order: 84
+    scan_page: 6
+    review_status: review
+    original: ゲームシステムに四季が入るというのは決まっていたので、ポケモンにも四季ネタは入れたい。ただ、全ポケモンに入れると大変なので、何か1種類か2種類に入れようという話になりました。アイデアとしてはメブキジカのほうが先ですね。角を木に見立てて、四季が表現されれば面白いんじゃないかと。くさタイプと哺乳類は相性が悪いんですけど、角を介しているので、うまくハマっていますね。それに合わせて、進化前はこんな感じだろうとシキジカが生まれています。
+    translation: 因为已经决定在游戏系统里加入四季，所以也想在宝可梦身上加入四季的元素。不过，如果所有宝可梦都加入的话会很麻烦，于是就讨论说，放进一两种宝可梦就好了。作为点子，萌芽鹿是先提出来的。把角看作树木，如果能表现出四季的话不是很有趣吗？草属性和哺乳类相性不好，但通过角这个媒介，就很好地融合在一起了。配合这个想法，进化前大概就是这个样子，于是诞生了四季鹿。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-fullpage
+    order: 85
+    scan_page: 7
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p076_bw_interview_chandelure_seismitoad_klinklang.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.76
+    review_status: ready
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-r86
+    order: 86
+    scan_page: 7
+    review_status: review
+    original: 一番最初のアイデアだと、たき火のポケモンだったんですよ。たき火がロウソクに進化して、ロウソクがランプになるという案を持ってこられたんですが、たき火がロウソクになるって、どういうことよ、と（笑）。確かに文化としてのグレードは上がってるけど、肝心の炎が小さくなっちゃう（笑）。だったら照明器具で統一しようということで、ロウソクからスタートということにしました。ただロウソクをモチーフにしたキャラクターは意外といるんじゃないかと思ったので、そういうものに似てしまわないよう、いかにオリジナリティを出すかは考えてもらいました。結果的にゴーストらしくうまくまとまったと思います。ヒトモシは溶けたロウソクが、ランプラーは炎が表情になっているのも面白いですよね。
+    translation: 最初的点子，是篝火宝可梦。有人提出篝火进化成蜡烛，蜡烛再进化成油灯，但篝火变成蜡烛，这算怎么回事啊（笑）。确实作为文化级别是提高了，但关键的火焰却变小了（笑）。既然如此，那就统一成照明器具吧，于是决定从蜡烛开始。不过，以蜡烛为原型的角色意外地挺多的，所以为了不跟那些相似，我们请人思考了如何展现出独创性。结果我觉得很好地总结出了幽灵的风格。烛光灵是融化的蜡烛，灯火幽灵是火焰变成了表情，这也很有趣呢。
+  - speaker: 烛光灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h87
+    order: 87
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ヒトモシ
+    translation: ""
+  - speaker: 蜡烛宝可梦●幽灵・火
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h88
+    order: 88
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: ろうそくポケモン●ゴースト・ほのお
+    translation: ""
+  - speaker: 灯火幽灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h89
+    order: 89
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ランプラー
+    translation: ""
+  - speaker: 油灯宝可梦●幽灵・火
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h90
+    order: 90
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: ランプポケモン●ゴースト・ほのお
+    translation: ""
+  - speaker: 水晶灯火灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h91
+    order: 91
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: シャンデラ
+    translation: ""
+  - speaker: 引诱宝可梦●幽灵・火
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h92
+    order: 92
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: いざないポケモン●ゴースト・ほのお
+    translation: ""
+  - speaker: 圆蝌蚪
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h93
+    order: 93
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: オタマロ
+    translation: ""
+  - speaker: 蝌蚪宝可梦●水
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h94
+    order: 94
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: おたまポケモン●みず
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-r95
+    order: 95
+    scan_page: 7
+    review_status: review
+    original: ギアルに関しては、最初に無機物系というオーダーがあったんですよ。その中で歯車というアイデアが出てきて、今回アニメーションもあるし、表現としても面白いぞと。あとこいつは、僕が好きな“いい顔してるポケモン”ですね。回ったときに違った顔が見えてくるという仕掛けが、非常に面白いと思います。進化していくと歯車が増えて、だんだん大きなものを回し、より大きなエネルギーを生み出していきます。あとレアコイルやタマタマ、ダグトリオといった「複数のものがまとまる」イメージも踏襲しています。
+    translation: 关于齿轮儿，最初接到的要求是做无机物系的宝可梦。在这个前提下，我们想到了齿轮这个点子，而且这次还有动画，作为表现方式也很有意思。另外这家伙是我喜欢的“表情不错”的宝可梦。转动的时候能看到不同的脸，这个机关我觉得非常有趣。进化之后齿轮会增多，逐渐转动更大的东西，产生更大的能量。此外也沿袭了三合一磁怪、蛋蛋、三地鼠那种“多个东西合为一体”的印象。
+  - speaker: 齿轮儿
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h96
+    order: 96
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ギアル
+    translation: ""
+  - speaker: 齿轮宝可梦●钢
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h97
+    order: 97
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: はぐるまポケモン●はがね
+    translation: ""
+  - speaker: 蟾蜍王
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h98
+    order: 98
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ガマゲロゲ
+    translation: ""
+  - speaker: 振动宝可梦●水・地面
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h99
+    order: 99
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: しんどうポケモン●みず・じめん
+    translation: ""
+  - speaker: 蓝蟾蜍
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h100
+    order: 100
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ガマガル
+    translation: ""
+  - speaker: 振动宝可梦●水・地面
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h101
+    order: 101
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: しんどうポケモン●みず・じめん
+    translation: ""
+  - speaker: 齿轮组
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h102
+    order: 102
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ギギアル
+    translation: ""
+  - speaker: 齿轮宝可梦●钢
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h103
+    order: 103
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: はぐるまポケモン●はがね
+    translation: ""
+  - speaker: 齿轮怪
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h104
+    order: 104
+    scan_page: 7
+    heading_level: 2
+    review_status: review
+    original: ギギギアル
+    translation: ""
+  - speaker: 齿轮宝可梦●钢
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-h105
+    order: 105
+    scan_page: 7
+    heading_level: 3
+    review_status: review
+    original: はぐるまポケモン●はがね
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p076_bw_interview_chandelure_seismitoad_klinklang-r106
+    order: 106
+    scan_page: 7
+    review_status: review
+    original: まず最初に、イボガエルがモチーフのガマゲロゲのイメージがありました。あと、カエルはニョロモなどで1回やってるので、ちょっと違う感じにしたかったんです。まあ、ニョロモはオタマジャクシのまま大きくなるという、いきなり変化球だったんですけど（笑）。今回はもうちょっと正統のカエルっぽい進化でいこうと。表情については、最初にガマゲロゲがあって、そこから逆算して進化前の表情を考えていきました。目の上の形を踏まえて逆算していくと、最初はこんな感じかなと。口もとも、口先が少し飛びだしているのを逆算していくとこうなりました。
+    translation: 最初先有了以蟾蜍为原型的蟾蜍王的形象。另外，青蛙已经在蚊香蝌蚪等身上做过一次了，所以想做出稍微不同的感觉。不过，蚊香蝌蚪是蝌蚪直接长大，算是突然来了个变化球（笑）。这次想走更像正统青蛙的进化路线。关于表情，先有蟾蜍王，再由此倒推进化前的表情。根据眼睛上方的形状倒推，最初大概就是这种感觉。嘴部也是，把嘴尖稍微突出的部分倒推回去，就变成了这样。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-fullpage
+    order: 107
+    scan_page: 8
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p077_bw_interview_crustle_scrafty_cofagrigus_bisharp.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.77
+    review_status: ready
+  - speaker: ALL ABOUT 宝可梦 黑 宝可梦 白 Part 2
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h108
+    order: 108
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
+    translation: ""
+  - speaker: 岩殿居蟹
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h109
+    order: 109
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: イワパレス
+    translation: ""
+  - speaker: 岩居宝可梦●虫・岩石
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h110
+    order: 110
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: いわやどポケモン●むし・いわ
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r111
+    order: 111
+    scan_page: 8
+    review_status: review
+    original: これはかなり難産というか、紆余曲折がありました。最初に出てきた案は、こいつの尻尾に火が点いていて、こねた土を焼いて自分の巣を作る。仮に名付けるなら「かまどポケモン」ですかね。でも、ちょっとまどろっこしい（笑）。設計的にも、自分の巣が焼き物であるというのがうまく伝わらなかった。それなら、ストレートに石をくりぬいて住むという形でいいんじゃないかということでイシズマイが決まりました。そして、これがどう進化したらびっくりするかを考え、この場合は極端に巨大化させようと地層になりました。
+    translation: 这个算是相当难产，或者说经历了不少曲折。最初提出的方案是，它的尾巴上点着火，把捏好的土烧制成自己的巢。如果起名的话，大概叫“灶宝可梦”吧。不过，有点绕圈子（笑）。在设计上，也没能很好地传达出“自己的巢是烧制出来的”这一点。既然如此，不如直接做成挖空石头住在里面的形式，于是石居蟹就定下来了。然后考虑它怎样进化才会让人吃惊，这种情况下就让它极端巨大化，变成了地层。
+  - speaker: 石居蟹
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h112
+    order: 112
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: イシズマイ
+    translation: ""
+  - speaker: 石居宝可梦●虫・岩石
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h113
+    order: 113
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: いしやどポケモン●むし・いわ
+    translation: ""
+  - speaker: 头巾混混
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h114
+    order: 114
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ズルズキン
+    translation: ""
+  - speaker: 恶党宝可梦●恶・格斗
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h115
+    order: 115
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: あくとうポケモン●あく・かくとう
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r116
+    order: 116
+    scan_page: 8
+    review_status: review
+    original: デザインのもともとは、腰ばきのズボンみたいな発想です。脱皮した皮が余っているというアイデアは面白いんじゃないかと。これは、アニメーションがすごい効果的でした。あれが無いと、脱皮した自分の皮を持っているということが、よく伝わらなかったと思うんですけど、アニメーションのおかげで成立したところがありますね。
+    translation: 设计最初的想法，是像围在腰上的裤子一样。蜕下的皮还有剩余这个点子，我觉得挺有趣。这个在动画里效果非常好。如果没有那个动画，身上带着自己蜕下的皮这一点，大概很难传达出来，可以说多亏了动画才成立。
+  - speaker: 滑滑小子
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h117
+    order: 117
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: ズルッグ
+    translation: ""
+  - speaker: 蜕皮宝可梦●恶・格斗
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h118
+    order: 118
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: だっぴポケモン●あく・かくとう
+    translation: ""
+  - speaker: 哭哭面具
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h119
+    order: 119
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: デスマス
+    translation: ""
+  - speaker: 魂宝可梦●幽灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h120
+    order: 120
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: たましいポケモン●ゴースト
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r121
+    order: 121
+    scan_page: 8
+    review_status: review
+    original: デスマスクや棺おけなど、ちょっと怖いものをモチーフにしているのですが、ただ怖いだけでなく、どこかに愛きょうがあるように気を付けています。ポケモンは全部仲間になる可能性があるので、「こいつとは友達になれない」と思われないようにしないと。デスマスの場合は、すっとぼけた表情がポイントですね。ただ、僕らはそれなりに調整したつもりなんですが、小さいお子さんには結構怖がられることもあるようです（笑）。
+    translation: 以死亡面具和棺材等有些可怕的东西为主题，但注意不只是可怕，还要在某处带有可爱。因为宝可梦都有可能成为伙伴，不能让人觉得“这家伙没法交朋友”。哭哭面具的话，装傻的表情是关键。不过，我们自认为已经做了相应的调整，但好像也有不少小孩子会被吓到（笑）。
+  - speaker: 劈斩司令
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h122
+    order: 122
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: キリキザン
+    translation: ""
+  - speaker: 刀刃宝可梦●恶・钢
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h123
+    order: 123
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: とうじんポケモン●あく・はがね
+    translation: ""
+  - speaker: 驹刀小兵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h124
+    order: 124
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: コマタナ
+    translation: ""
+  - speaker: 利器宝可梦●恶・钢
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h125
+    order: 125
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: はものポケモン●あく・はがね
+    translation: ""
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-r126
+    order: 126
+    scan_page: 8
+    review_status: review
+    original: あく・はがねタイプで都市部に出現するというオーダーが最初にあったので、人工的な感じがいいんじゃないかと思いました。「全身に刃物が付いていて、触る者をみな傷つける」ようなポケモンにと僕から担当デザイナーにオーダーしたら、武将的なものがあがってきました。キリキザンがコマタナたちに命令し、コマタナが敵にしがみついて刃物で倒すという設定もあったので、おなかの辺りに刃を突き出させています。人型をしていますけど、虫みたいなイメージも少しありますね。
+    translation: 最初的要求是恶・钢属性且出现在城市区域，所以我觉得人工感比较好。我向负责的设计师提出“全身带刃、触碰者皆会受伤”这样的宝可梦要求后，对方拿来了武将风格的设计。还有劈斩司令命令驹刀小兵、驹刀小兵缠住敌人用刀刃打倒的设定，所以让刀刃从腹部附近突出来。虽然是人型，但也稍微有些虫子般的印象。
+  - speaker: 迭失棺
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h127
+    order: 127
+    scan_page: 8
+    heading_level: 2
+    review_status: review
+    original: デスカーン
+    translation: ""
+  - speaker: 棺木宝可梦●幽灵
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p077_bw_interview_crustle_scrafty_cofagrigus_bisharp-h128
+    order: 128
+    scan_page: 8
+    heading_level: 3
+    review_status: review
+    original: かんおけポケモン●ゴースト
+    translation: ""
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-fullpage
+    order: 129
+    scan_page: 9
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p078_bw_interview_characters_drayden_iris_brycen.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.78
+    review_status: ready
+  - speaker: "实力者们诞生的瞬间!! 登场人物篇"
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-h130
+    order: 130
+    scan_page: 9
+    heading_level: 2
+    review_status: review
+    original: "実力者たちが生まれる瞬間!! 登場人物編"
+    translation: ""
+  - speaker: note
+    type: paragraph
+    kind: text
+    region_type: note
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r131
+    order: 131
+    scan_page: 9
+    review_status: review
+    original: 続いては、物語の後半に登場するジムリーダーたちや、ポケモンリーグのチャンピオン、そして猛者が集うバトルサブウェイに君臨するサブウェイマスターの誕生秘話だ！
+    translation: 接下来，是故事后半段登场的道馆馆主们、宝可梦联盟的冠军，以及君临强者云集的对战地铁的地铁总管的诞生秘闻！
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r132
+    order: 132
+    scan_page: 9
+    review_status: review
+    original: ソフトのバージョンによってジムリーダーが変わることなど、企画側から具体的な設定を渡されていたんですが、とにかく対であることを強調したデザインにしてほしいと。そこで、シャガは登場人物の中で最高齢くらいに設定して、対になるアイリスは将来性がすごく豊かな少女と設定してます。色のイメージも、シャガは白が多いのに対して、アイリスはかなり日焼けした感じで、その対比を前面に出してます。アイリスにはちょっとファンタジーっぽい背景があって、企画側から「ドラゴンタイプのポケモンと共生している一族の子」だと伝えられたんです。なかなか難しいことを言うなぁと（笑）。それがシャガに能力を見込まれて、ソウリュウシティに留学しているという形です。だからこの2人に血のつながりはありません。アイリスのデザインは、都会にでてきた野性児のイメージです。上に着ているのが民族衣装で、シャガに連れてこられた最初はこれしか着ていなかったと思うんですけど、それで走り回られると目のやり場に困るので、シャガが靴とレギンスを買い与えた…というイメージで肉付けしていきました。髪型については、ドラゴンタイプのポケモンと一緒に暮らすので、自分もそれに近い格好の方がコミュニケーションが取りやすかろうと、ドラゴンに見えなくもないシルエットになるようデザインしました。黄色いリボンが目で、後ろにしっぽが伸びる感じですね。細かいことなんですけど、アイリスの前髪がドラゴンの上あごで、シャガのヒゲがドラゴンの下あごにもなっています。
+    translation: 根据软件版本不同道馆馆主会发生变化等，企划方已经给出了具体的设定，但总之希望我做出强调成对关系的设计。于是，夏加被设定为登场人物中年龄最大的，与之成对的艾莉丝则被设定为将来性非常丰富的少女。颜色的印象上，夏加白色较多，而艾莉丝则晒得很黑，把这种对比放在了前面。艾莉丝有着稍微带点奇幻色彩的背景，企划方告诉我她是“与龙属性宝可梦共生的族人的孩子”。我想这可真难办啊（笑）。她因为被夏加看中了能力，所以以留学的形式来到双龙市。因此这两人没有血缘关系。艾莉丝的设计，是来到都市的野孩子的形象。上身穿的是民族服装，我想被夏加带来的最初她只穿这个，但那样跑来跑去会让人不知该往哪儿看，所以夏加给她买了鞋和紧身裤……就是以这样的印象逐渐丰满起来的。关于发型，因为要和龙属性宝可梦一起生活，自己打扮得接近它们应该更容易沟通，所以设计成了看起来也像龙的轮廓。黄色缎带是眼睛，后面伸出的部分感觉像尾巴。虽然是细节，但艾莉丝的刘海是龙的上颚，夏加的胡子也是龙的下颚。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r133
+    order: 133
+    scan_page: 9
+    review_status: review
+    original: そうだったんだ（笑）。
+    translation: 原来是这样啊（笑）。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r134
+    order: 134
+    scan_page: 9
+    review_status: review
+    original: 言わないと誰にも気づかれない設定なんですが（笑）。シャガは年こそとっているんですが、ハチクみたいに自分に厳しいストイックな性格で、ポケモンバトルだけでなく自分自身も強くあらねばという人なんです。それで威厳を保って街をまとめている市長なんですね。ただのムキムキの人だと市長らしくないと思ったので、ぱっつんぱっつんに張ったシャツで力強さを知性を両立させつつ、それを立てていく小物を付けていけば行けるだろうと、デザインはあまり悩みませんでした。サスペンダーは厚い胸板に張り付かせることで体格の良さを強調しつつ、年をとった紳士の雰囲気も出すために付けています。髪型はきれいになでつけられた感じにし、上品さを出そうとしました。
+    translation: 这是不说的话谁都不会注意到的设定（笑）。夏加虽然上了年纪，但像哈奇库一样有着对自己严格的禁欲性格，是不仅宝可梦对战，自身也必须强大的人。因此他是保持着威严、统领城市的市长。我觉得只是个肌肉发达的人不像市长，所以用绷得紧紧的衬衫兼顾力量与知性，再加上能衬托这点的配饰应该就行，设计上没怎么烦恼。背带通过紧贴在厚实的胸膛上来强调体格之好，同时也为了营造出年长绅士的氛围而加上。发型弄成梳理得整整齐齐的感觉，以显出高雅。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r135
+    order: 135
+    scan_page: 9
+    review_status: review
+    original: シャガ
+    translation: 夏加
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r136
+    order: 136
+    scan_page: 9
+    review_status: review
+    original: アイリス
+    translation: 艾莉丝
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r137
+    order: 137
+    scan_page: 9
+    review_status: review
+    original: 結構ドラマチックな人なんですよ。アクション映画のスターだったのに、撮影中にけがをして引退せざるを得なくなり、落ち込んでいたところをアデクに声をかけられ、それでポケモンを極める道に進んだ、という設定でして。なかなか難儀な人だなあと（笑）。氷に囲まれた厳しい場所で黙々と修行している人なので、ストイックな感じを出しました。また東洋人ということだったんで、少林寺のイメージも加えています。あととにかく素性を隠したい人なので、企画側からはフルフェイスの仮面を付けてくれと言われたんですけど、それはちょっとやりすぎと思いまして。ひとりだけ特別になりすぎちゃうので、もう少しゆるいところで、アイマスクみたいな覆面にとどめました。それらをどうデザインに落とし込むかというところで悩んだんですが、服装はあまり悩まず少林寺拳法のものを基にして、ただそれだけだと寒そうなので、襟のところか、要所要所を暖かそうなものに置き換えてみました。どうして袖が片方しかないんだと思われるかもしれませんが、寒い所で片肌脱いでいる方が、なんかやせ我慢しているみたいで、修行する人っぽいかなと。
+    translation: 他是个相当有戏剧性的人。设定上他原本是动作片明星，却在拍摄中受伤不得不引退，正消沉时被阿戴克搭话，于是走上了钻研宝可梦的道路。真是个够辛苦的人啊（笑）。他是在被冰包围的严酷之地默默修行的人，所以做出了禁欲的感觉。另外因为设定上是东方人，也加入了少林寺的印象。还有，他总之是个想隐藏身份的人，企划方要求给他戴上全脸面具，但我觉得那有点过头了。只有他一个人太特殊了，所以在稍微宽松的地方，止步于像眼罩一样的蒙面。把这些如何融入设计让我很烦恼，但服装没怎么烦恼，以少林寺拳法为基础，只是那样的话看起来会很冷，所以试着把领口或关键部位替换成看起来暖和的东西。可能会让人觉得为什么只有一只袖子，但在寒冷的地方露出一边肩膀，感觉像是在硬撑，很像修行的人。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r138
+    order: 138
+    scan_page: 9
+    review_status: review
+    original: 修行する人は、自分の体をいじめるもんだからね。目のところのマスクは、なんだか「まぼろし探偵」（※3）みたいに見えるよね（笑）。
+    translation: 修行的人，就是会折腾自己的身体嘛。眼睛那里的面罩，看起来总觉得像“幻影侦探”（※3）呢（笑）。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r139
+    order: 139
+    scan_page: 9
+    review_status: review
+    original: 現実的に考えれば、だいたい顔がわかっちゃうはずですけど、ゲームや漫画の世界だとこれで正体不明になります（笑）。
+    translation: 从现实角度考虑，脸大致上应该会被认出来，但在游戏或漫画的世界里，这样就成了身份不明（笑）。
+  - speaker: caption
+    type: paragraph
+    kind: text
+    region_type: caption
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r140
+    order: 140
+    scan_page: 9
+    review_status: review
+    original: ハチク
+    translation: 哈奇库
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p078_bw_interview_characters_drayden_iris_brycen-r141
+    order: 141
+    scan_page: 9
+    review_status: review
+    original: ※3…「まぼろし探偵」は、1950年代後半から60年代にかけてマンガ、テレビドラマ等で人気を博した少年向けのヒーロー活劇。赤い帽子、黄色いマフラー、目の周りを覆う黒いマスクが主人公のトレードマークだった。
+    translation: ※3……“幻影侦探”是20世纪50年代后半到60年代在漫画、电视剧等中广受喜爱的少年向英雄活剧。红帽子、黄围巾、遮住眼睛周围的黑面罩是主角的标志。
+  - speaker: image
+    type: image
+    kind: image
+    region_type: image
+    region_id: p079_bw_interview_characters_alder_subway_bosses-fullpage
+    order: 142
+    scan_page: 10
+    image: "https://gallery.pokeamice.com/scan-archive/ndream-2011-04-bw-design-secrets-part2/pages/p079_bw_interview_characters_alder_subway_bosses.jpg"
+    alt: Nintendo DREAM 2011年4月号（Vol.204） P.79
+    review_status: ready
+  - speaker: ABOUT 宝可梦 黑 宝可梦 白 Part 2
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h143
+    order: 143
+    scan_page: 10
+    heading_level: 2
+    review_status: review
+    original: ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Part 2
+    translation: ""
+  - speaker: 「想把他做成太阳一般的男人」
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h144
+    order: 144
+    scan_page: 10
+    heading_level: 2
+    review_status: review
+    original: 「太陽のような男にしたかった」
+    translation: ""
+  - speaker: 大村先生
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h145
+    order: 145
+    scan_page: 10
+    heading_level: 3
+    review_status: review
+    original: 大村さん
+    translation: ""
+  - speaker: 阿戴克
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h146
+    order: 146
+    scan_page: 10
+    heading_level: 3
+    review_status: review
+    original: アデク
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r147
+    order: 147
+    scan_page: 10
+    review_status: review
+    original: アデクは今までのチャンピオンとやることが随分違っている人なので、結構大変でした。まずポケモンリーグにいないというのが、大きな特徴だったりしますし。でもやっていること自体は、今までのチャンピオンの中で、一番チャンピオンらしいと思うんですよ。ポケモンの良さや魅力を人に伝えるために行動しているわけですから。自分としては魅力的な人だなぁと思いながらデザインしたんですが、最初に伝えられた「伝道師っぽい」というイメージを僕が大層に受け止めてしまって、なんかキリストみたいな人物になっちゃったんです。そのイメージがなかなか離れなかったので、杉森と相談したところ、「伝道師をやわらかいイメージにしたら、風来坊になるよね」というアイデアが出てきました。旅をしているのでマントのようなものを羽織らせよう、いろんなところを歩きまわっているのでもボロボロな感じにしようと、それからは必要な要素が順調に出てきました。イラストで岩付きなのは、放浪している感じにしたかったので、どこか高い所に登って、次はあっちに行ってみるかな…みたいなイメージを出すためです。あと、デザイン上は太陽みたいな男にしたいという意図もあり、太陽を連想させるのにわかりやすいのがライオンだろうということで、髪型を獅子のたてがみのような形にまとめていきました。あとアデクは、首だけでなくマントの下にもモンスターボールをぶら下げていますよね。これは彼がパソコンの使い方を知らないという設定だからなんです。だからポケモンをパソコンに預けられない（笑）。
+    translation: 阿戴克和以往的冠军所做的事相当不同，所以相当费劲。首先他不在宝可梦联盟，这本身就是一大特征。不过他所做的事本身，我觉得在历代冠军中是最有冠军样子的。因为他行动的目的是向人们传达宝可梦的优点与魅力。我自己是想着他是个有魅力的人来设计的，但最初接到的「像传道师」这个印象被我理解得过于夸张，结果就变成了有点像基督的人物。这个印象迟迟挥之不去，于是和杉森商量后，冒出了「把传道师做成柔和的印象，就成了流浪者」这个点子。因为他在旅行，就让他披上类似斗篷的东西；因为四处走动，就让他显得破破烂烂，之后必要的要素就顺利出来了。插画里他站在岩石上，是想营造出流浪的感觉，表现出他登上某个高处、想着接下来去那边看看……这样的意象。另外，设计上也有想把他做成太阳一般的男人的意图，而最容易让人联想到太阳的就是狮子，所以把发型整理成了狮子鬃毛的形状。还有，阿戴克不仅在脖子上，斗篷下面也挂着精灵球。这是因为设定上他不知道怎么用电脑。所以他没法把宝可梦寄存在电脑里（笑）。
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r148
+    order: 148
+    scan_page: 10
+    review_status: review
+    original: 本当だったら、手持ちは6匹までしか持てないから、7つ以上のモンスターボールを持っているのは変なんですけど、彼はパソコンが使えませんから、手持ち以外も全部持ち歩いているんです（笑）。じゃらじゃらと大量のボールをぶら下げてる。
+    translation: 按理说，随身只能带6只，所以持有7个以上的精灵球是很奇怪的，但他不会用电脑，所以除了随身携带的以外也全都带在身上（笑）。叮叮当当地挂着一大堆球。
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r149
+    order: 149
+    scan_page: 10
+    review_status: review
+    original: だから、イラストでは7つ以上のモンスターボールを描く必要があったんです。でも、バトルのルールがわかっていない人に見えても困るので、いつも使うエース級のポケモン6匹はわかりやすい所にあって、それ以外は服の陰から少し見えているだけにしました。
+    translation: 所以，插画里必须画出7个以上的精灵球。但如果让人看起来像是不懂对战规则的人就不好了，所以总是使用的主力6只放在显眼的位置，其他的只从衣服阴影里露出一点。
+  - speaker: 库达利 诺波利
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h150
+    order: 150
+    scan_page: 10
+    heading_level: 3
+    review_status: review
+    original: クダリ ノボリ
+    translation: ""
+  - speaker: 大村祐介
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r151
+    order: 151
+    scan_page: 10
+    review_status: review
+    original: 彼らのデザインはあまり迷いませんでした。もらった設定は「バトルサブウェイに登場する双子の車掌」でした。バトルサブウェイと聞いたときに、ほかの開発メンバーはみんな普通にサブウェイ、サブウェイって言ってるんですけど…正直、僕はだいぶクレイジーだなと思いまして（笑）。だって電車の中で戦うって、かなりクレイジーじゃないですか。その第一印象を素直に生かして、じゃあクレイジーというか、エキセントリックな人物にしようと。イメージとしてはピエロですね。すごい実力者なのに、えたいが知れないというか、底知れない感じで、少し不気味なくらいのほうが挑みがいがあると思いました。車掌のコートのデザインは線路をイメージしています。丈の長さを誇張して見栄えを良くしつつ、袖とかをダブダブとさせてピエロの衣装に近付けていった結果、今の服装になりました。ちなみに、ノボリとクダリの顔の違いは口だけです。双子ですけど、まったく同じではどうしてもキャラクターの個性が無くなってしまうので、そこは差をつけました。でも、これだけでも想像できる性格ががらっと変わるんじゃないでしょうか。正直なところ、自分ではかなり冒険したデザインだったので、杉森には「『ポケモン』の世界でこのキャラはないんじゃない？」とか言われると思ったんですが…。
+    translation: 他们的设计没怎么犹豫。拿到的设定是「在对战地铁登场的双子列车员」。听到对战地铁时，其他开发成员都理所当然地说着地铁、地铁……说实话，我觉得这相当疯狂（笑）。毕竟在电车里面战斗，不是相当疯狂吗。我直接活用了这个第一印象，那就做成疯狂的、或者说古怪的人物吧。意象是小丑。明明是实力超群的人，却让人摸不着底细，深不可测，稍微有点诡异反而更有挑战的价值。列车员外套的设计以铁轨为意象。把衣长夸张化以提升观感，同时让袖子等部分松松垮垮，向小丑的服装靠拢，结果就成了现在的服装。顺带一提，诺波利和库达利脸部的区别只有嘴。虽然是双胞胎，但完全一样的话角色个性无论如何都会消失，所以在那一点上做了区分。不过，仅凭这一点，能想象出的性格应该就会截然不同吧。老实说，我自己觉得这是相当冒险的设计，本以为杉森会说「在宝可梦的世界里不会有这种角色吧」……
+  - speaker: 杉森建
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r152
+    order: 152
+    scan_page: 10
+    review_status: review
+    original: いや、別に全然問題ないけど（笑）。
+    translation: 不，完全没问题啊（笑）。
+  - speaker: 海野隆雄
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r153
+    order: 153
+    scan_page: 10
+    review_status: review
+    original: 最初にちらっと見せてもらったときに、今までの『ポケモン』っぽい絵かどうかは置いておいて、キャラクターを一目見て理解できるわかりやすさがあるという意味では、やっぱり『ポケモン』らしいなと思いましたよ。
+    translation: 最初稍微给我看的时候，先不论是不是以往宝可梦风格的画，从一眼就能理解角色的易懂性这个意义上来说，我觉得果然很有宝可梦的味道。
+  - speaker: 下期继续！
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h154
+    order: 154
+    scan_page: 10
+    heading_level: 2
+    review_status: review
+    original: 次号も続く！
+    translation: ""
+  - speaker: body
+    type: paragraph
+    kind: text
+    region_type: body
+    region_id: p079_bw_interview_characters_alder_subway_bosses-r155
+    order: 155
+    scan_page: 10
+    review_status: review
+    original: 残念ながら紙幅が尽きてしまったので今回はここまで。本誌次号にて、ポケモンではトルネロスやボルトロス、人物ではギーマやカトレアなど、まだ触れられていない注目キャラに迫っていく！
+    translation: 遗憾的是篇幅已尽，这次就到这里。本刊下期将逼近宝可梦中尚未提及的龙卷云、雷电云，人物中尚未提及的魁奇思、嘉德丽雅等备受关注的角色！
+  - speaker: 宝可梦与角色诞生秘闻的后续将刊登于5月号（预定3月19日发售）！
+    type: heading
+    kind: text
+    region_type: heading
+    region_id: p079_bw_interview_characters_alder_subway_bosses-h156
+    order: 156
+    scan_page: 10
+    heading_level: 2
+    review_status: review
+    original: ポケモン＆人物誕生秘話の続きは5月号（3月19日発売予定）に掲載！
+    translation: ""
+    comment: 《Nintendo DREAM》2011年5月号预定于3月19日发售。
+---

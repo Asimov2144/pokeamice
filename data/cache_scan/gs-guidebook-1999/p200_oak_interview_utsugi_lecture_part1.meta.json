@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 65.0,
+ "image_tokens": 16220,
+ "completion_tokens": 1162,
+ "finish": "stop",
+ "file": "p200_oak_interview_utsugi_lecture_part1",
+ "image_md5": "007b7738036267a25cb471c2079e7dfd"
+}

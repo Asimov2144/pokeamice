@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 74.7,
+ "image_tokens": 16352,
+ "completion_tokens": 1214,
+ "finish": "stop",
+ "file": "p201_utsugi_lecture_part2",
+ "image_md5": "02ba162767bc4194cba9378805607385"
+}

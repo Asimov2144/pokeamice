@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.1,
+ "image_tokens": 7010,
+ "completion_tokens": 992,
+ "finish": "stop",
+ "file": "p043_making_characters_gym_leaders_brycen_iris_drayden",
+ "image_md5": "91fc8ef507c612459b6bd64deee102a7"
+}

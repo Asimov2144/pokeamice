@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 42.1,
+ "image_tokens": 6818,
+ "completion_tokens": 1159,
+ "finish": "stop",
+ "file": "p077_bw_interview_team_plasma_sages_aftermath",
+ "image_md5": "907a175dad31a5c36fbb6b49ba67b4a7"
+}

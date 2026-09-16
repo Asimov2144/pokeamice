@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 25.4,
+ "image_tokens": 7010,
+ "completion_tokens": 1394,
+ "finish": "stop",
+ "file": "p020_bw_sound_pokemon_cries_interactive",
+ "image_md5": "46301edb24f96deba9b515e582d385df"
+}

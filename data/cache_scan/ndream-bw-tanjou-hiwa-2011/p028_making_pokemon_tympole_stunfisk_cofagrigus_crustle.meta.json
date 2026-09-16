@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.4,
+ "image_tokens": 7010,
+ "completion_tokens": 672,
+ "finish": "stop",
+ "file": "p028_making_pokemon_tympole_stunfisk_cofagrigus_crustle",
+ "image_md5": "b102c6adc176351767870969e2328ccc"
+}

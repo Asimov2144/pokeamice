@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 28.0,
+ "image_tokens": 7010,
+ "completion_tokens": 857,
+ "finish": "stop",
+ "file": "p050_pokemon_do_special_tcg_tournament_colophon",
+ "image_md5": "dcba9c5a3fb68c94ec39d06086df0fa3"
+}

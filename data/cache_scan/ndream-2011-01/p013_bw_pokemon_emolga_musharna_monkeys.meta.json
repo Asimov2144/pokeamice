@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 30.4,
+ "image_tokens": 6747,
+ "completion_tokens": 988,
+ "finish": "stop",
+ "file": "p013_bw_pokemon_emolga_musharna_monkeys",
+ "image_md5": "23f59570f54be7d535ce65f4091df14f"
+}

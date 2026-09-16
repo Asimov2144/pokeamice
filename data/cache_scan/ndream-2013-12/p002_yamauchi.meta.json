@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 88.6,
+ "image_tokens": 7010,
+ "completion_tokens": 1994,
+ "finish": "stop",
+ "file": "p002_yamauchi",
+ "image_md5": "79341656f28f91340101f7cf10e83ecc"
+}

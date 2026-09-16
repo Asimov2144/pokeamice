@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 31.1,
+ "image_tokens": 6818,
+ "completion_tokens": 1687,
+ "finish": "stop",
+ "file": "p071_memorial_200_staff_roster_chronology",
+ "image_md5": "7a5e3a4624ec453b05c44016e60f6e5a"
+}

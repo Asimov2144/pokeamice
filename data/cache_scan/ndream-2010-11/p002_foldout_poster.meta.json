@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 15.3,
+ "image_tokens": 8582,
+ "completion_tokens": 23,
+ "finish": "stop",
+ "file": "p002_foldout_poster",
+ "image_md5": "69184179dcdfc8bba14fe72905ef99df"
+}

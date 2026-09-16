@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.8,
+ "image_tokens": 7010,
+ "completion_tokens": 756,
+ "finish": "stop",
+ "file": "p022_making_pokemon_cinccino_munna_karrablast_shelmet",
+ "image_md5": "885258da3574cc08257b2790deb4c908"
+}

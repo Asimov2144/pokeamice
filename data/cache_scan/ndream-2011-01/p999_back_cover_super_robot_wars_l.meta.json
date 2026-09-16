@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 23.4,
+ "image_tokens": 6914,
+ "completion_tokens": 769,
+ "finish": "stop",
+ "file": "p999_back_cover_super_robot_wars_l",
+ "image_md5": "a396fc2355757f872bbddd67e8b02760"
+}

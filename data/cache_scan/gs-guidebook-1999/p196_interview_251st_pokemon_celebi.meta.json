@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 107.3,
+ "image_tokens": 16202,
+ "completion_tokens": 811,
+ "finish": "stop",
+ "file": "p196_interview_251st_pokemon_celebi",
+ "image_md5": "33cf7c68bd5010d2f5fb8c9889e38b10"
+}

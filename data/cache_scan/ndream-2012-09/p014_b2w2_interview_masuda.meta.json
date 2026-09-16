@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 48.8,
+ "image_tokens": 6914,
+ "completion_tokens": 1755,
+ "finish": "stop",
+ "file": "p014_b2w2_interview_masuda",
+ "image_md5": "9f81ed178b8e2de60a5c09995dd725e0"
+}

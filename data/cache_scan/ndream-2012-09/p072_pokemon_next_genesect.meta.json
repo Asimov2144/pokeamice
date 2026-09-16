@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 35.0,
+ "image_tokens": 6722,
+ "completion_tokens": 1184,
+ "finish": "stop",
+ "file": "p072_pokemon_next_genesect",
+ "image_md5": "5a385e433906456fb416e77e68b220a7"
+}

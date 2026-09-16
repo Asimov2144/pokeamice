@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.1,
+ "image_tokens": 6986,
+ "completion_tokens": 1094,
+ "finish": "stop",
+ "file": "p126_nintendo_scramble_3ds_hands_on_event",
+ "image_md5": "1d6ef12460474fb4aa8073f9c18f5a58"
+}

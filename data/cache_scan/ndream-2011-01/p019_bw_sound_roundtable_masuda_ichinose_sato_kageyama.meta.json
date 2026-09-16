@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 27.1,
+ "image_tokens": 7106,
+ "completion_tokens": 1478,
+ "finish": "stop",
+ "file": "p019_bw_sound_roundtable_masuda_ichinose_sato_kageyama",
+ "image_md5": "be0a941377458b98c63e5a6d7f161227"
+}

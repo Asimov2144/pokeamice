@@ -134,7 +134,22 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
     color: $sc-ink;
   }
 
+  .sc-heading--sub { margin-bottom: 18px; }
+  .sc-heading__title--sub { font-size: clamp(17px, 2vw, 20px); font-weight: 700; }
+  /* the heading as printed, under its translation */
+  .sc-heading__orig { margin: -6px 0 0; font-size: 13px; line-height: 1.6; color: $sc-ink-faint; }
+
   .sc-text--standfirst { font-size: 16px; line-height: 1.7; color: $sc-ink-soft; }
+
+  /* a data table read off the page; wide ones scroll inside their own box */
+  .sc-table { margin: 0 0 22px; }
+  .sc-table__caption { margin: 0 0 8px; font-size: 13px; font-weight: 600; color: $sc-ink-soft; }
+  .sc-table__scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .sc-table table { width: auto; min-width: 100%; margin: 0; border-collapse: collapse; font-size: 13px; line-height: 1.5; }
+  .sc-table th, .sc-table td { padding: 5px 10px; border: 1px solid $sc-rule; vertical-align: top; text-align: left; white-space: nowrap; }
+  .sc-table th { font-weight: 700; color: $sc-ink; background: rgba(0, 0, 0, 0.03); }
+  .sc-table__orig { margin-top: 6px; }
+  .sc-table__orig table { color: $sc-ink-soft; }
 
   .sc-figure { display: block; margin: 26px 0; padding: 0; }
 

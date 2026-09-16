@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 35.8,
+ "image_tokens": 8582,
+ "completion_tokens": 842,
+ "finish": "stop",
+ "file": "p073_kanto_region_part2",
+ "image_md5": "47afd55728cb6aa92c9ec6f1e8c26d97"
+}

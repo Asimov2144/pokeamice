@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 31.0,
+ "image_tokens": 6652,
+ "completion_tokens": 892,
+ "finish": "stop",
+ "file": "p016_bw_characters_cheren_bianca_n_ghetsis",
+ "image_md5": "4d325533b5700014b764c0a3e3ede85e"
+}

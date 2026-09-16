@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 16.6,
+ "image_tokens": 6914,
+ "completion_tokens": 823,
+ "finish": "stop",
+ "file": "p084_ohmura_character_making_special_3",
+ "image_md5": "b1114c4ae3ba1951dedf244c9dab7d2d"
+}

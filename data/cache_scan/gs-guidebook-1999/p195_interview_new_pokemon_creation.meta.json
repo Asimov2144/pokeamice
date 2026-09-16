@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 51.4,
+ "image_tokens": 16172,
+ "completion_tokens": 831,
+ "finish": "stop",
+ "file": "p195_interview_new_pokemon_creation",
+ "image_md5": "c2aacf1366f1c2d5759a512915acb626"
+}

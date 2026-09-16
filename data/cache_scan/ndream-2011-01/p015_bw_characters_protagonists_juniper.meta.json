@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 20.1,
+ "image_tokens": 6818,
+ "completion_tokens": 525,
+ "finish": "stop",
+ "file": "p015_bw_characters_protagonists_juniper",
+ "image_md5": "a9ae55b9667e258e0bf9345fd224673d"
+}

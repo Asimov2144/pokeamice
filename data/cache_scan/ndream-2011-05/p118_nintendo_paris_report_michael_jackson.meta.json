@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 49.4,
+ "image_tokens": 6818,
+ "completion_tokens": 1493,
+ "finish": "stop",
+ "file": "p118_nintendo_paris_report_michael_jackson",
+ "image_md5": "770fb05858cf2f7768cadfa7fc363ce1"
+}

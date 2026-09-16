@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 66.6,
+ "image_tokens": 6652,
+ "completion_tokens": 2741,
+ "finish": "stop",
+ "file": "p253_wild_pokemon_streetpass",
+ "image_md5": "3650a82a1698cc5953550e380a7a1137"
+}

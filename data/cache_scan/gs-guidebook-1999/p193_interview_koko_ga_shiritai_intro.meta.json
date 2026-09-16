@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 65.8,
+ "image_tokens": 16243,
+ "completion_tokens": 547,
+ "finish": "stop",
+ "file": "p193_interview_koko_ga_shiritai_intro",
+ "image_md5": "4b426763964de4dbd7f469cf21630581"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 31.9,
+ "image_tokens": 6818,
+ "completion_tokens": 708,
+ "finish": "stop",
+ "file": "p070_bw_interview_elite4_grimsley_shauntal",
+ "image_md5": "7fa62707fafc6575ee613c7bf1d8043d"
+}
