@@ -6,62 +6,78 @@ layout: default
 
 <div id="main" role="main">
   <div class="archive archive--search-lab">
-    <section class="search-lab" aria-label="资料检索中心">
-      <header class="search-lab__hero">
-        <p>Library Search</p>
-        <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
-        <span>把文章、访谈、扫描翻译和资料索引放在同一个检索入口里，之后资料变多时可以优先从这里进入。</span>
-      </header>
+    <section class="search-lab search-lab--split" aria-label="资料检索中心">
 
-      {{ content }}
+      {%- comment -%} the rail: everything that narrows the list, sticky beside it {%- endcomment -%}
+      <aside class="search-lab__rail">
+        <header class="search-lab__hero search-lab__hero--compact">
+          <p>Library Search</p>
+          <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
+        </header>
 
-      <form class="search-lab__bar" role="search" data-search-lab-form>
-        <i class="fas fa-search" aria-hidden="true"></i>
-        <input type="search" id="filteredSearchQuery" placeholder="搜索标题、正文、人物、作品或来源" autocomplete="off">
-        <button type="submit">检索</button>
-      </form>
+        {{ content }}
 
-      <section class="search-lab__filters" aria-label="筛选条件">
-        <label>
-          <span>人物</span>
-          <select id="searchPersonFilter"><option value="">全部人物</option></select>
-        </label>
-        <label>
-          <span>作品</span>
-          <select id="searchWorkFilter"><option value="">全部作品</option></select>
-        </label>
-        <label>
-          <span>年份</span>
-          <select id="searchYearFilter"><option value="">全部年份</option></select>
-        </label>
-        <label>
-          <span>来源</span>
-          <select id="searchSourceFilter"><option value="">全部来源</option></select>
-        </label>
-        <label>
-          <span>内容类型</span>
-          <select id="searchTypeFilter"><option value="">全部类型</option></select>
-        </label>
-      </section>
+        <form class="search-lab__bar" role="search" data-search-lab-form>
+          <i class="fas fa-search" aria-hidden="true"></i>
+          <input type="search" id="filteredSearchQuery" placeholder="标题、正文、人物、作品、来源" autocomplete="off">
+          <button type="submit">检索</button>
+        </form>
 
-      <section class="search-lab__tools" aria-label="检索工具">
-        <button type="button" data-search-reset>清空筛选</button>
-        <button type="button" data-search-mode="interview">只看访谈</button>
-        <a href="{{ '/resource-graph/' | relative_url }}">站内关系图谱</a>
-      </section>
+        <section class="search-lab__filters" aria-label="筛选条件">
+          <label>
+            <span>内容类型</span>
+            <select id="searchTypeFilter"><option value="">全部类型</option></select>
+          </label>
+          <label>
+            <span>人物</span>
+            <select id="searchPersonFilter"><option value="">全部人物</option></select>
+          </label>
+          <label>
+            <span>作品</span>
+            <select id="searchWorkFilter"><option value="">全部作品</option></select>
+          </label>
+          <label>
+            <span>年份</span>
+            <select id="searchYearFilter"><option value="">全部年份</option></select>
+          </label>
+          <label>
+            <span>来源</span>
+            <select id="searchSourceFilter"><option value="">全部来源</option></select>
+          </label>
+          <label>
+            <span>排序</span>
+            <select id="searchSort">
+              <option value="date-desc">时间 · 新到旧</option>
+              <option value="date-asc">时间 · 旧到新</option>
+              <option value="title">标题</option>
+            </select>
+          </label>
+        </section>
 
-      <section class="search-lab__ai" aria-label="AI 辅助检索">
-        <div>
-          <strong>DeepSeek AI 检索</strong>
-          <span>通过本地代理读取当前筛选结果摘要，不在网页里保存 API Key。</span>
+        <section class="search-lab__tools" aria-label="检索工具">
+          <button type="button" data-search-reset>清空筛选</button>
+          <button type="button" data-search-mode="interview">只看访谈</button>
+          <button type="button" data-search-mode="scan">只看扫描</button>
+          <a href="{{ '/resource-graph/' | relative_url }}">关系图谱</a>
+        </section>
+
+        <div class="search-lab__status" id="searchStatus" aria-live="polite">正在准备索引...</div>
+
+        <details class="search-lab__ai" aria-label="AI 辅助检索">
+          <summary><strong>DeepSeek AI 检索</strong><span>本地代理，不在网页里保存 API Key</span></summary>
+          <input type="url" id="deepseekEndpoint" value="http://127.0.0.1:8787/search" aria-label="本地 DeepSeek 代理地址">
+          <button type="button" id="deepseekSearchButton">AI 总结</button>
+        </details>
+      </aside>
+
+      {%- comment -%} the catalogue: as many entries across as the width allows {%- endcomment -%}
+      <div class="search-lab__main">
+        <div class="search-lab__ai-output" id="deepseekOutput" hidden></div>
+        <div class="search-lab__results" id="filteredSearchResults"></div>
+        <div class="search-lab__more">
+          <button type="button" id="searchMore" hidden>显示更多</button>
         </div>
-        <input type="url" id="deepseekEndpoint" value="http://127.0.0.1:8787/search" aria-label="本地 DeepSeek 代理地址">
-        <button type="button" id="deepseekSearchButton">AI 总结</button>
-      </section>
-
-      <div class="search-lab__status" id="searchStatus" aria-live="polite">正在准备索引...</div>
-      <div class="search-lab__ai-output" id="deepseekOutput" hidden></div>
-      <div class="search-lab__results" id="filteredSearchResults"></div>
+      </div>
     </section>
   </div>
 </div>
@@ -90,19 +106,62 @@ window.pokeamiceSearchSeed = [
     {% assign search_title = post.gf_entry_title | default: post.gf_translation_title | default: post.title %}
     {% assign search_excerpt = post.gf_translation_summary | default: post.summary | default: post.excerpt %}
     {% assign search_body = post.content | strip_html | strip_newlines | remove: "中文译稿已完成校对" | remove: "译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。" %}
+    {%- comment -%}
+      The card's picture: a scan's first plate (its cover), else the post's own image, else
+      the first picture in a web interview's body. Nothing is fetched at search time.
+    {%- endcomment -%}
+    {% assign cover = post.image | default: post.featured_image | default: "" %}
+    {% assign pages = 0 %}
+    {% if post.translation_segments %}
+      {% assign plates = post.translation_segments | where: "type", "image" %}
+      {% assign pages = plates.size %}
+      {% if plates.first.image %}{% assign cover = plates.first.image %}{% endif %}
+    {% elsif cover == "" and post.parallel_items %}
+      {% assign pics = post.parallel_items | where: "type", "image" %}
+      {% if pics.first.image %}{% assign cover = pics.first.image %}{% endif %}
+    {% endif %}
+    {% assign card_kind = "article" %}
+    {% if archive_type == "scan_translation" %}{% assign card_kind = "scan" %}
+    {% elsif post.layout == "interview-editorial" or post.layout == "parallel-translation" %}{% assign card_kind = "interview" %}
+    {% elsif post.layout == "gamefreak-director" or post.layout == "gamefreak-legacy-blog" %}{% assign card_kind = "blog" %}{% endif %}
+    {% if post.categories contains "杂志特辑" %}{% assign card_kind = "feature" %}{% endif %}
+    {% assign proof = post.workflow.proofreading | default: "" %}
+    {%- comment -%} work icons from _data/works.yml, parallel to entities.works {%- endcomment -%}
+    {% assign work_icons = "" | split: "" %}
+    {% for w in post.entities.works %}
+      {% assign wi = site.data.works | where: "name", w | first %}
+      {% if wi.icon %}{% assign work_icons = work_icons | push: wi.icon %}{% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
+    {% endfor %}
+    {%- comment -%} portraits from _data/people.yml, one per name, "" when there is none {%- endcomment -%}
+    {% assign avatars = "" | split: "" %}
+    {% for who in post.entities.people %}
+      {% assign hit = site.data.people | where: "name", who | first %}
+      {% if hit.avatar %}{% assign avatars = avatars | push: hit.avatar %}{% else %}{% assign avatars = avatars | push: "" %}{% endif %}
+    {% endfor %}
     {
       "kind": "post",
+      "card": {{ card_kind | jsonify }},
       "title": {{ search_title | jsonify }},
+      "display_title": {{ post.display_title | default: "" | jsonify }},
       "url": {{ post.url | relative_url | jsonify }},
       "excerpt": {{ search_excerpt | markdownify | strip_html | strip_newlines | truncate: 180 | jsonify }},
+      "dek": {{ post.dek | default: "" | jsonify }},
       "body": {{ search_body | truncate: 1200 | jsonify }},
       "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
       "year": {{ post.date | date: "%Y" | jsonify }},
       "categories": {{ post.categories | jsonify }},
       "tags": {{ post.tags | jsonify }},
+      "topics": {% if post.topics %}{{ post.topics | jsonify }}{% else %}[]{% endif %},
       "people": {% if post.entities.people %}{{ post.entities.people | jsonify }}{% else %}[]{% endif %},
+      "avatars": {{ avatars | jsonify }},
+      "work_icons": {{ work_icons | jsonify }},
       "works": {% if post.entities.works %}{{ post.entities.works | jsonify }}{% else %}[]{% endif %},
       "source": {{ source_title | jsonify }},
+      "publication": {{ post.publication | default: post.source.publication | default: "" | jsonify }},
+      "issue": {{ post.issue | default: "" | jsonify }},
+      "cover": {{ cover | jsonify }},
+      "pages": {{ pages }},
+      "proof": {{ proof | jsonify }},
       "type": {{ type_label | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
@@ -129,6 +188,10 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   let items = (window.pokeamiceSearchSeed || []).slice();
   let lastResults = [];
+  const PAGE = 60;
+  let shown = PAGE;
+  const sortEl = document.getElementById("searchSort");
+  const moreButton = document.getElementById("searchMore");
 
   function escapeHtml(value) {
     return String(value || "").replace(/[&<>"']/g, function(char) {
@@ -214,25 +277,73 @@ document.addEventListener("DOMContentLoaded", function() {
     filterEls.type.innerHTML = optionList(Array.from(types).sort(), "全部类型");
   }
 
+  function chips(values, cls, limit) {
+    return (values || []).slice(0, limit).map(function(value) {
+      return `<span class="${cls}">${escapeHtml(value)}</span>`;
+    }).join("");
+  }
+
+  function proofLabel(value) {
+    const v = String(value || "");
+    if (/master|professional|manual|verified|done/.test(v)) return "已校对";
+    if (/pending|machine|deepseek|draft/.test(v)) return "初译待校";
+    return "";
+  }
+
+  function coverBlock(item) {
+    const label = item.publication || item.source || contentType(item.type);
+    if (item.cover) {
+      return `<a class="search-result-card__cover" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async"></a>`;
+    }
+    const initials = String(label).replace(/[（(].*$/, "").slice(0, 12);
+    return `<a class="search-result-card__cover search-result-card__cover--blank" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><span>${escapeHtml(initials)}</span><small>${escapeHtml(item.year || "")}</small></a>`;
+  }
+
   function render() {
     const filters = getFilters();
     lastResults = items.filter(function(item) { return matches(item, filters); });
-    status.textContent = `显示 ${lastResults.length} / ${items.length} 条资料`;
+    const sort = sortEl ? sortEl.value : "date-desc";
+    lastResults.sort(function(a, b) {
+      if (sort === "title") return String(a.title).localeCompare(String(b.title), "zh");
+      const d = String(a.date || "").localeCompare(String(b.date || ""));
+      return sort === "date-asc" ? d : -d;
+    });
+    status.textContent = `显示 ${Math.min(shown, lastResults.length)} / ${lastResults.length} 条，库内共 ${items.length} 条`;
+    if (moreButton) moreButton.hidden = lastResults.length <= shown;
     if (!lastResults.length) {
       resultList.innerHTML = "<p class='search-lab__empty'>没有找到匹配结果。可以放宽筛选，或先只按年份、类型过滤。</p>";
       return;
     }
-    resultList.innerHTML = lastResults.slice(0, 80).map(function(item) {
-      const meta = [item.year, contentType(item.type), item.source].filter(Boolean).join(" · ");
-      const people = (item.people || []).slice(0, 3).map(function(value) { return `<span>${escapeHtml(value)}</span>`; }).join("");
-      const works = (item.works || []).slice(0, 3).map(function(value) { return `<span>${escapeHtml(value)}</span>`; }).join("");
+    resultList.innerHTML = lastResults.slice(0, shown).map(function(item) {
+      const type = contentType(item.type);
+      const kicker = [type, item.publication ? (item.issue ? `${item.publication} ${item.issue}` : item.publication) : item.source]
+        .filter(Boolean).map(function(v) { return `<span>${escapeHtml(v)}</span>`; }).join("");
+      const facts = [];
+      if (item.pages) facts.push(`${item.pages} 页扫描`);
+      if (item.date) facts.push(item.date);
+      const proof = proofLabel(item.proof);
+      if (proof) facts.push(proof);
+      const lead = item.excerpt || item.dek || item.body || "暂无摘要";
+      const people = (item.people || []).slice(0, 4).map(function(name, i) {
+        const av = (item.avatars || [])[i];
+        return `<span class="is-person${av ? " has-avatar" : ""}">${av ? `<img src="${escapeHtml(av)}" alt="" loading="lazy">` : ""}${escapeHtml(name)}</span>`;
+      }).join("");
+      const works = (item.works || []).slice(0, 3).map(function(name, i) {
+        const ic = (item.work_icons || [])[i];
+        return `<span class="is-work${ic ? " has-icon" : ""}">${ic ? `<img src="${escapeHtml(ic)}" alt="" loading="lazy">` : ""}${escapeHtml(name)}</span>`;
+      }).join("");
+      const topics = chips(item.topics, "is-topic", 4);
       return `
-        <article class="search-result-card search-result-card--${escapeHtml(item.kind)}">
-          <div class="search-result-card__meta">${escapeHtml(meta)}</div>
-          <h2><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h2>
-          <p>${escapeHtml(item.excerpt || item.body || "暂无摘要")}</p>
-          ${item.stats ? `<em>${escapeHtml(item.stats)}</em>` : ""}
-          <div class="search-result-card__tags">${people}${works}</div>
+        <article class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)}">
+          ${coverBlock(item)}
+          <div class="search-result-card__body">
+            <div class="search-result-card__kicker">${kicker}</div>
+            <h2><a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a></h2>
+            <p>${escapeHtml(lead)}</p>
+            ${(people || works) ? `<div class="search-result-card__tags">${people}${works}</div>` : ""}
+            ${topics ? `<div class="search-result-card__topics">${topics}</div>` : ""}
+            <div class="search-result-card__facts">${facts.map(function(v) { return `<span>${escapeHtml(v)}</span>`; }).join("")}</div>
+          </div>
         </article>
       `;
     }).join("");
@@ -241,6 +352,8 @@ document.addEventListener("DOMContentLoaded", function() {
   function setMode(mode) {
     Object.values(filterEls).forEach(function(select) { select.value = ""; });
     if (mode === "interview") filterEls.type.value = "访谈翻译";
+    if (mode === "scan") filterEls.type.value = "扫描翻译";
+    shown = PAGE;
     render();
   }
 
@@ -255,8 +368,10 @@ document.addEventListener("DOMContentLoaded", function() {
     event.preventDefault();
     render();
   });
-  queryInput.addEventListener("input", render);
-  Object.values(filterEls).forEach(function(select) { select.addEventListener("change", render); });
+  queryInput.addEventListener("input", function() { shown = PAGE; render(); });
+  Object.values(filterEls).forEach(function(select) { select.addEventListener("change", function() { shown = PAGE; render(); }); });
+  if (sortEl) sortEl.addEventListener("change", render);
+  if (moreButton) moreButton.addEventListener("click", function() { shown += PAGE; render(); });
   resetButton.addEventListener("click", function() {
     queryInput.value = "";
     Object.values(filterEls).forEach(function(select) { select.value = ""; });

@@ -164,6 +164,28 @@ $ed-measure: 704px;
     color: $ed-ink;
   }
 
+  /* a name with its portrait, when the people file has one */
+  .ed-person {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    vertical-align: middle;
+  }
+
+  .ed-person__avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+
+  .ed-people__x {
+    margin: 0 4px;
+    opacity: 0.5;
+    font-weight: 400;
+  }
+
   .ed-dek {
     max-width: 608px;
     margin: 0 0 22px;

@@ -1,0 +1,53 @@
+# 人物头像：从站内扫描页裁出（来源见 avatar_source），供检索卡片与人物页使用
+- name: 增田顺一
+  slug: masuda-junichi
+  avatar: /assets/img/people/masuda-junichi.jpg
+  avatar_source: Nintendo DREAM 2011年4月号 P.80
+- name: 杉森建
+  slug: sugimori-ken
+  avatar: /assets/img/people/sugimori-ken.jpg
+  avatar_source: Nintendo DREAM 2011年5月号 P.73
+- name: 大森滋
+  slug: ohmori-shigeru
+  avatar: /assets/img/people/ohmori-shigeru.jpg
+  avatar_source: 電撃GAMES Vol.14 P.252
+- name: 太田哲司
+  slug: ota-tetsuji
+  avatar: /assets/img/people/ota-tetsuji.jpg
+  avatar_source: 電撃GAMES Vol.14 P.252
+- name: 水口舞
+  slug: mizuguchi-mai
+  avatar: /assets/img/people/mizuguchi-mai.jpg
+  avatar_source: 電撃GAMES Vol.14 P.252
+- name: 景山将太
+  slug: kageyama-shota
+  avatar: /assets/img/people/kageyama-shota.jpg
+  avatar_source: Nintendo DREAM 2011年1月号 P.18
+- name: 海野隆雄
+  slug: unno-takao
+  avatar: /assets/img/people/unno-takao.jpg
+  avatar_source: Nintendo DREAM 2012年9月号 P.13
+- name: 一之濑刚
+  slug: ichinose-go
+  avatar: /assets/img/people/ichinose-go.jpg
+  avatar_source: Nintendo DREAM 2012年9月号 P.13
+- name: 佐藤仁美
+  slug: sato-hitomi
+  avatar: /assets/img/people/sato-hitomi.jpg
+  avatar_source: Nintendo DREAM 2012年9月号 P.13
+- name: 田尻智
+  slug: tajiri-satoshi
+  avatar: /assets/img/people/tajiri-satoshi.jpg
+  avatar_source: ポケットモンスター図鑑 1996 P.137
+- name: 森本茂树
+  slug: morimoto-shigeki
+  avatar: /assets/img/people/morimoto-shigeki.jpg
+  avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
+- name: 西野弘二
+  slug: nishino-koji
+  avatar: /assets/img/people/nishino-koji.jpg
+  avatar_source: ポケットモンスター 金・銀 公式ガイドブック P.193
+- name: 太田健程
+  slug: ota-takenori
+  avatar: /assets/img/people/ota-takenori.jpg
+  avatar_source: ポケットモンスター図鑑 1996 P.139

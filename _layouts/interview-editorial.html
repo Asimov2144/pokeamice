@@ -206,8 +206,11 @@ kept on the turns even though the presentation around them is new.
         technical feature has no answers, so it names the presenters the post
         declares.
       {%- endcomment -%}
-      {% if answerers.size > 0 %}
-        <p class="ed-people">{{ answerers | join: " × " }}</p>
+      {%- comment -%} the names, each with its portrait when _data/people.yml has one {%- endcomment -%}
+      {% assign people_line = answerers %}
+      {% if people_line.size == 0 and page.entities.people %}{% assign people_line = page.entities.people %}{% endif %}
+      {% if people_line.size > 0 %}
+        <p class="ed-people">{% for who in people_line %}{% assign portrait = site.data.people | where: "name", who | first %}<span class="ed-person">{% if portrait.avatar %}<img class="ed-person__avatar" src="{{ portrait.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% endif %}{{ who }}</span>{% unless forloop.last %}<span class="ed-people__x"> × </span>{% endunless %}{% endfor %}</p>
       {% elsif is_technical and page.interviewee %}
         <p class="ed-people">{{ page.interviewee | replace: "、", " × " | replace: ", ", " × " }}</p>
       {% elsif is_scan and page.interviewee %}

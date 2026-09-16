@@ -748,6 +748,8 @@ body.theme-bg-black:not(.archive-reproduction-theme) {
   .search-lab__hero p,
   .search-lab__bar i,
   .search-result-card__meta,
+  .search-result-card__kicker,
+  .search-result-card__cover--blank span,
   .resource-network-hero p,
   .resource-network-card p,
   .resource-network-jump a {
@@ -760,6 +762,9 @@ body.theme-bg-black:not(.archive-reproduction-theme) {
   .search-lab__status,
   .search-result-card p,
   .search-result-card em,
+  .search-result-card__facts,
+  .search-result-card__topics span,
+  .search-result-card__cover--blank small,
   .resource-graph-entry span,
   .resource-network-hero span,
   .resource-network-index span,
@@ -783,6 +788,7 @@ body.theme-bg-black:not(.archive-reproduction-theme) {
   }
 
   .search-result-card__tags span,
+  .search-result-card__tags span.is-work,
   .editor-workbench__pipeline article span {
     background-color: rgba(159, 215, 255, 0.13) !important;
     border-color: rgba(159, 215, 255, 0.28) !important;
