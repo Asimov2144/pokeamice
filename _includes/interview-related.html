@@ -87,7 +87,7 @@ group it qualifies for. Manual relations.related_posts come first.
 
   {%- if series_posts.size > 1 -%}
   <div class="ed-related__group ed-related__group--series">
-    <h3 class="ed-related__head">本系列 <small>共 {{ series_posts.size }} 章</small></h3>
+    <h3 class="ed-related__head">本系列 <small>共 {{ series_posts.size }} {{ series_unit | default: "章" }}</small></h3>
     <ol class="ed-series">
       {%- for member in series_posts -%}
         {%- assign member_title = member.display_title | default: member.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: series_label | strip -%}

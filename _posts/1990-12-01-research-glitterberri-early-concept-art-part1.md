@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）
 title_ja: GlitterBerri考証：ポケットモンスター最初期開発資料・カプモン企画書と杉森建初期アート全解析（前編）
 date: 1990-12-01 10:00:00 +0900

@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 首藤刚志动画创作手记 第176回：休载两周的致歉与反思（涩谷工作间的孤绝崩溃、救护车中的三次昏厥与破例敬语自白）'
 original_title: 第176回　２週間休載のお詫び
 date: '2009-03-11'
@@ -10,8 +10,6 @@ source_kind: memoir_serialization
 author: 首藤刚志
 translator: Poke Amice Studio
 interviewee: 首藤刚志
-toc: true
-toc_sticky: true
 parallel_view: translation
 categories:
 - 访谈翻译
@@ -235,6 +233,7 @@ parallel_items:
   translation: 在下一回中，我将正式从这场石破天惊的高潮戏码，重新铺展开来。
 - original: なお、このコラムの「です」「ます」調は、今回限りのつもりです。
   translation: 顺带一提，本专栏这通篇毕恭毕敬的“です・ます”敬语体裁，我打算仅在这一回破例使用，下不为例。
+original_lang: ja
 ---
 
 {%- comment -%}

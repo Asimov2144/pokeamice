@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 首藤刚志动画创作手记 第174回：谈及“歧视”也请不要夸大其词（十八岁的杀意剧本、德国酒馆的吉普赛少女与克隆宝可梦的深层绝望）'
 original_title: 第174回　「差別」といっても大げさに考えないでください
 date: '2009-02-04'
@@ -10,8 +10,6 @@ source_kind: memoir_serialization
 author: 首藤刚志
 translator: Poke Amice Studio
 interviewee: 首藤刚志
-toc: true
-toc_sticky: true
 parallel_view: translation
 categories:
 - 访谈翻译
@@ -350,6 +348,7 @@ parallel_items:
   translation: 超梦在目睹自己亲手制造的克隆宝可梦与世间所谓“本物”的惨烈厮杀后，其心头所撕裂开的空洞与绝望，或许远比我当年所感受到的，还要深邃浩瀚得多。
 - original: ミュウツーが、自分が生み出したコピーポケモンと本物のポケモンの戦いの末に感じたものは、もっと大きかったかもしれない。
   translation: ミュウツーが、自分が生み出したコピーポケモンと本物のポケモンの戦いの末に感じたものは、もっと大きかったかもしれない。
+original_lang: ja
 ---
 
 {%- comment -%}

@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）'
 original_title: 第177回　『ポケモン』バトルを否定していいのか？
 date: '2009-03-18'
@@ -10,8 +10,6 @@ source_kind: memoir_serialization
 author: 首藤刚志
 translator: Poke Amice Studio
 interviewee: 首藤刚志
-toc: true
-toc_sticky: true
 parallel_view: translation
 categories:
 - 访谈翻译
@@ -309,6 +307,7 @@ parallel_items:
   translation: 然而，只要能在最高潮的高光场面上找寻到精妙绝伦的破局呈现，全面否定宝可梦战斗的毁灭性危机，是完全可以被化解融通的！
 - original: どうすべきか。僕としては珍しく、一日だけ、小田原の海を見つめながら考えた。
   translation: 到底该如何破局？——生平罕见地，我整整一天放下了手中的键盘，独自一人静静枯坐在小田原冰冷的海滩前，凝视着眼前白浪翻滚的浩瀚大海，陷入了前所未有的漫长沉思。
+original_lang: ja
 ---
 
 {%- comment -%}

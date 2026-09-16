@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: '[访谈翻译] 首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）'
 original_title: 第175回　『ミュウツーの逆襲』の脚本の話を続けています
 date: '2009-02-18'
@@ -10,8 +10,6 @@ source_kind: memoir_serialization
 author: 首藤刚志
 translator: Poke Amice Studio
 interviewee: 首藤刚志
-toc: true
-toc_sticky: true
 parallel_view: translation
 categories:
 - 访谈翻译
@@ -215,6 +213,7 @@ parallel_items:
   translation: 这正是……
 - original: ミュウとミュウツーの戦いを止めようと、サトシが間に立ち、両者の攻撃を受け、石化し床に転がったあたりからはじまっていた。
   translation: 为了阻遏梦幻与超梦那场已沦为互相残杀的疯狂决斗，小智毅然决然冲入了战场中央，用自己的血肉之躯硬生生承受了两大至尊神兽的毁灭能量，瞬间石化成冷硬的石雕，轰然倒在冰冷地板上的那一刻——故事真正的灵魂，自此彻底爆发了。
+original_lang: ja
 ---
 
 {%- comment -%}

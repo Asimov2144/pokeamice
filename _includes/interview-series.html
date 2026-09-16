@@ -6,9 +6,11 @@ field; what they share is a title up to "第N章". So the key is the title
 before the first 第 whose next characters are a chapter number, and the
 series is every interview whose title contains that key. Sorted by title,
 which orders single-digit chapters correctly; none of the series runs past 9.
+A serialised column (first N回, the Shudo memoir) is the same shape but runs
+to three digits, so that kind is sorted by date instead.
 
-Sets series_key, series_label, series_posts, series_index (1-based), series_prev,
-series_next. Empty when the post is not part of a series.
+Sets series_key, series_label, series_unit (章 or 回), series_posts, series_index (1-based),
+series_prev, series_next. Empty when the post is not part of a series.
 {%- endcomment -%}
 {%- assign series_key = "" -%}
 {%- assign series_label = "" -%}
@@ -16,11 +18,15 @@ series_next. Empty when the post is not part of a series.
 {%- assign series_prev = nil -%}
 {%- assign series_next = nil -%}
 {%- assign series_index = 0 -%}
-{%- if page.title contains "第" and page.title contains "章" -%}
+{%- comment -%} 第N章 for the interview series; 第N回 for a serialised column such as the Shudo memoir {%- endcomment -%}
+{%- assign series_by = "title" -%}
+{%- assign series_unit = "章" -%}
+{%- if page.title contains "第" -%}
   {%- assign series_head = page.title | split: "第" | first | strip -%}
-  {%- assign series_tail = page.title | remove_first: series_head | remove_first: "第" | slice: 0, 3 -%}
+  {%- assign series_tail = page.title | remove_first: series_head | strip | remove_first: "第" | slice: 0, 5 -%}
   {%- assign series_head_len = series_head | size -%}
-  {%- if series_tail contains "章" and series_head_len >= 6 -%}
+  {%- if series_tail contains "回" -%}{%- assign series_by = "date" -%}{%- assign series_unit = "回" -%}{%- endif -%}
+  {%- if series_head_len >= 6 and series_tail contains "章" or series_head_len >= 6 and series_tail contains "回" -%}
     {%- assign series_key = series_head -%}
     {%- comment -%} the key without the archive's own prefix, for stripping off member titles that have lost theirs {%- endcomment -%}
     {%- assign series_label = series_head | remove: "[访谈翻译] " | remove: "[扫描访谈] " | strip -%}
@@ -35,7 +41,7 @@ series_next. Empty when the post is not part of a series.
     {%- endif -%}
   {%- endfor -%}
   {%- if series_found.size > 1 -%}
-    {%- assign series_posts = series_found | sort: "title" -%}
+    {%- assign series_posts = series_found | sort: series_by -%}
     {%- for member in series_posts -%}
       {%- if member.url == page.url -%}
         {%- assign series_index = forloop.index -%}

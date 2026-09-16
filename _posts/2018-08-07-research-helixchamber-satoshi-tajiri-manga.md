@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: Helix Chamber 深度特写：解读田尻智自传漫画——初代胶囊怪兽草案、1992年内部人气投票与失落原案全考证
 title_ja: 田尻智自伝漫画が明かすポケットモンスター黎明期開発秘話：カプモン初期案・1992年社内人気投票と幻の没ポケモン全解析
 date: 2018-08-07 10:00:00 +0900

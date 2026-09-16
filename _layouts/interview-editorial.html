@@ -97,6 +97,18 @@ kept on the turns even though the presentation around them is new.
   and so is every question - so the anchors line up. Shown for long
   pieces only; six questions do not need a table.
 {%- endcomment -%}
+{%- comment -%}
+  An essay - a memoir chapter, a cover story, a lecture report - has no
+  question turns, only section heads. There every heading is a chapter, so
+  the piece gets a contents box and numbered heads like an interview does.
+{%- endcomment -%}
+{% assign n_questions = 0 %}{% assign n_headings = 0 %}
+{% for item in items %}
+  {% if item.role == "question" %}{% assign n_questions = n_questions | plus: 1 %}{% endif %}
+  {% if item.type == "heading" or item.type == "header" %}{% assign n_headings = n_headings | plus: 1 %}{% endif %}
+{% endfor %}
+{% assign essay = false %}
+{% if n_questions == 0 and n_headings >= 2 %}{% assign essay = true %}{% endif %}
 {% assign contents = "" | split: "" %}
 {% unless is_technical or is_scan %}
   {% for item in items %}
@@ -104,7 +116,7 @@ kept on the turns even though the presentation around them is new.
     {% if c_type == "heading" or c_type == "header" %}
       {% assign c_next = items[forloop.index] %}
       {% if c_next.type == "image" %}{% assign c_after = forloop.index | plus: 1 %}{% assign c_next = items[c_after] %}{% endif %}
-      {% if c_next.role == "answer" or c_next.type == "profile" %}
+      {% if c_next.role == "answer" or c_next.type == "profile" or essay %}
         {% assign c_title = item.translation | default: item.title | default: item.original | strip_html | truncate: 48 %}
         {% assign contents = contents | push: c_title %}
       {% endif %}
@@ -265,7 +277,7 @@ kept on the turns even though the presentation around them is new.
           {% assign next_item = items[forloop.index] %}
           {%- comment -%} the recruit pages put a photograph between the question and the answers {%- endcomment -%}
           {% if next_item.type == "image" %}{% assign after = forloop.index | plus: 1 %}{% assign next_item = items[after] %}{% endif %}
-          {% if next_item.role == "answer" or next_item.type == "profile" %}
+          {% if next_item.role == "answer" or next_item.type == "profile" or essay %}
             {% if chapter > 0 %}</section>{% endif %}
             {% assign chapter = chapter | plus: 1 %}
             <section class="ed-chapter" id="chapter-{{ chapter }}">
@@ -356,14 +368,14 @@ kept on the turns even though the presentation around them is new.
       <nav class="ed-series-nav" aria-label="本系列">
         {% if series_prev %}
           <a class="ed-series-nav__link ed-series-nav__link--prev" href="{{ series_prev.url | relative_url }}" rel="prev">
-            <span class="ed-series-nav__label">← 上一章</span>
+            <span class="ed-series-nav__label">← 上一{{ series_unit | default: "章" }}</span>
             <span class="ed-series-nav__title">{{ series_prev.display_title | default: series_prev.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: series_label | strip }}</span>
           </a>
         {% else %}<span class="ed-series-nav__spacer"></span>{% endif %}
-        <span class="ed-series-nav__pos">第 {{ series_index }} / {{ series_posts.size }} 章</span>
+        <span class="ed-series-nav__pos">第 {{ series_index }} / {{ series_posts.size }} {{ series_unit | default: "章" }}</span>
         {% if series_next %}
           <a class="ed-series-nav__link ed-series-nav__link--next" href="{{ series_next.url | relative_url }}" rel="next">
-            <span class="ed-series-nav__label">下一章 →</span>
+            <span class="ed-series-nav__label">下一{{ series_unit | default: "章" }} →</span>
             <span class="ed-series-nav__title">{{ series_next.display_title | default: series_next.title | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: series_label | strip }}</span>
           </a>
         {% else %}<span class="ed-series-nav__spacer"></span>{% endif %}

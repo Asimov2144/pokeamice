@@ -1,5 +1,5 @@
 ---
-layout: parallel-translation
+layout: interview-editorial
 title: GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（后篇：关都城市规划手绘、初代战斗界面演进与未采用废案）
 title_ja: GlitterBerri考証：ポケットモンスター最初期開発資料・初期マップ設定画とバトル画面変遷（後編）
 date: 1990-12-02 10:00:00 +0900
