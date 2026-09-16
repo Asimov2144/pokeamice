@@ -15,7 +15,7 @@
    "abstract": "『ポケットモンスター』シリーズのバトルシステムは、シリーズを重ねるとともに拡張が繰り返し行われてきました。\nしかし、近年のバトル仕様の複雑化や、開発ラインの増加に伴い、開発効率や保守性、拡張性に課題がありました。\nこれらの課題を解決するために、バトルシステムの基盤設計の見直しと再構築に取り組み、複雑化するポケモン勝負の",
    "pdf": true,
    "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3390",
-   "on_site": "2026-07-28-interview-4gamer-2026-cedec-battle.md / 2026-07-22-interview-denfami-2026-cedec-battle.md",
+   "on_site": "2026-07-28-interview-4gamer-2026-cedec-battle.md / 2026-07-22-interview-denfami-2026-cedec-battle.md（报道） / 2026-07-22-interview-cedec-2026-battle-system-deck.md（发表资料 + 讲者备注稿）",
    "pokemon_related": true
   },
   {
@@ -30,7 +30,7 @@
    "abstract": "『Pokémon LEGENDS Z-A』で生まれ変わった\"ミアレシティ\"。\n前作『スカーレット・バイオレット』の広大な自然環境から一変し、多数の建物が立ち並ぶ都市空間をどのように実装したのか。\n本セッションでは、多数の建造物などを効率的に描画する仕組みや都市環境に適したライティング表現、キャラクターのリギングについて",
    "pdf": true,
    "cedil_url": "https://cedil.cesa.or.jp/cedil_sessions/view/3366",
-   "on_site": "2026-07-23-interview-denfami-2026-cedec-pokerig.md",
+   "on_site": "2026-07-23-interview-denfami-2026-cedec-pokerig.md（报道） / 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck.md（讲演资料本体）",
    "pokemon_related": true
   },
   {

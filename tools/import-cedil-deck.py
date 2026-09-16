@@ -64,6 +64,9 @@ def session(cedil_id):
 
 # ---------------------------------------------------------------- deck
 def slides(pdf_path):
+    """Each page's text lines, plus the font size of its largest type and
+    whether the page is one full-bleed picture (a notes export: the slide as
+    an image with the presenter's script beside it)."""
     doc = pymupdf.open(str(pdf_path))
     out = []
     for i, page in enumerate(doc):
@@ -78,21 +81,45 @@ def slides(pdf_path):
                 lines[-1] = lines[-1] + " " + l
             else:
                 lines.append(l)
-        out.append({"n": i + 1, "lines": lines})
-    return doc, out
+        sizes = [round(sp["size"]) for b in page.get_text("dict")["blocks"] if b.get("type") == 0
+                 for ln in b["lines"] for sp in ln["spans"] if sp["text"].strip()]
+        out.append({"n": i + 1, "lines": lines, "top": max(sizes) if sizes else 0, "small": max(sizes) <= 13 if sizes else False})
+    # the deck's usual title size: what most pages' largest type is
+    tops = [s["top"] for s in out if s["top"]]
+    title_size = max(set(tops), key=tops.count) if tops else 0
+    notes = sum(1 for s in out if s["small"]) >= 0.6 * max(1, sum(1 for s in out if s["lines"]))
+    return doc, out, title_size, notes
 
 
-def classify(slide, agenda):
-    """heading for a section-divider slide (its first line is an agenda entry
-    and nothing else is on it), a sub-heading when a second line names the
-    part, skip for a blank one, else body."""
+def classify(slide, agenda, title_size):
+    """heading for a section-divider slide - a lone line set larger than the
+    deck's title size, or a lone line the agenda names; a sub-heading when
+    a second line names the part; skip for a blank one; else body."""
     lines = slide["lines"]
     if not lines:
         return "skip"
     first = lines[0]
+    if len(lines) == 1 and len(first) <= 40 and slide["top"] > title_size:
+        return "heading"
     if len(lines) <= 3 and len(" ".join(lines)) <= 70 and any(a and (a in first or first in a) for a in agenda):
         return "heading" if len(lines) == 1 else "subheading"
     return "body"
+
+
+SCRIPT_HEAD = re.compile(r"^ここからは[、，]?(.+?)(?:について|を)(?:説明|紹介|お話し|ご紹介|見て)")
+
+
+def script_text(lines):
+    """A presenter's script wrapped hard at the notes-pane width: a line that
+    does not end a sentence continues on the next one; a stage direction
+    (★, ※) stands on its own."""
+    out = []
+    for l in lines:
+        if out and not re.search(r"(?:[。！？!?」』）)】]|です|ます|でした|ました|ません|でしょう)$", out[-1]) and not re.match(r"^[★※●]", l) and not re.match(r"^[★※●]", out[-1]):
+            out[-1] += l
+        else:
+            out.append(l)
+    return "\n".join(out)
 
 
 def slide_markdown(lines):
@@ -115,18 +142,25 @@ def slide_markdown(lines):
     return "\n".join(out)
 
 
-def build_items(doc, deck, meta, slug, dry):
+def build_items(doc, deck, meta, slug, dry, title_size=0, notes=False):
     agenda = []
     for s in deck[:8]:
-        if any(l.startswith("目次") or l == "アジェンダ" or l.lower() == "agenda" for l in s["lines"]):
+        if any(l.startswith("目次") or l == "アジェンダ" or l.lower() == "agenda" or l == "本日の内容" for l in s["lines"]):
             agenda = [re.sub(r"^\d+[.．)]\s*", "", l).strip() for l in s["lines"] if re.match(r"^\d+[.．)]", l)]
             agenda = [re.sub(r"の紹介と課題$|と課題$", "", a) for a in agenda] + agenda
     items, dest = [], IMG_DIR / slug
     for s in deck:
-        kind = classify(s, agenda)
+        kind = classify(s, agenda, title_size)
+        if notes:
+            # a notes export: the page is the slide, the text is what was said over it
+            kind = "skip" if not s["lines"] and s["n"] > 1 else "body"
+            if kind == "body" and s["lines"]:
+                m = SCRIPT_HEAD.match(s["lines"][0])
+                if m:
+                    items.append({"type": "heading", "level": 2, "original": m.group(1).strip(), "_slide": s["n"]})
         if kind == "skip":
             continue
-        text = slide_markdown(s["lines"])
+        text = slide_markdown(s["lines"]) if not notes else script_text(s["lines"])
         if kind == "heading":
             items.append({"type": "heading", "level": 2, "original": s["lines"][0], "_slide": s["n"]})
             continue
@@ -146,7 +180,8 @@ def build_items(doc, deck, meta, slug, dry):
             items.append({"type": "image", "image": "/" + out.relative_to(ROOT).as_posix(), "alt": f"{meta['title']} - 第{s['n']}页", "_slide": s["n"]})
         else:
             items.append({"type": "image", "image": f"slide-{s['n']:02d}.jpg", "_slide": s["n"]})
-        items.append({"original": text, "_slide": s["n"]})
+        if text.strip():
+            items.append({"original": text, "_slide": s["n"]})
     return items
 
 
@@ -196,7 +231,7 @@ def cover(meta, items):
     return json.loads(deepseek([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=1500))
 
 
-def write_post(meta, items, cov, slug, pdf_name):
+def write_post(meta, items, cov, slug, pdf_name, notes=False):
     year = meta["date"][:4]
     people = [s["name"].replace(" ", "") for s in meta["speakers"]]
     orgs = sorted({s["org"] for s in meta["speakers"]})
@@ -223,7 +258,7 @@ def write_post(meta, items, cov, slug, pdf_name):
         "original_lang": "ja",
         "translation_lang": "zh-CN",
         "source": {"title": meta["title"], "url": meta["url"], "language": "ja", "source_type": "conference_slides",
-                   "file": pdf_name, "access": "CEDiL 免费注册后可下载"},
+                   "file": pdf_name, "access": "CEDiL 免费注册后可下载", "text_is": "讲者备注稿（発表原稿）" if notes else "幻灯片文字"},
         "original_link": meta["url"],
         "summary": cov.get("summary") or None,
         "session_abstract": meta["abstract"],
@@ -249,8 +284,9 @@ if __name__ == "__main__":
         print(f"   {s['name']} ({s['org']} {s['dept']} {s['role']})")
     slug_key = re.sub(r"[^a-z0-9]+", "-", (args[2] if len(args) > 2 else f"cedil-{cedil_id}").lower()).strip("-")
     slug = f"{meta['date']}-interview-{slug_key}"
-    doc, deck = slides(pdf)
-    items = build_items(doc, deck, meta, slug, dry)
+    doc, deck, title_size, notes = slides(pdf)
+    print(f"   title size {title_size}pt; {'notes export - text is the presenter script' if notes else 'slide text'}")
+    items = build_items(doc, deck, meta, slug, dry, title_size, notes)
     n_h = sum(1 for x in items if x.get("type") == "heading"); n_i = sum(1 for x in items if x.get("type") == "image")
     print(f"   {len(deck)} slides -> {len(items)} items: {n_h} headings, {n_i} figures, {len(items) - n_h - n_i} text")
     if dry:
@@ -261,4 +297,4 @@ if __name__ == "__main__":
         sys.exit()
     items = translate(items, meta, load_glossary())
     cov = cover(meta, items)
-    print("   wrote", write_post(meta, items, cov, slug, pdf.name).relative_to(ROOT))
+    print("   wrote", write_post(meta, items, cov, slug, pdf.name, notes).relative_to(ROOT))
