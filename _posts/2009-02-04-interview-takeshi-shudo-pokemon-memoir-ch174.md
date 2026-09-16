@@ -352,8 +352,7 @@ parallel_items:
   translation: ミュウツーが、自分が生み出したコピーポケモンと本物のポケモンの戦いの末に感じたものは、もっと大きかったかもしれない。
 ---
 
-{% include era-skin.html %}
-
-<div class="parallel-translation-container">
-{% include parallel-view.html items=page.parallel_items %}
-</div>
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 174
+{%- endcomment -%}

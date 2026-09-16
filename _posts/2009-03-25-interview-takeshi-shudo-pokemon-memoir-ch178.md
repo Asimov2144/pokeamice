@@ -54,10 +54,8 @@ entities:
   - 任天堂
   - Game Freak
   - 东京电视台
----
-
 lead: 在小田原冰冷刺骨的海风中，初代总编剧首藤刚志做出了全系列史上最壮烈、最具颠覆性的剧作决断：既然我受邀担任系列构成，我就绝不充当商业对战游戏的克隆应声虫！哪怕彻底颠覆战斗本身的合理性，我也必须写出连自己的灵魂都能由衷信服的奇迹高潮！
-items:
+parallel_items:
 - type: heading
   level: 2
   original: 第178回　『ポケモン』映画版は自分が納得できるもので……
@@ -350,3 +348,9 @@ items:
 - type: paragraph
   original: では、次回、そのクライマックスについて書いてみようと思う。
   translation: 那么，在下一回里，我就来好好聊聊那个最终成型的高潮场景吧。
+---
+
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 178
+{%- endcomment -%}

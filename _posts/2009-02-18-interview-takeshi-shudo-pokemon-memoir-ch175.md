@@ -217,8 +217,7 @@ parallel_items:
   translation: 为了阻遏梦幻与超梦那场已沦为互相残杀的疯狂决斗，小智毅然决然冲入了战场中央，用自己的血肉之躯硬生生承受了两大至尊神兽的毁灭能量，瞬间石化成冷硬的石雕，轰然倒在冰冷地板上的那一刻——故事真正的灵魂，自此彻底爆发了。
 ---
 
-{% include era-skin.html %}
-
-<div class="parallel-translation-container">
-{% include parallel-view.html items=page.parallel_items %}
-</div>
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 175
+{%- endcomment -%}

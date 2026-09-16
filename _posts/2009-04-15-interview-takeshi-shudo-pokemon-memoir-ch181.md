@@ -58,10 +58,8 @@ entities:
   - Game Freak
   - 东京电视台
   - 华纳兄弟
----
-
 lead: 在好莱坞大银幕上，全屏赫然打出了“WRITTEN BY TAKESHI SHUDO”的作者级单独致敬；然而在公映前夜的日本本土，首藤刚志面对的却是制作高层“拍出如此阴暗压抑的垃圾、简直自寻死路”的唾骂风暴。面对外界汹涌的否定，首藤淡淡地开解自己：“砍掉我‘首藤’的脖子，剩下的不过是一具空洞残躯罢了。作为编剧该做的我已经全部做完，剩下的爱怎样怎样吧！”——带着这般洗颈待戮的绝望，他迎来了改写全日本影史票房奇迹的破晓时刻！
-items:
+parallel_items:
 - type: heading
   level: 2
   original: 第181回　『ミュウツーの逆襲』前夜
@@ -403,3 +401,9 @@ items:
 - type: paragraph
   original: 正直言ってびっくり仰天の結果になった。
   translation: 对于亲历过那个狂暴时代的每一位见证者而言，那一幕至今想必依然深深烙印在记忆的最深处吧。
+---
+
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 181
+{%- endcomment -%}

@@ -311,8 +311,7 @@ parallel_items:
   translation: 到底该如何破局？——生平罕见地，我整整一天放下了手中的键盘，独自一人静静枯坐在小田原冰冷的海滩前，凝视着眼前白浪翻滚的浩瀚大海，陷入了前所未有的漫长沉思。
 ---
 
-{% include era-skin.html %}
-
-<div class="parallel-translation-container">
-{% include parallel-view.html items=page.parallel_items %}
-</div>
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 177
+{%- endcomment -%}

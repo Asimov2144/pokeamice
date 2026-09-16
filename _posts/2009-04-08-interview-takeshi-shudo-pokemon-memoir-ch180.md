@@ -54,10 +54,8 @@ entities:
   - 任天堂
   - Game Freak
   - 东京电视台
----
-
 lead: “宝可梦的眼泪究竟代表着什么？超梦为何必须将全员记忆无情抹去？”首藤刚志以近乎手术刀般的剖析，揭开了影史最为震撼的真相：那不是弱者的廉价眼泪，而是全生灵因自相残杀而痛失至宝时、由物种本质共振出的“纯粹丧失感”！而结尾的全员失忆，绝非回归TV日常的商业妥协，更是超梦为了守护克隆同胞免遭凡俗偏见屠戮的悲壮避难所——直到它能堂堂正正宣告“我就在这里”的那一天！
-items:
+parallel_items:
 - type: heading
   level: 2
   original: 第180回　ポケモンの涙とミュウツーの記憶抹消
@@ -409,3 +407,9 @@ items:
 - type: paragraph
   original: 製作上層部から直しの注文が続々出そうな気配だった。
   translation: 制作高层勒令大修大改的如山指令，眼看就要连绵不绝地砸在我的桌案前。我与《逆袭》的命运，即将迎面撞上最为惊心动魄的生死转折。
+---
+
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 180
+{%- endcomment -%}

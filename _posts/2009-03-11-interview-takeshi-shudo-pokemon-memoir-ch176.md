@@ -237,8 +237,7 @@ parallel_items:
   translation: 顺带一提，本专栏这通篇毕恭毕敬的“です・ます”敬语体裁，我打算仅在这一回破例使用，下不为例。
 ---
 
-{% include era-skin.html %}
-
-<div class="parallel-translation-container">
-{% include parallel-view.html items=page.parallel_items %}
-</div>
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 176
+{%- endcomment -%}

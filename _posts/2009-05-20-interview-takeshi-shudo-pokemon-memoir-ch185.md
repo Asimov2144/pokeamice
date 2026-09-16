@@ -58,10 +58,8 @@ entities:
   - 任天堂
   - Game Freak
   - 东京电视台
----
-
 lead: “小刚被强行踢出主角团的真正原因，竟然是眯眯眼太像亚洲人？！”首藤刚志以怒不可遏的笔触揭开了《洛奇亚爆诞》前夕最耸人听闻的业界荒唐秘辛：高层自作聪明地以“西方人讨厌东洋人面孔”为由暴力开除小刚，首藤痛骂提出这一主意的官僚“简直是个彻头彻尾的大白痴”！加之金银游戏跳票导致的“橘子群岛”救场大漂流、以及为了照料牛顿居里夫人先锋音乐剧而公然拒绝赌城犒劳激怒巨头御前大人——在核心班底被腰斩的绝境中，首藤被逼上了悬崖边缘！
-items:
+parallel_items:
 - type: heading
   level: 2
   original: 第185回　『ポケモン』映画２作目へ
@@ -402,3 +400,9 @@ items:
 - type: paragraph
   original: タケシの不在に、一時、僕は途方にくれた。
   translation: 骤然失去了小刚这一不可或缺的灵魂支柱，在一时间，我彻底陷入了走投无路的彷徨与绝望之中。
+---
+
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 185
+{%- endcomment -%}

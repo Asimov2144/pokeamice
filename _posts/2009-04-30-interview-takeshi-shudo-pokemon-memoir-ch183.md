@@ -54,10 +54,8 @@ entities:
   - 任天堂
   - Game Freak
   - 英国国教会
----
-
 lead: “《超梦的逆袭》彻底让我心力交瘁……”在全美夺冠、本土狂揽80亿的万丈霞光背后，初代总编剧首藤刚志吐露了他一生中最让人心酸的崩溃独白：高层将胜利归功于“宣扬生命尊严”的漂亮假话，同行冷笑“全凭皮卡丘是摇钱树”；而在大洋彼岸，英国国教会神学高官竟向全教会呈递报告、盛赞小智复活体现了“基督自我牺牲与救赎”的至高神学精义！在烟酒禁令与市售精神安定药片的双重麻醉下，首藤在虚无的高峰痛苦自问：“我究竟算是个什么东西？！”
-items:
+parallel_items:
 - type: heading
   level: 2
   original: 第183回　『ミュウツーの逆襲』疲れました。
@@ -363,3 +361,9 @@ items:
 - type: paragraph
   original: 参考になればうれしいと思う。
   translation: 若能对大家的创作提供哪怕一星半点的灵感参考，我便不胜荣幸。
+---
+
+{%- comment -%}
+Takeshi Shudo Anime Memoir Serialization on WEB Anime Style
+Chapter 183
+{%- endcomment -%}
