@@ -5,6 +5,16 @@ sidebar:
 ---
 
 {{ content }}
+{%- comment -%}
+  jekyll-paginate (paginate: 5 in _config.yml) writes this layout again for /page2/ … /page209/,
+  208 copies of a page that never reads the paginator. Each copy is one line pointing home,
+  so the dashboard - the cards, the counts, the analytics - is rendered once per build.
+{%- endcomment -%}
+{% if paginator and paginator.page > 1 %}
+<link rel="canonical" href="{{ '/' | absolute_url }}">
+<meta http-equiv="refresh" content="0; url={{ '/' | relative_url }}">
+<p class="home-paginated-stub">这一页没有内容，请回到<a href="{{ '/' | relative_url }}">首页</a>。</p>
+{% else %}
 
 {% assign all_posts = site.posts %}
 {% assign docs_posts = site.posts | where_exp: "post", "post.categories contains '文档'" %}
@@ -79,7 +89,7 @@ sidebar:
     </nav>
 
     <section class="home-section home-overview is-active" id="overview">
-      {% include home-archive-desk.html %}
+      {% include home-front.html %}
       {% comment %}
       <div class="section-heading">
         <p class="section-kicker">Overview</p>
@@ -473,35 +483,7 @@ sidebar:
     </nav>
 
     <div class="sidebar-context active" data-sidebar-context="overview recent-updates">
-      <section class="sidebar-panel sidebar-panel--search">
-        <h2>站内查找</h2>
-        <form class="sidebar-search-mini" action="{{ '/search/' | relative_url }}" method="get" role="search">
-          <input type="search" name="q" placeholder="搜索人物、作品、主题..." autocomplete="off">
-          <button type="submit"><i class="fas fa-search" aria-hidden="true"></i><span>搜索</span></button>
-        </form>
-        <div class="sidebar-tool-grid sidebar-tool-grid--compact">
-          <a href="{{ '/search/' | relative_url }}?type=%E8%AE%BF%E8%B0%88%E7%BF%BB%E8%AF%91">
-            <strong>访谈翻译</strong>
-            <span>{{ interview_posts | size }} 篇</span>
-          </a>
-          <a href="{{ '/gamefreak-director/' | relative_url }}">
-            <strong>部长专栏</strong>
-            <span>{{ gf_masuda_posts | size }} 篇</span>
-          </a>
-        </div>
-      </section>
-
-      <section class="sidebar-panel">
-        <h2>按主题浏览</h2>
-        <div class="sidebar-topic-cloud">
-          {% for tag in site.tags limit:16 %}
-            <a href="{{ '/tags/' | relative_url }}{{ tag[0] | slugize }}">
-              <span>{{ tag[0] }}</span>
-              <strong>{{ tag[1].size }}</strong>
-            </a>
-          {% endfor %}
-        </div>
-      </section>
+      {% include home-dimensions.html %}
 
       <section class="sidebar-panel">
         <h2>资料索引</h2>
@@ -542,33 +524,6 @@ sidebar:
             <span>{{ gf_staff_posts | size }} 篇日志</span>
           </a>
         </div>
-      </section>
-
-      <section class="sidebar-panel">
-        <h2>推荐阅读</h2>
-        <ul class="sidebar-link-list sidebar-link-list--ranked">
-          {% if latest_doc %}
-            <li><a href="{{ latest_doc.url | relative_url }}"><span>文档</span>{{ latest_doc.title }}</a></li>
-          {% endif %}
-          {% if latest_interview %}
-            <li><a href="{{ latest_interview.url | relative_url }}"><span>访谈</span>{{ latest_interview.title }}</a></li>
-          {% endif %}
-          {% if latest_scan %}
-            <li><a href="{{ latest_scan.url | relative_url }}"><span>扫描</span>{{ latest_scan.title }}</a></li>
-          {% endif %}
-          {% if latest_gf_director %}
-            <li><a href="{{ latest_gf_director.url | relative_url }}"><span>增田顺一博客</span>{{ latest_gf_director.title }}</a></li>
-          {% endif %}
-          {% if latest_gf_art %}
-            <li><a href="{{ latest_gf_art.url | relative_url }}"><span>杉森建</span>{{ latest_gf_art.title }}</a></li>
-          {% endif %}
-          {% if latest_gf_staff %}
-            <li><a href="{{ latest_gf_staff.url | relative_url }}"><span>员工博客</span>{{ latest_gf_staff.title }}</a></li>
-          {% endif %}
-          {% if latest_post %}
-            <li><a href="{{ latest_post.url | relative_url }}"><span>最新</span>{{ latest_post.title }}</a></li>
-          {% endif %}
-        </ul>
       </section>
     </div>
 
@@ -1908,3 +1863,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 }());
 </script>
+<script>window.pokeamicePeopleBase = {{ "/people/" | relative_url | jsonify }};</script>
+<script src="{{ '/assets/js/catalogue.js' | relative_url }}" defer></script>
+{% endif %}

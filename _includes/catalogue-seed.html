@@ -1,0 +1,94 @@
+{%- comment -%}
+The catalogue as JSON: one object per searchable post - kind, cover, dek, topics,
+people with the portrait taken for that entry, works with their icons, publication,
+pages, proofreading state. The search page inlines it; the home page fetches it from
+/assets/js/catalogue.json; both draw the same cards with assets/js/catalogue.js.
+{%- endcomment -%}
+{% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
+  {% for post in searchable_posts %}
+    {% assign archive_type = post.archive_type | default: post.resource_type %}
+    {% assign type_label = archive_type %}
+    {% if type_label == "interview_translation" %}
+      {% assign type_label = "访谈翻译" %}
+    {% elsif type_label == "scan_translation" %}
+      {% assign type_label = "扫描翻译" %}
+    {% elsif type_label == "gamefreak_director_column" or type_label == "gamefreak_masuda_lineblog" or type_label == "gamefreak_legacy_blog" %}
+      {% assign type_label = "Game Freak 博客" %}
+    {% elsif type_label == nil or type_label == "" %}
+      {% if post.categories contains "访谈翻译" %}
+        {% assign type_label = "访谈翻译" %}
+      {% elsif post.categories contains "文档" %}
+        {% assign type_label = "文档" %}
+      {% else %}
+        {% assign type_label = "文章" %}
+      {% endif %}
+    {% endif %}
+    {% assign source_title = post.source.title | default: post.publication | default: post.source.publication | default: "" %}
+    {% assign search_title = post.gf_entry_title | default: post.gf_translation_title | default: post.title %}
+    {% assign search_excerpt = post.gf_translation_summary | default: post.summary | default: post.excerpt %}
+    {% assign search_body = post.content | strip_html | strip_newlines | remove: "中文译稿已完成校对" | remove: "译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。" %}
+    {%- comment -%}
+      The card's picture: a scan's first plate (its cover), else the post's own image, else
+      the first picture in a web interview's body. Nothing is fetched at search time.
+    {%- endcomment -%}
+    {% assign cover = post.image | default: post.featured_image | default: "" %}
+    {% assign pages = 0 %}
+    {% if post.translation_segments %}
+      {% assign plates = post.translation_segments | where: "type", "image" %}
+      {% assign pages = plates.size %}
+      {% if plates.first.image %}{% assign cover = plates.first.image %}{% endif %}
+    {% elsif cover == "" and post.parallel_items %}
+      {% assign pics = post.parallel_items | where: "type", "image" %}
+      {% if pics.first.image %}{% assign cover = pics.first.image %}{% endif %}
+    {% endif %}
+    {% assign card_kind = "article" %}
+    {% if archive_type == "scan_translation" %}{% assign card_kind = "scan" %}
+    {% elsif post.layout == "interview-editorial" or post.layout == "parallel-translation" %}{% assign card_kind = "interview" %}
+    {% elsif post.layout == "gamefreak-director" or post.layout == "gamefreak-legacy-blog" %}{% assign card_kind = "blog" %}{% endif %}
+    {% if post.categories contains "杂志特辑" %}{% assign card_kind = "feature" %}{% endif %}
+    {% assign proof = post.workflow.proofreading | default: "" %}
+    {%- comment -%} work icons from _data/works.yml, parallel to entities.works {%- endcomment -%}
+    {% assign work_icons = "" | split: "" %}
+    {% for w in post.entities.works %}
+      {% assign wi = site.data.works | where: "name", w | first %}
+      {% if wi.icon %}{% assign pair = wi.icon | append: "|" | append: wi.icon2 %}{% assign work_icons = work_icons | push: pair %}
+      {% elsif wi.color %}{% assign swatch = "color:" | append: wi.color | append: "|" | append: wi.color2 | default: wi.color %}{% assign work_icons = work_icons | push: swatch %}
+      {% else %}{% assign work_icons = work_icons | push: "" %}{% endif %}
+    {% endfor %}
+    {%- comment -%} portraits from _data/people.yml, one per name - the one taken for this entry when there is one, "" when there is none {%- endcomment -%}
+    {% assign avatars = "" | split: "" %}
+    {% assign slugs = "" | split: "" %}
+    {% for who in post.entities.people %}
+      {% assign hit = site.data.people | where: "name", who | first %}
+      {% include person-avatar.html who=who post=post %}
+      {% assign avatars = avatars | push: pa_src %}
+      {% if hit.slug and hit.kind != "character" %}{% assign slugs = slugs | push: hit.slug %}{% else %}{% assign slugs = slugs | push: "" %}{% endif %}
+    {% endfor %}
+    {
+      "kind": "post",
+      "card": {{ card_kind | jsonify }},
+      "title": {{ search_title | jsonify }},
+      "display_title": {{ post.display_title | default: "" | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "excerpt": {{ search_excerpt | markdownify | strip_html | strip_newlines | truncate: 180 | jsonify }},
+      "dek": {{ post.dek | default: "" | jsonify }},
+      "body": {{ search_body | truncate: 1200 | jsonify }},
+      "date": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "year": {{ post.date | date: "%Y" | jsonify }},
+      "categories": {{ post.categories | jsonify }},
+      "tags": {{ post.tags | jsonify }},
+      "topics": {% if post.topics %}{{ post.topics | jsonify }}{% else %}[]{% endif %},
+      "people": {% if post.entities.people %}{{ post.entities.people | jsonify }}{% else %}[]{% endif %},
+      "avatars": {{ avatars | jsonify }},
+      "slugs": {{ slugs | jsonify }},
+      "work_icons": {{ work_icons | jsonify }},
+      "works": {% if post.entities.works %}{{ post.entities.works | jsonify }}{% else %}[]{% endif %},
+      "source": {{ source_title | jsonify }},
+      "publication": {{ post.publication | default: post.source.publication | default: "" | jsonify }},
+      "issue": {{ post.issue | default: "" | jsonify }},
+      "cover": {{ cover | jsonify }},
+      "pages": {{ pages }},
+      "proof": {{ proof | jsonify }},
+      "type": {{ type_label | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}

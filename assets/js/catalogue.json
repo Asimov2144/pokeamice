@@ -1,0 +1,7 @@
+---
+layout: null
+sitemap: false
+---
+[
+{% include_cached catalogue-seed.html %}
+]

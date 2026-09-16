@@ -1,7 +1,8 @@
 {%- comment -%}
 One entry of the library as a card - the same card the search page draws in
 the browser, rendered here at build time for the person pages: cover, kind
-and publication, title, summary, works, date. Pass `card_post`.
+and publication, title, summary, people, works, date. Pass `card_post`; `compact=true`
+leaves out the summary and the topics (the home page packs its cards).
 {%- endcomment -%}
 {% assign cp = include.card_post %}
 {% assign card_type = "文章" %}
@@ -21,22 +22,31 @@ and publication, title, summary, works, date. Pass `card_post`.
   {% if card_pics.first.image %}{% assign card_cover = card_pics.first.image %}{% endif %}
 {% endif %}
 {% assign card_pub = cp.publication | default: cp.source.publication | default: cp.source.title | default: "" %}
-{% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | strip_html | strip_newlines | truncate: 180 %}
-<article class="search-result-card search-result-card--{{ card_kind }}">
+{% if include.compact %}{% assign card_pub = card_pub | split: "（" | first | split: " (" | first %}{% endif %}
+{% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | default: "暂无摘要" | strip_html | strip_newlines | truncate: 180 %}
+<article class="search-result-card search-result-card--{{ card_kind }}{% if include.compact %} search-result-card--compact{% endif %}">
+  {% if include.compact %}<div class="search-result-card__side">{% endif %}
   {% if card_cover != "" %}
     <a class="search-result-card__cover" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt="" loading="lazy" decoding="async"></a>
   {% else %}
     <a class="search-result-card__cover search-result-card__cover--blank" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><span>{{ card_pub | split: "（" | first | truncate: 12, "" }}</span><small>{{ cp.date | date: "%Y" }}</small></a>
   {% endif %}
+  {% if include.compact %}
+    {%- comment -%} the works as marks under the cover: the HOME icon (both versions), else the version colours {%- endcomment -%}
+    {% if cp.entities.works %}<div class="search-result-card__marks">{% for w in cp.entities.works limit: 4 %}{% assign wi = site.data.works | where: "name", w | first %}{% assign wshort = w | remove_first: "宝可梦 " | remove_first: "宝可梦：" | remove_first: "Pokémon " %}{% if wi.icon %}<span class="is-mark" title="{{ w }}"><img src="{{ wi.icon }}" alt="{{ w }}" loading="lazy">{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% elsif wi.color %}<span class="is-mark is-mark--swatch" title="{{ w }}" style="background: linear-gradient(135deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"><b>{{ wshort | slice: 0, 2 }}</b></span>{% else %}<span class="is-mark is-mark--text" title="{{ w }}">{{ wshort | slice: 0, 2 }}</span>{% endif %}{% endfor %}</div>{% endif %}
+  </div>
+  {% endif %}
   <div class="search-result-card__body">
     <div class="search-result-card__kicker"><span>{{ card_type }}</span>{% if card_pub != "" %}<span>{{ card_pub }}{% if cp.issue %} {{ cp.issue }}{% endif %}</span>{% endif %}</div>
     <h2><a href="{{ cp.url | relative_url }}">{{ cp.title }}</a></h2>
-    <p>{{ card_lead }}</p>
-    {% if cp.entities.works %}
+    {% unless include.compact %}<p>{{ card_lead }}</p>{% endunless %}
+    {% if cp.entities.people or cp.entities.works %}
       <div class="search-result-card__tags">
-        {% for w in cp.entities.works limit: 3 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% endfor %}
+        {% for who in cp.entities.people limit: 4 %}{% include person-avatar.html who=who post=cp %}{% assign pe = pa_hit %}{% if pe.slug and pe.kind != "character" and pe.kind != "figure" %}<a class="is-person{% if pa_src != "" %} has-avatar{% endif %}" href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}">{% else %}<span class="is-person{% if pa_src != "" %} has-avatar{% endif %}">{% endif %}{% if pa_src != "" %}<img src="{{ pa_src | relative_url }}" alt="" loading="lazy">{% endif %}{{ who }}{% if pe.slug and pe.kind != "character" and pe.kind != "figure" %}</a>{% else %}</span>{% endif %}{% endfor %}
+        {% unless include.compact %}{% for w in cp.entities.works limit: 3 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work{% if wi.icon %} has-icon{% elsif wi.color %} has-swatch{% endif %}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy">{% endif %}</span>{% endfor %}{% endunless %}
       </div>
     {% endif %}
+    {% if cp.topics and include.compact != true %}<div class="search-result-card__topics">{% for tp in cp.topics limit: 4 %}<span class="is-topic">{{ tp }}</span>{% endfor %}</div>{% endif %}
     <div class="search-result-card__facts">{% if card_pages > 0 %}<span>{{ card_pages }} 页扫描</span>{% endif %}<span>{{ cp.date | date: "%Y-%m-%d" }}</span>{% if cp.workflow.proofreading %}<span>{% if cp.workflow.proofreading contains "pending" or cp.workflow.proofreading contains "machine" or cp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}</span>{% endif %}</div>
   </div>
 </article>

@@ -1,0 +1,101 @@
+{%- comment -%}
+The library's dimensions as filters: every year as a bar, the most-covered
+people with their portraits, the most-discussed works with their icons, the
+content types. Each control carries data-dim / data-value and sets the
+catalogue's matching filter (assets/js/catalogue.js). Rendered twice on the
+home page from one count: `strip=true` gives the horizontal chip rows shown
+under 900px, the plain call gives the sidebar panel shown beside the cards.
+{%- endcomment -%}
+{% unless dims_ready %}
+  {% assign dims_posts = site.posts | where_exp: "post", "post.search != false" %}
+  {% assign dims_by_year = dims_posts | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
+  {% assign dims_year_max = 1 %}
+  {% for g in dims_by_year %}{% if g.items.size > dims_year_max %}{% assign dims_year_max = g.items.size %}{% endif %}{% endfor %}
+  {%- comment -%} every mention, one buffer, then one sort and a run count per name {%- endcomment -%}
+  {% capture dims_people_buf %}{% for post in dims_posts %}{% for n in post.entities.people %}{{ n }}|{% endfor %}{% endfor %}{% endcapture %}
+  {% capture dims_works_buf %}{% for post in dims_posts %}{% for w in post.entities.works %}{{ w }}|{% endfor %}{% endfor %}{% endcapture %}
+  {% assign dims_people_sorted = dims_people_buf | split: "|" | sort %}
+  {% assign dims_works_sorted = dims_works_buf | split: "|" | sort %}
+  {% assign dims_people_keys = "" | split: "" %}
+  {% assign prev = "" %}{% assign n = 0 %}
+  {% for name in dims_people_sorted %}
+    {% if name == prev %}{% assign n = n | plus: 1 %}{% continue %}{% endif %}
+    {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "|" | append: prev %}{% assign dims_people_keys = dims_people_keys | push: key %}{% endif %}
+    {% assign prev = name %}{% assign n = 1 %}
+  {% endfor %}
+  {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "|" | append: prev %}{% assign dims_people_keys = dims_people_keys | push: key %}{% endif %}
+  {% assign dims_people_keys = dims_people_keys | sort | reverse %}
+  {%- comment -%} the registry decides who is a person: characters and cited figures fall out {%- endcomment -%}
+  {% assign dims_people_real = "" | split: "" %}
+  {% for k in dims_people_keys %}
+    {% assign parts = k | split: "|" %}
+    {% assign pe = site.data.people | where: "name", parts[1] | first %}
+    {% if pe == nil or pe.kind == "character" or pe.kind == "figure" %}{% continue %}{% endif %}
+    {% assign dims_people_real = dims_people_real | push: k %}
+    {% if dims_people_real.size >= 14 %}{% break %}{% endif %}
+  {% endfor %}
+  {% assign dims_people_keys = dims_people_real %}
+  {% assign dims_works_keys = "" | split: "" %}
+  {% assign prev = "" %}{% assign n = 0 %}
+  {% for name in dims_works_sorted %}
+    {% if name == prev %}{% assign n = n | plus: 1 %}{% continue %}{% endif %}
+    {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "|" | append: prev %}{% assign dims_works_keys = dims_works_keys | push: key %}{% endif %}
+    {% assign prev = name %}{% assign n = 1 %}
+  {% endfor %}
+  {% if prev != "" %}{% assign key = n | prepend: "00000" | slice: -5, 5 | append: "|" | append: prev %}{% assign dims_works_keys = dims_works_keys | push: key %}{% endif %}
+  {% assign dims_works_keys = dims_works_keys | sort | reverse %}
+  {% assign dims_n_interview = dims_posts | where_exp: "p", "p.layout == 'interview-editorial' or p.layout == 'parallel-translation'" | size %}
+  {% assign dims_n_scan = dims_posts | where: "archive_type", "scan_translation" | size %}
+  {% assign dims_n_blog = dims_posts | where_exp: "p", "p.archive_type == 'gamefreak_director_column' or p.archive_type == 'gamefreak_masuda_lineblog' or p.archive_type == 'gamefreak_legacy_blog'" | size %}
+  {% assign dims_n_doc = dims_posts | where_exp: "p", "p.categories contains '文档'" | size %}
+  {% assign dims_ready = true %}
+{% endunless %}
+
+{% if include.strip %}
+<div class="front__dims" aria-label="按维度筛选">
+  <div class="front__dims-row front__dims-row--types">
+    <button type="button" data-dim="type" data-value="访谈翻译">访谈 <b>{{ dims_n_interview }}</b></button>
+    <button type="button" data-dim="type" data-value="扫描翻译">扫描 <b>{{ dims_n_scan }}</b></button>
+    <button type="button" data-dim="type" data-value="Game Freak 博客">GF 博客 <b>{{ dims_n_blog }}</b></button>
+    <button type="button" data-dim="type" data-value="文档">文档 <b>{{ dims_n_doc }}</b></button>
+  </div>
+  <div class="front__dims-row front__dims-row--years">
+    {% for g in dims_by_year reversed %}<button type="button" data-dim="year" data-value="{{ g.name }}">{{ g.name }}<b>{{ g.items.size }}</b></button>{% endfor %}
+  </div>
+  <div class="front__dims-row front__dims-row--people">
+    {% for k in dims_people_keys limit: 14 %}{% assign parts = k | split: "|" %}{% assign name = parts[1] %}{% assign pe = site.data.people | where: "name", name | first %}<button type="button" data-dim="person" data-value="{{ name }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="22" height="22">{% else %}<i>{{ name | slice: 0, 1 }}</i>{% endif %}{{ name }}<b>{{ parts[0] | plus: 0 }}</b></button>{% endfor %}
+  </div>
+  <div class="front__dims-row front__dims-row--works">
+    {% for k in dims_works_keys limit: 12 %}{% assign parts = k | split: "|" %}{% assign name = parts[1] %}{% assign wi = site.data.works | where: "name", name | first %}<button type="button" data-dim="work" data-value="{{ name }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="22" height="22">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ name | remove_first: "宝可梦 " }}<b>{{ parts[0] | plus: 0 }}</b></button>{% endfor %}
+  </div>
+</div>
+{% else %}
+<section class="sidebar-panel dims" aria-label="资料维度">
+  <h2>按年份 <a href="{{ '/timeline/' | relative_url }}">时间线</a></h2>
+  <div class="dims__years" role="group" aria-label="年份">
+    {% for g in dims_by_year %}{% assign pct = g.items.size | times: 100 | divided_by: dims_year_max %}{% if pct < 4 %}{% assign pct = 4 %}{% endif %}<button type="button" data-dim="year" data-value="{{ g.name }}" title="{{ g.name }} · {{ g.items.size }} 条"><i style="height: {{ pct }}%"></i><span>{{ g.name | slice: 2, 2 }}</span></button>{% endfor %}
+  </div>
+
+  <h2>人物 <a href="{{ '/people/' | relative_url }}">人物库</a></h2>
+  <ul class="dims__people">
+    {% for k in dims_people_keys limit: 12 %}{% assign parts = k | split: "|" %}{% assign name = parts[1] %}{% assign pe = site.data.people | where: "name", name | first %}
+    <li><button type="button" data-dim="person" data-value="{{ name }}">{% if pe.avatar %}<img src="{{ pe.avatar | relative_url }}" alt="" loading="lazy" width="28" height="28">{% else %}<i aria-hidden="true">{{ name | slice: 0, 1 }}</i>{% endif %}<span>{{ name }}</span><b>{{ parts[0] | plus: 0 }}</b></button><a href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}" title="{{ name }} 的人物页" aria-label="{{ name }} 的人物页">↗</a></li>
+    {% endfor %}
+  </ul>
+
+  <h2>作品 <a href="{{ '/entities/works/' | relative_url }}">全部作品</a></h2>
+  <ul class="dims__works">
+    {% for k in dims_works_keys limit: 10 %}{% assign parts = k | split: "|" %}{% assign name = parts[1] %}{% assign wi = site.data.works | where: "name", name | first %}
+    <li><button type="button" data-dim="work" data-value="{{ name }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="24" height="24">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}<span>{{ name }}</span>{% if wi.icon2 %}<img src="{{ wi.icon2 }}" alt="" loading="lazy" width="24" height="24">{% endif %}<b>{{ parts[0] | plus: 0 }}</b></button></li>
+    {% endfor %}
+  </ul>
+
+  <h2>类型</h2>
+  <div class="dims__types">
+    <button type="button" data-dim="type" data-value="访谈翻译">访谈翻译<b>{{ dims_n_interview }}</b></button>
+    <button type="button" data-dim="type" data-value="扫描翻译">扫描翻译<b>{{ dims_n_scan }}</b></button>
+    <button type="button" data-dim="type" data-value="Game Freak 博客">Game Freak 博客<b>{{ dims_n_blog }}</b></button>
+    <button type="button" data-dim="type" data-value="文档">文档<b>{{ dims_n_doc }}</b></button>
+  </div>
+</section>
+{% endif %}
