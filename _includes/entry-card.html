@@ -30,7 +30,8 @@ is a text card. The sizes come from _data/covers.yml (tools/build-cover-dims.py)
   {% if card_plates.first.image %}{% assign card_cover = card_plates.first.image %}{% endif %}
 {% elsif card_cover == "" and cp.parallel_items %}
   {% assign card_pics = cp.parallel_items | where: "type", "image" %}
-  {% if card_pics.first.image %}{% assign card_cover = card_pics.first.image %}{% endif %}
+  {% assign card_pic = card_pics.first.image | default: card_pics.first.src | default: card_pics.first.original | default: "" %}
+  {% if card_pic != "" %}{% assign card_cover = card_pic %}{% endif %}
 {% endif %}
 {% include cover-fallback.html post=cp cover=card_cover %}
 {% assign card_cover = cf_cover %}

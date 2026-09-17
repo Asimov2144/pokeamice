@@ -41,9 +41,12 @@ def front_matter(path):
 
 
 def first_image(items):
+    """the first picture row's path - kept as image, src or original, as the layouts read it"""
     for it in items or []:
-        if isinstance(it, dict) and it.get("type") == "image" and it.get("image"):
-            return it["image"]
+        if isinstance(it, dict) and it.get("type") == "image":
+            p = it.get("image") or it.get("src") or it.get("original")
+            if isinstance(p, str) and p:
+                return p
     return None
 
 
