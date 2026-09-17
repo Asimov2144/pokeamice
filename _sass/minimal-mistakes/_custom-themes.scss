@@ -43,7 +43,10 @@ body.theme-bg-white:not(.archive-reproduction-theme) {
   }
 }
 
-body.theme-bg-black:not(.archive-reproduction-theme) {
+// An era-skinned interview page (body[data-era], see _era-shell.scss) keeps its period's
+// light ground in the night theme on purpose - so the night theme's light headings and
+// links must not reach it, or the title goes white on white.
+body.theme-bg-black:not(.archive-reproduction-theme):not([data-era]) {
   background-color: #222 !important; // Body background for black theme
   color: #eddbdb !important; // Default text color on body for black theme
 
