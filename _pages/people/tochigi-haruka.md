@@ -7,8 +7,9 @@ permalink: /people/tochigi-haruka/
 aliases:
 - Haruka Tochigi
 - とちぎ はるか
-avatar: ''
-avatar_source: ''
+- H.T.
+avatar: /assets/img/people/tochigi-haruka.jpg
+avatar_source: GAME FREAK 採用 Crosstalk「デザイナー対談」2021 member-ht
 search: false
 sitemap: true
 ---

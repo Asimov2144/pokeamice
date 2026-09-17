@@ -80,7 +80,7 @@ shared script's view switching and note popovers work here too.
         </header>
 
     {% elsif item_type == "image" %}
-      {% assign src = item.image | default: item.src %}
+      {% assign src = item.image | default: item.src | default: item.replacement | default: item.original %}
       {% if src and item != hero %}
         {% assign fig = fig | plus: 1 %}
         <figure class="tf-figure" id="figure-{{ fig }}">

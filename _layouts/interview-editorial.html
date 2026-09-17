@@ -41,7 +41,7 @@ kept on the turns even though the presentation around them is new.
 {% unless page.hero == false %}
   {% for candidate in items %}
     {% if candidate.type == "image" %}
-      {% assign hero_path = candidate.image | default: candidate.src | default: "" | downcase %}
+      {% assign hero_path = candidate.image | default: candidate.src | default: candidate.replacement | default: candidate.original | default: "" | downcase %}
       {% unless hero_path contains ".gif" %}{% assign hero = candidate %}{% break %}{% endunless %}
     {% elsif candidate.role %}
       {% break %}
@@ -229,7 +229,7 @@ kept on the turns even though the presentation around them is new.
 
     {%- comment -%} The photograph is the cover, not an attachment. {%- endcomment -%}
     {% if hero %}
-      {% assign hero_src = hero.image | default: hero.src %}
+      {% assign hero_src = hero.image | default: hero.src | default: hero.replacement | default: hero.original %}
       <figure class="ed-hero">
         <img src="{{ hero_src | relative_url }}" alt="{{ hero.alt | default: hero.caption | default: page.title | escape }}" decoding="async">
         {% if hero.caption %}<figcaption>{{ hero.caption }}</figcaption>{% endif %}
@@ -260,7 +260,7 @@ kept on the turns even though the presentation around them is new.
 
         {% if item_type == "image" %}
           {% if item != hero %}
-            {% assign src = item.image | default: item.src %}
+            {% assign src = item.image | default: item.src | default: item.replacement | default: item.original %}
             {% if src %}
               <figure class="ed-figure">
                 <img src="{{ src | relative_url }}" alt="{{ item.alt | default: item.caption | default: page.title | escape }}" loading="lazy" decoding="async">

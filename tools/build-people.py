@@ -368,6 +368,8 @@ PORTRAITS = [
     dict(name="小野寺瞬", year=2023, main=True, src=_IA + "2023-04-19-interview-cgworld-2023-sv-making-1/004.jpg", box=(856, 60, 161, 161), source="CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）", post="2023-04-19-interview-cgworld-2023-sv-making-1"),
     dict(name="深谷卓", year=2023, main=True, src=_IA + "2023-04-19-interview-cgworld-2023-sv-making-1/004.jpg", box=(1564, 94, 164, 164), source="CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）", post="2023-04-19-interview-cgworld-2023-sv-making-1"),
     dict(name="中津井优", main=True, src="https://media.pocketmonsters.net/staff/10488/main.png", source="PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）"),
+    # GAME FREAK 採用 Crosstalk デザイナー対談 (2021): the page signs her H.T.; the CG director of Legends: Arceus, the director of Legends: Z-A
+    dict(name="栃木遥", year=2021, main=True, src=_IA + "2021-gamefreak-crosstalk-designer/member-ht.jpg", box=(100, 20, 350, 350), source="GAME FREAK 採用 Crosstalk「デザイナー対談」2021 member-ht", post="2021-12-27-interview-gamefreak-crosstalk-designer"),
     dict(name="武上纯希", main=True, src="https://lain.bgm.tv/pic/crt/l/f7/77/294_prsn_oZe70.jpg", source="Bangumi 番组计划 person/294"),
     dict(name="远藤雅伸", main=True, src="https://unavatar.io/x/evezoo", source="X @evezoo プロフィール写真（2026-09 取得）"),
     # the wikis - Bulbapedia's staff pages and the Nintendo Wiki on Fandom, when the site has nothing better

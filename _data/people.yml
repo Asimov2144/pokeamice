@@ -3350,11 +3350,19 @@
   - いくた じゅんや
 - name: 栃木遥
   slug: tochigi-haruka
-  kind: staff
   credits_key: haruka tochigi
   aliases:
   - Haruka Tochigi
   - とちぎ はるか
+  - H.T.
+  role: 《Pokémon LEGENDS Z-A》总监（原 CG 总监、3D 视觉部门总监）
+  portraits:
+  - image: /assets/img/people/tochigi-haruka-2021.jpg
+    year: 2021
+    source: GAME FREAK 採用 Crosstalk「デザイナー対談」2021 member-ht
+    post: 2021-12-27-interview-gamefreak-crosstalk-designer
+  avatar: /assets/img/people/tochigi-haruka.jpg
+  avatar_source: GAME FREAK 採用 Crosstalk「デザイナー対談」2021 member-ht
 - name: Masanori Kanamaru
   slug: kanamaru-masanori
   kind: staff
