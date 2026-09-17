@@ -347,11 +347,20 @@ def merge_pages(target):
 
 
 # ---------------------------------------------------------------- translate
+SITE_GLOSSARY = ROOT / "design" / "glossary-site.json"
+
+
 def load_glossary():
-    if not GLOSSARY.exists():
-        return []
-    data = json.loads(GLOSSARY.read_text(encoding="utf-8"))
-    return [{"target": e["target"], "terms": e.get("terms") or []} for e in data.get("entries", []) if e.get("target")]
+    """the site's own glossary (people, companies, dev jargon - design/glossary-site.json,
+    kept by tools/glossary-audit.py) first, then the master glossary of game terms"""
+    out = []
+    if SITE_GLOSSARY.exists():
+        site = json.loads(SITE_GLOSSARY.read_text(encoding="utf-8"))
+        out += [{"target": e["target"], "terms": e.get("terms") or [], "site": True} for e in site.get("entries", []) if e.get("target")]
+    if GLOSSARY.exists():
+        data = json.loads(GLOSSARY.read_text(encoding="utf-8"))
+        out += [{"target": e["target"], "terms": e.get("terms") or []} for e in data.get("entries", []) if e.get("target")]
+    return out
 
 
 def glossary_hits(text, glossary):
@@ -362,7 +371,9 @@ def glossary_hits(text, glossary):
             if len(term) >= 2 and not re.match(r"^[A-Za-z0-9 .\-]+$", term) and term in text:
                 hits[term] = e["target"]
                 break
-    return sorted(hits.items(), key=lambda kv: -len(kv[0]))[:80]
+    # the site's own terms come first when the list is cut
+    site_terms = {term for e in glossary if e.get("site") for term in e["terms"]}
+    return sorted(hits.items(), key=lambda kv: (kv[0] not in site_terms, -len(kv[0])))[:80]
 
 
 def deepseek(messages, max_tokens=6000):
