@@ -79,7 +79,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 今月の神サマ！---▶大村祐介さん Profile
-    translation: ""
+    translation: "本月的神大人！---▶大村祐介 简介"
   - speaker: body
     type: paragraph
     kind: text
@@ -100,7 +100,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イラストを描くようになったキッカケは？
-    translation: ""
+    translation: "开始画插画的契机是什么？"
   - speaker: body
     type: paragraph
     kind: text
@@ -121,7 +121,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Pocket Monsters BLACK·WHITE
-    translation: ""
+    translation: "Pocket Monsters BLACK·WHITE"
   - speaker: caption
     type: paragraph
     kind: text
@@ -152,7 +152,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 第27回character nokamisamaキャラ九計SPECIAL
-    translation: ""
+    translation: "第27回character nokamisama角色九计SPECIAL"
   - speaker: body
     type: paragraph
     kind: text
@@ -193,7 +193,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 多彩なキャラクターの描き分けのコツは?
-    translation: ""
+    translation: "区分描绘多样角色的诀窍是？"
   - speaker: body
     type: paragraph
     kind: text
@@ -234,7 +234,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: “『ポケモン』シリーズらしい”と思うデザインのポイントは?
-    translation: ""
+    translation: "认为“像《宝可梦》系列”的设计要点是？"
   - speaker: body
     type: paragraph
     kind: text
@@ -315,7 +315,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: キャラクター作りで一番大事なところは?
-    translation: ""
+    translation: "制作角色时最重要的是什么？"
   - speaker: body
     type: paragraph
     kind: text

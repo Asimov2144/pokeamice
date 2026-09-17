@@ -80,7 +80,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ここからは! 音 SOUNDS & MUSIC 伝統と革新が共存す 楽曲魂 がっきょくだましい 特別編 とくべつへん"
-    translation: ""
+    translation: "接下来！声音 SOUNDS & MUSIC 传统与革新共存 乐曲魂 特别篇"
   - speaker: "New \"Pokémon Sound\" soul special interview"
     type: heading
     kind: text
@@ -91,7 +91,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "New \"Pokémon Sound\" soul special interview"
-    translation: ""
+    translation: "New \"Pokémon Sound\" soul special interview"
   - speaker: body
     type: paragraph
     kind: text
@@ -112,7 +112,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 完全新作の サウンドリーダーの重責と喜び
-    translation: ""
+    translation: "完全新作的声音总监的重任与喜悦"
   - speaker: note
     type: paragraph
     kind: text
@@ -243,7 +243,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 景山将太さん
-    translation: ""
+    translation: "景山将太先生"
   - speaker: 株式会社GAME FREAK 《宝可梦 黑・白》 声音总监
     type: heading
     kind: text
@@ -254,7 +254,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 株式会社ゲームフリーク 『ポケットモンスターブラック・ホワイト』 サウンドリーダー
-    translation: ""
+    translation: "株式会社GAME FREAK 《宝可梦 黑·白》声音总监"
   - speaker: note
     type: paragraph
     kind: text
@@ -275,7 +275,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンセサイザー YAMAHA S90 ES
-    translation: ""
+    translation: "合成器 YAMAHA S90 ES"
   - speaker: caption
     type: paragraph
     kind: text
@@ -296,7 +296,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 景山さんの魂の逸品
-    translation: ""
+    translation: "景山先生的灵魂逸品"
   - speaker: 景山将太
     type: paragraph
     kind: text
@@ -327,7 +327,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト完全新作の音に込めた想い
-    translation: ""
+    translation: "ALL ABOUT 宝可梦 黑 宝可梦 白 完全新作的声音中倾注的想法"
   - speaker: 多种价值观与文化共存——合众地区
     type: heading
     kind: text
@@ -338,7 +338,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 多くの価値観・文化が共存する――イッシュ地方
-    translation: ""
+    translation: "多种价值观与文化共存——合众地区"
   - speaker: caption
     type: paragraph
     kind: text
@@ -359,7 +359,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームフリークサウンドチーム
-    translation: ""
+    translation: "GAME FREAK声音团队"
   - speaker: 景山将太
     type: paragraph
     kind: text
@@ -500,7 +500,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンブラック・ホワイト』が目指す「新たな音」を生んだ4つのテーマ
-    translation: ""
+    translation: "《宝可梦 黑·白》所追求的“新声音”孕育出的4个主题"
   - speaker: note
     type: paragraph
     kind: text
@@ -581,7 +581,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "開発終盤の忙しさで覚醒!? 半日で一気に書けたエンディング曲"
-    translation: ""
+    translation: "在开发末期的忙碌中觉醒！？半天一口气写完的片尾曲"
   - speaker: 景山将太
     type: paragraph
     kind: text
@@ -612,7 +612,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: サウンドチームやスタッフみんなのサポートと協力がほんとうに心強かったんです
-    translation: ""
+    translation: "声音团队和全体工作人员的支持与协作真的让我很安心"
   - speaker: image
     type: image
     kind: image
@@ -633,7 +633,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方の価値観の多彩さを表現する『ポケモン』だけの音
-    translation: ""
+    translation: "表现合众地区价值观多样性的《宝可梦》独有的声音"
   - speaker: note
     type: paragraph
     kind: text
@@ -834,7 +834,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スタッフ一丸となって完成させた「気づく」音の楽しさ
-    translation: ""
+    translation: "全体工作人员齐心协力完成的“察觉”声音的乐趣"
   - speaker: note
     type: paragraph
     kind: text
@@ -955,7 +955,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: プレイヤーの動きと連動インタラクティブサウンド
-    translation: ""
+    translation: "与玩家动作联动的互动声音"
   - speaker: body
     type: paragraph
     kind: text
@@ -1026,7 +1026,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "戦闘曲 橋へのこだわりディレクター 増田さんのこと!"
-    translation: ""
+    translation: "战斗曲 对桥的讲究 总监增田先生！"
   - speaker: ——在游戏业界提到“桥”，那就是增田先生。
     type: heading
     kind: text
@@ -1037,7 +1037,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ―― ゲーム業界で「橋」と言ったら増田さんです。
-    translation: ""
+    translation: "——在游戏业界提到“桥”就是增田先生。"
   - speaker: 景山将太
     type: paragraph
     kind: text
@@ -1378,7 +1378,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "気がついた? ヒウンシティでサウンドデザイナーを発見!? ぼく サウンドデザイナー!"
-    translation: ""
+    translation: "注意到了吗？在飞云市发现声音设计师！？我是声音设计师！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1439,7 +1439,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 大人から子どもまで楽しめる新たなドラマを新たな音が演出する
-    translation: ""
+    translation: "从大人到孩子都能享受的新剧情由新声音来演绎"
   - speaker: 最大限度表现剧本魅力的音乐之力
     type: heading
     kind: text
@@ -1450,7 +1450,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: シナリオの魅力を最大限に表現する音楽の力
-    translation: ""
+    translation: "最大限度表现剧本魅力的音乐之力"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1791,7 +1791,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 楽曲解説
-    translation: ""
+    translation: "乐曲解说"
   - speaker: body
     type: paragraph
     kind: text
@@ -1842,7 +1842,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 伝統と革新が混ざり合う 新たな物語への挑戦を終えて
-    translation: ""
+    translation: "传统与革新交融 结束对新故事的挑战"
   - speaker: note
     type: paragraph
     kind: text
@@ -2003,7 +2003,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「違いを受け入れる世界」と「今までにないもの」という大きなテーマを音で表現できたと思います
-    translation: ""
+    translation: "我认为用声音表现了“接纳差异的世界”和“前所未有之物”这一宏大主题"
 original_title: "ALL ABOUT ポケットモンスターブラック・ホワイト 音 SOUNDS & MUSIC：楽曲魂 特別編"
 topics:
   - 音乐制作

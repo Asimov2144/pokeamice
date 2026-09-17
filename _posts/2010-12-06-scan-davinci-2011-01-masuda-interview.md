@@ -169,7 +169,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター ブラックポケットモンスター ホワイト大人だって『ポケモン』が好き！構成・文＝野本由起
-    translation: ""
+    translation: "宝可梦 黑 宝可梦 白 大人也喜欢《宝可梦》！构成·文＝野本由起"
   - speaker: body
     type: paragraph
     kind: text
@@ -220,7 +220,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: つなげて広げるポケモンの世界！完全新作『ポケットモンスターブラック』『ポケットモンスターホワイト』 通信機能を大幅強化
-    translation: ""
+    translation: "连接并扩展的宝可梦世界！完全新作《宝可梦 黑》《宝可梦 白》 通信功能大幅强化"
   - speaker: body
     type: paragraph
     kind: text
@@ -251,7 +251,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: DS同士で
-    translation: ""
+    translation: "DS之间"
   - speaker: body
     type: paragraph
     kind: text
@@ -342,7 +342,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: PCで
-    translation: ""
+    translation: "用电脑"
   - speaker: body
     type: paragraph
     kind: text
@@ -364,7 +364,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモン一新！100種類以上の新ポケモン
-    translation: ""
+    translation: "宝可梦焕然一新！100种以上的新宝可梦"
   - speaker: caption
     type: paragraph
     kind: text
@@ -415,7 +415,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 最初に選べるのはこの3匹！ツタージャポカブミジュマル
-    translation: ""
+    translation: "最初可选的这3只！藤藤蛇 暖暖猪 水水獭"
   - speaker: body
     type: paragraph
     kind: text
@@ -436,7 +436,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 新たな舞台で伝説のポケモンを追う
-    translation: ""
+    translation: "在新舞台追寻传说的宝可梦"
   - speaker: body
     type: paragraph
     kind: text
@@ -477,7 +477,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター』をもっと楽しむためのBOOK＆DVD DVD
-    translation: ""
+    translation: "更深入享受《宝可梦》的BOOK＆DVD DVD"
   - speaker: body
     type: paragraph
     kind: text
@@ -508,7 +508,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: BOOK
-    translation: ""
+    translation: "BOOK"
   - speaker: body
     type: paragraph
     kind: text
@@ -619,7 +619,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 株式会社ゲームフリーク増田順一氏 スペシャルインタビュー『ポケットモンスターブラック・ホワイト』ヒットの理由
-    translation: ""
+    translation: "株式会社GAME FREAK 增田顺一 特别采访 《宝可梦 黑·白》大热的理由"
   - speaker: body
     type: paragraph
     kind: text
@@ -650,7 +650,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 開発初期から大人を意識してシナリオも大人向けに
-    translation: ""
+    translation: "从开发初期就意识到大人 剧情也面向大人"
   - speaker: body
     type: paragraph
     kind: text
@@ -712,7 +712,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 増田順一氏 愛読クリエーター必携ブックガイド
-    translation: ""
+    translation: "增田顺一 爱读创作者必备书单"
   - speaker: body
     type: paragraph
     kind: text

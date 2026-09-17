@@ -75,7 +75,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター金・銀かいはつスタッフずかん
-    translation: ""
+    translation: "宝可梦 金·银 开发人员图鉴"
   - speaker: body
     type: paragraph
     kind: text
@@ -486,7 +486,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ■巻末参考資料（ポケモンジャーナルより転載） ポケモン研究の現在
-    translation: ""
+    translation: "■卷末参考资料（转载自宝可梦期刊） 宝可梦研究的现状"
   - speaker: ──
     type: paragraph
     kind: text
@@ -577,7 +577,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「タマゴ研究に関する報告」
-    translation: ""
+    translation: "「关于蛋研究的报告」"
   - speaker: ──
     type: paragraph
     kind: text
@@ -828,7 +828,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「タマゴ研究に関する追加報告」
-    translation: ""
+    translation: "「关于蛋研究的追加报告」"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1101,7 +1101,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ■追加資料：ウツギ博士からオーキド博士に宛てた手紙の一部
-    translation: ""
+    translation: "■追加资料：空木博士致大木博士信件的一部分"
     comment: 空木博士是《宝可梦 金·银》中研究宝可梦蛋的博士。
   - speaker: body
     type: paragraph
@@ -1163,7 +1163,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1185,7 +1185,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: どうぐ
-    translation: ""
+    translation: "道具"
   - speaker: 通过「神秘礼物」获得的道具・装饰用品
     type: heading
     kind: text
@@ -1196,7 +1196,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: “ふしぎなおくりもの”で手に入るどうぐ・もようがえグッズ
-    translation: ""
+    translation: "可通过「神秘礼物」获得的道具·装饰小物件"
   - speaker: body
     type: paragraph
     kind: text

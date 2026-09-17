@@ -104,7 +104,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: オールアバウト ALLABOUT Pokémonポケットモンスター®ブラック
-    translation: ""
+    translation: "全面解析 ALL ABOUT 宝可梦 黑"
   - speaker: "画 GRAPHICS & ILLUSTRATION 宝可梦 白 与"
     type: heading
     kind: text
@@ -115,7 +115,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "絵GRAPHICS & ILLUSTRATION Pokémonポケットモンスター®ホワイト と"
-    translation: ""
+    translation: "图 GRAPHICS & ILLUSTRATION 宝可梦 白 与"
   - speaker: "音 SOUNDS & MUSIC 从这两方面揭开其魅力"
     type: heading
     kind: text
@@ -126,7 +126,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "音SOUNDS & MUSIC から魅力を解き明かす"
-    translation: ""
+    translation: "音 SOUNDS & MUSIC 由此解开魅力"
   - speaker: body
     type: paragraph
     kind: text
@@ -167,7 +167,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発スタッフが語ります！
-    translation: ""
+    translation: "开发人员讲述！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -228,7 +228,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "音のお話(楽曲魂特別編)はP18へ!!"
-    translation: ""
+    translation: "关于声音的讲述（乐曲魂特别篇）见P18！！"
   - speaker: image
     type: image
     kind: image
@@ -249,7 +249,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "絵 GRAPHICS & ILLUSTRATION ポケモン&人物誕生秘話"
-    translation: ""
+    translation: "图 GRAPHICS & ILLUSTRATION 宝可梦与人物诞生秘闻"
   - speaker: body
     type: paragraph
     kind: text
@@ -301,7 +301,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 初めに 新ポケモンと新キャラが生まれるまで スタンダードなデザインを目指す
-    translation: ""
+    translation: "首先 新宝可梦与新角色诞生之前 以标准设计为目标"
   - speaker: ──
     type: paragraph
     kind: text
@@ -432,7 +432,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新しいポケモンのイラストが出来るまで
-    translation: ""
+    translation: "新宝可梦的插画诞生之前"
   - speaker: ──
     type: paragraph
     kind: text
@@ -603,7 +603,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 3Dで表現されるポケモンたち
-    translation: ""
+    translation: "以3D表现的宝可梦们"
   - speaker: ──
     type: paragraph
     kind: text
@@ -644,7 +644,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 生き生きと動くポケモンバトル
-    translation: ""
+    translation: "生动活动的宝可梦对战"
   - speaker: ──
     type: paragraph
     kind: text
@@ -755,7 +755,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 人物のイラストが生まれるまで
-    translation: ""
+    translation: "人物插画诞生之前"
   - speaker: ──
     type: paragraph
     kind: text
@@ -896,7 +896,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 生みの親がデザインを語る 新ポケモン編
-    translation: ""
+    translation: "生父讲述设计 新宝可梦篇"
   - speaker: 「为了贯彻概念，我减少了颜色数量」杉森建 以正统的龙为意象
     type: heading
     kind: text
@@ -907,7 +907,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「コンセプトを押し通すために色数を減らしました」杉森 建さん 正統なドラゴンをイメージ
-    translation: ""
+    translation: "“为了贯彻概念减少了颜色数量”杉森建 以正统的龙为意象"
   - speaker: body
     type: paragraph
     kind: text
@@ -938,7 +938,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 色数が少ないのは恐怖
-    translation: ""
+    translation: "颜色数量少是恐怖"
   - speaker: body
     type: paragraph
     kind: text
@@ -959,7 +959,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 見た目で強さがわかるように
-    translation: ""
+    translation: "让人从外观看出强度"
   - speaker: body
     type: paragraph
     kind: text
@@ -1000,7 +1000,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ツタージャくさへびポケモン●くさ 「最終進化形は和風 最初の3匹はスタンダードに
-    translation: ""
+    translation: "藤藤蛇 草蛇宝可梦●草 “最终进化形为和风 最初的3只以标准为目标”"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1041,7 +1041,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 最初に決まったのはポカブ
-    translation: ""
+    translation: "最先决定的是暖暖猪"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1142,7 +1142,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 西洋風、中華風のイメージです」 難産だったミジュマルと進化形
-    translation: ""
+    translation: "西洋风、中华风的意象” 难产的米酒鱼与进化形"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1163,7 +1163,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 役割分担からイメージが固まる
-    translation: ""
+    translation: "从角色分担确定意象"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1264,7 +1264,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゾロアわるぎつねポケモン●あく
-    translation: ""
+    translation: "索罗亚 恶狐宝可梦●恶"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1285,7 +1285,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ビクティニしょうりポケモン●エスパー・ほのお
-    translation: ""
+    translation: "比克提尼 胜利宝可梦●超能力·火"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1306,7 +1306,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゾロアークばけぎつねポケモン●あく
-    translation: ""
+    translation: "索罗亚克 妖狐宝可梦●恶"
   - speaker: 泡沫栗鼠 栗鼠宝可梦●一般
     type: heading
     kind: text
@@ -1317,7 +1317,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チラーミィチンチラポケモン●ノーマル
-    translation: ""
+    translation: "泡沫栗鼠 栗鼠宝可梦●一般"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1338,7 +1338,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ミネズミみはりポケモン●ノーマル ミルホッグけいかいポケモン●ノーマル
-    translation: ""
+    translation: "探探鼠 放哨宝可梦●一般 步哨鼠 警戒宝可梦●一般"
   - speaker: 豆豆鸽 小鸽宝可梦●一般・飞行
     type: heading
     kind: text
@@ -1349,7 +1349,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: マメパトこばとポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "豆豆鸽 小鸽宝可梦●一般·飞行"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1370,7 +1370,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ハトーボーのばとポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "咕咕鸽 野鸽宝可梦●一般·飞行"
   - speaker: 奇拉奇诺 围巾宝可梦●一般
     type: heading
     kind: text
@@ -1381,7 +1381,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チラチーノスカーフポケモン●ノーマル
-    translation: ""
+    translation: "奇诺栗鼠 围巾宝可梦●一般"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1402,7 +1402,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ケンホロウプライドポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "高傲雉鸡 自尊心宝可梦●一般·飞行"
   - speaker: 差不多娃娃 听力宝可梦●一般
     type: heading
     kind: text
@@ -1413,7 +1413,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: タブンネヒヤリングポケモン●ノーマル
-    translation: ""
+    translation: "差不多娃娃 听力宝可梦●一般"
   - speaker: image
     type: image
     kind: image
@@ -1434,7 +1434,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: エモンガ モモンガポケモン ● でんき・ひこう
-    translation: ""
+    translation: "电飞鼠 飞鼠宝可梦 ● 电·飞行"
   - speaker: body
     type: paragraph
     kind: text
@@ -1455,7 +1455,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ムンナ ゆめくいポケモン ● エスパー
-    translation: ""
+    translation: "食梦梦 食梦宝可梦 ● 超能力"
   - speaker: body
     type: paragraph
     kind: text
@@ -1486,7 +1486,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ムシャーナ
-    translation: ""
+    translation: "梦梦蚀"
   - speaker: 半梦半醒宝可梦 ● 超能力 花椰猴
     type: heading
     kind: text
@@ -1497,7 +1497,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゆめうつつポケモン ● エスパー ヤナップ
-    translation: ""
+    translation: "半梦半醒宝可梦 ● 超能力 花椰猴"
   - speaker: body
     type: paragraph
     kind: text
@@ -1518,7 +1518,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヤナッキー とげざるポケモン ● くさ ダゲキ
-    translation: ""
+    translation: "花椰猿 刺猴宝可梦 ● 草 打击鬼"
   - speaker: body
     type: paragraph
     kind: text
@@ -1539,7 +1539,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バオップ こうおんポケモン ● ほのお バオッキー ひのこポケモン ● ほのお ナゲキ じゅうどうポケモン ● かくとう
-    translation: ""
+    translation: "爆香猴 高温宝可梦 ● 火 爆香猿 小火星宝可梦 ● 火 投摔鬼 柔道宝可梦 ● 格斗"
   - speaker: 冷水猴 泼水宝可梦 ● 水 冷水猿 放水宝可梦 ● 水
     type: heading
     kind: text
@@ -1550,7 +1550,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒヤップ みずかけポケモン ● みず ヒヤッキー ほうすいポケモン ● みず
-    translation: ""
+    translation: "冷水猴 泼水宝可梦 ● 水 冷水猿 放水宝可梦 ● 水"
   - speaker: image
     type: image
     kind: image
@@ -1571,7 +1571,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チョボマキ マイマイポケモン●むし カブルモ かぶりつきポケモン●むし
-    translation: ""
+    translation: "小嘴蜗 蜗牛宝可梦●虫 盖盖虫 啃咬宝可梦●虫"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1592,7 +1592,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アギルダー からぬけポケモン●むし シュバルゴ きへいポケモン●むし・はがね ドッコラー きんこつポケモン●かくとう ドテッコツ
-    translation: ""
+    translation: "敏捷虫 脱壳宝可梦●虫 骑士蜗牛 骑兵宝可梦●虫·钢 搬运小匠 筋骨宝可梦●格斗 铁骨土人"
   - speaker: 筋骨宝可梦●格斗
     type: heading
     kind: text
@@ -1603,7 +1603,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: きんこつポケモン●かくとう
-    translation: ""
+    translation: "筋骨宝可梦●格斗"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1624,7 +1624,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ローブシン きんこつポケモン●かくとう ヤブクロン ゴミぶくろポケモン●どく
-    translation: ""
+    translation: "修建老匠 筋骨宝可梦●格斗 破破袋 垃圾袋宝可梦●毒"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1665,7 +1665,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: クマシュン ひょうけつポケモン●こおり
-    translation: ""
+    translation: "喷嚏熊 结冰宝可梦●冰"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1696,7 +1696,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンボラー とりもどきポケモン●エスパー・ひこう
-    translation: ""
+    translation: "象征鸟 似鸟宝可梦●超能力·飞行"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1727,7 +1727,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方の人々にも迫ります！登場人物編 主人公（女の子・男の子）
-    translation: ""
+    translation: "合众地区的人们也迫近！登场人物篇 主人公（女孩·男孩）"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1748,7 +1748,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: アララギ博士
-    translation: ""
+    translation: "红豆杉博士"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1769,7 +1769,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: アララギパパ
-    translation: ""
+    translation: "红豆杉爸爸"
   - speaker: image
     type: image
     kind: image
@@ -1790,7 +1790,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チェレン ベル
-    translation: ""
+    translation: "黑连 白露"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1811,7 +1811,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: N（エヌ）
-    translation: ""
+    translation: "N（艾努）"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1832,7 +1832,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: マコモ
-    translation: ""
+    translation: "真菰"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1863,7 +1863,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: プラズマ団したっぱ ゲーチス
-    translation: ""
+    translation: "等离子团手下 魁奇思"
   - speaker: image
     type: image
     kind: image
@@ -1884,7 +1884,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポッド、デント、コーン
-    translation: ""
+    translation: "伯特、天桐、寇恩"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1905,7 +1905,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アロエ
-    translation: ""
+    translation: "芦荟"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1926,7 +1926,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アーティ
-    translation: ""
+    translation: "亚堤"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1998,7 +1998,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヤーコン
-    translation: ""
+    translation: "菊老大"
     comment: 亚空是《宝可梦 黑／白》中合众地区使用地面属性的道馆馆主。
   - speaker: 大村祐介
     type: paragraph
@@ -2020,7 +2020,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: フウロ
-    translation: ""
+    translation: "风露"
     comment: 风露是《宝可梦 黑／白》中合众地区使用飞行属性的道馆馆主。
   - speaker: 大村祐介
     type: paragraph
@@ -2042,7 +2042,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: カミツレ
-    translation: ""
+    translation: "小菊儿"
     comment: 卡米兹蕾是《宝可梦 黑／白》中合众地区使用电属性的道馆馆主。
 original_title: "ALL ABOUT ポケットモンスターブラック・ホワイト 絵 GRAPHICS & ILLUSTRATION：ポケモン＆人物誕生秘話"
 topics:

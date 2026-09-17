@@ -75,7 +75,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最新ポケモン情報 マップ攻略 サウンドチームインタビュー
-    translation: ""
+    translation: "最新宝可梦情报 地图攻略 音效团队访谈"
   - speaker: 宝可梦 X POKéMON
     type: heading
     kind: text
@@ -86,7 +86,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター XPOKéMON
-    translation: ""
+    translation: "宝可梦 XPOKéMON"
   - speaker: body
     type: paragraph
     kind: text
@@ -117,7 +117,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 全力サポートガイドALLトレーナーバトルも冒険も100％楽しむ！
-    translation: ""
+    translation: "全力支援指南 道馆对战和冒险都要100%享受！"
   - speaker: 目标最强训练家！新的超级进化 新宝可梦篇
     type: heading
     kind: text
@@ -128,7 +128,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 目指せ最強トレーナー！新たなメガシンカ 新ポケモン編
-    translation: ""
+    translation: "目标最强训练家！新的超级进化 新宝可梦篇"
   - speaker: body
     type: paragraph
     kind: text
@@ -279,7 +279,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスターPOKéMON
-    translation: ""
+    translation: "宝可梦POKéMON"
   - speaker: note
     type: paragraph
     kind: text
@@ -300,7 +300,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ストーリー攻略編チャート・マップ攻略&ミアレシティ観光ガイドP11"
-    translation: ""
+    translation: "故事攻略篇 流程·地图攻略&密阿雷市观光指南P11"
   - speaker: body
     type: paragraph
     kind: text
@@ -331,7 +331,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "インタビュー編サウンドトラック発売記念「楽曲魂」スペシャル!P20"
-    translation: ""
+    translation: "访谈篇 原声带发售纪念“乐曲魂”特别篇！P20"
   - speaker: body
     type: paragraph
     kind: text
@@ -352,7 +352,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケモンを徹底解明!"
-    translation: ""
+    translation: "彻底解明宝可梦！"
   - speaker: 超级暴鲤龙 凶恶宝可梦 水 特性：破格 恶 身高：6.5m 体重：305.0kg
     type: heading
     kind: text
@@ -363,7 +363,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "メガギャラドスきょうあくポケモン みずとくせい:かたやぶり あくたかさ:6.5m おもさ:305.0kg"
-    translation: ""
+    translation: "超级暴鲤龙 凶恶宝可梦 水 特性：破格 身高：6.5m 体重：305.0kg"
   - speaker: body
     type: paragraph
     kind: text
@@ -394,7 +394,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ここにメガ注目!メガギャラドス&メガフーディン"
-    translation: ""
+    translation: "超级进化注目！超级暴鲤龙&超级胡地"
   - speaker: body
     type: paragraph
     kind: text
@@ -445,7 +445,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "メガフーディン エスパーねんりきポケモンとくせい:トレース たかさ:1.2m おもさ:48.0kg"
-    translation: ""
+    translation: "超级胡地 超能力 念力宝可梦 特性：复制 身高：1.2m 体重：48.0kg"
   - speaker: body
     type: paragraph
     kind: text
@@ -496,7 +496,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガヘラクロス
-    translation: ""
+    translation: "超级赫拉克罗斯"
   - speaker: body
     type: paragraph
     kind: text
@@ -537,7 +537,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガカイロス むし ひこう
-    translation: ""
+    translation: "超级凯罗斯 虫 飞行"
   - speaker: body
     type: paragraph
     kind: text
@@ -598,7 +598,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ここにメガ注目!"
-    translation: ""
+    translation: "超级进化注目！"
   - speaker: 超级凯罗斯＆超级赫拉克罗斯
     type: heading
     kind: text
@@ -609,7 +609,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "メガカイロス&メガヘラクロス"
-    translation: ""
+    translation: "超级凯罗斯&超级赫拉克罗斯"
   - speaker: body
     type: paragraph
     kind: text
@@ -650,7 +650,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガライボルト
-    translation: ""
+    translation: "超级雷电兽"
   - speaker: body
     type: paragraph
     kind: text
@@ -711,7 +711,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガヘルガー あく ほのお
-    translation: ""
+    translation: "超级黑鲁加 恶 火"
   - speaker: body
     type: paragraph
     kind: text
@@ -752,7 +752,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ここにメガ注目! メガライボルト&メガヘルガー"
-    translation: ""
+    translation: "超级进化注目！超级雷电兽&超级黑鲁加"
   - speaker: body
     type: paragraph
     kind: text
@@ -1103,7 +1103,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "野生の新ポケモンたちもチェック!"
-    translation: ""
+    translation: "野生的新宝可梦们也来确认！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1274,7 +1274,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガジュペッタ
-    translation: ""
+    translation: "超级诅咒娃娃"
   - speaker: body
     type: paragraph
     kind: text
@@ -1355,7 +1355,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガプテラ
-    translation: ""
+    translation: "超级化石翼龙"
   - speaker: body
     type: paragraph
     kind: text
@@ -1426,7 +1426,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ここにメガ注目!"
-    translation: ""
+    translation: "超级进化注目！"
   - speaker: 超级化石翼龙＆超级诅咒娃娃
     type: heading
     kind: text
@@ -1437,7 +1437,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "メガプテラ&メガジュペッタ"
-    translation: ""
+    translation: "超级化石翼龙&超级诅咒娃娃"
   - speaker: body
     type: paragraph
     kind: text
@@ -1488,7 +1488,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "総括 メガシンカを生かしたこんなチームを作りたい!"
-    translation: ""
+    translation: "总结 想组建活用超级进化的这种队伍！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1589,7 +1589,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メガユキノオー
-    translation: ""
+    translation: "超级暴雪王"
   - speaker: body
     type: paragraph
     kind: text
@@ -1660,7 +1660,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ここにメガ注目! メガユキノオー"
-    translation: ""
+    translation: "这里关注超级进化！超级暴雪王"
   - speaker: body
     type: paragraph
     kind: text
@@ -1721,7 +1721,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1743,7 +1743,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ストーリー攻略編
-    translation: ""
+    translation: "故事攻略篇"
   - speaker: 密阿雷市完全指南从P16开始
     type: heading
     kind: text
@@ -1754,7 +1754,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ミアレシティ完全ガイドはP16から
-    translation: ""
+    translation: "密阿雷市完全指南从P16开始"
   - speaker: 超级进化终于解禁！攻略至第五个道馆
     type: heading
     kind: text
@@ -1765,7 +1765,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "メガシンカついに解禁!5つ目のジムまでを攻略"
-    translation: ""
+    translation: "超级进化终于解禁！攻略至第五个道馆"
   - speaker: body
     type: paragraph
     kind: text
@@ -1786,7 +1786,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "マップ&チャート攻略セキタイタウン ~ 14番道路まで"
-    translation: ""
+    translation: "地图&流程攻略 石香镇～14号道路"
   - speaker: body
     type: paragraph
     kind: text
@@ -1807,7 +1807,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: セキタイタウン 11番道路
-    translation: ""
+    translation: "石香镇 11号道路"
   - speaker: note
     type: paragraph
     kind: text
@@ -1828,7 +1828,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 進行チャート
-    translation: ""
+    translation: "进行流程"
   - speaker: note
     type: paragraph
     kind: text
@@ -1859,7 +1859,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 01 コルニのルカリオと勝負
-    translation: ""
+    translation: "01 与可尔妮的路卡利欧一决胜负"
   - speaker: body
     type: paragraph
     kind: text
@@ -1940,7 +1940,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 映し身の洞窟
-    translation: ""
+    translation: "镜穴"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1971,7 +1971,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シャラシティ
-    translation: ""
+    translation: "娑罗市"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2002,7 +2002,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 進行チャート
-    translation: ""
+    translation: "进行流程"
   - speaker: note
     type: paragraph
     kind: text
@@ -2023,7 +2023,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 02 鏡も見ながら進んでいこう
-    translation: ""
+    translation: "02 一边看着镜子一边前进吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -2074,7 +2074,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 03 街はずれのマスタータワーへ
-    translation: ""
+    translation: "03 前往城镇边缘的精练之塔"
   - speaker: body
     type: paragraph
     kind: text
@@ -2145,7 +2145,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アズール湾 出現ポケモンデータ
-    translation: ""
+    translation: "蔚蓝湾 出现宝可梦数据"
   - speaker: note
     type: paragraph
     kind: text
@@ -2176,7 +2176,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 04 かくとうタイプの弱点を突こう
-    translation: ""
+    translation: "04 攻击格斗属性的弱点吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -2217,7 +2217,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "05 メガルカリオ同士で1対1のバトル!"
-    translation: ""
+    translation: "05 用超级路卡利欧之间进行1对1的对战！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2268,7 +2268,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 12番道路
-    translation: ""
+    translation: "12号道路"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2289,7 +2289,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 06 「なみのり」で水の上を進めるように
-    translation: ""
+    translation: "06 用「冲浪」在水上前进"
   - speaker: body
     type: paragraph
     kind: text
@@ -2330,7 +2330,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 出現ポケモンデータ
-    translation: ""
+    translation: "出现宝可梦数据"
   - speaker: note
     type: paragraph
     kind: text
@@ -2381,7 +2381,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 進行チャート
-    translation: ""
+    translation: "进行流程"
   - speaker: note
     type: paragraph
     kind: text
@@ -2422,7 +2422,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒヨクシティ
-    translation: ""
+    translation: "比翼市"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2453,7 +2453,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: カロス発電所
-    translation: ""
+    translation: "卡洛斯发电厂"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2484,7 +2484,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 14番道路
-    translation: ""
+    translation: "14号道路"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2525,7 +2525,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 13番道路
-    translation: ""
+    translation: "13号道路"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2566,7 +2566,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 出現ポケモンデータ
-    translation: ""
+    translation: "出现宝可梦数据"
   - speaker: note
     type: paragraph
     kind: text
@@ -2587,7 +2587,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 出現ポケモンデータ
-    translation: ""
+    translation: "出现宝可梦数据"
   - speaker: note
     type: paragraph
     kind: text
@@ -2658,7 +2658,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 07 ヒヨクシティ前でバトル
-    translation: ""
+    translation: "07 在比翼市前对战"
   - speaker: body
     type: paragraph
     kind: text
@@ -2719,7 +2719,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒヨクシティでもらえる道具いろいろ
-    translation: ""
+    translation: "在比翼市能获得的各种道具"
   - speaker: body
     type: paragraph
     kind: text
@@ -2820,7 +2820,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 08 先制で豊富な弱点を突こう
-    translation: ""
+    translation: "08 先制攻击，打击丰富的弱点"
   - speaker: body
     type: paragraph
     kind: text
@@ -2881,7 +2881,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 11 じめんタイプが非常に有利！
-    translation: ""
+    translation: "11 地面属性非常有利！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2933,7 +2933,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 09 「ダウジングマシン」で辺りを探してみよう
-    translation: ""
+    translation: "09 用「探宝器」探索周围吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -2984,7 +2984,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 12 沼を歩きつつクノエシティ方面へ
-    translation: ""
+    translation: "12 一边走过沼泽，一边前往香薰市方向"
   - speaker: body
     type: paragraph
     kind: text
@@ -3045,7 +3045,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 10 フレア団との連戦に挑め
-    translation: ""
+    translation: "10 挑战与闪焰队的连续战斗"
   - speaker: body
     type: paragraph
     kind: text
@@ -3196,7 +3196,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: P20からのインタビューをちょっと先取り！注目の1曲「戦闘！ともだち」
-    translation: ""
+    translation: "抢先看P20起的采访！注目的一曲「战斗！朋友」"
   - speaker: body
     type: paragraph
     kind: text

@@ -84,7 +84,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "29キャラの裏話が満載!! 登場人物編 主人公（女の子・男の子）"
-    translation: ""
+    translation: "29个角色的幕后故事满载!! 登场人物篇 主人公（女孩·男孩）"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -105,7 +105,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●夢の研究者 マコモ
-    translation: ""
+    translation: "●梦想的研究者 真菰"
   - speaker: body
     type: paragraph
     kind: text
@@ -166,7 +166,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●ポケモン博士アララギパパ
-    translation: ""
+    translation: "●宝可梦博士 红豆杉爸爸"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -187,7 +187,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●ポケモン博士アララギ ●主人公の幼なじみ チェレン
-    translation: ""
+    translation: "●宝可梦博士 红豆杉 ●主人公的青梅竹马 黑连"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -208,7 +208,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●主人公の幼なじみ ベル
-    translation: ""
+    translation: "●主人公的青梅竹马 白露"
   - speaker: image
     type: image
     kind: image
@@ -229,7 +229,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●プラズマ団N（エヌ）
-    translation: ""
+    translation: "●等离子团 N（艾努）"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -260,7 +260,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●プラズマ団ゲーチス ●プラズマ団したっぱ（男女）
-    translation: ""
+    translation: "●等离子团 魁奇思 ●等离子团 手下（男女）"
   - speaker: image
     type: image
     kind: image
@@ -291,7 +291,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●サンヨウシティ ジムリーダーポッド＆デント＆コーン ●ヒウンシティ ジムリーダーアーティ
-    translation: ""
+    translation: "●三曜市 道馆馆主 伯特＆天桐＆寇恩 ●飞云市 道馆馆主 亚堤"
   - speaker: note
     type: paragraph
     kind: text
@@ -332,7 +332,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●シッポウシティ ジムリーダーアロエ
-    translation: ""
+    translation: "●七宝市 道馆馆主 芦荟"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -373,7 +373,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ライモンシティ ジムリーダーカミツレ
-    translation: ""
+    translation: "●雷文市 道馆馆主 小菊儿"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -414,7 +414,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ホドモエシティ ジムリーダーヤーコン ●フキヨセシティ ジムリーダーフウロ
-    translation: ""
+    translation: "●帆巴市 道馆馆主 菊老大 ●吹寄市 道馆馆主 风露"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -495,7 +495,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●セッカシティ ジムリーダーハチク
-    translation: ""
+    translation: "●雪花市 道馆馆主 哈奇库"
   - speaker: ●双龙市 道馆馆主（宝可梦 白）艾莉丝
     type: heading
     kind: text
@@ -506,7 +506,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ソウリュウシティ ジムリーダー（ポケモンホワイト）アイリス
-    translation: ""
+    translation: "●双龙市 道馆馆主（宝可梦 白）艾莉丝"
   - speaker: ●双龙市 道馆馆主（宝可梦 黑）夏卡
     type: heading
     kind: text
@@ -517,7 +517,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ソウリュウシティ ジムリーダー（ポケモンブラック）シャガ
-    translation: ""
+    translation: "●双龙市 道馆馆主（宝可梦 黑）夏卡"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -619,7 +619,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●ポケモンリーグ 四天王ギーマ ●ポケモンリーグ 四天王シキミ
-    translation: ""
+    translation: "●宝可梦联盟 四天王 越橘 ●宝可梦联盟 四天王 婉龙"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -730,7 +730,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ポケモンリーグ 四天王レンブ
-    translation: ""
+    translation: "●宝可梦联盟 四天王 连武"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -831,7 +831,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ポケモンリーグ 四天王カトレア
-    translation: ""
+    translation: "●宝可梦联盟 四天王 嘉德丽雅"
   - speaker: note
     type: paragraph
     kind: text
@@ -922,7 +922,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ●ポケモンリーグ チャンピオンアデク ●サブウェイマスタークダリ ●サブウェイマスターノボリ
-    translation: ""
+    translation: "●宝可梦联盟 冠军 阿戴克 ●地铁总管 南厦 ●地铁总管 北尚"
   - speaker: 大村祐介
     type: paragraph
     kind: text

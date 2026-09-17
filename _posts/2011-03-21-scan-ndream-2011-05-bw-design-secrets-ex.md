@@ -104,7 +104,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: キャラ作りの神髄に触れ、お気に入りのキャラを選ぶ。
-    translation: ""
+    translation: "触及角色塑造的精髓，选出喜爱的角色。"
   - speaker: "ALL ABOUT 宝可梦 黑 宝可梦 白 Part 宝可梦&角色诞生秘话 EX"
     type: heading
     kind: text
@@ -115,7 +115,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ALL ABOUT ポケットモンスター ブラック ポケットモンスター ホワイト Partポケモン&キャラクター誕生秘話 EX"
-    translation: ""
+    translation: "ALL ABOUT 宝可梦 黑 宝可梦 白 Part 宝可梦&角色诞生秘话 EX"
   - speaker: body
     type: paragraph
     kind: text
@@ -136,7 +136,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 語っていただいたのはおなじみのこのお三方！
-    translation: ""
+    translation: "为我们讲述的是大家熟悉的这三位！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -187,7 +187,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ニンドリ読者が決める！ポケモン&人物キャラ人気投票P78"
-    translation: ""
+    translation: "由Nindori读者决定！宝可梦&人物角色人气投票P78"
   - speaker: 角色之神 SPECIAL 大村祐介先生 P82
     type: heading
     kind: text
@@ -198,7 +198,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: キャラかみ SPECIAL大村祐介さんP82
-    translation: ""
+    translation: "角色特辑 SPECIAL 大村祐介先生P82"
   - speaker: 在那之后的等离子团 P77 宝可梦堂出差版 P85
     type: heading
     kind: text
@@ -209,7 +209,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: その後のプラズマ団P77 ポケモン堂出張版P85
-    translation: ""
+    translation: "此后的等离子队P77 宝可梦堂出差版P85"
   - speaker: note
     type: paragraph
     kind: text
@@ -241,7 +241,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケモンシリーズ 四天王の秘密!? 登場人物編"
-    translation: ""
+    translation: "宝可梦系列 四天王的秘密！？ 登场人物篇"
   - speaker: note
     type: paragraph
     kind: text
@@ -262,7 +262,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「四天王は結〓
-    translation: ""
+    translation: "「四天王是结〓"
     comment: 原文在此处被截断。
   - speaker: caption
     type: paragraph
@@ -315,7 +315,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ギーマ シキミ
-    translation: ""
+    translation: "越橘 婉龙"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -387,7 +387,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 自由に描いてます」 レンブ
-    translation: ""
+    translation: "自由地画着」 连武"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -430,7 +430,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: カトレア
-    translation: ""
+    translation: "嘉德丽雅"
     comment: 嘉德丽雅是《宝可梦 黑·白》中的四天王之一。
   - speaker: 大村祐介
     type: paragraph
@@ -562,7 +562,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "これで最後!!30匹の誕生秘話新ポケモン編"
-    translation: ""
+    translation: "这是最后一次！！30只的诞生秘话 新宝可梦篇"
   - speaker: note
     type: paragraph
     kind: text
@@ -603,7 +603,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「人に近い存在をどうポケモ
-    translation: ""
+    translation: "「如何将接近人的存在做成宝可梦"
   - speaker: caption
     type: paragraph
     kind: text
@@ -694,7 +694,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: に落とし込むか…苦労しました」
-    translation: ""
+    translation: "融入其中……很辛苦」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -935,7 +935,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: シビルドンでんきうおポケモン●でんき
-    translation: ""
+    translation: "麻麻鳗鱼王 电鱼宝可梦●电"
   - speaker: 秃鹰娜 骨鹰宝可梦●恶・飞行 麻麻小鱼 电鱼宝可梦●电
     type: heading
     kind: text
@@ -946,7 +946,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: バルジーナほねわしポケモン●あく・ひこう シビシラスでんきうおポケモン●でんき
-    translation: ""
+    translation: "秃鹰娜 骨鹰宝可梦●恶·飞行 麻麻小鱼 电鱼宝可梦●电"
   - speaker: 秃鹰丫头 尿布宝可梦●恶・飞行 电鱼宝可梦●电 雏鹰宝可梦●一般·飞行
     type: heading
     kind: text
@@ -957,7 +957,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: バルチャイおむつポケモン●あく・ひこう シビビールでんきうおポケモン●でんき ワシボンヒナわしポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "秃鹰丫头 尿布宝可梦●恶·飞行 麻麻鳗 电鱼宝可梦●电 毛头小鹰 雏鹰宝可梦●一般·飞行"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -988,7 +988,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ウォーグルゆうもうポケモン●ノーマル・ひこう すぐハクトウワシが浮かびました
-    translation: ""
+    translation: "勇士雄鹰 勇猛宝可梦●一般·飞行 马上就想到了白头海雕"
   - speaker: image
     type: image
     kind: image
@@ -1039,7 +1039,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: モロバレル きのこポケモン●くさ・どく タマゲタケ きのこポケモン●くさ・どく ナットレイ とげだまポケモン●くさ・はがね
-    translation: ""
+    translation: "败露球菇 蘑菇宝可梦●草·毒 哎呀球菇 蘑菇宝可梦●草·毒 坚果哑铃 刺球宝可梦●草·钢"
   - speaker: 种子铁球 刺果宝可梦●草・钢
     type: heading
     kind: text
@@ -1050,7 +1050,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: テッシード とげのみポケモン●くさ・はがね
-    translation: ""
+    translation: "种子铁球 刺果宝可梦●草·钢"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1071,7 +1071,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バスラオ らんぼうポケモン●みず
-    translation: ""
+    translation: "野蛮鲈鱼 粗暴宝可梦●水"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1112,7 +1112,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方のポケモンで一番のお気に入りは？
-    translation: ""
+    translation: "合众地区的宝可梦中，最喜欢的是？"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1163,7 +1163,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: additional column その後のプラズマ団
-    translation: ""
+    translation: "additional column 此后的等离子队"
   - speaker: body
     type: paragraph
     kind: text
@@ -1184,7 +1184,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲーチス
-    translation: ""
+    translation: "魁奇思"
   - speaker: body
     type: paragraph
     kind: text
@@ -1235,7 +1235,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ひとはだれでも 英雄になれる」
-    translation: ""
+    translation: "「任何人都能成为英雄」"
   - speaker: body
     type: paragraph
     kind: text
@@ -1266,7 +1266,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「自分の力でかなえてこそ 本物の夢……」
-    translation: ""
+    translation: "「靠自己的力量实现，才是真正的梦想……」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1328,7 +1328,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「利用されたとしてもいいが もう夢はみれぬな」
-    translation: ""
+    translation: "「就算被利用也无妨，但已经无法再做梦想了」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1359,7 +1359,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ポケモンと向き合わぬ者は私も許さんよ」
-    translation: ""
+    translation: "「不与宝可梦正面相对的人，我也不会原谅」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1400,7 +1400,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ゲーチス様の何が真実で何が虚構かわからないがね」
-    translation: ""
+    translation: "「盖奇斯大人的话里，什么是真实什么是虚构，我无从得知」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1441,7 +1441,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「Nさまは言われた……ポケモンを完全にしたいと」
-    translation: ""
+    translation: "「N大人说过……要让宝可梦变得完整」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1502,7 +1502,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: N
-    translation: ""
+    translation: "N"
   - speaker: body
     type: paragraph
     kind: text
@@ -1533,7 +1533,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ニンドリ読者によるポケットモンスターブラックポケットモンスターホワイトポケモン人気投票Which characters do you like?
-    translation: ""
+    translation: "Nintendo Dream读者评选 宝可梦 黑·白 宝可梦人气投票 Which characters do you like?"
   - speaker: note
     type: paragraph
     kind: text
@@ -1614,7 +1614,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 人物キャラ部門も開催！
-    translation: ""
+    translation: "人物角色部门也举办！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1646,7 +1646,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "投票はアンケートハガキでOK!!"
-    translation: ""
+    translation: "投票用问卷明信片即可！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1707,7 +1707,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 締め切りは4月20日必着
-    translation: ""
+    translation: "截止日期为4月20日必达"
   - speaker: caption
     type: paragraph
     kind: text

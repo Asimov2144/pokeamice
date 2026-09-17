@@ -75,7 +75,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ニンドリ読者が選ぶ!! イッシュ地ポケモン人気"
-    translation: ""
+    translation: "Nindori读者评选！！合众地区宝可梦人气"
     comment: Nindori为《Nintendo DREAM》杂志的昵称
   - speaker: 第1名 水晶灯火灵 引诱宝可梦●幽灵・火
     type: heading
@@ -87,7 +87,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 1位 シャンデラいざないポケモン●ゴースト・ほのお
-    translation: ""
+    translation: "第1名 水晶灯火灵 引诱宝可梦●幽灵·火"
   - speaker: caption
     type: paragraph
     kind: text
@@ -128,7 +128,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 エルフーンかぜかくれポケモン●くさ
-    translation: ""
+    translation: "第2名 风妖精 风隐宝可梦●草"
   - speaker: caption
     type: paragraph
     kind: text
@@ -169,7 +169,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位 レシラムはくようポケモン●ドラゴン・ほのお
-    translation: ""
+    translation: "第3名 莱希拉姆 白阳宝可梦●龙·火"
   - speaker: image
     type: image
     kind: image
@@ -190,7 +190,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン人気投票 結果発表 限定投票結果発表
-    translation: ""
+    translation: "宝可梦人气投票 结果公布 限定投票结果公布"
   - speaker: body
     type: paragraph
     kind: text
@@ -222,7 +222,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 142票
-    translation: ""
+    translation: "142票"
   - speaker: 第4名 人造细胞卵 增幅宝可梦●超能力
     type: heading
     kind: text
@@ -233,7 +233,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 4位 ランクルスぞうふくポケモン●エスパー
-    translation: ""
+    translation: "第4名 人造细胞卵 增幅宝可梦●超能力"
   - speaker: 第5名 三首恶龙 135票 凶暴宝可梦●恶・龙
     type: heading
     kind: text
@@ -244,7 +244,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 5位 サザンドラ135票きょうぼうポケモン●あく・ドラゴン
-    translation: ""
+    translation: "第5名 三首恶龙 135票 凶暴宝可梦●恶·龙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -265,7 +265,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 6位 ジャローダロイヤルポケモン●くさ132票
-    translation: ""
+    translation: "第6名 君主蛇 皇家宝可梦●草 132票"
   - speaker: caption
     type: paragraph
     kind: text
@@ -296,7 +296,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 8位 バチュルくっつきポケモン●むし・でんき
-    translation: ""
+    translation: "第8名 电电虫 吸附宝可梦●虫·电"
   - speaker: caption
     type: paragraph
     kind: text
@@ -317,7 +317,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 112票
-    translation: ""
+    translation: "112票"
   - speaker: 130票 第7名 藤藤蛇 草蛇宝可梦●草
     type: heading
     kind: text
@@ -328,7 +328,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 130票7位 ツタージャくさへびポケモン●くさ
-    translation: ""
+    translation: "130票 第7名 藤藤蛇 草蛇宝可梦●草"
   - speaker: 第8名 水水獭 海獭宝可梦●水
     type: heading
     kind: text
@@ -339,7 +339,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 8位 ミジュマルラッコポケモン●みず
-    translation: ""
+    translation: "第8名 水水獭 海獭宝可梦●水"
   - speaker: caption
     type: paragraph
     kind: text
@@ -360,7 +360,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 112票
-    translation: ""
+    translation: "112票"
   - speaker: 第10名 裙儿小姐 花饰宝可梦●草
     type: heading
     kind: text
@@ -371,7 +371,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 10位 ドレディアはなかざりポケモン●くさ
-    translation: ""
+    translation: "第10名 裙儿小姐 花饰宝可梦●草"
   - speaker: caption
     type: paragraph
     kind: text
@@ -392,7 +392,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 93票
-    translation: ""
+    translation: "93票"
   - speaker: image
     type: image
     kind: image
@@ -423,7 +423,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 12位 デンチュラ
-    translation: ""
+    translation: "第12名 电蜘蛛"
   - speaker: body
     type: paragraph
     kind: text
@@ -454,7 +454,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 11位 ゼクロム
-    translation: ""
+    translation: "第11名 捷克罗姆"
   - speaker: body
     type: paragraph
     kind: text
@@ -495,7 +495,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 15位 ウルガモス
-    translation: ""
+    translation: "第15名 火神蛾"
   - speaker: body
     type: paragraph
     kind: text
@@ -536,7 +536,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 13位 ヤナップ
-    translation: ""
+    translation: "第13名 花椰猴"
   - speaker: body
     type: paragraph
     kind: text
@@ -567,7 +567,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 14位 ペンドラー
-    translation: ""
+    translation: "第14名 蜈蚣王"
   - speaker: body
     type: paragraph
     kind: text
@@ -598,7 +598,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 16位 エモンガ
-    translation: ""
+    translation: "第16名 电飞鼠"
   - speaker: body
     type: paragraph
     kind: text
@@ -629,7 +629,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 17位 ゾロアーク
-    translation: ""
+    translation: "第17名 索罗亚克"
   - speaker: body
     type: paragraph
     kind: text
@@ -700,7 +700,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 17位 ヒトモシ
-    translation: ""
+    translation: "第17名 烛光灵"
   - speaker: body
     type: paragraph
     kind: text
@@ -721,7 +721,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 19位 ビクティニ
-    translation: ""
+    translation: "第19名 比克提尼"
   - speaker: body
     type: paragraph
     kind: text
@@ -752,7 +752,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 19位 チラーミィ
-    translation: ""
+    translation: "第19名 泡沫栗鼠"
   - speaker: body
     type: paragraph
     kind: text
@@ -943,7 +943,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 総評 「かわいい」「バトルに強い」が上位に？
-    translation: ""
+    translation: "总评 “可爱”“对战强”占据上位？"
   - speaker: body
     type: paragraph
     kind: text
@@ -984,7 +984,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "首位争いは白熱の展開に!! 人物キャラ部門 1位プラズマ団の王N"
-    translation: ""
+    translation: "首位之争进入白热化！！ 人物角色部门 第1名 等离子团的王N"
   - speaker: body
     type: paragraph
     kind: text
@@ -1015,7 +1015,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 2位 348サブウェイマスターノボリ
-    translation: ""
+    translation: "第2名 348 地铁总管北尚"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1036,7 +1036,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 3位サブウェイマスタークダリ 298票
-    translation: ""
+    translation: "第3名 地铁总管南厦 298票"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1057,7 +1057,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 4位フキヨセシティ ジムリーダーフウロ 165票
-    translation: ""
+    translation: "第4名 吹寄市 道馆馆主风露 165票"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1078,7 +1078,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 5位ライモンシティ ジムリーダーカミツレ 155票
-    translation: ""
+    translation: "第5名 雷文市 道馆馆主小菊儿 155票"
     comment: 小菊儿是《宝可梦 黑／白》中雷文道馆的馆主，使用电属性宝可梦。
   - speaker: caption
     type: paragraph
@@ -1100,7 +1100,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 6位主人公の幼なじみチェレン 141票
-    translation: ""
+    translation: "第6名 主角的青梅竹马黑连 141票"
     comment: 黑连是《宝可梦 黑／白》中主角的青梅竹马之一。
   - speaker: caption
     type: paragraph
@@ -1342,7 +1342,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 総評 男女から支持を集めたNが1位！
-    translation: ""
+    translation: "总评 男女支持集于一身的N获得第1名！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1403,7 +1403,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 人気投票TOP3おめでとう企画 ポケモン編
-    translation: ""
+    translation: "人气投票TOP3祝贺企划 宝可梦篇"
   - speaker: body
     type: paragraph
     kind: text
@@ -1424,7 +1424,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ニンドリNo.1に輝く魅惑の炎イッシュ図鑑No.115 いざないポケモンシャンデラ
-    translation: ""
+    translation: "荣登Nindori No.1的魅惑之炎 合众图鉴No.115 引诱宝可梦水晶灯火灵"
   - speaker: note
     type: paragraph
     kind: text
@@ -1485,7 +1485,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バトル中はユ~ラユラ 寝顔がラブリー♥
-    translation: ""
+    translation: "对战中摇～摇晃晃 睡脸好可爱♥"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1516,7 +1516,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: フランス語だとLugulabre
-    translation: ""
+    translation: "法语里叫Lugulabre"
   - speaker: body
     type: paragraph
     kind: text
@@ -1537,7 +1537,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "入手法 ランプラーに「やみのいし」を!"
-    translation: ""
+    translation: "获得方法 给灯火幽灵使用“暗之石”！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1629,7 +1629,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バトル 強力無比な特殊技アタッカー
-    translation: ""
+    translation: "对战 强力无比的特殊招式攻击手"
   - speaker: body
     type: paragraph
     kind: text
@@ -1731,7 +1731,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: いたずら好きな風の申し子イッシュ図鑑No.053 かぜかくれポケモンエルフーン
-    translation: ""
+    translation: "爱恶作剧的风之宠儿 合众图鉴No.053 风隐宝可梦风妖精"
   - speaker: note
     type: paragraph
     kind: text
@@ -1882,7 +1882,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 入手法 モンメンに「たいようのいし」を
-    translation: ""
+    translation: "获得方法 给木棉球使用“日之石”"
   - speaker: body
     type: paragraph
     kind: text
@@ -1953,7 +1953,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: バトル 特性を生かした多彩な戦法を
-    translation: ""
+    translation: "对战 发挥特性的多样战法"
   - speaker: body
     type: paragraph
     kind: text
@@ -2044,7 +2044,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: よみがえりし白陽の神話イッシュ図鑑No.149 はくようポケモンレシラム
-    translation: ""
+    translation: "复苏的白阳神话 合众图鉴No.149 白阳宝可梦莱希拉姆"
   - speaker: note
     type: paragraph
     kind: text
@@ -2125,7 +2125,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "入手法 『ポケモンB』でのみNの城で入手可能!!"
-    translation: ""
+    translation: "获得方法 仅可在《宝可梦B》中于N的城堡获得！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2166,7 +2166,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "バトル 「クロスサンダー」の直後に「クロスフレイム」を!"
-    translation: ""
+    translation: "对战 在“交错闪电”之后接“交错火焰”！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2267,7 +2267,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 人気投票TOP3おめでとう企画 人物キャラ編
-    translation: ""
+    translation: "人气投票TOP3祝贺企划 人物角色篇"
   - speaker: body
     type: paragraph
     kind: text
@@ -2288,7 +2288,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンの心を知る、無垢なる魂
-    translation: ""
+    translation: "知晓宝可梦之心的无垢灵魂"
   - speaker: 等离子团年轻之王N 名场面集
     type: heading
     kind: text
@@ -2299,7 +2299,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: プラズマ団の若き王 N 名場面集
-    translation: ""
+    translation: "等离子团的年轻王 N 名场面集"
   - speaker: body
     type: paragraph
     kind: text
@@ -2370,7 +2370,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "主人公との運命の戦い!!"
-    translation: ""
+    translation: "与主角的命运之战！！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2471,7 +2471,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "純粋ゆえにその力は!!"
-    translation: ""
+    translation: "正因纯粹，其力量才!!"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2532,7 +2532,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 彼の部屋は玩具に埋もれ…
-    translation: ""
+    translation: "他的房间被玩具淹没…"
   - speaker: body
     type: paragraph
     kind: text
@@ -2563,7 +2563,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: そして…Nは今どこに
-    translation: ""
+    translation: "而如今…N身在何处"
   - speaker: body
     type: paragraph
     kind: text
@@ -2614,7 +2614,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シングルバトルを極めし黒衣の車掌サブウェイマスターノボリ名場面集
-    translation: ""
+    translation: "精通单打对战的黑衣车掌 地铁总管北尚 名场面集"
   - speaker: 驾驭双打对战的白色车掌 地铁总管南厦 名场面集
     type: heading
     kind: text
@@ -2625,7 +2625,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ダブルバトルを御する白面の車掌サブウェイマスタークダリ名場面集
-    translation: ""
+    translation: "驾驭双打对战的白色车掌 地铁总管南厦 名场面集"
   - speaker: body
     type: paragraph
     kind: text
@@ -2656,7 +2656,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 全力ではない？ 底知れぬ実力
-    translation: ""
+    translation: "并未使出全力？ 深不可测的实力"
   - speaker: body
     type: paragraph
     kind: text
@@ -2717,7 +2717,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: マルチトレインでは2人が同時に登場！！
-    translation: ""
+    translation: "在多人列车中两人会同时登场！！"
   - speaker: caption
     type: paragraph
     kind: text

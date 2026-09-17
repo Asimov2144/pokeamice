@@ -113,7 +113,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発スタッフ・インタヴュー
-    translation: ""
+    translation: "开发人员访谈"
   - speaker: image
     type: image
     kind: image
@@ -134,7 +134,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンを生み育てた人々
-    translation: ""
+    translation: "孕育宝可梦的人们"
   - speaker: ◆《宝可梦》开发人员访谈◆
     type: heading
     kind: text
@@ -145,7 +145,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ◆『ポケットモンスター』開発スタッフ・インタヴュー◆
-    translation: ""
+    translation: "◆《宝可梦》开发人员访谈◆"
   - speaker: body
     type: paragraph
     kind: text
@@ -166,7 +166,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 長かったゲーム制作期間とそのあいだに起こった変化
-    translation: ""
+    translation: "漫长的游戏制作期及其间发生的变化"
   - speaker: ──
     type: paragraph
     kind: text
@@ -437,7 +437,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 猫より怖くて怪獣より優しい、それがポケモン
-    translation: ""
+    translation: "比猫更可怕，比怪兽更温柔，这就是宝可梦"
   - speaker: body
     type: paragraph
     kind: text
@@ -518,7 +518,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 各スタッフが持つこだわりをゲームの中にうまく活かす
-    translation: ""
+    translation: "将每位工作人员的执着巧妙运用于游戏中"
   - speaker: ──
     type: paragraph
     kind: text
@@ -689,7 +689,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 制作スタッフたちの「怪獣」への思い入れは？
-    translation: ""
+    translation: "制作人员们对「怪兽」的情结是？"
   - speaker: body
     type: paragraph
     kind: text
@@ -770,7 +770,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 交換の楽しみを演出するために切り捨てたアイデアも山ほど！
-    translation: ""
+    translation: "为营造交换乐趣而舍弃的点子堆积如山！"
   - speaker: ──
     type: paragraph
     kind: text
@@ -851,7 +851,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "渡辺 哲也プログラマー[キャッチコピー] 「走れ、走れ ギャロップ！」"
-    translation: ""
+    translation: "渡边 哲也 程序员 [宣传语] 「跑吧，跑吧 烈焰马！」"
   - speaker: body
     type: paragraph
     kind: text
@@ -872,7 +872,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アイデアを活かすために必要とされる技術力
-    translation: ""
+    translation: "为活用点子所需的技术力"
   - speaker: ──
     type: paragraph
     kind: text
@@ -913,7 +913,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "藤原 基史グラフィックデザイナー[キャッチコピー] 「パラセクトを手に入れよう！」"
-    translation: ""
+    translation: "藤原 基史 图形设计师 [宣传语] 「去获得派拉斯特吧！」"
   - speaker: note
     type: paragraph
     kind: text
@@ -1034,7 +1034,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "交換システムができたら次は対戦システムだ!?"
-    translation: ""
+    translation: "交换系统完成后，接下来是对战系统！？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1135,7 +1135,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: １５０匹の我が子たちの成長と変身を見る喜び
-    translation: ""
+    translation: "看着150个孩子们成长与变身的喜悦"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1196,7 +1196,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最後に、制作スタッフ全員からのメッセージ！！
-    translation: ""
+    translation: "最后，来自全体制作人员的信息！！"
   - speaker: note
     type: paragraph
     kind: text
@@ -1307,7 +1307,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター図鑑
-    translation: ""
+    translation: "宝可梦图鉴"
   - speaker: An Illustrated Book of POCKET MONSTERS
     type: heading
     kind: text
@@ -1318,7 +1318,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: An Illustrated Book of POCKET MONSTERS
-    translation: ""
+    translation: "An Illustrated Book of POCKET MONSTERS"
   - speaker: body
     type: paragraph
     kind: text

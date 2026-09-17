@@ -84,7 +84,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "特濃!! ポケモン音楽インタビュー さらなる進化を目指して…"
-    translation: ""
+    translation: "浓密！！宝可梦音乐访谈 以进一步进化为目标…"
   - speaker: body
     type: paragraph
     kind: text
@@ -145,7 +145,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームの設定にこだわり抜いた曲作り
-    translation: ""
+    translation: "执着于游戏设定的作曲"
   - speaker: ──
     type: paragraph
     kind: text
@@ -267,7 +267,7 @@ translation_segments:
     review_status: review
     original: Upper screen←手元の端末の音もイメージされた、アクロマの戦闘曲
     translation: Upper screen←也融入了手边终端音效的意象，阿克罗玛的战斗曲
-  - speaker: 《宝可梦B2・W2》中喜欢的曲子
+  - speaker: 《宝可梦B2·W2》中喜欢的曲子
     type: heading
     kind: text
     region_type: heading
@@ -277,7 +277,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 『ポケモンB2・W2』で気に入っている曲
-    translation: ""
+    translation: "《宝可梦B2·W2》中喜欢的曲子"
   - speaker: ──
     type: paragraph
     kind: text
@@ -428,7 +428,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケットモンスター ブラック2・ホワイト2 遊びつくし特集!!"
-    translation: ""
+    translation: "宝可梦 黑2·白2 玩尽特辑！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -520,7 +520,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンD・P
-    translation: ""
+    translation: "宝可梦D·P"
   - speaker: caption
     type: paragraph
     kind: text
@@ -592,7 +592,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "聴かせたい数小節のために盛り上げる!"
-    translation: ""
+    translation: "为了想让人听到的几小节而烘托气氛！"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -703,8 +703,8 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 『ポケットモンスター』の戦闘曲は、やはり増田の唯一無二なメロディー構成で成り立つところが大きいんです。でもそれに私を含めたゲームフリークの音楽スタッフの個性が混じることで、さらに進化していけると思っています。今回の『ポケモンB2・W2』はまだ1回進化したくらいですが、さらに進化させられるよう頑張りたいですね。
-    translation: 《宝可梦》的战斗曲，果然很大程度上是建立在增田独一无二的旋律构成之上的。不过，我认为通过融入包括我在内的GAME FREAK音乐工作人员的个性，还能进一步进化。这次的《宝可梦B2・W2》大概只进化了一次，但希望能继续努力让它进一步进化。
-  - speaker: 从制约中诞生的《宝可梦 红・绿》战斗曲
+    translation: 《宝可梦》的战斗曲，果然很大程度上是建立在增田独一无二的旋律构成之上的。不过，我认为通过融入包括我在内的GAME FREAK音乐工作人员的个性，还能进一步进化。这次的《宝可梦B2·W2》大概只进化了一次，但希望能继续努力让它进一步进化。
+  - speaker: 从制约中诞生的《宝可梦 红·绿》战斗曲
     type: heading
     kind: text
     region_type: heading
@@ -714,7 +714,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 制約から生まれた『ポケモン赤・緑』の戦闘曲
-    translation: ""
+    translation: "从制约中诞生的《宝可梦 红·绿》战斗曲"
   - speaker: 一之濑刚
     type: paragraph
     kind: text

@@ -103,7 +103,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スタッフインタビュー第2弾新要素ピックアップ攻略＋開発秘話
-    translation: ""
+    translation: "开发人员访谈第2弹 新要素精选攻略＋开发秘闻"
   - speaker: body
     type: paragraph
     kind: text
@@ -164,7 +164,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: フェスミッション バラエティ豊かなミッションに挑戦して報酬ゲット！ ハイリンクでミッション受注
-    translation: ""
+    translation: "庆典任务 挑战丰富多彩的任务获取报酬！ 在连入中接受任务"
   - speaker: body
     type: paragraph
     kind: text
@@ -205,7 +205,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 参加人数が増えれば難ミッションもラクラク！？
-    translation: ""
+    translation: "参加人数增加后困难任务也能轻松完成！？"
   - speaker: body
     type: paragraph
     kind: text
@@ -296,7 +296,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 冒険に役だつ「デルパワー」を使いこなそう
-    translation: ""
+    translation: "熟练运用有助于冒险的“释出之力”吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -468,7 +468,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ▶殿堂入りまでに挑戦できるミッション一覧
-    translation: ""
+    translation: "▶登入名人堂前可挑战的任务一览"
   - speaker: note
     type: table
     kind: text
@@ -771,7 +771,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 開発秘話 フェスミッション 「共鳴」を具現化する新たな遊び
-    translation: ""
+    translation: "开发秘闻 庆典任务 将“共鸣”具现化的全新玩法"
   - speaker: ──
     type: paragraph
     kind: text
@@ -892,7 +892,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケウッド 目指すは大スター！ ポケモンと一緒に映画を撮ろう
-    translation: ""
+    translation: "宝可梦好莱坞 目标是超级明星！ 和宝可梦一起拍电影吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -983,7 +983,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シナリオをじっくり読むことが撮影成功のコツ
-    translation: ""
+    translation: "仔细阅读剧本是拍摄成功的诀窍"
   - speaker: body
     type: paragraph
     kind: text
@@ -1044,7 +1044,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ❶お互いの技と持ち物を確認
-    translation: ""
+    translation: "❶确认双方的招式和携带物品"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1145,7 +1145,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ❷カットごとの行動をチェック
-    translation: ""
+    translation: "❷检查每个镜头的行动"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1236,7 +1236,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 映画を撮り続ければシナリオも増えていく
-    translation: ""
+    translation: "持续拍摄电影后剧本也会增加"
   - speaker: body
     type: paragraph
     kind: text
@@ -1387,7 +1387,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ▶殿堂入り前までに撮影できる映画の台本
-    translation: ""
+    translation: "▶登入名人堂前可拍摄的电影剧本"
   - speaker: note
     type: paragraph
     kind: text
@@ -1408,7 +1408,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スターになればVIP待遇が待っている！？
-    translation: ""
+    translation: "成为明星后将有VIP待遇等着你！？"
   - speaker: body
     type: paragraph
     kind: text
@@ -1449,7 +1449,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発秘話 ポケウッド
-    translation: ""
+    translation: "开发秘闻 宝可梦好莱坞"
     comment: ポケウッド为合众地区的地名，中文版译作宝可梦好莱坞。
   - speaker: 通过“放飞自我的剧本”学习对战
     type: heading
@@ -1461,7 +1461,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「はっちゃけシナリオ」でバトルを学べる
-    translation: ""
+    translation: "通过“胡闹剧本”学习对战"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1633,7 +1633,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1655,7 +1655,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "伝説のポケモン入手 新要素攻略+開発秘話 特濃音楽インタビュー ポケットモンスター ブラック2 遊びっくし特集!!"
-    translation: ""
+    translation: "传说宝可梦获取 新要素攻略+开发秘闻 浓密音乐访谈 宝可梦 黑2 玩透特辑！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1686,7 +1686,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "あの伝説のポケモンたちをこの手に!!"
-    translation: ""
+    translation: "将那些传说宝可梦拿到手！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1707,7 +1707,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゼクロム レシラム キュレムを仲間に
-    translation: ""
+    translation: "让捷克罗姆、莱希拉姆、酋雷姆成为伙伴"
   - speaker: body
     type: paragraph
     kind: text
@@ -1838,7 +1838,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: コバルオン テラキオン ビリジオンを仲間に
-    translation: ""
+    translation: "让勾帕路翁、代拉基翁、毕力吉翁成为伙伴"
   - speaker: body
     type: paragraph
     kind: text
@@ -1859,7 +1859,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: コバルオン
-    translation: ""
+    translation: "勾帕路翁"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1900,7 +1900,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ビリジオン
-    translation: ""
+    translation: "毕力吉翁"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1931,7 +1931,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: テラキオン
-    translation: ""
+    translation: "代拉基翁"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1972,7 +1972,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「いでんしのくさび」でブラックキュレム・ホワイトキュレムに
-    translation: ""
+    translation: "用“基因之楔”变为暗黑酋雷姆·焰白酋雷姆"
   - speaker: body
     type: paragraph
     kind: text
@@ -2023,7 +2023,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Pokémon ポケットモンスター ホワイト2
-    translation: ""
+    translation: "Pokémon 宝可梦 白2"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2074,7 +2074,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: レジロック レジアイス レジスチルを仲間に
-    translation: ""
+    translation: "让雷吉洛克、雷吉艾斯、雷吉斯奇鲁成为伙伴"
   - speaker: body
     type: paragraph
     kind: text
@@ -2125,7 +2125,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: キーシステムで解除キーシステムいわやまのまくろがねのまひょうざんのまもどるちていいせきの ふしぎなとびらを めけ くろがねのまに いきましょう！↑レジロックを入手すると、キーシステムで使えるキーが出現する
-    translation: ""
+    translation: "用钥匙系统解除钥匙系统岩山之室黑金之室冰山之室返回地底遗迹的不可思议之门去黑金之室吧！↑获得雷吉洛克后，钥匙系统中会出现可使用的钥匙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2166,7 +2166,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: トルネロス ボルトロス ランドロスをフォルムチェンジ
-    translation: ""
+    translation: "让龙卷云、雷电云、土地云改变形态"
   - speaker: body
     type: paragraph
     kind: text
@@ -2207,7 +2207,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 隠れ特性のポケモンを仲間に
-    translation: ""
+    translation: "让拥有隐藏特性的宝可梦成为伙伴"
   - speaker: body
     type: paragraph
     kind: text
@@ -2330,7 +2330,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "PWT(ポケモンワールドトーナメント) さまざまなルールで歴代強豪トレーナーとバトル!!"
-    translation: ""
+    translation: "PWT（宝可梦世界锦标赛）以各种规则与历代强豪训练家对战！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2381,7 +2381,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: トーナメントごとのルール・傾向をチェック
-    translation: ""
+    translation: "查看各锦标赛的规则与倾向"
   - speaker: body
     type: paragraph
     kind: text
@@ -2402,7 +2402,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "伝説のポケモンと戦えるダウンロード専用のトーナメントも!"
-    translation: ""
+    translation: "也有能与传说的宝可梦对战的下载专用锦标赛！"
   - speaker: body
     type: paragraph
     kind: text
@@ -2443,7 +2443,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "殿堂入り後には歴代作品のトレーナーも登場!! 開発秘話 PWT"
-    translation: ""
+    translation: "进入殿堂后历代作品的训练家也会登场！！开发秘闻 PWT"
   - speaker: 还能与现实中的冠军对战！！
     type: heading
     kind: text
@@ -2454,7 +2454,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "現実のチャンピオンとも対戦できる!!"
-    translation: ""
+    translation: "还能与现实中的冠军对战！！"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2636,7 +2636,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "末長く楽しんでください!(海野)"
-    translation: ""
+    translation: "请长久地享受！（海野）"
   - speaker: body
     type: paragraph
     kind: text
@@ -2667,7 +2667,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 対戦相手のポケモンに対策しておこう
-    translation: ""
+    translation: "针对对手的宝可梦做好对策吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -2728,7 +2728,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ▶対戦相手の でもちポケモンリスト
-    translation: ""
+    translation: "▶对手的持有点数宝可梦列表"
   - speaker: body
     type: paragraph
     kind: text
@@ -2769,7 +2769,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ジョインアベニュー お店を開いて自分だけの街を作って発展させよう
-    translation: ""
+    translation: "汇合大道 开店打造自己的城市并发展壮大吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -2810,7 +2810,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「招待する」でお店が開く
-    translation: ""
+    translation: "通过“招待”开店"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2851,7 +2851,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「案内する」で人気アップ
-    translation: ""
+    translation: "通过“引导”提升人气"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2882,7 +2882,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ▶ジョインアベニューに開店できるお店一覧
-    translation: ""
+    translation: "▶汇合大道可开设的店铺一览"
   - speaker: body
     type: paragraph
     kind: text
@@ -2923,7 +2923,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 花屋
-    translation: ""
+    translation: "花店"
   - speaker: body
     type: paragraph
     kind: text
@@ -2984,7 +2984,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 古道具屋
-    translation: ""
+    translation: "旧货店"
   - speaker: body
     type: paragraph
     kind: text
@@ -3075,7 +3075,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: くじびき屋
-    translation: ""
+    translation: "抽签店"
   - speaker: body
     type: paragraph
     kind: text
@@ -3116,7 +3116,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 道場
-    translation: ""
+    translation: "道场"
   - speaker: body
     type: paragraph
     kind: text
@@ -3167,7 +3167,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: カフェ
-    translation: ""
+    translation: "咖啡馆"
   - speaker: body
     type: paragraph
     kind: text
@@ -3258,7 +3258,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 美容室
-    translation: ""
+    translation: "美容室"
   - speaker: body
     type: paragraph
     kind: text
@@ -3359,7 +3359,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: マーケット
-    translation: ""
+    translation: "市场"
   - speaker: body
     type: paragraph
     kind: text

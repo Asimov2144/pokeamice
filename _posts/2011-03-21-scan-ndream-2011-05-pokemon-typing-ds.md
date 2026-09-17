@@ -75,7 +75,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "バトル&ゲット! ポケモンタイピングDS"
-    translation: ""
+    translation: "战斗&捕捉！宝可梦打字DS"
   - speaker: note
     type: paragraph
     kind: text
@@ -106,7 +106,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "目指すは伝説のタイピスト!"
-    translation: ""
+    translation: "目标是传说中的打字师！"
   - speaker: body
     type: paragraph
     kind: text
@@ -127,7 +127,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 主人公(女の子)
-    translation: ""
+    translation: "主人公（女孩）"
   - speaker: body
     type: paragraph
     kind: text
@@ -148,7 +148,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケモン知識 & タッチタイピングを同時に遊んで学べる!"
-    translation: ""
+    translation: "同时游玩并学习宝可梦知识与盲打！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -179,7 +179,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ニンテンドー ワイヤレスキーボードが付属! キーボードの仕様"
-    translation: ""
+    translation: "附带任天堂无线键盘！键盘规格"
   - speaker: note
     type: paragraph
     kind: text
@@ -200,7 +200,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 主人公(男の子)
-    translation: ""
+    translation: "主人公（男孩）"
   - speaker: body
     type: paragraph
     kind: text
@@ -221,7 +221,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 木内エイジ
-    translation: ""
+    translation: "木内英治"
   - speaker: body
     type: paragraph
     kind: text
@@ -312,7 +312,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: パッケージはコレだ
-    translation: ""
+    translation: "包装就是这个"
   - speaker: note
     type: paragraph
     kind: text
@@ -363,7 +363,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 青葉キイ
-    translation: ""
+    translation: "青叶キイ"
   - speaker: body
     type: paragraph
     kind: text
@@ -404,7 +404,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 60以上のコースと400種類以上のポケモンを探索
-    translation: ""
+    translation: "探索60个以上关卡与400种以上宝可梦"
   - speaker: body
     type: paragraph
     kind: text
@@ -425,7 +425,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: イッシュ地方のポケモンを中心にたくさん登場
-    translation: ""
+    translation: "以合众地区的宝可梦为中心大量登场"
   - speaker: caption
     type: paragraph
     kind: text
@@ -476,7 +476,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: コースもキーボードに対応
-    translation: ""
+    translation: "关卡也对应键盘"
   - speaker: caption
     type: paragraph
     kind: text
@@ -587,7 +587,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 初心者〜上級者まで実力に合わせて目標を達成
-    translation: ""
+    translation: "从初学者到高级者，按实力达成目标"
   - speaker: body
     type: paragraph
     kind: text
@@ -658,7 +658,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "スピード&正確さを極め"
-    translation: ""
+    translation: "追求速度与准确度"
   - speaker: caption
     type: paragraph
     kind: text

@@ -94,7 +94,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "インタビュー&攻略で序盤を徹底ガイド! ポケットモンスター XPOKéMON カロス地方のあるきかた"
-    translation: ""
+    translation: "通过访谈与攻略彻底指南序盘！宝可梦 X·Y 卡洛斯地区漫步指南"
   - speaker: body
     type: paragraph
     kind: text
@@ -115,7 +115,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: INDEX
-    translation: ""
+    translation: "索引"
   - speaker: note
     type: paragraph
     kind: text
@@ -136,7 +136,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "あるきかた 1 人々を知る!ゲームフリークに訊く!人物キャラクター"
-    translation: ""
+    translation: "漫步指南 1 了解人们！询问GAME FREAK！人物角色"
   - speaker: ──
     type: paragraph
     kind: text
@@ -277,7 +277,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスターPOKéMONYTM
-    translation: ""
+    translation: "宝可梦POKéMONYTM"
   - speaker: note
     type: paragraph
     kind: text
@@ -488,7 +488,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "デザインの秘密 一般トレーナーもすべてイラスト化!"
-    translation: ""
+    translation: "设计的秘密 一般训练家也全部插画化！"
   - speaker: ──
     type: paragraph
     kind: text
@@ -749,7 +749,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター X・Y』登場人物名鑑カロスコレクション特別篇
-    translation: ""
+    translation: "《宝可梦 X·Y》登场人物名鉴 卡洛斯收藏特别篇"
   - speaker: GAME FREAK还有更多
     type: heading
     kind: text
@@ -760,7 +760,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゲームフリークがまだまだ
-    translation: ""
+    translation: "GAME FREAK还有更多"
   - speaker: body
     type: paragraph
     kind: text
@@ -951,7 +951,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: だ語る！人物キャラクター開発秘話
-    translation: ""
+    translation: "讲述！人物角色开发秘话"
   - speaker: 活泼亲人、像妹妹一样的女孩子
     type: heading
     kind: text
@@ -962,7 +962,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 活発で人なつっこい妹のような女の子
-    translation: ""
+    translation: "活泼亲人如妹妹般的女孩"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1113,7 +1113,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 初期設定ではカンフーの達人！？
-    translation: ""
+    translation: "初期设定中是功夫达人！？"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1224,7 +1224,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 知的好奇心に満ちた「大人」な仲間
-    translation: ""
+    translation: "充满求知好奇心的“大人”伙伴"
   - speaker: 中津井优
     type: paragraph
     kind: text
@@ -1315,7 +1315,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 美しいもの好きな博士のいろいろな一面
-    translation: ""
+    translation: "喜爱美丽事物的博士的多面性"
   - speaker: body
     type: paragraph
     kind: text
@@ -1416,7 +1416,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「職業カメラマン」のこだわりとは？
-    translation: ""
+    translation: "“职业摄影师”的讲究是什么？"
   - speaker: 中津井优
     type: paragraph
     kind: text
@@ -1527,7 +1527,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発ちょっと秘話ジムリーダーたちはこうして生まれる
-    translation: ""
+    translation: "开发小秘话 道馆馆主们是这样诞生的"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1658,7 +1658,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 長身が際立つ「求道」の人
-    translation: ""
+    translation: "身高出众的“求道”之人"
   - speaker: 中津井优
     type: paragraph
     kind: text
@@ -1729,7 +1729,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 読者へのメッセージ“キャラクター作りで大切にしていること”
-    translation: ""
+    translation: "致读者的寄语“在角色创作中重视的事”"
   - speaker: ──
     type: paragraph
     kind: text

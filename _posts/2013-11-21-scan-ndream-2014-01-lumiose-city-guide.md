@@ -77,7 +77,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ストーリー攻略編特別企画
-    translation: ""
+    translation: "剧情攻略篇特别企划"
   - speaker: 尽情享受！密阿雷市观光指南
     type: heading
     kind: text
@@ -88,7 +88,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "とことん楽しむ!ミアレシティ観光ガイド"
-    translation: ""
+    translation: "尽情享受！密阿雷市观光指南"
   - speaker: body
     type: paragraph
     kind: text
@@ -129,7 +129,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "もう迷わない!? ミアレの「交通」活用術"
-    translation: ""
+    translation: "不再迷路！？密阿雷的「交通」活用术"
   - speaker: body
     type: paragraph
     kind: text
@@ -150,7 +150,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゴーゴーシャトル
-    translation: ""
+    translation: "坐骑山羊穿梭车"
   - speaker: body
     type: paragraph
     kind: text
@@ -191,7 +191,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: タクシー
-    translation: ""
+    translation: "出租车"
   - speaker: body
     type: paragraph
     kind: text
@@ -232,7 +232,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: TMV
-    translation: ""
+    translation: "TMV"
   - speaker: body
     type: paragraph
     kind: text
@@ -263,7 +263,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "タクシーで行ける! ミアレシティ全スポット"
-    translation: ""
+    translation: "乘出租车前往！密阿雷市全景点"
   - speaker: note
     type: paragraph
     kind: text
@@ -324,7 +324,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 知っておきたいミアレシティの歩き方
-    translation: ""
+    translation: "想了解的密阿雷市漫步方法"
   - speaker: body
     type: paragraph
     kind: text
@@ -345,7 +345,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "いきなりのバトルも!?ちょっぴり危険な路地裏"
-    translation: ""
+    translation: "突然遭遇对战！？略显危险的后巷"
   - speaker: body
     type: paragraph
     kind: text
@@ -406,7 +406,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "トリックを教えてくれる人も!ローラースケートは民の足"
-    translation: ""
+    translation: "还有人教你戏法！轮滑手是市民的代步工具"
   - speaker: body
     type: paragraph
     kind: text
@@ -457,7 +457,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: いろんな場所を訪れてスタイリッシュになろう
-    translation: ""
+    translation: "走访各种场所，变得时尚起来吧"
   - speaker: body
     type: paragraph
     kind: text
@@ -528,7 +528,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 一度は訪れたい観光スポット
-    translation: ""
+    translation: "值得一去的观光景点"
   - speaker: body
     type: paragraph
     kind: text
@@ -819,7 +819,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 楽曲魂ミニ トレーナープロモで「変身」気分！？
-    translation: ""
+    translation: "乐曲魂迷你 用训练家宣传片体验「变身」心情！？"
   - speaker: body
     type: paragraph
     kind: text
@@ -1010,7 +1010,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "他の街では見られない!? 専門店"
-    translation: ""
+    translation: "其他城镇见不到！？专卖店"
   - speaker: body
     type: paragraph
     kind: text
@@ -1051,7 +1051,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 03 ポケサロングルーミング場所▶プランタンアベニュー
-    translation: ""
+    translation: "03 宝可美容沙龙馆 地点▶春日大道"
   - speaker: 为多丽米亚修剪出漂亮造型。可以为您修剪多丽米亚。请勤来打理毛发！
     type: heading
     kind: text
@@ -1062,7 +1062,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: トリミアンをすてきにカットトリミアンをカットしてくれます。こまめに通って毛のお手入れを！
-    translation: ""
+    translation: "把多丽米亚修剪得漂漂亮亮会为您修剪多丽米亚。请勤来打理毛发！"
   - speaker: 21 时尚服饰馆 地点▶春日大道
     type: heading
     kind: text
@@ -1073,7 +1073,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 21 メゾン・ド・ポルテ場所▶プランタンアベニュー
-    translation: ""
+    translation: "21 时尚服饰馆 地点▶春日大道"
   - speaker: body
     type: paragraph
     kind: text
@@ -1154,7 +1154,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 24 たまや場所▶オトンヌアベニュー
-    translation: ""
+    translation: "24 精灵球馆 地点▶秋日大道"
   - speaker: 精灵球应有尽有！经营各种精灵球的专卖店。几乎全种类都能凑齐！
     type: heading
     kind: text
@@ -1165,7 +1165,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ボールなら何でもそろう!あらゆるモンスターボールを取り扱う専門店。ほぼ全種類がそろう！"
-    translation: ""
+    translation: "球类一应俱全！经营各种精灵球的专卖店。几乎全种类都有！"
   - speaker: 22 中药局 地点▶春日大道
     type: heading
     kind: text
@@ -1176,7 +1176,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 22 漢方薬局場所▶プランタンアベニュー
-    translation: ""
+    translation: "22 中药局 地点▶春日大道"
   - speaker: 中药齐全的店铺 虽然有点苦但很有效，出售各种中药的店铺。
     type: heading
     kind: text
@@ -1187,7 +1187,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 漢方薬が揃うお店ちょっと苦いけどよく効く、いろいろな漢方薬を売っているお店。
-    translation: ""
+    translation: "中药齐全的店铺虽然有点苦但很有效，出售各种中药的店铺。"
   - speaker: 07 舒尔里什大酒店 地点▶北侧大道
     type: heading
     kind: text
@@ -1198,7 +1198,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 07 グランドホテルシュールリッシュ場所▶ノースサイドストリート
-    translation: ""
+    translation: "07 豪华酒店舒尔里什 地点▶北侧大道"
   - speaker: 住一晚10万日元的高级酒店！提供「最顶级服务」、内装豪华的酒店。前台似乎也在招募帮忙处理酒店工作的人。
     type: heading
     kind: text
@@ -1209,7 +1209,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "1泊10万円の高級ホテル!「最高のサービス」を提供する豪華な内装のホテル。カウンターでは、ホテルの仕事を手伝ってくれる人も募集しているようです。"
-    translation: ""
+    translation: "住一晚10万日元的高级酒店！提供「最顶级服务」、内饰豪华的酒店。柜台似乎在招募帮忙处理酒店工作的人。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1260,7 +1260,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 23 いしや場所▶プランタンアベニュー
-    translation: ""
+    translation: "23 石头馆 地点▶春日大道"
   - speaker: 说不定还能找到珍贵的石头？经营进化之石的店铺。似乎也有客人来出售挖到的宝贝。
     type: heading
     kind: text
@@ -1271,7 +1271,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 貴重な石も見つかるかも?進化の石を取り扱うお店。掘り出し物を売りに来るお客もいるようです。
-    translation: ""
+    translation: "或许还能找到珍贵的石头？经营进化之石的店铺。似乎也有顾客前来出售挖到的宝贝。"
   - speaker: 04 包厢沙龙 地点▶南侧大道
     type: heading
     kind: text
@@ -1282,7 +1282,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 04 サロン・ド・ロージュ場所▶サウスサイドストリート
-    translation: ""
+    translation: "04 包厢沙龙 地点▶南侧大道"
   - speaker: 最新发型从这里开始！街上口碑不错的美容院。想改变发型或发色的时候就来这里！
     type: heading
     kind: text
@@ -1293,7 +1293,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "最新のヘアスタイルはここから!街で評判の美容院。ヘアスタイルやカラーリングを変えたいときに！"
-    translation: ""
+    translation: "最新发型就在这里！街头好评的美容院。想改变发型或发色时就来！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1344,7 +1344,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 27 しるや場所▶オトンヌアベニュー
-    translation: ""
+    translation: "27 果汁馆 地点▶秋日大道"
   - speaker: 宝可梦喜欢的饮品应有尽有，特制果汁是招牌。也可以用果实自己制作果汁。
     type: heading
     kind: text
@@ -1355,7 +1355,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンが喜ぶドリンクいっぱい特製ジュースが名物。きのみを使って自分でジュースを作ることも。
-    translation: ""
+    translation: "宝可梦喜爱的饮品应有尽有 特制果汁是招牌。也可以用果实自己制作果汁。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1396,7 +1396,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 26 ガレット屋場所▶ノースサイドストリート
-    translation: ""
+    translation: "26 格雷派饼店 地点▶北侧大道"
   - speaker: 招牌点心“密阿雷格雷派饼”卖到脱销的人气店铺。根据时间不同，有时也会售罄……
     type: heading
     kind: text
@@ -1407,7 +1407,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 売り切れ続出の人気店名物「ミアレガレット」のお店。時間によっては売り切れのときも…。
-    translation: ""
+    translation: "售罄不断的人气店 招牌「密阿雷格雷派饼」的店铺。根据时间不同也可能售罄……"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1458,7 +1458,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "これぞカロス名物! さまざまなカフェ"
-    translation: ""
+    translation: "这就是卡洛斯名产！各式各样的咖啡馆"
   - speaker: body
     type: paragraph
     kind: text
@@ -1499,7 +1499,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 35 カフェ・ソレイユ場所▶サウスサイドストリート
-    translation: ""
+    translation: "35 旭日咖啡馆 地点▶南侧大道"
   - speaker: 大女演员也会光顾的人气咖啡馆。虽然只是家很普通的咖啡馆，却是人气女演员卡露妮也会光顾的隐藏名店。
     type: heading
     kind: text
@@ -1510,7 +1510,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 大女優も訪れる人気カフェごく普通のカフェですが、人気女優のカルネさんも通う隠れた名店です。
-    translation: ""
+    translation: "大女演员也光顾的人气咖啡馆 虽是极为普通的咖啡馆，却是人气女演员卡露妮也常去的隐藏名店。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1551,7 +1551,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 36 カフェ・フォーカス場所▶サウスサイドストリート
-    translation: ""
+    translation: "36 定焦咖啡馆 地点▶南侧大道"
   - speaker: 摄影爱好者聚集、懂相机的人汇聚的咖啡馆。会教你拍摄的基础知识。
     type: heading
     kind: text
@@ -1562,7 +1562,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 写真好きなカメラ通が集うカメラに詳しい人が集まるカフェ。撮影の基本を教えてくれます。
-    translation: ""
+    translation: "爱好摄影的相机通们聚集 熟悉相机的人聚集的咖啡馆。会教你拍摄的基础。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1613,7 +1613,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 40 フラダリカフェ場所▶ローズ広場のそば
-    translation: ""
+    translation: "40 弗拉达利咖啡店 地点▶粉色广场旁"
   - speaker: 热情洋溢的内饰十分醒目的咖啡馆。作为著名研究者弗拉达利先生经营的咖啡馆而闻名。
     type: heading
     kind: text
@@ -1624,7 +1624,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 情熱的な内装が際立つカフェ名高い研究者、フラダリさんが経営するカフェとして有名なお店です。
-    translation: ""
+    translation: "热情内饰格外醒目的咖啡馆 以著名研究者弗拉达利先生经营的咖啡馆而闻名。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1665,7 +1665,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 39 カフェ・カンコドール場所▶ノースサイドストリート
-    translation: ""
+    translation: "39 罗雀咖啡馆 地点▶北侧大道"
   - speaker: 北侧大道尽头的隐藏好店！？安静又让人放松的店。要是有名人来，说不定一下子就会热闹起来？
     type: heading
     kind: text
@@ -1676,7 +1676,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ノースサイド端の穴場!?静かで落ち着けるお店。有名人が来たら一気ににぎわいそうかも？"
-    translation: ""
+    translation: "北侧大道尽头的隐藏宝地！？安静而能让人放松的店。若有名人来，或许一下子就会热闹起来？"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1717,7 +1717,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "客層もいろいろ! ミアレシティのカフェ一覧"
-    translation: ""
+    translation: "客层也多种多样！密阿雷市的咖啡馆一览"
   - speaker: note
     type: paragraph
     kind: text
@@ -1748,7 +1748,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "『ポケットモンスター X・Y』登場人物名鑑 本格連載スタート!"
-    translation: ""
+    translation: "《宝可梦 X·Y》登场人物名鉴 正式连载开始！"
   - speaker: 关注「在密阿雷市遇到的人们」！ 卡洛斯收藏
     type: heading
     kind: text
@@ -1759,7 +1759,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "「ミアレシティで出会う人々」に注目! カロスコレクション"
-    translation: ""
+    translation: "关注「在密阿雷市相遇的人们」！卡洛斯收藏"
   - speaker: body
     type: paragraph
     kind: text
@@ -1780,7 +1780,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 出会い プラターヌ研究所にて
-    translation: ""
+    translation: "相遇 在布拉塔诺研究所"
   - speaker: body
     type: paragraph
     kind: text
@@ -1831,7 +1831,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 特技 実績も明らかな発明家
-    translation: ""
+    translation: "特长 实绩也很明显的发明家"
   - speaker: body
     type: paragraph
     kind: text
@@ -1852,7 +1852,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ポケモン でんきタイプの使い手!"
-    translation: ""
+    translation: "宝可梦 电属性的使用者！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1923,7 +1923,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 職業 「ホロキャスター」の開発者
-    translation: ""
+    translation: "职业 「全息影像通讯器」的开发者"
   - speaker: body
     type: paragraph
     kind: text
@@ -1974,7 +1974,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ミアレシティジムリーダー シトロン
-    translation: ""
+    translation: "密阿雷市道馆馆主 希特隆"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2015,7 +2015,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 性格 「美しい世界」を求め続ける
-    translation: ""
+    translation: "性格 不断追求「美丽的世界」"
   - speaker: body
     type: paragraph
     kind: text
@@ -2036,7 +2036,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 出会い プリズムタワー前で
-    translation: ""
+    translation: "相遇 在棱镜塔前"
   - speaker: body
     type: paragraph
     kind: text
@@ -2117,7 +2117,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 研究者 フラダリ
-    translation: ""
+    translation: "研究者 弗拉达利"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2158,7 +2158,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: カロスコレクション 読者ラウンジ
-    translation: ""
+    translation: "卡洛斯收藏 读者休息区"
   - speaker: body
     type: paragraph
     kind: text

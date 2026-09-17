@@ -80,7 +80,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 増田順一さんが語る ポケットモンスターブラック・ホワイト 橋 誕生秘話
-    translation: ""
+    translation: "增田顺一讲述 宝可梦 黑·白 桥梁诞生秘话"
   - speaker: body
     type: paragraph
     kind: text
@@ -132,7 +132,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: そもそも、このインタビューの発端は…
-    translation: ""
+    translation: "话说，这次采访的起因是……"
   - speaker: body
     type: paragraph
     kind: text
@@ -153,7 +153,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「長官らしい」と『ポケモン』の意外な関係
-    translation: ""
+    translation: "“长官风格”与《宝可梦》的意外关系"
   - speaker: ──
     type: paragraph
     kind: text
@@ -256,7 +256,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ※1 「レインボーブリッジ」って？
-    translation: ""
+    translation: "※1 什么是“彩虹大桥”？"
   - speaker: body
     type: paragraph
     kind: text
@@ -287,7 +287,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ※2 「ブルックリンブリッジ」って？
-    translation: ""
+    translation: "※2 什么是“布鲁克林大桥”？"
   - speaker: body
     type: paragraph
     kind: text
@@ -328,7 +328,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: スカイアローブリッジへのこだわり
-    translation: ""
+    translation: "对天箭桥的执着"
   - speaker: ──
     type: paragraph
     kind: text
@@ -440,7 +440,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 橋を渡るところからが真のスタート
-    translation: ""
+    translation: "从过桥开始才是真正的起点"
   - speaker: ──
     type: paragraph
     kind: text
@@ -501,7 +501,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ハイリンクの左右の山に注目 別世界をつなぐハイリンクの橋
-    translation: ""
+    translation: "关注连入左右两侧的山 连接另一个世界的连入之桥"
   - speaker: ──
     type: paragraph
     kind: text
@@ -563,7 +563,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 設定ラフスケッチとともに見るスカイアローブリッジ
-    translation: ""
+    translation: "结合设定草图看天箭桥"
   - speaker: caption
     type: paragraph
     kind: text
@@ -614,7 +614,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ハイリンクのイメージは“皇居”
-    translation: ""
+    translation: "连入的意象是“皇居”"
   - speaker: 增田顺一
     type: paragraph
     kind: text
@@ -705,7 +705,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ハイリンクはこの世界でも特殊な空間です
-    translation: ""
+    translation: "连入在这个世界中也是特殊的空间"
   - speaker: caption
     type: paragraph
     kind: text
@@ -746,7 +746,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 地下鉄が走る鋼鉄のトラス橋 シリンダーブリッジ
-    translation: ""
+    translation: "地铁穿行的钢铁桁架桥 圆筒桥"
   - speaker: body
     type: paragraph
     kind: text
@@ -817,7 +817,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 増田さんと行
-    translation: ""
+    translation: "与增田先生同行"
   - speaker: 代表合众地区、最大最长的吊桥
     type: heading
     kind: text
@@ -828,7 +828,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方を代表最大最長のつり橋
-    translation: ""
+    translation: "代表合众地区最大最长的吊桥"
   - speaker: caption
     type: paragraph
     kind: text
@@ -849,7 +849,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 海運を担う赤い可動橋 ホドモエの跳ね橋
-    translation: ""
+    translation: "承担海运的红色活动桥 帆巴吊桥"
   - speaker: body
     type: paragraph
     kind: text
@@ -900,7 +900,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: “自由じゃないことの楽しさ”もあると思うんです
-    translation: ""
+    translation: "我认为也有“不自由的乐趣”"
   - speaker: caption
     type: paragraph
     kind: text
@@ -971,7 +971,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 橋作りとゲーム作りに通じるもの
-    translation: ""
+    translation: "造桥与做游戏相通之处"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1022,7 +1022,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方橋巡り
-    translation: ""
+    translation: "合众地区桥梁巡游"
   - speaker: 支撑人们生活的石造眼镜桥 村庄桥
     type: heading
     kind: text
@@ -1033,7 +1033,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 人々の暮らしを支える石作りの眼鏡橋 ビレッジブリッジ
-    translation: ""
+    translation: "支撑人们生活的石造眼镜桥 村庄桥"
   - speaker: note
     type: paragraph
     kind: text
@@ -1104,7 +1104,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 未来をイメージした最先端のアーチ橋 ワンダーブリッジ
-    translation: ""
+    translation: "以未来为意象的最尖端拱桥 奇幻桥"
   - speaker: note
     type: paragraph
     kind: text
@@ -1185,7 +1185,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: スカイアローブリッジ
-    translation: ""
+    translation: "天箭桥"
   - speaker: body
     type: paragraph
     kind: text

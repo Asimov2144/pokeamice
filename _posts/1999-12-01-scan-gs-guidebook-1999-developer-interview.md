@@ -86,7 +86,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "開発スタッフ直撃インタビュー ポケモン金・銀のココが知りたい!"
-    translation: ""
+    translation: "开发人员直击采访 《宝可梦 金·银》的这些想知道！"
   - speaker: body
     type: paragraph
     kind: text
@@ -107,7 +107,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ●答えてくださった方々(写真右から)増田順一さんサブディレクター、プランニングと音楽を担当。「こんなゲームにしていこう」と指揮した人だ。
-    translation: ""
+    translation: "●回答我们的人（照片从右起）增田顺一先生，副总监，负责策划和音乐。是提出“做成这样的游戏吧”并指挥的人。"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -148,7 +148,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 完成までに時間がかかったのは、どうしてですか?
-    translation: ""
+    translation: "为什么完成花了这么长时间？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -319,7 +319,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新しいポケモンは、どんなふうに生み出されたのですか?
-    translation: ""
+    translation: "新宝可梦是怎样诞生的？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -550,7 +550,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケルスって何ですか?病気じゃないんですか?
-    translation: ""
+    translation: "宝可病毒是什么？不是病吗？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -691,7 +691,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ウワサの251匹めのポケモンは、本当にいるのですか?
-    translation: ""
+    translation: "传闻中的第251只宝可梦真的存在吗？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -893,7 +893,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: なかなか会えないポケモンは、どうしたら捕まるのですか?
-    translation: ""
+    translation: "很难遇到的宝可梦，怎样才能捉到？"
   - speaker: ──
     type: paragraph
     kind: text

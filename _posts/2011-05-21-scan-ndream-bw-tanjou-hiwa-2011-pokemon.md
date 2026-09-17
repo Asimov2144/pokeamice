@@ -104,7 +104,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 生みの親たちが語る秘エピソードポケモン誕生
-    translation: ""
+    translation: "孕育者讲述的秘闻 宝可梦诞生"
   - speaker: 讲述这些故事的是以下三位！！
     type: heading
     kind: text
@@ -115,7 +115,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 語ってくれたのは、このお三方！！
-    translation: ""
+    translation: "讲述这些的是这三位！！"
   - speaker: GAME FREAK 董事 2D艺术总监 杉森建
     type: heading
     kind: text
@@ -126,7 +126,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームフリーク 取締役2Dアートディレクター杉森 建さん
-    translation: ""
+    translation: "GAME FREAK 董事 2D艺术总监 杉森建"
   - speaker: caption
     type: paragraph
     kind: text
@@ -147,7 +147,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームフリーク3Dアートディレクター海野隆雄さん
-    translation: ""
+    translation: "GAME FREAK 3D艺术总监 海野隆雄"
   - speaker: caption
     type: paragraph
     kind: text
@@ -168,7 +168,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームフリーク2Dグラフィックデザイナー大村祐介さん
-    translation: ""
+    translation: "GAME FREAK 2D图形设计师 大村祐介"
   - speaker: caption
     type: paragraph
     kind: text
@@ -209,7 +209,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: スタンダードなデザインを目指す
-    translation: ""
+    translation: "以标准设计为目标"
   - speaker: ──
     type: paragraph
     kind: text
@@ -261,7 +261,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: １月号に掲載されたスペシャル色紙！！
-    translation: ""
+    translation: "刊登于1月号的特别色纸！！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -363,7 +363,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン誕生秘話＊総集 満載！！ 秘話 総集編
-    translation: ""
+    translation: "宝可梦诞生秘话＊总集 满载！！ 秘话 总集篇"
   - speaker: body
     type: paragraph
     kind: text
@@ -384,7 +384,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 新しいポケモンのイラストが出来るまで
-    translation: ""
+    translation: "新宝可梦的插画是如何诞生的"
   - speaker: ──
     type: paragraph
     kind: text
@@ -495,7 +495,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 生き生きと動くポケモンバトル
-    translation: ""
+    translation: "生动活动的宝可梦对战"
   - speaker: ──
     type: paragraph
     kind: text
@@ -636,7 +636,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 人物のイラストが生まれるまで
-    translation: ""
+    translation: "人物插画是如何诞生的"
   - speaker: ──
     type: paragraph
     kind: text
@@ -777,7 +777,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最初の3匹はスタンダードに
-    translation: ""
+    translation: "最初的3只采用标准设计"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -828,7 +828,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 最初に決まったのはポカブ
-    translation: ""
+    translation: "最先定下来的是暖暖猪"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -919,7 +919,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ダイケンキかんろくポケモン●みず 難産だったミジュマルと進化形
-    translation: ""
+    translation: "大剑鬼 威严宝可梦●水 难产的水水獭与进化形"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -940,7 +940,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 役割分担からイメージが固まる
-    translation: ""
+    translation: "从角色分工确定形象"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1011,7 +1011,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ミネズミ みはりポケモン●ノーマル マメパト こばとポケモン●ノーマル・ひこう ハトーボー のばとポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "探探鼠 放哨宝可梦●一般 豆豆鸽 小鸽宝可梦●一般·飞行 咕咕鸽 野鸽宝可梦●一般·飞行"
   - speaker: 步哨鼠 警戒宝可梦●一般 轰隆雉鸡 自尊心宝可梦●一般・飞行
     type: heading
     kind: text
@@ -1022,7 +1022,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ミルホッグ けいかいポケモン●ノーマル ケンホロウ プライドポケモン●ノーマル・ひこう
-    translation: ""
+    translation: "步哨鼠 警戒宝可梦●一般 高傲雉鸡 自尊心宝可梦●一般·飞行"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1053,7 +1053,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヤナップ くさざるポケモン●くさ バオップ こうおんポケモン●ほのお ヤナッキー とげざるポケモン●くさ ヒヤップ みずかけポケモン●みず
-    translation: ""
+    translation: "花椰猴 草猴宝可梦●草 爆香猴 高温宝可梦●火 花椰猿 刺猴宝可梦●草 冷水猴 泼水宝可梦●水"
   - speaker: 爆香猿 火花宝可梦●火
     type: heading
     kind: text
@@ -1064,7 +1064,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バオッキー ひのこポケモン●ほのお
-    translation: ""
+    translation: "爆香猿 小火星宝可梦●火"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1095,7 +1095,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒヤッキー ほうすいポケモン●みず
-    translation: ""
+    translation: "冷水猿 放水宝可梦●水"
   - speaker: image
     type: image
     kind: image
@@ -1116,7 +1116,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チラーミィ チンチラポケモン●ノーマル
-    translation: ""
+    translation: "泡沫栗鼠 栗鼠宝可梦●一般"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1137,7 +1137,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チラチーノ スカーフポケモン●ノーマル
-    translation: ""
+    translation: "奇诺栗鼠 围巾宝可梦●一般"
   - speaker: note
     type: paragraph
     kind: text
@@ -1158,7 +1158,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: タブンネ ヒヤリングポケモン●ノーマル
-    translation: ""
+    translation: "差不多娃娃 听力宝可梦●一般"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1179,7 +1179,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ムンナ ゆめくいポケモン●エスパー ムシャーナ ゆめうつつポケモン●エスパー カブルモ かぶりつきポケモン●むし
-    translation: ""
+    translation: "食梦梦 食梦宝可梦●超能力 梦梦蚀 半梦半醒宝可梦●超能力 盖盖虫 啃咬宝可梦●虫"
   - speaker: 敏捷虫 脱壳宝可梦●虫 小嘴蜗 蜗牛宝可梦●虫 骑士蜗牛 骑兵宝可梦●虫・钢
     type: heading
     kind: text
@@ -1190,7 +1190,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アギルダー からぬけポケモン●むし チョボマキ マイマイポケモン●むし シュバルゴ きへいポケモン●むし・はがね
-    translation: ""
+    translation: "骑士蜗牛 脱壳宝可梦●虫 小嘴蜗 蜗牛宝可梦●虫 敏捷虫 骑兵宝可梦●虫·钢"
   - speaker: note
     type: paragraph
     kind: text
@@ -1221,7 +1221,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: モンメンわたたまポケモン●くさ
-    translation: ""
+    translation: "木棉球 棉球宝可梦●草"
   - speaker: 百合根娃娃 根茎宝可梦●草 风妖精 风隐宝可梦●草 裙儿小姐 花饰宝可梦●草
     type: heading
     kind: text
@@ -1232,7 +1232,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: チュリネねっこポケモン●くさ エルフーンかぜかくれポケモン●くさ ドレディアはなかざりポケモン●くさ
-    translation: ""
+    translation: "百合根娃娃 根茎宝可梦●草 风妖精 风隐宝可梦●草 裙儿小姐 花饰宝可梦●草"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1253,7 +1253,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: エモンガモモンガポケモン●でんき・ひこう
-    translation: ""
+    translation: "电飞鼠 飞鼠宝可梦●电·飞行"
   - speaker: 象征鸟 似鸟宝可梦●超能力・飞行
     type: heading
     kind: text
@@ -1264,7 +1264,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シンボラーとりもどきポケモン●エスパー・ひこう
-    translation: ""
+    translation: "象征鸟 似鸟宝可梦●超能力·飞行"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1315,7 +1315,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒトモシ
-    translation: ""
+    translation: "烛光灵"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1336,7 +1336,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シャンデラ
-    translation: ""
+    translation: "水晶灯火灵"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1357,7 +1357,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ランプラー
-    translation: ""
+    translation: "灯火幽灵"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1378,7 +1378,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ドッコラー
-    translation: ""
+    translation: "搬运小匠"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1399,7 +1399,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ドテッコツ
-    translation: ""
+    translation: "铁骨土人"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1430,7 +1430,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ローブシン
-    translation: ""
+    translation: "修缮老头"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1451,7 +1451,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ギアル
-    translation: ""
+    translation: "齿轮儿"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1482,7 +1482,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ギギアル
-    translation: ""
+    translation: "齿轮组"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1503,7 +1503,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ギギギアル
-    translation: ""
+    translation: "齿轮怪"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1534,7 +1534,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヤブクロンゴミぶくろポケモン●どく
-    translation: ""
+    translation: "破破袋 垃圾袋宝可梦●毒"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1575,7 +1575,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ダストダスゴミすてばポケモン●どく クマシュンひょうけつポケモン●こおり
-    translation: ""
+    translation: "灰尘山 垃圾场宝可梦●毒 喷嚏熊 结冰宝可梦●冰"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -1606,7 +1606,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ツンベアーとうけつポケモン●こおり
-    translation: ""
+    translation: "冻原熊 冻结宝可梦●冰"
   - speaker: 四季鹿 季节宝可梦●一般・草
     type: heading
     kind: text
@@ -1617,7 +1617,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シキジカきせつポケモン●ノーマル・くさ
-    translation: ""
+    translation: "四季鹿 季节宝可梦●一般·草"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1638,7 +1638,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メブキジカきせつポケモン●ノーマル・くさ
-    translation: ""
+    translation: "萌芽鹿 季节宝可梦●一般·草"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1689,7 +1689,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: キリキザン とうじんポケモン●あく・はがね
-    translation: ""
+    translation: "劈斩司令 刀刃宝可梦●恶·钢"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1710,7 +1710,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: コマタナ はものポケモン●あく・はがね
-    translation: ""
+    translation: "驹刀小兵 利器宝可梦●恶·钢"
   - speaker: 大村祐介
     type: paragraph
     kind: text
@@ -1731,7 +1731,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: シビビール でんきうおポケモン●でんき シビシラス でんきうおポケモン●でんき シビルドン でんきうおポケモン●でんき クイタラン
-    translation: ""
+    translation: "麻麻鳗 电鱼宝可梦●电 麻麻小鱼 电鱼宝可梦●电 麻麻鳗鱼王 电鱼宝可梦●电 食蚁炉"
   - speaker: 食蚁兽宝可梦●火
     type: heading
     kind: text
@@ -1742,7 +1742,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: アリクイポケモン●ほのお
-    translation: ""
+    translation: "食蚁兽宝可梦●火"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1763,7 +1763,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: アイアント てつアリポケモン●むし・はがね
-    translation: ""
+    translation: "铁蚁 铁蚁宝可梦●虫·钢"
   - speaker: image
     type: image
     kind: image
@@ -1784,7 +1784,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: キバゴ キバポケモン●ドラゴン オノンド あごオノポケモン●ドラゴン
-    translation: ""
+    translation: "牙牙 牙宝可梦●龙 斧牙龙 颚斧宝可梦●龙"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1805,7 +1805,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: オノノクス あごオノポケモン●ドラゴン ダルマッカ だるまポケモン●ほのお
-    translation: ""
+    translation: "双斧战龙 颚斧宝可梦●龙 火红不倒翁 不倒翁宝可梦●火"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1826,7 +1826,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ヒヒダルマ
-    translation: ""
+    translation: "达摩狒狒"
   - speaker: 爆燃宝可梦●火（普通模式）、火·超能力（达摩模式） 胖嘟嘟 漂浮宝可梦●水·幽灵 轻飘飘
     type: heading
     kind: text
@@ -1837,7 +1837,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: えんじょうポケモン●ほのお（ノーマルモード）、ほのお・エスパー（ダルマモード） ブルンゲル ふゆうポケモン●みず・ゴースト プルリル
-    translation: ""
+    translation: "爆燃宝可梦●火（普通模式）、火·超能力（达摩模式） 胖嘟嘟 漂浮宝可梦●水·幽灵 蓝蟾蜍"
   - speaker: 漂浮宝可梦●水·幽灵
     type: heading
     kind: text
@@ -1848,7 +1848,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ふゆうポケモン●みず・ゴースト
-    translation: ""
+    translation: "漂浮宝可梦●水·幽灵"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1879,7 +1879,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: デスマスたましいポケモン●ゴースト
-    translation: ""
+    translation: "哭哭面具 魂宝可梦●幽灵"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1900,7 +1900,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: マッギョトラップポケモン●じめん・でんき
-    translation: ""
+    translation: "泥巴鱼 陷阱宝可梦●地面·电"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -1941,7 +1941,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: オタマロおたまポケモン●みず デスカーンかんおけポケモン●ゴースト
-    translation: ""
+    translation: "圆蝌蚪 蝌蚪宝可梦●水 死神棺 棺木宝可梦●幽灵"
   - speaker: 岩殿居蟹 岩居宝可梦●虫・岩
     type: heading
     kind: text
@@ -1952,7 +1952,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: イワパレスいわやどポケモン●むし・いわ
-    translation: ""
+    translation: "岩殿居蟹 岩居宝可梦●虫·岩石"
   - speaker: 蟾蜍王 振动宝可梦●水・地面
     type: heading
     kind: text
@@ -1963,7 +1963,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ガマゲロゲしんどうポケモン●みず・じめん
-    translation: ""
+    translation: "蟾蜍王 振动宝可梦●水·地面"
   - speaker: 蓝蟾蜍 振动宝可梦●水・地面
     type: heading
     kind: text
@@ -1974,7 +1974,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ガマガルしんどうポケモン●みず・じめん
-    translation: ""
+    translation: "蓝蟾蜍 振动宝可梦●水·地面"
   - speaker: 石居蟹 岩居宝可梦●虫・岩石
     type: heading
     kind: text
@@ -1985,7 +1985,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: イシズマイいわやどポケモン●むし・いわ
-    translation: ""
+    translation: "石居蟹 岩居宝可梦●虫·岩石"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2056,7 +2056,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゴビットゴーレムポケモン●じめん・ゴースト
-    translation: ""
+    translation: "泥偶小人 魔像宝可梦●地面·幽灵"
   - speaker: 泥偶巨人 魔像宝可梦●地面・幽灵
     type: heading
     kind: text
@@ -2067,7 +2067,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゴルーグゴーレムポケモン●じめん・ゴースト
-    translation: ""
+    translation: "泥偶巨人 魔像宝可梦●地面·幽灵"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2098,7 +2098,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バニプッチしんせつポケモン●こおり バニリッチひょうせつポケモン●こおり
-    translation: ""
+    translation: "迷你冰 新雪宝可梦●冰 多多冰 冰雪宝可梦●冰"
   - speaker: 双倍多多冰 暴风雪宝可梦●冰 野蛮鲈鱼 粗暴宝可梦●水
     type: heading
     kind: text
@@ -2109,7 +2109,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: バイバニラブリザードポケモン●こおり バスラオらんぼうポケモン●みず
-    translation: ""
+    translation: "双倍多多冰 暴风雪宝可梦●冰 野蛮鲈鱼 粗暴宝可梦●水"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2300,7 +2300,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: モロバレル きのこポケモン●くさ・どく タマゲタケ きのこポケモン●くさ・どく ナットレイ とげだまポケモン●くさ・はがね
-    translation: ""
+    translation: "败露球菇 蘑菇宝可梦●草·毒 哎呀球菇 蘑菇宝可梦●草·毒 坚果哑铃 刺球宝可梦●草·钢"
   - speaker: 索罗亚 恶狐宝可梦●恶
     type: heading
     kind: text
@@ -2311,7 +2311,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゾロア わるぎつねポケモン●あく
-    translation: ""
+    translation: "索罗亚 恶狐宝可梦●恶"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2332,7 +2332,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: テッシード とげのみポケモン●くさ・はがね
-    translation: ""
+    translation: "种子铁球 刺果宝可梦●草·钢"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2353,7 +2353,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ズルズキン あくとうポケモン●あく・かくとう ズルッグ だっぴポケモン●あく・かくとう
-    translation: ""
+    translation: "头巾混混 恶党宝可梦●恶·格斗 滑头小子 蜕皮宝可梦●恶·格斗"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2374,7 +2374,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゾロアーク ばけぎつねポケモン●あく
-    translation: ""
+    translation: "索罗亚克 妖狐宝可梦●恶"
   - speaker: image
     type: image
     kind: image
@@ -2395,7 +2395,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: コジョンド
-    translation: ""
+    translation: "师父鼬"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2426,7 +2426,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: コジョフー
-    translation: ""
+    translation: "功夫鼬"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2477,7 +2477,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ジヘッド
-    translation: ""
+    translation: "双首暴龙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2498,7 +2498,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: サザンドラ
-    translation: ""
+    translation: "三首恶龙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2519,7 +2519,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: モノズ
-    translation: ""
+    translation: "单首龙"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2540,7 +2540,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ビクティニ
-    translation: ""
+    translation: "比克提尼"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2581,7 +2581,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: レシラム
-    translation: ""
+    translation: "莱希拉姆"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2602,7 +2602,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 正統なドラゴンをイメージ
-    translation: ""
+    translation: "以正统的龙为意象"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2623,7 +2623,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゼクロム
-    translation: ""
+    translation: "捷克罗姆"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2644,7 +2644,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 色数が少ないのは恐怖
-    translation: ""
+    translation: "颜色数量少令人恐惧"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2675,7 +2675,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: トルネロスせんぷうポケモン●ひこう
-    translation: ""
+    translation: "龙卷云 旋风宝可梦●飞行"
   - speaker: 土地云 丰饶宝可梦●地面・飞行
     type: heading
     kind: text
@@ -2686,7 +2686,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ランドロスほうじょうポケモン●じめん・ひこう
-    translation: ""
+    translation: "土地云 丰饶宝可梦●地面·飞行"
   - speaker: 雷电云 雷击宝可梦●电・飞行
     type: heading
     kind: text
@@ -2697,7 +2697,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ボルトロスらいげきポケモン●でんき・ひこう
-    translation: ""
+    translation: "雷电云 雷击宝可梦●电·飞行"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2718,7 +2718,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ナゲキじゅうどうポケモン●かくとう
-    translation: ""
+    translation: "投摔鬼 柔道宝可梦●格斗"
   - speaker: 打击鬼 空手道宝可梦●格斗
     type: heading
     kind: text
@@ -2729,7 +2729,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ダゲキからてポケモン●かくとう
-    translation: ""
+    translation: "打击鬼 空手道宝可梦●格斗"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2760,7 +2760,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: コバルオン てっしんポケモン●はがね・かくとう テラキオン がんくつポケモン●いわ・かくとう ビリジオン そうげんポケモン●くさ・かくとう
-    translation: ""
+    translation: "勾帕路翁 铁心宝可梦●钢·格斗 代拉基翁 岩窟宝可梦●岩石·格斗 毕力吉翁 草原宝可梦●草·格斗"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -2821,7 +2821,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: イッシュ地方のポケモンで一番のお気に入りは？
-    translation: ""
+    translation: "合众地区的宝可梦中，最喜欢的是？"
   - speaker: 杉森建
     type: paragraph
     kind: text
@@ -2872,7 +2872,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 特別企画『ポケモンB・W』一枚絵ギャラリー
-    translation: ""
+    translation: "特别企划《宝可梦B·W》单幅画画廊"
   - speaker: body
     type: paragraph
     kind: text
@@ -2893,7 +2893,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「バトルサブウェイ」
-    translation: ""
+    translation: "“对战地铁”"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2914,7 +2914,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ポケモンミュージカル」
-    translation: ""
+    translation: "“宝可梦音乐剧”"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2935,7 +2935,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ゲーチスの演説」
-    translation: ""
+    translation: "“魁奇思的演说”"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2956,7 +2956,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ブラックシティ」＆「ホワイトフォレスト」
-    translation: ""
+    translation: "“黑色市”＆“白森林”"
   - speaker: caption
     type: paragraph
     kind: text
@@ -2978,7 +2978,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ヒウンシティ」
-    translation: ""
+    translation: "“飞云市”"
   - speaker: caption
     type: paragraph
     kind: text

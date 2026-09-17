@@ -106,7 +106,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Pokémon ポケットモンスター ブラック2
-    translation: ""
+    translation: "Pokémon 宝可梦 黑2"
   - speaker: Pokémon 宝可梦 白2 《宝可梦 黑2・白2》 正因为是《2》才能做到
     type: heading
     kind: text
@@ -117,7 +117,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: Pokémon ポケットモンスター ホワイト2 『ポケットモンスターブラック2・ホワイト 『2』だからでき
-    translation: ""
+    translation: "Pokémon 宝可梦 白2 《宝可梦 黑2·白2》因为『2』所以能做到"
   - speaker: body
     type: paragraph
     kind: text
@@ -138,7 +138,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: インタビュー ＋ 攻略 2大特集
-    translation: ""
+    translation: "访谈 ＋ 攻略 两大特辑"
   - speaker: note
     type: paragraph
     kind: text
@@ -169,7 +169,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ポケモンリーグチャンピオン アイリス！あなたに 勝ちます!!!"
-    translation: ""
+    translation: "宝可梦联盟冠军 艾莉丝！我要战胜你！！！"
   - speaker: note
     type: paragraph
     kind: text
@@ -201,7 +201,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 開発スタッフインタビュー
-    translation: ""
+    translation: "开发人员访谈"
   - speaker: 去做只有「2」才能做到的冒险！！
     type: heading
     kind: text
@@ -212,7 +212,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "冒険を!!"
-    translation: ""
+    translation: "冒险！！"
   - speaker: note
     type: paragraph
     kind: text
@@ -273,7 +273,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ゲームフリークは職種の垣根を設けない
-    translation: ""
+    translation: "GAME FREAK不设职位界限"
   - speaker: ──
     type: paragraph
     kind: text
@@ -446,7 +446,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: DSで、2バージョンで、続編である理由
-    translation: ""
+    translation: "在DS上、以两个版本、作为续篇的理由"
   - speaker: ──
     type: paragraph
     kind: text
@@ -507,7 +507,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 本当は出すつもりのなかった「その後のN」
-    translation: ""
+    translation: "原本没打算推出的“那之后的N”"
   - speaker: ──
     type: paragraph
     kind: text
@@ -648,7 +648,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 異なる考えの人々の対立、そして共存を描く
-    translation: ""
+    translation: "描绘想法不同的人们的对立与共存"
   - speaker: 海野隆雄
     type: paragraph
     kind: text
@@ -729,7 +729,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 本来の姿ではなかった『ポケモンB・W』のキュレム
-    translation: ""
+    translation: "并非原本姿态的《宝可梦 黑·白》的酋雷姆"
   - speaker: ──
     type: paragraph
     kind: text
@@ -870,7 +870,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター ブラック2・ホワイト2 2大特集 インタビュー 攻略
-    translation: ""
+    translation: "宝可梦 黑2·白2 两大特辑 访谈 攻略"
   - speaker: 不变也有其意义。两年后的角色们
     type: heading
     kind: text
@@ -881,7 +881,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 変わらないことにも意味が。2年後のキャラたち
-    translation: ""
+    translation: "不变也有其意义。两年后的角色们"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1092,7 +1092,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモンB・W』をベースに“冒険活劇”色も
-    translation: ""
+    translation: "以《宝可梦 黑·白》为基础，也带有“冒险活剧”色彩"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1223,7 +1223,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "ホワイトキュレムの正体とは!?"
-    translation: ""
+    translation: "焰白酋雷姆的真面目是！？"
   - speaker: note
     type: paragraph
     kind: text
@@ -1254,7 +1254,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 交換日記のような合作で矢継ぎ早に制作
-    translation: ""
+    translation: "以交换日记般的合作接连不断地制作"
   - speaker: 一之濑刚
     type: paragraph
     kind: text
@@ -1385,7 +1385,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: メロディを生かしつつ、アレンジで個性を
-    translation: ""
+    translation: "在发挥旋律的同时，通过编曲展现个性"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1536,7 +1536,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "今月はここまで!! 最後にファンへのメッセージをどうぞ!"
-    translation: ""
+    translation: "本月就到这里！！最后请对粉丝们说几句话！"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1627,7 +1627,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "『ポケモンB2・W2』のサントラCD発売!"
-    translation: ""
+    translation: "《宝可梦B2·W2》原声CD发售！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1648,7 +1648,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ニンテンドーDS ポケモンブラック2・ホワイト2 スーパーミュージックコンプリート
-    translation: ""
+    translation: "任天堂DS 宝可梦 黑2·白2 超级音乐全集"
   - speaker: note
     type: paragraph
     kind: text
@@ -1689,7 +1689,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "5ページではまだまだ語りきれない!!10月号（8/21発売）で第2弾掲載!"
-    translation: ""
+    translation: "5页还说不完！！10月号（8/21发售）刊登第2弹！"
   - speaker: 附录：同期攻略与资料页
     type: heading
     kind: text
@@ -1700,7 +1700,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1722,7 +1722,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター ブラック2・ホワイト2 2大特集 攻略 インタビュー
-    translation: ""
+    translation: "宝可梦 黑2·白2 两大特辑 攻略 访谈"
   - speaker: 攻略 先来查看新要素与看点！！
     type: heading
     kind: text
@@ -1733,7 +1733,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: "攻略 まずは新要素＆見どころを チェック!!"
-    translation: ""
+    translation: "攻略 先来查看新要素＆看点！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1754,7 +1754,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "ゲーチスがキュレムとともに登場!"
-    translation: ""
+    translation: "魁奇思与酋雷姆一同登场！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1805,7 +1805,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 空白の2年間を描く「おもいでリンク」
-    translation: ""
+    translation: "描绘空白2年的“回忆链接”"
   - speaker: body
     type: paragraph
     kind: text
@@ -1886,7 +1886,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 新たな遊びのカギを開く「キーシステム」
-    translation: ""
+    translation: "开启全新游玩关键的“钥匙系统”"
   - speaker: body
     type: paragraph
     kind: text
@@ -1987,7 +1987,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "PWTに特別なトーナメントを配信!"
-    translation: ""
+    translation: "在PWT发布特别锦标赛！"
   - speaker: body
     type: paragraph
     kind: text

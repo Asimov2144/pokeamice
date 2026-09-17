@@ -104,7 +104,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ＤＮＡを受け継ぎ進化する
-    translation: ""
+    translation: "继承DNA并进化"
   - speaker: 声音团队最初期只有1个人！？
     type: heading
     kind: text
@@ -115,7 +115,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: "サウンドチームの最初期はたった1人!?"
-    translation: ""
+    translation: "声音团队最初期只有1人!?"
   - speaker: ──
     type: paragraph
     kind: text
@@ -276,7 +276,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: カロスの旅情とフランス
-    translation: ""
+    translation: "卡洛斯的旅情与法国"
   - speaker: ──
     type: paragraph
     kind: text
@@ -377,7 +377,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 楽曲魂特別編
-    translation: ""
+    translation: "乐曲魂特别篇"
   - speaker: note
     type: paragraph
     kind: text
@@ -408,7 +408,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「フランスを描いた街並み」を音楽で「新しい世界」に変える
-    translation: ""
+    translation: "用音乐将「描绘法国的街景」变为「新世界」"
   - speaker: caption
     type: paragraph
     kind: text
@@ -459,7 +459,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「ポケモンらしい」音とは何か
-    translation: ""
+    translation: "什么是「像宝可梦」的声音"
   - speaker: ──
     type: paragraph
     kind: text
@@ -560,7 +560,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 身が引き締まるシャラシティの曲
-    translation: ""
+    translation: "令人紧张起来的娑罗市曲子"
   - speaker: ──
     type: paragraph
     kind: text
@@ -751,7 +751,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: サウンドチーム インタビュー
-    translation: ""
+    translation: "声音团队访谈"
   - speaker: note
     type: paragraph
     kind: text
@@ -802,7 +802,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ジムリーダー戦の曲は、増田さんからのメッセージ
-    translation: ""
+    translation: "道馆馆主战的曲子，是增田先生传来的讯息"
   - speaker: caption
     type: paragraph
     kind: text
@@ -843,7 +843,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 足立さんとフレア団が起爆剤？
-    translation: ""
+    translation: "足立先生与闪焰队是起爆剂？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1125,7 +1125,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ジムリーダーと生のギターとクラブ・ゲームフリーク
-    translation: ""
+    translation: "道馆馆主与现场吉他与大钳蟹·GAME FREAK"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1366,7 +1366,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: セッションのようなギター生演奏収録
-    translation: ""
+    translation: "如同即兴合奏般的吉他现场演奏收录"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1517,7 +1517,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「一曲いかが？」でサウンドチームにチップを！？
-    translation: ""
+    translation: "用「来一曲如何？」给声音团队小费！？"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1828,7 +1828,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 分析で見えてきた「ポケモンらしい音楽」
-    translation: ""
+    translation: "通过分析看到的「像宝可梦的音乐」"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2049,7 +2049,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 言葉をしゃべるように
-    translation: ""
+    translation: "像说话一样"
   - speaker: 佐藤仁美
     type: paragraph
     kind: text
@@ -2090,7 +2090,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: すべての「音」に意味があることが「ポケモンらしさ」につながる ともだちと演出への熱意
-    translation: ""
+    translation: "所有「声音」都有意义，这与「像宝可梦」相连 对朋友与演出的热情"
   - speaker: 景山将太
     type: paragraph
     kind: text
@@ -2261,7 +2261,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター X・Y
-    translation: ""
+    translation: "宝可梦 X·Y"
   - speaker: 在《宝可梦 X·Y》声音开发中感到高兴的事
     type: heading
     kind: text
@@ -2272,7 +2272,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン X・Y』のサウンド開発でうれしかったこと
-    translation: ""
+    translation: "在《宝可梦 X·Y》声音开发中感到高兴的事"
   - speaker: ──
     type: paragraph
     kind: text
@@ -2673,7 +2673,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケットモンスター X・Y オリジナルサウンドトラック
-    translation: ""
+    translation: "宝可梦 X·Y 原声带"
   - speaker: body
     type: paragraph
     kind: text

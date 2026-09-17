@@ -105,7 +105,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 携帯獣概論／Dr.オーキド
-    translation: ""
+    translation: "携兽概论／大木博士"
   - speaker: “宝可梦学”的开端与我与他们相遇的经过
     type: heading
     kind: text
@@ -116,7 +116,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: “ポケモン学”の始まりと私が彼らと出会った経緯
-    translation: ""
+    translation: "“宝可梦学”的开端与我遇见它们的经过"
   - speaker: body
     type: paragraph
     kind: text
@@ -208,7 +208,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンとの共存を急速に促した〝モンスターボール〟
-    translation: ""
+    translation: "迅速促进与宝可梦共存的“精灵球”"
   - speaker: body
     type: paragraph
     kind: text
@@ -239,7 +239,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンとは何なのか？200万年も続く生命の神秘
-    translation: ""
+    translation: "宝可梦是什么？延续200万年的生命之谜"
   - speaker: body
     type: paragraph
     kind: text
@@ -290,7 +290,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン最先端／マサキ
-    translation: ""
+    translation: "宝可梦最前沿／正辉"
   - speaker: 想集齐所有宝可梦就到街上去！去交换吧！！
     type: heading
     kind: text
@@ -301,7 +301,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ポケモンをすべて揃えるなら街に出よう！交換をしよう！！
-    translation: ""
+    translation: "想集齐所有宝可梦就上街吧！去交换吧！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -412,7 +412,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンを強く育てたいなら薬を使おう！交換もしよう！！
-    translation: ""
+    translation: "想培养强大的宝可梦就用药物吧！也去交换吧！！"
   - speaker: body
     type: paragraph
     kind: text
@@ -533,7 +533,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン道を極めたならば自分流の組み合わせに挑戦
-    translation: ""
+    translation: "极尽宝可梦之道后，挑战自己流派的组合"
   - speaker: body
     type: paragraph
     kind: text
@@ -684,7 +684,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモン・フレンドリィ・チェーン
-    translation: ""
+    translation: "宝可梦友好连锁"
   - speaker: 【一流训练家也赞不绝口！！值得信赖、实绩斐然的商品阵容】
     type: heading
     kind: text
@@ -695,7 +695,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 【 一流トレーナーも絶賛！！信頼と実績の品揃え 】
-    translation: ""
+    translation: "【 一流训练家也盛赞！！值得信赖与实绩的商品阵容 】"
   - speaker: note
     type: paragraph
     kind: text
@@ -726,7 +726,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 育て屋本舗
-    translation: ""
+    translation: "培育屋本铺"
   - speaker: note
     type: paragraph
     kind: text
@@ -767,7 +767,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -789,7 +789,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンオリンピック
-    translation: ""
+    translation: "宝可梦奥林匹克"
   - speaker: body
     type: paragraph
     kind: text
@@ -1000,7 +1000,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 大きいポケモン小さいポケモン
-    translation: ""
+    translation: "大宝可梦小宝可梦"
   - speaker: note
     type: paragraph
     kind: text
@@ -1071,7 +1071,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 重いポケモン
-    translation: ""
+    translation: "重宝可梦"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1102,7 +1102,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 跳躍ナンバーワン
-    translation: ""
+    translation: "跳跃第一名"
   - speaker: caption
     type: paragraph
     kind: text

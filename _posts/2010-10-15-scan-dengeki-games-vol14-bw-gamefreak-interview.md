@@ -98,7 +98,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケモン赤・緑』をもう一度作るような勢いでした
-    translation: ""
+    translation: "仿佛要再次制作《宝可梦 红·绿》一般的势头"
   - speaker: 为了超越究极而选择的“改变”
     type: heading
     kind: text
@@ -109,7 +109,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 究極を超えるために選んだ〝変える〟こと
-    translation: ""
+    translation: "为了超越究极而选择的“改变”"
   - speaker: ──
     type: paragraph
     kind: text
@@ -280,7 +280,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: GAME FREAK 開発スタッフインタビュー ポケットモンスター ブラック ポケットモンスター ホワイト
-    translation: ""
+    translation: "GAME FREAK 开发人员访谈 宝可梦 黑 宝可梦 白"
   - speaker: 《宝可梦》要改变的事／不改变的事
     type: heading
     kind: text
@@ -291,7 +291,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスター』を変えること／変わらないこと
-    translation: ""
+    translation: "改变《宝可梦》之处／不变之处"
   - speaker: note
     type: paragraph
     kind: text
@@ -444,7 +444,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: GAME FREAK 開発スタッフインタビュー
-    translation: ""
+    translation: "GAME FREAK 开发人员访谈"
   - speaker: ──
     type: paragraph
     kind: text
@@ -536,7 +536,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「究極を超えるものは交わらない〝対極〟しかない」
-    translation: ""
+    translation: "“超越究极的只有不相交的‘对极’”"
   - speaker: ──
     type: paragraph
     kind: text
@@ -757,7 +757,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 新たな戦略を生む新生〝バトルシステム
-    translation: ""
+    translation: "孕育新战略的新生“对战系统”"
   - speaker: body
     type: paragraph
     kind: text
@@ -778,7 +778,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 新バトルルール
-    translation: ""
+    translation: "新对战规则"
   - speaker: body
     type: paragraph
     kind: text
@@ -809,7 +809,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ミラクルシューター
-    translation: ""
+    translation: "奇迹射手"
   - speaker: body
     type: paragraph
     kind: text
@@ -840,7 +840,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: わざマシンが使い放題
-    translation: ""
+    translation: "招式学习器无限使用"
   - speaker: body
     type: paragraph
     kind: text
@@ -871,7 +871,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: バトルサブウェイ
-    translation: ""
+    translation: "对战地铁"
   - speaker: body
     type: paragraph
     kind: text
@@ -912,7 +912,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンという生き物を再びイチから生み出す
-    translation: ""
+    translation: "将宝可梦这种生物再次从零开始创造"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1093,7 +1093,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ゲームとWebが連動〝ポケモンドリームワールド〟
-    translation: ""
+    translation: "游戏与Web联动“宝可梦梦境世界”"
   - speaker: body
     type: paragraph
     kind: text
@@ -1164,7 +1164,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: GAME FREAK 開発スタッフインタビュー
-    translation: ""
+    translation: "GAME FREAK 开发人员访谈"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1245,7 +1245,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「すれちがった人達との一瞬の遊びを無駄にしないように」 DSの外で生まれる新たなコミュニケーション
-    translation: ""
+    translation: "“不要浪费与擦肩而过的人们之间一瞬间的游玩” 在DS之外诞生的新交流"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1426,7 +1426,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 他人のゲームの世界へ
-    translation: ""
+    translation: "前往他人的游戏世界"
   - speaker: body
     type: paragraph
     kind: text
@@ -1457,7 +1457,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ミッションをクリアする
-    translation: ""
+    translation: "完成任务"
   - speaker: body
     type: paragraph
     kind: text
@@ -1488,7 +1488,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: デルパワーを発動
-    translation: ""
+    translation: "发动释出之力"
   - speaker: body
     type: paragraph
     kind: text
@@ -1609,7 +1609,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ストーリーと地方名に込められた意味
-    translation: ""
+    translation: "故事与地区名中蕴含的意义"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1750,7 +1750,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 〝つながる〟ことを実感するための最先端技術
-    translation: ""
+    translation: "为实际感受“连接”的最尖端技术"
   - speaker: ──
     type: paragraph
     kind: text
@@ -1781,7 +1781,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 「大人のユーザーは確実に意識しています」
-    translation: ""
+    translation: "“成年用户确实是有意识的”"
   - speaker: 宝可梦的新尝试“连接”游玩机制！
     type: heading
     kind: text
@@ -1792,7 +1792,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: ポケモンの新たな試み〝つながる〟遊びの仕組み！
-    translation: ""
+    translation: "宝可梦的新尝试“连接”游玩机制！"
   - speaker: body
     type: paragraph
     kind: text
@@ -1813,7 +1813,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: プレイヤーに与えられるハイテクデバイス〝Ｃギア〟
-    translation: ""
+    translation: "赋予玩家的高科技设备“Ｃ装置”"
   - speaker: body
     type: paragraph
     kind: text
@@ -1834,7 +1834,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: IR 赤外線通信
-    translation: ""
+    translation: "IR 红外线通信"
   - speaker: body
     type: paragraph
     kind: text
@@ -1865,7 +1865,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: WIRELESS ワイヤレス通信
-    translation: ""
+    translation: "WIRELESS 无线通信"
   - speaker: body
     type: paragraph
     kind: text
@@ -1896,7 +1896,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: Wi-Fi Ｗｉ-Ｆｉ通信
-    translation: ""
+    translation: "Wi-Fi Ｗｉ-Ｆｉ通信"
   - speaker: body
     type: paragraph
     kind: text
@@ -1917,7 +1917,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 附录：同期攻略与资料页
-    translation: ""
+    translation: "附录：同期攻略与资料页"
     comment: 以下各页是与访谈同期刊出的攻略、数据页，作为补充收录，不是访谈本体。
   - speaker: image
     type: image
@@ -1939,7 +1939,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 『ポケットモンスターブラック・ホワイト』ポケモンデータベース
-    translation: ""
+    translation: "《宝可梦 黑·白》宝可梦数据库"
   - speaker: 在鹿子镇～雷文市之间能遇到的31只野生宝可梦
     type: heading
     kind: text
@@ -1950,7 +1950,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: カノコタウン～ライモンシティまでに出会える野生のポケモン31匹
-    translation: ""
+    translation: "在鹿子镇～雷文市之间能遇到的野生宝可梦31只"
   - speaker: body
     type: paragraph
     kind: text
@@ -1971,7 +1971,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: 編集部員、ライターが愛用するポケモン6匹
-    translation: ""
+    translation: "编辑部员、撰稿人爱用的6只宝可梦"
   - speaker: body
     type: paragraph
     kind: text
@@ -2002,7 +2002,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ほのおで攻めるダルマッカ
-    translation: ""
+    translation: "用火进攻的火红不倒翁"
   - speaker: body
     type: paragraph
     kind: text
@@ -2033,7 +2033,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: ノーマルタイプに強いドッコラー
-    translation: ""
+    translation: "对一般属性强的搬运小匠"
   - speaker: body
     type: paragraph
     kind: text
@@ -2064,7 +2064,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: トリッキー戦法チュリネ
-    translation: ""
+    translation: "诡计战术百合根娃娃"
   - speaker: body
     type: paragraph
     kind: text
@@ -2095,7 +2095,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 硬い守りダンゴロ
-    translation: ""
+    translation: "坚硬防守石丸子"
   - speaker: body
     type: paragraph
     kind: text
@@ -2126,7 +2126,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 捕獲にオススメムンナ
-    translation: ""
+    translation: "推荐捕获食梦梦"
   - speaker: body
     type: paragraph
     kind: text
@@ -2157,7 +2157,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 「ものひろい」が役立つ！ヨーテリー
-    translation: ""
+    translation: "“捡拾”很有用！小约克"
   - speaker: body
     type: paragraph
     kind: text
@@ -2188,7 +2188,7 @@ translation_segments:
     heading_level: 2
     review_status: review
     original: それゆけ！すれちがい 実地 調査隊
-    translation: ""
+    translation: "去吧！擦肩而过实地调查队"
   - speaker: body
     type: paragraph
     kind: text
