@@ -7,6 +7,9 @@ _data/covers.yml as  cover path -> [width, height].
 
     python tools/build-cover-dims.py            # measure the covers not yet in the file
     python tools/build-cover-dims.py --force    # measure them all again
+    python tools/build-cover-dims.py --also /assets/img/x.jpg   # this path too (a cover the
+                                                # committed post names while the working copy differs)
+Covers once measured stay in the file, so a post whose cover changes keeps both known.
 """
 import io
 import re
@@ -80,7 +83,10 @@ def main():
         c = cover_of(fm)
         if c and c not in covers:
             covers.append(c)
-    sizes = {}
+    for i, a in enumerate(sys.argv):
+        if a == "--also" and i + 1 < len(sys.argv) and sys.argv[i + 1] not in covers:
+            covers.append(sys.argv[i + 1])
+    sizes = dict(known)          # what was measured before stays
     failed = []
     for c in covers:
         if c in known:

@@ -35,6 +35,8 @@ parallel_items:
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/yt_thumb.jpg
   caption: Game Informer 独家视频专访：增田顺一与大森滋展示宝可梦早期珍贵企划手稿与开发档案。
   alt: Game Informer 独家专访封面
+- original: 'Game Informer が公開しているインタビュー動画：[An Exclusive Look At Pokémon’s Early Design Documents (YouTube)](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)'
+  translation: 'Game Informer 公开的采访视频：[An Exclusive Look At Pokémon’s Early Design Documents（YouTube）](https://www.youtube.com/watch?v=9l8V_eQ6wGQ)——本文即 GIGAZINE 对这段视频的图文整理。'
 - original: インタビューに応えてくれるのはゲームフリークの増田順一さん。
   translation: 接受采访的是GAME FREAK的增田顺一先生。
 - type: image
