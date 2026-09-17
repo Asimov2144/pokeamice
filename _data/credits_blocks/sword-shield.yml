@@ -1,0 +1,44 @@
+# 区块 → 组织 / 范围（人工维护；说明见 legends-za.yml）。
+verified: false
+blocks:
+- from: Director
+  until: Planning Section Director
+  organization: Game Freak
+  scope: core
+- from: Programming Section
+  until: World Concept Section
+  organization: Game Freak
+  scope: core
+  note: 各 Section 里的 Cooperative Companies 子块待拆成 partner
+- from: Technical Support
+  until: Server Development
+  scope: core
+  note: 归属待核
+- from: English Localization
+  until: Korean Localization Support
+  scope: localization
+- from: Special Thanks-Localization
+  scope: thanks
+- from: Debug Management
+  organization: Game Freak
+  scope: qa
+- from: Debug
+  until: Chinese Product Testing
+  scope: qa
+- from: Pikachu Voice
+  until: Voice Recording Engineers
+  scope: partner
+  note: 配音与录音
+- from: Pokémon 3D Modeling
+  organization: Creatures Inc.
+  scope: asset
+- from: Artwork
+  until: Chinese Artwork
+  scope: marketing
+- from: Special Thanks
+  scope: thanks
+- from: Information Coordinators
+  until: Executive Producers
+  scope: production
+- from: Developed By
+  scope: other

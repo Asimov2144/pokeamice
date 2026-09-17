@@ -1,0 +1,107 @@
+# 区块 → 组织 / 范围（人工维护；说明见 legends-za.yml）。
+verified: false
+blocks:
+- from: Director
+  until: Planning Section Director
+  organization: Game Freak
+  scope: core
+- from: Game Programming Section
+  until: Game Programming Section
+  organization: Game Freak
+  scope: core
+- from: Game Programming Section / Game Programming Partners
+  scope: partner
+- from: ゲームプログラムセクション きょうりょくがいしゃ
+  scope: partner
+- from: System Programming Section
+  until: Environment Programming Section
+  organization: Game Freak
+  scope: core
+- from: けんきゅうかいはつ きょうりょくがいしゃ
+  scope: partner
+- from: Environment Programming Section / Research & Development Partners
+  scope: partner
+- from: 3D Graphics Section
+  until: 3D Graphics Section
+  organization: Game Freak
+  scope: core
+- from: 3Dグラフィックセクション きょうりょくがいしゃ
+  scope: partner
+- from: 3D Graphics Section / 3D Graphics Partners
+  scope: partner
+- from: Pokémon 3D Visual & VFX Section
+  until: Pokémon 3D Visual & VFX Section
+  organization: Game Freak
+  scope: core
+- from: ポケモン3Dビジュアル・VFXセクション きょうりょくがいしゃ
+  scope: partner
+- from: Pokémon 3D Visual & VFX Section / Pokémon 3D Visual & VFX Partners
+  scope: partner
+- from: Planning Section
+  until: Story Section
+  organization: Game Freak
+  scope: core
+- from: ストーリーセクション きょうりょくがいしゃ
+  scope: partner
+- from: Story Section / Story Partners
+  scope: partner
+- from: UI Section
+  until: UI Section
+  organization: Game Freak
+  scope: core
+- from: UIセクション きょうりょくがいしゃ
+  scope: partner
+- from: UI Section / UI Partners
+  scope: partner
+- from: Sound
+  until: Rumble Data Design
+  organization: Game Freak
+  scope: core
+  note: Sound 子块里的演奏 / 配音方也在内，细分待片尾
+- from: Supervisor
+  organization: Game Freak
+  scope: core
+  note: 杉森建
+- from: Design & World Concept
+  until: 3D Visual Section
+  organization: Game Freak
+  scope: core
+- from: Development Support
+  organization: Game Freak
+  scope: core
+- from: かいはつサポート きょうりょくがいしゃ
+  until: Development Partners
+  scope: partner
+- from: Information System
+  organization: Game Freak
+  scope: core
+  note: 归属待核
+- from: English Localization
+  until: Simplified Chinese Localization Support
+  scope: localization
+- from: ローカライズ スペシャルサンクス
+  scope: thanks
+- from: Debug Management
+  organization: Game Freak
+  scope: qa
+- from: Debug
+  until: Chinese Product Testing
+  scope: qa
+- from: Pokémon 3D Modeling
+  until: DCC Support Teams
+  organization: Creatures Inc.
+  scope: asset
+- from: Artwork
+  until: Korean Artwork
+  scope: marketing
+- from: Main Theme Arrangement
+  until: Ending Theme
+  scope: partner
+  note: 主题曲 / 片尾曲外部音乐人
+- from: Special Thanks
+  scope: thanks
+- from: Information Coordinators
+  until: Pokémon Scarlet & Violet
+  scope: production
+- from: Developed By
+  scope: other

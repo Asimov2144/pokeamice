@@ -47,6 +47,52 @@ DIR_LAST_RE = re.compile(r"^((co-|assistant )?directors?|(executive |co-|associa
 
 DEPT_RE = re.compile(r"\b(section|studio|lab|laboratory|department|division|team)\b")
 
+# 领域（domain）：类别说"做什么工种"，领域说"做游戏的哪一块"。先看末级职名 / 组名，再往上看父级；
+# 都不命中就是 None——页面上写"未归类"，不猜。顺序即优先级（Localization / QA 先于一切，Battle 先于 Prog 的泛词……）。
+DOMAIN = [
+    ("Localization", r"locali[sz]|translat|\bediting|ほんやく|翻訳|ローカライズ|へんしゅう"),
+    ("QA", r"debug|\btest|quality|\bqa\b|inspection|デバッグ|品質|テスト|チェック"),
+    ("Sound", r"sound|music|compos|voice|vocal|audio|\bbgm\b|recording|musician|jingle|サウンド|音楽|おんがく|作曲|ボイス|ミュージシャン|レコーディング"),
+    ("Marketing & PR", r"marketing|promotion|\bsales\b|public relations|\bpr\b|advertis|licens|\bbrand|宣伝|広報|販促|マーケ|ライセンス"),
+    ("Scenario & Text", r"scenario|story|script|dialogue|\btext\b|pokédex text|narrative|シナリオ|ストーリー|テキスト|スクリプト|図鑑"),
+    ("Battle", r"battle|バトル|contest|コンテスト"),
+    ("Network", r"network|communication|wi-?fi|server|online|global link|connection|つうしん|通信|ネットワーク|サーバ"),
+    ("UI", r"\bui\b|user interface|\bmenu|インターフェース|メニュー|\bhud\b"),
+    ("Map & Field", r"\bmaps?\b|\bfield|world|terrain|level design|background|dungeon|environment(al)? (artists?|art|design|model)|マップ|フィールド|はいけい|背景|ダンジョン"),
+    ("Tools & Pipeline", r"\btools?\b|pipeline|environment|framework|library|workflow|\bdcc\b|rigging|infrastructure|build system|環境|ツール|パイプライン|ライブラリ|フレームワーク|リギング"),
+    ("Graphics Tech", r"render|shader|lighting|graphics? (programming|engine|technology)|technical art|look development|simulation|physics|cg technology|ライティング|レンダ|シェーダ|テクニカルアート|物理|シミュレーション"),
+    ("AI", r"\bai\b|machine learning|機械学習"),
+    ("Pokémon Asset", r"pok[eé]mon (characters? |3d |data )?(model|motion|design|drawing|visual|graphic|concept|attribute|check|inspection|coordination)|pok[eé]mon (& |and )(character|graphic|trainer)|monster design|ポケモンモデル|ポケモン3d|ポケモンデザイン|ポケモングラフィック|ポケモンモーション|ポケモンデータ"),
+    ("Character", r"character|trainer|costume|\bnpc\b|キャラクター|トレーナー|人物"),
+    ("Motion", r"\bmotion|animat|モーション|アニメーション"),
+    ("Modeling", r"\bmodel(ing|er)?s?\b|モデリング|モデル"),
+    ("Movie", r"movie|cinematic|\bvideo\b|\bdemo\b|storyboard|ムービー|デモ|絵コンテ"),
+    ("VFX", r"\beffects?\b|\bvfx\b|エフェクト"),
+    ("Event", r"\bevent|イベント"),
+    ("Concept & Illustration", r"concept|illustrat|artwork|\blogo\b|packag|コンセプト|イラスト|ロゴ|パッケージ"),
+    ("Management", r"manag|coordinat|produc|assistant|information|advisor|secretar|マネージ|コーディネート|プロデュ|アシスタント"),
+]
+
+
+def domain_of(role):
+    """领域：末级职名先判，未命中再逐级看父级（Programming Section / UI Team → UI）。"""
+    parts = strip_wrappers(role)
+    for part in reversed(parts):
+        pl = part.strip().lower()
+        for dom, pat in DOMAIN:
+            if re.search(pat, pl):
+                return dom
+    return None
+
+
+# 核心作品的发售先后（同年作品按这个，不按 slug）；build-atlas.py 也用
+CORE_ORDER = ["red-green", "blue-jp", "yellow", "red-blue", "gold-silver", "crystal", "ruby-sapphire", "box", "firered-leafgreen", "emerald",
+              "diamond-pearl", "platinum", "heartgold-soulsilver", "black-white", "black2-white2", "dream-radar", "x-y", "oras", "sun-moon", "usum",
+              "lets-go", "sword-shield", "bdsp", "legends-arceus", "scarlet-violet", "area-zero", "legends-za", "pokopia", "champions"]
+
+# 作品家族：DLC 与同一作的版本差分归到母作——算"上一次 / 下一次署名"和"首次参与"时按家族，别把零之秘宝当成朱紫与 Z-A 之间的另一部作品
+FAMILY = {"area-zero": "scarlet-violet", "blue-jp": "red-green", "red-blue": "red-green"}
+
 
 def strip_wrappers(role):
     return [p for p in role.split(" / ") if not WRAPPER_RE.match(p.strip().lower())]
@@ -137,11 +183,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     games, people = load()
     core_order = [g["slug"] for g in sorted((g for g in games.values() if g["core"]), key=lambda g: (g["year"], g["slug"]))]
-    # 让同年作品按发售先后：手工排序键
-    manual = ["red-green", "blue-jp", "yellow", "red-blue", "gold-silver", "crystal", "ruby-sapphire", "box", "firered-leafgreen", "emerald",
-              "diamond-pearl", "platinum", "heartgold-soulsilver", "black-white", "black2-white2", "dream-radar", "x-y", "oras", "sun-moon", "usum",
-              "lets-go", "sword-shield", "bdsp", "legends-arceus", "scarlet-violet", "area-zero", "legends-za", "pokopia", "champions"]
-    core_order = [s for s in manual if s in games] + [s for s in core_order if s not in manual]
+    core_order = [s for s in CORE_ORDER if s in games] + [s for s in core_order if s not in CORE_ORDER]
     chain = [s for s in core_order if s not in CHAIN_SKIP]
 
     # 每个人每作：roles → (category, rank, short)

@@ -1,0 +1,117 @@
+# 区块 → 组织 / 范围（人工维护；tools/build-atlas.py 读，叠在 _data/credits/legends-za.yml 的解析结果上，不改解析文件）。
+# from / until 写区块的顶层标题（path[0]）或完整路径，until 省略 = 只这一块；范围可以嵌套，后写的更具体、覆盖前面的。
+# scope: core（开发本体）| partner（外部开发协力）| asset（宝可梦模型等资产生产）| qa | localization | production（制作人 / 协调）| marketing | thanks | other
+# parent: 片尾有、wiki 平铺后丢掉的上级标题，接回 path 顶层。
+# verified: false = 按 wiki 结构与惯例草拟，待对照实机片尾（片尾有公司标题，两个 wiki 都没有）。
+verified: false
+blocks:
+- from: Senior Director
+  until: Planning Section Director
+  organization: Game Freak
+  scope: core
+- from: Programming Section
+  until: Programming Section
+  organization: Game Freak
+  scope: core
+- from: Graphic Design Section
+  until: Graphic Design Section
+  organization: Game Freak
+  scope: core
+- from: Motion Actors
+  scope: partner
+  note: 动捕演员，外部
+- from: Special Effects Graphic Design Team
+  until: Pokémon 3D Visual Team
+  organization: Game Freak
+  scope: core
+- from: Pokémon Data QA
+  organization: Game Freak
+  scope: qa
+  note: 日页 ポケモンデータチェック；GF 内部
+- from: Planning Section
+  until: Planning Section
+  organization: Game Freak
+  scope: core
+- from: Sound Coordination
+  until: Composers
+  organization: Game Freak
+  scope: core
+  parent: [Sound Team]
+  note: 日页有 サウンドチーム 标题
+- from: Musicians
+  until: Recording Coordinator
+  scope: partner
+  parent: [Sound Team]
+  note: 演奏、配音、录音方
+- from: Sound Partners
+  scope: partner
+  parent: [Sound Team]
+- from: Design & World Concept Section
+  until: Development Support
+  organization: Game Freak
+  scope: core
+  parent: [Concept & Visual Studio]
+- from: 3D Visual Section
+  until: 3D Visual Section
+  organization: Game Freak
+  scope: core
+  parent: [Concept & Visual Studio]
+- from: General Manager
+  until: Development Assistant
+  organization: Game Freak
+  scope: core
+  parent: [Research & Development]
+- from: Directors
+  until: Environment Development Section
+  organization: Game Freak
+  scope: core
+  parent: [Research & Development, CG Technology Laboratory]
+- from: Pokémon Attribute Team
+  organization: Game Freak
+  scope: core
+  parent: [Pokémon Series QA]
+  note: 日页 ポケモンシリーズQA；系列参数组，非测试
+- from: Group Manager
+  until: Information Management
+  organization: Game Freak
+  scope: production
+  parent: [Project Management]
+- from: Technical Support
+  until: Game Server Development
+  scope: core
+  note: 归属待核（GF 技术支持 / 服务器，或 TPC）
+- from: Debug Management
+  organization: Game Freak
+  scope: qa
+- from: Debug
+  scope: qa
+  note: 外部调试公司
+- from: Art Director
+  until: Dcc Support Teams
+  organization: Creatures Inc.
+  scope: asset
+  parent: [Pokémon 3D Modeling]
+  note: 宝可梦模型 / 动作；wiki 标题 Pokémon 3D Modeling 无成员被解析丢掉
+- from: English Localization
+  until: Localization Support (Simplified Chinese)
+  scope: localization
+  note: TPCi / Nintendo of Europe / Pokémon Korea / TPC 各语种，片尾核
+- from: Language QA (The Americas)
+  until: Product Testing (Chinese)
+  scope: qa
+  note: 海外测试
+- from: Special Thanks—Localization
+  scope: thanks
+- from: Artwork
+  until: Korean Artwork
+  scope: marketing
+  note: 包装 / 宣传美术
+- from: Special Thanks
+  scope: thanks
+- from: Partners
+  scope: partner
+- from: Coordinators
+  until: Executive Producers
+  scope: production
+- from: Developed By
+  scope: other

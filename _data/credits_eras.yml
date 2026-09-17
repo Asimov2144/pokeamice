@@ -1,0 +1,20 @@
+# Experience cohort 的时代分段：一个人第一次在核心作署名（Special Thanks 不算）的年份落在哪一段。
+# 人工维护，改了重跑 python tools/build-atlas.py。"本作首次"不在这里——由脚本按作品家族单算。
+- label: RGB–GSC
+  from: 1996
+  to: 2001
+- label: RSE–Pt/HGSS
+  from: 2002
+  to: 2009
+- label: BW–XY/ORAS
+  from: 2010
+  to: 2015
+- label: SM–SwSh
+  from: 2016
+  to: 2020
+- label: BDSP/PLA–SV
+  from: 2021
+  to: 2024
+- label: Z-A 以后
+  from: 2025
+  to: 2099

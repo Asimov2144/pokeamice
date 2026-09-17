@@ -92,3 +92,11 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
   多和田 = 多和田吏 Tsukasa Tawada（Colosseum 音乐总监）——NOM 2003 圆形竞技场篇（同篇的 广本 = ヒロモト森一、和田/川本 有两位同姓，不并）；
   町田/李/川島/永山/為藤（2024 招聘设计师访谈）原页就只给姓，保留。
 
+## Development Atlas（2026-09-17 起）
+
+方案审计 `design/credits-atlas-plan-audit_2026-09.md`，分阶段规划 `design/credits-atlas-dev-plan_2026-09.md`（含阶段 0 完成记录）。
+阶段 0 已做：`python tools/build-atlas.py`（→ `assets/data/credits-profile/*.json`、`credits-relations.json`、`credits-careers.json`、
+`design/credits-analysis/{domains,atlas-summary}.md`；`--check` 20 条回归）；人工表 `_data/credits_eras.yml`、`_data/credits_relations.yml`、
+`_data/credits_blocks/<game>.yml`（4 部，`verified: false`）。改了 `analyze-credits.py` 的 `CATEGORY` / `DOMAIN` 后先跑 `build-atlas.py --check`。
+待做：区块表对片尾核实（先 Z-A）；`puzzle-challenge.yml` 31 个空名字；阶段 1 五个组件（见规划 §2）。
+

@@ -1,0 +1,193 @@
+# 作品关系（人工维护；不按发售日自动推）。tools/build-atlas.py 读它算 Compare 数据，页面上的 ← 前作 / ⇄ 并行 / ↺ 复刻 / → 谱系 都来自这里。
+#   type: chronological  同一开发线上的前后作（含第三版、续作；note 里写清）
+#         remake         原作 → 复刻
+#         parallel       同期分头开发的两作（source/target 无方向之分）
+#         lineage        非严格前后作、但设计或系列相承
+#   status: evidenced（evidence 里有站内档案帖 slug）| observed（只有名单变动表支持，见 design/credits-analysis/transitions.md）| candidate（待证）
+#   evidence: _posts 文件名（不含 .md）
+- source: red-green
+  target: yellow
+  type: chronological
+  status: evidenced
+  note: 同一作的上位版
+- source: yellow
+  target: gold-silver
+  type: chronological
+  status: evidenced
+- source: gold-silver
+  target: crystal
+  type: chronological
+  status: evidenced
+  note: 第三版
+- source: crystal
+  target: ruby-sapphire
+  type: chronological
+  status: evidenced
+- source: ruby-sapphire
+  target: firered-leafgreen
+  type: chronological
+  status: evidenced
+- source: red-green
+  target: firered-leafgreen
+  type: remake
+  status: evidenced
+- source: ruby-sapphire
+  target: emerald
+  type: chronological
+  status: evidenced
+  note: 第三版
+- source: firered-leafgreen
+  target: emerald
+  type: parallel
+  status: observed
+  note: 19 人缺席火红叶绿、在绿宝石回归（transitions.md）；钻珍时两队合并
+- source: emerald
+  target: diamond-pearl
+  type: chronological
+  status: evidenced
+- source: firered-leafgreen
+  target: diamond-pearl
+  type: chronological
+  status: evidenced
+  note: 火红叶绿组的下一作
+- source: diamond-pearl
+  target: platinum
+  type: chronological
+  status: evidenced
+  note: 第三版
+- source: platinum
+  target: heartgold-soulsilver
+  type: chronological
+  status: evidenced
+- source: gold-silver
+  target: heartgold-soulsilver
+  type: remake
+  status: evidenced
+- source: platinum
+  target: heartgold-soulsilver
+  type: parallel
+  status: observed
+  note: 2008–2010 白金 / 心金魂银 / 黑白三线同开（森本白金无头衔 → 心金魂银 Director）
+- source: heartgold-soulsilver
+  target: black-white
+  type: chronological
+  status: evidenced
+- source: black-white
+  target: black2-white2
+  type: chronological
+  status: evidenced
+  note: 续作
+- source: black2-white2
+  target: dream-radar
+  type: parallel
+  status: observed
+  note: 同一支小班底
+- source: black2-white2
+  target: x-y
+  type: chronological
+  status: evidenced
+- source: x-y
+  target: oras
+  type: chronological
+  status: evidenced
+- source: ruby-sapphire
+  target: oras
+  type: remake
+  status: evidenced
+- source: oras
+  target: sun-moon
+  type: chronological
+  status: evidenced
+- source: x-y
+  target: sun-moon
+  type: chronological
+  status: observed
+  note: 67 人缺席 ΩRαS、在日月回归 = 日月领导核心；日月班底 2014 年已从 XY 分出
+- source: oras
+  target: sun-moon
+  type: parallel
+  status: observed
+  note: 同上：2014–2016 两线
+- source: sun-moon
+  target: usum
+  type: chronological
+  status: evidenced
+  note: 上位版
+- source: usum
+  target: lets-go
+  type: chronological
+  status: evidenced
+- source: yellow
+  target: lets-go
+  type: remake
+  status: evidenced
+- source: usum
+  target: sword-shield
+  type: chronological
+  status: observed
+  note: 日月缺席、究极回归的 85 人分成 Let's Go 组（28）与剑盾组（45）；究极团队整体跳过 Let's Go 直接做剑盾
+- source: lets-go
+  target: sword-shield
+  type: chronological
+  status: evidenced
+- source: lets-go
+  target: sword-shield
+  type: parallel
+  status: candidate
+  note: 2017–2019 GF 三线（究极 / Let's Go / 剑盾）；站内暂无档案帖直接说明
+- source: sword-shield
+  target: legends-arceus
+  type: chronological
+  status: evidenced
+- source: sword-shield
+  target: scarlet-violet
+  type: chronological
+  status: evidenced
+- source: diamond-pearl
+  target: bdsp
+  type: remake
+  status: evidenced
+  note: ILCA 开发、GF 监修——组织连续性看 developer 字段
+- source: legends-arceus
+  target: scarlet-violet
+  type: parallel
+  status: evidenced
+  evidence:
+  - 2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline
+  - 2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline
+  note: 前泽圭一 CEDEC 2022：宝可梦模型制作环境同时服务两作；剑盾 → 阿尔宙斯缺席 90 人、绝大多数出现在朱紫
+- source: legends-arceus
+  target: legends-za
+  type: chronological
+  status: evidenced
+  note: LEGENDS 系列续作
+- source: scarlet-violet
+  target: legends-za
+  type: chronological
+  status: evidenced
+  note: 零之秘宝（DLC）按家族归入朱紫
+- source: x-y
+  target: legends-za
+  type: lineage
+  status: evidenced
+  note: 同为卡洛斯 / 密阿雷市；只列重叠与证据，不下结论
+- source: scarlet-violet
+  target: pokopia
+  type: chronological
+  status: observed
+  note: Koei Tecmo × GF；GF 侧核心 = 朱紫交付后从正传消失的一组人
+- source: legends-za
+  target: pokopia
+  type: parallel
+  status: observed
+  note: 2025–2026 GF 三线（Z-A / Pokopia / Champions）
+- source: legends-za
+  target: champions
+  type: parallel
+  status: observed
+  note: 同上；Champions 由 GF 监修、ILCA 等外部开发
+- source: scarlet-violet
+  target: champions
+  type: lineage
+  status: candidate
+  note: 对战系统承接；待证据

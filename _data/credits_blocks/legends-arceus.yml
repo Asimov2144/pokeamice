@@ -1,0 +1,54 @@
+# 区块 → 组织 / 范围（人工维护；说明见 legends-za.yml）。
+verified: false
+blocks:
+- from: Director
+  until: Planning Section Director
+  organization: Game Freak
+  scope: core
+- from: Programming Section
+  until: Environment Section
+  organization: Game Freak
+  scope: core
+- from: Graphics Section
+  until: Planning Section
+  organization: Game Freak
+  scope: core
+- from: Pokémon Creation Section
+  until: Concept & Design Section
+  organization: Game Freak
+  scope: core
+- from: Software Production Environment Management
+  until: Software Production Environment Management
+  organization: Game Freak
+  scope: core
+- from: Software Production Environment Management / Pokémon Modeling Partners
+  scope: partner
+- from: Pokémon 3D Modeling
+  until: Pokémon 3D Modeling
+  organization: Creatures Inc.
+  scope: asset
+- from: English Localization
+  until: English & European Localization Support
+  scope: localization
+- from: Special Thanks—Localization
+  scope: thanks
+- from: Server Development
+  until: Technical Support
+  scope: core
+  note: 归属待核
+- from: Debug Management
+  organization: Game Freak
+  scope: qa
+- from: Debug
+  until: Chinese Product Testing
+  scope: qa
+- from: Artwork
+  until: Chinese Graphic Design
+  scope: marketing
+- from: Special Thanks
+  scope: thanks
+- from: Information Coordinators
+  until: Executive Producers
+  scope: production
+- from: Developed By
+  scope: other
