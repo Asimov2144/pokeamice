@@ -461,17 +461,21 @@
     position: sticky;
     top: 0;
     z-index: 1;
+    min-width: 36px;
     height: 108px;
     padding: 6px 2px 4px;
     background: #fff;
     vertical-align: bottom;
 
+    /* the icon keeps its square whatever the column is squeezed to */
     img {
       display: block;
       width: 24px;
       height: 24px;
+      max-width: none;
       margin: 0 auto 4px;
       border-radius: 6px;
+      object-fit: contain;
     }
 
     span {
@@ -506,6 +510,7 @@
 
   tbody td {
     width: 36px;
+    min-width: 36px;
     height: 30px;
     border-top: 1px solid #f1f4f7;
     border-left: 1px solid #f1f4f7;

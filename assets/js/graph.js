@@ -43,7 +43,9 @@
     const worksSeen = new Map();
     entries.forEach(function(e, idx) {
       if (!inScope(e, scope)) return;
-      const people = (e.p || []).filter(function(p) { return p[2] === "person" || p[2] === "unknown"; });
+      // only the registry's people: a name the registry does not know is a surname alone,
+      // a nickname or a character the memoir tagged, and would stand as a second node
+      const people = (e.p || []).filter(function(p) { return p[2] === "person"; });
       if (!people.length) return;
       nEntries += 1;
       const year = parseInt(String(e.d || "").slice(0, 4), 10) || 0;
