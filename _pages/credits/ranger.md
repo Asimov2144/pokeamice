@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Ranger 制作名单
+title: 宝可梦巡护员 制作名单
 game: ranger
 permalink: /credits/ranger/
 search: false

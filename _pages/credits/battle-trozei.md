@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Battle Trozei 制作名单
+title: 宝可梦战斗益智方块 制作名单
 game: battle-trozei
 permalink: /credits/battle-trozei/
 search: false

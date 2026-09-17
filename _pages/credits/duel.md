@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Duel 制作名单
+title: 宝可梦战棋大师 制作名单
 game: duel
 permalink: /credits/duel/
 search: false

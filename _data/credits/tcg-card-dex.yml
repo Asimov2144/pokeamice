@@ -7,6 +7,7 @@ developer: The Pokémon Company International
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_TCG_Card_Dex
 count: 50
+title_zh: 宝可梦集换式卡牌游戏 卡牌图鉴
 sections:
 - path:
   - Game Studio

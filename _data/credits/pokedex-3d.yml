@@ -1,12 +1,13 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
 slug: pokedex-3d
 title: Staff of Pokédex 3D
-work: null
+work: 宝可梦立体图鉴BW
 year: 2011
 developer: Creatures, Inc.
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
 count: 180
+title_zh: 宝可梦立体图鉴BW
 sections:
 - path:
   - Director/Software Engineering

@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution + https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
 slug: battle-revolution
 title: Staff of Pokémon Battle Revolution
-work: null
+work: 宝可梦对战革命
 year: 2006
 developer: Genius Sonority
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution
 count: 205
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
+title_zh: 宝可梦对战革命
 ja_alignment:
   ja_total: 183
   ja_matched: 154

@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Smile
 count: 77
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスマイルのスタッフクレジット
+title_zh: Pokémon Smile
 ja_alignment:
   ja_total: 63
   ja_matched: 63

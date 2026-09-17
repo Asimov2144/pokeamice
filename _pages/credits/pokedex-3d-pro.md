@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokédex 3D Pro 制作名单
+title: 宝可梦全国图鉴专业版 制作名单
 game: pokedex-3d-pro
 permalink: /credits/pokedex-3d-pro/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Rumble World 制作名单
+title: 大家的宝可梦大乱战 制作名单
 game: rumble-world
 permalink: /credits/rumble-world/
 search: false

@@ -296,7 +296,7 @@
   work: Pokémon Champions
 - slug: hey-you-pikachu
   title: Hey You, Pikachu!
-  title_zh: Hey You, Pikachu!
+  title_zh: 皮卡丘啾有精神
   year: 1998
   developer: Ambrella
   core: false
@@ -306,7 +306,7 @@
   gf_count: 1
 - slug: stadium-japanese
   title: Pokémon Stadium (Japanese)
-  title_zh: Pokémon Stadium (Japanese)
+  title_zh: 宝可梦竞技场（1998 日版）
   year: 1998
   developer: Nintendo
   core: false
@@ -316,7 +316,7 @@
   gf_count: 15
 - slug: trading-card-game
   title: Pokémon Trading Card Game
-  title_zh: Pokémon Trading Card Game
+  title_zh: 宝可梦卡牌GB
   year: 1998
   developer: Hudson Soft
   core: false
@@ -327,7 +327,7 @@
   icon: /assets/img/works/bulba-tcg-gb-vc-icon.png
 - slug: picross-gbc
   title: Pokémon Picross (GBC)
-  title_zh: Pokémon Picross (GBC)
+  title_zh: 宝可梦绘图方块（GBC，未发售）
   year: 1999
   developer: Jupiter Corporation
   core: false
@@ -337,7 +337,7 @@
   gf_count: 3
 - slug: pinball
   title: Pokémon Pinball
-  title_zh: Pokémon Pinball
+  title_zh: 宝可梦弹珠台
   year: 1999
   developer: Jupiter Corporation, HAL Laboratory
   core: false
@@ -347,28 +347,29 @@
   gf_count: 9
 - slug: snap
   title: Pokémon Snap
-  title_zh: Pokémon Snap
+  title_zh: 宝可梦随乐拍
   year: 1999
   developer: HAL Laboratory
   core: false
   count: 83
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap
+  work: 宝可梦随乐拍
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
   gf_count: 3
-  icon: /assets/img/works/bulba-pokemonsnapwiiuvcicone.png
 - slug: stadium
   title: Pokémon Stadium
-  title_zh: Pokémon Stadium
+  title_zh: 宝可梦竞技场
   year: 1999
   developer: Nintendo
   core: false
   count: 154
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium
+  work: 宝可梦竞技场
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアム2のスタッフクレジット
   gf_count: 15
 - slug: puzzle-challenge
   title: Pokémon Puzzle Challenge
-  title_zh: Pokémon Puzzle Challenge
+  title_zh: 宝可梦拼图挑战
   year: 2000
   developer: Intelligent Systems
   core: false
@@ -379,7 +380,7 @@
   icon: /assets/img/works/bulba-puzzle-challenge-vc-icon.png
 - slug: puzzle-league
   title: Pokémon Puzzle League
-  title_zh: Pokémon Puzzle League
+  title_zh: 宝可梦拼图联盟
   year: 2000
   developer: Nintendo Software Technology
   core: false
@@ -389,7 +390,7 @@
   gf_count: 1
 - slug: stadium-2
   title: Pokémon Stadium 2
-  title_zh: Pokémon Stadium 2
+  title_zh: 宝可梦竞技场 金银
   year: 2000
   developer: Nintendo
   core: false
@@ -399,7 +400,7 @@
   gf_count: 18
 - slug: trading-card-game-2-the-invasion-of-team-gr
   title: 'Pokémon Trading Card Game 2: The Invasion of Team GR!'
-  title_zh: 'Pokémon Trading Card Game 2: The Invasion of Team GR!'
+  title_zh: 宝可梦卡牌GB2 GR团登场！
   year: 2001
   developer: Hudson Soft
   core: false
@@ -409,7 +410,7 @@
   gf_count: 4
 - slug: tetris
   title: Pokémon Tetris
-  title_zh: Pokémon Tetris
+  title_zh: 宝可梦震撼俄罗斯方块
   year: 2002
   developer: Nintendo
   core: false
@@ -418,27 +419,29 @@
   gf_count: 3
 - slug: channel
   title: Pokémon Channel
-  title_zh: Pokémon Channel
+  title_zh: 宝可梦频道
   year: 2003
   developer: Ambrella
   core: false
   count: 520
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel
+  work: 宝可梦频道
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
   gf_count: 15
 - slug: colosseum
   title: Pokémon Colosseum
-  title_zh: Pokémon Colosseum
+  title_zh: 宝可梦圆形竞技场
   year: 2003
   developer: Genius Sonority
   core: false
   count: 219
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Colosseum
+  work: 宝可梦圆形竞技场
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンコロシアムのスタッフクレジット
   gf_count: 24
 - slug: pinball-ruby-sapphire
   title: 'Pokémon Pinball: Ruby & Sapphire'
-  title_zh: 'Pokémon Pinball: Ruby & Sapphire'
+  title_zh: 宝可梦弹珠台 红宝石·蓝宝石
   year: 2003
   developer: Jupiter Corporation
   core: false
@@ -449,7 +452,7 @@
   icon: /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
 - slug: dash
   title: Pokémon Dash
-  title_zh: Pokémon Dash
+  title_zh: 宝可梦冲刺赛
   year: 2004
   developer: Ambrella
   core: false
@@ -459,7 +462,7 @@
   gf_count: 2
 - slug: masters-arena
   title: Pokémon Masters Arena
-  title_zh: Pokémon Masters Arena
+  title_zh: 宝可梦大师竞技场
   year: 2004
   developer: ImaginEngine Corp
   core: false
@@ -468,19 +471,18 @@
   gf_count: 0
 - slug: mystery-dungeon-red-rescue-team-and-blue-rescue-team
   title: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
-  title_zh: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
+  title_zh: 宝可梦不可思议迷宫
   year: 2005
   developer: The Pokémon Company/Chunsoft
   core: false
   count: 121
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team
+  work: 宝可梦不可思议迷宫
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_青の救助隊・赤の救助隊のスタッフクレジット
   gf_count: 2
-  icon: /assets/img/works/bulba-pmdrrtevcicon.png
-  icon2: /assets/img/works/bulba-pmdbrtevcicon.png
 - slug: team-turbo
   title: Pokémon Team Turbo
-  title_zh: Pokémon Team Turbo
+  title_zh: 宝可梦组队涡轮
   year: 2005
   developer: ImaginEngine Corp
   core: false
@@ -489,7 +491,7 @@
   gf_count: 0
 - slug: trozei
   title: Pokémon Trozei!
-  title_zh: Pokémon Trozei!
+  title_zh: 宝可梦益智方块
   year: 2005
   developer: Genius Sonority
   core: false
@@ -499,7 +501,7 @@
   gf_count: 1
 - slug: xd
   title: Pokémon XD
-  title_zh: Pokémon XD
+  title_zh: 宝可梦XD 暗之旋风 黑暗洛奇亚
   year: 2005
   developer: Genius Sonority
   core: false
@@ -509,17 +511,18 @@
   gf_count: 25
 - slug: battle-revolution
   title: Pokémon Battle Revolution
-  title_zh: Pokémon Battle Revolution
+  title_zh: 宝可梦对战革命
   year: 2006
   developer: Genius Sonority
   core: false
   count: 205
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution
+  work: 宝可梦对战革命
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
   gf_count: 25
 - slug: ranger
   title: Pokémon Ranger
-  title_zh: Pokémon Ranger
+  title_zh: 宝可梦巡护员
   year: 2006
   developer: HAL Laboratory, Creatures, Inc.
   core: false
@@ -530,7 +533,7 @@
   icon: /assets/img/works/bulba-prevcicon.png
 - slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
   title: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
-  title_zh: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
+  title_zh: 宝可梦不可思议迷宫 时之探险队·暗之探险队
   year: 2007
   developer: The Pokémon Company/Chunsoft
   core: false
@@ -542,7 +545,7 @@
   icon2: /assets/img/works/bulba-pmd-darkness-icon.png
 - slug: my-pokemon-ranch
   title: My Pokémon Ranch
-  title_zh: My Pokémon Ranch
+  title_zh: 大家的宝可梦牧场
   year: 2008
   developer: Ambrella
   core: false
@@ -552,7 +555,7 @@
   gf_count: 6
 - slug: ranger-shadows-of-almia
   title: 'Pokémon Ranger: Shadows of Almia'
-  title_zh: 'Pokémon Ranger: Shadows of Almia'
+  title_zh: 宝可梦巡护员 风涌篇
   year: 2008
   developer: Creatures, Inc.
   core: false
@@ -563,7 +566,7 @@
   icon: /assets/img/works/bulba-prsoaevcicon.png
 - slug: mystery-dungeon-explorers-of-sky
   title: 'Pokémon Mystery Dungeon: Explorers of Sky'
-  title_zh: 'Pokémon Mystery Dungeon: Explorers of Sky'
+  title_zh: 宝可梦不可思议迷宫 空之探险队
   year: 2009
   developer: The Pokémon Company/Chunsoft
   core: false
@@ -574,7 +577,7 @@
   icon: /assets/img/works/bulba-pmd-sky-icon.png
 - slug: mystery-dungeon-wiiware
   title: Pokémon Mystery Dungeon (WiiWare)
-  title_zh: Pokémon Mystery Dungeon (WiiWare)
+  title_zh: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare）
   year: 2009
   developer: The Pokémon Company/Chunsoft
   core: false
@@ -584,7 +587,7 @@
   gf_count: 3
 - slug: pokepark-wii
   title: PokéPark Wii
-  title_zh: PokéPark Wii
+  title_zh: 宝可公园Wii 皮卡丘的大冒险
   year: 2009
   developer: Creatures, Inc.
   core: false
@@ -595,17 +598,18 @@
   icon: /assets/img/works/bulba-pokeparkwiieshopicone.png
 - slug: rumble
   title: Pokémon Rumble
-  title_zh: Pokémon Rumble
+  title_zh: 宝可梦乱战
   year: 2009
   developer: Ambrella
   core: false
   count: 86
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble
+  work: 宝可梦乱战
   source_ja: https://wiki.pokemonwiki.com/wiki/乱戦!_ポケモンスクランブルのスタッフクレジット
   gf_count: 4
 - slug: ranger-guardian-signs
   title: 'Pokémon Ranger: Guardian Signs'
-  title_zh: 'Pokémon Ranger: Guardian Signs'
+  title_zh: 宝可梦巡护员 光的轨迹
   year: 2010
   developer: Creatures, Inc.
   core: false
@@ -616,26 +620,28 @@
   icon: /assets/img/works/bulba-prgseicon.png
 - slug: learn-with-pokemon-typing-adventure
   title: 'Learn with Pokémon: Typing Adventure'
-  title_zh: 'Learn with Pokémon: Typing Adventure'
+  title_zh: 宝可梦打字DS
   year: 2011
   developer: Genius Sonority
   core: false
   count: 125
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Learn_with_Pokémon:_Typing_Adventure
+  work: 宝可梦打字DS
   source_ja: https://wiki.pokemonwiki.com/wiki/バトル&ゲット!_ポケモンタイピングDSのスタッフクレジット
   gf_count: 7
 - slug: pokedex-3d
   title: Pokédex 3D
-  title_zh: Pokédex 3D
+  title_zh: 宝可梦立体图鉴BW
   year: 2011
   developer: Creatures, Inc.
   core: false
   count: 180
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
+  work: 宝可梦立体图鉴BW
   gf_count: 22
 - slug: pokepark-2
   title: PokéPark 2
-  title_zh: PokéPark 2
+  title_zh: 宝可公园2 ～Beyond the World～
   year: 2011
   developer: Creatures, Inc.
   core: false
@@ -645,18 +651,18 @@
   gf_count: 19
 - slug: rumble-blast
   title: Pokémon Rumble Blast
-  title_zh: Pokémon Rumble Blast
+  title_zh: 超级宝可梦乱战
   year: 2011
   developer: Ambrella
   core: false
   count: 101
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast
+  work: 超级宝可梦乱战
   source_ja: https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
   gf_count: 3
-  icon: /assets/img/works/bulba-rumble-blast-icon.png
 - slug: conquest
   title: Pokémon Conquest
-  title_zh: Pokémon Conquest
+  title_zh: 宝可梦+信长的野望
   year: 2012
   developer: Tecmo Koei
   core: false
@@ -666,7 +672,7 @@
   gf_count: 5
 - slug: mystery-dungeon-gates-to-infinity
   title: 'Pokémon Mystery Dungeon: Gates to Infinity'
-  title_zh: 'Pokémon Mystery Dungeon: Gates to Infinity'
+  title_zh: 宝可梦不可思议迷宫 极大之门与无限迷宫
   year: 2012
   developer: Spike Chunsoft
   core: false
@@ -677,7 +683,7 @@
   icon: /assets/img/works/bulba-gates-to-infinity-icon.png
 - slug: pokedex-3d-pro
   title: Pokédex 3D Pro
-  title_zh: Pokédex 3D Pro
+  title_zh: 宝可梦全国图鉴专业版
   year: 2012
   developer: Creatures, Inc.
   core: false
@@ -686,7 +692,7 @@
   gf_count: 33
 - slug: rumble-u
   title: Pokémon Rumble U
-  title_zh: Pokémon Rumble U
+  title_zh: 宝可梦大乱战U
   year: 2013
   developer: Ambrella
   core: false
@@ -697,7 +703,7 @@
   icon: /assets/img/works/bulba-rumble-u-icon.png
 - slug: art-academy
   title: Pokémon Art Academy
-  title_zh: Pokémon Art Academy
+  title_zh: 宝可梦美术学院
   year: 2014
   developer: Headstrong Games
   core: false
@@ -707,7 +713,7 @@
   icon: /assets/img/works/bulba-art-academy-icon.png
 - slug: battle-trozei
   title: Pokémon Battle Trozei
-  title_zh: Pokémon Battle Trozei
+  title_zh: 宝可梦战斗益智方块
   year: 2014
   developer: Genius Sonority
   core: false
@@ -718,7 +724,7 @@
   icon: /assets/img/works/bulba-battle-trozei-icon.png
 - slug: the-thieves-and-the-1000-pokemon
   title: The Thieves and the 1000 Pokémon
-  title_zh: The Thieves and the 1000 Pokémon
+  title_zh: 盗贼与1000只宝可梦
   year: 2014
   developer: Ambrella
   core: false
@@ -729,7 +735,7 @@
   icon: /assets/img/works/bulba-the-thieves-and-the-1000-pokemon-icon.png
 - slug: picross
   title: Pokémon Picross
-  title_zh: Pokémon Picross
+  title_zh: 宝可梦绘图方块
   year: 2015
   developer: Jupiter Corporation
   core: false
@@ -740,7 +746,7 @@
   icon: /assets/img/works/bulba-picross-icon.png
 - slug: pokken-tournament
   title: Pokkén Tournament
-  title_zh: Pokkén Tournament
+  title_zh: 宝可拳 POKKÉN TOURNAMENT
   year: 2015
   developer: Bandai Namco Entertainment
   core: false
@@ -751,7 +757,7 @@
   icon: /assets/img/works/bulba-pokken-icon.png
 - slug: rumble-world
   title: Pokémon Rumble World
-  title_zh: Pokémon Rumble World
+  title_zh: 大家的宝可梦大乱战
   year: 2015
   developer: Ambrella
   core: false
@@ -762,7 +768,7 @@
   icon: /assets/img/works/bulba-rumble-world-icon.png
 - slug: shuffle
   title: Pokémon Shuffle
-  title_zh: Pokémon Shuffle
+  title_zh: 宝可消消乐
   year: 2015
   developer: Genius Sonority
   core: false
@@ -773,7 +779,7 @@
   icon: /assets/img/works/bulba-shuffle-3ds-icon.png
 - slug: super-mystery-dungeon
   title: Pokémon Super Mystery Dungeon
-  title_zh: Pokémon Super Mystery Dungeon
+  title_zh: 宝可梦超级不可思议迷宫
   year: 2015
   developer: Spike Chunsoft
   core: false
@@ -784,18 +790,18 @@
   icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
 - slug: detective-pikachu
   title: Detective Pikachu
-  title_zh: Detective Pikachu
+  title_zh: 名侦探皮卡丘
   year: 2016
   developer: Creatures, Inc.
   core: false
   count: 482
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu
+  work: 名侦探皮卡丘
   source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウのスタッフクレジット
   gf_count: 29
-  icon: /assets/img/works/bulba-detective-pikachu-icon.png
 - slug: detective-pikachu-birth-of-a-new-duo
   title: Detective Pikachu – Birth of a New Duo
-  title_zh: Detective Pikachu – Birth of a New Duo
+  title_zh: 名侦探皮卡丘 ～新搭档诞生～
   year: 2016
   developer: Creatures, Inc.
   core: false
@@ -806,7 +812,7 @@
   icon: /assets/img/works/bulba-great-detective-pikachu-birth-of-a-new-duo-icon.png
 - slug: duel
   title: Pokémon Duel
-  title_zh: Pokémon Duel
+  title_zh: 宝可梦战棋大师
   year: 2016
   developer: HEROZ
   core: false
@@ -816,7 +822,7 @@
   icon: /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
 - slug: magikarp-jump
   title: 'Pokémon: Magikarp Jump'
-  title_zh: 'Pokémon: Magikarp Jump'
+  title_zh: 跳跃吧！鲤鱼王
   year: 2017
   developer: SELECT BUTTON inc.
   core: false
@@ -827,7 +833,7 @@
   icon: /assets/img/works/bulba-pokemon-magikarp-jump-icon.png
 - slug: pokken-tournament-dx
   title: Pokkén Tournament DX
-  title_zh: Pokkén Tournament DX
+  title_zh: 宝可拳 POKKÉN TOURNAMENT DX
   year: 2017
   developer: Bandai Namco Entertainment
   core: false
@@ -838,7 +844,7 @@
   icon: /assets/img/works/bulba-pokken-tournament-dx-icon.png
 - slug: quest
   title: Pokémon Quest
-  title_zh: Pokémon Quest
+  title_zh: 宝可梦探险寻宝
   year: 2018
   developer: Game Freak
   core: false
@@ -848,7 +854,7 @@
   icon: /assets/img/works/bulba-quest-icon.png
 - slug: rumble-rush
   title: Pokémon Rumble Rush
-  title_zh: Pokémon Rumble Rush
+  title_zh: 宝可梦大乱战SP
   year: 2019
   developer: Ambrella
   core: false
@@ -858,7 +864,7 @@
   icon: /assets/img/works/bulba-pokemon-rumble-rush-icon.png
 - slug: tcg-card-dex
   title: Pokémon TCG Card Dex
-  title_zh: Pokémon TCG Card Dex
+  title_zh: 宝可梦集换式卡牌游戏 卡牌图鉴
   year: 2019
   developer: The Pokémon Company International
   core: false
@@ -868,7 +874,7 @@
   icon: /assets/img/works/bulba-pokemon-tcg-card-dex-icon.png
 - slug: cafe-remix
   title: Pokémon Café ReMix
-  title_zh: Pokémon Café ReMix
+  title_zh: 宝可缤纷趣（Pokémon Café ReMix）
   year: 2020
   developer: Genius Sonority
   core: false
@@ -879,7 +885,7 @@
   icon: /assets/img/works/bulba-pokemon-cafe-remix-icon-switch.png
 - slug: mystery-dungeon-rescue-team-dx
   title: 'Pokémon Mystery Dungeon: Rescue Team DX'
-  title_zh: 'Pokémon Mystery Dungeon: Rescue Team DX'
+  title_zh: 宝可梦不可思议迷宫 救助队DX
   year: 2020
   developer: Spike Chunsoft
   core: false
@@ -901,7 +907,7 @@
   icon: /assets/img/works/bulba-pokemon-smile-icon.png
 - slug: new-pokemon-snap
   title: New Pokémon Snap
-  title_zh: New Pokémon Snap
+  title_zh: New 宝可梦随乐拍
   year: 2021
   developer: Bandai Namco Studios
   core: false
@@ -912,7 +918,7 @@
   icon: /assets/img/works/bulba-new-snap-icon.png
 - slug: detective-pikachu-returns
   title: Detective Pikachu Returns
-  title_zh: Detective Pikachu Returns
+  title_zh: 名侦探皮卡丘 闪电回归
   year: 2023
   developer: Creatures, Inc.
   core: false
@@ -934,7 +940,7 @@
   icon: /assets/img/works/bulba-pokemon-sleep-icon.png
 - slug: trading-card-game-pocket
   title: Pokémon Trading Card Game Pocket
-  title_zh: Pokémon Trading Card Game Pocket
+  title_zh: 宝可梦集换式卡牌游戏 Pocket
   year: 2024
   developer: Creatures, Inc., DeNA Co., Ltd.
   core: false
@@ -956,7 +962,7 @@
   icon: /assets/img/works/bulba-friends-icon-switch.png
 - slug: goita-tutorial-app
   title: 'Pokémon GOITA: Tutorial App'
-  title_zh: 'Pokémon GOITA: Tutorial App'
+  title_zh: Pokémon GOITA 教程App
   year: 2025
   developer: The Pokémon Company, PUZZLING
   core: false

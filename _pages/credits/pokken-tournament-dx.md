@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokkén Tournament DX 制作名单
+title: 宝可拳 POKKÉN TOURNAMENT DX 制作名单
 game: pokken-tournament-dx
 permalink: /credits/pokken-tournament-dx/
 search: false

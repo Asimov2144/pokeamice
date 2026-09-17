@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team 制作名单'
+title: 宝可梦不可思议迷宫 制作名单
 game: mystery-dungeon-red-rescue-team-and-blue-rescue-team
 permalink: /credits/mystery-dungeon-red-rescue-team-and-blue-rescue-team/
 search: false

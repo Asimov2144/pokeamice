@@ -7,6 +7,7 @@ developer: ImaginEngine Corp
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Team_Turbo
 count: 10
+title_zh: 宝可梦组队涡轮
 sections:
 - path:
   - Technical Director

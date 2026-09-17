@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Quest
 count: 201
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンクエストのスタッフクレジット
+title_zh: 宝可梦探险寻宝
 ja_alignment:
   ja_total: 205
   ja_matched: 201

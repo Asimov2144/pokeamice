@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Art Academy 制作名单
+title: 宝可梦美术学院 制作名单
 game: art-academy
 permalink: /credits/art-academy/
 search: false

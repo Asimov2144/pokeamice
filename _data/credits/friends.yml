@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Friends
 count: 321
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンフレンズのスタッフクレジット
+title_zh: Pokémon Friends
 ja_alignment:
   ja_total: 321
   ja_matched: 321

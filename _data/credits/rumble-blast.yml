@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast + https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
 slug: rumble-blast
 title: Staff of Pokémon Rumble Blast
-work: null
+work: 超级宝可梦乱战
 year: 2011
 developer: Ambrella
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast
 count: 101
 source_ja: https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
+title_zh: 超级宝可梦乱战
 ja_alignment:
   ja_total: 77
   ja_matched: 64

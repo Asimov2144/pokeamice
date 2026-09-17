@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball
 count: 25
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボールのスタッフクレジット
+title_zh: 宝可梦弹珠台
 ja_alignment:
   ja_total: 25
   ja_matched: 25

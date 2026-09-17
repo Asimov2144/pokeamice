@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap
 count: 500
 source_ja: https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
+title_zh: New 宝可梦随乐拍
 ja_alignment:
   ja_total: 518
   ja_matched: 493

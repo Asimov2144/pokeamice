@@ -54,7 +54,7 @@ person page are already linked in the body.
           <section class="person__card" aria-label="外传">
             <h2>外传 <small>{{ spin.size }}</small></h2>
             <ul class="credits__list credits__list--compact">
-              {% for x in spin %}<li{% if x.slug == g.slug %} class="is-current"{% endif %}><a href="{{ '/credits/' | append: x.slug | append: '/' | relative_url }}">{{ x.title }}</a><span>{{ x.year }}</span></li>{% endfor %}
+              {% for x in spin %}<li{% if x.slug == g.slug %} class="is-current"{% endif %}><a href="{{ '/credits/' | append: x.slug | append: '/' | relative_url }}">{{ x.title_zh }}</a><span>{{ x.year }}</span></li>{% endfor %}
             </ul>
           </section>
         </aside>

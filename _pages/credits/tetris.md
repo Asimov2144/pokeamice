@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Tetris 制作名单
+title: 宝可梦震撼俄罗斯方块 制作名单
 game: tetris
 permalink: /credits/tetris/
 search: false

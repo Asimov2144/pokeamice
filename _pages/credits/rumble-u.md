@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Rumble U 制作名单
+title: 宝可梦大乱战U 制作名单
 game: rumble-u
 permalink: /credits/rumble-u/
 search: false

@@ -7,6 +7,7 @@ developer: Nintendo
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Tetris
 count: 42
+title_zh: 宝可梦震撼俄罗斯方块
 sections:
 - path:
   - Director

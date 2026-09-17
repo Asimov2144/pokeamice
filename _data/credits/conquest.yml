@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Conquest
 count: 130
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン+ノブナガの野望のスタッフクレジット
+title_zh: 宝可梦+信长的野望
 ja_alignment:
   ja_total: 113
   ja_matched: 78

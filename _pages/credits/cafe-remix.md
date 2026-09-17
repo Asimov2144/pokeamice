@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Café ReMix 制作名单
+title: 宝可缤纷趣（Pokémon Café ReMix） 制作名单
 game: cafe-remix
 permalink: /credits/cafe-remix/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Trading Card Game 制作名单
+title: 宝可梦卡牌GB 制作名单
 game: trading-card-game
 permalink: /credits/trading-card-game/
 search: false

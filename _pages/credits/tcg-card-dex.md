@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon TCG Card Dex 制作名单
+title: 宝可梦集换式卡牌游戏 卡牌图鉴 制作名单
 game: tcg-card-dex
 permalink: /credits/tcg-card-dex/
 search: false

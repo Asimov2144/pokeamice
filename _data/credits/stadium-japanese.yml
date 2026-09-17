@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium_(Japanese)
 count: 105
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアムのスタッフクレジット
+title_zh: 宝可梦竞技场（1998 日版）
 ja_alignment:
   ja_total: 105
   ja_matched: 102

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokédex 3D 制作名单
+title: 宝可梦立体图鉴BW 制作名单
 game: pokedex-3d
 permalink: /credits/pokedex-3d/
 search: false

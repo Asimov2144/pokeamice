@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep
 count: 300
 source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
+title_zh: Pokémon Sleep
 ja_alignment:
   ja_total: 1229
   ja_matched: 300

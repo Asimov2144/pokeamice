@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Trading Card Game Pocket 制作名单
+title: 宝可梦集换式卡牌游戏 Pocket 制作名单
 game: trading-card-game-pocket
 permalink: /credits/trading-card-game-pocket/
 search: false

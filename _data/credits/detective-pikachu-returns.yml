@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu_Returns
 count: 505
 source_ja: https://wiki.pokemonwiki.com/wiki/帰ってきた_名探偵ピカチュウのスタッフクレジット
+title_zh: 名侦探皮卡丘 闪电回归
 ja_alignment:
   ja_total: 513
   ja_matched: 501

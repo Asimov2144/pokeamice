@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium + https://wiki.pokemonwiki.com/wiki/ポケモンスタジアム2のスタッフクレジット
 slug: stadium
 title: Staff of Pokémon Stadium
-work: null
+work: 宝可梦竞技场
 year: 1999
 developer: Nintendo
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium
 count: 154
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアム2のスタッフクレジット
+title_zh: 宝可梦竞技场
 ja_alignment:
   ja_total: 130
   ja_matched: 128

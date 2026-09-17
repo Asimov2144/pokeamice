@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Puzzle Challenge 制作名单
+title: 宝可梦拼图挑战 制作名单
 game: puzzle-challenge
 permalink: /credits/puzzle-challenge/
 search: false

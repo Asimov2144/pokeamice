@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Mystery Dungeon: Gates to Infinity 制作名单'
+title: 宝可梦不可思议迷宫 极大之门与无限迷宫 制作名单
 game: mystery-dungeon-gates-to-infinity
 permalink: /credits/mystery-dungeon-gates-to-infinity/
 search: false

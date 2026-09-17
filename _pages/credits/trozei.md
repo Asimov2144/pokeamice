@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Trozei! 制作名单
+title: 宝可梦益智方块 制作名单
 game: trozei
 permalink: /credits/trozei/
 search: false

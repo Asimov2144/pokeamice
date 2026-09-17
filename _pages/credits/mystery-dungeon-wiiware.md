@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Mystery Dungeon (WiiWare) 制作名单
+title: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare） 制作名单
 game: mystery-dungeon-wiiware
 permalink: /credits/mystery-dungeon-wiiware/
 search: false

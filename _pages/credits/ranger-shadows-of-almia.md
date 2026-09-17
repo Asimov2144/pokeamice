@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Ranger: Shadows of Almia 制作名单'
+title: 宝可梦巡护员 风涌篇 制作名单
 game: ranger-shadows-of-almia
 permalink: /credits/ranger-shadows-of-almia/
 search: false

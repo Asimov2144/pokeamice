@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Shuffle 制作名单
+title: 宝可消消乐 制作名单
 game: shuffle
 permalink: /credits/shuffle/
 search: false

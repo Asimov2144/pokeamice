@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Battle Revolution 制作名单
+title: 宝可梦对战革命 制作名单
 game: battle-revolution
 permalink: /credits/battle-revolution/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Rumble Blast 制作名单
+title: 超级宝可梦乱战 制作名单
 game: rumble-blast
 permalink: /credits/rumble-blast/
 search: false

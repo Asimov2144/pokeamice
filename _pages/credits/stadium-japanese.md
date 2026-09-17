@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Stadium (Japanese) 制作名单
+title: 宝可梦竞技场（1998 日版） 制作名单
 game: stadium-japanese
 permalink: /credits/stadium-japanese/
 search: false

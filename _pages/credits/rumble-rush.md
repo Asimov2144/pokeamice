@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Rumble Rush 制作名单
+title: 宝可梦大乱战SP 制作名单
 game: rumble-rush
 permalink: /credits/rumble-rush/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Snap 制作名单
+title: 宝可梦随乐拍 制作名单
 game: snap
 permalink: /credits/snap/
 search: false

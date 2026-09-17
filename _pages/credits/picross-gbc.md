@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Picross (GBC) 制作名单
+title: 宝可梦绘图方块（GBC，未发售） 制作名单
 game: picross-gbc
 permalink: /credits/picross-gbc/
 search: false

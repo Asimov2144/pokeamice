@@ -7,6 +7,7 @@ developer: Ambrella
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Rush
 count: 174
+title_zh: 宝可梦大乱战SP
 sections:
 - path:
   - Director

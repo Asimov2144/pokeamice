@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Learn_with_Pokémon:_Typing_Adventure + https://wiki.pokemonwiki.com/wiki/バトル&ゲット!_ポケモンタイピングDSのスタッフクレジット
 slug: learn-with-pokemon-typing-adventure
 title: 'Staff of Learn with Pokémon: Typing Adventure'
-work: null
+work: 宝可梦打字DS
 year: 2011
 developer: Genius Sonority
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Learn_with_Pokémon:_Typing_Adventure
 count: 125
 source_ja: https://wiki.pokemonwiki.com/wiki/バトル&ゲット!_ポケモンタイピングDSのスタッフクレジット
+title_zh: 对战与收服！宝可梦打字练习DS
 ja_alignment:
   ja_total: 91
   ja_matched: 85

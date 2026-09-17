@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Mystery Dungeon: Explorers of Sky 制作名单'
+title: 宝可梦不可思议迷宫 空之探险队 制作名单
 game: mystery-dungeon-explorers-of-sky
 permalink: /credits/mystery-dungeon-explorers-of-sky/
 search: false

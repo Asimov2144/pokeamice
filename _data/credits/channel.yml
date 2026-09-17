@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel + https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
 slug: channel
 title: Staff of Pokémon Channel
-work: null
+work: 宝可梦频道
 year: 2003
 developer: Ambrella
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel
 count: 520
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
+title_zh: 宝可梦频道
 ja_alignment:
   ja_total: 271
   ja_matched: 228

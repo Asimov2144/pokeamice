@@ -7,6 +7,7 @@ developer: HEROZ
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Duel
 count: 234
+title_zh: 宝可梦战棋大师
 sections:
 - path:
   - Staff list (version 7.0.0)

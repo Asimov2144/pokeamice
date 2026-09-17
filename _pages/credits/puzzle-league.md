@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Puzzle League 制作名单
+title: 宝可梦拼图联盟 制作名单
 game: puzzle-league
 permalink: /credits/puzzle-league/
 search: false

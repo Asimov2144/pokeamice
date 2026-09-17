@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Detective Pikachu Returns 制作名单
+title: 名侦探皮卡丘 闪电回归 制作名单
 game: detective-pikachu-returns
 permalink: /credits/detective-pikachu-returns/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Colosseum 制作名单
+title: 宝可梦圆形竞技场 制作名单
 game: colosseum
 permalink: /credits/colosseum/
 search: false

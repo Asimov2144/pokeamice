@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap + https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
 slug: snap
 title: Staff of Pokémon Snap
-work: null
+work: 宝可梦随乐拍
 year: 1999
 developer: HAL Laboratory
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap
 count: 83
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
+title_zh: 宝可梦随乐拍
 ja_alignment:
   ja_total: 62
   ja_matched: 53

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: The Thieves and the 1000 Pokémon 制作名单
+title: 盗贼与1000只宝可梦 制作名单
 game: the-thieves-and-the-1000-pokemon
 permalink: /credits/the-thieves-and-the-1000-pokemon/
 search: false

@@ -5,369 +5,444 @@
   game_page: Hey You, Pikachu!
   developer: Ambrella
   year: 1998
+  title_zh: 皮卡丘啾有精神
 - slug: stadium-japanese
   title: Staff of Pokémon Stadium (Japanese)
   ja_title: ポケモンスタジアムのスタッフクレジット
   game_page: Pokémon Stadium (Japanese)
   developer: Nintendo
   year: 1998
+  title_zh: 宝可梦竞技场（1998 日版）
 - slug: trading-card-game
   title: Staff of Pokémon Trading Card Game
   ja_title: ポケモンカードGBのスタッフクレジット
   developer: Hudson Soft
   year: 1998
+  title_zh: 宝可梦卡牌GB
 - slug: picross-gbc
   title: Staff of Pokémon Picross (GBC)
   game_page: Pokémon Picross (GBC)
   developer: Jupiter Corporation
   year: 1999
   note: 未发售
+  title_zh: 宝可梦绘图方块（GBC，未发售）
 - slug: pinball
   title: Staff of Pokémon Pinball
   ja_title: ポケモンピンボールのスタッフクレジット
   game_page: Pokémon Pinball
   developer: Jupiter Corporation, HAL Laboratory
   year: 1999
+  title_zh: 宝可梦弹珠台
 - slug: snap
   title: Staff of Pokémon Snap
   ja_title: ポケモンスナップのスタッフクレジット
   game_page: Pokémon Snap
   developer: HAL Laboratory
   year: 1999
+  title_zh: 宝可梦随乐拍
+  work: 宝可梦随乐拍
 - slug: stadium
   title: Staff of Pokémon Stadium
   ja_title: ポケモンスタジアム2のスタッフクレジット
   game_page: Pokémon Stadium
   developer: Nintendo
   year: 1999
+  title_zh: 宝可梦竞技场
+  work: 宝可梦竞技场
 - slug: puzzle-challenge
   title: Staff of Pokémon Puzzle Challenge
   ja_title: ポケモンでパネポンのスタッフクレジット
   game_page: Pokémon Puzzle Challenge
   developer: Intelligent Systems
   year: 2000
+  title_zh: 宝可梦拼图挑战
 - slug: puzzle-league
   title: Staff of Pokémon Puzzle League
   ja_title: Pokémon Puzzle Leagueのスタッフクレジット
   game_page: Pokémon Puzzle League
   developer: Nintendo Software Technology
   year: 2000
+  title_zh: 宝可梦拼图联盟
 - slug: stadium-2
   title: Staff of Pokémon Stadium 2
   ja_title: ポケモンスタジアム金銀のスタッフクレジット
   game_page: Pokémon Stadium 2
   developer: Nintendo
   year: 2000
+  title_zh: 宝可梦竞技场 金银
 - slug: trading-card-game-2-the-invasion-of-team-gr
   title: 'Staff of Pokémon Trading Card Game 2: The Invasion of Team GR!'
   ja_title: ポケモンカードGB2のスタッフクレジット
   game_page: 'Pokémon Trading Card Game 2: The Invasion of Team GR!'
   developer: Hudson Soft
   year: 2001
+  title_zh: 宝可梦卡牌GB2 GR团登场！
 - slug: tetris
   title: Staff of Pokémon Tetris
   game_page: Pokémon Tetris
   developer: Nintendo
   year: 2002
+  title_zh: 宝可梦震撼俄罗斯方块
 - slug: channel
   title: Staff of Pokémon Channel
   ja_title: ポケモンチャンネルのスタッフクレジット
   game_page: Pokémon Channel
   developer: Ambrella
   year: 2003
+  title_zh: 宝可梦频道
+  work: 宝可梦频道
 - slug: colosseum
   title: Staff of Pokémon Colosseum
   ja_title: ポケモンコロシアムのスタッフクレジット
   game_page: Pokémon Colosseum
   developer: Genius Sonority
   year: 2003
+  title_zh: 宝可梦圆形竞技场
+  work: 宝可梦圆形竞技场
 - slug: pinball-ruby-sapphire
   title: 'Staff of Pokémon Pinball: Ruby & Sapphire'
   ja_title: ポケモンピンボール ルビー&サファイアのスタッフクレジット
   game_page: 'Pokémon Pinball: Ruby & Sapphire'
   developer: Jupiter Corporation
   year: 2003
+  title_zh: 宝可梦弹珠台 红宝石·蓝宝石
 - slug: dash
   title: Staff of Pokémon Dash
   ja_title: ポケモンダッシュのスタッフクレジット
   game_page: Pokémon Dash
   developer: Ambrella
   year: 2004
+  title_zh: 宝可梦冲刺赛
 - slug: masters-arena
   title: Staff of Pokémon Masters Arena
   game_page: Pokémon Masters Arena
   developer: ImaginEngine Corp
   year: 2004
+  title_zh: 宝可梦大师竞技场
 - slug: mystery-dungeon-red-rescue-team-and-blue-rescue-team
   title: 'Staff of Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
   ja_title: ポケモン不思議のダンジョン 青の救助隊・赤の救助隊のスタッフクレジット
   game_page: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
   developer: The Pokémon Company/Chunsoft
   year: 2005
+  title_zh: 宝可梦不可思议迷宫 赤之救助队·青之救助队
+  work: 宝可梦不可思议迷宫
 - slug: team-turbo
   title: Staff of Pokémon Team Turbo
   game_page: Pokémon Team Turbo
   developer: ImaginEngine Corp
   year: 2005
+  title_zh: 宝可梦组队涡轮
 - slug: trozei
   title: Staff of Pokémon Trozei!
   ja_title: ポケモントローゼのスタッフクレジット
   game_page: Pokémon Trozei!
   developer: Genius Sonority
   year: 2005
+  title_zh: 宝可梦益智方块
 - slug: xd
   title: Staff of Pokémon XD
   ja_title: ポケモンXD 闇の旋風ダーク・ルギアのスタッフクレジット
   game_page: Pokémon XD
   developer: Genius Sonority
   year: 2005
+  title_zh: 宝可梦XD 暗之旋风 黑暗洛奇亚
 - slug: battle-revolution
   title: Staff of Pokémon Battle Revolution
   ja_title: ポケモンバトルレボリューションのスタッフクレジット
   game_page: Pokémon Battle Revolution
   developer: Genius Sonority
   year: 2006
+  title_zh: 宝可梦对战革命
+  work: 宝可梦对战革命
 - slug: ranger
   title: Staff of Pokémon Ranger
   ja_title: ポケモンレンジャーのスタッフクレジット
   developer: HAL Laboratory, Creatures, Inc.
   year: 2006
+  title_zh: 宝可梦巡护员
 - slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
   title: 'Staff of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
   ja_title: ポケモン不思議のダンジョン 時の探検隊・闇の探検隊のスタッフクレジット
   game_page: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
   developer: The Pokémon Company/Chunsoft
   year: 2007
+  title_zh: 宝可梦不可思议迷宫 时之探险队·暗之探险队
 - slug: my-pokemon-ranch
   title: Staff of My Pokémon Ranch
   ja_title: みんなのポケモン牧場のスタッフクレジット
   game_page: My Pokémon Ranch
   developer: Ambrella
   year: 2008
+  title_zh: 大家的宝可梦牧场
 - slug: ranger-shadows-of-almia
   title: 'Staff of Pokémon Ranger: Shadows of Almia'
   ja_title: ポケモンレンジャー バトナージのスタッフクレジット
   game_page: 'Pokémon Ranger: Shadows of Almia'
   developer: Creatures, Inc.
   year: 2008
+  title_zh: 宝可梦巡护员 风涌篇
 - slug: mystery-dungeon-explorers-of-sky
   title: 'Staff of Pokémon Mystery Dungeon: Explorers of Sky'
   ja_title: ポケモン不思議のダンジョン 空の探検隊のスタッフクレジット
   game_page: 'Pokémon Mystery Dungeon: Explorers of Sky'
   developer: The Pokémon Company/Chunsoft
   year: 2009
+  title_zh: 宝可梦不可思议迷宫 空之探险队
 - slug: mystery-dungeon-wiiware
   title: Staff of Pokémon Mystery Dungeon (WiiWare)
   ja_title: ポケモン不思議のダンジョン すすめ! 炎の冒険団・いくぞ! 嵐の冒険団・めざせ! 光の冒険団のスタッフクレジット
   game_page: Pokémon Mystery Dungeon (WiiWare)
   developer: The Pokémon Company/Chunsoft
   year: 2009
+  title_zh: 宝可梦不可思议迷宫 炎·岚·光之冒险团（WiiWare）
 - slug: pokepark-wii
   title: Staff of PokéPark Wii
   ja_title: ポケパークWii 〜ピカチュウの大冒険〜のスタッフクレジット
   game_page: PokéPark Wii
   developer: Creatures, Inc.
   year: 2009
+  title_zh: 宝可公园Wii 皮卡丘的大冒险
 - slug: rumble
   title: Staff of Pokémon Rumble
   ja_title: 乱戦! ポケモンスクランブルのスタッフクレジット
   game_page: Pokémon Rumble
   developer: Ambrella
   year: 2009
+  title_zh: 宝可梦乱战
+  work: 宝可梦乱战
 - slug: ranger-guardian-signs
   title: 'Staff of Pokémon Ranger: Guardian Signs'
   ja_title: ポケモンレンジャー 光の軌跡のスタッフクレジット
   game_page: 'Pokémon Ranger: Guardian Signs'
   developer: Creatures, Inc.
   year: 2010
+  title_zh: 宝可梦巡护员 光的轨迹
 - slug: learn-with-pokemon-typing-adventure
   title: 'Staff of Learn with Pokémon: Typing Adventure'
   ja_title: バトル&ゲット! ポケモンタイピングDSのスタッフクレジット
   game_page: 'Learn with Pokémon: Typing Adventure'
   developer: Genius Sonority
   year: 2011
+  title_zh: 对战与收服！宝可梦打字练习DS
+  work: 宝可梦打字DS
 - slug: pokedex-3d
   title: Staff of Pokédex 3D
   game_page: Pokédex 3D
   developer: Creatures, Inc.
   year: 2011
+  title_zh: 宝可梦立体图鉴BW
+  work: 宝可梦立体图鉴BW
 - slug: pokepark-2
   title: Staff of PokéPark 2
   ja_title: ポケパーク2 〜Beyond the World〜のスタッフクレジット
   game_page: 'PokéPark 2: Wonders Beyond'
   developer: Creatures, Inc.
   year: 2011
+  title_zh: 宝可公园2 ～Beyond the World～
 - slug: rumble-blast
   title: Staff of Pokémon Rumble Blast
   ja_title: スーパーポケモンスクランブルのスタッフクレジット
   game_page: Pokémon Rumble Blast
   developer: Ambrella
   year: 2011
+  title_zh: 超级宝可梦乱战
+  work: 超级宝可梦乱战
 - slug: conquest
   title: Staff of Pokémon Conquest
   ja_title: ポケモン+ノブナガの野望のスタッフクレジット
   game_page: Pokémon Conquest
   developer: Tecmo Koei
   year: 2012
+  title_zh: 宝可梦+信长的野望
 - slug: mystery-dungeon-gates-to-infinity
   title: 'Staff of Pokémon Mystery Dungeon: Gates to Infinity'
   ja_title: ポケモン不思議のダンジョン 〜マグナゲートと∞迷宮〜のスタッフクレジット
   game_page: 'Pokémon Mystery Dungeon: Gates to Infinity'
   developer: Spike Chunsoft
   year: 2012
+  title_zh: 宝可梦不可思议迷宫 极大之门与无限迷宫
 - slug: pokedex-3d-pro
   title: Staff of Pokédex 3D Pro
   game_page: Pokédex 3D Pro
   developer: Creatures, Inc.
   year: 2012
+  title_zh: 宝可梦全国图鉴专业版
 - slug: rumble-u
   title: Staff of Pokémon Rumble U
   ja_title: ポケモンスクランブル Uのスタッフクレジット
   game_page: Pokémon Rumble U
   developer: Ambrella
   year: 2013
+  title_zh: 宝可梦大乱战U
 - slug: art-academy
   title: Staff of Pokémon Art Academy
   game_page: Pokémon Art Academy
   developer: Headstrong Games
   year: 2014
+  title_zh: 宝可梦美术学院
 - slug: battle-trozei
   title: Staff of Pokémon Battle Trozei
   ja_title: ポケモンバトルトローゼのスタッフクレジット
   game_page: Pokémon Battle Trozei
   developer: Genius Sonority
   year: 2014
+  title_zh: 宝可梦战斗益智方块
 - slug: the-thieves-and-the-1000-pokemon
   title: Staff of The Thieves and the 1000 Pokémon
   ja_title: とうぞくと1000びきのポケモンのスタッフクレジット
   game_page: The Thieves and the 1000 Pokémon
   developer: Ambrella
   year: 2014
+  title_zh: 盗贼与1000只宝可梦
 - slug: picross
   title: Staff of Pokémon Picross
   ja_title: ポケモンピクロスのスタッフクレジット
   game_page: Pokémon Picross
   developer: Jupiter Corporation
   year: 2015
+  title_zh: 宝可梦绘图方块
 - slug: pokken-tournament
   title: Staff of Pokkén Tournament
   ja_title: ポッ拳 POKKÉN TOURNAMENTのスタッフクレジット
   game_page: Pokkén Tournament
   developer: Bandai Namco Entertainment
   year: 2015
+  title_zh: 宝可拳 POKKÉN TOURNAMENT
 - slug: rumble-world
   title: Staff of Pokémon Rumble World
   ja_title: みんなのポケモンスクランブルのスタッフクレジット
   game_page: Pokémon Rumble World
   developer: Ambrella
   year: 2015
+  title_zh: 大家的宝可梦大乱战
 - slug: shuffle
   title: Staff of Pokémon Shuffle
   ja_title: ポケとるのスタッフクレジット
   game_page: Pokémon Shuffle
   developer: Genius Sonority
   year: 2015
+  title_zh: 宝可消消乐
 - slug: super-mystery-dungeon
   title: Staff of Pokémon Super Mystery Dungeon
   ja_title: ポケモン超不思議のダンジョンのスタッフクレジット
   game_page: Pokémon Super Mystery Dungeon
   developer: Spike Chunsoft
   year: 2015
+  title_zh: 宝可梦超级不可思议迷宫
 - slug: detective-pikachu
   title: Staff of Detective Pikachu
   ja_title: 名探偵ピカチュウのスタッフクレジット
   game_page: Detective Pikachu (video game)
   developer: Creatures, Inc.
   year: 2016
+  title_zh: 名侦探皮卡丘
+  work: 名侦探皮卡丘
 - slug: detective-pikachu-birth-of-a-new-duo
   title: Staff of Detective Pikachu – Birth of a New Duo
   ja_title: 名探偵ピカチュウ 〜新コンビ誕生〜のスタッフクレジット
   game_page: Detective Pikachu – Birth of a New Duo
   developer: Creatures, Inc.
   year: 2016
+  title_zh: 名侦探皮卡丘 ～新搭档诞生～
 - slug: duel
   title: Staff of Pokémon Duel
   game_page: Pokémon Duel
   developer: HEROZ
   year: 2016
+  title_zh: 宝可梦战棋大师
 - slug: magikarp-jump
   title: 'Staff of Pokémon: Magikarp Jump'
   ja_title: はねろ! コイキングのスタッフクレジット
   game_page: 'Pokémon: Magikarp Jump'
   developer: SELECT BUTTON inc.
   year: 2017
+  title_zh: 跳跃吧！鲤鱼王
 - slug: pokken-tournament-dx
   title: Staff of Pokkén Tournament DX
   ja_title: ポッ拳 POKKÉN TOURNAMENT DXのスタッフクレジット
   game_page: Pokkén Tournament DX
   developer: Bandai Namco Entertainment
   year: 2017
+  title_zh: 宝可拳 POKKÉN TOURNAMENT DX
 - slug: quest
   title: Staff of Pokémon Quest
   ja_title: ポケモンクエストのスタッフクレジット
   game_page: Pokémon Quest
   developer: Game Freak
   year: 2018
+  title_zh: 宝可梦探险寻宝
 - slug: rumble-rush
   title: Staff of Pokémon Rumble Rush
   game_page: Pokémon Rumble Rush
   developer: Ambrella
   year: 2019
+  title_zh: 宝可梦大乱战SP
 - slug: tcg-card-dex
   title: Staff of Pokémon TCG Card Dex
   game_page: Pokémon TCG Card Dex
   developer: The Pokémon Company International
   year: 2019
+  title_zh: 宝可梦集换式卡牌游戏 卡牌图鉴
 - slug: cafe-remix
   title: Staff of Pokémon Café ReMix
   ja_title: Pokémon Café Mixのスタッフクレジット
   game_page: Pokémon Café ReMix
   developer: Genius Sonority
   year: 2020
+  title_zh: 宝可缤纷趣（Pokémon Café ReMix）
 - slug: mystery-dungeon-rescue-team-dx
   title: 'Staff of Pokémon Mystery Dungeon: Rescue Team DX'
   ja_title: ポケモン不思議のダンジョン 救助隊DXのスタッフクレジット
   game_page: 'Pokémon Mystery Dungeon: Rescue Team DX'
   developer: Spike Chunsoft
   year: 2020
+  title_zh: 宝可梦不可思议迷宫 救助队DX
 - slug: smile
   title: Staff of Pokémon Smile
   ja_title: ポケモンスマイルのスタッフクレジット
   game_page: Pokémon Smile
   developer: The Pokémon Company
   year: 2020
+  title_zh: Pokémon Smile
 - slug: new-pokemon-snap
   title: Staff of New Pokémon Snap
   ja_title: New ポケモンスナップのスタッフクレジット
   game_page: New Pokémon Snap
   developer: Bandai Namco Studios
   year: 2021
+  title_zh: New 宝可梦随乐拍
 - slug: detective-pikachu-returns
   title: Staff of Detective Pikachu Returns
   ja_title: 帰ってきた 名探偵ピカチュウのスタッフクレジット
   game_page: Detective Pikachu Returns
   developer: Creatures, Inc.
   year: 2023
+  title_zh: 名侦探皮卡丘 闪电回归
 - slug: sleep
   title: Staff of Pokémon Sleep
   ja_title: Pokémon Sleepのスタッフクレジット
   game_page: Pokémon Sleep
   developer: SELECT BUTTON inc. (2023-2024), The Pokémon Works (2024-present)
   year: 2023
+  title_zh: Pokémon Sleep
 - slug: trading-card-game-pocket
   title: Staff of Pokémon Trading Card Game Pocket
   ja_title: Pokémon Trading Card Game Pocketのスタッフクレジット
   game_page: Pokémon Trading Card Game Pocket
   developer: Creatures, Inc., DeNA Co., Ltd.
   year: 2024
+  title_zh: 宝可梦集换式卡牌游戏 Pocket
 - slug: friends
   title: Staff of Pokémon Friends
   ja_title: ポケモンフレンズのスタッフクレジット
   game_page: Pokémon Friends
   developer: The Pokémon Company, Wonderfy
   year: 2025
+  title_zh: Pokémon Friends
 - slug: goita-tutorial-app
   title: 'Staff of Pokémon GOITA: Tutorial App'
   game_page: 'Pokémon GOITA: Tutorial App'
   developer: The Pokémon Company, PUZZLING
   year: 2025
+  title_zh: Pokémon GOITA 教程App

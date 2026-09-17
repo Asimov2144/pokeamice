@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: PokéPark 2 制作名单
+title: 宝可公园2 ～Beyond the World～ 制作名单
 game: pokepark-2
 permalink: /credits/pokepark-2/
 search: false

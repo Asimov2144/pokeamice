@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket
 count: 1166
 source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
+title_zh: 宝可梦集换式卡牌游戏 Pocket
 ja_alignment:
   ja_total: 642
   ja_matched: 573

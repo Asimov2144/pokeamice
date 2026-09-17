@@ -744,6 +744,8 @@ def cmd_parse():
         }
         if ja_title:
             doc["source_ja"] = f"https://wiki.pokemonwiki.com/wiki/{ja_title.replace(' ', '_')}"
+        if g.get("title_zh"):
+            doc["title_zh"] = g["title_zh"]  # 外传的中文名（spinoffs.yml 手填）
         if note:
             doc["note"] = note
         if stats:

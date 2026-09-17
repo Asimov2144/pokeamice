@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Masters Arena 制作名单
+title: 宝可梦大师竞技场 制作名单
 game: masters-arena
 permalink: /credits/masters-arena/
 search: false

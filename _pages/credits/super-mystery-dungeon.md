@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Super Mystery Dungeon 制作名单
+title: 宝可梦超级不可思议迷宫 制作名单
 game: super-mystery-dungeon
 permalink: /credits/super-mystery-dungeon/
 search: false

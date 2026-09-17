@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Ranger: Guardian Signs 制作名单'
+title: 宝可梦巡护员 光的轨迹 制作名单
 game: ranger-guardian-signs
 permalink: /credits/ranger-guardian-signs/
 search: false

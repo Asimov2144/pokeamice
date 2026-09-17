@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_League
 count: 203
 source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Puzzle_Leagueのスタッフクレジット
+title_zh: 宝可梦拼图联盟
 ja_alignment:
   ja_total: 174
   ja_matched: 172

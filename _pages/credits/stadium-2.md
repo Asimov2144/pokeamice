@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Stadium 2 制作名单
+title: 宝可梦竞技场 金银 制作名单
 game: stadium-2
 permalink: /credits/stadium-2/
 search: false

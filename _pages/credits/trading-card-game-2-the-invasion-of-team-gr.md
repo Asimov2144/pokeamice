@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Trading Card Game 2: The Invasion of Team GR! 制作名单'
+title: 宝可梦卡牌GB2 GR团登场！ 制作名单
 game: trading-card-game-2-the-invasion-of-team-gr
 permalink: /credits/trading-card-game-2-the-invasion-of-team-gr/
 search: false

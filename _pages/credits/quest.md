@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Quest 制作名单
+title: 宝可梦探险寻宝 制作名单
 game: quest
 permalink: /credits/quest/
 search: false

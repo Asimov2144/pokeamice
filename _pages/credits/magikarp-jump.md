@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon: Magikarp Jump 制作名单'
+title: 跳跃吧！鲤鱼王 制作名单
 game: magikarp-jump
 permalink: /credits/magikarp-jump/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness 制作名单'
+title: 宝可梦不可思议迷宫 时之探险队·暗之探险队 制作名单
 game: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
 permalink: /credits/mystery-dungeon-explorers-of-time-and-explorers-of-darkness/
 search: false

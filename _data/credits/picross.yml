@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross
 count: 130
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピクロスのスタッフクレジット
+title_zh: 宝可梦绘图方块
 ja_alignment:
   ja_total: 150
   ja_matched: 97

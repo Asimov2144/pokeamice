@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Pinball 制作名单
+title: 宝可梦弹珠台 制作名单
 game: pinball
 permalink: /credits/pinball/
 search: false

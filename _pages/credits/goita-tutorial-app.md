@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon GOITA: Tutorial App 制作名单'
+title: Pokémon GOITA 教程App 制作名单
 game: goita-tutorial-app
 permalink: /credits/goita-tutorial-app/
 search: false

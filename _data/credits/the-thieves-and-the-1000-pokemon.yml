@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Thieves_and_the_1000_Pokémon
 count: 72
 source_ja: https://wiki.pokemonwiki.com/wiki/とうぞくと1000びきのポケモンのスタッフクレジット
+title_zh: 盗贼与1000只宝可梦
 ja_alignment:
   ja_total: 76
   ja_matched: 66

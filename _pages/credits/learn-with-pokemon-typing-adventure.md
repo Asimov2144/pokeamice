@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Learn with Pokémon: Typing Adventure 制作名单'
+title: 宝可梦打字DS 制作名单
 game: learn-with-pokemon-typing-adventure
 permalink: /credits/learn-with-pokemon-typing-adventure/
 search: false

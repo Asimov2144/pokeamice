@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Mystery Dungeon: Rescue Team DX 制作名单'
+title: 宝可梦不可思议迷宫 救助队DX 制作名单
 game: mystery-dungeon-rescue-team-dx
 permalink: /credits/mystery-dungeon-rescue-team-dx/
 search: false

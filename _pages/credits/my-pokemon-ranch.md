@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: My Pokémon Ranch 制作名单
+title: 大家的宝可梦牧场 制作名单
 game: my-pokemon-ranch
 permalink: /credits/my-pokemon-ranch/
 search: false

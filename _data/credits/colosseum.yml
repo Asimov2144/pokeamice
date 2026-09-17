@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Colosseum + https://wiki.pokemonwiki.com/wiki/ポケモンコロシアムのスタッフクレジット
 slug: colosseum
 title: Staff of Pokémon Colosseum
-work: null
+work: 宝可梦圆形竞技场
 year: 2003
 developer: Genius Sonority
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Colosseum
 count: 219
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンコロシアムのスタッフクレジット
+title_zh: 宝可梦圆形竞技场
 ja_alignment:
   ja_total: 191
   ja_matched: 191

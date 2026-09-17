@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Conquest 制作名单
+title: 宝可梦+信长的野望 制作名单
 game: conquest
 permalink: /credits/conquest/
 search: false

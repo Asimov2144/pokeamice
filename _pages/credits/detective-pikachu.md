@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Detective Pikachu 制作名单
+title: 名侦探皮卡丘 制作名单
 game: detective-pikachu
 permalink: /credits/detective-pikachu/
 search: false

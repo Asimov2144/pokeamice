@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu + https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウのスタッフクレジット
 slug: detective-pikachu
 title: Staff of Detective Pikachu
-work: null
+work: 名侦探皮卡丘
 year: 2016
 developer: Creatures, Inc.
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu
 count: 482
 source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウのスタッフクレジット
+title_zh: 名侦探皮卡丘
 ja_alignment:
   ja_total: 508
   ja_matched: 482

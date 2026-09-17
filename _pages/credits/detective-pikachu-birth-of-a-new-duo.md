@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Detective Pikachu – Birth of a New Duo 制作名单
+title: 名侦探皮卡丘 ～新搭档诞生～ 制作名单
 game: detective-pikachu-birth-of-a-new-duo
 permalink: /credits/detective-pikachu-birth-of-a-new-duo/
 search: false

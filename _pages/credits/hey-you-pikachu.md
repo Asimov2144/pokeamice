@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Hey You, Pikachu! 制作名单
+title: 皮卡丘啾有精神 制作名单
 game: hey-you-pikachu
 permalink: /credits/hey-you-pikachu/
 search: false

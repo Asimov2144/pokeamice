@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_2:_The_Invasion_of_Team_GR!
 count: 83
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンカードGB2のスタッフクレジット
+title_zh: 宝可梦卡牌GB2 GR团登场！
 ja_alignment:
   ja_total: 83
   ja_matched: 79

@@ -1,13 +1,14 @@
 # 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team + https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_青の救助隊・赤の救助隊のスタッフクレジット
 slug: mystery-dungeon-red-rescue-team-and-blue-rescue-team
 title: 'Staff of Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
-work: null
+work: 宝可梦不可思议迷宫
 year: 2005
 developer: The Pokémon Company/Chunsoft
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team
 count: 121
 source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_青の救助隊・赤の救助隊のスタッフクレジット
+title_zh: 宝可梦不可思议迷宫 赤之救助队·青之救助队
 ja_alignment:
   ja_total: 70
   ja_matched: 70

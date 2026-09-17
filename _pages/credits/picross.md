@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Picross 制作名单
+title: 宝可梦绘图方块 制作名单
 game: picross
 permalink: /credits/picross/
 search: false

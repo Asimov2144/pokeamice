@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon XD 制作名单
+title: 宝可梦XD 暗之旋风 黑暗洛奇亚 制作名单
 game: xd
 permalink: /credits/xd/
 search: false

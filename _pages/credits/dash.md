@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Dash 制作名单
+title: 宝可梦冲刺赛 制作名单
 game: dash
 permalink: /credits/dash/
 search: false

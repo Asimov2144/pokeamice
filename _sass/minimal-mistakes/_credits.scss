@@ -160,7 +160,7 @@
   &--compact a { grid-template-columns: 40px minmax(0, 1fr); padding: 8px 12px; }
   &--compact a:not(:has(img)) { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "meta"; }
   &--compact a > img { width: 40px; height: 40px; }
-  &--compact .credits__grid-title { font-size: 0.82rem; }
+  &--compact .credits__grid-title { font-size: 0.82rem; small { display: block; color: $muted-text-color; font-size: 0.68rem; font-weight: 400; } }
 }
 
 /* ---- all-staff table ---- */

@@ -8,6 +8,7 @@ core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_My_Pokémon_Ranch
 count: 105
 source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモン牧場のスタッフクレジット
+title_zh: 大家的宝可梦牧场
 ja_alignment:
   ja_total: 60
   ja_matched: 56

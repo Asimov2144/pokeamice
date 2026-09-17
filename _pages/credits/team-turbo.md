@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Team Turbo 制作名单
+title: 宝可梦组队涡轮 制作名单
 game: team-turbo
 permalink: /credits/team-turbo/
 search: false

@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: 'Pokémon Pinball: Ruby & Sapphire 制作名单'
+title: 宝可梦弹珠台 红宝石·蓝宝石 制作名单
 game: pinball-ruby-sapphire
 permalink: /credits/pinball-ruby-sapphire/
 search: false

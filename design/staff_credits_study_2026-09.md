@@ -51,7 +51,7 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 
 - 人工核对 people_to_verify；给 B 级 Section Director 层查外部去向。
 - 构建时间：+549 人物页后本地 build 336s → 222s（staff 页跳过 posts 扫描后；person.html 717 页合计 11.6s，不再是瓶颈）。
-- 站内中文名：外传 `title_zh` 可在 spinoffs.yml 补；staff 条目名的日→简转换。
+- 站内中文名：外传 `title_zh` 已补齐 64 部（2026-09-17，神奇宝贝百科查名 + 手核；11 部与 works.yml 条目对上 `work`，共用图标并从作品库链回名单）；staff 条目名的日→简转换仍待做。
 - Masters EX 年度分页、动画 staff 未收（DISCOVER_SKIP）。
 
 ## 待办（与本课题相邻，2026-09-17 记）

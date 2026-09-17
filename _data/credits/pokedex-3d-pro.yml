@@ -7,6 +7,7 @@ developer: Creatures, Inc.
 core: false
 source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
 count: 213
+title_zh: 宝可梦全国图鉴专业版
 sections:
 - path:
   - Director/Software Engineering

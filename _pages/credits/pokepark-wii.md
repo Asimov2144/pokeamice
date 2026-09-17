@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: PokéPark Wii 制作名单
+title: 宝可公园Wii 皮卡丘的大冒险 制作名单
 game: pokepark-wii
 permalink: /credits/pokepark-wii/
 search: false

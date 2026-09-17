@@ -1,6 +1,6 @@
 ---
 layout: credits-game
-title: Pokémon Channel 制作名单
+title: 宝可梦频道 制作名单
 game: channel
 permalink: /credits/channel/
 search: false
