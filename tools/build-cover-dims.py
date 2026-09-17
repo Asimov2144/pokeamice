@@ -101,7 +101,7 @@ def main():
     people = ROOT / "_data" / "people.yml"
     if people.exists():
         for p in yaml.safe_load(io.open(people, encoding="utf-8")) or []:
-            for im in (p.get("portraits") or []) + ([{"image": p["image"]}] if isinstance(p.get("image"), str) else []):
+            for im in (p.get("portraits") or []) + [{"image": p.get(k)} for k in ("image", "avatar") if isinstance(p.get(k), str)]:
                 src = im.get("image") if isinstance(im, dict) else im
                 if isinstance(src, str) and src.startswith("/assets/") and src not in covers:
                     covers.append(src)
