@@ -150,14 +150,16 @@
     transition: border-color 0.15s, box-shadow 0.15s;
 
     &:hover { border-color: $primary-color; box-shadow: 0 4px 14px rgba(30, 41, 59, 0.08); }
-    img, .credits__grid-blank { grid-area: icon; width: 48px; height: 48px; object-fit: contain; }
+    > img, > .credits__grid-blank { grid-area: icon; width: 48px; height: 48px; object-fit: contain; }  /* the work icon only: the GF mark lives inside the meta line */
   }
 
   .credits__grid-blank { display: flex; align-items: center; justify-content: center; border-radius: 12px; background: rgba($primary-color, 0.08); color: $primary-color; font-size: 0.72rem; font-weight: 800; }
   .credits__grid-title { grid-area: title; font-weight: 700; font-size: 0.9rem; line-height: 1.35; }
   .credits__grid-meta { grid-area: meta; color: $muted-text-color; font-size: 0.72rem; }
 
-  &--compact a { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "meta"; padding: 8px 12px; }
+  &--compact a { grid-template-columns: 40px minmax(0, 1fr); padding: 8px 12px; }
+  &--compact a:not(:has(img)) { grid-template-columns: minmax(0, 1fr); grid-template-areas: "title" "meta"; }
+  &--compact a > img { width: 40px; height: 40px; }
   &--compact .credits__grid-title { font-size: 0.82rem; }
 }
 
@@ -361,4 +363,4 @@ $credits-gen-row: 22px;
 .credits__gf { display: inline-block; box-sizing: content-box; height: 14px; width: auto; margin-left: 4px; padding: 2px 5px; border-radius: 5px; background: rgba(0, 0, 0, 0.07); vertical-align: -5px; }
 .credits__gf--head { height: 18px; padding: 3px 6px; vertical-align: -7px; }
 .credits__name.is-gf { border-color: rgba(0, 0, 0, 0.35); }
-.credits__grid-meta .credits__gf { height: 0.9em; margin-left: 0; opacity: 0.85; }
+.credits__grid-meta .credits__gf { height: 12px; margin-left: 0; padding: 1px 4px; vertical-align: -3px; }

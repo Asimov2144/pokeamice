@@ -1,35 +1,36 @@
 # 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：
-# HOME 收录的作品用 Pokémon HOME 的作品图标；其余用经典标记——版本色底 + 精灵球（黑·白沿用官方 DS 图标）。
+# 先用官方图标（Bulbagarden Archives：DS / 3DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），Switch 世代用 Pokémon HOME 的作品图标，
+# 都没有的用经典标记——版本色底 + 精灵球；Pokopia 用手选的官方标志。
 # 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。
 - name: 宝可梦 红·绿
   color: '#d8262a'
   color2: '#2f9e44'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0006.png
-  icon: /assets/img/works/ball-red-green.png
-  icon2: /assets/img/works/ball-red-green-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-red-vc-jp-icon.png
+  icon2: /assets/img/works/bulba-green-vc-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 蓝
   color: '#1f5fb0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0009.png
-  icon: /assets/img/works/ball-blue.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-blue-vc-jp-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 皮卡丘版
   color: '#f2c94c'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-yellow.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-yellow-vc-jp-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 金·银
   color: '#d4a72c'
   color2: '#a8adb5'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0250.png
-  icon: /assets/img/works/ball-gold-silver.png
-  icon2: /assets/img/works/ball-gold-silver-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-gold-vc-icon.png
+  icon2: /assets/img/works/bulba-silver-vc-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 水晶版
   color: '#6bb3d9'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0245.png
-  icon: /assets/img/works/ball-crystal.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-crystal-vc-jp-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 红宝石·蓝宝石
   color: '#c9302c'
   color2: '#2b6cb0'
@@ -46,62 +47,62 @@
   color: '#e6522c'
   color2: '#5fa14a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0003.png
-  icon: /assets/img/works/ball-firered-leafgreen.png
-  icon2: /assets/img/works/ball-firered-leafgreen-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-firered-icon.png
+  icon2: /assets/img/works/bulba-leafgreen-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 钻石·珍珠
   color: '#4f7fc9'
   color2: '#c98ab6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0483.png
-  icon: /assets/img/works/ball-diamond-pearl.png
-  icon2: /assets/img/works/ball-diamond-pearl-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-diamond-icon.png
+  icon2: /assets/img/works/bulba-pearl-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 白金
   color: '#8a8f99'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0487.png
-  icon: /assets/img/works/ball-platinum.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-platinum-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 心金·魂银
   color: '#d9a441'
   color2: '#8fa3b8'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
-  icon: /assets/img/works/ball-heartgold-soulsilver.png
-  icon2: /assets/img/works/ball-heartgold-soulsilver-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-heartgold-icon.png
+  icon2: /assets/img/works/bulba-soulsilver-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 黑·白
   color: '#222222'
   color2: '#e6e6e6'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0643.png
-  icon: /assets/img/works/black-white.png
-  icon2: /assets/img/works/black-white-2.png
-  icon_credit: 官方 DS 图标（SteamGridDB · FloweyGaming577）
+  icon: /assets/img/works/bulba-black-icon.png
+  icon2: /assets/img/works/bulba-white-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 黑2·白2
   color: '#2b2b2b'
   color2: '#dcdcdc'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0646.png
-  icon: /assets/img/works/ball-black2-white2.png
-  icon2: /assets/img/works/ball-black2-white2-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-black-2-icon.png
+  icon2: /assets/img/works/bulba-white-2-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 X·Y
-  icon: /assets/img/works/home-x.png
-  icon2: /assets/img/works/home-y.png
+  icon: /assets/img/works/bulba-x-icon.png
+  icon2: /assets/img/works/bulba-y-icon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0716.png
-  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  icon: /assets/img/works/home-omega-ruby.png
-  icon2: /assets/img/works/home-alpha-sapphire.png
+  icon: /assets/img/works/bulba-omega-ruby-icon.png
+  icon2: /assets/img/works/bulba-alpha-sapphire-icon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0382.png
-  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 太阳·月亮
-  icon: /assets/img/works/home-sun.png
-  icon2: /assets/img/works/home-moon.png
+  icon: /assets/img/works/bulba-sun-icon.png
+  icon2: /assets/img/works/bulba-moon-icon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0791.png
-  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 究极之日·究极之月
-  icon: /assets/img/works/home-ultra-sun.png
-  icon2: /assets/img/works/home-ultra-moon.png
+  icon: /assets/img/works/bulba-ultra-sun-icon.png
+  icon2: /assets/img/works/bulba-ultra-moon-icon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0800.png
-  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   icon: /assets/img/works/home-lets-go-pikachu.png
   icon2: /assets/img/works/home-lets-go-eevee.png
@@ -129,26 +130,24 @@
   color: '#1e88e5'
   color2: '#ffd54f'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-go.png
-  icon2: /assets/img/works/ball-go-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-pokemon-go-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 动画系列
   color: '#ffcc00'
   color2: '#e53935'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-anime.png
-  icon2: /assets/img/works/ball-anime-2.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-s01-logo-jp.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 超梦的逆袭
   color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-  icon: /assets/img/works/ball-mewtwo-strikes-back.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-japanese-m01-logo.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦：超梦的逆袭
   color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
-  icon: /assets/img/works/ball-mewtwo-strikes-back.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-japanese-m01-logo.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 超梦的诞生
   color: '#7e57c2'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0150.png
@@ -162,13 +161,13 @@
 - name: 洛奇亚爆诞
   color: '#5c6bc0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home-3-2-1/pokemon-home-3-2-1--0249.png
-  icon: /assets/img/works/ball-lugia.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-japanese-m02-logo.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 结晶塔的帝王
   color: '#26a69a'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0251.png
-  icon: /assets/img/works/ball-crystal-tower.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-japanese-m03-logo.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦集换式卡牌游戏
   color: '#f5b400'
   color2: '#1e3a8a'
@@ -186,8 +185,8 @@
 - name: 宝可梦不可思议迷宫
   color: '#6d4c41'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-mystery-dungeon.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-pmd-time-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦竞技场
   color: '#5c6bc0'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
@@ -201,13 +200,13 @@
 - name: 宝可梦随乐拍
   color: '#ff8f00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-snap.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-pokemonsnapwiiuvcicone.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 名侦探皮卡丘
   color: '#f2c94c'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-detective-pikachu.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-detective-pikachu-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦打字DS
   color: '#2e7d32'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
@@ -232,8 +231,8 @@
 - name: 超级宝可梦乱战
   color: '#ef6c00'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/ball-rumble.png
-  icon_credit: 经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）
+  icon: /assets/img/works/bulba-rumble-blast-icon.png
+  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦对战革命
   color: '#3949ab'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png

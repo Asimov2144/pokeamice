@@ -1,0 +1,86 @@
+# 由 tools/build-work-icons.py 生成：制作名单里的作品 → 官方图标（Bulbagarden Archives），works.yml 没有的才用
+art-academy:
+- /assets/img/works/bulba-art-academy-icon.png
+battle-trozei:
+- /assets/img/works/bulba-battle-trozei-icon.png
+cafe-remix:
+- /assets/img/works/bulba-pokemon-cafe-remix-icon-switch.png
+detective-pikachu:
+- /assets/img/works/bulba-detective-pikachu-icon.png
+detective-pikachu-birth-of-a-new-duo:
+- /assets/img/works/bulba-great-detective-pikachu-birth-of-a-new-duo-icon.png
+detective-pikachu-returns:
+- /assets/img/works/bulba-detective-pikachu-returns-icon.png
+duel:
+- /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
+friends:
+- /assets/img/works/bulba-friends-icon-switch.png
+goita-tutorial-app:
+- /assets/img/works/bulba-pokemon-goita-icon.png
+magikarp-jump:
+- /assets/img/works/bulba-pokemon-magikarp-jump-icon.png
+masters:
+- /assets/img/works/bulba-pokemon-masters-ex-icon-2-23-0-ios.png
+mystery-dungeon-explorers-of-sky:
+- /assets/img/works/bulba-pmd-sky-icon.png
+mystery-dungeon-explorers-of-time-and-explorers-of-darkness:
+- /assets/img/works/bulba-pmd-time-icon.png
+- /assets/img/works/bulba-pmd-darkness-icon.png
+mystery-dungeon-gates-to-infinity:
+- /assets/img/works/bulba-gates-to-infinity-icon.png
+mystery-dungeon-red-rescue-team-and-blue-rescue-team:
+- /assets/img/works/bulba-pmdrrtevcicon.png
+- /assets/img/works/bulba-pmdbrtevcicon.png
+mystery-dungeon-rescue-team-dx:
+- /assets/img/works/bulba-mystery-dungeon-rescue-team-dx-icon.png
+new-pokemon-snap:
+- /assets/img/works/bulba-new-snap-icon.png
+picross:
+- /assets/img/works/bulba-picross-icon.png
+pinball-ruby-sapphire:
+- /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
+pokepark-wii:
+- /assets/img/works/bulba-pokeparkwiieshopicone.png
+pokken-tournament:
+- /assets/img/works/bulba-pokken-icon.png
+pokken-tournament-dx:
+- /assets/img/works/bulba-pokken-tournament-dx-icon.png
+puzzle-challenge:
+- /assets/img/works/bulba-puzzle-challenge-vc-icon.png
+quest:
+- /assets/img/works/bulba-quest-icon.png
+ranger:
+- /assets/img/works/bulba-prevcicon.png
+ranger-guardian-signs:
+- /assets/img/works/bulba-prgseicon.png
+ranger-shadows-of-almia:
+- /assets/img/works/bulba-prsoaevcicon.png
+red-blue:
+- /assets/img/works/bulba-red-vc-icon.png
+- /assets/img/works/bulba-blue-vc-icon.png
+rumble-blast:
+- /assets/img/works/bulba-rumble-blast-icon.png
+rumble-rush:
+- /assets/img/works/bulba-pokemon-rumble-rush-icon.png
+rumble-u:
+- /assets/img/works/bulba-rumble-u-icon.png
+rumble-world:
+- /assets/img/works/bulba-rumble-world-icon.png
+shuffle:
+- /assets/img/works/bulba-shuffle-3ds-icon.png
+sleep:
+- /assets/img/works/bulba-pokemon-sleep-icon.png
+smile:
+- /assets/img/works/bulba-pokemon-smile-icon.png
+snap:
+- /assets/img/works/bulba-pokemonsnapwiiuvcicone.png
+super-mystery-dungeon:
+- /assets/img/works/bulba-super-mystery-dungeon-icon.png
+tcg-card-dex:
+- /assets/img/works/bulba-pokemon-tcg-card-dex-icon.png
+the-thieves-and-the-1000-pokemon:
+- /assets/img/works/bulba-the-thieves-and-the-1000-pokemon-icon.png
+trading-card-game:
+- /assets/img/works/bulba-tcg-gb-vc-icon.png
+trading-card-game-pocket:
+- /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png

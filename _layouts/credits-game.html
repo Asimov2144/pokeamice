@@ -9,6 +9,7 @@ person page are already linked in the body.
 {%- endcomment -%}
 {% assign g = site.data.credits_games | where: "slug", page.game | first %}
 {% assign wi = site.data.works | where: "name", g.work | first %}
+{% if wi == nil and g.icon_work %}{% assign wi = site.data.works | where: "name", g.icon_work | first %}{% endif %}
 {% assign core = site.data.credits_games | where: "core", true %}
 {% assign spin = site.data.credits_games | where: "core", false %}
 
@@ -18,6 +19,8 @@ person page are already linked in the body.
       <header class="person__head credits__head">
         {% if wi.icon %}
           <img class="credits__icon" src="{{ wi.icon | relative_url }}" alt="" width="96" height="96">
+        {% elsif g.icon %}
+          <img class="credits__icon" src="{{ g.icon | relative_url }}" alt="" width="96" height="96">
         {% else %}
           <span class="credits__icon credits__icon--blank" aria-hidden="true">{{ g.year }}</span>
         {% endif %}

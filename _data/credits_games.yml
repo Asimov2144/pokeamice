@@ -38,6 +38,8 @@
   count: 86
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Blue
   note: 海外版：含本地化人员
+  icon: /assets/img/works/bulba-red-vc-icon.png
+  icon2: /assets/img/works/bulba-blue-vc-icon.png
 - slug: gold-silver
   title: Pokémon Gold and Silver
   title_zh: 宝可梦 金·银
@@ -260,6 +262,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Hidden_Treasure_of_Area_Zero
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_スカーレット・バイオレット_ゼロの秘宝のスタッフクレジット
   note: 朱·紫 DLC
+  icon_work: 宝可梦 朱·紫
 - slug: legends-za
   title: 'Pokémon Legends: Z-A'
   title_zh: Pokémon LEGENDS Z-A
@@ -321,6 +324,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンカードGBのスタッフクレジット
   gf_count: 2
+  icon: /assets/img/works/bulba-tcg-gb-vc-icon.png
 - slug: picross-gbc
   title: Pokémon Picross (GBC)
   title_zh: Pokémon Picross (GBC)
@@ -351,6 +355,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-pokemonsnapwiiuvcicone.png
 - slug: stadium
   title: Pokémon Stadium
   title_zh: Pokémon Stadium
@@ -371,6 +376,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_Challenge
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンでパネポンのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-puzzle-challenge-vc-icon.png
 - slug: puzzle-league
   title: Pokémon Puzzle League
   title_zh: Pokémon Puzzle League
@@ -440,6 +446,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball:_Ruby_&_Sapphire
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボール_ルビー&サファイアのスタッフクレジット
   gf_count: 2
+  icon: /assets/img/works/bulba-pinball-ruby-and-sapphire-vc-icon.png
 - slug: dash
   title: Pokémon Dash
   title_zh: Pokémon Dash
@@ -469,6 +476,8 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_青の救助隊・赤の救助隊のスタッフクレジット
   gf_count: 2
+  icon: /assets/img/works/bulba-pmdrrtevcicon.png
+  icon2: /assets/img/works/bulba-pmdbrtevcicon.png
 - slug: team-turbo
   title: Pokémon Team Turbo
   title_zh: Pokémon Team Turbo
@@ -518,6 +527,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャーのスタッフクレジット
   gf_count: 10
+  icon: /assets/img/works/bulba-prevcicon.png
 - slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
   title: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
   title_zh: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
@@ -528,6 +538,8 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_時の探検隊・闇の探検隊のスタッフクレジット
   gf_count: 5
+  icon: /assets/img/works/bulba-pmd-time-icon.png
+  icon2: /assets/img/works/bulba-pmd-darkness-icon.png
 - slug: my-pokemon-ranch
   title: My Pokémon Ranch
   title_zh: My Pokémon Ranch
@@ -548,6 +560,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger:_Shadows_of_Almia
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャー_バトナージのスタッフクレジット
   gf_count: 12
+  icon: /assets/img/works/bulba-prsoaevcicon.png
 - slug: mystery-dungeon-explorers-of-sky
   title: 'Pokémon Mystery Dungeon: Explorers of Sky'
   title_zh: 'Pokémon Mystery Dungeon: Explorers of Sky'
@@ -558,6 +571,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Sky
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_空の探検隊のスタッフクレジット
   gf_count: 4
+  icon: /assets/img/works/bulba-pmd-sky-icon.png
 - slug: mystery-dungeon-wiiware
   title: Pokémon Mystery Dungeon (WiiWare)
   title_zh: Pokémon Mystery Dungeon (WiiWare)
@@ -578,6 +592,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_PokéPark_Wii
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケパークWii_〜ピカチュウの大冒険〜のスタッフクレジット
   gf_count: 18
+  icon: /assets/img/works/bulba-pokeparkwiieshopicone.png
 - slug: rumble
   title: Pokémon Rumble
   title_zh: Pokémon Rumble
@@ -598,6 +613,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger:_Guardian_Signs
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャー_光の軌跡のスタッフクレジット
   gf_count: 21
+  icon: /assets/img/works/bulba-prgseicon.png
 - slug: learn-with-pokemon-typing-adventure
   title: 'Learn with Pokémon: Typing Adventure'
   title_zh: 'Learn with Pokémon: Typing Adventure'
@@ -637,6 +653,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast
   source_ja: https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-rumble-blast-icon.png
 - slug: conquest
   title: Pokémon Conquest
   title_zh: Pokémon Conquest
@@ -657,6 +674,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Gates_to_Infinity
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_〜マグナゲートと∞迷宮〜のスタッフクレジット
   gf_count: 2
+  icon: /assets/img/works/bulba-gates-to-infinity-icon.png
 - slug: pokedex-3d-pro
   title: Pokédex 3D Pro
   title_zh: Pokédex 3D Pro
@@ -676,6 +694,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_U
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスクランブル_Uのスタッフクレジット
   gf_count: 4
+  icon: /assets/img/works/bulba-rumble-u-icon.png
 - slug: art-academy
   title: Pokémon Art Academy
   title_zh: Pokémon Art Academy
@@ -685,6 +704,7 @@
   count: 143
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Art_Academy
   gf_count: 5
+  icon: /assets/img/works/bulba-art-academy-icon.png
 - slug: battle-trozei
   title: Pokémon Battle Trozei
   title_zh: Pokémon Battle Trozei
@@ -695,6 +715,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Trozei
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルトローゼのスタッフクレジット
   gf_count: 10
+  icon: /assets/img/works/bulba-battle-trozei-icon.png
 - slug: the-thieves-and-the-1000-pokemon
   title: The Thieves and the 1000 Pokémon
   title_zh: The Thieves and the 1000 Pokémon
@@ -705,6 +726,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Thieves_and_the_1000_Pokémon
   source_ja: https://wiki.pokemonwiki.com/wiki/とうぞくと1000びきのポケモンのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-the-thieves-and-the-1000-pokemon-icon.png
 - slug: picross
   title: Pokémon Picross
   title_zh: Pokémon Picross
@@ -715,6 +737,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピクロスのスタッフクレジット
   gf_count: 4
+  icon: /assets/img/works/bulba-picross-icon.png
 - slug: pokken-tournament
   title: Pokkén Tournament
   title_zh: Pokkén Tournament
@@ -725,6 +748,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokkén_Tournament
   source_ja: https://wiki.pokemonwiki.com/wiki/ポッ拳_POKKÉN_TOURNAMENTのスタッフクレジット
   gf_count: 8
+  icon: /assets/img/works/bulba-pokken-icon.png
 - slug: rumble-world
   title: Pokémon Rumble World
   title_zh: Pokémon Rumble World
@@ -735,6 +759,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_World
   source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモンスクランブルのスタッフクレジット
   gf_count: 6
+  icon: /assets/img/works/bulba-rumble-world-icon.png
 - slug: shuffle
   title: Pokémon Shuffle
   title_zh: Pokémon Shuffle
@@ -745,6 +770,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Shuffle
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケとるのスタッフクレジット
   gf_count: 12
+  icon: /assets/img/works/bulba-shuffle-3ds-icon.png
 - slug: super-mystery-dungeon
   title: Pokémon Super Mystery Dungeon
   title_zh: Pokémon Super Mystery Dungeon
@@ -755,6 +781,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Super_Mystery_Dungeon
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン超不思議のダンジョンのスタッフクレジット
   gf_count: 4
+  icon: /assets/img/works/bulba-super-mystery-dungeon-icon.png
 - slug: detective-pikachu
   title: Detective Pikachu
   title_zh: Detective Pikachu
@@ -765,6 +792,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu
   source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウのスタッフクレジット
   gf_count: 29
+  icon: /assets/img/works/bulba-detective-pikachu-icon.png
 - slug: detective-pikachu-birth-of-a-new-duo
   title: Detective Pikachu – Birth of a New Duo
   title_zh: Detective Pikachu – Birth of a New Duo
@@ -775,6 +803,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu_–_Birth_of_a_New_Duo
   source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウ_〜新コンビ誕生〜のスタッフクレジット
   gf_count: 28
+  icon: /assets/img/works/bulba-great-detective-pikachu-birth-of-a-new-duo-icon.png
 - slug: duel
   title: Pokémon Duel
   title_zh: Pokémon Duel
@@ -784,6 +813,7 @@
   count: 234
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Duel
   gf_count: 9
+  icon: /assets/img/works/bulba-pokemon-duel-icon-7-0-7.png
 - slug: magikarp-jump
   title: 'Pokémon: Magikarp Jump'
   title_zh: 'Pokémon: Magikarp Jump'
@@ -794,6 +824,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon:_Magikarp_Jump
   source_ja: https://wiki.pokemonwiki.com/wiki/はねろ!_コイキングのスタッフクレジット
   gf_count: 0
+  icon: /assets/img/works/bulba-pokemon-magikarp-jump-icon.png
 - slug: pokken-tournament-dx
   title: Pokkén Tournament DX
   title_zh: Pokkén Tournament DX
@@ -804,6 +835,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokkén_Tournament_DX
   source_ja: https://wiki.pokemonwiki.com/wiki/ポッ拳_POKKÉN_TOURNAMENT_DXのスタッフクレジット
   gf_count: 9
+  icon: /assets/img/works/bulba-pokken-tournament-dx-icon.png
 - slug: quest
   title: Pokémon Quest
   title_zh: Pokémon Quest
@@ -813,6 +845,7 @@
   count: 201
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Quest
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンクエストのスタッフクレジット
+  icon: /assets/img/works/bulba-quest-icon.png
 - slug: rumble-rush
   title: Pokémon Rumble Rush
   title_zh: Pokémon Rumble Rush
@@ -822,6 +855,7 @@
   count: 174
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Rush
   gf_count: 0
+  icon: /assets/img/works/bulba-pokemon-rumble-rush-icon.png
 - slug: tcg-card-dex
   title: Pokémon TCG Card Dex
   title_zh: Pokémon TCG Card Dex
@@ -831,6 +865,7 @@
   count: 50
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_TCG_Card_Dex
   gf_count: 0
+  icon: /assets/img/works/bulba-pokemon-tcg-card-dex-icon.png
 - slug: cafe-remix
   title: Pokémon Café ReMix
   title_zh: Pokémon Café ReMix
@@ -841,6 +876,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Café_ReMix
   source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Café_Mixのスタッフクレジット
   gf_count: 7
+  icon: /assets/img/works/bulba-pokemon-cafe-remix-icon-switch.png
 - slug: mystery-dungeon-rescue-team-dx
   title: 'Pokémon Mystery Dungeon: Rescue Team DX'
   title_zh: 'Pokémon Mystery Dungeon: Rescue Team DX'
@@ -851,6 +887,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Rescue_Team_DX
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_救助隊DXのスタッフクレジット
   gf_count: 6
+  icon: /assets/img/works/bulba-mystery-dungeon-rescue-team-dx-icon.png
 - slug: smile
   title: Pokémon Smile
   title_zh: Pokémon Smile
@@ -861,6 +898,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Smile
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスマイルのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-pokemon-smile-icon.png
 - slug: new-pokemon-snap
   title: New Pokémon Snap
   title_zh: New Pokémon Snap
@@ -871,6 +909,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap
   source_ja: https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
   gf_count: 26
+  icon: /assets/img/works/bulba-new-snap-icon.png
 - slug: detective-pikachu-returns
   title: Detective Pikachu Returns
   title_zh: Detective Pikachu Returns
@@ -881,6 +920,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu_Returns
   source_ja: https://wiki.pokemonwiki.com/wiki/帰ってきた_名探偵ピカチュウのスタッフクレジット
   gf_count: 18
+  icon: /assets/img/works/bulba-detective-pikachu-returns-icon.png
 - slug: sleep
   title: Pokémon Sleep
   title_zh: Pokémon Sleep
@@ -891,6 +931,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep
   source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
   gf_count: 3
+  icon: /assets/img/works/bulba-pokemon-sleep-icon.png
 - slug: trading-card-game-pocket
   title: Pokémon Trading Card Game Pocket
   title_zh: Pokémon Trading Card Game Pocket
@@ -901,6 +942,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket
   source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
   gf_count: 5
+  icon: /assets/img/works/bulba-pokemon-tcg-pocket-icon-ios-1-4-0.png
 - slug: friends
   title: Pokémon Friends
   title_zh: Pokémon Friends
@@ -911,6 +953,7 @@
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Friends
   source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンフレンズのスタッフクレジット
   gf_count: 14
+  icon: /assets/img/works/bulba-friends-icon-switch.png
 - slug: goita-tutorial-app
   title: 'Pokémon GOITA: Tutorial App'
   title_zh: 'Pokémon GOITA: Tutorial App'
@@ -920,3 +963,4 @@
   count: 22
   source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_GOITA:_Tutorial_App
   gf_count: 0
+  icon: /assets/img/works/bulba-pokemon-goita-icon.png

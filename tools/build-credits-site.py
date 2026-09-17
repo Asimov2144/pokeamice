@@ -35,6 +35,7 @@ ZH_TITLES = {
     "red-blue": "宝可梦 红·蓝（海外版）", "box": "宝可梦盒子 红宝石·蓝宝石", "dream-radar": "宝可梦AR搜寻器",
     "area-zero": "宝可梦 朱·紫 零之秘宝", "champions": "Pokémon Champions", "legends-za": "Pokémon LEGENDS Z-A",
 }
+ICON_ALIAS = {"area-zero": "宝可梦 朱·紫"}
 CAT_ZH = {"Dir": "总监/制作人", "Plan": "企划", "Prog": "程序", "Art": "美术", "Sound": "音乐", "Mgmt": "管理/协调",
           "Debug": "调试", "Loc/QA": "本地化/海外QA", "Thanks": "特别感谢", "Other": "其他"}
 RANK_MARK = {0: "", 1: "*", 2: "^", 3: "!", 4: "!!"}
@@ -276,6 +277,8 @@ def main():
     print(f"Game Freak 员工/曾员工：{len(gf_years)} 人")
 
     # ---- 2. credits_games.yml
+    icons_file = ROOT / "archive" / "credits" / "icons.yml"  # tools/build-work-icons.py：名单里没有站内 works 条目的游戏的官方图标
+    credit_icons = yaml.safe_load(icons_file.read_text(encoding="utf-8")) if icons_file.exists() else {}
     glist = []
     for slug in core_order + sorted((s for s in games if not games[s].get("core")), key=lambda s: (games[s].get("year") or 0, s)):
         g = games[slug]
@@ -289,6 +292,12 @@ def main():
             row["note"] = g["note"]
         if g["developer"] != "Game Freak":
             row["gf_count"] = gf_count.get(slug, 0)
+        if slug in credit_icons and not g.get("work"):
+            row["icon"] = credit_icons[slug][0]
+            if len(credit_icons[slug]) > 1:
+                row["icon2"] = credit_icons[slug][1]
+        elif slug in ICON_ALIAS and not g.get("work"):  # DLC 借母作的图标
+            row["icon_work"] = ICON_ALIAS[slug]
         glist.append(row)
     (ROOT / "_data" / "credits_games.yml").write_text("# 由 tools/build-credits-site.py 生成：staff 名单收录的作品\n" + yaml.safe_dump(glist, allow_unicode=True, sort_keys=False, width=200), encoding="utf-8", newline="\n")
     gz = {g["slug"]: g for g in glist}
@@ -405,7 +414,7 @@ def main():
         rows.append(row)
     data = {"games": [{"slug": s, "year": gz[s]["year"], "title": gz[s]["title_zh"], "short": gz[s]["title"], "developer": gz[s]["developer"],
                        "abbr": ABBR.get(s, s), "gen": GEN.get(s, 0),
-                       **({"icon": works[gz[s]["work"]]["icon"]} if gz[s].get("work") in works and works[gz[s]["work"]].get("icon") else {})} for s in core_order],
+                       **({"icon": works[gz[s]["work"]]["icon"]} if gz[s].get("work") in works and works[gz[s]["work"]].get("icon") else ({"icon": gz[s]["icon"]} if gz[s].get("icon") else {}))} for s in core_order],
             "gens": GEN_LABEL,
             "cat_zh": CAT_ZH, "rank_zh": RANK_ZH, "people": rows}
     (ASSETS / "credits-staff.json").write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
