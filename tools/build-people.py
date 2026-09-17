@@ -417,6 +417,59 @@ PORTRAITS = [
     dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="冈崎体育", main=True, src="bulba:File:Taiiku Okazaki.png", source="Bulbagarden Archives"),
     dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
+    # 2026-09-17 第二批：按访谈逐篇核对的照片（联系表人眼确认；多人合影按左右/三等分取人脸），post 绑定到该篇，卡片就用它
+    dict(name="一之濑刚", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/contentsTitle_solitiba.jpg", source="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras · 特别篇：祝贺荣获日本游戏大赏 2014 特别奖！一之濑刚访谈《纸牌跑马》", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
+    dict(name="增田顺一", year=2011, src=_IA + "2011-03-04-interview-spong-bw-launch-masuda-sugimori/spong_02.jpg", source="2011-03-04-interview-spong-bw-launch-masuda-sugimori · 增田顺一在欧洲首发活动现场接受媒体专访，神情专注而沉稳。 增田顺一受访照片", post="2011-03-04-interview-spong-bw-launch-masuda-sugimori"),
+    dict(name="增田顺一", year=2017, src=_IA + "2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s01.jpg", source="2017-09-05-interview-gigazine-gamefreak-sketches-masuda · 增田顺一谈及早期档案管理：在传真与纸质办公的红绿时代，从未想过未来会向公众展示这些草稿。 增田顺一受访微笑", post="2017-09-05-interview-gigazine-gamefreak-sketches-masuda"),
+    dict(name="增田顺一", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/masuda.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 增田顺一（董事・开发部长）：负责总监、游戏设计、音乐、程序。在《红／绿》中负责音乐、程序。目前负责几乎所有企划和整体总监", post="2000-07-01-interview-nom-genesis-gamefreak"),
+    dict(name="增田顺一", year=2000, src=_IA + "2000-07-01-interview-nom-gold-silver-gamefreak/m074.jpg", source="2000-07-01-interview-nom-gold-silver-gamefreak · 增田顺一（董事・开发部长）：追求彻底的执着与人人皆可享受的趣味性，畅谈制作超越宝可梦的全新游戏的抱负。 增田顺一谈 Ga", post="2000-07-01-interview-nom-gold-silver-gamefreak"),
+    dict(name="增田顺一", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/h_ph_2.jpg", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 增田顺一（株式会社GAME FREAK 董事·开发部长／总监）：继红蓝宝石后再次执掌正作总监，负责神奥世界观、DS双屏系", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="石原恒和", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/ph_73.jpg", region="left3", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="增田顺一", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/ph_73.jpg", region="mid3", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="杉森建", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/ph_73.jpg", region="right3", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="增田顺一", year=2010, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/masuda.jpg", source="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto · 增田顺一（Junichi Masuda，制作总监 / Director） 增田顺一（Junichi Masuda，制作总", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="增田顺一", year=2013, src=_IA + "2013-09-21-interview-nintendolife-2013-xy/001.jpg", source="2013-09-21-interview-nintendolife-2013-xy · Junichi Masuda", post="2013-09-21-interview-nintendolife-2013-xy"),
+    dict(name="增田顺一", year=2013, src=_IA + "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama/002.jpg", source="2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama · 宝可梦XY总监增田顺一氏。除担任游戏总指挥外，还深度参与作曲", post="2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama"),
+    dict(name="岩尾和昌", year=2018, src=_IA + "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music/011_y_5af906045dcd7.jpg", region="mid3", source="2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music · 增田顺一详解为何《宝可梦》系列从不出现“Now Loading”读盘黑屏 增田顺一详解为何《宝可梦》系列从不出现“Now", post="2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music"),
+    dict(name="增田顺一", year=2018, src=_IA + "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music/011_y_5af906045dcd7.jpg", region="right3", source="2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music · 增田顺一详解为何《宝可梦》系列从不出现“Now Loading”读盘黑屏 增田顺一详解为何《宝可梦》系列从不出现“Now", post="2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music"),
+    dict(name="菜花健作", year=2018, src=_IA + "2018-10-26-interview-eurogamer-masuda-nabana-lets-go/eurogamer_letsgo_03_gf01.jpg", region="left", source="2018-10-26-interview-eurogamer-masuda-nabana-lets-go · Director Junichi Masuda und 3D Map Design Leader Kensaku Nab", post="2018-10-26-interview-eurogamer-masuda-nabana-lets-go"),
+    dict(name="增田顺一", year=2018, src=_IA + "2018-10-26-interview-eurogamer-masuda-nabana-lets-go/eurogamer_letsgo_03_gf01.jpg", region="right", source="2018-10-26-interview-eurogamer-masuda-nabana-lets-go · Director Junichi Masuda und 3D Map Design Leader Kensaku Nab", post="2018-10-26-interview-eurogamer-masuda-nabana-lets-go"),
+    dict(name="大森滋", year=2019, src=_IA + "2019-10-24-interview-polygon-2019-swsh/001.jpg", region="left", source="2019-10-24-interview-polygon-2019-swsh · Shigeru Ohmori (left) and Junichi Masuda (right) Shigeru Ohm", post="2019-10-24-interview-polygon-2019-swsh"),
+    dict(name="增田顺一", year=2019, src=_IA + "2019-10-24-interview-polygon-2019-swsh/001.jpg", region="right", source="2019-10-24-interview-polygon-2019-swsh · Shigeru Ohmori (left) and Junichi Masuda (right) Shigeru Ohm", post="2019-10-24-interview-polygon-2019-swsh"),
+    dict(name="增田顺一", year=2019, src=_IA + "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest/003.jpg", source="2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest · 《宝可梦 剑·盾》制作人 增田顺一（Junichi Masuda） Game Freak 制作人增田顺一", post="2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest"),
+    dict(name="大森滋", year=2016, src=_IA + "2016-09-06-interview-pokemoncojp-2016-ohmori-sm/001.png", source="2016-09-06-interview-pokemoncojp-2016-ohmori-sm · ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？", post="2016-09-06-interview-pokemoncojp-2016-ohmori-sm"),
+    dict(name="大森滋", year=2010, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/ohmori.jpg", source="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto · 大森滋（Shigeru Ohmori，策划·游戏设计 / Planner） 大森滋（Shigeru Ohmori，策划·", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="大森滋", year=2019, src=_IA + "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest/002.jpg", source="2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest · 《宝可梦 剑·盾》总监 大森滋（Shigeru Ohmori） Game Freak 游戏总监大森滋", post="2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest"),
+    dict(name="宇都宫崇人", year=2016, src=_IA + "2016-08-25-interview-nikkei-utsunomiya-pokemon-go/nikkei_go_p1_p1.jpg", source="2016-08-25-interview-nikkei-utsunomiya-pokemon-go · 宝可梦的宇都宫崇人专务执行董事。兼任统管游戏软件《宝可梦》系列开发的开发本部长，在Pokémon GO中也从最初就作为日", post="2016-08-25-interview-nikkei-utsunomiya-pokemon-go"),
+    dict(name="宇都宫崇人", year=2023, src=_IA + "2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years/utsunomiya_portrait.jpg", source="2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years · Takato Utsunomiya, COO of The Pokémon Company.（株式会社宝可梦代表取缔役首", post="2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years"),
+    dict(name="宇都宫崇人", year=2024, src=_IA + "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/005.jpg", source="2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata · 宇都宫崇人 COO 谈及从《Ingress》《Pokémon GO》到生活健康题材的演进 宇都宫崇人 COO 谈及从《I", post="2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata"),
+    dict(name="富江慎一郎", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2/photo5.jpg", source="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama · 富江 慎一郎（株式会社Spike Chunsoft 总监／剧本） 富江慎一郎肖像", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama"),
+    dict(name="米谷由贵", year=2023, src=_IA + "2023-04-20-interview-cgworld-2023-sv-making-2/004.jpg", region="left3", source="2023-04-20-interview-cgworld-2023-sv-making-2 · 左から、米谷由貴さん（アートチームサブマネージャー）、小野寺 瞬さん（アートチームマネージャー）、深谷 卓さん（アートチ", post="2023-04-20-interview-cgworld-2023-sv-making-2"),
+    dict(name="小野寺瞬", year=2023, src=_IA + "2023-04-20-interview-cgworld-2023-sv-making-2/004.jpg", region="mid3", source="2023-04-20-interview-cgworld-2023-sv-making-2 · 左から、米谷由貴さん（アートチームサブマネージャー）、小野寺 瞬さん（アートチームマネージャー）、深谷 卓さん（アートチ", post="2023-04-20-interview-cgworld-2023-sv-making-2"),
+    dict(name="深谷卓", year=2023, src=_IA + "2023-04-20-interview-cgworld-2023-sv-making-2/004.jpg", region="right3", source="2023-04-20-interview-cgworld-2023-sv-making-2 · 左から、米谷由貴さん（アートチームサブマネージャー）、小野寺 瞬さん（アートチームマネージャー）、深谷 卓さん（アートチ", post="2023-04-20-interview-cgworld-2023-sv-making-2"),
+    dict(name="景山将太", year=2010, src=_IA + "2015-11-20-interview-steinberg-gamefreak-sound-cubase/studio1.jpg", source="2010-11-20-interview-steinberg-gamefreak-sound-cubase · 景山将太的个人 DAW 编曲工作台：运行着最新版的 Cubase 工程。 编曲工作台实况", post="2010-11-20-interview-steinberg-gamefreak-sound-cubase"),
+    dict(name="景山将太", year=2013, src=_IA + "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama/003.jpg", source="2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama · 宝可梦XY音响总监景山将太氏。自心金／魂银起参与，统筹本作音乐", post="2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama"),
+    dict(name="杉森建", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/sugimori.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 杉森建（董事・艺术总监）：负责角色设计、背景等所有图形相关工作。 杉森建肖像（2000年）", post="2000-07-01-interview-nom-genesis-gamefreak"),
+    dict(name="杉森建", year=2000, src=_IA + "2000-07-01-interview-nom-gold-silver-gamefreak/m080.jpg", source="2000-07-01-interview-nom-gold-silver-gamefreak · 杉森建（董事・艺术总监）：充分发挥Game Boy Color的表现力，追求能够激发宝可梦全新魅力的图形表现。 杉森建谈", post="2000-07-01-interview-nom-gold-silver-gamefreak"),
+    dict(name="杉森建", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/h_ph_3.jpg", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 杉森建（株式会社GAME FREAK 董事·艺术总监）：统领美术团队，负责新宝可梦生态构想、主角与登场人物设计、以及世界", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="杉森建", year=2013, src=_IA + "2013-10-08-interview-4gamer-2013-solitiba/006.jpg", source="2013-10-08-interview-4gamer-2013-solitiba · 画像ギャラリー No.010のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の", post="2013-10-08-interview-4gamer-2013-solitiba"),
+    dict(name="渡边哲也", year=2013, src=_IA + "2013-10-08-interview-4gamer-2013-solitiba/005.jpg", source="2013-10-08-interview-4gamer-2013-solitiba · 画像ギャラリー No.017のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の", post="2013-10-08-interview-4gamer-2013-solitiba"),
+    dict(name="松岛贤二", year=2010, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/matsushima.jpg", source="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto · 松岛贤二（Kenji Matsushima，策划 / Planner） 松岛贤二（Kenji Matsushima，策划", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="森本茂树", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/morimoto.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 森本茂树（程序员・策划）：负责程序、策划。在宝可梦中主要担任战斗程序。 森本茂树肖像（2000年）", post="2000-07-01-interview-nom-genesis-gamefreak"),
+    dict(name="森本茂树", year=2010, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/morimoto.jpg", source="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto · 森本茂树（Shigeki Morimoto，游戏总监 / Game Director） 森本茂树（Shigeki Mor", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="海野隆雄", year=2010, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/unno.jpg", source="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto · 海野隆雄（Takao Unno，艺术总监 / Art Director） 海野隆雄（Takao Unno，艺术总监 / ", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="渡边哲也", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/watanabe.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 渡边哲也（程序员）：在《红／绿》中负责演出方面的程序，在《金／银》中负责系统程序及声音驱动等。 渡边哲也肖像（2000年", post="2000-07-01-interview-nom-genesis-gamefreak"),
+    dict(name="渡边哲也", year=2000, src=_IA + "2000-07-01-interview-nom-gold-silver-gamefreak/m031.jpg", source="2000-07-01-interview-nom-gold-silver-gamefreak · 渡边哲也（程序员）：当初连爆发式走红这种事都做梦也不敢想，只是在一味追求自己所喜爱的东西——他如此说道。 渡边哲也谈最初", post="2000-07-01-interview-nom-gold-silver-gamefreak"),
+    dict(name="石原恒和", year=2010, src=_IA + "2010-05-12-interview-wedge-ishihara-pokemon-disney/wedge_p1_img_ed555d907b966ee061416ad1d79f686949592.jpg", source="2010-05-12-interview-wedge-ishihara-pokemon-disney · 石原恒和（宝可梦公司代表取缔役社长）：手持初代iPad接受WEDGE专访，探讨横跨15年的世界级商业奇迹。 石原恒和受访", post="2010-05-12-interview-wedge-ishihara-pokemon-disney"),
+    dict(name="石原恒和", year=2020, src=_IA + "2020-12-21-interview-nikkei-ishihara-go-boardgames/ishihara_nikkei_portrait.jpg", source="2020-12-21-interview-nikkei-ishihara-go-boardgames · 株式会社宝可梦代表取缔役社长石原恒和 / Tsunekazu Ishihara, President and CEO o", post="2020-12-21-interview-nikkei-ishihara-go-boardgames"),
+    dict(name="石原恒和", year=2006, src=_IA + "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori/h_ph_1.jpg", source="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 石原恒和（株式会社宝可梦 代表取缔役社长／制作人）：统筹宝可梦品牌的整体战略规划，在《钻石·珍珠》中作为制作人把控硬件联", post="2006-10-01-interview-nom-dp-ishihara-masuda-sugimori"),
+    dict(name="石原恒和", year=2011, src=_IA + "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1/photo1.jpg", source="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife · 石原 恒和（株式会社宝可梦 代表取缔役社长） 石原恒和肖像", post="2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife"),
+    dict(name="石原恒和", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2/photo7.jpg", source="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama · 石原 恒和（株式会社宝可梦 代表取缔役社长） 石原恒和肖像", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama"),
+    dict(name="石原恒和", year=2021, src=_IA + "2020-11-08-interview-creatures-25th-ishihara-tanaka/sec02_img02.png", source="2021-11-08-interview-creatures-history-special-ishihara-tanaka · 石原恒和（Tsunekazu Ishihara）：株式会社 The Pokémon Company 代表取缔役社长、株式", post="2021-11-08-interview-creatures-history-special-ishihara-tanaka"),
+    dict(name="菜花健作", year=2019, src=_IA + "2019-11-20-interview-cit-kensaku-nabana-robotics/c8856789ec11ab8b1013037cef6929f9-300x225.png", source="2019-11-20-interview-cit-kensaku-nabana-robotics · 名花健作入职 GAME FREAK 后的工作环境与 3DCG 开发工作流 / Kensaku Nabana's crea", post="2019-11-20-interview-cit-kensaku-nabana-robotics"),
+    dict(name="西野弘二", year=2000, src=_IA + "2000-07-01-interview-nom-genesis-gamefreak/nishino.jpg", source="2000-07-01-interview-nom-genesis-gamefreak · 西野弘二（策划）：负责企划、数据管理。负责宝可梦出现率的设定以及世界观设定。 西野弘二肖像（2000年）", post="2000-07-01-interview-nom-genesis-gamefreak"),
+    dict(name="西野弘二", year=2000, src=_IA + "2000-07-01-interview-nom-gold-silver-gamefreak/m040.jpg", source="2000-07-01-interview-nom-gold-silver-gamefreak · 西野弘二（策划）：不仅构建了地图上的生息分布与出现率，还构筑了每位训练家的隐藏设定与成长谱系。 西野弘二谈训练家职业与内", post="2000-07-01-interview-nom-gold-silver-gamefreak"),
+    dict(name="长畑成一郎", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2/photo6.jpg", source="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama · 长畑 成一郎（株式会社Spike Chunsoft 开发制作人） 长畑成一郎肖像", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama"),
 ]
 
 
@@ -462,8 +515,12 @@ def _fetch(src):
     raise RuntimeError(f"could not fetch {src}")
 
 
-def square_crop(raw, box=None):
-    """A 240x240 portrait: around the given face box, else the largest detected face, else the middle."""
+REGIONS = {"left": (0, 0.5), "right": (0.5, 1), "center": (0.25, 0.75), "left3": (0, 0.34), "mid3": (0.33, 0.67), "right3": (0.66, 1)}
+
+
+def square_crop(raw, box=None, region=None):
+    """A 240x240 portrait: around the given face box, else the largest detected face (inside `region`
+    - "left" / "right" / "center" / thirds - when the photo has several people), else the middle."""
     import cv2
     import numpy as np
     from PIL import Image
@@ -475,9 +532,18 @@ def square_crop(raw, box=None):
     H, W = img.shape[:2]
     if box is None:
         casc = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
-        faces = casc.detectMultiScale(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY), 1.08, 5, minSize=(max(24, W // 12), max(24, H // 12)))
-        if len(faces):
-            box = max((tuple(int(v) for v in b) for b in faces), key=lambda b: b[2] * b[3])
+        faces = casc.detectMultiScale(cv2.cvtColor(img, cv2.COLOR_BGR2GRAY), 1.08, 5, minSize=(max(24, W // 14), max(24, H // 14)))
+        faces = [tuple(int(v) for v in b) for b in faces]
+        if region in REGIONS:
+            lo, hi = REGIONS[region]
+            faces = [b for b in faces if lo * W <= b[0] + b[2] / 2 <= hi * W]
+        if faces:
+            box = max(faces, key=lambda b: b[2] * b[3])
+        elif region in REGIONS:  # no face found in that part: frame the part itself
+            lo, hi = REGIONS[region]
+            side = int((hi - lo) * W)
+            box = (int(lo * W), max(0, H // 2 - side // 2), side, min(H, side))
+            box = (box[0], box[1], box[2] // 2, box[3] // 2)
     if box:
         x, y, w, h = box
         side = int(max(w, h) * 1.8)
@@ -512,11 +578,18 @@ def cmd_harvest(only=None, force=False):
         fname = f"{e['slug']}-{tag}.jpg"
         web = f"/assets/img/people/{fname}"
         have = [p for p in (e.get("portraits") or []) if p.get("image") == web]
+        if have and row.get("post") and have[0].get("post") != row["post"]:
+            # a second picture from the same year, bound to another entry: its own file, tagged by that entry
+            import hashlib
+            tag = f"{tag}-{hashlib.md5(row['post'].encode()).hexdigest()[:4]}"
+            fname = f"{e['slug']}-{tag}.jpg"
+            web = f"/assets/img/people/{fname}"
+            have = [p for p in (e.get("portraits") or []) if p.get("image") == web]
         if have and (AVATARS / fname).exists() and not force:
             continue
         try:
             raw, credit = _fetch(row["src"])
-            jpg, by_face = square_crop(raw, row.get("box"))
+            jpg, by_face = square_crop(raw, row.get("box"), row.get("region"))
         except Exception as ex:
             print(f"  !! {name}: {ex}"); continue
         (AVATARS / fname).write_bytes(jpg)

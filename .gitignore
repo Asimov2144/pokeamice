@@ -107,3 +107,6 @@ continue-vol32-regions.json
 
 # import-web.py intermediates (the parsed turns before translation)
 data/cache_web/*.items.json
+
+# contact sheets for picking portraits (tools/portrait-candidates.py)
+data/portrait-review/
