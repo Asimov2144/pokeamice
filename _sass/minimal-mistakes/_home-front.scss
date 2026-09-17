@@ -239,19 +239,19 @@
 /* the keeper's card above the filters: avatar, name, a line, three ways to write */
 .front__author {
   display: grid;
-  grid-template-columns: 48px minmax(0, 1fr);
-  gap: 9px;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 8px;
   align-items: center;
   margin: 0 0 12px;
-  padding: 9px;
+  padding: 8px;
   border: 1px solid #dfe5eb;
   border-radius: 10px;
   background: #fff;
 }
 
 .front__author-avatar {
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   border: 1px solid #e8d3d3;
   background: #fff;
@@ -266,7 +266,7 @@
   display: block;
   overflow: hidden;
   color: #26323f;
-  font-size: 0.86rem;
+  font-size: 0.84rem;
   font-weight: 700;
   line-height: 1.2;
   text-decoration: none;
@@ -283,14 +283,37 @@
   color: #6b7785;
   font-size: 0.7rem;
   line-height: 1.3;
-  white-space: nowrap;
+}
+
+.front__author-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 5px;
+  color: #4b5563;
+  font-size: 0.7rem;
+  line-height: 1.2;
+
+  span {
+    user-select: all;
+  }
 }
 
 .front__author-links {
   display: flex;
   gap: 4px;
 
-  a {
+  .front__theme {
+    margin-left: auto;
+    border: 0;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+  }
+
+  a,
+  .front__theme {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -814,6 +837,13 @@
     gap: 12px;
   }
 
+  /* the narrow rail: the avatar sits above the text */
+  .front__author {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: start;
+    gap: 6px;
+  }
+
   .front__count {
     display: none;
   }
@@ -1086,11 +1116,14 @@ body.theme-bg-black {
   }
 
   .front__author-note,
-  .front__author-links a {
+  .front__author-group,
+  .front__author-links a,
+  .front__author-links .front__theme {
     color: #b9c2ca;
   }
 
-  .front__author-links a:hover {
+  .front__author-links a:hover,
+  .front__author-links .front__theme:hover {
     background: #353c44;
     color: #9fd7ff;
   }

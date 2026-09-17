@@ -1,7 +1,8 @@
 {%- comment -%}
   The keeper's card at the top of the home rail: avatar, name, where to write - the
   addresses come from _config.yml's author.links (Weibo, Twitter, Email), so they are
-  kept in one place.
+  kept in one place. The moon / sun button is the site's day-night switch (the same
+  selectedTheme that _main.js and the article sidebar's Theme Options use).
 {%- endcomment -%}
 {%- assign au_weibo = "" -%}{%- assign au_twitter = "" -%}{%- assign au_mail = "" -%}
 {%- for l in site.author.links -%}
@@ -12,14 +13,17 @@
   {%- endif -%}
 {%- endfor -%}
 <section class="front__author" aria-label="站点作者">
-  <img class="front__author-avatar" src="{{ '/assets/img/site/author-pikachu.jpg' | relative_url }}" alt="" width="48" height="48" decoding="async">
+  <img class="front__author-avatar" src="{{ '/assets/img/site/author-pikachu.jpg' | relative_url }}" alt="" width="44" height="44" decoding="async">
   <div class="front__author-body">
     <a class="front__author-name" href="https://github.com/Asimov2144" rel="me author">{{ site.author.name | default: "Asimov2144" }}</a>
     <p class="front__author-note">欢迎交流，加入开发群</p>
+    <p class="front__author-group" title="QQ 开发群 716536347"><i class="fab fa-qq" aria-hidden="true"></i><span>716536347</span></p>
     <div class="front__author-links">
       {%- if au_weibo != "" %}<a href="{{ au_weibo }}" rel="me noopener" target="_blank" title="微博" aria-label="微博"><i class="fab fa-weibo" aria-hidden="true"></i></a>{% endif -%}
       {%- if au_twitter != "" %}<a href="{{ au_twitter }}" rel="me noopener" target="_blank" title="X / Twitter" aria-label="X / Twitter"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>{% endif -%}
       {%- if au_mail != "" %}<a href="mailto:{{ au_mail }}" rel="me" title="邮箱 {{ au_mail }}" aria-label="邮箱"><i class="fas fa-envelope" aria-hidden="true"></i></a>{% endif -%}
+      <button type="button" class="front__theme" data-theme-toggle title="切换白天 / 黑夜" aria-label="切换白天 / 黑夜"><i class="fas fa-moon" aria-hidden="true"></i></button>
     </div>
   </div>
 </section>
+<script>(function(){var b=document.querySelector("[data-theme-toggle]");if(!b)return;var body=document.body;function dark(){return body.classList.contains("theme-bg-black");}function paint(){b.querySelector("i").className=dark()?"fas fa-sun":"fas fa-moon";b.title=dark()?"切换到白天":"切换到黑夜";}b.addEventListener("click",function(){var d=!dark();body.classList.remove("theme-bg-white","theme-bg-black");body.classList.add(d?"theme-bg-black":"theme-bg-white");try{localStorage.setItem("selectedTheme",d?"black":"white");}catch(e){}paint();});paint();})();</script>
