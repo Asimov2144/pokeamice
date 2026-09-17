@@ -89,6 +89,9 @@ carry a `kind` in the registry and never appear as co-interviewees.
           </ul>
           {% if pf.credits %}<p class="person__profile-credits">{{ pf.credits.line }}</p>{% endif %}
           {% if pf.summary %}
+          {%- comment -%} the summary and its citations fold away: the chips and the credits line say the gist, the rest opens on demand {%- endcomment -%}
+          <details class="person__profile-fold">
+            <summary>专长摘要与访谈要点{% if pf.citations and pf.citations.size > 0 %} <small>{{ pf.citations.size }} 条出处</small>{% endif %}</summary>
             {%- comment -%} [n] in the summary becomes a link to the citation below {%- endcomment -%}
             {% assign sum_html = pf.summary | escape %}
             {% for c in pf.citations %}
@@ -97,7 +100,6 @@ carry a `kind` in the registry and never appear as co-interviewees.
               {% assign sum_html = sum_html | replace: mark, link %}
             {% endfor %}
             <p class="person__profile-summary">{{ sum_html }}</p>
-          {% endif %}
           {% if pf.citations and pf.citations.size > 0 %}
           <ol class="person__cites">
             {% for c in pf.citations %}
@@ -107,6 +109,8 @@ carry a `kind` in the registry and never appear as co-interviewees.
           </ol>
           {% endif %}
           <p class="person__profile-note">履历由制作名单归纳；专长与要点由本站访谈译文中本人的发言归纳（DeepSeek 初稿，仅引用站内条目），编号即出处。</p>
+          </details>
+          {% endif %}
         </section>
         {% endif %}
 
