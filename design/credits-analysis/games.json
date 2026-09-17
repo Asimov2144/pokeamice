@@ -79,7 +79,7 @@
   "battle-revolution": {
    "slug": "battle-revolution",
    "title": "Staff of Pokémon Battle Revolution",
-   "work": null,
+   "work": "宝可梦对战革命",
    "year": 2006,
    "developer": "Genius Sonority",
    "core": false,
@@ -169,7 +169,7 @@
   "channel": {
    "slug": "channel",
    "title": "Staff of Pokémon Channel",
-   "work": null,
+   "work": "宝可梦频道",
    "year": 2003,
    "developer": "Ambrella",
    "core": false,
@@ -179,7 +179,7 @@
   "colosseum": {
    "slug": "colosseum",
    "title": "Staff of Pokémon Colosseum",
-   "work": null,
+   "work": "宝可梦圆形竞技场",
    "year": 2003,
    "developer": "Genius Sonority",
    "core": false,
@@ -239,7 +239,7 @@
   "detective-pikachu": {
    "slug": "detective-pikachu",
    "title": "Staff of Detective Pikachu",
-   "work": null,
+   "work": "名侦探皮卡丘",
    "year": 2016,
    "developer": "Creatures, Inc.",
    "core": false,
@@ -349,7 +349,7 @@
   "learn-with-pokemon-typing-adventure": {
    "slug": "learn-with-pokemon-typing-adventure",
    "title": "Staff of Learn with Pokémon: Typing Adventure",
-   "work": null,
+   "work": "宝可梦打字DS",
    "year": 2011,
    "developer": "Genius Sonority",
    "core": false,
@@ -449,7 +449,7 @@
   "mystery-dungeon-red-rescue-team-and-blue-rescue-team": {
    "slug": "mystery-dungeon-red-rescue-team-and-blue-rescue-team",
    "title": "Staff of Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team",
-   "work": null,
+   "work": "宝可梦不可思议迷宫",
    "year": 2005,
    "developer": "The Pokémon Company/Chunsoft",
    "core": false,
@@ -559,7 +559,7 @@
   "pokedex-3d": {
    "slug": "pokedex-3d",
    "title": "Staff of Pokédex 3D",
-   "work": null,
+   "work": "宝可梦立体图鉴BW",
    "year": 2011,
    "developer": "Creatures, Inc.",
    "core": false,
@@ -709,7 +709,7 @@
   "rumble-blast": {
    "slug": "rumble-blast",
    "title": "Staff of Pokémon Rumble Blast",
-   "work": null,
+   "work": "超级宝可梦乱战",
    "year": 2011,
    "developer": "Ambrella",
    "core": false,
@@ -749,7 +749,7 @@
   "rumble": {
    "slug": "rumble",
    "title": "Staff of Pokémon Rumble",
-   "work": null,
+   "work": "宝可梦乱战",
    "year": 2009,
    "developer": "Ambrella",
    "core": false,
@@ -799,7 +799,7 @@
   "snap": {
    "slug": "snap",
    "title": "Staff of Pokémon Snap",
-   "work": null,
+   "work": "宝可梦随乐拍",
    "year": 1999,
    "developer": "HAL Laboratory",
    "core": false,
@@ -829,7 +829,7 @@
   "stadium": {
    "slug": "stadium",
    "title": "Staff of Pokémon Stadium",
-   "work": null,
+   "work": "宝可梦竞技场",
    "year": 1999,
    "developer": "Nintendo",
    "core": false,

@@ -403,6 +403,19 @@ PORTRAITS = [
     dict(name="木村KAELA", year=2014, main=True, src="commons:File:Kaela Kimura MTV VMAJ 2014.jpg"),
     dict(name="橘庆太", year=2020, main=True, src="commons:File:Keita Tachibana SOS47 20201222.jpg"),
     dict(name="小林幸子", year=2017, main=True, src="commons:File:Sachiko Kobayashi 2017 (35361318945).jpg"),
+    # 2026-09-17: interview photos with the person named in the caption (or, for CGWORLD, the photo that follows the name heading on the page)
+    dict(name="尾上将之", year=2019, main=True, src=_IA + "2019-05-09-interview-vgc-gamefreak-gear-project/onoue.jpg", source="VGC 2019-05-09 GAME FREAK 专访：程序员兼总监 尾上将之", post="2019-05-09-interview-vgc-gamefreak-gear-project"),
+    dict(name="尾上将之", year=2017, src=_IA + "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage/denfami_ohmori_63.jpg", source="電ファミニコゲーマー 2017-07-03 新世代に訊く 大森滋・尾上将之（_062）", post="2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage"),
+    dict(name="大洞翔一", year=2020, main=True, src=_IA + "2020-03-01-interview-tpc-business-professionals/career_cont3_topimg.jpg", source="株式会社ポケモン 採用情報 2020「Business Professionals」大洞翔一", post="2020-03-01-interview-tpc-business-professionals"),
+    dict(name="森彰人", year=2010, main=True, src=_IA + "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto/mori.jpg", source="Pokemon.com 2010-03-31 HGSS 开发者访谈 森彰人（Programming Lead）", post="2010-03-31-interview-pokemon-com-hgss-masuda-morimoto"),
+    dict(name="江上周作", year=2016, main=True, src=_IA + "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable/0001446177.JPG", source="GNN 2016-09-30 Pokémon GO 东京圆桌：The Pokémon Company 江上周作", post="2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable"),
+    dict(name="河合敬一", year=2016, main=True, src=_IA + "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable/0001446182.JPG", source="GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 产品本部长 河合敬一", post="2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable"),
+    dict(name="野村达雄", year=2016, main=True, src=_IA + "2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable/0001446176.JPG", source="GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 野村达雄", post="2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable"),
+    dict(name="田中宏和", year=2021, main=True, src=_IA + "2020-11-08-interview-creatures-25th-ishihara-tanaka/sec03_img02.png", source="Creatures 公司史特别访谈 2021：田中宏和（代表取締役会長／社長）", post="2021-11-08-interview-creatures-history-special-ishihara-tanaka"),
+    dict(name="氏家淳子", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_01.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（氏家淳子氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
+    dict(name="中广健吾", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_02.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（中廣健吾氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
+    dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
+    dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
 ]
 
 

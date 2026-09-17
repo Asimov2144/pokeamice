@@ -9,7 +9,7 @@ publication: Game Informer
 source_kind: media_interview
 author: Game Informer Editorial Team
 translator: Poke Amice Studio
-interviewee: Game Informer, Game Informer 编者按, 大森滋, 松岛贤二, 森昭人, 森本茂树, 海野隆雄
+interviewee: Game Informer, Game Informer 编者按, 大森滋, 松岛贤二, 森彰人, 森本茂树, 海野隆雄
 toc: true
 toc_sticky: true
 parallel_view: translation
@@ -34,7 +34,7 @@ source:
   language: en
   source_type: media_interview
 original_link: https://www.gameinformer.com/b/features/archive/2010/03/19/game-freak-pokemon-interview.aspx
-summary: 2010 年 3 月《宝可梦 心金·魂银》欧美发售之际，Game Informer 独家专访了 Game Freak 核心开发团队：总监森本茂树、制作人增田顺一、艺术总监海野隆雄、策划大森滋与松岛贤二、程序员森昭人。团队深度探讨了相隔十年重制《金·银》的动机、宝可步频器（Pokéwalker）的诞生灵感与陪伴感哲学、宝可全能竞技赛的玩法设计，以及如何面对越来越庞大的怪兽生态体系，在保证新手低门槛的同时满足硬核玩家的深度追求。
+summary: 2010 年 3 月《宝可梦 心金·魂银》欧美发售之际，Game Informer 独家专访了 Game Freak 核心开发团队：总监森本茂树、制作人增田顺一、艺术总监海野隆雄、策划大森滋与松岛贤二、程序员森彰人。团队深度探讨了相隔十年重制《金·银》的动机、宝可步频器（Pokéwalker）的诞生灵感与陪伴感哲学、宝可全能竞技赛的玩法设计，以及如何面对越来越庞大的怪兽生态体系，在保证新手低门槛的同时满足硬核玩家的深度追求。
 entities:
   people:
   - 森本茂树
@@ -42,7 +42,7 @@ entities:
   - 海野隆雄
   - 大森滋
   - 松岛贤二
-  - 森昭人
+  - 森彰人
   works:
   - 宝可梦 心金·魂银
   - 宝可梦 金·银
@@ -55,7 +55,7 @@ parallel_items:
 - type: dialogue
   speaker: Game Informer 编者按
   original: With the exciting release of Pokémon HeartGold and SoulSilver this week, we got a chance to interview members of the Game Freak team, who were part of the conception of the the video game series. Director Junichi Masuda, game director Shigeki Morimoto, art director Takao Unno, planner Kenji Matsushima, and programming lead Akito Mori tell us the development process behind creating and naming Pokémon, suprises you'll find in HeartGold and SoulSilver, the idea behind the Pokéwalker, and more.
-  translation: "随着本周《宝可梦 心金·魂银》的激动人心发售，我们有幸采访到了GAME FREAK团队的成员，他们是该系列游戏构思的参与者。总监增田顺一、游戏总监森本茂树、艺术总监海野隆雄、策划松岛贤二以及编程负责人森昭人向我们讲述了创造和命名宝可梦的开发过程、在《心金·魂银》中你将发现的惊喜、宝可步频器背后的理念等等。"
+  translation: "随着本周《宝可梦 心金·魂银》的激动人心发售，我们有幸采访到了GAME FREAK团队的成员，他们是该系列游戏构思的参与者。总监增田顺一、游戏总监森本茂树、艺术总监海野隆雄、策划松岛贤二以及编程负责人森彰人向我们讲述了创造和命名宝可梦的开发过程、在《心金·魂银》中你将发现的惊喜、宝可步频器背后的理念等等。"
   role: question
 - type: dialogue
   speaker: Game Informer
@@ -66,18 +66,18 @@ parallel_items:
   speaker: Game Informer
   original: 'The Pokémon brand is obviously still very alive and well in Japan as HeartGold and SoulSilver have sold incredibly well there. What is it that keeps people interested in such a long-running franchise that already has a lengthy list of titles? Morimoto: Because we always add new gameplay so each time the game evolves. I am confident that all the people engaged with the Pokémon brand including The Pokémon Company are making great efforts to ensure it’s a long-running franchise. Ohmori: We challenge ourselves to create new gameplay every time we develop a new Pokémon game. I believe such effort is received very well by the players. I would like to keep challenging ourselves to determine how we can add new elements like wireless and Wi-Fi communication, as well as things like the Pokéwalker for HeartGold and SoulSilver. Matsushima: I believe it is because we keep challenging ourselves without changing the core. The core for Pokémon game is collecting, trading, and battling. For
     HeartGold and SoulSilver, it was the Pokéathlon and Pokéwalker. Mori: I think it’s because the game is attractive to not only boys and girls, but also adults.'
-  translation: 宝可梦品牌在日本显然依然充满活力，《心金·魂银》在那里销量极佳。是什么让人们对这样一个拥有众多作品的长期系列保持兴趣？森本茂树：因为我们总是添加新的玩法，所以每次游戏都在进化。我相信所有参与宝可梦品牌的人，包括宝可梦公司，都在为使其成为长寿系列而付出巨大努力。大森滋：我们在开发每一款新宝可梦游戏时都挑战自己创造新的玩法。我相信这种努力得到了玩家的好评。我希望继续挑战自己，思考如何添加无线和Wi-Fi通信等新元素，以及像《心金·魂银》中的宝可步频器这样的东西。松岛贤二：我认为这是因为我们在不改变核心的前提下不断挑战自我。宝可梦游戏的核心是收集、交换和对战。对于《心金·魂银》，核心就是宝可全能竞技赛和宝可步频器。森昭人：我认为这是因为游戏不仅对男孩女孩有吸引力，对成年人也是如此。
+  translation: 宝可梦品牌在日本显然依然充满活力，《心金·魂银》在那里销量极佳。是什么让人们对这样一个拥有众多作品的长期系列保持兴趣？森本茂树：因为我们总是添加新的玩法，所以每次游戏都在进化。我相信所有参与宝可梦品牌的人，包括宝可梦公司，都在为使其成为长寿系列而付出巨大努力。大森滋：我们在开发每一款新宝可梦游戏时都挑战自己创造新的玩法。我相信这种努力得到了玩家的好评。我希望继续挑战自己，思考如何添加无线和Wi-Fi通信等新元素，以及像《心金·魂银》中的宝可步频器这样的东西。松岛贤二：我认为这是因为我们在不改变核心的前提下不断挑战自我。宝可梦游戏的核心是收集、交换和对战。对于《心金·魂银》，核心就是宝可全能竞技赛和宝可步频器。森彰人：我认为这是因为游戏不仅对男孩女孩有吸引力，对成年人也是如此。
   role: question
 - type: dialogue
   speaker: Game Informer
   original: 'Where did you get the idea for the pedometer peripheral bundled with HeartGold and SoulSilver? Ohmori: The idea came up when we thought about what we could do to make players’ dream — “I would like to become a Pokémon Trainer!” — possible. Our focus was to enable a player to be with his or her Pokémon all the time, even when he or she is walking. Because you can play anytime, anywhere, it seems there are many players who play with the Pokéwalker as much as the actual games. I am happy to see that. Mori: There were many ideas, but in the end we settled on Director Morimoto’s decision to make a product that would make fans happy. Morimoto: We took some elements from Pokémon Pikachu, which was sold at the same time as Pokémon Gold and Silver. We wanted to provide more nostalgia to the players who played the original Gold and Silver games.'
-  translation: 你们从哪里得到捆绑在《心金·魂银》中的计步器外设的想法？大森滋：当我们思考如何实现玩家“我想成为宝可梦训练家！”的梦想时，这个想法出现了。我们的重点是让玩家能够时刻与他的宝可梦在一起，即使是在走路的时候。因为可以随时随地游玩，似乎有很多玩家像玩正篇游戏一样频繁使用宝可步频器。我很高兴看到这一点。森昭人：有很多想法，但最终我们采纳了森本总监的决定，制作一个能让粉丝开心的产品。森本茂树：我们借鉴了与《宝可梦 金·银》同时发售的“宝可梦皮卡丘”的一些元素。我们想为玩过原版《金·银》的玩家提供更多怀旧感。
+  translation: 你们从哪里得到捆绑在《心金·魂银》中的计步器外设的想法？大森滋：当我们思考如何实现玩家“我想成为宝可梦训练家！”的梦想时，这个想法出现了。我们的重点是让玩家能够时刻与他的宝可梦在一起，即使是在走路的时候。因为可以随时随地游玩，似乎有很多玩家像玩正篇游戏一样频繁使用宝可步频器。我很高兴看到这一点。森彰人：有很多想法，但最终我们采纳了森本总监的决定，制作一个能让粉丝开心的产品。森本茂树：我们借鉴了与《宝可梦 金·银》同时发售的“宝可梦皮卡丘”的一些元素。我们想为玩过原版《金·银》的玩家提供更多怀旧感。
   note: 宝可梦皮卡丘是1998年发售的计步器型携带设备，玩家可以通过走路积累步数来玩游戏。
   role: question
 - type: dialogue
   speaker: Game Informer
   original: 'For fans who have already played Gold and Silver, what surprises can they expect to discover? Morimoto: As for the scenario, we tried to keep the storyline truthful to the original all while adding something new. As a result, it has good depth. There is a lot of gameplay you didn’t experience in the original Gold and Silver games. Ohmori: Even though it is the same storyline, there is a new experience. For example, players can walk with his or her Pokémon. It is a whole new experience to walk into towns and down the street with your Pokémon. Also, you might want to enjoy competing with your Pokémon at Pokéathlon Dome. Matsushima: We replicate the Gold and Silver storyline, but we added more stages. Now you can meet familiar Pokémon in the Kanto Region. Mori: The Pokémon are now able to show off their movement. Also, those who played using the black and white screen of the Game Boy can finally see what the Johto Region looks like!'
-  translation: 对于已经玩过《金·银》的粉丝，他们可以期待发现哪些惊喜？森本茂树：关于剧情，我们试图在忠实于原作的同时加入新内容。因此，它有了很好的深度。有很多你在原版《金·银》中没有体验过的玩法。大森滋：即使是相同的剧情，也有新的体验。例如，玩家可以带着宝可梦一起行走。带着宝可梦走进城镇、走在街上是一种全新的体验。此外，你可能还想在宝可全能竞技赛巨蛋享受与宝可梦的竞技。松岛贤二：我们重现了《金·银》的剧情，但增加了更多阶段。现在你可以在关都地区遇到熟悉的宝可梦。森昭人：宝可梦现在能够展示它们的动作。而且，那些在Game Boy黑白屏幕上玩过的玩家终于可以看到城都地区的样貌了！
+  translation: 对于已经玩过《金·银》的粉丝，他们可以期待发现哪些惊喜？森本茂树：关于剧情，我们试图在忠实于原作的同时加入新内容。因此，它有了很好的深度。有很多你在原版《金·银》中没有体验过的玩法。大森滋：即使是相同的剧情，也有新的体验。例如，玩家可以带着宝可梦一起行走。带着宝可梦走进城镇、走在街上是一种全新的体验。此外，你可能还想在宝可全能竞技赛巨蛋享受与宝可梦的竞技。松岛贤二：我们重现了《金·银》的剧情，但增加了更多阶段。现在你可以在关都地区遇到熟悉的宝可梦。森彰人：宝可梦现在能够展示它们的动作。而且，那些在Game Boy黑白屏幕上玩过的玩家终于可以看到城都地区的样貌了！
   role: question
 - type: dialogue
   speaker: Game Informer
@@ -108,7 +108,7 @@ parallel_items:
   note: 宝可步频器（Pokéwalker）是《心金·魂银》附带的计步器外设，玩家可将宝可梦存入其中，通过步行积累步数来获得经验值、道具等。
   role: answer
 - type: dialogue
-  speaker: 森昭人
+  speaker: 森彰人
   original: There were many ideas, but in the end we settled on Director Morimoto’s decision to make a product that would make fans happy.
   translation: 当时有很多想法，但最终我们遵循了森本总监的决定，制作一款能让粉丝开心的产品。
   role: answer
@@ -140,7 +140,7 @@ parallel_items:
   translation: 我们重现了《金·银》的剧情，并增加了更多阶段。现在，你可以在关都地区遇到熟悉的宝可梦。
   role: answer
 - type: dialogue
-  speaker: 森昭人
+  speaker: 森彰人
   original: The Pokémon are now able to show off their movement. Also, those who played using the black and white screen of the Game Boy can finally see what the Johto Region looks like!
   translation: 宝可梦现在能够展示它们的动作了。此外，那些曾在Game Boy黑白屏幕上玩过的人，终于可以看到城都地区的真实样貌了！
   note: 原版《金·银》在Game Boy Color上运行，但许多玩家使用初代Game Boy（黑白屏）游玩，因此城都地区首次以彩色画面呈现。

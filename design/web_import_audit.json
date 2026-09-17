@@ -17,24 +17,17 @@
  {
   "post": "1990-12-02-research-glitterberri-early-concept-art-part2.md",
   "url": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
-  "post_chars": 1118,
+  "post_chars": 4516,
   "post_images": 2,
   "page_chars": 5176,
   "page_images": 2,
-  "share": 0.22,
+  "share": 0.87,
   "cached": true,
   "paragraphs": 19,
-  "missing": 13,
-  "missing_chars": 3501,
-  "covered": 0.22,
-  "missing_sample": [
-   "Sugimori:“Memorycapacityanddecidingonagoodnumberofcharactersbecameanissue.Weactu",
-   "Tajiri:Wedesignedmorethan200Pokémonforthefirstgames,thenwhittledthemdownto150.Th",
-   "A(Hypothetical)StorySetintheNot-So-DistantFuture…",
-   "It’sbeenamonthsincethereleaseofCapsuleMonsters,amonstergamethatincorporatesRPGel",
-   "InCapsuleMonsters,200typesofvirtualmonstersliveinequallyvirtualundergrounddungeo",
-   "Therosterofover200typesofmonstersincludescreaturesthatyouwon’tnecessarilyencount"
-  ]
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "1997-05-23-interview-famimaga-tajiri-pokemon2-secret.md",
@@ -315,7 +308,7 @@
   "page_chars": 7996,
   "page_images": 7,
   "share": 0.99,
-  "cached": false,
+  "cached": true,
   "paragraphs": 4,
   "missing": 0,
   "missing_chars": 0,
@@ -485,7 +478,7 @@
   "page_chars": 8014,
   "page_images": 6,
   "share": 1.02,
-  "cached": false,
+  "cached": true,
   "paragraphs": 33,
   "missing": 0,
   "missing_chars": 0,
@@ -738,23 +731,23 @@
  {
   "post": "2011-03-05-interview-1up-black-white-how-pokemon-get-made.md",
   "url": "https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made",
-  "post_chars": 2495,
-  "post_images": 3,
+  "post_chars": 3769,
+  "post_images": 4,
   "page_chars": 6796,
   "page_images": 1,
-  "share": 0.37,
+  "share": 0.55,
   "cached": true,
   "paragraphs": 41,
-  "missing": 33,
-  "missing_chars": 6432,
-  "covered": 0.34,
+  "missing": 32,
+  "missing_chars": 6059,
+  "covered": 0.37,
   "missing_sample": [
    "GameFreak'sdesignersdiscussBlackandWhite'smaincharacters.",
-   "Onewouldthink,therefore,thatthemonsterdesignprocessforPokemonBlackandWhitewasare",
    "NintendoCelebratingPokemonGold&SilverAnniversarywithMew",
    "PokemonLosingSteamYetStillNumberOneinJapan",
    "NewCampaignOffersFreePokemonasBirthdayPresents",
-   "IcallbullshitPosted:userComment.createdDatebyKLN\"SincewehavethePokemonconstantly"
+   "IcallbullshitPosted:userComment.createdDatebyKLN\"SincewehavethePokemonconstantly",
+   "Theydon'tchangeanimationswhentheyattack.Andtheydon'tlookanydifferentwhentheirsta"
   ]
  },
  {
@@ -1190,7 +1183,7 @@
   "url": "https://web.archive.org/web/20130116054809/https://www.gameinformer.com/b/features/archive/2012/11/23/pok-233-mon-39-s-burning-questions.aspx",
   "post_chars": 6720,
   "post_images": 3,
-  "error": "the fetched copy holds no article (0 chars)"
+  "error": "the fetched copy holds no article (26 chars)"
  },
  {
   "post": "2013-01-11-interview-junichi-masuda-takeshi-kawachimaru.md",
@@ -1272,7 +1265,22 @@
   "url": "https://www.4gamer.net/games/226/G022607/20131007064/",
   "post_chars": 6294,
   "post_images": 10,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 8773,
+  "page_images": 21,
+  "share": 0.72,
+  "cached": true,
+  "paragraphs": 21,
+  "missing": 21,
+  "missing_chars": 1429,
+  "covered": 0.0,
+  "missing_sample": [
+   "3DSレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "(C)2013Pokémon．(C)1995-2013Nintendo/CreaturesInc．/GAMEFREAKinc．ポケットモンスター・ポケモン・Po",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
+   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
+   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
+  ]
  },
  {
   "post": "2013-10-10-interview-gamasutra-xy-monster-design.md",
@@ -1387,7 +1395,22 @@
   "url": "https://www.4gamer.net/games/198/G019893/20131116014/",
   "post_chars": 2915,
   "post_images": 9,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 5351,
+  "page_images": 10,
+  "share": 0.54,
+  "cached": true,
+  "paragraphs": 24,
+  "missing": 24,
+  "missing_chars": 1599,
+  "covered": 0.0,
+  "missing_sample": [
+   "3DSレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "ポケモンXYディレクター増田順一氏。増田氏はゲームのディレクター以外に，作曲などでサウンドにも深く関わっている",
+   "ポケモンXYサウンドディレクター景山将太氏。シリーズには「ポケットモンスターハートゴールド・ソウルシルバー」より参加",
+   "プラターヌ博士の設定資料を見せながら解説する増田氏。この資料の一部は攻略本やサウンドトラックCDにも掲載されている",
+   "(C)2013Pokémon．(C)1995-2013Nintendo/CreaturesInc．/GAMEFREAKinc．ポケットモンスター・ポケモン・Po",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ"
+  ]
  },
  {
   "post": "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art.md",
@@ -1548,7 +1571,7 @@
   "url": "http://www.2083.jp/contents/201410gamefreak/",
   "post_chars": 8286,
   "post_images": 7,
-  "error": "the fetched copy holds no article (355 chars)"
+  "error": "the fetched copy holds no article (446 chars)"
  },
  {
   "post": "2014-11-01-interview-elpais-oras-masuda-ohmori.md",
@@ -1680,7 +1703,22 @@
   "url": "https://www.inside-games.jp/article/2016/02/27/96339.html",
   "post_chars": 8375,
   "post_images": 8,
-  "error": "the fetched copy holds no article (1045 chars)"
+  "page_chars": 4762,
+  "page_images": 15,
+  "share": 1.76,
+  "cached": true,
+  "paragraphs": 14,
+  "missing": 13,
+  "missing_chars": 1064,
+  "covered": 0.1,
+  "missing_sample": [
+   "【特集】1996年2月27日、全てはここから始まった…ポケモンゲーム史「ゲームボーイ」編",
+   "【特集】みんなそれぞれのポケモンの思い出(10)「姉妹で遊んだ『ポケモン赤・緑』の日々」2016.3.19Sat22:00初めてプレイしたのは、『ポケットモンス",
+   "【特集】みんなそれぞれのポケモンの思い出(9)「秘められた謎にワクワクしたポケモン」2016.3.18Fri22:00",
+   "【特集】みんなそれぞれのポケモンの思い出(8)「ピカチュウの“鳴き声”ってすげー！」2016.3.17Thu22:00",
+   "【特集】みんなそれぞれのポケモンの思い出(7)「目指せ、1日1万歩！『ポケットピカチュウ』と共に歩いたあの日」2016.3.16Wed22:00",
+   "『ニンジャラ２未知なる惑星』はなぜPvEオープンワールドへ舵を切ったのか？前編・後編に分けた理由や協力プレイの魅力に迫る、金田元貴ディレクターにインタビュー20"
+  ]
  },
  {
   "post": "2016-04-18-interview-denfami-sonobe-gamefreak-morimoto.md",
@@ -1702,7 +1740,7 @@
   "url": "https://www.inside-games.jp/article/2016/05/12/98566.html",
   "post_chars": 8191,
   "post_images": 19,
-  "error": "the fetched copy holds no article (2109 chars)"
+  "error": "the fetched copy holds no article (2309 chars)"
  },
  {
   "post": "2016-08-25-interview-nikkei-utsunomiya-pokemon-go.md",
@@ -1754,9 +1792,9 @@
  },
  {
   "post": "2016-10-19-interview-kotaku-2016-popplio.md",
-  "url": "https://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
+  "url": "https://web.archive.org/web/20170111135426/http://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
   "post_chars": 1941,
-  "post_images": 0,
+  "post_images": 1,
   "page_chars": 3707,
   "page_images": 14,
   "share": 0.52,
@@ -1776,9 +1814,9 @@
  },
  {
   "post": "2016-10-25-interview-kotaku-2016-designs.md",
-  "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
+  "url": "https://web.archive.org/web/20170301175000/http://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
   "post_chars": 1966,
-  "post_images": 0,
+  "post_images": 3,
   "page_chars": 4117,
   "page_images": 14,
   "share": 0.48,
@@ -1816,7 +1854,7 @@
   "url": "https://www.revistagq.com/noticias/articulos/entrevista-pokemon-sol-luna-creadores/25134",
   "post_chars": 5758,
   "post_images": 1,
-  "error": "the fetched copy holds no article (94 chars)"
+  "error": "the fetched copy holds no article (14 chars)"
  },
  {
   "post": "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori.md",
@@ -2254,7 +2292,22 @@
   "url": "https://www.4gamer.net/games/383/G038332/20180512011/",
   "post_chars": 2753,
   "post_images": 8,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 5015,
+  "page_images": 9,
+  "share": 0.55,
+  "cached": true,
+  "paragraphs": 21,
+  "missing": 21,
+  "missing_chars": 1460,
+  "covered": 0.0,
+  "missing_sample": [
+   "3DSレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "(C)2017Pokémon.(C)1995-2017Nintendo/CreaturesInc./GAMEFREAKincポケットモンスター・ポケモン・Pok",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
+   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
+   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
+  ]
  },
  {
   "post": "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music.md",
@@ -2282,7 +2335,19 @@
   "url": "https://www.gamer.ne.jp/news/201805300063/",
   "post_chars": 3431,
   "post_images": 12,
-  "error": "the fetched copy holds no article (977 chars)"
+  "page_chars": 3849,
+  "page_images": 55,
+  "share": 0.89,
+  "cached": true,
+  "paragraphs": 25,
+  "missing": 3,
+  "missing_chars": 285,
+  "covered": 0.92,
+  "missing_sample": [
+   "ジョン・ハンケ氏からのビデオメッセージも公開。その中で、今回の発表を記念して「ポケットモンスターサン・ムーン」からアローラナッシーが「PokémonGO」に登場",
+   "(C)2018Pokémon.(C)1995-2018Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "本コンテンツは、掲載するECサイトやメーカー等から収益を得ている場合があります。"
+  ]
  },
  {
   "post": "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle.md",
@@ -2462,28 +2527,6 @@
   "missing_sample": []
  },
  {
-  "post": "2018-10-12-interview-eurogamer-letsgo-masuda.md",
-  "url": "https://www.eurogamer.net/articles/2018-10-12-junichi-masuda-on-pokemon-lets-gos-difficulty-meltans-reveal-and-the-future",
-  "post_chars": 5191,
-  "post_images": 3,
-  "page_chars": 12416,
-  "page_images": 4,
-  "share": 0.42,
-  "cached": true,
-  "paragraphs": 42,
-  "missing": 20,
-  "missing_chars": 4507,
-  "covered": 0.61,
-  "missing_sample": [
-   "Soatthetimeofcourse,youhadthepixelart,allinblackandwhiteandmonocolour,butwiththe",
-   "Doesthatcoverallofthepostgamecontentoristheremore?Isthereanystory-basedcontentaf",
-   "JunichiMasuda:SoyouknowthisisobviouslybasedontheYellowversion,soinadditiontotheM",
-   "Sure-andIknowyouhaven'ttalkedmuchaboutthisyetbutisthereanypossibiltiythattherewo",
-   "AdventureawaitsinPokémon:Let’sGo,Pikachu!&Pokémon:Let’sGo,Eevee!(NintendoSwitch)",
-   "JunichiMasuda:Sonotrightnow-we'llkindof,orwhatwe'relookingforwardtomostrightnowi"
-  ]
- },
- {
   "post": "2018-10-17-interview-gamespot-lgpe-masuda.md",
   "url": "https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/",
   "post_chars": 12473,
@@ -2584,7 +2627,15 @@
   "url": "https://www.videogameschronicle.com/features/interviews/game-freak-were-trying-to-create-something-more-than-pokemon/",
   "post_chars": 4937,
   "post_images": 2,
-  "error": "the fetched copy holds no article (30 chars)"
+  "page_chars": 5225,
+  "page_images": 1,
+  "share": 0.94,
+  "cached": true,
+  "paragraphs": 31,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2019-05-18-interview-siliconera-harmoknight-drill-dozer.md",
@@ -2750,7 +2801,22 @@
   "url": "https://www.4gamer.net/games/451/G045125/20191112090/",
   "post_chars": 10748,
   "post_images": 14,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 13703,
+  "page_images": 15,
+  "share": 0.78,
+  "cached": true,
+  "paragraphs": 23,
+  "missing": 21,
+  "missing_chars": 1482,
+  "covered": 0.06,
+  "missing_sample": [
+   "NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "（C）2019Pokémon.（C）1995-2019Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
+   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
+   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
+  ]
  },
  {
   "post": "2019-11-13-interview-gi-2019-going-big.md",
@@ -2872,7 +2938,7 @@
   "url": "https://www.oricon.co.jp/news/2185697/full/",
   "post_chars": 4279,
   "post_images": 0,
-  "error": "the fetched copy holds no article (4370 chars)"
+  "error": "the fetched copy holds no article (4849 chars)"
  },
  {
   "post": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md",
@@ -2924,21 +2990,21 @@
   "url": "https://newspicks.com/news/6367027/body/",
   "post_chars": 4641,
   "post_images": 11,
-  "page_chars": 2050,
-  "page_images": 0,
-  "share": 2.26,
+  "page_chars": 9050,
+  "page_images": 12,
+  "share": 0.51,
   "cached": true,
-  "paragraphs": 12,
-  "missing": 12,
-  "missing_chars": 3857,
-  "covered": 0.0,
+  "paragraphs": 59,
+  "missing": 14,
+  "missing_chars": 3975,
+  "covered": 0.52,
   "missing_sample": [
+   "コロナ禍で大きな影響を受けている航空業界や観光業界の力になりたい。そんな想いから生まれたのが「そらとぶピカチュウプロジェクト」だ。",
+   "福島県浪江町に設置された「ポケふた」を見つけた子どもたち。マンホールに描かれているポケモンは「ラッキー」。",
    "中野佑也NewsPicksBrandDesigneditor・2021年11月29日編集を担当しました。「ポケモン」と聞いたとき、初代から遊んできた身としては、",
    "編集を担当しました。「ポケモン」と聞いたとき、初代から遊んできた身としては、「なんて羨ましい仕事なんだ…」と思いましたが、当然話はそう単純ではなく。日本を代表す",
    "中西拓人2021年12月28日決算公告では1500億だったと思います。社員数は320名くらいだったはず。ここ10年で5倍くらいは伸びているゲーム業界屈指の優良企",
-   "決算公告では1500億だったと思います。社員数は320名くらいだったはず。ここ10年で5倍くらいは伸びているゲーム業界屈指の優良企業です。牽引の要因は、ポケモン",
-   "YuichiroIwaseBaton合同会社/VECTOR合同会社代表/デザインディレクター・2021年12月11日ポケモンて日本で最も成功したIPの一つだと思",
-   "ポケモンて日本で最も成功したIPの一つだと思うし、売上もとてもある気がするんだけど、それでもこの提示された年収てことは、実は一人当たりの売上はそんなに高くないの"
+   "決算公告では1500億だったと思います。社員数は320名くらいだったはず。ここ10年で5倍くらいは伸びているゲーム業界屈指の優良企業です。牽引の要因は、ポケモン"
   ]
  },
  {
@@ -2976,23 +3042,23 @@
  {
   "post": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.md",
   "url": "https://news.denfaminicogamer.jp/kikakuthetower/220825t",
-  "post_chars": 2521,
-  "post_images": 0,
+  "post_chars": 2538,
+  "post_images": 19,
   "page_chars": 5190,
   "page_images": 46,
   "share": 0.49,
   "cached": true,
   "paragraphs": 64,
-  "missing": 43,
-  "missing_chars": 3082,
-  "covered": 0.36,
+  "missing": 36,
+  "missing_chars": 2552,
+  "covered": 0.47,
   "missing_sample": [
-   "同社におけるポケモンモデル制作の体制は下記のとおり。本セッションでは、R&D（研究開発部）の部分を中心に解説された。R&Dにはアニメーション関係のエンジニアが集",
-   "タイトルごとに「どのような要素が必要なのか」、「どのような表現をするのだろうか」という点をもとに仕様や環境を決め、それぞれ開発されている。",
-   "下記画像の左は納品データのピカチュウ、右は『アルセウス』のピカチュウである。人物や背景はタイトルに合わせて制作されているため、もとの納品データとタイトルのイメー",
-   "そのほかにも、ジェル状の部位や発光粒子、新しい「テラスタイル」など『スカーレット・バイオレット』ではさまざまな質感が施されている。",
-   "まずは「人型」、「犬猫型」、「ヘビ型」、「ドラゴン型」などポケモンの体型分類を行う。そこで分類されたポケモン同士を「モーションコピー」してみると、共通化ができる",
-   "実際にモーションコピーを使った例は下記のとおり。ドラゴン型の歩き方やしっぽの動かし方、ヘビ型のうねうね感などがコピーできる。"
+   "幼少期からホラーゲームが好き。RPGは登場人物への感情移入が激しく的外れな考察をしがちで、レベル上げも怠るため終盤に苦しくなるタイプ。自著『デブからの脱却』（K",
+   "「レベルファイブ」が『妖怪ウォッチ2覇道』のAI使用レベルファイブ、『妖怪ウォッチ2覇道』など生成AIの指摘があったPVやイラストについて公式声明。修正したバー",
+   "【超高評価】映画『バイオハザード』海外レビュー集積サイトで“97%”スコアを獲得。「ゲーム原作映画の中でも最高の1本」「ゲームの体験を映画に落とし込む上で最高の",
+   "「4つの魂」を宿した少女を描くホラーゲーム『UN:Me』クオリティアップのため2027年に発売延期。主人公役に花守ゆみりさんを起用2026年9月17日",
+   "「東京ゲームショウ2026」ついに開幕！！30周年を迎える今年は“TGS史上初の5日間開催”2026年9月17日",
+   "『ブルアカ』開発スタジオの新作『ファレイドリア』先行プレイ。まさか、マイクに向かって美少女に話しかけるゲームだったとは。しかも、名前を呼ぶと笑顔で振り向いてくれ"
   ]
  },
  {
@@ -3115,14 +3181,44 @@
   "url": "https://www.4gamer.net/games/619/G061991/20230823075/",
   "post_chars": 1758,
   "post_images": 0,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 4622,
+  "page_images": 53,
+  "share": 0.38,
+  "cached": true,
+  "paragraphs": 21,
+  "missing": 21,
+  "missing_chars": 1482,
+  "covered": 0.0,
+  "missing_sample": [
+   "NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "（C）2023Pokémon.（C）1995-2023Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
+   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
+   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
+   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
+  ]
  },
  {
   "post": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md",
   "url": "https://www.4gamer.net/games/256/G025650/20230825014/",
   "post_chars": 4489,
   "post_images": 26,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 7880,
+  "page_images": 31,
+  "share": 0.57,
+  "cached": true,
+  "paragraphs": 27,
+  "missing": 26,
+  "missing_chars": 2104,
+  "covered": 0.05,
+  "missing_sample": [
+   "TOP話題作オンラインゲーム週刊連載攻略ガイドレビューインタビュームービーゲームショウプレゼント配信番組表",
+   "トップ>OTHERS/3DS/NintendoSwitch>RPG>ポケットモンスターオメガルビー",
+   "・「ポケモンは“ふしぎな生き物”であって“動物”ではない」・「クリエイティブされた生き物である」・「ライオンからインスパイアされたポケモンに，ライオンの声を使う",
+   "（C）2014Pokémon.（C）1995-2014Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "(C)2016Pokémon.(C)1995-2016Nintendo/CreaturesInc./GAMEFREAKincポケットモンスター・ポケモン・Pok",
+   "(C)2021Pokémon.(C)1995-2021Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po"
+  ]
  },
  {
   "post": "2023-09-10-interview-pokemon-recruit-data.md",
@@ -3251,14 +3347,14 @@
   "url": "https://dengekionline.com/article/202602/67042",
   "post_chars": 5348,
   "post_images": 11,
-  "page_chars": 6161,
-  "page_images": 12,
-  "share": 0.87,
+  "page_chars": 11533,
+  "page_images": 68,
+  "share": 0.46,
   "cached": true,
-  "paragraphs": 27,
-  "missing": 7,
-  "missing_chars": 1514,
-  "covered": 0.75,
+  "paragraphs": 127,
+  "missing": 107,
+  "missing_chars": 8126,
+  "covered": 0.36,
   "missing_sample": [
    "ポケモンと歩いた30年【1996年】初代『赤・緑』と幻のミュウ後編【30周年記念コラム】",
    "“ファミ通”で雑誌やムック、音楽やWeb番組を作っていました。現在はフリーのミュージシャンで編集ライター。ポケモン歴は1996年2月『ポケットモンスター赤・緑』",
@@ -3273,14 +3369,14 @@
   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3390",
   "post_chars": 11945,
   "post_images": 65,
-  "error": "the fetched copy holds no article (0 chars)"
+  "error": "the fetched copy holds no article (1125 chars)"
  },
  {
   "post": "2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers.md",
   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3341",
   "post_chars": 12787,
   "post_images": 51,
-  "error": "the fetched copy holds no article (0 chars)"
+  "error": "the fetched copy holds no article (873 chars)"
  },
  {
   "post": "2026-07-22-interview-denfami-2026-cedec-battle.md",
@@ -3302,13 +3398,13 @@
   "url": "https://cedil.cesa.or.jp/cedil_sessions/view/3366",
   "post_chars": 5664,
   "post_images": 76,
-  "error": "the fetched copy holds no article (0 chars)"
+  "error": "the fetched copy holds no article (1375 chars)"
  },
  {
   "post": "2026-07-23-interview-denfami-2026-cedec-pokerig.md",
   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
   "post_chars": 2215,
-  "post_images": 10,
+  "post_images": 18,
   "page_chars": 4992,
   "page_images": 39,
   "share": 0.44,
@@ -3331,6 +3427,21 @@
   "url": "https://www.4gamer.net/games/897/G089789/20260728007/",
   "post_chars": 6348,
   "post_images": 10,
-  "error": "the fetched copy holds no article (884 chars)"
+  "page_chars": 8649,
+  "page_images": 21,
+  "share": 0.73,
+  "cached": true,
+  "paragraphs": 24,
+  "missing": 24,
+  "missing_chars": 1629,
+  "covered": 0.0,
+  "missing_sample": [
+   "NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "トップ>NintendoSwitch2/NintendoSwitch>アクション>PokémonLEGENDSZ-ANintendoSwitch2Edition",
+   "関連タイトル：PokémonLEGENDSZ-ANintendoSwitch2Edition",
+   "（C）2025Pokémon.（C）1995-2025Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "（C）2024Pokémon.（C）1995-2024Nintendo/CreaturesInc./GAMEFREAKinc.",
+   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ"
+  ]
  }
 ]

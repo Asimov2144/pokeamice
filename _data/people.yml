@@ -2,7 +2,6 @@
 # portraits 是不同时期的照片（image / year / source），avatar_source 记主头像出处；aliases 供检索；
 # kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：registry 只添加不覆盖，
 # harvest 按脚本里 PORTRAITS 表（已核对过身份的照片）裁头像；portraits 里的 post 是照片所在的条目，该条目优先显示这张。
-# kind=staff 是只出现在游戏 staff 名单里的人（tools/build-credits-site.py 按门槛追加，credits_key 对 archive/credits/index.yml），建页但不进受访者目录。
 - name: 增田顺一
   slug: masuda-junichi
   aliases:
@@ -530,6 +529,13 @@
   aliases:
   - 野村達雄
   - Tatsuo Nomura
+  portraits:
+  - image: /assets/img/people/nomura-tatsuo-2016.jpg
+    year: 2016
+    source: GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 野村达雄
+    post: 2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable
+  avatar: /assets/img/people/nomura-tatsuo.jpg
+  avatar_source: GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 野村达雄
 - name: 约翰·汉克
   slug: john-hanke
   aliases:
@@ -899,6 +905,13 @@
 - name: 河内丸武史
   slug: kawachimaru-takeshi
   credits_key: kawachimaru takeshi
+  portraits:
+  - image: /assets/img/people/kawachimaru-takeshi-2009.jpg
+    year: 2009
+    source: G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla
+    post: 2009-03-24-interview-g4tv-platinum-masuda-kawachimaru
+  avatar: /assets/img/people/kawachimaru-takeshi.jpg
+  avatar_source: G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla
 - name: 小建
   slug: xiao-jian
   kind: character
@@ -930,9 +943,6 @@
   avatar: /assets/img/people/matsushima-kenji.jpg
   avatar_source: Bulbapedia File:Kenji_Matsushima.jpg
   credits_key: kenji matsushima
-- name: 森昭人
-  slug: sen-zhao-ren
-  credits_key: akito mori
 - name: 田上怜子
   slug: tian-shang-lian-zi
   credits_key: reiko tanoe
@@ -1044,14 +1054,46 @@
 - name: 尾上将之
   slug: wei-shang-jiang-zhi
   credits_key: masayuki onoe
+  portraits:
+  - image: /assets/img/people/wei-shang-jiang-zhi-2017.jpg
+    year: 2017
+    source: 電ファミニコゲーマー 2017-07-03 新世代に訊く 大森滋・尾上将之（_062）
+    post: 2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage
+  - image: /assets/img/people/wei-shang-jiang-zhi-2019.jpg
+    year: 2019
+    source: VGC 2019-05-09 GAME FREAK 专访：程序员兼总监 尾上将之
+    post: 2019-05-09-interview-vgc-gamefreak-gear-project
+  avatar: /assets/img/people/wei-shang-jiang-zhi.jpg
+  avatar_source: VGC 2019-05-09 GAME FREAK 专访：程序员兼总监 尾上将之
 - name: 氏家淳子
   slug: shi-jia-chun-zi
   credits_key: atsuko ujie
+  portraits:
+  - image: /assets/img/people/shi-jia-chun-zi-2017.jpg
+    year: 2017
+    source: CGWORLD 2017-07 クリーチャーズ 取材写真（氏家淳子氏 见出し后）
+    post: 2017-07-15-interview-cgworld-creatures-3d-character-life
+  avatar: /assets/img/people/shi-jia-chun-zi.jpg
+  avatar_source: CGWORLD 2017-07 クリーチャーズ 取材写真（氏家淳子氏 见出し后）
 - name: 中广健吾
   slug: zhong-guang-jian-wu
   credits_key: kengo nakahiro
+  portraits:
+  - image: /assets/img/people/zhong-guang-jian-wu-2017.jpg
+    year: 2017
+    source: CGWORLD 2017-07 クリーチャーズ 取材写真（中廣健吾氏 见出し后）
+    post: 2017-07-15-interview-cgworld-creatures-3d-character-life
+  avatar: /assets/img/people/zhong-guang-jian-wu.jpg
+  avatar_source: CGWORLD 2017-07 クリーチャーズ 取材写真（中廣健吾氏 见出し后）
 - name: 畠祐贵
   slug: tian-you-gui
+  portraits:
+  - image: /assets/img/people/tian-you-gui-2017.jpg
+    year: 2017
+    source: CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）
+    post: 2017-07-15-interview-cgworld-creatures-3d-character-life
+  avatar: /assets/img/people/tian-you-gui.jpg
+  avatar_source: CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）
 - name: 小野宪史
   slug: xiao-ye-xian-shi
 - name: 本·里夫斯
@@ -1097,6 +1139,13 @@
 - name: 江上周作
   slug: egami-shusaku
   credits_key: egami shusaku
+  portraits:
+  - image: /assets/img/people/egami-shusaku-2016.jpg
+    year: 2016
+    source: GNN 2016-09-30 Pokémon GO 东京圆桌：The Pokémon Company 江上周作
+    post: 2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable
+  avatar: /assets/img/people/egami-shusaku.jpg
+  avatar_source: GNN 2016-09-30 Pokémon GO 东京圆桌：The Pokémon Company 江上周作
 - name: M.Y.
   slug: m-y
 - name: 冈崎体育
@@ -1141,6 +1190,13 @@
   avatar_source: Wikimedia Commons File:Sachiko Kobayashi 2017 (35361318945).jpg · Tomohiro Ohtake · CC BY-SA 2.0
 - name: 大洞翔一
   slug: da-dong-xiang-yi
+  portraits:
+  - image: /assets/img/people/da-dong-xiang-yi-2020.jpg
+    year: 2020
+    source: 株式会社ポケモン 採用情報 2020「Business Professionals」大洞翔一
+    post: 2020-03-01-interview-tpc-business-professionals
+  avatar: /assets/img/people/da-dong-xiang-yi.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2020「Business Professionals」大洞翔一
 - name: 今村啓太
   slug: jin-cun-qi-tai
 - name: 川村元気
@@ -1281,6 +1337,17 @@
   credits_key: hiroyuki jinnai
 - name: 森彰人
   slug: sen-zhang-ren
+  credits_key: akito mori
+  aliases:
+  - 森昭人
+  - Akito Mori
+  portraits:
+  - image: /assets/img/people/sen-zhang-ren-2010.jpg
+    year: 2010
+    source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森彰人（Programming Lead）
+    post: 2010-03-31-interview-pokemon-com-hgss-masuda-morimoto
+  avatar: /assets/img/people/sen-zhang-ren.jpg
+  avatar_source: Pokemon.com 2010-03-31 HGSS 开发者访谈 森彰人（Programming Lead）
 - name: 诸月纱保子
   slug: zhu-yue-sha-bao-zi
 - name: 大日向俊
@@ -1306,6 +1373,13 @@
   slug: xu-he-jian-ren
 - name: 河合敬一
   slug: he-he-jing-yi
+  portraits:
+  - image: /assets/img/people/he-he-jing-yi-2016.jpg
+    year: 2016
+    source: GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 产品本部长 河合敬一
+    post: 2016-09-30-interview-gnn-pokemon-go-tokyo-roundtable
+  avatar: /assets/img/people/he-he-jing-yi.jpg
+  avatar_source: GNN 2016-09-30 Pokémon GO 东京圆桌：Niantic 产品本部长 河合敬一
 - name: 杉中克考
   slug: shan-zhong-ke-kao
   credits_key: katsunori suginaka
@@ -1327,6 +1401,13 @@
 - name: 田中宏和
   slug: tanaka-hirokazu
   credits_key: hirokazu tanaka
+  portraits:
+  - image: /assets/img/people/tanaka-hirokazu-2021.jpg
+    year: 2021
+    source: Creatures 公司史特别访谈 2021：田中宏和（代表取締役会長／社長）
+    post: 2021-11-08-interview-creatures-history-special-ishihara-tanaka
+  avatar: /assets/img/people/tanaka-hirokazu.jpg
+  avatar_source: Creatures 公司史特别访谈 2021：田中宏和（代表取締役会長／社長）
 - name: K.I.
   slug: k-i
 - name: 谷博行
