@@ -42,7 +42,7 @@ TILES = {
     "recruit": ("assets/img/interviews/2017-tpc-recruit-passion/entry1.jpg", (0.5, 0.4)),
 }
 PEOPLE_MOSAIC = ["masuda-junichi", "sugimori-ken", "ishihara-tsunekazu", "tajiri-satoshi", "ohmori-shigeru", "unno-takao", "morimoto-shigeki", "kubo-masakazu"]
-WORKS_MOSAIC = ["red-green", "gold-silver", "ruby-sapphire", "diamond-pearl", "black-white", "x-y", "sword-shield", "scarlet-violet"]   # assets/img/works (tools/build-work-icons.py)
+WORKS_MOSAIC = ["ball-red-green", "ball-gold-silver", "ball-ruby-sapphire", "ball-diamond-pearl", "black-white", "home-x", "home-sword", "home-scarlet"]   # assets/img/works (tools/build-work-icons.py)
 
 
 def load(src):
@@ -160,10 +160,10 @@ def main():
         for g in WORKS_MOSAIC:
             f = ROOT / "assets" / "img" / "works" / f"{g}.png"
             if f.exists():
-                ims.append(Image.open(f).convert("RGB").resize((84, 84), Image.LANCZOS))
+                ims.append(Image.open(f).convert("RGBA").resize((76, 76), Image.LANCZOS))
         bg = Image.new("RGB", (W, H), (36, 44, 52))
         for i, im in enumerate(ims):
-            bg.paste(im, (i % 4 * 84, (i // 4) * 84 + 12))
+            bg.paste(im, (i % 4 * 84 + 4, (i // 4) * 84 + 16), im)
         save(bg, "works"); print("  works      <- the work icons")
     for key in ("timeline", "graph"):
         if force or not (OUT / f"{key}.jpg").exists():

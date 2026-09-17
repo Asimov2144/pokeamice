@@ -1,9 +1,11 @@
-"""The works' icons: the SteamGridDB "Pokemon Games" icon collection (12146) - the box-art
-mascot of each version cut square, one style across every generation - saved small under
-assets/img/works and written into _data/works.yml as icon / icon2 (the second version of
-a pair). Games the collection has not got keep their cover-legendary render and colours.
+"""The works' icons, one rule: a title Pokémon HOME knows wears its HOME icon; every other
+work wears the classic mark - a tile in its version colour with a Poké Ball on it (the
+design of SteamGridDB icon 49670, drawn here for the whole set so no version is missing);
+Black and White keep their official DS icons (SteamGridDB 42737 / FloweyGaming577's pair).
+Saved small under assets/img/works and written into _data/works.yml as icon / icon2 (the
+second version of a pair), with icon_credit saying which of the three it is.
 
-    python tools/build-work-icons.py            # download the missing ones, update works.yml
+    python tools/build-work-icons.py            # draw / fetch what is missing, update works.yml
     python tools/build-work-icons.py --force    # redo them all
 """
 import io
@@ -13,91 +15,163 @@ import urllib.request
 from pathlib import Path
 
 import yaml
-from PIL import Image
+from PIL import Image, ImageDraw
 
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "img" / "works"
 WORKS = ROOT / "_data" / "works.yml"
-CDN = "https://cdn2.steamgriddb.com/icon/"
 UA = {"User-Agent": "pokeamice-docs/1.0 (docs.pokeamice.com; work icons)"}
 SIZE = 96
+HOME_ICON = "https://pokeamice.com/game_gallery/icon/HOME_{}_icon.png"
+SGDB = "https://cdn2.steamgriddb.com/icon/{}.png"
 
-# site name -> (file slug, [SteamGridDB icon hashes], authors) - the chickenish set where it
-# exists (one hand across the generations), Lunecho / Skully / Julia / Varimarthas for the rest
-ICONS = {
-    "宝可梦 红·绿": ("red-green", ["e64860da9a6248363a016357d47bd65f", "5a0de25c4bcaa248ec1765bcb0863712"], "chickenish"),
-    "宝可梦 蓝": ("blue", ["ad59ae2c6077196b68ff0c94a09fed73"], "chickenish"),
-    "宝可梦 皮卡丘版": ("yellow", ["d8bc5c8da5d7b391e11ab6e14b1df1e5"], "chickenish"),
-    "宝可梦 金·银": ("gold-silver", ["409cc060198690137a12782c09282608", "15b16cf1aa29a55a67eeeb7dc6e5f686"], "chickenish"),
-    "宝可梦 水晶版": ("crystal", ["9bd96e176bbedf4d017f4b438bd613e3"], "chickenish"),
-    "宝可梦 红宝石·蓝宝石": ("ruby-sapphire", ["6f240678a0a4b55d7f4046426b637fec", "283062995206f8cbf7c0b50216b9623e"], "chickenish"),
-    "宝可梦 绿宝石": ("emerald", ["e4ad3061dc592b68a36c62b7681e2e0e"], "chickenish"),
-    "宝可梦 火红·叶绿": ("firered-leafgreen", ["d902c3ce47124c66ce615d5ad9ba304f", "8708cc4b4fd657032eddc86555279921"], "Lunecho, chickenish"),
-    "宝可梦 钻石·珍珠": ("diamond-pearl", ["a5a922ea078f7e063b2fde0fc5cd3e08", "a2729b7746a7f069a1d87a2141cf6aee"], "chickenish"),
-    "宝可梦 白金": ("platinum", ["10caad252666c9992275b6be2555dc6e"], "chickenish"),
-    "宝可梦 心金·魂银": ("heartgold-soulsilver", ["0ace141f8779c77b60cdc66fa22da900", "11b4076afd563b2612049c2c77465b32"], "chickenish"),
-    "宝可梦 黑·白": ("black-white", ["f0d78b7cc5bda890fe64cdbe4fe573d7", "d52d7aeaf42820be2cc18dd7915e3a2b"], "chickenish"),
-    "宝可梦 黑2·白2": ("black2-white2", ["9bd90fed98b9f7f1e9024b13e758c45a", "2d9a3e519c394e52e45c7dab97557ccc"], "chickenish"),
-    "宝可梦立体图鉴BW": ("black-white", ["f0d78b7cc5bda890fe64cdbe4fe573d7", "d52d7aeaf42820be2cc18dd7915e3a2b"], "chickenish"),
-    "宝可梦 X·Y": ("x-y", ["241bf752bca8e0f0cd7ed4c68b791c55", "7f0c1838d4c84c1f022d0776ce925ace"], "chickenish"),
-    "宝可梦 欧米伽红宝石·阿尔法蓝宝石": ("omega-ruby-alpha-sapphire", ["0ec15baa9437436fff3e5fdbb4a7cae3", "0dc8732a8ba6b3b578c1e891a9eb6aa3"], "chickenish"),
-    "宝可梦 太阳·月亮": ("sun-moon", ["18f4af2e90e7feea928965095fbd4d31", "1f79b53a859b13a6579670b4574a5892"], "chickenish"),
-    "宝可梦 究极之日·究极之月": ("ultra-sun-ultra-moon", ["e2b55042866db16f336e911d6e05a45b", "4fefed995eb187fe7d0c0e4e2351f82a"], "chickenish"),
-    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": ("lets-go", ["c7529b8e425f81f2d9b65a162002f19d", "0415089c6d09cb4eccd7a314f9610301"], "chickenish"),
-    "宝可梦 Let's Go！皮卡丘/伊布": ("lets-go", ["c7529b8e425f81f2d9b65a162002f19d", "0415089c6d09cb4eccd7a314f9610301"], "chickenish"),
-    "宝可梦 剑·盾": ("sword-shield", ["98ed037c165c8ff9f4afefbe86f08c84", "d6ea02b23d9ba70ecc548116b406c851"], "chickenish"),
-    "宝可梦传说 阿尔宙斯": ("legends-arceus", ["21ddd604f061d571546dcffc82e7143a"], "Skully"),
-    "宝可梦 晶灿钻石·明亮珍珠": ("brilliant-diamond-shining-pearl", ["cba4fab5fe82032158186944374bf5c0", "e1a0d53a534014217b7961d1870ee76b"], "Julia"),
-    "宝可梦 朱·紫": ("scarlet-violet", ["c6c477a7ecc421032cbb009a28f1daf9", "f9e036c34e550a09edf738196fa2e49a"], "Skully"),
-    "Pokémon LEGENDS Z-A": ("legends-z-a", ["1278fc97734f54ce31d4b69fd9b07221"], "Skully"),
-    "Pokémon HOME": ("home", ["b5cda4dd4e87e6b77a676fc545f325dd"], "Varimarthas"),
+# name -> file slug (the classic tiles are named after these)
+SLUGS = {
+    "宝可梦 红·绿": "red-green", "宝可梦 蓝": "blue", "宝可梦 皮卡丘版": "yellow",
+    "宝可梦 金·银": "gold-silver", "宝可梦 水晶版": "crystal",
+    "宝可梦 红宝石·蓝宝石": "ruby-sapphire", "宝可梦 绿宝石": "emerald", "宝可梦 火红·叶绿": "firered-leafgreen",
+    "宝可梦 钻石·珍珠": "diamond-pearl", "宝可梦 白金": "platinum", "宝可梦 心金·魂银": "heartgold-soulsilver",
+    "宝可梦 黑·白": "black-white", "宝可梦 黑2·白2": "black2-white2", "宝可梦立体图鉴BW": "black-white",
+    "Pokémon GO": "go", "宝可梦 动画系列": "anime", "超梦的逆袭": "mewtwo-strikes-back",
+    "宝可梦：超梦的逆袭": "mewtwo-strikes-back", "超梦的诞生": "mewtwo-origin", "超梦！我就在这里": "mewtwo-returns",
+    "洛奇亚爆诞": "lugia", "结晶塔的帝王": "crystal-tower", "宝可梦集换式卡牌游戏": "tcg", "宝可梦卡牌": "tcg",
+    "宝可梦不可思议迷宫": "mystery-dungeon", "宝可梦竞技场": "stadium", "宝可梦圆形竞技场": "colosseum",
+    "宝可梦随乐拍": "snap", "名侦探皮卡丘": "detective-pikachu", "宝可梦打字DS": "typing", "宝可梦乱战": "rumble",
+    "超级宝可梦乱战": "rumble", "宝可梦对战革命": "battle-revolution", "宝可梦频道": "channel", "Pokémon mini": "mini",
+}
+
+# name -> HOME icon names (one per version), as game_gallery files them
+HOME = {
+    "宝可梦 X·Y": ["X", "Y"],
+    "宝可梦 欧米伽红宝石·阿尔法蓝宝石": ["Omega_Ruby", "Alpha_Sapphire"],
+    "宝可梦 太阳·月亮": ["Sun", "Moon"],
+    "宝可梦 究极之日·究极之月": ["Ultra_Sun", "Ultra_Moon"],
+    "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": ["Let's_Go_Pikachu", "Let's_Go_Eevee"],
+    "宝可梦 Let's Go！皮卡丘/伊布": ["Let's_Go_Pikachu", "Let's_Go_Eevee"],
+    "宝可梦 剑·盾": ["Sword", "Shield"],
+    "宝可梦传说 阿尔宙斯": ["Legends_Arceus"],
+    "宝可梦 晶灿钻石·明亮珍珠": ["Brilliant_Diamond", "Shining_Pearl"],
+    "宝可梦 朱·紫": ["Scarlet", "Violet"],
+    "Pokémon LEGENDS Z-A": ["Legends_Z-A"],
+    "Pokémon HOME": ["HOME"],
+    "Pokémon Champions": ["Champions"],
+}
+
+# the official DS icons of Black and White (SteamGridDB, FloweyGaming577)
+OFFICIAL = {
+    "宝可梦 黑·白": ["8d65294979cf7c59fa43f91f993fb5c2", "5b97f793636f8baec3ff8cd0ebf5c33c"],
+    "宝可梦立体图鉴BW": ["8d65294979cf7c59fa43f91f993fb5c2", "5b97f793636f8baec3ff8cd0ebf5c33c"],
 }
 
 
-def fetch(h):
-    raw = urllib.request.urlopen(urllib.request.Request(CDN + h + ".png", headers=UA), timeout=120).read()
+def fetch(url):
+    raw = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read()
     return Image.open(io.BytesIO(raw)).convert("RGBA")
+
+
+def hexrgb(h):
+    h = h.lstrip("#")
+    return tuple(int(h[i:i + 2], 16) for i in (0, 2, 4))
+
+
+def shade(rgb, k):
+    """the colour mixed towards black (k < 0) or white (k > 0)"""
+    t = 255 if k > 0 else 0
+    k = abs(k)
+    return tuple(int(c + (t - c) * k) for c in rgb)
+
+
+def ball_tile(color):
+    """the classic mark: a rounded tile in the version colour, a darker rim, a Poké Ball"""
+    S = SIZE * 4
+    im = Image.new("RGBA", (S, S), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    rgb = hexrgb(color)
+    d.rounded_rectangle((0, 0, S - 1, S - 1), radius=int(S * 0.22), fill=shade(rgb, -0.28))
+    rim = int(S * 0.055)
+    d.rounded_rectangle((rim, rim, S - 1 - rim, S - 1 - rim), radius=int(S * 0.17), fill=rgb)
+    c = S / 2
+    r = S * 0.31
+    line = S * 0.045
+    red, white, black = (238, 66, 52), (247, 247, 247), (28, 28, 30)
+    d.ellipse((c - r, c - r, c + r, c + r), fill=black)
+    ri = r - line
+    d.pieslice((c - ri, c - ri, c + ri, c + ri), 180, 360, fill=red)
+    d.pieslice((c - ri, c - ri, c + ri, c + ri), 0, 180, fill=white)
+    d.rectangle((c - ri, c - line / 2, c + ri, c + line / 2), fill=black)
+    rb = S * 0.10
+    d.ellipse((c - rb, c - rb, c + rb, c + rb), fill=black)
+    rb2 = rb - line * 0.9
+    d.ellipse((c - rb2, c - rb2, c + rb2, c + rb2), fill=white)
+    return im.resize((SIZE, SIZE), Image.LANCZOS)
+
+
+def save(im, f):
+    im = im.copy()
+    im.thumbnail((SIZE, SIZE), Image.LANCZOS)
+    im.save(f, optimize=True)
 
 
 def main():
     force = "--force" in sys.argv
     OUT.mkdir(parents=True, exist_ok=True)
     works = yaml.safe_load(io.open(WORKS, encoding="utf-8")) or []
-    by_name = {w["name"]: w for w in works}
-    done = {}
-    for name, (slug, hashes, author) in ICONS.items():
-        files = []
-        for i, h in enumerate(hashes):
-            f = OUT / (slug + ("" if i == 0 else "-2") + ".png")
-            if not f.exists() or force:
-                if h in done:
-                    f.write_bytes(done[h])
-                else:
-                    im = fetch(h)
-                    im.thumbnail((SIZE, SIZE), Image.LANCZOS)
-                    im.save(f, optimize=True)
-                    done[h] = f.read_bytes()
+    wanted = set()
+    for w in works:
+        name = w["name"]
+        files, credit = [], ""
+        if name in HOME:
+            credit = "Pokémon HOME 的作品图标（pokeamice.com/game_gallery）"
+            for v in HOME[name]:
+                f = OUT / ("home-" + v.lower().replace("'", "").replace("_", "-") + ".png")
+                if not f.exists() or force:
+                    save(fetch(HOME_ICON.format(v)), f)
+                    print(f"  {f.name:40s} <- HOME {v}")
+                    time.sleep(0.2)
+                files.append(f)
+        elif name in OFFICIAL:
+            credit = "官方 DS 图标（SteamGridDB · FloweyGaming577）"
+            for i, h in enumerate(OFFICIAL[name]):
+                f = OUT / (SLUGS[name] + ("" if i == 0 else "-2") + ".png")
+                if not f.exists() or force:
+                    save(fetch(SGDB.format(h)), f)
+                    print(f"  {f.name:40s} <- SteamGridDB {h[:8]}")
                     time.sleep(0.3)
-                print(f"  {slug:34s} <- {h[:8]} ({author})")
-            files.append(f"/assets/img/works/{f.name}")
-        w = by_name.get(name)
-        if not w:
-            print(f"  ?? {name} is not in works.yml"); continue
-        w["icon"] = files[0]
+                files.append(f)
+        elif w.get("color"):
+            credit = "经典标记：版本色底 + 精灵球（tools/build-work-icons.py 绘制，样式取自 SteamGridDB 49670）"
+            colors = [w["color"]] + ([w["color2"]] if w.get("color2") else [])
+            for i, col in enumerate(colors):
+                f = OUT / ("ball-" + SLUGS[name] + ("" if i == 0 else "-2") + ".png")
+                if not f.exists() or force:
+                    ball_tile(col).save(f, optimize=True)
+                    print(f"  {f.name:40s} <- ball on {col}")
+                files.append(f)
+        else:
+            print(f"  ?? {name}: no HOME icon and no colour"); continue
+        wanted.update(f.name for f in files)
+        w["icon"] = f"/assets/img/works/{files[0].name}"
         if len(files) > 1:
-            w["icon2"] = files[1]
+            w["icon2"] = f"/assets/img/works/{files[1].name}"
         else:
             w.pop("icon2", None)
-        w["icon_credit"] = f"SteamGridDB collection 12146 · {author}"
+        w["icon_credit"] = credit
+    for f in OUT.glob("*.png"):
+        if f.name not in wanted:
+            f.unlink(); print(f"  -- {f.name} (no longer used)")
     header = "\n".join([
-        "# 作品图标：站内 entities.works 名 → 图标。icon / icon2 是 SteamGridDB「Pokemon Games」图标集（collection 12146）里各版本的",
-        "# 封面主角方形图（tools/build-work-icons.py 抓到 assets/img/works），双版本作品 icon 在名字前、icon2 在名字后；",
-        "# 图标集没有的作品用 color / color2（版本代表色）和 mascot（代表宝可梦的 HOME 渲染图）。",
+        "# 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：",
+        "# HOME 收录的作品用 Pokémon HOME 的作品图标；其余用经典标记——版本色底 + 精灵球（黑·白沿用官方 DS 图标）。",
+        "# 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。",
         "",
     ])
     io.open(WORKS, "w", encoding="utf-8", newline="\n").write(header + yaml.safe_dump(works, allow_unicode=True, sort_keys=False, width=1000))
-    print(f"works.yml: {sum(1 for w in works if w.get('icon'))} of {len(works)} with an icon")
+    kinds = {}
+    for w in works:
+        k = (w.get("icon_credit") or "?")[:6]
+        kinds[k] = kinds.get(k, 0) + 1
+    print(f"works.yml: {sum(1 for w in works if w.get('icon'))} of {len(works)} with an icon {kinds}")
 
 
 if __name__ == "__main__":
