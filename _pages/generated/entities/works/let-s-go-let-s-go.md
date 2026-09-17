@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布</h2>
-    <span>13 篇文章 · 0 条评注 · 2021 / 2019 / 2018</span>
+    <span>12 篇文章 · 0 条评注 · 2021 / 2019 / 2018</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -78,11 +78,6 @@ search: false
   <span></span>
 </article>
 
-<article class="resource-network-card">
-  <p>2018 · interview_translation · Junichi Masuda on Pokémon Let&#39;s Go&#39;s difficulty, mechanics, and the series&#39; future</p>
-  <h3><a href="/interview-eurogamer-letsgo-masuda/">Eurogamer 专访增田顺一：详谈《Let&#39;s Go! 皮卡丘／伊布》机制革新、美录坦登场与交棒下一代</a></h3>
-  <span></span>
-</article>
 
 <article class="resource-network-card">
   <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>

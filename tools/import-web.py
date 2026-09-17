@@ -5,6 +5,12 @@ site, or a Wayback copy of either.
     python tools/import-web.py gi-2019-dexit --dry-run    # fetch, parse, print the turns, write .items.json
     python tools/import-web.py gi-2019-dexit              # + translate + write the post
     python tools/import-web.py --all [--dry-run]
+    python tools/import-web.py --targets=design/import_web_targets_2026-09b.json kotaku-2016-popplio
+A target may also carry `max_images` (default 10 - a lecture report's slides need more),
+`slug` (the post's file stem, to re-import over an existing post), `categories`, and
+`stop_at` (a heading regex: the page's own index after the piece is cut there), and
+`images_live` (the pictures from their live addresses although the page is a Wayback copy -
+a CDN that outlived the site, like Kinja's).
 
 Where import-nom.py knows one page family, this one has to read whatever
 the site did: the article container is found by weight (the element whose
@@ -69,8 +75,8 @@ BLOCK_TAGS = {"p", "h1", "h2", "h3", "h4", "h5", "li", "dt", "dd", "blockquote",
 
 
 # ---------------------------------------------------------------- targets / fetch
-def load_targets():
-    doc = json.loads(TARGETS_FILE.read_text(encoding="utf-8"))
+def load_targets(path=None):
+    doc = json.loads((path or TARGETS_FILE).read_text(encoding="utf-8"))
     return {t["key"]: t for t in doc["targets"]}
 
 
@@ -97,7 +103,7 @@ def fetch(target):
     return text
 
 
-def fetch_image(src, page_url, wayback, dest_dir, index):
+def fetch_image(src, page_url, wayback, dest_dir, index, images_live=False):
     """A photograph saved under assets/img/interviews/<slug>/; through the same
     Wayback snapshot (im_) when the page itself came from there."""
     src = re.sub(r"^https?://web\.archive\.org/web/\d+[a-z_]*/", "", src)
@@ -110,7 +116,7 @@ def fetch_image(src, page_url, wayback, dest_dir, index):
     out = dest_dir / f"{index:03d}{ext}"
     if not out.exists():
         url = absolute
-        if wayback:
+        if wayback and not images_live:
             ts = re.search(r"/web/(\d+)", wayback).group(1)
             url = f"https://web.archive.org/web/{ts}im_/{absolute}"
         try:
@@ -136,8 +142,12 @@ def parse(html):
 
 
 def strip_noise(soup):
+    # a nav / footer / aside that wraps the article itself (Kinja put the whole page in a <nav>) stays
+    body_w = p_weight(soup.body or soup)
     for sel in ("script", "style", "noscript", "iframe", "svg", "button", "nav", "footer", "aside", "template", "ins", "object", "embed", "video", "audio"):
         for el in soup.find_all(sel):
+            if sel in ("nav", "footer", "aside") and body_w and p_weight(el) > body_w * 0.3:
+                continue
             el.decompose()
     for el in soup.find_all(id=re.compile(r"^wm-ipp|^donato|^playback")):
         el.decompose()
@@ -145,9 +155,11 @@ def strip_noise(soup):
         if not isinstance(el, Tag) or el.decomposed or el.attrs is None:
             continue
         ident = " ".join(el.get("class", []) if isinstance(el.get("class"), list) else [el.get("class", "")]) + " " + (el.get("id") or "")
-        if el.name in ("article", "main", "body") or not ident.strip():
-            continue
+        if el.name in ("article", "main", "body", "img", "picture", "source", "figure") or not ident.strip():
+            continue                                  # media is judged by its address, not its class
         if NOISE_CLASS.search(ident) and not re.search(r"(article|entry|post|body|content|main|text)", ident, re.I):
+            if body_w and p_weight(el) > body_w * 0.3:      # it wraps the article
+                continue
             el.decompose()
 
 
@@ -197,6 +209,13 @@ def split_br(el, join_br=False):
     return [(re.sub(r"[ \t\r\n\u3000]+", " ", t).strip(), b) for t, b in parts if t.strip()]
 
 
+def srcset_last(srcset):
+    """the last candidate of a srcset - candidates are split at ", " before a URL, never at
+    the commas inside a URL (Cloudinary's c_scale,q_80,w_800/...)"""
+    cands = [c.strip() for c in re.split(r",\s+(?=(?:https?:)?/)", srcset.strip()) if c.strip()]
+    return cands[-1].split()[0] if cands else ""
+
+
 def extract_blocks(container, join_br=False):
     """Headings, paragraphs and images of the container in reading order."""
     blocks = []
@@ -208,6 +227,15 @@ def extract_blocks(container, join_br=False):
 
     def emit_img(el, caption=""):
         src = el.get("data-src") or el.get("data-original") or el.get("src") or ""
+        # a lazy picture: the largest <source> of its <picture>, else its srcset's last candidate
+        pic = el.find_parent("picture")
+        if pic is not None:
+            cands = [srcset_last(s.get("data-srcset") or s.get("srcset") or "") for s in pic.find_all("source")]
+            cands = [c for c in cands if c]
+            if cands:
+                src = cands[-1]
+        elif (not src or src.startswith("data:")) and (el.get("data-srcset") or el.get("srcset")):
+            src = srcset_last(el.get("data-srcset") or el.get("srcset"))
         if not src or src.startswith("data:") or IMG_NOISE.search(src):
             return
         try:
@@ -347,13 +375,13 @@ def to_items(blocks, target, slug, dry):
             seen_heading = True
             continue
         if b["t"] == "img":
-            if n_img >= 10:
+            if n_img >= int(target.get("max_images") or 10):
                 continue
             n_img += 1
             if dry:
                 items.append({"type": "image", "image": b["src"], "caption": b["cap"], "alt": b["alt"]})
                 continue
-            local = fetch_image(b["src"], target["url"], wayback, dest, n_img)
+            local = fetch_image(b["src"], target["url"], wayback, dest, n_img, bool(target.get("images_live")))
             if local:
                 it = {"type": "image", "image": local, "alt": b["alt"] or target["title"]}
                 if b["cap"]:
@@ -524,7 +552,7 @@ def write_post(target, items, cover, slug):
         "original_title": target["title"],
         "date": target["date"],
         "era_skin": era_for(year),
-        "categories": ["访谈翻译", "官方档案"] if official else ["访谈翻译", "翻译", "访谈整理"],
+        "categories": target.get("categories") or (["访谈翻译", "官方档案"] if official else ["访谈翻译", "翻译", "访谈整理"]),
         "tags": ["访谈", "Game Freak"] + target["tags"],
         "publication": f"{target['outlet_zh']}（{target['date']}）",
         "source_kind": KIND_SOURCE.get(target.get("kind"), "media_interview"),
@@ -558,7 +586,7 @@ flags_limit = 60
 
 def run(key, targets, dry, glossary):
     target = targets[key]
-    slug = f"{target['date']}-interview-{key}"
+    slug = target.get("slug") or f"{target['date']}-interview-{key}"
     print(f"== {key}: {target['title'][:60]}")
     blocks = []
     for n, url in enumerate([None] + target.get("pages", [])):
@@ -568,6 +596,13 @@ def run(key, targets, dry, glossary):
         container = find_container(soup, target)
         blocks += extract_blocks(container, join_br=bool(target.get("join_br")))
     # what the page carries besides the piece: a date stamp, the next installment's thumbnail
+    # the page's own index / navigation after the piece: cut at the heading that opens it
+    if target.get("stop_at"):
+        stop = re.compile(target["stop_at"])
+        for n, b in enumerate(blocks):
+            if b["t"] == "h" and stop.search(b.get("x") or ""):
+                blocks = blocks[:n]
+                break
     if target.get("drop"):
         drop = re.compile(target["drop"])
         blocks = [b for b in blocks if not drop.search(b.get("x") or "") and not drop.search(b.get("alt") or "") and not drop.search(b.get("src") or "")]
@@ -596,7 +631,8 @@ def run(key, targets, dry, glossary):
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     flags = {a for a in sys.argv[1:] if a.startswith("--")}
-    targets = load_targets()
+    tf = next((f.split("=", 1)[1] for f in flags if f.startswith("--targets=")), None)
+    targets = load_targets(Path(tf) if tf else None)
     if "--list" in flags:
         for k, t in targets.items():
             print(f"{k:32} {t['date']}  {t['lang']}  {t['outlet']:24} {t['title'][:60]}")
