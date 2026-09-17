@@ -52,6 +52,7 @@ SLUGS = {
     "横井军平": "yokoi-gunpei", "宫本茂": "miyamoto-shigeru", "廣部圭太": "hirobe-keita", "橘庆太": "tachibana-keita", "木村KAELA": "kimura-kaela",
     "三枝成彰": "saegusa-shigeaki", "松本梨香": "matsumoto-rica", "松岛贤二": "matsushima-kenji", "小林幸子": "kobayashi-sachiko", "远藤雅伸": "endo-masanobu",
     "冈崎体育": "okazaki-taiiku", "高桥伸也": "takahashi-shinya", "武上纯希": "takegami-junki", "松本理恵": "matsumoto-rie", "北村一树": "kitamura-kazuki", "岩本翔": "iwamoto-sho",
+    "村田佳奈子": "murata-kanako", "枝川拓人": "edagawa-takuto", "绫野万里奈": "ayano-marina", "阵内弘之": "jinnai-hiroyuki", "宫下尚生": "miyashita-naoki",
 }
 # JA / EN spellings, so a search for either finds the person
 ALIASES = {
@@ -75,6 +76,8 @@ ALIASES = {
     "冈崎体育": ["岡崎体育", "Okazaki Taiiku"], "木村KAELA": ["木村カエラ", "Kaela Kimura"], "橘庆太": ["橘慶太", "Keita Tachibana"], "松本理恵": ["松本理恵", "Rie Matsumoto"],
     "武上纯希": ["武上純希", "Junki Takegami"], "本·里夫斯": ["Ben Reeves"], "韦斯利·尹-普尔": ["Wesley Yin-Poole"], "蒂姆·拉里默": ["Tim Larimer"],
     "松岛贤二": ["松島賢二", "Kenji Matsushima"], "高桥伸也": ["高橋伸也", "Shinya Takahashi"], "廣部圭太": ["廣部圭太", "Keita Hirobe"], "野村达雄": ["野村達雄", "Tatsuo Nomura"],
+    "村田佳奈子": ["村田佳奈子", "Kanako Murata"], "枝川拓人": ["枝川拓人", "Takuto Edagawa"], "绫野万里奈": ["綾野万里奈", "Marina Ayano"],
+    "阵内弘之": ["陣内弘之", "Hiroyuki Jinnai"], "宫下尚生": ["宮下尚生", "Naoki Miyashita"],
 }
 # not people: the anime's cast, who the memoir chapters tag as if they were
 CHARACTERS = {"超梦", "小智", "小次郎", "武藏", "梦幻", "小刚", "喵喵", "皮卡丘", "小霞", "大木博士", "N", "火箭队", "萨卡基", "乔伊", "小爱", "小建", "盖奇斯", "AZ", "布拉塔诺博士", "弗拉达利", "莎娜", "坂木", "古兹马", "花子", "正辉"}
@@ -303,6 +306,7 @@ def cmd_commons():
 _GF = "assets/images/gamefreak-legacy/staff/"
 _IA = "assets/img/interviews/"
 _ZUKAN = "https://gallery.pokeamice.com/scan-archive/shodai-zukan-1996-staff-interview/pages/"
+_FAMI_POKOPIA = "https://cimg.kgl-systems.io/camion/files/66124/thumbnail_yALX.png?x=1280"   # the article's four-up thumbnail, the profile avatars are its faces
 PORTRAITS = [
     # Game Freak staff blog 「晴れたり時々曇ったり」- the writer's own photo in a signed post
     dict(name="海野隆雄", year=2009, src=_GF + "155/unno091120-83ab7cdd.jpg", source="Game Freak 员工博客 2009-11-20「ＨＧ・ＳＳ 語っちゃいます！ その6」", post="2009-11-20-gamefreak-staff-155"),
@@ -353,6 +357,19 @@ PORTRAITS = [
     dict(name="一之濑刚", year=2023, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5584/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
     dict(name="北村一树", year=2023, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5585/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
     dict(name="岩本翔", year=2023, main=True, src="https://cedil.cesa.or.jp/cedil_sessions/speaker/5586/photo", source="CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）", post="2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"),
+    # the interviewee profiles the web articles open with - a photograph per speaker; a group shot is cut by face box
+    dict(name="村田佳奈子", year=2026, main=True, src=_FAMI_POKOPIA, box=(153, 266, 106, 106), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から1人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
+    dict(name="大森滋", year=2026, src=_FAMI_POKOPIA, box=(446, 103, 111, 111), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から2人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
+    dict(name="枝川拓人", year=2026, main=True, src=_FAMI_POKOPIA, box=(736, 157, 113, 113), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から3人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
+    dict(name="绫野万里奈", year=2026, main=True, src=_FAMI_POKOPIA, box=(925, 268, 108, 108), source="ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から4人目）", post="2026-02-16-interview-famitsu-2026-pokopia"),
+    dict(name="阵内弘之", year=2018, main=True, src="https://www.famitsu.com/images/000/154/405/y_5ab938900d505.jpg", source="ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）", post="2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita"),
+    dict(name="宫下尚生", year=2018, main=True, src="https://www.famitsu.com/images/000/154/405/y_5ab938f100a5d.jpg", box=(200, 70, 130, 140), source="ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）", post="2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita"),
+    dict(name="米谷由贵", year=2023, main=True, src=_IA + "2023-04-19-interview-cgworld-2023-sv-making-1/004.jpg", box=(260, 71, 169, 169), source="CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）", post="2023-04-19-interview-cgworld-2023-sv-making-1"),
+    dict(name="小野寺瞬", year=2023, main=True, src=_IA + "2023-04-19-interview-cgworld-2023-sv-making-1/004.jpg", box=(856, 60, 161, 161), source="CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）", post="2023-04-19-interview-cgworld-2023-sv-making-1"),
+    dict(name="深谷卓", year=2023, main=True, src=_IA + "2023-04-19-interview-cgworld-2023-sv-making-1/004.jpg", box=(1564, 94, 164, 164), source="CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）", post="2023-04-19-interview-cgworld-2023-sv-making-1"),
+    dict(name="中津井优", main=True, src="https://media.pocketmonsters.net/staff/10488/main.png", source="PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）"),
+    dict(name="武上纯希", main=True, src="https://lain.bgm.tv/pic/crt/l/f7/77/294_prsn_oZe70.jpg", source="Bangumi 番组计划 person/294"),
+    dict(name="远藤雅伸", main=True, src="https://unavatar.io/x/evezoo", source="X @evezoo プロフィール写真（2026-09 取得）"),
     # the wikis - Bulbapedia's staff pages and the Nintendo Wiki on Fandom, when the site has nothing better
     dict(name="海野隆雄", main=True, src="bulba:File:Takao_Unno.png", source="Bulbapedia File:Takao_Unno.png"),
     dict(name="海野隆雄", src="https://static.wikia.nocookie.net/nintendo/images/2/24/Takao_Unno-0.jpg/revision/latest?path-prefix=en", source="Nintendo Wiki (Fandom) File:Takao_Unno-0.jpg"),

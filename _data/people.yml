@@ -67,6 +67,10 @@
   - image: /assets/img/people/ohmori-shigeru-2010.jpg
     year: 2010
     source: 電撃GAMES Vol.14（2010）P.252
+  - image: /assets/img/people/ohmori-shigeru-2026.jpg
+    year: 2026
+    source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から2人目）
+    post: 2026-02-16-interview-famitsu-2026-pokopia
 - name: 太田哲司
   slug: ota-tetsuji
   aliases:
@@ -515,14 +519,35 @@
   slug: onodera-shun
   aliases:
   - 小野寺瞬
+  portraits:
+  - image: /assets/img/people/onodera-shun-2023.jpg
+    year: 2023
+    source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
+    post: 2023-04-19-interview-cgworld-2023-sv-making-1
+  avatar: /assets/img/people/onodera-shun.jpg
+  avatar_source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
 - name: 深谷卓
   slug: fukaya-taku
   aliases:
   - 深谷卓
+  portraits:
+  - image: /assets/img/people/fukaya-taku-2023.jpg
+    year: 2023
+    source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
+    post: 2023-04-19-interview-cgworld-2023-sv-making-1
+  avatar: /assets/img/people/fukaya-taku.jpg
+  avatar_source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
 - name: 米谷由贵
   slug: yonetani-yuki
   aliases:
   - 米谷由貴
+  portraits:
+  - image: /assets/img/people/yonetani-yuki-2023.jpg
+    year: 2023
+    source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
+    post: 2023-04-19-interview-cgworld-2023-sv-making-1
+  avatar: /assets/img/people/yonetani-yuki.jpg
+  avatar_source: CGWORLD 2023-04『ポケットモンスター スカーレット・バイオレット』メイキング PART3（左から米谷由貴、小野寺瞬、深谷卓）
 - name: 宗像快
   slug: munakata-kai
   aliases:
@@ -760,6 +785,11 @@
   aliases:
   - 武上純希
   - Junki Takegami
+  portraits:
+  - image: /assets/img/people/takegami-junki-294-prsn-oze70.jpg
+    source: Bangumi 番组计划 person/294
+  avatar: /assets/img/people/takegami-junki.jpg
+  avatar_source: Bangumi 番组计划 person/294
 - name: 正辉
   slug: zheng-hui
   kind: character
@@ -891,6 +921,11 @@
   slug: nakatsui-yu
   aliases:
   - 中津井優
+  portraits:
+  - image: /assets/img/people/nakatsui-yu-main.jpg
+    source: PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）
+  avatar: /assets/img/people/nakatsui-yu.jpg
+  avatar_source: PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）
 - name: T.O.
   slug: t-o
 - name: 足立美奈子
@@ -942,6 +977,11 @@
   aliases:
   - 遠藤雅伸
   - Masanobu Endo
+  portraits:
+  - image: /assets/img/people/endo-masanobu-https-unavatar-io-x-evezoo.jpg
+    source: X @evezoo プロフィール写真（2026-09 取得）
+  avatar: /assets/img/people/endo-masanobu.jpg
+  avatar_source: X @evezoo プロフィール写真（2026-09 取得）
 - name: 横井军平
   slug: yokoi-gunpei
   aliases:
@@ -952,8 +992,6 @@
     source: Nintendo Wiki (Fandom) File:Gunpei_Yokoi.jpg
   avatar: /assets/img/people/yokoi-gunpei.jpg
   avatar_source: Nintendo Wiki (Fandom) File:Gunpei_Yokoi.jpg
-- name: 平信一
-  slug: ping-xin-yi
 - name: M.O.
   slug: m-o
 - name: 尾上将之
@@ -1088,11 +1126,41 @@
 - name: 為藤
   slug: wei-teng
 - name: 村田佳奈子
-  slug: cun-tian-jia-nai-zi
+  slug: murata-kanako
+  aliases:
+  - 村田佳奈子
+  - Kanako Murata
+  portraits:
+  - image: /assets/img/people/murata-kanako-2026.jpg
+    year: 2026
+    source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から1人目）
+    post: 2026-02-16-interview-famitsu-2026-pokopia
+  avatar: /assets/img/people/murata-kanako.jpg
+  avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から1人目）
 - name: 枝川拓人
-  slug: zhi-chuan-tuo-ren
+  slug: edagawa-takuto
+  aliases:
+  - 枝川拓人
+  - Takuto Edagawa
+  portraits:
+  - image: /assets/img/people/edagawa-takuto-2026.jpg
+    year: 2026
+    source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から3人目）
+    post: 2026-02-16-interview-famitsu-2026-pokopia
+  avatar: /assets/img/people/edagawa-takuto.jpg
+  avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から3人目）
 - name: 绫野万里奈
-  slug: ling-ye-wan-li-nai
+  slug: ayano-marina
+  aliases:
+  - 綾野万里奈
+  - Marina Ayano
+  portraits:
+  - image: /assets/img/people/ayano-marina-2026.jpg
+    year: 2026
+    source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から4人目）
+    post: 2026-02-16-interview-famitsu-2026-pokopia
+  avatar: /assets/img/people/ayano-marina.jpg
+  avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から4人目）
 - name: 髙山玲央名
   slug: gao-shan-ling-yang-ming
   portraits:
@@ -1140,7 +1208,17 @@
 - name: 林祐衣
   slug: lin-you-yi
 - name: 阵内弘之
-  slug: zhen-nei-hong-zhi
+  slug: jinnai-hiroyuki
+  aliases:
+  - 陣内弘之
+  - Hiroyuki Jinnai
+  portraits:
+  - image: /assets/img/people/jinnai-hiroyuki-2018.jpg
+    year: 2018
+    source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
+    post: 2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita
+  avatar: /assets/img/people/jinnai-hiroyuki.jpg
+  avatar_source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
 - name: 森彰人
   slug: sen-zhang-ren
 - name: 诸月纱保子
@@ -1170,7 +1248,17 @@
 - name: 杉中克考
   slug: shan-zhong-ke-kao
 - name: 宫下尚生
-  slug: gong-xia-shang-sheng
+  slug: miyashita-naoki
+  aliases:
+  - 宮下尚生
+  - Naoki Miyashita
+  portraits:
+  - image: /assets/img/people/miyashita-naoki-2018.jpg
+    year: 2018
+    source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
+    post: 2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita
+  avatar: /assets/img/people/miyashita-naoki.jpg
+  avatar_source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
 - name: 须崎春树
   slug: xu-qi-chun-shu
 - name: 田中宏和
