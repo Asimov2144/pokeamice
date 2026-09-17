@@ -75,7 +75,7 @@ $e26-measure: 720px;
   .ed-hero { margin: 36px auto 44px; }
   .ed-hero img, .ed-figure img { border: 0; border-radius: 4px; padding: 0; background: none; }
   .ed-hero::before { content: none; }
-  .ed-hero figcaption, .ed-figure figcaption { font-family: $e26-sans; font-size: 12px; color: $e26-ink-faint; }
+  .ed-hero figcaption, .ed-figure figcaption { font-family: $e26-sans; font-size: 12px; color: $e26-ink-soft; }  // 7:1 on the ground; ink-faint (3:1) was too quiet for 12px that names who is in the picture
 
   /* ---- contents: hairlines and grey numerals -------------------------------- */
   .ed-contents { border-top: 1px solid $e26-rule; border-bottom: 1px solid $e26-rule; }
