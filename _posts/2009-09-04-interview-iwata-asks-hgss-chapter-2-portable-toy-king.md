@@ -87,6 +87,9 @@ parallel_items:
   original: そう呼びたくなるくらい、石原さんが、電子玩具も含めて、持って歩けるおもちゃにすごく幅広い興味と嗜好を持たれていたんですよね。
   translation: 正因为如此，石原先生对包括电子玩具在内的、可以随身携带的玩具有着非常广泛的兴趣和爱好。
   role: question
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/001.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_001
 - speaker: 石原恒和
   original: もともと僕はポータブルなものが好きなんです。携帯できるようなコンパクトさがあって自分が好きなようにカスタマイズできるような。さらに、可能ならば友だちとトレード、つまり交換ができるものも入っていて、その交換によって双方にメリットがある。それによってコミュニケーションの道具にもなる、そんなものをつくりたいという思いが昔からすごく強かったんですね。それを煎じ詰めて考えてみると・・・。
   translation: 我本来就喜欢便携式的东西。要小巧便携，又能按自己的喜好定制。而且，如果可能的话，还要能和朋友进行交易，也就是交换，通过交换让双方都受益。这样它也能成为交流的工具，这种想法从很久以前就非常强烈。如果把它提炼出来思考的话……
@@ -106,6 +109,9 @@ parallel_items:
   translation: 您刚才提到了“终极”，从命名来看，《金·银》也确实是“终极的宝可梦软件”的感觉。
   note: ※12：《金·银》＝《宝可梦 金·银》。是《宝可梦》系列的第二作。由于支持Game Boy Color，出现了异色宝可梦。1999年11月21日发售。（任天堂官方注：※12：『金・銀』＝『ポケットモンスター 金・銀』。『ポケットモンスター』シリーズ２作目。ゲームボーイカラーにも対応していたため、色違いポケモンが登場。１９９９年１１月２１日発売。）
   role: question
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/002.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_002
 - speaker: 石原恒和
   original: そうです。『赤・緑』を出したあとは「究極のポケモンソフトは『金・銀』しかない」そう思ってつくりはじめましたから。
   translation: 是的。在推出《赤·绿》之后，我们就是抱着“终极的宝可梦软件非《金·银》莫属”的想法开始制作的。
@@ -126,6 +132,9 @@ parallel_items:
   original: だから『金・銀』は、僕にとってゴールだったんです。
   translation: 所以《金·银》对我来说，就是终点。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/003.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_003
 - speaker: 岩田聪
   original: ゴールだった。
   translation: 是终点啊。
@@ -168,6 +177,9 @@ parallel_items:
   translation: 是的（笑）。本来在《赤·绿》发售之后，就立刻决定制作《金·银》，正当开发如火如荼地进行时，田尻先生跑来说：“做好了一个。”我觉得这也太快了，就问：“这是什么？”结果他说：“《青》做好了。”（笑）
   note: ※13：《青》即《宝可梦 青》。作为《赤·绿》的异色版本，于1996年10月15日开始以限定品形式发售，1999年10月10日转为一般销售。（任天堂官方注：※13：『青』＝『ポケットモンスター 青』。『赤・緑』の色違いバージョンとして、１９９６年１０月１５日限定品として発売を開始し、１９９９年１０月１０日に一般販売。）
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/004.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_004
 - speaker: 众人
   original: （笑）
   translation: （笑）
@@ -197,6 +209,9 @@ parallel_items:
   original: 本来なら、『金・銀』を出す予定の年でしたし。
   translation: 本来那一年是预定要推出《金·银》的。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/005.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_005
 - speaker: 岩田聪
   original: そうでしたね。
   translation: 确实如此。
@@ -210,6 +225,9 @@ parallel_items:
   original: そうやって“携帯玩具王”の本領が発揮されたんですね（笑）。
   translation: 这样一来，您“便携玩具之王”的本领就得以发挥了呢（笑）。
   role: question
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king/006.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』2. “携帯玩具王”_006
 - speaker: 众人
   original: （笑）
   translation: （笑）

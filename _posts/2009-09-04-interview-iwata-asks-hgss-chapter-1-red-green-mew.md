@@ -83,6 +83,9 @@ parallel_items:
   translation: 我是GAME FREAK的森本。这次我担任了导演，但在《红·绿》的时候，我是作为程序员参与开发的。
   note: 森本茂树是GAME FREAK的开发者，曾参与初代《宝可梦 红·绿》的程序开发，本次在《心金·魂银》中担任导演。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/001.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』1. 最終電車に間に合った『ポケモン』_001
 - speaker: 岩田聪
   original: 『ポケモン』の企画がスタートしたのが・・・。
   translation: 《宝可梦》的企划启动是在……
@@ -108,6 +111,9 @@ parallel_items:
   original: はい。本来なら発売前年の１０月に完成してすぐに発売したかったんですけど、結局、年末商戦のタイミングからはずれてしまって、翌年の２月末という、商品としてはもっともよくない時期に発売ということになってしまいました（笑）。
   translation: 是的。原本我们打算在发售前一年的10月完成开发，并尽快上市，但结果却错过了年末商战的时机，最终在次年2月底——作为商品而言最糟糕的时期——才得以发售（笑）。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/nintendo_photo01.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』1. 最終電車に間に合った『ポケモン』_nintendo_photo01
 - speaker: 岩田聪
   original: しかも、その頃は「ゲームボーイはもう終わったんじゃないか」という空気が微妙に流れていましたよね。
   translation: 而且，当时还隐约弥漫着一种“Game Boy是不是已经过时了”的氛围呢。
@@ -163,6 +169,9 @@ parallel_items:
   original: なのに、大きく流れが変わっていったのはどうしてだと思いますか？
   translation: 尽管如此，后来潮流却发生了巨大转变，您认为原因何在？
   role: question
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/002.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』1. 最終電車に間に合った『ポケモン』_002
 - speaker: 石原恒和
   original: ひとつは口コミの力だと思います。９６年の当時は、インターネットを使って個人でブログを書くような時代でもなかったんですけど、口コミで『ポケモン』の面白さがどんどん伝わっていったように思います。それに、「コロコロコミック」を中心としたメディアの力が、人気を加速させたというのもすごく実感しました。さらに、最後、イタズラのように森本くんが仕組んだミュウが・・・。※7
   translation: 首先，我认为是口碑的力量。1996年当时，还不是一个能通过互联网个人写博客的时代，但《宝可梦》的趣味性通过口口相传不断扩散开来。此外，我也深切感受到，以《快乐快乐月刊》为核心的媒体力量加速了人气的增长。最后，还有森本君像恶作剧般安排的那只梦幻……（※7）
@@ -176,6 +185,9 @@ parallel_items:
   original: やっぱりミュウの存在はとても大きかったように思います。
   translation: 果然，梦幻的存在意义非常重大。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/003.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』1. 最終電車に間に合った『ポケモン』_003
 - speaker: 森本茂树
   original: ミュウは最後の最後で入れたんです。そもそもカートリッジの中はパンパンで何も入らないような状態だったんですけど、製品版には入らないデバッグのためのプログラムを抜いたので、そこに３００バイトのわずかな隙間ができたんです。ここにミュウが入るんじゃないかと。もう、いまでは考えられないようなことをやってしまいました。
   translation: 梦幻是在最后关头才加进去的。本来卡带里已经塞得满满当当，什么也放不下了。但后来我们删除了不会进入正式版的调试程序，于是那里就空出了300字节的一点点缝隙。我就想，这里能不能放进梦幻呢。现在想想，真是做了件不可思议的事啊。
@@ -215,6 +227,9 @@ parallel_items:
   translation: 然而，由于一个意想不到的漏洞，梦幻出现在了一部分玩家的面前。也许看起来像是我们故意为之，但事实并非如此。虽然这给大家带来了不少麻烦，但这件事碰巧朝着好的方向发展了。
   note: 这里指的是《宝可梦 红/绿》中因程序漏洞导致梦幻（Mew）在特定条件下出现的著名事件。该漏洞后来被官方利用，成为赠送梦幻的契机。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew/004.jpg
+  alt: 社長が訊く『ポケットモンスター ハートゴールド・ソウルシルバー』1. 最終電車に間に合った『ポケモン』_004
 - speaker: 岩田聪
   original: 本当に何が変えるかわからないですよね。
   translation: 确实，谁也不知道什么会改变一切呢。

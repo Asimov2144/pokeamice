@@ -84,6 +84,9 @@ parallel_items:
   original: はい。なので、できればひとり１本遊んでほしいと、そんな大きな野望を抱きながら、今作をつくりはじめました。
   translation: 是的。所以，我希望尽可能做到人手一份，正是怀着这样的雄心壮志，开始了本作的开发。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds/nintendo_bw_photo1.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』1. DSで２作目の完全新作をつくること_nintendo_bw_photo1
 - speaker: 岩田聪
   original: 今回、同じDSで出るとはいっても前作の『ダイヤモンド・パール』をつくったときと、今回の『ポケモンブラック・ホワイト』をはじめたときとでは、つくるうえでの基本スタンスが大きく違っていたんじゃないですか？※3
   translation: 这次虽然同样是出在DS上，但和制作前作《钻石·珍珠》的时候相比，开始制作《宝可梦 黑·白》时，在创作的基本立场上是不是有了很大的不同？
@@ -166,6 +169,9 @@ parallel_items:
 
     増田）'
   role: question
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds/001.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』1. DSで２作目の完全新作をつくること_001
 - speaker: 增田顺一
   original: はい、２年間くらい、ずっと考え続けていました。でも『ダイヤモンド・パール』をつくっているときはそこまで深く考えなくても、DSという新しいハードでしたから違いを出すことができたんです。
   translation: 是的，我大约持续思考了两年。不过，在制作《钻石·珍珠》的时候，因为DS是全新硬件，所以不用想那么深也能做出差异。
@@ -216,6 +222,9 @@ parallel_items:
   original: というふうに、完全新作が出るたびにまったく新しいプラットフォームに乗り移らざるを得ないという、そういう宿命を背負ってきたのが『ポケモン』なんですけど、今回は、DSが長寿命で、世界的に普及したことを受けて、もう１度、DSで新作をつくることができるというのは、開発にとっては、その資産をうまく活かせるということでもあったんです。
   translation: 正如您所说，每当完全新作推出时，都不得不迁移到全新的平台，《宝可梦》一直背负着这样的宿命。而这一次，由于DS寿命长且在全球普及，能够再次在DS上制作新作，对开发而言，也意味着可以很好地活用已有的资产。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds/002.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』1. DSで２作目の完全新作をつくること_002
 - speaker: 岩田聪
   original: DSでの開発のノウハウという『ダイヤモンド・パール』の開発で培った“資産”を、今回の『ポケモンブラック・ホワイト』に活かせると感じられたんですね。
   translation: 也就是说，您觉得在DS上的开发经验，以及在《钻石·珍珠》开发中积累的“资产”，能够活用在本作《宝可梦 黑·白》中吧。
@@ -248,6 +257,9 @@ parallel_items:
   original: 増田は毎回、「今回はこういうふうにする」という“所信表明”みたいなことをするんです。
   translation: 增田每次都会像发表“施政方针”一样，宣布“这次我们要这样做”。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds/003.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』1. DSで２作目の完全新作をつくること_003
 - speaker: 岩田聪
   original: “所信表明”ですか（笑）。
   translation: “施政方针”吗？（笑）

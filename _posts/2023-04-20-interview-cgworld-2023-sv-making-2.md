@@ -243,10 +243,26 @@ parallel_items:
   alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける
 - original: バトル時の相手のウェルカモの待機モーション
   translation: 战斗时对手涌跃鸭的待机动作
+- type: image
+  image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/011.jpg
+  alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける_011
 - original: バトル時の自分のウェーニバルの待機モーション
   translation: 战斗时己方狂欢浪舞鸭的待机动作
+- type: image
+  image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/012.jpg
+  alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける_012
 - original: バトル時の相手のウェーニバルの待機モーション
   translation: 战斗时对手狂欢浪舞鸭的待机动作
+- type: image
+  image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/013-s.png
+  alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける_013
+- type: image
+  image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/014-s.png
+  alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける_014
+  caption: 四方向から見たウェーニバルの待機モーション。どの角度から見ても画になるよう、入念にシルエットを整理している
+- type: image
+  image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/015.jpg
+  alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける_015
 - original: 月刊『CGWORLD +digitalvideo』vol.296（2023年4月号）
   translation: 月刊《CGWORLD +digitalvideo》vol.296（2023年4月号）
 - original: 特集：とことん深掘り！ゲームのアニメーション

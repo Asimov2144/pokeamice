@@ -334,7 +334,7 @@ PORTRAITS = [
     dict(name="岩田聪", year=2012, src=_IA + "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1/photo4.jpg", source="社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4", post="2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1"),
     # ポケットモンスター図鑑 (1996) staff pages - the name is printed beside each photo
     dict(name="渡边哲也", year=1996, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(229, 161, 116, 116), source="ポケットモンスター図鑑 1996 P.141", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
-    dict(name="藤原", year=1996, main=True, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(858, 154, 116, 116), source="ポケットモンスター図鑑 1996 P.141（藤原基史）", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
+    dict(name="藤原基史", year=1996, main=True, src=_ZUKAN + "p143_p141_ch6_interview_part7.jpg", box=(858, 154, 116, 116), source="ポケットモンスター図鑑 1996 P.141（藤原基史）", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="西田敦子", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(901, 137, 106, 106), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     dict(name="西野弘二", year=1996, src=_ZUKAN + "p144_p142_ch6_interview_part8.jpg", box=(205, 109, 127, 127), source="ポケットモンスター図鑑 1996 P.142", post="1996-04-05-scan-shodai-zukan-1996-staff-interview"),
     # inside other posts
@@ -417,6 +417,18 @@ PORTRAITS = [
     dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="冈崎体育", main=True, src="bulba:File:Taiiku Okazaki.png", source="Bulbagarden Archives"),
     dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
+    # 2026-09-17 第三批：augment-images 补进访谈的照片里点名受访者的（联系表人眼确认；青年座谈会三人按"5年後の目標"各段的说话人对上）
+    dict(name="三浦昌幸", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-mini-developers/001.jpg", source="N.O.M 2001-11 ポケモンミニ開発者インタビュー（三浦昌幸さん）", post="2001-11-01-interview-nom-2001-pokemon-mini-developers"),
+    dict(name="久須美龍太", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-mini-developers/002.jpg", source="N.O.M 2001-11 ポケモンミニ開発者インタビュー（久須美龍太さん）", post="2001-11-01-interview-nom-2001-pokemon-mini-developers"),
+    dict(name="久保雅一", year=2000, src=_IA + "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/001.jpg", source="N.O.M 2000-06 小学館 久保雅一さん", post="2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit"),
+    dict(name="石原恒和", year=2001, src=_IA + "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world/001.jpg", source="N.O.M 2001-11 石原恒和氏", post="2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world"),
+    dict(name="增田顺一", year=2013, src=_IA + "2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama/001.jpg", source="ファミ通 2013-11-16 XY 音楽ファンミーティング 増田順一氏", post="2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama"),
+    dict(name="石原恒和", year=2018, src=_IA + "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/011.jpg", source="電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 石原恒和氏（DSC1438）", post="2018-06-08-interview-denfaminicogamer-pokemon-go-miracle"),
+    dict(name="川岛优志", year=2018, main=True, src=_IA + "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/012.jpg", source="電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 川島優志氏（DSC1458）", post="2018-06-08-interview-denfaminicogamer-pokemon-go-miracle"),
+    dict(name="增田顺一", year=2018, src=_IA + "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle/003.jpg", source="電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 増田順一氏（DSC1430）", post="2018-06-08-interview-denfaminicogamer-pokemon-go-miracle"),
+    dict(name="大奈路まりな", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-youth-roundtable/001.jpg", source="株式会社ポケモン 採用情報 2014 若手座談会（catch_img1）", post="2014-05-01-interview-tpc-youth-roundtable"),
+    dict(name="菅野隼人", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-youth-roundtable/006.jpg", source="株式会社ポケモン 採用情報 2014 若手座談会「ポケモン→現実世界へ」（goal_img2）", post="2014-05-01-interview-tpc-youth-roundtable"),
+    dict(name="古谷翔", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-youth-roundtable/004.jpg", source="株式会社ポケモン 採用情報 2014 若手座談会（catch_img5）", post="2014-05-01-interview-tpc-youth-roundtable"),
     # 2026-09-17 第二批：按访谈逐篇核对的照片（联系表人眼确认；多人合影按左右/三等分取人脸），post 绑定到该篇，卡片就用它
     dict(name="一之濑刚", year=2014, src=_IA + "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras/contentsTitle_solitiba.jpg", source="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras · 特别篇：祝贺荣获日本游戏大赏 2014 特别奖！一之濑刚访谈《纸牌跑马》", post="2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras"),
     dict(name="增田顺一", year=2011, src=_IA + "2011-03-04-interview-spong-bw-launch-masuda-sugimori/spong_02.jpg", source="2011-03-04-interview-spong-bw-launch-masuda-sugimori · 增田顺一在欧洲首发活动现场接受媒体专访，神情专注而沉稳。 增田顺一受访照片", post="2011-03-04-interview-spong-bw-launch-masuda-sugimori"),

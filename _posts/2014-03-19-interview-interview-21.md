@@ -215,6 +215,9 @@ parallel_items:
 - type: paragraph
   original: The Title Page
   translation: 标题页
+- type: image
+  image: /assets/img/interviews/2014-03-19-interview-interview-21/001.jpg
+  alt: 初代概念美术整理 EN_001
 - type: paragraph
   original: Translator’s Notes
   translation: 译者注
@@ -244,6 +247,9 @@ parallel_items:
 - type: paragraph
   original: 'Caption: Pocket Monsters was named Capsule Monsters in the original planning documents. These include a prediction written by Tajiri in story-form regarding how the game would be received and played after its release.'
   translation: 说明：宝可梦在最初的规划文件中被命名为“胶囊怪兽”。这些文件包括田尻智以故事形式撰写的预测，关于游戏发售后将如何被接受和游玩。
+- type: image
+  image: /assets/img/interviews/2014-03-19-interview-interview-21/002.jpg
+  alt: 初代概念美术整理 EN_002
 - type: paragraph
   original: A (Hypothetical) Story Set in the Not-So-Distant Future…
   translation: 一个（假设的）故事，设定在不久的将来……

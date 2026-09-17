@@ -61,6 +61,13 @@ parallel_items:
   speaker: ''
   original: なお、 “おっさんピカチュウ”は深煎りの濃いコーヒーが好きで、コーヒー好きという設定は、“名探偵っぽさ”が理由らしい……！
   translation: 另外，“大叔皮卡丘”喜欢深烘焙的浓郁咖啡，据说喜欢咖啡这一设定是因为“有侦探范儿”……！
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/001.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/002.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+  caption: 石原社長お手製のカップ
 - type: paragraph
   speaker: ''
   original: 石原恒和（いしはら つねかず）
@@ -175,6 +182,12 @@ parallel_items:
   original: 陣内結果として多くの方々に受け入れてもらえたと思っていますが、作り手としても設定が固まっていく過程でこのピカチュウのことをどんどん好きになっていました。
   translation: 结果上我认为被许多人所接受了，但作为制作者，在设定逐渐确定的过程中，也变得越来越喜欢这只皮卡丘了。
   role: answer
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/003.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/004.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
 - type: paragraph
   speaker: 提问
   original: それこそハリウッドで映画化もされ、魅了された人は多いと思います。映画化が決まったときの衝撃はすさまじいものがありました。
@@ -244,6 +257,9 @@ parallel_items:
   speaker: ''
   original: 陣内まずはハードがニンテンドー3DSからNintendo Switchに変わったことで表現の幅が広がっています。また画面がひとつになったため、UIも一新しています。ゲームシステムの面でいうと、前作は操作できるのがティムだけでしたが、本作ではピカチュウを操作して調査を進めるパートがあります。以前のピカチュウはティムとポケモンが会話する際の通訳のような役回りになっていましたが、本作ではピカチュウとポケモンたちが直接会話する様子を楽しんでいただけます。
   translation: 首先，平台从任天堂3DS变为Nintendo Switch，表现力得到了扩展。此外，由于屏幕变为一个，UI也焕然一新。在游戏系统方面，前作只能操作提姆，但本作中有操作皮卡丘进行调查的环节。以前的皮卡丘在提姆与宝可梦对话时充当翻译的角色，但本作中大家可以欣赏到皮卡丘与宝可梦们直接对话的情景。
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/005.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
 - type: paragraph
   speaker: 提问
   original: ポケモンとピカチュウが直接会話する様子は、プレイヤーがテキストでどんなやり取りをしているのか確認できますよね。ポケモンたちが話す様子を描く中で、大切にしていた点などはありますか？
@@ -275,6 +291,15 @@ parallel_items:
   speaker: ''
   original: 石原このポケモンにピカチュウを乗せてみたいとか、ピカチュウもこのポケモンに乗ってみたいのではないかという視点でも考えられていましたね。
   translation: 也从想让皮卡丘骑在这只宝可梦上，或者皮卡丘可能也想骑在这只宝可梦上这样的视角进行了考虑呢。
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/006.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/007.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/008.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
 - type: paragraph
   speaker: 提问
   original: 本作では推理パートや現場検証でどれが正解かを教えてくれる“正解表示”機能や、クリアーしていなくても好きなエピソードを選んで遊ぶことができる“つまみぐいモード”といった、アドベンチャーゲームとしてはかなり珍しい機能が盛り込まれていますが、これらを実装した狙いはどんなところにあるのでしょうか。
@@ -292,6 +317,10 @@ parallel_items:
   speaker: ''
   original: 石原たとえば、本はランダムアクセスができる媒体です。推理小説などを読む際に、最後の部分を読んでから、頭から読むという楽しみかたもできてしまいます。時間がなくてもぱらぱらとめくって、物語を楽しむことができるんです。それと同じ仕組みを作ろうというものです。さまざまな層の方に楽しんでいただきたいので、アドベンチャーゲームとしての、ひとつの試みですね。
   translation: 比如说，书是一种可以随机访问的媒介。读推理小说的时候，也可以先读最后部分，再从开头读起，享受这种乐趣。即使没有时间，也能随手翻翻，享受故事。我们就是要做同样的机制。因为希望各种层次的玩家都能享受，所以这是作为冒险游戏的一种尝试。
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/009.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
+  caption: ※つまみぐいモードは、プロローグをクリアーすることで 機能が解放される ※実際のゲーム画面ではすべてのエピソードが表示される
 - type: paragraph
   speaker: 提问
   original: 時代に合わせた新たなゲーム体験かと思います。幅広い層に向けてというところでいうと、『名探偵ピカチュウ』シリーズは物語がどちらかというと大人向けかと感じたのですが、どのような年代向けになっているのでしょうか？
@@ -314,6 +343,9 @@ parallel_items:
   speaker: ''
   original: 石原まずは、映画とは異なる物語を楽しみながら、その結末を見届けてください。そして、ピカチュウのおしゃべりぬいぐるみを始めとする関連商品もたくさん出ていますので、興味を持っていただけるとうれしいです（笑）。商品開発チームもゲームにインスパイアされて楽しみながら開発していますので、こちらもあわせてぜひ手に取ってみてください。
   translation: 首先，请享受与电影不同的故事，并见证它的结局。此外，我们还推出了很多相关商品，比如皮卡丘的会说话毛绒玩具，如果大家感兴趣我们会很高兴（笑）。商品开发团队也受到游戏的启发，在快乐地开发，所以也请一并关注并入手这些商品。
+- type: image
+  image: /assets/img/interviews/2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai/010.jpg
+  alt: 『帰ってきた 名探偵ピカチュウ』陣内弘之氏＆石原恒和氏インタビュー。おっさんピカチュウは、人の言葉をしゃべるポケモンのひとつの到達点。『ポケモン 赤・緑』開発時の想い出話も
 entities:
   people:
   - "石原恒和"

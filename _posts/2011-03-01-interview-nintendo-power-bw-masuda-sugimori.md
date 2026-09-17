@@ -41,6 +41,16 @@ entities:
   works:
   - 宝可梦 黑·白
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/001.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_001'
+  caption: Nintendo Power issue 265
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/masuda_and_sugimori.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_masuda_and_sugimori'
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/002.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_002'
 - type: heading
   level: 2
   original: Breeding the Fifth
@@ -57,6 +67,9 @@ parallel_items:
   original: “We choose the titles to express the themes of each game. Like, diamonds are the hardest substance in the world, so that fit the theme of “ultimateness” in Pokemon Diamond and Pearl. This time we’re pursuing a theme of “polarity,” things that are defined by their opposition to each other. Take, for example, angels and demons, or light and shadow—if one didn’t exist, the other would lose all meaning. “White” is a blank slate with potential to become anything, while “black” is complete and unchanging. So our intention actually wasn’t to return to the basics, but to evoke that particular theme.”
   translation: 我们选择标题是为了表达每款游戏的主题。比如，钻石是世界上最坚硬的物质，所以符合《宝可梦 钻石／珍珠》中“终极”的主题。这次我们追求的是“两极对立”的主题，即事物通过相互对立而定义。例如天使与恶魔、光与影——如果一方不存在，另一方就失去了意义。“白”是一张白纸，具有变成任何事物的潜力，而“黑”则是完整且不变的。所以我们的意图其实不是回归基础，而是唤起那个特定的主题。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/bw_boxes.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_bw_boxes'
 - speaker: 提问
   original: Can you give an example of how that theme manifests in the game?
   translation: 你能举例说明这个主题在游戏中是如何体现的吗？
@@ -75,6 +88,9 @@ parallel_items:
   translation: 就开发资源而言，这无疑是我们制作过的最大规模的游戏。我们在GAME FREAK有70名员工参与开发，此外还有宝可梦全球连接团队，该团队还有数十名额外的开发者。”[宝可梦全球连接是一个新网站，将于今年春季上线，允许玩家关联游戏数据以体验额外的在线功能。——编者注]
   note: 宝可梦全球连接（Pokémon Global Link）为官方译名。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/003.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_003'
 - speaker: ''
   original: 'Dr Lava’s notes: It’s worth noting, in a July 2000 interview with Nintendo Power, Masuda said the team that worked on Gold & Silver was only about 20 developers. Here he says about 70 people worked on Black & White — a substantial increase in manpower between generations 2 and 5.'
   translation: 熔岩博士的注释：值得注意的是，在2000年7月接受《Nintendo Power》采访时，增田表示参与《金／银》开发的团队只有大约20名开发者。而这里他说《黑／白》约有70人参与——从第二世代到第五世代，人力大幅增加。
@@ -92,6 +108,9 @@ parallel_items:
   original: “This is the second generation of Pokemon games on the Nintendo DS hardware. So from the visual side, we were focusing on the issue of “how do we make a game feel fresh when it’s on familiar hardware?” One of the ways was to use entirely new Pokemon, instead of mixing new and [existing] Pokemon the way we did in previous installments. Creating an entirely new ecosystem of Pokemon allowed us to return to square one in terms of design. So we already have Pokemon based on dogs, and horses, and deer, for example. But now that we’ve discarded our past work, in a sense, we can go back to the animals that have inspired Pokemon and study them with fresh eyes, and create new and different things.”
   translation: 这是任天堂DS硬件上的第二世代宝可梦游戏。所以从视觉方面，我们关注的问题是“在熟悉的硬件上如何让游戏感觉新鲜？”方法之一就是使用全新的宝可梦，而不是像前几作那样混合新旧宝可梦。创造全新的宝可梦生态系统让我们在设计上回到了原点。例如，我们已经有基于狗、马和鹿的宝可梦。但现在，从某种意义上说，我们已经抛弃了过去的工作，可以重新审视那些启发宝可梦的动物，用全新的眼光研究它们，创造出新的、不同的东西。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/004.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_004'
 - speaker: 提问
   original: Do you feel you were successful in widening the games’ appeal? Do you have a sense of what age groups they have resonated with?
   translation: 您觉得在扩大游戏吸引力方面成功了吗？您了解这些游戏引起了哪些年龄段的共鸣吗？
@@ -109,6 +128,9 @@ parallel_items:
   original: “Having so many older players return is a big change from previous generations.”
   translation: “有这么多老玩家回归，是前几代没有的重大变化。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/005.png
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_005'
 - speaker: 提问
   original: Why do you think that is?
   translation: 您认为原因是什么？
@@ -121,6 +143,10 @@ parallel_items:
 - speaker: ''
   original: “As I mentioned earlier, we also added all sorts of cutting-edge communication features. Part of the reason for this was to make it easier for adults to communicate with other players. Younger kids are playing together all the time, but older players are a little shyer about such things. So we added infrared technology that makes it easier and more intuitive to link up with other players, and added the Internet functionality so that players don’t even need to see each other in order to trade [or battle] Pokemon.”
   translation: “正如我之前提到的，我们还添加了各种尖端的通信功能。部分原因是为了让成年人更容易与其他玩家交流。小孩子总是聚在一起玩，但年长玩家对此有点害羞。所以我们增加了红外技术，使连接其他玩家更容易、更直观，并增加了互联网功能，这样玩家甚至不需要见面就能交换或对战宝可梦。”
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/006.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_006'
+  caption: Screenshot from my Gen 2 video , which covers the Mobile System GB
 - speaker: ''
   original: 'Dr Lava’s notes: Although Black & White were the first Pokemon games to offer trading and battling over wifi, Gen 2 was actually the first time Pokemon fans got the chance to go online. The Japanese version of Crystal was compatible with an accessory called the Mobile Adapter GB, which allowed a Gameboy to connect to a cellphone. You could then trade, battle, download mini-games, and even access the famous Celebi event via the Mobile System GB. Unfortunately, the service was never made available outside of Japan.'
   translation: Dr Lava 注：尽管《黑／白》是第一款提供通过 Wi-Fi 交换和对战的宝可梦游戏，但第二世代实际上是宝可梦粉丝首次有机会上网。日版《水晶》兼容一种名为“Mobile Adapter GB”的配件，它允许 Game Boy 连接到手机。然后你可以交换、对战、下载小游戏，甚至通过 Mobile System GB 访问著名的时拉比事件。不幸的是，该服务从未在日本以外提供。
@@ -140,6 +166,10 @@ parallel_items:
   original: “Advances in the hardware have also impacted the style of Pokemon over the years. Higher-resolution platforms have allowed for more detailed designs.”
   translation: “多年来，硬件的进步也影响了宝可梦的风格。更高分辨率的平台允许更精细的设计。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/007.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_007'
+  caption: Scanned from this issue of Nintendo Power
 - speaker: 提问
   original: What is the process for designing new Pokemon? How do you decide which ones make the cut?
   translation: 设计新宝可梦的过程是怎样的？你们如何决定哪些宝可梦能够入选？
@@ -157,6 +187,10 @@ parallel_items:
   translation: Dr Lava的注释：这真是个大爆料——第五世代设计的宝可梦中只有三分之一进入了最终成品。由于合众图鉴包含156只新宝可梦，听起来杉森建的团队一定提交了400到500个设计供他审批。这与杉森建在2000年7月《Nintendo Power》采访中所说的相似：“我们为第二世代想出了几百只新宝可梦，但大多数在开发过程中被砍掉了。”
   note: Dr Lava是宝可梦历史考据博主，此处为他的注释。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/008.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_008'
+  caption: Screenshot from my video about Gen 5’s scrapped designs
 - speaker: Dr. Lava
   original: In a series of 2011 interviews with Nintendo Dream magazine — the Japanese equivalent of Nintendo Power — Ken Sugimori described quite a few Pokemon scrapped during Gen 5’s development. I’ve summarized and analyzed those interviews’ highlights in this video.
   translation: 在2011年与《Nintendo Dream》杂志（日本版《Nintendo Power》）的一系列采访中，杉森建描述了第五世代开发期间被废弃的不少宝可梦。我在这个视频中总结并分析了这些采访的亮点。
@@ -165,6 +199,9 @@ parallel_items:
   original: But I suppose this raises the question — what should be classified as a “lost Pokemon”? I think we all agree the unused sprites in Gold & Silver’s 1997 demo are lost Pokemon. So is it when Sugimori approves a monster, then it’s discarded later in development? Is it only after it’s given a sprite, or that sprite is programmed into some sort of demo or beta build? That’s a question that deserves its own article, and at the end of the day, probably comes down to your own opinion.
   translation: 但我想这引出了一个问题——什么应该被归类为“失落的宝可梦”？我想我们都同意《金／银》1997年演示中未使用的精灵图是失落的宝可梦。那么，是当杉森建批准一只宝可梦，但后来在开发中被丢弃时算吗？还是只有在它被赋予精灵图，或者该精灵图被编程到某个演示或测试版本中才算？这个问题值得单独写一篇文章，而归根结底，可能取决于你自己的看法。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/009.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_009'
 - speaker: Dr. Lava
   original: As Sugimori alluded to in his above quote, at this point he’d been the artist responsible for every Pokemon’s official artwork since Gen 1. It seems this finalized art is only drafted after a Pokemon’s made the final cut and has its sprite programmed into the game. That’s why in earlier generations, Pokemon sprites sometimes don’t perfectly match their official art. Because Sugimori made some revisions to those designs while drafting their official artwork — after the sprite was already finalized. You can see a couple examples pictured above.
   translation: 正如杉森建在上面的引文中提到的，从第一世代起，他就一直是负责每只宝可梦官方艺术图的画师。似乎这些最终艺术图是在宝可梦最终入选并将其精灵图编程到游戏之后才绘制的。这就是为什么在早期世代中，宝可梦的精灵图有时与官方艺术图不完全匹配。因为杉森建在绘制官方艺术图时对设计做了一些修改——而那时精灵图已经定稿了。你可以在上面看到几个例子。
@@ -185,6 +222,9 @@ parallel_items:
   original: “[Laughs] I think one of the joys of Pokemon is being able to use your favorite Pokemon from the Blue and Red Versions all the way through to the newest iterations. So no, I don’t think we can do that.”
   translation: “[笑] 我认为宝可梦的乐趣之一就是能够使用你最喜欢的宝可梦，从《蓝／红》版本一直到最新的作品。所以不，我认为我们不能那样做。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/010.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_010'
 - speaker: Dr. Lava
   original: 'Dr Lava’s notes: Considering the backlash following Game Freak’s announcement that only about half the Pokedex was going to make its way into Sword & Shield, I think it’s safe to assume a good chunk of the Pokemon fanbase agrees with this 2010 Masuda quote. Pokemon is a very nostalgic franchise for many of its fans, and having some of their favorite Pokemon cut from Gen 8 rubbed a lot of them the wrong way.'
   translation: Dr Lava的注释：考虑到GAME FREAK宣布只有大约一半的图鉴宝可梦会出现在《剑／盾》中后引发的强烈反对，我认为可以肯定地说，相当一部分宝可梦粉丝同意增田顺一2010年的这段话。宝可梦对许多粉丝来说是一个非常怀旧的系列，而一些他们最喜欢的宝可梦被从第八世代中移除，这让很多人感到不满。
@@ -222,6 +262,9 @@ parallel_items:
   translation: 最大的惊喜绝对是玩家对宝可梦全球链接的兴趣。[笑] 日本的Wi-Fi普及率不如美国，所以我们从未想到它会如此受欢迎[在日本]。有超过一百万人注册——几乎是购买游戏人数的四分之一——这压垮了我们的服务器。我们几乎立即大幅增加了服务器容量。
   note: 宝可梦全球链接（Pokémon Global Link）是第五世代配套的在线服务，允许玩家同步游戏数据并参与网页活动。
   role: answer
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/011.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_011'
 - speaker: 提问
   original: 'One last question: before the Pokemon series, Game Freak was famous for making great side-scrolling action games. Do you plan to return to that genre one day?'
   translation: 最后一个问题：在宝可梦系列之前，GAME FREAK以制作出色的横版动作游戏而闻名。你们有计划某天回归那个类型吗？
@@ -247,6 +290,10 @@ parallel_items:
   original: And that wraps up this March 2011 interview. By the way, Drill Dozer was a GBA action platformer directed by Ken Sugimori and produced by Junichi Masuda. It released in 2005 and received an average review score of 8/10. If you’d like to read more Pokemon interviews, check out this website’s homepage.
   translation: 这样就结束了这次2011年3月的访谈。顺便提一下，《钻孔钻机》是一款GBA动作平台游戏，由杉森建执导，增田顺一制作。它于2005年发售，平均评测得分为8/10。如果你想阅读更多宝可梦访谈，请查看本网站首页。
   note: Drill Dozer 是 GAME FREAK 开发的一款 GBA 游戏，官方译名可能为《钻孔钻机》或《钻头小精灵》，此处采用直译。
+- type: image
+  image: /assets/img/interviews/2011-03-01-interview-nintendo-power-bw-masuda-sugimori/012.jpg
+  alt: 'Nintendo Power: Pokemon Black & White Developer Interview (Masuda & Sugimori)_012'
+  caption: Help make more articles & videos possible with a Patreon pledge
 - speaker: ''
   original: 'I owe a special thanks to Megmar, who scanned this issue of Nintendo for me so I could transcribe it. And as always, I’d like to show my appreciation to my Patreon supporters who help finance this website and my YouTube channel:'
   translation: 我特别感谢Megmar，他为我扫描了这本任天堂杂志，使我能够转录它。一如既往，我想向我的Patreon支持者表示感谢，他们资助了这个网站和我的YouTube频道：

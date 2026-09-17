@@ -47,6 +47,12 @@ parallel_items:
   original: 子どもたちの新アイテム、ポケモンミニには新しい要素がいっぱい。ポケモンミニのソフトを開発した株式会社ポケモンのお２人に、ポケモンミニの魅力を語ってもらいました。／株式会社ポケモン／ポケモンミニプロジェクト マネージャー／三浦昌幸さん／株式会社ポケモン
   translation: 孩子们的新玩具——宝可梦迷你那可是充满了新要素。我们请来了开发宝可梦迷你软件的株式会社宝可梦的两位，来谈谈宝可梦迷你的魅力。／株式会社宝可梦／宝可梦迷你项目 经理／三浦昌幸先生／株式会社宝可梦
   note: 株式会社宝可梦（The Pokémon Company）是1998年成立的宝可梦品牌管理公司。
+- type: image
+  image: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-mini-developers/001.jpg
+  alt: 三浦昌幸さん
+- type: image
+  image: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-mini-developers/002.jpg
+  alt: 久須美龍太さん
 - type: narrative
   original: ポケモンミニプロジェクト／久須美龍太さん
   translation: 宝可梦迷你项目／久须美龙太先生

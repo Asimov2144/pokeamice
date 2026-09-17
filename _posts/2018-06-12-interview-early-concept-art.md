@@ -278,6 +278,9 @@ parallel_items:
   original: 'So, just what did that original project proposal for Pokémon look like? In 2009, a book was released in Japan that provided us with a glimpse. Known as Satoshi Tajiri: The Man who Created Pokémon (ISBN: 4840127751), it covered the development history of a number of Game Freak games, including the early Pokémon titles.'
   translation: "那么，宝可梦最初的企划书到底是什么样子的呢？2009年，日本出版的一本书让我们得以一窥究竟。这本书名为《田尻聪：创造宝可梦的男人》（ISBN: 4840127751），涵盖了GAME FREAK多款游戏的开发历史，包括早期的宝可梦作品。"
   note: 田尻聪（Satoshi Tajiri）是宝可梦的创始人，Game Freak的社长。
+- type: image
+  image: /assets/img/interviews/2018-06-12-interview-early-concept-art/005.jpg
+  alt: Early Concept Art 宝可梦早期概念美术_005
 - type: paragraph
   original: I initially found a cache of images from this book on an alternative gaming news site called Tikisaurus . I searched around the web to find a couple more, and combined it with previously-translated developer interviews to bring you a look at Pokémon’s early history!
   translation: 我最初在一个名为Tikisaurus的另类游戏新闻网站上找到了这本书中的一批图片。我在网上搜索了更多图片，并将其与之前翻译的开发者访谈结合起来，为您呈现宝可梦的早期历史！
@@ -289,6 +292,18 @@ parallel_items:
   original: 'Page # Category Title Page 01 Intro Life Before Pokémon Page 02 Design Doc Tajiri’s Pokémon Vision Page 03 Concept Art Adventuring With Pokémon Page 04 Concept Art A Battle Between Trainers Page 05 Concept Art A Day in the Life Page 06 Concept Art A Battle Between Pokémon Page 07 Concept Art Trading Pokémon Page 08 Concept Art At the Pokémon Hotel Page 09 Concept Art Catching Pokémon Page 10 Concept Art At the Pokémart Page 11 Concept Art Status Screen Page 12 Concept Art Battle Screen Page 13 Concept Art Opening Sequence Page 14 Concept Art Overworld Page 15 Sprite Art Sprites Page 16 Outro A Brief Conclusion'
   translation: 页码 类别 标题 第01页 引言 宝可梦之前的生活 第02页 设计文档 田尻聪的宝可梦愿景 第03页 概念艺术 与宝可梦一起冒险 第04页 概念艺术 训练家之间的对战 第05页 概念艺术 日常生活 第06页 概念艺术 宝可梦之间的对战 第07页 概念艺术 交换宝可梦 第08页 概念艺术 在宝可梦旅馆 第09页 概念艺术 捕捉宝可梦 第10页 概念艺术 在宝可梦商店 第11页 概念艺术 状态画面 第12页 概念艺术 战斗画面 第13页 概念艺术 开场动画 第14页 概念艺术 地图画面 第15页 精灵图 精灵图 第16页 结语 简短的结论
   note: Pokémart 通常译为“宝可梦商店”或“友好商店”，此处根据上下文译为“宝可梦商店”。
+- type: image
+  image: /assets/img/interviews/2018-06-12-interview-early-concept-art/001.jpg
+  alt: Early Concept Art 宝可梦早期概念美术_001
+- type: image
+  image: /assets/img/interviews/2018-06-12-interview-early-concept-art/002.jpg
+  alt: Early Concept Art 宝可梦早期概念美术_002
+- type: image
+  image: /assets/img/interviews/2018-06-12-interview-early-concept-art/003.jpg
+  alt: Early Concept Art 宝可梦早期概念美术_003
+- type: image
+  image: /assets/img/interviews/2018-06-12-interview-early-concept-art/004.gif
+  alt: Early Concept Art 宝可梦早期概念美术_004
 - type: paragraph
   original: 'Pages: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16'
   translation: 页码：1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16

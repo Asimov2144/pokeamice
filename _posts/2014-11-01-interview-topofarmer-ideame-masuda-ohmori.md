@@ -29,6 +29,9 @@ parallel_items:
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_02_2014-10-31-09.15.26_lzn-150x150.jpg
   alt: 2014-10-31 09.15.26_lzn
   caption: 2014-10-31 09.15.26_lzn
+- type: image
+  image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/001.jpg
+  alt: 2014-10-31 09.15.26_lzn
 - original: 'Este fin de semana es el XX’avo Salón del Mangui Manga en BCN. Para esta 20º cumpleaños se han elegido unos protagonistas muy conocidos: los Pokémon. Y dentro de los eventos de promoción de Rubí Omega y Zafiro Alfa hay una serie de actividades dentro y fuera del salón. Y unos invitados muy especiales: Junichi Masuda y Shigeru Ohmori ¡en persona! La mañana del 31 en un privado  céntrico colegio de la capital estos respondieron algunas preguntas preparadas por los alumnos.'
   translation: 这个周末是巴塞罗那第20届漫画沙龙。为了庆祝20周年，选出了非常知名的主角：宝可梦。在《欧米伽红宝石／阿尔法蓝宝石》的推广活动中，沙龙内外有一系列活动。还有非常特别的嘉宾：增田顺一和大森滋亲临现场！31日上午，在首都中心一所私立学校，他们回答了学生们准备的一些问题。
 - original: Y un pescado se desplazó ahí para cubrirlo para Topofarmer. Tan elegante cómo se podía ser.  No os quejaréis, eh?

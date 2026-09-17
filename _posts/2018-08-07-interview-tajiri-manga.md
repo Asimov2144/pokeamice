@@ -41,6 +41,9 @@ original_link: https://helixchamber.com/2018/08/07/tajiri-manga/
 translator: Poke Amice Studio
 interviewee: 开发团队
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/001.jpg
+  alt: helixchamber 田尻 自传漫画 研究_001
 - type: paragraph
   original: A Closer Look at the Satoshi Tajiri Biographical Manga – Helix Chamber
   translation: 深入解读田尻智传记漫画——Helix Chamber
@@ -53,6 +56,9 @@ parallel_items:
   original: Our curiosity piqued, the Helix Chamber team – made up of translators, coders, people who know random trivia about the franchise, nerds, magnification wizards, you name it – gathered together, obtained a copy of the manga, scanned everything, and were able to unearth quite a lot of information.
   translation: 我们的好奇心被激起，Helix Chamber团队——由翻译、程序员、了解该系列各种冷知识的人、极客、图像放大专家等组成——聚集在一起，获取了这本漫画的副本，扫描了所有内容，并挖掘出了相当多的信息。
   note: Helix Chamber 是一个粉丝研究团队，以挖掘宝可梦游戏数据闻名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/002.jpg
+  alt: helixchamber 田尻 自传漫画 研究_002
 - type: paragraph
   original: At first glance, this is a chart with a few things that aren’t found in the first Pokémon games (B), and a bunch of mysterious, warped monsters peering out from a skewed grid in the bottom panel (A).
   translation: 乍一看，这是一张图表，其中包含一些在第一代宝可梦游戏中没有出现的东西（B），以及底部面板（A）中从歪斜的网格中探出的许多神秘、扭曲的怪物。
@@ -78,6 +84,9 @@ parallel_items:
 - type: paragraph
   original: On the left side of panel B, we can see a page titled “Popularity Poll Results Announcement” (人気投票結果発表); this piece of paper covering up the grid is the internal poll results, listing the winners and the number of votes that each one got. We’ve also been able to guess the top 31 by cross-referencing the material, albeit restoring the exact 11-20 order is not possible, unfortunately.
   translation: 在面板B的左侧，我们可以看到一页标题为“人气投票结果公布”（人気投票結果発表）的纸；这张覆盖在网格上的纸是内部投票结果，列出了获胜者及各自获得的票数。我们还通过交叉参考材料推测出了前31名，尽管遗憾的是无法恢复第11至20名的确切顺序。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/003.jpg
+  alt: helixchamber 田尻 自传漫画 研究_003
 - type: paragraph
   original: Even on the surface level, this manga is a revealing look inside the development of Game Freak’s hit franchise.
   translation: 即使从表面上看，这部漫画也揭示了GAME FREAK热门系列开发过程中的内幕。
@@ -88,6 +97,9 @@ parallel_items:
 - type: paragraph
   original: Here’s what we’ve got out of the four panels used for the internal poll, complete with a thorough restoration of panel A. Please note that in the actual manga, these images are super small and warped, We’re talking less than 5cm for every table.
   translation: 以下是我们从用于内部投票的四个分镜中提取的内容，并附有对面板A的彻底修复。请注意，在漫画原稿中，这些图像非常小且扭曲，每张表格都不到5厘米。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/004.jpg
+  alt: helixchamber 田尻 自传漫画 研究_004
 - type: paragraph
   original: (A full hi-res raw restoration of the tables is available for download here )
   translation: （表格的高清原始修复版可在此处下载）
@@ -118,6 +130,9 @@ parallel_items:
 - type: paragraph
   original: Open image in new tab to get the full resolution scan. Pokémon labelled with letters can’t reasonably be assigned an ID.
   translation: 在新标签页中打开图片以获取全分辨率扫描。标有字母的宝可梦无法合理分配ID。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/005.jpg
+  alt: helixchamber 田尻 自传漫画 研究_005
 - type: paragraph
   original: 37 モンジャラ
   translation: 37 モンジャラ
@@ -129,6 +144,9 @@ parallel_items:
 - type: paragraph
   original: CIRCLED Tangela is largely the same as the final, but it’s 18 slots off from the expected 19 in the cry index order. Tangela is circled, so it won a place on the poll between 11 and 20. 36? ?イロ?
   translation: 带圆圈的藤蔓怪与最终版大体相同，但在叫声索引顺序中与预期的19相差18个位置。藤蔓怪被圈出，因此它在投票中赢得了第11至20名之间的位置。36? ?イロ?
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/006.jpg
+  alt: helixchamber 田尻 自传漫画 研究_006
 - type: paragraph
   original: ??IRO?? PINSIR
   translation: ??IRO?? 凯罗斯
@@ -137,6 +155,9 @@ parallel_items:
   original: CIRCLED. Only able to be identified via its foot and raised arm, Pinsir could have a different name than the final “Kairos” (It could possibly be “Yairos” , but the text is too distorted to be read clearly). We believe Tangela-Pinsir-Blastoise formed a block that was moved around quite a bit in the early stages. It won a place on the poll between 11 and 20. A ??? This Pokémon is entirely cut off and could literally be anything. 35 カラバジオ
   translation: 带圆圈。仅能通过其脚和举起的手臂辨认，凯罗斯可能拥有与最终“Kairos”不同的名字（可能是“Yairos”，但文字过于扭曲无法清晰辨认）。我们认为藤蔓怪-凯罗斯-水箭龟形成了一个在早期阶段被频繁移动的区块。它在投票中赢得了第11至20名之间的位置。一个???这只宝可梦完全被截断，可能实际上是任何东西。35 カラバジオ
   note: カラバジオ是水箭龟的早期日文名，可能源自画家卡拉瓦乔。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/007.jpg
+  alt: helixchamber 田尻 自传漫画 研究_007
 - type: paragraph
   original: CARAVAGGIO BLASTOISE
   translation: CARAVAGGIO 水箭龟
@@ -157,6 +178,9 @@ parallel_items:
   original: Its sprite seems to be identical to the final one. 23? ストライク
   translation: 它的图像似乎与最终版本相同。23？飞天螳螂
   note: ストライク是飞天螳螂的日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/008.jpg
+  alt: helixchamber 田尻 自传漫画 研究_008
 - type: paragraph
   original: STRIKE SCYTHER
   translation: 飞天螳螂
@@ -165,10 +189,16 @@ parallel_items:
   original: NOT RANKED. Scyther is identical in name and appearance, unfortunately, its number isn’t readable, should be 23 according to the Cry list. B オメガ
   translation: 未排名。飞天螳螂的名称和外观完全相同，不幸的是其编号无法辨认，根据叫声列表应为23。B 欧米伽
   note: オメガ可能指未使用的宝可梦名称。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/009.jpg
+  alt: helixchamber 田尻 自传漫画 研究_009
 - type: paragraph
   original: OMEGA CROSSED. An unused Pokémon; revealed in late 2018 and it’s crossed off with an X. Check out our Lost Pokémon page for more. 29 ゴースト
   translation: 欧米伽被划掉。一只未使用的宝可梦；2018年底公开，且被用X划掉。更多信息请查看我们的“失落宝可梦”页面。29 幽灵
   note: ゴースト是鬼斯的日文名，意为幽灵。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/010.jpg
+  alt: helixchamber 田尻 自传漫画 研究_010
 - type: paragraph
   original: GHOST GASTLY
   translation: 鬼斯
@@ -181,10 +211,16 @@ parallel_items:
   original: “Ghost” , while surprisingly in the 1990 Capsule Monsters pitch it used to be called  ゴース “Ghos”, which ended up being its final Japanese name. 8? GENGAR
   translation: “幽灵”，而令人惊讶的是，在1990年的《胶囊怪兽》提案中，它曾被称为“ゴース”（Ghos），这最终成为了它的日文名。8？耿鬼
   note: 耿鬼是鬼斯通的进化型，日文名ゲンガー。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/011.jpg
+  alt: helixchamber 田尻 自传漫画 研究_011
 - type: paragraph
   original: NOT RANKED. Identical to the final. The number is too blurry, but it should be 8, going off of the cry list . 1? ニドラン♂
   translation: 未排名。与最终版本相同。编号太模糊，但根据叫声列表应为8。1？尼多朗（雄性）
   note: ニドラン♂是尼多朗的日文名，雄性。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/012.jpg
+  alt: helixchamber 田尻 自传漫画 研究_012
 - type: paragraph
   original: NIDORAN M NIDORAN M
   translation: 尼多朗（雄性）
@@ -193,6 +229,9 @@ parallel_items:
   original: NOT RANKED. Its sprite is bigger than the final one, but very similar to the Capumon sprite sheet, with the addition of spikier ears. The design was later scaled down when Nidorino was created.  The image is very blurry, so the actual text is unclear, but the name looks more like “ Hadoran “. This conflicts with the fact that Nidoran’s name had already been mentioned in Capsule Monsters , albeit not specifically linked to this sprite. 7 ビリリダマ
   translation: 未排名。它的图像比最终版本更大，但与《胶囊怪兽》的图像非常相似，只是耳朵更尖。后来在设计尼多力诺时缩小了尺寸。图像非常模糊，实际文字不清楚，但名字看起来更像“哈多兰”。这与尼多朗的名字已在《胶囊怪兽》中提到的事实相矛盾，尽管并未明确关联到该图像。7 霹雳电球
   note: ビリリダマ是霹雳电球的日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/013.jpg
+  alt: helixchamber 田尻 自传漫画 研究_013
 - type: paragraph
   original: BIRIRIDAMA VOLTORB
   translation: 霹雳电球
@@ -205,6 +244,12 @@ parallel_items:
   original: GYAOON / GYARTH NOT RANKED. Gyaoon is interesting. Its name is the onomatopoeia for Godzilla’s roar, and it has elements that later would be incorporated into strong, kaiju-like Pokémon such as Tyranitar, Charizard, and even Feraligatr . A lthough sporting a fairly different design, it can be identified with No.1 on the Capumon sprite sheet mainly because of its open mouth and pose. It might even share some pixels in the head/mouth region with its former sprite. In the poll, they scratched out the ース ” (a)su ” in its name, which means its name was Gyaasu or “Gyarth” at some point. It was likely cut for not being very distinct, although it lives on through the Pokémon that inherited its design elements. Its number is too blurry to identify or even guess, and it’s not featured in the final cry list. The new Game Informer document might have revealed its original placement to be 16, thus revealing its cry . Check out our Lost Pokémon page for more. 6? ベトベター
   translation: GYAOON / GYARTH 未上榜。Gyaoon 很有趣。它的名字是哥斯拉咆哮的拟声词，它的一些元素后来被融入了像班基拉斯、喷火龙甚至大力鳄这样强大的、怪兽般的宝可梦。虽然设计上相当不同，但根据张开的大嘴和姿势，可以将其与 Capumon 精灵图中的第 1 号对应。它甚至可能在头部/嘴部区域与原精灵图共享一些像素。在投票中，他们划掉了名字中的“ース”（a）su，这意味着它的名字曾一度是 Gyaasu 或“Gyarth”。它很可能因为不够独特而被删除，尽管它通过继承了其设计元素的宝可梦得以延续。它的编号太模糊，无法辨认甚至猜测，也没有出现在最终的叫声列表中。新的 Game Informer 文件可能揭示了它原本的位置是 16，从而揭示了它的叫声。更多信息请查看我们的“失落宝可梦”页面。6？臭泥
   note: Capumon 是宝可梦前身《胶囊怪兽》的早期精灵图。Game Informer 是一家游戏媒体。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/014.jpg
+  alt: helixchamber 田尻 自传漫画 研究_014
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/015.jpg
+  alt: helixchamber 田尻 自传漫画 研究_015
 - type: paragraph
   original: BETOBETAA GRIMER
   translation: BETOBETAA 臭泥
@@ -213,6 +258,9 @@ parallel_items:
   original: CIRCLED. Grimer finally got its trademark goofy mouth since the Capsule Monsters version; its sprite is bigger than the final . Because it was circled, and its name isn’t on the visible part of the poll results, it was probably ranked somewhere between 11 and 20. 17 オムオム
   translation: 被圈出。臭泥终于自《胶囊怪兽》版本以来获得了标志性的滑稽嘴巴；它的精灵图比最终版本更大。由于它被圈出，且名字不在投票结果的可见部分，它可能排名在 11 到 20 之间。17 オムオム
   note: オムオム 是烈雀的早期名称，可能源自煎蛋卷（omelette）的玩笑。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/016.jpg
+  alt: helixchamber 田尻 自传漫画 研究_016
 - type: paragraph
   original: OMUOMU SPEAROW
   translation: OMUOMU 烈雀
@@ -221,6 +269,9 @@ parallel_items:
   original: CROSSED. The name seems to be a joke about omelettes. Its design was drastically changed from its sturdy Pidgeot-like beginnings in the Capumon sprite sheet. This sprite was scaled down when Fearow was created. Interestingly, its slot is crossed off with an X and several lines, so it may have been considered for reworking or being thrown out. Check out our Lost Pokémon page for more. 18 ガガース
   translation: 被划掉。这个名字似乎是一个关于煎蛋卷的玩笑。它的设计从 Capumon 精灵图中类似大比鸟的健壮初始形态发生了巨大变化。当大嘴雀被创造时，这个精灵图被缩小了。有趣的是，它的位置被用 X 和几条线划掉，所以它可能曾被考虑重做或丢弃。更多信息请查看我们的“失落宝可梦”页面。18 ガガース
   note: ガガース 是钻角犀兽的早期名称。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/017.jpg
+  alt: helixchamber 田尻 自传漫画 研究_017
 - type: paragraph
   original: GAGARS RHYDON
   translation: GAGARS 钻角犀兽
@@ -229,6 +280,9 @@ parallel_items:
   original: NOT RANKED. This same sprite of Rhydon without its drill-horn was seen in the 1990 Capumon image. Apart from the horn, it looks similar to its final sprite. The print does suggest, however, that the shading was changed a little for the final. 13 ベロリンガ
   translation: 未上榜。这个没有钻角的钻角犀兽精灵图在 1990 年的 Capumon 图片中出现过。除了角之外，它与最终精灵图相似。然而，印刷品确实表明，最终版本的阴影略有改变。13 ベロリンガ
   note: ベロリンガ 是大舌头（Lickitung）的日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/018.jpg
+  alt: helixchamber 田尻 自传漫画 研究_018
 - type: paragraph
   original: BERORINGA LICKITUNG
   translation: BERORINGA 大舌头
@@ -243,10 +297,16 @@ parallel_items:
 - type: paragraph
   original: This block had to be heavily reconstructed, as it is about 2cm tall and tilted in the manga. Some sprites were deliberately brightened by the manga editors, leaving just a faded trail of dots. We were able to line up some of the final sprites with the dots, but not all of them had perfect matches. The editors also removed the various ranking marks, although we were able to restore some of the circled Pokémon, we won’t mark any as “Not ranked” since definitive evidence is missing. These Pokémon are mostly in order, with some slots flipped by one place.
   translation: 这一块必须进行大量重建，因为它在漫画中大约只有 2 厘米高且倾斜。一些精灵图被漫画编辑故意提亮，只留下了一串褪色的点迹。我们能够将一些最终精灵图与点迹对齐，但并非所有都能完美匹配。编辑们还移除了各种排名标记，尽管我们能够恢复一些被圈出的宝可梦，但由于缺乏确凿证据，我们不会将任何标记为“未上榜”。这些宝可梦大多按顺序排列，有些位置颠倒了一位。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/019.jpg
+  alt: helixchamber 田尻 自传漫画 研究_019
 - type: paragraph
   original: 38 GRAVELER Graveler was most likely swapped with Kadabra. The sprite is too dark to see properly, but the shape and the arms are distinctly those of Graveler.
   translation: 38 隆隆石 隆隆石很可能与凯西互换了位置。精灵图太暗，无法看清，但形状和手臂明显是隆隆石的。
   note: 凯西（Kadabra）是勇基拉的进化前形态，但这里可能指勇基拉（Yungeller）？原文如此，但根据上下文，凯西和勇基拉是同一进化链。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/020.jpg
+  alt: helixchamber 田尻 自传漫画 研究_020
 - type: paragraph
   original: 39 ユンゲラー
   translation: 39 ユンゲラー
@@ -263,6 +323,9 @@ parallel_items:
   original: 'stayed similar design-wise, as some of the remaining pixels suggest. Ranked #25 in the poll. 40 ラッキー'
   translation: 设计上保持相似，正如一些残留像素所示。在投票中排名第25位。40 吉利蛋
   note: ラッキー即吉利蛋（Lucky），此处为日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/021.jpg
+  alt: helixchamber 田尻 自传漫画 研究_021
 - type: paragraph
   original: LUCKY CHANSEY
   translation: 幸运 吉利蛋
@@ -271,6 +334,12 @@ parallel_items:
   original: TOP 3. Won 2nd place on the poll. Its sprite seems to be identical to the final, with the possible exceptions of the egg pouch’s shading as well as the arms’ shape. 41 MACHOKE Seems to be the same pose. 42 バリリーナ
   translation: 前三名。在投票中获得第二名。其图像似乎与最终版本相同，可能除了蛋袋的阴影和手臂的形状。41 豪力 似乎是相同的姿势。42 巴利琳娜
   note: バリリーナ可能指魔墙人偶的早期设计，或与芭蕾舞者相关。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/022.jpg
+  alt: helixchamber 田尻 自传漫画 研究_022
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/023.jpg
+  alt: helixchamber 田尻 自传漫画 研究_023
 - type: paragraph
   original: BARIRIINA MR. MIME?
   translation: 巴利琳娜 魔墙人偶？
@@ -279,6 +348,9 @@ parallel_items:
   original: CIRCLED. This may be Mr. Mime, but the sprite doesn’t match the dots completely. There’s a “Baririina” on the poll which would imply a ballerina… so maybe Mr. Mime (バリヤード/Barrierd) had a different career choice at this point in development. That name is also the exact same as its baby evolution in the Gold and Silver prototypes. Its looks may have been slightly different; there’s something quite different going on in the upper body area (shoulders, horns, hands), but it would be difficult, if not impossible, to define its appearance any further. Ranked 11-20 in the poll. Check out our Lost Pokémon page for more. 43 サワムラー
   translation: 已圈出。这可能是魔墙人偶，但图像与点阵并不完全匹配。投票中有一个“巴利琳娜”，暗示是芭蕾舞者……所以也许魔墙人偶（バリヤード/Barrierd）在开发的这个阶段有不同的职业选择。这个名字也与金银原型中其宝宝进化完全相同。它的外观可能略有不同；上半身区域（肩膀、角、手）有些不同，但要进一步确定其外观即使不是不可能，也是很困难的。在投票中排名第11-20位。更多信息请查看我们的“失落宝可梦”页面。43 沙瓦郎
   note: サワムラー即沙瓦郎（Hitmonlee），此处为日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/024.jpg
+  alt: helixchamber 田尻 自传漫画 研究_024
 - type: paragraph
   original: SAWAMULAR HITMONLEE
   translation: 沙瓦郎 飞腿郎
@@ -287,6 +359,9 @@ parallel_items:
   original: 'CIRCLED. It’s mentioned in the voting, and would seem to fit here. Ranked #4 in the poll. 44 エビワラー'
   translation: 已圈出。在投票中被提及，似乎适合这里。在投票中排名第4。44 艾比郎
   note: エビワラー即艾比郎（Hitmonchan），此处为日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/025.jpg
+  alt: helixchamber 田尻 自传漫画 研究_025
 - type: paragraph
   original: EBIWALAR? HITMONCHAN The sprite is mostly the same, but the boxing gloves don’t have forced perspective like in the final, where the left boxing glove juts forward. If they had kept it like this, it probably would have prevented… certain
   translation: 艾比郎？ 快拳郎 图像大体相同，但拳击手套没有像最终版那样有透视效果，最终版中左拳套向前突出。如果保持这样，可能就能避免某些……
@@ -295,6 +370,12 @@ parallel_items:
   original: unfortunate comparisons. 45 ARBOK This was quite a mystery initially , but the faded dots line up perfectly with Arbok’s final sprite. 46 ファンガス
   translation: 不幸的比较。45 阿柏怪 这最初是个谜，但褪色的点与阿柏怪的最终图像完美对齐。46 真菌
   note: ファンガス可能指派拉斯特的早期名称。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/026.jpg
+  alt: helixchamber 田尻 自传漫画 研究_026
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/027.jpg
+  alt: helixchamber 田尻 自传漫画 研究_027
 - type: paragraph
   original: FUNGUS PARASECT
   translation: 真菌 派拉斯特
@@ -303,6 +384,9 @@ parallel_items:
   original: CIRCLED. Mentioned in the votes with a comment that it looked like a hermit crab… it’s most likely Parasect, given its name and description. ranked 11-20 in the poll. 47 ダッキー
   translation: 已圈出。在投票中被提及，并评论说它看起来像寄居蟹……考虑到它的名字和描述，很可能是派拉斯特。在投票中排名第11-20位。47 达基
   note: ダッキー即可达鸭的早期名称。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/028.jpg
+  alt: helixchamber 田尻 自传漫画 研究_028
 - type: paragraph
   original: DUCKY PSYDUCK
   translation: 达基 可达鸭
@@ -314,6 +398,9 @@ parallel_items:
   original: its picture. Ranked either 5 or 10 in the poll. 48 スリーパー
   translation: 在投票中排名第5或第10。48 思利帕
   note: スリーパー即催眠貘的日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/029.jpg
+  alt: helixchamber 田尻 自传漫画 研究_029
 - type: paragraph
   original: SLEEPER DROWZEE
   translation: 思利帕 催眠貘
@@ -322,6 +409,12 @@ parallel_items:
   original: CIRCLED. Another miraculous reconstruction from dots. スリーパー Sleeper (Hypno’s name) appears in the votes, so we assume that this is a similar case to that of Gastly and Haunter. R anked 26 in the poll. 49 ??? If something were to be here, following the index list, it would be Golem. 50? MAGMAR Same sprite as the final, but one space off from where it should be. It may be connected to the name “Buu”, but the name is too long on the panel itself – a short name like ブー would be off-center. It’s also possible that it was named “Buubaa”. like in the final. This leaves the true identity of “Buu” up in the air. 51? ??? No idea. Unfortunately, someone’s hand covers it up completely in the manga. 52? ELECTABUZZ Somehow, the 5 minuscule inkblots managed to line up perfectly with dark spots on Electabuzz’s final sprite. It would be off by one slot like Magmar was. He might also be
   translation: 已圈出。又一次从点阵中奇迹般地复原。スリーパー（引梦貘人的名字）出现在投票中，因此我们推测这与鬼斯和鬼斯通的情况类似。在投票中排名第26。49 ??? 如果这里有什么，按照索引列表，应该是隆隆岩。50? 电击兽 与最终版相同的精灵图，但位置偏移了一格。它可能与名字“Buu”有关，但面板上的名字太长——像“ブー”这样的短名字会偏离中心。也有可能它被命名为“Buubaa”，就像最终版一样。这使得“Buu”的真实身份悬而未决。51? ??? 不知道。不幸的是，在漫画中，某人的手完全遮住了它。52? 电击兽 不知怎的，那5个微小的墨迹与电击兽最终精灵图上的暗点完美对齐。它会像鸭嘴火兽一样偏移一格。它也可能是
   note: スリーパー是引梦貘人的日文名。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/030.jpg
+  alt: helixchamber 田尻 自传漫画 研究_030
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/031.jpg
+  alt: helixchamber 田尻 自传漫画 研究_031
 - type: paragraph
   original: the mysterious Buu – as in Elebuu. Whoever Buu was, it ranked 28 in the poll. 53? Totally missing or misplaced
   translation: 神秘的Buu——比如Elebuu。无论Buu是谁，它在投票中排名第28。53? 完全缺失或错位
@@ -410,15 +503,51 @@ parallel_items:
 - type: paragraph
   original: ◎ PERFECT A much bigger sprite. 66 ??? Most likely Dragonite. Shame that we can’t see this earlier sprite, could it have looked different? 67 カクタス
   translation: ◎ 完美 一个更大的精灵图。66 ??? 很可能是快龙。遗憾的是我们看不到这个早期的精灵图，它会不会看起来不同？67 カクタス
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/042.jpg
+  alt: helixchamber 田尻 自传漫画 研究_042
 - type: paragraph
   original: CACTUS CIRCLED. A weird cactus creature with sharp needles protruding in every direction, a tail, and what may be eyes or eyebrows on the bottom sphere. This Pokémon’s cry actually survived in the final game, sounding very similar to other spiky Pokémon and even Togepi’s in Gold and Silver (which, before this manga was published, had led to some interesting theories.) You can hear what Cactus would have sounded like here (Hex 43 , Dec. 67). The “rattle” seemingly attached to its tail is actually an illusion given by the smaller sphere on its head and its thorns. Ranked 24 in the poll, Its final design and name might’ve changed if it had made it to the 190 cut. 68 ジャッグ
   translation: CACTUS 被圈出。一个奇怪的仙人掌生物，尖锐的针刺向四面八方突出，有一条尾巴，底部球体上可能有眼睛或眉毛。这个宝可梦的叫声实际上在最终游戏中保留了下来，听起来与其他多刺宝可梦非常相似，甚至与《金／银》中波克比的叫声相似（在这本漫画出版之前，这引发了一些有趣的理论）。你可以在这里听到仙人掌可能的声音（十六进制43，十进制67）。看似附着在尾巴上的“拨浪鼓”实际上是由头部较小的球体和刺造成的错觉。在投票中排名第24，如果它进入了190只的删减名单，它的最终设计和名字可能会改变。68 ジャッグ
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/043.jpg
+  alt: helixchamber 田尻 自传漫画 研究_043
 - type: paragraph
   original: JAGG NOT RANKED. Resembling something like a goblin shark with big eyes
   translation: JAGG 未排名。类似于一种有着大眼睛的欧氏尖吻鲛，
 - type: paragraph
   original: and incredibly sharp teeth, Jagg was designed in a style that seems fairly alien to Pokémon. We wouldn’t have a shark Pokémon for years after it was cut – and never one so ferocious as this. Its final design and name might’ve changed if it had made it to the 190 cut. It may have inspired Ikari and Manbo1 in the Gold and Silver prototypes. Its name might be a pun on “jagged” and shark “シャーク”. 69 Totally missing or misplaced
   translation: 以及极其锋利的牙齿，Jagg的设计风格似乎与宝可梦相当格格不入。在它被删除后的多年里，我们都没有鲨鱼宝可梦——而且从未有过如此凶猛的。如果它进入了190只的删减名单，它的最终设计和名字可能会改变。它可能启发了《金／银》原型中的Ikari和Manbo1。它的名字可能是“jagged”（锯齿状）和“shark”（鲨鱼）的双关语。69 完全缺失或错位
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/032.jpg
+  alt: helixchamber 田尻 自传漫画 研究_032
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/033.jpg
+  alt: helixchamber 田尻 自传漫画 研究_033
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/034.jpg
+  alt: helixchamber 田尻 自传漫画 研究_034
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/035.jpg
+  alt: helixchamber 田尻 自传漫画 研究_035
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/036.jpg
+  alt: helixchamber 田尻 自传漫画 研究_036
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/037.jpg
+  alt: helixchamber 田尻 自传漫画 研究_037
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/038.jpg
+  alt: helixchamber 田尻 自传漫画 研究_038
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/039.jpg
+  alt: helixchamber 田尻 自传漫画 研究_039
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/040.jpg
+  alt: helixchamber 田尻 自传漫画 研究_040
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/041.jpg
+  alt: helixchamber 田尻 自传漫画 研究_041
 - type: paragraph
   original: Block 4
   translation: 第4块
@@ -426,6 +555,9 @@ parallel_items:
   original: The final block has one very strange oddity at the end of it, that being a numberless Kangaskhan at the end of a row that’s filled with MissingNo. in the final game. It may be that Kangaskhan didn’t fit on another sheet and they moved it to an empty row here. Other than that, it follows the index order very closely like Block 3, but has one weird swap like in Block 2. The editors also removed the various ranking marks, we were able to restore some of the circled Pokémon but we won’t mark any as “Not ranked” since definitive evidence is missing.
   translation: 最后一块的末尾有一个非常奇怪的异常现象，那就是在最终游戏中充满MissingNo.的一行的末尾，有一只没有编号的袋兽。可能是因为袋兽无法放在另一张纸上，所以他们把它移到了这里的一个空行。除此之外，它像第3块一样非常严格地遵循索引顺序，但像第2块一样有一个奇怪的交换。编辑们还移除了各种排名标记，我们能够恢复一些被圈出的宝可梦，但由于缺乏确凿证据，我们不会将任何标记为“未排名”。
   note: MissingNo.是初代游戏中的著名错误宝可梦。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/044.jpg
+  alt: helixchamber 田尻 自传漫画 研究_044
 - type: paragraph
   original: 70 ニョロモ
   translation: 70 蚊香君
@@ -438,6 +570,9 @@ parallel_items:
   original: CIRCLED. This may be Poliwag, considering that Doduo is in Poliwag’s slot, and Poliwag seems to have made the poll list. We used the older sprite that was posted to Game Freak’s website years ago for accuracy to the times, we have little reference to its proportions, but it looks bigger than the final. Ranked 8 in the poll.
   translation: "已圈出。这可能是蚊香君，考虑到嘟嘟占据了蚊香君的位置，而蚊香君似乎进入了投票名单。我们使用了多年前发布在GAME FREAK网站上的旧版图像，以符合当时的情况，我们对其比例参考很少，但它看起来比最终版本更大。在投票中排名第8。"
   note: 此处提及的投票可能指宝可梦粉丝投票活动。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/045.jpg
+  alt: helixchamber 田尻 自传漫画 研究_045
 - type: paragraph
   original: 71 ？？トリ/？？？ド
   translation: 71 ？？鸟/？？？多
@@ -450,6 +585,9 @@ parallel_items:
   original: menacing, you can kinda make out some fierce eyes on the visible head. Its name is also different, while the first part is cut off, it seems to end in -tori or -do . 72 ルージュラ
   translation: 凶猛，你能在可见的头上看到一些凶狠的眼睛。它的名字也不同，虽然第一部分被截断，但似乎以-tori或-do结尾。72 迷唇娃
   note: ルージュラ的官方中文名为迷唇娃，但此处可能指迷唇姐的旧设计？根据上下文，此处应为迷唇姐（Jynx）的旧设计，但日文名ルージュラ对应迷唇姐。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/046.jpg
+  alt: helixchamber 田尻 自传漫画 研究_046
 - type: paragraph
   original: ROUGELA ? JYNX
   translation: ROUGELA ? 迷唇姐
@@ -462,6 +600,9 @@ parallel_items:
   original: 73 ??? By process of elimination and index order, it’s pretty obvious that Moltres would be here.
   translation: 73 ??? 通过排除法和索引顺序，很明显火焰鸟会在这里。
   note: 火焰鸟的日文名是ファイヤー，但此处未显示。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/047.jpg
+  alt: helixchamber 田尻 自传漫画 研究_047
 - type: paragraph
   original: 74 フリーザー
   translation: 74 急冻鸟
@@ -473,6 +614,9 @@ parallel_items:
 - type: paragraph
   original: CIRCLED. Same as in the final, and you can even make out a little of its name, “Freezer”. Ranked 11-20 in the final poll.
   translation: 已圈出。与最终版本相同，你甚至能辨认出它名字的一部分“Freezer”。在最终投票中排名第11-20位。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/048.jpg
+  alt: helixchamber 田尻 自传漫画 研究_048
 - type: paragraph
   original: 75 サンダー
   translation: 75 闪电鸟
@@ -484,6 +628,9 @@ parallel_items:
 - type: paragraph
   original: CIRCLED. Same as Articuno, but you can make out its entire name, “Thunder”. Ranked either 10 or between 11-20 in the final poll.
   translation: 已圈出。与急冻鸟相同，但你能辨认出它的完整名字“Thunder”。在最终投票中排名第10或第11-20位。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/049.jpg
+  alt: helixchamber 田尻 自传漫画 研究_049
 - type: paragraph
   original: 76 メタモン
   translation: 76 百变怪
@@ -499,10 +646,16 @@ parallel_items:
   original: vote on the poll specifically wrote out the number next to its name. Thank you for making our job easier, Morimoto! Might have ranked either 7 or between 11-20 in the poll.
   translation: 投票中特别在其名字旁边写下了数字。感谢森本让我们的工作更轻松！在投票中可能排名第7或第11-20位。
   note: 森本（Morimoto）可能指增田顺一或森本茂树？此处可能指宝可梦开发人员。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/050.jpg
+  alt: helixchamber 田尻 自传漫画 研究_050
 - type: paragraph
   original: 77 MEOWTH Pretty different design from what you can make out. Shorter ears that are fully black, what may be a headband holding on its coin, and it’s still holding one paw up like it tends to do.
   translation: 77 喵喵 从能辨认出的部分来看，设计与最终版本有很大不同。耳朵更短且全黑，可能有一个发箍固定着它的金币，而且它仍然像往常一样举起一只爪子。
   note: 喵喵的头部金币是其标志性特征。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/051.jpg
+  alt: helixchamber 田尻 自传漫画 研究_051
 - type: paragraph
   original: 78 ?? クラブ
   translation: 78 ?? 大钳蟹
@@ -517,6 +670,9 @@ parallel_items:
 - type: paragraph
   original: 80 ??? Nothing is left of this one
   translation: 80 ??? 这个什么也没留下
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/052.jpg
+  alt: helixchamber 田尻 自传漫画 研究_052
 - type: paragraph
   original: 81 バルンダ (A)
   translation: 81 バルンダ (A)
@@ -536,6 +692,9 @@ parallel_items:
   original: What’s notable is that Pokémon named in the voting documents are also circled in the sprite chart. As thus, we can assume that all circled Pokémon are present in the table and the results sheet, albeit some of their names are obscured. The circles were mostly edited out by the mangaka in the zoomed out picture, but we can still see traces of them around some of the designs.
   translation: 值得注意的是，在投票文件中被命名的宝可梦在精灵图中也被圈了出来。因此，我们可以假设所有被圈出的宝可梦都出现在表格和结果表中，尽管其中一些名字被遮挡了。在缩小的图片中，漫画家大多删除了圆圈，但我们仍然可以在一些设计周围看到它们的痕迹。
   note: mangaka指漫画家，这里可能指绘制这些设计图的作者。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/053.jpg
+  alt: helixchamber 田尻 自传漫画 研究_053
 - type: paragraph
   original: 'taking both versions of the sprite sheet into consideration, we can see that the following Pokémon were circled: Magneton, Mankey, Seel, Diglett, Cactus, Tangela, Pinsir, Scyther, Voltorb, Grimer, Lickitung, Psyduck, Jynx, Articuno, Zapdos, the mysterious orb in question, and probably others which are obscured.'
   translation: 考虑到精灵图的两个版本，我们可以看到以下宝可梦被圈出：三合一磁怪、猴怪、小海狮、地鼠、仙人掌、蔓藤怪、凯罗斯、飞天螳螂、霹雳电球、臭泥、大舌头、可达鸭、迷唇姐、急冻鸟、闪电鸟，以及我们讨论的神秘球体，可能还有其他被遮挡的宝可梦。
@@ -547,6 +706,9 @@ parallel_items:
   original: 'Pokémon whose names appear on the voting documents, but are heavily obscured or nowhere to be seen on the sprite chart, are as follows: Exeggutor, Chansey, Clefairy, Kadabra, “Sleeper” (Drowzee), “Maiko” (Nidoking), “Buu” (Magmar), Poliwag, Hitmonlee, Slowbro, Cubone, “Fungus” (Parasect), Ditto, Baririna (probably connected to Mr. Mime), Exeggcute (its name is mostly obscured but it’s the only one that has “ma” as a final kana). There’s one mysterious name, Barunda(A), in the results sheet.'
   translation: 在投票文件中出现名字但在精灵图中被严重遮挡或完全看不到的宝可梦如下：椰蛋树、吉利蛋、皮皮、勇基拉、“Sleeper”（催眠貘）、“Maiko”（尼多王）、“Buu”（鸭嘴火兽）、蚊香蝌蚪、飞腿郎、呆壳兽、卡拉卡拉、“Fungus”（派拉斯特）、百变怪、Baririna（可能与魔墙人偶有关）、蛋蛋（其名字大部分被遮挡，但它是唯一一个以“ma”作为结尾假名的）。在结果表中有一个神秘的名字，Barunda(A)。
   note: “Sleeper”、“Maiko”、“Buu”、“Fungus”等是早期设计中的临时名称或昵称。Baririna可能源自日语“バリバリ”，与魔墙人偶的屏障能力有关。
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/054.jpg
+  alt: helixchamber 田尻 自传漫画 研究_054
 - type: paragraph
   original: Adding both of the above sets together, not counting the mysterious name and the orb Pokémon, gets us the total number of 30 Pokémon. There were a total of 31 Pokémon voted for in the popularity contest, so we’re left with a name and a design that don’t fit anywhere else – therefore it’s safe to assume that the round Pokémon was in fact named Barunda.
   translation: 将上述两组加在一起，不计神秘名字和球体宝可梦，我们得到总共30只宝可梦。人气投票中共有31只宝可梦被投票，所以我们剩下一个名字和一个设计无处安放——因此可以安全地假设，这个圆形宝可梦实际上名为Barunda。
@@ -556,6 +718,9 @@ parallel_items:
 - type: paragraph
   original: ⦁ Barunda seems to be a pun on balloons, and the orb Pokémon does look like one;
   translation: ⦁ Barunda似乎是气球的双关语，而球体宝可梦看起来确实像气球；
+- type: image
+  image: /assets/img/interviews/2018-08-07-interview-tajiri-manga/055.jpg
+  alt: helixchamber 田尻 自传漫画 研究_055
 - type: paragraph
   original: The name of the monster, however blurry, seems to be partly legible. The kana for “ba” バ and “n” ン seem to be in exact spots where they would be if the name was truly “Barunda”;
   translation: 怪兽的名字虽然模糊，但似乎部分可读。假名“ba”バ和“n”ン似乎正好在如果名字确实是“Barunda”时它们应该在的位置；

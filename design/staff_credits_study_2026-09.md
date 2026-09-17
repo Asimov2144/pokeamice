@@ -56,11 +56,15 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 
 ## 待办（与本课题相邻，2026-09-17 记）
 
-- **访谈补图**（等另一会话的译名统一提交完再动，用户要求）：`tools/audit-web-imports.py` 已跑全量（`design/web_import_audit.json`，214 篇），
-  102 篇图少于原页——①整篇 0 图约 45 篇（社長が訊く 12 章、Nintendo Power 3、N.O.M 6、Fami通 5、電ファミ GO 2、Creatures 20 周年、GameSpot、GI、CEDEC 2022 shader…）
-  ②被 `max_images=10` 截断约 25 篇（CGWorld 朱紫 making ×3、CEDEC 报道、Fami通 Pokopia 10/65、Sleep 周年 21/38、Gigazine 齿轮画稿 28/37）③零星差 1–3 张 / 原页计数混 chrome 约 30 篇。
-  做法：新写 `augment-images`（复用 import-web 的正文切割），按"前一段原文"对齐把缺的图插进 `parallel_items`，已有 URL 跳过，下载 + >300 KB 压 1280px，
-  重跑 `build-cover-dims.py`；先 `--dry-run` 出"每篇补几张、插在哪段后"清单再分批跑。另：24 篇正文 <60%、41 页抓不到正文是另一件事。
+- **访谈补图**（2026-09-17 已做一轮）：`tools/augment-images.py` 读审计缓存的原页（有导入目标的用 import-web 自己缓存的那份——Kotaku 的 live 页已被"更多报道"占满），
+  按 import-web 的切法走一遍正文，每张图挂在"原页里它前面那段"对应的 `parallel_items` 行之后；已有的图靠感知哈希认（文件名、尺寸都不作数；帖子热链的远程图按地址认；
+  文件夹里早先抓了没放的文件直接复用）；WordPress 的 `-600x400` 与 gamer.ne.jp 的 `/m/` 都换成原图；纯文字图（catch_text/serif/line）、图标、横幅、原页日期之后才上传的"相关报道"图都不要；
+  >300 KB 压 1280px JPEG；帖子正文不是原页文字的（意译/只有译文）判"对不上"跳过。结果：49 篇 +552 张（社長が訊く 13 章、N.O.M 3、Nintendo Power 2、
+  電ファミ/ファミ通/4Gamer 的 CEDEC 报道、田尻漫画 55 页、電撃 30 年专栏 52 张……），`design/augment_images_2026-09.json` 是逐篇记录。
+  还剩：①25 篇当时带别人未提交改动，跳过了——工作区干净后 `python tools/augment-images.py --all` 再跑一遍即可（记录里没写进的会重做）；
+  ②5 篇正文对不上原页，要用 import-web 重导（N.O.M 2002 RS 杉森/増田 两篇、剧场版 18 模型稿、FUN'S PROJECT 西田、GameSpot 2018-10-17）；
+  ③抓不到的：Game Informer 旧 CDN 全灭（6 篇 22 张，Wayback 也没有）、Creatures 公司史的 SVG 文字图、pokemon.co.jp 2014 的 5 张、Steinberg 1 张。
+  電撃 2026 专栏的旧图仍是热链（cimg.kgl-systems.io），未本地化。
 - 已并掉的重复导入：Denfami 2017 后篇 → 四回完整版（`92d68c17`）。审计里还看到疑似重复：G4TV 白金 2009-03-24 vs 2013-01-11、
   Creatures 20 周年 2015-11-08（0 图）vs 2021-11-08（15 图）、kakeru pokemon_site 1999-12-01 vs 2000-05-01——待核后同样处理。
 - **受访者头像**（2026-09-17）：审核了访谈的 entities.people（游戏角色、提问的记者移出，11 篇；社長が訊く 的岩田聪保留；首藤手记 39 篇的动画角色标注是有意为之、未动；
@@ -69,4 +73,9 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
   还差 51 位受访者没照片，多是招聘访谈（寺田佑贵、古谷翔、小岛彬、的场昂树、髙草真生、林祐衣、早川裕崇、伊泽景胜、小杉要、吉原有香、田谷正夫、三浦昌幸、河本拓…）——
   原页有照片但帖子没导入，随 augment-images 一起补；另有 小澤/松村/多和田/折尾/五十岚/町田/李/川島/永山/為藤 这类只有姓氏的条目，待核是否该留在人物库。
   森昭人 已并入 森彰人（同一位 Akito Mori）。
+- **只署姓的人物条目**（2026-09-17 对着名单索引核出全名）：藤原（1996 図鑑 staff 访谈）= 藤原基史，已并入名单条目 `fujiwara-motofumi`（帖子改全名、旧地址 redirect）；
+  五十岚 = 4Gamer 记者 Igarashi，不是受访者，已删。其余帖子当时有别人的未提交改动，待帖子干净后改：小澤 = 小澤宗明 Muneaki Ozawa（Ambrella，Channel 总监/企划）、
+  松村 = 松村憲男 Norio Matsumura（Channel 总监/企划/文本）——NOM 2003 频道篇；折尾 = Kazunori Orio（Genius Sonority，Colosseum 剧本/游戏设计，汉字未核）、
+  多和田 = 多和田吏 Tsukasa Tawada（Colosseum 音乐总监）——NOM 2003 圆形竞技场篇（同篇的 广本 = ヒロモト森一、和田/川本 有两位同姓，不并）；
+  町田/李/川島/永山/為藤（2024 招聘设计师访谈）原页就只给姓，保留。
 

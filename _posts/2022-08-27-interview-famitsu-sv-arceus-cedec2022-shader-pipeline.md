@@ -117,18 +117,105 @@ parallel_items:
   speaker: 解说
   original: 以下の画像では、左が納品環境のピカチュウで右は『アルセウス』のピカチュウ。納品データは共通のものだが、人物や背景などはタイトルに合わせて制作されているため、その間のイメージの差を埋めるべく、色合わせや質感の調整などが行われる。
   translation: 在下图中，左侧为交付环境的皮卡丘，右侧为《阿尔宙斯》的皮卡丘。交付数据是共通的，但人物与背景等是符合作品制作的，因此为了弥补两者之间的印象差异，进行了色彩匹配与质感调整等。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/016.jpg
+  alt: PH19
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/017.jpg
+  alt: PH20
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/018.jpg
+  alt: PH21
+  caption: ミツハニーのようなむしポケモンの羽根を不透明にしたり、ミカルゲのようなポケモンの場合は背面だけを不透明にしたりするといった、タイトルにあった調整が実施されている。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/019.jpg
+  alt: PH22
+  caption: 火の粉や煙などを表現する際には、パーティクルで対応。
 - type: paragraph
   speaker: 解说
   original: 各タイトルのコンセプトにあったグラフィックにするため、『アルセウス』では版画風のニュアンスを追加。また、空や水などをコンセプトに合わせた景観表現を行ったり、色調補正を行って淡い色調に加工したりしている。
   translation: 为了呈现符合各作品概念的图形效果，《传说 阿尔宙斯》中加入了版画风格的韵味。此外，还根据概念对天空、水面等进行了景观表现，并通过色彩校正处理成淡雅的色调。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/020.jpg
+  alt: PH23
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/021.jpg
+  alt: PH24
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/022.jpg
+  alt: PH25
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/023.jpg
+  alt: PH26
 - type: paragraph
   speaker: 解说
   original: セッションでは、『スカーレット・バイオレット』における後工程での調整についても紹介。たとえば、ピカチュウは“『ポケモン』史上最高のふさふさ感”を表現。新ポケモン・クワッサのジェル部位、ミライドンの発光粒子、新要素“テラスタル”の質感も演出。そのほか、空・海・街並みもリアル寄りの表現となっている。
   translation: 在本次会议中，还介绍了《朱／紫》在后处理阶段的调整。例如，皮卡丘展现了“宝可梦史上最蓬松的质感”。新宝可梦润水鸭的凝胶部位、密勒顿的发光粒子、新要素“太晶化”的质感也进行了演绎。除此之外，天空、海洋、街景也采用了偏向写实的表现。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/024.jpg
+  alt: PH27
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/025.jpg
+  alt: PH28
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/026.jpg
+  alt: PH29
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/027.jpg
+  alt: PH30
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/028.jpg
+  alt: PH31
 - type: heading
   level: 2
   original: ポケモンたちの膨大なアニメーションは、“モーションコピーツール”で共通化。ときにはモーションキャプチャーも活用
   translation: 宝可梦们庞大的动画通过“动作复制工具”实现共通化，有时也会活用动作捕捉
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/001.jpg
+  alt: PH01
+  caption: ゲームフリーク 研究開発部 CGテクノロジーディレクター・前澤圭一氏。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/002.jpg
+  alt: PH02
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/003.jpg
+  alt: PH03
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/004.jpg
+  alt: PH04
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/005.jpg
+  alt: PH05
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/006.jpg
+  alt: PH06
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/007.jpg
+  alt: PH08
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/008.jpg
+  alt: PH10
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/009.jpg
+  alt: PH12
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/010.jpg
+  alt: PH13
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/011.jpg
+  alt: PH14
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/012.jpg
+  alt: PH15
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/013.jpg
+  alt: PH16
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/014.jpg
+  alt: PH17
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/015.jpg
+  alt: PH18
 - type: paragraph
   speaker: 解说
   original: 『ポケモン』作品において、各ポケモンの特徴にあった動きというのも重要だが、それをひとつずつアニメーションで制作するとなると、膨大な物量となってくる。一方で、体形の似たポケモンも複数存在している。
@@ -137,26 +224,70 @@ parallel_items:
   speaker: 解说
   original: であれば、「ベースとなる動きを共通化してから個性付けをしていけば開発の労力が減るのではないか？」という考えが生まれた。これをきっかけに、アニメーションの物量対策を実施することになる。
   translation: 于是便产生了“如果先将基础动作共通化，再进行个性化调整，是否能减少开发工时？”的想法。以此为契机，开始实施针对动画工作量的对策。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/029.jpg
+  alt: PH32
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/030.jpg
+  alt: PH33
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/031.jpg
+  alt: PH34
 - type: paragraph
   speaker: 解说
   original: まずはポケモンを人型、犬猫型、ヘビ型、ドラゴン型などで体型を分類。そこからモーションを共通化するための“モーションコピーツール”が開発された。
   translation: 首先将宝可梦按人型、犬猫型、蛇型、龙型等体型进行分类。在此基础上，开发了用于共通化动作的“动作复制工具”。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/032.jpg
+  alt: PH35
 - type: paragraph
   speaker: 解说
   original: “モーションコピーツール”では、基本的に骨と骨をマッピングして同じ部位に該当するものをコピー。大きさが違う場合にも補正をかけてコピーが可能。骨構造が異なる場合でも、手が2本、足が2本と構造が似ていれば、リターゲットによって対応できる。
   translation: “动作复制工具”基本上是通过骨骼与骨骼的映射，将对应相同部位的部分进行复制。即使大小不同，也能通过校正进行复制。即便骨骼结构不同，只要手2条、腿2条等结构相似，就能通过重定向来应对。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/033.jpg
+  alt: PH36
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/034.jpg
+  alt: PH37
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/035.jpg
+  alt: PH38
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/036.jpg
+  alt: PH39
+  caption: ドラゴン型の場合、歩きかたのほかに翼や尻尾の動きをコピーできる。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/037.jpg
+  alt: PH40
+  caption: ヘビ型の場合、うねうねとした動きがコピー可能だ。
 - type: paragraph
   speaker: 解说
   original: コピーのもととなるポケモンがいない場合には、ゲームフリーク内部のモーションキャプチャーを導入。撮影したデータをそのままポケモンに流しこむことでイメージをつかむことができ、大幅な工数削減ができるそうだ。
   translation: "当没有可作为复制来源的宝可梦时，则引入GAME FREAK内部的动作捕捉。将拍摄的数据直接导入宝可梦，即可掌握动作意象，据说能大幅削减工时。"
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/038.jpg
+  alt: PH41
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/039.jpg
+  alt: PH42
 - type: paragraph
   speaker: 解说
   original: 一方、課題として、リガ―（※）が不足していることが挙げられるという。これについては、“ポケリグ”を開発して構造の標準化を行うことで、アニメーション制作の効率化を図ることができたそうだ。
   translation: 另一方面，据说课题在于绑定师（※）不足。对此，通过开发“宝可梦绑定”并推进结构标准化，实现了动画制作的效率化。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/040.jpg
+  alt: PH43
 - type: paragraph
   speaker: 解说
   original: また、ランタイムでの動的制御を行う場合も。ポケモンの背骨をシミュレーションすることで、アーボのうねうねとした動きや、レントラーなどの四足歩行のポケモンの傾斜歩行を自然と行えるようにしている。
   translation: 此外，还进行了运行时的动态控制。通过对宝可梦的脊椎进行模拟，使阿柏蛇蜿蜒蠕动的动作，以及伦琴猫等四足行走宝可梦的倾斜行走都能自然地实现。
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/041.jpg
+  alt: PH44
+- type: image
+  image: /assets/img/interviews/2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline/042.jpg
+  alt: PH45
 - type: paragraph
   speaker: 解说
   original: 共通の環境・仕様を用意することで各タイトルに合わせて制作する必要がなくなり、納品までの制作時間の短縮に成功。そして、後工程によってタイトルごとによる異なるルックとゲーム性を高い品質で実現。アニメーション制作の効率化も図られたことで、『アルセウス』と『スカーレット・バイオレット』の2タイトル同時制作が可能となった。

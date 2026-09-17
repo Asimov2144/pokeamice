@@ -46,6 +46,18 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/001.jpg
+  alt: 小学館キャラクター企画室 室長 小学館プロダクション メディア事業部 ゼネラルプロデューサー 久保 雅一さん
+- type: image
+  image: /assets/img/interviews/2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/002.jpg
+  alt: インタビュー風景
+- type: image
+  image: /assets/img/interviews/2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/003.jpg
+  alt: インタビュー風景
+- type: image
+  image: /assets/img/interviews/2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit/004.jpg
+  alt: インタビュー風景
 - type: heading
   level: 2
   original: ポケモンから広がる世界／「ポケモン大ヒットの秘密をさぐる」１

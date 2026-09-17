@@ -24,6 +24,12 @@ parallel_items:
   original: /assets/img/interviews/2022-tpc-recruit-new-generation/newgeneration_img.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/newgeneration_img.jpg
   speaker: null
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/001.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_001
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/002.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_002
 - type: heading
   original: Special Interview 「最初の１年を振り返る」
   translation: 特别专访：回顾入职第一年——在数千亿级IP舞台上找寻角色定位与蜕变
@@ -81,6 +87,12 @@ parallel_items:
   original: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img.jpg
   speaker: null
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/003.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_003
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/004.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_004
 - type: heading
   original: Q2. 社風・人：株式会社ポケモンは、どんな会社・職場ですか？
   translation: Q2. 企业风气与团队：株式会社宝可梦是怎样的一家公司与职场？
@@ -134,6 +146,12 @@ parallel_items:
   original: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img2.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img2.jpg
   speaker: null
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/005.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_005
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/006.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_006
 - type: heading
   original: Q3. 1年間の成長：この1年間で、どんな成長を実感しましたか？
   translation: Q3. 一年间的成长：在这入职的第一年中，切实感受到了怎样的蜕变？
@@ -177,6 +195,12 @@ parallel_items:
   original: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img3.jpg
   translation: /assets/img/interviews/2022-tpc-recruit-new-generation/answer_img3.jpg
   speaker: null
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/007.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_007
+- type: image
+  image: /assets/img/interviews/2022-03-01-interview-tpc-recruit-new-generation/008.jpg
+  alt: 宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变_008
 - type: heading
   original: Q4. メッセージ：求職者や後輩たちへのメッセージをお願いします
   translation: Q4. 寄语：对今后有意加入宝可梦公司的求职者与后辈们有什么想说的？

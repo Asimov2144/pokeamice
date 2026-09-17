@@ -238,6 +238,11 @@ def extract_blocks(container, join_br=False):
             src = srcset_last(el.get("data-srcset") or el.get("srcset"))
         if not src or src.startswith("data:") or IMG_NOISE.search(src):
             return
+        # a thumbnail wrapped in a link to its full-size file (gamer.ne.jp m/ -> o/, WordPress "link to media"): take the file
+        link = el.find_parent("a")
+        href = (link.get("href") or "") if link is not None else ""
+        if re.search(r"\.(?:jpe?g|png|gif|webp)(?:\?[^#]*)?$", href, re.I) and not IMG_NOISE.search(href):
+            src = href
         try:
             w = int(re.sub(r"\D", "", str(el.get("width") or "0")) or 0)
             h = int(re.sub(r"\D", "", str(el.get("height") or "0")) or 0)

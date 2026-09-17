@@ -25,6 +25,9 @@ era_skin: '2016'
 original_lang: ja
 interview_id: PKMN-0070
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/00_m.jpg
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_00_m
 - type: heading
   level: 2
   original: プロローグ：Game Informer × GAME FREAK――封印された開発資料の解禁
@@ -233,6 +236,30 @@ parallel_items:
   image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/s30.jpg
   caption: Game Informer 独家专访落幕：GAME FREAK用一张张泛黄的手稿，铭刻下了游戏工匠们在技术荒原上拓荒的奇迹之路。
   alt: Game Freak档案特辑落幕
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/001.png
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_001
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/002.jpg
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_002
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/003.png
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_003
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/004.jpg
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_004
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/005.jpg
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_005
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/006.png
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_006
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/007.png
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_007
+- type: image
+  image: /assets/img/interviews/2017-09-05-interview-gigazine-gamefreak-sketches-masuda/008.jpg
+  alt: GIGAZINE 独家特写 GAME FREAK 档案库：从《红／绿》到《日月》绝密手稿大公开——增田顺一与大森滋谈初代汇编极限优化与宝可梦设计原案_008
 interviewee: 增田顺一
 source:
   title: ポケットモンスターがどうやって作られているのかが垣間見えるデザイン・アイデアスケッチなどの貴重な資料＆インタビューが聞けるムービーが公開中

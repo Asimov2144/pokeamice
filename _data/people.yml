@@ -52,6 +52,10 @@
     year: 2013
     source: 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama · 宝可梦XY总监增田顺一氏。除担任游戏总指挥外，还深度参与作曲
     post: 2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama
+  - image: /assets/img/people/masuda-junichi-2013-9448.jpg
+    year: 2013
+    source: ファミ通 2013-11-16 XY 音楽ファンミーティング 増田順一氏
+    post: 2013-11-16-interview-famitsu-xy-music-fanmeeting-masuda-kageyama
   - image: /assets/img/people/masuda-junichi-2013.jpg
     year: 2013
     source: 2013-09-21-interview-nintendolife-2013-xy · Junichi Masuda
@@ -64,6 +68,10 @@
     year: 2017
     source: 2017-09-05-interview-gigazine-gamefreak-sketches-masuda · 增田顺一谈及早期档案管理：在传真与纸质办公的红绿时代，从未想过未来会向公众展示这些草稿。 增田顺一受访微笑
     post: 2017-09-05-interview-gigazine-gamefreak-sketches-masuda
+  - image: /assets/img/people/masuda-junichi-2018-5385.jpg
+    year: 2018
+    source: 電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 増田順一氏（DSC1430）
+    post: 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
   - image: /assets/img/people/masuda-junichi-2018-7e79.jpg
     year: 2018
     source: 2018-10-26-interview-eurogamer-masuda-nabana-lets-go · Director Junichi Masuda und 3D Map Design Leader Kensaku Nab
@@ -366,6 +374,10 @@
   avatar: /assets/img/people/ishihara-tsunekazu.jpg
   avatar_source: 社長が訊く『スーパーポケモンスクランブル』photo17（按人脸核对）
   portraits:
+  - image: /assets/img/people/ishihara-tsunekazu-2001.jpg
+    year: 2001
+    source: N.O.M 2001-11 石原恒和氏
+    post: 2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world
   - image: /assets/img/people/ishihara-tsunekazu-2006.jpg
     year: 2006
     source: 2006-10-01-interview-nom-dp-ishihara-masuda-sugimori · 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影 石原恒和、增田顺一、杉森建三位主创十年重聚珍贵大合影
@@ -393,6 +405,10 @@
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3
     post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+  - image: /assets/img/people/ishihara-tsunekazu-2018.jpg
+    year: 2018
+    source: 電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 石原恒和氏（DSC1438）
+    post: 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
   - image: /assets/img/people/ishihara-tsunekazu-2020.jpg
     year: 2020
     source: 2020-12-21-interview-nikkei-ishihara-go-boardgames · 株式会社宝可梦代表取缔役社长石原恒和 / Tsunekazu Ishihara, President and CEO o
@@ -446,6 +462,10 @@
   - 久保雅一
   - Masakazu Kubo
   portraits:
+  - image: /assets/img/people/kubo-masakazu-2000.jpg
+    year: 2000
+    source: N.O.M 2000-06 小学館 久保雅一さん
+    post: 2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit
   - image: /assets/img/people/kubo-masakazu-2021.jpg
     year: 2021
     source: ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）
@@ -811,6 +831,13 @@
   aliases:
   - 三浦昌幸
   credits_key: masayuki miura
+  portraits:
+  - image: /assets/img/people/miura-masayuki-2001.jpg
+    year: 2001
+    source: N.O.M 2001-11 ポケモンミニ開発者インタビュー（三浦昌幸さん）
+    post: 2001-11-01-interview-nom-2001-pokemon-mini-developers
+  avatar: /assets/img/people/miura-masayuki.jpg
+  avatar_source: N.O.M 2001-11 ポケモンミニ開発者インタビュー（三浦昌幸さん）
 - name: 林原惠美
   slug: hayashibara-megumi
   aliases:
@@ -895,6 +922,13 @@
   aliases:
   - 川島優志
   - Masashi Kawashima
+  portraits:
+  - image: /assets/img/people/kawashima-masashi-2018.jpg
+    year: 2018
+    source: 電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 川島優志氏（DSC1458）
+    post: 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
+  avatar: /assets/img/people/kawashima-masashi.jpg
+  avatar_source: 電ファミニコゲーマー 2018-06-08 ポケモン GO 座談会 川島優志氏（DSC1458）
 - name: 菜花健作
   slug: nabana-kensaku
   aliases:
@@ -945,15 +979,6 @@
     post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   avatar: /assets/img/people/iwamoto-sho.jpg
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2023 セッション 2819）
-- name: 藤原
-  slug: fujiwara
-  portraits:
-  - image: /assets/img/people/fujiwara-1996.jpg
-    year: 1996
-    source: ポケットモンスター図鑑 1996 P.141（藤原基史）
-    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
-  avatar: /assets/img/people/fujiwara.jpg
-  avatar_source: ポケットモンスター図鑑 1996 P.141（藤原基史）
 - name: 宫本茂
   slug: miyamoto-shigeru
   aliases:
@@ -984,6 +1009,13 @@
 - name: 久須美龍太
   slug: jiu-xu-mei-long-tai
   credits_key: kusumi ryuta
+  portraits:
+  - image: /assets/img/people/jiu-xu-mei-long-tai-2001.jpg
+    year: 2001
+    source: N.O.M 2001-11 ポケモンミニ開発者インタビュー（久須美龍太さん）
+    post: 2001-11-01-interview-nom-2001-pokemon-mini-developers
+  avatar: /assets/img/people/jiu-xu-mei-long-tai.jpg
+  avatar_source: N.O.M 2001-11 ポケモンミニ開発者インタビュー（久須美龍太さん）
 - name: 小澤
   slug: xiao-ze
 - name: 松村
@@ -1424,8 +1456,6 @@
   slug: k-f
 - name: K.O.
   slug: k-o
-- name: 五十岚
-  slug: wu-shi-lan
 - name: 町田
   slug: ting-tian
 - name: 李
@@ -1515,6 +1545,13 @@
 - name: 古谷翔
   slug: gu-gu-xiang
   credits_key: furutani sho
+  portraits:
+  - image: /assets/img/people/gu-gu-xiang-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 若手座談会（catch_img5）
+    post: 2014-05-01-interview-tpc-youth-roundtable
+  avatar: /assets/img/people/gu-gu-xiang.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 若手座談会（catch_img5）
 - name: 小岛彬
   slug: xiao-dao-bin
 - name: 的场昂树
@@ -1560,8 +1597,22 @@
   slug: fu-dao
 - name: 大奈路まりな
   slug: da-nai-lu
+  portraits:
+  - image: /assets/img/people/da-nai-lu-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 若手座談会（catch_img1）
+    post: 2014-05-01-interview-tpc-youth-roundtable
+  avatar: /assets/img/people/da-nai-lu.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 若手座談会（catch_img1）
 - name: 菅野隼人
   slug: jian-ye-sun-ren
+  portraits:
+  - image: /assets/img/people/jian-ye-sun-ren-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 若手座談会「ポケモン→現実世界へ」（goal_img2）
+    post: 2014-05-01-interview-tpc-youth-roundtable
+  avatar: /assets/img/people/jian-ye-sun-ren.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 若手座談会「ポケモン→現実世界へ」（goal_img2）
 - name: 早川裕崇
   slug: zao-chuan-yu-chong
 - name: 伊泽景胜
@@ -1654,14 +1705,22 @@
   - おおはし みきこ
 - name: 藤原基史
   slug: fujiwara-motofumi
-  kind: staff
   credits_key: fujiwara motofumi
   aliases:
   - Motofumi Fujiwara
   - Motofumi Fuziwara
   - Motofumi Fojiwara
   - ふじわら もとふみ
+  - 藤原
+  - Fujiwara
   bulbapedia: Motofumi Fujiwara
+  portraits:
+  - image: /assets/img/people/fujiwara-1996.jpg
+    year: 1996
+    source: ポケットモンスター図鑑 1996 P.141（藤原基史）
+    post: 1996-04-05-scan-shodai-zukan-1996-staff-interview
+  avatar: /assets/img/people/fujiwara.jpg
+  avatar_source: ポケットモンスター図鑑 1996 P.141（藤原基史）
 - name: 松宮稔展
   slug: matsumiya-toshinobu
   kind: staff

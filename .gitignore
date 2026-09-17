@@ -110,3 +110,7 @@ data/cache_web/*.items.json
 
 # contact sheets for picking portraits (tools/portrait-candidates.py)
 data/portrait-review/
+
+# page copies and downloaded pictures of the completeness audit / picture augmentation (reproducible)
+data/cache_web/audit/
+data/cache_web/images/

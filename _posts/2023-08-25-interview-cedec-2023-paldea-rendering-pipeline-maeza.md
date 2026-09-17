@@ -39,7 +39,6 @@ summary: 2023年8月日本最大电脑娱乐开发者大会（CEDEC 2023）上�
 entities:
   people:
   - 前泽圭一
-  - 五十岚
   works:
   - 宝可梦 朱·紫
   - 宝可梦 剑·盾

@@ -71,6 +71,9 @@ parallel_items:
   original: そうですね（笑）。いまでは参加国が３０か国近くになりました。使われている言語も非常に多様で、海野さんがおっしゃったとおり、それぞれ勝手にしゃべっているのに、不思議とコミュニケーションが成り立っているんです。しかもみんな、おどおどしていないんです。
   translation: 是啊（笑）。现在参赛国家已接近30个。使用的语言也非常多样，正如海野先生所说，虽然各自说着不同语言，但不可思议地沟通却能够成立。而且大家都不怯场。
   role: answer
+- type: image
+  image: /assets/img/interviews/2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op/001.jpg
+  alt: 社長が訊く『ポケットモンスターブラック２・ホワイト２』2. １００人プレイ_001
 - speaker: 岩田聪
   original: 共通の興味と理解があって、共感する媒体があれば、言葉が通じなくても共鳴できるんですよね。
   translation: 只要有共同的兴趣和理解，只要有能够产生共鸣的媒介，即使语言不通，也能产生共鸣。
@@ -119,6 +122,9 @@ parallel_items:
   translation: 最初，我让全体成员思考“以‘共鸣’为主题能做什么”。当时提出的方案之一，就是“庆典任务”这一玩法。企划书上写着“这次的连入可供100人游玩”，这让我非常感兴趣。
   note: 庆典任务（Fes Missions）是《黑2·白2》中通过连入（High Link）进行的多人合作任务，支持最多100人参与。
   role: answer
+- type: image
+  image: /assets/img/interviews/2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op/002.jpg
+  alt: 社長が訊く『ポケットモンスターブラック２・ホワイト２』2. １００人プレイ_002
 - speaker: 岩田聪
   original: １００人ですか（笑）。
   translation: 100人吗？（笑）
@@ -152,6 +158,9 @@ parallel_items:
   original: またまた、冗談を・・・みたいな感じですね（笑）。いちばん気になったのは、やはりデバッグでしたけど、マルチプレイの可能性のひとつとして、「やってみる価値はある」とは思いました。
   translation: 又是开玩笑……的感觉呢（笑）。最让我在意的，果然还是调试工作，但作为多人游戏的一种可能性，我觉得“值得一试”。
   role: answer
+- type: image
+  image: /assets/img/interviews/2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op/003.jpg
+  alt: 社長が訊く『ポケットモンスターブラック２・ホワイト２』2. １００人プレイ_003
 - speaker: 岩田聪
   original: ネットワークゲームをのぞけば、いままでは８人とか１６人ぐらいが経験したことのある携帯型のマルチプレイですよね。１００人に増えて、どんな新しい発見がありましたか？
   translation: 除了网络游戏之外，以往掌机上的多人游戏，大概也就是8人或16人左右的经验吧。增加到100人之后，有什么新的发现吗？

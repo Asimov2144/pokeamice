@@ -44,6 +44,9 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world/001.jpg
+  alt: 石原恒和氏
 - type: heading
   level: 2
   original: ３．株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー

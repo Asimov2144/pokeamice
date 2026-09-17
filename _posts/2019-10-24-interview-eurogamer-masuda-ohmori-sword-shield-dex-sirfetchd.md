@@ -112,6 +112,9 @@ parallel_items:
   original: Please enjoy catching lots of Sirfetch'd and trading them with people who are playing Shield!
   translation: 请大家尽情捕捉大量葱游兵，并与玩《宝可梦 盾》的朋友交换吧！
   role: answer
+- type: image
+  image: /assets/img/interviews/2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/sirfetchd.jpg
+  alt: Cover image for YouTube video
 - speaker: Eurogamer
   original: How do you go about researching a region like the UK for games like Sword and Shield? Do you base it on your idea of what a place is like, or do you research it in-depth?
   translation: 你们是如何为《宝可梦 剑／盾》这样的游戏研究英国这类地区的？是基于你们对一个地方的印象，还是会进行深入调研？

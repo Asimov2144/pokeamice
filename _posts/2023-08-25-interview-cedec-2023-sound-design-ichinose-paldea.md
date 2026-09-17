@@ -147,6 +147,9 @@ parallel_items:
   image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/slide12_studio_ceiling_mic.png
   alt: 幻灯片：指向天花板的漫反射拾音麦克风
   caption: 朝向天花板布置的麦克风，利用墙面漫反射捕获具有丰满空间包裹感的声音漫射场
+- type: image
+  image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/001.png
+  alt: 画像ギャラリー No.013のサムネイル画像 / ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート
 - type: heading
   level: 3
   original: 《阿尔宙斯》的 3,630 种叫声极限与《朱·紫》全开放世界的量产困境
@@ -167,6 +170,9 @@ parallel_items:
   image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/slide15_pla_3630_cries_limit.png
   alt: 幻灯片：242只宝可梦生成 3,630 种叫声资产的容量与制作极限
   caption: 资产爆炸瓶颈：洗翠地区 242 种宝可梦产生 3,630 个音频切片，已无法扩展至千只规模的完全开放世界
+- type: image
+  image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/002.png
+  alt: 画像ギャラリー No.016のサムネイル画像 / ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート
 - type: speaker
   speaker: 4Gamer
   original: また，ポケモンの鳴き声自体も“しんか”させなければならなかったという。図鑑用鳴き声，喜び，怒り，悲しみ，気付きとバリエーションが少ないうえ，作品によって音源や作り方が異なる関係上，波形の性質も全く異なっているため，一律に処理を掛ければいいというものではない。また，鳴き声自体の認知度も非常に高いいため，下手なものを追加するとイメージが崩れてしまう。加えてポケモン自体の数も多く，「スカーレット・バイオレット」ではポケモン図鑑のナンバーが1000を越えるほどになっている……と数々の難題が立ちふさがるとなった。
@@ -251,6 +257,9 @@ parallel_items:
   image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/slide25_bird_call_and_response.png
   alt: 幻灯片：鸟类宝可梦鸣叫呼应对答机制
   caption: 鸣叫对答（Call & Response）：帕底亚森林中鸟宝可梦之间此起彼伏的群落啼鸣声网
+- type: image
+  image: /assets/img/interviews/2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea/003.png
+  alt: 画像ギャラリー No.026のサムネイル画像 / ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート
 - type: heading
   level: 3
   original: Houdini 驱动的三维程序化发声点自动生成系统

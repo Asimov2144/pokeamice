@@ -37,6 +37,15 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec01_img.png
   caption: Creatures Inc. 创办人 石原恒和 与 董事长/社长 田中宏和（Hip Tanaka）
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/002.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_002'
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/003.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_003'
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/004.png
+  alt: クリーチャーズ黎明期
 - type: heading
   level: 2
   original: クリーチャーズ黎明期
@@ -63,6 +72,9 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec02_img02.png
   caption: 石原恒和（Tsunekazu Ishihara）：株式会社 The Pokémon Company 代表取缔役社长、株式会社 Creatures 创办人
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/005.png
+  alt: 田中さん社長就任
 - type: heading
   level: 2
   original: 田中さん社長就任
@@ -89,6 +101,12 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec03_img02.png
   caption: 田中宏和（Hirokazu Tanaka / Hip Tanaka）：株式会社 Creatures 代表取缔役会长 / 社长、传奇游戏音乐家
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/006.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_006'
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/007.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_007'
 - type: heading
   level: 2
   original: 二人の役割分担
@@ -124,6 +142,9 @@ parallel_items:
   original: 役割分担で言うと、私はクリーチャーズにいなくてもいいぐらいのポジションです。必要な時に必要なことをやる。だから、一時期は田中さんだけでクリーチャーズを引っ張っていた時期もありました。今は私が再びクリーチャーズの組織や体制を見直すフェーズに入っていて、新しい風を吹き込もうとしています。田中さんが現場の精神的な支柱としていてくれるからこそ、私は安心して外の世界と戦えるし、新しい仕掛けを考えられるんです。
   translation: 若谈及具体职责分工，从某种意义上来说，我已经处于即使不在 Creatures 坐镇也没问题的超然位置了。只在最需要的关节点上做关键之事。因此曾有一段时期，完全是由田中先生独自一人领航率领 Creatures 前进。而现在，我重新介入协助梳理 Creatures 的组织架构与研发体系，试图注入全新的活力。正是因为有田中先生作为整个现场不可撼动的精神支柱，我才能心无旁骛地在外界商海中拼搏开辟、构想崭新的大格局。
   role: answer
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/008.png
+  alt: 印象深いプロダクト
 - type: heading
   level: 2
   original: 印象深いプロダクト
@@ -139,6 +160,9 @@ parallel_items:
   original: 思い出深いのは、作品というより『ポケパークWii〜ピカチュウの大冒険〜』（株式会社ポケモン／Wii／2009年）が出来上がる前の時期ですね。あの時、クリーチャーズは大きく変わろうとしていました。3Dモデルの制作パイプラインを本格的に確立し、ポケモンたちを生き生きとした3D世界で動かすという巨大な挑戦でした。社内の技術力やチームの結束力が一気に引き上げられた瞬間で、今のクリーチャーズの技術的基盤を作ったという意味で非常に感慨深いです。
   translation: 令我最为感慨万千的，比起最终成品本身，更是《宝可梦乐园Wii ～皮卡丘的大冒险～》（The Pokémon Company／Wii／2009年）诞生前夕的那段拓荒岁月。那时候，Creatures 正经历着翻天覆地的蜕变。我们开始全面构筑起真正工业级的高品质 3D 建模管线，让每一只宝可梦在生动鲜活的 3D 世界中肆意奔跑，这是一次巨大的技术豪赌。那一刻，全公司的技术硬实力与团队凝聚力被骤然拔高到了前所未有的台阶，奠定了当今 Creatures 的 3D 技术底座，回想起来无比感慨。
   role: answer
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/009.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_009'
 - speaker: 石原恒和
   original: クリーチャーズの作品の中で、最も胸を締め付けられる思いがするのは「ポケモンカードe」（任天堂／ゲームボーイアドバンス／2001年）ですね。カードの端に印刷されたバーコード（ドットコード）を「カードeリーダー」で読み取ると、ゲームボーイアドバンスでミニゲームが遊べたり、ポケモンのデータが読み込めたりする。私たちは『紙のカードとデジタルゲームの融合』という未来を本気で信じて、莫大なエネルギーを注ぎ込みました。技術的にもものすごく高度で、カードの印刷精度から光学読み取りの限界まで挑んだ。結果として、時代が追いついていなかったというか、世の中に定着させるには早すぎたプロダクトでした。だけど、あの時培った『現実世界のフィジカルな遊びとデジタルを繋ぐ』という執念が、何年も経ってからスマートフォンと現実の地図を繋ぐ『ポケモン GO』へと結実したのだと思っています。
   translation: 在所有由 Creatures 诞生的作品里，最让我感到揪心、也最难以释怀的，当属‘宝可梦卡牌e’（Pokémon Card-e，任天堂／GBA／2001年）。在纸质卡牌边缘印刷上纳米级点阵条形码，插入插在 GBA 上的‘Card-e Reader’扫描，便能在屏幕上运行迷你小游戏、读取宝可梦的专属数据。当年我们无比笃信‘实体纸牌与数字游戏的无缝融合’这一终极未来，为其倾注了浩瀚的心血。从印刷工艺的极致公差到光学传感扫描的物理极限，我们攻克了无数技术难关。但从商业结果来看，那无疑是一款走得过于超前、时代尚未完全跟上的遗憾之作。然而，当年我们为了‘连接实体物理世界的玩乐与数字世界’所打磨出的技术执念与基因，跨越十数年光阴，最终在融合现实地理定位与智能手机的《Pokémon GO》中迎来了灿烂盛放。
@@ -161,6 +185,12 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec05_img03.png
   caption: 宝可梦集换式卡牌游戏（PTCG）：跨越二十余载的全球实体卡牌传奇
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/010.png
+  alt: 印象深いプロダクト
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/011.png
+  alt: 印象深いプロダクト
 - type: heading
   level: 2
   original: つくることへのプロ意識
@@ -184,6 +214,9 @@ parallel_items:
   original: 私の立場だと、クリエイティブの1個上のレイヤーにあるチームづくりや環境づくり、運営などに目を向けます。私がプロデューサーに対して言うのは、「常に最高の結果をイメージしなさい」ということ。途中で妥協したり、小さくまとまろうとするなと。失敗してもいいから、最初に思い描いた最高のビジョンに向かって突き進むこと。そのための舞台を整えるのが、私の仕事ですから。
   translation: 若以我的宏观视角而言，我关注的则是凌驾于具体创意之上的团队架构、研发土壤与企业运转机制。我常常对旗下制作人告诫的一句话是：‘脑海中必须始终清晰描绘出最完美、最震撼的终局景象。’绝不要在中途妥协退让，绝不要满足于小富即安的平庸收场。哪怕遭遇挫折也无妨，必须义无反顾地朝着最初构想的顶峰愿景狂奔。而为全力以赴的拓荒者搭建好最稳固的舞台，正是我义不容辞的使命。
   role: answer
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/012.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_012'
 - type: heading
   level: 2
   original: これまでに影響を受けた作品
@@ -191,6 +224,15 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec07_img.png
   caption: 构筑世界观的灵感源泉与跨时代文化瑰宝
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/013.png
+  alt: Products
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/014.png
+  alt: Products
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/015.png
+  alt: Products
 - speaker: 取材班
   original: クリエイティブを伝える中で、この作品が指標になると思われるコンテンツをその理由と共にご紹介ください。石原さんや田中さんは、どんな作品がお好きですか？
   translation: 在传递创作灵感的过程中，有哪些作品被两位视为标杆范式？两位在人生中又深受哪些文化作品的影响？
@@ -199,6 +241,9 @@ parallel_items:
   original: 僕は単純です。個別のタイトルではなく、時代を超えて続いているものは、全部重要だと思います。ポケモンしかり、マリオしかり、ゼルダしかり、ビートルズしかり。何十年経っても色褪せず、世界中の人々に愛され続けるものには、必ず『普遍的な核』がある。そこに触れ続けることが、何よりの学びになります。
   translation: 我的想法很纯粹。比起某一部单独的标题作品，我认为所有能跨越漫长时间长河、依然长盛不衰的事物，全都是极其宝贵的财富。无论是《宝可梦》、《马力欧》、《塞尔达传说》，还是披头士乐队（The Beatles）。历经数十年岁月洗礼依旧历久弥新、依然被全球一代代人所狂热挚爱的事物之中，必然蕴藏着某种颠扑不破的‘普遍精神内核’。源源不断地去接触、感悟这些内核，便是最深层的修行。
   role: answer
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/016.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_016'
 - speaker: 石原恒和
   original: それで言うと、『指輪物語』はデカイんだよね。私が書籍『テレビゲーム−電子遊戯大全』（ユー・ピー・ユー／テレビゲーム・ミュージアム・プロジェクト編／1988年）を編集していた頃、ゲームの根底にあるファンタジーの世界観を徹底的に調べました。J.R.R.トールキンが築き上げた『指輪物語』の世界は、言語から歴史、神話に至るまで信じられないほどの緻密さで構築されている。近代のRPGやゲームカルチャーの基礎は、すべてここから始まっていると言っても過言ではありません。ポケモンの世界を作るときも、単に可愛いキャラクターを作るのではなく、その生態系や生息地、人間との関係性まで含めた『ひとつの実在する世界』として構築しようとした背景には、『指輪物語』のような壮大な世界構築への強いリスペクトがありました。
   translation: 顺着这个话题，托尔金的《魔戒／指环王》（The Lord of the Rings）在我的生命中占据着不可估量的份量。早年我在主编《电视游戏——电子游乐大全》（UPU 出版／1988年）这套巨著时，曾彻底穷尽追溯了电子游戏底层所有的奇幻世界观演变。托尔金所开辟的阿尔达与中土世界，从自创的精灵语言、浩瀚的编年史到宏大的神话史诗，其构筑的严密与精微令人叹为观止。毫不夸张地说，现代几乎所有角色扮演游戏与虚拟世界文化，皆滥觞于此。在当年我们构建宝可梦宇宙时，我们绝非仅仅创造几个外表可爱的怪物，而是从每一只宝可梦的生态学属性、原生栖息地到与人类社会千丝万缕的交织纽带，完全将其视作一个‘真实运转的有机生态世界’来雕琢——这背后正是深植于对《指环王》那般庞大世界创生体系的至高致敬。
@@ -255,6 +300,9 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2020-11-08-interview-creatures-25th-ishihara-tanaka/sec09_img.png
   caption: 面向下一个四分之一世纪：人、技术与未竟的冒险
+- type: image
+  image: /assets/img/interviews/2021-11-08-interview-creatures-history-special-ishihara-tanaka/017.png
+  alt: 'SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）_017'
 - speaker: 取材班
   original: 今後のゲーム産業やエンタテインメント産業を見通す中で、注目しているコンテンツや最先端技術があれば教えてください。
   translation: 放眼未来的游戏与泛娱乐产业版图，两位目前是否有特别注目的前沿技术或内容形态？

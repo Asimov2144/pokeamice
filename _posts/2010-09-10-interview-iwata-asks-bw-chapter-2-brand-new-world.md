@@ -91,6 +91,9 @@ parallel_items:
   original: 今回は、新しいことにチャレンジすることが多かったので、そのぶん、説明しなきゃいけないことがすごく増えたんですね。
   translation: 这次因为挑战了很多新事物，所以相应地需要说明的内容也大大增加了。
   role: question
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/001.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』2. 一新されたポケモンの世界_001
 - speaker: 增田顺一
   original: そうです。
   translation: 是的。
@@ -111,6 +114,9 @@ parallel_items:
   original: それと、たとえば完全新作をつくるたびに新しい地方ができますけど、今回はえらく様相が変わりましたよね。
   translation: 另外，比如每次制作完全新作都会诞生新的地区，但这次面貌变化相当大呢。
   role: question
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/002.jpg
+  alt: ヒウンシティ
 - speaker: 增田顺一
   original: はい。ニューヨークをモチーフにしました。
   translation: 是的。我们以纽约为原型。
@@ -217,6 +223,9 @@ parallel_items:
   original: はい。美術館の中庭のイスに座ってアイデアを練っていたんですけど、そのときに、六角形のイメージがパッと浮かんだんです。六角形というと、ハチの巣があったりしますよね。そこで、ニューヨークのマンハッタンを中央に置き、両サイドに町や自然など含めて、それぞれを六角形でつなげていけば面白いんじゃないかと思ったんです。それに、過去のシリーズの反省点として「子どもさんがクリアできない」という話もありましたので、今回は直線的に冒険できるようにしたいという想いもありました。
   translation: 是的。我坐在美术馆中庭的椅子上构思，那时，六边形的形象突然浮现在脑海中。说到六边形，就像蜂巢一样吧。于是我想，如果把纽约的曼哈顿放在中央，两侧配置城镇和自然等，再用六边形将它们连接起来，会不会很有趣呢？另外，作为过去系列的反思，曾有“孩子们无法通关”的说法，所以这次也希望让冒险能够直线进行。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/003.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』2. 一新されたポケモンの世界_003
 - speaker: 岩田聪
   original: ストーリーをクリアするということは『ポケモン』全体の遊びの一部ですけど、そこは多くの人に遊びきってもらいたいと考えたわけですね。
   translation: 通关故事虽然是《宝可梦》整体玩法的一部分，但你们是希望让更多人都能完整玩到那里吧。
@@ -226,6 +235,9 @@ parallel_items:
   translation: 是的。因为我们认为《宝可梦》在通关剧情之后，真正的游戏才刚开始。因此，我们首先设想了一个六边形的地区，排列出类似曼哈顿那样的高楼大厦，还设计了码头（栈桥），就这样一步步将城市的形象具体化。而这次，我们将其命名为“合众地区”。
   note: “六角形”指合众地区地图轮廓近似六边形，与以往以日本为原型的地区不同，这次以纽约为蓝本。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/004.jpg
+  alt: イッシュ地方
 - speaker: 岩田聪
   original: どうして「イッシュ」なんですか？
   translation: 为什么叫“合众”呢？
@@ -281,6 +293,9 @@ parallel_items:
   original: あと、新しく生態系をつくるということは、いままでのポケモンとかぶるジャンルのものが出てくるんです。「ネズミみたいなポケモンは必要だし」、「でもネズミは毎回やってるよね」というようなことがだんだん増えてくるんです。ただ、そうなったときに、「前と似てるよね」とか、なおかつ、「こんなのはポケモンじゃない！」と言われないように、一生懸命考えながらまとめていきました。
   translation: 另外，要创造一个新的生态系统，就会出现与以往宝可梦类型重叠的物种。比如“老鼠型的宝可梦是必要的”，但“老鼠每次都有了吧”这样的问题会逐渐增多。每当遇到这种情况，为了避免被说“和以前很像”甚至“这根本不是宝可梦！”，我们绞尽脑汁，反复推敲，最终才定稿。
   role: answer
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/005.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』2. 一新されたポケモンの世界_005
 - speaker: 岩田聪
   original: 実際にポケモンのデザインをする人たちは動物園に行って、実際の動物を観察したりしてネタを仕入れるそうですね。
   translation: 听说实际上负责设计宝可梦的人，会去动物园观察真实的动物，从中汲取灵感，是这样吗？
@@ -360,6 +375,9 @@ parallel_items:
   original: そのプロセスも、ポケモンがポケモンらしくあるためのひとつの特徴なのかもしれませんね。
   translation: 这个过程，或许也是宝可梦之所以为宝可梦的一个特征吧。
   role: question
+- type: image
+  image: /assets/img/interviews/2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world/006.jpg
+  alt: 社長が訊く『ポケットモンスターブラック・ホワイト』2. 一新されたポケモンの世界_006
 - speaker: 增田顺一
   original: そうなんだと思います。やっぱりひとつのイメージにまとまっていきますので。
   translation: 我想确实如此。因为最终会统一到一个形象上。

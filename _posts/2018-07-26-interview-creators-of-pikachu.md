@@ -69,13 +69,22 @@ parallel_items:
 - speaker: ''
   original: We spoke with three creators who developed Pokémon Red and Pokémon Green and were deeply involved with the creation of Pikachu.
   translation: 我们采访了三位开发《宝可梦 红》和《宝可梦 绿》并深度参与皮卡丘创作的创作者。
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/ken_sugimori.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_ken_sugimori'
 - speaker: 杉森建
   original: Ken Sugimori is one of the founding members of GAME FREAK Inc. He was in charge of the official character design for Pokémon Red and Pokémon Green. He is currently a director at the company.
   translation: 杉森建是GAME FREAK公司的创始成员之一。他负责《宝可梦 红》和《宝可梦 绿》的官方角色设计。目前他是公司的董事。
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/001.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_001'
 - speaker: ''
   original: Koji Nishino is a planner for GAME FREAK Inc. His main role in the original Pokémon Red and Pokémon Green games was data design, including field maps and the appearance rate and strength of Pokémon.
   translation: 西野弘二是GAME FREAK公司的策划。他在最初的《宝可梦 红》和《宝可梦 绿》游戏中的主要职责是数据设计，包括场地地图以及宝可梦的出现率和强度。
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/atsuko_nishida.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_atsuko_nishida'
 - speaker: ''
   original: Atsuko Nishida was a character designer for Pokémon Red and Pokémon Green. She currently helps with character design for the Pokémon series as a freelance illustrator.
   translation: 西田敦子曾是《宝可梦 红》和《宝可梦 绿》的角色设计师。她目前作为自由插画师协助宝可梦系列的角色设计。
@@ -83,6 +92,9 @@ parallel_items:
   level: 3
   original: “I want some cute ones, too!”
   translation: “我也想要一些可爱的宝可梦！”
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/002.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_002'
 - speaker: 提问
   original: First of all, why haven't you spoken before about how Pikachu was created or who designed it?
   translation: 首先，为什么你们之前没有谈论过皮卡丘是如何被创造出来的，或者是谁设计的？
@@ -99,6 +111,9 @@ parallel_items:
   original: “It involves not only character design but the design of the game itself. Pokémon, as its [Japanese] title ‘Pocket Monsters' suggests, is a game in which monsters battle each other. At the time, I figured that since they were monsters, they should have a tough look, but midway through I thought, ‘I'd like some cute ones, too.' There weren't many designers in the company at the time and I was doing most of it, and since I was designing from the perspective of a man, I hadn't thought of creating a cute Pokémon. That is why I asked some of our female staff, like Nishida, to join.”
   translation: “这不仅仅涉及角色设计，还涉及游戏本身的设计。宝可梦，正如其日文原名‘Pocket Monsters’（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的字面涵义所示，是一款怪物之间互相战斗的游戏。当时，我认为既然是怪物，就应该看起来强悍，但中途我想到，‘我也想要一些可爱的。’当时公司里设计师不多，大部分设计都由我负责，而且我是从男性的视角出发，没有想过要创造可爱的宝可梦。因此，我邀请了一些女性员工，比如西田，加入进来。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/pikachu_early_sprites.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_pikachu_early_sprites'
 - speaker: 提问
   original: What was the reason behind why you wanted not only tough Pokémon but cute ones as well?
   translation: 你不仅想要强悍的宝可梦，还想要可爱的，这背后的原因是什么？
@@ -115,6 +130,9 @@ parallel_items:
   original: Did you receive any orders when creating Pikachu?
   translation: 你在创作皮卡丘时收到过什么指示吗？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/003.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_003'
 - speaker: 西田敦子
   original: “There were no specifications other than gameplay ones, such as it had to be Electric-type and that it would evolve twice. I designed Pikachu and Raichu based on that.”
   translation: “除了游戏性方面的要求，比如它必须是电属性并且会进化两次之外，没有其他具体规格。我基于这些设计了皮卡丘和雷丘。”
@@ -131,6 +149,9 @@ parallel_items:
   original: Why was this Gorochu rejected?
   translation: 为什么这个戈洛丘被否决了？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/004.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_004'
 - speaker: 西野弘二
   original: “That's because, in the game specifications, Pikachu ended up being the kind of Pokémon that evolves only once.”
   translation: 那是因为在游戏设定中，皮卡丘最终被设计成只进化一次的宝可梦。
@@ -163,6 +184,9 @@ parallel_items:
   original: By the way, who designed the first three Pokémon chosen by the main character?
   translation: 顺便问一下，主角最初选择的三只宝可梦是谁设计的？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/005.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_005'
 - speaker: 杉森建
   original: “Bulbasaur, Charmander, and Squirtle were all designed by Ms. Nishida.”
   translation: 妙蛙种子、小火龙和杰尼龟都是由西田女士设计的。
@@ -209,6 +233,9 @@ parallel_items:
   original: Under the circumstances, what did you actually do to get Pikachu to appear in the game?
   translation: 在这种情况下，你实际上做了什么让皮卡丘出现在游戏中的？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/006.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_006'
 - speaker: 西田敦子
   original: “I didn't draw an illustration on paper, but went straight to the computer screen and punched in the dots. Using dots to create the face of this dumpling-shaped creature with no definition between its head and body! At the time, I was obsessed with squirrels. I didn't own a squirrel, but I wanted to because I thought its movement was comical. It was here that I was inspired to make Pikachu store electricity in its cheek pouches. When hamsters store food, their entire body puffs up, but with squirrels, it's just their cheeks.”
   translation: “我没有在纸上画插图，而是直接对着电脑屏幕输入点阵。用点阵来创造这个团子形状、头身不分的生物的脸！当时我迷上了松鼠。我没有养松鼠，但我想养，因为我觉得它的动作很滑稽。正是在这里，我受到启发，让皮卡丘在脸颊的颊囊里储存电力。仓鼠储存食物时整个身体都会鼓起来，但松鼠只有脸颊鼓起来。”
@@ -223,6 +250,9 @@ parallel_items:
   original: “I just really love cute things. With Pikachu, the name alone has a cute ring to it, doesn't it? I came to love it more and more, and wanted it to be even cuter.”
   translation: “我就是非常喜欢可爱的东西。就拿皮卡丘来说，光是名字就很好听，对吧？我越来越喜欢它，希望它变得更可爱。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/007.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_007'
 - speaker: 西田敦子
   original: “Every time I would submit the design, Mr. Nishino would tell me to make it cuter, which was frustrating! I worked hard so Nishino would give me a nod of approval!”
   translation: “每次我提交设计，西野先生都会让我做得更可爱，这很令人沮丧！我努力让西野先生点头认可！”
@@ -267,6 +297,9 @@ parallel_items:
   level: 3
   original: “I just loved Pikachu so much…”
   translation: “我就是太喜欢皮卡丘了……”
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/pikachu_daifuku_concept.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_pikachu_daifuku_concept'
 - speaker: ''
   original: Seen here are a New Year's card and its original artwork from prior to the 1996 release of Pokémon Red and Pokémon Green. The design for Pikachu is slightly different.
   translation: 这里展示的是一张新年贺卡及其原始艺术图，时间在1996年宝可梦红和宝可梦绿发售之前。皮卡丘的设计略有不同。
@@ -327,6 +360,9 @@ parallel_items:
   level: 3
   original: “A keen insight”
   translation: “敏锐的洞察力”
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/008.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_008'
 - speaker: ''
   original: No longer just a game, Pokémon has expanded into an animated series, merchandise, and a variety of other media.
   translation: 宝可梦不再仅仅是一款游戏，它已经扩展到动画系列、周边商品以及其他各种媒体形式。
@@ -347,6 +383,9 @@ parallel_items:
   original: What were your thoughts when Pikachu was chosen as Ash's partner Pokémon?
   translation: 当皮卡丘被选为小智的搭档宝可梦时，您有什么想法？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/009.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_009'
 - speaker: 西田敦子
   original: “Funnily enough, I just thought, ‘Oh, all right.'“
   translation: “有趣的是，我只是想，‘哦，好吧。’”
@@ -382,6 +421,9 @@ parallel_items:
   level: 3
   original: “The representative of cute Pokémon.”
   translation: “可爱宝可梦的代表。”
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/010.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_010'
 - speaker: 提问
   original: What do each of you find cute about Pikachu?
   translation: 你们各自觉得皮卡丘哪里可爱？
@@ -421,6 +463,9 @@ parallel_items:
 - speaker: ''
   original: With the release of Pokémon GO two summers ago, it seems you've further expanded the range of Pokémon.
   translation: 随着两年前夏天《宝可梦GO》的发布，你们似乎进一步扩大了宝可梦的受众范围。
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/011.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_011'
 - speaker: 西野弘二
   original: “I get the feeling that a wider range of people are playing the game than anything so far in the Pokémon series.”
   translation: “我感觉玩这款游戏的人群比以往任何宝可梦系列都要广泛。”
@@ -429,6 +474,9 @@ parallel_items:
   original: “We try to broaden our audiences with each game in the Pokémon series, but the mechanism behind roleplaying games might not be very familiar to people who do not normally play games. Plus, you can't play the game unless you have the game console in the first place. However, I was surprised how many people play Pokémon GO on their smartphones. When developing Pokémon Red and Pokémon Green, the simple designs of the Pokémon made it easy to understand, perhaps reaching even those who are not usually game enthusiasts.”
   translation: “我们试图通过宝可梦系列的每一款游戏来扩大受众，但角色扮演游戏背后的机制对于不常玩游戏的人来说可能不太熟悉。而且，首先你必须拥有游戏机才能玩游戏。然而，我很惊讶有这么多人在智能手机上玩《宝可梦GO》。在开发《宝可梦 红》和《宝可梦 绿》时，宝可梦的简单设计使其易于理解，也许甚至能触及那些通常不是游戏爱好者的人群。”
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/012.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_012'
 - speaker: 提问
   original: Pikachu is famous worldwide today, isn't it?
   translation: 皮卡丘如今在全世界都很有名，不是吗？
@@ -453,6 +501,9 @@ parallel_items:
   original: With all the Pokémon series, there is an incredible number of Pokémon, isn't there?
   translation: 宝可梦系列中，宝可梦的数量多得惊人，不是吗？
   role: question
+- type: image
+  image: /assets/img/interviews/2018-07-26-interview-creators-of-pikachu/013.jpg
+  alt: 'Creator Profile: The Creators of Pikachu_013'
 - speaker: 杉森建
   original: “I didn't think the series would continue for so long. I figured there might be a part two and that would be it.”
   translation: “我没想到这个系列会持续这么久。我以为可能只有第二部，然后就这样了。”

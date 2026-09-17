@@ -42,6 +42,9 @@ cast:
   role: 艺人 / 歌手 / 漫画家 / 宝可梦狂热粉丝
   avatar: https://assets.pokemon.com/assets/cms2/img/misc/gus/promotions/scarlet-violet-logo.png
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/prof2.jpg
+  alt: イメージ画像
 - type: section
   level: 2
   original: 【第1回】前編：ポケモンをデザインする際、出来るだけパーツを少なくする理由

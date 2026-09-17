@@ -38,6 +38,9 @@ parallel_items:
 - type: dialogue
   original: 'NWR: The Pokémon franchise has taken such strides in connecting the world through its games. Where does the online connectivity in the series go from here? Junichi Masuda (JM): This time around since the games are coming out at the same time around the world on October 12, right on the release day, there will be a lot more people on a global scale connecting, battling and trading with each other. Up until now, games that come out in Japan first have a lot of information about them, including story details, up on the internet before international players have a chance to even get a hold of the game. But this time, there is not going to be any information on the internet, so players are going to have to connect and communicate amongst themselves.'
   translation: NWR：宝可梦系列通过其游戏在连接世界方面取得了长足进步。该系列的在线连接功能接下来将走向何方？增田顺一（JM）：这一次，由于游戏将于10月12日在全球同步发售，正好在发售日当天，全球范围内将有更多玩家互相连接、对战和交换。迄今为止，先在日本发售的游戏会有大量相关信息——包括剧情细节——在国际玩家还没来得及拿到游戏之前就出现在互联网上。但这一次，互联网上不会有什么信息，所以玩家们必须彼此连接和交流。
+- type: image
+  image: /assets/img/interviews/2013-10-04-interview-nwr-xy-masuda-yoshida/001.png
+  alt: Pokémon X and Y Interview with Game Freak_001
 - type: dialogue
   speaker: NWR
   original: Since Pokémon Conquest has gathered such a following and been a pretty big success, are there any other games that you would like to personally bring Pokémon into? Any other crossovers?
@@ -79,6 +82,9 @@ parallel_items:
     what moves it’s learned, combined and worked into your strategy. I don’t think it would be really that interesting if, like at the Olympics, it was just clones of the exact same competitor. I think all these different combinations of elements, and a little bit of luck as well, come into play in competitions and make them more interesting and exciting.
   translation: 总的来说，在《宝可梦 X／Y》中，我们试着让培育宝可梦变得轻松许多。当然，无论是现有宝可梦还是新宝可梦，游戏里都有很多，而我们秉持的理念是，希望玩家在对战时能够使用许多不同的宝可梦，可以挑选自己喜欢的宝可梦来使用。另外，通过超级特训（Super Training），我们让一些信息变得更加透明，也让培育宝可梦稍微容易了一些。我喜欢举的例子是两兄弟，哥哥总是很擅长对战，弟弟却一直输。有了超级特训（Super Training），能够通过这些小游戏来替代传统的宝可梦能力提升方式，弟弟就能有更好的机会与哥哥一较高下。不过，把宝可梦看作活生生的生物的话，我们认为它们之间存在差异是很重要的。在比赛中，胜负取决于多种要素，比如你如何培育你的宝可梦、它学会了什么招式，以及你如何将这些组合并融入到你的战略中。我不认为如果像奥运会那样，全都是完全相同选手的克隆体，会真的那么有趣。我认为正是这些不同要素的组合，再加上一点点运气，才让比赛变得更加有趣和激动人心。
   role: answer
+- type: image
+  image: /assets/img/interviews/2013-10-04-interview-nwr-xy-masuda-yoshida/002.png
+  alt: Pokémon X and Y Interview with Game Freak_002
 - type: dialogue
   speaker: NWR
   original: Where did the idea or inspiration for Mega Pokémon come from?
@@ -105,6 +111,9 @@ parallel_items:
 - type: dialogue
   original: 'NWR: On average how many Pokémon designs get thrown out over the development of the game? Have any rejected designs come back in subsequent generations and if so, which ones? Hironobu Yoshida (HY): With each game we are always working with a different theme with the Pokémon for the generation. And the designers themselves, depending on the time, they’ll have different things they’re passionate about and different things they want to try. Although we come up with ten times the amount of ideas for Pokémon that make it into a game, even the ones that get rejected don’t typically come back in future games because we’re trying new things and match the theme of the new game. The things we’re passionate about are different than they were in the past. Also, in terms of the design process, even once an idea is selected, even from that point the design changes quite a bit since it takes about six months to a year to finalize a Pokémon design.'
   translation: NWR：在游戏开发过程中，平均有多少宝可梦设计会被淘汰？有没有被否决的设计在后来的世代中重新启用？如果有的话，是哪些？吉田宏信（HY）：每一代游戏，我们都会围绕不同的主题来设计宝可梦。而设计师们本身也会随着时间推移，对不同的东西充满热情，想要尝试不同的方向。虽然我们构思出的宝可梦创意数量是最终进入游戏的十倍，但即便是被否决的创意，通常也不会在后续作品中重新启用，因为我们在不断尝试新事物，并且要契合新作的主题。我们所热衷的东西已经和过去不同了。另外，从设计流程来说，即便一个创意被选中，从那一刻起设计也会发生相当大的变化，因为最终确定一个宝可梦的设计大约需要半年到一年的时间。
+- type: image
+  image: /assets/img/interviews/2013-10-04-interview-nwr-xy-masuda-yoshida/003.png
+  alt: Pokémon X and Y Interview with Game Freak_003
 - type: dialogue
   original: 'NWR: Follow up question- what’s the theme of this Pokémon game? What’s the theme to Pokémon X and Y? HY: In terms of creating the Pokémon designs, what we really focused on, this time especially, was giving each Pokémon, even more than ever, a defining characteristic or something that makes them stand out and be pretty unique.'
   translation: NWR：追问一下，这款宝可梦作品的主题是什么？《宝可梦 X／Y》的主题是什么？吉田：就宝可梦的设计创作而言，我们这次尤其着重于让每一只宝可梦，比以往更甚地，拥有一个鲜明的特征，或者某种能让它们脱颖而出、相当独特的东西。
@@ -163,6 +172,9 @@ parallel_items:
     12, it’s going to be the first time, on a global scale, that everyone will really be connected with Pokémon. I want to look at it as a worldwide Pokémon Day. I’m really hoping people pick up the games and trade and battle with each other. One thing we did with the Pokédex this time was there’s going to be multiple Pokédex entries. So if you trade a Pokémon that comes from a different language in the game you’ll unlock that entry in the Pokédex for that language. So there is kind of another element to trading. HY: From a graphic design perspective Mega evolutions are something we spent a lot of time on. It was a big challenge to take these refined designs to a new extreme. Also, the move to full 3D the visuals are very different this time. I think players are really going to enjoy that. At the same time at Game Freak we’re big fans of 2D graphics as well. So there are some elements in there that I think fans of 2D will appreciate as well. NWR: Thank you so much for taking the time to
     talk to us; we’re both huge fans since the beginning! Masuda: Thank you!'
   translation: "NWR：作为我们的收尾问题——我们对此非常期待。我知道我们俩都是。我们想了解，在座的各位是否有任何想亲自对粉丝说的话？有什么值得我们留意的吗？彩蛋之类的？增田：有几件事。首先，关于故事，这次我们制作了一场与四位朋友一同旅行的冒险，并在冒险过程中真正了解他们。我真心希望大家能喜欢我们精心打造的故事，并对此充满期待。我希望大家喜欢的另一个游戏特色是超级进化。这次你可以从博士那里获得红蓝版初始宝可梦，并能让它们进行超级进化，我想大家会喜欢的。博士正在研究所谓的“卡洛斯地区最大的谜团”，即超级进化。因此，他才会给你这三只最初的初始宝可梦之一。此外，由于本作将于10月12日全球同步发售，这将是首次在全球范围内，所有人都能真正通过宝可梦连接起来。我想把它看作一个世界性的宝可梦日。我真心希望人们能拿起游戏，互相交换和对战。这次我们在宝可梦图鉴上做的一件事是，将会有多个图鉴条目。所以如果你交换了一只来自游戏中不同语言的宝可梦，你将解锁该语言对应的图鉴条目。这算是交换的另一个要素。吉田：从图形设计的角度来看，超级进化是我们花费了大量时间的事情。将这些精致的设计推向新的极致是一个巨大的挑战。此外，转向全3D后，这次的视觉效果非常不同。我认为玩家会非常喜欢。同时，在GAME FREAK，我们也是2D图形的忠实粉丝。所以其中也有一些我认为2D粉丝会欣赏的元素。 NWR：非常感谢你们抽出时间与我们交谈；我们俩从最初就是超级粉丝！增田：谢谢！"
+- type: image
+  image: /assets/img/interviews/2013-10-04-interview-nwr-xy-masuda-yoshida/004.jpg
+  alt: Pokémon X and Y Interview with Game Freak_004
 source:
   title: Nintendo World Report
   url: http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak

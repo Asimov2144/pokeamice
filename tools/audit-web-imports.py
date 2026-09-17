@@ -48,6 +48,8 @@ def load_targets():
             d = json.load(io.open(f, encoding="utf-8"))
         except Exception:
             continue
+        if isinstance(d, dict) and isinstance(d.get("targets"), list):
+            d = d["targets"]                      # import-web.py's files: {"targets": [{key, url, ...}, ...]}
         items = d.items() if isinstance(d, dict) else ((t.get("key") or t.get("slug"), t) for t in d)
         for k, t in items:
             if isinstance(t, dict):

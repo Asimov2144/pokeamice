@@ -158,6 +158,9 @@ parallel_items:
   original: Sí nos estamos centrando en hacer que ciertas cosas sean más directas y fáciles; hoy en día, todo el mundo tiene acceso a internet en el móvil, así que estás compitiendo con todas las cosas que la gente puede hacer para entretenerse. Todo el mundo está haciendo algo siempre, tienen menos tiempo para jugar que antes, así que estamos intentando que sea una experiencia más compacta; hay menos escollos para entrar en el juego. Por ejemplo, queremos que entrenar a un Pokémon sea más fácil, e incluso cuando cazas a uno con una pokéball consigues experiencia [al contrario que en los anteriores].
   translation: 是的，我们正专注于让某些事情变得更直接、更简单；如今，每个人都能通过手机上网，所以你是在与人们可以用来娱乐的所有事物竞争。每个人总是在做些什么，他们比过去玩游戏的时间更少，因此我们正努力让游戏体验更加紧凑；进入游戏的障碍更少了。例如，我们希望训练宝可梦变得更简单，甚至当你用精灵球捕捉到一只宝可梦时也能获得经验值［与前作不同］。
   role: answer
+- type: image
+  image: /assets/img/interviews/2013-11-04-interview-eurogamer-spain-xy-masuda-yoshida/001.jpg
+  alt: Cover image for YouTube video
 - type: dialogue
   speaker: Eurogamer
   original: Después de todos estos años, todo el mundo conoce Pokémon, juega a Pokémon y sigue jugando a Pokémon... ¿por qué crees que la serie sigue siendo atractiva para tanta gente tan diferente?
