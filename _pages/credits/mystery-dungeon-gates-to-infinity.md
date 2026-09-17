@@ -8,35 +8,35 @@ sitemap: true
 gf_count: 2
 ---
 <section class="credits__section">
-<h3>Producer</h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koichi Nakamura <small>中村光一</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">DIRECTORS</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">DIRECTORS</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nagahata-seiichiro/">Seiichiro Nagahata</a> <small>長畑成一郎</small></li>
 <li class="credits__name">Hironori Ishigami <small>石神宏紀</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario</h3>
+<h3>Scenario<span class="credits__zh-role">（剧本）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tomie-shinichiro/">Shin-ichiro Tomie</a> <small>冨江慎一郎</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Event planning director</h3>
+<h3>Event planning director<span class="credits__zh-role">（事件企划总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Emiko Tanaka <small>田中絵美子</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Event planning</h3>
+<h3>Event planning<span class="credits__zh-role">（事件企划）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Namiko Fukuda</li>
 <li class="credits__name">Susumu Kotegawa</li>
 <li class="credits__name">Misaki Okibe</li>
 </ul></section>
 <section class="credits__section">
-<h3>Game planning</h3>
+<h3>Game planning<span class="credits__zh-role">（游戏企划）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kunimi Kawamura <small>川村久仁美</small></li>
 <li class="credits__name">Akihiro Kaneko</li>
@@ -45,19 +45,19 @@ gf_count: 2
 <li class="credits__name">Yasuhiro Shinkawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Main programming</h3>
+<h3>Main programming<span class="credits__zh-role">（主程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Kanai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Dungeon programming</h3>
+<h3>Dungeon programming<span class="credits__zh-role">（迷宫程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naomi Kaneda</li>
 <li class="credits__name">Masashi Kachi</li>
 <li class="credits__name">Toru Sadamasa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Programming</h3>
+<h3>Programming<span class="credits__zh-role">（程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yusuke Kojima</li>
 <li class="credits__name">Yuki Sakaguchi</li>
@@ -68,12 +68,12 @@ gf_count: 2
 <li class="credits__name">Toshiaki Abe</li>
 </ul></section>
 <section class="credits__section">
-<h3>Art director</h3>
+<h3>Art director<span class="credits__zh-role">（美术总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hisashi Nagai</li>
 </ul></section>
 <section class="credits__section">
-<h3>2D art</h3>
+<h3>2D art<span class="credits__zh-role">（2D 美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromi Yoshida</li>
 <li class="credits__name">Masaya Kawada</li>
@@ -82,7 +82,7 @@ gf_count: 2
 <li class="credits__name">Tomohisa Shibata</li>
 </ul></section>
 <section class="credits__section">
-<h3>Character modeling</h3>
+<h3>Character modeling<span class="credits__zh-role">（角色建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryosuke Nakai</li>
 <li class="credits__name">Kazuhisa Watanabe</li>
@@ -93,7 +93,7 @@ gf_count: 2
 <li class="credits__name">Risa Hashimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Character animation</h3>
+<h3>Character animation<span class="credits__zh-role">（角色动画）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuhiko Ogawa</li>
 <li class="credits__name">Kunihiro Horio</li>
@@ -102,13 +102,13 @@ gf_count: 2
 <li class="credits__name">Takashi Tanaka</li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic effects</h3>
+<h3>Graphic effects<span class="credits__zh-role">（图形特效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroko Takano</li>
 <li class="credits__name">Mitsuhiro Kasuya</li>
 </ul></section>
 <section class="credits__section">
-<h3>Background</h3>
+<h3>Background<span class="credits__zh-role">（背景）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryuichi Tobe</li>
 <li class="credits__name">Eri Kukino</li>
@@ -122,29 +122,29 @@ gf_count: 2
 <li class="credits__name">Yuji Saito</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound director</h3>
+<h3>Sound director<span class="credits__zh-role">（音响总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryoma Nakamura</li>
 </ul></section>
 <section class="credits__section">
-<h3>Music composition</h3>
+<h3>Music composition<span class="credits__zh-role">（音乐作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Keisuke Ito</li>
 <li class="credits__name">Yasuhiro Kawagoe</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound effects</h3>
+<h3>Sound effects<span class="credits__zh-role">（音效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ichiro Ebisu</li>
 <li class="credits__name">Sohh Satou</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development manager</h3>
+<h3>Development manager<span class="credits__zh-role">（开发经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kensuke Oguri</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development co-operation<span class="credits__ja-role">DEVELOPMENT COOPERATION</span></h3>
+<h3>Development co-operation<span class="credits__zh-role">（开发 co-operation）</span><span class="credits__ja-role">DEVELOPMENT COOPERATION</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">noisycroak Co., Ltd.</li>
 <li class="credits__name is-company">KUON Ltd.</li>
@@ -152,7 +152,7 @@ gf_count: 2
 <li class="credits__name is-company">Sound Racer Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Debug</h3>
+<h3>Debug<span class="credits__zh-role">（调试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Pole To Win Co., Ltd.</li>
 <li class="credits__name">Akiyoshi Hisaki</li>
@@ -174,26 +174,26 @@ gf_count: 2
 <li class="credits__name">Tatsuya Sakai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical support</h3>
+<h3>Technical support<span class="credits__zh-role">（技术支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shingo Okamoto</li>
 <li class="credits__name">Kotaro Hiromatsu</li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork</h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamichi-sachiko/">Sachiko Nakamichi</a></li>
 <li class="credits__name">Keiko Inoue</li>
 </ul></section>
 <section class="credits__section">
-<h3>Manual editing</h3>
+<h3>Manual editing<span class="credits__zh-role">（说明书编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/itani-kiyomi/">Kiyomi Itani</a></li>
 <li class="credits__name">Takashi Iwama</li>
 <li class="credits__name is-company">QBIST co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special thanks</h3>
+<h3>Special thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ito-kenijro/">Kenjiro Ito</a></li>
 <li class="credits__name"><a href="/people/oohashi-mikiko/">Mikiko Ohashi</a></li>
@@ -218,7 +218,7 @@ gf_count: 2
 <li class="credits__name">Tomohiro Maruyama</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development support</h3>
+<h3>Development support<span class="credits__zh-role">（开发支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hideyuki Shibamoto</li>
 <li class="credits__name">Motoi Nakamura</li>
@@ -229,32 +229,32 @@ gf_count: 2
 <li class="credits__name"><a href="/people/fujita-osamu/">Osamu Fujita</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Product management</h3>
+<h3>Product management<span class="credits__zh-role">（产品管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takao Nakano</li>
 <li class="credits__name">Kaori Ando</li>
 <li class="credits__name">Tomoko Nakayama</li>
 </ul></section>
 <section class="credits__section">
-<h3>Very special thanks</h3>
+<h3>Very special thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GAME FREAK inc.</li>
 <li class="credits__name is-company">Creatures, Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon original director</h3>
+<h3>Pokémon original director<span class="credits__zh-role">（宝可梦原作总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 <li class="credits__name">Kunimi Kawamura</li>
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a> <small>山上仁志</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive producer</h3>
+<h3>Executive producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mitsutoshi Sakurai <small>櫻井光俊</small></li>
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡</small></li>

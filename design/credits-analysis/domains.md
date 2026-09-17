@@ -427,7 +427,7 @@
 | 3 | Creative Staff / Sound Creation | Sound |
 | … | 另 243 种 | |
 
-## Map & Field（749 人次，89 种区块）
+## Map & Field（750 人次，90 种区块）
 
 | 人次 | 区块 | 类别 |
 |---|---|---|
@@ -505,13 +505,13 @@
 | 1 | GAME FREAK Inc. / World & Pokémon Settings | Plan |
 | 1 | Field Programming Section Director | Prog |
 | 1 | Field Event Camera Programming | Prog |
+| 1 | Development Support | Mgmt |
 | 1 | Design & World Concept Section / Supervisor | Dir |
 | 1 | Design & World Concept Section / Section Director | Dir |
 | 1 | Design & World Concept / Section Director | Dir |
 | 1 | Concept & Visual Studio / Design & World Concept / Supervisor | Dir |
 | 1 | Concept & Visual Studio / Design & World Concept / Section Director | Dir |
-| 1 | Concept & Design Section / World Concept & Design | Art |
-| … | 另 9 种 | |
+| … | 另 10 种 | |
 
 ## Character（677 人次，71 种区块）
 
@@ -589,7 +589,7 @@
 | 0 | Character Modeling Team / Character Modeling Team Partners | Art |
 | 0 | Character Modeling Cooperative Companies | Art |
 
-## Concept & Illustration（622 人次，102 种区块）
+## Concept & Illustration（621 人次，101 种区块）
 
 | 人次 | 区块 | 类别 |
 |---|---|---|
@@ -673,7 +673,7 @@
 | 1 | Package & Manual Illustration | Art |
 | 1 | Manual Illustrator | Art |
 | 1 | Manual Illustration | Art |
-| … | 另 22 种 | |
+| … | 另 21 种 | |
 
 ## Motion（567 人次，104 种区块）
 

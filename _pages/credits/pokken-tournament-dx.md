@@ -8,57 +8,57 @@ sitemap: true
 gf_count: 9
 ---
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Producer / Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Game Producer / Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Producer / Director<span class="credits__zh-role">（游戏制作人 / 总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Game Producer / Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Haruki Suzaki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Technical Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Director<span class="credits__zh-role">（技术总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Technical Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/hoshino-masaaki/">Masaaki Hoshino</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 1 部 GF 自研作品里有开发职务署名，最早 2026）"> <small>星野正昭</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Battle Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Battle Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Battle Director<span class="credits__zh-role">（对战总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Battle Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshinori Takahashi The Master</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Program<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Program</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Program<span class="credits__zh-role">（组长程序）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Program</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sei Nakatani</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Art Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Director<span class="credits__zh-role">（美术总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Art Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chiaki Satake</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Animation Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design<span class="credits__zh-role">（组长动画设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Animation Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hidekazu Shirai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Sound Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Director<span class="credits__zh-role">（音响总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Sound Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Katsuhiko Iwama</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Technical Support<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Technical Support</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Technical Support<span class="credits__zh-role">（组长技术支持）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroshi Numakami</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Manager<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Art Manager</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Manager<span class="credits__zh-role">（美术经理）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Art Manager</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomohiro Mori</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>QA Manager<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / QA Manager</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>QA Manager<span class="credits__zh-role">（QA 经理）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / QA Manager</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuaki Kurosawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Battle Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Battle Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Battle Design<span class="credits__zh-role">（对战设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Battle Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsuyoshi Akasaka</li>
 <li class="credits__name">Yuya Aoki</li>
@@ -68,7 +68,7 @@ gf_count: 9
 <li class="credits__name">Sohei Kamada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Game Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Design<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Game Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuhito Kobayashi</li>
 <li class="credits__name">Takashi Yoshida</li>
@@ -76,13 +76,13 @@ gf_count: 9
 <li class="credits__name">Shugo Takayama</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Senior Program<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Senior Program</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Senior Program<span class="credits__zh-role">（资深程序）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Senior Program</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinobu Kiriyama</li>
 <li class="credits__name">Wataru Tada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Program<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Program</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Program<span class="credits__zh-role">（程序）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Program</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenichi Wakisaka</li>
 <li class="credits__name">Masanori Ota</li>
@@ -90,37 +90,37 @@ gf_count: 9
 <li class="credits__name">Yoshihiro Nagata</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Character Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Character Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Character Design<span class="credits__zh-role">（组长角色设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Character Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Xuewei Li</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Environment Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Environment Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Environment Design<span class="credits__zh-role">（组长环境设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Environment Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuko Mizoguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead VFX Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead VFX Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead VFX Design<span class="credits__zh-role">（组长特效设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead VFX Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Aoyama</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead UI Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead UI Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead UI Design<span class="credits__zh-role">（组长界面设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead UI Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chiaki Satake</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>UI Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / UI Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>UI Design<span class="credits__zh-role">（界面设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / UI Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryota Hayashida</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Cut Scene Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Cut Scene Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Cut Scene Design<span class="credits__zh-role">（Cut Scene 设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Cut Scene Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenta Ichikawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Design<span class="credits__zh-role">（设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromi Watanabe</li>
 <li class="credits__name">Takaharu Suzuki</li>
@@ -158,7 +158,7 @@ gf_count: 9
 <li class="credits__name">Seokkyo Seo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Animation Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Design<span class="credits__zh-role">（动画设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Animation Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoe Hirata</li>
 <li class="credits__name">Keiichiro Yoshitake</li>
@@ -166,18 +166,18 @@ gf_count: 9
 <li class="credits__name">Mika Kamataki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Real-Time Demo Animation Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Real-Time Demo Animation Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Real-Time Demo Animation Design<span class="credits__zh-role">（Real-Time 演示动画设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Real-Time Demo Animation Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyuki Shirai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Technical Support<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Animation Technical Support</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Technical Support<span class="credits__zh-role">（动画技术支持）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Animation Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuhiro Watanabe</li>
 <li class="credits__name">Yuhei Yamamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Motion Capture<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Motion Capture<span class="credits__zh-role">（动作捕捉）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naoaki Ishida</li>
 <li class="credits__name">Miki Fukawatase</li>
@@ -188,17 +188,17 @@ gf_count: 9
 <li class="credits__name">Jun Ohsone</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Motion Capture Coordination<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Motion Capture Coordination<span class="credits__zh-role">（动作捕捉协调）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">KATSUGEKIZA Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Motion Capture Coordination / </small>Action Coordinator<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination / Action Coordinator</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Motion Capture Coordination / </small>Action Coordinator<span class="credits__zh-role">（动作协调）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination / Action Coordinator</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wataru Koga</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Motion Capture Coordination / </small>Motion Capture Acting<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination / Motion Capture Acting</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Motion Capture Coordination / </small>Motion Capture Acting<span class="credits__zh-role">（动作捕捉表演）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Motion Capture Coordination / Motion Capture Acting</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Motion Actors Japan</li>
 <li class="credits__name">Akira Sugihara</li>
@@ -210,17 +210,17 @@ gf_count: 9
 <li class="credits__name">Yui Tomuro</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Sound Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Sound Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Sound Design<span class="credits__zh-role">（组长音响设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Sound Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shiori Miyazawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Music Compose<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Music Compose</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Music Compose<span class="credits__zh-role">（组长音乐 Compose）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Lead Music Compose</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroki Hashimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Sound Design</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design<span class="credits__zh-role">（音响设计）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Sound Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Etsuo Ishii</li>
 <li class="credits__name">LindaAI-CUE</li>
@@ -231,7 +231,7 @@ gf_count: 9
 <li class="credits__name">Maiko Uchizawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Music Compose<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Music Compose</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Music Compose<span class="credits__zh-role">（音乐 Compose）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Music Compose</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rio Hamamoto</li>
 <li class="credits__name">Taku Inoue</li>
@@ -242,17 +242,17 @@ gf_count: 9
 <li class="credits__name">Yu Sugimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Musical Perform / </small>Flute, Fretless Bass, Gut Guitar<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Musical Perform / Flute, Fretless Bass, Gut Guitar</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Musical Perform / </small>Flute, Fretless Bass, Gut Guitar<span class="credits__zh-role">（Flute、Fretless Bass、Gut 吉他）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Musical Perform / Flute, Fretless Bass, Gut Guitar</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jesahm</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Guest Music Compose<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Guest Music Compose<span class="credits__zh-role">（客座音乐 Compose）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/kageyama-shota/">Shota Kageyama</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>景山将太</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Guest Music Compose / </small>Acoustic &amp;amp; Electric Guitar, Mandolin<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose / Acoustic &amp;amp; Electric Guitar, Mandolin</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Guest Music Compose / </small>Acoustic &amp;amp; Electric Guitar, Mandolin<span class="credits__zh-role">（Acoustic 与amp; Electric 吉他、Mandolin）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose / Acoustic &amp;amp; Electric Guitar, Mandolin</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroaki Tsutsumi</li>
 </ul></section>
@@ -262,18 +262,18 @@ gf_count: 9
 <li class="credits__name">Yuma Ito</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Guest Music Compose / </small>Mastering Engineering<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose / Mastering Engineering</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Guest Music Compose / </small>Mastering Engineering<span class="credits__zh-role">（母带工程）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Guest Music Compose / Mastering Engineering</span></h3>
 <ul class="credits__names">
 <li class="credits__name">su-kei</li>
 <li class="credits__name">Yoshiyuki Watanabe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Support<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Technical Support</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kana Ishikawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;SystemDragoon&quot;<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Project &quot;SystemDragoon&quot;</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;SystemDragoon&quot;<span class="credits__zh-role">（项目 &quot;SystemDragoon&quot;）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Project &quot;SystemDragoon&quot;</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahide Kawakami</li>
 <li class="credits__name">Ryoichi Kaku</li>
@@ -281,7 +281,7 @@ gf_count: 9
 <li class="credits__name">Sasaki Naoya</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Library Team<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NU Library Team</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Library Team<span class="credits__zh-role">（NU 程序库组）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NU Library Team</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshito Iwanaga</li>
 <li class="credits__name">Jun Kamoshima</li>
@@ -292,7 +292,7 @@ gf_count: 9
 <li class="credits__name">Atsushi Ohta</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>NUSound Team<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NUSound Team</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>NUSound Team<span class="credits__zh-role">（NUSound 组）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NUSound Team</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kunio Yamaguchi</li>
 <li class="credits__name">Hiroto Fushimi</li>
@@ -303,7 +303,7 @@ gf_count: 9
 <li class="credits__name">Minamo Takahashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;lumen&quot;<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Project &quot;lumen&quot;</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;lumen&quot;<span class="credits__zh-role">（项目 &quot;lumen&quot;）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Project &quot;lumen&quot;</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahiro Yoshida</li>
 <li class="credits__name">Masayuki Shimizu</li>
@@ -312,23 +312,23 @@ gf_count: 9
 <li class="credits__name">Masaharu Okada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Support Team<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NU Support Team</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Support Team<span class="credits__zh-role">（NU 支持组）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / NU Support Team</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoko Akao</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Localization<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Localization<span class="credits__zh-role">（本地化）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Pole To Win UK Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Project Coordination<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Project Coordination</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Project Coordination<span class="credits__zh-role">（项目协调）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Project Coordination</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mariko Maekawa</li>
 <li class="credits__name">Rodrigo Fontes Torres</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Translation<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Translation</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Translation<span class="credits__zh-role">（翻译）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tom Vince</li>
 <li class="credits__name">James Woolley</li>
@@ -342,7 +342,7 @@ gf_count: 9
 <li class="credits__name">Yolanda Rodríguez Fernández</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Localization Quality Assurance<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Localization Quality Assurance</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Localization Quality Assurance<span class="credits__zh-role">（本地化品质保证）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Localization Quality Assurance</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Connor Taylor</li>
 <li class="credits__name">Alice Boulanger</li>
@@ -351,7 +351,7 @@ gf_count: 9
 <li class="credits__name">Alba Cañedo Llofriu</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Special Thanks<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Special Thanks</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Localization / </small>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Localization / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Polina Drews</li>
 <li class="credits__name">Katsuya Norita</li>
@@ -359,7 +359,7 @@ gf_count: 9
 <li class="credits__name is-company">Global Business Division</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyasu Hosoya</li>
 <li class="credits__name">Tomofumi Oosaka</li>
@@ -371,28 +371,28 @@ gf_count: 9
 <li class="credits__name">All Tekken Staff</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Executive Producer</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Executive Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hajime Nakatani</li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer<span class="credits__ja-role">The Pokémon Company / Producer</span></h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">The Pokémon Company / Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Development Producer<span class="credits__ja-role">The Pokémon Company / Development Producer</span></h3>
+<h3><small>The Pokémon Company / </small>Development Producer<span class="credits__zh-role">（开发制作人）</span><span class="credits__ja-role">The Pokémon Company / Development Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kunimi Kawamura <small>川村久仁美</small></li>
 <li class="credits__name">Takuya Hashimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Development Support<span class="credits__ja-role">The Pokémon Company / Development Support</span></h3>
+<h3><small>The Pokémon Company / </small>Development Support<span class="credits__zh-role">（开发支持）</span><span class="credits__ja-role">The Pokémon Company / Development Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuhma Ohchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Sales &amp; Promotion<span class="credits__ja-role">The Pokémon Company / Sales &amp; Promotion</span></h3>
+<h3><small>The Pokémon Company / </small>Sales &amp; Promotion<span class="credits__zh-role">（销售与宣传）</span><span class="credits__ja-role">The Pokémon Company / Sales &amp; Promotion</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ito-kenijro/">Kenjiro Ito</a></li>
 <li class="credits__name"><a href="/people/tanaka-masami/">Masami Tanaka</a></li>
@@ -406,7 +406,7 @@ gf_count: 9
 <li class="credits__name">Akira Kojima</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazunori Sugiura</li>
 <li class="credits__name">Ryohei Itakura</li>
@@ -417,12 +417,12 @@ gf_count: 9
 <li class="credits__name">Takumi Hashimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK inc. / </small>Pokémon Original Director<span class="credits__ja-role">GAME FREAK inc. / Pokémon Original Director</span></h3>
+<h3><small>GAME FREAK inc. / </small>Pokémon Original Director<span class="credits__zh-role">（宝可梦原作总监）</span><span class="credits__ja-role">GAME FREAK inc. / Pokémon Original Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks<span class="credits__ja-role">GAME FREAK inc. / Very Special Thanks</span></h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span><span class="credits__ja-role">GAME FREAK inc. / Very Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>増田順一</small></li>
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建</small></li>
@@ -430,7 +430,7 @@ gf_count: 9
 <li class="credits__name is-company">Creatures Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Brand Review and Approval<span class="credits__ja-role">The Pokémon Company International / Brand Review and Approval</span></h3>
+<h3><small>The Pokémon Company International / </small>Brand Review and Approval<span class="credits__zh-role">（品牌审核）</span><span class="credits__ja-role">The Pokémon Company International / Brand Review and Approval</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/usui-yasuhiro/">Yasuhiro Usui</a></li>
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
@@ -448,13 +448,13 @@ gf_count: 9
 <li class="credits__name"><a href="/people/elvira-enrique-joga/">Enrique Joga Elvira</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">The Pokémon Company International / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">The Pokémon Company International / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okubo-kenji/">Kenji Okubo</a></li>
 <li class="credits__name"><a href="/people/susai-gaku/">Gaku Susai</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Producers</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Producers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryuichiro Baba</li>
 <li class="credits__name">Taiki Yasuko</li>
@@ -465,7 +465,7 @@ gf_count: 9
 <li class="credits__name">Yukiko Kamoshida</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Entertainment Inc. / </small>Quality Assurance<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Quality Assurance</span></h3>
+<h3><small>BANDAI NAMCO Entertainment Inc. / </small>Quality Assurance<span class="credits__zh-role">（品质保证）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Quality Assurance</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryo Tanaka</li>
 <li class="credits__name">Akihide Ono</li>
@@ -476,18 +476,18 @@ gf_count: 9
 <li class="credits__name">Tokutaro Hirano</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Entertainment Inc. / </small>Debug<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug</span></h3>
+<h3><small>BANDAI NAMCO Entertainment Inc. / </small>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Pole To Win Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Entertainment Inc. / Debug / </small>Title Leader<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug / Title Leader</span></h3>
+<h3><small>BANDAI NAMCO Entertainment Inc. / Debug / </small>Title Leader<span class="credits__zh-role">（标题组长）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug / Title Leader</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kyohei Tanimoto</li>
 <li class="credits__name">Shiro Katsumoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Entertainment Inc. / Debug / </small>Debug<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug / Debug</span></h3>
+<h3><small>BANDAI NAMCO Entertainment Inc. / Debug / </small>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Debug / Debug</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takahiro Ano</li>
 <li class="credits__name">Mutushiro Nakahigashi</li>
@@ -495,7 +495,7 @@ gf_count: 9
 <li class="credits__name">Naoya Orimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producers<span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Executive Producers</span></h3>
+<h3>Executive Producers<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">BANDAI NAMCO Entertainment Inc. / Executive Producers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Asanuma</li>
 <li class="credits__name">Hirotaka Reizei</li>
@@ -503,13 +503,13 @@ gf_count: 9
 <li class="credits__name">Yoshiyasu Horiuchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd. / </small>Coordinator<span class="credits__ja-role">Nintendo Co., Ltd. / Coordinator</span></h3>
+<h3><small>Nintendo Co., Ltd. / </small>Coordinator<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Coordinator</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"></li>
 <li class="credits__name"><a href="/people/okada-yuki/">Yuki Okada</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd. / </small>Testing<span class="credits__ja-role">Nintendo Co., Ltd. / Testing</span></h3>
+<h3><small>Nintendo Co., Ltd. / </small>Testing<span class="credits__zh-role">（测试）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Testing</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Mario Club Co., Ltd.</li>
 <li class="credits__name"><a href="/people/kumasaka-takahiro/">Takahiro Kumasaka</a></li>
@@ -518,7 +518,7 @@ gf_count: 9
 <li class="credits__name">Ao Masuda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd. / </small>Technical Support<span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
+<h3><small>Nintendo Co., Ltd. / </small>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/furukawa-shuhei/">Shuhei Furukawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 10 部 GF 自研作品里有开发职务署名，最早 2012）"></li>
 <li class="credits__name is-gf"><a href="/people/minato-kyohei/">Kyohei Minato</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2018）"></li>
@@ -528,12 +528,12 @@ gf_count: 9
 <li class="credits__name">Tomohiro Umeda</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">Nintendo Co., Ltd. / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/yamamoto-soichi/">Soichi Yamamoto</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 5 部 GF 自研作品里有开发职务署名，最早 2002）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo of America Inc. / </small>Localization Support<span class="credits__ja-role">Nintendo of America Inc. / Localization Support</span></h3>
+<h3><small>Nintendo of America Inc. / </small>Localization Support<span class="credits__zh-role">（本地化支持）</span><span class="credits__ja-role">Nintendo of America Inc. / Localization Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryo Uchida</li>
 <li class="credits__name"><a href="/people/kasugayama-akiko/">Akiko Kasugayama</a></li>
@@ -545,7 +545,7 @@ gf_count: 9
 <li class="credits__name"><a href="/people/rayes-mary/">Mary Rayes</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo of America Inc. / </small>Product Testing<span class="credits__ja-role">Nintendo of America Inc. / Product Testing</span></h3>
+<h3><small>Nintendo of America Inc. / </small>Product Testing<span class="credits__zh-role">（产品测试）</span><span class="credits__ja-role">Nintendo of America Inc. / Product Testing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishimura-kentaro/">Kentaro Nishimura</a></li>
 <li class="credits__name">Seth Hanser</li>
@@ -569,24 +569,24 @@ gf_count: 9
 <li class="credits__name">Rory Knox</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo of Europe GmbH / </small>Localisation Support<span class="credits__ja-role">Nintendo of Europe GmbH / Localisation Support</span></h3>
+<h3><small>Nintendo of Europe GmbH / </small>Localisation Support<span class="credits__zh-role">（本地化支持）</span><span class="credits__ja-role">Nintendo of Europe GmbH / Localisation Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sawabe-ryoko/">Ryoko Sawabe</a></li>
 <li class="credits__name">Canela Rodal</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo of Europe GmbH / </small>Quality Check<span class="credits__ja-role">Nintendo of Europe GmbH / Quality Check</span></h3>
+<h3><small>Nintendo of Europe GmbH / </small>Quality Check<span class="credits__zh-role">（品质检查）</span><span class="credits__ja-role">Nintendo of Europe GmbH / Quality Check</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/gruden-marco/">Marco Gruden</a></li>
 <li class="credits__name">NOE Quality Assurance</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">Nintendo of Europe GmbH / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">Nintendo of Europe GmbH / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Communication Coordinator Group</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Voice Acting</h3>
+<h3>Pokémon Voice Acting<span class="credits__zh-role">（宝可梦配音表演）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rikako Aikawa <small>愛河里花子</small></li>
 <li class="credits__name">Chinatsu Akasaki <small>赤﨑千夏</small></li>
@@ -614,7 +614,7 @@ gf_count: 9
 <li class="credits__name">Hiroyuki Yoshino <small>吉野裕行</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Character Voice Acting<span class="credits__ja-role">Nia</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Character Voice Acting<span class="credits__zh-role">（角色配音表演）</span><span class="credits__ja-role">Nia</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Marina Inoue <small>井上麻里奈</small></li>
 <li class="credits__name">Ananda Jacobs</li>
@@ -647,12 +647,12 @@ gf_count: 9
 <li class="credits__name">Yuki Kaida <small>甲斐田ゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Sound Production<span class="credits__ja-role">System Voice / Sound Production</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Sound Production<span class="credits__zh-role">（音响制作）</span><span class="credits__ja-role">System Voice / Sound Production</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Techno Sound Co.,Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Sound Director<span class="credits__ja-role">System Voice / Sound Director</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Sound Director<span class="credits__zh-role">（音响总监）</span><span class="credits__ja-role">System Voice / Sound Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mima-masafumi/">Masafumi Mima</a></li>
 </ul></section>
@@ -662,7 +662,7 @@ gf_count: 9
 <li class="credits__name">Fujio Yamada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Recording assistants<span class="credits__ja-role">System Voice / Recording assistants</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Recording assistants<span class="credits__zh-role">（录音助理）</span><span class="credits__ja-role">System Voice / Recording assistants</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wakaba Kuriyama</li>
 <li class="credits__name">Toshiaki Noda</li>
@@ -670,43 +670,43 @@ gf_count: 9
 <li class="credits__name">Tatsuya Sato</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Sound Mix Studio<span class="credits__ja-role">System Voice / Sound Mix Studio</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Sound Mix Studio<span class="credits__zh-role">（音响 Mix 工作室）</span><span class="credits__ja-role">System Voice / Sound Mix Studio</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Aoi Studio Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Voice Acting / </small>Sound Production Managers<span class="credits__ja-role">System Voice / Sound Production Managers</span></h3>
+<h3><small>Pokémon Voice Acting / </small>Sound Production Managers<span class="credits__zh-role">（音响制作经理）</span><span class="credits__ja-role">System Voice / Sound Production Managers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoko Nakashima</li>
 <li class="credits__name">Akiko Tairadate</li>
 </ul></section>
 <section class="credits__section">
-<h3>Overseas Sound Coordination</h3>
+<h3>Overseas Sound Coordination<span class="credits__zh-role">（海外音响协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">ATTIC INC.</li>
 </ul></section>
 <section class="credits__section">
-<h3>CG Movie Production</h3>
+<h3>CG Movie Production<span class="credits__zh-role">（CG 影像制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">OLM Digital, Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>CG Movie Production / </small>Director<span class="credits__ja-role">CG Movie Production / Director</span></h3>
+<h3><small>CG Movie Production / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">CG Movie Production / Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">TAKESHI MORI</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>CG Movie Production / </small>CGI Producer<span class="credits__ja-role">CG Movie Production / CGI Producer</span></h3>
+<h3><small>CG Movie Production / </small>CGI Producer<span class="credits__zh-role">（CGI 制作人）</span><span class="credits__ja-role">CG Movie Production / CGI Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaaki Kobayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>CG Movie Production / </small>CGI Supervisor/CGI Director<span class="credits__ja-role">CG Movie Production / CGI Supervisor/CGI Director</span></h3>
+<h3><small>CG Movie Production / </small>CGI Supervisor/CGI Director<span class="credits__zh-role">（CGI 监修/CGI 总监）</span><span class="credits__ja-role">CG Movie Production / CGI Supervisor/CGI Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshinori Moriizumi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>CG Movie Production / </small>CGI Production Manager<span class="credits__ja-role">CG Movie Production / CGI Production Manager</span></h3>
+<h3><small>CG Movie Production / </small>CGI Production Manager<span class="credits__zh-role">（CGI 制作经理）</span><span class="credits__ja-role">CG Movie Production / CGI Production Manager</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Ninomiya</li>
 </ul></section>
@@ -716,7 +716,7 @@ gf_count: 9
 <li class="credits__name">Satoshi Oshita</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Executive Producer / </small>The Pokémon Company<span class="credits__ja-role">Executive Producer / The Pokémon Company</span></h3>
+<h3><small>Executive Producer / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Executive Producer / The Pokémon Company</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>
 </ul></section>

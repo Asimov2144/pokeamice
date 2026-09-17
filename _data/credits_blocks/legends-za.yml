@@ -3,7 +3,7 @@
 # scope: core（开发本体）| partner（外部开发协力）| asset（宝可梦模型等资产生产）| qa | localization | production（制作人 / 协调）| marketing | thanks | other
 # parent: 片尾有、wiki 平铺后丢掉的上级标题，接回 path 顶层。
 # verified: false = 按 wiki 结构与惯例草拟，待对照实机片尾（片尾有公司标题，两个 wiki 都没有）。
-verified: false
+verified: true   # 2026-09-17 对照片尾核对
 blocks:
 - from: Senior Director
   until: Planning Section Director
@@ -47,10 +47,16 @@ blocks:
   scope: partner
   parent: [Sound Team]
 - from: Design & World Concept Section
-  until: Development Support
+  until: Design & World Concept Section
   organization: Game Freak
   scope: core
   parent: [Concept & Visual Studio]
+- from: World, Pokémon & Human Planning
+  until: Development Support
+  organization: Game Freak
+  scope: core
+  parent: [Concept & Visual Studio, Design & World Concept Section]
+  note: wiki 里是 Design & World Concept Section 下的 Concept Art 子标题
 - from: 3D Visual Section
   until: 3D Visual Section
   organization: Game Freak

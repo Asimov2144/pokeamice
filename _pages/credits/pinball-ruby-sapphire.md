@@ -8,19 +8,19 @@ sitemap: true
 gf_count: 2
 ---
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaru Kuribayashi <small>くりばやし まさる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Programmers<span class="credits__ja-role">プログラム</span></h3>
+<h3>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsuyoshi Matsumoto <small>まつもと つよし</small></li>
 <li class="credits__name is-gf">Noriaki Teramoto<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 1999）"> <small>てらもと のりあき</small></li>
 <li class="credits__name">Masamitsu Takami <small>たかみ まさみつ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic Designers<span class="credits__ja-role">グラフィックデザイン</span></h3>
+<h3>Graphic Designers<span class="credits__zh-role">（图形设计）</span><span class="credits__ja-role">グラフィックデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Arito Chujo <small>ちゅうじょう ありと</small></li>
 <li class="credits__name">Norichika Meguro <small>めぐろ のりちか</small></li>
@@ -33,19 +33,19 @@ gf_count: 2
 <li class="credits__name">Tomoki Miyazaki <small>みやざき ともき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Composition<span class="credits__ja-role">サウンド</span></h3>
+<h3>Sound Composition<span class="credits__zh-role">（音响作曲）</span><span class="credits__ja-role">サウンド</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuya Suyama <small>すやま かずや</small></li>
 <li class="credits__name">Ayumi Sano <small>さの あゆみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Voices<span class="credits__ja-role">ポケモンボイス</span></h3>
+<h3>Pokémon Voices<span class="credits__zh-role">（宝可梦配音）</span><span class="credits__ja-role">ポケモンボイス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/otani-ikue/">Ikue Otani</a> <small>大谷育江 · おおたに いくえ</small></li>
 <li class="credits__name">Satomi Kohrogi <small>こおろぎさとみ · こおろぎ さとみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork<span class="credits__ja-role">アートワーク</span></h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span><span class="credits__ja-role">アートワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fujiko Nomura <small>のむら ふじこ</small></li>
 <li class="credits__name">Mizue Hagiwara <small>はぎわら みずえ</small></li>
@@ -53,12 +53,12 @@ gf_count: 2
 <li class="credits__name">Akiko Hirono <small>ひろの あきこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Illustration<span class="credits__ja-role">イラスト</span></h3>
+<h3>Illustration<span class="credits__zh-role">（插画）</span><span class="credits__ja-role">イラスト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Norichika Meguro <small>めぐろ のりちか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャルサンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sakurai-yuuri/">Yuuri Sakurai</a> <small>さくらい ゆうり</small></li>
 <li class="credits__name">Hiroki Enomoto <small>えのもと ひろき</small></li>
@@ -78,31 +78,31 @@ gf_count: 2
 <li class="credits__name">Jim Wornell</li>
 </ul></section>
 <section class="credits__section">
-<h3>Coordinators<span class="credits__ja-role">コーディネーター</span></h3>
+<h3>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kyoko Watanabe <small>わたなべ きょうこ</small></li>
 <li class="credits__name"><a href="/people/nomoto-retsuji/">Retsuji Nomoto</a> <small>のもと れつじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Progress Coordinators</h3>
+<h3>Progress Coordinators<span class="credits__zh-role">（Progress 协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daisuke Hara</li>
 <li class="credits__name">Taeko Suzuki</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Localization</h3>
+<h3>English Localization<span class="credits__zh-role">（英语本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a></li>
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Task Managers<span class="credits__ja-role">ファンクションマネージャー</span></h3>
+<h3>Task Managers<span class="credits__zh-role">（任务经理）</span><span class="credits__ja-role">ファンクションマネージャー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a> <small>山上仁志 · やまがみ ひとし</small></li>
 <li class="credits__name"><a href="/people/nomoto-gakuji/">Gakuji Nomoto</a> <small>野本岳次 · のもと がくじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>陣内弘之 · じんない ひろゆき</small></li>
 <li class="credits__name">Makoto Nakayama <small>なかやま まこと</small></li>
@@ -111,18 +111,18 @@ gf_count: 2
 <li class="credits__name">Hatao Ogata <small>おがた はたお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producers<span class="credits__ja-role">エグゼクティブプロデューサー</span></h3>
+<h3>Executive Producers<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブプロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡 · いわた さとる</small></li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>European Version / </small>Localisation Producer</h3>
+<h3><small>European Version / </small>Localisation Producer<span class="credits__zh-role">（本地化制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kayo Sadahisa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>European Version / </small>Localisation</h3>
+<h3><small>European Version / </small>Localisation<span class="credits__zh-role">（本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">James Honeywell</li>
 <li class="credits__name">Martina Deimel</li>
@@ -136,7 +136,7 @@ gf_count: 2
 <li class="credits__name">Roby Bonomo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>European Version / </small>Manual Layout</h3>
+<h3><small>European Version / </small>Manual Layout<span class="credits__zh-role">（说明书排版）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Silke Sczyrba</li>
 <li class="credits__name">Daniela Schmitt</li>

@@ -140,7 +140,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
                 {% assign wi = nil %}{% if gi.work %}{% assign wi = site.data.works | where: "name", gi.work | first %}{% endif %}
                 <tr{% unless gi.core %} class="is-spin"{% endunless %}>
                   <td><a class="person__pub-title" href="{{ '/credits/' | append: c.game | append: '/' | relative_url }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="16" height="16" style="vertical-align:-3px;margin-right:4px">{% endif %}{{ gi.title_zh }}</a></td>
-                  <td class="person__credits-role">{% if c.lead %}<b>{{ c.lead }}</b>{% endif %}{{ c.role }}{% if c.role_ja %}<small>{{ c.role_ja }}</small>{% endif %}</td>
+                  <td class="person__credits-role">{% if c.lead %}<b>{{ c.lead }}</b>{% endif %}{{ c.role }}{% if c.role_zh %}<span class="credits__zh-role">（{{ c.role_zh }}）</span>{% endif %}{% if c.role_ja %}<small>{{ c.role_ja }}</small>{% endif %}</td>
                   <td class="is-num">{{ gi.year }}</td>
                 </tr>
               {% endfor %}

@@ -8,47 +8,47 @@ sitemap: true
 gf_count: 26
 ---
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Director<span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Director</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">BANDAI NAMCO Studios Inc. / Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Haruki Suzaki <small>須崎春樹</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Game Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Game Design<span class="credits__zh-role">（组长游戏设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuhito Kobayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Programmer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Programmer<span class="credits__zh-role">（组长程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sei Nakatani</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Director</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Director<span class="credits__zh-role">（美术总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoko Moriya <small>守屋智子</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Cinematic Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Cinematic Artist<span class="credits__zh-role">（组长过场影像美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Watarai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design<span class="credits__zh-role">（组长动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hidekazu Shirai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Director</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Director<span class="credits__zh-role">（音响总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Katsuhiko Iwama</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Project Management</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Project Management<span class="credits__zh-role">（组长项目管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoko Iura</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Level Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Level Design<span class="credits__zh-role">（关卡设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ayumi Nakaji</li>
 <li class="credits__name">Junpei Yamaguchi</li>
@@ -63,7 +63,7 @@ gf_count: 26
 <li class="credits__name">Yasuaki Kurosawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Game Design<span class="credits__zh-role">（游戏设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sakimori Numata</li>
 <li class="credits__name">Misato Tanaka</li>
@@ -82,22 +82,22 @@ gf_count: 26
 <li class="credits__name">Yoshiyuki Yakabe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Ingame Programmer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Ingame Programmer<span class="credits__zh-role">（组长 Ingame 程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenichi Nakaguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Outgame Programmer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Outgame Programmer<span class="credits__zh-role">（组长 Outgame 程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takashi Koshigoe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead System Programmer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead System Programmer<span class="credits__zh-role">（组长系统程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wataru Tada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Programmers</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Programmers<span class="credits__zh-role">（程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinobu Kiriyama</li>
 <li class="credits__name">Yoshihiro Kurohata</li>
@@ -109,7 +109,7 @@ gf_count: 26
 <li class="credits__name">Kazuhi Takata</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Library Team</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Library Team<span class="credits__zh-role">（NU 程序库组）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shunsuke Kuribata</li>
 <li class="credits__name">Atsushi Nakano</li>
@@ -119,19 +119,19 @@ gf_count: 26
 <li class="credits__name">Kentarou Kawamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;lumen&quot;</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Project &quot;lumen&quot;<span class="credits__zh-role">（项目 &quot;lumen&quot;）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahiro Yoshida</li>
 <li class="credits__name">Masayuki Shimizu</li>
 <li class="credits__name">Ryuichi Sakamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Support Team</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>NU Support Team<span class="credits__zh-role">（NU 支持组）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoko Akao</li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks</h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shigeki Tomisawa</li>
 <li class="credits__name">Takeki Takahashi</li>
@@ -141,12 +141,12 @@ gf_count: 26
 <li class="credits__name">Hitoshi Ueda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Concept Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Concept Artist<span class="credits__zh-role">（组长概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenji Kimura</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Senior Concept Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Senior Concept Artists<span class="credits__zh-role">（资深概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mayumi Kimura</li>
 <li class="credits__name">Kurumi Kobayashi</li>
@@ -155,7 +155,7 @@ gf_count: 26
 <li class="credits__name">Michiaki Ito</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Concept Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Concept Artists<span class="credits__zh-role">（概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshihiko Arai</li>
 <li class="credits__name">Masafumi Takagi</li>
@@ -167,43 +167,43 @@ gf_count: 26
 <li class="credits__name">Kota Ochiai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Character Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Character Artist<span class="credits__zh-role">（组长角色美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Kishimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Character Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Character Artist<span class="credits__zh-role">（角色美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Araki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Character Modeling</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Character Modeling<span class="credits__zh-role">（角色建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sachiyo Awata</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Environment Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Environment Artist<span class="credits__zh-role">（组长环境美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuko Mizoguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Technical Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Technical Artist<span class="credits__zh-role">（组长技术美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masayuki Suzuki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Technical Artists<span class="credits__zh-role">（技术美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shohei Yamaguchi</li>
 <li class="credits__name">Yutaka Kobayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead UI Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead UI Design<span class="credits__zh-role">（组长界面设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chiaki Satake</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>UI Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>UI Design<span class="credits__zh-role">（界面设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Maki Ono</li>
 <li class="credits__name">Aiko Shimosako</li>
@@ -211,17 +211,17 @@ gf_count: 26
 <li class="credits__name">Yukihiko Mishina</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Cinematic Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Cinematic Artist<span class="credits__zh-role">（过场影像美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuhiro Matsuda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead VFX Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead VFX Artist<span class="credits__zh-role">（组长特效美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinji Nagatani</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>VFX Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>VFX Artists<span class="credits__zh-role">（特效美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shigeano Hirasawa</li>
 <li class="credits__name">Yuki Tozuka</li>
@@ -230,30 +230,30 @@ gf_count: 26
 <li class="credits__name">Shotaro Kansaku</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Management<span class="credits__ja-role">Bandai Namco Studios Malaysia Sdn. Bhd. / Management</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Management<span class="credits__zh-role">（管理）</span><span class="credits__ja-role">Bandai Namco Studios Malaysia Sdn. Bhd. / Management</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Taichi Higashino</li>
 <li class="credits__name">Shuhei Banya</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Lead Concept Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Lead Concept Artist<span class="credits__zh-role">（组长概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Samat Khovitoonkij</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Concept Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Concept Artists<span class="credits__zh-role">（概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yeoh Shen Siang</li>
 <li class="credits__name">Nur&#x27;Ain Shariffluddin</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Lead 3D Environment Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Lead 3D Environment Artists<span class="credits__zh-role">（组长 3D 环境美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoong Wei Siong</li>
 <li class="credits__name">Mimi Rizal</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>3D Environment Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>3D Environment Artists<span class="credits__zh-role">（3D 环境美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Davin Gilbert Saputra</li>
 <li class="credits__name">Felicia</li>
@@ -265,51 +265,51 @@ gf_count: 26
 <li class="credits__name">Wayne Chu Weng Fatt</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Product Management</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Product Management<span class="credits__zh-role">（产品管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nik Shazwan</li>
 <li class="credits__name">Loh Mei Kei</li>
 <li class="credits__name">Muhamad Amal Farial bin Khalid</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Translators</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Malaysia Sdn. Bhd. / </small>Translators<span class="credits__zh-role">（翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ng Kai Wern</li>
 <li class="credits__name">Muslihah Nur Amalina Mus</li>
 <li class="credits__name">Teoh Jit Kean</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Art Management<span class="credits__ja-role">Bandai Namco Studios Singapore Pte. Ltd. / Art Management</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Art Management<span class="credits__zh-role">（美术管理）</span><span class="credits__ja-role">Bandai Namco Studios Singapore Pte. Ltd. / Art Management</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroki Minami</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Lead Concept Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Lead Concept Artist<span class="credits__zh-role">（组长概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ooi Chun Gee</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Senior Concept Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Senior Concept Artist<span class="credits__zh-role">（资深概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Dorothy J. Hweee</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>3D Character Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>3D Character Artist<span class="credits__zh-role">（3D 角色美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Justin Lee Yong Ho</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Senior Translator</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Senior Translator<span class="credits__zh-role">（资深翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tan Kengh Ho</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Translator</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bandai Namco Studios Singapore Pte. Ltd. / </small>Translator<span class="credits__zh-role">（翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koh Yong Qiang</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Seven Dreams Inc, / </small>Concept Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Seven Dreams Inc, / </small>Concept Artists<span class="credits__zh-role">（概念美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Jun Kotouno<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2019）"></li>
 <li class="credits__name is-gf">Takuya Yamamoto<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2019）"></li>
@@ -317,12 +317,12 @@ gf_count: 26
 <li class="credits__name is-gf">Motohiro Sasaki<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2019）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Swordcanes Studio Co. Ltd. / </small>CEO/Producer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Swordcanes Studio Co. Ltd. / </small>CEO/Producer<span class="credits__zh-role">（CEO/制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tetsuya Takeda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Swordcanes Studio Co. Ltd. / </small>Lead Character Modeling<span class="credits__ja-role">Character Modeling</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Swordcanes Studio Co. Ltd. / </small>Lead Character Modeling<span class="credits__zh-role">（组长角色建模）</span><span class="credits__ja-role">Character Modeling</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nobuyuki Fujiki</li>
 <li class="credits__name">Character Modeling</li>
@@ -331,17 +331,17 @@ gf_count: 26
 <li class="credits__name">Shota Sakaguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / XAX Entertainment Inc. / </small>Character Modeling</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / XAX Entertainment Inc. / </small>Character Modeling<span class="credits__zh-role">（角色建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Airi Suzuki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bee Tribe Co., Ltd. / </small>Lead Environment Artists<span class="credits__ja-role">Lead Environment Artist</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bee Tribe Co., Ltd. / </small>Lead Environment Artists<span class="credits__zh-role">（组长环境美术）</span><span class="credits__ja-role">Lead Environment Artist</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mizuki Tashima</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Bee Tribe Co., Ltd. / </small>Environment Artists</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Bee Tribe Co., Ltd. / </small>Environment Artists<span class="credits__zh-role">（环境美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Kiguchi</li>
 <li class="credits__name">Jo Ara</li>
@@ -353,59 +353,59 @@ gf_count: 26
 <li class="credits__name">Hikaru Nagahama</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / ADGLOBE Inc. / </small>Environment Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / ADGLOBE Inc. / </small>Environment Artist<span class="credits__zh-role">（环境美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Taysuya Itoh</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / geechs inc. / </small>UI Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / geechs inc. / </small>UI Design<span class="credits__zh-role">（界面设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryota Hayashida</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / quack-luck inc, / </small>VFX Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / quack-luck inc, / </small>VFX Artist<span class="credits__zh-role">（特效美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Koichi Fujikawa<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2013）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / GOTORON Inc. / </small>VFX Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / GOTORON Inc. / </small>VFX Artist<span class="credits__zh-role">（特效美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mika Takei</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Ray Dream Studio Inc. / </small>VFX/Cinematic Artist</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Ray Dream Studio Inc. / </small>VFX/Cinematic Artist<span class="credits__zh-role">（特效/过场影像美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshiaki Mori</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Studio RF / </small>Movie Direction</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Studio RF / </small>Movie Direction<span class="credits__zh-role">（影像指导）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/higa-romanov/">Romanov Higa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 8 部 GF 自研作品里有开发职务署名，最早 2016）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Digital Frontier Inc. / </small>Asset Modeling</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Digital Frontier Inc. / </small>Asset Modeling<span class="credits__zh-role">（Asset 建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takashi Watanabe</li>
 <li class="credits__name">Choi En Suk</li>
 <li class="credits__name">Leow Wei Liang</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design<span class="credits__ja-role">Asset Modeling</span></h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Animation Design<span class="credits__zh-role">（组长动画设计）</span><span class="credits__ja-role">Asset Modeling</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Momoko Chiba</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Animation Design<span class="credits__zh-role">（动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chiharu Hayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Lead Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Lead Animation Design<span class="credits__zh-role">（组长动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/takahashi-yousuke/">Yosuke Takahashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2013）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Animation Design<span class="credits__zh-role">（动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/hidaka-hiromichi/">Hiromichi Hidaka</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2013）"></li>
 <li class="credits__name is-gf"><a href="/people/yamato-asuka/">Asuka Yamato</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 5 部 GF 自研作品里有开发职务署名，最早 2019）"></li>
@@ -417,40 +417,40 @@ gf_count: 26
 <li class="credits__name is-gf">Fumio Fujii<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2022）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Lead Real-Time Demo Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Lead Real-Time Demo Animation Design<span class="credits__zh-role">（组长 Real-Time 演示动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Kazuaki Toya<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2013）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Real-Time Demo Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment / </small>Real-Time Demo Animation Design<span class="credits__zh-role">（Real-Time 演示动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Yosuke Tanahashi<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2013）"></li>
 <li class="credits__name is-gf"><a href="/people/yoda-maria/">Maria Yoda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 5 部 GF 自研作品里有开发职务署名，最早 2019）"></li>
 <li class="credits__name">Hokuto Abe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Act-Age Inc. / </small>Management</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Act-Age Inc. / </small>Management<span class="credits__zh-role">（管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kosuke Sasaki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / Act-Age Inc. / </small>Animation Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / Act-Age Inc. / </small>Animation Design<span class="credits__zh-role">（动画设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mika Kamataki</li>
 <li class="credits__name">Daisaku Chikyo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Sound Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Sound Design<span class="credits__zh-role">（组长音响设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shiori Miyazawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Music Composer</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Lead Music Composer<span class="credits__zh-role">（组长音乐作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroki Hashimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design<span class="credits__zh-role">（音响设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshinori Kawamoto</li>
 <li class="credits__name">Rio Hamamoto</li>
@@ -467,19 +467,19 @@ gf_count: 26
 <li class="credits__name">Yuki Kusuhara</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Music Composers</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Music Composers<span class="credits__zh-role">（音乐作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Junichi Nakatsuru</li>
 <li class="credits__name">Jesahm</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design &amp; Music Composers</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Sound Design &amp; Music Composers<span class="credits__zh-role">（音响设计与音乐作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">LindaAI-CUE</li>
 <li class="credits__name">Yoshinori Hirai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mizushima Yoshinari</li>
 <li class="credits__name">Hiyu Demachi</li>
@@ -488,41 +488,41 @@ gf_count: 26
 <li class="credits__name">Saki Mabuchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Management</h3>
+<h3><small>BANDAI NAMCO Studios Inc. / </small>Art Management<span class="credits__zh-role">（美术管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Ando</li>
 <li class="credits__name">Motoki Shiino</li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer</h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jun Omura</li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producers</h3>
+<h3>General Producers<span class="credits__zh-role">（总制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsuyoshi Kobayashi</li>
 <li class="credits__name">Toshiharu Hijiya</li>
 <li class="credits__name">Shinya Sorimachi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daisuke Uchiyama</li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">The Pokémon Company / Producers</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">The Pokémon Company / Producers</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 <li class="credits__name">Kazunori Sugiura <small>杉浦一徳</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Development Producer</h3>
+<h3><small>The Pokémon Company / </small>Development Producer<span class="credits__zh-role">（开发制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kunimu Kawamura <small>川村久仁美</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Development Support</h3>
+<h3><small>The Pokémon Company / </small>Development Support<span class="credits__zh-role">（开发支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/fujita-osamu/">Osamu Fujita</a></li>
 <li class="credits__name">Makoto Higashi</li>
@@ -530,25 +530,25 @@ gf_count: 26
 <li class="credits__name">Madoka Nishizawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Debug</h3>
+<h3><small>The Pokémon Company / </small>Debug<span class="credits__zh-role">（调试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koji Takiguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Artwork</h3>
+<h3><small>The Pokémon Company / </small>Artwork<span class="credits__zh-role">（美术素材）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-yasuko/">Yasuko Takahashi</a></li>
 <li class="credits__name">Misato Takahashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Chinese Localization</h3>
+<h3><small>The Pokémon Company / </small>Chinese Localization<span class="credits__zh-role">（中文本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/matsunaga-mitsuyo/">Mitsuyo Matsunaga</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2010）"></li>
 <li class="credits__name"><a href="/people/aota-yoshiko/">Yoshiko Aota</a></li>
 <li class="credits__name">Yu Nagao</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Chinese Translation</h3>
+<h3><small>The Pokémon Company / </small>Chinese Translation<span class="credits__zh-role">（中文翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yenchen Lin</li>
 <li class="credits__name">Yuting Tu</li>
@@ -558,14 +558,14 @@ gf_count: 26
 <li class="credits__name"><a href="/people/liao-endai/">Endai Liao</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Chinese Editing</h3>
+<h3><small>The Pokémon Company / </small>Chinese Editing<span class="credits__zh-role">（中文编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tsai-huiying/">Huiying Tsai</a></li>
 <li class="credits__name is-gf"><a href="/people/wang-yue/">Yue Wang</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2022）"></li>
 <li class="credits__name"><a href="/people/huang-chungte/">Chungte Huang</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Sales &amp; Promotion</h3>
+<h3><small>The Pokémon Company / </small>Sales &amp; Promotion<span class="credits__zh-role">（销售与宣传）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lu-lai-dao-ying-jie/">Eisuke Kasejima</a></li>
 <li class="credits__name">Nobuhiro Swabe</li>
@@ -586,7 +586,7 @@ gf_count: 26
 <li class="credits__name">Mizuke Watanabe</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Maiko Isami</li>
 <li class="credits__name">Marie Higuchi</li>
@@ -617,7 +617,7 @@ gf_count: 26
 <li class="credits__name is-gf"><a href="/people/mitsuhara-satoshi/">Satoshi Mitsuhara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2004）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>English Localization<span class="credits__ja-role">The Pokémon Company International / English Localization</span></h3>
+<h3><small>The Pokémon Company International / </small>English Localization<span class="credits__zh-role">（英语本地化）</span><span class="credits__ja-role">The Pokémon Company International / English Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
 <li class="credits__name"><a href="/people/todo-mayu/">Mayu Todo</a></li>
@@ -625,7 +625,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/mihashi-terry/">Terry Mihashi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>European Localisation</h3>
+<h3><small>The Pokémon Company International / </small>European Localisation<span class="credits__zh-role">（欧洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aoki-kaori/">Kaori Aoki</a></li>
 <li class="credits__name"><a href="/people/wakai-makiko/">Makiko Wakai</a></li>
@@ -647,7 +647,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/haberberg-rei/">Rei Haberberg</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>English &amp; European Localization Support</h3>
+<h3><small>The Pokémon Company International / </small>English &amp; European Localization Support<span class="credits__zh-role">（英语与欧洲本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hines-jeff/">Jeff Hines</a></li>
 <li class="credits__name"><a href="/people/colling-robert/">Robert Colling</a></li>
@@ -656,14 +656,14 @@ gf_count: 26
 <li class="credits__name"><a href="/people/bagley-peter/">Peter Bagley</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>English &amp; European Graphic Design</h3>
+<h3><small>The Pokémon Company International / </small>English &amp; European Graphic Design<span class="credits__zh-role">（英欧版图形设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/stephens-dan/">Dan Stephens</a></li>
 <li class="credits__name"><a href="/people/pedini-mark/">Mark Pedini</a></li>
 <li class="credits__name">Tammy Vince Cruz</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>English Translation</h3>
+<h3><small>The Pokémon Company International / </small>English Translation<span class="credits__zh-role">（英语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/munday-sayuri/">Sayuri Munday</a></li>
 <li class="credits__name">Laura Barolomew</li>
@@ -672,7 +672,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/williamsbrown-shawn/">Shawn Williams-Brown</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>English Editing</h3>
+<h3><small>The Pokémon Company International / </small>English Editing<span class="credits__zh-role">（英语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ballard-kellyn/">Kellyn Ballard</a></li>
 <li class="credits__name">Isaac Nickerson</li>
@@ -681,7 +681,7 @@ gf_count: 26
 <li class="credits__name">Dermot Creegan</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>French Translation</h3>
+<h3><small>The Pokémon Company International / </small>French Translation<span class="credits__zh-role">（法语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/khrissate-lylia/">Lylia Khrissate</a></li>
 <li class="credits__name"><a href="/people/pradier-noemie/">Noemie Pradier</a></li>
@@ -691,13 +691,13 @@ gf_count: 26
 <li class="credits__name"><a href="/people/sindres-nicolas/">Nicolas Sindres</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>French Editing</h3>
+<h3><small>The Pokémon Company International / </small>French Editing<span class="credits__zh-role">（法语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/vallee-marine/">Marine Vallee</a></li>
 <li class="credits__name"><a href="/people/garel-thomas/">Thomas Garel</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Italian Translation</h3>
+<h3><small>The Pokémon Company International / </small>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/spera-annarita/">Annarita Spera</a></li>
 <li class="credits__name"><a href="/people/vanin-jacopo/">Jacopo Vanin</a></li>
@@ -707,7 +707,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/suriano-manuela/">Manuela Suriano</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Italian Editing</h3>
+<h3><small>The Pokémon Company International / </small>Italian Editing<span class="credits__zh-role">（意大利语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Marco Licatelli</li>
 <li class="credits__name"><a href="/people/pirruccio-guendalina/">Guendalina Pirruccio</a></li>
@@ -718,7 +718,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/troiani-alice/">Alice Troiani</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>German Translation</h3>
+<h3><small>The Pokémon Company International / </small>German Translation<span class="credits__zh-role">（德语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kalms-kathleen/">Kathleen Kalms</a></li>
 <li class="credits__name"><a href="/people/maibach-carolin/">Carolin Maibach</a></li>
@@ -728,7 +728,7 @@ gf_count: 26
 <li class="credits__name">Jan Lukas Kuhn</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>German Editing</h3>
+<h3><small>The Pokémon Company International / </small>German Editing<span class="credits__zh-role">（德语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/radko-ireneusz/">Ireneusz Radko</a></li>
 <li class="credits__name">Kristin Biwer</li>
@@ -739,7 +739,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/vaterhaus-sira/">Sira Vaterhaus</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Spanish Translation</h3>
+<h3><small>The Pokémon Company International / </small>Spanish Translation<span class="credits__zh-role">（西班牙语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mendoza-alicia-iribarren/">Alicia Iribarren Mendoza</a></li>
 <li class="credits__name"><a href="/people/diaz-servando-doval/">Servando Doval Diaz</a></li>
@@ -747,7 +747,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/campa-diego-luque-de-la/">Diego Luque De la Campa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Spanish Editing</h3>
+<h3><small>The Pokémon Company International / </small>Spanish Editing<span class="credits__zh-role">（西班牙语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/grana-eva-rodriguez/">Eva Rodriguez Grana</a></li>
 <li class="credits__name"><a href="/people/jimenez-juan-jose-leiva/">Juan Jose Leiva Jimenez</a></li>
@@ -758,57 +758,57 @@ gf_count: 26
 <li class="credits__name"><a href="/people/vargasfarias-pindaro/">Pindaro Vargas-Farias</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Sound Crew / </small>Producer<span class="credits__ja-role">Sound Crew / Producer</span></h3>
+<h3><small>The Pokémon Company International / Sound Crew / </small>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">Sound Crew / Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshifumi Yoshida</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Sound Crew / </small>Supervising Producer</h3>
+<h3><small>The Pokémon Company International / Sound Crew / </small>Supervising Producer<span class="credits__zh-role">（Supervising 制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/gose-andy/">Andy Gose</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Co-Executive Producer</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Co-Executive Producer<span class="credits__zh-role">（Co-Executive 制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eric P. Sherman</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Co-Producer / Casting Director</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Co-Producer / Casting Director<span class="credits__zh-role">（Co-Producer / Casting 总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mami Okada</li>
 </ul></section>
 <section class="credits__section">
-<h3>Associate Producer</h3>
+<h3>Associate Producer<span class="credits__zh-role">（副制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mio Moroe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Executive</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Executive<span class="credits__zh-role">（制作执行）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jonathan Sherman</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>English Voice Director</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>English Voice Director<span class="credits__zh-role">（英语配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Philip Bache</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>ADR Script Writer<span class="credits__ja-role">English Voice Director</span></h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>ADR Script Writer<span class="credits__zh-role">（后期配音脚本撰稿）</span><span class="credits__ja-role">English Voice Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nick Turner</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Senior Production Manager</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Senior Production Manager<span class="credits__zh-role">（资深制作经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">AJ Gam</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Manager</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Manager<span class="credits__zh-role">（制作经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jessica Peace</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Coordinators</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Production Coordinators<span class="credits__zh-role">（制作协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mizuki Araki</li>
 <li class="credits__name">Cassandra Pugliese</li>
@@ -817,28 +817,28 @@ gf_count: 26
 <li class="credits__name">Robert G. Mah</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Sound Supervisor</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Sound Supervisor<span class="credits__zh-role">（音响监修）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Patrick Rodman CAS</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Recording EnNgineers<span class="credits__ja-role">Recording Engineers</span></h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Recording EnNgineers<span class="credits__zh-role">（录音 EnNgineers）</span><span class="credits__ja-role">Recording Engineers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eric Raichelson</li>
 <li class="credits__name">Jun Umeda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Dialogue Editor</h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Dialogue Editor<span class="credits__zh-role">（对白编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">April Machado</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Audio Operations Superivosr<span class="credits__ja-role">Audio Operations Superivisor</span></h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Audio Operations Superivosr<span class="credits__zh-role">（音频运营 Superivosr）</span><span class="credits__ja-role">Audio Operations Superivisor</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rayner Tham</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Assistant Engineers<span class="credits__ja-role">Audio Operations Superivisor</span></h3>
+<h3><small>The Pokémon Company International / Bang Zoom! Entertainment / </small>Assistant Engineers<span class="credits__zh-role">（助理工程师）</span><span class="credits__ja-role">Audio Operations Superivisor</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jonathan Jay Brannen</li>
 <li class="credits__name">John Shieh</li>
@@ -848,13 +848,13 @@ gf_count: 26
 <li class="credits__name">Keeley Pierson</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okubo-kenji/">Kenji Okubo</a></li>
 <li class="credits__name"><a href="/people/susai-gaku/">Gaku Susai</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Pokémon Korea, Inc. / </small>Korean Translation &amp; Editing<span class="credits__ja-role">Pokémon Korea, Inc. / Korean Translation &amp; Editing</span></h3>
+<h3><small>The Pokémon Company International / Pokémon Korea, Inc. / </small>Korean Translation &amp; Editing<span class="credits__zh-role">（韩语翻译与编辑）</span><span class="credits__ja-role">Pokémon Korea, Inc. / Korean Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/choi-mihwa/">Mihwa Choi</a></li>
 <li class="credits__name"><a href="/people/byun-jieun/">Jieun Byun</a></li>
@@ -864,13 +864,13 @@ gf_count: 26
 <li class="credits__name"><a href="/people/eunbi-jo/">Eunbi Jo</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lim-jaiboem/">Jaiboem Lim</a></li>
 <li class="credits__name"><a href="/people/lee-jihye/">Jihye Lee</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of America / </small>English Localization Support<span class="credits__ja-role">Nintendo of America Inc. / English Localization Support</span></h3>
+<h3><small>The Pokémon Company International / Nintendo of America / </small>English Localization Support<span class="credits__zh-role">（英语本地化支持）</span><span class="credits__ja-role">Nintendo of America Inc. / English Localization Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kasugayama-akiko/">Akiko Kasugayama</a></li>
 <li class="credits__name"><a href="/people/ammerman-lauren/">Lauren Ammerman</a></li>
@@ -880,7 +880,7 @@ gf_count: 26
 <li class="credits__name"><a href="/people/bales-michael/">Michael Bales</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of America / </small>NOA Product Testing</h3>
+<h3><small>The Pokémon Company International / Nintendo of America / </small>NOA Product Testing<span class="credits__zh-role">（NOA 产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishimura-kentaro/">Kentaro Nishimura</a></li>
 <li class="credits__name"><a href="/people/buchanan-kirk/">Kirk Buchanan</a></li>
@@ -901,19 +901,19 @@ gf_count: 26
 <li class="credits__name is-company">Product Testing Technicians</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Localisation Support</h3>
+<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Localisation Support<span class="credits__zh-role">（欧洲本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Dario De Leo</li>
 <li class="credits__name"><a href="/people/thorenz-patrick/">Patrick Thorenz</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Quality Assurance Coordination</h3>
+<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Quality Assurance Coordination<span class="credits__zh-role">（欧洲品质保证协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/cuadra-jesus-gutierrez/">Jesús Gutiérrez Cuadra</a></li>
 <li class="credits__name"><a href="/people/gruden-marco/">Marco Gruden</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Quality Assurance</h3>
+<h3><small>The Pokémon Company International / Nintendo of Europe GmbH / </small>European Quality Assurance<span class="credits__zh-role">（欧洲品质保证）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/bounouar-ahmed/">Ahmed Bounouar</a></li>
 <li class="credits__name">Matthiew Lamouroux</li>
@@ -938,49 +938,49 @@ gf_count: 26
 <li class="credits__name">Grace Yon</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of Korea Co., Ltd. / </small>Korean Localization Support</h3>
+<h3><small>The Pokémon Company International / Nintendo of Korea Co., Ltd. / </small>Korean Localization Support<span class="credits__zh-role">（韩语本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kim-dongyeon/">Dongyeon Kim</a></li>
 <li class="credits__name">Jihyuen Yoo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo of Korea Co., Ltd. / </small>Korean Testing &amp; Quality Assurance</h3>
+<h3><small>The Pokémon Company International / Nintendo of Korea Co., Ltd. / </small>Korean Testing &amp; Quality Assurance<span class="credits__zh-role">（韩语测试与品质保证）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jeewan Chun</li>
 <li class="credits__name is-company">OrgoSoft Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo (Hong Kong) Ltd. / </small>Tradiitonal CHinese Localization Support<span class="credits__ja-role">Nintendo (Hong Kong) Ltd. / Traditional Chinese Localization Support</span></h3>
+<h3><small>The Pokémon Company International / Nintendo (Hong Kong) Ltd. / </small>Tradiitonal CHinese Localization Support<span class="credits__zh-role">（Tradiitonal 中文本地化支持）</span><span class="credits__ja-role">Nintendo (Hong Kong) Ltd. / Traditional Chinese Localization Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wang Zhong Long</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo (Hong Kong) Ltd. / </small>Traditonal Chinese Product Testing<span class="credits__ja-role">Traditional Chinese Product Testing</span></h3>
+<h3><small>The Pokémon Company International / Nintendo (Hong Kong) Ltd. / </small>Traditonal Chinese Product Testing<span class="credits__zh-role">（Traditonal 中文产品测试）</span><span class="credits__ja-role">Traditional Chinese Product Testing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Umemura Eiji</li>
 <li class="credits__name is-company">DIGITAL HEARTS Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / iQue (China) Ltd. / </small>Simplified Chinese Localization Support</h3>
+<h3><small>The Pokémon Company International / iQue (China) Ltd. / </small>Simplified Chinese Localization Support<span class="credits__zh-role">（简体中文本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/fukushima-keisuke/">Keisuke Fukushima</a></li>
 <li class="credits__name"><a href="/people/matsumoto-misa/">Misa Matsumoto</a></li>
 <li class="credits__name"><a href="/people/ming-xu/">Xu Ming</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / iQue (China) Ltd. / </small>Simplified Chinese Product Testing</h3>
+<h3><small>The Pokémon Company International / iQue (China) Ltd. / </small>Simplified Chinese Product Testing<span class="credits__zh-role">（简体中文产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chen Yi Jun</li>
 <li class="credits__name is-company">DIGITAL HEARTS Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Mario Club Co., Ltd. / </small>Testing Management</h3>
+<h3><small>The Pokémon Company International / Mario Club Co., Ltd. / </small>Testing Management<span class="credits__zh-role">（测试管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kumasaka-takahiro/">Takahiro Kumasaka</a></li>
 <li class="credits__name"><a href="/people/nakajima-motoki/">Motoki Nakajima</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Mario Club Co., Ltd. / </small>Product Testing</h3>
+<h3><small>The Pokémon Company International / Mario Club Co., Ltd. / </small>Product Testing<span class="credits__zh-role">（产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tasuku Mizuno</li>
 <li class="credits__name">Masahiro Okuda</li>
@@ -997,7 +997,7 @@ gf_count: 26
 <li class="credits__name is-company">SHIFT Inc,</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Nintendo Co., Ltd. / </small>Technical Support<span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
+<h3><small>The Pokémon Company International / Nintendo Co., Ltd. / </small>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/furukawa-shuhei/">Shuhei Furukawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 10 部 GF 自研作品里有开发职务署名，最早 2012）"></li>
 <li class="credits__name is-gf"><a href="/people/minato-kyohei/">Kyohei Minato</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2018）"></li>
@@ -1009,40 +1009,40 @@ gf_count: 26
 <li class="credits__name is-gf"><a href="/people/ninomiya-kei/">Kei Ninomiya</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2022）"> <small>二宮啓</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Coordinators</h3>
+<h3><small>The Pokémon Company International / </small>Coordinators<span class="credits__zh-role">（协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okada-yuki/">Yuki Okada</a></li>
 <li class="credits__name"><a href="/people/nakagawa-noriko/">Noriko Nakagawa</a></li>
 <li class="credits__name">Masahiro Shiotani</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoichi Yamamoto <small>山本洋一</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nonaka-toyokazu/">Toyokazu Nonaka</a> <small>野中豊和</small></li>
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>木梨玲</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producer</h3>
+<h3>General Producer<span class="credits__zh-role">（总制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-shinya/">Shinya Takahashi</a> <small>高橋伸也</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/furukawa-shuntaro/">Shuntaro Furukawa</a> <small>古川俊太郎</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Pokémon Voice Actor</h3>
+<h3><small>The Pokémon Company International / </small>Pokémon Voice Actor<span class="credits__zh-role">（宝可梦配音演员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/otani-ikue/">Ikue Otani</a> <small>大谷育江</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Character Voice Actor</h3>
+<h3><small>The Pokémon Company International / </small>Character Voice Actor<span class="credits__zh-role">（角色配音演员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Prof. Kagami - Ryotaro Okiayu</li>
 <li class="credits__name">Professor Mirror  - Ben Lepley</li>
@@ -1054,27 +1054,27 @@ gf_count: 26
 <li class="credits__name">Phil - Erica Mendez</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Director</h3>
+<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Director<span class="credits__zh-role">（音响总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mima-masafumi/">Masafumi Mima</a> <small>三間雅文</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Character Voice Actor / </small>Technical Cooperation</h3>
+<h3><small>The Pokémon Company International / Character Voice Actor / </small>Technical Cooperation<span class="credits__zh-role">（技术协力）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Aoi Studio</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Production</h3>
+<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Production<span class="credits__zh-role">（音响制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">HALF HP Studio <small>HALF H・P STUDIO</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Cooperation</h3>
+<h3><small>The Pokémon Company International / Character Voice Actor / </small>Sound Cooperation<span class="credits__zh-role">（音响协力）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Shogakukan-Shueisha Productions Co., Ltd. <small>小学館集英社プロダクション</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company International / </small>Pokémon Original Director<span class="credits__ja-role">Powered by Wwise(C) 2006 - 2021 Audiokinetic Inc. All rights reserved. / Uses Oodle. Copyright (C) 2008 - 2021 by Epic Games Tools, LLC. / Pokémon Original Director</span></h3>
+<h3><small>The Pokémon Company International / </small>Pokémon Original Director<span class="credits__zh-role">（宝可梦原作总监）</span><span class="credits__ja-role">Powered by Wwise(C) 2006 - 2021 Audiokinetic Inc. All rights reserved. / Uses Oodle. Copyright (C) 2008 - 2021 by Epic Games Tools, LLC. / Pokémon Original Director</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智</small></li>
 </ul></section>
@@ -1099,7 +1099,7 @@ gf_count: 26
 <li class="credits__name">Shigefumi Kawase <small>川瀬滋史</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">The Pokémon Company / Executive Producer</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">The Pokémon Company / Executive Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>
 </ul></section>

@@ -8,102 +8,102 @@ sitemap: true
 gf_count: 35
 ---
 <section class="credits__section">
-<h3>Concept &amp; Senior Director<span class="credits__ja-role">コンセプト&amp;シニアディレクター</span></h3>
+<h3>Concept &amp; Senior Director<span class="credits__zh-role">（概念与资深总监）</span><span class="credits__ja-role">コンセプト&amp;シニアディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ohmori-shigeru/">Shigeru Omori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 15 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>大森滋 · おおもり しげる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Chief Director<span class="credits__ja-role">チーフディレクター</span></h3>
+<h3>Chief Director<span class="credits__zh-role">（主任总监）</span><span class="credits__ja-role">チーフディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/edagawa-takuto/">Takuto Edagawa</a> <small>えだがわ たくと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tatsuto Tsuchishita <small>つちした たつと</small></li>
 <li class="credits__name is-gf"><a href="/people/shimoyamada-teruyuki/">Teruyuki Shimoyamada</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 13 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>しもやまだ てるゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Narrative Director<span class="credits__ja-role">ナラティブディレクター</span></h3>
+<h3>Narrative Director<span class="credits__zh-role">（叙事总监）</span><span class="credits__ja-role">ナラティブディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/taya-masao/">Masao Taya</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 10 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>たや まさお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Director<span class="credits__ja-role">アートディレクター</span></h3>
+<h3>Art Director<span class="credits__zh-role">（美术总监）</span><span class="credits__ja-role">アートディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ayano-marina/">Marina Ayano</a> <small>あやの まりな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>2D Graphic Director<span class="credits__ja-role">2Dグラフィックディレクター</span></h3>
+<h3>2D Graphic Director<span class="credits__zh-role">（2D 图形总监）</span><span class="credits__ja-role">2Dグラフィックディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ibe-mana/">Mana Ibe</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 10 部 GF 自研作品里有开发职务署名，最早 2010）"> <small>井部真那 · いべ まな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>3D Graphic Director<span class="credits__ja-role">3Dグラフィックディレクター</span></h3>
+<h3>3D Graphic Director<span class="credits__zh-role">（3D 图形总监）</span><span class="credits__ja-role">3Dグラフィックディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/uono-noriko/">Noriko Uono</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2019）"> <small>うおの のりこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Director &amp; Composer<span class="credits__ja-role">サウンドディレクター&amp;さっきょく</span></h3>
+<h3>Sound Director &amp; Composer<span class="credits__zh-role">（音响总监与作曲）</span><span class="credits__ja-role">サウンドディレクター&amp;さっきょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromu Akaba <small>あかば ひろむ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hisashi Koinuma <small>こいぬま ひさし</small></li>
 <li class="credits__name"><a href="/people/sowa-takanori/">Takanori Sowa</a> <small>株式会社ポケモン · そわ たかのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Project Managers<span class="credits__ja-role">かぶしきがいしゃコーエーテクモゲームス オメガフォース / プロジェクトマネージャー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Project Managers<span class="credits__zh-role">（项目经理）</span><span class="credits__ja-role">かぶしきがいしゃコーエーテクモゲームス オメガフォース / プロジェクトマネージャー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takashi Morinaka <small>もりなが たかし</small></li>
 <li class="credits__name">Nagisa Ikegami <small>いけがみ なぎさ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Game Designer<span class="credits__ja-role">リードプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Game Designer<span class="credits__zh-role">（组长游戏设计）</span><span class="credits__ja-role">リードプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Megumi Sawada <small>さわだ めぐみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Engineers<span class="credits__ja-role">リードプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Engineers<span class="credits__zh-role">（组长工程师）</span><span class="credits__ja-role">リードプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yu Ito <small>いとう ゆう</small></li>
 <li class="credits__name">Kengo Ida <small>いいだ けんご</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead World Building Designer<span class="credits__ja-role">ワールドチームリーダー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead World Building Designer<span class="credits__zh-role">（组长世界观 Building 设计）</span><span class="credits__ja-role">ワールドチームリーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuhei Nakagiri <small>なかぎり ゆうへい</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Life Activities Designer<span class="credits__ja-role">ライフチームリーダー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Life Activities Designer<span class="credits__zh-role">（组长 Life Activities 设计）</span><span class="credits__ja-role">ライフチームリーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hirokazu Iwase <small>いわせ ひろかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Community Designer<span class="credits__ja-role">コミュニケーションチームリーダー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Lead Community Designer<span class="credits__zh-role">（组长 Community 设计）</span><span class="credits__ja-role">コミュニケーションチームリーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshiko Ono <small>おおの よしこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Design Lead Artist<span class="credits__ja-role">リードアーティスト / キャラクターデザイン</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Design Lead Artist<span class="credits__zh-role">（美术设计组长美术）</span><span class="credits__ja-role">リードアーティスト / キャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Aya Shioki <small>しおき あや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Character Modeling<span class="credits__ja-role">キャラクターモデル</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Character Modeling<span class="credits__zh-role">（角色建模）</span><span class="credits__ja-role">キャラクターモデル</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Misaki Akagi <small>あかぎ みさき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Object Modeling<span class="credits__ja-role">オブジェクトモデル</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Object Modeling<span class="credits__zh-role">（Object 建模）</span><span class="credits__ja-role">オブジェクトモデル</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eri Ikeda <small>いけだ えり</small></li>
 <li class="credits__name">Tatsuya Uchida <small>うちだ たつや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Environment Art<span class="credits__ja-role">はいけい・ライティング</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Environment Art<span class="credits__zh-role">（环境美术）</span><span class="credits__ja-role">はいけい・ライティング</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hokuto Kurihara <small>くりはら ほくと</small></li>
 </ul></section>
@@ -113,33 +113,33 @@ gf_count: 35
 <li class="credits__name">Asami Kushida <small>くしだ あさみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Character Animation<span class="credits__ja-role">モーション</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Character Animation<span class="credits__zh-role">（角色动画）</span><span class="credits__ja-role">モーション</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasukazu Ono <small>おの やすかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Interface Design<span class="credits__ja-role">インターフェイス</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Interface Design<span class="credits__zh-role">（界面设计）</span><span class="credits__ja-role">インターフェイス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wataru Ishida <small>いしだ わたる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>VFX Design<span class="credits__ja-role">リードアーティスト / エフェクト</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>VFX Design<span class="credits__zh-role">（特效设计）</span><span class="credits__ja-role">リードアーティスト / エフェクト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryo Minamitani <small>みなみたに りょう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Technical Art<span class="credits__ja-role">テクニカルアート</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Lead Artists / </small>Technical Art<span class="credits__zh-role">（技术美术）</span><span class="credits__ja-role">テクニカルアート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ayaka Naito <small>ないとう あやか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Level Design<span class="credits__ja-role">プランナーパートリーダー / レベルデザイン</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Level Design<span class="credits__zh-role">（关卡设计）</span><span class="credits__ja-role">プランナーパートリーダー / レベルデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yunosuke Nagafusa <small>ながふさ ゆうのすけ</small></li>
 <li class="credits__name">Satoshi Kokubo <small>こくぼ さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Game Cycle<span class="credits__ja-role">ゲームサイクル</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Game Cycle<span class="credits__zh-role">（游戏 Cycle）</span><span class="credits__ja-role">ゲームサイクル</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daichi Kobayashi <small>こばやし だいち</small></li>
 </ul></section>
@@ -149,43 +149,43 @@ gf_count: 35
 <li class="credits__name">Kento Maeda <small>まえだ けんと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Action<span class="credits__ja-role">アクション</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Action<span class="credits__zh-role">（动作）</span><span class="credits__ja-role">アクション</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaya Kuzu <small>くずう まさや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>NPC Behavior Design<span class="credits__ja-role">こうどうせいぎょ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>NPC Behavior Design<span class="credits__zh-role">（NPC Behavior 设计）</span><span class="credits__ja-role">こうどうせいぎょ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shogo Kanda <small>かんだ しょうご</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Dialogue Design<span class="credits__ja-role">イベント</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Dialogue Design<span class="credits__zh-role">（对白设计）</span><span class="credits__ja-role">イベント</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ayano Matsuo <small>まつお あやの</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>User Interface<span class="credits__ja-role">UI</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>User Interface<span class="credits__zh-role">（User 界面）</span><span class="credits__ja-role">UI</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sayuri Hayashi <small>はやし さゆり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Network Gameplay<span class="credits__ja-role">ネットワーク</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Network Gameplay<span class="credits__zh-role">（网络 Gameplay）</span><span class="credits__ja-role">ネットワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsubasa Takenaga <small>たけなが つばさ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Text &amp; Localization<span class="credits__ja-role">テキスト・ローカライズ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Game Designers / </small>Text &amp; Localization<span class="credits__zh-role">（文本与本地化）</span><span class="credits__ja-role">テキスト・ローカライズ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kaori Yano <small>やの かおり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Level Design<span class="credits__ja-role">プログラムパートリーダー / レベルデザイン</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Level Design<span class="credits__zh-role">（关卡设计）</span><span class="credits__ja-role">プログラムパートリーダー / レベルデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fuma Tsujiguchi <small>つじぐち ふうま</small></li>
 <li class="credits__name">Yuki Ito <small>いとう ゆうき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Game Cycle<span class="credits__ja-role">ゲームサイクル</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Game Cycle<span class="credits__zh-role">（游戏 Cycle）</span><span class="credits__ja-role">ゲームサイクル</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fuma Tsujiguchi <small>つじぐち ふうま</small></li>
 </ul></section>
@@ -195,38 +195,38 @@ gf_count: 35
 <li class="credits__name">Fuma Tsujiguchi <small>つじぐち ふうま</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Action<span class="credits__ja-role">アクション</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Action<span class="credits__zh-role">（动作）</span><span class="credits__ja-role">アクション</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hideaki Kagami <small>かがみ ひであき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>NPC Behavior Design<span class="credits__ja-role">こうどうせいぎょ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>NPC Behavior Design<span class="credits__zh-role">（NPC Behavior 设计）</span><span class="credits__ja-role">こうどうせいぎょ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kaori Tada <small>ただ かおり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Dialogue Design<span class="credits__ja-role">イベント</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>Dialogue Design<span class="credits__zh-role">（对白设计）</span><span class="credits__ja-role">イベント</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kosuke Kono <small>こうの こうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>User Interface<span class="credits__ja-role">UI</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Senior Engineers / </small>User Interface<span class="credits__zh-role">（User 界面）</span><span class="credits__ja-role">UI</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuo Yoshida <small>よしだ やすお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Network Gameplay<span class="credits__ja-role">ネットワーク</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Network Gameplay<span class="credits__zh-role">（网络 Gameplay）</span><span class="credits__ja-role">ネットワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kojiro Hashimoto <small>はしもと こうじろう</small></li>
 <li class="credits__name">Shogo Moriya <small>もりや しょうご</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Text &amp; Localization</h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Text &amp; Localization<span class="credits__zh-role">（文本与本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Juinzuo Lin</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Graphics<span class="credits__ja-role">グラフィックス</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Engineers Lead / </small>Graphics<span class="credits__zh-role">（图形）</span><span class="credits__ja-role">グラフィックス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryohei Watanabe <small>わたなべ りょうへい</small></li>
 </ul></section>
@@ -236,7 +236,7 @@ gf_count: 35
 <li class="credits__name">Juinzuo Lin</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Level Designers<span class="credits__ja-role">レベルデザインプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Level Designers<span class="credits__zh-role">（关卡设计）</span><span class="credits__ja-role">レベルデザインプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuta Nishigaichi <small>にしがいち ゆうた</small></li>
 <li class="credits__name">Daiki Funaiwa <small>ふないわ だいき</small></li>
@@ -248,13 +248,13 @@ gf_count: 35
 <li class="credits__name">Akihiro Kuretani <small>くれたに あきひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Building Blocks Designers<span class="credits__ja-role">ブロック&amp;オブジェクトプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Building Blocks Designers<span class="credits__zh-role">（Building Blocks 设计）</span><span class="credits__ja-role">ブロック&amp;オブジェクトプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuto Yamada <small>やまだ ゆうと</small></li>
 <li class="credits__name">Takumi Higaki <small>ひがき たくみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Building Blocks Engineers<span class="credits__ja-role">ブロック&amp;オブジェクトプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Building Blocks Engineers<span class="credits__zh-role">（Building Blocks 工程师）</span><span class="credits__ja-role">ブロック&amp;オブジェクトプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuhito Ozawa <small>おざわ かずひと</small></li>
 <li class="credits__name">Yukihiro Sato <small>さとう ゆきひろ</small></li>
@@ -263,37 +263,37 @@ gf_count: 35
 <li class="credits__name">Keito Yamaguchi <small>やまぐち けいと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Cycle Designer<span class="credits__ja-role">ゲームサイクルプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Cycle Designer<span class="credits__zh-role">（游戏 Cycle 设计）</span><span class="credits__ja-role">ゲームサイクルプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daichi Kunimatsu <small>くにまつ だいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Cycle Engineer<span class="credits__ja-role">ゲームサイクルプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Cycle Engineer<span class="credits__zh-role">（游戏 Cycle 工程师）</span><span class="credits__ja-role">ゲームサイクルプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michiru Kanaya <small>かなや みちる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>NPC Behavior Designers<span class="credits__ja-role">こうどうせいぎょプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>NPC Behavior Designers<span class="credits__zh-role">（NPC Behavior 设计）</span><span class="credits__ja-role">こうどうせいぎょプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyuki Suzuki <small>すずき ひろゆき</small></li>
 <li class="credits__name">Minori Kato <small>かとう みのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>NPC Behavior Engineers<span class="credits__ja-role">こうどうせいぎょプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>NPC Behavior Engineers<span class="credits__zh-role">（NPC Behavior 工程师）</span><span class="credits__ja-role">こうどうせいぎょプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koki Okazaki <small>おかざき こうき</small></li>
 <li class="credits__name">Kento Matsuba <small>まつば けんと</small></li>
 <li class="credits__name">Yuta Naganawa <small>ながなわ ゆうた</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Action Designers<span class="credits__ja-role">アクションプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Action Designers<span class="credits__zh-role">（动作设计）</span><span class="credits__ja-role">アクションプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kosuke Takagi <small>たかぎ こうすけ</small></li>
 <li class="credits__name">Naoyuki Ito <small>いとう なおゆき</small></li>
 <li class="credits__name">Ryo Koyama <small>こやま りょう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Action Engineers<span class="credits__ja-role">アクションプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Action Engineers<span class="credits__zh-role">（动作工程师）</span><span class="credits__ja-role">アクションプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinya Okada <small>おかだ しんや</small></li>
 <li class="credits__name">Koichi Okada <small>おかだ こういち</small></li>
@@ -301,7 +301,7 @@ gf_count: 35
 <li class="credits__name">Jianming Yin</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Dialogue Designers<span class="credits__ja-role">イベントプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Dialogue Designers<span class="credits__zh-role">（对白设计）</span><span class="credits__ja-role">イベントプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nami Nishimoto <small>にしもと なみ</small></li>
 <li class="credits__name">Hinako Takeda <small>たけだ ひなこ</small></li>
@@ -311,18 +311,18 @@ gf_count: 35
 <li class="credits__name">Yuto Kawabeta <small>かわばた ゆうと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Dialogue Engineers<span class="credits__ja-role">イベントプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Dialogue Engineers<span class="credits__zh-role">（对白工程师）</span><span class="credits__ja-role">イベントプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroki Takenaka <small>たけなが ひろき</small></li>
 <li class="credits__name">Taisei Kamada <small>かまだ たいせい</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>User Interface Designer<span class="credits__ja-role">UIプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>User Interface Designer<span class="credits__zh-role">（User 界面设计）</span><span class="credits__ja-role">UIプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuri Nagatsuka <small>ながつか ゆり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>User Interface Engineers<span class="credits__ja-role">UIプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>User Interface Engineers<span class="credits__zh-role">（User 界面工程师）</span><span class="credits__ja-role">UIプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kotaro Yamaguchi <small>やまぐち こうたろう</small></li>
 <li class="credits__name">Ryoichi Kusunaga <small>くすなが りょういち</small></li>
@@ -332,35 +332,35 @@ gf_count: 35
 <li class="credits__name">Narumi Watanabe <small>わたなべ なるみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Network Gameplay Designer<span class="credits__ja-role">ネットワークプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Network Gameplay Designer<span class="credits__zh-role">（网络 Gameplay 设计）</span><span class="credits__ja-role">ネットワークプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koshiro Okano <small>おかの こうしろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Network Gameplay Engineers<span class="credits__ja-role">ネットワークプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Network Gameplay Engineers<span class="credits__zh-role">（网络 Gameplay 工程师）</span><span class="credits__ja-role">ネットワークプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Moena Koshikiya <small>こしきや もえな</small></li>
 <li class="credits__name">Zhilin Yang</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Text &amp; Localization Designers<span class="credits__ja-role">テキスト・ローカライズプランナー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Text &amp; Localization Designers<span class="credits__zh-role">（文本与本地化设计）</span><span class="credits__ja-role">テキスト・ローカライズプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Zhiwei Ma</li>
 <li class="credits__name">Koki Abe <small>あべ こうき</small></li>
 <li class="credits__name">Tomohito Omura <small>おおむら ともひと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Graphics Engineer<span class="credits__ja-role">グラフィックスプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Graphics Engineer<span class="credits__zh-role">（图形工程师）</span><span class="credits__ja-role">グラフィックスプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuki Kanegami <small>かねがみ かずき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>DevOps Engineer</h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>DevOps Engineer<span class="credits__zh-role">（DevOps 工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chunhao Ding</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>System Engineers<span class="credits__ja-role">システムプログラマー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>System Engineers<span class="credits__zh-role">（系统工程师）</span><span class="credits__ja-role">システムプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masayoshi Yamada <small>やまだ まさよし</small></li>
 <li class="credits__name">Yusuke Kudo <small>くどう ゆうすけ</small></li>
@@ -368,7 +368,7 @@ gf_count: 35
 <li class="credits__name">Yusuke Ohara <small>おおはら ゆうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Scenario<span class="credits__ja-role">シナリオ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Scenario<span class="credits__zh-role">（剧本）</span><span class="credits__ja-role">シナリオ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Etsuko Maeno <small>まえの えつこ</small></li>
 <li class="credits__name">Yuki Ikeno <small>いけの ゆうき</small></li>
@@ -377,7 +377,7 @@ gf_count: 35
 <li class="credits__name">Sakura Ono <small>おおの さくら</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Designers<span class="credits__ja-role">キャラクターデザイン</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Designers<span class="credits__zh-role">（美术设计）</span><span class="credits__ja-role">キャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Asami Yamamoto <small>やまもと あさみ</small></li>
 <li class="credits__name">Yuka Hondo <small>ほんど ゆうか</small></li>
@@ -400,7 +400,7 @@ gf_count: 35
 <li class="credits__name">Kieu Thi Thuy Nhung</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Character Modeling Designers<span class="credits__ja-role">キャラクターモデル</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Character Modeling Designers<span class="credits__zh-role">（角色建模设计）</span><span class="credits__ja-role">キャラクターモデル</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rieko Kadoi <small>かどい りえこ</small></li>
 <li class="credits__name">Shunya Fukao <small>ふかお しゅんや</small></li>
@@ -436,7 +436,7 @@ gf_count: 35
 <li class="credits__name">Xu Zhen</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Environment Artists<span class="credits__ja-role">はいけい</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Environment Artists<span class="credits__zh-role">（环境美术）</span><span class="credits__ja-role">はいけい</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Misaki Takada <small>たかだ みさき</small></li>
 <li class="credits__name">Shiori Murata <small>むらた しおり</small></li>
@@ -448,7 +448,7 @@ gf_count: 35
 <li class="credits__name">Si Luyun</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Character Animators<span class="credits__ja-role">モーション</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Character Animators<span class="credits__zh-role">（角色动画）</span><span class="credits__ja-role">モーション</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rui Sato <small>さとう るい</small></li>
 <li class="credits__name">Sae Ito <small>いとう さえ</small></li>
@@ -468,7 +468,7 @@ gf_count: 35
 <li class="credits__name">Chen Juntao <small>チェン ジュンタオ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Interface Designers<span class="credits__ja-role">インターフェイス</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Interface Designers<span class="credits__zh-role">（界面设计）</span><span class="credits__ja-role">インターフェイス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yura Nishizaki <small>にしざき ゆら</small></li>
 <li class="credits__name">Yuka Tsukida <small>つきだ ゆか</small></li>
@@ -477,17 +477,17 @@ gf_count: 35
 <li class="credits__name">Kai Semmyo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Movie Designer<span class="credits__ja-role">えいぞうへんしゅう</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Movie Designer<span class="credits__zh-role">（影像设计）</span><span class="credits__ja-role">えいぞうへんしゅう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Moe Ishida <small>いしだ もえ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Cinematics</h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Cinematics<span class="credits__zh-role">（过场影像）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yilan Lu</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Technical Artists<span class="credits__ja-role">テクニカルアート</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Technical Artists<span class="credits__zh-role">（技术美术）</span><span class="credits__ja-role">テクニカルアート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naoya Okamoto <small>おかもと なおや</small></li>
 <li class="credits__name">Tsuyoshi Fukuyama <small>ふくやま つよし</small></li>
@@ -500,40 +500,40 @@ gf_count: 35
 <li class="credits__name">Kazuna Sakama <small>さかま かずな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Look Development Artist<span class="credits__ja-role">ルックデベロップメント</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Look Development Artist<span class="credits__zh-role">（视觉开发美术）</span><span class="credits__ja-role">ルックデベロップメント</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yu Oboshi <small>おおぼし ゆう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Direction Support<span class="credits__ja-role">CGディレクションサポート</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Art Direction Support<span class="credits__zh-role">（美术指导支持）</span><span class="credits__ja-role">CGディレクションサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuaki Suzuki <small>すずき やすあき</small></li>
 <li class="credits__name">Satoshi Iwase <small>いわせ さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>CG Supervisor<span class="credits__ja-role">CGひんしつかんり</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>CG Supervisor<span class="credits__zh-role">（CG 监修）</span><span class="credits__ja-role">CGひんしつかんり</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kentarou Yamamoto <small>やまもと けんたろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>CG Production Managers<span class="credits__ja-role">CGしんこうかんり</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>CG Production Managers<span class="credits__zh-role">（CG 制作经理）</span><span class="credits__ja-role">CGしんこうかんり</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshio Otake <small>おおたけ としお</small></li>
 <li class="credits__name">Kaito Yasuda <small>やすだ かいと</small></li>
 <li class="credits__name">Rena Kobayashi <small>こばやし れな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Sound Design &amp; Composer</h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Sound Design &amp; Composer<span class="credits__zh-role">（音响设计与作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jieun Kim</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Musicians / </small>Guitar<span class="credits__ja-role">えんそうしゃ / ギター</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Musicians / </small>Guitar<span class="credits__zh-role">（吉他）</span><span class="credits__ja-role">えんそうしゃ / ギター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromu Akaba <small>あかば ひろむ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Musicians / </small>Guitar, Mandolin<span class="credits__ja-role">ギター、マンドリン</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / Musicians / </small>Guitar, Mandolin<span class="credits__zh-role">（吉他、Mandolin）</span><span class="credits__ja-role">ギター、マンドリン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yugen Umemura <small>うめむら ゆうげん</small></li>
 </ul></section>
@@ -548,17 +548,17 @@ gf_count: 35
 <li class="credits__name">Saki Shimura <small>しむら さき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Lead<span class="credits__ja-role">ゲームエンジンリード</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Lead<span class="credits__zh-role">（游戏引擎组长）</span><span class="credits__ja-role">ゲームエンジンリード</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Taku Sugawara <small>すがわら たく</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Chief<span class="credits__ja-role">ゲームエンジンチーフ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Chief<span class="credits__zh-role">（游戏引擎主任）</span><span class="credits__ja-role">ゲームエンジンチーフ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hirofumi Tsuru <small>つる ひろふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Programming<span class="credits__ja-role">ゲームエンジンプログラミング</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Game Engine Programming<span class="credits__zh-role">（游戏引擎程序）</span><span class="credits__ja-role">ゲームエンジンプログラミング</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Tomizawa <small>とみざわ ゆうき</small></li>
 <li class="credits__name">Ryohei Tanaka <small>たなか りょうへい</small></li>
@@ -571,27 +571,27 @@ gf_count: 35
 <li class="credits__name">Katana Engine</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Director<span class="credits__ja-role">デバッグ / QAディレクター</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Director<span class="credits__zh-role">（QA 总监）</span><span class="credits__ja-role">デバッグ / QAディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoya Imai <small>いまい ともや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Lead<span class="credits__ja-role">デバッグ / QAディレクター</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Lead<span class="credits__zh-role">（QA 组长）</span><span class="credits__ja-role">デバッグ / QAディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yusuke Takei <small>たけい ゆうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Coordinator<span class="credits__ja-role">QAコーディネーター</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Coordinator<span class="credits__zh-role">（QA 协调）</span><span class="credits__ja-role">QAコーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rie Kumabe <small>くまべ りえ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Executive Producer<span class="credits__ja-role">QAエグゼクティブプロデューサー</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / QA / </small>QA Executive Producer<span class="credits__zh-role">（QA 执行制作人）</span><span class="credits__ja-role">QAエグゼクティブプロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazumi Fujita <small>ふじた かずみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>In Cooperation with</h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>In Cooperation with<span class="credits__zh-role">（协力）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">KOEI TECMO TIANJIN SOFTWARE</li>
 <li class="credits__name">KOEI TECMO BEIJING SOFTWARE</li>
@@ -607,44 +607,44 @@ gf_count: 35
 <li class="credits__name">Endo Misuzu <small>えんどう みすず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Legal<span class="credits__ja-role">ほうむ</span></h3>
+<h3><small>KOEI TECMO GAMES Co., Ltd. OMEGA FORCE / </small>Legal<span class="credits__zh-role">（法务）</span><span class="credits__ja-role">ほうむ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fumie Ina <small>いな ふみえ</small></li>
 <li class="credits__name">Yuki Onda <small>おんだ ゆうき</small></li>
 <li class="credits__name">Kazutaka Nakamura <small>なかむら かずたか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Scenario Planner<span class="credits__ja-role">かぶしきがいしゃゲームフリーク / シナリオプランナー</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Scenario Planner<span class="credits__zh-role">（剧本企划）</span><span class="credits__ja-role">かぶしきがいしゃゲームフリーク / シナリオプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sato-hitomi/">Hitomi Sato</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 2000）"> <small>佐藤仁美 · さとう ひとみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>UI Designer<span class="credits__ja-role">UIプランナー</span></h3>
+<h3><small>GAME FREAK Inc. / </small>UI Designer<span class="credits__zh-role">（界面设计）</span><span class="credits__ja-role">UIプランナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Seika Nakatsuji <small>なかつじ せいか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / UI Designer / </small>Partner</h3>
+<h3><small>GAME FREAK Inc. / UI Designer / </small>Partner<span class="credits__zh-role">（合作方）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">TECHBIZ Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>World &amp; Pokémon Settings<span class="credits__ja-role">せかいかんポケモンせってい</span></h3>
+<h3><small>GAME FREAK Inc. / </small>World &amp; Pokémon Settings<span class="credits__zh-role">（世界观与宝可梦设定）</span><span class="credits__ja-role">せかいかんポケモンせってい</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/hayashi-chihiro/">Chihiro Hayashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 2013）"> <small>はやし ちひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Sound Supervision<span class="credits__ja-role">サウンドかんしゅう</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Sound Supervision<span class="credits__zh-role">（音响监修）</span><span class="credits__ja-role">サウンドかんしゅう</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ichinose-go/">Go Ichinose</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 17 部 GF 自研作品里有开发职务署名，最早 1999）"> <small>一之瀬剛 · いちのせ ごう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Character Designer<span class="credits__ja-role">メタモンキャラクターデザイン</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Character Designer<span class="credits__zh-role">（角色设计）</span><span class="credits__ja-role">メタモンキャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/abe-kyoko/">Kyoko Abe</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2017）"> <small>あべ きょうこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Ditto Model Designers<span class="credits__ja-role">メタモンモデルせっけい</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Ditto Model Designers<span class="credits__zh-role">（Ditto 模型设计）</span><span class="credits__ja-role">メタモンモデルせっけい</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/yamamoto-yuki/">Yuki Yamamoto</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 2016）"> <small>やまもと ゆうき</small></li>
 <li class="credits__name is-gf"><a href="/people/yoshikawa-shinichi/">Shinichi Yoshikawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2022）"> <small>よしかわ しんいち</small></li>
@@ -655,81 +655,81 @@ gf_count: 35
 <li class="credits__name is-gf"><a href="/people/iwata-hideki/">Hideki Iwata</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2016）"> <small>いわた ひでき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Ditto Model Designers / </small>Partner</h3>
+<h3><small>GAME FREAK Inc. / Ditto Model Designers / </small>Partner<span class="credits__zh-role">（合作方）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Flame Hearts Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Pokémon Icon Designers<span class="credits__ja-role">ポケモンアイコンデザイン</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Pokémon Icon Designers<span class="credits__zh-role">（宝可梦图标设计）</span><span class="credits__ja-role">ポケモンアイコンデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/yoshida-hironobu/">Hironobu Yoshida</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 21 部 GF 自研作品里有开发职务署名，最早 1998）"> <small>吉田宏信 · よしだ ひろのぶ</small></li>
 <li class="credits__name is-gf"><a href="/people/ando-emi/">Emi Ando</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 8 部 GF 自研作品里有开发职务署名，最早 2014）"> <small>安藤絵美 · あんどう えみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Title Logo Designer<span class="credits__ja-role">タイトルロゴデザイン</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Title Logo Designer<span class="credits__zh-role">（标题标志设计）</span><span class="credits__ja-role">タイトルロゴデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rin Nishizawa <small>にしざわ りん</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Proto Development / </small>Game Programmer<span class="credits__ja-role">プロトかいはつ ゲームプログラマー</span></h3>
+<h3><small>GAME FREAK Inc. / Proto Development / </small>Game Programmer<span class="credits__zh-role">（游戏程序员）</span><span class="credits__ja-role">プロトかいはつ ゲームプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/hosaka-genya/">Genya Hosaka</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>ほさか げんや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Proto Development / </small>Game Designers<span class="credits__ja-role">ゲームデザイナー</span></h3>
+<h3><small>GAME FREAK Inc. / Proto Development / </small>Game Designers<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">ゲームデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Akinori Asaba<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2019）"> <small>あさば あきのり</small></li>
 <li class="credits__name is-gf"><a href="/people/kawabata-masayuki/">Masayuki Kawabata</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2022）"> <small>かわばた まさゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Proto Development / </small>Partner<span class="credits__ja-role">きょうりょく</span></h3>
+<h3><small>GAME FREAK Inc. / Proto Development / </small>Partner<span class="credits__zh-role">（合作方）</span><span class="credits__ja-role">きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Rebuild Games LLC. <small>リビルドゲームス</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Director<span class="credits__ja-role">コンセプトムービーせいさく ディレクター</span></h3>
+<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">コンセプトムービーせいさく ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daiki Inaba <small>いなば だいき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>CG Designer<span class="credits__ja-role">CGディレクター</span></h3>
+<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>CG Designer<span class="credits__zh-role">（CG 设计）</span><span class="credits__ja-role">CGディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chihiro Sawamura <small>さわむら ちひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>3D Modelers<span class="credits__ja-role">3Dモデラー</span></h3>
+<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>3D Modelers<span class="credits__zh-role">（3D 建模）</span><span class="credits__ja-role">3Dモデラー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masashi Miyaoka <small>みやおか まさし</small></li>
 <li class="credits__name">Ryosuke Oka <small>おか りょうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Technical Artist<span class="credits__ja-role">セットアップデザイナー</span></h3>
+<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Technical Artist<span class="credits__zh-role">（技术美术）</span><span class="credits__ja-role">セットアップデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Natsuki Tateishi <small>たていし なつき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takako Kanda <small>かんだ たかこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Partner<span class="credits__ja-role">きょうりょく</span></h3>
+<h3><small>GAME FREAK Inc. / Concept Movie Production / </small>Partner<span class="credits__zh-role">（合作方）</span><span class="credits__ja-role">きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">entity <small>エンティティ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Media Team Lead<span class="credits__ja-role">メディアチーム / リーダー</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Media Team Lead<span class="credits__zh-role">（Media 组组长）</span><span class="credits__ja-role">メディアチーム / リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/moriguchi-shota/">Shota Moriguchi</a> <small>もりぐち しょうた</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>GAME FREAK Inc. / </small>Media Team<span class="credits__ja-role">メディアチーム / リーダー</span></h3>
+<h3><small>GAME FREAK Inc. / </small>Media Team<span class="credits__zh-role">（Media 组）</span><span class="credits__ja-role">メディアチーム / リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toichi Hayashibara <small>はやしばら とういち</small></li>
 <li class="credits__name"><a href="/people/morita-ayane/">Ayane Morita</a> <small>もりた あやね</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">かぶしきがいしゃポケモン / スペシャルサンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">かぶしきがいしゃポケモン / スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ito-kenijro/">Kenjiro Ito</a> <small>いとう けんじろう</small></li>
 <li class="credits__name"><a href="/people/oohashi-mikiko/">Mikiko Ohashi</a> <small>おおはし みきこ</small></li>
@@ -789,7 +789,7 @@ gf_count: 35
 <li class="credits__name">Choukou Yo <small>よ ちょうこう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Localization<span class="credits__ja-role">えいご ローカライズ</span></h3>
+<h3><small>The Pokémon Company / </small>English Localization<span class="credits__zh-role">（英语本地化）</span><span class="credits__ja-role">えいご ローカライズ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a> <small>りゅう みきこ</small></li>
 <li class="credits__name"><a href="/people/iwasaki-yuriko/">Yuriko Iwasaki</a> <small>いわさき ゆりこ</small></li>
@@ -802,7 +802,7 @@ gf_count: 35
 <li class="credits__name">Baraado Kerin <small>ケリン バラード</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Translation<span class="credits__ja-role">えいご ほんやく</span></h3>
+<h3><small>The Pokémon Company / </small>English Translation<span class="credits__zh-role">（英语翻译）</span><span class="credits__ja-role">えいご ほんやく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Laura Bartholomew</li>
 <li class="credits__name">Ben DeTora <small>ベン デトラ</small></li>
@@ -837,7 +837,7 @@ gf_count: 35
 <li class="credits__name">Ranmeru Erin <small>エリン ランメル</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Editing</h3>
+<h3><small>The Pokémon Company / </small>English Editing<span class="credits__zh-role">（英语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/schiotis-robert/">Robert Schiotis</a></li>
 <li class="credits__name">Stephen Meyerink</li>
@@ -849,7 +849,7 @@ gf_count: 35
 <li class="credits__name">Elin Rummel</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English &amp; European Localization Support<span class="credits__ja-role">おうべい ローカライズサポート</span></h3>
+<h3><small>The Pokémon Company / </small>English &amp; European Localization Support<span class="credits__zh-role">（英语与欧洲本地化支持）</span><span class="credits__ja-role">おうべい ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Reiko de Sorbier de Pougnadoresse</li>
 <li class="credits__name">Stu Alexander</li>
@@ -869,7 +869,7 @@ gf_count: 35
 <li class="credits__name">Bantingu Maaku <small>マーク バンティング</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>European Localisation<span class="credits__ja-role">ヨーロッパ ローカライズ</span></h3>
+<h3><small>The Pokémon Company / </small>European Localisation<span class="credits__zh-role">（欧洲本地化）</span><span class="credits__ja-role">ヨーロッパ ローカライズ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aoki-kaori/">Kaori Aoki</a> <small>あおき かおり</small></li>
 <li class="credits__name"><a href="/people/okata-suirei/">Suirei Okata</a> <small>おおかた すいれい</small></li>
@@ -934,7 +934,7 @@ gf_count: 35
 <li class="credits__name">Vare Mariin <small>マリーン ヴァレ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>French Translation</h3>
+<h3><small>The Pokémon Company / </small>French Translation<span class="credits__zh-role">（法语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/pradier-noemie/">Noémie Pradier</a></li>
 <li class="credits__name"><a href="/people/khrissate-lylia/">Lylia Khrissate</a></li>
@@ -948,7 +948,7 @@ gf_count: 35
 <li class="credits__name">Laly Dufossé</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>French Editing</h3>
+<h3><small>The Pokémon Company / </small>French Editing<span class="credits__zh-role">（法语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kryvinskyj-aurelie/">Aurélie Kryvinskyj</a></li>
 <li class="credits__name">Claire Sosa</li>
@@ -961,7 +961,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/garel-thomas/">Thomas Garel</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>German Translation<span class="credits__ja-role">ドイツご ほんやく</span></h3>
+<h3><small>The Pokémon Company / </small>German Translation<span class="credits__zh-role">（德语翻译）</span><span class="credits__ja-role">ドイツご ほんやく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/maibach-carolin/">Carolin Maibach</a></li>
 <li class="credits__name"><a href="/people/kalms-kathleen/">Kathleen Kalms</a></li>
@@ -1049,7 +1049,7 @@ gf_count: 35
 <li class="credits__name">Yeshika teruserosu varugasu Debora <small>デボラ イェシカ テルセロス ヴァルガス</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>German Editing</h3>
+<h3><small>The Pokémon Company / </small>German Editing<span class="credits__zh-role">（德语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/schweinzer-barbara/">Barbara Schweinzer</a></li>
 <li class="credits__name"><a href="/people/linnenweber-alina-2/">Alina Linnenweber</a></li>
@@ -1061,7 +1061,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/vaterhaus-sira/">Sira Vaterhaus</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Italian Translation</h3>
+<h3><small>The Pokémon Company / </small>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/spera-annarita/">Annarita Spera</a></li>
 <li class="credits__name"><a href="/people/couvert-altan/">Altan Couvert</a></li>
@@ -1074,7 +1074,7 @@ gf_count: 35
 <li class="credits__name">Valentina Spitale</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Italian Editing</h3>
+<h3><small>The Pokémon Company / </small>Italian Editing<span class="credits__zh-role">（意大利语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/menale-valentina/">Valentina Menale</a></li>
 <li class="credits__name">Chiara Antinori</li>
@@ -1087,7 +1087,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/locatelli-marco/">Marco Locatelli</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>European Spanish Translation</h3>
+<h3><small>The Pokémon Company / </small>European Spanish Translation<span class="credits__zh-role">（欧洲西班牙语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lopez-edith-belarra/">Edith Belarra López</a></li>
 <li class="credits__name">Jorge Diez Lasheras</li>
@@ -1100,7 +1100,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/campa-diego-luque-de-la/">Diego Luque de la Campa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>European Spanish Editing</h3>
+<h3><small>The Pokémon Company / </small>European Spanish Editing<span class="credits__zh-role">（欧洲西班牙语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/riomao-ruben-lado/">Rubén Lado Riomao</a></li>
 <li class="credits__name">Diana Vázquez-Saiz</li>
@@ -1116,7 +1116,7 @@ gf_count: 35
 <li class="credits__name">Débora Yésica Terceros Vargas</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャルサンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okubo-kenji/">Kenji Okubo</a> <small>おおくぼ けんじ</small></li>
 <li class="credits__name"><a href="/people/okiura-taito/">Taito Okiura</a> <small>おきうら たいと</small></li>
@@ -1176,7 +1176,7 @@ gf_count: 35
 <li class="credits__name">Yujin Kun <small>クォン ユジン</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English &amp; European Graphic Design</h3>
+<h3><small>The Pokémon Company / </small>English &amp; European Graphic Design<span class="credits__zh-role">（英欧版图形设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/franc-chris/">Chris Franc</a></li>
 <li class="credits__name">Lauren Hill</li>
@@ -1187,7 +1187,7 @@ gf_count: 35
 <li class="credits__name">Ian Wortham</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Korean Translation &amp; Editing</h3>
+<h3><small>The Pokémon Company / </small>Korean Translation &amp; Editing<span class="credits__zh-role">（韩语翻译与编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/choi-mihwa/">Mihwa Choi</a></li>
 <li class="credits__name"><a href="/people/park-youngjun/">Youngjun Park</a></li>
@@ -1198,13 +1198,13 @@ gf_count: 35
 <li class="credits__name"><a href="/people/bae-byunghun/">Byunghun Bae</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lim-jaiboem/">Jaiboem Lim</a></li>
 <li class="credits__name"><a href="/people/lee-jihye/">Jihye Lee</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Localization Support<span class="credits__ja-role">ローカライズサポート</span></h3>
+<h3><small>The Pokémon Company / </small>Localization Support<span class="credits__zh-role">（本地化支持）</span><span class="credits__ja-role">ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryotaro Ukai <small>うかい りょうたろう</small></li>
 <li class="credits__name">Qixiang Chen</li>
@@ -1215,7 +1215,7 @@ gf_count: 35
 <li class="credits__name">Keishou Chin <small>ちん けいしょう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Chinese Translation &amp; Editing</h3>
+<h3><small>The Pokémon Company / </small>Chinese Translation &amp; Editing<span class="credits__zh-role">（中文翻译与编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Waihong Kong</li>
 <li class="credits__name"><a href="/people/tsai-huiying/">Huiying Tsai</a></li>
@@ -1227,12 +1227,12 @@ gf_count: 35
 <li class="credits__name">Yuying Feng</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Chinese Translation &amp; Editing</h3>
+<h3><small>The Pokémon Company / </small>Chinese Translation &amp; Editing<span class="credits__zh-role">（中文翻译与编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">DIGITAL HEARTS Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Coordinators<span class="credits__ja-role">コーディネーター</span></h3>
+<h3><small>The Pokémon Company / </small>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomohiro Utsumi <small>うつみ ともひろ</small></li>
 <li class="credits__name">Yuki Tabuchi <small>たぶち ゆうき</small></li>
@@ -1243,7 +1243,7 @@ gf_count: 35
 <li class="credits__name">Yuichi Arita <small>ありた ゆういち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Technical Support<span class="credits__ja-role">にんてんどう / ぎじゅつサポート</span></h3>
+<h3><small>Nintendo / </small>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">にんてんどう / ぎじゅつサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hidefumi Iwashita <small>いわした ひでふみ</small></li>
 <li class="credits__name is-gf"><a href="/people/gouhara-hiroaki/">Hiroaki Gohara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2018）"> <small>ごうはら ひろあき</small></li>
@@ -1256,7 +1256,7 @@ gf_count: 35
 <li class="credits__name is-gf">Yoshito Yasuda<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2022）"> <small>やすだ よしと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localization Support (The Americas)<span class="credits__ja-role">アメリカたいりく ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localization Support (The Americas)<span class="credits__zh-role">（本地化支持（美洲））</span><span class="credits__ja-role">アメリカたいりく ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ammerman-lauren/">Lauren Ammerman</a> <small>ローレン アママン</small></li>
 <li class="credits__name">Owen Cooney <small>ピーター ボーエン</small></li>
@@ -1270,32 +1270,32 @@ gf_count: 35
 <li class="credits__name">Karen Yuen <small>カレン ユエン</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localisation Support (Europe)<span class="credits__ja-role">おうしゅう ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localisation Support (Europe)<span class="credits__zh-role">（本地化支持（欧洲））</span><span class="credits__ja-role">おうしゅう ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Dario De Leo <small>ダリオ デレオ</small></li>
 <li class="credits__name">Saskia Doorschodt <small>サスキア ドーショット</small></li>
 <li class="credits__name">Julia Bambach <small>ジュリア バンバッハ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localization Support (Asia)<span class="credits__ja-role">アジア ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localization Support (Asia)<span class="credits__zh-role">（本地化支持（亚洲））</span><span class="credits__ja-role">アジア ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kiung Seoung <small>ソン ギウン</small></li>
 <li class="credits__name"><a href="/people/yijun-chen/">Chen Yijun</a> <small>ちん きつくん</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localization Support (Korea)<span class="credits__ja-role">かんこくご ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localization Support (Korea)<span class="credits__zh-role">（本地化支持（韩国））</span><span class="credits__ja-role">かんこくご ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kim-dongyeon/">Dongyeon Kim</a> <small>キム ドンヨン</small></li>
 <li class="credits__name">Yunjin Park <small>ナ ギョンイム</small></li>
 <li class="credits__name"><a href="/people/na-kyoungim/">Kyoungim Na</a> <small>パク ユンジン</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localization Support (Traditional Chinese)<span class="credits__ja-role">ちゅうごくご (はんたいじ) ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localization Support (Traditional Chinese)<span class="credits__zh-role">（本地化支持（繁体中文））</span><span class="credits__ja-role">ちゅうごくご (はんたいじ) ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takaaki Ueno <small>うえの たかあき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Localization Support (Simplified Chinese)<span class="credits__ja-role">ちゅうごくご (かんたいじ) ローカライズサポート</span></h3>
+<h3><small>Nintendo / </small>Localization Support (Simplified Chinese)<span class="credits__zh-role">（本地化支持（简体中文））</span><span class="credits__ja-role">ちゅうごくご (かんたいじ) ローカライズサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/matsumoto-misa/">Misa Matsumoto</a> <small>まつもと みさ</small></li>
 <li class="credits__name"><a href="/people/ming-xu/">Ming Xu</a></li>
@@ -1311,7 +1311,7 @@ gf_count: 35
 <li class="credits__name">Reizu Marii <small>マリー レイズ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Special Thanks—Localization</h3>
+<h3><small>Nintendo / </small>Special Thanks—Localization<span class="credits__zh-role">（特别感谢—本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mike Bales</li>
 <li class="credits__name">Fahreen Merali</li>
@@ -1320,12 +1320,12 @@ gf_count: 35
 <li class="credits__name"><a href="/people/candland-thomas/">Thomas Candland</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Language QA (The Americas)</h3>
+<h3><small>Nintendo / </small>Language QA (The Americas)<span class="credits__zh-role">（语言 QA （美洲））</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Side</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Testing (The Americas)<span class="credits__ja-role">アメリカたいりく テスティング</span></h3>
+<h3><small>Nintendo / </small>Testing (The Americas)<span class="credits__zh-role">（测试（美洲））</span><span class="credits__ja-role">アメリカたいりく テスティング</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tori Arvisais</li>
 <li class="credits__name">Brian Blue</li>
@@ -1396,13 +1396,13 @@ gf_count: 35
 <li class="credits__name">Teiki Ka <small>か ていき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>QA Coordination (Europe)</h3>
+<h3><small>Nintendo / </small>QA Coordination (Europe)<span class="credits__zh-role">（QA 协调（欧洲））</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/albrito-daniele/">Daniele Albrito</a></li>
 <li class="credits__name">Steffen Lotz</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Quality Assurance (Europe)</h3>
+<h3><small>Nintendo / </small>Quality Assurance (Europe)<span class="credits__zh-role">（品质保证（欧洲））</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/jacqueminguillaume-olivier/">Olivier Jacquemin-Guillaume</a></li>
 <li class="credits__name">Laura Villers</li>
@@ -1425,24 +1425,24 @@ gf_count: 35
 <li class="credits__name">Side</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Testing &amp; Quality Assurance (Korea)</h3>
+<h3><small>Nintendo / </small>Testing &amp; Quality Assurance (Korea)<span class="credits__zh-role">（测试与品质保证（韩国））</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lee-eodo/">Eodo Lee</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Product Testing (Chinese)</h3>
+<h3><small>Nintendo / </small>Product Testing (Chinese)<span class="credits__zh-role">（产品测试（中文））</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chen Weiming</li>
 <li class="credits__name">Tinghui Xia</li>
 <li class="credits__name">Jiong Zhang</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Language QA (Asian)</h3>
+<h3><small>Nintendo / </small>Language QA (Asian)<span class="credits__zh-role">（语言 QA （亚洲））</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Side</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Debug Management<span class="credits__ja-role">デバッグマネージメント</span></h3>
+<h3><small>Nintendo / </small>Debug Management<span class="credits__zh-role">（调试管理）</span><span class="credits__ja-role">デバッグマネージメント</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kanade Matsui <small>まつい かなで</small></li>
 <li class="credits__name">Nobuya Sasaki <small>ささき のぶや</small></li>
@@ -1453,13 +1453,13 @@ gf_count: 35
 <li class="credits__name">Keishi Hashimoto <small>はしもと けいし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Debug</h3>
+<h3><small>Nintendo / </small>Debug<span class="credits__zh-role">（调试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Mario Club Co., Ltd.</li>
 <li class="credits__name is-company">Digital Hearts Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo / </small>Coordinators<span class="credits__ja-role">コーディネーター</span></h3>
+<h3><small>Nintendo / </small>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/fukushima-tomoki/">Tomoki Fukushima</a> <small>ふくしま ともき</small></li>
 <li class="credits__name">Ryuichi Nakada <small>なかだ りゅういち</small></li>
@@ -1469,13 +1469,13 @@ gf_count: 35
 <li class="credits__name"><a href="/people/okada-yuki/">Yuki Okada</a> <small>おかだ ゆうき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Supervisors<span class="credits__ja-role">スーパーバイザー</span></h3>
+<h3>Supervisors<span class="credits__zh-role">（监修）</span><span class="credits__ja-role">スーパーバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name is-gf"><a href="/people/watanabe-tetsuya/">Tetsuya Watanabe</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 16 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>渡辺哲也 · わたなべ てつや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>きなし あきら</small></li>
 <li class="credits__name"><a href="/people/saito-shinya/">Shinya Saito</a> <small>さいとう しんや</small></li>
@@ -1484,7 +1484,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/murata-kanako/">Kanako Murata</a> <small>むらた かなこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producers<span class="credits__ja-role">ゼネラル プロデューサー</span></h3>
+<h3>General Producers<span class="credits__zh-role">（总制作人）</span><span class="credits__ja-role">ゼネラル プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ohmori-shigeru/">Shigeru Ohmori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 15 部 GF 自研作品里有开发职务署名，最早 2002）"> <small>おおもり しげる</small></li>
 <li class="credits__name"><a href="/people/takahashi-shinya/">Shinya Takahashi</a> <small>たかはし しんや</small></li>
@@ -1492,7 +1492,7 @@ gf_count: 35
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人 · うつのみや たかと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producers<span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
+<h3>Executive Producers<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 <li class="credits__name"><a href="/people/furukawa-shuntaro/">Shuntaro Furukawa</a> <small>ふるかわ しゅんたろう</small></li>

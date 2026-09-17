@@ -8,26 +8,26 @@ sitemap: true
 gf_count: 2
 ---
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 <li class="credits__name">Shinichi Nakamoto <small>中本伸一 · なかもと しんいち</small></li>
 <li class="credits__name"><a href="/people/izushi-takehiro/">Takehiro Izushi</a> <small>出石武宏 · いずし たけひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koji Arai <small>荒井弘二 · あらい こうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Programmers<span class="credits__ja-role">プログラム</span></h3>
+<h3>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahiro Tobita <small>とびた まさひろ</small></li>
 <li class="credits__name">Satoshi Mikami <small>みかみ さとし</small></li>
 <li class="credits__name">Masaki Tsumori <small>つもり まさき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>GB Graphic Designers<span class="credits__ja-role">GBグラフィックデザイン</span></h3>
+<h3>GB Graphic Designers<span class="credits__zh-role">（GB 图形设计）</span><span class="credits__ja-role">GBグラフィックデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuhiko Nonaka <small>のなか かずひこ</small></li>
 <li class="credits__name">Yasuhiro Fujii <small>ふじい やすひろ</small></li>
@@ -40,35 +40,35 @@ gf_count: 2
 <li class="credits__name">Katsuhisa Nishikawa <small>にしかわ かつひさ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Music<span class="credits__ja-role">ミュージック</span></h3>
+<h3>Music<span class="credits__zh-role">（音乐）</span><span class="credits__ja-role">ミュージック</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ichiro Shimakura <small>しまくら いちろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Effects<span class="credits__ja-role">サウンドエフェクト</span></h3>
+<h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンドエフェクト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masato Aihara <small>あいはら まさと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Director<span class="credits__ja-role">サウンドディレクター</span></h3>
+<h3>Sound Director<span class="credits__zh-role">（音响总监）</span><span class="credits__ja-role">サウンドディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshiaki Takimoto <small>たきもと としあき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound System Support<span class="credits__ja-role">サウンドシステムサポート</span></h3>
+<h3>Sound System Support<span class="credits__zh-role">（音响系统支持）</span><span class="credits__ja-role">サウンドシステムサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Katsunori Takahashi <small>たかはし かつのり</small></li>
 <li class="credits__name">Hideki Oka <small>おか ひでき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Card Game Creator<span class="credits__ja-role">カードゲームせいさく</span></h3>
+<h3>Card Game Creator<span class="credits__zh-role">（卡牌游戏 Creator）</span><span class="credits__ja-role">カードゲームせいさく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/chi-yu-zhuo-mei/">Takumi Akabane</a> <small>赤羽卓美 · あかばね たくみ</small></li>
 <li class="credits__name">Kouichi Oyama <small>大山功一 · おおやま こういち</small></li>
 <li class="credits__name">Akihiko Miura <small>三浦明彦 · みうら あきひこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Card Illustrations<span class="credits__ja-role">カード・イラストレーター</span></h3>
+<h3>Card Illustrations<span class="credits__zh-role">（卡牌插画）</span><span class="credits__ja-role">カード・イラストレーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name">Mitsuhiro Arita <small>有田満弘 · ありた みつひろ</small></li>
@@ -80,7 +80,7 @@ gf_count: 2
 <li class="credits__name">Benimaru Ito <small>伊藤紅丸 · いとう べにまる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Appearances By<span class="credits__ja-role">しゅつえん きょうりょく</span></h3>
+<h3>Special Appearances By<span class="credits__zh-role">（特别出演）</span><span class="credits__ja-role">しゅつえん きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroko Ohashi <small>大橋ひろこ · おおはし ひろこ</small></li>
 <li class="credits__name">Masako Uchiyama <small>内山雅子 · うちやま まさこ</small></li>
@@ -104,7 +104,7 @@ gf_count: 2
 <li class="credits__name">Keita Matsumoto <small>まつもと けいた</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>US Coordination, Nintendo of America</h3>
+<h3>US Coordination, Nintendo of America<span class="credits__zh-role">（美国协调、美国任天堂）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Gail Tilden</li>
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a></li>
@@ -112,7 +112,7 @@ gf_count: 2
 <li class="credits__name">William Trinen</li>
 </ul></section>
 <section class="credits__section">
-<h3>European Coordination</h3>
+<h3>European Coordination<span class="credits__zh-role">（欧洲协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Martina Deimel</li>
 <li class="credits__name">Daniel Charbit</li>
@@ -121,7 +121,7 @@ gf_count: 2
 <li class="credits__name"><a href="/people/uesugi-hiroyuki/">Hiroyuki Uesugi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>US Coordination, Wizards of the Coast, Pokémon Templating Team</h3>
+<h3>US Coordination, Wizards of the Coast, Pokémon Templating Team<span class="credits__zh-role">（美国协调、Wizards Coast、宝可梦 Templating 组）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Robert Gutschera</li>
 <li class="credits__name">Jessica Beaven</li>
@@ -130,29 +130,29 @@ gf_count: 2
 <li class="credits__name">Tom Wylie</li>
 </ul></section>
 <section class="credits__section">
-<h3>WOTC European Coordination</h3>
+<h3>WOTC European Coordination<span class="credits__zh-role">（WOTC 欧洲协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jill Waller</li>
 <li class="credits__name">Donna Simone</li>
 <li class="credits__name">Lori Heric</li>
 </ul></section>
 <section class="credits__section">
-<h3>Translation/Draft</h3>
+<h3>Translation/Draft<span class="credits__zh-role">（翻译/Draft）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Bill Ritch</li>
 </ul></section>
 <section class="credits__section">
-<h3>Mastering<span class="credits__ja-role">マスタリング</span></h3>
+<h3>Mastering<span class="credits__zh-role">（母带）</span><span class="credits__ja-role">マスタリング</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tetsuya Komatsu <small>こまつ てつや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Manual Creation<span class="credits__ja-role">マニュアルせいさく</span></h3>
+<h3>Manual Creation<span class="credits__zh-role">（说明书制作）</span><span class="credits__ja-role">マニュアルせいさく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Haruki Mitani <small>みたに はるき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Manual Illustrations<span class="credits__ja-role">マニュアル イラスト</span></h3>
+<h3>Manual Illustrations<span class="credits__zh-role">（说明书插画）</span><span class="credits__ja-role">マニュアル イラスト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kagemaru Himeno <small>ひめの かげまる</small></li>
 </ul></section>
@@ -162,19 +162,19 @@ gf_count: 2
 <li class="credits__name">Isobe Miruki <small>ミルキィ イソベ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Original Story<span class="credits__ja-role">ポケットモンスター げんさく</span></h3>
+<h3>Pokémon Original Story<span class="credits__zh-role">（宝可梦原作故事）</span><span class="credits__ja-role">ポケットモンスター げんさく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Created in Cooperation With<span class="credits__ja-role">せいさく きょうりょく</span></h3>
+<h3>Created in Cooperation With<span class="credits__zh-role">（制作协力）</span><span class="credits__ja-role">せいさく きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinji Hatano <small>はたの しんじ</small></li>
 <li class="credits__name"><a href="/people/yamato-satoshi/">Satoshi Yamato</a> <small>やまと さとし</small></li>
 <li class="credits__name">Takahiro Harada <small>はらだ たかひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>With Cooperation From<span class="credits__ja-role">きょうりょく</span></h3>
+<h3>With Cooperation From<span class="credits__zh-role">（协力）</span><span class="credits__ja-role">きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshio Motosako <small>もとさこ よしお</small></li>
 <li class="credits__name">Hiroyuki Mikami <small>みかみ ひろゆき</small></li>
@@ -190,22 +190,22 @@ gf_count: 2
 <li class="credits__name">Hidenori Sezaki <small>せざき ひでのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Project Manager<span class="credits__ja-role">プロジェクトマネージャー</span></h3>
+<h3>Project Manager<span class="credits__zh-role">（项目经理）</span><span class="credits__ja-role">プロジェクトマネージャー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasutaka Kakiseko <small>かきせこ やすたか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Supervisor<span class="credits__ja-role">スーパーバイザー</span></h3>
+<h3>Supervisor<span class="credits__zh-role">（监修）</span><span class="credits__ja-role">スーパーバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroshi Kudo <small>くどう ひろし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamauchi-hiroshi/">Hiroshi Yamauchi</a> <small>山内溥 · やまうち ひろし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Created By<span class="credits__ja-role">ゲーム せいさく</span></h3>
+<h3>Created By<span class="credits__zh-role">（制作）</span><span class="credits__ja-role">ゲーム せいさく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Hudson <small>ハドソン</small></li>
 </ul></section>

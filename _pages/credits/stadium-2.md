@@ -8,61 +8,61 @@ sitemap: true
 gf_count: 18
 ---
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/shimizu-takae/">Takao Shimizu</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 1 部 GF 自研作品里有开发职务署名，最早 2000）"> <small>清水隆雄 · しみず たかお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Director<span class="credits__ja-role">アートディレクター</span></h3>
+<h3>Art Director<span class="credits__zh-role">（美术总监）</span><span class="credits__ja-role">アートディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tatsuya Hashida <small>菱田達也 · ひしだ たつや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>3-D CG Directors<span class="credits__ja-role">3DCGディレクター</span></h3>
+<h3>3-D CG Directors<span class="credits__zh-role">（3D CG 总监）</span><span class="credits__ja-role">3DCGディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-shinya/">Shinya Takahashi</a> <small>高橋伸也_ · たかはし しんや</small></li>
 <li class="credits__name is-gf">Tsuyoshi Watanabe<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2019）"> <small>わたなべ つよし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Program Director<span class="credits__ja-role">プログラム ディレクター</span></h3>
+<h3>Program Director<span class="credits__zh-role">（程序总监）</span><span class="credits__ja-role">プログラム ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsutomu Kaneshige <small>かねしげ つとむ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Scene Programmer<span class="credits__ja-role">バトルシーンプログラマー</span></h3>
+<h3>Battle Scene Programmer<span class="credits__zh-role">（对战 Scene 程序员）</span><span class="credits__ja-role">バトルシーンプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenji Yamamoto <small>やまもと けんじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Effects Programmer</h3>
+<h3>Battle Effects Programmer<span class="credits__zh-role">（对战特效程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasushiro Kawaquchi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle System Programmer<span class="credits__ja-role">バトルシステムプログラマー</span></h3>
+<h3>Battle System Programmer<span class="credits__zh-role">（对战系统程序员）</span><span class="credits__ja-role">バトルシステムプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Satoru Osako <small>おさこ さとる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>2D Programmers<span class="credits__ja-role">2Dプログラマー</span></h3>
+<h3>2D Programmers<span class="credits__zh-role">（2D 程序员）</span><span class="credits__ja-role">2Dプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yazuru Ogawa <small>おがわ ゆずる</small></li>
 <li class="credits__name">Eichii Shirikawa <small>しらかわ えいいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Lab. Programmer<span class="credits__ja-role">ポケモンけんきゅうじょ プログラマー</span></h3>
+<h3>Pokémon Lab. Programmer<span class="credits__zh-role">（宝可梦实验室. 程序员）</span><span class="credits__ja-role">ポケモンけんきゅうじょ プログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shiro Mouri <small>もうり しろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Mini-Game Programmers<span class="credits__ja-role">ミニゲームプログラマー</span></h3>
+<h3>Mini-Game Programmers<span class="credits__zh-role">（Mini-Game 程序员）</span><span class="credits__ja-role">ミニゲームプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshikazu Yamashita <small>やました よしかず</small></li>
 <li class="credits__name">Naoya Morimura <small>もりむら なおや</small></li>
 <li class="credits__name">Jyunya Kameda <small>かめだ じゅんや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>2D CG Designers<span class="credits__ja-role">2DCGデザイナー</span></h3>
+<h3>2D CG Designers<span class="credits__zh-role">（2D CG 设计）</span><span class="credits__ja-role">2DCGデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tokohiko Toyoda <small>とよだ ときひこ</small></li>
 <li class="credits__name">Ren Uehara <small>うえはら れん</small></li>
@@ -72,7 +72,7 @@ gf_count: 18
 <li class="credits__name">Kenta Motokura <small>もとくら けんた</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>3-DCG Designers<span class="credits__ja-role">3DCGデザイナー</span></h3>
+<h3>3-DCG Designers<span class="credits__zh-role">（3-DCG 设计）</span><span class="credits__ja-role">3DCGデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Miyanaga <small>みやなが まこと</small></li>
 <li class="credits__name">Hiroshi Matsunaga <small>まつなが ひろし</small></li>
@@ -83,29 +83,29 @@ gf_count: 18
 <li class="credits__name">Yoshiyuki Oyama <small>おやま よしゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Effects Designers<span class="credits__ja-role">バトルエフェクトデザイナー</span></h3>
+<h3>Battle Effects Designers<span class="credits__zh-role">（对战特效设计）</span><span class="credits__ja-role">バトルエフェクトデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoaki Kuroume <small>くろうめ ともあき</small></li>
 <li class="credits__name">Keijiro Inoue <small>いのうえ けいじろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Data Director<span class="credits__ja-role">バトルデータディレクター</span></h3>
+<h3>Battle Data Director<span class="credits__zh-role">（对战数据总监）</span><span class="credits__ja-role">バトルデータディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasusuki Ohyagi <small>おおやぎ やすゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Data Designers<span class="credits__ja-role">バトルデータデザイナー</span></h3>
+<h3>Battle Data Designers<span class="credits__zh-role">（对战数据设计）</span><span class="credits__ja-role">バトルデータデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koji Doi <small>どい こうじ</small></li>
 <li class="credits__name">Yasuhiro Suenaga <small>すえなが やすひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Sequence Director<span class="credits__ja-role">バトルシーケンスディレクター</span></h3>
+<h3>Battle Sequence Director<span class="credits__zh-role">（对战 Sequence 总监）</span><span class="credits__ja-role">バトルシーケンスディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kimiharu Hyodo <small>ひょうどう きみはる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Sequence Designers<span class="credits__ja-role">バトルシーケンスデザイナー</span></h3>
+<h3>Battle Sequence Designers<span class="credits__zh-role">（对战 Sequence 设计）</span><span class="credits__ja-role">バトルシーケンスデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naotaka Matsumoto <small>まつもと なおたか</small></li>
 <li class="credits__name">Seiji Ochiba <small>おちば せいじ</small></li>
@@ -113,47 +113,47 @@ gf_count: 18
 <li class="credits__name">Norihiko Morikawa <small>もりかわ のりひこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Class Director<span class="credits__ja-role">ポケモンこうざディレクター</span></h3>
+<h3>Pokémon Class Director<span class="credits__zh-role">（宝可梦 Class 总监）</span><span class="credits__ja-role">ポケモンこうざディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hajime Takahshi <small>たかはし はじめ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Mini-Game Director<span class="credits__ja-role">ミニゲームディレクター</span></h3>
+<h3>Mini-Game Director<span class="credits__zh-role">（Mini-Game 总监）</span><span class="credits__ja-role">ミニゲームディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kiyoshi Mizuki <small>みずき きよし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Director<span class="credits__ja-role">サウンドディレクター</span></h3>
+<h3>Sound Director<span class="credits__zh-role">（音响总监）</span><span class="credits__ja-role">サウンドディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masafumi Kawamura <small>川村昌史 · かわむら まさふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Composer<span class="credits__ja-role">サウンドコンポーザー</span></h3>
+<h3>Sound Composer<span class="credits__zh-role">（音响作曲）</span><span class="credits__ja-role">サウンドコンポーザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hajime Wakai <small>若井淑 · わかい はじめ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Programmer<span class="credits__ja-role">サウンドプログラマー</span></h3>
+<h3>Sound Programmer<span class="credits__zh-role">（音响程序员）</span><span class="credits__ja-role">サウンドプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mitsuhiro Hikino <small>疋野光啓 · ひきの みつひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>GB System Programmer<span class="credits__ja-role">GBシステムプログラマー</span></h3>
+<h3>GB System Programmer<span class="credits__zh-role">（GB 系统程序员）</span><span class="credits__ja-role">GBシステムプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomohiro Kawase <small>かわせ ともひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Data Management Programmer<span class="credits__ja-role">データマネージメントプログラマー</span></h3>
+<h3>Data Management Programmer<span class="credits__zh-role">（数据管理程序员）</span><span class="credits__ja-role">データマネージメントプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shunsaku Mitamaru <small>きたむら しゅんさく</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Assistant Programmer<span class="credits__ja-role">モバイルスタジアムツールプログラマー</span></h3>
+<h3>Assistant Programmer<span class="credits__zh-role">（助理程序员）</span><span class="credits__ja-role">モバイルスタジアムツールプログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahiro Nitta <small>にった まさひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Modelers<span class="credits__ja-role">ポケモンモデラー</span></h3>
+<h3>Pokémon Modelers<span class="credits__zh-role">（宝可梦建模）</span><span class="credits__ja-role">ポケモンモデラー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroaki Takenaka <small>たけなか ひろあき</small></li>
 <li class="credits__name">Jin Ikeda <small>いけだ じん</small></li>
@@ -181,12 +181,12 @@ gf_count: 18
 <li class="credits__name">Yoshiyuki Tagawa <small>たがわ よしゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>3-D Pokémon Director<span class="credits__ja-role">3Dポケモンディレクター</span></h3>
+<h3>3-D Pokémon Director<span class="credits__zh-role">（3D 宝可梦总监）</span><span class="credits__ja-role">3Dポケモンディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Benimaru Ito <small>伊藤紅丸 · いとう べにまる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pikachu Voice<span class="credits__ja-role">ピカチュウ</span></h3>
+<h3>Pikachu Voice<span class="credits__zh-role">（Pikachu 配音）</span><span class="credits__ja-role">ピカチュウ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/otani-ikue/">Ikue Otani</a> <small>大谷育江 · おおたに いくえ</small></li>
 </ul></section>
@@ -200,12 +200,12 @@ gf_count: 18
 <li class="credits__name">Kai Taschner</li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical Support<span class="credits__ja-role">テクニカルサポート</span></h3>
+<h3>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">テクニカルサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshihito Ikebata <small>いけばた よしひと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Stadium Staff<span class="credits__ja-role">ポケモンスタジアム&amp;ポケモンスタジアム2 スタッフ</span></h3>
+<h3>Pokémon Stadium Staff<span class="credits__zh-role">（宝可梦 Stadium 人员）</span><span class="credits__ja-role">ポケモンスタジアム&amp;ポケモンスタジアム2 スタッフ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasunari Nishida <small>西田泰也 · にしだ やすなり</small></li>
 <li class="credits__name">Kensuke Tanabe <small>田邊賢輔 · たなべ けんすけ</small></li>
@@ -267,7 +267,7 @@ gf_count: 18
 <li class="credits__name">Yasuki Tawaraishi <small>たわらいし やすき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical Support<span class="credits__ja-role">テクニカルサポート</span></h3>
+<h3>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">テクニカルサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hironobu Kakui <small>かくい ひろのぶ</small></li>
 <li class="credits__name">Hiroyasu Sasano <small>ささの ひろやす</small></li>
@@ -279,7 +279,7 @@ gf_count: 18
 <li class="credits__name">Takuya Kuribayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3>US Coordination</h3>
+<h3>US Coordination<span class="credits__zh-role">（美国协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Gail Tilden</li>
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a></li>
@@ -288,13 +288,13 @@ gf_count: 18
 <li class="credits__name">Kiyohiko Ando</li>
 </ul></section>
 <section class="credits__section">
-<h3>Text Editor</h3>
+<h3>Text Editor<span class="credits__zh-role">（文本编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michelle Powers</li>
 <li class="credits__name"><a href="/people/lillygren-teresa/">Teresa Lillygren</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>European Coordination</h3>
+<h3>European Coordination<span class="credits__zh-role">（欧洲协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kai Zeh</li>
 <li class="credits__name">Tanja Baar</li>
@@ -303,7 +303,7 @@ gf_count: 18
 <li class="credits__name">Hitomi Naitoh</li>
 </ul></section>
 <section class="credits__section">
-<h3>Text Translation</h3>
+<h3>Text Translation<span class="credits__zh-role">（文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ogasawara-nob/">Nob Ogasawara</a></li>
 <li class="credits__name">Ruth García</li>
@@ -316,7 +316,7 @@ gf_count: 18
 <li class="credits__name"><a href="/people/schafers-daniel/">Daniel Schäfers</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Product Testing</h3>
+<h3>Product Testing<span class="credits__zh-role">（产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michael Kelbaugh</li>
 <li class="credits__name is-company">Kyle Hudson</li>
@@ -332,7 +332,7 @@ gf_count: 18
 <li class="credits__name is-company">German Team Zelda</li>
 </ul></section>
 <section class="credits__section">
-<h3>Debug<span class="credits__ja-role">デバッグプレイ</span></h3>
+<h3>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">デバッグプレイ</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Super Mario Club NCL</li>
 <li class="credits__name">Naoki Inoue <small>いのうえ なおき</small></li>
@@ -359,7 +359,7 @@ gf_count: 18
 <li class="credits__name">Hifumi Miyazaki <small>みやざき ひふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャルサンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Katsuhito Yamauchi <small>山内克仁 · やまうち かつひと</small></li>
 <li class="credits__name">Kenji Saiki <small>さいき けんじ</small></li>
@@ -371,7 +371,7 @@ gf_count: 18
 <li class="credits__name">Daisuke Tsujimura <small>つじむら だいすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork<span class="credits__ja-role">アートワーク</span></h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span><span class="credits__ja-role">アートワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Kanoh <small>かのう まこと</small></li>
 <li class="credits__name">Naruhisa Kawano <small>かわの なるひさ</small></li>
@@ -383,34 +383,34 @@ gf_count: 18
 <li class="credits__name">Yoshitomo Kitamura <small>きたむら よしとも</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Manual Editor<span class="credits__ja-role">マニュアルエディター</span></h3>
+<h3>Manual Editor<span class="credits__zh-role">（说明书编辑）</span><span class="credits__ja-role">マニュアルエディター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naoyuki Kayama <small>かやま なおゆき</small></li>
 <li class="credits__name">Julien Bardakoff</li>
 <li class="credits__name">Martina Deimel</li>
 </ul></section>
 <section class="credits__section">
-<h3>Original Game Design<span class="credits__ja-role">オリジナルゲームデザイン</span></h3>
+<h3>Original Game Design<span class="credits__zh-role">（原作游戏设计）</span><span class="credits__ja-role">オリジナルゲームデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Advertisement &amp; Original Sound<span class="credits__ja-role">アドバイス&amp;オリジナルサウンド</span></h3>
+<h3>Advertisement &amp; Original Sound<span class="credits__zh-role">（Advertisement 与原作音响）</span><span class="credits__ja-role">アドバイス&amp;オリジナルサウンド</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>増田順一 · ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Advertisement &amp; Original Character Design<span class="credits__ja-role">アドバイス&amp;オリジナルキャラクターデザイン</span></h3>
+<h3>Advertisement &amp; Original Character Design<span class="credits__zh-role">（Advertisement 与原作角色设计）</span><span class="credits__ja-role">アドバイス&amp;オリジナルキャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>森本茂樹 · もりもと しげき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Original Character Design &amp; Character Art<span class="credits__ja-role">オリジナルキャラクターデザイン&amp;キャラクターげんが きょうりょく</span></h3>
+<h3>Original Character Design &amp; Character Art<span class="credits__zh-role">（原作角色设计与角色美术）</span><span class="credits__ja-role">オリジナルキャラクターデザイン&amp;キャラクターげんが きょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Original Character Design<span class="credits__ja-role">オリジナルキャラクターデザイン</span></h3>
+<h3>Original Character Design<span class="credits__zh-role">（原作角色设计）</span><span class="credits__ja-role">オリジナルキャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/fujiwara-motofumi/">Motofumi Fujiwara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 17 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>藤原基史 · ふじわら もとふみ</small></li>
 <li class="credits__name is-gf"><a href="/people/nishida-atsuko/">Atsuko Nishida</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>にしだあつこ · にしだ あつこ</small></li>
@@ -420,34 +420,34 @@ gf_count: 18
 <li class="credits__name is-gf"><a href="/people/yoshikawa-rena/">Rena Yoshikawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 8 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>吉川玲奈 · よしかわ れな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Advisor<span class="credits__ja-role">アドバイザー</span></h3>
+<h3>Advisor<span class="credits__zh-role">（顾问）</span><span class="credits__ja-role">アドバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/nishino-koji/">Koji Nishino</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 22 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>西野弘二 · にしの こうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Coordination<span class="credits__ja-role">コーディネーション</span></h3>
+<h3>Coordination<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーション</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>陣内弘之 · じんない ひろゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Coordination Assistants<span class="credits__ja-role">コーディネーションアシスト</span></h3>
+<h3>Coordination Assistants<span class="credits__zh-role">（协调助理）</span><span class="credits__ja-role">コーディネーションアシスト</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nomoto-gakuji/">Gakuji Nomoto</a> <small>野本岳志 · のもと がくじ</small></li>
 <li class="credits__name">Hiroki Enomoto <small>えのもと ひろき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Supervisor<span class="credits__ja-role">キャラクタースーパーバイザー</span></h3>
+<h3>Character Supervisor<span class="credits__zh-role">（角色监修）</span><span class="credits__ja-role">キャラクタースーパーバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoichi Kotabe <small>小田部羊一 · こたべ よういち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Progress Management<span class="credits__ja-role">プログレスマネジメント</span></h3>
+<h3>Progress Management<span class="credits__zh-role">（Progress 管理）</span><span class="credits__ja-role">プログレスマネジメント</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinichi Todori <small>とどり しんいち</small></li>
 <li class="credits__name">Keizo Kato <small>かとう けいぞう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenji Miki <small>三木研次 · みき けんじ</small></li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
@@ -455,7 +455,7 @@ gf_count: 18
 <li class="credits__name"><a href="/people/miyamoto-shigeru/">Shigeru Miyamoto</a> <small>宮本茂 · みやもと しげる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブプロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブプロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamauchi-hiroshi/">Hiroshi Yamauchi</a> <small>山内溥 · やまうち ひろし</small></li>
 </ul></section>

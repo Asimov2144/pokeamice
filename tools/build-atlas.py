@@ -542,3 +542,5 @@ if __name__ == "__main__":
     main()
     if "--no-check" not in sys.argv:
         check()
+    if "--no-pages" not in sys.argv:
+        _load("build-atlas-pages").main()      # 页面区块 _includes/atlas/<game>.html

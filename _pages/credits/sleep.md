@@ -21,7 +21,7 @@ gf_count: 3
 <li class="credits__name">Mihona Iioka</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Planning &amp; Direction / </small>The Pokémon Company<span class="credits__ja-role">Planning &amp; Direction</span></h3>
+<h3><small>Planning &amp; Direction / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Planning &amp; Direction</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Terada</li>
 <li class="credits__name">Yoshinari Yonehara</li>
@@ -65,7 +65,7 @@ gf_count: 3
 <li class="credits__name">Takumi Tsukada</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Artwork / </small>The Pokémon Company<span class="credits__ja-role">Artwork</span></h3>
+<h3><small>Artwork / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Artwork</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Marie Shuto</li>
 <li class="credits__name">Misaki Kamimura</li>
@@ -74,7 +74,7 @@ gf_count: 3
 <li class="credits__name">Nanako Kinoshita</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Artwork / </small>OLM team Kato<span class="credits__ja-role">Artwork</span></h3>
+<h3><small>Artwork / </small>OLM team Kato<span class="credits__zh-role">（OLM 组 Kato）</span><span class="credits__ja-role">Artwork</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyuki Kato <small>加藤浩幸</small></li>
 <li class="credits__name">Daiki Tomiyasu <small>冨安大貴</small></li>
@@ -230,12 +230,12 @@ gf_count: 3
 <li class="credits__name">Jun Fukuda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Music &amp; Sound Effect / </small>The Pokémon Company<span class="credits__ja-role">Music &amp; Sound Effect</span></h3>
+<h3><small>Music &amp; Sound Effect / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Music &amp; Sound Effect</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/gu-gu-xiang/">Sho Furutani</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Music &amp; Sound Effect / </small>Musician<span class="credits__ja-role">Music &amp; Sound Effect</span></h3>
+<h3><small>Music &amp; Sound Effect / </small>Musician<span class="credits__zh-role">（演奏）</span><span class="credits__ja-role">Music &amp; Sound Effect</span></h3>
 <ul class="credits__names">
 <li class="credits__name">yas nakajima</li>
 </ul></section>
@@ -245,7 +245,7 @@ gf_count: 3
 <li class="credits__name">Yoshiyuki Watanabe</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localize / </small>The Pokémon Company International<span class="credits__ja-role">Localization</span></h3>
+<h3><small>Localize / </small>The Pokémon Company International<span class="credits__zh-role">（宝可梦公司国际）</span><span class="credits__ja-role">Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
 <li class="credits__name">Chie Stutzman</li>
@@ -346,7 +346,7 @@ gf_count: 3
 <li class="credits__name"><a href="/people/bae-byunghun/">Byunghun Bae</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localize / </small>The Pokémon Company<span class="credits__ja-role">Localization</span></h3>
+<h3><small>Localize / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aota-yoshiko/">Yoshiko Aota</a></li>
 <li class="credits__name">Shuyang Jia</li>
@@ -382,7 +382,7 @@ gf_count: 3
 <li class="credits__name is-gf"><a href="/people/matsushima-kenji/">Kenji Matsushima</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>松島賢二</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokemon Supervision / </small>The Pokémon Company<span class="credits__ja-role">Pokemon Supervision</span></h3>
+<h3><small>Pokemon Supervision / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Pokemon Supervision</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kanayama-misuzu/">Misuzu Kanayama</a></li>
 <li class="credits__name">Yuki Nakagawa</li>
@@ -394,7 +394,7 @@ gf_count: 3
 <li class="credits__name">Masashi Yanagisawa <small>柳沢正史</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Development Support / </small>The Pokémon Company<span class="credits__ja-role">Development Support</span></h3>
+<h3><small>Development Support / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Development Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ota-nobuyuki/">Nobuyuki Ohta</a></li>
 <li class="credits__name">Tatsuya Ichijo</li>
@@ -402,7 +402,7 @@ gf_count: 3
 <li class="credits__name"><a href="/people/nakata-kayo/">Kayo Nakata</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Customer Support / </small>The Pokémon Company<span class="credits__ja-role">Customer Support</span></h3>
+<h3><small>Customer Support / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Customer Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazunori Sugiura</li>
 <li class="credits__name">Yohei Yamamoto</li>
@@ -412,7 +412,7 @@ gf_count: 3
 <li class="credits__name">Shu Amagiri</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Legal / </small>The Pokémon Company<span class="credits__ja-role">Legal</span></h3>
+<h3><small>Legal / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Legal</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hayakawa-hirotaka/">Hirotaka Hayakawa</a></li>
 <li class="credits__name">Asako Yamazaki</li>
@@ -422,7 +422,7 @@ gf_count: 3
 <li class="credits__name">Yuta Hara</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Promotion / </small>The Pokémon Company<span class="credits__ja-role">Promotion</span></h3>
+<h3><small>Promotion / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Promotion</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Manami Tate</li>
 <li class="credits__name">Yu Sato</li>
@@ -437,14 +437,14 @@ gf_count: 3
 <li class="credits__name">Kento Suga</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Produce / </small>The Pokémon Company<span class="credits__ja-role">Producers</span></h3>
+<h3><small>Produce / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Producers</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 <li class="credits__name">Kaname Kosugi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Special Thanks / </small>The Pokémon Company<span class="credits__ja-role">Special Thanks</span></h3>
+<h3><small>Special Thanks / </small>The Pokémon Company<span class="credits__zh-role">（宝可梦公司）</span><span class="credits__ja-role">Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>増田順一</small></li>
 <li class="credits__name"><a href="/people/sowa-takanori/">Takanori Sowa</a></li>
@@ -454,7 +454,7 @@ gf_count: 3
 <li class="credits__name"><a href="/people/hsu-minyu/">Minyu Hsu</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Special Thanks / </small>The Pokémon Company International<span class="credits__ja-role">Special Thanks</span></h3>
+<h3><small>Special Thanks / </small>The Pokémon Company International<span class="credits__zh-role">（宝可梦公司国际）</span><span class="credits__ja-role">Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/okubo-kenji/">Kenji Okubo</a></li>
 <li class="credits__name"><a href="/people/susai-gaku/">Gaku Susai</a></li>

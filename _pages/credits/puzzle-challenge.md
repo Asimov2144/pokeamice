@@ -8,19 +8,19 @@ sitemap: true
 gf_count: 3
 ---
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Concept</h3>
+<h3><small>Creative Staff / </small>Concept<span class="credits__zh-role">（概念）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a></li>
 <li class="credits__name">Toshitaka Muramatsu</li>
 </ul></section>
 <section class="credits__section">
-<h3>CREATIVE STAFF / CONCEPT</h3>
+<h3>CREATIVE STAFF / CONCEPT<span class="credits__zh-role">（创意人员 / 概念）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>山上仁志 · 山上 仁志</small></li>
 <li class="credits__name">  <small>村松 敏孝</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>PROGRAM CREATE</h3>
+<h3>PROGRAM CREATE<span class="credits__zh-role">（程序制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>力石 求</small></li>
 <li class="credits__name">  <small>西井 利弘</small></li>
@@ -30,7 +30,7 @@ gf_count: 3
 <li class="credits__name">  <small>今井 賢治</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>DESIGN CREATE</h3>
+<h3>DESIGN CREATE<span class="credits__zh-role">（设计制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>村松 敏孝</small></li>
 <li class="credits__name">  <small>松田 剛</small></li>
@@ -47,21 +47,21 @@ gf_count: 3
 <li class="credits__name">  <small>宮本 文子</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>SOUND CREATE</h3>
+<h3>SOUND CREATE<span class="credits__zh-role">（音响制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>泉田 大志</small></li>
 <li class="credits__name">  <small>西牧 賢一</small></li>
 <li class="credits__name">  <small>濱野 美奈子</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>POKEMON SUPERVISE</h3>
+<h3>POKEMON SUPERVISE<span class="credits__zh-role">（宝可梦 SUPERVISE）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>杉森建 · 杉森 建</small></li>
 <li class="credits__name">  <small>増田順一 · 増田 順一</small></li>
 <li class="credits__name">  <small>関根 和人</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Programming</h3>
+<h3><small>Creative Staff / </small>Programming<span class="credits__zh-role">（程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Motumu Chikaraishi</li>
 <li class="credits__name">Toshihiro Nishii</li>
@@ -70,7 +70,7 @@ gf_count: 3
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Design</h3>
+<h3><small>Creative Staff / </small>Design<span class="credits__zh-role">（设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshitaka Muramatsu</li>
 <li class="credits__name">Gou Matsuda</li>
@@ -87,21 +87,21 @@ gf_count: 3
 <li class="credits__name">Fumiko Miyamaoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Sound Creation</h3>
+<h3><small>Creative Staff / </small>Sound Creation<span class="credits__zh-role">（音响制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Taishi Sendra</li>
 <li class="credits__name">Kenchi Nishimaki</li>
 <li class="credits__name">Minako Hamano</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Pokémon Supervision</h3>
+<h3><small>Creative Staff / </small>Pokémon Supervision<span class="credits__zh-role">（宝可梦监修）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"></li>
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"></li>
 <li class="credits__name is-gf">Kazuhito Sekine<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 1999）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Special Thanks To</h3>
+<h3><small>Creative Staff / </small>Special Thanks To<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kouzou Ikuno</li>
 <li class="credits__name">Hiroyuki Yukami</li>
@@ -150,7 +150,7 @@ gf_count: 3
 <li class="credits__name">Ryosuke Yamada</li>
 </ul></section>
 <section class="credits__section">
-<h3>DIRECTION</h3>
+<h3>DIRECTION<span class="credits__zh-role">（指导）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">  <small>西井 利弘</small></li>
 <li class="credits__name">  <small>山上 仁志</small></li>
@@ -163,7 +163,7 @@ gf_count: 3
 <li class="credits__name">  <small>石原恒和 · 石原 恒和</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>North America</h3>
+<h3><small>Creative Staff / </small>North America<span class="credits__zh-role">（北美）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Bill Trinen</li>
 <li class="credits__name">Jeff Miller</li>
@@ -174,7 +174,7 @@ gf_count: 3
 <li class="credits__name">Gail Tilden</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Localization &amp; Testing Europe</h3>
+<h3><small>Creative Staff / </small>Localization &amp; Testing Europe<span class="credits__zh-role">（本地化与测试欧洲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kai Zeh</li>
 <li class="credits__name">Kai Neumann</li>
@@ -198,20 +198,20 @@ gf_count: 3
 <li class="credits__name">Calimero Tiiiun</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Direction</h3>
+<h3><small>Creative Staff / </small>Direction<span class="credits__zh-role">（指导）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshihiro Nishii</li>
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Production</h3>
+<h3><small>Creative Staff / </small>Production<span class="credits__zh-role">（制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/izushi-takehiro/">Takehiro Izushi</a></li>
 <li class="credits__name">Ryouichi Kitanishi</li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekaz Ishihara</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Creative Staff / </small>Produced By</h3>
+<h3><small>Creative Staff / </small>Produced By<span class="credits__zh-role">（制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Team Battle Clash</li>
 </ul></section>

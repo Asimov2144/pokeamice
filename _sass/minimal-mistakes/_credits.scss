@@ -72,6 +72,14 @@
   }
 }
 
+/* 职务的中文小字（tools/role-zh.py）：空间够时显示在英文职务后的括号里，窄屏收起 */
+.credits__zh-role {
+  color: $muted-text-color;
+  font-size: 0.74rem;
+  font-weight: 500;
+  @media (max-width: 640px) { display: none; }
+}
+
 .credits__ja-role {
   color: $muted-text-color;
   font-size: 0.74rem;

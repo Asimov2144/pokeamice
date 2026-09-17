@@ -7,12 +7,12 @@ search: false
 sitemap: true
 ---
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ポケットモンスター スタッフ / ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ポケットモンスター スタッフ / ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Programming<span class="credits__ja-role">プログラム</span></h3>
+<h3>Programming<span class="credits__zh-role">（程序）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ota-takenori/">Takenori Ōta</a> <small>太田健程 · おおた たけのり</small></li>
 <li class="credits__name"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a> <small>森本茂樹 · もりもと しげき</small></li>
@@ -20,28 +20,28 @@ sitemap: true
 <li class="credits__name"><a href="/people/masuda-junichi/">Jun&#x27;ichi Masuda</a> <small>増田順一 · ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Design<span class="credits__ja-role">キャラクターデザイン</span></h3>
+<h3>Character Design<span class="credits__zh-role">（角色设计）</span><span class="credits__ja-role">キャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sugimori-ken/">Ken Sugimori</a> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name"><a href="/people/nishida-atsuko/">Atsuko Nishida</a> <small>にしだあつこ · にしだ あつこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Music<span class="credits__ja-role">おんがく</span></h3>
+<h3>Music<span class="credits__zh-role">（音乐）</span><span class="credits__ja-role">おんがく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/masuda-junichi/">Jun&#x27;ichi Masuda</a> <small>ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Effects<span class="credits__ja-role">サウンド エフェクト</span></h3>
+<h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンド エフェクト</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/masuda-junichi/">Jun&#x27;ichi Masuda</a> <small>ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Design<span class="credits__ja-role">ゲームデザイン</span></h3>
+<h3>Game Design<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">ゲームデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a> <small>たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Design<span class="credits__ja-role">モンスター デザイン</span></h3>
+<h3>Pokémon Design<span class="credits__zh-role">（宝可梦设计）</span><span class="credits__ja-role">モンスター デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sugimori-ken/">Ken Sugimori</a> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name"><a href="/people/nishida-atsuko/">Atsuko Nishida</a> <small>西田敦子 · にしだ あつこ</small></li>
@@ -49,7 +49,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a> <small>森本茂樹 · もりもと しげき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario<span class="credits__ja-role">シナリオ</span></h3>
+<h3>Scenario<span class="credits__zh-role">（剧本）</span><span class="credits__ja-role">シナリオ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a> <small>たじり さとし</small></li>
 <li class="credits__name">Ryōsuke Taniguchi <small>たにぐち りょうすけ</small></li>
@@ -62,7 +62,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/nishino-koji/">Kōji Nishino</a> <small>西野弘二 · にしの こうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Map Design<span class="credits__ja-role">マップ デザイン</span></h3>
+<h3>Map Design<span class="credits__zh-role">（地图设计）</span><span class="credits__ja-role">マップ デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a> <small>たじり さとし</small></li>
 <li class="credits__name"><a href="/people/nishino-koji/">Kōji Nishino</a> <small>にしの こうじ</small></li>
@@ -89,14 +89,14 @@ sitemap: true
 <li class="credits__name">Hiroshi Kawamoto <small>かわもと ひろし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Debug Play<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Debug Play<span class="credits__zh-role">（试玩调试）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/miyamoto-shigeru/">Shigeru Miyamoto</a> <small>宮本茂 · みやもと しげる</small></li>
 <li class="credits__name"><a href="/people/kawaguchi-takashi/">Takashi Kawaguchi</a> <small>川口孝司 · かわぐち たかし</small></li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamauchi-hiroshi/">Hiroshi Yamauchi</a> <small>山内溥 · やまうち ひろし</small></li>
 </ul></section>

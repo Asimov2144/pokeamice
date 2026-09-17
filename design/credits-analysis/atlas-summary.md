@@ -40,7 +40,7 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | scarlet-violet | legends-za | chronological | evidenced | 823 | 620 | 392 | 0.476 | 0.632 | 0.373 | 370 | 322 | 49 |
 | legends-arceus | scarlet-violet | parallel | evidenced | 395 | 823 | 299 | 0.757 | 0.363 | 0.325 | 263 | 223 | 40 |
-| legends-arceus | legends-za | chronological | evidenced | 395 | 620 | 224 | 0.567 | 0.361 | 0.283 | 192 | 162 | 37 |
+| legends-arceus | legends-za | chronological | evidenced | 395 | 620 | 224 | 0.567 | 0.361 | 0.283 | 192 | 161 | 37 |
 | sword-shield | scarlet-violet | chronological | evidenced | 467 | 823 | 218 | 0.467 | 0.265 | 0.203 | 186 | 153 | 32 |
 | sword-shield | legends-arceus | chronological | evidenced | 467 | 395 | 178 | 0.381 | 0.451 | 0.26 | 139 | 101 | 26 |
 | lets-go | sword-shield | chronological | evidenced | 206 | 467 | 144 | 0.699 | 0.308 | 0.272 | 116 | 89 | 20 |

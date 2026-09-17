@@ -8,39 +8,39 @@ sitemap: true
 gf_count: 15
 ---
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Pokémon Created By<span class="credits__ja-role">「ぼくたちピチューブラザーズ」 アニメ ユニット / げんあん</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Pokémon Created By<span class="credits__zh-role">（宝可梦制作）</span><span class="credits__ja-role">「ぼくたちピチューブラザーズ」 アニメ ユニット / げんあん</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Supervisor<span class="credits__ja-role">アニメーションかんしゅう</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Supervisor<span class="credits__zh-role">（动画监修）</span><span class="credits__ja-role">アニメーションかんしゅう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoichi Kotabe <small>小田部羊一 · こたべ よういち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kubo-masakazu/">Masakazu Kubo</a> <small>久保雅一 · くぼ まさかず</small></li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Associate Producer<span class="credits__ja-role">アソシエイト・プロデューサー</span></h3>
+<h3>Associate Producer<span class="credits__zh-role">（副制作人）</span><span class="credits__ja-role">アソシエイト・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Choji Yoshikawa <small>吉川兆二 · よしかわ ちょうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Director<span class="credits__ja-role">かんとく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">かんとく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yuyama-kunihiko/">Kuniko Yuyama</a> <small>湯山邦彦 · ゆやま くにひこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takemoto Mori <small>もり たけもと</small></li>
 <li class="credits__name">Makiko Iwata <small>いわた まきこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Producers<span class="credits__ja-role">アニメーション・プロデューサー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Producers<span class="credits__zh-role">（动画制作人）</span><span class="credits__ja-role">アニメーション・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshiaki Okuno <small>おくの としあき</small></li>
 <li class="credits__name">Shukichi Kanda <small>かんだ しゅうきち</small></li>
@@ -51,156 +51,156 @@ gf_count: 15
 <li class="credits__name"><a href="/people/takegami-junki/">Junki Takegami</a> <small>武上純希 · たけがみ じゅんき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Executive Producer<span class="credits__ja-role">さくし</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Executive Producer<span class="credits__zh-role">（北美执行制作人）</span><span class="credits__ja-role">さくし</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Norman J. Grossfeld</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Producer<span class="credits__ja-role">えいごサウンドトラック / プロデューサー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Producer<span class="credits__zh-role">（北美制作人）</span><span class="credits__ja-role">えいごサウンドトラック / プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kathy Borland</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Adaptations<span class="credits__ja-role">きゃくしょく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Adaptations<span class="credits__zh-role">（北美 Adaptations）</span><span class="credits__ja-role">きゃくしょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michael Haigney</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Voice Producers</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Voice Producers<span class="credits__zh-role">（北美配音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Larry Juris</li>
 <li class="credits__name">Michael Haigney</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Voice Directors</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Voice Directors<span class="credits__zh-role">（北美配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michael Haigney</li>
 <li class="credits__name">Eric Stuart</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Translation<span class="credits__ja-role">ほんやく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Translation<span class="credits__zh-role">（北美翻译）</span><span class="credits__ja-role">ほんやく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Paul Taylor</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Alternate Dialogue Recording Engineer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Alternate Dialogue Recording Engineer<span class="credits__zh-role">（Alternate 对白录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ohad Tzachar</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Sound Mixer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Sound Mixer<span class="credits__zh-role">（北美音响 Mixer）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shawn Conrad</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Graphic Designer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Graphic Designer<span class="credits__zh-role">（北美图形设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jennifer Obrotka</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Production Assistant</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>North American Production Assistant<span class="credits__zh-role">（北美制作助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Crystal Marcus</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Recording Executive Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Recording Executive Producer<span class="credits__zh-role">（法语录音执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Pierre Métais</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Recording Director</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Recording Director<span class="credits__zh-role">（法语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniel Nicodème</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Voice Director</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Voice Director<span class="credits__zh-role">（法语配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniel Nicodème</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Translation</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>French Translation<span class="credits__zh-role">（法语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Alexandre Gibert</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>German Dubbing Agency</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>German Dubbing Agency<span class="credits__zh-role">（德语配音 Agency）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Erika Gröne</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Producer<span class="credits__zh-role">（意大利语录音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ed Campbell</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Director</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Director<span class="credits__zh-role">（意大利语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Cip Barcellini</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Coordinator</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Coordinator<span class="credits__zh-role">（意大利语录音协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniele Blandino</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Engineer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Recording Engineer<span class="credits__zh-role">（意大利语录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Moreno G. Pometti</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Voice Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Voice Producer<span class="credits__zh-role">（意大利语配音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Cinzia Veronese</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Voice Director</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Voice Director<span class="credits__zh-role">（意大利语配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryan Nicola Carrassi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Sound Mixer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Sound Mixer<span class="credits__zh-role">（意大利语音响 Mixer）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ignazio Giardina</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Translation</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Amanda Wodword</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Producer<span class="credits__zh-role">（西班牙语录音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mariano Garcia Diez</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Director</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Director<span class="credits__zh-role">（西班牙语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Amparo Valencia</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Engineer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Recording Engineer<span class="credits__zh-role">（西班牙语录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Alejandro Rodriguez</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Voice Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Voice Producer<span class="credits__zh-role">（西班牙语配音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Victoria Osuna</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Sound Mixer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Sound Mixer<span class="credits__zh-role">（西班牙语音响 Mixer）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Enrique Baptista</li>
 <li class="credits__name">José Andrés Vargas</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Translation</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Spanish Translation<span class="credits__zh-role">（西班牙语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Enrique Baptista</li>
 <li class="credits__name">Amparo Valencia</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Conceptual Character Artists<span class="credits__ja-role">キャラクターげんあん</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Conceptual Character Artists<span class="credits__zh-role">（Conceptual 角色美术）</span><span class="credits__ja-role">キャラクターげんあん</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建 · すぎもり けん</small></li>
 <li class="credits__name is-gf"><a href="/people/fujiwara-motofumi/">Motofumi Fojiwara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 17 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>藤原基史 · ふじわら もとふみ</small></li>
@@ -212,43 +212,43 @@ gf_count: 15
 <li class="credits__name is-gf"><a href="/people/yoshikawa-rena/">Rena Yoshikawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 8 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>吉川玲奈 · よしかわ れな</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Character Designer<span class="credits__ja-role">キャラクターデザイン</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Character Designer<span class="credits__zh-role">（角色设计）</span><span class="credits__ja-role">キャラクターデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tokuhiro Matsubara <small>松原徳弘 · まつばら とくひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Art Director<span class="credits__ja-role">びじゅつかんとく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Art Director<span class="credits__zh-role">（美术总监）</span><span class="credits__ja-role">びじゅつかんとく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shichiro Kobayashi <small>小林七郎 · こばやし しちろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Color Settings<span class="credits__ja-role">しきさいせっけい</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Color Settings<span class="credits__zh-role">（Color 设定）</span><span class="credits__ja-role">しきさいせっけい</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Noriyuki Yoshino <small>よしの のりゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>CG Director<span class="credits__ja-role">CGディレクター</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>CG Director<span class="credits__zh-role">（CG 总监）</span><span class="credits__ja-role">CGディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takaya Mizutani <small>みずたに たかや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Film Editor<span class="credits__ja-role">へんしゅう</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Film Editor<span class="credits__zh-role">（Film 编辑）</span><span class="credits__ja-role">へんしゅう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Toshiyo Henmi <small>へんみ としお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Storyboard Artist and Assistant Director<span class="credits__ja-role">えコンテ・えんしゅつ</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Storyboard Artist and Assistant Director<span class="credits__zh-role">（分镜美术与助理总监）</span><span class="credits__ja-role">えコンテ・えんしゅつ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuji Asada <small>あさだ ゆうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Directors<span class="credits__ja-role">さくがかんとく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Directors<span class="credits__zh-role">（动画总监）</span><span class="credits__ja-role">さくがかんとく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tokuhiro Matsubara <small>まつばら とくひろ</small></li>
 <li class="credits__name">Sayuri Ichiisi <small>一石小百合 · いちいし さゆり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Key Animators<span class="credits__ja-role">げんが</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Key Animators<span class="credits__zh-role">（Key 动画）</span><span class="credits__ja-role">げんが</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaaki Iwane <small>岩根雅明 · いわね まさあき</small></li>
 <li class="credits__name">Katsuichi Nakayama <small>なかやま かついち</small></li>
@@ -262,12 +262,12 @@ gf_count: 15
 <li class="credits__name">Akihiro Tamagawa <small>たまがわ あきひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Checker<span class="credits__ja-role">どうがチェック</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Checker<span class="credits__zh-role">（动画 Checker）</span><span class="credits__ja-role">どうがチェック</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fujika Enomoto <small>えのもと ふじか</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animators<span class="credits__ja-role">どうが</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animators<span class="credits__zh-role">（动画）</span><span class="credits__ja-role">どうが</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takako Uetake <small>うえたけ たかこ</small></li>
 <li class="credits__name">Takeyuki Uragami <small>うらがみ たかゆき</small></li>
@@ -304,7 +304,7 @@ gf_count: 15
 <li class="credits__name">Hiroshi Otsuki <small>おおつき ひろし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Digital Painters<span class="credits__ja-role">デジタルペイント</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Digital Painters<span class="credits__zh-role">（数字上色）</span><span class="credits__ja-role">デジタルペイント</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">O.L.M. Digital <small>オー・エル・エム デジタル</small></li>
 <li class="credits__name">Masami Shimizu <small>しみず まさみ</small></li>
@@ -324,12 +324,12 @@ gf_count: 15
 <li class="credits__name">Kayo Ohshima <small>おおしま かよ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Special Effects<span class="credits__ja-role">おんきょうこうか</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Special Effects<span class="credits__zh-role">（特效）</span><span class="credits__ja-role">おんきょうこうか</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tatsumi Yukiwaki <small>ゆきわき たつみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Special Effects<span class="credits__ja-role">コンポジット&amp;エフェクト</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Animation Special Effects<span class="credits__zh-role">（动画特效）</span><span class="credits__ja-role">コンポジット&amp;エフェクト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshiko Chatani <small>ちゃたに よしこ</small></li>
 <li class="credits__name">Kazuyuki Yamamoto <small>やまもと かずゆき</small></li>
@@ -337,22 +337,22 @@ gf_count: 15
 <li class="credits__name">Yuji Asada <small>あさだ ゆうじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Digital Manager<span class="credits__ja-role">デジタルマネージャー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Digital Manager<span class="credits__zh-role">（数字经理）</span><span class="credits__ja-role">デジタルマネージャー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenji Otake <small>おおたけ けんじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>CGI Director<span class="credits__ja-role">CGIディレクター</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>CGI Director<span class="credits__zh-role">（CGI 总监）</span><span class="credits__ja-role">CGIディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akio Kazumi <small>かずみ あきお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>3-D CG Designer<span class="credits__ja-role">3DCGデザイン</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>3-D CG Designer<span class="credits__zh-role">（3D CG 设计）</span><span class="credits__ja-role">3DCGデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromichi Mizuno <small>みずの ひろみち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Backgrounds<span class="credits__ja-role">はいけい</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Backgrounds<span class="credits__zh-role">（背景）</span><span class="credits__ja-role">はいけい</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Kobayashi Production</li>
 <li class="credits__name">Akio Shimada <small>しまだ あきお</small></li>
@@ -366,42 +366,42 @@ gf_count: 15
 <li class="credits__name">Yoshimichi Kamijo <small>かみじょう よしみち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Assistant Editor<span class="credits__ja-role">へんしゅうじょしゅ</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Assistant Editor<span class="credits__zh-role">（助理编辑）</span><span class="credits__ja-role">へんしゅうじょしゅ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomoki Nagasaka <small>ながさか ともき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording Producer<span class="credits__ja-role">おんきょう・プロデューサー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording Producer<span class="credits__zh-role">（音响录音制作人）</span><span class="credits__ja-role">おんきょう・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michiyoshi Minamisawa <small>みなみさわ みちよし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording Director<span class="credits__ja-role">おんきょうかんとく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording Director<span class="credits__zh-role">（音响录音总监）</span><span class="credits__ja-role">おんきょうかんとく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mima-masafumi/">Masafumi Mima</a> <small>三間雅文 · みま まさふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Music<span class="credits__ja-role">おんがく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Music<span class="credits__zh-role">（音乐）</span><span class="credits__ja-role">おんがく</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jun Umebori <small>うめぼり じゅん</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Coordinator<span class="credits__ja-role">おんがくコーディネート</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Coordinator<span class="credits__zh-role">（音响协调）</span><span class="credits__ja-role">おんがくコーディネート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eiko Konoo <small>このお えいこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Effects Supervisor<span class="credits__ja-role">おんきょうこうか</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Effects Supervisor<span class="credits__zh-role">（音效监修）</span><span class="credits__ja-role">おんきょうこうか</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daisuke Jinbo <small>じんぼ だいすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Mixer<span class="credits__ja-role">ミクサー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Mixer<span class="credits__zh-role">（音响 Mixer）</span><span class="credits__ja-role">ミクサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nobuhira Hirano <small>ひらの のぶひら</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording<span class="credits__ja-role">ろくおん</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Recording<span class="credits__zh-role">（音响录音）</span><span class="credits__ja-role">ろくおん</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryoko Nashimoto <small>なしもと りょうこ</small></li>
 <li class="credits__name">Akiko Nakamura <small>なかむら あきこ</small></li>
@@ -423,7 +423,7 @@ gf_count: 15
 <li class="credits__name">Mediafakutorii Pikachuurekoodo <small>〜ピカチュウレコード ([[メディアファクトリー]])〜</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Effects Production</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Sound Effects Production<span class="credits__zh-role">（音效制作）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Half HP Studio</li>
 </ul></section>
@@ -435,57 +435,57 @@ gf_count: 15
 <li class="credits__name">Vocals: Kumiko Endo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>English Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>English Lyrics By<span class="credits__zh-role">（英语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Norman J. Grossfeld</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>French Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>French Lyrics By<span class="credits__zh-role">（法语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Angélique Blanchemaison</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>German Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>German Lyrics By<span class="credits__zh-role">（德语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Martina Deimel</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Italian Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Italian Lyrics By<span class="credits__zh-role">（意大利语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniele Blandino</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Spanish Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Spanish Lyrics By<span class="credits__zh-role">（西班牙语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Miguel Ángel Varela</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Composed By<span class="credits__ja-role">おんがくプロデューサー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Composed By<span class="credits__zh-role">（Composed）</span><span class="credits__ja-role">おんがくプロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tanaka-hirokazu/">Hirokazu Tanaka</a> <small>たなか ひろかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>English Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>English Vocals By<span class="credits__zh-role">（英语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Peter Thom</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>French Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>French Vocals By<span class="credits__zh-role">（法语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Pierre Bodson</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>German Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>German Vocals By<span class="credits__zh-role">（德语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ecco di Lorenzo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Italian Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Italian Vocals By<span class="credits__zh-role">（意大利语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniele Blandino</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Spanish Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Side By Side - Pichu &amp; Pichu&quot; / </small>Spanish Vocals By<span class="credits__zh-role">（西班牙语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">José Escobosa</li>
 </ul></section>
@@ -499,55 +499,55 @@ gf_count: 15
 <li class="credits__name is-company">~Pikachu Records (Media Factory)~</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>English Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>English Lyrics By<span class="credits__zh-role">（英语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Norman J. Grossfield</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>French Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>French Lyrics By<span class="credits__zh-role">（法语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Angélique Blanchemaison</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>German Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>German Lyrics By<span class="credits__zh-role">（德语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Martina Deimel</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Italian Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Italian Lyrics By<span class="credits__zh-role">（意大利语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryan Nicola Carrassi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Spanish Lyrics By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Spanish Lyrics By<span class="credits__zh-role">（西班牙语作词）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Miguel Ángel Varela</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Composed By<span class="credits__ja-role">スーパーバイザー</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Composed By<span class="credits__zh-role">（Composed）</span><span class="credits__ja-role">スーパーバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tanaka-hirokazu/">Hirokazu Tanaka</a> <small>たなか ひろかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>English Vocals By<span class="credits__ja-role">うた</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>English Vocals By<span class="credits__zh-role">（英语演唱）</span><span class="credits__ja-role">うた</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Maddie Blaustein</li>
 <li class="credits__name">Rachael Lillis</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>French Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>French Vocals By<span class="credits__zh-role">（法语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nessym Guetat</li>
 <li class="credits__name">Catherine Conet</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>German Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>German Vocals By<span class="credits__zh-role">（德语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Gerhard Acktun</li>
 <li class="credits__name">Conny K. / Rickie kinnen</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Italian Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Italian Vocals By<span class="credits__zh-role">（意大利语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Giuseppe Calvetti</li>
 <li class="credits__name">Serena Clerici</li>
@@ -555,14 +555,14 @@ gf_count: 15
 <li class="credits__name">Marco Leurini</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Spanish Vocals By</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / &quot;Meowth&#x27;s Party&quot; / </small>Spanish Vocals By<span class="credits__zh-role">（西班牙语演唱）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">José Escobosa</li>
 <li class="credits__name">Luisa Bodega</li>
 <li class="credits__name">Victoria Bodega</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Cast<span class="credits__ja-role">こえのしゅつえん (キャスト)</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Cast<span class="credits__zh-role">（演员）</span><span class="credits__ja-role">こえのしゅつえん (キャスト)</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Pichu Older Brother: Yumi Toma</li>
 <li class="credits__name">Pichu Younger Brother: Satomi Kohrogi</li>
@@ -621,62 +621,62 @@ gf_count: 15
 <li class="credits__name">Sugiyama kazuko Nareeshon <small>杉山佳寿子 · ナレーション すぎやま かずこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Production Manager<span class="credits__ja-role">せいさくたんとう</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Production Manager<span class="credits__zh-role">（制作经理）</span><span class="credits__ja-role">せいさくたんとう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tsukasa Koitabashi <small>小板橋司 · こいたばし つかさ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Assistant Coordinator<span class="credits__ja-role">せいさくしんこう</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Assistant Coordinator<span class="credits__zh-role">（助理协调）</span><span class="credits__ja-role">せいさくしんこう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Haruyasu Makino <small>まきの はるやす</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>In Cooperation With<span class="credits__ja-role">アニメーションせいさく</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>In Cooperation With<span class="credits__zh-role">（协力）</span><span class="credits__ja-role">アニメーションせいさく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Shogakukan Production</li>
 <li class="credits__name is-company">O.L.M. Digital</li>
 <li class="credits__name is-company">Team Koitabashi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/kawaguchi-takashi/">Takashi Kawaguchi</a> <small>川口孝司 · かわぐち たかし</small></li>
 <li class="credits__name">Yoichi Yamamoto <small>山本洋一 · やまもと よういち</small></li>
 <li class="credits__name is-gf"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>陣内弘之 · じんない ひろゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Music Producer</h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Music Producer<span class="credits__zh-role">（音乐制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tanaka-hirokazu/">Hirokazu Tanaka</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Coordinator<span class="credits__ja-role">コーディネーター</span></h3>
+<h3><small>&quot;PICHU BROS. IN PARTY PANIC!&quot; Animation Unit / </small>Coordinator<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yumiko Murai <small>むらい ゆみこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Director<span class="credits__ja-role">「ニャースのパーティ」 CG ユニット / ディレクター</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">「ニャースのパーティ」 CG ユニット / ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasunori Yanagisawa <small>やなぎさわ やすのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Programmers<span class="credits__ja-role">プログラマー</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">プログラマー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaaki Fukunaga <small>ふくなが まさあき</small></li>
 <li class="credits__name">Yoshikazu Fujita <small>ふじた よしかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Graphic Director<span class="credits__ja-role">グラフィックディレクター</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Graphic Director<span class="credits__zh-role">（图形总监）</span><span class="credits__ja-role">グラフィックディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ito Ashura Benimaru <small>伊藤紅丸 · いとう あしゅら べにまる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Chief Designer<span class="credits__ja-role">チーフデザイナー</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Chief Designer<span class="credits__zh-role">（主任设计）</span><span class="credits__ja-role">チーフデザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shigefumi Kawase <small>川瀬滋史 · かわせ しげふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Designers<span class="credits__ja-role">デザイナー</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Designers<span class="credits__zh-role">（设计）</span><span class="credits__ja-role">デザイナー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ken Ikuji <small>いくじ けん</small></li>
 <li class="credits__name">Hiroaki Ito <small>いとう ひろあき</small></li>
@@ -689,26 +689,26 @@ gf_count: 15
 <li class="credits__name is-gf"><a href="/people/yoshikawa-shinichi/">Shinichi Yoshikawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2022）"> <small>よしかわ しんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Sound<span class="credits__ja-role">サウンド</span></h3>
+<h3><small>&quot;Meowth&#x27;s Party&quot; CG Unit / </small>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">サウンド</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Taishi Senda <small>せんだ たいし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Directors<span class="credits__ja-role">ポケモンチャンネルスタッフ / ディレクター</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Directors<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ポケモンチャンネルスタッフ / ディレクター</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Muneaki Ozawa <small>小澤宗明 · おざわ むねあき</small></li>
-<li class="credits__name">Norio Matsumura <small>松村憲男 · まつむら のりお</small></li>
+<li class="credits__name"><a href="/people/ozawa-muneaki/">Muneaki Ozawa</a> <small>小澤宗明 · おざわ むねあき</small></li>
+<li class="credits__name"><a href="/people/matsumura-norio/">Norio Matsumura</a> <small>松村憲男 · まつむら のりお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Planners<span class="credits__ja-role">プランニング</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Planners<span class="credits__zh-role">（企划）</span><span class="credits__ja-role">プランニング</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Muneaki Ozawa <small>おざわ むねあき</small></li>
+<li class="credits__name"><a href="/people/ozawa-muneaki/">Muneaki Ozawa</a> <small>おざわ むねあき</small></li>
 <li class="credits__name">Miki Obata <small>おばた みき</small></li>
-<li class="credits__name">Norio Matsumura <small>まつむら のりお</small></li>
+<li class="credits__name"><a href="/people/matsumura-norio/">Norio Matsumura</a> <small>まつむら のりお</small></li>
 <li class="credits__name">Kunimi Kawamura <small>川村久仁美 · かわむら くにみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Programmers<span class="credits__ja-role">プログラム</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takayuki Ito <small>いとう たかゆき</small></li>
 <li class="credits__name">Yosuke Suma <small>すま ようすけ</small></li>
@@ -719,7 +719,7 @@ gf_count: 15
 <li class="credits__name">Yoshiyuki Oto <small>おく よしゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Pokémon mini<span class="credits__ja-role">プログラム</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Pokémon mini<span class="credits__zh-role">（宝可梦迷你）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koji Yoshizaki <small>よしざき こうじ</small></li>
 </ul></section>
@@ -729,24 +729,24 @@ gf_count: 15
 <li class="credits__name is-company">HAL Laboratory</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Programming Support<span class="credits__ja-role">ドーブル・ペイント / プログラム・サポート</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Programming Support<span class="credits__zh-role">（程序支持）</span><span class="credits__ja-role">ドーブル・ペイント / プログラム・サポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/mitsuhara-satoshi/">Satoshi Mitsuhara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2004）"> <small>三津原敏 · みつはら さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Sound<span class="credits__ja-role">サウンド</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">サウンド</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Miki Obata <small>おばた みき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Graphics<span class="credits__ja-role">グラフィック</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Graphics<span class="credits__zh-role">（图形）</span><span class="credits__ja-role">グラフィック</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shin Naka <small>なか しん</small></li>
 <li class="credits__name">Hiroyuki Yamanaka <small>やまなか ひろゆき</small></li>
 <li class="credits__name">Wataru Kawashima <small>かわしま わたる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Graphic Support<span class="credits__ja-role">グラフィック・サポート</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Graphic Support<span class="credits__zh-role">（图形支持）</span><span class="credits__ja-role">グラフィック・サポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Kei Hoshiba<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2006）"> <small>ほしば けい</small></li>
 <li class="credits__name">Ken Ikuji <small>いくじ けん</small></li>
@@ -761,68 +761,68 @@ gf_count: 15
 <li class="credits__name"><a href="/people/jiu-xu-mei-long-tai/">Ryuta Kusumi</a> <small>久須美龍太 · くすみ りゅうた</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Text<span class="credits__ja-role">テキスト</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Text<span class="credits__zh-role">（文本）</span><span class="credits__ja-role">テキスト</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Miki Obata <small>おばた みき</small></li>
-<li class="credits__name">Norio Matsumura <small>まつむら のりお</small></li>
+<li class="credits__name"><a href="/people/matsumura-norio/">Norio Matsumura</a> <small>まつむら のりお</small></li>
 <li class="credits__name">Takayuki Ito <small>いとう たかゆき</small></li>
 <li class="credits__name"><a href="/people/miura-masayuki/">Masayuki Miura</a> <small>みうら まさゆき</small></li>
 <li class="credits__name">Hizuki Misono <small>みその ひづき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Text Support<span class="credits__ja-role">テキスト・サポート</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Text Support<span class="credits__zh-role">（文本支持）</span><span class="credits__ja-role">テキスト・サポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akihito Toda <small>とだ あきひと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Development Support<span class="credits__ja-role">かいはつ・サポート</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Development Support<span class="credits__zh-role">（开发支持）</span><span class="credits__ja-role">かいはつ・サポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/jiu-xu-mei-long-tai/">Ryuta Kusumi</a> <small>くすみ りゅうた</small></li>
 <li class="credits__name">Hizuki Misono <small>みその ひづき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>European Localization</h3>
+<h3><small>Pokémon Channel Staff / </small>European Localization<span class="credits__zh-role">（欧洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/uesugi-hiroyuki/">Hiroyuki Uesugi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>English Localization</h3>
+<h3><small>Pokémon Channel Staff / </small>English Localization<span class="credits__zh-role">（英语本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a></li>
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>English Translation</h3>
+<h3><small>Pokémon Channel Staff / </small>English Translation<span class="credits__zh-role">（英语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ogasawara-nob/">Nob Ogasawara</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>French Translation</h3>
+<h3><small>Pokémon Channel Staff / </small>French Translation<span class="credits__zh-role">（法语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Angélique Blanchemaison</li>
 <li class="credits__name">Zadia Messerli</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>German Translation</h3>
+<h3><small>Pokémon Channel Staff / </small>German Translation<span class="credits__zh-role">（德语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Martina Deimel</li>
 <li class="credits__name"><a href="/people/schafers-daniel/">Daniel Schäfers</a></li>
 <li class="credits__name">Andrea Jähn</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Translation</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nardo-elena/">Elena Nardo</a></li>
 <li class="credits__name">Massimo Maietti</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Spanish Translation</h3>
+<h3><small>Pokémon Channel Staff / </small>Spanish Translation<span class="credits__zh-role">（西班牙语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Palma Sánchez de Moya Rodríguez</li>
 <li class="credits__name">Guillermo López-Anglada Fernández</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Debug</h3>
+<h3><small>Pokémon Channel Staff / </small>Debug<span class="credits__zh-role">（调试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">NCL Super Mario Club</li>
 <li class="credits__name is-company">NOA Product Testing</li>
@@ -843,13 +843,13 @@ gf_count: 15
 <li class="credits__name">Michaelangelo Vassallo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Artwork<span class="credits__ja-role">アートワーク</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Artwork<span class="credits__zh-role">（美术素材）</span><span class="credits__ja-role">アートワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kenichiro Ashida <small>あしだ けんいちろう</small></li>
 <li class="credits__name">Yosuke Hamada <small>はまだ ようすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Pokémon Voices<span class="credits__ja-role">こえのしゅつえん (50おんじゅん)</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Pokémon Voices<span class="credits__zh-role">（宝可梦配音）</span><span class="credits__ja-role">こえのしゅつえん (50おんじゅん)</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rikako Aikawa <small>愛河里花子 · あいかわ りかこ</small></li>
 <li class="credits__name">Mayumi Iizuka <small>飯塚雅弓 · いいづか まゆみ</small></li>
@@ -919,22 +919,22 @@ gf_count: 15
 <li class="credits__name">José Escobosa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Recording Director<span class="credits__ja-role">アフレコ・おんきょうかんとく</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Recording Director<span class="credits__zh-role">（录音总监）</span><span class="credits__ja-role">アフレコ・おんきょうかんとく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mima-masafumi/">Masafumi Mima</a> <small>みま まさふみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>North American Recording Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>North American Recording Producer<span class="credits__zh-role">（北美录音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kathy Borland</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>North American Recording Director</h3>
+<h3><small>Pokémon Channel Staff / </small>North American Recording Director<span class="credits__zh-role">（北美录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Darren Dunstan</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Recording Coordinators<span class="credits__ja-role">アフレコ・コーディネート</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Recording Coordinators<span class="credits__zh-role">（录音协调）</span><span class="credits__ja-role">アフレコ・コーディネート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takemoto Mori <small>もり たけもと</small></li>
 <li class="credits__name">Yuko Shimamura <small>しまむら ゆうこ</small></li>
@@ -945,7 +945,7 @@ gf_count: 15
 <li class="credits__name">Yoshie Okabayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>North American Recording Engineers</h3>
+<h3><small>Pokémon Channel Staff / </small>North American Recording Engineers<span class="credits__zh-role">（北美录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michele Darling</li>
 <li class="credits__name">Suzanne Goldish</li>
@@ -954,77 +954,77 @@ gf_count: 15
 <li class="credits__name">Charles Newman</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>French Recording Executive Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>French Recording Executive Producer<span class="credits__zh-role">（法语录音执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Pierre Métais</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>French Recording Director</h3>
+<h3><small>Pokémon Channel Staff / </small>French Recording Director<span class="credits__zh-role">（法语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniel Nicodème</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>French Voice Director</h3>
+<h3><small>Pokémon Channel Staff / </small>French Voice Director<span class="credits__zh-role">（法语配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniel Nicodème</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>German Dubbing Agency</h3>
+<h3><small>Pokémon Channel Staff / </small>German Dubbing Agency<span class="credits__zh-role">（德语配音 Agency）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Erika Gröne</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Recording Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Recording Producer<span class="credits__zh-role">（意大利语录音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ed Campbell</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Recording Director</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Recording Director<span class="credits__zh-role">（意大利语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Cip Barcellini</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Recording Coordinator</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Recording Coordinator<span class="credits__zh-role">（意大利语录音协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daniele Blandino</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Recording Engineer</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Recording Engineer<span class="credits__zh-role">（意大利语录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Moreno G. Pometti</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Voice Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Voice Producer<span class="credits__zh-role">（意大利语配音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Cinzia Veronese</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Italian Voice Director</h3>
+<h3><small>Pokémon Channel Staff / </small>Italian Voice Director<span class="credits__zh-role">（意大利语配音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryan Nicola Carrassi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Spanish Recording Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>Spanish Recording Producer<span class="credits__zh-role">（西班牙语录音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mariano García Díez</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Spanish Recording Director</h3>
+<h3><small>Pokémon Channel Staff / </small>Spanish Recording Director<span class="credits__zh-role">（西班牙语录音总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Amparo Valencia</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Spanish Recording Engineer</h3>
+<h3><small>Pokémon Channel Staff / </small>Spanish Recording Engineer<span class="credits__zh-role">（西班牙语录音工程师）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Alejandro Rodríguez</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Spanish Voice Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>Spanish Voice Producer<span class="credits__zh-role">（西班牙语配音制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Victoria Osuna</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Recording Studios</h3>
+<h3><small>Pokémon Channel Staff / </small>Recording Studios<span class="credits__zh-role">（录音工作室）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Half HP Studio</li>
 <li class="credits__name is-company">Aoi Studio</li>
@@ -1036,7 +1036,7 @@ gf_count: 15
 <li class="credits__name">TELSON SERVICIOS AUDIOVISUALES S.L.U.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Pokémon Supervisors<span class="credits__ja-role">ポケットモンスターかんしゅう</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Pokémon Supervisors<span class="credits__zh-role">（宝可梦监修）</span><span class="credits__ja-role">ポケットモンスターかんしゅう</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroki Enomoto <small>えのもと ひろき</small></li>
 <li class="credits__name">Kazuyuki Terada <small>てらだ かずゆき</small></li>
@@ -1045,7 +1045,7 @@ gf_count: 15
 <li class="credits__name">Akihito Tamura <small>たむら あきひと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>In Cooperation With<span class="credits__ja-role">せいさくきょうりょく</span></h3>
+<h3><small>Pokémon Channel Staff / </small>In Cooperation With<span class="credits__zh-role">（协力）</span><span class="credits__ja-role">せいさくきょうりょく</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">HAL Laboratory</li>
 <li class="credits__name is-company">Creatures Inc.</li>
@@ -1055,7 +1055,7 @@ gf_count: 15
 <li class="credits__name is-company">O.L.M. Digital</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Special Thanks<span class="credits__ja-role">スペシャルサンクス</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hitoshi Shiogai <small>しおがい ひとし</small></li>
 <li class="credits__name">Kenji Nishizawa <small>にしざわ けんじ</small></li>
@@ -1084,12 +1084,12 @@ gf_count: 15
 <li class="credits__name">Yasuhiro Masuda</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Pokémon Original Director<span class="credits__ja-role">ポケットモンスター・オリジナルディレクター</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Pokémon Original Director<span class="credits__zh-role">（宝可梦原作总监）</span><span class="credits__ja-role">ポケットモンスター・オリジナルディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Supervisors<span class="credits__ja-role">スーパーバイザー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Supervisors<span class="credits__zh-role">（监修）</span><span class="credits__ja-role">スーパーバイザー</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>増田順一 · ますだ じゅんいち</small></li>
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>すぎもり けん</small></li>
@@ -1097,39 +1097,39 @@ gf_count: 15
 <li class="credits__name is-gf"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>じんない ひろゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Assistant Producer<span class="credits__ja-role">アシスタント・プロデューサー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Assistant Producer<span class="credits__zh-role">（助理制作人）</span><span class="credits__ja-role">アシスタント・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/miura-masayuki/">Masayuki Miura</a> <small>みうら まさゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tatsuya Hishida <small>菱田達也 · ひしだ たつや</small></li>
 <li class="credits__name">Kunimi Kawamura <small>かわむら くにみ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>General Producers<span class="credits__ja-role">ゼネラル・プロデューサー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>General Producers<span class="credits__zh-role">（总制作人）</span><span class="credits__ja-role">ゼネラル・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/miyamoto-shigeru/">Shigeru Miyamoto</a> <small>宮本茂 · みやもと しげる</small></li>
 <li class="credits__name">Kenji Miki <small>三木研次 · みき けんじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>General Producer<span class="credits__ja-role">ゼネラル・プロデューサー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>General Producer<span class="credits__zh-role">（总制作人）</span><span class="credits__ja-role">ゼネラル・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tsuru-hiroaki/">Hiroaki Tsuru</a> <small>鶴宏明 · つる ひろあき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Executive Producer<span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
+<h3><small>Pokémon Channel Staff / </small>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡 · いわた さとる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon Channel Staff / </small>Executive Producer</h3>
+<h3><small>Pokémon Channel Staff / </small>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekaz Ishihara</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Directors</h3>
+<h3><small>Pokémon mini Unit / </small>Directors<span class="credits__zh-role">（总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinya Kawada</li>
 <li class="credits__name">Ryu Nadatani</li>
@@ -1138,7 +1138,7 @@ gf_count: 15
 <li class="credits__name">Daisuke Tsujimura</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Programmers</h3>
+<h3><small>Pokémon mini Unit / </small>Programmers<span class="credits__zh-role">（程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Katsuhisa Okino</li>
 <li class="credits__name">Yoshikazu Mori</li>
@@ -1147,7 +1147,7 @@ gf_count: 15
 <li class="credits__name">Daisuke Tsujimura</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Designers</h3>
+<h3><small>Pokémon mini Unit / </small>Designers<span class="credits__zh-role">（设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masafumi Terai</li>
 <li class="credits__name">Chikako Takenaka</li>
@@ -1156,24 +1156,24 @@ gf_count: 15
 <li class="credits__name">Hiroaki Tamura</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Sound</h3>
+<h3><small>Pokémon mini Unit / </small>Sound<span class="credits__zh-role">（音响）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masaru Tajima</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>European Localization</h3>
+<h3><small>Pokémon mini Unit / </small>European Localization<span class="credits__zh-role">（欧洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/uesugi-hiroyuki/">Hiroyuki Uesugi</a></li>
 <li class="credits__name"><a href="/people/schafers-daniel/">Daniel Schäfers</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>English Localization</h3>
+<h3><small>Pokémon mini Unit / </small>English Localization<span class="credits__zh-role">（英语本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a></li>
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Special Thanks</h3>
+<h3><small>Pokémon mini Unit / </small>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shinya Kawada</li>
 <li class="credits__name">Tomonari Kidachi</li>
@@ -1182,12 +1182,12 @@ gf_count: 15
 <li class="credits__name">Kengo Hitomi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Assistant Producer</h3>
+<h3><small>Pokémon mini Unit / </small>Assistant Producer<span class="credits__zh-role">（助理制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/miura-masayuki/">Masayuki Miura</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Pokémon mini Unit / </small>Producer</h3>
+<h3><small>Pokémon mini Unit / </small>Producer<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamato-satoshi/">Satoshi Yamato</a></li>
 </ul></section>

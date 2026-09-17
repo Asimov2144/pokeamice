@@ -8,17 +8,17 @@ sitemap: true
 gf_count: 3
 ---
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer &amp; Developer</h3>
+<h3>Producer &amp; Developer<span class="credits__zh-role">（制作人与开发）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yosuke Oshino</li>
 </ul></section>
 <section class="credits__section">
-<h3>Developer</h3>
+<h3>Developer<span class="credits__zh-role">（开发）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/koyama-takashi/">Takashi Koyama</a></li>
 <li class="credits__name">Yoshiyuki Higo</li>
@@ -34,7 +34,7 @@ gf_count: 3
 <li class="credits__name">Risa Miyamori</li>
 </ul></section>
 <section class="credits__section">
-<h3>Asian Localization</h3>
+<h3>Asian Localization<span class="credits__zh-role">（亚洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/matsunaga-mitsuyo/">Mitsuyo Matsunaga</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2010）"></li>
 <li class="credits__name"><a href="/people/hsu-minyu/">Minyu Hsu</a></li>
@@ -56,7 +56,7 @@ gf_count: 3
 <li class="credits__name">Panida Bantanuk</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Localization</h3>
+<h3>English Localization<span class="credits__zh-role">（英语本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">David Dunlap</li>
 <li class="credits__name"><a href="/people/munday-sayuri/">Sayuri Munday</a></li>
@@ -69,7 +69,7 @@ gf_count: 3
 <li class="credits__name">Chie Stutzman</li>
 </ul></section>
 <section class="credits__section">
-<h3>European Localisation</h3>
+<h3>European Localisation<span class="credits__zh-role">（欧洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lopez-edith-belarra/">Edith Belarra López</a></li>
 <li class="credits__name"><a href="/people/bianchi-sergio/">Sergio Bianchi</a></li>
@@ -98,7 +98,7 @@ gf_count: 3
 <li class="credits__name"><a href="/people/oshu-ritsuko/">Ritsuko Oshu</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Support</h3>
+<h3>Development Support<span class="credits__zh-role">（开发支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ota-nobuyuki/">Nobuyuki Ohta</a></li>
 <li class="credits__name">Chitose Kawakami</li>

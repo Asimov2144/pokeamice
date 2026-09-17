@@ -98,5 +98,5 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 阶段 0 已做：`python tools/build-atlas.py`（→ `assets/data/credits-profile/*.json`、`credits-relations.json`、`credits-careers.json`、
 `design/credits-analysis/{domains,atlas-summary}.md`；`--check` 20 条回归）；人工表 `_data/credits_eras.yml`、`_data/credits_relations.yml`、
 `_data/credits_blocks/<game>.yml`（4 部，`verified: false`）。改了 `analyze-credits.py` 的 `CATEGORY` / `DOMAIN` 后先跑 `build-atlas.py --check`。
-待做：区块表对片尾核实（先 Z-A）；`puzzle-challenge.yml` 31 个空名字；阶段 1 五个组件（见规划 §2）。
-
+阶段 1 已做：`tools/build-atlas-pages.py` → `_includes/atlas/<game>.html`，`credits-game.html` 引入，`atlas.js` / `_atlas.scss`；Z-A 与日月验收表在规划 §8。
+待做：`puzzle-challenge.yml` 31 个空名字；阶段 2 Compare 页（规划 §3）。

@@ -8,27 +8,27 @@ sitemap: true
 gf_count: 7
 ---
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Game Designer<span class="credits__ja-role">Genius Sonority Inc. / Game Designer</span></h3>
+<h3><small>Genius Sonority Inc / </small>Game Designer<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">Genius Sonority Inc. / Game Designer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/shan-ming-xue/">Manabu Yamana</a> <small>山名学</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Director<span class="credits__ja-role">Genius Sonority Inc. / Project Manager</span></h3>
+<h3><small>Genius Sonority Inc / </small>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">Genius Sonority Inc. / Project Manager</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshinori Obishaku</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Lead Programmer<span class="credits__ja-role">Genius Sonority Inc. / Lead Programmer</span></h3>
+<h3><small>Genius Sonority Inc / </small>Lead Programmer<span class="credits__zh-role">（组长程序员）</span><span class="credits__ja-role">Genius Sonority Inc. / Lead Programmer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masayuki Kawamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Lead Designer<span class="credits__ja-role">Genius Sonority Inc. / Lead Designer</span></h3>
+<h3><small>Genius Sonority Inc / </small>Lead Designer<span class="credits__zh-role">（组长设计）</span><span class="credits__ja-role">Genius Sonority Inc. / Lead Designer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takahiro Masuzawa</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Planners<span class="credits__ja-role">Genius Sonority Inc. / Planners</span></h3>
+<h3><small>Genius Sonority Inc / </small>Planners<span class="credits__zh-role">（企划）</span><span class="credits__ja-role">Genius Sonority Inc. / Planners</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yukitsugu Iraha</li>
 <li class="credits__name">Ayumi Kobayashi</li>
@@ -48,7 +48,7 @@ gf_count: 7
 <li class="credits__name">Takehito Sakamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Programmers<span class="credits__ja-role">Genius Sonority Inc. / Programmers</span></h3>
+<h3><small>Genius Sonority Inc / </small>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">Genius Sonority Inc. / Programmers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mitsunobu Koyama</li>
 <li class="credits__name">Yusuke Mizukoshi</li>
@@ -59,7 +59,7 @@ gf_count: 7
 <li class="credits__name">Fumita Kai</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Designers<span class="credits__ja-role">Genius Sonority Inc. / Designers</span></h3>
+<h3><small>Genius Sonority Inc / </small>Designers<span class="credits__zh-role">（设计）</span><span class="credits__ja-role">Genius Sonority Inc. / Designers</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Marina Fukui</li>
 <li class="credits__name">Kazuki Ishikawa</li>
@@ -101,24 +101,24 @@ gf_count: 7
 <li class="credits__name">Shogo Nakajima</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Artwork / Character Design<span class="credits__ja-role">Genius Sonority Inc. / Artwork / Character Design</span></h3>
+<h3><small>Genius Sonority Inc / </small>Artwork / Character Design<span class="credits__zh-role">（美术素材 / 角色设计）</span><span class="credits__ja-role">Genius Sonority Inc. / Artwork / Character Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyuki Yamamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Sound<span class="credits__ja-role">Genius Sonority Inc. / Sound</span></h3>
+<h3><small>Genius Sonority Inc / </small>Sound<span class="credits__zh-role">（音响）</span><span class="credits__ja-role">Genius Sonority Inc. / Sound</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Tsukasa Tawada</li>
+<li class="credits__name"><a href="/people/tawada-tsukasa/">Tsukasa Tawada</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">Genius Sonority Inc. / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">Genius Sonority Inc. / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chihiro Kobayashi</li>
 <li class="credits__name">Kaoru Nagai</li>
 <li class="credits__name">Akira Fukushima</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Design<span class="credits__ja-role">Genius Sonority Inc. / Design</span></h3>
+<h3><small>Genius Sonority Inc / </small>Design<span class="credits__zh-role">（设计）</span><span class="credits__ja-role">Genius Sonority Inc. / Design</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">1points,inc.</li>
 <li class="credits__name is-company">G-angle co.,ltd.</li>
@@ -129,56 +129,56 @@ gf_count: 7
 <li class="credits__name is-company">Crico,inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Genius Sonority Inc / </small>Planning<span class="credits__ja-role">Genius Sonority Inc. / Planning</span></h3>
+<h3><small>Genius Sonority Inc / </small>Planning<span class="credits__zh-role">（企划）</span><span class="credits__ja-role">Genius Sonority Inc. / Planning</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">UPPER-GROUND INC.</li>
 <li class="credits__name is-company">Mythril Inc.</li>
 <li class="credits__name is-company">Runway Agency Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">Nintendo Co., Ltd. / Executive Producer</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Executive Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/furukawa-shuntaro/">Shuntaro Furukawa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producer<span class="credits__ja-role">Nintendo Co., Ltd. / General Producer</span></h3>
+<h3>General Producer<span class="credits__zh-role">（总制作人）</span><span class="credits__ja-role">Nintendo Co., Ltd. / General Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-shinya/">Shinya Takahashi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">Nintendo Co., Ltd. / Producers</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Producers</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"></li>
 <li class="credits__name"><a href="/people/nonaka-toyokazu/">Toyokazu Nonaka</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Coordinators<span class="credits__ja-role">Nintendo Co., Ltd. / Coordinators</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Coordinators</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ogawa-yuuta/">Yuta Ogawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2014）"></li>
 <li class="credits__name"><a href="/people/okada-yuki/">Yuki Okada</a></li>
 <li class="credits__name"><a href="/people/nakagawa-noriko/">Noriko Nakagawa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Technical Support<span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Technical Support<span class="credits__zh-role">（技术支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Technical Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ninomiya-kei/">Kei Ninomiya</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2022）"></li>
 <li class="credits__name is-gf"><a href="/people/shotaro-iwanaga/">Shotaro Iwanaga</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 8 部 GF 自研作品里有开发职务署名，最早 2016）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Debug<span class="credits__ja-role">Nintendo Co., Ltd. / Debug</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Debug</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Mario Club Co., Ltd</li>
 <li class="credits__name is-company">DIGITAL HEARTS Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Debug Management<span class="credits__ja-role">Nintendo Co., Ltd. / Debug Management</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Debug Management<span class="credits__zh-role">（调试管理）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Debug Management</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakajima-motoki/">Motoki Nakajima</a></li>
 <li class="credits__name">Arisa Nakajima</li>
 <li class="credits__name">Nobuya Sasaki</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>English Localization Support<span class="credits__ja-role">Nintendo Co., Ltd. / English Localization Support</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>English Localization Support<span class="credits__zh-role">（英语本地化支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / English Localization Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Hirata</li>
 <li class="credits__name"><a href="/people/kasugayama-akiko/">Akiko Kasugayama</a></li>
@@ -187,7 +187,7 @@ gf_count: 7
 <li class="credits__name"><a href="/people/marusich-yoriko/">Yoriko Marusich</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>English Product Testing<span class="credits__ja-role">Nintendo Co., Ltd. / English Product Testing</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>English Product Testing<span class="credits__zh-role">（英语产品测试）</span><span class="credits__ja-role">Nintendo Co., Ltd. / English Product Testing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishimura-kentaro/">Kentaro Nishimura</a></li>
 <li class="credits__name"><a href="/people/buchanan-kirk/">Kirk Buchanan</a></li>
@@ -206,14 +206,14 @@ gf_count: 7
 <li class="credits__name is-company">Product Testing Technicians</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>European Localisation Support<span class="credits__ja-role">Nintendo Co., Ltd. / English &amp; European Localisation Support</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>European Localisation Support<span class="credits__zh-role">（欧洲本地化支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / English &amp; European Localisation Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Dario De Leo</li>
 <li class="credits__name">Sarah Elizabeth Kelly</li>
 <li class="credits__name"><a href="/people/sawabe-ryoko/">Ryoko Sawabe</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>European Quality Assurance<span class="credits__ja-role">Nintendo Co., Ltd. / European Quality Assurance</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>European Quality Assurance<span class="credits__zh-role">（欧洲品质保证）</span><span class="credits__ja-role">Nintendo Co., Ltd. / European Quality Assurance</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/gruden-marco/">Marco Gruden</a></li>
 <li class="credits__name">Christopher Hannah</li>
@@ -224,7 +224,7 @@ gf_count: 7
 <li class="credits__name">Teresa Dugnol</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Korean Localization Support<span class="credits__ja-role">Nintendo Co., Ltd. / Korean Localization Support</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Korean Localization Support<span class="credits__zh-role">（韩语本地化支持）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Korean Localization Support</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/jung-hyokjin/">Hyokjin Jung</a></li>
 <li class="credits__name"><a href="/people/kim-dongyeon/">Dongyeon Kim</a></li>
@@ -232,18 +232,18 @@ gf_count: 7
 <li class="credits__name"><a href="/people/lee-eodo/">Eodo Lee</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Chinese Localization<span class="credits__ja-role">Nintendo Co., Ltd. / Chinese Localization</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Chinese Localization<span class="credits__zh-role">（中文本地化）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Chinese Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Claudia Chan</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Co., Ltd / </small>Chinese Quality Assurance<span class="credits__ja-role">Nintendo Co., Ltd. / Chinese Quality Assurance</span></h3>
+<h3><small>Nintendo Co., Ltd / </small>Chinese Quality Assurance<span class="credits__zh-role">（中文品质保证）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Chinese Quality Assurance</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/eiju-umemura/">Eiju Umemura</a></li>
 <li class="credits__name is-company">DIGITAL HEARTS Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">Nintendo Co., Ltd. / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">Nintendo Co., Ltd. / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/bales-michael/">Michael Bales</a></li>
 <li class="credits__name">Fahreen Merali</li>
@@ -252,12 +252,12 @@ gf_count: 7
 <li class="credits__name is-company">NOE Communication Coordinator Group</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">The Pokémon Company / Executive Producer</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">The Pokémon Company / Executive Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producers<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3>General Producers<span class="credits__zh-role">（总制作人）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a></li>
 <li class="credits__name">Kazunori Sugiura</li>
@@ -265,12 +265,12 @@ gf_count: 7
 <li class="credits__name"><a href="/people/uwai-shin/">Shin Uwai</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer<span class="credits__ja-role">The Pokémon Company / Producer</span></h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">The Pokémon Company / Producer</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michihito Shimizu</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Coordinators<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3><small>The Pokémon Company / </small>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masahiro Go</li>
 <li class="credits__name">Masayuki Wada</li>
@@ -283,7 +283,7 @@ gf_count: 7
 <li class="credits__name">Tatsuya Ichijo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Pokémon Brand Management<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3><small>The Pokémon Company / </small>Pokémon Brand Management<span class="credits__zh-role">（宝可梦品牌管理）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/arai-kenichi/">Kenichi Arai</a></li>
 <li class="credits__name"><a href="/people/kanayama-misuzu/">Misuzu Kanayama</a></li>
@@ -292,7 +292,7 @@ gf_count: 7
 <li class="credits__name">Misa Hikita</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Legal<span class="credits__ja-role">The Pokémon Company / Legal</span></h3>
+<h3><small>The Pokémon Company / </small>Legal<span class="credits__zh-role">（法务）</span><span class="credits__ja-role">The Pokémon Company / Legal</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yusuke Tomita</li>
 <li class="credits__name">Maiko Usami</li>
@@ -303,7 +303,7 @@ gf_count: 7
 <li class="credits__name">Akifumi Shiobara</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Customer Support<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3><small>The Pokémon Company / </small>Customer Support<span class="credits__zh-role">（客户支持）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daigorotoyohide Suga</li>
 <li class="credits__name">Yosuke Seno</li>
@@ -311,20 +311,20 @@ gf_count: 7
 <li class="credits__name">Yuki Kimoto</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Debug<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3><small>The Pokémon Company / </small>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Pole To Win Co., Ltd.</li>
 <li class="credits__name">Yu Nishimura</li>
 <li class="credits__name">Koji Takiguchi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Debug Management<span class="credits__ja-role">The Pokémon Company / Debug Management</span></h3>
+<h3><small>The Pokémon Company / </small>Debug Management<span class="credits__zh-role">（调试管理）</span><span class="credits__ja-role">The Pokémon Company / Debug Management</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takenori Takewaka</li>
 <li class="credits__name">Haruka Takasugi</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Localization<span class="credits__ja-role">The Pokémon Company / English Localization</span></h3>
+<h3><small>The Pokémon Company / </small>English Localization<span class="credits__zh-role">（英语本地化）</span><span class="credits__ja-role">The Pokémon Company / English Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
 <li class="credits__name"><a href="/people/todo-mayu/">Mayu Todo</a></li>
@@ -335,21 +335,21 @@ gf_count: 7
 <li class="credits__name"><a href="/people/colling-robert/">Robert Colling</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Translation<span class="credits__ja-role">The Pokémon Company / English Translation</span></h3>
+<h3><small>The Pokémon Company / </small>English Translation<span class="credits__zh-role">（英语翻译）</span><span class="credits__ja-role">The Pokémon Company / English Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamamori-hisato/">Hisato Yamamori</a></li>
 <li class="credits__name">Satoko Deas</li>
 <li class="credits__name">Jill Nonaka</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>English Editing<span class="credits__ja-role">The Pokémon Company / English Editing</span></h3>
+<h3><small>The Pokémon Company / </small>English Editing<span class="credits__zh-role">（英语编辑）</span><span class="credits__ja-role">The Pokémon Company / English Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Anja Weinbach</li>
 <li class="credits__name"><a href="/people/ryer-julia/">Julia Ryer</a></li>
 <li class="credits__name"><a href="/people/nakazawa-rei/">Rei Nakazawa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>European Localisation<span class="credits__ja-role">The Pokémon Company / European Localisation</span></h3>
+<h3><small>The Pokémon Company / </small>European Localisation<span class="credits__zh-role">（欧洲本地化）</span><span class="credits__ja-role">The Pokémon Company / European Localisation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aoki-kaori/">Kaori Aoki</a></li>
 <li class="credits__name">Chika Tanigaki</li>
@@ -370,19 +370,19 @@ gf_count: 7
 <li class="credits__name"><a href="/people/schultz-cyril/">Cyril Schultz</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>French Translation<span class="credits__ja-role">The Pokémon Company / French Translation</span></h3>
+<h3><small>The Pokémon Company / </small>French Translation<span class="credits__zh-role">（法语翻译）</span><span class="credits__ja-role">The Pokémon Company / French Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/forgit-aymeric/">Aymeric Forgit</a></li>
 <li class="credits__name"><a href="/people/didier-guillaume/">Guillaume Didier</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>French Editing<span class="credits__ja-role">The Pokémon Company / French Editing</span></h3>
+<h3><small>The Pokémon Company / </small>French Editing<span class="credits__zh-role">（法语编辑）</span><span class="credits__ja-role">The Pokémon Company / French Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/giang-violette/">Violette Giang</a></li>
 <li class="credits__name"><a href="/people/kryvinskyj-aurelie/">Aurélie Kryvinskyj</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>German Translation<span class="credits__ja-role">The Pokémon Company / German Translation</span></h3>
+<h3><small>The Pokémon Company / </small>German Translation<span class="credits__zh-role">（德语翻译）</span><span class="credits__ja-role">The Pokémon Company / German Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/heucher-daniel/">Daniel Heucher</a></li>
 <li class="credits__name"><a href="/people/maibach-carolin/">Carolin Maibach</a></li>
@@ -393,7 +393,7 @@ gf_count: 7
 <li class="credits__name"><a href="/people/kalms-kathleen/">Kathleen Kalms</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>German Editing<span class="credits__ja-role">The Pokémon Company / German Editing</span></h3>
+<h3><small>The Pokémon Company / </small>German Editing<span class="credits__zh-role">（德语编辑）</span><span class="credits__ja-role">The Pokémon Company / German Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/vaterhaus-sira/">Sira Vaterhaus</a></li>
 <li class="credits__name"><a href="/people/thon-claudia/">Claudia Thon</a></li>
@@ -404,7 +404,7 @@ gf_count: 7
 <li class="credits__name"><a href="/people/schweinzer-barbara/">Barbara Schweinzer</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Italian Translation<span class="credits__ja-role">The Pokémon Company / Italian Translation</span></h3>
+<h3><small>The Pokémon Company / </small>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span><span class="credits__ja-role">The Pokémon Company / Italian Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sartori-marco/">Marco Sartori</a></li>
 <li class="credits__name"><a href="/people/vanin-jacopo/">Jacopo Vanin</a></li>
@@ -415,7 +415,7 @@ gf_count: 7
 <li class="credits__name"><a href="/people/suriano-manuela/">Manuela Suriano</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Italian Editing<span class="credits__ja-role">The Pokémon Company / Italian Editing</span></h3>
+<h3><small>The Pokémon Company / </small>Italian Editing<span class="credits__zh-role">（意大利语编辑）</span><span class="credits__ja-role">The Pokémon Company / Italian Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/bianchi-sergio/">Sergio Bianchi</a></li>
 <li class="credits__name"><a href="/people/troiani-alice/">Alice Troiani</a></li>
@@ -426,7 +426,7 @@ gf_count: 7
 <li class="credits__name"><a href="/people/pirruccio-guendalina/">Guendalina Pirruccio</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Spanish Translation<span class="credits__ja-role">The Pokémon Company / Spanish Translation</span></h3>
+<h3><small>The Pokémon Company / </small>Spanish Translation<span class="credits__zh-role">（西班牙语翻译）</span><span class="credits__ja-role">The Pokémon Company / Spanish Translation</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Gabriel San Martín Fernández</li>
 <li class="credits__name"><a href="/people/campa-diego-luque-de-la/">Diego Luque de la Campa</a></li>
@@ -435,7 +435,7 @@ gf_count: 7
 <li class="credits__name">Javier Ortiz Carrillo</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Spanish Editing<span class="credits__ja-role">The Pokémon Company / Spanish Editing</span></h3>
+<h3><small>The Pokémon Company / </small>Spanish Editing<span class="credits__zh-role">（西班牙语编辑）</span><span class="credits__ja-role">The Pokémon Company / Spanish Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/riomao-ruben-lado/">Rubén Lado Riomao</a></li>
 <li class="credits__name"><a href="/people/vargasfarias-pindaro/">Píndaro Vargas-Farías</a></li>
@@ -446,12 +446,12 @@ gf_count: 7
 <li class="credits__name"><a href="/people/grana-eva-rodriguez/">Eva Rodríguez Graña</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Localisation Quality Assurance</h3>
+<h3><small>The Pokémon Company / </small>Localisation Quality Assurance<span class="credits__zh-role">（本地化品质保证）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">PTW International UK</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Korean Translation &amp; Editing<span class="credits__ja-role">The Pokémon Company / Korean Translation &amp; Editing</span></h3>
+<h3><small>The Pokémon Company / </small>Korean Translation &amp; Editing<span class="credits__zh-role">（韩语翻译与编辑）</span><span class="credits__ja-role">The Pokémon Company / Korean Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/choi-mihwa/">Mihwa Choi</a></li>
 <li class="credits__name"><a href="/people/byun-jieun/">Jieun Byun</a></li>
@@ -459,23 +459,23 @@ gf_count: 7
 <li class="credits__name"><a href="/people/pak-dongun/">Dongun Pak</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Traditional Chinese Localization<span class="credits__ja-role">The Pokémon Company / Traditional Chinese Localization</span></h3>
+<h3><small>The Pokémon Company / </small>Traditional Chinese Localization<span class="credits__zh-role">（繁体中文本地化）</span><span class="credits__ja-role">The Pokémon Company / Traditional Chinese Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/matsunaga-mitsuyo/">Mitsuyo Matsunaga</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2010）"></li>
 <li class="credits__name"><a href="/people/aota-yoshiko/">Yoshiko Aota</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Traditional Chinese Translation<span class="credits__ja-role">The Pokémon Company / Traditional Chinese Translation and Editing</span></h3>
+<h3><small>The Pokémon Company / </small>Traditional Chinese Translation<span class="credits__zh-role">（繁体中文翻译）</span><span class="credits__ja-role">The Pokémon Company / Traditional Chinese Translation and Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/wang-yuwen/">Yuwen Wang</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>The Pokémon Company / </small>Traditional Chinese Editing<span class="credits__ja-role">The Pokémon Company / Traditional Chinese Translation and Editing</span></h3>
+<h3><small>The Pokémon Company / </small>Traditional Chinese Editing<span class="credits__zh-role">（繁体中文编辑）</span><span class="credits__ja-role">The Pokémon Company / Traditional Chinese Translation and Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/huang-chungte/">Chungte Huang</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">The Pokémon Company / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ito-kenijro/">Kenjiro Ito</a></li>
 <li class="credits__name"><a href="/people/oohashi-mikiko/">Mikiko Ohashi</a></li>
@@ -512,7 +512,7 @@ gf_count: 7
 <li class="credits__name">Seiya Nomoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks</h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GAME FREAK inc</li>
 <li class="credits__name is-company">Creatures Inc</li>

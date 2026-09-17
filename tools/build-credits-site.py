@@ -14,6 +14,7 @@
 门槛和分类规则与 tools/analyze-credits.py 一致（直接读它的 design/credits-analysis/people.json）。
 """
 import html
+import importlib.util
 import json
 import re
 import unicodedata
@@ -23,6 +24,10 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
+_spec = importlib.util.spec_from_file_location("role_zh", Path(__file__).with_name("role-zh.py"))
+_rz = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_rz)
+role_zh = _rz.role_zh          # 职务的中文小字（括号里），译不出就没有
 INDEX = ROOT / "archive" / "credits" / "index.yml"
 ANALYSIS = ROOT / "design" / "credits-analysis"
 GAMES_DIR = ROOT / "_data" / "credits"
@@ -318,6 +323,9 @@ def main():
                 row["role_ja"] = c["role_ja"]  # 日文页用拉丁字母时职名与英文相同，不重复显示
             if c.get("lead"):
                 row["lead"] = c["lead"]
+            zh = role_zh(row["role"])
+            if zh:
+                row["role_zh"] = zh
             credits.append(row)
         a = analysis.get(p["name"])
         cp[e["slug"]] = {"name": p["name"], "kanji": (p.get("kanji") or [None])[0], "kana": (p.get("kana") or [None])[0],
@@ -353,7 +361,9 @@ def main():
             body.append('<section class="credits__section">')
             crumb_html = f"<small>{crumbs} / </small>" if crumbs else ""
             ja_html = f'<span class="credits__ja-role">{html.escape(s["ja_role"])}</span>' if s.get("ja_role") and s["ja_role"].strip().lower() != (path[-1] if path else "").strip().lower() else ""
-            body.append(f"<h3>{crumb_html}{title}{ja_html}</h3>")
+            zh = role_zh(path[-1]) if path else None
+            zh_html = f'<span class="credits__zh-role">（{html.escape(zh)}）</span>' if zh else ""
+            body.append(f"<h3>{crumb_html}{title}{zh_html}{ja_html}</h3>")
             body.append('<ul class="credits__names">')
             for n in s["names"]:
                 cls = ["credits__name"]

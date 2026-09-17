@@ -146,3 +146,32 @@ JS 只做切换与展开，读同目录的 profile JSON）。组件顺序按数�
 阿尔宙斯 ⇄ 朱紫共同参与 299（Jaccard 0.325），Bridge 同领域 223 / 跨领域 44，同领域里 Pokémon Asset 116（Creatures 模型组）远超其他——
 方案 35 节说的「Tools / CG Technology」在类别层要把 Creatures 拆出去后才看得到，这正是 L3 区块表的用处。
 按占比看则成立：Tools & Pipeline 共享 12 人 = 朱紫该领域 21 人的 57%（Map & Field 23/97 = 24%，Pokémon Asset 116/252 = 46%）——Compare 页的领域表要同时给绝对数和占比。
+
+## 8. 阶段 1 完成记录（2026-09-17）
+
+产出：`tools/build-atlas-pages.py`（`build-atlas.py` 末尾自动调用）→ `_includes/atlas/<game>.html`（93 个预渲染区块，4.7 MB）；
+`_layouts/credits-game.html` 在名单之前 `{% include atlas/<game>.html %}`，名单加了 `#roll` 标题；`assets/js/atlas.js`（只做切换）；
+`_sass/minimal-mistakes/_atlas.scss`。区块表四张已对片尾核对（`verified: true`），Z-A 的 Concept Art 子块接回 Design & World Concept Section 之下。
+
+验收（mini-site 实测，方案 34 节的问题）：
+
+| 问题 | Z-A（L3） | 日月（L1） |
+|---|---|---|
+| 核心团队多大 | 参与 620 / 署名 966；构成条：开发本体 GF 375 · Creatures 199 · 本地化 148 · 测试 46 · 制作 43 · 感谢 82 | 参与 299 / 署名 586；无构成条（无区块表），页顶标「组织归属 无」 |
+| 最大职能 | 美术 355（57%）、程序 98、企划 37 | 美术 184、程序 69、企划 49 |
+| 独立 Team | 39 个；树：Programming / Graphic Design / Planning / Sound / Concept & Visual Studio（Design & World Concept、3D Visual）/ R&D → CG Technology Lab（Base Technology、AI、Environment Development）；Creatures 的 Pokémon 3D Modeling 单列 | 不显示 Team 数；组织结构卡写明「来源平铺」，按类别 → 领域列 102 个区块（程序：通信 34、地图 7、工具 5、界面 5…） |
+| Leadership | Lead 以上 67、Director 级 30；lead 标记 31（日文页） | Lead 以上 38、Director 级 17；lead 标记 22 |
+| 入行时代 | 2021–24 入行 245（40%）、本作首次 213（34%）、2016–20 88 | 2010–15 入行 111（37%）、本作首次 139（46%） |
+| 来自哪里 | 最近一次：朱紫 392（63%）、首次 213；任一前作：曾在阿尔宙斯 ≥150 | 最近一次：ΩRαS 123（41%）、XY 35、首次 139（46%）；任一前作：XY 123 = ΩRαS 123 |
+| 与前作共享 | 阿尔宙斯 224（本作 36% 来自它，领导层留任 37）；朱紫 392（63%，留任 49） | XY 122（41%，留任 22）；ΩRαS 121（40%） |
+| 并行项目 | Pokopia 共同 42（同领域 Bridge 17）、Champions 51（26） | ΩRαS 121（同领域 Bridge 94 / 跨领域 19） |
+| 证据 | 关系卡上的档案帖链接（阿尔宙斯 ⇄ 朱紫的 CEDEC 2022 两帖挂在那两页） | 前作 XY 的关系注明「67 人缺席 ΩRαS、在日月回归」 |
+
+日月页没有出现任何「0 team / 0 lead」式的假数字；两页在 375px 宽下单列、无横向滚动。
+
+阶段 1 之后的观察：Origins 的「最近一次」与「任一前作」并排后，并行开发的痕迹一眼可见（日月：ΩRαS 123 = XY 123，
+即日月的老成员几乎全部同时在 XY 与 ΩRαS 署名过）。下一步阶段 2（Compare 页）就从关系表里已有的 40 条边生成。
+QoL：职务 / 区块名带中文小字（`tools/role-zh.py`：短语表 → 逐词词典，公司名与「Staff list (2025)」类包装不译；
+名单页 `<h3>`、画像树、人物页职务栏各显示一份，`.credits__zh-role` / `.atlas__zh` 在 ≤640px 隐藏）。
+改词典后跑 `python tools/role-zh.py 400` 看译文，再跑 `build-credits-site.py` 与 `build-atlas-pages.py`。
+

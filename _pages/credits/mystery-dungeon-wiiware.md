@@ -8,42 +8,42 @@ sitemap: true
 gf_count: 3
 ---
 <section class="credits__section">
-<h3>Producer<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koichi Nakamura <small>中村光一 · なかむら こういち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Directors<span class="credits__ja-role">ディレクター</span></h3>
+<h3>Directors<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nagahata-seiichiro/">Seiichiro Nagahata</a> <small>長畑成一郎 · ながはた せいいちろう</small></li>
 <li class="credits__name">Hironori Ishigami <small>石神宏紀 · いしがみ ひろのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario<span class="credits__ja-role">シナリオ</span></h3>
+<h3>Scenario<span class="credits__zh-role">（剧本）</span><span class="credits__ja-role">シナリオ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tomie-shinichiro/">Shinichiro Tomie</a> <small>冨江慎一郎 · とみえ しんいちろう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Planning<span class="credits__ja-role">ゲームプランニング</span></h3>
+<h3>Game Planning<span class="credits__zh-role">（游戏企划）</span><span class="credits__ja-role">ゲームプランニング</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kunimi Kawamura <small>川村久仁美 · かわむら くにみ</small></li>
 <li class="credits__name">Shonosuke Morisue <small>もりすえ しょうのすけ</small></li>
 <li class="credits__name">Tomohide Okaizumi <small>おかいずみ ともひで</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Main Program<span class="credits__ja-role">メインプログラム</span></h3>
+<h3>Main Program<span class="credits__zh-role">（主程序）</span><span class="credits__ja-role">メインプログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masayasu Yamamoto <small>やまもと まさやす</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Program<span class="credits__ja-role">プログラム</span></h3>
+<h3>Program<span class="credits__zh-role">（程序）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Kanai <small>かない たくや</small></li>
 <li class="credits__name">Yoshihiro Hayashi <small>はやし よしひろ</small></li>
 <li class="credits__name">Yusuke Kojima <small>こじま ゆうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic Director<span class="credits__ja-role">グラフィックディレクター</span></h3>
+<h3>Graphic Director<span class="credits__zh-role">（图形总监）</span><span class="credits__ja-role">グラフィックディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Daisuke Amakawa <small>あまかわ だいすけ</small></li>
 </ul></section>
@@ -54,17 +54,17 @@ gf_count: 3
 <li class="credits__name">Kazuhisa Watanabe <small>わたなべ かずひさ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Background<span class="credits__ja-role">バックグラウンド</span></h3>
+<h3>Background<span class="credits__zh-role">（背景）</span><span class="credits__ja-role">バックグラウンド</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eri Kukino <small>くきの えり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon 3D Model Cooperation</h3>
+<h3>Pokémon 3D Model Cooperation<span class="credits__zh-role">（宝可梦 3D 模型协力）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Ambrella Co., Ltd.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Director<span class="credits__ja-role">サウンドディレクター</span></h3>
+<h3>Sound Director<span class="credits__zh-role">（音响总监）</span><span class="credits__ja-role">サウンドディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Misaki Okibe <small>おきべ みさき</small></li>
 </ul></section>
@@ -91,12 +91,12 @@ gf_count: 3
 <li class="credits__name">Yoshihiro Maeda <small>まえだ よしひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Staff<span class="credits__ja-role">サウンドスタッフ</span></h3>
+<h3>Sound Staff<span class="credits__zh-role">（音响人员）</span><span class="credits__ja-role">サウンドスタッフ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yoshiyuki Ogawa <small>おがわ よしゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャル・サンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャル・サンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name">T&amp;E SOFT</li>
 <li class="credits__name is-company">KUON ltd.</li>
@@ -108,25 +108,25 @@ gf_count: 3
 <li class="credits__name">Satoshi Iwata <small>いわた さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Server System Director<span class="credits__ja-role">サーバシステムディレクター</span></h3>
+<h3>Server System Director<span class="credits__zh-role">（服务器系统总监）</span><span class="credits__ja-role">サーバシステムディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ishikawa-mikihiro/">Mikihiro Ishikawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2009）"> <small>いしかわ みきひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Server System Program<span class="credits__ja-role">サーバシステムプログラム</span></h3>
+<h3>Server System Program<span class="credits__zh-role">（服务器系统程序）</span><span class="credits__ja-role">サーバシステムプログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamura-daisuke/">Daisuke Nakamura</a> <small>なかむら だいすけ</small></li>
 <li class="credits__name is-gf"><a href="/people/yamaguchi-ryo/">Ryo Yamaguchi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2010）"> <small>やまぐち りょう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Debug<span class="credits__ja-role">デバッグ</span></h3>
+<h3>Debug<span class="credits__zh-role">（调试）</span><span class="credits__ja-role">デバッグ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Manabu Matumoto <small>まつもと まなぶ</small></li>
 <li class="credits__name is-company">Super Mario Club <small>スーパーマリオクラブ</small></li>
 <li class="credits__name is-company">Chunsoft Debug Team <small>チュンソフトデバッグチーム</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork<span class="credits__ja-role">アートワーク</span></h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span><span class="credits__ja-role">アートワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuo Inoue <small>いのうえ やすお</small></li>
 <li class="credits__name">Takanao Kondo <small>こんどう たかなお</small></li>
@@ -134,7 +134,7 @@ gf_count: 3
 <li class="credits__name">Yoshinori Oda <small>おだ よしのり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Support<span class="credits__ja-role">かいはつサポート</span></h3>
+<h3>Development Support<span class="credits__zh-role">（开发支持）</span><span class="credits__ja-role">かいはつサポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kensuke Oguri <small>おぐり けんすけ</small></li>
 <li class="credits__name"><a href="/people/hanawa-ryosuke/">Ryosuke Hanawa</a> <small>はなわ りょうすけ</small></li>
@@ -144,17 +144,17 @@ gf_count: 3
 <li class="credits__name">Kaori Ando <small>あんどう かおり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks</h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GAME FREAK inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pocket Monsters Original Director<span class="credits__ja-role">ポケットモンスター・オリジナルディレクター</span></h3>
+<h3>Pocket Monsters Original Director<span class="credits__zh-role">（Pocket 怪兽原作总监）</span><span class="credits__ja-role">ポケットモンスター・オリジナルディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tsuru-hiroaki/">Hiroaki Tsuru</a> <small>つる ひろあき</small></li>
 <li class="credits__name"><a href="/people/oohashi-mikiko/">Mikiko Ohashi</a> <small>おおはし みきこ</small></li>
@@ -163,12 +163,12 @@ gf_count: 3
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a> <small>山上仁志 · やまがみ ひとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡 · いわた さとる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer<span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ・プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 </ul></section>

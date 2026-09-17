@@ -8,7 +8,7 @@ sitemap: true
 gf_count: 1
 ---
 <section class="credits__section">
-<h3>Development Staff<span class="credits__ja-role">ピカチュウ げんきでちゅう / せいさく スタッフ / アンブレラ</span></h3>
+<h3>Development Staff<span class="credits__zh-role">（开发人员）</span><span class="credits__ja-role">ピカチュウ げんきでちゅう / せいさく スタッフ / アンブレラ</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Ambrella</li>
 <li class="credits__name">Ain Terakawa <small>てらかわ あいん</small></li>
@@ -17,8 +17,8 @@ gf_count: 1
 <li class="credits__name">Hiroyuki Ymanaka</li>
 <li class="credits__name">Masahiro Sugiyama <small>すぎやま まさひろ</small></li>
 <li class="credits__name">Miki Obata <small>小畑幹 · おばた みき</small></li>
-<li class="credits__name">Muneaki Ozawa <small>小沢宗明 · おざわ むねあき</small></li>
-<li class="credits__name">Norio Matsumura <small>まつむら のりお</small></li>
+<li class="credits__name"><a href="/people/ozawa-muneaki/">Muneaki Ozawa</a> <small>小沢宗明 · おざわ むねあき</small></li>
+<li class="credits__name"><a href="/people/matsumura-norio/">Norio Matsumura</a> <small>まつむら のりお</small></li>
 <li class="credits__name">Shinichi Sasaki <small>ささき しんいち</small></li>
 <li class="credits__name">Shuiro Matsumoto</li>
 <li class="credits__name">Takayuki Itou <small>いとう たかゆき</small></li>
@@ -36,7 +36,7 @@ gf_count: 1
 <li class="credits__name">Takeshi Yaegashi <small>やえがし たけし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Voice Actors<span class="credits__ja-role">こえのしゅつえん</span></h3>
+<h3>Voice Actors<span class="credits__zh-role">（配音演员）</span><span class="credits__ja-role">こえのしゅつえん</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/otani-ikue/">Ikue Ohtani</a> <small>大谷育江 · おおたに いくえ</small></li>
 <li class="credits__name">Rikako Aikawa</li>
@@ -46,7 +46,7 @@ gf_count: 1
 <li class="credits__name">Pikachuu Obata <small>おばた ぴかちゅう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Management<span class="credits__ja-role">マネジメント / マリーガルマネジメント</span></h3>
+<h3>Management<span class="credits__zh-role">（管理）</span><span class="credits__ja-role">マネジメント / マリーガルマネジメント</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Marigul Management Inc.</li>
 <li class="credits__name">Kenji Nishisawa</li>
@@ -57,18 +57,18 @@ gf_count: 1
 <li class="credits__name">Youko Itou <small>いとう ようこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Localization</h3>
+<h3>Localization<span class="credits__zh-role">（本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Bill Trinen</li>
 </ul></section>
 <section class="credits__section">
-<h3>Localization Management</h3>
+<h3>Localization Management<span class="credits__zh-role">（本地化管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jeff Miller</li>
 <li class="credits__name">Leslie Swan</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Modeling<span class="credits__ja-role">なかまポケモン.. モデリング / CR. 64MC</span></h3>
+<h3>Pokémon Modeling<span class="credits__zh-role">（宝可梦建模）</span><span class="credits__ja-role">なかまポケモン.. モデリング / CR. 64MC</span></h3>
 <ul class="credits__names">
 <li class="credits__name">CR.64MC</li>
 <li class="credits__name">Benimaru Itou <small>伊藤紅丸 · いとう べにまる</small></li>
@@ -79,7 +79,7 @@ gf_count: 1
 <li class="credits__name">Yuuichi Sawayama <small>さわやま ゆういち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Testing and Debug</h3>
+<h3>Testing and Debug<span class="credits__zh-role">（测试与调试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Michelle Powers</li>
 <li class="credits__name">Sam Hosier</li>
@@ -88,7 +88,7 @@ gf_count: 1
 <li class="credits__name">NOA Debug Staff</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャルサンクス / にんてんどうスタッフ / スーパーマリオクラブ</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス / にんてんどうスタッフ / スーパーマリオクラブ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Alicia Beckford Wassink</li>
 <li class="credits__name">Gail Tilden</li>
@@ -106,7 +106,7 @@ gf_count: 1
 <li class="credits__name">Hisakazu Hirabayashi <small>平林久和 · ひらばやし ひさかず</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producer<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producer<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和 · いしはら つねかず</small></li>
 </ul></section>
@@ -116,7 +116,7 @@ gf_count: 1
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智 · たじり さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Developed By</h3>
+<h3>Developed By<span class="credits__zh-role">（开发）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Ambrella</li>
 </ul></section>

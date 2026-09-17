@@ -35,6 +35,10 @@ person page are already linked in the body.
 
       <div class="credits__body">
         <div class="credits__roll">
+          {%- comment -%} 团队画像：tools/build-atlas-pages.py 预渲染到 _includes/atlas/<game>.html，按数据等级降级 {%- endcomment -%}
+          {% capture atlas_file %}atlas/{{ page.game }}.html{% endcapture %}
+          {% include {{ atlas_file }} %}
+          <h2 class="credits__h2" id="roll">名单 <small>{{ g.count }} 条署名</small></h2>
           {{ content }}
         </div>
 
@@ -62,3 +66,4 @@ person page are already linked in the body.
     </article>
   </div>
 </div>
+<script src="{{ '/assets/js/atlas.js' | relative_url }}" defer></script>

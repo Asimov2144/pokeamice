@@ -8,41 +8,41 @@ sitemap: true
 gf_count: 6
 ---
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nagahata-seiichiro/">Seiichiro Nagahata</a> <small>長畑成一郎</small></li>
 <li class="credits__name">Kunimi Kawamura <small>川村久仁美</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Directors</h3>
+<h3>Directors<span class="credits__zh-role">（总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tomie-shinichiro/">Shin-ichiro Tomie</a> <small>冨江慎一郎</small></li>
 <li class="credits__name">Hironori Ishigami <small>石神宏紀</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Event Director</h3>
+<h3>Event Director<span class="credits__zh-role">（事件总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Emiko Tanaka <small>田中絵美子</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Lead Game Planner</h3>
+<h3>Lead Game Planner<span class="credits__zh-role">（组长游戏企划）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akihiro Kaneko</li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Planners</h3>
+<h3>Game Planners<span class="credits__zh-role">（游戏企划）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Sazuki Munakata</li>
 <li class="credits__name">Shonosuke Morisue</li>
 <li class="credits__name">Yoshihiro Tamura</li>
 </ul></section>
 <section class="credits__section">
-<h3>Lead Programmer</h3>
+<h3>Lead Programmer<span class="credits__zh-role">（组长程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takuya Kanai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Programmers</h3>
+<h3>Programmers<span class="credits__zh-role">（程序员）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Reo Kobayashi</li>
 <li class="credits__name">Yasuyuki Yamagishi</li>
@@ -54,13 +54,13 @@ gf_count: 6
 <li class="credits__name">Yoshihito Kira</li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Directors</h3>
+<h3>Art Directors<span class="credits__zh-role">（美术总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroko Takano</li>
 <li class="credits__name">Keisuke Sakurai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Modeling</h3>
+<h3>Character Modeling<span class="credits__zh-role">（角色建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Migaku Matsui</li>
 <li class="credits__name">Tetsuya Tochigi</li>
@@ -70,7 +70,7 @@ gf_count: 6
 <li class="credits__name">Ku Hou</li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Animation</h3>
+<h3>Character Animation<span class="credits__zh-role">（角色动画）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Wataru Nagano</li>
 <li class="credits__name">Kazutaka Horikawa</li>
@@ -78,7 +78,7 @@ gf_count: 6
 <li class="credits__name">Naoki Mori</li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic Effects</h3>
+<h3>Graphic Effects<span class="credits__zh-role">（图形特效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fuyuhiko Koizumi</li>
 <li class="credits__name">Takuya Araki</li>
@@ -87,7 +87,7 @@ gf_count: 6
 <li class="credits__name">Mami Sasaki</li>
 </ul></section>
 <section class="credits__section">
-<h3>Background</h3>
+<h3>Background<span class="credits__zh-role">（背景）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kosei Hatanaka</li>
 <li class="credits__name">Tatsuya Morita</li>
@@ -103,12 +103,12 @@ gf_count: 6
 <li class="credits__name">Hideaki Hakozaki</li>
 </ul></section>
 <section class="credits__section">
-<h3>Cutscenes</h3>
+<h3>Cutscenes<span class="credits__zh-role">（过场）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hisashi Nagai</li>
 </ul></section>
 <section class="credits__section">
-<h3>2D Art</h3>
+<h3>2D Art<span class="credits__zh-role">（2D 美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kaoru Hasegawa</li>
 <li class="credits__name">Shigeru Kawahara</li>
@@ -126,33 +126,33 @@ gf_count: 6
 <li class="credits__name">Ryugo Koizumi</li>
 </ul></section>
 <section class="credits__section">
-<h3>UI Designer</h3>
+<h3>UI Designer<span class="credits__zh-role">（界面设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jun Tomizawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Director</h3>
+<h3>Sound Director<span class="credits__zh-role">（音响总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ryoma Nakamura</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Producer</h3>
+<h3>Sound Producer<span class="credits__zh-role">（音响制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hideki Sakamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Music Arrangement &amp; Composition</h3>
+<h3>Music Arrangement &amp; Composition<span class="credits__zh-role">（音乐编曲与作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Keisuke Ito</li>
 </ul></section>
 <section class="credits__section">
-<h3>Original Music Composition</h3>
+<h3>Original Music Composition<span class="credits__zh-role">（原作音乐作曲）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Arata Iiyoshi</li>
 <li class="credits__name">Atsuhiro Ishizuna</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Effects</h3>
+<h3>Sound Effects<span class="credits__zh-role">（音效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ichiro Ebisu</li>
 <li class="credits__name">Sohh Satou</li>
@@ -161,17 +161,17 @@ gf_count: 6
 <li class="credits__name">Yuya Nakamura</li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario</h3>
+<h3>Scenario<span class="credits__zh-role">（剧本）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tomie-shinichiro/">Shin-ichiro Tomie</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Manager</h3>
+<h3>Development Manager<span class="credits__zh-role">（开发经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kensuke Oguri</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Cooperation</h3>
+<h3>Development Cooperation<span class="credits__zh-role">（开发协力）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">noisycroak Co., Ltd.</li>
 <li class="credits__name is-company">KUON Ltd.</li>
@@ -211,13 +211,13 @@ gf_count: 6
 <li class="credits__name">Koji Kobayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical Support</h3>
+<h3>Technical Support<span class="credits__zh-role">（技术支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/ogawa-yuuta/">Yuta Ogawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2014）"></li>
 <li class="credits__name is-gf"><a href="/people/inage-toru/">Toru Inage</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 5 部 GF 自研作品里有开发职务署名，最早 2009）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork</h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takanao Kondo</li>
 </ul></section>
@@ -228,7 +228,7 @@ gf_count: 6
 <li class="credits__name">Tatsuhiko Karashima</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Localization</h3>
+<h3>English Localization<span class="credits__zh-role">（英语本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
 <li class="credits__name"><a href="/people/todo-mayu/">Mayu Todo</a></li>
@@ -236,21 +236,21 @@ gf_count: 6
 <li class="credits__name">Ami Shuman</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Translation</h3>
+<h3>English Translation<span class="credits__zh-role">（英语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yamamori-hisato/">Hisato Yamamori</a></li>
 <li class="credits__name">Ben Regal</li>
 <li class="credits__name">Satoko Deas</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Editing</h3>
+<h3>English Editing<span class="credits__zh-role">（英语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/selby-blaise/">Blaise Selby</a></li>
 <li class="credits__name"><a href="/people/haddock-eric/">Eric Haddock</a></li>
 <li class="credits__name"><a href="/people/ryer-julia/">Julia Ryer</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>English Localization Support</h3>
+<h3>English Localization Support<span class="credits__zh-role">（英语本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hines-jeff/">Jeff Hines</a></li>
 <li class="credits__name"><a href="/people/colling-robert/">Robert Colling</a></li>
@@ -258,7 +258,7 @@ gf_count: 6
 <li class="credits__name is-company">(AltaSource Group)</li>
 </ul></section>
 <section class="credits__section">
-<h3>NOA Localization Support</h3>
+<h3>NOA Localization Support<span class="credits__zh-role">（NOA 本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yuki Hirata</li>
 <li class="credits__name"><a href="/people/kasugayama-akiko/">Akiko Kasugayama</a></li>
@@ -269,7 +269,7 @@ gf_count: 6
 <li class="credits__name"><a href="/people/candland-thomas/">Thomas Candland</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>NOA Product Testing</h3>
+<h3>NOA Product Testing<span class="credits__zh-role">（NOA 产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Ed Ridgeway</li>
 <li class="credits__name">Gary Meads</li>
@@ -287,7 +287,7 @@ gf_count: 6
 <li class="credits__name is-company">Product Testing Technicians</li>
 </ul></section>
 <section class="credits__section">
-<h3>European Localisation</h3>
+<h3>European Localisation<span class="credits__zh-role">（欧洲本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aoki-kaori/">Kaori Aoki</a></li>
 <li class="credits__name"><a href="/people/wakai-makiko/">Makiko Wakai</a></li>
@@ -308,14 +308,14 @@ gf_count: 6
 <li class="credits__name"><a href="/people/thon-claudia/">Claudia Thon</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>French Translation</h3>
+<h3>French Translation<span class="credits__zh-role">（法语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/forgit-aymeric/">Aymeric Forgit</a></li>
 <li class="credits__name"><a href="/people/provost-sarah/">Sarah Provost</a></li>
 <li class="credits__name"><a href="/people/bonnal-olivia/">Olivia Bonnal</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>French Editing</h3>
+<h3>French Editing<span class="credits__zh-role">（法语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/giang-violette/">Violette Giang</a></li>
 <li class="credits__name"><a href="/people/verpoort-elodie/">Elodie Verpoort</a></li>
@@ -323,7 +323,7 @@ gf_count: 6
 <li class="credits__name"><a href="/people/couee-franck/">Franck Couée</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>German Translation</h3>
+<h3>German Translation<span class="credits__zh-role">（德语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/heucher-daniel/">Daniel Heucher</a></li>
 <li class="credits__name"><a href="/people/kalms-kathleen/">Kathleen Kalms</a></li>
@@ -333,7 +333,7 @@ gf_count: 6
 <li class="credits__name">Carolin Maribach</li>
 </ul></section>
 <section class="credits__section">
-<h3>German Editing</h3>
+<h3>German Editing<span class="credits__zh-role">（德语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/radko-ireneusz/">Ireneusz Radko</a></li>
 <li class="credits__name"><a href="/people/thon-claudia/">Claudia Thon</a></li>
@@ -343,7 +343,7 @@ gf_count: 6
 <li class="credits__name"><a href="/people/schweinzer-barbara/">Barbara Schweinzer</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Italian Translation</h3>
+<h3>Italian Translation<span class="credits__zh-role">（意大利语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/couvert-altan/">Altan Couvert</a></li>
 <li class="credits__name"><a href="/people/spera-annarita/">Annarita Spera</a></li>
@@ -353,7 +353,7 @@ gf_count: 6
 <li class="credits__name"><a href="/people/suriano-manuela/">Manuela Suriano</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Italian Editing</h3>
+<h3>Italian Editing<span class="credits__zh-role">（意大利语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/troiani-alice/">Alice Troiani</a></li>
 <li class="credits__name"><a href="/people/locatelli-marco/">Marco Locatelli</a></li>
@@ -363,7 +363,7 @@ gf_count: 6
 <li class="credits__name"><a href="/people/pirruccio-guendalina/">Guendalina Pirruccio</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Spanish Translation</h3>
+<h3>Spanish Translation<span class="credits__zh-role">（西班牙语翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/diaz-servando-doval/">Servando Doval Diaz</a></li>
 <li class="credits__name"><a href="/people/mendoza-alicia-iribarren/">Alicia Iribarren Mendoza</a></li>
@@ -373,7 +373,7 @@ gf_count: 6
 <li class="credits__name">Gabriel San Martin Fernandez</li>
 </ul></section>
 <section class="credits__section">
-<h3>Spanish Editing</h3>
+<h3>Spanish Editing<span class="credits__zh-role">（西班牙语编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Isabel Zarco Manjavacas</li>
 <li class="credits__name"><a href="/people/miguel-mariona-pera-i-de/">Mariona Pera i de Miguel</a></li>
@@ -384,20 +384,20 @@ gf_count: 6
 <li class="credits__name"><a href="/people/vargasfarias-pindaro/">Pindaro Vargas-Farías</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>European Localisation Support</h3>
+<h3>European Localisation Support<span class="credits__zh-role">（欧洲本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hasegawa-tadasu/">Tadasu Hasegawa</a></li>
 <li class="credits__name"><a href="/people/andrews-marvin/">Marvin Andrews</a></li>
 <li class="credits__name"><a href="/people/bagley-peter/">Peter Bagley</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>NOE Localisation Support</h3>
+<h3>NOE Localisation Support<span class="credits__zh-role">（NOE 本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sawabe-ryoko/">Ryoko Sawabe</a></li>
 <li class="credits__name">Sasakia Doorschodt</li>
 </ul></section>
 <section class="credits__section">
-<h3>NOE Quality Assurance</h3>
+<h3>NOE Quality Assurance<span class="credits__zh-role">（NOE 品质保证）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/cuadra-jesus-gutierrez/">Jesús Gutiérrez Cuadra</a></li>
 <li class="credits__name"><a href="/people/howardhale-ben/">Ben Howard-Hale</a></li>
@@ -421,7 +421,7 @@ gf_count: 6
 <li class="credits__name">Sandra Díaz Cabral</li>
 </ul></section>
 <section class="credits__section">
-<h3>English &amp; European Graphic Design</h3>
+<h3>English &amp; European Graphic Design<span class="credits__zh-role">（英欧版图形设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/franc-chris/">Chris Franc</a></li>
 <li class="credits__name">Kevin Lalli</li>
@@ -429,7 +429,7 @@ gf_count: 6
 <li class="credits__name">Elisabeth Lariviere</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks</h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ito-kenijro/">Kenjiro Ito</a></li>
 <li class="credits__name"><a href="/people/tanaka-masami/">Masami Tanaka</a></li>
@@ -470,7 +470,7 @@ gf_count: 6
 <li class="credits__name">Takashi Mikami</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Support</h3>
+<h3>Development Support<span class="credits__zh-role">（开发支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naomi Kaneda</li>
 <li class="credits__name">Motoi Nakamura</li>
@@ -480,7 +480,7 @@ gf_count: 6
 <li class="credits__name">Tetsuya Seya</li>
 </ul></section>
 <section class="credits__section">
-<h3>Product Management</h3>
+<h3>Product Management<span class="credits__zh-role">（产品管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kaori Ando</li>
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"></li>
@@ -488,26 +488,26 @@ gf_count: 6
 <li class="credits__name">Kazuyoshi Toriyama</li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks</h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GAME FREAK Inc.</li>
 <li class="credits__name is-company">Creatures Inc.</li>
 <li class="credits__name">Koichi Nakamura <small>中村光一</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Original Director</h3>
+<h3>Pokémon Original Director<span class="credits__zh-role">（宝可梦原作总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 <li class="credits__name">Kazunori Sugiura <small>杉浦一徳</small></li>
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a> <small>山上仁志</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mitsutoshi Sakurai <small>櫻井光俊</small></li>
 <li class="credits__name"><a href="/people/furukawa-shuntaro/">Shuntaro Furukawa</a> <small>古川俊太郎</small></li>

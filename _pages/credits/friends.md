@@ -8,12 +8,12 @@ sitemap: true
 gf_count: 14
 ---
 <section class="credits__section">
-<h3>Director</h3>
+<h3>Director<span class="credits__zh-role">（总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yosuke Oshino</li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Design</h3>
+<h3>Game Design<span class="credits__zh-role">（游戏设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naoya Ishimura</li>
 <li class="credits__name">Masayuki Wada</li>
@@ -31,7 +31,7 @@ gf_count: 14
 <li class="credits__name">Tomokazu Onishi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Programming</h3>
+<h3>Programming<span class="credits__zh-role">（程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Naoki Kosaka</li>
 <li class="credits__name">Takumi Ishikawa</li>
@@ -63,7 +63,7 @@ gf_count: 14
 <li class="credits__name">Ichiro Suzuki</li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Design</h3>
+<h3>Art Design<span class="credits__zh-role">（美术设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akari Kobayashi</li>
 <li class="credits__name">Kinuka Watanabe</li>
@@ -118,13 +118,13 @@ gf_count: 14
 <li class="credits__name">Kouichi Fukazawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound</h3>
+<h3>Sound<span class="credits__zh-role">（音响）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Fumihasa Tanaka</li>
 <li class="credits__name">Osamu Murata</li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical Support</h3>
+<h3>Technical Support<span class="credits__zh-role">（技术支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/minato-kyohei/">Kyohei Minato</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2018）"></li>
 <li class="credits__name is-gf"><a href="/people/gouhara-hiroaki/">Hiroaki Gohara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 2018）"></li>
@@ -137,7 +137,7 @@ gf_count: 14
 <li class="credits__name">Takahiro Tanaka</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>English Localization<span class="credits__ja-role">Localization / English Localization</span></h3>
+<h3><small>Localization / </small>English Localization<span class="credits__zh-role">（英语本地化）</span><span class="credits__ja-role">Localization / English Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ryu-mikiko/">Mikiko Ryu</a></li>
 <li class="credits__name">Chie Stutzman</li>
@@ -150,7 +150,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/yamamori-hisato/">Hisato Yamamori</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>English Translation &amp; Editing<span class="credits__ja-role">Localization / English Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>English Translation &amp; Editing<span class="credits__zh-role">（英语翻译与编辑）</span><span class="credits__ja-role">Localization / English Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Rhiona George Dey</li>
 <li class="credits__name"><a href="/people/pietsch-jackson/">Jackson Pietsch</a></li>
@@ -163,7 +163,7 @@ gf_count: 14
 <li class="credits__name">Elin Rummel</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>European Localisation<span class="credits__ja-role">Localization / European Localisation</span></h3>
+<h3><small>Localization / </small>European Localisation<span class="credits__zh-role">（欧洲本地化）</span><span class="credits__ja-role">Localization / European Localisation</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/aoki-kaori/">Kaori Aoki</a></li>
 <li class="credits__name">Daniel Anscomb</li>
@@ -184,7 +184,7 @@ gf_count: 14
 <li class="credits__name">Anna Epifanova</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>French Translation &amp; Editing<span class="credits__ja-role">Localization / French Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>French Translation &amp; Editing<span class="credits__zh-role">（法语翻译与编辑）</span><span class="credits__ja-role">Localization / French Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Laura Deruyver</li>
 <li class="credits__name"><a href="/people/vallee-marine/">Marine Vallee</a></li>
@@ -192,7 +192,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/forgit-aymeric/">Aymeric Forgit</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>German Translation &amp; Editing<span class="credits__ja-role">Localization / German Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>German Translation &amp; Editing<span class="credits__zh-role">（德语翻译与编辑）</span><span class="credits__ja-role">Localization / German Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tabea Giez</li>
 <li class="credits__name"><a href="/people/radko-ireneusz/">Ireneusz Radko</a></li>
@@ -200,7 +200,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/kalms-kathleen/">Kathleen Kalms</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>Italian Translation &amp; Editing<span class="credits__ja-role">Localization / Italian Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>Italian Translation &amp; Editing<span class="credits__zh-role">（意大利语翻译与编辑）</span><span class="credits__ja-role">Localization / Italian Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Lisa Elli</li>
 <li class="credits__name"><a href="/people/giusti-fabio/">Fabio Giusti</a></li>
@@ -208,7 +208,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/couvert-altan/">Altan Couvert</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>Spanish Translation &amp; Editing<span class="credits__ja-role">Localization / Spanish Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>Spanish Translation &amp; Editing<span class="credits__zh-role">（西班牙语翻译与编辑）</span><span class="credits__ja-role">Localization / Spanish Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Carolina del Carmen Santana Monedero</li>
 <li class="credits__name"><a href="/people/miguel-mariona-pera-i-de/">Mariona Pera i de Miguel</a></li>
@@ -217,7 +217,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/campa-diego-luque-de-la/">Diego Luque de la Campa</a></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>Korean Translation &amp; Editing<span class="credits__ja-role">Localization / Korean Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>Korean Translation &amp; Editing<span class="credits__zh-role">（韩语翻译与编辑）</span><span class="credits__ja-role">Localization / Korean Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/choi-mihwa/">Mihwa Choi</a></li>
 <li class="credits__name"><a href="/people/byun-jieun/">Jieun Byun</a></li>
@@ -228,7 +228,7 @@ gf_count: 14
 <li class="credits__name">Yoojin Kwon</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>Chinese Localization<span class="credits__ja-role">Localization / Chinese Localization</span></h3>
+<h3><small>Localization / </small>Chinese Localization<span class="credits__zh-role">（中文本地化）</span><span class="credits__ja-role">Localization / Chinese Localization</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Adrian Wildandyawan</li>
 <li class="credits__name">Ryotaro Ukai</li>
@@ -236,7 +236,7 @@ gf_count: 14
 <li class="credits__name is-gf"><a href="/people/matsunaga-mitsuyo/">Mitsuyo Matsunaga</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2010）"></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Localization / </small>Chinese Translation &amp; Editing<span class="credits__ja-role">Localization / Chinese Translation &amp; Editing</span></h3>
+<h3><small>Localization / </small>Chinese Translation &amp; Editing<span class="credits__zh-role">（中文翻译与编辑）</span><span class="credits__ja-role">Localization / Chinese Translation &amp; Editing</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Qing Yun</li>
 <li class="credits__name"><a href="/people/tsai-huiying/">Huiying Tsai</a></li>
@@ -248,7 +248,7 @@ gf_count: 14
 <li class="credits__name">Waihong Kong</li>
 </ul></section>
 <section class="credits__section">
-<h3>Localization Support</h3>
+<h3>Localization Support<span class="credits__zh-role">（本地化支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ammerman-lauren/">Lauren Ammerman</a></li>
 <li class="credits__name">Peter Bohan</li>
@@ -269,7 +269,7 @@ gf_count: 14
 <li class="credits__name"><a href="/people/ming-xu/">Ming Xu</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Localization Quality Assurance</h3>
+<h3>Localization Quality Assurance<span class="credits__zh-role">（本地化品质保证）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Zaher Khan</li>
 <li class="credits__name">Ivan Samoilov</li>
@@ -290,7 +290,7 @@ gf_count: 14
 <li class="credits__name">Muhammad Ansir Arshad</li>
 </ul></section>
 <section class="credits__section">
-<h3>Testing</h3>
+<h3>Testing<span class="credits__zh-role">（测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nobuya Sasaki</li>
 <li class="credits__name">Akiko Ohashi</li>
@@ -318,7 +318,7 @@ gf_count: 14
 <li class="credits__name">Takahito Kusutani</li>
 </ul></section>
 <section class="credits__section">
-<h3>Product Management</h3>
+<h3>Product Management<span class="credits__zh-role">（产品管理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nonaka-toyokazu/">Toyokazu Nonaka</a></li>
 <li class="credits__name">Song-dong Kim</li>
@@ -327,12 +327,12 @@ gf_count: 14
 <li class="credits__name is-gf"><a href="/people/numata-atsushi/">Atsushi Numata</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 1 部 GF 自研作品里有开发职务署名，最早 2026）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks</h3>
+<h3>Very Special Thanks<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">GAME FREAK inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Very Special Thanks / </small>Special Thanks<span class="credits__ja-role">Very Special Thanks / Special Thanks</span></h3>
+<h3><small>Very Special Thanks / </small>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">Very Special Thanks / Special Thanks</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/obora-shoichi/">Shoichi Obora</a></li>
 <li class="credits__name">Chihiro Hirose</li>
@@ -404,19 +404,19 @@ gf_count: 14
 <li class="credits__name">Side</li>
 </ul></section>
 <section class="credits__section">
-<h3>Educational Advisor</h3>
+<h3>Educational Advisor<span class="credits__zh-role">（Educational 顾问）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kei Kawashima</li>
 </ul></section>
 <section class="credits__section">
-<h3>Coordinators</h3>
+<h3>Coordinators<span class="credits__zh-role">（协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/fukushima-tomoki/">Tomoki Fukushima</a></li>
 <li class="credits__name">Masahiro Shiotani</li>
 <li class="credits__name is-gf"><a href="/people/ogawa-yuuta/">Yuta Ogawa</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2014）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/kinashi-akira/">Akira Kinashi</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 2002）"></li>
 <li class="credits__name"><a href="/people/saito-shinya/">Shinya Saito</a></li>
@@ -425,13 +425,13 @@ gf_count: 14
 <li class="credits__name">Yosuke Oshino</li>
 </ul></section>
 <section class="credits__section">
-<h3>General Producers</h3>
+<h3>General Producers<span class="credits__zh-role">（总制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-shinya/">Shinya Takahashi</a></li>
 <li class="credits__name"><a href="/people/utsunomiya-takato/">Takato Utsunomiya</a> <small>宇都宮崇人</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producers</h3>
+<h3>Executive Producers<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/furukawa-shuntaro/">Shuntaro Furukawa</a> <small>古川俊太郎</small></li>
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekazu Ishihara</a> <small>石原恒和</small></li>

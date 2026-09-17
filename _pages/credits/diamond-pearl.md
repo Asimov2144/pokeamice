@@ -7,42 +7,42 @@ search: false
 sitemap: true
 ---
 <section class="credits__section">
-<h3>Director<span class="credits__ja-role">ポケットモンスター ダイヤモンド（パール） スタッフリスト / ディレクター</span></h3>
+<h3>Director<span class="credits__zh-role">（总监）</span><span class="credits__ja-role">ポケットモンスター ダイヤモンド（パール） スタッフリスト / ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>増田順一 · ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Director<span class="credits__ja-role">アート ディレクター</span></h3>
+<h3>Art Director<span class="credits__zh-role">（美术总监）</span><span class="credits__ja-role">アート ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sugimori-ken/">Ken Sugimori</a> <small>杉森建 · すぎもり けん</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Director<span class="credits__ja-role">バトル ディレクター</span></h3>
+<h3>Battle Director<span class="credits__zh-role">（对战总监）</span><span class="credits__ja-role">バトル ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a> <small>森本茂樹 · もりもと しげき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Program Leader<span class="credits__ja-role">プログラム リーダー</span></h3>
+<h3>Program Leader<span class="credits__zh-role">（程序组长）</span><span class="credits__ja-role">プログラム リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/watanabe-tetsuya/">Tetsuya Watanabe</a> <small>渡辺哲也 · わたなべ てつや</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle System Programmer<span class="credits__ja-role">バトル システム プログラム</span></h3>
+<h3>Battle System Programmer<span class="credits__zh-role">（对战系统程序员）</span><span class="credits__ja-role">バトル システム プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sogabe-hisashi/">Hisashi Sogabe</a> <small>曽我部仙史 · そがべ ひさし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Field System Programmer<span class="credits__ja-role">フィールド システム プログラム</span></h3>
+<h3>Field System Programmer<span class="credits__zh-role">（场景系统程序员）</span><span class="credits__ja-role">フィールド システム プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tamada-sosuke/">Sousuke Tamada</a> <small>玉田荘介 · たまだ そうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Communication System Programmer<span class="credits__ja-role">つうしん システム プログラム</span></h3>
+<h3>Communication System Programmer<span class="credits__zh-role">（通信系统程序员）</span><span class="credits__ja-role">つうしん システム プログラム</span></h3>
 <ul class="credits__names">
-<li class="credits__name"><a href="/people/sen-zhao-ren/">Akito Mori</a> <small>森昭人 · もり あきと</small></li>
+<li class="credits__name"><a href="/people/sen-zhang-ren/">Akito Mori</a> <small>森昭人 · もり あきと</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Programmers<span class="credits__ja-role">プログラム</span></h3>
+<h3>Programmers<span class="credits__zh-role">（程序员）</span><span class="credits__ja-role">プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/matsuda-yoshinori/">Yoshinori Matsuda</a> <small>まつだ よしのり</small></li>
 <li class="credits__name"><a href="/people/kagaya-keita/">Keita Kagaya</a> <small>かがや けいた</small></li>
@@ -58,12 +58,12 @@ sitemap: true
 <li class="credits__name"><a href="/people/mitsuhara-satoshi/">Satoshi Mitsuhara</a> <small>三津原敏 · みつはら さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic Leader<span class="credits__ja-role">グラフィック リーダー</span></h3>
+<h3>Graphic Leader<span class="credits__zh-role">（图形组长）</span><span class="credits__ja-role">グラフィック リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/unno-takao/">Takao Unno</a> <small>海野隆雄 · うんの たかお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Designers &amp; Graphic Designers<span class="credits__ja-role">ポケモン デザイン &amp; グラフィック デザイン</span></h3>
+<h3>Pokémon Designers &amp; Graphic Designers<span class="credits__zh-role">（宝可梦设计与图形设计）</span><span class="credits__ja-role">ポケモン デザイン &amp; グラフィック デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sugimori-ken/">Ken Sugimori</a> <small>すぎもり けん</small></li>
 <li class="credits__name"><a href="/people/unno-takao/">Takao Unno</a> <small>うんの たかお</small></li>
@@ -79,43 +79,43 @@ sitemap: true
 <li class="credits__name">Hiroyuki Goto <small>後藤浩之 · ごとう ひろゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Designer<span class="credits__ja-role">ポケモン デザイン</span></h3>
+<h3>Pokémon Designer<span class="credits__zh-role">（宝可梦设计）</span><span class="credits__ja-role">ポケモン デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishida-atsuko/">Atsuko Nishida</a> <small>にしだあつこ · にしだ あつこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Graphic Designer<span class="credits__ja-role">グラフィック デザイン</span></h3>
+<h3>Graphic Designer<span class="credits__zh-role">（图形设计）</span><span class="credits__ja-role">グラフィック デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kei Hoshiba <small>保志場慶 · ほしば けい</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Music Leader<span class="credits__ja-role">おんがく リーダー</span></h3>
+<h3>Music Leader<span class="credits__zh-role">（音乐组长）</span><span class="credits__ja-role">おんがく リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>一之瀬剛 · いちのせ ごう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Music Composition<span class="credits__ja-role">おんがく</span></h3>
+<h3>Music Composition<span class="credits__zh-role">（音乐作曲）</span><span class="credits__ja-role">おんがく</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>佐藤仁美 · さとう ひとみ</small></li>
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Effects<span class="credits__ja-role">サウンド エフェクト</span></h3>
+<h3>Sound Effects<span class="credits__zh-role">（音效）</span><span class="credits__ja-role">サウンド エフェクト</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nohara-satoshi/">Satoshi Nohara</a> <small>のはら さとし</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Voices<span class="credits__ja-role">ポケモン ボイス</span></h3>
+<h3>Pokémon Voices<span class="credits__zh-role">（宝可梦配音）</span><span class="credits__ja-role">ポケモン ボイス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ichinose-go/">Go Ichinose</a> <small>いちのせ ごう</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Design Leader<span class="credits__ja-role">ゲームデザイン リーダー</span></h3>
+<h3>Game Design Leader<span class="credits__zh-role">（游戏设计组长）</span><span class="credits__ja-role">ゲームデザイン リーダー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ohmori-shigeru/">Shigeru Ohmori</a> <small>大森滋 · おおもり しげる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Designers<span class="credits__ja-role">ゲームデザイン</span></h3>
+<h3>Game Designers<span class="credits__zh-role">（游戏设计）</span><span class="credits__ja-role">ゲームデザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishino-koji/">Kouji Nishino</a> <small>西野弘二 · にしの こうじ</small></li>
 <li class="credits__name"><a href="/people/matsushima-kenji/">Kenji Matsushima</a> <small>松島賢二 · まつしま けんじ</small></li>
@@ -129,7 +129,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a> <small>ひろ なかむら</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Plot Scenario<span class="credits__ja-role">シナリオ プロット</span></h3>
+<h3>Plot Scenario<span class="credits__zh-role">（剧情剧本）</span><span class="credits__ja-role">シナリオ プロット</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/masuda-junichi/">Junichi Masuda</a> <small>ますだ じゅんいち</small></li>
 <li class="credits__name"><a href="/people/matsumiya-toshinobu/">Toshinobu Matsumiya</a> <small>松宮稔展 · まつみや としのぶ</small></li>
@@ -137,7 +137,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/ohmori-shigeru/">Shigeru Ohmori</a> <small>おおもり しげる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Scenario<span class="credits__ja-role">シナリオ</span></h3>
+<h3>Game Scenario<span class="credits__zh-role">（游戏剧本）</span><span class="credits__ja-role">シナリオ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/matsumiya-toshinobu/">Toshinobu Matsumiya</a> <small>まつみや としのぶ</small></li>
 <li class="credits__name"><a href="/people/sato-hitomi/">Hitomi Sato</a> <small>さとう ひとみ</small></li>
@@ -145,7 +145,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/nakatsui-yu/">Suguru Nakatsui</a> <small>なかつい すぐる</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Map Designers<span class="credits__ja-role">マップ デザイン</span></h3>
+<h3>Map Designers<span class="credits__zh-role">（地图设计）</span><span class="credits__ja-role">マップ デザイン</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/takahashi-tadashi/">Tadashi Takahashi</a> <small>たかはし ただし</small></li>
 <li class="credits__name"><a href="/people/nakatsui-yu/">Suguru Nakatsui</a> <small>なかつい すぐる</small></li>
@@ -156,12 +156,12 @@ sitemap: true
 <li class="credits__name"><a href="/people/shimoyamada-teruyuki/">Teruyuki Shimoyamada</a> <small>しもやまだ てるゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokédex Text<span class="credits__ja-role">ずかん テキスト</span></h3>
+<h3>Pokédex Text<span class="credits__zh-role">（图鉴文本）</span><span class="credits__ja-role">ずかん テキスト</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/matsushima-kenji/">Kenji Matsushima</a> <small>まつしま けんじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Parametric Design<span class="credits__ja-role">パラメーター せってい</span></h3>
+<h3>Parametric Design<span class="credits__zh-role">（参数设计）</span><span class="credits__ja-role">パラメーター せってい</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nishino-koji/">Kouji Nishino</a> <small>にしの こうじ</small></li>
 <li class="credits__name"><a href="/people/ota-tetsuji/">Tetsuji Ohta</a> <small>おおた てつじ</small></li>
@@ -169,7 +169,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a> <small>もりもと しげき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Tower Data<span class="credits__ja-role">バトルタワー データ</span></h3>
+<h3>Battle Tower Data<span class="credits__zh-role">（对战塔数据）</span><span class="credits__ja-role">バトルタワー データ</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/fujita-osamu/">Osamu Fujita</a> <small>ふじた おさむ</small></li>
 <li class="credits__name">Takeshi Saigo <small>さいごう たけし</small></li>
@@ -181,7 +181,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/ota-tetsuji/">Tetsuji Ohta</a> <small>おおた てつじ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Script Designers<span class="credits__ja-role">スクリプト せってい</span></h3>
+<h3>Script Designers<span class="credits__zh-role">（脚本设计）</span><span class="credits__ja-role">スクリプト せってい</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nohara-satoshi/">Satoshi Nohara</a> <small>のはら さとし</small></li>
 <li class="credits__name"><a href="/people/ohta-tomomichi/">Tomomichi Ohta</a> <small>おおた ともみち</small></li>
@@ -189,7 +189,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/tamada-sosuke/">Sousuke Tamada</a> <small>たまだ そうすけ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Environment &amp; Tool Programmers<span class="credits__ja-role">かんきょう &amp; ツール プログラム</span></h3>
+<h3>Environment &amp; Tool Programmers<span class="credits__zh-role">（环境与工具程序）</span><span class="credits__ja-role">かんきょう &amp; ツール プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/sogabe-hisashi/">Hisashi Sogabe</a> <small>そがべ ひさし</small></li>
 <li class="credits__name"><a href="/people/tamada-sosuke/">Sousuke Tamada</a> <small>たまだ そうすけ</small></li>
@@ -198,30 +198,30 @@ sitemap: true
 <li class="credits__name"><a href="/people/iwasawa-miyuki/">Miyuki Iwasawa</a> <small>いわさわ みゆき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Wi-Fi Connection / </small>Server System Director<span class="credits__ja-role">ニンテンドーWi-Fiコネクション サーバシステム ディレクター</span></h3>
+<h3><small>Nintendo Wi-Fi Connection / </small>Server System Director<span class="credits__zh-role">（服务器系统总监）</span><span class="credits__ja-role">ニンテンドーWi-Fiコネクション サーバシステム ディレクター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishikawa-mikihiro/">Mikihiro Ishikawa</a> <small>いしかわ みきひろ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3><small>Nintendo Wi-Fi Connection / </small>Server System Programmers<span class="credits__ja-role">サーバシステム プログラム</span></h3>
+<h3><small>Nintendo Wi-Fi Connection / </small>Server System Programmers<span class="credits__zh-role">（服务器系统程序员）</span><span class="credits__ja-role">サーバシステム プログラム</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamura-daisuke/">Daisuke Nakamura</a> <small>なかむら だいすけ</small></li>
 <li class="credits__name">Shigetoshi Kitayama <small>きたやま しげとし</small></li>
 <li class="credits__name">Yuuki Hayashi <small>はやし ゆうき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Program Support<span class="credits__ja-role">プログラム サポート</span></h3>
+<h3>Program Support<span class="credits__zh-role">（程序支持）</span><span class="credits__ja-role">プログラム サポート</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/yoshihara-kazuki/">Kazuki Yoshihara</a> <small>よしはら かずき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>NCL Product Testing<span class="credits__ja-role">デバッグプレイ</span></h3>
+<h3>NCL Product Testing<span class="credits__zh-role">（NCL 产品测试）</span><span class="credits__ja-role">デバッグプレイ</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akira Yano <small>やの あきら</small></li>
 <li class="credits__name is-company">Super Mario Club <small>スーパーマリオクラブ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks<span class="credits__ja-role">スペシャルサンクス</span></h3>
+<h3>Special Thanks<span class="credits__zh-role">（特别感谢）</span><span class="credits__ja-role">スペシャルサンクス</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tominaga-kenji/">Kenji Tominaga</a> <small>冨永兼司 · とみなが けんじ</small></li>
 <li class="credits__name"><a href="/people/tajiri-yoshio/">Yoshio Tajiri</a> <small>田尻義雄 · たじり よしお</small></li>
@@ -253,50 +253,50 @@ sitemap: true
 <li class="credits__name">Takao Nakano <small>なかの たかお</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Information Supervisors<span class="credits__ja-role">じょうほうかんり</span></h3>
+<h3>Information Supervisors<span class="credits__zh-role">（信息监修）</span><span class="credits__ja-role">じょうほうかんり</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromi Sagawa <small>さがわ ひろみ</small></li>
 <li class="credits__name"><a href="/people/sakurai-yuuri/">Yuri Sakurai</a> <small>さくらい ゆうり</small></li>
 <li class="credits__name"><a href="/people/yanase-naoko/">Naoko Yanase</a> <small>やなせ なおこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork<span class="credits__ja-role">アートワーク</span></h3>
+<h3>Artwork<span class="credits__zh-role">（美术素材）</span><span class="credits__ja-role">アートワーク</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nakamichi-sachiko/">Sachiko Nakamichi</a> <small>なかみち さちこ</small></li>
 <li class="credits__name">Kiyomi Oe <small>おえ きよみ</small></li>
 <li class="credits__name"><a href="/people/sugiyama-yasuko/">Yasuko Sugiyama</a> <small>たかはし やすこ</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Coordinators<span class="credits__ja-role">コーディネーター</span></h3>
+<h3>Coordinators<span class="credits__zh-role">（协调）</span><span class="credits__ja-role">コーディネーター</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/egami-shusaku/">Shusaku Egami</a> <small>江上周作 · えがみ しゅうさく</small></li>
 <li class="credits__name"><a href="/people/yoshihara-kazuki/">Kazuki Yoshihara</a> <small>よしはら かずき</small></li>
 <li class="credits__name">Kaori Ando <small>あんどう かおり</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>English Version Coordinators</h3>
+<h3>English Version Coordinators<span class="credits__zh-role">（英语版协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 <li class="credits__name">Keisuke Tominaga</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Version Assistant Coordinator</h3>
+<h3>English Version Assistant Coordinator<span class="credits__zh-role">（英语版助理协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/simon-joel/">Joel Simon</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Translator</h3>
+<h3>Translator<span class="credits__zh-role">（翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ogasawara-nob/">Nob Ogasawara</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Text Editors</h3>
+<h3>Text Editors<span class="credits__zh-role">（文本编辑）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lillygren-teresa/">Teresa Lillygreen</a></li>
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>NOA Product Testing</h3>
+<h3>NOA Product Testing<span class="credits__zh-role">（NOA 产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hertzog-thomas/">Thomas Hertzhog</a></li>
 <li class="credits__name">Leland Jones</li>
@@ -304,7 +304,7 @@ sitemap: true
 <li class="credits__name">Mika Kurosawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>NOA Special Thanks</h3>
+<h3>NOA Special Thanks<span class="credits__zh-role">（NOA 特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Nicola Wright</li>
 <li class="credits__name">Devon Ryning</li>
@@ -313,7 +313,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/newman-joshua/">Joshua Newman</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Localization</h3>
+<h3>Localization<span class="credits__zh-role">（本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/murakawa-teruki/">Teruki Murakawa</a></li>
 <li class="credits__name"><a href="/people/nakamichi-kimiko/">Kimiko Nakamichi</a></li>
@@ -330,7 +330,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/yamaguchi-ryo/">Ryo Yamaguchi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers<span class="credits__ja-role">プロデューサー</span></h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span><span class="credits__ja-role">プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a> <small>陣内弘之 · じんない ひろゆき</small></li>
 <li class="credits__name"><a href="/people/yamagami-hitoshi/">Hitoshi Yamagami</a> <small>山上仁志 · やまがみ ひとし</small></li>
@@ -338,7 +338,7 @@ sitemap: true
 <li class="credits__name"><a href="/people/tsuru-hiroaki/">Hiroaki Tsuru</a> <small>鶴宏明 · つる ひろあき</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive producers<span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
+<h3>Executive producers<span class="credits__zh-role">（执行制作人）</span><span class="credits__ja-role">エグゼクティブ プロデューサー</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a> <small>田尻智 · たじり さとし</small></li>
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡 · いわた さとる</small></li>

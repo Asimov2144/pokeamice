@@ -8,48 +8,48 @@ sitemap: true
 gf_count: 24
 ---
 <section class="credits__section">
-<h3>Directed by</h3>
+<h3>Directed by<span class="credits__zh-role">（指导）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/shan-ming-xue/">Manabu Yamana</a> <small>山名学</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Production Concept by</h3>
+<h3>Production Concept by<span class="credits__zh-role">（制作概念）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akihiko Miura <small>三浦明彦</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Characters Designed by</h3>
+<h3>Characters Designed by<span class="credits__zh-role">（角色设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromoto-SIN-ichi <small>ヒロモト森一</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario Written by</h3>
+<h3>Scenario Written by<span class="credits__zh-role">（剧本 Written）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Kazunori Orio</li>
+<li class="credits__name"><a href="/people/orio-kazunori/">Kazunori Orio</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Music Director</h3>
+<h3>Music Director<span class="credits__zh-role">（音乐总监）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Tsukasa Tawada</li>
+<li class="credits__name"><a href="/people/tawada-tsukasa/">Tsukasa Tawada</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Production Design</h3>
+<h3>Production Design<span class="credits__zh-role">（制作设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takanori Wada</li>
 </ul></section>
 <section class="credits__section">
-<h3>Programming Director</h3>
+<h3>Programming Director<span class="credits__zh-role">（程序总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masayuki Kawamoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>System Programming</h3>
+<h3>System Programming<span class="credits__zh-role">（系统程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hajime Kitamura</li>
 <li class="credits__name">Michael Tedder</li>
 </ul></section>
 <section class="credits__section">
-<h3>Application Programming</h3>
+<h3>Application Programming<span class="credits__zh-role">（应用程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akihiko Yoshida</li>
 <li class="credits__name">Masaaki Kobayashi</li>
@@ -60,34 +60,34 @@ gf_count: 24
 <li class="credits__name">Hisato Matsumoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Unit Programming</h3>
+<h3>Battle Unit Programming<span class="credits__zh-role">（对战组程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Makoto Hirashima</li>
 <li class="credits__name">Dimitrios Chamouratidis</li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Unit Programming Assistants</h3>
+<h3>Battle Unit Programming Assistants<span class="credits__zh-role">（对战组程序助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Mariko Akagi</li>
 <li class="credits__name">Tomohiko Ogawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Development Support Programming</h3>
+<h3>Development Support Programming<span class="credits__zh-role">（开发支持程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Manabu Nakamura</li>
 <li class="credits__name">Takayuki Soga</li>
 </ul></section>
 <section class="credits__section">
-<h3>Connectivity Programming</h3>
+<h3>Connectivity Programming<span class="credits__zh-role">（Connectivity 程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/mitsuhara-satoshi/">Satoshi Mitsuhara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 4 部 GF 自研作品里有开发职务署名，最早 2004）"></li>
 <li class="credits__name">Yosuke Suma</li>
 <li class="credits__name">Yuki Matsui</li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Design</h3>
+<h3>Game Design<span class="credits__zh-role">（游戏设计）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Kazunori Orio</li>
+<li class="credits__name"><a href="/people/orio-kazunori/">Kazunori Orio</a></li>
 <li class="credits__name"><a href="/people/nomoto-gakuji/">Gakuji Nomoto</a> <small>野本岳志</small></li>
 <li class="credits__name">Akihiko Miura</li>
 <li class="credits__name">Sayaka Yamazaki</li>
@@ -95,45 +95,45 @@ gf_count: 24
 <li class="credits__name">Chiharu Sugaya</li>
 </ul></section>
 <section class="credits__section">
-<h3>Game Design Assistant</h3>
+<h3>Game Design Assistant<span class="credits__zh-role">（游戏设计助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kouji Ohno</li>
 </ul></section>
 <section class="credits__section">
-<h3>Scenario Writing Assistants</h3>
+<h3>Scenario Writing Assistants<span class="credits__zh-role">（剧本撰稿助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tetsuya Kawasaki</li>
 <li class="credits__name">Naomi Fukuoka</li>
 </ul></section>
 <section class="credits__section">
-<h3>Art Director</h3>
+<h3>Art Director<span class="credits__zh-role">（美术总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiromoto-SIN-Ichi <small>ヒロモト森一</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Modeling</h3>
+<h3>Character Modeling<span class="credits__zh-role">（角色建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chika Hotani</li>
 </ul></section>
 <section class="credits__section">
-<h3>Character Motion Design</h3>
+<h3>Character Motion Design<span class="credits__zh-role">（角色动作设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tokeshi Komada</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Effect Art</h3>
+<h3>Special Effect Art<span class="credits__zh-role">（特别特效美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hiroyuki Ikeda</li>
 <li class="credits__name">Jamie Turner</li>
 <li class="credits__name">Akira Fukumoto</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Effect Manager</h3>
+<h3>Special Effect Manager<span class="credits__zh-role">（特别特效经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Maiko Suzuki</li>
 </ul></section>
 <section class="credits__section">
-<h3>3D CG Art</h3>
+<h3>3D CG Art<span class="credits__zh-role">（3D CG 美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masao Horiguchi</li>
 <li class="credits__name">Kenji Kawashima</li>
@@ -143,7 +143,7 @@ gf_count: 24
 <li class="credits__name">Tokuma Arakawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Additional 3D CG by</h3>
+<h3>Additional 3D CG by<span class="credits__zh-role">（追加 3D CG）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Koji Eto</li>
 <li class="credits__name">Miki Naruse</li>
@@ -152,19 +152,19 @@ gf_count: 24
 <li class="credits__name">Takehiro Tsushima</li>
 </ul></section>
 <section class="credits__section">
-<h3>3D CG Art Assistants</h3>
+<h3>3D CG Art Assistants<span class="credits__zh-role">（3D CG 美术助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tetsuya Emoto</li>
 <li class="credits__name">Jyunichi Fukayama</li>
 <li class="credits__name">Takao Fukuhara</li>
 </ul></section>
 <section class="credits__section">
-<h3>Camera Animation</h3>
+<h3>Camera Animation<span class="credits__zh-role">（镜头动画）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jamie Turner</li>
 </ul></section>
 <section class="credits__section">
-<h3>2D CG Art</h3>
+<h3>2D CG Art<span class="credits__zh-role">（2D CG 美术）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Maki Wada</li>
 <li class="credits__name">Ryosuke Takeuchi</li>
@@ -175,22 +175,22 @@ gf_count: 24
 <li class="credits__name">Toshihiro Umekita</li>
 </ul></section>
 <section class="credits__section">
-<h3>2D CG Art Assistant</h3>
+<h3>2D CG Art Assistant<span class="credits__zh-role">（2D CG 美术助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tadashi Miyazawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon 3D Modeling Director</h3>
+<h3>Pokémon 3D Modeling Director<span class="credits__zh-role">（宝可梦 3D 建模总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Kei Hoshiba<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2006）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Lead Pokémon 3D Modeling</h3>
+<h3>Lead Pokémon 3D Modeling<span class="credits__zh-role">（组长宝可梦 3D 建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuo Yazawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon 3D Modeling</h3>
+<h3>Pokémon 3D Modeling<span class="credits__zh-role">（宝可梦 3D 建模）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Takeshi Iizuka</li>
 <li class="credits__name">Ken Ikuji</li>
@@ -216,12 +216,12 @@ gf_count: 24
 <li class="credits__name">Kiyotaka Hirata</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon 3D Modeling Manager</h3>
+<h3>Pokémon 3D Modeling Manager<span class="credits__zh-role">（宝可梦 3D 建模经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasunori Yanagisawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>Artwork Crew</h3>
+<h3>Artwork Crew<span class="credits__zh-role">（美术素材 Crew）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hideyuki Nakajima</li>
 <li class="credits__name">Hidenori Saeki</li>
@@ -230,28 +230,28 @@ gf_count: 24
 <li class="credits__name">Yosuke Hamada</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Design</h3>
+<h3>Sound Design<span class="credits__zh-role">（音响设计）</span></h3>
 <ul class="credits__names">
-<li class="credits__name">Tsukasa Tawada</li>
+<li class="credits__name"><a href="/people/tawada-tsukasa/">Tsukasa Tawada</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Effects</h3>
+<h3>Sound Effects<span class="credits__zh-role">（音效）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Masataka Saito</li>
 </ul></section>
 <section class="credits__section">
-<h3>Sound Crew</h3>
+<h3>Sound Crew<span class="credits__zh-role">（音响 Crew）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tomomi Ozu</li>
 </ul></section>
 <section class="credits__section">
-<h3>Script Directors</h3>
+<h3>Script Directors<span class="credits__zh-role">（脚本总监）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Manabu Nakamura</li>
 <li class="credits__name">Motokazu Sakai</li>
 </ul></section>
 <section class="credits__section">
-<h3>Script Programming</h3>
+<h3>Script Programming<span class="credits__zh-role">（脚本程序）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Satoshi Iwai</li>
 <li class="credits__name">Teruhito Yamaki</li>
@@ -263,7 +263,7 @@ gf_count: 24
 <li class="credits__name">Yoshikazu Kita</li>
 </ul></section>
 <section class="credits__section">
-<h3>Script Assistants</h3>
+<h3>Script Assistants<span class="credits__zh-role">（脚本助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akira Douke</li>
 <li class="credits__name">Mistuna Fukazawa</li>
@@ -272,12 +272,12 @@ gf_count: 24
 <li class="credits__name">Toshihiro Sasaki</li>
 </ul></section>
 <section class="credits__section">
-<h3>Script Manager</h3>
+<h3>Script Manager<span class="credits__zh-role">（脚本经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shiori Yokoyama</li>
 </ul></section>
 <section class="credits__section">
-<h3>Battle Data Design</h3>
+<h3>Battle Data Design<span class="credits__zh-role">（对战数据设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuhiro Suenaga</li>
 <li class="credits__name">Norihide Okamura</li>
@@ -289,77 +289,77 @@ gf_count: 24
 <li class="credits__name">Rika Sugo</li>
 </ul></section>
 <section class="credits__section">
-<h3>Card-e Supervisors</h3>
+<h3>Card-e Supervisors<span class="credits__zh-role">（Card-e 监修）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/chi-yu-zhuo-mei/">Takumi Akabane</a></li>
 <li class="credits__name"><a href="/people/irie-katsuyoshi/">Katsuyoshi Irie</a></li>
 <li class="credits__name">Masato Ishii</li>
 </ul></section>
 <section class="credits__section">
-<h3>Card-e Coordinator</h3>
+<h3>Card-e Coordinator<span class="credits__zh-role">（Card-e 协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Shusaki Egami</li>
 </ul></section>
 <section class="credits__section">
-<h3>Card-e Producer</h3>
+<h3>Card-e Producer<span class="credits__zh-role">（Card-e 制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/oohashi-mikiko/">Mikiko Ohashi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>European Localization<span class="credits__ja-role">Very Special Thanks to</span></h3>
+<h3>European Localization<span class="credits__zh-role">（欧洲本地化）</span><span class="credits__ja-role">Very Special Thanks to</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/uesugi-hiroyuki/">Hiroyuki Uesugi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>English Localization<span class="credits__ja-role">Special thanks to</span></h3>
+<h3>English Localization<span class="credits__zh-role">（英语本地化）</span><span class="credits__ja-role">Special thanks to</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/nakamura-hiro-noa/">Hiro Nakamura</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 7 部 GF 自研作品里有开发职务署名，最早 2006）"></li>
 <li class="credits__name"><a href="/people/mcmahill-seth/">Seth McMahill</a></li>
 <li class="credits__name">Yoshiaki Iwasawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>English Text Translated by</h3>
+<h3>English Text Translated by<span class="credits__zh-role">（英语文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ogasawara-nob/">Nob Ogasawara</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>English Text Edited by</h3>
+<h3>English Text Edited by<span class="credits__zh-role">（英语文本 Edited）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/lillygren-teresa/">Teresa Lillygren</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>French Text Translated by</h3>
+<h3>French Text Translated by<span class="credits__zh-role">（法语文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hugot-michael/">Michaël Hugot</a></li>
 <li class="credits__name">Pierre Sanchez</li>
 </ul></section>
 <section class="credits__section">
-<h3>German Text Translated by</h3>
+<h3>German Text Translated by<span class="credits__zh-role">（德语文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Thomas Aldenhövel</li>
 <li class="credits__name">Andrea Jähn</li>
 </ul></section>
 <section class="credits__section">
-<h3>Italian Text Translated by</h3>
+<h3>Italian Text Translated by<span class="credits__zh-role">（意大利语文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Francesca Di Marco</li>
 <li class="credits__name"><a href="/people/salvi-andrea/">Andrea Salvi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Spanish Text Translated by</h3>
+<h3>Spanish Text Translated by<span class="credits__zh-role">（西班牙语文本翻译）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Inés Rubio San Martín</li>
 <li class="credits__name">Sofía Marín Aguilar-Galindo</li>
 </ul></section>
 <section class="credits__section">
-<h3>NOA Product Testing</h3>
+<h3>NOA Product Testing<span class="credits__zh-role">（NOA 产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/hertzog-thomas/">Thomas Hertzog</a></li>
 <li class="credits__name">David Santiago</li>
 <li class="credits__name">Mika Kurosawa</li>
 </ul></section>
 <section class="credits__section">
-<h3>NOE Product Testing</h3>
+<h3>NOE Product Testing<span class="credits__zh-role">（NOE 产品测试）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Erkan Kasap</li>
 <li class="credits__name">Alessio Danieli</li>
@@ -369,14 +369,14 @@ gf_count: 24
 <li class="credits__name">Santiago Peirano</li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Games Designed by</h3>
+<h3>Pokémon Games Designed by<span class="credits__zh-role">（宝可梦游戏设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/tajiri-satoshi/">Satoshi Tajiri</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 9 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>田尻智</small></li>
 <li class="credits__name is-gf"><a href="/people/masuda-junichi/">Junichi Masuda</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>増田順一</small></li>
 <li class="credits__name is-gf"><a href="/people/sugimori-ken/">Ken Sugimori</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 18 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>杉森建</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Character Designed by</h3>
+<h3>Pokémon Character Designed by<span class="credits__zh-role">（宝可梦角色设计）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/fujiwara-motofumi/">Motofumi Fujiwara</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 17 部 GF 自研作品里有开发职务署名，最早 1996）"></li>
 <li class="credits__name is-gf"><a href="/people/yoshida-hironobu/">Hironobu Yoshida</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 21 部 GF 自研作品里有开发职务署名，最早 1998）"></li>
@@ -391,7 +391,7 @@ gf_count: 24
 <li class="credits__name is-gf"><a href="/people/okutani-jun/">Jun Okutani</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 6 部 GF 自研作品里有开发职务署名，最早 1999）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Advisors</h3>
+<h3>Pokémon Advisors<span class="credits__zh-role">（宝可梦顾问）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf"><a href="/people/morimoto-shigeki/">Shigeki Morimoto</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 20 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>森本茂樹</small></li>
 <li class="credits__name is-gf"><a href="/people/nishino-koji/">Kouji Nishino</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 22 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>西野弘二</small></li>
@@ -399,24 +399,24 @@ gf_count: 24
 <li class="credits__name is-gf"><a href="/people/sogabe-hisashi/">Hisashi Sogabe</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 10 部 GF 自研作品里有开发职务署名，最早 2000）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Pokémon Supervisors</h3>
+<h3>Pokémon Supervisors<span class="credits__zh-role">（宝可梦监修）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Kazuyuki Terada</li>
 <li class="credits__name">Hiroki Enomoto</li>
 <li class="credits__name">Akihito Tamura</li>
 </ul></section>
 <section class="credits__section">
-<h3>Production Manager</h3>
+<h3>Production Manager<span class="credits__zh-role">（制作经理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Chihiro kobayashi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Production Assistant</h3>
+<h3>Production Assistant<span class="credits__zh-role">（制作助理）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Minako Higashi</li>
 </ul></section>
 <section class="credits__section">
-<h3>Production Coordinators</h3>
+<h3>Production Coordinators<span class="credits__zh-role">（制作协调）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Tatsuya Hishida</li>
 <li class="credits__name">Tsutomu Koganezawa</li>
@@ -425,17 +425,17 @@ gf_count: 24
 <li class="credits__name"><a href="/people/kawaguchi-rui/">Rui Kawaguchi</a></li>
 </ul></section>
 <section class="credits__section">
-<h3>Technical Support</h3>
+<h3>Technical Support<span class="credits__zh-role">（技术支持）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-gf">Yoshito Yasuda<img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 2 部 GF 自研作品里有开发职务署名，最早 2022）"></li>
 </ul></section>
 <section class="credits__section">
-<h3>Network Administrator</h3>
+<h3>Network Administrator<span class="credits__zh-role">（网络 Administrator）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Akira Fukushima</li>
 </ul></section>
 <section class="credits__section">
-<h3>Very Special Thanks to</h3>
+<h3>Very Special Thanks to<span class="credits__zh-role">（特别鸣谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name is-company">Creatures Inc.</li>
 <li class="credits__name is-company">Ambrella Co.,Ltd.</li>
@@ -444,7 +444,7 @@ gf_count: 24
 <li class="credits__name">Aboardgraphics</li>
 </ul></section>
 <section class="credits__section">
-<h3>Special Thanks to</h3>
+<h3>Special Thanks to<span class="credits__zh-role">（特别感谢）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Yasuhiro Kawaguchi</li>
 <li class="credits__name">Tomoaki Kuroume</li>
@@ -476,7 +476,7 @@ gf_count: 24
 <li class="credits__name is-company">HAL Laboratory, Inc.</li>
 </ul></section>
 <section class="credits__section">
-<h3>Producers</h3>
+<h3>Producers<span class="credits__zh-role">（制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/nomoto-gakuji/">Gakuji Nomoto</a></li>
 <li class="credits__name is-gf"><a href="/people/jinnai-hiroyuki/">Hiroyuki Jinnai</a><img class="credits__gf" src="/assets/img/works/gamefreak-mark.svg" alt="Game Freak" title="Game Freak 成员（按名单推断：在 3 部 GF 自研作品里有开发职务署名，最早 1996）"> <small>陣内弘之</small></li>
@@ -485,12 +485,12 @@ gf_count: 24
 <li class="credits__name"><a href="/people/miyamoto-shigeru/">Shigeru Miyamoto</a> <small>宮本茂</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/iwata-satoru/">Satoru Iwata</a> <small>岩田聡</small></li>
 </ul></section>
 <section class="credits__section">
-<h3>Executive Producer</h3>
+<h3>Executive Producer<span class="credits__zh-role">（执行制作人）</span></h3>
 <ul class="credits__names">
 <li class="credits__name"><a href="/people/ishihara-tsunekazu/">Tsunekaz Ishihara</a> <small>石原恒和</small></li>
 </ul></section>

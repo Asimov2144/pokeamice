@@ -8,7 +8,7 @@ sitemap: true
 gf_count: 0
 ---
 <section class="credits__section">
-<h3>Game Studio</h3>
+<h3>Game Studio<span class="credits__zh-role">（游戏工作室）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Aaron McDaniel</li>
 <li class="credits__name">Joel Casebeer</li>
@@ -43,7 +43,7 @@ gf_count: 0
 <li class="credits__name">Jacob Bornemann</li>
 </ul></section>
 <section class="credits__section">
-<h3>Software Quality</h3>
+<h3>Software Quality<span class="credits__zh-role">（软件品质）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Jim Griffin</li>
 <li class="credits__name">Scott Sedlickas</li>
@@ -53,7 +53,7 @@ gf_count: 0
 <li class="credits__name">Experis</li>
 </ul></section>
 <section class="credits__section">
-<h3>Editing and Localisation</h3>
+<h3>Editing and Localisation<span class="credits__zh-role">（编辑与本地化）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Hollie Beg</li>
 <li class="credits__name">Marc Drieu</li>
@@ -74,7 +74,7 @@ gf_count: 0
 <li class="credits__name">Maiara McConkey</li>
 </ul></section>
 <section class="credits__section">
-<h3>Executives</h3>
+<h3>Executives<span class="credits__zh-role">（执行）</span></h3>
 <ul class="credits__names">
 <li class="credits__name">Eric Neustadter</li>
 <li class="credits__name">Gaku Susal</li>

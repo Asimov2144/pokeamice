@@ -1,5 +1,5 @@
 # 区块 → 组织 / 范围（人工维护；说明见 legends-za.yml）。
-verified: false
+verified: true   # 2026-09-17 对照片尾核对
 blocks:
 - from: Director
   until: Planning Section Director
