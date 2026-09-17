@@ -9,6 +9,14 @@ source:
   title: ゲームフリークの伝説と若き才能：大森滋×尾上将之
   url: https://news.denfaminicogamer.jp/interview/170703
 source_url: https://news.denfaminicogamer.jp/interview/170703
+tags:
+- 太阳·月亮
+- 大森滋
+- 尾上将之
+- Game Freak
+- 齿轮企划
+- 游戏设计
+- 电玩志
 categories:
 - developer-interviews
 - official-archives

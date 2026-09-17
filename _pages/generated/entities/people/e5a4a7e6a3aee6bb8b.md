@@ -73,12 +73,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · 電ファミニコゲーマー 新世代に訊く：大森滋氏・尾上将之氏インタビュー（後編）</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfaminicogamer-ohmori-onoue-gear-project/">[访谈翻译] 电玩志专访大森滋与尾上将之（后篇）：Game Freak 的企划孵化机制与“齿轮企划”破格传承</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · interview_translation · Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-reportajes/">[访谈翻译] Entrevista Masuda y Ohmori, padres de Pokémon: &quot;Nintendo Switch es el futuro&quot;</a></h3>
   <span></span>

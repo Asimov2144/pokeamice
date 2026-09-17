@@ -1043,9 +1043,7 @@ body.theme-bg-black {
    a portrait stands at the side as a round photo */
 .search-result-card__cover--tile img { filter: saturate(0.85); }
 .search-result-card--tall .search-result-card__cover--portrait {
-  width: 64px;
-  margin: 4px 12px 4px 2px;
-  border-radius: 50%;
+  border-radius: 10px;
   overflow: hidden;
-  img { aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; }
+  img { aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px; }
 }
