@@ -114,3 +114,6 @@ data/portrait-review/
 # page copies and downloaded pictures of the completeness audit / picture augmentation (reproducible)
 data/cache_web/audit/
 data/cache_web/images/
+
+# the linked worktree that keeps main checked out beside the working tree
+routeA-worktree/

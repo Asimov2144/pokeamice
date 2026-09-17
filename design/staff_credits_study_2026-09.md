@@ -65,6 +65,13 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
   ②5 篇正文对不上原页，要用 import-web 重导（N.O.M 2002 RS 杉森/増田 两篇、剧场版 18 模型稿、FUN'S PROJECT 西田、GameSpot 2018-10-17）；
   ③抓不到的：Game Informer 旧 CDN 全灭（6 篇 22 张，Wayback 也没有）、Creatures 公司史的 SVG 文字图、pokemon.co.jp 2014 的 5 张、Steinberg 1 张。
   電撃 2026 专栏的旧图仍是热链（cimg.kgl-systems.io），未本地化。
+- **「原文」不是原文的帖子**（2026-09-17 第二轮，审计修好目标加载后剩 18 篇）：N.O.M 2002-11 RS 特集的三篇老导入（増田／杉森／潜入取材）的日文是改写出来的，
+  已按 Wayback 原页重导成两篇（`import-nom.py rs-2002`——一页三人、★分节、问答无标记的第五种版式；`rs-2002-report`——纯报道版式），旧地址 redirect、
+  烤好的时间线/人物卡换成新卡（`_data/resource-index.json` 未动，工作区干净时跑 `ruby tools/build-resource-index.rb` 重建）。
+  4Gamer CEDEC 2023 两篇（前泽／一之濑）用 `import_web_targets_2026-09d.json` 带 `slug` 原地重导，标题/标签/人物从旧帖搬回；import-web 现在会取 4Gamer 的 `/SS/` 原图
+  （onclick 里的路径）和 gamer.ne.jp 的 `/o/`。还没动：Kotaku 两篇、1UP、電ファミ CEDEC 报道等在审计里"缺段"的其实是页面 chrome（审计用的是 live 页），
+  剧场版 18 模型稿页（英文站的设定资料，3618/16772 字）值得重导；GameSpot 2018-10-17 与 10-18 是同一篇的两次导入，10-18 带别人改动，待合并。
+  另：`_config.yml` 现在排除 `routeA-worktree/`——之前 Jekyll 把它当第二份站点建了一个多小时还报错。
 - 已并掉的重复导入：Denfami 2017 后篇 → 四回完整版（`92d68c17`）。审计里还看到疑似重复：G4TV 白金 2009-03-24 vs 2013-01-11、
   Creatures 20 周年 2015-11-08（0 图）vs 2021-11-08（15 图）、kakeru pokemon_site 1999-12-01 vs 2000-05-01——待核后同样处理。
 - **受访者头像**（2026-09-17）：审核了访谈的 entities.people（游戏角色、提问的记者移出，11 篇；社長が訊く 的岩田聪保留；首藤手记 39 篇的动画角色标注是有意为之、未动；

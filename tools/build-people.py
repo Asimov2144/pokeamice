@@ -417,6 +417,10 @@ PORTRAITS = [
     dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="冈崎体育", main=True, src="bulba:File:Taiiku Okazaki.png", source="Bulbagarden Archives"),
     dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
+    # 2026-09-17 第四批：N.O.M 2002-11 RS 特集重导后页上的三张职员照（增田头歪着，取左侧脸）
+    dict(name="增田顺一", year=2002, src=_IA + "nom-0211-rs-2002/b_masu.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（増田順一さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),
+    dict(name="杉森建", year=2002, src=_IA + "nom-0211-rs-2002/b_sugi.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（杉森建さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),
+    dict(name="石原恒和", year=2002, src=_IA + "nom-0211-rs-2002/b_ishi.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（石原恒和さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),
     # 2026-09-17 第三批：augment-images 补进访谈的照片里点名受访者的（联系表人眼确认；青年座谈会三人按"5年後の目標"各段的说话人对上）
     dict(name="三浦昌幸", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-mini-developers/001.jpg", source="N.O.M 2001-11 ポケモンミニ開発者インタビュー（三浦昌幸さん）", post="2001-11-01-interview-nom-2001-pokemon-mini-developers"),
     dict(name="久須美龍太", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-mini-developers/002.jpg", source="N.O.M 2001-11 ポケモンミニ開発者インタビュー（久須美龍太さん）", post="2001-11-01-interview-nom-2001-pokemon-mini-developers"),

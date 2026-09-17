@@ -52,7 +52,6 @@ MIN_SIDE = 120          # a picture narrower or shorter than this is an icon (Iw
 MAX_ASPECT = 4.0        # wider than this is a banner
 DUP_BITS = 12           # of 144: perceptual-hash distance under which two files are the same picture
 BIG = 300 * 1024
-UPSIZE = [(r"^(https?://image\.gamer\.ne\.jp/.*/)m/(\d+\.jpg)$", r"\g<1>o/\g<2>")]
 
 
 def _load(name, file):
@@ -218,7 +217,7 @@ def download(src, page_url, wayback, images_live):
     # WordPress serves the article a resized copy (DSC1553-600x400.jpg); the original is beside it,
     # and some sites keep the full-size file at a sibling address (gamer.ne.jp /m/ -> /o/)
     full = re.sub(r"-\d{2,4}x\d{2,4}(\.(?:jpe?g|png|webp|gif))$", r"\g<1>", absolute, flags=re.I)
-    for pat, rep in UPSIZE:
+    for pat, rep in importweb.FULLSIZE:
         full = re.sub(pat, rep, full)
     addresses = [full, absolute] if full != absolute else [absolute]
     for a in addresses:

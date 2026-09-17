@@ -265,8 +265,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2002 · interview_translation · 1-5 開発者よりみなさまへのメッセージ｜Nintendo Online Magazine 2002年11月号 No.52</p>
-  <h3><a href="/interview-nom-ruby-sapphire-art-director-sugimori/">N.O.M 2002年11月号：『红宝石·蓝宝石』美术与生态特征（杉森建篇：GBA色彩飞跃与新怪兽克制美学）</a></h3>
+  <p>2002 · interview_translation · 『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）｜Nintendo Online Magazine 2002年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2002-ruby-sapphire-staff-messages/">N.O.M 2002年：增田顺一、杉森建、石原恒和谈《红宝石·蓝宝石》</a></h3>
   <span></span>
 </article>
 

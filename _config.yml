@@ -187,6 +187,9 @@ exclude:
   - /.paddlex-cache
   - /.bundle-cache
   - /.preview-build
+  # A linked git worktree checked out inside the repo (main, for fast-forwarding)
+  # is a whole second copy of the site: an hour of build and a Liquid error.
+  - /routeA-worktree
   - /data
   - /.ruby-tmp
   - /_site

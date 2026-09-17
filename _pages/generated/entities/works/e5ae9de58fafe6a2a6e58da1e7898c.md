@@ -19,12 +19,6 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2002 · interview_translation · 任天堂官网「N.O.M」(No.52)</p>
-  <h3><a href="/interview-nom-ruby-sapphire-multi-battle-secret-base/">N.O.M 2002年11月号：『红宝石·蓝宝石』对战革命与秘密基地实测（石原恒和谈品牌、4人双打与数据通信）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2000 · interview_translation · 任天堂官网「N.O.M」(No.23)</p>
   <h3><a href="/interview-nom-special-dialogue-tajiri-ishihara/">N.O.M 2000年7月号：田尻智 × 石原恒和 特别对谈（二人的相遇、六年长征与生命感哲学）</a></h3>
   <span></span>

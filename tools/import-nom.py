@@ -111,6 +111,30 @@ TARGETS = {
         "tags": ["N.O.M", "宝可梦频道", "Ambrella", "GameCube"],
         "slug": "nom-2003-pokemon-channel-staff",
     },
+    "rs-2002": {
+        "issue": "0211", "date": "2002-11-01", "no": "No.52",
+        "pages": ["01/01_05/index.html"],
+        "title_ja": "『ポケットモンスタールビー・サファイア』発売記念特集／開発者よりみなさまへのメッセージ（増田順一・杉森建・石原恒和）",
+        "speakers": {"増田": "增田顺一", "杉森": "杉森建", "石原": "石原恒和"},
+        "sections": ["增田顺一", "杉森建", "石原恒和"],
+        "interviewee": "增田顺一、杉森建、石原恒和",
+        "org": "GAME FREAK / 株式会社ポケモン",
+        "works": ["宝可梦 红宝石·蓝宝石"],
+        "tags": ["N.O.M", "红宝石·蓝宝石", "增田顺一", "杉森建", "石原恒和", "Game Boy Advance", "华丽大赛", "秘密基地"],
+        "slug": "nom-2002-ruby-sapphire-staff-messages",
+    },
+    "rs-2002-report": {
+        "issue": "0211", "date": "2002-11-01", "no": "No.52",
+        "pages": ["01/01_04/index.html"],
+        "title_ja": "『ポケットモンスタールビー・サファイア』発売記念特集／対戦＆「ひみつきち」体験！ 株式会社ポケモン潜入取材",
+        "speakers": {},
+        "narrative": True,
+        "interviewee": "",
+        "org": "株式会社ポケモン",
+        "works": ["宝可梦 红宝石·蓝宝石"],
+        "tags": ["N.O.M", "红宝石·蓝宝石", "株式会社ポケモン", "Game Boy Advance", "多人对战", "秘密基地", "报道"],
+        "slug": "nom-2002-ruby-sapphire-multi-battle-secret-base-report",
+    },
     "colosseum-2003": {
         "issue": "0311", "date": "2003-11-01", "no": "No.64",
         "pages": ["soft/interv.html", "soft/interv01.html", "soft/interv02.html", "soft/interv03.html"],
@@ -190,8 +214,9 @@ def page_items(raw, target, page, ts):
     # the navigation strip at the top and bottom
     t = re.sub(r"<map.*?</map>", "", t, flags=re.S)
     t = re.sub(r"<br\s*/?>|</p>|</tr>|</h\d>|</div>", "\n", t, flags=re.I)
-    t = re.sub(r'<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>', lambda m: f"\n[[img|{m.group(1)}|{m.group(2)}]]\n", t)
-    t = re.sub(r'<img[^>]*alt="([^"]*)"[^>]*src="([^"]+)"[^>]*>', lambda m: f"\n[[img|{m.group(2)}|{m.group(1)}]]\n", t)
+    # the 2002 pages write <IMG SRC=...> in capitals
+    t = re.sub(r'<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*>', lambda m: f"\n[[img|{m.group(1)}|{m.group(2)}]]\n", t, flags=re.I)
+    t = re.sub(r'<img[^>]*alt="([^"]*)"[^>]*src="([^"]+)"[^>]*>', lambda m: f"\n[[img|{m.group(2)}|{m.group(1)}]]\n", t, flags=re.I)
     txt = re.sub(r"<[^>]+>", "", t)
     txt = html.unescape(txt)
     lines = [re.sub(r"[ \t\u3000]+", " ", l).strip() for l in txt.split("\n")]
@@ -201,6 +226,10 @@ def page_items(raw, target, page, ts):
     page_title = html.unescape(re.sub(r"\s+", " ", tm.group(1))).strip() if tm else ""
     if page_title:
         lines = ["[[title]]" + page_title] + [l for l in lines if l != page_title]
+    if target.get("sections"):
+        return section_items(lines, target, page, ts)
+    if target.get("narrative"):
+        return narrative_items(lines, page, ts)
     items = []
     seen_q = False
     speakers = target["speakers"]
@@ -296,6 +325,78 @@ def page_items(raw, target, page, ts):
     return items
 
 
+def narrative_items(lines, page, ts):
+    """A report page with no interview in it (the 2002 play report): every line of prose is a
+    paragraph, the numbered line is the heading, a photograph stays where it is."""
+    items = []
+    for line in lines:
+        if not line:
+            continue
+        if line.startswith("[[title]]"):
+            items.append({"type": "heading", "level": 2, "original": line[9:]})
+            continue
+        m = re.match(r"\[\[img\|([^|]+)\|([^\]]*)\]\]", line)
+        if m:
+            if re.search(r"\.(jpe?g)$", m.group(1), re.I):
+                items.append({"type": "image", "src": m.group(1), "alt": m.group(2), "_page": page, "_ts": ts})
+            continue
+        if re.match(r"^★[・★]*$|^▲|^(ページ\s*[１-９1-9]|前のページ|次のページ|サイトマップ|ＴＯＰ|TOP|トップ)", line) or not re.search(r"[぀-ヿ一-鿿]", line):
+            continue
+        if re.match(r"^[０-９0-9]+[−\-−．.]", line):
+            items.append({"type": "heading", "level": 2, "original": line})
+        else:
+            items.append({"type": "narrative", "original": line})
+    return items
+
+
+def section_items(lines, target, page, ts):
+    """The fifth house style (the 2002 Ruby/Sapphire staff messages): one page, a section per
+    person divided by ★ rules, each opening with the person's title and a profile paragraph,
+    then question and answer alternating with no marks at all; the photographs sit in a strip
+    at the top, one per section, in the sections' order."""
+    items, photos, sec, state, parity = [], [], -1, None, 0
+    names = target["sections"]
+    for line in lines:
+        if not line:
+            continue
+        if line.startswith("[[title]]"):
+            items.append({"type": "heading", "level": 2, "original": line[9:]})
+            continue
+        m = re.match(r"\[\[img\|([^|]+)\|([^\]]*)\]\]", line)
+        if m:
+            if re.search(r"\.(jpe?g)$", m.group(1), re.I):
+                photos.append({"type": "image", "src": m.group(1), "alt": m.group(2), "_page": page, "_ts": ts})
+            continue
+        if re.match(r"^★[・★]*$", line):
+            sec += 1
+            state, parity = "title", 0
+            if sec < len(photos):
+                items.append(photos[sec])
+            continue
+        if re.match(r"^▲|^(ページ\s*[１-９1-9]|前のページ|次のページ|サイトマップ|ＴＯＰ|TOP|トップ)", line) or not re.search(r"[぀-ヿ一-鿿]", line):
+            continue
+        if sec < 0:
+            if re.match(r"^[０-９0-9]+[−\-−．.]", line):
+                items.append({"type": "heading", "level": 2, "original": line})
+            else:
+                items.append({"type": "narrative", "original": line})
+            continue
+        who = names[sec] if sec < len(names) else names[-1]
+        if state == "title":
+            items.append({"type": "heading", "level": 3, "original": f"{who}：{line}"})
+            state = "profile"
+        elif state == "profile":
+            items.append({"type": "narrative", "original": line})
+            state = "turns"
+        else:
+            if parity % 2 == 0:
+                items.append({"type": "dialogue", "speaker": "N.O.M采访者", "original": line, "role": "question"})
+            else:
+                items.append({"type": "dialogue", "speaker": who, "original": line, "role": "answer"})
+            parity += 1
+    return items
+
+
 def tidy(items):
     """What the line rules cannot see: the first question has no question
     mark and comes before any answer, so a narrative line that an answer
@@ -343,7 +444,7 @@ def merge_pages(target):
     for i, page in enumerate(target["pages"]):
         raw, ts = wayback(target["issue"], page)
         items.extend(page_items(raw, target, page, ts))
-    return tidy(items)
+    return items if target.get("narrative") else tidy(items)
 
 
 # ---------------------------------------------------------------- translate

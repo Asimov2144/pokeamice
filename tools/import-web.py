@@ -69,6 +69,9 @@ ASKERS = {"4gamer", "ファミ通", "週刊ファミ通", "編集部", "記者",
 NOISE_CLASS = re.compile(r"(?:^|[-_ ])(ads?|advert\w*|sponsor\w*|share|social|sns|related|recommend\w*|sidebar|comments?|breadcrumbs?|"
                          r"newsletter|promo\w*|banner|pager|pagination|widget|cta|tags?|taglist|author[-_]?box|profile[-_]?box|"
                          r"outbrain|taboola|popular|ranking|footer|header|nav|menu|modal|cookie|subscribe|amazon|affiliate)(?:$|[-_ ])", re.I)
+# where a site keeps the full-size file of the picture it shows small
+FULLSIZE = [(r"(/games/\d+/G\d+/\d+/)TN/(\d+\.jpg)$", r"\g<1>SS/\g<2>"),               # 4Gamer
+            (r"^(https?://image\.gamer\.ne\.jp/.*/)m/(\d+\.jpg)$", r"\g<1>o/\g<2>")]    # gamer.ne.jp
 IMG_NOISE = re.compile(r"(logo|icon|avatar|button|spacer|pixel|1x1|badge|banner|share|ad[-_]|counter|arrow|blank\.gif|loading|dummy|placeholder|hubcoverage)", re.I)
 BLOCK_TAGS = {"p", "h1", "h2", "h3", "h4", "h5", "li", "dt", "dd", "blockquote", "figure", "figcaption", "img", "pre", "table",
               "div", "section", "article", "main", "td", "tr", "tbody", "ul", "ol", "dl", "center", "font", "span", "body", "header"}
@@ -238,11 +241,17 @@ def extract_blocks(container, join_br=False):
             src = srcset_last(el.get("data-srcset") or el.get("srcset"))
         if not src or src.startswith("data:") or IMG_NOISE.search(src):
             return
-        # a thumbnail wrapped in a link to its full-size file (gamer.ne.jp m/ -> o/, WordPress "link to media"): take the file
+        # a thumbnail wrapped in a link to its full-size file (WordPress "link to media"), or opening it
+        # from an onclick (4Gamer's OVERLAY_SS_open('/SS/002.jpg')), or kept at a sibling address: take the file
         link = el.find_parent("a")
         href = (link.get("href") or "") if link is not None else ""
         if re.search(r"\.(?:jpe?g|png|gif|webp)(?:\?[^#]*)?$", href, re.I) and not IMG_NOISE.search(href):
             src = href
+        m_click = re.search(r"['\"]([^'\"]+\.(?:jpe?g|png|webp))['\"]", el.get("onclick") or "", re.I)
+        if m_click:
+            src = m_click.group(1)
+        for pat, rep in FULLSIZE:
+            src = re.sub(pat, rep, src)
         try:
             w = int(re.sub(r"\D", "", str(el.get("width") or "0")) or 0)
             h = int(re.sub(r"\D", "", str(el.get("height") or "0")) or 0)
