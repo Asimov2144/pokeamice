@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{%- comment -%}
+The relationship graph: a wide page (1600px like the home) that assets/js/graph.js
+fills from assets/js/graph.json - the people network, the people x works matrix, the
+timeline, the index of the strongest ties. The page's own content is the shell.
+{%- endcomment -%}
+<div id="main" role="main">
+  <div class="archive archive--graph">
+    {{ content }}
+  </div>
+</div>
+<script>
+window.pokeamiceWorks = [{% for w in site.data.works %}{"name":{{ w.name | jsonify }},"icon":{{ w.icon | default: "" | jsonify }},"icon2":{{ w.icon2 | default: "" | jsonify }},"color":{{ w.color | default: "" | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}];
+window.pokeamicePeopleBase = {{ '/people/' | relative_url | jsonify }};
+window.pokeamiceSearchBase = {{ '/search/' | relative_url | jsonify }};
+window.pokeamiceGraphData = {{ '/assets/js/graph.json' | relative_url | jsonify }};
+</script>
+<script src="{{ '/assets/js/graph.js' | relative_url }}" defer></script>
