@@ -1,11 +1,12 @@
 """The works' icons, in this order of preference:
 
-  1. a local file we chose by hand (Pokopia's official logo)
-  2. the official system icon from Bulbagarden Archives - the DS / 3DS game icon, a Virtual
-     Console or Switch icon for the older games, the app icon for the mobile ones; the anime
-     and the films wear their Japanese logos (ARCHIVE below, and CREDITS_ICONS for the games
-     that only exist in the staff rolls -> archive/credits/icons.yml)
-  3. the Pokémon HOME work icon (the Switch titles)
+  1. a local file we chose by hand (Pokopia's official logo; FireRed/LeafGreen's HOME pair once split)
+  2. the Pokémon HOME work icon wherever HOME has one (pokeamice.com/game_gallery, or the Archives'
+     copy for GO) - the user's standing preference
+  3. the official system icon from Bulbagarden Archives - the DS game icon, a Virtual Console or
+     Switch icon for the older games, the app icon for the mobile ones; the anime and the films wear
+     their Japanese logos (ARCHIVE below, and CREDITS_ICONS for the games that only exist in the
+     staff rolls -> archive/credits/icons.yml)
   4. the classic mark - a tile in its version colour with a Poké Ball on it (SteamGridDB 49670's
      design, drawn here) - for the works nothing official covers
 
@@ -79,11 +80,6 @@ ARCHIVE = {
     "宝可梦 心金·魂银": ["HeartGold Icon.png", "SoulSilver Icon.png"],
     "宝可梦 黑·白": ["Black Icon.png", "White Icon.png"],
     "宝可梦 黑2·白2": ["Black 2 Icon.png", "White 2 Icon.png"],
-    "宝可梦 X·Y": ["X icon.png", "Y icon.png"],
-    "宝可梦 欧米伽红宝石·阿尔法蓝宝石": ["Omega Ruby icon.png", "Alpha Sapphire icon.png"],
-    "宝可梦 太阳·月亮": ["Sun icon.png", "Moon icon.png"],
-    "宝可梦 究极之日·究极之月": ["Ultra Sun icon.png", "Ultra Moon icon.png"],
-    "Pokémon GO": ["Pokémon GO icon.png"],
     "宝可梦 动画系列": ["S01 logo JP.png"],
     "超梦的逆袭": ["Japanese M01 Logo.png"],
     "宝可梦：超梦的逆袭": ["Japanese M01 Logo.png"],
@@ -94,6 +90,9 @@ ARCHIVE = {
     "名侦探皮卡丘": ["Detective Pikachu icon.png"],
     "超级宝可梦乱战": ["Rumble Blast icon.png"],
 }
+
+# HOME icons the gallery does not carry, taken from the Archives' copies instead
+HOME_ARCHIVE = {"Pokémon GO": ["HOME GO icon.png"]}
 
 # a file already in assets/img/works, chosen by hand; a pair that is not there yet falls through to the next rule
 # (FireRed / LeafGreen: the HOME icons of the October 2026 link-up — drop the two-icon picture in and run
@@ -308,9 +307,9 @@ def main():
         if name in LOCAL and all((OUT / fn).exists() for fn in LOCAL[name]):
             credit = "Pokémon HOME 的作品图标（官方公告图裁切）" if LOCAL[name][0].startswith("home-") else (w.get("icon_credit") or "手选的官方图")
             files = [OUT / fn for fn in LOCAL[name]]
-        elif name in ARCHIVE:
-            credit = "官方图标 / 标志（Bulbagarden Archives）"
-            files = [archive_tile(t, force) for t in ARCHIVE[name]]
+        elif name in HOME_ARCHIVE:
+            credit = "Pokémon HOME 的作品图标（Bulbagarden Archives）"
+            files = [archive_tile(t, force) for t in HOME_ARCHIVE[name]]
         elif name in HOME:
             credit = "Pokémon HOME 的作品图标（pokeamice.com/game_gallery）"
             for v in HOME[name]:
@@ -320,6 +319,9 @@ def main():
                     print(f"  {f.name:40s} <- HOME {v}")
                     time.sleep(0.2)
                 files.append(f)
+        elif name in ARCHIVE:
+            credit = "官方图标 / 标志（Bulbagarden Archives）"
+            files = [archive_tile(t, force) for t in ARCHIVE[name]]
         elif name in OFFICIAL:
             credit = "官方 DS 图标（SteamGridDB · FloweyGaming577）"
             for i, h in enumerate(OFFICIAL[name]):
@@ -362,7 +364,7 @@ def main():
             f.unlink(); print(f"  -- {f.name} (no longer used)")
     header = "\n".join([
         "# 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：",
-        "# 先用官方图标（Bulbagarden Archives：DS / 3DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），Switch 世代用 Pokémon HOME 的作品图标，",
+        "# 有 Pokémon HOME 作品图标的一律用 HOME 的；其余用 Bulbagarden Archives 的官方图标（DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），",
         "# 都没有的用经典标记——版本色底 + 精灵球；Pokopia 用手选的官方标志。",
         "# 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。",
         "",

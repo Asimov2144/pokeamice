@@ -42,7 +42,7 @@ TILES = {
     "recruit": ("assets/img/interviews/2017-tpc-recruit-passion/entry1.jpg", (0.5, 0.4)),
 }
 PEOPLE_MOSAIC = ["masuda-junichi", "sugimori-ken", "ishihara-tsunekazu", "tajiri-satoshi", "ohmori-shigeru", "unno-takao", "morimoto-shigeki", "kubo-masakazu"]
-WORKS_MOSAIC = ["bulba-red-vc-jp-icon", "bulba-gold-vc-icon", "ball-ruby-sapphire", "bulba-diamond-icon", "bulba-black-icon", "bulba-x-icon", "home-sword", "home-scarlet"]   # assets/img/works (tools/build-work-icons.py)
+WORKS_MOSAIC = ["bulba-red-vc-jp-icon", "bulba-gold-vc-icon", "ball-ruby-sapphire", "bulba-diamond-icon", "bulba-black-icon", "home-x", "home-sword", "home-scarlet"]   # assets/img/works (tools/build-work-icons.py)
 
 
 def load(src):

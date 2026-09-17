@@ -1,5 +1,5 @@
 # 作品图标：站内 entities.works 名 → 图标（tools/build-work-icons.py 生成到 assets/img/works）。一条规则：
-# 先用官方图标（Bulbagarden Archives：DS / 3DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），Switch 世代用 Pokémon HOME 的作品图标，
+# 有 Pokémon HOME 作品图标的一律用 HOME 的；其余用 Bulbagarden Archives 的官方图标（DS 游戏图标、VC / Switch 图标、动画与电影的日文标志），
 # 都没有的用经典标记——版本色底 + 精灵球；Pokopia 用手选的官方标志。
 # 双版本作品 icon 在名字前、icon2 在名字后；color / color2 是版本代表色，mascot 是封面宝可梦的 HOME 渲染图（备用）。
 - name: 宝可梦 红·绿
@@ -84,25 +84,25 @@
   icon2: /assets/img/works/bulba-white-2-icon.png
   icon_credit: 官方图标 / 标志（Bulbagarden Archives）
 - name: 宝可梦 X·Y
-  icon: /assets/img/works/bulba-x-icon.png
-  icon2: /assets/img/works/bulba-y-icon.png
+  icon: /assets/img/works/home-x.png
+  icon2: /assets/img/works/home-y.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0716.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
 - name: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
-  icon: /assets/img/works/bulba-omega-ruby-icon.png
-  icon2: /assets/img/works/bulba-alpha-sapphire-icon.png
+  icon: /assets/img/works/home-omega-ruby.png
+  icon2: /assets/img/works/home-alpha-sapphire.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0382.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
 - name: 宝可梦 太阳·月亮
-  icon: /assets/img/works/bulba-sun-icon.png
-  icon2: /assets/img/works/bulba-moon-icon.png
+  icon: /assets/img/works/home-sun.png
+  icon2: /assets/img/works/home-moon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0791.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
 - name: 宝可梦 究极之日·究极之月
-  icon: /assets/img/works/bulba-ultra-sun-icon.png
-  icon2: /assets/img/works/bulba-ultra-moon-icon.png
+  icon: /assets/img/works/home-ultra-sun.png
+  icon2: /assets/img/works/home-ultra-moon.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0800.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
 - name: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   icon: /assets/img/works/home-lets-go-pikachu.png
   icon2: /assets/img/works/home-lets-go-eevee.png
@@ -130,8 +130,8 @@
   color: '#1e88e5'
   color2: '#ffd54f'
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0025.png
-  icon: /assets/img/works/bulba-pokemon-go-icon.png
-  icon_credit: 官方图标 / 标志（Bulbagarden Archives）
+  icon: /assets/img/works/bulba-home-go-icon.png
+  icon_credit: Pokémon HOME 的作品图标（Bulbagarden Archives）
 - name: 宝可梦 动画系列
   color: '#ffcc00'
   color2: '#e53935'
