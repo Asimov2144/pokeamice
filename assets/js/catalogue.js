@@ -75,6 +75,64 @@
       return text || "文章";
     }
 
+    // the class that colours a card by its type
+    function typeClass(label) {
+      return { "扫描翻译": "scan", "访谈翻译": "interview", "Game Freak 博客": "blog", "文档": "doc" }[label] || "article";
+    }
+
+    // ---- the feed: the 综合推荐 order. Every entry is scored - freshness (40 down to 5 with
+    // age), popularity (0-30 from its hits), chance (0-30, drawn once per visit) and kinship
+    // (+20 when it shares a person or a work with the lead: the entries the reader opened
+    // lately, else the three newest; the names that are everywhere not counting) - the same
+    // arithmetic as _includes/home-feed.html, which orders the cards built into the page.
+    const feedSeed = Date.now() % 100000;
+    const RECENT_KEY = "pokeamice.recent";
+
+    function recentReads() {
+      try { return JSON.parse(window.localStorage.getItem(RECENT_KEY) || "[]"); } catch (e) { return []; }
+    }
+
+    function rememberRead(entry) {
+      try {
+        const list = recentReads().filter(function(r) { return r.url !== entry.url; });
+        list.unshift(entry);
+        window.localStorage.setItem(RECENT_KEY, JSON.stringify(list.slice(0, 10)));
+      } catch (e) { /* no storage: the feed just leads with the newest */ }
+    }
+
+    function feedLead() {
+      const tally = new Map();
+      items.forEach(function(it) {
+        (it.people || []).concat(it.works || []).forEach(function(n) { tally.set(n, (tally.get(n) || 0) + 1); });
+      });
+      const many = items.length / 4;
+      const recent = recentReads();
+      const names = [];
+      if (recent.length) {
+        recent.slice(0, 8).forEach(function(r) { names.push.apply(names, (r.people || []).concat(r.works || [])); });
+      } else {
+        items.slice().sort(function(a, b) { return String(b.date || "").localeCompare(String(a.date || "")); }).slice(0, 3)
+          .forEach(function(it) { names.push.apply(names, (it.people || []).concat(it.works || [])); });
+      }
+      return new Set(names.filter(function(n) { return (tally.get(n) || 0) <= many; }));
+    }
+
+    function feedScores() {
+      const lead = feedLead();
+      const now = Date.now();
+      const scores = new Map();
+      items.forEach(function(it, i) {
+        const age = (now - (Date.parse(it.date) || now)) / 86400000;
+        let s = age < 8 ? 40 : age < 31 ? 32 : age < 91 ? 24 : age < 366 ? 16 : age < 1096 ? 10 : 5;
+        const h = it.hits || 0;
+        s += h >= 200 ? 30 : h >= 100 ? 26 : h >= 50 ? 22 : h >= 20 ? 16 : h >= 10 ? 10 : h >= 3 ? 5 : 0;
+        s += ((i * 104729 + feedSeed * 7919) % 1009) % 31;
+        if ((it.people || []).some(function(n) { return lead.has(n); }) || (it.works || []).some(function(n) { return lead.has(n); })) s += 20;
+        scores.set(it, s);
+      });
+      return scores;
+    }
+
     function getFilters() {
       return {
         query: normalize(queryInput.value),
@@ -166,11 +224,22 @@
       return "";
     }
 
+    // the shape of a compact card: its picture lies across the top when wide, stands at the
+    // side when tall (or of unknown size), and an entry without one is a text card
+    function shape(item) {
+      if (!item.cover) return "text";
+      const s = item.size;
+      return (s && s[0] > s[1] * 1.4) ? "wide" : "tall";
+    }
+
     function coverBlock(item) {
       const label = item.publication || item.source || contentType(item.type);
       if (item.cover) {
-        return `<a class="search-result-card__cover" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async"></a>`;
+        const s = item.size;
+        const size = s ? ` width="${parseInt(s[0], 10)}" height="${parseInt(s[1], 10)}"` : "";
+        return `<a class="search-result-card__cover" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(item.cover)}" alt=""${size} loading="lazy" decoding="async"></a>`;
       }
+      if (compact) return "";
       const initials = String(label).replace(/[（(].*$/, "").slice(0, 12);
       return `<a class="search-result-card__cover search-result-card__cover--blank" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><span>${escapeHtml(initials)}</span><small>${escapeHtml(item.year || "")}</small></a>`;
     }
@@ -223,7 +292,7 @@
       }).join("");
       const topics = compact ? "" : chips(item.topics, "is-topic", 4);
       return `
-        <article class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)}${compact ? " search-result-card--compact" : ""}">
+        <article class="search-result-card search-result-card--${escapeHtml(item.card || item.kind)} is-type-${typeClass(type)}${compact ? ` search-result-card--compact search-result-card--${shape(item)}` : ""}">
           ${coverBlock(item)}
           <div class="search-result-card__body">
             <div class="search-result-card__kicker">${kicker}</div>
@@ -242,7 +311,9 @@
       const filters = getFilters();
       lastResults = items.filter(function(item) { return matches(item, filters); });
       const sort = sortEl ? sortEl.value : "date-desc";
+      const scores = sort === "feed" ? feedScores() : null;
       lastResults.sort(function(a, b) {
+        if (scores) return (scores.get(b) || 0) - (scores.get(a) || 0) || String(b.date || "").localeCompare(String(a.date || ""));
         if (sort === "title") return String(a.title).localeCompare(String(b.title), "zh");
         const d = String(a.date || "").localeCompare(String(b.date || ""));
         return sort === "date-asc" ? d : -d;
@@ -256,9 +327,46 @@
       });
       if (!lastResults.length) {
         resultList.innerHTML = "<p class='search-lab__empty'>没有找到匹配结果。可以放宽筛选，或先只按年份、类型过滤。</p>";
+        masonry();
         return;
       }
       resultList.innerHTML = lastResults.slice(0, shown).map(card).join("");
+      masonry();
+    }
+
+    // the masonry: the compact cards are of different heights (a wide picture, a tall one,
+    // none), so each one spans as many 4px rows of the grid as it is tall (plus its 8px
+    // margin - the grid's own row gap is off) and the next card moves up under it. One
+    // column (a phone) needs none of it. Measured again when the width changes, a picture
+    // or the fonts arrive, or the list is redrawn.
+    let masonryFrame = 0;
+    function masonry() {
+      if (!compact) return;
+      if (masonryFrame) return;
+      masonryFrame = window.requestAnimationFrame(function() {
+        masonryFrame = 0;
+        if (!resultList.clientWidth) return;     // hidden (another tab): measured when it shows
+        const cards = Array.from(resultList.children);
+        const columns = getComputedStyle(resultList).gridTemplateColumns.split(" ").length;
+        if (columns < 2) {
+          resultList.classList.remove("is-masonry");
+          cards.forEach(function(c) { c.style.gridRowEnd = ""; });
+          return;
+        }
+        resultList.classList.add("is-masonry");
+        const gap = 8;
+        const unit = 4;
+        cards.forEach(function(c) {
+          c.style.gridRowEnd = "span " + Math.max(1, Math.ceil((c.getBoundingClientRect().height + gap) / unit));
+        });
+      });
+    }
+    if (compact) {
+      if (window.ResizeObserver) new ResizeObserver(masonry).observe(resultList);
+      else window.addEventListener("resize", masonry);
+      resultList.addEventListener("load", masonry, true);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(masonry);
+      masonry();
     }
 
     function load() {
@@ -310,6 +418,20 @@
       }
       return any;
     }
+
+    // an entry the reader opens leads the feed's kinship next time (its people and works)
+    resultList.addEventListener("click", function(event) {
+      const link = event.target.closest ? event.target.closest("a[href]") : null;
+      const cardEl = link && link.closest(".search-result-card");
+      if (!cardEl) return;
+      const url = link.getAttribute("href");
+      const item = items.find(function(it) { return it.url === url; });
+      rememberRead(item ? { url: url, people: item.people || [], works: item.works || [] } : {
+        url: url,
+        people: Array.from(cardEl.querySelectorAll(".is-person")).map(function(el) { return el.textContent.trim(); }),
+        works: Array.from(cardEl.querySelectorAll(".is-mark[title], .is-work")).map(function(el) { return el.getAttribute("title") || el.textContent.trim(); })
+      });
+    });
 
     if (form) form.addEventListener("submit", function(event) { event.preventDefault(); change(); });
     queryInput.addEventListener("input", change);

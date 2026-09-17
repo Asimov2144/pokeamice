@@ -1,0 +1,3 @@
+# 首页综合推荐里的点击权重：帖子 url -> 点击数，由 tools/build-popularity.py 从统计导出文件生成。
+# 站点目前没有接统计（_config.yml analytics.provider: false），接上后导出 path,count 的 CSV 重跑即可。
+{}

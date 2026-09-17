@@ -270,15 +270,27 @@
   }
 }
 
-/* compact cards: cover, kind and source, title, who and which work, date - no summary */
+/* compact cards: cover, kind and source, title, who and which work, date - no summary.
+   A masonry: catalogue.js gives each card a span of 4px rows equal to its height, so the
+   cards pack up under one another; without it the grid still stands, row by row. */
 .front__results.search-lab__results {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 8px;
+
+  &.is-masonry {
+    grid-auto-rows: 4px;
+    row-gap: 0;
+    align-items: start;
+
+    > * {
+      margin-bottom: 8px;
+    }
+  }
 }
 
 .front .search-result-card {
-  grid-template-columns: 60px minmax(0, 1fr);
-  gap: 10px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
   padding: 8px;
   box-shadow: none;
 
@@ -286,9 +298,36 @@
     box-shadow: 0 8px 20px rgba(30, 41, 59, 0.08);
   }
 
+  /* the picture is shown whole: a wide one lies across the top of the card ... */
   .search-result-card__cover {
-    width: 60px;
-    height: 82px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: fill;
+    }
+  }
+
+  /* ... a tall one - a magazine page, a book - stands at the side and the text flows round
+     it: the kicker and the title beside it, the people's names on past its foot into the
+     room below, so a long list of names lengthens the card and never the picture's box */
+  &.search-result-card--tall {
+    display: flow-root;
+
+    .search-result-card__cover {
+      float: left;
+      width: 88px;
+      margin: 0 10px 4px 0;
+    }
+  }
+
+  &.search-result-card--text {
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .search-result-card__cover--blank {
@@ -310,19 +349,24 @@
   h2 {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
     overflow: hidden;
     margin: 0 0 4px;
     font-size: 0.9rem;
     line-height: 1.35;
   }
 
+  /* the chips are inline, so their lines wrap round a floated picture */
   .search-result-card__tags {
-    gap: 3px;
-    margin: 0 0 4px;
+    display: block;
+    margin: 0 0 1px;
 
     .is-person,
     .is-work {
+      display: inline-flex;
+      align-items: center;
+      vertical-align: top;
+      margin: 0 3px 3px 0;
       padding: 1px 7px;
       font-size: 0.68rem;
     }
@@ -641,9 +685,28 @@
 
     &:hover,
     &.is-on {
-      border-color: rgba(189, 75, 75, 0.34);
-      color: #a83f3f;
+      border-color: var(--pa-type, rgba(189, 75, 75, 0.34));
+      background: var(--pa-type-soft, #fff);
+      color: var(--pa-type, #a83f3f);
     }
+  }
+}
+
+/* the type buttons (panel and phone strip) carry their type's colour as a dot */
+.dims__types button,
+.front__dims-row--types button {
+  &[data-value="访谈翻译"] { --pa-type: #2b6cb0; --pa-type-soft: #e6f0fb; }
+  &[data-value="扫描翻译"] { --pa-type: #b45309; --pa-type-soft: #fbeedc; }
+  &[data-value="Game Freak 博客"] { --pa-type: #2f855a; --pa-type-soft: #e3f3ea; }
+  &[data-value="文档"] { --pa-type: #6b46c1; --pa-type-soft: #ede8fa; }
+
+  &::before {
+    content: "";
+    flex: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--pa-type, #9aa5b1);
   }
 }
 
@@ -856,9 +919,9 @@
       }
 
       &.is-on {
-        border-color: rgba(189, 75, 75, 0.5);
-        background: #fff5f5;
-        color: #a83f3f;
+        border-color: var(--pa-type, rgba(189, 75, 75, 0.5));
+        background: var(--pa-type-soft, #fff5f5);
+        color: var(--pa-type, #a83f3f);
       }
     }
   }
@@ -885,19 +948,32 @@
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .front .search-result-card {
-    grid-template-columns: 56px minmax(0, 1fr);
-    gap: 10px;
-
-    .search-result-card__cover {
-      width: 56px;
-      height: 76px;
-    }
+  .front .search-result-card.search-result-card--tall .search-result-card__cover {
+    width: 76px;
   }
 }
 
 /* ---- the dark theme (body.theme-bg-black, see _custom-themes.scss) ---- */
 body.theme-bg-black {
+  .is-type-interview,
+  .dims__types button[data-value="访谈翻译"],
+  .front__dims-row--types button[data-value="访谈翻译"] { --pa-type: #8ec5ff; --pa-type-soft: rgba(142, 197, 255, 0.16); }
+  .is-type-scan,
+  .dims__types button[data-value="扫描翻译"],
+  .front__dims-row--types button[data-value="扫描翻译"] { --pa-type: #f6b26b; --pa-type-soft: rgba(246, 178, 107, 0.16); }
+  .is-type-blog,
+  .dims__types button[data-value="Game Freak 博客"],
+  .front__dims-row--types button[data-value="Game Freak 博客"] { --pa-type: #8fd9a8; --pa-type-soft: rgba(143, 217, 168, 0.16); }
+  .is-type-doc,
+  .dims__types button[data-value="文档"],
+  .front__dims-row--types button[data-value="文档"] { --pa-type: #c4b5fd; --pa-type-soft: rgba(196, 181, 253, 0.16); }
+  .is-type-article { --pa-type: #7fd8cf; --pa-type-soft: rgba(127, 216, 207, 0.16); }
+
+  /* the theme forces one border colour on the cards; the type's edge stays */
+  .search-result-card[class*="is-type-"] {
+    border-top-color: var(--pa-type) !important;
+  }
+
   .front__bar,
   .front__rail-fold,
   .dims__types button,
@@ -937,9 +1013,9 @@ body.theme-bg-black {
   .dims__works button.is-on,
   .front__dims-row button.is-on,
   .dims__types button.is-on {
-    border-color: #9fd7ff;
-    background: #353c44;
-    color: #9fd7ff;
+    border-color: var(--pa-type, #9fd7ff);
+    background: var(--pa-type-soft, #353c44);
+    color: var(--pa-type, #9fd7ff);
   }
 
   .dims__years button i {

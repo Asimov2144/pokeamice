@@ -484,6 +484,37 @@
   min-width: 0;
 }
 
+/* every type has a colour: the card's top edge and its type label wear it, and so do the
+   type buttons of the home page's dimension panel (--pa-type / --pa-type-soft) */
+.is-type-interview {
+  --pa-type: #2b6cb0;
+  --pa-type-soft: #e6f0fb;
+}
+
+.is-type-scan {
+  --pa-type: #b45309;
+  --pa-type-soft: #fbeedc;
+}
+
+.is-type-blog {
+  --pa-type: #2f855a;
+  --pa-type-soft: #e3f3ea;
+}
+
+.is-type-doc {
+  --pa-type: #6b46c1;
+  --pa-type-soft: #ede8fa;
+}
+
+.is-type-article {
+  --pa-type: #0f766e;
+  --pa-type-soft: #ddf1ef;
+}
+
+.search-result-card[class*="is-type-"] {
+  border-top: 3px solid var(--pa-type);
+}
+
 .search-result-card__kicker {
   display: flex;
   flex-wrap: wrap;
@@ -498,6 +529,13 @@
     content: "·";
     margin-right: 10px;
     color: $muted-text-color;
+  }
+
+  [class*="is-type-"] & > span:first-child {
+    padding: 0 7px;
+    border-radius: 999px;
+    background: var(--pa-type-soft);
+    color: var(--pa-type);
   }
 }
 

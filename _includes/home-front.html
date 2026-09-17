@@ -1,7 +1,9 @@
 {%- comment -%}
 The front desk of the library: no hero, straight to the entries. A search bar
-across the top, the catalogue's filter rail down the left, and the newest
-entries as cards - the same cards /search/ draws - rendered here at build time
+across the top, the catalogue's filter rail down the left, and the entries as
+cards - the same cards /search/ draws - in the feed's order (home-feed.html:
+freshness, popularity, chance and kinship, so old entries surface beside new
+ones), rendered here at build time
 so they are on screen with the first frame; assets/js/catalogue.js takes over
 the moment a filter is touched, with the full list from /assets/js/catalogue.json.
 Below 900px the rail folds into a <details>, and a strip of dimension chips
@@ -25,7 +27,7 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
     <aside class="front__rail search-lab__rail">
       <details class="front__rail-fold" open>
         <script>(function(){try{if(window.matchMedia("(max-width: 900px)").matches){document.currentScript.parentElement.removeAttribute("open");}}catch(e){}})();</script>
-        <summary>筛选<span id="searchStatus" class="front__status" aria-live="polite">最新 36 条</span></summary>
+        <summary>筛选<span id="searchStatus" class="front__status" aria-live="polite">综合推荐 36 条</span></summary>
         <section class="search-lab__filters" aria-label="筛选条件">
           <label>
             <span>内容类型</span>
@@ -50,6 +52,7 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
           <label>
             <span>排序</span>
             <select id="searchSort">
+              <option value="feed">综合推荐</option>
               <option value="date-desc">时间 · 新到旧</option>
               <option value="date-asc">时间 · 旧到新</option>
               <option value="title">标题</option>
@@ -70,7 +73,7 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
     <div class="front__main search-lab__main">
       {% include home-dimensions.html strip=true %}
       <div class="search-lab__results front__results" id="filteredSearchResults" data-page-size="36" data-prerendered="true" data-compact="true" data-catalogue="{{ '/assets/js/catalogue.json' | relative_url }}">
-        {% for post in front_posts limit: 36 %}{% include entry-card.html card_post=post compact=true %}{% endfor %}
+        {% include home-feed.html %}{% for post in feed_posts %}{% include entry-card.html card_post=post compact=true %}{% endfor %}
       </div>
       <div class="search-lab__more">
         <button type="button" id="searchMore">显示更多</button>

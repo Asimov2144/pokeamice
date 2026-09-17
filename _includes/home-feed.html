@@ -1,0 +1,42 @@
+{%- comment -%}
+The order of the front desk: a mixed feed, not the newest first, so an old entry has
+its chance beside a new one. Every entry is scored -
+  freshness    40 down to 5 as it ages (a week, a month, a season, a year, three years, older)
+  popularity   0 to 30 from _data/popularity.yml, hits by url (tools/build-popularity.py)
+  chance       0 to 30, drawn afresh at every build from the build time
+  kinship      +20 when it shares a person or a work with the lead - the three newest
+               entries - the names that are everywhere (the director's) not counting
+and the 36 highest open the page. assets/js/catalogue.js scores the same way in the
+browser under the 综合推荐 sort, with the reader's own recent clicks as the lead.
+Leaves `feed_posts`. Needs `front_posts` and the dims counts (home-dimensions.html).
+{%- endcomment -%}
+{%- assign feed_now = site.time | date: "%s" | plus: 0 -%}
+{%- assign feed_seed = site.time | date: "%j%H" | plus: 0 | times: 7919 -%}
+{%- assign feed_many = front_posts.size | divided_by: 4 -%}
+{%- assign feed_common = "¦" -%}
+{%- for k in dims_people_keys limit: 3 -%}{%- assign parts = k | split: "¦" -%}{%- assign cnt = parts[0] | plus: 0 -%}{%- if cnt > feed_many -%}{%- assign feed_common = feed_common | append: parts[1] | append: "¦" -%}{%- endif -%}{%- endfor -%}
+{%- for k in dims_works_keys limit: 3 -%}{%- assign parts = k | split: "¦" -%}{%- assign cnt = parts[0] | plus: 0 -%}{%- if cnt > feed_many -%}{%- assign feed_common = feed_common | append: parts[1] | append: "¦" -%}{%- endif -%}{%- endfor -%}
+{%- assign feed_lead = "¦" -%}
+{%- for post in front_posts limit: 3 -%}
+  {%- for who in post.entities.people -%}{%- assign key = "¦" | append: who | append: "¦" -%}{%- unless feed_common contains key -%}{%- assign feed_lead = feed_lead | append: who | append: "¦" -%}{%- endunless -%}{%- endfor -%}
+  {%- for w in post.entities.works -%}{%- assign key = "¦" | append: w | append: "¦" -%}{%- unless feed_common contains key -%}{%- assign feed_lead = feed_lead | append: w | append: "¦" -%}{%- endunless -%}{%- endfor -%}
+{%- endfor -%}
+{%- capture feed_buf -%}
+{%- for post in front_posts -%}
+  {%- assign post_s = post.date | date: "%s" | plus: 0 -%}
+  {%- assign age = feed_now | minus: post_s | divided_by: 86400 -%}
+  {%- if age < 8 %}{% assign s = 40 %}{% elsif age < 31 %}{% assign s = 32 %}{% elsif age < 91 %}{% assign s = 24 %}{% elsif age < 366 %}{% assign s = 16 %}{% elsif age < 1096 %}{% assign s = 10 %}{% else %}{% assign s = 5 %}{% endif -%}
+  {%- assign hits = site.data.popularity[post.url] | default: 0 -%}
+  {%- if hits >= 200 %}{% assign s = s | plus: 30 %}{% elsif hits >= 100 %}{% assign s = s | plus: 26 %}{% elsif hits >= 50 %}{% assign s = s | plus: 22 %}{% elsif hits >= 20 %}{% assign s = s | plus: 16 %}{% elsif hits >= 10 %}{% assign s = s | plus: 10 %}{% elsif hits >= 3 %}{% assign s = s | plus: 5 %}{% endif -%}
+  {%- assign r = forloop.index0 | times: 104729 | plus: feed_seed | modulo: 1009 | modulo: 31 -%}
+  {%- assign s = s | plus: r -%}
+  {%- assign kin = false -%}
+  {%- for who in post.entities.people -%}{%- assign key = "¦" | append: who | append: "¦" -%}{%- if feed_lead contains key -%}{%- assign kin = true -%}{%- break -%}{%- endif -%}{%- endfor -%}
+  {%- unless kin -%}{%- for w in post.entities.works -%}{%- assign key = "¦" | append: w | append: "¦" -%}{%- if feed_lead contains key -%}{%- assign kin = true -%}{%- break -%}{%- endif -%}{%- endfor -%}{%- endunless -%}
+  {%- if kin -%}{%- assign s = s | plus: 20 -%}{%- endif -%}
+  {{- s | prepend: "000" | slice: -3, 3 -}}¦{{- forloop.index0 -}}§
+{%- endfor -%}
+{%- endcapture -%}
+{%- assign feed_rows = feed_buf | split: "§" | sort | reverse -%}
+{%- assign feed_posts = "" | split: "" -%}
+{%- for row in feed_rows limit: 36 -%}{%- assign idx = row | split: "¦" | last | plus: 0 -%}{%- assign feed_posts = feed_posts | push: front_posts[idx] -%}{%- endfor -%}

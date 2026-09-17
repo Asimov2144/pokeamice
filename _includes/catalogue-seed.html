@@ -1,7 +1,7 @@
 {%- comment -%}
 The catalogue as JSON: one object per searchable post - kind, cover, dek, topics,
 people with the portrait taken for that entry, works with their icons, publication,
-pages, proofreading state. The search page inlines it; the home page fetches it from
+pages, proofreading state, the cover and its size (from _data/covers.yml). The search page inlines it; the home page fetches it from
 /assets/js/catalogue.json; both draw the same cards with assets/js/catalogue.js.
 {%- endcomment -%}
 {% assign searchable_posts = site.posts | where_exp: "post", "post.search != false" %}
@@ -83,7 +83,9 @@ pages, proofreading state. The search page inlines it; the home page fetches it 
       "publication": {{ post.publication | default: post.source.publication | default: "" | jsonify }},
       "issue": {{ post.issue | default: "" | jsonify }},
       "cover": {{ cover | jsonify }},
+      "size": {% if cover != "" and site.data.covers[cover] %}{{ site.data.covers[cover] | jsonify }}{% else %}null{% endif %},
       "pages": {{ pages }},
+      "hits": {{ site.data.popularity[post.url] | default: 0 }},
       "proof": {{ proof | jsonify }},
       "type": {{ type_label | jsonify }}
     }{% unless forloop.last %},{% endunless %}
