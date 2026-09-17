@@ -1038,3 +1038,14 @@ body.theme-bg-black {
     color: #dce4ea;
   }
 }
+
+/* borrowed covers: a collection's tile is dimmed a touch so it reads as "the shelf", not the entry;
+   a portrait stands at the side as a round photo */
+.search-result-card__cover--tile img { filter: saturate(0.85); }
+.search-result-card--tall .search-result-card__cover--portrait {
+  width: 64px;
+  margin: 4px 12px 4px 2px;
+  border-radius: 50%;
+  overflow: hidden;
+  img { aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; }
+}

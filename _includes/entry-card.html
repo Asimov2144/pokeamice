@@ -32,6 +32,8 @@ is a text card. The sizes come from _data/covers.yml (tools/build-cover-dims.py)
   {% assign card_pics = cp.parallel_items | where: "type", "image" %}
   {% if card_pics.first.image %}{% assign card_cover = card_pics.first.image %}{% endif %}
 {% endif %}
+{% include cover-fallback.html post=cp cover=card_cover %}
+{% assign card_cover = cf_cover %}
 {% assign card_pub = cp.publication | default: cp.source.publication | default: cp.source.title | default: "" %}
 {% if include.compact %}{% assign card_pub = card_pub | split: "（" | first | split: " (" | first | default: "" %}{% endif %}
 {% assign card_lead = cp.summary | default: cp.dek | default: cp.excerpt | default: "暂无摘要" | strip_html | strip_newlines | truncate: 180 %}
@@ -40,14 +42,14 @@ is a text card. The sizes come from _data/covers.yml (tools/build-cover-dims.py)
 {% if include.compact %}
   {% if card_cover == "" %}{% assign card_shape = "text" %}
   {% else %}
-    {% assign card_dim = site.data.covers[card_cover] %}
+    {% assign card_dim = cf_size | default: site.data.covers[card_cover] %}
     {% assign card_shape = "tall" %}
     {% if card_dim %}{% assign card_ratio = card_dim[0] | times: 100 | divided_by: card_dim[1] %}{% if card_ratio > 140 %}{% assign card_shape = "wide" %}{% endif %}{% endif %}
   {% endif %}
 {% endif %}
 <article class="search-result-card search-result-card--{{ card_kind }} is-type-{{ card_tc }}{% if include.compact %} search-result-card--compact search-result-card--{{ card_shape }}{% endif %}">
   {% if card_cover != "" %}
-    <a class="search-result-card__cover" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt=""{% if card_dim %} width="{{ card_dim[0] }}" height="{{ card_dim[1] }}"{% endif %} loading="lazy" decoding="async"></a>
+    <a class="search-result-card__cover{% if cf_kind == "tile" or cf_kind == "portrait" %} search-result-card__cover--{{ cf_kind }}{% endif %}" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{{ card_cover | relative_url }}" alt=""{% if card_dim %} width="{{ card_dim[0] }}" height="{{ card_dim[1] }}"{% endif %} loading="lazy" decoding="async"></a>
   {% elsif include.compact %}
   {% else %}
     <a class="search-result-card__cover search-result-card__cover--blank" href="{{ cp.url | relative_url }}" tabindex="-1" aria-hidden="true"><span>{{ card_pub | split: "（" | first | truncate: 12, "" }}</span><small>{{ cp.date | date: "%Y" }}</small></a>

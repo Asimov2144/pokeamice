@@ -237,7 +237,9 @@
       if (item.cover) {
         const s = item.size;
         const size = s ? ` width="${parseInt(s[0], 10)}" height="${parseInt(s[1], 10)}"` : "";
-        return `<a class="search-result-card__cover" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(item.cover)}" alt=""${size} loading="lazy" decoding="async"></a>`;
+        // a borrowed picture (the collection's tile, a portrait) is styled apart from the entry's own
+        const kind = item.cover_kind === "tile" || item.cover_kind === "portrait" ? ` search-result-card__cover--${item.cover_kind}` : "";
+        return `<a class="search-result-card__cover${kind}" href="${escapeHtml(item.url)}" tabindex="-1" aria-hidden="true"><img src="${escapeHtml(item.cover)}" alt=""${size} loading="lazy" decoding="async"></a>`;
       }
       if (compact) return "";
       const initials = String(label).replace(/[（(].*$/, "").slice(0, 12);

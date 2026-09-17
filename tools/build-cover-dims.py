@@ -47,7 +47,10 @@ def first_image(items):
     return None
 
 
-def cover_of(fm):
+BODY_IMG = re.compile(r'<img[^>]+src="([^"]+)"')
+
+
+def cover_of(fm, body=""):
     cover = fm.get("image") or fm.get("featured_image") or ""
     if isinstance(cover, dict):        # minimal-mistakes' header image object
         cover = cover.get("path") or cover.get("image") or ""
@@ -55,6 +58,10 @@ def cover_of(fm):
         cover = first_image(fm["translation_segments"]) or cover
     elif not cover and fm.get("parallel_items"):
         cover = first_image(fm["parallel_items"]) or cover
+    if not cover and fm.get("layout") in ("gamefreak-director", "gamefreak-legacy-blog"):
+        m = BODY_IMG.search(body)   # the blogs carry their pictures in the body (cover-fallback.html reads them the same way)
+        if m:
+            cover = m.group(1)
     return cover if isinstance(cover, str) else ""
 
 
@@ -80,7 +87,11 @@ def main():
         fm = front_matter(post)
         if not fm or fm.get("search") is False:
             continue
-        c = cover_of(fm)
+        body = ""
+        if fm.get("layout") in ("gamefreak-director", "gamefreak-legacy-blog"):
+            text = io.open(post, encoding="utf-8", errors="replace").read()
+            body = text.split("\n---", 2)[-1] if text.startswith(("---", "\ufeff---")) else text
+        c = cover_of(fm, body)
         if c and c not in covers:
             covers.append(c)
     for i, a in enumerate(sys.argv):

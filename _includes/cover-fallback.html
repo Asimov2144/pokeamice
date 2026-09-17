@@ -1,0 +1,56 @@
+{%- comment -%}
+The picture a card shows when the entry names none itself. Pass `post` and the
+cover already found (`cover`, "" when there is none); sets cf_cover, cf_kind
+("own" – the entry's own picture, "tile" – its collection's shelf picture,
+"portrait" – the first person's photo, "" – nothing) and cf_size for the tiles.
+
+  A Game Freak blog entry takes its first inline picture (the director's column,
+  the staff diary and the art blog carry them in the body, not the front matter),
+  else the collection's tile from assets/img/topics.
+  A web interview without a picture takes its magazine's or series' tile, else
+  the portrait of the first person interviewed.
+{%- endcomment -%}
+{% assign cf_post = include.post %}
+{% assign cf_cover = include.cover | default: "" %}
+{% assign cf_kind = "" %}
+{% assign cf_size = nil %}
+{% if cf_cover != "" %}{% assign cf_kind = "own" %}{% endif %}
+{% assign cf_tile = "" %}
+{% if cf_cover == "" and cf_post.layout == "gamefreak-director" or cf_cover == "" and cf_post.layout == "gamefreak-legacy-blog" %}
+  {% assign cf_parts = cf_post.content | split: "<img" %}
+  {% if cf_parts.size > 1 %}
+    {% assign cf_src = cf_parts[1] | split: 'src="' %}
+    {% if cf_src.size > 1 %}{% assign cf_cover = cf_src[1] | split: '"' | first %}{% assign cf_kind = "own" %}{% endif %}
+  {% endif %}
+  {% if cf_cover == "" %}
+    {% if cf_post.layout == "gamefreak-director" %}{% assign cf_tile = "director" %}
+    {% elsif cf_post.gf_legacy_blog == "art" %}{% assign cf_tile = "art" %}
+    {% else %}{% assign cf_tile = "staff" %}{% endif %}
+  {% endif %}
+{% elsif cf_cover == "" and cf_post.layout == "interview-editorial" or cf_cover == "" and cf_post.layout == "parallel-translation" %}
+  {% assign cf_pub = cf_post.publication | default: cf_post.source.publication | default: "" | append: " " | append: cf_post.source.title | append: " " | append: cf_post.title %}
+  {% if cf_pub contains "社長が訊く" or cf_pub contains "社长问" %}{% assign cf_tile = "iwata" %}
+  {% elsif cf_post.categories contains "首藤刚志手记" %}{% assign cf_tile = "shudo" %}
+  {% elsif cf_pub contains "Nintendo DREAM" %}{% assign cf_tile = "ndream" %}
+  {% elsif cf_pub contains "ファミ通" or cf_pub contains "Fami通" %}{% assign cf_tile = "famitsu" %}
+  {% elsif cf_pub contains "電撃" or cf_pub contains "电击" %}{% assign cf_tile = "dengeki" %}
+  {% elsif cf_post.tags contains "N.O.M" %}{% assign cf_tile = "nom" %}
+  {% elsif cf_pub contains "Game Informer" %}{% assign cf_tile = "gi" %}
+  {% elsif cf_pub contains "CEDEC" %}{% assign cf_tile = "cedec" %}
+  {% elsif cf_post.tags contains "招聘访谈" %}{% assign cf_tile = "recruit" %}
+  {% elsif cf_post.source_kind == "technical_report" or cf_post.article_kind == "technical_feature" %}{% assign cf_tile = "tech" %}
+  {% endif %}
+  {% if cf_tile == "" and cf_post.entities.people.size > 0 %}
+    {% assign cf_who = cf_post.entities.people | first %}
+    {% assign cf_hit = site.data.people | where: "name", cf_who | first %}
+    {% if cf_hit and cf_hit.kind != "character" and cf_hit.kind != "figure" %}
+      {% include person-avatar.html who=cf_who post=cf_post %}
+      {% if pa_src and pa_src != "" %}{% assign cf_cover = pa_src %}{% assign cf_kind = "portrait" %}{% endif %}
+    {% endif %}
+  {% endif %}
+{% endif %}
+{% if cf_tile != "" %}
+  {% assign cf_cover = "/assets/img/topics/" | append: cf_tile | append: ".jpg" %}
+  {% assign cf_kind = "tile" %}
+  {% assign cf_size = "336,192" | split: "," %}
+{% endif %}
