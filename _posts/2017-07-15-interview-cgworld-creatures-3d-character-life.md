@@ -69,14 +69,19 @@ topics:
 - "卡牌"
 entities:
   people:
-  - "氏家淳子"
-  - "中广健吾"
-  - "畠祐贵"
+  - 氏家淳子
+  - 中广健吾
+  - 畠祐贵
   works:
-  - "宝可梦集换式卡牌游戏"
+  - 宝可梦集换式卡牌游戏
+  - 宝可梦 太阳·月亮
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦竞技场
+  - 宝可梦巡护员
+  - 名侦探皮卡丘
   organizations:
-  - "Creatures"
-  - "Game Freak"
+  - Creatures
+  - Game Freak
 mentions:
   people: []
   works:

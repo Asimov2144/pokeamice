@@ -91,20 +91,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Here&#39;s How Game Freak Designs Pokémon Creatures</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-game-informer-how-game-freak-designs-pokemon-creatures/">[访谈翻译] 《Game Informer》独家专访：增田顺一揭秘宝可梦生物设计全流程与内部评审（三头猫进化论、GB像素限制与圆润大眼演变）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2017 · interview_translation · CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</p>
   <h3><a href="/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/">CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · CGWORLD.jp</p>
-  <h3><a href="/interview-cgworld-creatures-cg-studio/">CGWORLD 专访：为宝可梦设定画注入生命——Creatures 宝可梦CG工作室的现状与未来</a></h3>
+  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
   <span></span>
 </article>
 

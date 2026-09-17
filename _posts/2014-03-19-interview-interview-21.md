@@ -1,6 +1,6 @@
 ---
 layout: interview-editorial
-title: '[访谈翻译] 初代概念美术整理 EN'
+title: GlitterBerri 游戏翻译 1990：《胶囊怪兽》企划书标题页、设计前提与关都计划
 date: '2014-03-19'
 toc: true
 toc_sticky: true
@@ -10,6 +10,22 @@ categories:
 - 翻译
 - 访谈整理
 tags:
+- Pokemon
+- 访谈
+- 开发者访谈
+- 田尻智
+- 增田顺一
+- 杉森建
+- 第一世代
+- 赤绿
+- EN
+- Game Freak
+- GlitterBerri
+- 宝可梦 红·绿
+- 胶囊怪兽
+- 企划书
+- 早期概念图
+- 开发史
 - Pokemon
 - 访谈
 - 开发者访谈
@@ -36,6 +52,8 @@ entities:
   people:
   - 增田顺一
   - 杉森建
+  - 宫本茂
+  - 田尻智
   works:
   - 宝可梦 红·绿
   organizations:
@@ -328,4 +346,6 @@ mentions:
   - "田尻智"
   - "宫本茂"
   works: []
+era: '1996'
+display_title: 《胶囊怪兽》早期企划
 ---

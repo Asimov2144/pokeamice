@@ -8,11 +8,14 @@
   "page_images": 5,
   "share": 0.65,
   "cached": true,
-  "paragraphs": 6,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 8,
+  "missing": 2,
+  "missing_chars": 57,
+  "covered": 0.97,
+  "missing_sample": [
+   "Pages:12345678910111213141516",
+   "ReturntoPokémonRed&BlueIndex"
+  ]
  },
  {
   "post": "1990-12-02-research-glitterberri-early-concept-art-part2.md",
@@ -23,11 +26,14 @@
   "page_images": 2,
   "share": 0.87,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 22,
+  "missing": 2,
+  "missing_chars": 57,
+  "covered": 0.99,
+  "missing_sample": [
+   "Pages:12345678910111213141516",
+   "ReturntoPokémonRed&BlueIndex"
+  ]
  },
  {
   "post": "1997-05-23-interview-famimaga-tajiri-pokemon2-secret.md",
@@ -38,11 +44,18 @@
   "page_images": 0,
   "share": 1.95,
   "cached": true,
-  "paragraphs": 7,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 39,
+  "missing": 25,
+  "missing_chars": 1581,
+  "covered": 0.44,
+  "missing_sample": [
+   "『ピカチュウげんきでちゅう』（仮称）のゲーム画面が2ページ公開され、",
+   "開発中の64DD版（ハードの発売延期と共に発売中止に）とGB版の今後の通信についても田尻氏がコメントを寄せている。",
+   "『ポケモン2』制作中の田尻氏にインタビュー！読者代表兼インタビュアーとして女優の裕木奈江との対談（全6ページ！）を行い、",
+   "原作者自らが語るゲーム内の設定裏話を多数披露し、",
+   "続編である『ポケモン2』の制作が始まったきっかけについて、",
+   "本取材に同行していた任天堂の広報の本郷好尾氏から提案されたことを明かしている。"
+  ]
  },
  {
   "post": "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak.md",
@@ -60,15 +73,17 @@
   "page_images": 0,
   "share": 0.88,
   "cached": true,
-  "paragraphs": 35,
-  "missing": 4,
+  "paragraphs": 166,
+  "missing": 21,
   "missing_chars": 937,
   "covered": 0.88,
   "missing_sample": [
-   "このページは、主に金銀発売より前までの、インターネット上におけるポケモンサイトの歴史を追うものである。ただし、製作者自身が日常的にネット接続できるようになったの",
-   "昨年末の重大事件により、ポケモンファンは暗い雰囲気で年を明かした。金銀もこの頃には発売しているはずだったのに相次ぐ延期に加えて続報が途切れていた。この年で更新が",
-   "・不思議なホームページ（ペコキチ）http://hccweb1.bai.ne.jp/pekokichi/あくまで1コンテンツという扱いだが「やるぜポケスタ」と題",
-   "・ポケモン情報サイト「palette」http://park3.wakwak.com/‾pokepale/グッズ発売やテレビ放送、イベント開催などの情報が過去か"
+   "このページは、主に金銀発売より前までの、インターネット上におけるポケモンサイトの歴史を追うものである。",
+   "ただし、製作者自身が日常的にネット接続できるようになったのは1999年の4月からである。",
+   "それ以前にも塾のパソコンから接続したことはあったが、利用できた時間・期間はごく限られていた。",
+   "そのため、現在WebArchiveから参照できる情報や、あるいは記憶や印象に基づいている部分を多く含む。",
+   "突っ込みや情報提供については歓迎する。twitterだと素早く反応できると思う。",
+   "なお原則として、人名（ハンドル）は敬称略としている。"
   ]
  },
  {
@@ -80,11 +95,15 @@
   "page_images": 0,
   "share": 3.09,
   "cached": true,
-  "paragraphs": 7,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 39,
+  "missing": 3,
+  "missing_chars": 591,
+  "covered": 0.79,
+  "missing_sample": [
+   "「コロコロコミック」1998年5月号6〜7ページポケットモンスターピカチュウバージョン黄色発表田尻と石原に加え、任天堂の宮本茂が取材に応じた『ピカチュウ版』の発",
+   "「The64DREAM」2000年2月号71〜73ページ『ポケモン金・銀』の開発者に話を聞きました！『金・銀』発売後の開発者インタビュー記事。増田順一、森本茂樹",
+   "内容ページ備考（メモ）目次68〜69ゲームフリークのロゴとピカチュウの画像ありプロローグ70〜71\"良質な遊び\"をキーワードに（公式サイト参照）ゲームフリークの"
+  ]
  },
  {
   "post": "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn.md",
@@ -95,11 +114,13 @@
   "page_images": 0,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 35,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 166,
+  "missing": 1,
+  "missing_chars": 44,
+  "covered": 0.99,
+  "missing_sample": [
+   "http://www.gamefreak.co.jp/POKEMON/INDEX.HTM"
+  ]
  },
  {
   "post": "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit.md",
@@ -110,13 +131,11 @@
   "page_images": 17,
   "share": 1.82,
   "cached": true,
-  "paragraphs": 2,
-  "missing": 1,
-  "missing_chars": 1120,
-  "covered": 0.52,
-  "missing_sample": [
-   "まず、久保さんのお仕事を簡単に教えてください。久保>>テレビと映画のエグゼクティブ・プロデューサーをつとめています。アニメに関わることは僕の守備範囲といえるでし"
-  ]
+  "paragraphs": 12,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2000-07-01-interview-nintendopower-gold-silver-roundtable.md",
@@ -127,17 +146,17 @@
   "page_images": 20,
   "share": 0.53,
   "cached": true,
-  "paragraphs": 53,
-  "missing": 21,
-  "missing_chars": 5489,
-  "covered": 0.51,
+  "paragraphs": 59,
+  "missing": 22,
+  "missing_chars": 5500,
+  "covered": 0.52,
   "missing_sample": [
+   "WrittenbyDrLava,November122019",
    "HighlightsincludeHoothoot’soriginstory,anearlydevelopmenttimeline,andKenSugimori",
    "DrLava’snotes:Let’sbrieflyreviewtheearlyPokemontimeline.InJapan,Red&Greendebuted",
    "Butlet’snotforgetthatRed&Bluedidn’tarriveinNorthAmericauntiltwoweeksafterYellowr",
    "InNovember1999,Gold&SilverlaunchedinJapan.Aboutayearlater,inOctober2000,theyhits",
-   "DrLava’snotes:GameFreak’sprogrammingskillswerenotoriouslylacklusterbackinthe90’s",
-   "ShigekiMorimotocanactuallybefoundasanNPCinUltraSun&Moon,wherehetellstheplayerabo"
+   "DrLava’snotes:GameFreak’sprogrammingskillswerenotoriouslylacklusterbackinthe90’s"
   ]
  },
  {
@@ -170,7 +189,7 @@
   "page_images": 17,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 27,
+  "paragraphs": 40,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -185,7 +204,7 @@
   "page_images": 17,
   "share": 2.0,
   "cached": true,
-  "paragraphs": 15,
+  "paragraphs": 23,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -200,62 +219,33 @@
   "page_images": 13,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 20,
+  "paragraphs": 28,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
   "missing_sample": []
  },
  {
-  "post": "2002-11-01-interview-nom-ruby-sapphire-art-director-sugimori.md",
-  "url": "https://web.archive.org/web/20221226221956/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html",
-  "post_chars": 541,
-  "post_images": 0,
-  "page_chars": 2221,
-  "page_images": 23,
-  "share": 0.24,
-  "cached": true,
-  "paragraphs": 17,
-  "missing": 12,
-  "missing_chars": 1376,
-  "covered": 0.24,
-  "missing_sample": [
-   "『ポケットモンスタールビー・サファイア』の開発スタッフに、Ｎ．Ｏ．Ｍがショートインタビューを試みました。ユーザーさんへのメッセージを、しっかりお聞きしてきました",
-   "株式会社ゲームフリーク創立当初からのメンバーで、ゲームディレクター、シナリオ制作を担当。音楽や効果音の制作も担当し、それらの一部はテレビアニメの原曲にもなってい",
-   "増田さんはディレクターというお仕事をされていますが、どのようなお仕事なのでしょうか。",
-   "「このゲームをどのようなものにするのか」というビジョンから全体を考えて最終的な形に完成させる仕事です。アイディアをどのように取り入れるのがよいのか。世界観、操作",
-   "「ルビー・サファイア」の制作にあたってはたくさんのテーマがあったと思いますが、その内の１つを教えていただけますか。",
-   "戦いに特化していくのではなく、１体１体のポケモンの個性を出していくことをテーマとしました。ポケモンコンテストはそうした個体のおもしろさを追求しています。もちろん"
-  ]
- },
- {
-  "post": "2002-11-01-interview-nom-ruby-sapphire-director-masuda.md",
-  "url": "https://web.archive.org/web/20221226222004/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html",
-  "post_chars": 1010,
-  "post_images": 0,
-  "page_chars": 2221,
-  "page_images": 23,
-  "share": 0.45,
-  "cached": true,
-  "paragraphs": 17,
-  "missing": 17,
-  "missing_chars": 1821,
-  "covered": 0.0,
-  "missing_sample": [
-   "『ポケットモンスタールビー・サファイア』の開発スタッフに、Ｎ．Ｏ．Ｍがショートインタビューを試みました。ユーザーさんへのメッセージを、しっかりお聞きしてきました",
-   "株式会社ゲームフリーク創立当初からのメンバーで、ゲームディレクター、シナリオ制作を担当。音楽や効果音の制作も担当し、それらの一部はテレビアニメの原曲にもなってい",
-   "増田さんはディレクターというお仕事をされていますが、どのようなお仕事なのでしょうか。",
-   "「このゲームをどのようなものにするのか」というビジョンから全体を考えて最終的な形に完成させる仕事です。アイディアをどのように取り入れるのがよいのか。世界観、操作",
-   "「ルビー・サファイア」の制作にあたってはたくさんのテーマがあったと思いますが、その内の１つを教えていただけますか。",
-   "戦いに特化していくのではなく、１体１体のポケモンの個性を出していくことをテーマとしました。ポケモンコンテストはそうした個体のおもしろさを追求しています。もちろん"
-  ]
- },
- {
-  "post": "2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base.md",
-  "url": "https://web.archive.org/web/20221026123518/https://www.nintendo.co.jp/nom/0211/01/01_04/index.html",
-  "post_chars": 1331,
-  "post_images": 0,
+  "post": "2002-11-01-interview-nom-2002-ruby-sapphire-multi-battle-secret-base-report.md",
+  "url": "https://web.archive.org/web/20090430093131/https://www.nintendo.co.jp/nom/0211/01/01_04/index.html",
+  "post_chars": 875,
+  "post_images": 10,
   "error": "the fetched copy holds no article (865 chars)"
+ },
+ {
+  "post": "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages.md",
+  "url": "https://web.archive.org/web/20090715094718/https://www.nintendo.co.jp/nom/0211/01/01_05/index.html",
+  "post_chars": 2173,
+  "post_images": 3,
+  "page_chars": 2221,
+  "page_images": 23,
+  "share": 0.98,
+  "cached": true,
+  "paragraphs": 25,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2003-08-01-interview-nom-2003-pokemon-channel-staff.md",
@@ -287,11 +277,13 @@
   "page_images": 2,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 13,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 18,
+  "missing": 1,
+  "missing_chars": 29,
+  "covered": 0.99,
+  "missing_sample": [
+   "(C)2005Nintendo/GAMEFREAKinc."
+  ]
  },
  {
   "post": "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori.md",
@@ -309,7 +301,7 @@
   "page_images": 7,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 4,
+  "paragraphs": 30,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -324,7 +316,7 @@
   "page_images": 34,
   "share": 1.07,
   "cached": true,
-  "paragraphs": 75,
+  "paragraphs": 80,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -339,17 +331,17 @@
   "page_images": 34,
   "share": 0.96,
   "cached": true,
-  "paragraphs": 75,
-  "missing": 7,
-  "missing_chars": 551,
+  "paragraphs": 80,
+  "missing": 11,
+  "missing_chars": 677,
   "covered": 0.97,
   "missing_sample": [
+   "WrittenbyDrLava•November23,2020",
+   "Masuda:“Theresultisasweplanned.”",
+   "Kawachimaru:“Asweexpected(laughs).”",
+   "“DoyouhaveafavoritePokemon?”",
    "Andthatconcludesthisdeveloperinterview.Ifyou’dliketoreadmorePokemoninterviewspre",
-   "•Translation:SugimoriExplainsGen5PokemonDesignOrigins",
-   "•Translation:90’sPokemonAnimeWasWrittenUndertheInfluence",
-   "•Leak:ControversySurroundingGen1BetaSpriteLeak",
-   "•Translation:SugimoriExplainsGen5BetaPokemon",
-   "•CutContent:Gen4and5’sScrappedLockCapsuleEvent"
+   "•Translation:SugimoriExplainsGen5PokemonDesignOrigins"
   ]
  },
  {
@@ -361,17 +353,17 @@
   "page_images": 6,
   "share": 0.79,
   "cached": true,
-  "paragraphs": 29,
-  "missing": 9,
-  "missing_chars": 608,
-  "covered": 0.77,
+  "paragraphs": 30,
+  "missing": 12,
+  "missing_chars": 669,
+  "covered": 0.42,
   "missing_sample": [
+   "石原さんは株式会社ポケモン（※1）の代表取締役社長兼ＣＥＯであり、",
+   "株式会社クリーチャーズ（※2）の会長ということで・・・。",
+   "プロデューサーとしてゲームフリーク（※3）さんと一緒に、",
    "株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国６ヵ所のポケモンセンターも運営する。２０００年設立。",
    "株式会社クリーチャーズ＝ポケモン関連のゲームソフトやカードゲームの制作に関わるほか、『のののパズルちゃいリアン』（ＧＢＡ）や『歩いてわかる生活リズムＤＳ』（ＤＳ",
-   "株式会社ゲームフリーク＝『ポケットモンスター』シリーズなどのゲームを開発。１９８９年設立。",
-   "『赤・緑』＝シリーズ１作目の『ポケットモンスター赤・緑』。ゲームボーイ用ソフトとして１９９６年２月２７日発売。",
-   "しかも、その頃は「ゲームボーイ（※5）はもう終わったんじゃないか」という空気が微妙に流れていましたよね。",
-   "ゲームボーイ＝１９８９年４月発売の、モノクロ液晶の携帯ゲーム機。ゲームボーイシリーズとしては、ゲームボーイポケット（１９９６年）、ゲームボーイライト（１９９８年"
+   "株式会社ゲームフリーク＝『ポケットモンスター』シリーズなどのゲームを開発。１９８９年設立。"
   ]
  },
  {
@@ -383,17 +375,17 @@
   "page_images": 7,
   "share": 0.79,
   "cached": true,
-  "paragraphs": 24,
-  "missing": 6,
-  "missing_chars": 484,
-  "covered": 0.81,
+  "paragraphs": 33,
+  "missing": 9,
+  "missing_chars": 570,
+  "covered": 0.52,
   "missing_sample": [
    "カードゲーム＝『ポケットモンスター』シリーズの世界をテーマにした『ポケモンカードゲーム』。１対１の対戦だけでなく、収集や交換も楽しめる。１９９６年１０月発売。",
    "アニメ＝１９９７年４月からスタートした、「ポケモンマスター」をめざすサトシとポケモンたちの冒険アニメ。テレビ東京系で放映中。",
+   "映画＝「劇場版ポケットモンスターミュウツーの逆襲」。１９９８年７月公開。",
+   "ネーミングからしても『金・銀』（※12）もまた、",
    "『金・銀』＝『ポケットモンスター金・銀』。『ポケットモンスター』シリーズ２作目。ゲームボーイカラーにも対応していたため、色違いポケモンが登場。１９９９年１１月２",
-   "『青』＝『ポケットモンスター青』。『赤・緑』の色違いバージョンとして、１９９６年１０月１５日限定品として発売を開始し、１９９９年１０月１０日に一般販売。",
-   "『ピカチュウ』＝『ポケットモンスターピカチュウ』。『青』と同様に『赤・緑』の色違いバージョンだったが、ピカチュウを連れて歩けるなど、随所で付加価値が加えられた。",
-   "『ポケットピカチュウ』＝ピカチュウをモチーフにした歩数計。歩数に応じてピカチュウとの親密度があがったり、ミニゲームが楽しめた。１９９８年３月２７日発売。"
+   "『青』＝『ポケットモンスター青』。『赤・緑』の色違いバージョンとして、１９９６年１０月１５日限定品として発売を開始し、１９９９年１０月１０日に一般販売。"
   ]
  },
  {
@@ -405,10 +397,10 @@
   "page_images": 4,
   "share": 0.93,
   "cached": true,
-  "paragraphs": 26,
+  "paragraphs": 39,
   "missing": 1,
   "missing_chars": 100,
-  "covered": 0.96,
+  "covered": 0.91,
   "missing_sample": [
    "『ポケモンスタジアム』＝３Ｄのポケモンで対戦したり、ポケモン図鑑を管理するためのソフト。『ポケットモンスター赤・緑・青・ピカチュウ』に対応。ＮＩＮＴＥＮＤＯ６４"
   ]
@@ -422,17 +414,17 @@
   "page_images": 7,
   "share": 2.52,
   "cached": true,
-  "paragraphs": 27,
-  "missing": 8,
-  "missing_chars": 603,
-  "covered": 0.8,
+  "paragraphs": 35,
+  "missing": 12,
+  "missing_chars": 667,
+  "covered": 0.48,
   "missing_sample": [
-   "『ファイアレッド・リーフグリーン』（※17）ですね。だから、今回の『ハートゴールド・ソウルシルバー』はシリーズ作品のリメイクとしては２回目ということになります。",
+   "『ファイアレッド・リーフグリーン』（※17）ですね。",
    "『ファイアレッド・リーフグリーン』＝『ポケットモンスターファイアレッド・リーフグリーン』。『赤・緑』に、さまざまな新要素を盛り込んだリメイク版として、２００４年",
+   "ゲームボーイアドバンス（※18）にハードが変わるのに",
    "ゲームボーイアドバンス＝ゲームボーイカラーの後継機として、２００１年３月２１日に発売された携帯ゲーム機。",
    "ワイヤレスアダプタ＝無線での通信プレイを可能にした、ゲームボーイアドバンスの周辺機器。２００４年１月２９日、『ファイアレッド・リーフグリーン』に同梱されて登場。",
-   "『歩いてわかる生活リズムＤＳ』＝同梱の「生活リズム計」で、１分ごとの歩数を記録し、その日の生活リズムをチェックできるソフト。ＤＳ用ソフトとして、２００８年１１月",
-   "「生活リズム計」＝『歩いてわかる生活リズムＤＳ』に２個同梱された専用の歩数計。犬にとりつけることも可能。"
+   "『歩いてわかる生活リズムＤＳ』（※20）をつくっていたので、"
   ]
  },
  {
@@ -444,15 +436,17 @@
   "page_images": 6,
   "share": 0.87,
   "cached": true,
-  "paragraphs": 25,
-  "missing": 4,
-  "missing_chars": 350,
-  "covered": 0.9,
+  "paragraphs": 38,
+  "missing": 7,
+  "missing_chars": 456,
+  "covered": 0.88,
   "missing_sample": [
+   "▲『金・銀』発売から10年。ジョウト地方での冒険が再び幕を開ける！",
+   "▲『ポケットモンスターハートゴールド・ソウルシルバー』ディレクター・森本さん",
+   "※1……『金・銀』の舞台・ジョウト地方にあるアサギシティのジムリーダー",
    "※2……1匹ずつ違うブチ模様をしているのが特徴のポケモン。同じ模様のパッチールはいないと言われるほど、その模様はさまざま。",
    "▲ミナキとスイクンをめぐるイベントなど、『クリスタル』でしか見られなかった要素も盛り込まれている。『金・銀』しか遊んだことがないという人には、新たな発見があるか",
-   "▲『ハートゴールド・ソウルシルバー』には、“ポケットピカチュウ”を彷彿とさせる“ポケウォーカー”が同梱されている。これについては後の方でじっくりお話を伺っている",
-   "※3……“ポケットピカチュウカラー金・銀といっしょ！”のこと。『金・銀』と連動要素を持った歩数計で、歩いてためたワット（W）を使い、『金・銀』にどうぐを送ること"
+   "▲『ハートゴールド・ソウルシルバー』には、“ポケットピカチュウ”を彷彿とさせる“ポケウォーカー”が同梱されている。これについては後の方でじっくりお話を伺っている"
   ]
  },
  {
@@ -464,7 +458,7 @@
   "page_images": 1,
   "share": 1.59,
   "cached": true,
-  "paragraphs": 6,
+  "paragraphs": 23,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -501,12 +495,17 @@
   "page_images": 0,
   "share": 0.97,
   "cached": true,
-  "paragraphs": 3,
-  "missing": 1,
-  "missing_chars": 45,
-  "covered": 1.0,
+  "paragraphs": 106,
+  "missing": 6,
+  "missing_chars": 308,
+  "covered": 0.98,
   "missing_sample": [
-   "Lastupdated11Jun202018:46bySunain.Revision#14"
+   "ShinjiMiyazaki–Composer/ArrangerwhohandlesthemusicoftheTVAnime“PocketMonsters”",
+   "JunichiMasuda–Directorofthegameseries“PocketMonsters”",
+   "GoIchinose–SoundLeaderofthegameseries“PocketMonsters”",
+   "HitomiSato–SoundStaffMemberofthegameseries“PocketMonsters\"",
+   "Thispagehasbeenviewed32418times.",
+   "Lastupdated11Jun202018:46bySunain."
   ]
  },
  {
@@ -518,16 +517,16 @@
   "page_images": 5,
   "share": 0.85,
   "cached": true,
-  "paragraphs": 36,
-  "missing": 11,
-  "missing_chars": 827,
-  "covered": 0.75,
+  "paragraphs": 79,
+  "missing": 12,
+  "missing_chars": 650,
+  "covered": 0.74,
   "missing_sample": [
-   "今日は株式会社ポケモン（※1）におじゃましています。発売直前の『ポケットモンスターブラック・ホワイト』についてお話を訊かせていただくということで、プロデューサー",
+   "今日は株式会社ポケモン（※1）におじゃましています。",
    "株式会社ポケモン＝ゲーム・カードゲームをはじめとした、ポケモン全般のブランドマネジメントを行うほか、全国６カ所のポケモンセンターも運営する。２０００年設立。",
    "株式会社ゲームフリーク＝『ポケットモンスター』シリーズなどのゲームソフト開発会社。１９８９年設立。",
-   "今回、同じDSで出るとはいっても前作の（※3）をつくったときと、今回の『ポケモンブラック・ホワイト』をはじめたときとでは、つくるうえでの基本スタンスが大きく違っ",
    "『ダイヤモンド・パール』＝『ポケットモンスターダイヤモンド・パール』。ニンテンドーDS用ソフトとして、２００６年９月２８日発売。",
+   "ゲームフリークのみなさんが（※4）をつくっている横で、",
    "『プラチナ』＝『ポケットモンスタープラチナ』。『ダイヤモンド・パール』の新バージョンとして、２００８年９月１３日に発売されたDS用ソフト。"
   ]
  },
@@ -540,12 +539,14 @@
   "page_images": 7,
   "share": 0.93,
   "cached": true,
-  "paragraphs": 47,
-  "missing": 2,
-  "missing_chars": 166,
-  "covered": 0.96,
+  "paragraphs": 91,
+  "missing": 4,
+  "missing_chars": 223,
+  "covered": 0.91,
   "missing_sample": [
+   "『ポケモン』のコンサート（※9）をしたことがあるんです。",
    "『ポケモン』のコンサート＝『ポケモン』１０周年を記念し、２００６年に全国４カ所で開催された「ポケモンはっぴーバースデーコンサート」のこと。曲のアレンジは作曲家・",
+   "これもニューヨークのＭｏＭＡ（※10）に行きまして・・・。",
    "ＭｏＭＡ＝ニューヨークにあるモダンアートの殿堂。和名はニューヨーク近代美術館。通称「ＭｏＭＡ（TheMuseumofModernArtの略）」と呼ばれる。"
   ]
  },
@@ -558,14 +559,16 @@
   "page_images": 5,
   "share": 0.9,
   "cached": true,
-  "paragraphs": 34,
-  "missing": 4,
-  "missing_chars": 519,
-  "covered": 0.88,
+  "paragraphs": 83,
+  "missing": 6,
+  "missing_chars": 589,
+  "covered": 0.78,
   "missing_sample": [
    "「ポケモンだいすきクラブ」＝株式会社ポケモンが運営するウェブサイト。ポケモンの公式ファンクラブとして２００万人を超える会員がメンバーに加入している。",
+   "最終的に「ポケモンドリームワールド（※12）」というかたちにまとめました。",
    "「ポケモンドリームワールド」＝インターネットを通じてパソコンからアクセスできる『ポケモンブラック・ホワイト』と連動するウェブサイト「ポケモングローバルリンク」内",
    "『生活リズムDS』＝『歩いてわかる生活リズムDS』。赤外線通信を使って、セットの「生活リズム計」とデータ交換を行い、１分ごとの歩数を記録するソフト。２００８年１",
+   "そのひとつに「ライブキャスター」（※14）というのがありますよね。",
    "「ライブキャスター」＝ニンテンドーDSiやニンテンドーDSiLLのカメラとマイクを使って、「ともだちコード」を交換した友だちと、顔を見ながら会話ができる機能（D"
   ]
  },
@@ -578,12 +581,12 @@
   "page_images": 3,
   "share": 0.97,
   "cached": true,
-  "paragraphs": 22,
+  "paragraphs": 56,
   "missing": 1,
-  "missing_chars": 50,
+  "missing_chars": 28,
   "covered": 0.98,
   "missing_sample": [
-   "たとえば、「わざマシン」（※15）についても「今回は使ってもなくなりませんから」と言われると・・・。"
+   "「わざマシン」＝ポケモンにわざを覚えさせるためのどうぐ。"
   ]
  },
  {
@@ -595,13 +598,14 @@
   "page_images": 5,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 21,
-  "missing": 3,
-  "missing_chars": 291,
-  "covered": 0.88,
+  "paragraphs": 56,
+  "missing": 4,
+  "missing_chars": 188,
+  "covered": 0.89,
   "missing_sample": [
-   "僕も最初はツタージャ（※16）でプレイして、２回目をミジュマル（※16）で、３回目をポカブ（※16）でプレイしているんですけど、３回もプレイしているのに、まだ５",
+   "２回目をミジュマル（※16）で、３回目をポカブ（※16）で",
    "ポカブ・ミジュマル・ツタージャ＝ゲームのはじめに、主人公が１匹だけ選んでもらうことができるポケモンの名前。",
+   "その昔、クリーチャーズ（※17）という会社ができたとき、",
    "株式会社クリーチャーズ＝ポケモンカードなどを制作するほか、『生活リズムDS』などのソフト開発などにも関わる。会長は石原恒和氏、社長は田中宏和氏。本社・東京。"
   ]
  },
@@ -614,7 +618,7 @@
   "page_images": 0,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 39,
+  "paragraphs": 40,
   "missing": 6,
   "missing_chars": 1138,
   "covered": 0.81,
@@ -636,16 +640,17 @@
   "page_images": 7,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 18,
-  "missing": 5,
-  "missing_chars": 483,
-  "covered": 0.93,
+  "paragraphs": 60,
+  "missing": 13,
+  "missing_chars": 1198,
+  "covered": 0.83,
   "missing_sample": [
-   "株式会社ゲームフリーク取締役開発部長ポケットモンスターブラック・ホワイトディレクター増田順一氏ビデオゲームディレクター。『ポケットモンスター』シリーズの第1作か",
-   "ウェブ上で出会ったポケモンをゲーム内に登場させることができるなど、それぞれのプレー結果が深く関係している。",
-   "３匹のポケモンを出すが、戦うのは１匹のみ。毎ターン戦わせるポケモンを選択することになる。",
-   "右端にいるポケモンは、向かって左端には攻撃できないなど、ポケモンの位置が重要となる。",
-   "『ポケットモンスターブラック』『ポケットモンスターホワイト』●発売株式会社ポケモン/販売任天堂株式会社●ジャンルRPG●9月18日発売予定●価格各4800円●プ"
+   "ポケットモンスターブラック・ホワイトディレクター",
+   "ビデオゲームディレクター。『ポケットモンスター』シリーズの第1作からの開発者であると同時に、同社が制作するゲームソフトのすべてに携わっている。職務内容はディレク",
+   "増田：はい。実は今回モチーフになっているのはニューヨーク、ニューヨーク市近くのマンハッタン島の近くなんです。この発想は『ポケモンＢＷ』開発の最初の段階からありま",
+   "自分は音楽をやっていて、三枝成彰（さえぐさしげあき）さん(※１)という作曲家の方に、アレンジをしてもらったことがあるんですよ。“ポケモンだいすきクラブ”の限定イ",
+   "今回“イッシュ地方”という名前をつけていますけど、ポケモンも人も、いろんな人種とかも、かなりゴチャっとなっている……それを客観的に見ると１種類に見える。そこから",
+   "でも……ニューヨークに住んでいる人にいろいろ聞いてみたんですけど、いろんなコトを我慢しているみたいなんですよね（笑）。我慢して、一生懸命いい場所にしようと生活し"
   ]
  },
  {
@@ -664,11 +669,14 @@
   "page_images": 8,
   "share": 0.96,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 34,
+  "missing": 2,
+  "missing_chars": 89,
+  "covered": 0.98,
+  "missing_sample": [
+   "ニンテンドーDS専用ソフト「ポケットモンスターブラック・ホワイト」（ポケモン）",
+   "ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。"
+  ]
  },
  {
   "post": "2011-02-21-interview-nintendodream-bw-bridges-masuda.md",
@@ -686,17 +694,17 @@
   "page_images": 1,
   "share": 1.15,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 8,
-  "missing_chars": 1255,
-  "covered": 0.64,
+  "paragraphs": 21,
+  "missing": 10,
+  "missing_chars": 1324,
+  "covered": 0.63,
   "missing_sample": [
    "EurogamerHowdoyoukeepthePokemongamesfreshandrelevantintherapidlychangingvideogam",
    "EurogamerWiththisversion,whatmakesitfeelfresh?Whatmakesitdifferenttowhat'sgonebe",
    "EurogamerThebattlesystemnowincludesthree-on-threefights.Whyisthisimportant?",
    "BothsidesputoutthreePokemon.ThepositioningisimportantbecausethePokemononthelefti",
    "Thisbattlesysteminvolvesmoreluck.Youdon'tknowuntilyoumakethemoveandtherotationwh",
-   "Ibringupalltheideasatfirst.ThenIstarttothinkaboutwhattheworldwillbelike.Whichreg"
+   "EurogamerHowdoyoudesignanewPokemon?"
   ]
  },
  {
@@ -708,17 +716,16 @@
   "page_images": 15,
   "share": 0.88,
   "cached": true,
-  "paragraphs": 61,
-  "missing": 7,
-  "missing_chars": 1536,
+  "paragraphs": 60,
+  "missing": 5,
+  "missing_chars": 1412,
   "covered": 0.9,
   "missing_sample": [
+   "WrittenbyDrLava,November182019",
    "ThefollowinginterviewwasconductedwithJunichiMasuda,thedirectorofPokemonBlack&Whi",
    "Inthisinterview,MasudaandSugimoridiscussBlack&White’sdevelopmentanddesigndetails",
    "Thatlastquoteisespeciallyrelevantlookingbacknowin2019.Asthisisbeingwritten,Sword",
-   "Butyoualreadyknowaboutallthat—solet’sgettotheinterview.I’veaddedsomeofmyowncomme",
-   "ScreenshotfrommyGen2video,whichcoverstheMobileSystemGB",
-   "ScreenshotfrommyvideoaboutGen5’sscrappeddesigns"
+   "Butyoualreadyknowaboutallthat—solet’sgettotheinterview.I’veaddedsomeofmyowncomme"
   ]
  },
  {
@@ -726,7 +733,22 @@
   "url": "https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda",
   "post_chars": 4155,
   "post_images": 3,
-  "error": "the fetched copy holds no article (3522 chars)"
+  "page_chars": 3522,
+  "page_images": 3,
+  "share": 1.18,
+  "cached": true,
+  "paragraphs": 28,
+  "missing": 19,
+  "missing_chars": 1150,
+  "covered": 0.63,
+  "missing_sample": [
+   "UsernamePasswordRemembermeonthiscomputer",
+   "Posted4Mar201115:00bySvendJoscelyne",
+   "Games:PokémonBlackVersion(DS/DSi)PokémonWhiteVersion(DS/DSi)",
+   "Masudasaidthatthestudio’sreasoningforrebootingthefranchisewashewantedeverybodyto",
+   "Eh,It'sokbutnotthegreatjumpIthoughtitwouldbe.prettymuchthesameold.",
+   "Myapologies...althoughthemaingameisslightlyimproved,theonlinechunkhasbeenreallyr"
+  ]
  },
  {
   "post": "2011-03-05-interview-1up-black-white-how-pokemon-get-made.md",
@@ -737,17 +759,17 @@
   "page_images": 1,
   "share": 0.55,
   "cached": true,
-  "paragraphs": 41,
-  "missing": 32,
-  "missing_chars": 6059,
-  "covered": 0.37,
+  "paragraphs": 33,
+  "missing": 23,
+  "missing_chars": 2586,
+  "covered": 0.61,
   "missing_sample": [
-   "GameFreak'sdesignersdiscussBlackandWhite'smaincharacters.",
+   "ByKevinGifford,11/03/2010",
    "NintendoCelebratingPokemonGold&SilverAnniversarywithMew",
    "PokemonLosingSteamYetStillNumberOneinJapan",
    "NewCampaignOffersFreePokemonasBirthdayPresents",
-   "IcallbullshitPosted:userComment.createdDatebyKLN\"SincewehavethePokemonconstantly",
-   "Theydon'tchangeanimationswhentheyattack.Andtheydon'tlookanydifferentwhentheirsta"
+   "IcallbullshitPosted:userComment.createdDatebyKLN",
+   "Flag|ReplyActually,Posted:11/07/2010byabsolclaw"
   ]
  },
  {
@@ -759,7 +781,7 @@
   "page_images": 4,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 17,
+  "paragraphs": 22,
   "missing": 1,
   "missing_chars": 56,
   "covered": 0.99,
@@ -776,17 +798,17 @@
   "page_images": 7,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 43,
-  "missing": 11,
-  "missing_chars": 1100,
-  "covered": 0.72,
+  "paragraphs": 46,
+  "missing": 19,
+  "missing_chars": 902,
+  "covered": 0.44,
   "missing_sample": [
-   "※1『ニンテンドーｅショップ』＝インターネットを通じて、いろいろなソフトをダウンロードしたり、ＣＭやソフト紹介などの映像を楽しむことができる。※2『ポケモン立体",
-   "『ニンテンドーｅショップ』＝インターネットを通じて、いろいろなソフトをダウンロードしたり、ＣＭやソフト紹介などの映像を楽しむことができる。",
-   "『ポケモン立体図鑑BW』＝２０１１年６月１７日より、『ニンテンドーｅショップ』で配信が開始されたニンテンドー3DSダウンロードソフト。『ポケットモンスターブラッ",
-   "株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国６カ所のポケモンセンターも運営する。２０００年設立。本社・東京。",
-   "※4株式会社クリーチャーズ＝『ポケモンレンジャー』シリーズ（DS）や『ポケパークWii～ピカチュウの大冒険～』（Wii）などのゲームソフトのほか、ポケモンカード",
-   "株式会社クリーチャーズ＝『ポケモンレンジャー』シリーズ（DS）や『ポケパークWii～ピカチュウの大冒険～』（Wii）などのゲームソフトのほか、ポケモンカードなど"
+   "※1：『ニンテンドーｅショップ』＝インターネットを通じて、いろいろなソフトをダウンロードしたり、ＣＭやソフト紹介などの映像を楽しむことができる。",
+   "※2：『ポケモン立体図鑑BW』＝２０１１年６月１７日より、『ニンテンドーｅショップ』で配信が開始されたニンテンドー3DSダウンロードソフト。『ポケットモンスター",
+   "※3：株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国６カ所のポケモンセンターも運営する。２０００年設立。本社・東京。",
+   "※4：株式会社クリーチャーズ＝『ポケモンレンジャー』シリーズ（DS）や『ポケパークWii～ピカチュウの大冒険～』（Wii）などのゲームソフトのほか、ポケモンカー",
+   "ニンテンドー3DSで動くように調整する仕事をしました。",
+   "画像効果のエフェクトなど、細かいところも担当しました。"
   ]
  },
  {
@@ -798,16 +820,14 @@
   "page_images": 2,
   "share": 0.83,
   "cached": true,
-  "paragraphs": 32,
-  "missing": 5,
-  "missing_chars": 849,
-  "covered": 0.72,
+  "paragraphs": 34,
+  "missing": 3,
+  "missing_chars": 431,
+  "covered": 0.65,
   "missing_sample": [
-   "※8『ポケモンスタジアム』＝１９９８年８月、NINTENDO64用ソフトとして発売された対戦＆図鑑ソフト。３Ｄのポケモンで対戦したり、付属の64GBパックから、",
-   "『ポケモンスタジアム』＝１９９８年８月、NINTENDO64用ソフトとして発売された対戦＆図鑑ソフト。３Ｄのポケモンで対戦したり、付属の64GBパックから、ゲー",
-   "『ポケモンスナップ』＝１９９９年３月に、NINTENDO64用ソフトとして発売されたカメラアクションゲーム。",
-   "※10プログラマブルシェーダ＝「シェーダ」とは主に光や影などの表現を行うグラフィックス処理回路やプログラムのこと。プログラマブルシェーダとは、このシェーダにおい",
-   "プログラマブルシェーダ＝「シェーダ」とは主に光や影などの表現を行うグラフィックス処理回路やプログラムのこと。プログラマブルシェーダとは、このシェーダにおいてどの"
+   "※8：『ポケモンスタジアム』＝１９９８年８月、NINTENDO64用ソフトとして発売された対戦＆図鑑ソフト。３Ｄのポケモンで対戦したり、付属の64GBパックから",
+   "※9：『ポケモンスナップ』＝１９９９年３月に、NINTENDO64用ソフトとして発売されたカメラアクションゲーム。",
+   "※10：プログラマブルシェーダ＝「シェーダ」とは主に光や影などの表現を行うグラフィックス処理回路やプログラムのこと。プログラマブルシェーダとは、このシェーダにお"
   ]
  },
  {
@@ -819,13 +839,12 @@
   "page_images": 4,
   "share": 0.94,
   "cached": true,
-  "paragraphs": 29,
-  "missing": 2,
-  "missing_chars": 191,
-  "covered": 0.91,
+  "paragraphs": 30,
+  "missing": 1,
+  "missing_chars": 98,
+  "covered": 0.89,
   "missing_sample": [
-   "※11ビクティニ＝ビクティニの「ポケモンＡＲマーカー」は、現在公開中のポケモン映画「ビクティニと黒き英雄ゼクロム」「ビクティニと白き英雄レシラム」鑑賞時に映画館",
-   "ビクティニ＝ビクティニの「ポケモンＡＲマーカー」は、現在公開中のポケモン映画「ビクティニと黒き英雄ゼクロム」「ビクティニと白き英雄レシラム」鑑賞時に映画館で配布"
+   "※11：ビクティニ＝ビクティニの「ポケモンＡＲマーカー」は、現在公開中のポケモン映画「ビクティニと黒き英雄ゼクロム」「ビクティニと白き英雄レシラム」鑑賞時に映画"
   ]
  },
  {
@@ -837,14 +856,13 @@
   "page_images": 4,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 27,
-  "missing": 3,
-  "missing_chars": 202,
-  "covered": 0.91,
+  "paragraphs": 28,
+  "missing": 2,
+  "missing_chars": 106,
+  "covered": 0.86,
   "missing_sample": [
-   "※12『スーパーポケモンスクランブル』＝ニンテンドー3DS専用ソフトとして、２０１１年８月１１日に発売のアクションゲーム。※13『スーパーポケモンスクランブル』",
-   "『スーパーポケモンスクランブル』＝ニンテンドー3DS専用ソフトとして、２０１１年８月１１日に発売のアクションゲーム。",
-   "『スーパーポケモンスクランブル』の早期購入特典は一部店舗のみでの実施となります。"
+   "※12：『スーパーポケモンスクランブル』＝ニンテンドー3DS専用ソフトとして、２０１１年８月１１日に発売のアクションゲーム。",
+   "※13：『スーパーポケモンスクランブル』の早期購入特典は一部店舗のみでの実施となります。"
   ]
  },
  {
@@ -856,15 +874,14 @@
   "page_images": 6,
   "share": 0.9,
   "cached": true,
-  "paragraphs": 34,
-  "missing": 4,
-  "missing_chars": 546,
-  "covered": 0.85,
+  "paragraphs": 49,
+  "missing": 3,
+  "missing_chars": 279,
+  "covered": 0.82,
   "missing_sample": [
-   "※1Wiiウェア＝店頭で販売されていないWii専用の新作ソフトを、インターネットを通じてWiiで配信するサービス。２００８年３月からサービス開始。※2『乱戦！ポ",
-   "Wiiウェア＝店頭で販売されていないWii専用の新作ソフトを、インターネットを通じてWiiで配信するサービス。２００８年３月からサービス開始。",
-   "『乱戦！ポケモンスクランブル』＝２００９年６月に配信された、WiiショッピングチャンネルからWiiウェアとしてダウンロード購入できるアクションゲーム。",
-   "有限会社アンブレラ＝１９９６年に、東京で設立されたゲームソフト開発会社。『乱戦！ポケモンスクランブル』のほか、『ピカチュウげんきでちゅう』（N64）、『ポケモン"
+   "※1：Wiiウェア＝店頭で販売されていないWii専用の新作ソフトを、インターネットを通じてWiiで配信するサービス。２００８年３月からサービス開始。",
+   "※2：『乱戦！ポケモンスクランブル』＝２００９年６月に配信された、WiiショッピングチャンネルからWiiウェアとしてダウンロード購入できるアクションゲーム。",
+   "※3：有限会社アンブレラ＝１９９６年に、東京で設立されたゲームソフト開発会社。『乱戦！ポケモンスクランブル』のほか、『ピカチュウげんきでちゅう』（N64）、『ポ"
   ]
  },
  {
@@ -876,17 +893,14 @@
   "page_images": 3,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 37,
-  "missing": 7,
-  "missing_chars": 421,
-  "covered": 0.86,
+  "paragraphs": 41,
+  "missing": 3,
+  "missing_chars": 191,
+  "covered": 0.85,
   "missing_sample": [
-   "※4『ポケモンダッシュ』＝２００４年１２月に、ニンテンドーDSと同時に発売されたアクションレースゲーム。",
-   "『ポケモンダッシュ』＝２００４年１２月に、ニンテンドーDSと同時に発売されたアクションレースゲーム。",
-   "そうです。で、追加したもうひとつが「」で、数十匹もの敵のポケモンたちと次々にぶつかって戦うモードです。",
-   "※5ポケモンカード＝ポケモンバトルをカードで再現したトレーディングカードゲーム。１９９６年の発売以降、世界中でたくさんの種類のカードが販売されている。",
-   "ポケモンカード＝ポケモンバトルをカードで再現したトレーディングカードゲーム。１９９６年の発売以降、世界中でたくさんの種類のカードが販売されている。",
-   "※6『ポケットモンスターブラック・ホワイト』＝２０１０年９月に、ニンテンドーDS用ソフトとして発売された、シリーズ最新作。"
+   "※4：『ポケモンダッシュ』＝２００４年１２月に、ニンテンドーDSと同時に発売されたアクションレースゲーム。",
+   "※5：ポケモンカード＝ポケモンバトルをカードで再現したトレーディングカードゲーム。１９９６年の発売以降、世界中でたくさんの種類のカードが販売されている。",
+   "※6：『ポケットモンスターブラック・ホワイト』＝２０１０年９月に、ニンテンドーDS用ソフトとして発売された、シリーズ最新作。"
   ]
  },
  {
@@ -898,17 +912,16 @@
   "page_images": 3,
   "share": 0.83,
   "cached": true,
-  "paragraphs": 40,
-  "missing": 9,
-  "missing_chars": 858,
-  "covered": 0.72,
+  "paragraphs": 43,
+  "missing": 5,
+  "missing_chars": 440,
+  "covered": 0.7,
   "missing_sample": [
-   "※7マリオクラブ＝マリオクラブ株式会社。任天堂の開発中ソフトのデバッグやテストプレイを行う。",
-   "マリオクラブ＝マリオクラブ株式会社。任天堂の開発中ソフトのデバッグやテストプレイを行う。",
-   "※8「すれちがい通信」＝電源を入れたままのDSや3DSを持ち歩くことで、すれちがった人と、データのやりとりができる通信システムのこと。ニンテンドー3DSでは、ソ",
-   "「すれちがい通信」＝電源を入れたままのDSや3DSを持ち歩くことで、すれちがった人と、データのやりとりができる通信システムのこと。ニンテンドー3DSでは、ソフト",
-   "※9『ポケモン立体図鑑BW』＝ニンテンドー3DSから接続できる「ニンテンドーｅショップ」で配信されている、ポケモンの図鑑ソフト（無料）。『ポケットモンスターブラ",
-   "『ポケモン立体図鑑BW』＝ニンテンドー3DSから接続できる「ニンテンドーｅショップ」で配信されている、ポケモンの図鑑ソフト（無料）。『ポケットモンスターブラック"
+   "※7：マリオクラブ＝マリオクラブ株式会社。任天堂の開発中ソフトのデバッグやテストプレイを行う。",
+   "※8：「すれちがい通信」＝電源を入れたままのDSや3DSを持ち歩くことで、すれちがった人と、データのやりとりができる通信システムのこと。ニンテンドー3DSでは、",
+   "※9：『ポケモン立体図鑑BW』＝ニンテンドー3DSから接続できる「ニンテンドーｅショップ」で配信されている、ポケモンの図鑑ソフト（無料）。『ポケットモンスターブ",
+   "※10：「いつの間に通信」＝ニンテンドー3DSが、インターネット無線アクセスポイントを探して自動的に通信を行い、さまざまな情報やコンテンツを受信する機能。",
+   "※11：『スーパーポケモンスクランブル』の早期購入特典は一部店舗のみでの実施となります。"
   ]
  },
  {
@@ -920,7 +933,7 @@
   "page_images": 4,
   "share": 0.97,
   "cached": true,
-  "paragraphs": 25,
+  "paragraphs": 40,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -949,15 +962,14 @@
   "page_images": 5,
   "share": 0.78,
   "cached": true,
-  "paragraphs": 16,
-  "missing": 4,
-  "missing_chars": 1008,
-  "covered": 0.69,
+  "paragraphs": 15,
+  "missing": 3,
+  "missing_chars": 699,
+  "covered": 0.77,
   "missing_sample": [
    "ポケモンが企画され、つくりだされ、商品として世に出てから、ずっと育て続けてきた代表取締役社長・石原恒和。これまで、どんな思いでポケモンのプロデュースに携わってき",
    "「株式会社ポケモン」という社名は、この会社が何をする会社か、他のどんな会社よりも明確に表現していると思います。この社名を聞いて、ドラえもんの仕事をしている会社だ",
-   "石原恒和1957年三重県鳥羽市に生まれる。1983年筑波大学大学院芸術研究科修了。ゲームプロデューサーとして数々のゲームソフト開発に携わり、1995年に株式会社",
-   "1957年三重県鳥羽市に生まれる。1983年筑波大学大学院芸術研究科修了。ゲームプロデューサーとして数々のゲームソフト開発に携わり、1995年に株式会社クリーチ"
+   "石原恒和：1957年三重県鳥羽市に生まれる。1983年筑波大学大学院芸術研究科修了。ゲームプロデューサーとして数々のゲームソフト開発に携わり、1995年に株式会"
   ]
  },
  {
@@ -969,17 +981,17 @@
   "page_images": 5,
   "share": 0.78,
   "cached": true,
-  "paragraphs": 30,
-  "missing": 9,
-  "missing_chars": 770,
-  "covered": 0.72,
+  "paragraphs": 44,
+  "missing": 12,
+  "missing_chars": 749,
+  "covered": 0.53,
   "missing_sample": [
-   "はい。株式会社ポケモン（※1）の石原です。『ダイヤモンド・パール』（※2）のあとに『プラチナ』（※3）が、『ルビー・サファイア』（※4）のあとに『エメラルド』（",
+   "『ダイヤモンド・パール』（※2）のあとに『プラチナ』（※3）が、",
+   "『ルビー・サファイア』（※4）のあとに『エメラルド』（※5）が出たように、",
+   "今回も『ポケモンブラック・ホワイト』（※6）のあとに",
    "株式会社ポケモン＝『ポケモン』のブランドマネジメントを行うほか、現在全国７か所のポケモンセンターも運営する。２０００年設立。本社・東京。",
    "『ダイヤモンド・パール』＝『ポケットモンスターダイヤモンド・パール』。２００６年９月、ニンテンドーDS用ソフトとして発売されたＲＰＧ。",
-   "『プラチナ』＝『ポケットモンスタープラチナ』。『ポケットモンスターダイヤモンド・パール』の新バージョンとして、２００８年９月、ニンテンドーDS用ソフトとして発売",
-   "『ルビー・サファイア』＝『ポケットモンスタールビー・サファイア』。２００２年１１月、ゲームボーイアドバンス用ソフトとして発売されたＲＰＧ。",
-   "『エメラルド』＝『ポケットモンスターエメラルド』。『ポケットモンスタールビー・サファイア』の新バージョンとして、２００４年９月、ゲームボーイアドバンス用ソフトと"
+   "『プラチナ』＝『ポケットモンスタープラチナ』。『ポケットモンスターダイヤモンド・パール』の新バージョンとして、２００８年９月、ニンテンドーDS用ソフトとして発売"
   ]
  },
  {
@@ -991,17 +1003,17 @@
   "page_images": 4,
   "share": 0.83,
   "cached": true,
-  "paragraphs": 30,
-  "missing": 7,
-  "missing_chars": 515,
-  "covered": 0.83,
+  "paragraphs": 52,
+  "missing": 10,
+  "missing_chars": 517,
+  "covered": 0.68,
   "missing_sample": [
+   "ポケモンワールドチャンピオンシップス（※10）に",
    "『金・銀』＝『ポケットモンスター金・銀』。１９９９年１１月、ゲームボーイ用ソフトとして発売されたＲＰＧ。ゲームボーイカラーにも対応していたため、色違いのポケモン",
    "ポケモンワールドチャンピオンシップス＝『ポケットモンスター』のゲーム、およびカードゲームの世界一を決める公式大会。",
    "このときすでに、ブラジルではポケモンカードを販売しておりました。事実とは異なる発言となっていますことをお詫びいたします。（２０１２年６月１４日）",
-   "ポケモングローバルリンク＝インターネットを通じてパソコンからアクセスできる、『ポケモンブラック・ホワイト』と連動するウェブサイト。",
-   "ワイヤレスアダプタ＝無線での通信プレイを可能にした、ゲームボーイアドバンスの周辺機器。２００４年１月２９日、『ファイアレッド・リーフグリーン』に同梱されて登場。",
-   "はい。おそらく今回は、マリオクラブ（※14）担当者が絶句するところからはじまっているはずです（笑）。多くの人を集めないと、デバッグ作業ができませんからね。増田さ"
+   "ポケモングローバルリンク（※12）につながる遊びや、",
+   "“ハイリンク”＝『ポケモンブラック・ホワイト』に搭載された無線通信機能の名称。"
   ]
  },
  {
@@ -1013,12 +1025,12 @@
   "page_images": 4,
   "share": 0.93,
   "cached": true,
-  "paragraphs": 27,
+  "paragraphs": 41,
   "missing": 2,
-  "missing_chars": 147,
-  "covered": 0.94,
+  "missing_chars": 94,
+  "covered": 0.92,
   "missing_sample": [
-   "いままでは、『ポケモンスナップ』（※15）のように、本編以外で『ポケモン』の新たな魅力を表現してきました。でも、そういう要素を本編で入れてみたかったんですね。",
+   "いままでは、『ポケモンスナップ』（※15）のように、",
    "『ポケモンスナップ』＝１９９９年３月に、NINTENDO64用ソフトとして発売されたカメラアクションゲーム。岩田が制作にかかわっていた。"
   ]
  },
@@ -1031,11 +1043,12 @@
   "page_images": 3,
   "share": 3.28,
   "cached": true,
-  "paragraphs": 21,
-  "missing": 1,
-  "missing_chars": 70,
-  "covered": 0.96,
+  "paragraphs": 27,
+  "missing": 2,
+  "missing_chars": 98,
+  "covered": 0.87,
   "missing_sample": [
+   "最初の街にポケモンセンター（※17）を置いてみたんです。",
    "ポケモンセンター＝『ポケットモンスター』シリーズの街にある施設。バトルで傷ついたポケモンを回復したり、ポケモンを預けたり連れ出したりできる。"
   ]
  },
@@ -1048,11 +1061,13 @@
   "page_images": 5,
   "share": 1.09,
   "cached": true,
-  "paragraphs": 17,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 19,
+  "missing": 1,
+  "missing_chars": 30,
+  "covered": 0.99,
+  "missing_sample": [
+   "→増田さんが極秘のイメージビジュアルを公開！（2ページ目へ）"
+  ]
  },
  {
   "post": "2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno.md",
@@ -1085,7 +1100,7 @@
   "page_images": 0,
   "share": 0.66,
   "cached": true,
-  "paragraphs": 48,
+  "paragraphs": 49,
   "missing": 15,
   "missing_chars": 3929,
   "covered": 0.64,
@@ -1107,17 +1122,17 @@
   "page_images": 4,
   "share": 0.76,
   "cached": true,
-  "paragraphs": 35,
-  "missing": 13,
-  "missing_chars": 1648,
-  "covered": 0.61,
+  "paragraphs": 25,
+  "missing": 8,
+  "missing_chars": 840,
+  "covered": 0.34,
   "missing_sample": [
-   "※1株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国７か所のポケモンセンターも運営する。２０００年設立。本社・東京。※2株式会社スパイク・チュン",
-   "株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国７か所のポケモンセンターも運営する。２０００年設立。本社・東京。",
-   "株式会社スパイク・チュンソフト＝『ポケモン不思議のダンジョン』『風来のシレン』などゲームの企画・開発・販売・運営を行う。２０１２年設立。本社・東京。",
-   "※3『トルネコの大冒険不思議のダンジョン』＝ダンジョンＲＰＧ『不思議のダンジョン』シリーズのひとつ。シリーズ１作目の『トルネコの大冒険不思議のダンジョン』は１９",
-   "『トルネコの大冒険不思議のダンジョン』＝ダンジョンＲＰＧ『不思議のダンジョン』シリーズのひとつ。シリーズ１作目の『トルネコの大冒険不思議のダンジョン』は１９９３",
-   "『風来のシレン』＝ダンジョンＲＰＧ『不思議のダンジョン』シリーズのひとつ。シリーズ１作目の『不思議のダンジョン２風来のシレン』は１９９５年１２月、スーパーファミ"
+   "※1：株式会社ポケモン＝ポケモンのブランドマネジメントを行うほか、全国７か所のポケモンセンターも運営する。２０００年設立。本社・東京。",
+   "※2：株式会社スパイク・チュンソフト＝『ポケモン不思議のダンジョン』『風来のシレン』などゲームの企画・開発・販売・運営を行う。２０１２年設立。本社・東京。",
+   "※3：『トルネコの大冒険不思議のダンジョン』＝ダンジョンＲＰＧ『不思議のダンジョン』シリーズのひとつ。シリーズ１作目の『トルネコの大冒険不思議のダンジョン』は１",
+   "※4：『風来のシレン』＝ダンジョンＲＰＧ『不思議のダンジョン』シリーズのひとつ。シリーズ１作目の『不思議のダンジョン２風来のシレン』は１９９５年１２月、スーパー",
+   "※5：『ポケモン不思議のダンジョン』シリーズ＝『ポケットモンスター』をベースとした『不思議のダンジョン』シリーズのひとつ。１作目『ポケモン不思議のダンジョン青の",
+   "※6：『テトリス２＋ボンブリス』＝１９９１年１２月、ファミコン用ソフトとして発売されたパズルゲーム。プロデューサーとして石原氏が、ディレクターとして中村光一氏("
   ]
  },
  {
@@ -1129,17 +1144,17 @@
   "page_images": 3,
   "share": 0.69,
   "cached": true,
-  "paragraphs": 37,
-  "missing": 10,
-  "missing_chars": 1405,
-  "covered": 0.62,
+  "paragraphs": 20,
+  "missing": 13,
+  "missing_chars": 894,
+  "covered": 0.17,
   "missing_sample": [
-   "※9“シレンジャー”＝『不思議のダンジョン』シリーズのひとつである『風来のシレン』シリーズに挑み続ける挑戦者、『風来のシレン』愛好家のことを指す。",
-   "“シレンジャー”＝『不思議のダンジョン』シリーズのひとつである『風来のシレン』シリーズに挑み続ける挑戦者、『風来のシレン』愛好家のことを指す。",
-   "※10『時』『闇』『空』＝『ポケモン不思議のダンジョン時の探検隊・闇の探検隊』。２００７年、ニンテンドーDS用ソフトとして発売された『ポケモン不思議のダンジョン",
-   "『時』『闇』『空』＝『ポケモン不思議のダンジョン時の探検隊・闇の探検隊』。２００７年、ニンテンドーDS用ソフトとして発売された『ポケモン不思議のダンジョン』シリ",
-   "※11ＡＲ＝AugmentedReality（拡張現実）の略。現実の映像に仮想の情報を重ね合わせる技術。※12「マグナゲート」＝「はっけん！マグナゲート」。ニン",
-   "ＡＲ＝AugmentedReality（拡張現実）の略。現実の映像に仮想の情報を重ね合わせる技術。"
+   "シナリオをどう盛り込むかは、非常に難しいんです。",
+   "その瞬間から、いつもと違うストーリーがはじまるんです。",
+   "石原さんはきっと、「やりたかったことができた」という",
+   "※9：“シレンジャー”＝『不思議のダンジョン』シリーズのひとつである『風来のシレン』シリーズに挑み続ける挑戦者、『風来のシレン』愛好家のことを指す。",
+   "※10：『時』『闇』『空』＝『ポケモン不思議のダンジョン時の探検隊・闇の探検隊』。２００７年、ニンテンドーDS用ソフトとして発売された『ポケモン不思議のダンジョ",
+   "ジャイロセンサーも、宝探しのミニゲームに使いました。"
   ]
  },
  {
@@ -1151,16 +1166,17 @@
   "page_images": 3,
   "share": 0.78,
   "cached": true,
-  "paragraphs": 31,
-  "missing": 5,
-  "missing_chars": 465,
-  "covered": 0.83,
+  "paragraphs": 18,
+  "missing": 14,
+  "missing_chars": 533,
+  "covered": 0.17,
   "missing_sample": [
-   "※15すれちがい通信＝電源を入れたまま本体を持ち歩くことで、すれちがった人とデータのやりとりができる通信機能。",
-   "すれちがい通信＝電源を入れたまま本体を持ち歩くことで、すれちがった人とデータのやりとりができる通信機能。",
-   "※16『ドラゴンクエスト』をつくられていたときから＝１９８６年５月に発売されたシリーズ１作目から５作目『ドラゴンクエストＶ天空の花嫁』まで、チュンソフトがプログ",
-   "『ドラゴンクエスト』をつくられていたときから＝１９８６年５月に発売されたシリーズ１作目から５作目『ドラゴンクエストＶ天空の花嫁』まで、チュンソフトがプログラムミ",
-   "ＵＩ＝ユーザー・インターフェイスの略称。コンピューターを操作するときの画面表示、ウィンドウ、メニューなどの表現や操作感を指す。"
+   "※15：すれちがい通信＝電源を入れたまま本体を持ち歩くことで、すれちがった人とデータのやりとりができる通信機能。",
+   "「横道にそれながら、進んでいただければ」と思います。",
+   "たとえば、丸いものを撮影してダンジョンに入って、",
+   "そこで集めたどうぐを本編の主人公に送ってあげたら、",
+   "「今回がいちばんいい」ということはないんですが、",
+   "と思えるものになればいいな、というのを目指して書きました。"
   ]
  },
  {
@@ -1172,11 +1188,18 @@
   "page_images": 5,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 11,
+  "missing": 9,
+  "missing_chars": 228,
+  "covered": 0.18,
+  "missing_sample": [
+   "チャレンジする以外のストレスを極力取り除くよう、",
+   "「お前がそうくるなら、こっちにも考えがあるぜ！」",
+   "このシリーズが生まれたんじゃないか？」と感じています。",
+   "それと、従来の『ローグ』や『トルネコ』を好きな人が",
+   "でも3DSの表現力や、アニメーションの説得力や、",
+   "序盤の主役級に押し上げたのか・・・とかね（笑）。"
+  ]
  },
  {
   "post": "2012-11-23-interview-gi-2012-burning-questions.md",
@@ -1194,7 +1217,7 @@
   "page_images": 7,
   "share": 1.16,
   "cached": true,
-  "paragraphs": 4,
+  "paragraphs": 30,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1224,7 +1247,7 @@
   "page_images": 5,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 14,
+  "paragraphs": 26,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1239,7 +1262,7 @@
   "page_images": 4,
   "share": 0.95,
   "cached": true,
-  "paragraphs": 30,
+  "paragraphs": 32,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1265,14 +1288,30 @@
   "url": "https://www.4gamer.net/games/226/G022607/20131007064/",
   "post_chars": 6294,
   "post_images": 10,
-  "error": "the fetched copy holds no article (6456 chars)"
+  "page_chars": 6456,
+  "page_images": 20,
+  "share": 0.97,
+  "cached": true,
+  "paragraphs": 56,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2013-10-10-interview-gamasutra-xy-monster-design.md",
   "url": "https://www.gamedeveloper.com/production/how-pokemon-are-born-designing-the-series-iconic-monsters",
   "post_chars": 3297,
   "post_images": 0,
-  "error": "the fetched copy holds no article (3208 chars)"
+  "page_chars": 3208,
+  "page_images": 1,
+  "share": 1.03,
+  "cached": true,
+  "paragraphs": 0,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release.md",
@@ -1283,13 +1322,11 @@
   "page_images": 0,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 16,
-  "missing": 1,
-  "missing_chars": 66,
-  "covered": 0.96,
-  "missing_sample": [
-   "そもそも、今回は長年目指してきた世界同時発売（※1）がシリーズではじめて実現することになりましたが、石原さんはどんなお気持ちですか？"
-  ]
+  "paragraphs": 10,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2013-10-10-interview-iwata-asks-xy-chapter-2-reborn-pokemon-3d-amie.md",
@@ -1300,11 +1337,13 @@
   "page_images": 0,
   "share": 1.06,
   "cached": true,
-  "paragraphs": 24,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 10,
+  "missing": 1,
+  "missing_chars": 35,
+  "covered": 0.93,
+  "missing_sample": [
+   "最初の「PokémonDirect」（※2）の放映をお知らせしたあと、"
+  ]
  },
  {
   "post": "2013-10-10-interview-iwata-asks-xy-chapter-3-new-battles-fairy-type.md",
@@ -1315,12 +1354,12 @@
   "page_images": 0,
   "share": 1.04,
   "cached": true,
-  "paragraphs": 19,
+  "paragraphs": 10,
   "missing": 1,
-  "missing_chars": 42,
-  "covered": 0.97,
+  "missing_chars": 27,
+  "covered": 0.93,
   "missing_sample": [
-   "そうですね。まず「群れバトル」ですけど、“生活感”が出るように意識してつくりました。"
+   "「スカイバトル」（※7）と「群れバトル」（※8）という"
   ]
  },
  {
@@ -1332,7 +1371,7 @@
   "page_images": 0,
   "share": 1.05,
   "cached": true,
-  "paragraphs": 15,
+  "paragraphs": 5,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1354,7 +1393,7 @@
   "page_images": 5,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 34,
+  "paragraphs": 36,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1384,17 +1423,17 @@
   "page_images": 10,
   "share": 0.54,
   "cached": true,
-  "paragraphs": 24,
-  "missing": 24,
-  "missing_chars": 1599,
-  "covered": 0.0,
+  "paragraphs": 47,
+  "missing": 26,
+  "missing_chars": 1743,
+  "covered": 0.62,
   "missing_sample": [
    "3DSレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
    "ポケモンXYディレクター増田順一氏。増田氏はゲームのディレクター以外に，作曲などでサウンドにも深く関わっている",
    "ポケモンXYサウンドディレクター景山将太氏。シリーズには「ポケットモンスターハートゴールド・ソウルシルバー」より参加",
    "プラターヌ博士の設定資料を見せながら解説する増田氏。この資料の一部は攻略本やサウンドトラックCDにも掲載されている",
-   "(C)2013Pokémon．(C)1995-2013Nintendo/CreaturesInc．/GAMEFREAKinc．ポケットモンスター・ポケモン・Po",
-   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ"
+   "景山氏が生演奏する楽曲は，氏がお気に入りという曲から，会場のリクエストによって選ばれた。今回演奏されたのは「ミアレシティ」「クノエシティ」のピアノアレンジバージ",
+   "景山氏が演奏する様子を増田氏が写真におさめるシーンも。リクエスト曲以外にも，「プラターヌ博士のテーマ」も特別に演奏してくれた"
   ]
  },
  {
@@ -1406,17 +1445,17 @@
   "page_images": 4,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 22,
-  "missing": 6,
-  "missing_chars": 681,
-  "covered": 0.75,
+  "paragraphs": 25,
+  "missing": 9,
+  "missing_chars": 707,
+  "covered": 0.74,
   "missing_sample": [
    "▲「ポケモーニング！」というおなじみのあいさつとともに、ファンの前に姿を見せた増田さんと景山さん。",
    "▲キーボードでの演奏を交えながら、増田さんと景山さんが楽曲についてトークを繰り広げた。",
    "そんな懐かしい『ポケットモンスター赤・緑』はゲームボーイのタイトルだ。ゲームボーイの音楽は3音とノイズで構成されているが、ノイズはポケモンの鳴き声などに使ってい",
    "曲を直接お届けできなくて申しわけないが、その中の1音をベースにして、8分で「ドゥデドゥデドゥデ――」と構成するのが『ポケモン』ミュージックの秘訣だという。増田さ",
    "そんな貴重な設定資料は、発売中の攻略本『ポケットモンスターX・Y公式ガイドブック完全ストーリー攻略ガイド』や、サントラCD『ニンテンドー3DSポケモンX・Yスー",
-   "(C)2013Pokémon.(C)1995-2013Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po"
+   "→あの人気キャラクターの設定資料が！（2ページ目へ）"
   ]
  },
  {
@@ -1428,17 +1467,12 @@
   "page_images": 19,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 14,
-  "missing": 6,
-  "missing_chars": 568,
-  "covered": 0.79,
+  "paragraphs": 9,
+  "missing": 1,
+  "missing_chars": 52,
+  "covered": 0.98,
   "missing_sample": [
-   "▲午前10時30分に抽選券が配布され、運がよかった計150名（各回50名）がファンミーティングに参加できた。",
-   "増田順一氏（ゲームフリーク・ディレクター）『ポケットモンスターＸ・Ｙ』ディレクター株式会社ゲームフリーク創立メンバーの一員として、これまでの『ポケットモンスター",
-   "景山将太氏（ゲームフリーク・サウンドディレクター）『ポケットモンスターＸ・Ｙ』サウンドディレクター2007年、株式会社ゲームフリークに入社し、『ポケットモンスタ",
-   "▲設定資料も公開された。ゲーム制作の場合、音楽作りの前にゲーム画面が完成していることはあまりなく、どんな音楽にしたらいいかイメージを膨らませられる設定資料は、か",
-   "最後は、景山氏がこのイベントのためにアレンジしたという楽曲が3曲披露され、盛況のままイベントは終了した。",
-   "▲知らない者どうしが、この時代に、このゲームのファンであることで、イベントに集まって出会えた奇跡を記念し、写真撮影。"
+   "最後は、景山氏がこのイベントのためにアレンジしたという楽曲が3曲披露され、盛況のままイベントは終了した。"
   ]
  },
  {
@@ -1450,7 +1484,7 @@
   "page_images": 10,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 53,
+  "paragraphs": 56,
   "missing": 1,
   "missing_chars": 117,
   "covered": 0.99,
@@ -1467,7 +1501,7 @@
   "page_images": 2,
   "share": 1.23,
   "cached": true,
-  "paragraphs": 19,
+  "paragraphs": 22,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1482,12 +1516,16 @@
   "page_images": 9,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 11,
-  "missing": 2,
-  "missing_chars": 237,
-  "covered": 0.91,
+  "paragraphs": 16,
+  "missing": 6,
+  "missing_chars": 430,
+  "covered": 0.85,
   "missing_sample": [
    "『ポケットモンスターＸ・Ｙ』の世界同時発売にあたって、プロジェクトマネジメントに携わられていたとのことですが、本プロジェクトはどのように進められていったのでしょ",
+   "2010年12月末時点での、米大陸でのニンテンドーDSの普及台数は5428万台。",
+   "（アメリカでの『ポケットモンスターブラック・ホワイト』の発売は2011年3月）",
+   "（いずれも任天堂株式会社決算短信より）注２：NintendoofAustraliaHPより。",
+   "http://www.nintendo.com.au/index.php?action=news&nid;=3077&pageID;=6",
    "2013年1月8日、「PokémonDirect」にて、世界同時発売されることが明らかになった『ポケットモンスターＸ・Ｙ』。10月12日の発売日には、日本、アメ"
   ]
  },
@@ -1500,11 +1538,15 @@
   "page_images": 42,
   "share": 1.1,
   "cached": true,
-  "paragraphs": 21,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 30,
+  "missing": 3,
+  "missing_chars": 81,
+  "covered": 0.99,
+  "missing_sample": [
+   "社長室に異動し組織人事・海外業務（TPCi)を担当",
+   "「こどもの明日を創るプロジェクト」をリーダーとして兼務",
+   "ライセンシング部監修担当（現開発本部ブランド管理部）に異動"
+  ]
  },
  {
   "post": "2014-05-01-interview-tpc-youth-roundtable.md",
@@ -1515,7 +1557,7 @@
   "page_images": 17,
   "share": 1.23,
   "cached": true,
-  "paragraphs": 27,
+  "paragraphs": 31,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1530,7 +1572,7 @@
   "page_images": 9,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 26,
+  "paragraphs": 27,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1545,11 +1587,18 @@
   "page_images": 0,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 88,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 114,
+  "missing": 11,
+  "missing_chars": 984,
+  "covered": 0.92,
+  "missing_sample": [
+   "「クインティ」のメニュー画面。バーチャルコンソール化を心待ちにしていた人も多いのでは？",
+   "左がゲームフリークの取締役、開発本部部長を務める増田順一氏。右が同じくゲームフリークの取締役でありアートディレクターの杉森建氏。お2人とも25年前に「クインティ",
+   "面セレクト。周りにある8面はどこからでも自由に始めることができる。いずれも特徴的な仕掛けが満載。アイディアに満ちあふれている",
+   "メンバーの作りたいという気持ちが溢れ、様々なアイディアが「クインティ」に注ぎ込まれた",
+   "当時を振り返る杉森氏。アーケードゲームが好きだったメンバーは、当時台頭しつつあった「家庭用ゲーム機らしい作品」ではなく、あえてアーケードゲームテイストを目指した",
+   "2年～3年ぶりにプレイする杉森氏とかなり久しぶりという増田氏。「クインティ」は2人同時プレイの場合、自分がパネルをめくるとその効果は敵だけでなく味方にも発生する"
+  ]
  },
  {
   "post": "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras.md",
@@ -1574,17 +1623,17 @@
   "page_images": 16,
   "share": 1.01,
   "cached": true,
-  "paragraphs": 59,
-  "missing": 9,
-  "missing_chars": 570,
-  "covered": 0.93,
+  "paragraphs": 76,
+  "missing": 15,
+  "missing_chars": 766,
+  "covered": 0.91,
   "missing_sample": [
    "—–iDeameKids31/10ShigeruOhmoriyJunishiMasuda—-",
    "¿Cómoosconvertisteisencreadoresdevideojuegos?",
+   "¿CómoseosocurrennuevosPokémon?",
+   "¿QuéimpresióntenéisdeBarcelona?",
    "¿Quéprofesionesdistintasintervienenenlacreacióndeunvideojuego?",
-   "¿TenéisganasdeparticiparenelSalóndelManga?",
-   "EnEspañalospadrescontrolanmuchoeltiempoparavideojuegosdesushijos.¿EsigualenJapón",
-   "¿Esmaloviciarseavideojuegos?(LOSNINTENDODELMAL!)"
+   "¿TenéisganasdeparticiparenelSalóndelManga?"
   ]
  },
  {
@@ -1596,12 +1645,13 @@
   "page_images": 21,
   "share": 1.13,
   "cached": true,
-  "paragraphs": 33,
-  "missing": 1,
-  "missing_chars": 182,
-  "covered": 0.97,
+  "paragraphs": 39,
+  "missing": 2,
+  "missing_chars": 407,
+  "covered": 0.94,
   "missing_sample": [
-   "白鷗大学経営学部経営学部長,教授専門は国際経営における異文化マネジメント。企業が、製品やサービス、人材、経営スタイルを異なる文化環境のなかでどのように展開してい"
+   "長田英樹氏HidekiOsada：ブランドカンパニー「ファミ通.com」編集長携帯電話用ゲーム情報サイト「ファミ通DX」編集長、『週刊ファミ通』編集長などを歴任",
+   "藤井健氏TakeshiFujii：白鷗大学経営学部経営学部長,教授専門は国際経営における異文化マネジメント。企業が、製品やサービス、人材、経営スタイルを異なる文"
   ]
  },
  {
@@ -1613,17 +1663,17 @@
   "page_images": 41,
   "share": 0.22,
   "cached": true,
-  "paragraphs": 29,
-  "missing": 14,
-  "missing_chars": 1601,
-  "covered": 0.35,
+  "paragraphs": 185,
+  "missing": 123,
+  "missing_chars": 11892,
+  "covered": 0.24,
   "missing_sample": [
    "Home-XY&ZMovieInfo-EventReports-PlaybacktheXY&Z-PokémonQ-QuoteCentral-LetterChan",
-   "DésserCity(DistantView)DésserCity(DistantView/Night)",
-   "Mary,thegirlwhogrewuptogetherwithHoopa.Barza'syoungersister.SheisplayedbyShokoNa",
-   "Atravelerwithanincrediblymajesticfeeltohim.HeisthepersonthatsealedHoopa(UnboundF",
-   "MainStageBeastRoadThisisthesettingoftheshort\"PikachuandthePokémonMusicians\"!What",
-   "ArkhēValleyTheInhabitantsofArkhēValleyThisisArkhēValley,whereBarzaandMarygrewupt"
+   "Ayoungmanwhodiscoveredthe\"PrisonBottle\"saidtohavesealedHoopa'spowersonehundredye",
+   "Mary'solderbrother,featuringverydignifiedandmanlyfacialexpressions.HeisplayedbyT",
+   "DésserCity(DistantView/Night)",
+   "DésserCityisacitylocatedinthemiddleofadesertthatservesasthestory'ssetting!!",
+   "ThisiswhereSatoshi,PikachuandHoopa'sgrandadventurewillunfold!"
   ]
  },
  {
@@ -1635,7 +1685,7 @@
   "page_images": 53,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 41,
+  "paragraphs": 63,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1688,7 +1738,15 @@
   "url": "https://www.inside-games.jp/article/2016/02/27/96339.html",
   "post_chars": 8375,
   "post_images": 8,
-  "error": "the fetched copy holds no article (3406 chars)"
+  "page_chars": 3406,
+  "page_images": 2,
+  "share": 2.46,
+  "cached": true,
+  "paragraphs": 20,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2016-04-18-interview-denfami-sonobe-gamefreak-morimoto.md",
@@ -1699,7 +1757,7 @@
   "page_images": 9,
   "share": 4.03,
   "cached": true,
-  "paragraphs": 59,
+  "paragraphs": 80,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1710,7 +1768,22 @@
   "url": "https://www.inside-games.jp/article/2016/05/12/98566.html",
   "post_chars": 8191,
   "post_images": 19,
-  "error": "the fetched copy holds no article (2309 chars)"
+  "page_chars": 2309,
+  "page_images": 9,
+  "share": 3.55,
+  "cached": true,
+  "paragraphs": 25,
+  "missing": 7,
+  "missing_chars": 475,
+  "covered": 0.77,
+  "missing_sample": [
+   "左から、須崎春樹氏、橋本拓也氏、宇都宮崇人氏、星野正昭氏",
+   "『ポケモンサン・ムーン』最初のパートナー「モクロー」「ニャビー」「アシマリ」詳細情報が公開",
+   "『ポッ拳POKKENTOURNAMENT』公式サイト",
+   "2023年『VALORANT』関連インタビュー総まとめ！70件を超える国内外のプレイヤー・コーチインタビューを振り返ろう2023.12.30Sat22:0020",
+   "『ワールドフリッパー』11・12章で「アルクの正体を暴きたかった」ー完結記念メインシナリオライターインタビュー2023.11.30Thu12:00",
+   "“フランス産JRPG”の魅力を小笠原仁・東城日沙子・白石稔が語る！『EdgeOfEternity』キャストインタビュー2023.8.31Thu14:00"
+  ]
  },
  {
   "post": "2016-08-25-interview-nikkei-utsunomiya-pokemon-go.md",
@@ -1721,10 +1794,10 @@
   "page_images": 5,
   "share": 2.23,
   "cached": true,
-  "paragraphs": 48,
+  "paragraphs": 53,
   "missing": 3,
   "missing_chars": 178,
-  "covered": 0.96,
+  "covered": 0.97,
   "missing_sample": [
    "8月上旬の週末、東京・代々木公園にはポケモンGOを楽しむ“トレーナー”の姿がそこかしこにあった",
    "2014年4月1日に米グーグルが投稿した動画には、ポケモンGOのコンセプトが示されていた（ユーチューブより）",
@@ -1747,17 +1820,17 @@
   "page_images": 13,
   "share": 0.86,
   "cached": true,
-  "paragraphs": 39,
-  "missing": 6,
-  "missing_chars": 484,
-  "covered": 0.91,
+  "paragraphs": 44,
+  "missing": 11,
+  "missing_chars": 567,
+  "covered": 0.9,
   "missing_sample": [
    "NOW！電玩瘋創作大廳公會大廳實況大廳勇者造型勇者福利社巴哈電硬館貼圖商店酒館ACG資料庫ACG創作大賽會員中心顯示更多",
    "（本新聞經日本4Gamer.net同意授權轉載）2016-09-3012:04:26原文出處",
-   "照片左起為Niantic的須賀健人、村井説人、河合敬一、野村達雄；Pokémon的江上周作、吉川佳一、遠藤憲司、小川慧",
-   "談到Niantic從Google獨立出來的部分時，江上回顧當時也是有著不安，表示「那時候看不到未來，誰也不知道到底會如何呢」。而Niantic的野村一聽到獨立的",
-   "小川表示，「PokemonGOPlus」現在雖然是透過單次觸碰的簡單操作來捕捉寶可夢跟獲得道具，但其實開發中也有製作出像是遊玩節奏遊戲一般，需要複雜操作的試作機",
-   "（C）2016Niantic,Inc.（C）2016Pokémon.（C）1995-2016Nintendo/CreaturesInc./GAMEFREAKin"
+   "照片左起為Niantic的須賀健人、村井説人、河合敬一、野村達雄；",
+   "Pokémon的江上周作、吉川佳一、遠藤憲司、小川慧",
+   "Niantic的資深產品經理《PokemonGO》總監野村達雄",
+   "Pokémon的《PokemonGO》推進室室長江上周作"
   ]
  },
  {
@@ -1769,17 +1842,17 @@
   "page_images": 14,
   "share": 0.52,
   "cached": true,
-  "paragraphs": 35,
-  "missing": 25,
-  "missing_chars": 2370,
-  "covered": 0.45,
+  "paragraphs": 19,
+  "missing": 8,
+  "missing_chars": 1603,
+  "covered": 0.55,
   "missing_sample": [
    "ByPatriciaHernandezPublishedOctober19,2016|",
    "CultureNewsScalpersAreAlreadyHawkingTheSoldOutZelda40thAnniversarySwitch2For$900",
-   "ScalpersAreAlreadyHawkingTheSoldOutZelda40thAnniversarySwitch2For$900",
-   "Allgrimlyinevitableinatimewhensupplydoesn'teventrytomatchdemand",
    "CultureNewsNintendoAnnouncesBig‘CustomerAppreciationSale’SupportedByTariffRefund",
-   "NintendoAnnouncesBig‘CustomerAppreciationSale’SupportedByTariffRefundsItDoesn’tW"
+   "GamesThere’sStillNoSignOfANew3DMarioOnSwitch2,Bucking30-YearTrendFeellikepureshi",
+   "CultureNewsKirbyGetsABigSwordAndSmashesOpenTheSkyInHisNextOpen-WorldAdventureGiv",
+   "CultureNewsProfessorLaytonAndTheNewWorldOfSteam*Finally*HasAReleaseDateIt'sthefi"
   ]
  },
  {
@@ -1791,17 +1864,17 @@
   "page_images": 14,
   "share": 0.48,
   "cached": true,
-  "paragraphs": 40,
-  "missing": 29,
-  "missing_chars": 2924,
-  "covered": 0.39,
+  "paragraphs": 22,
+  "missing": 8,
+  "missing_chars": 1996,
+  "covered": 0.5,
   "missing_sample": [
    "ByPatriciaHernandezPublishedOctober25,2016|",
    "CulturePokemonSuperUglyMewCardsAreTheChaseForPokémon’s30thAnniversary,AndOne’sAl",
-   "SuperUglyMewCardsAreTheChaseForPokémon’s30thAnniversary,AndOne’sAlreadySoldFor$2",
-   "TheRGBMewcardswereatonepointbelievedtobeahoax",
-   "ByKennethShepardPublishedSeptember16,2026",
-   "CulturePokemonAPokémonFanMayHaveFoundASolutionToTheEndOfPokémonBankTheendofthe3D"
+   "CulturePokemonAPokémonFanMayHaveFoundASolutionToTheEndOfPokémonBankTheendofthe3D",
+   "CultureNewsThousandsOfPokémonTCG30thCelebrationOrdersSuddenlyCancelledAsCompanyP",
+   "CulturePokemonWeNowHaveAnOfficial22-Minute-LongPokérapWithAll1025PokémonAndIt’sA",
+   "CulturePokemonPokémonTCGDebacleIsGettingSoBadWalmartIsResortingToALotteryIt'sabe"
   ]
  },
  {
@@ -1813,7 +1886,7 @@
   "page_images": 0,
   "share": 1.1,
   "cached": true,
-  "paragraphs": 14,
+  "paragraphs": 19,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1842,7 +1915,7 @@
   "page_images": 7,
   "share": 1.21,
   "cached": true,
-  "paragraphs": 24,
+  "paragraphs": 20,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1857,7 +1930,7 @@
   "page_images": 4,
   "share": 1.18,
   "cached": true,
-  "paragraphs": 9,
+  "paragraphs": 10,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1872,7 +1945,7 @@
   "page_images": 19,
   "share": 1.12,
   "cached": true,
-  "paragraphs": 24,
+  "paragraphs": 58,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1887,7 +1960,7 @@
   "page_images": 31,
   "share": 2.72,
   "cached": true,
-  "paragraphs": 74,
+  "paragraphs": 83,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -1902,15 +1975,17 @@
   "page_images": 3,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 10,
-  "missing": 4,
-  "missing_chars": 559,
-  "covered": 0.81,
+  "paragraphs": 13,
+  "missing": 7,
+  "missing_chars": 269,
+  "covered": 0.9,
   "missing_sample": [
-   "■求人情報クリーチャーズでは現在下記職種を募集中です。①モデリングアーティスト②テクニカルアーティスト③エフェクト/UIアーティスト④アニメーションアーティスト",
-   "中廣健吾氏デジタル開発本部／ポケモンCGスタジオ／モデリングチームマネージャー／シニアアーティスト",
-   "畠祐貴氏デジタル開発本部／ポケモンCGスタジオ／モーションチームマネージャー／シニアアーティスト",
-   "■求人情報クリーチャーズでは現在下記職種を募集中です。①モデリングアーティスト②テクニカルアーティスト③エフェクト/UIアーティスト④アニメーションアーティスト"
+   "詳しくはwww.creatures.co.jp/recruitをご覧ください。",
+   "取締役／ポケモンCGスタジオ部長／アートディレクター",
+   "デジタル開発本部／ポケモンCGスタジオ／モデリングチームマネージャー／シニアアーティスト",
+   "デジタル開発本部／ポケモンCGスタジオ／モーションチームマネージャー／シニアアーティスト",
+   "＜給与＞年収400～600万円※試用期間3ヶ月（給与は本採用時と同額支給）。経験・能力に応じ当社規定により優遇",
+   "＜勤務時間＞10：30～19：30（実働8時間、残業あり）"
   ]
  },
  {
@@ -1922,13 +1997,13 @@
   "page_images": 83,
   "share": 1.04,
   "cached": true,
-  "paragraphs": 41,
+  "paragraphs": 58,
   "missing": 2,
-  "missing_chars": 219,
-  "covered": 0.96,
+  "missing_chars": 88,
+  "covered": 0.98,
   "missing_sample": [
-   "TEXT＿小野憲史EDIT＿小村仁美/KomuraHitomi（CGWORLD）、山田桃子/MomokoYamadaPHOTO＿弘田充/HirotaMitsur",
-   "月刊CGWORLD+digitalvideovol.227（2017年7月号）第1特集：アイドルCGキャラクター研究第2特集：プログレッシブ・エンバイロンメント"
+   "EDIT＿小村仁美/KomuraHitomi（CGWORLD）、山田桃子/MomokoYamada",
+   "月刊CGWORLD+digitalvideovol.227（2017年7月号）"
   ]
  },
  {
@@ -1940,15 +2015,17 @@
   "page_images": 3,
   "share": 0.81,
   "cached": true,
-  "paragraphs": 10,
-  "missing": 4,
-  "missing_chars": 559,
-  "covered": 0.81,
+  "paragraphs": 13,
+  "missing": 7,
+  "missing_chars": 269,
+  "covered": 0.9,
   "missing_sample": [
-   "■求人情報クリーチャーズでは現在下記職種を募集中です。①モデリングアーティスト②テクニカルアーティスト③エフェクト/UIアーティスト④アニメーションアーティスト",
-   "中廣健吾氏デジタル開発本部／ポケモンCGスタジオ／モデリングチームマネージャー／シニアアーティスト",
-   "畠祐貴氏デジタル開発本部／ポケモンCGスタジオ／モーションチームマネージャー／シニアアーティスト",
-   "■求人情報クリーチャーズでは現在下記職種を募集中です。①モデリングアーティスト②テクニカルアーティスト③エフェクト/UIアーティスト④アニメーションアーティスト"
+   "詳しくはwww.creatures.co.jp/recruitをご覧ください。",
+   "取締役／ポケモンCGスタジオ部長／アートディレクター",
+   "デジタル開発本部／ポケモンCGスタジオ／モデリングチームマネージャー／シニアアーティスト",
+   "デジタル開発本部／ポケモンCGスタジオ／モーションチームマネージャー／シニアアーティスト",
+   "＜給与＞年収400～600万円※試用期間3ヶ月（給与は本採用時と同額支給）。経験・能力に応じ当社規定により優遇",
+   "＜勤務時間＞10：30～19：30（実働8時間、残業あり）"
   ]
  },
  {
@@ -1960,17 +2037,17 @@
   "page_images": 5,
   "share": 0.87,
   "cached": true,
-  "paragraphs": 20,
-  "missing": 10,
-  "missing_chars": 535,
-  "covered": 0.9,
+  "paragraphs": 22,
+  "missing": 12,
+  "missing_chars": 608,
+  "covered": 0.89,
   "missing_sample": [
    "PokémonSunandMoondirectorShigeruOhmori(left)andGameFreakco-founderJunichMasudare",
    "Pokémon’sDevelopersTalkAboutTheirConsoleRPGDebutOnSwitch",
    "GameFreak’sOriginsAndItsPre-PokémonGames",
    "Here'sHowGameFreakDesignsPokemonCreatures",
    "GameFreakOnPlayerFreedomVs.StoryInPokémon",
-   "EverythingWeKnowAboutPokémonOnTheNintendoSwitch"
+   "DiscussingOurIn-DepthTourOfGameFreak"
   ]
  },
  {
@@ -1982,10 +2059,10 @@
   "page_images": 4,
   "share": 0.87,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 12,
-  "missing_chars": 1863,
-  "covered": 0.6,
+  "paragraphs": 21,
+  "missing": 14,
+  "missing_chars": 1936,
+  "covered": 0.59,
   "missing_sample": [
    "Therearefew,ifany,hardandfastrulesaboutwhataPokémoncanandcannotbe.“Onethingwealw",
    "ComparetheeyesofafirstgenerationPokémontotheeyesofPopplio,agenerationsevenPokémo",
@@ -2004,10 +2081,10 @@
   "page_images": 4,
   "share": 0.8,
   "cached": true,
-  "paragraphs": 19,
-  "missing": 12,
-  "missing_chars": 801,
-  "covered": 0.83,
+  "paragraphs": 21,
+  "missing": 14,
+  "missing_chars": 874,
+  "covered": 0.81,
   "missing_sample": [
    "AglasscaseinoneofGameFreak'smeetingspacesfeaturesafigurineofeveryPokémon.Oratlea",
    "ComparetheeyesofafirstgenerationPokémontotheeyesofPopplio,agenerationsevenPokémo",
@@ -2026,10 +2103,10 @@
   "page_images": 1,
   "share": 0.64,
   "cached": true,
-  "paragraphs": 17,
-  "missing": 11,
-  "missing_chars": 1600,
-  "covered": 0.61,
+  "paragraphs": 19,
+  "missing": 13,
+  "missing_chars": 1673,
+  "covered": 0.6,
   "missing_sample": [
    "Justasdevelopmentbegan,however,trademarkresearchrevealedthenamesRubyandSapphirem",
    "in2014,GameFreakreturnedtoRubyandSapphireforthe3DSremakes,OmegaRubyandAlphaSapph",
@@ -2048,17 +2125,17 @@
   "page_images": 1,
   "share": 0.83,
   "cached": true,
-  "paragraphs": 17,
-  "missing": 10,
-  "missing_chars": 581,
-  "covered": 0.86,
+  "paragraphs": 19,
+  "missing": 12,
+  "missing_chars": 654,
+  "covered": 0.84,
   "missing_sample": [
    "FormoreonthehistoryofPokémon,youcancheckoutthelatestissuefora12-pagefeaturecover",
    "Pokémon’sDevelopersTalkAboutTheirConsoleRPGDebutOnSwitch",
    "GameFreak’sOriginsAndItsPre-PokémonGames",
    "Here'sHowGameFreakDesignsPokemonCreatures",
    "GameFreakOnPlayerFreedomVs.StoryInPokémon",
-   "EverythingWeKnowAboutPokémonOnTheNintendoSwitch"
+   "DiscussingOurIn-DepthTourOfGameFreak"
   ]
  },
  {
@@ -2070,7 +2147,7 @@
   "page_images": 0,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 16,
+  "paragraphs": 18,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2085,17 +2162,17 @@
   "page_images": 1,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 15,
-  "missing": 8,
-  "missing_chars": 373,
-  "covered": 0.85,
+  "paragraphs": 17,
+  "missing": 10,
+  "missing_chars": 446,
+  "covered": 0.83,
   "missing_sample": [
    "Pokémon’sDevelopersTalkAboutTheirConsoleRPGDebutOnSwitch",
    "GameFreak’sOriginsAndItsPre-PokémonGames",
    "Here'sHowGameFreakDesignsPokemonCreatures",
    "GameFreakOnPlayerFreedomVs.StoryInPokémon",
-   "EverythingWeKnowAboutPokémonOnTheNintendoSwitch",
-   "WhyRubyAndSapphireWereTheMostChallengingPokémonToMake"
+   "DiscussingOurIn-DepthTourOfGameFreak",
+   "EverythingWeKnowAboutPokémonOnTheNintendoSwitch"
   ]
  },
  {
@@ -2107,7 +2184,7 @@
   "page_images": 1,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 12,
+  "paragraphs": 14,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2122,16 +2199,17 @@
   "page_images": 37,
   "share": 0.83,
   "cached": true,
-  "paragraphs": 25,
-  "missing": 5,
-  "missing_chars": 324,
-  "covered": 0.86,
+  "paragraphs": 41,
+  "missing": 13,
+  "missing_chars": 725,
+  "covered": 0.76,
   "missing_sample": [
-   "ポケットモンスターソード・シールドで「3Dモデルの使い回し」が発覚、「#ゲームフリークはウソをついた」がTwitterでトレンド入り",
-   "「ポケットモンスタースカーレット・バイオレット」のリーク情報と思しき画像がインターネット上で公開される",
-   "「ポケットモンスター金・銀」の体験版データがリークされ製品版には登場しなかったポケモンの初期デザインが多数見つかる",
-   "「ポケットモンスターLet’sGo!ピカチュウ」プレイレビュー、NintendoSwitchのポケモン最新作はどんな感じなのか早速遊んでみた",
-   "YoucanreadthemachinetranslatedEnglisharticleValuablematerialssuchasdesign,idea…."
+   "ポケモン20周年記念で特別実写版映像が制作されYouTubeで公開中-GIGAZINE",
+   "「ポケモンGO(PokémonGO)」がついに日本に登場、世界を巻き込むビッグウェーブにのるしかないのでサクッとプレイしてみました-GIGAZINE",
+   "ポケモンGOに出てくる初代ポケモンたちをモチーフにしたスニーカーがそのまま注文できる「PokémonNikeiD」-GIGAZINE",
+   "ポケモン新作「ポケットモンスターウルトラサン・ウルトラムーン」＆NintendoSwitch専用ゲーム「ポッ拳POKKÉNTOURNAMENTDX」が発表-GI",
+   "STGゲームを作成できるフリーソフト「シューティングゲームビルダー」",
+   "呪われたゲーム「ポケットモンスターブラック」の恐ろしいエンディングとは？"
   ]
  },
  {
@@ -2143,7 +2221,7 @@
   "page_images": 4,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 20,
+  "paragraphs": 22,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2158,7 +2236,7 @@
   "page_images": 5,
   "share": 0.94,
   "cached": true,
-  "paragraphs": 26,
+  "paragraphs": 29,
   "missing": 1,
   "missing_chars": 57,
   "covered": 0.98,
@@ -2171,7 +2249,19 @@
   "url": "https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM",
   "post_chars": 9457,
   "post_images": 0,
-  "error": "the fetched copy holds no article (9647 chars)"
+  "page_chars": 9647,
+  "page_images": 8,
+  "share": 0.98,
+  "cached": true,
+  "paragraphs": 41,
+  "missing": 3,
+  "missing_chars": 113,
+  "covered": 0.99,
+  "missing_sample": [
+   "Thispagehasbeenviewed9057times.",
+   "Lastupdated09Nov201720:23bySunain.",
+   "PageTags:InterviewUltraSunUltraMoonShigeruOhmori"
+  ]
  },
  {
   "post": "2017-11-06-interview-2017-game-freak-dordogne-enquete.md",
@@ -2182,7 +2272,7 @@
   "page_images": 2,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 74,
+  "paragraphs": 76,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2193,7 +2283,21 @@
   "url": "https://www.pocketmonsters.net/content/Interview_GAME_FREAK_USUM",
   "post_chars": 8830,
   "post_images": 8,
-  "error": "the fetched copy holds no article (9647 chars)"
+  "page_chars": 9647,
+  "page_images": 8,
+  "share": 0.92,
+  "cached": true,
+  "paragraphs": 41,
+  "missing": 5,
+  "missing_chars": 553,
+  "covered": 0.94,
+  "missing_sample": [
+   "ThefollowingInterviewwasoriginallypostedonPokemon.comonNovember9th,2017.",
+   "Inthegame,eachofthebossescomesfromaworldinwhichtheymanagedtofulfilltheirdarkambi",
+   "Thispagehasbeenviewed9058times.",
+   "Lastupdated09Nov201720:23bySunain.",
+   "PageTags:InterviewUltraSunUltraMoonShigeruOhmori"
+  ]
  },
  {
   "post": "2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets.md",
@@ -2204,11 +2308,13 @@
   "page_images": 5,
   "share": 0.9,
   "cached": true,
-  "paragraphs": 27,
-  "missing": 2,
-  "missing_chars": 165,
-  "covered": 0.95,
+  "paragraphs": 29,
+  "missing": 4,
+  "missing_chars": 255,
+  "covered": 0.92,
   "missing_sample": [
+   "※本インタビュー記事は、週刊ファミ通2017年12月28日号（12月14日発売）掲載記事を加筆・再構成したものです。",
+   "ーーちなみに、挨拶のときのポーズはどうやって決められたのですか。",
    "ーー何となくハワイっぽい印象はありましたが、あのポーズにはさらに深い意味があったのですね！さて、改めて『ポケモンUS・UM』を作るために定めたテーマについて教え",
    "ーー人物の掘り下げ、という観点で考えると、『ポケモンサン・ムーン』とは少し違う行動を取るキャラクターも出てきますよね。とくにハウには変化が感じられたのですが。"
   ]
@@ -2229,7 +2335,7 @@
   "page_images": 16,
   "share": 1.01,
   "cached": true,
-  "paragraphs": 70,
+  "paragraphs": 82,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2240,7 +2346,15 @@
   "url": "https://www.4gamer.net/games/383/G038332/20180512011/",
   "post_chars": 2753,
   "post_images": 8,
-  "error": "the fetched copy holds no article (2753 chars)"
+  "page_chars": 2753,
+  "page_images": 8,
+  "share": 1.0,
+  "cached": true,
+  "paragraphs": 26,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2018-05-15-interview-famitsu-usum-fanmeeting-masuda-battle-music.md",
@@ -2251,15 +2365,11 @@
   "page_images": 14,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 49,
-  "missing": 5,
-  "missing_chars": 462,
-  "covered": 0.94,
+  "paragraphs": 44,
+  "missing": 1,
+  "missing_chars": 69,
+  "covered": 0.99,
   "missing_sample": [
-   "抽選待機列に並ぶファンに積極的に話しかける増田氏、大森氏、岩尾氏。増田氏が大好きなコダックのグッズをファンから手渡される一幕も。そんな中、集まったファンを見渡し",
-   "ファンひとりひとりに名刺を手渡し。コスプレをして参加しているファンも多く見られた。",
-   "楽曲についてのお話中はずっとその曲が流されていたのだが、話を終えて曲が止まった途端、迫力のある曲調とのギャップで急激に静けさに包まれたような感覚に……。",
-   "ラゾーナ川崎プラザにて『ポケモンUS・UM』の発売日に撮影したという1枚。「やまおとこの位置が完璧」と、大森氏。",
    "なお、『ポケモンウルトラサン・ウルトラムーン』の秘話はこちらの記事にも掲載されているので、本記事で本作について気になった方は要チェックだ！"
   ]
  },
@@ -2272,13 +2382,15 @@
   "page_images": 55,
   "share": 0.89,
   "cached": true,
-  "paragraphs": 25,
-  "missing": 3,
-  "missing_chars": 285,
-  "covered": 0.92,
+  "paragraphs": 26,
+  "missing": 5,
+  "missing_chars": 233,
+  "covered": 0.93,
   "missing_sample": [
-   "ジョン・ハンケ氏からのビデオメッセージも公開。その中で、今回の発表を記念して「ポケットモンスターサン・ムーン」からアローラナッシーが「PokémonGO」に登場",
-   "(C)2018Pokémon.(C)1995-2018Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
+   "ジョン・ハンケ氏からのビデオメッセージも公開。その中で、今回の発表を記念して",
+   "(C)2018Pokémon.(C)1995-2018Nintendo/CreaturesInc./GAMEFREAKinc.",
+   "ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。",
+   "NintendoSwitchのロゴ・NintendoSwitchは任天堂の商標です。",
    "本コンテンツは、掲載するECサイトやメーカー等から収益を得ている場合があります。"
   ]
  },
@@ -2291,13 +2403,13 @@
   "page_images": 19,
   "share": 1.93,
   "cached": true,
-  "paragraphs": 70,
+  "paragraphs": 107,
   "missing": 2,
-  "missing_chars": 223,
-  "covered": 0.97,
+  "missing_chars": 122,
+  "covered": 0.98,
   "missing_sample": [
    "大変お待たせ致しました、PokémonGOが日本でも配信開始です！こちらからはPokémonGOの最新情報をお届けしていきます。pic.twitter.com/",
-   "大変お待たせ致しました、PokémonGOが日本でも配信開始です！こちらからはPokémonGOの最新情報をお届けしていきます。pic.twitter.com/"
+   "—PokémonGOJapan(@PokemonGOAppJP)"
   ]
  },
  {
@@ -2309,17 +2421,17 @@
   "page_images": 16,
   "share": 1.14,
   "cached": true,
-  "paragraphs": 80,
-  "missing": 9,
-  "missing_chars": 895,
-  "covered": 0.88,
+  "paragraphs": 102,
+  "missing": 12,
+  "missing_chars": 815,
+  "covered": 0.89,
   "missing_sample": [
    "──そうしてエイプリルフールから2ヵ月後には、すでに開発にGOサインが出ていたわけですよね。相当な速度だと思うのですが……。",
-   "川島氏：なにせアメリカ本社で行われたジョンを交えた最初のミーティングで、いきなり最初の企画書を石原さんたちが持参されたんですよ。まさに『Ingress』の上に『",
-   "石原氏：僕が増田君に企画書をお願いしたら、「ちょっと考えてみました」という1cmくらいの厚さの企画書が届いたんですよ（笑）。",
+   "なにせアメリカ本社で行われたジョンを交えた最初のミーティングで、いきなり最初の企画書を石原さんたちが持参されたんですよ。",
+   "まさに『Ingress』の上に『ポケモン』が乗っかっているようなサンプルイメージも自作されてもいて、一気に「ぜひ前に進めましょう」となったんですよ。",
+   "僕が増田君に企画書をお願いしたら、「ちょっと考えてみました」という1cmくらいの厚さの企画書が届いたんですよ（笑）。",
    "長いあいだ『ポケモン』を作ってきた人間にとっては、新しい『Ingress』的なフィールドで広がる『ポケモン』の可能性を拡大していくと、ここまで世界が足し算できる",
-   "ところが一方で、『Ingress』を作ってきた人たちから見ても、こんな『ポケモン』ゲームを作りたいというものがあった。そちらも1㎝くらいの企画書でしたから、足す",
-   "川島氏：野村と、当時いたもうひとりのプロダクトマネージャーと一緒に、「株式会社ポケモンの人にどうやったら受け入れてもらえるか」とブレインストーミングをして、とに"
+   "ところが一方で、『Ingress』を作ってきた人たちから見ても、こんな『ポケモン』ゲームを作りたいというものがあった。そちらも1㎝くらいの企画書でしたから、足す"
   ]
  },
  {
@@ -2331,7 +2443,7 @@
   "page_images": 5,
   "share": 1.2,
   "cached": true,
-  "paragraphs": 6,
+  "paragraphs": 8,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2346,15 +2458,16 @@
   "page_images": 6,
   "share": 1.49,
   "cached": true,
-  "paragraphs": 35,
-  "missing": 4,
+  "paragraphs": 42,
+  "missing": 5,
   "missing_chars": 580,
   "covered": 0.87,
   "missing_sample": [
    "FUN'SPROJECTTOP>ポップカルチャー・ラボ>グラフィックデザイナー・イラストレーターにしだあつこ対談",
    "Photo:ShuyaNakanoStyling：AyaOmuraHairandMake：MichikoKashiwaseTextbyTakanoriKurod",
    "クリエイター共創サービス「FUN'SPROJECT」がお送りする連載企画。中川翔子さんと多彩なゲストによる、クリエイターの「こだわり」にフォーカスしたトークセッ",
-   "女優・タレント・歌手・声優・イラストレーター。東京2020大会マスコット審査員や、2025年万博誘致スペシャルサポーターなど、国家プロジェクトに参加するなど、国"
+   "中川翔子：女優・タレント・歌手・声優・イラストレーター。",
+   "中川翔子：東京2020大会マスコット審査員や、2025年万博誘致スペシャルサポーターなど、国家プロジェクトに参加するなど、国内外に向け広く活躍。音楽活動では7/"
   ]
  },
  {
@@ -2366,7 +2479,7 @@
   "page_images": 17,
   "share": 0.97,
   "cached": true,
-  "paragraphs": 92,
+  "paragraphs": 99,
   "missing": 5,
   "missing_chars": 566,
   "covered": 0.96,
@@ -2383,7 +2496,17 @@
   "url": "https://www.siliconera.com/pokmon-designer-on-balancing-cool-or-cute-pokmon-by-adding-uncool-or-uncute-features/",
   "post_chars": 1577,
   "post_images": 0,
-  "error": "the fetched copy holds no article (1974 chars)"
+  "page_chars": 1974,
+  "page_images": 0,
+  "share": 0.8,
+  "cached": true,
+  "paragraphs": 1,
+  "missing": 1,
+  "missing_chars": 113,
+  "covered": 0.0,
+  "missing_sample": [
+   "[Editor’sNote:Interestingly,thetopicofOshawottwithfrecklesvs.withoutfreckleswasd"
+  ]
  },
  {
   "post": "2018-08-07-interview-tajiri-manga.md",
@@ -2394,7 +2517,7 @@
   "page_images": 55,
   "share": 1.09,
   "cached": true,
-  "paragraphs": 81,
+  "paragraphs": 109,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2416,10 +2539,10 @@
   "page_images": 6,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 35,
+  "paragraphs": 42,
   "missing": 3,
   "missing_chars": 333,
-  "covered": 0.92,
+  "covered": 0.93,
   "missing_sample": [
    "FUN'SPROJECTTOP>ポップカルチャー・ラボ>グラフィックデザイナー・イラストレーターにしだあつこ対談",
    "Photo:ShuyaNakanoStyling：AyaOmuraHairandMake：MichikoKashiwaseTextbyTakanoriKurod",
@@ -2435,13 +2558,14 @@
   "page_images": 5,
   "share": 0.96,
   "cached": true,
-  "paragraphs": 25,
-  "missing": 2,
-  "missing_chars": 221,
-  "covered": 0.94,
+  "paragraphs": 50,
+  "missing": 3,
+  "missing_chars": 111,
+  "covered": 0.97,
   "missing_sample": [
    "（取材・文・構成・編集：村上未萌、写真撮影：BUSINESSLAWYERS編集部）",
-   "会社概要株式会社ポケモン所在地：東京都港区六本木6-10-1六本木ヒルズ森タワー8F設立：1998年4月23日資本金：3億6540万円代表者：代表取締役社長石原"
+   "所在地：東京都港区六本木6-10-1六本木ヒルズ森タワー8F",
+   "不動産・金融系企業を経て、2010年に株式会社ポケモン入社。2016年より現職。"
   ]
  },
  {
@@ -2453,7 +2577,7 @@
   "page_images": 2,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 43,
+  "paragraphs": 42,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2468,10 +2592,10 @@
   "page_images": 6,
   "share": 7.16,
   "cached": true,
-  "paragraphs": 5,
+  "paragraphs": 6,
   "missing": 5,
   "missing_chars": 1586,
-  "covered": 0.0,
+  "covered": 0.02,
   "missing_sample": [
    "ThenewseasonofNBAbasketballhaskickedoff,andtocelebrate,2KhasdroppedthepriceofNBA",
    "NBA2K19isthisyear’sinstallmentoftheannualbasketballsimseries.Aswithmostyears,itc",
@@ -2489,10 +2613,10 @@
   "page_images": 6,
   "share": 7.26,
   "cached": true,
-  "paragraphs": 5,
+  "paragraphs": 6,
   "missing": 5,
   "missing_chars": 1586,
-  "covered": 0.0,
+  "covered": 0.02,
   "missing_sample": [
    "ThenewseasonofNBAbasketballhaskickedoff,andtocelebrate,2KhasdroppedthepriceofNBA",
    "NBA2K19isthisyear’sinstallmentoftheannualbasketballsimseries.Aswithmostyears,itc",
@@ -2510,17 +2634,17 @@
   "page_images": 4,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 42,
+  "paragraphs": 44,
   "missing": 8,
-  "missing_chars": 1565,
+  "missing_chars": 1519,
   "covered": 0.87,
   "missing_sample": [
    "Doesthatcoverallofthepostgamecontentoristheremore?Isthereanystory-basedcontentaf",
    "JunichiMasuda:SoyouknowthisisobviouslybasedontheYellowversion,soinadditiontotheM",
    "Sure-andIknowyouhaven'ttalkedmuchaboutthisyetbutisthereanypossibiltiythattherewo",
-   "AdventureawaitsinPokémon:Let’sGo,Pikachu!&Pokémon:Let’sGo,Eevee!(NintendoSwitch)",
    "JunichiMasuda:Sonotrightnow-we'llkindof,orwhatwe'relookingforwardtomostrightnowi",
-   "IsitpossibletotransferMeltanbacktoLet'sGo?"
+   "IsitpossibletotransferMeltanbacktoLet'sGo?",
+   "PRclarifies:Yes,viatheusualmethod."
   ]
  },
  {
@@ -2579,7 +2703,7 @@
   "page_images": 0,
   "share": 1.04,
   "cached": true,
-  "paragraphs": 2,
+  "paragraphs": 3,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2594,13 +2718,11 @@
   "page_images": 4,
   "share": 1.01,
   "cached": true,
-  "paragraphs": 30,
-  "missing": 1,
-  "missing_chars": 85,
-  "covered": 0.98,
-  "missing_sample": [
-   "ダイマックスの戦闘場面。特定のエリア内におけるバトルで一度だけ、3ターンの間ポケモンを“ダイマックス”させることができる。なお、本作ではメガシンカや、Zワザは登"
-  ]
+  "paragraphs": 33,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2019-10-01-interview-gi-2019-dexit.md",
@@ -2628,13 +2750,12 @@
   "page_images": 2,
   "share": 0.85,
   "cached": true,
-  "paragraphs": 38,
-  "missing": 2,
-  "missing_chars": 399,
-  "covered": 0.96,
+  "paragraphs": 37,
+  "missing": 1,
+  "missing_chars": 328,
+  "covered": 0.97,
   "missing_sample": [
-   "Donote,though,thatourconversationtookplaceafewweeksagonow(shortlybeforetheannoun",
-   "PokémonSwordandPokémonShieldGameplayTrailer-GigantamaxPokemonarecoming!"
+   "Donote,though,thatourconversationtookplaceafewweeksagonow(shortlybeforetheannoun"
   ]
  },
  {
@@ -2646,7 +2767,7 @@
   "page_images": 7,
   "share": 0.96,
   "cached": true,
-  "paragraphs": 35,
+  "paragraphs": 60,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2661,7 +2782,7 @@
   "page_images": 9,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 24,
+  "paragraphs": 38,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2676,13 +2797,11 @@
   "page_images": 4,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 41,
-  "missing": 1,
-  "missing_chars": 42,
+  "paragraphs": 42,
+  "missing": 0,
+  "missing_chars": 0,
   "covered": 1.0,
-  "missing_sample": [
-   "ShigeruOhmori(left)andJunichiMasuda(right)"
-  ]
+  "missing_sample": []
  },
  {
   "post": "2019-10-24-interview-vg247-2019-swsh.md",
@@ -2693,7 +2812,7 @@
   "page_images": 3,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 40,
+  "paragraphs": 39,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2708,7 +2827,7 @@
   "page_images": 4,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 33,
+  "paragraphs": 37,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2723,7 +2842,7 @@
   "page_images": 6,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 34,
+  "paragraphs": 36,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2738,17 +2857,17 @@
   "page_images": 15,
   "share": 0.78,
   "cached": true,
-  "paragraphs": 23,
-  "missing": 21,
-  "missing_chars": 1482,
-  "covered": 0.06,
+  "paragraphs": 141,
+  "missing": 27,
+  "missing_chars": 1787,
+  "covered": 0.85,
   "missing_sample": [
-   "NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
-   "（C）2019Pokémon.（C）1995-2019Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
-   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
-   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
-   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
-   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
+   "Switch：NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
+   "トップ>NintendoSwitch>RPG>ポケットモンスターソード",
+   "編集部：御月亜希ライター：箭本進一カメラマン：佐々木秀二",
+   "「ポケットモンスター」シリーズの最新作「ポケットモンスターソード・シールド」が本日（2019年11月15日）発売された。NintendoSwitchの「ポケット",
+   "「ポケットモンスターソード・シールド」公式サイト",
+   "（C）2019Pokémon.（C）1995-2019Nintendo/CreaturesInc./GAMEFREAKinc."
   ]
  },
  {
@@ -2760,7 +2879,7 @@
   "page_images": 19,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 76,
+  "paragraphs": 77,
   "missing": 1,
   "missing_chars": 66,
   "covered": 1.0,
@@ -2777,7 +2896,7 @@
   "page_images": 3,
   "share": 0.95,
   "cached": true,
-  "paragraphs": 23,
+  "paragraphs": 31,
   "missing": 2,
   "missing_chars": 145,
   "covered": 0.93,
@@ -2795,14 +2914,11 @@
   "page_images": 32,
   "share": 1.09,
   "cached": true,
-  "paragraphs": 14,
-  "missing": 2,
-  "missing_chars": 234,
-  "covered": 0.96,
-  "missing_sample": [
-   "※左の画像：激しく乱れ、何者かに襲われたような叫び声で終わる古い映像。そこには一体何が映されているのか？奇妙な調査依頼が届く。※右の画像：数日後に復元された映像",
-   "「薄明の翼」は、『ポケットモンスターソード・シールド』の世界を舞台にしたWEBアニメ。ジムリーダーと呼ばれるキャラクターたちが多数登場する群像劇で、7話+特別編"
-  ]
+  "paragraphs": 49,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2020-07-01-interview-canuch-gamefreak-office-architecture.md",
@@ -2813,17 +2929,17 @@
   "page_images": 0,
   "share": 0.33,
   "cached": true,
-  "paragraphs": 14,
-  "missing": 6,
-  "missing_chars": 1746,
-  "covered": 0.41,
+  "paragraphs": 20,
+  "missing": 11,
+  "missing_chars": 2062,
+  "covered": 0.34,
   "missing_sample": [
    "ByembodyingGameFreak'screativestance,theofficeconveysthathavinganadventurousspir",
    "GAMEFREAKCo.,Ltd.isacompanythatdevelopshomevideogamesoftware,suchasthe“Pokémon”v",
    "GAMEFREAKhaspresenteditsownuniqueworldthroughitsgames.Itscorporatephilosophyplac",
-   "Themotiffortheofficedesignis“PokémonRedVersionandPokémonGreenVersion”,andtheoffi",
-   "Theofficedesignvaluestheadventurousspirit,asitallowsworkerstowanderaroundthisfie",
-   "ByembodyingGAMEFREAK’screativestance,theofficeconveysthathavinganadventurousspir"
+   "Thediscoveriesmadebypursuingthefunandenjoymentofplayingforalongtimeandseriouslyr",
+   "Tohavetheofficeembodythecompany’suniquestance,theofficedesignwasbasedonthethemeo",
+   "Themotiffortheofficedesignis“PokémonRedVersionandPokémonGreenVersion”,andtheoffi"
   ]
  },
  {
@@ -2835,17 +2951,17 @@
   "page_images": 16,
   "share": 0.32,
   "cached": true,
-  "paragraphs": 26,
-  "missing": 18,
-  "missing_chars": 1140,
-  "covered": 0.48,
+  "paragraphs": 38,
+  "missing": 29,
+  "missing_chars": 1900,
+  "covered": 0.36,
   "missing_sample": [
-   "朝夕刊や電子版ではお伝えしきれない情報をお届けします。今後も様々な切り口でサービスを開始予定です。",
-   "ワークスタイルや暮らし・家計管理に役立つノウハウなどをまとめています。※NIKKEISTYLEは2023年にリニューアルしました。これまでに公開したコンテンツの",
-   "1人でかなえられない夢、実現するには何が必要ですか？日本精工・市井明俊社長（9月7日）日経優秀製品・サービス賞2025日立・プリファードネットワークスなどに日経",
-   "中国製AI「Kimi」の衝撃中国製AI「Kimi」、最先端モデルに性能迫る米国で高まる脅威論",
-   "インダストリー羅針盤安川電機会長「真っ向勝負せず」フィジカルAI、5000億～2兆円に勝機",
-   "E2E自動運転革命「E2E自動運転は急に賢く」「車の量産は難しい」チューリングCEO"
+   "朝刊・夕刊LIVEMyニュース日経会社情報人事ウオッチNikkeiAsiaNIKKEIPrimeメディア一覧NIKKEIDigitalGovernanceNIK",
+   "ワークスタイルや暮らし・家計管理に役立つノウハウなどをまとめています。",
+   "※NIKKEISTYLEは2023年にリニューアルしました。これまでに公開したコンテンツのほとんどは日経電子版などで引き続きご覧いただけます。",
+   "京都・佐々木酒造洛中唯一の酒蔵、名水を生かす（2023年3月31日）",
+   "動物たちの求愛行動繁殖のために何をしている？（2023年3月30日）",
+   "まるで市民マラソンポケモンGOは万人のeスポーツに2020年3月3日"
   ]
  },
  {
@@ -2857,13 +2973,13 @@
   "page_images": 5,
   "share": 0.95,
   "cached": true,
-  "paragraphs": 10,
+  "paragraphs": 61,
   "missing": 2,
-  "missing_chars": 1008,
-  "covered": 0.83,
+  "missing_chars": 101,
+  "covered": 0.98,
   "missing_sample": [
-   "岡崎体育さん（以下、岡崎）：こちらこそありがとうございました。――「岡崎体育探検隊」の記事を読んでみて、いかがでしたか？岡崎：子どもの頃にコロコロを読んでいて、",
-   "▲トータス松本さんが歌う「ふしぎなふしぎな生きもの」そこで、映画の完成後にトータス松本さんとは何かお話はされましたか？岡崎：トータス松本さんのラジオで、この曲の"
+   "――今回の楽曲、本当に最高でした!!ありがとうございました！",
+   "※映画館に足を運ぶ際は、新型コロナウイルスをはじめとする感染症の予防と拡散防止のため、マスクを着用し、アルコール消毒を忘れないようにしよう!!"
   ]
  },
  {
@@ -2871,7 +2987,15 @@
   "url": "https://www.oricon.co.jp/news/2185697/full/",
   "post_chars": 4279,
   "post_images": 0,
-  "error": "the fetched copy holds no article (4303 chars)"
+  "page_chars": 4303,
+  "page_images": 0,
+  "share": 0.99,
+  "cached": true,
+  "paragraphs": 19,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md",
@@ -2882,14 +3006,12 @@
   "page_images": 7,
   "share": 1.04,
   "cached": true,
-  "paragraphs": 57,
-  "missing": 3,
-  "missing_chars": 424,
-  "covered": 0.94,
+  "paragraphs": 60,
+  "missing": 1,
+  "missing_chars": 42,
+  "covered": 0.99,
   "missing_sample": [
-   "株式会社ポケモン代表取締役社長・最高経営責任者『ポケットモンスター赤・緑』を始め、ポケモンのビデオゲーム全作品でプロデューサーを務める。また、株式会社ポケモンに",
-   "『ポケットモンスター』シリーズと『鉄拳』シリーズのコラボレーションとして開発された『ポッ拳POKKÉNTOURNAMENT』。2015年にアーケードでの稼働が開",
-   "時代とともに進化したグラフィックの向上により、ポケモンたちがより自然に、その場にいるかのように感じられる本作。前作の“ポケモンフード”にあたる“ふわりんご”の食"
+   "『Newポケモンスナップ』(Switch)の購入はこちら(Amazon.co.jp)"
   ]
  },
  {
@@ -2901,7 +3023,7 @@
   "page_images": 5,
   "share": 4.63,
   "cached": true,
-  "paragraphs": 48,
+  "paragraphs": 71,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2916,14 +3038,17 @@
   "page_images": 53,
   "share": 0.69,
   "cached": true,
-  "paragraphs": 41,
-  "missing": 3,
-  "missing_chars": 662,
-  "covered": 0.93,
+  "paragraphs": 63,
+  "missing": 19,
+  "missing_chars": 3156,
+  "covered": 0.66,
   "missing_sample": [
+   "社名には、雑多な感じやごった煮感がほしかったので、それを表す言葉を考えた時に、「クリーチャーズ」が一番ふさわしく思えました。“クリエイティブ”にかかっていますし",
    "1957年生まれ。ゲームプロデューサーとして数々のゲームソフト開発に携わり、95年に株式会社クリーチャーズを設立。96年にポケモンの原点となった『ポケットモンス",
-   "1980年、任天堂に入社。ゲーム&ウオッチやファミコン、ゲームボーイなどの企画及びゲームプログラム、サウンドデザインや、音源開発などに携る。ゲーム音楽の代表作と",
-   "現在お二人はクリーチャーズの会長と社長の役職に就かれていますが、役割分担はどのように行っているのでしょうか。お二人ともクリエイティブの現場に携わっていらっしゃる"
+   "具体的に株式会社ポケモンの設立準備を進めつつ、クリーチャーズを誰に任せるかなと考えた時に、真っ先に田中さんを思い浮かべました。先ほども言ったように、雑多感やごっ",
+   "当時いた任天堂は副業禁止だったのと、たまたま色んな事が重って自分の人生の大きな転機、節目なのでは？と考えた時期でもあり、ポケモンソングがヒットして1年経った頃に",
+   "その一言でホントに何年も沈んでいた気持ちが「フッ」と軽くなりました。",
+   "僕にとっては、社長室に呼ばれた時の光景よりも、その居酒屋で交わした会話の方が大きいです。その時は、クリーチャーズの社長になるとは思ってもみなかったけれど、居酒屋"
   ]
  },
  {
@@ -2935,17 +3060,17 @@
   "page_images": 12,
   "share": 0.51,
   "cached": true,
-  "paragraphs": 59,
-  "missing": 14,
-  "missing_chars": 3975,
-  "covered": 0.52,
+  "paragraphs": 86,
+  "missing": 32,
+  "missing_chars": 3191,
+  "covered": 0.58,
   "missing_sample": [
+   "NewsPicksBrandDesigneditor",
+   "今も引き継がれている企画：幻のポケモンゲットチャレンジ（※現在は終了）。",
    "コロナ禍で大きな影響を受けている航空業界や観光業界の力になりたい。そんな想いから生まれたのが「そらとぶピカチュウプロジェクト」だ。",
    "福島県浪江町に設置された「ポケふた」を見つけた子どもたち。マンホールに描かれているポケモンは「ラッキー」。",
-   "中野佑也NewsPicksBrandDesigneditor・2021年11月29日編集を担当しました。「ポケモン」と聞いたとき、初代から遊んできた身としては、",
-   "編集を担当しました。「ポケモン」と聞いたとき、初代から遊んできた身としては、「なんて羨ましい仕事なんだ…」と思いましたが、当然話はそう単純ではなく。日本を代表す",
-   "中西拓人2021年12月28日決算公告では1500億だったと思います。社員数は320名くらいだったはず。ここ10年で5倍くらいは伸びているゲーム業界屈指の優良企",
-   "決算公告では1500億だったと思います。社員数は320名くらいだったはず。ここ10年で5倍くらいは伸びているゲーム業界屈指の優良企業です。牽引の要因は、ポケモン"
+   "中野佑也NewsPicksBrandDesigneditor・2021年11月29日編集を担当しました。",
+   "「ポケモン」と聞いたとき、初代から遊んできた身としては、「なんて羨ましい仕事なんだ…」と思いましたが、当然話はそう単純ではなく。"
   ]
  },
  {
@@ -2957,11 +3082,12 @@
   "page_images": 24,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 32,
-  "missing": 1,
-  "missing_chars": 123,
-  "covered": 0.97,
+  "paragraphs": 34,
+  "missing": 2,
+  "missing_chars": 277,
+  "covered": 0.93,
   "missing_sample": [
+   "既定の監修ルールに沿って、「これはダメです、できません」と返答することは簡単なのですが、企画の意図を理解しようと努力して、より良い形で世に出せるものにするために",
    "趙自分が面接に参加したとき、自己紹介や志望理由のような形式的なものではなく、研究テーマや得意なこと、好きなことについてたくさん質問をもらって、「この会社は、ほか"
   ]
  },
@@ -2974,7 +3100,7 @@
   "page_images": 6,
   "share": 1.1,
   "cached": true,
-  "paragraphs": 34,
+  "paragraphs": 76,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -2989,11 +3115,13 @@
   "page_images": 25,
   "share": 0.93,
   "cached": true,
-  "paragraphs": 28,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 43,
+  "missing": 1,
+  "missing_chars": 30,
+  "covered": 0.99,
+  "missing_sample": [
+   "『PokémonLEGENDSアルセウス』公式サイトはこちら"
+  ]
  },
  {
   "post": "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline.md",
@@ -3004,12 +3132,13 @@
   "page_images": 45,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 28,
-  "missing": 2,
-  "missing_chars": 124,
+  "paragraphs": 32,
+  "missing": 3,
+  "missing_chars": 121,
   "covered": 0.96,
   "missing_sample": [
-   "ミツハニーのようなむしポケモンの羽根を不透明にしたり、ミカルゲのようなポケモンの場合は背面だけを不透明にしたりするといった、タイトルにあった調整が実施されている",
+   "『ポケモンスカーレット・バイオレット』最新情報まとめはこちら",
+   "『ポケモンスカーレット・バイオレット』(Switch)の購入はこちら(Amazon.co.jp)",
    "※CGキャラクターにアニメーションを付けるための“リグ（動かす仕組み）”を設定する人。"
   ]
  },
@@ -3022,11 +3151,13 @@
   "page_images": 5,
   "share": 1.12,
   "cached": true,
-  "paragraphs": 14,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 36,
+  "missing": 1,
+  "missing_chars": 50,
+  "covered": 0.99,
+  "missing_sample": [
+   "ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。"
+  ]
  },
  {
   "post": "2023-04-19-interview-cgworld-2023-sv-making-1.md",
@@ -3037,11 +3168,14 @@
   "page_images": 13,
   "share": 0.91,
   "cached": true,
-  "paragraphs": 32,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 46,
+  "missing": 2,
+  "missing_chars": 69,
+  "covered": 0.98,
+  "missing_sample": [
+   "希望小売価格：パッケージ版各6,578円（税込）、ダウンロード版各6,500円（税込）",
+   "www.pokemon.co.jp/ex/sv/ja"
+  ]
  },
  {
   "post": "2023-04-20-interview-cgworld-2023-sv-making-2.md",
@@ -3052,11 +3186,14 @@
   "page_images": 15,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 8,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 42,
+  "missing": 2,
+  "missing_chars": 69,
+  "covered": 0.98,
+  "missing_sample": [
+   "希望小売価格：パッケージ版各6,578円（税込）、ダウンロード版各6,500円（税込）",
+   "www.pokemon.co.jp/ex/sv/ja"
+  ]
  },
  {
   "post": "2023-04-21-interview-cgworld-2023-sv-making-3.md",
@@ -3067,11 +3204,14 @@
   "page_images": 10,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 11,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 72,
+  "missing": 2,
+  "missing_chars": 69,
+  "covered": 0.99,
+  "missing_sample": [
+   "希望小売価格：パッケージ版各6,578円（税込）、ダウンロード版各6,500円（税込）",
+   "www.pokemon.co.jp/ex/sv/ja"
+  ]
  },
  {
   "post": "2023-08-24-interview-denfami-2023-cedec-visual.md",
@@ -3082,7 +3222,7 @@
   "page_images": 59,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 66,
+  "paragraphs": 72,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -3097,62 +3237,41 @@
   "page_images": 45,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 64,
-  "missing": 9,
-  "missing_chars": 624,
-  "covered": 0.92,
-  "missing_sample": [
-   "画面中央のコントロール部分に引いた線の形に合わせて鳴き声を変化させたり、人の声を使ったりして強弱を変化させる様子が披露された。複数のボイスに同一の処理を一括で行",
-   "プレイヤーキャラクターを中心に左右を前後に分けた4エリアで判定が行われ、中距離、遠距離で抽選されたポケモンの鳴き声が出される。",
-   "昼（1枚目）では鳥タイプの鳴き声が多いのに対し、夜（2枚目）では虫やその他に分類されるタイプの出す音が増えていることがわかる。",
-   "発表時に岩本氏は「『ポケモン』で“くさ”、“みず”と来たらもうひとつは……わかりますね」とほのおタイプを連想させるミスリードから3つ目が“木の音”だと明かして笑",
-   "川や海の自動判別により、川沿いに海に近づいていった際も音が自然に変化するようになったそうだ。",
-   "Gizmoは音の発生している場所（メリープの足元に見える赤丸）を明示し、そこで再生されているサウンドと、リスナー（プレイヤーキャラクター）との距離も示してくれる"
-  ]
+  "paragraphs": 60,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza.md",
   "url": "https://www.4gamer.net/games/619/G061991/20230823075/",
-  "post_chars": 1758,
-  "post_images": 0,
-  "page_chars": 4622,
-  "page_images": 53,
-  "share": 0.38,
+  "post_chars": 2255,
+  "post_images": 51,
+  "page_chars": 2255,
+  "page_images": 52,
+  "share": 1.0,
   "cached": true,
-  "paragraphs": 21,
-  "missing": 21,
-  "missing_chars": 1482,
-  "covered": 0.0,
-  "missing_sample": [
-   "NintendoSwitchレビュープレイレポートインタビュームービー最近発売されたタイトルゲームカタログ",
-   "（C）2023Pokémon.（C）1995-2023Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
-   "そうだアニメ，見よう：第268回はシンエイ動画制作の「これ描いて死ね」。漫画の楽しさと厳しさを描く，伊豆王島の少女たちの青春グラフィティ",
-   "「週刊VTuberファイル」File.138：歩音ティナ【ユニバースプロダクション】",
-   "9月17日から開催される「東京ゲームショウ2026」に合わせて，さまざまな番組が配信。忘れずに見たい「今週の公式配信番組」ピックアップ",
-   "ゲームに高い没入感をもたらし，普段使いにも便利なウルトラワイドディスプレイの入門機「AMZFASTAMZG34C8Pro」【レビュー】"
-  ]
+  "paragraphs": 20,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md",
   "url": "https://www.4gamer.net/games/256/G025650/20230825014/",
-  "post_chars": 4489,
-  "post_images": 29,
-  "page_chars": 7880,
-  "page_images": 31,
-  "share": 0.57,
+  "post_chars": 4569,
+  "post_images": 30,
+  "page_chars": 4573,
+  "page_images": 30,
+  "share": 1.0,
   "cached": true,
-  "paragraphs": 27,
-  "missing": 26,
-  "missing_chars": 2104,
-  "covered": 0.05,
-  "missing_sample": [
-   "TOP話題作オンラインゲーム週刊連載攻略ガイドレビューインタビュームービーゲームショウプレゼント配信番組表",
-   "トップ>OTHERS/3DS/NintendoSwitch>RPG>ポケットモンスターオメガルビー",
-   "・「ポケモンは“ふしぎな生き物”であって“動物”ではない」・「クリエイティブされた生き物である」・「ライオンからインスパイアされたポケモンに，ライオンの声を使う",
-   "（C）2014Pokémon.（C）1995-2014Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po",
-   "(C)2016Pokémon.(C)1995-2016Nintendo/CreaturesInc./GAMEFREAKincポケットモンスター・ポケモン・Pok",
-   "(C)2021Pokémon.(C)1995-2021Nintendo/CreaturesInc./GAMEFREAKinc.ポケットモンスター・ポケモン・Po"
-  ]
+  "paragraphs": 30,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2023-09-10-interview-pokemon-recruit-data.md",
@@ -3163,11 +3282,13 @@
   "page_images": 4,
   "share": 1.12,
   "cached": true,
-  "paragraphs": 15,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 25,
+  "missing": 1,
+  "missing_chars": 50,
+  "covered": 0.98,
+  "missing_sample": [
+   "ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。"
+  ]
  },
  {
   "post": "2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai.md",
@@ -3178,13 +3299,13 @@
   "page_images": 12,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 50,
+  "paragraphs": 58,
   "missing": 2,
-  "missing_chars": 101,
-  "covered": 0.98,
+  "missing_chars": 77,
+  "covered": 0.99,
   "missing_sample": [
-   "※田尻智氏……ゲームフリーク代表取締役。『ポケットモンスター』シリーズの生みの親。",
-   "※つまみぐいモードは、プロローグをクリアーすることで機能が解放される※実際のゲーム画面ではすべてのエピソードが表示される"
+   "『帰ってきた名探偵ピカチュウ』の購入はこちら(Amazon.co.jp)",
+   "※田尻智氏……ゲームフリーク代表取締役。『ポケットモンスター』シリーズの生みの親。"
   ]
  },
  {
@@ -3211,7 +3332,7 @@
   "page_images": 9,
   "share": 1.27,
   "cached": true,
-  "paragraphs": 8,
+  "paragraphs": 18,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -3226,11 +3347,13 @@
   "page_images": 16,
   "share": 1.0,
   "cached": true,
-  "paragraphs": 20,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 47,
+  "missing": 1,
+  "missing_chars": 186,
+  "covered": 0.96,
+  "missing_sample": [
+   "兼務しているアジアカード制作部では、国内で販売しているポケモンカードのパッケージや商品ロゴなどを繁体字・インドネシア語・タイ語などの言語にローカライズして、商品"
+  ]
  },
  {
   "post": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata.md",
@@ -3241,16 +3364,16 @@
   "page_images": 38,
   "share": 0.75,
   "cached": true,
-  "paragraphs": 90,
-  "missing": 35,
-  "missing_chars": 2824,
-  "covered": 0.76,
+  "paragraphs": 109,
+  "missing": 29,
+  "missing_chars": 2200,
+  "covered": 0.8,
   "missing_sample": [
    "株式会社ポケモンCOO『ポケモンスリープ』総合プロデューサー。企画立ち上げ及び開発チームの構築を行い、開発中も企画会議に参加。『ポケモンGO』でも、企画立ち上げ",
    "株式会社SELECTBUTTONCEO『ポケモンスリープ』ディレクター。開発チームのリーダーとして企画、ディレクション、パラメータ設計、ライティングなどを担当。",
    "株式会社SELECTBUTTONCTO『ポケモンスリープ』リードクライアントエンジニア。クライアントエンジニアのリーダーとしてアプリの実装全般及びPokémon",
    "株式会社SELECTBUTTONCCO『ポケモンスリープ』アートディレクター/UIデザイナー。全ポケモンを含むさまざまなイラストのテイスト調整、UI、フィールド",
-   "それはたしかに、このゲームならではの光景かも。――前回のインタビューではリリース前でおうかがいできなかったので、そのようなリリース後の反響についてもお聞きしたい",
+   "DevelopedbySELECTBUTTONinc.",
    "PokémonSleepisdevelopedbySELECTBUTTONinc."
   ]
  },
@@ -3263,14 +3386,11 @@
   "page_images": 47,
   "share": 0.98,
   "cached": true,
-  "paragraphs": 69,
-  "missing": 2,
-  "missing_chars": 187,
-  "covered": 0.98,
-  "missing_sample": [
-   "本作ではメタモンが“このは”を使うことで草むらを作れる。草むらや木、水辺などさまざまな地形を組み合わせることでバリエーション豊かな“生息地”を作り出し、生息地ご",
-   "タイトル：『ぽこあポケモン』発売日:2026年3月5日発売予定価格：8980円[税込]企画開発：株式会社ポケモン、株式会社ゲームフリーク、株式会社コーエーテクモ"
-  ]
+  "paragraphs": 92,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇.md",
@@ -3281,17 +3401,17 @@
   "page_images": 68,
   "share": 0.46,
   "cached": true,
-  "paragraphs": 127,
-  "missing": 107,
-  "missing_chars": 8126,
-  "covered": 0.36,
+  "paragraphs": 54,
+  "missing": 12,
+  "missing_chars": 1153,
+  "covered": 0.8,
   "missing_sample": [
-   "ポケモンと歩いた30年【1996年】初代『赤・緑』と幻のミュウ後編【30周年記念コラム】",
+   "『ポケモン』をAmazonで調べる『ポケモン』を楽天で調べる",
+   "ポケモンと歩いた30年【1996年】初代『赤・緑』と幻のミュウ後編【30周年記念コラム】2026-02-2812:00",
    "“ファミ通”で雑誌やムック、音楽やWeb番組を作っていました。現在はフリーのミュージシャンで編集ライター。ポケモン歴は1996年2月『ポケットモンスター赤・緑』",
-   "終末のバンギア。/市野ルギア：「『ポケモン』歴は最初から、ゲーム音楽も作れちゃうギタリストライター」ゲーム歴45年超えのエルダーゲーマーなミュージシャン編集ライ",
-   "：「『ポケモン』歴は最初から、ゲーム音楽も作れちゃうギタリストライター」ゲーム歴45年超えのエルダーゲーマーなミュージシャン編集ライター。2001年全国誌のペッ",
-   "【TGS2026】楽天ブックスでブース試遊ノベルティが当たるキャンペーン開催！新作ゲーム購入＆エントリーでチャンス",
-   "『ONEPIECE海のごちそうレストラン』先行レビュー。失敗なしで気楽に放置＆拡大！シミュレーション初心者も安心して楽しめるゲームシステムを解説"
+   "“ファミ通WaveDVD”や“ファミ通コネクト！オン”など多くの雑誌に企画・編集・ライティングで携わってきました。",
+   "電撃オンラインでは、『ポケットモンスターソード・シールド』より『ポケモン』シリーズのプレイレポートを不定期で連載しています。",
+   "また、ゲーム曲やそのアレンジ、ラジオやテレビの主題歌など手掛けています。歌から物語を創る自身の音楽ユニット「終末のバンギア。」をプロデュース中。"
   ]
  },
  {
@@ -3317,7 +3437,7 @@
   "page_images": 20,
   "share": 0.99,
   "cached": true,
-  "paragraphs": 46,
+  "paragraphs": 45,
   "missing": 0,
   "missing_chars": 0,
   "covered": 1.0,
@@ -3339,18 +3459,28 @@
   "page_images": 18,
   "share": 0.92,
   "cached": true,
-  "paragraphs": 26,
-  "missing": 0,
-  "missing_chars": 0,
-  "covered": 1.0,
-  "missing_sample": []
+  "paragraphs": 33,
+  "missing": 1,
+  "missing_chars": 28,
+  "covered": 0.99,
+  "missing_sample": [
+   "『PokémonLEGENDSZ-A』公式サイトはこちら"
+  ]
  },
  {
   "post": "2026-07-28-interview-4gamer-2026-cedec-battle.md",
   "url": "https://www.4gamer.net/games/897/G089789/20260728007/",
   "post_chars": 6348,
   "post_images": 19,
-  "error": "the fetched copy holds no article (6348 chars)"
+  "page_chars": 6348,
+  "page_images": 20,
+  "share": 1.0,
+  "cached": true,
+  "paragraphs": 51,
+  "missing": 0,
+  "missing_chars": 0,
+  "covered": 1.0,
+  "missing_sample": []
  },
  {
   "post": "2026-09-17-interview-cgworld-2026-cedec-pkmnza.md",
@@ -3360,14 +3490,15 @@
   "page_chars": 4760,
   "page_images": 12,
   "share": 0.95,
-  "cached": false,
-  "paragraphs": 15,
-  "missing": 2,
-  "missing_chars": 136,
+  "cached": true,
+  "paragraphs": 39,
+  "missing": 3,
+  "missing_chars": 152,
   "covered": 0.97,
   "missing_sample": [
    "・『ドンキーコングバナンザ』は、なぜ「もっと壊したくなる」のか？\"破壊\"を体験させるビジュアルづくりの舞台裏～CEDEC2026（1）",
-   "TEXT＿葛西祝/HajimeKasaiEDIT＿小村仁美/Hitomikomura（CGWORLD）、山田桃子/MomokoYamada"
+   "www.pokemon.co.jp/ex/legends_z-a/ja/",
+   "EDIT＿小村仁美/Hitomikomura（CGWORLD）、山田桃子/MomokoYamada"
   ]
  }
 ]

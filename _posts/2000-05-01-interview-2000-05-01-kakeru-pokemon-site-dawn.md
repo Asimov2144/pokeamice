@@ -1,6 +1,6 @@
 ---
 layout: interview-editorial
-title: '[访谈翻译] 互联网宝可梦网站黎明期的记忆：金银发售前的整理'
+title: 宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录
 date: '2000-05-01'
 toc: true
 toc_sticky: true
@@ -35,6 +35,7 @@ entities:
   - 增田顺一
   works:
   - 宝可梦 金·银
+  - 宝可梦 红·绿
   organizations:
   - Game Freak
   - Nintendo
@@ -652,4 +653,6 @@ mentions:
   - "宝可梦竞技场"
   - "宝可梦竞技场2"
   - "宝可梦 动画系列"
+title_ja: インターネットにおけるポケモンサイト黎明期の記憶（初代赤緑・ミュウ騒動から金銀発売前夜まで）
+era: '1999'
 ---

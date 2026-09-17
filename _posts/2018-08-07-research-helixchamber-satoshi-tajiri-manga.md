@@ -5,6 +5,13 @@ title_ja: 田尻智自伝漫画が明かすポケットモンスター黎明期�
 date: 2018-08-07 10:00:00 +0900
 era: '2016'
 source: Helix Chamber
+tags:
+- Pokemon
+- 访谈
+- 开发者访谈
+- 第一世代
+- 田尻智
+- 赤绿
 source_url: https://helixchamber.com/2018/08/07/what-does-satoshi-tajiris-manga-tell-us-about-pokemons-earliest-development/
 categories:
 - developer-interviews
@@ -650,6 +657,9 @@ parallel_items:
 entities:
   works:
   - 宝可梦 红·绿
+  organizations:
+  - Game Freak
+  - Nintendo
 original_lang: ja
 summary: "2018年5月17日，GAME FREAK设计师詹姆斯·特纳在推特发布田尻智自传漫画节选，其中一格展示了开发期间内部人气投票。Helix Chamber团队获取漫画并扫描，还原出1992至1993年间GAME FREAK内部人气投票的图表与结果，包括椰蛋树、吉利蛋、皮皮等排名，以及初代胶囊怪兽草案中的未采用设计，如嘎奥斯、仙人掌、Jagg等。文章还分析了宝可梦内部ID顺序、叫声数据索引，并提及1992年10月第一次投票中椰蛋树获第一、呆壳兽第二、皮皮第三。"
 dek: "田尻智自传漫画披露1992年GAME FREAK内部人气投票与初代胶囊怪兽草案。"

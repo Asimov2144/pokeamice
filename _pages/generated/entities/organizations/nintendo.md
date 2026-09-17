@@ -31,8 +31,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · helixchamber 田尻 自传漫画 研究</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-tajiri-manga/">[访谈翻译] helixchamber 田尻 自传漫画 研究</a></h3>
+  <p>2018 · interview_translation · Helix Chamber</p>
+  <h3><a href="/developer-interviews/research-archives/research-helixchamber-satoshi-tajiri-manga/">Helix Chamber 深度特写：解读田尻智自传漫画——初代胶囊怪兽草案、1992年内部人气投票与失落原案全考证</a></h3>
   <span></span>
 </article>
 

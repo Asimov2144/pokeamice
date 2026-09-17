@@ -3379,561 +3379,10 @@
  },
  "2018-08-07-interview-tajiri-manga.md": {
   "post": "2018-08-07-interview-tajiri-manga.md",
-  "page_pictures": 55,
-  "added": [
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/001.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/DgOpSuJX4AAn9Hp.jpg",
-    "after": -1,
-    "size": [
-     2048,
-     960
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/002.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/tajiri5.png",
-    "after": 2,
-    "size": [
-     913,
-     676
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/003.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/02_poll_results_translate.png",
-    "after": 9,
-    "size": [
-     2768,
-     2000
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/004.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/03_pokemon_chart_dec2018.png",
-    "after": 12,
-    "size": [
-     3414,
-     1492
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/005.jpg",
-    "src": "http://www.mediafire.com/convkey/650a/oi8e0gvb04cj86nzg.jpg",
-    "after": 22,
-    "size": [
-     499,
-     429
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/006.jpg",
-    "src": "http://www.mediafire.com/convkey/abc1/g6yrmnzgka1d21wzg.jpg",
-    "after": 25,
-    "size": [
-     497,
-     423
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/007.jpg",
-    "src": "http://www.mediafire.com/convkey/e857/vmzkbklqzzj1j6kzg.jpg",
-    "after": 27,
-    "size": [
-     497,
-     423
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/008.jpg",
-    "src": "http://www.mediafire.com/convkey/12ea/2jqf5fnkk5uzfbqzg.jpg",
-    "after": 32,
-    "size": [
-     513,
-     427
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/009.jpg",
-    "src": "http://www.mediafire.com/convkey/6182/r8k7k4jlr32ck36zg.jpg",
-    "after": 34,
-    "size": [
-     480,
-     412
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/010.jpg",
-    "src": "http://www.mediafire.com/convkey/bc7d/mqx76zxdvhm9oqqzg.jpg",
-    "after": 35,
-    "size": [
-     499,
-     433
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/011.jpg",
-    "src": "http://www.mediafire.com/convkey/315c/83xfdi2mgv54udezg.jpg",
-    "after": 38,
-    "size": [
-     505,
-     433
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/012.jpg",
-    "src": "http://www.mediafire.com/convkey/ee53/vc933f3enhh42ofzg.jpg",
-    "after": 39,
-    "size": [
-     513,
-     435
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/013.jpg",
-    "src": "http://www.mediafire.com/convkey/c28e/3we90eqlkoc88jzzg.jpg",
-    "after": 41,
-    "size": [
-     496,
-     428
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/014.jpg",
-    "src": "http://www.mediafire.com/convkey/bb22/mwz6a56ha0f7479zg.jpg",
-    "after": 44,
-    "size": [
-     490,
-     421
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/015.jpg",
-    "src": "http://www.mediafire.com/convkey/f927/vzy0b9xh6i4cvunzg.jpg",
-    "after": 44,
-    "size": [
-     505,
-     425
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/016.jpg",
-    "src": "http://www.mediafire.com/convkey/fc1a/q17rv6604rv28ydzg.jpg",
-    "after": 46,
-    "size": [
-     496,
-     417
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/017.jpg",
-    "src": "http://www.mediafire.com/convkey/1a55/atqamta5s4asanfzg.jpg",
-    "after": 48,
-    "size": [
-     491,
-     409
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/018.jpg",
-    "src": "http://www.mediafire.com/convkey/f44b/oauq5k0bcssolc3zg.jpg",
-    "after": 50,
-    "size": [
-     515,
-     419
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/019.jpg",
-    "src": "http://www.mediafire.com/convkey/92b3/hd9kbu1md7sa7ovzg.jpg",
-    "after": 54,
-    "size": [
-     507,
-     410
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/020.jpg",
-    "src": "http://www.mediafire.com/convkey/2710/otc89uhz4qaaowzzg.jpg",
-    "after": 55,
-    "size": [
-     417,
-     449
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/021.jpg",
-    "src": "http://www.mediafire.com/convkey/ea8b/id4uo2zql566qzuzg.jpg",
-    "after": 59,
-    "size": [
-     619,
-     728
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/022.jpg",
-    "src": "http://www.mediafire.com/convkey/70e5/8jsal4huit1jmb6zg.jpg",
-    "after": 61,
-    "size": [
-     511,
-     431
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/023.jpg",
-    "src": "http://www.mediafire.com/convkey/3855/g7ljiotu0ybx1cszg.jpg",
-    "after": 61,
-    "size": [
-     286,
-     238
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/024.jpg",
-    "src": "http://www.mediafire.com/convkey/b8bd/i75l9ergo09cdxbzg.jpg",
-    "after": 63,
-    "size": [
-     551,
-     261
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/025.jpg",
-    "src": "http://www.mediafire.com/convkey/5327/xwdktwd0ypuw9n5zg.jpg",
-    "after": 65,
-    "size": [
-     517,
-     425
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/026.jpg",
-    "src": "http://www.mediafire.com/convkey/3300/d2lloacxzx7uxxbzg.jpg",
-    "after": 67,
-    "size": [
-     221,
-     194
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/027.jpg",
-    "src": "http://www.mediafire.com/convkey/18ef/bifrihrfcfkaokpzg.jpg",
-    "after": 67,
-    "size": [
-     638,
-     436
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/028.jpg",
-    "src": "http://www.mediafire.com/convkey/4cae/vkrp2sp1ty26m6qzg.jpg",
-    "after": 69,
-    "size": [
-     533,
-     440
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/029.jpg",
-    "src": "http://www.mediafire.com/convkey/2c2b/bb19fprpygoa39bzg.jpg",
-    "after": 72,
-    "size": [
-     223,
-     180
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/030.jpg",
-    "src": "http://www.mediafire.com/convkey/ece2/xui9itf73fdypopzg.jpg",
-    "after": 74,
-    "size": [
-     527,
-     453
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/031.jpg",
-    "src": "http://www.mediafire.com/convkey/e41a/c1s1ns1h1l9u174zg.jpg",
-    "after": 74,
-    "size": [
-     207,
-     188
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/032.jpg",
-    "src": "http://www.mediafire.com/convkey/6112/l4zzyo8mscr9ng8zg.jpg",
-    "after": 101,
-    "size": [
-     502,
-     426
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/033.jpg",
-    "src": "http://www.mediafire.com/convkey/f283/jfb8axnuxxs2drhzg.jpg",
-    "after": 101,
-    "size": [
-     483,
-     425
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/034.jpg",
-    "src": "http://www.mediafire.com/convkey/5e47/961hxai9n4kjforzg.jpg",
-    "after": 101,
-    "size": [
-     479,
-     415
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/035.jpg",
-    "src": "http://www.mediafire.com/convkey/f2d2/aab30k1ka3z3f7pzg.jpg",
-    "after": 101,
-    "size": [
-     509,
-     424
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/036.jpg",
-    "src": "http://www.mediafire.com/convkey/7512/kl2sxkk0z20bumazg.jpg",
-    "after": 101,
-    "size": [
-     469,
-     401
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/037.jpg",
-    "src": "http://www.mediafire.com/convkey/3bcf/ewsovig99zic7erzg.jpg",
-    "after": 101,
-    "size": [
-     487,
-     417
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/038.jpg",
-    "src": "http://www.mediafire.com/convkey/0807/sdkdsljc6cbu47fzg.jpg",
-    "after": 101,
-    "size": [
-     475,
-     413
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/039.jpg",
-    "src": "http://www.mediafire.com/convkey/302e/aabva7lsftqmf7xzg.jpg",
-    "after": 101,
-    "size": [
-     483,
-     413
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/040.jpg",
-    "src": "http://www.mediafire.com/convkey/e70e/zavupykg84m8v8rzg.jpg",
-    "after": 101,
-    "size": [
-     505,
-     413
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/041.jpg",
-    "src": "http://www.mediafire.com/convkey/e340/1cd99k2lpnp76lwzg.jpg",
-    "after": 101,
-    "size": [
-     488,
-     412
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/042.jpg",
-    "src": "http://www.mediafire.com/convkey/b9ad/mn44yojsf817flwzg.jpg",
-    "after": 98,
-    "size": [
-     540,
-     409
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/043.jpg",
-    "src": "http://www.mediafire.com/convkey/9f51/0pa448hde5e1ex7zg.jpg",
-    "after": 99,
-    "size": [
-     479,
-     412
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/044.jpg",
-    "src": "http://www.mediafire.com/convkey/8a52/s45ywym22bqmu1ezg.jpg",
-    "after": 103,
-    "size": [
-     515,
-     315
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/045.jpg",
-    "src": "http://www.mediafire.com/convkey/0a7f/f5n3a3eoxqm3unuzg.jpg",
-    "after": 106,
-    "size": [
-     517,
-     411
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/046.jpg",
-    "src": "http://www.mediafire.com/convkey/0116/gv1msunzuqr1n1qzg.jpg",
-    "after": 109,
-    "size": [
-     476,
-     411
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/047.jpg",
-    "src": "http://www.mediafire.com/convkey/d535/qr38xb7u3u4392izg.jpg",
-    "after": 112,
-    "size": [
-     489,
-     419
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/048.jpg",
-    "src": "http://www.mediafire.com/convkey/490e/zkmkdt7na0giar3zg.jpg",
-    "after": 115,
-    "size": [
-     473,
-     419
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/049.jpg",
-    "src": "http://www.mediafire.com/convkey/e244/a68w0wlrk4r021rzg.jpg",
-    "after": 118,
-    "size": [
-     733,
-     393
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/050.jpg",
-    "src": "http://www.mediafire.com/convkey/6512/cx0rexvi6etg1xuzg.jpg",
-    "after": 122,
-    "size": [
-     505,
-     440
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/051.jpg",
-    "src": "http://www.mediafire.com/convkey/887a/mjrlps8gpmp6batzg.jpg",
-    "after": 123,
-    "size": [
-     2400,
-     2211
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/052.jpg",
-    "src": "http://www.mediafire.com/convkey/2f51/e55jrgg5n6dzy45zg.jpg",
-    "after": 127,
-    "size": [
-     2430,
-     2170
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/053.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/Top31_1_deletion_proof.png",
-    "after": 132,
-    "size": [
-     685,
-     783
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/054.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/Top31_3_crossreference.jpg",
-    "after": 135,
-    "size": [
-     2026,
-     1944
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2018-08-07-interview-tajiri-manga/055.jpg",
-    "src": "https://helixchamber.com/wp-content/uploads/2018/08/Top31_5_barunda.jpg",
-    "after": 138,
-    "size": [
-     1032,
-     835
-    ],
-    "reused": true
-   }
-  ],
-  "skipped": [],
-  "dry": false
+  "folded_into": "2018-08-07-research-helixchamber-satoshi-tajiri-manga.md",
+  "note": "a second import of the same Helix Chamber piece, which already carried the 56 pictures; retired with a redirect",
+  "dry": false,
+  "added": []
  },
  "2018-09-10-interview-funsproject-atsuko-nishida-pikachu.md": {
   "post": "2018-09-10-interview-funsproject-atsuko-nishida-pikachu.md",
@@ -7061,144 +6510,167 @@
  "2026-07-28-interview-4gamer-2026-cedec-battle.md": {
   "post": "2026-07-28-interview-4gamer-2026-cedec-battle.md",
   "page_pictures": 20,
-  "added": [
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/011.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/011.jpg",
-    "after": 36,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/012.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/012.jpg",
-    "after": 38,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/013.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/013.jpg",
-    "after": 39,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/014.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/014.jpg",
-    "after": 40,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/015.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/015.jpg",
-    "after": 46,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/016.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/016.jpg",
-    "after": 50,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/017.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/017.jpg",
-    "after": 52,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/018.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/018.jpg",
-    "after": 56,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   },
-   {
-    "image": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/019.jpg",
-    "src": "https://www.4gamer.net/games/897/G089789/20260728007/TN/020.jpg",
-    "after": 60,
-    "size": [
-     512,
-     289
-    ],
-    "reused": true
-   }
-  ],
+  "added": [],
   "skipped": [
    [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/001.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/002.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/003.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/004.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/005.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/006.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/007.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/008.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/009.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/010.jpg",
-    "already in the post"
-   ],
-   [
-    "https://www.4gamer.net/games/897/G089789/20260728007/TN/019.jpg",
+    "https://www.4gamer.net/games/897/G089789/20260728007/SS/019.jpg",
     "already in the post"
    ]
   ],
-  "dry": false
+  "dry": false,
+  "upgraded": [
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/001.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/020.jpg",
+    "size": [
+     1920,
+     1080
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/002.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/021.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/003.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/022.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/004.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/023.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/005.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/024.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/006.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/025.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/007.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/026.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/008.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/027.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/009.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/028.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/010.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/029.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/011.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/030.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/012.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/031.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/013.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/032.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/014.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/033.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/015.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/034.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/016.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/035.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/017.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/036.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/018.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/037.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   },
+   {
+    "from": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/019.jpg",
+    "to": "/assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/038.jpg",
+    "size": [
+     1390,
+     784
+    ]
+   }
+  ]
  }
 }

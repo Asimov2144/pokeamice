@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2017 · interview_translation · CGWORLD.jp</p>
-  <h3><a href="/interview-cgworld-creatures-cg-studio/">CGWORLD 专访：为宝可梦设定画注入生命——Creatures 宝可梦CG工作室的现状与未来</a></h3>
+  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
   <span></span>
 </article>
 

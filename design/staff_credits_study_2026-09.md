@@ -72,8 +72,11 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
   （onclick 里的路径）和 gamer.ne.jp 的 `/o/`。还没动：Kotaku 两篇、1UP、電ファミ CEDEC 报道等在审计里"缺段"的其实是页面 chrome（审计用的是 live 页），
   剧场版 18 模型稿页（英文站的设定资料，3618/16772 字）值得重导；GameSpot 2018-10-17 与 10-18 是同一篇的两次导入，10-18 带别人改动，待合并。
   另：`_config.yml` 现在排除 `routeA-worktree/`——之前 Jekyll 把它当第二份站点建了一个多小时还报错。
-- 已并掉的重复导入：Denfami 2017 后篇 → 四回完整版（`92d68c17`）。审计里还看到疑似重复：G4TV 白金 2009-03-24 vs 2013-01-11、
-  Creatures 20 周年 2015-11-08（0 图）vs 2021-11-08（15 图）、kakeru pokemon_site 1999-12-01 vs 2000-05-01——待核后同样处理。
+- 重复导入：按 source_url 归并后一共 15 对（GF 部长博客同月多篇、招聘页两篇同页的不算）。2026-09-17 已并 8 对：Denfami 2017 后篇（`92d68c17`）、
+  田尻漫画（raw 版 → 整理版）、CGWORLD Creatures 2017、FUN'S 西田（09-10 → 06-25 対談完整版）、GI 2017-08-10、GlitterBerri 前后篇（research 版并入完整版，标题/题注搬过去）、
+  kakeru 网站黎明期——用 `tools/fold-duplicate.py <退休> <保留> [--title]`（保留篇补齐 dek/summary/topics/tags/entities，redirect 存根，烤好的卡片换掉，图删）。
+  还带别人未提交改动、没动的：G4TV 白金 2009-03-24 vs 2013-01-11、Creatures 20 周年 2015 vs 2021、Nintendo Power 白金 2009-04-01 vs 05-01、GI 2017-08-14 两篇、
+  GameSpot 2018-10-17 vs 10-18、pocketmonsters USUM 2017-10-19 vs 11-09、sunanohi 1997 vs 2000。烤好的列表和 `resource-index.json` 等工作区干净后 `ruby tools/build-resource-index.rb` 重建。
 - **受访者头像**（2026-09-17）：审核了访谈的 entities.people（游戏角色、提问的记者移出，11 篇；社長が訊く 的岩田聪保留；首藤手记 39 篇的动画角色标注是有意为之、未动；
   2 篇脏文件未处理：pokemon-com-usum-ohmori-iwao 的 坂木/古兹马、recruit-business-anatomy）。用访谈自带、图注点名的照片补了 12 人头像（尾上将之两张、大洞翔一、森彰人、江上周作、
   河合敬一、野村达雄、田中宏和、CGWORLD 的 氏家淳子/中广健吾/畠祐贵 按原页标题顺序、河内丸武史 G4TV 合影右侧框；冈崎体育 取自 Bulbagarden）。

@@ -124,12 +124,14 @@ def missing_paragraphs(html, target, held):
     box = importweb.find_container(soup, target or {})
     seen = set()
     paras, gone = [], []
-    for el in box.find_all(["p", "h2", "h3", "h4", "li", "dd", "dt", "blockquote", "div", "td"]):
-        if el.name in ("div", "td") and el.find(["p", "div", "li", "td"]):
+    # the page cut into paragraphs the way import-web.py reads it (a 4Gamer article is one <div>
+    # with <br> breaks and no <p> at all, which an element walk would miss entirely)
+    for b in importweb.extract_blocks(box, bool(target and target.get("join_br"))):
+        if b["t"] != "text":
             continue
-        s = squash(el.get_text(" ", strip=True))
-        if len(s) < 40 or s in seen or CHROME.search(s):
-            continue
+        s = squash(b["x"])
+        if len(s) < 24 or s in seen or CHROME.search(s):
+            continue                  # 24: a dialogue line of 社長が訊く is short; the long lines there are footnotes
         seen.add(s)
         paras.append(s)
         if not held_has(s, held):
@@ -217,7 +219,7 @@ def main():
             html, cached = fetch(url, slug, refetch, target_key)
             wchars, wimages = page_text(html, target)
             paras, gone = missing_paragraphs(html, target, held)
-            if wchars < 1500 or sum(len(p) for p in paras) < 600:
+            if wchars < 1500:
                 raise RuntimeError(f"the fetched copy holds no article ({wchars} chars)")
             row.update(page_chars=wchars, page_images=wimages, share=round(pchars / wchars, 2) if wchars else None, cached=cached,
                        paragraphs=len(paras), missing=len(gone), missing_chars=sum(len(g) for g in gone),

@@ -39,6 +39,5 @@ search: false
 <a href="/timeline/2000/"><strong>2000</strong><span>6 条资料</span></a>
 <a href="/timeline/1999/"><strong>1999</strong><span>2 条资料</span></a>
 <a href="/timeline/1997/"><strong>1997</strong><span>2 条资料</span></a>
-<a href="/timeline/1990/"><strong>1990</strong><span>2 条资料</span></a>
   </div>
 </section>

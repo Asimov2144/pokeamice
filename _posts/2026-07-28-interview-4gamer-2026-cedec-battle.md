@@ -60,7 +60,7 @@ parallel_items:
 - original: 小幡氏は2009年に入社し，「ポケットモンスター ブラック・ホワイト」からシリーズ開発に携わってきた。現在はプロジェクト横断で，バトルロジック関連データの保守・開発を担う
   translation: 小幡氏于2009年入职，从「宝可梦 黑・白」起参与系列开发。目前跨项目负责战斗逻辑相关数据的维护与开发。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/001.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/020.jpg
   alt: 画像ギャラリー No.001のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - type: heading
   level: 2
@@ -69,10 +69,10 @@ parallel_items:
 - original: まず宗像氏は，ポケモンバトルの特徴を3つ挙げた。1つめは，バトルシステムが扱う設定データの多さだ。総数は2400種類を超え，新作のたびにポケモンや技などが合計200種類以上追加される。この膨大なデータがバトルの多様性を生む一方，品質の維持を難しくしている。
   translation: 首先，宗像氏列举了宝可梦对战的3个特征。第1个是战斗系统所处理的设定数据之多。总数超过2400种，每次推出新作都会追加合计200种以上的宝可梦与招式等。这些庞大的数据在催生对战多样性的同时，也让品质维持变得困难。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/002.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/021.jpg
   alt: 画像ギャラリー No.002のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/003.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/022.jpg
   alt: 画像ギャラリー No.003のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 2つめはパッシブスキルだ。プレイヤーが操作して発動させるのではなく，条件を満たした際に自動で効果を発揮する。例として挙げられた特性「いかく」は，バトル場に出たとき，相手の攻撃ランクを1段階下げるものだ。
   translation: 第2个是被动技能。它不是由玩家操作发动，而是在满足条件时自动发挥效果。作为例子被举出的特性「威吓」，是在出场到战斗场上时，将对手的攻击等级降低1级。
@@ -81,7 +81,7 @@ parallel_items:
 - original: 3つめは，バトル中にパラメータが動的に変化する点だ。宗像氏は，ゲッコウガの特性「へんげんじざい」を例に挙げた。通常はみずタイプとあくタイプだが，技を出す直前に特性が発動し，その技と同じタイプへ変わる。ひこうタイプの技を選べば，ゲッコウガ自身もひこうタイプになるわけだ。
   translation: 第3个是对战中的参数会动态变化。宗像氏以甲贺忍蛙的特性「变幻自如」为例。它通常是水属性和恶属性，但在出招前特性会发动，变为与该招式相同的属性。若选择飞行属性的招式，甲贺忍蛙自身也会变成飞行属性。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/004.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/023.jpg
   alt: 画像ギャラリー No.004のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: これら3要素が相互に影響し合うことで，ポケモンのバトルシステムは複雑さを増していく。各プロジェクトが個別に開発すれば，膨大な組み合わせを考慮しながら品質を保つのは難しい。そのため，宗像氏らのポケモン・バトルシステムチームが全ポケモンプロジェクトに参加し，実装を支援している。
   translation: 这3个要素相互影响，使宝可梦的战斗系统愈发复杂。如果每个项目各自独立开发，要在考虑庞大组合的同时保持质量是很困难的。因此，宗像氏等人的宝可梦战斗系统团队会参与所有宝可梦项目，协助实现。
@@ -90,14 +90,14 @@ parallel_items:
 - original: では，リザードンに道具「クラボのみ」を持たせ，ピカチュウに特性「せいでんき」を付与し，さらに天気を「晴れ」にすると，結果はどう変わるのか。
   translation: 那么，如果让喷火龙携带道具“樱子果”，给皮卡丘赋予特性“静电”，再把天气设为“晴天”，结果会如何变化呢。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/005.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/024.jpg
   alt: 画像ギャラリー No.005のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 結果は大きく変わった。「晴れ」の効果でほのおタイプの技によるダメージが増え，ピカチュウの特性「せいでんき」が発動すると，攻撃したリザードンが「まひ」状態に陥る。続いて，持たせていた「クラボのみ」が発動し，その「まひ」を回復。同じ「ほのおのパンチ」でも，状況次第で複数の事象が連鎖していく。
   translation: 结果发生了很大变化。由于“晴天”的效果，火属性招式的伤害增加，皮卡丘的特性“静电”发动后，发动攻击的喷火龙陷入“麻痹”状态。接着，携带的“樱子果”发动，治愈了那个“麻痹”。同样是“火焰拳”，根据情况不同，多个事件会连锁发生。
 - original: 小幡氏は，バトルシステムを，「だれが，何をする」という行動データを受け取り，特性や道具，天気などの状況を加味して，「なにが起こるか」を決める仕組みと定義した。
   translation: 小幡氏将战斗系统定义为：接收“谁，做什么”这样的行动数据，并综合考虑特性、道具、天气等状况，决定“会发生什么”的机制。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/006.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/025.jpg
   alt: 画像ギャラリー No.006のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 実際のバトルでは，相手の行動やバフ・デバフも介入し，事象はさらに複雑になる。技・特性・道具はシリーズを重ねるごとに増えるうえ，過去に登場した仕様は後続タイトルでも同じ挙動を担保しなければならない。ポケモンシリーズのバトルロジックには，作品をまたいで品質と整合性を保つことが求められる。
   translation: 在实际战斗中，对手的行动和增益、减益也会介入，事件会变得更加复杂。招式、特性、道具随着系列累积而不断增加，而且过去登场过的规格在后续作品中也必须保证相同的表现。宝可梦系列的战斗逻辑要求跨作品保持质量与一致性。
@@ -110,12 +110,12 @@ parallel_items:
 - original: 大きな転機となったのが，2016年の「ポケットモンスター サン・ムーン」だ。バトルロイヤルの登場を皮切りに，従来の枠組みでは対応しきれない多様なバトルルールの実装が求められるようになった。
   translation: 重大的转折点是2016年的《宝可梦 太阳·月亮》。以皇家对战的登场为开端，开始要求实现以往框架无法应对的多样化战斗规则。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/007.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/026.jpg
   alt: 画像ギャラリー No.007のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: バトルの進化に合わせてプログラムも拡張を重ね，ファイルの肥大化，クラスの責務過多，密結合，関数の巨大化といった問題が生じていた。これらが絡み合った結果，新しい仕様を安全に追加しにくくなり，バトルシステムの保守性と拡張性が損なわれていた。
   translation: 随着战斗的进化，程序也反复扩展，出现了文件肥大化、类的职责过多、紧密耦合、函数巨大化等问题。这些问题相互交织，导致难以安全地追加新规格，损害了战斗系统的可维护性和可扩展性。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/008.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/027.jpg
   alt: 画像ギャラリー No.008のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 「サン・ムーン」の開発終了時，このままでは今後のバトルの進化に対応できない――そう判断したチーム（宗像氏らのバトルシステムチーム）は，現行システムを明快で柔軟な構造に作り替えることを決めた。こうしてポケモン・バトルシステムチームが結成され，「ポケットモンスター ソード・シールド」の開発時にシステムの再構築が進められた。
   translation: 在《太阳・月亮》开发结束时，团队（宗像等人的战斗系统团队）判断，照这样下去无法应对今后战斗的进化，于是决定将现行系统改造成明快而灵活的结构。就这样，宝可梦战斗系统团队成立了，并在《宝可梦 剑·盾》开发期间推进了系统的重构。
@@ -123,14 +123,14 @@ parallel_items:
 - original: 新たなバトルシステムには，だれが実装しても同じ構造になる「構造化」，既存コードを変えずに技や特性を追加できる「拡張性」，少ない修正で仕様変更に対応する「柔軟性」，理解や修正，デバッグがしやすい「保守性」という4つの要件が設けられた。柔軟性と保守性は，構造化と拡張性を実現した結果として得られる場合が多いため，講演では前者の2点に焦点が当てられた。
   translation: 新的战斗系统设立了4项要求：无论由谁实现都会形成相同结构的“结构化”，在不改动既有代码的前提下追加招式与特性的“扩展性”，以少量修改应对规格变更的“灵活性”，以及易于理解、修改和调试的“可维护性”。由于灵活性与可维护性往往是通过实现结构化与扩展性而获得的結果，因此演讲将焦点放在了前两点上。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/009.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/028.jpg
   alt: 画像ギャラリー No.009のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 最初に着手したのはゲームロジックの構造化だ。ここで導入されたのが「Section」（セクション）という機構である。再び「ほのおのパンチ」を例に取ると，処理は攻撃力の決定，防御力の決定，ダメージの算出，HPの減少という順に進み，攻撃力には天気「晴れ」の補正も加わる。
   translation: 最先着手的是游戏逻辑的结构化。这里引入的机制是“Section”（区段）。再次以“火焰拳”为例，处理按攻击力决定、防御力决定、伤害计算、HP减少的顺序推进，攻击力还会加上天气“晴”的补正。
 - original: 流れ自体は単純だが，大量の技・特性・道具をそのまま組み込めば，ゲームロジックは複雑化していく。そこで，「何をどの順番で計算するか」を定義する部分を「ゲームロジック」，技・特性・道具ごとの処理を「個別仕様」として切り分けた。この例では，天気「晴れ」の効果が個別仕様に当たる。
   translation: 流程本身很简单，但如果把大量招式、特性和道具直接塞进去，游戏逻辑就会变得复杂。因此，将定义“计算什么、按什么顺序计算”的部分划为“游戏逻辑”，将每个招式、特性和道具的处理划为“个别规格”。在这个例子中，天气“晴”的效果就属于个别规格。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/010.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/029.jpg
   alt: 画像ギャラリー No.010のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: ゲームロジックの最小単位には，「Section」という名称が与えられた。攻撃力決定Sectionや防御力決定Sectionをつなぎ，処理の流れを表現する仕組みだ。
   translation: 游戏逻辑的最小单位被赋予了“Section”这一名称。它把攻击力决定Section、防御力决定Section等连接起来，用以表达处理的流程。
@@ -140,24 +140,24 @@ parallel_items:
 - original: Sectionは階層構造にも対応する。攻撃力決定・防御力決定・ダメージ算出を「ダメージ計算」Sectionとしてまとめ，そこにHP減少を加えた単位を「ダメージ付与」Sectionとする。さらに上位の「技効果」Sectionが一連の処理を束ね，「ほのおのパンチ」のように追加効果を持つ技では，「状態異常付与」Sectionも組み込まれる。
   translation: Section也支持层级结构。将攻击力决定、防御力决定、伤害计算汇总为“伤害计算”Section，再加上HP减少的单位则作为“赋予伤害”Section。更上位的“招式效果”Section将一连串处理统合起来，而在像“火焰拳”这样带有追加效果的招式中，还会加入“赋予异常状态”Section。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/011.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/030.jpg
   alt: 画像ギャラリー No.011のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 続いて説明されたのが拡張性だ。ポケモンのバトルシステムでは，既存コードを変えずに技や特性を追加できること，さらに不要な仕様をビルドから除外できることを拡張性と定義している。
   translation: 接着说明的是扩展性。在宝可梦的战斗系统中，扩展性被定义为：能够在不改动既有代码的前提下追加招式与特性，并且能够将不需要的规格从构建中排除。
 - original: 攻撃力決定Sectionを例にすると，天気「晴れ」のほか，特性「もうか」「ちからもち」「こんじょう」，道具「こだわりハチマキ」「でんきだま」「ふといほね」など，多数の補正要因が存在する。これらをSectionへ直接積み上げれば，保守性は低下してしまう。
   translation: 以攻击力决定Section为例，除了天气“晴”之外，还存在特性“猛火”“大力士”“毅力”，道具“讲究头带”“电气球”“粗骨头”等众多补正因素。若把这些直接堆进Section，可维护性就会下降。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/012.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/031.jpg
   alt: 画像ギャラリー No.012のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 拡張性を担うのが「Event」と「EventHandler」である。SectionがEventを発火すると，対応するEventHandlerが反応し，計算結果に補正を加える。Eventは，個別仕様がSectionの処理へ介入するための接点であり，ゲームロジック本体を変えずに新たな効果を追加できる。
   translation: 承担扩展性的是“Event”与“EventHandler”。当Section触发Event时，对应的EventHandler会作出反应，对计算结果施加补正。Event是个别规格介入Section处理的接点，能够在不改动游戏逻辑本体的情况下追加新的效果。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/013.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/032.jpg
   alt: 画像ギャラリー No.013のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 攻撃力決定Sectionが攻撃力補正Eventを発火すると，天気「晴れ」のEventHandlerが反応し，攻撃力に1.5倍の補正をかける。特性「もうか」や道具「こだわりハチマキ」のEventHandlerも条件に応じて介入し，複数の効果を重ねたうえで最終的な攻撃力を算出する。
   translation: 当攻击力决定Section触发攻击力补正Event时，天气「晴天」的EventHandler会作出反应，对攻击力施加1.5倍的补正。特性「猛火」和道具「讲究头带」的EventHandler也会根据条件介入，在叠加多个效果之后算出最终的攻击力。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/014.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/033.jpg
   alt: 画像ギャラリー No.014のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 1つのEventHandlerが複数のEventに反応することもある。天気「晴れ」は，ほのおタイプの技の威力を1.5倍にする一方，みずタイプの技から受けるダメージを0.5倍にするため，晴れのEventHandlerは攻撃力補正Eventと防御力補正Eventの両方に対応する。
   translation: 一个EventHandler有时也会对多个Event作出反应。天气「晴天」一方面将火属性招式的威力提升至1.5倍，另一方面将受到的水属性招式伤害降至0.5倍，因此晴天的EventHandler同时对应攻击力补正Event和防御力补正Event。
@@ -173,7 +173,7 @@ parallel_items:
 - original: 技効果Sectionの最後に技効果後処理Sectionを置き，そこからリアクションEventを発火する。反応した「せいでんき」のEventHandlerが状態異常付与Sectionを呼ぶと，リザードンは「まひ」状態になる。さらに，状態異常Eventを受けた「クラボのみ」のEventHandlerが状態異常回復Sectionを呼び，所有者の「まひ」を治す。
   translation: 在招式效果Section的最后放置招式效果后处理Section，由那里触发反应Event。作出反应的「静电」EventHandler调用状态异常赋予Section，喷火龙便进入「麻痹」状态。接着，接收到状态异常Event的「樱子果」EventHandler调用状态异常回复Section，治好持有者的「麻痹」。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/015.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/034.jpg
   alt: 画像ギャラリー No.015のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: SectionがEventを発火し，EventHandlerが別のSectionを呼び出す。この再帰構造により，複雑な割り込みと連鎖を共通の仕組みで処理できる。
   translation: Section触发Event，EventHandler调用另一个Section。通过这种递归结构，复杂的插入与连锁可以用共通的机制来处理。
@@ -184,7 +184,7 @@ parallel_items:
 - original: ゲームロジックをSectionに分割し，個別仕様をEvent/EventHandlerで切り離す。この構造により，再利用性と拡張性を確保しながら，シリーズを通したバトルの品質と整合性を維持できる。
   translation: 将游戏逻辑分割为Section，把个别规格通过Event/EventHandler分离出来。通过这种结构，可以在确保复用性与扩展性的同时，维持贯穿系列的战斗品质与一致性。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/016.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/035.jpg
   alt: 画像ギャラリー No.016のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - type: heading
   level: 2
@@ -193,7 +193,7 @@ parallel_items:
 - original: ここから宗像氏が，Z-Aでの運用事例を解説した。Z-Aでは，技の届く距離や範囲，繰り出すタイミング，ポケモンの位置取りが勝敗を左右する。トレーナーとポケモンが共に移動し，攻撃の回避や交代を挟みながら技を仕掛ける，シリーズ初のリアルタイム制バトルだ。
   translation: 接下来由宗像解说了Z-A中的运用案例。在Z-A中，招式的可达距离与范围、释放时机、宝可梦的站位都会左右胜负。训练家与宝可梦一同移动，一边穿插攻击的回避与替换一边施展招式，这是系列首个实时制战斗。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/017.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/036.jpg
   alt: 画像ギャラリー No.017のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 「結論から先に言いますと，異なるバトル形式でも同じバトルシステムを使っています」と宗像氏は説明した。それを可能にした要素の一つが，ゲームロジックの構造化である。
   translation: “先说结论，不同的战斗形式也使用着同一套战斗系统”，宗像如此说明。使其成为可能的要素之一，就是游戏逻辑的结构化。
@@ -204,7 +204,7 @@ parallel_items:
 - original: リアルタイム制では状況が刻々と変わるため，1ターン単位で処理する行動実行Sectionと技効果Sectionは使われない。命中判定もコリジョン同士の衝突，いわゆる当たり判定に置き換えられた一方，発動判定Sectionとダメージ付与Sectionは，仕様を変えずに再利用できた。
   translation: 在实时制中状况时刻变化，因此以1回合为单位处理的行动执行Section与招式效果Section不会被使用。命中判定也被替换为碰撞体之间的冲突，即所谓的当たり判定，另一方面，发动判定Section与伤害赋予Section则在不改变规格的情况下得以复用。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/018.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/037.jpg
   alt: 画像ギャラリー No.018のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 「セクション視点で見ると，ターン制バトルで使っていたセクションの中にも再利用可能なものがたくさんあり，まったく異なるバトルとは言えませんでした」と宗像氏は語る。仕様に合わせてSectionの呼び出し順や内部処理を変え，必要なものだけを選べるのは，基盤設計が構造化されているからだ。
   translation: “从Section的视角来看，回合制战斗中使用的Section里也有很多可以复用的，很难说是完全不同的战斗”，宗像说道。能够配合规格改变Section的调用顺序与内部处理，只挑选必要的东西，正是因为基础设计已经结构化。
@@ -215,7 +215,7 @@ parallel_items:
 - original: この違いに対応するため，ターン制用のEventHandlerを削除し，ダメージ付与SectionのEventに反応してダメージを0にする処理を新たに作成した。技の効果を変える際は，不要なEventHandlerを外し，必要に応じて新しいものへ差し替えればよい。既存のEventHandlerを再利用できる点も利点である。
   translation: 为了应对这一差异，删除了回合制用的EventHandler，并新创建了响应伤害赋予Section的Event、将伤害归零的处理。在改变招式效果时，只需移除不需要的EventHandler，必要时替换为新的即可。能够复用既有EventHandler这一点也是其优点。
 - type: image
-  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/019.jpg
+  image: /assets/img/interviews/2026-07-28-interview-4gamer-2026-cedec-battle/038.jpg
   alt: 画像ギャラリー No.020のサムネイル画像 / ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pok&#233;mon LEGENDS Z-A」での運用事例［CEDEC 2026］
 - original: 構造化と拡張性を軸にした設計により，共通のバトルシステムでターン制とリアルタイム制の双方に対応できた。コードの再利用性を高めたことが，開発効率の改善と品質の安定化に結びついたと宗像氏はまとめる。
   translation: 以结构化和扩展性为核心的设计，使得共通的战斗系统能够同时对应回合制和实时制。宗像总结道，提高代码的复用性，带来了开发效率的改善和品质的稳定。

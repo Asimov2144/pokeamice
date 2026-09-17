@@ -4,6 +4,7 @@
     python tools/augment-images.py --dry-run --only famitsu  # posts whose file name contains this
     python tools/augment-images.py --only 2009-09-04         # write the pictures and the post
     python tools/augment-images.py --all                     # every short post (clean ones; dirty are skipped)
+    python tools/augment-images.py --all --upgrade           # also swap thumbnails the post shows for the page's full-size files
 
 The audit (tools/audit-web-imports.py -> design/web_import_audit.json) says which posts hold
 fewer pictures than their page; this tool reads the page copy the audit cached
@@ -170,11 +171,13 @@ def existing_hashes(stem, fm):
             remote.add(v)               # a picture the post hotlinks (an older import)
     folder = IMG_DIR / stem
     spare = [p for p in folder.iterdir() if p.is_file() and p not in shown] if folder.exists() else []
-    have, unplaced = [], []
+    have, unplaced, shown_files = [], [], []
     for p in shown:
         if p.exists():
             try:
-                have.append(dhash(Image.open(p)))
+                im = Image.open(p)
+                have.append(dhash(im))
+                shown_files.append((have[-1], p, im.size))
             except Exception:
                 pass
     for p in spare:
@@ -187,7 +190,7 @@ def existing_hashes(stem, fm):
         im = open_image(data) if data else None
         if im is not None:
             have.append(dhash(im))
-    return have, unplaced, {u.split("?")[0] for u in remote}
+    return have, unplaced, {u.split("?")[0] for u in remote}, shown_files
 
 
 _failed = None
@@ -387,7 +390,7 @@ def skip_following_pictures(items, after):
     return k
 
 
-def run(row, target, target_key, dry, cap, dirty, force, report_rows):
+def run(row, target, target_key, dry, cap, dirty, force, report_rows, upgrade=False):
     name = row["post"]
     stem = name[:-3]
     path = ROOT / "_posts" / name
@@ -417,7 +420,8 @@ def run(row, target, target_key, dry, cap, dirty, force, report_rows):
         print(f"  ~~ {name[:66]:66s} page text not in the post ({matched}/{tried} paragraphs found) - re-import it instead")
         report_rows[name] = {"post": name, "unalignable": [matched, tried], "dry": dry}
         return
-    have, unplaced, remote_paths = existing_hashes(stem, fm)
+    have, unplaced, remote_paths, shown_files = existing_hashes(stem, fm)
+    upgrades = []
     folder = IMG_DIR / stem
     idx = next_index(folder)
     title = fm.get("original_title") or fm.get("title") or stem
@@ -449,6 +453,10 @@ def run(row, target, target_key, dry, cap, dirty, force, report_rows):
             continue
         h = dhash(im)
         if any(hamming(h, x) <= DUP_BITS for x in have) or any(hamming(h, x) <= DUP_BITS for x in new_hashes):
+            small = next(((pth, sz) for x, pth, sz in shown_files if hamming(h, x) <= DUP_BITS and im.size[0] >= 1.5 * sz[0]), None)
+            if upgrade and small and not any(u["old"] == small[0] for u in upgrades):
+                upgrades.append({"old": small[0], "old_size": list(small[1]), "size": list(im.size), "src": absolute, "data": data, "im": im})
+                continue
             skipped.append([absolute[:120], "already in the post"])
             continue
         new_hashes.append(h)
@@ -471,7 +479,28 @@ def run(row, target, target_key, dry, cap, dirty, force, report_rows):
         for s in skipped:
             if s[1] not in ("already in the post",):
                 print(f"        skip {s[1]:18s} {s[0][-60:]}")
+    if upgrades:
+        print(f"        {len(upgrades)} shown at thumbnail size, the page has them bigger: " + ", ".join(f"{u['old'].name} {u['old_size'][0]}->{u['size'][0]}px" for u in upgrades[:6]) + (" …" if len(upgrades) > 6 else ""))
     out_row = {"post": name, "page_pictures": len(placed), "added": [], "skipped": skipped, "dry": dry}
+    if not dry and upgrades:
+        # the bigger file takes a fresh number; the row is repointed; the thumbnail goes
+        for u in upgrades:
+            local, idx = save_picture(u["data"], u["im"], folder, idx)
+            idx += 1
+            old_rel = "/" + u["old"].relative_to(ROOT).as_posix()
+            if text.count(old_rel) == 0:
+                (ROOT / local.lstrip("/")).unlink()
+                continue
+            text = text.replace(old_rel, local)
+            u["old"].unlink()
+            out_row.setdefault("upgraded", []).append({"from": old_rel, "to": local, "size": u["size"]})
+        io.open(path, "w", encoding="utf-8", newline="").write(text)
+        fm = yaml.safe_load(FRONT.match(text).group(1))
+        items = fm["parallel_items"]
+    for u in upgrades:
+        u.pop("data", None)
+        u.pop("im", None)
+        u["old"] = str(u["old"])
     if not dry and added:
         inserts = []
         for a in added:
@@ -500,6 +529,8 @@ def run(row, target, target_key, dry, cap, dirty, force, report_rows):
     for a in added:
         a.pop("data", None)
         a.pop("im", None)
+    if dry and report_rows.get(name, {}).get("dry") is False:
+        return                          # a dry look never overwrites the record of what was written
     report_rows[name] = out_row
 
 
@@ -507,6 +538,7 @@ def main():
     argv = sys.argv[1:]
     dry = "--dry-run" in argv
     force = "--force" in argv
+    upgrade = "--upgrade" in argv
     redo = "--redo" in argv
     only = argv[argv.index("--only") + 1] if "--only" in argv else ""
     cap = int(argv[argv.index("--max") + 1]) if "--max" in argv else 80
@@ -518,7 +550,7 @@ def main():
     targets = auditweb.load_targets()
     report = json.load(io.open(REPORT, encoding="utf-8")) if REPORT.exists() else {}
     dirty = dirty_posts()
-    rows = [r for r in audit if r.get("cached") and r.get("page_images", 0) > r.get("post_images", 0)]
+    rows = [r for r in audit if r.get("cached") and (upgrade or r.get("page_images", 0) > r.get("post_images", 0))]
     if only:
         rows = [r for r in rows if only in r["post"]]
     rows.sort(key=lambda r: r["post"])
@@ -527,12 +559,12 @@ def main():
         if done >= limit:
             break
         prev = report.get(r["post"], {})
-        if not redo and not dry and prev.get("dry") is False and "added" in prev:
+        if not redo and not dry and not upgrade and prev.get("dry") is False and "added" in prev:
             continue          # written in an earlier run
         slug = r["post"][11:-3]
         tkey = next((k for k, t in targets.items() if isinstance(t, dict) and (same_page(t.get("url"), r["url"]) or same_page(t.get("wayback"), r["url"]) or t.get("slug") == slug)), None)
         try:
-            run(r, targets.get(tkey) if tkey else None, tkey, dry, cap, dirty, force, report)
+            run(r, targets.get(tkey) if tkey else None, tkey, dry, cap, dirty, force, report, upgrade)
             done += 1
         except Exception as e:
             print(f"  !! {r['post'][:70]}  {e}")

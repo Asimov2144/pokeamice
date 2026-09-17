@@ -30,6 +30,21 @@ tags:
 - 第七世代
 - 日月
 - 3D建模
+- Pokemon
+- 访谈
+- 开发者访谈
+- 设定秘辛
+- 世代演进
+- Game Informer
+- Game Freak
+- 杉森建
+- 增田顺一
+- 宝可梦设计
+- 生物设计
+- 角色设计
+- 第七世代
+- 日月
+- 3D建模
 author: Kyle Hilliard (Game Informer)
 interviewee: 杉森建（GAME FREAK 艺术总监）、增田顺一（GAME FREAK 制作人）
 cast:

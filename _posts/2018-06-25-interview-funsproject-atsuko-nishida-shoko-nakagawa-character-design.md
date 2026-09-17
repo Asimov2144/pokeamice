@@ -30,6 +30,17 @@ tags:
 - FUN'S PROJECT
 - 伊布
 - 初代开发
+- 宝可梦美学
+- 西田敦子
+- 中川翔子
+- 皮卡丘
+- 仙子伊布
+- 风妖精
+- 角色设计
+- 点阵绘
+- FUN'S PROJECT
+- 伊布
+- 初代开发
 author: Takanori Kuroda (FUN'S PROJECT)
 interviewee: 西田敦子（插画师／角色设计师）、中川翔子（艺人／歌手／插画家）
 cast:
@@ -548,5 +559,23 @@ parallel_items:
 image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/thumb.jpg
 entities:
   people:
-  - "西田敦子"
+  - 西田敦子
+  organizations:
+  - Game Freak
+  works:
+  - 宝可梦 红·绿
+  - 宝可梦 X·Y
+  - 宝可梦 动画系列
+dek: 皮卡丘设计者西田敦子谈仙子伊布、剪影法则与灵感来源。
+topics:
+- 角色设计
+- 开发流程
+- 属性系统
+- 媒体组合
+- 动画制作
+mentions:
+  people:
+  - 中川翔子
+  works:
+  - 宝可梦：超梦的逆袭 EVOLUTION
 ---

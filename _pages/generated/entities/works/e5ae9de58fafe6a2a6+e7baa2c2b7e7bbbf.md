@@ -61,12 +61,6 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · helixchamber 田尻 自传漫画 研究</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-tajiri-manga/">[访谈翻译] helixchamber 田尻 自传漫画 研究</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2018 · interview_translation · Creator Profile: The Creators of Pikachu</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-creators-of-pikachu/">[访谈翻译] 宝可梦官方专访：皮卡丘诞生秘辛 —— 专访杉森建、西田敦子与西野弘二</a></h3>
   <span></span>
@@ -109,8 +103,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · Here&#39;s How Game Freak Designs Pokémon Creatures</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-game-informer-how-game-freak-designs-pokemon-creatures/">[访谈翻译] 《Game Informer》独家专访：增田顺一揭秘宝可梦生物设计全流程与内部评审（三头猫进化论、GB像素限制与圆润大眼演变）</a></h3>
+  <p>2017 · interview_translation · Here's How Game Freak Designs Pokémon Creatures</p>
+  <h3><a href="/访谈翻译/角色设计/开发历史/interview-gameinformer-how-game-freak-designs-pokemon-creatures/">Game Informer 独家特写：Game Freak 是如何设计宝可梦的？——杉森建与增田顺一深度复盘生物设计法则、评审委员会机制与 3D 演进</a></h3>
   <span></span>
 </article>
 
@@ -589,8 +583,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>1999 · interview_translation · インターネットにおけるポケモンサイト黎明期の記憶 金银发售前的整理</p>
-  <h3><a href="/developer-interviews/official-archives/interview-web-dawn-pokemon-gold-silver/">宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录</a></h3>
+  <p>2000 · interview_translation · インターネットにおけるポケモンサイト黎明期の記憶 金銀発売前の整理</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-05-01-kakeru-pokemon-site-dawn/">宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录</a></h3>
   <span></span>
 </article>
 
@@ -609,18 +603,6 @@ search: false
 <article class="resource-network-card">
   <p>1997 · interview_translation · その他のポケモンのゲーム関連記事 初代采访整理</p>
   <h3><a href="/developer-interviews/official-archives/interview-famimaga-tajiri-pokemon2-secret/">初代宝可梦黎明期杂志专访全集：田尻智谈〈宝可梦2〉早期构想、红绿开发秘话与裕木奈江特别对谈</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>1990 · developer-interviews</p>
-  <h3><a href="/developer-interviews/research-archives/research-glitterberri-early-concept-art-part2/">GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（后篇：关都城市规划手绘、初代战斗界面演进与未采用废案）</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>1990 · developer-interviews</p>
-  <h3><a href="/developer-interviews/research-archives/research-glitterberri-early-concept-art-part1/">GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）</a></h3>
   <span></span>
 </article>
 
