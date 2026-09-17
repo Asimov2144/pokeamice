@@ -44,7 +44,7 @@ entities:
   - 宝可梦 X·Y
 parallel_items:
 - original: When you think of the Pokemon game franchise, of course you think of its iconic monsters. Pokemon, after all, is a portmanteau of its Japanese title, Pocket Monsters, and the series' most iconic mon' is Pikachu, which still serves as its symbol over a decade later. With every game in the franchise, a team of monster designers at developer Game Freak comes up with new creatures for players to battle and catch.
-  translation: 当你想到宝可梦游戏系列时，自然会想到它标志性的宝可梦。毕竟，宝可梦（Pokemon）是日文原标题“Pocket Monsters”（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的缩写合成词，而该系列最具标志性的宝可梦是皮卡丘，十多年后它仍然是该系列的象征。在该系列的每一款游戏中，开发商Game Freak的宝可梦设计团队都会设计出新的生物，供玩家对战和捕捉。
+  translation: "当你想到宝可梦游戏系列时，自然会想到它标志性的宝可梦。毕竟，宝可梦（Pokemon）是日文原标题“Pocket Monsters”（宝可梦／Pocket Monsters，早期曾译口袋妖怪）的缩写合成词，而该系列最具标志性的宝可梦是皮卡丘，十多年后它仍然是该系列的象征。在该系列的每一款游戏中，开发商GAME FREAK的宝可梦设计团队都会设计出新的生物，供玩家对战和捕捉。"
 - original: Hironobu Yoshida led the graphic design team for the game's interface; he also worked on the monster designs alongside a team of about 20 designers who come up with ideas for pokemon.
   translation: 吉田宏信领导了游戏界面的图形设计团队；他还与约20名设计师组成的团队一起参与宝可梦的设计，这些设计师负责构思宝可梦的创意。
   note: 吉田宏信（Hironobu Yoshida）是Game Freak的设计师，曾参与多款宝可梦游戏的图形设计。
@@ -77,7 +77,7 @@ parallel_items:
   translation: 正如你可能想象的那样，构思这些宝可梦的过程非常艰辛：
 - speaker: 吉田宏信
   original: '"Since there are 20 of us and we''re working all on our own ideas, we want to make sure we''re not overlapping ideas. At Game Freak, we have an internal server where we can upload our designs and share them with everyone else on the team. This allows us to see what everyone else is working on and get ideas from each other," Yoshida says.'
-  translation: “我们一共有20个人，各自都在独立构思，所以要确保想法不重叠。在Game Freak，我们有一个内部服务器，可以把设计上传上去，与团队其他成员共享。这样我们就能看到彼此在做什么，互相汲取灵感。”吉田说道。
+  translation: "“我们一共有20个人，各自都在独立构思，所以要确保想法不重叠。在GAME FREAK，我们有一个内部服务器，可以把设计上传上去，与团队其他成员共享。这样我们就能看到彼此在做什么，互相汲取灵感。”吉田说道。"
   role: answer
 - original: Getting a monster selected for the final roster, however, is not simple.
   translation: 然而，要让一只宝可梦入选最终阵容并非易事。

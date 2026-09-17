@@ -156,13 +156,13 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Please tell us more about the new Pokemon, Meltan. Was it always planned to debut first in Pokemon Go? And was it designed in collaboration with Niantic, or internally at Game Freak?
-  translation: 请告诉我们更多关于新宝可梦美录坦的信息。它是否一直计划在《宝可梦Go》中首次亮相？它是与Niantic合作设计的，还是由Game Freak内部设计的？
+  translation: "请告诉我们更多关于新宝可梦美录坦的信息。它是否一直计划在《宝可梦Go》中首次亮相？它是与Niantic合作设计的，还是由GAME FREAK内部设计的？"
   role: question
   speaker: 提问
 - type: paragraph
   original: 'Masuda: We definitely planned to debut it in Pokemon Go from the very beginning. We had talked about in the early stages of even Go’s development that we want to debut a Pokemon, and we worked with Niantic to kind of figure out that functionality. I’ve been working on the development of Go since the beginning as well, so I’ve always had it in mind. But the design, that was done internally at Game Freak. I gave some specific setting directions to one of our designers who was also a fan of the original games and played them as a kid, so he had a really good idea of what I was looking for, based on this kind of very simple metal nut design. He definitely probably had the original Kanto Pokemon designs in his mind and tried to keep it as simple as possible. You know, they were more kind of basic back then compared to some of the more modern designs. He worked on that, and then once it was finished, we gave all the assets and everything to Niantic, we planned the event and had them
     execute on that, and it worked out.'
-  translation: 增田顺一：我们确实从一开始就计划让它在《宝可梦Go》中首次亮相。在《Go》开发的早期阶段，我们就讨论过要推出一个宝可梦，并与Niantic合作来弄清楚这个功能。我也从一开始就参与了《Go》的开发，所以一直有这个想法。但设计是在Game Freak内部完成的。我向一位设计师给出了具体的设定方向，他也是原版游戏的粉丝，小时候玩过，所以他非常明白我想要什么，基于这种非常简单的金属螺母设计。他肯定脑海中有着关都地区原版宝可梦的设计，并试图尽可能保持简单。你知道，与一些更现代的设计相比，那时的宝可梦更基础。他进行了设计，完成后，我们将所有素材等交给了Niantic，我们策划了活动，让他们执行，结果很成功。
+  translation: "增田顺一：我们确实从一开始就计划让它在《宝可梦Go》中首次亮相。在《Go》开发的早期阶段，我们就讨论过要推出一个宝可梦，并与Niantic合作来弄清楚这个功能。我也从一开始就参与了《Go》的开发，所以一直有这个想法。但设计是在GAME FREAK内部完成的。我向一位设计师给出了具体的设定方向，他也是原版游戏的粉丝，小时候玩过，所以他非常明白我想要什么，基于这种非常简单的金属螺母设计。他肯定脑海中有着关都地区原版宝可梦的设计，并试图尽可能保持简单。你知道，与一些更现代的设计相比，那时的宝可梦更基础。他进行了设计，完成后，我们将所有素材等交给了Niantic，我们策划了活动，让他们执行，结果很成功。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
@@ -225,7 +225,7 @@ parallel_items:
   role: question
 - type: paragraph
   original: 'Masuda: With Red and Green and even games after that, at Game Freak we always wanted to have Pokemon appear in the overworld, in the field itself. But, specifically with the original games, there was no way of doing that with the Game Boy hardware. It just couldn’t handle it. We really wanted to make them feel like living creatures that are in the world with you, so you’ll see on Let’s Go Pikachu and Let’s Go Eevee they’ll all have their own little unique movement characteristics. Some of them will run up and stop. They’re kind of curious. It’ll be fun to just discover how they all react to you.'
-  translation: 增田顺一：在《红/绿》以及之后的游戏中，我们在Game Freak一直希望让宝可梦出现在地图上，也就是场景中。但具体到最初的游戏，Game Boy的硬件无法实现这一点。它根本处理不了。我们非常想让它们感觉像是与你共处一个世界的活生生的生物，所以你会看到在《Let's Go 皮卡丘/伊布》中，它们都有各自独特的动作特征。有些会跑过来停下。它们有点好奇。发现它们如何回应你将会很有趣。
+  translation: "增田顺一：在《红/绿》以及之后的游戏中，我们在GAME FREAK一直希望让宝可梦出现在地图上，也就是场景中。但具体到最初的游戏，Game Boy的硬件无法实现这一点。它根本处理不了。我们非常想让它们感觉像是与你共处一个世界的活生生的生物，所以你会看到在《Let's Go 皮卡丘/伊布》中，它们都有各自独特的动作特征。有些会跑过来停下。它们有点好奇。发现它们如何回应你将会很有趣。"
   speaker: 增田顺一
   note: 在《Let's Go》系列中，宝可梦首次在野外可见，而不是随机遇敌。
   role: answer
@@ -237,12 +237,12 @@ parallel_items:
   role: question
 - type: paragraph
   original: 'Masuda: You’re probably not going to see it. None of the Pokemon that we worked on, got to a point, and then discarded them have actually ever re-appeared yet, so I would say the chances are low. One of the reasons for that is that we always have this base criteria at Game Freak of being able to explain why a certain Pokemon is in the world or why it exists in that world, trying to make it feel believable within the fantasy. And usually the ones that get rejected are Pokemon that we weren’t able to justify, I think. Usually there’s a reason for why they weren’t implemented, and as long as that reason still exists, they probably won’t be put in the game.'
-  translation: 增田顺一：你很可能不会看到它。我们开发过但最终废弃的宝可梦，至今还没有一个重新出现过，所以我认为可能性很低。其中一个原因是，我们在Game Freak有一个基本标准，就是能够解释某只宝可梦为什么存在于这个世界，或者为什么它存在于那个世界，试图让它在幻想中显得可信。通常被否决的宝可梦都是我们无法合理化的，我想。通常它们没有被实装是有原因的，只要那个原因仍然存在，它们可能就不会被加入游戏。
+  translation: "增田顺一：你很可能不会看到它。我们开发过但最终废弃的宝可梦，至今还没有一个重新出现过，所以我认为可能性很低。其中一个原因是，我们在GAME FREAK有一个基本标准，就是能够解释某只宝可梦为什么存在于这个世界，或者为什么它存在于那个世界，试图让它在幻想中显得可信。通常被否决的宝可梦都是我们无法合理化的，我想。通常它们没有被实装是有原因的，只要那个原因仍然存在，它们可能就不会被加入游戏。"
   speaker: 增田顺一
   role: answer
 - type: paragraph
   original: We always say Pokemon isn’t a “character game.” It’s not a game where it’s just the characters, but it’s a game that shows this world where these living creatures are existing in a space. That’s kind of a slight nuance, but that’s what we always try to go for at Game Freak. It’s not good enough that they’re just cute. (Laughs) They have to have something more to it.
-  translation: 我们总是说宝可梦不是“角色游戏”。它不是仅仅关于角色的游戏，而是展示一个世界，这些生物存在于一个空间中的游戏。这有点细微差别，但这就是我们在Game Freak一直努力的方向。仅仅可爱是不够的。（笑）它们必须有更多内涵。
+  translation: "我们总是说宝可梦不是“角色游戏”。它不是仅仅关于角色的游戏，而是展示一个世界，这些生物存在于一个空间中的游戏。这有点细微差别，但这就是我们在GAME FREAK一直努力的方向。仅仅可爱是不够的。（笑）它们必须有更多内涵。"
   speaker: 增田顺一
   role: answer
 - type: paragraph

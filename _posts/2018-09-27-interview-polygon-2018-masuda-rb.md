@@ -48,17 +48,17 @@ parallel_items:
 - original: 'One of the most exciting things about Pokémon: Let’s Go! is that it’s very much like a throwback nostalgia piece. It’s a new version, of sorts, of the original games. And it feels especially important that these Nintendo Switch games are launching in 2018 — two decades after Pokémon Red and Blue first captivated audiences in North America.'
   translation: 《宝可梦 Let's Go》最令人兴奋的一点是，它很像一部怀旧之作。从某种意义上说，它是初代游戏的新版本。而这款 Nintendo Switch 游戏在2018年发售，显得尤为重要——距离《宝可梦 红·蓝》首次在北美俘获玩家，已经过去了二十年。
 - original: 'To better connect the dots from then to now, we reached out to one of the people who’s been with Pokémon since before the series took over the world: Game Freak’s Junichi Masuda, who has composed the music for every mainline Pokémon RPG, as well as directed nearly every entry since the Game Boy Advance days. That includes Pokémon: Let’s Go!, which is out this November.'
-  translation: 为了更好地串联起从那时到现在的脉络，我们联系了一位在宝可梦风靡全球之前就参与其中的人：Game Freak 的增田顺一。他为每一部宝可梦正统 RPG 创作了音乐，并且自 Game Boy Advance 时代以来几乎执导了每一部作品，包括今年11月发售的《宝可梦 Let's Go》。
+  translation: "为了更好地串联起从那时到现在的脉络，我们联系了一位在宝可梦风靡全球之前就参与其中的人：GAME FREAK 的增田顺一。他为每一部宝可梦正统 RPG 创作了音乐，并且自 Game Boy Advance 时代以来几乎执导了每一部作品，包括今年11月发售的《宝可梦 Let's Go》。"
 - original: Below, read our full Q&A with the Pokémon veteran, as he recalls working at Game Freak like it was a “college club,” long before the studio broke big — and how life has changed then.
-  translation: 下面是我们与这位宝可梦老将的完整问答。他回忆起在 Game Freak 工作的日子，那时公司远未做大，感觉就像个“大学社团”——以及生活后来发生了怎样的变化。
+  translation: "下面是我们与这位宝可梦老将的完整问答。他回忆起在 GAME FREAK 工作的日子，那时公司远未做大，感觉就像个“大学社团”——以及生活后来发生了怎样的变化。"
 - original: You’ve been around since the beginning of Pokémon. What was it like working on that original game? What was it like at Game Freak back then — that special time when you were still unsure of if this game was going to be a huge hit?
   role: question
   speaker: Polygon
-  translation: 你从宝可梦诞生之初就参与其中。开发初代游戏是什么感觉？那时的 Game Freak 是什么样的——那个特别的时期，你还不确定这款游戏会不会大获成功？
+  translation: "你从宝可梦诞生之初就参与其中。开发初代游戏是什么感觉？那时的 GAME FREAK 是什么样的——那个特别的时期，你还不确定这款游戏会不会大获成功？"
 - original: 'Junichi Masuda, composer and programmer on Pokémon Red/Green/Blue; director of Pokémon: Let’s Go! and many more: At the very beginning, we were still a pretty new company. We were just a few people, and obviously, we didn’t have a lot of huge hits on our hands at Game Freak. We knew we wanted to make games that we all as members at Game Freak wanted to play ourselves. We wanted to make the games that we really cared about wanting to make. At the same time, we had this requirement to run as a company. Obviously, we [needed] payroll and all that, so we needed to make sure that [Pokémon] was also a huge success and it would sell very well.'
   role: answer
   speaker: 增田顺一
-  translation: 增田顺一，《宝可梦 红/绿/蓝》的作曲与程序，以及《宝可梦 Let's Go》等多部作品的导演：最开始的时候，我们还是一家很新的公司。我们只有几个人，而且显然，Game Freak 手上并没有什么大热作品。我们知道，我们想制作的是我们作为 Game Freak 成员自己都想玩的游戏。我们想制作我们真正在意、真正想做的游戏。与此同时，我们也有作为一家公司运营的需求。显然，我们需要发工资等等，所以我们必须确保《宝可梦》也能大获成功，卖得很好。
+  translation: "增田顺一，《宝可梦 红/绿/蓝》的作曲与程序，以及《宝可梦 Let's Go》等多部作品的导演：最开始的时候，我们还是一家很新的公司。我们只有几个人，而且显然，GAME FREAK 手上并没有什么大热作品。我们知道，我们想制作的是我们作为 GAME FREAK 成员自己都想玩的游戏。我们想制作我们真正在意、真正想做的游戏。与此同时，我们也有作为一家公司运营的需求。显然，我们需要发工资等等，所以我们必须确保《宝可梦》也能大获成功，卖得很好。"
 - original: It wasn’t always a smooth development. It took about six years for the entire development of the original Red and Green games. We were able to get by by doing other projects for different companies along the way to make ends meet, while also on the side, people who wanted to work on Pokémon within their [...] in the time they had from those other projects, to implement interesting ideas that they had and really put in all of their, I guess, really just creative energy into Pokémon.
   role: answer
   speaker: 增田顺一
@@ -66,7 +66,7 @@ parallel_items:
 - original: It was really because of that kind of teamwork that I think that Pokémon, the original games, just came out to be as interesting and as fun as they were. That also led to their success. We definitely take that kind of [...] that teamwork-focused work style, and that’s part of the Game Freak culture now. The team for Let’s Go, Pikachu! and Let’s Go, Eevee!, at the very end, we’re probably about 100 people total. But we started with that core group of people who really had a shared vision of what we want to make and bring our own interesting ideas to the table to really just make it the best game possible. We carry on that kind of philosophy even today.
   role: answer
   speaker: 增田顺一
-  translation: 正是因为这种团队合作，我认为初代宝可梦游戏才会如此有趣、如此好玩。这也带来了它们的成功。我们确实继承了那种以团队合作为核心的工作方式，这如今已是 Game Freak 文化的一部分。《Let's Go 皮卡丘》和《Let's Go 伊布》的团队，到最后大概总共有一百人左右。但我们起步时，核心成员都真正共享着同一个愿景——我们想做什么，并各自带来有趣的想法，只为做出尽可能最好的游戏。直到今天，我们仍延续着这种理念。
+  translation: "正是因为这种团队合作，我认为初代宝可梦游戏才会如此有趣、如此好玩。这也带来了它们的成功。我们确实继承了那种以团队合作为核心的工作方式，这如今已是 GAME FREAK 文化的一部分。《Let's Go 皮卡丘》和《Let's Go 伊布》的团队，到最后大概总共有一百人左右。但我们起步时，核心成员都真正共享着同一个愿景——我们想做什么，并各自带来有趣的想法，只为做出尽可能最好的游戏。直到今天，我们仍延续着这种理念。"
 - original: What were you expecting to come out of the release of this game? Did you guys think, “Oh, we have this huge hit on our hands,” or “We’re very passionate about this game and we just want to get it out?”
   role: question
   speaker: Polygon
@@ -136,7 +136,7 @@ parallel_items:
 - original: Pokémon is now a huge phenomenon. How has your life and the life at Game Freak changed over the years as Pokémon has continued to grow — going from this young, smaller studio to developing one of the biggest franchises in the world?
   role: question
   speaker: Polygon
-  translation: 宝可梦如今已是巨大的现象。随着宝可梦持续成长——从一家年轻的小型工作室发展为开发世界最大IP之一——你的生活和Game Freak的生活这些年发生了怎样的变化？
+  translation: "宝可梦如今已是巨大的现象。随着宝可梦持续成长——从一家年轻的小型工作室发展为开发世界最大IP之一——你的生活和GAME FREAK的生活这些年发生了怎样的变化？"
 - original: Back when we were first making the games, it was less [...] We could hardly even be called a company at the time. We were just almost like a college club or something, where people who were interested would just gather and hang out. They’d come to work whenever they want, leave whenever they want. Some people would be sleeping over, because they worked so hard into the night.
   role: answer
   speaker: 增田顺一
@@ -160,7 +160,7 @@ parallel_items:
 - original: People were just like, “No. Of course. It’s Pokémon, there’s wild battles. That’s how it is.” There’s a lot of these unspoken rules that people feel [can’t change], but at the same time at Game Freak, we always want to be open to trying new things. If someone has a good idea or wants to try something out, we want to be able to actually do that. That’s just always a challenge that comes up with each project, just making sure that we don’t take anything for granted.
   role: answer
   speaker: 增田顺一
-  translation: 人们就是觉得：“不行。当然不行。这是宝可梦，就有野生对战。本来就是这样。”有很多这类不成文的规则，人们觉得不能改变，但与此同时在Game Freak，我们始终愿意尝试新事物。如果有人有好点子或想尝试什么，我们希望能真正去做。每个项目都会出现这样的挑战，就是要确保我们不把任何事视为理所当然。
+  translation: "人们就是觉得：“不行。当然不行。这是宝可梦，就有野生对战。本来就是这样。”有很多这类不成文的规则，人们觉得不能改变，但与此同时在GAME FREAK，我们始终愿意尝试新事物。如果有人有好点子或想尝试什么，我们希望能真正去做。每个项目都会出现这样的挑战，就是要确保我们不把任何事视为理所当然。"
 - original: It’s always just, “What do we want to do with this project? What do we want to try out this time?” We really just discuss it with the team and game and find out what the best direction is for that game. One thing I’m always saying at the beginning of a project, you’re always telling the team is when you’re making a new Pokémon, don’t make Pokémon from Pokémon. Make Pokémon from scratch. What would you do if it wasn’t a Pokémon game? How would you make the game? Always be in that mindset, is what I’m always trying to tell the team.
   role: answer
   speaker: 增田顺一

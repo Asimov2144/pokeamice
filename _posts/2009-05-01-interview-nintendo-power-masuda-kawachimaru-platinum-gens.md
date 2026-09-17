@@ -56,7 +56,7 @@ parallel_items:
   translation: 第1章：从底层声音驱动、电音与斯特拉文斯基，到执掌全局的总监之路
 - speaker: ''
   original: The following interview was published in the April 2009 issue of Nintendo Power magazine, arriving in subscribers’ mailboxes a few weeks before Pokemon Platinum released in the United States. The interviewees are Junichi Masuda, Diamond & Pearl’s director; and Takeshi Kawachimaru, Platinum’s director. Platinum was the first Pokemon game Kawachimaru ever directed, but it was also his last — he served smaller roles in future generations, mostly dealing with online features. So perhaps Game Freak wasn’t satisfied with his performance on Platinum.
-  translation: 以下访谈刊载于《任天堂力量》2009年4月号，在《宝可梦 白金》于美国发售前数周寄达订户手中。受访者为《钻石／珍珠》的总监增田顺一，以及《白金》的总监河内丸武史。《白金》是河内丸首次担任总监的宝可梦游戏，却也是他最后一次——在后续世代中，他只担任次要职务，主要负责线上功能。或许Game Freak对他《白金》的表现并不满意。
+  translation: "以下访谈刊载于《任天堂力量》2009年4月号，在《宝可梦 白金》于美国发售前数周寄达订户手中。受访者为《钻石／珍珠》的总监增田顺一，以及《白金》的总监河内丸武史。《白金》是河内丸首次担任总监的宝可梦游戏，却也是他最后一次——在后续世代中，他只担任次要职务，主要负责线上功能。或许GAME FREAK对他《白金》的表现并不满意。"
   note: 编者按/背景注释
 - speaker: ''
   original: The purpose of this interview discussing Platinum’s development, but in the process, Masuda and Kawachimaru ended up discussing the franchise as a whole. Highlights include some glimpses behind-the-scenes, an explanation of the series’ musical inspirations, and how the Distortion World was conceptualized. They also provide some candid replies about the development process… maybe even a little too candid in some instances. For example, Masuda makes it clear his directorial focus is attracting new fans, even if it’s at the expense of satisfying the established fanbase.
@@ -78,7 +78,7 @@ parallel_items:
   role: answer
 - speaker: ''
   original: 'Dr Lava’s notes: Action-puzzler Mendel Palace was the first game Game Freak ever produced. It released under the title “Quinty” on the Famicom in 1989, then was localized as “Mendel Palace” when it released stateside on the NES one year later. At the time, Game Freak’s core developers were Satoshi Tajiri, the company’s founder; Ken Sugimori, who later became the Pokemon series’ art director; and Junichi Masuda, who composed and programmed for Gen 1, then became the series’ director.'
-  translation: Dr. Lava 注：动作解谜游戏《孟德尔宫殿》是Game Freak制作的第一款游戏。它于1989年以《Quinty》之名在红白机（FC）上发售，一年后以《孟德尔宫殿》之名在北美NES上发售。当时，Game Freak的核心开发者包括公司创始人田尻智、后来成为宝可梦系列艺术总监的杉森建，以及增田顺一——他曾为第一世代作曲和编程，后来成为该系列的总监。
+  translation: "Dr. Lava 注：动作解谜游戏《孟德尔宫殿》是GAME FREAK制作的第一款游戏。它于1989年以《Quinty》之名在红白机（FC）上发售，一年后以《孟德尔宫殿》之名在北美NES上发售。当时，GAME FREAK的核心开发者包括公司创始人田尻智、后来成为宝可梦系列艺术总监的杉森建，以及增田顺一——他曾为第一世代作曲和编程，后来成为该系列的总监。"
   note: 编者按/背景注释
 - speaker: ''
   original: Masuda grew up in Yokohama in the Kanto region, but his parents were originally from Kyushu, the real-world inspirations for the Pokemon games’ Kanto and Hoenn regions — which is no coincidence. Likewise, Tajiri grew up in the rural town of Machida, which served as inspiration for Pallet Town.
@@ -311,7 +311,7 @@ parallel_items:
   role: answer
 - speaker: Dr. Lava
   original: 'Dr Lava’s notes: The idea of “the next Pikachu” obviously continued into future generations — Plusle, Minun, Pachirisu, Emolga, etc. Interestingly, Game Freak almost made White Pichu a special event Pokemon for HeartGold & SoulSilver, but ended up replacing it with Spiky-eared Pichu. You can read that full story here.'
-  translation: Dr. Lava 的注释：“下一个皮卡丘”的想法显然延续到了后续世代——正电拍拍、负电拍拍、帕奇利兹、电飞鼠等等。有趣的是，Game Freak 几乎将白色皮丘作为《心金／魂银》的特殊活动宝可梦，但最终用刺刺耳皮丘取而代之。你可以在这里阅读完整故事。
+  translation: "Dr. Lava 的注释：“下一个皮卡丘”的想法显然延续到了后续世代——正电拍拍、负电拍拍、帕奇利兹、电飞鼠等等。有趣的是，GAME FREAK 几乎将白色皮丘作为《心金／魂银》的特殊活动宝可梦，但最终用刺刺耳皮丘取而代之。你可以在这里阅读完整故事。"
   note: 编者按/背景注释
   role: answer
 - speaker: 河内丸武史

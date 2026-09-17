@@ -48,7 +48,7 @@ workflow:
   published: draft
 parallel_items:
 - original: 'During our time at Game Freak we spoke with studio co-founder, composer, producer, and director Junichi Masuda and director Shigeru Ohmori extensively about the core Pokémon RPGs, but we did sneak in one question about the Pokémon spin-offs. The franchise has found the most success as an RPG, but it has explored nearly every genre on nearly every platform. Our question for Masuda and Ohmori was simple: what''s your favorite one?'
-  translation: 在Game Freak期间，我们与工作室联合创始人、作曲家、制作人兼总监增田顺一以及总监大森滋就宝可梦核心RPG进行了广泛交谈，但我们也插入了一个关于宝可梦衍生作品的问题。该系列作为RPG取得了最大的成功，但它几乎在几乎所有平台上探索了几乎所有类型。我们对增田和大森的问题很简单：你最喜欢哪一个？
+  translation: "在GAME FREAK期间，我们与工作室联合创始人、作曲家、制作人兼总监增田顺一以及总监大森滋就宝可梦核心RPG进行了广泛交谈，但我们也插入了一个关于宝可梦衍生作品的问题。该系列作为RPG取得了最大的成功，但它几乎在几乎所有平台上探索了几乎所有类型。我们对增田和大森的问题很简单：你最喜欢哪一个？"
 - original: Masuda was quick to offer an unsurprising answer, especially if you've been following him on twitter lately.
   translation: 增田很快给出了一个并不令人意外的答案，尤其是如果你最近在推特上关注他的话。
 - original: '"Pokémon Go!" Masuda says, "I am not sure if you can call that a spin-off title." Masuda also brought up the mobile game when we were talking to him about the development of Pokémon Ruby and Sapphire, which he acknowledges were the most difficult for him to create. During the development of those games, he could see the Pokémon brand begin to fade which caused him a great deal of stress, but when the game finally came out, he learned that the franchise was still very popular. “Pokémon Go is experiencing something similar where people are saying, ‘Eh, it’s done. The fad’s over,’ but it was way worse than that after Gold and Silver had settled down and we were working on the next game," Masuda says.'
@@ -64,25 +64,25 @@ parallel_items:
 - original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
   translation: 宝可梦开发者谈他们在Switch上的主机RPG首秀
 - original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: Game Freak的起源及其宝可梦之前的游戏
+  translation: "GAME FREAK的起源及其宝可梦之前的游戏"
 - original: Here's How Game Freak Designs Pokemon Creatures
-  translation: 以下是Game Freak设计宝可梦生物的方式
+  translation: "以下是GAME FREAK设计宝可梦生物的方式"
 - original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: Game Freak谈宝可梦中的玩家自由与剧情之争
+  translation: "GAME FREAK谈宝可梦中的玩家自由与剧情之争"
 - original: Discussing Our In-Depth Tour Of Game Freak
-  translation: 谈我们对Game Freak的深入探访
+  translation: "谈我们对GAME FREAK的深入探访"
 - original: Everything We Know About Pokémon On The Nintendo Switch
   translation: 关于Nintendo Switch上宝可梦的已知全部信息
 - original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
   translation: 为什么《红宝石／蓝宝石》是最难制作的宝可梦作品
 - original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: Game Freak的导演们分享他们最喜欢的宝可梦衍生作品
+  translation: "GAME FREAK的导演们分享他们最喜欢的宝可梦衍生作品"
 - original: An Exclusive Look At Pokémon's Early Design Documents
   translation: 独家一览宝可梦早期设计文档
 - original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
   translation: 宝可梦创作者谈动画：“我们当时其实不太确定”
 - original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: 我们探访Game Freak之行的Reddit AMA
+  translation: "我们探访GAME FREAK之行的Reddit AMA"
   note: AMA即“Ask Me Anything”，Reddit上的问答活动形式。
 - original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
   translation: 独家揭晓《宝可梦 究极之日·究极之月》中的新模式

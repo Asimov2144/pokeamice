@@ -51,7 +51,7 @@ parallel_items:
   image: /assets/img/interviews/2016-10-19-interview-kotaku-2016-popplio/001.png
   alt: Pokémon Sun and Moon's Devs Respond To The Popplio Backlash
 - original: Earlier this month, Kotaku asked the folks at Game Freak which starter Pokémon they prefer in Sun and Moon. Unfortunately, poor Popplio didn’t make the cut.
-  translation: 本月早些时候，Kotaku 问 Game Freak 的人，在《太阳／月亮》里他们更喜欢哪只初始宝可梦。遗憾的是，可怜的波普海狮没能入选。
+  translation: "本月早些时候，Kotaku 问 GAME FREAK 的人，在《太阳／月亮》里他们更喜欢哪只初始宝可梦。遗憾的是，可怜的波普海狮没能入选。"
 - original: I got a chance to speak over the phone to Junichi Masuda, producer on Sun and Moon, as well as Shigeru Ohmori, director on Sun and Moon, and they dished on what monster they planned on selecting first for the new generation.
   translation: 我得到了通过电话与《太阳／月亮》制作人增田顺一以及《太阳／月亮》总监大森滋交谈的机会，他们聊了聊自己打算在新世代最先选哪只宝可梦。
 - original: “At home I have a really tiny cat,” Masuda said. “…it’s 3 kilograms. it crawls around, gets right on my shoulder, so I’m a cat man. I think I’ll probably go with Litten.”
@@ -59,7 +59,7 @@ parallel_items:
 - original: Litten, the fire feline, is a rather popular choice among fans—so it’s not surprising that a Pokémon head honcho would pick that critter. Ohmori had other ideas.
   translation: 火斑喵这只火属性的猫科宝可梦在粉丝中相当受欢迎——所以一位宝可梦高层选它并不令人意外。大森则有别的想法。
 - original: '“I’d probably go with Rowlette for my favorite,” Ohmori said. Ohmori elaborated that he still remembered when they first drafted Pokémon in 3D back in X & Y, they had to think of new ways of showing “movement” for these monsters. The aim was to make every Pokémon feel more lively. In Sun and Moon, Game Freak seems to have taken those aims to the next level, with Pokémon now having all sorts of subtle animations. For Ohmori, Rowlette exemplifies the values that Game Freak has been trying to capture for a while now. Ohmori said that he particularly appreciated the way Rowlette moves his head and body, something that you can really see shine with Rowlette’s evolution:'
-  translation: “我大概会选木木枭作为我的最爱，”大森说。大森进一步解释说，他仍然记得当年在《X／Y》中首次以3D形式绘制宝可梦时，他们必须想出新的方式来展现这些宝可梦的“动作”。目标是让每只宝可梦都感觉更有生气。在《太阳／月亮》中，Game Freak 似乎把这些目标提升到了新的层次，宝可梦如今有了各种细微的动画。对大森来说，木木枭体现了 Game Freak 一段时间以来一直试图捕捉的价值。大森说，他尤其欣赏木木枭摆动头部和身体的方式，这一点在木木枭的进化形态上表现得尤为明显：
+  translation: "“我大概会选木木枭作为我的最爱，”大森说。大森进一步解释说，他仍然记得当年在《X／Y》中首次以3D形式绘制宝可梦时，他们必须想出新的方式来展现这些宝可梦的“动作”。目标是让每只宝可梦都感觉更有生气。在《太阳／月亮》中，GAME FREAK 似乎把这些目标提升到了新的层次，宝可梦如今有了各种细微的动画。对大森来说，木木枭体现了 GAME FREAK 一段时间以来一直试图捕捉的价值。大森说，他尤其欣赏木木枭摆动头部和身体的方式，这一点在木木枭的进化形态上表现得尤为明显："
 - original: Naturally, I had to bring up Popplio at this point. I jokingly told the developers that I noticed they didn’t pick Popplio, and asked them if they had heard of some of the backlash against the water starter. I asked them, what did they think about that negative reaction against Popplio?
   translation: 自然，此时我不得不提起波普海狮。我开玩笑地告诉两位开发者，我注意到他们没有选波普海狮，并问他们是否听说过针对这只水属性初始宝可梦的一些反对声音。我问他们，对于针对波普海狮的这种负面反应，他们怎么看？
 - original: In response, I could hear some laughter on the other end of the line, but after a few moments, a concerned Ohmori seemed keen on reassuring me on Popplio’s design.

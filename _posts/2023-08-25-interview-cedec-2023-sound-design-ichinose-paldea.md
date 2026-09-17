@@ -66,7 +66,7 @@ parallel_items:
 - type: speaker
   speaker: 4Gamer
   original: 登壇者一覧：一之瀬 剛氏（ゲームフリーク 開発部 サウンド）、北村一樹氏（コネクテコ 代表取締役）、岩本 翔氏（フリーランス サウンドプログラマー）。
-  translation: 主讲人阵容：一之濑刚（Game Freak 研发部 音效主管）、北村一树（CONNECTECO 代表取缔役）、岩本翔（自由职业 音频程序员）。
+  translation: "主讲人阵容：一之濑刚（GAME FREAK 研发部 音效主管）、北村一树（CONNECTECO 代表取缔役）、岩本翔（自由职业 音频程序员）。"
 - type: heading
   level: 3
   original: ポケモン世界をリアルにするため，音響の力も追及する

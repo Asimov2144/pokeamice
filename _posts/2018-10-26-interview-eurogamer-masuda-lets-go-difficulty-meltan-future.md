@@ -60,7 +60,7 @@ parallel_items:
   caption: Game Freak 专访现场：总监兼执行董事增田顺一（Junichi Masuda）与环境美术设计主管菜花健作（Kensaku Nabana）
 - speaker: Eurogamer
   original: Two decades on from Pokémon Red and Blue's arrival here in the west, we're going back to Kanto once again. Pokémon Let's Go have made big changes - some proving more popular than others in the lead up to its release - but there's still a lingering sense that, with just the first generation of Pokémon available, in the first region, we've seen it all before. A couple of weeks ago, alongside an extended hands-on preview of Let's Go Pikachu and Eevee, we talked to Junichi Masuda, executive director and head of game development at Pokémon's main studio Game Freak, as well as fellow designer Kensaku Nabana, about some of the nitty gritty details fans are always after, including how that whole Meltan reveal came about, HMs, and those perpetual questions of difficulty, open worlds, and the series' future.
-  translation: 在《宝可梦 红／蓝》登陆西方整整二十年之后，我们再度重返一切梦开始的地方——关都地区。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》带来了大刀阔斧的革新与颠覆——在发售前的预热期中，某些改动备受好评，而另一些则引发了玩家社群的激烈争论；但也不乏有人隐隐担忧：仅仅收录第一世代的宝可梦、重游最初的关都大陆，是否只是在炒冷饭？数周前，在《Let's Go》的超长实机试玩体验之余，我们与 Game Freak 执行董事兼游戏开发负责人增田顺一，以及环境美术主设计师菜花健作坐在一起，深入探讨了玩家们最为关切的硬核细节：包括新宝可梦‘美录坦’横空出世背后的悬疑策划、秘传学习器的废除、饱受讨论的难度曲线，以及系列迈向全开放世界的宏大未来。
+  translation: "在《宝可梦 红／蓝》登陆西方整整二十年之后，我们再度重返一切梦开始的地方——关都地区。《宝可梦 Let's Go！皮卡丘／Let's Go！伊布》带来了大刀阔斧的革新与颠覆——在发售前的预热期中，某些改动备受好评，而另一些则引发了玩家社群的激烈争论；但也不乏有人隐隐担忧：仅仅收录第一世代的宝可梦、重游最初的关都大陆，是否只是在炒冷饭？数周前，在《Let's Go》的超长实机试玩体验之余，我们与 GAME FREAK 执行董事兼游戏开发负责人增田顺一，以及环境美术主设计师菜花健作坐在一起，深入探讨了玩家们最为关切的硬核细节：包括新宝可梦‘美录坦’横空出世背后的悬疑策划、秘传学习器的废除、饱受讨论的难度曲线，以及系列迈向全开放世界的宏大未来。"
   role: question
 - type: heading
   level: 3
@@ -84,7 +84,7 @@ parallel_items:
   caption: 以现代明快色调重新绘制的关都地区全景地图：融合夏日清爽空气与客厅家庭合家欢视觉设计
 - speaker: Eurogamer
   original: So would you say that this is the definitive version of Kanto? Is it close to what you, or Game Freak imagined, when you were first making it back then?
-  translation: 那么在你们看来，这是否称得上是关都地区的‘终极决定版’？它是否已经无限接近于你们与 Game Freak 当年在最初制作初代时脑海中所构想的真实世界？
+  translation: "那么在你们看来，这是否称得上是关都地区的‘终极决定版’？它是否已经无限接近于你们与 GAME FREAK 当年在最初制作初代时脑海中所构想的真实世界？"
   role: question
 - speaker: 增田顺一
   original: So this time around, obviously where we're making a game that will be played a lot in the living room on the big television as we mentioned, and the setting of the story is the Kanto region - which is a region in Japan - which is known for, or strongly associated with summer, or having a nice kind of summer atmosphere. This is something that we were always aware of when making this game and also the fact that we didn't want to make it in any way a scary game - we wanted the image to be kind of friendly graphics, things like that. But in terms of things that we've been able to do this time that we weren't at the time, so, you know, we couldn't have everyone coming together playing the game in the living room, you had to kind of play it individually at the time of the original games. But this time around there's various ways you can enjoy it you know you could have friends coming over to your house, playing you know one-player and two-player mode support play, throwing the Pokéball,

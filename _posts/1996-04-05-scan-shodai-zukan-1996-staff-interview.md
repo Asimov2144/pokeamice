@@ -1226,7 +1226,7 @@ translation_segments:
     scan_page: 10
     review_status: review
     original: 杉森 僕が一生懸命描いたポケモンのドット絵を見てください。できる限り友達と交換しまくって、すべてのモンスターを見つけましょう。
-    translation: 杉森 请看看我拼命画出来的宝可梦点阵图。尽可能多地和朋友交换，找出所有的宝可梦吧。
+    translation: "杉森 请看看我拼命画出来的宝可梦像素图。尽可能多地和朋友交换，找出所有的宝可梦吧。"
   - speaker: note
     type: paragraph
     kind: text

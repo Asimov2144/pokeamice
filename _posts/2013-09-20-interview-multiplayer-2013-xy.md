@@ -47,7 +47,7 @@ parallel_items:
   image: /assets/img/interviews/2013-09-20-interview-multiplayer-2013-xy/001.jpg
   alt: Quel mostro di Junichi Masuda
 - original: Durante il viaggio londinese che ci ha permesso di giocare alle prime due ore di Pokémon X e Y abbiamo potuto anche intervistare Junichi Masuda, figura storica negli studi di Game Freak all'opera sulla serie Pokémon fin dai primissimi episodi, ed ora guida del progetto. La firma di Masuda è evidente nell'ultimo capitolo della serie, ed a parlare con lui è chiaro che il cambiamento rappresentato da Pokémon X e Y è soprattutto opera sua.
-  translation: 在伦敦的旅行中，我们得以试玩了《宝可梦 X·Y》最初两个小时的内容，同时也采访了增田顺一。他是Game Freak工作室的历史性人物，从系列最早的作品起就参与《宝可梦》系列的开发，如今则是项目的负责人。增田的印记在系列最新作中显而易见，与他交谈后可以清楚感受到，《宝可梦 X·Y》所代表的改变主要出自他之手。
+  translation: "在伦敦的旅行中，我们得以试玩了《宝可梦 X·Y》最初两个小时的内容，同时也采访了增田顺一。他是GAME FREAK工作室的历史性人物，从系列最早的作品起就参与《宝可梦》系列的开发，如今则是项目的负责人。增田的印记在系列最新作中显而易见，与他交谈后可以清楚感受到，《宝可梦 X·Y》所代表的改变主要出自他之手。"
 - type: heading
   level: 2
   original: Intervista a Junichi Masuda

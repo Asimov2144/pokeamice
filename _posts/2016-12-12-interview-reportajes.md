@@ -146,17 +146,17 @@ parallel_items:
   translation: 这一现象背后的功臣：增田顺一与大森滋是谁？
 - type: paragraph
   original: Dentro de Game Freak , la fábrica donde se fraguan todos los títulos de la saga principal de Pokémon entre otros videojuegos, tenemos a diferentes artistas que asumen roles muy diferentes dependiendo de la licencia o incluso en entregas dentro de una propia saga. Un buen ejemplo de ello es Junichi Masuda , que ha sido compositor, director, productor y programador a lo largo de sus más de veinte años de trayectoria en la saga. Original de Yokohama, Masuda siempre soñó con poder hacer que los ordenadores que veía en las escuelas y fábricas pudiesen ser utilizados como herramientas de juego, pero también quería que todas esas melodías que escuchaba en sus vacaciones pudiesen trasladarse a cualquier parte porque para él era como una forma de recuperar y llevar consigo sus recuerdos a cualquier parte.
-  translation: 在 Game Freak——这家孕育了宝可梦主系列及其他游戏的工作室里，有众多艺术家，他们根据不同的游戏系列，甚至同一系列的不同作品，承担着截然不同的角色。增田顺一就是一个很好的例子：在他二十多年的宝可梦系列生涯中，他担任过作曲、总监、制作人和程序员。增田出生于横滨，他一直梦想着能让他在学校和工厂里看到的计算机成为游戏工具，同时也希望将他在假期中听到的所有旋律带到任何地方，因为对他来说，这就像一种将回忆随身携带的方式。
+  translation: "在 GAME FREAK——这家孕育了宝可梦主系列及其他游戏的工作室里，有众多艺术家，他们根据不同的游戏系列，甚至同一系列的不同作品，承担着截然不同的角色。增田顺一就是一个很好的例子：在他二十多年的宝可梦系列生涯中，他担任过作曲、总监、制作人和程序员。增田出生于横滨，他一直梦想着能让他在学校和工厂里看到的计算机成为游戏工具，同时也希望将他在假期中听到的所有旋律带到任何地方，因为对他来说，这就像一种将回忆随身携带的方式。"
 - type: paragraph
   original: Por este motivo, desde que comenzó a trabajar en Game Freak en 1989, se ha preocupado tanto por hacer de las bandas sonoras de los juegos algo que recordar, que se pueda identificar un tema musical concreto con un momento específico de sus aventuras. Esto responde, por ende, a las más de cien melodías diferentes que se incluyen con cada entrega de Pokémon, algo de lo que él es el principal responsable.
-  translation: 因此，自1989年加入 Game Freak 以来，他一直致力于让游戏的配乐成为值得铭记的东西，让玩家能够将特定的音乐主题与冒险中的特定时刻联系起来。这也解释了为什么每款宝可梦游戏都包含一百多首不同的旋律，而他是主要创作者。
+  translation: "因此，自1989年加入 GAME FREAK 以来，他一直致力于让游戏的配乐成为值得铭记的东西，让玩家能够将特定的音乐主题与冒险中的特定时刻联系起来。这也解释了为什么每款宝可梦游戏都包含一百多首不同的旋律，而他是主要创作者。"
 - type: paragraph
   original: Ampliar
   translation: 展开
   note: 原文为网页中的“展开”按钮文字，此处保留其功能含义。
 - type: paragraph
   original: Shigeru Ohmori comenzó a trabajar en Game Freak como un joven y potencial líder con Game Boy Advance, cuando se estaban desarrollando Pokémon Rubí y Zafiro allá por 2002. Asumió el rol de diseñador del mapa de la región y también uno de los principales diseñadores del título. Ha trabajado también en diversos spin off como Pokémon Ranger e incluso en HarmoKnight, otro proyecto de Game Freak para 3DS. Tras diversas entregas asumiendo su puesto de game designer, poco a poco ha ido tomando más importancia dentro de los desarrollos hasta ser el director de las entregas. Su fórmula principal, tal como él mismo contará en la entrevista, se basa en la toma de lo mejor de tanto la saga canónica como de otros títulos de Game Freak para que sus nuevos proyectos sean lo mejor posibles.
-  translation: 大森滋在 Game Boy Advance 时代作为一位年轻且有潜力的领导者加入 Game Freak，当时正值《宝可梦 红宝石／蓝宝石》开发期间（约2002年）。他担任了地区地图设计师，同时也是该作的主要设计师之一。他还参与过多个衍生作品，如《宝可梦巡护员》，甚至参与了 Game Freak 的另一款 3DS 游戏《节奏猎人和声骑士》。在担任游戏设计师的多个作品之后，他逐渐在开发中扮演更重要的角色，最终成为系列作品的导演。正如他将在采访中提到的，他的主要方法是汲取主系列和 Game Freak 其他游戏的精髓，以确保新项目尽可能出色。
+  translation: "大森滋在 Game Boy Advance 时代作为一位年轻且有潜力的领导者加入 GAME FREAK，当时正值《宝可梦 红宝石／蓝宝石》开发期间（约2002年）。他担任了地区地图设计师，同时也是该作的主要设计师之一。他还参与过多个衍生作品，如《宝可梦巡护员》，甚至参与了 GAME FREAK 的另一款 3DS 游戏《节奏猎人和声骑士》。在担任游戏设计师的多个作品之后，他逐渐在开发中扮演更重要的角色，最终成为系列作品的导演。正如他将在采访中提到的，他的主要方法是汲取主系列和 GAME FREAK 其他游戏的精髓，以确保新项目尽可能出色。"
   speaker: 大森滋
   role: answer
 - type: paragraph
@@ -280,7 +280,7 @@ parallel_items:
   translation: 角色扮演游戏
 - type: paragraph
   original: Pokémon Sol / Pokémon Luna , desarrollados por Game Freak y distribuidos por Nintendo para Nintendo 3DS , son las nuevas entregas de la popular saga RPG que celebra el 20 aniversario de la franquicia Pokémon.
-  translation: 《宝可梦 太阳／月亮》由Game Freak开发、任天堂发行，登陆Nintendo 3DS平台，是庆祝宝可梦系列20周年的热门RPG系列最新作品。
+  translation: "《宝可梦 太阳／月亮》由GAME FREAK开发、任天堂发行，登陆Nintendo 3DS平台，是庆祝宝可梦系列20周年的热门RPG系列最新作品。"
   note: 官方译名为《宝可梦 太阳／月亮》，此处“Sol”对应“太阳”，“Luna”对应“月亮”。
 - type: paragraph
   original: '9.5'

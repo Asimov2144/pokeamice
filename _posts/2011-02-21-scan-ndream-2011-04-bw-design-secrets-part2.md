@@ -165,7 +165,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ゲームフリーク 取締役2Dアートディレクター
-    translation: GAME FREAK 董事 2D艺术总监
+    translation: "GAME FREAK 董事 2D美术总监"
   - speaker: caption
     type: paragraph
     kind: text
@@ -185,7 +185,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 2Dアートディレクターとして、ット絵方面の統括とポケモンおびキャラクターデザイン全般のイレクションを担当
-    translation: 作为2D艺术总监，负责像素画方面的统筹以及宝可梦和角色设计整体的指导
+    translation: "作为2D美术总监，负责像素画方面的统筹以及宝可梦和角色设计整体的指导"
   - speaker: caption
     type: paragraph
     kind: text
@@ -195,7 +195,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: ゲームフリーク3Dアートディレクター海野隆雄さん
-    translation: GAME FREAK 3D艺术总监 海野隆雄
+    translation: "GAME FREAK 3D美术总监 海野隆雄"
   - speaker: caption
     type: paragraph
     kind: text

@@ -68,7 +68,7 @@ parallel_items:
   role: answer
 - speaker: 杉森建
   original: Ibe and Tagami came on board at Game Freak when we were working on Pocket Monsters Platinum.  This is the first time they’ve made a game from scratch.
-  translation: 井部和田上是在我们开发《宝可梦 白金》时加入Game Freak的。这是他们第一次从零开始制作游戏。
+  translation: "井部和田上是在我们开发《宝可梦 白金》时加入GAME FREAK的。这是他们第一次从零开始制作游戏。"
   note: Game Freak是宝可梦系列的主要开发商。
   role: answer
 - type: image

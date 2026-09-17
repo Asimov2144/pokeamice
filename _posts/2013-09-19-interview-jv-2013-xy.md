@@ -46,7 +46,7 @@ workflow:
   published: draft
 parallel_items:
 - original: Accusée à juste titre de ne pas assez se renouveler, la série Pokémon a entamé sa mue depuis quelques années déjà. Depuis 2011 pour être précis, avec l'arrivée des versions Blanche et Noire. Pokémon X et Pokémon Y, les premiers épisodes exclusifs à la 3DS, marquent quant à eux le passage à l'étape supérieure. Voici venue l'ère de la 3D généralisée. Junichi Masuda, le boss de Game Freak, et Hironobu Yoshida, graphic designer au sein du studio japonais, ont accepté de répondre à nos questions à propos du jeu, dont la sortie est prévue pour le 12 octobre prochain.
-  translation: 宝可梦系列因创新不足而受到指责，这一批评不无道理，但事实上它早在几年前就已开始蜕变。确切地说，是从2011年《黑／白》发售起。而《宝可梦 X》与《宝可梦 Y》作为首批3DS独占作品，则标志着它迈上了更高的台阶。全面3D化的时代就此到来。Game Freak的负责人增田顺一，以及这家日本工作室的图形设计师吉田宏信，接受了我们的提问，谈到了这款定于10月12日发售的游戏。
+  translation: "宝可梦系列因创新不足而受到指责，这一批评不无道理，但事实上它早在几年前就已开始蜕变。确切地说，是从2011年《黑／白》发售起。而《宝可梦 X》与《宝可梦 Y》作为首批3DS独占作品，则标志着它迈上了更高的台阶。全面3D化的时代就此到来。GAME FREAK的负责人增田顺一，以及这家日本工作室的图形设计师吉田宏信，接受了我们的提问，谈到了这款定于10月12日发售的游戏。"
   note: 吉田宏信是Game Freak的图形设计师，长期参与宝可梦系列的角色与画面设计。
 - type: image
   image: /assets/img/interviews/2013-09-19-interview-jv-2013-xy/001.jpg
@@ -66,7 +66,7 @@ parallel_items:
 - original: Chez Game Freak, on apprécie vraiment les jeux en 2D. Ils possèdent notamment le pouvoir de faire travailler l'imagination. Cependant, avec Pokémon X et Y, nous avons d'emblée choisi de passer sur 3DS car la console offre une puissance nettement supérieure à ses prédécesseurs. Nous avions déjà fait des essais en 3D par le passé mais c'est la première fois que la possibilité de réellement franchir le pas nous était donnée. Cela nous permet également de pouvoir jouer avec les angles de caméra, d'offrir de nouvelles expressions aux Pokémon et de rendre les combats plus excitants.
   role: answer
   speaker: 增田顺一
-  translation: 在Game Freak，我们确实很欣赏2D游戏。它们尤其具有激发想象力的力量。不过，在《宝可梦 X·Y》上，我们一开始就选择转向3DS，因为这台主机的性能明显超过前代。我们过去也做过3D方面的尝试，但这是第一次真正有条件迈出这一步。这也让我们能够玩转镜头角度，为宝可梦赋予新的表情，并让战斗更加刺激。
+  translation: "在GAME FREAK，我们确实很欣赏2D游戏。它们尤其具有激发想象力的力量。不过，在《宝可梦 X·Y》上，我们一开始就选择转向3DS，因为这台主机的性能明显超过前代。我们过去也做过3D方面的尝试，但这是第一次真正有条件迈出这一步。这也让我们能够玩转镜头角度，为宝可梦赋予新的表情，并让战斗更加刺激。"
 - original: Avec le passage à la 3D, le processus de développement a-t-il changé ?
   role: question
   speaker: jeuxvideo.com

@@ -53,14 +53,14 @@ parallel_items:
   translation: 1990年，田尻智首次萌生宝可梦的构想，此后近六年，他呕心沥血于最初的游戏。如今他34岁，游戏部分取材于他儿时的记忆。这份精心的投入终获回报：宝可梦席卷日本，如今在美国及更远的地方同样风靡。衍生品包括如同股票期权般被严密保护的集换式卡牌、一部电视动画，以及如今的一部电影。
 - speaker: ''
   original: A person who usually shuns the limelight, Tajiri talked about his labor of love with Larimer and TIME intern Takashi Yokota at the offices of his small company, Game Freak, in Tokyo's Setagaya neighborhood, a youth-culture hub with several colleges and universities. His company occupies two floors in a nondescript office building. Sandwiched between the Game Freak floors is a "cram school" for junior high school students who are taking extra paid-for lessons in hopes of improving their next entrance exam scores.
-  translation: 田尻智通常回避公众目光，此次在位于东京世田谷区的小公司Game Freak办公室里，与拉里默及《时代》杂志实习生横田隆志畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。
+  translation: "田尻智通常回避公众目光，此次在位于东京世田谷区的小公司GAME FREAK办公室里，与拉里默及《时代》杂志实习生横田隆志畅谈他的挚爱之作。世田谷是青年文化中心，周边有多所大专院校。他的公司占据一栋普通办公楼的两层，而在这两层之间，夹着一所面向初中生的“补习学校”，学生们付费加课，以期提高下次入学考试的成绩。"
 - speaker: ''
   original: Tajiri had just finished work on the new series of Pokmon games for Nintendo's Game Boy, to be released in Japan Nov. 20. He looked tired. His eyes were bloodshot, there were dark circles under his eyes and his hands and lips trembled while he spoke. He looked like he needed a good long sleep.
   translation: 田尻智刚刚完成了任天堂Game Boy平台新系列宝可梦游戏的开发，该游戏将于11月20日在日本发售。他看上去疲惫不堪：双眼布满血丝，眼袋深重，说话时手和嘴唇微微颤抖。他看起来亟需一场酣畅的长眠。
 - type: heading
   level: 3
   original: 'From Bug-Catching Boy to Fanzine Pioneer: The Genesis of Game Freak'
-  translation: 从昆虫少年到同人志先锋：Game Freak 的黎明与执念
+  translation: "从昆虫少年到同人志先锋：GAME FREAK 的黎明与执念"
 - speaker: 时代周刊
   original: Are you O.K.? You look pretty tired.
   translation: 你还好吗？你看起来很累。
@@ -92,7 +92,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: I was really into Space Invaders in about 1978. It got me more and more interested in video games. There wasn't any media to get information about games, so I came up with Game Freak magazine.
-  translation: 大约在1978年，我迷上了《太空侵略者》。它让我对电子游戏越来越感兴趣。当时没有任何媒体可以获取游戏信息，所以我想出了创办《Game Freak》杂志的主意。
+  translation: "大约在1978年，我迷上了《太空侵略者》。它让我对电子游戏越来越感兴趣。当时没有任何媒体可以获取游戏信息，所以我想出了创办《GAME FREAK》杂志的主意。"
   role: answer
 - speaker: 时代周刊
   original: Weren't you just a teenager?
@@ -300,7 +300,7 @@ parallel_items:
   role: question
 - speaker: 田尻智
   original: Yes, this was done on purpose. Mew was not originally included in the games for people to acquire. You had to get it from interacting with Game Freak or Nintendo. There were 150 characters, and Mew was number 151. You can't ever get a Mew without trading for it. It created a myth about the game, that there was an invisible character out there. Someone gives me Mew, then I give Mew to you, then you pass it on. Introducing a new character like that created a lot of rumors and myths about the game. It kept the interest alive.
-  translation: 是的，这是有意为之。梦幻最初并未设计为玩家可在游戏中正常获得。你必须通过与 Game Freak 或任天堂互动才能得到它。游戏中有150只宝可梦，而梦幻是第151只。不通过交换，你永远无法得到梦幻。这为游戏创造了一个传说，即存在一个看不见的角色。有人给我梦幻，我再给你，你再传下去。以这种方式引入新角色，制造了许多关于游戏的传闻和神话，保持了玩家的兴趣。
+  translation: "是的，这是有意为之。梦幻最初并未设计为玩家可在游戏中正常获得。你必须通过与 GAME FREAK 或任天堂互动才能得到它。游戏中有150只宝可梦，而梦幻是第151只。不通过交换，你永远无法得到梦幻。这为游戏创造了一个传说，即存在一个看不见的角色。有人给我梦幻，我再给你，你再传下去。以这种方式引入新角色，制造了许多关于游戏的传闻和神话，保持了玩家的兴趣。"
   note: 梦幻：由森本茂树秘密加入，最初仅通过官方活动赠送，成为传说中的宝可梦。
   role: answer
 - speaker: 时代周刊

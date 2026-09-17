@@ -48,7 +48,7 @@ parallel_items:
 - original: 'Next month, Pokémon Sword and Shield will become the first mainline Pokémon role-playing game to debut on a home console. Of course, with Switch, whether it counts as more of a portable console will always be up for debate. But for the first time, the series will sit alongside Nintendo’s premium entries in its key franchises like Super Mario Odyssey and The Legend of Zelda: Breath of the Wild — something certain fans have been anticipating for decades.'
   translation: 下个月，《宝可梦 剑·盾》将成为首款在主机上首发的主系列宝可梦角色扮演游戏。当然，就Switch而言，它是否更应算作便携式主机，始终会有争议。但这是该系列首次与任天堂旗下《超级马力欧 奥德赛》《塞尔达传说 旷野之息》等核心系列的高规格作品并列——这是某些粉丝期待了几十年的事。
 - original: As you might imagine, developer Game Freak has a lot riding on this one. Two weeks ago, I spoke to producer Junichi Masuda and director Shigeru Ohmori about their approach to the game, the thousand people involved in bringing it together, and the fan complaints about missing Pokémon.
-  translation: 可以想见，开发商Game Freak在这款游戏上押注颇多。两周前，我与制作人增田顺一和总监大森滋聊了聊他们制作这款游戏的方式、参与其中的上千人，以及粉丝对部分宝可梦缺席的不满。
+  translation: "可以想见，开发商GAME FREAK在这款游戏上押注颇多。两周前，我与制作人增田顺一和总监大森滋聊了聊他们制作这款游戏的方式、参与其中的上千人，以及粉丝对部分宝可梦缺席的不满。"
 - type: heading
   level: 2
   original: A console game
@@ -64,7 +64,7 @@ parallel_items:
 - original: So of course, at Game Freak we acknowledge the Nintendo Switch as a console. We definitely position it that way and this, from our perspective as well, was the first main series Pokémon RPG to be developed on a console. But as you know, the Switch is not really a traditional console so you can take it with you and also, if you choose, play it as a portable device. So you could take it to a friend’s house and, you know, play it together in-person like a traditional Pokémon game. So it’s kind of a special positioning compared to a traditional console.
   role: answer
   speaker: 大森滋
-  translation: 当然，在Game Freak，我们承认Nintendo Switch是一台主机。我们确实这样定位它，而且从我们的角度来看，这也是第一款在主机上开发的主系列宝可梦RPG。但如你所知，Switch并不是真正传统意义上的主机，你可以随身带着它，也可以选择把它当作便携设备来玩。所以你可以把它带到朋友家，像玩传统宝可梦游戏那样面对面一起玩。所以与传统主机相比，它的定位有些特殊。
+  translation: "当然，在GAME FREAK，我们承认Nintendo Switch是一台主机。我们确实这样定位它，而且从我们的角度来看，这也是第一款在主机上开发的主系列宝可梦RPG。但如你所知，Switch并不是真正传统意义上的主机，你可以随身带着它，也可以选择把它当作便携设备来玩。所以你可以把它带到朋友家，像玩传统宝可梦游戏那样面对面一起玩。所以与传统主机相比，它的定位有些特殊。"
 - original: Obviously, historically you guys have resisted targeting consoles. A lot of people speculated for years wondering when it would happen, and it never did until Switch seems like it almost forced it to happen. Was this inevitable? Say hypothetically Switch never happened. Say Switch was a traditional console that didn’t have a portable component. Do you think you would have gone this direction eventually anyway?
   role: answer
   speaker: 大森滋
@@ -84,7 +84,7 @@ parallel_items:
 - original: So at Game Freak, we get opportunities to give feedback to the direction that Nintendo is going with their hardware, so I think it’s less of being pulled in a direction and more kind of coming up with a direction together.
   role: answer
   speaker: 增田顺一
-  translation: 在Game Freak，我们有机会就任天堂硬件的方向提供反馈，所以我觉得与其说是被拉向某个方向，不如说是一起想出一个方向。
+  translation: "在GAME FREAK，我们有机会就任天堂硬件的方向提供反馈，所以我觉得与其说是被拉向某个方向，不如说是一起想出一个方向。"
 - original: Do you remember any specific feedback that either of you gave on this hardware?
   role: question
   speaker: Polygon
@@ -105,11 +105,11 @@ parallel_items:
 - original: There was an interview recently where you [Ohmori] mentioned that a thousand people had been involved in this game in one capacity or another, and I know that involves not just Game Freak but lots of other companies and departments. I’m curious what the biggest resource pull is. What aspect of these games requires the most people?
   role: question
   speaker: Polygon
-  translation: 最近有一篇采访，你（大森）提到有一千人以某种方式参与了这个游戏，我知道这不只是Game Freak，还包括很多其他公司和部门。我很好奇最大的资源投入在哪里。这些游戏的哪个方面需要最多的人？
+  translation: "最近有一篇采访，你（大森）提到有一千人以某种方式参与了这个游戏，我知道这不只是GAME FREAK，还包括很多其他公司和部门。我很好奇最大的资源投入在哪里。这些游戏的哪个方面需要最多的人？"
 - original: So, yeah. The number being close to a thousand, that of course includes all the different functions like marketing and PR and everyone that would be associated with the game ahead of release. But I think at Game Freak, really the core team of people that worked on the game was around 200 people. And of course, Creatures is another partner company that develops 3D models of the Pokémon. There are various teams that handle debugging at our partner companies as well. So there’s a lot of people involved and I think in terms of just the sheer number of the most resources required to make something happen for the development, it was definitely more on the graphical side of things. Like I mentioned, Creatures was involved with creating the models, but even at Game Freak, with the increased power of the Switch, we tried to make richer, more expressive visuals. We definitely needed more people this time around. […]
   role: answer
   speaker: 大森滋
-  translation: 是的。接近一千这个数字，当然包括了营销、公关等所有不同职能，以及所有在发售前会与这款游戏相关的人。但我认为在Game Freak，真正参与游戏开发的核心团队大约有200人。当然，Creatures是另一家合作公司，负责制作宝可梦的3D模型。我们合作公司里也有各种团队负责调试。所以参与的人很多，我认为单就开发所需资源数量而言，绝对更多是在图形方面。就像我提到的，Creatures参与了模型的制作，但即使在Game Freak，随着Switch性能的提升，我们也尝试做出更丰富、更有表现力的画面。这次我们肯定需要更多人。[…]
+  translation: "是的。接近一千这个数字，当然包括了营销、公关等所有不同职能，以及所有在发售前会与这款游戏相关的人。但我认为在GAME FREAK，真正参与游戏开发的核心团队大约有200人。当然，Creatures是另一家合作公司，负责制作宝可梦的3D模型。我们合作公司里也有各种团队负责调试。所以参与的人很多，我认为单就开发所需资源数量而言，绝对更多是在图形方面。就像我提到的，Creatures参与了模型的制作，但即使在GAME FREAK，随着Switch性能的提升，我们也尝试做出更丰富、更有表现力的画面。这次我们肯定需要更多人。[…]"
   note: Creatures是参与宝可梦系列开发的合作公司之一。
 - original: I mean, there’s more than a hundred people who worked on debugging the game, the testing and all of that. And Creatures, they probably have a hundred people working on 3D models and everything. Now that we’re on the Switch, there’s the graphical stuff but also creating the data for the various systems in the game and everything. It just requires a lot of people to be involved.
   role: answer
@@ -179,7 +179,7 @@ parallel_items:
 - original: I think it’s fair to say that both are involved. I mean, in any design situation, resources and time are always a constraint on what you can do in a project. But at the same time from a creative perspective, it’s part of a discussion we’ve had at Game Freak with Nintendo and The Pokémon Company, and we came to the decision that, at some point, we need to be able to prioritize new gameplay ideas. We need to be able to find a way to balance the right number of Pokémon and also still introduce new ways for players to enjoy the game, new gameplay ideas to keep the series fresh and enjoyable far into the future.
   role: answer
   speaker: 增田顺一
-  translation: 我认为可以说两者都有关系。我的意思是，在任何设计情境下，资源和时间始终是项目能做什么的制约因素。但与此同时，从创作的角度来说，这也是我们Game Freak与任天堂和宝可梦公司讨论过的一部分，我们得出的结论是，在某个时候，我们需要能够优先考虑新的玩法创意。我们需要找到一种方式，在合适的宝可梦数量之间取得平衡，同时仍然为玩家引入新的享受游戏的方式、新的玩法创意，让这个系列在遥远的未来依然保持新鲜和有趣。
+  translation: "我认为可以说两者都有关系。我的意思是，在任何设计情境下，资源和时间始终是项目能做什么的制约因素。但与此同时，从创作的角度来说，这也是我们GAME FREAK与任天堂和宝可梦公司讨论过的一部分，我们得出的结论是，在某个时候，我们需要能够优先考虑新的玩法创意。我们需要找到一种方式，在合适的宝可梦数量之间取得平衡，同时仍然为玩家引入新的享受游戏的方式、新的玩法创意，让这个系列在遥远的未来依然保持新鲜和有趣。"
 - original: Do you remember how long ago you that first occurred to you? That sense of, oh, we’re going to have to draw the line sometime.
   role: question
   speaker: Polygon

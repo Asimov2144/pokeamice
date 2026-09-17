@@ -256,7 +256,7 @@ parallel_items:
   translation: 宝可梦之前的生活
 - type: paragraph
   original: In 1989, two events happened that were important for the development of Pokémon. First off, Nintendo released the Game Boy. 5 days later, future Pokémon developers Satoshi Tajiri and Ken Sugimori turned Game Freak , their self-published gaming fanzine, into a video game company.
-  translation: 1989年，发生了两件对宝可梦发展至关重要的事件。首先，任天堂发布了Game Boy。5天后，未来的宝可梦开发者田尻智和杉森建将他们自行出版的游戏爱好者杂志《Game Freak》转型为一家电子游戏公司。
+  translation: "1989年，发生了两件对宝可梦发展至关重要的事件。首先，任天堂发布了Game Boy。5天后，未来的宝可梦开发者田尻智和杉森建将他们自行出版的游戏爱好者杂志《GAME FREAK》转型为一家电子游戏公司。"
   note: Game Freak 既是杂志名也是公司名，此处保留原文。田尻智和杉森建是宝可梦系列的核心创作者。
 - type: paragraph
   original: The Game Boy was originally seen as a system geared towards puzzle and action games. Indeed, the handheld saw many releases that fell into these categories. Then came the release of a Square RPG known in English as The Final Fantasy Legend . When Tajiri saw how successful it was, he realized that even non-action games were possible on a portable system.
@@ -276,7 +276,7 @@ parallel_items:
   note: 这是宝可梦最初的构想名称，后因版权问题弃用。
 - type: paragraph
   original: 'So, just what did that original project proposal for Pokémon look like? In 2009, a book was released in Japan that provided us with a glimpse. Known as Satoshi Tajiri: The Man who Created Pokémon (ISBN: 4840127751), it covered the development history of a number of Game Freak games, including the early Pokémon titles.'
-  translation: '那么，宝可梦最初的企划书到底是什么样子的呢？2009年，日本出版的一本书让我们得以一窥究竟。这本书名为《田尻聪：创造宝可梦的男人》（ISBN: 4840127751），涵盖了Game Freak多款游戏的开发历史，包括早期的宝可梦作品。'
+  translation: "那么，宝可梦最初的企划书到底是什么样子的呢？2009年，日本出版的一本书让我们得以一窥究竟。这本书名为《田尻聪：创造宝可梦的男人》（ISBN: 4840127751），涵盖了GAME FREAK多款游戏的开发历史，包括早期的宝可梦作品。"
   note: 田尻聪（Satoshi Tajiri）是宝可梦的创始人，Game Freak的社长。
 - type: paragraph
   original: I initially found a cache of images from this book on an alternative gaming news site called Tikisaurus . I searched around the web to find a couple more, and combined it with previously-translated developer interviews to bring you a look at Pokémon’s early history!

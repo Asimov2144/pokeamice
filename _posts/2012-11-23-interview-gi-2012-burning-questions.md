@@ -52,7 +52,7 @@ parallel_items:
 - original: What’s really going in inside of a Pokéball? Can humans eat Rare Candy? Is everyone in the world of Pokémon a vegetarian? We asked Pokémon Black and White 2’s director and producer all the questions you’ve always wanted the answers to.
   translation: 精灵球里面到底是什么样子？人类能吃神奇糖果吗？宝可梦世界里的所有人都是素食者吗？我们向《宝可梦 黑2·白2》的总监和制作人提出了那些你一直想知道答案的问题。
 - original: Takao Unno has been with Gamefreak for a decade. Typically, he serves as art director, but for Black and White 2, he is the overall director. Junichi Masuda (pictured below) has been with Gamefreak since the company’s inception, and he is the producer on Black and White 2.
-  translation: 海野隆雄已在Game Freak工作十年。他通常担任艺术总监，但在《黑／白 2》中，他是总导演。增田顺一（见下图）自公司创立起就在Game Freak工作，他是《黑／白 2》的制作人。
+  translation: "海野隆雄已在GAME FREAK工作十年。他通常担任艺术总监，但在《黑／白 2》中，他是总导演。增田顺一（见下图）自公司创立起就在GAME FREAK工作，他是《黑／白 2》的制作人。"
   note: 海野隆雄是Game Freak的美术设计师，曾参与多部宝可梦游戏的美术工作。
 - type: image
   image: /assets/img/interviews/2012-11-23-interview-gi-2012-burning-questions/002.jpg

@@ -436,7 +436,7 @@ parallel_items:
   note: 英文名Poliwag，此处为日文罗马音。
 - type: paragraph
   original: CIRCLED. This may be Poliwag, considering that Doduo is in Poliwag’s slot, and Poliwag seems to have made the poll list. We used the older sprite that was posted to Game Freak’s website years ago for accuracy to the times, we have little reference to its proportions, but it looks bigger than the final. Ranked 8 in the poll.
-  translation: 已圈出。这可能是蚊香君，考虑到嘟嘟占据了蚊香君的位置，而蚊香君似乎进入了投票名单。我们使用了多年前发布在Game Freak网站上的旧版图像，以符合当时的情况，我们对其比例参考很少，但它看起来比最终版本更大。在投票中排名第8。
+  translation: "已圈出。这可能是蚊香君，考虑到嘟嘟占据了蚊香君的位置，而蚊香君似乎进入了投票名单。我们使用了多年前发布在GAME FREAK网站上的旧版图像，以符合当时的情况，我们对其比例参考很少，但它看起来比最终版本更大。在投票中排名第8。"
   note: 此处提及的投票可能指宝可梦粉丝投票活动。
 - type: paragraph
   original: 71 ？？トリ/？？？ド
@@ -572,7 +572,7 @@ parallel_items:
   translation: 第一次人气投票（1992年10月）
 - type: paragraph
   original: “Looking at the November 1992 Game Freak internal bulletin, we can see that the first popularity vote was held in October that year. The top 3 favourite Pokémon were chosen from the about 80 monsters created at the time.
-  translation: “查看1992年11月的Game Freak内部公告，我们可以看到第一次人气投票是在那年10月举行的。当时从约80只怪兽中选出了最受欢迎的3只宝可梦。”
+  translation: "“查看1992年11月的GAME FREAK内部公告，我们可以看到第一次人气投票是在那年10月举行的。当时从约80只怪兽中选出了最受欢迎的3只宝可梦。”"
   note: Game Freak是宝可梦系列的开发公司。
 - type: paragraph
   original: We’ll report the surprising result here. “Pocket monster” popularity vote result announcement!

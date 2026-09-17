@@ -46,7 +46,7 @@ parallel_items:
   alt: 《宝可梦 太阳／月亮》总监大森滋（左）与 GAME FREAK 联合创始人增田顺一（右）在工作室回顾草创历史。
 - speaker: Game Informer
   original: Game Freak began as a magazine in Japan, or as Pokémon producer and composer and Game Freak co-founder Junichi Masuda refers to it, a mini comic. Satoshi Tajiri, who is credited as Pokémon’s creator, would visit arcades, talk to their owners and get tips for the games that would be included in the magazine, but making video games was always its goal. As a small group of video game fans, they didn’t think they could make an arcade game, but with the release of the Famicom (the Nintendo Entertainment System in America) Game Freak thought it might finally be able to make something.
-  translation: Game Freak 起初是日本的一本杂志，或者用宝可梦制作人、作曲家兼 Game Freak 联合创始人增田顺一的话来说，是一本迷你漫画。被誉为宝可梦创始人的田尻智，会去逛街机厅，与店主交流，获取游戏技巧，这些内容会被收录进杂志中，但制作电子游戏始终是他们的目标。作为一个由电子游戏爱好者组成的小团体，他们原本认为自己无法制作街机游戏，但随着 FC红白机（在美国称为 NES）的发布，Game Freak 觉得他们或许终于能够制作出一些东西了。
+  translation: "GAME FREAK 起初是日本的一本杂志，或者用宝可梦制作人、作曲家兼 GAME FREAK 联合创始人增田顺一的话来说，是一本迷你漫画。被誉为宝可梦创始人的田尻智，会去逛街机厅，与店主交流，获取游戏技巧，这些内容会被收录进杂志中，但制作电子游戏始终是他们的目标。作为一个由电子游戏爱好者组成的小团体，他们原本认为自己无法制作街机游戏，但随着 FC红白机（在美国称为 NES）的发布，GAME FREAK 觉得他们或许终于能够制作出一些东西了。"
   role: question
 - type: image
   image: /assets/img/interviews/2017-08-09-interview-game-informer-game-freak-origins-pre-pokemon/mendelpalace_610.jpg
@@ -82,7 +82,7 @@ parallel_items:
   alt: 《Jerry Boy》（美版名为《Smart Ball》）是为索尼开发的 SFC 动作平台游戏。
 - speaker: Game Informer
   original: Tajiri did, however, open the door with Nintendo in those early days, even if it didn’t publish Game Freak’s first two games, which lead to Yoshi. Yoshi is a falling block puzzle game where players have to match pictures of familiar Mario enemies.
-  translation: 然而，田尻智确实在早期为任天堂打开了大门，尽管任天堂并未发行Game Freak最初的两款游戏，这最终促成了《耀西的蛋》的诞生。《耀西的蛋》是一款下落式方块益智游戏，玩家需要匹配熟悉的马力欧敌人图片。
+  translation: "然而，田尻智确实在早期为任天堂打开了大门，尽管任天堂并未发行GAME FREAK最初的两款游戏，这最终促成了《耀西的蛋》的诞生。《耀西的蛋》是一款下落式方块益智游戏，玩家需要匹配熟悉的马力欧敌人图片。"
   role: question
 - speaker: 增田顺一
   original: “That game is when we first started working with them,” Masuda says. “We got the offer to create it, we developed it, and it was really successful, so we kind of formed that relationship and we got along really well and kept the development units. We borrowed them for about six years.”

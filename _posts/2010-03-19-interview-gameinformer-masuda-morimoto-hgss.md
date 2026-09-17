@@ -51,11 +51,11 @@ parallel_items:
 - type: header
   level: 3
   original: 'Exclusive Interview: Game Freak on Pokémon HeartGold & SoulSilver'
-  translation: 独家专访：Game Freak 核心团队畅谈《宝可梦 心金·魂银》开发秘辛
+  translation: "独家专访：GAME FREAK 核心团队畅谈《宝可梦 心金·魂银》开发秘辛"
 - type: dialogue
   speaker: Game Informer 编者按
   original: With the exciting release of Pokémon HeartGold and SoulSilver this week, we got a chance to interview members of the Game Freak team, who were part of the conception of the the video game series. Director Junichi Masuda, game director Shigeki Morimoto, art director Takao Unno, planner Kenji Matsushima, and programming lead Akito Mori tell us the development process behind creating and naming Pokémon, suprises you'll find in HeartGold and SoulSilver, the idea behind the Pokéwalker, and more.
-  translation: 随着本周《宝可梦 心金·魂银》的激动人心发售，我们有幸采访到了Game Freak团队的成员，他们是该系列游戏构思的参与者。总监增田顺一、游戏总监森本茂树、艺术总监海野隆雄、策划松岛贤二以及编程负责人森昭人向我们讲述了创造和命名宝可梦的开发过程、在《心金·魂银》中你将发现的惊喜、宝可步频器背后的理念等等。
+  translation: "随着本周《宝可梦 心金·魂银》的激动人心发售，我们有幸采访到了GAME FREAK团队的成员，他们是该系列游戏构思的参与者。总监增田顺一、游戏总监森本茂树、艺术总监海野隆雄、策划松岛贤二以及编程负责人森昭人向我们讲述了创造和命名宝可梦的开发过程、在《心金·魂银》中你将发现的惊喜、宝可步频器背后的理念等等。"
   role: question
 - type: dialogue
   speaker: Game Informer
@@ -83,7 +83,7 @@ parallel_items:
   speaker: Game Informer
   original: 'There are tons of Pokémon in existence now. What’s the process internally for creating new Pokémon? How do you come up with concepts and names for each new creature? Unno: When we create new Pokémon, a few graphic designers bring their own ideas to the design meetings lead by Sugimori [art director and board member at Game Freak. -Ed] . Basically, each brings his or her ideas, discuss, brush-up the ideas, and finalize the design. Sometimes, all designers go to a zoo or museum to get some ideas. Also, they work on new Pokémon based on the requests they get from planners who ask things such as “we would like to get this kind of Pokémon” or “we would like to have a Pokémon who appears in this kind of setting.” As for the naming, designers bring their name ideas. If it’s brilliant, we use it. Matsushima: We decide the setting for a particular Pokémon based on the designs that our designers propose. Sometimes we request changes to the Pokémon. As for the new names, first, we find
     words to describe that Pokémon. We try to rephrase the words or add another word and eventually we come across the final name.'
-  translation: 现在存在的宝可梦数量庞大。内部创造新宝可梦的流程是怎样的？你们如何为每个新生物构思概念和名字？海野隆雄：当我们创造新宝可梦时，几位图形设计师会带着自己的想法参加由杉森建主持的设计会议（杉森建是Game Freak的艺术总监和董事会成员）。基本上，每个人提出自己的想法，进行讨论，打磨想法，最终确定设计。有时，所有设计师会去动物园或博物馆获取灵感。此外，他们还会根据策划的要求来设计新宝可梦，比如“我们想要这种宝可梦”或“我们想要一个出现在这种环境中的宝可梦”。至于命名，设计师会带来他们的名字想法。如果很出色，我们就采用。松岛贤二：我们根据设计师提出的设计来决定特定宝可梦的设定。有时我们会要求修改宝可梦。至于新名字，首先，我们找到描述该宝可梦的词语。我们尝试改写这些词语或添加另一个词，最终找到最终的名字。
+  translation: "现在存在的宝可梦数量庞大。内部创造新宝可梦的流程是怎样的？你们如何为每个新生物构思概念和名字？海野隆雄：当我们创造新宝可梦时，几位图形设计师会带着自己的想法参加由杉森建主持的设计会议（杉森建是GAME FREAK的艺术总监和董事会成员）。基本上，每个人提出自己的想法，进行讨论，打磨想法，最终确定设计。有时，所有设计师会去动物园或博物馆获取灵感。此外，他们还会根据策划的要求来设计新宝可梦，比如“我们想要这种宝可梦”或“我们想要一个出现在这种环境中的宝可梦”。至于命名，设计师会带来他们的名字想法。如果很出色，我们就采用。松岛贤二：我们根据设计师提出的设计来决定特定宝可梦的设定。有时我们会要求修改宝可梦。至于新名字，首先，我们找到描述该宝可梦的词语。我们尝试改写这些词语或添加另一个词，最终找到最终的名字。"
   note: 杉森建是Game Freak的创始人之一，长期担任艺术总监，负责宝可梦角色设计。
   role: question
 - type: dialogue
@@ -153,7 +153,7 @@ parallel_items:
 - type: dialogue
   speaker: 海野隆雄
   original: When we create new Pokémon, a few graphic designers bring their own ideas to the design meetings lead by Sugimori [art director and board member at Game Freak. -Ed] . Basically, each brings his or her ideas, discuss, brush-up the ideas, and finalize the design. Sometimes, all designers go to a zoo or museum to get some ideas. Also, they work on new Pokémon based on the requests they get from planners who ask things such as “we would like to get this kind of Pokémon” or “we would like to have a Pokémon who appears in this kind of setting.” As for the naming, designers bring their name ideas. If it’s brilliant, we use it.
-  translation: 在创作新宝可梦时，几位图形设计师会带着各自的创意参加由杉森建（Game Freak 艺术总监兼董事——编者注）主持的设计会议。基本上，每位设计师都会提出自己的想法，经过讨论、打磨，最终确定设计。有时，所有设计师会一起去动物园或博物馆寻找灵感。此外，他们也会根据策划提出的需求来设计新宝可梦，比如“我们想要这种类型的宝可梦”或“我们希望有一种出现在这种环境中的宝可梦”。至于命名，设计师会提出候选名字，如果足够出色，我们就会采用。
+  translation: "在创作新宝可梦时，几位图形设计师会带着各自的创意参加由杉森建（GAME FREAK 艺术总监兼董事——编者注）主持的设计会议。基本上，每位设计师都会提出自己的想法，经过讨论、打磨，最终确定设计。有时，所有设计师会一起去动物园或博物馆寻找灵感。此外，他们也会根据策划提出的需求来设计新宝可梦，比如“我们想要这种类型的宝可梦”或“我们希望有一种出现在这种环境中的宝可梦”。至于命名，设计师会提出候选名字，如果足够出色，我们就会采用。"
   note: 杉森建是宝可梦系列的核心艺术总监，负责了大量宝可梦的最终设计。
   role: answer
 - type: dialogue

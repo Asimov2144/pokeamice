@@ -80,7 +80,7 @@ parallel_items:
   role: answer
 - speaker: Game Informer
   original: Alternatively, Shigeru Ohmori, director of Sun and Moon and Omega Ruby and Alpha Sapphire, views the game from an entirely different perspective. Ruby and Sapphire was the very first Pokémon game he worked on at Game Freak, marking his transition from fan to creator.
-  translation: 另一方面，《宝可梦 太阳／月亮》和《宝可梦 欧米伽红宝石／阿尔法蓝宝石》的总监大森滋，则从完全不同的视角看待这款游戏。《红宝石／蓝宝石》是他在Game Freak参与的第一款宝可梦游戏，标志着他从粉丝转变为创作者。
+  translation: "另一方面，《宝可梦 太阳／月亮》和《宝可梦 欧米伽红宝石／阿尔法蓝宝石》的总监大森滋，则从完全不同的视角看待这款游戏。《红宝石／蓝宝石》是他在GAME FREAK参与的第一款宝可梦游戏，标志着他从粉丝转变为创作者。"
   role: question
 - speaker: 大森滋
   original: It was actually a lot of fun to work on it and I was able to think, 'I'm making this!' It was my first project entering the company, so for me it was full of energy and excitement rather than the terrifying pressure Masuda was feeling.
@@ -88,7 +88,7 @@ parallel_items:
   role: answer
 - speaker: 增田顺一
   original: Despite the general perception of the series, and my stress-induced hospital visit, we never gave in to the pressure. We at Game Freak took that as a challenge and said, 'It's not dead. We're going to show you guys you're wrong!' Ultimately, it worked out. Game Freak was able to use the names Ruby and Sapphire and the games sold massively. The morning after, the day of release, I went into the local shop and saw people lining up to buy it and was extremely relieved. It was close. Super scary at the time.
-  translation: 尽管外界对系列的看法如此，加上我因压力住院，我们从未屈服于压力。我们Game Freak将此视为挑战，并说：‘它没有死。我们要向你们证明你们错了！’最终，一切顺利。Game Freak成功使用了“红宝石”和“蓝宝石”的名称，游戏销量巨大。发售日那天早上，我走进当地的商店，看到人们排队购买，感到无比欣慰。当时真是千钧一发，非常可怕。
+  translation: "尽管外界对系列的看法如此，加上我因压力住院，我们从未屈服于压力。我们GAME FREAK将此视为挑战，并说：‘它没有死。我们要向你们证明你们错了！’最终，一切顺利。GAME FREAK成功使用了“红宝石”和“蓝宝石”的名称，游戏销量巨大。发售日那天早上，我走进当地的商店，看到人们排队购买，感到无比欣慰。当时真是千钧一发，非常可怕。"
   role: answer
 - type: heading
   level: 3
@@ -96,7 +96,7 @@ parallel_items:
   translation: 从新人画师到重制版总监：大森滋与丰缘十二年因缘际会
 - speaker: Game Informer
   original: In 2014, Game Freak returned to Hoenn for the 3DS remakes, Omega Ruby and Alpha Sapphire, with Ohmori stepping up as full director.
-  translation: 2014年，Game Freak重返丰缘地区，推出了3DS重制版《宝可梦 欧米伽红宝石》和《宝可梦 阿尔法蓝宝石》，由大森滋担任正式总监。
+  translation: "2014年，GAME FREAK重返丰缘地区，推出了3DS重制版《宝可梦 欧米伽红宝石》和《宝可梦 阿尔法蓝宝石》，由大森滋担任正式总监。"
   role: question
 - speaker: 大森滋
   original: I kept hearing from Masuda about how hard the original Ruby and Sapphire games were and I kind of had that pressure in mind while creating Alpha Sapphire and Omega Ruby. But from my perspective, it was a lot of fun to work on them originally, so I was super motivated to take the reins as director on the remakes and bring Hoenn to modern 3D.

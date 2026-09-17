@@ -119,7 +119,7 @@ parallel_items:
 - original: Has the move to 3D and increased challenges meant that you’ve had to increase the size of your development team at Game Freak?
   role: question
   speaker: Nintendo Life
-  translation: 转向3D以及增加的挑战，是否意味着你们不得不扩大Game Freak的开发团队规模？
+  translation: "转向3D以及增加的挑战，是否意味着你们不得不扩大GAME FREAK的开发团队规模？"
 - original: We had around 200 people working on the development of X and Y, as well as localisation staff. In the credits around 500 names that appear!
   role: question
   speaker: Nintendo Life

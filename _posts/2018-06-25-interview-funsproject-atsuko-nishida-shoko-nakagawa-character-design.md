@@ -270,7 +270,7 @@ parallel_items:
 - type: section
   level: 2
   original: 【第2回】後編：「ドット絵は私の原点」（にしだあつこ）
-  translation: 后篇：点阵绘图是我的原点——皮卡丘之母的插画哲思
+  translation: "后篇：像素绘图是我的原点——皮卡丘之母的插画哲思"
 - type: image
   image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/img02.jpg
   caption: 中川翔子与西田敦子就点阵原画与宝可梦设计进行热烈讨论

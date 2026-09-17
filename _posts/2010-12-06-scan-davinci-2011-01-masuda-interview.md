@@ -650,7 +650,7 @@ translation_segments:
     heading_level: 3
     review_status: review
     original: 開発初期から大人を意識してシナリオも大人向けに
-    translation: "从开发初期就意识到大人 剧情也面向大人"
+    translation: "从开发初期就意识到大人 剧本也面向大人"
   - speaker: body
     type: paragraph
     kind: text

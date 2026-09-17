@@ -48,9 +48,9 @@ workflow:
   published: draft
 parallel_items:
 - original: Earlier this year, we traveled to Japan to visit Game Freak and learn all about the history of Pokémon. The result was a large feature all about the franchise that you can read in the September issue of Game Informer magazine, the one with Call of Duty WWII on the cover. Today, Pokémon Gold and Silver released on the 3DS Virtual Console, so we decided to post an excerpt from that feature covering those games.
-  translation: 今年早些时候，我们前往日本拜访Game Freak，了解宝可梦的完整历史。成果是一篇关于该系列的大型专题，你可以在《Game Informer》杂志九月刊上读到，那一期的封面是《使命召唤：二战》。今天，《宝可梦 金·银》在3DS虚拟主机上发售，所以我们决定发布那篇专题中涵盖这两款游戏的节选。
+  translation: "今年早些时候，我们前往日本拜访GAME FREAK，了解宝可梦的完整历史。成果是一篇关于该系列的大型专题，你可以在《Game Informer》杂志九月刊上读到，那一期的封面是《使命召唤：二战》。今天，《宝可梦 金·银》在3DS虚拟主机上发售，所以我们决定发布那篇专题中涵盖这两款游戏的节选。"
 - original: Despite the massive success of Pokémon Red and Green (and Blue), Game Freak struggled with the development of Gold and Silver. The studio was feeling the effects of a six-year development cycle.
-  translation: 尽管《宝可梦 红·绿》（以及蓝）取得了巨大成功，Game Freak在《金/银》的开发上却举步维艰。工作室正承受着长达六年开发周期带来的影响。
+  translation: "尽管《宝可梦 红·绿》（以及蓝）取得了巨大成功，GAME FREAK在《金/银》的开发上却举步维艰。工作室正承受着长达六年开发周期带来的影响。"
 - original: “After Red and Green came out, and the follow-up games, we didn’t have a lot of money. We were kind of out of money at that point because we had spent all the development funds and everything, so we needed to make some other games to stay in business,” Masuda says. Masuda worked as a programmer on a game that never released in America called Bazaar de Gosāru no Game de Gosāru at the same time he composed music for Gold and Silver.
   translation: “红绿发售之后，还有后续作品，我们没多少钱。那时候我们差不多没钱了，因为开发资金什么的都花光了，所以我们需要做点别的游戏来维持经营，”增田说。增田在一款从未在美国发售的游戏《Bazaar de Gosāru no Game de Gosāru》中担任程序员，同时为《金/银》作曲。
   note: 增田顺一是Game Freak的作曲家、游戏设计师，后来成为宝可梦系列的主要制作人。
@@ -75,25 +75,25 @@ parallel_items:
 - original: Pokémon’s Developers Talk About Their Console RPG Debut On Switch
   translation: 宝可梦开发者谈他们在Switch上的主机RPG首秀
 - original: Game Freak’s Origins And Its Pre-Pokémon Games
-  translation: Game Freak的起源及其在宝可梦之前的游戏
+  translation: "GAME FREAK的起源及其在宝可梦之前的游戏"
 - original: Here's How Game Freak Designs Pokemon Creatures
-  translation: Game Freak是这样设计宝可梦生物的
+  translation: "GAME FREAK是这样设计宝可梦生物的"
 - original: Game Freak On Player Freedom Vs. Story In Pokémon
-  translation: Game Freak谈宝可梦中的玩家自由与故事
+  translation: "GAME FREAK谈宝可梦中的玩家自由与故事"
 - original: Discussing Our In-Depth Tour Of Game Freak
-  translation: 讨论我们对Game Freak的深入探访
+  translation: "讨论我们对GAME FREAK的深入探访"
 - original: Everything We Know About Pokémon On The Nintendo Switch
   translation: 关于Nintendo Switch上宝可梦的一切已知信息
 - original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
   translation: 为什么红宝石和蓝宝石是最难制作的宝可梦游戏
 - original: Game Freak's Director Share Their Favorite Pokémon Spin-Offs
-  translation: Game Freak的总监分享他们最喜欢的宝可梦衍生作品
+  translation: "GAME FREAK的总监分享他们最喜欢的宝可梦衍生作品"
 - original: An Exclusive Look At Pokémon's Early Design Documents
   translation: 独家一窥宝可梦的早期设计文档
 - original: 'Pokémon’s Creators On The Anime: ''We Weren''t Really Sure About It'''
   translation: 宝可梦创作者谈动画：“我们当时其实不太确定”
 - original: Our Reddit AMA On Our Trip To Visit Game Freak
-  translation: 我们拜访Game Freak之旅的Reddit AMA
+  translation: "我们拜访GAME FREAK之旅的Reddit AMA"
   note: Game Freak是宝可梦系列游戏的开发公司。
 - original: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
   translation: 《宝可梦 究极之日·究极之月》新模式的独家揭晓

@@ -708,7 +708,7 @@ translation_segments:
     scan_page: 2
     review_status: review
     original: 杉森 建さんキャラクターアートディレクターゲームフリーク取締役。人物、ポケモンなどキャラクターデザイン全般を統括。
-    translation: 杉森建 角色艺术总监 GAME FREAK董事。统括人物、宝可梦等角色设计的整体工作。
+    translation: "杉森建 角色美术总监 GAME FREAK董事。统括人物、宝可梦等角色设计的整体工作。"
   - speaker: caption
     type: paragraph
     kind: text

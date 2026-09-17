@@ -121,7 +121,7 @@ parallel_items:
   note: ※2：株式会社GAME FREAK——开发《宝可梦》主系列等游戏软件的游戏开发公司。
 - speaker: 杉森建
   original: アートディレクターを担当している杉森です。
-  translation: 我是担任艺术总监的杉森建。
+  translation: "我是担任美术总监的杉森建。"
 - speaker: 增田顺一
   original: 桐谷さんはポケモンが大好きってうかがいましたけど、 過去にどのシリーズを遊ばれたんですか？
   translation: 听说桐谷小姐非常喜欢宝可梦，过去都玩过哪些作品呢？

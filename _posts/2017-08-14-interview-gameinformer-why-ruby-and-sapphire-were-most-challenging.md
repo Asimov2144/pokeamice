@@ -46,7 +46,7 @@ parallel_items:
   alt: Game Informer - Why Ruby And Sapphire Were The Most Challenging Pokémon To Make - Figure 1
 - type: paragraph
   original: The Pokémon series has transitioned between three different handheld generations comfortably (four if you count Game Boy to Game Boy Color), but there is one one in particular that proved more difficult than the rest. Pokémon X and Y may have marked the series' biggest graphical upgrade, but according to Game Freak co-founder and Pokémon director, producer, and composer Junichi Masuda, the most difficult Pokémon to bring across the finish line were the games that brought the series to the Game Boy Advance.
-  translation: 宝可梦系列曾在三个不同的掌机世代之间平稳过渡（若将Game Boy到Game Boy Color也算作一次，则为四次），但其中有一代被证明比其他世代更为艰难。《宝可梦 X／Y》或许标志着该系列最大幅度的画面升级，但据Game Freak联合创始人、宝可梦系列总监、制作人兼作曲家增田顺一所言，最难跨越终点线的宝可梦作品，恰恰是将该系列带入Game Boy Advance的那几款游戏。
+  translation: "宝可梦系列曾在三个不同的掌机世代之间平稳过渡（若将Game Boy到Game Boy Color也算作一次，则为四次），但其中有一代被证明比其他世代更为艰难。《宝可梦 X／Y》或许标志着该系列最大幅度的画面升级，但据GAME FREAK联合创始人、宝可梦系列总监、制作人兼作曲家增田顺一所言，最难跨越终点线的宝可梦作品，恰恰是将该系列带入Game Boy Advance的那几款游戏。"
   speaker: null
 - type: paragraph
   original: Pokémon Ruby and Sapphire released in 2003 to wide acclaim and impressive sales. In some ways, the technical leap between the Game Boy Color and Game Boy Advance helped development. "With Ruby and Sapphire, the screen got a little longer and it was a different aspect ratio, a lot more colors and sound channels so the tech was improved dramatically," Masuda says. "It allowed us to do a lot more and gave us more freedom, but at the same time it made it take a lot longer to do things and was more resource-intensive."
@@ -70,12 +70,12 @@ parallel_items:
   role: answer
 - type: paragraph
   original: "Despite the general perception of the series, and Masuda's stress-induced hospital visit, he never gave in to the pressure. \"We at Game Freak took that as a challenge and said, 'It’s not dead. We’re going to show you guys you’re wrong!'.\" Masuda says, and ultimately, it worked out. Game Freak were able to use the names Ruby and Sapphire and the games sold well. \"The morning after, the day of release, I went into the local \nshop and saw people lining up to buy it and was extremely relieved. It \nwas close. Super scary at the time.\""
-  translation: 尽管外界对系列普遍持悲观看法，增田也因压力过大而去了医院，但他从未向压力屈服。“我们Game Freak把这当作一个挑战，说‘它没有死。我们要向你们证明你们错了！’”增田说道，而最终，事情成功了。Game Freak得以使用“Ruby”和“Sapphire”这两个名称，游戏也卖得很好。“发售次日早晨，我走进当地的商店，看到人们排着队购买，我如释重负。真的很悬。当时超级可怕。”
+  translation: "尽管外界对系列普遍持悲观看法，增田也因压力过大而去了医院，但他从未向压力屈服。“我们GAME FREAK把这当作一个挑战，说‘它没有死。我们要向你们证明你们错了！’”增田说道，而最终，事情成功了。GAME FREAK得以使用“Ruby”和“Sapphire”这两个名称，游戏也卖得很好。“发售次日早晨，我走进当地的商店，看到人们排着队购买，我如释重负。真的很悬。当时超级可怕。”"
   speaker: 增田顺一
   role: answer
 - type: paragraph
   original: in 2014, Game Freak returned to Ruby and Sapphire for the 3DS remakes, Omega Ruby and Alpha Sapphire, with Ohmori taking on director duties. "I kept hearing from Masuda about how hard the original Ruby and Sapphire games were and I kind of had that pressure in mind while creating Alpha Sapphire and Omega Ruby," Ohmori says, "But from my perspective, it was a lot of fun to work on them, so I was super motivated to work as the director on the remakes."
-  translation: 2014年，Game Freak回归《红宝石／蓝宝石》，为3DS制作重制版《欧米伽红宝石／阿尔法蓝宝石》，由大森担任总监。“我一直听增田说原版《红宝石／蓝宝石》有多艰难，在制作《阿尔法蓝宝石／欧米伽红宝石》时，我心中也带着那种压力，”大森说道，“但在我看来，做这些游戏非常有趣，所以我作为重制版总监的动力超级强。”
+  translation: "2014年，GAME FREAK回归《红宝石／蓝宝石》，为3DS制作重制版《欧米伽红宝石／阿尔法蓝宝石》，由大森担任总监。“我一直听增田说原版《红宝石／蓝宝石》有多艰难，在制作《阿尔法蓝宝石／欧米伽红宝石》时，我心中也带着那种压力，”大森说道，“但在我看来，做这些游戏非常有趣，所以我作为重制版总监的动力超级强。”"
   speaker: null
 image: /assets/img/interviews/2017-08-14-interview-gameinformer-why-ruby-and-sapphire-were-most-challenging/rs_dev_01.jpg
 entities:

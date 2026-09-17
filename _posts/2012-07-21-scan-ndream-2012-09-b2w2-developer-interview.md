@@ -232,7 +232,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ゲームフリークディレクター海野隆雄さんディレクターとアートディレクターを兼任。ゲーム全体の方向性を決めつつ、グラフィック全般の取りまとめも行う
-    translation: GAME FREAK总监海野隆雄先生，兼任总监与艺术总监。在决定游戏整体方向的同时，也负责统筹所有图形相关工作。
+    translation: "GAME FREAK总监海野隆雄先生，兼任总监与美术总监。在决定游戏整体方向的同时，也负责统筹所有图形相关工作。"
   - speaker: note
     type: paragraph
     kind: text
@@ -283,7 +283,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: 海野さんは『ポケモンB・W』では3Dアートディレクターでしたが、今回は初のディレクターに挑戦ですね。実際にやられてみて、いかがでしたか？
-    translation: 海野先生在《宝可梦B・W》中担任3D艺术总监，但这次是首次挑战总监一职。实际做下来感觉如何？
+    translation: "海野先生在《宝可梦B・W》中担任3D美术总监，但这次是首次挑战总监一职。实际做下来感觉如何？"
   - speaker: 海野隆雄
     type: paragraph
     kind: text

@@ -219,7 +219,7 @@ parallel_items:
   role: answer
 - type: heading
   original: 第2回：杉森建 取締役・アートディレクター編（愛用の画材とフシギバナの苦悩）
-  translation: 第2回：杉森建 艺术总监篇（十年画材、画不出的妙蛙花与全主机收藏）
+  translation: "第2回：杉森建 美术总监篇（十年画材、画不出的妙蛙花与全主机收藏）"
 - type: image
   src: /assets/img/interviews/1997-10-16-interview-gamefreak-official-red-green-staff/02_sugimori.jpg
   alt: 杉森建（GAME FREAK取缔役 / 艺术总监）

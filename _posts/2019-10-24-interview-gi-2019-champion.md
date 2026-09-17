@@ -48,7 +48,7 @@ workflow:
   published: draft
 parallel_items:
 - original: If you've been following our coverage of Pokémon Sword and Shield, you know we've covered a ton of topics, such as autosave, drawing Pokémon, and the inspiration behind the Galar region. However, in the time since we spent a full day in Game Freak's Tokyo offices for this month's Pokémon Sword and Shield cover story, we've thought of several new questions to ask the development team.
-  translation: 如果你一直在关注我们对《宝可梦 剑·盾》的报道，就会知道我们已经聊过很多话题，比如自动保存、绘制宝可梦，以及伽勒尔地区背后的灵感。不过，自从我们在 Game Freak 东京办公室待了整整一天、为本月的《宝可梦 剑·盾》封面故事取材之后，我们又想到了几个新问题要问开发团队。
+  translation: "如果你一直在关注我们对《宝可梦 剑·盾》的报道，就会知道我们已经聊过很多话题，比如自动保存、绘制宝可梦，以及伽勒尔地区背后的灵感。不过，自从我们在 GAME FREAK 东京办公室待了整整一天、为本月的《宝可梦 剑·盾》封面故事取材之后，我们又想到了几个新问题要问开发团队。"
 - original: Thankfully, Pokémon Sword and Shield director Shigeru Ohmori and producer Junichi Masuda recently visited Redwood City, Calif. just outside of San Francisco, giving us an opportunity to not only play the first hour and a half of Pokémon Sword and Shield, but also catch up with them about several additional topics related to the upcoming Switch games.
   translation: 所幸，《宝可梦 剑·盾》总监大森滋和制作人增田顺一最近来到了加州旧金山郊外的雷德伍德城，让我们不仅有机会试玩《宝可梦 剑·盾》开头一个半小时的内容，还能就这两款即将登陆 Switch 的游戏聊几个额外的话题。
 - type: image
@@ -65,7 +65,7 @@ parallel_items:
 - original: On Leon’s cape, he has all kinds of endorsements and advertisements. One of them was the Game Freak logo. Game Freak has a history of being in Pokémon games. Does that mean we’ll also be able to find the studio in Galar?
   role: question
   speaker: Game Informer
-  translation: 丹帝的披风上有各种代言和广告，其中一个是 Game Freak 的标志。Game Freak 有在宝可梦游戏里登场的传统。这是否意味着我们也能在伽勒尔找到这家工作室？
+  translation: "丹帝的披风上有各种代言和广告，其中一个是 GAME FREAK 的标志。GAME FREAK 有在宝可梦游戏里登场的传统。这是否意味着我们也能在伽勒尔找到这家工作室？"
 - original: Good eye on you! [Laughs] I hope players will discover for themselves whether it’s there or not.
   role: answer
   speaker: 大森滋

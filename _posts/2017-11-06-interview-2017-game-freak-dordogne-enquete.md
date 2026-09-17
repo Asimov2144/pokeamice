@@ -49,10 +49,10 @@ interviewee: +1130000, Alpha-Aquilae, Bafouillafripouille, Goupelin, K1ki, Kazug
 parallel_items:
 - type: paragraph
   original: 'Game Freak en Dordogne : Enquête sur le futur de Pokémon | Pokémon Trash'
-  translation: Game Freak 在多尔多涅：宝可梦未来调查 | Pokémon Trash
+  translation: "GAME FREAK 在多尔多涅：宝可梦未来调查 | Pokémon Trash"
 - type: paragraph
   original: Yo mes scélérats . À moins que t'aies choppé Alzeihmer (#mamie), tu dois te rappeler de ma news concernant la visite de Masuda et Ohmori en France. S'en est rapidement suivi un edit révélant qu'ils n'étaient pas seulement deux, mais qu' une dizaine de membres de Game Freak s'étaient invités en Dordogne . On aurait pu s'arrêter là, mais je reviens pour conclure cette saga, façon Le Retour du Roi. Il sera question d'enquête, de compilation de détails et d'assemblage de faits. Mets-toi à l'aise, it all ends here .
-  translation: 哟，我的小坏蛋们。除非你得了阿尔茨海默症（#奶奶），否则你一定记得我那条关于增田和大森访问法国的新闻。随后很快出现了一条编辑，揭示他们不只是两个人，而是大约十名 Game Freak 成员不请自来地来到了多尔多涅。我们本可以就此打住，但我回来是为了给这段传奇画上句号，就像《王者归来》那样。这将涉及调查、细节汇编和事实拼凑。请自便，一切到此结束。
+  translation: "哟，我的小坏蛋们。除非你得了阿尔茨海默症（#奶奶），否则你一定记得我那条关于增田和大森访问法国的新闻。随后很快出现了一条编辑，揭示他们不只是两个人，而是大约十名 GAME FREAK 成员不请自来地来到了多尔多涅。我们本可以就此打住，但我回来是为了给这段传奇画上句号，就像《王者归来》那样。这将涉及调查、细节汇编和事实拼凑。请自便，一切到此结束。"
   note: 阿尔茨海默症是一种失智症，这里用“#mamie”调侃老年失忆。
 - type: paragraph
   original: Les Bases
@@ -73,11 +73,11 @@ parallel_items:
   note: “mangeur de ramen”指增田顺一，他喜欢拉面。
 - type: paragraph
   original: 'C''est surtout en 2011 que les bails deviennent sérieux. Masuda ramène son crew, ça sort les blocs-notes, les carnets à croquis façon Jacky (pour Michelle on repassera), et la phase de repérage débute : Paris, Lyon, Reims, Carnac... Notre pays est passé au peigne fin. Deux ans plus tard, Game Freak nous pond les versions X et Y. Cocorico...'
-  translation: 尤其是在2011年，事情变得认真起来。增田带着他的团队，拿出笔记本、速写本，像Jacky那样（至于Michelle，我们改天再说），勘察阶段开始了：巴黎、里昂、兰斯、卡纳克……我们的国家被仔细梳理了一遍。两年后，Game Freak给我们带来了《X》和《Y》。公鸡打鸣……
+  translation: "尤其是在2011年，事情变得认真起来。增田带着他的团队，拿出笔记本、速写本，像Jacky那样（至于Michelle，我们改天再说），勘察阶段开始了：巴黎、里昂、兰斯、卡纳克……我们的国家被仔细梳理了一遍。两年后，GAME FREAK给我们带来了《X》和《Y》。公鸡打鸣……"
   note: “Cocorico”是法语中公鸡的叫声，象征法国，此处表示自豪。
 - type: paragraph
   original: Attention à ne pas confondre vacances, phases de repérages et tournées médiatiques. À ceux qui se font des films parce que Masuda a visité l'Espagne, le Portugal, l'Allemagne, le Royaume-Uni, etc. je vous conseille de vous documenter. Vous verrez que ces visites coïncident avec un salon du jeu-vidéo ou avec une campagne promotionnelle. Masuda étant la figure médiatique de Pokémon, celui-ci est revenu en France plusieurs fois, pour les raisons que j'viens d'évoquer ou simplement pour des vacances. Il faut donc rester prudents, mes scélérats. Pas besoin de s'alarmer quand un représentant de Game Freak vient seul.
-  translation: 注意不要混淆假期、勘察阶段和媒体巡演。对于那些因为增田访问了西班牙、葡萄牙、德国、英国等地而浮想联翩的人，我建议你们去查查资料。你们会发现这些访问与游戏展或宣传活动相吻合。作为宝可梦的媒体代言人，增田多次回到法国，原因就是我刚才提到的那些，或者仅仅是为了度假。所以，我的小坏蛋们，要保持谨慎。当 Game Freak 的代表独自前来时，不必惊慌。
+  translation: "注意不要混淆假期、勘察阶段和媒体巡演。对于那些因为增田访问了西班牙、葡萄牙、德国、英国等地而浮想联翩的人，我建议你们去查查资料。你们会发现这些访问与游戏展或宣传活动相吻合。作为宝可梦的媒体代言人，增田多次回到法国，原因就是我刚才提到的那些，或者仅仅是为了度假。所以，我的小坏蛋们，要保持谨慎。当 GAME FREAK 的代表独自前来时，不必惊慌。"
 - type: paragraph
   original: Par contre, s'ils sont une dizaine, y'a peut-être quelques questions à se poser...
   translation: 另一方面，如果他们大约有十个人，那可能就有一些问题要问了……
@@ -220,11 +220,11 @@ parallel_items:
   note: 小标题。
 - type: paragraph
   original: Penchons-nous (sans mauvais jeu de mot) sur le jeu à venir sur Switch et intéressons-nous à ces fameuses phases de repérages. D'abord, il semblerait que les jeux Pokémon mettraient en moyenne deux à trois ans pour voir le jour . Si l'on estime que les phases de repérages de 2011 marquaient les prémisses de X et Y, il aura donc fallu deux ans à Game Freak pour sortir son bébé.
-  translation: 让我们（无意双关）来关注一下即将登陆 Switch 的游戏，并探讨一下那些著名的实地考察阶段。首先，宝可梦游戏的平均开发周期似乎是两到三年。如果我们认为2011年的实地考察是《X／Y》的前奏，那么 Game Freak 花了两年时间才推出他们的作品。
+  translation: "让我们（无意双关）来关注一下即将登陆 Switch 的游戏，并探讨一下那些著名的实地考察阶段。首先，宝可梦游戏的平均开发周期似乎是两到三年。如果我们认为2011年的实地考察是《X／Y》的前奏，那么 GAME FREAK 花了两年时间才推出他们的作品。"
   note: “sans mauvais jeu de mot”是法语习语，意为“无意双关”，此处可能暗指“Penchons”与“pencher”（倾斜）有关。
 - type: paragraph
   original: Revenons un instant en 2017. Le 3 mars sort la nouvelle console de Nintendo, mais Tsunekazu Ishihara (patron de The Pokémon Company, aka walletman) n'était pas le mec le plus confiant de la Terre. Mon avis, c'est que le CEO attendait sûrement que la Switch fasse ses preuves avant de donner le feu vert aux équipes de Game Freak pour s'attaquer à la next-gen. Après un succès console foudroyant, Game Freak lance (étrangement) un appel d'offre pour un " RPG mondialement connu " .
-  translation: 让我们回到2017年。3月3日，任天堂的新主机发售，但石原恒和（The Pokémon Company 的老板，又名钱包人）并不是地球上最自信的人。我的看法是，这位 CEO 肯定在等待 Switch 证明自己，然后才给 Game Freak 团队开绿灯，让他们着手下一代游戏。在主机取得巨大成功后，Game Freak（奇怪地）发布了一份招聘启事，寻找一款“全球知名的 RPG”的开发人员。
+  translation: "让我们回到2017年。3月3日，任天堂的新主机发售，但石原恒和（The Pokémon Company 的老板，又名钱包人）并不是地球上最自信的人。我的看法是，这位 CEO 肯定在等待 Switch 证明自己，然后才给 GAME FREAK 团队开绿灯，让他们着手下一代游戏。在主机取得巨大成功后，GAME FREAK（奇怪地）发布了一份招聘启事，寻找一款“全球知名的 RPG”的开发人员。"
   note: 石原恒和（Tsunekazu Ishihara）是 The Pokémon Company 的社长。"walletman"是调侃其掌管钱包。
 - type: paragraph
   original: En admettant que les studios aient débuté le projet en mars 2017, ça voudrait dire que le Pokémon Switch n'a que 7/8 mois au compteur. Il est pas un peu tard pour les phases de repérages ? Mon avis, c'est qu'avec un voyage aussi ciblé et expéditif, le staff est venu pour rattraper son retard sur un aspect du jeu vis-à-vis duquel ils ne pouvaient pas se documenter depuis l'étranger.
@@ -249,7 +249,7 @@ parallel_items:
   note: 布亚克（Bouilhac）是法国多尔多涅省的一个市镇。
 - type: paragraph
   original: Forcément, ils ne sont pas fous chez Game Freak, mieux vaut éviter les fuites.
-  translation: 显然，Game Freak 的人并不傻，最好避免泄密。
+  translation: "显然，GAME FREAK 的人并不傻，最好避免泄密。"
 - type: paragraph
   original: Quelques idées
   translation: 一些想法
@@ -270,7 +270,7 @@ parallel_items:
   note: 卡洛斯地区以法国为原型，城都和关都地区以日本为原型。
 - type: paragraph
   original: Un retour dans le passé ? Et si le prochain jeu Pokémon se déroulait dans un passé proche ? Ce serait un essai audacieux et novateur. Game Freak a bien embarqué une chercheuse spécialiste des lieux sacrés de l' ère Meiji . L'idéalisation des Japonais pour la France, ça s'appuie sur quelle période, exactement ? Sur la belle époque. Sur la vision décrite par Proust, sur la fin du 19ème et le début du 20ème. Autrement dit, sur ce qui correspond à l'ère Meiji.
-  translation: 回到过去？如果下一款宝可梦游戏设定在近代会怎样？这将是一次大胆而创新的尝试。Game Freak 确实聘请了一位专门研究明治时代圣地的研究员。日本人对法国的理想化，究竟基于哪个时期？基于美好时代，基于普鲁斯特所描绘的愿景，基于19世纪末20世纪初。换句话说，相当于日本的明治时代。
+  translation: "回到过去？如果下一款宝可梦游戏设定在近代会怎样？这将是一次大胆而创新的尝试。GAME FREAK 确实聘请了一位专门研究明治时代圣地的研究员。日本人对法国的理想化，究竟基于哪个时期？基于美好时代，基于普鲁斯特所描绘的愿景，基于19世纪末20世纪初。换句话说，相当于日本的明治时代。"
   note: 这里提到的研究员可能指今泉芳子（Yoshiko Imaizumi），她研究非洲，但此处提到明治时代圣地。普鲁斯特是法国作家，其作品描绘了美好时代。
 - type: paragraph
   original: À moins que l'on ne retourne au temps des cavernes . Après tout, Yoshiko Imaizumi a étudié l'Afrique. Vous commencez à voir les liens ? Et les Pokéballs, ça existait à cette période ? Ça me semble compliqué en terme de capture de pokémonstres, mais allez savoir, le concept serait ultra-intéressant.
@@ -433,7 +433,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: Purée, on se refuse rien chez Game Freak ma parole! C'était un gastronomique ce resto. J'applaudis tout de même le travail de recherche, tu es allé loin. Même s'il y a beaucoup trop de suppositions là dedans, (mauvaise foi - ON) si ça se trouve ce sont juste les peintures qui les intéressait, pour les utiliser ailleurs. Genre dans les cavernes du remake de la 4G.
-  translation: 天哪，Game Freak 真是啥都敢干！这家餐厅可是米其林级别的。不过我还是很佩服你的调查工作，你走得很远。尽管这里面有太多猜测，（恶意 - 开启）也许他们只是对画作感兴趣，想用在别的地方，比如第四世代重制版的洞穴里。
+  translation: "天哪，GAME FREAK 真是啥都敢干！这家餐厅可是米其林级别的。不过我还是很佩服你的调查工作，你走得很远。尽管这里面有太多猜测，（恶意 - 开启）也许他们只是对画作感兴趣，想用在别的地方，比如第四世代重制版的洞穴里。"
   speaker: c0mpu73rguy
   note: 4G 指第四世代（神奥地区），此处可能指《宝可梦 晶灿钻石／明亮珍珠》的重制。
   role: answer

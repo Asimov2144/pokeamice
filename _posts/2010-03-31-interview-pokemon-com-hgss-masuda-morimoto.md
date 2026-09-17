@@ -83,7 +83,7 @@ parallel_items:
   alt: 海野隆雄（Takao Unno，艺术总监 / Art Director）
 - speaker: 海野隆雄
   original: 'Takao Unno, Art Director : As we’ve noted, we are now able to express various aspects of the games differently thanks to the technological advancement of the hardware. However, our stance on precisely what new technology can be utilized hasn’t changed. We do not use all available technology—instead, we select those that are best for the players and those that make the gameplay more compelling.'
-  translation: 海野隆雄（艺术总监）：正如我们之前所说，得益于硬件技术的进步，我们现在能够以不同的方式表现游戏的方方面面。然而，我们对于究竟可以运用哪些新技术的立场并未改变。我们不会把所有可用的技术都用上——而是从中挑选出对玩家最有益的、以及能让游戏玩法更具吸引力的那些技术。
+  translation: "海野隆雄（美术总监）：正如我们之前所说，得益于硬件技术的进步，我们现在能够以不同的方式表现游戏的方方面面。然而，我们对于究竟可以运用哪些新技术的立场并未改变。我们不会把所有可用的技术都用上——而是从中挑选出对玩家最有益的、以及能让游戏玩法更具吸引力的那些技术。"
   role: answer
 - speaker: Pokemon.com
   original: It's unusual for a game to be very popular both in Japan and in the United States (and for that matter, in Europe). What makes Pokémon so universally enjoyed?

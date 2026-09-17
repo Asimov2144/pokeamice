@@ -46,10 +46,10 @@ parallel_items:
 - type: heading
   level: 2
   original: 'Here''s How Game Freak Designs Pokémon Creatures: Studio Pitching, Ecological Logic, and Eye Evolution'
-  translation: Game Freak 如何设计宝可梦？全员创意提案、生态逻辑与眼睛绘制的软硬件演进
+  translation: "GAME FREAK 如何设计宝可梦？全员创意提案、生态逻辑与眼睛绘制的软硬件演进"
 - speaker: ''
   original: Between all the different Pokémon games that have released over the last 20 years, taking into account Mega Evolutions and new wrinkles like the Alola forms in Sun and Moon, there are 802 Pokémon. The creatures vary in design to an incredible degree, covering strange influences like keys and piles of garbage to less surprising designs based on cute animals like cats and koalas. While visiting Japan to explore Game Freak's development studio, we spoke with Pokémon director, producer, and composer Junichi Masuda about what the process of designing a Pokémon looks like, whether they have ever encountered an internal pitch that was immediately turned down, and what has happened to their eyes over the years.
-  translation: 在过去20年间发售的众多宝可梦游戏中，若将超级进化以及《太阳／月亮》中阿罗拉形态等新要素也计算在内，宝可梦的总数已达802种。这些生物的设计风格千差万别，既有以钥匙、垃圾堆等奇特事物为灵感的，也有以猫、考拉等可爱动物为原型而显得不那么出人意料的。在探访日本Game Freak开发工作室期间，我们与宝可梦总监、制作人兼作曲家增田顺一进行了交流，探讨了设计一只宝可梦的流程是怎样的、是否曾有过内部提案被当场否决的情况，以及多年来宝可梦的眼睛设计经历了怎样的演变。
+  translation: "在过去20年间发售的众多宝可梦游戏中，若将超级进化以及《太阳／月亮》中阿罗拉形态等新要素也计算在内，宝可梦的总数已达802种。这些生物的设计风格千差万别，既有以钥匙、垃圾堆等奇特事物为灵感的，也有以猫、考拉等可爱动物为原型而显得不那么出人意料的。在探访日本GAME FREAK开发工作室期间，我们与宝可梦总监、制作人兼作曲家增田顺一进行了交流，探讨了设计一只宝可梦的流程是怎样的、是否曾有过内部提案被当场否决的情况，以及多年来宝可梦的眼睛设计经历了怎样的演变。"
 - type: heading
   level: 3
   original: 'Cross-Department Pitches: Gameplay Mechanics, Scenario, and Graphic Artists'
@@ -68,7 +68,7 @@ parallel_items:
   translation: 活生生的生物准则：食性、栖息生态与为何几乎没有‘彻底腰斩’的废案
 - speaker: Game Informer
   original: A glass case in one of Game Freak's meeting spaces features a figurine of every Pokémon. With over 800 creatures, are there any hard and fast rules about what a Pokémon can and cannot be?
-  translation: 在Game Freak的一间会议室里，有一个玻璃展柜，里面陈列着每一只宝可梦的手办。面对超过800种生物，对于宝可梦可以是什么、不可以是什么，是否存在任何硬性规定？
+  translation: "在GAME FREAK的一间会议室里，有一个玻璃展柜，里面陈列着每一只宝可梦的手办。面对超过800种生物，对于宝可梦可以是什么、不可以是什么，是否存在任何硬性规定？"
   role: question
 - speaker: 增田顺一
   original: One thing we always really pay attention to is treating them like living creatures so you have to try and imagine where it would live in the environment and why it looks the way it does, what would it eat? For example. When designing Pokémon, and not just from a graphic design perspective, there must be a reason for why it looks the way it does and you have to think about why it might live in the Pokémon world.
@@ -80,7 +80,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: Pokémon designs rarely get cancelled, so to speak. If a new Pokémon weren't going to fit in the game or world, Game Freak doesn't let them get far past the conceptual stages. Once you're in the middle of creating it and someone were to say, 'No!, that's not a Pokémon,' and the design process gets killed? That doesn't really happen that much. Usually, instead, maybe the person who is directing the game might say it won't work in its current form, but maybe if you did this and adding ideas onto it might make it work better. For this reason, ideas for new Pokémon rarely get thrown away.
-  translation: 可以说，宝可梦设计很少会被取消。如果一只新宝可梦不适合游戏或世界，Game Freak不会让它们通过概念阶段太远。当你在创作过程中，有人突然说‘不！那不是宝可梦’，然后设计流程就被扼杀？这种情况其实并不多见。通常，游戏总监可能会说它目前的形式行不通，但如果你这样做，加上一些想法，可能会让它变得更好。因此，新宝可梦的创意很少会被丢弃。
+  translation: "可以说，宝可梦设计很少会被取消。如果一只新宝可梦不适合游戏或世界，GAME FREAK不会让它们通过概念阶段太远。当你在创作过程中，有人突然说‘不！那不是宝可梦’，然后设计流程就被扼杀？这种情况其实并不多见。通常，游戏总监可能会说它目前的形式行不通，但如果你这样做，加上一些想法，可能会让它变得更好。因此，新宝可梦的创意很少会被丢弃。"
   role: answer
 - type: heading
   level: 3
@@ -92,7 +92,7 @@ parallel_items:
   role: question
 - speaker: 增田顺一
   original: Game Freak has been working on Pokémon for just over 20 years, so it knows what makes a good Pokémon at this point, but evolution tracks can still be tricky. One thing that happens a lot – well, not a lot – but happens sometimes, is that you start out with a cat, and when it evolves one easy idea is to say, 'Okay, now there's more heads'. We always want to make sure we think, 'Why does that happen?' And when it evolves why does it have three heads? So that's just something we're always trying to think of – what's the reason for what changes and how it looks? Even if I said I really wanted to make this three-headed cat, I would probably get shot down [laughs].
-  translation: Game Freak开发宝可梦已超过20年，因此它知道什么造就了一只优秀的宝可梦，但进化链仍然可能棘手。有一件事经常发生——好吧，不是经常——但有时会发生，就是你从一只猫开始，当它进化时，一个简单的想法是：‘好吧，现在有更多的头了’。我们总是想确保我们思考：‘为什么会发生这种情况？’以及它进化后为什么会有三个头？所以这是我们一直在思考的问题——变化的原因以及外观的缘由。即使我说我真的想制作这只三头猫，我大概也会被否决（笑）。
+  translation: "GAME FREAK开发宝可梦已超过20年，因此它知道什么造就了一只优秀的宝可梦，但进化链仍然可能棘手。有一件事经常发生——好吧，不是经常——但有时会发生，就是你从一只猫开始，当它进化时，一个简单的想法是：‘好吧，现在有更多的头了’。我们总是想确保我们思考：‘为什么会发生这种情况？’以及它进化后为什么会有三个头？所以这是我们一直在思考的问题——变化的原因以及外观的缘由。即使我说我真的想制作这只三头猫，我大概也会被否决（笑）。"
   role: answer
 - type: heading
   level: 3

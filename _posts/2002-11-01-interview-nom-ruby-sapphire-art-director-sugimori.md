@@ -21,7 +21,7 @@ parallel_items:
 - type: heading
   level: 2
   original: 1-2 アートディレクター・杉森建さんインタビュー
-  translation: 艺术总监杉森建专访：GBA硬件色彩跃进与怪兽设计的‘克制美学’
+  translation: "美术总监杉森建专访：GBA硬件色彩跃进与怪兽设计的‘克制美学’"
 - type: dialogue
   speaker: N.O.M采访者
   original: 杉森さんのお仕事の内容を教えて下さい。
@@ -30,7 +30,7 @@ parallel_items:
 - type: dialogue
   speaker: 杉森建
   original: 主にキャラクターの監修です。ゲームフリークには、自分もふくめてデザイナーが何人もいて、みんなでいろいろなアイディアを出しあいます。そうして生まれてきたデザインを私がチェックして、イメージをあわせていきます。
-  translation: 我主要负责全游戏角色的设计监修与统括。在Game Freak内部，包括我自己在内有多名设计师，大家会全员一起激荡出各种各样的怪兽点子。而我的工作就是把关这些新诞生的设计，统一视觉风格，让它们真正融合进宝可梦的世界。
+  translation: "我主要负责全游戏角色的设计监修与统括。在GAME FREAK内部，包括我自己在内有多名设计师，大家会全员一起激荡出各种各样的怪兽点子。而我的工作就是把关这些新诞生的设计，统一视觉风格，让它们真正融合进宝可梦的世界。"
   role: answer
 - type: dialogue
   speaker: N.O.M采访者

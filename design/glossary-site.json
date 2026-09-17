@@ -1,14 +1,28 @@
 {
- "note": "站内术语库：开发史料的词汇（人物、公司、部门、杂志、开发行话）——主术语表（游戏内名词）之外的那一层。entries 里 target 是站内统一写法，terms 是原文写法，variants 是要改掉的旧译法（glossary-audit.py fix 会替换）；auto: true 的条目是从语料里挖出来的既成惯例（share 是占比），review 里是译法不一、等人拍板的。import-nom.py 会把这份和主术语表一起喂给翻译。",
+ "note": "站内术语库：开发史料的词汇（人物、公司、部门、杂志、开发行话）——主术语表（游戏内名词）之外的那一层。entries 里 target 是站内统一写法，terms 是原文写法，variants 是要改掉的旧译法（glossary-audit.py fix 会替换）；scope.not 列出不适用的分类/标签/文件名片段，scope.unless 列出原文里标志例外的词；auto: true 的条目是从语料里挖出来的既成惯例（share 是占比），review 里是译法不一、等人拍板的（每次 seed 重新生成），context 里是决定依上下文、不强制统一的词；rejected 里是挖出来但人工剔除的词（seed 不再提出）。import-nom.py 会把 entries 和主术语表一起喂给翻译。",
  "entries": [
   {
    "category": "组织",
    "target": "GAME FREAK",
    "terms": [
     "株式会社ゲームフリーク",
-    "Game Freak"
+    "ゲームフリーク",
+    "Game Freak",
+    "GameFreak",
+    "Gamefreak"
    ],
-   "note": "站内正文统一大写 GAME FREAK；实体标注用 Game Freak"
+   "note": "站内正文统一大写 GAME FREAK，同人志《GAME FREAK》亦同（实体标注用 Game Freak）；语料 89% 已是 GAME FREAK",
+   "variants": [
+    "Game Freak",
+    "GameFreak",
+    "Gamefreak",
+    "Game freak"
+   ],
+   "evidence": {
+    "rows": 508,
+    "posts": 142,
+    "share": 0.89
+   }
   },
   {
    "category": "组织",
@@ -54,8 +68,32 @@
     "プロデューサー",
     "Producer"
    ],
-   "note": "游戏侧统一「制作人」；动画电影侧的 プロデューサー 可用「制片人」——待拍板",
-   "variants": []
+   "note": "游戏侧统一「制作人」；动画·电影侧（首藤手记、久保雅一、剧场版）保留「制片人」——scope 限定",
+   "variants": [
+    "制片人"
+   ],
+   "scope": {
+    "not": [
+     "动画秘辛",
+     "首藤刚志手记",
+     "宝可梦动画",
+     "剧场版",
+     "interview-hobonichi-2021-kubo",
+     "interview-nom-2000-kubo-masakazu",
+     "corocoro-coco",
+     "businesslawyers"
+    ],
+    "unless": [
+     "映画",
+     "アニメ",
+     "実写",
+     "映像",
+     "テレビ",
+     "ジブリ",
+     "劇場",
+     "洋画"
+    ]
+   }
   },
   {
    "category": "职务",
@@ -82,8 +120,10 @@
     "アートディレクター",
     "Art Director"
    ],
-   "note": "不用「艺术总监」——待拍板",
-   "variants": []
+   "note": "统一「美术总监」，不用「艺术总监」",
+   "variants": [
+    "艺术总监"
+   ]
   },
   {
    "category": "职务",
@@ -142,8 +182,15 @@
     "ドット",
     "ドット絵"
    ],
-   "note": "ドット絵→像素画；不用「点阵」——待拍板",
-   "variants": []
+   "note": "统一「像素」（ドット絵→像素图/像素画），不用「点阵」；ドットコード（卡牌点阵码）除外",
+   "variants": [
+    "点阵"
+   ],
+   "scope": {
+    "unless": [
+     "ドットコード"
+    ]
+   }
   },
   {
    "category": "开发",
@@ -151,17 +198,19 @@
    "terms": [
     "シナリオ"
    ],
-   "note": "剧本；「剧情」留给 ストーリー——待拍板",
-   "variants": []
-  },
-  {
-   "category": "开发",
-   "target": "场景",
-   "terms": [
-    "フィールド"
+   "note": "统一「剧本」；「剧情」留给 ストーリー——原文同时有 ストーリー/物語 的行、以及「シナリオモード」（剧情模式）不自动改",
+   "variants": [
+    "剧情脚本",
+    "剧情文本",
+    "剧情"
    ],
-   "note": "游戏里的 フィールド 用「场景」还是「场地/野外」——待拍板",
-   "variants": []
+   "scope": {
+    "unless": [
+     "ストーリー",
+     "物語",
+     "シナリオモード"
+    ]
+   }
   },
   {
    "category": "作品",
@@ -789,211 +838,11 @@
   },
   {
    "category": "人物",
-   "target": "玉田荘介",
-   "terms": [
-    "Sosuke Tamada",
-    "Sōsuke Tamada",
-    "Sousuke Tamada",
-    "たまだ そうすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "木梨玲",
-   "terms": [
-    "Akira Kinashi",
-    "Akira Kinashi*",
-    "きなし あきら"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "伊藤憲二郎",
-   "terms": [
-    "Kenijro Ito",
-    "Kenjiro Ito",
-    "Kenjirō Itō",
-    "Kenjiro Itō",
-    "Kenjirou Itou",
-    "いとう けんじろう",
-    "イトウ ケンジロウ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "大橋美紀子",
-   "terms": [
-    "Mikiko Oohashi",
-    "Mikiko Ohashi",
-    "Mikiko Ohhashi",
-    "Mikiko Ōhashi",
-    "Mikiko Ohashi*",
-    "おおはし みきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "藤原基史",
-   "terms": [
-    "Motofumi Fujiwara",
-    "Motofumi Fuziwara",
-    "Motofumi Fojiwara",
-    "ふじわら もとふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "松宮稔展",
-   "terms": [
-    "Toshinobu Matsumiya",
-    "まつみや としのぶ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "冨永兼司",
-   "terms": [
-    "Kenji Tominaga",
-    "とみなが けんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mikiko Ryu",
-   "terms": [
-    "りゅう みきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "福永晋",
-   "terms": [
-    "Sususmu Fukunaga",
-    "Susumu Fukunaga",
-    "ふくなが すすむ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kellyn Ballard",
-   "terms": [
-    "ケリン バラード"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "小堀俊介",
-   "terms": [
-    "Shunsuke Kohori",
-    "こほり しゅんすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Miyuki Iwasawa",
-   "terms": [
-    "いわさわ みゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "山上仁志",
-   "terms": [
-    "Hitoshi Yamagami",
-    "やまがみ ひとし",
-    "やまがみ ひろし",
-    "ヤマガミ ヒトシ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "大久保賢司",
-   "terms": [
-    "Kenji Okubo",
-    "おおくぼ けんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Teiko Sasaki",
-   "terms": [
-    "ささき ていこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Gaku Susai",
-   "terms": [
-    "すさい がく"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasuhiro Usui",
-   "terms": [
-    "うすい やすひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "宮原俊雄",
-   "terms": [
-    "Toshio Miyahara",
-    "みやはら としお",
-    "ミヤハラ トシオ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hisato Yamamori",
-   "terms": [
-    "やまもり ひさと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Hiro Nakamura*",
    "terms": [
     "Hiro Nakamura",
     "なかむら ひろき",
     "ひろ なかむら"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "下山田照幸",
-   "terms": [
-    "Teruyuki Shimoyamada",
-    "しもやまだ てるゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "田尻義雄",
-   "terms": [
-    "Yoshio Tajiri",
-    "たじり よしお"
    ],
    "source": "people.yml"
   },
@@ -1008,36 +857,10 @@
   },
   {
    "category": "人物",
-   "target": "Hiroyuki Nakamura",
-   "terms": [
-    "なかむら ひろゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Nozomu Saitō",
    "terms": [
     "Nozomu Saito",
     "さいとう のぞむ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "高橋友也",
-   "terms": [
-    "Tomoya Takahashi",
-    "たかはし ともや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Michiko Takizawa",
-   "terms": [
-    "たきざわ みちこ",
-    "タキザワ ミチコ"
    ],
    "source": "people.yml"
   },
@@ -1052,54 +875,10 @@
   },
   {
    "category": "人物",
-   "target": "Mitsuyo Matsunaga",
-   "terms": [
-    "まつなが みつよ",
-    "まつなが みちよ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "田中雅美",
-   "terms": [
-    "Masami Tanaka*",
-    "Masami Tanaka",
-    "たなか まさみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Motoki Nakajima",
-   "terms": [
-    "なかじま もとき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuki Okada",
-   "terms": [
-    "おかだ ゆうき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Shūhei Furukawa",
    "terms": [
     "Shuhei Furukawa",
     "ふるかわ しゅうへい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "二宮啓",
-   "terms": [
-    "Kei Ninomiya",
-    "にのみや けい"
    ],
    "source": "people.yml"
   },
@@ -1115,88 +894,11 @@
   },
   {
    "category": "人物",
-   "target": "小村知孝",
-   "terms": [
-    "Tomotaka Komura*",
-    "Tomotaka Komura",
-    "こむら ともたか",
-    "コムラ トモタカ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Marco Sartori",
-   "terms": [
-    "マルコ サルトーリ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daniel Heucher",
-   "terms": [
-    "ダニエル ホイヒャー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kathleen Kalms",
-   "terms": [
-    "カトレーン カルムス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Michael Ecke",
-   "terms": [
-    "ミヒャエル エッケ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "杉本敦司",
-   "terms": [
-    "Atsushi Sugimoto*",
-    "Atsushi Sugimoto",
-    "すぎもと あつし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Alberto Gracia Castellano",
-   "terms": [
-    "アルベルト グラシア カステヤノ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Enrique Joga Elvira",
-   "terms": [
-    "エンリケ ホガ エルヴィラ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "MiHwa Choi",
    "terms": [
     "Mihwa Choi",
     "Choi Mihwa",
     "チェ ミファ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nami Kusumoto",
-   "terms": [
-    "くすもと なみ"
    ],
    "source": "people.yml"
   },
@@ -1221,36 +923,10 @@
   },
   {
    "category": "人物",
-   "target": "野本岳志",
-   "terms": [
-    "Gakuji Nomoto",
-    "Gakuzi Nomoto",
-    "のもと がくじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Fabio Giusti",
-   "terms": [
-    "ファビオ ジュスティ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Joel Simon*",
    "terms": [
     "Joel Simon",
     "ジョエル サイモン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Manuela Suriano",
-   "terms": [
-    "マヌエラ スリアーノ"
    ],
    "source": "people.yml"
   },
@@ -1266,84 +942,10 @@
   },
   {
    "category": "人物",
-   "target": "Pierre Gauthier",
-   "terms": [
-    "ピエール ゴティエ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "野本烈志",
-   "terms": [
-    "Retsuji Nomoto",
-    "のもと れつじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Silvia de Bellis",
    "terms": [
     "Silvia De Bellis",
     "シルビヤ デ ベッリス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Guillaume Didier",
-   "terms": [
-    "ギヨーム ディディエ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Guido Scarabello",
-   "terms": [
-    "グイド スカラベッロ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Jeff Hines",
-   "terms": [
-    "ジェフ ハインズ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayu Todo",
-   "terms": [
-    "とうどう まゆ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sina Moelleken",
-   "terms": [
-    "ジーナ メレケン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Marvin Andrews",
-   "terms": [
-    "マーヴィン アンドリュース"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Alice Troiani",
-   "terms": [
-    "アリチェ トロイアニ",
-    "アリーチェ トロヤーニ"
    ],
    "source": "people.yml"
   },
@@ -1360,75 +962,10 @@
   },
   {
    "category": "人物",
-   "target": "Thomas Candland",
-   "terms": [
-    "トーマス キャンドランド"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Servando Doval Diaz",
    "terms": [
     "Servando Doval Díaz",
     "セルバンド ドバル ディアス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Jillian Nonaka",
-   "terms": [
-    "ジリアン のなか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kimiko Nakamichi",
-   "terms": [
-    "なかみち きみこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hyokjin Jung",
-   "terms": [
-    "ジョン ヒョクジン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "水谷恵",
-   "terms": [
-    "Megumi Mizutani",
-    "みずたに めぐみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shiho Haraguchi",
-   "terms": [
-    "はらぐち しほ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Blaise Selby",
-   "terms": [
-    "ブレイズ セルビー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Cyril Schultz",
-   "terms": [
-    "シリル シュールス"
    ],
    "source": "people.yml"
   },
@@ -1443,155 +980,11 @@
   },
   {
    "category": "人物",
-   "target": "Misuzu Kanayama",
-   "terms": [
-    "かなやま みすず"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Aymeric Forgit",
-   "terms": [
-    "エメリック フォージ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Kathy Huguenard*",
    "terms": [
     "Kathy Huguenard",
     "キャシー ヒュゲナード",
     "キャシー ヒューゲナード"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hideko Russell",
-   "terms": [
-    "ラッセル ひでこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Virginia Paradés Gurrea",
-   "terms": [
-    "ヴィルヒニア パラデス グレア"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Patrick Thorenz",
-   "terms": [
-    "パトリック トーレンツ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Maya Yoshida",
-   "terms": [
-    "よしだ まや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "江尾可奈子",
-   "terms": [
-    "Kanako Eo",
-    "えお かなこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Suirei Okata",
-   "terms": [
-    "おおかた すいれい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "曽我部仙史",
-   "terms": [
-    "Hisashi Sogabe",
-    "そがべ ひさし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuta Nakai",
-   "terms": [
-    "Yuuta Nakai",
-    "なかい ゆうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "渕野大樹",
-   "terms": [
-    "Hiroki Fuchino",
-    "ふちの ひろき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "林千尋",
-   "terms": [
-    "Chihiro Hayashi",
-    "はやし ちひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sachiko Nakamichi",
-   "terms": [
-    "なかみち さちこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sean Egan",
-   "terms": [
-    "ショーン イーガン",
-    "シーン イーガン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sayuri Munday",
-   "terms": [
-    "マンデー さゆり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "穴澤匡道",
-   "terms": [
-    "Masamichi Anazawa",
-    "あなざわ まさみち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Makiko Szolas",
-   "terms": [
-    "まきこ ゾラス",
-    "まさこ ゾラス"
    ],
    "source": "people.yml"
   },
@@ -1618,52 +1011,12 @@
   },
   {
    "category": "人物",
-   "target": "Keisuke Fukushima",
-   "terms": [
-    "ふくしま けいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "JaiBoem Lim",
    "terms": [
     "Jaiboem Lim",
     "Lim JaiBoem",
     "Lim Jaiboem",
     "イム ジェボム"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Francesca Serci",
-   "terms": [
-    "フランチェスカ セルチ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Christopher Derbort",
-   "terms": [
-    "クリストファー デルボート"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ireneusz Radko",
-   "terms": [
-    "イレネウッシュ ラトコ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Osamu Fujita",
-   "terms": [
-    "ふじた おさむ"
    ],
    "source": "people.yml"
   },
@@ -1697,55 +1050,11 @@
   },
   {
    "category": "人物",
-   "target": "Lylia Khrissate",
-   "terms": [
-    "リリア クリサット"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Yuuta Ogawa",
    "terms": [
     "Yuta Ogawa",
     "おがわ ゆうた",
     "オガワ ユウタ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Dongyeon Kim",
-   "terms": [
-    "キム ドンヨン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "太田敏",
-   "terms": [
-    "Satoshi Ohta",
-    "Satoshi Ōta",
-    "Satoshi Oota",
-    "Satoshi Ota",
-    "おおた さとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Eodo Lee",
-   "terms": [
-    "イ オド"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yoriomi Uego",
-   "terms": [
-    "うえごう よりおみ"
    ],
    "source": "people.yml"
   },
@@ -1761,95 +1070,10 @@
   },
   {
    "category": "人物",
-   "target": "大野克己",
-   "terms": [
-    "Katsumi Ōno",
-    "Katsumi Ono",
-    "Katsumi Ohno",
-    "おおの かつみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "安藤絵美",
-   "terms": [
-    "Emi Ando",
-    "あんどう えみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "李ヒョンジョン",
-   "terms": [
-    "Lee HyunJung",
-    "HyonJyon Lee",
-    "Hyunjung Lee",
-    "HyunJung Lee",
-    "リ ヒョンジョン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nagaaki Fukase",
-   "terms": [
-    "ふかせ ながあき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nobuhiko Ariizumi",
-   "terms": [
-    "ありいずみ のぶひこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "名木橋徹",
-   "terms": [
-    "Tōru Nagihashi",
-    "Toru Nagihashi",
-    "なぎはし とおる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "一楽克彦",
-   "terms": [
-    "Katsuhiko Ichiraku",
-    "いちらく かつひこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "鶴宏明",
-   "terms": [
-    "Hiroaki Tsuru",
-    "つる ひろあき",
-    "ツル ヒロアキ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Tomoko Mikami*",
    "terms": [
     "Tomoko Mikami",
     "みかみ ともこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Claudia Thon",
-   "terms": [
-    "クラウディア トーン"
    ],
    "source": "people.yml"
   },
@@ -1873,178 +1097,10 @@
   },
   {
    "category": "人物",
-   "target": "Owen Preece",
-   "terms": [
-    "オーエン プリース"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "曽羽孝則",
-   "terms": [
-    "Takanori Sowa",
-    "そわ たかのり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "古賀次郎",
-   "terms": [
-    "Jirou Koga",
-    "Jiro Koga",
-    "Jirō Koga",
-    "こが じろう",
-    "こが じろうう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shoichi Obora",
-   "terms": [
-    "おおぼら しょういち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nob Ogasawara",
-   "terms": [
-    "Nob Ogasawara*",
-    "Nob OgasawaraNA, EU",
-    "Nob OgasawaraNA"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Chungte Huang",
-   "terms": [
-    "こう しゅとく",
-    "うん せい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuki Tanikawa",
-   "terms": [
-    "Yuuki Tanikawa",
-    "Yūki Tanikawa",
-    "たにかわ ゆうき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Altan Couvert",
-   "terms": [
-    "アルタン クーベール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rachel Payne",
-   "terms": [
-    "レイチェル ペイン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Noriko Nakagawa",
-   "terms": [
-    "なかがわ のりこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mary Rayes",
-   "terms": [
-    "マリー レイズ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Dan Stephens",
-   "terms": [
-    "ダン スティーブンス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Xu Ming",
    "terms": [
     "Ming Xu",
     "きょ めい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "外山健吉",
-   "terms": [
-    "Kenchi Toyama",
-    "Kenkichi Toyama",
-    "とやま けんきち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takuya Inoue",
-   "terms": [
-    "いのうえ たくや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "山本裕輝",
-   "terms": [
-    "Yuki Yamamoto",
-    "やまもと ゆうき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "とみさわ昭仁",
-   "terms": [
-    "Akihito Tomisawa",
-    "とみさわ あきひと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "藤原麻衣子",
-   "terms": [
-    "Maiko Fujiwara",
-    "ふじわら まいこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "ありがひとし",
-   "terms": [
-    "Hitoshi Ariga",
-    "ありが ひとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Makoto Takebe",
-   "terms": [
-    "たけべ まこと"
    ],
    "source": "people.yml"
   },
@@ -2060,43 +1116,10 @@
   },
   {
    "category": "人物",
-   "target": "Eric Medalle",
-   "terms": [
-    "エリック メダリエ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kaori Aoki",
-   "terms": [
-    "あおき かおり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kentaro Nishimura",
-   "terms": [
-    "Kentarō Nishimura",
-    "にしむら けんたろう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Tōru Inage",
    "terms": [
     "Toru Inage",
     "いなげ とおる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ritsuko Oshu",
-   "terms": [
-    "おうしゅう りつこ"
    ],
    "source": "people.yml"
   },
@@ -2112,69 +1135,10 @@
   },
   {
    "category": "人物",
-   "target": "Robert Colling",
-   "terms": [
-    "ロバート コリング",
-    "ロバート コーリング"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Barbara Schweinzer",
-   "terms": [
-    "バーバラ シュワインツァー",
-    "バーバラ シュヴァインツァー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Irene Mascaro Genestar",
    "terms": [
     "Irene Mascaró Genestar",
     "イレネ マスカロ ジェネスタル"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Valentina Menale",
-   "terms": [
-    "ヴァレンティーナ メナーレ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Annarita Spera",
-   "terms": [
-    "アンナリータ スペーラ",
-    "アンナリタ スペラ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Guendalina Pirruccio",
-   "terms": [
-    "グエンダリーナ ピッルッチョ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Marco Locatelli",
-   "terms": [
-    "マルコ ロカテッリ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroki Fujiwara",
-   "terms": [
-    "ふじわら ひろき"
    ],
    "source": "people.yml"
   },
@@ -2198,149 +1162,10 @@
   },
   {
    "category": "人物",
-   "target": "古川俊太郎",
-   "terms": [
-    "Shuntaro Furukawa",
-    "ふるかわ しゅんたろう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Violette Giang",
-   "terms": [
-    "ヴィオレット ジアン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takafumi Misawa",
-   "terms": [
-    "みさわ たかふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hannah Vassallo",
-   "terms": [
-    "ハナ ヴァサーロ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Matthieu Béthencourt",
-   "terms": [
-    "マテュー ベタンクール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rei Nakazawa",
-   "terms": [
-    "レイ なかざわ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasuko Takahashi",
-   "terms": [
-    "たかはし やすこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "吉川玲奈",
-   "terms": [
-    "Rena Yoshikawa",
-    "よしかわ れな"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Shawn Williams-brown",
    "terms": [
     "Shawn Williams-Brown",
     "ショーン ウィリアムズ ブラウン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Makiko Wakai",
-   "terms": [
-    "わかい まきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Pablo Gismero Calvo",
-   "terms": [
-    "パブロ ヒスメロ カルボ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kyoungim Na",
-   "terms": [
-    "ナ ギョンイム",
-    "パク ユンジン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rei Haberberg",
-   "terms": [
-    "レイ ハバーバーグ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Toshio Mukai",
-   "terms": [
-    "むかい としお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rie Tatsuno",
-   "terms": [
-    "たつの りえ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Soonil Kim",
-   "terms": [
-    "キム スンイル"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Chisato Fujita",
-   "terms": [
-    "ふじた ちさと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tomomi Sakuma",
-   "terms": [
-    "さくま ともみ"
    ],
    "source": "people.yml"
   },
@@ -2355,38 +1180,6 @@
   },
   {
    "category": "人物",
-   "target": "Tsuyoshi Ichikawa",
-   "terms": [
-    "いちかわ つよし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Keita Kagaya",
-   "terms": [
-    "かがや けいた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yoshinori Matsuda",
-   "terms": [
-    "まつだ よしのり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tadashi Takahashi",
-   "terms": [
-    "たかはし ただし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Emi Endō",
    "terms": [
     "Emi Endo",
@@ -2396,189 +1189,10 @@
   },
   {
    "category": "人物",
-   "target": "斉藤優史",
-   "terms": [
-    "Masafumi Saitō",
-    "Masafumi Saito",
-    "さいとう まさふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Koji Kawada",
-   "terms": [
-    "Kōji Kawada",
-    "かわだ こうじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kazuki Muroi",
-   "terms": [
-    "むろい かずき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "吉川麻由花",
-   "terms": [
-    "Mayuka Yoshikawa",
-    "よしかわ まゆか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Megumi Miyagawa",
-   "terms": [
-    "みやがわ めぐみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mitsuhiro Ariga",
-   "terms": [
-    "ありが みつひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Bertrand Lecocq",
-   "terms": [
-    "ベルトラン ルコック"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "澤邉信博",
-   "terms": [
-    "Nobuhiro Sawabe",
-    "さわべ のぶひろ",
-    "サワベ ノブヒロ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kiyomi Itani",
-   "terms": [
-    "いたに きよみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masayasu Nakata",
-   "terms": [
-    "なかた まさやす"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tadasu Hasegawa",
-   "terms": [
-    "はせがわ ただす"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rie Fujiwara",
-   "terms": [
-    "ふじわら りえ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasunori Suenaga",
-   "terms": [
-    "すえなが やすのり",
-    "スエナガ ヤスノリ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "三間雅文",
-   "terms": [
-    "Masafumi Mima",
-    "みま まさふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ben Howard-Hale",
-   "terms": [
-    "ベン ハワード ヘイル"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "DongUn Pak",
    "terms": [
     "Dongun Pak",
     "パク ドンウン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daniele Albrito",
-   "terms": [
-    "ダニエーレ アルブリト",
-    "ダニエーレ アルブリート"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "さくまたかし",
-   "terms": [
-    "Takashi Sakuma",
-    "さくま たかし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Alina Linnenweber",
-   "terms": [
-    "アリーナ リネンウェーバ",
-    "アリーナ リネンヴェーバ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Peter Bagley",
-   "terms": [
-    "ピーター バグリー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sophie Jüterbock",
-   "terms": [
-    "ソフィー ユータボック"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sho Yoshimoto",
-   "terms": [
-    "よしもと しょう"
    ],
    "source": "people.yml"
   },
@@ -2602,93 +1216,10 @@
   },
   {
    "category": "人物",
-   "target": "上井伸",
-   "terms": [
-    "Shin Uwai",
-    "うわい しん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Marco Gruden",
-   "terms": [
-    "マルコ グルデン",
-    "マルコ グルーデン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kyohei Minato",
-   "terms": [
-    "みなと きょうへい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Alicia Iribarren Mendoza",
-   "terms": [
-    "アリシア イリバーレン メンドサ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Carolin Maibach",
-   "terms": [
-    "カロリン マイバッハ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Juan Jose Leiva Jimenez",
    "terms": [
     "Juan José Leiva Jiménez",
     "フアン ホセ レイバ ヒメネス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masafumi Sugiyama",
-   "terms": [
-    "すぎやま まさふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Jacopo Vanin",
-   "terms": [
-    "ヤコポ ヴァニン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sergio Bianchi",
-   "terms": [
-    "セルジョ  ビャンキ",
-    "セルジョ ビャンキ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sira Vaterhaus",
-   "terms": [
-    "ジーラ ファータハウス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiromichi Hidaka",
-   "terms": [
-    "ひだか ひろみち"
    ],
    "source": "people.yml"
   },
@@ -2712,58 +1243,10 @@
   },
   {
    "category": "人物",
-   "target": "Yuriko Iwasaki",
-   "terms": [
-    "いわさき ゆりこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Edith Belarra Lopez",
    "terms": [
     "Edith Belarra López",
     "イディス べララ ロペズ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Elodie Verpoort",
-   "terms": [
-    "エロディ ヴェルポール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Julia Ryer",
-   "terms": [
-    "ジュリア ライヤー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nicolas Sindres",
-   "terms": [
-    "ニコラ サンドレス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yoriko Marusich",
-   "terms": [
-    "よりこ マルシチ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Diego Figaredo",
-   "terms": [
-    "ディエゴ フィガレド"
    ],
    "source": "people.yml"
   },
@@ -2778,31 +1261,6 @@
   },
   {
    "category": "人物",
-   "target": "Koichiro Wakamatsu",
-   "terms": [
-    "Kouichiro Wakamatsu",
-    "わかまつ こういちろう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Noritaka Otsuka",
-   "terms": [
-    "おおつか のりたか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shohei Furuta",
-   "terms": [
-    "ふるた しょうへい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Sinnosuke Miki",
    "terms": [
     "Shinnosuke Miki",
@@ -2812,371 +1270,9 @@
   },
   {
    "category": "人物",
-   "target": "Yohei Asaoka",
-   "terms": [
-    "あさおか ようへい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "前田咲子",
-   "terms": [
-    "Sakiko Maeda",
-    "まえだ さきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hideki Iwata",
-   "terms": [
-    "いわた ひでき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kei Setoguchi",
-   "terms": [
-    "せとぐち けい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ayane Morita",
-   "terms": [
-    "もりた あやね"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "阿部杏子",
-   "terms": [
-    "Kyoko Abe",
-    "あべ きょうこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "遠藤憲司",
-   "terms": [
-    "Kenji Endo",
-    "えんどう けんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "太田智道",
-   "terms": [
-    "Tomomichi Ohta",
-    "Tomomichi Oota",
-    "おおた ともみち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "つるたさや",
-   "terms": [
-    "Saya Tsuruta",
-    "つるた さや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hironori Ichibayashi",
-   "terms": [
-    "いちばやし ひろのり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Akira Nakamura",
-   "terms": [
-    "なかむら あきら"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "伊藤博人",
-   "terms": [
-    "Hiroto Ito",
-    "Hiroto Itō",
-    "いとう ひろと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Siyoung An",
-   "terms": [
-    "アン シヨン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Junya Ikuta",
-   "terms": [
-    "いくた じゅんや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "栃木遥",
-   "terms": [
-    "Haruka Tochigi",
-    "とちぎ はるか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masanori Kanamaru",
-   "terms": [
-    "かなまる まさのり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Toshimitsu Arai",
-   "terms": [
-    "あらい としみつ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yosuke Uematsu",
-   "terms": [
-    "うえまつ ようすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuya Fukushima",
-   "terms": [
-    "ふくしま ゆうや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "橘高文美恵",
-   "terms": [
-    "Fumie Kittaka",
-    "きったか ふみえ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Fumiya Takahashi",
-   "terms": [
-    "たかはし ふみや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hitoshi Okamoto",
-   "terms": [
-    "おかもと ひとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kai Munakata",
-   "terms": [
-    "むなかた かい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yutan Cheng",
-   "terms": [
-    "てい うたん",
-    "チェン ユタン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "橋本美咲",
-   "terms": [
-    "Misaki Hashimoto",
-    "はしもと みさき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shinya Goto",
-   "terms": [
-    "ごとう しんや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "金子智美",
-   "terms": [
-    "Tomomi Kaneko",
-    "かねこ ともみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tomoya Kanehira",
-   "terms": [
-    "かねひら ともや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rui Kawaguchi",
-   "terms": [
-    "かわぐち るい",
-    "カワグチ ルイ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ryoko Sawabe",
-   "terms": [
-    "さわべ りょうこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Eva Rodríguez Graña",
-   "terms": [
-    "Eva Rodriguez Grana",
-    "エヴァ ロドリゲス グラニャ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "山内溥",
-   "terms": [
-    "Hiroshi Yamauchi",
-    "やまうち ひろし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "三津原敏",
-   "terms": [
-    "Satoshi Mitsuhara",
-    "みつはら さとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Junko Tamura",
-   "terms": [
-    "たむら じゅんこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Laurence Uhlen",
-   "terms": [
-    "ロランス ウーレン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Michael Bales",
-   "terms": [
-    "マイケル ベールス"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Thomas Hertzog*",
    "terms": [
     "Thomas Hertzog"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hideaki Araki",
-   "terms": [
-    "あらき ひであき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tom Hertzog",
-   "terms": [
-    "トム ハーツォグ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Juliana Niederwanger",
-   "terms": [
-    "ユリアーナ ニーダヴァンガ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Jooyeon Han",
-   "terms": [
-    "ハン ジュウヨン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ahmed Bounouar",
-   "terms": [
-    "アメッド ブノアール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "畠祐貴",
-   "terms": [
-    "Masataka Hata",
-    "はた まさたか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Olivia Bonnal",
-   "terms": [
-    "オリビア ボナル"
    ],
    "source": "people.yml"
   },
@@ -3193,23 +1289,6 @@
   },
   {
    "category": "人物",
-   "target": "Endai Liao",
-   "terms": [
-    "りょう おんだい",
-    "よう かんじょ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kendra Evans",
-   "terms": [
-    "ケンドラ エヴァンズ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Nobuyuki Ota",
    "terms": [
     "Nobuyuki Ohta",
@@ -3219,44 +1298,9 @@
   },
   {
    "category": "人物",
-   "target": "野中豊和",
-   "terms": [
-    "Toyokazu Nonaka",
-    "のなか とよかず"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Daniel Schäfers*",
    "terms": [
     "Daniel Schäfers"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "斉藤むねお",
-   "terms": [
-    "Muneo Saitō",
-    "Muneo Saito",
-    "さいとう むねお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nobue Ito",
-   "terms": [
-    "いとう のぶえ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Suguru Fukaya",
-   "terms": [
-    "ふかや すぐる"
    ],
    "source": "people.yml"
   },
@@ -3280,34 +1324,9 @@
   },
   {
    "category": "人物",
-   "target": "Misa Matsumoto",
-   "terms": [
-    "まつもと みさ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Andrea Salvi*",
    "terms": [
     "Andrea Salvi"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mikihiro Ishikawa",
-   "terms": [
-    "いしかわ みきひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "吉原一期",
-   "terms": [
-    "Kazuki Yoshihara",
-    "よしはら かずき"
    ],
    "source": "people.yml"
   },
@@ -3331,123 +1350,6 @@
   },
   {
    "category": "人物",
-   "target": "Takahiro Kumasaka",
-   "terms": [
-    "くまさか たかひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sebastian Jende",
-   "terms": [
-    "ゼバスティアン イェンゲ",
-    "ゼバスティアン イェンデ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Bryan Olsson",
-   "terms": [
-    "ブライアン オルソン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hitomi Suzuki",
-   "terms": [
-    "すずき ひとみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Izumi Watanabe",
-   "terms": [
-    "わたなべ いずみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Jackson Pietsch",
-   "terms": [
-    "ジャクソン ピーチ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Leslie Gambini",
-   "terms": [
-    "レスリー ガンビニ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "岩下明日香",
-   "terms": [
-    "Asuka Iwashita",
-    "いわした あすか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "奥谷順",
-   "terms": [
-    "Jun Okutani",
-    "おくたに じゅん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Noriko Nakao",
-   "terms": [
-    "なかお のりこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sarah Provost",
-   "terms": [
-    "サラ プロボスト",
-    "サラ プロヴォ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "増田武",
-   "terms": [
-    "Takeshi Masuda",
-    "ますだ たけし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yi Peng",
-   "terms": [
-    "ほう いち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mark Pedini",
-   "terms": [
-    "マーク ペディーニ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Noemie Pradier",
    "terms": [
     "Noémie Pradier",
@@ -3466,31 +1368,6 @@
   },
   {
    "category": "人物",
-   "target": "Thomas Garel",
-   "terms": [
-    "トマ ガレール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yencheng Lin",
-   "terms": [
-    "りん えんじょう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takashi Orikata",
-   "terms": [
-    "おりかた たかし",
-    "オリカタ タカシ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Shin Kōsaka",
    "terms": [
     "Shin Kosaka",
@@ -3501,224 +1378,10 @@
   },
   {
    "category": "人物",
-   "target": "Mai Takano",
-   "terms": [
-    "たかの まい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Derk Bramer",
-   "terms": [
-    "ダーク ブレイマー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroki Togashi",
-   "terms": [
-    "とがし ひろき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sachiko Hamano",
-   "terms": [
-    "はまの さちこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "野原悟史",
-   "terms": [
-    "Satoshi Nohara",
-    "のはら さとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "北風友裕",
-   "terms": [
-    "Tomohiro Kitakaze",
-    "きたかぜ ともひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "寺地惇",
-   "terms": [
-    "Atsushi Terachi",
-    "てらち あつし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takahiro Koizumi",
-   "terms": [
-    "こいずみ たかひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "成定優",
-   "terms": [
-    "Yu Narisada",
-    "なりさだ ゆう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kojiro Matsuyama",
-   "terms": [
-    "まつやま こうじろう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shinji Tamano",
-   "terms": [
-    "たまの しんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Akira Takayama",
-   "terms": [
-    "たかやま あきら"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "久我絵理佳",
-   "terms": [
-    "Erika Kuga",
-    "くが えりか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroshi Nakagomi",
-   "terms": [
-    "なかごみ ひろし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hitomi Imaizumi",
-   "terms": [
-    "いまいずみ ひとみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kuni Furukubo",
-   "terms": [
-    "ふるくぼ くに"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ryota Muranaka",
-   "terms": [
-    "むらなか りょうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sawako Okada",
-   "terms": [
-    "おかだ さわこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yu Muto",
-   "terms": [
-    "むとう ゆう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuya Watanabe",
-   "terms": [
-    "わたなべ ゆうや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Isao Kakuuchi",
-   "terms": [
-    "かくうち いさお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Huang Tzu En",
    "terms": [
     "Tzuen Huang",
     "こう しおん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Miyuki Ebizuka",
-   "terms": [
-    "えびづか みゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ryota Takeuchi",
-   "terms": [
-    "たけうち りょうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tomohiro Kuroiwa",
-   "terms": [
-    "くろいわ ともひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Seimi Ohshiro",
-   "terms": [
-    "おおしろ せいみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ryosuke Hanawa",
-   "terms": [
-    "はなわ りょうすけ",
-    "ハナワ リョウスケ"
    ],
    "source": "people.yml"
   },
@@ -3752,101 +1415,11 @@
   },
   {
    "category": "人物",
-   "target": "Eric Haddock",
-   "terms": [
-    "エリック ハドック"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Michaël Hugot*",
    "terms": [
     "Michaël Hugot",
     "Michael Hugot",
     "ミカエル ユーゴ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Makiko Cottrell",
-   "terms": [
-    "コットレル まきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Miku Majima",
-   "terms": [
-    "まじま みく"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Chris Franc",
-   "terms": [
-    "クリス フランク"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Minyu Hsu",
-   "terms": [
-    "しゅう みんゆう",
-    "クロエ ジャオ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Akiko Kasugayama",
-   "terms": [
-    "かすがやま あきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Keiko Mochida",
-   "terms": [
-    "もちだ けいこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "出石武宏",
-   "terms": [
-    "Takehiro Izushi",
-    "いずし たけひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kindra Timmerwilke",
-   "terms": [
-    "キンドラ ティマーウィルキー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kayo Nakata",
-   "terms": [
-    "なかた かよ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Lauren Ammerman",
-   "terms": [
-    "ローレン アママン"
    ],
    "source": "people.yml"
   },
@@ -3871,50 +1444,10 @@
   },
   {
    "category": "人物",
-   "target": "Bryson Clark",
-   "terms": [
-    "ブライソン クラーク"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Akiko Soma",
-   "terms": [
-    "そうま あきこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Alison Chyan",
-   "terms": [
-    "アリソン チャン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kaoru Otawara",
-   "terms": [
-    "おおたわら かおる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Jun ITO",
    "terms": [
     "Jun Ito",
     "いとう じゅん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kris Copeland",
-   "terms": [
-    "クリス コープランド"
    ],
    "source": "people.yml"
   },
@@ -3929,87 +1462,6 @@
   },
   {
    "category": "人物",
-   "target": "Ryosuke Kurosaki",
-   "terms": [
-    "くろさき りょうすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Lina Emmerich",
-   "terms": [
-    "リナ エメリッヒ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "川口孝司",
-   "terms": [
-    "Takashi Kawaguchi",
-    "かわぐち たかし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Antoin Johnson",
-   "terms": [
-    "アントアン ジョンソン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Atsushi Watanabe",
-   "terms": [
-    "わたなべ あつし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasuko Motoki",
-   "terms": [
-    "もとき やすこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takashi Koyama",
-   "terms": [
-    "こやま たかし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Veronica Casi",
-   "terms": [
-    "ヴェローニカ カジ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kirk Buchanan",
-   "terms": [
-    "カーク ブキャナン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Junpei Matsuzaki",
-   "terms": [
-    "まつざき じゅんぺい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Umemura Eiju",
    "terms": [
     "Eiju Umemura",
@@ -4019,100 +1471,10 @@
   },
   {
    "category": "人物",
-   "target": "Caroline Fest",
-   "terms": [
-    "カロリン フェスト"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Naoko Yanase",
-   "terms": [
-    "やなせ なおこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masayuki Soga",
-   "terms": [
-    "そが まさゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kenji Yanagisawa",
-   "terms": [
-    "やなぎさわ けんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Michaela Koch",
-   "terms": [
-    "ミヒャエラ コッホ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yue Wang",
-   "terms": [
-    "おう やく",
-    "ワン ユエ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Miyuki Matsunaga",
-   "terms": [
-    "まつなが みゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "谷口輝雄",
-   "terms": [
-    "Teruo Taniguchi",
-    "たにぐち てるお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Natsumi Inoue",
-   "terms": [
-    "いのうえ なつみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Sung Jinyoung",
    "terms": [
     "Jinyoung Sung",
     "ソン ジンヨン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Inseon Song",
-   "terms": [
-    "ソン インソン"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kazuto Shimizu",
-   "terms": [
-    "しみず かずと"
    ],
    "source": "people.yml"
   },
@@ -4128,405 +1490,10 @@
   },
   {
    "category": "人物",
-   "target": "Hayato Endo",
-   "terms": [
-    "えんどう はやと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ai Matsumura",
-   "terms": [
-    "まつむら あい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Asuka Yamato",
-   "terms": [
-    "やまと あすか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Maria Yoda",
-   "terms": [
-    "よだ まりあ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Terry Mihashi",
-   "terms": [
-    "みはし テリー"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Hiroshi Akune*",
    "terms": [
     "Hiroshi Akune",
     "あくね ひろし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takeshi Tamura",
-   "terms": [
-    "たむら たけし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Haruka Sunaga",
-   "terms": [
-    "すなが はるか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "大久保智彦",
-   "terms": [
-    "Tomohiko Ookubo",
-    "Tomohiko Ohkubo",
-    "おおくぼ ともひこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Youko Nakayama",
-   "terms": [
-    "Yōko Nakayama",
-    "なかやま ようこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nana Wakabayashi",
-   "terms": [
-    "わかばやし なな"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takeshi Sakamoto",
-   "terms": [
-    "さかもと たけし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masateru Ishiguro",
-   "terms": [
-    "いしぐろ まさてる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Miho Murata",
-   "terms": [
-    "むらた みほ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Aoi Inaba",
-   "terms": [
-    "いなば あおい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daiki Sato",
-   "terms": [
-    "さと だいき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Huiming Hu",
-   "terms": [
-    "こ けいめい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Lutz Ohl",
-   "terms": [
-    "ルッツ オール"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayumi Shigeno",
-   "terms": [
-    "しげの まゆみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Morihiko Kiryu",
-   "terms": [
-    "きりゅう もりひこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yayun Ling",
-   "terms": [
-    "りょう がいん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yoshikazu Kojima",
-   "terms": [
-    "こじま よしかず"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shinichi Kawazoe",
-   "terms": [
-    "かわぞえ しんいち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ayaka Yamazaki",
-   "terms": [
-    "やまざき あやか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Haruka Nakamura",
-   "terms": [
-    "なかむら はるか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Naoki Sugawara",
-   "terms": [
-    "すがわら なおき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rei Murayama",
-   "terms": [
-    "むらやま れい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Akira Katsuta",
-   "terms": [
-    "かつた あきら"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Asami Nogi",
-   "terms": [
-    "のぎ あさみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Aya Nishimura",
-   "terms": [
-    "にしむら あや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Chiharu Minowa",
-   "terms": [
-    "みのわ ちはる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daisuke Inoue",
-   "terms": [
-    "いのうえ だいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroka Hamamoto",
-   "terms": [
-    "はまもと ひろか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroki Mogami",
-   "terms": [
-    "もがみ ひろき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kaori Tsujimura",
-   "terms": [
-    "つじむら かおり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kazuki Kitamura",
-   "terms": [
-    "きたむら かずき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kotono Kunishima",
-   "terms": [
-    "くにしま ことの"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayu Kobayashi",
-   "terms": [
-    "こばやし まゆ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayu Okutani",
-   "terms": [
-    "おくたに まゆ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nozomi Toda",
-   "terms": [
-    "とだ のぞみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Raichi Ihara",
-   "terms": [
-    "いはら らいち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sayaka Kutsuma",
-   "terms": [
-    "くつま さやか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shun Onodera",
-   "terms": [
-    "おのでら しゅん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takuto Takabe",
-   "terms": [
-    "たかべ たくと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tatsuto Konno",
-   "terms": [
-    "こんの たつと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tomoko Araki",
-   "terms": [
-    "あらき ともこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Wakana Kajimoto",
-   "terms": [
-    "かじもと わかな"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yoshihisa Ogino",
-   "terms": [
-    "おぎの よしひさ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuki Yoneya",
-   "terms": [
-    "よねや ゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nanae Tabata",
-   "terms": [
-    "たばた ななえ"
    ],
    "source": "people.yml"
   },
@@ -4537,152 +1504,6 @@
     "Tatsuya Hashida",
     "Tatsuya Hishida",
     "ひしだ たつや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "植松俊介",
-   "terms": [
-    "Shunsuke Uematsu",
-    "うえまつ しゅんすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tetsuya Nakajima",
-   "terms": [
-    "なかじま てつや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mari Hamada",
-   "terms": [
-    "はまだ まり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "貫田将文",
-   "terms": [
-    "Masafumi Nukita",
-    "ぬきた まさふみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Junsei Kuninobu",
-   "terms": [
-    "くにのぶ じゅんせい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Syo Araki",
-   "terms": [
-    "あらき しょう"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hitomi Ogawa",
-   "terms": [
-    "おがわ ひとみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kota Furushima",
-   "terms": [
-    "ふるしま こうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Momoka Takasu",
-   "terms": [
-    "たかす ももか"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroaki Ishige",
-   "terms": [
-    "いしげ ひろあき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Sumire Aoki",
-   "terms": [
-    "あおき すみれ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Takuya Kawakami",
-   "terms": [
-    "かわかみ たくや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Haruki Tachihara",
-   "terms": [
-    "たちはら はるき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masashi Koseki",
-   "terms": [
-    "こせき まさし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayu Suzuki",
-   "terms": [
-    "すずき まゆ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Nobuyuki Miura",
-   "terms": [
-    "みうら のぶゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ota Sano",
-   "terms": [
-    "さの おうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasuki Shinohara",
-   "terms": [
-    "しのはら やすき"
    ],
    "source": "people.yml"
   },
@@ -4713,251 +1534,9 @@
   },
   {
    "category": "人物",
-   "target": "Shinya Saito",
-   "terms": [
-    "さいとう しんや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Noriko Uono",
-   "terms": [
-    "うおの のりこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hideyo Isayama",
-   "terms": [
-    "いさやま ひでよ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Futoshi Kajita",
-   "terms": [
-    "かじた ふとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuichi Murase",
-   "terms": [
-    "むらせ ゆういち"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kota Yamashita",
-   "terms": [
-    "やました こうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masaya Suzuki",
-   "terms": [
-    "すずき まさや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Mayu Narahara",
-   "terms": [
-    "ならはら まゆ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tatsuya Makita",
-   "terms": [
-    "まきた たつや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuji Ashikawa",
-   "terms": [
-    "あしかわ ゆうじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuri Yoshizumi",
-   "terms": [
-    "よしずみ ゆり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Maiko Shindo",
-   "terms": [
-    "しんどう まいこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "君島達己",
-   "terms": [
-    "Tatsumi Kimishima",
-    "Tatsumi Kimishima*"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daisuke Nakamura",
-   "terms": [
-    "なかむら だいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Yufuko Saito",
    "terms": [
     "さいとう ゆふこ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yasunori Isari",
-   "terms": [
-    "いさり やすのり"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "田島梓",
-   "terms": [
-    "Azusa Tajima",
-    "たじま あずさ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "植田祐一",
-   "terms": [
-    "Yuichi Ueda"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Atsushi Imura",
-   "terms": [
-    "いむら あつし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masayuki Kawabata",
-   "terms": [
-    "かわばた まさゆき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shota Moriguchi",
-   "terms": [
-    "もりぐち しょうた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroki Shintani",
-   "terms": [
-    "しんたに ひろき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kanta Koshiba",
-   "terms": [
-    "こしば かんた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Keisuke Kamataki",
-   "terms": [
-    "かまたき けいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shiho Fukunaga",
-   "terms": [
-    "ふくなが しほ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shun Yamashita",
-   "terms": [
-    "やました しゅん"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Toshiaki Haruna",
-   "terms": [
-    "はるな としあき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuji Kurogi",
-   "terms": [
-    "くろぎ ゆうじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Yuma Takada",
-   "terms": [
-    "たかだ ゆうま"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Chisato Tazawa",
-   "terms": [
-    "たざわ ちさと"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hiroyuki Yoshii",
-   "terms": [
-    "よしい ひろゆき"
    ],
    "source": "people.yml"
   },
@@ -4990,46 +1569,10 @@
   },
   {
    "category": "人物",
-   "target": "大和聡",
-   "terms": [
-    "Satoshi Yamato",
-    "やまと さとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "清水隆雄",
-   "terms": [
-    "Takae Shimizu",
-    "Takao Shimizu",
-    "しみず たかお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Toru Osawa",
-   "terms": [
-    "Tōru Ōsawa",
-    "おおさわ とおる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "かわぐちやすひろ",
    "terms": [
     "Yasuhiro Kawaguchi",
     "かわぐち やすひろ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "星野正昭",
-   "terms": [
-    "Masaaki Hoshino"
    ],
    "source": "people.yml"
   },
@@ -5052,145 +1595,9 @@
   },
   {
    "category": "人物",
-   "target": "Masaru Shimomura",
-   "terms": [
-    "しもむら まさる"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hisanao Suzuki",
-   "terms": [
-    "すずき ひさなお"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
    "target": "Shiniya Takahashi",
    "terms": [
     "たかはし しんや"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Ai Kihara",
-   "terms": [
-    "きはら あい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daiki Tanaka",
-   "terms": [
-    "たなか だいき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kensaku Sanda",
-   "terms": [
-    "さんだ けんさく"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Shinji Kato",
-   "terms": [
-    "かとう しんじ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Toshiki Uchiage",
-   "terms": [
-    "うちあげ としき"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kei Takeuchi",
-   "terms": [
-    "たけうち けい"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Kenta Suguru",
-   "terms": [
-    "すぐる けんた"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Daisuke Makino",
-   "terms": [
-    "まきの だいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Hitomi Shoda",
-   "terms": [
-    "しょうだ ひとみ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Keisuke Murata",
-   "terms": [
-    "むらた けいすけ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masamu Ishizuki",
-   "terms": [
-    "いしづき まさむ"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Masashi Kida",
-   "terms": [
-    "きだ まさし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Rena Oba",
-   "terms": [
-    "おおば れな"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Satoshi Baba",
-   "terms": [
-    "ばば さとし"
-   ],
-   "source": "people.yml"
-  },
-  {
-   "category": "人物",
-   "target": "Tatsuhiro Joudan",
-   "terms": [
-    "じょうだん たつひろ"
    ],
    "source": "people.yml"
   },
@@ -6004,19 +2411,6 @@
   },
   {
    "category": "corpus",
-   "target": "GAME FREAK",
-   "terms": [
-    "ゲームフリーク"
-   ],
-   "evidence": {
-    "rows": 508,
-    "posts": 142,
-    "share": 0.89
-   },
-   "auto": true
-  },
-  {
-   "category": "corpus",
    "target": "角色",
    "terms": [
     "キャラ"
@@ -6222,74 +2616,27 @@
     "share": 0.88
    },
    "auto": true
+  },
+  {
+   "category": "开发",
+   "target": "品质",
+   "terms": [
+    "クオリティ",
+    "クォリティ"
+   ],
+   "note": "统一「品质」，不用「质量」",
+   "variants": [
+    "质量"
+   ],
+   "scope": {
+    "unless": [
+     "質量",
+     "重さ"
+    ]
+   }
   }
  ],
  "review": [
-  {
-   "term": "ディレクター",
-   "renderings": {
-    "总监": 129,
-    "增田": 50,
-    "担任": 47,
-    "GAME FREAK": 38
-   },
-   "known": null,
-   "posts": 75,
-   "examples": [
-    "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-    "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2002-11-01-interview-nom-ruby-sapphire-director-masuda"
-   ]
-  },
-  {
-   "term": "プロデューサー",
-   "renderings": {
-    "制作": 87,
-    "制作人": 75,
-    "制片": 60,
-    "制片人": 52
-   },
-   "known": null,
-   "posts": 63,
-   "examples": [
-    "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world",
-    "2001-11-01-interview-nom-2001-pokemon-card-e-creatures"
-   ]
-  },
-  {
-   "term": "イベント",
-   "renderings": {
-    "活动": 54,
-    "事件": 34
-   },
-   "known": null,
-   "posts": 59,
-   "examples": [
-    "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
-    "2003-08-01-interview-nom-2003-pokemon-channel-staff",
-    "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
-    "2009-09-18-interview-dengeki-hgss-shigeki-morimoto"
-   ]
-  },
-  {
-   "term": "グラフィック",
-   "renderings": {
-    "图形": 35,
-    "画面": 31,
-    "表现": 21
-   },
-   "known": null,
-   "posts": 50,
-   "examples": [
-    "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-    "1999-12-01-scan-gs-guidebook-1999-developer-interview",
-    "2000-07-01-interview-nom-genesis-gamefreak",
-    "2000-07-01-interview-nom-gold-silver-gamefreak"
-   ]
-  },
   {
    "term": "ホワイト",
    "renderings": {
@@ -6318,21 +2665,6 @@
     "2000-07-01-interview-nom-gold-silver-gamefreak",
     "2001-11-01-interview-nom-2001-pokemon-card-e-creatures",
     "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world"
-   ]
-  },
-  {
-   "term": "ニンテンドー",
-   "renderings": {
-    "任天堂": 83,
-    "任天堂3": 36
-   },
-   "known": null,
-   "posts": 47,
-   "examples": [
-    "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
-    "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
-    "2006-11-01-continue-vol31-aoi-yu-pikachu",
-    "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king"
    ]
   },
   {
@@ -6399,21 +2731,6 @@
    ]
   },
   {
-   "term": "シナリオ",
-   "renderings": {
-    "剧本": 53,
-    "剧情": 35
-   },
-   "known": null,
-   "posts": 40,
-   "examples": [
-    "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2000-07-01-interview-nom-genesis-gamefreak",
-    "2000-07-01-interview-nom-gold-silver-gamefreak"
-   ]
-  },
-  {
    "term": "メイン",
    "renderings": {
     "主要": 24,
@@ -6426,21 +2743,6 @@
     "1999-12-01-interview-web-dawn-pokemon-gold-silver",
     "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
     "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn"
-   ]
-  },
-  {
-   "term": "フィールド",
-   "renderings": {
-    "场景": 21,
-    "场地": 19
-   },
-   "known": null,
-   "posts": 38,
-   "examples": [
-    "2000-07-01-interview-nom-genesis-gamefreak",
-    "2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base",
-    "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
-    "2010-09-10-interview-iwata-asks-bw-chapter-3-expanding-play-communication"
    ]
   },
   {
@@ -6554,21 +2856,6 @@
    ]
   },
   {
-   "term": "クリーチャーズ",
-   "renderings": {
-    "Creatures": 118,
-    "公司": 37
-   },
-   "known": null,
-   "posts": 29,
-   "examples": [
-    "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit",
-    "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
-    "2001-11-01-interview-nom-2001-ishihara-tsunekazu-pokemon-world",
-    "2001-11-01-interview-nom-2001-pokemon-card-e-creatures"
-   ]
-  },
-  {
    "term": "ロケット",
    "renderings": {
     "火箭队": 88,
@@ -6604,21 +2891,6 @@
    ]
   },
   {
-   "term": "プランナー",
-   "renderings": {
-    "策划": 88,
-    "程序员": 25
-   },
-   "known": null,
-   "posts": 29,
-   "examples": [
-    "2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex",
-    "2011-03-21-scan-ndream-2011-05-ohmura-character-making",
-    "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-characters",
-    "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview"
-   ]
-  },
-  {
    "term": "アメリカ",
    "renderings": {
     "美国": 51,
@@ -6631,55 +2903,6 @@
     "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
     "2003-11-01-interview-nom-2003-pokemon-colosseum-staff",
     "2009-02-04-interview-takeshi-shudo-pokemon-memoir-ch174"
-   ]
-  },
-  {
-   "term": "クオリティ",
-   "renderings": {
-    "品质": 20,
-    "质量": 9
-   },
-   "known": null,
-   "posts": 27,
-   "examples": [
-    "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
-    "2010-05-12-interview-wedge-ishihara-pokemon-disney",
-    "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii",
-    "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination"
-   ]
-  },
-  {
-   "term": "プログラマ",
-   "renderings": {
-    "程序员": 50,
-    "技术": 21,
-    "公司": 19,
-    "研发": 17,
-    "GAME FREAK": 15
-   },
-   "known": null,
-   "posts": 26,
-   "examples": [
-    "2000-07-01-interview-nom-genesis-gamefreak",
-    "2000-07-01-interview-nom-gold-silver-gamefreak",
-    "2014-08-22-interview-niconico-gamefreak-origins-masuda",
-    "2015-09-01-interview-gamefreak-rnd-launch-taya-mi"
-   ]
-  },
-  {
-   "term": "ルビー・サファイア",
-   "renderings": {
-    "红宝石": 40,
-    "蓝宝石": 40,
-    "红宝石·蓝宝石": 33
-   },
-   "known": null,
-   "posts": 25,
-   "examples": [
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2002-11-01-interview-nom-ruby-sapphire-director-masuda",
-    "2002-11-01-interview-nom-ruby-sapphire-multi-battle-secret-base",
-    "2009-09-18-interview-dengeki-hgss-shigeki-morimoto"
    ]
   },
   {
@@ -6730,23 +2953,6 @@
     "1999-12-01-interview-web-dawn-pokemon-gold-silver",
     "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
     "2000-07-01-interview-nom-genesis-gamefreak"
-   ]
-  },
-  {
-   "term": "ドット",
-   "renderings": {
-    "像素": 31,
-    "点阵": 26,
-    "点阵图": 16,
-    "像素画": 15
-   },
-   "known": null,
-   "posts": 24,
-   "examples": [
-    "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-    "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal",
-    "2001-11-01-interview-nom-2001-pokemon-card-e-creatures",
-    "2008-08-21-scan-ndream-2008-10-tajiri-famicom-25th"
    ]
   },
   {
@@ -6815,21 +3021,6 @@
    ]
   },
   {
-   "term": "グッズ",
-   "renderings": {
-    "周边": 28,
-    "商品": 11
-   },
-   "known": null,
-   "posts": 23,
-   "examples": [
-    "1999-12-01-scan-gs-guidebook-1999-staff-zukan-journal",
-    "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
-    "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit",
-    "2000-07-01-interview-nom-gold-silver-gamefreak"
-   ]
-  },
-  {
    "term": "アプリ",
    "renderings": {
     "应用": 35,
@@ -6891,37 +3082,6 @@
     "1997-10-16-interview-gamefreak-official-red-green-staff",
     "2000-06-01-interview-nom-2000-kubo-masakazu-pokemon-hit",
     "2008-11-12-interview-takeshi-shudo-pokemon-memoir-ch163"
-   ]
-  },
-  {
-   "term": "グラフィックデザイナー",
-   "renderings": {
-    "设计师": 36,
-    "图形设计师": 30
-   },
-   "known": null,
-   "posts": 22,
-   "examples": [
-    "1996-04-05-scan-shodai-zukan-1996-staff-interview",
-    "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world",
-    "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
-    "2010-11-20-scan-ndream-2011-01-bw-design-secrets"
-   ]
-  },
-  {
-   "term": "インターネット",
-   "renderings": {
-    "互联网": 35,
-    "网上": 11,
-    "网络": 11
-   },
-   "known": null,
-   "posts": 22,
-   "examples": [
-    "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
-    "1997-10-16-interview-gamefreak-official-red-green-staff",
-    "1999-12-01-interview-web-dawn-pokemon-gold-silver",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi"
    ]
   },
   {
@@ -7068,24 +3228,6 @@
    ]
   },
   {
-   "term": "アートディレクター",
-   "renderings": {
-    "术总监": 33,
-    "艺术总监": 28,
-    "负责": 12,
-    "GAME FREAK": 11,
-    "杉森": 10
-   },
-   "known": null,
-   "posts": 21,
-   "examples": [
-    "2000-07-01-interview-nom-gold-silver-gamefreak",
-    "2006-10-01-interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori",
-    "2006-10-01-interview-nom-dp-ishihara-masuda-sugimori",
-    "2010-10-15-scan-dengeki-games-vol14-bw-gamefreak-interview"
-   ]
-  },
-  {
    "term": "プラットフォーム",
    "renderings": {
     "平台": 19,
@@ -7101,22 +3243,6 @@
     "2001-11-01-interview-nom-2001-pokemon-card-e-creatures",
     "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds",
     "2010-11-20-interview-steinberg-gamefreak-sound-cubase"
-   ]
-  },
-  {
-   "term": "サン・ムーン",
-   "renderings": {
-    "月亮": 65,
-    "太阳": 65,
-    "太阳·月亮": 28
-   },
-   "known": null,
-   "posts": 21,
-   "examples": [
-    "2016-09-06-interview-pokemoncojp-2016-ohmori-sm",
-    "2017-06-01-interview-gamefreak-rnd-ta-taya-kk",
-    "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
-    "2017-07-10-interview-cgworld-pokemon-sun-moon-3d-pipeline"
    ]
   },
   {
@@ -7679,21 +3805,6 @@
    ]
   },
   {
-   "term": "ネット",
-   "renderings": {
-    "网络": 38,
-    "网络上": 24
-   },
-   "known": null,
-   "posts": 16,
-   "examples": [
-    "1999-12-01-interview-web-dawn-pokemon-gold-silver",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn",
-    "2003-08-01-interview-nom-2003-pokemon-channel-staff"
-   ]
-  },
-  {
    "term": "プロダクト",
    "renderings": {
     "产品": 25,
@@ -8030,23 +4141,6 @@
    ]
   },
   {
-   "term": "スカーレット・バイオレット",
-   "renderings": {
-    "朱·紫": 28,
-    "环境": 13,
-    "阿尔宙斯": 12,
-    "202": 12
-   },
-   "known": null,
-   "posts": 15,
-   "examples": [
-    "2021-12-27-interview-gamefreak-crosstalk-programmer",
-    "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
-    "2022-08-27-interview-famitsu-sv-arceus-cedec2022-shader-pipeline",
-    "2023-04-19-interview-cgworld-2023-sv-making-1"
-   ]
-  },
-  {
    "term": "ヒント",
    "renderings": {
     "提示": 7,
@@ -8059,22 +4153,6 @@
     "1997-10-16-interview-gamefreak-official-red-green-staff",
     "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
     "2010-09-21-scan-ndream-2010-11-five-regions-guide"
-   ]
-  },
-  {
-   "term": "ニンドリ",
-   "renderings": {
-    "Nintendo DREAM": 10,
-    "Nindori": 9,
-    "读者": 8
-   },
-   "known": null,
-   "posts": 14,
-   "examples": [
-    "1997-05-23-interview-famimaga-tajiri-pokemon2-secret",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2010-09-21-scan-ndream-2010-11-five-regions-guide",
-    "2010-11-20-scan-ndream-2011-01-bw-sound-gakkyoku-damashii"
    ]
   },
   {
@@ -8567,21 +4645,6 @@
     "2010-11-01-interview-nintendo-joshi-daisei-bw-kiritani-masuda",
     "2011-03-21-scan-ndream-2011-05-bw-design-secrets-ex",
     "2011-05-21-scan-ndream-bw-tanjou-hiwa-2011-pokemon"
-   ]
-  },
-  {
-   "term": "ネットワーク",
-   "renderings": {
-    "网络": 23,
-    "增加": 6
-   },
-   "known": null,
-   "posts": 12,
-   "examples": [
-    "1997-10-16-interview-gamefreak-official-red-green-staff",
-    "1999-12-01-interview-web-dawn-pokemon-gold-silver",
-    "2000-01-01-interview-2000-01-01-sunanohi-pokemon-game-kaigi",
-    "2000-05-01-interview-2000-05-01-kakeru-pokemon-site-dawn"
    ]
   },
   {
@@ -9823,23 +5886,6 @@
    ]
   },
   {
-   "term": "グラフィックス",
-   "renderings": {
-    "图形": 9,
-    "画面": 6,
-    "方面": 5,
-    "渲染": 4
-   },
-   "known": null,
-   "posts": 10,
-   "examples": [
-    "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
-    "2013-11-01-interview-gamefreak-recruit-programmer-tt-mi",
-    "2014-07-02-interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto",
-    "2017-07-10-interview-cgworld-creatures-cg-studio"
-   ]
-  },
-  {
    "term": "フレーム",
    "renderings": {
     "玩家": 5,
@@ -9892,6 +5938,25 @@
     "2015-10-01-interview-gamefreak-recruit-programmers",
     "2017-03-01-interview-gamefreak-gear-gigawrecker",
     "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage"
+   ]
+  },
+  {
+   "term": "Take",
+   "renderings": {
+    "增田顺": 8,
+    "白金": 8,
+    "河内": 8,
+    "粒子物理": 6,
+    "桥梁": 6,
+    "河内丸武": 5
+   },
+   "known": "竹",
+   "posts": 9,
+   "examples": [
+    "2004-05-13-interview-2004-05-13-ign-e3-2004-pokemon-creators",
+    "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru",
+    "2009-04-01-interview-nintendo-power-masuda-gens-1-4",
+    "2009-05-01-interview-nintendo-power-masuda-kawachimaru-platinum-gens"
    ]
   },
   {
@@ -11657,5 +7722,103 @@
     "2017-09-05-interview-gigazine-gamefreak-sketches-masuda"
    ]
   }
+ ],
+ "context": [
+  {
+   "term": "フィールド",
+   "renderings": [
+    "场景",
+    "场地"
+   ],
+   "note": "依上下文，两者皆可"
+  },
+  {
+   "term": "イベント",
+   "renderings": [
+    "活动",
+    "事件"
+   ],
+   "note": "现实活动 / 游戏内事件，依上下文"
+  },
+  {
+   "term": "グラフィック",
+   "renderings": [
+    "图形",
+    "画面"
+   ],
+   "note": "依上下文"
+  },
+  {
+   "term": "グラフィックス",
+   "renderings": [
+    "图形",
+    "画面"
+   ],
+   "note": "依上下文"
+  },
+  {
+   "term": "グッズ",
+   "renderings": [
+    "周边",
+    "商品"
+   ],
+   "note": "依上下文"
+  },
+  {
+   "term": "インターネット",
+   "renderings": [
+    "互联网",
+    "网络"
+   ],
+   "note": "依上下文"
+  },
+  {
+   "term": "ネット",
+   "renderings": [
+    "网络",
+    "网上"
+   ],
+   "note": "依上下文"
+  },
+  {
+   "term": "ネットワーク",
+   "renderings": [
+    "网络"
+   ],
+   "note": "依上下文"
+  }
+ ],
+ "rejected": [
+  "アニメスタイル",
+  "ウワサ",
+  "カエル",
+  "キュート",
+  "コンプレックス",
+  "ゴージャス",
+  "サウンドディレクター",
+  "サラリーマン",
+  "シームレス",
+  "ジョイント",
+  "スタンダード",
+  "タクシー",
+  "チョイス",
+  "デモシーン",
+  "ナゲキ",
+  "ハイエンド",
+  "ハワイ",
+  "バトルシステム",
+  "フィールドマップ",
+  "ブレンド",
+  "プリンセス",
+  "ホラー",
+  "ポケモンセンター・ポケモンストア",
+  "ポケモンレンジャー",
+  "マスターアップ",
+  "モバイルゲーム",
+  "ヨッシー",
+  "ヨーロッパ",
+  "ランダム",
+  "レストラン",
+  "ロジカル"
  ]
 }

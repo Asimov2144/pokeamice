@@ -56,7 +56,7 @@ parallel_items:
   image: /assets/img/interviews/2011-03-05-interview-1up-black-white-how-pokemon-get-made/001.jpg
   alt: Tsutaja, Pokabu, Mijumaru
 - original: When Ken Sugimori first started Game Freak in the early '80s, it was nothing but a video-game fanzine he co-created with his pal Satoshi Tajiri. Now he's the main 2D art director on the Pokemon series, and Tajiri is famous worldwide as the man that not only gave Nintendo a billion-dollar franchise, but almost singlehandedly saved the Game Boy from irrelevancy at one point.
-  translation: 杉森建在80年代初刚创办Game Freak时，那不过是他和好友田尻智共同制作的一本电子游戏同人志。如今他是宝可梦系列的首席2D艺术总监，而田尻智则闻名世界，他不仅为任天堂带来了价值数十亿美元的特许经营品牌，还曾几乎凭一己之力让Game Boy免于被时代淘汰。
+  translation: "杉森建在80年代初刚创办GAME FREAK时，那不过是他和好友田尻智共同制作的一本电子游戏同人志。如今他是宝可梦系列的首席2D艺术总监，而田尻智则闻名世界，他不仅为任天堂带来了价值数十亿美元的特许经营品牌，还曾几乎凭一己之力让Game Boy免于被时代淘汰。"
   note: 杉森建与田尻智是Game Freak的联合创始人，田尻智是宝可梦的创造者。
 - original: One would think, therefore, that the monster design process for Pokemon Black and White was a regimental, heavily overseen affair. Not so. "There's about 17 people in our design team, and generally what happens is they each draw their own Pokemon and then they get discussed over group meetings," he told Famitsu magazine this week. "We didn't have a very long development cycle with this game, so I had a lot of one-on-one time with each designer."
   translation: 因此，人们可能会认为《宝可梦 黑／白》的怪物设计过程是严格管控、层层监督的。事实并非如此。他本周对《Fami通》杂志说：“我们的设计团队大约有17人，通常的情况是每个人各自画出自己的宝可梦，然后在小组会议上讨论。这款游戏的开发周期不是很长，所以我和每位设计师都有很多一对一的时间。”
@@ -70,7 +70,7 @@ parallel_items:
   alt: 莱希拉姆与捷克罗姆
   caption: 杉森建亲自执笔的封面传说的宝可梦：真实之龙莱希拉姆与理想之龙捷克罗姆
 - original: The designs for the three starter Pokemon in Black and White, meanwhile, were handled by younger staff at Game Freak. Pokabu, the Fire-type pig shown above, was conceived by Korean graphic designer Lee Hyun-Jung, who's mostly handled art for the Pokemon Trading Card Game up to now. "The original idea with Pokabu was to have a Pokemon that figuratively looked 'cute enough to eat' at the start, but would eventually evolve to the point where it'd wind up eating you instead," Lee told Famitsu. "Also, I read somewhere once that pigs wallow in mud because otherwise they have trouble regulating their body temperature, so I thought it'd be amusing if it shot fire out of its snout to do that instead."
-  translation: 与此同时，《黑／白》中三只初始宝可梦的设计由Game Freak的年轻员工负责。上图中火属性的猪宝可梦暖暖猪，是由韩国平面设计师李贤贞构思的，她此前主要负责宝可梦集换式卡牌游戏的美术工作。李贤贞对《Fami通》说：“暖暖猪最初的想法是，一开始看起来‘可爱到可以吃’，但最终会进化到反过来吃掉你的程度。另外，我曾读到过猪在泥里打滚是因为不这样做就难以调节体温，所以我想如果它用鼻子喷火来调节体温会很有趣。”
+  translation: "与此同时，《黑／白》中三只初始宝可梦的设计由GAME FREAK的年轻员工负责。上图中火属性的猪宝可梦暖暖猪，是由韩国平面设计师李贤贞构思的，她此前主要负责宝可梦集换式卡牌游戏的美术工作。李贤贞对《Fami通》说：“暖暖猪最初的想法是，一开始看起来‘可爱到可以吃’，但最终会进化到反过来吃掉你的程度。另外，我曾读到过猪在泥里打滚是因为不这样做就难以调节体温，所以我想如果它用鼻子喷火来调节体温会很有趣。”"
   note: 暖暖猪的英文名为Tepig。
 - type: image
   image: /assets/img/interviews/2011-03-05-interview-1up-black-white-how-pokemon-get-made/starters.jpg

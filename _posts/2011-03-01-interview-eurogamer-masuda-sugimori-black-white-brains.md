@@ -52,7 +52,7 @@ parallel_items:
   translation: 合众黎明的幕后心智：独家专访增田顺一与杉森建（156只全新宝可梦、黑白对立叙事与全球直译变革）
 - speaker: ''
   original: It is one of the best-selling game franchises in human history, a Nintendo behemoth with truly global appeal. And yet we know so little about the minds that power Pokémon. They come from Japan, of course, but, more specifically, they come from a Japanese game developer called Game Freak – someone European journalists are rarely allowed to speak with in person. Ahead of the European launch of Pokémon Black and Pokémon White, director Junichi Masuda and legendary art director Ken Sugimori sat down to reveal the creative philosophy driving this monumental overhaul.
-  translation: 这是人类历史上最畅销的游戏系列之一，一个真正具有全球吸引力的任天堂巨头。然而，我们对驱动宝可梦的头脑知之甚少。他们当然来自日本，但更具体地说，他们来自一家名为 Game Freak 的日本游戏开发商——欧洲记者很少有机会与其面对面交流。在《宝可梦 黑》和《宝可梦 白》欧洲发售前夕，总监增田顺一和传奇艺术总监杉森建坐下来，揭示了推动这次重大革新的创作理念。
+  translation: "这是人类历史上最畅销的游戏系列之一，一个真正具有全球吸引力的任天堂巨头。然而，我们对驱动宝可梦的头脑知之甚少。他们当然来自日本，但更具体地说，他们来自一家名为 GAME FREAK 的日本游戏开发商——欧洲记者很少有机会与其面对面交流。在《宝可梦 黑》和《宝可梦 白》欧洲发售前夕，总监增田顺一和传奇艺术总监杉森建坐下来，揭示了推动这次重大革新的创作理念。"
 - type: heading
   level: 3
   original: 'The Strategy of Blank Canvas: 156 Brand New Pokémon and Recreating the Wonder of Red & Blue'

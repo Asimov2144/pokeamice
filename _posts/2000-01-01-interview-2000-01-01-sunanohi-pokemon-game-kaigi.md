@@ -281,7 +281,7 @@ parallel_items:
   role: question
 - type: paragraph
   original: シナリオは前作の続きになるの?　内容はどうなる?
-  translation: 剧情会是前作的延续吗？内容会如何发展？
+  translation: "剧本会是前作的延续吗？内容会如何发展？"
   speaker: 提问
   role: question
 - type: paragraph

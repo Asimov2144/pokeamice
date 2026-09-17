@@ -372,7 +372,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: Art Directorアートディレクター
-    translation: Art Director 艺术总监
+    translation: "Art Director 美术总监"
   - speaker: caption
     type: paragraph
     kind: text
@@ -382,7 +382,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: 杉森 建デザイン全体の統括、2Dアートディレクターとしてマップ以外の部分も担当。好きなポケモンは“ゼクロム”
-    translation: 杉森 建：统筹整体设计，作为2D艺术总监也负责地图以外的部分。喜欢的宝可梦是“捷克罗姆”。
+    translation: "杉森 建：统筹整体设计，作为2D美术总监也负责地图以外的部分。喜欢的宝可梦是“捷克罗姆”。"
   - speaker: caption
     type: paragraph
     kind: text
@@ -1082,7 +1082,7 @@ translation_segments:
     scan_page: 3
     review_status: review
     original: ▲ポケモンのデザイン作業について、さまざまな苦労を語るアートディレクターの杉森氏（右）。本作のポケモンは、ポケモンからの派生としてデザインしているのではなく『ポケモン赤・緑』のときと同じものなどをモチーフにしたという。
-    translation: ▲艺术总监杉森先生（右）讲述宝可梦设计工作中的种种辛苦。本作的宝可梦并非作为宝可梦的派生来设计，而是以与《宝可梦 红·绿》时相同的事物等为主题。
+    translation: "▲美术总监杉森先生（右）讲述宝可梦设计工作中的种种辛苦。本作的宝可梦并非作为宝可梦的派生来设计，而是以与《宝可梦 红·绿》时相同的事物等为主题。"
   - speaker: 游戏与Web联动“宝可梦梦境世界”
     type: heading
     kind: text

@@ -30,7 +30,7 @@ intro: '2013年秋天，在《宝可梦 X／Y》即将于任天堂3DS平台全�
 parallel_items:
 - type: narrative
   original: We had the pleasure to sit down with some of the minds behind Pokémon X and Y. We recently got to talk with Hironobu Yoshida, Chief Designer at Game Freak on Pokémon X and Y and Junichi Masuda, Director at Game Freak for Pokémon X and Y about their next work and 3DS debut, Pokémon X and Y. Topics of conversation included Mega Evolutions, Pokémon Snap, Masuda's favorite Pokémon, and some of the new battle mechanics. For the inside information on the new Pokémon games from the creators themselves, read on!
-  translation: 我们有幸与《宝可梦 X／Y》背后的几位核心创作者进行了交流。最近，我们与Game Freak的首席设计师吉田宏信以及《宝可梦 X／Y》总监增田顺一进行了对话，讨论了他们的新作以及3DS平台首秀《宝可梦 X／Y》。话题涵盖了超级进化（Mega Evolution）、《宝可梦随乐拍》、增田最喜欢的宝可梦，以及一些新的对战机制。想了解来自创作者本人关于新宝可梦游戏的内幕信息，请继续阅读！
+  translation: "我们有幸与《宝可梦 X／Y》背后的几位核心创作者进行了交流。最近，我们与GAME FREAK的首席设计师吉田宏信以及《宝可梦 X／Y》总监增田顺一进行了对话，讨论了他们的新作以及3DS平台首秀《宝可梦 X／Y》。话题涵盖了超级进化（Mega Evolution）、《宝可梦随乐拍》、增田最喜欢的宝可梦，以及一些新的对战机制。想了解来自创作者本人关于新宝可梦游戏的内幕信息，请继续阅读！"
 - type: image
   src: /assets/img/interviews/2013-10-04-interview-nwr-xy-masuda-yoshida/01_hero_masuda_yoshida_nwr.jpg
   alt: 增田顺一与吉田宏信接受 Nintendo World Report 专访
@@ -46,7 +46,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Not just as someone from Game Freak, but as someone who works on the Pokémon brand, I think we’re always challenging ourselves to try new things and I also feel that, like Pokémon Conquest, there are a lot of possibilities that have yet to be realized. We’re always trying new things, trying to surprise our players and allow them to have quite a bit of fun with the games. There will be further announcements as time goes on.
-  translation: 不仅仅是作为Game Freak的一员，而是作为从事宝可梦品牌工作的人，我认为我们一直在挑战自己尝试新事物，我也觉得，就像《宝可梦+织田信长之野望》一样，还有许多可能性尚未实现。我们总是在尝试新事物，试图给玩家带来惊喜，让他们在游戏中获得相当多的乐趣。随着时间的推移，会有更多的公告发布。
+  translation: "不仅仅是作为GAME FREAK的一员，而是作为从事宝可梦品牌工作的人，我认为我们一直在挑战自己尝试新事物，我也觉得，就像《宝可梦+织田信长之野望》一样，还有许多可能性尚未实现。我们总是在尝试新事物，试图给玩家带来惊喜，让他们在游戏中获得相当多的乐趣。随着时间的推移，会有更多的公告发布。"
   role: answer
 - type: dialogue
   speaker: NWR
@@ -56,7 +56,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: In Red and Blue not only did I create all the songs in the game, I also worked on the programming and a variety of other tasks. After I started working as the director, it was really about the desire to focus on my role as director and with each game I created fewer and fewer songs. However, with that said, we have a sound team at Game Freak and they always ask me to create the battle music for the games because they feel that it’s very difficult to keep that distinctive style when it’s not me that’s making it. So this time, in Pokémon X and Y, I did the wild Pokémon battle music, trainer battle music, Gym Leader battle music and Elite Four battle music. But with each game the amount of songs I do definitely is fewer and fewer.
-  translation: 在《宝可梦 红／蓝》中，我不仅创作了游戏中的所有歌曲，还参与了编程和其他各种任务。当我开始担任总监后，我真正想要的是专注于总监的职责，因此随着每一款游戏的推出，我创作的歌曲越来越少。然而，尽管如此，我们在Game Freak有一个音效团队，他们总是请我创作游戏中的战斗音乐，因为他们觉得如果不是我来做，很难保持那种独特的风格。所以这次在《宝可梦 X／Y》中，我创作了野生宝可梦战斗音乐、训练家战斗音乐、道馆馆主战斗音乐和四天王战斗音乐。但随着每一款游戏的推出，我创作的歌曲数量确实越来越少。
+  translation: "在《宝可梦 红／蓝》中，我不仅创作了游戏中的所有歌曲，还参与了编程和其他各种任务。当我开始担任总监后，我真正想要的是专注于总监的职责，因此随着每一款游戏的推出，我创作的歌曲越来越少。然而，尽管如此，我们在GAME FREAK有一个音效团队，他们总是请我创作游戏中的战斗音乐，因为他们觉得如果不是我来做，很难保持那种独特的风格。所以这次在《宝可梦 X／Y》中，我创作了野生宝可梦战斗音乐、训练家战斗音乐、道馆馆主战斗音乐和四天王战斗音乐。但随着每一款游戏的推出，我创作的歌曲数量确实越来越少。"
   role: answer
 - type: dialogue
   speaker: NWR
@@ -100,7 +100,7 @@ parallel_items:
   speaker: 增田顺一
   original: Every time at Game Freak, especially this time with Pokémon X and Y since we’ve added a new type for the first time in over ten years, we spent a lot of time and had a lot of people at Game Freak working on the battle balance spending their entire days look at all the combinations, doing a lot of experimentation and coming up with what we thought would be the perfect balance. We also have a lot of competitions within our company and players constantly playing and adjusting the balance as needed until we get to where we think is just right. Of course there is a limit to what we can do with our resources at Game Freak. So every time we release a game there’s always players making new discoveries and we’re surprised at some of the combinations people come up with. This time with Pokémon X and Y we feel that we got it right with probably the perfect balance. But of course, we’re not going to know until the games are released. That’s why I’m really excited to see the World Championships
     in 2014. See just what kinds of strategies players have. I think if we see a wide variety of Pokémon being used we’ll consider ourselves successful.
-  translation: 在Game Freak，每一次——尤其是这次《宝可梦 X／Y》，因为这是我们十多年来首次新增属性——我们都投入了大量时间，许多Game Freak的员工整天专注于对战平衡的调整，研究所有可能的组合，进行大量实验，力求找到我们认为最完美的平衡。我们公司内部也会举办很多比赛，玩家们不断对战并根据需要调整平衡，直到我们觉得恰到好处为止。当然，以Game Freak的资源来说，我们能做的终究有限。所以每次游戏发售后，玩家们总会有新发现，他们想出的某些组合常常让我们感到惊讶。这次《宝可梦 X／Y》我们觉得应该做对了，可能达到了完美的平衡。但当然，在游戏正式发售之前我们无法确定。正因如此，我非常期待2014年的世界锦标赛，想看看玩家们会用什么策略。如果我们能看到丰富多样的宝可梦被使用，我们就会认为自己成功了。
+  translation: "在GAME FREAK，每一次——尤其是这次《宝可梦 X／Y》，因为这是我们十多年来首次新增属性——我们都投入了大量时间，许多GAME FREAK的员工整天专注于对战平衡的调整，研究所有可能的组合，进行大量实验，力求找到我们认为最完美的平衡。我们公司内部也会举办很多比赛，玩家们不断对战并根据需要调整平衡，直到我们觉得恰到好处为止。当然，以GAME FREAK的资源来说，我们能做的终究有限。所以每次游戏发售后，玩家们总会有新发现，他们想出的某些组合常常让我们感到惊讶。这次《宝可梦 X／Y》我们觉得应该做对了，可能达到了完美的平衡。但当然，在游戏正式发售之前我们无法确定。正因如此，我非常期待2014年的世界锦标赛，想看看玩家们会用什么策略。如果我们能看到丰富多样的宝可梦被使用，我们就会认为自己成功了。"
   role: answer
 - type: dialogue
   original: 'NWR: On average how many Pokémon designs get thrown out over the development of the game? Have any rejected designs come back in subsequent generations and if so, which ones? Hironobu Yoshida (HY): With each game we are always working with a different theme with the Pokémon for the generation. And the designers themselves, depending on the time, they’ll have different things they’re passionate about and different things they want to try. Although we come up with ten times the amount of ideas for Pokémon that make it into a game, even the ones that get rejected don’t typically come back in future games because we’re trying new things and match the theme of the new game. The things we’re passionate about are different than they were in the past. Also, in terms of the design process, even once an idea is selected, even from that point the design changes quite a bit since it takes about six months to a year to finalize a Pokémon design.'
@@ -116,7 +116,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Not really speaking as Game Freak, but as part of the Pokémon brand, at the Pokémon Brand we’re always challenging ourselves to try new things, to come up with new ways to surprise our fans and come up with new ways to play the game. So with Pokémon Snap I don’t think doing the exact same thing on Wii U would be the right way to go. We’d really have to come up with some new ideas to make it surprising and interesting for the players. If we were able to do that, then yes, I think we’d have something to announce.
-  translation: 严格来说，并非以Game Freak的身份，而是作为宝可梦品牌的一部分，在宝可梦品牌下，我们始终挑战自我，尝试新事物，想出新方法来给粉丝带来惊喜，探索新的游戏玩法。因此，对于《宝可梦随乐拍》，我认为在Wii U上简单复刻并不是正确的方向。我们确实需要提出一些新创意，让游戏对玩家来说既惊喜又有趣。如果我们能做到这一点，那么是的，我想我们会有消息要宣布。
+  translation: "严格来说，并非以GAME FREAK的身份，而是作为宝可梦品牌的一部分，在宝可梦品牌下，我们始终挑战自我，尝试新事物，想出新方法来给粉丝带来惊喜，探索新的游戏玩法。因此，对于《宝可梦随乐拍》，我认为在Wii U上简单复刻并不是正确的方向。我们确实需要提出一些新创意，让游戏对玩家来说既惊喜又有趣。如果我们能做到这一点，那么是的，我想我们会有消息要宣布。"
   role: answer
 - type: dialogue
   speaker: NWR
@@ -126,7 +126,7 @@ parallel_items:
 - type: dialogue
   speaker: 增田顺一
   original: Of course at Game Freak we’re always thinking about what people want. I always get lots of request on Twitter to make certain games. Right now we’re still focused on Pokémon X and Y. It’s not released so we’re still unsure if it will be received well, if people will have fun playing. So right now we need to see the success of Pokémon X and Y before we move on to anything else.
-  translation: 当然，在Game Freak，我们始终在思考玩家们的需求。我经常在Twitter上收到大量请求，希望我们制作某些特定游戏。目前，我们仍专注于《宝可梦 X／Y》。游戏尚未发布，所以我们还不确定它是否会受到好评，玩家们是否会玩得开心。因此，现在我们需要先看到《宝可梦 X／Y》的成功，然后才会考虑其他任何事情。
+  translation: "当然，在GAME FREAK，我们始终在思考玩家们的需求。我经常在Twitter上收到大量请求，希望我们制作某些特定游戏。目前，我们仍专注于《宝可梦 X／Y》。游戏尚未发布，所以我们还不确定它是否会受到好评，玩家们是否会玩得开心。因此，现在我们需要先看到《宝可梦 X／Y》的成功，然后才会考虑其他任何事情。"
   role: answer
 - type: dialogue
   speaker: NWR
@@ -162,7 +162,7 @@ parallel_items:
   original: 'NWR: Our wrap up question – We’re really looking forward to this. I know both of us are. We would like to know, from anyone in the room, if there’s anything that they want to say personally to the fans. Anything we should look out for? Easter eggs, perhaps? JM: A couple of things. First, in regards to the story, this time we made it an adventure where you travel with four friends and really get to know them over the course of the adventure. I really hope people enjoy the story we have crafted and look forward to it. Another feature of the game that I hope people enjoy is the Mega Evolutions. This time you get the Red and Blue starters from the Professor and you can take those to their Mega evolutions, which I think people will enjoy. The Professor is researching what they call “the greatest mystery of the Kalos region,” which is Mega Evolution. So that’s why he gives you one of these three original starters. Also, since this is going to be a global simultaneous release on October
     12, it’s going to be the first time, on a global scale, that everyone will really be connected with Pokémon. I want to look at it as a worldwide Pokémon Day. I’m really hoping people pick up the games and trade and battle with each other. One thing we did with the Pokédex this time was there’s going to be multiple Pokédex entries. So if you trade a Pokémon that comes from a different language in the game you’ll unlock that entry in the Pokédex for that language. So there is kind of another element to trading. HY: From a graphic design perspective Mega evolutions are something we spent a lot of time on. It was a big challenge to take these refined designs to a new extreme. Also, the move to full 3D the visuals are very different this time. I think players are really going to enjoy that. At the same time at Game Freak we’re big fans of 2D graphics as well. So there are some elements in there that I think fans of 2D will appreciate as well. NWR: Thank you so much for taking the time to
     talk to us; we’re both huge fans since the beginning! Masuda: Thank you!'
-  translation: NWR：作为我们的收尾问题——我们对此非常期待。我知道我们俩都是。我们想了解，在座的各位是否有任何想亲自对粉丝说的话？有什么值得我们留意的吗？彩蛋之类的？增田：有几件事。首先，关于故事，这次我们制作了一场与四位朋友一同旅行的冒险，并在冒险过程中真正了解他们。我真心希望大家能喜欢我们精心打造的故事，并对此充满期待。我希望大家喜欢的另一个游戏特色是超级进化。这次你可以从博士那里获得红蓝版初始宝可梦，并能让它们进行超级进化，我想大家会喜欢的。博士正在研究所谓的“卡洛斯地区最大的谜团”，即超级进化。因此，他才会给你这三只最初的初始宝可梦之一。此外，由于本作将于10月12日全球同步发售，这将是首次在全球范围内，所有人都能真正通过宝可梦连接起来。我想把它看作一个世界性的宝可梦日。我真心希望人们能拿起游戏，互相交换和对战。这次我们在宝可梦图鉴上做的一件事是，将会有多个图鉴条目。所以如果你交换了一只来自游戏中不同语言的宝可梦，你将解锁该语言对应的图鉴条目。这算是交换的另一个要素。吉田：从图形设计的角度来看，超级进化是我们花费了大量时间的事情。将这些精致的设计推向新的极致是一个巨大的挑战。此外，转向全3D后，这次的视觉效果非常不同。我认为玩家会非常喜欢。同时，在Game Freak，我们也是2D图形的忠实粉丝。所以其中也有一些我认为2D粉丝会欣赏的元素。 NWR：非常感谢你们抽出时间与我们交谈；我们俩从最初就是超级粉丝！增田：谢谢！
+  translation: "NWR：作为我们的收尾问题——我们对此非常期待。我知道我们俩都是。我们想了解，在座的各位是否有任何想亲自对粉丝说的话？有什么值得我们留意的吗？彩蛋之类的？增田：有几件事。首先，关于故事，这次我们制作了一场与四位朋友一同旅行的冒险，并在冒险过程中真正了解他们。我真心希望大家能喜欢我们精心打造的故事，并对此充满期待。我希望大家喜欢的另一个游戏特色是超级进化。这次你可以从博士那里获得红蓝版初始宝可梦，并能让它们进行超级进化，我想大家会喜欢的。博士正在研究所谓的“卡洛斯地区最大的谜团”，即超级进化。因此，他才会给你这三只最初的初始宝可梦之一。此外，由于本作将于10月12日全球同步发售，这将是首次在全球范围内，所有人都能真正通过宝可梦连接起来。我想把它看作一个世界性的宝可梦日。我真心希望人们能拿起游戏，互相交换和对战。这次我们在宝可梦图鉴上做的一件事是，将会有多个图鉴条目。所以如果你交换了一只来自游戏中不同语言的宝可梦，你将解锁该语言对应的图鉴条目。这算是交换的另一个要素。吉田：从图形设计的角度来看，超级进化是我们花费了大量时间的事情。将这些精致的设计推向新的极致是一个巨大的挑战。此外，转向全3D后，这次的视觉效果非常不同。我认为玩家会非常喜欢。同时，在GAME FREAK，我们也是2D图形的忠实粉丝。所以其中也有一些我认为2D粉丝会欣赏的元素。 NWR：非常感谢你们抽出时间与我们交谈；我们俩从最初就是超级粉丝！增田：谢谢！"
 source:
   title: Nintendo World Report
   url: http://www.nintendoworldreport.com/interview/35513/pokemon-x-and-y-interview-with-game-freak

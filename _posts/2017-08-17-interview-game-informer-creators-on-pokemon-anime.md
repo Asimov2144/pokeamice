@@ -56,7 +56,7 @@ parallel_items:
   caption: 1997年开播的《宝可梦》无印篇动画：小智与皮卡丘的结伴启程，将游戏热潮引爆为全球现象级跨媒体奇迹
 - speaker: Game Informer
   original: Pokémon Red and Blue (and Green in Japan) were highly successful. They are quality games that are well loved, but there was another factor that undeniably bolstered the success of the games and helped skyrocket the franchise to the juggernaut it is today. Our focus while visiting Game Freak in Japan was to learn the history of the video games, but we did have a few questions about the anime for Junichi Masuda.
-  translation: 《宝可梦 红／蓝》（以及日本本土的《红／绿》）在当年取得了空前的商业成功。它们本身便是深受玩家爱戴的传世杰作，然而不可否认的是，还有另一股关键力量极大地助推了游戏的爆发，促使这一 IP 一飞冲天，蜕变为如今庞大无匹的全球娱乐巨擎。虽然我们此行造访日本 Game Freak 总部的核心目标是探寻电子游戏本身的研发演进史，但我们依然抓住机会，向增田顺一先生请教了若干关于初代电视动画的珍贵内幕。
+  translation: "《宝可梦 红／蓝》（以及日本本土的《红／绿》）在当年取得了空前的商业成功。它们本身便是深受玩家爱戴的传世杰作，然而不可否认的是，还有另一股关键力量极大地助推了游戏的爆发，促使这一 IP 一飞冲天，蜕变为如今庞大无匹的全球娱乐巨擎。虽然我们此行造访日本 GAME FREAK 总部的核心目标是探寻电子游戏本身的研发演进史，但我们依然抓住机会，向增田顺一先生请教了若干关于初代电视动画的珍贵内幕。"
   role: question
 - type: heading
   level: 3
@@ -72,7 +72,7 @@ parallel_items:
   role: answer
 - speaker: Game Informer
   original: It wasn't Game Freak's decision to make Pikachu the face of the brand, he just sort of fell into it. It was the production company, OLM Inc., that made the anime who recognized the adorable electric rat's potential.
-  translation: 事实上，让皮卡丘成为整个宝可梦品牌的门面代表，并非 Game Freak 最初主动规划的商业决策，而是一场水到渠成的机缘巧合。正是负责制作电视动画的制作公司 OLM Inc.，敏锐地察觉到了这只娇憨可爱的电气鼠所蕴藏的巨大潜力。
+  translation: "事实上，让皮卡丘成为整个宝可梦品牌的门面代表，并非 GAME FREAK 最初主动规划的商业决策，而是一场水到渠成的机缘巧合。正是负责制作电视动画的制作公司 OLM Inc.，敏锐地察觉到了这只娇憨可爱的电气鼠所蕴藏的巨大潜力。"
   role: question
 - speaker: 增田顺一
   original: '"That was a decision, or rather a suggestion, from the company that made the anime," Masuda says, "They originally came to us with the idea that they wanted to feature Pikachu, because Pikachu at the time was really popular amongst kids in school. It is a hard-to-find Pokémon, so kids knew about it."'
@@ -84,7 +84,7 @@ parallel_items:
   translation: 用名字呼唤叫声：大谷育江的试音打动 Game Freak 与火箭队的诞生
 - speaker: Game Informer
   original: The idea of the Pokémon speaking their own names is an idea that can also be attributed to OLM Inc., and Game Freak was hesitant about it at first.
-  translation: 让宝可梦在动画中直接喊出自己名字的发声设定，同样归功于 OLM Inc. 的创意构想，而 Game Freak 起初对此其实抱有相当大的疑虑与犹豫。
+  translation: "让宝可梦在动画中直接喊出自己名字的发声设定，同样归功于 OLM Inc. 的创意构想，而 GAME FREAK 起初对此其实抱有相当大的疑虑与犹豫。"
   role: question
 - speaker: 增田顺一
   original: '"They actually had [Pikachu''s] voice actress, Ms. Ikue Ōtani, do a take on the voice and they showed us a clip of it and we listened to the sound of it saying its name over and over in a really cute way," Masuda says, "We weren’t really sure about it, but it worked out."'
@@ -92,15 +92,15 @@ parallel_items:
   role: answer
 - speaker: Game Informer
   original: Game Freak came up with the idea for Team Rocket (they were in the games after all) but the characters Jesse and James can also be attributed to OLM, Inc..
-  translation: 虽然作为反派组织的‘火箭队’最初是 Game Freak 为游戏本体构思设计的势力，但动画中深入人心的经典反派二人组武藏（Jessie）与小次郎（James），以及会说人类语言的喵喵，其标志性的鲜活人设同样出自动画制作公司 OLM（由已故编剧首藤刚志奠定基调）。
+  translation: "虽然作为反派组织的‘火箭队’最初是 GAME FREAK 为游戏本体构思设计的势力，但动画中深入人心的经典反派二人组武藏（Jessie）与小次郎（James），以及会说人类语言的喵喵，其标志性的鲜活人设同样出自动画制作公司 OLM（由已故编剧首藤刚志奠定基调）。"
   role: question
 - type: heading
   level: 3
   original: 'Premiere Night at Game Freak: ''We Definitely Watched It Together'''
-  translation: 首播之夜的 Game Freak：全体围坐电视机前，激动万分
+  translation: "首播之夜的 GAME FREAK：全体围坐电视机前，激动万分"
 - speaker: Game Informer
   original: The anime premiered in Japan in 1997, and Game Freak made sure to watch.
-  translation: 1997年4月，电视动画在日本正式开播，Game Freak 的全体团队成员当晚全都守在电视机前。
+  translation: "1997年4月，电视动画在日本正式开播，GAME FREAK 的全体团队成员当晚全都守在电视机前。"
   role: question
 - speaker: 增田顺一
   original: '"We definitely watched it together," Masuda says, "We were very excited to watch it." They did not, however eat popcorn, "[Laughs] We didn’t have any popcorn. We’re Japanese."'

@@ -822,7 +822,7 @@ parallel_items:
   translation: 这次我主要负责“世界”（城镇、道路、迷宫）的设计，
 - type: paragraph
   original: メインシナリオ以外のメッセージ的な部分や、ジムリーダーの
-  translation: 我负责了主线剧情之外的对话部分以及道馆馆主的
+  translation: "我负责了主线剧本之外的对话部分以及道馆馆主的"
 - type: paragraph
   original: 設定などを担当しました。
   translation: 设定等工作。
@@ -1035,7 +1035,7 @@ parallel_items:
   note: ラッペン：拉彭，GAME FREAK的音效设计师，参与《宝可梦 黑/白》的音乐制作。
 - type: paragraph
   original: シナリオを書きました。
-  translation: 剧情。
+  translation: "剧本。"
 - type: paragraph
   original: おすすめはやはり、イッシュ地方ならではの、様々なテイストの
   translation: 推荐的果然还是合众地区特有的、各种风格的
@@ -1193,7 +1193,7 @@ parallel_items:
   translation: ——本次是时隔4年的完全新作，设定和系统都有所革新，从信息管理小组的角度来看感觉如何？
 - type: paragraph
   original: シナリオ面もグラフィック面も、過去の作品よりもボリュームがぐっと増えたのですが、グラフィックにポケモンのアニメーションが入ったことが、情報管理グループとしては事件でした。
-  translation: 无论是剧情方面还是画面方面，内容量都比以往作品大幅增加，而画面中加入了宝可梦的动画，这对信息管理小组来说是一大事件。
+  translation: "无论是剧本方面还是画面方面，内容量都比以往作品大幅增加，而画面中加入了宝可梦的动画，这对信息管理小组来说是一大事件。"
 - type: paragraph
   original: 過去の作品でも戦闘開始時に少し動いたりしていましたが、今回は戦闘中はひっきりなしに動いてますよね。
   translation: 过去作品中宝可梦在战斗开始时也会有些动作，但这次在战斗中它们会不停地动。
@@ -1256,7 +1256,7 @@ parallel_items:
   translation: 因为即使有“眨眼”时的眼睛设定，也往往没有“睡眠”的表现。
 - type: paragraph
   original: そういう場合は、アートディレクターの杉森に相談をして、新しい設定を
-  translation: 这种情况下，我们会与艺术总监杉森商量，并添加新的设定。
+  translation: "这种情况下，我们会与美术总监杉森商量，并添加新的设定。"
   note: 杉森：指杉森建，宝可梦系列的艺术总监。
 - type: paragraph
   original: 作っていきました。
@@ -1576,7 +1576,7 @@ parallel_items:
   note: 自由船票是《宝可梦 黑/白》中用于前往自由庭园岛的道具，在那里可以遇到幻之宝可梦比克提尼。
 - type: paragraph
   original: プレイヤーと伝説のポケモンとの出会いに関わるシナリオです。
-  translation: 这是与玩家和传说宝可梦相遇相关的剧情。
+  translation: "这是与玩家和传说宝可梦相遇相关的剧本。"
 - type: paragraph
   original: ―ポケモンの設定はいつから担当していますか？
   translation: ——您从什么时候开始负责宝可梦的设定？
@@ -1606,7 +1606,7 @@ parallel_items:
   role: answer
 - type: paragraph
   original: 「ポケットモンスター 金・銀」のカントーのシナリオを書いていました。
-  translation: 《宝可梦 金/银》中关都地区的剧情。
+  translation: "《宝可梦 金/银》中关都地区的剧本。"
   speaker: 松岛贤二
   note: 关都地区是《宝可梦 红/绿》的舞台，在《金/银》中作为冒险的后半部分登场。
   role: answer

@@ -22,16 +22,24 @@ evidence of how a term has been rendered. This tool reads them all and:
         source forms - the same one-line edits fill-translations.py makes. Without
         --apply it only prints what it would change.
 
+        An entry's `scope` narrows where a rendering rules: `not` lists the posts it does
+        not apply to (a category, a tag, or a part of the file name), `unless` lists
+        source words that mark a row as an exception (プロデューサー is 制作人 on the
+        game side, 制片人 wherever 映画 / アニメ stand beside it). check and fix both
+        honour it.
+
     python tools/glossary-audit.py seed
         Writes the first design/glossary-site.json: the registry's people, the works, and
         every mined term whose rendering is settled (>= 80% of its rows, >= 3 posts), each
         with its evidence; the contested ones go under "review" for a decision.
 
 design/glossary-site.json is the site's own glossary - the development-history vocabulary
-the master (game terms) does not have: people, companies, departments, magazines, dev
-jargon. import-nom.py loads it on top of the master, so import-web.py and
+the master (game terms) does not have: people (the registry's interviewees, not the credits'
+staff rolls), companies, departments, magazines, dev jargon. An auto entry struck out by
+hand goes to `rejected`, so seed does not offer it again. import-nom.py loads it on top of the master, so import-web.py and
 fill-translations.py translate with it; run `check` after changing it, `fix` to bring the
-older translations in line.
+older translations in line. Its `context` list holds the terms decided to stay free
+(イベント is 活动 or 事件 as the sentence needs): neither check nor seed raises them again.
 """
 import glob
 import io
@@ -74,10 +82,18 @@ def posts():
         yield Path(f), fm, text
 
 
+POST_META = {}   # stem -> {categories, tags}, filled by corpus()
+
+
 def corpus():
     """every row with an original and a translation: (post stem, row index, original, translation)"""
     rows = []
     for path, fm, _ in posts():
+        labels = set()
+        for key in ("categories", "tags"):
+            v = fm.get(key)
+            labels.update(v if isinstance(v, list) else [v] if isinstance(v, str) else [])
+        POST_META[path.stem] = {"labels": {str(x) for x in labels if x}}
         items = fm.get("parallel_items") or fm.get("translation_segments") or []
         for i, it in enumerate(items):
             if not isinstance(it, dict):
@@ -105,7 +121,7 @@ def registry_terms():
     """source form -> target, from the people registry (aliases) and the works"""
     out = {}
     for p in yaml.safe_load(io.open(ROOT / "_data" / "people.yml", encoding="utf-8")) or []:
-        if p.get("kind") in ("character", "figure"):
+        if p.get("kind") in ("character", "figure", "staff"):
             continue
         for a in p.get("aliases") or []:
             if a != p["name"]:
@@ -258,6 +274,21 @@ def site_index(site):
     return idx
 
 
+def in_scope(e, stem, original):
+    """does this entry's rendering rule over this row? `scope.not` names posts (a category,
+    a tag, or part of the file name) it leaves alone, `scope.unless` source words that
+    mark an exception inside the row"""
+    scope = e.get("scope") or {}
+    labels = POST_META.get(stem, {}).get("labels", set())
+    for x in scope.get("not", []):
+        if x in labels or x in stem:
+            return False
+    for x in scope.get("unless", []):
+        if x in original:
+            return False
+    return True
+
+
 def check(rows):
     site = load_site()
     idx = site_index(site)
@@ -269,7 +300,7 @@ def check(rows):
         for term, e in idx.items():
             if len(term) < 3 and not re.match(r"^[A-Z]{2,}$", term):
                 continue
-            if has_term(term, o) and not satisfied(e["target"], t):
+            if has_term(term, o) and not satisfied(e["target"], t) and in_scope(e, stem, o):
                 used = next((v for v in e.get("variants", []) if v in t), None)
                 per_post[stem].append((i, term, e["target"], used))
                 n += 1
@@ -290,7 +321,7 @@ def fix(rows, apply):
     for stem, i, o, t in rows:
         new = t
         for term, e in idx.items():
-            if not has_term(term, o):
+            if not has_term(term, o) or not in_scope(e, stem, o):
                 continue
             for v in e.get("variants", []):
                 if v and v in new and not satisfied(e["target"], new):
@@ -307,25 +338,48 @@ def fix(rows, apply):
     for stem, ch in changes.items():
         path = ROOT / "_posts" / f"{stem}.md"
         text = io.open(path, encoding="utf-8", newline="").read()
-        nl = "\r\n" if "\r\n" in text[:2000] else "\n"
-        lines = text.replace("\r\n", "\n").split("\n")
-        for i, old, new in ch:
-            # the row's translation line: the one that holds exactly this text
-            for n_, l in enumerate(lines):
-                m = re.match(r"^(\s+translation: )(.*)$", l)
-                if not m:
-                    continue
-                val = m.group(2)
-                try:
-                    parsed = yaml.safe_load("v: " + val)["v"] if val.strip() else ""
-                except yaml.YAMLError:
-                    parsed = None
-                if parsed == old:
-                    lines[n_] = m.group(1) + json.dumps(new, ensure_ascii=False)
-                    break
-        out = "\n".join(lines)
-        io.open(path, "w", encoding="utf-8", newline="").write(out.replace("\n", nl) if nl == "\r\n" else out)
+        out, n = rewrite_translations(text, [(old, new) for _, old, new in ch])
+        io.open(path, "w", encoding="utf-8", newline="").write(out)
+        if n < len(ch):
+            print(f"  {stem}: {len(ch) - n} rows not found as translation lines")
     print("written")
+
+
+def rewrite_translations(text, changes):
+    """the post's text with each (old, new) translation swapped on its own `translation:`
+    line - a one-line scalar, or a quoted scalar continued over several lines, which comes
+    back as one JSON-quoted line. Returns (text, rows rewritten)."""
+    nl = "\r\n" if "\r\n" in text[:2000] else "\n"
+    lines = text.replace("\r\n", "\n").split("\n")
+    done = 0
+    for old, new in changes:
+        n_ = 0
+        while n_ < len(lines):
+            m = re.match(r"^(\s+translation: )(.*)$", lines[n_])
+            if not m:
+                n_ += 1
+                continue
+            val, end = m.group(2), n_
+            parsed = None
+            try:
+                parsed = yaml.safe_load("v: " + val)["v"] if val.strip() else ""
+            except yaml.YAMLError:
+                # a quoted scalar that runs on: take lines until it parses
+                if val.lstrip()[:1] in ("'", '"'):
+                    for e in range(n_ + 1, min(n_ + 400, len(lines))):
+                        try:
+                            parsed = yaml.safe_load("v: " + "\n".join([val] + lines[n_ + 1:e + 1]))["v"]
+                            end = e
+                            break
+                        except yaml.YAMLError:
+                            continue
+            if parsed == old:
+                lines[n_:end + 1] = [m.group(1) + json.dumps(new, ensure_ascii=False)]
+                done += 1
+                break
+            n_ = end + 1
+    out = "\n".join(lines)
+    return (out.replace("\n", nl) if nl == "\r\n" else out), done
 
 
 # ---------------------------------------------------------------- seed
@@ -338,16 +392,19 @@ def seed(rows):
     entries = list(site.get("entries", []))
     # the registry's people
     for p in yaml.safe_load(io.open(ROOT / "_data" / "people.yml", encoding="utf-8")) or []:
-        if p.get("kind") in ("character", "figure"):
+        if p.get("kind") in ("character", "figure", "staff"):
             continue
         terms = [a for a in (p.get("aliases") or []) if a != p["name"]]
         if terms and not any(t in have for t in terms):
             entries.append({"category": "人物", "target": p["name"], "terms": terms, "source": "people.yml"})
             have.update(terms)
-    # the settled conventions of the corpus
-    review = list(site.get("review", []))
+    # the settled conventions of the corpus; the review list is rebuilt each time, so a term
+    # that got its entry, or was decided to stay free (context), leaves it
+    context = {c["term"] for c in site.get("context", [])}
+    rejected = set(site.get("rejected", []))    # mined entries a person struck out: never offered again
+    review = []
     for e in report:
-        if e["term"] in have or e["term"].endswith("・") or (e.get("known_from") == "master" and not e.get("conflict")):
+        if e["term"] in have or e["term"] in context or e["term"] in rejected or e["term"].endswith("・") or (e.get("known_from") == "master" and not e.get("conflict")):
             continue
         r = e["renderings"]
         # a contradiction worth a decision: two specific renderings, each in a quarter of the rows
@@ -364,9 +421,13 @@ def seed(rows):
     review.sort(key=lambda x: -x["posts"])
     site["note"] = ("站内术语库：开发史料的词汇（人物、公司、部门、杂志、开发行话）——主术语表（游戏内名词）之外的那一层。"
                     "entries 里 target 是站内统一写法，terms 是原文写法，variants 是要改掉的旧译法（glossary-audit.py fix 会替换）；"
-                    "auto: true 的条目是从语料里挖出来的既成惯例（share 是占比），review 里是译法不一、等人拍板的。"
-                    "import-nom.py 会把这份和主术语表一起喂给翻译。")
+                    "scope.not 列出不适用的分类/标签/文件名片段，scope.unless 列出原文里标志例外的词；"
+                    "auto: true 的条目是从语料里挖出来的既成惯例（share 是占比），review 里是译法不一、等人拍板的（每次 seed 重新生成），"
+                    "context 里是决定依上下文、不强制统一的词；rejected 里是挖出来但人工剔除的词（seed 不再提出）。"
+                    "import-nom.py 会把 entries 和主术语表一起喂给翻译。")
     site["entries"] = entries
+    site["context"] = site.get("context", [])
+    site["rejected"] = sorted(set(site.get("rejected", [])))
     site["review"] = review
     io.open(SITE, "w", encoding="utf-8", newline="\n").write(json.dumps(site, ensure_ascii=False, indent=1))
     print(f"{SITE.relative_to(ROOT)}: {len(entries)} entries ({sum(1 for e in entries if e.get('auto'))} from the corpus), {len(review)} to review")

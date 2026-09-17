@@ -50,16 +50,16 @@ parallel_items:
 - type: heading
   level: 2
   original: Game Freak's Junichi Masuda and Shigeru Ohmori on Inspiration, Sirfetch'd, and Pressure
-  translation: 独家专访 Game Freak 增田顺一与大森滋：葱游兵的灵感、英国采风与全国图鉴风波下的创作者心境
+  translation: "独家专访 GAME FREAK 增田顺一与大森滋：葱游兵的灵感、英国采风与全国图鉴风波下的创作者心境"
 - speaker: ''
   original: There have been a few ups and downs for Game Freak, in the build up to Pokémon Sword and Shield's launch. The initial reveal of Galar, the game's UK-inspired setting, was perhaps a tad lukewarm, and the decision to move away from a full, eight or nine hundred-strong Pokédex brought outcry from the predictably noisy sections of Pokémon fans.
-  translation: 在《宝可梦 剑／盾》发售前的筹备阶段，Game Freak 经历了一些波折。最初公开伽勒尔地区——这个以英国为灵感的舞台时，反响或许有些平淡；而决定放弃收录全部八九百只宝可梦的全国图鉴，也引来了意料之中喧闹的宝可梦粉丝群体的强烈抗议。
+  translation: "在《宝可梦 剑／盾》发售前的筹备阶段，GAME FREAK 经历了一些波折。最初公开伽勒尔地区——这个以英国为灵感的舞台时，反响或许有些平淡；而决定放弃收录全部八九百只宝可梦的全国图鉴，也引来了意料之中喧闹的宝可梦粉丝群体的强烈抗议。"
 - speaker: ''
   original: But then, new Pokémon like Wooloo have charmed, and twists on old favourites, like the brilliant Sirfetch'd and Galarian my-little-Ponyta, have gone down a storm. Having now played the enchanting first hours of Sword and Shield, too, the game's typical charm has once again started to shine through.
   translation: 但随后，像毛辫羊这样的新宝可梦俘获了人心，而对旧宠的巧妙改造，比如出色的葱游兵和伽勒尔形态的小火马（宛如小马宝莉），也大受欢迎。在亲自体验了《剑／盾》开头几小时的迷人内容后，游戏一贯的魅力再次闪耀出来。
 - speaker: ''
   original: For Game Freak it must have been quite the ride. I spoke to veteran lead producer Junichi Masuda and a particularly jovial Shigeru Ohmori, the series' game director, about the surprising inspirations for those new Pokémon, how they went about researching the UK, and what dealing with those moments of backlash has been like.
-  translation: 对 Game Freak 而言，这想必是一段跌宕起伏的旅程。我与资深制作人增田顺一以及格外爽朗的游戏总监大森滋聊了聊，探讨了那些新宝可梦出人意料的灵感来源、他们如何对英国进行实地采风，以及面对那些反对声浪时的感受。
+  translation: "对 GAME FREAK 而言，这想必是一段跌宕起伏的旅程。我与资深制作人增田顺一以及格外爽朗的游戏总监大森滋聊了聊，探讨了那些新宝可梦出人意料的灵感来源、他们如何对英国进行实地采风，以及面对那些反对声浪时的感受。"
 - type: heading
   level: 3
   original: 'Galarian Forms & Sirfetch''d: From Massive British Leeks to Chivalric Knights'
@@ -157,7 +157,7 @@ parallel_items:
   role: answer
 - speaker: Eurogamer
   original: Has some of that negative feedback on the Pokédex - which I'm sorry to dwell on - had much of an impact on morale at Game Freak? I know you've mentioned that you're personally disappointed to not be able to include all of the Pokémon. Did the team feel saddened by the reaction at all?
-  translation: 关于宝可梦图鉴的一些负面反馈——很抱歉一直纠结于此——是否对Game Freak的士气产生了很大影响？我知道您曾提到个人对无法收录全部宝可梦感到失望。团队是否因这些反应而感到沮丧？
+  translation: "关于宝可梦图鉴的一些负面反馈——很抱歉一直纠结于此——是否对GAME FREAK的士气产生了很大影响？我知道您曾提到个人对无法收录全部宝可梦感到失望。团队是否因这些反应而感到沮丧？"
   role: question
 - speaker: 增田顺一
   original: Of course, you know, you see these sort of negative comments and it does, as a creator, make you feel a little down. But at the same time, we have to make the decisions that are best for the long-term future of the series and the quality of the games. Developing for Nintendo Switch requires vastly more time and resource per Pokémon - high-fidelity models, expressive animations for Pokémon Camp, and dynamic battle moves.

@@ -405,7 +405,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: よしだ ひろのぶ①かおでかポケモン♂ ②1.7m／58Kg ③平和主義型 ④下北沢(おもに会社) ⑤優柔不断ドット打ち／精神年齢6歳ミサイル／オナカユルユルビーム／ドラマ〜
-    translation: 吉田 宏信①大脸宝可梦♂ ②1.7m／58Kg ③和平主义型 ④下北泽（主要是公司） ⑤优柔寡断地点阵／精神年龄6岁导弹／肚子松软光束／电视剧～
+    translation: "吉田 宏信①大脸宝可梦♂ ②1.7m／58Kg ③和平主义型 ④下北泽（主要是公司） ⑤优柔寡断地像素／精神年龄6岁导弹／肚子松软光束／电视剧～"
   - speaker: note
     type: paragraph
     kind: text
@@ -425,7 +425,7 @@ translation_segments:
     scan_page: 1
     review_status: review
     original: "おくたに じゅん①おやこポケモン♂ ②17cm／60g ③ノーマル ④夏:小金井公園／冬:こたつの中 ⑤ドットうみ／ナイトドット／ドットバード／すてみドット"
-    translation: 奥谷 淳①亲子宝可梦♂ ②17cm／60g ③一般 ④夏：小金井公园／冬：被炉里 ⑤点阵海／夜间点阵／点阵鸟／舍身点阵
+    translation: "奥谷 淳①亲子宝可梦♂ ②17cm／60g ③一般 ④夏：小金井公园／冬：被炉里 ⑤像素海／夜间像素／像素鸟／舍身像素"
   - speaker: note
     type: paragraph
     kind: text
