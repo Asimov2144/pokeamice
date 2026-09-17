@@ -1,0 +1,25 @@
+{%- comment -%}
+  The keeper's card at the top of the home rail: avatar, name, where to write - the
+  addresses come from _config.yml's author.links (Weibo, Twitter, Email), so they are
+  kept in one place.
+{%- endcomment -%}
+{%- assign au_weibo = "" -%}{%- assign au_twitter = "" -%}{%- assign au_mail = "" -%}
+{%- for l in site.author.links -%}
+  {%- assign lab = l.label | downcase -%}
+  {%- if lab == "weibo" -%}{%- assign au_weibo = l.url -%}
+  {%- elsif lab == "twitter" or lab == "x" -%}{%- assign au_twitter = l.url -%}
+  {%- elsif lab == "email" -%}{%- assign au_mail = l.url | remove: "mailto:" -%}
+  {%- endif -%}
+{%- endfor -%}
+<section class="front__author" aria-label="站点作者">
+  <img class="front__author-avatar" src="{{ '/assets/img/site/author-pikachu.jpg' | relative_url }}" alt="" width="48" height="48" decoding="async">
+  <div class="front__author-body">
+    <a class="front__author-name" href="https://github.com/Asimov2144" rel="me author">{{ site.author.name | default: "Asimov2144" }}</a>
+    <p class="front__author-note">欢迎交流，加入开发群</p>
+    <div class="front__author-links">
+      {%- if au_weibo != "" %}<a href="{{ au_weibo }}" rel="me noopener" target="_blank" title="微博" aria-label="微博"><i class="fab fa-weibo" aria-hidden="true"></i></a>{% endif -%}
+      {%- if au_twitter != "" %}<a href="{{ au_twitter }}" rel="me noopener" target="_blank" title="X / Twitter" aria-label="X / Twitter"><i class="fab fa-x-twitter" aria-hidden="true"></i></a>{% endif -%}
+      {%- if au_mail != "" %}<a href="mailto:{{ au_mail }}" rel="me" title="邮箱 {{ au_mail }}" aria-label="邮箱"><i class="fas fa-envelope" aria-hidden="true"></i></a>{% endif -%}
+    </div>
+  </div>
+</section>
