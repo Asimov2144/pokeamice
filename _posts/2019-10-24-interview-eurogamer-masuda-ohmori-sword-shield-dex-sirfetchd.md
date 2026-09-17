@@ -40,7 +40,6 @@ entities:
   people:
   - 增田顺一
   - 大森滋
-  - 克里斯·塔普塞尔
   works:
   - 宝可梦 剑·盾
   - Pokémon GO

@@ -39,7 +39,6 @@ entities:
   - 吉田宏信
   - 增田顺一
   - 杉森建
-  - Christian Nutt
   works:
   - 宝可梦 X·Y
 parallel_items:

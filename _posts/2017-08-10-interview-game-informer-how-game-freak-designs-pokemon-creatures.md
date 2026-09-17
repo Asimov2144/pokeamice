@@ -38,7 +38,6 @@ summary: 2017年8月《Game Informer》探访东京 Game Freak 办公室，专�
 entities:
   people:
   - 增田顺一
-  - 凯尔·希利亚德
   works:
   - 宝可梦 太阳·月亮
   - 宝可梦 红·绿

@@ -1,0 +1,1448 @@
+[
+ {
+  "file": "_posts/1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak.md",
+  "memoir": false,
+  "dirty": true,
+  "remove": [
+   [
+    "蒂姆·拉里默",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "田尻智",
+   "宫本茂"
+  ]
+ },
+ {
+  "file": "_posts/2008-05-28-interview-takeshi-shudo-pokemon-memoir-ch150.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "大木博士",
+    "character"
+   ],
+   [
+    "正辉",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2008-06-11-interview-takeshi-shudo-pokemon-memoir-ch152.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小刚",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2008-08-13-interview-takeshi-shudo-pokemon-memoir-ch156.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "久保雅一"
+  ]
+ },
+ {
+  "file": "_posts/2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "花子",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2008-08-27-interview-takeshi-shudo-pokemon-memoir-ch158.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-01-14-interview-takeshi-shudo-pokemon-memoir-ch171.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "萨卡基",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "司马辽太郎",
+   "盐野七生",
+   "萨蒂亚吉特·雷伊"
+  ]
+ },
+ {
+  "file": "_posts/2009-02-18-interview-takeshi-shudo-pokemon-memoir-ch175.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-03-11-interview-takeshi-shudo-pokemon-memoir-ch176.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "乔伊",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ],
+   [
+    "小刚",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "笛卡尔",
+   "赤冢不二夫"
+  ]
+ },
+ {
+  "file": "_posts/2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "小爱",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "市村正亲",
+   "吉拉尔丹"
+  ]
+ },
+ {
+  "file": "_posts/2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "超梦",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "宫崎骏",
+   "押井守"
+  ]
+ },
+ {
+  "file": "_posts/2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "手冢治虫"
+  ]
+ },
+ {
+  "file": "_posts/2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "大木博士",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "小刚",
+    "character"
+   ],
+   [
+    "小建",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "牛顿",
+   "爱因斯坦",
+   "居里夫人"
+  ]
+ },
+ {
+  "file": "_posts/2009-05-27-interview-takeshi-shudo-pokemon-memoir-ch186.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "梦幻",
+    "character"
+   ],
+   [
+    "凤王",
+    "not-in-registry"
+   ],
+   [
+    "急冻鸟",
+    "not-in-registry"
+   ],
+   [
+    "闪电鸟",
+    "not-in-registry"
+   ],
+   [
+    "火焰鸟",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-06-03-interview-takeshi-shudo-pokemon-memoir-ch187.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小智的母亲（花子）",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "鹿贺丈史",
+    "not-in-registry"
+   ],
+   [
+    "超梦",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "吉拉尔丹",
+   "市村正亲"
+  ]
+ },
+ {
+  "file": "_posts/2009-06-10-interview-takeshi-shudo-pokemon-memoir-ch188.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-06-24-interview-takeshi-shudo-pokemon-memoir-ch189.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-07-15-interview-takeshi-shudo-pokemon-memoir-ch190.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-07-22-interview-takeshi-shudo-pokemon-memoir-ch191.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "御前大人",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "花子",
+    "character"
+   ],
+   [
+    "急冻鸟",
+    "not-in-registry"
+   ],
+   [
+    "闪电鸟",
+    "not-in-registry"
+   ],
+   [
+    "火焰鸟",
+    "not-in-registry"
+   ],
+   [
+    "呆呆王",
+    "not-in-registry"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ],
+   [
+    "市原悦子",
+    "not-in-registry"
+   ],
+   [
+    "奈良冈朋子",
+    "not-in-registry"
+   ],
+   [
+    "森光子",
+    "not-in-registry"
+   ],
+   [
+    "查理·卓别林",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "吉拉尔丹",
+   "黑泽明"
+  ]
+ },
+ {
+  "file": "_posts/2009-07-29-interview-takeshi-shudo-pokemon-memoir-ch192.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "急冻鸟",
+    "not-in-registry"
+   ],
+   [
+    "闪电鸟",
+    "not-in-registry"
+   ],
+   [
+    "火焰鸟",
+    "not-in-registry"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "花子",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-08-05-interview-takeshi-shudo-pokemon-memoir-ch193.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "御前大人",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-08-12-interview-takeshi-shudo-pokemon-memoir-ch194.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "罗伯特·奥特曼",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "吉拉尔丹"
+  ]
+ },
+ {
+  "file": "_posts/2009-08-19-interview-takeshi-shudo-pokemon-memoir-ch195.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "林原惠",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "三木真一郎",
+   "犬山犬子"
+  ]
+ },
+ {
+  "file": "_posts/2009-09-16-interview-takeshi-shudo-pokemon-memoir-ch197.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "庄子",
+    "not-in-registry"
+   ],
+   [
+    "老子",
+    "not-in-registry"
+   ],
+   [
+    "恺撒",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "押井守"
+  ]
+ },
+ {
+  "file": "_posts/2009-09-30-interview-takeshi-shudo-pokemon-memoir-ch198.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "吉拉尔丹"
+  ]
+ },
+ {
+  "file": "_posts/2009-10-07-interview-takeshi-shudo-pokemon-memoir-ch199.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "小刚",
+    "character"
+   ],
+   [
+    "小建",
+    "character"
+   ],
+   [
+    "大木博士",
+    "character"
+   ],
+   [
+    "花子",
+    "character"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ],
+   [
+    "罗伯特·奥特曼",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "吉拉尔丹"
+  ]
+ },
+ {
+  "file": "_posts/2009-11-04-interview-takeshi-shudo-pokemon-memoir-ch200.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "首藤之妻",
+    "not-in-registry"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "罗伯特·奥特曼",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-11-11-interview-takeshi-shudo-pokemon-memoir-ch201.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "饭冢雅弓",
+    "not-in-registry"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-11-18-interview-takeshi-shudo-pokemon-memoir-ch202.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "林原惠",
+    "not-in-registry"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志"
+  ]
+ },
+ {
+  "file": "_posts/2009-12-02-interview-takeshi-shudo-pokemon-memoir-ch204.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "急冻鸟",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "吉拉尔丹"
+  ]
+ },
+ {
+  "file": "_posts/2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "芙卢拉",
+    "not-in-registry"
+   ],
+   [
+    "南方仁",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "小林幸子",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2009-12-16-interview-takeshi-shudo-pokemon-memoir-ch206.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "吉永小百合",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "芥川龙之介",
+   "斋藤武市"
+  ]
+ },
+ {
+  "file": "_posts/2010-01-06-interview-takeshi-shudo-pokemon-memoir-ch207.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "后藤久美子",
+    "not-in-registry"
+   ],
+   [
+    "木村拓哉",
+    "not-in-registry"
+   ],
+   [
+    "冲田十三",
+    "not-in-registry"
+   ],
+   [
+    "新藤兼人",
+    "not-in-registry"
+   ],
+   [
+    "达尔顿·特朗博",
+    "not-in-registry"
+   ],
+   [
+    "罗伯特·鲍特",
+    "not-in-registry"
+   ],
+   [
+    "莫里斯·拉威尔",
+    "not-in-registry"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦",
+   "桥本忍"
+  ]
+ },
+ {
+  "file": "_posts/2010-01-13-interview-takeshi-shudo-pokemon-memoir-ch208.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "洛奇亚",
+    "not-in-registry"
+   ],
+   [
+    "超梦",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2010-01-20-interview-takeshi-shudo-pokemon-memoir-ch209.md",
+  "memoir": true,
+  "dirty": false,
+  "remove": [
+   [
+    "小智",
+    "character"
+   ],
+   [
+    "皮卡丘",
+    "character"
+   ],
+   [
+    "喵喵",
+    "character"
+   ],
+   [
+    "小霞",
+    "character"
+   ],
+   [
+    "武藏",
+    "character"
+   ],
+   [
+    "小次郎",
+    "character"
+   ]
+  ],
+  "keep": [
+   "首藤刚志",
+   "汤山邦彦"
+  ]
+ },
+ {
+  "file": "_posts/2010-09-13-interview-weekly-ascii-masuda-bw.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "后藤宏典",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "三枝成彰"
+  ]
+ },
+ {
+  "file": "_posts/2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "韦斯利·尹-普尔",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "杉森建",
+   "井部真那"
+  ]
+ },
+ {
+  "file": "_posts/2012-08-05-interview-famitsu-b2w2-fanmeeting-masuda-unno.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "N",
+    "character"
+   ],
+   [
+    "盖奇斯",
+    "character"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "海野隆雄"
+  ]
+ },
+ {
+  "file": "_posts/2013-10-10-interview-gamasutra-xy-monster-design.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "Christian Nutt",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "吉田宏信",
+   "增田顺一",
+   "杉森建"
+  ]
+ },
+ {
+  "file": "_posts/2014-02-14-interview-gameinformer-masuda-afterwords-xy.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "AZ",
+    "character"
+   ],
+   [
+    "布拉塔诺博士",
+    "character"
+   ],
+   [
+    "弗拉达利",
+    "character"
+   ],
+   [
+    "莎娜",
+    "character"
+   ]
+  ],
+  "keep": [
+   "增田顺一"
+  ]
+ },
+ {
+  "file": "_posts/2015-05-20-interview-pokemon-recruit-business-anatomy.md",
+  "memoir": false,
+  "dirty": true,
+  "remove": [
+   [
+    "长田英树",
+    "not-in-registry"
+   ],
+   [
+    "陆川和男",
+    "not-in-registry"
+   ],
+   [
+    "藤井健",
+    "not-in-registry"
+   ]
+  ],
+  "keep": []
+ },
+ {
+  "file": "_posts/2017-08-10-interview-game-informer-how-game-freak-designs-pokemon-creatures.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "凯尔·希利亚德",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一"
+  ]
+ },
+ {
+  "file": "_posts/2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "凯尔·希利亚德",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "大森滋"
+  ]
+ },
+ {
+  "file": "_posts/2017-08-17-interview-game-informer-creators-on-pokemon-anime.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "本·里夫斯",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "大谷育江"
+  ]
+ },
+ {
+  "file": "_posts/2017-11-09-interview-pokemon-com-usum-ohmori-iwao.md",
+  "memoir": false,
+  "dirty": true,
+  "remove": [
+   [
+    "坂木",
+    "character"
+   ],
+   [
+    "古兹马",
+    "character"
+   ]
+  ],
+  "keep": [
+   "大森滋",
+   "岩尾和昌",
+   "杉森建"
+  ]
+ },
+ {
+  "file": "_posts/2018-10-26-interview-eurogamer-masuda-lets-go-difficulty-meltan-future.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "克里斯·塔普塞尔",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "菜花健作"
+  ]
+ },
+ {
+  "file": "_posts/2019-10-24-interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd.md",
+  "memoir": false,
+  "dirty": false,
+  "remove": [
+   [
+    "克里斯·塔普塞尔",
+    "host/journalist"
+   ]
+  ],
+  "keep": [
+   "增田顺一",
+   "大森滋"
+  ]
+ }
+]

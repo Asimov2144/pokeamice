@@ -38,10 +38,6 @@ summary: 2014 年 2 月，Game Informer 刊发第 250 期《宝可梦 X·Y》全
 entities:
   people:
   - 增田顺一
-  - AZ
-  - 布拉塔诺博士
-  - 弗拉达利
-  - 莎娜
   works:
   - 宝可梦 X·Y
   - 宝可梦 黑·白

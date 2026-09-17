@@ -37,7 +37,6 @@ summary: 2010 年 9 月《宝可梦 黑·白》发售前夕，周刊 ASCII 深�
 entities:
   people:
   - 增田顺一
-  - 后藤宏典
   - 三枝成彰
   works:
   - 宝可梦 黑·白

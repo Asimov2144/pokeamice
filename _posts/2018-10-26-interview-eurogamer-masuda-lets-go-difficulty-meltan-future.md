@@ -43,7 +43,6 @@ entities:
   people:
   - 增田顺一
   - 菜花健作
-  - 克里斯·塔普塞尔
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - Pokémon GO
