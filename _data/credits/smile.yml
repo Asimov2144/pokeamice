@@ -1,0 +1,260 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Smile + https://wiki.pokemonwiki.com/wiki/ポケモンスマイルのスタッフクレジット
+slug: smile
+title: Staff of Pokémon Smile
+work: null
+year: 2020
+developer: The Pokémon Company
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Smile
+count: 77
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスマイルのスタッフクレジット
+ja_alignment:
+  ja_total: 63
+  ja_matched: 63
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Producer & Developer
+  names:
+  - name: Yosuke Oshino
+    ja: Yosuke Oshino
+    ja_match: romaji
+  ja_role: Producer & Developer
+- path:
+  - Developer
+  names:
+  - name: Takashi Koyama
+    ja: Takashi Koyama
+    ja_match: romaji
+  - name: Yoshiyuki Higo
+    ja: Yoshiyuki Higo
+    ja_match: romaji
+  - name: Kengo Yokoyama
+    ja: Kengo Yokoyama
+    ja_match: romaji
+  - name: Takashi Maeda
+    ja: Takashi Maeda
+    ja_comment: 前田高志
+    ja_match: romaji
+  - name: Sayaka Yoshida
+    ja: Sayaka Yoshida
+    ja_comment: 吉田早耶香?
+    ja_match: romaji
+  - name: Mami Tsuchida
+    ja: Mami Tsuchida
+    ja_comment: 土田真巳
+    ja_match: romaji
+  - name: Kanahei
+    ja: Kanahei
+    ja_match: romaji
+  - name: Reo Uratani
+    ja: Reo Uratani
+    ja_match: romaji
+  - name: Ryo Katsura
+    ja: Ryo Katsura
+    ja_match: romaji
+  - name: Aki Minemura
+    ja: Aki Minemura
+    ja_match: romaji
+  - name: Yukihiro Ono
+  - name: Risa Miyamori
+  ja_role: Developer
+- path:
+  - Asian Localization
+  names:
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  - name: Minyu Hsu
+    ja: Minyu Hsu
+    ja_match: romaji
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  - name: Sin Hang Yeung
+    ja: Sin Hang Yeung
+    ja_match: romaji
+  - name: Huilin Wang
+    ja: Huilin Wang
+    ja_match: romaji
+  - name: Yue Wang
+    ja: Yue Wang
+    ja_match: romaji
+  - name: Yiping Cai
+    ja: Yiping Cai
+    ja_match: romaji
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Dongun Pak
+    ja: Dongun Pak
+    ja_match: romaji
+  - name: Supavita Cherdchoovanit
+    ja: Supavita Cherdchoovanit
+    ja_match: romaji
+  - name: Ari Nirwana
+    ja: Ari Nirwana
+    ja_match: romaji
+  - name: Akash Gautam
+  - name: Annisa Rizka Ramadani
+  - name: Endai Liao
+  - name: Weihang Jiang
+  - name: Panida Bantanuk
+  ja_role: Asian Localization
+- path:
+  - English Localization
+  names:
+  - name: David Dunlap
+    ja: David Dunlap
+    ja_match: romaji
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Rei Nakazawa
+    ja: Rei Nakazawa
+    ja_match: romaji
+  - name: Adrian Ng
+    ja: Adrian Ng
+    ja_match: romaji
+  - name: Jill Nonaka
+    ja: Jill Nonaka
+    ja_match: romaji
+  - name: Rachel Payne
+    ja: Rachel Payne
+    ja_match: romaji
+  - name: Ami Shuman
+    ja: Ami Shuman
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Chie Stutzman
+  ja_role: English Localization
+- path:
+  - European Localisation
+  names:
+  - name: Edith Belarra López
+    ja: Edith Belarra López
+    ja_match: romaji
+  - name: Sergio Bianchi
+    ja: Sergio Bianchi
+    ja_match: romaji
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Violette Giang
+    ja: Violette Giang
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Tadasu Hasegawa
+    ja: Tadasu Hasegawa
+    ja_match: romaji
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Aurélie Kryvinskyj
+    ja: Aurélie Kryvinskyj
+    ja_match: romaji
+  - name: Rubén Lado Riomao
+    ja: Rubén Lado Riomao
+    ja_match: romaji
+  - name: Diego Luque de la Campa
+    ja: Diego Luque de la Campa
+    ja_match: romaji
+  - name: Carolin Maibach
+    ja: Carolin Maibach
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Barbara Schweinzer
+    ja: Barbara Schweinzer
+    ja_match: romaji
+  - name: Nicolas Sindres
+    ja: Nicolas Sindres
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Píndaro Vargas
+    ja: Píndaro Vargas
+    ja_match: romaji
+  - name: Alex Fortes
+  - name: Alberto Gracia Castellano
+  - name: Irene Mascaró Genestar
+  - name: Emily Hitchmough
+  - name: Kendra Evans
+  - name: Ritsuko Oshu
+  ja_role: European Localisation
+- path:
+  - Development Support
+  names:
+  - name: Nobuyuki Ohta
+    ja: Nobuyuki Ohta
+    ja_match: romaji
+  - name: Chitose Kawakami
+    ja: Chitose Kawakami
+    ja_match: romaji
+  - name: Tatsuya Ichijo
+    ja: Tatsuya Ichijo
+    ja_match: romaji
+  - name: The Pokémon Company
+    kind: company
+    ja: The Pokémon Company
+    kanji: 株式会社ポケモン
+    ja_match: romaji
+  - name: The Pokémon Company International
+    kind: company
+    ja: The Pokémon Company International
+    ja_match: romaji
+  - name: Pokémon Korea, Inc.
+    kind: company
+    ja: Pokémon Korea, Inc.
+    ja_match: romaji
+  - name: LITALICO Inc.
+    kind: company
+    ja: LITALICO Inc.
+    ja_match: romaji
+  - name: NASU Co., Ltd.
+    kind: company
+    ja: NASU Co., Ltd.
+    ja_match: romaji
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+    ja: CREEK & RIVER Co., Ltd.
+    ja_match: romaji
+  - name: Pole To Win Co., Ltd.
+    kind: company
+    ja: Pole To Win Co., Ltd.
+    ja_match: romaji
+  - name: Pole To Win UK Ltd.
+    kind: company
+    ja: Pole To Win UK Ltd.
+    ja_match: romaji
+  ja_role: Development Support

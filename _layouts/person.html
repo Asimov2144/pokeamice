@@ -11,9 +11,15 @@ supplies portrait(s), aliases and role. Characters and merely-cited figures
 carry a `kind` in the registry and never appear as co-interviewees.
 {%- endcomment -%}
 {% assign who = page.person %}
-{% assign me = site.data.people | where: "name", who | first %}
-{% assign mine = site.posts | where_exp: "p", "p.entities.people contains who" %}
-{% assign mentions = site.posts | where_exp: "p", "p.mentions.people contains who" %}
+{% assign me = site.data.people | where: "slug", page.slug | first %}
+{% if me.kind == "staff" %}
+  {%- comment -%} credits-only people are never tagged in a post (the registry holds every tagged name), so skip the post scans: 500+ such pages {%- endcomment -%}
+  {% assign mine = "" | split: "" %}
+  {% assign mentions = "" | split: "" %}
+{% else %}
+  {% assign mine = site.posts | where_exp: "p", "p.entities.people contains who" %}
+  {% assign mentions = site.posts | where_exp: "p", "p.mentions.people contains who" %}
+{% endif %}
 {% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
 {% assign years_first = by_year | first %}
 {% assign years_last = by_year | last %}
@@ -44,6 +50,8 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {% assign topics_u = topics_all | uniq %}
 {% assign portraits = "" | split: "" %}
 {% if me.portraits %}{% assign dated = me.portraits | where_exp: "ph", "ph.year" | sort: "year" %}{% assign undated = me.portraits | where_exp: "ph", "ph.year == nil" %}{% assign portraits = dated | concat: undated %}{% endif %}
+{%- comment -%} game credits (tools/build-credits-site.py), keyed by slug; a staff-only person (kind: staff) has these and no posts {%- endcomment -%}
+{% assign cr = site.data.credits_people[page.slug] %}
 
 <div id="main" role="main">
   <div class="archive archive--person">
@@ -60,7 +68,8 @@ carry a `kind` in the registry and never appear as co-interviewees.
             <p class="person__kicker"><a href="{{ '/people/' | relative_url }}">人物库</a></p>
             <h1 class="person__name">{{ who }}</h1>
             {% if me.aliases %}<p class="person__aliases">{{ me.aliases | join: " · " }}</p>{% endif %}
-            {% if me.role or me.org %}<p class="person__role">{{ me.org }}{% if me.org and me.role %} · {% endif %}{{ me.role }}</p>{% endif %}
+            {% if me.role or me.org %}<p class="person__role">{{ me.org }}{% if me.org and me.role %} · {% endif %}{{ me.role }}</p>
+            {% elsif cr.latest_role %}{% assign lg = site.data.credits_games | where: "slug", cr.latest_game | first %}<p class="person__role">{{ lg.title_zh }} · {{ cr.latest_role }}</p>{% endif %}
             {% if topics_u.size > 0 %}
             <p class="person__topics">
               {% for t in topics_u limit: 8 %}<a href="{{ '/search/?q=' | append: t | relative_url }}">{{ t }}</a>{% endfor %}
@@ -82,6 +91,30 @@ carry a `kind` in the registry and never appear as co-interviewees.
         </section>
         {% endif %}
 
+        {% if cr %}
+        <section class="person__pubs person__credits" aria-label="参与作品">
+          <div class="person__pubs-head">
+            <h2>参与作品 <small>{{ cr.credits.size }} 条署名 · {{ cr.games }} 作</small></h2>
+            <a class="person__credits-all" href="{{ '/credits/staff/' | relative_url }}">历作 staff 总表</a>
+          </div>
+          <table class="person__table person__credits-table">
+            <thead><tr><th scope="col">作品</th><th scope="col">职务</th><th scope="col" class="is-num">年份</th></tr></thead>
+            <tbody>
+              {% for c in cr.credits %}
+                {% assign gi = site.data.credits_games | where: "slug", c.game | first %}
+                {% assign wi = nil %}{% if gi.work %}{% assign wi = site.data.works | where: "name", gi.work | first %}{% endif %}
+                <tr{% unless gi.core %} class="is-spin"{% endunless %}>
+                  <td><a class="person__pub-title" href="{{ '/credits/' | append: c.game | append: '/' | relative_url }}">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy" width="16" height="16" style="vertical-align:-3px;margin-right:4px">{% endif %}{{ gi.title_zh }}</a></td>
+                  <td class="person__credits-role">{% if c.lead %}<b>{{ c.lead }}</b>{% endif %}{{ c.role }}{% if c.role_ja %}<small>{{ c.role_ja }}</small>{% endif %}</td>
+                  <td class="is-num">{{ gi.year }}</td>
+                </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </section>
+        {% endif %}
+
+        {% if mine.size > 0 or cr == nil %}
         <section class="person__pubs" aria-label="收录条目">
           <div class="person__pubs-head">
             <h2>收录条目 <small>{{ mine.size }}</small></h2>
@@ -119,6 +152,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
             </tbody>
           </table>
         </section>
+        {% endif %}
 
         {% if mentions.size > 0 %}
         <section class="person__section person__mentions-sec" aria-label="被提及">
@@ -138,6 +172,7 @@ carry a `kind` in the registry and never appear as co-interviewees.
             {% if by_year.size > 0 %}<div><dt>年份</dt><dd>{{ years_first.name }}{% if years_last.name != years_first.name %}–{{ years_last.name | slice: 2, 2 }}{% endif %}</dd></div>{% endif %}
             <div><dt>作品</dt><dd>{{ works_u.size }}</dd></div>
             <div><dt>来源</dt><dd>{{ pubs_u.size }}</dd></div>
+            {% if cr %}<div><dt>署名</dt><dd>{{ cr.games }}<small> 作</small></dd></div><div><dt>署名年份</dt><dd>{{ cr.first }}–{{ cr.last | slice: 2, 2 }}</dd></div>{% endif %}
           </dl>
           {% if by_year.size > 1 %}
           <ol class="person__chart" aria-label="按年份">

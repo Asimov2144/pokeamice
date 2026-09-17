@@ -1,0 +1,216 @@
+---
+layout: default
+---
+{%- comment -%}
+Every person credited on a core (Game Freak) title, one row each, with a
+cell per game: category + rank mark, the full role on hover. The data is
+assets/data/credits-staff.json (tools/build-credits-site.py); the table is
+built in the browser because 3000 x 28 cells is far past what Liquid should
+render. Sorting, filtering and paging are all client side.
+
+Reading aids: the scroll box is sized to the viewport so the header rows
+(generation + game) and the name column stay put on both axes; game columns
+are tinted by generation, and hovering a cell lights up its whole column and
+row so a mark can be traced back to its game and person.
+{%- endcomment -%}
+<div id="main" role="main">
+  <div class="archive archive--person archive--credits archive--credits-staff">
+    <section class="people credits credits--staff">
+      <header class="people__head">
+        <p class="person__kicker"><a href="{{ '/credits/' | relative_url }}">制作名单</a></p>
+        <h1 class="person__name">历作 staff 总表</h1>
+        <p class="people__lede">Game Freak 核心作品的每一位署名者一行，一作一格：格子写类别和级别，悬停看完整职务。
+          默认按参与作数排序；用上面的框搜名字、假名或汉字。有人物页的名字可以点开。表头与人名列固定不动，列底色按世代交替，悬停会点亮整列整行。</p>
+      </header>
+
+      <div class="credits__controls">
+        <input type="search" id="credits-q" placeholder="搜名字 / 假名 / 汉字" autocomplete="off">
+        <label>至少 <select id="credits-min"><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="5">5</option><option value="10">10</option></select> 部核心作品</label>
+        <label>类别 <select id="credits-cat"><option value="">全部</option><option value="Dir">总监/制作人</option><option value="Plan">企划</option><option value="Prog">程序</option><option value="Art">美术</option><option value="Sound">音乐</option><option value="Mgmt">管理/协调</option><option value="Debug">调试</option><option value="Loc/QA">本地化/海外QA</option></select></label>
+        <label><input type="checkbox" id="credits-lead"> 只看 lead 以上</label>
+        <span id="credits-count" class="credits__count"></span>
+      </div>
+      <p class="credits__legend">类别：<i class="cat-Dir">Dir</i> 总监/制作人 · <i class="cat-Plan">Plan</i> 企划 · <i class="cat-Prog">Prog</i> 程序 · <i class="cat-Art">Art</i> 美术 · <i class="cat-Sound">Sound</i> 音乐 · <i class="cat-Mgmt">Mgmt</i> 管理 · <i class="cat-Debug">Debug</i> 调试 · <i class="cat-Loc/QA">Loc</i> 本地化/QA · <i class="cat-Thanks">Thx</i> 特别感谢　级别：<code>*</code> lead · <code>^</code> section / art director · <code>!</code> director / producer · <code>!!</code> executive producer</p>
+
+      <div class="credits__scroll" id="credits-scroll">
+        <table class="credits__table" id="credits-table">
+          <thead><tr id="credits-gens"></tr><tr id="credits-head"></tr></thead>
+          <tbody id="credits-body"></tbody>
+        </table>
+        <style id="credits-hover"></style>
+      </div>
+      <p class="credits__more"><button type="button" id="credits-more">再显示 200 行</button></p>
+    </section>
+  </div>
+</div>
+
+<div class="credits__card" id="credits-card" hidden role="dialog" aria-label="署名详情">
+  <button type="button" class="credits__card-close" id="credits-card-close" aria-label="关闭">×</button>
+  <div class="credits__card-game" id="credits-card-game"></div>
+  <div class="credits__card-person" id="credits-card-person"></div>
+  <dl class="credits__card-facts" id="credits-card-facts"></dl>
+  <p class="credits__card-trail" id="credits-card-trail"></p>
+</div>
+
+<script>
+(function () {
+  var url = "{{ '/assets/data/credits-staff.json' | relative_url }}";
+  var q = document.getElementById("credits-q"), min = document.getElementById("credits-min"), cat = document.getElementById("credits-cat"),
+      lead = document.getElementById("credits-lead"), count = document.getElementById("credits-count"),
+      gens = document.getElementById("credits-gens"), head = document.getElementById("credits-head"), body = document.getElementById("credits-body"),
+      more = document.getElementById("credits-more"), box = document.getElementById("credits-scroll"), hover = document.getElementById("credits-hover");
+  var data = null, view = [], shown = 0, PAGE = 200, sortKey = "c", sortDir = -1;
+  var MARK = ["", "*", "^", "!", "!!"];
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); }
+  function tint(g) { return " gen-" + (g.gen % 2 ? "odd" : "even"); }
+
+  // the box takes the rest of the viewport, so the page itself never has to scroll past the table:
+  // that is what keeps the sticky header rows and the sticky name column in view
+  function fit() {
+    // nearly a full viewport: scroll the page to the table and it fills the screen, header rows and name column pinned
+    box.style.height = Math.max(420, window.innerHeight - 96) + "px";
+  }
+
+  function buildHead() {
+    var g = "", h = '<th class="is-name" data-sort="n">人</th><th class="is-num" data-sort="c">作</th><th class="is-num" data-sort="f">首</th><th class="is-num" data-sort="l">末</th>';
+    var runs = [], i;
+    data.games.forEach(function (x, k) {
+      var last = runs[runs.length - 1];
+      if (last && last.gen === x.gen) last.n++; else runs.push({gen: x.gen, n: 1});
+      h += '<th class="is-game' + tint(x) + '" data-col="' + k + '" title="' + esc(x.title) + '（' + x.year + '）"><span>' + esc(x.abbr) + '</span><small>' + x.year + '</small></th>';
+    });
+    g = '<th class="is-name" colspan="4"></th>';
+    runs.forEach(function (r) { g += '<th class="is-gen' + tint(r) + '" colspan="' + r.n + '">' + esc(data.gens[r.gen] || "") + '</th>'; });
+    gens.innerHTML = g;
+    head.innerHTML = h;
+    Array.prototype.forEach.call(head.querySelectorAll("th[data-sort]"), function (th) {
+      th.addEventListener("click", function () {
+        var k = th.dataset.sort;
+        if (sortKey === k) sortDir = -sortDir; else { sortKey = k; sortDir = (k === "n") ? 1 : -1; }
+        apply();
+      });
+    });
+  }
+
+  function filter() {
+    var s = q.value.trim().toLowerCase(), m = parseInt(min.value, 10), c = cat.value, onlyLead = lead.checked;
+    view = data.people.filter(function (p) {
+      if (p.c < m) return false;
+      if (s && !((p.n || "").toLowerCase().indexOf(s) >= 0 || (p.k || "").indexOf(s) >= 0 || (p.y || "").indexOf(s) >= 0)) return false;
+      if (c || onlyLead) {
+        var ok = false;
+        for (var g in p.r) { var r = p.r[g]; if ((!c || r[0] === c) && (!onlyLead || r[1] >= 1)) { ok = true; break; } }
+        if (!ok) return false;
+      }
+      return true;
+    });
+    view.sort(function (a, b) {
+      var x = a[sortKey], y = b[sortKey];
+      if (sortKey === "n") return sortDir * String(x).localeCompare(String(y));
+      if (x === y) return b.c - a.c || String(a.n).localeCompare(String(b.n));
+      return sortDir * (x - y);
+    });
+  }
+
+  function row(p, i) {
+    rowIndex[i] = p;
+    var name = p.s ? '<a href="{{ '/people/' | relative_url }}' + esc(p.s) + '/">' + esc(p.n) + '</a>' : esc(p.n);
+    var sub = [p.k, p.y].filter(Boolean).map(esc).join(" · ");
+    var h = '<tr data-i="' + i + '"><td class="is-name">' + name + (sub ? '<small>' + sub + '</small>' : '') + '</td><td class="is-num">' + p.c + '</td><td class="is-num">' + p.f + '</td><td class="is-num">' + p.l + '</td>';
+    data.games.forEach(function (g, k) {
+      var r = p.r[g.slug];
+      if (!r) { h += '<td class="is-game is-empty' + tint(g) + '" data-col="' + k + '"></td>'; return; }
+      h += '<td class="is-game' + tint(g) + '" data-col="' + k + '" title="' + esc(p.n) + ' · ' + esc(g.title) + '（' + g.year + '）：' + esc(r[2]) + '"><span class="cat-' + esc(r[0]) + (r[1] >= 1 ? ' rank-' + r[1] : '') + '">' + esc(r[0] === "Loc/QA" ? "Loc" : (r[0] === "Thanks" ? "Thx" : r[0])) + MARK[r[1]] + '</span></td>';
+    });
+    return h + "</tr>";
+  }
+
+  function render(reset) {
+    if (reset) { body.innerHTML = ""; shown = 0; rowIndex = {}; }
+    var end = Math.min(view.length, shown + PAGE), h = "";
+    for (var i = shown; i < end; i++) h += row(view[i], i);
+    body.insertAdjacentHTML("beforeend", h);
+    shown = end;
+    more.style.display = shown < view.length ? "" : "none";
+    count.textContent = view.length + " 人，显示 " + shown;
+  }
+
+  function apply() { filter(); render(true); }
+
+  // crosshair: light up the hovered column (header included) and row
+  var lastCol = null;
+  body.addEventListener("mouseover", function (e) {
+    var td = e.target.closest("td");
+    var col = td && td.dataset.col;
+    if (col === lastCol) return;
+    lastCol = col;
+    hover.textContent = col == null ? "" :
+      '.credits__table td[data-col="' + col + '"], .credits__table th[data-col="' + col + '"] { background-color: rgba(255, 196, 0, 0.16) !important; }';
+  });
+  body.addEventListener("mouseleave", function () { lastCol = null; hover.textContent = ""; });
+
+  // the card: click a mark to see the game, the person and the credit spelled out
+  var card = document.getElementById("credits-card"), cardGame = document.getElementById("credits-card-game"),
+      cardPerson = document.getElementById("credits-card-person"), cardFacts = document.getElementById("credits-card-facts"),
+      cardTrail = document.getElementById("credits-card-trail"), peopleBase = "{{ '/people/' | relative_url }}", creditsBase = "{{ '/credits/' | relative_url }}";
+  var rowIndex = {};  // name → person, filled at render
+
+  function gameOf(slug) { for (var i = 0; i < data.games.length; i++) if (data.games[i].slug === slug) return data.games[i]; return null; }
+
+  function showCard(p, g, cell) {
+    var r = p.r[g.slug];
+    cardGame.innerHTML = (g.icon ? '<img src="' + esc(g.icon) + '" alt="" width="40" height="40">' : '<span class="credits__card-blank">' + g.year + '</span>') +
+      '<div><b><a href="' + creditsBase + esc(g.slug) + '/">' + esc(g.title) + '</a></b><small>' + esc(g.short) + ' · ' + g.year + ' · ' + esc(g.developer) + '</small></div>';
+    var initial = (p.k || p.n || "?").charAt(0);
+    cardPerson.innerHTML = (p.a ? '<img src="' + esc(p.a) + '" alt="" width="44" height="44">' : '<span class="credits__card-initial" aria-hidden="true">' + esc(initial) + '</span>') +
+      '<div><b>' + (p.s ? '<a href="' + peopleBase + esc(p.s) + '/">' + esc(p.n) + '</a>' : esc(p.n)) + '</b>' +
+      ([p.k, p.y].filter(Boolean).length ? '<small>' + [p.k, p.y].filter(Boolean).map(esc).join(" · ") + '</small>' : '') + '</div>';
+    var roles = (r[3] || [[r[2]]]).map(function (x) { return '<span>' + esc(x[0]) + (x[1] ? '<small>' + esc(x[1]) + '</small>' : '') + '</span>'; }).join("");
+    var first = null, last = null, trail = "";
+    data.games.forEach(function (x) {
+      var c = p.r[x.slug];
+      if (!c) return;
+      if (!first) first = x;
+      last = x;
+      trail += '<i class="cat-' + esc(c[0]) + (x.slug === g.slug ? ' is-here' : '') + '" title="' + esc(x.title) + '（' + x.year + '）：' + esc(c[2]) + '">' + esc(x.abbr) + MARK[c[1]] + '</i>';
+    });
+    cardFacts.innerHTML =
+      '<div><dt>该作职务</dt><dd class="is-roles">' + roles + '</dd></div>' +
+      '<div><dt>类别 · 级别</dt><dd>' + esc(data.cat_zh[r[0]] || r[0]) + (r[1] ? ' · ' + esc(data.rank_zh[r[1]] || "") : '') + '</dd></div>' +
+      '<div><dt>首次参与</dt><dd>' + esc(first.title) + '（' + first.year + '）' + (p.f < first.year ? '<small>外传更早：' + p.f + '</small>' : '') + '</dd></div>' +
+      '<div><dt>最近参与</dt><dd>' + esc(last.title) + '（' + last.year + '）' + (p.l > last.year ? '<small>外传更晚：' + p.l + '</small>' : '') + '</dd></div>' +
+      '<div><dt>参与作数</dt><dd>核心 ' + p.c + ' 作' + (p.g > p.c ? ' · 含外传 ' + p.g + ' 作' : '') + '</dd></div>';
+    cardTrail.innerHTML = trail;
+    card.hidden = false;
+    // place it under the cell, flipping above / clamping sideways when the viewport runs out
+    var rect = cell.getBoundingClientRect(), W = card.offsetWidth, H = card.offsetHeight, pad = 8;
+    var left = Math.min(Math.max(pad, rect.left), window.innerWidth - W - pad);
+    var top = rect.bottom + 6;
+    if (top + H > window.innerHeight - pad) top = Math.max(pad, rect.top - H - 6);
+    card.style.left = left + "px";
+    card.style.top = top + "px";
+  }
+  function hideCard() { card.hidden = true; }
+
+  body.addEventListener("click", function (e) {
+    if (e.target.closest("a")) return;
+    var td = e.target.closest("td.is-game");
+    if (!td || td.classList.contains("is-empty")) { hideCard(); return; }
+    var tr = td.parentNode, p = rowIndex[tr.dataset.i];
+    var g = data.games[parseInt(td.dataset.col, 10)];
+    if (p && g && p.r[g.slug]) showCard(p, g, td);
+  });
+  document.getElementById("credits-card-close").addEventListener("click", hideCard);
+  document.addEventListener("click", function (e) { if (!card.hidden && !card.contains(e.target) && !e.target.closest("#credits-body")) hideCard(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape") hideCard(); });
+  box.addEventListener("scroll", hideCard, {passive: true});
+
+  fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+    data = d; buildHead(); apply(); fit();
+    [q, min, cat, lead].forEach(function (el) { el.addEventListener(el === q ? "input" : "change", function () { hideCard(); apply(); }); });
+    more.addEventListener("click", function () { render(false); });
+    window.addEventListener("resize", function () { fit(); hideCard(); });
+  }).catch(function () { count.textContent = "名单数据加载失败"; });
+})();
+</script>

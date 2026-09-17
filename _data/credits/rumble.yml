@@ -1,0 +1,312 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble + https://wiki.pokemonwiki.com/wiki/乱戦!_ポケモンスクランブルのスタッフクレジット
+slug: rumble
+title: Staff of Pokémon Rumble
+work: null
+year: 2009
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble
+count: 86
+source_ja: https://wiki.pokemonwiki.com/wiki/乱戦!_ポケモンスクランブルのスタッフクレジット
+ja_alignment:
+  ja_total: 55
+  ja_matched: 53
+  ja_positional: 2
+  ja_only_added: 1
+sections:
+- path:
+  - Director
+  names:
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  ja_role: ディレクション
+- path:
+  - Game Planning
+  names:
+  - name: OBATA Miki
+    ja: おばた みき
+    ja_match: romaji
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  - name: Watanabe Hirotake
+    ja: わたなべ ひろたけ
+    ja_match: romaji
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    ja_match: romaji
+  ja_role: プランニング
+- path:
+  - Programming Leader
+  names:
+  - name: Nayuta Taga
+    ja: たが なゆた
+    ja_match: romaji
+  ja_role: プログラムリーダー
+- path:
+  - Programming
+  names:
+  - name: Takayuki Ito
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Ein Terakawa
+    ja_match: positional
+    ja: てらかわ あいん
+  - name: Hisato Matsumoto
+    ja: まつもと ひさと
+    ja_match: romaji
+  - name: Watanabe Hirotake
+    ja: わたなべ ひろたけ
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: すま ようすけ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Sound
+  names:
+  - name: OBATA Miki
+    ja: おばた みき
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Design
+  names:
+  - name: Shin Naka
+    ja: なか しん
+    ja_match: romaji
+  - name: Hiroyuki Yamanaka
+    ja: やまなか ひろゆき
+    ja_match: romaji
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  ja_role: デザイン
+- path:
+  - Test Play
+  names:
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  ja_role: テストプレイ
+- path:
+  - Management
+  names:
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    ja_match: romaji
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  ja_role: マネージメント
+- path:
+  - Debug
+  names:
+  - name: Yuki Tanikawa
+    ja: たにかわ ゆうき
+    ja_match: romaji
+  - name: Toru Inage
+    ja: いなげ とおる
+    ja_match: romaji
+  - name: Kenta Nakanishi
+    ja: なかにし けんた
+    ja_match: romaji
+  - name: Mario Club Co., Ltd.
+    kind: company
+  ja_role: デバッグサポート
+- path:
+  - English Localization
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryo
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+  - name: Eve Eschenbacher
+    footnote: true
+- path:
+  - English-Version Editing
+  names:
+  - name: Blaise Selby
+  - name: Kellyn Ballard
+- path:
+  - English-Version Coordinators
+  names:
+  - name: Rie Fujiwara
+  - name: Seth McMahill
+  - name: Joel Simon
+- path:
+  - English-Version NOA Product Testing
+  names:
+  - name: Masayasu Nakata
+  - name: Kyle Hudson
+    kind: company
+  - name: Eric Bush
+  - name: Sean Egan
+  - name: Tom Hertzog
+  - name: Rosa Wampler
+  - name: Allen Perez
+  - name: Makiko Szolas
+  - name: Teresa Lillygren
+  - name: Joshua Newman
+- path:
+  - Game Design Advisors
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: ゲームデザインアドバイザー
+- path:
+  - Pokémon Graphic Supervisors
+  names:
+  - name: Yuuri Sakurai
+    ja: さくらい ゆうり
+    ja_match: romaji
+  - name: Yufuko Saito
+    ja: さいとう ゆふこ
+    ja_match: romaji
+  - name: Yukiko Kanagawa
+    ja: かながわ ゆきこ
+    ja_match: romaji
+  - name: Nobue Kamikawabata
+    ja: かみかわばた のぶえ
+    ja_match: romaji
+  ja_role: ポケモンかんしゅう
+- path:
+  - Artwork
+  names:
+  - name: Nanoko Kinoshita
+    ja_match: positional
+    ja: きのした ななこ
+  - name: Kiyomi Itani
+    ja: いたに きよみ
+    ja_match: romaji
+  - name: Yoshinori Oda
+    ja: おだ よしのり
+    ja_match: romaji
+  - name: Yurie Sato
+    ja: さとう ゆりえ
+    ja_match: romaji
+  - name: Takanao Kondo
+    ja: こんどう たかなお
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - English-Version Graphic Design
+  names:
+  - name: Eric Medalle
+  - name: Kevin Lalli
+  - name: Bridget O'Neill
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Tomotaka Komura
+  - name: Susumu Fukunaga
+    ja: ふくなが すすむ
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: すさい がく
+    ja_match: romaji
+  - name: Masami Tanaka
+  - name: Yoshinari Hashabe
+  - name: Atsushi Sugimoto
+    ja: すぎもと あつし
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳次
+    ja_match: romaji
+  - name: Ayako Kajiwara
+  - name: Kou Ohnuma
+    ja: おおぬま こう
+    ja_match: romaji
+  - name: Erika Yamamoto
+    ja: やまもと えりか
+    ja_match: romaji
+  - name: Kenji Okubo
+  - name: Jeff Miller
+  - name: Kim Moore
+  - name: Tim Bechtel
+  - name: Nathan Clark
+  - name: Yoshinari Hashibe
+    name_source: ja-only
+    ja: はしべ よしなり
+    ja_match: ja-only
+  ja_role: スペシャルサンクス
+- path:
+  - Product Coordinators
+  names:
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: あんどう かおり
+    ja_match: romaji
+  - name: Hideaki Araki
+    ja: あらき ひであき
+    ja_match: romaji
+  ja_role: プロダクションコーディネーター
+- path:
+  - Development Producers
+  names:
+  - name: Ryosuke Hanawa
+    ja: はなわ りょうすけ
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  ja_role: かいはつプロデューサー
+- path:
+  - Producers
+  names:
+  - name: Mikiko Ohashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: みやはら としお
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+ja_unmatched:
+- kana: スーパーマリオクラブ
+  role: デバッグ

@@ -1,0 +1,1242 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Shuffle + https://wiki.pokemonwiki.com/wiki/ポケとるのスタッフクレジット
+slug: shuffle
+title: Staff of Pokémon Shuffle
+work: null
+year: 2015
+developer: Genius Sonority
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Shuffle
+count: 373
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケとるのスタッフクレジット
+ja_alignment:
+  ja_total: 163
+  ja_matched: 162
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - General Producer
+  names:
+  - name: Manabu Yamana
+    ja: Manabu Yamana
+    kanji: 山名学
+    ja_match: romaji
+  ja_role: Developed By Genius Sonority Inc. / General Producer
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Lead Planner
+  names:
+  - name: Tetsuro Itami
+    ja: Tetsuro Itami
+    ja_match: romaji
+  ja_role: Lead Planner
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Lead Programmer
+  names:
+  - name: Masayuki Kawamoto
+    ja: Masayuki Kawamoto
+    ja_match: romaji
+  ja_role: Lead Programmer
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Art Director
+  names:
+  - name: Yoshinori Obishaku
+    ja: Yoshinori Obishaku
+    ja_match: romaji
+  ja_role: Art Director
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Planners
+  names:
+  - name: Yukitsugu Iraha
+    ja: Yukitsugu Iraha
+    ja_match: romaji
+  - name: Ayumi Kobayashi
+    ja: Ayumi Kobayashi
+    ja_match: romaji
+  - name: Hisashi Nakahashi
+    ja: Hisashi Nakahashi
+    ja_match: romaji
+  - name: Yuta Matsumoto
+    ja: Yuta Matsumoto
+    ja_match: romaji
+  - name: Shonosuke Morisue
+    ja: Shonosuke Morisue
+    ja_match: romaji
+  ja_role: Planners
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Programmers
+  names:
+  - name: Mitsunobu Koyama
+    ja: Mitsunobu Koyama
+    ja_match: romaji
+  - name: Yusuke Mizukoshi
+    ja: Yusuke Mizukoshi
+    ja_match: romaji
+  - name: Kosuke Yonaiyama
+    ja: Kosuke Yonaiyama
+    ja_match: romaji
+  - name: Takumi Shigeno
+    ja: Takumi Shigeno
+    ja_match: romaji
+  - name: Ryosuke Ogawa
+    ja: Ryosuke Ogawa
+    ja_match: romaji
+  - name: Susumu Murano
+    ja: Susumu Murano
+    ja_match: romaji
+  ja_role: Programmers
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Designers
+  names:
+  - name: Takahiro Masuzawa
+    ja: Takahiro Masuzawa
+    ja_match: romaji
+  - name: Marina Fukui
+    ja: Marina Fukui
+    ja_match: romaji
+  - name: Yasuhiro Abe
+    ja: Yasuhiro Abe
+    ja_match: romaji
+  - name: Kumiko Ito
+  - name: Hitomi Uchikawa
+    ja: Hitomi Uchikawa
+    ja_match: romaji
+  - name: Kaori Suda
+    ja: Kaori Suda
+    ja_match: romaji
+  - name: Masahiro Shigihara
+  - name: Masahiko Ito
+  - name: Kaori Yasuhiro
+  - name: Toru Sakuragi
+    ja: Toru Sakuragi
+    ja_match: romaji
+  - name: Shiwa Shiori
+  - name: Tsunado Eiko
+  - name: Yosuke Uehara
+  - name: Yurina Kataoka
+  - name: Takaaki Ishii
+  - name: Satoshi Fudaba
+  - name: Suzuka Kuniyoshi
+  - name: Akihiro Okada
+    ja: Akihiro Okada
+    ja_match: romaji
+  - name: Reiko Minagawa
+    ja: Reiko Minagawa
+    ja_match: romaji
+  - name: Takuya Matsuda
+    ja: Takuya Matsuda
+    ja_match: romaji
+  - name: Saori Takabe
+    ja: Saori Takabe
+    ja_match: romaji
+  - name: Toshiyuki Hashimoto
+  - name: Tatsuki Sato
+  ja_role: Designers
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Sound
+  names:
+  - name: Tsukasa Tawada
+    ja: Tsukasa Tawada
+    ja_match: romaji
+  ja_role: Sound
+- path:
+  - Special Thanks
+  names:
+  - name: Chihiro Kobayashi
+    ja: Chihiro Kobayashi
+    ja_match: romaji
+  - name: Kaoru Nagai
+    ja: Kaoru Nagai
+    ja_match: romaji
+  - name: Akira Fukushima
+    ja: Akira Fukushima
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Design
+  names:
+  - name: kusanagi.Inc.
+    kind: company
+  - name: sunbird,Inc
+    kind: company
+  - name: NAC Inc.
+    kind: company
+    ja: NAC Inc.
+    ja_match: romaji
+  - name: CREEK & RIVER Co.,Ltd.
+    kind: company
+  - name: UNICO INC.
+    kind: company
+    ja: UNICO INC.
+    ja_match: romaji
+  - name: ALPHA-UNIT CO.,LTD.
+    kind: company
+    ja: ALPHA-UNIT CO.,LTD.
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Developed By Genius Sonority Inc.
+  - Planning
+  names:
+  - name: DESIGN ACT Inc.
+    kind: company
+    ja: DESIGN ACT Inc.
+    ja_match: romaji
+  ja_role: Planning
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Icon Art Director
+  names:
+  - name: Atsuko Ujiie
+    ja: Atsuko Ujiie
+    kanji: 氏家淳子
+    ja_match: romaji
+  ja_role: Pokémon Icon Art created by Creatures Inc. / Icon Art Director
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Icon Artwork
+  names:
+  - name: Hiroki Fujiwara
+    ja: Hiroki Fujiwara
+    ja_match: romaji
+  - name: Atsuko Ujiie
+  - name: Kaori Abe
+    ja: Kaori Abe
+    ja_match: romaji
+  - name: Mai Ueda
+    ja: Mai Ueda
+    ja_match: romaji
+  - name: Akiko Soma
+    ja: Akiko Soma
+    ja_match: romaji
+  - name: Kazue Komatsu
+    ja: Kazue Komatsu
+    ja_match: romaji
+  - name: Marie Okada
+    ja: Marie Okada
+    ja_match: romaji
+  - name: Hitomi Suzuki
+    ja: Hitomi Suzuki
+    ja_match: romaji
+  - name: Tae Fujishima
+    ja: Tae Fujishima
+    ja_match: romaji
+  ja_role: Icon Artwork
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Project Managers
+  names:
+  - name: Masamichi Anazawa
+    ja: Masamichi Anazawa
+    ja_match: romaji
+  - name: Miku Majima
+    ja: Miku Majima
+    ja_match: romaji
+  ja_role: Project Managers
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo Co., Ltd.
+  - Senior Executive Producer
+  names:
+  - name: Satoru Iwata
+- path:
+  - Executive Producer
+  names:
+  - name: Tatsumi Kimishima
+- path:
+  - General Producer
+  names:
+  - name: Shinya Takahashi
+- path:
+  - Producer
+  names:
+  - name: Hitoshi Yamagami
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo Co., Ltd.
+  - Coordinators
+  names:
+  - name: Kaori Ando
+  - name: Yuki Okada
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo Co., Ltd.
+  - Technical Support
+  names:
+  - name: Shotaro Iwanaga
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Debugged By Mario Club Co., Ltd.
+  - Debug Management
+  names:
+  - name: Motoki Nakajima
+  - name: Masao Yamabe
+  - name: Nobuya Sasaki
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of America
+  - NOA Localization Support
+  names:
+  - name: Ryo Uchida
+  - name: Akiko Kasugayama
+  - name: Yuki Hirata
+  - name: Joel Simon
+  - name: Terry Chan
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of America
+  - NOA Product Testing
+  names:
+  - name: Kentaro Nishimura
+  - name: Seth Hanser
+  - name: Sean Egan
+  - name: Tomoko Mikami
+  - name: Andy Kolden
+  - name: Kriangkrai Buapetch
+  - name: Nami Jamesson
+  - name: Kathy Huguenard
+  - name: Michael Sahlin
+  - name: Pablo Reyes
+  - name: Sebastian Galloway
+  - name: Brett Levitan
+  - name: Chris Kuehnberger
+  - name: Product Testing Technicians
+    kind: company
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of Europe GmbH
+  - NOE Localization Support
+  names:
+  - name: Kazunari Suzuki
+  - name: Ryoko Sawabe
+  - name: Canela Rodal
+  - name: Patrick Thorenz
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of Europe GmbH
+  - NOE QA Coordination
+  names:
+  - name: Jesús Gutiérrez Cuadra
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of Europe GmbH
+  - NOE Quality Assurance
+  names:
+  - name: Matthew David Jones
+  - name: Damien Brichard
+  - name: Andrea Marino
+  - name: Hannah Siebert
+  - name: Teresa Dugnol
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of Europe GmbH
+  - Special Thanks - Localization
+  names:
+  - name: Thomas Candland
+  - name: John Kratzer
+  - name: Michael Bales
+  - name: Katia Percca Ragas
+  - name: Shari Brown
+  - name: NOE Communication Coordinator Group
+    kind: company
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Nintendo of Europe GmbH
+  - Manual Editing
+  names:
+  - name: Yasushi Matsubara
+  - name: Michael Barry
+  - name: Stefan Dickhardt
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Pokémon Produced By The Pokémon Company / Executive Producer
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Kazunori Sugiura
+    ja: Kazunori Sugiura
+    ja_match: romaji
+  ja_role: General Producers
+- path:
+  - Producer
+  names:
+  - name: Naoto Ueoka
+    ja: Naoto Ueoka
+    ja_match: romaji
+  ja_role: Producer
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Director
+  names:
+  - name: Shunsuke Takagi
+    ja: Shunsuke Takagi
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Coordinators
+  names:
+  - name: Chitose Kawakami
+    ja: Chitose Kawakami
+    ja_match: romaji
+  - name: Takumi Hashimoto
+    ja: Takumi Hashimoto
+    ja_match: romaji
+  - name: Makoto Higashi
+    ja: Makoto Higashi
+    ja_match: romaji
+  - name: Yuui Hayashi
+    ja: Yuui Hayashi
+    ja_match: romaji
+  ja_role: Coordinators
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Assistants
+  names:
+  - name: Kazuki Sakagami
+  - name: Saori Yoshitake
+    ja: Saori Yoshitake
+    ja_match: romaji
+  ja_role: Assistants
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Technical Adviser
+  names:
+  - name: Takeshi Seki
+    ja: Takeshi Seki
+    ja_match: romaji
+  ja_role: Technical Adviser
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Test Adviser
+  names:
+  - name: Kayo Nakata
+    ja: Kayo Nakata
+    ja_match: romaji
+  ja_role: Test Adviser
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Pokémon Brand Management
+  names:
+  - name: Ryohei Itakura
+    ja: Ryohei Itakura
+    ja_match: romaji
+  - name: Rieko Kuji
+    ja: Rieko Kuji
+    ja_match: romaji
+  - name: Yuka Yoshihara
+    ja: Yuka Yoshihara
+    ja_match: romaji
+  ja_role: Pokémon Brand Management
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Legal
+  names:
+  - name: Yusuke Tomita
+    ja: Yusuke Tomita
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+    ja: Yosuke Senoo
+    ja_match: romaji
+  - name: Yohei Yamamoto
+    ja: Yohei Yamamoto
+    ja_match: romaji
+  ja_role: Customer Support
+- path:
+  - Special Thanks
+  names:
+  - name: Yasunori Suenaga
+    ja: Yasunori Suenaga
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_match: romaji
+  - name: Daigorotoyohido Suga
+    ja_match: positional
+    ja: Daigorotoyohide Suga
+  - name: Kenichi Arai
+    ja: Kenichi Arai
+    ja_match: romaji
+  - name: Naoki Suzuki
+    ja: Naoki Suzuki
+    ja_match: romaji
+  - name: Sho Yoshimoto
+    ja: Sho Yoshimoto
+    ja_match: romaji
+  - name: Nana Sonoi
+    ja: Nana Sonoi
+    ja_match: romaji
+  - name: Sho Furutani
+    ja: Sho Furutani
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - English-Version Localization
+  names:
+  - name: Yasuhiro Usui
+    ja: Yasuhiro Usui
+    ja_match: romaji
+  - name: Mikiko Ryo
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Shinobu Taylor
+    ja: Shinobu Taylor
+    ja_match: romaji
+  - name: Bryan Olsson
+    ja: Bryan Olsson
+    ja_match: romaji
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Robert Colling
+    ja: Robert Colling
+    ja_match: romaji
+  - name: Steve Stratton
+    ja: Steve Stratton
+    ja_match: romaji
+  ja_role: English-Version Localization
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - English-Version Translation & Editing
+  names:
+  - name: Hisato Yamamori
+    ja: Hisato Yamamori
+    ja_match: romaji
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Jillian Nonaka
+    ja: Jillian Nonaka
+    ja_match: romaji
+  - name: Ben Regal
+    ja: Ben Regal
+    ja_match: romaji
+  - name: Bryson Clark
+    ja: Bryson Clark
+    ja_match: romaji
+  - name: Blaise Selby
+    ja: Blaise Selby
+    ja_match: romaji
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  ja_role: English-Version Translation & Editing
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - European-Version Localisation
+  names:
+  - name: Tadasu Hasegawa
+    ja: Tadasu Hasegawa
+    ja_match: romaji
+  - name: Chika Tanigaki
+    ja: Chika Tanigaki
+    ja_match: romaji
+  - name: Diego Luque de la Campa
+    ja: Diego Luque de la Campa
+    ja_match: romaji
+  - name: Maya Yoshida
+    ja: Maya Yoshida
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Bertrand Lecocq
+    ja: Bertrand Lecocq
+    ja_match: romaji
+  - name: Cyril Schultz
+    ja: Cyril Schultz
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Emanuel Turchetta
+    ja: Emanuel Turchetta
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  ja_role: European-Version Localization
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - European-Version Translation & Editing
+  names:
+  - name: Lylia Khrissate
+    ja: Lylia Khrissate
+    ja_match: romaji
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Olivia Bonnal
+    ja: Olivia Bonnal
+    ja_match: romaji
+  - name: Nicolas Bonnet
+    ja: Nicolas Bonnet
+    ja_match: romaji
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Clémence Amoric
+    ja: Clémence Amoric
+    ja_match: romaji
+  - name: Matthieu Béthencourt
+    ja: Matthieu Béthencourt
+    ja_match: romaji
+  - name: Franck Couée
+    ja: Franck Couée
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Marine Vallée
+    ja_match: positional
+    ja: Marina Vallée
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  - name: Servando Doval Díaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Pablo Gismero Calvo
+    ja: Pablo Gismero Calvo
+    ja_match: romaji
+  - name: Alberto Gracia Castellano
+    ja: Alberto Gracia Castellano
+    ja_match: romaji
+  - name: Enrique Joga Elvira
+    ja: Enrique Joga Elvira
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  - name: Eva Rodríguez Graña
+    ja: Eva Rodríguez Graña
+    ja_match: romaji
+  - name: Píndaro Vargas Farías
+    ja: Píndaro Vargas Farías
+    ja_match: romaji
+  - name: Isabel Zarco Manjavacas
+    ja: Isabel Zarco Manjavacas
+    ja_match: romaji
+  ja_role: European-Version Translation & Editing
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - Pokémon Produced By The Pokémon Company
+  - Localisation Quality Assurance
+  names:
+  - name: Pole To Win UK Ltd.
+    note: London Studio
+    kind: company
+    ja: Pole To Win UK Ltd.
+    ja_match: romaji
+  ja_role: Localisation Quality Assurance
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Credits for Pokémon Shuffle (3DS)
+  - DIGITAL Hearts Co., Ltd.
+  names:
+  - name: Kenta Aoki
+    ja: Kenta Aoki
+    ja_match: romaji
+  - name: Koichi Maruyama
+    ja: Koichi Maruyama
+    ja_match: romaji
+  - name: Shinichiro Naito
+    ja: Shinichiro Naito
+    ja_match: romaji
+  - name: Masashi Asahi
+    ja: Masashi Asahi
+    ja_match: romaji
+  - name: Masatoshi Nakamura
+    ja: Masatoshi Nakamura
+    ja_match: romaji
+  - name: Shinichiro Takahashi
+    ja: Shinichiro Takahashi
+    ja_match: romaji
+  - name: Ryo Fukishima
+    ja: Ryo Fukishima
+    ja_match: romaji
+  - name: Mitsuaki Shizunaga
+    ja: Mitsuaki Shizunaga
+    ja_match: romaji
+  ja_role: Debugged by DIGITAL Hearts Co., Ltd.
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: Original Pokémon Video Games Developed By GAME FREAK Inc. / Very Special Thanks
+- path:
+  - General Producer
+  names:
+  - name: Manabu Yamana
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Lead Planner
+  names:
+  - name: Tetsuro Itami
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Lead Programmer
+  names:
+  - name: Masayuki Kawamoto
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Art Director
+  names:
+  - name: Yoshinori Obishaku
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Planners
+  names:
+  - name: Yukitsugu Iraha
+  - name: Ayumi Kobayashi
+  - name: Hisashi Nakahashi
+  - name: Yuta Matsumoto
+  - name: Shonosuke Morisue
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Programmers
+  names:
+  - name: Mitsunobu Koyama
+  - name: Yusuke Mizukoshi
+  - name: Kosuke Yonaiyama
+  - name: Takumi Shigeno
+  - name: Ryosuke Ogawa
+  - name: Susumu Murano
+  - name: Katsumi Kobori
+    ja: Katsumi Kobori
+    ja_match: romaji
+  - name: Yasushi Watanabe
+  ja_role: Programmers
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Designers
+  names:
+  - name: Takahiro Masuzawa
+  - name: Marina Fukui
+  - name: Yasuhiro Abe
+  - name: Kazuki Ishikawa
+    ja: Kazuki Ishikawa
+    ja_match: romaji
+  - name: Hitomi Uchikawa
+  - name: Kaori Suda
+  - name: Toru Sakuragi
+  - name: Mizuki Ebisawa
+    ja: Mizuki Ebisawa
+    ja_match: romaji
+  - name: Sayaka Ohto
+    ja: Sayaka Ohto
+    ja_match: romaji
+  - name: Hayato Endo
+    ja: Hayato Endo
+    ja_match: romaji
+  - name: Masashi Komatsubara
+    ja: Masashi Komatsubara
+    ja_match: romaji
+  - name: Kiichi Miyao
+    ja: Kiichi Miyao
+    ja_match: romaji
+  - name: Akihiro Okada
+  - name: Reiko Minagawa
+  - name: Takuya Matsuda
+  - name: Takeshi Uesugi
+    ja: Takeshi Uesugi
+    ja_match: romaji
+  - name: Saori Takabe
+  - name: Kaori Kaji
+    ja: Kaori Kaji
+    ja_match: romaji
+  - name: Chiamin Lee
+    ja: Lee Chiamin
+    ja_match: romaji
+  ja_role: Designers
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Sound
+  names:
+  - name: Tsukasa Tawada
+- path:
+  - Special Thanks
+  names:
+  - name: Chihiro Kobayashi
+  - name: Kaoru Nagai
+  - name: Akira Fukushima
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Design
+  names:
+  - name: NAC Inc.
+    kind: company
+  - name: CREEK & RIVER Co.,Ltd.
+    kind: company
+  - name: UNICO INC.
+    kind: company
+  - name: ALPHA-UNIT CO.,LTD.
+    kind: company
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Developed By Genius Sonority Inc.
+  - Planning
+  names:
+  - name: DESIGN ACT Inc.
+    kind: company
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Icon Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Icon Artwork
+  names:
+  - name: Hiroki Fujiwara
+  - name: Miku Majima
+    ja: Miku Majima
+    ja_match: romaji
+  - name: Kaori Abe
+  - name: Mai Ueda
+  - name: Akiko Soma
+  - name: Kazue Komatsu
+  - name: Marie Okada
+  - name: Hitomi Suzuki
+  - name: Tae Fujishima
+  ja_role: Project Managers
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Icon Art Created By Creatures Inc.
+  - Project Managers
+  names:
+  - name: Masamichi Anazawa
+  - name: Miku Majima
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+  - name: Kazunori Sugiura
+- path:
+  - Producer
+  names:
+  - name: Naoto Ueoka
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Director
+  names:
+  - name: Shunsuke Takagi
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Coordinators
+  names:
+  - name: Chitose Kawakami
+  - name: Takumi Hashimoto
+  - name: Makoto Higashi
+  - name: Yui Hayashi
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Assistants
+  names:
+  - name: Kazutaka Sakagami
+    ja: Kazutaka Sakagami
+    ja_match: romaji
+  - name: Saori Yoshitake
+  ja_role: Assistants
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Technical Adviser
+  names:
+  - name: Takeshi Seki
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Test Adviser
+  names:
+  - name: Kayo Nakata
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Pokémon Brand Management
+  names:
+  - name: Ryohei Itakura
+  - name: Rieko Kuji
+  - name: Yuka Yoshihara
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Legal
+  names:
+  - name: Yusuke Tomita
+  - name: Hirotaka Hayakawa
+  - name: Michiko Takizawa
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+  - name: Yohei Yamamoto
+- path:
+  - Special Thanks
+  names:
+  - name: Yasunori Suenaga
+  - name: Takanori Sowa
+  - name: Daigorotoyohido Suga
+  - name: Kenichi Arai
+  - name: Naoki Suzuki
+  - name: Sho Yoshimoto
+  - name: Nana Sonoi
+  - name: Sho Furutani
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - North American Localization
+  - English Localization
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Mayu Todo
+  - name: Shinobu Taylor
+  - name: Bryan Olsson
+  - name: Jeff Hines
+  - name: Robert Colling
+  - name: Steve Stratton
+  ja_role: English-Version Localization
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - North American Localization
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+  - name: Sayuri Munday
+  - name: Jillian Nonaka
+  - name: Ben Regal
+  - name: Bryson Clark
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - North American Localization
+  - English Editing
+  names:
+  - name: Blaise Selby
+  - name: Eric Haddock
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - European Localisation
+  names:
+  - name: Tadasu Hasegawa
+  - name: Chika Tanigaki
+  - name: Diego Luque de la Campa
+  - name: Maya Yoshida
+  - name: Owen Preece
+  - name: Elena Nardo
+  - name: Bertrand Lecocq
+  - name: Cyril Schultz
+  - name: Pierre Gauthier
+  - name: Emanuel Turchetta
+  - name: Marvin Andrews
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - French Translation
+  names:
+  - name: Lylia Khrissate
+  - name: Aymeric Forgit
+  - name: Olivia Bonnal
+  - name: Guillaume Didier
+  - name: Nicolas Bonnet
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - French Editing
+  names:
+  - name: Clémence Amoric
+  - name: Matthieu Béthencourt
+  - name: Franck Couée
+  - name: Pierre Gauthier
+  - name: Marine Vallée
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - German Translation
+  names:
+  - name: Kathleen Kalms
+  - name: Christopher Derbort
+  - name: Michael Ecke
+  - name: Daniel Heucher
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - German Editing
+  names:
+  - name: Sina Moelleken
+  - name: Ireneusz Radko
+  - name: Claudia Thon
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Italian Translation
+  names:
+  - name: Manuela Suriano
+  - name: Guido Scarabello
+  - name: Marco Sartori
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Italian Editing
+  names:
+  - name: Silvia De Bellis
+  - name: Fabio Giusti
+  - name: Alice Troiani
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Spanish Translation
+  names:
+  - name: Servando Doval Díaz
+  - name: Pablo Gismero Calvo
+  - name: Alberto Gracia Castellano
+  - name: Enrique Joga Elvira
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Spanish Editing
+  names:
+  - name: Virginia Paradés Gurrea
+  - name: Mariona Pera i de Miguel
+  - name: Eva Rodríguez Graña
+  - name: Píndaro Vargas Farías
+  - name: Isabel Zarco Manjavacas
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Localisation Quality Assurance
+  names:
+  - name: Pole To Win UK Ltd.
+    note: London Studio
+    kind: company
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - European Localisation
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Gaku Susai
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Korean Localization
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+    ja: Choi Mihwa
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Byun Jieun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Park Youngjun
+    ja_match: romaji
+  - name: Eunbi Jo
+    ja: Jo Eunbi
+    ja_match: romaji
+  ja_role: Korean-Version Localization
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Korean Localization
+  - Logo Design Localization
+  names:
+  - name: Yesun Jung
+    ja: Jung Yesun
+    ja_match: romaji
+  ja_role: Logo Design Localization
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Pokémon Produced By The Pokémon Company
+  - Korean Localization
+  - Special Thanks
+  names:
+  - name: Jaiboem Lim
+    ja: Lim Jaiboem
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Lee Jihye
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Credits for Pokémon Shuffle Mobile
+  - Debugged By DIGITAL Hearts Co., Ltd.
+  names:
+  - name: Kenta Aoki
+  - name: Koichi Maruyama
+  - name: Shinichiro Naito
+  - name: Masashi Asahi
+  - name: Masatoshi Nakamura
+  - name: Shinichiro Takahashi
+  - name: Ryo Fukushima
+  - name: Mitsuaki Shizunaga
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+ja_unmatched:
+- kana: WINDS CO.,LTD.
+  role: Design
+anomalies:
+- '[''Very Special Thanks'']: ©2018 Pokémon. ©1995-2018 Nintendo/Creatures Inc./GAME FREAK inc.<br />'
+- '[''Very Special Thanks'']: Developed by Genius Sonority Inc.'
+- '[''Very Special Thanks'']: This application uses fonts developed by FONTWORKS and/or their modified version'
+- '[''Very Special Thanks'']: Nintendo, The Pokémon Company and Genius Sonority Inc. are the authors of this s'
+- '[''Very Special Thanks'']: Nintendo, The Pokémon Company et Genius Sonority Inc. sont les auteurs de ce log'
+- '[''Very Special Thanks'']: ©2018 Pokémon. ©1995-2018 Nintendo/Creatures Inc./GAME FREAK inc.<br />'
+- '[''Very Special Thanks'']: Developed by Genius Sonority Inc.'
+- '[''Very Special Thanks'']: This application uses fonts developed by FONTWORKS and/or their modified version'
+- '[''Very Special Thanks'']: Nintendo, The Pokémon Company and Genius Sonority Inc. are the authors of this s'
+- '[''Very Special Thanks'']: Nintendo, The Pokémon Company et Genius Sonority Inc. sont les auteurs de ce log'
+- '[''Credits for Pokémon Shuffle Mobile'', ''FMOD'']: Made with FMOD Studio by Firelight Technologies Pty Ltd.'
+- '[''Credits for Pokémon Shuffle Mobile'', ''GameMonkey Script'']: Copyright (c) 2003 Auran Development Ltd.'
+- '[''Credits for Pokémon Shuffle Mobile'', ''GameMonkey Script'']: Permission is hereby granted, free of charge, to any person obtaining a copy of '
+- '[''Credits for Pokémon Shuffle Mobile'', ''GameMonkey Script'']: The above copyright notice and this permission notice shall be included in all c'
+- '[''Credits for Pokémon Shuffle Mobile'', ''GameMonkey Script'']: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI'

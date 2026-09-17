@@ -1,0 +1,118 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_TCG_Card_Dex
+slug: tcg-card-dex
+title: Staff of Pokémon TCG Card Dex
+work: null
+year: 2019
+developer: The Pokémon Company International
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_TCG_Card_Dex
+count: 50
+sections:
+- path:
+  - Game Studio
+  names:
+  - name: Aaron McDaniel
+  - name: Joel Casebeer
+  - name: Melissa DiGiola
+  - name: Antoin Johson
+  - name: Yesenia Cisneros
+  - name: Alex Dreyer
+  - name: Ryan Davey
+  - name: Sam Heller
+  - name: Avery Sakamoto
+  - name: Danny Marks
+  - name: Jason Beck
+  - name: Donnavon Webb
+  - name: Anastasia Kinzel
+  - name: Michael Hradek
+  - name: Brys Sepulveda
+  - name: Clark Crawford
+  - name: Adam Vendenberg
+  - name: Bill Pedro
+  - name: Andrew Lum
+- path:
+  - Dev Ops
+  names:
+  - name: Ben Cole
+  - name: Edward Smith
+- path:
+  - Sec Ops
+  names:
+  - name: John Visneski
+  - name: Jacob Bornemann
+- path:
+  - Software Quality
+  names:
+  - name: Jim Griffin
+  - name: Scott Sedlickas
+  - name: Drewes van der Bleek
+  - name: Arielle Lien
+  - name: Paul Grimes
+  - name: Experis
+- path:
+  - Editing and Localisation
+  names:
+  - name: Hollie Beg
+  - name: Marc Drieu
+  - name: Myriam Bresko
+  - name: Tatiana Tchemitcheff
+  - name: Marco Borrelli
+  - name: Antonella Prati
+  - name: Antonio De Palma
+  - name: Marina Gagliardi
+  - name: Anja Weinbach
+  - name: Ralph Lunt
+  - name: Monika Tracy
+  - name: Benjamin Schneider
+  - name: Esther Sánchez Giráldez
+  - name: Teresa Cueto Álvarez de Sotomayor
+  - name: Lena Doubivko
+  - name: Lucas Peterson
+  - name: Maiara McConkey
+- path:
+  - Executives
+  names:
+  - name: Eric Neustadter
+  - name: Gaku Susal
+  - name: Kenji Okubo
+  - name: Tsunekazu Ishihara
+anomalies:
+- '[''Game Studio'']: ;Lead Client Engineer'
+- '[''Game Studio'']: ;Senior Artist'
+- '[''Game Studio'']: ;Sr. Producer'
+- '[''Game Studio'']: ;Associate Producer'
+- '[''Game Studio'']: ;Associate Producer'
+- '[''Game Studio'']: ;Client Engineer'
+- '[''Game Studio'']: ;Gameplay Engineer'
+- '[''Game Studio'']: ;Principal Product Manager'
+- '[''Game Studio'']: ;Lead Game Designer'
+- '[''Game Studio'']: ;Associate Game Designer'
+- '[''Game Studio'']: ;Lead Artist'
+- '[''Game Studio'']: ;Senior Artist'
+- '[''Game Studio'']: ;Associate Technical Artist'
+- '[''Game Studio'']: ;Lead Services Engineer'
+- '[''Game Studio'']: ;Sr. Services Engineer'
+- '[''Game Studio'']: ;Sr. Services Engineer'
+- '[''Game Studio'']: ;Sr. Services Engineer'
+- '[''Game Studio'']: ;Executive Producer, Game Studio'
+- '[''Game Studio'']: ;Director, Game Studio'
+- '[''Dev Ops'']: ;Director, Dev Ops Engineering'
+- '[''Dev Ops'']: ;Sr. Dev Ops Engineering'
+- '[''Sec Ops'']: ;Director, Information Security'
+- '[''Sec Ops'']: ;Security Engineer'
+- '[''Software Quality'']: ;Director, Software Quality'
+- '[''Software Quality'']: ;Test Manager'
+- '[''Software Quality'']: ;Software Development Engineer in Test'
+- '[''Software Quality'']: ;Software Test Engineer'
+- '[''Software Quality'']: ;Software Development Engineer in Test'
+- '[''Editing and Localisation'']: ;English'
+- '[''Editing and Localisation'']: ;French'
+- '[''Editing and Localisation'']: ;Italian'
+- '[''Editing and Localisation'']: ;German'
+- '[''Editing and Localisation'']: ;Spanish'
+- '[''Editing and Localisation'']: ;Russian'
+- '[''Editing and Localisation'']: ;Brazilian-Portuguese'
+- '[''Executives'']: ;VP. Technology'
+- '[''Executives'']: ;VP. London Operations'
+- '[''Executives'']: ;President, TPCi'
+- '[''Executives'']: ;President & CEO, TPC'

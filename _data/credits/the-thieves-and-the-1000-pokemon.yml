@@ -1,0 +1,338 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Thieves_and_the_1000_Pokémon + https://wiki.pokemonwiki.com/wiki/とうぞくと1000びきのポケモンのスタッフクレジット
+slug: the-thieves-and-the-1000-pokemon
+title: Staff of The Thieves and the 1000 Pokémon
+work: null
+year: 2014
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Thieves_and_the_1000_Pokémon
+count: 72
+source_ja: https://wiki.pokemonwiki.com/wiki/とうぞくと1000びきのポケモンのスタッフクレジット
+ja_alignment:
+  ja_total: 76
+  ja_matched: 66
+  ja_positional: 3
+  ja_only_added: 1
+sections:
+- path:
+  - Producers
+  names:
+  - name: Ken'ichi Arai
+    ja: あらい けんいち
+    ja_match: romaji
+  - name: Shō Furutani
+    ja: ふるたに しょう
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Development Producer
+  names:
+  - name: Yoshiaki Kano
+    ja: かの よしあき
+    ja_match: romaji
+  ja_role: かいはつプロデューサー
+- path:
+  - Director
+  names:
+  - name: Yūsuke Yoshida
+    ja: よしだ ゆうすけ
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Lead Planning
+  names:
+  - name: Atsushi Imura
+    ja: いむら あつし
+    ja_match: romaji
+  ja_role: リードプランニング
+- path:
+  - Lead Programmer
+  names:
+  - name: Shūhei Ōsaku
+    ja: おおさく しゅうへい
+    ja_match: romaji
+  ja_role: リードプログラム
+- path:
+  - Programmers
+  names:
+  - name: Yūichirō Mine
+    ja: みね ゆういちろう
+    ja_match: romaji
+  - name: Kasuhiko Shimazu
+    ja_match: positional
+    ja: しまづ かずひこ
+  - name: Kazuho Kawatani
+    ja: かわたに かずほ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Server Programmers
+  names:
+  - name: Kaoru Igarashi
+    ja: いがらし かおる
+    ja_match: romaji
+  - name: Kazuyoshi Ōnishi
+    ja: おおにし かずよし
+    ja_match: romaji
+  - name: Ryō Egawa
+    ja: えがわ りょう
+    ja_match: romaji
+  ja_role: サーバープログラム
+- path:
+  - Server Engineers
+  names:
+  - name: Mitsuaki Hanyū
+    ja: はにゅう みつあき
+    ja_match: romaji
+  - name: Masakazu Mori
+    ja: もり まさかず
+    ja_match: romaji
+  ja_role: サーバーエンジニア
+- path:
+  - Lead Designer
+  names:
+  - name: Ayao Oikawa
+    ja: おいかわ あやお
+    ja_match: romaji
+  ja_role: リードデザイン
+- path:
+  - Designers
+  names:
+  - name: Tae Shirai
+    ja: しらい たえ
+    ja_match: romaji
+  - name: Mizuha Ogawa
+    ja: おがわ みづは
+    ja_match: romaji
+  - name: Shōgo Tōjō
+    ja_match: positional
+    ja: とうじょう しょうこ
+  ja_role: デザイン
+- path:
+  - Sound
+  names:
+  - name: Takafumi Nishimura
+    ja: にしむら たかふみ
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Assistant Producer
+  names:
+  - name: Tatsuya Yokoyama
+    ja: よこやま たつや
+    ja_match: romaji
+  ja_role: アシスタントプロデューサー
+- path:
+  - Development Management
+  names:
+  - name: Takeshi Niimura
+    ja: にいむうら たけし
+    ja_match: romaji
+  - name: Toshihiro Inoue
+    ja: いのうえ としひろ
+    ja_match: romaji
+  ja_role: かいはつマネジメント
+- path:
+  - Development Support
+  names:
+  - name: Chiharu Un'no
+    ja: うんの ちはる
+    ja_match: romaji
+  - name: Kanako Murata
+    ja: むらた かなこ
+    ja_match: romaji
+  - name: Akira Kinashi
+    ja: きなし あきら
+    ja_match: romaji
+  - name: Kaori Andō
+    ja: あんどう かおり
+    ja_match: romaji
+  ja_role: かいはつサポート
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjirō Itō
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Mikiko Ōhashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: こむら ともたか
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: すぎもと あつし
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: うつのみや たかと
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: かせじま えいすけ
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: かわもと たく
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: たなか まさみ
+    ja_match: romaji
+  - name: Tomohisa Yamano
+    ja: やまの ともひさ
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: のもと れつじ
+    ja_match: romaji
+  - name: Jirō Koga
+    ja_match: positional
+    ja: こが じろうう
+  - name: Michiko Takizawa
+    ja: たきざわ みちこ
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: はやかわ ひろたか
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: ふくしま ゆかり
+    ja_match: romaji
+  - name: Ryōhei Itakura
+    ja: いたくうら りょうへい
+    ja_match: romaji
+  - name: Chisato Hanazawa
+    ja: はなざわ ちさと
+    ja_match: romaji
+  - name: Hirofumi Hasegawa
+    ja: はせがわ ひろふみ
+    ja_match: romaji
+  - name: Jurō Takeuchi
+    ja: たけうち じゅろう
+    ja_match: romaji
+  - name: Kōjirō Azuma
+    ja: あずま こうじろう
+    ja_match: romaji
+  - name: Yōsuke Kashiwagi
+    ja: かしわぎ ようすけ
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    ja_match: romaji
+  - name: Katsumi Ōno
+    ja: おおの かつみ
+    ja_match: romaji
+  - name: Shin Kōsaka
+    ja: こうさか しん
+    ja_match: romaji
+  - name: Kōshi Kawamoto
+    ja: かわもと こうし
+    ja_match: romaji
+  - name: Hidetoshi Takeshita
+    ja: たけした ひでとし
+    ja_match: romaji
+  - name: Maiko Yamada
+    ja: やまだ まいこ
+    ja_match: romaji
+  - name: Kunihiko Yuyama
+    ja: ゆやま くにひこ
+    ja_match: romaji
+  - name: Hideki Sonoda
+    ja: そのだ ひでき
+    ja_match: romaji
+  - name: Mitomu Asai
+    ja: あさい みとむ
+    ja_match: romaji
+  - name: Takemoto Mori
+    ja: もり たけもと
+    ja_match: romaji
+  - name: Nobuyuki Hosoya
+    ja: ほそや のぶゆき
+    ja_match: romaji
+  - name: Jun'ya Okamoto
+    ja: おかもと じゅんや
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - Very Special Thanks
+  names:
+  - name: Nintendo
+    kind: company
+  - name: Creatures
+    kind: company
+  - name: Game Freak
+    kind: company
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: ベリースペシャルサンクス
+- path:
+  - Pocket Monsters Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター オリジナルディレクター
+- path:
+  - General Producers
+  names:
+  - name: Shūichi Fujimura
+    ja: ふじむら しゅういち
+    ja_match: romaji
+  - name: Sususmu Fukunaga
+  - name: Yasunori Suenaga
+    ja: すえなが やすのり
+    ja_match: romaji
+  ja_role: ゼネラルプロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+- path:
+  - せいさく・ちょさく
+  ja_role: せいさく・ちょさく
+  source: ja-only
+  names:
+  - name: 'Pikachuupurojekuto '
+    name_source: ja-only
+    ja: ©2014 ピカチュウプロジェクト
+    ja_match: ja-only
+- path:
+  - Development/Writing
+  names:
+  - name: The Pokémon Company
+    kind: company
+ja_unmatched:
+- kana: にんてんどうかぶしきがいしゃ
+  role: ベリースペシャルサンクス
+- kana: かぶしきがいしゃクリーチャーズ
+  role: ベリースペシャルサンクス
+- kana: かぶしきがいしゃゲームフリーク
+  role: ベリースペシャルサンクス
+- kana: ふくなが すすむ
+  role: ゼネラルプロデューサー
+  kanji: 福永晋
+- kana: かぶしきがいしゃポケモン
+  role: せいさく・ちょさく
+- kana: かぶしきがいしゃマーベラスAQL
+  role: せいさく・ちょさく
+- kana: ©2014 Pokémon. ©1995-2014 Nintendo/Creatures Inc./GAME FREAK inc.
+  role: せいさく・ちょさく
+- kana: Developed by MarvelousAQL Inc.
+  role: せいさく・ちょさく
+- kana: ©Nintendo・Creatures・GAME FREAK・TV Tokyo・ShoPro・JR Kikaku ©Pokémon
+  role: せいさく・ちょさく

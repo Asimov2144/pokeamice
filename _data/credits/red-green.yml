@@ -1,0 +1,220 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Green + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_赤・緑のスタッフクレジット
+slug: red-green
+title: Staff of Pokémon Red and Green
+work: 宝可梦 红·绿
+year: 1996
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Green
+count: 38
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_赤・緑のスタッフクレジット
+ja_alignment:
+  ja_total: 38
+  ja_matched: 28
+  ja_positional: 0
+  ja_only_added: 10
+sections:
+- path:
+  - Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター スタッフ / ディレクター
+- path:
+  - Programming
+  names:
+  - name: Takenori Ōta
+    ja: おおた たけのり
+    kanji: 太田健程
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Character Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  ja_role: キャラクターデザイン
+- path:
+  - Music
+  names:
+  - name: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Sound Effects
+  names:
+  - name: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: サウンド エフェクト
+- path:
+  - Game Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  ja_role: ゲームデザイン
+- path:
+  - Pokémon Design
+  names:
+  - name: Ken Sugimori
+    kanji: 杉森建
+    ja_match: bulbapedia-table
+    ja: すぎもり けん
+  - name: Atsuko Nishida
+    kanji: 西田敦子
+    ja_match: bulbapedia-table
+    ja: にしだ あつこ
+  - name: Motofumi Fujiwara
+    kanji: 藤原基史
+    ja_match: bulbapedia-table
+    ja: ふじわら もとふみ
+  - name: Shigeki Morimoto
+    kanji: 森本茂樹
+    ja_match: bulbapedia-table
+    ja: もりもと しげき
+  ja_role: モンスター デザイン
+- path:
+  - Scenario
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Ryōsuke Taniguchi
+    ja: たにぐち りょうすけ
+    ja_comment: '『ゲームフリーク : 遊びの世界標準を塗り替えるクリエイティブ集団』p.198より「谷口了介」か。'
+    ja_match: romaji
+  - name: Fumihiro Nonomura
+    ja: ののむら ふみひろ
+    kanji: 野々村文宏
+    ja_match: romaji
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  ja_role: シナリオ
+- path:
+  - Parameter-setting
+  names:
+  - name: Kōji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  ja_role: パラメータ せってい
+- path:
+  - Map Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    kanji: 松島賢二
+    ja_match: romaji
+  - name: Fumihiro Nonomura
+    ja: ののむら ふみひろ
+    ja_match: romaji
+  - name: Ryōsuke Taniguchi
+    ja: たにぐち りょうすけ
+    ja_match: romaji
+  ja_role: マップ デザイン
+- path:
+  - デバッグ プレイ
+  ja_role: デバッグ プレイ
+  source: ja-only
+  names:
+  - name: Akiyoshi Kakei
+    name_source: ja-only
+    ja: かけい あきよし
+    ja_match: ja-only
+  - name: Kazuki Tsuchiya
+    name_source: ja-only
+    ja: つちや かづき
+    ja_match: ja-only
+  - name: Takeo Nakamura
+    name_source: ja-only
+    ja: なかむら たけお
+    ja_match: ja-only
+  - name: Masamitsu Yuda
+    name_source: ja-only
+    ja: ゆだ まさみつ
+    ja_match: ja-only
+- path:
+  - スペシャル・サンクス
+  ja_role: スペシャル・サンクス
+  source: ja-only
+  names:
+  - name: Tatsuya Hishida
+    name_source: ja-only
+    ja: ひしだ たつや
+    ja_match: ja-only
+    kanji: 菱田達也
+  - name: Yasuhiro Sakai
+    name_source: ja-only
+    ja: さかい やすひろ
+    ja_match: ja-only
+  - name: Wataru Yamaguchi
+    name_source: ja-only
+    ja: やまぐち わたる
+    ja_match: ja-only
+  - name: Kazuyuki Yamamoto
+    name_source: ja-only
+    ja: やまもと かずゆき
+    ja_match: ja-only
+  - name: Akihito Tomisawa
+    name_source: ja-only
+    ja: とみさわ あきひと
+    ja_match: ja-only
+    kanji: とみさわ昭仁
+  - name: Hiroshi Kawamoto
+    name_source: ja-only
+    ja: かわもと ひろし
+    ja_match: ja-only
+- path:
+  - Debug Play
+  names:
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Takashi Kawaguchi
+    ja: かわぐち たかし
+    kanji: 川口孝司
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー

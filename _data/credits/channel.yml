@@ -1,0 +1,2035 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel + https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
+slug: channel
+title: Staff of Pokémon Channel
+work: null
+year: 2003
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel
+count: 520
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
+ja_alignment:
+  ja_total: 271
+  ja_matched: 228
+  ja_positional: 12
+  ja_only_added: 15
+sections:
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Pokémon Created By
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: 「ぼくたちピチューブラザーズ」 アニメ ユニット / げんあん
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animation Supervisor
+  names:
+  - name: Yoichi Kotabe
+    ja: こたべ よういち
+    kanji: 小田部羊一
+    ja_match: romaji
+  ja_role: アニメーションかんしゅう
+- path:
+  - Executive Producer
+  names:
+  - name: Masakazu Kubo
+    ja: くぼ まさかず
+    kanji: 久保雅一
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    name_source: ja-only
+    ja: いしはら つねかず
+    ja_match: ja-only
+    kanji: 石原恒和
+  ja_role: エグゼクティブ・プロデューサー
+- path:
+  - Associate Producer
+  names:
+  - name: Choji Yoshikawa
+    ja: よしかわ ちょうじ
+    kanji: 吉川兆二
+    ja_match: romaji
+  ja_role: アソシエイト・プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Director
+  names:
+  - name: Kuniko Yuyama
+    ja_match: positional
+    ja: ゆやま くにひこ
+    kanji: 湯山邦彦
+  ja_role: かんとく
+- path:
+  - Producers
+  names:
+  - name: Takemoto Mori
+    ja: もり たけもと
+    ja_match: romaji
+  - name: Makiko Iwata
+    ja: いわた まきこ
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animation Producers
+  names:
+  - name: Toshiaki Okuno
+    ja: おくの としあき
+    ja_match: romaji
+  - name: Shukichi Kanda
+    ja: かんだ しゅうきち
+    ja_match: romaji
+  ja_role: アニメーション・プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Screenplay
+  names:
+  - name: Junki Takegami
+    ja: たけがみ じゅんき
+    kanji: 武上純希
+    ja_match: romaji
+  ja_role: きゃくほん
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Executive Producer
+  names:
+  - name: Norman J. Grossfeld
+    ja: Norman J. Grossfeld
+    ja_match: romaji
+  ja_role: さくし
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Producer
+  names:
+  - name: Kathy Borland
+    ja: Kathy Borland
+    ja_match: romaji
+  ja_role: えいごサウンドトラック / プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Adaptations
+  names:
+  - name: Michael Haigney
+    ja: Michael Haigney
+    ja_match: romaji
+  ja_role: きゃくしょく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Voice Producers
+  names:
+  - name: Larry Juris
+  - name: Michael Haigney
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Voice Directors
+  names:
+  - name: Michael Haigney
+  - name: Eric Stuart
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Translation
+  names:
+  - name: Paul Taylor
+    ja: Paul Taylor
+    ja_match: romaji
+  ja_role: ほんやく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Alternate Dialogue Recording Engineer
+  names:
+  - name: Ohad Tzachar
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Sound Mixer
+  names:
+  - name: Shawn Conrad
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Graphic Designer
+  names:
+  - name: Jennifer Obrotka
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - North American Production Assistant
+  names:
+  - name: Crystal Marcus
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - French Recording Executive Producer
+  names:
+  - name: Pierre Métais
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - French Recording Director
+  names:
+  - name: Daniel Nicodème
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - French Voice Director
+  names:
+  - name: Daniel Nicodème
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - French Translation
+  names:
+  - name: Alexandre Gibert
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - German Dubbing Agency
+  names:
+  - name: Erika Gröne
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Recording Producer
+  names:
+  - name: Ed Campbell
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Recording Director
+  names:
+  - name: Cip Barcellini
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Recording Coordinator
+  names:
+  - name: Daniele Blandino
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Recording Engineer
+  names:
+  - name: Moreno G. Pometti
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Voice Producer
+  names:
+  - name: Cinzia Veronese
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Voice Director
+  names:
+  - name: Ryan Nicola Carrassi
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Sound Mixer
+  names:
+  - name: Ignazio Giardina
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Italian Translation
+  names:
+  - name: Amanda Wodword
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Recording Producer
+  names:
+  - name: Mariano Garcia Diez
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Recording Director
+  names:
+  - name: Amparo Valencia
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Recording Engineer
+  names:
+  - name: Alejandro Rodriguez
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Voice Producer
+  names:
+  - name: Victoria Osuna
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Sound Mixer
+  names:
+  - name: Enrique Baptista
+  - name: José Andrés Vargas
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Spanish Translation
+  names:
+  - name: Enrique Baptista
+  - name: Amparo Valencia
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Conceptual Character Artists
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Motofumi Fojiwara
+    ja_match: positional
+    ja: ふじわら もとふみ
+    kanji: 藤原基史
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Satoshi Ohta
+    ja: おおた さとし
+    kanji: 太田敏
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  - name: Muneo Saitō
+    ja: さいとう むねお
+    kanji: 斉藤むねお
+    ja_match: romaji
+  - name: Rena Yoshikawa
+    ja: よしかわ れな
+    kanji: 吉川玲奈
+    ja_match: romaji
+  ja_role: キャラクターげんあん
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Character Designer
+  names:
+  - name: Tokuhiro Matsubara
+    ja: まつばら とくひろ
+    kanji: 松原徳弘
+    ja_match: romaji
+  ja_role: キャラクターデザイン
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Art Director
+  names:
+  - name: Shichiro Kobayashi
+    ja: こばやし しちろう
+    kanji: 小林七郎
+    ja_match: romaji
+  ja_role: びじゅつかんとく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Color Settings
+  names:
+  - name: Noriyuki Yoshino
+    ja: よしの のりゆき
+    ja_match: romaji
+  ja_role: しきさいせっけい
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - CG Director
+  names:
+  - name: Takaya Mizutani
+    ja: みずたに たかや
+    ja_match: romaji
+  ja_role: CGディレクター
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Film Editor
+  names:
+  - name: Toshiyo Henmi
+    ja_match: positional
+    ja: へんみ としお
+  ja_role: へんしゅう
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Storyboard Artist and Assistant Director
+  names:
+  - name: Yuji Asada
+    ja: あさだ ゆうじ
+    ja_match: romaji
+  ja_role: えコンテ・えんしゅつ
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animation Directors
+  names:
+  - name: Tokuhiro Matsubara
+    ja: まつばら とくひろ
+    ja_match: romaji
+  - name: Sayuri Ichiisi
+    ja: いちいし さゆり
+    kanji: 一石小百合
+    ja_match: romaji
+  ja_role: さくがかんとく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Key Animators
+  names:
+  - name: Masaaki Iwane
+    ja: いわね まさあき
+    kanji: 岩根雅明
+    ja_match: romaji
+  - name: Katsuichi Nakayama
+    ja: なかやま かついち
+    ja_match: romaji
+  - name: Tadaaki Miyata
+    ja: みやた ただあき
+    ja_match: romaji
+  - name: Koji Watanabe
+    ja: わたなべ こうじ
+    ja_match: romaji
+  - name: Yukari Kobayashi
+    ja: こばやし ゆかり
+    ja_match: romaji
+  - name: Yuko Inoue
+    ja: いのうえ ゆうこ
+    ja_match: romaji
+  - name: Hiroshi Konno
+    ja: こんの ひろし
+    ja_match: romaji
+  - name: Etsuhito Mori
+    ja: もり えつひと
+    ja_match: romaji
+  - name: Eikichi Takahashi
+    ja: たかはし えいきち
+    ja_match: romaji
+  - name: Akihiro Tamagawa
+    ja: たまがわ あきひろ
+    ja_match: romaji
+  ja_role: げんが
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animation Checker
+  names:
+  - name: Fujika Enomoto
+    ja: えのもと ふじか
+    ja_match: romaji
+  ja_role: どうがチェック
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animators
+  names:
+  - name: Takako Uetake
+    ja: うえたけ たかこ
+    ja_match: romaji
+  - name: Takeyuki Uragami
+    ja_match: positional
+    ja: うらがみ たかゆき
+  - name: Naoko Okazaki
+    ja: おかざき なおこ
+    ja_match: romaji
+  - name: Youko Kasama
+    ja: かさま ようこ
+    ja_match: romaji
+  - name: Daisuke Kamei
+    ja: かめい だいすけ
+    ja_match: romaji
+  - name: Jun Kiguchi
+    ja: きぐち じゅん
+    ja_match: romaji
+  - name: Miki Kuribayashi
+    ja: くりばやし みき
+    ja_match: romaji
+  - name: Yuki Saitoh
+    ja: さいとう ゆうき
+    ja_match: romaji
+  - name: Mizuho Tajima
+    ja: たじま みずほ
+    ja_match: romaji
+  - name: Takashi Tsuge
+    ja: つげ たかし
+    ja_match: romaji
+  - name: Yoshiko Tsujimura
+    ja: つじむら よしこ
+    ja_match: romaji
+  - name: Kumi Nagai
+    ja: ながい くみ
+    ja_match: romaji
+  - name: Takeshi Ninomiya
+    ja: にのみや たけし
+    ja_match: romaji
+  - name: Shoko Higaki
+    ja: ひがき しょうこ
+    ja_match: romaji
+  - name: Sumika Momo
+    ja: もも すみか
+    ja_match: romaji
+  - name: Junpei Fukuchi
+    ja: ふくち じゅんぺい
+    ja_match: romaji
+  - name: Akari Fukunaga
+    ja: ふくなが あかり
+    ja_match: romaji
+  - name: Shinichi Murooka
+    ja: むろおか しんいち
+    ja_match: romaji
+  - name: Ryo Mori
+    ja: もり りょう
+    ja_match: romaji
+  - name: Ikuo Yoshida
+    ja: よしだ いくお
+    ja_match: romaji
+  - name: Junko Watanabe
+    ja: わたなべ じゅんこ
+    ja_match: romaji
+  - name: A.I.C.
+  - name: Wonbat
+  - name: Kino Productions
+    kind: company
+  - name: Cockpit
+  - name: Jungle Gym
+  - name: Tokyo Animation Center
+    kind: company
+  - name: Musashino Staff
+  ja_role: どうが
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Colorist
+  names:
+  - name: Hiroshi Otsuki
+    ja: おおつき ひろし
+    ja_match: romaji
+  ja_role: いろしてい
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Digital Painters
+  names:
+  - name: O.L.M. Digital
+    kind: company
+    ja_match: positional
+    ja: オー・エル・エム デジタル
+  - name: Masami Shimizu
+    ja: しみず まさみ
+    ja_match: romaji
+  - name: Aya Kawasaki
+    ja: かわさき あや
+    ja_match: romaji
+  - name: Takahiro Nakazawa
+    ja: なかざわ たかひろ
+    ja_match: romaji
+  - name: Miyuki Hirama
+    ja: ひらま みゆき
+    ja_match: romaji
+  - name: Jun Otaki
+    ja: おおたき じゅん
+    ja_match: romaji
+  - name: Tomomi Edano
+    ja: えだの ともみ
+    ja_match: romaji
+  - name: Nao Sato
+    ja: さとう なお
+    ja_match: romaji
+  - name: Hitomi Suzuki
+    ja: すずき ひとみ
+    ja_match: romaji
+  - name: Miki Arai
+    ja: あらい みき
+    ja_match: romaji
+  - name: Mayumi Tsukada
+    ja: つかだ まゆみ
+    ja_match: romaji
+  - name: Hiromi Nakagawa
+    ja_match: positional
+    ja: なかがわ まゆみ
+  - name: Mika Onada
+    ja_match: positional
+    ja: おのだ みか
+  - name: Saori Goda
+    ja: ごうだ さおり
+    ja_match: romaji
+  - name: Sayo Tanaka
+    ja: たなか さよ
+    ja_match: romaji
+  - name: Kayo Ohshima
+    ja: おおしま かよ
+    note: コクピット
+    ja_match: romaji
+  ja_role: デジタルペイント
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Special Effects
+  names:
+  - name: Tatsumi Yukiwaki
+    ja: ゆきわき たつみ
+    ja_match: romaji
+  ja_role: おんきょうこうか
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Animation Special Effects
+  names:
+  - name: Yoshiko Chatani
+    ja: ちゃたに よしこ
+    ja_match: romaji
+  - name: Kazuyuki Yamamoto
+    ja: やまもと かずゆき
+    ja_match: romaji
+  - name: Shinsuke Ikeda
+    ja: いけだ しんすけ
+    ja_match: romaji
+  - name: Yuji Asada
+    ja: あさだ ゆうじ
+    note: コクピット
+    ja_match: romaji
+  ja_role: コンポジット&エフェクト
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Digital Manager
+  names:
+  - name: Kenji Otake
+    ja: おおたけ けんじ
+    ja_match: romaji
+  ja_role: デジタルマネージャー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - CGI Director
+  names:
+  - name: Akio Kazumi
+    ja: かずみ あきお
+    ja_match: romaji
+  ja_role: CGIディレクター
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - 3-D CG Designer
+  names:
+  - name: Hiromichi Mizuno
+    ja: みずの ひろみち
+    ja_match: romaji
+  ja_role: 3DCGデザイン
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Backgrounds
+  names:
+  - name: Kobayashi Production
+    kind: company
+  - name: Akio Shimada
+    ja: しまだ あきお
+    ja_match: romaji
+  - name: Emiko Sato
+    ja: さとう えみこ
+    ja_match: romaji
+  - name: Kentaro Akiyama
+    ja: あきやま けんたろう
+    ja_match: romaji
+  - name: Kurahashi Takashi
+    ja: くらはし たかし
+    ja_match: romaji
+  - name: Rie Oda
+    ja: おだ りえ
+    ja_match: romaji
+  - name: Sadaaki Honma
+    ja: ほんま さだあき
+    ja_match: romaji
+  - name: Yumi Hosaka
+    ja: ほさか ゆみ
+    ja_match: romaji
+  - name: Masa Matsubayashi
+    ja: まつばやし まさ
+    ja_match: romaji
+  - name: Yoshimichi Kamijo
+    ja: かみじょう よしみち
+    ja_match: romaji
+  ja_role: はいけい
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Assistant Editor
+  names:
+  - name: Tomoki Nagasaka
+    ja: ながさか ともき
+    note: ジェイフィルム
+    ja_match: romaji
+  ja_role: へんしゅうじょしゅ
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Recording Producer
+  names:
+  - name: Michiyoshi Minamisawa
+    ja: みなみさわ みちよし
+    ja_match: romaji
+  ja_role: おんきょう・プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Recording Director
+  names:
+  - name: Masafumi Mima
+    ja: みま まさふみ
+    kanji: 三間雅文
+    ja_match: romaji
+  ja_role: おんきょうかんとく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Music
+  names:
+  - name: Jun Umebori
+    ja: うめぼり じゅん
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Coordinator
+  names:
+  - name: Eiko Konoo
+    ja: このお えいこ
+    ja_match: romaji
+  ja_role: おんがくコーディネート
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Effects Supervisor
+  names:
+  - name: Daisuke Jinbo
+    ja: じんぼ だいすけ
+    ja_match: romaji
+  ja_role: おんきょうこうか
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Mixer
+  names:
+  - name: Nobuhira Hirano
+    ja: ひらの のぶひら
+    ja_match: romaji
+  ja_role: ミクサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Recording
+  names:
+  - name: Ryoko Nashimoto
+    ja: なしもと りょうこ
+    ja_match: romaji
+  - name: Akiko Nakamura
+    ja: なかむら あきこ
+    ja_match: romaji
+  ja_role: ろくおん
+- path:
+  - 「ぼくらピチュピチュブラザーズ!」
+  ja_role: 「ぼくらピチュピチュブラザーズ!」
+  source: ja-only
+  names:
+  - name: Toda akihito Sakushi
+    name_source: ja-only
+    ja: さくし とだ あきひと
+    ja_match: ja-only
+    kanji: 戸田昭吾
+  - name: Tanaka hirokazu Sakuhenkyoku
+    name_source: ja-only
+    ja: さく・へんきょく たなか ひろかず
+    ja_match: ja-only
+    kanji: 田中宏和
+  - name: Endou kumiko Uta
+    name_source: ja-only
+    ja: うた えんどう くみこ
+    ja_match: ja-only
+- path:
+  - 「ニャースのパーティ」
+  ja_role: 「ニャースのパーティ」
+  source: ja-only
+  names:
+  - name: Toda akihito Sakushi
+    name_source: ja-only
+    ja: さくし とだ あきひと
+    ja_match: ja-only
+  - name: Tanaka hirokazu Sakuhenkyoku
+    name_source: ja-only
+    ja: さく・へんきょく たなか ひろかず
+    ja_match: ja-only
+  - name: Inuyama inuko Uta
+    name_source: ja-only
+    ja: うた いぬやま いぬこ
+    ja_match: ja-only
+    kanji: 犬山イヌコ
+  - name: Musashitokojirou Gesuto
+    name_source: ja-only
+    ja: ゲスト ムサシと[[コジロウ]]
+    ja_match: ja-only
+  - name: Mediafakutorii Pikachuurekoodo
+    name_source: ja-only
+    ja: 〜ピカチュウレコード ([[メディアファクトリー]])〜
+    ja_match: ja-only
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Sound Effects Production
+  names:
+  - name: Half HP Studio
+    kind: company
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Bokura Pichu Pichu Brothers!"'
+  names:
+  - name: 'Lyrics: Akihiro Toda'
+  - name: 'Composer: Hirokazu Tanaka'
+  - name: 'Vocals: Kumiko Endo'
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - English Lyrics By
+  names:
+  - name: Norman J. Grossfeld
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - French Lyrics By
+  names:
+  - name: Angélique Blanchemaison
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - German Lyrics By
+  names:
+  - name: Martina Deimel
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - Italian Lyrics By
+  names:
+  - name: Daniele Blandino
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - Spanish Lyrics By
+  names:
+  - name: Miguel Ángel Varela
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - Composed By
+  names:
+  - name: Hirokazu Tanaka
+    ja: たなか ひろかず
+    ja_match: romaji
+  ja_role: おんがくプロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - English Vocals By
+  names:
+  - name: Peter Thom
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - French Vocals By
+  names:
+  - name: Pierre Bodson
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - German Vocals By
+  names:
+  - name: Ecco di Lorenzo
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - Italian Vocals By
+  names:
+  - name: Daniele Blandino
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Side By Side - Pichu & Pichu"'
+  - Spanish Vocals By
+  names:
+  - name: José Escobosa
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Nyarth no Party"'
+  names:
+  - name: 'Lyrics: Akihiro Toda'
+  - name: 'Composer: Hirokazu Tanaka'
+  - name: 'Vocals: Inuko Inuyama'
+  - name: 'Guest: Musashi and Kojiro'
+  - name: ~Pikachu Records (Media Factory)~
+    kind: company
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - English Lyrics By
+  names:
+  - name: Norman J. Grossfield
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - French Lyrics By
+  names:
+  - name: Angélique Blanchemaison
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - German Lyrics By
+  names:
+  - name: Martina Deimel
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - Italian Lyrics By
+  names:
+  - name: Ryan Nicola Carrassi
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - Spanish Lyrics By
+  names:
+  - name: Miguel Ángel Varela
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - Composed By
+  names:
+  - name: Hirokazu Tanaka
+    ja: たなか ひろかず
+    ja_match: romaji
+  ja_role: スーパーバイザー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - English Vocals By
+  names:
+  - name: Maddie Blaustein
+    ja: Maddie Blaustein
+    ja_match: romaji
+  - name: Rachael Lillis
+    ja: Rachael Lillis
+    ja_match: romaji
+  ja_role: うた
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - French Vocals By
+  names:
+  - name: Nessym Guetat
+  - name: Catherine Conet
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - German Vocals By
+  names:
+  - name: Gerhard Acktun
+  - name: Conny K. / Rickie kinnen
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - Italian Vocals By
+  names:
+  - name: Giuseppe Calvetti
+  - name: Serena Clerici
+  - name: Marco Casati
+  - name: Marco Leurini
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - '"Meowth''s Party"'
+  - Spanish Vocals By
+  names:
+  - name: José Escobosa
+  - name: Luisa Bodega
+  - name: Victoria Bodega
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Cast
+  names:
+  - name: 'Pichu Older Brother: Yumi Toma'
+  - name: 'Pichu Younger Brother: Satomi Kohrogi'
+  - name: 'Sonans: Yuji Ueda'
+  - name: 'Nyarth: Inuko Inuyama'
+  - name: 'Zenigame: Ikue Otani'
+    ja: ゼニガメ [[大谷育江|おおたに いくえ]]
+    ja_match: romaji
+  - name: 'Zenigame: Chinami Nishimura'
+    ja: ゼニガメ にしむら ちなみ
+    kanji: 西村ちなみ
+    ja_match: romaji
+  - name: 'Zenigame: Yukiji'
+    ja: ゼニガメ ゆきじ
+    kanji: ゆきじ
+    ja_match: romaji
+  - name: 'Delvil: Naoki Tatsuta'
+  - name: 'Muchul: Megumi Hayashibara'
+  - name: 'Marilli: Kotono Mitsuishi'
+  - name: 'Himeguma: Yuri Shiratori'
+    ja: ヒメグマ [[白鳥由里|しらとり ゆり]]
+    ja_match: romaji
+  - name: 'Wooper: Mayumi Shintani'
+  - name: 'Doble: Kōichi Sakaguchi'
+  - name: 'Kabigon: Katsuyuki Konishi'
+    ja: カビゴン [[小西克幸|こにし かつゆき]]
+    ja_match: romaji
+  - name: 'Nazonokusa: Kaori Tsuji'
+    ja: ナゾノクサ [[辻香織|つじ かおり]]
+    ja_match: romaji
+  - name: 'Aipom: Ryoka Yuzuki'
+  - name: 'Narration: Kazuko Sugiyama'
+  - name: 'Meowth: Maddie Blaustein'
+  - name: 'Meowth (French "Miaouss"): Nessym Guetat'
+  - name: 'Meowth (German "Mauzi"): Gerhard Acktun'
+  - name: 'Meowth (Italian): Giuseppe Calvetti'
+  - name: 'Meowth (Spanish): José Escobosa'
+  - name: 'Squirtle Trio: Eric Stuart'
+  - name: 'Squirtle Trio (French "Carapuce"): Jean-Marc Delhausse'
+  - name: 'Squirtle Trio (German "Schiggy"): Klaus Münster'
+  - name: 'Cubone, Geodude: Roger Kay'
+  - name: 'Cubone (French "Osselait"): Daniel Nicodème'
+  - name: 'Cubone (German "Tragosso"): Nico Macoulis'
+  - name: 'Smoochum, Teddiursa: Tara Jayne'
+  - name: 'Smoochum (French "Lippouti"): Véronique Fyon'
+  - name: 'Smoochum (German "Kussila"): Claudia Schmidt'
+  - name: 'Azumarill: Kayzie Rogers'
+  - name: 'Wooper (French "Axoloto"): Véronique Fyon'
+  - name: 'Wooper (German "Felino"): Andrea Imme'
+  - name: 'Aipom (French "Capumain"): Lydia Cherton'
+  - name: 'Aipom (German "Griffel"): Simone Brahmann'
+  - name: 'Oddish (French "Mystherbe"): Véronique Fyon'
+  - name: 'Oddish (German "Myrapla"): Martina Dunker'
+  - name: 'Smeargle (French "Queulorior"): Daniel Nicodème'
+  - name: 'Smeargle (German "Farbeagle"): Julian Alexon'
+  - name: 'Wobbuffet (French "Qulbutoke"): Daniel Nicodème'
+  - name: 'Wobbuffet (German "Woingeau"): J.A. Döring'
+  - name: 'Snorlax (French "Ronflex"): Benoît Van Dorslaer'
+  - name: 'Snorlax (German "Relaxo"): Thomas Rau'
+  - name: 'Narrator (English): Ken Gates'
+  - name: 'Narrator (French): Daniel Nicodème'
+  - name: 'Narrator (German): Michael Schwarzmeier'
+  - name: 'Narrator (Italian): Roger Mantovani'
+  - name: 'Narrator (Spanish): Eduardo Del Hoyo'
+  - name: Ani touma yumi Pichuu
+    name_source: ja-only
+    ja: ピチュー (あに) [[冬馬由美|とうま ゆみ]]
+    ja_match: ja-only
+    kanji: ピチュー兄弟
+  - name: Otouto koorogisatomikoorogi satomi Pichuu
+    name_source: ja-only
+    ja: ピチュー (おとうと) [[こおろぎさとみ|こおろぎ さとみ]]
+    ja_match: ja-only
+    kanji: ピチュー兄弟
+  - name: Inuyama inuko Nyaasu
+    name_source: ja-only
+    ja: ニャース いぬやま いぬこ
+    ja_match: ja-only
+  - name: Uedayuujiueda yuuji Soonansu
+    name_source: ja-only
+    ja: ソーナンス [[うえだゆうじ|うえだ ゆうじ]]
+    ja_match: ja-only
+  - name: Yuzuki ryouka Eipamu
+    name_source: ja-only
+    ja: エイパム [[柚木涼香|ゆずき りょうか]]
+    ja_match: ja-only
+  - name: Sugiyama kazuko Nareeshon
+    name_source: ja-only
+    ja: ナレーション すぎやま かずこ
+    ja_match: ja-only
+    kanji: 杉山佳寿子
+  ja_role: こえのしゅつえん (キャスト)
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Production Manager
+  names:
+  - name: Tsukasa Koitabashi
+    ja: こいたばし つかさ
+    kanji: 小板橋司
+    ja_match: romaji
+  ja_role: せいさくたんとう
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Assistant Coordinator
+  names:
+  - name: Haruyasu Makino
+    ja: まきの はるやす
+    ja_match: romaji
+  ja_role: せいさくしんこう
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - In Cooperation With
+  names:
+  - name: Shogakukan Production
+    kind: company
+  - name: O.L.M. Digital
+    kind: company
+  - name: Team Koitabashi
+    kind: company
+    ja: Team Koitabashi
+    ja_match: romaji
+  ja_role: アニメーションせいさく
+- path:
+  - Producers
+  names:
+  - name: Takashi Kawaguchi
+    ja: かわぐち たかし
+    kanji: 川口孝司
+    ja_match: romaji
+  - name: Yoichi Yamamoto
+    ja: やまもと よういち
+    kanji: 山本洋一
+    ja_match: romaji
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Music Producer
+  names:
+  - name: Hirokazu Tanaka
+- path:
+  - '"PICHU BROS. IN PARTY PANIC!" Animation Unit'
+  - Coordinator
+  names:
+  - name: Yumiko Murai
+    ja: むらい ゆみこ
+    ja_match: romaji
+  ja_role: コーディネーター
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Director
+  names:
+  - name: Yasunori Yanagisawa
+    ja: やなぎさわ やすのり
+    ja_match: romaji
+  ja_role: 「ニャースのパーティ」 CG ユニット / ディレクター
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Programmers
+  names:
+  - name: Masaaki Fukunaga
+    ja: ふくなが まさあき
+    ja_match: romaji
+  - name: Yoshikazu Fujita
+    ja: ふじた よしかず
+    ja_match: romaji
+  ja_role: プログラマー
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Graphic Director
+  names:
+  - name: Ito Ashura Benimaru
+    ja: いとう あしゅら べにまる
+    kanji: 伊藤紅丸
+    ja_match: romaji
+  ja_role: グラフィックディレクター
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Chief Designer
+  names:
+  - name: Shigefumi Kawase
+    ja: かわせ しげふみ
+    kanji: 川瀬滋史
+    ja_match: romaji
+  ja_role: チーフデザイナー
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Designers
+  names:
+  - name: Ken Ikuji
+    ja: いくじ けん
+    ja_match: romaji
+  - name: Hiroaki Ito
+    ja: いとう ひろあき
+    ja_match: romaji
+  - name: Yuichi Sawayama
+    ja: さわやま ゆういち
+    ja_match: romaji
+  - name: Nachi Sugiyama
+    ja: すぎやま なち
+    ja_match: romaji
+  - name: Hiromichi Sugiyama
+    ja: すぎやま ひろみち
+    ja_match: romaji
+  - name: Katsura Tabata
+    ja: たばた かつら
+    ja_match: romaji
+  - name: Kei Hoshiba
+    ja: ほしば けい
+    kanji: 保志場慶
+    ja_match: romaji
+  - name: Mikio Menjo
+    ja: めんじょう みきお
+    ja_match: romaji
+  - name: Shinichi Yoshikawa
+    ja: よしかわ しんいち
+    ja_match: romaji
+  ja_role: デザイナー
+- path:
+  - '"Meowth''s Party" CG Unit'
+  - Sound
+  names:
+  - name: Taishi Senda
+    ja: せんだ たいし
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Pokémon Channel Staff
+  - Directors
+  names:
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    kanji: 小澤宗明
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    kanji: 松村憲男
+    ja_match: romaji
+  ja_role: ポケモンチャンネルスタッフ / ディレクター
+- path:
+  - Pokémon Channel Staff
+  - Planners
+  names:
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    ja_match: romaji
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  ja_role: プランニング
+- path:
+  - Pokémon Channel Staff
+  - Programmers
+  names:
+  - name: Takayuki Ito
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: すま ようすけ
+    ja_match: romaji
+  - name: Nayuta Taga
+    ja: たが なゆた
+    ja_match: romaji
+  - name: Ein Terakawa
+    ja_match: positional
+    ja: てらかわ あいん
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  - name: Hisata Matsumoto
+    ja_match: positional
+    ja: まつもと ひさと
+  - name: Yoshiyuki Oto
+    ja_match: positional
+    ja: おく よしゆき
+  ja_role: プログラム
+- path:
+  - Pokémon Channel Staff
+  - Pokémon mini
+  names:
+  - name: Koji Yoshizaki
+    ja: よしざき こうじ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Pokémon Channel Staff
+  - Smeargle Paint
+  names:
+  - name: HAL Laboratory
+    kind: company
+- path:
+  - Pokémon Channel Staff
+  - Programming Support
+  names:
+  - name: Satoshi Mitsuhara
+    ja: みつはら さとし
+    kanji: 三津原敏
+    ja_match: romaji
+  ja_role: ドーブル・ペイント / プログラム・サポート
+- path:
+  - Pokémon Channel Staff
+  - Sound
+  names:
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Pokémon Channel Staff
+  - Graphics
+  names:
+  - name: Shin Naka
+    ja: なか しん
+    ja_match: romaji
+  - name: Hiroyuki Yamanaka
+    ja: やまなか ひろゆき
+    ja_match: romaji
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  ja_role: グラフィック
+- path:
+  - Pokémon Channel Staff
+  - Graphic Support
+  names:
+  - name: Kei Hoshiba
+    ja: ほしば けい
+    ja_match: romaji
+  - name: Ken Ikuji
+    ja: いくじ けん
+    ja_match: romaji
+  - name: Masahiro Sugiyama
+    ja: すぎやま まさひろ
+    ja_match: romaji
+  - name: Shigeo Sasaki
+    ja: ささき しげお
+    ja_match: romaji
+  - name: Junko Kanbe
+    ja: かんべ じゅんこ
+    ja_match: romaji
+  - name: Yoshiharu Sakakibara
+    ja: さかきばら よしはる
+    ja_match: romaji
+  - name: Yuichiro Komoriya
+    ja: こもりや ゆういちろう
+    ja_match: romaji
+  - name: Yoshitaka Mizushima
+    ja: みずしま よしたか
+    ja_match: romaji
+  - name: Etsuya Hattori
+    ja: はっとり えつや
+    ja_match: romaji
+  - name: Satoko Nakayama
+    ja: なかやま さとこ
+    ja_match: romaji
+  - name: Ryuta Kusumi
+    ja: くすみ りゅうた
+    kanji: 久須美龍太
+    ja_match: romaji
+  ja_role: グラフィック・サポート
+- path:
+  - Pokémon Channel Staff
+  - Text
+  names:
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  - name: Takayuki Ito
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Masayuki Miura
+    ja: みうら まさゆき
+    ja_match: romaji
+  - name: Hizuki Misono
+    ja: みその ひづき
+    ja_match: romaji
+  ja_role: テキスト
+- path:
+  - Pokémon Channel Staff
+  - Text Support
+  names:
+  - name: Akihito Toda
+    ja: とだ あきひと
+    ja_match: romaji
+  ja_role: テキスト・サポート
+- path:
+  - Pokémon Channel Staff
+  - Development Support
+  names:
+  - name: Ryuta Kusumi
+    ja: くすみ りゅうた
+    ja_match: romaji
+  - name: Hizuki Misono
+    ja: みその ひづき
+    ja_match: romaji
+  ja_role: かいはつ・サポート
+- path:
+  - Pokémon Channel Staff
+  - European Localization
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - Pokémon Channel Staff
+  - English Localization
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+- path:
+  - Pokémon Channel Staff
+  - English Translation
+  names:
+  - name: Nob Ogasawara
+- path:
+  - Pokémon Channel Staff
+  - French Translation
+  names:
+  - name: Angélique Blanchemaison
+  - name: Zadia Messerli
+- path:
+  - Pokémon Channel Staff
+  - German Translation
+  names:
+  - name: Martina Deimel
+  - name: Daniel Schäfers
+  - name: Andrea Jähn
+- path:
+  - Pokémon Channel Staff
+  - Italian Translation
+  names:
+  - name: Elena Nardo
+  - name: Massimo Maietti
+- path:
+  - Pokémon Channel Staff
+  - Spanish Translation
+  names:
+  - name: Palma Sánchez de Moya Rodríguez
+  - name: Guillermo López-Anglada Fernández
+- path:
+  - Pokémon Channel Staff
+  - Debug
+  names:
+  - name: NCL Super Mario Club
+    note: Japanese and European
+    kind: company
+  - name: NOA Product Testing
+    note: American
+    kind: company
+  - name: Arnie Myers
+    note: American
+  - name: David Santiago
+    note: American
+  - name: Teresa Lillygren
+    note: American
+  - name: Mika Kurosawa
+    note: American
+  - name: NOE Product Testing
+    note: European
+    kind: company
+  - name: Alessio Danieli
+    note: European
+  - name: Andrea de Benedetto
+    note: European
+  - name: Pierre Diesing
+    note: European
+  - name: Frank Heuchle
+    note: European
+  - name: Elisa Lopatriello
+    note: European
+  - name: Suzanne Pavic
+    note: European
+  - name: Santiago Peirano
+    note: European
+  - name: Sonia Trepiccioni
+    note: European
+  - name: Arrate Ugarte
+    note: European
+  - name: Michaelangelo Vassallo
+    note: European
+- path:
+  - Pokémon Channel Staff
+  - Artwork
+  names:
+  - name: Kenichiro Ashida
+    ja: あしだ けんいちろう
+    ja_match: romaji
+  - name: Yosuke Hamada
+    ja: はまだ ようすけ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Pokémon Channel Staff
+  - Pokémon Voices
+  names:
+  - name: Rikako Aikawa
+    ja: あいかわ りかこ
+    kanji: 愛河里花子
+    ja_match: romaji
+  - name: Mayumi Iizuka
+    ja: いいづか まゆみ
+    kanji: 飯塚雅弓
+    ja_match: romaji
+  - name: Inuko Inuyama
+    ja: いぬやま いぬこ
+    ja_match: romaji
+  - name: Yuji Ueda
+    ja: うえだ ゆうじ
+    ja_match: romaji
+  - name: Ikue Ohtani
+    ja: おおたに いくえ
+    ja_match: romaji
+  - name: Mika Kanai
+    ja: かない みか
+    kanji: かないみか
+    ja_match: romaji
+  - name: Satomi Kohrogi
+    ja: こおろぎ さとみ
+    ja_match: romaji
+  - name: Katsuyuki Konishi
+    ja: こにし かつゆき
+    ja_match: romaji
+  - name: Tomiko Suzuki
+    ja: すずき とみこ
+    kanji: 鈴木富子
+    ja_match: romaji
+  - name: Chinami Nishimura
+    ja: にしむら ちなみ
+    ja_match: romaji
+  - name: Megumi Hayashibara
+    ja: はやしばら めぐみ
+    ja_match: romaji
+  - name: Shinichiro Miki
+    ja: みき しんいちろう
+    kanji: 三木眞一郎
+    ja_match: romaji
+  - name: Maddie Blaustein
+    note: American and European
+  - name: Darren Dunstad
+    note: American and European
+  - name: Wayne Grayson
+    note: American and European
+  - name: Dan Green
+    note: American and European
+  - name: Michael Haigney
+    note: American and European
+  - name: Ted Lewis
+    note: American and European
+  - name: Rachel Lillis
+    note: American and European
+  - name: Kathryn Pilon
+    note: American and European
+  - name: Kayzie Rogers
+    note: American and European
+  - name: Tara Sands
+    note: American and European
+  - name: Eric Stewart
+    note: American and European
+  - name: Veronica Taylor
+    note: American and European
+  - name: Kerry Williams
+    note: American and European
+  - name: Benoît Van Dorslaer
+    note: European
+  - name: Daniel Nicodème
+    note: European
+  - name: Guylaine Gibert
+    note: European
+  - name: Jean-Marc Delhausse
+    note: European
+  - name: Julie Baseqz
+    note: European
+  - name: Lydia Cherton
+    note: European
+  - name: Nessym Guetat
+    note: European
+  - name: Véronique Fyon
+    note: European
+  - name: Andrea Imme
+    note: European
+  - name: Beate Pfeiffer
+    note: European
+  - name: Bernd Reininger
+    note: European
+  - name: Bernd Simon
+    note: European
+  - name: Claudia Schmidt
+    note: European
+  - name: Daniela Arden
+    note: European
+  - name: Ditte Schupp
+    note: European
+  - name: Dorothea Riemer
+    note: European
+  - name: Franziska Ball
+    note: European
+  - name: Gerd Jilka
+    note: European
+  - name: Gerd Riegauer
+    note: European
+  - name: Gerhard Acktun
+    note: European
+  - name: J.A. Döring
+    note: European
+  - name: Julian Alexon
+    note: European
+  - name: Kai Taschner
+    note: European
+  - name: Klaus Münster
+    note: European
+  - name: Mara Winzer
+    note: European
+  - name: Martina Dunker
+    note: European
+  - name: Martina Hartmann
+    note: European
+  - name: Mathias Kupfer
+    note: European
+  - name: Nico Macoulis
+    note: European
+  - name: Nicola Gruppe
+    note: European
+  - name: Simone Brahmann
+    note: European
+  - name: Sonja Reichelt
+    note: European
+  - name: Thomas Hayden
+    note: European
+  - name: Thomas Rau
+    note: European
+  - name: Tonio v. d. Meden
+    note: European
+  - name: Ulla Wagner
+    note: European
+  - name: Ulrike Jenni
+    note: European
+  - name: Ute Bronder
+    note: European
+  - name: Waldemar Wichlinski
+    note: European
+  - name: Giuseppe Calvetti
+    note: European
+  - name: José Escobosa
+    note: European
+  ja_role: こえのしゅつえん (50おんじゅん)
+- path:
+  - Pokémon Channel Staff
+  - Recording Director
+  names:
+  - name: Masafumi Mima
+    ja: みま まさふみ
+    ja_match: romaji
+  ja_role: アフレコ・おんきょうかんとく
+- path:
+  - Pokémon Channel Staff
+  - North American Recording Producer
+  names:
+  - name: Kathy Borland
+- path:
+  - Pokémon Channel Staff
+  - North American Recording Director
+  names:
+  - name: Darren Dunstan
+- path:
+  - Pokémon Channel Staff
+  - Recording Coordinators
+  names:
+  - name: Takemoto Mori
+    ja: もり たけもと
+    ja_match: romaji
+  - name: Yuko Shimamura
+    ja: しまむら ゆうこ
+    ja_match: romaji
+  - name: Takeshi Nishina
+    ja: にしな たけし
+    ja_match: romaji
+  - name: Akiko Nakamura
+    ja: なかむら あきこ
+    ja_match: romaji
+  - name: Brenda Dillon
+  - name: Kaz Sano
+  - name: Yoshie Okabayashi
+  ja_role: アフレコ・コーディネート
+- path:
+  - Pokémon Channel Staff
+  - North American Recording Engineers
+  names:
+  - name: Michele Darling
+  - name: Suzanne Goldish
+  - name: Shawn Conrad
+  - name: Alon Namdar
+  - name: Charles Newman
+- path:
+  - Pokémon Channel Staff
+  - French Recording Executive Producer
+  names:
+  - name: Pierre Métais
+- path:
+  - Pokémon Channel Staff
+  - French Recording Director
+  names:
+  - name: Daniel Nicodème
+- path:
+  - Pokémon Channel Staff
+  - French Voice Director
+  names:
+  - name: Daniel Nicodème
+- path:
+  - Pokémon Channel Staff
+  - German Dubbing Agency
+  names:
+  - name: Erika Gröne
+- path:
+  - Pokémon Channel Staff
+  - Italian Recording Producer
+  names:
+  - name: Ed Campbell
+- path:
+  - Pokémon Channel Staff
+  - Italian Recording Director
+  names:
+  - name: Cip Barcellini
+- path:
+  - Pokémon Channel Staff
+  - Italian Recording Coordinator
+  names:
+  - name: Daniele Blandino
+- path:
+  - Pokémon Channel Staff
+  - Italian Recording Engineer
+  names:
+  - name: Moreno G. Pometti
+- path:
+  - Pokémon Channel Staff
+  - Italian Voice Producer
+  names:
+  - name: Cinzia Veronese
+- path:
+  - Pokémon Channel Staff
+  - Italian Voice Director
+  names:
+  - name: Ryan Nicola Carrassi
+- path:
+  - Pokémon Channel Staff
+  - Spanish Recording Producer
+  names:
+  - name: Mariano García Díez
+- path:
+  - Pokémon Channel Staff
+  - Spanish Recording Director
+  names:
+  - name: Amparo Valencia
+- path:
+  - Pokémon Channel Staff
+  - Spanish Recording Engineer
+  names:
+  - name: Alejandro Rodríguez
+- path:
+  - Pokémon Channel Staff
+  - Spanish Voice Producer
+  names:
+  - name: Victoria Osuna
+- path:
+  - Pokémon Channel Staff
+  - Recording Studios
+  names:
+  - name: Half HP Studio
+    kind: company
+  - name: Aoi Studio
+    kind: company
+  - name: FM Sounds
+  - name: ARES-FILMS
+    note: European
+  - name: FFF-Grupe Studios
+    note: European
+    kind: company
+  - name: Toyco Studio
+    note: European
+    kind: company
+  - name: Merak Film Srl
+    note: European
+  - name: TELSON SERVICIOS AUDIOVISUALES S.L.U.
+    note: European
+- path:
+  - Pokémon Channel Staff
+  - Pokémon Supervisors
+  names:
+  - name: Hiroki Enomoto
+    ja: えのもと ひろき
+    ja_match: romaji
+  - name: Kazuyuki Terada
+    ja: てらだ かずゆき
+    ja_match: romaji
+  - name: Hiromi Sagawa
+    ja: さがわ ひろみ
+    ja_match: romaji
+  - name: Ryohei Itakura
+    ja: いたくら りょうへい
+    ja_match: romaji
+  - name: Akihito Tamura
+    ja: たむら あきひと
+    ja_match: romaji
+  ja_role: ポケットモンスターかんしゅう
+- path:
+  - Pokémon Channel Staff
+  - In Cooperation With
+  names:
+  - name: HAL Laboratory
+    kind: company
+  - name: Creatures Inc.
+    kind: company
+  - name: Jupiter
+    kind: company
+  - name: Denyusha
+    ja: でんゆうしゃ
+    ja_match: romaji
+  - name: Shogakukan Production
+    kind: company
+  - name: O.L.M. Digital
+    kind: company
+  ja_role: せいさくきょうりょく
+- path:
+  - Pokémon Channel Staff
+  - Special Thanks
+  names:
+  - name: Hitoshi Shiogai
+    ja: しおがい ひとし
+    ja_match: romaji
+  - name: Kenji Nishizawa
+    ja: にしざわ けんじ
+    ja_match: romaji
+  - name: Keizo Kato
+    ja: かとう けいぞう
+    ja_match: romaji
+  - name: Kakui Hironobu
+    ja: かくい ひろのぶ
+    ja_match: romaji
+  - name: Shingo Okamato
+    ja_match: positional
+    ja: おかもと しんご
+  - name: Mari Shirakawa
+    ja: しらかわ まり
+    ja_match: romaji
+  - name: Daisuke Yoshimitsu
+    ja: よしみつ だいすけ
+    ja_match: romaji
+  - name: Sarugakucho
+    ja_match: positional
+    ja: さるがくちょうのみなさま
+  - name: Koji Kenjo
+    ja: けんじょう こうじ
+    ja_match: romaji
+  - name: Choji Yoshikawa
+    ja: よしかわ ちょうじ
+    ja_match: romaji
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Hisae Yamamura
+    ja: やまむら ひさえ
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: たなか まさみ
+    ja_match: romaji
+  - name: Makiko Takada
+    ja: たかだ まきこ
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: たきざわ みちこ
+    ja_match: romaji
+  - name: Takanao Kondo
+    ja: こんどう たかなお
+    ja_match: romaji
+  - name: Ayako Kajiwara
+    ja: かじわら あやこ
+    ja_match: romaji
+  - name: Mika Kurosawa
+    note: American and European
+  - name: Daisuke Hara
+    note: American and European
+  - name: Taeko Suzuki
+    note: American and European
+  - name: Denitsa Zaharieva
+    note: American and European
+  - name: Paul Taylor
+    note: American and European
+  - name: Rika Kazama-Fanselow
+    note: European
+  - name: Tomotaka Komura
+    note: European
+  - name: Yasuhiro Masuda
+    note: European
+  ja_role: スペシャルサンクス
+- path:
+  - Pokémon Channel Staff
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  ja_role: ポケットモンスター・オリジナルディレクター
+- path:
+  - Pokémon Channel Staff
+  - Supervisors
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Hirokazu Tanaka
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    ja_match: romaji
+  ja_role: スーパーバイザー
+- path:
+  - Pokémon Channel Staff
+  - Assistant Producer
+  names:
+  - name: Masayuki Miura
+    ja: みうら まさゆき
+    ja_match: romaji
+  ja_role: アシスタント・プロデューサー
+- path:
+  - Pokémon Channel Staff
+  - Producers
+  names:
+  - name: Tatsuya Hishida
+    ja: ひしだ たつや
+    kanji: 菱田達也
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Pokémon Channel Staff
+  - General Producers
+  names:
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Kenji Miki
+    ja: みき けんじ
+    kanji: 三木研次
+    ja_match: romaji
+  ja_role: ゼネラル・プロデューサー
+- path:
+  - Pokémon Channel Staff
+  - General Producer
+  names:
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    kanji: 鶴宏明
+    ja_match: romaji
+  ja_role: ゼネラル・プロデューサー
+- path:
+  - Pokémon Channel Staff
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: エグゼクティブ・プロデューサー
+- path:
+  - Pokémon Channel Staff
+  - Executive Producer
+  names:
+  - name: Tsunekaz Ishihara
+- path:
+  - Pokémon mini Unit
+  - Directors
+  names:
+  - name: Shinya Kawada
+    note: Pokémon Party mini
+  - name: Ryu Nadatani
+    note: Pokémon Party mini
+  - name: Yoshikazu Mori
+    note: Pokémon Pinball mini
+  - name: Norichika Meguro
+    note: Pokémon Puzzle Collection
+  - name: Daisuke Tsujimura
+    note: Snorlax's Lunch Time
+- path:
+  - Pokémon mini Unit
+  - Programmers
+  names:
+  - name: Katsuhisa Okino
+    note: Pokémon Party mini
+  - name: Yoshikazu Mori
+    note: Pokémon Pinball mini
+  - name: Hiraku Kitawaki
+    note: Pokémon Puzzle Collection
+  - name: Hiroyuki Kawaharabayashi
+    note: Pokémon Puzzle Collection
+  - name: Daisuke Tsujimura
+    note: Snorlax's Lunch Time
+- path:
+  - Pokémon mini Unit
+  - Designers
+  names:
+  - name: Masafumi Terai
+    note: Pokémon Party mini
+  - name: Chikako Takenaka
+    note: Pokémon Party mini
+  - name: Hideki Ishii
+    note: Pokémon Pinball mini
+  - name: Norichika Meguro
+    note: Pokémon Puzzle Collection
+  - name: Hiroaki Tamura
+    note: Snorlax's Lunch Time
+- path:
+  - Pokémon mini Unit
+  - Sound
+  names:
+  - name: Masaru Tajima
+    note: Pokémon Party mini / Pokémon Pinball mini / Pokémon Puzzle Collection / Snorlax's Lunch Time
+- path:
+  - Pokémon mini Unit
+  - European Localization
+  names:
+  - name: Hiroyuki Uesugi
+  - name: Daniel Schäfers
+- path:
+  - Pokémon mini Unit
+  - English Localization
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+- path:
+  - Pokémon mini Unit
+  - Special Thanks
+  names:
+  - name: Shinya Kawada
+  - name: Tomonari Kidachi
+  - name: Hatao Ogata
+  - name: Shogo Hayashi
+  - name: Kengo Hitomi
+- path:
+  - Pokémon mini Unit
+  - Assistant Producer
+  names:
+  - name: Masayuki Miura
+- path:
+  - Pokémon mini Unit
+  - Producer
+  names:
+  - name: Satoshi Yamato
+ja_unmatched:
+- kana: エイ・アイ・シー
+  role: どうが
+- kana: ウォンバット
+  role: どうが
+- kana: きのプロダクション
+  role: どうが
+- kana: コクピット
+  role: どうが
+- kana: じゃんぐるじむ
+  role: どうが
+- kana: とうきょうアニメーションセンター
+  role: どうが
+- kana: ムサシノスタッフ
+  role: どうが
+- kana: こばやしプロダクション
+  role: はいけい
+- kana: ハーフ・HP・スタジオ
+  role: ろくおんスタジオ
+- kana: ハーフ・HP・スタジオ
+  role: おんきょうせいさく
+- kana: しょうがっかんプロダクション
+  role: アニメーションせいさく
+- kana: O・L・M
+  role: アニメーションせいさく
+- kana: デルビル [[龍田直樹|たつた なおき]]
+  role: こえのしゅつえん (キャスト)
+- kana: ムチュール [[林原めぐみ|はやしばら めぐみ]]
+  role: こえのしゅつえん (キャスト)
+- kana: マリルリ [[三石琴乃|みついし ことの]]
+  role: こえのしゅつえん (キャスト)
+- kana: ウパー [[新谷真弓|しんたに まゆみ]]
+  role: こえのしゅつえん (キャスト)
+- kana: ドーブル [[坂口候一|さかぐち こういち]]
+  role: こえのしゅつえん (キャスト)
+- kana: Dhad Tzachar
+  role: ミクサー
+- kana: ハルけんきゅうじょ
+  role: ポケモンミニ
+  kanji: ハル研究所
+- kana: スーパーマリオクラブ
+  role: デバッグ
+- kana: ハーフ・HP・スタジオ
+  role: アフレコ・スタジオ
+- kana: アオイスタジオ
+  role: アフレコ・スタジオ
+- kana: FMサウンズ
+  role: アフレコ・スタジオ
+- kana: ハルけんきゅうじょ
+  role: せいさくきょうりょく
+- kana: クリーチャーズ
+  role: せいさくきょうりょく
+- kana: ジュピター
+  role: せいさくきょうりょく
+- kana: しょうがくかんプロダクション
+  role: せいさくきょうりょく
+  kanji: 小学館集英社プロダクション
+- kana: O・L・M
+  role: せいさくきょうりょく

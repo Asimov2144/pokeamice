@@ -1,0 +1,652 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Crystal + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_クリスタルバージョンのスタッフクレジット
+slug: crystal
+title: Staff of Pokémon Crystal
+work: 宝可梦 水晶版
+year: 2000
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Crystal
+count: 187
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_クリスタルバージョンのスタッフクレジット
+ja_alignment:
+  ja_total: 80
+  ja_matched: 80
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Global staff
+  - Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: エグゼクティブディレクター
+  ja_role_en: Executive Director
+- path:
+  - Global staff
+  - Co-director
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: ディレクター
+  ja_role_en: Director
+- path:
+  - Global staff
+  - Programmers
+  names:
+  - name: Sousuke Tamada
+    ja: たまだ そうすけ
+    kanji: 玉田荘介
+    ja_match: romaji
+  - name: Hisashi Sogabe
+    ja: そがべ ひさし
+    kanji: 曽我部仙史
+    ja_match: romaji
+  - name: Keita Kagaya
+    ja: かがや けいた
+    ja_match: romaji
+  - name: Yoshinori Matsuda
+    ja: まつだ よしのり
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Takenori Oota
+    ja: おおた たけのり
+    kanji: 太田健程
+    ja_match: romaji
+  ja_role: プログラム
+  ja_role_en: Program
+- path:
+  - Global staff
+  - Graphics Director
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: グラフィック ディレクター
+- path:
+  - Global staff
+  - Monster Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Motofumi Fujiwara
+    ja: ふじわら もとふみ
+    kanji: 藤原基史
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Satoshi Oota
+    link: Satoshi Ohta
+    ja: おおた さとし
+    kanji: 太田敏
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  - name: Muneo Saito
+    link: Muneo Saitō
+    ja: さいとう むねお
+    kanji: 斉藤むねお
+    ja_match: romaji
+  - name: Rena Yoshikawa
+    ja: よしかわ れな
+    kanji: 吉川玲奈
+    ja_match: romaji
+  ja_role: ポケモンデザイン
+  ja_role_en: Pokémon Design
+- path:
+  - Global staff
+  - Pokémon Animation
+  names:
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    ja_match: romaji
+  - name: Jun Okutani
+    ja: おくたに じゅん
+    kanji: 奥谷順
+    ja_match: romaji
+  ja_role: ポケモン アニメーション
+- path:
+  - Global staff
+  - Graphics Design
+  names:
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    ja_match: romaji
+  - name: Jun Okutani
+    ja: おくたに じゅん
+    ja_match: romaji
+  - name: Asuka Iwashita
+    ja: いわした あすか
+    kanji: 岩下明日香
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    ja_match: romaji
+  ja_role: グラフィック デザイン
+- path:
+  - Global staff
+  - Music
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Morikazu Aoki
+    ja: あおき もりかず
+    kanji: 青木森一
+    ja_match: romaji
+  - name: Go Ichinose
+    link: Gō Ichinose
+    ja: いちのせ ごう
+    kanji: 一之瀬剛
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Global staff
+  - Sound Effects
+  names:
+  - name: Morikazu Aoki
+    ja: あおき もりかず
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    ja_match: romaji
+  ja_role: サウンド エフェクト
+- path:
+  - Global staff
+  - Game Design
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    ja_match: romaji
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Tetsuji Oota
+    ja: おおた てつじ
+    kanji: 太田哲司
+    ja_match: romaji
+  - name: Hitomi Sato
+    link: Hitomi Satō
+    ja: さとう ひとみ
+    kanji: 佐藤仁美
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    kanji: 松島賢二
+    ja_match: romaji
+  ja_role: ゲームデザイン
+- path:
+  - Global staff
+  - Game Scenario
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  - name: Toshinobu Matsumiya
+    ja: まつみや としのぶ
+    kanji: 松宮稔展
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    ja_match: romaji
+  ja_role: シナリオ
+  ja_role_en: Scenario
+- path:
+  - Global staff
+  - Pokédex Text
+  names:
+  - name: Toshinobu Matsumiya
+    ja: まつみや としのぶ
+    ja_match: romaji
+  ja_role: ずかんテキスト
+  ja_role_en: Encyclopedia Text
+- path:
+  - Global staff
+  - Tool Programming
+  names:
+  - name: Sousuke Tamada
+    ja: たまだ そうすけ
+    ja_match: romaji
+  - name: Takenori Oota
+    ja: おおた たけのり
+    ja_match: romaji
+  ja_role: ツールプログラム
+  ja_role_en: Tool Program
+- path:
+  - Global staff
+  - Parametric Design
+  names:
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  ja_role: パラメーターせってい
+  ja_role_en: Parameter Creation
+- path:
+  - Global staff
+  - Script Design
+  names:
+  - name: Tetsuji Oota
+    ja: おおた てつじ
+    ja_match: romaji
+  - name: Nobuhiro Seya
+    ja: せや のぶひろ
+    ja_match: romaji
+  ja_role: スクリプトせってい
+  ja_role_en: Script Creation
+- path:
+  - Global staff
+  - Map Data Design
+  names:
+  - name: Tetsuji Oota
+    ja: おおた てつじ
+    ja_match: romaji
+  - name: Kazuhito Sekine
+    ja: せきね かずひと
+    ja_match: romaji
+  ja_role: マップデータせってい
+  ja_role_en: Map Data Creation
+- path:
+  - Global staff
+  - Map Design
+  names:
+  - name: Tetsuji Oota
+    ja: おおた てつじ
+    ja_match: romaji
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  - name: Nobuhiro Seya
+    ja: せや のぶひろ
+    ja_match: romaji
+  ja_role: マップ デザイン
+- path:
+  - Global staff
+  - Coordination
+  names:
+  - name: Hiroyuki Zinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  ja_role: コーディネーター
+  ja_role_en: Coordinator
+- path:
+  - Global staff
+  - Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Satoshi Yamato
+    ja: やまと さとし
+    kanji: 大和聡
+    ja_match: romaji
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Global staff
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー
+- path:
+  - Japanese version
+  - Mobile Project Leader
+  names:
+  - name: Tōru Ōsawa
+    ja: おおさわ とおる
+    ja_match: romaji
+  ja_role: モバイルプロジェクトリーダー
+- path:
+  - Japanese version
+  - Mobile System Adviser
+  names:
+  - name: Takao Ōhara
+    ja: おおはら たかお
+    ja_match: romaji
+  - name: Yūichirō Itō
+    ja: いとう ゆういちろう
+    ja_match: romaji
+  ja_role: モバイルシステムアドバイザー
+- path:
+  - Japanese version
+  - Mobile System Director
+  names:
+  - name: Takao Shimizu
+    ja: しみず たかお
+    kanji: 清水隆雄
+    ja_match: romaji
+  ja_role: モバイルシステムディレクター
+- path:
+  - Japanese version
+  - Product Testing
+  names:
+  - name: '(Japanese:  Kikaku Kaihatsu-bu)'
+    ja_match: positional
+    ja: きかくかいはつぶ
+  - name: Keita Nakamura
+    ja: なかむら けいた
+    ja_match: romaji
+  - name: Hirotaka Uemura
+    ja: うえむら ひろたか
+    ja_match: romaji
+  - name: Hiroaki Tamura
+    ja: たむら ひろあき
+    ja_match: romaji
+  - name: Noriaki Sakaguchi
+    ja: さかぐち のりあき
+    ja_match: romaji
+  - name: Super Mario Club
+    link: Mario Club
+    note: 'Japanese: スーパーマリオクラブ'
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  - name: Kenji Saiki
+    ja: さいき けんじ
+    ja_match: romaji
+  - name: Atsushi Tada
+    ja: ただ あつし
+    ja_match: romaji
+  - name: Sarugakucho
+    note: 'Japanese:'
+    ja: さるがくちょう
+    kanji: 猿楽庁
+    ja_match: romaji
+  - name: Tōru Hashimoto
+    ja: はしもと とおる
+    kanji: 橋本徹
+    ja_match: romaji
+  - name: Noboru Matsumoto
+    ja: まつもと のぼる
+    kanji: 松本登
+    ja_match: romaji
+  - name: Miyuki Sato
+    ja: さとう みゆき
+    kanji: 佐藤美由紀
+    ja_match: romaji
+  ja_role: デバッグプレイ
+  ja_role_en: Debug Play
+- path:
+  - Japanese version
+  - Special Thanks
+  names:
+  - name: Naoko Kawakami
+    ja: かわかみ なおこ
+    kanji: 川上直子
+    ja_match: romaji
+  - name: Akito Mori
+    ja: もり あきと
+    kanji: 森昭人
+    ja_match: romaji
+  - name: Gakuzi Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳志
+    ja_match: romaji
+  - name: Ai Mashima
+    ja: ましま あい
+    kanji: 間島藍
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Mikihiro Ishikawa
+    ja: いしかわ みきひろ
+    ja_match: romaji
+  - name: Hideyuki Hashimoto
+    ja: はしもと ひでゆき
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - US Version Staff
+  - US Coordination
+  names:
+  - name: Gail Tilden
+  - name: Hiro Nakamura
+  - name: Junichi Masuda
+  - name: Seth McMahill
+  - name: Hiroto Alexander
+  - name: Teresa Lillygren
+- path:
+  - US Version Staff
+  - Text Translation
+  names:
+  - name: Nob Ogasawara
+- path:
+  - US Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kazuyoshi Osawa
+- path:
+  - US Version Staff
+  - PAAD Testing
+  names:
+  - name: Thomas Hertzog
+  - name: Erik Johnson
+- path:
+  - US Version Staff
+  - Product Testing
+  names:
+  - name: Keita Nakamura
+  - name: Hirotaka Uemura
+  - name: Hiroaki Tamura
+  - name: Noriaki Sakaguchi
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+  - name: Kenji Saiki
+  - name: Atsushi Tada
+  - name: Miyuki Sato
+- path:
+  - US Version Staff
+  - Special Thanks
+  names:
+  - name: Kimiko Nakamichi
+  - name: Akito Mori
+  - name: Gakuzi Nomoto
+  - name: Ai Mashima
+  - name: Kunimi Kawamura
+  - name: Mikihiro Ishikawa
+  - name: Hideyuki Hashimoto
+- path:
+  - European Version Staff
+  - European Coordination
+  names:
+  - name: Kai Zeh
+  - name: Hiroyuki Uesugi
+  - name: Junichi Masuda
+  - name: Kohji Nishino
+    link: Kōji Nishino
+  - name: Kunimi Kawamura
+  - name: Tanja Baar
+  - name: Kai Neumann
+- path:
+  - European Version Staff
+  - French Text
+  names:
+  - name: Julien Bardakoff
+  - name: Nicolas Robert
+- path:
+  - European Version Staff
+  - German Text
+  names:
+  - name: Daniel Schäfers
+  - name: Martina Deimel
+- path:
+  - European Version Staff
+  - Italian Text
+  names:
+  - name: Andrea Salvi
+  - name: Elenor Isbidish
+  - name: Calimero Tiiiun
+- path:
+  - European Version Staff
+  - Spanish Text
+  names:
+  - name: Antonio Greppi
+  - name: Carlos Montilla
+  - name: Sofia Marín
+  - name: Palma Sánchez
+- path:
+  - European Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kazuyoshi Osawa
+- path:
+  - European Version Staff
+  - French Product Testing
+  names:
+  - name: Maurice Tisdale
+  - name: Patrick Thieret
+  - name: French Testing Team
+    kind: company
+  - name: Keita Nakamura
+  - name: Hirotaka Uemura
+  - name: Hiroaki Tamura
+  - name: Noriaki Sakaguchi
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+  - name: Kenji Saiki
+  - name: Atsushi Tada
+  - name: Miyuki Sato
+- path:
+  - European Version Staff
+  - German Product Testing
+  names:
+  - name: Maurice Tisdale
+  - name: Patrick Thieret
+  - name: Jens Peppel
+  - name: German Testing Team
+    kind: company
+  - name: Keita Nakamura
+  - name: Hirotaka Uemura
+  - name: Hiroaki Tamura
+  - name: Noriaki Sakaguchi
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+  - name: Kenji Saiki
+  - name: Atsushi Tada
+  - name: Miyuki Sato
+- path:
+  - European Version Staff
+  - Italian Product Testing
+  names:
+  - name: Maurice Tisdale
+  - name: Patrick Thieret
+  - name: Matthew Mawer
+  - name: Italian Testing Team
+    kind: company
+  - name: Keita Nakamura
+  - name: Hirotaka Uemura
+  - name: Hiroaki Tamura
+  - name: Noriaki Sakaguchi
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+  - name: Kenji Saiki
+  - name: Atsushi Tada
+  - name: Miyuki Sato
+- path:
+  - European Version Staff
+  - Spanish Product Testing
+  names:
+  - name: Maurice Tisdale
+  - name: Ángel Victoria
+  - name: Spanish Testing Team
+    kind: company
+  - name: Keita Nakamura
+  - name: Hirotaka Uemura
+  - name: Hiroaki Tamura
+  - name: Noriaki Sakaguchi
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+  - name: Kenji Saiki
+  - name: Atsushi Tada
+  - name: Miyuki Sato
+- path:
+  - European Version Staff
+  - French Text Proofing
+  names:
+  - name: Kimiko Nakamichi
+- path:
+  - European Version Staff
+  - German Text Proofing
+  names:
+  - name: Kimiko Nakamichi
+  - name: Emi Bessho
+  - name: Takashi Inamoto
+- path:
+  - European Version Staff
+  - Italian Text Proofing
+  names:
+  - name: Kimiko Nakamichi
+  - name: Akira Yano
+  - name: Hiroshi Akune
+- path:
+  - European Version Staff
+  - Spanish Text Proofing
+  names:
+  - name: Kimiko Nakamichi
+  - name: Misako Nishio
+- path:
+  - European Version Staff
+  - Special Thanks
+  names:
+  - name: Hiro Nakamura
+    note: Spanish version only
+  - name: Akito Mori
+  - name: Gakuzi Nomoto
+  - name: Ai Mashima
+  - name: Mikihiro Ishikawa
+  - name: Hideyuki Hashimoto

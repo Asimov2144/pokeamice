@@ -1,0 +1,3245 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Hidden_Treasure_of_Area_Zero + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_スカーレット・バイオレット_ゼロの秘宝のスタッフクレジット
+slug: area-zero
+title: Staff of The Hidden Treasure of Area Zero
+work: null
+year: 2023
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Hidden_Treasure_of_Area_Zero
+count: 839
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_スカーレット・バイオレット_ゼロの秘宝のスタッフクレジット
+note: 朱·紫 DLC
+ja_alignment:
+  ja_total: 860
+  ja_matched: 608
+  ja_positional: 45
+  ja_only_added: 6
+sections:
+- path:
+  - Directors
+  names:
+  - name: Katsuhiko Ichiraku
+    ja: いちらく かつひこ
+    kanji: 一楽克彦
+    ja_match: romaji
+  - name: Rei Murayama
+    ja: むらやま れい
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Game Programming Team
+  names:
+  - name: Katsuhiko Ichiraku
+    lead: Lead
+    ja: いちらく かつひこ
+    ja_match: romaji
+  - name: Fang Yicheng
+  - name: Tsuyoshi Watanabe
+    ja: わたなべ つよし
+    ja_match: romaji
+  - name: Tomohiro Yokozawa
+    ja: よこざわ ともひろ
+    ja_match: romaji
+  - name: Takuya Shishido
+    ja: ししど たくや
+    ja_match: romaji
+  - name: Yu Muto
+    ja: むとう ゆう
+    ja_match: romaji
+  - name: Hiroaki Imamura
+    ja: いまむら ひろあき
+    ja_match: romaji
+  - name: Yuji Koyama
+    ja: こやま ゆうじ
+    ja_match: romaji
+  - name: Mitsuhiko Hoshi
+    ja: ほし みつひこ
+    ja_match: romaji
+  - name: Kazuhiro Kurihara
+    ja: くりはら かずひろ
+    ja_match: romaji
+  - name: Katsumi Takei
+    ja: たけい かつみ
+    ja_match: romaji
+  - name: Kazuki Yamaguchi
+    ja: やまぐち かずき
+    ja_match: romaji
+  - name: Yuki Mori
+    ja: もり ゆうき
+    ja_match: romaji
+  - name: Chinhyon Yano
+    ja: やの ちんひょん
+    ja_match: romaji
+  - name: Kota Oishi
+    ja: おおいし こうた
+    ja_match: romaji
+  - name: Naoki Sugawara
+    ja: すがわら なおき
+    ja_match: romaji
+  - name: Yuya Fukushima
+    ja: ふくしま ゆうや
+    ja_match: romaji
+  - name: Tomoki Shiraeda
+    ja: しらえだ ともき
+    ja_match: romaji
+  - name: Shuri Matsuoka
+    ja: まつおか しゅり
+    ja_match: romaji
+  - name: Ryuhei Yamamoto
+    ja: やまもと りゅうへい
+    ja_match: romaji
+  - name: Takahiro Satou
+    name_source: ja-only
+    ja: さとう たかひろ
+    ja_match: ja-only
+  ja_role: ゲームプログラムチーム
+- path:
+  - ゲームプログラムチーム きょうりょくがいしゃ
+  ja_role: ゲームプログラムチーム きょうりょくがいしゃ
+  source: ja-only
+  names:
+  - name: Kurieitibusutajio Kuriikuandoribaasha
+    name_source: ja-only
+    ja: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+    ja_match: ja-only
+- path:
+  - Game Programming Team
+  - Game Programming Team Partners
+  names:
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+  - name: e-smile engineering Co.Ltd
+    kind: company
+- path:
+  - Debug Team
+  names:
+  - name: Takaki Haga
+    ja: はが たかき
+    ja_match: romaji
+  - name: Tomokazu Yahata
+    ja: やはた ともかず
+    ja_match: romaji
+  - name: Hiroyuki Wakabayashi
+    ja: わかばやし ひろゆき
+    ja_match: romaji
+  - name: Jun Ito
+    ja: いとう じゅん
+    ja_match: romaji
+  - name: Takeshi Oka
+    ja: おか たけし
+    ja_match: romaji
+  - name: Haruki Yamaguchi
+    ja: やまぐち はるき
+    ja_match: romaji
+  - name: Hiroaki Takegawa
+    ja: たけがわ ひろあき
+    ja_match: romaji
+  ja_role: デバッグチーム
+- path:
+  - Debug Team
+  - Debug Team Partners
+  names:
+  - name: Digital Hearts Co., Ltd.
+    kind: company
+- path:
+  - Research & Development General Manager
+  names:
+  - name: Tomoya Takahashi
+    ja: たかはし ともや
+    kanji: 高橋友也
+    ja_match: romaji
+  ja_role: けんきゅうかいはつ / ゼネラルマネージャー
+- path:
+  - System Programming Section Director
+  names:
+  - name: Tomoya Takahashi
+    ja: たかはし ともや
+    ja_match: romaji
+  ja_role: システムプログラム / セクションディレクター
+- path:
+  - Pokémon & Battle System Team
+  names:
+  - name: Kai Munakata
+    lead: Lead
+    ja: むなかた かい
+    ja_match: romaji
+  - name: Takaaki Oki
+    ja: おおき たかあき
+    ja_match: romaji
+  ja_role: ポケモン・バトルシステムチーム
+- path:
+  - Communication Features Programming
+  names:
+  - name: Takuto Takabe
+    lead: Lead
+    ja: たかべ たくと
+    ja_match: romaji
+  - name: Takashi Furukawa
+    ja: ふるかわ たかし
+    ja_match: romaji
+  - name: Shou Son
+    ja: そん しょう
+    ja_match: romaji
+  ja_role: つうしんプログラム
+- path:
+  - Framework Team
+  names:
+  - name: Raichi Ihara
+    lead: Lead
+    ja: いはら らいち
+    ja_match: romaji
+  - name: Makoto Takebe
+    ja: たけべ まこと
+    ja_match: romaji
+  ja_role: フレームワークチーム
+- path:
+  - Graphics Technology Lab Director
+  names:
+  - name: Keiichi Maezawa
+    ja: まえざわ けいいち
+    kanji: 前澤圭一
+    ja_match: romaji
+  ja_role: CGテクノロジーラボ / ディレクター
+- path:
+  - Rendering Section Director
+  names:
+  - name: Shinya Goto
+    ja: ごとう しんや
+    ja_match: romaji
+  ja_role: レンダリング / セクションディレクター
+- path:
+  - Simulation Team
+  names:
+  - name: Nobuyuki Miura
+    lead: Lead
+    ja: みうら のぶゆき
+    ja_match: romaji
+  - name: Yiming Fu
+    ja_match: positional
+    ja: フー イミン
+  ja_role: シミュレーションチーム
+- path:
+  - Base Technology Section Director
+  names:
+  - name: Ota Sano
+    ja: さの おうた
+    ja_match: romaji
+  ja_role: きばんぎじゅつ / セクションディレクター
+- path:
+  - Trinity Team
+  names:
+  - name: Ryota Takeuchi
+    lead: Lead
+    ja: たけうち りょうた
+    ja_match: romaji
+  - name: Nozomu Saito
+    ja: さいとう のぞむ
+    ja_match: romaji
+  - name: Satoshi Murata
+    ja: むらた さとし
+    ja_match: romaji
+  ja_role: TRINITYチーム
+- path:
+  - Workflow Team
+  names:
+  - name: Tomoya Kanehira
+    lead: Lead
+    ja: かねひら ともや
+    ja_match: romaji
+  - name: Shinichi Yoshikawa
+    ja: よしかわ しんいち
+    ja_match: romaji
+  - name: Hirokazu Tanaka
+    ja: たなか ひろかず
+    ja_match: romaji
+  ja_role: ワークフローチーム
+- path:
+  - AI Section Director
+  names:
+  - name: Jun ITO
+    ja: いとう じゅん
+    ja_match: romaji
+  ja_role: AI / セクションディレクター
+- path:
+  - Machine Learning Team
+  names:
+  - name: Keisuke Kamataki
+    lead: Lead
+    ja: かまたき けいすけ
+    ja_match: romaji
+  ja_role: MLチーム
+- path:
+  - Environment Development Section Director
+  names:
+  - name: Haruki Tachihara
+    ja: たちはら はるき
+    ja_match: romaji
+  ja_role: かんきょう / セクションディレクター
+- path:
+  - Pipeline Team
+  names:
+  - name: Masanori Kanamaru
+    lead: Lead
+    ja: かなまる まさのり
+    ja_match: romaji
+  - name: Reona Takayama
+    ja: たかやま れおな
+    ja_match: romaji
+  - name: Miyuki Iwasawa
+    ja: いわさわ みゆき
+    ja_match: romaji
+  ja_role: パイプラインチーム
+- path:
+  - Quality Assurance System Team
+  names:
+  - name: Hirofumi Suzuki
+    ja: すずき ひろふみ
+    ja_match: romaji
+  ja_role: QAシステムチーム
+- path:
+  - Debug Team
+  names:
+  - name: Keigo Matsunaga
+    ja: まつなが けいご
+    ja_match: romaji
+  - name: Masaaki Saito
+    ja: さいとう まさあき
+    ja_match: romaji
+  - name: Hiroshi Nitta
+    ja: にった ひろし
+    ja_match: romaji
+  - name: Akira Inaba
+    ja: いなば あきら
+    ja_match: romaji
+  - name: Tomoki Tate
+    ja: たて ともき
+    ja_match: romaji
+  - name: Shodai Yamaguchi
+    ja: やまぐち しょうだい
+    ja_match: romaji
+  ja_role: デバッグチーム
+- path:
+  - Development Support
+  names:
+  - name: Haruka Kaneko
+    ja: かねこ はるか
+    ja_match: romaji
+  ja_role: かいはつサポート
+- path:
+  - Research & Development Partners
+  names:
+  - name: STAND Inc.
+    kind: company
+  - name: Digital Support Ltd.
+    kind: company
+  - name: DIGITAL HEARTS CO., Ltd.
+    kind: company
+- path:
+  - Planning Team
+  names:
+  - name: Rei Murayama
+    lead: Lead
+    ja: むらやま れい
+    ja_match: romaji
+  ja_role: プランニングチーム
+- path:
+  - Planning Team
+  - Main Scenario
+  names:
+  - name: Ryota Muranaka
+    ja: むらなか りょうた
+    ja_match: romaji
+  ja_role: プランニングチーム
+- path:
+  - Planning Team
+  - Event Scene Planning
+  names:
+  - name: Hiroyuki Namiki
+    ja: なみき ひろゆき
+    ja_match: romaji
+  - name: Takahiro Ogino
+    ja: おぎの たかひろ
+    ja_match: romaji
+  - name: Masaki Kunikata
+    ja: くにかた まさき
+    ja_match: romaji
+  - name: Koji Nishiyama
+    ja: にしやま こうじ
+    ja_match: romaji
+  - name: Takayuki Okawa
+    ja: おおかわ たかゆき
+    ja_match: romaji
+  - name: Rohei Nakada
+    ja_match: positional
+    ja: なかだ りょうへい
+  - name: Yuta Obinata
+    ja: おびなた ゆうた
+    ja_match: romaji
+  ja_role: イベントえんしゅつプランニング
+- path:
+  - Planning Team
+  - Event Technical Planning
+  names:
+  - name: Ami Fujii
+    ja: ふじい あみ
+    ja_match: romaji
+  - name: Yusuke Miyahara
+    ja: みやはら ゆうすけ
+    ja_match: romaji
+  - name: Satoru Yamamoto
+    ja: やまもと さとる
+    ja_match: romaji
+  - name: Kaoru Fujiwara
+    ja: ふじわら かおる
+    ja_match: romaji
+  - name: Fumio Nakaya
+    ja: なかや ふみお
+    ja_match: romaji
+  - name: Kojiro Yamashita
+    ja: やました こうじろう
+    ja_match: romaji
+  - name: Takahiro Yura
+    ja: ゆら たかひろ
+    ja_match: romaji
+  ja_role: イベントギミックプランニング
+- path:
+  - Planning Team
+  - Battle Logic Planning
+  names:
+  - name: Kouichi Kataoka
+    ja: かたおか こういち
+    ja_match: romaji
+  - name: Toshiki Ishii
+    ja: いしい としき
+    ja_match: romaji
+  - name: Kei Setoguchi
+    ja: せとぐち けい
+    ja_match: romaji
+  ja_role: バトルロジックプランニング
+- path:
+  - Planning Team
+  - Field Planning
+  names:
+  - name: Yuto Takahashi
+    ja: たかはし ゆうと
+    ja_match: romaji
+  - name: Kazuki Muroi
+    ja: むろい かずき
+    ja_match: romaji
+  - name: Keita Yamamoto
+    ja: やまもと けいた
+    ja_match: romaji
+  - name: Yohei Asaoka
+    ja: あさおか ようへい
+    ja_match: romaji
+  - name: Yuko Shoji
+    ja: しょうじ ゆうこ
+    ja_match: romaji
+  - name: Rika Tanehashi
+    ja: たねはし りか
+    ja_match: romaji
+  ja_role: フィールドプランニング
+- path:
+  - Planning Team
+  - UI & Communication Features Planning
+  names:
+  - name: Yuko Shoji
+    ja: しょうじ ゆうこ
+    ja_match: romaji
+  - name: Rika Tanehashi
+    ja: たねはし りか
+    ja_match: romaji
+  ja_role: UI・つうしん プランニング
+- path:
+  - プランニングチーム きょうりょくがいしゃ
+  ja_role: プランニングチーム きょうりょくがいしゃ
+  source: ja-only
+  names:
+  - name: Kurieitibusutajio Kuriikuandoribaasha
+    name_source: ja-only
+    ja: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+    ja_match: ja-only
+- path:
+  - Planning Team
+  - Planning Team Partners
+  names:
+  - name: e-smile engineering Co.Ltd
+    kind: company
+  - name: Levtech Co., Ltd.
+    kind: company
+  - name: ILCA,Inc.
+    link: ILCA
+    kind: company
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - UI Graphic Design Team
+  names:
+  - name: Kyoko Hattori
+    ja: はっとり きょうこ
+    ja_match: romaji
+  - name: Minori Kikuchi
+    ja: きくち みのり
+    ja_match: romaji
+  - name: Shiori Watanabe
+    ja: わたなべ しおり
+    ja_match: romaji
+  - name: Ryuta Yumii
+    ja: ゆみい りゅうた
+    ja_match: romaji
+  - name: Shiho Itagaki
+    ja: いたがき しほ
+    ja_match: romaji
+  - name: Kenji Yamazaki
+    ja: やまざき けんじ
+    ja_match: romaji
+  - name: Ruruna Takahashi
+    ja: たかはし るるな
+    ja_match: romaji
+  ja_role: UI グラフィックチーム
+- path:
+  - UI Graphic Design Team
+  - UI Graphic Design Team Partners
+  names:
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - Lighting Team
+  names:
+  - name: Dan Fujitani
+    ja: ふじたに だん
+    ja_match: romaji
+  ja_role: ライティングチーム
+- path:
+  - 3D Map Graphics Team
+  names:
+  - name: Hayato Endo
+    ja: えんどう はやと
+    ja_match: romaji
+  - name: Ryotaro Oto
+    ja: おおと りょうたろう
+    ja_match: romaji
+  - name: Sawako Okada
+    ja: おかだ さわこ
+    ja_match: romaji
+  - name: Miho Ujiie
+    ja: うじいえ みほ
+    ja_match: romaji
+  - name: Yukiko Nakai
+    ja: なかい ゆきこ
+    ja_match: romaji
+  - name: Rin Nakayama
+    ja: なかやま りん
+    ja_match: romaji
+  - name: Shinichiro Tsukada
+    ja: つかだ しんいちろう
+    ja_match: romaji
+  - name: Manami Aritaka
+    ja: ありたか まなみ
+    ja_match: romaji
+  - name: Honoka Ushijima
+    ja: うしじま ほのか
+    ja_match: romaji
+  - name: Daichi Kosuge
+    ja: こすげ だいち
+    ja_match: romaji
+  - name: Shuta Sato
+    ja: さとう しゅうた
+    ja_match: romaji
+  - name: Asuka Suzuki
+    ja: すずき あすか
+    ja_match: romaji
+  - name: Tetta Igarashi
+    ja: いがらし てった
+    ja_match: romaji
+  - name: Haruna Numata
+    ja: ぬまた はるな
+    ja_match: romaji
+  - name: Yuki Arashi
+    ja: あらし ゆうき
+    ja_match: romaji
+  - name: Momoka Kita
+    ja: きた ももか
+    ja_match: romaji
+  - name: Miina Ogasawara
+    ja: おがさわら みいな
+    ja_match: romaji
+  - name: Yuka Kawahara
+    ja: かわはら ゆか
+    ja_match: romaji
+  - name: Umi Tominaga
+    ja: とみなが うみ
+    ja_match: romaji
+  - name: Hazuki Nara
+    ja: なら はづき
+    ja_match: romaji
+  ja_role: はいけいチーム
+- path:
+  - はいけいチーム きょうりょくがいしゃ
+  ja_role: はいけいチーム きょうりょくがいしゃ
+  source: ja-only
+  names:
+  - name: Kurieitibusutajio Kuriikuandoribaasha
+    name_source: ja-only
+    ja: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+    ja_match: ja-only
+- path:
+  - 3D Map Graphics Team
+  - 3D Map Graphics Team Partners
+  names:
+  - name: Winds Co., Ltd.
+    kind: company
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - Character Modeling Team
+  names:
+  - name: Yuji Kurogi
+    lead: Lead
+    ja: くろぎ ゆうじ
+    ja_match: romaji
+  - name: Daisuke Inoue
+    ja: いのうえ だいすけ
+    ja_match: romaji
+  - name: Tomoyo Kimura
+    ja: きむら ともよ
+    ja_match: romaji
+  - name: Seishiro Wada
+    ja: わだ せいしろう
+    ja_match: romaji
+  - name: Ai Yuda
+    ja: ゆだ あい
+    ja_match: romaji
+  - name: Shinji Tamano
+    ja: たまの しんじ
+    ja_match: romaji
+  - name: Satoru Goto
+    ja: ごとう さとる
+    ja_match: romaji
+  - name: Ayaka Yamazaki
+    ja: やまざき あやか
+    ja_match: romaji
+  - name: Kenro Shimizu
+    ja: しみず けんろう
+    ja_match: romaji
+  - name: Sadahiro Okui
+    ja: おくい さだひろ
+    ja_match: romaji
+  - name: Kana Sasaki
+    ja: ささき かな
+    ja_match: romaji
+  - name: Yuuichi Mitsuyama
+    ja: みつやま ゆういち
+    ja_match: romaji
+  - name: Kousuke Oishi
+    ja: おおいし こうすけ
+    ja_match: romaji
+  - name: Seah Chooi Yang
+    ja_match: positional
+    ja: シア チョイ ヤン
+  - name: Yuki Dotta
+    ja: どった ゆうき
+    ja_match: romaji
+  - name: Yume Sugimoto
+    ja: すぎもと ゆめ
+    ja_match: romaji
+  - name: Jun Yasuda
+    ja: やすだ じゅん
+    ja_match: romaji
+  ja_role: モデルチーム
+- path:
+  - Character Modeling Team
+  - Character Modeling Team Partners
+  names:
+  - name: Lotus.inc.
+    kind: company
+  - name: RAYLINE STUDIO INC.
+    kind: company
+- path:
+  - Motion Design Team
+  names:
+  - name: Hiroshi Nakagomi
+    lead: Lead
+    ja: なかごみ ひろし
+    ja_match: romaji
+  - name: Nobuyuki Maruyama
+    ja: まるやま のぶゆき
+    ja_match: romaji
+  - name: Harumi Noguchi
+    ja: のぐち はるみ
+    ja_match: romaji
+  - name: Manpei Morino
+    ja: もりの まんぺい
+    ja_match: romaji
+  - name: Keigo Yamada
+    ja: やまだ けいご
+    ja_match: romaji
+  - name: Yusei Nagase
+    ja: ながせ ゆうせい
+    ja_match: romaji
+  - name: Rintaro Sasaki
+    ja: ささき りんたろう
+    ja_match: romaji
+  - name: Nobuo Ochi
+    ja: おち のぶお
+    ja_match: romaji
+  - name: Ryoji Takaoka
+    ja: たかおか りょうじ
+    ja_match: romaji
+  - name: Yuka Murata
+    ja: むらた ゆか
+    ja_match: romaji
+  - name: Airi Yoshida
+    ja: よしだ あいり
+    ja_match: romaji
+  ja_role: モーションチーム
+- path:
+  - モーションチーム きょうりょくがいしゃ
+  ja_role: モーションチーム きょうりょくがいしゃ
+  source: ja-only
+  names:
+  - name: Kurieitibusutajio Kuriikuandoribaasha
+    name_source: ja-only
+    ja: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+    ja_match: ja-only
+- path:
+  - Motion Design Team
+  - Motion Design Team Partners
+  names:
+  - name: AtDawn Lab Co., Ltd.
+    kind: company
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - Special Effects Graphic Design Team
+  names:
+  - name: Toshimitsu Arai
+    lead: Lead
+    ja: あらい としみつ
+    ja_match: romaji
+  - name: Masatomo Nishimura
+    ja: にしむら まさとも
+    ja_match: romaji
+  - name: Yoshimi Yamakoshi
+    ja: やまこし よしみ
+    ja_match: romaji
+  - name: Shiori Sano
+    ja: さの しおり
+    ja_match: romaji
+  - name: Hitomi Fujita
+    ja: ふじた ひとみ
+    ja_match: romaji
+  - name: Ayumi Okamoto
+    ja: おかもと あゆみ
+    ja_match: romaji
+  - name: Chihiro Hashiba
+    ja: はしば ちひろ
+    ja_match: romaji
+  ja_role: エフェクトチーム
+- path:
+  - Special Effects Graphic Design Team
+  - Special Effects Graphic Design Team Partners
+  names:
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - Pokémon 3D Visual Team
+  names:
+  - name: Hironori Sugisaki
+    ja: すぎさき ひろのり
+    ja_match: romaji
+  - name: Sayako Sato
+    ja: さとう さやこ
+    ja_match: romaji
+  - name: Tsubasa Ohtsuru
+    ja: おおつる つばさ
+    ja_match: romaji
+  - name: Tomoya Hirakawa
+    ja: ひらかわ ともや
+    ja_match: romaji
+  - name: Airi Miyaka
+    ja_match: positional
+    ja: みやけ あいり
+  - name: Miyuki Uotani
+    ja: うおたに みゆき
+    ja_match: romaji
+  - name: Ryoga Narusawa
+    ja: なるさわ りょうが
+    ja_match: romaji
+  - name: Ayumu Hamakawa
+    ja: はまかわ あゆむ
+    ja_match: romaji
+  - name: Yoshitaroh Inomata
+    ja: いのまた よしたろう
+    ja_match: romaji
+  - name: Kiyoiku Kanematsu
+    ja: かねまつ きよいく
+    ja_match: romaji
+  - name: Yusuke Hashimoto
+    ja: はしもと ゆうすけ
+    ja_match: romaji
+  - name: Daiki Konno
+    ja: こんの だいき
+    ja_match: romaji
+  - name: Marie Sakamoto
+    ja: さかもと まりえ
+    ja_match: romaji
+  ja_role: ポケモン3Dビジュアルチーム
+- path:
+  - Pokémon 3D Visual Team
+  - Pokémon 3D Visual Team Partners
+  names:
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: C&R Creative Studios
+    kind: company
+- path:
+  - Movie Graphic Design Team
+  names:
+  - name: Mayuka Yoshikawa
+    lead: Lead
+    ja: よしかわ まゆか
+    ja_match: romaji
+  - name: Remi Tanaka
+    ja: たなか れみ
+    ja_match: romaji
+  - name: Shiori Mukai
+    ja: むかい しおり
+    ja_match: romaji
+  - name: Reina Kobayashi
+    ja: こばやし れいな
+    ja_match: romaji
+  - name: Shoji Maruno
+    ja: まるの しょうじ
+    ja_match: romaji
+  - name: Momoka Ryono
+    ja: りょうの ももか
+    ja_match: romaji
+  - name: Natsumi Iharada
+    ja: いはらだ なつみ
+    ja_match: romaji
+  - name: Jun Watanabe
+    ja: わたなべ じゅん
+    ja_match: romaji
+  - name: Takao Kobori
+    ja: こぼり たかお
+    ja_match: romaji
+  - name: Satoru Ichikawa
+    ja: いちかわ さとる
+    ja_match: romaji
+  ja_role: デモムービーグラフィックチーム
+- path:
+  - Movie Graphic Design Team
+  - Movie Graphic Design Team Partners
+  names:
+  - name: ILCA, Inc.
+    link: ILCA
+    kind: company
+- path:
+  - Motion Capture
+  names:
+  - name: Katsugekiza Inc.
+    kind: company
+- path:
+  - Motion Capture
+  - Motion Actors
+  names:
+  - name: Akira Sugihara
+    ja: すぎはら あきら
+    ja_match: romaji
+  - name: Yuka Hino
+    ja: ひの ゆか
+    ja_match: romaji
+  ja_role: モーションアクター
+- path:
+  - Storyboards
+  names:
+  - name: TYUTYU Ltd.
+    kind: company
+  - name: Tomomi Koike
+    ja: こいけ ともみ
+    ja_match: romaji
+  - name: Mizuki Nagara
+    ja: ながら みずき
+    ja_match: romaji
+  - name: Studio-RF Inc.
+    kind: company
+  - name: Romanov Higa
+  - name: Higa Romanofu
+    name_source: ja-only
+    ja: ロマのフ ひが
+    ja_match: ja-only
+  ja_role: えコンテせいさく
+- path:
+  - Sound Team
+  names:
+  - name: Go Ichinose
+    lead: Lead
+    ja: いちのせ ごう
+    kanji: 一之瀬剛
+    ja_match: romaji
+  ja_role: サウンドチーム
+- path:
+  - Sound Team
+  - Sound Coordination
+  names:
+  - name: Hiromitsu Maeba
+    ja: まえば ひろみつ
+    ja_match: romaji
+  ja_role: サウンドコーディネート
+- path:
+  - Sound Team
+  - Sound Programming
+  names:
+  - name: Sho Iwamoto
+    ja: いわもと しょう
+    ja_match: romaji
+  ja_role: サウンドプログラミング
+- path:
+  - Sound Team
+  - Sound Effects
+  names:
+  - name: Shinju Nagayama
+    ja_match: positional
+    ja: ながやま しんじ
+  - name: Hiroki Mogami
+    ja: もがみ ひろき
+    ja_match: romaji
+  - name: Hitoshi Okamoto
+    ja: おかもと ひとし
+    ja_match: romaji
+  - name: Teruo Taniguchi
+    ja: たにぐち てるお
+    kanji: 谷口輝雄
+    ja_match: romaji
+  - name: Sayaka Yaegashi
+    ja: やえがし さやか
+    ja_match: romaji
+  - name: Kazuki Kitamura
+    ja: きたむら かずき
+    ja_match: romaji
+  ja_role: サウンドエフェクト
+- path:
+  - Sound Team
+  - Composers
+  names:
+  - name: Minako Adachi
+    ja: あだち みなこ
+    kanji: 足立美奈子
+    ja_match: romaji
+  - name: Go Ichinose
+    ja: いちのせ ごう
+    ja_match: romaji
+  - name: Rei Murayama
+    ja: むらやま れい
+    ja_match: romaji
+  - name: Hitomi Sato
+    ja: さとう ひとみ
+    kanji: 佐藤仁美
+    ja_match: romaji
+  - name: Hiromitsu Maeba
+    ja: まえば ひろみつ
+    ja_match: romaji
+  - name: Haruka Soeda
+    ja: そえだ はるか
+    ja_match: romaji
+  - name: Toby Fox
+    ja_match: positional
+    ja: トビー フォックス
+  ja_role: おんがく
+- path:
+  - Sound Team
+  - Sound Development Support
+  names:
+  - name: Haruka Soeda
+    ja: そえだ はるか
+    ja_match: romaji
+  ja_role: サウンドかいはつサポート
+- path:
+  - Sound Team
+  - Sound Team Partners
+  names:
+  - name: CONNECT+ECHO Co.,Ltd.
+    kind: company
+  - name: Studio10 Inc.
+    kind: company
+  - name: SuperSweep co., ltd.
+    kind: company
+- path:
+  - Sound Team
+  - Rumble Data Design
+  names:
+  - name: Haruka Soeda
+    ja: そえだ はるか
+    ja_match: romaji
+  ja_role: サウンドチーム きょうりょくがいしゃ
+- path:
+  - Concept & Visual Studio
+  - Design & World Concept
+  - Supervisor
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: コンセプト&ビジュアルスタジオ / デザイン&ワールドコンセプトセクション / スーパーバイザー
+- path:
+  - Concept & Visual Studio
+  - Design & World Concept
+  - Section Director
+  names:
+  - name: Suguru Nakatsui
+    ja: なかつい すぐる
+    kanji: 中津井優
+    ja_match: romaji
+  ja_role: セクションディレクター
+- path:
+  - Concept & Visual Studio
+  - World, Pokémon & Human Planning
+  names:
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    kanji: 松島賢二
+    ja_match: romaji
+  - name: Chihiro Hayashi
+    ja: はやし ちひろ
+    kanji: 林千尋
+    ja_match: romaji
+  - name: Kazumasa Iwao
+    ja: いわお かずまさ
+    ja_match: romaji
+  - name: Toshinobu Matsumiya
+    ja: まつみや としのぶ
+    ja_match: romaji
+  ja_role: せかいかん / ポケモン&じんぶつせっけい
+- path:
+  - Concept & Visual Studio
+  - Concept Art
+  - Pokémon & Character Design
+  names:
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Takao Unno
+    ja: うんの たかお
+    ja_match: romaji
+  - name: Emi Ando
+    ja: あんどう えみ
+    kanji: 安藤絵美
+    ja_match: romaji
+  - name: Kyoko Abe
+    ja: あべ きょうこ
+    kanji: 阿部杏子
+    ja_match: romaji
+  - name: Tomomi Kaneko
+    ja: かねこ ともみ
+    kanji: 金子智美
+    ja_match: romaji
+  - name: Fumie Kittaka
+    ja: きったか ふみえ
+    kanji: 橘高文美恵
+    ja_match: romaji
+  - name: Misaki Hashimoto
+    ja: はしもと みさき
+    kanji: 橋本美咲
+    ja_match: romaji
+  - name: Tzuen Huang
+    link: Huang Tzu En
+  - name: Mana Ibe
+    ja: いべ まな
+    kanji: 井部真那
+    ja_match: romaji
+  - name: Akira Katsuta
+    ja: かつた あきら
+    ja_match: romaji
+  - name: Seimi Ohshiro
+    ja: おおしろ せいみ
+    ja_match: romaji
+  - name: Daiki Sato
+    ja: さと だいき
+    ja_match: romaji
+  - name: Chiashien Lin
+  ja_role: コンセプトアート / ポケモン&じんぶつデザイン
+- path:
+  - Concept & Visual Studio
+  - Concept Art
+  - Pokémon Design
+  names:
+  - name: Hitoshi Ariga
+    ja: ありが ひとし
+    kanji: ありがひとし
+    ja_match: romaji
+  - name: Yusuke Ohmura
+    ja: おおむら ゆうすけ
+    kanji: 大村祐介
+    ja_match: romaji
+  ja_role: ポケモンデザイン
+- path:
+  - Concept & Visual Studio
+  - Concept Art
+  - Character Design
+  names:
+  - name: Yusuke Ohmura
+    ja: おおむら ゆうすけ
+    ja_match: romaji
+  - name: take
+    ja: たけ
+    kanji: 竹
+    ja_match: romaji
+  ja_role: じんぶつデザイン
+- path:
+  - Concept & Visual Studio
+  - Concept Art
+  - Field Map Design
+  names:
+  - name: Akira Katsuta
+    ja: かつた あきら
+    ja_match: romaji
+  - name: Daiki Sato
+    ja: さと だいき
+    ja_match: romaji
+  - name: Riku Marumo
+    ja: まるも りく
+    ja_match: romaji
+  ja_role: フィールドマップデザイン
+- path:
+  - Concept & Visual Studio
+  - Concept Art
+  - Development Support
+  names:
+  - name: Nanae Tabata
+    ja: たばた ななえ
+    ja_match: romaji
+  ja_role: かいはつサポート
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - Supervisor
+  names:
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: 3Dビジュアルセクション / スーパーバイザー
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - Section Directors
+  names:
+  - name: Haruka Tochigi
+    ja: とちぎ はるか
+    kanji: 栃木遥
+    ja_match: romaji
+  - name: Yuki Yamamoto
+    ja: やまもと ゆうき
+    ja_match: romaji
+  ja_role: セクションディレクター
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - Model Team
+  names:
+  - name: Kazutaka Kurosaka
+    ja: くろさか かずたか
+    ja_match: romaji
+  - name: Hideki Iwata
+    ja: いわた ひでき
+    ja_match: romaji
+  - name: Yutan Cheng
+  - name: Yasuki Shinohara
+    ja: しのはら やすき
+    ja_match: romaji
+  - name: Mayu Suzuki
+    ja: すずき まゆ
+    ja_match: romaji
+  - name: Naomi Hara
+    ja: はら なおみ
+    ja_match: romaji
+  - name: Mai Sasamoto
+    ja: ささもと まい
+    ja_match: romaji
+  ja_role: モデルチーム
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - Motion Team
+  names:
+  - name: Mai Takano
+    ja: たかの まい
+    ja_match: romaji
+  - name: Isao Kakuuchi
+    ja: かくうち いさお
+    ja_match: romaji
+  - name: Mari Hamada
+    ja: はまだ まり
+    ja_match: romaji
+  - name: Masashi Koseki
+    ja: こせき まさし
+    ja_match: romaji
+  - name: Jin Sugihara
+    ja: すぎはら じん
+    ja_match: romaji
+  - name: Mitsuo Kosaka
+    ja: こさか みつお
+    ja_match: romaji
+  - name: Kaiya Shimada
+    ja: しまだ かいや
+    ja_match: romaji
+  - name: Shoshu Kuwamura
+    ja: くわむら しょうしゅう
+    ja_match: romaji
+  ja_role: モーションチーム
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - Pokémon Data QA
+  names:
+  - name: Isao Kakuuchi
+    ja: かくうち いさお
+    ja_match: romaji
+  - name: Yuta Nakai
+    ja: なかい ゆうた
+    ja_match: romaji
+  - name: Miyuki Ebizuka
+    ja: えびづか みゆき
+    ja_match: romaji
+  - name: Keitaro Akahori
+    ja: あかほり けいたろう
+    ja_match: romaji
+  - name: Kensuke Otani
+    ja: おおたに けんすけ
+    ja_match: romaji
+  - name: Yukio Komatsu
+    ja: こまつ ゆきお
+    ja_match: romaji
+  - name: Kiyoe Hayashi
+    ja: はやし きよえ
+    ja_match: romaji
+  - name: Naomi Hara
+    ja: はら なおみ
+    ja_match: romaji
+  ja_role: ポケモンデータチェック
+- path:
+  - Concept & Visual Studio
+  - 3D Visual Section
+  - 3D Visual Partners
+  names:
+  - name: DESIGN ACT Inc.
+    kind: company
+  - name: FLAME Hearts Co., Ltd.
+    kind: company
+  - name: Soft Gear Co., Ltd.
+    kind: company
+- path:
+  - Project Management
+  - Project Managers
+  names:
+  - name: Shota Moriguchi
+    lead: Lead
+    ja: もりぐち しょうた
+    ja_match: romaji
+  - name: Kenta Suguru
+    ja: すぐる けんた
+    ja_match: romaji
+  - name: Hiroyuki Yoshii
+    ja: よしい ひろゆき
+    ja_match: romaji
+  - name: Shiho Fukunaga
+    ja: ふくなが しほ
+    ja_match: romaji
+  - name: Kanta Koshiba
+    ja: こしば かんた
+    ja_match: romaji
+  ja_role: プロジェクトすいしんグループ / プロジェクトマネージャー
+- path:
+  - Project Management
+  - Group Manager
+  names:
+  - name: Yuichiro Mori
+    ja: もり ゆういちろう
+    ja_match: romaji
+  ja_role: グループマネージャー
+- path:
+  - Project Management
+  - Group Leaders
+  names:
+  - name: Takao Unno
+    ja: うんの たかお
+    kanji: 海野隆雄
+    ja_match: romaji
+  - name: Yuta Nakai
+    ja: なかい ゆうた
+    ja_match: romaji
+  - name: Tsuyoshi Ichikawa
+    ja: いちかわ つよし
+    ja_match: romaji
+  - name: Ayane Morita
+    ja: もりた あやね
+    ja_match: romaji
+  - name: Yuri Yoshizumi
+    ja: よしずみ ゆり
+    ja_match: romaji
+  - name: Yuji Ashikawa
+    ja: あしかわ ゆうじ
+    ja_match: romaji
+  - name: Kei Takeuchi
+    ja: たけうち けい
+    ja_match: romaji
+  - name: Youji Asano
+    ja: あさの ようじ
+    ja_match: romaji
+  - name: Chisato Tazawa
+    ja: たざわ ちさと
+    ja_match: romaji
+  - name: Sumire Aoki
+    ja: あおき すみれ
+    ja_match: romaji
+  - name: Yuma Takada
+    ja: たかだ ゆうま
+    ja_match: romaji
+  ja_role: グループリーダー
+- path:
+  - Project Management
+  - Project Management Partners
+  names:
+  - name: SHIFT Inc.
+    kind: company
+  - name: Soft Gear Co., Ltd.
+    kind: company
+  - name: Levtech Co., Ltd.
+    kind: company
+- path:
+  - Technical Support
+  names:
+  - name: Kyohei Minato
+    ja: みなと きょうへい
+    ja_match: romaji
+  - name: Hiroaki Gohara
+    ja: ごうはら ひろあき
+    ja_match: romaji
+  - name: Shotaro Iwanaga
+    ja: いわなが しょうたろう
+    ja_match: romaji
+  - name: Yuta Ogawa
+    ja: おがわ ゆうた
+    ja_match: romaji
+  - name: Shogo Takaki
+    ja: たかき しょうご
+    ja_match: romaji
+  - name: Kei Ninomiya
+    ja: にのみや けい
+    ja_match: romaji
+  ja_role: ぎじゅつ サポート
+- path:
+  - English Localization
+  names:
+  - name: Mikiko Ryu
+    ja: りゅう みきこ
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: とうどう まゆ
+    ja_match: romaji
+  - name: Terry Mihashi
+  - name: Yuriko Iwasaki
+    ja: いわさき ゆりこ
+    ja_match: romaji
+  - name: Mika Holzhausen
+  - name: Mitsumasa Kawano
+    ja: かわの みつまさ
+    ja_match: romaji
+  - name: Ayako Teranishi
+    ja: てらにし あやこ
+    ja_match: romaji
+  ja_role: えいご ローカライズ
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+    ja: やまもり ひさと
+    ja_match: romaji
+  - name: Jillian Nonaka
+  - name: Shawn Williams-Brown
+  - name: Jackson Pietsch
+  - name: Hannah Vassallo
+  - name: David Dunslap
+  - name: Chris Walters
+  ja_role: えいご ほんやく
+- path:
+  - English Editing
+  names:
+  - name: Kellyn Ballard
+  - name: Rachel Payne
+  - name: Julia Ryer
+  - name: Rei Nakazawa
+    ja: レイ なかざわ
+    ja_match: romaji
+  - name: Isaac Nickerson
+    ja_match: positional
+    ja: アイザック ニッカーソン
+  - name: Robert Schiotis
+    ja_match: positional
+    ja: ロバート ショーティス
+  - name: Robert Ward
+    ja_match: positional
+    ja: ロバート ワード
+  - name: Derk Bramer
+    ja_match: positional
+    ja: ダーク ブレイマー
+  - name: Derek Heemsbergen
+    ja_match: positional
+    ja: デレック ヒームスベルゲン
+  ja_role: えいご へんしゅう
+- path:
+  - European Localisation
+  names:
+  - name: Kaori Aoki
+    ja: あおき かおり
+    ja_match: romaji
+  - name: Makiko Wakai
+    ja: わかい まきこ
+    ja_match: romaji
+  - name: Suirei Okata
+    ja: おおかた すいれい
+    ja_match: romaji
+  - name: Maya Yoshida
+    ja: よしだ まや
+    ja_match: romaji
+  - name: Ryosuke Kurosaki
+    ja: くろさき りょうすけ
+    ja_match: romaji
+  - name: Yukihiro Takahashi
+    ja: たかはし ゆきひろ
+    ja_match: romaji
+  - name: Miki Hosaka-Green
+  - name: Owen Preece
+  - name: Hideko Russell
+  - name: Ritsuko Oshu
+    ja: おうしゅう りつこ
+    ja_match: romaji
+  - name: Kendra Evans
+    ja_match: positional
+    ja: ケンドラ エヴァンズ
+  - name: Nami Kusumoto
+    ja: くすもと なみ
+    ja_match: romaji
+  - name: Mark Bunting
+    ja_match: positional
+    ja: マーク バンティング
+  - name: Marine Vallée
+    ja_match: positional
+    ja: マリーン ヴァレ
+  - name: Daniel Heucher
+    ja_match: positional
+    ja: ダニエル ホイヒャー
+  - name: Ireneusz Radko
+    ja_match: positional
+    ja: イレネウッシュ ラトコ
+  - name: Michael Ecke
+    ja_match: positional
+    ja: ミヒャエル エッケ
+  - name: Diego Figaredo
+    ja: ディエゴ フィガレド
+    ja_match: romaji
+  - name: Pierre Gauthier
+  - name: Rei Haberberg
+  - name: Elena Nardo
+  - name: Cryil Schultz
+  ja_role: ヨーロッパ ローカライズ
+- path:
+  - French Translation
+  names:
+  - name: Nicolas Sindres
+  - name: Noémie Pradier
+  - name: Lylia Khrissate
+  - name: Alexane Bailleul
+  - name: Arthur Blondel
+  - name: Guillaume Didier
+  - name: Aymeric Forgit
+- path:
+  - French Editing
+  names:
+  - name: Aurélie Kryvinskyj
+  - name: Thomas Garel
+  - name: Violette Giang
+  - name: Matthieu Béthencourt
+  - name: Leslie Gambini
+  - name: Louise Macqueron
+  - name: Marine Vallée
+  - name: Elodie Verpoort
+- path:
+  - German Translation
+  names:
+  - name: Carolin Maibach
+  - name: Kathleen Kalms
+  - name: Sophie Jüterbock
+  - name: Christopher Derbort
+  - name: Lina Emmerich
+  - name: Caroline Fest
+  - name: Daniel Heucher
+- path:
+  - German Editing
+  names:
+  - name: Sina Moelleken
+  - name: Alina Linnenweber
+  - name: Jochen Künzel
+  - name: Juliana Niederwanger
+  - name: Ireneusz Radko
+  - name: Barbara Schweinzer
+  - name: Sira Vaterhaus
+- path:
+  - Italian Translation
+  names:
+  - name: Annarita Spera
+  - name: Jacopo Vanin
+  - name: Altan Couvert
+  - name: Marco Sartori
+  - name: Guido Scarabello
+  - name: Francesca Serci
+  - name: Manuela Suriano
+- path:
+  - Italian Editing
+  names:
+  - name: Valentina Menale
+  - name: Alice Troiani
+  - name: Marco Locatelli
+  - name: Guendalina Pirruccio
+  - name: Sergio Bianchi
+  - name: Silvia De Bellis
+  - name: Fabio Giusti
+- path:
+  - Spanish Translation
+  names:
+  - name: Servando Doval Díaz
+  - name: Diego Luque de la Campa
+  - name: Edith Belarra López
+  - name: Jorge Diez Lasheras
+  - name: Alicia Iribarren Mendoza
+  - name: Enrique Joga Elvira
+  - name: Alberto Gracia Castellano
+- path:
+  - Spanish Editing
+  names:
+  - name: Irene Mascaró Genestar
+  - name: Rubén Lado Riomao
+  - name: Alex Fortes
+  - name: Daniela Castillo
+  - name: Sebastián Erasmy Vergara
+  - name: Juan José Leiva Jiménez
+  - name: Virginia Paradés Guerrea
+  - name: Mariona Pera I de Miguel
+  - name: Píndaro Vargas-Farías
+  - name: Diana Vázquez Saiz
+- path:
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+  - name: Jieun Byun
+  - name: Youngjun Park
+  - name: Dongun Pak
+  - name: Jooyeon Han
+  - name: Byunghun Bae
+  - name: Yoojin Kwon
+- path:
+  - Chinese Localization
+  names:
+  - name: Huiying Tsai
+- path:
+  - Chinese Translation & Editing
+  names:
+  - name: Chungte Huang
+  - name: Yuwen Wang
+  - name: Yencheng Lin
+  - name: Yue Wang
+  - name: Qing Yun
+  - name: Weihang Jiang
+  - name: Endai Liao
+  - name: Yuying Feng
+- path:
+  - English & European Localization Support
+  names:
+  - name: Reiko de Sorbier de Pougnadoresse
+  - name: Jeff Hines
+  - name: Robert Colling
+  - name: Marvin Andrews
+  - name: Peter Bagley
+- path:
+  - North American Localization Support
+  names:
+  - name: Yoriko Marusich
+  - name: Kris Copeland
+  - name: Kendra Nastalski
+  - name: Tim O'Leary
+  - name: Reiko Ninomiya
+    ja: にのみや れいこ
+    ja_match: romaji
+  - name: Lauren Ammerman
+  - name: Emily Minakata
+  - name: Yanett Cepeda Valor
+  - name: Elina Sánchez
+  - name: Álex Zarza
+  - name: Ana Celeste Ascanio
+  - name: Erin Peterson
+  - name: Ludovic Tientcheu Ponkin
+  - name: Sara Hoad
+  - name: Carolina Quesada
+  - name: Nicko Gonzalez De Santiago
+  - name: Pascal Ramirez
+  - name: Marcia Toledo
+  ja_role: ほくべい ローカライズサポート
+- path:
+  - European Localisation Support
+  names:
+  - name: Saskia Doorschodt
+  - name: Dario De Leo
+  - name: Julia Bambach
+- path:
+  - Korean Localization Support
+  names:
+  - name: Hyokjin Jung
+  - name: Dongyeon Kim
+  - name: Jihyuen Yoo
+  - name: Suzy Do
+- path:
+  - Traditional Chinese Localization Support
+  names:
+  - name: Wang Zhonglong
+  - name: Umemura Eiju
+    ja: うめむら えいじゅう
+    ja_match: romaji
+  - name: Chen Wei-Ming
+  - name: Chien Chihhsien
+  ja_role: ちゅうごくご（はんたいじ）ローカライズサポート
+- path:
+  - Simplified Chinese Localization Support
+  names:
+  - name: Misa Matsumoto
+    ja: まつもと みさ
+    ja_match: romaji
+  - name: Ming Xu
+  ja_role: ちゅうごくご（かんたいじ）ローカライズサポート
+- path:
+  - Special Thanks—Localization
+  names:
+  - name: Michael Bales
+  - name: Mary Rayes
+  - name: Thomas Candland
+  - name: NOE Communication Coordinator Group
+    kind: company
+- path:
+  - Debug Management
+  names:
+  - name: Motoki Nakajima
+    ja: なかじま もとき
+    ja_match: romaji
+  - name: Takeshi Tamura
+    ja: たむら たけし
+    ja_match: romaji
+  - name: Arisa Nakajima
+    ja: なかじま ありさ
+    ja_match: romaji
+  - name: Takuya Inoue
+    ja: いのうえ たくや
+    ja_match: romaji
+  ja_role: デバッグマネージメント
+- path:
+  - Debug
+  names:
+  - name: Mario Club Co., Ltd.
+    kind: company
+    ja_match: positional
+    ja: マリオクラブ
+  - name: DIGITAL HEARTS Co., Ltd.
+    kind: company
+    ja_match: positional
+    ja: デジタルハーツ
+  ja_role: デバッグ
+- path:
+  - North American Testing
+  names:
+  - name: Tomo Ishiyama
+    ja_match: positional
+    ja: いしやま ともひこ
+  - name: Miyuki Matsunaga
+    ja: まつなが みゆき
+    ja_match: romaji
+  - name: Pat Wells
+  - name: Bryson Daugherty
+  - name: Matthew Piscuc
+  - name: Product Testing Technicians
+    kind: company
+  ja_role: ほくべい テスティング
+- path:
+  - European QA Coordination
+  names:
+  - name: J. Ignacio León López
+  - name: Jesús Gutiérrez Cuadra
+  - name: Pasquale Gianluca Miceli
+- path:
+  - European Quality Assurance
+  names:
+  - name: Ahmed Bounouar
+  - name: Damien Brichard
+  - name: Guillaume Deschamps
+  - name: Olivier Jacquemin-Guillaume
+  - name: Jérôme Petit
+  - name: Daniele Albrito
+  - name: Veronica Casi
+  - name: Alessandro Crosa
+  - name: Matteo Marras
+  - name: Swen Harder
+  - name: Michaela Koch
+  - name: Lutz Ohl
+  - name: Ibon Díez Maeztu
+  - name: Jorge Heras García
+  - name: Julio Manzaneda Medina
+  - name: Jónatan Marcos Millán
+  - name: Jessica Sánchez Herrera
+  - name: Timothy Alexander James Faulkner
+  - name: Andrew Hall
+- path:
+  - Korean Testing & Quality Assurance
+  names:
+  - name: Eodo Lee
+  - name: DIGITAL HEARTS Seoul Co., Ltd.
+    kind: company
+- path:
+  - Chinese Product Testing
+  names:
+  - name: Yijun Chen
+  - name: DIGITAL HEARTS Co., Ltd.
+    kind: company
+- path:
+  - Pokémon 3D Modeling
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+    ja: うじいえ あつこ
+    kanji: 氏家淳子
+    ja_match: romaji
+  ja_role: ポケモン 3Dキャラクター / アートディレクター
+- path:
+  - Pokémon 3D Modeling
+  - Project Director
+  names:
+  - name: Shun Onodera
+    ja: おのでら しゅん
+    ja_match: romaji
+  - name: Kengo Nakahiro
+    ja: なかひろ けんご
+    kanji: 中廣健吾
+    ja_match: romaji
+  ja_role: プロジェクトディレクター
+- path:
+  - Pokémon 3D Modeling
+  - Project Manager
+  names:
+  - name: Masamichi Anazawa
+    ja: あなざわ まさみち
+    kanji: 穴澤匡道
+    ja_match: romaji
+  ja_role: プロダクトマネージャー
+- path:
+  - Pokémon 3D Modeling
+  - Pokémon Model Quality Assurance
+  names:
+  - name: Mayu Okutani
+    ja: おくたに まゆ
+    ja_match: romaji
+  - name: Masaki Degawa
+    ja: でがわ まさき
+    ja_match: romaji
+  - name: Shu Kiroba
+    ja: きろば しゅう
+    ja_match: romaji
+  - name: Satomi Shimomura
+    ja: しもむら さとみ
+    ja_match: romaji
+  - name: Yasutaka Imanari
+    ja: いまなり やすたか
+    ja_match: romaji
+  - name: Ren Ishikawa
+    ja: いしかわ れん
+    ja_match: romaji
+  - name: Takafumi Misawa
+    ja: みさわ たかふみ
+    ja_match: romaji
+  - name: Tetsuya Nakajima
+    ja: なかじま てつや
+    ja_match: romaji
+  - name: Takashi Sakuma
+    ja: さくま たかし
+    ja_match: romaji
+  - name: Rie Tatsuno
+    ja: たつの りえ
+    ja_match: romaji
+  - name: Kazuki Matsumoto
+    ja: まつもと かずき
+    ja_match: romaji
+  ja_role: ポケモンモデルQA
+- path:
+  - Pokémon 3D Modeling
+  - Pokémon Character Modeling
+  names:
+  - name: Shun Onodera
+    lead: Lead
+    ja: おのでら しゅん
+    ja_match: romaji
+  - name: Hiroki Fujiwara
+    ja: ふじわら ひろき
+    ja_match: romaji
+  - name: Nozomi Toda
+    ja: とだ のぞみ
+    ja_match: romaji
+  - name: Hitomi Suzuki
+    ja: すずき ひとみ
+    ja_match: romaji
+  - name: Akiko Soma
+    ja: そうま あきこ
+    ja_match: romaji
+  - name: Isamu Ikeda
+    ja: いけだ いさむ
+    ja_match: romaji
+  - name: Toshiya Shinohara
+    ja: しのはら としや
+    ja_match: romaji
+  - name: Takuya Endo
+    ja: えんどう たくや
+    ja_match: romaji
+  - name: Aoi Harada
+    ja: はらだ あおい
+    ja_match: romaji
+  - name: Shuhan Yang
+    ja_match: positional
+    ja: ヤン スーハン
+  - name: Yuko Ito
+    ja: いとう ゆうこ
+    ja_match: romaji
+  - name: Masaya Ishizuka
+    ja: いしづか まさや
+    ja_match: romaji
+  - name: Yohei Fujikawa
+    ja: ふじかわ ようへい
+    ja_match: romaji
+  - name: Hideki Sato
+    ja: さとう ひでき
+    ja_match: romaji
+  - name: Masafumi Sugiyama
+    ja: すぎやま まさふみ
+    ja_match: romaji
+  - name: Takeshi Sakamoto
+    ja: さかもと たけし
+    ja_match: romaji
+  - name: Chiharu Minowa
+    ja: みのわ ちはる
+    ja_match: romaji
+  - name: Aya Nishimura
+    ja: にしむら あや
+    ja_match: romaji
+  - name: Nana Wakabayashi
+    ja: わかばやし なな
+    ja_match: romaji
+  - name: Tomoka Tsukayama
+    ja: つかやま ともか
+    ja_match: romaji
+  - name: Chisato Fujita
+    ja: ふじた ちさと
+    ja_match: romaji
+  - name: Asami Nogi
+    ja: のぎ あさみ
+    ja_match: romaji
+  - name: Kotono Kunishima
+    ja: くにしま ことの
+    ja_match: romaji
+  - name: Yuna Ohashi
+    ja: おおはし ゆな
+    ja_match: romaji
+  - name: Mizuho Takei
+    ja: たけい みづほ
+    ja_match: romaji
+  - name: Ayane Sato
+    ja: さとう あやね
+    ja_match: romaji
+  - name: Haruna Mukasa
+    ja: むかさ はるな
+    ja_match: romaji
+  - name: Sayaka Kutsuma
+    ja: くつま さやか
+    ja_match: romaji
+  - name: Mai Takeda
+    ja: たけだ まい
+    ja_match: romaji
+  - name: Yuna Ohashi
+  - name: Mizuho Takei
+  - name: Ayane Sato
+  - name: Haruna Mukasa
+  - name: Saori Hasegawa
+    ja: はせがわ さおり
+    ja_match: romaji
+  - name: Takumi Tamaru
+    ja: たまる たくみ
+    ja_match: romaji
+  - name: Yi Yang
+  - name: Tsumugi Hazeki
+    ja: はぜき つむぎ
+    ja_match: romaji
+  - name: Ruka Takayama
+    ja: たかやま るか
+    ja_match: romaji
+  - name: Naoaki Terayama
+    ja: てらやま なおあき
+    ja_match: romaji
+  - name: Asumi Hirao
+    ja: ひらお あすみ
+    ja_match: romaji
+  - name: Kanako Tanabe
+    ja: たなべ かなこ
+    ja_match: romaji
+  - name: Tatsuya Keino
+    ja: けいの たつや
+    ja_match: romaji
+  - name: Tsubasa Shirakawa
+    ja: しらかわ つばさ
+    ja_match: romaji
+  - name: Hitoshi Kubo
+    ja: くぼ ひとし
+    ja_match: romaji
+  - name: Yurika Makino
+    ja: まきの ゆりか
+    ja_match: romaji
+  - name: Ruuka Arase
+    ja: あらせ るうか
+    ja_match: romaji
+  - name: Kyoko Tanaka
+    ja: たなか きょうこ
+    ja_match: romaji
+  - name: Nanao Origuchi
+    ja: おりぐち ななお
+    ja_match: romaji
+  - name: Shigeto Akashi
+    ja: あかし しげと
+    ja_match: romaji
+  - name: Rikiya Yoshino
+    ja: よしの りきや
+    ja_match: romaji
+  - name: Naoaki Abe
+    ja: あべ なおあき
+    ja_match: romaji
+  - name: Masaya Eto
+    ja: えとう まさや
+    ja_match: romaji
+  - name: Takashi Kitano
+    ja: きたの たかし
+    ja_match: romaji
+  - name: Yu Moriguchi
+    ja: もりぐち ゆう
+    ja_match: romaji
+  - name: Subaru Eguchi
+    ja: えぐち すばる
+    ja_match: romaji
+  - name: Yuki Kawakami
+    ja: かわかみ ゆうき
+    ja_match: romaji
+  - name: Takamasa Morimoto
+    ja: もりもと たかまさ
+    ja_match: romaji
+  - name: Jung Yeji
+    ja_match: positional
+    ja: ジョン イェジ
+  - name: Utau Kisanuki
+    ja: きさぬき うたう
+    ja_match: romaji
+  - name: Shuhei Fujinaga
+    ja: ふじなが しゅうへい
+    ja_match: romaji
+  - name: Ryosuke Tsuji
+    ja: つじ りょうすけ
+    ja_match: romaji
+  - name: Kayato Yoneda
+    ja: よねだ かやと
+    ja_match: romaji
+  - name: Yusuke Kawakami
+    ja: かわかみ ゆうすけ
+    ja_match: romaji
+  - name: Yuri Natsuno
+    ja: なつの ゆり
+    ja_match: romaji
+  - name: Mana Yamashita
+    ja: やました まな
+    ja_match: romaji
+  - name: Ayaka Tsutsumi
+    ja: つつみ あやか
+    ja_match: romaji
+  - name: Katsumi Kawagoe
+    ja: かわごえ かつみ
+    ja_match: romaji
+  - name: Yoshiaki Aono
+    ja: あおの よしあき
+    ja_match: romaji
+  - name: Asami Hamamori
+    ja: はまもり あさみ
+    ja_match: romaji
+  - name: Jun Yu
+    ja: ゆう じゅん
+    ja_match: romaji
+  - name: Hanyun Wu
+    ja_match: positional
+    ja: う はんゆいん
+  - name: Risa Kaai
+    ja: かあい りさ
+    ja_match: romaji
+  - name: Takashi Ishibashi
+    ja: いしばし たかし
+    ja_match: romaji
+  - name: Mafuyu Nemoto
+    ja: ねもと まふゆ
+    ja_match: romaji
+  - name: Jyouta Tsurukawa
+    ja_match: positional
+    ja: つるかわ じょうた
+  - name: Kota Nakagawa
+    ja: なかがわ こうた
+    ja_match: romaji
+  - name: Kyohei Nishimura
+    ja: にしむら きょうへい
+    ja_match: romaji
+  - name: Takayuki Sato
+    ja: さとう たかゆき
+    ja_match: romaji
+  - name: Kanae Maruyama
+    ja: まるやま かなえ
+    ja_match: romaji
+  - name: Yuki Tsuda
+    ja: つだ ゆうき
+    ja_match: romaji
+  - name: Mizuho Nakajima
+    ja: なかじま みずほ
+    ja_match: romaji
+  - name: Koudai Inoue
+    ja: いのうえ こうだい
+    ja_match: romaji
+  - name: Asumi Matsumoto
+    ja: まつもと あすみ
+    ja_match: romaji
+  - name: Syoko Asada
+    ja: あさだ しょうこ
+    ja_match: romaji
+  - name: Tatsuma Asari
+    ja: あさり たつま
+    ja_match: romaji
+  - name: Takaya Hiraki
+    ja: ひらき たかや
+    ja_match: romaji
+  - name: Zhouhuan Lyu
+  - name: Fuka Deguchi
+    ja: でぐち ふうか
+    ja_match: romaji
+  - name: Tatsuya Yoshimura
+    ja: よしむら たつや
+    ja_match: romaji
+  - name: Ilya Khokhlov
+    ja_match: positional
+    ja: イリヤ ホフローフ
+  - name: Ren Jie Jiang
+    ja_match: positional
+    ja: ジャング レン ジエ
+  - name: Hiroshi Kiyota
+    ja: きよた ひろし
+    ja_match: romaji
+  - name: Naohiko Zaitsu
+    ja: ざいつ なおひこ
+    ja_match: romaji
+  - name: Huizi Wang
+    ja_match: positional
+    ja: ワン ホゥイズー
+  - name: Yuto Suzuki
+    ja: すずき ゆうと
+    ja_match: romaji
+  - name: Kohei Yamashita
+    ja: やました こうへい
+    ja_match: romaji
+  - name: Kazuki Yagisawa
+    ja: やぎさわ かずき
+    ja_match: romaji
+  - name: Masayo Koga
+    ja: こが まさよ
+    ja_match: romaji
+  ja_role: ポケモン キャラクターモデリング
+- path:
+  - Pokémon 3D Modeling
+  - Pokémon Character Motion
+  names:
+  - name: Suguru Fukaya
+    lead: Lead
+    ja: ふかや すぐる
+    ja_match: romaji
+  - name: Yuki Yoneya
+    ja: よねや ゆき
+    ja_match: romaji
+  - name: Takahiro Koizumi
+    ja: こいずみ たかひろ
+    ja_match: romaji
+  - name: Yoshihisa Ogino
+    ja: おぎの よしひさ
+    ja_match: romaji
+  - name: Takatoshi Ozeki
+    ja: おぜき たかとし
+    ja_match: romaji
+  - name: Masanari Yogo
+    ja: よご まさなり
+    ja_match: romaji
+  - name: Hiroyuki Hatanaka
+    ja: はたなか ひろゆき
+    ja_match: romaji
+  - name: Tomomi Sakuma
+    ja: さくま ともみ
+    ja_match: romaji
+  - name: Megumi Miyagawa
+    ja: みやがわ めぐみ
+    ja_match: romaji
+  - name: Akira Takayama
+    ja: たかやま あきら
+    ja_match: romaji
+  - name: Yosuke Takahashi
+    ja: たかはし ようすけ
+    ja_match: romaji
+  - name: Hiromichi Hidaka
+    ja: ひだか ひろみち
+    ja_match: romaji
+  - name: Kuni Furukubo
+    ja: ふるくぼ くに
+    ja_match: romaji
+  - name: Mayu Kobayashi
+    ja: こばやし まゆ
+    ja_match: romaji
+  - name: Shoko Hattori
+    ja: はっとり しょうこ
+    ja_match: romaji
+  - name: Tomoko Araki
+    ja: あらき ともこ
+    ja_match: romaji
+  - name: Asuka Yamato
+    ja: やまと あすか
+    ja_match: romaji
+  - name: Ai Matsumura
+    ja: まつむら あい
+    ja_match: romaji
+  - name: Miho Kaneko
+    ja: かねこ みほ
+    ja_match: romaji
+  - name: Masayuki Iwasaki
+    ja: いわさき まさゆき
+    ja_match: romaji
+  - name: Kenta Nakagama
+    ja: なかがま けんた
+    ja_match: romaji
+  - name: Takao Itani
+    ja: いたに たかお
+    ja_match: romaji
+  - name: Amane Fukumoto
+    ja: ふくもと あまね
+    ja_match: romaji
+  - name: Anna Yoshida
+    ja: よしだ あんな
+    ja_match: romaji
+  - name: Yoichiro Naito
+    ja: ないとう よういちろう
+    ja_match: romaji
+  - name: Maria Yoda
+    ja: よだ まりあ
+    ja_match: romaji
+  - name: Miki Nagao
+    ja: ながお みき
+    ja_match: romaji
+  - name: Fumio Fujii
+    ja: ふじい ふみお
+    ja_match: romaji
+  - name: Yuki Inakoshi
+    ja: いなこし ゆき
+    ja_match: romaji
+  - name: Utana Kimura
+    ja: きむら うたな
+    ja_match: romaji
+  - name: Shiori Sugita
+    ja: すぎた しおり
+    ja_match: romaji
+  - name: Haruna Takayama
+    ja: たかやま はるな
+    ja_match: romaji
+  - name: Akira Nakamura
+    ja: なかむら あきら
+    ja_match: romaji
+  - name: Fuki Yamaguchi
+    ja: やまぐち ふき
+    ja_match: romaji
+  - name: Shigehisa Yamashina
+    ja: やましな しげひさ
+    ja_match: romaji
+  - name: Kim Won
+  - name: Bruna Thais de Paula
+  - name: Tomotaka Tabata
+    ja: たばた ともたか
+    ja_match: romaji
+  - name: Kei Takano
+    ja: たかの けい
+    ja_match: romaji
+  - name: Itsuki Tsuchida
+    ja: つちだ いつき
+    ja_match: romaji
+  - name: Shoya Kanematsu
+    ja: かねまつ しょうや
+    ja_match: romaji
+  - name: Yumeno Makita
+    ja: まきた ゆめの
+    ja_match: romaji
+  - name: Haruki Nagura
+    ja: なぐら はるき
+    ja_match: romaji
+  - name: Ryo Migita
+    ja: みぎた りょう
+    ja_match: romaji
+  - name: Masayuki Nakahara
+    ja: なかはら まさゆき
+    ja_match: romaji
+  - name: Miki Yoshikawa
+    ja_match: positional
+    ja: よしかわ みか
+  - name: Mamoru Toyozumi
+    ja: とよずみ まもる
+    ja_match: romaji
+  - name: Yoshiki Yamamoto
+    ja: やまもと よしき
+    ja_match: romaji
+  - name: Hiroki Kambe
+    ja: かんべ ひろき
+    ja_match: romaji
+  - name: Yasuo Hisai
+    ja: ひさい やすお
+    ja_match: romaji
+  - name: Kaede Watanabe
+    ja: わたなべ かえで
+    ja_match: romaji
+  - name: Hideyuki Kato
+    ja: かとう ひでゆき
+    ja_match: romaji
+  - name: Tatsuya Tsunefuji
+    ja: つねふじ たつや
+    ja_match: romaji
+  - name: Tatsuya Inomata
+    ja: いのまた たつや
+    ja_match: romaji
+  - name: Gan Rufeng
+  - name: Christin Rudolph-Umekawa
+  - name: Haruka Kimura
+    ja: きむら はるか
+    ja_match: romaji
+  - name: Satoki Maeno
+    ja: まえの さとき
+    ja_match: romaji
+  - name: Masao Mihara
+    ja: みはら まさお
+    ja_match: romaji
+  - name: Yuji Kajiyama
+    ja: かじやま ゆうじ
+    ja_match: romaji
+  - name: Hiromu Ito
+    ja: いとう ひろむ
+    ja_match: romaji
+  - name: Hiro Kato
+    ja: かとう ひろ
+    ja_match: romaji
+  - name: Wataru Saito
+    ja: さいとう わたる
+    ja_match: romaji
+  - name: Daigo Yasuda
+    ja: やすだ だいご
+    ja_match: romaji
+  - name: Kento Nishimatsu
+    ja: にしまつ けんと
+    ja_match: romaji
+  - name: Kazumitsu Moriyama
+    ja: もりやま かずみつ
+    ja_match: romaji
+  - name: Yoshiaki Ide
+    ja: いで よしあき
+    ja_match: romaji
+  - name: Elizabeth Anastasia Sudarman
+    ja_match: positional
+    ja: エリザベス アナスタシア スダルマン
+  - name: Yue Wang
+    ja_match: positional
+    ja: ワン ユエ
+  - name: Hui I Yang
+    ja_match: positional
+    ja: ヤン フェイ
+  - name: Nanae Kato
+    ja: かとう ななえ
+    ja_match: romaji
+  - name: Takeshi Inaba
+    ja: いなば たけし
+    ja_match: romaji
+  - name: Arugo Shinohara
+    ja: しのはら あるご
+    ja_match: romaji
+  - name: Mats Andrén
+    ja_match: positional
+    ja: マツ アンドレン
+  - name: Takuya Hasegawa
+    ja: はせがわ たくや
+    ja_match: romaji
+  - name: Goru Momma
+  - name: Kaori Oikawa
+    ja: おいかわ かおり
+    ja_match: romaji
+  - name: Chisato Tomiyoshi
+    ja: とみよし ちさと
+    ja_match: romaji
+  ja_role: ポケモン キャラクターモーション
+- path:
+  - DCC Support Teams
+  names:
+  - name: Hideyo Isayama
+    lead: Lead
+    ja: いさやま ひでよ
+    ja_match: romaji
+  - name: Sho Sato
+    ja: さとう しょう
+    ja_match: romaji
+  - name: Tatsuto Konno
+    ja: こんの たつと
+    ja_match: romaji
+  - name: Makoto Oi
+    ja: おおい まこと
+    ja_match: romaji
+  ja_role: DCCサポートチーム
+- path:
+  - Artwork
+  names:
+  - name: Yasuko Takahashi
+    ja: たかはし やすこ
+    ja_match: romaji
+  - name: Keisuke Kawashima
+    ja: かわしま けいすけ
+    ja_match: romaji
+  - name: Kotoko Machida
+    ja: まちだ ことこ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - English & European Graphic Design
+  names:
+  - name: Chris Franc
+  - name: Emily Uslan
+  - name: Dan Stephens
+  - name: Mark Pedini
+  - name: Willow Hayes
+- path:
+  - Korean Artwork
+  names:
+  - name: Eunbi Jo
+- path:
+  - Ending Theme
+  names:
+  - name: '"Celestial"'
+    ja: “Celestial”
+    ja_match: romaji
+  - name: Toby Fox
+    note: Remix by
+    ja_match: positional
+    ja: 'Remix by: Toby Fox'
+  - name: 'Original song written by: Ed Sheeran, Steve Mac and Johnny McDaid'
+    link: Ed Sheeran
+    kind: company
+    ja: 'Original song written by: Ed Sheeran, Steve Mac and Johnny McDaid'
+    ja_match: romaji
+  - name: 'Original song performed by: Ed Sheeran'
+    ja: 'Original song performed by: Ed Sheeran'
+    ja_match: romaji
+  - name: Ed Sheeran Ltd and Sony Music publishing, Rokstone Music Ltd under exclusive licence to Universal Music Publishing (UK) Ltd and Sony Music Publishing.
+    note: Published by
+    kind: company
+  - name: Courtesy of Warner Music UK Ltd
+    kind: company
+    ja: Courtesy of Warner Music UK Ltd
+    ja_match: romaji
+  ja_role: エンディングテーマ
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Tominaga
+    ja: とみなが けんじ
+    ja_match: romaji
+  - name: Yoshio Tajiri
+    ja: たじり よしお
+    ja_match: romaji
+  - name: Teiko Sasaki
+    ja: ささき ていこ
+    ja_match: romaji
+  - name: Tomohiro Kuroiwa
+    ja: くろいわ ともひろ
+    ja_match: romaji
+  - name: Tatsuya Imanari
+    ja: いまなり たつや
+    ja_match: romaji
+  - name: Kyoi Kameda
+    ja: かめだ きょうい
+    ja_match: romaji
+  - name: Kazuki Sakamoto
+    ja: さかもと かずき
+    ja_match: romaji
+  - name: Sosuke Tamada
+    ja: たまだ そうすけ
+    ja_match: romaji
+  - name: Hiroka Hamamoto
+    ja: はまもと ひろか
+    ja_match: romaji
+  - name: Shiho Haraguchi
+    ja: はらぐち しほ
+    ja_match: romaji
+  - name: Yuichi Misu
+    ja: みす ゆういち
+    ja_match: romaji
+  - name: Wakana Kajimoto
+    ja: かじもと わかな
+    ja_match: romaji
+  - name: Fumiya Takahashi
+    ja: たかはし ふみや
+    ja_match: romaji
+  - name: Kaori Tsujimura
+    ja: つじむら かおり
+    ja_match: romaji
+  - name: Asuka Hirota
+    ja: ひろた あすか
+    ja_match: romaji
+  - name: Yoshimi Yugawa
+    ja: ゆがわ よしみ
+    ja_match: romaji
+  - name: Shun Ichikawa
+    ja: いちかわ しゅん
+    ja_match: romaji
+  - name: Atsushi Shindo
+    ja: しんどう あつし
+    ja_match: romaji
+  - name: Madoka Toriumi
+    ja: とりうみ まどか
+    ja_match: romaji
+  - name: Masaki Itoh
+    ja: いとう まさき
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - Special Thanks
+  - Partners
+  names:
+  - name: ARCOBALENO Inc.
+    kind: company
+  - name: IT Libero
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Keita Hirobe
+    ja: ひろべ けいた
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Shoichi Obora
+    ja: おおぼら しょういち
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: たなか まさみ
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: すぎもと あつし
+    ja_match: romaji
+  - name: Masao Iuchi
+    ja: いうち まさお
+    ja_match: romaji
+  - name: Yoriomi Uego
+    ja: うえごう よりおみ
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: かせじま えいすけ
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: かわもと たく
+    ja_match: romaji
+  - name: Chie Shinno
+    ja: しんの ちえ
+    ja_match: romaji
+  - name: Yasunori Suenaga
+    ja: すえなが やすのり
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: ふくなが すすむ
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: みやはら としお
+    ja_match: romaji
+  - name: Kenji Okubo
+    ja: おおくぼ けんじ
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: すさい がく
+    ja_match: romaji
+  - name: Taito Okiura
+    ja: おきうら たいと
+    ja_match: romaji
+  - name: Torrie Dorrell
+    ja_match: positional
+    ja: トーリー ドレル
+  - name: Jaiboem Lim
+    ja_match: positional
+    ja: イム ジェボム
+  - name: Jihye Lee
+    ja_match: positional
+    ja: イ ジヘ
+  - name: Takuya Ishizuki
+    ja: いしずき たくや
+    ja_match: romaji
+  - name: Yuki Terada
+    ja: てらだ ゆうき
+    ja_match: romaji
+  - name: Sho Furutani
+    ja: ふるたに しょう
+    ja_match: romaji
+  - name: Misuzu Kanayama
+    ja: かなやま みすず
+    ja_match: romaji
+  - name: Sakika Kikuchi
+    ja: きくち さきか
+    ja_match: romaji
+  - name: Yuki Nakagawa
+    ja: なかがわ ゆき
+    ja_match: romaji
+  - name: Keito Kojima
+    ja: こじま けいと
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: はやかわ ひろたか
+    ja_match: romaji
+  - name: Kensuke Arai
+    ja: あらい けんすけ
+    ja_match: romaji
+  - name: Akifumi Shiobara
+    ja: しおばら あきふみ
+    ja_match: romaji
+  - name: Yohei Matori
+    ja: まとり ようへい
+    ja_match: romaji
+  - name: Satoshi Ogawa
+    ja: おがわ さとし
+    ja_match: romaji
+  - name: Takaki Matoba
+    ja: まとば たかき
+    ja_match: romaji
+  - name: Junpei Matsuzaki
+    ja: まつざき じゅんぺい
+    ja_match: romaji
+  - name: Winalda Nugrahadi
+    ja_match: positional
+    ja: ウィナルダ ヌグラハディ
+  - name: Takahiro Ohnishi
+    ja: おおにし たかひろ
+    ja_match: romaji
+  - name: Mayu Narahara
+    ja: ならはら まゆ
+    ja_match: romaji
+  - name: Takeshi Mishima
+    ja: みしま たけし
+    ja_match: romaji
+  - name: Nobuyuki Ohta
+    ja: おおた のぶゆき
+    ja_match: romaji
+  - name: Takahiro Tanaka
+    ja: たなか たかひろ
+    ja_match: romaji
+  - name: Kaoru Otawara
+    ja: おおたわら かおる
+    ja_match: romaji
+  - name: Alison Chyan
+    ja_match: positional
+    ja: アリソン チャン
+  - name: Amy Ganster
+    ja_match: positional
+    ja: エイミー ギャンスター
+  - name: Andy Gose
+    ja_match: positional
+    ja: アンディ ゴース
+  - name: Andy Hartpence
+    ja_match: positional
+    ja: アンディ ハートペンス
+  - name: Peter Murphy
+    ja_match: positional
+    ja: ピーター マーフィー
+  - name: Phaedra Long
+    ja_match: positional
+    ja: フェードラ ロング
+  - name: Richie Enticknap
+    ja_match: positional
+    ja: リッチー エンティクナップ
+  - name: Yasuhiro Usui
+    ja: うすい やすひろ
+    ja_match: romaji
+  - name: Kazuyoshi Kojima
+    ja: こじま かずよし
+    ja_match: romaji
+  - name: Keiko Mochida
+    ja: もちだ けいこ
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: のもと れつじ
+    ja_match: romaji
+  - name: Shohei Furuta
+    ja: ふるた しょうへい
+    ja_match: romaji
+  - name: Tomonori Iizuka
+    ja: いいづか とものり
+    ja_match: romaji
+  - name: Manami Tate
+    ja: たて まなみ
+    ja_match: romaji
+  - name: Sho Yoshimoto
+    ja: よしもと しょう
+    ja_match: romaji
+  - name: Rikiya Watanabe
+    ja: わたなべ りきや
+    ja_match: romaji
+  - name: Daisuke Kobayashi
+    ja: こばやし だいすけ
+    ja_match: romaji
+  - name: Akiko Tsuda
+    ja: つだ あきこ
+    ja_match: romaji
+  - name: Atsuko Yamamoto
+    ja: やまもと あつこ
+    ja_match: romaji
+  - name: Takeru Kuwano
+    ja: くわの たける
+    ja_match: romaji
+  ja_role: きょうりょくがいしゃ
+- path:
+  - Coordinators
+  names:
+  - name: Yuki Okada
+    ja: おかだ ゆうき
+    ja_match: romaji
+  - name: Tomoki Fukushima
+    ja: ふくしま ともき
+    ja_match: romaji
+  - name: Noriko Nakagawa
+    ja: なかがわ のりこ
+    ja_match: romaji
+  - name: Yuki Kimoto
+    ja: きもと ゆうき
+    ja_match: romaji
+  - name: Masao Takakusa
+    ja: たかくさ まさお
+    ja_match: romaji
+  - name: Hiroki Togashi
+    ja: とがし ひろき
+    ja_match: romaji
+  - name: Arisa Konno
+    ja: こんの ありさ
+    ja_match: romaji
+  - name: Shin-ichi Watanabe
+    ja: わたなべ しんいち
+    ja_match: romaji
+  - name: Yoshiko Aota
+    ja: あおた よしこ
+    ja_match: romaji
+  - name: Yutaka Hoshi
+    ja: ほし ゆたか
+    ja_match: romaji
+  - name: Ryotaro Ukai
+    ja: うかい りょうたろう
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+    ja: まつなが みつよ
+    ja_match: romaji
+  ja_role: コーディネーター
+- path:
+  - The Hidden Treasure of Area Zero for Pokémon Scarlet or Pokémon Violet
+  - Concept
+  names:
+  - name: Shigeru Ohmori
+    ja: おおもり しげる
+    kanji: 大森滋
+    ja_match: romaji
+  ja_role: ポケットモンスター スカーレット・バイオレット / ゼロの秘宝 / コンセプト
+- path:
+  - Producers
+  names:
+  - name: Shigeru Ohmori
+    ja: おおもり しげる
+    ja_match: romaji
+  - name: Akira Kinashi
+    ja: きなし あきら
+    kanji: 木梨玲
+    ja_match: romaji
+  - name: Shinya Saito
+    ja: さいとう しんや
+    ja_match: romaji
+  - name: Toyokazu Nonaka
+    ja: のなか とよかず
+    kanji: 野中豊和
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: そわ たかのり
+    kanji: 曽和孝則
+    ja_match: romaji
+  - name: Kenji Endo
+    ja: えんどう けんじ
+    kanji: 遠藤憲司
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - General Producers
+  names:
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Shinya Takahashi
+    ja: たかはし しんや
+    kanji: 高橋伸也
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: うつのみや たかと
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: ゼネラル プロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  - name: Shuntaro Furukawa
+    ja: ふるかわ しゅんたろう
+    kanji: 古川俊太郎
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー
+- path:
+  - Developed By
+  names:
+  - name: GAME FREAK inc.
+    link: GAME FREAK
+    kind: company
+    ja_match: positional
+    ja: ゲームフリーク
+  ja_role: ポケットモンスター スカーレット / ポケットモンスター バイオレット / ゼロの秘宝 / かいはつ
+ja_unmatched:
+- kana: ほう きせい
+  role: ゲームプログラムチーム
+- kana: かぶしきがいしゃ
+  role: ゲームプログラムチーム きょうりょくがいしゃ
+- kana: イースマイルエンジニアリング
+  role: ゲームプログラムチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: ゲームプログラムチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: デバッグチーム きょうりょくがいしゃ
+- kana: デジタルハーツ
+  role: デバッグチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: スタンド
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: ゆうげんがいしゃ
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: デジタルサポート
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: デジタルハーツ
+  role: けんきゅうかいはつ きょうりょくがいしゃ
+- kana: メインシナリオ
+  role: プランニングチーム
+- kana: イースマイルエンジニアリング
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: レバテック
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: イルカ
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プランニングチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: UI グラフィックチーム きょうりょくがいしゃ
+- kana: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+  role: UI グラフィックチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: はいけいチーム きょうりょくがいしゃ
+- kana: ウインズ
+  role: はいけいチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: はいけいチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: モデルチーム きょうりょくがいしゃ
+- kana: ロータス
+  role: モデルチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: モデルチーム きょうりょくがいしゃ
+- kana: レイラインスタジオ
+  role: モデルチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: モーションチーム きょうりょくがいしゃ
+- kana: アットドーンラボ
+  role: モーションチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: モーションチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: エフェクトチーム きょうりょくがいしゃ
+- kana: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+  role: エフェクトチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: ポケモン3Dビジュアルチーム きょうりょくがいしゃ
+- kana: クリーク・アンド・リバーしゃ クリエイティブスタジオ
+  role: ポケモン3Dビジュアルチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: デモチームきょうりょくがいしゃ
+- kana: イルカ
+  role: デモチームきょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: モーションキャプチャー
+- kana: かつげきざ
+  role: モーションキャプチャー
+- kana: ゆうげんがいしゃ
+  role: えコンテせいさく
+- kana: チュウチュウ
+  role: えコンテせいさく
+- kana: ゆうげんがいしゃ
+  role: えコンテせいさく
+- kana: スタジオアールエフ
+  role: えコンテせいさく
+- kana: かぶしきがいしゃ
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: コネクテコ
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: スタジオテン
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: スーパースィープ
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: しんどうデータせいさく
+  role: サウンドチーム きょうりょくがいしゃ
+- kana: こう しおん
+  role: コンセプトアート / ポケモン&じんぶつデザイン
+- kana: りん かけん
+  role: コンセプトアート / ポケモン&じんぶつデザイン
+- kana: てい うたん
+  role: モデルチーム
+- kana: かぶしきがいしゃ
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: デザインアクト
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: フレイムハーツ
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: ソフトギア
+  role: 3Dビジュアルセクション きょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: シフト
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: ソフトギア
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: レバテック
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: かぶしきがいしゃ
+  role: プロジェクトすいしんグループきょうりょくがいしゃ
+- kana: みはし テリー
+  role: えいご ローカライズ
+- kana: ホルツハウセン みか
+  role: えいご ローカライズ
+- kana: ジリアン のなか
+  role: えいご ほんやく
+- kana: ショーン ウィリアムズ ブラウン
+  role: えいご ほんやく
+- kana: ジャクソン ピーチ
+  role: えいご ほんやく
+- kana: ハナ ヴァサーロ
+  role: えいご ほんやく
+- kana: デイビッド ダンラップ
+  role: えいご ほんやく
+- kana: クリス ウォルターズ
+  role: えいご ほんやく
+- kana: ケリン バラード
+  role: えいご へんしゅう
+- kana: レイチェル ペイン
+  role: えいご へんしゅう
+- kana: ジュリア ライヤー
+  role: えいご へんしゅう
+- kana: ほさか グリーン みき
+  role: ヨーロッパ ローカライズ
+- kana: オーエン プリース
+  role: ヨーロッパ ローカライズ
+- kana: ラッセル ひでこ
+  role: ヨーロッパ ローカライズ
+- kana: ピエール ゴティエ
+  role: ヨーロッパ ローカライズ
+- kana: レイ ハバーバーグ
+  role: ヨーロッパ ローカライズ
+- kana: エレナ ナルド
+  role: ヨーロッパ ローカライズ
+- kana: シリル シュールス
+  role: ヨーロッパ ローカライズ
+- kana: ニコラ サンドレス
+  role: フランスご ほんやく
+- kana: ノエミ プラディエ
+  role: フランスご ほんやく
+- kana: リリア クリサット
+  role: フランスご ほんやく
+- kana: アレクサン バイユール
+  role: フランスご ほんやく
+- kana: アーサーブロンデル
+  role: フランスご ほんやく
+- kana: ギヨーム ディディエ
+  role: フランスご ほんやく
+- kana: エメリック フォージ
+  role: フランスご ほんやく
+- kana: オレリー クリヴィンスキ
+  role: フランスご へんしゅう
+- kana: トマ ガレール
+  role: フランスご へんしゅう
+- kana: ヴィオレット ジアン
+  role: フランスご へんしゅう
+- kana: マテュー ベタンクール
+  role: フランスご へんしゅう
+- kana: レスリー ガンビニ
+  role: フランスご へんしゅう
+- kana: ルイーズ マケーロン
+  role: フランスご へんしゅう
+- kana: マリーン ヴァレ
+  role: フランスご へんしゅう
+- kana: エロディ ヴェルポール
+  role: フランスご へんしゅう
+- kana: カロリン マイバッハ
+  role: ドイツご ほんやく
+- kana: カトレーン カルムス
+  role: ドイツご ほんやく
+- kana: ソフィー ユータボック
+  role: ドイツご ほんやく
+- kana: クリストファー デルボート
+  role: ドイツご ほんやく
+- kana: リナ エメリッヒ
+  role: ドイツご ほんやく
+- kana: カロリン フェスト
+  role: ドイツご ほんやく
+- kana: ダニエル ホイヒャー
+  role: ドイツご ほんやく
+- kana: ジーナ メレケン
+  role: ドイツご へんしゅう
+- kana: アリーナ リネンウェーバ
+  role: ドイツご へんしゅう
+- kana: ヨッヘン キュンツェル
+  role: ドイツご へんしゅう
+- kana: ユリアーナ ニーダヴァンガ
+  role: ドイツご へんしゅう
+- kana: イレネウッシュ ラトコ
+  role: ドイツご へんしゅう
+- kana: バーバラ シュワインツァー
+  role: ドイツご へんしゅう
+- kana: ジーラ ファータハウス
+  role: ドイツご へんしゅう
+- kana: アンナリタ スペラ
+  role: イタリアご ほんやく
+- kana: ヤコポ ヴァニン
+  role: イタリアご ほんやく
+- kana: アルタン クーベール
+  role: イタリアご ほんやく
+- kana: マルコ サルトーリ
+  role: イタリアご ほんやく
+- kana: グイド スカラベッロ
+  role: イタリアご ほんやく
+- kana: フランチェスカ セルチ
+  role: イタリアご ほんやく
+- kana: マヌエラ スリアーノ
+  role: イタリアご ほんやく
+- kana: ヴァレンティーナ メナーレ
+  role: イタリアご へんしゅう
+- kana: アリーチェ トロヤーニ
+  role: イタリアご へんしゅう
+- kana: マルコ ロカテッリ
+  role: イタリアご へんしゅう
+- kana: グエンダリーナ ピッルッチョ
+  role: イタリアご へんしゅう
+- kana: セルジョ ビャンキ
+  role: イタリアご へんしゅう
+- kana: シルビヤ デ ベッリス
+  role: イタリアご へんしゅう
+- kana: ファビオ ジュスティ
+  role: イタリアご へんしゅう
+- kana: セルバンド ドバル ディアス
+  role: スペインご ほんやく
+- kana: ディエゴ ルーケ デ ラ カンパ
+  role: スペインご ほんやく
+- kana: イディス べララ ロペズ
+  role: スペインご ほんやく
+- kana: ホルヘ ディエズ ラセラス
+  role: スペインご ほんやく
+- kana: アリシア イリバーレン メンドサ
+  role: スペインご ほんやく
+- kana: エンリケ ホガ エルヴィラ
+  role: スペインご ほんやく
+- kana: アルベルト グラシア カステヤノ
+  role: スペインご ほんやく
+- kana: イレネ マスカロ ジェネスタル
+  role: スペインご へんしゅう
+- kana: ルベン ラド リオマオ
+  role: スペインご へんしゅう
+- kana: アレックス フォルテス
+  role: スペインご へんしゅう
+- kana: ダニエラ カスティーヨ
+  role: スペインご へんしゅう
+- kana: セバスティアン エラスミ ヴェルガラ
+  role: スペインご へんしゅう
+- kana: フアン ホセ レイバ ヒメネス
+  role: スペインご へんしゅう
+- kana: ヴィルヒニア パラデス グレア
+  role: スペインご へんしゅう
+- kana: マリオナ ペラ イ デ ミゲール
+  role: スペインご へんしゅう
+- kana: ピンダロ ヴァルガスファリーアス
+  role: スペインご へんしゅう
+- kana: ディアナ バズケズ サイズ
+  role: スペインご へんしゅう
+- kana: チェ ミファ
+  role: かんこくご ほんやく・へんしゅう
+- kana: ビョン ジウン
+  role: かんこくご ほんやく・へんしゅう
+- kana: パク ヨンジュン
+  role: かんこくご ほんやく・へんしゅう
+- kana: パク ドンウン
+  role: かんこくご ほんやく・へんしゅう
+- kana: ハン ジュウヨン
+  role: かんこくご ほんやく・へんしゅう
+- kana: ベイ ビョンホン
+  role: かんこくご ほんやく・へんしゅう
+- kana: クォン ユジン
+  role: かんこくご ほんやく・へんしゅう
+- kana: さい きえい
+  role: ちゅうごくご ローカライズ
+- kana: こう しゅとく
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: おう いくぶん
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: りん えんじょう
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: おう やく
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: うん せい
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: じぃあん うぇいはん
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: りょう おんだい
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: ふう うえい
+  role: ちゅうごくご ほんやく・へんしゅう
+- kana: ドゥソルビエドゥプニャドレス れいこ
+  role: おうべい ローカライズサポート
+- kana: ジェフ ハインズ
+  role: おうべい ローカライズサポート
+- kana: ロバート コリング
+  role: おうべい ローカライズサポート
+- kana: マーヴィン アンドリュース
+  role: おうべい ローカライズサポート
+- kana: ピーター バグリー
+  role: おうべい ローカライズサポート
+- kana: よりこ マルシチ
+  role: ほくべい ローカライズサポート
+- kana: クリス コープランド
+  role: ほくべい ローカライズサポート
+- kana: ケンドラ ナスタルスキ
+  role: ほくべい ローカライズサポート
+- kana: ティム オリアリ
+  role: ほくべい ローカライズサポート
+- kana: ローレン アママン
+  role: ほくべい ローカライズサポート
+- kana: みなかた エミリー
+  role: ほくべい ローカライズサポート
+- kana: ジャネート セペーダ バロール
+  role: ほくべい ローカライズサポート
+- kana: エリナ サンチェズ
+  role: ほくべい ローカライズサポート
+- kana: アレックス ザルザ
+  role: ほくべい ローカライズサポート
+- kana: アナ セレステ アスカーニオ
+  role: ほくべい ローカライズサポート
+- kana: エリン ピーターソン
+  role: ほくべい ローカライズサポート
+- kana: ルドヴィック シェンチュー ポンキン
+  role: ほくべい ローカライズサポート
+- kana: サラ ホード
+  role: ほくべい ローカライズサポート
+- kana: カロリナ ケサダ
+  role: ほくべい ローカライズサポート
+- kana: ニコ ゴンザレズ デ サンティアゴ
+  role: ほくべい ローカライズサポート
+- kana: パスカル ラミーレズ
+  role: ほくべい ローカライズサポート
+- kana: マーシャ トリド
+  role: ほくべい ローカライズサポート
+- kana: サスキア ドーショット
+  role: おうしゅう ローカライズサポート
+- kana: ダリオ デ レオ
+  role: おうしゅう ローカライズサポート
+- kana: ジュリア バンバッハ
+  role: おうしゅう ローカライズサポート
+- kana: ジョン ヒョクジン
+  role: かんこくごローカライズサポート
+- kana: キム ドンヨン
+  role: かんこくごローカライズサポート
+- kana: ユ ジヒョン
+  role: かんこくごローカライズサポート
+- kana: ド スジ
+  role: かんこくごローカライズサポート
+- kana: おう ちゅうりゅう
+  role: ちゅうごくご（はんたいじ）ローカライズサポート
+- kana: ちん いめい
+  role: ちゅうごくご（はんたいじ）ローカライズサポート
+- kana: かん しけん
+  role: ちゅうごくご（はんたいじ）ローカライズサポート
+- kana: きょ めい
+  role: ちゅうごくご（かんたいじ）ローカライズサポート
+- kana: マイケル ベールス
+  role: ローカライズ スペシャルサンクス
+- kana: マリー レイズ
+  role: ローカライズ スペシャルサンクス
+- kana: トーマス キャンドランド
+  role: ローカライズ スペシャルサンクス
+- kana: NOE コミュニケーション コーディネーターグループ
+  role: ローカライズ スペシャルサンクス
+- kana: パット ウェルズ
+  role: ほくべい テスティング
+- kana: ブライソン ダーティ
+  role: ほくべい テスティング
+- kana: マシュー ピースクーク
+  role: ほくべい テスティング
+- kana: プロダクト テスティング テクニシャンズ
+  role: ほくべい テスティング
+- kana: J. イグナシオ レオン ロペス
+  role: おうしゅう ひんしつほしょう
+- kana: ヘスス グティエレス クアドラ
+  role: おうしゅう ひんしつほしょう
+- kana: パスクアレ ジャンルーカ ミチェッリ
+  role: おうしゅう ひんしつほしょう
+- kana: アメッド ブノアール
+  role: おうしゅうげんご テスティング
+- kana: ダミアン ブリシャール
+  role: おうしゅうげんご テスティング
+- kana: ギヨーム デション
+  role: おうしゅうげんご テスティング
+- kana: オリビエ ジャックマン ギヨーム
+  role: おうしゅうげんご テスティング
+- kana: ジェローム プティ
+  role: おうしゅうげんご テスティング
+- kana: ダニエーレ アルブリート
+  role: おうしゅうげんご テスティング
+- kana: ヴェローニカ カジ
+  role: おうしゅうげんご テスティング
+- kana: アレッサンドロ クロサ
+  role: おうしゅうげんご テスティング
+- kana: マッテオ マラス
+  role: おうしゅうげんご テスティング
+- kana: スヴェン ハーダー
+  role: おうしゅうげんご テスティング
+- kana: ミヒャエラ コッホ
+  role: おうしゅうげんご テスティング
+- kana: ルッツ オール
+  role: おうしゅうげんご テスティング
+- kana: イボン ディエス マエストゥ
+  role: おうしゅうげんご テスティング
+- kana: ホルヘ ヘラス ガーシア
+  role: おうしゅうげんご テスティング
+- kana: フリオ マンサネダ メディーナ
+  role: おうしゅうげんご テスティング
+- kana: ジョナタン マルコス ミラン
+  role: おうしゅうげんご テスティング
+- kana: ジェシカ サンチェス エレーラ
+  role: おうしゅうげんご テスティング
+- kana: ティモシー アレクサンダー ジェームズ フォークナー
+  role: おうしゅうげんご テスティング
+- kana: アンドリュー ホール
+  role: おうしゅうげんご テスティング
+- kana: イ オド
+  role: かんこくご テスティング
+- kana: デジタルハーツソウル
+  role: かんこくご テスティング
+- kana: ちん きつくん
+  role: ちゅうごくご テスティング
+- kana: デジタルハーツ
+  role: ちゅうごくご テスティング
+- kana: よう よく
+  role: ポケモン キャラクターモデリング
+- kana: りょ たくかん
+  role: ポケモン キャラクターモデリング
+- kana: きむ うぉん
+  role: ポケモン キャラクターモーション
+- kana: でぱうら ぶるな たいす
+  role: ポケモン キャラクターモーション
+- kana: かん じょほう
+  role: ポケモン キャラクターモーション
+- kana: くりすてぃん るどるふ うめかわ
+  role: ポケモン キャラクターモーション
+- kana: もんま ごうる
+  role: ポケモン キャラクターモーション
+- kana: クリス フランク
+  role: おうべいばん グラフィックデザイン
+- kana: エミリー ウスラン
+  role: おうべいばん グラフィックデザイン
+- kana: ダン スティーブンス
+  role: おうべいばん グラフィックデザイン
+- kana: マーク ペディーニ
+  role: おうべいばん グラフィックデザイン
+- kana: ウィロー ヘイズ
+  role: おうべいばん グラフィックデザイン
+- kana: ジョ ウンビ
+  role: かんこくごばん アートワーク
+- kana: 'Published by: Ed Sheeran Ltd and Sony Music Publishing,'
+  role: エンディングテーマ
+- kana: Rokstone Music Ltd under exclusive licence to
+  role: エンディングテーマ
+- kana: Universal Music Publishing (UK) Ltd and Sony Music Publishing.
+  role: エンディングテーマ
+- kana: かぶしきがいしゃ
+  role: きょうりょくがいしゃ
+- kana: アルコバレーノ
+  role: きょうりょくがいしゃ
+- kana: アイティーリベロ
+  role: きょうりょくがいしゃ

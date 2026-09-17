@@ -44,8 +44,10 @@ main:
         url: /#retrieval
       - title: "人物索引"
         url: /entities/people/
-      - title: "作品索引"
-        url: /entities/works/
+      - title: "制作名单"
+        url: /credits/
+      - title: "作品库"
+        url: /works/
       - title: "组织索引"
         url: /entities/organizations/
       - title: "事件索引"

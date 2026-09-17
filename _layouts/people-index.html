@@ -2,22 +2,34 @@
 layout: default
 ---
 {%- comment -%}
-The people directory: everyone the library has interviewed, most-covered
-first, each with portrait, count and span. Characters from the anime, which
-the memoir chapters tag as people, are left out.
+The people directory in two shelves. First, everyone the library has
+interviewed (most-covered first, portrait, count and span) — a card also
+says how many game credits the person carries when the staff rolls know
+them. Second, the roster of Game Freak staff who have a page only because
+of the credits (kind: staff): one compact row each, sorted by how many core
+titles they signed, filterable in place. Characters from the anime, which
+the memoir chapters tag as people, are left out of both.
 {%- endcomment -%}
 {% assign rows = "" | split: "" %}
 {% for e in site.data.people %}
-  {% if e.kind == "character" or e.kind == "figure" %}{% continue %}{% endif %}
+  {% if e.kind == "character" or e.kind == "figure" or e.kind == "staff" %}{% continue %}{% endif %}
   {% assign name = e.name %}
   {% assign mine = site.posts | where_exp: "p", "p.entities.people contains name" %}
   {% if mine.size == 0 %}{% continue %}{% endif %}
-  {% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
-  {% assign row = e | jsonify | append: "" %}
   {% assign key = mine.size | prepend: "00000" | slice: -5, 5 | append: "|" | append: e.slug %}
   {% assign rows = rows | push: key %}
 {% endfor %}
 {% assign rows = rows | sort | reverse %}
+{%- comment -%} the staff roster, sorted by core-title count then by first year {%- endcomment -%}
+{% assign staff = "" | split: "" %}
+{% for e in site.data.people %}
+  {% if e.kind != "staff" %}{% continue %}{% endif %}
+  {% assign cr = site.data.credits_people[e.slug] %}
+  {% if cr == nil %}{% continue %}{% endif %}
+  {% assign key = cr.core_games | prepend: "000" | slice: -3, 3 | append: "|" | append: cr.first | append: "|" | append: e.slug %}
+  {% assign staff = staff | push: key %}
+{% endfor %}
+{% assign staff = staff | sort | reverse %}
 
 <div id="main" role="main">
   <div class="archive archive--person">
@@ -25,8 +37,10 @@ the memoir chapters tag as people, are left out.
       <header class="people__head">
         <p class="person__kicker">人物库</p>
         <h1 class="person__name">人物</h1>
-        <p class="people__lede">{{ rows.size }} 位受访者、讲演者与作者，按站内收录篇数排列。点开看每个人的年份分布、作品、来源与全部条目。</p>
+        <p class="people__lede">{{ rows.size }} 位受访者、讲演者与作者，按站内收录篇数排列；下面另有 {{ staff.size }} 位只出现在游戏制作名单里的 Game Freak 人员。点开看每个人的年份分布、作品、来源、全部条目，以及历作署名。</p>
       </header>
+
+      <h2 class="people__h2">受访者 <small>{{ rows.size }}</small></h2>
       <ul class="people__grid">
         {% for r in rows %}
           {% assign parts = r | split: "|" %}
@@ -37,16 +51,61 @@ the memoir chapters tag as people, are left out.
           {% assign mine = site.posts | where_exp: "p", "p.entities.people contains name" %}
           {% assign by_year = mine | group_by_exp: "p", "p.date | date: '%Y'" | sort: "name" %}
           {% assign y1 = by_year | first %}{% assign y2 = by_year | last %}
+          {% assign cr = site.data.credits_people[slug] %}
           <li>
             <a class="people__card" href="{{ '/people/' | append: slug | append: '/' | relative_url }}">
               {% if e.avatar %}<img class="people__avatar" src="{{ e.avatar | relative_url }}" alt="" loading="lazy" width="56" height="56">{% else %}<span class="people__avatar people__avatar--blank" aria-hidden="true">{{ name | slice: 0, 1 }}</span>{% endif %}
               <span class="people__name">{{ name }}</span>
               {% if e.aliases %}<span class="people__alias">{{ e.aliases | last }}</span>{% endif %}
               <span class="people__meta">{{ n }} 篇 · {{ y1.name }}{% if y2.name != y1.name %}–{{ y2.name }}{% endif %}</span>
+              {% if cr %}<span class="people__credits">署名 {{ cr.core_games }} 作 · {{ cr.first }}–{{ cr.last | slice: 2, 2 }}</span>{% endif %}
             </a>
           </li>
         {% endfor %}
       </ul>
+
+      <div class="people__roster-head">
+        <h2 class="people__h2">制作名单里的人 <small>{{ staff.size }}</small></h2>
+        <p class="people__lede">只在游戏 credits 里出现、够门槛（≥5 部核心作品，或在 Game Freak 自研作品里任 lead 以上）的人，按署名的核心作品数排列。名字与汉字来自 Bulbapedia / ポケモンWiki；全部 {{ site.data.credits_games | size }} 作的署名者在<a href="{{ '/credits/staff/' | relative_url }}">历作 staff 总表</a>。</p>
+        <input type="search" id="people-roster-q" class="people__roster-q" placeholder="筛：名字 / 汉字 / 假名 / 职务" autocomplete="off">
+      </div>
+      <ol class="people__roster" id="people-roster">
+        {% for r in staff %}
+          {% assign parts = r | split: "|" %}
+          {% assign slug = parts[2] %}
+          {% assign e = site.data.people | where: "slug", slug | first %}
+          {% assign cr = site.data.credits_people[slug] %}
+          {% assign lg = site.data.credits_games | where: "slug", cr.latest_game | first %}
+          <li data-text="{{ e.name }} {{ e.aliases | join: ' ' }} {{ cr.latest_role }}">
+            <a href="{{ '/people/' | append: slug | append: '/' | relative_url }}">
+              {% if e.avatar %}<img src="{{ e.avatar | relative_url }}" alt="" loading="lazy" width="32" height="32">{% else %}<span class="people__roster-initial" aria-hidden="true">{{ e.name | slice: 0, 1 }}</span>{% endif %}
+              <span class="people__roster-name">{{ e.name }}{% if e.aliases and e.aliases.size > 0 %}<small>{{ e.aliases | first }}{% if e.aliases.size > 1 %} · {{ e.aliases | last }}{% endif %}</small>{% endif %}</span>
+              <b>{{ cr.core_games }}<small> 作</small></b>
+              <span class="people__roster-span">{{ cr.first }}–{{ cr.last | slice: 2, 2 }}</span>
+              <span class="people__roster-role">{% if lg %}{{ lg.title_zh }} · {% endif %}{{ cr.latest_role }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ol>
+      <p class="people__roster-empty" id="people-roster-empty" hidden>没有匹配的人。</p>
     </section>
   </div>
 </div>
+
+<script>
+  // the roster filters in place: plain substring match on name, aliases and latest role
+  (function () {
+    var q = document.getElementById("people-roster-q"), list = document.getElementById("people-roster"), empty = document.getElementById("people-roster-empty");
+    if (!q || !list) return;
+    var items = Array.prototype.slice.call(list.children);
+    q.addEventListener("input", function () {
+      var s = q.value.trim().toLowerCase(), n = 0;
+      items.forEach(function (li) {
+        var hit = !s || li.dataset.text.toLowerCase().indexOf(s) >= 0;
+        li.hidden = !hit;
+        if (hit) n++;
+      });
+      empty.hidden = n > 0;
+    });
+  })();
+</script>

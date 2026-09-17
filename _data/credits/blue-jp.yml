@@ -1,0 +1,227 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Blue_(JP) + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_青のスタッフクレジット
+slug: blue-jp
+title: Staff of Pokémon Blue (JP)
+work: 宝可梦 蓝
+year: 1996
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Blue_(JP)
+count: 43
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_青のスタッフクレジット
+ja_alignment:
+  ja_total: 43
+  ja_matched: 43
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター ブルーバージョン スタッフ / ディレクター
+- path:
+  - Program
+  names:
+  - name: Takenori Ōta
+    ja: おおた たけのり
+    kanji: 太田健程
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Junichi Masuda
+    link: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Sōsuke Tamada
+    ja: たまだ そうすけ
+    kanji: 玉田荘介
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Character Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  ja_role: キャラクターデザイン
+- path:
+  - Music
+  names:
+  - name: Junichi Masuda
+    link: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Sound Effects
+  names:
+  - name: Junichi Masuda
+    link: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: サウンド エフェクト
+- path:
+  - Game Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  ja_role: ゲームデザイン
+- path:
+  - Monster Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    ja_match: romaji
+  - name: Motofumi Fujiwara
+    ja: ふじわら もとふみ
+    kanji: 藤原基史
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    ja_match: romaji
+  - name: Satoshi Ōta
+    link: Satoshi Ohta
+    ja: おおた さとし
+    kanji: 太田敏
+    ja_match: romaji
+  - name: Rena Yoshikawa
+    ja: よしかわ れな
+    kanji: 吉川玲奈
+    ja_match: romaji
+  ja_role: モンスター デザイン
+- path:
+  - Scenario
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Ryōsuke Taniguchi
+    ja: たにぐち りょうすけ
+    ja_match: romaji
+  - name: Fumihiro Nonomura
+    ja: ののむら ふみひろ
+    kanji: 野々村文宏
+    ja_match: romaji
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  ja_role: シナリオ
+- path:
+  - Parameter-setting
+  names:
+  - name: Kōji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Takeo Nakamura
+    ja: なかむら たけお
+    ja_match: romaji
+  ja_role: パラメータ せってい
+- path:
+  - Map Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    kanji: 松島賢二
+    ja_match: romaji
+  - name: Fumihiro Nonomura
+    ja: ののむら ふみひろ
+    ja_match: romaji
+  - name: Ryōsuke Taniguchi
+    ja: たにぐち りょうすけ
+    ja_match: romaji
+  ja_role: マップ デザイン
+- path:
+  - Debug Play
+  names:
+  - name: Akiyoshi Kakei
+    ja: かけい あきよし
+    ja_match: romaji
+  - name: Kazuki Tsuchiya
+    ja: つちや かづき
+    ja_match: romaji
+  - name: Takeo Nakamura
+    ja: なかむら たけお
+    ja_match: romaji
+  - name: Masamitsu Yuda
+    ja: ゆだ まさみつ
+    ja_match: romaji
+  ja_role: デバッグ プレイ
+- path:
+  - Special Thanks
+  names:
+  - name: Tatsuya Hishida
+    ja: ひしだ たつや
+    kanji: 菱田達也
+    ja_match: romaji
+  - name: Yasuhiro Sakai
+    ja: さかい やすひろ
+    ja_match: romaji
+  - name: Wataru Yamaguchi
+    ja: やまぐち わたる
+    ja_match: romaji
+  - name: Kazuyuki Yamamoto
+    ja: やまもと かずゆき
+    ja_match: romaji
+  - name: Akihito Tomisawa
+    ja: とみさわ あきひと
+    kanji: とみさわ昭仁
+    ja_match: romaji
+  - name: Hiroshi Kawamoto
+    ja: かわもと ひろし
+    ja_match: romaji
+  - name: Tomomichi Oota
+    ja: おおた ともみち
+    kanji: 太田智道
+    ja_match: romaji
+  ja_role: スペシャル・サンクス
+- path:
+  - Producer
+  names:
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Takashi Kawaguchi
+    ja: かわぐち たかし
+    kanji: 川口孝司
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー

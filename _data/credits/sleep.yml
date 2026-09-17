@@ -1,0 +1,3136 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep + https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
+slug: sleep
+title: Staff of Pokémon Sleep
+work: null
+year: 2023
+developer: SELECT BUTTON inc. (2023-2024), The Pokémon Works (2024-present)
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep
+count: 300
+source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
+ja_alignment:
+  ja_total: 1229
+  ja_matched: 300
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Planning & Direction
+  - SELECT BUTTON
+  names:
+  - name: Koya Nakahata
+    ja: Koya Nakahata
+    ja_comment: 中畑虎也
+    ja_match: romaji
+  ja_role: Planning & Direction
+- path:
+  - Planning & Direction
+  - ILCA,Inc.
+  names:
+  - name: Jun Taniguchi
+    ja: Jun Taniguchi
+    ja_match: romaji
+  - name: Ryo Onoyama
+    ja: Ryo Onoyama
+    ja_match: romaji
+  - name: Sho Okita
+    ja: Sho Okita
+    ja_match: romaji
+  - name: Mihona Iioka
+    ja: Mihona Iioka
+    ja_match: romaji
+  ja_role: Planning & Direction
+- path:
+  - Planning & Direction
+  - The Pokémon Company
+  names:
+  - name: Yuki Terada
+    ja: Yuki Terada
+    ja_comment: 寺田佑貴
+    ja_match: romaji
+  - name: Yoshinari Yonehara
+    ja: Yoshinari Yonehara
+    ja_match: romaji
+  - name: Chihiro Ito
+    ja: Chihiro Ito
+    ja_match: romaji
+  ja_role: Planning & Direction
+- path:
+  - Client Engineering
+  - SELECT BUTTON
+  names:
+  - name: Keisuke Miyagawa
+    ja: Keisuke Miyagawa
+    ja_comment: 宮川佳祐
+    ja_match: romaji
+  ja_role: Client Engineering
+- path:
+  - Client Engineering
+  - ILCA,Inc.
+  names:
+  - name: Masahito Shimizu
+    ja: Masahito Shimizu
+    ja_match: romaji
+  - name: Kohei Mikoshiba
+    ja: Kohei Mikoshiba
+    ja_match: romaji
+  - name: Hidetaka Takeda
+    ja: Hidetaka Takeda
+    ja_match: romaji
+  ja_role: Client Engineering
+- path:
+  - Client Engineering
+  - Freelance
+  names:
+  - name: Seiya Sasaki
+    ja: Seiya Sasaki
+    ja_match: romaji
+  - name: Kenta Komai
+    ja: Kenta Komai
+    ja_match: romaji
+  - name: Mayumi Sasaki
+    ja: Mayumi Sasaki
+    ja_match: romaji
+  ja_role: Client Engineering
+- path:
+  - Server engineering
+  - ILCA,Inc.
+  names:
+  - name: Satoru Hiraoka
+    ja: Satoru Hiraoka
+    ja_match: romaji
+  - name: Yuki Akamine
+    ja: Yuki Akamine
+    ja_match: romaji
+  - name: Akihito Suda
+    ja: Akihito Suda
+    ja_match: romaji
+  - name: Tomokazu Takeuchi
+    ja: Tomokazu Takeuchi
+    ja_match: romaji
+  - name: Keisuke Nakamura
+    ja: Keisuke Nakamura
+    ja_match: romaji
+  - name: Hiroki Higa
+    ja: Hiroki Higa
+    ja_match: romaji
+  - name: Ryoma Tachimoto
+    ja: Ryoma Tachimoto
+    ja_match: romaji
+  - name: Yuichi Ueda
+    ja: Yuichi Ueda
+    ja_match: romaji
+  - name: Wataru Iida
+    ja: Wataru Iida
+    ja_match: romaji
+  ja_role: Server Engineering
+- path:
+  - Artwork
+  - SELECT BUTTON
+  names:
+  - name: Takumi Tsukada
+    ja: Takumi Tsukada
+    ja_comment: 塚田拓実
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - The Pokémon Company
+  names:
+  - name: Marie Shuto
+    ja: Marie Shuto
+    ja_comment: 首藤まり江
+    ja_match: romaji
+  - name: Misaki Kamimura
+    ja: Misaki Kamimura
+    ja_match: romaji
+  - name: Naho Ozawa
+    ja: Naho Ozawa
+    ja_match: romaji
+  - name: Mitsuki Kamiya
+    ja: Mitsuki Kamiya
+    ja_match: romaji
+  - name: Nanako Kinoshita
+    ja: Nanako Kinoshita
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - OLM team Kato
+  names:
+  - name: Hiroyuki Kato
+    ja: Hiroyuki Kato
+    kanji: 加藤浩幸
+    ja_match: romaji
+  - name: Daiki Tomiyasu
+    ja: Daiki Tomiyasu
+    kanji: 冨安大貴
+    ja_match: romaji
+  - name: Kunihiko Yuyama
+    ja: Kunihiko Yuyama
+    kanji: 湯山邦彦
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Viracocha Inc.
+  names:
+  - name: Takeru Kikutani
+    ja: Takeru Kikutani
+    ja_match: romaji
+  - name: Atsushi Okada
+    ja: Atsushi Okada
+    ja_match: romaji
+  - name: Osamu Ishii
+    ja: Osamu Ishii
+    ja_match: romaji
+  - name: Seiichiro Habu
+    ja: Seiichiro Habu
+    ja_match: romaji
+  - name: Ami Kanki
+    ja: Ami Kanki
+    ja_match: romaji
+  - name: Rino Abe
+    ja: Rino Abe
+    ja_match: romaji
+  - name: Ryota Yoshihama
+    ja: Ryota Yoshihama
+    ja_match: romaji
+  - name: Ryuji Kojima
+    ja: Ryuji Kojima
+    ja_match: romaji
+  - name: Yui Hayashi
+    ja: Yui Hayashi
+    ja_match: romaji
+  - name: Mizuki Osawa
+    ja: Mizuki Osawa
+    ja_match: romaji
+  - name: Ryo Kajigaki
+    ja: Ryo Kajigaki
+    ja_match: romaji
+  - name: Shiori Kamikubo
+    ja: Shiori Kamikubo
+    ja_match: romaji
+  - name: Kasumi Gotou
+    ja: Kasumi Gotou
+    ja_match: romaji
+  - name: Saho Shinto
+    ja: Saho Shinto
+    ja_match: romaji
+  - name: Minami Fujioka
+    ja: Minami Fujioka
+    ja_match: romaji
+  - name: Kumi Sato
+    ja: Kumi Sato
+    ja_match: romaji
+  - name: Maiko Nakatsuka
+    ja: Maiko Nakatsuka
+    ja_match: romaji
+  - name: Sawako Hamakubo
+    ja: Sawako Hamakubo
+    ja_match: romaji
+  - name: Yukino Matsumoto
+    ja: Yukino Matsumoto
+    ja_match: romaji
+  - name: Kanna Yoshioka
+    ja: Kanna Yoshioka
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - AQUASTAR Inc.
+  names:
+  - name: Hitomi Azuma
+    ja: Hitomi Azuma
+    ja_match: romaji
+  - name: Akihiro Kawano
+    ja: Akihiro Kawano
+    ja_match: romaji
+  - name: Eri Nakayama
+    ja: Eri Nakayama
+    ja_match: romaji
+  - name: Masatoshi Tagawa
+    ja: Masatoshi Tagawa
+    ja_match: romaji
+  - name: Etsuko Fukumoto
+    ja: Etsuko Fukumoto
+    ja_match: romaji
+  - name: Eri Takase
+    ja: Eri Takase
+    ja_match: romaji
+  - name: Mayuko Aiba
+    ja: Mayuko Aiba
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Artner Inc.
+  names:
+  - name: Ayaka Suzuki
+    ja: Ayaka Suzuki
+    ja_match: romaji
+  - name: Yuki Takada
+    ja: Yuki Takada
+    ja_match: romaji
+  - name: Takaaki Nagasawa
+    ja: Takaaki Nagasawa
+    ja_match: romaji
+  - name: Erika Okawa
+    ja: Erika Okawa
+    ja_match: romaji
+  - name: Yusuke Tazawa
+    ja: Yusuke Tazawa
+    ja_match: romaji
+  - name: Yuko Shimizu
+    ja: Yuko Shimizu
+    ja_match: romaji
+  - name: Masahiko Sakurai
+    ja: Masahiko Sakurai
+    ja_match: romaji
+  - name: Yurika Konishi
+    ja: Yurika Konishi
+    ja_match: romaji
+  - name: Mie Matsuse
+    ja: Mie Matsuse
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Digital Shokunin Inc.
+  names:
+  - name: Eriko Nishimura
+    ja: Eriko Nishimura
+    ja_match: romaji
+  - name: Rena Kawasaki
+    ja: Rena Kawasaki
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - flaggs Inc.
+  names:
+  - name: Yuya Abe
+    ja: Yuya Abe
+    ja_match: romaji
+  - name: Haruka Kajikawa
+    ja: Haruka Kajikawa
+    ja_match: romaji
+  - name: Hideya Yuasa
+    ja: Hideya Yuasa
+    ja_match: romaji
+  - name: Ushio
+    ja: Ushio
+    ja_match: romaji
+  - name: Kanan Kohata
+    ja: Kanan Kohata
+    ja_match: romaji
+  - name: Atsuko Nakano
+    ja: Atsuko Nakano
+    ja_match: romaji
+  - name: Marin Inui
+    ja: Marin Inui
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Frontier Works Inc.
+  names:
+  - name: Takumi Okajima
+    ja: Takumi Okajima
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Hellarts Inc.
+  names:
+  - name: Kyo Tadaaki
+    ja: Kyo Tadaaki
+    ja_match: romaji
+  - name: Shota Kikunaga
+    ja: Shota Kikunaga
+    ja_match: romaji
+  - name: Shota Imai
+    ja: Shota Imai
+    ja_match: romaji
+  - name: Atsushi Iwasaki
+    ja: Atsushi Iwasaki
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - HIKE Inc.
+  names:
+  - name: Yuki Nakatani
+    ja: Yuki Nakatani
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - IMAGICA GEEQ .Inc.
+  names:
+  - name: Tomoya Iwasawa
+    ja: Tomoya Iwasawa
+    ja_match: romaji
+  - name: Takeshi Kanda
+    ja: Takeshi Kanda
+    ja_match: romaji
+  - name: Natsumi Fujita
+    ja: Natsumi Fujita
+    ja_match: romaji
+  - name: Alisa Odawara
+    ja: Alisa Odawara
+    ja_match: romaji
+  - name: Yukio Nakamura
+    ja: Yukio Nakamura
+    ja_match: romaji
+  - name: Sayaka Kuriyama
+    ja: Sayaka Kuriyama
+    ja_match: romaji
+  - name: Sachi Miura
+    ja: Sachi Miura
+    ja_match: romaji
+  - name: Natsuho Miyamoto
+    ja: Natsuho Miyamoto
+    ja_match: romaji
+  - name: Shiori Tsuji
+    ja: Shiori Tsuji
+    ja_match: romaji
+  - name: Dai Miyagihara
+    ja: Dai Miyagihara
+    ja_match: romaji
+  - name: Yukiko Yagi
+    ja: Yukiko Yagi
+    ja_match: romaji
+  - name: Kouji Hirouchi
+    ja: Kouji Hirouchi
+    ja_match: romaji
+  - name: Yuri Yamamura
+    ja: Yuri Yamamura
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - MUGENUP Inc.
+  names:
+  - name: Kiwamu Hoshida
+    ja: Kiwamu Hoshida
+    ja_match: romaji
+  - name: Shohei Yoshihama
+    ja: Shohei Yoshihama
+    ja_match: romaji
+  - name: Natsuki Yanagawa
+    ja: Natsuki Yanagawa
+    ja_match: romaji
+  - name: Haruna Nojiri
+    ja: Haruna Nojiri
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Torisan Co., Ltd.
+  names:
+  - name: Yumi Machida
+    ja: Yumi Machida
+    ja_match: romaji
+  - name: Mutsumi Uose
+    ja: Mutsumi Uose
+    ja_match: romaji
+  - name: Yukifumi Kotani
+    ja: Yukifumi Kotani
+    ja_match: romaji
+  - name: Risa Kawai
+    ja: Risa Kawai
+    ja_match: romaji
+  - name: Kanade Hirata
+    ja: Kanade Hirata
+    ja_match: romaji
+  - name: Natsumi Yamamoto
+    ja: Natsumi Yamamoto
+    ja_match: romaji
+  - name: Miyuki Tanaka
+    ja: Miyuki Tanaka
+    ja_match: romaji
+  - name: Chihoko Minami
+    ja: Chihoko Minami
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Type ZERO Inc.
+  names:
+  - name: Keita Shuto
+    ja: Keita Shuto
+    ja_match: romaji
+  - name: Sara Aoyama
+    ja: Sara Aoyama
+    ja_match: romaji
+  - name: Nanoha Maebayashi
+    ja: Nanoha Maebayashi
+    ja_match: romaji
+  - name: Seokkyo Seo
+    ja: Seokkyo Seo
+    ja_match: romaji
+  - name: Yuta Onodera
+    ja: Yuta Onodera
+    ja_match: romaji
+  - name: Suzuna Sakakieda
+    ja: Suzuna Sakakieda
+    ja_match: romaji
+  - name: Kouka Kakizaki
+    ja: Kouka Kakizaki
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork
+  - Freelance
+  names:
+  - name: TANAKA U
+    ja: TANAKA U
+    ja_match: romaji
+  - name: Iori Suzuki
+    ja: Iori Suzuki
+    ja_match: romaji
+  - name: sowsow
+    ja: sowsow
+    ja_match: romaji
+  - name: nico
+    note: idea-telier
+    ja: nico
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Music & Sound Effect
+  - SPICA MUSICA
+  names:
+  - name: Shota Kageyama
+    ja: Shota Kageyama
+    kanji: 景山将太
+    ja_match: romaji
+  ja_role: Music & Sound Effect
+- path:
+  - Music & Sound Effect
+  - Gemini Breeze LLC.
+  names:
+  - name: Jun Fukuda
+    ja: Jun Fukuda
+    ja_match: romaji
+  ja_role: Music & Sound Effect
+- path:
+  - Music & Sound Effect
+  - The Pokémon Company
+  names:
+  - name: Sho Furutani
+    ja: Sho Furutani
+    ja_match: romaji
+  ja_role: Music & Sound Effect
+- path:
+  - Music & Sound Effect
+  - Musician
+  names:
+  - name: yas nakajima
+    ja: yas nakajima
+    ja_match: romaji
+  ja_role: Music & Sound Effect
+- path:
+  - Music & Sound Effect
+  - SyncStudio
+  names:
+  - name: Yoshiyuki Watanabe
+    ja: Yoshiyuki Watanabe
+    ja_match: romaji
+  ja_role: Music & Sound Effect
+- path:
+  - Localize
+  - The Pokémon Company International
+  names:
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Chie Stutzman
+    ja: Chie Stutzman
+    ja_match: romaji
+  - name: Miho Lyon
+    ja: Miho Lyon
+    ja_match: romaji
+  - name: Mika Ishikawa
+    ja: Mika Ishikawa
+    ja_match: romaji
+  - name: Reiko de Sorbier de Pougnadoresse
+    ja: Reiko de Sorbier de Pougnadoresse
+    ja_match: romaji
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Robert Colling
+    ja: Robert Colling
+    ja_match: romaji
+  - name: Hisato Yamamori
+    ja: Hisato Yamamori
+    ja_match: romaji
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Jill Nonaka
+    ja: Jill Nonaka
+    ja_match: romaji
+  - name: Jackson Pietsch
+    ja: Jackson Pietsch
+    ja_match: romaji
+  - name: Hannah Vassallo
+    ja: Hannah Vassallo
+    ja_match: romaji
+  - name: Laura Bartholomew
+    ja: Laura Bartholomew
+    ja_match: romaji
+  - name: Kellyn Ballard
+    ja: Kellyn Ballard
+    ja_match: romaji
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  - name: Dermot Creegan
+    ja: Dermot Creegan
+    ja_match: romaji
+  - name: Akira Vivienne
+    ja: Akira Vivienne
+    ja_match: romaji
+  - name: Elin Rummel
+    ja: Elin Rummel
+    ja_match: romaji
+  - name: Derek Heemsbergen
+    ja: Derek Heemsbergen
+    ja_match: romaji
+  - name: Kaori Aoki
+    ja: Kaori Aoki
+    ja_match: romaji
+  - name: Daniel Anscomb
+    ja: Daniel Anscomb
+    ja_match: romaji
+  - name: Chika Tanigaki
+    ja: Chika Tanigaki
+    ja_match: romaji
+  - name: Hirotaka Nishino
+    ja: Hirotaka Nishino
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Kendra Evans
+    ja: Kendra Evans
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Mark Bunting
+    ja: Mark Bunting
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  - name: Peter Bagley
+    ja: Peter Bagley
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Arthur Blondel
+    ja: Arthur Blondel
+    ja_match: romaji
+  - name: Leslie Gambini
+    ja: Leslie Gambini
+    ja_match: romaji
+  - name: Matthieu Béthencourt
+    ja: Matthieu Béthencourt
+    ja_match: romaji
+  - name: Diana Ahmed
+    ja: Diana Ahmed
+    ja_match: romaji
+  - name: Jena Gattegno
+    ja: Jena Gattegno
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  - name: Altan Couvert
+    ja: Altan Couvert
+    ja_match: romaji
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Annarita Spera
+    ja: Annarita Spera
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Jacopo Vanin
+    ja: Jacopo Vanin
+    ja_match: romaji
+  - name: Valentina Vignola
+    ja: Valentina Vignola
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Sergio Bianchi
+    ja: Sergio Bianchi
+    ja_match: romaji
+  - name: Valerio Amato
+    ja: Valerio Amato
+    ja_match: romaji
+  - name: Claudio Calzolari
+    ja: Claudio Calzolari
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Marco Locatelli
+    ja: Marco Locatelli
+    ja_match: romaji
+  - name: Valentina Menale
+    ja: Valentina Menale
+    ja_match: romaji
+  - name: Guendalina Pirruccio
+    ja: Guendalina Pirruccio
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  - name: Caroline Fest
+    ja: Caroline Fest
+    ja_match: romaji
+  - name: Lina Emmerich
+    ja: Lina Emmerich
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Sophie Jüterbock
+    ja: Sophie Jüterbock
+    ja_match: romaji
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Carolin Maibach
+    ja: Carolin Maibach
+    ja_match: romaji
+  - name: Juliana Niederwanger
+    ja: Juliana Niederwanger
+    ja_match: romaji
+  - name: Jochen Künzel
+    ja: Jochen Künzel
+    ja_match: romaji
+  - name: Caroline Büsch
+    ja: Caroline Büsch
+    ja_match: romaji
+  - name: Alina Linnenweber
+    ja: Alina Linnenweber
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: David Müller
+    ja: David Müller
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Barbara Schweinzer
+    ja: Barbara Schweinzer
+    ja_match: romaji
+  - name: Sira Vaterhaus
+    ja: Sira Vaterhaus
+    ja_match: romaji
+  - name: Enrique Joga Elvira
+    ja: Enrique Joga Elvira
+    ja_match: romaji
+  - name: Alberto Gracia Castellano
+    ja: Alberto Gracia Castellano
+    ja_match: romaji
+  - name: Servando Doval Diaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Juan José Leiva Jiménez
+    ja: Juan José Leiva Jiménez
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Diana Vásquez Saiz
+    ja_match: positional
+    ja: Diana Vázquez Saiz
+  - name: Sebástian Erasmy
+    ja: Sebastián Erasmy
+    ja_match: romaji
+  - name: Mai Castro Arellano
+    ja: Mai Castro Arellano
+    ja_match: romaji
+  - name: Alex Fortes
+    ja: Alex Fortes
+    ja_match: romaji
+  - name: Rubén Lado Riomao
+    ja: Rubén Lado Riomao
+    ja_match: romaji
+  - name: Irene Mascaró Genestar
+    ja: Irene Mascaró Genestar
+    ja_match: romaji
+  - name: Javier Ortiz Carrillo
+    ja: Javier Ortiz Carrillo
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Localize
+  - Pokémon Korea Inc.
+  names:
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Dongun Pak
+    ja: Dongun Pak
+    ja_match: romaji
+  - name: Jooyeon Han
+    ja: Jooyeon Han
+    ja_match: romaji
+  - name: Byunghun Bae
+    ja: Byunghun Bae
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Localize
+  - The Pokémon Company
+  names:
+  - name: Yoshiko Aota
+    ja: Yoshiko Aota
+    ja_match: romaji
+  - name: Shuyang Jia
+    ja: Shuyang Jia
+    ja_match: romaji
+  - name: Yutaka Hoshi
+    ja: Yutaka Hoshi
+    ja_match: romaji
+  - name: Ryotaro Ukai
+    ja: Ryotaro Ukai
+    ja_match: romaji
+  - name: Huiying Tsai
+    ja: Huiying Tsai
+    ja_match: romaji
+  - name: Yuting Tu
+    ja: Yuting Tu
+    ja_match: romaji
+  - name: Yufeng Fan
+    ja: Yufeng Fan
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Linguistic Quality Assurance
+  - PTW International UK Limited
+  names:
+  - name: Sergejs Adamovs
+    ja: Sergejs Adamovs
+    ja_match: romaji
+  - name: Gil Hoyle
+    ja: Gil Hoyle
+    ja_match: romaji
+  - name: Emily Kokott
+    ja: Emily Kokott
+    ja_match: romaji
+  - name: Geri Fagan
+    ja: Geri Fagan
+    ja_match: romaji
+  - name: Roberta Lo Cascio
+    ja: Roberta Lo Cascio
+    ja_match: romaji
+  - name: Anna McArthur
+    ja: Anna McArthur
+    ja_match: romaji
+  - name: Emeline Daliguet
+    ja: Emeline Daliguet
+    ja_match: romaji
+  - name: Claudia Borrello
+    ja: Claudia Borrello
+    ja_match: romaji
+  - name: Federico Scaglioni
+    ja: Federico Scaglioni
+    ja_match: romaji
+  - name: Katharina Szekely
+    ja: Katharina Szekely
+    ja_match: romaji
+  - name: Lara Turna
+    ja: Lara Turna
+    ja_match: romaji
+  - name: Laura Schroeter
+    ja: Laura Schroeter
+    ja_match: romaji
+  - name: Eric Romero Palau
+    ja: Eric Romero Palau
+    ja_match: romaji
+  - name: Noemi Sanchez Chamizo
+    ja: Noemi Sanchez Chamizo
+    ja_match: romaji
+  - name: Román Gómez Herrero
+    ja: Román Gómez Herrero
+    ja_match: romaji
+  ja_role: Linguistic Quality Assurance
+- path:
+  - Pokemon Supervision
+  - GAME FREAK inc.
+  names:
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: Kenji Matsushima
+    kanji: 松島賢二
+    ja_match: romaji
+  ja_role: Pokemon Supervision
+- path:
+  - Pokemon Supervision
+  - The Pokémon Company
+  names:
+  - name: Misuzu Kanayama
+    ja: Misuzu Kanayama
+    ja_match: romaji
+  - name: Yuki Nakagawa
+    ja: Yuki Nakagawa
+    ja_match: romaji
+  - name: Nana Harada
+    ja: Nana Harada
+    ja_match: romaji
+  ja_role: Pokemon Supervision
+- path:
+  - Sleep Science Supervision
+  - S'UIMIN
+  names:
+  - name: Masashi Yanagisawa
+    ja: Masashi Yanagisawa
+    kanji: 柳沢正史
+    ja_match: romaji
+  ja_role: Sleep Science Supervision
+- path:
+  - Development Support
+  - The Pokémon Company
+  names:
+  - name: Nobuyuki Ohta
+    ja: Nobuyuki Ohta
+    ja_match: romaji
+  - name: Tatsuya Ichijo
+    ja: Tatsuya Ichijo
+    ja_match: romaji
+  - name: Chitose Kawakami
+    ja: Chitose Kawakami
+    ja_match: romaji
+  - name: Kayo Nakata
+    ja: Kayo Nakata
+    ja_match: romaji
+  ja_role: Development Support
+- path:
+  - Customer Support
+  - The Pokémon Company
+  names:
+  - name: Kazunori Sugiura
+    ja: Kazunori Sugiura
+    ja_match: romaji
+  - name: Yohei Yamamoto
+    ja: Yohei Yamamoto
+    ja_match: romaji
+  - name: Yosuke Senoo
+    ja: Yosuke Senoo
+    ja_match: romaji
+  - name: Maryna Zavialova
+    ja: Maryna Zavialova
+    ja_match: romaji
+  - name: Masako Kitamura
+    ja_match: positional
+    ja: Masato Kitamura
+  - name: Shu Amagiri
+    ja: Shu Amagiri
+    ja_match: romaji
+  ja_role: Customer Support
+- path:
+  - Legal
+  - The Pokémon Company
+  names:
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Asako Yamazaki
+    ja: Asako Yamazaki
+    ja_match: romaji
+  - name: Kensuke Arai
+    ja: Kensuke Arai
+    ja_match: romaji
+  - name: Misako Fujitaka
+    ja: Misako Fujitaka
+    ja_match: romaji
+  - name: Akifumi Shiobara
+    ja: Akifumi Shiobara
+    ja_match: romaji
+  - name: Yuta Hara
+    ja: Yuta Hara
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Promotion
+  - The Pokémon Company
+  names:
+  - name: Manami Tate
+    ja: Manami Tate
+    ja_match: romaji
+  - name: Yu Sato
+    ja: Yu Sato
+    ja_match: romaji
+  - name: Takuya Umeyama
+    ja: Takuya Umeyama
+    ja_match: romaji
+  - name: Nobuyuki Omae
+    ja: Nobuyuki Omae
+    ja_match: romaji
+  - name: Shunya Okada
+    ja: Shunya Okada
+    ja_match: romaji
+  - name: Nana Otsuka
+    ja: Nana Otsuka
+    ja_match: romaji
+  ja_role: Promotion
+- path:
+  - Promotion
+  - Freelance
+  names:
+  - name: Kento Suga
+    ja: Kento Suga
+    ja_match: romaji
+  ja_role: Promotion
+- path:
+  - Produce
+  - The Pokémon Company
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Kaname Kosugi
+    ja: Kaname Kosugi
+    ja_comment: 小杉要
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Special Thanks
+  - The Pokémon Company
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_comment: 曽羽孝則
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_comment: 河本拓
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_comment: 松永充代
+    ja_match: romaji
+  - name: Satoshi Ogawa
+    ja: Satoshi Ogawa
+    ja_comment: 小川慧
+    ja_match: romaji
+  - name: Minyu Hsu
+    ja: Minyu Hsu
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Special Thanks
+  - The Pokémon Company International
+  names:
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_comment: 大久保賢司
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  - name: Taito Okiura
+    ja: Taito Okiura
+    ja_comment: 沖浦泰斗
+    ja_match: romaji
+  - name: Torrie Dorrell
+    ja: Torrie Dorrell
+    ja_match: romaji
+  - name: Amy Ganster
+    ja: Amy Ganster
+    ja_match: romaji
+  - name: Andrew Schnorr
+    ja: Andrew Schnorr
+    ja_match: romaji
+  - name: Andy Gose
+    ja: Andy Gose
+    ja_match: romaji
+  - name: Andy Hartpence
+    ja: Andy Hartpence
+    ja_match: romaji
+  - name: David Numrich
+    ja: David Numrich
+    ja_match: romaji
+  - name: Jawad Ashraf
+    ja: Jawad Ashraf
+    ja_match: romaji
+  - name: Kaoru Otawara
+    ja: Kaoru Otawara
+    ja_match: romaji
+  - name: Peter Murphy
+    ja: Peter Murphy
+    ja_match: romaji
+  - name: Phaedra Long
+    ja: Phaedra Long
+    ja_match: romaji
+  - name: Richie Enticknap
+    ja: Richie Enticknap
+    ja_match: romaji
+  - name: Yasuhiro Usui
+    ja: Yasuhiro Usui
+    ja_match: romaji
+  - name: Alison Chyan
+    ja: Alison Chyan
+    ja_match: romaji
+  - name: Reina Nagai
+    ja: Reina Nagai
+    ja_match: romaji
+  - name: Steve Lee
+    ja: Steve Lee
+    ja_match: romaji
+  - name: Peter Fisk
+    ja: Peter Fisk
+    ja_match: romaji
+  - name: Dennison Giongco
+    ja: Dennison Giongco
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Special Thanks
+  - Pokémon Korea Inc.
+  names:
+  - name: Jaiboem Lim
+    ja: Jaiboem Lim
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Jihye Lee
+    ja_match: romaji
+  ja_role: Special Thanks
+ja_unmatched:
+- kana: ;SELECT BUTTON
+  role: Planning & Direction
+- kana: ;Game Director
+  role: Planning & Direction
+- kana: ;ILCA,Inc.
+  role: Planning & Direction
+- kana: ;Lead Planner
+  role: Planning & Direction
+- kana: ;Planner
+  role: Planning & Direction
+- kana: ;The Pokémon Company
+  role: Planning & Direction
+  kanji: 株式会社ポケモン
+- kana: ;Lead Coordinator
+  role: Planning & Direction
+- kana: ;Coordinators
+  role: Planning & Direction
+- kana: ;SELECT BUTTON
+  role: Client Engineering
+- kana: ;Lead Client Engineer
+  role: Client Engineering
+- kana: ;ILCA,Inc.
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: ;Freelance
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: ;ILCA,Inc.
+  role: Server Engineering
+- kana: ;Lead Server Engineer
+  role: Server Engineering
+- kana: ;Server Engineers
+  role: Server Engineering
+- kana: ;Infrastructure Engineer
+  role: Server Engineering
+- kana: ;Coordinators
+  role: Server Engineering
+- kana: ;SELECT BUTTON
+  role: Artwork
+- kana: ;Art Director & UI Designer
+  role: Artwork
+- kana: ;The Pokémon Company
+  role: Artwork
+- kana: ;Lead Coordinator
+  role: Artwork
+- kana: ;Coordinator
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: ;OLM team Kato
+  role: Artwork
+- kana: ;Animation Producer
+  role: Artwork
+- kana: ;Storyboards
+  role: Artwork
+- kana: ;Viracocha Inc.
+  role: Artwork
+- kana: ;Sales Planning
+  role: Artwork
+- kana: ;Art Director
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: ;AQUASTAR Inc.
+  role: Artwork
+- kana: ;Project Managers
+  role: Artwork
+- kana: ;Directors
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: ;Artner Inc.
+  role: Artwork
+- kana: ;General Manager
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: ;Producer
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: ;Digital Shokunin Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;flaggs Inc.
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: ;First Unit Animators
+  role: Artwork
+- kana: ;Illustrator
+  role: Artwork
+- kana: ;Assistant Project Manager
+  role: Artwork
+- kana: ;Second Unit Animators
+  role: Artwork
+- kana: ;Frontier Works Inc.
+  role: Artwork
+- kana: ;Animator
+  role: Artwork
+- kana: ;Hellarts Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;Graphicers
+  role: Artwork
+- kana: ;HIKE Inc.
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: ;IMAGICA GEEQ .Inc.
+  role: Artwork
+- kana: ;Producers
+  role: Artwork
+- kana: ;Project Managers
+  role: Artwork
+- kana: ;Animation Director
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;MUGENUP Inc.
+  role: Artwork
+- kana: ;Manager
+  role: Artwork
+- kana: ;Line Producer
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;Torisan Co., Ltd.
+  role: Artwork
+- kana: ;Sales
+  role: Artwork
+- kana: ;Project Managers
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;Type ZERO Inc.
+  role: Artwork
+- kana: ;CG Producer
+  role: Artwork
+- kana: ;Production Assistants
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: ;Chief Animator
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: ;Freelance
+  role: Artwork
+- kana: ;Visual Effects & UI Motion Advisor
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: ;SPICA MUSICA
+  role: Music & Sound Effect
+- kana: ;Music & Sound Produce
+  role: Music & Sound Effect
+- kana: ;Gemini Breeze LLC.
+  role: Music & Sound Effect
+- kana: ;Sound Effect
+  role: Music & Sound Effect
+- kana: ;The Pokémon Company
+  role: Music & Sound Effect
+- kana: ;Coordinator
+  role: Music & Sound Effect
+- kana: ;Musician
+  role: Music & Sound Effect
+- kana: ;Guitar
+  role: Music & Sound Effect
+- kana: ;SyncStudio
+  role: Music & Sound Effect
+- kana: ;Mixing Engineer
+  role: Music & Sound Effect
+- kana: ;The Pokémon Company International
+  role: Localization
+- kana: ;English Localization
+  role: Localization
+- kana: ;English Translation
+  role: Localization
+- kana: ;English Editing
+  role: Localization
+- kana: ;European Localization
+  role: Localization
+- kana: ;French Translation
+  role: Localization
+- kana: ;French Editing
+  role: Localization
+- kana: ;Italian Translation
+  role: Localization
+- kana: ;Italian Editing
+  role: Localization
+- kana: ;German Translation
+  role: Localization
+- kana: ;German Editing
+  role: Localization
+- kana: ;Spanish Translation
+  role: Localization
+- kana: ;Spanish Editing
+  role: Localization
+- kana: ;Pokemon Korea Inc.
+  role: Localization
+- kana: ;Korean Translation & Editing
+  role: Localization
+- kana: Yoojin Kwon
+  role: Localization
+- kana: ;The Pokémon Company
+  role: Localization
+- kana: ;Chinese Localization
+  role: Localization
+- kana: ;Chinese Translation & Editing
+  role: Localization
+- kana: ;PTW International UK Limited
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Manager
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Coordinator
+  role: Linguistic Quality Assurance
+- kana: ;English (US) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: ;French (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: ;Italian LQA Testing
+  role: Linguistic Quality Assurance
+- kana: ;German LQA Testing
+  role: Linguistic Quality Assurance
+- kana: ;Spanish (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Debug
+- kana: ;GAME FREAK inc.
+  role: Pokemon Supervision
+- kana: ;Pokémon Settings Supervision
+  role: Pokemon Supervision
+- kana: ;The Pokémon Company
+  role: Pokemon Supervision
+- kana: ;Pokémon Brand Management
+  role: Pokemon Supervision
+- kana: ;S'UIMIN
+  role: Sleep Science Supervision
+- kana: ;The Pokémon Company
+  role: Development Support
+- kana: ;The Pokémon Company
+  role: Customer Support
+- kana: ;The Pokémon Company
+  role: Legal
+- kana: ;The Pokémon Company
+  role: Promotion
+- kana: ;Freelance
+  role: Promotion
+- kana: ;The Pokémon Company
+  role: Producers
+- kana: ;Executive Producer
+  role: Producers
+- kana: ;General Producer
+  role: Producers
+- kana: ;Producer
+  role: Producers
+- kana: ;The Pokémon Company
+  role: Special Thanks
+- kana: ;The Pokémon Company International
+  role: Special Thanks
+- kana: ;Pokemon Korea Inc.
+  role: Special Thanks
+- kana: ;SELECT BUTTON
+  role: Planning & Direction
+- kana: ;Game Director
+  role: Planning & Direction
+- kana: Koya Nakahata
+  role: Planning & Direction
+- kana: ;ILCA,Inc.
+  role: Planning & Direction
+- kana: ;Planners
+  role: Planning & Direction
+- kana: Ryo Onoyama
+  role: Planning & Direction
+- kana: Sho Okita
+  role: Planning & Direction
+- kana: Mihona Iioka
+  role: Planning & Direction
+- kana: Hiroki Kawamura
+  role: Planning & Direction
+- kana: Ryo Hasegawa
+  role: Planning & Direction
+- kana: ;Project Manager
+  role: Planning & Direction
+- kana: Hikaru Yoshida
+  role: Planning & Direction
+- kana: ;Supervisor
+  role: Planning & Direction
+- kana: Jun Taniguchi
+  role: Planning & Direction
+- kana: ;The Pokémon Company
+  role: Planning & Direction
+  kanji: 株式会社ポケモン
+- kana: ;Lead Coordinators
+  role: Planning & Direction
+- kana: Masao Takakusa
+  role: Planning & Direction
+- kana: Yuki Terada
+  role: Planning & Direction
+- kana: ;Coordinators
+  role: Planning & Direction
+- kana: Yoshinari Yonehara
+  role: Planning & Direction
+- kana: Chihiro Ito
+  role: Planning & Direction
+- kana: Takuya Yamashita
+  role: Planning & Direction
+- kana: Kylan Voorhees
+  role: Planning & Direction
+- kana: Toru Sawada
+  role: Planning & Direction
+- kana: ;SELECT BUTTON
+  role: Client Engineering
+- kana: ;Lead Client Engineer
+  role: Client Engineering
+- kana: Keisuke Miyagawa
+  role: Client Engineering
+- kana: ;ILCA,Inc.
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: Masahito Shimizu
+  role: Client Engineering
+- kana: Kohei Mikoshiba
+  role: Client Engineering
+- kana: Hidetaka Takeda
+  role: Client Engineering
+- kana: Keisuke Uto
+  role: Client Engineering
+- kana: Sho Takasaki
+  role: Client Engineering
+- kana: ;Freelance
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: Seiya Sasaki
+  role: Client Engineering
+- kana: Kenta Komai
+  role: Client Engineering
+- kana: Mayumi Sasaki
+  role: Client Engineering
+- kana: Yuji Izumita
+  role: Client Engineering
+- kana: ;ILCA,Inc.
+  role: Server Engineering
+- kana: ;Lead Server Engineer
+  role: Server Engineering
+- kana: Satoru Hiraoka
+  role: Server Engineering
+- kana: ;Server Engineers
+  role: Server Engineering
+- kana: Yuki Akamine
+  role: Server Engineering
+- kana: Tomokazu Takeuchi
+  role: Server Engineering
+- kana: Masaya Kashiwabara
+  role: Server Engineering
+- kana: Satoshi Kawagoe
+  role: Server Engineering
+- kana: Shumpei Tanaka
+  role: Server Engineering
+- kana: ;Infrastructure Engineer
+  role: Server Engineering
+- kana: Ryoma Tachimoto
+  role: Server Engineering
+- kana: ;Coordinators
+  role: Server Engineering
+- kana: Yuichi Ueda
+  role: Server Engineering
+- kana: ;SELECT BUTTON
+  role: Artwork
+- kana: ;Art Director & UI Designer
+  role: Artwork
+- kana: Takumi Tsukada
+  role: Artwork
+- kana: ;The Pokémon Company
+  role: Artwork
+- kana: ;Lead Coordinator
+  role: Artwork
+- kana: Marie Shuto
+  role: Artwork
+- kana: ;Coordinator
+  role: Artwork
+- kana: Misaki Kamimura
+  role: Artwork
+- kana: ;Lead Designer
+  role: Artwork
+- kana: Naho Ozawa
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: Sayaka Kuriyama
+  role: Artwork
+- kana: Mitsuki Kamiya
+  role: Artwork
+- kana: ;OLM team Kato
+  role: Artwork
+- kana: ;Animation Producer
+  role: Artwork
+- kana: Hiroyuki Kato
+  role: Artwork
+  kanji: 加藤浩幸
+- kana: ;Storyboards
+  role: Artwork
+- kana: Daiki Tomiyasu
+  role: Artwork
+  kanji: 冨安大貴
+- kana: Kunihiko Yuyama
+  role: Artwork
+  kanji: 湯山邦彦
+- kana: ;Viracocha Inc.
+  role: Artwork
+- kana: ;Sales Planning
+  role: Artwork
+- kana: Hidehiko Kitajima
+  role: Artwork
+- kana: Nobuko Abe
+  role: Artwork
+- kana: Takeru Kikutani
+  role: Artwork
+- kana: ;Art Director
+  role: Artwork
+- kana: Osamu Ishii
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: Seiichiro Habu
+  role: Artwork
+- kana: Ami Kanki
+  role: Artwork
+- kana: Rino Abe
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Saho Shinto
+  role: Artwork
+- kana: Hikaru Ishikura
+  role: Artwork
+- kana: Kumi Sato
+  role: Artwork
+- kana: Hana Sugimoto
+  role: Artwork
+- kana: Yukino Matsumoto
+  role: Artwork
+- kana: Kanna Yoshioka
+  role: Artwork
+- kana: ;AQUASTAR Inc.
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Akihiro Kawano
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: Masatoshi Tagawa
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Yoko Fujiki
+  role: Artwork
+- kana: Eri Takase
+  role: Artwork
+- kana: Mayuko Aiba
+  role: Artwork
+- kana: ;Artner Inc.
+  role: Artwork
+- kana: ;General Manager
+  role: Artwork
+- kana: Ayaka Suzuki
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Yuki Takada
+  role: Artwork
+- kana: ;Producer
+  role: Artwork
+- kana: Takaaki Nagasawa
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: Erika Okawa
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Yusuke Tazawa
+  role: Artwork
+- kana: Yuko Shimizu
+  role: Artwork
+- kana: Masahiko Sakurai
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Yurika Konishi
+  role: Artwork
+- kana: ;Digital Shokunin Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Eriko Nishimura
+  role: Artwork
+- kana: Rena Kawasaki
+  role: Artwork
+- kana: ;flaggs Inc.
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Yuya Abe
+  role: Artwork
+- kana: ;First Unit Animators
+  role: Artwork
+- kana: Haruka Kajikawa
+  role: Artwork
+- kana: Hideya Yuasa
+  role: Artwork
+- kana: Marin Inui
+  role: Artwork
+- kana: ;Illustrator
+  role: Artwork
+- kana: Ushio
+  role: Artwork
+- kana: ;Assistant Project Manager
+  role: Artwork
+- kana: Mika Saito
+  role: Artwork
+- kana: ;Second Unit Animators
+  role: Artwork
+- kana: To Kakyo
+  role: Artwork
+- kana: ;Hellarts Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Kyo Tadaaki
+  role: Artwork
+- kana: Shota Kikunaga
+  role: Artwork
+- kana: ;Graphic Designer
+  role: Artwork
+- kana: Manaka Hitomi
+  role: Artwork
+- kana: ;Freelance
+  role: Artwork
+- kana: ;Visual Effects & UI Motion Advisor
+  role: Artwork
+- kana: TANAKA U
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Iori Suzuki
+  role: Artwork
+- kana: sowsow
+  role: Artwork
+- kana: nico
+  role: Artwork
+- kana: Nao
+  role: Artwork
+- kana: ;SPICA MUSICA
+  role: Music & Sound Effect
+- kana: ;Music & Sound Produce
+  role: Music & Sound Effect
+- kana: Shota Kageyama
+  role: Music & Sound Effect
+  kanji: 景山将太
+- kana: ;Gemini Breeze LLC.
+  role: Music & Sound Effect
+- kana: ;Sound Effect
+  role: Music & Sound Effect
+- kana: Jun Fukuda
+  role: Music & Sound Effect
+- kana: ;Musician
+  role: Music & Sound Effect
+- kana: ;Guitar
+  role: Music & Sound Effect
+- kana: yas nakajima
+  role: Music & Sound Effect
+- kana: ;SyncStudio
+  role: Music & Sound Effect
+- kana: ;Mixing Engineer
+  role: Music & Sound Effect
+- kana: Yoshiyuki Watanabe
+  role: Music & Sound Effect
+- kana: ;The Pokémon Company International
+  role: Localization
+- kana: ;English Localization
+  role: Localization
+- kana: Mikiko Ryu
+  role: Localization
+- kana: Chie Stutzman
+  role: Localization
+- kana: Miho Lyon
+  role: Localization
+- kana: Mika Ishikawa
+  role: Localization
+- kana: Reiko de Sorbier de Pougnadoresse
+  role: Localization
+- kana: Jeff Hines
+  role: Localization
+- kana: Hisato Yamamori
+  role: Localization
+- kana: Kellyn Ballard
+  role: Localization
+- kana: ;English Translation
+  role: Localization
+- kana: Laura Bartholomew
+  role: Localization
+- kana: Sayuri Munday
+  role: Localization
+- kana: Amy Nakao
+  role: Localization
+- kana: ;English Editing
+  role: Localization
+- kana: Eric Haddock
+  role: Localization
+- kana: Akira Vivienne
+  role: Localization
+- kana: Derek Heemsbergen
+  role: Localization
+- kana: Elin Rummel
+  role: Localization
+- kana: Dermot Creegan
+  role: Localization
+- kana: ;European Localization
+  role: Localization
+- kana: Kaori Aoki
+  role: Localization
+- kana: Daniel Anscomb
+  role: Localization
+- kana: Hirotaka Nishino
+  role: Localization
+- kana: Chika Tanigaki
+  role: Localization
+- kana: Owen Preece
+  role: Localization
+- kana: Kendra Evans
+  role: Localization
+- kana: Hideko Russell
+  role: Localization
+- kana: Nami Kusumoto
+  role: Localization
+- kana: Mark Bunting
+  role: Localization
+- kana: Marvin Andrews
+  role: Localization
+- kana: Peter Bagley
+  role: Localization
+- kana: Elena Nardo
+  role: Localization
+- kana: Michael Ecke
+  role: Localization
+- kana: Pierre Gauthier
+  role: Localization
+- kana: Manuela Suriano
+  role: Localization
+- kana: Fabio Giusti
+  role: Localization
+- kana: Franck Couée
+  role: Localization
+- kana: ;French Translation
+  role: Localization
+- kana: Aymeric Forgit
+  role: Localization
+- kana: Arthur Blondel
+  role: Localization
+- kana: ;French Editing
+  role: Localization
+- kana: Leslie Gambini
+  role: Localization
+- kana: Matthieu Béthencourt
+  role: Localization
+- kana: Diana Ahmed
+  role: Localization
+- kana: Jena Gattegno
+  role: Localization
+- kana: ;Italian Translation
+  role: Localization
+- kana: Francesca Serci
+  role: Localization
+- kana: Marco Sartori
+  role: Localization
+- kana: ;Italian Editing
+  role: Localization
+- kana: Silvia De Bellis
+  role: Localization
+- kana: Sergio Bianchi
+  role: Localization
+- kana: Valerio Amato
+  role: Localization
+- kana: Claudio Calzolari
+  role: Localization
+- kana: ;German Translation
+  role: Localization
+- kana: Caroline Fest
+  role: Localization
+- kana: Lina Emmerich
+  role: Localization
+- kana: ;German Editing
+  role: Localization
+- kana: Juliana Niederwanger
+  role: Localization
+- kana: Jochen Künzel
+  role: Localization
+- kana: Caroline Büsch
+  role: Localization
+- kana: Paul Seidenstecher
+  role: Localization
+- kana: ;Spanish Translation
+  role: Localization
+- kana: Enrique Joga Elvira
+  role: Localization
+- kana: Alberto Gracia Castellano
+  role: Localization
+- kana: ;Spanish Editing
+  role: Localization
+- kana: Juan José Leiva Jiménez
+  role: Localization
+- kana: Virginia Paradés Gurrea
+  role: Localization
+- kana: Diana Vázquez Saiz
+  role: Localization
+- kana: Daniela Castillo
+  role: Localization
+- kana: Sebastián Erasmy
+  role: Localization
+- kana: Mai Castro Arellano
+  role: Localization
+- kana: Alex Fortes
+  role: Localization
+- kana: Irene Mascaró Genestar
+  role: Localization
+- kana: Julieta Ortiz
+  role: Localization
+- kana: Javier Ortiz Carrillo
+  role: Localization
+- kana: Píndaro Vargas-Farías
+  role: Localization
+- kana: ;Pokemon Korea Inc.
+  role: Localization
+- kana: ;Korean Translation & Editing
+  role: Localization
+- kana: Mihwa Choi
+  role: Localization
+- kana: Jieun Byun
+  role: Localization
+- kana: Youngjun Park
+  role: Localization
+- kana: Dongun Pak
+  role: Localization
+- kana: Jooyeon Han
+  role: Localization
+- kana: Byunghun Bae
+  role: Localization
+- kana: Yoojin Kwon
+  role: Localization
+- kana: ;The Pokémon Company
+  role: Localization
+- kana: ;Chinese Localization
+  role: Localization
+- kana: Yoshiko Aota
+  role: Localization
+- kana: Shuyang Jia
+  role: Localization
+- kana: Yutaka Hoshi
+  role: Localization
+- kana: Ryotaro Ukai
+  role: Localization
+- kana: Adrian Wildandyawan
+  role: Localization
+- kana: ;Chinese Translation & Editing
+  role: Localization
+- kana: Huiying Tsai
+  role: Localization
+- kana: Hanru Yang
+  role: Localization
+- kana: Yuan Yungwen
+  role: Localization
+- kana: ;PTW International UK Limited
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Manager
+  role: Linguistic Quality Assurance
+- kana: Sergejs Adamovs
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Coordinator
+  role: Linguistic Quality Assurance
+- kana: Gil Hoyle
+  role: Linguistic Quality Assurance
+- kana: ;English (US) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Adam Finlayson
+  role: Linguistic Quality Assurance
+- kana: ;French (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Marine Emmanuelle Forin
+  role: Linguistic Quality Assurance
+- kana: Enzo Benedetti
+  role: Linguistic Quality Assurance
+- kana: ;Italian LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Dario Caccamo
+  role: Linguistic Quality Assurance
+- kana: Ilaria Boccella
+  role: Linguistic Quality Assurance
+- kana: ;German LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Susanne Burring
+  role: Linguistic Quality Assurance
+- kana: ;Spanish (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Juan José Pascua Agrelo
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Debug
+- kana: ;GAME FREAK inc.
+  role: Pokemon Supervision
+- kana: ;Pokémon Settings Supervision
+  role: Pokemon Supervision
+- kana: Ken Sugimori
+  role: Pokemon Supervision
+  kanji: 杉森建
+- kana: Kenji Matsushima
+  role: Pokemon Supervision
+  kanji: 松島賢二
+- kana: ;The Pokémon Company
+  role: Pokemon Supervision
+- kana: ;Pokémon Brand Management
+  role: Pokemon Supervision
+- kana: Misuzu Kanayama
+  role: Pokemon Supervision
+- kana: Yuki Nakagawa
+  role: Pokemon Supervision
+- kana: Nana Harada
+  role: Pokemon Supervision
+- kana: Rong Zhang
+  role: Pokemon Supervision
+- kana: ;S'UIMIN
+  role: Sleep Science Supervision
+- kana: ;General Supervisor
+  role: Sleep Science Supervision
+- kana: Masashi Yanagisawa
+  role: Sleep Science Supervision
+  kanji: 柳沢正史
+- kana: ;Supervisor
+  role: Sleep Science Supervision
+- kana: Tetsuroh Hiei
+  role: Sleep Science Supervision
+- kana: ;Supervisor
+  role: Sleep Science Supervision
+- kana: Akihiro Tani
+  role: Sleep Science Supervision
+- kana: ;The Pokémon Company
+  role: Development Support
+- kana: Nobuyuki Ohta
+  role: Development Support
+- kana: Tatsuya Ichijo
+  role: Development Support
+- kana: Chitose Kawakami
+  role: Development Support
+- kana: Kayo Nakata
+  role: Development Support
+- kana: ;The Pokémon Company
+  role: Customer Support
+- kana: Kazunori Sugiura
+  role: Customer Support
+- kana: Yohei Yamamoto
+  role: Customer Support
+- kana: Yosuke Senoo
+  role: Customer Support
+- kana: Maryna Zavialova
+  role: Customer Support
+- kana: Masato Kitamura
+  role: Customer Support
+- kana: Shu Amagiri
+  role: Customer Support
+- kana: ;The Pokémon Company International
+  role: Customer Support
+- kana: Yuka Sanada
+  role: Customer Support
+- kana: ;The Pokémon Company
+  role: Legal
+- kana: Yuta Hara
+  role: Legal
+- kana: Kensuke Arai
+  role: Legal
+- kana: Nao Tajima
+  role: Legal
+- kana: Yohei Matori
+  role: Legal
+- kana: ;The Pokémon Company
+  role: Promotion
+- kana: Kento Suga
+  role: Promotion
+- kana: Yu Sato
+  role: Promotion
+- kana: Manami Tate
+  role: Promotion
+- kana: Takuya Umeyama
+  role: Promotion
+- kana: Shunya Okada
+  role: Promotion
+- kana: Sijia Feng
+  role: Promotion
+- kana: Shunsuke Hida
+  role: Promotion
+- kana: Haruka Kasayama
+  role: Promotion
+- kana: Sakura Tomono
+  role: Promotion
+- kana: ;The Pokémon Company
+  role: Producers
+- kana: ;Executive Producer
+  role: Producers
+- kana: Tsunekazu Ishihara
+  role: Producers
+  kanji: 石原恒和
+- kana: ;General Producer
+  role: Producers
+- kana: Takato Utsunomiya
+  role: Producers
+  kanji: 宇都宮崇人
+- kana: ;Producer
+  role: Producers
+- kana: Kaname Kosugi
+  role: Producers
+- kana: ;The Pokémon Company
+  role: Special Thanks
+- kana: Junichi Masuda
+  role: Special Thanks
+  kanji: 増田順一
+- kana: Takanori Sowa
+  role: Special Thanks
+- kana: Taku Kawamoto
+  role: Special Thanks
+- kana: Mitsuyo Matsunaga
+  role: Special Thanks
+- kana: Satoshi Ogawa
+  role: Special Thanks
+- kana: ;The Pokémon Company International
+  role: Special Thanks
+- kana: Kenji Okubo
+  role: Special Thanks
+- kana: Gaku Susai
+  role: Special Thanks
+- kana: Taito Okiura
+  role: Special Thanks
+- kana: Torrie Dorrell
+  role: Special Thanks
+- kana: Airi Tanaka
+  role: Special Thanks
+- kana: Amy Ganster
+  role: Special Thanks
+- kana: Andrew Schnorr
+  role: Special Thanks
+- kana: Andy Gose
+  role: Special Thanks
+- kana: Andy Hartpence
+  role: Special Thanks
+- kana: Charlie Spinner
+  role: Special Thanks
+- kana: Daniel Benkwitt
+  role: Special Thanks
+- kana: David Cheung
+  role: Special Thanks
+- kana: David Numrich
+  role: Special Thanks
+- kana: Kaoru Otawara
+  role: Special Thanks
+- kana: Peter Murphy
+  role: Special Thanks
+- kana: Phaedra Long
+  role: Special Thanks
+- kana: Richie Enticknap
+  role: Special Thanks
+- kana: Yasuhiro Usui
+  role: Special Thanks
+- kana: Alison Chyan
+  role: Special Thanks
+- kana: Reina Nagai
+  role: Special Thanks
+- kana: Steve Lee
+  role: Special Thanks
+- kana: Yuri Horie
+  role: Special Thanks
+- kana: ;Pokemon Korea Inc.
+  role: Special Thanks
+- kana: Jaiboem Lim
+  role: Special Thanks
+- kana: Jihye Lee
+  role: Special Thanks
+- kana: ;SELECT BUTTON
+  role: Planning & Direction
+- kana: ;Game Director
+  role: Planning & Direction
+- kana: Koya Nakahata
+  role: Planning & Direction
+- kana: ;The Pokémon Works
+  role: Planning & Direction
+- kana: ;Co-Game Director
+  role: Planning & Direction
+- kana: Ami Fujii
+  role: Planning & Direction
+- kana: ;Planners
+  role: Planning & Direction
+- kana: Ryo Onoyama
+  role: Planning & Direction
+- kana: Mihona Iioka
+  role: Planning & Direction
+- kana: Hiroki Kawamura
+  role: Planning & Direction
+- kana: Ryo Hasegawa
+  role: Planning & Direction
+- kana: Mitsuhiko Masuda
+  role: Planning & Direction
+- kana: Ayuna Miura
+  role: Planning & Direction
+- kana: Nao Kawano
+  role: Planning & Direction
+- kana: Atsuno Shioji
+  role: Planning & Direction
+- kana: Ryosuke Takei
+  role: Planning & Direction
+- kana: ;Project Manager
+  role: Planning & Direction
+- kana: Hikaru Yoshida
+  role: Planning & Direction
+- kana: Shun Tamamori
+  role: Planning & Direction
+- kana: ;Supervisors
+  role: Planning & Direction
+- kana: Jun Taniguchi
+  role: Planning & Direction
+- kana: Takahiro Yura
+  role: Planning & Direction
+- kana: Sho Okita
+  role: Planning & Direction
+- kana: ;The Pokémon Company
+  role: Planning & Direction
+  kanji: 株式会社ポケモン
+- kana: ;Lead Coordinator
+  role: Planning & Direction
+- kana: Masao Takakusa
+  role: Planning & Direction
+- kana: ;Coordinators
+  role: Planning & Direction
+- kana: Yoshinari Yonehara
+  role: Planning & Direction
+- kana: Chihiro Ito
+  role: Planning & Direction
+- kana: Takuya Yamashita
+  role: Planning & Direction
+- kana: Kylan Voorhees
+  role: Planning & Direction
+- kana: Toru Sawada
+  role: Planning & Direction
+- kana: Liu Ishiguro
+  role: Planning & Direction
+- kana: ;SELECT BUTTON
+  role: Client Engineering
+- kana: ;Lead Client Engineer
+  role: Client Engineering
+- kana: Keisuke Miyagawa
+  role: Client Engineering
+- kana: ;The Pokémon Works
+  role: Client Engineering
+- kana: ;Co-Lead Client Engineer
+  role: Client Engineering
+- kana: Yusuke Miyahara
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: Kohei Mikoshiba
+  role: Client Engineering
+- kana: Keisuke Uto
+  role: Client Engineering
+- kana: Fumio Nakaya
+  role: Client Engineering
+- kana: Kaoru Fujiwara
+  role: Client Engineering
+- kana: Kojiro Yamashita
+  role: Client Engineering
+- kana: Yuma Yamashita
+  role: Client Engineering
+- kana: Hiroharu Ito
+  role: Client Engineering
+- kana: Yoshiyuki Okuma
+  role: Client Engineering
+- kana: ;Freelance
+  role: Client Engineering
+- kana: ;Client Engineers
+  role: Client Engineering
+- kana: Seiya Sasaki
+  role: Client Engineering
+- kana: Kenta Komai
+  role: Client Engineering
+- kana: Mayumi Sasaki
+  role: Client Engineering
+- kana: Yuji Izumita
+  role: Client Engineering
+- kana: ;The Pokémon Works
+  role: Server Engineering
+- kana: ;Lead Server Engineer
+  role: Server Engineering
+- kana: Satoru Hiraoka
+  role: Server Engineering
+- kana: ;Server Engineers
+  role: Server Engineering
+- kana: Yuki Akamine
+  role: Server Engineering
+- kana: Tomokazu Takeuchi
+  role: Server Engineering
+- kana: Shumpei Tanaka
+  role: Server Engineering
+- kana: Atsushi Yamazaki
+  role: Server Engineering
+- kana: Mitsuhiko Watanabe
+  role: Server Engineering
+- kana: Masahide Otogawa
+  role: Server Engineering
+- kana: Mitsumasa Miyashiro
+  role: Server Engineering
+- kana: ;Infrastructure Engineer
+  role: Server Engineering
+- kana: Ryoma Tachimoto
+  role: Server Engineering
+- kana: ;Coordinators
+  role: Server Engineering
+- kana: Yuichi Ueda
+  role: Server Engineering
+- kana: ;SELECT BUTTON
+  role: Artwork
+- kana: ;Art Director & UI Designer
+  role: Artwork
+- kana: Takumi Tsukada
+  role: Artwork
+- kana: ;The Pokémon Company
+  role: Artwork
+- kana: ;Lead Coordinator
+  role: Artwork
+- kana: Marie Shuto
+  role: Artwork
+- kana: ;Coordinator
+  role: Artwork
+- kana: Keiko Nagano
+  role: Artwork
+- kana: ;Lead Designer
+  role: Artwork
+- kana: Naho Ozawa
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: Sayaka Kuriyama
+  role: Artwork
+- kana: Momoko Kubota
+  role: Artwork
+- kana: ;Assistant Coordinator
+  role: Artwork
+- kana: Mizuki Ishikawa
+  role: Artwork
+- kana: ;OLM team Kato
+  role: Artwork
+- kana: ;Animation Producer
+  role: Artwork
+- kana: Hiroyuki Kato
+  role: Artwork
+  kanji: 加藤浩幸
+- kana: ;Storyboards
+  role: Artwork
+- kana: Daiki Tomiyasu
+  role: Artwork
+  kanji: 冨安大貴
+- kana: Kunihiko Yuyama
+  role: Artwork
+  kanji: 湯山邦彦
+- kana: Haruno Tasaka
+  role: Artwork
+- kana: ;Viracocha Inc.
+  role: Artwork
+- kana: ;Sales Planning
+  role: Artwork
+- kana: Hidehiko Kitajima
+  role: Artwork
+- kana: Nobuko Abe
+  role: Artwork
+- kana: ;Art Director
+  role: Artwork
+- kana: Osamu Ishii
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: Seiichiro Habu
+  role: Artwork
+- kana: Ami Kanki
+  role: Artwork
+- kana: Rino Abe
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Hikaru Ishikura
+  role: Artwork
+- kana: Kumi Sato
+  role: Artwork
+- kana: Hana Sugimoto
+  role: Artwork
+- kana: Yukino Matsumoto
+  role: Artwork
+- kana: Kanna Yoshioka
+  role: Artwork
+- kana: ;AQUASTAR Inc.
+  role: Artwork
+- kana: ;Project Managers
+  role: Artwork
+- kana: Akihiro Kawano
+  role: Artwork
+- kana: Tenju Abe
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: Masatoshi Tagawa
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Yoko Fujiki
+  role: Artwork
+- kana: Eri Takase
+  role: Artwork
+- kana: ;Artner Inc.
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Yuki Takada
+  role: Artwork
+- kana: ;Producer
+  role: Artwork
+- kana: Takaaki Nagasawa
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: Erika Okawa
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Yusuke Tazawa
+  role: Artwork
+- kana: Masahiko Sakurai
+  role: Artwork
+- kana: Yuko Shimizu
+  role: Artwork
+- kana: Yuki Kimura
+  role: Artwork
+- kana: ;Illustrator
+  role: Artwork
+- kana: Yurika Konishi
+  role: Artwork
+- kana: ;Digital Shokunin Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Eriko Nishimura
+  role: Artwork
+- kana: Rena Kawasaki
+  role: Artwork
+- kana: ;flaggs Inc.
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Yuya Abe
+  role: Artwork
+- kana: ;First Unit Animators
+  role: Artwork
+- kana: Haruka Kajikawa
+  role: Artwork
+- kana: Hideya Yuasa
+  role: Artwork
+- kana: Marin Inui
+  role: Artwork
+- kana: ;Illustrator
+  role: Artwork
+- kana: Ushio
+  role: Artwork
+- kana: ;Second Unit Animator
+  role: Artwork
+- kana: Go Miyagi
+  role: Artwork
+- kana: ;Second Unit Illustrator
+  role: Artwork
+- kana: To Kakyo
+  role: Artwork
+- kana: ;Hellarts Inc.
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Kyo Tadaaki
+  role: Artwork
+- kana: Shota Kikunaga
+  role: Artwork
+- kana: ;Graphic Designer
+  role: Artwork
+- kana: Manaka Hitomi
+  role: Artwork
+- kana: ;Project Manager
+  role: Artwork
+- kana: Shun Yamada
+  role: Artwork
+- kana: ;JIN Studio Co.,Ltd.
+  role: Artwork
+- kana: ;Director
+  role: Artwork
+- kana: Mutsumi Uose
+  role: Artwork
+- kana: ;Technical Artist
+  role: Artwork
+- kana: Hiroshi Kimura
+  role: Artwork
+- kana: ;Client Engineer
+  role: Artwork
+- kana: Nobuaki Ando
+  role: Artwork
+- kana: ;Designers
+  role: Artwork
+- kana: Suguru Kamidaira
+  role: Artwork
+- kana: Miyu Tamaki
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: Karin Nakamura
+  role: Artwork
+- kana: Astrin Setiadi
+  role: Artwork
+- kana: ;Animators
+  role: Artwork
+- kana: Rie Imagawa
+  role: Artwork
+- kana: Mayumi Kitaguchi
+  role: Artwork
+- kana: ;Planner
+  role: Artwork
+- kana: Miku Hashizume
+  role: Artwork
+- kana: ;Freelance
+  role: Artwork
+- kana: ;Visual Effects & UI Motion Advisor
+  role: Artwork
+- kana: TANAKA U
+  role: Artwork
+- kana: ;Illustrators
+  role: Artwork
+- kana: sowsow
+  role: Artwork
+- kana: nico
+  role: Artwork
+- kana: Nao
+  role: Artwork
+- kana: Ryota Murayama
+  role: Artwork
+  kanji: 村山竜大
+- kana: kirisAki
+  role: Artwork
+  kanji: きりさき
+- kana: ;Designers
+  role: Artwork
+- kana: Shiiho Furukawa
+  role: Artwork
+- kana: Manami Ozawa
+  role: Artwork
+- kana: HanaSakuno
+  role: Artwork
+- kana: Chisato Kimura
+  role: Artwork
+- kana: ;SPICA MUSICA
+  role: Music & Sound Effect
+- kana: ;Music & Sound Produce
+  role: Music & Sound Effect
+- kana: Shota Kageyama
+  role: Music & Sound Effect
+  kanji: 景山将太
+- kana: ;Gemini Breeze LLC.
+  role: Music & Sound Effect
+- kana: ;Sound Effect
+  role: Music & Sound Effect
+- kana: Jun Fukuda
+  role: Music & Sound Effect
+- kana: ;Musician
+  role: Music & Sound Effect
+- kana: ;Guitar
+  role: Music & Sound Effect
+- kana: yas nakajima
+  role: Music & Sound Effect
+- kana: ;SyncStudio
+  role: Music & Sound Effect
+- kana: ;Mixing Engineer
+  role: Music & Sound Effect
+- kana: Yoshiyuki Watanabe
+  role: Music & Sound Effect
+- kana: ;The Pokémon Company International
+  role: Localization
+- kana: ;English Localization
+  role: Localization
+- kana: Mikiko Ryu
+  role: Localization
+- kana: Chie Stutzman
+  role: Localization
+- kana: Miho Lyon
+  role: Localization
+- kana: Mika Ishikawa
+  role: Localization
+- kana: Reiko de Sorbier de Pougnadoresse
+  role: Localization
+- kana: Jeff Hines
+  role: Localization
+- kana: Stu Alexander
+  role: Localization
+- kana: Hisato Yamamori
+  role: Localization
+- kana: Kellyn Ballard
+  role: Localization
+- kana: ;English Translation
+  role: Localization
+- kana: Alex Small
+  role: Localization
+- kana: Orson Purves
+  role: Localization
+- kana: Laura Bartholomew
+  role: Localization
+- kana: Sayuri Munday
+  role: Localization
+- kana: Amy Nakao
+  role: Localization
+- kana: ;English Editing
+  role: Localization
+- kana: Akira Vivienne
+  role: Localization
+- kana: Eric Haddock
+  role: Localization
+- kana: Rachel Grey
+  role: Localization
+- kana: Lu Pellazar
+  role: Localization
+- kana: Elin Rummel
+  role: Localization
+- kana: ;European Localization
+  role: Localization
+- kana: Kaori Aoki
+  role: Localization
+- kana: Daniel Anscomb
+  role: Localization
+- kana: Hirotaka Nishino
+  role: Localization
+- kana: Chika Tanigaki
+  role: Localization
+- kana: Mayumi O'Shea
+  role: Localization
+- kana: Owen Preece
+  role: Localization
+- kana: Kendra Evans
+  role: Localization
+- kana: Hideko Russell
+  role: Localization
+- kana: Nami Kusumoto
+  role: Localization
+- kana: Mark Bunting
+  role: Localization
+- kana: Marvin Andrews
+  role: Localization
+- kana: Peter Bagley
+  role: Localization
+- kana: Elena Nardo
+  role: Localization
+- kana: Michael Ecke
+  role: Localization
+- kana: Pierre Gauthier
+  role: Localization
+- kana: Franck Couée
+  role: Localization
+- kana: ;French Translation
+  role: Localization
+- kana: Aymeric Forgit
+  role: Localization
+- kana: Arthur Blondel
+  role: Localization
+- kana: ;French Editing
+  role: Localization
+- kana: Diana Ahmed
+  role: Localization
+- kana: Jena Gattegno
+  role: Localization
+- kana: ;Italian Translation
+  role: Localization
+- kana: Francesca Serci
+  role: Localization
+- kana: Marco Sartori
+  role: Localization
+- kana: ;Italian Editing
+  role: Localization
+- kana: Valerio Amato
+  role: Localization
+- kana: Claudio Calzolari
+  role: Localization
+- kana: ;German Translation
+  role: Localization
+- kana: Caroline Fest
+  role: Localization
+- kana: Lina Emmerich
+  role: Localization
+- kana: ;German Editing
+  role: Localization
+- kana: Caroline Büsch
+  role: Localization
+- kana: Paul Seidenstecher
+  role: Localization
+- kana: Jochen Künzel
+  role: Localization
+- kana: ;Spanish Translation
+  role: Localization
+- kana: Enrique Joga Elvira
+  role: Localization
+- kana: Alberto Gracia Castellano
+  role: Localization
+- kana: ;Spanish Editing
+  role: Localization
+- kana: Mai Castro Arellano
+  role: Localization
+- kana: Javier Ortiz Carrillo
+  role: Localization
+- kana: Julieta Ortiz
+  role: Localization
+- kana: Daniela Castillo
+  role: Localization
+- kana: Débora Yésica Terceros Vargas
+  role: Localization
+- kana: ;Side International UK LTD.
+  role: Localization
+- kana: ;European Localisation
+  role: Localization
+- kana: Sergejs Adamovs
+  role: Localization
+- kana: Lorena García González
+  role: Localization
+- kana: Miriam Cuartero Flores
+  role: Localization
+- kana: David Neri
+  role: Localization
+- kana: Delphine Porré
+  role: Localization
+- kana: Léa Pilot
+  role: Localization
+- kana: Lucia Ferraresi
+  role: Localization
+- kana: Vladyslav Nestertsov Belyak
+  role: Localization
+- kana: Yuri Fuzio
+  role: Localization
+- kana: Wing Man Lam
+  role: Localization
+- kana: ;Franch Translation
+  role: Localization
+- kana: Céline Amorosi
+  role: Localization
+- kana: Claire Goudemand
+  role: Localization
+- kana: Delphine Porré
+  role: Localization
+- kana: Léa Pitot
+  role: Localization
+- kana: Chloé Le Bris
+  role: Localization
+- kana: Laura Deruyver
+  role: Localization
+- kana: ;Italian Translation
+  role: Localization
+- kana: David Neri
+  role: Localization
+- kana: Lucia Ferraresi
+  role: Localization
+- kana: Roberta Lo Cascio
+  role: Localization
+- kana: Yuri Fuzio
+  role: Localization
+- kana: Dario Caccamo
+  role: Localization
+- kana: Lisa Elli
+  role: Localization
+- kana: ;German Translation
+  role: Localization
+- kana: Alina Paulussen-Bremner
+  role: Localization
+- kana: Dominik Focht
+  role: Localization
+- kana: Frances Byrd
+  role: Localization
+- kana: Jenny Reichert
+  role: Localization
+- kana: Susanne Burring
+  role: Localization
+- kana: Tabea Giez
+  role: Localization
+- kana: ;Spanish Translation
+  role: Localization
+- kana: Berta Merino Varona
+  role: Localization
+- kana: Francisco José Tido Cerdán
+  role: Localization
+- kana: Stephanie Alfonsín Rosales
+  role: Localization
+- kana: Vladyslav Nestertsov Belyak
+  role: Localization
+- kana: Carolina Santana Monedero
+  role: Localization
+- kana: Celia Reyes Lamoneda
+  role: Localization
+- kana: Samuel Ramón Ortega
+  role: Localization
+- kana: ;Pokemon Korea Inc.
+  role: Localization
+- kana: ;Korean Translation & Editing
+  role: Localization
+- kana: Mihwa Choi
+  role: Localization
+- kana: Jieun Byun
+  role: Localization
+- kana: Youngjun Park
+  role: Localization
+- kana: Dongun Pak
+  role: Localization
+- kana: Jooyeon Han
+  role: Localization
+- kana: Byunghun Bae
+  role: Localization
+- kana: Yoojin Kwon
+  role: Localization
+- kana: ;The Pokémon Company
+  role: Localization
+- kana: ;Chinese Localization
+  role: Localization
+- kana: Ryotaro Ukai
+  role: Localization
+- kana: Adrian Wildandyawan
+  role: Localization
+- kana: Kei Chen
+  role: Localization
+- kana: Yungwen Yuan
+  role: Localization
+- kana: ;Chinese Translation & Editing
+  role: Localization
+- kana: Huiying Tsai
+  role: Localization
+- kana: Yuwen Wang
+  role: Localization
+- kana: Yungwen Yuan
+  role: Localization
+- kana: ;Side International UK LTD.
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Manager
+  role: Linguistic Quality Assurance
+- kana: Sergejs Adamovs
+  role: Linguistic Quality Assurance
+- kana: ;LQA Project Coordinator
+  role: Linguistic Quality Assurance
+- kana: Gil Hoyle
+  role: Linguistic Quality Assurance
+- kana: ;English (US) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Adam Finlayson
+  role: Linguistic Quality Assurance
+- kana: ;French (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Marine Emmanuelle Forin
+  role: Linguistic Quality Assurance
+- kana: Enzo Benedetti
+  role: Linguistic Quality Assurance
+- kana: Anna McArthur
+  role: Linguistic Quality Assurance
+- kana: Stella Bellanca
+  role: Linguistic Quality Assurance
+- kana: ;Italian LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Dario Caccamo
+  role: Linguistic Quality Assurance
+- kana: Ilaria Boccella
+  role: Linguistic Quality Assurance
+- kana: Fátima Iglesias Ares
+  role: Linguistic Quality Assurance
+- kana: Francesco Fiorini
+  role: Linguistic Quality Assurance
+- kana: ;German LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Susanne Burring
+  role: Linguistic Quality Assurance
+- kana: Muhammad Arshad
+  role: Linguistic Quality Assurance
+- kana: ;Spanish (EU) LQA Testing
+  role: Linguistic Quality Assurance
+- kana: Juan José Pascua Agrelo
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Linguistic Quality Assurance
+- kana: ;DIGITAL HEARTS Co., Ltd.
+  role: Debug
+- kana: ;GAME FREAK inc.
+  role: Pokemon Supervision
+- kana: ;Pokémon Settings Supervision
+  role: Pokemon Supervision
+- kana: Ken Sugimori
+  role: Pokemon Supervision
+  kanji: 杉森建
+- kana: Kenji Matsushima
+  role: Pokemon Supervision
+  kanji: 松島賢二
+- kana: Kazumasa Iwao
+  role: Pokemon Supervision
+  kanji: 岩尾和昌
+- kana: ;The Pokémon Company
+  role: Pokemon Supervision
+- kana: ;Pokémon Brand Management
+  role: Pokemon Supervision
+- kana: Yuki Nakagawa
+  role: Pokemon Supervision
+- kana: Keiko Kojima
+  role: Pokemon Supervision
+- kana: Nana Harada
+  role: Pokemon Supervision
+- kana: Rong Zhang
+  role: Pokemon Supervision
+- kana: Kezi Ma
+  role: Pokemon Supervision
+- kana: ;S'UIMIN
+  role: Sleep Science Supervision
+- kana: ;General Supervisor
+  role: Sleep Science Supervision
+- kana: Masashi Yanagisawa
+  role: Sleep Science Supervision
+  kanji: 柳沢正史
+- kana: ;Supervisor
+  role: Sleep Science Supervision
+- kana: Takashi Amemiya
+  role: Sleep Science Supervision
+- kana: Akihiro Tani
+  role: Sleep Science Supervision
+- kana: ;The Pokémon Company
+  role: Development Support
+- kana: Nobuyuki Ohta
+  role: Development Support
+- kana: Tatsuya Ichijo
+  role: Development Support
+- kana: Chitose Kawakami
+  role: Development Support
+- kana: Kayo Nakata
+  role: Development Support
+- kana: ;The Pokémon Company
+  role: Customer Support
+- kana: Yui Hayashi
+  role: Customer Support
+- kana: Kazunori Sugiura
+  role: Customer Support
+- kana: Yohei Yamamoto
+  role: Customer Support
+- kana: Yosuke Senoo
+  role: Customer Support
+- kana: Masato Kitamura
+  role: Customer Support
+- kana: Shu Amagiri
+  role: Customer Support
+- kana: Yuto Yukimura
+  role: Customer Support
+- kana: ;The Pokémon Company International
+  role: Customer Support
+- kana: Yuka Sanada
+  role: Customer Support
+- kana: ;The Pokémon Company
+  role: Legal
+- kana: Yuta Hara
+  role: Legal
+- kana: Nao Tajima
+  role: Legal
+- kana: Shangteng Li
+  role: Legal
+- kana: ;The Pokémon Company
+  role: Promotion
+- kana: Kento Suga
+  role: Promotion
+- kana: Yu Sato
+  role: Promotion
+- kana: Takuya Umeyama
+  role: Promotion
+- kana: Sijia Feng
+  role: Promotion
+- kana: Shunsuke Hida
+  role: Promotion
+- kana: Serio Abe
+  role: Promotion
+- kana: ;The Pokémon Company
+  role: Producers
+- kana: ;Executive Producer
+  role: Producers
+- kana: Tsunekazu Ishihara
+  role: Producers
+  kanji: 石原恒和
+- kana: ;General Producer
+  role: Producers
+- kana: Takato Utsunomiya
+  role: Producers
+  kanji: 宇都宮崇人
+- kana: ;Producer
+  role: Producers
+- kana: Kaname Kosugi
+  role: Producers
+- kana: ;The Pokémon Company
+  role: Special Thanks
+- kana: Junichi Masuda
+  role: Special Thanks
+  kanji: 増田順一
+- kana: Takanori Sowa
+  role: Special Thanks
+- kana: Taku Kawamoto
+  role: Special Thanks
+- kana: Mitsuyo Matsunaga
+  role: Special Thanks
+- kana: Satoshi Ogawa
+  role: Special Thanks
+- kana: ;The Pokémon Company International
+  role: Special Thanks
+- kana: Kenji Okubo
+  role: Special Thanks
+- kana: Gaku Susai
+  role: Special Thanks
+- kana: Taito Okiura
+  role: Special Thanks
+- kana: Airi Tanaka
+  role: Special Thanks
+- kana: Amy Ganster
+  role: Special Thanks
+- kana: Andrew Schnorr
+  role: Special Thanks
+- kana: Andy Gose
+  role: Special Thanks
+- kana: Andy Hartpence
+  role: Special Thanks
+- kana: Charlie Spinner
+  role: Special Thanks
+- kana: Daniel Benkwitt
+  role: Special Thanks
+- kana: David Cheung
+  role: Special Thanks
+- kana: David Numrich
+  role: Special Thanks
+- kana: Heather Dalgleish
+  role: Special Thanks
+- kana: Peter Murphy
+  role: Special Thanks
+- kana: Phaedra Long
+  role: Special Thanks
+- kana: Phil Rynda
+  role: Special Thanks
+- kana: Richie Enticknap
+  role: Special Thanks
+- kana: Yasuhiro Usui
+  role: Special Thanks
+- kana: Alison Chyan
+  role: Special Thanks
+- kana: Reina Nagai
+  role: Special Thanks
+- kana: Steve Lee
+  role: Special Thanks
+- kana: ;Pokemon Korea Inc.
+  role: Special Thanks
+- kana: Jaiboem Lim
+  role: Special Thanks
+- kana: Jihye Lee
+  role: Special Thanks
+anomalies:
+- '[''Planning & Direction'', ''SELECT BUTTON'']: ;Game Director'
+- '[''Planning & Direction'', ''ILCA,Inc.'']: ;Lead Planner'
+- '[''Planning & Direction'', ''ILCA,Inc.'']: ;Planner'
+- '[''Planning & Direction'', ''The Pokémon Company'']: ;Lead Coordinator'
+- '[''Planning & Direction'', ''The Pokémon Company'']: ;Coordinators'
+- '[''Client Engineering'', ''SELECT BUTTON'']: ;Lead Client Engeneer'
+- '[''Client Engineering'', ''ILCA,Inc.'']: ;Client Engeneers'
+- '[''Client Engineering'', ''Freelance'']: ;Client Engeneers'
+- '[''Server engineering'', ''ILCA,Inc.'']: ;Lead Server Engeneer'
+- '[''Server engineering'', ''ILCA,Inc.'']: ;Server Engeneers'
+- '[''Server engineering'', ''ILCA,Inc.'']: ;Infrastructure Engeneer'
+- '[''Server engineering'', ''ILCA,Inc.'']: ;Coordinators'
+- '[''Artwork'', ''SELECT BUTTON'']: ;Art Director & UI Designer'
+- '[''Artwork'', ''The Pokémon Company'']: ;Lead Coordinator'
+- '[''Artwork'', ''The Pokémon Company'']: ;Coordinator'
+- '[''Artwork'', ''The Pokémon Company'']: ;Designers'
+- '[''Artwork'', ''OLM team Kato'']: ;Animation Producer'
+- '[''Artwork'', ''OLM team Kato'']: ;Storyboards'
+- '[''Artwork'', ''Viracocha Inc.'']: ;Sales Planning'
+- '[''Artwork'', ''Viracocha Inc.'']: ;Art Director'
+- '[''Artwork'', ''Viracocha Inc.'']: ;Designers'
+- '[''Artwork'', ''Viracocha Inc.'']: ;Illustrators'
+- '[''Artwork'', ''AQUASTAR Inc.'']: ;Project Managers'
+- '[''Artwork'', ''AQUASTAR Inc.'']: ;Directors'
+- '[''Artwork'', ''AQUASTAR Inc.'']: ;Illustrators'
+- '[''Artwork'', ''Artner Inc.'']: ;General Manager'
+- '[''Artwork'', ''Artner Inc.'']: ;Project Manager'
+- '[''Artwork'', ''Artner Inc.'']: ;Producer'
+- '[''Artwork'', ''Artner Inc.'']: ;Director'
+- '[''Artwork'', ''Artner Inc.'']: ;Animators'
+- '[''Artwork'', ''Artner Inc.'']: ;Illustrators'
+- '[''Artwork'', ''Digital Shokunin Inc.'']: ;Animators'
+- '[''Artwork'', ''flaggs Inc.'']: ;Project Manager'
+- '[''Artwork'', ''flaggs Inc.'']: ;First Unit Animators'
+- '[''Artwork'', ''flaggs Inc.'']: ;Illustrator'
+- '[''Artwork'', ''flaggs Inc.'']: ;Assistant Project Manager'
+- '[''Artwork'', ''flaggs Inc.'']: ;Second Unit Animators'
+- '[''Artwork'', ''Frontier Works Inc.'']: ;Animator'
+- '[''Artwork'', ''Hellarts Inc.'']: ;Animators'
+- '[''Artwork'', ''Hellarts Inc.'']: ;Graphicers'
+- '[''Artwork'', ''HIKE Inc.'']: ;Director'
+- '[''Artwork'', ''IMAGICA GEEQ .Inc.'']: ;Producers'
+- '[''Artwork'', ''IMAGICA GEEQ .Inc.'']: ;Project Managers'
+- '[''Artwork'', ''IMAGICA GEEQ .Inc.'']: ;Animation Director'
+- '[''Artwork'', ''IMAGICA GEEQ .Inc.'']: ;Animators'
+- '[''Artwork'', ''MUGENUP Inc.'']: ;Manager'
+- '[''Artwork'', ''MUGENUP Inc.'']: ;Line Producer'
+- '[''Artwork'', ''MUGENUP Inc.'']: ;Animators'
+- '[''Artwork'', ''Torisan Co., Ltd.'']: ;Sales'
+- '[''Artwork'', ''Torisan Co., Ltd.'']: ;Project Managers'
+- '[''Artwork'', ''Torisan Co., Ltd.'']: ;Director'
+- '[''Artwork'', ''Torisan Co., Ltd.'']: ;Animators'
+- '[''Artwork'', ''Type ZERO Inc.'']: ;CG Producer'
+- '[''Artwork'', ''Type ZERO Inc.'']: ;Production Assistants'
+- '[''Artwork'', ''Type ZERO Inc.'']: ;Director'
+- '[''Artwork'', ''Type ZERO Inc.'']: ;Chief Animator'
+- '[''Artwork'', ''Type ZERO Inc.'']: ;Animators'
+- '[''Artwork'', ''Freelance'']: ;Visual Effects & UI Motion Advisor'
+- '[''Artwork'', ''Freelance'']: ;Illustrators'
+- '[''Music & Sound Effect'', ''SPICA MUSICA'']: ;Music & Sound Produce'
+- '[''Music & Sound Effect'', ''Gemini Breeze LLC.'']: ;Sound Effect'
+- '[''Music & Sound Effect'', ''The Pokémon Company'']: ;Coordinator'
+- '[''Music & Sound Effect'', ''Musician'']: ;Guitar'
+- '[''Music & Sound Effect'', ''SyncStudio'']: ;Mixing Engineer'
+- '[''Localize'', ''The Pokémon Company International'']: ;English Localization'
+- '[''Localize'', ''The Pokémon Company International'']: ;English Translastion'
+- '[''Localize'', ''The Pokémon Company International'']: ;English Editing'
+- '[''Localize'', ''The Pokémon Company International'']: ;European Localization'
+- '[''Localize'', ''The Pokémon Company International'']: ;French Translastion'
+- '[''Localize'', ''The Pokémon Company International'']: ;French Editing'
+- '[''Localize'', ''The Pokémon Company International'']: ;Italian Translastion'
+- '[''Localize'', ''The Pokémon Company International'']: ;Italian Editing'
+- '[''Localize'', ''The Pokémon Company International'']: ;German Translastion'
+- '[''Localize'', ''The Pokémon Company International'']: ;German Editing'
+- '[''Localize'', ''The Pokémon Company International'']: ;Spanish Translastion'
+- '[''Localize'', ''The Pokémon Company International'']: ;Spanish Editing'
+- '[''Localize'', ''Pokémon Korea Inc.'']: ;Korean Translation & Editing'
+- '[''Localize'', ''The Pokémon Company'']: ;Chinese Localization'
+- '[''Localize'', ''The Pokémon Company'']: ;Chinese Translation & Editing'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;LQA Project Manager'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;LQA Project Coordinator'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;English (US) LQA Testing'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;French (EU) LQA Testing'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;Italian LQA Testing'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;German LQA Testing'
+- '[''Linguistic Quality Assurance'', ''PTW International UK Limited'']: ;Spanish (EU) LQA Testing'
+- '[''Pokemon Supervision'', ''GAME FREAK inc.'']: ;Pokémon Settings Supervision'
+- '[''Pokemon Supervision'', ''The Pokémon Company'']: ;Pokémon Brand Management'
+- '[''Produce'', ''The Pokémon Company'']: ;Executive Producer'
+- '[''Produce'', ''The Pokémon Company'']: ;General Producer'
+- '[''Produce'', ''The Pokémon Company'']: ;Producer'

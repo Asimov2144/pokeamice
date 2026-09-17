@@ -1,0 +1,901 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution + https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
+slug: battle-revolution
+title: Staff of Pokémon Battle Revolution
+work: null
+year: 2006
+developer: Genius Sonority
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution
+count: 205
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
+ja_alignment:
+  ja_total: 183
+  ja_matched: 154
+  ja_positional: 9
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Manabu Yamana
+    ja: Manabu Yamana
+    kanji: 山名学
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Director of Development
+  names:
+  - name: Yoshiaki Iwasawa
+    ja: Yoshiaki Iwasawa
+    ja_match: romaji
+  ja_role: Director of Development
+- path:
+  - Planning Director
+  names:
+  - name: Akihiko Miura
+    ja: Akihiko Miura
+    kanji: 三浦明彦
+    ja_match: romaji
+  ja_role: Planning Director
+- path:
+  - Art Director
+  names:
+  - name: Jamie Turner
+    link: James Turner
+    ja: Jamie Turner
+    ja_match: romaji
+  ja_role: Art Director
+- path:
+  - Music Director
+  names:
+  - name: Tsukasa Tawada
+    ja: Tsukasa Tawada
+    ja_match: romaji
+  ja_role: Music Director
+- path:
+  - Narrator
+  names:
+  - name: Kenyu Horiuchi
+    note: Japanese
+    ja: Kenyu Horiuchi
+    kanji: 堀内賢雄
+    ja_match: romaji
+  - name: Rodger Parsons
+    note: English
+  - name: Carlos Pando
+    note: Spanish
+  - name: Giovanni Noto
+    note: Italian
+  - name: Emmanuel Bonani
+    note: French
+  - name: Fernando Tiberini
+    note: German
+  ja_role: Narration
+- path:
+  - Game Designers
+  names:
+  - name: Kuniko Kobashi
+    ja: Kuniko Kobashi
+    ja_match: romaji
+  - name: Hiroyoshi Kasama
+    ja: Hiroyoshi Kasama
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Programming Chief
+  names:
+  - name: Teruhito Namaki
+    ja: Teruhito Namaki
+    ja_match: romaji
+  ja_role: Programming Chief
+- path:
+  - Art Chiefs
+  - Effects
+  names:
+  - name: Hiroyuki Ikeda
+    ja: Hiroyuki Ikeda
+    ja_match: romaji
+  ja_role: Art Chiefs
+- path:
+  - Art Chiefs
+  - 3-D Map Design
+  names:
+  - name: Nobuhito Yamamoto
+    ja: Nobuhito Yamamoto
+    ja_match: romaji
+  ja_role: Art Chiefs
+- path:
+  - Art Chiefs
+  - 3-D Character Design
+  names:
+  - name: Rui Guerrerio
+    ja: Rui Guerrerio
+    ja_match: romaji
+  ja_role: Art Chiefs
+- path:
+  - Art Chiefs
+  - Menu Design and Effects
+  names:
+  - name: Akira Futomoto
+- path:
+  - Programming
+  - System
+  names:
+  - name: Dimitrios Chamouratidis
+    ja: Dimitrios Chamouratidis
+    ja_match: romaji
+  - name: Mitsunobu Koyama
+    ja: Mitsunobu Koyama
+    ja_match: romaji
+  - name: Ryo Shimizu
+    ja: Ryo Shimizu
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Programming
+  - Game Application
+  names:
+  - name: Yasuhiro Shimura
+    ja: Yasuhiro Shimura
+    ja_match: romaji
+  - name: Mariko Akagi
+    ja: Mariko Akagi
+    ja_match: romaji
+  - name: Takahashi Izawa
+    ja_match: positional
+    ja: Takashi Izawa
+  - name: Takaaki Iida
+    ja: Takaaki Iida
+    ja_match: romaji
+  - name: Yusuke Mizukoshi
+    ja: Yusuke Mizukoshi
+    ja_match: romaji
+  - name: Takumi Shigeno
+    ja: Takumi Shigeno
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: Yosuke Suma
+    ja_match: romaji
+  - name: Satoshi Mitsuhara
+    ja: Satoshi Mitsuhara
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Programming
+  - Tools
+  names:
+  - name: Yutaka Okoshi
+    ja: Yutaka Okoshi
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Design
+  - Pokémon Models and Effects
+  names:
+  - name: Maiko Suzuki
+    ja: Maiko Suzuki
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - Data Management
+  names:
+  - name: Maiko Suzuki
+    ja_match: positional
+    ja: 3D Map Design
+  ja_role: Design
+- path:
+  - Design
+  - 3-D Map Designers
+  names:
+  - name: Jyu Ikeda
+    ja: Jyu Ikeda
+    ja_match: romaji
+  - name: Koji Noguchi
+    ja: Koji Noguchi
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - 3-D Character Designers
+  names:
+  - name: Sakiko Tanaka
+    ja: Sakiko Tanaka
+    ja_match: romaji
+  - name: Makoto Imai
+    ja: Makoto Imai
+    ja_match: romaji
+  - name: Hiroshi Suzuki
+    ja: Hiroshi Suzuki
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - 3-D Character Animation
+  names:
+  - name: Mutsuo Ohmiya
+    ja: Mutsuo Ohmiya
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - Effects
+  names:
+  - name: Tomomi Watanabe
+    ja: Tomomi Watanabe
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - 2-D CG
+  names:
+  - name: Takanori Wada
+    ja: Takanori Wada
+    ja_match: romaji
+  - name: Naofumi Sasaya
+    ja: Naofumi Sasaya
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Design
+  - Management and Support
+  names:
+  - name: Kenji Kawashima
+    ja: Kenji Kawashima
+    ja_match: romaji
+  ja_role: Design
+- path:
+  - Additional 3-D Map Design
+  names:
+  - name: Pearl Digital Entertainment
+    kind: company
+    ja: Pearl Digital Entertainment
+    ja_match: romaji
+  - name: E-Plus Digital Works
+    kind: company
+    ja: e-plus digital works
+    ja_match: romaji
+  ja_role: Additional 3D Map Design
+- path:
+  - Additional 3-D Map Design
+  - 3-D Map Designers
+  names:
+  - name: Koji Eto
+    ja: Koji Eto
+    ja_match: romaji
+  - name: Eiji Senke
+    ja: Eiji Senke
+    ja_match: romaji
+  - name: Ryuzo Kishi
+    ja: Ryuzo Kishi
+    ja_match: romaji
+  - name: Yoshiomi Kure
+    ja: Yoshiomi Kure
+    ja_match: romaji
+  - name: Kenji Nakata
+    ja: Kenji Nakata
+    ja_match: romaji
+  - name: Maeda Kouzou
+    ja: Maeda Kouzou
+    ja_match: romaji
+  ja_role: Additional 3D Map Design
+- path:
+  - Additional 3-D Map Design
+  - Conversion and Support
+  names:
+  - name: Takahiro Tushima
+    ja: Takahiro Tushima
+    ja_match: romaji
+  ja_role: Additional 3D Map Design
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Director
+  names:
+  - name: Yasuki Watanabe
+    ja: Yasuki Watanabe
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Lead Modeling and Animation
+  names:
+  - name: Atsuko Ujiie
+    ja: Atsuko Ujiie
+    kanji: 氏家淳子
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Modeling and Animation
+  names:
+  - name: Yasuyuki Sakuma
+    ja: Yasuyuki Sakuma
+    ja_match: romaji
+  - name: Yusuke Shimada
+    ja: Yusuke Shimada
+    ja_match: romaji
+  - name: Masahiko Ishii
+    ja: Masahiko Ishii
+    ja_match: romaji
+  - name: Misaki Nakaoka
+    ja: Misaki Nakaoka
+    ja_match: romaji
+  - name: Hiroyuki Takahashi
+    ja: Hiroyuki Takahashi
+    ja_match: romaji
+  - name: Mikiko Takeda
+    ja: Mikiko Takeda
+    ja_match: romaji
+  - name: Sachi Matoba
+    ja: Sachi Matoba
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Tool Programming and Support
+  names:
+  - name: Hiroyuki Ogasawara
+    ja: Hiroyuki Ogasawara
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Modeling Management
+  names:
+  - name: Rie Takeuchi
+    ja: Rie Takeuchi
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Product Management
+  names:
+  - name: Masamichi Anazawa
+    ja_match: positional
+    ja: Modeling & Animation
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Pokémon 3-D Modeling and Animation
+  - Modeling and Animation
+  names:
+  - name: Kazuaki Aihara
+    ja: Kazuaki Aihara
+    ja_match: romaji
+  - name: Shio Kumagai
+    ja: Shio Kumagai
+    ja_match: romaji
+  - name: Hiroyuki Sekiguchi
+    ja: Hiroyuki Sekiguchi
+    ja_match: romaji
+  - name: Takaharu Nagashima
+    ja: Takaharu Nagashima
+    ja_match: romaji
+  - name: Hiruyoki Masuda
+    ja: Hiruyoki Masuda
+    ja_match: romaji
+  - name: Yuki Yoshida
+    ja: Yuki Yoshida
+    ja_match: romaji
+  - name: Yutsuke Ishikawa
+    ja_match: positional
+    ja: Yusuke Ishikawa
+  - name: Tokimitsu Uchibori
+    ja: Tokimitsu Uchibori
+    ja_match: romaji
+  - name: Otakazu Eda
+    ja: Otakazu Eda
+    ja_match: romaji
+  - name: Satashi Kobayashi
+    ja_match: positional
+    ja: Satoshi Kobayashi
+  - name: Hisatoshi Sawamoto
+    ja: Hisatoshi Sawamoto
+    ja_match: romaji
+  - name: Kenji Tanaka
+    ja: Kenji Tanaka
+    ja_match: romaji
+  - name: Fumihito Akiyama
+    ja: Fumihito Akiyama
+    ja_match: romaji
+  - name: Tatsuo Asai
+    ja: Tatsuo Asai
+    ja_match: romaji
+  - name: Naomi Imaoka
+    ja: Naomi Imaoka
+    ja_match: romaji
+  - name: Emi Oba
+    ja: Emi Oba
+    ja_match: romaji
+  - name: Naoyuki Osada
+    ja: Naoyuki Osada
+    ja_match: romaji
+  - name: Shinich Kawabe
+    ja_match: positional
+    ja: Shinichi Kawabe
+  - name: Ryoto Saito
+    ja_match: positional
+    ja: Ryota Saito
+  - name: Hideaki Takahashi
+    ja: Hideaki Takahashi
+    ja_match: romaji
+  - name: Hiroki Takahashi
+    ja: Hiroki Takahashi
+    ja_match: romaji
+  - name: Masato Nozawa
+    ja: Masato Nozawa
+    ja_match: romaji
+  - name: Rindo Adachi
+    ja: Rindo Adachi
+    ja_match: romaji
+  - name: Sadamu Sudo
+    ja: Sadamu Sudoh
+    ja_match: romaji
+  - name: Naoyuki Wada
+    ja: Naoyuki Wada
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling & Animation
+- path:
+  - Battle Data Designers
+  names:
+  - name: Masahiro Okuda
+    ja: Masahiro Okuda
+    ja_match: romaji
+  - name: Masato Kise
+    ja: Masato Kise
+    ja_match: romaji
+  - name: Osamu Fujita
+    ja: Osamu Fujita
+    ja_match: romaji
+  - name: Kouji Kobayashi
+    ja: Kouji Kobayashi
+    ja_match: romaji
+  - name: Yoshihito Tsuji
+    ja: Yoshihito Tsuji
+    ja_match: romaji
+  - name: Etsuko Fukushima
+    ja: Etsuko Fukushima
+    ja_match: romaji
+  - name: Keisuke Fukushima
+    ja: Keisuke Fukushima
+    ja_match: romaji
+  - name: Motoki Nakajima
+    ja: Motoki Nakajima
+    ja_match: romaji
+  ja_role: Battle Data Design
+- path:
+  - Sound Effects
+  names:
+  - name: Masataka Saito
+    ja: Masataka Saito
+    ja_match: romaji
+  ja_role: Sound Effects
+- path:
+  - Script Editors
+  names:
+  - name: Shuho Ashizawa
+    ja: Shuho Ashizawa
+    ja_match: romaji
+  - name: Takaaki Katou
+    ja: Takaaki Katou
+    ja_match: romaji
+  - name: Wataru Ueda
+    ja: Wataru Ueda
+    ja_match: romaji
+  ja_role: Script Editing
+- path:
+  - Assistant Data Management
+  names:
+  - name: Kana Takagi
+    ja: Kana Takagi
+    ja_match: romaji
+  - name: Suguru Nakajima
+    ja: Suguru Nakajima
+    ja_match: romaji
+  ja_role: Assistant Data Management
+- path:
+  - Development Support
+  names:
+  - name: Akira Fukushima
+    ja: Akira Fukushima
+    ja_match: romaji
+  - name: Natsuko Kobiyashi
+    ja: Natsuko Kobiyashi
+    ja_match: romaji
+  ja_role: Development Support
+- path:
+  - European Localization
+  names:
+  - name: Hiroyuki Uesugi
+  - name: Toshifumi Sayama
+  - name: Takashi Ebiike
+- path:
+  - English Localization
+  names:
+  - name: Seth McMahill
+  - name: Keisuke Tominaga
+- path:
+  - English Localization Assistants
+  names:
+  - name: Noriko Matsanuga
+  - name: Joel Simon
+- path:
+  - French Translation
+  names:
+  - name: Grégory Moreau
+- path:
+  - German Translation
+  names:
+  - name: Andrea Jähn
+- path:
+  - Italian Translation
+  names:
+  - name: Giovanna Prati
+- path:
+  - Spanish Translation
+  names:
+  - name: Virginia Paradés
+- path:
+  - Voice Recording For French German Italian and Spanish
+  - Recording Executive Producer
+  names:
+  - name: Maurice Suckling
+- path:
+  - Voice Recording For French German Italian and Spanish
+  - Recording Director
+  names:
+  - name: Fernando Tiberini
+- path:
+  - Voice Recording For French German Italian and Spanish
+  - Recording Producer
+  names:
+  - name: Rich Aitken
+- path:
+  - Voice Recording For French German Italian and Spanish
+  - Audio Supervisor
+  names:
+  - name: Marc Canham
+- path:
+  - Voice Recording For French German Italian and Spanish
+  - Engineer
+  names:
+  - name: Steve Hill
+- path:
+  - NOA Product Testing
+  names:
+  - name: Thomas "Shuckle" Hertzog
+  - name: Leland Jones
+  - name: Mika Kurosawa
+- path:
+  - NOE Product Testing and Validation
+  names:
+  - name: Erkan Kasap
+  - name: Andrea de Benedetto
+  - name: Chiara Ranzatto
+- path:
+  - Additional Testing
+  names:
+  - name: Yuki Tanakawa
+  - name: Super Mario Club
+    kind: company
+    ja: SUPER MARIO CLUB
+    ja_match: romaji
+  ja_role: Game Testing
+- path:
+  - Pokémon Games Designed By
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: Pokémon Games Designed By
+- path:
+  - Pokémon Characters Designed By
+  names:
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Takao Unno
+    ja: Takao Unno
+    kanji: 海野隆雄
+    ja_match: romaji
+  - name: Motofumi Fujiwara
+    ja: Motofumi Fujiwara
+    kanji: 藤原基史
+    ja_match: romaji
+  - name: Satoshi Ohta
+    ja: Satoshi Ohta
+    kanji: 太田敏
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: Hironobu Yoshida
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Kanako Eo
+    ja: Kanako Eo
+    kanji: 江尾可奈子
+    ja_match: romaji
+  - name: Kenkichi Toyama
+    ja: Kenkichi Toyama
+    kanji: 外山健吉
+    ja_match: romaji
+  - name: Hiroki Fuchino
+    ja: Hiroki Fuchino
+    kanji: 渕野大樹
+    ja_match: romaji
+  - name: Hiroyuki Yahi
+    ja_match: positional
+    ja: Hiroyuki Yagi
+    kanji: 八木裕之
+  - name: Emi Yoshida
+    ja: Emi Yoshida
+    kanji: 吉田絵美
+    ja_match: romaji
+  - name: Yusuke Ohmura
+    ja: Yusuke Ohmura
+    kanji: 大村祐介
+    ja_match: romaji
+  - name: Hiroyuki Gotou
+    ja: Hiroyuki Gotou
+    kanji: 後藤浩之
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: Atsuko Nishida
+    kanji: にしだあつこ
+    ja_match: romaji
+  ja_role: Pokémon Characters Designed By
+- path:
+  - Pokémon Advisors
+  names:
+  - name: Shigeki Morimoto
+    ja: Shigeki Morimoto
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Kouji Nishino
+    ja: Kouji Nishino
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Hisashi Sogabe
+    ja: Hisashi Sogabe
+    ja_match: romaji
+  ja_role: Pokémon Advisors
+- path:
+  - Pokémon Supervisors
+  names:
+  - name: Yuuri Sakurai
+  - name: Hiromi Sagawa
+  - name: Nobue Kamikawabata
+    ja: Nobue Kamikawabata
+    ja_match: romaji
+  - name: Yukiko Kanagawa
+    ja: Yukiko Kanagawa
+    ja_match: romaji
+  ja_role: Pokémon Supervisors
+- path:
+  - Production Coordinators
+  names:
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: Takao Nakano
+    ja_match: romaji
+  - name: Kazuki Yoshihara
+    ja: Kazuki Yoshihara
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: Kaori Ando
+    ja_match: romaji
+  - name: Shunsuke Kohori
+    ja: Shunsuke Kohori
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+  - name: Shusaku Egami
+    ja: Shusaku Egami
+    ja_match: romaji
+  ja_role: Production Coordinators
+- path:
+  - Technical Support
+  names:
+  - name: Toru Inage
+    ja: Toru Inage
+    ja_match: romaji
+  ja_role: Technical Support
+- path:
+  - Artwork
+  names:
+  - name: Fujiko Nomura
+  - name: Sachiko Nakamichi
+    ja: Sachiko Nakamichi
+    ja_match: romaji
+  - name: Kiyomi Oe
+    ja: Kiyomi Oe
+    ja_match: romaji
+  - name: Yasuko Sugiyama
+    ja: Yasuko Sugiyama
+    ja_match: romaji
+  ja_role: Art Work
+- path:
+  - Special Thanks To
+  names:
+  - name: Takanao Kondo
+    ja: Takanao Kondo
+    ja_match: romaji
+  - name: Nicola Wright
+  - name: Hitomi Ross
+  - name: Silke Sczyrba
+  - name: Kiyoko Watahiki
+  - name: Nick Ziegler
+  - name: Basilio Fernández Bermejo
+  - name: Kenjiro Ito
+    ja: Kenjiro Ito
+    ja_match: romaji
+  - name: Tomataka Komura
+    ja_match: positional
+    ja: Tomotaka Komura
+  - name: Susumu Fukunaga
+    ja: Susumu Fukunaga
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Hisae Yamamura
+    ja: Hisae Yamamura
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  - name: Osamu Suzuki
+    ja: Osamu Suzuki
+    ja_match: romaji
+  - name: Kenichi Arai
+    ja: Kenichi Arai
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: Gakuji Nomoto
+    kanji: 野本岳志
+    ja_match: romaji
+  - name: Masami Tanaka
+  - name: Tomoko Yoshimura
+  - name: Norihide Okamura
+    ja: Norihide Okamura
+    ja_match: romaji
+  - name: Jiro Koga
+    ja: Jiro Koga
+    ja_match: romaji
+  - name: Yasuhiro Masuda
+  - name: Akira Chiba
+  - name: Koji Kondo
+  - name: Maya Nakamura
+  - name: Lawrence Neves
+  - name: John Hershberger
+  - name: Kristina Naudus
+  - name: Keizo Takagi
+  - name: Takashi Watanabe
+    ja: Takashi Watanabe
+    ja_match: romaji
+  - name: Toshiyuki Ueno
+    ja: Toshiyuki Ueno
+    ja_match: romaji
+  - name: Chihiro Kobayashi
+    ja: Chihiro Kobayashi
+    ja_match: romaji
+  - name: Kazuko Goushi
+    ja: Kazuko Goushi
+    ja_match: romaji
+  - name: Sachiko Kubokawa
+    ja: Sachiko Kubokawa
+    ja_match: romaji
+  - name: Mikako Shishido
+    ja: Mikako Shishido
+    ja_match: romaji
+  ja_role: Special Thanks To
+- path:
+  - Very Special Thanks To
+  names:
+  - name: T's music Limited Company
+    kind: company
+    ja: T's music Limited Company
+    ja_match: romaji
+  - name: Ambrella Co., Ltd.
+    kind: company
+    ja: Ambrella Co., Ltd.
+    ja_match: romaji
+  - name: Camel Clutch co., Ltd.
+    kind: company
+    ja: Camel Clutch co., Ltd.
+    ja_match: romaji
+  - name: The Mustard Corporation Ltd.
+    kind: company
+  - name: TAJ Productions
+    kind: company
+  ja_role: Very Special Thanks to
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+    ja: Hiroyuki Jinnai
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: Hiroaki Tsuru
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekaz Ishihara
+    ja: Tsunekaz Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producer
+ja_unmatched:
+- kana: Effects
+  role: Art Chiefs
+- kana: 3D Map Design
+  role: Art Chiefs
+- kana: 3D Character Design
+  role: Art Chiefs
+- kana: Menu Design & Effects
+  role: Art Chiefs
+- kana: Akira Fukumoto
+  role: Art Chiefs
+- kana: System
+  role: Programming
+- kana: Game Application
+  role: Programming
+- kana: Tools
+  role: Programming
+- kana: Pokémon Models & Effects
+  role: Design
+- kana: Data Management
+  role: Design
+- kana: 3D Character Design
+  role: Design
+- kana: 3D Character Animation
+  role: Design
+- kana: Effects
+  role: Design
+- kana: 2D CG
+  role: Design
+- kana: Management and Support
+  role: Design
+- kana: 3D Map Design
+  role: Additional 3D Map Design
+- kana: Conversion & Support
+  role: Additional 3D Map Design
+- kana: Director
+  role: Pokémon 3D Modeling & Animation
+- kana: Modeling & Animation
+  role: Pokémon 3D Modeling & Animation
+- kana: Modeling & Animation
+  role: Pokémon 3D Modeling & Animation
+- kana: Tool Programming & Support
+  role: Pokémon 3D Modeling & Animation
+- kana: Modeling Management
+  role: Pokémon 3D Modeling & Animation
+- kana: Toshio Sato
+  role: Recording Director
+- kana: Kazuhiro Terasawa
+  role: Recording Producer
+- kana: Kenichi Koga
+  role: Art Work
+- kana: Mizue Hagiwara
+  role: Art Work
+- kana: Shizuka Numata
+  role: Art Work
+- kana: Sakae Kimura
+  role: Art Work
+- kana: Yuki Tanikawa
+  role: Game Testing

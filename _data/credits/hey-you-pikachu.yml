@@ -1,0 +1,261 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Hey_You,_Pikachu! + https://wiki.pokemonwiki.com/wiki/ピカチュウげんきでちゅうのスタッフクレジット
+slug: hey-you-pikachu
+title: Staff of Hey You, Pikachu!
+work: null
+year: 1998
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Hey_You,_Pikachu!
+count: 69
+source_ja: https://wiki.pokemonwiki.com/wiki/ピカチュウげんきでちゅうのスタッフクレジット
+ja_alignment:
+  ja_total: 49
+  ja_matched: 28
+  ja_positional: 0
+  ja_only_added: 13
+sections:
+- path:
+  - Development Staff
+  names:
+  - name: Ambrella
+    kind: company
+  - name: Ain Terakawa
+    ja: てらかわ あいん
+    ja_match: romaji
+  - name: Daisuke Yoshimitsu
+    ja: よしみつ だいすけ
+    ja_match: romaji
+  - name: Hiroki Iwasaki
+    ja: いわさき ひろき
+    ja_match: romaji
+  - name: Hiroyuki Ymanaka
+  - name: Masahiro Sugiyama
+    ja: すぎやま まさひろ
+    ja_match: romaji
+  - name: Miki Obata
+    ja: おばた みき
+    kanji: 小畑幹
+    ja_match: romaji
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    kanji: 小沢宗明
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  - name: Shinichi Sasaki
+    ja: ささき しんいち
+    ja_match: romaji
+  - name: Shuiro Matsumoto
+  - name: Takayuki Itou
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Takeshi Yaeoashi
+  - name: Tomoe Takayama
+    ja: たかやま ともえ
+    ja_match: romaji
+  - name: Watanabe Hirotake
+    ja: わたなべ ひろたけ
+    ja_match: romaji
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  - name: Youko Murakami
+    ja: むらかみ ようこ
+    ja_match: romaji
+  - name: Yousuke Kuroda
+  - name: Yousuke Suma
+    ja: すま ようすけ
+    ja_match: romaji
+  - name: Hiroyuki Yamanaka
+    name_source: ja-only
+    ja: やまなか ひろゆき
+    ja_match: ja-only
+  - name: Yousuke Kumada
+    name_source: ja-only
+    ja: くまだ ようすけ
+    ja_match: ja-only
+  - name: Hisato Matsumoto
+    name_source: ja-only
+    ja: まつもと ひさと
+    ja_match: ja-only
+  - name: Takeshi Yaegashi
+    name_source: ja-only
+    ja: やえがし たけし
+    ja_match: ja-only
+  ja_role: ピカチュウ げんきでちゅう / せいさく スタッフ / アンブレラ
+- path:
+  - Voice Actors
+  names:
+  - name: Ikue Ohtani
+    ja: おおたに いくえ
+    kanji: 大谷育江
+    ja_match: romaji
+  - name: Rikako Aikawa
+  - name: Satomi Koorogi
+    name_source: ja-only
+    ja: こおろぎ さとみ
+    ja_match: ja-only
+    kanji: こおろぎさとみ
+  - name: Megumi Hayashibara
+    name_source: ja-only
+    ja: はやしばら めぐみ
+    ja_match: ja-only
+    kanji: 林原めぐみ
+  - name: Kappei Yamaguchi
+    name_source: ja-only
+    ja: やまぐち かっぺい
+    ja_match: ja-only
+    kanji: 山口勝平
+  - name: Pikachuu Obata
+    name_source: ja-only
+    ja: おばた ぴかちゅう
+    ja_match: ja-only
+  ja_role: こえのしゅつえん
+- path:
+  - Management
+  names:
+  - name: Marigul Management Inc.
+    kind: company
+  - name: Kenji Nishisawa
+  - name: Masashi Uchiyama
+    ja: うちやま まさし
+    ja_match: romaji
+  - name: Tetsu Kayama
+    ja: かやま てつ
+    kanji: 香山哲
+    ja_match: romaji
+  - name: Tsotomu Kogenezawa
+  - name: Yumiko Fujii
+  - name: Youko Itou
+    name_source: ja-only
+    ja: いとう ようこ
+    ja_match: ja-only
+  ja_role: マネジメント / マリーガルマネジメント
+- path:
+  - Localization
+  names:
+  - name: Bill Trinen
+- path:
+  - Localization Management
+  names:
+  - name: Jeff Miller
+  - name: Leslie Swan
+- path:
+  - Pokémon Modeling
+  names:
+  - name: CR.64MC
+  - name: Benimaru Itou
+    ja: いとう べにまる
+    kanji: 伊藤紅丸
+    ja_match: romaji
+  - name: Jungo Suzuki
+    ja: すずき じゅんご
+    ja_match: romaji
+  - name: Kazuo Yazawa
+    ja: やざわ かずお
+    ja_match: romaji
+  - name: Yoshiyuki Tagawa
+    ja: たがわ よしゆき
+    ja_match: romaji
+  - name: Yuhichi Sawayama
+  - name: Yuuichi Sawayama
+    name_source: ja-only
+    ja: さわやま ゆういち
+    ja_match: ja-only
+  ja_role: なかまポケモン.. モデリング / CR. 64MC
+- path:
+  - Testing and Debug
+  names:
+  - name: Michelle Powers
+  - name: Sam Hosier
+  - name: Shari Brown
+  - name: Todd Buechele
+  - name: NOA Debug Staff
+- path:
+  - Special Thanks
+  names:
+  - name: Alicia Beckford Wassink
+  - name: Gail Tilden
+  - name: Hiroko Sugino
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Jun Fujimoto
+    ja: ふじもと じゅん
+    kanji: 富士本淳
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Manabu "Mike" Fukuda
+  - name: Minoru Arakawa
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Takashi Kawaguchi
+    ja: かわぐち たかし
+    kanji: 川口孝司
+    ja_match: romaji
+  - name: Nintendo Staff
+    kind: company
+  - name: Sarugakucho
+  - name: Toshinao Aoki
+    name_source: ja-only
+    ja: あおき としなお
+    ja_match: ja-only
+    kanji: 青木俊直
+  - name: Hisakazu Hirabayashi
+    name_source: ja-only
+    ja: ひらばやし ひさかず
+    ja_match: ja-only
+    kanji: 平林久和
+  ja_role: スペシャルサンクス / にんてんどうスタッフ / スーパーマリオクラブ
+- path:
+  - Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - ポケットモンスター げんさく
+  ja_role: ポケットモンスター げんさく
+  source: ja-only
+  names:
+  - name: Satoshi Tajiri
+    name_source: ja-only
+    ja: たじり さとし
+    ja_match: ja-only
+    kanji: 田尻智
+- path:
+  - Developed By
+  names:
+  - name: Ambrella
+    kind: company
+ja_unmatched:
+- kana: ほか
+  role: こえのしゅつえん
+- kana: こがねざわ つとむ
+  role: マネジメント / マリーガルマネジメント
+- kana: にしざわ けんじ
+  role: マネジメント / マリーガルマネジメント
+- kana: あんどう おさむ
+  role: マネジメント / マリーガルマネジメント
+- kana: いけがめ ちか
+  role: マネジメント / マリーガルマネジメント
+- kana: はしもと とおる
+  role: デバッグ / さるがくちょう
+  kanji: 橋本徹
+- kana: まつもと のぼる
+  role: デバッグ / さるがくちょう
+  kanji: 松本登
+- kana: アンブレラ
+  role: せいさく

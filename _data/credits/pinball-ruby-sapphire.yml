@@ -1,0 +1,275 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball:_Ruby_&_Sapphire + https://wiki.pokemonwiki.com/wiki/ポケモンピンボール_ルビー&サファイアのスタッフクレジット
+slug: pinball-ruby-sapphire
+title: 'Staff of Pokémon Pinball: Ruby & Sapphire'
+work: null
+year: 2003
+developer: Jupiter Corporation
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball:_Ruby_&_Sapphire
+count: 76
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボール_ルビー&サファイアのスタッフクレジット
+ja_alignment:
+  ja_total: 47
+  ja_matched: 46
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Masaru Kuribayashi
+    ja: くりばやし まさる
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Programmers
+  names:
+  - name: Tsuyoshi Matsumoto
+    ja: まつもと つよし
+    ja_match: romaji
+  - name: Noriaki Teramoto
+    ja: てらもと のりあき
+    ja_match: romaji
+  - name: Masamitsu Takami
+    ja: たかみ まさみつ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Graphic Designers
+  names:
+  - name: Arito Chujo
+    ja: ちゅうじょう ありと
+    ja_match: romaji
+  - name: Norichika Meguro
+    ja: めぐろ のりちか
+    ja_match: romaji
+  - name: Noriko Shibuya
+    ja: しぶや のりこ
+    ja_match: romaji
+  - name: Hiroshi Tanigawa
+    ja: たにがわ ひろし
+    ja_match: romaji
+  - name: Masaru Kuribayashi
+    ja: くりばやし まさる
+    ja_match: romaji
+  - name: Koji Kiriyama
+    ja: きりやま こうじ
+    ja_match: romaji
+  - name: Masanori Nishishita
+    ja: にしした まさのり
+    ja_match: romaji
+  - name: Naomi Sanada
+    ja: さなだ なおみ
+    ja_match: romaji
+  - name: Tomoki Miyazaki
+    ja: みやざき ともき
+    ja_match: romaji
+  ja_role: グラフィックデザイン
+- path:
+  - Sound Composition
+  names:
+  - name: Kazuya Suyama
+    ja: すやま かずや
+    ja_match: romaji
+  - name: Ayumi Sano
+    ja: さの あゆみ
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Pokémon Voices
+  names:
+  - name: Ikue Otani
+    ja: おおたに いくえ
+    kanji: 大谷育江
+    ja_match: romaji
+  - name: Satomi Kohrogi
+    link: Satomi Koorogi
+    ja: こおろぎ さとみ
+    kanji: こおろぎさとみ
+    ja_match: romaji
+  ja_role: ポケモンボイス
+- path:
+  - Artwork
+  names:
+  - name: Fujiko Nomura
+    ja: のむら ふじこ
+    ja_match: romaji
+  - name: Mizue Hagiwara
+    ja: はぎわら みずえ
+    ja_match: romaji
+  - name: Yasuko Takahashi
+    ja: たかはし やすこ
+    ja_match: romaji
+  - name: Akiko Hirono
+    ja: ひろの あきこ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Illustration
+  names:
+  - name: Norichika Meguro
+    ja: めぐろ のりちか
+    ja_match: romaji
+  ja_role: イラスト
+- path:
+  - Special Thanks
+  names:
+  - name: Yuuri Sakurai
+    ja: さくらい ゆうり
+    ja_match: romaji
+  - name: Hiroki Enomoto
+    ja: えのもと ひろき
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Go Ichinose
+    ja: いちのせ ごう
+    kanji: 一之瀬剛
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Azusa Tajima
+    ja: たじま あずさ
+    ja_match: romaji
+  - name: Takemoto Mori
+    ja: もり たけもと
+    ja_match: romaji
+  - name: Masafumi Mima
+    ja: みま まさふみ
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: こむら ともたか
+    ja_match: romaji
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Takanao Kondo
+    ja: こんどう たかなお
+    ja_match: romaji
+  - name: Rui Kawaguchi
+    ja: かわぐち るい
+    ja_match: romaji
+  - name: Gail Tilden
+  - name: Melinda Porter
+  - name: Jim Wornell
+  ja_role: スペシャルサンクス
+- path:
+  - Coordinators
+  names:
+  - name: Kyoko Watanabe
+    ja: わたなべ きょうこ
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: のもと れつじ
+    ja_match: romaji
+  ja_role: コーディネーター
+- path:
+  - Progress Coordinators
+  names:
+  - name: Daisuke Hara
+  - name: Taeko Suzuki
+- path:
+  - English Localization
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+- path:
+  - Task Managers
+  names:
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳次
+    ja_match: romaji
+  ja_role: ファンクションマネージャー
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Makoto Nakayama
+    ja: なかやま まこと
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    ja_match: romaji
+  - name: Takehiro Izushi
+    ja: いずし たけひろ
+    kanji: 出石武宏
+    ja_match: romaji
+  - name: Hatao Ogata
+    ja: おがた はたお
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+- path:
+  - European Version
+  - Localisation Producer
+  names:
+  - name: Kayo Sadahisa
+- path:
+  - European Version
+  - Localisation
+  names:
+  - name: James Honeywell
+    note: English
+  - name: Martina Deimel
+    note: German
+  - name: Andrea Jähn
+    note: German
+  - name: Angélique Blanchemaison
+    note: French
+  - name: Pierre Sanchez
+    note: French
+  - name: Palma Sánchez de Moya Rodríguez
+    note: Spanish
+  - name: Sofía Marín Aguilar-Galindo
+    note: Spanish
+  - name: Elena Nardo
+    note: Italian
+  - name: Andrea Salvi
+    note: Italian
+  - name: Roby Bonomo
+    note: Italian
+- path:
+  - European Version
+  - Manual Layout
+  names:
+  - name: Silke Sczyrba
+  - name: Daniela Schmitt
+  - name: Martina Taxis
+  - name: Jens Peppel
+  - name: Carolin Fickert
+  - name: Adrian Michalski
+  - name: Nadine Straub
+  - name: Sascha Nickel
+  - name: Mario Kraus
+  - name: Manfred Anton
+  - name: Peter Swietochowski
+  - name: Rudi Schnitzer
+ja_unmatched:
+- kana: スーパーマリオクラブ
+  role: デバッグプレイ

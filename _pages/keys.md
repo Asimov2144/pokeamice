@@ -59,6 +59,13 @@ sidebar:
       <p>从完整存档观察 GAME FREAK 的开发现场、公司文化和多作者叙事。</p>
     </a>
 
+    <a class="key-window-card" href="{{ '/credits/' | relative_url }}">
+      <span>Credits</span>
+      <strong>历作制作名单</strong>
+      <em>{{ site.data.credits_games | size }} 部作品 · staff 总表 · 职务变动</em>
+      <p>把每一作 credits 的英日两版对齐成人物档案，看 GAME FREAK 内部职务如何变动、谁在哪条线上。</p>
+    </a>
+
     <a class="key-window-card" href="{{ '/resource-graph/' | relative_url }}">
       <span>Guide</span>
       <strong>站内关系图谱</strong>

@@ -107,11 +107,6 @@
   icon2: /assets/img/works/home-lets-go-eevee.png
   mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
   icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
-- name: 宝可梦 Let's Go！皮卡丘/伊布
-  icon: /assets/img/works/home-lets-go-pikachu.png
-  icon2: /assets/img/works/home-lets-go-eevee.png
-  mascot: https://gallery.pokeamice.com/pokemon-assets/pokemon-home/pokemon-home--0133.png
-  icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
 - name: 宝可梦 剑·盾
   icon: /assets/img/works/home-sword.png
   icon2: /assets/img/works/home-shield.png
@@ -261,3 +256,7 @@
 - name: Pokémon Champions
   icon: /assets/img/works/home-champions.png
   icon_credit: Pokémon HOME 的作品图标（pokeamice.com/game_gallery）
+- name: Pokémon Pokopia
+  color: '#8fd14f'
+  icon: /assets/img/works/pokopia.png
+  icon_credit: 官方标志「ぽこ あ ポケモン」（Logopedia 存档）裁成方形图标；Koei Tecmo × Game Freak 共同开发

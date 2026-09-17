@@ -1,0 +1,527 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_Challenge + https://wiki.pokemonwiki.com/wiki/ポケモンでパネポンのスタッフクレジット
+slug: puzzle-challenge
+title: Staff of Pokémon Puzzle Challenge
+work: null
+year: 2000
+developer: Intelligent Systems
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_Challenge
+count: 132
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンでパネポンのスタッフクレジット
+ja_alignment:
+  ja_total: 106
+  ja_matched: 40
+  ja_positional: 2
+  ja_only_added: 32
+sections:
+- path:
+  - Creative Staff
+  - Concept
+  names:
+  - name: Hitoshi Yamagami
+  - name: Toshitaka Muramatsu
+- path:
+  - CREATIVE STAFF / CONCEPT
+  ja_role: CREATIVE STAFF / CONCEPT
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 山上 仁志
+    ja_match: ja-only
+    kanji: 山上仁志
+  - name: ' '
+    name_source: ja-only
+    ja: 村松 敏孝
+    ja_match: ja-only
+- path:
+  - PROGRAM CREATE
+  ja_role: PROGRAM CREATE
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 力石 求
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 西井 利弘
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 山本 晋也
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 山内 修
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 山上 仁志
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 今井 賢治
+    ja_match: ja-only
+- path:
+  - DESIGN CREATE
+  ja_role: DESIGN CREATE
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 村松 敏孝
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 松田 剛
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 森定 裕美子
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 石田 美知子
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 春日 恭子
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 森 直子
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 渡部 裕子
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 山根 知美
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 中田 隆一
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 西村 建太郎
+    ja_match: ja-only
+  - name: 'Sumiyoshi '
+    name_source: ja-only
+    ja: 木月 すみよし
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 井上 泰夫
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 宮本 文子
+    ja_match: ja-only
+- path:
+  - SOUND CREATE
+  ja_role: SOUND CREATE
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 泉田 大志
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 西牧 賢一
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 濱野 美奈子
+    ja_match: ja-only
+- path:
+  - POKEMON SUPERVISE
+  ja_role: POKEMON SUPERVISE
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 杉森 建
+    ja_match: ja-only
+    kanji: 杉森建
+  - name: ' '
+    name_source: ja-only
+    ja: 増田 順一
+    ja_match: ja-only
+    kanji: 増田順一
+  - name: ' '
+    name_source: ja-only
+    ja: 関根 和人
+    ja_match: ja-only
+- path:
+  - Creative Staff
+  - Programming
+  names:
+  - name: Motumu Chikaraishi
+  - name: Toshihiro Nishii
+  - name: Shinya Yamamaoto
+  - name: Osamu Yamauchi
+  - name: Hitoshi Yamagami
+- path:
+  - Creative Staff
+  - Design
+  names:
+  - name: Toshitaka Muramatsu
+  - name: Gou Matsuda
+  - name: Yumiko Morisada
+  - name: Michiko Ishida
+  - name: Kyouko Kasauga
+  - name: Naoko Mori
+  - name: Hiroko Watanabe
+  - name: Tomoyoshi Yamane
+  - name: Ryuichi Nakada
+  - name: Kentaro Nishimura
+  - name: Sumiyoshi Kizuki
+  - name: Yasuo Inoue
+  - name: Fumiko Miyamaoto
+- path:
+  - Creative Staff
+  - Sound Creation
+  names:
+  - name: Taishi Sendra
+  - name: Kenchi Nishimaki
+  - name: Minako Hamano
+- path:
+  - Creative Staff
+  - Pokémon Supervision
+  names:
+  - name: Ken Sugimori
+  - name: Junichi Masuda
+  - name: Kazuhito Sekine
+- path:
+  - Creative Staff
+  - Special Thanks To
+  names:
+  - name: Kouzou Ikuno
+    ja: KOUZOU IKUNO
+    ja_match: romaji
+  - name: Hiroyuki Yukami
+    ja: HIROYUKI YUKAMI
+    ja_match: romaji
+  - name: Toshiyuki Nakamura
+    ja: TOSHIYUKI NAKAMURA
+    ja_match: romaji
+  - name: Toshio Sengoku
+    ja: TOSHIO SENGOKU
+    ja_match: romaji
+  - name: Tohro Narihiro
+  - name: Kenji Imai
+  - name: Makoto Katayama
+    ja: MAKOTO KATAYAMA
+    ja_match: romaji
+  - name: Yumi Nagai
+    ja: YUMI NAGAI
+    ja_match: romaji
+  - name: Makiko Asada
+    ja: MAKIKO ASADA
+    ja_match: romaji
+  - name: Kenji Yamada
+    ja: KENJI YAMADA
+    ja_match: romaji
+  - name: Masahiro Higuchi
+    ja: MASAHIRO HIGUCHI
+    ja_match: romaji
+  - name: Masato Furukawa
+    ja: MASATO FURUKAWA
+    ja_match: romaji
+  - name: Koichi Kishi
+    ja: KOICHI KISHI
+    ja_match: romaji
+  - name: Taku Sugioka
+    ja: TAKU SUGIOKA
+    ja_match: romaji
+  - name: Junya Kadono
+    ja: JUNYA KADONO
+    ja_match: romaji
+  - name: Naohiko Aoyama
+    ja: NAOHIKO AOYAMA
+    ja_match: romaji
+  - name: Yuuki Tsuki
+    ja_match: positional
+    ja: YUUKI TSUJI
+  - name: Chie Kawabe
+    ja: CHIE KAWABE
+    ja_match: romaji
+  - name: Hitomi Nakano
+    ja: HITOMI NAKANO
+    ja_match: romaji
+  - name: Takeshi Narita
+    ja: TAKESHI NARITA
+    ja_match: romaji
+  - name: Masanobu Matsunaga
+    ja: MASANOBU MATSUNAGA
+    ja_match: romaji
+  - name: Shigeyuki Asa
+    ja: SHIGEYUKI ASA
+    ja_match: romaji
+  - name: Sachio Kurita
+    ja: SACHIO KURITA
+    ja_match: romaji
+  - name: Ayumi Sasaki
+    ja: AYUMI SASAKI
+    ja_match: romaji
+  - name: Maki Takemori
+    ja: MAKI TAKEMORI
+    ja_match: romaji
+  - name: Junko Umehara
+    ja: JUNKO UMEHARA
+    ja_match: romaji
+  - name: Sachiko Wada
+    ja: SACHIKO WADA
+    ja_match: romaji
+  - name: Ryou Hirata
+    ja: RYOU HIRATA
+    ja_match: romaji
+  - name: Fumiaki Tanimura
+    ja: FUMIAKI TANIMURA
+    ja_match: romaji
+  - name: Hiroyuki Jinnai
+    ja_match: positional
+    ja: HIROYUKI JINNNAI
+    kanji: 陣内弘之
+  - name: Gakuji Nomoto
+    ja: GAKUJI NOMOTO
+    kanji: 野本岳志
+    ja_match: romaji
+  - name: Ai Mashima
+    ja: AI MASHIMA
+    kanji: 間島藍
+    ja_match: romaji
+  - name: Takahiro Harada
+    ja: TAKAHIRO HARADA
+    ja_match: romaji
+  ja_role: SPECIAL THANKS TO
+- path:
+  - Creative Staff
+  - Super Mario Club
+  names:
+  - name: Hihumi Miyazaki
+    ja: HIHUMI MIYAZAKI
+    ja_match: romaji
+  - name: Tomoharu Hizakae
+    ja: TOMOHARU HIZAKAE
+    ja_match: romaji
+  - name: Tomoko Yuasa
+    ja: TOMOKO YUASA
+    ja_match: romaji
+  - name: Toshiaki Suzuki
+    ja: TOSHIAKI SUZUKI
+    ja_match: romaji
+  - name: Yayoi Yagi
+    ja: YAYOI YAGI
+    ja_match: romaji
+  - name: Noriaki Tsujimoto
+    ja: NORIAKI TSUJIMOTO
+    ja_match: romaji
+  - name: Yuhei Adachi
+    ja: YUHEI ADACHI
+    ja_match: romaji
+  - name: Ryosuke Yamada
+    ja: RYOSUKE YAMADA
+    ja_match: romaji
+  ja_role: SUPER MARIO CLUB
+- path:
+  - DIRECTION
+  ja_role: DIRECTION
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 西井 利弘
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 山上 仁志
+    ja_match: ja-only
+- path:
+  - PRODUCE
+  ja_role: PRODUCE
+  source: ja-only
+  names:
+  - name: ' '
+    name_source: ja-only
+    ja: 出石 武宏
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 北西 亮一
+    ja_match: ja-only
+  - name: ' '
+    name_source: ja-only
+    ja: 石原 恒和
+    ja_match: ja-only
+    kanji: 石原恒和
+- path:
+  - Creative Staff
+  - North America
+  names:
+  - name: Bill Trinen
+  - name: Jeff Miller
+  - name: Leslie Swan
+  - name: Sean Egan
+  - name: Minoru Arakawa
+  - name: Manabu "Mike" Fukuda
+  - name: Gail Tilden
+- path:
+  - Creative Staff
+  - Localization & Testing Europe
+  names:
+  - name: Kai Zeh
+  - name: Kai Neumann
+  - name: Tanja Baar
+  - name: Hiroyuki Uesugi
+  - name: Marcus Krause
+  - name: Maurice Tisdale
+  - name: Zelda NOE Team
+    kind: company
+  - name: Patrick Thieret
+  - name: Pokémon NFR Team
+    kind: company
+  - name: Sigi Hügel
+  - name: Pokémon NE Team
+    kind: company
+  - name: Ángel Victoria López
+  - name: Martina Deimel
+  - name: Micky Auer
+  - name: Antonio Greppi
+  - name: Carlos Montilla
+  - name: Nicolas Robert
+  - name: Nicolas Gourio
+  - name: Elenor Isbidish
+  - name: Calimero Tiiiun
+- path:
+  - Creative Staff
+  - Direction
+  names:
+  - name: Toshihiro Nishii
+  - name: Hitoshi Yamagami
+- path:
+  - Creative Staff
+  - Production
+  names:
+  - name: Takehiro Izushi
+  - name: Ryouichi Kitanishi
+  - name: Tsunekaz Ishihara
+- path:
+  - Creative Staff
+  - Produced By
+  names:
+  - name: Team Battle Clash
+    kind: company
+    ja: TEAM BATTLE CLASH
+    ja_match: romaji
+  ja_role: PRODUCED BY
+ja_unmatched:
+- kana: CGB MAIN PROGRAM
+  role: PROGRAM CREATE
+- kana: COMMUNICATION PROGRAM
+  role: PROGRAM CREATE
+- kana: DMG MAIN PROGRAM
+  role: PROGRAM CREATE
+- kana: SYSTEM PROGRAM
+  role: PROGRAM CREATE
+- kana: MUSIC PROGRAM
+  role: PROGRAM CREATE
+- kana: MENU PROGRAM
+  role: PROGRAM CREATE
+- kana: DEMO PROGRAM
+  role: PROGRAM CREATE
+- kana: ORIGINAL GAME ADVICE
+  role: PROGRAM CREATE
+- kana: SYSTEM PROGRAM
+  role: PROGRAM CREATE
+- kana: GRADETION PROGRAM
+  role: PROGRAM CREATE
+- kana: COMMUNICATION PROGRAM ADVICE
+  role: PROGRAM CREATE
+- kana: MESSAGE PROGRAM ADVICE
+  role: PROGRAM CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: GRAPHIC DESIGN
+  role: DESIGN CREATE
+- kana: MANUAL ILLUSTRATION
+  role: DESIGN CREATE
+- kana: MANUAL EDIT
+  role: DESIGN CREATE
+- kana: MANUAL EDIT
+  role: DESIGN CREATE
+- kana: MUSIC COMPOSE
+  role: SOUND CREATE
+- kana: SOUND EFFECTS
+  role: SOUND CREATE
+- kana: SOUND PROGRAM
+  role: SOUND CREATE
+- kana: SOUND PROGRAM
+  role: SOUND CREATE
+- kana: MUSIC COMPOSE
+  role: SOUND CREATE
+- kana: GAME FREAK
+  role: POKEMON SUPERVISE
+- kana: GAME FREAK
+  role: POKEMON SUPERVISE
+- kana: GAME FREAK
+  role: POKEMON SUPERVISE
+- kana: MASAKAZU UMEHARA
+  role: SPECIAL THANKS TO
+anomalies:
+- '[''Creative Staff'', ''Programming'']: CGB Main Program'
+- '[''Creative Staff'', ''Programming'']: Communication Program'
+- '[''Creative Staff'', ''Programming'']: DMG Main Program'
+- '[''Creative Staff'', ''Programming'']: System Program'
+- '[''Creative Staff'', ''Programming'']: Music Program'
+- '[''Creative Staff'', ''Programming'']: Menu Program'
+- '[''Creative Staff'', ''Programming'']: Demo Program'
+- '[''Creative Staff'', ''Programming'']: Original Game Advice'
+- '[''Creative Staff'', ''Programming'']: System Program'
+- '[''Creative Staff'', ''Programming'']: Graduation Program'
+- '[''Creative Staff'', ''Programming'']: Communication Program Advice'
+- '[''Creative Staff'', ''Design'']: Graphic Design'
+- '[''Creative Staff'', ''Design'']: Manual Illustration'
+- '[''Creative Staff'', ''Design'']: Manual Editing'
+- '[''Creative Staff'', ''Sound Creation'']: Music Composition, Sound Effects, Sound Program'
+- '[''Creative Staff'', ''Sound Creation'']: Sound Program'
+- '[''Creative Staff'', ''Sound Creation'']: Music Composition'
+- '[''Creative Staff'', ''Pokémon Supervision'']: GAME FREAK inc.'
+- '[''Creative Staff'', ''North America'']: Localization'
+- '[''Creative Staff'', ''North America'']: Localization Management'
+- '[''Creative Staff'', ''North America'']: Testing and Debug'
+- '[''Creative Staff'', ''North America'']: NOA Debug Team'
+- '[''Creative Staff'', ''North America'']: Special Thanks'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: German and Italian Testing'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Coordination'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: French Testing'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Coordination'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Spanish Testing'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Coordination'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: German Translation'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Spanish Translation'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: French Translation'
+- '[''Creative Staff'', ''Localization & Testing Europe'']: Italian Translation'
+- '[''Creative Staff'', ''Produced By'']: (c)1995-2000 Nintendo'
+- '[''Creative Staff'', ''Produced By'']: /Creatures inc./GAME FREAK inc.'
+- '[''Creative Staff'', ''Produced By'']: (c)2000 Nintendo/INTELLEGENT SYSTEMS'

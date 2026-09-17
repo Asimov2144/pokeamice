@@ -1,0 +1,2390 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap + https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
+slug: new-pokemon-snap
+title: Staff of New Pokémon Snap
+work: null
+year: 2021
+developer: Bandai Namco Studios
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap
+count: 500
+source_ja: https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
+ja_alignment:
+  ja_total: 518
+  ja_matched: 493
+  ja_positional: 24
+  ja_only_added: 0
+sections:
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Director
+  names:
+  - name: Haruki Suzaki
+    ja: Haruki Suzaki
+    kanji: 須崎春樹
+    ja_match: romaji
+  ja_role: BANDAI NAMCO Studios Inc. / Director
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Game Design
+  names:
+  - name: Yasuhito Kobayashi
+    ja: Yasuhito Kobayashi
+    ja_match: romaji
+  ja_role: Lead Game Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Programmer
+  names:
+  - name: Sei Nakatani
+    ja: Sei Nakatani
+    ja_match: romaji
+  ja_role: Lead Programmer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Art Director
+  names:
+  - name: Tomoko Moriya
+    ja: Tomoko Moriya
+    kanji: 守屋智子
+    ja_match: romaji
+  ja_role: Art Director
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Cinematic Artist
+  names:
+  - name: Makoto Watarai
+    ja: Makoto Watarai
+    ja_match: romaji
+  ja_role: Lead Cinematic Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Animation Design
+  names:
+  - name: Hidekazu Shirai
+    ja: Hidekazu Shirai
+    ja_match: romaji
+  ja_role: Lead Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Sound Director
+  names:
+  - name: Katsuhiko Iwama
+    ja: Katsuhiko Iwama
+    ja_match: romaji
+  ja_role: Sound Director
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Project Management
+  names:
+  - name: Tomoko Iura
+    ja: Tomoko Iura
+    ja_match: romaji
+  ja_role: Lead Project Management
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Level Design
+  names:
+  - name: Ayumi Nakaji
+    ja: Ayumi Nakaji
+    ja_match: romaji
+  - name: Junpei Yamaguchi
+    ja: Junpei Yamaguchi
+    ja_match: romaji
+  - name: Kota Muramatsu
+    ja: Kota Muramatsu
+    ja_match: romaji
+  - name: Hiroto Terayama
+    ja: Hiroto Terayama
+    ja_match: romaji
+  - name: Yuya Aoki
+    ja: Yuya Aoki
+    ja_match: romaji
+  - name: Arashi Matsuoka
+    ja: Arashi Matsuoka
+    ja_match: romaji
+  - name: Takehiro Shimizu
+    ja: Takehiro Shimizu
+    ja_match: romaji
+  - name: Kouhei Kato
+    ja: Kouhei Kato
+    ja_match: romaji
+  - name: Takumi Horie
+    ja: Takumi Horie
+    ja_match: romaji
+  - name: Kazumasa Kitada
+    ja: Kazumasa Kitada
+    ja_match: romaji
+  - name: Yasuaki Kurosawa
+    ja: Yasuaki Kurosawa
+    ja_match: romaji
+  ja_role: Level Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Game Design
+  names:
+  - name: Sakimori Numata
+    ja: Sakimori Numata
+    ja_match: romaji
+  - name: Misato Tanaka
+    ja: Misato Tanaka
+    ja_match: romaji
+  - name: Misako Kuratsu
+    ja: Misako Kuratsu
+    ja_match: romaji
+  - name: Shinya Hirota
+    ja: Shinya Hirota
+    ja_match: romaji
+  - name: Daisuke Uemoto
+    ja: Daisuke Uemoto
+    ja_match: romaji
+  - name: Umi Takahashi
+    ja: Umi Takahashi
+    ja_match: romaji
+  - name: Tomoyuki Kamei
+    ja: Tomoyuki Kamei
+    ja_match: romaji
+  - name: Yohei Ino
+    ja: Yohei Ino
+    ja_match: romaji
+  - name: Hisaharu Tago
+    ja: Hisaharu Tago
+    ja_match: romaji
+  - name: Tomoyuki Sasamori
+    ja: Tomoyuki Sasamori
+    ja_match: romaji
+  - name: Kazuki Sakai
+    ja: Kazuki Sakai
+    ja_match: romaji
+  - name: Yuki Matsukawa
+    ja: Yuki Matsukawa
+    ja_match: romaji
+  - name: Hideo Ishida
+    ja: Hideo Ishida
+    ja_match: romaji
+  - name: Ryo Okura
+    ja: Ryo Okura
+    ja_match: romaji
+  - name: Yoshiyuki Yakabe
+    ja: Yoshiyuki Yakabe
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Ingame Programmer
+  names:
+  - name: Kenichi Nakaguchi
+    ja: Kenichi Nakaguchi
+    ja_match: romaji
+  ja_role: Lead Ingame Programmer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Outgame Programmer
+  names:
+  - name: Takashi Koshigoe
+    ja: Takashi Koshigoe
+    ja_match: romaji
+  ja_role: Lead Outgame Programmer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead System Programmer
+  names:
+  - name: Wataru Tada
+    ja: Wataru Tada
+    ja_match: romaji
+  ja_role: Lead System Programmer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Programmers
+  names:
+  - name: Shinobu Kiriyama
+    ja: Shinobu Kiriyama
+    ja_match: romaji
+  - name: Yoshihiro Kurohata
+    ja: Yoshihiro Kurohata
+    ja_match: romaji
+  - name: Kana Ishikawa
+    ja: Kana Ishikawa
+    ja_match: romaji
+  - name: Takahiro Fukuda
+    ja: Takahiro Fukuda
+    ja_match: romaji
+  - name: Takanori Nakamura
+    ja: Takanori Nakamura
+    ja_match: romaji
+  - name: Kenichi Wakisaka
+    ja: Kenichi Wakisaka
+    ja_match: romaji
+  - name: Suguru Yokoyama
+    ja: Suguru Yokoyama
+    ja_match: romaji
+  - name: Kazuhi Takata
+    ja: Kazuhi Takata
+    ja_match: romaji
+  ja_role: Programmers
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - NU Library Team
+  names:
+  - name: Shunsuke Kuribata
+    ja: Shunsuke Kuribata
+    ja_match: romaji
+  - name: Atsushi Nakano
+    ja: Atsushi Nakano
+    ja_match: romaji
+  - name: Jun Kamoshima
+    ja: Jun Kamoshima
+    ja_match: romaji
+  - name: Tsuyoshi Nakazawa
+    ja: Tsuyoshi Nakazawa
+    ja_match: romaji
+  - name: Kotaka Sato
+    ja: Kotaka Sato
+    ja_match: romaji
+  - name: Kentarou Kawamoto
+    ja: Kentarou Kawamoto
+    ja_match: romaji
+  ja_role: NU Library Team
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Project "lumen"
+  names:
+  - name: Masahiro Yoshida
+    ja: Masahiro Yoshida
+    ja_match: romaji
+  - name: Masayuki Shimizu
+    ja: Masayuki Shimizu
+    ja_match: romaji
+  - name: Ryuichi Sakamoto
+    ja: Ryuichi Sakamoto
+    ja_match: romaji
+  ja_role: Project "lumen"
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - NU Support Team
+  names:
+  - name: Yoko Akao
+    ja: Yoko Akao
+    ja_match: romaji
+  ja_role: NU Support Team
+- path:
+  - Very Special Thanks
+  names:
+  - name: Shigeki Tomisawa
+    ja: Shigeki Tomisawa
+    ja_match: romaji
+  - name: Takeki Takahashi
+    ja: Takeki Takahashi
+    ja_match: romaji
+  - name: Jun Takeyama
+    ja: Jun Takeyama
+    ja_match: romaji
+  - name: Shigeru Kitsutaka
+    ja: Shigeru Kitsutaka
+    ja_match: romaji
+  - name: Tadashi Katayanagi
+    ja: Tadashi Katayanagi
+    ja_match: romaji
+  - name: Hitoshi Ueda
+    ja: Hitoshi Ueda
+    ja_match: romaji
+  ja_role: Very Special Thanks
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Concept Artist
+  names:
+  - name: Kenji Kimura
+    ja: Kenji Kimura
+    ja_match: romaji
+  ja_role: Lead Concept Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Senior Concept Artists
+  names:
+  - name: Mayumi Kimura
+    ja: Mayumi Kimura
+    ja_match: romaji
+  - name: Kurumi Kobayashi
+    ja: Kurumi Kobayashi
+    ja_match: romaji
+  - name: Takuji Masukawa
+    ja: Takuji Masukawa
+    ja_match: romaji
+  - name: Yoko Tanaka
+    ja: Yoko Tanaka
+    ja_match: romaji
+  - name: Michiaki Ito
+    ja: Michiaki Ito
+    ja_match: romaji
+  ja_role: Senior Concept Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Concept Artists
+  names:
+  - name: Yoshihiko Arai
+    ja: Yoshihiko Arai
+    ja_match: romaji
+  - name: Masafumi Takagi
+    ja: Masafumi Takagi
+    ja_match: romaji
+  - name: Tamami Ishikawa
+    ja: Tamami Ishikawa
+    ja_match: romaji
+  - name: Hiroaki Kawagoe
+    ja: Hiroaki Kawagoe
+    ja_match: romaji
+  - name: Hiroshi Asai
+    ja: Hiroshi Asai
+    ja_match: romaji
+  - name: Kaoru Nakajima
+    ja: Kaoru Nakajima
+    ja_match: romaji
+  - name: Shoko Kadotani
+    ja: Shoko Kadotani
+    ja_match: romaji
+  - name: Kota Ochiai
+    ja: Kota Ochiai
+    ja_match: romaji
+  ja_role: Concept Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Character Artist
+  names:
+  - name: Takuya Kishimoto
+    ja: Takuya Kishimoto
+    ja_match: romaji
+  ja_role: Lead Character Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Character Artist
+  names:
+  - name: Takuya Araki
+    ja: Takuya Araki
+    ja_match: romaji
+  ja_role: Character Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Character Modeling
+  names:
+  - name: Sachiyo Awata
+    ja: Sachiyo Awata
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Environment Artist
+  names:
+  - name: Yuko Mizoguchi
+    ja: Yuko Mizoguchi
+    ja_match: romaji
+  ja_role: Lead Environment Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Technical Artist
+  names:
+  - name: Masayuki Suzuki
+    ja: Masayuki Suzuki
+    ja_match: romaji
+  ja_role: Lead Technical Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Technical Artists
+  names:
+  - name: Shohei Yamaguchi
+    ja: Shohei Yamaguchi
+    ja_match: romaji
+  - name: Yutaka Kobayashi
+    ja: Yutaka Kobayashi
+    ja_match: romaji
+  ja_role: Technical Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead UI Design
+  names:
+  - name: Chiaki Satake
+    ja: Chiaki Satake
+    ja_match: romaji
+  ja_role: Lead UI Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - UI Design
+  names:
+  - name: Maki Ono
+    ja: Maki Ono
+    ja_match: romaji
+  - name: Aiko Shimosako
+    ja: Aiko Shimosako
+    ja_match: romaji
+  - name: Aya Sato
+    ja: Aya Sato
+    ja_match: romaji
+  - name: Yukihiko Mishina
+    ja: Yukihiko Mishina
+    ja_match: romaji
+  ja_role: UI Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Cinematic Artist
+  names:
+  - name: Yasuhiro Matsuda
+    ja: Yasuhiro Matsuda
+    ja_match: romaji
+  ja_role: Cinematic Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead VFX Artist
+  names:
+  - name: Shinji Nagatani
+    ja: Shinji Nagatani
+    ja_match: romaji
+  ja_role: Lead VFX Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - VFX Artists
+  names:
+  - name: Shigeano Hirasawa
+    ja_match: positional
+    ja: Shigenao Hirasawa
+  - name: Yuki Tozuka
+    ja: Yuki Tozuka
+    ja_match: romaji
+  - name: Fumiya Sugawara
+    ja: Fumiya Sugawara
+    ja_match: romaji
+  - name: Mayuko Okda
+    ja_match: positional
+    ja: Mayuko Okada
+  - name: Shotaro Kansaku
+    ja: Shotaro Kansaku
+    ja_match: romaji
+  ja_role: VFX Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Management
+  names:
+  - name: Taichi Higashino
+    ja: Taichi Higashino
+    ja_match: romaji
+  - name: Shuhei Banya
+    ja: Shuhei Banya
+    ja_match: romaji
+  ja_role: Bandai Namco Studios Malaysia Sdn. Bhd. / Management
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Lead Concept Artist
+  names:
+  - name: Samat Khovitoonkij
+    ja: Samat Khovitoonkij
+    ja_match: romaji
+  ja_role: Lead Concept Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Concept Artists
+  names:
+  - name: Yeoh Shen Siang
+    ja: Yeoh Shen Siang
+    ja_match: romaji
+  - name: Nur'Ain Shariffluddin
+    ja_match: positional
+    ja: Nur'Ain Shariffuddin
+  ja_role: Concept Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Lead 3D Environment Artists
+  names:
+  - name: Yoong Wei Siong
+    ja: Yoong Wei Siong
+    ja_match: romaji
+  - name: Mimi Rizal
+    ja: Mimi Rizal
+    ja_match: romaji
+  ja_role: Lead 3D Environment Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - 3D Environment Artists
+  names:
+  - name: Davin Gilbert Saputra
+    ja: Davin Gilbert Saputra
+    ja_match: romaji
+  - name: Felicia
+    ja: Felicia
+    ja_match: romaji
+  - name: Herman Yani
+    ja: Herman Yani
+    ja_match: romaji
+  - name: Kong Sue Ying
+    ja: Kong Sue Ying
+    ja_match: romaji
+  - name: Pei Wen Liao
+    ja: Pei Wen Liao
+    ja_match: romaji
+  - name: Rafid Zufar
+    ja: Rafid Zufar
+    ja_match: romaji
+  - name: Stephen Herman
+    ja: Stephen Herman
+    ja_match: romaji
+  - name: Wayne Chu Weng Fatt
+    ja: Wayne Chu Weng Fatt
+    ja_match: romaji
+  ja_role: 3D Environment Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Product Management
+  names:
+  - name: Nik Shazwan
+    ja: Nik Shazwan
+    ja_match: romaji
+  - name: Loh Mei Kei
+    ja: Loh Mei Kei
+    ja_match: romaji
+  - name: Muhamad Amal Farial bin Khalid
+    ja: Muhamad Amal Farial bin Khalid
+    ja_match: romaji
+  ja_role: Product Management
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Malaysia Sdn. Bhd.
+  - Translators
+  names:
+  - name: Ng Kai Wern
+    ja: Ng Kai Wern
+    ja_match: romaji
+  - name: Muslihah Nur Amalina Mus
+    ja_match: positional
+    ja: Muslihah Nur Amalina Musa
+  - name: Teoh Jit Kean
+    ja: Teoh Jit Kean
+    ja_match: romaji
+  ja_role: Translators
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - Art Management
+  names:
+  - name: Hiroki Minami
+    ja: Hiroki Minami
+    ja_match: romaji
+  ja_role: Bandai Namco Studios Singapore Pte. Ltd. / Art Management
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - Lead Concept Artist
+  names:
+  - name: Ooi Chun Gee
+    ja: Ooi Chun Gee
+    ja_match: romaji
+  ja_role: Lead Concept Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - Senior Concept Artist
+  names:
+  - name: Dorothy J. Hweee
+    ja: Dorothy J. Hweee
+    ja_match: romaji
+  ja_role: Senior Concept Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - 3D Character Artist
+  names:
+  - name: Justin Lee Yong Ho
+    ja_match: positional
+    ja: Justin Lee Yong Hong
+  ja_role: 3D Character Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - Senior Translator
+  names:
+  - name: Tan Kengh Ho
+    ja_match: positional
+    ja: Tan Keng Ho
+  ja_role: Senior Translator
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bandai Namco Studios Singapore Pte. Ltd.
+  - Translator
+  names:
+  - name: Koh Yong Qiang
+    ja: Koh Yong Qiang
+    ja_match: romaji
+  ja_role: Translator
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Seven Dreams Inc,
+  - Concept Artists
+  names:
+  - name: Jun Kotouno
+    ja: Jun Kotouno
+    ja_match: romaji
+  - name: Takuya Yamamoto
+    ja: Takuya Yamamoto
+    ja_match: romaji
+  - name: Keisuke Asaba
+    ja: Keisuke Asaba
+    ja_match: romaji
+  - name: Motohiro Sasaki
+    ja: Motohiro Sasaki
+    ja_match: romaji
+  ja_role: Concept Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Swordcanes Studio Co. Ltd.
+  - CEO/Producer
+  names:
+  - name: Tetsuya Takeda
+    ja: Tetsuya Takeda
+    ja_match: romaji
+  ja_role: CEO/Producer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Swordcanes Studio Co. Ltd.
+  - Lead Character Modeling
+  names:
+  - name: Nobuyuki Fujiki
+    ja: Nobuyuki Fujiki
+    ja_match: romaji
+  - name: Character Modeling
+  - name: Sho Midorikawa
+    ja: Sho Midorikawa
+    ja_match: romaji
+  - name: Iori Tsukada
+    ja: Iori Tsukada
+    ja_match: romaji
+  - name: Shota Sakaguchi
+    ja: Shota Sakaguchi
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - XAX Entertainment Inc.
+  - Character Modeling
+  names:
+  - name: Airi Suzuki
+    ja: Airi Suzuki
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bee Tribe Co., Ltd.
+  - Lead Environment Artists
+  names:
+  - name: Mizuki Tashima
+    ja: Mizuki Tashima
+    ja_match: romaji
+  ja_role: Lead Environment Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Bee Tribe Co., Ltd.
+  - Environment Artists
+  names:
+  - name: Takuya Kiguchi
+    ja: Takuya Kiguchi
+    ja_match: romaji
+  - name: Jo Ara
+    ja: Jo Ara
+    ja_match: romaji
+  - name: Sokuen Chin
+    ja: Sokuen Chin
+    ja_match: romaji
+  - name: Hiroki Onishi
+    ja: Hiroki Onishi
+    ja_match: romaji
+  - name: Uhi Oh
+    ja: Uhi Oh
+    ja_match: romaji
+  - name: Yoji Hosaka
+    ja: Yoji Hosaka
+    ja_match: romaji
+  - name: Takuzou Toyooka
+    ja: Takuzou Toyooka
+    ja_match: romaji
+  - name: Hikaru Nagahama
+    ja: Hikaru Nagahama
+    ja_match: romaji
+  ja_role: Environment Artists
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - ADGLOBE Inc.
+  - Environment Artist
+  names:
+  - name: Taysuya Itoh
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - geechs inc.
+  - UI Design
+  names:
+  - name: Ryota Hayashida
+    ja: Ryota Hayashida
+    ja_match: romaji
+  ja_role: UI Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - quack-luck inc,
+  - VFX Artist
+  names:
+  - name: Koichi Fujikawa
+    ja: Koichi Fujikawa
+    ja_match: romaji
+  ja_role: VFX Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - GOTORON Inc.
+  - VFX Artist
+  names:
+  - name: Mika Takei
+    ja: Mika Takei
+    ja_match: romaji
+  ja_role: VFX Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Ray Dream Studio Inc.
+  - VFX/Cinematic Artist
+  names:
+  - name: Yoshiaki Mori
+    ja: Yoshiaki Mori
+    ja_match: romaji
+  ja_role: VFX/Cinematic Artist
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Studio RF
+  - Movie Direction
+  names:
+  - name: Romanov Higa
+    ja: Romanov Higa
+    ja_match: romaji
+  ja_role: Movie Direction
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Digital Frontier Inc.
+  - Asset Modeling
+  names:
+  - name: Takashi Watanabe
+    ja: Takashi Watanabe
+    ja_match: romaji
+  - name: Choi En Suk
+    ja: CHOI En Suk
+    ja_match: romaji
+  - name: Leow Wei Liang
+    ja: LEOW Wei Liang
+    ja_match: romaji
+  ja_role: Asset Modeling
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Animation Design
+  names:
+  - name: Momoko Chiba
+    ja: Momoko Chiba
+    ja_match: romaji
+  ja_role: Asset Modeling
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Animation Design
+  names:
+  - name: Chiharu Hayashi
+    ja: Chiharu Hayashi
+    ja_match: romaji
+  ja_role: Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment
+  - Lead Animation Design
+  names:
+  - name: Yosuke Takahashi
+    ja: Yosuke Takahashi
+    ja_match: romaji
+  ja_role: Lead Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment
+  - Animation Design
+  names:
+  - name: Hiromichi Hidaka
+    ja: Hiromichi Hidaka
+    ja_match: romaji
+  - name: Asuka Yamato
+    ja: Asuka Yamato
+    ja_match: romaji
+  - name: Mizuki Fujita
+    ja: Mizuki Fujita
+    ja_match: romaji
+  - name: Ai Matsumura
+    ja: Ai Matsumura
+    ja_match: romaji
+  - name: Yuki Takahashi
+    ja: Yuki Takahashi
+    ja_match: romaji
+  - name: Airi Nagano
+    ja: Airi Nagano
+    ja_match: romaji
+  - name: Miki Nagao
+    ja: Miki Nagao
+    ja_match: romaji
+  - name: Fumio Fujii
+    ja: Fumio Fujii
+    ja_match: romaji
+  ja_role: Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment
+  - Lead Real-Time Demo Animation Design
+  names:
+  - name: Kazuaki Toya
+    ja: Kazuaki Toya
+    ja_match: romaji
+  ja_role: Lead Real-Time Demo Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS Entertainment
+  - Real-Time Demo Animation Design
+  names:
+  - name: Yosuke Tanahashi
+    ja: Yosuke Tanahashi
+    ja_match: romaji
+  - name: Maria Yoda
+    ja: Maria Yoda
+    ja_match: romaji
+  - name: Hokuto Abe
+    ja: Hokuto Abe
+    ja_match: romaji
+  ja_role: Real-Time Demo Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Act-Age Inc.
+  - Management
+  names:
+  - name: Kosuke Sasaki
+    ja: Kosuke Sasaki
+    ja_match: romaji
+  ja_role: Management
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Act-Age Inc.
+  - Animation Design
+  names:
+  - name: Mika Kamataki
+    ja: Mika Kamataki
+    ja_match: romaji
+  - name: Daisaku Chikyo
+    ja: Daisaku Chikyo
+    ja_match: romaji
+  ja_role: Animation Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Sound Design
+  names:
+  - name: Shiori Miyazawa
+    ja: Shiori Miyazawa
+    ja_match: romaji
+  ja_role: Lead Sound Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Lead Music Composer
+  names:
+  - name: Hiroki Hashimoto
+    ja: Hiroki Hashimoto
+    ja_match: romaji
+  ja_role: Lead Music Composer
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Sound Design
+  names:
+  - name: Yoshinori Kawamoto
+    ja: Yoshinori Kawamoto
+    ja_match: romaji
+  - name: Rio Hamamoto
+    ja: Rio Hamamoto
+    ja_match: romaji
+  - name: Eriko Sakurai
+    ja: Eriko Sakurai
+    ja_match: romaji
+  - name: Keigo Kuramochi
+    ja: Keigo Kuramochi
+    ja_match: romaji
+  - name: Saki Kusaga
+    ja_match: positional
+    ja: Saki Kasaga
+  - name: Mitsuhuri Kitadani
+    ja_match: positional
+    ja: Mitsuhiro Kitadani
+  - name: Maiko Uchizawa
+    ja: Maiko Uchizawa
+    ja_match: romaji
+  - name: Yusuke Kudo
+    ja: Yusuke Kudo
+    ja_match: romaji
+  - name: Yusuke Yamauchi
+    ja: Yusuke Yamauchi
+    ja_match: romaji
+  - name: Risa Aizawa
+    ja: Risa Aizawa
+    ja_match: romaji
+  - name: Chi O
+    ja: Chi O
+    ja_match: romaji
+  - name: Tomoki Okiura
+    ja: Tomoki Okiura
+    ja_match: romaji
+  - name: Yuki Kusuhara
+    ja: Yuki Kusuhara
+    ja_match: romaji
+  ja_role: Sound Design
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Music Composers
+  names:
+  - name: Junichi Nakatsuru
+    ja: Junichi Nakatsuru
+    ja_match: romaji
+  - name: Jesahm
+    ja: Jesahm
+    ja_match: romaji
+  ja_role: Music Composers
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Sound Design & Music Composers
+  names:
+  - name: LindaAI-CUE
+    ja: LindaAI-CUE
+    ja_match: romaji
+  - name: Yoshinori Hirai
+    ja: Yoshinori Hirai
+    ja_match: romaji
+  ja_role: Sound Design & Music Composers
+- path:
+  - Special Thanks
+  names:
+  - name: Mizushima Yoshinari
+    ja: Mizushima Yoshinari
+    ja_match: romaji
+  - name: Hiyu Demachi
+    ja: Hiyu Demachi
+    ja_match: romaji
+  - name: Ri Syoui
+    ja: Ri Syoui
+    ja_match: romaji
+  - name: Mami Tsukui
+    ja: Mami Tsukui
+    ja_match: romaji
+  - name: Saki Mabuchi
+    ja: Saki Mabuchi
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - BANDAI NAMCO Studios Inc.
+  - Art Management
+  names:
+  - name: Makoto Ando
+    ja: Makoto Ando
+    ja_match: romaji
+  - name: Motoki Shiino
+    ja: Motoki Shiino
+    ja_match: romaji
+  ja_role: Art Management
+- path:
+  - Producer
+  names:
+  - name: Jun Omura
+    ja: Jun Omura
+    ja_match: romaji
+  ja_role: Producer
+- path:
+  - General Producers
+  names:
+  - name: Tsuyoshi Kobayashi
+    ja: Tsuyoshi Kobayashi
+    ja_match: romaji
+  - name: Toshiharu Hijiya
+    ja: Toshiharu Hijiya
+    ja_match: romaji
+  - name: Shinya Sorimachi
+    ja: Shinya Sorimachi
+    ja_match: romaji
+  ja_role: General Producers
+- path:
+  - Executive Producer
+  names:
+  - name: Daisuke Uchiyama
+    ja: Daisuke Uchiyama
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Producers
+  names:
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Kazunori Sugiura
+    ja: Kazunori Sugiura
+    kanji: 杉浦一徳
+    ja_match: romaji
+  ja_role: The Pokémon Company / Producers
+- path:
+  - The Pokémon Company
+  - Development Producer
+  names:
+  - name: Kunimu Kawamura
+    ja_match: positional
+    ja: Kunimi Kawamura
+    kanji: 川村久仁美
+  ja_role: Development Producer
+- path:
+  - The Pokémon Company
+  - Development Support
+  names:
+  - name: Osamu Fujita
+    ja: Osamu Fujita
+    ja_match: romaji
+  - name: Makoto Higashi
+    ja: Makoto Higashi
+    ja_match: romaji
+  - name: Yuhma Ohchi
+    ja: Yuhma Ohchi
+    ja_match: romaji
+  - name: Madoka Nishizawa
+    ja: Madoka Nishizawa
+    ja_match: romaji
+  ja_role: Development Support
+- path:
+  - The Pokémon Company
+  - Debug
+  names:
+  - name: Koji Takiguchi
+    ja: Koji Takiguchi
+    ja_match: romaji
+  ja_role: Debug
+- path:
+  - The Pokémon Company
+  - Artwork
+  names:
+  - name: Yasuko Takahashi
+    ja: Yasuko Takahashi
+    ja_match: romaji
+  - name: Misato Takahashi
+    ja: Misato Takahashi
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - The Pokémon Company
+  - Chinese Localization
+  names:
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  - name: Yoshiko Aota
+    ja: Yoshiko Aota
+    ja_match: romaji
+  - name: Yu Nagao
+    ja: Yu Nagao
+    ja_match: romaji
+  ja_role: Chinese Localization
+- path:
+  - The Pokémon Company
+  - Chinese Translation
+  names:
+  - name: Yenchen Lin
+    ja_match: positional
+    ja: Yencheng Lin
+  - name: Yuting Tu
+    ja: Yuting Tu
+    ja_match: romaji
+  - name: SinHang Yeung
+    ja: SinHang Yeung
+    ja_match: romaji
+  - name: Yiping Cai
+    ja: Yiping Cai
+    ja_match: romaji
+  - name: Hajime Kisaragi
+    ja: Hajime Kisaragi
+    ja_match: romaji
+  - name: Endai Liao
+    ja: Endai Liao
+    ja_match: romaji
+  ja_role: Chinese Translation
+- path:
+  - The Pokémon Company
+  - Chinese Editing
+  names:
+  - name: Huiying Tsai
+    ja: Huiying Tsai
+    ja_match: romaji
+  - name: Yue Wang
+    ja: Yue Wang
+    ja_match: romaji
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  ja_role: Chinese Editing
+- path:
+  - The Pokémon Company
+  - Sales & Promotion
+  names:
+  - name: Eisuke Kasejima
+    ja: Eisuke Kasejima
+    ja_match: romaji
+  - name: Nobuhiro Swabe
+    ja_match: positional
+    ja: Nobuhiro Sawabe
+  - name: Keiko Mochida
+    ja: Keiko Mochida
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: Retsuji Nomoto
+    ja_match: romaji
+  - name: Kazuki Hayakawa
+    ja: Kazuki Hayakawa
+    ja_match: romaji
+  - name: Masato Ikeda
+    ja: Masato Ikeda
+    ja_match: romaji
+  - name: Yuma Imafuku
+    ja: Yuma Imafuku
+    ja_match: romaji
+  - name: Yuya Iwamoto
+    ja: Yuya Iwamoto
+    ja_match: romaji
+  - name: Mana Wakiyama
+    ja: Mana Wakiyama
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: Mikiko Ohashi
+    ja_match: romaji
+  - name: Shoichi Obora
+    ja: Shoichi Obora
+    ja_match: romaji
+  - name: Kazuyoshi Kojima
+    ja: Kazuyoshi Kojima
+    ja_match: romaji
+  - name: Junpei Matsuzaki
+    ja: Junpei Matsuzaki
+    ja_match: romaji
+  - name: Nobue Ito
+    ja: Nobue Ito
+    ja_match: romaji
+  - name: Seiji Iwata
+    ja: Seiji Iwata
+    ja_match: romaji
+  - name: Kazuki Konishi
+    ja: Kazuki Konishi
+    ja_match: romaji
+  - name: Mizuke Watanabe
+    ja_match: positional
+    ja: Mizuki Watanabe
+  ja_role: Sales & Promotion
+- path:
+  - Special Thanks
+  names:
+  - name: Maiko Isami
+    ja_match: positional
+    ja: Maiko Usami
+  - name: Marie Higuchi
+    ja: Marie Higuchi
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  - name: Kensuke Arai
+    ja: Kensuke Arai
+    ja_match: romaji
+  - name: Akifumi SHiobara
+    ja: Akifumi Shiobara
+    ja_match: romaji
+  - name: Kenichi Arai
+    ja: Kenichi Arai
+    ja_match: romaji
+  - name: Misuzu Kanayama
+    ja: Misuzu Kanayama
+    ja_match: romaji
+  - name: Momoko Kunioka
+    ja: Momoko Kunioka
+    ja_match: romaji
+  - name: Chie Shinno
+    ja: Chie Shinno
+    ja_match: romaji
+  - name: Keiko Okawa
+    ja: Keiko Okawa
+    ja_match: romaji
+  - name: Yohei Miyamoto
+    ja: Yohei Miyamoto
+    ja_match: romaji
+  - name: Daigorotoyohide Suga
+    ja: Daigorotoyohide Suga
+    ja_match: romaji
+  - name: Michael Isa Kacar
+    ja: Michael Isa Kacar
+    ja_match: romaji
+  - name: Kenji Yanagisawa
+    ja: Kenji Yanagisawa
+    ja_match: romaji
+  - name: Akihiro Haga
+    ja: Akihiro Haga
+    ja_match: romaji
+  - name: Ryoichi Miki
+    ja: Ryoichi Miki
+    ja_match: romaji
+  - name: Maki Fukuda
+    ja: Maki Fukuda
+    ja_match: romaji
+  - name: Yoshiki Yanashita
+    ja: Yoshiki Yanashita
+    ja_match: romaji
+  - name: Aya Sasagawa
+    ja: Aya Sasagawa
+    ja_match: romaji
+  - name: Yumiko Ohnuma
+    ja: Yumiko Ohnuma
+    ja_match: romaji
+  - name: Kenji Sugimoto
+    ja: Kenji Sugimoto
+    ja_match: romaji
+  - name: Eito Ueda
+    ja: Eito Ueda
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_match: romaji
+  - name: Takayuki Shindo
+    ja: Takayuki Shindo
+    ja_match: romaji
+  - name: Masaaki Hoshino
+    ja: Masaaki Hoshino
+    ja_match: romaji
+  - name: Satoshi Mitsuhara
+    ja: Satoshi Mitsuhara
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - The Pokémon Company International
+  - English Localization
+  names:
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Yohei Sugiyama
+    ja: Yohei Sugiyama
+    ja_match: romaji
+  - name: Terry Mihashi
+    ja: Terry Mihashi
+    ja_match: romaji
+  ja_role: The Pokémon Company International / English Localization
+- path:
+  - The Pokémon Company International
+  - European Localisation
+  names:
+  - name: Kaori Aoki
+    ja: Kaori Aoki
+    ja_match: romaji
+  - name: Makiko Wakai
+    ja: Makiko Wakai
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Maya Yoshida
+    ja: Maya Yoshida
+    ja_match: romaji
+  - name: Ryosuke Kurosaki
+    ja: Ryosuke Kurosaki
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Ristuko Oshu
+  - name: Hannah Vassallo
+    ja: Hannah Vassallo
+    ja_match: romaji
+  - name: Ritsuko Oshu
+    ja: Ritsuko Oshu
+    ja_match: romaji
+  - name: Hannah Vassallo
+  - name: Franck Couee
+    ja: Franck Couée
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Cyril Schultz
+    ja: Cyril Schultz
+    ja_match: romaji
+  - name: Diego Figaredo
+    ja: Diego Figaredo
+    ja_match: romaji
+  - name: Rei Haberberg
+    ja: Rei Haberberg
+    ja_match: romaji
+  ja_role: European Localisation
+- path:
+  - The Pokémon Company International
+  - English & European Localization Support
+  names:
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Robert Colling
+    ja: Robert Colling
+    ja_match: romaji
+  - name: Tadasu Hasegawa
+    ja: Tadasu Hasegawa
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  - name: Peter Bagley
+    ja: Peter Bagley
+    ja_match: romaji
+  ja_role: English & European Localization Support
+- path:
+  - The Pokémon Company International
+  - English & European Graphic Design
+  names:
+  - name: Dan Stephens
+    ja: Dan Stephens
+    ja_match: romaji
+  - name: Mark Pedini
+    ja: Mark Pedini
+    ja_match: romaji
+  - name: Tammy Vince Cruz
+    ja: Tammy Vince Cruz
+    ja_match: romaji
+  ja_role: English & European Graphic Design
+- path:
+  - The Pokémon Company International
+  - English Translation
+  names:
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Laura Barolomew
+    ja_match: positional
+    ja: Laura Bartholomew
+  - name: Jackson Pietsch
+    ja: Jackson Pietsch
+    ja_match: romaji
+  - name: Chelsea Inaba
+    ja: Chelsea Inaba
+    ja_match: romaji
+  - name: Shawn Williams-Brown
+    ja: Shawn Williams-Brown
+    ja_match: romaji
+  ja_role: English Translation
+- path:
+  - The Pokémon Company International
+  - English Editing
+  names:
+  - name: Kellyn Ballard
+    ja: Kellyn Ballard
+    ja_match: romaji
+  - name: Isaac Nickerson
+    ja: Isaac Nickerson
+    ja_match: romaji
+  - name: Robert Schiotis
+    ja: Robert Schiotis
+    ja_match: romaji
+  - name: Adrian Ng
+    ja: Adrian Ng
+    ja_match: romaji
+  - name: Dermot Creegan
+    ja: Dermot Creegan
+    ja_match: romaji
+  ja_role: English Editing
+- path:
+  - The Pokémon Company International
+  - French Translation
+  names:
+  - name: Lylia Khrissate
+    ja: Lylia Khrissate
+    ja_match: romaji
+  - name: Noemie Pradier
+    ja: Noémie Pradier
+    ja_match: romaji
+  - name: Olivia Bonnal
+    ja: Olivia Bonnal
+    ja_match: romaji
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Nicolas Sindres
+    ja: Nicolas Sindres
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - The Pokémon Company International
+  - French Editing
+  names:
+  - name: Marine Vallee
+    ja: Marine Vallée
+    ja_match: romaji
+  - name: Thomas Garel
+    ja: Thomas Garel
+    ja_match: romaji
+  ja_role: French Editing
+- path:
+  - The Pokémon Company International
+  - Italian Translation
+  names:
+  - name: Annarita Spera
+    ja: Annarita Spera
+    ja_match: romaji
+  - name: Jacopo Vanin
+    ja: Jacopo Vanin
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  ja_role: Italian Translation
+- path:
+  - The Pokémon Company International
+  - Italian Editing
+  names:
+  - name: Marco Licatelli
+    ja_match: positional
+    ja: Marco Locatelli
+  - name: Guendalina Pirruccio
+    ja: Guendalina Pirruccio
+    ja_match: romaji
+  - name: Sergio Bianhi
+    ja_match: positional
+    ja: Sergio Bianchi
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Valentina Menale
+    ja: Valentina Menale
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  ja_role: Italian Editing
+- path:
+  - The Pokémon Company International
+  - German Translation
+  names:
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Carolin Maibach
+    ja: Carolin Maibach
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Sophie Jüterbock
+    ja: Sophie Jüterbock
+    ja_match: romaji
+  - name: Jan Lukas Kuhn
+    ja: Jan Lukas Kuhn
+    ja_match: romaji
+  ja_role: German Translation
+- path:
+  - The Pokémon Company International
+  - German Editing
+  names:
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Kristin Biwer
+    ja: Kristin Biwer
+    ja_match: romaji
+  - name: Alina Linnenweber
+    ja: Alina Linnenweber
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Barbara Schweinzer
+    ja: Barbara Schweinzer
+    ja_match: romaji
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Sira Vaterhaus
+    ja: Sira Vaterhaus
+    ja_match: romaji
+  ja_role: German Editing
+- path:
+  - The Pokémon Company International
+  - Spanish Translation
+  names:
+  - name: Alicia Iribarren Mendoza
+    ja: Alicia Iribarren Mendoza
+    ja_match: romaji
+  - name: Servando Doval Diaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Edith Belarra Lopez
+    ja: Edith Belarra López
+    ja_match: romaji
+  - name: Diego Luque De la Campa
+    ja: Diego Luque de la Campa
+    ja_match: romaji
+  ja_role: Spanish Translation
+- path:
+  - The Pokémon Company International
+  - Spanish Editing
+  names:
+  - name: Eva Rodriguez Grana
+    ja: Eva Rodríguez Graña
+    ja_match: romaji
+  - name: Juan Jose Leiva Jimenez
+    ja: Juan José Leiva Jiménez
+    ja_match: romaji
+  - name: Ruben Lado Riomao
+    ja: Rubén Lado Riomao
+    ja_match: romaji
+  - name: Irene Mascaro Genestar
+    ja: Irene Mascaró Genestar
+    ja_match: romaji
+  - name: Virgina Parades Gurrea
+    ja_match: positional
+    ja: Virginia Paradés Gurrea
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  - name: Pindaro Vargas-Farias
+    ja: Píndaro Vargas-Farías
+    ja_match: romaji
+  ja_role: Spanish Editing
+- path:
+  - The Pokémon Company International
+  - Sound Crew
+  - Producer
+  names:
+  - name: Toshifumi Yoshida
+    ja: Toshifumi Yoshida
+    ja_match: romaji
+  ja_role: Sound Crew / Producer
+- path:
+  - The Pokémon Company International
+  - Sound Crew
+  - Supervising Producer
+  names:
+  - name: Andy Gose
+    ja: Andy Gose
+    ja_match: romaji
+  ja_role: Supervising Producer
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Co-Executive Producer
+  names:
+  - name: Eric P. Sherman
+    ja: Eric P. Sherman
+    ja_match: romaji
+  ja_role: Co-Executive Producer
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Co-Producer / Casting Director
+  names:
+  - name: Mami Okada
+    ja: Mami Okada
+    ja_match: romaji
+  ja_role: Co-Producer / Casting Director
+- path:
+  - Associate Producer
+  names:
+  - name: Mio Moroe
+    ja: Mio Moroe
+    ja_match: romaji
+  ja_role: Associate Producer
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Production Executive
+  names:
+  - name: Jonathan Sherman
+    ja: Jonathan Sherman
+    ja_match: romaji
+  ja_role: Production Executive
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - English Voice Director
+  names:
+  - name: Philip Bache
+    ja: Philip Bache
+    ja_match: romaji
+  ja_role: English Voice Director
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - ADR Script Writer
+  names:
+  - name: Nick Turner
+    ja: Nick Turner
+    ja_match: romaji
+  ja_role: English Voice Director
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Senior Production Manager
+  names:
+  - name: AJ Gam
+    ja: AJ Gam
+    ja_match: romaji
+  ja_role: Senior Production Manager
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Production Manager
+  names:
+  - name: Jessica Peace
+    ja: Jessica Peace
+    ja_match: romaji
+  ja_role: Production Manager
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Production Coordinators
+  names:
+  - name: Mizuki Araki
+    ja: Mizuki Araki
+    ja_match: romaji
+  - name: Cassandra Pugliese
+    ja: Cassandra Pugliese
+    ja_match: romaji
+  - name: Liam Doherty
+    ja: Liam Doherty
+    ja_match: romaji
+  - name: Jocelyn Huang
+    ja: Jocelyn Huang
+    ja_match: romaji
+  - name: Robert G. Mah
+    ja: Robert G. Mah
+    ja_match: romaji
+  ja_role: Production Coordinators
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Sound Supervisor
+  names:
+  - name: Patrick Rodman CAS
+    ja: Patrick Rodman CAS
+    ja_match: romaji
+  ja_role: Sound Supervisor
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Recording EnNgineers
+  names:
+  - name: Eric Raichelson
+    ja: Eric Raichelson
+    ja_match: romaji
+  - name: Jun Umeda
+    ja: Jun Umeda
+    ja_match: romaji
+  ja_role: Recording Engineers
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Dialogue Editor
+  names:
+  - name: April Machado
+    ja: April Machado
+    ja_match: romaji
+  ja_role: Dialogue Editor
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Audio Operations Superivosr
+  names:
+  - name: Rayner Tham
+    ja: Rayner Tham
+    ja_match: romaji
+  ja_role: Audio Operations Superivisor
+- path:
+  - The Pokémon Company International
+  - Bang Zoom! Entertainment
+  - Assistant Engineers
+  names:
+  - name: Jonathan Jay Brannen
+    ja: Jonathan Jay Brannen
+    ja_match: romaji
+  - name: John Shieh
+    ja: John Shieh
+    ja_match: romaji
+  - name: Heidi Hoffman
+    ja_match: positional
+    ja: Heidi Hoffmann
+  - name: Nicholas Radomski
+    ja: Nicholas Radomski
+    ja_match: romaji
+  - name: Ismael Yanez
+    ja: Ismael Yanez
+    ja_match: romaji
+  - name: Keeley Pierson
+    ja: Keeley Pierson
+    ja_match: romaji
+  ja_role: Audio Operations Superivisor
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - The Pokémon Company International
+  - Pokémon Korea, Inc.
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Dongun Pak
+    ja: Dongun Pak
+    ja_match: romaji
+  - name: Jooyeon Han
+    ja: Jooyeon Han
+    ja_match: romaji
+  - name: Eunbi Jo
+    ja: Eunbi Jo
+    ja_match: romaji
+  ja_role: Pokémon Korea, Inc. / Korean Translation & Editing
+- path:
+  - Special Thanks
+  names:
+  - name: Jaiboem Lim
+    ja: Jaiboem Lim
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Jihye Lee
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - The Pokémon Company International
+  - Nintendo of America
+  - English Localization Support
+  names:
+  - name: Akiko Kasugayama
+    ja: Akiko Kasugayama
+    ja_match: romaji
+  - name: Lauren Ammerman
+    ja: Lauren Ammerman
+    ja_match: romaji
+  - name: Kris Copeland
+    ja: Kris Copeland
+    ja_match: romaji
+  - name: Yoriko Marusich
+    ja: Yoriko Marusich
+    ja_match: romaji
+  - name: Thomas Candland
+    ja: Thomas Candland
+    ja_match: romaji
+  - name: Michael Bales
+    ja: Michael Bales
+    ja_match: romaji
+  ja_role: Nintendo of America Inc. / English Localization Support
+- path:
+  - The Pokémon Company International
+  - Nintendo of America
+  - NOA Product Testing
+  names:
+  - name: Kentaro Nishimura
+    ja: Kentaro Nishimura
+    ja_match: romaji
+  - name: Kirk Buchanan
+    ja: Kirk Buchanan
+    ja_match: romaji
+  - name: Tomo Ishiyama
+    ja: Tomo Ishiyama
+    ja_match: romaji
+  - name: Sean Egan
+    ja: Sean Egan
+    ja_match: romaji
+  - name: Tomoko Mikami
+    ja: Tomoko Mikami
+    ja_match: romaji
+  - name: Andy Kolden
+    ja: Andy Kolden
+    ja_match: romaji
+  - name: Pat Wells
+    ja: Pat Wells
+    ja_match: romaji
+  - name: Makiko Szolas
+    ja: Makiko Szolas
+    ja_match: romaji
+  - name: Tom Hertzog
+    ja: Tom Hertzog
+    ja_match: romaji
+  - name: Marko Wallenius
+    ja: Marko Wallenius
+    ja_match: romaji
+  - name: Michael Sahlin
+    ja: Michael Sahlin
+    ja_match: romaji
+  - name: James Dillion
+    ja_match: positional
+    ja: James Dillon
+  - name: Josh Yagi-Stanton
+    ja: Josh Yagi-Stanton
+    ja_match: romaji
+  - name: Jake Lokholm
+    ja: Jake Lokholm
+    ja_match: romaji
+  - name: Spencer Stoddard
+    ja: Spencer Stoddard
+    ja_match: romaji
+  - name: Nicholas DeVoll
+    ja: Nicholas DeVoll
+    ja_match: romaji
+  - name: Product Testing Technicians
+    kind: company
+    ja: Product Testing Technicians
+    ja_match: romaji
+  ja_role: NOA Product Testing
+- path:
+  - The Pokémon Company International
+  - Nintendo of Europe GmbH
+  - European Localisation Support
+  names:
+  - name: Dario De Leo
+    ja: Dario De Leo
+    ja_match: romaji
+  - name: Patrick Thorenz
+    ja: Patrick Thorenz
+    ja_match: romaji
+  ja_role: European Localisation Support
+- path:
+  - The Pokémon Company International
+  - Nintendo of Europe GmbH
+  - European Quality Assurance Coordination
+  names:
+  - name: Jesús Gutiérrez Cuadra
+    ja: Jesús Gutiérrez Cuadra
+    ja_match: romaji
+  - name: Marco Gruden
+    ja: Marco Gruden
+    ja_match: romaji
+  ja_role: European Quality Assurance Coordination
+- path:
+  - The Pokémon Company International
+  - Nintendo of Europe GmbH
+  - European Quality Assurance
+  names:
+  - name: Ahmed Bounouar
+    ja: Ahmed Bounouar
+    ja_match: romaji
+  - name: Matthiew Lamouroux
+    ja_match: positional
+    ja: Matthieu Lamouroux
+  - name: Mathieu Springinsfeld
+    ja: Mathieu Springinsfeld
+    ja_match: romaji
+  - name: Laurence Uhlen
+    ja: Laurence Uhlen
+    ja_match: romaji
+  - name: Julien Veron
+    ja: Julien Veron
+    ja_match: romaji
+  - name: Veronica Casi
+    ja: Veronica Casi
+    ja_match: romaji
+  - name: Gabriele Cuscino
+    ja: Gabriele Cuscino
+    ja_match: romaji
+  - name: Rita Di Lascio
+    ja: Rita Di Lascio
+    ja_match: romaji
+  - name: Andrea Marino
+    ja: Andrea Marino
+    ja_match: romaji
+  - name: Pasquale Gianluca Miceli
+    ja: Pasquale Gianluca Miceli
+    ja_match: romaji
+  - name: Swen Harder
+    ja: Swen Harder
+    ja_match: romaji
+  - name: Edwin Kirschenmann
+    ja: Edwin Kirschenmann
+    ja_match: romaji
+  - name: Sascha Michalke
+    ja: Sascha Michalke
+    ja_match: romaji
+  - name: Christina Stoffel
+    ja: Christina Stoffel
+    ja_match: romaji
+  - name: Manuel Tants
+    ja: Manuel Tants
+    ja_match: romaji
+  - name: Mugiel Angel Carnero Calderon
+    ja_match: positional
+    ja: Miguel Ángel Carnero Calderón
+  - name: Jorge Heras Garcia
+    ja: Jorge Heras García
+    ja_match: romaji
+  - name: Ibon Diez Maeztu
+    ja: Ibon Díez Maeztu
+    ja_match: romaji
+  - name: Julio Manzaneda Medina
+    ja: Julio Manzaneda Medina
+    ja_match: romaji
+  - name: David Martin Navarro
+    ja: David Martín Navarro
+    ja_match: romaji
+  - name: Grace Yon
+    ja: Grace Yon
+    ja_match: romaji
+  ja_role: European Quality Assurance
+- path:
+  - The Pokémon Company International
+  - Nintendo of Korea Co., Ltd.
+  - Korean Localization Support
+  names:
+  - name: Dongyeon Kim
+    ja: Dongyeon Kim
+    ja_match: romaji
+  - name: Jihyuen Yoo
+    ja: Jihyuen Yoo
+    ja_match: romaji
+  ja_role: Korean Localization Support
+- path:
+  - The Pokémon Company International
+  - Nintendo of Korea Co., Ltd.
+  - Korean Testing & Quality Assurance
+  names:
+  - name: Jeewan Chun
+    ja: Jeewan Chun
+    ja_match: romaji
+  - name: OrgoSoft Co., Ltd.
+    kind: company
+    ja: OrgoSoft Co., Ltd.
+    ja_match: romaji
+  ja_role: Korean Testing & Quality Assurance
+- path:
+  - The Pokémon Company International
+  - Nintendo (Hong Kong) Ltd.
+  - Tradiitonal CHinese Localization Support
+  names:
+  - name: Wang Zhong Long
+    ja: Wang Zhong Long
+    ja_match: romaji
+  ja_role: Nintendo (Hong Kong) Ltd. / Traditional Chinese Localization Support
+- path:
+  - The Pokémon Company International
+  - Nintendo (Hong Kong) Ltd.
+  - Traditonal Chinese Product Testing
+  names:
+  - name: Umemura Eiji
+    ja_match: positional
+    ja: Umemura Eiju
+  - name: DIGITAL HEARTS Co., Ltd.
+    kind: company
+    ja: DIGITAL HEARTS Co., Ltd.
+    ja_match: romaji
+  ja_role: Traditional Chinese Product Testing
+- path:
+  - The Pokémon Company International
+  - iQue (China) Ltd.
+  - Simplified Chinese Localization Support
+  names:
+  - name: Keisuke Fukushima
+    ja: Keisuke Fukushima
+    ja_match: romaji
+  - name: Misa Matsumoto
+    ja: Misa Matsumoto
+    ja_match: romaji
+  - name: Xu Ming
+    ja: Xu Ming
+    ja_match: romaji
+  ja_role: Simplified Chinese Localization Support
+- path:
+  - The Pokémon Company International
+  - iQue (China) Ltd.
+  - Simplified Chinese Product Testing
+  names:
+  - name: Chen Yi Jun
+    ja_match: positional
+    ja: Chen YiJun
+  - name: DIGITAL HEARTS Co., Ltd.
+    kind: company
+    ja: DIGITAL HEARTS Co., Ltd.
+    ja_match: romaji
+  ja_role: Simplified Chinese Product Testing
+- path:
+  - The Pokémon Company International
+  - Mario Club Co., Ltd.
+  - Testing Management
+  names:
+  - name: Takahiro Kumasaka
+    ja: Takahiro Kumasaka
+    ja_match: romaji
+  - name: Motoki Nakajima
+    ja: Motoki Nakajima
+    ja_match: romaji
+  ja_role: Testing Management
+- path:
+  - The Pokémon Company International
+  - Mario Club Co., Ltd.
+  - Product Testing
+  names:
+  - name: Tasuku Mizuno
+    ja: Tasuku Mizuno
+    ja_match: romaji
+  - name: Masahiro Okuda
+    ja: Masahiro Okuda
+    ja_match: romaji
+  - name: Tomohiro Hirao
+    ja: Tomohiro Hirao
+    ja_match: romaji
+  - name: Manami Saigo
+    ja: Manami Saigo
+    ja_match: romaji
+  - name: Kaori Kawase
+    ja: Kaori Kawase
+    ja_match: romaji
+  - name: Hayato Ono
+    ja: Hayato Ono
+    ja_match: romaji
+  - name: Toru Hirashima
+    ja: Toru Hirashima
+    ja_match: romaji
+  - name: Yasumasa Yoshimura
+    ja: Yasumasa Yoshimura
+    ja_match: romaji
+  - name: Toshiki Fujimoto
+    ja: Toshiki Fujimoto
+    ja_match: romaji
+  - name: Junya Shimotani
+    ja: Junya Shimotani
+    ja_match: romaji
+  - name: Taiju Kusakawa
+    ja: Taiju Kusakawa
+    ja_match: romaji
+  - name: Masaki Mori
+    ja: Masaki Mori
+    ja_match: romaji
+  - name: SHIFT Inc,
+    kind: company
+    ja: SHIFT Inc.
+    ja_match: romaji
+  ja_role: Product Testing
+- path:
+  - The Pokémon Company International
+  - Nintendo Co., Ltd.
+  - Technical Support
+  names:
+  - name: Shuhei Furukawa
+    ja: Shuhei Furukawa
+    ja_match: romaji
+  - name: Kyohei Minato
+    ja: Kyohei Minato
+    ja_match: romaji
+  - name: Hiroaki Gohara
+    ja: Hiroaki Gohara
+    ja_match: romaji
+  - name: Noritaka Otsuka
+    ja: Noritaka Otsuka
+    ja_match: romaji
+  - name: Yasuyuki Ikeda
+    ja: Yasuyuki Ikeda
+    ja_match: romaji
+  - name: Tomohiro Umeda
+    ja: Tomohiro Umeda
+    ja_match: romaji
+  - name: Shingo Okamoto
+    ja: Shingo Okamoto
+    ja_match: romaji
+  - name: Kei Ninomiya
+    ja: Kei Ninomiya
+    kanji: 二宮啓
+    ja_match: romaji
+  ja_role: Nintendo Co., Ltd. / Technical Support
+- path:
+  - The Pokémon Company International
+  - Coordinators
+  names:
+  - name: Yuki Okada
+    ja: Yuki Okada
+    ja_match: romaji
+  - name: Noriko Nakagawa
+    ja: Noriko Nakagawa
+    ja_match: romaji
+  - name: Masahiro Shiotani
+    ja: Masahiro Shiotani
+    ja_match: romaji
+  ja_role: Coordinators
+- path:
+  - Special Thanks
+  names:
+  - name: Yoichi Yamamoto
+    ja: Yoichi Yamamoto
+    kanji: 山本洋一
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Producers
+  names:
+  - name: Toyokazu Nonaka
+    ja: Toyokazu Nonaka
+    kanji: 野中豊和
+    ja_match: romaji
+  - name: Akira Kinashi
+    ja: Akira Kinashi
+    kanji: 木梨玲
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - General Producer
+  names:
+  - name: Shinya Takahashi
+    ja: Shinya Takahashi
+    kanji: 高橋伸也
+    ja_match: romaji
+  ja_role: General Producer
+- path:
+  - Executive Producer
+  names:
+  - name: Shuntaro Furukawa
+    ja: Shuntaro Furukawa
+    kanji: 古川俊太郎
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - The Pokémon Company International
+  - Pokémon Voice Actor
+  names:
+  - name: Ikue Otani
+    link: Ikue Ohtani
+    ja: Ikue Otani
+    kanji: 大谷育江
+    ja_match: romaji
+  ja_role: Pokémon Voice Actor
+- path:
+  - The Pokémon Company International
+  - Character Voice Actor
+  names:
+  - name: Prof. Kagami - Ryotaro Okiayu
+  - name: Professor Mirror  - Ben Lepley
+    link: Professor Mirror
+    ja: Professor Mirror Ben Lepley
+    ja_match: romaji
+  - name: Rita - Manami Numakura
+    ja_match: positional
+    ja: Rita [[沼倉愛美|Manami Numakura]]
+  - name: Rita - Anairis Quinones
+    link: Rita
+    ja: Rita Anairis Quinones
+    ja_match: romaji
+  - name: Toru - Kappei Yamaguchi
+  - name: Todd - Griffin Burns
+    link: Todd Snap
+    ja: Todd Griffin Burns
+    ja_match: romaji
+  - name: Phill - Makoto Koichi
+  - name: Phil - Erica Mendez
+    link: Phil
+    ja: Phil Erica Mendez
+    ja_match: romaji
+  ja_role: Character Voice Actor
+- path:
+  - The Pokémon Company International
+  - Character Voice Actor
+  - Sound Director
+  names:
+  - name: Masafumi Mima
+    ja: Masafumi Mima
+    kanji: 三間雅文
+    ja_match: romaji
+  ja_role: Sound Director
+- path:
+  - The Pokémon Company International
+  - Character Voice Actor
+  - Technical Cooperation
+  names:
+  - name: Aoi Studio
+    kind: company
+    ja: Aoi Studio
+    ja_match: romaji
+  ja_role: Technical Cooperation
+- path:
+  - The Pokémon Company International
+  - Character Voice Actor
+  - Sound Production
+  names:
+  - name: HALF HP Studio
+    kind: company
+    ja: HALF HP Studio
+    kanji: HALF H・P STUDIO
+    ja_match: romaji
+  ja_role: Sound Production
+- path:
+  - The Pokémon Company International
+  - Character Voice Actor
+  - Sound Cooperation
+  names:
+  - name: Shogakukan-Shueisha Productions Co., Ltd.
+    kind: company
+    ja: Shogakukan-Shueisha Productions Co., Ltd.
+    kanji: 小学館集英社プロダクション
+    ja_match: romaji
+  ja_role: Sound Cooperation
+- path:
+  - The Pokémon Company International
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: Powered by Wwise(C) 2006 - 2021 Audiokinetic Inc. All rights reserved. / Uses Oodle. Copyright (C) 2008 - 2021 by Epic Games Tools, LLC. / Pokémon Original Director
+- path:
+  - The Pokémon Company International
+  - Very Special Thanks
+  - GAME FREAK inc.
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Go Ichinose
+    link: Gō Ichinose
+    ja: Go Ichinose
+    kanji: 一之瀬剛
+    ja_match: romaji
+  ja_role: Very Special Thanks / GAME FREAK inc.
+- path:
+  - The Pokémon Company International
+  - Very Special Thanks
+  - Creatures Inc.
+  names:
+  - name: Masamichi Anazawa
+    ja: Masamichi Anazawa
+    kanji: 穴澤匡道
+    ja_match: romaji
+  - name: Atsuko Ujiie
+    ja: Atsuko Ujiie
+    kanji: 氏家淳子
+    ja_match: romaji
+  - name: Tomohiro Mori
+    ja: Tomohiro Mori
+    ja_match: romaji
+  ja_role: Creatures Inc.
+- path:
+  - The Pokémon Company International
+  - Very Special Thanks
+  - HAL Laboratory, Inc.
+  names:
+  - name: Shigefumi Kawase
+    ja: Shigefumi Kawase
+    kanji: 川瀬滋史
+    ja_match: romaji
+  ja_role: HAL Laboratory, Inc.
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: The Pokémon Company / Executive Producer
+ja_unmatched:
+- kana: SEVEN DREAMS, Inc,
+  role: Translator
+- kana: SWORDCANES STUDIO Co., Ltd.
+  role: Concept Artists
+- kana: XAX ENTERTAINMENT Inc.
+  role: Character Modeling
+- kana: bee tribe co., ltd.
+  role: Character Modeling
+- kana: ADGLOBE Inc.
+  role: Environment Artists
+- kana: Tatsuya Itoh
+  role: Environment Artist
+- kana: geechs inc.
+  role: Environment Artist
+- kana: quack-luck inc,
+  role: UI Design
+- kana: GOTORON Inc.
+  role: VFX Artist
+- kana: Ray Dream Studio Inc.
+  role: VFX Artist
+- kana: Studio RF Inc.
+  role: VFX/Cinematic Artist
+- kana: Digital Frontier Inc.
+  role: Movie Direction
+- kana: Animation Design
+  role: Asset Modeling
+- kana: IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS ENTERTAINMENT
+  role: Animation Design
+- kana: ACT-AGE Inc.
+  role: Real-Time Demo Animation Design
+- kana: Bang Zoom! Entertainment
+  role: Supervising Producer
+- kana: ADR Script Writer
+  role: English Voice Director
+- kana: Assistant Engineers
+  role: Audio Operations Superivisor
+- kana: Nintendo of Europe GmbH
+  role: NOA Product Testing
+- kana: Nintendo of Korea Co., Ltd.
+  role: European Quality Assurance
+- kana: iQue (China) Ltd.
+  role: Traditional Chinese Product Testing
+- kana: Mario Club Co., Ltd.
+  role: Simplified Chinese Product Testing
+- kana: Prof. Kagami [[置鮎龍太郎|Ryotaro Okiayu]]
+  role: Character Voice Actor
+  kanji: カガミ博士
+- kana: Toru [[山口勝平|Kappei Yamaguchi]]
+  role: Character Voice Actor
+- kana: Phill [[小市眞琴|Makoto Koichi]]
+  role: Character Voice Actor

@@ -1,0 +1,86 @@
+---
+layout: default
+---
+{%- comment -%}
+The works library: every work in _data/works.yml as a card — its icon (or
+version swatch), how many entries the library holds on it, and, for the
+games whose credits are in, the staff roll (count, year, developer). Games
+with a staff roll come first in release order; the rest (anime, cards, the
+side series) follow by coverage. The long tail of works mentioned only in
+post metadata stays on the generated entity index, linked at the end.
+{%- endcomment -%}
+{% assign games = "" | split: "" %}
+{% assign others = "" | split: "" %}
+{% for w in site.data.works %}
+  {% assign name = w.name %}
+  {% assign cg = site.data.credits_games | where: "work", name | first %}
+  {% assign mine = site.posts | where_exp: "p", "p.entities.works contains name" %}
+  {% if cg %}
+    {% assign key = cg.year | append: "|" | append: forloop.index0 %}
+    {% assign games = games | push: key %}
+  {% else %}
+    {% assign key = mine.size | prepend: "00000" | slice: -5, 5 | append: "|" | append: forloop.index0 %}
+    {% assign others = others | push: key %}
+  {% endif %}
+{% endfor %}
+{% assign games = games | sort %}
+{% assign others = others | sort | reverse %}
+
+<div id="main" role="main">
+  <div class="archive archive--person archive--works">
+    <section class="people works">
+      <header class="people__head">
+        <p class="person__kicker">作品库</p>
+        <h1 class="person__name">作品</h1>
+        <p class="people__lede">{{ site.data.works | size }} 部作品：每张卡片写站内收录了多少条目；有制作名单的游戏另标署名人数，点「名单」看整份 credits。图标是 Pokémon HOME 的作品图标或版本色精灵球。</p>
+      </header>
+
+      <h2 class="people__h2">有制作名单的游戏 <small>{{ games.size }}</small></h2>
+      <ul class="works__grid">
+        {% for r in games %}
+          {% assign parts = r | split: "|" %}
+          {% assign i = parts[1] | plus: 0 %}
+          {% assign w = site.data.works[i] %}
+          {% assign name = w.name %}
+          {% assign cg = site.data.credits_games | where: "work", name | first %}
+          {% assign mine = site.posts | where_exp: "p", "p.entities.works contains name" %}
+          <li class="works__card">
+            <a class="works__icon" href="{{ '/credits/' | append: cg.slug | append: '/' | relative_url }}">
+              {% if w.icon %}<img src="{{ w.icon | relative_url }}" alt="" loading="lazy" width="56" height="56">{% if w.icon2 %}<img src="{{ w.icon2 | relative_url }}" alt="" loading="lazy" width="56" height="56">{% endif %}{% elsif w.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ w.color }} 50%, {{ w.color2 | default: w.color }} 50%)"></i>{% endif %}
+            </a>
+            <div class="works__body">
+              <strong>{{ name }}</strong>
+              <small>{{ cg.year }} · {{ cg.developer }}</small>
+              <p class="works__links">
+                <a href="{{ '/credits/' | append: cg.slug | append: '/' | relative_url }}">名单 <b>{{ cg.count }}</b></a>
+                {% if mine.size > 0 %}<a href="{{ '/search/?work=' | append: name | relative_url }}">条目 <b>{{ mine.size }}</b></a>{% endif %}
+              </p>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2 class="people__h2">其他作品 <small>{{ others.size }}</small></h2>
+      <ul class="works__grid works__grid--compact">
+        {% for r in others %}
+          {% assign parts = r | split: "|" %}
+          {% assign n = parts[0] | plus: 0 %}
+          {% assign i = parts[1] | plus: 0 %}
+          {% assign w = site.data.works[i] %}
+          {% assign name = w.name %}
+          <li class="works__card">
+            <a class="works__icon" href="{{ '/search/?work=' | append: name | relative_url }}">
+              {% if w.icon %}<img src="{{ w.icon | relative_url }}" alt="" loading="lazy" width="44" height="44">{% elsif w.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ w.color }} 50%, {{ w.color2 | default: w.color }} 50%)"></i>{% else %}<span class="works__blank" aria-hidden="true">{{ name | slice: 0, 1 }}</span>{% endif %}
+            </a>
+            <div class="works__body">
+              <strong>{{ name }}</strong>
+              <p class="works__links">{% if n > 0 %}<a href="{{ '/search/?work=' | append: name | relative_url }}">条目 <b>{{ n }}</b></a>{% else %}<span>尚无条目</span>{% endif %}</p>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="works__foot">文章元数据里提到的全部作品（含杂志、企划名）见<a href="{{ '/entities/works/' | relative_url }}">作品索引</a>；{{ site.data.credits_games | size }} 部有 staff 名单的游戏（含外传）见<a href="{{ '/credits/' | relative_url }}">制作名单</a>。</p>
+    </section>
+  </div>
+</div>

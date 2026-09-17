@@ -1,0 +1,26 @@
+# 人工维护：tools/build-credits.py index 读。
+# merges: 错拼 → 正拼（按归一后的罗马字比较；Nisino/Nishino、Ohmori/Omori 这类拼法差异脚本已经会合并，这里只放真正的错字）
+# splits: 同罗马字的不同人，按职务关键词拆开（拆出来的条目 key 带后缀）
+merges:
+  Koji Nishimo: Koji Nishino               # 红蓝宝石 Parametric Design 的错字
+  Tetsuji Ohata: Tetsuji Ota               # 心金魂银 Parametric Design（太田哲司）
+  Doisuke Goto: Daisuke Goto
+  Yumi Funusaka: Yumi Funasaka
+  Teresa Lillygreen: Teresa Lillygren
+  Thomas Hertzhog: Thomas Hertzog
+  Hiroyuiki Jinnai: Hiroyuki Jinnai
+  Shiniya Takahashi: Shinya Takahashi      # 剑盾错字（高橋伸也）
+  Alina Linnenweber: Alina Linneweber
+  Sususmu Fukunaga: Susumu Fukunaga
+  Kenijro Ito: Kenjiro Ito
+  Ben-Howard-Hale: Ben Howard-Hale
+  Anna Rita Spera: Annarita Spera
+  A. Fey: Andy Fey
+  Takae Shimizu: Takao Shimizu             # 水晶 Mobile System Director 清水隆雄
+  Tatsuya Hashida: Tatsuya Hishida         # 菱田達也
+  Takeshi Kawachimuru: Takeshi Kawachimaru # 川内丸武史
+  Kenji Matsusima: Kenji Matsushima
+splits:
+  - name: Hiro Nakamura
+    role_match: "Coordinat|US Version|English|Localization"
+    suffix: NOA                            # 1998–2004 任天堂美国的协调员；2006 起的 Hiro Nakamura 是 GF 企划

@@ -1,0 +1,518 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Sky + https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_空の探検隊のスタッフクレジット
+slug: mystery-dungeon-explorers-of-sky
+title: 'Staff of Pokémon Mystery Dungeon: Explorers of Sky'
+work: null
+year: 2009
+developer: The Pokémon Company/Chunsoft
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Sky
+count: 136
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_空の探検隊のスタッフクレジット
+ja_alignment:
+  ja_total: 86
+  ja_matched: 85
+  ja_positional: 3
+  ja_only_added: 0
+sections:
+- path:
+  - Producer
+  names:
+  - name: Koichi Nakamura
+    ja: Koichi Nakamura
+    kanji: 中村光一
+    ja_match: romaji
+  ja_role: Producer
+- path:
+  - Directors
+  names:
+  - name: Seiichiro Nagahata
+    ja: Seiichiro Nagahata
+    kanji: 長畑成一郎
+    ja_match: romaji
+  - name: Hironori Ishigami
+    ja: Hironori Ishigami
+    kanji: 石神宏紀
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Scenario
+  names:
+  - name: Shin-ichiro Tomie
+    ja: Shin-ichiro Tomie
+    kanji: 冨江慎一郎
+    ja_match: romaji
+  - name: Emiko Tanaka
+    ja: Emiko Tanaka
+    kanji: 田中絵美子
+    ja_match: romaji
+  ja_role: Scenario
+- path:
+  - Game Planning
+  names:
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Hideyuki Shibamoto
+    ja: Hideyuki Shibamoto
+    ja_match: romaji
+  - name: Yoriki Daigo
+    ja: Yoriki Daigo
+    ja_match: romaji
+  - name: Shonosuke Morisue
+    ja: Shonosuke Morisue
+    ja_match: romaji
+  - name: Shiegyuki Hirata
+    ja: Shiegyuki Hirata
+    ja_match: romaji
+  - name: Masataka Matsuura
+    ja: Masataka Matsuura
+    ja_match: romaji
+  - name: Takeshi Kimura
+    ja: Takeshi Kimura
+    ja_match: romaji
+  - name: Tomohide Okaizumi
+    ja: Tomohide Okaizumi
+    ja_match: romaji
+  ja_role: Game Planning
+- path:
+  - Main Programming
+  names:
+  - name: Yuji Fukuda
+    ja: Yuji Fukuda
+    ja_match: romaji
+  ja_role: Main Programming
+- path:
+  - Programming
+  names:
+  - name: Takuya Kanai
+    ja: Takuya Kanai
+    ja_match: romaji
+  - name: Etsuo Oishi
+    ja: Etsuo Oishi
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Graphic Director
+  names:
+  - name: Fuyuhiko Koizumi
+    ja: Fuyuhiko Koizumi
+    kanji: 小泉冬彦
+    ja_match: romaji
+  ja_role: Graphic Director
+- path:
+  - BG Illustration
+  names:
+  - name: Hisashi Nagai
+    ja: Hisashi Nagai
+    ja_match: romaji
+  - name: Shigeru Kawahara
+    ja: Shigeru Kawahara
+    ja_match: romaji
+  - name: Mei Seto
+    ja: Mei Seto
+    ja_match: romaji
+  - name: Emi Bota
+    ja: Emi Bota
+    ja_match: romaji
+  - name: Kazuto Misawa
+    ja: Kazuto Misawa
+    ja_match: romaji
+  - name: Kouki Saitou
+    ja: Kouki Saitou
+    kanji: 斉藤コーキ
+    ja_match: romaji
+  ja_role: BG Illustration
+- path:
+  - Design Directors
+  names:
+  - name: Hiroshi Nakamura
+    ja: Hiroshi Nakamura
+    ja_match: romaji
+  - name: Fujimi O-nishi
+    ja: Fujimi O-nishi
+    ja_match: romaji
+  - name: Shinya Yada
+    ja: Shinya Yada
+    ja_match: romaji
+  ja_role: Design Directors
+- path:
+  - Character
+  names:
+  - name: Yoshinari Kaiho
+    ja: Yoshinari Kaiho
+    ja_match: romaji
+  - name: Asami Watanabe
+    ja: Asami Watanabe
+    ja_match: romaji
+  - name: Etsuko Yamamoto
+    ja: Etsuko Yamamoto
+    ja_match: romaji
+  - name: Kenji Aoyagi
+    ja: Kenji Aoyagi
+    ja_match: romaji
+  - name: Marie Hirosawa
+    ja: Marie Hirosawa
+    ja_match: romaji
+  - name: Miho Sawada
+    ja: Miho Sawada
+    ja_match: romaji
+  - name: Emika Aoyama
+    ja: Emika Aoyama
+    ja_match: romaji
+  - name: Yuichi Hirose
+    ja: Yuichi Hirose
+    ja_match: romaji
+  - name: Koichi Suzuki
+    ja: Koichi Suzuki
+    ja_match: romaji
+  - name: Itaru Yamagata
+    ja: Itaru Yamagata
+    ja_match: romaji
+  - name: Rina Nohira
+    ja: Rina Nohira
+    ja_match: romaji
+  - name: Shiori Hiramoto
+    ja: Shiori Hiramoto
+    ja_match: romaji
+  ja_role: Character
+- path:
+  - Background
+  names:
+  - name: Yuko Nakagawa
+    ja: Yuko Nakagawa
+    ja_match: romaji
+  - name: Yoshiko Ota
+    ja: Yoshiko Ota
+    ja_match: romaji
+  - name: Chika Hirano
+    ja: Chika Hirano
+    ja_match: romaji
+  - name: Hiroko Fujikawa
+    ja: Hiroko Fujikawa
+    ja_match: romaji
+  ja_role: Background
+- path:
+  - Sound Directors
+  names:
+  - name: Misaki Okibe
+    ja: Misaki Okibe
+    ja_match: romaji
+  - name: Ryoma Nakamura
+    ja: Ryoma Nakamura
+    ja_match: romaji
+  ja_role: Sound Directors
+- path:
+  - Composition & SE
+  names:
+  - name: Arata Iiyoshi
+    ja: Arata Iiyoshi
+    ja_match: romaji
+  - name: Hideki Sakamoto
+    ja: Hideki Sakamoto
+    ja_match: romaji
+  - name: Keisuke Ito
+    ja: Keisuke Ito
+    ja_match: romaji
+  - name: Ken-ichi Saito
+    ja: Ken-ichi Saito
+    ja_match: romaji
+  - name: Yoshihiro Maeda
+    ja: Yoshihiro Maeda
+    ja_match: romaji
+  ja_role: Composition & SE
+- path:
+  - Special Thanks
+  names:
+  - name: KOUYOUSHA ltd.
+    kind: company
+    ja: KOUYOUSHA ltd.
+    ja_match: romaji
+  - name: KUON ltd.
+    kind: company
+    ja: KUON ltd.
+    ja_match: romaji
+  - name: NOISYCROAK Co., Ltd.
+    footnote: true
+    kind: company
+    ja_match: positional
+    ja: NOISY CROAK co.ltd.
+  - name: PROCYON STUDIO CO., LTD.
+    kind: company
+    ja_match: positional
+    ja: PROCYON STUDIO co.ltd.
+  - name: DiMAGIC Co., Ltd.
+    kind: company
+    ja_match: positional
+    ja: DiMAGIC co.ltd.
+  ja_role: Special Thanks
+- path:
+  - Server System Director
+  names:
+  - name: Mikihiro Ishikawa
+    ja: Mikihiro Ishikawa
+    ja_match: romaji
+  ja_role: Server System Director
+- path:
+  - Server System Programming
+  names:
+  - name: Daisuke Nakamura
+    ja: Daisuke Nakamura
+    ja_match: romaji
+  - name: Satoru Nakata
+    ja: Satoru Nakata
+    ja_match: romaji
+  - name: Ryo Yamaguchi
+    ja: Ryo Yamaguchi
+    ja_match: romaji
+  ja_role: Server System Programming
+- path:
+  - Debug
+  names:
+  - name: Manabu Matumoto
+    ja: Manabu Matumoto
+    ja_match: romaji
+  - name: Kenta NakanishiJP, NA
+  - name: Yoshihiko SakurabaEU
+  - name: SUPER MARIO CLUB
+    footnote: true
+    ja: Super Mario Club
+    ja_match: romaji
+  - name: GA Debug Team
+    footnote: true
+    kind: company
+    ja: GA Debug Team
+    ja_match: romaji
+  ja_role: Debug
+- path:
+  - Package Illustration
+  names:
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: Package Illustration
+- path:
+  - Artwork
+  names:
+  - name: Sakae Kimura
+    ja: Sakae Kimura
+    ja_match: romaji
+  - name: Ken-ichi Koga
+    ja: Ken-ichi Koga
+    ja_match: romaji
+  - name: Hidefumi Ide
+    ja: Hidefumi Ide
+    ja_match: romaji
+  - name: Misato Kadosawa
+    ja: Misato Kadosawa
+    ja_match: romaji
+  - name: Sachiko Nakamichi
+    ja: Sachiko Nakamichi
+    ja_match: romaji
+  - name: Kiyomi Itani
+    ja: Kiyomi Itani
+    ja_match: romaji
+  - name: Kazuhiko Nakanishi
+    ja: Kazuhiko Nakanishi
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Development Support
+  names:
+  - name: Kensuke Oguri
+    ja: Kensuke Oguri
+    ja_match: romaji
+  - name: Hidenori Suzuki
+    ja: Hidenori Suzuki
+    ja_match: romaji
+  - name: Tsuyoshi Yukawa
+    ja: Tsuyoshi Yukawa
+    ja_match: romaji
+  - name: Ryosuke Hanawa
+    ja: Ryosuke Hanawa
+    ja_match: romaji
+  - name: Erika Yamamoto
+    ja: Erika Yamamoto
+    ja_match: romaji
+  - name: Kou O-numa
+    ja: Kou O-numa
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: Takao Nakano
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: Kaori Ando
+    ja_match: romaji
+  ja_role: Development Support
+- path:
+  - Localization Product Support
+  names:
+  - name: Kimiko NakamichiNA, EU
+  - name: Tomoko NakayamaNA, EU
+  - name: Kenta NakanishiEU
+- path:
+  - NOA Localization Coordinators
+  names:
+  - name: Rie FujiwaraNA
+  - name: Seth McMahillNA
+- path:
+  - Localization
+  names:
+  - name: Yasuhiro UsuiNA
+  - name: Mikiko RyuNA
+- path:
+  - Translators
+  names:
+  - name: Nob OgasawaraNA
+    footnote: true
+    link: Nob Ogasawara
+  - name: Eve EschenbacherNA
+    footnote: true
+- path:
+  - Text Editors
+  names:
+  - name: Blaise SelbyNA
+  - name: Kellyn BallardNA
+- path:
+  - English Graphic Design
+  names:
+  - name: Eric MedalleNA
+    link: Eric Medalle
+  - name: Bridget O'NeillNA
+- path:
+  - NOA Product Testing
+  names:
+  - name: Masayasu NakataNA, EU
+  - name: Thomas HertzogNA, EU
+  - name: Rosa WamplerNA, EU
+  - name: Makiko SzolasNA, EU
+  - name: Teresa LillygrenNA
+- path:
+  - NOA Design
+  names:
+  - name: Ross HiraiNA
+- path:
+  - NOA Legal
+  names:
+  - name: Nicola WrightNA
+  - name: Kalinda RainaNA
+- path:
+  - Localisation Management
+  names:
+  - name: Andy FeyEU
+- path:
+  - Coordination
+  names:
+  - name: Michaël HugotEU
+- path:
+  - English Translation
+  names:
+  - name: Keir StorrarEU
+- path:
+  - French Translation
+  names:
+  - name: Sabrina BretantEU
+  - name: Samantha GermaneauEU
+  - name: Nicolas SciottiEU
+- path:
+  - German Translation
+  names:
+  - name: Sascha WeinardEU
+  - name: Daniel PestkaEU
+  - name: Nils DittbrennerEU
+- path:
+  - Italian Translation
+  names:
+  - name: Marco GuascoEU
+  - name: Marco MorbinEU
+  - name: Marina ParisEU
+- path:
+  - Spanish Translation
+  names:
+  - name: Pedro José Moreno VillarEU
+  - name: Anabel Martínez ÁlvarezEU
+  - name: Alesánder Valero FernándezEU
+- path:
+  - QA Coordination
+  names:
+  - name: Luis GolbanoEU
+  - name: Petra GyarmatyEU
+- path:
+  - QA English
+  names:
+  - name: David WilliamsonEU
+  - name: Natalie LuntEU
+  - name: Richard WylieEU
+- path:
+  - QA French
+  names:
+  - name: Christopher CaëlEU
+  - name: Timothée AouilléEU
+- path:
+  - QA German
+  names:
+  - name: Marianna SacraEU
+  - name: Patrick ThorenzEU
+- path:
+  - QA Italian
+  names:
+  - name: Francesca VargiuEU
+  - name: Edoardo ToniolattiEU
+- path:
+  - QA Spanish
+  names:
+  - name: David Martín NavarroEU
+  - name: Laura Soto ToralEU
+- path:
+  - Very Special Thanks
+  names:
+  - name: GAME FREAK inc.
+    kind: company
+    ja: Game Freak Inc.
+    ja_match: romaji
+  ja_role: Very Special Thanks
+- path:
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: Pokémon Original Director
+- path:
+  - Producers
+  names:
+  - name: Hiroaki Tsuru
+    ja: Hiroaki Tsuru
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: Mikiko Ohashi
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producer
+ja_unmatched:
+- kana: Kenta Nakanishi
+  role: Debug

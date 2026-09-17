@@ -1,0 +1,899 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Champions
+slug: champions
+title: Staff of Pokémon Champions
+work: Pokémon Champions
+year: 2026
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Champions
+count: 444
+sections:
+- path:
+  - Staff list (2026)
+  - Developed by
+  names:
+  - name: The Pokémon Works
+    kind: company
+- path:
+  - Staff list (2026)
+  - Development Director
+  names:
+  - name: Masaaki Hoshino
+- path:
+  - Staff list (2026)
+  - Development Manager
+  names:
+  - name: Yuichi Ueda
+- path:
+  - Staff list (2026)
+  - Game Planners
+  names:
+  - name: Norichika Mizuno
+  - name: Jun Taniguchi
+  - name: Mizuki Kato
+  - name: William Désert
+  - name: Yukina Hoshi
+  - name: Toshiki Ishii
+  - name: Miya Watanabe
+- path:
+  - Staff list (2026)
+  - Game Programmers
+  names:
+  - name: Sei Nakatani
+  - name: Ryoma Tachimoto
+  - name: Satoru Hiraoka
+  - name: Yoshitaka Ono
+  - name: Shohei Sasaki
+  - name: Keisuke Matsumura
+  - name: Hiroyuki Ito
+  - name: Yoshiaki Shirata
+  - name: Natsuki Hashino
+  - name: Mao Tokito
+  - name: Kai Sato
+- path:
+  - Staff list (2026)
+  - Art Section Manager
+  names:
+  - name: Atsushi Numata
+- path:
+  - Staff list (2026)
+  - Concept Artists
+  names:
+  - name: Eriko Fujiwara
+  - name: Kouichi Fukazawa
+- path:
+  - Staff list (2026)
+  - UI Artists
+  names:
+  - name: Kyouhei Ishida
+  - name: Jin Nuruki
+  - name: Ami Fujii
+- path:
+  - Staff list (2026)
+  - 3D Modeler
+  names:
+  - name: Miyuki Hirono
+- path:
+  - Staff list (2026)
+  - 3D Character Modelers
+  names:
+  - name: Yuko Nakano
+  - name: Emi Takeyama
+  - name: Saeko Mizumachi
+  - name: Shinya Iguchi
+- path:
+  - Staff list (2026)
+  - 3D Environment Modelers
+  names:
+  - name: Ayumi Kano
+  - name: Ryosuke Chiba
+- path:
+  - Staff list (2026)
+  - Animators
+  names:
+  - name: Aruku Koshiishi
+  - name: Kaito Hayamizu
+  - name: Ryuhei Ohshima
+  - name: Yuya Yamamoto
+  - name: Shunsuke Gomi
+- path:
+  - Staff list (2026)
+  - VFX Artists
+  names:
+  - name: Natsuki Hayashi
+  - name: Fumiya Sugawara
+  - name: Kana Yoshizawa
+- path:
+  - Staff list (2026)
+  - Cinematic Artists
+  names:
+  - name: Fumikazu Tanaka
+  - name: Reina Ohshima
+  - name: Yuki Yamamoto
+  - name: Kazuki Kato
+  - name: Yuki Sekine
+- path:
+  - Staff list (2026)
+  - Sound Designers
+  names:
+  - name: Shioto Hamasaki
+  - name: Ryo Kurata
+  - name: Masahiro Niinomi
+- path:
+  - Staff list (2026)
+  - Special Thanks
+  names:
+  - name: Ryoichi Kuwahara
+  - name: Daisuke Tamura
+  - name: Hyungjong Takehara
+  - name: Ayaka Torii
+  - name: Ken Visudharomn
+  - name: Tetsuya Ooi
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - Game Planners
+  names:
+  - name: Masanori Okitsu
+  - name: Hyoga Omura
+  - name: Yuya Watanabe
+  - name: Rintaro Hiraoka
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - Game Programmers
+  names:
+  - name: Tatsuya Ando
+  - name: Hidetaka Takeda
+  - name: Shintaro Hiraiwa
+  - name: Makoto Takei
+  - name: Masahito Shimizu
+  - name: Yu Jimbo
+  - name: Ryoma Yoda
+  - name: Yuta Hasegawa
+  - name: Kyouhei Mochizuki
+  - name: Shuhei Otake
+  - name: Yuki Okamura
+  - name: Yuta Takaya
+  - name: Naoya Hashimoto
+  - name: Ryu Maeda
+  - name: Shinya Suda
+  - name: Kenji Fukasawa
+  - name: Takumi Oya
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - UI Artists
+  names:
+  - name: Momoka Maeda
+  - name: Yuichiro Nakayama
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - 3D Character Modelers
+  names:
+  - name: Kaede Shu
+  - name: Shun Ohta
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - Animators
+  names:
+  - name: Ryoki Okuzaki
+  - name: Haruno Saito
+- path:
+  - Staff list (2026)
+  - ILCA,Inc.
+  - VFX Artists
+  names:
+  - name: Hitomi Asai
+  - name: Kaito Deguchi
+  - name: Lisa Furuya
+  - name: Rintaro Hirose
+- path:
+  - Special Thanks
+  names:
+  - name: Masafumi Nukita
+  - name: Shiin Ka
+  - name: Michiko Hidaka
+  - name: Isana Kurokawa
+  - name: Reina Inano
+  - name: Aki Kobayashi
+  - name: Miu Ishizuka
+  - name: Eriko Tominaga
+  - name: Danqing Huang
+  - name: Masahiro Kitajima
+  - name: Marina Abe
+  - name: Shoei Takamine
+  - name: Akihiro Ochi
+  - name: Shintaro Yoshida
+  - name: Hiroshi Mitsuzuka
+  - name: Masaya Suzuki
+  - name: Mika Takahashi
+  - name: Tomohiro Shiiya
+  - name: Masashi Yamada
+  - name: Masaru Nakamura
+  - name: Suyako Nakatani
+  - name: Ryuta Fukushima
+  - name: AGNI-FLARE CO., LTD.
+    kind: company
+  - name: ANIMA Inc.
+    kind: company
+  - name: Appirits Inc.
+    kind: company
+  - name: AVANT.inc
+    kind: company
+  - name: CHRONOGATE Inc.
+    kind: company
+  - name: CREEK & RIVER Co., Ltd.
+    kind: company
+  - name: FELLOWS Inc.
+    kind: company
+  - name: G-angle Co., Ltd.
+    kind: company
+  - name: Garage,Inc.
+    kind: company
+  - name: I-rori Entertainment Co., Ltd.
+    kind: company
+  - name: IMAGICA GEEQ Inc.
+    kind: company
+  - name: Levtech Co., Ltd.
+    kind: company
+  - name: mosphy Inc.
+    kind: company
+  - name: MotionActor, Inc.
+    kind: company
+  - name: nabi EFFECT CO.,LTD.
+    kind: company
+  - name: NAC Inc.
+    kind: company
+  - name: RAYLINE STUDIO INC.
+    kind: company
+  - name: Silicon Studio Corporation
+    kind: company
+  - name: SmartPoint Co,.Ltd
+    kind: company
+  - name: STAND Inc.
+    kind: company
+  - name: Sun terras inc.
+    kind: company
+  - name: Takahiro Sato
+  - name: THREE RINGS
+  - name: TORO KIKAKU Inc.
+    kind: company
+  - name: VERRY Inc.
+    kind: company
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Game Director
+  names:
+  - name: Kazumasa Iwao
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Battle Director
+  names:
+  - name: Shigeki Morimoto
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Art Director
+  names:
+  - name: Tatsuya Makita
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Lead Game Designer
+  names:
+  - name: Takeshi Kawachimaru
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Sound Designer
+  names:
+  - name: Minako Adachi
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Sound Supervision
+  names:
+  - name: Go Ichinose
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Character & Costume Design
+  names:
+  - name: Fumie Kittaka
+  - name: Ken Sugimori
+  - name: Yusuke Kozaki
+  - name: Misaki Hashimoto
+  - name: Rin Nishizawa
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Costume Design Supervision
+  names:
+  - name: Chihiro Hayashi
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Pokémon Icon Design
+  names:
+  - name: Hironobu Yoshida
+  - name: Kyoko Abe
+  - name: Motofumi Fujiwara
+  - name: Tomomi Kaneko
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Ui Concept Design
+  names:
+  - name: Seimi Ohshiro
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Item Icon Design
+  names:
+  - name: Emi Ando
+  - name: Seimi Ohshiro
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Title Logo Design
+  names:
+  - name: Hironobu Yoshida
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Pokémon Model Supervision
+  names:
+  - name: Yuki Yamamoto
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Battle Program Supervision
+  names:
+  - name: Tomoya Takahashi
+  - name: Toshihiro Obata
+  - name: Kai Munakata
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Environment Development Support
+  names:
+  - name: Keiichi Maezawa
+  - name: Shinya Goto
+  - name: Nobuyuki Miura
+  - name: Tomoya Kanehira
+  - name: SPARK CREATIVE
+  - name: Wizcorp Inc.
+    kind: company
+- path:
+  - Staff list (2026)
+  - Planning & Supervision
+  - Development Support
+  names:
+  - name: Takumi Fukuzawa
+  - name: Nanae Tabata
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Coordinators
+  names:
+  - name: Yuta Ogawa
+  - name: Yuki Okada
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Technical Support
+  names:
+  - name: Noriko Nakagawa
+  - name: Kei Ninomiya
+  - name: Yasuhiro Iwamoto
+  - name: Shotaro Iwanaga
+  - name: Yu Yoshida
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Debug Management
+  names:
+  - name: Toshihiko Shomura
+  - name: Emika Yamamoto
+  - name: Megumi Sumida
+  - name: Shota Taniguchi
+  - name: Kazehiko Furuta
+  - name: Shintaro Nishiguchi
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Debug
+  names:
+  - name: Mario Club Co., Ltd.
+    link: Mario Club
+    kind: company
+  - name: DIGITAL HEARTS Co., Ltd.
+    kind: company
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localization Support (The Americas)
+  names:
+  - name: Lauren Ammerman
+  - name: Peter Bohan
+  - name: Rich Comegys
+  - name: Owen Cooney
+  - name: Nicole Davis
+  - name: Jordon Galloway
+  - name: Kendra Joseph
+  - name: Zaher Khan
+  - name: Jorge Luis Muñoz Melchor
+  - name: Yoriko Marusich
+  - name: Jennifer Rose
+  - name: Karen Yuen
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Language QA (The Americas)
+  names:
+  - name: Side
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Testing (The Americas)
+  names:
+  - name: Tori Arvisais
+  - name: Corey Beedle
+  - name: Brian Blue
+  - name: Ryan Bristol
+  - name: Matthew Ortega
+  - name: Sean Roberts
+  - name: Dylan Rondeau
+  - name: Makiko Szolas
+  - name: Emi Yuhl
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localisation Producers (Europe)
+  names:
+  - name: Héðinn Haraldsson
+  - name: Daniel Idoine
+  - name: Jan-Marek Schneider
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - QA Coordinators (Europe)
+  names:
+  - name: Ángel Moreno Colmena
+  - name: Stefania Montagnese
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - QA Testing (Europe)
+  names:
+  - name: Testronic
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localization Support (Asia)
+  names:
+  - name: Yijun Chen
+  - name: Yoshiki Sugai
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localization Support (Korea)
+  names:
+  - name: Dongyeon Kim
+  - name: Kyoungim Na
+  - name: Jihyuen Yoo
+  - name: Daeho Jeong
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localization Support (Traditional Chinese)
+  names:
+  - name: Takaaki Ueno
+  - name: Chihhsien Chien
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Localization Support (Simplified Chinese)
+  names:
+  - name: Misa Matsumoto
+  - name: Ming Xu
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Testing & Quality Assurance (Korea)
+  names:
+  - name: Eodo Lee
+  - name: DIGITAL HEARTS Seoul Co., Ltd.
+    kind: company
+- path:
+  - Staff list (2026)
+  - Nintendo Co. Ltd.
+  - Product Testing (Chinese)
+  names:
+  - name: Huiming Hu
+  - name: Tinghui Xia
+  - name: DIGITAL HEARTS (Shanghai) Co., Ltd.
+    kind: company
+  - name: Digital Hearts Linguitronics Taiwan Co., Ltd.
+    kind: company
+- path:
+  - Special Thanks
+  names:
+  - name: Tomoki Fukushima
+  - name: Mike Bales
+  - name: Thomas Candland
+  - name: Mary Rayes
+  - name: Cloud Chien
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Game Producer
+  names:
+  - name: Masaaki Hoshino
+- path:
+  - Associate Producers
+  names:
+  - name: Yuya Iwamoto
+  - name: Shunsuke Kohori
+  - name: Akihiro Kanno
+  - name: Yuji Igarashi
+  - name: Mayu Narahara
+  - name: Masato Kitamura
+  - name: Takashi Koyama
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Artwork
+  names:
+  - name: Yasuko Takahashi
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Marketing
+  names:
+  - name: Shoichi Obora
+  - name: Kazuki Hayakawa
+  - name: Yuma Hon
+  - name: Keiya Nakahara
+  - name: Yuki Takashima
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Customer Service
+  names:
+  - name: Yui Hayashi
+  - name: Kazunori Sugiura
+  - name: Yosuke Senoo
+  - name: Yohei Yamamoto
+  - name: Yushi Otake
+  - name: Shu Amagiri
+  - name: Miki Kinnamon
+  - name: Masato Kitamura
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Legal
+  names:
+  - name: Kensuke Arai
+  - name: Kotaro Ariyoshi
+  - name: Nao Tajima
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Coordinators
+  names:
+  - name: Hiroki Togashi
+  - name: Takehito Hosoda
+  - name: Shinichi Watanabe
+  - name: Jingyi Yu
+  - name: Izumi Watanabe
+  - name: Qixiang Chen
+  - name: Yoshiko Aota
+  - name: Mitsuyo Matsunaga
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Chinese Localization
+  names:
+  - name: Yencheng Lin
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Chinese Translation & Editing
+  names:
+  - name: Yuying Feng
+  - name: Huiying Tsai
+  - name: Hanru Yang
+  - name: Endai Liao
+  - name: Waihong Kong
+- path:
+  - Staff list (2026)
+  - The Pokémon Company
+  - Technical Supports
+  names:
+  - name: Tatsuya Ichijo
+  - name: Nobuyuki Ohta
+  - name: Yu Nagao
+  - name: Yohei Miyamoto
+  - name: Yuji Minohoshi
+  - name: Chitose Kawakami
+  - name: Yuhma Ohchi
+  - name: Kayo Nakata
+  - name: Tetsuma Okano
+- path:
+  - Special Thanks
+  names:
+  - name: Junko Tamura
+  - name: Yuta Hara
+  - name: SHIROGUMI INC.
+    kind: company
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - English Localization
+  names:
+  - name: Mikiko Ryu
+  - name: Chie Stutzman
+  - name: Mayu Todo
+  - name: Yuriko Iwasaki
+  - name: Terry Mihashi
+  - name: Ami Shuman
+  - name: Yuko Ito
+  - name: Mitsumasa Kawano
+  - name: Azusa Kimura
+  - name: Hisato Yamamori
+  - name: Kellyn Ballard
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - English Translation
+  names:
+  - name: Hannah Vassallo
+  - name: Daniel Lizarraga
+  - name: Rhiona George Dey
+  - name: Jillian Nonaka
+  - name: Jackson Pietsch
+  - name: Shawn Williams-Brown
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - English Editing
+  names:
+  - name: Rei Nakazawa
+  - name: Amy Page
+  - name: Derk Bramer
+  - name: Rachel Payne
+  - name: Julia Ryer
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - European Localisation
+  names:
+  - name: Kaori Aoki
+  - name: Nami Kusumoto
+  - name: Mark Bunting
+  - name: Serena Yajima
+  - name: Makiko Wakai
+  - name: Saho Shiota
+  - name: Dan Anscomb
+  - name: Chika Tanigaki
+  - name: Owen Preece
+  - name: Hideko Russell
+  - name: Ritsuko Oshu
+  - name: Kendra Evans
+  - name: Alberto Gracia Castellano
+  - name: Marine Vallée
+  - name: Michael Ecke
+  - name: Diego Figaredo
+  - name: Pierre Gauthier
+  - name: Rei Haberberg
+  - name: Elena Nardo
+  - name: Cyril Schultz
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - French Translation
+  names:
+  - name: Nicolas Sindres
+  - name: Guillaume Didier
+  - name: Marlène Dubois
+  - name: Aymeric Forgit
+  - name: Lylia Khrissate
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - French Editing
+  names:
+  - name: Elodie Verpoort
+  - name: Claire Sosa
+  - name: Matthieu Béthencourt
+  - name: Leslie Gambini
+  - name: Violette Giang
+  - name: Thomas Garel
+  - name: Marine Vallée
+  - name: Aurélie Kryvinskyj
+  - name: Clothilde Bonnal
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - German Translation
+  names:
+  - name: Christopher Derbort
+  - name: Kathleen Kalms
+  - name: Lina Emmerich
+  - name: Caroline Fest
+  - name: Daniel Heucher
+  - name: Sophie Jüterbock
+  - name: Carolin Maibach
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - German Editing
+  names:
+  - name: Alina Linnenweber
+  - name: Jochen Künzel
+  - name: Sina Moelleken
+  - name: Juliana Niederwanger
+  - name: Ireneusz Radko
+  - name: Barbara Schweinzer
+  - name: Sira Vaterhaus
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - Italian Translation
+  names:
+  - name: Altan Couvert
+  - name: Francesca Serci
+  - name: Marco Sartori
+  - name: Guido Scarabello
+  - name: Annarita Spera
+  - name: Manuela Suriano
+  - name: Jacopo Vanin
+  - name: Valentina Vignola
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - Italian Editing
+  names:
+  - name: Valentina Menale
+  - name: Stefano Borghesi
+  - name: Alice Troiani
+  - name: Chiara Antinori
+  - name: Sergio Bianchi
+  - name: Silvia De Bellis
+  - name: Fabio Giusti
+  - name: Marco Locatelli
+  - name: Guendalina Pirruccio
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - European Spanish Translation
+  names:
+  - name: Diego Luque de la Campa
+  - name: Alberto Gracia Castellano
+  - name: Edith Belarra López
+  - name: Jorge Diez Lasheras
+  - name: Servando Doval Díaz
+  - name: Alicia Iribarren Mendoza
+  - name: Enrique Joga Elvira
+  - name: Pablo Gismero Calvo
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - European Spanish Editing
+  names:
+  - name: Alex Fortes
+  - name: Irene Mascaró Genestar
+  - name: Virginia Paradés Gurrea
+  - name: Rubén Lado Riomao
+  - name: Juan José Leiva Jiménez
+  - name: Mariona Pera i de Miguel
+  - name: Diana Vázquez Saiz
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - Latin American Spanish Editing
+  names:
+  - name: Daniela Castillo
+  - name: Sebastián Erasmy Vergara
+  - name: José Luis Estrada
+  - name: Julieta Ortiz
+  - name: Débora Yésica Terceros Vargas
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - English & European Localization Support
+  names:
+  - name: Reiko de Sorbier de Pougnadoresse
+  - name: Jeff Hines
+  - name: Stu Alexander
+  - name: Joan Cheung
+  - name: Nami Kusumoto
+  - name: Marvin Andrews
+  - name: Peter Bagley
+  - name: Mark Bunting
+  - name: Serena Yajima
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Gaku Susai
+  - name: Taito Okiura
+  - name: Alison Chyan
+  - name: Amy Ganster
+  - name: Andy Gose
+  - name: Andy Hartpence
+  - name: Ben Drillat-Wilson
+  - name: David Numrich
+  - name: Dewei Huang
+  - name: Heather Dalgleish
+  - name: Irene Eri Kobayashi
+  - name: Kaoru Otawara
+  - name: Narbeh Minasians
+  - name: Peter Murphy
+  - name: Phaedra Long
+  - name: Phil Rynda
+  - name: Richie Enticknap
+  - name: Winston Lung
+  - name: Yasuhiro Usui
+  - name: Steve Lee
+  - name: Reina Nagai
+- path:
+  - Staff list (2026)
+  - The Pokémon Company International
+  - Korean Translation
+  names:
+  - name: Pokémon Korea, Inc.
+    kind: company
+  - name: Mihwa Choi
+  - name: Jieun Byun
+  - name: Youngjun Park
+  - name: Dongun Pak
+  - name: Jooyeon Han
+  - name: Byunghun Bae
+  - name: Yoojin Kwon
+- path:
+  - Very Special Thanks
+  names:
+  - name: Creatures Inc.
+    link: Creatures, Inc.
+    kind: company
+- path:
+  - Supervisors
+  names:
+  - name: Tetsuya Watanabe
+  - name: Ken Sugimori
+  - name: Tomoya Takahashi
+- path:
+  - Producers
+  names:
+  - name: Katsuhiko Ichiraku
+  - name: Akira Kinashi
+  - name: Shinya Saito
+  - name: Toyokazu Nonaka
+  - name: Takanori Sowa
+  - name: Kenji Endo
+- path:
+  - General Producers
+  names:
+  - name: Shigeru Ohmori
+  - name: Shinya Takahashi
+  - name: Takato Utsunomiya
+- path:
+  - Executive Producers
+  names:
+  - name: Satoshi Tajiri
+  - name: Shuntaro Furukawa
+  - name: Tsunekazu Ishihara

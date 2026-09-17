@@ -1,0 +1,394 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger + https://wiki.pokemonwiki.com/wiki/ポケモンレンジャーのスタッフクレジット
+slug: ranger
+title: Staff of Pokémon Ranger
+work: null
+year: 2006
+developer: HAL Laboratory, Creatures, Inc.
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger
+count: 95
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャーのスタッフクレジット
+ja_alignment:
+  ja_total: 94
+  ja_matched: 94
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Planning
+  names:
+  - name: Hajime Kuroyanagi
+    ja: くろやなぎ はじめ
+    ja_match: romaji
+  - name: Shigefumi Kawase
+    ja: かわせ しげふみ
+    ja_match: romaji
+  - name: Hisatoshi Takeuchi
+    ja: たけうち ひさとし
+    ja_match: romaji
+  - name: Hiroaki Itō
+    ja: いとう ひろあき
+    ja_match: romaji
+  ja_role: きかく
+- path:
+  - Map design
+  names:
+  - name: Hiroshi Igarashi
+    ja: いがらし ひろし
+    ja_match: romaji
+  - name: Yasuhiro Itō
+    ja: いとう やすひろ
+    ja_match: romaji
+  ja_role: マップ せっけい
+- path:
+  - Pokémon motion
+  names:
+  - name: Tomoaki Imakuni
+    ja: いまくに ともあき
+    kanji: イマクニ?
+    ja_match: romaji
+  ja_role: ポケモン モーション
+- path:
+  - Base scenario
+  names:
+  - name: Toshinobu Matsumiya
+    ja: まつみや としのぶ
+    kanji: 松宮稔展
+    ja_match: romaji
+  ja_role: ベース シナリオ
+- path:
+  - Dialog
+  names:
+  - name: Akihito Toda
+    ja: とだ あきひと
+    kanji: 戸田昭吾
+    ja_match: romaji
+  ja_role: ダイアローグ クリエイト
+- path:
+  - Scenario assistance
+  names:
+  - name: Etsuko Matsukawa
+    ja: まつかわ えつこ
+    ja_match: romaji
+  - name: Maya Katsurashima
+    ja: かつらしま まや
+    ja_match: romaji
+  ja_role: シナリオ アシスタント
+- path:
+  - Programming
+  names:
+  - name: Yoshiya Taniguchi
+    ja: たにぐち よしや
+    ja_match: romaji
+  - name: Satoshi Mitsuhara
+    ja: みつはら さとし
+    ja_match: romaji
+  - name: Kazuki Sekimori
+    ja: せきもり かずき
+    ja_match: romaji
+  - name: Kazuhiro Mizusawa
+    ja: みずさわ かずひろ
+    ja_match: romaji
+  - name: Eitarō Nakamura
+    ja: なかむら えいたろう
+    ja_match: romaji
+  - name: Katsuyoshi Sumitomo
+    ja: すみとも かつよし
+    ja_match: romaji
+  - name: Kazuki Yoshihara
+    ja: よしはら かずき
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Technical assistance
+  names:
+  - name: Hiroyuki Ogasawara
+    ja: おがさわら ひろゆき
+    ja_match: romaji
+  ja_role: ぎじゅつ きょうりょく
+- path:
+  - Script
+  names:
+  - name: Kaoru Kobayashi
+    ja: こばやし かおる
+    ja_match: romaji
+  - name: Nobuhiro Seya
+    ja: せや のぶひろ
+    ja_match: romaji
+  - name: Sachiko Morimoto
+    ja: もりもと さちこ
+    ja_match: romaji
+  ja_role: スクリプト
+- path:
+  - Graphics
+  names:
+  - name: Minoru Yoshikoshi
+    ja: よしこし みのる
+    ja_match: romaji
+  - name: Shingo Yamada
+    ja: やまだ しんご
+    ja_match: romaji
+  - name: Hiroyuki Gotō
+    ja: ごとう ひろゆき
+    ja_match: romaji
+  - name: Teruhiko Suzuki
+    ja: すずき てるひこ
+    ja_match: romaji
+  - name: Kazu Ozawa
+    ja: おざわ かず
+    ja_match: romaji
+  - name: Sachi Matoba
+    ja: まとば さち
+    ja_match: romaji
+  - name: Shizuka Numata
+    ja: ぬまた しずか
+    ja_match: romaji
+  - name: Atsuko Ujiie
+    ja: うじいえ あつこ
+    ja_match: romaji
+  - name: Atsuko Nakamura
+    ja: なかむら あつこ
+    ja_match: romaji
+  - name: Satoko Nakamura
+    ja: なかむら さとこ
+    ja_match: romaji
+  - name: Tomoko Kitada
+    ja: きただ ともこ
+    ja_match: romaji
+  - name: Kazuo Yazawa
+    ja: やざわ かずお
+    ja_match: romaji
+  ja_role: グラフィック
+- path:
+  - Sound
+  names:
+  - name: Takuto Kitsuta
+    ja: きつた たくと
+    ja_match: romaji
+  - name: Kinta Satō
+    ja: さとう きんた
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Artwork
+  names:
+  - name: Sakae Kimura
+    ja: きむら さかえ
+    ja_match: romaji
+  - name: Ken'ichi Koga
+    ja: こが けんいち
+    ja_match: romaji
+  - name: Mizue Hagiwara
+    ja: はぎわら みずえ
+    ja_match: romaji
+  - name: Mariko Kimizuka
+    ja: きみづか まりこ
+    ja_match: romaji
+  - name: Tetsuya Notoya
+    ja: のとや てつや
+    ja_match: romaji
+  - name: Kiyomi Oe
+    ja: おえ きよみ
+    ja_match: romaji
+  - name: Yasuko Takahashi
+    ja: たかはし やすこ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Special thanks
+  names:
+  - name: Hirokazu Tanaka
+    ja: たなか ひろかず
+    kanji: 田中宏和
+    ja_match: romaji
+  - name: Masayoshi Tanimura
+    ja: たにむら まさよし
+    ja_match: romaji
+  - name: Hiroaki Suga
+    ja: すが ひろあき
+    ja_match: romaji
+  - name: Noriyuki Kita
+    ja: きた のりゆき
+    ja_match: romaji
+  - name: Masamichi Anazawa
+    ja: あなざわ まさみち
+    ja_match: romaji
+  - name: Chiaki Shinkai
+    ja: しんかい ちあき
+    ja_match: romaji
+  - name: Kyōko Yoshida
+    ja: よしだ きょうこ
+    ja_match: romaji
+  - name: Emi Miwa
+    ja: みわ えみ
+    ja_match: romaji
+  - name: Kōki Saitō
+  - name: Nobuto Kuroki
+    ja: くろき のぶと
+    ja_match: romaji
+  - name: Tadashi Ikegami
+    ja: いけがみ ただし
+    ja_match: romaji
+  - name: Kazuyuki Nakamura
+    ja: なかむら かずゆき
+    ja_match: romaji
+  - name: Hiroshi Fujie
+    ja: ふじえ ひろし
+    ja_match: romaji
+  - name: Misako Mōri
+    ja: もうり みさこ
+    ja_match: romaji
+  - name: Ryūki Kuraoka
+    ja: くらおか りゅうき
+    ja_match: romaji
+  - name: Masaru Kobayashi
+    ja: こばやし まさる
+    ja_match: romaji
+  - name: Senji Hirose
+    ja: ひろせ せんじ
+    ja_match: romaji
+  - name: HAL Debug Team
+    kind: company
+    ja_match: positional
+    ja: ハルデバッグチーム
+  - name: Kaori Andō
+    ja: あんどう かおり
+    ja_match: romaji
+  - name: Akira Yano
+    ja: やの あきら
+    ja_match: romaji
+  - name: Super Mario Club
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  ja_role: スペシャル サンクス
+- path:
+  - Game design advisor
+  names:
+  - name: Jun'ichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Shigeru Ōmori
+    ja: おおもり しげる
+    kanji: 大森滋
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: ゲームデザイン アドバイザー
+- path:
+  - Pokémon supervisor
+  names:
+  - name: Yūri Sakurai
+    ja: さくらい ゆうり
+    ja_match: romaji
+  - name: Hiromi Sagawa
+    ja: さがわ ひろみ
+    ja_match: romaji
+  ja_role: ポケモン かんしゅう
+- path:
+  - Assistance
+  names:
+  - name: Kenjirō Itō
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: ふくなが すすむ
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Makiko Takada
+    ja: たかだ まきこ
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: たきざわ みちこ
+    ja_match: romaji
+  - name: Osamu Suzuki
+    ja: すずき おさむ
+    ja_match: romaji
+  - name: Ken'ichi Arai
+    ja: あらい けんいち
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: たなか まさみ
+    ja_match: romaji
+  - name: Akihito Tamura
+    ja: たむら あきひと
+    ja_match: romaji
+  - name: Yumi Hoshi
+    ja: ほし ゆみ
+    ja_match: romaji
+  - name: Norihide Okamura
+    ja: おかむら のりひで
+    ja_match: romaji
+  - name: Jirō Koga
+    ja: こが じろう
+    ja_match: romaji
+  - name: Shunsuke Kohori
+    ja: こほり しゅんすけ
+    ja_match: romaji
+  - name: Takanao Kondō
+    ja: こんどう たかなお
+    ja_match: romaji
+  ja_role: きょうりょく
+- path:
+  - Production management
+  names:
+  - name: Tetsuo Kujiraoka
+    ja: くじらおか てつお
+    ja_match: romaji
+  - name: Masaaki Fukunaga
+    ja: ふくなが まさあき
+    ja_match: romaji
+  - name: Katsuyoshi Irie
+    ja: いりえ かつよし
+    ja_match: romaji
+  - name: Yoshiharu Tsukuda
+    ja: つくだ よしはる
+    ja_match: romaji
+  ja_role: プロダクション マネジメント
+- path:
+  - Production coordinators
+  names:
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳志
+    ja_match: romaji
+  - name: Shūsaku Egami
+    ja: えがみ しゅうさく
+    ja_match: romaji
+  ja_role: プロダクション コーディネーター
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Yōichi Yamamoto
+    ja: やまもと よういち
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    kanji: 鶴宏明
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー

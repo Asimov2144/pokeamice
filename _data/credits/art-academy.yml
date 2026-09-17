@@ -1,0 +1,345 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Art_Academy
+slug: art-academy
+title: Staff of Pokémon Art Academy
+work: null
+year: 2014
+developer: Headstrong Games
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Art_Academy
+count: 143
+sections:
+- path:
+  - Headstrong Games
+  - Head of Studio
+  names:
+  - name: Bradley Crooks
+- path:
+  - Headstrong Games
+  - Art Director
+  names:
+  - name: Jason Howard
+- path:
+  - Headstrong Games
+  - Creative Director
+  names:
+  - name: Tancred Dyke-Wells
+- path:
+  - Headstrong Games
+  - Technical Director
+  names:
+  - name: Michael Jacobsen
+- path:
+  - Executive Producer
+  names:
+  - name: Brynley Gibson
+- path:
+  - Headstrong Games
+  - Senior Producer
+  names:
+  - name: Benedict Wilkins
+- path:
+  - Producer
+  names:
+  - name: Alys Elwick
+- path:
+  - Headstrong Games
+  - Lead Art
+  names:
+  - name: Daniel Nilsen
+- path:
+  - Headstrong Games
+  - Art Team
+  names:
+  - name: Joel Carpenter
+  - name: Yaara Cellier
+  - name: Lili Ibrahim
+  - name: Carlo Incandela
+  - name: Belinda Leung
+  - name: Jan-Wah Li
+  - name: James Smith
+  - name: Cristina Suarez
+- path:
+  - Headstrong Games
+  - Additional Art
+  names:
+  - name: Atomhawk Design
+- path:
+  - Headstrong Games
+  - Lead Design
+  names:
+  - name: Justin Cheadle
+- path:
+  - Headstrong Games
+  - Design Team
+  names:
+  - name: Daniel Bishop
+  - name: Mark Church
+  - name: Marc Manuello
+  - name: Greg Moniz
+  - name: Leigh Nicholls
+- path:
+  - Headstrong Games
+  - Lead Programming
+  names:
+  - name: John Brewer
+- path:
+  - Headstrong Games
+  - Programming Team
+  names:
+  - name: Greg Booker
+  - name: Callum Brighting
+  - name: Ian Crowther
+  - name: Matthew Downie
+  - name: Nikolaos Papadopoulos
+  - name: Django Verbaant
+- path:
+  - Headstrong Games
+  - Additional Audio
+  names:
+  - name: Archie Campbell
+- path:
+  - Headstrong Games
+  - Lead QA
+  names:
+  - name: Joy Dey
+  - name: Seb Jordan
+- path:
+  - Headstrong Games
+  - QA Team
+  names:
+  - name: Mark Bridle
+  - name: Federico Sutter
+  - name: Jenna Whitfield
+- path:
+  - Headstrong Games
+  - Supporting QA
+  names:
+  - name: Testronic Labs
+- path:
+  - Special Thanks
+  names:
+  - name: Toby Bishop
+  - name: Elliot Bunt
+  - name: Mitch Bunt
+  - name: David Carbine
+  - name: Marlon Dyke-Wells
+  - name: Solomon Dyke-Wells
+  - name: Che Hallworth
+  - name: Flynn Hallworth
+  - name: Poppie Hallworth
+  - name: Akiko Nilsen
+  - name: Gabriel Olalede
+  - name: Tia Whyte
+  - name: Tyler Whyte
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+- path:
+  - General Producer
+  names:
+  - name: Shinya Takahashi
+- path:
+  - Producers
+  names:
+  - name: Keisuke Terasaki
+  - name: Hitoshi Yamagami
+- path:
+  - Nintendo
+  - Coordination
+  names:
+  - name: Kaori Ando
+  - name: Fumihiko Hayashi
+  - name: Yuji Ichijo
+- path:
+  - Nintendo
+  - Sound Supervisor
+  names:
+  - name: Kenji Yamamoto
+- path:
+  - Nintendo
+  - Music
+  names:
+  - name: Masaru Tajima
+- path:
+  - Nintendo
+  - Sound Effect
+  names:
+  - name: Riyu Tamura
+  - name: Hiromitsu Fujikawa
+- path:
+  - Nintendo
+  - North American Localization
+  - Business Development
+  names:
+  - name: Mike Fukuda
+  - name: Tom Prata
+- path:
+  - Nintendo
+  - North American Localization
+  - Localization Management
+  names:
+  - name: Leslie Swan
+  - name: Dan Owsen
+- path:
+  - Nintendo
+  - North American Localization
+  - Localization
+  names:
+  - name: Laurence Millerioux-Tanen
+  - name: David Carrasco López
+  - name: Katie Golden
+- path:
+  - Nintendo
+  - North American Localization
+  - Brand Management
+  names:
+  - name: Kim Moore
+  - name: Seth Mcmahill
+  - name: Ryo Uchida
+  - name: Terry Chan
+  - name: Joel Simon
+- path:
+  - Nintendo
+  - North American Localization
+  - Testing
+  names:
+  - name: Masayasu Nakata
+  - name: Randy Shoemake
+  - name: Seth Hanser
+  - name: Jim Holdeman
+  - name: Patrick Taylor
+  - name: Makiko Szolas
+  - name: Teresa Lillygren
+  - name: Kindra Timmerwilke
+  - name: Shannon Jaye Roberts
+  - name: Nicko Gonzalez de Santiago
+  - name: Sara Hoad
+  - name: Stéphane Arlot
+  - name: Ludovic Tientcheu Ponkin
+  - name: Product Testing Technicians
+    kind: company
+  - name: PTD Guideline Compliance
+  - name: NOE Quality Assurance
+  - name: Mario Club Co., Ltd.
+    link: Mario Club
+    kind: company
+  - name: DIGITAL Hearts Co., Ltd.
+    kind: company
+- path:
+  - Nintendo
+  - North American Localization
+  - Technical Support
+  names:
+  - name: Shingo Okamoto
+  - name: Yuta Ogawa
+- path:
+  - Nintendo
+  - North American Localization
+  - Artwork
+  names:
+  - name: Hisayo Osanai
+  - name: Yasuko Sugiyama
+  - name: Sachiko Nakamichi
+- path:
+  - Nintendo
+  - North American Localization
+  - Manual Editing
+  names:
+  - name: Aki Sakurai
+- path:
+  - Nintendo
+  - North American Localization
+  - Special Thanks
+  names:
+  - name: Shuhei Furukawa
+  - name: Kyohei Minato
+  - name: Takayasu Morisawa
+- path:
+  - Pokémon
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - Pokémon
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+- path:
+  - Pokémon
+  - Very Special Thanks
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+  - name: Junichi Masuda
+  - name: Ken Sugimori
+  - name: Tetsuya Watanabe
+  - name: Creatures Inc.
+    link: Creatures, Inc.
+    kind: company
+- path:
+  - Pokémon
+  - The Pokémon Company
+  - Development Consultants
+  names:
+  - name: Takato Utsunomiya
+  - name: Kunimi Kawamura
+  - name: Takuya Hashimoto
+  - name: Naoki Suzuki
+- path:
+  - Special Thanks
+  names:
+  - name: Mikiko Ohashi
+  - name: Shusaku Egami
+  - name: Yukari Fukushima
+  - name: Ryohei Itakura
+  - name: Mitsuyo Matsunaga
+  - name: Etsuya Hattori
+  - name: Yumie Kambayashi
+  - name: Taku Kawamoto
+  - name: Rui Kawaguchi
+- path:
+  - Pokémon
+  - The Pokémon Company International
+  - Development Consultants
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+  - name: Hisato Yamamori
+  - name: Noriko Netley
+  - name: Tadasu Hasegawa
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Gaku Susai
+- path:
+  - Pokémon
+  - Creatures Inc.
+  - Pokémon Trading Card Development
+  names:
+  - name: Hirokazu Tanaka
+  - name: Yuji Kitano
+  - name: Atsushi Nagashima
+  - name: Kenichi Koga
+  - name: Kota Okamoto
+  - name: Chiaki Shinkai
+- path:
+  - Pokémon
+  - Creatures Inc.
+  - Pokémon Trading Card Game Illustrators
+  names:
+  - name: Kanako Eo
+  - name: match
+  - name: MAHOU
+  - name: Atsuko Nishida
+  - name: Kenkichi Toyama
+  - name: Kouki Saitou
+  - name: Takashi Yamaguchi
+  - name: Hajime Kusajima
+  - name: TOKIYA
+  - name: 5ban Graphics
+    note: Creatures Inc.
+anomalies:
+- '[''Headstrong Games'', ''Audio'']: Richard Wilkinson'

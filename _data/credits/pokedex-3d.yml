@@ -1,0 +1,352 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
+slug: pokedex-3d
+title: Staff of Pokédex 3D
+work: null
+year: 2011
+developer: Creatures, Inc.
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
+count: 180
+sections:
+- path:
+  - Director/Software Engineering
+  names:
+  - name: Hiroyuki Ogasawara
+- path:
+  - Software Development Engineering
+  names:
+  - name: Katsunori Orimoto
+  - name: Maximilien Dagois
+- path:
+  - Assistant Planning
+  names:
+  - name: Youta Hirano
+- path:
+  - Development Art Lead
+  names:
+  - name: Rie Takeuchi
+- path:
+  - Graphic Design
+  names:
+  - name: Masahiko Ishii
+  - name: Tomohiro Sonoda
+  - name: Yasuyuki Sakuma
+  - name: Misaki Nakaoka
+  - name: Yu Shimotori
+  - name: Toru Hashimoto
+  - name: Hidenori Fujita
+- path:
+  - Sound Design
+  names:
+  - name: Takuto Kitsuta
+- path:
+  - Artwork
+  names:
+  - name: Sakae Kimura
+  - name: Kenichi Koga
+  - name: Hidefumi Ide
+  - name: Naoyuki Miyashita
+- path:
+  - Pokémon Art Team
+  - Production Manager
+  names:
+  - name: Masamichi Anazawa
+- path:
+  - Pokémon Art Team
+  - Production Assistant
+  names:
+  - name: Miku Majima
+- path:
+  - Pokémon Art Team
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Pokémon Art Team
+  - Art Lead
+  names:
+  - name: Shunsuke Uematsu
+  - name: Takabon
+- path:
+  - Pokémon Art Team
+  - Modeling Art
+  names:
+  - name: Yasuyuki Sakuma
+  - name: Hiroki Fujiwara
+  - name: Hazuki Ago
+  - name: Hiroaki Ito
+  - name: Yusuke Shimada
+  - name: Kenichi Higeta
+  - name: Sachi Ichikawa
+  - name: Misaki Nakaoka
+  - name: Wataru Kawahara
+  - name: Takanari Katano
+  - name: Toru Hashimoto
+  - name: Hidenori Fujita
+- path:
+  - Pokémon Art Team
+  - Animation
+  names:
+  - name: Masataka Hata
+- path:
+  - Pokémon Art Team
+  - Software Development Engineering
+  names:
+  - name: Hiroyuki Ogasawara
+  - name: Katsunori Orimoto
+- path:
+  - Pokémon Art Team
+  - Technical Art
+  names:
+  - name: Rie Takeuchi
+  - name: Masahiko Ishii
+- path:
+  - Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Production Managers
+  names:
+  - name: Masaya Ishizuka
+  - name: Kazuhisa Nishimura
+- path:
+  - Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Modeling Art Lead
+  names:
+  - name: Takeshi Ochiai
+- path:
+  - Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Modeling Art
+  names:
+  - name: Yasuhisa Sakamoto
+  - name: Syouji Ando
+  - name: Masafumi Sugiyama
+  - name: Kenichi Tanaka
+  - name: Miu Inamura
+  - name: Yukio Hosoya
+  - name: Yusuke Nomoto
+  - name: Hiroaki Kumada
+  - name: Sakiko Tanaka
+  - name: Tomoyuki Iwakuro
+- path:
+  - Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Animation Lead
+  names:
+  - name: Tomokazu Yoshida
+- path:
+  - Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Animation
+  names:
+  - name: Yosuke Takahashi
+  - name: Yasuko Motoki
+  - name: Hiromichi Hidaka
+  - name: Toru Honda
+  - name: Suguru Fukaya
+- path:
+  - Game Design Advisors
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+- path:
+  - Pokémon Graphic Supervisors
+  names:
+  - name: Yuri Sakurai
+  - name: Toya Yoneda
+  - name: Yukiko Kanagawa
+  - name: Nobue Kamikawabata
+- path:
+  - English Localization
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+  - name: Tim Hove
+  - name: Sayuri Munday
+- path:
+  - English Editing
+  names:
+  - name: Michael G. Ryan
+  - name: Kellyn Ballard
+  - name: Blaise Selby
+  - name: Hollie Beg
+  - name: Eoin Sanders
+- path:
+  - EU Localization
+  names:
+  - name: Noriko Netley
+  - name: Elena Nardo
+  - name: Kaori Manabe
+  - name: Chika Tanigaki
+  - name: Makiko Cottrell
+- path:
+  - French Translation
+  names:
+  - name: Cyril Schultz
+  - name: Guillaume Didier
+  - name: Pierre Bancov
+- path:
+  - French Editing
+  names:
+  - name: Bertrand Lecocq
+  - name: Florian Becquereau
+- path:
+  - German Translation
+  names:
+  - name: Daniel Heucher
+  - name: Michael Ecke
+  - name: Jan Gerrit Strala
+- path:
+  - German Editing
+  names:
+  - name: Anja Weinbach
+  - name: Ralph Lunt
+- path:
+  - Italian Translation
+  names:
+  - name: Marco Sartori
+  - name: Gill George De Gregorio
+  - name: Manuela Suriano
+- path:
+  - Italian Editing
+  names:
+  - name: Marco Borrelli
+  - name: Francesca Gola
+- path:
+  - Spanish Translation
+  names:
+  - name: Alberto Gracia Castellano
+  - name: Alejandro Martínez Monge
+  - name: Antonio Vigil Saldaña
+- path:
+  - Spanish Editing
+  names:
+  - name: Esther Sánchez Giráldez
+  - name: Teresa Cueto Álvarez de Sotomayor
+- path:
+  - NOA Localization Support
+  names:
+  - name: Seth McMahill
+  - name: Rie Fujiwara
+  - name: Dan Owsen
+- path:
+  - NOA Product Testing
+  names:
+  - name: Masayasu Nakata
+  - name: Kyle Hudson
+    kind: company
+  - name: Eric M. Bush
+  - name: Sean Egan
+  - name: Tomoko Mikami
+  - name: Teresa Lillygren
+  - name: Nicko Gonzalez De Santiago
+  - name: Michael Sahlin
+  - name: Patrick Taylor
+  - name: Joshua Newman
+  - name: Kindra Timmerwilke
+  - name: Sara Hoad
+  - name: Stephane Arlot
+- path:
+  - NOE Localisation Management
+  names:
+  - name: Andy Fey
+  - name: Martin Weers
+- path:
+  - NOE Localisation Producer
+  names:
+  - name: Michaël Hugot
+- path:
+  - NOE QA Coordinator
+  names:
+  - name: Silvio Schmelz
+- path:
+  - NOE Quality Assurance
+  names:
+  - name: Ben Howard-Hale
+  - name: Aatish Pattni
+  - name: Sarah Rutherford-Bryant
+  - name: Hannah Siebert
+  - name: Katharina Mitteldorf
+  - name: Matthias Noll
+  - name: Laurence Uhlen
+  - name: Jérôme Petit
+  - name: Marie-Cécile Dussol
+  - name: Olivier Strag
+  - name: Edoardo Toniolatti
+  - name: Alessandro Calemme
+  - name: Fabio Brignoli
+  - name: Emanuele Tonetti
+  - name: Sergio Fragomeli
+  - name: Jesús Gutiérrez
+  - name: David Higueras
+  - name: Mercedes Dolera
+- path:
+  - NOE Dutch Translation
+  names:
+  - name: Patrick Koudstaal
+- path:
+  - NOE Electronic Manual Support
+  names:
+  - name: Adrian Michalski
+  - name: Zuber Anzaghe
+  - name: Stefan Dickhardt
+  - name: Mark Kourtoglou
+- path:
+  - Artwork
+  names:
+  - name: Nanako Kinoshita
+- path:
+  - Debug Management
+  names:
+  - name: Yuki Tanikawa
+  - name: Masahiro Shiotani
+- path:
+  - Debug
+  names:
+  - name: Mario Club
+    kind: company
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Takahashi
+  - name: Yasunori Yanagisawa
+  - name: Mikiko Takeda
+  - name: Naoyuki Hirayama
+  - name: Kenjiro Ito
+  - name: Mikiko Ohashi
+  - name: Tomotaka Komura
+  - name: Susumu Fukunaga
+  - name: Toshio Miyahara
+  - name: Takato Utsunomiya
+  - name: Osamu Suzuki
+  - name: Yukari Fukushima
+  - name: Rui Kawaguchi
+  - name: Sahoko Morotsuki
+  - name: Ayako Kajiwara
+  - name: Michiko Takizawa
+  - name: Yuichiro Tsumita
+  - name: Osamu Fujita
+  - name: Kenji Okubo
+  - name: Gaku Susai
+  - name: Shuhei Furukawa
+- path:
+  - Product Coordinators
+  names:
+  - name: Masamichi Anazawa
+  - name: Katsuyoshi Irie
+  - name: Mitsuyo Matsunaga
+  - name: Shunsuke Kohori
+  - name: Shusaku Egami
+  - name: Akira Kinashi
+  - name: Noriko Nakao
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+  - name: Hirokazu Tanaka
+  - name: Hiroaki Tsuru
+  - name: Hitoshi Yamagami
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+  - name: Tsunekazu Ishihara

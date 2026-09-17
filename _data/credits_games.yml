@@ -1,0 +1,922 @@
+# 由 tools/build-credits-site.py 生成：staff 名单收录的作品
+- slug: red-green
+  title: Pokémon Red and Green
+  title_zh: 宝可梦 红·绿
+  year: 1996
+  developer: Game Freak
+  core: true
+  count: 38
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Green
+  work: 宝可梦 红·绿
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_赤・緑のスタッフクレジット
+- slug: blue-jp
+  title: Pokémon Blue (JP)
+  title_zh: 宝可梦 蓝
+  year: 1996
+  developer: Game Freak
+  core: true
+  count: 43
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Blue_(JP)
+  work: 宝可梦 蓝
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_青のスタッフクレジット
+- slug: yellow
+  title: Pokémon Yellow
+  title_zh: 宝可梦 皮卡丘版
+  year: 1998
+  developer: Game Freak
+  core: true
+  count: 83
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Yellow
+  work: 宝可梦 皮卡丘版
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ピカチュウのスタッフクレジット
+- slug: red-blue
+  title: Pokémon Red and Blue
+  title_zh: 宝可梦 红·蓝（海外版）
+  year: 1998
+  developer: Game Freak
+  core: true
+  count: 86
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Blue
+  note: 海外版：含本地化人员
+- slug: gold-silver
+  title: Pokémon Gold and Silver
+  title_zh: 宝可梦 金·银
+  year: 1999
+  developer: Game Freak
+  core: true
+  count: 144
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Gold_and_Silver
+  work: 宝可梦 金·银
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_金・銀のスタッフクレジット
+- slug: crystal
+  title: Pokémon Crystal
+  title_zh: 宝可梦 水晶版
+  year: 2000
+  developer: Game Freak
+  core: true
+  count: 187
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Crystal
+  work: 宝可梦 水晶版
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_クリスタルバージョンのスタッフクレジット
+- slug: ruby-sapphire
+  title: Pokémon Ruby and Sapphire
+  title_zh: 宝可梦 红宝石·蓝宝石
+  year: 2002
+  developer: Game Freak
+  core: true
+  count: 157
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ruby_and_Sapphire
+  work: 宝可梦 红宝石·蓝宝石
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ルビー・サファイアのスタッフクレジット
+- slug: box
+  title: Pokémon Box Ruby & Sapphire
+  title_zh: 宝可梦盒子 红宝石·蓝宝石
+  year: 2003
+  developer: Nintendo × Game Freak
+  core: true
+  count: 60
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Box_Ruby_&_Sapphire
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンボックス_ルビー&サファイアのスタッフクレジット
+  note: 任天堂与 Game Freak 共同开发
+  gf_count: 16
+- slug: firered-leafgreen
+  title: Pokémon FireRed and LeafGreen
+  title_zh: 宝可梦 火红·叶绿
+  year: 2004
+  developer: Game Freak
+  core: true
+  count: 157
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_FireRed_and_LeafGreen
+  work: 宝可梦 火红·叶绿
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ファイアレッド・リーフグリーンのスタッフクレジット
+- slug: emerald
+  title: Pokémon Emerald
+  title_zh: 宝可梦 绿宝石
+  year: 2004
+  developer: Game Freak
+  core: true
+  count: 176
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Emerald
+  work: 宝可梦 绿宝石
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_エメラルドのスタッフクレジット
+- slug: diamond-pearl
+  title: Pokémon Diamond and Pearl
+  title_zh: 宝可梦 钻石·珍珠
+  year: 2006
+  developer: Game Freak
+  core: true
+  count: 166
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Diamond_and_Pearl
+  work: 宝可梦 钻石·珍珠
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ダイヤモンド・パールのスタッフクレジット
+- slug: platinum
+  title: Pokémon Platinum
+  title_zh: 宝可梦 白金
+  year: 2008
+  developer: Game Freak
+  core: true
+  count: 193
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Platinum
+  work: 宝可梦 白金
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_プラチナのスタッフクレジット
+- slug: heartgold-soulsilver
+  title: Pokémon HeartGold and SoulSilver
+  title_zh: 宝可梦 心金·魂银
+  year: 2009
+  developer: Game Freak
+  core: true
+  count: 204
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_HeartGold_and_SoulSilver
+  work: 宝可梦 心金·魂银
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ハートゴールド・ソウルシルバーのスタッフクレジット
+- slug: black-white
+  title: Pokémon Black and White
+  title_zh: 宝可梦 黑·白
+  year: 2010
+  developer: Game Freak
+  core: true
+  count: 251
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Black_and_White
+  work: 宝可梦 黑·白
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスターブラック・ホワイトのスタッフクレジット
+- slug: black2-white2
+  title: Pokémon Black 2 and White 2
+  title_zh: 宝可梦 黑2·白2
+  year: 2012
+  developer: Game Freak
+  core: true
+  count: 249
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Black_2_and_White_2
+  work: 宝可梦 黑2·白2
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスターブラック2・ホワイト2のスタッフクレジット
+- slug: dream-radar
+  title: Pokémon Dream Radar
+  title_zh: 宝可梦AR搜寻器
+  year: 2012
+  developer: Game Freak
+  core: true
+  count: 177
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dream_Radar
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンARサーチャーのスタッフクレジット
+- slug: x-y
+  title: Pokémon X and Y
+  title_zh: 宝可梦 X·Y
+  year: 2013
+  developer: Game Freak
+  core: true
+  count: 580
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_X_and_Y
+  work: 宝可梦 X·Y
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_X・Yのスタッフクレジット
+- slug: oras
+  title: Pokémon Omega Ruby and Alpha Sapphire
+  title_zh: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  year: 2014
+  developer: Game Freak
+  core: true
+  count: 431
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Omega_Ruby_and_Alpha_Sapphire
+  work: 宝可梦 欧米伽红宝石·阿尔法蓝宝石
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_オメガルビー・アルファサファイアのスタッフクレジット
+- slug: sun-moon
+  title: Pokémon Sun and Moon
+  title_zh: 宝可梦 太阳·月亮
+  year: 2016
+  developer: Game Freak
+  core: true
+  count: 586
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sun_and_Moon
+  work: 宝可梦 太阳·月亮
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_サン・ムーンのスタッフクレジット
+- slug: usum
+  title: Pokémon Ultra Sun and Ultra Moon
+  title_zh: 宝可梦 究极之日·究极之月
+  year: 2017
+  developer: Game Freak
+  core: true
+  count: 438
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ultra_Sun_and_Ultra_Moon
+  work: 宝可梦 究极之日·究极之月
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ウルトラサン・ウルトラムーンのスタッフクレジット
+- slug: lets-go
+  title: 'Pokémon: Let''s Go, Pikachu! and Let''s Go, Eevee!'
+  title_zh: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  year: 2018
+  developer: Game Freak
+  core: true
+  count: 478
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon:_Let's_Go,_Pikachu!_and_Let's_Go,_Eevee!
+  work: 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_Let's_Go!_ピカチュウ・Let's_Go!_イーブイのスタッフクレジット
+- slug: sword-shield
+  title: Pokémon Sword and Shield
+  title_zh: 宝可梦 剑·盾
+  year: 2019
+  developer: Game Freak
+  core: true
+  count: 799
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sword_and_Shield
+  work: 宝可梦 剑·盾
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ソード・シールドのスタッフクレジット
+- slug: bdsp
+  title: Pokémon Brilliant Diamond and Shining Pearl
+  title_zh: 宝可梦 晶灿钻石·明亮珍珠
+  year: 2021
+  developer: ILCA
+  core: true
+  count: 493
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Brilliant_Diamond_and_Shining_Pearl
+  work: 宝可梦 晶灿钻石·明亮珍珠
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ブリリアントダイヤモンド・シャイニングパールのスタッフクレジット
+  note: 对照组：非 Game Freak 开发
+  gf_count: 14
+- slug: legends-arceus
+  title: 'Pokémon Legends: Arceus'
+  title_zh: 宝可梦传说 阿尔宙斯
+  year: 2022
+  developer: Game Freak
+  core: true
+  count: 687
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Legends:_Arceus
+  work: 宝可梦传说 阿尔宙斯
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_LEGENDS_アルセウスのスタッフクレジット
+- slug: scarlet-violet
+  title: Pokémon Scarlet and Violet
+  title_zh: 宝可梦 朱·紫
+  year: 2022
+  developer: Game Freak
+  core: true
+  count: 1066
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Scarlet_and_Violet
+  work: 宝可梦 朱·紫
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_スカーレット・バイオレットのスタッフクレジット
+- slug: area-zero
+  title: The Hidden Treasure of Area Zero
+  title_zh: 宝可梦 朱·紫 零之秘宝
+  year: 2023
+  developer: Game Freak
+  core: true
+  count: 839
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Hidden_Treasure_of_Area_Zero
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_スカーレット・バイオレット_ゼロの秘宝のスタッフクレジット
+  note: 朱·紫 DLC
+- slug: legends-za
+  title: 'Pokémon Legends: Z-A'
+  title_zh: Pokémon LEGENDS Z-A
+  year: 2025
+  developer: Game Freak
+  core: true
+  count: 966
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Legends:_Z-A
+  work: Pokémon LEGENDS Z-A
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_LEGENDS_Z-Aのスタッフクレジット
+- slug: pokopia
+  title: Pokémon Pokopia
+  title_zh: Pokémon Pokopia
+  year: 2026
+  developer: Koei Tecmo × Game Freak
+  core: true
+  count: 808
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pokopia
+  work: Pokémon Pokopia
+  source_ja: https://wiki.pokemonwiki.com/wiki/ぽこ_あ_ポケモンのスタッフクレジット
+  note: Koei Tecmo（OMEGA FORCE）与 Game Freak 共同开发；GF 深度参与
+  gf_count: 35
+- slug: champions
+  title: Pokémon Champions
+  title_zh: Pokémon Champions
+  year: 2026
+  developer: Game Freak
+  core: true
+  count: 444
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Champions
+  work: Pokémon Champions
+- slug: hey-you-pikachu
+  title: Hey You, Pikachu!
+  title_zh: Hey You, Pikachu!
+  year: 1998
+  developer: Ambrella
+  core: false
+  count: 69
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Hey_You,_Pikachu!
+  source_ja: https://wiki.pokemonwiki.com/wiki/ピカチュウげんきでちゅうのスタッフクレジット
+  gf_count: 1
+- slug: stadium-japanese
+  title: Pokémon Stadium (Japanese)
+  title_zh: Pokémon Stadium (Japanese)
+  year: 1998
+  developer: Nintendo
+  core: false
+  count: 105
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium_(Japanese)
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアムのスタッフクレジット
+  gf_count: 15
+- slug: trading-card-game
+  title: Pokémon Trading Card Game
+  title_zh: Pokémon Trading Card Game
+  year: 1998
+  developer: Hudson Soft
+  core: false
+  count: 94
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンカードGBのスタッフクレジット
+  gf_count: 2
+- slug: picross-gbc
+  title: Pokémon Picross (GBC)
+  title_zh: Pokémon Picross (GBC)
+  year: 1999
+  developer: Jupiter Corporation
+  core: false
+  count: 44
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross_(GBC)
+  note: 未发售
+  gf_count: 3
+- slug: pinball
+  title: Pokémon Pinball
+  title_zh: Pokémon Pinball
+  year: 1999
+  developer: Jupiter Corporation, HAL Laboratory
+  core: false
+  count: 25
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボールのスタッフクレジット
+  gf_count: 9
+- slug: snap
+  title: Pokémon Snap
+  title_zh: Pokémon Snap
+  year: 1999
+  developer: HAL Laboratory
+  core: false
+  count: 83
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
+  gf_count: 3
+- slug: stadium
+  title: Pokémon Stadium
+  title_zh: Pokémon Stadium
+  year: 1999
+  developer: Nintendo
+  core: false
+  count: 154
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアム2のスタッフクレジット
+  gf_count: 15
+- slug: puzzle-challenge
+  title: Pokémon Puzzle Challenge
+  title_zh: Pokémon Puzzle Challenge
+  year: 2000
+  developer: Intelligent Systems
+  core: false
+  count: 132
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_Challenge
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンでパネポンのスタッフクレジット
+  gf_count: 3
+- slug: puzzle-league
+  title: Pokémon Puzzle League
+  title_zh: Pokémon Puzzle League
+  year: 2000
+  developer: Nintendo Software Technology
+  core: false
+  count: 203
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_League
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Puzzle_Leagueのスタッフクレジット
+  gf_count: 1
+- slug: stadium-2
+  title: Pokémon Stadium 2
+  title_zh: Pokémon Stadium 2
+  year: 2000
+  developer: Nintendo
+  core: false
+  count: 240
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium_2
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアム金銀のスタッフクレジット
+  gf_count: 18
+- slug: trading-card-game-2-the-invasion-of-team-gr
+  title: 'Pokémon Trading Card Game 2: The Invasion of Team GR!'
+  title_zh: 'Pokémon Trading Card Game 2: The Invasion of Team GR!'
+  year: 2001
+  developer: Hudson Soft
+  core: false
+  count: 83
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_2:_The_Invasion_of_Team_GR!
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンカードGB2のスタッフクレジット
+  gf_count: 4
+- slug: tetris
+  title: Pokémon Tetris
+  title_zh: Pokémon Tetris
+  year: 2002
+  developer: Nintendo
+  core: false
+  count: 42
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Tetris
+  gf_count: 3
+- slug: channel
+  title: Pokémon Channel
+  title_zh: Pokémon Channel
+  year: 2003
+  developer: Ambrella
+  core: false
+  count: 520
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Channel
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンチャンネルのスタッフクレジット
+  gf_count: 15
+- slug: colosseum
+  title: Pokémon Colosseum
+  title_zh: Pokémon Colosseum
+  year: 2003
+  developer: Genius Sonority
+  core: false
+  count: 219
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Colosseum
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンコロシアムのスタッフクレジット
+  gf_count: 24
+- slug: pinball-ruby-sapphire
+  title: 'Pokémon Pinball: Ruby & Sapphire'
+  title_zh: 'Pokémon Pinball: Ruby & Sapphire'
+  year: 2003
+  developer: Jupiter Corporation
+  core: false
+  count: 76
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball:_Ruby_&_Sapphire
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボール_ルビー&サファイアのスタッフクレジット
+  gf_count: 2
+- slug: dash
+  title: Pokémon Dash
+  title_zh: Pokémon Dash
+  year: 2004
+  developer: Ambrella
+  core: false
+  count: 67
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dash
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンダッシュのスタッフクレジット
+  gf_count: 2
+- slug: masters-arena
+  title: Pokémon Masters Arena
+  title_zh: Pokémon Masters Arena
+  year: 2004
+  developer: ImaginEngine Corp
+  core: false
+  count: 16
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Masters_Arena
+  gf_count: 0
+- slug: mystery-dungeon-red-rescue-team-and-blue-rescue-team
+  title: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
+  title_zh: 'Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team'
+  year: 2005
+  developer: The Pokémon Company/Chunsoft
+  core: false
+  count: 121
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Red_Rescue_Team_and_Blue_Rescue_Team
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_青の救助隊・赤の救助隊のスタッフクレジット
+  gf_count: 2
+- slug: team-turbo
+  title: Pokémon Team Turbo
+  title_zh: Pokémon Team Turbo
+  year: 2005
+  developer: ImaginEngine Corp
+  core: false
+  count: 10
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Team_Turbo
+  gf_count: 0
+- slug: trozei
+  title: Pokémon Trozei!
+  title_zh: Pokémon Trozei!
+  year: 2005
+  developer: Genius Sonority
+  core: false
+  count: 77
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trozei!
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモントローゼのスタッフクレジット
+  gf_count: 1
+- slug: xd
+  title: Pokémon XD
+  title_zh: Pokémon XD
+  year: 2005
+  developer: Genius Sonority
+  core: false
+  count: 191
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_XD
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンXD_闇の旋風ダーク・ルギアのスタッフクレジット
+  gf_count: 25
+- slug: battle-revolution
+  title: Pokémon Battle Revolution
+  title_zh: Pokémon Battle Revolution
+  year: 2006
+  developer: Genius Sonority
+  core: false
+  count: 205
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Revolution
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルレボリューションのスタッフクレジット
+  gf_count: 25
+- slug: ranger
+  title: Pokémon Ranger
+  title_zh: Pokémon Ranger
+  year: 2006
+  developer: HAL Laboratory, Creatures, Inc.
+  core: false
+  count: 95
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャーのスタッフクレジット
+  gf_count: 10
+- slug: mystery-dungeon-explorers-of-time-and-explorers-of-darkness
+  title: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
+  title_zh: 'Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness'
+  year: 2007
+  developer: The Pokémon Company/Chunsoft
+  core: false
+  count: 175
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_時の探検隊・闇の探検隊のスタッフクレジット
+  gf_count: 5
+- slug: my-pokemon-ranch
+  title: My Pokémon Ranch
+  title_zh: My Pokémon Ranch
+  year: 2008
+  developer: Ambrella
+  core: false
+  count: 105
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_My_Pokémon_Ranch
+  source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモン牧場のスタッフクレジット
+  gf_count: 6
+- slug: ranger-shadows-of-almia
+  title: 'Pokémon Ranger: Shadows of Almia'
+  title_zh: 'Pokémon Ranger: Shadows of Almia'
+  year: 2008
+  developer: Creatures, Inc.
+  core: false
+  count: 138
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger:_Shadows_of_Almia
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャー_バトナージのスタッフクレジット
+  gf_count: 12
+- slug: mystery-dungeon-explorers-of-sky
+  title: 'Pokémon Mystery Dungeon: Explorers of Sky'
+  title_zh: 'Pokémon Mystery Dungeon: Explorers of Sky'
+  year: 2009
+  developer: The Pokémon Company/Chunsoft
+  core: false
+  count: 136
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Explorers_of_Sky
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_空の探検隊のスタッフクレジット
+  gf_count: 4
+- slug: mystery-dungeon-wiiware
+  title: Pokémon Mystery Dungeon (WiiWare)
+  title_zh: Pokémon Mystery Dungeon (WiiWare)
+  year: 2009
+  developer: The Pokémon Company/Chunsoft
+  core: false
+  count: 61
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon_(WiiWare)
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_すすめ!_炎の冒険団・いくぞ!_嵐の冒険団・めざせ!_光の冒険団のスタッフクレジット
+  gf_count: 3
+- slug: pokepark-wii
+  title: PokéPark Wii
+  title_zh: PokéPark Wii
+  year: 2009
+  developer: Creatures, Inc.
+  core: false
+  count: 284
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_PokéPark_Wii
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケパークWii_〜ピカチュウの大冒険〜のスタッフクレジット
+  gf_count: 18
+- slug: rumble
+  title: Pokémon Rumble
+  title_zh: Pokémon Rumble
+  year: 2009
+  developer: Ambrella
+  core: false
+  count: 86
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble
+  source_ja: https://wiki.pokemonwiki.com/wiki/乱戦!_ポケモンスクランブルのスタッフクレジット
+  gf_count: 4
+- slug: ranger-guardian-signs
+  title: 'Pokémon Ranger: Guardian Signs'
+  title_zh: 'Pokémon Ranger: Guardian Signs'
+  year: 2010
+  developer: Creatures, Inc.
+  core: false
+  count: 159
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Ranger:_Guardian_Signs
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンレンジャー_光の軌跡のスタッフクレジット
+  gf_count: 21
+- slug: learn-with-pokemon-typing-adventure
+  title: 'Learn with Pokémon: Typing Adventure'
+  title_zh: 'Learn with Pokémon: Typing Adventure'
+  year: 2011
+  developer: Genius Sonority
+  core: false
+  count: 125
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Learn_with_Pokémon:_Typing_Adventure
+  source_ja: https://wiki.pokemonwiki.com/wiki/バトル&ゲット!_ポケモンタイピングDSのスタッフクレジット
+  gf_count: 7
+- slug: pokedex-3d
+  title: Pokédex 3D
+  title_zh: Pokédex 3D
+  year: 2011
+  developer: Creatures, Inc.
+  core: false
+  count: 180
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D
+  gf_count: 22
+- slug: pokepark-2
+  title: PokéPark 2
+  title_zh: PokéPark 2
+  year: 2011
+  developer: Creatures, Inc.
+  core: false
+  count: 374
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_PokéPark_2
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケパーク2_〜Beyond_the_World〜のスタッフクレジット
+  gf_count: 19
+- slug: rumble-blast
+  title: Pokémon Rumble Blast
+  title_zh: Pokémon Rumble Blast
+  year: 2011
+  developer: Ambrella
+  core: false
+  count: 101
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast
+  source_ja: https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
+  gf_count: 3
+- slug: conquest
+  title: Pokémon Conquest
+  title_zh: Pokémon Conquest
+  year: 2012
+  developer: Tecmo Koei
+  core: false
+  count: 130
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Conquest
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン+ノブナガの野望のスタッフクレジット
+  gf_count: 5
+- slug: mystery-dungeon-gates-to-infinity
+  title: 'Pokémon Mystery Dungeon: Gates to Infinity'
+  title_zh: 'Pokémon Mystery Dungeon: Gates to Infinity'
+  year: 2012
+  developer: Spike Chunsoft
+  core: false
+  count: 129
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Gates_to_Infinity
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_〜マグナゲートと∞迷宮〜のスタッフクレジット
+  gf_count: 2
+- slug: pokedex-3d-pro
+  title: Pokédex 3D Pro
+  title_zh: Pokédex 3D Pro
+  year: 2012
+  developer: Creatures, Inc.
+  core: false
+  count: 213
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
+  gf_count: 33
+- slug: rumble-u
+  title: Pokémon Rumble U
+  title_zh: Pokémon Rumble U
+  year: 2013
+  developer: Ambrella
+  core: false
+  count: 174
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_U
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスクランブル_Uのスタッフクレジット
+  gf_count: 4
+- slug: art-academy
+  title: Pokémon Art Academy
+  title_zh: Pokémon Art Academy
+  year: 2014
+  developer: Headstrong Games
+  core: false
+  count: 143
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Art_Academy
+  gf_count: 5
+- slug: battle-trozei
+  title: Pokémon Battle Trozei
+  title_zh: Pokémon Battle Trozei
+  year: 2014
+  developer: Genius Sonority
+  core: false
+  count: 149
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Battle_Trozei
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンバトルトローゼのスタッフクレジット
+  gf_count: 10
+- slug: the-thieves-and-the-1000-pokemon
+  title: The Thieves and the 1000 Pokémon
+  title_zh: The Thieves and the 1000 Pokémon
+  year: 2014
+  developer: Ambrella
+  core: false
+  count: 72
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_The_Thieves_and_the_1000_Pokémon
+  source_ja: https://wiki.pokemonwiki.com/wiki/とうぞくと1000びきのポケモンのスタッフクレジット
+  gf_count: 3
+- slug: picross
+  title: Pokémon Picross
+  title_zh: Pokémon Picross
+  year: 2015
+  developer: Jupiter Corporation
+  core: false
+  count: 130
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピクロスのスタッフクレジット
+  gf_count: 4
+- slug: pokken-tournament
+  title: Pokkén Tournament
+  title_zh: Pokkén Tournament
+  year: 2015
+  developer: Bandai Namco Entertainment
+  core: false
+  count: 417
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokkén_Tournament
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポッ拳_POKKÉN_TOURNAMENTのスタッフクレジット
+  gf_count: 8
+- slug: rumble-world
+  title: Pokémon Rumble World
+  title_zh: Pokémon Rumble World
+  year: 2015
+  developer: Ambrella
+  core: false
+  count: 158
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_World
+  source_ja: https://wiki.pokemonwiki.com/wiki/みんなのポケモンスクランブルのスタッフクレジット
+  gf_count: 6
+- slug: shuffle
+  title: Pokémon Shuffle
+  title_zh: Pokémon Shuffle
+  year: 2015
+  developer: Genius Sonority
+  core: false
+  count: 373
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Shuffle
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケとるのスタッフクレジット
+  gf_count: 12
+- slug: super-mystery-dungeon
+  title: Pokémon Super Mystery Dungeon
+  title_zh: Pokémon Super Mystery Dungeon
+  year: 2015
+  developer: Spike Chunsoft
+  core: false
+  count: 181
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Super_Mystery_Dungeon
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン超不思議のダンジョンのスタッフクレジット
+  gf_count: 4
+- slug: detective-pikachu
+  title: Detective Pikachu
+  title_zh: Detective Pikachu
+  year: 2016
+  developer: Creatures, Inc.
+  core: false
+  count: 482
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu
+  source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウのスタッフクレジット
+  gf_count: 29
+- slug: detective-pikachu-birth-of-a-new-duo
+  title: Detective Pikachu – Birth of a New Duo
+  title_zh: Detective Pikachu – Birth of a New Duo
+  year: 2016
+  developer: Creatures, Inc.
+  core: false
+  count: 196
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu_–_Birth_of_a_New_Duo
+  source_ja: https://wiki.pokemonwiki.com/wiki/名探偵ピカチュウ_〜新コンビ誕生〜のスタッフクレジット
+  gf_count: 28
+- slug: duel
+  title: Pokémon Duel
+  title_zh: Pokémon Duel
+  year: 2016
+  developer: HEROZ
+  core: false
+  count: 234
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Duel
+  gf_count: 9
+- slug: magikarp-jump
+  title: 'Pokémon: Magikarp Jump'
+  title_zh: 'Pokémon: Magikarp Jump'
+  year: 2017
+  developer: SELECT BUTTON inc.
+  core: false
+  count: 96
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon:_Magikarp_Jump
+  source_ja: https://wiki.pokemonwiki.com/wiki/はねろ!_コイキングのスタッフクレジット
+  gf_count: 0
+- slug: pokken-tournament-dx
+  title: Pokkén Tournament DX
+  title_zh: Pokkén Tournament DX
+  year: 2017
+  developer: Bandai Namco Entertainment
+  core: false
+  count: 337
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokkén_Tournament_DX
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポッ拳_POKKÉN_TOURNAMENT_DXのスタッフクレジット
+  gf_count: 9
+- slug: quest
+  title: Pokémon Quest
+  title_zh: Pokémon Quest
+  year: 2018
+  developer: Game Freak
+  core: false
+  count: 201
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Quest
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンクエストのスタッフクレジット
+- slug: rumble-rush
+  title: Pokémon Rumble Rush
+  title_zh: Pokémon Rumble Rush
+  year: 2019
+  developer: Ambrella
+  core: false
+  count: 174
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Rush
+  gf_count: 0
+- slug: tcg-card-dex
+  title: Pokémon TCG Card Dex
+  title_zh: Pokémon TCG Card Dex
+  year: 2019
+  developer: The Pokémon Company International
+  core: false
+  count: 50
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_TCG_Card_Dex
+  gf_count: 0
+- slug: cafe-remix
+  title: Pokémon Café ReMix
+  title_zh: Pokémon Café ReMix
+  year: 2020
+  developer: Genius Sonority
+  core: false
+  count: 290
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Café_ReMix
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Café_Mixのスタッフクレジット
+  gf_count: 7
+- slug: mystery-dungeon-rescue-team-dx
+  title: 'Pokémon Mystery Dungeon: Rescue Team DX'
+  title_zh: 'Pokémon Mystery Dungeon: Rescue Team DX'
+  year: 2020
+  developer: Spike Chunsoft
+  core: false
+  count: 286
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Rescue_Team_DX
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_救助隊DXのスタッフクレジット
+  gf_count: 6
+- slug: smile
+  title: Pokémon Smile
+  title_zh: Pokémon Smile
+  year: 2020
+  developer: The Pokémon Company
+  core: false
+  count: 77
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Smile
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスマイルのスタッフクレジット
+  gf_count: 3
+- slug: new-pokemon-snap
+  title: New Pokémon Snap
+  title_zh: New Pokémon Snap
+  year: 2021
+  developer: Bandai Namco Studios
+  core: false
+  count: 500
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_New_Pokémon_Snap
+  source_ja: https://wiki.pokemonwiki.com/wiki/New_ポケモンスナップのスタッフクレジット
+  gf_count: 26
+- slug: detective-pikachu-returns
+  title: Detective Pikachu Returns
+  title_zh: Detective Pikachu Returns
+  year: 2023
+  developer: Creatures, Inc.
+  core: false
+  count: 505
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Detective_Pikachu_Returns
+  source_ja: https://wiki.pokemonwiki.com/wiki/帰ってきた_名探偵ピカチュウのスタッフクレジット
+  gf_count: 18
+- slug: sleep
+  title: Pokémon Sleep
+  title_zh: Pokémon Sleep
+  year: 2023
+  developer: SELECT BUTTON inc. (2023-2024), The Pokémon Works (2024-present)
+  core: false
+  count: 300
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sleep
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Sleepのスタッフクレジット
+  gf_count: 3
+- slug: trading-card-game-pocket
+  title: Pokémon Trading Card Game Pocket
+  title_zh: Pokémon Trading Card Game Pocket
+  year: 2024
+  developer: Creatures, Inc., DeNA Co., Ltd.
+  core: false
+  count: 1166
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket
+  source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
+  gf_count: 5
+- slug: friends
+  title: Pokémon Friends
+  title_zh: Pokémon Friends
+  year: 2025
+  developer: The Pokémon Company, Wonderfy
+  core: false
+  count: 321
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Friends
+  source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンフレンズのスタッフクレジット
+  gf_count: 14
+- slug: goita-tutorial-app
+  title: 'Pokémon GOITA: Tutorial App'
+  title_zh: 'Pokémon GOITA: Tutorial App'
+  year: 2025
+  developer: The Pokémon Company, PUZZLING
+  core: false
+  count: 22
+  source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_GOITA:_Tutorial_App
+  gf_count: 0

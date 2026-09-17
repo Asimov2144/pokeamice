@@ -1,0 +1,83 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_GOITA:_Tutorial_App
+slug: goita-tutorial-app
+title: 'Staff of Pokémon GOITA: Tutorial App'
+work: null
+year: 2025
+developer: The Pokémon Company, PUZZLING
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_GOITA:_Tutorial_App
+count: 22
+sections:
+- path:
+  - Director & Programmer
+  - PUZZLING
+  names:
+  - name: Enju Hirota
+- path:
+  - Producer
+  - The Pokémon Company
+  names:
+  - name: Yoshitaka Fujiwara
+- path:
+  - Assistant Producer
+  - The Pokémon Company
+  names:
+  - name: Natsuki Minagawa
+- path:
+  - Coordinators
+  - The Pokémon Company
+  names:
+  - name: Gen Fujii
+  - name: Ren Eguchi
+- path:
+  - Artwork
+  - The Pokémon Company
+  names:
+  - name: Ryohi Matsumura
+- path:
+  - Debug
+  names:
+  - name: Pole To Win, Inc.
+    kind: company
+- path:
+  - Translation
+  names:
+  - name: Side International Japan Co., Ltd.
+    kind: company
+- path:
+  - Development Support
+  - The Pokémon Company
+  names:
+  - name: Tatsuya Ichijo
+  - name: Chitose Kawakami
+- path:
+  - Exective Producer
+  - The Pokémon Company
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producer
+  - The Pokémon Company
+  names:
+  - name: Kenjiro Ito
+  - name: Yasunori Suenaga
+- path:
+  - Special Thanks
+  names:
+  - name: NOTO GOITA PRESERVATION SOCIETY
+- path:
+  - Special Thanks
+  - The Pokémon Company
+  names:
+  - name: Aya Shimano
+  - name: Zhanghong Yu
+  - name: Zhixin Wang
+  - name: Keito Kojima
+  - name: Zhi Lin Tee
+  - name: Nobue Ito
+  - name: Mana Kameda
+- path:
+  - Very Special Thanks
+  names:
+  - name: GAME FREAK
+    link: Game Freak

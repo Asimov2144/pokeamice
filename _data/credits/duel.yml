@@ -1,0 +1,776 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Duel
+slug: duel
+title: Staff of Pokémon Duel
+work: null
+year: 2016
+developer: HEROZ
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Duel
+count: 234
+sections:
+- path:
+  - Staff list (version 7.0.0)
+  - Executive Director
+  names:
+  - name: Takahiro Hayashi
+- path:
+  - Staff list (version 7.0.0)
+  - Project Manager
+  names:
+  - name: Hisashi Itoh
+- path:
+  - Staff list (version 7.0.0)
+  - Planner
+  names:
+  - name: Yuusuke Okudera
+- path:
+  - Staff list (version 7.0.0)
+  - Lead Engineer
+  names:
+  - name: Keiichi Iguchi
+- path:
+  - Staff list (version 7.0.0)
+  - AI Engineers
+  names:
+  - name: Moyuru Kurita
+  - name: Takuya Hiraoka
+- path:
+  - Staff list (version 7.0.0)
+  - Software Engineers
+  names:
+  - name: Ryuji Tajima
+  - name: Yoshihiro Matsuno
+  - name: Sho Nakamura
+  - name: Dong Van Hung
+- path:
+  - Staff list (version 7.0.0)
+  - Server Engineer
+  names:
+  - name: Kenichi Futagami
+- path:
+  - Staff list (version 7.0.0)
+  - Graphic Designer
+  names:
+  - name: Asuka Takahashi
+- path:
+  - Staff list (version 7.0.0)
+  - 3D Designer
+  names:
+  - name: Kosuke Sunayama
+- path:
+  - Staff list (version 7.0.0)
+  - Testing
+  names:
+  - name: Masato Sawada
+  - name: Ryota Sakane
+  - name: and the entire QA staff
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Game Designer
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Game Advisor
+  names:
+  - name: Kouichi Ooyama
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Original Game Designer
+  names:
+  - name: Kouichi Ooyama
+  - name: Masayuki Miura
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+  - name: Kazunori Sugiura
+- path:
+  - Producer
+  names:
+  - name: Satoki Nakamura
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Assistant Producers
+  names:
+  - name: Yoshiaki Arimura
+  - name: Takumi Hashimoto
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Pokémon Figure Game Director
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Coordinators
+  names:
+  - name: Chitose Kawakami
+  - name: Yohei Yamamoto
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Assistant
+  names:
+  - name: Takumi Kuribara
+    note: DIGITAL Hearts Co., Ltd.
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Technical Adviser
+  names:
+  - name: Takeshi Seki
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Pokémon Brand Management
+  names:
+  - name: Ryohei Itakura
+  - name: Yuka Yoshihara
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Legal
+  names:
+  - name: Yusuke Tomita
+  - name: Michiko Takizawa
+  - name: Hirotaka Hayakawa
+  - name: Kensuke Arai
+  - name: Junko Tamura
+  - name: Maiko Usami
+  - name: Akifumi Shiobara
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+  - name: Yuki Kimoto
+  - name: Tatsuya Ichijo
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Testing Support
+  names:
+  - name: Yuhma Ohchi
+  - name: Kayo Nakata
+- path:
+  - Special Thanks
+  names:
+  - name: Atsushi Sugimoto
+  - name: Eisuke Kasejima
+  - name: Daigorotoyohide Suga
+  - name: Kenichi Arai
+- path:
+  - Staff list (version 7.0.0)
+  - Localized by The Pokémon Company International
+  - English Localization Supervision
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+  - name: Mayu Todo
+  - name: Hana Uchida
+  - name: Shinobu Taylor
+  - name: Mika Ishikawa
+  - name: Hisato Yamamori
+  - name: Bryson Clark
+  - name: Sayuri Munday
+  - name: Ben Regal
+  - name: Blaise Selby
+  - name: Eric Haddock
+  - name: Rei Nakazawa
+  - name: Julia Ryer
+- path:
+  - Staff list (version 7.0.0)
+  - Localized by The Pokémon Company International
+  - English Graphic Design and Localization
+  names:
+  - name: Chris Franc
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Technical Designer
+  names:
+  - name: Shunsuke Uematsu
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - 3D Designer
+  names:
+  - name: Hiroyuki Takahashi
+  - name: Sachi Ichikawa
+  - name: Akiko Soma
+  - name: Takashi Shimura
+- path:
+  - Staff list (version 7.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Project Managers
+  names:
+  - name: Masamichi Anazawa
+  - name: Miku Majima
+- path:
+  - Staff list (version 4.0.0)
+  - Executive Director
+  names:
+  - name: Takahiro Hayashi
+- path:
+  - Staff list (version 4.0.0)
+  - Project Manager
+  names:
+  - name: Hisashi Itoh
+- path:
+  - Staff list (version 4.0.0)
+  - Producer
+  names:
+  - name: Naoki SATOH
+- path:
+  - Staff list (version 4.0.0)
+  - Planners
+  names:
+  - name: Genki Kimura
+  - name: Ryo Mineshima
+  - name: Yuusuke Okudera
+- path:
+  - Staff list (version 4.0.0)
+  - Art Director
+  names:
+  - name: Isamu Tada
+- path:
+  - Staff list (version 4.0.0)
+  - Lead Engineer
+  names:
+  - name: Keiichi Iguchi
+- path:
+  - Staff list (version 4.0.0)
+  - AI Engineers
+  names:
+  - name: Takuya Hiraoka
+  - name: Tatsuya Imai
+  - name: Moyuru Kurita
+- path:
+  - Staff list (version 4.0.0)
+  - Software Engineers
+  names:
+  - name: Ryuji Tajima
+  - name: Yoshihiro Matsuno
+  - name: Yusuke Kato
+  - name: Naho Miyazaki
+  - name: Wataru Takahashi
+- path:
+  - Staff list (version 4.0.0)
+  - Server Engineers
+  names:
+  - name: Manabu Chikamura
+  - name: Kenichi Futagami
+  - name: Yasuhiro Seri
+- path:
+  - Staff list (version 4.0.0)
+  - Graphic Designers
+  names:
+  - name: Asuka Takahashi
+- path:
+  - Staff list (version 4.0.0)
+  - 3D Designers
+  names:
+  - name: Kosuke Sunayama
+- path:
+  - Staff list (version 4.0.0)
+  - Testing
+  names:
+  - name: Masato Sawada
+  - name: and the entire QA staff
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Game Designer
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Game Advisor
+  names:
+  - name: Kouichi Ooyama
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon Figure Game developed by Kouichi Ooyama and Masayuki Miura
+  - Original Game Designer
+  names:
+  - name: Kouichi Ooyama
+  - name: Masayuki Miura
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+  - name: Kazunori Sugiura
+- path:
+  - Producer
+  names:
+  - name: Naoto Ueoka
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Assistant Producers
+  names:
+  - name: Yoshiaki Arimura
+  - name: Satoki Nakamura
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Director
+  names:
+  - name: Naoto Ueoka
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Pokémon Figure Game Director
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Coordinators
+  names:
+  - name: Chitose Kawakami
+  - name: Takumi Hashimoto
+  - name: Yui Hayashi
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Assistant
+  names:
+  - name: Takumi Kuribara
+    note: DIGITAL Hearts Co., Ltd.
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Technical Adviser
+  names:
+  - name: Takeshi Seki
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Pokémon Brand Management
+  names:
+  - name: Ryohei Itakura
+  - name: Yuka Yoshihara
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Legal
+  names:
+  - name: Yusuke Tomita
+  - name: Michiko Takizawa
+  - name: Hirotaka Hayakawa
+  - name: Junko Tamura
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+  - name: Yohei Yamamoto
+- path:
+  - Special Thanks
+  names:
+  - name: Atsushi Sugimoto
+  - name: Keita Hirobe
+  - name: Daigorotoyohide Suga
+  - name: Mikiko Ohashi
+  - name: Kenichi Arai
+- path:
+  - Staff list (version 4.0.0)
+  - Localized by The Pokémon Company International
+  - English Localization Supervision
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+  - name: Bryson Clark
+  - name: Sayuri Munday
+  - name: Blaise Selby
+  - name: Eric Haddock
+- path:
+  - Staff list (version 4.0.0)
+  - Localized by The Pokémon Company International
+  - English Graphic Design and Localization
+  names:
+  - name: Chris Franc
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Technical Designer
+  names:
+  - name: Shunsuke Uematsu
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - 3D Designer
+  names:
+  - name: Hiroyuki Takahashi
+  - name: Sachi Ichikawa
+  - name: Takashi Shimura
+- path:
+  - Staff list (version 4.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Project Manager
+  names:
+  - name: Masamichi Anazawa
+  - name: Miku Majima
+- path:
+  - Staff list (version 1.0.0)
+  - Executive Director
+  names:
+  - name: Takahiro Hayashi
+- path:
+  - Staff list (version 1.0.0)
+  - Project Manager
+  names:
+  - name: Hisashi Itoh
+- path:
+  - Staff list (version 1.0.0)
+  - Producer
+  names:
+  - name: Naoki SATOH
+- path:
+  - Staff list (version 1.0.0)
+  - Director
+  names:
+  - name: Tomohiro Takeuchi
+- path:
+  - Staff list (version 1.0.0)
+  - Planners
+  names:
+  - name: Yoshihisa Matsuda
+  - name: Takayuki Takahara
+  - name: Genki Kimura
+  - name: Yoshiaki Takaoka
+- path:
+  - Staff list (version 1.0.0)
+  - Art Director
+  names:
+  - name: Shirou Mitsumata
+- path:
+  - Staff list (version 1.0.0)
+  - Lead Engineer
+  names:
+  - name: Keiichi Iguchi
+- path:
+  - Staff list (version 1.0.0)
+  - AI Engineers
+  names:
+  - name: Takuya Hiraoka
+  - name: Tatsuya Imai
+- path:
+  - Staff list (version 1.0.0)
+  - Software Engineers
+  names:
+  - name: Fumihito Shimizu
+  - name: Suguru Hirokawa
+  - name: Yuichi Kabasawa
+  - name: Tsuyoshi Nodi
+  - name: Takehiro Yamaguchi
+  - name: Takanori Yasuda
+- path:
+  - Staff list (version 1.0.0)
+  - Server Engineers
+  names:
+  - name: Manabu Chikamura
+  - name: Akihiro Kuramoto
+- path:
+  - Staff list (version 1.0.0)
+  - Graphic Designers
+  names:
+  - name: Shunsuke Takeshima
+  - name: Hiroki Asanuma
+  - name: Emiri Uchiyama
+  - name: Mikiko Awaji
+- path:
+  - Staff list (version 1.0.0)
+  - 3D Designers
+  names:
+  - name: Kosuke Sunayama
+  - name: Hiroyuki Sudo
+  - name: Hikari Yamamoto
+- path:
+  - Staff list (version 1.0.0)
+  - Testing
+  names:
+  - name: Daisuke Natsukari
+  - name: Mai Tomoda
+  - name: and the entire QA staff
+- path:
+  - Staff list (version 1.0.0)
+  - Original game system developer
+  names:
+  - name: Kouichi Ooyama
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 1.0.0)
+  - Sound Director
+  names:
+  - name: Shota Kageyama
+    note: SPICA MUSICA
+- path:
+  - Staff list (version 1.0.0)
+  - Music Composer
+  names:
+  - name: Shota Kageyama
+- path:
+  - Staff list (version 1.0.0)
+  - Acoustic & Electric Guitar Player
+  names:
+  - name: Hiroaki Tsutsumi
+- path:
+  - Staff list (version 1.0.0)
+  - Acoustic & Electric Bass Player
+  names:
+  - name: Yoshinori Uchida
+- path:
+  - Staff list (version 1.0.0)
+  - Piano Player & Programmer
+  names:
+  - name: Shota Kageyama
+- path:
+  - Staff list (version 1.0.0)
+  - Mixing Engineer
+  names:
+  - name: Yoshiyuki Watanabe
+    note: VICTOR STUDIO
+- path:
+  - Staff list (version 1.0.0)
+  - Mastering Engineer
+  names:
+  - name: Takahiro Uchida
+    note: FLAIR MASTERING WORKS
+- path:
+  - Staff list (version 1.0.0)
+  - Sound Effects Developer
+  names:
+  - name: Jun Fukuda
+    note: Gemini Breeze LLC.
+- path:
+  - Staff list (version 1.0.0)
+  - Illustrations
+  names:
+  - name: fukufuku inc.
+    kind: company
+- path:
+  - Staff list (version 1.0.0)
+  - 3D Models
+  names:
+  - name: IMAGICA DIGITALSCAPE Co., Ltd. / BAUHAUS ENTERTAINMENT
+    kind: company
+- path:
+  - Staff list (version 1.0.0)
+  - 3D Models
+  - Manager
+  names:
+  - name: Ishizuka Masaya
+- path:
+  - Staff list (version 1.0.0)
+  - 3D Models
+  - Character Modelers
+  names:
+  - name: Kotaro Kitada
+  - name: Hiromi Koda
+  - name: Itsuki Wakuta
+- path:
+  - Staff list (version 1.0.0)
+  - Character illustrations
+  names:
+  - name: Hideki Ishikawa
+- path:
+  - Staff list (version 1.0.0)
+  - Scenario writer
+  names:
+  - name: Masaru Hatano
+    note: SEVENTH Entertainment Inc.
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  names:
+  - name: Digital Frontia Inc.
+    kind: company
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - Producer
+  names:
+  - name: Nobuhiro Suzuki
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - Director
+  names:
+  - name: Yasuhiro Otsuka
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - Assets Artists
+  names:
+  - name: Keigo Takaya
+  - name: Shingo Matsuyama
+  - name: Naoto Ikeda
+  - name: Tan Yeou Sheng
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - CG Animators
+  names:
+  - name: Takeshi Kamekawa
+  - name: Takamasa Kanai
+  - name: Kiyoshi Ishimaru
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - Shots Artists
+  names:
+  - name: Shinji Watanabe
+  - name: Hitoshi Miyake
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - Production Manager
+  names:
+  - name: Shun Funahashi
+- path:
+  - Staff list (version 1.0.0)
+  - Opening movie
+  - MAstudio
+  names:
+  - name: HALF H-P STUDIO
+    kind: company
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+  - name: Yasunori Suenaga
+  - name: Takanori Sowa
+- path:
+  - Producer
+  names:
+  - name: Naoki Suzuki
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Assistant Producers
+  names:
+  - name: Chitose Kawakami
+  - name: Aya Shimano
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Original Game Adviser
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Technical Advisers
+  names:
+  - name: Takeshi Seki
+  - name: Satoshi Ogawa
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Test Adviser
+  names:
+  - name: Kayo Nakata
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Pokémon Brand Management
+  names:
+  - name: Misuzu Kanayama
+  - name: Emiko Yoshino
+  - name: Akie Fujimoto
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Legal
+  names:
+  - name: Michiko Takizawa
+  - name: Yusuke Tomita
+  - name: Hirotaka Hayakawa
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+  - name: Yohei Yamamoto
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon produced by The Pokémon Company
+  - Promotion Producer
+  names:
+  - name: Shinsuke Kato
+- path:
+  - Special Thanks
+  names:
+  - name: Atsushi Sugimoto
+  - name: Taku Kawamoto
+  - name: Eisuke Kasejima
+  - name: Yukari Fukushima
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Technical Designer
+  names:
+  - name: Shunsuke Uematsu
+- path:
+  - Staff list (version 1.0.0)
+  - Pokémon 3D models advised by Creatures Inc.
+  - Project Manager
+  names:
+  - name: Masamichi Anazawa

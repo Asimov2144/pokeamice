@@ -38,7 +38,7 @@ entities:
   - 增田顺一
   - 菜花健作
   works:
-  - 宝可梦 Let's Go！皮卡丘/伊布
+  - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
 workflow:
   fetch: wayback
   translation: deepseek-chat

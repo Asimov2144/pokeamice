@@ -1,0 +1,585 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross + https://wiki.pokemonwiki.com/wiki/ポケモンピクロスのスタッフクレジット
+slug: picross
+title: Staff of Pokémon Picross
+work: null
+year: 2015
+developer: Jupiter Corporation
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross
+count: 130
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピクロスのスタッフクレジット
+ja_alignment:
+  ja_total: 150
+  ja_matched: 97
+  ja_positional: 30
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Tomohiro Matsui
+    ja: まつい ともひろ
+    ja_match: romaji
+  ja_role: ディレクション
+- path:
+  - Programming
+  names:
+  - name: Tomohiro Matsui
+    ja: まつい ともひろ
+    ja_match: romaji
+  - name: Yoshimasa Fujita
+    ja: ふじた よしまさ
+    ja_match: romaji
+  - name: Ken Iwai
+    ja: いわい けん
+    ja_match: romaji
+  - name: Takahiro Fujimoto
+    ja: ふじもと たかひろ
+    ja_match: romaji
+  - name: Atsushi Motohama
+    ja: もとはま あつし
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Design
+  names:
+  - name: Norichika Meguro
+    ja: めぐろ のりちか
+    ja_match: romaji
+  - name: Yoshimi Nakajima
+    ja: なかじま よしみ
+    ja_match: romaji
+  - name: Manami Yamazaki
+    ja: やまざき まなみ
+    ja_match: romaji
+  ja_role: デザイン
+- path:
+  - Sound
+  names:
+  - name: Yuka Tsujiyoko
+    ja: つじよこ ゆか
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Game Planning
+  names:
+  - name: Tomohiro Matsui
+    ja: まつい ともひろ
+    ja_match: romaji
+  - name: Yasuhide Yoshihara
+    ja: よしはら やすひで
+    ja_match: romaji
+  ja_role: プランニング
+- path:
+  - Project Management
+  names:
+  - name: Norichika Meguro
+    ja: めぐろ のりちか
+    ja_match: romaji
+  ja_role: プロジェクトマネージメント
+- path:
+  - Illustration
+  names:
+  - name: Kouki Saitou
+    ja: さいとう こーき
+    kanji: 斉藤コーキ
+    ja_match: romaji
+  ja_role: イラストレーション
+- path:
+  - Logo Design
+  names:
+  - name: Kenichi Koga
+    ja: こが けんいち
+    ja_match: romaji
+  - name: Ikumi Fujishiro
+    ja: ふじしろ いくみ
+    ja_match: romaji
+  - name: Chiaki Shinkai
+    ja: しんかい ちあき
+    ja_match: romaji
+  - name: Eric Medalle
+    ja_match: positional
+    ja: エリック メダリエ
+  - name: Hiromi Kimura
+    ja: きむら ひろみ
+    ja_match: romaji
+  ja_role: ロゴデザイン
+- path:
+  - Pokémon Graphic Supervisors
+  names:
+  - name: Misuzu Kanayama
+    ja: かなやま みすず
+    ja_match: romaji
+  - name: Emiko Yoshino
+    ja: よしの えみこ
+    ja_match: romaji
+  - name: Akie Fujimoto
+    ja: ふじもと あきえ
+    ja_match: romaji
+  ja_role: ポケモンかんしゅう
+- path:
+  - Game-Design Advisors
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: ゲームデザインアドバイザー
+- path:
+  - Technical Support
+  names:
+  - name: Toru Inage
+    ja: いなげ とおる
+    ja_match: romaji
+  ja_role: ぎじゅつ サポート
+- path:
+  - Server Development
+  names:
+  - name: Hideaki Tanabe
+    ja: たなべ ひであき
+    ja_match: romaji
+  - name: Kazuto Shimizu
+    ja: しみず かずと
+    ja_match: romaji
+  ja_role: サーバー かいはつ
+- path:
+  - Artwork
+  names:
+  - name: Yasuko Sugiyama
+    ja: すぎやま やすこ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Manual Editing
+  names:
+  - name: Yasushi Matsubara
+    ja: まつばら やすし
+    ja_match: romaji
+  ja_role: せつめいしょ へんしゅう
+- path:
+  - Debug Management
+  names:
+  - name: Takeshi Saigo
+    ja: さいごう たけし
+    ja_match: romaji
+  - name: Motoki Nakajima
+    ja: なかじま もとき
+    ja_match: romaji
+  - name: Takuya Inoue
+    ja: いのうえ たくや
+    ja_match: romaji
+  ja_role: デバッグマネージメント
+- path:
+  - Debug
+  names:
+  - name: Mario Club Co., Ltd.
+    kind: company
+    ja_match: positional
+    ja: マリオクラブ
+  ja_role: デバッグ
+- path:
+  - English-Version Localization
+  names:
+  - name: Yasuhiro Usui
+    ja: うすい やすひろ
+    ja_match: romaji
+  - name: Yoshihiro Uemura
+    ja: うえむら よしひろ
+    ja_match: romaji
+  - name: Kazuko Connery
+    note: Parker Staffing Services
+  ja_role: えいご ローカライズ
+- path:
+  - English-Version Translation
+  names:
+  - name: Sayuri Munday
+- path:
+  - English-Version Editing
+  names:
+  - name: Rachel Payne
+  - name: Blaise Selby
+- path:
+  - NOA Localization Support
+  names:
+  - name: Seth McMahill
+  - name: Ryo Uchida
+    ja: うちだ りょう
+    ja_match: romaji
+  - name: Joel Simon
+  - name: Terrance Chan
+  - name: Dan Owsen
+  - name: Matthew Niemi
+  ja_role: NOA ローカライズサポート
+- path:
+  - NOA Product Testing
+  names:
+  - name: Masayasu Nakata
+    ja: なかた まさやす
+    ja_match: romaji
+  - name: Seth Hanser
+  - name: Sean Egan
+  - name: Ed Ridgeway
+  - name: Bianca Hernandez
+  - name: Monika Perry
+  - name: Jeffrey Storbo
+  - name: Brett Nellermoe
+  - name: Lauren Murashige
+  - name: Product Testing Technicians
+    kind: company
+  ja_role: NOAプロダクトテスティング
+- path:
+  - European-Version Localization
+  names:
+  - name: Noriko Netley
+  - name: Tadasu Hasegawa
+    ja: はせがわ ただす
+    ja_match: romaji
+  - name: Makiko Cottrel
+  - name: Maya Yoshida
+    ja: よしだ まや
+    ja_match: romaji
+  - name: Elena Nardo
+    ja_match: positional
+    ja: エレナ ナルド
+  - name: Cyril Schultz
+    ja_match: positional
+    ja: シリル シュールス
+  - name: Bertrand Lecocq
+    ja_match: positional
+    ja: ベルトラン ルコック
+  ja_role: ヨーロッパ ローカライズ
+- path:
+  - European-Version Translation
+  names:
+  - name: Guillaume Didier
+    ja_match: positional
+    ja: ギヨーム ディディエ
+  - name: Aymeric Forgit
+    ja_match: positional
+    ja: エメリック フォージ
+  - name: Lylia Khrissate
+    ja_match: positional
+    ja: リリア クリサット
+  - name: Marco Sartori
+    ja_match: positional
+    ja: マルコ サルトーリ
+  - name: Guido Scarabello
+    ja_match: positional
+    ja: グイド スカラベッロ
+  - name: Manuela Suriano
+    ja_match: positional
+    ja: マヌエラ スリアーノ
+  - name: Kathleen Kalms
+    ja_match: positional
+    ja: カトレーン カルムス
+  - name: Michael Ecke
+    ja_match: positional
+    ja: ミヒャエル エッケ
+  - name: Daniel Heucher
+    ja_match: positional
+    ja: ダニエル ホイヒャー
+  - name: Alberto Gracia Castellano
+    ja_match: positional
+    ja: アルベルト グラシア カステヤノ
+  - name: Enrique Joga Elvira
+    ja_match: positional
+    ja: エンリケ ホガ エルヴィラ
+  - name: Alejandro Martinez Monge
+    ja_match: positional
+    ja: アレハンドロ マルティネス モンヘ
+  ja_role: ヨーロッパ ほんやく
+- path:
+  - European-Version Editing
+  names:
+  - name: Pierre Gauthier
+    ja_match: positional
+    ja: ピエール ゴティエ
+  - name: Franck Couée
+    ja_match: positional
+    ja: フランク クエー
+  - name: Fabio Giusti
+    ja_match: positional
+    ja: ファビオ ジュスティ
+  - name: Silvia De Bellis
+    ja_match: positional
+    ja: シルビヤ デ ベッリス
+  - name: Claudia Thon
+    ja_match: positional
+    ja: クラウディア トーン
+  - name: Sina Moelleken
+    ja_match: positional
+    ja: ジーナ メレケン
+  - name: Mariona Pera i de Miguel
+    ja_match: positional
+    ja: マリオナ ペラ イ デ ミゲール
+  - name: Virginia Paradés Gurrea
+    ja_match: positional
+    ja: ヴィルヒニア パラデス グレア
+  ja_role: ヨーロッパ へんしゅう
+- path:
+  - Localization Support
+  names:
+  - name: Jeff Hines
+    ja_match: positional
+    ja: ジェフ ハインズ
+  - name: Robert Colling
+    ja_match: positional
+    ja: ロバート コーリング
+  - name: Marvin Andrews
+    ja_match: positional
+    ja: マーヴィン アンドリュース
+  ja_role: ローカライズ サポート
+- path:
+  - NOE Localisation Support
+  names:
+  - name: Kazunari Suzuki
+    ja: すずき かずなり
+    ja_match: romaji
+  - name: Canela Rodal
+  ja_role: NOE ローカライズサポート
+- path:
+  - NOE Quality Assurance
+  names:
+  - name: J. Ignacio León López
+  - name: Jesús Gutiérrez Cuadra
+  - name: Patrick Thorenz
+  - name: Christopher Hannah
+  - name: Julien Liopart
+  - name: Olivier Jacquemin-Guillaume
+  - name: Edwin Kirschenmann
+  - name: Sebastian Jende
+  - name: Daniele Albrito
+  - name: Rita Di Lascio
+  - name: Miguel Ángel Carnero Calderón
+  - name: Laura Soto Toral
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: こむら ともたか
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: すぎもと あつし
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: うつのみや たかと
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: みやはら としお
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: かわもと たく
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: たなか まさみ
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: ふくなが すすむ
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Shin Uwai
+    ja: うわい しん
+    ja_match: romaji
+  - name: Madoka Nishizawa
+    ja: にしざわ まどか
+    ja_match: romaji
+  - name: Eriko Suzuki
+    ja: すずき えりこ
+    ja_match: romaji
+  - name: Nobuhiro Sawabe
+    ja: さわべ のぶひろ
+    ja_match: romaji
+  - name: Shun Ohinata
+    ja: おおひなた しゅん
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: たきざわ みちこ
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: はやかわ ひろたか
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: ふくしま ゆかり
+    ja_match: romaji
+  - name: Dario De Leo
+    ja_match: positional
+    ja: ダリオ デレオ
+  - name: Lubov Blaesing
+    ja_match: positional
+    ja: ルボフ ブレージング
+  - name: Ryoko Sawabe
+    ja: さわべ りょうこ
+    ja_match: romaji
+  - name: Kenji Okubo
+    ja: おおくぼ けんじ
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: すさい がく
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - Product Coordinators
+  names:
+  - name: Kaori Ando
+    ja: あんどう かおり
+    ja_match: romaji
+  - name: Yuki Okada
+    ja: おかだ ゆうき
+    ja_match: romaji
+  ja_role: プロダクトコーディネーター
+- path:
+  - Producers
+  names:
+  - name: Masayuki Wada
+    ja: わだ まさゆき
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: かせじま えいすけ
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Makoto Nakayama
+    ja: なかやま まこと
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - General Producer
+  names:
+  - name: Shinya Takahashi
+    ja: たかはし しんや
+    ja_match: romaji
+  ja_role: ゼネラルプロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+ja_unmatched:
+- kana: コネリー かずこ
+  role: えいご ローカライズ
+- kana: マンデー さゆり
+  role: えいご ほんやく
+- kana: レイチェル ペイン
+  role: えいご へんしゅう
+- kana: ブレイズ セルビー
+  role: えいご へんしゅう
+- kana: セス ミックメィヒル
+  role: NOA ローカライズサポート
+- kana: ジョエル サイモン
+  role: NOA ローカライズサポート
+- kana: テリー チャン
+  role: NOA ローカライズサポート
+- kana: ダン オーセン
+  role: NOA ローカライズサポート
+- kana: にいみ マシュー
+  role: NOA ローカライズサポート
+- kana: セス ハンサー
+  role: NOAプロダクトテスティング
+- kana: ショーン イーガン
+  role: NOAプロダクトテスティング
+- kana: エド リッジウェイ
+  role: NOAプロダクトテスティング
+- kana: ブランカ ヘルナンデ
+  role: NOAプロダクトテスティング
+- kana: モニカ ペリー
+  role: NOAプロダクトテスティング
+- kana: ジェフリー ストーボ
+  role: NOAプロダクトテスティング
+- kana: ブレット ネラーモ
+  role: NOAプロダクトテスティング
+- kana: ローレン ムラシゲ
+  role: NOAプロダクトテスティング
+- kana: プロダクトテスティングテクニシャンズ
+  role: NOAプロダクトテスティング
+- kana: ネトリ のりこ
+  role: ヨーロッパ ローカライズ
+- kana: コットレル まきこ
+  role: ヨーロッパ ローカライズ
+- kana: カネラ ロダル
+  role: NOE ローカライズサポート
+- kana: J. イグナシオ レオン ロペス
+  role: NOE ひんしつほしょう
+- kana: ヘスス グティエレス クアドラ
+  role: NOE ひんしつほしょう
+- kana: パトリック トーレンツ
+  role: NOE ひんしつほしょう
+- kana: クリストファー ハナ
+  role: NOE ひんしつほしょう
+- kana: ジュリアン ロパール
+  role: NOE ひんしつほしょう
+- kana: オリビエ ジャックマン ギヨーム
+  role: NOE ひんしつほしょう
+- kana: エドヴィン キールシェンマン
+  role: NOE ひんしつほしょう
+- kana: ゼバスティアン イェンデ
+  role: NOE ひんしつほしょう
+- kana: ダニエーレ アルブリト
+  role: NOE ひんしつほしょう
+- kana: リタ ディ ラッシオ
+  role: NOE ひんしつほしょう
+- kana: ミゲル アンヘル カルネロ カルデロン
+  role: NOE ひんしつほしょう
+- kana: ラウラ ソト トラル
+  role: NOE ひんしつほしょう
+- kana: にんてんどうかぶしきがいしゃ
+  role: せいさく・ちょさく
+  kanji: 任天堂
+- kana: かぶしきがいしゃポケモン
+  role: せいさく・ちょさく
+  kanji: 株式会社ポケモン
+- kana: かぶしきがいしゃジュピター
+  role: せいさく・ちょさく
+- kana: Nintendo,
+  role: せいさく・ちょさく
+- kana: The Pokémon Company,
+  role: せいさく・ちょさく
+- kana: and Jupiter
+  role: せいさく・ちょさく
+- kana: are the authors of
+  role: せいさく・ちょさく
+- kana: this software for
+  role: せいさく・ちょさく
+- kana: the purpose of copyright.
+  role: せいさく・ちょさく
+- kana: All rights reserved.
+  role: せいさく・ちょさく
+- kana: Nintendo,
+  role: せいさく・ちょさく
+- kana: The Pokémon Company,
+  role: せいさく・ちょさく
+- kana: et Jupiter
+  role: せいさく・ちょさく
+- kana: sont les auteurs de ce logiciel
+  role: せいさく・ちょさく
+- kana: au regard du droit d'auteur.
+  role: せいさく・ちょさく
+- kana: Tous droits réservés.
+  role: せいさく・ちょさく
+- kana: ©2015 Pokémon.
+  role: せいさく・ちょさく
+- kana: ©1995-2015 Nintendo
+  role: せいさく・ちょさく
+- kana: ©1995-2015 Creatures Inc.
+  role: せいさく・ちょさく
+- kana: ©1995-2015 GAME FREAK inc.
+  role: せいさく・ちょさく

@@ -1,0 +1,262 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Box_Ruby_&_Sapphire + https://wiki.pokemonwiki.com/wiki/ポケモンボックス_ルビー&サファイアのスタッフクレジット
+slug: box
+title: Staff of Pokémon Box Ruby & Sapphire
+work: null
+year: 2003
+developer: Nintendo × Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Box_Ruby_&_Sapphire
+count: 60
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンボックス_ルビー&サファイアのスタッフクレジット
+note: 任天堂与 Game Freak 共同开发
+ja_alignment:
+  ja_total: 48
+  ja_matched: 48
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Directors
+  names:
+  - name: Tatsuya Hishida
+    ja: Tatsuya Hishida
+    ja_match: romaji
+  - name: Kenta Usui
+    ja: Kenta Usui
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Program Director
+  names:
+  - name: Yasuhiro Kawaguchi
+    ja: Yasuhiro Kawaguchi
+    ja_match: romaji
+  ja_role: Program Director
+- path:
+  - Programmers
+  names:
+  - name: Daiki Iwamoto
+    ja: Daiki Iwamoto
+    ja_match: romaji
+  - name: Yetsuya Sasaki
+    ja_match: positional
+    ja: Tetsuya Sasaki
+  - name: Shirou Mouri
+    ja: Shirou Mouri
+    ja_match: romaji
+  - name: Syunsaku Kitamura
+    ja: Syunsaku Kitamura
+    ja_match: romaji
+  - name: Yusuke Kuranashi
+    ja_match: positional
+    ja: Yusuke Kurahashi
+  - name: Youhei Fujino
+    ja: Youhei Fujino
+    ja_match: romaji
+  - name: Kouji Yoshizaki
+    ja: Kouji Yoshizaki
+    ja_match: romaji
+  ja_role: Programmers
+- path:
+  - Support Programmers
+  names:
+  - name: Satoshi Mitsuhara
+    ja: Satoshi Mitsuhara
+    kanji: 三津原敏
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Sosuke Tamada
+    ja: Sosuke Tamada
+    kanji: 玉田荘介
+    ja_match: romaji
+  - name: Hisashi Sogabe
+    ja: Hisashi Sogabe
+    ja_match: romaji
+  - name: Hiroyuki Nakamura
+    ja: Hiroyuki Nakamura
+    ja_match: romaji
+  - name: Masao Taya
+    ja: Masao Taya
+    kanji: 田谷正夫
+    ja_match: romaji
+  ja_role: Support Programmers
+- path:
+  - Designers
+  names:
+  - name: Satoru Takizawa
+    ja: Satoru Takizawa
+    ja_match: romaji
+  - name: Takahiro Hamaguchi
+    ja: Takahiro Hamaguchi
+    ja_match: romaji
+  - name: Yusuke Akifusa
+    ja: Yusuke Akifusa
+    ja_match: romaji
+  - name: Kanae Kobata
+    ja: Kanae Kobata
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: Hironobu Yoshida
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Kanako Eo
+    ja: Kanako Eo
+    kanji: 江尾可奈子
+    ja_match: romaji
+  - name: Takao Unno
+    ja: Takao Unno
+    kanji: 海野隆雄
+    ja_match: romaji
+  ja_role: Designers
+- path:
+  - Sound Arrangement
+  names:
+  - name: Kenta Nagata
+    ja: Kenta Nagata
+    ja_match: romaji
+  - name: Toru Asakawa
+    ja: Toru Asakawa
+    ja_match: romaji
+  ja_role: Sound Arrangement
+- path:
+  - Planning
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    ja_match: romaji
+  - name: Takeshi Kawachimaru
+    ja: Takeshi Kawachimaru
+    kanji: 川内丸武史
+    ja_match: romaji
+  - name: Hitomi Sato
+    ja: Hitomi Sato
+    kanji: 佐藤仁美
+    ja_match: romaji
+  - name: Shigeru Ohmori
+    ja: Shigeru Ohmori
+    kanji: 大森滋
+    ja_match: romaji
+  ja_role: Planning
+- path:
+  - Technical Support
+  names:
+  - name: Hironobu Kakui
+    ja: Hironobu Kakui
+    ja_match: romaji
+  - name: Masahiro Takeguchi
+    ja: Masahiro Takeguchi
+    ja_match: romaji
+  - name: Library support team
+    kind: company
+    ja: Library Support Team
+    ja_match: romaji
+  ja_role: Technical Support
+- path:
+  - Debug
+  names:
+  - name: Super Mario Club
+    kind: company
+    ja: Super Mario Club
+    ja_match: romaji
+  ja_role: Debug
+- path:
+  - NOA Product Testing
+  names:
+  - name: Thomas Hertzog
+  - name: Shane Lewis
+- path:
+  - Special Thanks
+  names:
+  - name: Keizo Katoh
+    ja: Keizo Katoh
+    ja_match: romaji
+  - name: Shinya Takahashi
+    ja: Shinya Takahashi
+    ja_match: romaji
+  - name: Tomoaki Kuroume
+    ja: Tomoaki Kuroume
+    ja_match: romaji
+  - name: Mari Shirakawa
+    ja: Mari Shirakawa
+    ja_match: romaji
+  - name: NOE Localization Team
+    kind: company
+  - name: NOE Testing Team
+    kind: company
+  ja_role: Special Thanks
+- path:
+  - Coordinators
+  names:
+  - name: Gakuji Nomoto
+    ja: Gakuji Nomoto
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: Retsuji Nomoto
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: Tomotaka Komura
+    ja_match: romaji
+  ja_role: Coordinators
+- path:
+  - Localization
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+  - name: Hiroyuki Uesugi
+  - name: Kayo Sadahisa
+- path:
+  - Translation
+  names:
+  - name: Pierre Sanchez
+  - name: Daniel Schäfers
+  - name: Andrea Salvi
+  - name: Sofía Marín Aguilar-Galindo
+- path:
+  - Producers
+  names:
+  - name: Shigeru Miyamoto
+    ja: Shigeru Miyamoto
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Kenji Miki
+    ja: Kenji Miki
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: Hiroaki Tsuru
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Executive Director
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: Executive Director
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producer

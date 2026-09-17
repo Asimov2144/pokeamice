@@ -1,0 +1,1967 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Brilliant_Diamond_and_Shining_Pearl + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ブリリアントダイヤモンド・シャイニングパールのスタッフクレジット
+slug: bdsp
+title: Staff of Pokémon Brilliant Diamond and Shining Pearl
+work: 宝可梦 晶灿钻石·明亮珍珠
+year: 2021
+developer: ILCA
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Brilliant_Diamond_and_Shining_Pearl
+count: 493
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ブリリアントダイヤモンド・シャイニングパールのスタッフクレジット
+note: 对照组：非 Game Freak 开发
+ja_alignment:
+  ja_total: 495
+  ja_matched: 491
+  ja_positional: 0
+  ja_only_added: 0
+corpus_count: 517
+sections:
+- path:
+  - Director
+  names:
+  - name: Yuichi Ueda
+    ja: Yuichi Ueda
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Director
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - 3D Graphic Manager
+  names:
+  - name: Takahiro Mizutani
+    ja: Takahiro Mizutani
+    ja_match: romaji
+  ja_role: 3D Graphic Manager
+- path:
+  - Program Leader
+  names:
+  - name: Shinya Suda
+    ja: Shinya Suda
+    ja_match: romaji
+  ja_role: Program Leader
+- path:
+  - Programming Cooperative Company
+  names:
+  - name: Smartpoint Co.,Ltd
+    kind: company
+    ja: Smartpoint Co.,Ltd
+    ja_match: romaji
+  ja_role: Programming Cooperative Company
+- path:
+  - Planning Leader
+  names:
+  - name: Jun Taniguchi
+    ja: Jun Taniguchi
+    ja_match: romaji
+  ja_role: Planning Leader
+- path:
+  - Graphic Design Leader
+  names:
+  - name: Eriko Fujiwara
+    ja: Eriko Fujiwara
+    ja_match: romaji
+  ja_role: Graphic Design Leader
+- path:
+  - UI Graphic Design Leader
+  names:
+  - name: Hyungjong Takehara
+    ja: Hyungjong Takehara
+    ja_match: romaji
+  ja_role: UI Graphic Design Leader
+- path:
+  - Character Modeling Leader
+  names:
+  - name: Kazunori Nakanishi
+    ja: Kazunori Nakanishi
+    ja_match: romaji
+  ja_role: Character Modeling Leader
+- path:
+  - Character Motion Leader
+  names:
+  - name: Hisashi Kanie
+    ja: Hisashi Kanie
+    ja_match: romaji
+  ja_role: Character Motion Leader
+- path:
+  - Map Modeling Leader
+  names:
+  - name: Takashi Hirano
+    ja: Takashi Hirano
+    ja_match: romaji
+  - name: Yoshinobu Okano
+    ja: Yoshinobu Okano
+    ja_match: romaji
+  - name: Atsushi Numata
+    ja: Atsushi Numata
+    ja_match: romaji
+  ja_role: Map Modeling Leader
+- path:
+  - Art Design Leader
+  names:
+  - name: Akira Muramoto
+    ja: Akira Muramoto
+    ja_match: romaji
+  ja_role: Art Design Leader
+- path:
+  - Effect Design Leader
+  names:
+  - name: Takahiro Owaki
+    ja: Takahiro Owaki
+    ja_match: romaji
+  ja_role: Effect Design Leader
+- path:
+  - Digital Movie Graphic Leaders
+  names:
+  - name: Manabu Nakamura
+    ja: Manabu Nakamura
+    ja_match: romaji
+  - name: Masaaki Nakasone
+    ja: Masaaki Nakasone
+    ja_match: romaji
+  ja_role: Digital Movie Graphic Leaders
+- path:
+  - Music
+  names:
+  - name: Shota Kageyama
+    ja: Shota Kageyama
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    ja_match: romaji
+  ja_role: Music
+- path:
+  - Guitar
+  names:
+  - name: Hiroaki Tsutsumi
+    ja: Hiroaki Tsutsumi
+    ja_match: romaji
+  ja_role: Guitar
+- path:
+  - Mixing Engineer
+  names:
+  - name: Yoshiyuki Watanabe
+    ja: Yoshiyuki Watanabe
+    ja_match: romaji
+  - name: Syncstudio
+    ja: Syncstudio
+    ja_match: romaji
+  ja_role: Mixing Engineer
+- path:
+  - Sound
+  names:
+  - name: Jun Fukuda
+    ja: Jun Fukuda
+    ja_match: romaji
+  - name: GEMINI BREEZE LLC.
+    kind: company
+    ja: Gemini Breeze Llc.
+    ja_match: romaji
+  ja_role: Sound
+- path:
+  - Project Managers
+  names:
+  - name: Shoko Kanari
+    ja: Shoko Kanari
+    ja_match: romaji
+  - name: Jun Nakajima
+    ja: Jun Nakajima
+    ja_match: romaji
+  ja_role: Project Managers
+- path:
+  - Very Special Thanks
+  names:
+  - name: Takuya Iwasaki
+    ja: Takuya Iwasaki
+    ja_match: romaji
+  - name: Soji Takamori
+    ja: Soji Takamori
+    ja_match: romaji
+  ja_role: Very Special Thanks
+- path:
+  - Programming
+  names:
+  - name: Makoto Takei
+    ja: Makoto Takei
+    ja_match: romaji
+  - name: Masahito Shimizu
+    ja: Masahito Shimizu
+    ja_match: romaji
+  - name: Hiroaki Morishima
+    ja: Hiroaki Morishima
+    ja_match: romaji
+  - name: Itaru Sato
+    ja: Itaru Sato
+    ja_match: romaji
+  - name: Mitsuteru Ozawa
+    ja: Mitsuteru Ozawa
+    ja_match: romaji
+  - name: Yuka Seki
+    ja: Yuka Seki
+    ja_match: romaji
+  - name: Shuhei Otake
+    ja: Shuhei Otake
+    ja_match: romaji
+  - name: Yusuke Yasuda
+    ja: Yusuke Yasuda
+    ja_match: romaji
+  - name: Shunpei Sasaki
+    ja: Shunpei Sasaki
+    ja_match: romaji
+  - name: Koichi Ishikawa
+    ja: Koichi Ishikawa
+    ja_match: romaji
+  - name: Ryoma Yoda
+    ja: Ryoma Yoda
+    ja_match: romaji
+  ja_role: Very Special Thanks
+- path:
+  - Technical Support
+  names:
+  - name: Tatsuya Ando
+    ja: Tatsuya Ando
+    ja_match: romaji
+  - name: Morimichi Suzuki
+    ja: Morimichi Suzuki
+    ja_match: romaji
+  ja_role: Very Special Thanks
+- path:
+  - Planning
+  names:
+  - name: Hiroyuki Ichiyanagi
+    ja: Hiroyuki Ichiyanagi
+    ja_match: romaji
+  - name: Hidenori Mochizuki
+    ja: Hidenori Mochizuki
+    ja_match: romaji
+  - name: Naoki Kawai
+    ja: Naoki Kawai
+    ja_match: romaji
+  - name: Ai Mashima
+    ja: Ai Mashima
+    ja_match: romaji
+  - name: Yuichi Shimizu
+    ja: Yuichi Shimizu
+    ja_match: romaji
+  - name: Rikita Saito
+    ja: Rikita Saito
+    ja_match: romaji
+  - name: Masahiro Hayakawa
+  ja_role: Planning
+- path:
+  - Planning - Localization
+  names:
+  - name: Takeshi Oi
+    ja: Takeshi Oi
+    ja_match: romaji
+  ja_role: Planning - Localization
+- path:
+  - UI Graphic Design
+  names:
+  - name: Yuichiro Nakayama
+    ja: Yuichiro Nakayama
+    ja_match: romaji
+  ja_role: UI Graphic Design
+- path:
+  - Character Modeling
+  names:
+  - name: Yota Iwai
+    ja: Yota Iwai
+    ja_match: romaji
+  - name: Hikaru Tominaga
+    ja: Hikaru Tominaga
+    ja_match: romaji
+  - name: Ayami Ota
+    ja: Ayami Ota
+    ja_match: romaji
+  - name: Takahito Mizuno
+    ja: Takahito Mizuno
+    ja_match: romaji
+  - name: Unhyeok Baek
+    ja: Unhyeok Baek
+    ja_match: romaji
+  - name: Hiroshi Ueda
+    ja: Hiroshi Ueda
+    ja_match: romaji
+  - name: Chise Kawamoto
+    ja: Chise Kawamoto
+    ja_match: romaji
+  - name: Yuya Tanioku
+  - name: Takuma Ochiai
+    ja: Takuma Ochiai
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - Character Motion
+  names:
+  - name: Yuta Asai
+    ja: Yuta Asai
+    ja_match: romaji
+  - name: Shinya Nagai
+    ja: Shinya Nagai
+    ja_match: romaji
+  - name: Aruku Koshiishi
+    ja: Aruku Koshiishi
+    ja_match: romaji
+  ja_role: Character Motion
+- path:
+  - Map Modeling
+  names:
+  - name: Sozo Kojima
+    ja: Sozo Kojima
+    ja_match: romaji
+  - name: Yuka Hino
+    ja: Yuka Hino
+    ja_match: romaji
+  - name: Linka Fu
+    ja: Linka Fu
+    ja_match: romaji
+  - name: Yuya Adachi
+    ja: Yuya Adachi
+    ja_match: romaji
+  - name: Tomoya Kawazoe
+    ja: Tomoya Kawazoe
+    ja_match: romaji
+  - name: Keigo Takahashi
+    ja: Keigo Takahashi
+    ja_match: romaji
+  - name: Ryoma Nagata
+    ja: Ryoma Nagata
+    ja_match: romaji
+  - name: Akimune Tanaka
+    ja: Akimune Tanaka
+    ja_match: romaji
+  - name: Tomoya Asano
+    ja: Tomoya Asano
+    ja_match: romaji
+  - name: Yui Yasuda
+    ja: Yui Yasuda
+    ja_match: romaji
+  - name: Ayumi Kano
+    ja: Ayumi Kano
+    ja_match: romaji
+  - name: Sarasa Shinmei
+    ja: Sarasa Shinmei
+    ja_match: romaji
+  ja_role: Map Modeling
+- path:
+  - Art Design
+  names:
+  - name: Ryoma Hori
+    ja: Ryoma Hori
+    ja_match: romaji
+  - name: Shiori Baba
+    ja: Shiori Baba
+    ja_match: romaji
+  - name: Akari Ochiai
+    ja: Akari Ochiai
+    ja_match: romaji
+  ja_role: Art Design
+- path:
+  - Effect Design
+  names:
+  - name: Tetsuya Oi
+    ja: Tetsuya Oi
+    ja_match: romaji
+  - name: Tsukasa Izuoka
+    ja: Tsukasa Izuoka
+    ja_match: romaji
+  - name: Yohei Ukai
+    ja: Yohei Ukai
+    ja_match: romaji
+  - name: Manami Urakami
+    ja: Manami Urakami
+    ja_match: romaji
+  - name: Asai Hitomi
+    ja: Asai Hitomi
+    ja_match: romaji
+  ja_role: Effect Design
+- path:
+  - Digital Movie Graphic
+  names:
+  - name: Kei Iwasaki
+    ja: Kei Iwasaki
+    ja_match: romaji
+  - name: Tomotake Ishikawa
+    ja: Tomotake Ishikawa
+    ja_match: romaji
+  - name: Nobue Sakuyama
+    ja: Nobue Sakuyama
+    ja_match: romaji
+  ja_role: Digital Movie Graphic
+- path:
+  - Programming
+  names:
+  - name: Takayuki Notsuke
+    ja: Takayuki Notsuke
+    ja_match: romaji
+  - name: Kenji Fukasawa
+    ja: Kenji Fukasawa
+    ja_match: romaji
+  - name: Naoki Kato
+    ja: Naoki Kato
+    ja_match: romaji
+  - name: Tadashi Ito
+    ja: Tadashi Ito
+    ja_match: romaji
+  - name: Nobuhiro Mori
+    ja: Nobuhiro Mori
+    ja_match: romaji
+  - name: Toshihide Miyauchi
+    ja: Toshihide Miyauchi
+    ja_match: romaji
+  - name: Kazuhiko Miyadera
+    ja: Kazuhiko Miyadera
+    ja_match: romaji
+  - name: Yuki Moroto
+    ja: Yuki Moroto
+    ja_match: romaji
+  - name: Yuta Iwama
+    ja: Yuta Iwama
+    ja_match: romaji
+  - name: Ryusei Ito
+    ja: Ryusei Ito
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Programming Cooperative Companies
+  names:
+  - name: Adglobe Inc.
+    kind: company
+    ja: Adglobe Inc.
+    ja_match: romaji
+  - name: SmartPoint Co.,Ltd
+    kind: company
+    ja: Smartpoint Co.,Ltd
+    ja_match: romaji
+  - name: MELPOT, Inc.
+    kind: company
+    ja: Melpot, Inc.
+    ja_match: romaji
+  - name: Nikken Total Sourcing Inc.
+    kind: company
+    ja: Nikken Total Sourcing Inc.
+    ja_match: romaji
+  - name: appci corporation
+    kind: company
+    ja: Appci Corporation
+    ja_match: romaji
+  - name: TORO KIKAKU Inc.
+    kind: company
+    ja: Toro Kikaku Inc.
+    ja_match: romaji
+  ja_role: Programming Cooperative Companies
+- path:
+  - Planning
+  names:
+  - name: Yuki Sasamori
+    ja: Yuki Sasamori
+    ja_match: romaji
+  - name: Masaaki Matsuura
+    ja: Masaaki Matsuura
+    ja_match: romaji
+  - name: Tomonori Hori
+    ja: Tomonori Hori
+    ja_match: romaji
+  - name: Yuki Yamazaki
+    ja: Yuki Yamazaki
+    ja_match: romaji
+  - name: Futoshi Yuki
+    ja: Futoshi Yuki
+    ja_match: romaji
+  - name: Kazuhiro Oe
+    ja: Kazuhiro Oe
+    ja_match: romaji
+  - name: Sei Sato
+    ja: Sei Sato
+    ja_match: romaji
+  - name: YUKI
+    ja: Yuki
+    ja_match: romaji
+  - name: Takashi Takezawa
+    ja: Takashi Takezawa
+    ja_match: romaji
+  - name: Naoyo Kanno
+    ja: Naoyo Kanno
+    ja_match: romaji
+  - name: Takanori Fukuyama
+    ja: Takanori Fukuyama
+    ja_match: romaji
+  - name: Naoko Koda
+    ja: Naoko Koda
+    ja_match: romaji
+  - name: Yuki Yamada
+    ja: Yuki Yamada
+    ja_match: romaji
+  - name: Ryuji Sasaki
+    ja: Ryuji Sasaki
+    ja_match: romaji
+  - name: Yoshihiro Goto
+    ja: Yoshihiro Goto
+    ja_match: romaji
+  - name: Junichi Kitazawa
+    ja: Junichi Kitazawa
+    ja_match: romaji
+  - name: Kazuki Tanaka
+    ja: Kazuki Tanaka
+    ja_match: romaji
+  - name: Shoko Nakasone
+    ja: Shoko Nakasone
+    ja_match: romaji
+  ja_role: Planning
+- path:
+  - Planning Cooperative Companies
+  names:
+  - name: BALEEN STUDIO Corporation Japan.
+    kind: company
+    ja: Baleen Studio Corporation Japan.
+    ja_match: romaji
+  - name: Confidence Inc.
+    kind: company
+    ja: Confidence Inc.
+    ja_match: romaji
+  - name: I-rori Entertainment Co., Ltd.
+    kind: company
+    ja: I-Rori Entertainment Co., Ltd.
+    ja_match: romaji
+  - name: Fantasia, Inc.
+    kind: company
+    ja: Fantasia, Inc.
+    ja_match: romaji
+  - name: C-Garden,Inc.
+    kind: company
+    ja: C-Garden,Inc.
+    ja_match: romaji
+  - name: RyNa Corporation
+    kind: company
+    ja: Ryna Corporation
+    ja_match: romaji
+  - name: Applibot, Inc.
+    kind: company
+    ja: Applibot, Inc.
+    ja_match: romaji
+  - name: FELLOWS Inc.
+    kind: company
+    ja: Fellows Inc.
+    ja_match: romaji
+  ja_role: Planning Cooperative Companies
+- path:
+  - Localization - Planning
+  names:
+  - name: Magane Kawano
+    ja: Magane Kawano
+    ja_match: romaji
+  ja_role: Localization - Planning
+- path:
+  - Planning Cooperative Company
+  names:
+  - name: Confidence Inc.
+    kind: company
+    ja: Confidence Inc.
+    ja_match: romaji
+  ja_role: Planning Cooperative Company
+- path:
+  - UI Graphic Design
+  names:
+  - name: Yuuki Oshitani
+    ja: Yuuki Oshitani
+    ja_match: romaji
+  - name: Wataru Oishi
+    ja: Wataru Oishi
+    ja_match: romaji
+  ja_role: UI Graphic Design
+- path:
+  - UI Graphic Design Cooperative Company
+  names:
+  - name: Fantasia, Inc.
+    kind: company
+    ja: Fantasia, Inc.
+    ja_match: romaji
+  ja_role: UI Graphic Design Cooperative Company
+- path:
+  - Character Modeling
+  names:
+  - name: Koji Ando
+    ja: Koji Ando
+    ja_match: romaji
+  - name: Takayoshi Suzuki
+    ja: Takayoshi Suzuki
+    ja_match: romaji
+  - name: Yurika Iwase
+    ja: Yurika Iwase
+    ja_match: romaji
+  - name: Haruka Hirota
+    ja: Haruka Hirota
+    ja_match: romaji
+  - name: Makoto Kobayashi
+    ja: Makoto Kobayashi
+    ja_match: romaji
+  - name: Suyon Sonozaki
+    ja: Suyon Sonozaki
+    ja_match: romaji
+  - name: Kenta Imazawa
+    ja: Kenta Imazawa
+    ja_match: romaji
+  - name: Tomohiro Ookawa
+    ja: Tomohiro Ookawa
+    ja_match: romaji
+  - name: Shiori Kawamura
+    ja: Shiori Kawamura
+    ja_match: romaji
+  - name: Fumitoshi Kobayashi
+    ja: Fumitoshi Kobayashi
+    ja_match: romaji
+  - name: Yuri Saito
+    ja: Yuri Saito
+    ja_match: romaji
+  - name: Keisuke Shimoda
+    ja: Keisuke Shimoda
+    ja_match: romaji
+  - name: Yoshiki Nakazawa
+    ja: Yoshiki Nakazawa
+    ja_match: romaji
+  - name: Hiroaki Nakayama
+    ja: Hiroaki Nakayama
+    ja_match: romaji
+  - name: Pham Thi Linh
+    ja: Pham Thi Linh
+    ja_match: romaji
+  - name: Mitsuyasu Furuhashi
+    ja: Mitsuyasu Furuhashi
+    ja_match: romaji
+  - name: Kana Ogata
+    ja: Kana Ogata
+    ja_match: romaji
+  - name: Hirota Masaki
+    ja: Hirota Masaki
+    ja_match: romaji
+  - name: Ayano Sasaki
+    ja: Ayano Sasaki
+    ja_match: romaji
+  - name: Masaomi Yamada
+    ja: Masaomi Yamada
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - Character Modeling Cooperative Companies
+  names:
+  - name: Digital Workshop Co.,ltd
+    kind: company
+    ja: Digital Workshop Co.,Ltd
+    ja_match: romaji
+  - name: Silicon Studio Corporation
+    kind: company
+    ja: Silicon Studio Corporation
+    ja_match: romaji
+  - name: Licht, Ltd.
+    kind: company
+    ja: Licht, Ltd.
+    ja_match: romaji
+  - name: AGNI-FLARE CO., LTD.
+    kind: company
+    ja: Agni-Flare Co., Ltd.
+    ja_match: romaji
+  - name: D.H Inc.
+    kind: company
+    ja: D.h Inc.
+    ja_match: romaji
+  - name: Pictronics,Inc.
+    kind: company
+    ja: Pictronics,Inc.
+    ja_match: romaji
+  ja_role: Character Modeling Cooperative Companies
+- path:
+  - Character Motion
+  names:
+  - name: Fuko Nomoto
+    ja: Fuko Nomoto
+    ja_match: romaji
+  - name: Yuki Mizutani
+    ja: Yuki Mizutani
+    ja_match: romaji
+  - name: Takahiro Ueno
+    ja: Takahiro Ueno
+    ja_match: romaji
+  - name: Naoto Kadowaki
+    ja: Naoto Kadowaki
+    ja_match: romaji
+  - name: Daichi Tanaka
+    ja: Daichi Tanaka
+    ja_match: romaji
+  - name: Kanna Masuzawa
+    ja: Kanna Masuzawa
+    ja_match: romaji
+  ja_role: Character Motion
+- path:
+  - Character Motion Cooperative Company
+  names:
+  - name: D.H Inc.
+    kind: company
+    ja: D.H Inc.
+    ja_match: romaji
+  ja_role: Character Motion Cooperative Company
+- path:
+  - Map Modeling
+  names:
+  - name: Yuki Takemoto
+    ja: Yuki Takemoto
+    ja_match: romaji
+  - name: Kazuma Ito
+    ja: Kazuma Ito
+    ja_match: romaji
+  - name: Naruki Sugeno
+    ja: Naruki Sugeno
+    ja_match: romaji
+  - name: Haruka Takumi
+    ja: Haruka Takumi
+    ja_match: romaji
+  - name: Atsushi Fujita
+    ja: Atsushi Fujita
+    ja_match: romaji
+  - name: Misao Yoshida
+    ja: Misao Yoshida
+    ja_match: romaji
+  - name: Kazuma Iwamoto
+    ja: Kazuma Iwamoto
+    ja_match: romaji
+  - name: Tamami Aoyama
+    ja: Tamami Aoyama
+    ja_match: romaji
+  - name: Takashi Suzuki
+    ja: Takashi Suzuki
+    ja_match: romaji
+  ja_role: Map Modeling
+- path:
+  - Map Modeling Cooperative Companies
+  names:
+  - name: D.H Inc.
+    kind: company
+    ja: D.H Inc.
+    ja_match: romaji
+  - name: Cazzern Consultants Co., Ltd.
+    kind: company
+    ja: Cazzern Consultants Co., Ltd.
+    ja_match: romaji
+  ja_role: Map Modeling Cooperative Companies
+- path:
+  - Art Design
+  names:
+  - name: Keiichiro Akashi
+    ja: Keiichiro Akashi
+    ja_match: romaji
+  - name: Mayuko Noda
+    ja: Mayuko Noda
+    ja_match: romaji
+  - name: GODTAIL
+    ja: Godtail
+    ja_match: romaji
+  - name: JAIBON
+    ja: Jaibon
+    ja_match: romaji
+  - name: yuhkilily
+    ja: Yuhkilily
+    ja_match: romaji
+  - name: Mai Onishi
+    ja: Mai Onishi
+    ja_match: romaji
+  - name: Yui Kawano
+    ja: Yui Kawano
+    ja_match: romaji
+  - name: Yuki Nagai
+    ja: Yuki Nagai
+    ja_match: romaji
+  - name: Sukkang Song
+    ja: Sukkang Song
+    ja_match: romaji
+  ja_role: Art Design
+- path:
+  - Art Design Cooperative Companies
+  names:
+  - name: VERRY Inc.
+    kind: company
+    ja: Verry Inc.
+    ja_match: romaji
+  - name: GODTAIL.inc
+    kind: company
+    ja: Godtail.inc
+    ja_match: romaji
+  - name: AGNI-FLARE CO., LTD.
+    kind: company
+    ja: Agni-Flare Co., Ltd.
+    ja_match: romaji
+  - name: D.H Inc.
+    kind: company
+    ja: D.H Inc.
+    ja_match: romaji
+  ja_role: Art Design Cooperative Companies
+- path:
+  - Effect Design
+  names:
+  - name: Masataro Shichijo
+    ja: Masataro Shichijo
+    ja_match: romaji
+  - name: Jiaqi Zheng
+    ja: Jiaqi Zheng
+    ja_match: romaji
+  - name: Masato Nakamura
+    ja: Masato Nakamura
+    ja_match: romaji
+  - name: Shinichi Nomura
+    ja: Shinichi Nomura
+    ja_match: romaji
+  - name: Erika Mukunoki
+    ja: Erika Mukunoki
+    ja_match: romaji
+  ja_role: Effect Design
+- path:
+  - Effect Design Cooperative Companies
+  names:
+  - name: MiCROViSiON Inc.
+    kind: company
+    ja: Microvision Inc.
+    ja_match: romaji
+  - name: D.H Inc.
+    kind: company
+    ja: D.H Inc.
+    ja_match: romaji
+  ja_role: Effect Design Cooperative Companies
+- path:
+  - Special Thanks
+  names:
+  - name: Nobuto Iwao
+    ja: Nobuto Iwao
+    ja_match: romaji
+  - name: Ruriko Ono
+    ja: Ruriko Ono
+    ja_match: romaji
+  - name: Arugo Shinohara
+    ja: Arugo Shinohara
+    ja_match: romaji
+  - name: Ayumi Takata
+    ja: Ayumi Takata
+    ja_match: romaji
+  - name: Tadahiro Kawamura
+    ja: Tadahiro Kawamura
+    ja_match: romaji
+  - name: Masataka Doi
+    ja: Masataka Doi
+    ja_match: romaji
+  - name: Hiroyuki Ashida
+    ja: Hiroyuki Ashida
+    ja_match: romaji
+  - name: Yuji Asano
+    ja: Yuji Asano
+    ja_match: romaji
+  - name: Miu Horie
+    ja: Miu Horie
+    ja_match: romaji
+  - name: Itsuki Matsuyama
+    ja: Itsuki Matsuyama
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Cooperative Companies
+  names:
+  - name: AGNI-FLARE CO., LTD.
+    kind: company
+    ja: Agni-Flare Co., Ltd.
+    ja_match: romaji
+  - name: Pictronics,Inc.
+    kind: company
+    ja: Pictronics,Inc.
+    ja_match: romaji
+  - name: D.H Inc.
+    kind: company
+    ja: D.H Inc.
+    ja_match: romaji
+  ja_role: Cooperative Companies
+- path:
+  - Sound - Planning
+  names:
+  - name: Takayasu Sodeoka
+    ja: Takayasu Sodeoka
+    ja_match: romaji
+  - name: Keisei Harada
+    ja: Keisei Harada
+    ja_match: romaji
+  - name: Erina Niwa
+    ja: Erina Niwa
+    ja_match: romaji
+  ja_role: Sound - Planning
+- path:
+  - Sound Cooperative Company
+  names:
+  - name: MIYABI GAME AUDIO INC.
+    kind: company
+    ja: Miyabi Game Audio Inc.
+    ja_match: romaji
+  ja_role: Sound Cooperative Company
+- path:
+  - Server Development
+  names:
+  - name: Shinnosuke Miki
+    ja: Shinnosuke Miki
+    ja_match: romaji
+  - name: Noritaka Otsuka
+    ja: Noritaka Otsuka
+    ja_match: romaji
+  - name: SRD Co.,Ltd.
+    kind: company
+    ja: Srd Co.,Ltd.
+    ja_match: romaji
+  ja_role: Server Development
+- path:
+  - Technical Support
+  names:
+  - name: Shuhei Furukawa
+    ja: Shuhei Furukawa
+    ja_match: romaji
+  - name: Kyohei Minato
+    ja: Kyohei Minato
+    ja_match: romaji
+  - name: Hiroaki Gohara
+    ja: Hiroaki Gohara
+    ja_match: romaji
+  - name: Shotaro Iwanaga
+    ja: Shotaro Iwanaga
+    ja_match: romaji
+  - name: Yuta Ogawa
+    ja: Yuta Ogawa
+    ja_match: romaji
+  - name: Kei Ninomiya
+    ja: Kei Ninomiya
+    ja_match: romaji
+  ja_role: Technical Support
+- path:
+  - English Localization
+  names:
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Yohei Sugiyama
+    ja: Yohei Sugiyama
+    ja_match: romaji
+  - name: Mika Holzhausen
+    ja: Mika Holzhausen
+    ja_match: romaji
+  ja_role: English Localization
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+    ja: Hisato Yamamori
+    ja_match: romaji
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Laura Bartholomew
+    ja: Laura Bartholomew
+    ja_match: romaji
+  - name: Bryson Clark
+    ja: Bryson Clark
+    ja_match: romaji
+  - name: Satoko Deas
+    ja: Satoko Deas
+    ja_match: romaji
+  ja_role: English Translation
+- path:
+  - English Editing
+  names:
+  - name: Kellyn Ballard
+    ja: Kellyn Ballard
+    ja_match: romaji
+  - name: Rachel Payne
+    ja: Rachel Payne
+    ja_match: romaji
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  - name: Rei Nakazawa
+    ja: Rei Nakazawa
+    ja_match: romaji
+  - name: Julia Ryer
+    ja: Julia Ryer
+    ja_match: romaji
+  - name: Robert Ward
+    ja: Robert Ward
+    ja_match: romaji
+  - name: Derk Bramer
+    ja: Derk Bramer
+    ja_match: romaji
+  ja_role: English Translation
+- path:
+  - European Localisation
+  names:
+  - name: Kaori Aoki
+    ja: Kaori Aoki
+    ja_match: romaji
+  - name: Makiko Wakai
+    ja: Makiko Wakai
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Suirei Okata
+    ja: Suirei Okata
+    ja_match: romaji
+  - name: Yukihiro Takahashi
+    ja: Yukihiro Takahashi
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Ritsuko Oshu
+    ja: Ritsuko Oshu
+    ja_match: romaji
+  - name: Hannah Vassallo
+    ja: Hannah Vassallo
+    ja_match: romaji
+  - name: Kendra Evans
+    ja: Kendra Evans
+    ja_match: romaji
+  - name: Alberto Gracia Castellano
+    ja: Alberto Gracia Castellano
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera I De Miguel
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Diego Figaredo
+    ja: Diego Figaredo
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Rei Haberberg
+    ja: Rei Haberberg
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Cyril Schultz
+    ja: Cyril Schultz
+    ja_match: romaji
+  ja_role: European Localisation
+- path:
+  - French Translation
+  names:
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Olivia Bonnal
+    ja: Olivia Bonnal
+    ja_match: romaji
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Lylia Khrissate
+    ja: Lylia Khrissate
+    ja_match: romaji
+  - name: Noémie Pradier
+    ja: Noémie Pradier
+    ja_match: romaji
+  - name: Nicolas Sindres
+    ja: Nicolas Sindres
+    ja_match: romaji
+  - name: Christophe Sigaud
+    ja: Christophe Sigaud
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - French Editing
+  names:
+  - name: Violette Giang
+    ja: Violette Giang
+    ja_match: romaji
+  - name: Matthieu Béthencourt
+    ja: Matthieu Béthencourt
+    ja_match: romaji
+  - name: Elodie Verpoort
+    ja: Elodie Verpoort
+    ja_match: romaji
+  - name: Franck Couée
+    ja: Franck Couée
+    ja_match: romaji
+  - name: Leslie Gambini
+    ja: Leslie Gambini
+    ja_match: romaji
+  - name: Thomas Garel
+    ja: Thomas Garel
+    ja_match: romaji
+  - name: Aurélie Kryvinskyj
+    ja: Aurélie Kryvinskyj
+    ja_match: romaji
+  - name: Marine Vallée
+    ja: Marine Vallée
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - German Translation
+  names:
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Carolin Maibach
+    ja: Carolin Maibach
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Sophie Jüterbock
+    ja: Sophie Jüterbock
+    ja_match: romaji
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Jan-Lukas Kuhn
+    ja: Jan-lukas Kuhn
+    ja_match: romaji
+  - name: Sven Pötzl
+    ja: Sven Pötzl
+    ja_match: romaji
+  ja_role: German Translation
+- path:
+  - German Editing
+  names:
+  - name: Barbara Schweinzer
+    ja: Barbara Schweinzer
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Kristin Biwer
+    ja: Kristin Biwer
+    ja_match: romaji
+  - name: Alina Linnenweber
+    ja: Alina Linnenweber
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Sira Vaterhaus
+    ja: Sira Vaterhaus
+    ja_match: romaji
+  ja_role: German Editing
+- path:
+  - Italian Translation
+  names:
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Altan Couvert
+    ja: Altan Couvert
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  - name: Annarita Spera
+    ja: Annarita Spera
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Jacopo Vanin
+    ja: Jacopo Vanin
+    ja_match: romaji
+  ja_role: Italian Translation
+- path:
+  - Italian Editing
+  names:
+  - name: Valentina Menale
+    ja: Valentina Menale
+    ja_match: romaji
+  - name: Sergio Bianchi
+    ja: Sergio Bianchi
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Marco Locatelli
+    ja: Marco Locatelli
+    ja_match: romaji
+  - name: Guendalina Pirruccio
+    ja: Guendalina Pirruccio
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  ja_role: Italian Editing
+- path:
+  - Spanish Translation
+  names:
+  - name: Enrique Joga Elvira
+    ja: Enrique Joga Elvira
+    ja_match: romaji
+  - name: Alberto Gracia Castellano
+    ja: Alberto Gracia Castellano
+    ja_match: romaji
+  - name: Edith Belarra López
+    ja: Edith Belarra López
+    ja_match: romaji
+  - name: Servando Doval Díaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Alicia Iribarren Mendoza
+    ja: Alicia Iribarren Mendoza
+    ja_match: romaji
+  - name: Diego Luque de la Campa
+    ja: Diego Luque De La Campa
+    ja_match: romaji
+  - name: Pablo Gismero Calvo
+    ja: Pablo Gismero Calvo
+    ja_match: romaji
+  ja_role: Spanish Translation
+- path:
+  - Spanish Editing
+  names:
+  - name: Rubén Lado Riomao
+    ja: Rubén Lado Riomao
+    ja_match: romaji
+  - name: Irene Mascaró Genestar
+    ja: Irene Mascaró Genestar
+    ja_match: romaji
+  - name: Juan José Leiva Jiménez
+    ja: Juan José Leiva Jiménez
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera I De Miguel
+    ja_match: romaji
+  - name: Eva Rodríguez Graña
+    ja: Eva Rodríguez Graña
+    ja_match: romaji
+  - name: Píndaro Vargas-farías
+    ja: Píndaro Vargas-farías
+    ja_match: romaji
+  ja_role: Spanish Editing
+- path:
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Dongun Pak
+    ja: Dongun Pak
+    ja_match: romaji
+  - name: Jooyeon Han
+    ja: Jooyeon Han
+    ja_match: romaji
+  - name: Eunbi Jo
+    ja: Eunbi Jo
+    ja_match: romaji
+  ja_role: Korean Translation & Editing
+- path:
+  - Chinese Localization
+  names:
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  ja_role: Chinese Localization
+- path:
+  - Chinese Translation & Editing
+  names:
+  - name: Yuwen Wang
+    ja: Yuwen Wang
+    ja_match: romaji
+  - name: Yencheng Lin
+    ja: Yencheng Lin
+    ja_match: romaji
+  - name: Yuting Tu
+    ja: Yuting Tu
+    ja_match: romaji
+  - name: Endai Liao
+    ja: Endai Liao
+    ja_match: romaji
+  - name: Kenny Kong
+    ja: Kenny Kong
+    ja_match: romaji
+  ja_role: Chinese Translation & Editing
+- path:
+  - Japanese Editing Support
+  names:
+  - name: Rika Sugo
+    ja: Rika Sugo
+    ja_match: romaji
+  - name: Mahoto Sawada
+    ja: Mahoto Sawada
+    ja_match: romaji
+  ja_role: Japanese Editing Support
+- path:
+  - English & European Localization Support
+  names:
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Robert Colling
+    ja: Robert Colling
+    ja_match: romaji
+  - name: Tadasu Hasegawa
+    ja: Tadasu Hasegawa
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  - name: Peter Bagley
+    ja: Peter Bagley
+    ja_match: romaji
+  ja_role: English & European Localization Support
+- path:
+  - English Localization Support
+  names:
+  - name: Akiko Kasugayama
+    ja: Akiko Kasugayama
+    ja_match: romaji
+  - name: Yoriko Marusich
+    ja: Yoriko Marusich
+    ja_match: romaji
+  - name: Kris Copeland
+    ja: Kris Copeland
+    ja_match: romaji
+  - name: Lauren Ammerman
+    ja: Lauren Ammerman
+    ja_match: romaji
+  - name: Emily Cebula
+    ja: Emily Cebula
+    ja_match: romaji
+  ja_role: English Localization Support
+- path:
+  - European Localisation Support
+  names:
+  - name: Sarah Kelly
+    ja: Sarah Kelly
+    ja_match: romaji
+  - name: Patrick Thorenz
+    ja: Patrick Thorenz
+    ja_match: romaji
+  ja_role: European Localisation Support
+- path:
+  - Korean Localization Support
+  names:
+  - name: Hyokjin Jung
+    ja: Hyokjin Jung
+    ja_match: romaji
+  - name: Dongyeon Kim
+    ja: Dongyeon Kim
+    ja_match: romaji
+  - name: Soonil Kim
+    ja: Soonil Kim
+    ja_match: romaji
+  - name: Jihyuen Yoo
+    ja: Jihyuen Yoo
+    ja_match: romaji
+  - name: Inseon Song
+    ja: Inseon Song
+    ja_match: romaji
+  - name: Suzy Do
+    ja: Suzy Do
+    ja_match: romaji
+  ja_role: Korean Localization Support
+- path:
+  - Traditional Chinese Localization Support
+  names:
+  - name: Wang Zhonglong
+    ja: Wang Zhonglong
+    ja_match: romaji
+  - name: Umemura Eiju
+    ja: Umemura Eiju
+    ja_match: romaji
+  ja_role: Traditional Chinese Localization Support
+- path:
+  - Simplified Chinese Localization Support
+  names:
+  - name: Misa Matsumoto
+    ja: Misa Matsumoto
+    ja_match: romaji
+  - name: Keisuke Fukushima
+    ja: Keisuke Fukushima
+    ja_match: romaji
+  ja_role: Simplified Chinese Localization Support
+- path:
+  - Special Thanks—Localization
+  names:
+  - name: Michael Bales
+    ja: Michael Bales
+    ja_match: romaji
+  - name: Thomas Candland
+    ja: Thomas Candland
+    ja_match: romaji
+  - name: NOE Communication Coordinator Group
+    kind: company
+    ja: NOE Communication Coordinator Group
+    ja_match: romaji
+  ja_role: Special Thanks—Localization
+- path:
+  - Debug Management
+  names:
+  - name: Motoki Nakajima
+    ja: Motoki Nakajima
+    ja_match: romaji
+  - name: Arisa Nakajima
+    ja: Arisa Nakajima
+    ja_match: romaji
+  - name: Takuya Inoue
+    ja: Takuya Inoue
+    ja_match: romaji
+  ja_role: Debug Management
+- path:
+  - Debug
+  names:
+  - name: Mario Club Co., Ltd.
+    kind: company
+    ja: Mario Club Co., Ltd.
+    ja_match: romaji
+  - name: DIGITAL HEARTS Co.,Ltd.
+    kind: company
+    ja: Digital Hearts Co.,Ltd.
+    ja_match: romaji
+  ja_role: Debug
+- path:
+  - English Product Testing
+  names:
+  - name: Kentaro Nishimura
+    ja: Kentaro Nishimura
+    ja_match: romaji
+  - name: Kirk Buchanan
+    ja: Kirk Buchanan
+    ja_match: romaji
+  - name: Sean Egan
+    ja: Sean Egan
+    ja_match: romaji
+  - name: Tomoko Mikami
+    ja: Tomoko Mikami
+    ja_match: romaji
+  - name: Pat Wells
+    ja: Pat Wells
+    ja_match: romaji
+  - name: Makiko Szolas
+    ja: Makiko Szolas
+    ja_match: romaji
+  - name: Tom Hertzog
+    ja: Tom Hertzog
+    ja_match: romaji
+  - name: James Dillon
+    ja: James Dillon
+    ja_match: romaji
+  - name: Gary Meads
+    ja: Gary Meads
+    ja_match: romaji
+  - name: Product Testing Technicians
+    kind: company
+    ja: Product Testing Technicians
+    ja_match: romaji
+  ja_role: English Product Testing
+- path:
+  - European QA Coordination
+  names:
+  - name: Jesús Gutiérrez Cuadra
+    ja: Jesús Gutiérrez Cuadra
+    ja_match: romaji
+  - name: Marco Gruden
+    ja: Marco Gruden
+    ja_match: romaji
+  ja_role: European QA Coordination
+- path:
+  - European Quality Assurance
+  names:
+  - name: Andrew Hall
+    ja: Andrew Hall
+    ja_match: romaji
+  - name: Matthew David Jones
+    ja: Matthew David Jones
+    ja_match: romaji
+  - name: Ahmed Bounouar
+    ja: Ahmed Bounouar
+    ja_match: romaji
+  - name: Yannick Carrey
+    ja: Yannick Carrey
+    ja_match: romaji
+  - name: Guillaume Deschamps
+    ja: Guillaume Deschamps
+    ja_match: romaji
+  - name: Olivier Jacquemin-Guillaume
+    ja: Olivier Jacquemin-Guillaume
+    ja_match: romaji
+  - name: Julien Veron
+    ja: Julien Veron
+    ja_match: romaji
+  - name: Stéphane Zussy
+    ja: Stéphane Zussy
+    ja_match: romaji
+  - name: Daniele Albrito
+    ja: Daniele Albrito
+    ja_match: romaji
+  - name: Fabio Brignoli
+    ja: Fabio Brignoli
+    ja_match: romaji
+  - name: Veronica Casi
+    ja: Veronica Casi
+    ja_match: romaji
+  - name: Rita Di Lascio
+    ja: Rita Di Lascio
+    ja_match: romaji
+  - name: Marzia Faustinelli
+    ja: Marzia Faustinelli
+    ja_match: romaji
+  - name: Andrea Marino
+    ja: Andrea Marino
+    ja_match: romaji
+  - name: Peter Eiselt
+    ja: Peter Eiselt
+    ja_match: romaji
+  - name: Swen Harder
+    ja: Swen Harder
+    ja_match: romaji
+  - name: Edwin Kirschenmann
+    ja: Edwin Kirschenmann
+    ja_match: romaji
+  - name: Michaela Koch
+    ja: Michaela Koch
+    ja_match: romaji
+  - name: Sascha Michalke
+    ja: Sascha Michalke
+    ja_match: romaji
+  - name: Sarah Nist
+    ja: Sarah Nist
+    ja_match: romaji
+  - name: Miguel Ángel Carnero Calderón
+    ja: Miguel Ángel Carnero Calderón
+    ja_match: romaji
+  - name: Ibon Díez Maeztu
+    ja: Ibon Díez Maeztu
+    ja_match: romaji
+  - name: Ángeles Garrido
+    ja: Ángeles Garrido
+    ja_match: romaji
+  - name: Jorge Heras García
+    ja: Jorge Heras García
+    ja_match: romaji
+  - name: Jesús Gordo Martín
+    ja: Jesús Gordo Martín
+    ja_match: romaji
+  - name: Julio Manzaneda Medina
+    ja: Julio Manzaneda Medina
+    ja_match: romaji
+  ja_role: European Quality Assurance
+- path:
+  - Korean Testing & Quality Assurance
+  names:
+  - name: Kyoungim Na
+    ja: Kyoungim Na
+    ja_match: romaji
+  ja_role: Korean Testing & Quality Assurance
+- path:
+  - Chinese Product Testing
+  names:
+  - name: Yayun Ling
+    ja: Yayun Ling
+    ja_match: romaji
+  - name: Yijun Chen
+    ja: Yijun Chen
+    ja_match: romaji
+  ja_role: Chinese Product Testing
+- path:
+  - Pikachu Voice
+  names:
+  - name: Ikue Otani
+    link: Ikue Ohtani
+    ja: Ikue Otani
+    ja_match: romaji
+  ja_role: Pikachu Voice
+- path:
+  - Eevee Voice
+  names:
+  - name: Aoi Yuki
+    link: Aoi Yūki
+    ja: Aoi Yuki
+    ja_match: romaji
+  ja_role: Eevee Voice
+- path:
+  - Voice Recording Director
+  names:
+  - name: Masafumi Mima
+    ja: Masafumi Mima
+    ja_match: romaji
+  ja_role: Voice Recording Director
+- path:
+  - Voice Recording Coordination
+  names:
+  - name: Takeshi Nishina
+    ja: Takeshi Nishina
+    ja_match: romaji
+  - name: Daisuke Ihara
+    ja: Daisuke Ihara
+    ja_match: romaji
+  ja_role: Voice Recording Coordination
+- path:
+  - Voice Recording Engineers
+  names:
+  - name: Nobuhira Hirano
+    ja: Nobuhira Hirano
+    ja_match: romaji
+  - name: Ryoko Nashimoto
+    ja: Ryoko Nashimoto
+    ja_match: romaji
+  ja_role: Voice Recording Engineers
+- path:
+  - Artwork
+  names:
+  - name: Yasuko Takahashi
+    ja: Yasuko Takahashi
+    ja_match: romaji
+  - name: Misato Takahashi
+    ja: Misato Takahashi
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - English & European Graphic Design
+  names:
+  - name: Kevin Lalli
+    ja: Kevin Lalli
+    ja_match: romaji
+  - name: Dan Stephens
+    ja: Dan Stephens
+    ja_match: romaji
+  - name: Tammy Vince Cruz
+    ja: Tammy Vince Cruz
+    ja_match: romaji
+  ja_role: English & European Graphic Design
+- path:
+  - Chinese Artwork
+  names:
+  - name: Yi Peng
+    ja: Yi Peng
+    ja_match: romaji
+  ja_role: Chinese Artwork
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjiro Ito
+    ja: Kenjiro Ito
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: Mikiko Ohashi
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: Atsushi Sugimoto
+    ja_match: romaji
+  - name: Keita Hirobe
+    ja: Keita Hirobe
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: Toshio Miyahara
+    ja_match: romaji
+  - name: Yoriomi Uego
+    ja: Yoriomi Uego
+    ja_match: romaji
+  - name: Shoichi Obora
+    ja: Shoichi Obora
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: Eisuke Kasejima
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_match: romaji
+  - name: Yasunori Suenaga
+    ja: Yasunori Suenaga
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: Masami Tanaka
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: Susumu Fukunaga
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Tomonori Iizuka
+    ja: Tomonori Iizuka
+    ja_match: romaji
+  - name: Sho Yoshimoto
+    ja: Sho Yoshimoto
+    ja_match: romaji
+  - name: Yutaka Kiyama
+    ja: Yutaka Kiyama
+    ja_match: romaji
+  - name: Manami Tate
+    ja: Manami Tate
+    ja_match: romaji
+  - name: Junpei Matsuzaki
+    ja: Junpei Matsuzaki
+    ja_match: romaji
+  - name: Yui Amano
+    ja: Yui Amano
+    ja_match: romaji
+  - name: Ren Eguchi
+    ja: Ren Eguchi
+    ja_match: romaji
+  - name: Rei Kagami
+    ja: Rei Kagami
+    ja_match: romaji
+  - name: Momoyo Kojima
+    ja: Momoyo Kojima
+    ja_match: romaji
+  - name: Daiki Nagao
+    ja: Daiki Nagao
+    ja_match: romaji
+  - name: Yuma Hon
+    ja: Yuma Hon
+    ja_match: romaji
+  - name: Jiayue Chen
+    ja: Jiayue Chen
+    ja_match: romaji
+  - name: Keiko Mochida
+    ja: Keiko Mochida
+    ja_match: romaji
+  - name: Kazuyoshi Kojima
+    ja: Kazuyoshi Kojima
+    ja_match: romaji
+  - name: Kazuki Hayakawa
+    ja: Kazuki Hayakawa
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: Retsuji Nomoto
+    ja_match: romaji
+  - name: Masato Ikeda
+    ja: Masato Ikeda
+    ja_match: romaji
+  - name: Tomonari Matsumoto
+    ja: Tomonari Matsumoto
+    ja_match: romaji
+  - name: Eriko Suzuki
+    ja: Eriko Suzuki
+    ja_match: romaji
+  - name: Midori Shinkai
+    ja: Midori Shinkai
+    ja_match: romaji
+  - name: Akihiro Haga
+    ja: Akihiro Haga
+    ja_match: romaji
+  - name: Aya Sasagawa
+    ja: Aya Sasagawa
+    ja_match: romaji
+  - name: Yumiko Ohnuma
+    ja: Yumiko Ohnuma
+    ja_match: romaji
+  - name: Keisuke Matsunobu
+    ja: Keisuke Matsunobu
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  - name: Junko Tamura
+    ja: Junko Tamura
+    ja_match: romaji
+  - name: Akifumi Shiobara
+    ja: Akifumi Shiobara
+    ja_match: romaji
+  - name: Kennichi Arai
+    ja: Kennichi Arai
+    ja_match: romaji
+  - name: Misuzu Kanayama
+    ja: Misuzu Kanayama
+    ja_match: romaji
+  - name: Sakika Kikuchi
+    ja: Sakika Kikuchi
+    ja_match: romaji
+  - name: Nobuyuki Ohta
+    ja: Nobuyuki Ohta
+    ja_match: romaji
+  - name: Hiroki Togashi
+    ja: Hiroki Togashi
+    ja_match: romaji
+  - name: Takahiro Ohnishi
+    ja: Takahiro Ohnishi
+    ja_match: romaji
+  - name: Yoshiharu Negishi
+    ja: Yoshiharu Negishi
+    ja_match: romaji
+  - name: Keita Imamura
+    ja: Keita Imamura
+    ja_match: romaji
+  - name: Yoshinari Yonehara
+    ja: Yoshinari Yonehara
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  - name: Yoshiko Aota
+    ja: Yoshiko Aota
+    ja_match: romaji
+  - name: Izumi Watanabe
+    ja: Izumi Watanabe
+    ja_match: romaji
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  - name: Jaiboem Lim
+    ja: Jaiboem Lim
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Jihye Lee
+    ja_match: romaji
+  - name: Hidekazu Taguchi
+    ja: Hidekazu Taguchi
+    ja_match: romaji
+  - name: Hina Tabata
+    ja: Hina Tabata
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Very Special Thanks To
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+    ja: Game Freak Inc.
+    ja_match: romaji
+  - name: Creatures Inc.
+    link: Creatures, Inc.
+    kind: company
+    ja: Creatures Inc.
+    ja_match: romaji
+  ja_role: Very Special Thanks To
+- path:
+  - Concept & Plot
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    ja_match: romaji
+  ja_role: Concept & Plot
+- path:
+  - Based On The Work Of
+  names:
+  - name: The GAME FREAK inc. Pokémon Diamond and Pearl Staff
+    link: Staff of Pokémon Diamond and Pearl
+    kind: company
+    ja: The Game Freak Inc. Pokémon Diamond and Pearl Staff
+    ja_match: romaji
+  ja_role: Based On The Work Of
+- path:
+  - Coordinators
+  names:
+  - name: Noriko Nakagawa
+    ja: Noriko Nakagawa
+    ja_match: romaji
+  - name: Masahiro Shiotani
+    ja: Masahiro Shiotani
+    ja_match: romaji
+  - name: Yuki Okada
+    ja: Yuki Okada
+    ja_match: romaji
+  - name: Masao Takakusa
+    ja: Masao Takakusa
+    ja_match: romaji
+  - name: Rieko Kuji
+    ja: Rieko Kuji
+    ja_match: romaji
+  - name: Karen Yu
+    ja: Karen Yu
+    ja_match: romaji
+  - name: Minyu Hsu
+    ja: Minyu Hsu
+    ja_match: romaji
+  - name: Shuyang Jia
+    ja: Shuyang Jia
+    ja_match: romaji
+  ja_role: Coordinators
+- path:
+  - Producers
+  names:
+  - name: Akira Kinashi
+    ja: Akira Kinashi
+    ja_match: romaji
+  - name: Toyokazu Nonaka
+    ja: Toyokazu Nonaka
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_match: romaji
+  - name: Kenji Endo
+    ja: Kenji Endo
+    ja_match: romaji
+  - name: Shunsuke Kohori
+    ja: Shunsuke Kohori
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - General Producers
+  names:
+  - name: Shinya Takahashi
+    ja: Shinya Takahashi
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  ja_role: General Producers
+- path:
+  - Executive Producers
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  - name: Shuntaro Furukawa
+    ja: Shuntaro Furukawa
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producers
+- path:
+  - Developed By
+  names:
+  - name: ILCA,Inc.
+    link: ILCA
+    kind: company
+    ja: ILCA,Inc.
+    ja_match: romaji
+  ja_role: Developed By
+ja_unmatched:
+- kana: Programming
+  role: Very Special Thanks
+- kana: Technical Support
+  role: Very Special Thanks
+- kana: English Editing
+  role: English Translation
+- kana: French Editing
+  role: French Translation

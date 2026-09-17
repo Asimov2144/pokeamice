@@ -107,6 +107,23 @@ def mosaic(images, cols=4):
 def drawn(kind):
     tile = Image.new("RGB", (W, H), (30, 41, 59))
     d = ImageDraw.Draw(tile)
+    if kind == "credits":
+        # the staff matrix as it looks on /credits/staff/: rows of people, a column per game, a mark
+        # coloured by department; columns fill in over the years the way the credits grew
+        cols, rows = 14, 9
+        cw, rh = W // cols, H // rows
+        pal = [(246, 213, 213), (253, 233, 196), (214, 228, 247), (220, 239, 214), (232, 220, 245), (226, 232, 236)]
+        for r in range(rows):
+            for c in range(cols):
+                # a deterministic scatter: more marks to the right (later games), fewer at the top-left
+                v = ((r * 31 + c * 17) % 23) / 23
+                if v > 0.25 + 0.45 * (1 - c / cols):
+                    col = pal[(r * 5 + c * 3) % len(pal)]
+                    d.rounded_rectangle((c * cw + 3, r * rh + 3, (c + 1) * cw - 3, (r + 1) * rh - 3), radius=3, fill=col)
+        for c in range(cols):  # a faint column tint every other generation, like the table
+            if (c // 2) % 2:
+                d.rectangle((c * cw, 0, (c + 1) * cw, H), fill=None, outline=(38, 50, 70))
+        return tile
     if kind == "timeline":
         import random
         random.seed(7)
@@ -165,7 +182,7 @@ def main():
         for i, im in enumerate(ims):
             bg.paste(im, (i % 4 * 84 + 4, (i // 4) * 84 + 16), im)
         save(bg, "works"); print("  works      <- the work icons")
-    for key in ("timeline", "graph"):
+    for key in ("timeline", "graph", "credits"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")
     print("tiles:", sorted(p.name for p in OUT.glob("*.jpg")))

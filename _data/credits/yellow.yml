@@ -1,0 +1,382 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Yellow + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ピカチュウのスタッフクレジット
+slug: yellow
+title: Staff of Pokémon Yellow
+work: 宝可梦 皮卡丘版
+year: 1998
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Yellow
+count: 83
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ピカチュウのスタッフクレジット
+ja_alignment:
+  ja_total: 39
+  ja_matched: 38
+  ja_positional: 1
+  ja_only_added: 0
+sections:
+- path:
+  - Global staff
+  - Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター ピカチュウバージョン スタッフ / ディレクター
+- path:
+  - Global staff
+  - Programming
+  names:
+  - name: Takenori Oota
+    ja: おおた たけのり
+    kanji: 太田健程
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Sousuke Tamada
+    ja: たまだ そうすけ
+    kanji: 玉田荘介
+    ja_match: romaji
+  ja_role: プログラム
+  ja_role_en: Program
+- path:
+  - Global staff
+  - Character Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  ja_role: キャラクターデザイン
+- path:
+  - Global staff
+  - Music
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Global staff
+  - Sound Effects
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    ja_match: romaji
+  ja_role: サウンド エフェクト
+- path:
+  - Global staff
+  - Game Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  ja_role: ゲームデザイン
+- path:
+  - Global staff
+  - Monster Design
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  ja_role: モンスター デザイン
+- path:
+  - Global staff
+  - Game Scenario
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Toshinobu Matsumiya
+    ja: まつみや としのぶ
+    kanji: 松宮稔展
+    ja_match: romaji
+  ja_role: シナリオ
+  ja_role_en: Scenario
+- path:
+  - Global staff
+  - Parametric Design
+  names:
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  ja_role: パラメータせってい
+  ja_role_en: Parameter Creation
+- path:
+  - Global staff
+  - Map Design
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    ja_match: romaji
+  - name: Kohji Nishino
+    link: Kōji Nishino
+    ja: にしの こうじ
+    ja_match: romaji
+  - name: Nobuhiro Seya
+    ja: せや のぶひろ
+    ja_match: romaji
+  ja_role: マップ デザイン
+- path:
+  - Global staff
+  - Special Thanks
+  names:
+  - name: Shogakukan Production
+    link: Shogakukan
+    kind: company
+- path:
+  - Global staff
+  - Pikachu Voice
+  names:
+  - name: Ikue Ootani
+    link: Ikue Ohtani
+    ja: おおたに いくえ
+    kanji: 大谷育江
+    ja_match: romaji
+  ja_role: ピカチュウ ボイス
+- path:
+  - Global staff
+  - Producers
+  names:
+  - name: Takehiro Izushi
+    ja: いずし たけひろ
+    kanji: 出石武宏
+    ja_match: romaji
+  - name: Takashi Kawaguchi
+    ja: かわぐち たかし
+    kanji: 川口孝司
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Global staff
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブ プロデューサー
+- path:
+  - Japanese version
+  - Product Testing
+  names:
+  - name: Kazuhito Sekine
+    ja: せきね かずひと
+    ja_match: romaji
+  - name: Nobuhiro Seya
+    ja: せや のぶひろ
+    ja_match: romaji
+  - name: Kazushi Shimamura
+    ja: しまむら かずし
+    ja_match: romaji
+  - name: Teruyuki Shimoyamada
+    ja: しもやまだ てるゆき
+    kanji: 下山田照幸
+    ja_match: romaji
+  - name: Super Mario Club
+    link: Mario Club
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  ja_role: デバッグプレイ
+  ja_role_en: Debug Play
+- path:
+  - Japanese version
+  - Special Thanks
+  names:
+  - name: Fujiko Nomura
+    ja: のむら ふじこ
+    ja_match: romaji
+  - name: Takahiro Harada
+    ja: はらだ たかひろ
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Kentarō Nishimura
+    ja: にしむら けんたろう
+    ja_match: romaji
+  - name: Naoko Saeki
+    ja: さえき なおこ
+    ja_match: romaji
+  - name: Takaya Fujī
+    ja: ふじい たかや
+    ja_match: romaji
+  - name: Shogakukan Production
+    link: Shogakukan
+    note: 'Japanese: しょうがくかんプロダクション'
+    kind: company
+  ja_role: スペシャル・サンクス
+- path:
+  - US Version Staff
+  - US Coordination
+  names:
+  - name: Gail Tilden
+  - name: Naoko Kawakami
+  - name: Hiro Nakamura
+  - name: Randy Shoemake
+  - name: Sara Osborne
+- path:
+  - US Version Staff
+  - Text Translation
+  names:
+  - name: Nob Ogasawara
+- path:
+  - US Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kohta Fukui
+- path:
+  - US Version Staff
+  - Character Design
+  names:
+  - name: Takehiko Hosokawa
+- path:
+  - US Version Staff
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Takahiro Harada
+  - name: Kimiko Nakamichi
+  - name: Kamon Yoshimura
+  - name: Sakae Yamazaki
+- path:
+  - US Version Staff
+  - Product Testing
+  names:
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+- path:
+  - European Version Staff
+  - European Coordination
+  names:
+  - name: Claude M. Moyse
+  - name: John D. Kraft
+  - name: Hiroyuki Uesugi
+  - name: Naoko Kawakami
+- path:
+  - European Version Staff
+  - French Text
+  names:
+  - name: Julien Bardakoff
+  - name: Jean-Baptiste Fleury
+- path:
+  - European Version Staff
+  - German Text
+  names:
+  - name: Patrick R. Fabri
+- path:
+  - European Version Staff
+  - Italian Text
+  names:
+  - name: Elena Fogazzaro
+  - name: Leonardo Pieri
+- path:
+  - European Version Staff
+  - Spanish Text
+  names:
+  - name: Antonio Greppi
+- path:
+  - European Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kohta Fukui
+- path:
+  - European Version Staff
+  - Character Design
+  names:
+  - name: Takehiko Hosokawa
+  - name: Shinya Sano
+- path:
+  - European Version Staff
+  - Special Thanks
+  names:
+  - name: Takahiro Harada
+  - name: Kimiko Nakamichi
+- path:
+  - European Version Staff
+  - French Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: S. Heppt
+- path:
+  - European Version Staff
+  - French Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+- path:
+  - European Version Staff
+  - German & Italian Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: P. Thieret
+- path:
+  - European Version Staff
+  - German & Italian Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+- path:
+  - European Version Staff
+  - Spanish Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: A. Fey
+- path:
+  - European Version Staff
+  - Spanish Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+ja_unmatched:
+- kana: しょうがくかんプロダクション
+  role: スペシャル・サンクス
+  kanji: 小学館集英社プロダクション

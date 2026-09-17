@@ -1,0 +1,570 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_FireRed_and_LeafGreen + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ファイアレッド・リーフグリーンのスタッフクレジット
+slug: firered-leafgreen
+title: Staff of Pokémon FireRed and LeafGreen
+work: 宝可梦 火红·叶绿
+year: 2004
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_FireRed_and_LeafGreen
+count: 157
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_ファイアレッド・リーフグリーンのスタッフクレジット
+ja_alignment:
+  ja_total: 87
+  ja_matched: 85
+  ja_positional: 4
+  ja_only_added: 1
+sections:
+- path:
+  - Director
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: ポケットモンスター ファイアレッド（リーフグリーン） スタッフ / ディレクター
+- path:
+  - Art Director
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: アート ディレクター
+- path:
+  - Battle Director
+  names:
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    kanji: 森本茂樹
+    ja_match: romaji
+  ja_role: バトル ディレクター
+- path:
+  - Program Leader
+  names:
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: プログラム リーダー
+- path:
+  - Planning Leader
+  names:
+  - name: Koji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  ja_role: プランニング リーダー
+- path:
+  - Graphic Design Leader
+  names:
+  - name: Takao Unno
+    ja: うんの たかお
+    kanji: 海野隆雄
+    ja_match: romaji
+  ja_role: グラフィック デザイン ディレクター
+- path:
+  - Programmers
+  names:
+  - name: Hiroyuki Nakamura
+    ja: なかむら ひろゆき
+    ja_match: romaji
+  - name: Masao Taya
+    ja: たや まさお
+    kanji: 田谷正夫
+    ja_match: romaji
+  - name: Satoshi Nohara
+    ja: のはら さとし
+    kanji: 野原悟史
+    ja_match: romaji
+  - name: Miyuki Iwasawa
+    ja: いわさわ みゆき
+    ja_match: romaji
+  - name: Doisuke Goto
+    ja_match: positional
+    ja: ごとう だいすけ
+  ja_role: プログラム
+- path:
+  - System Programmers
+  names:
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    ja_match: romaji
+  - name: Akito Mori
+    ja: もり あきと
+    kanji: 森昭人
+    ja_match: romaji
+  - name: Hisashi Sogabe
+    ja: そがべ ひさし
+    kanji: 曽我部仙史
+    ja_match: romaji
+  - name: Sousuke Tamada
+    ja: たまだ そうすけ
+    kanji: 玉田荘介
+    ja_match: romaji
+  ja_role: プログラム/システム プログラム
+- path:
+  - Graphic Designers
+  names:
+  - name: Takao Unno
+    ja: うんの たかお
+    ja_match: romaji
+  - name: Asuka Iwashita
+    ja: いわした あすか
+    kanji: 岩下明日香
+    ja_match: romaji
+  - name: Kanako Eo
+    ja: えお かなこ
+    kanji: 江尾可奈子
+    ja_match: romaji
+  - name: Hiroki Fuchino
+    ja: ふちの ひろき
+    kanji: 渕野大樹
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  ja_role: グラフィック デザイン
+- path:
+  - Music Composition
+  names:
+  - name: Go Ichinose
+    ja: いちのせ ごう
+    kanji: 一之瀬剛
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Sound Effects
+  names:
+  - name: Go Ichinose
+    ja: いちのせ ごう
+    ja_match: romaji
+  ja_role: サウンド エフェクト
+- path:
+  - Game Designers
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    ja_match: romaji
+  - name: Koji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Tetsuji Ohta
+    ja: おおた てつじ
+    kanji: 太田哲司
+    ja_match: romaji
+  - name: Hitomi Sato
+    ja: さとう ひとみ
+    kanji: 佐藤仁美
+    ja_match: romaji
+  - name: Shigeru Ohmori
+    ja: おおもり しげる
+    kanji: 大森滋
+    ja_match: romaji
+  - name: Tadashi Takahashi
+    ja: たかはし ただし
+    ja_match: romaji
+  ja_role: ゲーム デザイン
+- path:
+  - Game Scenario
+  names:
+  - name: Hitomi Sato
+    ja: さとう ひとみ
+    ja_match: romaji
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: シナリオ
+- path:
+  - Script Designer
+  names:
+  - name: Satoshi Nohara
+    ja: のはら さとし
+    ja_match: romaji
+  ja_role: スクリプト せってい
+- path:
+  - Map Designer
+  names:
+  - name: Shigeru Ohmori
+    ja: おおもり しげる
+    ja_match: romaji
+  ja_role: マップ デザイン
+- path:
+  - Parametric Designers
+  names:
+  - name: Koji Nishino
+    ja: にしの こうじ
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Tetsuji Ohta
+    ja: おおた てつじ
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    ja_match: romaji
+  ja_role: パラメーター せってい
+- path:
+  - Pokédex Text
+  names:
+  - name: Kenji Matsushima
+    ja: まつしま けんじ
+    kanji: 松島賢二
+    ja_match: romaji
+  ja_role: ずかん テキスト
+- path:
+  - Pokémon Designers
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    ja_match: romaji
+  - name: Motofumi Fujiwara
+    ja: ふじわら もとふみ
+    kanji: 藤原基史
+    ja_match: romaji
+  - name: Shigeki Morimoto
+    ja: もりもと しげき
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Satoshi Ohta
+    ja: おおた さとし
+    kanji: 太田敏
+    ja_match: romaji
+  - name: Asuka Iwashita
+    ja: いわした あすか
+    kanji: 岩下明日香
+    ja_match: romaji
+  - name: Takao Unno
+    ja: うんの たかお
+    ja_match: romaji
+  - name: Kanako Eo
+    ja: えお かなこ
+    ja_match: romaji
+  - name: Aimi Tomita
+    ja: とみた あいみ
+    kanji: 富田愛美
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  - name: Muneo Saitō
+    ja: さいとう むねお
+    kanji: 斉藤むねお
+    ja_match: romaji
+  - name: Rena Yoshikawa
+    ja: よしかわ れな
+    kanji: 吉川玲奈
+    ja_match: romaji
+  - name: Jun Okutani
+    ja: おくたに じゅん
+    kanji: 奥谷順
+    ja_match: romaji
+  ja_role: ポケモン デザイン
+- path:
+  - Supporting Programmers
+  names:
+  - name: Teruyuki Yoshioka
+    ja: よしおか てるゆき
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Satoshi Mitsuhara
+    ja: みつはら さとし
+    kanji: 三津原敏
+    ja_match: romaji
+  - name: Daisuke Hoshino
+    ja: ほしの だいすけ
+    ja_match: romaji
+  ja_role: プログラム サポート
+- path:
+  - NCL Product Testing
+  names:
+  - name: NCL Super Mario Club
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  ja_role: デバッグプレイ
+- path:
+  - Special Thanks
+  names:
+  - name: Hiro Nakamura
+    ja_match: positional
+    ja: なかむら ひろき
+  - name: Hiroyuki Uesugi
+    ja: うえすぎ ひろゆき
+    ja_match: romaji
+  - name: Teruki Murakawa
+    ja: むらかわ てるき
+    ja_match: romaji
+  - name: Kazuya Suyama
+    ja: すやま かずや
+    ja_match: romaji
+  - name: Kenji Tominaga
+    ja: とみなが けんじ
+    kanji: 冨永兼司
+    ja_match: romaji
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    kanji: 伊藤憲二郎
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: こむら ともたか
+    kanji: 小村知孝
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: たきざわ みちこ
+    ja_match: romaji
+  - name: Makiko Takada
+    ja: たかだ まきこ
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Shusaku Egami
+    ja: えがみ しゅうさく
+    kanji: 江上周作
+    ja_match: romaji
+  - name: Takanao Kondo
+    ja: こんどう たかなお
+    ja_match: romaji
+  - name: Rui Kawaguchi
+    ja: かわぐち るい
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - Braille Code Check
+  names:
+  - name: Japan Braille Library
+    kind: company
+- path:
+  - Information Supervisors
+  names:
+  - name: Hiroki Enomoto
+    ja: えのもと ひろき
+    ja_match: romaji
+  - name: Kazuyuki Terada
+    ja: てらだ かずゆき
+    ja_match: romaji
+  - name: Yuri Sakurai
+    ja: さくらい ゆうり
+    ja_match: romaji
+  - name: Yumi Funusaka
+    ja_match: positional
+    ja: ふなさか ゆみ
+  - name: Naoko Yanase
+    ja: やなせ なおこ
+    ja_match: romaji
+  ja_role: じょうほう かんり
+- path:
+  - Coordinators
+  names:
+  - name: Azusa Tajima
+    ja: たじま あずさ
+    ja_match: romaji
+  - name: Akira Kinashi
+    ja: きなし あきら
+    kanji: 木梨玲
+    ja_match: romaji
+  - name: Kazuki Yoshihara
+    ja: よしはら かずき
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: のもと れつじ
+    kanji: 野本烈志
+    ja_match: romaji
+  ja_role: コーディネーター
+- path:
+  - Task Managers
+  names:
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳志
+    ja_match: romaji
+  ja_role: ファンクション マネージャー
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Takehiro Izushi
+    ja: いずし たけひろ
+    kanji: 出石武宏
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    kanji: 鶴宏明
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: エグゼクティブ ディレクター
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekaz Ishihara
+  - name: Tsunekazu Ishihara
+    name_source: ja-only
+    ja: いしはら つねかず
+    ja_match: ja-only
+    kanji: 石原恒和
+  ja_role: エグゼクティブ プロデューサー
+- path:
+  - English Version Coordinators
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+- path:
+  - Translator
+  names:
+  - name: Nob Ogasawara
+- path:
+  - Text Editor
+  names:
+  - name: Teresa Lillygren
+- path:
+  - French Version Coordinator
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - Translators
+  names:
+  - name: Pierre Sanchez
+  - name: Zadia Messerli
+- path:
+  - German Version Coordinator
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - Translators
+  names:
+  - name: Daniel Schäfers
+  - name: Micky Auer
+- path:
+  - Italian Version Coordinator
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - Translators
+  names:
+  - name: Andrea Salvi
+  - name: Elena Nardo
+- path:
+  - Spanish Version Coordinator
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - Translators
+  names:
+  - name: Sofía Marín Aguilar-Galindo
+  - name: Iván Garrido González
+- path:
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Souichi Yamamoto
+  - name: Yuichiro Ito
+  - name: Akira Kinashi
+- path:
+  - Environment and Tool Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Souichi Yamamoto
+  - name: Kimiko Nakamichi
+- path:
+  - Graphic Designer
+  names:
+  - name: Akira Kinashi
+- path:
+  - NOA Product Testing
+  names:
+  - name: Thomas Hertzog
+  - name: Kathy Huguenard
+  - name: Mika Kurosawa
+- path:
+  - NOE Product Testing
+  names:
+  - name: Alessio Danieli
+  - name: Rudi Schnitzer
+  - name: Erkan Kasap
+  - name: Thorsten Heinze
+  - name: Daniel Barsan
+  - name: Michelangelo Vassallo
+  - name: Pierre Diesing
+  - name: Petra Gyarmaty
+  - name: Steffen Lotz
+  - name: Chris Strauß
+  - name: Francesca Cecca
+  - name: Andrea De Benedetto
+  - name: Michele Liuzzi
+  - name: Elisa Lopatriello
+  - name: Davide Troiani
+  - name: Ariel Del Rio
+  - name: Israel Díaz Izquierdo
+  - name: Julian Gruben
+  - name: Daniel Herron
+  - name: Arrate Ugarte
+  - name: NOE Testing Team
+    kind: company
+- path:
+  - Braille Code Check
+  names:
+  - name: National Federation of the Blind
+    kind: company
+  - name: Patricia A. Maurer
+  - name: Japan Braille Library
+    kind: company
+  - name: European Blind Union
+    kind: company
+  - name: National Information Library Service
+    kind: company
+  - name: Margaret Campion
+  - name: The Royal New Zealand Foundation of the Blind
+    kind: company
+  - name: Greg Moran
+- path:
+  - Special Thanks
+  names:
+  - name: Hiro Nakamura
+  - name: Takehiro Izushi
+  - name: Motoyasu Tojima
+  - name: Hitoshi Yamagami
+  - name: Hiroyuki Uesugi
+  - name: Nicola Pratt-Barlow
+  - name: Shellie Dow
+  - name: Anthony Howitt
+  - name: Naoko Saeki
+  - name: Kyoko Onishi
+  - name: Silke Sczyrba
+  - name: Rika Kazama-Fanselow
+  - name: Taeko Suzuki
+ja_unmatched:
+- kana: にっぽんてんじとしょかん
+  role: てんじ かんしゅう
+  kanji: 日本点字図書館

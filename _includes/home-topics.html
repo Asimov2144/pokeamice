@@ -21,7 +21,7 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
 {% assign tp_gi = tp_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
 {% assign tp_nom = tp_posts | where_exp: "p", "p.tags contains 'N.O.M'" %}
 {% assign tp_tech = tp_posts | where_exp: "p", "p.source_kind == 'technical_report' or p.article_kind == 'technical_feature'" %}
-{% assign tp_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure'" %}
+{% assign tp_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure' and e.kind != 'staff'" %}
 <nav class="front__topics" aria-label="专题导航" data-topics>
 {%- assign tile_base = "/assets/img/topics/" | relative_url -%}
 {%- comment -%} a tile: picture, kind, title, count; data-q filters this page's catalogue in place, the rest open their own index {%- endcomment -%}
@@ -40,7 +40,8 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
   <a class="front__tile" href="{{ '/search/?q=%E6%8A%80%E6%9C%AF' | relative_url }}" data-q="技术"><img src="{{ tile_base }}tech.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">技术</span><strong>技术报告</strong><b>{{ tp_tech | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88' | relative_url }}" data-q="招聘访谈"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_recruit | size }}</b></a>
   <a class="front__tile" href="{{ '/people/' | relative_url }}"><img src="{{ tile_base }}people.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>人物库</strong><b>{{ tp_people | size }}</b></a>
-  <a class="front__tile" href="{{ '/entities/works/' | relative_url }}"><img src="{{ tile_base }}works.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>作品</strong><b>{{ site.data.works | size }}</b></a>
+  <a class="front__tile" href="{{ '/credits/' | relative_url }}"><img src="{{ tile_base }}credits.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">专题</span><strong>制作名单</strong><b>{{ site.data.credits_games | size }}</b></a>
+  <a class="front__tile" href="{{ '/works/' | relative_url }}"><img src="{{ tile_base }}works.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>作品库</strong><b>{{ site.data.works | size }}</b></a>
   <a class="front__tile" href="{{ '/timeline/' | relative_url }}"><img src="{{ tile_base }}timeline.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>时间线</strong></a>
   <a class="front__tile" href="{{ '/resource-graph/' | relative_url }}"><img src="{{ tile_base }}graph.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>关系图谱</strong></a>
 </nav>

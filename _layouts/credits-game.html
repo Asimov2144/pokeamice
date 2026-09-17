@@ -1,0 +1,61 @@
+---
+layout: default
+---
+{%- comment -%}
+One game's staff roll. The list itself is rendered into the page body by
+tools/build-credits-site.py (the data is too big to walk in Liquid); this
+layout supplies the head, the neighbours and the sources. Names that have a
+person page are already linked in the body.
+{%- endcomment -%}
+{% assign g = site.data.credits_games | where: "slug", page.game | first %}
+{% assign wi = site.data.works | where: "name", g.work | first %}
+{% assign core = site.data.credits_games | where: "core", true %}
+{% assign spin = site.data.credits_games | where: "core", false %}
+
+<div id="main" role="main">
+  <div class="archive archive--person archive--credits">
+    <article class="credits credits--game">
+      <header class="person__head credits__head">
+        {% if wi.icon %}
+          <img class="credits__icon" src="{{ wi.icon | relative_url }}" alt="" width="96" height="96">
+        {% else %}
+          <span class="credits__icon credits__icon--blank" aria-hidden="true">{{ g.year }}</span>
+        {% endif %}
+        <div class="person__id">
+          <p class="person__kicker"><a href="{{ '/credits/' | relative_url }}">制作名单</a></p>
+          <h1 class="person__name">{{ g.title_zh }}</h1>
+          <p class="person__aliases">{{ g.title }} · {{ g.year }} · {{ g.developer }}{% if g.note %} · {{ g.note }}{% endif %}</p>
+          <p class="credits__meta">{{ g.count }} 条署名{% if g.core %} · 核心作品{% else %} · 外传{% endif %}{% if page.gf_count %} · <img class="credits__gf credits__gf--head" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> Game Freak 成员 {{ page.gf_count }} 人{% endif %}
+            · 来源：<a href="{{ g.source }}" rel="noopener">Bulbapedia</a>{% if g.source_ja %} · <a href="{{ g.source_ja }}" rel="noopener">ポケモンWiki</a>{% endif %}</p>
+        </div>
+      </header>
+
+      <div class="credits__body">
+        <div class="credits__roll">
+          {{ content }}
+        </div>
+
+        <aside class="person__side credits__side">
+          <section class="person__card" aria-label="说明">
+            <h2>怎么读</h2>
+            <p class="credits__help">职务名按英文版 credits 的层级排列，右侧小字是日文版的职务名（ポケモンWiki）。名字下的小字是假名读法或汉字；<b>Lead</b> 是英文版标出的组长。有人物页的名字可以点开看这个人在历作的职务。</p>
+            {% if page.gf_count %}<p class="credits__help"><img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> 标记的是 Game Freak 成员——按名单推断：在至少两部 Game Freak 自研作品里有企划 / 程序 / 美术 / 音乐 / 总监类署名（或一部里任 lead 以上）。悬停看署名作数与首次年份；固定合作的外协成员也可能被标上。</p>{% endif %}
+            <p class="credits__help">同名同姓无法区分，罗马字拼法不同的同一人可能被拆成两条；见 <a href="{{ '/credits/staff/' | relative_url }}">历作 staff 总表</a>。</p>
+          </section>
+          <section class="person__card" aria-label="核心作品">
+            <h2>核心作品</h2>
+            <ul class="credits__list">
+              {% for x in core %}<li{% if x.slug == g.slug %} class="is-current"{% endif %}><a href="{{ '/credits/' | append: x.slug | append: '/' | relative_url }}">{{ x.title_zh }}</a><span>{{ x.year }}</span></li>{% endfor %}
+            </ul>
+          </section>
+          <section class="person__card" aria-label="外传">
+            <h2>外传 <small>{{ spin.size }}</small></h2>
+            <ul class="credits__list credits__list--compact">
+              {% for x in spin %}<li{% if x.slug == g.slug %} class="is-current"{% endif %}><a href="{{ '/credits/' | append: x.slug | append: '/' | relative_url }}">{{ x.title }}</a><span>{{ x.year }}</span></li>{% endfor %}
+            </ul>
+          </section>
+        </aside>
+      </div>
+    </article>
+  </div>
+</div>

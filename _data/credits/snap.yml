@@ -1,0 +1,349 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap + https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
+slug: snap
+title: Staff of Pokémon Snap
+work: null
+year: 1999
+developer: HAL Laboratory
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Snap
+count: 83
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスナップのスタッフクレジット
+ja_alignment:
+  ja_total: 62
+  ja_matched: 53
+  ja_positional: 2
+  ja_only_added: 1
+sections:
+- path:
+  - Director
+  names:
+  - name: Yoichi Yamamoto
+    ja: やまもと よーいち
+    kanji: 山本洋一
+    ja_match: romaji
+  - name: Koji Inokuchi
+    ja: いのくち こうじ
+    kanji: 猪ノ口幸治
+    ja_match: romaji
+  - name: Akira Takeshima
+    ja: たけしま あきら
+    kanji: 竹嶋章
+    ja_match: romaji
+  ja_role: ジャック アンド ビーンズ / ディレクター
+- path:
+  - Designer
+  names:
+  - name: Shigezo Kawase
+    ja: かわせ しげぞー
+    kanji: 川瀬シゲゾー
+    ja_match: romaji
+  - name: Takeyuki Machida
+    ja: まちだ たけゆき
+    kanji: 町田武幸
+    ja_match: romaji
+  - name: Masanobu Yamamoto
+    ja: やまもと まさのぶ
+    kanji: 山本正宣
+    ja_match: romaji
+  - name: Shizu Higashiyama
+    ja: ひがしやま しず
+    kanji: 東山静
+    ja_match: romaji
+  ja_role: デザイナー
+- path:
+  - Sound Designer
+  names:
+  - name: Ikuko Mimori
+    ja: みもり いくこ
+    kanji: 御守郁子
+    ja_match: romaji
+  - name: Tadashi Ikegami
+  ja_role: サウンドデザイナー
+- path:
+  - Programmer
+  names:
+  - name: Yoshiaki Shinohara
+    ja: しのはら よしあき
+    ja_match: romaji
+  - name: Kazuki Sekimori
+    ja: せきもり かずき
+    kanji: 関森一紀
+    ja_match: romaji
+  - name: Jinji Horagai
+    ja: ほらがい じんじ
+    ja_match: romaji
+  - name: Tomoyuki Sumi
+    ja: すみ ともゆき
+    ja_match: romaji
+  - name: Hirotaka Kato
+    ja: かとう ひろたか
+    kanji: 加藤博孝
+    ja_match: romaji
+  - name: Hideaki Kiko
+    ja: きこう ひであき
+    ja_match: romaji
+  ja_role: プログラマー
+- path:
+  - Technical Support
+  names:
+  - name: Makoto Kanai
+    ja: かない まこと
+    ja_match: romaji
+  ja_role: テクニカルサポート
+- path:
+  - Supervisor
+  names:
+  - name: Kensuke Tanabe
+    ja: たなべ けんすけ
+    kanji: 田邊賢輔
+    ja_match: romaji
+  ja_role: スーパーバイザー
+- path:
+  - 64モデリングセンターとうきょう / スーパースペシャルチーフデザイナー
+  ja_role: 64モデリングセンターとうきょう / スーパースペシャルチーフデザイナー
+  source: ja-only
+  names:
+  - name: Benimaru Itou
+    name_source: ja-only
+    ja: いとう べにまる
+    ja_match: ja-only
+    kanji: 伊藤紅丸
+- path:
+  - US Coordination
+  names:
+  - name: Hiro Nakamura
+- path:
+  - European Coordination
+  names:
+  - name: Claude M. Moyse
+  - name: Markus Pfitzner
+  - name: John D. Kraft
+  - name: Hiroyuki Uesugi
+  - name: Keiko Okamoto
+  - name: Sakae Yamazaki
+  - name: Atsushi Okada
+- path:
+  - Spanish Text
+  names:
+  - name: Antonio Greppi
+  - name: Carlos Montilla
+- path:
+  - German Text
+  names:
+  - name: Patrick Fabri
+  - name: Jan Peitzmeier
+- path:
+  - French Text
+  names:
+  - name: Julien Bardakoff
+  - name: Jean-Bapsiste Fleury
+- path:
+  - N64 Modeling Center Tokyo
+  names:
+  - name: 'Super Duper Chief Special Designer: Benimaru "Ashura" Ito'
+    kind: company
+  - name: Takeshi Iizuka
+    ja: いいづか たけし
+    ja_match: romaji
+  - name: Hiroshi Ishikawa
+    ja: いしかわ ひろし
+    ja_match: romaji
+  - name: Takemi Ichikawa
+    ja: いちかわ たけみ
+    ja_comment: 市川剛実<ref>[https://www.creators-station.jp/interview/legends/116117 ゲームのグラフィックス、アニメーションを主軸に、Crico株式会社は幅広いエンターテイメントコンテンツ創造の業務を展開している。]</ref>
+    ja_match: romaji
+  - name: Atsuko Ujiie
+    ja: うじいえ あつこ
+    kanji: 氏家淳子
+    ja_match: romaji
+  - name: Ryuta Kusumi
+    ja: くすみ りゅーた
+    kanji: 久須美龍太
+    ja_match: romaji
+  - name: Izuru Kumasaka
+    ja: くまさか いづる
+    ja_match: romaji
+  - name: Toru Kurashige
+    ja: くらしげ とおる
+    kanji: 倉重亨
+    ja_match: romaji
+  - name: Satomi Kokubo
+    ja: こくぼ さとみ
+    kanji: 小久保聡鏡
+    ja_match: romaji
+  - name: Hitoshi Kobayashi
+    ja: こばやし ひとし
+    kanji: 小林仁志
+    ja_match: romaji
+  - name: Mitsuteru Sato
+    ja: さとう みつてる
+    ja_match: romaji
+  - name: Yuichi Sawayama
+    ja: さわやま ゆういち
+    ja_match: romaji
+  - name: Hikaru Jinguji
+    ja: じんぐうじ ひかる
+    kanji: 神宮寺光
+    ja_match: romaji
+  - name: Nachi Sugiyama
+    ja: すぎやま なち
+    kanji: 杉山楠知
+    ja_match: romaji
+  - name: Jyungo Suzuki
+    ja_match: positional
+    ja: すずき じゅんご
+    kanji: 鈴木淳吾
+  - name: Yoshiyuki Tagawa
+    ja: たがわ よしゆき
+    kanji: 田川善之
+    ja_match: romaji
+  - name: Kazuo Yazawa
+    ja: やざわ かずお
+    kanji: 谷澤和男
+    ja_match: romaji
+  - name: Akira Yamazaki
+    ja: やまざき あきら
+    ja_match: romaji
+  - name: Shinichi Yoshikawa
+    ja: よしかわ しんいち
+    kanji: 芳川真一
+    ja_match: romaji
+- path:
+  - Voice Actor
+  names:
+  - name: Unsho Ishizuka
+    ja: いしづか うんしょう
+    kanji: 石塚運昇
+    ja_match: romaji
+  - name: Kappei Yamaguchi
+    ja: やまぐち かっぺい
+    kanji: 山口勝平
+    ja_match: romaji
+  - name: Stan Hart
+  - name: Jimmy Zoppi
+  - name: Achim Geissler
+  - name: Clemens Ostermann
+  - name: J.M Delhausse
+  - name: Fanny Roy
+  - name: Ikue Otani
+    ja: おおたに いくえ
+    kanji: 大谷育江
+    ja_match: romaji
+  ja_role: こえの しゅつえん
+- path:
+  - Special Thanks
+  names:
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: のもと がくじ
+    kanji: 野本岳志
+    ja_match: romaji
+  - name: Jyun Yamazaki
+    ja_match: positional
+    ja: やまざき じゅん
+  - name: Chiharu Ito
+    ja: いとう ちはる
+    ja_match: romaji
+  - name: Masayoshi Tanimura
+    ja: たにむら まさよし
+    kanji: 谷村正仁
+    ja_match: romaji
+  - name: Satoshi Ishida
+    ja: いしだ さとし
+    kanji: 石田聡
+    ja_match: romaji
+  - name: Tetsuya Notoya
+    ja: のとや てつや
+    kanji: 能登谷哲也
+    ja_match: romaji
+  - name: Chieko Obikane
+    ja: おびかね ちえこ
+    kanji: 帯金千恵子
+    ja_match: romaji
+  - name: Hisatoshi Takeuchi
+    ja: たけうち ひさとし
+    ja_match: romaji
+  - name: Keita Oriuchi
+    ja: おりうち けいた
+    ja_match: romaji
+  - name: N64 Modeling Center Kyoto
+    kind: company
+  - name: 'System Development #2'
+    note: HAL
+  - name: HAL Debug Team
+    kind: company
+  - name: Super Mario Club
+    kind: company
+  - name: Creatures inc.
+    kind: company
+  - name: GAME FREAK inc.
+    kind: company
+  ja_role: スペシャル サンクス
+- path:
+  - Character Supervisor
+  names:
+  - name: Yoichi Kotabe
+    ja: こたべ よういち
+    kanji: 小田部羊一
+    ja_match: romaji
+  ja_role: キャラクターかんしゅう
+- path:
+  - Pokémon Created by
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケモンげんさくしゃ
+- path:
+  - Pokémon Producer
+  names:
+  - name: Tsunekaz Ishihara
+- path:
+  - Producer
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Kenji Miki
+    ja: みき けんじ
+    kanji: 三木研次
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+ja_unmatched:
+- kana: ほか
+  role: こえの しゅつえん
+- kana: 64モデリングセンターきょうと
+  role: スペシャル サンクス
+- kana: ハルけん システム2か
+  role: スペシャル サンクス
+- kana: ハルけん デバッグチーム
+  role: スペシャル サンクス
+- kana: スーパーマリオクラブ
+  role: スペシャル サンクス
+- kana: クリーチャーズ
+  role: スペシャル サンクス
+- kana: ゲームフリーク
+  role: スペシャル サンクス
+- kana: いしはら つねかず
+  role: ポケモンプロデューサー
+  kanji: 石原恒和
+anomalies:
+- '[''Voice Actor'']: :and'
+- '[''Voice Actor'']: :Others...'

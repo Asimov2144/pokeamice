@@ -1,0 +1,176 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball + https://wiki.pokemonwiki.com/wiki/ポケモンピンボールのスタッフクレジット
+slug: pinball
+title: Staff of Pokémon Pinball
+work: null
+year: 1999
+developer: Jupiter Corporation, HAL Laboratory
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Pinball
+count: 25
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンピンボールのスタッフクレジット
+ja_alignment:
+  ja_total: 25
+  ja_matched: 25
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Producers
+  names:
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  - name: Takehiro Izushi
+    ja: いずし たけひろ
+    kanji: 出石武宏
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Programmers
+  names:
+  - name: Noriaki Teramoto
+    ja: てらもと のりあき
+    ja_match: romaji
+  - name: Daisuke Miyao
+    ja: みやお だいすけ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Design
+  names:
+  - name: Masaru Kuribayashi
+    ja: くりばやし まさる
+    ja_match: romaji
+  - name: Gotō Hiroyuki
+    ja: ごとう ひろゆき
+    ja_match: romaji
+  - name: Norichika Meguro
+    ja: めぐろ のりちか
+    ja_match: romaji
+  ja_role: デザイン
+- path:
+  - Graphic Supervisor
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: グラフィックスーパーバイズ
+- path:
+  - Music
+  names:
+  - name: Gō Ichinose
+    ja: いちのせ ごう
+    kanji: 一之瀬剛
+    ja_match: romaji
+  ja_role: おんがく
+- path:
+  - Sound Effects
+  names:
+  - name: Morikazu Aoki
+    ja: あおき もりかず
+    ja_match: romaji
+  ja_role: こうかおん
+- path:
+  - Sound Driver
+  names:
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: サウンドドライバー
+- path:
+  - Sound Direction
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  ja_role: サウンドディレクション
+- path:
+  - Debug Play
+  names:
+  - name: Super Mario Club
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  ja_role: デバッグプレイ
+- path:
+  - Manual Illustrator
+  names:
+  - name: Toshinao Aoki
+    ja: あおき としなお
+    kanji: 青木俊直
+    ja_match: romaji
+  ja_role: マニュアルイラスト
+- path:
+  - Manual Creation
+  names:
+  - name: Motoharu Sakata
+    ja: さかた もとはる
+    ja_match: romaji
+  ja_role: マニュアルさくせい
+- path:
+  - Package Artwork
+  names:
+  - name: Hideki Kazama
+    ja: かざま ひでき
+    ja_match: romaji
+  - name: Hiromi Itō
+    ja: いとう ひろみ
+    ja_match: romaji
+  ja_role: パッケージアートワーク
+- path:
+  - Advertisement Design
+  names:
+  - name: Noriyaki Satō
+    ja_match: positional
+    ja: さとう のりゆき
+  - name: Masatoshi Okuno
+    ja: おくの まさとし
+    ja_match: romaji
+  ja_role: こうこくデザイン
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+    ja: じんない ひろゆき
+    kanji: 陣内弘之
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  ja_role: せいさくきょうりょく
+- path:
+  - Special Thanks
+  names:
+  - name: Takahiro Harada
+    ja: はらだ たかひろ
+    ja_match: romaji
+  ja_role: スペシャルサンクス
+- path:
+  - Kernel Program
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: カーネルプログラム
+- path:
+  - Pokémon Original Story
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスターげんさくしゃ
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー

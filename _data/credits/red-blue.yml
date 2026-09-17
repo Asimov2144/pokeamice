@@ -1,0 +1,242 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Blue
+slug: red-blue
+title: Staff of Pokémon Red and Blue
+work: null
+year: 1998
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Red_and_Blue
+count: 86
+note: 海外版：含本地化人员
+sections:
+- path:
+  - Director
+  names:
+  - name: Satoshi Tajiri
+- path:
+  - Programming
+  names:
+  - name: Takenori Oota
+  - name: Shigeki Morimoto
+  - name: Tetsuya Watanabe
+  - name: Junichi Masuda
+  - name: Sousuke Tamada
+  ja_role: プログラム
+  ja_role_en: Program
+- path:
+  - Character Design
+  names:
+  - name: Ken Sugimori
+  - name: Atsuko Nishida
+- path:
+  - Music
+  names:
+  - name: Junichi Masuda
+- path:
+  - Sound Effects
+  names:
+  - name: Junichi Masuda
+- path:
+  - Game Design
+  names:
+  - name: Satoshi Tajiri
+- path:
+  - Monster Design
+  names:
+  - name: Ken Sugimori
+  - name: Atsuko Nishida
+  - name: Motofumi Fuziwara
+    link: Motofumi Fujiwara
+  - name: Shigeki Morimoto
+  - name: Satoshi Oota
+    link: Satoshi Ohta
+  - name: Rena Yoshikawa
+- path:
+  - Game Scenario
+  names:
+  - name: Satoshi Tajiri
+  - name: Ryohsuke Taniguchi
+  - name: Fumihiro Nonomura
+  - name: Hiroyuki Zinnai
+  ja_role: シナリオ
+  ja_role_en: Scenario
+- path:
+  - Parametric Design
+  names:
+  - name: Kohji Nisino
+    link: Kōji Nishino
+  - name: Takeo Nakamura
+  ja_role: パラメータせってい
+  ja_role_en: Parameter Creation
+- path:
+  - Map Design
+  names:
+  - name: Satoshi Tajiri
+  - name: Kohji Nisino
+    link: Kōji Nishino
+  - name: Kenji Matsusima
+  - name: Fumihiro Nonomura
+  - name: Ryohsuke Taniguchi
+- path:
+  - Product Testing
+  names:
+  - name: Akiyoshi Kakei
+  - name: Kazuki Tsuchiya
+  - name: Takeo Nakamura
+  - name: Masamitsu Yuda
+  ja_role: デバッグプレイ
+  ja_role_en: Debug Play
+- path:
+  - Special Thanks
+  names:
+  - name: Tatsuya Hishida
+  - name: Yasuhiro Sakai
+  - name: Wataru Yamaguchi
+  - name: Kazuyuki Yamamoto
+  - name: Akihito Tomisawa
+  - name: Hiroshi Kawamoto
+  - name: Tomomichi Oota
+- path:
+  - Producers
+  names:
+  - name: Shigeru Miyamoto
+  - name: Takashi Kawaguchi
+  - name: Tsunekazu Ishihara
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+- path:
+  - US Version Staff
+  - US Coordination
+  names:
+  - name: Gail Tilden
+  - name: Naoko Kawakami
+  - name: Hiro Nakamura
+  - name: William Giese
+  - name: Sara Osborne
+- path:
+  - US Version Staff
+  - Text Translation
+  names:
+  - name: Nob Ogasawara
+- path:
+  - US Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kohta Fukui
+- path:
+  - US Version Staff
+  - Special Thanks
+  names:
+  - name: Satoru Iwata
+  - name: Takahiro Harada
+- path:
+  - US Version Staff
+  - Product Testing
+  names:
+  - name: NCL Super Mario Club
+    link: Mario Club
+    kind: company
+- path:
+  - US Version Staff
+  - Producer
+  names:
+  - name: Takehiro Izushi
+- path:
+  - European Version Staff
+  - European Coordination
+  names:
+  - name: Claude M. Moyse
+  - name: Markus Pfitzner
+  - name: John D. Kraft
+  - name: Naoko Kawakami
+  - name: Yusuke Edasawa
+  - name: Hiro Uesugi
+  - name: Kamon Yoshimura
+- path:
+  - European Version Staff
+  - French Text
+  names:
+  - name: Julien Bardakoff
+  - name: Jean-Baptiste Fleury
+- path:
+  - European Version Staff
+  - German Text
+  names:
+  - name: Patrick Fabri
+- path:
+  - European Version Staff
+  - Italian Text
+  names:
+  - name: Elena Fogazzaro
+  - name: Leonardo Pieri
+- path:
+  - European Version Staff
+  - Spanish Text
+  names:
+  - name: Susa Alcami
+  - name: Antonio Greppi
+- path:
+  - European Version Staff
+  - Programmers
+  names:
+  - name: Teruki Murakawa
+  - name: Kohta Fukui
+- path:
+  - European Version Staff
+  - Special Thanks
+  names:
+  - name: Takahiro Harada
+  - name: Kimiko Nakamichi
+- path:
+  - European Version Staff
+  - French Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: MP. Hugo
+- path:
+  - European Version Staff
+  - French Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+- path:
+  - European Version Staff
+  - German & Italian Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: F. Tappert
+- path:
+  - European Version Staff
+  - German & Italian Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+- path:
+  - European Version Staff
+  - Spanish Product Testing
+  - NOE Product Testing
+  names:
+  - name: Kai Zeh
+  - name: Andy Fey
+- path:
+  - European Version Staff
+  - Spanish Product Testing
+  - NOA Product Testing
+  names:
+  - name: K. Hudson
+    kind: company
+  - name: T. Buechele
+- path:
+  - European Version Staff
+  - Producer
+  names:
+  - name: Takehiro Izushi

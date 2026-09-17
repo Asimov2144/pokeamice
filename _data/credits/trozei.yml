@@ -1,0 +1,339 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trozei! + https://wiki.pokemonwiki.com/wiki/ポケモントローゼのスタッフクレジット
+slug: trozei
+title: Staff of Pokémon Trozei!
+work: null
+year: 2005
+developer: Genius Sonority
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trozei!
+count: 77
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモントローゼのスタッフクレジット
+ja_alignment:
+  ja_total: 50
+  ja_matched: 46
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Manabu Yamana
+    ja: Manabu Yamana
+    kanji: 山名学
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Game Design
+  names:
+  - name: Akihiko Miura
+    ja: Akihiko Miura
+    kanji: 三浦明彦
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Art Director
+  names:
+  - name: Jamie Turner
+    link: James Turner
+    ja: Jamie Turner
+    ja_match: romaji
+  ja_role: Art Director
+- path:
+  - Programming Director
+  names:
+  - name: Masayuki Kawamoto
+    ja: Masayuki Kawamoto
+    ja_match: romaji
+  ja_role: Programming Director
+- path:
+  - Music Director
+  names:
+  - name: Tsukasa Tawada
+    ja: Tsukasa Tawada
+    ja_match: romaji
+  ja_role: Music Director
+- path:
+  - Development Manager
+  names:
+  - name: Chiharu Sugaya
+    ja: Chiharu Sugaya
+    ja_match: romaji
+  ja_role: Development Manager
+- path:
+  - Game Design Assistant
+  names:
+  - name: Ryota Aomi
+    ja: Ryota Aomi
+    ja_match: romaji
+  ja_role: Game Design Assistant
+- path:
+  - Programming
+  names:
+  - name: Ryo Shimizu
+    ja: Ryo Shimizu
+    ja_match: romaji
+  - name: Mitsunobu Koyama
+    ja: Mitsunobu Koyama
+    ja_match: romaji
+  ja_role: Programming
+- path:
+  - Art Chief
+  names:
+  - name: Takanori Wada
+    ja: Takanori Wada
+    ja_match: romaji
+  ja_role: Art Chief
+- path:
+  - Background Art
+  names:
+  - name: Kenji Kawashima
+    ja: Kenji Kawashima
+    ja_match: romaji
+  ja_role: Background Art
+- path:
+  - Event Art
+  names:
+  - name: Rui Guerreiro
+    ja: Rui Guerreiro
+    ja_match: romaji
+  - name: Chika Hotani
+    ja: Chika Hotani
+    ja_match: romaji
+  ja_role: Event Art
+- path:
+  - Pokémon Icon Art
+  names:
+  - name: Jyu Ikeda
+    ja: Jyu Ikeda
+    ja_match: romaji
+  - name: Akira Fukumoto
+    ja: Akira Fukumoto
+    ja_match: romaji
+  ja_role: Pokémon Icon Art
+- path:
+  - Sound Effects
+  names:
+  - name: Masataka Saito
+    ja: Masataka Saito
+    ja_match: romaji
+  ja_role: Sound Effects
+- path:
+  - Data Manager
+  names:
+  - name: Maiko Suzuki
+    ja: Maiko Suzuki
+    ja_match: romaji
+  ja_role: Data Manager
+- path:
+  - Development Support
+  names:
+  - name: Hizuki Misono
+    ja: Hizuki Misono
+    ja_match: romaji
+  - name: Takahiro Ohnishi
+    ja: Takahiro Ohnishi
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: Takao Nakano
+    ja_match: romaji
+  - name: Kaori Ando
+  ja_role: Development Support
+- path:
+  - English Localization
+  names:
+  - name: Seth McMahill
+  - name: Keisuke Tominaga
+- path:
+  - European Localization
+  names:
+  - name: Product Localization Team
+    kind: company
+- path:
+  - Coordination
+  names:
+  - name: Noriko Netley
+- path:
+  - English Text Translated By
+  names:
+  - name: Nob Ogasawara
+- path:
+  - English Text Edited By
+  names:
+  - name: Teresa Lillygren
+- path:
+  - German Translation
+  names:
+  - name: Martina Deimel
+  - name: Helge Friedrich
+- path:
+  - French Translation
+  names:
+  - name: Michaël Hugot
+  - name: Hervé Lefranc
+- path:
+  - Spanish Translation
+  names:
+  - name: Iván Garrido González
+  - name: Jesús Ángel Rodríguez Gago
+- path:
+  - Italian Translation
+  names:
+  - name: Giovanna Prati
+  - name: Andrea Salvi
+- path:
+  - NOA Product Testing
+  names:
+  - name: Arnie Myers
+  - name: Stephen Ward
+  - name: Mika Kurosawa
+  - name: Tomoko Mikemi
+- path:
+  - NOE Product Testing
+  names:
+  - name: Alessio Danieli
+  - name: NOE Testing Team
+    kind: company
+- path:
+  - Additional Testing
+  names:
+  - name: NCL SUPER MARIO CLUB
+    link: Super Mario Club
+- path:
+  - Artwork
+  names:
+  - name: Sakae Kimura
+    ja: Sakae Kimura
+    ja_match: romaji
+  - name: Kenichi Koga
+    ja: Kenichi Koga
+    ja_match: romaji
+  - name: Akiko Hirono
+    ja: Akiko Hirono
+    ja_match: romaji
+  - name: Ai Ohmi
+    ja: Ai Ohmi
+    ja_match: romaji
+  - name: Kiyomi Oe
+    ja: Kiyomi Oe
+    ja_match: romaji
+  - name: Aki Sakurai
+    ja: Aki Sakurai
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Special Thanks To
+  names:
+  - name: Akira Fukushima
+    ja: Akira Fukushima
+    ja_match: romaji
+  - name: Yutaka Ohkoshi
+    ja: Yutaka Ohkoshi
+    ja_match: romaji
+  - name: Chihiro Kobayashi
+    ja: Chihiro Kobayashi
+    ja_match: romaji
+  - name: Kazuko Goshi
+    ja: Kazuko Goshi
+    ja_match: romaji
+  - name: Sachiko Kubokawa
+    ja: Sachiko Kubokawa
+    ja_match: romaji
+  - name: Natsuko Kobayashi
+    ja: Natsuko Kobayashi
+    ja_match: romaji
+  - name: Yuko Nakajima
+    ja: Yuko Nakajima
+    ja_match: romaji
+  - name: Sumiko Iwasawa
+    ja: Sumiko Iwasawa
+    ja_match: romaji
+  - name: Ema Kakizaki
+    ja: Ema Kakizaki
+    ja_match: romaji
+  - name: Madoka Ogata
+    ja: Madoka Ogata
+    ja_match: romaji
+  - name: Makiko Imai
+    ja: Makiko Imai
+    ja_match: romaji
+  - name: Tatsumi Kimishima
+  - name: Mike Fukuda
+  - name: Yoshinobu Mantani
+  - name: Gail Tilden
+  - name: Melinda Porter
+  - name: Nicola Wright
+  - name: Randy Shoemake
+  - name: Hitomi Naitoh
+  ja_role: Special Thanks to
+- path:
+  - Very Special Thanks To
+  names:
+  - name: GAME FREAK Inc.
+    link: Game Freak
+    kind: company
+    ja: GAME FREAK inc.
+    ja_match: romaji
+  - name: Muneaki Ozawa
+    ja: Muneaki Ozawa
+    kanji: 小沢宗明
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: Yosuke Suma
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: Norio Matsumura
+    kanji: 松村憲男
+    ja_match: romaji
+  ja_role: Very Special Thanks to
+- path:
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: Pokémon Original Director
+- path:
+  - Producers
+  names:
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Developed by
+  names:
+  - name: Genius Sonority Inc.
+    link: Genius Sonority
+    kind: company
+ja_unmatched:
+- kana: Super Mario Club
+  role: Debug
+- kana: (c) 2005 Pokémon.
+  role: Pokémontrosé
+- kana: (c) 1995-2005 Nintendo/[[クリーチャーズ|Creatures Inc.]]/[[ゲームフリーク|GAMEFREAK inc.]]
+  role: Pokémontrosé
+  kanji: 任天堂
+- kana: Developed by Genius Sonority Inc.
+  role: Pokémontrosé

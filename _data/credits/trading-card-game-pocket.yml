@@ -1,0 +1,4468 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket + https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
+slug: trading-card-game-pocket
+title: Staff of Pokémon Trading Card Game Pocket
+work: null
+year: 2024
+developer: Creatures, Inc., DeNA Co., Ltd.
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_Pocket
+count: 1166
+source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Trading_Card_Game_Pocketのスタッフクレジット
+ja_alignment:
+  ja_total: 642
+  ja_matched: 573
+  ja_positional: 25
+  ja_only_added: 0
+sections:
+- path:
+  - Staff list (2025)
+  - Developed by
+  names:
+  - name: DeNA Co., Ltd.
+    link: DeNA
+    kind: company
+    ja: DeNA Co., Ltd.
+    ja_match: romaji
+  ja_role: Developed by
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Producers
+  - Producer
+  names:
+  - name: Tetsuya Iguchi
+    ja: Tetsuya Iguchi
+    kanji: 井口徹也
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Producers
+  - Assistant Producer
+  names:
+  - name: Yusuke Nogami
+    ja: Yusuke Nogami
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Directors
+  - General Director
+  names:
+  - name: Katsuyuki Shiga
+    ja: Katsuyuki Shiga
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Directors
+  - Development Director
+  names:
+  - name: Hotaka Suzuki
+    ja: Hotaka Suzuki
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Directors
+  - Operations Director
+  names:
+  - name: Yuki Mantani
+    ja: Yuki Mantani
+    ja_match: romaji
+  - name: Seiji Oshima
+    ja: Seiji Oshima
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Project Managers
+  names:
+  - name: Sakiko Kano
+    ja: Sakiko Kano
+    ja_match: romaji
+  - name: Rie Ito
+    ja: Rie Ito
+    ja_match: romaji
+  - name: Masaaki Inoguchi
+    ja: Masaaki Inoguchi
+    ja_match: romaji
+  - name: Masato Tsukagoshi
+    ja: Masato Tsukagoshi
+    ja_match: romaji
+  - name: Yoshito Kuwahara
+    ja: Yoshito Kuwahara
+    ja_match: romaji
+  - name: Ami Kwak
+    ja: Ami Kwak
+    ja_match: romaji
+  - name: Shingo Inoue
+  - name: Takuma Sekine
+  ja_role: Project Managers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design Manager
+  names:
+  - name: Ai Takeuchi
+    ja: Ai Takeuchi
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Engineering Managers
+  names:
+  - name: Ryo Watanabe
+    ja: Ryo Watanabe
+    ja_match: romaji
+  - name: Yu Shiraiwa
+    ja: Yu Shiraiwa
+    ja_match: romaji
+  - name: Shinya Kasahara
+    ja: Shinya Kasahara
+    ja_match: romaji
+  - name: Takuya Katsurada
+    ja: Takuya Katsurada
+    ja_match: romaji
+  ja_role: Engineering Managers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Lead Engineer
+  names:
+  - name: Shimpei Masaki
+    ja: Shimpei Masaki
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Engineering Project Managers
+  names:
+  - name: Dennis Sachio Imabeppu
+    ja: Dennis Sachio Imabeppu
+    ja_match: romaji
+  - name: Takuya Katsurada
+    ja: Takuya Katsurada
+    ja_match: romaji
+  ja_role: Project Managers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Lead Battle Engineers
+  names:
+  - name: Kensaku Kusuhara
+    ja: Kensaku Kusuhara
+    ja_match: romaji
+  - name: Hiroki Harada
+    ja: Hiroki Harada
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Battle Engineers
+  names:
+  - name: Yuki Nakashima
+    ja: Yuki Nakashima
+    ja_match: romaji
+  - name: Noriyuki Suwa
+    ja: Noriyuki Suwa
+    ja_match: romaji
+  - name: Satoru Konishi
+    ja: Satoru Konishi
+    ja_match: romaji
+  - name: Shuzo Miura
+    ja: Shuzo Miura
+    ja_match: romaji
+  - name: Naoki Take
+    ja: Naoki Take
+    ja_match: romaji
+  - name: Kohei Nogami
+  - name: Hiroto Kuge
+  - name: Iteki Tou
+  - name: Ryota Suzuki
+    ja: Ryota Suzuki
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Lead Outgame Engineers
+  names:
+  - name: Yuhei Inoue
+    ja: Yuhei Inoue
+    ja_match: romaji
+  - name: Shingo Tanaka
+    ja: Shingo Tanaka
+    ja_match: romaji
+  - name: Takuma Seimiya
+    ja: Takuma Seimiya
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Outgame Engineers
+  names:
+  - name: Ryouta Suzuki
+  - name: Shinya Kasahara
+  - name: Satoshi Kasuga
+    ja: Satoshi Kasuga
+    ja_match: romaji
+  - name: Tomohiko Horigome
+    ja: Tomohiko Horigome
+    ja_match: romaji
+  - name: Maiko Akutsu
+    ja: Maiko Akutsu
+    ja_match: romaji
+  - name: Yuki Imai
+    ja: Yuki Imai
+    ja_match: romaji
+  - name: Keiji Ohara
+    ja: Keiji Ohara
+    ja_match: romaji
+  - name: Kaoru Yamabe
+    ja: Kaoru Yamabe
+    ja_match: romaji
+  - name: Takafumi Naito
+    ja: Takafumi Naito
+    ja_match: romaji
+  - name: Shinju Okubo
+    ja: Shinju Okubo
+    ja_match: romaji
+  - name: Kensaku Kusuhara
+  - name: Seiji Oshiyama
+  - name: Long Yutao
+    ja: Yutao Long
+    ja_match: romaji
+  - name: Mio Kutani
+  - name: Kazutomo Sasaki
+  - name: Hidemichi Jo
+  - name: Shohei U
+  - name: Nanako Matsumoto
+  - name: Masashi Adachi
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Lead Graphics Engineer
+  names:
+  - name: Masafumi Yamamoto
+    ja: Masafumi Yamamoto
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Graphics Engineers
+  names:
+  - name: Yuma Handa
+    ja: Yuma Handa
+    ja_match: romaji
+  - name: Masaki Iwasaki
+    ja: Masaki Iwasaki
+    ja_match: romaji
+  - name: Yuma Kasahara
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Visual Engineer
+  names:
+  - name: Yuma Handa
+    ja: Yuma Handa
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Lead Release Engineer
+  names:
+  - name: Genta Mizumoto
+    ja: Genta Mizumoto
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Client Engineers
+  - Release Engineers
+  names:
+  - name: Kaoru Yamabe
+    ja: Kaoru Yamabe
+    ja_match: romaji
+  - name: Kazuteru Nagasawa
+    ja: Kazuteru Nagasawa
+    ja_match: romaji
+  - name: Jiha Kim
+    ja: Jiha Kim
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - AI Systems
+  - AI Engineering Managers
+  names:
+  - name: Ikki Tanaka
+    ja: Ikki Tanaka
+    ja_match: romaji
+  - name: Yoshikazu Kamoshida
+    ja: Yoshikazu Kamoshida
+    ja_match: romaji
+  ja_role: AI Systems
+- path:
+  - Staff list (2025)
+  - Developed by
+  - AI Systems
+  - Lead Engineer
+  names:
+  - name: Yu Kono
+    ja: Yu Kono
+    ja_match: romaji
+  ja_role: AI Systems
+- path:
+  - Staff list (2025)
+  - Developed by
+  - AI Systems
+  - AI Engineers
+  names:
+  - name: Dennis Sachio Imabeppu
+    ja: Dennis Sachio Imabeppu
+    ja_match: romaji
+  - name: Taira Takahashi
+    ja: Taira Takahashi
+    ja_match: romaji
+  - name: Shinnosuke Motegi
+    ja: Shinnosuke Motegi
+    ja_match: romaji
+  - name: Kosuke Sakami
+    ja: Kosuke Sakami
+    ja_match: romaji
+  - name: Shintaro Takemura
+    ja: Shintaro Takemura
+    ja_match: romaji
+  - name: Naoki Murakami
+  - name: Kenichi Matsui
+  ja_role: AI Systems
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Server Engineers
+  - Engineering Manager
+  names:
+  - name: Yasunori Yanai
+    ja: Yasunori Yanai
+    ja_match: romaji
+  ja_role: Server Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Server Engineers
+  - Lead Engineer
+  names:
+  - name: Keisuke Shibata
+    ja: Keisuke Shibata
+    ja_match: romaji
+  ja_role: Server Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Server Engineers
+  - Engineers
+  names:
+  - name: Yoichiro Kataoka
+    ja: Yoichiro Kataoka
+    ja_match: romaji
+  - name: Mai Omoto
+    ja: Mai Omoto
+    ja_match: romaji
+  - name: Song Yin
+    ja: Song Yin
+    ja_match: romaji
+  - name: Tatsuya Abe
+    ja: Tatsuya Abe
+    ja_match: romaji
+  - name: Kazuma Fujimaki
+    ja: Kazuma Fujimaki
+    ja_match: romaji
+  - name: Yusuke Yoshida
+    ja: Yusuke Yoshida
+    ja_match: romaji
+  - name: Hiroki Awata
+    ja: Hiroki Awata
+    ja_match: romaji
+  - name: Shogo Sakata
+    ja: Shogo Sakata
+    ja_match: romaji
+  - name: Terunori Togo
+    ja: Terunori Togo
+    ja_match: romaji
+  - name: Ryota Chihara
+    ja: Ryota Chihara
+    ja_match: romaji
+  - name: Yuta Ono
+    ja: Yuta Ono
+    ja_match: romaji
+  - name: Daiki Ito
+  - name: Satoshi Sato
+  ja_role: Server Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Server Acceleration Engineers
+  - Engineering Manager
+  names:
+  - name: Tomohiro Katsukura
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Server Acceleration Engineers
+  - Engineers
+  names:
+  - name: Tatsuya Abe
+  - name: Terunori Togo
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Battle Server Engineers
+  - Engineering Manager
+  names:
+  - name: Shintaro Seki
+    ja: Shintaro Seki
+    ja_match: romaji
+  ja_role: Battle Server Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Battle Server Engineers
+  - Engineers
+  names:
+  - name: Shintaro Seki
+    ja: Shintaro Seki
+    ja_match: romaji
+  - name: Yusuke Yoshida
+    ja: Yusuke Yoshida
+    ja_match: romaji
+  - name: Hiroki Awata
+    ja: Hiroki Awata
+    ja_match: romaji
+  - name: Shogo Sakata
+    ja: Shogo Sakata
+    ja_match: romaji
+  - name: Tetsu Kinomura
+    ja: Tetsu Kinomura
+    ja_match: romaji
+  ja_role: Battle Server Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Platform Service
+  - Front End Engineers
+  names:
+  - name: Akihiro Tokoro
+    ja: Akihiro Tokoro
+    ja_match: romaji
+  - name: Masami Matsuda
+  - name: Satoshi Sato
+  ja_role: Platform Service
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Platform Developers
+  - Technical Leads
+  names:
+  - name: Takuma Komatsu
+    ja: Takuma Komatsu
+    ja_match: romaji
+  - name: Haruto Otake
+    ja: Haruto Otake
+    ja_match: romaji
+  ja_role: Game Platform Developers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Platform Developers
+  - Engineers
+  names:
+  - name: Hiroki Sakai
+    ja: Hiroki Sakai
+    ja_match: romaji
+  - name: Xu Zhao
+    ja: Xu Zhao
+    ja_match: romaji
+  - name: Suguru Yamashita
+    ja: Suguru Yamashita
+    ja_match: romaji
+  - name: Shinnosuke Motegi
+  - name: Hayato Sato
+    ja: Hayato Sato
+    ja_match: romaji
+  - name: Yutao Long
+  - name: Takeru Wada
+  - name: Yakumo Otagaki
+  - name: Mitsuhiko Ota
+    ja: Mitsuhiko Ota
+    ja_match: romaji
+  - name: Masashi Fujimoto
+    ja: Masashi Fujimoto
+    ja_match: romaji
+  - name: Junichi Kikuchi
+    ja: Junichi Kikuchi
+    ja_match: romaji
+  - name: Ayumi Otomo
+    ja: Ayumi Otomo
+    ja_match: romaji
+  - name: Akiko Kawai
+    ja: Akiko Kawai
+    ja_match: romaji
+  ja_role: Game Platform Developers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Graphics Platform Developers
+  - Engineers
+  names:
+  - name: Ryuya Matsuda
+    ja: Ryuya Matsuda
+    ja_match: romaji
+  - name: Masafumi Yamamoto
+    ja: Masafumi Yamamoto
+    ja_match: romaji
+  - name: Yo Furukawa
+    ja: Yo Furukawa
+    ja_match: romaji
+  - name: Masaki Iwasaki
+  - name: Takahiro Katagiri
+    ja: Takahiro Katagiri
+    ja_match: romaji
+  - name: Takahiro Kosaka
+    ja: Takahiro Kosaka
+    ja_match: romaji
+  - name: Akira Matsuo
+    ja: Akira Matsuo
+    ja_match: romaji
+  - name: Junko Muroyama
+    ja: Junko Muroyama
+    ja_match: romaji
+  - name: Haruyuki Imai
+    ja: Haruyuki Imai
+    ja_match: romaji
+  ja_role: Graphics Platform Developers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Master Data Developers
+  - Engineering Manager
+  names:
+  - name: Yuji Narita
+    ja: Yuji Narita
+    ja_match: romaji
+  ja_role: Master Data Developers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Master Data Developers
+  - Engineers
+  names:
+  - name: Ryo Takamatsu
+    ja: Ryo Takamatsu
+    ja_match: romaji
+  - name: Noriyoshi Samata
+    ja: Noriyoshi Samata
+    ja_match: romaji
+  - name: Timothy du Heaume
+    ja: Timothy du Heaume
+    ja_match: romaji
+  - name: Sicheng Jiang
+    ja_match: positional
+    ja: Engineering Manager
+  ja_role: Master Data Developers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Site Reliability Engineers
+  - Engineering Manager
+  names:
+  - name: Takazumi Shirayanagi
+    ja: Takazumi Shirayanagi
+    ja_match: romaji
+  ja_role: Site Reliability Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Site Reliability Engineers
+  - Engineers
+  names:
+  - name: Kazuhiro Masuda
+    ja_match: positional
+    ja: Engineer
+  - name: Ro Kinjo
+    ja_match: positional
+    ja: Engineering Manager
+  ja_role: Site Reliability Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Infrastructure Engineers
+  - Engineering Manager
+  names:
+  - name: Tomoki Amano
+    ja: Tomoki Amano
+    ja_match: romaji
+  ja_role: Infrastructure Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Infrastructure Engineers
+  - Lead Engineer
+  names:
+  - name: Noriaki Hangyo
+    ja: Noriaki Hangyo
+    ja_match: romaji
+  ja_role: Infrastructure Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Infrastructure Engineers
+  - Engineers
+  names:
+  - name: Jun Matsuura
+    ja: Jun Matsuura
+    ja_match: romaji
+  - name: Tomoyuki Okino
+  - name: Youngjoon Lee
+    ja: Youngjoon Lee
+    ja_match: romaji
+  - name: Tomonori Hirata
+    ja: Tomonori Hirata
+    ja_match: romaji
+  - name: Hayato Hagari
+    ja: Hayato Hagari
+    ja_match: romaji
+  - name: Hiroki Inoue
+  - name: Hayato Fujita
+    ja: Hayato Fujita
+    ja_match: romaji
+  - name: Kosei Izawa
+    ja: Kosei Izawa
+    ja_match: romaji
+  - name: Hiroyuki Nishizaki
+    ja: Hiroyuki Nishizaki
+    ja_match: romaji
+  - name: Lyu Yuan
+    ja: Lyu Yuan
+    ja_match: romaji
+  - name: Tatsuki Mutsuro
+    ja: Tatsuki Mutsuro
+    ja_match: romaji
+  - name: Masaki Hasegawa
+  ja_role: Infrastructure Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Security Engineers
+  names:
+  - name: Takahiko Funakubo
+    ja: Takahiko Funakubo
+    ja_match: romaji
+  - name: Shingo Mori
+    ja: Shingo Mori
+    ja_match: romaji
+  - name: Akira Kuroiwa
+    ja: Akira Kuroiwa
+    ja_match: romaji
+  - name: Ryo Ishizuka
+    ja: Ryo Ishizuka
+    ja_match: romaji
+  - name: Toshiharu Sugiyama
+    ja_match: positional
+    ja: Art Managers
+  ja_role: Security Engineers
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Art Managers
+  names:
+  - name: Toshiyuki Takeyasu
+    ja: Toshiyuki Takeyasu
+    ja_match: romaji
+  - name: Yota Sugiyama
+    ja: Yota Sugiyama
+    ja_match: romaji
+  - name: Wataru Sakomura
+    ja: Wataru Sakomura
+    ja_match: romaji
+  - name: Risa Goto
+    ja: Risa Goto
+    ja_match: romaji
+  - name: Mizuki Uekusa
+    ja: Mizuki Uekusa
+    ja_match: romaji
+  - name: Atsuko Sakamoto
+    ja: Atsuko Sakamoto
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Visuals Support
+  names:
+  - name: Akio Oyama
+    ja: Akio Oyama
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Creative Project Managers
+  names:
+  - name: Nozomi Tsutsumi
+    ja: Nozomi Tsutsumi
+    ja_match: romaji
+  - name: Mizuki Uekusa
+  - name: Shigeki Yoshida
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead UI Artist
+  names:
+  - name: Haruka Sato
+    ja: Haruka Sato
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - UI Artists
+  names:
+  - name: Daisuke Toya
+    ja: Daisuke Toya
+    ja_match: romaji
+  - name: Atsuko Sakamoto
+  - name: Yu Sugiyama
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - 2D Asset Production
+  names:
+  - name: Wakana Kudo
+  - name: Tomomi Arizono
+    ja: Tomomi Arizono
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead UI Developer
+  names:
+  - name: Tsuyoshi Watanabe
+    ja: Tsuyoshi Watanabe
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - UI Developers
+  names:
+  - name: Yota Sugiyama
+    ja: Yota Sugiyama
+    ja_match: romaji
+  - name: Kiyoko Tsuchikura
+    ja: Kiyoko Tsuchikura
+    ja_match: romaji
+  - name: Tomomi Arizono
+  - name: Ikumi Kaneda
+    ja: Ikumi Kaneda
+    ja_match: romaji
+  - name: Daisuke Toya
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead 3D Card Developer
+  names:
+  - name: Risa Goto
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - 3D Card Developers
+  names:
+  - name: Seira Morimitsu
+    ja: Seira Morimitsu
+    ja_match: romaji
+  - name: Moeka Uo
+    ja: Moeka Uo
+    ja_match: romaji
+  - name: Masako Aoyagi
+    ja: Masako Aoyagi
+    ja_match: romaji
+  - name: Taro Yamamoto
+    ja_match: positional
+    ja: Card UI Developer
+  - name: Ryunosuke Tsuboi
+    ja_match: positional
+    ja: Animation Artist
+  - name: Chiyomi Oikawa
+    ja: Chiyomi Oikawa
+    ja_match: romaji
+  - name: Ikumi Kaneda
+  - name: Mayu Sato
+    ja: Mayu Sato
+    ja_match: romaji
+  - name: Natsumi Tsuji
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Card UI Developers
+  names:
+  - name: Yota Sugiyama
+    ja: Yota Sugiyama
+    ja_match: romaji
+  - name: Tomomi Arizono
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead 3D Animation Artist
+  names:
+  - name: Chiyomi Oikawa
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - 3D Animation Artist
+  names:
+  - name: Seira Yorimitsu
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead VFX Artist
+  names:
+  - name: Ikumi Kaneda
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - VFX Artist
+  names:
+  - name: Mayu Sato
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Lead 2D Artist
+  names:
+  - name: Mayu Sato
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - 2D Artist
+  names:
+  - name: Maki Harada
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Art and Design
+  - Technical Artists
+  names:
+  - name: Takaya Hirota
+    ja: Takaya Hirota
+    ja_match: romaji
+  - name: Yuma Handa
+    ja_match: positional
+    ja: Game Design Managers
+  ja_role: Art and Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Game Design Managers
+  names:
+  - name: Goki Miura
+    ja: Goki Miura
+    ja_match: romaji
+  - name: Katsuyuki Shiga
+    ja: Katsuyuki Shiga
+    ja_match: romaji
+  - name: Komei Kadonaga
+    ja: Komei Kadonaga
+    ja_match: romaji
+  - name: Noriko Kato
+    ja: Noriko Kato
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Lead Battle Game Designer
+  names:
+  - name: Ryosuke Horita
+    ja: Ryosuke Horita
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Battle Game Designers
+  names:
+  - name: Seiji Shimoda
+    ja: Seiji Shimoda
+    ja_match: romaji
+  - name: Atsushi Matsuno
+    ja: Atsushi Matsuno
+    ja_match: romaji
+  - name: Yuki Kawanishi
+    ja: Yuki Kawanishi
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Lead Outgame Designers
+  names:
+  - name: Akihito Mimoto
+    ja: Akihito Mimoto
+    ja_match: romaji
+  - name: Komei Kadonaga
+    ja: Komei Kadonaga
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Outgame Designers
+  names:
+  - name: Satoru Nakano
+    ja: Satoru Nakano
+    ja_match: romaji
+  - name: Wataru Hasegawa
+    ja: Wataru Hasegawa
+    ja_match: romaji
+  - name: Hiroki Ami
+    ja: Hiroki Ami
+    ja_match: romaji
+  - name: Minami Yamaguchi
+    ja: Minami Yamaguchi
+    ja_match: romaji
+  - name: Akira Yamamura
+  - name: Tomomi Hamamura
+    ja: Tomomi Hamamura
+    ja_match: romaji
+  - name: Kazuhito Kondo
+  - name: Shugo Kageyama
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Lead Event Game Designer
+  names:
+  - name: Noriko Kato
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Event Game Designers
+  names:
+  - name: Goki Miura
+    ja: Goki Miura
+    ja_match: romaji
+  - name: Shogo Minamoto
+    ja: Shogo Minamoto
+    ja_match: romaji
+  - name: Tomomi Hamamura
+  - name: Asami Morishita
+    ja: Asami Morishita
+    ja_match: romaji
+  - name: Kazuhito Kondo
+  - name: Sibei He
+  - name: Toru Shinohara
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Game Designers
+  names:
+  - name: Kazuki Nakatani
+    ja: Kazuki Nakatani
+    ja_match: romaji
+  - name: Kaori Nomura
+    ja: Kaori Nomura
+    ja_match: romaji
+  - name: Yoshiki Kumagai
+    ja_match: positional
+    ja: Level Designer
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Game Design
+  - Level Designer
+  names:
+  - name: Minami Yamaguchi
+    ja_match: positional
+    ja: Localization Project Managers
+  ja_role: Localization
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Localization
+  - Localization Project Managers
+  names:
+  - name: Goki Miura
+    ja: Goki Miura
+    ja_match: romaji
+  - name: Rachel Funatsu
+    ja: Rachel Funatsu
+    ja_match: romaji
+  - name: Hiroshi Horai
+  - name: Nobushige Ide
+  ja_role: Localization
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Localization
+  - Engineers
+  names:
+  - name: Yo Furukawa
+    ja: Yo Furukawa
+    ja_match: romaji
+  - name: Genta Mizumoto
+  - name: Kazuteru Nagasawa
+  - name: Takuma Seimiya
+  ja_role: Localization
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Localization
+  - Localization Architects
+  names:
+  - name: Kazuki Nakatani
+    ja: Kazuki Nakatani
+    ja_match: romaji
+  - name: Kaori Nomura
+    ja: Kaori Nomura
+    ja_match: romaji
+  - name: Yoshiki Kumagai
+    ja_match: positional
+    ja: Sound Director
+  ja_role: Localization
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Sound
+  - Sound Director
+  names:
+  - name: Harumi Yamaguchi
+    ja: Harumi Yamaguchi
+    ja_match: romaji
+  ja_role: Sound
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Outsource Management
+  - Outsourcing Coordinators
+  names:
+  - name: Yasuto Osari
+    ja: Yasuto Osari
+    ja_match: romaji
+  - name: Motoki Ikeda
+    ja: Motoki Ikeda
+    ja_match: romaji
+  ja_role: Outsource Management
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Development Support
+  - Software Engineers in Test
+  names:
+  - name: Yuki Kokubun
+    ja: Yuki Kokubun
+    ja_match: romaji
+  - name: Kazuma Inagaki
+    ja: Kazuma Inagaki
+    ja_match: romaji
+  - name: Keigo Imai
+    ja: Keigo Imai
+    ja_match: romaji
+  - name: Satoshi Iijima
+    ja: Satoshi Iijima
+    ja_match: romaji
+  - name: Junya Shijubo
+    ja: Junya Shijubo
+    ja_match: romaji
+  - name: Tomomi Hatano
+    ja_match: positional
+    ja: Legal Project Managers
+  ja_role: Development Support
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Legal
+  - Legal Project Managers
+  names:
+  - name: Toshiaki Hosono
+    ja: Toshiaki Hosono
+    ja_match: romaji
+  - name: Xiaosen Lu
+    ja: Xiaosen Lu
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Legal
+  - Intellectual Property Manager
+  names:
+  - name: Hiroyuki Umeki
+    ja: Hiroyuki Umeki
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Legal
+  - Legal Staff
+  names:
+  - name: Koji Hiraoka
+    ja: Koji Hiraoka
+    ja_match: romaji
+  - name: Masashi Okumura
+    ja: Masashi Okumura
+    ja_match: romaji
+  - name: David Masuda
+    ja: David Masuda
+    ja_match: romaji
+  - name: Haruka Okui
+    ja: Haruka Okui
+    ja_match: romaji
+  - name: Mizue Kofunato
+    ja: Mizue Kofunato
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Legal
+  - Intellectual Property Staff
+  names:
+  - name: Yoshihiro Takazawa
+    ja: Yoshihiro Takazawa
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Legal
+  - Security Staff
+  names:
+  - name: Takayuki Okamura
+    ja: Takayuki Okamura
+    ja_match: romaji
+  - name: Noriko Yamada
+    ja: Noriko Yamada
+    ja_match: romaji
+  - name: Kana Miyoshi
+    ja: Kana Miyoshi
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Analysts
+  - Analytics Director
+  names:
+  - name: Yuki Nakagawa
+    ja: Yuki Nakagawa
+    ja_match: romaji
+  ja_role: Analysts
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Analysts
+  - Lead Analyst
+  names:
+  - name: Tomoya Matsuzaki
+    ja_match: positional
+    ja: Analyst
+  ja_role: Analysts
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Analysts
+  - Analysts
+  names:
+  - name: Ryo Sasaki
+    ja_match: positional
+    ja: Analysts
+  - name: Yuki Banno
+    ja: Yuki Banno
+    ja_match: romaji
+  - name: Rie Onishi
+    ja: Rie Onishi
+    ja_match: romaji
+  ja_role: Analysts
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Analysts
+  - Data Engineers
+  names:
+  - name: Yoshikazu Kamoshida
+    ja_match: positional
+    ja: Data Engineers
+  - name: Shiki Hamada
+    ja: Shiki Hamada
+    ja_match: romaji
+  - name: Bruno Watanabe
+    ja: Bruno Watanabe
+    ja_match: romaji
+  - name: Taku Takenaga
+    ja: Taku Takenaga
+    ja_match: romaji
+  - name: Tetsu Kasanishi
+    ja: Tetsu Kasanishi
+    ja_match: romaji
+  - name: Tadashi Nishio
+  - name: Ryuji Tamaki
+  - name: Yusuke Nakashima
+  - name: Sota Oizumi
+  - name: Eigo Hara
+  ja_role: Analysts
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Analysts
+  - User Experience Researchers
+  names:
+  - name: Masayuki Takai
+    ja: Masayuki Takai
+    ja_match: romaji
+  - name: Saori Iino
+    ja: Saori Iino
+    ja_match: romaji
+  - name: Yuya Oshima
+    ja_match: positional
+    ja: Marketing Communications
+  ja_role: Analysts
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Marketing
+  - Marketing Communications
+  names:
+  - name: Satoshi Tsuruda
+    ja: Satoshi Tsuruda
+    ja_match: romaji
+  - name: Teruyuki Magara
+    ja: Teruyuki Magara
+    ja_match: romaji
+  - name: Yuichi Fukada
+    ja: Yuichi Fukada
+    ja_match: romaji
+  - name: Sayuri Nakamura
+    ja: Sayuri Nakamura
+    ja_match: romaji
+  - name: Masafumi Suzuki
+    ja: Masafumi Suzuki
+    ja_match: romaji
+  - name: Teru Fujita
+  ja_role: Marketing
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Marketing
+  - Quality Assurance
+  names:
+  - name: Yosuke Takeuchi
+    ja: Yosuke Takeuchi
+    ja_match: romaji
+  - name: Kyota Suzuki
+    ja: Kyota Suzuki
+    ja_match: romaji
+  - name: Shota Sasagawa
+    ja: Shota Sasagawa
+    ja_match: romaji
+  - name: Ren Ioka
+  - name: Shono Kiyohara
+  - name: Mai Sorakubo
+  - name: Nozomi Tachi
+  - name: Natsuki Shimazaki
+  - name: Tomo Koike
+  - name: Takayuki Hishiyama
+  - name: Kenta Umeda
+  - name: Daichi Ito
+  - name: Takayuki Yamazaki
+  - name: Atsuhisa Ogawa
+  - name: Koki Owatari
+  ja_role: Quality Assurance
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Special Thanks
+  - Business Support
+  names:
+  - name: Anna Li
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Special Thanks
+  - Business Development
+  names:
+  - name: Keigo Watanabe
+    ja: Keigo Watanabe
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Special Thanks
+  - Coordination
+  names:
+  - name: Ken Kitamura
+    ja: Ken Kitamura
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2025)
+  - Developed by
+  - Executive Producer
+  names:
+  - name: Shingo Okamura
+    ja: Shingo Okamura
+    ja_match: romaji
+  ja_role: Executive Producer
+- path:
+  - Staff list (2025)
+  - CONNECT+ECHO co.,ltd.
+  - Composer/Sound Designer
+  names:
+  - name: dattxua
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  names:
+  - name: The Pokémon Company
+    kind: company
+    ja: The Pokémon Company
+    kanji: 株式会社ポケモン
+    ja_match: romaji
+  ja_role: STUDIO MAGIC INNOVATIONS Co.,Ltd. / whomor Inc. / RHINOCEROS INC. / Crico,inc. / Pokémon Produced by
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Producers
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Producers
+  - General Producer
+  names:
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Producers
+  - Producer
+  names:
+  - name: Keita Hirobe
+    ja: Keita Hirobe
+    kanji: 廣部圭太
+    ja_match: romaji
+  ja_role: Producers
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Coordination
+  - Lead Coordinator
+  names:
+  - name: Ryosuke Hanawa
+    ja: Ryosuke Hanawa
+    ja_match: romaji
+  ja_role: Coordination
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Coordination
+  - Marketing Coordinator
+  names:
+  - name: Sho Yoshimoto
+    ja: Sho Yoshimoto
+    ja_match: romaji
+  ja_role: Coordination
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Coordination
+  - Supervision Coordinator
+  names:
+  - name: Satomi Kanayama
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Coordination
+  - Coordinators
+  names:
+  - name: Chenmeng Zhao
+  - name: Lida Bi
+  - name: Li Er
+    ja: LI ER
+    ja_match: romaji
+  - name: Mayumi Aoyama
+    ja: Mayumi Aoyama
+    ja_match: romaji
+  - name: Mikihiro Yano
+  - name: Misa Hikita
+    ja: Misa Hikita
+    ja_match: romaji
+  - name: Mishima Takeshi
+  - name: Satoki Nakamura
+    ja: Satoki Nakamura
+    ja_match: romaji
+  - name: Shunsuke Takagi
+    ja: Shunsuke Takagi
+    ja_match: romaji
+  - name: Takuya Hashimoto
+    ja: Takuya Hashimoto
+    ja_match: romaji
+  - name: Yuji Ota
+    ja: Yuji Ota
+    ja_match: romaji
+  - name: Yuichi Arita
+  - name: Yuta Nakamura
+    ja: Yuta Nakamura
+    ja_match: romaji
+  - name: Yurie Nakamaru
+    ja: Yurie Nakamaru
+    ja_match: romaji
+  ja_role: Coordination
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Coordination
+  - Support Staff
+  names:
+  - name: Ayumi Tanaka
+  - name: Yasuhiro Sato
+  - name: Yugo Hashimoto
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Brand Operations
+  - Art Director
+  names:
+  - name: Etsuya Hattori
+    ja: Etsuya Hattori
+    ja_match: romaji
+  ja_role: Brand Operations
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Brand Operations
+  - Designer
+  names:
+  - name: Keiko Okawa
+    ja: Keiko Okawa
+    ja_match: romaji
+  - name: Li Jiaqi
+    ja: Li Jiaqi
+    ja_match: romaji
+  - name: Natsuki Shinohara
+    ja: Natsuki Shinohara
+    ja_match: romaji
+  ja_role: Brand Operations
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Chinese Localization
+  names:
+  - name: Jingyi Yu
+    ja: Jingyi Yu
+    ja_match: romaji
+  - name: Kei CHEN
+  - name: Shuyang Jia
+    ja: Shuyang Jia
+    ja_match: romaji
+  - name: Yoshiko AOTA
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  ja_role: Chinese Localization
+- path:
+  - Staff list (2025)
+  - Pokémon Produced by
+  - Chinese Translation & Editing
+  names:
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  - name: Yencheng Lin
+    ja: Yencheng Lin
+    ja_match: romaji
+  - name: Hanru Yang
+    ja: Hanru Yang
+    ja_match: romaji
+  ja_role: Chinese Translation & Editing
+- path:
+  - Staff list (2025)
+  - DIGITAL HEARTS Co., Ltd.
+  - Customer Service
+  names:
+  - name: Yui Kayashi
+  - name: Kazunori Sugiura
+    ja: Kazunori Sugiura
+    ja_match: romaji
+  - name: Masato Kitamura
+    ja: Masato Kitamura
+    ja_match: romaji
+  - name: Shu Amagiri
+    ja: Shu Amagiri
+    ja_match: romaji
+  - name: Yohei Yamamoto
+    ja: Yohei Yamamoto
+    ja_match: romaji
+  - name: Yosuke Senoo
+    ja: Yosuke Senoo
+    ja_match: romaji
+  - name: Yuta Yukimura
+  ja_role: Customer Service
+- path:
+  - Staff list (2025)
+  - DIGITAL HEARTS Co., Ltd.
+  - Development Support
+  names:
+  - name: Nobuyuki Ohta
+    ja: Nobuyuki Ohta
+    ja_match: romaji
+  - name: Tatsuya Ichijo
+    ja: Tatsuya Ichijo
+    ja_match: romaji
+  - name: Chitose Kawakami
+    ja: Chitose Kawakami
+    ja_match: romaji
+  - name: Ohchi Yuhma
+    ja: Ohchi Yuhma
+    ja_match: romaji
+  - name: Kayo Nakata
+    ja: Kayo Nakata
+    ja_match: romaji
+  ja_role: Development Support
+- path:
+  - Staff list (2025)
+  - DIGITAL HEARTS Co., Ltd.
+  - Legal
+  names:
+  - name: Yuta Hara
+    ja: Yuta Hara
+    ja_match: romaji
+  - name: Kotaro Ariyoshi
+  - name: Nao Tajima
+    ja: Nao Tajima
+    ja_match: romaji
+  - name: Shangteng Li
+  ja_role: Legal
+- path:
+  - Staff list (2025)
+  - DIGITAL HEARTS Co., Ltd.
+  - Marketing
+  names:
+  - name: Keiya Nakahara
+    ja: Keiya Nakahara
+    ja_match: romaji
+  - name: Nobue Ito
+    ja: Nobue Ito
+    ja_match: romaji
+  - name: Shungo Asano
+    ja: Shungo Asano
+    ja_match: romaji
+  - name: Nozomi Yasuda
+  ja_role: Marketing
+- path:
+  - Staff list (2025)
+  - DIGITAL HEARTS Co., Ltd.
+  - TCG Business Development
+  names:
+  - name: Masayuki Miura
+    ja: Masayuki Miura
+    ja_match: romaji
+  ja_role: TCG Business Development
+- path:
+  - Special Thanks
+  names:
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_match: romaji
+  - name: Shoichi Obora
+    ja: Shoichi Obora
+    ja_match: romaji
+  - name: Chie Shinno
+    ja: Chie Shinno
+    ja_match: romaji
+  - name: Kenji Masaki
+    ja: Kenji Masaki
+    ja_match: romaji
+  - name: Tomoe Naganuma
+    ja: Tomoe Naganuma
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2025)
+  - Localization
+  names:
+  - name: The Pokémon Company International
+    kind: company
+    ja: The Pokémon Company International
+    ja_match: romaji
+  ja_role: Graphic Co., Ltd. / THINGMEDIA Inc. / Too Corporation / Fontworks Inc. / Monotype Imaging Inc. / DIGITAL HEARTS Co., Ltd. / Localization
+- path:
+  - Staff list (2025)
+  - Localization
+  - English and Brazilian Portuguese Localization
+  names:
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Chie Stutzman
+    ja: Chie Stutzman
+    ja_match: romaji
+  - name: Mika Ishikawa
+    ja: Mika Ishikawa
+    ja_match: romaji
+  - name: Miho Lyon
+    ja: Miho Lyon
+    ja_match: romaji
+  - name: Reiko de Sorbier de Pougnadoresse
+    ja: Reiko de Sorbier de Pougnadoresse
+    ja_match: romaji
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Stu Alexander
+  - name: Anja Weinbach
+  - name: Hisato Yamamori
+    ja: Hisato Yamamori
+    ja_match: romaji
+  - name: Kellyn Ballard
+    ja: Kellyn Ballard
+    ja_match: romaji
+  - name: Esther Sánchez Giráldez
+    ja: Esther Sánchez Giráldez
+    ja_match: romaji
+  ja_role: English and Brazilian Portuguese Localization
+- path:
+  - Staff list (2025)
+  - Localization
+  - English Translation
+  names:
+  - name: Lars Henriksen
+    ja: Lars Henriksen
+    ja_match: romaji
+  - name: Alex Small
+    ja: Alex Small
+    ja_match: romaji
+  - name: Bryson Clark
+    ja: Bryson Clark
+    ja_match: romaji
+  - name: David Csiszar
+  - name: Satoko Deas
+    ja: Satoko Deas
+    ja_match: romaji
+  - name: Daniel Lizarraga
+  ja_role: English Translation
+- path:
+  - Staff list (2025)
+  - Localization
+  - English Editing
+  names:
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  - name: Stephen Meyerink
+    ja: Stephen Meyerink
+    ja_match: romaji
+  - name: Amy Morris
+    ja: Amy Morris
+    ja_match: romaji
+  - name: Lu Pellazar
+  ja_role: English Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Brazilian Portuguese Translation
+  names:
+  - name: Patricia Cardim
+  - name: Lucas Peterson
+    ja: Lucas Peterson
+    ja_match: romaji
+  - name: Eliane Prado
+  - name: Natalye Ogusuko
+  - name: Fabiana Otake
+  - name: Tarso Soares
+  ja_role: Brazilian Portuguese Translation and Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Brazilian Portuguese Editing
+  names:
+  - name: Rafael Pimpinato
+    ja: Rafael Pimpinato
+    ja_match: romaji
+  - name: Camila Duque
+    ja: Camila Duque
+    ja_match: romaji
+  - name: Thais Nucci
+    ja: Thais Nucci
+    ja_match: romaji
+  - name: Rachel Dutra
+  - name: Agatha Camargo
+  ja_role: Brazilian Portuguese Translation and Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - European Localisation
+  names:
+  - name: Kaori Aoki
+    ja: Kaori Aoki
+    ja_match: romaji
+  - name: Daniel Anscomb
+    ja: Daniel Anscomb
+    ja_match: romaji
+  - name: Rhys Giles
+    ja: Rhys Giles
+    ja_match: romaji
+  - name: Hirotaka Nishino
+    ja: Hirotaka Nishino
+    ja_match: romaji
+  - name: Chika Tanigaki
+    ja: Chika Tanigaki
+    ja_match: romaji
+  - name: Emily Hitchmough
+    ja: Emily Hitchmough
+    ja_match: romaji
+  - name: Owen Preece
+    ja: Owen Preece
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Kendra Evans
+    ja: Kendra Evans
+    ja_match: romaji
+  - name: Ritsuko Oshu
+    ja: Ritsuko Oshu
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Mark Bunting
+    ja: Mark Bunting
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  - name: Peter Bagley
+    ja: Peter Bagley
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Franck Couée
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Diego Figaredo
+    ja: Diego Figaredo
+    ja_match: romaji
+  ja_role: European Localization
+- path:
+  - Staff list (2025)
+  - Localization
+  - French Translation
+  names:
+  - name: Alexane Bailleul
+    ja: Alexane Bailleul
+    ja_match: romaji
+  - name: Lytta Khrissate
+    ja: Lytta Khrissate
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - Staff list (2025)
+  - Localization
+  - French Editing
+  names:
+  - name: Elodie Verpoort
+    ja: Elodie Verpoort
+    ja_match: romaji
+  - name: Matthieu Béthencourt
+    ja: Matthieu Béthencourt
+    ja_match: romaji
+  - name: Diana Ahmed
+    ja: Diana Ahmed
+    ja_match: romaji
+  - name: Jena Gattegno
+    ja: Jena Gattegno
+    ja_match: romaji
+  ja_role: French Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - German Translation
+  names:
+  - name: Caroline Fest
+    ja: Caroline Fest
+    ja_match: romaji
+  - name: Lina Emmerich
+    ja: Lina Emmerich
+    ja_match: romaji
+  - name: Sophie Jüterbock
+    ja: Sophie Jüterbock
+    ja_match: romaji
+  ja_role: German Translation
+- path:
+  - Staff list (2025)
+  - Localization
+  - German Editing
+  names:
+  - name: Jochen Künzel
+    ja: Jochen Künzel
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Sira Vaterhaus
+    ja: Sira Vaterhaus
+    ja_match: romaji
+  - name: Caroline Büsch
+    ja: Caroline Büsch
+    ja_match: romaji
+  - name: Paul Seidenstecher
+    ja: Paul Seidenstecher
+    ja_match: romaji
+  ja_role: German Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Italian Translation
+  names:
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Altan Couvert
+    ja: Altan Couvert
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  ja_role: Italian Translation
+- path:
+  - Staff list (2025)
+  - Localization
+  - Italian Editing
+  names:
+  - name: Sergio Bianchi
+    ja: Sergio Bianchi
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Valerio Amato
+    ja: Valerio Amato
+    ja_match: romaji
+  - name: Claudio Calzolari
+    ja: Claudio Calzolari
+    ja_match: romaji
+  ja_role: Italian Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Spanish Translation
+  names:
+  - name: Servando Doval Díaz
+    ja: Servando Doval Diaz
+    ja_match: romaji
+  - name: Jorge Diez Lasheras
+    ja: Jorge Diez Lasheras
+    ja_match: romaji
+  ja_role: Spanish Translation
+- path:
+  - Staff list (2025)
+  - Localization
+  - Spanish Editing
+  names:
+  - name: Rubén Lado Riomao
+    ja: Rubén Lado Riomao
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Eva Rodríguez Graña
+  - name: Diana Vázquez Saiz
+    ja: Diana Vázquez Saiz
+    ja_match: romaji
+  - name: Javier Ortiz Carrillo
+    ja: Javier Ortiz Carrillo
+    ja_match: romaji
+  - name: Mai Castro Arellano
+    ja: Mai Castro Arellano
+    ja_match: romaji
+  - name: Sebastián Erasmy Vergara
+    ja: Sebastián Erasmy Vergara
+    ja_match: romaji
+  - name: Débora Yésica Terceros Vargas
+  - name: Daniela Castillo
+    ja: Daniela Castillo
+    ja_match: romaji
+  ja_role: Spanish Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Localization Support
+  names:
+  - name: Eoin Sanders
+    ja: Eoin Sanders
+    ja_match: romaji
+  - name: Hollie Beg
+    ja: Hollie Beg
+    ja_match: romaji
+  - name: Katie Dunlop
+  - name: Alexia Campagne-Descré
+    ja: Alexia Campagne-Descré
+    ja_match: romaji
+  - name: Dorian Mouëzy
+    ja: Dorian Mouëzy
+    ja_match: romaji
+  - name: Myriam Bresko
+  - name: Isabelle Zanchetta
+  - name: Élodie Legay
+  - name: Oussama Bel Aïba
+  - name: Filippo Rizzi
+    ja: Filippo Rizzi
+    ja_match: romaji
+  - name: Marina Gagliardi
+    ja: Marina Gagliardi
+    ja_match: romaji
+  - name: Marica Gusella
+    ja: Marica Gusella
+    ja_match: romaji
+  - name: Elio Sottoscritti
+    ja: Elio Sottoscritti
+    ja_match: romaji
+  - name: Daniela Bertinetti
+  - name: Sherif Mahdy Farrag
+  - name: Monika Tracy
+    ja: Monika Tracy
+    ja_match: romaji
+  - name: Ralph Lunt
+  - name: Caroline Müller
+  - name: Michaela Lee
+  - name: Robert Chambers
+  - name: Hendrik Hercht
+  - name: Teresa Cueto Álvarez de Sotomayor
+    ja: Teresa Cueto Álvarez de Sotomayor
+    ja_match: romaji
+  - name: Jose Gallego
+    ja: Jose Gallego
+    ja_match: romaji
+  - name: Paz López Lorente-Sorolla
+    ja: Paz López Lorente-Sorolla
+    ja_match: romaji
+  - name: Jesús Miguel Díaz Muriel
+    ja: Jesús Miguel Díaz Muriel
+    ja_match: romaji
+  - name: Sonia de Acuna
+  - name: Alberto Kunz
+  - name: Marco Borrelli
+    ja: Marco Borrelli
+    ja_match: romaji
+  ja_role: Localization Support
+- path:
+  - Staff list (2025)
+  - Localization
+  - Localisation Quality Assurance
+  names:
+  - name: Maxim Mizin
+    note: Side International UK Ltd
+    ja: Maxim Mizin
+    ja_match: romaji
+  - name: Stéphane Ponceau
+    note: Side International UK Ltd.
+  - name: Sergejs Adamovs
+    note: Side International UK Ltd.
+    ja: Sergejs Adamovs
+    ja_match: romaji
+  - name: Pablo Vinal Rivera
+    note: Side International UK Ltd.
+  - name: Gil Hoyle
+    note: Side International UK Ltd.
+    ja: Gil Hoyle
+    ja_match: romaji
+  - name: João Gomes
+    note: Side International UK Ltd
+    ja: João Gomes
+    ja_match: romaji
+  - name: Ana Bettencourt Rocha
+    note: Side International UK Ltd.
+  - name: Bruno Pierantoni
+    note: Side International UK Ltd.
+  - name: Catarina Rodrigues
+    note: Side International UK Ltd.
+  - name: Duca Silveira
+    note: Side International UK Ltd.
+  - name: Anna Epifanova
+    note: Side International UK Ltd.
+  - name: Lara Turna
+    note: Side International UK L tcf
+    ja: Lara Turna
+    ja_match: romaji
+  - name: Mariana Oliveira
+    note: Side International UK Ltd.
+  - name: Sarah Rabelo
+    note: Side International UK Ltd.
+  - name: Alexandre Caudin
+    note: Side International UK Ltd.
+  - name: Emeline Daliguet
+    note: Side International UK Ltd.
+  - name: Enzo Benedetti
+    note: Side International UK Ltd.
+    ja: Enzo Benedetti
+    ja_match: romaji
+  - name: Stella Bellanca
+    note: Side International UK Ltd.
+  - name: Fátima Iglesias Ares
+    note: Side International UK Ltd
+  - name: Francesco Fiorini
+    note: Side International UK Ltd.
+  - name: Ilaria Boccella
+    note: Side International UK Ltd.
+    ja: Ilaria Boccella
+    ja_match: romaji
+  - name: Lara Turna
+    note: Side International UK Ltd.
+  - name: Muhammad Ansir Arshad
+    note: Side International UK Ltd.
+  - name: Angela Salazar
+    note: Side International UK Ltd.
+  - name: Celia Reyes Lamoneda
+    note: Side International UK Ltd
+    ja: Celia Reyes Lamoneda
+    ja_match: romaji
+  - name: Fátima Iglesias Ares
+    note: Side International UK Ltd.
+  - name: Inês Vaz
+    note: Side International UK Ltd.
+  - name: Filipe de Almeida Oscar
+    note: Side International UK Ltd.
+    ja: Filipe de Almeida Oscar
+    ja_match: romaji
+  - name: Flávia Souza
+    note: Side International UK Ltd.
+  - name: Mariana Oliveira
+    note: Side International UK Ltd
+  - name: Pedro Ribeiro
+    note: Side International UK Ltd.
+  - name: Sarah Rabelo
+    note: Side International UK Ltd.
+  ja_role: Localisation Quality Assurance
+- path:
+  - Staff list (2025)
+  - Localization
+  - Customer Support
+  names:
+  - name: Yuka Sanada
+  - name: Israel Pechstein
+  - name: Eddie Gutierrez
+- path:
+  - Staff list (2025)
+  - Localization
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  - name: Taito Okiura
+    ja: Taito Okiura
+    ja_match: romaji
+  - name: Amy Ganster
+    ja: Amy Ganster
+    ja_match: romaji
+  - name: Andy Gose
+    ja: Andy Gose
+    ja_match: romaji
+  - name: Andy Hartpence
+    ja: Andy Hartpence
+    ja_match: romaji
+  - name: Barry Sams
+    ja: Barry Sams
+    ja_match: romaji
+  - name: Charlie Spinner
+    ja: Charlie Spinner
+    ja_match: romaji
+  - name: Courtney Kim
+    ja: Courtney Kim
+    ja_match: romaji
+  - name: Daniel Benkwitt
+    ja: Daniel Benkwitt
+    ja_match: romaji
+  - name: David Cheung
+    ja: David Cheung
+    ja_match: romaji
+  - name: David Numrich
+    ja: David Numrich
+    ja_match: romaji
+  - name: Heather Dalgleish
+  - name: Kaoru Otawara
+    ja: Kaoru Otawara
+    ja_match: romaji
+  - name: Peter Murphy
+    ja: Peter Murphy
+    ja_match: romaji
+  - name: Phaedra Long
+    ja: Phaedra Long
+    ja_match: romaji
+  - name: Richie Enticknap
+    ja: Richie Enticknap
+    ja_match: romaji
+  - name: Stewart Pagan
+    ja: Stewart Pagan
+    ja_match: romaji
+  - name: Winston Lung
+    ja: Winston Lung
+    ja_match: romaji
+  - name: Yasuhiro Usui
+    ja: Yasuhiro Usui
+    ja_match: romaji
+  - name: Alison Chyan
+    ja: Alison Chyan
+    ja_match: romaji
+  - name: Steve Lee
+    ja: Steve Lee
+    ja_match: romaji
+  - name: Reina Nagai
+    ja: Reina Nagai
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2025)
+  - Localization
+  names:
+  - name: Pokémon Korea, Inc.
+    kind: company
+    ja: Pokémon Korea, Inc.
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Staff list (2025)
+  - Localization
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Dongun Pak
+    ja: Dongun Pak
+    ja_match: romaji
+  - name: Jooyeon Han
+    ja: Jooyeon Han
+    ja_match: romaji
+  - name: Byunghun Bae
+    ja: Byunghun Bae
+    ja_match: romaji
+  - name: Yoojin Kwon
+    ja: Yoojin Kwon
+    ja_match: romaji
+  ja_role: Korean Translation & Editing
+- path:
+  - Staff list (2025)
+  - Localization
+  - Special Thanks
+  names:
+  - name: Jaiboem Lim
+    ja: Jaiboem Lim
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Jihye Lee
+    ja_match: romaji
+  - name: Janghee Woo
+  ja_role: Special Thanks
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  names:
+  - name: Creatures Inc.
+    link: Creatures, Inc.
+    kind: company
+    ja: Creatures Inc.
+    ja_match: romaji
+  ja_role: Pokémon Card D Studio Co., Ltd / CONNECT+ECHO co.,ltd. / Composer/Sound Designer / dattxua / Cloud Ace Co., Ltd. / Claytechworks Co. Ltd. / Pole To Win, Inc. / GIANTY Inc. / Pokémon Trading Card
+    Game Development / Apps Planning
+- path:
+  - Producer
+  names:
+  - name: Yuji Kitano
+    ja: Yuji Kitano
+    kanji: 北野祐司
+    ja_match: romaji
+  ja_role: Producer
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Project Manager
+  names:
+  - name: Kota Okamoto
+    ja: Kota Okamoto
+    kanji: 岡本康太
+    ja_match: romaji
+  ja_role: Senior Project Managers
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Creative Directors
+  names:
+  - name: Atsushi Nagashima
+    ja: Atsushi Nagashima
+    kanji: 長島敦
+    ja_match: romaji
+  - name: Hirofumi Matsuoka
+    ja: Hirofumi Matsuoka
+    kanji: 松岡洋史
+    ja_match: romaji
+  ja_role: Senior Creative Directors
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Creative Director
+  names:
+  - name: Ryo Tsujikawa
+    ja: Ryo Tsujikawa
+    ja_match: romaji
+  ja_role: Creative Director
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Art Director
+  names:
+  - name: Satoru Nagaya
+    ja: Satoru Nagaya
+    ja_match: romaji
+  ja_role: Senior Art Directors
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Illustration Director
+  names:
+  - name: Haru Saito
+    ja: Haru Saito
+    ja_match: romaji
+  ja_role: Illustration Director
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Planning Director
+  names:
+  - name: Yukinori Torii
+    ja: Yukinori Torii
+    ja_match: romaji
+  ja_role: Planning Directors
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Sound Direction
+  names:
+  - name: Ayumu Ito
+    ja: Ayumu Ito
+    ja_match: romaji
+  ja_role: Sound Direction
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Product Directors
+  names:
+  - name: Anna Umeda
+  - name: Kana Nagamitsu
+  - name: Shusei Natsumoto
+  - name: Seiya Nomoto
+    ja: Seiya Nomoto
+    ja_match: romaji
+  - name: Yukiko Hori
+    ja_match: positional
+    ja: Game Design Managers
+  ja_role: Senior Project Managers
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Operations Planning
+  - Operations Planning Manager
+  names:
+  - name: Masaya Muramatsu
+    ja_match: positional
+    ja: Game Design
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Operations Planning
+  - Operations Planner
+  names:
+  - name: Yuki Yamada
+    ja: Yuki Yamada
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Game Design
+  - Game Design Manager
+  names:
+  - name: Hiroshi Takano
+    ja: Hiroshi Takano
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Game Design
+  - Game Design Asst. Managers
+  names:
+  - name: Shunsuke Sasaki
+    ja: Shunsuke Sasaki
+    ja_match: romaji
+  - name: Yuta Fujishima
+    ja: Yuta Fujishima
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Game Design
+  - Game Design
+  names:
+  - name: Takahiro Kobori
+    ja: Takahiro Kobori
+    ja_match: romaji
+  - name: Shinya Takahashi
+    ja: Shinya Takahashi
+    ja_match: romaji
+  - name: Kei Maeno
+  - name: Akio Yamada
+    ja: Akio Yamada
+    ja_match: romaji
+  - name: Yurino Yamanaka
+    ja_match: positional
+    ja: Art Design Managers
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Art Design
+  - Art Design Manager
+  names:
+  - name: Hitoshi Okahashi
+    ja: Hitoshi Okahashi
+    ja_match: romaji
+  ja_role: Art Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Art Design
+  - Art Design
+  names:
+  - name: Hidefumi Ide
+    ja: Hidefumi Ide
+    ja_match: romaji
+  - name: Masaaki Sumiya
+    ja: Masaaki Sumiya
+    ja_match: romaji
+  - name: Ikumi Hayasaka
+    ja_match: positional
+    ja: Illustration Managers
+  - name: Hinano Mashiko
+    ja_match: positional
+    ja: Illustration Direction
+  ja_role: Art Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Direction
+  - Illustration Direction Manager
+  names:
+  - name: Naoki Kuroshima
+    ja: Naoki Kuroshima
+    ja_match: romaji
+  ja_role: Illustration Direction
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Direction
+  - Illustration Direction Asst. Managers
+  names:
+  - name: Teppei Obuchi
+  - name: Yu Shibata
+  - name: Ayaka Hagiwara
+    ja: Ayaka Hagiwara
+    ja_match: romaji
+  ja_role: Illustration Direction
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Direction
+  - Illustration Direction
+  names:
+  - name: Gaku Asakura
+    ja: Gaku Asakura
+    ja_match: romaji
+  - name: Yuki Amano
+    ja: Yuki Amano
+    ja_match: romaji
+  - name: Megumi Ishioka
+  - name: Hikari Ishikawa
+    ja: Hikari Ishikawa
+    ja_match: romaji
+  - name: Hiroaki Ito
+    ja: Hiroaki Ito
+    ja_match: romaji
+  - name: Mariko Umeda
+    ja: Mariko Umeda
+    ja_match: romaji
+  - name: Takuya Endo
+    ja: Takuya Endo
+    ja_match: romaji
+  - name: Rei Kitahara
+    ja: Rei Kitahara
+    ja_match: romaji
+  - name: Reina Koshino
+    ja: Reina Koshino
+    ja_match: romaji
+  - name: Hiroyasu Nishino
+    ja: Hiroyasu Nishino
+    ja_match: romaji
+  - name: Takuto Yamaoka
+    ja: Takuto Yamaoka
+    ja_match: romaji
+  - name: Kyoko Yoshida
+    ja: Kyoko Yoshida
+    ja_match: romaji
+  ja_role: Illustration Direction
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Quality Control
+  - Quality Control Manager
+  names:
+  - name: Hyuma Mihara
+    ja: Hyuma Mihara
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Quality Control
+  - Quality Control
+  names:
+  - name: Masatsugu Fujikura
+    ja: Masatsugu Fujikura
+    ja_match: romaji
+  - name: Koji Yoshida
+    ja: Koji Yoshida
+    ja_match: romaji
+  ja_role: Quality Control
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Playtesting
+  names:
+  - name: Rintaro Kodaira
+  - name: Yuta Hakozaki
+  - name: Jun Hayashi
+  - name: Kosuke Hiwatashi
+    ja: Kosuke Hiwatashi
+    ja_match: romaji
+  - name: Nao Yamamoto
+  ja_role: Playtesters
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Music
+  names:
+  - name: Takuto Kitsuta
+    ja: Takuto Kitsuta
+    kanji: 橘田拓人
+    ja_match: romaji
+  - name: Haruna Moriya
+  ja_role: Music
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Development Facilitation
+  - Development Facilitation Asst. Managers
+  names:
+  - name: Yuki Otsuka
+    ja: Yuki Otsuka
+    ja_match: romaji
+  - name: Yasuhiro Hayashi
+  ja_role: Project Managers
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Development Facilitation
+  - Development Facilitators
+  names:
+  - name: Yoshiyuki Oku
+  - name: Yukihiro Tamaru
+  - name: Shinya Narita
+    ja: Shinya Narita
+    ja_match: romaji
+  - name: Nonoka Yamada
+  - name: Mariko Watanabe
+  ja_role: Project Managers
+- path:
+  - Staff list (2025)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Pokémon Card Production Partners
+  names:
+  - name: Hideyo Isayama
+  - name: Miki Obata
+    ja: Miki Obata
+    ja_match: romaji
+  - name: Takashi Koga
+    ja: Takashi Koga
+    ja_match: romaji
+  - name: Keisuke Saito
+  - name: Tomohiro Sonoda
+    ja: Tomohiro Sonoda
+    ja_match: romaji
+  - name: Yasunori Yanagisawa
+    ja: Yasunori Yanagisawa
+    ja_match: romaji
+  ja_role: Pokémon Trading Card Game Development Support
+- path:
+  - Special Thanks
+  names:
+  - name: Hirokazu Tanaka
+    ja: Hirokazu Tanaka
+    kanji: 田中宏和
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: Tomotaka Komura
+    kanji: 小村知孝
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2024)
+  - Developed by
+  names:
+  - name: DeNA Co., Ltd.
+    link: DeNA
+    kind: company
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Producers
+  - Producer
+  names:
+  - name: Tetsuya Iguchi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Producers
+  - Assistant Producer
+  names:
+  - name: Yusuke Nogami
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Directors
+  - General Director
+  names:
+  - name: Ai Takeuchi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Directors
+  - Development Directors
+  names:
+  - name: Seitaro Mizuno
+    ja: Seitaro Mizuno
+    ja_match: romaji
+  - name: Hotaka Suzuki
+    ja: Hotaka Suzuki
+    ja_match: romaji
+  ja_role: Directors
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Directors
+  - Operations Director
+  names:
+  - name: Yuki Mantani
+    ja: Yuki Mantani
+    ja_match: romaji
+  - name: Katsuyuki Shiga
+  ja_role: Game Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Project Managers
+  names:
+  - name: Sakiko Kano
+  - name: Rie Ito
+  - name: Masaaki Inoguchi
+  - name: Masato Tsukagoshi
+  - name: Dennis Sachio Imabeppu
+    ja: Dennis Sachio Imabeppu
+    ja_match: romaji
+  - name: Yoshito Kuwahara
+  - name: Ami Kwak
+  ja_role: AI Systems
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Engineering Managers
+  names:
+  - name: Ryo Watanabe
+  - name: Yu Shiraiwa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Lead Engineer
+  names:
+  - name: Shimpei Masaki
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Lead Battle Engineer
+  names:
+  - name: Hajime Nakajima
+    ja: Hajime Nakajima
+    ja_match: romaji
+  ja_role: Client Engineers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Battle Engineers
+  names:
+  - name: Hiroki Harada
+  - name: Kensaku Kusuhara
+  - name: Yuki Nakashima
+  - name: Noriyuki Suwa
+  - name: Masaki Honaga
+    ja: Masaki Honaga
+    ja_match: romaji
+  - name: Satoru Konishi
+  - name: Shuzo Miura
+  - name: Shun Otsuka
+    ja: Shun Otsuka
+    ja_match: romaji
+  - name: Naoki Take
+  ja_role: Client Engineers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Lead Outgame Engineers
+  names:
+  - name: Dennis Sachio Imabeppu
+  - name: Ryota Suzuki
+  - name: Shinya Kasahara
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Outgame Engineers
+  names:
+  - name: Satoshi Kasuga
+  - name: Tomohiko Horigome
+  - name: Shingo Tanaka
+  - name: Maiko Akutsu
+  - name: Yuki Imai
+  - name: Yuhei Inoue
+  - name: Takuma Seimiya
+  - name: Keiji Ohara
+  - name: Kaoru Yamabe
+  - name: Takafumi Naito
+  - name: Takuya Katsurada
+  - name: Shinju Okubo
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Lead Graphics Engineer
+  names:
+  - name: Ryuya Matsuda
+    ja: Ryuya Matsuda
+    ja_match: romaji
+  ja_role: Graphics Platform Developers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Graphics Engineers
+  names:
+  - name: Yuma Handa
+  - name: Masafumi Yamamoto
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Lead Release Engineer
+  names:
+  - name: Genta Mizumoto
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Client Engineers
+  - Release Engineers
+  names:
+  - name: Kaoru Yamabe
+  - name: Kazuteru Nagasawa
+  - name: Jiha Kim
+- path:
+  - Staff list (2024)
+  - Developed by
+  - AI Systems
+  - AI Engineering Managers
+  names:
+  - name: Ikki Tanaka
+  - name: Yutaka Imoto
+    ja: Yutaka Imoto
+    ja_match: romaji
+  ja_role: AI Systems
+- path:
+  - Staff list (2024)
+  - Developed by
+  - AI Systems
+  - AI Engineers
+  names:
+  - name: Dennis Sachio Imabeppu
+  - name: Yu Kono
+  - name: Taira Takahashi
+  - name: Kosuke Sakami
+  - name: Shintaro Takemura
+  - name: Katsuki Ohto
+    ja: Katsuki Ohto
+    ja_match: romaji
+  - name: Katsuhiko Sato
+    ja: Katsuhiko Sato
+    ja_match: romaji
+  ja_role: AI Systems
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Server Engineers
+  - Engineering Manager
+  names:
+  - name: Yasunori Yanai
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Server Engineers
+  - Lead Engineer
+  names:
+  - name: Tomohiro Tatsukura
+    ja: Tomohiro Tatsukura
+    ja_match: romaji
+  ja_role: Server Engineers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Server Engineers
+  - Engineers
+  names:
+  - name: Yoichiro Kataoka
+    ja_match: positional
+    ja: Engineers
+  - name: Yoshiro Kitazawa
+    ja: Yoshiro Kitazawa
+    ja_match: romaji
+  - name: Keisuke Shibata
+  - name: Yuuki Ikuta
+    ja: Yuuki Ikuta
+    ja_match: romaji
+  - name: Mai Omoto
+  - name: Song Yin
+  - name: Tatsuya Abe
+  - name: Kazuma Fujimaki
+  - name: Tetsuro Tamura
+    ja: Tetsuro Tamura
+    ja_match: romaji
+  - name: Yusuke Yoshida
+  - name: Hiroki Awata
+  - name: Shogo Sakata
+  - name: Takuya Katsurada
+  - name: Terunori Togo
+  - name: Ryota Chihara
+  - name: Yuta Ono
+  ja_role: Server Engineers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Battle Server Engineers
+  - Engineering Manager
+  names:
+  - name: Shintaro Seki
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Battle Server Engineers
+  - Engineers
+  names:
+  - name: Shintaro Seki
+  - name: Yusuke Yoshida
+  - name: Hiroki Awata
+  - name: Shogo Sakata
+  - name: Tetsu Kinomura
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Platform Service
+  - Project Manager
+  names:
+  - name: Ha Le
+    ja: Ha Le
+    ja_match: romaji
+  ja_role: Platform Service
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Platform Service
+  - Front End Engineer
+  names:
+  - name: Akihiro Tokoro
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Platform Developers
+  - Technical Leads
+  names:
+  - name: Takuma Komatsu
+  - name: Haruto Otake
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Platform Developers
+  - Engineers
+  names:
+  - name: Hiroki Sakai
+  - name: Xu Zhao
+  - name: Suguru Yamashita
+  - name: Shinnosuke Motegi
+  - name: Hayato Sato
+  - name: Yutao Long
+  - name: Mitsuhiko Ota
+  - name: Morimoto Kosuke
+    ja: Morimoto Kosuke
+    ja_match: romaji
+  - name: Yota Hiraishi
+    ja: Yota Hiraishi
+    ja_match: romaji
+  - name: Masashi Fujimoto
+  - name: Junichi Kikuchi
+  - name: Ayumi Otomo
+  - name: Yuki Inagawa
+    ja: Yuki Inagawa
+    ja_match: romaji
+  - name: Akiko Kawai
+  ja_role: Game Platform Developers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Graphics Platform Developers
+  - Engineers
+  names:
+  - name: Ryuya Matsuda
+  - name: Masafumi Yamamoto
+  - name: Yo Furukawa
+  - name: Masaki Iwasaki
+  - name: Takahiro Katagiri
+  - name: Takahiro Kosaka
+  - name: Akira Matsuo
+  - name: Junko Muroyama
+  - name: Haruyuki Imai
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Master Data Developers
+  - Engineering Manager
+  names:
+  - name: Yuji Narita
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Master Data Developers
+  - Engineers
+  names:
+  - name: Ryo Takamatsu
+  - name: Noriyoshi Samata
+  - name: Timothy du Heaume
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Site Reliability Engineers
+  - Engineering Manager
+  names:
+  - name: Takazumi Shirayanagi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Site Reliability Engineers
+  - Engineer
+  names:
+  - name: Yuki Sakai
+    ja: Yuki Sakai
+    ja_match: romaji
+  ja_role: Site Reliability Engineers
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Infrastructure Engineers
+  - Engineering Manager
+  names:
+  - name: Tomoki Amano
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Infrastructure Engineers
+  - Lead Engineer
+  names:
+  - name: Noriaki Hangyo
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Infrastructure Engineers
+  - Engineers
+  names:
+  - name: Jun Matsuura
+  - name: Youngjoon Lee
+  - name: Tomonori Hirata
+  - name: Hayato Hagari
+  - name: Hayato Fujita
+  - name: Kosei Izawa
+  - name: Hiroyuki Nishizaki
+  - name: Lyu Yuan
+  - name: Tatsuki Mutsuro
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Security Engineers
+  names:
+  - name: Takahiko Funakubo
+  - name: Shingo Mori
+  - name: Akira Kuroiwa
+  - name: Ryo Ishizuka
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Art Managers
+  names:
+  - name: Akio Oyama
+    ja: Akio Oyama
+    ja_match: romaji
+  - name: Toshiyuki Takeyasu
+  - name: Yota Sugiyama
+  - name: Wataru Sakomura
+    ja: Wataru Sakomura
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Visual Owner
+  names:
+  - name: Akio Oyama
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Visual Owner Assistants
+  names:
+  - name: Rena Hattori
+    ja: Rena Hattori
+    ja_match: romaji
+  - name: Yugo Honda
+    ja: Yugo Honda
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Creative Project Managers
+  names:
+  - name: Nozomi Tsutsumi
+  - name: Mizuki Uekusa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Lead UI Artist
+  names:
+  - name: Haruka Sato
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - UI Artists
+  names:
+  - name: Daisuke Toya
+  - name: Atsuko Sakamoto
+  - name: Asuka Fukuzawa
+    ja: Asuka Fukuzawa
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Lead UI Developer
+  names:
+  - name: Tsuyoshi Watanabe
+    ja_match: positional
+    ja: UI Developer
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - UI Developers
+  names:
+  - name: Yota Sugiyama
+    ja_match: positional
+    ja: UI Developers
+  - name: Akane Mori
+    ja: Akane Mori
+    ja_match: romaji
+  - name: Kiyoko Tsuchikura
+  - name: Tomomi Arizono
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Lead 3D Card Developer
+  names:
+  - name: Wataru Sakomura
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - 3D Card Developers
+  names:
+  - name: Yugo Honda
+    ja: Yugo Honda
+    ja_match: romaji
+  - name: Risa Goto
+  - name: Seira Morimitsu
+  - name: Moeka Uo
+    ja: Moeka Uo
+    ja_match: romaji
+  - name: Masako Aoyagi
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Card UI Developer
+  names:
+  - name: Yota Sugiyama
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Lead Animation Artist
+  names:
+  - name: Chiyomi Oikawa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Animation Artist
+  names:
+  - name: Kaori Ishiyama
+    ja: Kaori Ishiyama
+    ja_match: romaji
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Lead VFX Artist
+  names:
+  - name: Ikumi Kaneda
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - VFX Artists
+  names:
+  - name: Rena Hattori
+    ja: Rena Hattori
+    ja_match: romaji
+  - name: Mayu Sato
+    ja_match: positional
+    ja: 2D Artists
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - 2D Artists
+  names:
+  - name: Asuka Fukuzawa
+    ja: Asuka Fukuzawa
+    ja_match: romaji
+  - name: Moeka Uo
+  ja_role: Art and Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Art and Design
+  - Technical Artists
+  names:
+  - name: Takaya Hirota
+  - name: Yuma Handa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Game Design Managers
+  names:
+  - name: Goki Miura
+  - name: Katsuyuki Shiga
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Lead Battle Game Designers
+  names:
+  - name: Ryosuke Horita
+  - name: Yuki Mantani
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Battle Game Designers
+  names:
+  - name: Atsushi Matsuno
+  - name: Komei Kadonaga
+  - name: Seiji Shimoda
+  - name: Yuki Kawanishi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Lead Outgame Designer
+  names:
+  - name: Hotaka Suzuki
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Outgame Designers
+  names:
+  - name: Akihito Mimoto
+    ja: Akihito Mimoto
+    ja_match: romaji
+  - name: Satoru Nakano
+  - name: Wataru Hasegawa
+  - name: Komei Kadonaga
+  - name: Hiroki Ami
+  ja_role: Game Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Lead Event Game Designers
+  names:
+  - name: Goki Miura
+  - name: Seiji Oshima
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Event Game Designers
+  names:
+  - name: Akihito Mimoto
+  - name: Tomomi Hamamura
+  - name: Asami Morishita
+  - name: Yuki Babazono
+    ja: Yuki Babazono
+    ja_match: romaji
+  ja_role: Game Design
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Game Designers
+  names:
+  - name: Kazuki Nakatani
+  - name: Kaori Nomura
+  - name: Noriko Kato
+  - name: Shogo Minamoto
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Game Design
+  - Level Designer
+  names:
+  - name: Minami Yamaguchi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Localization
+  - Localization Project Managers
+  names:
+  - name: Goki Miura
+  - name: Rachel Funatsu
+  - name: Ayumi Okuyama
+    ja: Ayumi Okuyama
+    ja_match: romaji
+  - name: Mariko Goto
+    ja: Mariko Goto
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Localization
+  - Engineers
+  names:
+  - name: Yo Furukawa
+    ja_match: positional
+    ja: Engineers
+  - name: Taku Nonomura
+    ja: Taku Nonomura
+    ja_match: romaji
+  ja_role: Localization
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Localization
+  - Localization Architects
+  names:
+  - name: Kazuki Nakatani
+  - name: Kaori Nomura
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Sound
+  - Sound Director
+  names:
+  - name: Harumi Yamaguchi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Outsource Management
+  - Outsourcing Coordinators
+  names:
+  - name: Yasuto Osari
+  - name: Motoki Ikeda
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Development Support
+  - Software Engineers in Test
+  names:
+  - name: Yuki Kokubun
+  - name: Kazuma Inagaki
+  - name: Yoshitaka Seki
+    ja: Yoshitaka Seki
+    ja_match: romaji
+  - name: Keigo Imai
+  - name: Satoshi Iijima
+  - name: Junya Shijubo
+  ja_role: Development Support
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Legal
+  - Legal Project Managers
+  names:
+  - name: Toshiaki Hosono
+  - name: Xiaosen Lu
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Legal
+  - Intellectual Property Manager
+  names:
+  - name: Hiroyuki Umeki
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Legal
+  - Legal Staff
+  names:
+  - name: Koji Hiraoka
+  - name: Masashi Okumura
+  - name: David Masuda
+  - name: Haruka Okui
+  - name: Mizue Kofunato
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Legal
+  - Intellectual Property Staff
+  names:
+  - name: Yoshihiro Takazawa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Legal
+  - Security Staff
+  names:
+  - name: Takayuki Okamura
+  - name: Noriko Yamada
+  - name: Kana Miyoshi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Analysts
+  - Analytics Director
+  names:
+  - name: Yuki Nakagawa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Analysts
+  - Lead Analyst
+  names:
+  - name: Naotaka Sato
+    ja: Naotaka Sato
+    ja_match: romaji
+  ja_role: Analysts
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Analysts
+  - Analysts
+  names:
+  - name: Yuki Banno
+  - name: Rie Onishi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Analysts
+  - Data Engineers
+  names:
+  - name: Yoshikazu Kamoshida
+  - name: Shiki Hamada
+  - name: Bruno Watanabe
+  - name: Taku Takenaga
+  - name: Tetsu Kasanishi
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Analysts
+  - User Experience Researchers
+  names:
+  - name: Masayuki Takai
+  - name: Saori Iino
+  - name: Jumpei Kuwayama
+    ja: Jumpei Kuwayama
+    ja_match: romaji
+  - name: Yuka Abe
+    ja: Yuka Abe
+    ja_match: romaji
+  ja_role: Analysts
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Marketing
+  - Marketing Communications
+  names:
+  - name: Satoshi Tsuruda
+  - name: Teruyuki Magara
+  - name: Yuichi Fukada
+  - name: Sayuri Nakamura
+  - name: Masafumi Suzuki
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Marketing
+  - Quality Assurance
+  names:
+  - name: Yosuke Takeuchi
+  - name: Kyota Suzuki
+  - name: Shota Sasagawa
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Special Thanks
+  - Business Support
+  names:
+  - name: Hiroko Tanaka
+    ja: Hiroko Tanaka
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Special Thanks
+  - Coordination
+  names:
+  - name: Keigo Watanabe
+  - name: Ken Kitamura
+- path:
+  - Staff list (2024)
+  - Developed by
+  - Executive Producer
+  names:
+  - name: Shingo Okamura
+- path:
+  - Staff list (2024)
+  - CONNECT+ECHO co.,ltd.
+  - Composer/Sound Designer
+  names:
+  - name: dattxua
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  names:
+  - name: Creatures Inc.
+    link: Creatures, Inc.
+    kind: company
+- path:
+  - Producer
+  names:
+  - name: Yuji Kitano
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Project Managers
+  names:
+  - name: Kota Okamoto
+  - name: Seiya Nomoto
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Creative Directors
+  names:
+  - name: Hirofumi Matsuoka
+  - name: Atsushi Nagashima
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Creative Director
+  names:
+  - name: Ryo Tsujikawa
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Senior Art Directors
+  names:
+  - name: Kenichi Koga
+    ja: Kenichi Koga
+    ja_match: romaji
+  - name: Satoru Nagaya
+  ja_role: Senior Art Directors
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Planning Directors
+  names:
+  - name: Norio Matsumura
+    ja: Norio Matsumura
+    ja_match: romaji
+  - name: Yukinori Torii
+  ja_role: Planning Directors
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Director
+  names:
+  - name: Haru Saito
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Sound Direction
+  names:
+  - name: Ayumu Ito
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Game Design
+  - Game Design Managers
+  names:
+  - name: Hyuma Mihara
+  - name: Hiroshi Takano
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Game Design
+  - Game Design
+  names:
+  - name: Yuta Fujishima
+  - name: Tomoaki Imakuni
+    ja: Tomoaki Imakuni
+    kanji: イマクニ?
+    ja_match: romaji
+  - name: Akihito Joguchi
+    ja: Akihito Joguchi
+    ja_match: romaji
+  - name: Takahiro Kobori
+  - name: Koga Oda
+    ja: Koga Oda
+    ja_match: romaji
+  - name: Shunsuke Sasaki
+  - name: Shinya Takahashi
+  - name: Akio Yamada
+  - name: Yuki Yamada
+  ja_role: Game Design
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Art Design
+  - Art Design Managers
+  names:
+  - name: Hitoshi Okahashi
+  - name: Shizuka Yokoyama
+    ja: Shizuka Yokoyama
+    ja_match: romaji
+  ja_role: Art Design
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Art Design
+  - Art Design
+  names:
+  - name: Ikumi Fujishiro
+    ja: Ikumi Fujishiro
+    ja_match: romaji
+  - name: Hidefumi Ide
+  - name: Masaaki Sumiya
+  - name: Nanami Takeuchi
+    ja: Nanami Takeuchi
+    ja_match: romaji
+  ja_role: Art Design
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Direction
+  - Illustration Managers
+  names:
+  - name: Gaku Asakura
+  - name: Ayaka Hagiwara
+  - name: Yuko Kokubun
+    ja: Yuko Kokubun
+    ja_match: romaji
+  - name: Natsumi Suwabe
+    ja: Natsumi Suwabe
+    ja_match: romaji
+  ja_role: Illustration Direction
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Illustration Direction
+  - Illustration Direction
+  names:
+  - name: Yuki Amano
+  - name: Takuya Endo
+  - name: Hikari Ishikawa
+  - name: Hiroaki Ito
+  - name: Yoshiyasu Ito
+    ja: Yoshiyasu Ito
+    ja_match: romaji
+  - name: Rei Kitahara
+  - name: Reina Koshino
+  - name: Naoki Kuroshima
+  - name: Tomohiro Mori
+    ja: Tomohiro Mori
+    ja_match: romaji
+  - name: Hiroyasu Nishino
+  - name: Risako Sakai
+    ja: Risako Sakai
+    ja_match: romaji
+  - name: Yuki Shikama
+    ja: Yuki Shikama
+    ja_match: romaji
+  - name: Tsukasa Tamura
+    ja: Tsukasa Tamura
+    ja_match: romaji
+  - name: Mariko Umeda
+  - name: Takuto Yamaoka
+  - name: Kyoko Yoshida
+  ja_role: Illustration Direction
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Quality Control
+  - Quality Control Managers
+  names:
+  - name: Shuhei Tadano
+    ja: Shuhei Tadano
+    ja_match: romaji
+  - name: Yasuhiro Ito
+    ja: Yasuhiro Ito
+    ja_match: romaji
+  ja_role: Quality Control
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Quality Control
+  - Quality Control
+  names:
+  - name: Masatsugu Fujikura
+  - name: Koji Yoshida
+  - name: Rika Arai
+    ja: Rika Arai
+    ja_match: romaji
+  ja_role: Quality Control
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Music
+  names:
+  - name: Takuto Kitsuta
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Project Managers
+  names:
+  - name: Gonzalo Vázquez Cañedo
+    ja: Gonzalo Vázquez Cañedo
+    ja_match: romaji
+  - name: Yuki Otsuka
+  - name: Masaki Imaizumi
+    ja: Masaki Imaizumi
+    ja_match: romaji
+  - name: Shinya Narita
+  ja_role: Project Managers
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Playtesters
+  names:
+  - name: Keita Fujimaki
+    ja: Keita Fujimaki
+    ja_match: romaji
+  - name: Kosuke Hiwatashi
+  - name: Yuta Ishikawa
+    ja: Yuta Ishikawa
+    ja_match: romaji
+  - name: Kosuke Nishimura
+    ja: Kosuke Nishimura
+    ja_match: romaji
+  - name: Haruki Sawa
+    ja: Haruki Sawa
+    ja_match: romaji
+  ja_role: Playtesters
+- path:
+  - Staff list (2024)
+  - Pokémon Trading Card Game Development / Apps Planning
+  - Pokémon Trading Card Game Development Support
+  names:
+  - name: Shohei Fukami
+    ja: Shohei Fukami
+    ja_match: romaji
+  - name: Jun Kanda
+    ja: Jun Kanda
+    ja_match: romaji
+  - name: Takashi Koga
+  - name: Jun Nakata
+    ja: Jun Nakata
+    ja_match: romaji
+  - name: Miki Obata
+  - name: Tomohiro Sonoda
+  - name: Masaya Takano
+    ja: Masaya Takano
+    ja_match: romaji
+  - name: Keita Tsukamoto
+    ja: Keita Tsukamoto
+    ja_match: romaji
+  - name: Yasunori Yanagisawa
+  ja_role: Pokémon Trading Card Game Development Support
+- path:
+  - Special Thanks
+  names:
+  - name: Hirokazu Tanaka
+  - name: Tomotaka Komura
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  names:
+  - name: The Pokémon Company
+    kind: company
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Producers
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Producers
+  - General Producer
+  names:
+  - name: Takato Utsunomiya
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Producers
+  - Producer
+  names:
+  - name: Keita Hirobe
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Coordination
+  - Lead Coordinator
+  names:
+  - name: Ryosuke Hanawa
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Coordination
+  - Marketing Coordinator
+  names:
+  - name: Sho Yoshimoto
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Coordination
+  - Coordinators
+  names:
+  - name: Aiko Namikawa
+    ja: Aiko Namikawa
+    ja_match: romaji
+  - name: LI ER
+  - name: Mayumi Aoyama
+  - name: Misa Hikita
+  - name: Satoki Nakamura
+  - name: Shunsuke Takagi
+  - name: Takuya Hashimoto
+  - name: Yuji Ota
+  - name: Yuta Nakamura
+  ja_role: Coordination
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Brand Operations
+  - Art Director
+  names:
+  - name: Etsuya Hattori
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Brand Operations
+  - Designer
+  names:
+  - name: Keiko Okawa
+  - name: Li Jiaqi
+  - name: Natsuki Shinohara
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Chinese Localization
+  names:
+  - name: Izumi Watanabe
+    ja: Izumi Watanabe
+    ja_match: romaji
+  - name: Shuyang Jia
+  - name: Mitsuyo Matsunaga
+  - name: Jingyi Yu
+  ja_role: Chinese Localization
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Chinese Translation & Editing
+  names:
+  - name: Chungte Huang
+  - name: Yencheng Lin
+  - name: Hanru Yang
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Customer Service
+  names:
+  - name: Kazunori Sugiura
+  - name: Masato Kitamura
+  - name: Shu Amagiri
+  - name: Yohei Yamamoto
+  - name: Yosuke Senoo
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Development Support
+  names:
+  - name: Nobuyuki Ohta
+  - name: Tatsuya Ichijo
+  - name: Chitose Kawakami
+  - name: Ohchi Yuhma
+  - name: Kayo Nakata
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Legal
+  names:
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Maiko Usami
+    ja: Maiko Usami
+    ja_match: romaji
+  - name: Daigorotoyohide Suga
+    ja: Daigorotoyohide Suga
+    ja_match: romaji
+  - name: Kensuke Arai
+    ja: Kensuke Arai
+    ja_match: romaji
+  - name: Yuta Hara
+  - name: Junko Tamura
+    ja: Junko Tamura
+    ja_match: romaji
+  - name: Nao Tajima
+  ja_role: Legal
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Marketing
+  names:
+  - name: Keiya Nakahara
+  - name: Liu Ishiguro
+    ja: Liu Ishiguro
+    ja_match: romaji
+  - name: Nobue Ito
+  - name: Shungo Asano
+  - name: Yuma Hon
+    ja: Yuma Hon
+    ja_match: romaji
+  - name: Yurie Nakamaru
+  ja_role: Marketing
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - TCG Business Development
+  names:
+  - name: Masayuki Miura
+- path:
+  - Staff list (2024)
+  - Pokémon Produced by
+  - Special Thanks
+  names:
+  - name: Takanori Sowa
+  - name: Shoichi Obora
+  - name: Chie Shinno
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_match: romaji
+  - name: Kenji Masaki
+  - name: Tomoe Naganuma
+  ja_role: Special Thanks
+- path:
+  - Staff list (2024)
+  - Localization
+  names:
+  - name: The Pokémon Company International
+    kind: company
+- path:
+  - Staff list (2024)
+  - Localization
+  - English and Brazilian Portuguese Localization
+  names:
+  - name: Mikiko Ryu
+  - name: Chie Stutzman
+  - name: Mika Ishikawa
+  - name: Miho Lyon
+  - name: Reiko de Sorbier de Pougnadoresse
+  - name: Jeff Hines
+  - name: Kellyn Ballard
+  - name: Hisato Yamamori
+- path:
+  - Staff list (2024)
+  - Localization
+  - English Translation
+  names:
+  - name: Alex Small
+  - name: Ryan Sugo
+    ja: Ryan Sugo
+    ja_match: romaji
+  - name: Bryson Clark
+  - name: Satoko Deas
+  - name: Lars Henriksen
+  - name: Stephan Kim
+    ja: Stephan Kim
+    ja_match: romaji
+  ja_role: English Translation
+- path:
+  - Staff list (2024)
+  - Localization
+  - English Editing
+  names:
+  - name: Eric Haddock
+  - name: Stephen Meyerink
+  - name: Amy Morris
+  - name: Dermot Creegan
+    ja: Dermot Creegan
+    ja_match: romaji
+  - name: Isaac Nickerson
+    ja: Isaac Nickerson
+    ja_match: romaji
+  ja_role: English Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - Brazilian Portuguese Translation and Editing
+  names:
+  - name: Lucas Peterson
+  - name: Rafael Pimpinato
+  - name: Thais Nucci
+  - name: Camila Duque
+  - name: Michael Pantaleão
+    ja: Michael Pantaleão
+    ja_match: romaji
+  ja_role: Brazilian Portuguese Translation and Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - European Localization
+  names:
+  - name: Kaori Aoki
+  - name: Daniel Anscomb
+  - name: Emily Hitchmough
+  - name: Rhys Giles
+  - name: Hirotaka Nishino
+  - name: Chika Tanigaki
+  - name: Owen Preece
+  - name: Hideko Russell
+  - name: Kendra Evans
+  - name: Ritsuko Oshu
+  - name: Nami Kusumoto
+  - name: Mark Bunting
+  - name: Marvin Andrews
+  - name: Peter Bagley
+  - name: Elena Nardo
+  - name: Michael Ecke
+  - name: Pierre Gauthier
+  - name: Guillaume Didier
+  - name: Fabio Giusti
+  - name: Diego Figaredo
+- path:
+  - Staff list (2024)
+  - Localization
+  - French Translation
+  names:
+  - name: Alexane Bailleul
+  - name: Lytta Khrissate
+  - name: Nicolas Sindres
+    ja: Nicolas Sindres
+    ja_match: romaji
+  - name: Arthur Blondel
+    ja: Arthur Blondel
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - Staff list (2024)
+  - Localization
+  - French Editing
+  names:
+  - name: Matthieu Béthencourt
+  - name: Aurelie Kryvinskyj
+    ja: Aurelie Kryvinskyj
+    ja_match: romaji
+  - name: Violette Giang
+    ja: Violette Giang
+    ja_match: romaji
+  - name: Leslie Gambini
+    ja: Leslie Gambini
+    ja_match: romaji
+  - name: Elodie Verpoort
+  - name: Diana Ahmed
+  - name: Jena Gattegno
+  ja_role: French Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - German Translation
+  names:
+  - name: Caroline Fest
+  - name: Lina Emmerich
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Sophie Jüterbock
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Carolin Maibach
+    ja: Carolin Maibach
+    ja_match: romaji
+  ja_role: German Translation
+- path:
+  - Staff list (2024)
+  - Localization
+  - German Editing
+  names:
+  - name: Sira Vaterhaus
+  - name: Jochen Künzel
+  - name: Sina Moelleken
+  - name: Caroline Büsch
+  - name: Paul Seidenstecher
+  - name: Alina Linnenweber
+    ja: Alina Linnenweber
+    ja_match: romaji
+  - name: Juliana Niederwanger
+    ja: Juliana Niederwanger
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Barbara Schweinzer
+    ja: Barbara Schweinzer
+    ja_match: romaji
+  ja_role: German Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - Italian Translation
+  names:
+  - name: Guido Scarabello
+  - name: Altan Couvert
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Francesca Serci
+  - name: Annarita Spera
+    ja: Annarita Spera
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Jacopo Vanin
+    ja: Jacopo Vanin
+    ja_match: romaji
+  ja_role: Italian Translation
+- path:
+  - Staff list (2024)
+  - Localization
+  - Italian Editing
+  names:
+  - name: Sergio Bianchi
+  - name: Silvia De Bellis
+  - name: Valerio Amato
+  - name: Claudio Calzolari
+  - name: Valentina Menale
+    ja: Valentina Menale
+    ja_match: romaji
+  - name: Marco Locatelli
+    ja: Marco Locatelli
+    ja_match: romaji
+  - name: Guendalina Pirruccio
+    ja: Guendalina Pirruccio
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  ja_role: Italian Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - Spanish Translation
+  names:
+  - name: Servando Doval Díaz
+  - name: Jorge Diez Lasheras
+  - name: Alicia Iribarren Mendoza
+    ja: Alicia Iribarren Mendoza
+    ja_match: romaji
+  ja_role: Spanish Translation
+- path:
+  - Staff list (2024)
+  - Localization
+  - Spanish Editing
+  names:
+  - name: Rubén Lado Riomao
+  - name: Virginia Paradés Gurrea
+  - name: Juan José Leiva Jiménez
+    ja: Juan José Leiva Jiménez
+    ja_match: romaji
+  - name: Diana Vázquez Saiz
+  - name: Daniela Castillo
+  - name: Mai Castro Arellano
+  - name: Sebastián Erasmy Vergara
+  - name: Alex Fortes
+    ja: Alex Fortes
+    ja_match: romaji
+  - name: Irene Mascaró Genestar
+    ja: Irene Mascaró Genestar
+    ja_match: romaji
+  - name: Javier Ortiz Carrillo
+  - name: Julieta Ortiz
+    ja: Julieta Ortiz
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  - name: Pindaro Vargas-Farías
+    ja: Pindaro Vargas-Farías
+    ja_match: romaji
+  ja_role: Spanish Editing
+- path:
+  - Staff list (2024)
+  - Localization
+  - Localization Support
+  names:
+  - name: Eoin Sanders
+  - name: Hollie Beg
+  - name: Alexia Campagne-Descré
+  - name: Dorian Mouëzy
+  - name: Filippo Rizzi
+  - name: Marina Gagliardi
+  - name: Marica Gusella
+  - name: Elio Sottoscritti
+  - name: Monika Tracy
+  - name: Teresa Cueto Álvarez de Sotomayor
+  - name: Jose Gallego
+  - name: Paz López Lorente-Sorolla
+  - name: Jesús Miguel Díaz Muriel
+  - name: Marco Borrelli
+  - name: Esther Sánchez Giráldez
+- path:
+  - Staff list (2024)
+  - Localization
+  - Localisation Quality Assurance
+  names:
+  - name: Maxim Mizin
+    note: PTW International UK Ltd.
+  - name: David McMeekin
+    note: PTW International UK Ltd.
+    ja: David McMeekin
+    ja_match: romaji
+  - name: Terri Desborough
+    note: PTW International UK Ltd.
+    ja: Terri Desborough
+    ja_match: romaji
+  - name: Dmytro Nazarov
+    note: PTW International UK Ltd
+    ja: Dmytro Nazarov
+    ja_match: romaji
+  - name: Henar Garcia Pérez
+    note: PTW International UK Ltd.
+    ja: Henar Garcia Pérez
+    ja_match: romaji
+  - name: Julia Asmus
+    note: PTW International UK Ltd.
+    ja: Julia Asmus
+    ja_match: romaji
+  - name: Nils Kruger
+    note: PTW International UK Ltd.
+    ja: Nils Kruger
+    ja_match: romaji
+  - name: Pauline Berron
+    note: PTW International UK Ltd.
+    ja: Pauline Berron
+    ja_match: romaji
+  - name: Sergejs Adamovs
+    note: PTW International UK Ltd.
+  - name: Tania Duvernay
+    note: PTW International UK Ltd.
+    ja: Tania Duvernay
+    ja_match: romaji
+  - name: Ian Walters
+    note: PTW International UK Ltd.
+    ja: Ian Walters
+    ja_match: romaji
+  - name: Gil Hoyle
+    note: PTW International UK Ltd
+  - name: João Gomes
+    note: PTW International UK Ltd.
+  - name: Enzo Benedetti
+    note: PTW International UK Ltd.
+  - name: Ilaria Boccella
+    note: PTW International UK Ltd.
+  - name: Lara Turna
+    note: PTW International UK Ltd.
+  - name: Celia Reyes Lamoneda
+    note: PTW International UK Ltd.
+  - name: Filipe de Almeida Oscar
+    note: PTW International UK Ltd.
+  ja_role: Localisation Quality Assurance
+- path:
+  - Staff list (2024)
+  - Localization
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Gaku Susai
+  - name: Taito Okiura
+  - name: Torrie Dorrell
+    ja: Torrie Dorrell
+    ja_match: romaji
+  - name: Amy Ganster
+  - name: Andy Gose
+  - name: Andy Hartpence
+  - name: Barry Sams
+  - name: Charlie Spinner
+  - name: Courtney Kim
+  - name: Daniel Benkwitt
+  - name: David Cheung
+  - name: David Numrich
+  - name: Kaoru Otawara
+  - name: Peter Murphy
+  - name: Phaedra Long
+  - name: Richie Enticknap
+  - name: Stewart Pagan
+  - name: Winston Lung
+  - name: Yasuhiro Usui
+  - name: Alison Chyan
+  - name: Steve Lee
+  - name: Reina Nagai
+  ja_role: Special Thanks
+- path:
+  - Staff list (2024)
+  - Localization
+  names:
+  - name: Pokémon Korea, Inc.
+    kind: company
+- path:
+  - Staff list (2024)
+  - Localization
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+  - name: Jieun Byun
+  - name: Youngjun Park
+  - name: Dongun Pak
+  - name: Jooyeon Han
+  - name: Byunghun Bae
+  - name: Yoojin Kwon
+- path:
+  - Staff list (2024)
+  - Localization
+  - Special Thanks
+  names:
+  - name: Jaiboem Lim
+  - name: Jihye Lee
+  - name: Kyung Wook Noh
+    ja: Kyung Wook Noh
+    ja_match: romaji
+  - name: Anjin Choi
+    ja: Anjin Choi
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Staff list (2024)
+  - Very Special Thanks
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+    ja: GAME FREAK inc.
+    ja_match: romaji
+  ja_role: Very Special Thanks
+ja_unmatched:
+- kana: Producer
+  role: Producers
+- kana: Assistant Producer
+  role: Producers
+- kana: General Director
+  role: Directors
+- kana: Development Directors
+  role: Directors
+- kana: Operations Director
+  role: Directors
+- kana: Engineer
+  role: Client Engineers
+- kana: Battle Engineer
+  role: Client Engineers
+- kana: Battle Engineers
+  role: Client Engineers
+- kana: Outgame Engineers
+  role: Client Engineers
+- kana: Outgame Engineers
+  role: Client Engineers
+- kana: Graphics Engineer
+  role: Client Engineers
+- kana: Graphics Engineers
+  role: Client Engineers
+- kana: Release Engineer
+  role: Client Engineers
+- kana: Release Engineers
+  role: Client Engineers
+- kana: AI Engineering Managers
+  role: AI Systems
+- kana: AI Engineers
+  role: AI Systems
+- kana: Engineering Manager
+  role: Server Engineers
+- kana: Engineer
+  role: Server Engineers
+- kana: Engineering Manager
+  role: Battle Server Engineers
+- kana: Engineers
+  role: Battle Server Engineers
+- kana: Project Manager
+  role: Platform Service
+- kana: Front End Engineer
+  role: Platform Service
+- kana: Technical Leads
+  role: Game Platform Developers
+- kana: Engineers
+  role: Game Platform Developers
+- kana: Engineers
+  role: Graphics Platform Developers
+- kana: Engineering Manager
+  role: Master Data Developers
+- kana: Engineers
+  role: Master Data Developers
+- kana: Engineer
+  role: Infrastructure Engineers
+- kana: Engineers
+  role: Infrastructure Engineers
+- kana: Visual Owner
+  role: Art and Design
+- kana: Visual Owner Assistants
+  role: Art and Design
+- kana: Creative Project Managers
+  role: Art and Design
+- kana: UI Artist
+  role: Art and Design
+- kana: UI Artists
+  role: Art and Design
+- kana: 3D Card Developer
+  role: Art and Design
+- kana: 3D Card Developers
+  role: Art and Design
+- kana: Animation Artist
+  role: Art and Design
+- kana: VFX Artist
+  role: Art and Design
+- kana: VEX Artists
+  role: Art and Design
+- kana: Technical Artists
+  role: Art and Design
+- kana: Battle Game Designers
+  role: Game Design
+- kana: Battle Game Designers
+  role: Game Design
+- kana: Outgame Designer
+  role: Game Design
+- kana: Outgame Designers
+  role: Game Design
+- kana: Event Game Designers
+  role: Game Design
+- kana: Event Game Designers
+  role: Game Design
+- kana: Game Designers
+  role: Game Design
+- kana: Localization Architects
+  role: Localization
+- kana: Outsourcing Coordinators
+  role: Outsource Management
+- kana: Software Engineers in Test
+  role: Development Support
+- kana: Intellectual Property Manager
+  role: Legal
+- kana: Legal Staff
+  role: Legal
+- kana: Intellectual Property Staff
+  role: Legal
+- kana: Security Staff
+  role: Legal
+- kana: Analytics Director
+  role: Analysts
+- kana: User Experience Researchers
+  role: Analysts
+- kana: Business Support
+  role: Special Thanks
+- kana: Coordination
+  role: Special Thanks
+- kana: Art Design
+  role: Art Design
+- kana: Quality Control Managers
+  role: Quality Control
+- kana: Quality Control
+  role: Quality Control
+- kana: Executive Producer
+  role: Producers
+- kana: General Producer
+  role: Producers
+- kana: Producer
+  role: Producers
+- kana: Coordinator
+  role: Coordination
+- kana: Marketing Coordinator
+  role: Coordination
+- kana: Coordinators
+  role: Coordination
+- kana: Art Director
+  role: Brand Operations
+- kana: Designer
+  role: Brand Operations

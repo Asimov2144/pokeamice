@@ -1,0 +1,407 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_2:_The_Invasion_of_Team_GR! + https://wiki.pokemonwiki.com/wiki/ポケモンカードGB2のスタッフクレジット
+slug: trading-card-game-2-the-invasion-of-team-gr
+title: 'Staff of Pokémon Trading Card Game 2: The Invasion of Team GR!'
+work: null
+year: 2001
+developer: Hudson Soft
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Trading_Card_Game_2:_The_Invasion_of_Team_GR!
+count: 83
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンカードGB2のスタッフクレジット
+ja_alignment:
+  ja_total: 83
+  ja_matched: 79
+  ja_positional: 1
+  ja_only_added: 0
+sections:
+- path:
+  - Producers
+  names:
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  - name: Shinichi Nakamoto
+    ja: なかもと しんいち
+    kanji: 中本伸一
+    ja_match: romaji
+  - name: Takahiro Harada
+    ja: はらだ たかひろ
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Director
+  names:
+  - name: Koji Arai
+    ja: あらい こうじ
+    kanji: 荒井弘二
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Story
+  names:
+  - name: Teruyuki Fujita
+    ja: ふじた てるゆき
+    ja_match: romaji
+  ja_role: おはなし
+- path:
+  - Planner
+  names:
+  - name: Yoshimasa Kitamura
+    ja: きたむら よしまさ
+    ja_match: romaji
+  ja_role: プランナー
+- path:
+  - Programmers
+  names:
+  - name: Masahiro Tobita
+    ja: とびた まさひろ
+    ja_match: romaji
+  - name: Masaki Tsumori
+    ja: つもり まさき
+    ja_match: romaji
+  - name: Kei Kondo
+    ja: こんどう けい
+    ja_match: romaji
+  - name: Makoto Yoshida
+    ja: よしだ まこと
+    ja_match: romaji
+  - name: Satoshi Mikami
+    ja: みかみ さとし
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - GB Graphic Designers
+  names:
+  - name: Yasuhiro Ichizawa
+    ja: いちざわ やすひろ
+    ja_match: romaji
+  - name: Tsuguyuki Yamamoto
+    ja: やまもと つぐゆき
+    ja_match: romaji
+  - name: Mari Matsuda
+    ja: まつだ まり
+    ja_match: romaji
+  - name: Moto Yamaguchi
+    ja: やまぐち もと
+    ja_match: romaji
+  - name: Kazushi Kousaka
+    ja: こうさか かずし
+    ja_match: romaji
+  - name: Shigeru Sato
+    ja: さとう しげる
+    ja_match: romaji
+  - name: Chiaki Nishiki
+    ja: にしき ちあき
+    ja_match: romaji
+  - name: Hideki Souma
+    ja: そうま ひでき
+    ja_match: romaji
+  ja_role: GBグラフィックデザイン
+- path:
+  - Sound Director
+  names:
+  - name: Toshiaki Takimoto
+    ja: たきもと としあき
+    ja_match: romaji
+  ja_role: サウンドディレクション
+- path:
+  - Music
+  names:
+  - name: Ichiro Shimakura
+    ja: しまくら いちろう
+    kanji: 嶋倉一朗
+    ja_match: romaji
+  ja_role: ミュージック
+- path:
+  - Music Programmer
+  names:
+  - name: Keita Hoshi
+    ja: ほし けいた
+    kanji: 星恵太
+    ja_match: romaji
+  ja_role: ミュージックプログラム
+- path:
+  - Sound Effects
+  names:
+  - name: Ichiro Shimakura
+    ja: しまくら いちろう
+    ja_match: romaji
+  - name: Masato Aihara
+    ja: あいはら まさと
+    kanji: 相原真人
+    ja_match: romaji
+  ja_role: サウンドエフェクト
+- path:
+  - Sound Support
+  names:
+  - name: Katsunori Takahashi
+    ja: たかはし かつのり
+    ja_match: romaji
+  - name: Hideki Oka
+    ja: おか ひでき
+    ja_match: romaji
+  ja_role: サウンドサポート
+- path:
+  - Card Game Production
+  names:
+  - name: Takumi Akabane
+    ja: あかばね たくみ
+    kanji: 赤羽卓美
+    ja_match: romaji
+  - name: Kouichi Ooyama
+    ja: おおやま こういち
+    kanji: 大山功一
+    ja_match: romaji
+  - name: Akihiko Miura
+    ja: みうら あきひこ
+    kanji: 三浦明彦
+    ja_match: romaji
+  ja_role: カードゲームせいさく
+- path:
+  - Card Illustrators
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: よしだ ひろのぶ
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: にしだ あつこ
+    kanji: にしだあつこ
+    ja_match: romaji
+  - name: Mitsuhiro Arita
+    ja: ありた みつひろ
+    kanji: 有田満弘
+    ja_match: romaji
+  - name: Keiji Kinebuchi
+    ja: きねぶち けいじ
+    kanji: 杵淵敬二
+    ja_match: romaji
+  - name: Kagemaru Himeno
+    ja: ひめの かげまる
+    kanji: 姫野かげまる
+    ja_match: romaji
+  - name: Miki Tanaka
+    ja: たなか みき
+    kanji: 田中未樹
+    ja_match: romaji
+  - name: Sumiyoshi Kizuki
+    ja: きづき すみよし
+    kanji: 木月すみよし
+    ja_match: romaji
+  - name: Shin-ichi Yoshida
+    ja: よしだ しんいち
+    kanji: 吉田振一
+    ja_match: romaji
+  - name: Naoyo Kimura
+    ja: きむら なおよ
+    kanji: 木村直代
+    ja_match: romaji
+  - name: Aya Kusube
+    ja: くすべ あや
+    kanji: 楠部文
+    ja_match: romaji
+  - name: Tomokazu Komiya
+    ja: こみや ともかず
+    kanji: こみやトモカズ
+    ja_match: romaji
+  - name: Hikaru Koike
+    ja: こいけ ひかる
+    kanji: 小池光
+    ja_match: romaji
+  - name: Nobuyuki Habu
+    ja: はぶ のぶゆき
+    kanji: 羽生信之
+    ja_match: romaji
+  - name: Yukiko Baba
+    ja: ばば ゆきこ
+    kanji: 馬場由起子
+    ja_match: romaji
+  - name: Masako Yamashita
+    ja: やました まさこ
+    kanji: 山下雅子
+    ja_match: romaji
+  - name: Ai Kurihara
+    ja: くりはら あい
+    ja_match: romaji
+  - name: Kasumi Matsuda
+    ja: まつだ かすみ
+    ja_comment: コロコロコミックイラストコンテスト入賞者
+    ja_match: romaji
+  - name: Keita Takahashi
+    ja: たかはし けいた
+    ja_comment: コロコロコミックイラストコンテスト入賞者
+    ja_match: romaji
+  - name: Yuuki Kawamura
+    ja: かわむら ゆうき
+    ja_comment: コロコロコミックイラストコンテスト入賞者
+    ja_match: romaji
+  - name: Kazuhiko Nishihara
+    ja: にしはら かずひこ
+    ja_comment: コロコロコミックイラストコンテスト入賞者
+    ja_match: romaji
+  - name: Toshinao Aoki
+    ja: あおき としなお
+    kanji: 青木俊直
+    ja_match: romaji
+  - name: Benimaru Itoh
+    ja: いとう べにまる
+    kanji: 伊藤紅丸
+    ja_match: romaji
+  - name: Hiromichi Sugiyama
+    ja: すぎやま ひろみち
+    ja_match: romaji
+  ja_role: カード・イラストレーター
+- path:
+  - Guest Appearances
+  names:
+  - name: Imakuni?
+    ja: イマクニ？
+    kanji: イマクニ?
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Ryuutarou Yamaguchi
+    ja: やまぐち りゅうたろう
+    ja_match: romaji
+  - name: Yusuke Kurushima
+    link: Rick (TCG GB)
+    ja: くるしま ゆうすけ
+    ja_comment: 来島祐介（ポケモンカードマスター代表）
+    ja_match: romaji
+  ja_role: しゅつえん きょうりょく
+- path:
+  - Mastering
+  names:
+  - name: Tetsuya Komatsu
+    ja: こまつ てつや
+    ja_match: romaji
+  ja_role: マスタリング
+- path:
+  - Manual Production
+  names:
+  - name: Haruki Mitani
+    ja: みたに はるき
+    ja_match: romaji
+  - name: Hidenori Sezaki
+    ja: せざき ひでのり
+    ja_match: romaji
+  ja_role: マニュアルせいさく
+- path:
+  - Manual Illustrations
+  names:
+  - name: Kagemaru Himeno
+    ja: ひめの かげまる
+    ja_match: romaji
+  ja_role: マニュアル イラスト
+- path:
+  - Package Artwork
+  names:
+  - name: Hideki Kazama
+    ja: かざま ひでき
+    ja_match: romaji
+  ja_role: パッケージ アートワーク
+- path:
+  - Original Pokémon Creator
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスターげんさく
+- path:
+  - Production Assistance
+  names:
+  - name: Shinji Hatano
+    ja: はたの しんじ
+    ja_match: romaji
+  - name: Satoshi Yamato
+    ja: やまと さとし
+    ja_match: romaji
+  ja_role: せいさく きょうりょく
+- path:
+  - Assistance
+  names:
+  - name: Nobuchika Takahashi
+    ja: たかはし のぶちか
+    ja_match: romaji
+  - name: Daisaku Nishida
+    ja: にしだ だいさく
+    ja_match: romaji
+  - name: Yoshiharu Tsukuda
+    ja: つくだ よしはる
+    ja_match: romaji
+  - name: Satoshi Hosaka
+    ja: ほさか さとし
+    ja_match: romaji
+  - name: Yukiko Tomita
+    ja: とみた ゆきこ
+    ja_match: romaji
+  - name: Toru Osawa
+    ja: おおさわ とおる
+    ja_match: romaji
+  - name: Nobuto Koganezawa
+    ja: こがねざわ のぶと
+    ja_match: romaji
+  - name: Hiroyuki Mikami
+    ja: みかみ ひろゆき
+    ja_match: romaji
+  - name: Kunji Katsuki
+    ja: かつき くんじ
+    ja_match: romaji
+  - name: Keigo Yasuda
+    ja: やすだ けいご
+    ja_match: romaji
+  - name: Wilson Kunihiko Ritch
+  - name: Creatures, Inc.
+    kind: company
+  - name: Card Game Quality Production
+    kind: company
+  - name: Test Players
+  ja_role: きょうりょく
+- path:
+  - Project Manager
+  names:
+  - name: Yasutaka Kakiseko
+    ja: かきせこ やすたか
+    ja_match: romaji
+  ja_role: プロジェクトマネージャー
+- path:
+  - Supervisor
+  names:
+  - name: Hiroshi Kudo
+    ja: くどう ひろし
+    ja_match: romaji
+  ja_role: スーパーバイザー
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    ja: やまうち ひろし
+    kanji: 山内溥
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+- path:
+  - Game Production
+  names:
+  - name: Hudson
+    link: Hudson Soft
+    kind: company
+    ja_match: positional
+    ja: ハドソン
+  ja_role: ゲームせいさく
+ja_unmatched:
+- kana: りっち うぃるそん くにひこ
+  role: きょうりょく
+- kana: クリーチャーズ
+  role: きょうりょく
+- kana: カードゲーム せいさくしつ
+  role: きょうりょく
+- kana: テストプレイヤーズ
+  role: きょうりょく

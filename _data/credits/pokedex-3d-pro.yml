@@ -1,0 +1,394 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
+slug: pokedex-3d-pro
+title: Staff of Pokédex 3D Pro
+work: null
+year: 2012
+developer: Creatures, Inc.
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokédex_3D_Pro
+count: 213
+sections:
+- path:
+  - Director/Software Engineering
+  names:
+  - name: Hiroyuki Ogasawara
+- path:
+  - Software Development Engineering
+  names:
+  - name: Katsunori Orimoto
+  - name: Maximilien Dagois
+- path:
+  - Assistant Planning
+  names:
+  - name: Youta Hirano
+- path:
+  - Development Art Lead
+  names:
+  - name: Rie Takeuchi
+- path:
+  - Graphic Design
+  names:
+  - name: Tomohiro Sonoda
+  - name: Yasuyuki Sakuma
+  - name: Misaki Nakaoka
+  - name: Toru Hashimoto
+  - name: Hidenori Fujita
+  - name: Emi Nago
+  - name: Sakiko Hayashi
+- path:
+  - Effect Design
+  names:
+  - name: Masahiko Ishii
+  - name: Yu Shimotori
+- path:
+  - Sound Design
+  names:
+  - name: Takuto Kitsuta
+  - name: Ayumu Ito
+  - name: Wataru Ishiyama
+- path:
+  - Art Work
+  names:
+  - name: Sakae Kimura
+  - name: Kenichi Koga
+  - name: Hidefumi Ide
+- path:
+  - Manual Edition
+  names:
+  - name: Nobuhiro Seya
+- path:
+  - Pokémon Art Team
+  - Production Manager
+  names:
+  - name: Masamichi Anazawa
+- path:
+  - Pokémon Art Team
+  - Production Assistant
+  names:
+  - name: Miku Majima
+- path:
+  - Pokémon Art Team
+  - Art Director
+  names:
+  - name: Atsuko Ujiie
+- path:
+  - Pokémon Art Team
+  - Art Lead
+  names:
+  - name: Shunsuke Uematsu
+  - name: Takabon
+  - name: Hiroki Fujiwara
+- path:
+  - Pokémon Art Team
+  - Modeling Art
+  names:
+  - name: Yasuyuki Sakuma
+  - name: Hazuki Ago
+  - name: Hiroaki Ito
+  - name: Yusuke Shimada
+  - name: Kenichi Higeta
+  - name: Sachi Ichikawa
+  - name: Misaki Nakaoka
+  - name: Wataru Kawahara
+  - name: Katano Takanari
+  - name: Toru Hashimoto
+  - name: Hidenori Fujita
+- path:
+  - Pokémon Art Team
+  - Animation
+  names:
+  - name: Masataka Hata
+- path:
+  - Pokémon Art Team
+  - Software Development Engineering
+  names:
+  - name: Hiroyuki Ogasawara
+  - name: Katsunori Orimoto
+- path:
+  - Pokémon Art Team
+  - Technical Art
+  names:
+  - name: Rie Takeuchi
+  - name: Masahiko Ishii
+- path:
+  - Imagica Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Production Managers
+  names:
+  - name: Masaya Ishizuka
+  - name: Kazuhisa Nishimura
+- path:
+  - Imagica Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Modeling Art Lead
+  names:
+  - name: Gaku Nakamura
+- path:
+  - Imagica Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Modeling Art
+  names:
+  - name: Yasuhisa Sakamoto
+  - name: Masafumi Sugiyama
+  - name: Kenichi Tanaka
+  - name: Shoji Ando
+  - name: Yuya Endo
+  - name: Yoshihiro Iwata
+  - name: Koichi Arisaka
+  - name: Kotaro Kitada
+  - name: Koichiro Wakamatsu
+  - name: Minoru Koga
+  - name: Ryo Inomata
+  - name: Takayuki Makishima
+  - name: Kasumi Nagi
+  - name: Miu Inamura
+  - name: Yukio Hosoya
+  - name: Sunao Kashiwano
+  - name: Yuichi Komagata
+  - name: Yukari Hoshi
+  - name: Sakiko Hayashi
+  - name: Yusuke Nemoto
+  - name: Isa Kawashima
+  - name: Nozomi Inomata
+  - name: Mai Takai
+  - name: Yuri Suga
+  - name: Chisato Fujita
+  - name: Takeshi Tsuzaki
+  - name: Akane Haraki
+  - name: Yuya Hatano
+  - name: Tomoka Ogura
+  - name: Nana Kawanishi
+  - name: Satoko Nakao
+  - name: Noriaki Kitamura
+  - name: Ayumi Kikuta
+- path:
+  - Imagica Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Animation Lead
+  names:
+  - name: Tomokazu Yoshida
+  - name: Kazuaki Daimon
+- path:
+  - Imagica Digital Scape Co., Ltd. Bauhaus Entertainment Division
+  - Animation
+  names:
+  - name: Kazuhiro Suganuma
+  - name: Yosuke Takahashi
+  - name: Yasuko Motoki
+  - name: Hiromichi Hidaka
+  - name: Kosuke Hayashi
+  - name: Lee Ying-Ying
+- path:
+  - Game Design Advisors
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe
+- path:
+  - Pokémon Graphic Supervisors
+  names:
+  - name: Toya Yoneda
+  - name: Yuta Nakai
+  - name: Yukiko Kanagawa
+  - name: Nobue Kamikawabata
+- path:
+  - English Localization
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+  - name: Tim Hove
+  - name: Sayuri Munday
+- path:
+  - English Editing
+  names:
+  - name: Michael G. Ryan
+  - name: Kellyn Ballard
+  - name: Blaise Selby
+  - name: Hollie Beg
+  - name: Eoin Sanders
+- path:
+  - EU Localization
+  names:
+  - name: Noriko Netley
+  - name: Makiko Cottrell
+  - name: Mitsuyo Matsunaga
+  - name: Kaori Manabe
+  - name: Nami Kusumoto
+  - name: Eriko Cochrane
+- path:
+  - French Translation
+  names:
+  - name: Pascal Ehret
+  - name: Cyril Schultz
+  - name: Guillaume Didier
+- path:
+  - French Editing
+  names:
+  - name: Bertrand Lecocq
+  - name: Florian Becquereau
+- path:
+  - German Translation
+  names:
+  - name: Michael Ecke
+  - name: Daniel Heucher
+  - name: Kathleen Kalms
+- path:
+  - German Editing
+  names:
+  - name: Anja Weinbach
+  - name: Ralph Lunt
+- path:
+  - Italian Translation
+  names:
+  - name: Marco Sartori
+  - name: Gill George De Gregorio
+  - name: Manuela Suriano
+- path:
+  - Italian Editing
+  names:
+  - name: Marco Borrelli
+  - name: Francesca Gola
+- path:
+  - Spanish Translation
+  names:
+  - name: Alberto Gracia Castellano
+  - name: Alejandro Martínez Monge
+  - name: Enrique Joga Elvira
+- path:
+  - Spanish Editing
+  names:
+  - name: Esther Sánchez Giráldez
+  - name: Teresa Cueto Álvarez de Sotomayor
+- path:
+  - Manual Development Support
+  names:
+  - name: Rey Perez
+  - name: Antoin Johnson
+- path:
+  - NOA Localization Support
+  names:
+  - name: Seth McMahill
+  - name: Rie Fujiwara
+  - name: Joel Simon
+  - name: Dan Owsen
+- path:
+  - NOA Product Testing
+  names:
+  - name: Masayasu Nakata
+  - name: Kyle Hudson
+    kind: company
+  - name: Eric M. Bush
+  - name: Sean Egan
+  - name: Tomoko Mikami
+  - name: Thomas Hertzog
+  - name: Teresa Lillygren
+  - name: Nicko Gonzalez De Santiago
+  - name: Makiko Szolas
+  - name: Patrick Taylor
+  - name: Kathy Huguenard
+  - name: Joshua Newman
+  - name: Kindra Timmerwilke
+  - name: Sara Hoad
+  - name: Stephane Arlot
+- path:
+  - NOE Localisation Management
+  names:
+  - name: Andy Fey
+  - name: Michaël Hugot
+- path:
+  - NOE Localisation Producer
+  names:
+  - name: Jamie Grant
+- path:
+  - NOE QA Coordinator
+  names:
+  - name: Patrick Thorenz
+- path:
+  - NOE Quality Assurance
+  names:
+  - name: Ben Howard-Hale
+  - name: Chris Stewart
+  - name: Ben Southam
+  - name: Hannah Siebert
+  - name: Matthias Noll
+  - name: Benedikt Grosser
+  - name: Laurence Uhlen
+  - name: Marie-Cécile Dussol
+  - name: Florian Richert
+  - name: Daniele Albrito
+  - name: Fabio Brignoli
+  - name: Sergio Fragomeli
+  - name: David Higueras Nafría
+  - name: Laura Fernández Caballero
+  - name: Carolina Pacheco Cribero
+- path:
+  - Artwork
+  names:
+  - name: Keiko Inoue
+  - name: Sachiko Nakamichi
+- path:
+  - Manual Edition
+  names:
+  - name: Kiyomi Itani
+- path:
+  - Debug Management
+  names:
+  - name: Yuki Tanikawa
+  - name: Keisuke Fukushima
+  - name: Koji Kobayashi
+- path:
+  - Debug
+  names:
+  - name: Mario Club
+    kind: company
+- path:
+  - Technical Support
+  names:
+  - name: Shuhei Furukawa
+  - name: Kotaro Hiromatsu
+  - name: Shingo Okamoto
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjiro Ito
+  - name: Mikiko Ohashi
+  - name: Tomotaka Komura
+  - name: Atsushi Sugimoto
+  - name: Susumu Fukunaga
+  - name: Takato Utsunomiya
+  - name: Toshio Miyahara
+  - name: Taku Kawamoto
+  - name: Gakuji Nomoto
+  - name: Kaori Jimbo
+  - name: Eisuke Kasejima
+  - name: Nobuhiro Sawabe
+  - name: Retsuji Nomoto
+  - name: Michiko Takizawa
+  - name: Ayako Kajiwara
+  - name: Sho Furutani
+  - name: Takahiro Ohnishi
+  - name: Yuichiro Tsumita
+  - name: Masayuki Soga
+  - name: Kenji Okubo
+  - name: Gaku Susai
+  - name: Kei Ninomiya
+- path:
+  - Product Coordinators
+  names:
+  - name: Masamichi Anazawa
+  - name: Katsuyoshi Irie
+  - name: Shunsuke Kohori
+  - name: Shusaku Egami
+  - name: Akira Kinashi
+  - name: Noriko Nakao
+  - name: Yuki Okada
+- path:
+  - Producers
+  names:
+  - name: Hiroyuki Jinnai
+  - name: Hirokazu Tanaka
+  - name: Hitoshi Yamagami
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+  - name: Tsunekazu Ishihara

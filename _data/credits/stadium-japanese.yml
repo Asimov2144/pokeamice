@@ -1,0 +1,547 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium_(Japanese) + https://wiki.pokemonwiki.com/wiki/ポケモンスタジアムのスタッフクレジット
+slug: stadium-japanese
+title: Staff of Pokémon Stadium (Japanese)
+work: null
+year: 1998
+developer: Nintendo
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Stadium_(Japanese)
+count: 105
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンスタジアムのスタッフクレジット
+ja_alignment:
+  ja_total: 105
+  ja_matched: 102
+  ja_positional: 3
+  ja_only_added: 3
+sections:
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi
+    kanji: 山内溥
+    ja_match: bulbapedia-table
+    ja: やまうち ひろし
+  ja_role: エグゼクティブ プロデューサー
+- path:
+  - Producers
+  names:
+  - name: Shigeru Miyamoto
+    ja: みやもと しげる
+    kanji: 宮本茂
+    ja_match: romaji
+  - name: Kenji Miki
+    ja: みき けんじ
+    kanji: 三木研次
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_unaligned:
+  - 宮本茂
+  - 石原恒和
+  - 岩田聡
+  ja_role: プロデューサー
+- path:
+  - Director
+  names:
+  - name: Takao Shimizu
+    ja: しみず たかお
+    kanji: 清水隆雄
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Battle Director
+  names:
+  - name: Tatsuya Hishida
+    ja: ひしだ たつや
+    kanji: 菱田達也
+    ja_match: romaji
+  - name: Kensuke Tanabe
+    name_source: ja-only
+    ja: たなべ けんすけ
+    ja_match: ja-only
+    kanji: 田邊賢輔
+  ja_unaligned:
+  - 菱田達也
+  - 田邊賢輔
+  ja_role: バトル ディレクター
+- path:
+  - Chief Programmer
+  names:
+  - name: Yasunari Nishida
+    kanji: にしだやすなり
+    ja_match: bulbapedia-table
+    ja: にしだ やすなり
+  ja_role: チーフプログラマー
+- path:
+  - Programmers
+  names:
+  - name: Kenji Yamamoto
+    kanji: やまもとけんじ
+    ja_match: bulbapedia-table
+    ja: やまもと けんじ
+  - name: Yasuhiro Kawaguchi
+    kanji: かわぐちやすひろ
+    ja_match: bulbapedia-table
+    ja: かわぐち やすひろ
+  - name: Tomohiro Kawase
+    kanji: かわせともひろ
+    ja_match: bulbapedia-table
+    ja: かわせ ともひろ
+  - name: Yuzuru Ogawa
+    kanji: おがわゆずる
+    ja_match: bulbapedia-table
+    ja: おがわ ゆずる
+  - name: Shunsaku Kitamura
+    kanji: きたむらしゅんさく
+    ja_match: bulbapedia-table
+    ja: きたむら しゅんさく
+  ja_role: プログラマー
+- path:
+  - Sound Programmers
+  names:
+  - name: Masafumi Kawamura
+    kanji: かわむらまさふみ
+    ja_match: bulbapedia-table
+    ja: かわむら まさふみ
+  - name: Hideaki Shimizu
+    kanji: しみずひであき
+    ja_match: bulbapedia-table
+    ja: しみず ひであき
+  ja_role: サウンド プログラマー
+- path:
+  - Music
+  names:
+  - name: Kenta Nagata
+    kanji: 峰岸透
+    ja_match: bulbapedia-table
+    ja: ながた けんた
+  - name: Mitsuhiro Hikino
+    kanji: ひきのみつひろ
+    ja_match: bulbapedia-table
+    ja: ひきの みつひろ
+  - name: Tooru Minegishi
+    name_source: ja-only
+    ja: みねぎし とおる
+    ja_match: ja-only
+    kanji: 峰岸透
+  ja_role: おんがく
+- path:
+  - Modeling Director
+  names:
+  - name: Shinya Takahashi
+    ja: たかはし しんや
+    kanji: 高橋伸也
+    ja_match: romaji
+  ja_role: モデリングディレクター
+- path:
+  - Chief Modelers
+  names:
+  - name: Makoto Wada
+    kanji: わだまこと
+    ja_match: bulbapedia-table
+    ja: わだ まこと
+  - name: Tsuyoshi Watanabe
+    kanji: わたなべつよし
+    ja_match: bulbapedia-table
+    ja: わたなべ つよし
+  ja_role: チーフモデラー
+- path:
+  - Pokémon Modeling
+  names:
+  - name: Tokihiko Toyoda
+    kanji: とよだときひこ
+    ja_match: bulbapedia-table
+    ja: とよだ ときひこ
+  - name: Hiroaki Takenaka
+    kanji: たけなかひろあき
+    ja_match: bulbapedia-table
+    ja: たけなか ひろあき
+  - name: Hideki Ōkawa
+    kanji: おおかわひでき
+    ja_match: bulbapedia-table
+    ja: おおかわ ひでき
+  - name: Noriko Ikegawa
+    kanji: いけがわのりこ
+    ja_match: bulbapedia-table
+    ja: いけがわ のりこ
+  - name: Tomoyoshi Yamane
+    kanji: やまねともよし
+    ja_match: bulbapedia-table
+    ja: やまね ともよし
+  - name: Shinya Sano
+    kanji: さのしんや
+    ja_match: bulbapedia-table
+    ja: さの しんや
+  - name: Ryūji Kobayashi
+    kanji: こばやしりゅうじ
+    ja_match: bulbapedia-table
+    ja: こばやし りゅうじ
+  - name: Akiko Shibata
+    kanji: しばたあきこ
+    ja_match: bulbapedia-table
+    ja: しばた あきこ
+  - name: Akio Shibutani
+    kanji: しぶたにあきお
+    ja_match: bulbapedia-table
+    ja: しぶたに あきお
+  - name: Hiroyuki Fujiwara
+    kanji: ふじわらひろゆき
+    ja_match: bulbapedia-table
+    ja: ふじわら ひろゆき
+  - name: Kei Hoshiba
+    kanji: ほしばけい
+    ja_match: bulbapedia-table
+    ja: ほしば けい
+  - name: Kenji Matsuura
+    kanji: まつうらけんじ
+    ja_match: bulbapedia-table
+    ja: まつうら けんじ
+  - name: Junpei Mizusaki
+    kanji: みずさきじゅんぺい
+    ja_match: bulbapedia-table
+    ja: みずさき じゅんぺい
+  - name: Hideo Yamato
+    kanji: やまとひでお
+    ja_match: bulbapedia-table
+    ja: やまと ひでお
+  - name: Tomoaki Imakuni
+    kanji: いまくにともあき
+    ja_match: bulbapedia-table
+    ja: いまくに ともあき
+  - name: Shizu Higashiyama
+    kanji: ひがしやましず
+    ja_match: bulbapedia-table
+    ja: ひがしやま しず
+  - name: Takeshi Iizuka
+    kanji: いいづかたけし
+    ja_match: bulbapedia-table
+    ja: いいづか たけし
+  - name: Hajime Kuroyanagi
+    kanji: くろやなぎはじめ
+    ja_match: bulbapedia-table
+    ja: くろやなぎ はじめ
+  - name: Hitoshi Kobayashi
+    kanji: こばやしひとし
+    ja_match: bulbapedia-table
+    ja: こばやし ひとし
+  - name: Akira Yamazaki
+    kanji: やまざきあきら
+    ja_match: bulbapedia-table
+    ja: やまざき あきら
+  - name: Tōru Kurashige
+    kanji: くらしげとおる
+    ja_match: bulbapedia-table
+    ja: くらしげ とおる
+  - name: Hideki Ono
+    kanji: おのひでき
+    ja_match: bulbapedia-table
+    ja: おの ひでき
+  - name: Masato Nagashima
+    kanji: ながしままさと
+    ja_match: bulbapedia-table
+    ja: ながしま まさと
+  - name: Ken Ikuji
+    kanji: いくじけん
+    ja_match: bulbapedia-table
+    ja: いくじ けん
+  - name: Hiroaki Itō
+    kanji: いとうひろあき
+    ja_match: bulbapedia-table
+    ja: いとう ひろあき
+  - name: Masaya Kanō
+    kanji: かのうまさや
+    ja_match: bulbapedia-table
+    ja: かのう まさや
+  - name: Akira Matsumoto
+    kanji: まつもとあきら
+    ja_match: bulbapedia-table
+    ja: まつもと あきら
+  - name: Shinichi Yoshikawa
+    kanji: よしかわしんいち
+    ja_match: bulbapedia-table
+    ja: よしかわ しんいち
+  - name: Kazuo Yazawa
+    kanji: やざわかずお
+    ja_match: bulbapedia-table
+    ja: やざわ かずお
+  - name: Mitsuteru Satō
+    kanji: さとうみつてる
+    ja_match: bulbapedia-table
+    ja: さとう みつてる
+  - name: Takemi Ichikawa
+    kanji: いちかわたけみ
+    ja_match: bulbapedia-table
+    ja: いちかわ たけみ
+    ja_comment: 市川剛実<ref>[https://www.creators-station.jp/interview/legends/116117 ゲームのグラフィックス、アニメーションを主軸に、Crico株式会社は幅広いエンターテイメントコンテンツ創造の業務を展開している。]</ref>
+  - name: Atsuko Ujiie
+    kanji: うじいえあつこ
+    ja_match: bulbapedia-table
+    ja: うじいえ あつこ
+  - name: Satomi Kokubo
+    kanji: こくぼさとみ
+    ja_match: bulbapedia-table
+    ja: こくぼ さとみ
+  - name: Ryūta Kusumi
+    kanji: くすみりゅうた
+    ja_match: bulbapedia-table
+    ja: くすみ りゅうた
+  - name: Nachi Sugiyama
+    kanji: すぎやまなち
+    ja_match: bulbapedia-table
+    ja: すぎやま なち
+  - name: Hikaru Jinguuji
+    kanji: じんぐうじひかる
+    ja_match: bulbapedia-table
+    ja: じんぐうじ ひかる
+  - name: He Weihua
+    kanji: ほーうぃーほわ
+    ja_match: positional
+    ja: ほー うぃーほわ
+  - name: Terutaka Iwasaki
+    kanji: いわさきてるたか
+    ja_match: bulbapedia-table
+    ja: いわさき てるたか
+  - name: Tomomi Takeda
+    kanji: たけだともみ
+    ja_match: bulbapedia-table
+    ja: たけだ ともみ
+  - name: Hiroshi Ishikawa
+    kanji: いしかわひろし
+    ja_match: bulbapedia-table
+    ja: いしかわ ひろし
+  ja_role: ポケモンモデリング
+- path:
+  - Super Special Chief Modeler
+  names:
+  - name: Benimaru Itoh
+    kanji: 伊藤紅丸
+    ja_match: bulbapedia-table
+    ja: いとう べにまる
+  ja_role: スーパースペシャルチーフモデラー
+- path:
+  - Character Supervisor
+  names:
+  - name: Yōichi Kotabe
+    ja: こたべ よういち
+    kanji: 小田部羊一
+    ja_match: romaji
+  ja_role: キャラクターかんしゅう
+- path:
+  - 2D Designers
+  names:
+  - name: Yasushi Matsubara
+    kanji: まつばらやすし
+    ja_match: bulbapedia-table
+    ja: まつばら やすし
+  - name: Tomoaki Nakahara
+    kanji: なかはらともあき
+    ja_match: bulbapedia-table
+    ja: なかはら ともあき
+  - name: Junji Morii
+    kanji: もりいじゅんじ
+    ja_match: bulbapedia-table
+    ja: もりい じゅんじ
+  ja_role: 2Dデザイナー
+- path:
+  - Effects Designers
+  names:
+  - name: Masanao Arimoto
+    kanji: 日野重文
+    ja_match: bulbapedia-table
+    ja: ありもと まさなお
+  - name: Shigefumi Hino
+    name_source: ja-only
+    ja: ひの しげふみ
+    ja_match: ja-only
+    kanji: 日野重文
+  ja_role: エフェクトデザイナー
+- path:
+  - Technical Programmers
+  names:
+  - name: Jun Yamazaki
+    kanji: やまざきじゅん
+    ja_match: bulbapedia-table
+    ja: やまざき じゅん
+  - name: Chiharu Itō
+    kanji: いとうちはる
+    ja_match: bulbapedia-table
+    ja: いとう ちはる
+  - name: Hirohito Yoshimoto
+    kanji: よしもとひろひと
+    ja_match: bulbapedia-table
+    ja: よしもと ひろひと
+  - name: Yoshinori Tanimoto
+    kanji: たにもとよしのり
+    ja_match: bulbapedia-table
+    ja: たにもと よしのり
+  ja_role: テクニカルプログラマー
+- path:
+  - Original Game Design
+  names:
+  - name: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: bulbapedia-table
+    ja: たじり さとし
+  ja_role: オリジナル ゲームデザイン
+- path:
+  - Original Character Design
+  names:
+  - name: Ken Sugimori
+    kanji: 杉森建
+    ja_match: bulbapedia-table
+    ja: すぎもり けん
+  - name: Shigeki Morimoto
+    kanji: 森本茂樹
+    ja_match: bulbapedia-table
+    ja: もりもと しげき
+  - name: Motofumi Fujiwara
+    kanji: 藤原基史
+    ja_match: bulbapedia-table
+    ja: ふじわら もとふみ
+  - name: Atsuko Nishida
+    kanji: 西田敦子
+    ja_match: bulbapedia-table
+    ja: にしだ あつこ
+  ja_role: オリジナル キャラクターデザイン
+- path:
+  - Advisors
+  names:
+  - name: Takenori Ōta
+    kanji: おおたたけのり
+    ja_match: bulbapedia-table
+    ja: おおた たけのり
+  - name: Junichi Masuda
+    kanji: 増田順一
+    ja_match: bulbapedia-table
+    ja: ますだ じゅんいち
+  - name: Kōji Nishino
+    kanji: 西野弘二
+    ja_match: bulbapedia-table
+    ja: にしの こうじ
+  - name: Hiroyuki Jinnai
+    kanji: じんないひろゆき
+    ja_match: bulbapedia-table
+    ja: じんない ひろゆき
+  ja_role: アドバイザー
+- path:
+  - Technical Support
+  names:
+  - name: Takashi Sakuma
+    kanji: さくまたかし
+    ja_match: bulbapedia-table
+    ja: さくま たかし
+  - name: Yoshiyuki Tagawa
+    kanji: たがわよしゆき
+    ja_match: bulbapedia-table
+    ja: たがわ よしゆき
+  - name: Shigefumi Kawase
+    kanji: かわせしげふみ
+    ja_match: positional
+    ja: かわせ しげぞー
+  - name: Hironobu Kakui
+    kanji: かくいひろのぶ
+    ja_match: bulbapedia-table
+    ja: かくい ひろのぶ
+  - name: Shin Hasegawa
+    kanji: はせがわしん
+    ja_match: bulbapedia-table
+    ja: はせがわ しん
+  ja_role: テクニカルサポート
+- path:
+  - Progress Management
+  names:
+  - name: Kimiyoshi Fukui
+    kanji: ふくいきみよし
+    ja_match: bulbapedia-table
+    ja: ふくい きみよし
+  - name: Keizō Katō
+    kanji: かとうけいぞう
+    ja_match: bulbapedia-table
+    ja: かとう けいぞう
+  ja_role: プログレス マネージメント
+- path:
+  - Stadium Announcer
+  names:
+  - name: Kōichi Hasebe
+    ja: はせべ こういち
+    kanji: 長谷部浩一
+    ja_match: romaji
+  ja_role: じっきょう
+- path:
+  - Transfer Pak Staff
+  names:
+  - name: Kazuo Kōshima
+    kanji: こうしまかずお
+    ja_match: bulbapedia-table
+    ja: こうしま かずお
+  - name: Kazunori Koshiishi
+    kanji: こしいしかずのり
+    ja_match: bulbapedia-table
+    ja: こしいし かずのり
+  - name: Yūji Kimijima
+    kanji: きみじまゆうじ
+    ja_match: bulbapedia-table
+    ja: きみじま ゆうじ
+  - name: Kenichirō Ashida
+    kanji: あしだけんいちろう
+    ja_match: bulbapedia-table
+    ja: あしだ けんいちろう
+  - name: Kōji Mitsunari
+    kanji: みつなりこうじ
+    ja_match: bulbapedia-table
+    ja: みつなり こうじ
+  ja_role: 64GBパック スタッフ
+- path:
+  - Special Thanks
+  names:
+  - name: Katsuhito Yamauchi
+    kanji: やまうちかつひと
+    ja_match: bulbapedia-table
+    ja: やまうち かつひと
+  - name: Tadashi Inoue
+    kanji: いのうえただし
+    ja_match: bulbapedia-table
+    ja: いのうえ ただし
+  - name: Yasuhiro Sakai
+    kanji: さかいやすひろ
+    ja_match: bulbapedia-table
+    ja: さかい やすひろ
+  - name: Wataru Yamaguchi
+    kanji: やまぐちわたる
+    ja_match: bulbapedia-table
+    ja: やまぐち わたる
+  - name: Yūsuke Nakano
+    kanji: なかのゆうすけ
+    ja_match: bulbapedia-table
+    ja: なかの ゆうすけ
+  - name: Masanori Satō
+    kanji: さとうまさのり
+    ja_match: bulbapedia-table
+    ja: さとう まさのり
+  - name: Atsushi Tejima
+    kanji: てじまあつし
+    ja_match: bulbapedia-table
+    ja: てじま あつし
+  - name: Naruhisa Kawano
+    kanji: かわのなるひさ
+    ja_match: bulbapedia-table
+    ja: かわの なるひさ
+  - name: Michiyo Ōshio
+    kanji: おおしおみちよ
+    ja_match: bulbapedia-table
+    ja: おおしお みちよ
+  - name: Super Mario Club
+    kanji: スーパーマリオクラブ
+    ja_match: positional
+    kind: company
+    ja: スーパーマリオクラブ
+  ja_role: スペシャルサンクス
+anomalies:
+- 表格日文列对不齐：['Producers'] 4 vs 3
+- 表格日文列对不齐：['Battle Director'] 1 vs 2

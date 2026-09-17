@@ -1,0 +1,50 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Masters_Arena
+slug: masters-arena
+title: Staff of Pokémon Masters Arena
+work: null
+year: 2004
+developer: ImaginEngine Corp
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Masters_Arena
+count: 16
+sections:
+- path:
+  - Producer
+  names:
+  - name: Bridget Erdmann
+- path:
+  - Animator
+  names:
+  - name: Bridget Erdmann
+- path:
+  - Engineers
+  names:
+  - name: Randall Sanborn
+  - name: Greg Cioffi
+  - name: Chris Beggs
+  - name: Brian Weed
+- path:
+  - Designer
+  names:
+  - name: Randall Sanborn
+- path:
+  - Graphic technician
+  names:
+  - name: Dave Little
+- path:
+  - Sound
+  names:
+  - name: Jeff Darby
+- path:
+  - Music
+  names:
+  - name: David Earl
+- path:
+  - Pokémon USA, Inc. (unknown roles)
+  names:
+  - name: Akira Chiba
+  - name: Kei Taoka
+  - name: Lauren Emerson
+  - name: Maya Nakamura
+  - name: Chris Brixey
+  - name: Tao Nyeu

@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{%- comment -%}
+The staff-roll directory: every game whose credits the library holds, core
+series first in release order, then the spin-offs. Counts come from
+_data/credits_games.yml (written by tools/build-credits-site.py).
+{%- endcomment -%}
+{% assign core = site.data.credits_games | where: "core", true %}
+{% assign spin = site.data.credits_games | where: "core", false %}
+{% assign total = 0 %}{% for g in site.data.credits_games %}{% assign total = total | plus: g.count %}{% endfor %}
+
+<div id="main" role="main">
+  <div class="archive archive--person archive--credits">
+    <section class="people credits credits--index">
+      <header class="people__head">
+        <p class="person__kicker">制作名单</p>
+        <h1 class="person__name">历作 staff 名单</h1>
+        <p class="people__lede">{{ site.data.credits_games.size }} 部作品、{{ total }} 条署名：Game Freak 的全部宝可梦作品，加上有 Game Freak 员工客串的外传。英文版来自 Bulbapedia，日文读法与汉字来自ポケモンWiki，Switch 世代另以游戏内原文核对。
+          看每个人的历作职务请去 <a href="{{ '/credits/staff/' | relative_url }}">历作 staff 总表</a>；已建人物页的人在名单里可以直接点开。</p>
+      </header>
+
+      <section class="credits__digest" aria-label="研究札记">
+        <div class="credits__digest-head">
+          <h2 class="credits__h2">研究札记</h2>
+          <p class="credits__help">下面几条是从逐作对比里读出来的规律（"缺席"指该作名单里没有署名、Special Thanks 不算）。它们是推断，不是官方说法；细节在<a href="{{ '/credits/staff/' | relative_url }}">总表</a>里都能逐人查到。</p>
+        </div>
+        <ol class="credits__notes">
+          <li><b>从 12 人到两个企划团队。</b>红·绿的 Game Freak 本体只有 12 人、没有任何中层头衔；2002 红宝石·蓝宝石一次性建立 Art Director / Battle Director / Main Programmer 层；2016 太阳·月亮引入 Section Director 制；2022 起阿尔宙斯与朱·紫两支企划团队并行，共享 CG 技术部和宝可梦模型团队。</li>
+          <li><b>一批人同时缺席、又同时回归，中间一定有另一部作品。</b>2004 火红·叶绿与绿宝石是两支队伍；2014 缺席 ORAS 的 67 人正是太阳·月亮的领导核心；2016 缺席太阳·月亮的 85 人分成 Let's Go 组和剑·盾组——2017 年 GF 同时运转三条线。</li>
+          <li><b>总监交接有迹可循。</b>田尻智 → 増田順一（金·银 Sub Director → 水晶 Director）→ 大森滋（X·Y Planning Director → ORAS Director）→ 岩尾和昌（日月 Section Director → 究极日月 Director → 阿尔宙斯 Director）；每位新总监的第一部 Director 作品都是姊妹作。</li>
+          <li><b>Z-A 继承阿尔宙斯线，Pokopia 接走了朱·紫线的一组人。</b>零之秘宝（2023）完成后，朱·紫线的 Field Planning、3D 地图和游戏程序整组没有进 Z-A、Pokopia 或 Champions——约五十人同时消失，比个人离开更像是在做一部尚未公布的作品。</li>
+          <li><b>"没上 Champions"不是离职信号。</b>Champions 只有 339 条署名且多为 TPC / ILCA 方；判断去向要看 Z-A、Pokopia 与外传，名单页里每个人的最后一次署名都能点开核对。</li>
+        </ol>
+      </section>
+
+      <h2 class="credits__h2">核心作品 <small>{{ core.size }}</small></h2>
+      <ul class="credits__grid">
+        {% for g in core %}
+          {% assign wi = site.data.works | where: "name", g.work | first %}
+          <li>
+            <a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}">
+              {% if wi.icon %}<img src="{{ wi.icon | relative_url }}" alt="" loading="lazy" width="48" height="48">{% else %}<span class="credits__grid-blank" aria-hidden="true">{{ g.year }}</span>{% endif %}
+              <span class="credits__grid-title">{{ g.title_zh }}</span>
+              <span class="credits__grid-meta">{{ g.year }} · {{ g.developer }} · {{ g.count }} 人{% if g.gf_count %} · <img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> {{ g.gf_count }}{% endif %}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h2 class="credits__h2">外传 <small>{{ spin.size }}</small></h2>
+      <p class="credits__help">其他公司开发、Game Freak 员工以监修 / 宝可梦设计 / 特别感谢等身份出现的作品。年份与开发商取自 Bulbapedia 的游戏页。<img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> 后面的数字是名单里 Game Freak 成员的人数（按 GF 自研作品的署名推断，特别感谢不计）；名单页里这些人的名字旁也带这个标记。</p>
+      <ul class="credits__grid credits__grid--compact">
+        {% for g in spin %}
+          <li>
+            <a href="{{ '/credits/' | append: g.slug | append: '/' | relative_url }}">
+              <span class="credits__grid-title">{{ g.title }}</span>
+              <span class="credits__grid-meta">{{ g.year }} · {{ g.developer }} · {{ g.count }} 人{% if g.gf_count %} · <img class="credits__gf" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> {{ g.gf_count }}{% endif %}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,751 @@
+
+[[Pokémon Trading Card Game Pocket]]の'''スタッフクレジット'''を示す。開発元は[[DeNA]]・[[クリーチャーズ]]、販売元は[[株式会社ポケモン]]である。
+
+== 一覧 (2024) ==
+;Developed by
+:[[DeNA|DeNA Co., Ltd.]]
+;Producers
+:'''Producer'''
+:[[井口徹也|Tetsuya Iguchi]]
+:'''Assistant Producer'''
+:Yusuke Nogami
+;Directors
+:'''General Director'''
+:Ai Takeuchi
+:'''Development Directors'''
+:Seitaro Mizuno
+:Hotaka Suzuki
+:'''Operations Director'''
+:Yuki Mantani
+:Katsuyuki Shiga
+;Project Managers
+:Sakiko Kano
+:Rie Ito
+:Masaaki Inoguchi
+:Masato Tsukagoshi
+:Dennis Sachio Imabeppu
+:Yoshito Kuwahara
+:Ami Kwak
+;Engineering Managers
+:Ryo Watanabe
+:Yu Shiraiwa
+;Client Engineers
+:'''Lead Engineer'''
+:Shimpei Masaki
+:'''Lead Battle Engineer'''
+:Hajime Nakajima
+:'''Battle Engineers'''
+:Hiroki Harada
+:Kensaku Kusuhara
+:Yuki Nakashima
+:Noriyuki Suwa
+:Masaki Honaga
+:Satoru Konishi
+:Shuzo Miura
+:Shun Otsuka
+:Naoki Take
+:'''Lead Outgame Engineers'''
+:Dennis Sachio Imabeppu
+:Ryota Suzuki
+:Shinya Kasahara
+:'''Outgame Engineers'''
+:Satoshi Kasuga
+:Tomohiko Horigome
+:Shingo Tanaka
+:Maiko Akutsu
+:Yuki Imai
+:Yuhei Inoue
+:Takuma Seimiya
+:Keiji Ohara
+:Kaoru Yamabe
+:Takafumi Naito
+:Takuya Katsurada
+:Shinju Okubo
+:'''Lead Graphics Engineer'''
+:Ryuya Matsuda
+:'''Graphics Engineers'''
+:Yuma Handa
+:Masafumi Yamamoto
+:'''Lead Release Engineer'''
+:Genta Mizumoto
+:'''Release Engineers'''
+:Kaoru Yamabe
+:Kazuteru Nagasawa
+:Jiha Kim
+;AI Systems
+:'''AI Engineering Managers'''
+:Ikki Tanaka
+:Yutaka Imoto
+:'''AI Engineers'''
+:Dennis Sachio Imabeppu
+:Yu Kono
+:Taira Takahashi
+:Kosuke Sakami
+:Shintaro Takemura
+:Katsuki Ohto
+:Katsuhiko Sato
+;Server Engineers
+:'''Engineering Manager'''
+:Yasunori Yanai
+:'''Lead Engineer'''
+:Tomohiro Tatsukura
+:'''Engineers'''
+:Yoichiro Kataoka
+:Yoshiro Kitazawa
+:Keisuke Shibata
+:Yuuki Ikuta
+:Mai Omoto
+:Song Yin
+:Tatsuya Abe
+:Kazuma Fujimaki
+:Tetsuro Tamura
+:Yusuke Yoshida
+:Hiroki Awata
+:Shogo Sakata
+:Takuya Katsurada
+:Terunori Togo
+:Ryota Chihara
+:Yuta Ono
+;Battle Server Engineers
+:'''Engineering Manager'''
+:Shintaro Seki
+:'''Engineers'''
+:Shintaro Seki
+:Yusuke Yoshida
+:Hiroki Awata
+:Shogo Sakata
+:Tetsu Kinomura
+;Platform Service
+:'''Project Manager'''
+:Ha Le
+:'''Front End Engineer'''
+:Akihiro Tokoro
+;Game Platform Developers
+:'''Technical Leads'''
+:Takuma Komatsu
+:Haruto Otake
+:'''Engineers'''
+:Hiroki Sakai
+:Xu Zhao
+:Suguru Yamashita
+:Shinnosuke Motegi
+:Hayato Sato
+:Yutao Long
+:Mitsuhiko Ota
+:Morimoto Kosuke
+:Yota Hiraishi
+:Masashi Fujimoto
+:Junichi Kikuchi
+:Ayumi Otomo
+:Yuki Inagawa
+:Akiko Kawai
+;Graphics Platform Developers
+:'''Engineers'''
+:Ryuya Matsuda
+:Masafumi Yamamoto
+:Yo Furukawa
+:Masaki Iwasaki
+:Takahiro Katagiri
+:Takahiro Kosaka
+:Akira Matsuo
+:Junko Muroyama
+:Haruyuki Imai
+;Master Data Developers
+:'''Engineering Manager'''
+:Yuji Narita
+:'''Engineers'''
+:Ryo Takamatsu
+:Noriyoshi Samata
+:Timothy du Heaume
+;Site Reliability Engineers
+:'''Engineering Manager'''
+:Takazumi Shirayanagi
+:'''Engineer'''
+:Yuki Sakai
+;Infrastructure Engineers
+:'''Engineering Manager'''
+:Tomoki Amano
+:'''Lead Engineer'''
+:Noriaki Hangyo
+:'''Engineers'''
+:Jun Matsuura
+:Youngjoon Lee
+:Tomonori Hirata
+:Hayato Hagari
+:Hayato Fujita
+:Kosei Izawa
+:Hiroyuki Nishizaki
+:Lyu Yuan
+:Tatsuki Mutsuro
+;Security Engineers
+:Takahiko Funakubo
+:Shingo Mori
+:Akira Kuroiwa
+:Ryo Ishizuka
+;Art and Design
+:'''Art Managers'''
+:Akio Oyama
+:Toshiyuki Takeyasu
+:Yota Sugiyama
+:Wataru Sakomura
+:'''Visual Owner'''
+:Akio Oyama
+:'''Visual Owner Assistants'''
+:Rena Hattori
+:Yugo Honda
+:'''Creative Project Managers'''
+:Nozomi Tsutsumi
+:Mizuki Uekusa
+:'''Lead UI Artist'''
+:Haruka Sato
+:'''UI Artists'''
+:Daisuke Toya
+:Atsuko Sakamoto
+:Asuka Fukuzawa
+:'''Lead UI Developer'''
+:Tsuyoshi Watanabe
+:'''UI Developers'''
+:Yota Sugiyama
+:Akane Mori
+:Kiyoko Tsuchikura
+:Tomomi Arizono
+:'''Lead 3D Card Developer'''
+:Wataru Sakomura
+:'''3D Card Developers'''
+:Yugo Honda
+:Risa Goto
+:Seira Morimitsu
+:Moeka Uo
+:Masako Aoyagi
+:'''Card UI Developer'''
+:Yota Sugiyama
+:'''Lead Animation Artist'''
+:Chiyomi Oikawa
+:'''Animation Artist'''
+:Kaori Ishiyama
+:'''Lead VFX Artist'''
+:Ikumi Kaneda
+:'''VEX Artists'''
+:Rena Hattori
+:Mayu Sato
+:'''2D Artists'''
+:Asuka Fukuzawa
+:Moeka Uo
+:'''Technical Artists'''
+:Takaya Hirota
+:Yuma Handa
+;Game Design
+:'''Game Design Managers'''
+:Goki Miura
+:Katsuyuki Shiga
+:'''Lead Battle Game Designers'''
+:Ryosuke Horita
+:Yuki Mantani
+:'''Battle Game Designers'''
+:Atsushi Matsuno
+:Komei Kadonaga
+:Seiji Shimoda
+:Yuki Kawanishi
+:'''Lead Outgame Designer'''
+:Hotaka Suzuki
+:'''Outgame Designers'''
+:Akihito Mimoto
+:Satoru Nakano
+:Wataru Hasegawa
+:Komei Kadonaga
+:Hiroki Ami
+:'''Lead Event Game Designers'''
+:Goki Miura
+:Seiji Oshima
+:'''Event Game Designers'''
+:Akihito Mimoto
+:Tomomi Hamamura
+:Asami Morishita
+:Yuki Babazono
+:'''Game Designers'''
+:Kazuki Nakatani
+:Kaori Nomura
+:Noriko Kato
+:Shogo Minamoto
+:'''Level Designer'''
+:Minami Yamaguchi
+;Localization
+:'''Localization Project Managers'''
+:Goki Miura
+:Rachel Funatsu
+:Ayumi Okuyama
+:Mariko Goto
+:'''Engineers'''
+:Yo Furukawa
+:Taku Nonomura
+:'''Localization Architects'''
+:Kazuki Nakatani
+:Kaori Nomura
+;Sound
+:'''Sound Director'''
+:Harumi Yamaguchi
+;Outsource Management
+:'''Outsourcing Coordinators'''
+:Yasuto Osari
+:Motoki Ikeda
+;Development Support
+:'''Software Engineers in Test'''
+:Yuki Kokubun
+:Kazuma Inagaki
+:Yoshitaka Seki
+:Keigo Imai
+:Satoshi Iijima
+:Junya Shijubo
+;Legal
+:'''Legal Project Managers'''
+:Toshiaki Hosono
+:Xiaosen Lu
+:'''Intellectual Property Manager'''
+:Hiroyuki Umeki
+:'''Legal Staff'''
+:Koji Hiraoka
+:Masashi Okumura
+:David Masuda
+:Haruka Okui
+:Mizue Kofunato
+:'''Intellectual Property Staff'''
+:Yoshihiro Takazawa
+:'''Security Staff'''
+:Takayuki Okamura
+:Noriko Yamada
+:Kana Miyoshi
+;Analysts
+:'''Analytics Director'''
+:Yuki Nakagawa
+:'''Lead Analyst'''
+:Naotaka Sato
+:'''Analysts'''
+:Yuki Banno
+:Rie Onishi
+:'''Data Engineers'''
+:Yoshikazu Kamoshida
+:Shiki Hamada
+:Bruno Watanabe
+:Taku Takenaga
+:Tetsu Kasanishi
+:'''User Experience Researchers'''
+:Masayuki Takai
+:Saori Iino
+:Jumpei Kuwayama
+:Yuka Abe
+;Marketing
+:'''Marketing Communications'''
+:Satoshi Tsuruda
+:Teruyuki Magara
+:Yuichi Fukada
+:Sayuri Nakamura
+:Masafumi Suzuki
+;Quality Assurance
+:Yosuke Takeuchi
+:Kyota Suzuki
+:Shota Sasagawa
+;Special Thanks
+:'''Business Support'''
+:Hiroko Tanaka
+:'''Coordination'''
+:Keigo Watanabe
+:Ken Kitamura
+;Executive Producer
+:Shingo Okamura
+;Pokémon Card D Studio Co., Ltd
+;CONNECT+ECHO co.,ltd.
+;Composer/Sound Designer
+;dattxua
+;Cloud Ace Co., Ltd.
+;Claytechworks Co. Ltd.
+;Pole To Win, Inc.
+;GIANTY Inc.
+;Pokémon Trading Card Game Development / Apps Planning
+:[[クリーチャーズ|Creatures Inc.]]
+;Producer
+:[[北野祐司|Yuji Kitano]]
+;Senior Project Managers
+:[[岡本康太|Kota Okamoto]]
+:Seiya Nomoto
+;Senior Creative Directors
+:[[松岡洋史|Hirofumi Matsuoka]]
+:[[長島敦|Atsushi Nagashima]]
+;Creative Director
+:Ryo Tsujikawa
+;Senior Art Directors
+:Kenichi Koga
+:Satoru Nagaya
+;Planning Directors
+:Norio Matsumura
+:Yukinori Torii
+;Illustration Director
+:Haru Saito
+;Sound Direction
+:Ayumu Ito
+;Game Design
+:'''Game Design Managers'''
+:Hyuma Mihara
+:Hiroshi Takano
+:'''Game Design'''
+:Yuta Fujishima
+:[[イマクニ?|Tomoaki Imakuni]]
+:Akihito Joguchi
+:Takahiro Kobori
+:Koga Oda
+:Shunsuke Sasaki
+:Shinya Takahashi
+:Akio Yamada
+:Yuki Yamada
+;Art Design
+:'''Art Design Managers'''
+:Hitoshi Okahashi
+:Shizuka Yokoyama
+:'''Art Design'''
+:Ikumi Fujishiro
+:Hidefumi Ide
+:Masaaki Sumiya
+:Nanami Takeuchi
+;Illustration Direction
+:'''Illustration Managers'''
+:Gaku Asakura
+:Ayaka Hagiwara
+:Yuko Kokubun
+:Natsumi Suwabe
+:'''Illustration Direction'''
+:Yuki Amano
+:Takuya Endo
+:Hikari Ishikawa
+:Hiroaki Ito
+:Yoshiyasu Ito
+:Rei Kitahara
+:Reina Koshino
+:Naoki Kuroshima
+:Tomohiro Mori
+:Hiroyasu Nishino
+:Risako Sakai
+:Yuki Shikama
+:Tsukasa Tamura
+:Mariko Umeda
+:Takuto Yamaoka
+:Kyoko Yoshida
+;Quality Control
+:'''Quality Control Managers'''
+:Shuhei Tadano
+:Yasuhiro Ito
+:'''Quality Control'''
+:Masatsugu Fujikura
+:Koji Yoshida
+:Rika Arai
+;Music
+:[[橘田拓人|Takuto Kitsuta]]
+;Project Managers
+:Gonzalo Vázquez Cañedo
+:Yuki Otsuka
+:Masaki Imaizumi
+:Shinya Narita
+;Playtesters
+:Keita Fujimaki
+:Kosuke Hiwatashi
+:Yuta Ishikawa
+:Kosuke Nishimura
+:Haruki Sawa
+;Pokémon Trading Card Game Development Support
+:Shohei Fukami
+:Jun Kanda
+:Takashi Koga
+:Jun Nakata
+:Miki Obata
+:Tomohiro Sonoda
+:Masaya Takano
+:Keita Tsukamoto
+:Yasunori Yanagisawa
+;Special Thanks
+:[[田中宏和|Hirokazu Tanaka]]
+:[[小村知孝|Tomotaka Komura]]
+;STUDIO MAGIC INNOVATIONS Co.,Ltd.
+;whomor Inc.
+;RHINOCEROS INC.
+;Crico,inc.
+;Pokémon Produced by
+:[[株式会社ポケモン|The Pokémon Company]]
+;Producers
+:'''Executive Producer'''
+:[[石原恒和|Tsunekazu Ishihara]]
+:'''General Producer'''
+:[[宇都宮崇人|Takato Utsunomiya]]
+:'''Producer'''
+:[[廣部圭太|Keita Hirobe]]
+;Coordination
+:'''Lead Coordinator'''
+:Ryosuke Hanawa
+:'''Marketing Coordinator'''
+:Sho Yoshimoto
+:'''Coordinators'''
+:Aiko Namikawa
+:LI ER
+:Mayumi Aoyama
+:Misa Hikita
+:Satoki Nakamura
+:Shunsuke Takagi
+:Takuya Hashimoto
+:Yuji Ota
+:Yuta Nakamura
+;Brand Operations
+:'''Art Director'''
+:[[Etsuya Hattori]]
+:'''Designer'''
+:Keiko Okawa
+:Li Jiaqi
+:Natsuki Shinohara
+;Chinese Localization
+:Izumi Watanabe
+:Shuyang Jia
+:Mitsuyo Matsunaga
+:Jingyi Yu
+;Chinese Translation & Editing
+:Chungte Huang
+:Yencheng Lin
+:Hanru Yang
+;Customer Service
+:Kazunori Sugiura
+:Masato Kitamura
+:Shu Amagiri
+:Yohei Yamamoto
+:Yosuke Senoo
+;Development Support
+:Nobuyuki Ohta
+:Tatsuya Ichijo
+:Chitose Kawakami
+:Ohchi Yuhma
+:Kayo Nakata
+;Legal
+:Hirotaka Hayakawa
+:Maiko Usami
+:Daigorotoyohide Suga
+:Kensuke Arai
+:Yuta Hara
+:Junko Tamura
+:Nao Tajima
+;Marketing
+:Keiya Nakahara
+:Liu Ishiguro
+:Nobue Ito
+:Shungo Asano
+:Yuma Hon
+:Yurie Nakamaru
+;TCG Business Development
+:Masayuki Miura
+;Special Thanks
+:Takanori Sowa
+:Shoichi Obora
+:Chie Shinno
+:Taku Kawamoto
+:Kenji Masaki
+:Tomoe Naganuma
+;Graphic Co., Ltd.
+;THINGMEDIA Inc.
+;Too Corporation
+;Fontworks Inc.
+;Monotype Imaging Inc.
+;DIGITAL HEARTS Co., Ltd.
+;Localization
+:The Pokémon Company International
+;English and Brazilian Portuguese Localization
+:Mikiko Ryu
+:Chie Stutzman
+:Mika Ishikawa
+:Miho Lyon
+:Reiko de Sorbier de Pougnadoresse
+:Jeff Hines
+:Kellyn Ballard
+:Hisato Yamamori
+;English Translation
+:Alex Small
+:Ryan Sugo
+:Bryson Clark
+:Satoko Deas
+:Lars Henriksen
+:Stephan Kim
+;English Editing
+:Eric Haddock
+:Stephen Meyerink
+:Amy Morris
+:Dermot Creegan
+:Isaac Nickerson
+;Brazilian Portuguese Translation and Editing
+:Lucas Peterson
+:Rafael Pimpinato
+:Thais Nucci
+:Camila Duque
+:Michael Pantaleão
+;European Localization
+:Kaori Aoki
+:Daniel Anscomb
+:Emily Hitchmough
+:Rhys Giles
+:Hirotaka Nishino
+:Chika Tanigaki
+:Owen Preece
+:Hideko Russell
+:Kendra Evans
+:Ritsuko Oshu
+:Nami Kusumoto
+:Mark Bunting
+:Marvin Andrews
+:Peter Bagley
+:Elena Nardo
+:Michael Ecke
+:Pierre Gauthier
+:Guillaume Didier
+:Fabio Giusti
+:Diego Figaredo
+;French Translation
+:Alexane Bailleul
+:Lytta Khrissate
+:Nicolas Sindres
+:Arthur Blondel
+;French Editing
+:Matthieu Béthencourt
+:Aurelie Kryvinskyj
+:Violette Giang
+:Leslie Gambini
+:Elodie Verpoort
+:Diana Ahmed
+:Jena Gattegno
+;German Translation
+:Caroline Fest
+:Lina Emmerich
+:Christopher Derbort
+:Daniel Heucher
+:Sophie Jüterbock
+:Kathleen Kalms
+:Carolin Maibach
+;German Editing
+:Sira Vaterhaus
+:Jochen Künzel
+:Sina Moelleken
+:Caroline Büsch
+:Paul Seidenstecher
+:Alina Linnenweber
+:Juliana Niederwanger
+:Ireneusz Radko
+:Barbara Schweinzer
+;Italian Translation
+:Guido Scarabello
+:Altan Couvert
+:Marco Sartori
+:Francesca Serci
+:Annarita Spera
+:Manuela Suriano
+:Jacopo Vanin
+;Italian Editing
+:Sergio Bianchi
+:Silvia De Bellis
+:Valerio Amato
+:Claudio Calzolari
+:Valentina Menale
+:Marco Locatelli
+:Guendalina Pirruccio
+:Alice Troiani
+;Spanish Translation
+:Servando Doval Diaz
+:Jorge Diez Lasheras
+:Alicia Iribarren Mendoza
+;Spanish Editing
+:Rubén Lado Riomao
+:Virginia Paradés Gurrea
+:Juan José Leiva Jiménez
+:Diana Vázquez Saiz
+:Daniela Castillo
+:Mai Castro Arellano
+:Sebastián Erasmy Vergara
+:Alex Fortes
+:Irene Mascaró Genestar
+:Javier Ortiz Carrillo
+:Julieta Ortiz
+:Mariona Pera i de Miguel
+:Pindaro Vargas-Farías
+;Localization Support
+:Eoin Sanders
+:Hollie Beg
+:Alexia Campagne-Descré
+:Dorian Mouëzy
+:Filippo Rizzi
+:Marina Gagliardi
+:Marica Gusella
+:Elio Sottoscritti
+:Monika Tracy
+:Teresa Cueto Álvarez de Sotomayor
+:Jose Gallego
+:Paz López Lorente-Sorolla
+:Jesús Miguel Díaz Muriel
+:Marco Borrelli
+:Esther Sánchez Giráldez
+;Localisation Quality Assurance
+:Maxim Mizin (PTW International UK Ltd.)
+:David McMeekin (PTW International UK Ltd.)
+:Terri Desborough (PTW International UK Ltd.)
+:Dmytro Nazarov (PTW International UK Ltd)
+:Henar Garcia Pérez (PTW International UK Ltd.)
+:Julia Asmus (PTW International UK Ltd.)
+:Nils Kruger (PTW International UK Ltd.)
+:Pauline Berron (PTW International UK Ltd.)
+:Sergejs Adamovs (PTW International UK Ltd.)
+:Tania Duvernay (PTW International UK Ltd.)
+:Ian Walters (PTW International UK Ltd.)
+:Gil Hoyle (PTW International UK Ltd)
+:João Gomes (PTW International UK Ltd.)
+:Enzo Benedetti (PTW International UK Ltd.)
+:Ilaria Boccella (PTW International UK Ltd.)
+:Lara Turna (PTW International UK Ltd.)
+:Celia Reyes Lamoneda (PTW International UK Ltd.)
+:Filipe de Almeida Oscar (PTW International UK Ltd.)
+;Special Thanks
+:Kenji Okubo
+:Gaku Susai
+:Taito Okiura
+:Torrie Dorrell
+:Amy Ganster
+:Andy Gose
+:Andy Hartpence
+:Barry Sams
+:Charlie Spinner
+:Courtney Kim
+:Daniel Benkwitt
+:David Cheung
+:David Numrich
+:Kaoru Otawara
+:Peter Murphy
+:Phaedra Long
+:Richie Enticknap
+:Stewart Pagan
+:Winston Lung
+:Yasuhiro Usui
+:Alison Chyan
+:Steve Lee
+:Reina Nagai
+;Localization
+:Pokémon Korea, Inc.
+;Korean Translation & Editing
+:Mihwa Choi
+:Jieun Byun
+:Youngjun Park
+:Dongun Pak
+:Jooyeon Han
+:Byunghun Bae
+:Yoojin Kwon
+;Special Thanks
+:Jaiboem Lim
+:Jihye Lee
+:Kyung Wook Noh
+:Anjin Choi
+;Very Special Thanks
+:[[ゲームフリーク|GAME FREAK inc.]]
+
+{{DEFAULTSORT:ほけもんとれえていんくかあとけえむほけつとのすたつふくれしつと}}
+[[Category:Pokémon Trading Card Game Pocket|すたつふくれしつと]]
+[[Category:スタッフクレジット]]
+[[Category:一覧]]
+
+[[en:Staff of Pokémon Trading Card Game Pocket]]
+[[it:Staff del Gioco di Carte Collezionabili Pokémon Pocket]]

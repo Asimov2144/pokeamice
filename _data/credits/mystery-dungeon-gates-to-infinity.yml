@@ -1,0 +1,550 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Gates_to_Infinity + https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_〜マグナゲートと∞迷宮〜のスタッフクレジット
+slug: mystery-dungeon-gates-to-infinity
+title: 'Staff of Pokémon Mystery Dungeon: Gates to Infinity'
+work: null
+year: 2012
+developer: Spike Chunsoft
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon:_Gates_to_Infinity
+count: 129
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_〜マグナゲートと∞迷宮〜のスタッフクレジット
+ja_alignment:
+  ja_total: 129
+  ja_matched: 129
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Producer
+  names:
+  - name: Koichi Nakamura
+    ja: Koichi Nakamura
+    kanji: 中村光一
+    ja_match: romaji
+  ja_role: PRODUCER
+- path:
+  - Director
+  names:
+  - name: Seiichiro Nagahata
+    ja: Seiichiro Nagahata
+    kanji: 長畑成一郎
+    ja_match: romaji
+  - name: Hironori Ishigami
+    ja: Hironori Ishigami
+    kanji: 石神宏紀
+    ja_match: romaji
+  ja_role: DIRECTORS
+- path:
+  - Scenario
+  names:
+  - name: Shin-ichiro Tomie
+    ja: Shin-ichiro Tomie
+    kanji: 冨江慎一郎
+    ja_match: romaji
+  ja_role: SCENARIO
+- path:
+  - Event planning director
+  names:
+  - name: Emiko Tanaka
+    ja: Emiko Tanaka
+    kanji: 田中絵美子
+    ja_match: romaji
+  ja_role: EVENT PLANNING DIRECTOR
+- path:
+  - Event planning
+  names:
+  - name: Namiko Fukuda
+    ja: Namiko Fukuda
+    ja_match: romaji
+  - name: Susumu Kotegawa
+    ja: Susumu Kotegawa
+    ja_match: romaji
+  - name: Misaki Okibe
+    ja: Misaki Okibe
+    ja_match: romaji
+  ja_role: EVENT PLANNING
+- path:
+  - Game planning
+  names:
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Akihiro Kaneko
+    ja: Akihiro Kaneko
+    ja_match: romaji
+  - name: Makoto Yamaguchi
+    ja: Makoto Yamaguchi
+    ja_match: romaji
+  - name: Tomohide Okaizumi
+    ja: Tomohide Okaizumi
+    ja_match: romaji
+  - name: Yasuhiro Shinkawa
+    ja: Yasuhiro Shinkawa
+    ja_match: romaji
+  ja_role: GAME PLANNING
+- path:
+  - Main programming
+  names:
+  - name: Takuya Kanai
+    ja: Takuya Kanai
+    ja_match: romaji
+  ja_role: MAIN PROGRAMMING
+- path:
+  - Dungeon programming
+  names:
+  - name: Naomi Kaneda
+    ja: Naomi Kaneda
+    ja_match: romaji
+  - name: Masashi Kachi
+    ja: Masashi Kachi
+    ja_match: romaji
+  - name: Toru Sadamasa
+    ja: Toru Sadamasa
+    ja_match: romaji
+  ja_role: DUNGEON PROGRAMMING
+- path:
+  - Programming
+  names:
+  - name: Yusuke Kojima
+    ja: Yusuke Kojima
+    ja_match: romaji
+  - name: Yuki Sakaguchi
+    ja: Yuki Sakaguchi
+    ja_match: romaji
+  - name: Ryota Wanibe
+    ja: Ryota Wanibe
+    ja_match: romaji
+  - name: Tatsuya Yamamoto
+    ja: Tatsuya Yamamoto
+    ja_match: romaji
+  - name: Akimi Kyogoku
+    ja: Akimi Kyogoku
+    ja_match: romaji
+  - name: Takahiro Takahashi
+    ja: Takahiro Takahashi
+    ja_match: romaji
+  - name: Toshiaki Abe
+    ja: Toshiaki Abe
+    ja_match: romaji
+  ja_role: PROGRAMMING
+- path:
+  - Art director
+  names:
+  - name: Hisashi Nagai
+    ja: Hisashi Nagai
+    ja_match: romaji
+  ja_role: ART DIRECTOR
+- path:
+  - 2D art
+  names:
+  - name: Hiromi Yoshida
+    ja: Hiromi Yoshida
+    ja_match: romaji
+  - name: Masaya Kawada
+    ja: Masaya Kawada
+    ja_match: romaji
+  - name: Kaoru Hasegawa
+    ja: Kaoru Hasegawa
+    ja_match: romaji
+  - name: Mao Toriyama
+    ja: Mao Toriyama
+    ja_match: romaji
+  - name: Tomohisa Shibata
+    ja: Tomohisa Shibata
+    ja_match: romaji
+  ja_role: 2D ART
+- path:
+  - Character modeling
+  names:
+  - name: Ryosuke Nakai
+    ja: Ryosuke Nakai
+    ja_match: romaji
+  - name: Kazuhisa Watanabe
+    ja: Kazuhisa Watanabe
+    ja_match: romaji
+  - name: Akihito Ishihara
+    ja: Akihito Ishihara
+    ja_match: romaji
+  - name: Keisuke Sakurai
+    ja: Keisuke Sakurai
+    ja_match: romaji
+  - name: Tatsuya Yogo
+    ja: Tatsuya Yogo
+    ja_match: romaji
+  - name: Hiroyuki Aoki
+    ja: Hiroyuki Aoki
+    ja_match: romaji
+  - name: Risa Hashimoto
+    ja: Risa Hashimoto
+    ja_match: romaji
+  ja_role: CHARACTER MODELING
+- path:
+  - Character animation
+  names:
+  - name: Kazuhiko Ogawa
+    ja: Kazuhiko Ogawa
+    ja_match: romaji
+  - name: Kunihiro Horio
+    ja: Kunihiro Horio
+    ja_match: romaji
+  - name: Kazuhisa Ichimura
+    ja: Kazuhisa Ichimura
+    ja_match: romaji
+  - name: Akihiro Tamaki
+    ja: Akihiro Tamaki
+    ja_match: romaji
+  - name: Takashi Tanaka
+    ja: Takashi Tanaka
+    ja_match: romaji
+  ja_role: CHARACTER ANIMATION
+- path:
+  - Graphic effects
+  names:
+  - name: Hiroko Takano
+    ja: Hiroko Takano
+    ja_match: romaji
+  - name: Mitsuhiro Kasuya
+    ja: Mitsuhiro Kasuya
+    ja_match: romaji
+  ja_role: GRAPHIC EFFECTS
+- path:
+  - Background
+  names:
+  - name: Ryuichi Tobe
+    ja: Ryuichi Tobe
+    ja_match: romaji
+  - name: Eri Kukino
+    ja: Eri Kukino
+    ja_match: romaji
+  - name: Mei Seto
+    ja: Mei Seto
+    ja_match: romaji
+  - name: Shintaro Tajima
+    ja: Shintaro Tajima
+    ja_match: romaji
+  - name: Hiroki Nakata
+    ja: Hiroki Nakata
+    ja_match: romaji
+  - name: Kunikatsu Tachi
+    ja: Kunikatsu Tachi
+    ja_match: romaji
+  - name: Atsuto Nakao
+    ja: Atsuto Nakao
+    ja_match: romaji
+  - name: Tomoyuki Hata
+    ja: Tomoyuki Hata
+    ja_match: romaji
+  - name: Kazuho Tanaka
+    ja: Kazuho Tanaka
+    ja_match: romaji
+  - name: Yuji Saito
+    ja: Yuji Saito
+    ja_match: romaji
+  ja_role: BACKGROUND
+- path:
+  - Sound director
+  names:
+  - name: Ryoma Nakamura
+    ja: Ryoma Nakamura
+    ja_match: romaji
+  ja_role: SOUND DIRECTOR
+- path:
+  - Music composition
+  names:
+  - name: Keisuke Ito
+    ja: Keisuke Ito
+    ja_match: romaji
+  - name: Yasuhiro Kawagoe
+    ja: Yasuhiro Kawagoe
+    ja_match: romaji
+  ja_role: MUSIC COMPOSITION
+- path:
+  - Sound effects
+  names:
+  - name: Ichiro Ebisu
+    ja: Ichiro Ebisu
+    ja_match: romaji
+  - name: Sohh Satou
+    ja: Sohh Satou
+    ja_match: romaji
+  ja_role: SOUND EFFECTS
+- path:
+  - Development manager
+  names:
+  - name: Kensuke Oguri
+    ja: Kensuke Oguri
+    ja_match: romaji
+  ja_role: DEVELOPMENT MANAGER
+- path:
+  - Development co-operation
+  names:
+  - name: noisycroak Co., Ltd.
+    kind: company
+    ja: noisycroak Co., Ltd.
+    ja_match: romaji
+  - name: KUON Ltd.
+    kind: company
+    ja: KUON Ltd.
+    ja_match: romaji
+  - name: karakuri-ism Co., Ltd.
+    kind: company
+    ja: karakuri-ism Co., Ltd.
+    ja_match: romaji
+  - name: Sound Racer Co., Ltd.
+    kind: company
+    ja: Sound Racer Co., Ltd.
+    ja_match: romaji
+  ja_role: DEVELOPMENT COOPERATION
+- path:
+  - Debug
+  names:
+  - name: Pole To Win Co., Ltd.
+    kind: company
+    ja: Pole To Win Co., Ltd.
+    ja_match: romaji
+  - name: Akiyoshi Hisaki
+    ja: Akiyoshi Hisaki
+    ja_match: romaji
+  - name: Satoshi Miura
+    ja: Satoshi Miura
+    ja_match: romaji
+  - name: Kouichi Tago
+    ja: Kouichi Tago
+    ja_match: romaji
+  - name: Takahiro Ano
+    ja: Takahiro Ano
+    ja_match: romaji
+  - name: Yoshiya Yamahana
+    ja: Yoshiya Yamahana
+    ja_match: romaji
+  - name: Kiyoshi Yamase
+    ja: Kiyoshi Yamase
+    ja_match: romaji
+  - name: Sayaka Toyoshima
+    ja: Sayaka Toyoshima
+    ja_match: romaji
+  - name: Mario Club Co., Ltd.
+    kind: company
+    ja: Mario Club Co., Ltd.
+    ja_match: romaji
+  - name: Kentaro Nishimura
+    ja: Kentaro Nishimura
+    ja_match: romaji
+  - name: Manabu Matumoto
+    ja: Manabu Matumoto
+    ja_match: romaji
+  - name: Hitoshi Nishizawa
+    ja: Hitoshi Nishizawa
+    ja_match: romaji
+  - name: Keisuke Fukushima
+    ja: Keisuke Fukushima
+    ja_match: romaji
+  - name: Kouji Kobayashi
+    ja: Kouji Kobayashi
+    ja_match: romaji
+  - name: Yuma Ochi
+    ja: Yuma Ochi
+    ja_match: romaji
+  - name: Jun Ito
+    ja: Jun Ito
+    ja_match: romaji
+  - name: Yohei Sato
+    ja: Yohei Sato
+    ja_match: romaji
+  - name: Tatsuya Sakai
+    ja: Tatsuya Sakai
+    ja_match: romaji
+  ja_role: DEBUG
+- path:
+  - Technical support
+  names:
+  - name: Shingo Okamoto
+    ja: Shingo Okamoto
+    ja_match: romaji
+  - name: Kotaro Hiromatsu
+    ja: Kotaro Hiromatsu
+    ja_match: romaji
+  ja_role: TECHNICAL SUPPORT
+- path:
+  - Artwork
+  names:
+  - name: Sachiko Nakamichi
+    ja: Sachiko Nakamichi
+    ja_match: romaji
+  - name: Keiko Inoue
+    ja: Keiko Inoue
+    ja_match: romaji
+  ja_role: ARTWORK
+- path:
+  - Manual editing
+  names:
+  - name: Kiyomi Itani
+    ja: Kiyomi Itani
+    ja_match: romaji
+  - name: Takashi Iwama
+    ja: Takashi Iwama
+    ja_match: romaji
+  - name: QBIST co., Ltd.
+    kind: company
+    ja: QBIST co. ltd.
+    ja_match: romaji
+  ja_role: MANUAL EDITING
+- path:
+  - Special thanks
+  names:
+  - name: Kenjiro Ito
+    ja: Kenjiro Ito
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: Mikiko Ohashi
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: Susumu Fukunaga
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: Toshio Miyahara
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: Eisuke Kasejima
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_match: romaji
+  - name: Nobuhiro Sawabe
+    ja: Nobuhiro Sawabe
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: Gakuji Nomoto
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: Yukari Fukushima
+    ja_match: romaji
+  - name: Ryohei Itakura
+    ja: Ryohei Itakura
+    ja_match: romaji
+  - name: Yukiko Kanagawa
+    ja: Yukiko Kanagawa
+    ja_match: romaji
+  - name: Rui Kawaguchi
+    ja: Rui Kawaguchi
+    ja_match: romaji
+  - name: Ryosuke Hanawa
+    ja: Ryosuke Hanawa
+    ja_match: romaji
+  - name: Nobue Kamikawabata
+    ja: Nobue Kamikawabata
+    ja_match: romaji
+  - name: Tatsuya Goto
+    ja: Tatsuya Goto
+    ja_match: romaji
+  - name: Arata Sato
+    ja: Arata Sato
+    ja_match: romaji
+  - name: Retsuji Nomoto
+    ja: Retsuji Nomoto
+    ja_match: romaji
+  - name: Hideki Sakamoto
+    ja: Hideki Sakamoto
+    ja_match: romaji
+  - name: Hiroyoshi Kato
+    ja: Hiroyoshi Kato
+    ja_match: romaji
+  - name: Yoshiaki Ishida
+    ja: Yoshiaki Ishida
+    ja_match: romaji
+  - name: Tomohiro Maruyama
+    ja: Tomohiro Maruyama
+    ja_match: romaji
+  ja_role: SPECIAL THANKS
+- path:
+  - Development support
+  names:
+  - name: Hideyuki Shibamoto
+    ja: Hideyuki Shibamoto
+    ja_match: romaji
+  - name: Motoi Nakamura
+    ja: Motoi Nakamura
+    ja_match: romaji
+  - name: Masashi Hirose
+    ja: Masashi Hirose
+    ja_match: romaji
+  - name: Hidefumi Watanabe
+    ja: Hidefumi Watanabe
+    ja_match: romaji
+  - name: Masayuki Miura
+    ja: Masayuki Miura
+    ja_match: romaji
+  - name: Takuya Hashimoto
+    ja: Takuya Hashimoto
+    ja_match: romaji
+  - name: Osamu Fujita
+    ja: Osamu Fujita
+    ja_match: romaji
+  ja_role: DEVELOPMENT SUPPORT
+- path:
+  - Product management
+  names:
+  - name: Takao Nakano
+    ja: Takao Nakano
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: Kaori Ando
+    ja_match: romaji
+  - name: Tomoko Nakayama
+    ja: Tomoko Nakayama
+    ja_match: romaji
+  ja_role: PRODUCT MANAGEMENT
+- path:
+  - Very special thanks
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+    ja: GAME FREAK inc.
+    ja_match: romaji
+  - name: Creatures, Inc.
+    kind: company
+    ja: Creatures Inc.
+    ja_match: romaji
+  ja_role: VERY SPECIAL THANKS
+- path:
+  - Pokémon original director
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: POKÉMON ORIGINAL DIRECTOR
+- path:
+  - Producers
+  names:
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: PRODUCERS
+- path:
+  - Executive producer
+  names:
+  - name: Mitsutoshi Sakurai
+    ja: Mitsutoshi Sakurai
+    kanji: 櫻井光俊
+    ja_match: romaji
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: EXECUTIVE PRODUCER

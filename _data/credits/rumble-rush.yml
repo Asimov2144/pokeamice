@@ -1,0 +1,328 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Rush
+slug: rumble-rush
+title: Staff of Pokémon Rumble Rush
+work: null
+year: 2019
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Rush
+count: 174
+sections:
+- path:
+  - Director
+  names:
+  - name: Yoshihiro Hatta
+- path:
+  - Game Planning
+  names:
+  - name: Hisato Matsumoto
+  - name: NAHE
+  - name: OBATA Miki
+  - name: Yoshihiro Hatta
+  - name: Norio Matsumura
+  - name: Muneaki Ozawa
+  - name: Satomi Shimomura
+  - name: Yoshiyuki Oku
+- path:
+  - Programming
+  names:
+  - name: Nayuta Taga
+  - name: Hisato Matsumoto
+  - name: NAHE
+  - name: Takayuki Ito
+  - name: Ein Terakawa
+  - name: Norio Matsumura
+  - name: Wataru Kawashima
+- path:
+  - Lead Server Programmer
+  names:
+  - name: Nayuta Taga
+- path:
+  - Sound
+  names:
+  - name: OBATA Miki
+- path:
+  - Design
+  names:
+  - name: Hiroyuki Yamanaka
+  - name: Shin Naka
+  - name: Yoshiyuki Oku
+- path:
+  - Design Management
+  names:
+  - name: Noriko Hatta
+- path:
+  - General Management
+  names:
+  - name: Muneaki Ozawa
+- path:
+  - Logo designed by Creatures Inc.
+  names:
+  - name: Satoru Nagaya
+  - name: Ikumi Fujishiro
+  - name: Chiaki Shinkai
+- path:
+  - Illustration
+  names:
+  - name: Kouki Saitou
+- path:
+  - Pokémon produced by
+  names:
+  - name: The Pokémon Company
+    kind: company
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+  - name: Kazunori Sugiura
+- path:
+  - Development Producer
+  names:
+  - name: Yuichi Arita
+- path:
+  - Assistant Producers
+  names:
+  - name: Masahiro Go
+  - name: Naoto Ueoka
+  - name: Shunsuke Takagi
+- path:
+  - Coordinator
+  names:
+  - name: Chitose Kawakami
+- path:
+  - Assistant Coordinator
+  names:
+  - name: Yohei Yamamoto
+- path:
+  - Technical Adviser
+  names:
+  - name: Takeshi Seki
+- path:
+  - Test Advisers
+  names:
+  - name: Kayo Nakata
+  - name: Yuma Ohchi
+- path:
+  - Pokémon Brand Management
+  names:
+  - name: Ryohei Itakura
+  - name: Yuka Yoshihara
+  - name: Rieko Kuji
+- path:
+  - Legal
+  names:
+  - name: Yusuke Tomita
+  - name: Michiko Takizawa
+  - name: Hirotaka Hayakawa
+  - name: Kensuke Arai
+  - name: Junko Tamura
+- path:
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+  - name: Yuki Kimoto
+  - name: Tatsuya Ichijo
+- path:
+  - Promotion
+  names:
+  - name: Shoichi Obora
+  - name: Keiko Mochida
+  - name: Kaoru Kashiba
+  - name: Morito Iwanaga
+- path:
+  - Special Thanks
+  names:
+  - name: Yasunori Suenaga
+  - name: Takanori Sowa
+  - name: Kunimi Kawamura
+  - name: Kenichi Arai
+  - name: Daigorotoyohide Suga
+  - name: Yoshitaka Fujiwara
+  - name: Norihiro Sera
+  - name: Michihito Shimizu
+- path:
+  - English-Version Localization
+  names:
+  - name: Yasuhiro Usui
+  - name: Mikiko Ryu
+  - name: Mayu Todo
+  - name: Shinobu Taylor
+  - name: Hana Uchida
+- path:
+  - English-Version Translation
+  names:
+  - name: Hisato Yamamori
+  - name: Sayuri Munday
+  - name: Bryson Clark
+- path:
+  - English-Version Editing
+  names:
+  - name: Blaise Selby
+  - name: Eric Haddock
+  - name: Kellyn Ballard
+  - name: Rei Nakazawa
+- path:
+  - European-Version Localization
+  names:
+  - name: Kaori Aoki
+  - name: Tadasu Hasegawa
+  - name: Chika Tanigaki
+  - name: Emily Hitchmough
+  - name: Owen Preece
+  - name: Hideko Russell
+  - name: Ritsuko Oshu
+  - name: Elena Nardo
+  - name: Bertrand Lecocq
+  - name: Cyril Schultz
+  - name: Pierre Gauthier
+  - name: Emanuel Turchetta
+- path:
+  - French-Version Translation
+  names:
+  - name: Guillaume Didier
+  - name: Olivier Hagué
+  - name: Olivia Bonnal
+  - name: Aymeric Forgit
+  - name: Lylia Khrissate
+  - name: Sarah Provost
+- path:
+  - French-Version Editing
+  names:
+  - name: Marine Vallée
+  - name: Elodie Verpoort
+  - name: Clémence Amoric
+  - name: Matthieu Béthencourt
+  - name: Franck Couée
+  - name: Violette Giang
+- path:
+  - German-Version Translation
+  names:
+  - name: Daniel Heucher
+  - name: Susanne Becker
+  - name: Christopher Derbort
+  - name: Michael Ecke
+  - name: Sophie Jüterbock
+  - name: Kathleen Kalms
+- path:
+  - German-Version Editing
+  names:
+  - name: Juliana Niederwanger
+  - name: Sina Moelleken
+  - name: Alina Linnenweber
+  - name: Ireneusz Radko
+  - name: Barbara Schweinzer
+  - name: Claudia Thon
+- path:
+  - Italian-Version Translation
+  names:
+  - name: Manuela Suriano
+  - name: Annarita Spera
+  - name: Altan Couvert
+  - name: Marco Sartori
+  - name: Guido Scarabello
+  - name: Francesca Serci
+- path:
+  - Italian-Version Editing
+  names:
+  - name: Marco Locatelli
+  - name: Fabio Giusti
+  - name: Silvia De Bellis
+  - name: Valentina Menale
+  - name: Guendalina Pirruccio
+  - name: Alice Troiani
+- path:
+  - Spanish-Version Translation
+  names:
+  - name: Alberto Gracia Castellano
+  - name: Gabriel San Martín Fernández
+  - name: Servando Doval Díaz
+  - name: Alicia Iribarren Mendoza
+  - name: Enrique Joga Elvira
+  - name: Diego Luque de la Campa
+- path:
+  - Spanish-Version Editing
+  names:
+  - name: Mariona Pera i de Miguel
+  - name: Isabel Zarco Manjavacas
+  - name: Irene Mascaró Genestar
+  - name: Virginia Paradés Gurrea
+  - name: Eva Rodríguez Graña
+  - name: Píndaro Vargas-Farías
+- path:
+  - English & European-Version Artwork
+  names:
+  - name: Chris Franc
+  - name: Kevin Lalli
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+  - name: Gaku Susai
+- path:
+  - Korean-Version Localization
+  names:
+  - name: MiHwa Choi
+  - name: JiEun Byun
+  - name: YoungJun Park
+  - name: DongUn Pak
+  - name: HyeSung Yang
+- path:
+  - Special Thanks
+  names:
+  - name: JaiBoem Lim
+  - name: JiHye Lee
+- path:
+  - Chinese-Version Localization
+  names:
+  - name: Shin Uwai
+  - name: Yoshiko Aota
+  - name: Minyu Hsu
+  - name: Izumi Watanabe
+  - name: Chungte Huang
+  - name: Yencheng Lin
+  - name: Chingyun Sung
+  - name: Juting Hung
+- path:
+  - Debugged by Pole To Win Co., Ltd.
+  names:
+  - name: Masahiro Ohtaki
+  - name: Ryosuke Aoki
+  - name: Shuta Yokoyama
+  - name: Yui Tabuchi
+  - name: Yushi Takahashi
+- path:
+  - Localization Quality Assurance
+  names:
+  - name: Pole To Win UK Ltd.
+    note: London Studio
+    kind: company
+  - name: Pole To Win Korea Co., Ltd.
+    kind: company
+  - name: Tae-Ho Jeong
+  - name: Ji-Hwan Lee
+  - name: Yeon-Ho Jeong
+  - name: Kwon-soo Han
+  - name: Ji-Hyun Youn
+  - name: Pole To Win Taiwan
+  - name: An-Ting Chu
+  - name: Ren-Hung Fu
+  - name: Li-Ming Hung
+- path:
+  - Level Design Supported by
+  names:
+  - name: Sarugakucho
+- path:
+  - Original Pokémon video games developed by
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+  - name: Tetsuya Watanabe

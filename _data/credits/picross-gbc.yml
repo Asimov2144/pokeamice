@@ -1,0 +1,111 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross_(GBC)
+slug: picross-gbc
+title: Staff of Pokémon Picross (GBC)
+work: null
+year: 1999
+developer: Jupiter Corporation
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Picross_(GBC)
+count: 44
+note: 未发售
+sections:
+- path:
+  - Pocket Monsters Original Design
+  names:
+  - name: Satoshi Tajiri
+- path:
+  - Producer
+  names:
+  - name: Tsunekazu Ishihara
+    note: Misspelled as "Tsunekaz Ishihara"
+  - name: Takehiro Izushi
+  - name: Makoto Nakayama
+- path:
+  - Director
+  names:
+  - name: Katsuyoshi Irie
+- path:
+  - Main Programmer
+  names:
+  - name: Takahiro Nagai
+- path:
+  - Programmer
+  names:
+  - name: Daisuke Miyao
+  - name: Hiraku Kitawaki
+  - name: Hirofumi Murakami
+- path:
+  - Main Graphic Designer
+  names:
+  - name: Norichika Meguro
+- path:
+  - Graphic Designer
+  names:
+  - name: Noriko Shibuya
+- path:
+  - Puzzle Designer
+  names:
+  - name: Hideki Ishii
+  - name: Noriko Yamamura
+- path:
+  - Puzzle Coordinate
+  names:
+  - name: Norichika Meguro
+  - name: Hideki Ishii
+- path:
+  - Graphic Supervise
+  names:
+  - name: Ken Sugimori
+- path:
+  - Sound Programmer
+  names:
+  - name: Toshiyuki Ueno
+- path:
+  - Sound Composer
+  names:
+  - name: Toshiyuki Ueno
+- path:
+  - Manual Illustration
+  names:
+  - name: Itou Asyura Benimaru
+- path:
+  - Art Work Design
+  names:
+  - name: Sachiko Nakamichi
+- path:
+  - Special Thanks
+  names:
+  - name: Takahiro Harada
+  - name: Itou Asyura Benimaru
+  - name: Hatao Ogata
+  - name: Noriaki Teramoto
+  - name: Masaru Kuribayashi
+  - name: Toshinobu Matsumiya
+- path:
+  - Chief Debugger
+  names:
+  - name: Jyunichi Akama
+- path:
+  - Debug Play
+  names:
+  - name: Super Mario Club
+    kind: company
+  - name: Takeshi Iizuka
+  - name: Hiroaki Itou
+  - name: Atsuko Ujiie
+  - name: Satomi Kokubo
+  - name: Kenichi Takahata
+  - name: Yoshiaki Yamaguchi
+  - name: Yuusuke Wakigawa
+  - name: Marie Watanabe
+  - name: Eriko Matsumura
+  - name: Misuzu Kanayama
+  - name: Keiichi Ichikawa
+  - name: Miyuki Matsumura
+  - name: Sei Sato
+  - name: Keiki Miwa
+  - name: Yasuyuki Higuchi
+- path:
+  - Executive Producer
+  names:
+  - name: Hiroshi Yamauchi

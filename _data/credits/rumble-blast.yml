@@ -1,0 +1,393 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast + https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
+slug: rumble-blast
+title: Staff of Pokémon Rumble Blast
+work: null
+year: 2011
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Rumble_Blast
+count: 101
+source_ja: https://wiki.pokemonwiki.com/wiki/スーパーポケモンスクランブルのスタッフクレジット
+ja_alignment:
+  ja_total: 77
+  ja_matched: 64
+  ja_positional: 4
+  ja_only_added: 3
+sections:
+- path:
+  - Director
+  names:
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  ja_role: ディレクション
+- path:
+  - Game Planning
+  names:
+  - name: OBATA Miki
+    ja: おばた みき
+    ja_match: romaji
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    ja_match: romaji
+  - name: Daisuke Yoshimitsu
+    ja: よしみつ だいすけ
+    ja_match: romaji
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    ja_match: romaji
+  - name: Hirotake Watanabe
+    name_source: ja-only
+    ja: わたなべ ひろたけ
+    ja_match: ja-only
+  ja_role: プランニング
+- path:
+  - Programming
+  names:
+  - name: Nayuta Taga
+    ja: たが なゆた
+    ja_match: romaji
+  - name: Daisuki Yoshimitsu
+    ja_match: positional
+    ja: よしみつ だいすけ
+  - name: Takayuki Ito
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Hisato Matsumoto
+    ja: まつもと ひさと
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: すま ようすけ
+    ja_match: romaji
+  - name: Ain Terakawa
+    name_source: ja-only
+    ja: てらかわ あいん
+    ja_match: ja-only
+  - name: Hirotake Watanabe
+    name_source: ja-only
+    ja: わたなべ ひろたけ
+    ja_match: ja-only
+  ja_role: プログラム
+- path:
+  - Sound
+  names:
+  - name: OBATA Miki
+    ja: おばた みき
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Story
+  names:
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  ja_role: ストーリー
+- path:
+  - Design
+  names:
+  - name: Shin Naka
+    ja: なか しん
+    ja_match: romaji
+  - name: Hiroyuki Yamanaka
+    ja: やまなか ひろゆき
+    ja_match: romaji
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  - name: Wataru Kawashima
+    ja: かわしま わたる
+    ja_match: romaji
+  - name: Noboru Kosuge
+    ja: こすげ のぼる
+    ja_match: romaji
+  ja_role: デザイン
+- path:
+  - Depth Design
+  names:
+  - name: Nayuta Taga
+    ja: たが なゆた
+    ja_match: romaji
+  ja_role: デプスデザイン
+- path:
+  - Opening Movie
+  names:
+  - name: Kojo Eto
+    ja_match: positional
+    ja: えとう こうじ
+  - name: Satoshi Ueda
+    ja: うえだ さとし
+    ja_match: romaji
+  - name: Eiji Senke
+    ja: せんけ えいじ
+    ja_match: romaji
+  - name: Takeshi Shibasaki
+    ja: しばさき たけし
+    ja_match: romaji
+  - name: Keita Mizuhashi
+    ja: みずはし けいた
+    ja_match: romaji
+  ja_role: オープニングムービー
+- path:
+  - Design Management
+  names:
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  ja_role: デザインマネージメント
+- path:
+  - Project Management
+  names:
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  ja_role: プロジェクトマネージメント
+- path:
+  - General Management
+  names:
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    ja_match: romaji
+  ja_role: ゼネラルマネージメント
+- path:
+  - Technical Support
+  names:
+  - name: Kotaro Hiromatsu
+    ja: ひろまつ こうたろう
+    ja_match: romaji
+  - name: Shingo Okamoto
+    ja: おかもと しんご
+    ja_match: romaji
+  ja_role: テクニカルサポート
+- path:
+  - Debug Management
+  names:
+  - name: Ryuji Hamaguchi
+    ja: はまぐち りゅうじ
+    ja_match: romaji
+  - name: Ryosuke Yamada
+    ja: やまだ りょうすけ
+    ja_match: romaji
+  - name: Makoto Okazaki
+    ja: おかざき まこと
+    ja_match: romaji
+  ja_role: デバッグマネージメント
+- path:
+  - Debug
+  names:
+  - name: Mario Club Co, Ltd.
+    kind: company
+- path:
+  - English-Version Localization
+  names:
+  - name: Mikiko Ryu
+  - name: Satomi Honda
+  - name: David Numrich
+  - name: Yasuhiro Usui
+- path:
+  - English-Version Translation
+  names:
+  - name: Tim Hove
+  - name: Hisato Yamamori
+  - name: Sayuri Munday
+- path:
+  - English-Version Editing
+  names:
+  - name: Blaise Selby
+  - name: Hollie Beg
+  - name: Kellyn Ballard
+- path:
+  - English-Version Coordinators
+  names:
+  - name: Rie Fujiwara
+  - name: Seth McMahill
+  - name: Joel Simon
+- path:
+  - English-Version NCA Product Testing
+  names:
+  - name: Masayasu Nakata
+  - name: Kyle Hudson
+    kind: company
+  - name: Eric Bush
+  - name: Sean Egan
+  - name: Tomoko Mikami
+  - name: Teresa Lillygren
+  - name: Ed Ridgeway
+  - name: Makiko Szoias
+  - name: Patrick Taylor
+  - name: Joshua Newman
+  - name: Kindra Timmerwilk
+- path:
+  - Game-Design Advisors
+  names:
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: わたなべ てつや
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: ゲームデザインアドバイザー
+- path:
+  - Pokémon Graphic Supervisors
+  names:
+  - name: Shota Kageyama
+    ja: かげやま しょうた
+    kanji: 景山将太
+    ja_match: romaji
+  - name: Yukiko Kanagawa
+    ja: かながわ ゆきこ
+    ja_match: romaji
+  - name: Nobue Kamikawabata
+    ja: かみかわばた のぶえ
+    ja_match: romaji
+  ja_role: ポケモンかんしゅう
+- path:
+  - Artwork
+  names:
+  - name: Kiyomi Itani
+    ja: いたに きよみ
+    ja_match: romaji
+  - name: Yasuko Suglyama
+  - name: Sachiko Nakamichi
+    ja: なかみち さちこ
+    ja_match: romaji
+  - name: Etsuya Hattori
+    ja: はっとり えつや
+    ja_match: romaji
+  - name: Kouki Saitou
+    ja: さいとう こーき
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - English-Version Graphic Design
+  names:
+  - name: Kevin Lelli
+  - name: Tina Sourinephoumy
+  - name: Eric Medalle
+  - name: Bridget O'Neill
+  - name: Masayuki Miura
+    ja: みうら まさゆき
+    ja_match: romaji
+  - name: Kou Ohnuma
+    ja: おおぬま こう
+    ja_match: romaji
+  ja_role: かいはつサポート
+- path:
+  - Special Thanks
+  names:
+  - name: Kenjiro Ito
+    ja: いとう けんじろう
+    ja_match: romaji
+  - name: Mikiko Onashi
+  - name: Tomotaka Komura
+    ja: こむら ともたか
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: ふくなが すすむ
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Osamu Suzuki
+    ja: すずき おさむ
+    ja_match: romaji
+  - name: Nobuhiro Sawabe
+    ja: さわべ のぶひろ
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: ふくしま ゆかり
+    ja_match: romaji
+  - name: Toshivuku Inoko
+    ja_match: positional
+    ja: いのこ としゆき
+  - name: Rui Kawaguci
+    ja_match: positional
+    ja: かわぐち るい
+  - name: Kazuyoshi Kojima
+    ja: こじま かずよし
+    ja_match: romaji
+  - name: Akihito Tamura
+    ja: たむら あきひと
+    ja_match: romaji
+  - name: Yasunori Suenaga
+    ja: すえなが やすのり
+    ja_match: romaji
+  - name: Yukie Funakubo
+  - name: Gaku Susal
+  ja_role: スペシャルサンクス
+- path:
+  - Product Coordinators
+  names:
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: あんどう かおり
+    ja_match: romaji
+  - name: Hideaki Arakj
+  ja_role: プロダクションコーディネーター
+- path:
+  - Development Producers
+  names:
+  - name: Ryosuke Hanawa
+    ja: はなわ りょうすけ
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  ja_role: かいはつプロデューサー
+- path:
+  - Producers
+  names:
+  - name: Toshio Miyahara
+    ja: みやはら としお
+    ja_match: romaji
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producers
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブプロデューサー
+ja_unmatched:
+- kana: マリオクラブ
+  role: デバッグ
+- kana: すぎやま やすこ
+  role: アートワーク
+- kana: あらき ひであき
+  role: プロダクションコーディネーター
+- kana: にんてんどうかぶしきがいしゃ
+  role: せいさく・ちょさく
+  kanji: 任天堂
+- kana: かぶしきがいしゃポケモン
+  role: せいさく・ちょさく
+  kanji: 株式会社ポケモン
+- kana: ゆうげんがいしゃアンブレラ
+  role: せいさく・ちょさく
+- kana: ©2011 Pokémon.
+  role: せいさく・ちょさく
+- kana: ©1995-2011 Nintendo
+  role: せいさく・ちょさく
+- kana: ©1995-2011 Creatures Inc.
+  role: せいさく・ちょさく
+- kana: ©1995-2011 GAME FREAK inc.
+  role: せいさく・ちょさく

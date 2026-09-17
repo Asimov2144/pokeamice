@@ -1,0 +1,430 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon:_Magikarp_Jump + https://wiki.pokemonwiki.com/wiki/はねろ!_コイキングのスタッフクレジット
+slug: magikarp-jump
+title: 'Staff of Pokémon: Magikarp Jump'
+work: null
+year: 2017
+developer: SELECT BUTTON inc.
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon:_Magikarp_Jump
+count: 96
+source_ja: https://wiki.pokemonwiki.com/wiki/はねろ!_コイキングのスタッフクレジット
+ja_alignment:
+  ja_total: 94
+  ja_matched: 94
+  ja_positional: 0
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Koya Nakahata
+    ja: Koya Nakahata
+    ja_match: romaji
+  ja_role: Developed by SELECT BUTTON / Director
+- path:
+  - Programmer
+  names:
+  - name: Keisuke Miyagawa
+    ja: Keisuke Miyagawa
+    ja_match: romaji
+  ja_role: Programmer
+- path:
+  - Designer
+  names:
+  - name: Takumi Tsukada
+    ja: Takumi Tsukada
+    ja_match: romaji
+  ja_role: Designer
+- path:
+  - Assistant Director
+  names:
+  - name: Misako Kawata
+    ja: Misako Kawata
+    ja_match: romaji
+  ja_role: Assistant Director
+- path:
+  - Quality Assurance Director
+  names:
+  - name: Lee Jung Ah
+    ja: Lee Jung Ah
+    ja_match: romaji
+  ja_role: Quality Assurance Director
+- path:
+  - Sound
+  names:
+  - name: SOLIDTUNE Inc.
+    kind: company
+    ja: SOLIDTUNE Inc.
+    ja_match: romaji
+  ja_role: Sound
+- path:
+  - Pokémon produced by
+  names:
+  - name: The Pokémon Company
+    kind: company
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Pokémon produced by The Pokémon Company / Executive Producer
+- path:
+  - General Producers
+  names:
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Yasunori Suenaga
+    ja: Yasunori Suenaga
+    ja_match: romaji
+  - name: Takanori Sowa
+    ja: Takanori Sowa
+    ja_match: romaji
+  - name: Kazunori Sugiura
+    ja: Kazunori Sugiura
+    ja_match: romaji
+  ja_role: General Producers
+- path:
+  - Producer
+  names:
+  - name: Kanako Murata
+    ja: Kanako Murata
+    ja_match: romaji
+  ja_role: Producer
+- path:
+  - Development Support & Liaison
+  names:
+  - name: Sho Furutani
+    ja: Sho Furutani
+    ja_match: romaji
+  ja_role: Development Support & Liaison
+- path:
+  - Assistant Producers
+  names:
+  - name: Aya Shimano
+    ja: Aya Shimano
+    ja_match: romaji
+  - name: Takumi Hashimoto
+    ja: Takumi Hashimoto
+    ja_match: romaji
+  ja_role: Assistant Producers
+- path:
+  - Technical Advisers
+  names:
+  - name: Takeshi Seki
+    ja: Takeshi Seki
+    ja_match: romaji
+  - name: Keiichi Yoshikawa
+    ja: Keiichi Yoshikawa
+    ja_match: romaji
+  ja_role: Technical Advisers
+- path:
+  - Test Advisers
+  names:
+  - name: Kayo Nakata
+    ja: Kayo Nakata
+    ja_match: romaji
+  - name: Yuma Ohchi
+    ja: Yuma Ohchi
+    ja_match: romaji
+  ja_role: Test Advisers
+- path:
+  - Pokémon Brand Management
+  names:
+  - name: Misuzu Kanayama
+    ja: Misuzu Kanayama
+    ja_match: romaji
+  ja_role: Pokémon Brand Management
+- path:
+  - Legal
+  names:
+  - name: Yusuke Tomita
+    ja: Yusuke Tomita
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Junko Tamura
+    ja: Junko Tamura
+    ja_match: romaji
+  ja_role: Legal
+- path:
+  - English-Version Localization
+  names:
+  - name: Yasuhiro Usui
+    ja: Yasuhiro Usui
+    ja_match: romaji
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Shinobu Taylor
+    ja: Shinobu Taylor
+    ja_match: romaji
+  ja_role: English-Version Localization
+- path:
+  - English-Version Translation & Editing
+  names:
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Jillian Nonaka
+    ja: Jillian Nonaka
+    ja_match: romaji
+  - name: Blaise Selby
+    ja: Blaise Selby
+    ja_match: romaji
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  ja_role: English-Version Translation & Editing
+- path:
+  - European-Version Localization
+  names:
+  - name: Makiko Cottrell
+    ja: Makiko Cottrell
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Daniel Anscomb
+    ja: Daniel Anscomb
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Bertrand Lecocq
+    ja: Bertrand Lecocq
+    ja_match: romaji
+  - name: Cyril Schultz
+    ja: Cyril Schultz
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Emanuel Turchetta
+    ja: Emanuel Turchetta
+    ja_match: romaji
+  ja_role: European-Version Localization
+- path:
+  - European-Version Translation & Editing
+  names:
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Franck Couée
+    ja: Franck Couée
+    ja_match: romaji
+  - name: Clémence Amoric
+    ja: Clémence Amoric
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  - name: Servando Doval Díaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Enrique Joga Elvira
+    ja: Enrique Joga Elvira
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Eva Rodríguez Graña
+    ja: Eva Rodríguez Graña
+    ja_match: romaji
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  ja_role: European-Version Translation & Editing
+- path:
+  - Korean-Version Localization
+  names:
+  - name: Choi Mihwa
+    ja: Choi Mihwa
+    ja_match: romaji
+  - name: Byun JiEun
+    ja: Byun JiEun
+    ja_match: romaji
+  - name: Park Youngjun
+    ja: Park Youngjun
+    ja_match: romaji
+  ja_role: Korean-Version Localization
+- path:
+  - Chinese-Version Localization
+  names:
+  - name: Pole To Win Co., Ltd.
+    kind: company
+    ja: Pole To Win Co., Ltd.
+    ja_match: romaji
+  - name: Yinjuan Wang
+    ja: Yinjuan Wang
+    ja_match: romaji
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  - name: Minyu Hsu
+    ja: Minyu Hsu
+    ja_match: romaji
+  ja_role: Chinese-Version Localization
+- path:
+  - Logo Design Localization
+  names:
+  - name: Chris Franc
+    ja: Chris Franc
+    ja_match: romaji
+  - name: Jung Yesun
+    ja: Jung Yesun
+    ja_match: romaji
+  ja_role: Logo Design Localization
+- path:
+  - Localisation Quality Assurance
+  names:
+  - name: Pole To Win UK Ltd.
+    note: Glasgow Studio
+    kind: company
+    ja: Pole To Win UK Ltd.
+    ja_match: romaji
+  ja_role: Localisation Quality Assurance
+- path:
+  - Customer Support
+  names:
+  - name: Yosuke Senoo
+    ja: Yosuke Senoo
+    ja_match: romaji
+  - name: Yohei Yamamoto
+    ja: Yohei Yamamoto
+    ja_match: romaji
+  - name: Chitose Kawakami
+    ja: Chitose Kawakami
+    ja_match: romaji
+  - name: Makoto Higashi
+    ja: Makoto Higashi
+    ja_match: romaji
+  ja_role: Customer Support
+- path:
+  - Promotion Producer
+  names:
+  - name: Sho Yoshimoto
+    ja: Sho Yoshimoto
+    ja_match: romaji
+  ja_role: Promotion Producer
+- path:
+  - Promotion Assistant Producers
+  names:
+  - name: Wako Hayakawa
+    ja: Wako Hayakawa
+    ja_match: romaji
+  - name: Masao Takakusa
+    ja: Masao Takakusa
+    ja_match: romaji
+  ja_role: Promotion Assistant Producers
+- path:
+  - Special Thanks
+  names:
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: Atsushi Sugimoto
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: Eisuke Kasejima
+    ja_match: romaji
+  - name: Ryosuke Hanawa
+    ja: Ryosuke Hanawa
+    ja_match: romaji
+  - name: Daigorotoyohide Suga
+    ja: Daigorotoyohide Suga
+    ja_match: romaji
+  - name: Shin Uwai
+    ja: Shin Uwai
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: Yukari Fukushima
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: Kunimi Kawamura
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Akihito Tamura
+    ja: Akihito Tamura
+    ja_match: romaji
+  - name: Takahiro Oguri
+    ja: Takahiro Oguri
+    ja_match: romaji
+  - name: Masafumi Nakamura
+    ja: Masafumi Nakamura
+    ja_match: romaji
+  - name: Lim JaiBoem
+    ja: Lim JaiBoem
+    ja_match: romaji
+  - name: Lee Jihye
+    ja: Lee Jihye
+    ja_match: romaji
+  - name: Satoshi Ogawa
+    ja: Satoshi Ogawa
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Original Pokémon video games developed by
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+- path:
+  - Very Special Thanks
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  ja_role: Original Pokémon video games developed by GAME FREAK inc. / Very Special Thanks

@@ -2,6 +2,7 @@
 # portraits 是不同时期的照片（image / year / source），avatar_source 记主头像出处；aliases 供检索；
 # kind=character 是动画角色、kind=figure 是只被引述的人物，都不建人物页。由 tools/build-people.py 维护：registry 只添加不覆盖，
 # harvest 按脚本里 PORTRAITS 表（已核对过身份的照片）裁头像；portraits 里的 post 是照片所在的条目，该条目优先显示这张。
+# kind=staff 是只出现在游戏 staff 名单里的人（tools/build-credits-site.py 按门槛追加，credits_key 对 archive/credits/index.yml），建页但不进受访者目录。
 - name: 增田顺一
   slug: masuda-junichi
   aliases:
@@ -32,6 +33,7 @@
     year: 2014
     source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー
     post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
+  credits_key: junichi masuda
 - name: 杉森建
   slug: sugimori-ken
   aliases:
@@ -52,6 +54,7 @@
   - image: /assets/img/people/sugimori-ken-2011.jpg
     year: 2011
     source: Nintendo DREAM 2011年5月号 P.73
+  credits_key: ken sugimori
 - name: 大森滋
   slug: ohmori-shigeru
   aliases:
@@ -71,6 +74,7 @@
     year: 2026
     source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から2人目）
     post: 2026-02-16-interview-famitsu-2026-pokopia
+  credits_key: omori shigeru
 - name: 太田哲司
   slug: ota-tetsuji
   aliases:
@@ -85,6 +89,7 @@
   - image: /assets/img/people/ota-tetsuji-2010.jpg
     year: 2010
     source: 電撃GAMES Vol.14（2010）P.252
+  credits_key: ota tetsuji
 - name: 水口舞
   slug: mizuguchi-mai
   aliases:
@@ -112,6 +117,7 @@
     source: Nintendo DREAM 2011年1月号 P.18
   - image: /assets/img/people/kageyama-shota-shota-kageyama.jpg
     source: Nintendo Wiki (Fandom) File:Shota_Kageyama.jpg
+  credits_key: kageyama shota
 - name: 海野隆雄
   slug: unno-takao
   aliases:
@@ -131,6 +137,7 @@
     source: Nintendo Wiki (Fandom) File:Takao_Unno-0.jpg
   - image: /assets/img/people/unno-takao-takao-unno.jpg
     source: Bulbapedia File:Takao_Unno.png
+  credits_key: takao unno
 - name: 一之濑刚
   slug: ichinose-go
   aliases:
@@ -155,6 +162,7 @@
     post: 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   - image: /assets/img/people/ichinose-go-go-ichinose.jpg
     source: Nintendo Wiki (Fandom) File:Go_Ichinose.png
+  credits_key: go ichinose
 - name: 佐藤仁美
   slug: sato-hitomi
   aliases:
@@ -173,6 +181,7 @@
     year: 2014
     source: 2083WEB 2014-10 GAME FREAK サウンドチーム インタビュー（左）
     post: 2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras
+  credits_key: hitomi sato
 - name: 田尻智
   slug: tajiri-satoshi
   aliases:
@@ -184,6 +193,7 @@
   - image: /assets/img/people/tajiri-satoshi-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.137
+  credits_key: satoshi tajiri
 - name: 森本茂树
   slug: morimoto-shigeki
   aliases:
@@ -208,6 +218,7 @@
     post: 2010-05-14-gamefreak-staff-182
   - image: /assets/img/people/morimoto-shigeki-shigeki-morimoto-0.jpg
     source: Nintendo Wiki (Fandom) File:Shigeki_Morimoto-0.jpg
+  credits_key: morimoto shigeki
 - name: 西野弘二
   slug: nishino-koji
   aliases:
@@ -223,6 +234,7 @@
   - image: /assets/img/people/nishino-koji-1999.jpg
     year: 1999
     source: ポケットモンスター 金・銀 公式ガイドブック（1999）P.193
+  credits_key: koji nishino
 - name: 太田健程
   slug: ota-takenori
   aliases:
@@ -234,6 +246,7 @@
   - image: /assets/img/people/ota-takenori-1996.jpg
     year: 1996
     source: ポケットモンスター図鑑（1996）P.139
+  credits_key: ota takenori
 - name: 石原恒和
   slug: ishihara-tsunekazu
   aliases:
@@ -253,6 +266,7 @@
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo3
     post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+  credits_key: ishihara tsunekazu
 - name: 首藤刚志
   slug: shudo-takeshi
   aliases:
@@ -274,6 +288,7 @@
     source: Nintendo Wiki (Fandom) File:Kunihiko_Yuyama.png
   avatar: /assets/img/people/yuyama-kunihiko.jpg
   avatar_source: Nintendo Wiki (Fandom) File:Kunihiko_Yuyama.png
+  credits_key: kuniko yuyama
 - name: 岩田聪
   slug: iwata-satoru
   aliases:
@@ -289,6 +304,7 @@
     year: 2012
     source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo4
     post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
+  credits_key: iwata satoru
 - name: 久保雅一
   slug: kubo-masakazu
   aliases:
@@ -301,6 +317,7 @@
     post: 2021-10-25-interview-hobonichi-2021-kubo
   avatar: /assets/img/people/kubo-masakazu.jpg
   avatar_source: ほぼ日刊イトイ新聞「編集とは何か。12 小学館 久保雅一さん」（2021）
+  credits_key: kubo masakazu
 - name: 超梦
   slug: chao-meng
   kind: character
@@ -321,6 +338,7 @@
     source: Bulbapedia File:Yusuke_Ohmura.jpg
   avatar: /assets/img/people/ohmura-yusuke.jpg
   avatar_source: Bulbapedia File:Yusuke_Ohmura.jpg
+  credits_key: omura yusuke
 - name: 小次郎
   slug: xiao-ci-lang
   kind: character
@@ -344,6 +362,7 @@
     source: Bulbapedia File:Kazumasa_Iwao.png
   avatar: /assets/img/people/iwao-kazumasa.jpg
   avatar_source: 日本ゲーム大賞2022 優秀賞 受賞コメントページ
+  credits_key: iwao kazumasa
 - name: 吉田宏信
   slug: yoshida-hironobu
   aliases:
@@ -358,6 +377,7 @@
     source: Bulbapedia File:Hironobu_Yoshida.jpg
   avatar: /assets/img/people/yoshida-hironobu.jpg
   avatar_source: Bulbapedia File:Hironobu_Yoshida.jpg
+  credits_key: hironobu yoshida
 - name: 大谷育江
   slug: otani-ikue
   aliases:
@@ -368,6 +388,7 @@
     source: Bulbapedia File:Ikue_Otani.jpg
   avatar: /assets/img/people/otani-ikue.jpg
   avatar_source: Bulbapedia File:Ikue_Otani.jpg
+  credits_key: ikue otani
 - name: 市村正亲
   slug: ichimura-masachika
   aliases:
@@ -445,6 +466,7 @@
     post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
   avatar: /assets/img/people/nagahata-seiichiro.jpg
   avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo1
+  credits_key: nagahata seichiro
 - name: 富江慎一郎
   slug: tomie-shinichiro
   aliases:
@@ -457,6 +479,7 @@
     post: 2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1
   avatar: /assets/img/people/tomie-shinichiro.jpg
   avatar_source: 社長が訊く『ポケモン不思議のダンジョン マグナゲートと∞迷宮』第1章 photo2
+  credits_key: shinichiro tomie
 - name: H.T.
   slug: h-t
 - name: 前泽圭一
@@ -481,6 +504,7 @@
     source: Nintendo Wiki (Fandom) File:Keiichi_Maezawa.jpg
   avatar: /assets/img/people/maezawa-keiichi.jpg
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
+  credits_key: keichi maezawa
 - name: 小刚
   slug: xiao-gang
   kind: character
@@ -500,6 +524,7 @@
     source: Bulbapedia File:Mana_Ibe.jpg
   avatar: /assets/img/people/ibe-mana.jpg
   avatar_source: Bulbapedia File:Mana_Ibe.jpg
+  credits_key: ibe mana
 - name: 野村达雄
   slug: nomura-tatsuo
   aliases:
@@ -572,6 +597,7 @@
     source: Nintendo Wiki (Fandom) File:Toshihiro_Obata.jpg
   avatar: /assets/img/people/obata-toshihiro.jpg
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3390）
+  credits_key: obata toshihiro
 - name: 渡边哲也
   slug: watanabe-tetsuya
   aliases:
@@ -586,6 +612,7 @@
     source: Bulbapedia File:Tetsuya_Watanabe.png
   avatar: /assets/img/people/watanabe-tetsuya.jpg
   avatar_source: Bulbapedia File:Tetsuya_Watanabe.png
+  credits_key: tetsuya watanabe
 - name: 西田敦子
   slug: nishida-atsuko
   aliases:
@@ -600,10 +627,12 @@
     source: Nintendo Wiki (Fandom) File:Atsuko_Nishida.jpg
   avatar: /assets/img/people/nishida-atsuko.jpg
   avatar_source: Nintendo Wiki (Fandom) File:Atsuko_Nishida.jpg
+  credits_key: atsuko nishida
 - name: 三浦昌幸
   slug: miura-masayuki
   aliases:
   - 三浦昌幸
+  credits_key: masayuki miura
 - name: 林原惠美
   slug: hayashibara-megumi
   aliases:
@@ -614,6 +643,7 @@
     source: Bulbapedia File:Megumi_Hayashibara.jpg
   avatar: /assets/img/people/hayashibara-megumi.jpg
   avatar_source: Bulbapedia File:Megumi_Hayashibara.jpg
+  credits_key: hayashibara megumi
 - name: 三木真一郎
   slug: miki-shinichiro
   aliases:
@@ -624,6 +654,7 @@
     source: Wikimedia Commons File:Shin-ichiro Miki.jpg · Liverpool Official YouTube channel · CC BY 3.0
   avatar: /assets/img/people/miki-shinichiro.jpg
   avatar_source: Wikimedia Commons File:Shin-ichiro Miki.jpg · Liverpool Official YouTube channel · CC BY 3.0
+  credits_key: miki shinichiro
 - name: 犬山犬子
   slug: inuyama-inuko
   aliases:
@@ -634,6 +665,7 @@
     source: Bulbapedia File:Inuko_Inuyama.jpg
   avatar: /assets/img/people/inuyama-inuko.jpg
   avatar_source: Bulbapedia File:Inuko_Inuyama.jpg
+  credits_key: inuko inuyama
 - name: 大木博士
   slug: da-mu-bo-shi
   kind: character
@@ -656,12 +688,14 @@
     source: Bulbapedia File:James_Turner_2019.jpg
   avatar: /assets/img/people/james-turner.jpg
   avatar_source: Bulbapedia File:James_Turner_2019.jpg
+  credits_key: james tsurner
 - name: T.M.
   slug: t-m
 - name: 田谷正夫
   slug: taya-masao
   aliases:
   - 田谷正夫
+  credits_key: masao taya
 - name: M.I.
   slug: m-i
 - name: A.I.
@@ -694,6 +728,7 @@
     source: Bulbapedia File:Kensaku_Nabana_2018.png
   avatar: /assets/img/people/nabana-kensaku.jpg
   avatar_source: Bulbapedia File:Kensaku_Nabana_2018.png
+  credits_key: kensaku nabana
 - name: 克里斯·塔普塞尔
   slug: ke-li-si-ta-pu-sai-er
   aliases:
@@ -744,6 +779,7 @@
     source: Wikimedia Commons File:Shigeru Miyamoto 20150610 (cropped).jpg · Minister's Secretariat Personnel Division · CC BY 4.0
   avatar: /assets/img/people/miyamoto-shigeru.jpg
   avatar_source: Wikimedia Commons File:Shigeru Miyamoto 20150610 (cropped).jpg · Minister's Secretariat Personnel Division · CC BY 4.0
+  credits_key: miyamoto shigeru
 - name: 蒂姆·拉里默
   slug: di-mu-la-li-mo
   aliases:
@@ -758,8 +794,10 @@
   slug: fu-tian-he-yan
 - name: 赤羽卓美
   slug: chi-yu-zhuo-mei
+  credits_key: akabane takumi
 - name: 久須美龍太
   slug: jiu-xu-mei-long-tai
+  credits_key: kusumi ryuta
 - name: 小澤
   slug: xiao-ze
 - name: 松村
@@ -768,6 +806,7 @@
   slug: duo-he-tian
 - name: 山名学
   slug: shan-ming-xue
+  credits_key: manabu yamana
 - name: 折尾
   slug: zhe-wei
 - name: 松本梨香
@@ -790,6 +829,7 @@
     source: Bangumi 番组计划 person/294
   avatar: /assets/img/people/takegami-junki.jpg
   avatar_source: Bangumi 番组计划 person/294
+  credits_key: junki takegami
 - name: 正辉
   slug: zheng-hui
   kind: character
@@ -858,6 +898,7 @@
   kind: figure
 - name: 河内丸武史
   slug: kawachimaru-takeshi
+  credits_key: kawachimaru takeshi
 - name: 小建
   slug: xiao-jian
   kind: character
@@ -888,10 +929,13 @@
     source: Bulbapedia File:Kenji_Matsushima.jpg
   avatar: /assets/img/people/matsushima-kenji.jpg
   avatar_source: Bulbapedia File:Kenji_Matsushima.jpg
+  credits_key: kenji matsushima
 - name: 森昭人
   slug: sen-zhao-ren
+  credits_key: akito mori
 - name: 田上怜子
   slug: tian-shang-lian-zi
+  credits_key: reiko tanoe
 - name: 后藤宏典
   slug: hou-teng-hong-dian
 - name: 三枝成彰
@@ -926,6 +970,7 @@
     source: PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）
   avatar: /assets/img/people/nakatsui-yu.jpg
   avatar_source: PocketMonsters.Net スタッフページ 10488（雑誌掲載のプランナー紹介写真）
+  credits_key: nakatsui suguru
 - name: T.O.
   slug: t-o
 - name: 足立美奈子
@@ -942,6 +987,7 @@
     source: Bulbapedia File:Minako_Adachi.png
   avatar: /assets/img/people/adachi-minako.jpg
   avatar_source: Bulbapedia File:Minako_Adachi.png
+  credits_key: adachi minako
 - name: AZ
   slug: az
   kind: character
@@ -966,6 +1012,7 @@
     post: 2014-05-01-interview-tpc-global-business-hirobe
   avatar: /assets/img/people/hirobe-keita.jpg
   avatar_source: 株式会社ポケモン 採用サイト インタビュー（2014）
+  credits_key: hirobe keita
 - name: T.W.
   slug: t-w
 - name: T.A.
@@ -996,10 +1043,13 @@
   slug: m-o
 - name: 尾上将之
   slug: wei-shang-jiang-zhi
+  credits_key: masayuki onoe
 - name: 氏家淳子
   slug: shi-jia-chun-zi
+  credits_key: atsuko ujie
 - name: 中广健吾
   slug: zhong-guang-jian-wu
+  credits_key: kengo nakahiro
 - name: 畠祐贵
   slug: tian-you-gui
 - name: 小野宪史
@@ -1026,21 +1076,27 @@
     source: Bulbapedia File:Takato_Utsunomiya.png
   avatar: /assets/img/people/utsunomiya-takato.jpg
   avatar_source: Bulbapedia File:Takato_Utsunomiya.png
+  credits_key: takato utsunomiya
 - name: 河本拓
   slug: he-ben-tuo
+  credits_key: kawamoto taku
 - name: 高桥伸也
   slug: takahashi-shinya
   aliases:
   - 高橋伸也
   - Shinya Takahashi
+  credits_key: shinya takahashi
 - name: 松崎翼
   slug: song-qi-yi
+  credits_key: matsuzaki tsubasa
 - name: 齐田和生
   slug: qi-tian-he-sheng
+  credits_key: kazuki saita
 - name: Kevin Knezevic
   slug: kevin-knezevic
 - name: 江上周作
   slug: egami-shusaku
+  credits_key: egami shusaku
 - name: M.Y.
   slug: m-y
 - name: 冈崎体育
@@ -1135,6 +1191,7 @@
     post: 2026-02-16-interview-famitsu-2026-pokopia
   avatar: /assets/img/people/murata-kanako.jpg
   avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から1人目）
+  credits_key: kanako murata
 - name: 枝川拓人
   slug: edagawa-takuto
   aliases:
@@ -1147,6 +1204,7 @@
     post: 2026-02-16-interview-famitsu-2026-pokopia
   avatar: /assets/img/people/edagawa-takuto.jpg
   avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から3人目）
+  credits_key: edagawa takuto
 - name: 绫野万里奈
   slug: ayano-marina
   aliases:
@@ -1159,6 +1217,7 @@
     post: 2026-02-16-interview-famitsu-2026-pokopia
   avatar: /assets/img/people/ayano-marina.jpg
   avatar_source: ファミ通.com 2026-02-16『ぽこ あ ポケモン』開発インタビュー（サムネイル左から4人目）
+  credits_key: ayano marina
 - name: 髙山玲央名
   slug: gao-shan-ling-yang-ming
   portraits:
@@ -1180,6 +1239,7 @@
     post: 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
   avatar: /assets/img/people/alfredo-spadafina.jpg
   avatar_source: CEDiL 講演者プロフィール（CEDEC 2026 セッション 3366）
+  credits_key: alfredo spadafina
 - name: 赤木达也
   slug: chi-mu-da-ye-2
   aliases:
@@ -1197,6 +1257,7 @@
   slug: t-t
 - name: 古谷翔
   slug: gu-gu-xiang
+  credits_key: furutani sho
 - name: 小岛彬
   slug: xiao-dao-bin
 - name: 的场昂树
@@ -1217,6 +1278,7 @@
     post: 2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita
   avatar: /assets/img/people/jinnai-hiroyuki.jpg
   avatar_source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
+  credits_key: hiroyuki jinnai
 - name: 森彰人
   slug: sen-zhang-ren
 - name: 诸月纱保子
@@ -1225,6 +1287,7 @@
   slug: da-ri-xiang-jun
 - name: 鹿瀬島英介
   slug: lu-lai-dao-ying-jie
+  credits_key: eisuke kasejima
 - name: 福嶋ゆかり
   slug: fu-dao
 - name: 大奈路まりな
@@ -1245,6 +1308,7 @@
   slug: he-he-jing-yi
 - name: 杉中克考
   slug: shan-zhong-ke-kao
+  credits_key: katsunori suginaka
 - name: 宫下尚生
   slug: miyashita-naoki
   aliases:
@@ -1257,11 +1321,3497 @@
     post: 2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita
   avatar: /assets/img/people/miyashita-naoki.jpg
   avatar_source: ファミ通.com 2018-03-30『名探偵ピカチュウ』開発陣インタビュー（プロフィール写真）
+  credits_key: miyashita naoki
 - name: 须崎春树
   slug: xu-qi-chun-shu
 - name: 田中宏和
   slug: tanaka-hirokazu
+  credits_key: hirokazu tanaka
 - name: K.I.
   slug: k-i
 - name: 谷博行
   slug: gu-bo-xing
+  credits_key: hiroyuki tani
+- name: 玉田荘介
+  slug: tamada-sosuke
+  kind: staff
+  credits_key: sosuke tamada
+  aliases:
+  - Sousuke Tamada
+  - Sōsuke Tamada
+  - Sosuke Tamada
+  - たまだ そうすけ
+- name: 木梨玲
+  slug: kinashi-akira
+  kind: staff
+  credits_key: akira kinashi
+  aliases:
+  - Akira Kinashi
+  - きなし あきら
+- name: 伊藤憲二郎
+  slug: ito-kenijro
+  kind: staff
+  credits_key: ito kenjiro
+  aliases:
+  - Kenjiro Ito
+  - Kenijro Ito
+  - Kenjirō Itō
+  - Kenjiro Itō
+  - Kenjirou Itou
+  - いとう けんじろう
+  - イトウ ケンジロウ
+- name: 大橋美紀子
+  slug: oohashi-mikiko
+  kind: staff
+  credits_key: mikiko ohashi
+  aliases:
+  - Mikiko Ohashi
+  - Mikiko Ohhashi
+  - Mikiko Ōhashi
+  - Mikiko Oohashi
+  - おおはし みきこ
+- name: 藤原基史
+  slug: fujiwara-motofumi
+  kind: staff
+  credits_key: fujiwara motofumi
+  aliases:
+  - Motofumi Fujiwara
+  - Motofumi Fuziwara
+  - Motofumi Fojiwara
+  - ふじわら もとふみ
+  bulbapedia: Motofumi Fujiwara
+- name: 松宮稔展
+  slug: matsumiya-toshinobu
+  kind: staff
+  credits_key: matsumiya toshinobu
+  aliases:
+  - Toshinobu Matsumiya
+  - まつみや としのぶ
+- name: 冨永兼司
+  slug: tominaga-kenji
+  kind: staff
+  credits_key: kenji tominaga
+  aliases:
+  - Kenji Tominaga
+  - とみなが けんじ
+- name: Mikiko Ryu
+  slug: ryu-mikiko
+  kind: staff
+  credits_key: mikiko ryu
+  aliases:
+  - りゅう みきこ
+- name: 福永晋
+  slug: fukunaga-sususmu
+  kind: staff
+  credits_key: fukunaga susumu
+  aliases:
+  - Susumu Fukunaga
+  - Sususmu Fukunaga
+  - ふくなが すすむ
+- name: Kellyn Ballard
+  slug: ballard-kellyn
+  kind: staff
+  credits_key: ballard kellyn
+  aliases:
+  - ケリン バラード
+- name: 小堀俊介
+  slug: kohori-shunsuke
+  kind: staff
+  credits_key: kohori shunsuke
+  aliases:
+  - Shunsuke Kohori
+  - こほり しゅんすけ
+- name: Miyuki Iwasawa
+  slug: iwasawa-miyuki
+  kind: staff
+  credits_key: iwasawa miyuki
+  aliases:
+  - いわさわ みゆき
+- name: 山上仁志
+  slug: yamagami-hitoshi
+  kind: staff
+  credits_key: hitoshi yamagami
+  aliases:
+  - Hitoshi Yamagami
+  - やまがみ ひとし
+  - やまがみ ひろし
+  - ヤマガミ ヒトシ
+- name: 大久保賢司
+  slug: okubo-kenji
+  kind: staff
+  credits_key: kenji okubo
+  aliases:
+  - Kenji Okubo
+  - おおくぼ けんじ
+- name: Teiko Sasaki
+  slug: sasaki-teiko
+  kind: staff
+  credits_key: sasaki teiko
+  aliases:
+  - ささき ていこ
+- name: Gaku Susai
+  slug: susai-gaku
+  kind: staff
+  credits_key: gaku susai
+  aliases:
+  - すさい がく
+- name: Yasuhiro Usui
+  slug: usui-yasuhiro
+  kind: staff
+  credits_key: usui yasuhiro
+  aliases:
+  - うすい やすひろ
+- name: 宮原俊雄
+  slug: miyahara-toshio
+  kind: staff
+  credits_key: miyahara toshio
+  aliases:
+  - Toshio Miyahara
+  - みやはら としお
+  - ミヤハラ トシオ
+- name: Hisato Yamamori
+  slug: yamamori-hisato
+  kind: staff
+  credits_key: hisato yamamori
+  aliases:
+  - やまもり ひさと
+- name: Hiro Nakamura
+  slug: nakamura-hiro
+  kind: staff
+  credits_key: hiro nakamura
+  aliases:
+  - なかむら ひろき
+  - ひろ なかむら
+- name: 下山田照幸
+  slug: shimoyamada-teruyuki
+  kind: staff
+  credits_key: shimoyamada teruyuki
+  aliases:
+  - Teruyuki Shimoyamada
+  - しもやまだ てるゆき
+- name: 田尻義雄
+  slug: tajiri-yoshio
+  kind: staff
+  credits_key: tajiri yoshio
+  aliases:
+  - Yoshio Tajiri
+  - たじり よしお
+- name: Yuichiro Mori
+  slug: mori-yuichiro
+  kind: staff
+  credits_key: mori yuichiro
+  aliases:
+  - Yūichirō Mori
+  - もり ゆういちろう
+- name: Hiroyuki Nakamura
+  slug: nakamura-hiroyuki
+  kind: staff
+  credits_key: hiroyuki nakamura
+  aliases:
+  - なかむら ひろゆき
+- name: Nozomu Saito
+  slug: saito-nozomu
+  kind: staff
+  credits_key: nozomu saito
+  aliases:
+  - Nozomu Saitō
+  - さいとう のぞむ
+- name: 高橋友也
+  slug: takahashi-tomoya
+  kind: staff
+  credits_key: takahashi tomoya
+  aliases:
+  - Tomoya Takahashi
+  - たかはし ともや
+- name: Michiko Takizawa
+  slug: takizawa-michiko
+  kind: staff
+  credits_key: michiko takizawa
+  aliases:
+  - たきざわ みちこ
+  - タキザワ ミチコ
+- name: Elena Nardo
+  slug: nardo-elena
+  kind: staff
+  credits_key: elena nardo
+  aliases:
+  - エレナ ナルド
+- name: Mitsuyo Matsunaga
+  slug: matsunaga-mitsuyo
+  kind: staff
+  credits_key: matsunaga mitsuyo
+  aliases:
+  - まつなが みつよ
+  - まつなが みちよ
+- name: 田中雅美
+  slug: tanaka-masami
+  kind: staff
+  credits_key: masami tanaka
+  aliases:
+  - Masami Tanaka
+  - たなか まさみ
+- name: Motoki Nakajima
+  slug: nakajima-motoki
+  kind: staff
+  credits_key: motoki nakajima
+  aliases:
+  - なかじま もとき
+- name: Yuki Okada
+  slug: okada-yuki
+  kind: staff
+  credits_key: okada yuki
+  aliases:
+  - おかだ ゆうき
+- name: Shuhei Furukawa
+  slug: furukawa-shuhei
+  kind: staff
+  credits_key: furukawa shuhei
+  aliases:
+  - Shūhei Furukawa
+  - ふるかわ しゅうへい
+- name: 二宮啓
+  slug: ninomiya-kei
+  kind: staff
+  credits_key: kei ninomiya
+  aliases:
+  - Kei Ninomiya
+  - にのみや けい
+- name: Seth McMahill
+  slug: mcmahill-seth
+  kind: staff
+  credits_key: mcmahill seth
+  aliases:
+  - Seth Mcmahill
+- name: 小村知孝
+  slug: komura-tomotaka
+  kind: staff
+  credits_key: komura tomotaka
+  aliases:
+  - Tomotaka Komura
+  - こむら ともたか
+  - コムラ トモタカ
+- name: Marco Sartori
+  slug: sartori-marco
+  kind: staff
+  credits_key: marco sartori
+  aliases:
+  - マルコ サルトーリ
+- name: Daniel Heucher
+  slug: heucher-daniel
+  kind: staff
+  credits_key: daniel heucher
+  aliases:
+  - ダニエル ホイヒャー
+- name: Kathleen Kalms
+  slug: kalms-kathleen
+  kind: staff
+  credits_key: kalms kathleen
+  aliases:
+  - カトレーン カルムス
+- name: Michael Ecke
+  slug: ecke-michael
+  kind: staff
+  credits_key: ecke michael
+  aliases:
+  - ミヒャエル エッケ
+- name: 杉本敦司
+  slug: sugimoto-atsushi
+  kind: staff
+  credits_key: atsushi sugimoto
+  aliases:
+  - Atsushi Sugimoto
+  - すぎもと あつし
+- name: Alberto Gracia Castellano
+  slug: castellano-alberto-gracia
+  kind: staff
+  credits_key: alberto castellano gracia
+  aliases:
+  - アルベルト グラシア カステヤノ
+- name: Enrique Joga Elvira
+  slug: elvira-enrique-joga
+  kind: staff
+  credits_key: elvira enrique joga
+  aliases:
+  - エンリケ ホガ エルヴィラ
+- name: Mihwa Choi
+  slug: choi-mihwa
+  kind: staff
+  credits_key: choi mihwa
+  aliases:
+  - Choi Mihwa
+  - MiHwa Choi
+  - チェ ミファ
+- name: Nami Kusumoto
+  slug: kusumoto-nami
+  kind: staff
+  credits_key: kusumoto nami
+  aliases:
+  - くすもと なみ
+- name: Takahiro Ohnishi
+  slug: onishi-takahiro
+  kind: staff
+  credits_key: onishi takahiro
+  aliases:
+  - Takahiro Onishi
+  - Takahiro O-nishi
+  - おおにし たかひろ
+- name: Teruki Murakawa
+  slug: murakawa-teruki
+  kind: staff
+  credits_key: murakawa teruki
+  aliases:
+  - むらかわ てるき
+- name: 野本岳志
+  slug: nomoto-gakuji
+  kind: staff
+  credits_key: gakuji nomoto
+  aliases:
+  - Gakuji Nomoto
+  - Gakuzi Nomoto
+  - のもと がくじ
+- name: Fabio Giusti
+  slug: giusti-fabio
+  kind: staff
+  credits_key: fabio giusti
+  aliases:
+  - ファビオ ジュスティ
+- name: Joel Simon
+  slug: simon-joel
+  kind: staff
+  credits_key: joel shimon
+  aliases: []
+- name: Manuela Suriano
+  slug: suriano-manuela
+  kind: staff
+  credits_key: manuela suriano
+  aliases:
+  - マヌエラ スリアーノ
+- name: Mariona Pera i de Miguel
+  slug: miguel-mariona-pera-i-de
+  kind: staff
+  credits_key: de i mariona miguel pera
+  aliases:
+  - Mariona Pera I de Miguel
+  - Mariona Pera I De Miguel
+  - マリオナ ペラ イ デ ミゲール
+- name: Pierre Gauthier
+  slug: gauthier-pierre
+  kind: staff
+  credits_key: gauthier pierre
+  aliases:
+  - ピエール ゴティエ
+- name: 野本烈志
+  slug: nomoto-retsuji
+  kind: staff
+  credits_key: nomoto retsuji
+  aliases:
+  - Retsuji Nomoto
+  - のもと れつじ
+- name: Silvia De Bellis
+  slug: bellis-silvia-de
+  kind: staff
+  credits_key: bellis de shilvia
+  aliases:
+  - Silvia de Bellis
+  - シルビヤ デ ベッリス
+- name: Guillaume Didier
+  slug: didier-guillaume
+  kind: staff
+  credits_key: didier guillaume
+  aliases:
+  - ギヨーム ディディエ
+- name: Guido Scarabello
+  slug: scarabello-guido
+  kind: staff
+  credits_key: guido scarabello
+  aliases:
+  - グイド スカラベッロ
+- name: Jeff Hines
+  slug: hines-jeff
+  kind: staff
+  credits_key: hines jeff
+  aliases:
+  - ジェフ ハインズ
+- name: Mayu Todo
+  slug: todo-mayu
+  kind: staff
+  credits_key: mayu todo
+  aliases:
+  - とうどう まゆ
+- name: Sina Moelleken
+  slug: moelleken-sina
+  kind: staff
+  credits_key: moelleken shina
+  aliases:
+  - ジーナ メレケン
+- name: Marvin Andrews
+  slug: andrews-marvin
+  kind: staff
+  credits_key: andrews marvin
+  aliases:
+  - マーヴィン アンドリュース
+- name: Alice Troiani
+  slug: troiani-alice
+  kind: staff
+  credits_key: alice troiani
+  aliases:
+  - アリーチェ トロヤーニ
+- name: Jihye Lee
+  slug: lee-jihye
+  kind: staff
+  credits_key: jihye lee
+  aliases:
+  - Lee Jihye
+  - JiHye Lee
+  - リ ジヘ
+  - イ ジヘ
+- name: Thomas Candland
+  slug: candland-thomas
+  kind: staff
+  credits_key: candland thomas
+  aliases:
+  - トーマス キャンドランド
+- name: Servando Doval Díaz
+  slug: diaz-servando-doval
+  kind: staff
+  credits_key: diaz doval servando
+  aliases:
+  - Servando Doval Diaz
+  - セルバンド ドバル ディアス
+- name: Jillian Nonaka
+  slug: nonaka-jillian
+  kind: staff
+  credits_key: jillian nonaka
+  aliases:
+  - ジリアン のなか
+- name: Kimiko Nakamichi
+  slug: nakamichi-kimiko
+  kind: staff
+  credits_key: kimiko nakamichi
+  aliases:
+  - なかみち きみこ
+- name: Hyokjin Jung
+  slug: jung-hyokjin
+  kind: staff
+  credits_key: hyokjin jung
+  aliases:
+  - ジョン ヒョクジン
+- name: 水谷恵
+  slug: mizutani-megumi
+  kind: staff
+  credits_key: megumi mizutani
+  aliases:
+  - Megumi Mizutani
+  - みずたに めぐみ
+- name: Shiho Haraguchi
+  slug: haraguchi-shiho
+  kind: staff
+  credits_key: haraguchi shiho
+  aliases:
+  - はらぐち しほ
+- name: Blaise Selby
+  slug: selby-blaise
+  kind: staff
+  credits_key: blaise selby
+  aliases: []
+- name: Cyril Schultz
+  slug: schultz-cyril
+  kind: staff
+  credits_key: cyril schultz
+  aliases:
+  - シリル シュールス
+- name: Teresa Lillygren
+  slug: lillygren-teresa
+  kind: staff
+  credits_key: lillygren teresa
+  aliases:
+  - Teresa Lillygreen
+- name: Misuzu Kanayama
+  slug: kanayama-misuzu
+  kind: staff
+  credits_key: kanayama misuzu
+  aliases:
+  - かなやま みすず
+- name: Aymeric Forgit
+  slug: forgit-aymeric
+  kind: staff
+  credits_key: aymeric forgit
+  aliases:
+  - エメリック フォージ
+- name: Kathy Huguenard
+  slug: huguenard-kathy
+  kind: staff
+  credits_key: fuguenard kathy
+  aliases:
+  - キャシー ヒューゲナード
+  - キャシー ヒュゲナード
+- name: Hideko Russell
+  slug: russell-hideko
+  kind: staff
+  credits_key: hideko russell
+  aliases:
+  - ラッセル ひでこ
+- name: Virginia Paradés Gurrea
+  slug: gurrea-virginia-parades
+  kind: staff
+  credits_key: gurrea parades virginia
+  aliases:
+  - ヴィルヒニア パラデス グレア
+- name: Patrick Thorenz
+  slug: thorenz-patrick
+  kind: staff
+  credits_key: patrick thorenz
+  aliases:
+  - パトリック トーレンツ
+- name: Maya Yoshida
+  slug: yoshida-maya
+  kind: staff
+  credits_key: maya yoshida
+  aliases:
+  - よしだ まや
+- name: 江尾可奈子
+  slug: eo-kanako
+  kind: staff
+  credits_key: eo kanako
+  aliases:
+  - Kanako Eo
+  - えお かなこ
+- name: Suirei Okata
+  slug: okata-suirei
+  kind: staff
+  credits_key: okata suirei
+  aliases:
+  - おおかた すいれい
+- name: 曽我部仙史
+  slug: sogabe-hisashi
+  kind: staff
+  credits_key: hisashi sogabe
+  aliases:
+  - Hisashi Sogabe
+  - そがべ ひさし
+- name: Yuta Nakai
+  slug: nakai-yuta
+  kind: staff
+  credits_key: nakai yuta
+  aliases:
+  - Yuuta Nakai
+  - なかい ゆうた
+- name: 渕野大樹
+  slug: fuchino-hiroki
+  kind: staff
+  credits_key: fuchino hiroki
+  aliases:
+  - Hiroki Fuchino
+  - ふちの ひろき
+- name: 林千尋
+  slug: hayashi-chihiro
+  kind: staff
+  credits_key: chihiro hayashi
+  aliases:
+  - Chihiro Hayashi
+  - はやし ちひろ
+- name: Sachiko Nakamichi
+  slug: nakamichi-sachiko
+  kind: staff
+  credits_key: nakamichi sachiko
+  aliases:
+  - なかみち さちこ
+- name: Sean Egan
+  slug: egan-sean
+  kind: staff
+  credits_key: egan sean
+  aliases: []
+- name: Sayuri Munday
+  slug: munday-sayuri
+  kind: staff
+  credits_key: munday sayuri
+  aliases: []
+- name: 穴澤匡道
+  slug: anazawa-masamichi
+  kind: staff
+  credits_key: anazawa masamichi
+  aliases:
+  - Masamichi Anazawa
+  - あなざわ まさみち
+- name: Makiko Szolas
+  slug: szolas-makiko
+  kind: staff
+  credits_key: makiko szolas
+  aliases:
+  - まきこ ゾラス
+- name: Jieun Byun
+  slug: byun-jieun
+  kind: staff
+  credits_key: byun jieun
+  aliases:
+  - Byun JiEun
+  - Byun Jieun
+  - JiEun Byun
+  - ビョン ジウン
+- name: Youngjun Park
+  slug: park-youngjun
+  kind: staff
+  credits_key: park yongjun
+  aliases:
+  - Park Youngjun
+  - YoungJun Park
+  - パク ヨンジュン
+- name: Keisuke Fukushima
+  slug: fukushima-keisuke
+  kind: staff
+  credits_key: fukushima keisuke
+  aliases:
+  - ふくしま けいすけ
+- name: Jaiboem Lim
+  slug: lim-jaiboem
+  kind: staff
+  credits_key: jaiboem lim
+  aliases:
+  - Lim JaiBoem
+  - Lim Jaiboem
+  - JaiBoem Lim
+  - イム ジェボム
+- name: Francesca Serci
+  slug: serci-francesca
+  kind: staff
+  credits_key: francesca serci
+  aliases:
+  - フランチェスカ セルチ
+- name: Christopher Derbort
+  slug: derbort-christopher
+  kind: staff
+  credits_key: christopher derbort
+  aliases:
+  - クリストファー デルボート
+- name: Ireneusz Radko
+  slug: radko-ireneusz
+  kind: staff
+  credits_key: ireneusz radko
+  aliases:
+  - イレネウッシュ ラトコ
+- name: Osamu Fujita
+  slug: fujita-osamu
+  kind: staff
+  credits_key: fujita osamu
+  aliases:
+  - ふじた おさむ
+- name: Jesús Gutiérrez Cuadra
+  slug: cuadra-jesus-gutierrez
+  kind: staff
+  credits_key: cuadra guchierrez jesus
+  aliases:
+  - Jesūs Gutiérrez Cuadra
+  - ヘスス グティエレス クアドラ
+- name: Diego Luque de la Campa
+  slug: campa-diego-luque-de-la
+  kind: staff
+  credits_key: canpa de diego la luque
+  aliases:
+  - Diego Luque De La Campa
+  - Diego Luque De la Campa
+  - ディエゴ ルーケ デ ラ カンパ
+- name: Shotaro Iwanaga
+  slug: shotaro-iwanaga
+  kind: staff
+  credits_key: iwanaga shotaro
+  aliases:
+  - Iwanaga Shotaro
+  - いわなが しょうたろう
+- name: Lylia Khrissate
+  slug: khrissate-lylia
+  kind: staff
+  credits_key: khrissate lylia
+  aliases:
+  - リリア クリサット
+- name: Yuta Ogawa
+  slug: ogawa-yuuta
+  kind: staff
+  credits_key: ogawa yuta
+  aliases:
+  - Yuuta Ogawa
+  - おがわ ゆうた
+  - オガワ ユウタ
+- name: Dongyeon Kim
+  slug: kim-dongyeon
+  kind: staff
+  credits_key: dongyeon kim
+  aliases:
+  - キム ドンヨン
+- name: 太田敏
+  slug: ohta-satoshi
+  kind: staff
+  credits_key: ota satoshi
+  aliases:
+  - Satoshi Ohta
+  - Satoshi Ōta
+  - Satoshi Oota
+  - Satoshi Ota
+  - おおた さとし
+  bulbapedia: Satoshi Ohta
+- name: Eodo Lee
+  slug: lee-eodo
+  kind: staff
+  credits_key: eodo lee
+  aliases:
+  - イ オド
+- name: Yoriomi Uego
+  slug: uego-yoriomi
+  kind: staff
+  credits_key: uego yoriomi
+  aliases:
+  - うえごう よりおみ
+- name: Souichi Yamamoto
+  slug: yamamoto-soichi
+  kind: staff
+  credits_key: soichi yamamoto
+  aliases:
+  - Sōichi Yamamoto
+  - Soichi Yamamoto
+  - やまもと そういち
+- name: 大野克己
+  slug: ono-katsumi
+  kind: staff
+  credits_key: katsumi ono
+  aliases:
+  - Katsumi Ohno
+  - Katsumi Ono
+  - Katsumi Ōno
+  - おおの かつみ
+- name: 安藤絵美
+  slug: ando-emi
+  kind: staff
+  credits_key: ando emi
+  aliases:
+  - Emi Ando
+  - あんどう えみ
+- name: 李ヒョンジョン
+  slug: hyunjung-lee
+  kind: staff
+  credits_key: hyonjyon lee
+  aliases:
+  - Lee HyunJung
+  - HyonJyon Lee
+  - Hyunjung Lee
+  - HyunJung Lee
+  - リ ヒョンジョン
+  bulbapedia: Lee HyunJung
+- name: Nagaaki Fukase
+  slug: fukase-nagaaki
+  kind: staff
+  credits_key: fukase nagaaki
+  aliases:
+  - ふかせ ながあき
+- name: Nobuhiko Ariizumi
+  slug: ariizumi-nobuhiko
+  kind: staff
+  credits_key: arizumi nobuhiko
+  aliases:
+  - ありいずみ のぶひこ
+- name: 名木橋徹
+  slug: nagihashi-toru
+  kind: staff
+  credits_key: nagihashi toru
+  aliases:
+  - Toru Nagihashi
+  - Tōru Nagihashi
+  - なぎはし とおる
+- name: 一楽克彦
+  slug: ichiraku-katsuhiko
+  kind: staff
+  credits_key: ichiraku katsuhiko
+  aliases:
+  - Katsuhiko Ichiraku
+  - いちらく かつひこ
+- name: 鶴宏明
+  slug: tsuru-hiroaki
+  kind: staff
+  credits_key: hiroaki tsuru
+  aliases:
+  - Hiroaki Tsuru
+  - つる ひろあき
+  - ツル ヒロアキ
+- name: Tomoko Mikami
+  slug: mikami-tomoko
+  kind: staff
+  credits_key: mikami tomoko
+  aliases:
+  - みかみ ともこ
+- name: Claudia Thon
+  slug: thon-claudia
+  kind: staff
+  credits_key: claudia thon
+  aliases:
+  - クラウディア トーン
+- name: Kenichi Arai
+  slug: arai-kenichi
+  kind: staff
+  credits_key: arai kenichi
+  aliases:
+  - Ken'ichi Arai
+  - あらい けんいち
+- name: Franck Couée
+  slug: couee-franck
+  kind: staff
+  credits_key: coee franck
+  aliases:
+  - Franck Couee
+  - フランク クエー
+- name: Owen Preece
+  slug: preece-owen
+  kind: staff
+  credits_key: owen preece
+  aliases:
+  - オーエン プリース
+- name: 曽羽孝則
+  slug: sowa-takanori
+  kind: staff
+  credits_key: sowa takanori
+  aliases:
+  - Takanori Sowa
+  - ©2025 Pokémon.
+  - そわ たかのり
+  bulbapedia: Pokémon
+- name: 古賀次郎
+  slug: koga-jirou
+  kind: staff
+  credits_key: jiro koga
+  aliases:
+  - Jiro Koga
+  - Jirō Koga
+  - Jirou Koga
+  - こが じろう
+  - こが じろうう
+- name: Shoichi Obora
+  slug: obora-shoichi
+  kind: staff
+  credits_key: obora shoichi
+  aliases:
+  - おおぼら しょういち
+- name: Nob Ogasawara
+  slug: ogasawara-nob
+  kind: staff
+  credits_key: nob ogasawara
+  aliases: []
+- name: Chungte Huang
+  slug: huang-chungte
+  kind: staff
+  credits_key: chungte fuang
+  aliases:
+  - こう しゅとく
+- name: Yuki Tanikawa
+  slug: tanikawa-yuki
+  kind: staff
+  credits_key: tanikawa yuki
+  aliases:
+  - Yuuki Tanikawa
+  - Yūki Tanikawa
+  - たにかわ ゆうき
+- name: Altan Couvert
+  slug: couvert-altan
+  kind: staff
+  credits_key: altan covert
+  aliases:
+  - アルタン クーベール
+- name: Rachel Payne
+  slug: payne-rachel
+  kind: staff
+  credits_key: payne rachel
+  aliases:
+  - レイチェル ペイン
+- name: Noriko Nakagawa
+  slug: nakagawa-noriko
+  kind: staff
+  credits_key: nakagawa noriko
+  aliases:
+  - なかがわ のりこ
+- name: Mary Rayes
+  slug: rayes-mary
+  kind: staff
+  credits_key: mary rayes
+  aliases:
+  - マリー レイズ
+- name: Dan Stephens
+  slug: stephens-dan
+  kind: staff
+  credits_key: dan stephens
+  aliases:
+  - ダン スティーブンス
+- name: Ming Xu
+  slug: ming-xu
+  kind: staff
+  credits_key: ming xu
+  aliases:
+  - Xu Ming
+  - きょ めい
+- name: 外山健吉
+  slug: toyama-kenchi
+  kind: staff
+  credits_key: kenkichi toyama
+  aliases:
+  - Kenkichi Toyama
+  - Kenchi Toyama
+  - とやま けんきち
+- name: Takuya Inoue
+  slug: inoue-takuya
+  kind: staff
+  credits_key: inoe takuya
+  aliases:
+  - いのうえ たくや
+- name: 山本裕輝
+  slug: yamamoto-yuki
+  kind: staff
+  credits_key: yamamoto yuki
+  aliases:
+  - Yuki Yamamoto
+  - やまもと ゆうき
+- name: とみさわ昭仁
+  slug: tomisawa-akihito
+  kind: staff
+  credits_key: akihito tomisawa
+  aliases:
+  - Akihito Tomisawa
+  - とみさわ あきひと
+- name: 藤原麻衣子
+  slug: fujiwara-maiko
+  kind: staff
+  credits_key: fujiwara maiko
+  aliases:
+  - Maiko Fujiwara
+  - ふじわら まいこ
+- name: ありがひとし
+  slug: ariga-hitoshi
+  kind: staff
+  credits_key: ariga hitoshi
+  aliases:
+  - Hitoshi Ariga
+  - ありが ひとし
+- name: Makoto Takebe
+  slug: takebe-makoto
+  kind: staff
+  credits_key: makoto takebe
+  aliases:
+  - たけべ まこと
+- name: Hiroyuki Uesugi
+  slug: uesugi-hiroyuki
+  kind: staff
+  credits_key: hiroyuki uesugi
+  aliases:
+  - うえすぎ ひろゆき
+- name: Eric Medalle
+  slug: medalle-eric
+  kind: staff
+  credits_key: eric medalle
+  aliases:
+  - エリック メダリエ
+- name: Kaori Aoki
+  slug: aoki-kaori
+  kind: staff
+  credits_key: aoki kaori
+  aliases:
+  - あおき かおり
+- name: Kentaro Nishimura
+  slug: nishimura-kentaro
+  kind: staff
+  credits_key: kentaro nishimura
+  aliases:
+  - Kentarō Nishimura
+  - にしむら けんたろう
+- name: Toru Inage
+  slug: inage-toru
+  kind: staff
+  credits_key: inage toru
+  aliases:
+  - Tōru Inage
+  - いなげ とおる
+- name: Ritsuko Oshu
+  slug: oshu-ritsuko
+  kind: staff
+  credits_key: oshu ritsuko
+  aliases:
+  - おうしゅう りつこ
+- name: Yuri Sakurai
+  slug: sakurai-yuuri
+  kind: staff
+  credits_key: sakurai yuri
+  aliases:
+  - Yūri Sakurai
+  - Yuuri Sakurai
+  - さくらい ゆうり
+- name: Robert Colling
+  slug: colling-robert
+  kind: staff
+  credits_key: colling robert
+  aliases:
+  - ロバート コリング
+  - ロバート コーリング
+- name: Barbara Schweinzer
+  slug: schweinzer-barbara
+  kind: staff
+  credits_key: barbara schweinzer
+  aliases:
+  - バーバラ シュワインツァー
+  - バーバラ シュヴァインツァー
+- name: Irene Mascaró Genestar
+  slug: genestar-irene-mascaro
+  kind: staff
+  credits_key: genestar irene mascaro
+  aliases:
+  - Irene Mascaro Genestar
+  - イレネ マスカロ ジェネスタル
+- name: Valentina Menale
+  slug: menale-valentina
+  kind: staff
+  credits_key: menale valenchina
+  aliases:
+  - ヴァレンティーナ メナーレ
+- name: Annarita Spera
+  slug: spera-annarita
+  kind: staff
+  credits_key: annarita spera
+  aliases:
+  - Anna Rita Spera
+  - アンナリタ スペラ
+  - アンナリータ スペーラ
+- name: Guendalina Pirruccio
+  slug: pirruccio-guendalina
+  kind: staff
+  credits_key: guendalina pirruccio
+  aliases:
+  - グエンダリーナ ピッルッチョ
+- name: Marco Locatelli
+  slug: locatelli-marco
+  kind: staff
+  credits_key: locatelli marco
+  aliases:
+  - マルコ ロカテッリ
+- name: Hiroki Fujiwara
+  slug: fujiwara-hiroki
+  kind: staff
+  credits_key: fujiwara hiroki
+  aliases:
+  - ふじわら ひろき
+- name: Masaya Ishizuka
+  slug: masaya-ishizuka
+  kind: staff
+  credits_key: ishizuka masaya
+  aliases:
+  - Ishizuka Masaya
+  - いしづか まさや
+- name: Marine Vallée
+  slug: vallee-marine
+  kind: staff
+  credits_key: marine vallee
+  aliases:
+  - Marine Vallee
+  - マリーン ヴァレ
+- name: 古川俊太郎
+  slug: furukawa-shuntaro
+  kind: staff
+  credits_key: furukawa shuntaro
+  aliases:
+  - Shuntaro Furukawa
+  - ふるかわ しゅんたろう
+- name: Violette Giang
+  slug: giang-violette
+  kind: staff
+  credits_key: giang violette
+  aliases:
+  - ヴィオレット ジアン
+- name: Takafumi Misawa
+  slug: misawa-takafumi
+  kind: staff
+  credits_key: misawa takafumi
+  aliases:
+  - みさわ たかふみ
+- name: Hannah Vassallo
+  slug: vassallo-hannah
+  kind: staff
+  credits_key: hannah vassallo
+  aliases:
+  - ハナ ヴァサーロ
+- name: Matthieu Béthencourt
+  slug: bethencourt-matthieu
+  kind: staff
+  credits_key: bethencort matthieu
+  aliases:
+  - マテュー ベタンクール
+- name: Rei Nakazawa
+  slug: nakazawa-rei
+  kind: staff
+  credits_key: nakazawa rei
+  aliases:
+  - レイ なかざわ
+- name: Yasuko Takahashi
+  slug: takahashi-yasuko
+  kind: staff
+  credits_key: takahashi yasuko
+  aliases:
+  - たかはし やすこ
+- name: 吉川玲奈
+  slug: yoshikawa-rena
+  kind: staff
+  credits_key: rena yoshikawa
+  aliases:
+  - Rena Yoshikawa
+  - よしかわ れな
+- name: Shawn Williams-Brown
+  slug: williamsbrown-shawn
+  kind: staff
+  credits_key: shawn williamsbrown
+  aliases:
+  - Shawn Williams-brown
+  - ショーン ウィリアムズ ブラウン
+- name: Makiko Wakai
+  slug: wakai-makiko
+  kind: staff
+  credits_key: makiko wakai
+  aliases:
+  - わかい まきこ
+- name: Pablo Gismero Calvo
+  slug: calvo-pablo-gismero
+  kind: staff
+  credits_key: calvo gismero pablo
+  aliases:
+  - パブロ ヒスメロ カルボ
+- name: Kyoungim Na
+  slug: na-kyoungim
+  kind: staff
+  credits_key: kyongim na
+  aliases:
+  - ナ ギョンイム
+  - パク ユンジン
+- name: Rei Haberberg
+  slug: haberberg-rei
+  kind: staff
+  credits_key: haberberg rei
+  aliases:
+  - レイ ハバーバーグ
+- name: Toshio Mukai
+  slug: mukai-toshio
+  kind: staff
+  credits_key: mukai toshio
+  aliases:
+  - むかい としお
+- name: Rie Tatsuno
+  slug: tatsuno-rie
+  kind: staff
+  credits_key: rie tatsuno
+  aliases:
+  - たつの りえ
+- name: Soonil Kim
+  slug: kim-soonil
+  kind: staff
+  credits_key: kim sonil
+  aliases:
+  - キム スンイル
+- name: Chisato Fujita
+  slug: fujita-chisato
+  kind: staff
+  credits_key: chisato fujita
+  aliases:
+  - ふじた ちさと
+- name: Tomomi Sakuma
+  slug: sakuma-tomomi
+  kind: staff
+  credits_key: sakuma tomomi
+  aliases:
+  - さくま ともみ
+- name: Romanov Higa
+  slug: higa-romanov
+  kind: staff
+  credits_key: higa romanov
+  aliases:
+  - ROMANOV HIGA
+  - ロマのフ ひが
+  - ロマのフひが
+- name: Tsuyoshi Ichikawa
+  slug: ichikawa-tsuyoshi
+  kind: staff
+  credits_key: ichikawa tsuyoshi
+  aliases:
+  - いちかわ つよし
+- name: Keita Kagaya
+  slug: kagaya-keita
+  kind: staff
+  credits_key: kagaya keita
+  aliases:
+  - かがや けいた
+- name: Yoshinori Matsuda
+  slug: matsuda-yoshinori
+  kind: staff
+  credits_key: matsuda yoshinori
+  aliases:
+  - まつだ よしのり
+- name: Tadashi Takahashi
+  slug: takahashi-tadashi
+  kind: staff
+  credits_key: tadashi takahashi
+  aliases:
+  - たかはし ただし
+- name: Emi Endo
+  slug: endo-emi
+  kind: staff
+  credits_key: emi endo
+  aliases:
+  - Emi Endō
+  - えんどう えみ
+- name: 斉藤優史
+  slug: saito-masafumi
+  kind: staff
+  credits_key: masafumi saito
+  aliases:
+  - Masafumi Saito
+  - Masafumi Saitō
+  - さいとう まさふみ
+- name: Koji Kawada
+  slug: kawada-koji
+  kind: staff
+  credits_key: kawada koji
+  aliases:
+  - Kōji Kawada
+  - かわだ こうじ
+- name: Kazuki Muroi
+  slug: muroi-kazuki
+  kind: staff
+  credits_key: kazuki muroi
+  aliases:
+  - むろい かずき
+- name: 吉川麻由花
+  slug: yoshikawa-mayuka
+  kind: staff
+  credits_key: mayuka yoshikawa
+  aliases:
+  - Mayuka Yoshikawa
+  - よしかわ まゆか
+- name: Megumi Miyagawa
+  slug: miyagawa-megumi
+  kind: staff
+  credits_key: megumi miyagawa
+  aliases:
+  - みやがわ めぐみ
+- name: Mitsuhiro Ariga
+  slug: ariga-mitsuhiro
+  kind: staff
+  credits_key: ariga mitsuhiro
+  aliases:
+  - ありが みつひろ
+- name: Bertrand Lecocq
+  slug: lecocq-bertrand
+  kind: staff
+  credits_key: bertrand lecocq
+  aliases:
+  - ベルトラン ルコック
+- name: 澤邉信博
+  slug: sawabe-nobuhiro
+  kind: staff
+  credits_key: nobuhiro sawabe
+  aliases:
+  - Nobuhiro Sawabe
+  - さわべ のぶひろ
+  - サワベ ノブヒロ
+- name: Kiyomi Itani
+  slug: itani-kiyomi
+  kind: staff
+  credits_key: itani kiyomi
+  aliases:
+  - いたに きよみ
+- name: Masayasu Nakata
+  slug: nakata-masayasu
+  kind: staff
+  credits_key: masayasu nakata
+  aliases:
+  - なかた まさやす
+- name: Tadasu Hasegawa
+  slug: hasegawa-tadasu
+  kind: staff
+  credits_key: hasegawa tadasu
+  aliases:
+  - はせがわ ただす
+- name: Rie Fujiwara
+  slug: fujiwara-rie
+  kind: staff
+  credits_key: fujiwara rie
+  aliases:
+  - ふじわら りえ
+- name: Yasunori Suenaga
+  slug: suenaga-yasunori
+  kind: staff
+  credits_key: suenaga yasunori
+  aliases:
+  - すえなが やすのり
+  - スエナガ ヤスノリ
+- name: 三間雅文
+  slug: mima-masafumi
+  kind: staff
+  credits_key: masafumi mima
+  aliases:
+  - Masafumi Mima
+  - みま まさふみ
+- name: Ben Howard-Hale
+  slug: howardhale-ben
+  kind: staff
+  credits_key: ben howardhale
+  aliases:
+  - Ben-Howard-Hale
+- name: Dongun Pak
+  slug: pak-dongun
+  kind: staff
+  credits_key: dongun pak
+  aliases:
+  - DongUn Pak
+  - パク ドンウン
+- name: Daniele Albrito
+  slug: albrito-daniele
+  kind: staff
+  credits_key: albrito daniele
+  aliases: []
+- name: さくまたかし
+  slug: sakuma-takashi
+  kind: staff
+  credits_key: sakuma takashi
+  aliases:
+  - Takashi Sakuma
+  - さくま たかし
+- name: Peter Bagley
+  slug: bagley-peter
+  kind: staff
+  credits_key: bagley peter
+  aliases:
+  - ピーター バグリー
+- name: Sophie Jüterbock
+  slug: juterbock-sophie
+  kind: staff
+  credits_key: juterbock sophie
+  aliases:
+  - ソフィー ユータボック
+- name: Sho Yoshimoto
+  slug: yoshimoto-sho
+  kind: staff
+  credits_key: sho yoshimoto
+  aliases:
+  - よしもと しょう
+- name: Rubén Lado Riomao
+  slug: riomao-ruben-lado
+  kind: staff
+  credits_key: lado riomao ruben
+  aliases:
+  - Ruben Lado Riomao
+  - ルベン ラド リオマオ
+- name: Yoshiko Aota
+  slug: aota-yoshiko
+  kind: staff
+  credits_key: aota yoshiko
+  aliases:
+  - Yoshiko AOTA
+  - あおた よしこ
+- name: 上井伸
+  slug: uwai-shin
+  kind: staff
+  credits_key: shin uwai
+  aliases:
+  - Shin Uwai
+  - うわい しん
+- name: Marco Gruden
+  slug: gruden-marco
+  kind: staff
+  credits_key: gruden marco
+  aliases: []
+- name: Kyohei Minato
+  slug: minato-kyohei
+  kind: staff
+  credits_key: kyohei minato
+  aliases:
+  - みなと きょうへい
+- name: Alicia Iribarren Mendoza
+  slug: mendoza-alicia-iribarren
+  kind: staff
+  credits_key: alicia iribarren mendoza
+  aliases:
+  - アリシア イリバーレン メンドサ
+- name: Carolin Maibach
+  slug: maibach-carolin
+  kind: staff
+  credits_key: carolin maibach
+  aliases:
+  - カロリン マイバッハ
+- name: Juan José Leiva Jiménez
+  slug: jimenez-juan-jose-leiva
+  kind: staff
+  credits_key: jimenez jose juan leiva
+  aliases:
+  - Juan Jose Leiva Jimenez
+  - フアン ホセ レイバ ヒメネス
+- name: Masafumi Sugiyama
+  slug: sugiyama-masafumi
+  kind: staff
+  credits_key: masafumi sugiyama
+  aliases:
+  - すぎやま まさふみ
+- name: Jacopo Vanin
+  slug: vanin-jacopo
+  kind: staff
+  credits_key: jacopo vanin
+  aliases:
+  - ヤコポ ヴァニン
+- name: Sergio Bianchi
+  slug: bianchi-sergio
+  kind: staff
+  credits_key: bianchi sergio
+  aliases:
+  - セルジョ ビャンキ
+- name: Sira Vaterhaus
+  slug: vaterhaus-sira
+  kind: staff
+  credits_key: shira vaterhaus
+  aliases:
+  - ジーラ ファータハウス
+- name: Hiromichi Hidaka
+  slug: hidaka-hiromichi
+  kind: staff
+  credits_key: hidaka hiromichi
+  aliases:
+  - ひだか ひろみち
+- name: Yosuke Takahashi
+  slug: takahashi-yousuke
+  kind: staff
+  credits_key: takahashi yosuke
+  aliases:
+  - Yousuke Takahashi
+  - たかはし ようすけ
+- name: Hiroaki Gohara
+  slug: gouhara-hiroaki
+  kind: staff
+  credits_key: gohara hiroaki
+  aliases:
+  - Hiroaki Gouhara
+  - ごうはら ひろあき
+- name: Yuriko Iwasaki
+  slug: iwasaki-yuriko
+  kind: staff
+  credits_key: iwasaki yuriko
+  aliases:
+  - いわさき ゆりこ
+- name: Edith Belarra López
+  slug: lopez-edith-belarra
+  kind: staff
+  credits_key: belarra edith lopez
+  aliases:
+  - Edith Belarra Lopez
+  - イディス べララ ロペズ
+- name: Elodie Verpoort
+  slug: verpoort-elodie
+  kind: staff
+  credits_key: elodie verport
+  aliases:
+  - エロディ ヴェルポール
+- name: Julia Ryer
+  slug: ryer-julia
+  kind: staff
+  credits_key: julia ryer
+  aliases:
+  - ジュリア ライヤー
+- name: Nicolas Sindres
+  slug: sindres-nicolas
+  kind: staff
+  credits_key: nicolas shindres
+  aliases:
+  - ニコラ サンドレス
+- name: Yoriko Marusich
+  slug: marusich-yoriko
+  kind: staff
+  credits_key: marushich yoriko
+  aliases:
+  - よりこ マルシチ
+- name: Diego Figaredo
+  slug: figaredo-diego
+  kind: staff
+  credits_key: diego figaredo
+  aliases:
+  - ディエゴ フィガレド
+- name: Genya Hosaka
+  slug: hosaka-genya
+  kind: staff
+  credits_key: genya hosaka
+  aliases:
+  - Gen'ya Hosaka
+  - ほさか げんや
+- name: Koichiro Wakamatsu
+  slug: wakamatsu-koichiro
+  kind: staff
+  credits_key: koichiro wakamatsu
+  aliases:
+  - Kouichiro Wakamatsu
+  - わかまつ こういちろう
+- name: Noritaka Otsuka
+  slug: otsuka-noritaka
+  kind: staff
+  credits_key: noritaka otsuka
+  aliases:
+  - おおつか のりたか
+- name: Shohei Furuta
+  slug: furuta-shohei
+  kind: staff
+  credits_key: furuta shohei
+  aliases:
+  - ふるた しょうへい
+- name: Shinnosuke Miki
+  slug: miki-sinnosuke
+  kind: staff
+  credits_key: miki shinnosuke
+  aliases:
+  - Sinnosuke Miki
+  - みき しんのすけ
+- name: Yohei Asaoka
+  slug: asaoka-yohei
+  kind: staff
+  credits_key: asaoka yohei
+  aliases:
+  - あさおか ようへい
+- name: 前田咲子
+  slug: maeda-sakiko
+  kind: staff
+  credits_key: maeda sakiko
+  aliases:
+  - Sakiko Maeda
+  - まえだ さきこ
+- name: Hideki Iwata
+  slug: iwata-hideki
+  kind: staff
+  credits_key: hideki iwata
+  aliases:
+  - いわた ひでき
+- name: Kei Setoguchi
+  slug: setoguchi-kei
+  kind: staff
+  credits_key: kei setoguchi
+  aliases:
+  - せとぐち けい
+- name: Ayane Morita
+  slug: morita-ayane
+  kind: staff
+  credits_key: ayane morita
+  aliases:
+  - もりた あやね
+- name: 阿部杏子
+  slug: abe-kyoko
+  kind: staff
+  credits_key: abe kyoko
+  aliases:
+  - Kyoko Abe
+  - あべ きょうこ
+- name: 遠藤憲司
+  slug: endo-kenji
+  kind: staff
+  credits_key: endo kenji
+  aliases:
+  - Kenji Endo
+  - えんどう けんじ
+- name: 太田智道
+  slug: ohta-tomomichi
+  kind: staff
+  credits_key: ota tomomichi
+  aliases:
+  - Tomomichi Ohta
+  - Tomomichi Oota
+  - おおた ともみち
+- name: つるたさや
+  slug: tsuruta-saya
+  kind: staff
+  credits_key: saya tsuruta
+  aliases:
+  - Saya Tsuruta
+  - つるた さや
+- name: Hironori Ichibayashi
+  slug: ichibayashi-hironori
+  kind: staff
+  credits_key: hironori ichibayashi
+  aliases:
+  - いちばやし ひろのり
+- name: Akira Nakamura
+  slug: nakamura-akira
+  kind: staff
+  credits_key: akira nakamura
+  aliases:
+  - なかむら あきら
+- name: 伊藤博人
+  slug: ito-hiroto
+  kind: staff
+  credits_key: hiroto ito
+  aliases:
+  - Hiroto Ito
+  - Hiroto Itō
+  - いとう ひろと
+- name: Siyoung An
+  slug: an-siyoung
+  kind: staff
+  credits_key: an shiyong
+  aliases:
+  - アン シヨン
+- name: Junya Ikuta
+  slug: ikuta-junya
+  kind: staff
+  credits_key: ikuta junya
+  aliases:
+  - いくた じゅんや
+- name: 栃木遥
+  slug: tochigi-haruka
+  kind: staff
+  credits_key: haruka tochigi
+  aliases:
+  - Haruka Tochigi
+  - とちぎ はるか
+- name: Masanori Kanamaru
+  slug: kanamaru-masanori
+  kind: staff
+  credits_key: kanamaru masanori
+  aliases:
+  - かなまる まさのり
+- name: Toshimitsu Arai
+  slug: arai-toshimitsu
+  kind: staff
+  credits_key: arai toshimitsu
+  aliases:
+  - あらい としみつ
+- name: Yosuke Uematsu
+  slug: uematsu-yosuke
+  kind: staff
+  credits_key: uematsu yosuke
+  aliases:
+  - うえまつ ようすけ
+- name: Yuya Fukushima
+  slug: fukushima-yuya
+  kind: staff
+  credits_key: fukushima yuya
+  aliases:
+  - ふくしま ゆうや
+- name: 橘高文美恵
+  slug: kittaka-fumie
+  kind: staff
+  credits_key: fumie kittaka
+  aliases:
+  - Fumie Kittaka
+  - きったか ふみえ
+- name: Fumiya Takahashi
+  slug: takahashi-fumiya
+  kind: staff
+  credits_key: fumiya takahashi
+  aliases:
+  - たかはし ふみや
+- name: Hitoshi Okamoto
+  slug: okamoto-hitoshi
+  kind: staff
+  credits_key: hitoshi okamoto
+  aliases:
+  - おかもと ひとし
+- name: Kai Munakata
+  slug: munakata-kai-2
+  kind: staff
+  credits_key: kai munakata
+  aliases:
+  - むなかた かい
+- name: Yutan Cheng
+  slug: cheng-yutan
+  kind: staff
+  credits_key: cheng yutan
+  aliases:
+  - てい うたん
+  - チェン ユタン
+- name: 橋本美咲
+  slug: hashimoto-misaki
+  kind: staff
+  credits_key: hashimoto misaki
+  aliases:
+  - Misaki Hashimoto
+  - はしもと みさき
+- name: Shinya Goto
+  slug: goto-shinya
+  kind: staff
+  credits_key: goto shinya
+  aliases:
+  - ごとう しんや
+- name: 金子智美
+  slug: kaneko-tomomi
+  kind: staff
+  credits_key: kaneko tomomi
+  aliases:
+  - Tomomi Kaneko
+  - かねこ ともみ
+- name: Tomoya Kanehira
+  slug: kanehira-tomoya
+  kind: staff
+  credits_key: kanehira tomoya
+  aliases:
+  - かねひら ともや
+- name: Rui Kawaguchi
+  slug: kawaguchi-rui
+  kind: staff
+  credits_key: kawaguchi rui
+  aliases:
+  - かわぐち るい
+  - カワグチ ルイ
+- name: Yasuko Sugiyama
+  slug: sugiyama-yasuko
+  kind: staff
+  credits_key: sugiyama yasuko
+  aliases:
+  - たかはし やすこ
+  - すぎやま やすこ
+- name: Ryoko Sawabe
+  slug: sawabe-ryoko
+  kind: staff
+  credits_key: ryoko sawabe
+  aliases:
+  - さわべ りょうこ
+- name: Eva Rodríguez Graña
+  slug: grana-eva-rodriguez
+  kind: staff
+  credits_key: eva grana rodriguez
+  aliases:
+  - Eva Rodriguez Grana
+- name: 山内溥
+  slug: yamauchi-hiroshi
+  kind: staff
+  credits_key: hiroshi yamauchi
+  aliases:
+  - Hiroshi Yamauchi
+  - やまうち ひろし
+- name: 三津原敏
+  slug: mitsuhara-satoshi
+  kind: staff
+  credits_key: mitsuhara satoshi
+  aliases:
+  - Satoshi Mitsuhara
+  - みつはら さとし
+- name: Junko Tamura
+  slug: tamura-junko
+  kind: staff
+  credits_key: junko tamura
+  aliases:
+  - たむら じゅんこ
+- name: Ayako Kajiwara
+  slug: kajiwara-ayako
+  kind: staff
+  credits_key: ayako kajiwara
+  aliases:
+  - かじわら あやこ
+  - たなか まさみ
+- name: Laurence Uhlen
+  slug: uhlen-laurence
+  kind: staff
+  credits_key: laurence ulen
+  aliases: []
+- name: Michael Bales
+  slug: bales-michael
+  kind: staff
+  credits_key: bales michael
+  aliases:
+  - マイケル ベールス
+- name: Thomas Hertzog
+  slug: hertzog-thomas
+  kind: staff
+  credits_key: hertzog thomas
+  aliases:
+  - Thomas Hertzhog
+- name: Hideaki Araki
+  slug: araki-hideaki
+  kind: staff
+  credits_key: araki hideaki
+  aliases:
+  - あらき ひであき
+- name: Tom Hertzog
+  slug: hertzog-tom
+  kind: staff
+  credits_key: hertzog tom
+  aliases: []
+- name: Juliana Niederwanger
+  slug: niederwanger-juliana
+  kind: staff
+  credits_key: juliana niederwanger
+  aliases:
+  - ユリアーナ ニーダヴァンガ
+- name: Jooyeon Han
+  slug: han-jooyeon
+  kind: staff
+  credits_key: han joyeon
+  aliases:
+  - ハン ジュウヨン
+- name: Ahmed Bounouar
+  slug: bounouar-ahmed
+  kind: staff
+  credits_key: ahmed bonoar
+  aliases: []
+- name: 畠祐貴
+  slug: hata-masataka
+  kind: staff
+  credits_key: hata masataka
+  aliases:
+  - Masataka Hata
+  - はた まさたか
+- name: Olivia Bonnal
+  slug: bonnal-olivia
+  kind: staff
+  credits_key: bonnal olivia
+  aliases:
+  - オリビア ボナル
+- name: Píndaro Vargas-Farías
+  slug: vargasfarias-pindaro
+  kind: staff
+  credits_key: pindaro vargasfarias
+  aliases:
+  - Píndaro Vargas-farías
+  - Pindaro Vargas-Farías
+  - Pindaro Vargas-Farias
+  - ピンダロ ヴァルガスファリーアス
+- name: Endai Liao
+  slug: liao-endai
+  kind: staff
+  credits_key: endai liao
+  aliases:
+  - りょう おんだい
+- name: Kendra Evans
+  slug: evans-kendra
+  kind: staff
+  credits_key: evans kendra
+  aliases:
+  - ケンドラ エヴァンズ
+- name: Nobuyuki Ohta
+  slug: ota-nobuyuki
+  kind: staff
+  credits_key: nobuyuki ota
+  aliases:
+  - Nobuyuki Ota
+  - おおた のぶゆき
+- name: 野中豊和
+  slug: nonaka-toyokazu
+  kind: staff
+  credits_key: nonaka toyokazu
+  aliases:
+  - Toyokazu Nonaka
+  - のなか とよかず
+- name: Daniel Schäfers
+  slug: schafers-daniel
+  kind: staff
+  credits_key: daniel schafers
+  aliases: []
+- name: 斉藤むねお
+  slug: saito-muneo
+  kind: staff
+  credits_key: muneo saito
+  aliases:
+  - Muneo Saitō
+  - Muneo Saito
+  - さいとう むねお
+  bulbapedia: Muneo Saitō
+- name: Nobue Ito
+  slug: ito-nobue
+  kind: staff
+  credits_key: ito nobue
+  aliases:
+  - いとう のぶえ
+- name: Suguru Fukaya
+  slug: fukaya-suguru
+  kind: staff
+  credits_key: fukaya suguru
+  aliases:
+  - ふかや すぐる
+- name: Eunbi Jo
+  slug: eunbi-jo
+  kind: staff
+  credits_key: eunbi jo
+  aliases:
+  - Jo Eunbi
+  - ジョ ウンビ
+- name: Yuwen Wang
+  slug: wang-yuwen
+  kind: staff
+  credits_key: wang yuwen
+  aliases:
+  - おう いくぶん
+- name: Aurélie Kryvinskyj
+  slug: kryvinskyj-aurelie
+  kind: staff
+  credits_key: aurelie kryvinskyj
+  aliases:
+  - Aurelie Kryvinskyj
+  - オレリー クリヴィンスキ
+- name: Misa Matsumoto
+  slug: matsumoto-misa
+  kind: staff
+  credits_key: matsumoto misa
+  aliases:
+  - まつもと みさ
+- name: Andrea Salvi
+  slug: salvi-andrea
+  kind: staff
+  credits_key: andrea salvi
+  aliases: []
+- name: Mikihiro Ishikawa
+  slug: ishikawa-mikihiro
+  kind: staff
+  credits_key: ishikawa mikihiro
+  aliases:
+  - いしかわ みきひろ
+- name: 吉原一期
+  slug: yoshihara-kazuki
+  kind: staff
+  credits_key: kazuki yoshihara
+  aliases:
+  - Kazuki Yoshihara
+  - よしはら かずき
+- name: Ryo Yamaguchi
+  slug: yamaguchi-ryo
+  kind: staff
+  credits_key: ryo yamaguchi
+  aliases:
+  - Ryō Yamaguchi
+  - やまぐち りょう
+- name: Toya Yoneda
+  slug: yoneda-toya
+  kind: staff
+  credits_key: toya yoneda
+  aliases:
+  - Tōya Yoneda
+  - よねだ とうや
+- name: Takahiro Kumasaka
+  slug: kumasaka-takahiro
+  kind: staff
+  credits_key: kumasaka takahiro
+  aliases:
+  - くまさか たかひろ
+- name: Sebastian Jende
+  slug: jende-sebastian
+  kind: staff
+  credits_key: jende sebastian
+  aliases:
+  - ゼバスティアン イェンデ
+- name: Bryan Olsson
+  slug: olsson-bryan
+  kind: staff
+  credits_key: bryan olsson
+  aliases:
+  - ブライアン オルソン
+- name: Hitomi Suzuki
+  slug: suzuki-hitomi
+  kind: staff
+  credits_key: hitomi suzuki
+  aliases:
+  - すずき ひとみ
+- name: Izumi Watanabe
+  slug: watanabe-izumi
+  kind: staff
+  credits_key: izumi watanabe
+  aliases:
+  - わたなべ いずみ
+- name: Jackson Pietsch
+  slug: pietsch-jackson
+  kind: staff
+  credits_key: jackson pietsch
+  aliases:
+  - ジャクソン ピーチ
+- name: Leslie Gambini
+  slug: gambini-leslie
+  kind: staff
+  credits_key: ganbini leslie
+  aliases:
+  - レスリー ガンビニ
+- name: 岩下明日香
+  slug: iwashita-asuka
+  kind: staff
+  credits_key: asuka iwashita
+  aliases:
+  - Asuka Iwashita
+  - いわした あすか
+- name: 奥谷順
+  slug: okutani-jun
+  kind: staff
+  credits_key: jun okutani
+  aliases:
+  - Jun Okutani
+  - おくたに じゅん
+- name: Noriko Nakao
+  slug: nakao-noriko
+  kind: staff
+  credits_key: nakao noriko
+  aliases:
+  - なかお のりこ
+- name: Sarah Provost
+  slug: provost-sarah
+  kind: staff
+  credits_key: provost sarah
+  aliases: []
+- name: 増田武
+  slug: masuda-takeshi
+  kind: staff
+  credits_key: masuda takeshi
+  aliases:
+  - Takeshi Masuda
+  - ますだ たけし
+- name: Yi Peng
+  slug: peng-yi
+  kind: staff
+  credits_key: peng yi
+  aliases: []
+- name: Mark Pedini
+  slug: pedini-mark
+  kind: staff
+  credits_key: mark pedini
+  aliases:
+  - マーク ペディーニ
+- name: Noémie Pradier
+  slug: pradier-noemie
+  kind: staff
+  credits_key: noemie pradier
+  aliases:
+  - Noemie Pradier
+  - ノエミ プラディエ
+- name: Yijun Chen
+  slug: yijun-chen
+  kind: staff
+  credits_key: chen yijun
+  aliases:
+  - Chen Yijun
+  - ちん きつくん
+- name: Thomas Garel
+  slug: garel-thomas
+  kind: staff
+  credits_key: garel thomas
+  aliases:
+  - トマ ガレール
+- name: Yencheng Lin
+  slug: lin-yencheng
+  kind: staff
+  credits_key: lin yencheng
+  aliases:
+  - りん えんじょう
+- name: Takashi Orikata
+  slug: orikata-takashi
+  kind: staff
+  credits_key: orikata takashi
+  aliases:
+  - おりかた たかし
+  - オリカタ タカシ
+- name: Shin Kohsaka
+  slug: kosaka-shin
+  kind: staff
+  credits_key: kosaka shin
+  aliases:
+  - Shin Kosaka
+  - Shin Kōsaka
+  - こうさか しん
+- name: Mai Takano
+  slug: takano-mai
+  kind: staff
+  credits_key: mai takano
+  aliases:
+  - たかの まい
+- name: Derk Bramer
+  slug: bramer-derk
+  kind: staff
+  credits_key: bramer derk
+  aliases:
+  - ダーク ブレイマー
+- name: Hiroki Togashi
+  slug: togashi-hiroki
+  kind: staff
+  credits_key: hiroki togashi
+  aliases:
+  - とがし ひろき
+- name: Sachiko Hamano
+  slug: hamano-sachiko
+  kind: staff
+  credits_key: hamano sachiko
+  aliases:
+  - はまの さちこ
+- name: 野原悟史
+  slug: nohara-satoshi
+  kind: staff
+  credits_key: nohara satoshi
+  aliases:
+  - Satoshi Nohara
+  - のはら さとし
+- name: 北風友裕
+  slug: kitakaze-tomohiro
+  kind: staff
+  credits_key: kitakaze tomohiro
+  aliases:
+  - Tomohiro Kitakaze
+  - きたかぜ ともひろ
+- name: 寺地惇
+  slug: terachi-atsushi
+  kind: staff
+  credits_key: atsushi terachi
+  aliases:
+  - Atsushi Terachi
+  - てらち あつし
+- name: Takahiro Koizumi
+  slug: koizumi-takahiro
+  kind: staff
+  credits_key: koizumi takahiro
+  aliases:
+  - こいずみ たかひろ
+- name: 成定優
+  slug: narisada-yu
+  kind: staff
+  credits_key: narisada yu
+  aliases:
+  - Yu Narisada
+  - なりさだ ゆう
+- name: Kojiro Matsuyama
+  slug: matsuyama-kojiro
+  kind: staff
+  credits_key: kojiro matsuyama
+  aliases:
+  - まつやま こうじろう
+- name: Shinji Tamano
+  slug: tamano-shinji
+  kind: staff
+  credits_key: shinji tamano
+  aliases:
+  - たまの しんじ
+- name: Akira Takayama
+  slug: takayama-akira
+  kind: staff
+  credits_key: akira takayama
+  aliases:
+  - たかやま あきら
+- name: 久我絵理佳
+  slug: kuga-erika
+  kind: staff
+  credits_key: erika kuga
+  aliases:
+  - Erika Kuga
+  - くが えりか
+- name: Hiroshi Nakagomi
+  slug: nakagomi-hiroshi
+  kind: staff
+  credits_key: hiroshi nakagomi
+  aliases:
+  - なかごみ ひろし
+- name: Hitomi Imaizumi
+  slug: imaizumi-hitomi
+  kind: staff
+  credits_key: hitomi imaizumi
+  aliases:
+  - いまいずみ ひとみ
+- name: Kuni Furukubo
+  slug: furukubo-kuni
+  kind: staff
+  credits_key: furukubo kuni
+  aliases:
+  - ふるくぼ くに
+- name: Ryota Muranaka
+  slug: muranaka-ryota
+  kind: staff
+  credits_key: muranaka ryota
+  aliases:
+  - むらなか りょうた
+- name: Sawako Okada
+  slug: okada-sawako
+  kind: staff
+  credits_key: okada sawako
+  aliases:
+  - おかだ さわこ
+- name: 竹
+  slug: take
+  kind: staff
+  credits_key: take
+  aliases:
+  - take
+  - Take
+  - たけ
+- name: Yu Muto
+  slug: muto-yu
+  kind: staff
+  credits_key: muto yu
+  aliases:
+  - むとう ゆう
+- name: Yuya Watanabe
+  slug: watanabe-yuya
+  kind: staff
+  credits_key: watanabe yuya
+  aliases:
+  - わたなべ ゆうや
+- name: Isao Kakuuchi
+  slug: kakuuchi-isao
+  kind: staff
+  credits_key: isao kakuchi
+  aliases:
+  - かくうち いさお
+- name: Tzuen Huang
+  slug: en-huang-tzu
+  kind: staff
+  credits_key: fuang tzuen
+  aliases:
+  - こう しおん
+  bulbapedia: Huang Tzu En
+- name: Miyuki Ebizuka
+  slug: ebizuka-miyuki
+  kind: staff
+  credits_key: ebizuka miyuki
+  aliases:
+  - えびづか みゆき
+- name: Ryota Takeuchi
+  slug: takeuchi-ryota
+  kind: staff
+  credits_key: ryota takeuchi
+  aliases:
+  - たけうち りょうた
+- name: Tomohiro Kuroiwa
+  slug: kuroiwa-tomohiro
+  kind: staff
+  credits_key: kuroiwa tomohiro
+  aliases:
+  - くろいわ ともひろ
+- name: Seimi Ohshiro
+  slug: ohshiro-seimi
+  kind: staff
+  credits_key: oshiro seimi
+  aliases:
+  - おおしろ せいみ
+- name: Ryosuke Hanawa
+  slug: hanawa-ryosuke
+  kind: staff
+  credits_key: hanawa ryosuke
+  aliases:
+  - はなわ りょうすけ
+  - ハナワ リョウスケ
+- name: Kenichi Koga
+  slug: koga-kenichi
+  kind: staff
+  credits_key: kenichi koga
+  aliases:
+  - Ken-ichi Koga
+  - Ken'ichi Koga
+  - こが けんいち
+- name: Noriko Netley
+  slug: netley-noriko
+  kind: staff
+  credits_key: netley noriko
+  aliases: []
+- name: Eric Haddock
+  slug: haddock-eric
+  kind: staff
+  credits_key: eric haddock
+  aliases: []
+- name: Michaël Hugot
+  slug: hugot-michael
+  kind: staff
+  credits_key: fugot michael
+  aliases:
+  - Michael Hugot
+  - ミカエル ユーゴ
+- name: Makiko Cottrell
+  slug: cottrell-makiko
+  kind: staff
+  credits_key: cottrell makiko
+  aliases: []
+- name: Miku Majima
+  slug: majima-miku
+  kind: staff
+  credits_key: majima miku
+  aliases:
+  - まじま みく
+- name: Chris Franc
+  slug: franc-chris
+  kind: staff
+  credits_key: chris franc
+  aliases:
+  - クリス フランク
+- name: Minyu Hsu
+  slug: hsu-minyu
+  kind: staff
+  credits_key: hsu minyu
+  aliases: []
+- name: Akiko Kasugayama
+  slug: kasugayama-akiko
+  kind: staff
+  credits_key: akiko kasugayama
+  aliases:
+  - かすがやま あきこ
+- name: Keiko Mochida
+  slug: mochida-keiko
+  kind: staff
+  credits_key: keiko mochida
+  aliases:
+  - もちだ けいこ
+- name: 出石武宏
+  slug: izushi-takehiro
+  kind: staff
+  credits_key: izushi takehiro
+  aliases:
+  - Takehiro Izushi
+  - いずし たけひろ
+- name: Kindra Timmerwilke
+  slug: timmerwilke-kindra
+  kind: staff
+  credits_key: chimmerwilke kindra
+  aliases: []
+- name: Kayo Nakata
+  slug: nakata-kayo
+  kind: staff
+  credits_key: kayo nakata
+  aliases:
+  - なかた かよ
+- name: Lauren Ammerman
+  slug: ammerman-lauren
+  kind: staff
+  credits_key: ammerman lauren
+  aliases:
+  - ローレン アママン
+- name: Joshua Newman
+  slug: newman-joshua
+  kind: staff
+  credits_key: joshua newman
+  aliases: []
+- name: Bridget O'Neill
+  slug: oneill-bridget
+  kind: staff
+  credits_key: bridget oneill
+  aliases:
+  - Bridget O’Neill
+- name: Yuichiro Tsumita
+  slug: tsumita-yuuichirou
+  kind: staff
+  credits_key: tsumita yuichiro
+  aliases:
+  - Yūichirō Tsumita
+  - Yuuichirou Tsumita
+  - つみた ゆういちろう
+- name: Bryson Clark
+  slug: clark-bryson
+  kind: staff
+  credits_key: bryson clark
+  aliases:
+  - ブライソン クラーク
+- name: Akiko Soma
+  slug: soma-akiko
+  kind: staff
+  credits_key: akiko soma
+  aliases:
+  - そうま あきこ
+- name: Alison Chyan
+  slug: chyan-alison
+  kind: staff
+  credits_key: alison chyan
+  aliases:
+  - アリソン チャン
+- name: Huiying Tsai
+  slug: tsai-huiying
+  kind: staff
+  credits_key: fuiying tsai
+  aliases:
+  - さい きえい
+- name: Kaoru Otawara
+  slug: otawara-kaoru
+  kind: staff
+  credits_key: kaoru otawara
+  aliases:
+  - おおたわら かおる
+- name: Jun Ito
+  slug: ito-jun
+  kind: staff
+  credits_key: ito jun
+  aliases:
+  - Jun ITO
+  - いとう じゅん
+- name: Kris Copeland
+  slug: copeland-kris
+  kind: staff
+  credits_key: copeland kris
+  aliases:
+  - クリス コープランド
+- name: Olivier Jacquemin-Guillaume
+  slug: jacqueminguillaume-olivier
+  kind: staff
+  credits_key: jacqueminguillaume olivier
+  aliases:
+  - Olivier Jacquemin-guillaume
+  - オリビエ ジャックマン ギヨーム
+- name: Ryosuke Kurosaki
+  slug: kurosaki-ryosuke
+  kind: staff
+  credits_key: kurosaki ryosuke
+  aliases:
+  - くろさき りょうすけ
+- name: Lina Emmerich
+  slug: emmerich-lina
+  kind: staff
+  credits_key: emmerich lina
+  aliases:
+  - リナ エメリッヒ
+- name: 川口孝司
+  slug: kawaguchi-takashi
+  kind: staff
+  credits_key: kawaguchi takashi
+  aliases:
+  - Takashi Kawaguchi
+  - かわぐち たかし
+- name: Antoin Johnson
+  slug: johnson-antoin
+  kind: staff
+  credits_key: antoin jonson
+  aliases: []
+- name: Atsushi Watanabe
+  slug: watanabe-atsushi
+  kind: staff
+  credits_key: atsushi watanabe
+  aliases:
+  - わたなべ あつし
+- name: Yasuko Motoki
+  slug: motoki-yasuko
+  kind: staff
+  credits_key: motoki yasuko
+  aliases:
+  - もとき やすこ
+- name: Takashi Koyama
+  slug: koyama-takashi
+  kind: staff
+  credits_key: koyama takashi
+  aliases:
+  - こやま たかし
+- name: Veronica Casi
+  slug: casi-veronica
+  kind: staff
+  credits_key: cashi veronica
+  aliases:
+  - ヴェローニカ カジ
+- name: Kirk Buchanan
+  slug: buchanan-kirk
+  kind: staff
+  credits_key: buchanan kirk
+  aliases:
+  - カーク ブキャナン
+- name: Junpei Matsuzaki
+  slug: matsuzaki-junpei
+  kind: staff
+  credits_key: junpei matsuzaki
+  aliases:
+  - まつざき じゅんぺい
+- name: Eiju Umemura
+  slug: eiju-umemura
+  kind: staff
+  credits_key: eiju umemura
+  aliases:
+  - Umemura Eiju
+  - うめむら えいじゅう
+- name: Caroline Fest
+  slug: fest-caroline
+  kind: staff
+  credits_key: caroline fest
+  aliases:
+  - カロリン フェスト
+- name: Naoko Yanase
+  slug: yanase-naoko
+  kind: staff
+  credits_key: naoko yanase
+  aliases:
+  - やなせ なおこ
+- name: Masayuki Soga
+  slug: soga-masayuki
+  kind: staff
+  credits_key: masayuki soga
+  aliases:
+  - そが まさゆき
+- name: Kenji Yanagisawa
+  slug: yanagisawa-kenji
+  kind: staff
+  credits_key: kenji yanagisawa
+  aliases:
+  - やなぎさわ けんじ
+- name: Michaela Koch
+  slug: koch-michaela
+  kind: staff
+  credits_key: koch michaela
+  aliases:
+  - ミヒャエラ コッホ
+- name: Yue Wang
+  slug: wang-yue
+  kind: staff
+  credits_key: wang yue
+  aliases:
+  - ワン ユエ
+  - おう やく
+- name: Miyuki Matsunaga
+  slug: matsunaga-miyuki
+  kind: staff
+  credits_key: matsunaga miyuki
+  aliases:
+  - まつなが みゆき
+- name: 谷口輝雄
+  slug: taniguchi-teruo
+  kind: staff
+  credits_key: taniguchi teruo
+  aliases:
+  - Teruo Taniguchi
+  - たにぐち てるお
+- name: Natsumi Inoue
+  slug: inoue-natsumi
+  kind: staff
+  credits_key: inoe natsumi
+  aliases:
+  - いのうえ なつみ
+- name: Jinyoung Sung
+  slug: jinyoung-sung
+  kind: staff
+  credits_key: jinyong sung
+  aliases:
+  - Sung Jinyoung
+  - ソン ジンヨン
+- name: Inseon Song
+  slug: song-inseon
+  kind: staff
+  credits_key: inseon song
+  aliases: []
+- name: Kazuto Shimizu
+  slug: shimizu-kazuto
+  kind: staff
+  credits_key: kazuto shimizu
+  aliases:
+  - しみず かずと
+- name: Ryoutarou Ohto
+  slug: oto-ryotaro
+  kind: staff
+  credits_key: oto ryotaro
+  aliases:
+  - Ryotaro Ohto
+  - Ryotaro Oto
+  - おおと りょうたろう
+- name: Hayato Endo
+  slug: endo-hayato
+  kind: staff
+  credits_key: endo hayato
+  aliases:
+  - えんどう はやと
+- name: Ai Matsumura
+  slug: matsumura-ai
+  kind: staff
+  credits_key: ai matsumura
+  aliases:
+  - まつむら あい
+- name: Asuka Yamato
+  slug: yamato-asuka
+  kind: staff
+  credits_key: asuka yamato
+  aliases:
+  - やまと あすか
+- name: Maria Yoda
+  slug: yoda-maria
+  kind: staff
+  credits_key: maria yoda
+  aliases:
+  - よだ まりあ
+- name: Terry Mihashi
+  slug: mihashi-terry
+  kind: staff
+  credits_key: mihashi terry
+  aliases:
+  - みはし テリー
+- name: Hiroshi Akune
+  slug: akune-hiroshi
+  kind: staff
+  credits_key: akune hiroshi
+  aliases:
+  - あくね ひろし
+- name: Takeshi Tamura
+  slug: tamura-takeshi
+  kind: staff
+  credits_key: takeshi tamura
+  aliases:
+  - たむら たけし
+- name: Haruka Sunaga
+  slug: sunaga-haruka
+  kind: staff
+  credits_key: haruka sunaga
+  aliases:
+  - すなが はるか
+- name: 大久保智彦
+  slug: ookubo-tomohiko
+  kind: staff
+  credits_key: okubo tomohiko
+  aliases:
+  - Tomohiko Ohkubo
+  - Tomohiko Ookubo
+  - おおくぼ ともひこ
+- name: Youko Nakayama
+  slug: nakayama-youko
+  kind: staff
+  credits_key: nakayama yoko
+  aliases:
+  - Yōko Nakayama
+  - なかやま ようこ
+- name: Nana Wakabayashi
+  slug: wakabayashi-nana
+  kind: staff
+  credits_key: nana wakabayashi
+  aliases:
+  - わかばやし なな
+- name: Takeshi Sakamoto
+  slug: sakamoto-takeshi
+  kind: staff
+  credits_key: sakamoto takeshi
+  aliases:
+  - さかもと たけし
+- name: Masateru Ishiguro
+  slug: ishiguro-masateru
+  kind: staff
+  credits_key: ishiguro masateru
+  aliases:
+  - いしぐろ まさてる
+- name: Miho Murata
+  slug: murata-miho
+  kind: staff
+  credits_key: miho murata
+  aliases:
+  - むらた みほ
+- name: Aoi Inaba
+  slug: inaba-aoi
+  kind: staff
+  credits_key: aoi inaba
+  aliases:
+  - いなば あおい
+- name: Daiki Sato
+  slug: sato-daiki
+  kind: staff
+  credits_key: daiki sato
+  aliases:
+  - さと だいき
+- name: Huiming Hu
+  slug: hu-huiming
+  kind: staff
+  credits_key: fu fuiming
+  aliases: []
+- name: Lutz Ohl
+  slug: ohl-lutz
+  kind: staff
+  credits_key: lutz ol
+  aliases:
+  - ルッツ オール
+- name: Mayumi Shigeno
+  slug: shigeno-mayumi
+  kind: staff
+  credits_key: mayumi shigeno
+  aliases:
+  - しげの まゆみ
+- name: Morihiko Kiryu
+  slug: kiryu-morihiko
+  kind: staff
+  credits_key: kiryu morihiko
+  aliases:
+  - きりゅう もりひこ
+- name: Yayun Ling
+  slug: ling-yayun
+  kind: staff
+  credits_key: ling yayun
+  aliases:
+  - りょう がいん
+- name: Yoshikazu Kojima
+  slug: kojima-yoshikazu
+  kind: staff
+  credits_key: kojima yoshikazu
+  aliases:
+  - こじま よしかず
+- name: Shinichi Kawazoe
+  slug: kawazoe-shinichi
+  kind: staff
+  credits_key: kawazoe shinichi
+  aliases:
+  - かわぞえ しんいち
+- name: Ayaka Yamazaki
+  slug: yamazaki-ayaka
+  kind: staff
+  credits_key: ayaka yamazaki
+  aliases:
+  - やまざき あやか
+- name: Haruka Nakamura
+  slug: nakamura-haruka
+  kind: staff
+  credits_key: haruka nakamura
+  aliases:
+  - なかむら はるか
+- name: Naoki Sugawara
+  slug: sugawara-naoki
+  kind: staff
+  credits_key: naoki sugawara
+  aliases:
+  - すがわら なおき
+- name: Rei Murayama
+  slug: murayama-rei
+  kind: staff
+  credits_key: murayama rei
+  aliases:
+  - むらやま れい
+- name: Akira Katsuta
+  slug: katsuta-akira
+  kind: staff
+  credits_key: akira katsuta
+  aliases:
+  - かつた あきら
+- name: Asami Nogi
+  slug: nogi-asami
+  kind: staff
+  credits_key: asami nogi
+  aliases:
+  - のぎ あさみ
+- name: Aya Nishimura
+  slug: nishimura-aya
+  kind: staff
+  credits_key: aya nishimura
+  aliases:
+  - にしむら あや
+- name: Chiharu Minowa
+  slug: minowa-chiharu
+  kind: staff
+  credits_key: chiharu minowa
+  aliases:
+  - みのわ ちはる
+- name: Daisuke Inoue
+  slug: inoue-daisuke
+  kind: staff
+  credits_key: daisuke inoe
+  aliases:
+  - いのうえ だいすけ
+- name: Hiroka Hamamoto
+  slug: hamamoto-hiroka
+  kind: staff
+  credits_key: hamamoto hiroka
+  aliases:
+  - はまもと ひろか
+- name: Hiroki Mogami
+  slug: mogami-hiroki
+  kind: staff
+  credits_key: hiroki mogami
+  aliases:
+  - もがみ ひろき
+- name: Kaori Tsujimura
+  slug: tsujimura-kaori
+  kind: staff
+  credits_key: kaori tsujimura
+  aliases:
+  - つじむら かおり
+- name: Kazuki Kitamura
+  slug: kitamura-kazuki-2
+  kind: staff
+  credits_key: kazuki kitamura
+  aliases:
+  - きたむら かずき
+- name: Kotono Kunishima
+  slug: kunishima-kotono
+  kind: staff
+  credits_key: kotono kunishima
+  aliases:
+  - くにしま ことの
+- name: Mayu Kobayashi
+  slug: kobayashi-mayu
+  kind: staff
+  credits_key: kobayashi mayu
+  aliases:
+  - こばやし まゆ
+- name: Mayu Okutani
+  slug: okutani-mayu
+  kind: staff
+  credits_key: mayu okutani
+  aliases:
+  - おくたに まゆ
+- name: Nozomi Toda
+  slug: toda-nozomi
+  kind: staff
+  credits_key: nozomi toda
+  aliases:
+  - とだ のぞみ
+- name: Raichi Ihara
+  slug: ihara-raichi
+  kind: staff
+  credits_key: ihara raichi
+  aliases:
+  - いはら らいち
+- name: Sayaka Kutsuma
+  slug: kutsuma-sayaka
+  kind: staff
+  credits_key: kutsuma sayaka
+  aliases:
+  - くつま さやか
+- name: Shun Onodera
+  slug: onodera-shun-2
+  kind: staff
+  credits_key: onodera shun
+  aliases:
+  - おのでら しゅん
+- name: Takuto Takabe
+  slug: takabe-takuto
+  kind: staff
+  credits_key: takabe takuto
+  aliases:
+  - たかべ たくと
+- name: Tatsuto Konno
+  slug: konno-tatsuto
+  kind: staff
+  credits_key: konno tatsuto
+  aliases:
+  - こんの たつと
+- name: Tomoko Araki
+  slug: araki-tomoko
+  kind: staff
+  credits_key: araki tomoko
+  aliases:
+  - あらき ともこ
+- name: Wakana Kajimoto
+  slug: kajimoto-wakana
+  kind: staff
+  credits_key: kajimoto wakana
+  aliases:
+  - かじもと わかな
+- name: Yoshihisa Ogino
+  slug: ogino-yoshihisa
+  kind: staff
+  credits_key: ogino yoshihisa
+  aliases:
+  - おぎの よしひさ
+- name: Yuki Yoneya
+  slug: yoneya-yuki
+  kind: staff
+  credits_key: yoneya yuki
+  aliases:
+  - よねや ゆき
+- name: Nanae Tabata
+  slug: tabata-nanae
+  kind: staff
+  credits_key: nanae tabata
+  aliases:
+  - たばた ななえ
+- name: 植松俊介
+  slug: uematsu-shunsuke
+  kind: staff
+  credits_key: shunsuke uematsu
+  aliases:
+  - Shunsuke Uematsu
+  - うえまつ しゅんすけ
+- name: Tetsuya Nakajima
+  slug: nakajima-tetsuya
+  kind: staff
+  credits_key: nakajima tetsuya
+  aliases:
+  - なかじま てつや
+- name: Mari Hamada
+  slug: hamada-mari
+  kind: staff
+  credits_key: hamada mari
+  aliases:
+  - はまだ まり
+- name: 貫田将文
+  slug: nukita-masafumi
+  kind: staff
+  credits_key: masafumi nukita
+  aliases:
+  - Masafumi Nukita
+  - ぬきた まさふみ
+- name: Junsei Kuninobu
+  slug: kuninobu-junsei
+  kind: staff
+  credits_key: junsei kuninobu
+  aliases:
+  - くにのぶ じゅんせい
+- name: Syo Araki
+  slug: araki-syo
+  kind: staff
+  credits_key: araki sho
+  aliases:
+  - あらき しょう
+- name: Hitomi Ogawa
+  slug: ogawa-hitomi
+  kind: staff
+  credits_key: hitomi ogawa
+  aliases:
+  - おがわ ひとみ
+- name: Kota Furushima
+  slug: furushima-kota
+  kind: staff
+  credits_key: furushima kota
+  aliases:
+  - ふるしま こうた
+- name: Momoka Takasu
+  slug: takasu-momoka
+  kind: staff
+  credits_key: momoka takasu
+  aliases:
+  - たかす ももか
+- name: Hiroaki Ishige
+  slug: ishige-hiroaki
+  kind: staff
+  credits_key: hiroaki ishige
+  aliases:
+  - いしげ ひろあき
+- name: Sumire Aoki
+  slug: aoki-sumire
+  kind: staff
+  credits_key: aoki sumire
+  aliases:
+  - あおき すみれ
+- name: Takuya Kawakami
+  slug: kawakami-takuya
+  kind: staff
+  credits_key: kawakami takuya
+  aliases:
+  - かわかみ たくや
+- name: Haruki Tachihara
+  slug: tachihara-haruki
+  kind: staff
+  credits_key: haruki tachihara
+  aliases:
+  - たちはら はるき
+- name: Masashi Koseki
+  slug: koseki-masashi
+  kind: staff
+  credits_key: koseki masashi
+  aliases:
+  - こせき まさし
+- name: Mayu Suzuki
+  slug: suzuki-mayu
+  kind: staff
+  credits_key: mayu suzuki
+  aliases:
+  - すずき まゆ
+- name: Nobuyuki Miura
+  slug: miura-nobuyuki
+  kind: staff
+  credits_key: miura nobuyuki
+  aliases:
+  - みうら のぶゆき
+- name: Ota Sano
+  slug: sano-ota
+  kind: staff
+  credits_key: ota sano
+  aliases:
+  - さの おうた
+- name: Yasuki Shinohara
+  slug: shinohara-yasuki
+  kind: staff
+  credits_key: shinohara yasuki
+  aliases:
+  - しのはら やすき
+- name: Shinya Saito
+  slug: saito-shinya
+  kind: staff
+  credits_key: saito shinya
+  aliases:
+  - さいとう しんや
+- name: Noriko Uono
+  slug: uono-noriko
+  kind: staff
+  credits_key: noriko uono
+  aliases:
+  - うおの のりこ
+- name: Hideyo Isayama
+  slug: isayama-hideyo
+  kind: staff
+  credits_key: hideyo isayama
+  aliases:
+  - いさやま ひでよ
+- name: Futoshi Kajita
+  slug: kajita-futoshi
+  kind: staff
+  credits_key: futoshi kajita
+  aliases:
+  - かじた ふとし
+- name: Kenta Kawano
+  slug: kawano-kenta
+  kind: staff
+  credits_key: kawano kenta
+  aliases: []
+- name: Yuya Ikeuchi
+  slug: ikeuchi-yuya
+  kind: staff
+  credits_key: ikeuchi yuya
+  aliases: []
+- name: Yuichi Murase
+  slug: murase-yuichi
+  kind: staff
+  credits_key: murase yuichi
+  aliases:
+  - むらせ ゆういち
+- name: Kota Yamashita
+  slug: yamashita-kota
+  kind: staff
+  credits_key: kota yamashita
+  aliases:
+  - やました こうた
+- name: Masaya Suzuki
+  slug: suzuki-masaya
+  kind: staff
+  credits_key: masaya suzuki
+  aliases:
+  - すずき まさや
+- name: Mayu Narahara
+  slug: narahara-mayu
+  kind: staff
+  credits_key: mayu narahara
+  aliases:
+  - ならはら まゆ
+- name: Tatsuya Makita
+  slug: makita-tatsuya
+  kind: staff
+  credits_key: makita tatsuya
+  aliases:
+  - まきた たつや
+- name: Yuji Ashikawa
+  slug: ashikawa-yuji
+  kind: staff
+  credits_key: ashikawa yuji
+  aliases:
+  - あしかわ ゆうじ
+- name: Yuri Yoshizumi
+  slug: yoshizumi-yuri
+  kind: staff
+  credits_key: yoshizumi yuri
+  aliases:
+  - よしずみ ゆり
+- name: Maiko Shindo
+  slug: shindo-maiko
+  kind: staff
+  credits_key: maiko shindo
+  aliases:
+  - しんどう まいこ
+- name: 君島達己
+  slug: kimishima-tatsumi
+  kind: staff
+  credits_key: kimishima tatsumi
+  aliases:
+  - Tatsumi Kimishima
+- name: Daisuke Nakamura
+  slug: nakamura-daisuke
+  kind: staff
+  credits_key: daisuke nakamura
+  aliases:
+  - なかむら だいすけ
+- name: Yasunori Isari
+  slug: isari-yasunori
+  kind: staff
+  credits_key: isari yasunori
+  aliases:
+  - いさり やすのり
+- name: 田島梓
+  slug: tajima-azusa
+  kind: staff
+  credits_key: azusa tajima
+  aliases:
+  - Azusa Tajima
+  - たじま あずさ
+- name: 植田祐一
+  slug: ueda-yuichi
+  kind: staff
+  credits_key: ueda yuichi
+  aliases:
+  - Yuichi Ueda
+- name: Yuya Iwamoto
+  slug: iwamoto-yuya
+  kind: staff
+  credits_key: iwamoto yuya
+  aliases: []
+- name: Atsushi Imura
+  slug: imura-atsushi
+  kind: staff
+  credits_key: atsushi imura
+  aliases:
+  - いむら あつし
+- name: Atsushi Numata
+  slug: numata-atsushi
+  kind: staff
+  credits_key: atsushi numata
+  aliases: []
+- name: Masayuki Kawabata
+  slug: kawabata-masayuki
+  kind: staff
+  credits_key: kawabata masayuki
+  aliases:
+  - かわばた まさゆき
+- name: Shota Moriguchi
+  slug: moriguchi-shota
+  kind: staff
+  credits_key: moriguchi shota
+  aliases:
+  - もりぐち しょうた
+- name: Hiroki Shintani
+  slug: shintani-hiroki
+  kind: staff
+  credits_key: hiroki shintani
+  aliases:
+  - しんたに ひろき
+- name: Kanta Koshiba
+  slug: koshiba-kanta
+  kind: staff
+  credits_key: kanta koshiba
+  aliases:
+  - こしば かんた
+- name: Keisuke Kamataki
+  slug: kamataki-keisuke
+  kind: staff
+  credits_key: kamataki keisuke
+  aliases:
+  - かまたき けいすけ
+- name: Shiho Fukunaga
+  slug: fukunaga-shiho
+  kind: staff
+  credits_key: fukunaga shiho
+  aliases:
+  - ふくなが しほ
+- name: Shun Yamashita
+  slug: yamashita-shun
+  kind: staff
+  credits_key: shun yamashita
+  aliases:
+  - やました しゅん
+- name: Toshiaki Haruna
+  slug: haruna-toshiaki
+  kind: staff
+  credits_key: haruna toshiaki
+  aliases:
+  - はるな としあき
+- name: Yuji Kurogi
+  slug: kurogi-yuji
+  kind: staff
+  credits_key: kurogi yuji
+  aliases:
+  - くろぎ ゆうじ
+- name: Yuma Takada
+  slug: takada-yuma
+  kind: staff
+  credits_key: takada yuma
+  aliases:
+  - たかだ ゆうま
+- name: Chisato Tazawa
+  slug: tazawa-chisato
+  kind: staff
+  credits_key: chisato tazawa
+  aliases:
+  - たざわ ちさと
+- name: Hiroyuki Yoshii
+  slug: yoshii-hiroyuki
+  kind: staff
+  credits_key: hiroyuki yoshi
+  aliases:
+  - よしい ひろゆき
+- name: Youji Asano
+  slug: asano-yoji
+  kind: staff
+  credits_key: asano yoji
+  aliases:
+  - Yoji Asano
+  - あさの ようじ
+- name: Katsuyoshi Irie
+  slug: irie-katsuyoshi
+  kind: staff
+  credits_key: irie katsuyoshi
+  aliases:
+  - いりえ かつよし
+- name: 大和聡
+  slug: yamato-satoshi
+  kind: staff
+  credits_key: satoshi yamato
+  aliases:
+  - Satoshi Yamato
+  - やまと さとし
+- name: 清水隆雄
+  slug: shimizu-takae
+  kind: staff
+  credits_key: shimizu takao
+  aliases:
+  - Takao Shimizu
+  - Takae Shimizu
+  - しみず たかお
+- name: Toru Osawa
+  slug: osawa-toru
+  kind: staff
+  credits_key: osawa toru
+  aliases:
+  - Tōru Ōsawa
+  - おおさわ とおる
+- name: 星野正昭
+  slug: hoshino-masaaki
+  kind: staff
+  credits_key: hoshino masaaki
+  aliases:
+  - Masaaki Hoshino
+- name: Masahiko Ota
+  slug: oota-masahiko
+  kind: staff
+  credits_key: masahiko ota
+  aliases:
+  - Masahiko Oota
+  - おおた まさひこ
+- name: Masato Kitamura
+  slug: kitamura-masato
+  kind: staff
+  credits_key: kitamura masato
+  aliases: []
+- name: Masaru Shimomura
+  slug: shimomura-masaru
+  kind: staff
+  credits_key: masaru shimomura
+  aliases:
+  - しもむら まさる
+- name: Masafumi Sato
+  slug: sato-masafumi
+  kind: staff
+  credits_key: masafumi sato
+  aliases: []
+- name: Hisanao Suzuki
+  slug: suzuki-hisanao
+  kind: staff
+  credits_key: hisanao suzuki
+  aliases:
+  - すずき ひさなお
+- name: Ai Kihara
+  slug: kihara-ai
+  kind: staff
+  credits_key: ai kihara
+  aliases:
+  - きはら あい
+- name: Daiki Tanaka
+  slug: tanaka-daiki
+  kind: staff
+  credits_key: daiki tanaka
+  aliases:
+  - たなか だいき
+- name: Kensaku Sanda
+  slug: sanda-kensaku
+  kind: staff
+  credits_key: kensaku sanda
+  aliases:
+  - さんだ けんさく
+- name: Shinji Kato
+  slug: kato-shinji
+  kind: staff
+  credits_key: kato shinji
+  aliases:
+  - かとう しんじ
+- name: Toshiki Uchiage
+  slug: uchiage-toshiki
+  kind: staff
+  credits_key: toshiki uchiage
+  aliases:
+  - うちあげ としき
+- name: Kei Takeuchi
+  slug: takeuchi-kei
+  kind: staff
+  credits_key: kei takeuchi
+  aliases:
+  - たけうち けい
+- name: Kenta Suguru
+  slug: suguru-kenta
+  kind: staff
+  credits_key: kenta suguru
+  aliases:
+  - すぐる けんた
+- name: Daisuke Makino
+  slug: makino-daisuke
+  kind: staff
+  credits_key: daisuke makino
+  aliases:
+  - まきの だいすけ
+- name: Hitomi Shoda
+  slug: shoda-hitomi
+  kind: staff
+  credits_key: hitomi shoda
+  aliases:
+  - しょうだ ひとみ
+- name: Keisuke Murata
+  slug: murata-keisuke
+  kind: staff
+  credits_key: keisuke murata
+  aliases:
+  - むらた けいすけ
+- name: Masamu Ishizuki
+  slug: ishizuki-masamu
+  kind: staff
+  credits_key: ishizuki masamu
+  aliases:
+  - いしづき まさむ
+- name: Masashi Kida
+  slug: kida-masashi
+  kind: staff
+  credits_key: kida masashi
+  aliases:
+  - きだ まさし
+- name: Rena Oba
+  slug: oba-rena
+  kind: staff
+  credits_key: oba rena
+  aliases:
+  - おおば れな
+- name: Satoshi Baba
+  slug: baba-satoshi
+  kind: staff
+  credits_key: baba satoshi
+  aliases:
+  - ばば さとし
+- name: Tatsuhiro Joudan
+  slug: joudan-tatsuhiro
+  kind: staff
+  credits_key: jodan tatsuhiro
+  aliases:
+  - じょうだん たつひろ
+- name: Akihiro Kanno
+  slug: kanno-akihiro
+  kind: staff
+  credits_key: akihiro kanno
+  aliases: []
+- name: Yuji Igarashi
+  slug: igarashi-yuji
+  kind: staff
+  credits_key: igarashi yuji
+  aliases: []
+- name: Alina Linnenweber
+  slug: linnenweber-alina-2
+  kind: staff
+  credits_key: alina linneweber
+  aliases:
+  - Alina Linneweber
+  - アリーナ リネンウェーバ
+  - アリーナ リネンヴェーバ
+- name: Andy Fey
+  slug: fey-andy
+  kind: staff
+  credits_key: andy fey
+  aliases:
+  - A. Fey
+  - アンディ ファイ
+- name: Shunsuke Tanaka
+  slug: tanaka-shunsuke
+  kind: staff
+  credits_key: shunsuke tanaka
+  aliases:
+  - たなか しゅんすけ
+- name: Yuri Habuka
+  slug: habuka-yuri
+  kind: staff
+  credits_key: habuka yuri
+  aliases:
+  - はぶか ゆり
+- name: Hiro Nakamura (NOA)
+  slug: nakamura-hiro-noa
+  kind: staff
+  credits_key: hiro nakamura (NOA)
+  aliases:
+  - Hiro Nakamura
+- name: Hirotaka Hayakawa
+  slug: hayakawa-hirotaka
+  kind: staff
+  credits_key: hayakawa hirotaka
+  aliases:
+  - はやかわ ひろたか
+- name: Kensuke Arai
+  slug: arai-kensuke
+  kind: staff
+  credits_key: arai kensuke
+  aliases:
+  - あらい けんすけ
+- name: よしかわしんいち
+  slug: yoshikawa-shinichi
+  kind: staff
+  credits_key: shinichi yoshikawa
+  aliases:
+  - Shinichi Yoshikawa
+  - よしかわ しんいち
+- name: Andy Gose
+  slug: gose-andy
+  kind: staff
+  credits_key: andy gose
+  aliases:
+  - アンディ ゴース
+- name: Jérôme Petit
+  slug: petit-jerome
+  kind: staff
+  credits_key: jerome pechit
+  aliases:
+  - Jerome Petit
+  - ジェローム プティ
+- name: Edwin Kirschenmann
+  slug: kirschenmann-edwin
+  kind: staff
+  credits_key: edwin kirschenmann
+  aliases:
+  - エドヴィン キールシェンマン
+- name: Alex Fortes
+  slug: fortes-alex
+  kind: staff
+  credits_key: alex fortes
+  aliases:
+  - アレックス フォルテス
+- name: Amy Ganster
+  slug: ganster-amy
+  kind: staff
+  credits_key: amy ganster
+  aliases:
+  - エイミー ギャンスター
+- name: Andy Hartpence
+  slug: hartpence-andy
+  kind: staff
+  credits_key: andy hartpence
+  aliases:
+  - アンディ ハートペンス
+- name: Byunghun Bae
+  slug: bae-byunghun
+  kind: staff
+  credits_key: bae byungfun
+  aliases:
+  - ベイ ビョンホン
+- name: Peter Murphy
+  slug: murphy-peter
+  kind: staff
+  credits_key: murphy peter
+  aliases:
+  - ピーター マーフィー
+- name: Phaedra Long
+  slug: long-phaedra
+  kind: staff
+  credits_key: long phaedra
+  aliases:
+  - フェードラ ロング
+- name: Richie Enticknap
+  slug: enticknap-richie
+  kind: staff
+  credits_key: enchicknap richie
+  aliases:
+  - リッチー エンティクナップ
+- name: Taito Okiura
+  slug: okiura-taito
+  kind: staff
+  credits_key: okiura taito
+  aliases:
+  - おきうら たいと
+- name: Jorge Heras García
+  slug: garcia-jorge-heras
+  kind: staff
+  credits_key: garcia heras jorge
+  aliases:
+  - Jorge Heras Garcia
+  - ホルヘ ヘラス ガーシア
+- name: Pat Wells
+  slug: wells-pat
+  kind: staff
+  credits_key: pat wells
+  aliases:
+  - パット ウェルズ
+- name: Robert Schiotis
+  slug: schiotis-robert
+  kind: staff
+  credits_key: robert stiochis
+  aliases:
+  - ロバート ショーティス
+- name: Mika Holzhausen
+  slug: holzhausen-mika
+  kind: staff
+  credits_key: holzhausen mika
+  aliases:
+  - ホルツハウセン みか
+- name: Tomoki Fukushima
+  slug: fukushima-tomoki
+  kind: staff
+  credits_key: fukushima tomoki
+  aliases:
+  - ふくしま ともき
+- name: Yuko Ito
+  slug: ito-yuko
+  kind: staff
+  credits_key: ito yuko
+  aliases:
+  - いとう ゆうこ

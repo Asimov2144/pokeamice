@@ -1,0 +1,279 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dash + https://wiki.pokemonwiki.com/wiki/ポケモンダッシュのスタッフクレジット
+slug: dash
+title: Staff of Pokémon Dash
+work: null
+year: 2004
+developer: Ambrella
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Dash
+count: 67
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモンダッシュのスタッフクレジット
+ja_alignment:
+  ja_total: 44
+  ja_matched: 40
+  ja_positional: 2
+  ja_only_added: 2
+sections:
+- path:
+  - Game Designers
+  names:
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    kanji: 松村憲男
+    ja_match: romaji
+  ja_role: ゲームデザイン
+- path:
+  - Game Concept
+  names:
+  - name: Ein Terakawa
+    ja_match: positional
+    ja: てらかわ あいん
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  ja_role: コンセプト
+- path:
+  - Planners and Direction
+  names:
+  - name: Muneaki Ozawa
+    ja: おざわ むねあき
+    kanji: 小沢宗明
+    ja_match: romaji
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  - name: Shin Obata
+  - name: Yoshihiro Hatta
+    ja: はった よしひろ
+    ja_match: romaji
+  - name: Nario Matsumura
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  ja_role: プランニング・ディレクション
+- path:
+  - Programmers
+  names:
+  - name: Takayuki Ito
+    ja: いとう たかゆき
+    ja_match: romaji
+  - name: Yosuke Suma
+    ja: すま ようすけ
+    ja_match: romaji
+  - name: Nayuta Taga
+    ja: たが なゆた
+    ja_match: romaji
+  - name: Ein Terakawa
+    ja_match: positional
+    ja: てらかわ あいん
+  - name: Hisato Matsumoto
+    ja: まつもと ひさと
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Sound
+  names:
+  - name: Miki Obata
+    ja: おばた みき
+    ja_match: romaji
+  ja_role: サウンド
+- path:
+  - Graphics
+  names:
+  - name: Hiroki Iwasaki
+    ja: いわさき ひろき
+    ja_match: romaji
+  - name: Shin Naka
+    ja: なか しん
+    ja_match: romaji
+  - name: Hiroyuki Yamanaka
+    ja: やまなか ひろゆき
+    ja_match: romaji
+  - name: Shin Naka
+    name_source: ja-only
+    ja: なか しん
+    ja_match: ja-only
+  ja_role: グラフィック
+- path:
+  - Course Designers
+  names:
+  - name: Yoshiyuki Oku
+    ja: おく よしゆき
+    ja_match: romaji
+  - name: Norio Matsumura
+    ja: まつむら のりお
+    kanji: 松村憲男
+    ja_match: romaji
+  - name: Norio Matsumura
+    name_source: ja-only
+    ja: まつむら のりお
+    ja_match: ja-only
+    kanji: 松村憲男
+  ja_role: コースデザイン
+- path:
+  - English Localization
+  names:
+  - name: Hiro Nakamura
+  - name: Seth McMahill
+- path:
+  - European Coordination
+  names:
+  - name: Hiroyuki Uesugi
+- path:
+  - English Translation
+  names:
+  - name: Hiro Nakamura
+- path:
+  - French Translation
+  names:
+  - name: Sabrina Bretant
+- path:
+  - German Translation
+  names:
+  - name: Daniel Schäfers
+- path:
+  - Italian Translation
+  names:
+  - name: Elena Nardo
+- path:
+  - Spanish Translation
+  names:
+  - name: Palma Sánchez de Maya
+- path:
+  - Debug
+  names:
+  - name: Super Mario Club
+    kind: company
+  - name: NOA Product Testing
+    kind: company
+  - name: Robert Johnson
+  - name: Patrick Taylor
+  - name: Teresa Lillygren
+  - name: Mika Kurosawa
+  - name: NOE Product Testing
+    kind: company
+  - name: Alessio Danieli
+  - name: Daniel Barsan
+  - name: Steffen Lotz
+  - name: Stefania Montagnese
+  - name: Arrate Ugarte
+- path:
+  - Package Illustration
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  ja_role: パッケージイラスト
+- path:
+  - Artwork
+  names:
+  - name: Sakae Kimura
+    ja: きむら さかえ
+    ja_match: romaji
+  - name: Chiaki Sinkai
+    ja: しんかい ちあき
+    ja_match: romaji
+  - name: Sachiko Nakamichi
+    ja: なかみち さちこ
+    ja_match: romaji
+  - name: Fujiko Nomura
+    ja: のむら ふじこ
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Pokémon Voice (PIKACHU)
+  names:
+  - name: Ikue Ohtani
+    ja: おおたに いくえ
+    kanji: 大谷育江
+    ja_match: romaji
+  ja_role: こえのしゅつえん(ピカチュウ)
+- path:
+  - Development Support
+  names:
+  - name: Masayuki Miura
+    ja: みうら まさゆき
+    kanji: 三浦昌幸
+    ja_match: romaji
+  - name: Hizuki Misono
+    ja: みその ひづき
+    ja_match: romaji
+  - name: Takahiro Onishi
+    ja: おおにし たかひろ
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  ja_role: かいはつ・サポート
+- path:
+  - Special Thanks
+  names:
+  - name: Ken Sugimori
+    ja: すぎもり けん
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Kenkichi Toyama
+    ja: とやま けんきち
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: ますだ じゅんいち
+    kanji: 増田順一
+    ja_match: romaji
+  - name: Masato Ishii
+    ja: いしい まさと
+    ja_match: romaji
+  - name: Masamichi Anazawa
+    ja: あなざわ まさみち
+    ja_match: romaji
+  - name: Satoshi Mitsuhara
+    ja: みつはら さとし
+    ja_match: romaji
+  - name: Shuichi Narusawa
+    ja: なるさわ しゅういち
+    ja_match: romaji
+  - name: Toshifumi Sayama
+  - name: Adrian Michalski
+  ja_role: スペシャルサンクス
+- path:
+  - Pokémon Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター・オリジナルディレクター
+- path:
+  - Producers
+  names:
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: エグゼクティブ・プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekaz Ishihara
+ja_unmatched:
+- kana: スーパーマリオクラブ
+  role: デバッグ
+- kana: いしはら つねかず
+  role: エグゼクティブ・プロデューサー
+  kanji: 石原恒和

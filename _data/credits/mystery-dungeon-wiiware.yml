@@ -1,0 +1,318 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon_(WiiWare) + https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_すすめ!_炎の冒険団・いくぞ!_嵐の冒険団・めざせ!_光の冒険団のスタッフクレジット
+slug: mystery-dungeon-wiiware
+title: Staff of Pokémon Mystery Dungeon (WiiWare)
+work: null
+year: 2009
+developer: The Pokémon Company/Chunsoft
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Mystery_Dungeon_(WiiWare)
+count: 61
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケモン不思議のダンジョン_すすめ!_炎の冒険団・いくぞ!_嵐の冒険団・めざせ!_光の冒険団のスタッフクレジット
+ja_alignment:
+  ja_total: 61
+  ja_matched: 55
+  ja_positional: 3
+  ja_only_added: 0
+sections:
+- path:
+  - Producer
+  names:
+  - name: Koichi Nakamura
+    ja: なかむら こういち
+    kanji: 中村光一
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Directors
+  names:
+  - name: Seiichiro Nagahata
+    ja: ながはた せいいちろう
+    kanji: 長畑成一郎
+    ja_match: romaji
+  - name: Hironori Ishigami
+    ja: いしがみ ひろのり
+    kanji: 石神宏紀
+    ja_match: romaji
+  ja_role: ディレクター
+- path:
+  - Scenario
+  names:
+  - name: Shinichiro Tomie
+    ja: とみえ しんいちろう
+    kanji: 冨江慎一郎
+    ja_match: romaji
+  ja_role: シナリオ
+- path:
+  - Game Planning
+  names:
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    kanji: 川村久仁美
+    ja_match: romaji
+  - name: Shonosuke Morisue
+    ja: もりすえ しょうのすけ
+    ja_match: romaji
+  - name: Tomohide Okaizumi
+    ja: おかいずみ ともひで
+    ja_match: romaji
+  ja_role: ゲームプランニング
+- path:
+  - Main Program
+  names:
+  - name: Masayasu Yamamoto
+    ja: やまもと まさやす
+    ja_match: romaji
+  ja_role: メインプログラム
+- path:
+  - Program
+  names:
+  - name: Takuya Kanai
+    ja: かない たくや
+    ja_match: romaji
+  - name: Yoshihiro Hayashi
+    ja: はやし よしひろ
+    ja_match: romaji
+  - name: Yusuke Kojima
+    ja: こじま ゆうすけ
+    ja_match: romaji
+  ja_role: プログラム
+- path:
+  - Graphic Director
+  names:
+  - name: Daisuke Amakawa
+    ja: あまかわ だいすけ
+    ja_match: romaji
+  ja_role: グラフィックディレクター
+- path:
+  - 3D Objects
+  names:
+  - name: Hidefumi Watanabe
+    ja: わたなべ ひでふみ
+    ja_match: romaji
+  - name: Kazuhisa Watanabe
+    ja: わたなべ かずひさ
+    ja_match: romaji
+  ja_role: 3Dオブジェクト
+- path:
+  - Background
+  names:
+  - name: Eri Kukino
+    ja: くきの えり
+    ja_match: romaji
+  ja_role: バックグラウンド
+- path:
+  - Pokémon 3D Model Cooperation
+  names:
+  - name: Ambrella Co., Ltd.
+    kind: company
+- path:
+  - Sound Director
+  names:
+  - name: Misaki Okibe
+    ja: おきべ みさき
+    ja_match: romaji
+  ja_role: サウンドディレクター
+- path:
+  - BGM
+  names:
+  - name: Kenji Ito
+    ja: いとう けんじ
+    ja_match: romaji
+  - name: Keisuke Sasaki
+    ja: ささき けいすけ
+    ja_match: romaji
+  - name: Hideaki Shirato
+    ja: しらと ひであき
+    ja_match: romaji
+  - name: Ami Shimizu
+    ja: しみず あみ
+    ja_match: romaji
+  - name: Natsuki Inage
+    ja: いなげ なつき
+    ja_match: romaji
+  - name: Miyonjin Kimu
+    ja_match: positional
+    ja: きむ みょんじん
+  - name: Wataru Hasegawa
+    ja: はせがわ わたる
+    ja_match: romaji
+  ja_role: BGM
+- path:
+  - BGM Convert
+  names:
+  - name: Shunsuke Tsuchiya
+    ja: つちや しゅんすけ
+    ja_match: romaji
+  ja_role: BGMコンバート
+- path:
+  - SE
+  names:
+  - name: Kenichi Saito
+    ja: さいとう けんいち
+    ja_match: romaji
+  - name: Yoshihiro Maeda
+    ja: まえだ よしひろ
+    ja_match: romaji
+  ja_role: SE
+- path:
+  - Sound Staff
+  names:
+  - name: Yoshiyuki Ogawa
+    ja: おがわ よしゆき
+    ja_match: romaji
+  ja_role: サウンドスタッフ
+- path:
+  - Special Thanks
+  names:
+  - name: T&E SOFT
+  - name: KUON ltd.
+    kind: company
+  - name: PROCYON STUDIO Co., Ltd.
+    kind: company
+  - name: DiMagic Co., Ltd.
+    kind: company
+  - name: Migaku Matsui
+    ja: まつい みがく
+    ja_match: romaji
+  - name: Hidenori Suzuki
+    ja: すずき ひでのり
+    ja_match: romaji
+  - name: Yasunori Mitsuda
+    ja: みつだ やすのり
+    ja_match: romaji
+  - name: Satoshi Iwata
+    ja: いわた さとし
+    ja_match: romaji
+  ja_role: スペシャル・サンクス
+- path:
+  - Server System Director
+  names:
+  - name: Mikihiro Ishikawa
+    ja: いしかわ みきひろ
+    ja_match: romaji
+  ja_role: サーバシステムディレクター
+- path:
+  - Server System Program
+  names:
+  - name: Daisuke Nakamura
+    ja: なかむら だいすけ
+    ja_match: romaji
+  - name: Ryo Yamaguchi
+    ja: やまぐち りょう
+    ja_match: romaji
+  ja_role: サーバシステムプログラム
+- path:
+  - Debug
+  names:
+  - name: Manabu Matumoto
+    ja: まつもと まなぶ
+    ja_match: romaji
+  - name: Super Mario Club
+    kind: company
+    ja_match: positional
+    ja: スーパーマリオクラブ
+  - name: Chunsoft Debug Team
+    kind: company
+    ja_match: positional
+    ja: チュンソフトデバッグチーム
+  ja_role: デバッグ
+- path:
+  - Artwork
+  names:
+  - name: Yasuo Inoue
+    ja: いのうえ やすお
+    ja_match: romaji
+  - name: Takanao Kondo
+    ja: こんどう たかなお
+    ja_match: romaji
+  - name: Kiyomi Itani
+    ja: いたに きよみ
+    ja_match: romaji
+  - name: Yoshinori Oda
+    ja: おだ よしのり
+    ja_match: romaji
+  ja_role: アートワーク
+- path:
+  - Development Support
+  names:
+  - name: Kensuke Oguri
+    ja: おぐり けんすけ
+    ja_match: romaji
+  - name: Ryosuke Hanawa
+    ja: はなわ りょうすけ
+    ja_match: romaji
+  - name: Erika Yamamoto
+    ja: やまもと えりか
+    ja_match: romaji
+  - name: Kou Ohnuma
+    ja: おおぬま こう
+    ja_match: romaji
+  - name: Takao Nakano
+    ja: なかの たかお
+    ja_match: romaji
+  - name: Kaori Ando
+    ja: あんどう かおり
+    ja_match: romaji
+  ja_role: かいはつサポート
+- path:
+  - Very Special Thanks
+  names:
+  - name: GAME FREAK inc.
+    kind: company
+- path:
+  - Pocket Monsters Original Director
+  names:
+  - name: Satoshi Tajiri
+    ja: たじり さとし
+    kanji: 田尻智
+    ja_match: romaji
+  ja_role: ポケットモンスター・オリジナルディレクター
+- path:
+  - Producers
+  names:
+  - name: Hiroaki Tsuru
+    ja: つる ひろあき
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: おおはし みきこ
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: みやはら としお
+    ja_match: romaji
+  - name: Kunimi Kawamura
+    ja: かわむら くにみ
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: やまがみ ひとし
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Satoru Iwata
+    ja: いわた さとる
+    kanji: 岩田聡
+    ja_match: romaji
+  ja_role: エグゼクティブ・プロデューサー
+- path:
+  - Executive Producer
+  names:
+  - name: Tsunekazu Ishihara
+    ja: いしはら つねかず
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: エグゼクティブ・プロデューサー
+ja_unmatched:
+- kana: ゆうげんがいしゃ アンブレラ
+  role: ポケモン3Dモデルきょうりょく
+- kana: ティーアンドイーソフト
+  role: スペシャル・サンクス
+- kana: ゆうげんがいしゃ クオン
+  role: スペシャル・サンクス
+- kana: ゆうげんがいしゃ プロキオン・スタジオ
+  role: スペシャル・サンクス
+- kana: かぶしきがいしゃ ダイマジック
+  role: スペシャル・サンクス
+- kana: かぶしきがいしゃ ゲームフリーク
+  role: ベリー・スペシャル・サンクス

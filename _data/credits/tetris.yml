@@ -1,0 +1,117 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Tetris
+slug: tetris
+title: Staff of Pokémon Tetris
+work: null
+year: 2002
+developer: Nintendo
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Tetris
+count: 42
+sections:
+- path:
+  - Director
+  names:
+  - name: Shinya Kawada
+- path:
+  - Main Programmer
+  names:
+  - name: Daisuke Tsujimura
+- path:
+  - Sub Programmer
+  names:
+  - name: Kouji Yoshizaki
+- path:
+  - Main Designer
+  names:
+  - name: Hiroaki Tamura
+- path:
+  - Sub Designer
+  names:
+  - name: Naoko Okamoto
+- path:
+  - Sound
+  names:
+  - name: Masaru Tajima
+- path:
+  - Illustrator
+  names:
+  - name: Masako Yamashita
+- path:
+  - Graphic Artists
+  names:
+  - name: Etsuya Hattori
+  - name: Yoshitaka Nishikawa
+  - name: Motoki Fujita
+  - name: Shinji Yamamoto
+- path:
+  - Supervisors (Pokémon)
+  names:
+  - name: Hiroki Enomoto
+  - name: Kazuyuki Terada
+- path:
+  - Original Pokémon Director
+  names:
+  - name: Satoshi Tajiri
+- path:
+  - Supervisors
+  names:
+  - name: Junichi Masuda
+  - name: Ken Sugimori
+- path:
+  - Tetris Advisor
+  names:
+  - name: Akihiko Miura
+- path:
+  - Pokémon mini Project (TPC)
+  names:
+  - name: Kunimi Kawamura
+  - name: Ryuta Kusumi
+  - name: Hiroyuki Uesugi
+- path:
+  - English Text
+  names:
+  - name: Hiro Nakamura
+  - name: Bill Giese
+  - name: Leslie Swan
+- path:
+  - French Text
+  names:
+  - name: Daniel Charbit
+- path:
+  - German Text
+  names:
+  - name: Daniel Schäfers
+- path:
+  - Special Thanks
+  names:
+  - name: The Tetris Company, LLC
+    kind: company
+  - name: Toru Osawa
+  - name: Tomonari Kidachi
+  - name: Keita Nakamura
+  - name: Super Mario Club Staff
+    kind: company
+  - name: Sarugakucho Staff
+  - name: Hiroyuki Jinnai
+  - name: Gakuji Nomoto
+  - name: Takashi Kawaguchi
+  - name: NOE Localization Team
+    kind: company
+  - name: NOE Validation Team
+    kind: company
+  - name: NOE Testing Team
+    kind: company
+- path:
+  - Producers
+  names:
+  - name: Satoru Iwata
+  - name: Satoshi Yamato
+- path:
+  - Assistant Producer
+  names:
+  - name: Masayuki Miura
+- path:
+  - Executive Producers
+  names:
+  - name: Hiroshi Yamauchi
+  - name: Tsunekazu Ishihara

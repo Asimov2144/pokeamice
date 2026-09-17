@@ -1,0 +1,344 @@
+[
+ {
+  "narrative_file": "P:/WEBSITE/pokeamice-main (1)/pokeamice-main/design/credits-analysis/narrative-era-1-1996-2009.md",
+  "key_findings": [
+   {
+    "title": "红绿的 Game Freak 本体只有 12 人，无任何中层头衔",
+    "evidence": "red-green 表列 21 人；去掉 Thanks 6 人和被误归 Debug 的 石原恒和/宮本茂/川口孝司（日页プロデューサー），剩 Dir 田尻智（兼 Game Design/Scenario/Map Design）、Plan 松島賢二・西野弘二・陣内弘之・野々村文宏・Ryohsuke Taniguchi、Prog 増田順一（兼 Music/SE）・渡辺哲也・森本茂樹（兼 Pokémon Design）・太田健程、Art 杉森建・にしだあつこ・藤原基史，外加 4 名デバッグプレイ。section 名里没有 leader/director 一级。",
+    "confidence": "high"
+   },
+   {
+    "title": "2002 红蓝宝石是组织拐点：GF 本体 37→66 人，一次性建立部门与 Director 层",
+    "evidence": "crystal GF 本体 37 人（Dir7/Plan8/Prog9/Art9/Sound2/Mgmt1）→ ruby-sapphire 66 人（Dir12/Plan17/Prog14/Art14/Sound2/Mgmt7）。RS 首次出现 Art Director（杉森）、Battle Director（森本）、Executive Director（田尻）、Executive Producers（石原・岩田）、Main Programmer（渡辺）、Main Graphic Designer（吉田宏信）、Battle/Field System Programmer、Environment & Tool Programmers、Plot Scenario、Coordinators、Task Managers、Information Supervisors。",
+    "confidence": "high"
+   },
+   {
+    "title": "田尻智退出 Director 实际发生在 2000 水晶（日页），英页滞后到 2002",
+    "evidence": "people.json：田尻 crystal role='Director' 但 role_ja='エグゼクティブディレクター'；ruby-sapphire 起英页也写 Executive Director；diamond-pearl 起 Executive Producer。増田 crystal 英页 'Co-director'、日页 'ディレクター'。表把降级记在 RS 是英文页口径。",
+    "confidence": "high"
+   },
+   {
+    "title": "増田順一路径：Prog → Sub Director（GS）→ Director（Cr–DP）→ Producer（Pt/HGSS）；白金起 Director 位交给川内丸武史和森本",
+    "evidence": "増田：red-green/yellow Programming+Music+SE → gold-silver Dir^ Sub Director → crystal Dir! Co-director → RS/box/FRLG Director → emerald Dir^ World Director → DP Director → platinum/HGSS Dir! Producers（仍兼 Music Composition）。川内丸武史 platinum Dir! Director（RS Game Designers 出身），森本 HGSS Dir! Director。",
+    "confidence": "high"
+   },
+   {
+    "title": "増田与森本分带两条产品线：増田正传（RS/FRLG/DP），森本第三版与复刻（Emerald/HGSS）；leader 层随之轮换",
+    "evidence": "森本：RS/FRLG Dir^ Battle Director → emerald Dir! Director → DP Dir^ Battle Director → platinum 无头衔 Plan Game Design → HGSS Dir! Director。渡辺哲也在 FRLG/DP 是 Prog* Program Leader，在 emerald/Pt/HGSS 退回普通 Programmers；海野隆雄 FRLG Art* Graphic Design Leader、DP Art* Graphic Leader，emerald 让给藤原基史 Art* Lead Graphic Artist；曽我部仙史 只在 emerald 当 Prog* Lead Programmer。",
+    "confidence": "high"
+   },
+   {
+    "title": "2004 火红叶绿与绿宝石是并行的两支队伍",
+    "evidence": "19 人缺席 firered-leafgreen 后在 emerald 回归，含 GF 核心 松宮稔展（Scenario）、下山田照幸、川内丸武史、とみさわ昭仁（Plan）、太田健程、Keita Kagaya、Yoshinori Matsuda、太田智道（Prog）、青木森一（Sound）；川内丸在 box(2003) 有署名说明未离职。反向（在 FRLG、缺 Em、之后回来）只有渕野大樹。DP 相对 emerald 留任 56、回归 4，说明两队在钻珍合并。",
+    "confidence": "high"
+   },
+   {
+    "title": "1998 皮卡丘版是小分队，松島・藤原・陣内的缺席不是离开",
+    "evidence": "松島賢二、藤原基史、陣内弘之 缺席 yellow 但都在 red-blue(1998 美版) 里；松島、藤原在 gold-silver 以 Plan Game Design / Art Monster Design 回归。yellow GF 本体人数几乎没长（Dir5/Plan3/Prog5/Art3/Sound1），新增 34 人里 28 人是 Loc/QA。",
+    "confidence": "medium"
+   },
+   {
+    "title": "金银/水晶起中层职衔与新职能出现：Sub Director、Graphics Director、Tool/Script/Map Data Design、Mobile 组",
+    "evidence": "gold-silver：増田 Dir^ Sub Director、杉森 Art^ Graphics Director、新 section Graphics Design/Tool Programming/Script Design/Map Data Design；Prog 主职仅渡辺・玉田荘介・太田健程 3 人。crystal 新 section：Mobile System Director（清水隆雄）、Mobile Project Leader（Toru Osawa）、Mobile System Adviser（Takao Ōhara、Yuichiro Ito）、Pokémon Animation、Pokédex Text、Coordination（陣内弘之，第一个 Mgmt）。移动组只在水晶出现，Ito 在 FRLG/emerald 以 Programmers 回归。",
+    "confidence": "high"
+   },
+   {
+    "title": "2006–2009 增长来自外围功能，核心开发人数在 70–80 人持平；HGSS 的 Art 35 含 Pokéwalker 硬件组",
+    "evidence": "GF 本体 emerald 77、DP 74、Pt 74、HGSS ~100。新增 section：DP Nintendo Wi-Fi Connection / Server System Director（Mikihiro Ishikawa）、Battle Tower Data ×8（全部与 battle-revolution 共署名）；Pt Debug Management ×5；HGSS Mechanical Design ×8 + Mechanical Director（Masahiko Oota）+ Project Manager（Masaru Shimomura）+ Pokéwalker Game Design（大森滋）、NCL Testing Management ×7、Programming Support & System Programming ×13。",
+    "confidence": "high"
+   },
+   {
+    "title": "白金前后公司同时开 Pt / HGSS / BW 三条线",
+    "evidence": "森本 platinum 无头衔而 HGSS 任 Director；川内丸 Pt Director、HGSS 退回 Plan Game Design；Hiroyuki Nakamura（RS 起每作 Prog）缺席 HGSS、black-white 以 User Interface Programming 回归；Ryō Yamaguchi（Pt Server System Programming）缺席 HGSS、BW Wi-Fi Server Development 回归；Kimiko Nakamichi 同样 Pt→BW。",
+    "confidence": "medium"
+   },
+   {
+    "title": "五位金银时代宝可梦设计师整组缺席 DP/Pt 三年后在 HGSS 回归，表内无法解释",
+    "evidence": "吉川玲奈、斉藤むねお、岩下明日香、奥谷順、富田愛美 均为 gold-silver/crystal Art Monster Design 出身，emerald 后缺席 diamond-pearl 与 platinum，heartgold-soulsilver 以 Art Pokémon Design 同时回归；期间外传只有 xd(2005)。2006–2008 表里没有其它 GF 作品可对应。",
+    "confidence": "low"
+   },
+   {
+    "title": "Nintendo 方更替：山内溥止于水晶、岩田聡同作升 Executive Producer；宮本茂/川口孝司/出石武宏相继退出；Task Manager→Producer 是任天堂路径",
+    "evidence": "山内溥 red-green–crystal Dir!! Executive Producer，RS 起消失；岩田聡 red-blue/GS Thanks → crystal Dir! Producers → RS Dir!! Executive Producers 至 HGSS；石原恒和 yellow–crystal Producers → RS 起 Executive Producers。宮本茂 red-green プロデューサー→crystal Producers→box Producers 后消失；川口孝司 止于 gold-silver；出石武宏 yellow/GS/RS/FRLG Producers 后消失。山上仁志・野本岳志 RS/FRLG Mgmt* Task Managers（日页ファンクションマネージャー）→ emerald Dir! Producers；江上周作 emerald Task Managers → DP Coordinators → Pt/HGSS Producers。",
+    "confidence": "high"
+   },
+   {
+    "title": "陣内弘之从 GF 剧本写手转为制作人，之后走向 Creatures 系作品",
+    "evidence": "陣内：red-green Plan Scenario → gold-silver Thanks → crystal Mgmt Coordination → RS/FRLG/emerald/DP Dir! Producers → platinum Thanks → 消失；之后外传署名 ranger(2006)、my-pokemon-ranch(2008)、ranger-shadows-of-almia(2008)、detective-pikachu(2016) 等。",
+    "confidence": "medium"
+   },
+   {
+    "title": "创始期骨干离开：太田健程（Em 后）、青木森一（Em 后）、Nobuhiro Seya / Kazuhito Sekine（Cr 后）、三津原敏（Pt 后）",
+    "evidence": "太田健程 red-green 起 Prog 6 作，缺席 FRLG 回归 emerald，DP 只剩 Thanks；青木森一 Sound GS/Cr/RS/Em 后消失；Nobuhiro Seya Plan Script Design + Map Design Y/GS/Cr 后消失、此后署名 ranger/detective-pikachu；Kazuhito Sekine Map Data Design Y/GS/Cr 后消失；三津原敏 Prog box/FRLG/Em/DP/Pt 后消失、2021 new-pokemon-snap 署名。",
+    "confidence": "high"
+   },
+   {
+    "title": "西野弘二与松島賢二是最稳定的单一职能：パラメーター設定 与 図鑑テキスト",
+    "evidence": "西野 red-green Parameter-setting → 每作都挂 Parametric Design 直到 HGSS，唯一一次 lead 是 FRLG Plan* Planning Leader；松島 RS 起每作挂 Pokédex Text，HGSS 升 Plan* Game Design Leader。",
+    "confidence": "high"
+   }
+  ],
+  "data_issues": [
+   "红绿：石原恒和/宮本茂/川口孝司 英页 Debug Play、日页プロデューサー，被归 Debug（已知）",
+   "'Parametric Design(ers)'/パラメーター せってい 被归 Art；红绿同职能 'Parameter-setting' 归 Plan。应统一为 Plan。影响西野弘二、森本茂樹、太田哲司、下山田照幸等每作 4–5 个槽位",
+   "'Information Supervisors'/じょうほう かんり 因 'Supervisor' 被抬到 Dir rank 2；emerald 同批人 'Information Management' 归 Mgmt rank 0，制造 Yuuri Sakurai/Naoko Yanase/Kazuyuki Terada 的假升降。应归 Mgmt 0 级并标注非 GF",
+   "'Product Testing / デバッグプレイ' 归 Loc/QA：yellow 的 下山田照幸、Kazuhito Sekine、Kazushi Shimamura，GS/Cr 的 橋本徹、松本登、猿楽庁 都是日文页调试人员，应归 Debug；yellow Debug=0 错误",
+   "英日两列按位置合并错人：'Leslie Swan（橋本徹）' variants 含 'Tōru Hashimoto'（NOA 的 Swan 与日版デバッグプレイ的橋本徹被合并）；'Toru Minegishi（峰岸透）' variants 含 'Kenta Nagata'（两位任天堂作曲被合并）。需检查英日列长度不等时的对齐",
+   "'US Version Staff / X'、'European Version Staff / X' 前缀一律归 Loc/QA，吞掉 GF 人员：Teruki Murakawa、Kohta Fukui（/Programmers）、Shinya Sano（さのしんや）、Takehiko Hosokawa（/Character Design）；増田順一、西野弘二 在 GS/Cr 也挂 US/European Coordination。应按斜杠后的职能归类",
+   "DP–HGSS 英页 'Localization' 对应日页 スペシャルサンクス（Akira Kinashi、Soichi Yamamoto、Teruki Murakawa、Kimiko Nakamichi、Haruhiko Imatake、Ryō Yamaguchi）：这些是 GF 做海外版的程序员，Prog→Loc/QA 的'转岗'是假象",
+   "田尻智 crystal：英页 Director、日页 エグゼクティブディレクター，降级应记 2000 而非 2002；増田 crystal 英页 Co-director、日页 ディレクター",
+   "海野隆雄 FRLG：英页 'Graphic Design Leader'（* 级）、日页 グラフィックデザインディレクター（^ 级）",
+   "'Main Programmer'（渡辺哲也 RS）、'Main Graphic Designer'（吉田宏信 RS）未识别为 lead（rank 0）",
+   "拼写拆人：'Koji Nishimo'（RS Parametric）= Kōji Nishino；'Tetsuji Ohata'（HGSS Parametric）= Tetsuji Ōta 太田哲司；'Doisuke Goto'/'Daisuke Goto'；'Yumi Funusaka'/'Yumi Funasaka'；'Teresa Lillygreen'/'Teresa Lillygren'；'Thomas Hertzhog'/'Thomas Hertzog*'；'A. Fey'/'Andy Fey'",
+   "主名选到错拼：'Hiroyuiki Jinnai'（应 Hiroyuki）、'Kenji Matsusima'（Matsushima）、'Takae Shimizu'（清水隆雄=Takao）、'Tatsuya Hashida'（菱田達也=Hishida）、'Takeshi Kawachimuru'（另一拼 Kawachimaru）。建议主名取出现次数最多的写法或按日文页读音",
+   "汉字字段污染：'w:とみさわ昭仁'、'w:高橋伸也 (ゲームクリエイター)'、'w:早志勇紀'、'w:猿楽庁'、'w:日本点字図書館'（wiki 链接前缀泄漏）；'Hiroyuki Uesugi*（アンブレラ）' 汉字位是公司名",
+   "人名字段标记泄漏：'[http://www.sarugakucho.jp/ Sarugakucho]'、'(Japanese:  Kikaku Kaihatsu-bu)'；尾部 '*'（Hiro Nakamura*、Akira Kinashi*、Teruki Murakawa*）；机构被算成人：'PAAD Testing'、'Library support team'、'European Blind Union'、'National Federation of the Blind*'、'Australian Braille Authority*'",
+   "'Hiro Nakamura*' 疑为两人合并：1998–2004 NOA 'US Coordination'/'English Version Coordinators'，2006 起 GF 'Game Designers'+'Map Designers'（日页 ゲームデザイン）",
+   "'Task Managers' 日页为 ファンクションマネージャー（任天堂职位）；连同 Information Supervisors、NCL Coordinators、Debug Management、NCL Testing Management、Mechanical Design/Director、Project Manager 建议加'非 GF'标记，勿计入 GF 规模",
+   "外部组被计入 GF Plan/Art：DP 'Battle Tower Data' 8 人（全部与 battle-revolution 共署名）、emerald 'Artwork' 7 人（之后署名 ranger/mystery-dungeon/pokepark）、RS–Em 'Braille Code Check' 4–7 家机构",
+   "'N 作' 计数把 Thanks 出现和链外作品（blue-jp/red-blue/box）都算进去（例：太田健程 '9 作'，实际参与 8 作 + 1 次 Thanks），与'参与不含 Thanks'的定义不一致",
+   "Pikachu Voice（大谷育江）被算作 Sound 类 GF 成员，是声优"
+  ],
+  "people_to_verify": [
+   "Hiro Nakamura*（NOA 协调员与 GF 企划是否两人）",
+   "Leslie Swan / 橋本徹 Tōru Hashimoto（被合并，需拆开）",
+   "Toru Minegishi 峰岸透 / Kenta Nagata（被合并，需拆开）",
+   "Takae Shimizu 清水隆雄（读音应为 Takao；水晶 Mobile System Director 的所属公司）",
+   "Toru Osawa（Mobile Project Leader，所属）",
+   "Tatsuya Hashida 菱田達也（读音应为 Hishida；box Directors）",
+   "Satoshi Yamato 大和聡（水晶 Producers，所属）",
+   "Hiroaki Tsuru 鶴宏明（RS–HGSS 每作 Producers，所属；flag 多个汉字写法）",
+   "Hiroyuki Uesugi*（汉字位写成アンブレラ）",
+   "Information Supervisors 一组：Yuuri Sakurai、Hiroki Enomoto 榎本浩樹、Kazuyuki Terada、Hiromi Sagawa、Naoko Yanase、Yumi Funusaka/Funasaka、Yufuko Saito、Tōya Yoneda（所属公司与真实职能）",
+   "Task Managers 一组：山上仁志、野本岳志、江上周作、田島梓（任天堂 SPD 归属）",
+   "Gakuji Nomoto 野本岳志 与 Retsuji Nomoto 野本烈志（是否两人；后者 12 作多为外传）",
+   "Teruyuki Shimoyamada 下山田照幸（yellow デバッグプレイ → RS Game Designers，是否同一人）",
+   "Kazuhito Sekine（yellow デバッグプレイ → GS Map Data Design，是否同一人）",
+   "Kenji Matsusima 松島賢二（主名拼写；汉字是否为 松島）",
+   "Takeshi Kawachimuru/Kawachimaru 川内丸武史（读音）",
+   "Hiroyuiki Jinnai 陣内弘之（主名拼写；flag 多个汉字写法）",
+   "Akihito Tomisawa とみさわ昭仁（汉字字段带 w: 前缀）",
+   "Koji Nishimo（RS）是否即 西野弘二",
+   "Tetsuji Ohata（HGSS）是否即 太田哲司",
+   "Masahiko Oota（HGSS Mechanical Director）与 Masaru Shimomura（Project Manager）所属（Pokéwalker 硬件方）",
+   "Mikihiro Ishikawa、Daisuke Nakamura（Wi-Fi Server System Director，所属）",
+   "Muneo Saitō 斉藤むねお、Jun Okutani 奥谷順、Asuka Iwashita 岩下明日香、Rena Yoshikawa 吉川玲奈、Aimi Tomita 富田愛美（2006–2008 集体缺席原因）",
+   "Kei Hoshiba 保志場慶、Shinya Takahashi（flag 多个汉字写法）"
+  ]
+ },
+ {
+  "narrative_file": "P:/WEBSITE/pokeamice-main (1)/pokeamice-main/design/credits-analysis/narrative-era-2-2010-2017.md",
+  "key_findings": [
+   {
+    "title": "X·Y 467 人中 GF 内核只约 127 人；膨胀主要来自外部 3D 模型团队、TPC 网络组和 Loc/QA",
+    "evidence": "x-y 新 section：Pokémon Character Motion 53、Pokémon Character Modeling 46、Pokémon 3-D Modeling 11、3-D Model Management 3（共 113 人）；Pokémon Global Link 35 + Server Development 8；Loc/QA 从 40 → 160。剔除外部型 section 后 Plan/Prog/Art/Sound/Mgmt 内核估算：HGSS 79 → BW 68 → B2W2 83 → XY 127 → ORAS 100 → SM 179 → USUM 114",
+    "confidence": "high"
+   },
+   {
+    "title": "3D 宝可梦模型团队是整体接入的外部专业团队，lead 四作不变",
+    "evidence": "Masamichi Anazawa（穴澤匡道）与 Atsuko Ujiie（氏家淳子）在 x-y/oras/sun-moon/usum 四作都是 Art* Pokémon 3-D Modeling；两人此前外传全是 stadium/snap/xd/battle-revolution/pokepark/pokedex-3d；Anazawa 在 dream-radar 任 Production Management。该组人数随是否需要新模型起落：XY 113 → ORAS 31 → SM 48 → USUM 19",
+    "confidence": "medium"
+   },
+   {
+    "title": "総监交接链：増田（BW、XY Director）→ 大森（ORAS、SM Director）→ 岩尾（USUM Director），两位新总监的首次 Director 都是姊妹作",
+    "evidence": "大森滋：DP Plan Game Design Leader → x-y Plan^ Planning Director → oras Dir! Director（兼 Concept & Plot）→ sun-moon Director 兼 Planning Director → usum Produced By。岩尾和昌：black-white Plan Map/Parameter Design → x-y Plan* Game Map Design → oras Plan* Battle & Contest Game Design（表记 Debug*）→ sun-moon Prog^ Game Battle System Design Section Director → usum Dir! Director。増田：black-white Director+Producers，black2-white2 只 Producers，x-y Director，oras/sun-moon/usum 仅 Produced By",
+    "confidence": "high"
+   },
+   {
+    "title": "ORAS 缺席、日月回归的 67 人构成了日月的领导核心，说明日月班底在 2014 年已从 XY 分出",
+    "evidence": "x-y 在、oras 缺、之后回来 67 人（Art 33、Prog 16、Loc 12、Debug 3、Plan 1、Mgmt 1、Sound 1），其中 43 人首次回来即 sun-moon。回归即带头衔：玉田荘介 Prog^ Program Director、川内丸武史 Prog^ Network System/Game Design Section Director、森本茂樹 Plan* Battle Planning、下山田照幸 Plan* Communication Features Planning、藤原麻衣子 Art* 3D Map、James Turner Art^ Section Director、Nozomu Saitō Prog* Field Environment、大野克己 Prog* UI System。这 16 位 XY 程序/企划主力在 ORAS 期间表中无任何非 Thanks 外传记录",
+    "confidence": "high"
+   },
+   {
+    "title": "日月缺席、究极日月回归的 85 人分成 lets-go 组（28 人）与 sword-shield 组（45 人）——2017 年 GF 同时运转三条线",
+    "evidence": "lets-go 组：玉田荘介（SM Program Director → lets-go Prog* Library Tool）、Iwasawa、大野、Kōsaka、Ishiguro、Takebe、Kiryu、Araki、Naoya Uematsu（SM Tool/Drawing Programming → lets-go Library Tool Programming）、名木橋徹（→ Prog^ System Programming Section Director）、Ikeuchi（→ Prog^ Field Programming Section Director）、尾上、Matsuyama、Natsumi Inoue。sword-shield 组：川内丸、大村祐介、松島賢二、にしだあつこ、江尾可奈子、つるたさや、Take、佐久間さのすけ（→ Plan World Concept Section）+ 约 15 名 SM 宝可梦 Modeling/Motion 人员 + Saita、Asaoka、Endo",
+    "confidence": "high"
+   },
+   {
+    "title": "Pokémon Quest（2018）是渡辺哲也带的小队，成员从 ORAS/日月中层抽出；渡辺 XY 之后实际转任外传顾问",
+    "evidence": "渡辺哲也：black-white Prog^ Program Director → black2-white2 普通 Prog → x-y Support Programming → oras 缺席 → sun-moon/usum Special Thanks；期间 rumble-u(2013)、detective-pikachu(2016) 为 Game-Design Advisors，quest(2018) 为 Dir^ Producer/Director。quest 其他 GF 成员：川内丸武史 Planning、Gen'ya Hosaka Programming、斉田和生 Programming、松崎翼 Art Director、Masayuki Wada / Noriko Nakagawa Coordinators——全是 SM→USUM 或 ORAS→SM 的缺席者",
+    "confidence": "high"
+   },
+   {
+    "title": "两部姊妹作的 Program Director 都是高橋友也，与玉田荘介（XY、SM）交错；斉藤優史三次 Planning Director 全在第二团队作品",
+    "evidence": "高橋友也：x-y Prog* Field System → oras Prog^ Program Director → sun-moon Prog* Field Contents → usum Prog^ Programming Section Director → sword-shield Prog^。玉田荘介：black2-white2 Prog^ → x-y Prog* → oras 缺 → sun-moon Prog^ Program Director → usum Thanks。斉藤優史：black2-white2 Plan^ Planning Director → x-y Plan* → oras Plan^ Planning Director → sun-moon/usum 缺 → lets-go Plan^ Planning Section Director",
+    "confidence": "high"
+   },
+   {
+    "title": "日月引入 Section Director 制并大幅细分 Plan/Prog/Sound；究极日月的 lead 几乎全是首次带队",
+    "evidence": "sun-moon Section Director：一之瀬剛 Sound、吉田宏信 UI Graphic Design、James Turner Digital Movie/Effect、岩尾 Game Battle System Design、川内丸 Network System/Game Design；Plan 15→34（新 Z-Ring and QR Scan Planning 10、Event Planning/Video Direction 6、Battle Planning、Communication Features Planning），Prog 细分 Field Contents/Environment/Event/Tool/Pokémon Drawing，Sound 13（Vocal Recording 5、Recording Engineer 2）。usum 首次 lead：一楽克彦 Prog* Communication Features UI、谷博行 Prog* Field System Design、久我絵理佳 Art* UI、Junsei Kuninobu Art* Character Modeling、中廣健吾 Art* Pokémon Character Modeling、Yosuke Uematsu Art* Movies/Special Effects；Other 16 人为管弦乐手",
+    "confidence": "high"
+   },
+   {
+    "title": "海野隆雄是唯一当过 Director 又回到美术线的人；杉森建 日月起退出 ^ 级角色美术总监位",
+    "evidence": "海野：heartgold-soulsilver Art^ Art Director → black-white Art^ 3-D Art Director → black2-white2 Dir! Director（同年 dream-radar Directors）→ x-y Art^ 3-D Art Director → oras 普通 Art Pokémon Characters Design → sun-moon Art^ Graphics Director → usum Art* Pokémon Model Creation Coordinators → lets-go Art^ Graphics Section Director。杉森：black-white～oras Art^（2-D Art Director / Director of Pokémon Characters / Character Art Director）→ sun-moon Art* Trainer Graphics Design → usum Art Design Art → lets-go Dir^ Creative Supervisor；sun-moon 起 Pokémon Characters Design lead 为大村祐介",
+    "confidence": "medium"
+   },
+   {
+    "title": "HGSS→黑白是 GBA/DS 时代美术班底的整体退场",
+    "evidence": "黑白一节'之后再没出现'44 人含：太田敏（Art Graphic Design，10 作，1996–）、吉川玲奈（Art Pokémon Design，8 作，1996–）、斉藤むねお/岩下明日香/奥谷順（Art Pokémon Design，各 6 作，1999–）、富田愛美（4 作）、後藤浩之、八木裕之（3 作）、太田智道（Prog，7 作，1996–）、野原悟史（Prog，6 作）。黑白 Art 35→27",
+    "confidence": "high"
+   },
+   {
+    "title": "3DS 转换点（黑白2→XY）离开一批 DS 时代程序/企划老人；XY 之后又走了两位 1999–2000 起的程序骨干",
+    "evidence": "x-y 一节'之后再没出现'：Keita Kagaya、Yoshinori Matsuda（Prog，各 8 作，2000–）、Tadashi Takahashi（Plan，8 作，2002–）、Yuuri Sakurai（Mgmt Information，8 作）。oras 一节：曽我部仙史（Prog，11 作，2000–）、森昭人（Prog，11 作，1999–，HGSS Programming Leader）。sun-moon 一节：田谷正夫（Prog Battle System，11 作，2002–）、大久保智彦（Art* Character Modeling，5 作）、貫田将文（Prog* Field System Design）",
+    "confidence": "high"
+   },
+   {
+    "title": "景山将太 ORAS 后转外部（Pokkén 客座作曲、Duel 音响总监）；一之瀬剛 XY/ORAS 两作缺席后回任日月 Sound Section Director",
+    "evidence": "景山：x-y Sound^ Sound Director → oras Sound Music + Sound Management → sun-moon/usum 缺席；pokken-tournament(2015) 为 BANDAI NAMCO Studios / Guest Music Composer，duel(2016) 为 Sound Director/Music Composer → lets-go 普通 Sound。一之瀬：heartgold-soulsilver Sound* Music Leader → black-white/black2-white2 普通 Sound → x-y/oras 缺席（表中无任何外传）→ sun-moon Sound^ Sound Section Director → usum 普通 Sound",
+    "confidence": "medium"
+   },
+   {
+    "title": "任天堂/TPC 制作人层在日月换代",
+    "evidence": "岩田聡 Executive Producers 最后一作 oras；sun-moon 起 君島達己 Executive Producers、高橋伸也 General Producer；TPC 上井伸 black2-white2～oras Prog Pokémon Global Link → sun-moon Dir! Produced By；江上周作 heartgold-soulsilver～oras Producers → sun-moon 仅 Pokémon Global Link；鶴宏明 最后一作 black-white；宇都宮崇人 x-y 起 Produced By；曽羽孝則 usum 起",
+    "confidence": "high"
+   },
+   {
+    "title": "黑白2 与 Dream Radar（2012）是同一支小班底",
+    "evidence": "dream-radar：海野隆雄 Directors + Planning、斉藤優史 Planning、玉田荘介 Programming、松宮稔展 Concept Design、佐藤仁美 Sound、木梨玲 Coordinators、Anazawa Production Management、増田 Supervisors/Producers；black2-white2：海野 Director、斉藤 Plan^ Planning Director、玉田 Prog^ Program Director",
+    "confidence": "high"
+   }
+  ],
+  "data_issues": [
+   "分类 bug：role 含 'Contest' 被匹配为 'test' 归入 Debug——oras 'Game Battle & Contest System Design'（岩尾和昌 lead、西野弘二）、'Battle&Contest System Programming'（Nobuhiko Ariizumi lead、斉田和生）应为 Plan/Prog（role_ja バトル&コンテスト ゲームデザイン / システム プログラム）；导致 oras Debug 虚高、岩尾出现假 'Debug*' 环节",
+   "企划性 '…Design' 误归 Art/Prog：Game Dialogue Design（シナリオ ゲームデザイン）→Art；Battle System Design / Network System Game Design / UI System Design / Field System Design（ゲームデザイン・システムせっけい）→Prog；Parametric Design（パラメーター せってい）、Survey Radar & Tag Mode Design、Join Avenue Design、Pokéstar Studios Design、Pokémon World Tournament Design、Nintendo 3DS Link Design（せっけい）→Art。建议 role_ja 含 ゲームデザイン/せっけい/せってい 强制 Plan；否则 BW–SM 的 Plan 被低估、并产生大量假跨类别变动（松宮稔展 Plan→Art*、森本 Plan→Prog*、貫田 Art*→Prog*）",
+   "外部团队与 GF 混计：Pokémon Global Link（x-y 35 人）、Server Development、Wi-Fi Server Development 为 TPC/任天堂网络组；Pokémon Character Modeling/Motion/3-D Modeling/Model Inspection（x-y 113 人）为外部 3D 团队；Z-Ring and QR Scan Planning / Z-Power Ring·Rotom Dex Planning 为周边企划；Technical Support 为任天堂 SDK 支持（Tōru Inage 外传全为任天堂系）。建议单列 External 类别或在 sections.md 分栏",
+   "同名合并错误：'Hiro Nakamura*' 把 1998–2004 NOA 'US Coordination' 与 2008–2014 GF 企划（platinum Game Design → black-white UI System Design → oras Game Design Balancing）合并成 15 作一人",
+   "同名合并错误：'Leslie Swan（橋本徹）' 把 NOA 的 Leslie Swan（gold-silver、crystal Product Testing）与 x-y 3D 建模师 Tōru Hashimoto 合并，汉字挂错；x-y 'Leslie Swan: Art Pokémon Character Modeling' 是此错误产物",
+   "疑似同名异人：Akira Nakamura（black-white～oras Plan Game Map Design → sun-moon Prog Field System Design → area-zero Art Pokémon Character Motion）；Jun ITO（sun-moon Plan Game Design Balancing → legends-arceus Prog^ CG Technology Section Director）；Keisuke Fukushima（Debug Management → usum Loc/QA Chinese Localization）；Osamu Fujita（diamond-pearl Plan Battle Tower Data → oras PGL → sword-shield Mgmt）",
+   "规范名带 Bulbapedia 脚注 '*'，与表中 lead 标记 '*' 冲突：Kathy Huguenard*、Teruki Murakawa*、Tomoko Mikami*、Elena Nardo*、Noriko Netley*、Randy Shoemake*、Joel Simon*、Teresa Lillygren*、Michaël Hugot*、Masami Tanaka*、Tomotaka Komura*、Atsushi Sugimoto*、Hiroshi Akune*——归一时应剥掉尾部 *",
+   "名字/汉字字段解析残留：'Mana geemufuriiku Ibe'（井部真那，ゲームフリーク 消歧义串混入；变体 'Shigeru geemufuriiku Oomori' 同类）；'Tanaka hirokazu Sakuhenkyoku'（田中宏和，作編曲）；kanji 字段含 Wikipedia 前缀 'w:高橋伸也 (ゲームクリエイター)'、'w:とみさわ昭仁'；拼写错误 Hiroyuiki Jinnai、Kenijro Ito、Sususmu Fukunaga；姓名倒置 Shinkai Chiaki、Ishizuka Masaya；全大写 Jun ITO、ROMANOV HIGA、MIYAGUCHI TOMOHIRO、TANAKA KENTARO、KYOtaro、TOKIYA；Takahiro O-nishi",
+   "'期间外传' 包含 Thanks 级出现：大野克己 the-thieves-and-the-1000-pokemon(2014)、Mitsuyo Matsunaga detective-pikachu(2016) 均只是 Special Thanks，却被列为期间外传，误导平行企划推断；应与正传一致排除 Thanks",
+   "black2-white2 的 'Pokémon Black and White Version Programming/Game Design/Graphics Design/Music' 块是黑白原班的整体署名（Prog 13、Plan 9、Art 6、Sound 3），当成黑白2 实际分工后，玉田/渡辺/大野等 black2-white2→x-y 的'职务变动'多为名义变化，不宜解读为升降",
+   "Bulbapedia 与日文页职务出入：木梨玲 heartgold-soulsilver 英页 Localization / 日页 スペシャルサンクス；black-white/black2-white2 的 Akira Kinashi、Teruki Murakawa 英页 Localization / 日页 グローバライズ（更接近 Mgmt）——与红绿 Miyamoto/Kawaguchi/Ishihara 问题同源",
+   "杉森建 sun-moon 仅解析到 Pokémon Characters Design + Trainer Graphics Design（Art*），usum 仅 Design Art / Pokémon Characters Design & Concept（Art），需核对原 credits 是否漏抓 Art Director 类头衔",
+   "拼写拆分候选（core 参与者）：'Annarita Spera' / 'Anna Rita Spera'、'Ben Howard-Hale' / 'Ben-Howard-Hale'、'Product Testing Technicians' / 'Product-Testing Technicians'（后者为团队名，不应作为人）",
+   "people.json 中 'Hiro Nakamura'（GF 企划）无汉字、无链接；'DIGITAL Hearts'、'NOK Quality Control Sect.'、'NOA Product Testing Technicians' 是公司/部门名被当成人计入 Debug/Loc 人数"
+  ],
+  "people_to_verify": [
+   "Masamichi Anazawa（穴澤匡道）/ Atsuko Ujiie（氏家淳子）——所属公司（推测为外部 3D 宝可梦模型团队，需确认）",
+   "Gō Ichinose（一之瀬剛）——2013–2014 缺席 x-y/oras 期间去向（表中无任何宝可梦外传）",
+   "Hiro Nakamura（GF 企划那一位）——真名/汉字，与 NOA 的 Hiro Nakamura 拆分",
+   "Tōru Hashimoto（橋本徹，x-y Pokémon Character Modeling）——与 Leslie Swan 拆分",
+   "Akira Nakamura——Plan（BW–ORAS）/ Prog（SM）/ Art Motion（area-zero）是否同一人",
+   "Jun ITO——sun-moon Game Design Balancing 与 legends-arceus CG Technology Section Director 是否同一人",
+   "Keisuke Fukushima——Debug Management 与 usum Chinese Localization 是否同一人",
+   "Osamu Fujita——diamond-pearl Battle Tower Data / oras PGL / sword-shield Coordinators 是否同一人",
+   "Tetsuya Watanabe（渡辺哲也）——外传 'Game-Design Advisors'（rumble-u、detective-pikachu）与 quest Producer/Director 是否即 GF 程序元老本人",
+   "Hisanao Suzuki——x-y 唯一一作即 Prog* Network Programming，来路（GF 还是任天堂/TPC）",
+   "Masaru Shimomura——heartgold-soulsilver Mgmt* Project Manager 仅一作，去向",
+   "Ken Sugimori（杉森建）——sun-moon/usum 是否真无 Art Director 头衔",
+   "Kathy Huguenard / Teruki Murakawa / Tomoko Mikami 等带 '*' 的名字——确认是否 lead 还是脚注残留"
+  ]
+ },
+ {
+  "narrative_file": "P:/WEBSITE/pokeamice-main (1)/pokeamice-main/design/credits-analysis/narrative-era-3-2018-2026.md",
+  "key_findings": [
+   {
+    "title": "GF 的并行开发是“两个企划团队 + 共享技术部与宝可梦模型工厂”，不是两个独立工作室",
+    "evidence": "Maezawa 前澤圭一 / Jun ITO / Ota Sano / Haruki Tachihara / Shinya Goto / Masanori Kanamaru / Ryota Takeuchi / Tomoya Kanehira 在阿尔宙斯、朱紫、零之秘宝、Z-A 四作全勤（CG Technology / Environment / Base Technology）；Pokémon 3D Modeling 单元（Ujiie 氏家淳子 Art Director、Nakahiro 中廣健吾 Project Director、Anazawa 穴澤匡道 Product Manager、Onodera）及约 80 名“4 作 2022–”建模/动作师亦四作全勤，且 Ujiie/Anazawa/Nakahiro 出现在 new-pokemon-snap(2021)、detective-pikachu-returns(2023) 外传名单。企划/图形负责人则分线：Planning SD Murase(阿尔宙斯)/Tani(朱紫)/Murayama(Z-A)，Graphics SD Unno(阿尔宙斯)/Maiko Fujiwara(朱紫)。",
+    "confidence": "high"
+   },
+   {
+    "title": "阿尔宙斯线 vs 朱紫线的人员归属可由“缺席—回归”精确划出",
+    "evidence": "剑盾缺席→阿尔宙斯回归（去 Loc/QA 仅 6 人）：Onoue 尾上将之(Prog*→Prog^ Programming SD)、Yuya Ikeuchi、Haruka Tochigi(→CG Director)、Shinichi Kawazoe、Koji Kawada、Kojiro Matsuyama——全是程序/CG，说明阿尔宙斯先做技术原型。阿尔宙斯缺席 90 人→朱紫回归：Maiko Fujiwara 藤原麻衣子(Art^ 3D Graphics SD)、Hiroyuki Tani 谷博行(→Plan^ Planning SD)、Katsuhiko Ichiraku 一楽克彦(→Prog^ Game Programming & UI SD)、Mana Ibe 井部真那(→Art Director)、Morimoto、Turner、Muroi、Asaoka、整批剑盾 3D Map Graphics 与 Character Modeling。朱紫缺席 13 人（Iwao、Murase、Hideki Iwata、Matsumiya、Yuya Watanabe）= 阿尔宙斯独有企划核心。",
+    "confidence": "high"
+   },
+   {
+    "title": "Z-A 是阿尔宙斯线的传承作，分三批成形：阿尔宙斯人（2022-01）→ 朱紫 DLC 缺席者（2022-11）→ DLC 完成后的主管（2023-12）",
+    "evidence": "跳过朱紫与 DLC 的阿尔宙斯人：Yuichi Murase(Plan^ Planning SD→Z-A Plan* Story Team)、Masayuki Jimpo、Ryo Katsura、Yasuhisa Sakamoto、Mizuki Fujita；零之秘宝缺席→Z-A 回归 72 人：Kazuki Saita 斉田和生(AI SD→Programming Section Directors)、Kawazoe(Physics SD→Game AI Team)、Tatsuya Makita(Art Director→Model Team)、Yosuke Uematsu(→Art^ Graphic Design SD)、Takuya Kawakami(→Plan* Field Team)、Kota Yamashita(→Plan* Event Team)、Morimoto、Ishige、Nagihashi、Ōta、Kawabata、Masaya Suzuki(→Mgmt* PM)、Nabana；DLC 后 Rei Murayama(DLC Dir!→Z-A Plan^ Planning SD)、Tochigi(3D Visual SD→Z-A Dir! Director)。Z-A 的 Director、Story lead、Section Director Yuki Yamamoto 均出自阿尔宙斯。",
+    "confidence": "high"
+   },
+   {
+    "title": "Champions 是 GF 监修、外部开发；GF 监修组来自“系列级宝可梦参数/战斗”团队，“没上 Champions”不是离职信号",
+    "evidence": "Champions 339 人：GF 仅 27 人 Planning & Supervision；无公司前缀开发块 48 人（Development Director Masaaki Hoshino 星野正昭，外传履历 pokken-tournament(2015)/pokken-tournament-dx(2017)/new-pokemon-snap(2021)）；ILCA 31；TPC 46（7 名 Associate Producers 含 Kohori 小堀俊介、Takashi Koyama）；Nintendo 54；TPCi 约 120。Kazumasa Iwao 岩尾和昌(Game Director) 与 Shigeki Morimoto 森本茂樹(Battle Director) 在 Z-A 同属 “ポケモンシリーズQA / ポケモンパラメータチーム”（英页 Pokémon Attribute Team）；Kai Munakata、Toshihiro Obata 从 Pokémon & Battle System Team 转 Battle Program Supervision；Tatsuya Makita Art Director；Takeshi Kawachimuru 川内丸武史 Lead Game Designer。",
+    "confidence": "high"
+   },
+   {
+    "title": "Pokopia 的 GF 侧核心是朱紫交付后从正传消失的一组人，原型组约 2022 年底分出",
+    "evidence": "Teruyuki Shimoyamada 下山田照幸（15 作，朱紫 Plan* Communication Features Planning，DLC 起缺席）→ Pokopia Director；Noriko Uono（朱紫 Art* 3D Map Graphics lead）→ 3D Graphic Director；Gen'ya Hosaka、Akinori Asaba（朱紫 Prog Pokémon AI Planning）→ Proto Development；Masayuki Kawabata → Proto Development / Game Designers；Mana Ibe → 2D Graphic Director；Shigeru Ohmori 大森滋 → Concept & Senior Director；Seika Nakatsuji（剑盾 UI Planning）→ UI Designer；模型支援 Yuki Yamamoto、Mai Takano、Hideki Iwata、Mari Hamada、Naomi Hara、Jin Sugihara、Shinichi Yoshikawa（Ditto Model Designers）。",
+    "confidence": "high"
+   },
+   {
+    "title": "最强的“未公布企划”信号：朱紫 DLC 完成后，Field Planning + 3D Map Graphics + Game Programming 整组没进 Z-A / Champions / Pokopia",
+    "evidence": "零之秘宝为最后一作、之后无任何外传：企划 Kazuki Muroi(8 作 2012–)、Yohei Asaoka(7 作)、Ryota Muranaka(Main Scenario)、Hiroyuki Namiki、Yuko Shoji、Keita Yamamoto、Rika Tanehashi、Yuto Takahashi；3D 地图 Sawako Okada、Ryotaro Oto、Hayato Endo、Rin Nakayama、Shinichiro Tsukada、Miho Ujiie、Yukiko Nakai、Honoka Ushijima、Manami Aritaka、Tetta Igarashi + 6 名 2022 入社者；程序 Yu Muto、Yuya Fukushima、Naoki Sugawara、Fang Yicheng + 11 名 2022 入社者 + 6 名 Event Technical Planning；美术 lead Mayuka Yoshikawa 吉川麻由花(8 作)、Toshimitsu Arai(7 作)、Hiroshi Nakagomi(6 作)、Yuji Kurogi；PM Sumire Aoki、Yuri Yoshizumi、Kanta Koshiba、Shiho Fukunaga、Yuma Takada、Kei Takeuchi、Kenta Suguru；ML lead Keisuke Kamataki。Z-A 从朱紫吸走的是 AI/物理/UI/事件/战斗，却没有任何 Field Planning 或 3D Map Graphics 的人。",
+    "confidence": "medium"
+   },
+   {
+    "title": "朱紫的一整套 Section Director 层在 2022-11 交付后同时消失且无外传去向，很可能是上述整组的主管层",
+    "evidence": "朱紫为最后一作、DLC/Z-A/Champions/Pokopia 均缺席：Hiroyuki Tani 谷博行(Plan^ Planning SD)、Maiko Fujiwara 藤原麻衣子(Art^ 3D Graphics SD，9 作 2009–)、Shun Yamashita(Prog^ AI SD)、Daiki Tanaka(Prog^ Physics)、Kensaku Sanda(Art^ UI Art Director)、Hiroto Ito 伊藤博人(Plan* Battle Logic，7 作 2010–)、Erika Kuga 久我絵理佳(Art* UI，6 作)、Atsushi Imura(Plan* UI Planning)、Hiroki Shintani(Prog* Battle System)、Kota Furushima(Sound* Sound Manager)。Takao Unno 海野隆雄（Art^→零之秘宝 Mgmt* Group Leader→Z-A Mgmt* Project Managers→Champions 缺席）可能同属。替代解释为离职。",
+    "confidence": "medium"
+   },
+   {
+    "title": "阿尔宙斯的程序核心整组在 2022 年后 4 年空白，不在 Pokopia 或任何外传",
+    "evidence": "阿尔宙斯为最后一作：Masayuki Onoue 尾上将之(Prog^ Programming SD，6 作 2010–)、Syo Araki(Dir^ Environment SD)、Yuya Ikeuchi(曾任 LGPE Field Programming SD)、Koji Kawada(8 作)、Katsumi Ōno 大野克己(10 作 2006–)、Hiroyuki Nakamura(15 作 2002–)、Junya Ikuta(7 作)、Takashi Arai、Takumi Harada、Junsei Kuninobu、Masataka Hata 畠祐貴(Art* Character Motion，6 作)、Hitomi Ogawa(Art* Effects)。4 年不署名对 GF 而言过长，更像离职或转入不署名的引擎/原创企划研发（阿尔宙斯已有 Environment Section / Research & Development Partners 岗位）。",
+    "confidence": "low"
+   },
+   {
+    "title": "领导层升迁主线：Ohmori 升 General Producer 统管三线，Ichiraku 五作从 lead 升到 Producer，Iwao 走“系列参数”线后回任 Champions Game Director",
+    "evidence": "Ohmori 大森滋：LGPE Produced By→剑盾 Director→阿尔宙斯 Producers→朱紫 Director→零之秘宝 Producers→Z-A General Producers→Champions General Producers（Pokopia Concept & Senior Director）。Ichiraku 一楽克彦：剑盾 Prog* Network Programming→朱紫 Prog^ Game Programming & UI SD→零之秘宝 Dir! Directors→Z-A Dir! Producers→Champions Producers。Iwao 岩尾和昌：USUM Director→剑盾 Plan^ Planning SD→阿尔宙斯 Director→零之秘宝 Plan World, Pokémon & Human Planning→Z-A Other* Pokémon Attribute Team→Champions Game Director。Tochigi 栃木遥：LGPE Art 3D Map→阿尔宙斯 Art^ CG Director→朱紫/零之秘宝 3D Visual SD→Z-A Dir! Director。Tomoya Takahashi 高橋友也：剑盾 Prog^→阿尔宙斯 Dir! R&D Director→朱紫/零之秘宝 Prog^ System Programming SD→Z-A Programming Section Supervisor→Champions Supervisors（两线都挂名的公司级技术负责人）。",
+    "confidence": "high"
+   },
+   {
+    "title": "双团队并行早在 2017–2018 就存在：USUM 团队整体跳过 Let's Go 直接做剑盾，Let's Go 由 Masuda 带回归老兵完成",
+    "evidence": "LGPE 缺席→剑盾回归 69 人：Iwao、Morimoto、Tomoya Takahashi、Nakatsui 中津井優、Ibe、Anazawa、Ichiraku、Ujiie、Nakahiro、Hata、Tani、Kuninobu、Ichinose 一之瀬剛、Matsumiya 松宮稔展、Adachi 足立美奈子、James Turner。LGPE 回归 40 人含 Masafumi Saitō 斉藤優史（上次 ORAS Plan^→LGPE Plan^ Planning SD，之后再没出现）、Nagihashi/Ikeuchi/Onoue/Tamada（上次 SM）、Kageyama 景山将太（上次 ORAS）。",
+    "confidence": "high"
+   },
+   {
+    "title": "Nintendo 制作人层在剑盾后退出正传名单，只剩 GP 级挂名；TPC 制作人席位持续扩张",
+    "evidence": "Hitoshi Yamagami 山上仁志(16 作 1998–)、Mikiko Oohashi 大橋美紀子(18 作)、Shin Uwai 上井伸 最后一作均为剑盾；Shinya Takahashi 高橋伸也 仍为 General Producers 至 Champions。TPC 侧 Kinashi 木梨玲、Sowa 曽羽孝則 七作全勤，Kenji Endo 遠藤憲司（剑盾 Mgmt Coordinators↑阿尔宙斯 Producers）、Toyokazu Nonaka 野中豊和（阿尔宙斯起）、Shinya Saito（零之秘宝起）加入；五人外传履历均为 TPC 出品。",
+    "confidence": "high"
+   },
+   {
+    "title": "零之秘宝（2023）新设 Project Management 层，Art 部门主管被调入 PM",
+    "evidence": "新人直接带 lead 9 人中 8 人属 Project Management：Yūichirō Mori Group Manager（此前四作仅 Special Thanks）、Shota Moriguchi、Hiroyuki Yoshii、Kenta Suguru（Project Managers）、Chisato Tazawa、Yoji Asano、Kei Takeuchi（Group Leaders）；Takao Unno 海野隆雄 Art^ Pokémon 3D Visual & VFX SD ↓ Mgmt* Group Leader，Ayane Morita、Sumire Aoki、Tsuyoshi Ichikawa、Yuji Ashikawa、Yuma Takada、Yuri Yoshizumi 从 Mgmt/Art 升 Mgmt* Group Leaders。Mgmt 人数 29→34→40。",
+    "confidence": "high"
+   },
+   {
+    "title": "剑盾起大规模美术外包与固定宝可梦模型群体是 Art 人数暴涨的主因",
+    "evidence": "剑盾 Art 243（LGPE 98）：Silver Ant PPI Sdn. Bhd. 以“3D Graphics Section Cooperative Companies”入列，外籍建模师 Chua Pei San、Liew Hoi Leong、Suresh Kumar、Prakhar Bhatnagar、Dhavanessh Soundararajan 仅出现于剑盾；阿尔宙斯起约 80 名 Pokémon Character Modeling/Motion 人员（Ai Yuda、Asami Hamamori、Kento Nishimatsu 等“4 作 2022–”）四作全勤、Champions 全缺席；Kojiro VFX Design（3 作）、SPARK CREATIVE、クリーク・アンド・リバー社 作为协力公司入列。",
+    "confidence": "high"
+   },
+   {
+    "title": "Kensaku Nabana 的“隔作缺席”模式可作为新线起点的标尺",
+    "evidence": "Nabana 菜花健作：LGPE Art* 3D Map Graphics → 剑盾 Plan Pokémon Design → 阿尔宙斯缺席 → 朱紫 Art 3D Map Graphics → 零之秘宝缺席 → Z-A Art 3D Map Graphics Team；每次都在上一作交付时立刻转到下一部正传级作品。",
+    "confidence": "medium"
+   }
+  ],
+  "data_issues": [
+   "Champions 公司前缀整体错位：Ishihara、Tajiri、Furukawa、Ohmori 大森滋、Kinashi、Sowa、Ichiraku 一楽克彦、Endo、Nonaka、Shinya Saito、Utsunomiya、Shinya Takahashi 全被记为 “The Pokémon Company International / …”；Ken Sugimori、Tetsuya Watanabe、Tomoya Takahashi 的 “Supervisors” 因此归 Loc/QA^。Ohmori、Ichiraku、Sugimori、Watanabe、Takahashi 是 Game Freak。",
+   "Pokopia 公司前缀同样错位：Sugimori/Tetsuya Watanabe 成 “Nintendo / Supervisors”；Ohmori 同时有 “Nintendo / General Producers”(Dir) 与 “Concept & Senior Director”(被归 Art，role_ja 却是ゼネラルプロデューサー) 两条。",
+   "World Concept Section（剑盾）、Design & World Concept / Concept Art（朱紫、Champions Planning & Supervision 的 Icon/Costume Design）归 Plan，而阿尔宙斯 Concept & Design Section、零之秘宝 Concept Art 归 Art：造成 Plan 73/120 假尖峰，Emi Ando、Fumie Kittaka、Hironobu Yoshida、Kyoko Abe、Misaki Hashimoto、Tomomi Kaneko、Seimi Ohshiro、Huang Tzu En、Atsuko Nishida、Hitoshi Ariga、Take、Sakiko Maeda、Megumi Mizutani、Yusuke Ohmura 逐作 Plan↔Art 翻转。建议按叶子职务统一归 Art 或新设 Design 类。",
+   "程序团队归 Other：Z-A/零之秘宝的 Pokémon Attribute Team、Communication Features Team、Library Team、Trinity Team、Simulation Team、Workflow Team、DCC Environment Development Team、Machine Learning Team，阿尔宙斯 Kanamaru 的 “Other* Environment Section / Environment Development Team”，应归 Prog；Z-A “UI Team” 的 Nagihashi、Tetsuji Ōta、Masayuki Kawabata、Yusaku Koda、Masayuki Mitsueda（程序/企划）被归 Art。Z-A Prog=42、Other=24 因此失真。",
+   "GF 内部 QA 归 Loc/QA：Pokémon Model QA / Pokémon Modeling Quality Assurance / Pokémon Data QA / Quality Assurance System Team（Takafumi Misawa、Rie Tatsuno、Tetsuya Nakajima、Mayu Okutani、Takashi Sakuma、Lee HyunJung、Miyuki Ebizuka、Yutan Cheng、Keitaro Akahori、Kiyoe Hayashi、Isao Kakuuchi、Katsuya Ohgami、Hirofumi Suzuki、Daiki Takano）是 GF 人员，不是 Nintendo/TPCi 本地化。",
+   "Debug 与 Loc/QA 边界不一致：NOA 的 “North American Testing / Testing (The Americas)” 归 Debug，同一批人在别作的 “NOA Product Testing / English Product Testing” 归 Loc/QA（Kathy Huguenard、Kentaro Nishimura、Kirk Buchanan、Pat Wells、Miyuki Matsunaga、Makiko Szolas、James Dillon、Product Testing Technicians），制造假的类别变动。",
+   "非人条目被当作人：Silver Ant PPI Sdn. Bhd.、Kojiro VFX Design、Kurieitibusutajio Kuriikuandoribaasha（クリエイティブスタジオ クリーク・アンド・リバー社）、SPARK CREATIVE、DIGITAL Hearts、Product Testing Technicians、“French Editing”（职务名）。",
+   "同人拆分：Shinya Takahashi（高橋伸也）与 “Shiniya Takahashi”（剑盾拼错，导致其在剑盾“缺席”并被计为一名新 Dir!）；Alina Linnenweber / Alina Linneweber；Ben Howard-Hale / Ben-Howard-Hale。",
+   "名字字段污染：残留 “*”（Kathy Huguenard*、Joel Simon*、Elena Nardo*、Tomoko Mikami*、Stefania Montagnese*、Masami Tanaka*、Atsushi Sugimoto*）；kanji 字段漏进 Wikipedia 链接前缀（“w:高橋伸也 (ゲームクリエイター)”、“w:とみさわ昭仁”）；罗马字漏进链接消歧词（“Mana geemufuriiku Ibe”=井部真那、“Tanaka hirokazu Sakuhenkyoku”=田中宏和(作編曲)）。",
+   "同名异人疑似过度合并：Hitomi Satō 佐藤仁美（剑盾→Z-A Composers vs LGPE “Plan Scenario”、Pokopia “Scenario Planner”）；Motoki Nakajima（GF Debug Management 14 作 vs LGPE “Plan Data Design”、Pokopia “Nintendo / Testing (The Americas)”）；Tanaka hirokazu（作曲家田中宏和 vs 零之秘宝 “Other Workflow Team”）；Yuya Watanabe（阿尔宙斯 Story Team vs Champions “ILCA,Inc. / Game Planners”）。Kojiro Matsuyama 与 “Kojiro VFX Design” 可能是同一人（个人转公司），需并表。",
+   "英日职务出入：Z-A 的 Keiichi Maezawa、Shinya Goto、Masashi Kida 英页 “Directors”（记 Dir!）实为日页 “CGテクノロジーラボ / ディレクター”，与 Tochigi 的 Director 不同级；Kazumasa Iwao Z-A “Pokémon Attribute Team” 日页为 “ポケモンシリーズQA / ポケモンパラメータチーム”；Ohmori LGPE “Produced By” 与其他作 “Producers” 同职不同措辞。",
+   "级别标尺把 DLC Director 与正传 Director 同级：Rei Murayama 零之秘宝 Dir! → Z-A Plan^ 被记为 ↓，实为 DLC 总监转正传企划部主管；Jun'ichi Masuda 零之秘宝 Dir! General Producers 被记为从 Dir^ ↑。",
+   "大小写/姓名顺序不一致有重复风险：SAKURAI Yuki、MIYAGUCHI TOMOHIRO、TANAKA KENTARO、ROMANOV HIGA、keisuke asaba、Iwanaga Shotaro、Ishizuka Masaya、Tamaki Satoshi、Umemura Eiju、Dahms Nicholas、Sung Jinyoung；拼写错误：Sususmu Fukunaga（Susumu）、Kenijro Ito（Kenjiro）、Jesūs Gutiérrez Cuadra（Jesús）、Takahiro O-nishi（Ōnishi）。",
+   "Yuki Yamamoto 山本裕輝 LGPE “Technical Art” 归 Prog、剑盾 “Pokémon Design” 归 Plan、阿尔宙斯起归 Art：Technical Art 类别归属需统一。"
+  ],
+  "people_to_verify": [
+   "Hitomi Satō（佐藤仁美）——作曲家与 LGPE Scenario / Pokopia Scenario Planner 是否同一人",
+   "Motoki Nakajima——GF Debug Management 与 Pokopia “Nintendo / Testing (The Americas)” 是否同一人；LGPE “Plan Data Design” 是否误并",
+   "Tanaka hirokazu Sakuhenkyoku（田中宏和）——作曲家与零之秘宝 Workflow Team 的田中宏和是否同一人",
+   "Yuya Watanabe——阿尔宙斯 Story Team 与 Champions ILCA Game Planners 是否同一人（GF→ILCA 转职或同名）",
+   "Shinya Takahashi（高橋伸也）/ Shiniya Takahashi——确认剑盾拼写并合并",
+   "Kojiro Matsuyama 与 Kojiro VFX Design——是否为同一人的个人/公司名义",
+   "Mana geemufuriiku Ibe（井部真那）——清理罗马字，确认读音 Mana Ibe",
+   "James Turner（ジェイムス・ターナー）——朱紫后无任何署名，核对是否已公开离职",
+   "Kōji Nishino（西野弘二）——1996 年起 22 作，朱紫后连 Thanks 都没有，核对退休/离职",
+   "Hiroyuki Tani（谷博行）、Maiko Fujiwara（藤原麻衣子）、Shun Yamashita、Hiroto Ito（伊藤博人）、Erika Kuga（久我絵理佳）——朱紫后同时消失的 Section Director 层，核对是否在职",
+   "Masayuki Onoue（尾上将之）、Syo Araki、Yuya Ikeuchi、Katsumi Ōno（大野克己）、Hiroyuki Nakamura——阿尔宙斯后 4 年空白的程序核心，核对是否在职",
+   "Masaaki Hoshino（星野正昭）、Atsushi Numata、Yuichi Ueda（植田祐一）——Champions 无公司前缀开发块的所属公司",
+   "Tetsuya Watanabe（渡辺哲也）——1996 年起程序员，剑盾起 General Producers 的身份（GF 董事?）待核",
+   "Kenji Endo（遠藤憲司）——剑盾 Mgmt Coordinators 一步升 Producers，确认为 TPC 而非 GF",
+   "Yūichirō Mori——四作 Special Thanks 后任 Project Management Group Manager，核对所属（GF 管理部门?）",
+   "Takao Unno（海野隆雄）——Champions 缺席、Z-A 为 Project Manager，核对现职"
+  ]
+ }
+]

@@ -1,0 +1,41 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Team_Turbo
+slug: team-turbo
+title: Staff of Pokémon Team Turbo
+work: null
+year: 2005
+developer: ImaginEngine Corp
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Team_Turbo
+count: 10
+sections:
+- path:
+  - Technical Director
+  names:
+  - name: Randall Sanborn
+- path:
+  - Executive Producer
+  names:
+  - name: Bridget Erdmann
+- path:
+  - Producer
+  names:
+  - name: Richard Yasi
+- path:
+  - Game design
+  names:
+  - name: Randall Sanborn
+  - name: Bridget Erdmann
+  - name: Richard Yasi
+- path:
+  - System architect
+  names:
+  - name: Brian Weed
+- path:
+  - Engineering
+  names:
+  - name: Fred Nespoulous
+- path:
+  - Art
+  names:
+  - name: Aubrey Ankrum
+  - name: Mat Matera

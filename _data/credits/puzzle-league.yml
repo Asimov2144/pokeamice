@@ -1,0 +1,843 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_League + https://wiki.pokemonwiki.com/wiki/Pokémon_Puzzle_Leagueのスタッフクレジット
+slug: puzzle-league
+title: Staff of Pokémon Puzzle League
+work: null
+year: 2000
+developer: Nintendo Software Technology
+core: false
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Puzzle_League
+count: 203
+source_ja: https://wiki.pokemonwiki.com/wiki/Pokémon_Puzzle_Leagueのスタッフクレジット
+ja_alignment:
+  ja_total: 174
+  ja_matched: 172
+  ja_positional: 7
+  ja_only_added: 0
+sections:
+- path:
+  - Original Puzzle Game Concept
+  names:
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Toshitaka Muramatsu
+    ja: Toshitaka Muramatsu
+    ja_match: romaji
+  ja_role: Original Puzzle Game Concept
+- path:
+  - Creative Director Producer
+  names:
+  - name: Yukimi Shimura
+    ja: Yukimi Shimura
+    ja_match: romaji
+  ja_role: Game Design/Direction / Creative Director Producer
+- path:
+  - Game Designers
+  names:
+  - name: Bill Giese
+    ja: Bill Giese
+    ja_match: romaji
+  - name: Brett Ballow
+    ja: Brett Ballow
+    ja_match: romaji
+  - name: A.J. Redmer
+    ja: A.J. Redmer
+    ja_match: romaji
+  ja_role: Game Design/Direction / Game Designers
+- path:
+  - Game Design Assistants
+  names:
+  - name: Keith Souhrada
+    ja: Keith Souhrada
+    ja_match: romaji
+  - name: Kyle Carlson
+    ja: Kyle Carlson
+    ja_match: romaji
+  ja_role: Game Design/Direction / Game Design Assistants
+- path:
+  - Puzzle Creators
+  names:
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  - name: Brett Ballow
+    ja: Brett Ballow
+    ja_match: romaji
+  - name: Kyle Carlson
+    ja: Kyle Carlson
+    ja_match: romaji
+  - name: Jeffrey Storbo
+    ja: Jeffrey Storbo
+    ja_match: romaji
+  - name: Tom Hertzog
+    ja: Tom Hertzog
+    ja_match: romaji
+  - name: David Hunziker
+    ja: David Hunziker
+    ja_match: romaji
+  - name: Nicko Gonzalez
+    ja: Nicko Gonzalez
+    ja_match: romaji
+  - name: Todd Buechele
+    ja: Todd Buechele
+    ja_match: romaji
+  - name: Robin Clark
+    ja: Robin Clark
+    ja_match: romaji
+  - name: Brent Clearman
+    ja: Brent Clearman
+    ja_match: romaji
+  - name: Bill Giese
+    ja: Bill Giese
+    ja_match: romaji
+  - name: Keith Souhrada
+    ja: Keith Souhrada
+    ja_match: romaji
+  ja_role: Game Design/Direction / Puzzle Creators
+- path:
+  - Technical Director
+  names:
+  - name: Claude Comair
+    ja: Claude Comair
+    ja_match: romaji
+  ja_role: Engineering / Technical Director
+- path:
+  - Programmers
+  names:
+  - name: Stephen Lee
+    ja: Stephen Lee
+    ja_match: romaji
+  - name: Robert Champagne
+    ja: Robert Champagne
+    ja_match: romaji
+  - name: Yoonjoon Lee
+    ja: Yoonjoon Lee
+    ja_match: romaji
+  ja_role: Engineering / Programmers
+- path:
+  - Sound Programmers
+  names:
+  - name: Rory Johnston
+    ja: Rory Johnston
+    ja_match: romaji
+  - name: Emory Georges
+    ja: Emory Georges
+    ja_match: romaji
+  ja_role: Engineering / Sound Programmers
+- path:
+  - Consultants
+  names:
+  - name: Toshihiro Nishii
+    ja: Toshihiro Nishii
+    ja_match: romaji
+  - name: Shinya Yamamoto
+    ja: Shinya Yamamoto
+    ja_match: romaji
+  ja_role: Engineering / Consultants
+- path:
+  - Support Engineers
+  names:
+  - name: David Gallarda
+    ja: David Gallarda
+    ja_match: romaji
+  - name: Samir Abou-Samra
+    ja: Samir Abou-Samra
+    ja_match: romaji
+  - name: Scott Bassett
+    ja: Scott Bassett
+    ja_match: romaji
+  - name: Jun Pan
+    ja: Jun Pan
+    ja_match: romaji
+  - name: Sun Tjen Fan
+    ja: Sun Tjen Fan
+    ja_match: romaji
+  - name: Yan Ly
+    ja_match: positional
+    ja: Van Ly
+  ja_role: Engineering / Support Engineers
+- path:
+  - Art Directors
+  names:
+  - name: Mike Harrington
+    ja: Mike Harrington
+    ja_match: romaji
+  - name: Raymond Yan
+    ja: Raymond Yan
+    ja_match: romaji
+  ja_role: Art / Art Directors
+- path:
+  - Lead Artist
+  names:
+  - name: Mark Trono
+    ja: Mark Trono
+    ja_match: romaji
+  ja_role: Art / Lead Artist
+- path:
+  - Production Artists
+  names:
+  - name: Michelle Lu
+    ja: Michelle Lu
+    ja_match: romaji
+  - name: Emerson H. Lavadia
+    ja: Emerson H. Lavadia
+    ja_match: romaji
+  - name: Michael Yuki
+    ja: Michael Yuki
+    ja_match: romaji
+  - name: Ronald Lamont Hall
+    ja: Ronald Lamont Hall
+    ja_match: romaji
+  - name: Lawrence Ruelos
+    ja: Lawrence Ruelos
+    ja_match: romaji
+  - name: Steve Petofalyi
+    ja_match: positional
+    ja: Steve Petofalvi
+  - name: Jack Snowden
+    ja: Jack Snowden
+    ja_match: romaji
+  ja_role: Art / Production Artists
+- path:
+  - Cleanup Artists
+  names:
+  - name: Steve Meahan
+    ja: Steve Meahan
+    ja_match: romaji
+  - name: Marco Falsitta
+    ja: Marco Falsitta
+    ja_match: romaji
+  - name: John Luchak
+    ja: John Luchak
+    ja_match: romaji
+  - name: Scott Lubker
+    ja: Scott Lubker
+    ja_match: romaji
+  - name: Ryan Rivera
+    ja: Ryan Rivera
+    ja_match: romaji
+  - name: Ryan Leeper
+    ja: Ryan Leeper
+    ja_match: romaji
+  - name: David Tran
+    ja: David Tran
+    ja_match: romaji
+  - name: Roland Dela Cuesta
+    ja: Roland Dela Cuesta
+    ja_match: romaji
+  ja_role: Art / Cleanup Artists
+- path:
+  - Concept Artists
+  names:
+  - name: Ken Christiansen
+    ja: Ken Christiansen
+    ja_match: romaji
+  - name: Adi Granov
+    ja: Adi Granov
+    ja_match: romaji
+  - name: Mark Trono
+    ja: Mark Trono
+    ja_match: romaji
+  - name: Emerson H. Lavadia
+    ja: Emerson H. Lavadia
+    ja_match: romaji
+  ja_role: Art / Concept Artists
+- path:
+  - Art Interns
+  names:
+  - name: Matt Collins
+    ja: Matt Collins
+    ja_match: romaji
+  - name: Jason Kim
+    ja: Jason Kim
+    ja_match: romaji
+  - name: Brian Labore
+    ja: Brian Labore
+    ja_match: romaji
+  ja_role: Art / Art Interns
+- path:
+  - Original Character Art/Animation Film Production
+  names:
+  - name: Shogakukan Production Co., Ltd.
+    kind: company
+    ja: Shogakukan Production Co., Ltd.
+    kanji: 小学館
+    ja_match: romaji
+  - name: Oriental Light & Magic Inc.
+    kind: company
+    ja_match: positional
+    ja: Oriental Light&Magic Inc.
+  ja_role: Art / Original Character Art/Animation Film Production
+- path:
+  - Audio Director
+  names:
+  - name: Lawrence Schwedler
+    ja: Lawrence Schwedler
+    ja_match: romaji
+  ja_role: Audio / Audio Director
+- path:
+  - Sound Effect Creator
+  names:
+  - name: Ryoji Yoshitomi
+    ja: Ryoji Yoshitomi
+    ja_match: romaji
+  ja_role: Audio / Sound Effect Creator
+- path:
+  - Recording Producers
+  names:
+  - name: Norman Grossfield
+    ja_match: positional
+    ja: Norman Grossfeld
+  - name: Kathy Borland
+    ja: Kathy Borland
+    ja_match: romaji
+  ja_role: Audio / Recording Producers
+- path:
+  - Music Producer
+  names:
+  - name: John Loeffler
+    ja: John Loeffler
+    ja_match: romaji
+  ja_role: Audio / Music Producer
+- path:
+  - Music Production Coordinator
+  names:
+  - name: Julian Schwars
+    ja_match: positional
+    ja: Julian Schwarz
+  ja_role: Audio / Music Production Coordinator
+- path:
+  - Original Musical Score
+  names:
+  - name: John Siegler
+    ja: John Siegler
+    ja_match: romaji
+  - name: Marry Corallo
+    ja: Marry Corallo
+    ja_match: romaji
+  - name: Louis Cortelezzi
+    ja: Louis Cortelezzi
+    ja_match: romaji
+  - name: Ken Cumminos
+    ja_match: positional
+    ja: Ken Cummings
+  - name: Neil Jason
+    ja: Neil Jason
+    ja_match: romaji
+  - name: Michael Whalen
+    ja: Michael Whalen
+    ja_match: romaji
+  - name: Ralph Schucketit
+    ja_match: positional
+    ja: Ralph Schuckett
+  - name: Brian Steckler
+    ja: Brian Steckler
+    ja_match: romaji
+  - name: Lawrence Schwedler
+    ja: Lawrence Schwedler
+    ja_match: romaji
+  ja_role: Audio / Original Musical Score
+- path:
+  - Testing Director
+  names:
+  - name: Michael Kelbaugh
+    ja: Michael Kelbaugh
+    ja_match: romaji
+  ja_role: Product Testing / Testing Director
+- path:
+  - Testing Supervisor
+  names:
+  - name: Tim Bechtel
+    ja: Tim Bechtel
+    ja_match: romaji
+  ja_role: Product Testing / Testing Supervisor=
+- path:
+  - Testing Coordinator
+  names:
+  - name: Shane Lewis
+    ja: Shane Lewis
+    ja_match: romaji
+  ja_role: Product Testing / Testing Coordinator
+- path:
+  - BTS Coordinator
+  names:
+  - name: Eric Bush
+    ja: Eric Bush
+    ja_match: romaji
+  ja_role: Product Testing / BTS Coordinator
+- path:
+  - Testers
+  names:
+  - name: Brent Clearman
+    ja: Brent Clearman
+    ja_match: romaji
+  - name: Todd Buechele
+    ja: Todd Buechele
+    ja_match: romaji
+  - name: Jeffrey Storbo
+    ja: Jeffrey Storbo
+    ja_match: romaji
+  - name: Tom Hertzog
+    ja: Tom Hertzog
+    ja_match: romaji
+  - name: David Hunziker
+    ja: David Hunziker
+    ja_match: romaji
+  - name: Nicko Gonzalez
+    ja: Nicko Gonzalez
+    ja_match: romaji
+  - name: Robin Clark
+    ja: Robin Clark
+    ja_match: romaji
+  - name: Kiyohoko Ando
+    ja: Kiyohoko Ando
+    ja_match: romaji
+  ja_role: Product Testing / Testers
+- path:
+  - Artist
+  names:
+  - name: Marsha Rollinger
+    ja: Marsha Rollinger
+    ja_match: romaji
+  ja_role: Package/Manual Design / Artist
+- path:
+  - Writer
+  names:
+  - name: Michelle Powers
+    ja: Michelle Powers
+    ja_match: romaji
+  ja_role: Package/Manual Design / Writer
+- path:
+  - Editor
+  names:
+  - name: Leslie Swan
+    ja: Leslie Swan
+    ja_match: romaji
+  ja_role: Package/Manual Design / Editor
+- path:
+  - Licensing Supervisor
+  names:
+  - name: Tsunekaz Ishihara
+    ja: Tsunekaz Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Pokémon Licensors / Licensing Supervisor
+- path:
+  - Licensing Coordinator
+  names:
+  - name: Hiroyuki Jinnai
+    ja: Hiroyuki Jinnai
+    kanji: 陣内弘之
+    ja_match: romaji
+  ja_role: Pokémon Licensors / Licensing Coordinator
+- path:
+  - Pokémon Supervisor
+  names:
+  - name: GAME FREAK, Inc.
+    kind: company
+    ja: GAME FREAK, Inc.
+    ja_match: romaji
+  ja_role: Pokémon Licensors / Pokémon Supervisor
+- path:
+  - Director
+  names:
+  - name: Scott K. Tsumura
+    ja: Scott K. Tsumura
+    ja_match: romaji
+  ja_role: Executive Account / Director
+- path:
+  - Chief Technical Officer
+  names:
+  - name: Claude Comair
+    ja: Claude Comair
+    ja_match: romaji
+  ja_role: Executive Account / Chief Technical Officer
+- path:
+  - General Manager
+  names:
+  - name: Mike Fukuda
+    ja: Mike Fukuda
+    ja_match: romaji
+  ja_role: Executive Account / General Manager
+- path:
+  - Producer
+  names:
+  - name: Takehiro Izushi
+    ja: Takehiro Izushi
+    ja_match: romaji
+  ja_role: Executive Account / Producer
+- path:
+  - Project Supervisor
+  names:
+  - name: Gail Tilden
+    ja: Gail Tilden
+    ja_match: romaji
+  ja_role: Executive Account / Project Supervisor
+- path:
+  - Executive Producer
+  names:
+  - name: Minoru Arakawa
+    ja: Minoru Arakawa
+    ja_match: romaji
+  ja_role: Executive Account / Executive Producer
+- path:
+  - NCL Super Mario Club
+  names:
+  - name: Hifumi Miyazaki
+    ja: Hifumi Miyazaki
+    ja_match: romaji
+  - name: Tomoharue Hizakae
+    ja: Tomoharue Hizakae
+    ja_match: romaji
+  - name: Tomataka Murata
+    ja: Tomataka Murata
+    ja_match: romaji
+  - name: Keisuke Murakami
+    ja: Keisuke Murakami
+    ja_match: romaji
+  - name: Tomoko Yuasa
+    ja: Tomoko Yuasa
+    ja_match: romaji
+  - name: Takeshi Nishizawa
+    ja: Takeshi Nishizawa
+    ja_match: romaji
+  - name: Yasuhiro Takahashi
+    ja: Yasuhiro Takahashi
+    ja_match: romaji
+  - name: Masahumi Hirano
+    ja: Masahumi Hirano
+    ja_match: romaji
+  - name: Kousuke Yamamoto
+    ja: Kousuke Yamamoto
+    ja_match: romaji
+  - name: Toshiaki Suzuki
+    ja: Toshiaki Suzuki
+    ja_match: romaji
+  - name: Kanako Fujisawa
+    ja: Kanako Fujisawa
+    ja_match: romaji
+  - name: Sei Sato
+    ja: Sei Sato
+    ja_match: romaji
+  - name: Teruko Shigeyama
+    ja: Teruko Shigeyama
+    ja_match: romaji
+  - name: Yoshihiro Maruyama
+    ja: Yoshihiro Maruyama
+    ja_match: romaji
+  - name: Hisashi Takizaki
+    ja: Hisashi Takizaki
+    ja_match: romaji
+  - name: Yayoi Yagi
+    ja: Yayoi Yagi
+    ja_match: romaji
+  - name: Yuhei Adachi
+    ja: Yuhei Adachi
+    ja_match: romaji
+  - name: Kazuhito Kawashima
+    ja: Kazuhito Kawashima
+    ja_match: romaji
+  - name: Kazuyo Ikeda
+    ja: Kazuyo Ikeda
+    ja_match: romaji
+  - name: Kouzo Uchida
+    ja: Kouzo Uchida
+    ja_match: romaji
+  - name: Hiroki Miyoshi
+    ja: Hiroki Miyoshi
+    ja_match: romaji
+  - name: Kouchi Torii
+    ja: Kouchi Torii
+    ja_match: romaji
+  - name: Akira Yano
+    ja: Akira Yano
+    ja_match: romaji
+  - name: Hideki Katsui
+    ja: Hideki Katsui
+    ja_match: romaji
+  - name: Masataka Shimatani
+    ja: Masataka Shimatani
+    ja_match: romaji
+  - name: Akira Ito
+    ja: Akira Ito
+    ja_match: romaji
+  - name: Ikuko Kuroda
+    ja: Ikuko Kuroda
+    ja_match: romaji
+  - name: Ryosuke Yamada
+    ja: Ryosuke Yamada
+    ja_match: romaji
+  - name: Toshimune Hosoi
+    ja: Toshimune Hosoi
+    ja_match: romaji
+  - name: Noriaki Tsujimoto
+    ja: Noriaki Tsujimoto
+    ja_match: romaji
+  - name: Mika Kawakita
+    ja: Mika Kawakita
+    ja_match: romaji
+  - name: Takaaki Kodera
+    ja: Takaaki Kodera
+    ja_match: romaji
+  - name: Yasuyo Eguchi
+    ja: Yasuyo Eguchi
+    ja_match: romaji
+  ja_role: NGL Super Mario Club
+- path:
+  - Special Thanks
+  names:
+  - name: Satoru Iwata
+    ja: Satoru Iwata
+    kanji: 岩田聡
+    ja_match: romaji
+  - name: Hiroshi Momose
+    ja: Hiroshi Momose
+    ja_match: romaji
+  - name: Hiromi Tsuji
+    ja: Hiromi Tsuji
+    ja_match: romaji
+  - name: Melinda Porter
+    ja: Melinda Porter
+    ja_match: romaji
+  - name: Hiro Nakamura
+    ja: Hiro Nakamura
+    ja_match: romaji
+  - name: Tim Walker
+    ja: Tim Walker
+    ja_match: romaji
+  - name: Kamon Yoshimura
+    ja: Kamon Yoshimura
+    ja_match: romaji
+  - name: Jan Hannaford
+    ja: Jan Hannaford
+    ja_match: romaji
+  - name: Chris Campbell
+    ja: Chris Campbell
+    ja_match: romaji
+  - name: Ashura Benimaru Itoh
+    ja: Ashura Benimaru Itoh
+    kanji: 伊藤紅丸
+    ja_match: romaji
+  - name: Koichi Koyasu
+    ja: Koichi Koyasu
+    ja_match: romaji
+  - name: Shoji Ota
+    ja: Shoji Ota
+    ja_match: romaji
+  - name: Kimiko Nakamichi
+    ja: Kimiko Nakamichi
+    ja_match: romaji
+  - name: Masaru Tajima
+    ja: Masaru Tajima
+    ja_match: romaji
+  - name: Yoshiyuki Kato
+    ja: Yoshiyuki Kato
+    ja_match: romaji
+  - name: Genyou Takeda
+    ja: Genyou Takeda
+    ja_match: romaji
+  - name: Junichiro Tsuchiya
+    ja: Junichiro Tsuchiya
+    ja_match: romaji
+  - name: Takemoto Mori
+    ja: Takemoto Mori
+    ja_match: romaji
+  - name: Sara Osborne
+    ja: Sara Osborne
+    ja_match: romaji
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Ken Lobb
+    ja: Ken Lobb
+    ja_match: romaji
+  - name: Steve Bolender
+    note: American version
+    ja: Steve Bolender
+    ja_match: romaji
+  - name: Andy Hieke
+    ja: Andy Hieke
+    ja_match: romaji
+  - name: Emiko Smith
+    ja: Emiko Smith
+    ja_match: romaji
+  - name: Taku Sakuma
+    ja: Taku Sakuma
+    ja_match: romaji
+  - name: Toshiaki Okuno
+    ja: Toshiaki Okuno
+    ja_match: romaji
+  - name: Kentaro Nishimura
+    ja: Kentaro Nishimura
+    ja_match: romaji
+  - name: Tomoyoshi Yamane
+    ja: Tomoyoshi Yamane
+    ja_match: romaji
+  - name: Kouichi Nakada
+    ja: Kouichi Nakada
+    ja_match: romaji
+  - name: Hiroko Sugino
+    note: European version
+  - name: Hiroyuki Uesugi
+    note: European version
+  - name: Media Factory
+    kind: company
+    ja: Media Factory
+    ja_match: romaji
+  - name: 4 Kids Production
+    kind: company
+    ja: 4 Kids Production
+    ja_match: romaji
+  - name: Intelligent Systems Co.Ltd.
+    kind: company
+    ja: Intelligent Systems Co.Ltd.
+    ja_match: romaji
+  - name: NCL, R & D 1 Group
+    kind: company
+    ja: NCL, R & D 1 Group
+    ja_match: romaji
+  - name: NOA, Mario Club
+    kind: company
+    ja: NOA, Mario Club
+    ja_match: romaji
+  - name: NOA, Treehouse
+    ja: NOA, Treehouse
+    ja_match: romaji
+  - name: NOA, Pokémon Team
+    kind: company
+    ja: NOA, Pokémon Team
+    ja_match: romaji
+  - name: Nintendo Power Magazine
+    kind: company
+    ja: Nintendo Power Magazine
+    ja_match: romaji
+  - name: Digipen Corporation
+    kind: company
+    ja: Digipen Corporation
+    ja_match: romaji
+  - name: Digipen Institute of Technology
+    kind: company
+    ja: Digipen Institute of Technology
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - French and German Localization Teams (NOE)
+  - Manager
+  names:
+  - name: Kai Zeh
+- path:
+  - French and German Localization Teams (NOE)
+  - Assistant Manager
+  names:
+  - name: Kai Neumann
+- path:
+  - French and German Localization Teams (NOE)
+  - Product Coordinator
+  names:
+  - name: Andreas Fay
+- path:
+  - French and German Localization Teams (NOE)
+  - Supervisor Localization
+  names:
+  - name: Tanja Baar
+- path:
+  - French and German Localization Teams (NOE)
+  - Test Supervisor
+  names:
+  - name: Maurice Tisdale
+- path:
+  - French and German Localization Teams (NOE)
+  - Remote Test Supervisor
+  names:
+  - name: Sigi Hugel
+    note: French version
+- path:
+  - French and German Localization Teams (NOE)
+  - French Testers
+  names:
+  - name: Pierre Sanchez
+  - name: Steven Arhan
+- path:
+  - French and German Localization Teams (NOE)
+  - French Translators
+  names:
+  - name: Nicolas Robert
+  - name: Daniel Charbit
+- path:
+  - French and German Localization Teams (NOE)
+  - German Testers
+  names:
+  - name: Frank Unterweger
+  - name: Chris Strauß
+- path:
+  - French and German Localization Teams (NOE)
+  - German Translators
+  names:
+  - name: Martina Deimel
+  - name: Jan Peitzmeier
+- path:
+  - French and German Localization Teams (NST)
+  - Localization Producer
+  names:
+  - name: Yukimi Shimura
+- path:
+  - French and German Localization Teams (NST)
+  - Coordinator
+  names:
+  - name: Steve Bolender
+- path:
+  - French and German Localization Teams (NST)
+  - Lead Programmer
+  names:
+  - name: Robert Champagne
+- path:
+  - French and German Localization Teams (NST)
+  - Programmers
+  names:
+  - name: Stephen Lee
+  - name: Yoonjoon Lee
+- path:
+  - French and German Localization Teams (NST)
+  - Sound Programmer
+  names:
+  - name: Rory Johnston
+- path:
+  - French and German Localization Teams (NST)
+  - Art Director
+  names:
+  - name: Raymond Yan
+- path:
+  - French and German Localization Teams (NST)
+  - Lead Artist
+  names:
+  - name: Jack Snowden
+- path:
+  - French and German Localization Teams (NST)
+  - Artists
+  names:
+  - name: Mark Trono
+  - name: Steven Petfarvi
+  - name: Larry Ruelos
+  - name: Adi Granov
+- path:
+  - French and German Localization Teams (NST)
+  - Audio Director
+  names:
+  - name: Lawrence Schwedler
+- path:
+  - French and German Localization Teams (NST)
+  - Sound Editor
+  names:
+  - name: James Phillipsen
+- path:
+  - French and German Localization Teams (NST)
+  - Recording Producer
+  names:
+  - name: Paul Taylor - 4Kids
+ja_unmatched:
+- kana: Video Compression Software by HVQM / CRIWARE
+  role: Special Thanks
+- kana: Developed by Nintendo Software Technology Corporation
+  role: Special Thanks

@@ -48,7 +48,6 @@ HOME = {
     "宝可梦 太阳·月亮": ["Sun", "Moon"],
     "宝可梦 究极之日·究极之月": ["Ultra_Sun", "Ultra_Moon"],
     "宝可梦 Let's Go！皮卡丘·Let's Go！伊布": ["Let's_Go_Pikachu", "Let's_Go_Eevee"],
-    "宝可梦 Let's Go！皮卡丘/伊布": ["Let's_Go_Pikachu", "Let's_Go_Eevee"],
     "宝可梦 剑·盾": ["Sword", "Shield"],
     "宝可梦传说 阿尔宙斯": ["Legends_Arceus"],
     "宝可梦 晶灿钻石·明亮珍珠": ["Brilliant_Diamond", "Shining_Pearl"],

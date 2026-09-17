@@ -1,0 +1,2283 @@
+# 由 tools/build-credits.py parse 生成，来源 https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sun_and_Moon + https://wiki.pokemonwiki.com/wiki/ポケットモンスター_サン・ムーンのスタッフクレジット
+slug: sun-moon
+title: Staff of Pokémon Sun and Moon
+work: 宝可梦 太阳·月亮
+year: 2016
+developer: Game Freak
+core: true
+source: https://bulbapedia.bulbagarden.net/wiki/Staff_of_Pokémon_Sun_and_Moon
+count: 586
+source_ja: https://wiki.pokemonwiki.com/wiki/ポケットモンスター_サン・ムーンのスタッフクレジット
+ja_alignment:
+  ja_total: 585
+  ja_matched: 585
+  ja_positional: 2
+  ja_only_added: 0
+sections:
+- path:
+  - Director
+  names:
+  - name: Shigeru Ohmori
+    ja: Shigeru Ohmori
+    kanji: 大森滋
+    ja_match: romaji
+  ja_role: Director
+- path:
+  - Program Director
+  names:
+  - name: Sosuke Tamada
+    ja: Sosuke Tamada
+    kanji: 玉田荘介
+    ja_match: romaji
+  ja_role: Program Director
+- path:
+  - Graphics Director
+  names:
+  - name: Takao Unno
+    ja: Takao Unno
+    kanji: 海野隆雄
+    ja_match: romaji
+  ja_role: Graphics Director
+- path:
+  - Planning Director
+  names:
+  - name: Shigeru Ohmori
+    ja: Shigeru Ohmori
+    ja_match: romaji
+  ja_role: Planning Director
+- path:
+  - Digital Movie Design Section Director / Effect Design Section Director
+  names:
+  - name: James Turner
+    ja: James Turner
+    ja_match: romaji
+  ja_role: Digital Movie Design Section Director / Effect Design Section Director
+- path:
+  - UI Graphic Design Section Director
+  names:
+  - name: Hironobu Yoshida
+    ja: Hironobu Yoshida
+    kanji: 吉田宏信
+    ja_match: romaji
+  ja_role: UI Graphic Design Section Director
+- path:
+  - Game Battle System Design Section Director
+  names:
+  - name: Kazumasa Iwao
+    ja: Kazumasa Iwao
+    kanji: 岩尾和昌
+    ja_match: romaji
+  ja_role: Game Battle System Design Section Director
+- path:
+  - Network System Section Director / Game Design Section Director
+  names:
+  - name: Takeshi Kawachimaru
+    ja: Takeshi Kawachimaru
+    kanji: 川内丸武史
+    ja_match: romaji
+  ja_role: Network System Section Director / Game Design Section Director
+- path:
+  - Sound Section Director
+  names:
+  - name: Gō Ichinose
+    ja: Go Ichinose
+    kanji: 一之瀬剛
+    ja_match: romaji
+  ja_role: Sound Section Director
+- path:
+  - Scenario
+  names:
+  - name: Toshinobu Matsumiya
+    ja: Toshinobu Matsumiya
+    kanji: 松宮稔展
+    ja_match: romaji
+  ja_role: Scenario
+- path:
+  - Pokémon Concept & Pokédex Text
+  names:
+  - name: Suguru Nakatsui
+    ja: Suguru Nakatsui
+    kanji: 中津井優
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: Kenji Matsushima
+    kanji: 松島賢二
+    ja_match: romaji
+  - name: Toshinobu Matsumiya
+    ja: Toshinobu Matsumiya
+    ja_match: romaji
+  - name: Masafumi Nukita
+    ja: Masafumi Nukita
+    kanji: 貫田将文
+    ja_match: romaji
+  ja_role: Pokémon Concept & Pokédex Text
+- path:
+  - Field Contents Programming
+  names:
+  - name: Tomoya Takahashi
+    lead: Lead
+    ja: Tomoya Takahashi
+    kanji: 高橋友也
+    ja_match: romaji
+  - name: Junya Ikuta
+    ja: Junya Ikuta
+    ja_match: romaji
+  - name: Kazuki Saita
+    ja: Kazuki Saita
+    ja_match: romaji
+  - name: Yuya Ikeuchi
+    ja: Yuya Ikeuchi
+    ja_match: romaji
+  - name: Soichi Miyachi
+    ja: Soichi Miyachi
+    ja_match: romaji
+  ja_role: Field Contents Programming
+- path:
+  - Event Programming
+  names:
+  - name: Miyuki Iwasawa
+    lead: Lead
+    ja: Miyuki Iwasawa
+    ja_match: romaji
+  - name: Masayuki Onoue
+    ja: Masayuki Onoue
+    kanji: 尾上将之
+    ja_match: romaji
+  - name: Nobutaka Takeda
+    ja: Nobutaka Takeda
+    ja_match: romaji
+  - name: Syo Ohhira
+    ja: Syo Ohhira
+    ja_match: romaji
+  ja_role: Event Programming
+- path:
+  - Field Environment Programming
+  names:
+  - name: Nozomu Saito
+    lead: Lead
+    ja: Nozomu Saito
+    ja_match: romaji
+  - name: Masanori Kanamaru
+    ja: Masanori Kanamaru
+    ja_match: romaji
+  ja_role: Field Environment Programming
+- path:
+  - Pokémon Drawing Programming
+  names:
+  - name: Masateru Ishiguro
+    lead: Lead
+    ja: Masateru Ishiguro
+    ja_match: romaji
+  - name: Naoya Uematsu
+    ja: Naoya Uematsu
+    ja_match: romaji
+  - name: Makoto Takebe
+    ja: Makoto Takebe
+    ja_match: romaji
+  ja_role: Pokémon Drawing Programming
+- path:
+  - Digital System Programming
+  names:
+  - name: Nathanael Peter Yam
+    ja: Nathanael Peter Yam
+    ja_match: romaji
+  ja_role: Digital System Programming
+- path:
+  - Tool Programming
+  names:
+  - name: Syo Araki
+    ja: Syo Araki
+    ja_match: romaji
+  - name: Nathanael Peter Yam
+    ja: Nathanael Peter Yam
+    ja_match: romaji
+  - name: Morihiko Kiryu
+    ja: Morihiko Kiryu
+    ja_match: romaji
+  - name: Toru Nagihashi
+    ja: Toru Nagihashi
+    ja_match: romaji
+  - name: Akihiro Gomi
+    ja: Akihiro Gomi
+    ja_match: romaji
+  ja_role: Tool Programming
+- path:
+  - UI System Programming
+  names:
+  - name: Katsumi Ohno
+    lead: Lead
+    ja: Katsumi Ohno
+    kanji: 大野克己
+    ja_match: romaji
+  - name: Hiroyuki Nakamura
+    ja: Hiroyuki Nakamura
+    ja_match: romaji
+  - name: Koji Kawada
+    ja: Koji Kawada
+    ja_match: romaji
+  - name: Yuya Fukushima
+    ja: Yuya Fukushima
+    ja_match: romaji
+  - name: Yuto Uchida
+    ja: Yuto Uchida
+    ja_match: romaji
+  ja_role: UI System Programming
+- path:
+  - Battle System Programming
+  names:
+  - name: Nobuhiko Ariizumi
+    ja: Nobuhiko Ariizumi
+    ja_match: romaji
+  - name: Toshihiro Obata
+    ja: Toshihiro Obata
+    ja_match: romaji
+  - name: Masao Taya
+    ja: Masao Taya
+    kanji: 田谷正夫
+    ja_match: romaji
+  - name: Satoshi Kijima
+    ja: Satoshi Kijima
+    ja_match: romaji
+  ja_role: Battle System Programming
+- path:
+  - Network Programming
+  names:
+  - name: Shin Kohsaka
+    lead: Lead
+    ja: Shin Kohsaka
+    ja_match: romaji
+  - name: Katsuhiko Ichiraku
+    ja: Katsuhiko Ichiraku
+    kanji: 一楽克彦
+    ja_match: romaji
+  - name: Katsumi Ohno
+    ja: Katsumi Ohno
+    ja_match: romaji
+  - name: Akira Endo
+    ja: Akira Endo
+    ja_match: romaji
+  - name: Yu Muto
+    ja: Yu Muto
+    ja_match: romaji
+  ja_role: Network Programming
+- path:
+  - Pokémon Characters Design
+  names:
+  - name: Yusuke Ohmura
+    lead: Lead
+    ja: Yusuke Ohmura
+    kanji: 大村祐介
+    ja_match: romaji
+  - name: Ken Sugimori
+    ja: Ken Sugimori
+    kanji: 杉森建
+    ja_match: romaji
+  - name: Emi Ando
+    ja: Emi Ando
+    kanji: 安藤絵美
+    ja_match: romaji
+  - name: Hironobu Yoshida
+    ja: Hironobu Yoshida
+    kanji: 吉田宏信
+    ja_match: romaji
+  - name: Mana Ibe
+    ja: Mana Ibe
+    kanji: 井部真那
+    ja_match: romaji
+  - name: Sakiko Maeda
+    ja: Sakiko Maeda
+    kanji: 前田咲子
+    ja_match: romaji
+  - name: Takao Unno
+    ja: Takao Unno
+    kanji: 海野隆雄
+    ja_match: romaji
+  - name: Hiroki Fuchino
+    ja: Hiroki Fuchino
+    kanji: 渕野大樹
+    ja_match: romaji
+  - name: James Turner
+    ja: James Turner
+    ja_match: romaji
+  - name: Kensaku Nabana
+    ja: Kensaku Nabana
+    kanji: 菜花健作
+    ja_match: romaji
+  - name: Haruka Tochigi
+    ja: Haruka Tochigi
+    kanji: 栃木遥
+    ja_match: romaji
+  - name: Hyunjung Lee
+    link: Lee HyunJung
+    ja: Hyunjung Lee
+    kanji: 李ヒョンジョン
+    ja_match: romaji
+  - name: Mayuka Yoshikawa
+    ja: Mayuka Yoshikawa
+    kanji: 吉川麻由花
+    ja_match: romaji
+  - name: Yuki Yamamoto
+    ja: Yuki Yamamoto
+    kanji: 山本裕輝
+    ja_match: romaji
+  - name: Hitoshi Ariga
+    ja: Hitoshi Ariga
+    kanji: ありがひとし
+    ja_match: romaji
+  - name: Atsuko Nishida
+    ja: Atsuko Nishida
+    kanji: にしだあつこ
+    ja_match: romaji
+  - name: Kanako Eo
+    ja: Kanako Eo
+    kanji: 江尾可奈子
+    ja_match: romaji
+  - name: Megumi Mizutani
+    ja: Megumi Mizutani
+    kanji: 水谷恵
+    ja_match: romaji
+  - name: Saya Tsuruta
+    ja: Saya Tsuruta
+    kanji: つるたさや
+    ja_match: romaji
+  - name: Haruko Ichikawa
+    ja: Haruko Ichikawa
+    kanji: 市川春子
+    ja_match: romaji
+  - name: take
+    ja: take
+    kanji: 竹
+    ja_match: romaji
+  ja_role: Pokémon Characters Design
+- path:
+  - Pokémon Design Coordination
+  names:
+  - name: Suguru Nakatsui
+    ja: Suguru Nakatsui
+    ja_match: romaji
+  ja_role: Pokémon Design Coordination
+- path:
+  - Trainer Graphics Design
+  names:
+  - name: Ken Sugimori
+    lead: Lead
+    ja: Ken Sugimori
+    ja_match: romaji
+  - name: Emi Ando
+    ja: Emi Ando
+    ja_match: romaji
+  - name: Yusuke Ohmura
+    ja: Yusuke Ohmura
+    ja_match: romaji
+  - name: Sakiko Maeda
+    ja: Sakiko Maeda
+    ja_match: romaji
+  - name: Yuki Yamamoto
+    ja: Yuki Yamamoto
+    ja_match: romaji
+  - name: Hitomi Imaizumi
+    ja: Hitomi Imaizumi
+    ja_match: romaji
+  - name: Megumi Mizutani
+    ja: Megumi Mizutani
+    ja_match: romaji
+  - name: take
+    ja: take
+    ja_match: romaji
+  - name: Naoki Saito
+    ja: Naoki Saito
+    kanji: さいとうなおき
+    ja_match: romaji
+  - name: Sanosuke Sakuma
+    ja: Sanosuke Sakuma
+    kanji: 佐久間さのすけ
+    ja_match: romaji
+  - name: TOKIYA SAKBA
+    link: TOKIYA
+    ja: TOKIYA SAKBA
+    ja_match: romaji
+  - name: Nagimiso
+    ja: Nagimiso
+    kanji: なぎみそ
+    ja_match: romaji
+  - name: Kanako Omori
+    ja: Kanako Omori
+    ja_match: romaji
+  ja_role: Trainer Graphics Design
+- path:
+  - Illustration Support
+  names:
+  - name: OLM, Inc.
+    link: OLM Incorporated
+    kind: company
+    ja: OLM, Inc.
+    ja_match: romaji
+  ja_role: Illustration Support
+- path:
+  - 3D Map Graphics
+  names:
+  - name: Maiko Fujiwara
+    lead: Lead
+    ja: Maiko Fujiwara
+    kanji: 藤原麻衣子
+    ja_match: romaji
+  - name: Hiroki Fuchino
+    ja: Hiroki Fuchino
+    ja_match: romaji
+  - name: Mana Ibe
+    ja: Mana Ibe
+    ja_match: romaji
+  - name: Haruka Tochigi
+    ja: Haruka Tochigi
+    ja_match: romaji
+  - name: Kensaku Nabana
+    ja: Kensaku Nabana
+    ja_match: romaji
+  - name: Ryoutarou Ohto
+    ja: Ryoutarou Ohto
+    ja_match: romaji
+  - name: Sayaka Ohto
+    ja: Sayaka Ohto
+    ja_match: romaji
+  - name: Sung Jinyoung
+    ja: Sung Jinyoung
+    ja_match: romaji
+  - name: Naoto Yoshinari
+    ja: Naoto Yoshinari
+    ja_match: romaji
+  - name: Mayumi Shigeno
+    ja: Mayumi Shigeno
+    ja_match: romaji
+  - name: Rin Nakayama
+    ja: Rin Nakayama
+    ja_match: romaji
+  - name: Shinichirou Tsukada
+    ja: Shinichirou Tsukada
+    ja_match: romaji
+  - name: Miki Sato
+    ja: Miki Sato
+    ja_match: romaji
+  - name: Sawako Okada
+    ja: Sawako Okada
+    ja_match: romaji
+  - name: Yuki Fujikura
+    ja: Yuki Fujikura
+    ja_match: romaji
+  - name: Arisu Katagiri
+    ja: Arisu Katagiri
+    ja_match: romaji
+  - name: Kazuki Takahashi
+    ja: Kazuki Takahashi
+    ja_match: romaji
+  - name: Hikaru Sameshima
+    ja: Hikaru Sameshima
+    ja_match: romaji
+  - name: Naoki Goda
+    ja: Naoki Goda
+    ja_match: romaji
+  - name: Yuki Inami
+    ja: Yuki Inami
+    ja_match: romaji
+  - name: Naoki Goda
+  - name: Shinya Asanuma
+    ja: Shinya Asanuma
+    ja_match: romaji
+  - name: CREEK & RIVER Co.,Ltd.
+    kind: company
+    ja: CREEK & RIVER Co.,Ltd.
+    ja_match: romaji
+  - name: Digital Works Entertainment
+    kind: company
+    ja: Digital Works Entertainment
+    ja_match: romaji
+  ja_role: 3D Map Graphics
+- path:
+  - Character Modeling
+  names:
+  - name: Tomohiko Ohkubo
+    lead: Lead
+    ja: Tomohiko Ohkubo
+    kanji: 大久保智彦
+    ja_match: romaji
+  - name: Sakiko Maeda
+    ja: Sakiko Maeda
+    ja_match: romaji
+  - name: Yuki Yamamoto
+    ja: Yuki Yamamoto
+    ja_match: romaji
+  - name: Hitomi Imaizumi
+    ja: Hitomi Imaizumi
+    ja_match: romaji
+  - name: Junsei Kuninobu
+    ja: Junsei Kuninobu
+    ja_match: romaji
+  - name: Shinya Komaki
+    ja: Shinya Komaki
+    ja_match: romaji
+  - name: Sachiyo Awata
+    ja: Sachiyo Awata
+    ja_match: romaji
+  - name: Yoshihiro Ohtsuka
+    ja: Yoshihiro Ohtsuka
+    ja_match: romaji
+  - name: Hidenori Tanaka
+    ja: Hidenori Tanaka
+    ja_match: romaji
+  - name: Yukari Hoshi
+    ja: Yukari Hoshi
+    ja_match: romaji
+  - name: Shinobu Ueki
+    ja: Shinobu Ueki
+    ja_match: romaji
+  - name: Mamoru Hitotsuyanagi
+    ja: Mamoru Hitotsuyanagi
+    ja_match: romaji
+  - name: Chihiro Fujii
+    ja: Chihiro Fujii
+    ja_match: romaji
+  - name: Daishi Yanai
+    ja: Daishi Yanai
+    ja_match: romaji
+  - name: Lai Chuan-Ming
+    ja: Lai Chuan-Ming
+    ja_match: romaji
+  - name: Yuusaku Andou
+    ja: Yuusaku Andou
+    ja_match: romaji
+  - name: Syouko Terada
+    ja: Syouko Terada
+    ja_match: romaji
+  - name: Kioka Niimi
+    ja: Kioka Niimi
+    ja_match: romaji
+  - name: Haruyasu Akagi
+    ja: Haruyasu Akagi
+    ja_match: romaji
+  - name: Jun Arai
+    ja: Jun Arai
+    ja_match: romaji
+  - name: Soshi Takatsu
+    ja: Soshi Takatsu
+    ja_match: romaji
+  - name: Atsushi Nakagawa
+    ja: Atsushi Nakagawa
+    ja_match: romaji
+  - name: Yousuke Toyoshima
+    ja: Yousuke Toyoshima
+    ja_match: romaji
+  - name: Nana Takahashi
+    ja: Nana Takahashi
+    ja_match: romaji
+  - name: Atsuru Takahashi
+    ja: Atsuru Takahashi
+    ja_match: romaji
+  - name: Hikari Sugiyama
+    ja: Hikari Sugiyama
+    ja_match: romaji
+  - name: Ryuhei Sasaki
+    ja: Ryuhei Sasaki
+    ja_match: romaji
+  - name: PLANETA Co.,Ltd.
+    link: PLANETA
+    kind: company
+    ja: PLANETA Co.,Ltd.
+    ja_match: romaji
+  ja_role: Character Modeling
+- path:
+  - Character Motion Design
+  names:
+  - name: Kenta Kawano
+    lead: Lead
+    ja: Kenta Kawano
+    ja_match: romaji
+  - name: Natsumi Inoue
+    ja: Natsumi Inoue
+    ja_match: romaji
+  - name: Aoi Inaba
+    ja: Aoi Inaba
+    ja_match: romaji
+  - name: Tsubasa Matsuzaki
+    ja: Tsubasa Matsuzaki
+    ja_match: romaji
+  - name: Futoshi Kajita
+    ja: Futoshi Kajita
+    ja_match: romaji
+  - name: Daisuke Nakayama
+    ja: Daisuke Nakayama
+    ja_match: romaji
+  - name: Hiroshi Nakagomi
+    ja: Hiroshi Nakagomi
+    ja_match: romaji
+  - name: Yuya Katsuyama
+    ja: Yuya Katsuyama
+    ja_match: romaji
+  - name: Masashi Miyazaki
+    ja: Masashi Miyazaki
+    ja_match: romaji
+  - name: Kaoru Seida
+    ja: Kaoru Seida
+    ja_match: romaji
+  - name: CREEK & RIVER Co.,Ltd.
+    kind: company
+    ja: CREEK & RIVER Co.,Ltd.
+    ja_match: romaji
+  ja_role: Character Motion Design
+- path:
+  - Pokémon Model Inspection
+  names:
+  - name: Tomohiko Ohkubo
+    lead: Lead
+    ja: Tomohiko Ohkubo
+    ja_match: romaji
+  - name: Kenta Kawano
+    ja: Kenta Kawano
+    ja_match: romaji
+  - name: Yuki Yamamoto
+    ja: Yuki Yamamoto
+    ja_match: romaji
+  - name: Sakiko Maeda
+    ja: Sakiko Maeda
+    ja_match: romaji
+  - name: Hideki Iwata
+    ja: Hideki Iwata
+    ja_match: romaji
+  - name: Hidekazu Takahashi
+    ja: Hidekazu Takahashi
+    ja_match: romaji
+  - name: Yoshiaki Yazawa
+    ja: Yoshiaki Yazawa
+    ja_match: romaji
+  - name: Yuki Kanayama
+    ja: Yuki Kanayama
+    ja_match: romaji
+  - name: Erina Chikaizumi
+    ja: Erina Chikaizumi
+    ja_match: romaji
+  - name: Takashi Yamauchi
+    ja: Takashi Yamauchi
+    ja_match: romaji
+  - name: Shugo Takayama
+    ja: Shugo Takayama
+    ja_match: romaji
+  - name: Midori Takata
+    ja: Midori Takata
+    ja_match: romaji
+  ja_role: Pokémon Model Inspection
+- path:
+  - Digital Movie Design
+  names:
+  - name: Tsubasa Matsuzaki
+    ja: Tsubasa Matsuzaki
+    ja_match: romaji
+  - name: Mayuka Yoshikawa
+    ja: Mayuka Yoshikawa
+    ja_match: romaji
+  - name: Yuki Wakamatsu
+    ja: Yuki Wakamatsu
+    ja_match: romaji
+  - name: Stephen Redmond
+    ja: Stephen Redmond
+    ja_match: romaji
+  - name: Yui Matsuura
+    ja: Yui Matsuura
+    ja_match: romaji
+  - name: Hiroki Kanno
+    ja: Hiroki Kanno
+    ja_match: romaji
+  - name: Masaya Akiyama
+    ja: Masaya Akiyama
+    ja_match: romaji
+  ja_role: Digital Movie Design
+- path:
+  - Effect Design
+  names:
+  - name: Kojiro Matsuyama
+    ja: Kojiro Matsuyama
+    ja_match: romaji
+  - name: Toshimitsu Arai
+    ja: Toshimitsu Arai
+    ja_match: romaji
+  - name: Yosuke Uematsu
+    ja: Yosuke Uematsu
+    ja_match: romaji
+  - name: Ai Takabayashi
+    ja: Ai Takabayashi
+    ja_match: romaji
+  - name: Erena Maruya
+    ja: Erena Maruya
+    ja_match: romaji
+  - name: Koichi Yasuda
+    ja: Koichi Yasuda
+    ja_match: romaji
+  ja_role: Effect Design
+- path:
+  - UI Graphic Design
+  names:
+  - name: Erika Kuga
+    ja: Erika Kuga
+    ja_match: romaji
+  - name: Taichi Wakabayashi
+    ja: Taichi Wakabayashi
+    ja_match: romaji
+  - name: Mitsuhiro Ariga
+    ja: Mitsuhiro Ariga
+    ja_match: romaji
+  - name: Yurina Moriya
+    ja: Yurina Moriya
+    ja_match: romaji
+  - name: Misaki Tsukamoto
+    ja: Misaki Tsukamoto
+    ja_match: romaji
+  ja_role: UI Graphic Design
+- path:
+  - Concept Illustration / Item Design
+  names:
+  - name: Emi Ando
+    ja: Emi Ando
+    ja_match: romaji
+  - name: Hyunjung Lee
+    ja: Hyunjung Lee
+    ja_match: romaji
+  - name: Daiki Sato
+    ja: Daiki Sato
+    ja_match: romaji
+  - name: Noriko Iida
+    ja: Noriko Iida
+    ja_match: romaji
+  ja_role: Concept Illustration / Item Design
+- path:
+  - Event Planning / Video Direction
+  names:
+  - name: Katsunori Suginaka
+    lead: Lead
+    ja: Katsunori Suginaka
+    ja_match: romaji
+  - name: Ryota Muranaka
+    ja: Ryota Muranaka
+    ja_match: romaji
+  - name: Hiroyuki Tani
+    ja: Hiroyuki Tani
+    ja_match: romaji
+  - name: Satoshi Tamagawa
+    ja: Satoshi Tamagawa
+    ja_match: romaji
+  - name: Yuya Watanabe
+    ja: Yuya Watanabe
+    ja_match: romaji
+  - name: Yoshikazu Kojima
+    ja: Yoshikazu Kojima
+    ja_match: romaji
+  - name: Rebuild Games LLC.
+    kind: company
+    ja: Rebuild Games LLC.
+    ja_match: romaji
+  ja_role: Event Planning / Video Direction
+- path:
+  - Storyboard Design
+  names:
+  - name: Romanov Higa
+    ja: Romanov Higa
+    ja_match: romaji
+  ja_role: Storyboard Design
+- path:
+  - Game Map Design
+  names:
+  - name: Chihiro Hayashi
+    lead: Lead
+    ja: Chihiro Hayashi
+    ja_match: romaji
+  - name: Kazuki Muroi
+    ja: Kazuki Muroi
+    ja_match: romaji
+  - name: Yohei Asaoka
+    ja: Yohei Asaoka
+    ja_match: romaji
+  - name: Masahiro Takei
+    ja: Masahiro Takei
+    ja_match: romaji
+  - name: Kaori Hayashi
+    ja: Kaori Hayashi
+    ja_match: romaji
+  ja_role: Game Map Design
+- path:
+  - Field System Design
+  names:
+  - name: Masafumi Nukita
+    lead: Lead
+    ja: Masafumi Nukita
+    ja_match: romaji
+  - name: Hiroyuki Tani
+    ja: Hiroyuki Tani
+    ja_match: romaji
+  - name: Atsushi Terachi
+    ja: Atsushi Terachi
+    ja_match: romaji
+  - name: Akira Nakamura
+    ja: Akira Nakamura
+    ja_match: romaji
+  - name: Kazumasa Iwao
+    ja: Kazumasa Iwao
+    ja_match: romaji
+  ja_role: Field System Design
+- path:
+  - Game Dialogue Design
+  names:
+  - name: Suguru Nakatsui
+    lead: Lead
+    ja: Suguru Nakatsui
+    ja_match: romaji
+  - name: Kenji Matsushima
+    ja: Kenji Matsushima
+    ja_match: romaji
+  - name: Toshinobu Matsumiya
+    ja: Toshinobu Matsumiya
+    ja_match: romaji
+  - name: Masafumi Nukita
+    ja: Masafumi Nukita
+    ja_match: romaji
+  - name: Takashi Hino
+    ja: Takashi Hino
+    ja_match: romaji
+  ja_role: Game Dialogue Design
+- path:
+  - Game Text Localization Support
+  names:
+  - name: Kenji Matsushima
+    ja: Kenji Matsushima
+    ja_match: romaji
+  - name: Masafumi Nukita
+    ja: Masafumi Nukita
+    ja_match: romaji
+  ja_role: Game Text Localization Support
+- path:
+  - Trainer Character Concept
+  names:
+  - name: Suguru Nakatsui
+    ja: Suguru Nakatsui
+    ja_match: romaji
+  - name: Chihiro Hayashi
+    ja: Chihiro Hayashi
+    ja_match: romaji
+  ja_role: Trainer Character Concept
+- path:
+  - Battle Planning
+  names:
+  - name: Shigeki Morimoto
+    lead: Lead
+    ja: Shigeki Morimoto
+    kanji: 森本茂樹
+    ja_match: romaji
+  - name: Kōji Nishino
+    ja: Koji Nishino
+    kanji: 西野弘二
+    ja_match: romaji
+  - name: Tatsuro Kusano
+    ja: Tatsuro Kusano
+    ja_match: romaji
+  ja_role: Battle Planning
+- path:
+  - Game UI System Design
+  names:
+  - name: Tetsuji Ohta
+    ja: Tetsuji Ohta
+    kanji: 太田哲司
+    ja_match: romaji
+  ja_role: Game UI System Design
+- path:
+  - Communication Features Planning
+  names:
+  - name: Teruyuki Shimoyamada
+    lead: Lead
+    ja: Teruyuki Shimoyamada
+    kanji: 下山田照幸
+    ja_match: romaji
+  - name: Atsushi Terachi
+    ja: Atsushi Terachi
+    ja_match: romaji
+  - name: Hidenaga Endo
+    ja: Hidenaga Endo
+    ja_match: romaji
+  ja_role: Communication Features Planning
+- path:
+  - Concept Planning
+  names:
+  - name: Kazumasa Iwao
+    ja: Kazumasa Iwao
+    ja_match: romaji
+  - name: Atsushi Terachi
+    ja: Atsushi Terachi
+    ja_match: romaji
+  - name: Masafumi Nukita
+    ja: Masafumi Nukita
+    ja_match: romaji
+  ja_role: Concept Planning
+- path:
+  - Game Design Balancing
+  names:
+  - name: Shohei Kawano
+    ja: Shohei Kawano
+    ja_match: romaji
+  - name: Jun Ito
+    ja: Jun Ito
+    ja_match: romaji
+  - name: Kei Setoguchi
+    ja: Kei Setoguchi
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  ja_role: Game Design Balancing
+- path:
+  - Music
+  names:
+  - name: Minako Adachi
+    ja: Minako Adachi
+    kanji: 足立美奈子
+    ja_match: romaji
+  - name: Gō Ichinose
+    ja: Go Ichinose
+    ja_match: romaji
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    ja_match: romaji
+  - name: Hitomi Satō
+    ja: Hitomi Sato
+    kanji: 佐藤仁美
+    ja_match: romaji
+  - name: Tomoaki Oga
+    ja: Tomoaki Oga
+    kanji: 大賀智章
+    ja_match: romaji
+  - name: Hideaki Kuroda
+    ja: Hideaki Kuroda
+    kanji: 黒田英明
+    ja_match: romaji
+  ja_role: Music
+- path:
+  - Pokémon Voice Design
+  names:
+  - name: Hideaki Kuroda
+    ja: Hideaki Kuroda
+    ja_match: romaji
+  - name: GEMINI BREEZE LLC.
+    kind: company
+    ja: GEMINI BREEZE LLC.
+    ja_match: romaji
+  ja_role: Pokémon Voice Design
+- path:
+  - Sound Effects
+  names:
+  - name: GEMINI BREEZE LLC.
+    kind: company
+    ja: GEMINI BREEZE LLC.
+    ja_match: romaji
+  - name: Hideaki Kuroda
+    ja: Hideaki Kuroda
+    ja_match: romaji
+  ja_role: Sound Effects
+- path:
+  - Recording Coordination
+  names:
+  - name: Kenji Saito
+    ja: Kenji Saito
+    ja_match: romaji
+  ja_role: Recording Coordination
+- path:
+  - Recording Engineer
+  names:
+  - name: Takahiro Oshima
+    ja: Takahiro Oshima
+    ja_match: romaji
+  - name: Kenji Nakajo
+    ja: Kenji Nakajo
+    ja_match: romaji
+  ja_role: Recording Engineer
+- path:
+  - Vocal Recording
+  names:
+  - name: Lisa Ooki
+    ja: Lisa Ooki
+    ja_match: romaji
+  - name: Yuu Uchida
+    ja: Yuu Uchida
+    ja_match: romaji
+  - name: Naoto Fuga
+    ja: Naoto Fuga
+    ja_match: romaji
+  - name: Masayuki Okazaki
+    ja: Masayuki Okazaki
+    ja_match: romaji
+  - name: KYOtaro
+    ja: KYOtaro
+    ja_match: romaji
+  ja_role: Vocal Recording
+- path:
+  - Instrumental Recording
+  names:
+  - name: Takahiro Morimoto
+    ja: Takahiro Morimoto
+    kanji: 森本隆寛
+    ja_match: romaji
+  - name: Kanoko Matsukawa
+    ja: Kanoko Matsukawa
+    ja_match: romaji
+  ja_role: Instrumental Recording
+- path:
+  - Special Thanks-Sound
+  names:
+  - name: Masaya Watanabe
+    ja: Masaya Watanabe
+    ja_match: romaji
+  - name: Atsushi Higuchi
+    ja: Atsushi Higuchi
+    ja_match: romaji
+  ja_role: Special Thanks-Sound
+- path:
+  - Pokémon 3D Modeling
+  names:
+  - name: Atsuko Ujiie
+    lead: Art Director
+    ja_match: positional
+    ja: 'Art Director: Atsuko Ujiie'
+    kanji: 氏家淳子
+  - name: Masamichi Anazawa
+    lead: Product Manager
+    ja_match: positional
+    ja: 'Product Manager: Masamichi Anazawa'
+    kanji: 穴澤匡道
+  - name: Miku Majima
+    ja: Miku Majima
+    ja_match: romaji
+  - name: Takashi Sakuma
+    ja: Takashi Sakuma
+    ja_match: romaji
+  - name: Takafumi Misawa
+    ja: Takafumi Misawa
+    ja_match: romaji
+  - name: Joe Naha
+    ja: Joe Naha
+    ja_match: romaji
+  - name: Rie Tatsuno
+    ja: Rie Tatsuno
+    ja_match: romaji
+  - name: Masaya Ishizuka
+    ja: Masaya Ishizuka
+    ja_match: romaji
+  ja_role: Pokémon 3D Modeling
+- path:
+  - Pokémon Character Modeling
+  names:
+  - name: Shunsuke Uematsu
+    lead: Lead
+    ja: Shunsuke Uematsu
+    ja_match: romaji
+  - name: Hiroki Fujiwara
+    ja: Hiroki Fujiwara
+    ja_match: romaji
+  - name: Kengo Nakahiro
+    ja: Kengo Nakahiro
+    ja_match: romaji
+  - name: Mai Ueda
+    ja: Mai Ueda
+    ja_match: romaji
+  - name: Kouichiro Wakamatsu
+    ja: Kouichiro Wakamatsu
+    ja_match: romaji
+  - name: Atsushi Watanabe
+    ja: Atsushi Watanabe
+    ja_match: romaji
+  - name: Yoshinobu Maezawa
+    ja: Yoshinobu Maezawa
+    ja_match: romaji
+  - name: Yuichi Komagata
+    ja: Yuichi Komagata
+    ja_match: romaji
+  - name: Takaya Shinkai
+    ja: Takaya Shinkai
+    ja_match: romaji
+  - name: Masafumi Sugiyama
+    ja: Masafumi Sugiyama
+    ja_match: romaji
+  - name: Mai Takai
+    ja: Mai Takai
+    ja_match: romaji
+  - name: Chisato Fujita
+    ja: Chisato Fujita
+    ja_match: romaji
+  - name: Tomoka Ogura
+    ja: Tomoka Ogura
+    ja_match: romaji
+  - name: Minoru Koga
+    ja: Minoru Koga
+    ja_match: romaji
+  - name: Kotaro Kitada
+    ja: Kotaro Kitada
+    ja_match: romaji
+  - name: Hiromi Koda
+    ja: Hiromi Koda
+    ja_match: romaji
+  - name: Itsuki Wakuta
+    ja: Itsuki Wakuta
+    ja_match: romaji
+  ja_role: Pokémon Character Modeling
+- path:
+  - Pokémon Character Motion
+  names:
+  - name: Tomomi Sakuma
+    lead: Lead
+    ja: Tomomi Sakuma
+    ja_match: romaji
+  - name: Masataka Hata
+    ja: Masataka Hata
+    ja_match: romaji
+  - name: Orie Watanabe
+    ja: Orie Watanabe
+    ja_match: romaji
+  - name: Takahiro Koizumi
+    ja: Takahiro Koizumi
+    ja_match: romaji
+  - name: Keiko Kato
+    ja: Keiko Kato
+    ja_match: romaji
+  - name: Suguru Fukaya
+    ja: Suguru Fukaya
+    ja_match: romaji
+  - name: Yosuke Takahashi
+    ja: Yosuke Takahashi
+    ja_match: romaji
+  - name: Akira Sakawa
+    ja: Akira Sakawa
+    ja_match: romaji
+  - name: Yuichi Ishizaki
+    ja: Yuichi Ishizaki
+    ja_match: romaji
+  - name: Megumi Miyagawa
+    ja: Megumi Miyagawa
+    ja_match: romaji
+  - name: Hiromichi Hidaka
+    ja: Hiromichi Hidaka
+    ja_match: romaji
+  - name: Yoshiakira Nakano
+    ja: Yoshiakira Nakano
+    ja_match: romaji
+  - name: Akira Takayama
+    ja: Akira Takayama
+    ja_match: romaji
+  - name: Kuni Furukubo
+    ja: Kuni Furukubo
+    ja_match: romaji
+  - name: Tatsuo Kuwabara
+    ja: Tatsuo Kuwabara
+    ja_match: romaji
+  ja_role: Pokémon Character Motion
+- path:
+  - Pikachu Voice
+  names:
+  - name: Ikue Otani
+    link: Ikue Ohtani
+    ja: Ikue Otani
+    kanji: 大谷育江
+    ja_match: romaji
+  ja_role: Pikachu Voice
+- path:
+  - Voice Recording Director
+  names:
+  - name: Masafumi Mima
+    ja: Masafumi Mima
+    kanji: 三間雅文
+    ja_match: romaji
+  ja_role: Voice Recording Director
+- path:
+  - Voice Recording Coordinator
+  names:
+  - name: Takuro Muratsubaki
+    ja: Takuro Muratsubaki
+    kanji: 村椿拓郎
+    ja_match: romaji
+  ja_role: Voice Recording Coordinator
+- path:
+  - English Localization
+  names:
+  - name: Yasuhiro Usui
+    ja: Yasuhiro Usui
+    ja_match: romaji
+  - name: Mikiko Ryu
+    ja: Mikiko Ryu
+    ja_match: romaji
+  - name: Mayu Todo
+    ja: Mayu Todo
+    ja_match: romaji
+  - name: Yoshi Uemura
+    ja: Yoshi Uemura
+    ja_match: romaji
+  - name: Shinobu Taylor
+    ja: Shinobu Taylor
+    ja_match: romaji
+  ja_role: English Localization
+- path:
+  - English Translation
+  names:
+  - name: Hisato Yamamori
+    ja: Hisato Yamamori
+    ja_match: romaji
+  - name: Sayuri Munday
+    ja: Sayuri Munday
+    ja_match: romaji
+  - name: Jillian Nonaka
+    ja: Jillian Nonaka
+    ja_match: romaji
+  - name: Ben Regal
+    ja: Ben Regal
+    ja_match: romaji
+  - name: Bryson Clark
+    ja: Bryson Clark
+    ja_match: romaji
+  ja_role: English Translation
+- path:
+  - English Editing
+  names:
+  - name: Blaise Selby
+    ja: Blaise Selby
+    ja_match: romaji
+  - name: Kellyn Ballard
+    ja: Kellyn Ballard
+    ja_match: romaji
+  - name: Eric Haddock
+    ja: Eric Haddock
+    ja_match: romaji
+  - name: Rachel Payne
+    ja: Rachel Payne
+    ja_match: romaji
+  ja_role: English Editing
+- path:
+  - European Localisation
+  names:
+  - name: Noriko Netley
+    ja: Noriko Netley
+    ja_match: romaji
+  - name: Makiko Cottrell
+    ja: Makiko Cottrell
+    ja_match: romaji
+  - name: Kaori Manabe
+    ja: Kaori Manabe
+    ja_match: romaji
+  - name: Nami Kusumoto
+    ja: Nami Kusumoto
+    ja_match: romaji
+  - name: Suirei Okata
+    ja: Suirei Okata
+    ja_match: romaji
+  - name: Maya Yoshida
+    ja: Maya Yoshida
+    ja_match: romaji
+  - name: Hideko Russell
+    ja: Hideko Russell
+    ja_match: romaji
+  - name: Bertrand Lecocq
+    ja: Bertrand Lecocq
+    ja_match: romaji
+  - name: Elena Nardo
+    ja: Elena Nardo
+    ja_match: romaji
+  - name: Cyril Schultz
+    ja: Cyril Schultz
+    ja_match: romaji
+  ja_role: European Localisation
+- path:
+  - French Translation
+  names:
+  - name: Aymeric Forgit
+    ja: Aymeric Forgit
+    ja_match: romaji
+  - name: Guillaume Didier
+    ja: Guillaume Didier
+    ja_match: romaji
+  - name: Lylia Khrissate
+    ja: Lylia Khrissate
+    ja_match: romaji
+  - name: Sarah Provost
+    ja: Sarah Provost
+    ja_match: romaji
+  - name: Laurent Nguyen
+    ja: Laurent Nguyen
+    ja_match: romaji
+  ja_role: French Translation
+- path:
+  - French Editing
+  names:
+  - name: Franck Couée
+    ja: Franck Couée
+    ja_match: romaji
+  - name: Pierre Gauthier
+    ja: Pierre Gauthier
+    ja_match: romaji
+  - name: Clémence Amoric
+    ja: Clémence Amoric
+    ja_match: romaji
+  ja_role: French Editing
+- path:
+  - German Translation
+  names:
+  - name: Daniel Heucher
+    ja: Daniel Heucher
+    ja_match: romaji
+  - name: Michael Ecke
+    ja: Michael Ecke
+    ja_match: romaji
+  - name: Kathleen Kalms
+    ja: Kathleen Kalms
+    ja_match: romaji
+  - name: Matthias Wissnet
+    ja: Matthias Wissnet
+    ja_match: romaji
+  - name: Josef Shanel
+    ja: Josef Shanel
+    ja_match: romaji
+  - name: Christopher Derbort
+    ja: Christopher Derbort
+    ja_match: romaji
+  ja_role: German Translation
+- path:
+  - German Editing
+  names:
+  - name: Claudia Thon
+    ja: Claudia Thon
+    ja_match: romaji
+  - name: Sina Moelleken
+    ja: Sina Moelleken
+    ja_match: romaji
+  - name: Ireneusz Radko
+    ja: Ireneusz Radko
+    ja_match: romaji
+  ja_role: German Editing
+- path:
+  - Italian Translation
+  names:
+  - name: Guido Scarabello
+    ja: Guido Scarabello
+    ja_match: romaji
+  - name: Manuela Suriano
+    ja: Manuela Suriano
+    ja_match: romaji
+  - name: Marco Sartori
+    ja: Marco Sartori
+    ja_match: romaji
+  - name: Giovanni Ballarin
+    ja: Giovanni Ballarin
+    ja_match: romaji
+  - name: Anna Rita Spera
+    ja: Anna Rita Spera
+    ja_match: romaji
+  - name: Francesca Serci
+    ja: Francesca Serci
+    ja_match: romaji
+  ja_role: Italian Translation
+- path:
+  - Italian Editing
+  names:
+  - name: Fabio Giusti
+    ja: Fabio Giusti
+    ja_match: romaji
+  - name: Silvia De Bellis
+    ja: Silvia De Bellis
+    ja_match: romaji
+  - name: Alice Troiani
+    ja: Alice Troiani
+    ja_match: romaji
+  ja_role: Italian Editing
+- path:
+  - Spanish Translation
+  names:
+  - name: Enrique Joga Elvira
+    ja: Enrique Joga Elvira
+    ja_match: romaji
+  - name: Alejandro Martínez Monge
+    ja: Alejandro Martínez Monge
+    ja_match: romaji
+  - name: Alberto Gracia Castellano
+    ja: Alberto Gracia Castellano
+    ja_match: romaji
+  - name: Servando Doval Díaz
+    ja: Servando Doval Díaz
+    ja_match: romaji
+  - name: Luis Alis Ferrer
+    ja: Luis Alis Ferrer
+    ja_match: romaji
+  - name: Diego Luque de la Campa
+    ja: Diego Luque de la Campa
+    ja_match: romaji
+  ja_role: Spanish Translation
+- path:
+  - Spanish Editing
+  names:
+  - name: Mariona Pera i de Miguel
+    ja: Mariona Pera i de Miguel
+    ja_match: romaji
+  - name: Virginia Paradés Gurrea
+    ja: Virginia Paradés Gurrea
+    ja_match: romaji
+  - name: Eva Rodriguez Grana
+    ja: Eva Rodriguez Grana
+    ja_match: romaji
+  ja_role: Spanish Editing
+- path:
+  - Korean Translation & Editing
+  names:
+  - name: Mihwa Choi
+    ja: Mihwa Choi
+    ja_match: romaji
+  - name: Jieun Byun
+    ja: Jieun Byun
+    ja_match: romaji
+  - name: Youngjun Park
+    ja: Youngjun Park
+    ja_match: romaji
+  - name: Jeongmin Kwon
+    ja: Jeongmin Kwon
+    ja_match: romaji
+  ja_role: Korean Translation & Editing
+- path:
+  - Chinese Localization
+  names:
+  - name: Yinjuan Wang
+    ja: Yinjuan Wang
+    ja_match: romaji
+  - name: Shin'ichi Sasamoto
+    ja: Shin'ichi Sasamoto
+    ja_match: romaji
+  ja_role: Chinese Localization
+- path:
+  - Chinese Translation & Editing
+  names:
+  - name: Xiaochun Qiu
+    ja: Xiaochun Qiu
+    ja_match: romaji
+  - name: Jun Yuan
+    ja: Jun Yuan
+    ja_match: romaji
+  - name: Xi Zhang
+    ja: Xi Zhang
+    ja_match: romaji
+  - name: Claudia Chan
+    ja: Claudia Chan
+    ja_match: romaji
+  - name: Kirsty Goto
+    ja: Kirsty Goto
+    ja_match: romaji
+  - name: Phoebe Mak
+    ja: Phoebe Mak
+    ja_match: romaji
+  - name: Chingyun Sung
+    ja: Chingyun Sung
+    ja_match: romaji
+  - name: Chungte Huang
+    ja: Chungte Huang
+    ja_match: romaji
+  ja_role: Chinese Translation & Editing
+- path:
+  - Chinese Artwork
+  names:
+  - name: Yi Peng
+    ja: Yi Peng
+    ja_match: romaji
+  - name: Aubrey Chan
+    ja: Aubrey Chan
+    ja_match: romaji
+  ja_role: Chinese Artwork
+- path:
+  - English & European Graphic Design
+  names:
+  - name: Eric Medalle
+    ja: Eric Medalle
+    ja_match: romaji
+  - name: Hiromi Kimura
+    ja: Hiromi Kimura
+    ja_match: romaji
+  - name: Dan Stephens
+    ja: Dan Stephens
+    ja_match: romaji
+  ja_role: English & European Graphic Design
+- path:
+  - English & European Localization Support
+  names:
+  - name: Jeff Hines
+    ja: Jeff Hines
+    ja_match: romaji
+  - name: Robert Colling
+    ja: Robert Colling
+    ja_match: romaji
+  - name: Tadasu Hasegawa
+    ja: Tadasu Hasegawa
+    ja_match: romaji
+  - name: Marvin Andrews
+    ja: Marvin Andrews
+    ja_match: romaji
+  ja_role: English & European Localization Support
+- path:
+  - NOA Localization Support
+  names:
+  - name: Joel Simon
+    ja: Joel Simon
+    ja_match: romaji
+  - name: Ryo Uchida
+    ja: Ryo Uchida
+    ja_match: romaji
+  - name: Terry Chan
+    ja: Terry Chan
+    ja_match: romaji
+  ja_role: NOA Localization Support
+- path:
+  - NOE Localisation Support
+  names:
+  - name: Canela Rodal
+    ja: Canela Rodal
+    ja_match: romaji
+  - name: Ryoko Sawabe
+    ja: Ryoko Sawabe
+    ja_match: romaji
+  ja_role: NOE Localization Support
+- path:
+  - NOK Localization Support
+  names:
+  - name: Hyokjin Jung
+    ja: Hyokjin Jung
+    ja_match: romaji
+  - name: Dongyeon Kim
+    ja: Dongyeon Kim
+    ja_match: romaji
+  - name: Soonil Kim
+    ja: Soonil Kim
+    ja_match: romaji
+  - name: Seoyun Yun
+    ja: Seoyun Yun
+    ja_match: romaji
+  - name: Siyoung An
+    ja: Siyoung An
+    ja_match: romaji
+  - name: Inseon Song
+    ja: Inseon Song
+    ja_match: romaji
+  ja_role: NOK Localization Support
+- path:
+  - Special Thanks-Localization
+  names:
+  - name: Christopher Parent
+    ja: Christopher Parent
+    ja_match: romaji
+  - name: Thomas Candland
+    ja: Thomas Candland
+    ja_match: romaji
+  - name: Mary Rayes
+    ja: Mary Rayes
+    ja_match: romaji
+  - name: Dario De Leo
+    ja: Dario De Leo
+    ja_match: romaji
+  - name: Aya Bamba
+    ja: Aya Bamba
+    ja_match: romaji
+  ja_role: Special Thanks-Localization
+- path:
+  - Technical Support
+  names:
+  - name: Shuhei Furukawa
+    ja: Shuhei Furukawa
+    ja_match: romaji
+  - name: Yuta Ogawa
+    ja: Yuta Ogawa
+    ja_match: romaji
+  - name: Shotaro Iwanaga
+    ja: Shotaro Iwanaga
+    ja_match: romaji
+  ja_role: Technical Support
+- path:
+  - Server Development
+  names:
+  - name: Shinnosuke Miki
+    ja: Shinnosuke Miki
+    ja_match: romaji
+  - name: Noritaka Otsuka
+    ja: Noritaka Otsuka
+    ja_match: romaji
+  - name: Kazuto Shimizu
+    ja: Kazuto Shimizu
+    ja_match: romaji
+  - name: Kenkichi Miura
+    ja: Kenkichi Miura
+    ja_match: romaji
+  ja_role: Server Development
+- path:
+  - Pokémon Global Link
+  names:
+  - name: Shin Uwai
+    ja: Shin Uwai
+    ja_match: romaji
+  - name: Shusaku Egami
+    ja: Shusaku Egami
+    ja_match: romaji
+  - name: Osamu Fujita
+    ja: Osamu Fujita
+    ja_match: romaji
+  - name: Takahiro Onishi
+    ja: Takahiro Onishi
+    ja_match: romaji
+  - name: Takehito Hosoda
+    ja: Takehito Hosoda
+    ja_match: romaji
+  - name: Takeshi Seki
+    ja: Takeshi Seki
+    ja_match: romaji
+  - name: Youko Nakayama
+    ja: Youko Nakayama
+    ja_match: romaji
+  - name: Kayo Nakata
+    ja: Kayo Nakata
+    ja_match: romaji
+  - name: Keiichi Yoshikawa
+    ja: Keiichi Yoshikawa
+    ja_match: romaji
+  - name: Hideyoshi Uehara
+    ja: Hideyoshi Uehara
+    ja_match: romaji
+  - name: Tomohiro Matsumoto
+    ja: Tomohiro Matsumoto
+    ja_match: romaji
+  - name: Yang Rong
+    ja: Yang Rong
+    ja_match: romaji
+  - name: Hikaru Ozono
+    ja: Hikaru Ozono
+    ja_match: romaji
+  - name: Nguyen Ngoc Tram Anh
+    ja: Nguyen Ngoc Tram Anh
+    ja_match: romaji
+  - name: Yoshihiro Inoue
+    ja: Yoshihiro Inoue
+    ja_match: romaji
+  - name: Yukiko Hamasaki
+    ja: Yukiko Hamasaki
+    ja_match: romaji
+  - name: Ryosuke Nakamura
+    ja: Ryosuke Nakamura
+    ja_match: romaji
+  - name: Akiko Horio
+    ja: Akiko Horio
+    ja_match: romaji
+  - name: Yoshiyuki Hirota
+    ja: Yoshiyuki Hirota
+    ja_match: romaji
+  - name: Takashi Saito
+    ja: Takashi Saito
+    ja_match: romaji
+  - name: Takuya Hogawa
+    ja: Takuya Hogawa
+    ja_match: romaji
+  - name: Shingo Maekawa
+    ja: Shingo Maekawa
+    ja_match: romaji
+  - name: Dai Okuyama
+    ja: Dai Okuyama
+    ja_match: romaji
+  - name: Hirotaka Nakamura
+    ja: Hirotaka Nakamura
+    ja_match: romaji
+  - name: Kazuya Iwamoto
+    ja: Kazuya Iwamoto
+    ja_match: romaji
+  ja_role: Pokémon Global Link
+- path:
+  - Debug Management
+  names:
+  - name: Motoki Nakajima
+    ja: Motoki Nakajima
+    ja_match: romaji
+  - name: Nobuya Sasaki
+    ja: Nobuya Sasaki
+    ja_match: romaji
+  - name: Yuki Tanikawa
+    ja: Yuki Tanikawa
+    ja_match: romaji
+  - name: Takahiro Kumasaka
+    ja: Takahiro Kumasaka
+    ja_match: romaji
+  - name: Keisuke Fukushima
+    ja: Keisuke Fukushima
+    ja_match: romaji
+  - name: Takuya Inoue
+    ja: Takuya Inoue
+    ja_match: romaji
+  - name: Akiko Ohashi
+    ja: Akiko Ohashi
+    ja_match: romaji
+  - name: Hiroya Takeda
+    ja: Hiroya Takeda
+    ja_match: romaji
+  ja_role: Debug Management
+- path:
+  - Debug
+  names:
+  - name: Mario Club
+    kind: company
+    ja: Mario Club
+    ja_match: romaji
+  - name: DIGITAL Hearts
+    ja: DIGITAL Hearts
+    ja_match: romaji
+  ja_role: Debug
+- path:
+  - NOA Product Testing
+  names:
+  - name: Kentaro Nishimura
+    ja: Kentaro Nishimura
+    ja_match: romaji
+  - name: Seth Hanser
+    ja: Seth Hanser
+    ja_match: romaji
+  - name: Sean Egan
+    ja: Sean Egan
+    ja_match: romaji
+  - name: Tomoko Mikami
+    ja: Tomoko Mikami
+    ja_match: romaji
+  - name: Marko Wallenius
+    ja: Marko Wallenius
+    ja_match: romaji
+  - name: Dan Mathias
+    ja: Dan Mathias
+    ja_match: romaji
+  - name: Makiko Szolas
+    ja: Makiko Szolas
+    ja_match: romaji
+  - name: Tom Hertzog
+    ja: Tom Hertzog
+    ja_match: romaji
+  - name: Madison Levitan
+    ja: Madison Levitan
+    ja_match: romaji
+  - name: Marleah Gates
+    ja: Marleah Gates
+    ja_match: romaji
+  - name: Michael Sahlin
+    ja: Michael Sahlin
+    ja_match: romaji
+  - name: Chris Hicks
+    ja: Chris Hicks
+    ja_match: romaji
+  - name: Pablo Reyes
+    ja: Pablo Reyes
+    ja_match: romaji
+  - name: NOA Product Testing Technicians
+    kind: company
+    ja: NOA Product Testing Technicians
+    ja_match: romaji
+  ja_role: NOA Product Testing
+- path:
+  - NOE QA Coordination
+  names:
+  - name: Patrick Thorenz
+    ja: Patrick Thorenz
+    ja_match: romaji
+  - name: Jesús Gutiérrez Cuadra
+    ja: Jesús Gutiérrez Cuadra
+    ja_match: romaji
+  - name: Marco Gruden
+    ja: Marco Gruden
+    ja_match: romaji
+  ja_role: NOE QA Coordination
+- path:
+  - NOE Quality Assurance
+  names:
+  - name: Ben Howard-Hale
+    ja: Ben Howard-Hale
+    ja_match: romaji
+  - name: Christopher Stewart
+    ja: Christopher Stewart
+    ja_match: romaji
+  - name: Matthieu Lamouroux
+    ja: Matthieu Lamouroux
+    ja_match: romaji
+  - name: Ahmed Bounouar
+    ja: Ahmed Bounouar
+    ja_match: romaji
+  - name: Laurence Uhlen
+    ja: Laurence Uhlen
+    ja_match: romaji
+  - name: Emilien de Salles Costa
+    ja: Emilien de Salles Costa
+    ja_match: romaji
+  - name: Mathieu Springinsfeld
+    ja: Mathieu Springinsfeld
+    ja_match: romaji
+  - name: Elisa Lapini
+    ja: Elisa Lapini
+    ja_match: romaji
+  - name: Alessandro Crosa
+    ja: Alessandro Crosa
+    ja_match: romaji
+  - name: Rita di Lascio
+    ja: Rita di Lascio
+    ja_match: romaji
+  - name: Daniele Albrito
+    ja: Daniele Albrito
+    ja_match: romaji
+  - name: Veronica Casi
+    ja: Veronica Casi
+    ja_match: romaji
+  - name: Lutz Ohl
+    ja: Lutz Ohl
+    ja_match: romaji
+  - name: Sebastian Jende
+    ja: Sebastian Jende
+    ja_match: romaji
+  - name: Hannah Siebert
+    ja: Hannah Siebert
+    ja_match: romaji
+  - name: Christina Stoffel
+    ja: Christina Stoffel
+    ja_match: romaji
+  - name: Edwin Kirschenmann
+    ja: Edwin Kirschenmann
+    ja_match: romaji
+  - name: Julio Manzaneda
+    ja: Julio Manzaneda
+    ja_match: romaji
+  - name: Ibon Díez Maeztu
+    ja: Ibon Díez Maeztu
+    ja_match: romaji
+  - name: Daniel Picazo Millán
+    ja: Daniel Picazo Millán
+    ja_match: romaji
+  - name: Miguel Ángel Carnero Calderón
+    ja: Miguel Ángel Carnero Calderón
+    ja_match: romaji
+  - name: Lorena Gívica Pita
+    ja: Lorena Gívica Pita
+    ja_match: romaji
+  - name: Pole To Win International
+    ja: Pole To Win International
+    ja_match: romaji
+  ja_role: NOE Quality Assurance
+- path:
+  - NOK Testing & Quality Assurance
+  names:
+  - name: Hyokjin Jung
+    ja: Hyokjin Jung
+    ja_match: romaji
+  - name: Kyoungim Na
+    ja: Kyoungim Na
+    ja_match: romaji
+  - name: Eodo Lee
+    ja: Eodo Lee
+    ja_match: romaji
+  - name: NOK Quality Control Sect.
+    ja: NOK Quality Control Sect.
+    ja_match: romaji
+  ja_role: NOK Testing & Quality Assurance
+- path:
+  - Chinese Product Testing
+  names:
+  - name: Ming Xu
+    ja: Ming Xu
+    ja_match: romaji
+  - name: Gang Yan
+    ja: Gang Yan
+    ja_match: romaji
+  - name: Jiong Zhang
+    ja: Jiong Zhang
+    ja_match: romaji
+  - name: Deguang Yan
+    ja: Deguang Yan
+    ja_match: romaji
+  - name: Huiming Hu
+    ja: Huiming Hu
+    ja_match: romaji
+  - name: Yayun Ling
+    ja: Yayun Ling
+    ja_match: romaji
+  - name: ShihWei Yang
+    ja: ShihWei Yang
+    ja_match: romaji
+  - name: WanJing Chen
+    ja: WanJing Chen
+    ja_match: romaji
+  ja_role: Chinese Product Testing
+- path:
+  - Artwork
+  names:
+  - name: Kenichi Koga
+    ja: Kenichi Koga
+    ja_match: romaji
+  - name: Ikumi Fujishiro
+    ja: Ikumi Fujishiro
+    ja_match: romaji
+  - name: Chiaki Shinkai
+    ja: Chiaki Shinkai
+    ja_match: romaji
+  ja_role: Artwork
+- path:
+  - Artwork Support
+  names:
+  - name: Yasuko Sugiyama
+    ja: Yasuko Sugiyama
+    ja_match: romaji
+  - name: Sachiko Nakamichi
+    ja: Sachiko Nakamichi
+    ja_match: romaji
+  ja_role: Artwork Support
+- path:
+  - Manual Editing
+  names:
+  - name: Megumi Shichida
+    ja: Megumi Shichida
+    ja_match: romaji
+  - name: Aki Sakurai
+    ja: Aki Sakurai
+    ja_match: romaji
+  - name: Dan Owsen
+    ja: Dan Owsen
+    ja_match: romaji
+  - name: James Michael
+    ja: James Michael
+    ja_match: romaji
+  - name: Stefan Dickhardt
+    ja: Stefan Dickhardt
+    ja_match: romaji
+  - name: Andrea De Benedetto
+    ja: Andrea De Benedetto
+    ja_match: romaji
+  - name: Yi Peng
+    ja: Yi Peng
+    ja_match: romaji
+  ja_role: Manual Editing
+- path:
+  - Z-Ring and QR Scan Planning
+  names:
+  - name: Hirofumi Hasegawa
+    ja: Hirofumi Hasegawa
+    ja_match: romaji
+  - name: Tatsuro Takahashi
+    ja: Tatsuro Takahashi
+    ja_match: romaji
+  - name: Takahiro Oguri
+    ja: Takahiro Oguri
+    ja_match: romaji
+  - name: Gen Nagashima
+    ja: Gen Nagashima
+    ja_match: romaji
+  - name: Masahiko Yamazaki
+    ja: Masahiko Yamazaki
+    ja_match: romaji
+  - name: Takashi Ohi
+    ja: Takashi Ohi
+    ja_match: romaji
+  - name: Takeo Yoshimura
+    ja: Takeo Yoshimura
+    ja_match: romaji
+  - name: Sho Ohshima
+    ja: Sho Ohshima
+    ja_match: romaji
+  - name: Yoshiaki Kano
+    ja: Yoshiaki Kano
+    ja_match: romaji
+  - name: Yasushi Kono
+    ja: Yasushi Kono
+    ja_match: romaji
+  ja_role: Z-Ring and QR Scan Planning
+- path:
+  - Special Thanks
+  names:
+  - name: Tetsuya Watanabe
+    ja: Tetsuya Watanabe
+    kanji: 渡辺哲也
+    ja_match: romaji
+  - name: Kenji Tominaga
+    ja: Kenji Tominaga
+    ja_match: romaji
+  - name: Yuichiro Mori
+    ja: Yuichiro Mori
+    ja_match: romaji
+  - name: Yoshio Tajiri
+    ja: Yoshio Tajiri
+    ja_match: romaji
+  - name: Teiko Sasaki
+    ja: Teiko Sasaki
+    ja_match: romaji
+  - name: Yu Narisada
+    ja: Yu Narisada
+    ja_match: romaji
+  - name: Yoshimi Kawaguchi
+    ja: Yoshimi Kawaguchi
+    ja_match: romaji
+  - name: Haruka Furukawa
+    ja: Haruka Furukawa
+    ja_match: romaji
+  - name: Emi Endo
+    ja: Emi Endo
+    ja_match: romaji
+  - name: Haruka Sunaga
+    ja: Haruka Sunaga
+    ja_match: romaji
+  - name: Miho Murata
+    ja: Miho Murata
+    ja_match: romaji
+  - name: Kosuke Harada
+    ja: Kosuke Harada
+    ja_match: romaji
+  - name: Kaori Kobayashi
+    ja: Kaori Kobayashi
+    ja_match: romaji
+  - name: Yuichiro Yamamoto
+    ja: Yuichiro Yamamoto
+    ja_match: romaji
+  - name: Nagaaki Fukase
+    ja: Nagaaki Fukase
+    ja_match: romaji
+  - name: Hirokazu Tanaka
+    ja: Hirokazu Tanaka
+    ja_match: romaji
+  - name: Hiroyuki Jinnai
+    ja: Hiroyuki Jinnai
+    ja_match: romaji
+  - name: Kenjiro Ito
+    ja: Kenjiro Ito
+    ja_match: romaji
+  - name: Mikiko Ohashi
+    ja: Mikiko Ohashi
+    ja_match: romaji
+  - name: Tomotaka Komura
+    ja: Tomotaka Komura
+    ja_match: romaji
+  - name: Atsushi Sugimoto
+    ja: Atsushi Sugimoto
+    ja_match: romaji
+  - name: Toshio Miyahara
+    ja: Toshio Miyahara
+    ja_match: romaji
+  - name: Eisuke Kasejima
+    ja: Eisuke Kasejima
+    ja_match: romaji
+  - name: Taku Kawamoto
+    ja: Taku Kawamoto
+    ja_match: romaji
+  - name: Masami Tanaka
+    ja: Masami Tanaka
+    ja_match: romaji
+  - name: Susumu Fukunaga
+    ja: Susumu Fukunaga
+    kanji: 福永晋
+    ja_match: romaji
+  - name: Rui Kawaguchi
+    ja: Rui Kawaguchi
+    ja_match: romaji
+  - name: Ryosuke Hanawa
+    ja: Ryosuke Hanawa
+    ja_match: romaji
+  - name: Shohei Furuta
+    ja: Shohei Furuta
+    ja_match: romaji
+  - name: Yoshitaka Fujiwara
+    ja: Yoshitaka Fujiwara
+    ja_match: romaji
+  - name: Nobue Ito
+    ja: Nobue Ito
+    ja_match: romaji
+  - name: Nobuhiro Sawabe
+    ja: Nobuhiro Sawabe
+    ja_match: romaji
+  - name: Takeshi Masuda
+    ja: Takeshi Masuda
+    ja_match: romaji
+  - name: Hidenaga Katakami
+    ja: Hidenaga Katakami
+    ja_match: romaji
+  - name: Gakuji Nomoto
+    ja: Gakuji Nomoto
+    ja_match: romaji
+  - name: Kenichi Arai
+    ja: Kenichi Arai
+    ja_match: romaji
+  - name: Takashi Orikata
+    ja: Takashi Orikata
+    ja_match: romaji
+  - name: Michiko Takizawa
+    ja: Michiko Takizawa
+    ja_match: romaji
+  - name: Hirotaka Hayakawa
+    ja: Hirotaka Hayakawa
+    ja_match: romaji
+  - name: Jiro Koga
+    ja: Jiro Koga
+    ja_match: romaji
+  - name: Yoriomi Uego
+    ja: Yoriomi Uego
+    ja_match: romaji
+  - name: Kenji Yanagisawa
+    ja: Kenji Yanagisawa
+    ja_match: romaji
+  - name: Yukari Fukushima
+    ja: Yukari Fukushima
+    ja_match: romaji
+  - name: Misuzu Kanayama
+    ja: Misuzu Kanayama
+    ja_match: romaji
+  - name: Emiko Yoshino
+    ja: Emiko Yoshino
+    ja_match: romaji
+  - name: Akie Fujimoto
+    ja: Akie Fujimoto
+    ja_match: romaji
+  - name: Yukie Funakubo
+    ja: Yukie Funakubo
+    ja_match: romaji
+  - name: Shoichi Obora
+    ja: Shoichi Obora
+    ja_match: romaji
+  - name: Arata Sato
+    ja: Arata Sato
+    ja_match: romaji
+  - name: Madoka Nishizawa
+    ja: Madoka Nishizawa
+    ja_match: romaji
+  - name: Takashi Koyama
+    ja: Takashi Koyama
+    ja_match: romaji
+  - name: Kenji Okubo
+    ja: Kenji Okubo
+    ja_match: romaji
+  - name: Gaku Susai
+    ja: Gaku Susai
+    ja_match: romaji
+  - name: Jaiboem Lim
+    ja: Jaiboem Lim
+    ja_match: romaji
+  - name: Jihye Lee
+    ja: Jihye Lee
+    ja_match: romaji
+  - name: Kyeongmi Kim
+    ja: Kyeongmi Kim
+    ja_match: romaji
+  - name: Chanho Sohn
+    ja: Chanho Sohn
+    ja_match: romaji
+  - name: Yongho So
+    ja: Yongho So
+    ja_match: romaji
+  - name: Jiwon Yang
+    ja: Jiwon Yang
+    ja_match: romaji
+  - name: Toshio Mukai
+    ja: Toshio Mukai
+    ja_match: romaji
+  - name: Tomotaka Izuhiro
+    ja: Tomotaka Izuhiro
+    ja_match: romaji
+  - name: Kenshiro Ueda
+    ja: Kenshiro Ueda
+    ja_match: romaji
+  - name: Tomohiro Umemura
+    ja: Tomohiro Umemura
+    ja_match: romaji
+  - name: Ryosuke Kido
+    ja: Ryosuke Kido
+    ja_match: romaji
+  - name: Tomotsugu Nagaoka
+    ja: Tomotsugu Nagaoka
+    ja_match: romaji
+  ja_role: Special Thanks
+- path:
+  - Concept
+  names:
+  - name: Takao Unno
+    ja: Takao Unno
+    ja_match: romaji
+  ja_role: Concept
+- path:
+  - Information Coordinators
+  names:
+  - name: Yuta Nakai
+    ja: Yuta Nakai
+    ja_match: romaji
+  - name: Tsuyoshi Ichikawa
+    ja: Tsuyoshi Ichikawa
+    ja_match: romaji
+  - name: Shiho Haraguchi
+    ja: Shiho Haraguchi
+    ja_match: romaji
+  - name: Toya Yoneda
+    ja: Toya Yoneda
+    ja_match: romaji
+  ja_role: Information Coordinators
+- path:
+  - Coordinators
+  names:
+  - name: Shunsuke Kohori
+    ja: Shunsuke Kohori
+    ja_match: romaji
+  - name: Mitsuyo Matsunaga
+    ja: Mitsuyo Matsunaga
+    ja_match: romaji
+  - name: Masayuki Wada
+    ja: Masayuki Wada
+    ja_match: romaji
+  - name: Akira Kinashi
+    ja: Akira Kinashi
+    ja_match: romaji
+  - name: Yuki Okada
+    ja: Yuki Okada
+    ja_match: romaji
+  - name: Kei Ninomiya
+    ja: Kei Ninomiya
+    ja_match: romaji
+  ja_role: Coordinators
+- path:
+  - Produced By
+  names:
+  - name: Junichi Masuda
+    ja: Junichi Masuda
+    ja_match: romaji
+  - name: Shin Uwai
+    ja: Shin Uwai
+    kanji: 上井伸
+    ja_match: romaji
+  - name: Takato Utsunomiya
+    ja: Takato Utsunomiya
+    kanji: 宇都宮崇人
+    ja_match: romaji
+  - name: Hitoshi Yamagami
+    ja: Hitoshi Yamagami
+    kanji: 山上仁志
+    ja_match: romaji
+  ja_role: Produced By
+- path:
+  - General Producer
+  names:
+  - name: Shinya Takahashi
+    ja: Shinya Takahashi
+    kanji: 高橋伸也
+    ja_match: romaji
+  ja_role: General Producer
+- path:
+  - Executive Producers
+  names:
+  - name: Satoshi Tajiri
+    ja: Satoshi Tajiri
+    kanji: 田尻智
+    ja_match: romaji
+  - name: Tatsumi Kimishima
+    ja: Tatsumi Kimishima
+    kanji: 君島達己
+    ja_match: romaji
+  - name: Tsunekazu Ishihara
+    ja: Tsunekazu Ishihara
+    kanji: 石原恒和
+    ja_match: romaji
+  ja_role: Executive Producers
+- path:
+  - Developed By
+  names:
+  - name: GAME FREAK inc.
+    link: Game Freak
+    kind: company
+    ja: GAME FREAK inc.
+    ja_match: romaji
+  ja_role: Developed By
