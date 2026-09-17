@@ -43,6 +43,10 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 - 工作流 `wf_2cef5c7f-f38`（3 代理，实耗 67 万 subagent tokens，高于预估的 25 万——era-3 材料包 228KB 是大头）。叙述写在数据修正前，
   修正后核对过 A/B 级缺席名单仍成立。
 
+## 提交
+
+- 分支 `staff-credits`，commit `c9dbb78d`（2026-09-17）：全部名单 / 分析 / 站内改动 + Let's Go 作品名合并。工作区里其余 `_posts` 改动是另一会话的，未纳入。
+
 ## 待做
 
 - 人工核对 people_to_verify；给 B 级 Section Director 层查外部去向。
