@@ -7,8 +7,8 @@ permalink: /people/okazaki-taiiku/
 aliases:
 - 岡崎体育
 - Okazaki Taiiku
-avatar: ''
-avatar_source: ''
+avatar: /assets/img/people/okazaki-taiiku.jpg
+avatar_source: Bulbagarden Archives
 search: false
 sitemap: true
 ---

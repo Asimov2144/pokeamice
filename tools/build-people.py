@@ -415,6 +415,7 @@ PORTRAITS = [
     dict(name="氏家淳子", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_01.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（氏家淳子氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="中广健吾", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_02.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（中廣健吾氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
+    dict(name="冈崎体育", main=True, src="bulba:File:Taiiku Okazaki.png", source="Bulbagarden Archives"),
     dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
 ]
 

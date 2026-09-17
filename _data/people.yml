@@ -1153,6 +1153,11 @@
   aliases:
   - 岡崎体育
   - Okazaki Taiiku
+  portraits:
+  - image: /assets/img/people/okazaki-taiiku-taiiku-okazaki.jpg
+    source: Bulbagarden Archives
+  avatar: /assets/img/people/okazaki-taiiku.jpg
+  avatar_source: Bulbagarden Archives
 - name: 乌龟松本
   slug: wu-gui-song-ben
 - name: 木村KAELA
