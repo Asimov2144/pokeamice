@@ -916,17 +916,7 @@ parallel_items:
     - 『Z-A』で取り組んだ内容
 
     - 今後の予定'
-  translation: '目录（Rig部分）
-
-    - 宝可梦标题制作中的课题
-
-    - 什么是宝可Rig？
-
-    - 通过宝可Rig解决课题
-
-    - 在《Z-A》中着手的内容
-
-    - 今后的计划'
+  translation: "目录（Rig部分）\n- 宝可梦标题制作中的课题\n- 什么是ポケリグ？\n- 通过ポケリグ解决课题\n- 在《Z-A》中着手的内容\n- 今后的计划"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-57.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第57页

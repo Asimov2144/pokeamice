@@ -18,7 +18,7 @@ tags:
 - CEDEC 2026
 - Pokémon LEGENDS Z-A
 - 前泽圭一
-- 描画技术
+- 渲染技术
 - 技术专题
 publication: 电Fami Nico Gamer（2026-07-23）
 source_kind: lecture_report
@@ -52,7 +52,7 @@ parallel_items:
 - original: 果たして開発チームは、前作で描かれた大自然とは異なる「建物ばかりの都市空間」を、どのように表現したのであろうか？
   translation: 那么，开发团队究竟是如何表现与前作所描绘的大自然不同的“尽是建筑物的都市空间”的呢？
 - original: 国内最大級のゲームカンファレンス「CEDEC2026」のセッション「ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術」では株式会社ゲームフリークの前澤圭一氏、スパダフィーナ・アルフレド氏、赤木達也氏の3名により『Z-A』の描画技術について語られた。
-  translation: 在国内最大级别的游戏会议“CEDEC2026”的讲座“密阿雷市超级进化！？《Pokémon LEGENDS Z-A》的渲染技术”中，株式会社GAME FREAK的前泽圭一、斯帕达菲娜·阿尔弗雷多、赤木达也三人讲述了《Z-A》的渲染技术。
+  translation: "在国内最大级别的游戏会议“CEDEC2026”的讲座“密阿雷市超级进化！？《Pokémon LEGENDS Z-A》的渲染技术”中，株式会社GAME FREAK的前泽圭一、Alfredo Spadafina、赤木达也三人讲述了《Z-A》的渲染技术。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/001.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_001
@@ -63,7 +63,7 @@ parallel_items:
   original: 都市を効率的に描画する
   translation: 高效渲染城市
 - original: スパダフィーナ氏は、「同じデザインの建物や物がたくさん立ち並び、さらに物陰に隠れて見えない部分も多い」ことがミアレシティの特徴であると語る。
-  translation: 斯帕达菲娜表示，密阿雷市的特征在于“相同设计的建筑和物体大量林立，而且许多部分被遮挡在阴影中看不见”。
+  translation: "Spadafina表示，密阿雷市的特征在于“相同设计的建筑和物体大量林立，而且许多部分被遮挡在阴影中看不见”。"
 - original: 効率的な描画には、同じ形の3Dモデルを一括で大量表示する「InstancedDraw」と画面に映らないオブジェクトの描画を省き最適化する「カリング」が重要だとした。
   translation: 他指出，高效渲染的关键在于将相同形状的3D模型批量大量显示的“InstancedDraw”，以及省略画面外物体渲染以进行优化的“剔除”。
 - original: 『Z-A』は、「InstancedDraw」をもっとも活用したタイトルという。
@@ -81,7 +81,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/003.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_003
 - original: 『Z-A』では、ライトにもカリングを導入している。効率アップのため無駄な計算を省く仕組みを作ったと、スパダフィーナ氏は語った。
-  translation: 在《Z-A》中，光照也引入了剔除。斯帕达菲娜表示，为提高效率，他们构建了省去无用计算的机制。
+  translation: "在《Z-A》中，光照也引入了剔除。Spadafina表示，为提高效率，他们构建了省去无用计算的机制。"
   note: 斯帕达菲娜是GAME FREAK的开发者，在CEDEC2026上介绍了《宝可梦传说 Z-A》的相关技术。
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/004.jpg
@@ -125,7 +125,7 @@ parallel_items:
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/010.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_010
 - original: 『Z-A』は街灯にもこだわり、灯りによって表現方法を変え、スポットライトが円錐モデルだと気づかせない様々な処理をしたと、スパダフィーナ氏は語った。
-  translation: 斯帕达菲娜女士表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。
+  translation: "Spadafina女士表示，《Z-A》在路灯上也下了功夫，根据灯光改变表现方式，并进行了各种处理，让人察觉不到聚光灯是圆锥模型。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/011.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_011
@@ -134,7 +134,7 @@ parallel_items:
   original: キャラクターの描画と「ポケリグ」
   translation: 角色的绘制与“宝可梦绑定”
 - original: 今作のキャラはディファードとフォワードを用いて時間帯ごとに表現し、メガシンカのエフェクトは、ポケモンのサイズごとに設定したとスパダフィーナ氏は語った。
-  translation: 斯帕达菲娜女士表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。
+  translation: "Spadafina女士表示，本作的角色使用延迟渲染和前向渲染按时间段进行表现，超级进化的特效则根据宝可梦的尺寸分别设置。"
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-denfami-2026-cedec-pokerig/012.jpg
   alt: 「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】_012

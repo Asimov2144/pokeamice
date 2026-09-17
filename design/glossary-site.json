@@ -2634,6 +2634,52 @@
      "重さ"
     ]
    }
+  },
+  {
+   "category": "人物",
+   "target": "Alfredo Spadafina",
+   "terms": [
+    "スパダフィーナ・アルフレド",
+    "Alfredo Spadafina"
+   ],
+   "variants": [
+    "斯帕达菲娜·阿尔弗雷多"
+   ],
+   "note": "登记名；单独的 スパダフィーナ 写 Spadafina"
+  },
+  {
+   "category": "人物",
+   "target": "Spadafina",
+   "terms": [
+    "スパダフィーナ"
+   ],
+   "variants": [
+    "斯帕达菲娜"
+   ],
+   "note": "Alfredo Spadafina 的姓，正文单提时用"
+  },
+  {
+   "category": "开发",
+   "target": "ポケリグ",
+   "terms": [
+    "ポケリグ"
+   ],
+   "variants": [
+    "宝可绑定",
+    "宝可Rig"
+   ],
+   "note": "GAME FREAK 的统一绑定系统名，保留原名"
+  },
+  {
+   "category": "开发",
+   "target": "渲染",
+   "terms": [
+    "描画"
+   ],
+   "variants": [
+    "描画"
+   ],
+   "note": "描画→渲染（语料 27:9）"
   }
  ],
  "review": [

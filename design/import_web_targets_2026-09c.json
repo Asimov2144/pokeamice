@@ -1,0 +1,38 @@
+{
+ "targets": [
+  {
+   "key": "cgworld-2026-cedec-pkmnza",
+   "url": "https://cgworld.jp/article/202609-cedec-pkmnza.html",
+   "lang": "ja",
+   "date": "2026-09-17",
+   "outlet": "CGWORLD.jp",
+   "outlet_zh": "CGWORLD.jp",
+   "title": "『Pokémon LEGENDS Z-A』は「1つの街」をどう描いた？ ミアレシティを支える描画技術～CEDEC 2026（2）",
+   "kind": "lecture_report",
+   "asker": "CGWORLD",
+   "speakers": {
+    "前澤": "前泽圭一",
+    "スパダフィーナ": "Alfredo Spadafina",
+    "赤木": "赤木达也"
+   },
+   "works": [
+    "Pokémon LEGENDS Z-A"
+   ],
+   "tags": [
+    "CGWORLD",
+    "CEDEC 2026",
+    "Pokémon LEGENDS Z-A",
+    "前泽圭一",
+    "Alfredo Spadafina",
+    "赤木达也",
+    "渲染技术",
+    "技术专题"
+   ],
+   "container": "div.article_detail",
+   "author": "葛西祝（CGWORLD）",
+   "drop": "^記事の目次$|^関連記事$|^・『ドンキーコング|^www\\.pokemon\\.co\\.jp|^©2025 Pokémon|^TEXT＿|^EDIT＿|^『Pokémon LEGENDS Z-A』$",
+   "max_images": 20,
+   "post": "2026-09-17-interview-cgworld-2026-cedec-za-lumiose-rendering.md"
+  }
+ ]
+}
