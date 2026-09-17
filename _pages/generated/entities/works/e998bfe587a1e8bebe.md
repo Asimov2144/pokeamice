@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>阿凡达</h2>
-    <span>1 篇文章 · 0 条评注 · 2010</span>
+    <span>2 篇文章 · 0 条评注 · 2010</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -22,6 +22,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第156回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-156/">[GameFreak部长专栏] 第156回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 突然这么问，不过大家平时会受到什么事物的刺激呢？ 我看了最喜欢的罗兰·艾默里奇导演的电影《2012》，以及 3</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第207回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch207/">[访谈翻译] 首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 207</span>
 </article>
 
   </section>

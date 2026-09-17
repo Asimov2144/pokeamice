@@ -1,314 +1,823 @@
 ---
-archive_type: interview_translation
 layout: interview-editorial
+archive_type: interview_translation
 title: 宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选
-title_ja: ポケモン映画公式サイト特設対談：湯山邦彦総監督が語る『光輪の超魔神 フーパ』と伝説のポケモン総登場秘話
-date: 2015-07-14 10:00:00 +0900
-era: '2013'
-source:
-  title: A Special Movie Pre-Premiere Interview with Director Yuyama
-  url: https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details
-source_url: https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details
+display_title: 汤山导演谈胡帕电影
+dek: 上映前夕，汤山邦彦分四部分谈短片音乐尝试与传说宝可梦大战。
+original_title: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+date: '2015-07-14'
+era_skin: '2014'
 categories:
 - developer-interviews
 - official-archives
+tags:
+- 访谈
+- Game Freak
+- 剧场版
+- 汤山邦彦
+- 胡帕
+- 设定资料
+- OLM
+publication: PocketMonsters.net（2015-07-14）
+source_kind: media_interview
+interviewer: PocketMonsters.net
+interviewee: 汤山邦彦
+translator: PokeAmice（DeepSeek 初译）
+original_lang: en
+translation_lang: zh-CN
+source:
+  title: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+  url: https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details
+  language: en
+  source_type: media_interview
+original_link: https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details
+summary: PocketMonsters.net 2015年刊出汤山邦彦导演上映前四部分专访，谈短片《皮卡丘与宝可梦音乐队》用叫声做音乐的尝试，以及《光环的超魔神 胡帕》中传说宝可梦大战、胡帕的设定与迪拜取景。
+entities:
+  people:
+  - 汤山邦彦
+  works:
+  - 宝可梦 剧场版 光轮的超魔神 胡帕
+  - 宝可梦 动画系列
+workflow:
+  fetch: live
+  translation: deepseek-chat
+  proofreading: pending
+  published: draft
 parallel_items:
 - type: heading
-  level: 1
-  original: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
-  translation: 汤山监督特别电影上映前专访 & 官方设定资料
+  level: 2
+  original: Pokémon Movie Channel
+  translation: 宝可梦电影频道
+- original: '"Barza"''s Model Sheets Appear! (2015/4/17)'
+  translation: “巴尔扎”的设定图公开！（2015/4/17）
+  note: “巴尔扎”是2015年宝可梦电影《光环的超魔神 胡帕》中的角色。
+- original: '"Désser City" Concept Art Appears! (2015/4/24)'
+  translation: “荒漠市”的概念图公开！（2015/4/24）
+  note: “荒漠市”是《光环的超魔神 胡帕》的舞台城市。
+- original: '"Mary"''s Model Sheets Appear! (2015/5/1)'
+  translation: “玛丽”的设定图公开！（2015/5/1）
+  note: “玛丽”是《光环的超魔神 胡帕》中的角色。
+- original: '"Désser Tower" Concept Art Appears! (2015/5/8)'
+  translation: “荒漠塔”的概念图公开！（2015/5/8）
+  note: “荒漠塔”是《光环的超魔神 胡帕》中荒漠市的地标。
+- original: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
+  translation: “旅人”的设定图公开！（2015/5/15）
+  note: “旅人”是《光环的超魔神 胡帕》中的角色。
+- original: Concept Art for "The Short's Setting" Appear! (2015/5/22)
+  translation: “短篇舞台”的概念图公开！（2015/5/22）
+  note: 指同年上映的宝可梦短篇电影《皮卡丘与宝可梦乐队》。
+- original: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
+  translation: “阿尔凯谷及其居民”的概念图公开！（2015/5/29）
+  note: “阿尔凯谷”是《光环的超魔神 胡帕》中的地点。
+- original: The "Prison Bottle"'s Model Sheets Appear! (2015/6/12)
+  translation: “惩戒之壶”的设定图公开！（2015/6/12）
+  note: “惩戒之壶”是《光环的超魔神 胡帕》中封印胡帕的道具。
+- original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #1 (2015/7/14)'
+  translation: '汤山导演特别电影上映前专访 #1（2015/7/14）'
+  note: 汤山邦彦是宝可梦动画系列多部剧场版的导演。
+- original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #2 (2015/7/15)'
+  translation: '汤山导演特别电影上映前专访 #2（2015/7/15）'
+- original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #3 (2015/7/16)'
+  translation: '汤山导演特别电影上映前专访 #3（2015/7/16）'
+- original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #4 (2015/7/17)'
+  translation: '汤山导演特别电影上映前专访 #4（2015/7/17）'
+- original: '"Barza: Young"''s Model Sheets Appear! (2015/7/31)'
+  translation: “巴尔扎：少年”设定图公开！（2015/7/31）
+- original: '"Mary: Young"''s Model Sheets Appear! (2015/8/7)'
+  translation: “玛丽：少女”设定图公开！（2015/8/7）
+- original: Read It All in One Go During Obon Break! It Will Make You Want to Watch the Movie Once Again! A Special Reference Guide to the Pokemon Movie Channel! (2015/8/12)
+  translation: 盂兰盆节假期一口气读完！会让你想再看一遍电影！宝可梦电影频道特别参考指南！（2015/8/12）
+  note: 盂兰盆节是日本夏季祭祖假期，通常在8月中旬。
+- original: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
+  translation: “年迈的旅人”设定图公开！（2015/8/14）
 - type: heading
   level: 2
   original: '"Barza"''s Model Sheets Appear! (2015/4/17)'
-  translation: 「巴尔札」设定资料公开！(2015/4/17)
+  translation: “巴尔扎”设定图公开！（2015/4/17）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_01_2193_settei_001a.jpg
-  alt: '"Barza"''s Model Sheets Appear! (2015/4/17)'
-  caption: '"Barza"''s Model Sheets Appear! (2015/4/17)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/001.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_02_2193_settei_001b.jpg
-  alt: '"Barza"''s Model Sheets Appear! (2015/4/17)'
-  caption: '"Barza"''s Model Sheets Appear! (2015/4/17)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/002.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: A young man who discovered the "Prison Bottle" said to have sealed Hoopa's powers one hundred years ago.
+  translation: 一位年轻人发现了据说在百年前封印了胡帕力量的“惩戒之壶”。
+- original: Mary's older brother, featuring very dignified and manly facial expressions. He is played by Tatsuya Fujiwara!
+  translation: 玛丽的哥哥，面部表情非常威严而有男子气概。由藤原龙也饰演！
+  note: 藤原龙也是日本演员，曾主演《死亡笔记》等作品。
 - type: heading
   level: 2
   original: '"Désser City" Concept Art Appears! (2015/4/24)'
-  translation: 「荒漠市」概念艺术图公开！(2015/4/24)
+  translation: “荒漠市”概念图公开！（2015/4/24）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_03_2204_settei_002a.jpg
-  alt: '"Désser City" Concept Art Appears! (2015/4/24)'
-  caption: '"Désser City" Concept Art Appears! (2015/4/24)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/003.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Désser City (Distant View)
+  translation: 荒漠市（远景）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_04_2204_settei_002b.jpg
-  alt: '"Désser City" Concept Art Appears! (2015/4/24)'
-  caption: '"Désser City" Concept Art Appears! (2015/4/24)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/004.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Désser City (Distant View/Night)
+  translation: 荒漠市（远景/夜景）
+- original: Désser City is a city located in the middle of a desert that serves as the story's setting!!
+  translation: 荒漠市是位于沙漠正中央的城市，也是本作故事的舞台！！
+- original: This is where Satoshi, Pikachu and Hoopa's grand adventure will unfold!
+  translation: 小智、皮卡丘与胡帕的大冒险将在这里展开！
 - type: heading
   level: 2
   original: '"Mary"''s Model Sheets Appear! (2015/5/1)'
-  translation: 「梅雅利」设定资料公开！(2015/5/1)
+  translation: “玛莉”设定图公开！（2015/5/1）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_05_2218_settei_003a.jpg
-  alt: '"Mary"''s Model Sheets Appear! (2015/5/1)'
-  caption: '"Mary"''s Model Sheets Appear! (2015/5/1)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/005.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_06_2218_settei_003b.jpg
-  alt: '"Mary"''s Model Sheets Appear! (2015/5/1)'
-  caption: '"Mary"''s Model Sheets Appear! (2015/5/1)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/006.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Mary, the girl who grew up together with Hoopa. Barza's younger sister.
+  translation: 玛莉，与胡帕一同长大的少女。巴尔札的妹妹。
+- original: She is played by Shoko Nakagawa.
+  translation: 该角色由中川翔子配音。
+  note: 中川翔子是日本艺人、歌手兼声优，也是知名的宝可梦爱好者。
 - type: heading
   level: 2
   original: '"Désser Tower" Concept Art Appears! (2015/5/8)'
-  translation: 「荒漠之塔」概念艺术图公开！(2015/5/8)
+  translation: “荒漠塔”概念图公开！（2015/5/8）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_07_2228_settei_004a.jpg
-  alt: '"Désser Tower" Concept Art Appears! (2015/5/8)'
-  caption: '"Désser Tower" Concept Art Appears! (2015/5/8)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/007.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_08_2228_settei_004b.jpg
-  alt: '"Désser Tower" Concept Art Appears! (2015/5/8)'
-  caption: '"Désser Tower" Concept Art Appears! (2015/5/8)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/008.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: The story is set in "Désser City", a city located in the middle of a desert.
+  translation: 故事以位于沙漠正中央的城市“荒漠市”为舞台。
+- original: In the outskirts of the city stands "Désser Tower", a tower closely related to mythical Pokémon!
+  translation: 城市郊外矗立着“神石塔”，一座与幻之宝可梦密切相关的塔！
 - type: heading
   level: 2
   original: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
-  translation: 「旅人」设定资料公开！(2015/5/15)
+  translation: “旅人”的设定图公开！（2015/5/15）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_09_2238_settei_005a.jpg
-  alt: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
-  caption: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/009.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_10_2238_settei_005b.jpg
-  alt: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
-  caption: '"The Traveler"''s Model Sheets Appear! (2015/5/15)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/010.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: A traveler with an incredibly majestic feel to him. He is the person that sealed Hoopa (Unbound Form) in the "Prison Bottle" when it went on a rampage 100 years ago!
+  translation: 一位气质极其威严的旅人。100年前，当胡帕（解放形态）失控暴走时，正是他将胡帕封印进了“惩戒之壶”！
 - type: heading
   level: 2
   original: Concept Art for "The Short's Setting" Appear! (2015/5/22)
-  translation: 「短篇背景」概念艺术图公开！(2015/5/22)
+  translation: “短篇舞台设定”概念图公开！（2015/5/22）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_11_2251_settei_006a.jpg
-  alt: Concept Art for "The Short's Setting" Appear! (2015/5/22)
-  caption: Concept Art for "The Short's Setting" Appear! (2015/5/22)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/011.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Main Stage
+  translation: 主舞台
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_12_2251_settei_006b.jpg
-  alt: Concept Art for "The Short's Setting" Appear! (2015/5/22)
-  caption: Concept Art for "The Short's Setting" Appear! (2015/5/22)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/012.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Beast Road
+  translation: 野兽之路
+- original: This is the setting of the short "Pikachu and the Pokémon Musicians"!
+  translation: 这里是短篇《皮卡丘与宝可梦音乐队》的舞台！
+- original: What kind of tale will unfold here in the forest?
+  translation: 在这片森林里，将会展开怎样的故事呢？
 - type: heading
   level: 2
   original: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
-  translation: 「创世之谷及其居民」概念艺术图公开！(2015/5/29)
+  translation: “阿尔凯山谷及其居民”概念图公开！（2015/5/29）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_13_2264_settei_007a.jpg
-  alt: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
-  caption: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/013.jpg
+  alt: pic
+- original: Arkhē Valley
+  translation: 阿尔凯山谷
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_14_2264_settei_007b.jpg
-  alt: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
-  caption: Concept Art for "Arkhē Valley and its Residents" Appear! (2015/5/29)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/014.jpg
+  alt: pic
+- original: The Inhabitants of Arkhē Valley
+  translation: 阿尔凯谷的居民们
+- original: This is Arkhē Valley, where Barza and Mary grew up together with Hoopa!
+  translation: 这里就是阿尔凯谷，巴尔扎和玛丽与胡帕一同成长的地方！
+- original: It's a village rich in greenery that has a very different atmosphere from the desert metropolis Désser City
+  translation: 这是一个绿意盎然的村庄，与沙漠大都市德塞尔城的氛围截然不同。
 - type: heading
   level: 2
   original: The "Prison Bottle"'s Model Sheets Appear! (2015/6/12)
-  translation: 「惩戒之壶」设定资料公开！(2015/6/12)
+  translation: “惩戒之壶”的设定图公开！（2015/6/12）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_15_2285_settei_008a.jpg
-  alt: The "Prison Bottle"'s Model Sheets Appear! (2015/6/12)
-  caption: The "Prison Bottle"'s Model Sheets Appear! (2015/6/12)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/015.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: This the the "Prison Bottle", which was used to confine Hoopa (Unbound Form) when it went on a rampage 100 years ago. It's an important item that's very crucial to the story!
+  translation: 这就是“惩戒之壶”，100年前胡帕（解放形态）大肆破坏时，人们用它将其封印。这是一件对故事至关重要的物品！
 - type: heading
   level: 2
   original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #1 (2015/7/14)'
-  translation: '汤山监督特别电影上映前专访 #1 (2015/7/14)'
-- original: 'Q: The story is described as "For the first time ever! A musical performance using Pokémon cries!", so it''s obvious it has a music theme. What kind of movie is it?'
-  translation: 问：故事被描述为「史上首次！使用宝可梦叫声的音乐演奏！」，因此很明显它有一个音乐主题。这是一部什么样的电影？
-  speaker: Interviewer
+  translation: '汤山导演特别专访 电影上映前 #1（2015/7/14）'
+  note: 汤山邦彦是宝可梦动画系列多部剧场版的导演。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/016.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: '"Pokémon the movie XY: The Archdjinni of Rings - Hoopa/Pikachu and the Pokémon Musicians" finally premieres this weekend!'
+  translation: 《宝可梦剧场版XY 光环的超魔神 胡帕／皮卡丘与宝可梦乐队》本周末终于要上映了！
+- original: To commemmorate this, we will hold a special interview with Director Yuyama about the movies' highlights, subjects, etc. There will be four parts in all!
+  translation: 为纪念上映，我们将对汤山导演进行特别专访，请他谈谈电影的看点、主题等。专访共分四部分！
+- original: The two first parts of the interview will focus on the short, "Pikachu and the Pokémon Musicians"!
+  translation: 专访的前两部分将聚焦短片《皮卡丘与宝可梦乐队》！
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/017.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: The story is described as "For the first time ever! A musical performance using Pokémon cries!", so it's obvious it has a music theme. What kind of movie is it?
   role: question
-- original: explain
-  translation: 说明
-- original: 'Q: This short has a somewhat different feel to it than previous shorts! Could you tell us some details about the production and the trial-and-error process it went through?'
-  translation: 问：这部短篇与之前的短篇感觉有些不同！能否告诉我们一些关于制作和反复试验过程的细节？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 故事被描述为“史上首次！用宝可梦的叫声进行的音乐演奏！”，所以显然是以音乐为主题。这是一部怎样的电影呢？
+- original: '"Pikachu and the Pokémon Musicians" is actually something I''ve been wanting a chance to make since all the way back when the Pocket Monsters TV series first began.'
+  role: answer
+  speaker: 汤山邦彦
+  translation: 《皮卡丘与宝可梦音乐队》其实是我从《宝可梦》电视系列刚开始的时候就想找机会做的东西。
+- original: Back when the TV series first began and we decided to have all the Pokémon have individual cries, then got the voice actors to provide these Pokémon voices, I found the "sound" of the cries really interesting.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 电视系列刚开始的时候，我们决定让所有宝可梦都有各自的叫声，然后让配音演员来发出这些宝可梦的声音，当时我觉得这些叫声的“声音”非常有趣。
+- original: Right from the get-go, I started thinking about whether we could use these sounds to create music.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 从一开始，我就开始想能不能用这些声音来创作音乐。
+- original: Even though the thought had entered my mind, though, I really didn't know what would be the best way to go about it.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 不过，虽然这个想法进入了我的脑海，但我真的不知道最好的实现方式是什么。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/018.png
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: As such, it wasn't until this year I decided to finally do this thing.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 因此，直到今年我才决定终于来做这件事。
+- original: However, I couldn't really just explain to the production staff how the entire "create music with cries" idea was going to work. So we did a demo, an "initial template" so to speak, by getting the voice actors to sing Pokémon cries, then when we heard something we thought worked, we added that to the scenario.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 然而，我没办法只靠说明就让制作人员明白“用叫声创作音乐”这个想法整体要怎么运作。所以我们做了一个小样，可以说是“初始模板”，让配音演员唱出宝可梦的叫声，然后当我们听到觉得可行的东西时，就把它加进剧本里。
+- original: Doing a musical that used nothing but Pokémon voices is something I really wanted to do, but seriously... being in the planning stage for over 10 years?
+  role: answer
+  speaker: 汤山邦彦
+  translation: 做一部只用宝可梦声音的音乐剧，是我真的很想做的事，但说真的……在企划阶段待了超过10年？
+- original: If you go by when I first thought of the idea, this movie has been in the works for 19(?) years now (laughs)
+  role: answer
+  speaker: 汤山邦彦
+  translation: 如果从我第一次想到这个主意的时候算起，这部电影到现在已经做了19(?)年了（笑）
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/019.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: This short has a somewhat different feel to it than previous shorts! Could you tell us some details about the production and the trial-and-error process it went through?
   role: question
-- original: else
-  translation: 其他
+  speaker: PocketMonsters.net
+  translation: 这部短片的感觉和之前的短片有些不同！能告诉我们一些关于制作以及它经历的反复试错过程吗？
+- original: We made this short in a completely different way from how we've made previous ones.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我们制作这部短片的方式，和以往制作短片的方式完全不同。
+- original: First and most importantly, we had to record the voices in advance.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 首先也是最重要的，是我们必须提前录制声音。
+- original: Usually we do the dubbing at the very end, after everything else is done, but this time we had to start off by recording the singing to first create the initial template demo, then a demonstration version. We didn't just record once either, we did it at least 3 times, then used those recordings to create the template that would be used for the demo...
+  role: answer
+  speaker: 汤山邦彦
+  translation: 通常我们是在所有其他工作都完成之后，最后才进行配音，但这次我们必须一开始就录制演唱，先做出最初的模板小样，然后是示范版本。而且我们不是只录一次，至少录了3次，然后用这些录音来制作用于小样的模板……
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/020.png
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: This time we made songs for the short itself, ones that went with the scenario.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这次我们为短片本身创作了歌曲，是与剧情相配的。
+- original: That meant we had to draw the Pokémon singing along to this song to get it properly lip-synced. The recording of the singing for these drawings then got split into 3 or 4 parts.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这意味着我们必须画出宝可梦跟着这首歌演唱的画面，才能让口型对得准确。为这些画面录制的演唱随后被分成了3到4个部分。
+- original: This time only the actual acting to the finished animation got recorded like normal, while the singing was recorded separately, in two or three portions.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这次只有配合完成动画的实际表演部分像平常一样录制，而演唱则是分开录制的，分成两三个部分。
+- original: We've never done anything like this ever before!
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我们以前从来没有做过这样的事！
+- original: Every time you try something for the first time, you end up fumbling around not really knowing your way around.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 每次你尝试新东西，最后都会手忙脚乱，不太清楚该怎么做。
+- original: Week in and week out, we noticed things that needed to be done, started working on that material, and then as we were doing so, we'd discover something else that needed to be done as well.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 一周又一周，我们注意到有需要做的事情，就开始着手处理那些材料，而在做的过程中，又会发现还有别的事情也需要做。
+- original: To be continued in part 2!<
+  translation: 未完待续，见第2部分！<
 - type: heading
   level: 2
   original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #2 (2015/7/15)'
-  translation: '汤山监督特别电影上映前专访 #2 (2015/7/15)'
-- original: 'Q: We heard that because this is "Pikachu and the Pokémon Musicians", almost all the music is made up of the sounds of Pokémon voices?'
-  translation: 问：我们听说，正因为这是《皮卡丘与宝可梦音乐家》，所以几乎所有的音乐都是由宝可梦的叫声构成的，对吗？
-  speaker: Interviewer
+  translation: '汤山导演电影首映前特别访谈 #2（2015/7/15）'
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/021.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: 'We are interviewing Director Yuyama about "Pokémon the movie XY: The Archdjinni of Rings - Hoopa/Pikachu and the Pokémon Musicians", which premieres this weekend!'
+  translation: 我们正在就本周末首映的《宝可梦剧场版XY：光环的超魔神 胡帕／皮卡丘与宝可梦音乐队》采访汤山导演！
+- original: In this second part, we ask him about production secrets regarding "Pikachu and the Pokémon Musicians"!
+  translation: 在第二部分中，我们向他询问关于《皮卡丘与宝可梦音乐队》的制作秘闻！
+- original: We heard that because this is "Pikachu and the Pokémon Musicians", almost all the music is made up of the sounds of Pokémon voices?
   role: question
-- original: 'Q: What kind of story is "Pikachu and the Pokémon Musicians"?'
-  translation: 问：《皮卡丘与宝可梦音乐家》是一个怎样的故事呢？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 我们听说，因为这是《皮卡丘与宝可梦音乐队》，几乎所有的音乐都是由宝可梦的叫声构成的？
+- original: For that reason, the movie doesn't have a score, yes.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 正因如此，这部电影没有配乐，是的。
+- original: For the title sequence, we got LGM (Little Glee Monster, performers of the theme song) to sing a cappella, so while this is the only scene in the movie with a score, the score here is nothing but voices too, consisting purely of a chorus.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 片头部分，我们请LGM（Little Glee Monster，主题曲演唱者）进行了无伴奏合唱，所以虽然这是电影中唯一有配乐的场面，但这里的配乐也全是人声，纯粹由合唱构成。
+  note: LGM（Little Glee Monster）是日本女子声乐组合，当时演唱了该片的主题曲。
+- original: Since the Pokémon are "Musicians", there are parts where they each act as specific instruments, though if we think of their cries as singing, it turns into song. Or rather, vocal percussion.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 既然宝可梦们是“音乐家”，有些部分它们各自充当特定的乐器，不过如果把它们的叫声视为歌唱，那就变成了歌曲。或者说是人声打击乐。
+- original: It's all voices, all through the entire movie.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 整部电影从头到尾全是声音。
+- original: There's sound effects, though.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 不过，有音效。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/022.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: What kind of story is "Pikachu and the Pokémon Musicians"?
   role: question
-- original: 'Q: This short seems packed with new things you''re trying out, and it''s really something to look forward to. Can you say a few words to the audience that are going to be watching "Pikachu and the Pokémon Musicians" in the theater?'
-  translation: 问：这部短篇似乎充满了您尝试的新元素，非常令人期待。对于即将在影院观看《皮卡丘与宝可梦音乐家》的观众，您能说几句话吗？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 《皮卡丘与宝可梦音乐队》是怎样的故事？
+- original: The story concerns a concert being held in concurrence with "Berry Blossoming", this harvest festival-like celebration they have in the Pokémon's forest. However, various trouble occurs, so this quick little story plays out before "Berry Blossoming" can start.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 故事讲的是，在宝可梦森林里举行的类似丰收节的“果实绽放”活动期间，同时举办一场音乐会。然而，发生了各种麻烦，所以在这个小故事中，在“果实绽放”开始之前事情就展开了。
+- original: Songs get sung throughout the tale, so it can be enjoyed as a musical.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 整个故事中都会唱歌，所以可以当作音乐剧来欣赏。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/023.png
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: This short seems packed with new things you're trying out, and it's really something to look forward to. Can you say a few words to the audience that are going to be watching "Pikachu and the Pokémon Musicians" in the theater?
   role: question
-- original: does
-  translation: 是
+  speaker: PocketMonsters.net
+  translation: 这部短片似乎塞满了各种新尝试，非常令人期待。能否对将在影院观看《皮卡丘与宝可梦音乐队》的观众说几句话？
+- original: The Pokémon are all happily singing together, so I'd like you to sing and dance along in the theater as well.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 宝可梦们都在开心地一起唱歌，所以希望各位也在影院里一起唱、一起跳。
+- original: The Narrator, Mizuki Yamamoto, sings along too.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 旁白山本美月也会一起唱。
+  note: 山本美月是日本的演员、模特，当时担任该短片的旁白。
+- original: It'd make me very happy if I made the children in the theater suddenly burst into song together.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 如果能让影院里的孩子们突然一起唱起歌来，我会非常高兴。
+- original: Since even we, the people who made this short, couldn't picture how it would turn out, the audience won't really be able to either. What does Pokémon singing sound like? You're in for a fun surprise at the theater.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 连制作这部短片的我们都无法想象它会变成什么样，观众大概也想象不到。宝可梦唱歌是什么声音？请在影院里享受这份惊喜。
+- original: Lots of nostalgic Pokémon will appear in the short too, so there's something else to look forward to!
+  role: answer
+  speaker: 汤山邦彦
+  translation: 短片中还会出现许多令人怀念的宝可梦，这也是值得期待的地方！
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/024.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: 'In part 3, we''ll ask about the highlights of the feature film, "The Archdjinni of Rings: Hoopa"!'
+  role: answer
+  speaker: 汤山邦彦
+  translation: 第3部分，我们将询问长篇电影《光环的超魔神 胡帕》的看点！
 - type: heading
   level: 2
   original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #3 (2015/7/16)'
-  translation: '汤山邦彦总监督特别电影上映前专访 #3（2015年7月16日）'
-- original: 'Q: What kind of movie is the feature film "The Archdjinni of Rings: Hoopa"?'
-  translation: 问：剧场版《光轮的超魔神 胡帕》是一部怎样的电影？
-  speaker: Interviewer
+  translation: '汤山导演电影上映前特别采访 #3（2015/7/16）'
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/025.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: 'Only two days remain until the movie premieres! We''re interviewing Director Yuyama about the movies'' highlights and subjects, and in this third part, we''ll be asking about the feature film, "The Archdjinni of Rings: Hoopa"!'
+  translation: 距离电影上映只剩两天！我们正在就电影的看点和主题采访汤山导演，这第3部分将询问长篇电影《光环的超魔神 胡帕》！
+- original: 'What kind of movie is the feature film "The Archdjinni of Rings: Hoopa"?'
   role: question
-- original: 'Q: So this star Pokémon with this special power, Hoopa, what kind of Pokémon is it?'
-  translation: 问：那么，这只拥有特殊力量的明星宝可梦——胡帕，它是一只怎样的宝可梦呢？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 剧场版《光环的超魔神 胡帕》是一部什么样的电影？
+- original: First and foremost, it's a movie where lots of legendary Pokemon appear.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 首先，这是一部会有很多传说宝可梦登场的电影。
+- original: You could call this the ultimate concept for a Pokémon movie, and it's what I used as the starting point for this year's installment.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 可以说这是宝可梦电影的终极构想，我把它作为今年这部作品的出发点。
+- original: We were going to have all these legendary Pokémon that have starred in earlier movies appear all together, so figuring out what we were going to have them do was actually really difficult.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我们打算让此前在历代电影中担任主角的所有传说宝可梦一起登场，所以实际上，要决定让它们做什么非常困难。
+- original: What made it all possible was this year's star Pokémon, Hoopa.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 让这一切得以实现的是今年担任主角的宝可梦胡帕。
+- original: It has this power to retrieve asolutely anything from faraway places using its rings.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 它拥有用圆环从遥远的地方取来任何东西的力量。
+- original: This power was a perfect fit for gathering an entire lineup of legendary Pokémon.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这种力量与召集一整批传说宝可梦完美契合。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/026.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: So this star Pokémon with this special power, Hoopa, what kind of Pokémon is it?
   role: question
-- original: 'Q: However, what''s been confined in the Prison Bottle, the "Unbound Form" of Hoopa, acts as Satoshi and his friends'' enemy, right?'
-  translation: 问：不过，被封印在惩戒之壶中的胡帕“解放形态”，会成为小智一行人的敌人，对吧？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 那么，拥有这种特殊力量的主角宝可梦胡帕，是一只什么样的宝可梦呢？
+- original: While its natural form is the giant "Unbound Form", it's been deprived of its power thanks to this item called the "Prison Bottle" and turned into the cute, small "Confined Form".
+  role: answer
+  speaker: 汤山邦彦
+  translation: 它的本来形态是巨大的“解放形态”，但因为一个叫“惩戒之壶”的道具被夺走了力量，变成了可爱小巧的“惩戒形态”。
+- original: As such, both the big Hoopa and the small Hoopa are, in fact, the same Hoopa.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 因此，大胡帕和小胡帕其实是同一只胡帕。
+- original: The big Hoopa went on a rampage in the past, but rather than it being out of malice, it was more like it was a child that got egged into doing something that escalated way out of control.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 那只巨大的胡帕在过去曾经大肆破坏，但那并非出于恶意，更像是小孩子被人怂恿着去做某件事，结果越闹越大、彻底失控了。
+- original: So when such a Pokémon got turned into its current form, one that feels the same but is so much smaller, it may be a prankster, but it also has this really innocent and honest personality and loves simple fun.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 所以当这样一只宝可梦变成现在这种形态——感觉还是同一个，但小了很多——它可能爱恶作剧，但同时也拥有非常天真坦率的性格，喜欢简单的乐趣。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/027.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: However, what's been confined in the Prison Bottle, the "Unbound Form" of Hoopa, acts as Satoshi and his friends' enemy, right?
   role: question
-- original: 'Q: The small Hoopa meets Satoshi and they have an adventure together, so what''s the relationship between Satoshi, Pikachu and Hoopa like?'
-  translation: 问：小胡帕遇到了小智，他们一起冒险，那么小智、皮卡丘和胡帕之间的关系是怎样的呢？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 不过，被封印在惩戒之壶里的、胡帕的「解放形态」，是作为小智一行人的敌人登场的，对吧？
+- original: What's been confined in the Prison Bottle is Hoopa's true power.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 被封印在惩戒之壶里的，是胡帕真正的力量。
+- original: This power has built up a lot of "anger" due to its confinement.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这份力量因为被封印，积攒了大量的「愤怒」。
+- original: So this other... Hoopa that's taken the shape of Hoopa, it's sort of like Hoopa's anger that's taken physical form.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 所以这另一个……变成了胡帕模样的胡帕，可以说就像是胡帕的愤怒有了实体。
+- original: And then Satoshi and the real Hoopa fight it, setting up this huge confrontation.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 然后小智和真正的胡帕与它战斗，构成了这场宏大的对决。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/028.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: The small Hoopa meets Satoshi and they have an adventure together, so what's the relationship between Satoshi, Pikachu and Hoopa like?
   role: question
+  speaker: PocketMonsters.net
+  translation: 小胡帕遇到小智，一起经历了一场冒险，那么小智、皮卡丘和胡帕之间的关系是怎样的呢？
+- original: Hoopa is this really innocent little kid. However, it's unable to regain its original, true power.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 胡帕就是个非常天真的小孩子。但它无法取回原本真正的力量。
+- original: So Satoshi shows up and, true to himself, instantly develops this really straight and uncomplicated relationship with it. It's very unlike "Kyurem VS the Sacred Swordsman Keldeo", where Keldeo had a strong sense of duty and went to Satoshi for encouragement, treating him as his elder; here instead, Satoshi's relationship with Hoopa is much more spontaneous and feel kind of like an extension of them just playing together.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 于是小智出现了，他一如既往，立刻就和它建立起非常直率、单纯的关系。这和《酋雷姆VS圣剑士 凯路迪欧》很不一样——那部里凯路迪欧有很强的责任感，把小智当作前辈，去找他寻求鼓励；而这里，小智和胡帕的关系要自然得多，感觉就像是他们一起玩耍的延伸。
+  note: 《酋雷姆VS圣剑士 凯路迪欧》是2012年上映的宝可梦剧场版。
+- original: For Hoopa, the events that unfold are not about duty, but instead about doing something together, overcoming difficulties together, building this very straightforward friendship between it and Satoshi.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 对胡帕来说，故事中展开的事件并非关乎职责，而是关乎一起做某件事、一起克服困难，以及它与小智之间建立起的这种非常直接的友谊。
+- original: Hoopa is able to make anything and everything "Appear!" from its rings, and while it can use this to make people happy, one of the big themes in the movie is the discovery of important things that can't just be summoned from these rings.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 胡帕能够从它的圆环中让任何东西“出现！”，虽然它可以借此让人们开心，但电影的一大主题是发现那些无法仅凭这些圆环召唤出来的重要事物。
+- original: One of these important things is its relationship with Barza and Mary, which has developed over all the years they've been living together.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 其中一件重要事物就是它与巴尔扎和玛丽之间的关系，这种关系是在他们共同生活的这些年里逐渐发展起来的。
+- original: Another of them is Satoshi and his friends.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 另一件就是小智和他的伙伴们。
+- original: You'll get to see whether Hoopa manages to find something important when you watch the movie in the theater.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 胡帕是否设法找到了重要的事物，等你在影院观看电影时就能见分晓。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/029.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: In part 4, we will ask for details about the movie's setting and the battle between legendary Pokémon that unfolds there!
+  role: answer
+  speaker: 汤山邦彦
+  translation: 在第4部分中，我们将询问有关电影设定以及在那里展开的传说宝可梦之间战斗的细节！
 - type: heading
   level: 2
   original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #4 (2015/7/17)'
-  translation: '汤山邦彦总监督特别电影上映前专访 #4（2015年7月17日）'
-- original: 'Q: Since the movie is set in a desert city, you went scouting in Dubai, but what kind of place is this Désser City?'
-  translation: 问：由于电影设定在沙漠城市，您去了迪拜取景，那么荒漠市是一个怎样的地方呢？
-  speaker: Interviewer
+  translation: '汤山导演电影上映前特别采访 #4（2015/7/17）'
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/030.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: We're interviewing Director Yuyama about the movie's highlights!
+  translation: 我们正在就电影的精彩看点采访汤山导演！
+- original: Tomorrow is finally the movie's premiere day!
+  translation: 明天终于就是电影上映的日子了！
+- original: 'The big highlight of "The Archdjinni of Rings: Hoopa" is the "Legend VS Legend" concept!'
+  translation: 《光环的超魔神 胡帕》的一大看点就是“传说VS传说”的概念！
+- original: We'll now be asking questions regarding this battle between legendary Pokémon and the place where the battle takes place!
+  translation: 接下来我们要提问的是关于这场传说宝可梦之间的战斗，以及战斗发生的地点！
+- original: Since the movie is set in a desert city, you went scouting in Dubai, but what kind of place is this Désser City?
   role: question
-- original: is
-  translation: 是
-- original: 'Q: And what is the city''s iconic building, Désser Tower, based on?'
-  translation: 问：那么，这座城市的标志性建筑——荒漠之塔，是以什么为原型的呢？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 由于这部电影设定在一座沙漠城市，你们曾去迪拜取景，那么戴塞尔城是个什么样的地方？
+- original: The core concept is a place in the middle of a desert filled with hyper-modern skyscapers.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 核心概念是位于沙漠中央、布满超现代摩天大楼的地方。
+- original: That's the kind of place I wanted to have the legendary Pokemon rampage through.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我就是想让传说宝可梦在那种地方大肆破坏。
+- original: We started looking for places to base it off, and since Dubai is a hypermodern city in the middle of a desert full of skyscrapers, we decided to go there for our scouting.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我们开始寻找可以作为原型的场所，而迪拜正是一座位于沙漠中央、遍布摩天大楼的超现代城市，于是我们决定去那里取景。
+- original: Dubai isn't just a modern city, lots of older parts of the cityscape still remain there as well.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 迪拜不只有现代的一面，城市景观中仍保留着许多古老的区域。
+- original: The movie goes into the particulars of the great rampage Hoopa went on in the past, giving us a story that spans an entire 100 years, so we designed Désser City as a place where different time periods intermingle, making it a part historic and part modern place for legendary Pokémon to appear in.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 电影深入讲述了胡帕过去那场大破坏的细节，呈现了一个跨越整整一百年的故事，因此我们将戴塞尔城设计成一个不同时代交融的地方，既有历史感又具现代感，让传说宝可梦在此登场。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/031.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: And what is the city's iconic building, Désser Tower, based on?
   role: question
-- original: certain
-  translation: 某个
-- original: 'Q: Can you tell us the highlights of this intense battle being referred to as "Legend VS Legend"?'
-  translation: 问：您能告诉我们这场被称为“传说VS传说”的激烈战斗的精彩看点吗？
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 那么这座城市的地标建筑戴塞尔塔，是以什么为原型的呢？
+- original: Well, you see there's this giant ring on the top of the building, right?.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 嗯，你看，建筑顶部有一个巨大的圆环，对吧？
+- original: It's not based on any particular building in Dubai, but instead on... a certain Pokémon.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 它并非以迪拜的某座特定建筑为原型，而是以……某只宝可梦为原型。
+- original: You'll find out when you watch the movie.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 看了电影你就会知道。
+- original: Can you tell us the highlights of this intense battle being referred to as "Legend VS Legend"?
   role: question
-- original: 'Q: Finally, can you say a few words to the audience that are going to be watching the movie in the theater?'
-  translation: 问：最后，请对即将在影院观看这部电影的观众说几句话吧。
-  speaker: Interviewer
+  speaker: PocketMonsters.net
+  translation: 这场被称为“传说VS传说”的激烈战斗，能告诉我们它的看点吗？
+- original: Legendary Pokémon appear in the middle of this city filled with skyscrapers we've modeled after Dubai and a battle beteen them and Satoshi's side unfolds.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 传说宝可梦会出现在这座以迪拜为原型、高楼林立的城市中央，它们与小智一方的战斗就此展开。
+- original: We constructed the city they battle in entirely in 3D, and then you get Satoshi flying through it riding on Latios' back, taking part in this huge dogfight. This battle scene is the one part of the movie we put the most effort into and its absolute highlight.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 它们战斗的这座城市我们完全用3D构建，然后小智骑在拉帝欧斯背上穿梭其中，参与这场大规模的空中缠斗。这场战斗戏是整部电影中我们投入最多心血的部分，也是绝对的看点。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/032.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: There's also this sandstorm blowing during this scene.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 这个场景里还有沙尘暴在刮。
+- original: During our scouting, we went to the top of the Burj Khalifa (*the world's tallest building, at 828 meters), but when we looked down from it, it looked extremely foggy, almost as if a sea of clouds was hanging below us.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 在取景时，我们登上了哈利法塔（*世界最高建筑，高828米）的顶部，但从上面往下看时，那里雾蒙蒙的，几乎像是一片云海悬在我们脚下。
+  note: 哈利法塔位于阿联酋迪拜，2010年落成，高828米，为世界第一高楼。
+- original: It turned out this was a sandstorm blowing through.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 原来那是沙尘暴正在刮过。
+- original: It was evening then, and as we were watching the sun go down, I thought it'd be really cool to have the legendaries flying around the scene we were now watching.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 当时是傍晚，我们一边看着太阳落下，一边想，要是让传说宝可梦在我们眼前这片景色中飞翔，那一定会非常酷。
+- original: I think the finished movie scenes that resulted from that carry a real impact.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 我觉得由此完成的电影画面确实很有冲击力。
+- original: Finally, can you say a few words to the audience that are going to be watching the movie in the theater?
   role: question
-- original: 'Pokémon the Movie XY: The Archdjinni of Rings: Hoopa/Pikachu and the Pokémon Musicians finally premieres tomorrow, Saturday July 18th!  Summer means Pokémon! Go on an adventure with Hoopa, Pikachu and Satoshi in the theater!'
-  translation: 宝可梦剧场版XY《光轮的超魔神 胡帕》／《皮卡丘与宝可梦音乐家》终于将在明天，7月18日（周六）上映！  夏天就是宝可梦！ 和胡帕、皮卡丘、小智一起在影院展开冒险吧！
+  speaker: PocketMonsters.net
+  translation: 最后，能对即将在影院观看这部电影的观众说几句话吗？
+- original: This year we have a movie that features a battle between a lot of the legendary Pokémon that have starred in earlier movies on their own, so it's a real big-scale movie.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 今年我们的电影，是以许多过去曾在各自电影中担任主角的传说宝可梦之间的大战为看点的，所以是一部真正大规模的作品。
+- original: As such, in a sense it's the culmination of the 18 years' worth of Pokémon movies I've been making, and I'd like you to look forward to how that aspect gets across.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 因此，从某种意义上说，它是我制作了18年的宝可梦电影的一个集大成之作，希望大家能期待这一点是如何体现出来的。
+- original: I'd like you all to go watch and enjoy the movie in the theater.
+  role: answer
+  speaker: 汤山邦彦
+  translation: 希望大家都能去影院观看并享受这部电影。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/033.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: 'Pokémon the Movie XY: The Archdjinni of Rings: Hoopa/Pikachu and the Pokémon Musicians finally premieres tomorrow, Saturday July 18th!'
+  role: answer
+  speaker: 汤山邦彦
+  translation: 电影《宝可梦 XY 光环的超魔神 胡帕／皮卡丘与宝可梦音乐队》终于将在明天，7月18日星期六首映！
+- original: Summer means Pokémon!
+  role: answer
+  speaker: 汤山邦彦
+  translation: 夏天就是宝可梦！
+- original: Go on an adventure with Hoopa, Pikachu and Satoshi in the theater!
+  role: answer
+  speaker: 汤山邦彦
+  translation: 在影院与胡帕、皮卡丘和小智一起冒险吧！
 - type: heading
   level: 2
   original: '"Barza: Young"''s Model Sheets Appear! (2015/7/31)'
-  translation: “巴尔札：少年时代”官方人设资料公开！（2015/7/31）
+  translation: “巴尔札：少年时期”设定图公开！（2015/7/31）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_16_2377_settei_009a.jpg
-  alt: '"Barza: Young"''s Model Sheets Appear! (2015/7/31)'
-  caption: '"Barza: Young"''s Model Sheets Appear! (2015/7/31)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/034.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Barza grew up in Arkhē Valley together with Hoopa after its true powers had been confined.
+  translation: 巴尔札在阿尔凯山谷与真实力量被封印后的胡帕一起长大。
+- original: Here we're presenting the model sheets for him at that age.
+  translation: 这里我们展示的是他那个时期的设定图。
 - type: heading
   level: 2
   original: '"Mary: Young"''s Model Sheets Appear! (2015/8/7)'
-  translation: “梅雅利：少女时代”官方人设资料公开！（2015/8/7）
+  translation: “玛丽：少年时期”设定图公开！（2015/8/7）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_17_2382_settei_010a.jpg
-  alt: '"Mary: Young"''s Model Sheets Appear! (2015/8/7)'
-  caption: '"Mary: Young"''s Model Sheets Appear! (2015/8/7)'
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/035.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Mary grew up in Arkhē Valley together with Hoopa after its true powers had been confined.
+  translation: 玛丽在阿尔凯山谷与胡帕一同长大，当时胡帕真正的力量已被封印。
+- original: Here we're presenting the model sheets for her at that age.
+  translation: 这里我们展示的是她那个年龄段的设定图。
+- original: She even plays pranks on others together with Hoopa, which she sometimes gets scolded for!?
+  translation: 她甚至和胡帕一起捉弄别人，有时还会因此挨骂！？
 - type: heading
   level: 2
   original: Read It All in One Go During Obon Break! It Will Make You Want to Watch the Movie Once Again! A Special Reference Guide to the Pokemon Movie Channel! (2015/8/12)
   translation: 盂兰盆节假期一口气读完！会让你想再看一遍电影！宝可梦电影频道特别参考指南！（2015/8/12）
+  note: 盂兰盆节是日本夏季祭祖的节日，通常在8月中旬。
+- original: 'The currently screening movie "The Archdjinni of Rings: Hoopa" is a huge hit!'
+  translation: 目前正在上映的电影《光环的超魔神 胡帕》大受欢迎！
+- original: These are our recommendations for both those who are wondering whether to go see the movie or those who can't make up their mind if they want to see it again or not!
+  translation: 这些推荐既适合那些犹豫要不要去看电影的人，也适合那些拿不定主意要不要再看一遍的人！
+- original: Here is a presentation of the reading material currently published in the "Pokémon Movie Channel" that will make you enjoy the movie even more!
+  translation: 这里介绍的是目前发布在“宝可梦电影频道”上的阅读材料，能让你更享受这部电影！
+- original: '#1: A Special Movie Pre-Premiere Interview with Director Yuyama'
+  translation: '#1：电影上映前对汤山导演的特别采访'
+  note: 汤山邦彦是宝可梦系列多部剧场版动画的导演。
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/036.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: A personal interview with Director Yuyama about the movie's highlights.
+  translation: 对汤山导演的个人采访，谈论电影的精彩看点。
+- original: He goes deeply in detail about both this year's movies' thematics and the less glamorous bits of their production.
+  translation: 他深入详细地讲述了今年电影的主题以及制作中不那么光鲜的部分。
+- original: Recommended reading material for the kind of people that want to enjoy every single bit of a movie.
+  translation: 推荐给想要享受电影每一个细节的人的阅读材料。
 - original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #1'
-  translation: '汤山总监督电影上映前特别专访 #1'
+  translation: '汤山导演特别电影上映前采访 #1'
+  note: 汤山邦彦是宝可梦动画系列多部剧场版的导演。
 - original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #2'
-  translation: '汤山总监督电影上映前特别专访 #2'
+  translation: '汤山导演特别电影上映前采访 #2'
 - original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #3'
-  translation: '汤山总监督电影上映前特别专访 #3'
+  translation: '汤山导演特别电影上映前采访 #3'
 - original: 'A Special Movie Pre-Premiere Interview with Director Yuyama #4'
-  translation: '汤山总监督电影上映前特别专访 #4'
+  translation: '汤山导演特别电影上映前采访 #4'
+- original: '#2: The long-running serialization with a total of 14 parts! The Dubai Location Scouting Report!'
+  translation: '#2：总计14回的长篇连载！迪拜取景报告！'
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/037.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: This year, material was gathered on Dubai for use as the model for the movie's setting, "Désser City".
+  translation: 今年，为了用作电影舞台“戴塞尔城”的原型，我们在迪拜收集了素材。
+- original: This is a status report from that location scouting!
+  translation: 这是那次取景的报告。
+- original: If you've already watched the movie, you might find scenery that feels somewhat familiar!?
+  translation: 如果你已经看过电影，可能会发现有些风景似曾相识！？
+- original: And if you didn't travel anywhere during Obon Break... this can put you in the traveling mood, if only in spirit!
+  translation: 如果你在盂兰盆节假期没有去任何地方旅行……这至少能在心情上让你感受到旅行的氛围！
+  note: 盂兰盆节是日本夏季的传统节日假期。
 - original: 'Part 1: To the Desert City!'
   translation: 第1部分：前往沙漠之城！
 - original: 'Part 2: Baptism by Fiery Heat and the Marble Mosque'
-  translation: 第2部分：炎热的洗礼与大理石清真寺
+  translation: 第2部分：烈日酷热的洗礼与大理石清真寺
 - original: 'Part 3: The Persian Gulf and Arabian Life Now and Then'
-  translation: 第3部分：波斯湾与阿拉伯的古今生活
+  translation: 第3部分：波斯湾与阿拉伯生活的今昔
 - original: 'Part 4: Gold Coffee and the Water of Life'
   translation: 第4部分：黄金咖啡与生命之水
 - original: 'Part 5: To Old Dubai!'
   translation: 第5部分：前往老迪拜！
 - original: 'Part 6: Arabian Surprises'
-  translation: 第6部分：阿拉伯的惊奇
+  translation: 第6部分：阿拉伯的惊喜
 - original: 'Part 7: Souks! Souks! Souks!'
-  translation: 第七部分：集市！集市！集市！
+  translation: 第7部分：集市！集市！集市！
 - original: 'Part 8: Prayer and Sunset'
-  translation: 第八部分：祈祷与日落
+  translation: 第8部分：祈祷与日落
 - original: 'Part 9: Into the Desert'
-  translation: 第九部分：深入沙漠
+  translation: 第9部分：深入沙漠
 - original: 'Part 10: The Desert of the Red Sand'
-  translation: 第十部分：红沙之漠
+  translation: 第10部分：红沙沙漠
 - original: 'Part 11: The Burj Khalifa and World Records'
-  translation: 第十一部分：哈利法塔与世界纪录
+  translation: 第11部分：哈利法塔与世界纪录
+  note: 哈利法塔位于阿联酋迪拜，是世界最高建筑。
 - original: 'Part 12: The Fjords of the Middle East'
-  translation: 第十二部分：中东的峡湾
+  translation: 第12部分：中东的峡湾
 - original: 'Part 13: Palm Jumeirah and the Valley of Buildings'
-  translation: 第十三部分：朱美拉棕榈岛与建筑之谷
+  translation: 第13部分：朱美拉棕榈岛与建筑之谷
+  note: 朱美拉棕榈岛是迪拜海岸的人工群岛。
 - original: 'Final Part: The Location Scouting is Done'
-  translation: 最终部分：取景勘查完成
-  type: heading
-  level: 3
-- original: 'Summer Means Pokémon! A Report from the Premiere Day''s Stage Greetings: Part 1'
-  translation: 夏天就是宝可梦！首映日舞台问候报道：第一部分
-- original: 'Summer Means Pokémon! A Report from the Premiere Day''s Stage Greetings: Part 2'
-  translation: 夏天就是宝可梦！首映日舞台问候报道：第二部分
-- original: A Report from the Pre-Premiere
-  translation: 首映前报道
-- original: An Account From the Public Dubbing
-  translation: 公开配音实录
+  translation: 最终部分：取景勘察完成
+- original: '#3: Various event reports focusing on the guest voice actors'
+  translation: 第3篇：聚焦嘉宾配音演员的各类活动报道
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_18_2385_settei_001a.jpg
-  alt: Read It All in One Go During Obon Break! It Will Make You Want to Watch the Movie Once Again! A Special Reference Guide to the Pokemon Movie Channel! (2015/8/12)
-  caption: Read It All in One Go During Obon Break! It Will Make You Want to Watch the Movie Once Again! A Special Reference Guide to the Pokemon Movie Channel! (2015/8/12)
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/038.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: The Pokémon movie has a variety of guest voice actors creating an extravagant lineup this year as well!
+  translation: 宝可梦电影今年同样汇集了众多嘉宾配音演员，阵容豪华！
+- original: We have lots of detailed reports from the events that hyped up the Pokémon movie, such as the pre-premiere and the premiere day stage greetings! Those of you who didn't attend, make sure to check these out!
+  translation: 我们带来了大量为宝可梦电影造势的活动详细报道，包括首映前活动和首映日舞台问候！没能到场的各位，请务必看一看！
+- original: 'Summer Means Pokémon! A Report from the Premiere Day''s Stage Greetings: Part 1'
+  translation: 夏天就是宝可梦！首映日舞台问候报道：第1部分
+- original: 'Summer Means Pokémon! A Report from the Premiere Day''s Stage Greetings: Part 2'
+  translation: 夏天就是宝可梦！首映日舞台问候报道：第2部分
+- original: A Report from the Pre-Premiere
+  translation: 首映前活动报道
+- original: An Account From the Public Dubbing
+  translation: 来自公开配音的记述
+- original: '#4: Have fun looking at the model sheets!'
+  translation: 第4回：请欣赏设定图！
+- type: image
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/039.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: We've presented model sheets for the movie in "Appear! Movie Information"!
+  translation: 我们在“登场！电影信息”中展示了电影的设定图！
+- original: It's a good idea to take a second look at the model sheets after you've watched the movie, too!
+  translation: 看完电影后再回头看看设定图也是个好主意！
 - original: '"Barza"''s Model Sheets Appear!'
-  translation: 「巴尔札」官方人设公开！
+  translation: “巴尔扎”的设定图登场！
 - original: '"Barza: Young"''s Model Sheets Appear!'
-  translation: 「巴尔札：青年期」官方人设公开！
-  type: heading
-  level: 3
+  translation: “巴尔扎：少年”的设定图登场！
 - original: '"Mary"''s Model Sheets Appear!'
-  translation: 「梅雅利」官方人设公开！
+  translation: “玛丽”的设定图登场！
 - original: '"Mary: Young"''s Model Sheets Appear!'
-  translation: “梅雅利（幼年）”官方人设资料公开！
+  translation: “玛丽：少年”的设定图登场！
 - original: '"The Traveler"''s Model Sheets Appear!'
-  translation: “旅人”官方人设资料公开！
+  translation: “旅行者”的设定图登场！
 - original: Concept Art for "Arkhē Valley and its Residents" Appear!
-  translation: “创世之谷及其居民”概念艺术图公开！
+  translation: “阿尔凯山谷及其居民”的概念艺术登场！
 - original: The "Prison Bottle"'s Model Sheets Appear!
-  translation: “惩戒之壶”官方人设资料公开！
+  translation: “惩戒之壶”的设定图公开！
 - original: '"Désser City" Concept Art Appears!'
-  translation: “荒漠市”概念艺术图公开！
+  translation: “荒漠市”的概念图公开！
 - original: '"Désser Tower" Concept Art Appears!'
-  translation: “荒漠之塔”概念艺术图公开！
+  translation: “荒漠塔”的概念图公开！
 - original: Concept Art for "The Short's Setting" Appear!
-  translation: “短篇舞台设定”概念艺术图公开！
+  translation: “短篇舞台设定”的概念图公开！
+- original: The Pokémon Summer is still not over!
+  translation: 宝可梦的夏天还没有结束！
+- original: 'The currently screening double feature "Pokémon the movie XY: The Archdjinni of Rings - Hoopa/Pikachu and the Pokémon Musicians" is a huge hit!'
+  translation: 正在上映的双片连映《宝可梦 XY 剧场版 光环的超魔神 胡帕／皮卡丘与宝可梦乐队》大受欢迎！
 - type: heading
   level: 2
   original: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
-  translation: “年迈的旅人”官方人设资料公开！（2015/8/14）
+  translation: “老旅行者”的设定图公开！（2015/8/14）
 - type: image
-  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/movie18_yuyama_19_2386_settei_011a.jpg
-  alt: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
-  caption: '"The Aged Traveler"''s Model Sheets Appear! (2015/8/14)'
-interviewee: Interviewer
-original_lang: en
-summary: "2015年宝可梦剧场版《光轮的超魔神 胡帕》与短篇《皮卡丘与宝可梦音乐家》上映前后，官方频道发布总监督汤山邦彦的四篇专访及系列设定资料。汤山谈及短篇以宝可梦叫声构成音乐、剧场版以沙漠城市荒漠市为舞台、荒漠之塔的取景原型，以及胡帕的解放形态与惩戒之壶、小智一行人与胡帕的关系、传说宝可梦对决。资料还公开巴尔札、梅雅利、旅人等角色各时期人设与概念艺术图，并记录迪拜取景勘查。影片于2015年7月18日在日本上映。"
-dek: "汤山邦彦谈2015年剧场版胡帕与宝可梦叫声音乐短篇。"
-topics:
-- "动画制作"
-- "角色设计"
-- "地区设定"
-- "传说宝可梦"
-- "音乐制作"
-entities:
-  people:
-  - "汤山邦彦"
-  works:
-  - "宝可梦 动画系列"
-  organizations:
-  - "株式会社ポケモン"
-mentions:
-  people: []
-  works:
-  - "宝可梦：光轮的超魔神 胡帕"
-  - "宝可梦：皮卡丘与宝可梦音乐家"
+  image: /assets/img/interviews/2015-07-14-interview-movie18-yuyama-hoopa-model-sheets/040.jpg
+  alt: A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets
+- original: Barza and Mary's great-grandfather.
+  translation: 巴尔扎和玛丽的曾祖父。
+- original: He's the person who sealed Hoopa's true power in the "Prison Bottle" when it went on a rampage in Désser City 100 years ago, but his story continued after that!
+  translation: 100年前，胡帕在荒漠市大肆破坏时，正是他将胡帕真正的力量封印进“惩戒之壶”，但他的故事在那之后仍在继续！
+- original: This page has been viewed 26234 times.
+  translation: 此页面已被浏览 26234 次。
+- original: Last updated 19 May 2016 11:55 by Adamant.
+  translation: 最后更新于2016年5月19日 11:55，由Adamant发布。
+- original: 'Revision #18'
+  translation: '修订版本 #18'
+- original: 'Page Tags: Anime Interview Movie Pocket Monsters XY Movie Blog'
+  translation: 页面标签：动画 访谈 电影 宝可梦 XY 电影博客
+era: '2013'
 ---

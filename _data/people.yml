@@ -1018,6 +1018,13 @@
 - name: 赤羽卓美
   slug: chi-yu-zhuo-mei
   credits_key: akabane takumi
+  portraits:
+  - image: /assets/img/people/chi-yu-zhuo-mei-2001.jpg
+    year: 2001
+    source: N.O.M 2001-11 ポケモンカードe 開発者インタビュー（赤羽卓美さん）
+    post: 2001-11-01-interview-nom-2001-pokemon-card-e-creatures
+  avatar: /assets/img/people/chi-yu-zhuo-mei.jpg
+  avatar_source: N.O.M 2001-11 ポケモンカードe 開発者インタビュー（赤羽卓美さん）
 - name: 久須美龍太
   slug: jiu-xu-mei-long-tai
   credits_key: kusumi ryuta
@@ -1028,17 +1035,33 @@
     post: 2001-11-01-interview-nom-2001-pokemon-mini-developers
   avatar: /assets/img/people/jiu-xu-mei-long-tai.jpg
   avatar_source: N.O.M 2001-11 ポケモンミニ開発者インタビュー（久須美龍太さん）
-- name: 小澤
-  slug: xiao-ze
-- name: 松村
-  slug: song-cun
-- name: 多和田
-  slug: duo-he-tian
+- name: 小澤宗明
+  slug: ozawa-muneaki
+  credits_key: muneaki ozawa
+  aliases:
+  - 小澤
+  - 小沢宗明
+  - Muneaki Ozawa
+- name: 松村憲男
+  slug: matsumura-norio
+  credits_key: matsumura norio
+  aliases:
+  - 松村
+  - Norio Matsumura
+- name: 多和田吏
+  slug: tawada-tsukasa
+  credits_key: tawada tsukasa
+  aliases:
+  - 多和田
+  - Tsukasa Tawada
 - name: 山名学
   slug: shan-ming-xue
   credits_key: manabu yamana
 - name: 折尾
-  slug: zhe-wei
+  slug: orio-kazunori
+  credits_key: kazunori orio
+  aliases:
+  - Kazunori Orio
 - name: 松本梨香
   slug: matsumoto-rica
   aliases:
@@ -1362,6 +1385,13 @@
 - name: 河本拓
   slug: he-ben-tuo
   credits_key: kawamoto taku
+  portraits:
+  - image: /assets/img/people/he-ben-tuo-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 リーダーズ（河本拓）
+    post: 2014-05-01-interview-tpc-leaders-challenge
+  avatar: /assets/img/people/he-ben-tuo.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 リーダーズ（河本拓）
 - name: 高桥伸也
   slug: takahashi-shinya
   aliases:
@@ -1374,8 +1404,6 @@
 - name: 齐田和生
   slug: qi-tian-he-sheng
   credits_key: kazuki saita
-- name: Kevin Knezevic
-  slug: kevin-knezevic
 - name: 江上周作
   slug: egami-shusaku
   credits_key: egami shusaku
@@ -1605,8 +1633,22 @@
 - name: 鹿瀬島英介
   slug: lu-lai-dao-ying-jie
   credits_key: eisuke kasejima
+  portraits:
+  - image: /assets/img/people/lu-lai-dao-ying-jie-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）
+    post: 2014-05-01-interview-tpc-leaders-challenge
+  avatar: /assets/img/people/lu-lai-dao-ying-jie.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）
 - name: 福嶋ゆかり
   slug: fu-dao
+  portraits:
+  - image: /assets/img/people/fu-dao-2014.jpg
+    year: 2014
+    source: 株式会社ポケモン 採用情報 2014 リーダーズ（福嶋ゆかり）
+    post: 2014-05-01-interview-tpc-leaders-challenge
+  avatar: /assets/img/people/fu-dao.jpg
+  avatar_source: 株式会社ポケモン 採用情報 2014 リーダーズ（福嶋ゆかり）
 - name: 大奈路まりな
   slug: da-nai-lu
   portraits:

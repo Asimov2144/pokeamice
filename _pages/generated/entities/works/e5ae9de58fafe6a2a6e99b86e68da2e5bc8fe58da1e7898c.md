@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦集换式卡牌游戏</h2>
-    <span>9 篇文章 · 0 条评注 · 2024 / 2021 / 2016 / 2012 / 2009 / 2007</span>
+    <span>13 篇文章 · 0 条评注 · 2024 / 2021 / 2017 / 2016 / 2012 / 2009 / 2007 / 2001</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -31,8 +31,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · Creatures Inc. Official Special Talk</p>
+  <p>2021 · interview_translation · SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）</p>
   <h3><a href="/采访/开发者访谈/宝可梦剑盾/公司与战略/interview-creatures-history-special-ishihara-tanaka/">Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation · 「ポケモン」新たな遊び開拓続けた25年　石原恒和社長、核“人との繋がり”に手応え</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-oricon-2021-ishihara-25th/">ORICON NEWS 2021：宝可梦25周年 石原恒和谈人与人的联系</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
   <span></span>
 </article>
 
@@ -70,6 +82,18 @@ search: false
   <p>2007 · gamefreak_director_column · 増田部長のめざめるパワー 第70回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-070/">[GameFreak部长专栏] 第70回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 周六上午，我去了次世代世界兴趣博览会！ 从东京出发的电车上，孩子们已经沉浸在游戏的世界里了。 大家玩着各种各样</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／株式会社ポケモン 代表取締役社長 石原恒和氏インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-ishihara-tsunekazu-pokemon-world/">N.O.M 2001年11月号：宝可梦社长石原恒和谈宝可梦迷你与卡牌e</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2001 · interview_translation · 未来へ広がるポケモンワールド／ポケモンカードe・カードeリーダー開発者インタビュー｜Nintendo Online Magazine 2001年11月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2001-pokemon-card-e-creatures/">N.O.M 2001年11月号：宝可梦卡牌e与卡牌e读取器开发者访谈</a></h3>
+  <span></span>
 </article>
 
   </section>

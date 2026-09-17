@@ -61,7 +61,7 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
   文件夹里早先抓了没放的文件直接复用）；WordPress 的 `-600x400` 与 gamer.ne.jp 的 `/m/` 都换成原图；纯文字图（catch_text/serif/line）、图标、横幅、原页日期之后才上传的"相关报道"图都不要；
   >300 KB 压 1280px JPEG；帖子正文不是原页文字的（意译/只有译文）判"对不上"跳过。结果：49 篇 +552 张（社長が訊く 13 章、N.O.M 3、Nintendo Power 2、
   電ファミ/ファミ通/4Gamer 的 CEDEC 报道、田尻漫画 55 页、電撃 30 年专栏 52 张……），`design/augment_images_2026-09.json` 是逐篇记录。
-  还剩：①25 篇当时带别人未提交改动，跳过了——工作区干净后 `python tools/augment-images.py --all` 再跑一遍即可（记录里没写进的会重做）；
+  还剩：①25 篇当时带别人未提交改动——2026-09-17 深夜用 `tools/head-base-run.py`（把帖子临时换成 HEAD 版本跑工具、结果存 blob、再把别人的改动铺回去）补完了 19 篇 +159 张，其中 4 张收成头像（河本拓、福嶋ゆかり、鹿瀬島英介、赤羽卓美）；
   ②5 篇正文对不上原页，要用 import-web 重导（N.O.M 2002 RS 杉森/増田 两篇、剧场版 18 模型稿、FUN'S PROJECT 西田、GameSpot 2018-10-17）；
   ③抓不到的：Game Informer 旧 CDN 全灭（6 篇 22 张，Wayback 也没有）、Creatures 公司史的 SVG 文字图、pokemon.co.jp 2014 的 5 张、Steinberg 1 张。
   電撃 2026 专栏的旧图仍是热链（cimg.kgl-systems.io），未本地化。
@@ -75,8 +75,11 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 - 重复导入：按 source_url 归并后一共 15 对（GF 部长博客同月多篇、招聘页两篇同页的不算）。2026-09-17 已并 8 对：Denfami 2017 后篇（`92d68c17`）、
   田尻漫画（raw 版 → 整理版）、CGWORLD Creatures 2017、FUN'S 西田（09-10 → 06-25 対談完整版）、GI 2017-08-10、GlitterBerri 前后篇（research 版并入完整版，标题/题注搬过去）、
   kakeru 网站黎明期——用 `tools/fold-duplicate.py <退休> <保留> [--title]`（保留篇补齐 dek/summary/topics/tags/entities，redirect 存根，烤好的卡片换掉，图删）。
-  还带别人未提交改动、没动的：G4TV 白金 2009-03-24 vs 2013-01-11、Creatures 20 周年 2015 vs 2021、Nintendo Power 白金 2009-04-01 vs 05-01、GI 2017-08-14 两篇、
-  GameSpot 2018-10-17 vs 10-18、pocketmonsters USUM 2017-10-19 vs 11-09、sunanohi 1997 vs 2000。烤好的列表和 `resource-index.json` 等工作区干净后 `ruby tools/build-resource-index.rb` 重建。
+  又并了 4 对：G4TV 白金（2013 raw → 2009）、Nintendo Power 白金（05-01 → 04-01 完整版，标题搬过去）、GameSpot LGPE（10-18 → 10-17；记者 Kevin Knezevic 从人物库删）、
+  Creatures（页面其实是 2020 年 25 周年，2015 的"20 周年"帖是错的——2021 帖按原页重导（import-web 新增 `unmarked: question`、`bold_question: false`、`join_br`），再把 2015 并进去）。
+  剩 3 对是另一会话真的改了的：GI 2017-08-14 两篇、pocketmonsters USUM 2017-10-19 vs pokemon-com 11-09、sunanohi 1997 vs 2000。
+  烤好的列表和 `resource-index.json` 已用 `ruby tools/build-resource-index.rb` 重建（别人未提交的两篇 ndream 扫描的卡片手工去掉）。
+- 剧场版 18 模型稿页已重导（253 项、40 张图，`Q:` 记问、`bold_question: false`）；只署姓的 小澤宗明／松村憲男／多和田吏 已改全名（旧 slug redirect），折尾 挂上 credits_key。
 - **受访者头像**（2026-09-17）：审核了访谈的 entities.people（游戏角色、提问的记者移出，11 篇；社長が訊く 的岩田聪保留；首藤手记 39 篇的动画角色标注是有意为之、未动；
   2 篇脏文件未处理：pokemon-com-usum-ohmori-iwao 的 坂木/古兹马、recruit-business-anatomy）。用访谈自带、图注点名的照片补了 12 人头像（尾上将之两张、大洞翔一、森彰人、江上周作、
   河合敬一、野村达雄、田中宏和、CGWORLD 的 氏家淳子/中广健吾/畠祐贵 按原页标题顺序、河内丸武史 G4TV 合影右侧框；冈崎体育 取自 Bulbagarden）。

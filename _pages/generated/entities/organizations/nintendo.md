@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Nintendo</h2>
-    <span>17 篇文章 · 0 条评注 · 2019 / 2018 / 2017 / 2016 / 2015 / 2014 / 2013 / 2009 / 2004 / 2000</span>
+    <span>17 篇文章 · 0 条评注 · 2021 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2009 / 2004 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,26 +19,32 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2021 · interview_translation · SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）</p>
+  <h3><a href="/采访/开发者访谈/宝可梦剑盾/公司与战略/interview-creatures-history-special-ishihara-tanaka/">Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak Illustration Video Series Tackles The Making Of HarmoKnight And Drill Dozer</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-siliconera-harmoknight-drill-dozer/">[访谈翻译] Siliconera 专访 Game Freak 插画视频系列：《节奏骑士》与《钻地少女》开发揭秘</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · GS LGPE采访</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamespot-lgpe-masuda/">[访谈翻译] GameSpot 专访增田顺一：《Let&#39;s Go！皮卡丘／伊布》如何重塑《宝可梦 黄》</a></h3>
+  <p>2018 · interview_translation · GameSpot</p>
+  <h3><a href="/interview-gamespot-lgpe-masuda/">GameSpot 独家深度专访：增田顺一谈《宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布》如何为新世代重塑《宝可梦 黄》</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · Helix Chamber</p>
+  <p>2018 · developer-interviews</p>
   <h3><a href="/developer-interviews/research-archives/research-helixchamber-satoshi-tajiri-manga/">Helix Chamber 深度特写：解读田尻智自传漫画——初代胶囊怪兽草案、1992年内部人气投票与失落原案全考证</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2018 · interview_translation · Early Concept Art 宝可梦早期概念美术</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">[访谈翻译] Early Concept Art 宝可梦早期概念美术</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）</a></h3>
   <span></span>
 </article>
 
@@ -67,14 +73,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2015 · interview_translation · Creatures history special interview</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-creatures-20th-anniversary/">[访谈翻译] Creatures 成立20周年特别对谈：石原恒和 × 田中宏和 回顾宝可梦黎明期</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2014 · interview_translation · 初代概念美术整理 EN</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">[访谈翻译] 初代概念美术整理 EN</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">GlitterBerri 游戏翻译 1990：《胶囊怪兽》企划书标题页、设计前提与关都计划</a></h3>
   <span></span>
 </article>
 
@@ -91,14 +91,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2013 · interview_translation · Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-junichi-masuda-takeshi-kawachimaru/">[访谈翻译] Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</a></h3>
+  <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] Nintendo Power 2009 增田顺一专访：第一至第四世代宝可梦的演进与《白金》</a></h3>
+  <p>2009 · interview_translation · Junichi Masuda &amp; Takeshi Kawachimaru Talk &#39;Pokemon Platinum&#39;, Particle Physics, Bridges, And More!</p>
+  <h3><a href="/interview-g4tv-platinum-masuda-kawachimaru/">G4TV 专访增田顺一与河内丸武史：解析《宝可梦 白金》粒子物理、反转世界与骑拉帝纳</a></h3>
   <span></span>
 </article>
 
@@ -110,7 +110,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2000 · interview_translation · インターネットにおけるポケモンサイト黎明期の記憶 金銀発売前の整理</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-05-01-kakeru-pokemon-site-dawn/">[访谈翻译] 互联网宝可梦网站黎明期的记忆：金银发售前的整理</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-05-01-kakeru-pokemon-site-dawn/">宝可梦互联网络黎明期记忆：从初代红绿通信论坛、梦幻都市传说到金银发售狂热全记录</a></h3>
   <span></span>
 </article>
 

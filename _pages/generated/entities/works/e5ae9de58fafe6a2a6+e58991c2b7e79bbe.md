@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 剑·盾</h2>
-    <span>21 篇文章 · 0 条评注 · 2023 / 2022 / 2021 / 2019</span>
+    <span>30 篇文章 · 0 条评注 · 2023 / 2022 / 2021 / 2020 / 2019</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -32,7 +32,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2022 · interview_translation · 『アルセウス』と『スカーレット・バイオレット』を同時に作るポケモンモデルの制作環境とは？ 共通化されたポケモンモデルにタイトルごとの個性をつけていく【CEDEC 2022】</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">[访谈翻译] CEDEC 2022 专访报告：Game Freak 如何双轨并行开发《传说 阿尔宙斯》与《朱·紫》？千种宝可梦资产通用化与差异化渲染管线</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">电Fami Nico Gamer 2022：GAME FREAK前泽圭一谈《阿尔宙斯》与《朱·紫》的宝可梦模型共通化</a></h3>
   <span></span>
 </article>
 
@@ -98,6 +98,12 @@ search: false
 
 <article class="resource-network-card">
   <p>2021 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/">GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）</a></h3>
   <span></span>
 </article>
@@ -115,8 +121,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2020 · interview_translation · Pokemon Business Professionals</p>
+  <h3><a href="/developer-interviews/official-archives/interview-tpc-business-professionals/">宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Going Big</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-going-big/">Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · 「ポケットモンスター ソード・シールド」インタビュー。「最強」をテーマに，子供たちが楽しめるものを目指して</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-sword-shield-ohmori-masuda-strongest/">[访谈翻译] 4Gamer《宝可梦 剑·盾》发售纪念专访：大森滋与增田顺一详解“最强”设计哲学、极巨化与伽勒尔生态</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · 『ポケモン ソード・シールド』ポケモン育成の進化やオートセーブの実装など気になる話題が続々！ ゲームフリーク増田順一氏＆大森滋氏インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2019-swsh-autosave/">Fami通.com 2019：增田顺一与大森滋谈《宝可梦 剑·盾》培育与自动存档</a></h3>
   <span></span>
 </article>
 
@@ -127,8 +151,38 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2019 · interview_translation · Pokemon Sword &amp; Shield interview: &quot;we have no regrets&quot; around the national dex</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/">VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak explains the 1,000 staff, missing creatures, and leek size of Pokémon Sword and Shield</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-polygon-2019-swsh/">Polygon 2019：增田顺一与大森滋谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Game Freak Talks Sword And Shield&#39;s Champion, Wild Area Interactions, And More</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-champion/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · More Burning Questions For The Pokémon Series</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-burning/">Game Informer 2019：大森滋与增田顺一谈《宝可梦 剑·盾》杂谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak&#39;s Junichi Masuda and Shigeru Ohmori talk inspiration, Sirfetch&#39;d, and pressure from Pokémon fans</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-ohmori-sword-shield-dex-sirfetchd/">[访谈翻译] Eurogamer 独家专访：增田顺一与大森滋谈灵感来源、葱游兵与全国图鉴风波下的创作者压力</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Pokémon Cut From Sword And Shield&#39;s National Pokédex Will Return In The Future</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-dexit/">Game Informer 2019：增田顺一谈《宝可梦 剑·盾》图鉴削减与未来回归</a></h3>
   <span></span>
 </article>
 

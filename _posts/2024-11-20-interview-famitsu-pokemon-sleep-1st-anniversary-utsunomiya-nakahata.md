@@ -485,6 +485,9 @@ parallel_items:
   translation: 正因为是少数人的团队，才能做到许多事情。当然，我们公司也有团队，但如果没有SELECT BUTTON的轻快敏捷，以及那种将想法迅速付诸实践的速度感，我们恐怕无法走到今天这一步。再次由衷感谢他们。另外，虽然重复了多次，我对用户们也充满感激。《Pokémon Sleep》毫无疑问是依靠大家才得以成立的。我认识到这绝非单纯的游戏，而是更深入触及个人生活的内容。它并不是那种理所当然会被游玩的作品。尽管如此，大家依然接纳了这款游戏，真的非常感谢。今后，我们也会不断让《Pokémon Sleep》成长，努力使其扎根于大家的生活之中，请继续多多关照。
   speaker: 宇都宫崇人
   role: answer
+- type: image
+  image: /assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/022.jpg
+  alt: 週刊ファミ通表紙
 interviewee: 中畑虎也, 塚田拓実, 宇都宫崇人, 宮川佳祐
 source:
   title: 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及

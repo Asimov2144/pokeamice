@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦传说 阿尔宙斯</h2>
-    <span>16 篇文章 · 0 条评注 · 2024 / 2023 / 2022 / 2021</span>
+    <span>18 篇文章 · 0 条评注 · 2024 / 2023 / 2022 / 2021 / 2020</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -50,7 +50,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2022 · interview_translation · 『アルセウス』と『スカーレット・バイオレット』を同時に作るポケモンモデルの制作環境とは？ 共通化されたポケモンモデルにタイトルごとの個性をつけていく【CEDEC 2022】</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">[访谈翻译] CEDEC 2022 专访报告：Game Freak 如何双轨并行开发《传说 阿尔宙斯》与《朱·紫》？千种宝可梦资产通用化与差异化渲染管线</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">电Fami Nico Gamer 2022：GAME FREAK前泽圭一谈《阿尔宙斯》与《朱·紫》的宝可梦模型共通化</a></h3>
   <span></span>
 </article>
 
@@ -91,6 +91,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2021 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2021 · interview_translation · プログラマ対談：「新しい遊び」創りに、終わりはない。プログラマが、その原動力に。</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-programmer/">GAME FREAK 官方对谈 程序员篇：创造“崭新玩法”永无止境——程序员是其真正的原动力（T.T. × M.O.）</a></h3>
   <span></span>
@@ -111,6 +117,12 @@ search: false
 <article class="resource-network-card">
   <p>2021 · interview_translation · ポケモン式ジョブローテーションによって得られる「変化への対応力」とは</p>
   <h3><a href="/developer-interviews/industry-interviews/interview-newspicks-pokemon-job-rotation/">NewsPicks 独家专访宝可梦公司役员大洞翔一 × 今村啓太：千亿IP背后的“组织应变力”——轮岗机制、音乐短片〈GOTCHA!〉诞生记与全日本宝可梦井盖哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2020 · interview_translation · Pokemon Business Professionals</p>
+  <h3><a href="/developer-interviews/official-archives/interview-tpc-business-professionals/">宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学</a></h3>
   <span></span>
 </article>
 

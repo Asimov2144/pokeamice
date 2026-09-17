@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>宫本茂</h2>
-    <span>4 篇文章 · 0 条评注 · 2013 / 2011 / 2007 / 1999</span>
+    <span>5 篇文章 · 0 条评注 · 2014 / 2013 / 2011 / 2007 / 1999</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2014 · interview_translation · 初代概念美术整理 EN</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">GlitterBerri 游戏翻译 1990：《胶囊怪兽》企划书标题页、设计前提与关都计划</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第238回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-238/">[GameFreak部长专栏] 第238回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 关于6月11日在洛杉矶举行的E3！ 这次，任天堂岩田社长向我发出了邀请， 让我在E3会场内举办的“开发者圆桌会</span>

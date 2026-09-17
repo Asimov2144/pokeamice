@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 动画系列</h2>
-    <span>38 篇文章 · 0 条评注 · 2009 / 2008</span>
+    <span>47 篇文章 · 0 条评注 · 2022 / 2021 / 2018 / 2016 / 2015 / 2010 / 2009 / 2008 / 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,33 +19,81 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2022 · interview_translation · Special Interview 「最初の１年を振り返る」｜株式会社ポケモン採用情報</p>
+  <h3><a href="/interviews/interview-tpc-recruit-new-generation/">宝可梦公司官方专访 新人篇：回顾这一年——在数千亿IP舞台上找寻角色定位与蜕变</a></h3>
+  <span>本篇访谈译自株式会社宝可梦（The Pokémon Company）官方招聘网站特别专栏。来自不同国家、拥有多元学术背景的新卒一代在此畅谈初入宝可梦公司的真实体验、业务监修的心得以及企业长青的核心哲学。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation · 特集 編集とは何か。12 小学館 久保雅一さん</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-hobonichi-2021-kubo/">ほぼ日 2021：小学馆久保雅一谈编辑与宝可梦——「編集とは何か」特集</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · グラフィックデザイナー・イラストレーター にしだあつこ対談 - 中川翔子のポップカルチャー・ラボ</p>
+  <h3><a href="/访谈翻译/角色设计/对谈/interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/">FUN&#39;S PROJECT 独家对谈：皮卡丘之母西田敦子 × 中川翔子角色设计特辑——从大福饼、松鼠颊囊到点阵原画与女性创作者心得</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
+  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · A Special Movie Pre-Premiere Interview with Director Yuyama &amp; Official Model Sheets</p>
+  <h3><a href="/developer-interviews/official-archives/interview-movie18-yuyama-hoopa-model-sheets/">宝可梦剧场版官方频道深度专访：总监督汤山邦彦谈〈光轮的超魔神 胡帕〉、传说宝可梦大决战与全设定画精选</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · Special Interview 「ポケモンビジネス、徹底解剖」</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-business-anatomy/">宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”</p>
+  <h3><a href="/developer-interviews/music-archives/interview-cd-anime-ost-miyazaki-soundteam/">动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第180回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch180/">[访谈翻译] 首藤刚志动画创作手记 第180回：宝可梦的眼泪与超梦的记忆消除（奇迹生命的共鸣、原定终章伏笔回收与全员遗忘的宿命悲剧）</a></h3>
-  <span>lead: “宝可梦的眼泪究竟代表着什么？超梦为何必须将全员记忆无情抹去？”首藤刚志以近乎手术刀般的剖析，揭开了影史最为震撼的真相：那不是弱者的廉价眼泪，而是全生灵因自相残杀而痛失至宝时、由物种本质共振出的“纯粹丧失感”！而结尾的全员失忆，绝非回归TV日常的商业妥协，更是超梦为了守护克隆同胞免遭凡俗偏见屠戮的悲壮避难所——直到它能堂堂正正宣告“我就在这里”的</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 180</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第179回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch179/">[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）</a></h3>
-  <span>lead: “小智为何必须石化？皮卡丘为何疯狂释放绝望电击？”初代总编剧首藤刚志首次从剧作哲学层面揭开影史催泪名场面的终极真相：小智的石化绝非规避儿童死亡管制的廉价妥协，而是一个身处对战狂热世界深处的少年、在潜意识中以肉身否定对战时所必经的精神与物理双重悖论固化！皮卡丘那段让全世界观众心碎的电击，是在撕心裂肺地呼唤那个“在狂暴世界中敢于站出来阻止杀戮”的唯一</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 179</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第178回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch178/">[访谈翻译] 首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）</a></h3>
-  <span>lead: 在小田原冰冷刺骨的海风中，初代总编剧首藤刚志做出了全系列史上最壮烈、最具颠覆性的剧作决断：既然我受邀担任系列构成，我就绝不充当商业对战游戏的克隆应声虫！哪怕彻底颠覆战斗本身的合理性，我也必须写出连自己的灵魂都能由衷信服的奇迹高潮！ items: - type: heading level: 2 original: 第178回　『ポケモン』映画版は</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 178</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第177回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch177/">[访谈翻译] 首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 177</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第175回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch175/">[访谈翻译] 首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 175</span>
 </article>
 
 <article class="resource-network-card">
@@ -243,6 +291,12 @@ search: false
 <article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第138回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch138/">[访谈翻译] 首藤刚志动画创作手记 第138回：在谈论『宝可梦』之前……（失业编剧与汤山邦彦的一通电话）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2000 · interview_translation · ポケモンから広がる世界／「ポケモン大ヒットの秘密をさぐる」小学館 久保雅一さんインタビュー｜Nintendo Online Magazine 2000年6月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2000-kubo-masakazu-pokemon-hit/">N.O.M 2000年6月号：久保雅一谈宝可梦的媒体展开</a></h3>
   <span></span>
 </article>
 

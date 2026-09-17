@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 朱·紫</h2>
-    <span>12 篇文章 · 0 条评注 · 2024 / 2023 / 2022 / 2021</span>
+    <span>18 篇文章 · 0 条评注 · 2026 / 2024 / 2023 / 2022 / 2021</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · ポケモン勝負の進化を支える、バトルシステムの基盤設計と運用事例</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2026-battle-system-deck/">CEDEC 2026：宝可梦对战进化所支撑的战斗系统基础设计与运用案例（宗像快、小幡敏宏）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2024 · interview_translation · Special Interview 「デザイナーの仕事と目線」（Pokémon × デザイナー）</p>
   <h3><a href="/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-designer/">宝可梦公司官方设计师特别对谈：设计师的工作与视野——守护宝可梦之魂与世界观拓展（町田 × 李 × 川岛 × 永山 × 为藤）</a></h3>
   <span></span>
@@ -43,14 +49,44 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2023 · interview_translation · ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-paldea-rendering-pipeline-maeza/">[访谈翻译] 4Gamer CEDEC 2023 报告：前泽圭一详解《宝可梦 朱·紫》帕底亚全开放世界视觉呈现与流式渲染管线</a></h3>
+  <p>2023 · interview_translation · 鳴き声で『ポケモン』世界のリアリティを生み出す。リアルな環境音を作り上げるヒントは山の中にあった【CEDEC2023】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2023-cedec-sound/">Fami通.com 2023：一之濑刚等谈宝可梦环境叫声与环境音的制作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケモンSV』リアル調の世界とキュートな『ポケモンらしさ』を両立したビジュアル表現を徹底解説。「パルデア地方」の作り方や表情豊かな主人公の表現を紹介するセッションをレポート【CEDEC 2023】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2023-cedec-visual/">电Fami Nico Gamer（電ファミニコゲーマー） 2023：Game Freak前泽圭一谈《宝可梦 朱·紫》视觉表现与帕底亚地区制作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケットモンスター スカーレット・バイオレット』メイキング［PART3］様々なものに興味をもち、ポケモン表現の幅を広げていく</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cgworld-2023-sv-making-3/">CGWORLD.jp 2023：Creatures 动画师谈《宝可梦 朱·紫》宝可梦动作制作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cgworld-2023-sv-making-2/">CGWORLD.jp 2023：Creatures动画师谈《宝可梦 朱·紫》动作制作</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2023 · interview_translation · 『ポケットモンスター スカーレット・バイオレット』メイキング［PART1］扱う動きの幅が広い上に、いろいろなアイデアが求められる</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cgworld-2023-sv-making-1/">CGWORLD.jp 2023：Creatures 谈《宝可梦 朱·紫》动画制作</a></h3>
   <span></span>
 </article>
 
@@ -62,7 +98,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2022 · interview_translation · 『アルセウス』と『スカーレット・バイオレット』を同時に作るポケモンモデルの制作環境とは？ 共通化されたポケモンモデルにタイトルごとの個性をつけていく【CEDEC 2022】</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">[访谈翻译] CEDEC 2022 专访报告：Game Freak 如何双轨并行开发《传说 阿尔宙斯》与《朱·紫》？千种宝可梦资产通用化与差异化渲染管线</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2022-legends-arceus-scarlet-violet-pipeline/">电Fami Nico Gamer 2022：GAME FREAK前泽圭一谈《阿尔宙斯》与《朱·紫》的宝可梦模型共通化</a></h3>
   <span></span>
 </article>
 

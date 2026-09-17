@@ -10,7 +10,9 @@ A target may also carry `max_images` (default 10 - a lecture report's slides nee
 `slug` (the post's file stem, to re-import over an existing post), `categories`, and
 `stop_at` (a heading regex: the page's own index after the piece is cut there), and
 `images_live` (the pictures from their live addresses although the page is a Wayback copy -
-a CDN that outlived the site, like Kinja's).
+a CDN that outlived the site, like Kinja's), `unmarked: question` (a paragraph with no
+speaker's name is the interviewer's - a page that labels every answer), and `drop` (a regex:
+blocks whose text, alt or address match it are left out).
 
 Where import-nom.py knows one page family, this one has to read whatever
 the site did: the article container is found by weight (the element whose
@@ -349,7 +351,7 @@ def extract_blocks(container, join_br=False):
 DASH_Q = re.compile(r"^\s*(?:[―─—–‐\-]{1,3}|——|――|──)\s*(.+)$")
 JA_NAME = re.compile(r"^\s*([^\s：:　（(]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*(?:（[^）]{0,20}）)?\s*[：:]\s*(.+)$")
 JA_SPACE = re.compile(r"^\s*([一-鿿゠-ヿ]{1,5})[　 ]\s*(\S.+)$")
-EN_NAME = re.compile(r"^\s*([A-Z][A-Za-z.'’\- ]{1,30}?)\s*:\s+(.+)$")
+EN_NAME = re.compile(r"^\s*([A-Z][A-Za-z.'’\- ]{0,30}?)\s*:\s+(.+)$")     # {0,30}: a lone "Q:" counts
 FR_Q = re.compile(r"^\s*jeuxvideo\.com\s*>\s*(.+)$", re.I)
 FR_NAME = re.compile(r"^\s*([A-Z][A-Za-z\- ]{2,30}?)\s*:\s*(.+)$")
 
@@ -446,9 +448,12 @@ def to_items(blocks, target, slug, dry):
                 role, speaker, body = "answer", match_speaker(m.group(1), target), m.group(2)
             elif m and is_asker(m.group(1), target):
                 role, speaker, body = "question", None, m.group(2)
-            elif dialogue and b["bold"] and len(text) < 400:
-                role, speaker, body = "question", None, text
+            elif dialogue and b["bold"] and len(text) < 400 and target.get("bold_question", True):
+                role, speaker, body = "question", None, text      # bold_question: false on a page whose captions are bold too
         explicit = role is not None
+        if role is None and target.get("unmarked") == "question" and seen_heading:
+            # every answer on the page carries its speaker's name; a bare paragraph is the interviewer (Creatures' SPECIAL TALK)
+            role, speaker = "question", None
         if role is None and target.get("alternate") and seen_heading and last_role:
             # question and answer alternate with no marks at all (Multiplayer.it)
             role, speaker = ("answer", solo) if last_role == "question" else ("question", None)

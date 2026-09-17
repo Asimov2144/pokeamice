@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>任天堂</h2>
-    <span>111 篇文章 · 0 条评注 · 2025 / 2022 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>131 篇文章 · 0 条评注 · 2025 / 2022 / 2017 / 2016 / 2015 / 2014 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -28,6 +28,42 @@ search: false
   <p>2022 · article · 本站传送门</p>
   <h3><a href="/sites/文档/Updates/">[站点]-更新日志</a></h3>
   <span>Poke Amice 更新日志 From New to Old\ {: .align-center} 2022.5.14 1.更新了一篇对2016年末机核翻译的石原采访的回顾 &lt;a href = &quot;https://weibo.com/ttarticle/p/show?id=2309404775939119644801&quot; title = &quot;link weibo</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · Game Freak’s Origins And Its Pre-Pokémon Games</p>
+  <h3><a href="/采访/开发者访谈/宝可梦红绿/game-freak/interview-game-informer-game-freak-origins-pre-pokemon/">Game Freak’s Origins And Its Pre-Pokémon Games</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0827 --</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
+  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛</p>
+  <h3><a href="/developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/">Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经</a></h3>
+  <span>导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作 在 GAME FREAK 漫长而辉煌的独立开发史上，除了享誉全球的《精灵宝可梦》之外，有一款名为《德比骏马》（Derby Stallion / ダビスタ）的传奇赛马模拟游戏，曾彻底改变了 GAME FREAK 早期创作者们的生命轨迹： 1. 红白机时代的‘办公室全员沉迷危机’：作为‘初代始作俑者’的森本茂树</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2015 · interview_translation · Special Interview 「ポケモンビジネス、徹底解剖」</p>
+  <h3><a href="/developer-interviews/pokemon-company-recruit/interview-pokemon-recruit-business-anatomy/">宝可梦公司官方专访 商业篇：游戏×角色×授权——宝可梦商业彻底解剖（长田英树 × 陆川和男 × 藤井健）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · 增田顺一与大森滋与iDÉAME的孩子们</p>
+  <h3><a href="/developer-interviews/official-archives/interview-topofarmer-ideame-masuda-ohmori/">Topo Gamer 独家现场直击：增田顺一 × 大森滋做客巴塞罗那 iDÉAME Kids——与少年儿童的零距离宝可梦创作对谈全记录</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2014 · interview_translation · ついにファミコンの名作、あの「クインティ」が帰ってきた！ Wii Uバーチャルコンソールでプレイ可能!!制作を手掛けたゲームフリークの杉森建氏、増田順一氏、森本茂樹氏が当時を振り返る</p>
+  <h3><a href="/访谈/创业历史/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/">GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -181,9 +217,21 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 社内ポケモンHGSSバトル大会！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-166/">【工作日志】2010年公司宝可梦对战大会</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 好久不见！&lt;br 我是なぎー（纳吉）。 宝可梦世界锦标赛2010的预选终于开始了！&lt;br 我也非常喜欢宝可梦对战，所以很期待大家会展开怎样的比赛！ 那么，在世界锦标赛2010开始之前，公司内部先举办了一场对战大会。&lt;br 当然，公司内部大会采用的规则也遵循世界锦标赛2010的规则。&lt;br</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第204回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch204/">[访谈翻译] 首藤刚志动画创作手记 第204回：与火箭队共存？（初期三部曲爆火与后续剧场版平庸化、急冻鸟冰原设定的CG幕后与打破第四面墙的歌舞伎大亮相）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 204</span>
 </article>
 
 <article class="resource-network-card">
@@ -199,9 +247,27 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第201回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch201/">[访谈翻译] 首藤刚志动画创作手记 第201回：对不起，我差点忘了小霞的事（打破智霞恋爱幻想、菜盘香菜的残酷隐喻与被删减的愤怒殴打）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 201</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第198回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch198/">[访谈翻译] 首藤刚志动画创作手记 第198回：想让火箭队出尽风头是好事，但是……（消灭自我的伪善共存、全员皆主角的群像剧革命与配角人设深渊）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 198</span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · gamefreak_legacy_blog · 晴れたり時々曇ったり · ＨＧ・ＳＳ 語っちゃいます！ その１</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-145/">【工作日志】2009年心金·魂银开发随笔</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好！ 正如总监もりもと（森本）之前预告的那样，接下来预计会分成全8回，&lt;br 作为《宝可梦 心金·魂银》（以下简称“心金·魂银”）发售纪念，&lt;br 我们将以《来聊聊心金·魂银！》为题，陆续刊载参与开发的工作人员的故事。&lt;br 敬请期待！ 作为第1回，这次由开发部程序员森负责。&lt;br 在</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第197回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch197/">[访谈翻译] 首藤刚志动画创作手记 第197回：《洛奇亚爆诞》在自我主张中实现共存（从庄周梦蝶与全共斗幻灭谈起、反套路恶役与火箭队对剧本的强行主宰）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 197</span>
 </article>
 
 <article class="resource-network-card">
@@ -211,57 +277,111 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第195回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch195/">[访谈翻译] 首藤刚志动画创作手记 第195回：火箭队是万物共存的终极钥匙？（角色尊严与自尊心塑造、声优名台词即兴内幕与《火箭队直到永远》）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 195</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第194回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch194/">[访谈翻译] 首藤刚志动画创作手记 第194回：从复眼视角诠释《洛奇亚爆诞》主题（小田原渔港看海买醉、罗伯特·奥特曼式多线交织与火箭队的意外破茧）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 194</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第193回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch193/">[访谈翻译] 首藤刚志动画创作手记 第193回：对《洛奇亚爆诞》的厚望与自我信服（商业狂热背后的生理排异、早期CG海流试验、神秘GS球伏线与拯救全片的火箭队）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 193</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第192回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch192/">[访谈翻译] 首藤刚志动画创作手记 第192回：《宝可梦》洛奇亚本是母性（三大神鸟的男儿兄弟阋墙、《三国志》式父权斗争的虚无与首藤笔锋骤停的至暗时刻）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 192</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第191回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch191/">[访谈翻译] 首藤刚志动画创作手记 第191回：《洛奇亚》雄性？雌性？根本无关紧要（编剧戏剧观批判卓别林黑泽明、深层海流母性象征与御前大人密室表决）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 191</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第189回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch189/">[访谈翻译] 首藤刚志动画创作手记 第189回：休载致歉与电影第二部致命败笔（票房登顶下的编剧神经衰弱、洛奇亚的性别错位与“母性神兽”的失声之痛）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 189</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第188回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch188/">[访谈翻译] 首藤刚志动画创作手记 第188回：“爆诞”（广岛长崎的“胎内受害者”阴影、商业流行语背后的历史失忆与沉痛的默哀）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 188</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第187回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch187/">[访谈翻译] 首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 187</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第186回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch186/">[访谈翻译] 首藤刚志动画创作手记 第186回：电影第二作的“深层海流”（从超梦的存在到自我共存、拒绝三大神鸟怪兽摔角与原创宝可梦“X爆诞”解禁）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 186</span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第185回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch185/">[访谈翻译] 首藤刚志动画创作手记 第185回：迈向《宝可梦》电影第二部（拒绝赌城背后的超现实音乐剧、金银延期的“游戏时间”、橘子群岛诞生与小刚被除名的荒唐内幕）</a></h3>
-  <span>lead: “小刚被强行踢出主角团的真正原因，竟然是眯眯眼太像亚洲人？！”首藤刚志以怒不可遏的笔触揭开了《洛奇亚爆诞》前夕最耸人听闻的业界荒唐秘辛：高层自作聪明地以“西方人讨厌东洋人面孔”为由暴力开除小刚，首藤痛骂提出这一主意的官僚“简直是个彻头彻尾的大白痴”！加之金银游戏跳票导致的“橘子群岛”救场大漂流、以及为了照料牛顿居里夫人先锋音乐剧而公然拒绝赌城犒劳</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 185</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第184回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch184/">[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）</a></h3>
-  <span>lead: 全动漫史最惊心动魄的绝密档案彻底解封！首藤刚志亲笔揭晓《宝可梦》原定大结局的震撼全貌：宝可梦本质是角斗士奴隶，终盘皮卡丘将化身“斯巴达克斯”掀起对抗人类的全族大叛乱；小智陷入种族阵营的撕裂，最懂残缺宝可梦的火箭队与喵喵挺身充当人类与宝可梦共存的调停桥梁；垂暮之年的老小智从虚构乌托邦梦境中醒来，被母亲唤醒后踏上探寻自我存在的崭新征途！文末首藤更自爆</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 184</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第183回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch183/">[访谈翻译] 首藤刚志动画创作手记 第183回：《超梦的逆袭》心力交瘁（盛名重负下的创作焦虑、英国国教条文赞赏与安定剂相伴的绝望追问）</a></h3>
-  <span>lead: “《超梦的逆袭》彻底让我心力交瘁……”在全美夺冠、本土狂揽80亿的万丈霞光背后，初代总编剧首藤刚志吐露了他一生中最让人心酸的崩溃独白：高层将胜利归功于“宣扬生命尊严”的漂亮假话，同行冷笑“全凭皮卡丘是摇钱树”；而在大洋彼岸，英国国教会神学高官竟向全教会呈递报告、盛赞小智复活体现了“基督自我牺牲与救赎”的至高神学精义！在烟酒禁令与市售精神安定药片的</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 183</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第182回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch182/">[访谈翻译] 首藤刚志动画创作手记 第182回：《超梦的逆袭》公映狂澜（小田原影院赠票往事、大人们的肃穆凝固与对狂热狂澜的战栗警惕）</a></h3>
-  <span>lead: 在小田原空前拥挤的影院门口，首藤刚志将两张预售票悄悄赠给因满场而痛哭的陌生母子；在放映厅的黑暗中，大人们在超梦低沉吐出“我是谁”的瞬间彻底凝固入神。然而面对日本本土80亿日元的狂暴神话，首藤却发出了最为清醒的警世预言：他深恶痛绝日本社会未经深思的盲从“群合心理”！宁可在海外经受审判，也绝不甘做迎合虚荣的提线木偶——他迎来了以8000万美元斩获北美</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 182</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第181回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch181/">[访谈翻译] 首藤刚志动画创作手记 第181回：《超梦的逆袭》公映前夜（全美公映署名WRITTEN、试映会震撼与现象级引爆前的暗涌）</a></h3>
-  <span>lead: 在好莱坞大银幕上，全屏赫然打出了“WRITTEN BY TAKESHI SHUDO”的作者级单独致敬；然而在公映前夜的日本本土，首藤刚志面对的却是制作高层“拍出如此阴暗压抑的垃圾、简直自寻死路”的唾骂风暴。面对外界汹涌的否定，首藤淡淡地开解自己：“砍掉我‘首藤’的脖子，剩下的不过是一具空洞残躯罢了。作为编剧该做的我已经全部做完，剩下的爱怎样怎样吧</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 181</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第180回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch180/">[访谈翻译] 首藤刚志动画创作手记 第180回：宝可梦的眼泪与超梦的记忆消除（奇迹生命的共鸣、原定终章伏笔回收与全员遗忘的宿命悲剧）</a></h3>
-  <span>lead: “宝可梦的眼泪究竟代表着什么？超梦为何必须将全员记忆无情抹去？”首藤刚志以近乎手术刀般的剖析，揭开了影史最为震撼的真相：那不是弱者的廉价眼泪，而是全生灵因自相残杀而痛失至宝时、由物种本质共振出的“纯粹丧失感”！而结尾的全员失忆，绝非回归TV日常的商业妥协，更是超梦为了守护克隆同胞免遭凡俗偏见屠戮的悲壮避难所——直到它能堂堂正正宣告“我就在这里”的</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 180</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第179回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch179/">[访谈翻译] 首藤刚志动画创作手记 第179回：《超梦的逆袭》的高潮戏剧时刻（肉搏战的惨烈现实、小智挺身而出的石化、皮卡丘绝望电击的剧作推导）</a></h3>
-  <span>lead: “小智为何必须石化？皮卡丘为何疯狂释放绝望电击？”初代总编剧首藤刚志首次从剧作哲学层面揭开影史催泪名场面的终极真相：小智的石化绝非规避儿童死亡管制的廉价妥协，而是一个身处对战狂热世界深处的少年、在潜意识中以肉身否定对战时所必经的精神与物理双重悖论固化！皮卡丘那段让全世界观众心碎的电击，是在撕心裂肺地呼唤那个“在狂暴世界中敢于站出来阻止杀戮”的唯一</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 179</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第178回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch178/">[访谈翻译] 首藤刚志动画创作手记 第178回：宝可梦剧场版必须能让自己由衷信服……（从“无印良品”到作者性觉醒、与游戏原作方见解分歧的创作定力）</a></h3>
-  <span>lead: 在小田原冰冷刺骨的海风中，初代总编剧首藤刚志做出了全系列史上最壮烈、最具颠覆性的剧作决断：既然我受邀担任系列构成，我就绝不充当商业对战游戏的克隆应声虫！哪怕彻底颠覆战斗本身的合理性，我也必须写出连自己的灵魂都能由衷信服的奇迹高潮！ items: - type: heading level: 2 original: 第178回　『ポケモン』映画版は</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 178</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第177回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch177/">[访谈翻译] 首藤刚志动画创作手记 第177回：可以否定《宝可梦》的对战吗？（胜负与自我存在的断裂、无风险代理战争批判与小田原海边的孤绝破局）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 177</span>
 </article>
 
 <article class="resource-network-card">
@@ -279,13 +399,13 @@ search: false
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第176回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch176/">[访谈翻译] 首藤刚志动画创作手记 第176回：休载两周的致歉与反思（涩谷工作间的孤绝崩溃、救护车中的三次昏厥与破例敬语自白）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 176</span>
 </article>
 
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第175回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch175/">[访谈翻译] 首藤刚志动画创作手记 第175回：继续讲述《超梦的逆袭》脚本秘辛（野生与驯化的奴役悖论、原定三年完结的终章构想与“战斗否定”的伏笔）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 175</span>
 </article>
 
 <article class="resource-network-card">
@@ -297,7 +417,7 @@ search: false
 <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第174回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch174/">[访谈翻译] 首藤刚志动画创作手记 第174回：谈及“歧视”也请不要夸大其词（十八岁的杀意剧本、德国酒馆的吉普赛少女与克隆宝可梦的深层绝望）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 174</span>
 </article>
 
 <article class="resource-network-card">

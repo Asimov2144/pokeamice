@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>James Turner</h2>
-    <span>2 篇文章 · 0 条评注 · 2025 / 2015</span>
+    <span>3 篇文章 · 0 条评注 · 2025 / 2019 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -22,6 +22,12 @@ search: false
   <p>2025 · article · t.co</p>
   <h3><a href="/game-freak/整理/整理-GameFreak-Development-TimeLine/">[整理] 近年 Game Freak 开发事件年表</a></h3>
   <span>近年 Game Freak 开发事件年表 第四时代末尾 2008年初 Game Freak迁入新办公室\ New Office Desgin{:target=&quot;blank&quot;} Weibo 专栏介绍{:target=&quot;blank&quot;} 第五世代末尾 2012年6月23日 『宝可梦 黑2&amp;白2』Pokémon Black 2 and White 2发售\ 52po</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2019 · interview_translation · Going Big</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2019-going-big/">Game Informer 2019：大森滋与岩尾和昌谈《宝可梦 剑·盾》</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

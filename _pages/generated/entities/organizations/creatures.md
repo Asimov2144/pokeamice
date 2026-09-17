@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Creatures</h2>
-    <span>23 篇文章 · 0 条评注 · 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005</span>
+    <span>26 篇文章 · 0 条评注 · 2017 / 2016 / 2013 / 2012 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,6 +19,18 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</p>
+  <h3><a href="/developer-interviews/official-archives/interview-inside-pokken-tournament-developers/">Inside Games 独家专访《宝可梦 铁拳锦标赛》开发核心：星野正昭 × 须崎春树 × 宇都宫崇人 × 桥本拓也详解动作格斗化革新、招式还原与竞技平衡</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2013 · gamefreak_director_column · 増田部長のめざめるパワー 第238回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-238/">[GameFreak部长专栏] 第238回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 关于6月11日在洛杉矶举行的E3！ 这次，任天堂岩田社长向我发出了邀请， 让我在E3会场内举办的“开发者圆桌会</span>
@@ -82,6 +94,12 @@ search: false
   <p>2010 · gamefreak_director_column · 増田部長のめざめるパワー 第174回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-174/">[GameFreak部长专栏] 第174回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 ■这次是暑假照片特辑！ &lt;img src=&quot;/assets/images/gamefreak-director</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · ポケモンを育てた仕かけ人たち</p>
+  <h3><a href="/developer-interviews/official-archives/interview-wedge-ishihara-pokemon-disney/">WEDGE 深度专访石原恒和全三篇：宝可梦为何经久不衰？从迪士尼之辨、宝可梦中心到千亿IP版权裂变之路</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

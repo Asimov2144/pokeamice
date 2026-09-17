@@ -25,6 +25,15 @@ parallel_items:
   translation: 从企业内部审视宝可梦商业版图的业务领袖视角——探寻他们各自面对工作时的哲学与坚守。
   speaker: The Pokémon Company
   role: answer
+- type: image
+  image: /assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry1.png
+  alt: 2014年入社 Pokémon GO 推進室マネジャー 早川 和湖
+- type: image
+  image: /assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry2.png
+  alt: 2006年入社 映像本部　映像企画部ディレクター 松永 充代
+- type: image
+  image: /assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry3.png
+  alt: 2009年入社 開発事業本部 宣伝企画部 シニアディレクター 大洞 翔一
 - type: heading
   level: 2
   original: FILE 01：早川 和湖（2014年入社 / Pokémon GO推進室 マネジャー）

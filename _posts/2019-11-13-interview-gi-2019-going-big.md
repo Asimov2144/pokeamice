@@ -201,6 +201,9 @@ parallel_items:
   translation: "伽勒尔地区带来的所有这些元素，感觉与宝可梦系列天然契合，但最有价值之处在于，它帮助GAME FREAK开始将想要实现的那些零散元素整合为一个连贯的愿景。"
 - original: Giant Ambitions
   translation: 巨大的野心
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/011.jpg
+  alt: Going Big
 - original: An early piece of concept art conveys the team’s desire of portraying Pokémon battles in the Galar region to look and feel like a sports broadcast
   translation: 一张早期概念图传达了团队的愿望：让伽勒尔地区的宝可梦对战在观感和体验上像体育转播。
 - type: heading
@@ -213,6 +216,9 @@ parallel_items:
   translation: “一般来说，在宝可梦游戏的开发中，以及想法的来源方面，我们脑中通常有各种不同的想法，作为独立的部件存在，”增田说。“例如，也许我们会有一个关于连接功能的想法，或者一个战斗功能的想法，或者一只宝可梦，然后它们都存在于你的脑海中，接着你会遇到这样的时刻，比如你在旅行，或者你去参加媒体采访活动，你会感受到那个地方的氛围，然后所有东西就会汇聚在一起，就像‘这是个好地方，可以把我脑中已有的所有这些其他想法都放进去。’”
 - original: “There were definitely a lot of ideas,” Ohmori says. “There were a lot of ideas we explored for this game that we ended up not using. It all goes back to us having these individual parts swimming in our heads and finding the right one that makes sense for the game.”
   translation: “肯定有很多想法，”大森说。“我们为这款游戏探索了很多最终没有采用的想法。这一切都归结于我们脑中游动着这些独立的部件，然后找到适合这款游戏的那一个。”
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/012.jpg
+  alt: Going Big
 - original: Art director James Turner wanted to capture the colors and mood of the UK (including the patchwork farmland) in this concept art focusing on the homes of the player and rival
   translation: 艺术总监James Turner希望在这张聚焦玩家和劲敌住宅的概念图中捕捉英国的颜色和氛围（包括拼布般的农田）。
 - original: One of those ideas that seemingly snapped into place with a U.K.-inspired region was the new Max Raid Battles. For the first all-new console game in the series, Ohmori wanted to include a feature that reminded him of his younger days playing Nintendo 64 in the same room with his friends. He began brainstorming for ways to recreate that feeling, but didn’t have any great ideas. He eventually found inspiration in the mythologies of giants involved in the founding of ancient Britain.
@@ -221,6 +227,9 @@ parallel_items:
   translation: 其成果就是极巨团体战，玩家可以与其他训练家聚集在一起，共同挑战巨大的宝可梦。如果玩家队伍能够击败这个庞然大物，训练家就有机会捕捉被击败的宝可梦。虽然玩过《Pokémon Go》的人对此可能感到熟悉，但这个想法实际上早于这款手机热门游戏中团体战的实装。
 - original: “The initial concept of having cooperative battles against a Pokémon – the raid idea – came before raids were even implemented in Pokémon Go, but we saw Pokémon Go implement this raid feature and how popular it was for people to get together in the same space and enjoy these cooperative experiences,” Ohmori says. “I think there was some influence, like how in Pokémon Go, you don’t need to be a hardcore battler to enjoy the raid battles; it’s really easy to invite a friend. We wanted to have that element in Sword and Shield’s raid encounters as well.”
   translation: “合作对战宝可梦的最初概念——也就是团体战的想法——早在《Pokémon Go》实装团体战之前就已经存在了，但我们看到《Pokémon Go》实装了团体战功能，以及人们聚在同一个空间享受这种合作体验有多么受欢迎，”大森说。“我觉得确实有一些影响，比如在《Pokémon Go》中，你不需要是一个硬核对战玩家也能享受团体战；邀请朋友非常容易。我们也希望在《剑/盾》的团体战遭遇中加入这种元素。”
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/013.jpg
+  alt: Going Big
 - original: However, before raids were introduced in Pokémon Go, this mechanic in Pokémon Sword and Shield was simply referred to as “cooperative battles.” With the term “raid” now cemented in the lexicon of millions of Pokémon fans across the world, Game Freak decided to play off that word to make the feature instantly recognizable for a large chunk of its fan base.
   translation: "然而，在《Pokémon Go》引入团体战之前，《宝可梦 剑·盾》中的这个机制只是被称为“合作对战”。如今“团体战”这个词已经深深扎根于全世界数百万宝可梦粉丝的词汇中，GAME FREAK决定借用这个词，让这个功能对大部分粉丝群体来说能够立刻被识别。"
 - original: Much like Pokémon Go’s raids, the battles are ranked using a star system; the more stars a raid has, the more difficult it will be for players. According to Iwao, players might be in for a rude awakening if they think they can just coast through the higher-ranked Max Raid Battles.
@@ -231,6 +240,9 @@ parallel_items:
   translation: 好在你可以通过与朋友组队或选择适合自己宝可梦队伍的团体战等级来减轻烦恼。即使你独自进入极巨团体战，AI队友也会加入与你并肩作战。此外，你还可以利用《剑/盾》的核心新功能之一——极巨化——暂时将自己的宝可梦巨大化来平衡局势。
 - original: Taking It To The Max
   translation: 发挥到极致
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/014.jpg
+  alt: Going Big
 - type: heading
   level: 2
   original: Taking It To The Max
@@ -245,18 +257,27 @@ parallel_items:
   translation: 除了展示巨大生物和彩色光环的令人印象深刻的视觉序列外，极巨化宝可梦还拥有更强大的攻击。即使是最没用的宝可梦，如鲤鱼王，也能通过极巨化突然变得强大。这一机制取代了过去游戏中的系统，如X和Y的超级进化，以及太阳和月亮的Z招式，作为战斗中的强大平衡器。
 - original: To take the new feature for a test drive, Game Freak held an internal tournament. The team came away confident that not only will competitive play embrace the Dynamax ability, but it will add an extra layer of strategy for players of all skill levels.
   translation: "为了测试新功能，GAME FREAK举行了一场内部锦标赛。团队确信，不仅竞技对战会接受极巨化能力，而且它将为所有技能水平的玩家增加一层额外的策略。"
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/015.jpg
+  alt: Going Big
 - original: “You don’t have to give the Pokémon an item, so you can trigger it whenever and create this element of suspense or keeping people on their toes since they don’t know when you’re going to trigger it or what Pokémon you’re going to use for it,” Ohmori says. “In Sun and Moon, with the Z-Moves, you had to give the Pokémon the Z-Crystal to trigger it, so if the effect of any item goes off, you know that Pokémon isn’t holding a Z-Crystal and you can feel at ease and then plan your strategy around that. With Dynamax, since it doesn’t require an item, you’re never going to have that feeling of being at ease since you don’t know that this Pokémon isn’t going to unleash this Dynamax power. But at the same time, it doesn’t feel cheap.”
   translation: “你不必给宝可梦携带道具，所以你可以随时触发它，制造这种悬念或让人保持警惕，因为他们不知道你何时会触发它或你会用哪只宝可梦来触发，”大森说。“在太阳和月亮中，使用Z招式时，你必须给宝可梦携带Z纯晶才能触发，所以如果任何道具的效果触发，你就知道那只宝可梦没有携带Z纯晶，你可以放心，然后围绕这一点制定策略。对于极巨化，由于它不需要道具，你永远不会感到放心，因为你不知道这只宝可梦是否会使出极巨化力量。但与此同时，它并不让人觉得廉价。”
 - original: While some fans have expressed concern that the Dynamax mechanic might be overpowered in its ability to change the course of matches, by installing a three-turn limit for the transformation, Game Freak thinks it has struck the right balance. “For a long time, we were going back and forth between three turns and two turns,” Ohmori says. “It sounds like a small difference, but it’s a huge thing we had to work with the balance. Also, tweaking the strength of the moves. Just working with the battle design staff to get that balance right. It took a very long time.”
   translation: "虽然一些粉丝担心极巨化机制可能因其改变比赛进程的能力而过于强大，但通过为变身设置三回合限制，GAME FREAK认为它已经找到了正确的平衡。“很长一段时间，我们在三回合和两回合之间来回调整，”大森说。“这听起来差别很小，但我们在平衡方面必须处理的大事。此外，调整招式的强度。只是与战斗设计人员合作，以正确平衡。这花了很长时间。”"
 - original: In addition, if a trainer Dynamaxes a Pokémon, it tips off their opponent as to what’s coming, allowing them to prepare for the approaching storm. “Technically you can switch out your Pokémon after you’ve Dynamaxed or just defend, but since that’s a waste of the Dynamax, the expectation is that you’re going to attack to take advantage of that power,” Ohmori says. “That allows your opponent to read what you’re going to do, so that gives a little bit of balance there.”
   translation: 此外，如果训练师让一只宝可梦极巨化，就会向对手透露即将发生的事情，让他们为即将到来的风暴做好准备。“从技术上讲，你可以在极巨化后换下宝可梦或只是防御，但既然那样会浪费极巨化，预期是你会攻击以利用那种力量，”大森说。“这让你的对手能读懂你要做什么，所以那里有一点平衡。”
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/016.jpg
+  alt: Going Big
 - original: Dynamax is sure to play a massive role in Pokémon Sword and Shield, but it’s not the only way Pokémon can grow exponentially during battle. Every Pokémon can use Dynamax to power up, but a certain subset can take the concept further through a special variation called Gigantamax. Much like Dynamax, this causes the Pokémon to rapidly grow in size. However, it’s not simply a power boost. In addition to visually changing the Gigantamaxed Pokémon beyond what Dynamax does, this new form grants different attributes. This means that for some Pokémon that have the ability to use both Gigantamax and Dynamax, the trainer must have the awareness to correctly determine which transformation to use for their current battle situation.
   translation: 极巨化肯定会在宝可梦剑/盾中扮演重要角色，但这并不是宝可梦在战斗中指数级增长的唯一方式。每只宝可梦都可以使用极巨化来增强力量，但某些子集可以通过一种称为超极巨化的特殊变体将概念进一步推进。与极巨化非常相似，这会导致宝可梦迅速变大。然而，这不仅仅是力量提升。除了在视觉上改变超极巨化宝可梦超出极巨化的效果外，这种新形态还赋予不同的属性。这意味着对于某些既能使用超极巨化又能使用极巨化的宝可梦，训练师必须有意识地正确判断在当前战斗情况下使用哪种变身。
 - original: These transformations are more than just gameplay mechanics in Sword and Shield. In fact, Professor Magnolia is specialized in researching the Dynamax phenomenon in the Galar region. These transformations are sure to be centerpieces of not just the gameplay, but the narrative as well.
   translation: 这些变身不仅仅是剑/盾中的游戏机制。事实上，木兰博士专门研究伽勒尔地区的极巨化现象。这些变身肯定不仅是游戏玩法的中心，也是叙事的中心。
 - original: “The lore of the land is that the Galar region has this sort of mysterious energy that can power up things and make them massive, and we express that through the battle system; when they get bigger, they become stronger,” Iwao says.
   translation: “这片土地的传说中，伽勒尔地区有这种神秘能量，可以增强事物并使它们巨大化，我们通过战斗系统来表达这一点；当它们变大时，它们变得更强，”岩尾说。
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/017.jpg
+  alt: Going Big
 - original: Going Wild
   translation: 走向野外
 - type: heading
@@ -281,6 +302,9 @@ parallel_items:
   translation: 当我向增田询问那些无法前往伽勒尔地区的宝可梦时，他说，如果团队想继续加入新功能，随着每一代过去，拥有这么多宝可梦已经变得几乎难以管理。
 - original: “Up until now, we’ve been proud we’ve been able to include so many Pokémon in the games, but as a result of that, there’s actually been quite a few features or gameplay ideas that we’ve had to abandon in the past,” he says. “Going forward, thinking about the future of Pokémon, we want to prioritize all those new gameplay ideas, and want to challenge ourselves at Game Freak to create new ways to enjoy the game. That’s really what drove the decision for this new direction.”
   translation: "他说：“到目前为止，我们一直为能在游戏中包含这么多宝可梦而感到自豪，但正因如此，过去其实有不少功能或玩法想法是我们不得不放弃的。展望未来，考虑到宝可梦的未来，我们想优先考虑所有那些新的玩法想法，并想在GAME FREAK挑战自己，创造新的游戏享受方式。这才是推动我们做出这个新方向决定的原因。”"
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/018.jpg
+  alt: Going Big
 - original: While he won’t elaborate on how many or which ones didn’t make the cut, Masuda says the decision was a result of collaborative talks with Nintendo and The Pokémon Company. According to the producer, the decisions surrounding this move weren’t easy. “A wide variety of discussions happened; it’s not just one kind of criteria for deciding the Pokémon are going to appear in the games, but a lot of different reasons, a lot of different directions, a lot of debate over which ones would be the best in the game,” Masuda says. “I think one example of that is figuring out the Pokémon that would make sense for the setting of the game the most; these Pokémon look like they could live in the Galar region. We really spent a lot of effort deciding which would best fit the setting of the adventure and the features that we wanted to implement. I think players will be satisfied. There’s quite a few Pokémon that you’ll encounter in the Galar region Pokédex, so I think players will have fun seeing
     all the Pokémon.”
   translation: 虽然他不愿详细说明有多少只或哪些宝可梦没能入选，但增田表示，这一决定是与任天堂和宝可梦公司共同商讨的结果。据这位制作人所说，围绕这一举措的决定并不容易。增田说：“我们进行了各种各样的讨论；决定宝可梦是否出现在游戏中并不是只有一种标准，而是有许多不同的原因、许多不同的方向，以及大量关于哪些宝可梦最适合游戏的争论。我认为其中一个例子就是找出最适合游戏设定的宝可梦；这些宝可梦看起来像是能生活在伽勒尔地区。我们确实花了很多精力来决定哪些最适合冒险的设定以及我们想要实现的功能。我认为玩家会满意的。你会在伽勒尔地区的宝可梦图鉴 App中遇到相当多的宝可梦，所以我认为玩家会乐于见到所有这些宝可梦。”
@@ -289,6 +313,9 @@ parallel_items:
 - original: When I ask Masuda if the cut Pokémon will return in the future, he leaves little doubt. “Definitely,” he says. “You can look forward to seeing Pokémon that don’t appear in these games appearing in different regions in future games. I think Pokémon Home, for a lot of players, will serve as a launching pad to gather them all there and then embark on future adventures.”
   translation: 当我问增田被删减的宝可梦未来是否会回归时，他几乎没有留下疑问。“当然会，”他说。“你可以期待在这些游戏中没有出现的宝可梦，在未来的游戏里出现在不同的地区。我认为对很多玩家来说，宝可梦Home将作为一个发射台，在那里把它们全部收集起来，然后踏上未来的冒险。”
   note: 增田顺一，Game Freak的联合创始人及《宝可梦 剑·盾》的制作人。
+- type: image
+  image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/019.jpg
+  alt: Going Big
 - type: heading
   level: 2
   original: The Ultimate Pokémon Game

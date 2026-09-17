@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>M.I.</h2>
-    <span>2 篇文章 · 0 条评注 · 2021 / 2015</span>
+    <span>3 篇文章 · 0 条评注 · 2021 / 2015 / 2013</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -28,6 +28,12 @@ search: false
   <p>2015 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-rnd-launch-taya-mi/">GAME FREAK 官方专访：研究开发部（R&amp;D）正式始动！「解决所有“困难”，实现所有“极致考究”」（田谷正夫 × M.I.）</a></h3>
   <span>&lt;div class=&quot;interview-profiles my-5 p-4 bg-light rounded shadow-sm&quot; &lt;h3 class=&quot;border-bottom pb-2 mb-4 text-primary fw-bold&quot;受访核心技术主管背景档案&lt;/h3 &lt;div class=&quot;row g-4&quot; &lt;div class=&quot;col-md</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · インタビュー どっち？ vol.1 プログラマー編 「環境づくり」と「遊びづくり」</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-programmer-tt-mi/">GAME FREAK 官方访谈 程序员篇：「环境构筑」与「玩法创造」（T.T. × M.I.）</a></h3>
+  <span></span>
 </article>
 
   </section>

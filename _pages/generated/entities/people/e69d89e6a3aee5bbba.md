@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>杉森建</h2>
-    <span>44 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2005 / 2002 / 2000 / 1997</span>
+    <span>63 篇文章 · 0 条评注 · 2022 / 2019 / 2018 / 2017 / 2016 / 2014 / 2013 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2002 / 2000 / 1999 / 1997 / 1996</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -44,7 +44,7 @@ search: false
 
 <article class="resource-network-card">
   <p>2018 · interview_translation · Early Concept Art 宝可梦早期概念美术</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">[访谈翻译] Early Concept Art 宝可梦早期概念美术</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）</a></h3>
   <span></span>
 </article>
 
@@ -61,14 +61,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2017 · interview_translation · The History Of Pokémon Gold And Silver</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-gs-history/">Game Informer 2017：增田顺一谈《宝可梦 金·银》的开发困境与京都灵感</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · interview_translation · 电ファミニコゲーマー</p>
   <h3><a href="/interview-denfami-xevious-tajiri-sugimori-endo/">电玩迷电玩「游戏的企划书」第1回：没有《铁板阵》就没有《宝可梦》？！——远藤雅伸 × 田尻智 × 杉森建 传奇鼎谈</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>2014 · interview_translation · ついにファミコンの名作、あの「クインティ」が帰ってきた！ Wii Uバーチャルコンソールでプレイ可能!!制作を手掛けたゲームフリークの杉森建氏、増田順一氏、森本茂樹氏が当時を振り返る</p>
+  <h3><a href="/访谈/创业历史/interview-gamewatch-quinty-gamefreak-origins-sugimori-masuda-morimoto/">GAME Watch 独家专访：红白机名作《旋转方块（Quinty）》归来！GAME FREAK 创业元老杉森建×增田顺一×森本茂树回顾黎明期与宝可梦的原点</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2014 · interview_translation · 初代概念美术整理 EN</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">[访谈翻译] 初代概念美术整理 EN</a></h3>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">GlitterBerri 游戏翻译 1990：《胶囊怪兽》企划书标题页、设计前提与关都计划</a></h3>
   <span></span>
 </article>
 
@@ -76,6 +88,18 @@ search: false
   <p>2013 · interview_translation · 社員インタビュー 「最近、どう？」 vol.1 3Dグラフィック デザイナー篇 「ポケットモンスター」初のフル３Ｄ</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-3d-graphics-to-fk/">GAME FREAK 官方访谈 3D图形设计师篇：『宝可梦』系列首度全面3D化的巨大变革（T.O. × F.K.）</a></h3>
   <span>&lt;!-- 底部人物背景说明 -- &lt;div class=&quot;interview-profile-card mt-4 p-4 rounded bg-light border&quot; &lt;div class=&quot;row align-items-center&quot; &lt;div class=&quot;col-md-6 border-end&quot; &lt;h4 class=&quot;fw-bold mb-1&quot;T</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · interview_translation · Ken Sugimori got &#39;artist&#39;s block&#39; during Pokemon X and Y development</p>
+  <h3><a href="/interview-onm-xy-sugimori/">任天堂官方杂志ONM专访杉森建：《宝可梦 X／Y》开发期间遭遇“画师瓶颈”与封面神兽诞生秘辛</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2013 · scan_translation · 『ポケットモンスター Ｘ・Ｙ』あるきかた① 人々を知る！ ゲームフリークに訊く！ 人物キャラクター開発秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2013-12-xy-character-design-interview/">Nintendo DREAM 2013：GAME FREAK谈宝可梦X·Y人物设计</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -91,9 +115,33 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2013 · interview_translation · ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺 哲也氏に聞いた</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-2013-solitiba/">4Gamer.net 2013：Game Freak杉森建与渡边哲也谈原点回归与自主发行</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · gamefreak_legacy_blog · 杉森建のお絵かき日和 · 「ビクティニと黒き英雄 ゼクロム」「ビクティニと白き英雄 レシラム」デザイン画</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-art-226/">【设定资料】剧场版角色设计稿</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 剧场版宝可梦 Best Wishes&lt;br 「比克提尼与黑英雄 捷克罗姆」「比克提尼与白英雄 莱希拉姆」&lt;br 今年也来公开动画原创角色设计稿！ ※由于是原案设计，和实际使用的角色在&lt;br 细节、颜色等方面有所不同 评论：杉森建 ■德雷德&lt;br 这次故事舞台所在的城镇“艾因托克”周边，感</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · 『ポケモン誕生秘話 完全総集版』登場人物編：29キャラの裏話が満載!!</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-characters/">Nintendo DREAM 特別付録 2011：宝可梦诞生秘话 完全总集版 登场人物篇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · 『ポケモン誕生秘話 ポケットモンスターブラック・ホワイト 完全総集版』ポケモン誕生秘話 総集編</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-bw-tanjou-hiwa-2011-pokemon/">Nintendo DREAM 特別付録 2011：宝可梦 黑·白 诞生秘话 总集篇</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト Part 3：ポケモン＆キャラクター誕生秘話 EX ＆ 人気投票</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-05-bw-design-secrets-ex/">Nintendo DREAM 2011：宝可梦 黑·白 宝可梦与角色诞生秘话EX</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -115,14 +163,26 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <p>2011 · interview_translation · How Pokemon Get Made: Game Freak&#39;s designers discuss Black and White&#39;s main characters</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-1up-black-white-how-pokemon-get-made/">1UP.com 2011：Game Freak谈《黑／白》主角设计</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
   <p>2011 · interview_translation · The brains behind Pokemon Black and White</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-eurogamer-masuda-sugimori-black-white-brains/">[访谈翻译] Eurogamer 独家专访：增田顺一与杉森建谈《宝可梦 黑·白》幕后心智（纽约曼哈顿采风、156只全新宝可梦大换血的决断与成熟叙事）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · interview_translation · Nintendo Power Vol. 265</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-bw-masuda-sugimori/">[访谈翻译] Nintendo Power 专访增田顺一与杉森建：《宝可梦 黑·白》设计理念与百余只全新宝可梦</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2011 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト Part 2：開発スタッフインタビュー ポケモン＆人物 誕生秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-04-bw-design-secrets-part2/">Nintendo DREAM 2011：宝可梦黑·白开发者访谈 宝可梦与角色诞生秘话</a></h3>
   <span></span>
 </article>
 
@@ -136,6 +196,12 @@ search: false
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 8</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-208/">【工作日志】2010年黑白开发：信息管理组</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是にょろリカ（妮洛莉卡）。&lt;br 最近，我周围感冒的人很多，大家都还好吗？&lt;br 那么，这次为大家带来的是《宝可梦黑／白》开发者访谈，&lt;br 由信息管理组的ユーリー（尤里）为我们讲述。&lt;br 信息管理组究竟是做什么工作的呢……？&lt;br —–&lt;br ―你好。首先请做一下自我介绍。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · ALL ABOUT ポケットモンスターブラック・ホワイト 絵 GRAPHICS &amp; ILLUSTRATION：ポケモン＆人物誕生秘話</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-ndream-2011-01-bw-design-secrets/">Nintendo DREAM 2010：宝可梦 黑·白 美术与插画诞生秘闻</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -154,6 +220,12 @@ search: false
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 4</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-204/">【工作日志】2010年宝可梦开发访谈</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 大家好，我是负责网站工作的 にょろリカ（妮洛莉卡）。&lt;br “宝可梦黑／白”开发者访谈第4弹，&lt;br 这次为大家带来图形设计师ジェイミー（杰米）的故事。 —–&lt;br ―那么，请先做个自我介绍吧。 大家好，初次见面！&lt;br 我是图形设计师ジェイミー。&lt;br 请多关照。 ―ジェイミー是去年秋</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · GAME FREAK 開発スタッフインタビュー『ポケットモンスター』を変えること／変わらないこと</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-dengeki-games-vol14-bw-gamefreak-interview/">電撃GAMES 2010：GAME FREAK谈宝可梦 黑·白 改变与不变</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -217,8 +289,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · interview_translation · Interview: Masuda on Developing Gens 1-4</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-kawachimaru-platinum-gens/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
+  <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
   <span></span>
 </article>
 
@@ -247,6 +319,18 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2006 · interview_translation</p>
+  <h3><a href="/interview-nom-dp-ishihara-masuda-sugimori/">任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2005 · gamefreak_director_column · 増田部長のめざめるパワー 第53回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-053/">[GameFreak部长专栏] 第53回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 各位，让大家久等了！ Game Boy Advance软件 《螺旋破坏者》 《轰振钻钻乐乐》 今天，2005年</span>
@@ -271,14 +355,44 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2000 · interview_translation · Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)</p>
+  <h3><a href="/developer-interviews/official-archives/interview-nintendopower-gold-silver-roundtable/">Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2000 · interview_translation · 任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻</p>
+  <h3><a href="/developer-interviews/official-archives/interview-nom-gold-silver-gamefreak/">任天堂官方网络杂志NOM专访GAME FREAK：《宝可梦 金／银》开拓之路·从关都迈向城都的技术飞跃与幕后秘闻</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2000 · interview_translation · 『ポケットモンスター』を生んだ男たち（ゲームフリーク・インタビュー·初代篇）</p>
+  <h3><a href="/interview-nom-genesis-gamefreak/">任天堂官方杂志NOM专访 GAME FREAK 主创：孕育《宝可梦》的男人们（初代红绿开发秘史）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2000 · interview_translation · その他のポケモンのゲーム関連記事 初代インタビュー・開発会議記録</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-2000-01-01-sunanohi-pokemon-game-kaigi/">[访谈翻译] 初代宝可梦开发回忆与早期游戏杂志会议纪要整理</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
+  <p>1999 · scan_translation · ポケットモンスター 金・銀 開発スタッフ直撃インタビュー ポケモン金・銀のココが知りたい！</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-gs-guidebook-1999-developer-interview/">《宝可梦 金·银》官方攻略本 1999：开发人员直击采访「金·银的这些想知道！」</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>1997 · interview_translation · GAME FREAK 官方网站 (web.archive.org)</p>
   <h3><a href="/interview-gamefreak-official-red-green-staff/">GAME FREAK 早期官网初代开发访谈：创造宝可梦的人们（皮卡丘特别记者会全5回）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>1996 · scan_translation · 『ポケットモンスター図鑑』第6章 開発スタッフ・インタヴュー「6年の歳月をかけたモンスターたち」</p>
+  <h3><a href="/访谈翻译/扫描存档/scan-shodai-zukan-1996-staff-interview/">《ポケットモンスター図鑑》1996：开发人员访谈「花费6年岁月的怪物们」</a></h3>
   <span></span>
 </article>
 

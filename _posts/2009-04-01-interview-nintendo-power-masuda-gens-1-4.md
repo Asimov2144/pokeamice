@@ -1,6 +1,6 @@
 ---
 layout: interview-editorial
-title: '[访谈翻译] Nintendo Power 2009 增田顺一专访：第一至第四世代宝可梦的演进与《白金》'
+title: '[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）'
 date: '2009-04-01'
 toc: true
 toc_sticky: true
@@ -10,6 +10,30 @@ categories:
 - 翻译
 - 访谈整理
 tags:
+- Pokemon
+- 访谈
+- 开发者访谈
+- 增田顺一
+- 河内丸武史
+- 第四世代
+- 白金
+- EN
+- 宝可梦 白金
+- 钻石珍珠
+- 反转世界
+- Nintendo Power
+- Pokemon
+- 访谈
+- 开发者访谈
+- 增田顺一
+- 河内丸武史
+- 第四世代
+- 白金
+- EN
+- 宝可梦 白金
+- 钻石珍珠
+- 反转世界
+- Nintendo Power
 - Pokemon
 - 访谈
 - 开发者访谈
@@ -34,8 +58,16 @@ workflow:
 entities:
   people:
   - 增田顺一
+  - 河内丸武史
+  - 杉森建
+  - 田尻智
   works:
   - 宝可梦 白金
+  - 宝可梦 钻石·珍珠
+  - 宝可梦 红·绿
+  - 宝可梦 金·银
+  - 宝可梦 水晶版
+  - 宝可梦 红宝石·蓝宝石
   organizations:
   - Game Freak
   - Nintendo
@@ -44,6 +76,9 @@ original_link: http://lavacutcontent.com/masuda-interview-pokemon-platinum/
 translator: Poke Amice Studio
 interviewee: Dr. Lava, 增田顺一, 川知丸武
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/001.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_001'
 - type: paragraph
   original: 'Interview: Masuda on Developing Gens 1-4 – Lava Cut Content'
   translation: 访谈：增田谈第1至第4世代开发——熔岩切割内容
@@ -53,12 +88,18 @@ parallel_items:
 - type: paragraph
   original: The following interview was published in the April 2009 issue of Nintendo Power magazine, arriving in subscribers’ mailboxes a few weeks before Pokemon Platinum released in the United States. The interviewees are Junichi Masuda, Diamond & Pearl’s director; and Takeshi Kawachimaru, Platinum’s director. Platinum was the first Pokemon game Kawachimaru ever directed, but it was also his last — he served smaller roles in future generations, mostly dealing with online features. So perhaps Game Freak wasn’t satisfied with his performance on Platinum.
   translation: 以下访谈刊登于2009年4月号的《Nintendo Power》杂志，在《宝可梦 白金》于美国发售前几周送达订阅者邮箱。受访者是《钻石／珍珠》的导演增田顺一，以及《白金》的导演河内丸武志。《白金》是河内丸执导的首款宝可梦游戏，但也是他的最后一部——他在后续世代中担任次要角色，主要处理在线功能。所以或许GAME FREAK对他执导《白金》的表现并不满意。
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/002.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_002'
 - type: paragraph
   original: The purpose of this interview discussing Platinum’s development, but in the process, Masuda and Kawachimaru ended up discussing the franchise as a whole. Highlights include some glimpses behind-the-scenes, an explanation of the series’ musical inspirations, and how the Distortion World was conceptualized. They also provide some candid replies about the development process… maybe even a little too candid in some instances. For example, Masuda makes it clear his directorial focus is attracting new fans, even if it’s at the expense of satisfying the established fanbase.
   translation: 本次访谈旨在讨论《白金》的开发，但在过程中，增田和河内丸最终讨论了整个系列。亮点包括一些幕后花絮、系列音乐灵感的解释，以及毁坏的世界是如何构思的。他们还对开发过程提供了一些坦诚的回答……有时甚至可能过于坦诚。例如，增田明确表示，他的导演重点是吸引新粉丝，即使以牺牲满足既有粉丝群体为代价。
 - type: paragraph
   original: I’ve added some of my own commentary to provide additional information and context — it’ll be clearly labeled so it’s clear who’s saying what. Okay, without further adieu, here’s the interview.
   translation: 我添加了一些自己的评论以提供补充信息和背景——这些评论会明确标注，以便清楚谁在说什么。好了，不再多说，以下是访谈内容。
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/003.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_003'
 - type: paragraph
   original: “How did you get your start working on video games?”
   translation: “你是如何开始从事电子游戏工作的？”
@@ -67,11 +108,17 @@ parallel_items:
   translation: “从游戏最早出现在街机厅的时代起，我就对电子游戏及其玩法机制感兴趣。到高中时，我每天都去街机厅。有一段时间我找了一份普通的企业工作，但后来[宝可梦创作者]田尻智找我去制作一款名为《孟德尔宫殿》的游戏，我成为了游戏音乐作曲家。那时我21岁。因为从高中起我就在个人电脑上制作游戏，能够理解制作游戏的乐趣，所以我告诉他：‘我很乐意受您照顾’（笑），从那时起我的爱好变成了职业。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/004.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_004'
 - type: paragraph
   original: “My background is similar to Masuda’s. I’ve always loved games since I was little and I also started to go to arcades in high school. One big difference from Masuda is that he grew up in an inner-city area of Yokohama, but I grew up in the country side of Kyushu (including Fukuoka and Nagasaki prefectures). I never had a chance to meet any game developers, and I was about ready to give up and took another job that didn’t relate to game development. At that time, there was a convenient online message board called “PC Communication (PC Tsu-shin)”, where I got an opportunity to meet game developers. I saw a posting for a position, so I decided to apply for it as a last chance. I quit the job and moved out to Tokyo and eventually came to work for GAME FREAK, which wasn’t called GAME FREAK at the time. I was 24 years old.”
   translation: “我的背景与增田类似。我从小就喜欢游戏，高中时也开始去街机厅。与增田的一个主要区别是，他在横滨的市中心地区长大，而我则在九州的乡下长大（包括福冈县和长崎县）。我从未有机会见到任何游戏开发者，我几乎准备放弃，并找了一份与游戏开发无关的工作。那时，有一个方便的在线留言板叫‘PC通信’，在那里我得到了结识游戏开发者的机会。我看到一个职位招聘信息，于是决定作为最后的机会申请。我辞掉了工作，搬到东京，最终来到GAME FREAK工作，当时公司还不叫GAME FREAK。那时我24岁。”
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/005.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_005'
 - type: paragraph
   original: 'Dr Lava’s notes: Action-puzzler Mendel Palace was the first game Game Freak ever produced. It released under the title “Quinty” on the Famicom in 1989, then was localized as “Mendel Palace” when it released stateside on the NES one year later. At the time, Game Freak’s core developers were Satoshi Tajiri, the company’s founder; Ken Sugimori, who later became the Pokemon series’ art director; and Junichi Masuda, who composed and programmed for Gen 1, then became the series’ director.'
   translation: Dr Lava的注释：动作解谜游戏《孟德尔宫殿》是GAME FREAK制作的第一款游戏。它于1989年在FC上以《Quinty》的标题发售，一年后在NES上以《孟德尔宫殿》的标题在北美发行。当时，GAME FREAK的核心开发者是公司创始人田尻智；后来成为宝可梦系列艺术总监的杉森建；以及增田顺一，他为第一世代作曲和编程，后来成为系列导演。
@@ -82,6 +129,9 @@ parallel_items:
   translation: 增田在关都地区的横滨长大，但他的父母来自九州，九州是宝可梦游戏中关都和丰缘地区的现实灵感来源——这并非巧合。同样，田尻在町田的乡村小镇长大，那里是真新镇的灵感来源。
   speaker: Dr. Lava
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/006.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_006'
 - type: paragraph
   original: “How do people react when they learn that you work on Pokemon games?”
   translation: “当人们得知你们参与制作宝可梦游戏时，有何反应？”
@@ -95,6 +145,9 @@ parallel_items:
   translation: “我身边总是围绕着游戏玩家，所以大家都觉得这很棒。他们通常一开始很震惊，因为他们认为宝可梦是小孩玩的东西，但后来当他们意识到它有多成功时，又会印象深刻。”
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/007.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_007'
 - type: paragraph
   original: “How did you come to work on the original Pokemon games, and what was your first reaction when you learned of the Pokemon concepts?”
   translation: “您是如何参与到最初的宝可梦游戏开发中的？当您得知宝可梦的概念时，您的第一反应是什么？”
@@ -104,6 +157,9 @@ parallel_items:
   speaker: 增田顺一
   note: 田尻智是宝可梦的创始人，GAME FREAK的社长。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/008.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_008'
 - type: paragraph
   original: “How did you approach creating music for the series? Did you find that composing for handheld systems was limiting or inspiring?”
   translation: “您是如何为系列创作音乐的？您觉得为掌机作曲是限制还是启发？”
@@ -114,6 +170,9 @@ parallel_items:
   speaker: 增田顺一
   note: 关都地区是宝可梦世界的第一片区域，以日本关东地区为原型。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/009.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_009'
 - type: paragraph
   original: “What kinds of music do you enjoy listening to or performing, and have any music styles influenced your work on Pokemon?”
   translation: “您喜欢听或演奏哪种音乐？是否有音乐风格影响了您在宝可梦上的工作？”
@@ -128,16 +187,25 @@ parallel_items:
   speaker: 川知丸武
   note: 川内丸是GAME FREAK的员工，参与宝可梦系列开发。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/010.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_010'
 - type: paragraph
   original: 'Masuda: “And I don’t really play any instruments. I played trombone in high school, but I gave up on piano. It was impossible (laughs). As for the style of music that inspires me, people have told me — and I think they’re right — that Stravinsky is my favorite classical music composer, and then Shostakovich, Hoist, and Ravel. I think some of the sound from these composers can be heard in my music, too. You might especially be able to hear Stravinsky and Hoist in the battle scenes. Adding beats or crashing sounds like Stravinsky and Hoist is difficult for video games, though you can still hear their influence in the rhythm.”'
   translation: 增田顺一：“而且我并不真正演奏任何乐器。高中时我吹过长号，但我放弃了钢琴。那是不可能的（笑）。至于启发我的音乐风格，人们告诉我——我也认为他们是对的——斯特拉文斯基是我最喜欢的古典音乐作曲家，然后是肖斯塔科维奇、霍尔斯特和拉威尔。我认为这些作曲家的某些声音也能在我的音乐中听到。你尤其可能在战斗场景中听到斯特拉文斯基和霍尔斯特的影响。为电子游戏添加像斯特拉文斯基和霍尔斯特那样的节拍或撞击声是困难的，但你仍然可以在节奏中听到他们的影响。”
   speaker: 增田顺一
   note: 伊戈尔·斯特拉文斯基（Igor Stravinsky）是俄罗斯作曲家，最著名的作品是《春之祭》。古斯塔夫·霍尔斯特（Gustav Holst）是英国作曲家，以《行星组曲》闻名。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/011.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_011'
 - type: paragraph
   original: 'Dr Lava’s notes: Igor Stravinsky was a Russian composer most famous for “The Rite of Spring,” a piece of music so unnerving it caused a riot the first time it was performed, although details of the riot have been in dispute ever since. If you’re fan of classical music, I encourage you to listen to Stravinsky’s compositions — like Masuda said, you can hear its influence on Pokemon’s battle themes. If it wasn’t for Masuda’s love of Stravinsky — who performed and eventually died in New York — Gen 5’s Unova region might not have been based on New York… which would’ve made Unova and its Pokemon completely different. But that’s too long a story to cover here — but if you wanna hear it, check out this video I wrote about the history of Gen 5.'
   translation: Dr Lava的注释：伊戈尔·斯特拉文斯基是一位俄罗斯作曲家，最著名的作品是《春之祭》，这首乐曲首次演出时因其令人不安而引发了骚乱，尽管骚乱的细节至今仍有争议。如果你是古典音乐爱好者，我鼓励你听听斯特拉文斯基的作品——正如增田所说，你可以听到它对宝可梦战斗主题的影响。如果不是因为增田对斯特拉文斯基的热爱——斯特拉文斯基曾在纽约演出并最终在纽约去世——第五世代的合众地区可能就不会以纽约为原型……那将会使合众地区和它的宝可梦完全不同。但这是一个太长的故事，无法在这里详述——但如果你想听，可以看看我写的关于第五世代历史的这个视频。
   note: Dr Lava是宝可梦历史研究者，此处为他的注释。
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/012.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_012'
 - type: paragraph
   original: “Mr Masuda, what was it like to move from music composer to director of Pokemon Diamond & Pokemon Pearl?”
   translation: “增田先生，从音乐作曲家转变为《宝可梦 钻石／珍珠》的总监，您感觉如何？”
@@ -146,6 +214,9 @@ parallel_items:
   translation: 增田顺一：“我在《金／银》版本中成为副总监，然后从《水晶》版本开始担任总监。我的观念完全改变了，我开始思考如何让游戏更有趣。此外，我开始做出更多决定。我开始对自己表达的内容更有信心。我现在对自己喜欢的东西更加肯定，尽管当我只负责音乐时我也会表达自己的意见（笑）。至于开发方面，我会分别考虑故事情节、音乐和其他部分。我想我在为每个元素使用大脑的不同部分。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/013.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_013'
 - type: paragraph
   original: “What do you feel is the main theme, or ‘spirit,’ of the Pokemon series, and how did you embody this in both your music compositions and as a director?”
   translation: “您认为宝可梦系列的主要主题或‘精神’是什么？您如何在音乐创作和作为总监时体现这一点？”
@@ -155,6 +226,9 @@ parallel_items:
   speaker: 增田顺一
   note: 时拉比是幻之宝可梦，与自然有关。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/014.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_014'
 - type: paragraph
   original: “When you first began work on Pokemon Diamond & Pokemon Pearl, what were your main goals? What do you think were the key elements to those games?”
   translation: “当您最初开始制作《宝可梦 钻石／珍珠》时，您的主要目标是什么？您认为这些游戏的关键要素是什么？”
@@ -165,6 +239,9 @@ parallel_items:
   speaker: 增田顺一
   note: 全球交换站（GTS）是第四世代引入的功能，允许玩家通过互联网交换宝可梦。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/015.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_015'
 - type: paragraph
   original: “As the series progresses, how do you manage to keep the games accessible to new users while also appealing to core Pokemon fans?”
   translation: “随着系列的发展，你们如何让游戏对新玩家保持友好，同时又能吸引核心宝可梦粉丝？”
@@ -173,6 +250,9 @@ parallel_items:
   translation: 增田顺一：“作为一款RPG，游戏的开头是为新玩家设计的，让任何人都能轻松理解和游玩。同时，它也能吸引核心粉丝，因为尽管战斗系统看似随机，但由于战斗参数的复杂性，它有着深层的元素。我们最关心的是新玩家。他们能理解如何走出家门吗？所以，当你走近台阶时会出现提示信息，而且你家门前泥土的形状是凹陷的，以表明你应该走进去。当你接近标志时，信息会自动出现。粉丝们已经熟悉的东西可能会让新玩家感到困惑，所以我们需要确保游戏对每个人都有包容性。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/016.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_016'
 - type: paragraph
   original: 'Kawachimaru: “One of the key ideas that I value is the sense of ‘play control’ in the game. Through the game screens and game buttons, I pay attention to how I can feel that I’m doing something in the Pokemon world. It should be instinctive. It should show how easily you can get into the game. If you’re a huge Pokemon fan, you’ll be willing to get into the world more and more, so I think that’s where the hook is. So for example, when you stored your Pokemon in the PC in the Ruby & Sapphire versions, we wanted to make it so that you could literally pull out your Pokemon and store them in a box, thinking that it would help by visualizing your Pokemon being organized in a box.”'
   translation: 河内丸：“我重视的一个关键理念是游戏中的‘操作感’。通过游戏画面和游戏按钮，我注重如何让我感觉自己正在宝可梦世界中做某件事。这应该是本能的。它应该显示出你进入游戏有多容易。如果你是一个超级宝可梦粉丝，你会越来越愿意进入这个世界，所以我认为这就是吸引人的地方。例如，在红宝石和蓝宝石版本中，当你把宝可梦存放在电脑里时，我们想让你能真正地把宝可梦拿出来并放进盒子里，认为这样通过可视化你的宝可梦被整理在盒子中会有所帮助。”
@@ -183,6 +263,9 @@ parallel_items:
   translation: 增田顺一：“我每制作一款游戏都会重置我的思维。我重新回到小学生的心理状态，我意识到我不能再承受任何复杂的游戏玩法了。记住作为新玩家的感觉非常重要。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/017.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_017'
 - type: paragraph
   original: “Thanks to the Wi-Fi capabilities introduced in Pokemon Diamond & Pokemon Pearl, an amazing community has sprung up around those games. Has anything surprised you with regards to how players use the online functionality?”
   translation: “得益于《宝可梦 钻石／珍珠》中引入的Wi-Fi功能，围绕这些游戏涌现出了一个惊人的社区。关于玩家如何使用在线功能，有什么让你们感到惊讶的吗？”
@@ -202,6 +285,9 @@ parallel_items:
   speaker: 增田顺一
   note: GTS是Global Trade Station的缩写，即全球贸易站，是《宝可梦 钻石／珍珠》中通过Wi-Fi进行宝可梦交换的系统。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/018.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_018'
 - type: paragraph
   original: 'Kawachimaru: “I think things are going in the direction I want them to.”'
   translation: 河内丸：“我认为事情正朝着我想要的方向发展。”
@@ -217,6 +303,9 @@ parallel_items:
   translation: 河内丸：“在GTS上免费发布宝可梦是一个有风险的概念。起初我们认为应该为发布提供一些回报。结果我们根本不必费心，因为很多人最终都在GTS上发布了他们的宝可梦。对此我感到惊喜。”
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/019.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_019'
 - type: paragraph
   original: “Do you ever have time to compete online yourself? If so, which Pokemon do you use?”
   translation: “你们自己有时间在线对战吗？如果有，你们使用哪些宝可梦？”
@@ -240,6 +329,9 @@ parallel_items:
   translation: “我主要和同事们一起玩，因为我们在开发过程中会疯狂对战。”
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/020.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_020'
 - type: paragraph
   original: “Pokemon Platinum appears to add some significant new features. What new aspects of the game do you think are the most exciting?”
   translation: “《宝可梦白金》似乎增加了一些重要的新功能。您认为游戏中最令人兴奋的新内容是什么？”
@@ -249,6 +341,9 @@ parallel_items:
   speaker: 川知丸武
   note: 对战开拓区（Battle Frontier）是《绿宝石》中引入的设施集合，在《白金》中回归并支持双人合作。毁坏的世界（Distortion World）是《白金》新增的特殊地点，与骑拉帝纳相关。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/021.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_021'
 - type: paragraph
   original: “Are there new battle aspects to Pokemon Platinum that top competitive players should be sure to take note of?”
   translation: “《宝可梦白金》中有哪些新的对战要素是顶级对战玩家需要注意的？”
@@ -258,6 +353,9 @@ parallel_items:
   speaker: 川知丸武
   note: 对战塔（Battle Tower）是对战开拓区中的设施之一。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/022.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_022'
 - type: paragraph
   original: “Did you have the ideas for Pokemon Platinum in mind while working on Pokemon Diamond & Pokemon Pearl, or did they come about later?”
   translation: “在开发《宝可梦钻石》和《宝可梦珍珠》时，您是否已经有了《宝可梦白金》的想法，还是后来才想到的？”
@@ -267,6 +365,9 @@ parallel_items:
   speaker: 增田顺一
   note: 骑拉帝纳（Giratina）是神奥地区的传说宝可梦，代表反物质；帝牙卢卡（Dialga）代表时间，帕路奇亚（Palkia）代表空间。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/023.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_023'
 - type: paragraph
   original: “I was not aware of any of that during the Diamond & Pearl’s development. Masuda told me about it when we started developing Platinum. So it was after Diamond & Pearl for me (laughs). I normally receive key terms from Masuda in the first stage of development, but there were many random terms like ‘antimatter’ and ‘e=mc2,’ ‘Reversed Mt. Fuji’ (‘Sakasa Fuji’) and so on. He explained that ‘Sakasa Fuji’ is the reflection of Mt Fuji on the lake, and it’s the antimatter world. It was challenging to put that concept into the game, so we did extensive research. I didn’t know what exactly ‘antimatter’ was either. I personally think I comprehend it well, but I wonder….
   translation: “在开发《钻石》和《珍珠》时，我并不知道这些。增田是在我们开始开发《白金》时告诉我的。所以对我来说是在《钻石》和《珍珠》之后（笑）。我通常在开发的第一阶段从增田那里收到关键词，但当时有很多随机的词，比如‘反物质’、‘e=mc2’、‘逆富士’（Sakasa Fuji）等等。他解释说‘逆富士’是富士山在湖面上的倒影，那就是反物质世界。把这个概念融入游戏很有挑战性，所以我们做了大量研究。我当时也不知道‘反物质’到底是什么。我个人认为我理解得很好，但我想……”。
@@ -278,6 +379,9 @@ parallel_items:
   translation: “是的。它存在但实际上并不存在。它不存在但又存在。就是那种感觉。山在人的眼中存在于湖面上，但那只是倒影，并不真实存在。这是一个多样化的世界。你之所以能看到它，只是因为你在用眼睛看。我很佩服（川丸）能够把那些不实质的元素融入《白金》中。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/024.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_024'
 - type: paragraph
   original: “With so many passionate fans to please with each new installment, does the development team feel a lot of pressure when working on new Pokemon titles?”
   translation: “每一部新作都要取悦这么多热情的粉丝，开发团队在制作新的宝可梦游戏时是否会感到很大的压力？”
@@ -297,6 +401,9 @@ parallel_items:
   translation: “我偶尔听到电影导演说，他们害怕首映日没有人排队。我对此感同身受，我会担心发售日是否会有人排队。每款游戏发售都是如此。基本上，游戏一旦售出，就会有上百万人开始调试游戏，所以我们需要准备好应对用户发现的任何漏洞。我还想进一步了解美国和欧洲的用户，并为他们制作更有趣的内容。”
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/025.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_025'
 - type: paragraph
   original: 'Doctor Lava’s notes: Masuda’s controversial strategy of focusing on attracting new fans at the expense of series veterans hasn’t earned him a lot of love in recent years. Dissatisfaction with Masuda’s directorship gradually increased over the generations, finally coming to a head in the Let’s Go Pikachu era. Many longtime fans weren’t happy that so many classic features were cut from Let’s Go — for example, the lack of a breeding mechanic. One month before the games’ release, Masuda addressed the controversy by saying: “I know that a lot of people and fans have spent a lot of time hatching eggs, they’ve hatched… a lot of eggs, but we want them to kind of discover new ways to enjoy Pokémon games, you know I’d be really sad to think that for them, Pokémon is hatching eggs, so with this one we’re trying to show them a different side of the game.” Fans slammed Masuda for his perceived condescension and being “out of touch” — that was the point when backlash reached its climax, and
     two weeks later Masuda announced he’d no longer serve as the series’ director. Nowadays he’s much less hands-on with the franchise, serving instead as one of several producers.'
@@ -304,6 +411,9 @@ parallel_items:
   speaker: Dr. Lava
   note: Doctor Lava 是宝可梦历史研究者，其笔记在此处作为背景信息。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/026.png
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_026'
 - type: paragraph
   original: “Do you have a favorite Pokemon?”
   translation: “您有最喜欢的宝可梦吗？”
@@ -322,12 +432,18 @@ parallel_items:
   translation: 是的，我喜欢（笑）。歌手实际上必须唱得不好。我喜欢有营销策略的艺人。
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/027.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_027'
 - type: paragraph
   original: The idea of “the next Pikachu” obviously continued into future generations — Plusle, Minun, Pachirisu, Emolga, etc. Interestingly, Game Freak almost made White Pichu a special event Pokemon for HeartGold & SoulSilver, but ended up replacing it with Spiky-eared Pichu. You can read that full story here .
   translation: “下一个皮卡丘”的想法显然延续到了未来的世代——正电拍拍、负电拍拍、帕奇利兹、电飞鼠等等。有趣的是，GAME FREAK 差点让白色皮丘成为《心金／魂银》的特殊活动宝可梦，但最终用刺刺耳皮丘取而代之。你可以在这里阅读完整故事。
   speaker: Dr. Lava
   note: 此处提到的“White Pichu”可能指异色皮丘，但根据上下文，可能是指一种特殊的白色皮丘设计。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/028.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_028'
 - type: paragraph
   original: I like Bulbasaur. Before I started to work for GAME FREAK, I purchased Pokemon Green Version and I chose it as my starter. It was love at first sight. It’s four-legged and stubby. It’s the same for dogs. I like Corgis because of their stubby legs.
   translation: 我喜欢妙蛙种子。在我开始为 GAME FREAK 工作之前，我购买了《宝可梦 绿》并选择了它作为我的初始宝可梦。那是一见钟情。它四条腿，矮胖矮胖的。狗也一样。我喜欢柯基犬，因为它们腿短。
@@ -344,6 +460,9 @@ parallel_items:
   translation: 我会看角色的属性和整体特征——它的吸引力在哪里，是否是一个可爱的角色……我显然会检查外观，但我认为那些能传达其栖息地和生活方式的设计最具吸引力。我认为重要的是，你不需要查阅图鉴就能很好地了解它们是什么类型的宝可梦。所有角色最初都没有名字，所以用非常描述性的语言来形象化它们是很重要的。比如皮卡丘，就是“它黄色的，尾巴像闪电，是电老鼠”，所以很容易推测它会有电属性的招式；它可能被闪电击中。我会思考它们住在哪里，吃什么。我专注于角色是否能唤起它的生活方式。如果它有嘴，它可能会吃东西；如果它有眼睛，它能看东西；如果它有鼻子，它能闻东西。我相信能够构想出非常接近真实生物的影像很重要。
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/029.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_029'
 - type: paragraph
   original: Why do you think that the Pokemon series continues to receive so much fan support and enthusiasm after more than a decade since its introduction?
   translation: 您认为为什么宝可梦系列在推出十多年后仍然获得如此多的粉丝支持和热情？
@@ -359,6 +478,9 @@ parallel_items:
   translation: 因为我们非常专注于开发游戏，所以它相当有深度。正因为有深度，你可以从不同的角度、以不同的视角来看待它。所有元素，包括图鉴描述和宝可梦属性，都持续有趣和好玩。除此之外，也许是因为你可以与下一个版本进行对战和交换，这使它如此吸引人。它们都是相连的。例如，你可以将宝可梦从《钻石／珍珠》带到《白金》，或者你可以将《红宝石／蓝宝石》卡带插入 DS 的双插槽中。我认为这种机制正是其魅力所在。
   speaker: 增田顺一
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/030.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_030'
 - type: paragraph
   original: In general terms, what do you think will be the key to ensuring that the Pokemon series continues to excite and engage its millions of fans for years to come?
   translation: 总的来说，您认为确保宝可梦系列在未来几年继续让数百万粉丝兴奋和投入的关键是什么？
@@ -374,6 +496,9 @@ parallel_items:
   translation: 此外，还有以宝可梦为媒介的玩家之间的互动。最初有（通过连接线的）交换，现在我们可以通过 Wi-Fi 连接进行交换。我们如何发展这种交换方式是关键。
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/031.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_031'
 - type: paragraph
   original: Finally, is there anything else that you would like to say to our readers about Pokemon Platinum?
   translation: 最后，关于《宝可梦 白金》，您还有什么想对我们的读者说的吗？
@@ -389,6 +514,9 @@ parallel_items:
   translation: 看看这个与朋友一起玩的新功能。
   speaker: 川知丸武
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/032.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_032'
 - type: paragraph
   original: Closing Comments
   translation: 结束语
@@ -422,6 +550,10 @@ parallel_items:
 - type: paragraph
   original: '• Cut Content: Gen 4’s Internal Data and Cut Content'
   translation: • 删除内容：第四世代的内部数据和被删除的内容
+- type: image
+  image: /assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/033.jpg
+  alt: 'Nintendo power Interview: Masuda on Developing Gens 1-4_033'
+  caption: The Lost Lock Capsule Event
 - type: paragraph
   original: The Lost Lock Capsule Event
   translation: 失落的“上锁的容器”事件
@@ -627,4 +759,5 @@ mentions:
   - "宝可梦 绿宝石"
   - "宝可梦 钻石·珍珠"
   - "宝可梦 心金·魂银"
+era: 2006–2010 · NDS / 触控与 Wi-Fi 联机时代
 ---

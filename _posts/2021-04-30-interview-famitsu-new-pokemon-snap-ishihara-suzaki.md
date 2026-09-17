@@ -109,6 +109,14 @@ parallel_items:
   original: まさに隔世の感があります（笑）。しかし、写真を撮ることにある種の特別感があったからこそ、当時はそれをゲームとしての遊びに落とし込むことにおもしろさがあったと。
   translation: 真是恍如隔世（笑）。不过，正因为拍照有某种特别感，当时将其融入游戏玩法中才显得有趣。
   role: question
+- type: image
+  image: /assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/snap_01.jpg
+  alt: 石原社長＆須崎Dに聞く『New ポケモンスナップ』開発秘話。写真を撮ることがより手軽になった2021年、ゲームデザインは前作からどう進化した？
+  caption: ※画像はWiiUバーチャルコンソール版『ポケモンスナップ』のものです
+- type: image
+  image: /assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/snap_02.jpg
+  alt: 石原社長＆須崎Dに聞く『New ポケモンスナップ』開発秘話。写真を撮ることがより手軽になった2021年、ゲームデザインは前作からどう進化した？
+  caption: ※画像はWiiUバーチャルコンソール版『ポケモンスナップ』のものです
 - speaker: 石原恒和
   speaker_orig: 石原
   original: 当時ならではのタイトルだったと思います。
@@ -161,6 +169,10 @@ parallel_items:
   original: それにしてもすごいこだわりでした。テルルタウンの伝説のポケモン・ユクシー、エムリット、アグノムや育て屋さんのアーチの上にいるオニスズメやポッポなど、Nintendo Switchのアップデートでズーム機能が追加されてようやく気づけるくらいのサイズで、本当に細部まで作り込まれていて。『ポッ拳』のステージにレールを引くだけで、そのまま『New ポケモンスナップ』のステージになるのではないかと思うくらい（笑）。
   translation: 话说回来，真是讲究到了极致。比如神奥地区传说中的宝可梦由克希、艾姆利多、亚克诺姆，还有培育屋拱门上的烈雀和波波等等，这些细节小到在Nintendo Switch更新加入缩放功能后才终于能注意到的程度，真的是连细微之处都精心打磨过。甚至让人觉得，只要在《宝可拳》的舞台上铺条轨道，就能直接变成《New 宝可梦随乐拍》的关卡了（笑）。
   role: answer
+- type: image
+  image: /assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/001.jpg
+  alt: 石原社長＆須崎Dに聞く『New ポケモンスナップ』開発秘話。写真を撮ることがより手軽になった2021年、ゲームデザインは前作からどう進化した？
+  caption: 『ポケットモンスター』シリーズと『鉄拳』シリーズのコラボレーションとして開発された『ポッ拳　POKKÉN TOURNAMENT』。2015年にアーケードでの稼働が開始され、2016年にはWiiU版、2017年にはNintendo Switch版が発売された。実際に戦うポケモンたちはもちろん、本作ではプレイアブルとして使用できなかったポケモンたちが背景とともにたくさん登場。
 - speaker: Fami通编辑部
   speaker_orig: ――
   original: 意外なところに新作開発のきっかけが（笑）。それほどにポケモンへの表現についてこだわりを持たれていた須崎さんですが、『New ポケモンスナップ』の話を最初にお聞きになったときはどう思われましたか。

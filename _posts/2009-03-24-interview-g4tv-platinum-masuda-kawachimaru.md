@@ -33,6 +33,9 @@ parallel_items:
   original: I was the one that set the direction for Platinum. Mr. Masuda came to me and explained the original concept for the Pokemon Giratina. He mentioned anti-matter as something -- it's there, but it's something you can't see. Mr. Masuda gave me a lot of key concepts to design around -- matter, antimatter, Einstein's theory of relativity. I was the one that had to make those concepts a realization in a Pokemon game -- both visually and implementing certain tricks into the gameplay to give the player a sense of bipolarity. There's a concept in particle, in physics called CP violation. It helps explain the relationship between matter and antimatter. The relationship is bipolar. The reality is that anti-matter is something that's very, very fragile. This concept weighs heavily in how we came up with Pokemon Platinum's Distortion World.
   translation: 我是决定《白金》方向的人。增田先生来找我，向我说明了宝可梦骑拉帝纳的原始概念。他提到反物质——它确实存在，但却是你无法看见的东西。增田先生给了我许多核心概念作为设计基础——物质、反物质、爱因斯坦的相对论。我必须将这些概念在宝可梦游戏中变为现实——无论是在视觉上，还是在玩法中植入某些巧妙设计，让玩家感受到一种两极对立的感觉。粒子物理学中有个概念叫做CP对称性破坏。它有助于解释物质与反物质之间的关系。这种关系是两极对立的。事实上，反物质是非常非常脆弱的东西。这一概念在我们构思《宝可梦 白金》的反转世界时占据了很重要的分量。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/001.jpg
+  alt: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!_001
 - speaker: G4记者
   original: How are some of these concepts realized? What will gamers see and feel when they're in Distortion World?
   translation: 这些概念是如何实现的？当玩家身处反转世界时，他们会看到什么、感受到什么？
@@ -53,6 +56,9 @@ parallel_items:
   image: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/02_photo_2.jpg
   caption: 增田顺一与河内丸武史在任天堂北美办公室指着《宝可梦 白金》官方宣传海报（摄影：Raymond Padilla / G4TV）
   alt: 增田顺一与河内丸武史指着《宝可梦 白金》海报
+- type: image
+  image: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/002.jpg
+  alt: Dialga, Palkia, and Giratina
 - speaker: G4记者
   original: Legendary Pokemon have been getting more powerful since gamers encountered Articuno, Moltres, and Zapdos in Kanto. Giratina, the cover Pokemon for Platinum, is ridiculously powerful. Arceus is like the god of all Pokemon. Will there be anything more powerful than Arceus in future games?
   translation: 自玩家在关都地区邂逅急冻鸟、火焰鸟与闪电鸟以来，传说的宝可梦便愈发强大。《白金》的封面宝可梦骑拉帝纳强得离谱。阿尔宙斯则如同所有宝可梦之神。未来的作品中，会出现比阿尔宙斯更强大的存在吗？
@@ -69,6 +75,12 @@ parallel_items:
   original: One of the core concepts of the Pokemon games is trading. You can trade within the game, but you can also go out and meet with your friends to trade. You can talk with your family and friends as you play Pokemon. For this concept, the most suitable hardware is portable, like the Nintendo DS. That's why we focus on portable game systems.
   translation: 宝可梦游戏的核心概念之一便是交换。你可以在游戏内进行交换，但也可以走出去与朋友面对面交换。你可以在游玩宝可梦的同时与家人和朋友交流。基于这一概念，最合适的硬件便是便携式设备，比如任天堂DS。这就是我们专注于便携式游戏系统的原因。
   role: answer
+- type: image
+  image: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/003.jpg
+  alt: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!_003
+- type: image
+  image: /assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/004.jpg
+  alt: Junichi Masuda & Takeshi Kawachimaru Talk 'Pokemon Platinum', Particle Physics, Bridges, And More!_004
 - speaker: G4记者
   original: How about a Pokemon game similar to Capcom's Monster Hunter. That's one of the biggest gaming phenomenons in Japan. Surely the popularity of Pokemon can dwarf Monster Hunter if it's used in a similar game.
   translation: 那要不要做一款类似卡普空《怪物猎人》的宝可梦游戏呢？《怪物猎人》是日本最火爆的游戏现象之一。如果宝可梦以类似的游戏形式呈现，其人气肯定能远超《怪物猎人》。
@@ -151,10 +163,14 @@ source:
   url: https://web.archive.org/web/20130111213052/http://www.g4tv.com/thefeed/blog/post/694081/junichi-masuda-takeshi-kawachimaru-talk-pokemon-platinum-particle-physics-bridges-and-more/
 entities:
   people:
-  - "河内丸武史"
-  - "增田顺一"
+  - 河内丸武史
+  - 增田顺一
   works:
   - 宝可梦 白金
+  - 宝可梦 黑·白
+  organizations:
+  - Game Freak
+  - Nintendo
 summary: "2009 年 G4TV 采访 Game Freak 总监增田顺一与游戏设计师河内丸武史，谈《宝可梦 白金》。河内说明以反物质、CP 对称性破坏等概念设计反转世界，使其与神奥地区相似却相反；并介绍对战开拓区的规则与培育要求。增田谈及帝牙卢卡、帕路奇亚、骑拉帝纳与阿尔宙斯的关系，解释系列专注便携设备因交换为核心，回忆与杉森建设计皮丘、晃晃斑，说明个体值、努力值及物理／特殊招式拆分，最后以桥梁结构比喻宝可梦。"
 dek: "增田顺一与河内丸武史谈《宝可梦 白金》的反转世界、对战开拓区与系列设计。"
 topics:
@@ -173,4 +189,13 @@ mentions:
   - "小岛秀夫"
   works:
   - "宝可梦 钻石·珍珠"
+tags:
+- Pokemon
+- 访谈
+- 开发者访谈
+- 第四世代
+- 增田顺一
+- 河内丸武史
+- 白金
+- 黑白
 ---

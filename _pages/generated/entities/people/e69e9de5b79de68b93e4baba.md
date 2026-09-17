@@ -1,0 +1,32 @@
+---
+title: "枝川拓人 - 人物"
+permalink: "/entities/people/e69e9de5b79de68b93e4baba/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>枝川拓人</h2>
+    <span>1 篇文章 · 0 条评注 · 2026</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2026 · interview_translation · 【ぽこポケ】『ぽこ あ ポケモン』開発インタビュー。大森滋氏が『ポケットモンスター』開発時に“マップに草むらを置いた”経験から生まれた！</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-famitsu-2026-pokopia/">Fami通.com 2026：《ぽこ あ ポケモン》开发访谈——大森滋谈从「放草丛」的原体验到三社共同开发</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

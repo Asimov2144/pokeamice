@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 太阳·月亮</h2>
-    <span>44 篇文章 · 0 条评注 · 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
+    <span>49 篇文章 · 0 条评注 · 2026 / 2023 / 2021 / 2019 / 2018 / 2017 / 2016</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,18 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2026 · interview_translation · ターン制とリアルタイム制を支える「ポケモン」の共通バトルシステム。「Pokémon LEGENDS Z-A」での運用事例［CEDEC 2026］</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-2026-cedec-battle/">4Gamer.net 2026：Game Freak谈宝可梦战斗系统基础设计与Z-A实时制运用</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2026 · interview_translation · 『ポケモン』の複雑すぎるバトルシステムがどうなっているのか、ゲーフリの“ポケモンバトル”専門家に聞いてみた。膨大なパターンを制御すべく、『サン・ムーン』をきっかけに専門チームが発足【CEDEC2026】</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-denfami-2026-cedec-battle/">电Fami Nico Gamer（電ファミニコゲーマー） 2026：Game Freak对战专职团队谈宝可梦战斗系统重构</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2023 · interview_translation · ［CEDEC 2023］ポケモン世界をリアルにするため，音響の力も追及する。「ポケモンの せかいを かけめぐる おと！ おんきょうデザインで ひろがる ぼうけんの すがた！」レポート</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-cedec-2023-sound-design-ichinose-paldea/">[访谈翻译] 4Gamer CEDEC 2023 报告：一之濑刚详解《宝可梦 朱·紫》帕底亚生态音响与“PokeSynth”自研生物拟真音频引擎</a></h3>
   <span></span>
@@ -91,14 +103,14 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</p>
-  <h3><a href="/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/">CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</a></h3>
+  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
   <span></span>
 </article>
 
 <article class="resource-network-card">
-  <p>2017 · interview_translation · CGWorld：ポケモンの設定画に命を吹き込むクリーチャーズの現状と未来</p>
-  <h3><a href="/developer-interviews/official-archives/interview-cgworld-creatures-3d-character-life/">CGWORLD 独家专访 Creatures 核心建模与动画团队：从骨骼绑定、进食动作到宝可梦清爽乐的“生命赋予”技术</a></h3>
+  <p>2017 · interview_translation · CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</p>
+  <h3><a href="/developer-interviews/official-archives/interview-cgworld-pokemon-sun-moon-3d-pipeline/">CGWORLD 独家专访 GAME FREAK × Creatures：〈精灵宝可梦 太阳／月亮〉3D 资产构建工业管线与三社协同革新</a></h3>
   <span></span>
 </article>
 
@@ -157,6 +169,18 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · The Creators of Pokémon Explain Why Sun and Moon Has Ridiculous Monster Designs</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-kotaku-2016-designs/">Kotaku 2016：宝可梦创作者解释《太阳／月亮》为何设计荒诞</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · Pokémon Sun and Moon&#39;s Devs Respond To The Popplio Backlash</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-kotaku-2016-popplio/">Kotaku 2016：增田顺一与大森滋回应波普海狮争议</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Media Interviews</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-7840175/">【活动】2016年旧金山媒体采访</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;今天顺利结束了全部的&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--</span>
@@ -172,6 +196,12 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · サン・ムーン最新情報</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-6851197/">【活动】2016年宝可梦日月最新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;昨晚&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;《</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ディレクター・大森滋氏が語る、2つのソフトに込めた想いとは？</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemoncojp-2016-ohmori-sm/">宝可梦官网 2016：总监大森滋谈两款软件寄托的想法</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -193,15 +223,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · New Pokémon Sun and Moon information @ E3</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4186463/">【活动】2016宝可梦日月E3</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4186463/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · ポケモン サン・ムーン 新情報 @ E3！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4185470/">【活动】2016宝可梦日月美国展会现场</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4185470/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · New Pokémon Sun and Moon information @ E3</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-4186463/">【活动】2016宝可梦日月E3</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;figure class=&quot;gf-lineblog-image&quot;&lt;a href=&quot;/assets/images/gamefreak-lineblog/4186463/001-c557333cec.webp&quot; target=&quot;blank&quot; rel=&quot;n</span>
 </article>
 
 <article class="resource-network-card">
@@ -241,15 +271,15 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 3 hours to go!</p>
-  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/">【活动】2016年宝可梦新情报</a></h3>
-  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;感谢大家发来的推特消息&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
-</article>
-
-<article class="resource-network-card">
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 「ポケットモンスター サン・ムーン」最新情報公開！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3375970/">【活动】2016年宝可梦日月新情报</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;《宝可梦 太阳／月亮》最新情报公开。 &lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lin</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · 3 hours to go!</p>
+  <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3297485/">【活动】2016年宝可梦新情报</a></h3>
+  <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;感谢大家发来的推特消息&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line-</span>
 </article>
 
 <article class="resource-network-card">
@@ -268,6 +298,18 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · サン・ムーンの特別映像</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-3120585/">【创作】2016年《宝可梦》特别影像</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;讲究&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;就</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛</p>
+  <h3><a href="/developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/">Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经</a></h3>
+  <span>导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作 在 GAME FREAK 漫长而辉煌的独立开发史上，除了享誉全球的《精灵宝可梦》之外，有一款名为《德比骏马》（Derby Stallion / ダビスタ）的传奇赛马模拟游戏，曾彻底改变了 GAME FREAK 早期创作者们的生命轨迹： 1. 红白机时代的‘办公室全员沉迷危机’：作为‘初代始作俑者’的森本茂树</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦・・・株式会社ポケモン代表取締役社長・石原恒和氏インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-inside-2016-ishihara-20th/">INSIDE 2016：宝可梦20年，石原恒和谈现实与虚拟的连接</a></h3>
+  <span></span>
 </article>
 
   </section>

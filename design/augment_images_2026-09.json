@@ -5326,67 +5326,215 @@
   "added": [],
   "skipped": [
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/001.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/001.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/002.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/002.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/003.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/004.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/004.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/005.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/005.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/011.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/006.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/014.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/007.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/018.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/008.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/023.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/009.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/028.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/010.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/031.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/011.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/035.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/012.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/040.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/013.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/043.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/014.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/046.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/015.jpg",
     "already in the post"
    ],
    [
-    "https://www.4gamer.net/games/619/G061991/20230823075/TN/048.jpg",
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/016.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/017.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/018.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/019.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/020.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/021.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/022.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/023.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/024.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/025.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/026.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/027.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/028.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/029.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/030.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/031.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/032.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/033.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/034.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/035.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/036.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/037.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/038.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/039.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/040.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/041.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/042.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/043.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/044.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/045.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/046.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/047.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/048.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/049.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/050.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/051.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/619/G061991/20230823075/SS/052.jpg",
     "already in the post"
    ]
   ],
-  "dry": true
+  "dry": false
  },
  "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md": {
   "post": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea.md",
@@ -6672,5 +6820,2460 @@
     ]
    }
   ]
+ },
+ "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages.md": {
+  "post": "2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages.md",
+  "page_pictures": 3,
+  "added": [],
+  "skipped": [
+   [
+    "https://www.nintendo.co.jp/nom/0211/01/01_05/b_masu.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.nintendo.co.jp/nom/0211/01/01_05/b_sugi.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.nintendo.co.jp/nom/0211/01/01_05/b_ishi.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2013-01-11-interview-junichi-masuda-takeshi-kawachimaru.md": {
+  "post": "2013-01-11-interview-junichi-masuda-takeshi-kawachimaru.md",
+  "page_pictures": 7,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/001.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139991_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.jpg",
+    "after": -1,
+    "size": [
+     570,
+     319
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/002.jpg",
+    "src": "http://files.g4tv.com/images/blog/2008/12/17/633651021803157409.jpg",
+    "after": 98,
+    "size": [
+     570,
+     511
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/003.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139993_S/Dialga-Palkia-and-Giratina.jpg",
+    "after": 102,
+    "size": [
+     570,
+     314
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/004.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139998_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.jpg",
+    "after": 106,
+    "size": [
+     570,
+     320
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/005.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139994_S/Pokemon-Pichu.jpg",
+    "after": 106,
+    "size": [
+     165,
+     202
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/006.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139995_S/Pokemon-Spinda.jpg",
+    "after": 106,
+    "size": [
+     165,
+     184
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-01-11-interview-junichi-masuda-takeshi-kawachimaru/007.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139996_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridges-And-More.jpg",
+    "after": 120,
+    "size": [
+     570,
+     428
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2013-10-08-interview-4gamer-2013-solitiba.md": {
+  "post": "2013-10-08-interview-4gamer-2013-solitiba.md",
+  "page_pictures": 20,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/011.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/028.jpg",
+    "after": 96,
+    "size": [
+     1024,
+     771
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/012.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/029.jpg",
+    "after": 96,
+    "size": [
+     913,
+     1024
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/013.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/030.jpg",
+    "after": 96,
+    "size": [
+     998,
+     1024
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/014.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/031.jpg",
+    "after": 96,
+    "size": [
+     973,
+     1024
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/015.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/039.jpg",
+    "after": 96,
+    "size": [
+     1024,
+     971
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/016.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/040.jpg",
+    "after": 96,
+    "size": [
+     1024,
+     932
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/017.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/041.jpg",
+    "after": 96,
+    "size": [
+     1024,
+     828
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/018.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/032.jpg",
+    "after": 96,
+    "size": [
+     816,
+     1024
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/019.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/033.jpg",
+    "after": 96,
+    "size": [
+     1024,
+     994
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/020.jpg",
+    "src": "https://www.4gamer.net/games/226/G022607/20131007064/SS/034.jpg",
+    "after": 96,
+    "size": [
+     770,
+     1024
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/002.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/003.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/006.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/007.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/017.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/010.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/024.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/023.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/026.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/226/G022607/20131007064/SS/027.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2013-10-10-interview-gamasutra-xy-monster-design.md": {
+  "post": "2013-10-10-interview-gamasutra-xy-monster-design.md",
+  "page_pictures": 1,
+  "added": [],
+  "skipped": [
+   [
+    "http://www.gamesetwatch.com/2013/10/08/PSS_battle_screenshot_2.jpg?width=1400&auto=webp&quality=80&disable=upscale",
+    "not fetched"
+   ]
+  ],
+  "dry": false
+ },
+ "2014-05-01-interview-tpc-leaders-challenge.md": {
+  "post": "2014-05-01-interview-tpc-leaders-challenge.md",
+  "page_pictures": 15,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/001.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/entry1.jpg",
+    "after": 1,
+    "size": [
+     250,
+     140
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/002.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/entry2.jpg",
+    "after": 1,
+    "size": [
+     250,
+     140
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/003.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/entry3.jpg",
+    "after": 1,
+    "size": [
+     250,
+     140
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/004.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont1_p_img1.jpg",
+    "after": 2,
+    "size": [
+     315,
+     394
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/005.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont1_p_img2.jpg",
+    "after": 4,
+    "size": [
+     158,
+     216
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/006.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont2_p_img1.jpg",
+    "after": 24,
+    "size": [
+     315,
+     394
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/007.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont3_p_img2.jpg",
+    "after": 45,
+    "size": [
+     157,
+     220
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2014-05-01-interview-tpc-leaders-challenge/008.jpg",
+    "src": "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont3_middleimg.jpg",
+    "after": 54,
+    "size": [
+     770,
+     296
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont1_topimg.jpg",
+    "already in the post"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont1_middleimg.jpg",
+    "already in the post"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont2_topimg.jpg",
+    "already in the post"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont2_p_img2.jpg",
+    "not fetched"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont2_middleimg.jpg",
+    "not fetched"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont3_topimg.jpg",
+    "not fetched"
+   ],
+   [
+    "http://www.pokemon.co.jp/corporate/job/saiyo/interview/img/interview1/cont3_p_img1.jpg",
+    "not fetched"
+   ]
+  ],
+  "dry": false
+ },
+ "2015-11-08-interview-creatures-20th-anniversary.md": {
+  "post": "2015-11-08-interview-creatures-20th-anniversary.md",
+  "page_pictures": 50,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/001.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/monsterball_line_sp.png",
+    "after": -1,
+    "size": [
+     328,
+     298
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/002.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec01_img.png",
+    "after": -1,
+    "size": [
+     1130,
+     873
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/003.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec01_img_sp.png",
+    "after": -1,
+    "size": [
+     750,
+     817
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/004.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/pikachu.png",
+    "after": -1,
+    "size": [
+     378,
+     395
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/005.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec02_img.png",
+    "after": -1,
+    "size": [
+     498,
+     785
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/006.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec02_img_sp.png",
+    "after": -1,
+    "size": [
+     375,
+     642
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/007.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec02_img02.png",
+    "after": 6,
+    "size": [
+     255,
+     349
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/008.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec03_img.png",
+    "after": 9,
+    "size": [
+     500,
+     785
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/009.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec03_img_sp.png",
+    "after": 9,
+    "size": [
+     375,
+     642
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/010.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec03_img02.png",
+    "after": 21,
+    "size": [
+     255,
+     349
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/011.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec04_img_sp01.png",
+    "after": 24,
+    "size": [
+     374,
+     222
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/012.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec04_img_sp02.png",
+    "after": 24,
+    "size": [
+     376,
+     222
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/013-s.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_img.png",
+    "after": 35,
+    "size": [
+     500,
+     845
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/014.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_img_sp.png",
+    "after": 35,
+    "size": [
+     375,
+     642
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/015.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_img_sp02.png",
+    "after": 40,
+    "size": [
+     631,
+     445
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/016.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_img02.png",
+    "after": 42,
+    "size": [
+     255,
+     348
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/017.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_img03.png",
+    "after": 42,
+    "size": [
+     307,
+     218
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/018.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec06_img.png",
+    "after": 45,
+    "size": [
+     500,
+     702
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/019.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec06_img_sp01.png",
+    "after": 45,
+    "size": [
+     375,
+     368
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/020.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec06_img_sp02.png",
+    "after": 45,
+    "size": [
+     375,
+     368
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/021.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/mew_image.png",
+    "after": 52,
+    "size": [
+     368,
+     385
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/022-s.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img.png",
+    "after": 52,
+    "size": [
+     503,
+     682
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/023.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img_sp01.png",
+    "after": 52,
+    "size": [
+     268,
+     371
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/024.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img_sp02.png",
+    "after": 52,
+    "size": [
+     184,
+     192
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/025.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img_sp03.png",
+    "after": 52,
+    "size": [
+     287,
+     401
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/026.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img02.png",
+    "after": 58,
+    "size": [
+     281,
+     426
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/027.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img_sp05.png",
+    "after": 58,
+    "size": [
+     204,
+     338
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/028-s.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec08_img.png",
+    "after": 62,
+    "size": [
+     703,
+     1027
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/029.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec08_img02.png",
+    "after": 73,
+    "size": [
+     209,
+     498
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2015-11-08-interview-creatures-20th-anniversary/030.png",
+    "src": "https://www.creatures.co.jp/history_special_interview/image/interview/sec09_img_sp.png",
+    "after": 78,
+    "size": [
+     750,
+     315
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/monsterball_line.png",
+    "text as a picture"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/inazuma.png",
+    "banner 1076x260"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec02_text.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec03_text.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec04_text01.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec04_text02.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec04_img.png",
+    "banner 1500x235"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_text02.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec05_text01.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec06_text.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_text01.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_text02.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec07_img_sp04.png",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec08_text.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec09_text01.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec09_text02.svg",
+    "not fetched"
+   ],
+   [
+    "https://www.creatures.co.jp/history_special_interview/image/interview/sec09_img.png",
+    "banner 1500x339"
+   ]
+  ],
+  "dry": false
+ },
+ "2016-12-12-interview-reportajes.md": {
+  "post": "2016-12-12-interview-reportajes.md",
+  "page_pictures": 7,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/001.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/XJGBWRNHZJMMRMUZJ2NYXDPYVQ.jpg?auth=63639ea5be5999b60b5621607d29463476f514a4f94e3ee22a13ebfbc64e0219&width=360",
+    "after": 26,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/002.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/4E4N7RQDM5JXPCGYFGERESDUJI.jpg?auth=18d0d8c35fccc3e6be415edf72ecaf13abfa3f77f0cc4ab1da9840d49679e1c6&width=360",
+    "after": 31,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/003.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/II6XDGTD35O5FC54PJOLVGQGLM.jpg?auth=a8c707ac5bd3d85d34e2e09812ca51fc56b187c1cc8f36db0743f6d6bef604e9&width=360",
+    "after": 38,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/004.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/CWWK435EL5INXDFAWCXECNUIMI.jpg?auth=b2ae6207a61f39acba087491b6fb929edc7aae0e1f3babf1e03dd8d2999c6659&width=360",
+    "after": 43,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/005.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/LHBPU2QP3FJVFK2ARGKDBWFAQY.jpg?auth=30c236a881a517bb837b629904a213bb9b7bae2d3183d10f6e1d8cd082471423&width=360",
+    "after": 45,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/006.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/XAY47ZUUYNLGVPBKGCF7OGS2WA.jpg?auth=684453ee437e2c440b671bcd7c9f6f3dd14ba5fd6092cbeeae2eec2affdd9576&width=360",
+    "after": 50,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2016-12-12-interview-reportajes/007.jpg",
+    "src": "https://img.asmedia.epimg.net/resizer/v2/DDZEXU7YEFKVXFFP7OBE5AN43I.jpg?auth=9ca5ca4e42fc246df4cb3916e94804cea0256ea3143641002a4e86424d781889&width=360",
+    "after": 54,
+    "size": [
+     360,
+     203
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2017-08-18-interview-gi-2017-usum-mode.md": {
+  "post": "2017-08-18-interview-gi-2017-usum-mode.md",
+  "page_pictures": 1,
+  "added": [],
+  "skipped": [
+   [
+    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Exclusive%20Reveal%20Of%20A%20New%2",
+    "not fetched"
+   ]
+  ],
+  "dry": false
+ },
+ "2017-11-06-interview-2017-game-freak-dordogne-enquete.md": {
+  "post": "2017-11-06-interview-2017-game-freak-dordogne-enquete.md",
+  "page_pictures": 2,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/001.png",
+    "src": "https://www.pokemontrash.com/images/news/1534957913706.png",
+    "after": 3,
+    "size": [
+     1196,
+     1280
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/002.jpg",
+    "src": "https://www.pokemontrash.com/images/news/1534957913758.jpg",
+    "after": 11,
+    "size": [
+     2048,
+     1365
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita.md": {
+  "post": "2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita.md",
+  "page_pictures": 9,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/001.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/y_5ab93890495f5.jpg",
+    "after": 2,
+    "size": [
+     750,
+     565
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/002.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/y_5ab938f0ea4a5.jpg",
+    "after": 5,
+    "size": [
+     620,
+     413
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/003.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/y_5ab938900d505.jpg",
+    "after": 26,
+    "size": [
+     620,
+     413
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/dp_ryme_city.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/l_5ab9388fefa1e.jpg",
+    "after": 48,
+    "size": [
+     400,
+     240
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/004.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/y_5ab938f100a5d.jpg",
+    "after": 48,
+    "size": [
+     620,
+     413
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/dp_jinnai_talking.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/l_5ab938901176d.jpg",
+    "after": 69,
+    "size": [
+     576,
+     324
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/005.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/l_5ab938904095c.jpg",
+    "after": 69,
+    "size": [
+     400,
+     240
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/006.jpg",
+    "src": "https://www.famitsu.com/images/000/154/405/y_5ab938f1096fb.jpg",
+    "after": 88,
+    "size": [
+     620,
+     413
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://www.famitsu.com/images/000/154/405/l_5ab9389033668.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2018-10-18-interview-gamespot-lgpe-masuda.md": {
+  "post": "2018-10-18-interview-gamespot-lgpe-masuda.md",
+  "unalignable": [
+   2,
+   9
+  ],
+  "dry": false
+ },
+ "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest.md": {
+  "post": "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest.md",
+  "page_pictures": 14,
+  "added": [],
+  "skipped": [
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/001.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/002.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/011.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/012.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/003.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/010.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/004.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/013.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/006.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/007.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/014.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/005.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/008.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/451/G045125/20191112090/SS/009.jpg",
+    "not fetched"
+   ]
+  ],
+  "dry": false
+ },
+ "2019-11-13-interview-gi-2019-going-big.md": {
+  "post": "2019-11-13-interview-gi-2019-going-big.md",
+  "page_pictures": 19,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/011.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/1aa06fe7/pokemon11.jpg.webp",
+    "after": 62,
+    "size": [
+     800,
+     416
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/012.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/22f5e04b/pokemon12.jpg.webp",
+    "after": 67,
+    "size": [
+     800,
+     497
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/013.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/6aa2f89c/pokemon30.jpg.webp",
+    "after": 71,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/014.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/85f6292c/pokemon14.jpg.webp",
+    "after": 76,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/015.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/f6bf97d3/pokemon22.jpg.webp",
+    "after": 82,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/016.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/2850fc4a/pokemon16.jpg.webp",
+    "after": 85,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/017.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/b0cfe986/pokemon17.jpg.webp",
+    "after": 88,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/018.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/3c61d526/pokemon25.jpg.webp",
+    "after": 98,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2019-11-13-interview-gi-2019-going-big/019.jpg",
+    "src": "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/4600722f/pokemon19.jpg.webp",
+    "after": 101,
+    "size": [
+     800,
+     450
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/a3e8a25b/pokemon01.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/8876a60f/pokemon10.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/a65b7266/pokemon02.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/7582fdb6/pokemon03.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/no_compression/public/2019/11/12/9daaee98/pokemon04.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/2ff14acf/pokemon05.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/6fc6bf65/pokemon06.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/1b456197/pokemon07.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/8c58bb30/pokemon08.jpg.webp",
+    "already in the post"
+   ],
+   [
+    "https://www.gameinformer.com/sites/default/files/styles/body_default/public/2019/11/12/30213c09/pokemon27.jpg.webp",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2020-03-01-interview-tpc-business-professionals.md": {
+  "post": "2020-03-01-interview-tpc-business-professionals.md",
+  "page_pictures": 13,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry1.png",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/career/entry1.png",
+    "after": 2,
+    "size": [
+     250,
+     140
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry2.png",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/career/entry2.png",
+    "after": 2,
+    "size": [
+     250,
+     140
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2020-03-01-interview-tpc-business-professionals/career_entry3.png",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/career/entry3.png",
+    "after": 2,
+    "size": [
+     250,
+     140
+    ],
+    "reused": true
+   }
+  ],
+  "skipped": [
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont1_topimg.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont1_middleimg1.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont1_middleimg2.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont2_topimg.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont2_middleimg1.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont2_middleimg2.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont3_topimg.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont3_middleimg1.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont3_middleimg2.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/career/cont3_middleimg3.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata.md": {
+  "post": "2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata.md",
+  "page_pictures": 37,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/022.jpg",
+    "src": "https://webmedia-resource.kgl-systems.io/wp-content/uploads/sites/2/2025/07/4285310621ba22b0f8fa3962aadd56ba027bfd906a98536fc3.jpg",
+    "after": 114,
+    "size": [
+     480,
+     594
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a645845e31c145aaaf060486d1bf70123.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ac57b3722d6de20f0e4a4d5a843217600.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a0344f6102ba47a930679989e00393544.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a597d4c215ba4fd3497143abb18dfedfc_yvZuDK5.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/aa066e53a813dca5dcfb71ebe95a2feee.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ab5c96e95798ab82e98a461978c7197ad.PNG?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/aa8f5311173da161b1a414d22c4308588.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a16ad4d1bdd82adf8c264127d6ce4fbe6.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ad1ba389b62e788f1f64e770449baeeb9.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a514a42ac41bbf4202ef8b1eb7877e2b1.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ae51da06b8fb2c0a8b2554aaba91d0034.PNG?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a97f09ebfbbb1155168dd3b568f03e9ff.PNG?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a85968d29caaea4824c8077052f9733a8.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ae718da68a4847da0a4ad5e03afed70ba.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a0954251cab2c405bd748ed46383345d3.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a9510c83653409aea07d991bd609334c0.png?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a97e6a0bfc27efaa4d19a9dd32bc9451e.PNG?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a679b792248ca007df828c58281396419.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/ab8192bac6aa72b2340ce569c7041ea4b.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/famitsu/23904/a51f3fc57136843ab8beca3d90eecc0cd.jpg?x=767",
+    "already in the post"
+   ],
+   [
+    "https://m.media-amazon.com/images/I/41KlY5A6LAL._SL160_.jpg",
+    "not fetched"
+   ],
+   [
+    "https://m.media-amazon.com/images/I/317Q5yalUYS._SL160_.jpg",
+    "not fetched"
+   ],
+   [
+    "https://m.media-amazon.com/images/I/51sG-qJTdxL._SL160_.jpg",
+    "tiny 99x160"
+   ],
+   [
+    "https://m.media-amazon.com/images/I/51OlhSd26ML._SL160_.jpg",
+    "tiny 99x160"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/88172/thumbnail_IbnS.jpg?x=240",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/88242/thumbnail_toaE.jpg?x=240",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/87782/thumbnail_rPji.png?x=240",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/88234/thumbnail_TutZ.jpg?x=240",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/88243/thumbnail_sPea.jpg?x=240",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/87122/thumbnail_BCUD.jpg",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/84433/thumbnail_NOkr.jpg",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/86525/thumbnail_VGgp.jpg",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/87790/thumbnail_Olhp.jpg",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/87403/thumbnail_pTGM.jpg",
+    "thumbnail"
+   ],
+   [
+    "https://cimg.kgl-systems.io/camion/files/86713/thumbnail_YqdM.jpg",
+    "thumbnail"
+   ]
+  ],
+  "dry": false
+ },
+ "2000-07-01-interview-nintendopower-gold-silver-roundtable.md": {
+  "post": "2000-07-01-interview-nintendopower-gold-silver-roundtable.md",
+  "page_pictures": 20,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/001.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Pokecenter.png",
+    "after": 9,
+    "size": [
+     1100,
+     558
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/002.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Red.png",
+    "after": 17,
+    "size": [
+     1589,
+     498
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/003.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/GS-1.png",
+    "after": 17,
+    "size": [
+     1024,
+     508
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/004.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Tajiri-quote.png",
+    "after": 26,
+    "size": [
+     1952,
+     1072
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/005.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Morimoto.png",
+    "after": 28,
+    "size": [
+     1995,
+     1092
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/006.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Licky-2.png",
+    "after": 36,
+    "size": [
+     1049,
+     964
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/007.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Satoshi.png",
+    "after": 36,
+    "size": [
+     327,
+     446
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Satoshi-Manga.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Satoshi-Manga.jpg",
+    "after": 36,
+    "size": [
+     1199,
+     899
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/008.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2019/11/Patreon.png",
+    "after": 52,
+    "size": [
+     2888,
+     2126
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/134-cover-1.jpg",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Photo.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/RBY.jpg",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/JP-Gold.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Iwata.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/SW-Intro.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Spaceworld-link.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Hoot.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Shigeki.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/Sap.png",
+    "already in the post"
+   ],
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2019/11/new-thumb.png",
+    "thumbnail"
+   ]
+  ],
+  "dry": false
+ },
+ "2001-11-01-interview-nom-2001-pokemon-card-e-creatures.md": {
+  "post": "2001-11-01-interview-nom-2001-pokemon-card-e-creatures.md",
+  "page_pictures": 2,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-card-e-creatures/001.jpg",
+    "src": "https://www.nintendo.co.jp/nom/0111/01/akabane.jpg",
+    "after": 1,
+    "size": [
+     120,
+     120
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-card-e-creatures/002.jpg",
+    "src": "https://www.nintendo.co.jp/nom/0111/01/irie.jpg",
+    "after": 1,
+    "size": [
+     120,
+     120
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru.md": {
+  "post": "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru.md",
+  "page_pictures": 7,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/001.jpg",
+    "src": "http://files.g4tv.com/images/blog/2008/12/17/633651021803157409.jpg",
+    "after": 4,
+    "size": [
+     570,
+     511
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/002.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139993_S/Dialga-Palkia-and-Giratina.jpg",
+    "after": 8,
+    "size": [
+     570,
+     314
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/003.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139994_S/Pokemon-Pichu.jpg",
+    "after": 13,
+    "size": [
+     165,
+     202
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/004.jpg",
+    "src": "http://files.g4tv.com/ImageDb3/139995_S/Pokemon-Spinda.jpg",
+    "after": 13,
+    "size": [
+     165,
+     184
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "http://files.g4tv.com/ImageDb3/139991_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridg",
+    "already in the post"
+   ],
+   [
+    "http://files.g4tv.com/ImageDb3/139998_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridg",
+    "already in the post"
+   ],
+   [
+    "http://files.g4tv.com/ImageDb3/139996_S/Junichi-Masuda--Takeshi-Kawachimaru-Talk-Pokemon-Platinum-Particle-Physics-Bridg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2009-04-01-interview-nintendo-power-masuda-gens-1-4.md": {
+  "post": "2009-04-01-interview-nintendo-power-masuda-gens-1-4.md",
+  "page_pictures": 34,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/001.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Nintendo-Power-Issue-240-April-2009-page-00a.png",
+    "after": -1,
+    "size": [
+     843,
+     1126
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/002.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Interviewees.jpg",
+    "after": 2,
+    "size": [
+     418,
+     314
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/003.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/ezgif.com-webp-to-png14.png",
+    "after": 4,
+    "size": [
+     1103,
+     989
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/004.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Mendels.png",
+    "after": 6,
+    "size": [
+     1777,
+     1000
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/005.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Kyushu-1.png",
+    "after": 7,
+    "size": [
+     1447,
+     1111
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/006.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Pallet.png",
+    "after": 9,
+    "size": [
+     798,
+     720
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/007.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/link-cable.png",
+    "after": 12,
+    "size": [
+     1590,
+     812
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/008.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Kantos.png",
+    "after": 14,
+    "size": [
+     1200,
+     1084
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/009.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/techno.png",
+    "after": 16,
+    "size": [
+     920,
+     460
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/010.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Stravinsky.jpg",
+    "after": 19,
+    "size": [
+     980,
+     520
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/011.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/BW.jpg",
+    "after": 20,
+    "size": [
+     1280,
+     720
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/012.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Crystal.png",
+    "after": 21,
+    "size": [
+     789,
+     1054
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/013.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/WB.png",
+    "after": 23,
+    "size": [
+     1158,
+     896
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/014.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Ult.png",
+    "after": 25,
+    "size": [
+     1167,
+     857
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/015.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/ezgif.com-webp-to-png11.png",
+    "after": 27,
+    "size": [
+     1200,
+     833
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/016.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Twinleaf.png",
+    "after": 29,
+    "size": [
+     599,
+     582
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/017.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/GTS-Site.png",
+    "after": 31,
+    "size": [
+     2247,
+     1357
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/018.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/GTS.png",
+    "after": 35,
+    "size": [
+     300,
+     300
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/019.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/vs2.png",
+    "after": 38,
+    "size": [
+     1917,
+     1076
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/020.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Gira.png",
+    "after": 43,
+    "size": [
+     1445,
+     1074
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/021.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Frontier.png",
+    "after": 45,
+    "size": [
+     1280,
+     788
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/022.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/3-1.png",
+    "after": 47,
+    "size": [
+     1632,
+     492
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/023.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Fuji.jpg",
+    "after": 49,
+    "size": [
+     1600,
+     1060
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/024.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/sales.png",
+    "after": 51,
+    "size": [
+     912,
+     807
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/025.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/complex.png",
+    "after": 55,
+    "size": [
+     1166,
+     900
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/026.png",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Pichu.png",
+    "after": 56,
+    "size": [
+     327,
+     380
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/027.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/White-Pichu.png",
+    "after": 60,
+    "size": [
+     1165,
+     859
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/028.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Corgisaur.png",
+    "after": 61,
+    "size": [
+     1761,
+     828
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/029.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/pika.jpg",
+    "after": 64,
+    "size": [
+     1200,
+     900
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/030.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/ezgif.com-webp-to-png16.png",
+    "after": 67,
+    "size": [
+     1378,
+     769
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/031.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Interviewees-2.jpg",
+    "after": 70,
+    "size": [
+     500,
+     200
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/032.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Charmander.png",
+    "after": 73,
+    "size": [
+     1159,
+     896
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2009-04-01-interview-nintendo-power-masuda-gens-1-4/033.jpg",
+    "src": "http://lavacutcontent.com/wp-content/uploads/2020/11/Lock-Dialogue.jpg",
+    "after": 83,
+    "size": [
+     1200,
+     714
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "http://lavacutcontent.com/wp-content/uploads/2020/11/line.jpg",
+    "text as a picture"
+   ]
+  ],
+  "dry": false
+ },
+ "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.md": {
+  "post": "2013-11-16-interview-4gamer-xy-music-fanmeeting-masuda-kageyama.md",
+  "page_pictures": 9,
+  "added": [],
+  "skipped": [
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/001.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/002.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/003.jpg",
+    "not fetched"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/004.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/005.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/019.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/006.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/007.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.4gamer.net/games/198/G019893/20131116014/SS/008.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2015-05-20-interview-pokemon-recruit-business-anatomy.md": {
+  "post": "2015-05-20-interview-pokemon-recruit-business-anatomy.md",
+  "page_pictures": 9,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2015-05-20-interview-pokemon-recruit-business-anatomy/001.gif",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont3_figure1.gif",
+    "after": 29,
+    "size": [
+     770,
+     338
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont1_p.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont1_figure1.gif",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont1_img.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont2_p.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont2_figure1.gif",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont2_img.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont3_p.jpg",
+    "already in the post"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/business/cont3_img.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2017-05-10-interview-pokemon-recruit-passion.md": {
+  "post": "2017-05-10-interview-pokemon-recruit-passion.md",
+  "page_pictures": 12,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/001.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/img_b1.jpg",
+    "after": -1,
+    "size": [
+     770,
+     480
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/002.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_img1.jpg",
+    "after": -1,
+    "size": [
+     282,
+     306
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/003.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/img_b2.jpg",
+    "after": 18,
+    "size": [
+     770,
+     480
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/004.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_img2.jpg",
+    "after": 18,
+    "size": [
+     282,
+     306
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/005.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/img_b3.jpg",
+    "after": 22,
+    "size": [
+     770,
+     480
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/006.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_img3.jpg",
+    "after": 22,
+    "size": [
+     282,
+     306
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/007.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/img_b4.jpg",
+    "after": 31,
+    "size": [
+     770,
+     480
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/008.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_img4.jpg",
+    "after": 31,
+    "size": [
+     282,
+     306
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/009.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_img5.jpg",
+    "after": 31,
+    "size": [
+     282,
+     306
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-05-10-interview-pokemon-recruit-passion/010.jpg",
+    "src": "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/img_b5.jpg",
+    "after": 39,
+    "size": [
+     770,
+     480
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_text4.gif",
+    "text as a picture"
+   ],
+   [
+    "https://recruit.pokemon.co.jp/saiyo/interview/img/passion/catch_text9.gif",
+    "text as a picture"
+   ]
+  ],
+  "dry": false
+ },
+ "2017-10-19-interview-famitsu-usum-ohmori-iwao-director.md": {
+  "post": "2017-10-19-interview-famitsu-usum-ohmori-iwao-director.md",
+  "page_pictures": 4,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-famitsu-usum-ohmori-iwao-director/ohmori_iwao_famitsu.jpg",
+    "src": "https://www.famitsu.com/images/000/143/850/y_59df9b5882ecb.jpg",
+    "after": 1,
+    "size": [
+     620,
+     413
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-famitsu-usum-ohmori-iwao-director/ohmori_famitsu.jpg",
+    "src": "https://www.famitsu.com/images/000/143/850/y_59df9b589382b.jpg",
+    "after": 4,
+    "size": [
+     620,
+     413
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-famitsu-usum-ohmori-iwao-director/battle_screenshot.jpg",
+    "src": "https://www.famitsu.com/images/000/143/850/l_59e84ac8cb882.jpg",
+    "after": 14,
+    "size": [
+     620,
+     372
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-famitsu-usum-ohmori-iwao-director/iwao_famitsu.jpg",
+    "src": "https://www.famitsu.com/images/000/143/850/y_59df9b584eecb.jpg",
+    "after": 28,
+    "size": [
+     620,
+     413
+    ],
+    "reused": true
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori.md": {
+  "post": "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori.md",
+  "page_pictures": 8,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/001.jpg",
+    "src": "https://media.pocketmonsters.net/pages/502/11-09-2017-game-freak-interview.jpg",
+    "after": 0,
+    "size": [
+     578,
+     327
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/002.png",
+    "src": "https://media.pocketmonsters.net/pages/502/battle-screen-en-259.png",
+    "after": 4,
+    "size": [
+     259,
+     236
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/003.png",
+    "src": "https://media.pocketmonsters.net/pages/502/ruby-sapphire-254.png",
+    "after": 9,
+    "size": [
+     254,
+     174
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/004.png",
+    "src": "https://media.pocketmonsters.net/pages/502/team-rainbow-rocket-art-250.png",
+    "after": 14,
+    "size": [
+     250,
+     353
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/005.png",
+    "src": "https://media.pocketmonsters.net/pages/502/guzma-250.png",
+    "after": 20,
+    "size": [
+     250,
+     473
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/006.png",
+    "src": "https://media.pocketmonsters.net/pages/502/ultra-beast-250.png",
+    "after": 29,
+    "size": [
+     250,
+     404
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/007.jpg",
+    "src": "https://media.pocketmonsters.net/pages/502/mantine-surf.jpg",
+    "after": 36,
+    "size": [
+     400,
+     240
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/008.jpg",
+    "src": "https://media.pocketmonsters.net/pages/502/necrozma-art-653.png/t/700.png",
+    "after": 43,
+    "size": [
+     700,
+     495
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
+  "dry": false
+ },
+ "2020-12-21-interview-nikkei-ishihara-go-boardgames.md": {
+  "post": "2020-12-21-interview-nikkei-ishihara-go-boardgames.md",
+  "unalignable": [
+   10,
+   50
+  ],
+  "dry": false
+ },
+ "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md": {
+  "post": "2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki.md",
+  "page_pictures": 7,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/snap_01.jpg",
+    "src": "https://www.famitsu.com/images/000/218/824/y_6082dee0a8e3f.jpg",
+    "after": 21,
+    "size": [
+     1280,
+     720
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/snap_02.jpg",
+    "src": "https://www.famitsu.com/images/000/218/824/y_6082deeae52ef.jpg",
+    "after": 21,
+    "size": [
+     1280,
+     720
+    ],
+    "reused": true
+   },
+   {
+    "image": "/assets/img/interviews/2021-04-30-interview-famitsu-new-pokemon-snap-ishihara-suzaki/001.jpg",
+    "src": "https://www.famitsu.com/images/000/218/824/y_6082dbc9e0674.jpg",
+    "after": 33,
+    "size": [
+     1280,
+     720
+    ],
+    "reused": true
+   }
+  ],
+  "skipped": [
+   [
+    "https://www.famitsu.com/images/000/218/824/y_6082d9133eb13.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.famitsu.com/images/000/218/824/y_6082d9134ea26.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.famitsu.com/images/000/218/824/y_6082d91347015.jpg",
+    "already in the post"
+   ],
+   [
+    "https://www.famitsu.com/images/000/218/824/y_6082d9134316f.jpg",
+    "already in the post"
+   ]
+  ],
+  "dry": false
+ },
+ "2021-11-29-interview-newspicks-pokemon-job-rotation.md": {
+  "post": "2021-11-29-interview-newspicks-pokemon-job-rotation.md",
+  "page_pictures": 12,
+  "added": [],
+  "skipped": [
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718001?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/users/6855562/cover?width=80&height=80&circle=true",
+    "tiny 80x80"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718033?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718030?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718018?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718009?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718015?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718027?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718012?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718006?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718021?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ],
+   [
+    "https://contents.newspicks.com/images/unified/newspicks-news/6367027/4718024?content-type=WEBP&type=width&width=960",
+    "already in the post"
+   ]
+  ],
+  "dry": false
  }
 }

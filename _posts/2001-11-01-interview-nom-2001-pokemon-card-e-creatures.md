@@ -54,6 +54,12 @@ parallel_items:
   original: トレーディングカードとゲームボーイアドバンスが融合したこの新しい遊び方に初めて対応したのが、ポケモンカードの最新シリーズである「ポケモンカードe！」 この仕組みがどのように生まれたのかを追跡します。そこで、まずポケモンカードeを制作されたクリーチャーズの赤羽さん、入江さんを取材しました。
   translation: 最先对应这种将集换式卡牌与Game Boy Advance融合起来的新玩法的，是宝可梦卡牌的最新系列“宝可梦卡牌e！”。我们将追溯这套机制是如何诞生的。为此，我们首先采访了制作宝可梦卡牌e的Creatures公司的赤羽先生和入江先生。
   note: Creatures（株式会社クリーチャーズ）是参与宝可梦卡牌与游戏开发的公司。
+- type: image
+  image: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-card-e-creatures/001.jpg
+  alt: 赤羽卓美さん
+- type: image
+  image: /assets/img/interviews/2001-11-01-interview-nom-2001-pokemon-card-e-creatures/002.jpg
+  alt: 入江勝義さん
 - type: narrative
   original: 株式会社クリーチャーズ／カードゲーム制作室 室長／赤羽卓美さん／株式会社クリーチャーズ／開発部 課長／入江勝義さん
   translation: 株式会社Creatures／卡牌游戏制作室 室长／赤羽卓美先生／株式会社Creatures／开发部 课长／入江胜义先生

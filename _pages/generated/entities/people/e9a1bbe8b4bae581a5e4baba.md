@@ -1,0 +1,32 @@
+---
+title: "须贺健人 - 人物"
+permalink: "/entities/people/e9a1bbe8b4bae581a5e4baba/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>须贺健人</h2>
+    <span>1 篇文章 · 0 条评注 · 2016</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2016 · interview_translation · 巴哈姆特電玩資訊站 (GNN新聞)</p>
+  <h3><a href="/采访/开发者访谈/宝可梦go/策划与运营/interview-gnn-pokemon-go-tokyo-roundtable/">巴哈姆特GNN 现场直击：Niantic × 宝可梦东京圆桌会议——《Pokémon GO》完成度仅10%？热潮超预期百倍与未来生态展望</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

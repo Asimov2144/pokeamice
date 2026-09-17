@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>Niantic</h2>
-    <span>3 篇文章 · 0 条评注 · 2018 / 2015</span>
+    <span>4 篇文章 · 0 条评注 · 2024 / 2018 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2024 · interview_translation · 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</p>
+  <h3><a href="/采访/开发者访谈/宝可梦sleep/生活娱乐化/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/">【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0688 --</span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · 株式会社ポケモン 採用サイト (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-pokemon-recruit-communication-egami/">宝可梦公司官方专访 『Pokémon GO』特别篇：以现实为舞台、连接全球人际纽带的沟通奇迹（江上周作）</a></h3>
   <span></span>

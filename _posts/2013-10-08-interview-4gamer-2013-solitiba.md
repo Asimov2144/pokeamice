@@ -380,4 +380,34 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/010.jpg
   alt: 画像ギャラリー No.027のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/011.jpg
+  alt: 画像ギャラリー No.028のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/012.jpg
+  alt: 画像ギャラリー No.029のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/013.jpg
+  alt: 画像ギャラリー No.030のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/014.jpg
+  alt: 画像ギャラリー No.031のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/015.jpg
+  alt: 画像ギャラリー No.039のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/016.jpg
+  alt: 画像ギャラリー No.040のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/017.jpg
+  alt: 画像ギャラリー No.041のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/018.jpg
+  alt: 画像ギャラリー No.032のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/019.jpg
+  alt: 画像ギャラリー No.033のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
+- type: image
+  image: /assets/img/interviews/2013-10-08-interview-4gamer-2013-solitiba/020.jpg
+  alt: 画像ギャラリー No.034のサムネイル画像 / ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦――初の自社パブリッシングに踏み切った背景を，ゲームフリークの杉森 建氏と渡辺哲也氏に聞いた
 ---

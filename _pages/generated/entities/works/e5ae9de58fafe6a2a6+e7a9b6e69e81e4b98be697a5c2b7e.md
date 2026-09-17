@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 究极之日·究极之月</h2>
-    <span>7 篇文章 · 0 条评注 · 2021 / 2018 / 2017</span>
+    <span>10 篇文章 · 0 条评注 · 2021 / 2018 / 2017</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2021 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-scenario/">GAME FREAK 官方对谈 编剧与世界观设定篇：真诚推敲创意的执着，与随时能够舍弃的轻盈（K.I. × K.M.）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2021 · interview_translation · 『ポケモン』のコンセプトアートをのびのびと。｜デザイナー社員紹介 F.K.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-concept-artist-fk/">GAME FREAK 官方概念原画师特写 F.K.：入社伊始，便被托付了『宝可梦』概念原画的大任</a></h3>
   <span></span>
@@ -28,6 +34,12 @@ search: false
   <p>2018 · interview_translation · 増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート</p>
   <h3><a href="/采访/现场活动/宝可梦究极日月/音乐与设计/interview-famitsu-usum-fanmeeting-masuda-battle-music/">増田順一氏作曲のバトル曲が判明！『ポケットモンスター ウルトラサン・ウルトラムーン』の制作秘話が語られたファンミーティングの様子をレポート</a></h3>
   <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0087 --</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 「ポケットモンスター ウルトラサン・ウルトラムーン」のファンミーティングレポート。発売から半年が経過した今だから話せる秘話を，開発陣が語る</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-4gamer-2018-usum-fanmeeting/">4Gamer.net 2018：Game Freak谈《宝可梦 究极之日·究极之月》秘话</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -51,6 +63,12 @@ search: false
 <article class="resource-network-card">
   <p>2017 · interview_translation · An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-pocketmonsters-usum-iwao-ohmori/">[访谈翻译] PocketMonsters 独家专访开发团队：岩尾和昌与大森滋谈《究极之日／究极之月》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-usum-mode/">Game Informer 2017：岩尾和昌谈《宝可梦 究极之日·究极之月》新摄影模式</a></h3>
   <span></span>
 </article>
 

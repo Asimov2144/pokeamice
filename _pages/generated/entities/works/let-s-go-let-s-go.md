@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布</h2>
-    <span>12 篇文章 · 0 条评注 · 2021 / 2019 / 2018</span>
+    <span>14 篇文章 · 0 条评注 · 2021 / 2019 / 2018</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -37,6 +37,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2019 · interview_translation · Pokemon Sword &amp; Shield interview: &quot;we have no regrets&quot; around the national dex</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-vg247-2019-swsh/">VG247 2019：增田顺一与大森滋谈《宝可梦 剑·盾》全国图鉴争议</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2019 · interview_translation · Game Freak 採用情報 (Wayback 历史存档)</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-pg-yi/">GAME FREAK 官方专访 程序员特辑：从『日月』自研碰撞引擎到 R&amp;D 前沿技术追求（Y.I.）</a></h3>
   <span></span>
@@ -55,6 +61,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2018 · interview_translation · Meet the Makers of Pokémon: Let&#39;s Go, Pikachu! and Pokémon: Let&#39;s Go, Eevee!</p>
+  <h3><a href="/访谈翻译/官方档案/interview-pokemoncom-2018-letsgo-makers/">Pokemon.com（美国官网）2018：增田顺一与菜花健作谈《宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2018 · interview_translation · Pokémon: Let&#39;s Go, Pikachu und Evoli: Der lange Weg zum Meister-Trainer</p>
   <h3><a href="/developer-interviews/official-archives/interview-eurogamer-masuda-nabana-lets-go/">Eurogamer 独家专访增田顺一 × 菜花健作：〈宝可梦 Let&#39;s Go！皮卡丘／伊布〉——通向大师训练家的漫长之路与新世代设计哲学</a></h3>
   <span></span>
@@ -67,17 +79,16 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · GS LGPE采访</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gamespot-lgpe-masuda/">[访谈翻译] GameSpot 专访增田顺一：《Let&#39;s Go！皮卡丘／伊布》如何重塑《宝可梦 黄》</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
   <p>2018 · interview_translation · GameSpot</p>
   <h3><a href="/interview-gamespot-lgpe-masuda/">GameSpot 独家深度专访：增田顺一谈《宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布》如何为新世代重塑《宝可梦 黄》</a></h3>
   <span></span>
 </article>
 
+<article class="resource-network-card">
+  <p>2018 · interview_translation · Pokémon director Junichi Masuda talks developing Red and Blue</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-polygon-2018-masuda-rb/">Polygon 2018：增田顺一谈《宝可梦 红·蓝》的开发</a></h3>
+  <span></span>
+</article>
 
 <article class="resource-network-card">
   <p>2018 · interview_translation · 電ファミニコゲーマー (Denfaminicogamer 2018-06-08)</p>

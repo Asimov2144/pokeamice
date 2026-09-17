@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦卡牌</h2>
-    <span>2 篇文章 · 0 条评注 · 2002 / 2000</span>
+    <span>1 篇文章 · 0 条评注 · 2000</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>

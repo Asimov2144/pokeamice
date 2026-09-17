@@ -21,7 +21,7 @@ search: false
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第176回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch176/">[访谈翻译] 首藤刚志动画创作手记 第176回：休载两周的致歉与反思（涩谷工作间的孤绝崩溃、救护车中的三次昏厥与破例敬语自白）</a></h3>
-  <span>&lt;div class=&quot;parallel-translation-container&quot; &lt;/div</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 176</span>
 </article>
 
   </section>

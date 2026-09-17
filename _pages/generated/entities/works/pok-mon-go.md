@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>Pokémon GO</h2>
-    <span>24 篇文章 · 0 条评注 · 2022 / 2021 / 2019 / 2018 / 2017 / 2016 / 2015</span>
+    <span>30 篇文章 · 0 条评注 · 2024 / 2022 / 2021 / 2020 / 2019 / 2018 / 2017 / 2016 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2024 · interview_translation · 【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</p>
+  <h3><a href="/采访/开发者访谈/宝可梦sleep/生活娱乐化/interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata/">【ポケスリ】『ポケモンスリープ』ポケモンCOO宇都宮崇人氏＆SELECT BUTTONインタビュー。初期イメージやカビゴンのごはん事情など、リリース1年とちょっとを振り返る。今後の展望と開発移管についても言及</a></h3>
+  <span>&lt;!-- 自动对齐双语访谈归档：PKMN-0688 --</span>
+</article>
+
+<article class="resource-network-card">
   <p>2022 · interview_translation</p>
   <h3><a href="/developer-interviews/pokemon-recruit/interview-pokemon-recruit-engineering/">宝可梦公司官方专访 工程开发特别篇：造物的核心乐趣，或许在于“与谁一同创造”（太田 × 小川）</a></h3>
   <span></span>
@@ -31,8 +37,20 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2021 · interview_translation · Creatures Inc. Official Special Talk</p>
+  <p>2021 · interview_translation · SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）</p>
   <h3><a href="/采访/开发者访谈/宝可梦剑盾/公司与战略/interview-creatures-history-special-ishihara-tanaka/">Creatures 25周年纪念巨匠对谈：石原恒和 × 田中宏和——从 APE 独立、宝可梦卡牌e到“后事由它去”的造物哲学</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2021 · interview_translation · 「ポケモン」新たな遊び開拓続けた25年　石原恒和社長、核“人との繋がり”に手応え</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-oricon-2021-ishihara-25th/">ORICON NEWS 2021：宝可梦25周年 石原恒和谈人与人的联系</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2020 · interview_translation · Pokemon Business Professionals</p>
+  <h3><a href="/developer-interviews/official-archives/interview-tpc-business-professionals/">宝可梦公司官方领袖专访：业务专员眼中的千亿IP护城河与全球化经营哲学</a></h3>
   <span></span>
 </article>
 
@@ -57,6 +75,12 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · GameSpot</p>
   <h3><a href="/interview-gamespot-lgpe-masuda/">GameSpot 独家深度专访：增田顺一谈《宝可梦 Let&#39;s Go！皮卡丘·Let&#39;s Go！伊布》如何为新世代重塑《宝可梦 黄》</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2018 · interview_translation · 第21回 「ポケモン」を支えるプロデューサーとしての法務 - 株式会社ポケモン</p>
+  <h3><a href="/developer-interviews/official-archives/interview-businesslawyers-pokemon-legal/">Business Lawyers 独家专访宝可梦公司法务总监富田裕介：支撑全球千亿IP的法务制片人哲学</a></h3>
   <span></span>
 </article>
 
@@ -87,6 +111,12 @@ search: false
 <article class="resource-network-card">
   <p>2018 · interview_translation · NewsPicks</p>
   <h3><a href="/interview-newspicks-pokemon-utsunomiya-kawamoto/">正因为“唯有宝可梦”才有趣：将一切押注在宝可梦身上的两位领舵人</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2017 · interview_translation · Game Freak&#39;s Directors Share Their Favorite Pokémon Spin-Offs</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gi-2017-spinoffs/">Game Informer 2017：增田顺一与大森滋谈最喜欢的宝可梦衍生作品</a></h3>
   <span></span>
 </article>
 
@@ -148,6 +178,12 @@ search: false
   <p>2016 · gamefreak_masuda_lineblog · 増田順一 公式ブログ · Pokémon GO 日本リリースしました！</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-lineblog-5162122/">【活动】2016年宝可梦GO日本上线</a></h3>
   <span>&lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;&lt;br&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--center&quot;日本的各位&lt;/div &lt;div class=&quot;gf-lineblog-line gf-lineblog-line--cente</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2016 · interview_translation · ポケモンが現実世界と仮想世界を繋いでいく、20年目の挑戦・・・株式会社ポケモン代表取締役社長・石原恒和氏インタビュー</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-inside-2016-ishihara-20th/">INSIDE 2016：宝可梦20年，石原恒和谈现实与虚拟的连接</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

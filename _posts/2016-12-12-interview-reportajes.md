@@ -135,6 +135,9 @@ parallel_items:
 - type: paragraph
   original: Sol y Luna han arrancado rompiendo récords en todo el mundo, pero son muchas las dudas todavía alrededor de no solo estas entregas, que aún tienen mucho que decir, sino de la saga Pokémon en general. Desde MeriStation hemos tenido la oportunidad de sentarnos con tanto Junichi Masuda como Shigeru Ohmori a charlar durante veinte minutos en una conversación que dio mucho de sí.
   translation: 《太阳／月亮》一经发售便在全球打破纪录，但围绕这两部作品以及整个宝可梦系列，仍有许多疑问，这些作品还有很多内容值得探讨。MeriStation有幸与增田顺一和大森滋进行了二十分钟的深入交谈，收获颇丰。
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/001.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_001'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -150,6 +153,9 @@ parallel_items:
 - type: paragraph
   original: Por este motivo, desde que comenzó a trabajar en Game Freak en 1989, se ha preocupado tanto por hacer de las bandas sonoras de los juegos algo que recordar, que se pueda identificar un tema musical concreto con un momento específico de sus aventuras. Esto responde, por ende, a las más de cien melodías diferentes que se incluyen con cada entrega de Pokémon, algo de lo que él es el principal responsable.
   translation: "因此，自1989年加入 GAME FREAK 以来，他一直致力于让游戏的配乐成为值得铭记的东西，让玩家能够将特定的音乐主题与冒险中的特定时刻联系起来。这也解释了为什么每款宝可梦游戏都包含一百多首不同的旋律，而他是主要创作者。"
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/002.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_002'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -182,6 +188,9 @@ parallel_items:
   translation: MeriStation：在第七世代中，我们看到了许多对前代作品的引用和致敬。宝可梦的地区形态（如《太阳／月亮》中的阿罗拉形态）是像超级进化那样的一次性设定吗？还是说未来我们也会看到其他地区（如城都）的宝可梦拥有地区形态？
   speaker: MeriStation
   role: question
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/003.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_003'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -205,6 +214,9 @@ parallel_items:
   speaker: 大森滋
   note: 宝可骑行（Poké Monturas）是《宝可梦 太阳／月亮》中的骑乘系统；宝可梦图鉴相机（Poké Visor）是游戏中的拍照功能，源自N64游戏《宝可梦 随乐拍》（Pokémon Snap）。
   role: answer
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/004.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_004'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -215,6 +227,9 @@ parallel_items:
   speaker: MeriStation
   note: MeriStation是西班牙的一家电子游戏媒体。
   role: question
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/005.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_005'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -240,6 +255,9 @@ parallel_items:
   speaker: MeriStation
   note: 《宝可梦 珍珠／钻石》于2006年在日本发售，2016年时正好十周年。
   role: question
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/006.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_006'
 - type: paragraph
   original: Ampliar
   translation: 展开
@@ -259,6 +277,9 @@ parallel_items:
   speaker: MeriStation
   note: 《宝可梦GO》于2016年发布，引发了全球性的宝可梦热潮。
   role: question
+- type: image
+  image: /assets/img/interviews/2016-12-12-interview-reportajes/007.jpg
+  alt: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"_007'
 - type: paragraph
   original: Ampliar
   translation: 展开

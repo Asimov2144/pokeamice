@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>K.F.</h2>
-    <span>1 篇文章 · 0 条评注 · 2021</span>
+    <span>2 篇文章 · 0 条评注 · 2021</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2021 · interview_translation</p>
+  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-planner/">GAME FREAK 官方对谈 策划篇：首先请让我们大吃一惊——招募能带动周围人的破局者（K.F. × 谷博行）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2021 · interview_translation · Game Freak 採用情報</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-planner-kf/">GAME FREAK 官方策划特写 K.F.：颠覆世界的机遇，往往隐匿在意料之外的角落</a></h3>
   <span></span>

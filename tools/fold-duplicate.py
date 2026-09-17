@@ -24,6 +24,19 @@ FRONT = re.compile(r"\A﻿?---\r?\n(.*?)\r?\n---\r?\n", re.S)
 CARD = r'<article class="resource-network-card">\n(?:(?!</article>).)*?%s(?:(?!</article>).)*?</article>\n\n?'
 
 
+def write(path, text, newline="\n"):
+    """a write that waits out the moment another process (a watcher, a build) holds the file"""
+    import time
+    for attempt in range(8):
+        try:
+            io.open(path, "w", encoding="utf-8", newline=newline).write(text)
+            return
+        except OSError:
+            if attempt == 7:
+                raise
+            time.sleep(1.5)
+
+
 def load(stem):
     t = io.open(f"{ROOT}/_posts/{stem}.md", encoding="utf-8").read()
     m = FRONT.match(t)
@@ -86,9 +99,9 @@ def main():
         print(f"       pictures: {len(os.listdir(folder))} in its folder -> {'kept (a portrait is cut from it)' if keep_folder else 'removed'}")
     if dry:
         return
-    io.open(f"{ROOT}/_posts/{kept}.md", "w", encoding="utf-8", newline="").write(new_kt)
+    write(f"{ROOT}/_posts/{kept}.md", new_kt, newline="")
     title = yaml.safe_load(FRONT.match(new_kt).group(1))["title"]
-    io.open(f"{ROOT}/_pages/redirects/{retired[11:]}.html", "w", encoding="utf-8", newline="\n").write(f"""---
+    write(f"{ROOT}/_pages/redirects/{retired[11:]}.html", f"""---
 layout: null
 permalink: {old_url}
 sitemap: false
@@ -115,10 +128,10 @@ search: false
         t = io.open(f, encoding="utf-8").read()
         if old_url not in t:
             continue
-        rep = "" if kept_url in t else card
+        rep = "" if f'href="{kept_url}"' in t else card       # exact: one slug can sit under two category paths
         t2, k = re.subn(CARD % re.escape(old_url), rep, t, count=1, flags=re.S)
         if k:
-            io.open(f, "w", encoding="utf-8", newline="\n").write(t2)
+            write(f, t2)
             print("       card", "removed" if not rep else "repointed", "in", os.path.relpath(f, ROOT))
     os.remove(f"{ROOT}/_posts/{retired}.md")
     if os.path.isdir(folder) and not keep_folder:

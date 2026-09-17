@@ -1,0 +1,32 @@
+---
+title: "鹿贺丈史 - 人物"
+permalink: "/entities/people/e9b9bfe8b4bae4b888e58fb2/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>鹿贺丈史</h2>
+    <span>1 篇文章 · 0 条评注 · 2009</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第187回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch187/">[访谈翻译] 首藤刚志动画创作手记 第187回：洛奇亚默示录（小智妈妈“无需赌命拯救世界”台词、反派吉拉尔丹被剪掉的10分钟戏份与御前大人的白板造词“爆诞”）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 187</span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

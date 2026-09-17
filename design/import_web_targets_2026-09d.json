@@ -12,9 +12,24 @@
       "kind": "lecture_report",
       "author": "Igarashi",
       "asker": "4Gamer",
-      "speakers": {"前澤": "前泽圭一", "前沢": "前泽圭一"},
-      "works": ["宝可梦 朱·紫", "宝可梦 剑·盾"],
-      "tags": ["4Gamer", "CEDEC 2023", "前泽圭一", "朱紫", "帕底亚", "图形渲染", "开放世界", "技术报告"],
+      "speakers": {
+        "前澤": "前泽圭一",
+        "前沢": "前泽圭一"
+      },
+      "works": [
+        "宝可梦 朱·紫",
+        "宝可梦 剑·盾"
+      ],
+      "tags": [
+        "4Gamer",
+        "CEDEC 2023",
+        "前泽圭一",
+        "朱紫",
+        "帕底亚",
+        "图形渲染",
+        "开放世界",
+        "技术报告"
+      ],
       "container": "div.maintxt",
       "max_images": 60,
       "slug": "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza"
@@ -30,12 +45,97 @@
       "kind": "lecture_report",
       "author": "箭本進一",
       "asker": "4Gamer",
-      "speakers": {"一之瀬": "一之濑刚", "北村": "北村一树", "岩本": "岩本翔"},
-      "works": ["宝可梦 朱·紫", "宝可梦 剑·盾"],
-      "tags": ["4Gamer", "CEDEC 2023", "一之濑刚", "北村一树", "岩本翔", "朱紫", "帕底亚", "音效设计", "PokeSynth", "技术报告"],
+      "speakers": {
+        "一之瀬": "一之濑刚",
+        "北村": "北村一树",
+        "岩本": "岩本翔"
+      },
+      "works": [
+        "宝可梦 朱·紫",
+        "宝可梦 剑·盾"
+      ],
+      "tags": [
+        "4Gamer",
+        "CEDEC 2023",
+        "一之濑刚",
+        "北村一树",
+        "岩本翔",
+        "朱紫",
+        "帕底亚",
+        "音效设计",
+        "PokeSynth",
+        "技术报告"
+      ],
       "container": "div.maintxt",
       "max_images": 60,
       "slug": "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"
+    },
+    {
+      "key": "creatures-2020-special-talk",
+      "url": "https://www.creatures.co.jp/history_special_interview",
+      "lang": "ja",
+      "date": "2021-11-08",
+      "outlet": "Creatures Inc.",
+      "outlet_zh": "Creatures 官网",
+      "title": "SPECIAL TALK of Creatures: クリーチャーズ25周年特別対談（石原恒和 × 田中宏和）",
+      "kind": "interview",
+      "asker": "Creatures",
+      "speakers": {
+        "石原": "石原恒和",
+        "田中": "田中宏和"
+      },
+      "works": [
+        "宝可梦 红·绿",
+        "宝可梦集换式卡牌游戏",
+        "Pokémon GO"
+      ],
+      "tags": [
+        "Creatures",
+        "石原恒和",
+        "田中宏和",
+        "宝可梦卡牌",
+        "MOTHER2",
+        "糸井重里",
+        "Pokémon GO",
+        "历史秘辛"
+      ],
+      "max_images": 60,
+      "slug": "2021-11-08-interview-creatures-history-special-ishihara-tanaka",
+      "unmarked": "question",
+      "drop": "^(scroll|chapter \\d+|株式会社クリーチャーズ代表取締役|\\d{4}年生まれ|\\d{4}年、任天堂に入社)|Tsunekazu Ishihara|hirokazu Tanaka|_sp\\.png$|_text\\d*\\.svg$|monsterball_line|inazuma\\.png|pikachu\\.png",
+      "join_br": true
+    },
+    {
+      "key": "pocketmonsters-2015-movie18-yuyama",
+      "url": "https://www.pocketmonsters.net/content/Pokemon_movie_channel_Movie_Details",
+      "lang": "en",
+      "date": "2015-07-14",
+      "outlet": "PocketMonsters.net",
+      "outlet_zh": "PocketMonsters.net",
+      "title": "A Special Movie Pre-Premiere Interview with Director Yuyama & Official Model Sheets",
+      "kind": "interview",
+      "asker": "PocketMonsters.net",
+      "speakers": {
+        "Yuyama": "汤山邦彦",
+        "Director Yuyama": "汤山邦彦"
+      },
+      "works": [
+        "宝可梦 剧场版 光轮的超魔神 胡帕"
+      ],
+      "tags": [
+        "剧场版",
+        "汤山邦彦",
+        "胡帕",
+        "设定资料",
+        "OLM"
+      ],
+      "max_images": 80,
+      "slug": "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets",
+      "asker_aliases": [
+        "Q"
+      ],
+      "drop": "^(Blog sections:|Home - XY&Z Movie Info|Entries$)|pika2\\.jpg",
+      "bold_question": false
     }
   ]
 }

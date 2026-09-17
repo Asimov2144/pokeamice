@@ -16,12 +16,14 @@ entities:
   people:
   - 增田顺一
   - 菜花健作
-  - Kevin Knezevic
   works:
   - 宝可梦 Let's Go！皮卡丘·Let's Go！伊布
   - 宝可梦 皮卡丘版
   - 宝可梦 红·绿
   - Pokémon GO
+  organizations:
+  - Game Freak
+  - Nintendo
 speakers:
 - name: 增田顺一
   role: GAME FREAK 取缔役 / 游戏总监
@@ -257,4 +259,30 @@ interviewee: GameSpot, 增田顺一, 菜花健作
 source:
   title: GameSpot
   url: https://www.gamespot.com/articles/how-lets-go-pikachu-eevee-update-pokemon-yellow-fo/1100-6462580/
+dek: 增田顺一谈3D重制《宝可梦 黄》与《Pokémon GO》联动。
+topics:
+- 系统设计
+- 地区设定
+- 开发流程
+- 通信功能
+- 传说宝可梦
+mentions:
+  people:
+  - 七坂健作
+  works:
+  - 宝可梦 Let's Go！皮卡丘／伊布
+  - 宝可梦 黄
+  - 宝可梦 红·绿
+  - Pokémon GO
+  - 宝可梦 究极之日·究极之月
+  - 宝可梦 动画系列
+tags:
+- Pokemon
+- 访谈
+- 开发者访谈
+- 第八世代
+- 皮卡丘
+- 伊布
+- LGPE
+- 增田顺一
 ---

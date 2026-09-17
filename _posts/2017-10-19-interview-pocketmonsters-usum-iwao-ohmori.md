@@ -43,6 +43,9 @@ parallel_items:
 - type: paragraph
   original: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon! - PocketMonsters.Net
   translation: 《究极之日／究极之月》开发者独家专访！ - PocketMonsters.Net
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/001.jpg
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_001
 - type: paragraph
   original: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!
   translation: 《究极之日／究极之月》开发者独家专访！
@@ -57,6 +60,9 @@ parallel_items:
   original: Know Your History
   translation: 了解你的历史
   note: 此小标题可能指了解开发者与宝可梦系列的历史渊源。
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/002.png
+  alt: Battle Screen
 - type: paragraph
   original: 'Pokemon.com: What were your first experiences with the Pokémon brand as players? How did you end up working at GAME FREAK?'
   translation: Pokemon.com：你们作为玩家第一次接触宝可梦品牌的经历是怎样的？你们最终是如何进入GAME FREAK工作的？
@@ -83,6 +89,9 @@ parallel_items:
   translation: Pokemon.com：你们参与的第一款作品是什么？在其中担任什么角色？
   speaker: Pokemon.com
   role: question
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/003.png
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_003
 - type: paragraph
   original: 'Mr. Iwao: I first worked on Pokémon Black and Pokémon White as a game designer. I worked on the UI, battle system, and the Pokémon Musical feature. I was a complete beginner and wasn''t knowledgeable about game development, but I was lucky to be able to work on so many different aspects of the game.'
   translation: 岩尾和昌先生：我最初以游戏设计师的身份参与了《宝可梦 黑／白》的开发，负责用户界面、对战系统以及宝可梦音乐剧功能。当时我是个完全的新手，对游戏开发知之甚少，但很幸运能接触到游戏如此多的不同方面。
@@ -109,6 +118,9 @@ parallel_items:
   translation: 岩尾先生：我们为游戏开发提出了“核心”这一主题。我们决定始终专注于核心，即事物的基础，并在开发这款游戏时始终关注真正重要的东西，这就是我们确定这一主题的过程。什么是宝可梦的“核心”？什么是RPG的“核心”？什么是一款游戏之所以成为游戏的“核心”？我们会不断问自己这类问题，以确保在构思新想法或做出开发决策时走在正确的道路上。
   speaker: 岩尾和昌
   role: answer
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/004.png
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_004
 - type: paragraph
   original: 'Pokemon.com: Bringing back so many characters from previous games with Team Rainbow Rocket unifies the Pokémon universe in a way we haven''t quite seen before. What was the impetus for that idea?'
   translation: Pokemon.com：通过彩虹火箭队让这么多前作角色回归，以一种我们前所未见的方式统一了宝可梦的世界。这个想法的推动力是什么？
@@ -135,6 +147,9 @@ parallel_items:
   translation: 岩尾先生：这些角色的设定是他们在自己的宇宙中成功实现了野心，所以我们试图在对话中体现这一点。他们的性格当然是系列粉丝所期待的，但我认为玩家也有机会看到这些角色的新一面。
   speaker: 岩尾和昌
   role: answer
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/005.png
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_005
 - type: paragraph
   original: 'Pokemon.com: How did you decide which characters to bring back? And were there any challenges in figuring out how to have these characters work together?'
   translation: Pokemon.com：你们是如何决定让哪些角色回归的？在构思如何让这些角色合作时，是否遇到任何挑战？
@@ -176,6 +191,9 @@ parallel_items:
 - type: paragraph
   original: Unleash the Ultra Beasts
   translation: 释放究极异兽
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/006.png
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_006
 - type: paragraph
   original: Do you take a different approach when it comes to designing Ultra Beasts than you would with a new Pokémon?
   translation: 在设计究极异兽时，您会采取与设计新宝可梦不同的方法吗？
@@ -212,6 +230,9 @@ parallel_items:
   translation: 由于彩虹火箭队只在主线剧情完成后出现，我对此并不太担心，但我认为通过将奈克洛兹玛置于故事中心，我们找到了与其他元素之间的良好平衡。游戏包装上出现的传说宝可梦也处于故事中心，这确实是宝可梦游戏的核心传统。
   speaker: 岩尾和昌
   role: answer
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/007.jpg
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_007
 - type: paragraph
   original: Some players voiced a desire for more post-game content in Pokémon Sun and Pokémon Moon. Is that something you've expanded upon for Pokémon Ultra Sun and Pokémon Ultra Moon?
   translation: 一些玩家表达了希望在《宝可梦 太阳／月亮》中有更多通关后内容的愿望。在《宝可梦 究极之日／究极之月》中，你们是否对此进行了扩展？
@@ -245,6 +266,9 @@ parallel_items:
   translation: 当然，我们会关注竞技环境，并在调整游戏时进行监控，但我们不会直接回应玩家的具体要求。我们不想只是加入玩家期待的东西，而是希望始终领先一步，实现玩家未曾预料的内容。
   speaker: 岩尾和昌
   role: answer
+- type: image
+  image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/008.jpg
+  alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_008
 - type: paragraph
   original: With these games, what new features are you most excited for Pokémon Sun and Pokémon Moon players to experience?
   translation: 在这些游戏中，您最期待《宝可梦 太阳／月亮》的玩家体验到哪些新功能？

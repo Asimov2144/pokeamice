@@ -75,6 +75,9 @@ parallel_items:
   original: Composer for Gold & Silver
   translation: 《金／银》作曲
   role: answer
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/001.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_001
 - type: heading
   level: 2
   original: 'Chapter 1: Evolving Beyond Red & Blue — The 3.5-Year Development of Gold & Silver'
@@ -111,6 +114,14 @@ parallel_items:
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/JP-Gold.png
   caption: 《宝可梦 金》日版包装盒：凤王展翅腾飞，标志着便携式RPG迈入全新的技术纪元。
   alt: 宝可梦金包装
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/002.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_002
+  caption: 'Japanese Gen 1: Feb 1996 – Sep 1998'
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/003.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_003
+  caption: 'North American Gold & Silver: October 2000'
 - type: heading
   level: 2
   original: 'Chapter 2: Memory Roadblocks & Satoru Iwata’s Compression Miracle'
@@ -147,8 +158,16 @@ parallel_items:
   image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Iwata.png
   caption: 时任HAL研究所社长岩田聪亲手编写图像压缩工具，拯救了容量濒临崩溃的《金／银》，让完整的关都地图得以装进卡带。
   alt: 岩田聪压缩代码历史
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/004.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_004
+  caption: Screenshot from my Gen 1 Cut Content video
 - original: And as I explained in my video aboutGen 2’s cut content, Satoru Iwata even volunteered to help Game Freak with their programming problems in Gold & Silver. This is despite the fact Iwata was actually president of HAL Laboratories at the time, not a member of Game Freak — he just helped out with their data compression issues for the fun of it.
   translation: 正如我在关于第二世代废案的视频中所说明的，岩田聪甚至主动请缨，协助GAME FREAK解决《金／银》中的编程难题。尽管当时岩田聪实为HAL研究所社长，并非GAME FREAK成员——他纯粹出于兴趣，帮助他们处理了数据压缩方面的问题。
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/005.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_005
+  caption: Screenshot from my Gen 2 Cut Content video
 - type: heading
   level: 2
   original: 'Chapter 3: Hundreds of Scrapped Pokemon — Ken Sugimori on Spaceworld 1997 & Hoothoot'
@@ -179,6 +198,18 @@ parallel_items:
   alt: Space World 1997体验版废案点阵
 - original: But here, Sugimori’s saying they created HUNDREDS of new Pokemon for Gen 2. Most of these Pokemon ended up getting scrapped, with only 100 making their way into the final product. We know at least 40-70 were cut from the Spaceworld build, but it sounds like an even larger number of Pokemon were cut either before Spaceworld, or after — in the two years between the Spaceworld ’97 demo and the games’ 1999 launch in Japan.
   translation: 但在这里，杉森表示他们为第二世代创造了数百只新宝可梦。这些宝可梦大多最终遭到废弃，只有100只进入了最终成品。我们知道至少有40到70只在Space World版本中被砍掉，但听起来还有更多数量的宝可梦在Space World之前或之后被删除——也就是在1997年Space World展会试玩版与1999年游戏日本发售之间的两年里。
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/006.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_006
+  caption: My tweet about a scrapped G&S demo design
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/007.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_007
+  caption: 2018 Satoshi manga cover
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/Satoshi-Manga.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_Satoshi-Manga
+  caption: Beta sprites revealed in 2018 Satoshi manga
 - type: heading
   level: 2
   original: 'Chapter 4: Favorite Companions & The Secret of Mew — Two Weeks Before Gold Master'
@@ -241,6 +272,10 @@ parallel_items:
   role: answer
 - original: The “new Pokémon game” mentioned by Ishihara is of course Ruby & Sapphire, which launched on the Gameboy Advance in 2002. Selling over 16 million units combined, Ruby & Sapphire were the best-selling games to ever land on the GBA. What’s more, Ishihara’s goal of “a world without language barriers” was achieved — Ruby & Sapphire were the first games in the series to allow for trading between different language versions.
   translation: 石原提到的“新宝可梦游戏”正是2002年在Game Boy Advance平台发售的《红宝石／蓝宝石》。两款作品合计销量突破1600万份，成为GBA平台史上最畅销的游戏。更重要的是，石原“打造一个没有语言壁垒的世界”的目标得以实现——《红宝石／蓝宝石》是系列首次允许不同语言版本之间进行交换。
+- type: image
+  image: /assets/img/interviews/2000-07-01-interview-nintendopower-gold-silver-roundtable/008.jpg
+  alt: Nintendo Power 专访增田顺一、石原恒和与杉森建：《宝可梦 金／银》百余只废案重构与千禧年全员座谈会_008
+  caption: Help make more articles & videos possible with a Patreon pledge
 interviewee: Nintendo Power, 一之濑刚, 增田顺一, 太田健典, 杉森建, 森本茂树, 石原恒和
 source:
   title: Nintendo Power Chats with Pokémon Bigwigs (Nintendo Power Vol. 134)

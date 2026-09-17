@@ -21,7 +21,7 @@ search: false
     <article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第184回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch184/">[访谈翻译] 首藤刚志动画创作手记 第184回：迈向《超梦的逆袭》的彼方（全球版税暗涌、原定动画大结局“皮卡丘斯巴达克斯叛乱”与拒绝拉斯维加斯公费犒劳风波）</a></h3>
-  <span>lead: 全动漫史最惊心动魄的绝密档案彻底解封！首藤刚志亲笔揭晓《宝可梦》原定大结局的震撼全貌：宝可梦本质是角斗士奴隶，终盘皮卡丘将化身“斯巴达克斯”掀起对抗人类的全族大叛乱；小智陷入种族阵营的撕裂，最懂残缺宝可梦的火箭队与喵喵挺身充当人类与宝可梦共存的调停桥梁；垂暮之年的老小智从虚构乌托邦梦境中醒来，被母亲唤醒后踏上探寻自我存在的崭新征途！文末首藤更自爆</span>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 184</span>
 </article>
 
   </section>

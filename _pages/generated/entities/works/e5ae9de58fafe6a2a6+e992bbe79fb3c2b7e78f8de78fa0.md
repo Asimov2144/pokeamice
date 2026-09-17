@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>作品</p>
     <h2>宝可梦 钻石·珍珠</h2>
-    <span>60 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
+    <span>65 篇文章 · 0 条评注 · 2016 / 2011 / 2010 / 2009 / 2008 / 2007 / 2006 / 2005 / 2004</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/works/">返回作品索引</a>
@@ -31,6 +31,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2016 · interview_translation · ダービースタリオンとポケモンの知られざる関係：森本茂樹×田谷正夫×一之瀬剛</p>
+  <h3><a href="/developer-interviews/official-archives/interview-denfami-sonobe-gamefreak-morimoto/">Denfami 独家专访 GAME FREAK 铁三角 × 薗部博之：森本茂树 × 田谷正夫 × 一之濑刚大谈赛马游戏精髓与独创游戏研发经</a></h3>
+  <span>导读：当《宝可梦》的缔造者们遇上改变一生的游戏神作 在 GAME FREAK 漫长而辉煌的独立开发史上，除了享誉全球的《精灵宝可梦》之外，有一款名为《德比骏马》（Derby Stallion / ダビスタ）的传奇赛马模拟游戏，曾彻底改变了 GAME FREAK 早期创作者们的生命轨迹： 1. 红白机时代的‘办公室全员沉迷危机’：作为‘初代始作俑者’的森本茂树</span>
+</article>
+
+<article class="resource-network-card">
   <p>2011 · gamefreak_director_column · 増田部長のめざめるパワー 第200回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-200/">[GameFreak部长专栏] 第200回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 祝贺！专栏第200回！ 这次能够迎来第200回， 也是因为有一直支持宝可梦的大家。 真的非常感谢！ 而且，为了</span>
@@ -40,6 +46,12 @@ search: false
   <p>2010 · gamefreak_legacy_blog · 晴れたり時々曇ったり · 「ポケットモンスターブラック・ホワイト」のつくりかた 2</p>
   <h3><a href="/官方博客/game-freak/数字存档/gamefreak-staff-202/">【工作日志】2010年宝可梦剧本幕后</a></h3>
   <span>&lt;div data-gf-language-panel=&quot;zh-CN&quot; 你好，我是负责网站工作的にょろリカ（妮洛莉卡）。&lt;br 这周也为大家带来《宝可梦黑／白》的开发者访谈。&lt;br 今天是第2回，我们将为大家送上策划・まつみや（松宫）的&lt;br “剧本，这里才说的事”！&lt;br —–&lt;br ―那么，首先请您做个自我介绍。 我是策划まつみや。&lt;br 在《宝可梦黑／</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · scan_translation · ニンドリだけの15ページ特別企画！ ALL ABOUT ポケットモンスター 5大地方観光ガイド</p>
+  <h3><a href="/杂志特辑/扫描存档/scan-ndream-2010-11-five-regions-guide/">Nintendo DREAM 2010：宝可梦五大地区观光指南</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">
@@ -57,6 +69,12 @@ search: false
 <article class="resource-network-card">
   <p>2010 · interview_translation · 任天堂公式ウェブサイト「社長が訊く」Pokemon Black &amp; White Vol.1 第1回</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-iwata-asks-bw-chapter-1-second-game-on-ds/">[访谈翻译] 社长问《宝可梦 黑·白》第1章：在NDS平台第二次制作完全新作（放弃全部旧怪兽做156只新宠的豪赌）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · Shinji Miyazaki × Game Freak Sound Team “Talk about Pokémon Music”</p>
+  <h3><a href="/developer-interviews/music-archives/interview-cd-anime-ost-miyazaki-soundteam/">动画作曲家宫崎慎二 × GAME FREAK声音团队圆桌座谈：宝可梦交响改编、游戏原声与旋律之魂</a></h3>
   <span></span>
 </article>
 
@@ -103,8 +121,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2009 · interview_translation · Interview: Masuda on Developing Gens 1-4</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-kawachimaru-platinum-gens/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
+  <p>2009 · interview_translation · Nintendo power Interview: Masuda on Developing Gens 1-4</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-nintendo-power-masuda-gens-1-4/">[访谈翻译] 《任天堂力量》(Nintendo Power) 独家专访：增田顺一与河内丸武史复盘前四世代演化与《宝可梦 白金》破灭的世界（从芯片音效程序员到全系列总监的破局之道）</a></h3>
   <span></span>
 </article>
 
@@ -313,6 +331,12 @@ search: false
 </article>
 
 <article class="resource-network-card">
+  <p>2006 · interview_translation · 『ポケットモンスター ダイヤモンド・パール』開発スタッフインタビュー｜Nintendo Online Magazine 2006年10月号</p>
+  <h3><a href="/访谈翻译/官方档案/interview-nom-2006-diamond-pearl-ishihara-masuda-sugimori/">N.O.M 2006年10月号：宝可梦 钻石·珍珠开发访谈</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2006 · interview_translation</p>
   <h3><a href="/interview-nom-dp-ishihara-masuda-sugimori/">任天堂官方杂志NOM专访《宝可梦 钻石·珍珠》核心主创：石原恒和 × 增田顺一 × 杉森建（十周年集大成·究极的进化、神话世界观与Wi-Fi革命）</a></h3>
   <span></span>
@@ -340,6 +364,12 @@ search: false
   <p>2006 · gamefreak_director_column · 増田部長のめざめるパワー 第57回</p>
   <h3><a href="/官方博客/game-freak/翻译资料/gamefreak-director-057/">[GameFreak部长专栏] 第57回</a></h3>
   <span>&lt;aside class=&quot;gf-director-translation-note&quot;&lt;strong中文译稿已完成校对&lt;/strong&lt;span译文按原文段落、换行和图片位置整理；术语表检查结果记录在来源信息中。&lt;/span&lt;/aside 中文译文 你好。 我是渐渐清醒过来的增田。 让大家久等了！ 终于， 宝可梦 钻石·珍珠的发售日公布了！ 是2006年9月</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2006 · interview_translation · クリエイターズ・ファイル：「作品にはこだわりを持って」ゲームフリーク吉田さん</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-gpara-2006-yoshida/">Gpara.com 2006：Game Freak吉田宏信谈对作品的执着</a></h3>
+  <span></span>
 </article>
 
 <article class="resource-network-card">

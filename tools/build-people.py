@@ -417,6 +417,11 @@ PORTRAITS = [
     dict(name="畠祐贵", year=2017, main=True, src=_IA + "2017-07-15-interview-cgworld-creatures-3d-character-life/creatures_cg_creatures_03.jpg", source="CGWORLD 2017-07 クリーチャーズ 取材写真（畠 祐貴氏 见出し后）", post="2017-07-15-interview-cgworld-creatures-3d-character-life"),
     dict(name="冈崎体育", main=True, src="bulba:File:Taiiku Okazaki.png", source="Bulbagarden Archives"),
     dict(name="河内丸武史", year=2009, main=True, src=_IA + "2009-03-24-interview-g4tv-platinum-masuda-kawachimaru/01_photo_1.jpg", box=(330, 30, 130, 140), source="G4TV 2009-03-24 白金专访：增田顺一（左）与河内丸武史（右）· 摄影 Raymond Padilla", post="2009-03-24-interview-g4tv-platinum-masuda-kawachimaru"),
+    # 2026-09-17 第五批：另一会话占着的帖子补图后新收的个人照（2014 领导层访谈的名片式照片、N.O.M 2001 卡片e）
+    dict(name="河本拓", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/001.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（河本拓）", post="2014-05-01-interview-tpc-leaders-challenge"),
+    dict(name="福嶋ゆかり", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/003.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（福嶋ゆかり）", post="2014-05-01-interview-tpc-leaders-challenge"),
+    dict(name="鹿瀬島英介", year=2014, main=True, src=_IA + "2014-05-01-interview-tpc-leaders-challenge/002.jpg", source="株式会社ポケモン 採用情報 2014 リーダーズ（鹿瀬島英介）", post="2014-05-01-interview-tpc-leaders-challenge"),
+    dict(name="赤羽卓美", year=2001, main=True, src=_IA + "2001-11-01-interview-nom-2001-pokemon-card-e-creatures/001.jpg", source="N.O.M 2001-11 ポケモンカードe 開発者インタビュー（赤羽卓美さん）", post="2001-11-01-interview-nom-2001-pokemon-card-e-creatures"),
     # 2026-09-17 第四批：N.O.M 2002-11 RS 特集重导后页上的三张职员照（增田头歪着，取左侧脸）
     dict(name="增田顺一", year=2002, src=_IA + "nom-0211-rs-2002/b_masu.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（増田順一さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),
     dict(name="杉森建", year=2002, src=_IA + "nom-0211-rs-2002/b_sugi.jpg", source="N.O.M 2002-11 開発者よりみなさまへのメッセージ（杉森建さん）", post="2002-11-01-interview-nom-2002-ruby-sapphire-staff-messages"),

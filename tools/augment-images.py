@@ -374,11 +374,12 @@ def same_page(a, b):
 
 def dirty_posts():
     out = set()
-    # quotepath off: a file name with CJK in it would otherwise come back octal-escaped and never match
-    res = subprocess.run(["git", "-c", "core.quotepath=false", "status", "--short", "--", "_posts"], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
+    # quotepath off: a file name with CJK in it would otherwise come back octal-escaped and never match;
+    # `diff HEAD` rather than `status`, which flags an LF file under autocrlf as modified with no change in it
+    res = subprocess.run(["git", "-c", "core.quotepath=false", "diff", "--name-only", "HEAD", "--", "_posts"], cwd=ROOT, capture_output=True, text=True, encoding="utf-8")
     for l in res.stdout.splitlines():
-        if l[:2].strip():
-            out.add(l[3:].strip().strip('"').replace("_posts/", ""))
+        if l.strip():
+            out.add(l.strip().strip('"').replace("_posts/", ""))
     return out
 
 

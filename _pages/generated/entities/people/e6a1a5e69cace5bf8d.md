@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>桥本忍</h2>
-    <span>1 篇文章 · 0 条评注 · 2008</span>
+    <span>2 篇文章 · 0 条评注 · 2010 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第207回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch207/">[访谈翻译] 首藤刚志动画创作手记 第207回：“2010……既喜亦不喜”（银英病榻与自治医大往事、不着一字台词秘传、酒精依赖大拷问与真人版大和号狂想）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 207</span>
+</article>
+
+<article class="resource-network-card">
   <p>2008 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第165回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch165/">[访谈翻译] 首藤刚志动画创作手记 第165回：宝可梦事件催生的历史指针（皮卡丘之森复播奇迹、日本放送基准与“我想成为贝壳”的终极自省）</a></h3>
   <span></span>

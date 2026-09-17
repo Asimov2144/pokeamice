@@ -60,6 +60,9 @@ parallel_items:
 - type: paragraph
   original: 'Petite piqûre de rappel, tu dois savoir que chaque région des jeux Pokémon est basée sur une zone réelle. Pour les quatre premières générations, les développeurs ne sont pas allés très loin puisqu''ils se sont focus sur le Japon. Kanto trouve ses sources... dans une région portant le même nom. Johto est calquée sur le Kansai. Hoenn est tirée de Kyushu, et Sinnoh s''inspire de l''île d''Hokkaido. Globalement, les maps sont un calque (à quelques rotations près) des régions réelles. Cette carte te permettra d''en juger :'
   translation: 稍微提醒一下，你应该知道宝可梦游戏中的每个地区都基于现实中的某个区域。对于前四个世代，开发人员并没有走得太远，因为他们专注于日本。关都地区源自……一个同名的地区。城都地区是以关西为蓝本。丰缘地区取自九州，而神奥地区则参考了北海道岛。总的来说，地图是现实区域的复制品（除了少数旋转）。这张地图可以让你判断：
+- type: image
+  image: /assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/001.png
+  alt: Carte Japon Region Pokemon
 - type: paragraph
   original: Après la 4G, les choses se bousculent puisque les Japonais s'intéressent à d'autres parties du Monde. Pour les versions Noire et Blanche, on a New York City et Manhattan ; avec X et Y, la map est un calque parfait de la partie Nord de la France ; Alola, quant à elle, reprend les îles d'Hawaii. Pourquoi rappeler tout ça ? Pour la simple et bonne raison, chère loque, qu'un calque d'idéalisme, ça ne se sort pas du fion de ta mère et que les développeurs passent par une phase de recherche/repérage qui les a amenés à quitter le Japon depuis la 5G. Et en grattant un peu de ce côté, on peut faire quelques découvertes intéressantes.
   translation: 在第四世代之后，事情变得复杂起来，因为日本人开始对世界其他地方感兴趣。对于《黑》和《白》，我们看到了纽约市和曼哈顿；对于《X》和《Y》，地图是法国北部的完美复制品；而阿罗拉则采用了夏威夷群岛。为什么要提这些？原因很简单，亲爱的破布，理想主义的复制品可不是从你妈屁股里蹦出来的，开发人员会经历一个研究/勘察阶段，这让他们从第五世代起就离开了日本。而稍微挖掘一下这方面，我们就能有一些有趣的发现。
@@ -88,6 +91,9 @@ parallel_items:
   original: 'Un rassemblement comme celui qu''on vient de vivre n''était pas arrivé en France depuis la phase de repérage pour X et Y, en 2011. On a droit à un putain de CREW venu fouler le sol français, et dont les membres ont séjourné à l''hôtel-restaurant de Bouilhac . De cette résidence cinq étoiles ont émergé deux photos. La première, tu l''as vue dans ma news précédente. Il est temps de dévoiler la seconde :'
   translation: 像我们刚刚经历的这样的聚会，自2011年《X/Y》的勘察阶段以来，在法国还没有发生过。我们迎来了一个该死的团队踏上法国土地，其成员入住了布亚克酒店餐厅。从这次五星级住宿中流出了两张照片。第一张你在我之前的新闻中已经看到了。现在是时候揭晓第二张了：
   note: 布亚克（Bouilhac）是法国多尔多涅省的一个市镇。
+- type: image
+  image: /assets/img/interviews/2017-11-06-interview-2017-game-freak-dordogne-enquete/002.jpg
+  alt: Dedicace Game Freak
 - type: paragraph
   original: 'La carte du restaurant rassemble douze signatures et une dédicace à Christophe Maury (le chef cuisinier, en haut à gauche). Trois de ces signatures me sont difficiles d''accès. Il pourrait s''agir de Sawada Misako et Tonaga Kenji ou Tominaga Kenji, mais pas sûr. Attardons-nous sur le reste. Il est temps d''étudier le CREW :'
   translation: 餐厅菜单上汇集了十二个签名和给克里斯托夫·莫里（厨师，左上角）的题词。其中三个签名我难以辨认。可能是泽田美沙子（Sawada Misako）和 Tonaga Kenji 或 Tominaga Kenji，但不确定。让我们仔细看看其余的。是时候研究一下这个团队了：

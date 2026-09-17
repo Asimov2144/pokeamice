@@ -30,6 +30,9 @@ parallel_items:
   image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/dp_creatures_duo.jpg
   alt: Creatures 制片人阵内弘之（右）与总监宫下尚生（左）
   caption: Creatures 制片人阵内弘之（右）与总监宫下尚生（左）
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/001.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_06
 - original: '陣内弘之氏（じんない ひろゆき／写真右）
 
     株式会社クリーチャーズ 取締役。『名探偵ピカチュウ』プロデューサー。'
@@ -42,6 +45,9 @@ parallel_items:
   translation: '宫下尚生（みやした なおき／照片左侧）
 
     Creatures株式会社 创意总监。《名侦探皮卡丘》导演。'
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/002.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_17
 - original: 株式会社クリーチャーズ　取締役『名探偵ピカチュウ』プロデューサー（文中は陣内）
   translation: Creatures株式会社 董事《名侦探皮卡丘》制作人（文中称阵内）
 - original: 株式会社クリーチャーズ　クリエイティブディレクター『名探偵ピカチュウ』ディレクター（文中は宮下）
@@ -140,6 +146,9 @@ parallel_items:
   original: そうですね。何度かトライしていくうちに、「あぁ、これはありかもね」という声がちらほらと出てきて、ようやく形になっていきました。
   translation: 是的。在反复尝试的过程中，逐渐有人表示“啊，这个也许可行”，终于成形了。
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/003.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_15
 - speaker: Fami通编辑部
   speaker_orig: ――
   original: ゲーム性の部分で注力したのはどんなところなのでしょうか。
@@ -250,6 +259,12 @@ parallel_items:
   original: 動きとしては日本のおっさんのものなので、ワールドワイドにどこまで通じるのかはちょっとわからないですが、ある種の共通言語として広く理解していただけるモーションになっていると思います。
   translation: 动作本身是日本大叔的风格，所以我不太确定在全球范围内能通用到什么程度，不过我觉得它已经成了一种能被广泛理解的、类似共通语言的动捕表现。
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/dp_ryme_city.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_05
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/004.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_16
 - speaker: Fami通编辑部
   speaker_orig: ――
   original: 初めて本作の情報が出たのは、NHKのテレビ番組『プロフェッショナル 仕事の流儀』だったと記憶していますが、当時のユーザーからの反応はどんなものだったのでしょうか。
@@ -355,6 +370,12 @@ parallel_items:
   original: トリックを作ることに関しては宮下が責任者ですので、私はある程度でき上がってきたものを確認するという感じでした。ひとりで考えたトリックは、得てして独りよがりな内容になりがちなので、なるべく客観的な視点でチェックを入れて、修正をお願いしました。
   translation: 关于设计诡计，宫下是负责人，所以我基本上是确认一下大致完成的内容。一个人想出来的诡计，往往容易变得自以为是，所以我尽量以客观的视角进行检查，请他修改。
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/dp_jinnai_talking.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_01
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/005.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_07
 - speaker: Fami通编辑部
   speaker_orig: ――
   original: これはネタバレになるので難しいと思いますが、ストーリー面での注目ポイントも教えてください。
@@ -450,6 +471,9 @@ parallel_items:
   original: くり返しになりますが、スタートから22年経った『ポケモン』の世界をもうひとつ広げてもいいよね、という想いを持って作り上げました。『ポケモン』に強いこだわりを持ったスタッフたちが開拓した『ポケモン』の新しい世界を、ぜひ楽しんでください！
   translation: 虽然重复了，但我们是怀着“已经走过22年的《宝可梦》世界，再拓宽一个也不错”的想法制作完成的。请务必享受由对《宝可梦》充满执着的工作人员们开拓出的《宝可梦》新世界！
   role: answer
+- type: image
+  image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/006.jpg
+  alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_18
 - original: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.ポケットモンスター・ポケモン・Pokemon・名探偵ピカチュウは、任天堂・クリーチャーズ・ゲームフリークの登録商標です。
   translation: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.宝可梦・Pokemon・名侦探皮卡丘是任天堂、Creatures、GAME FREAK的注册商标。
 entities:
