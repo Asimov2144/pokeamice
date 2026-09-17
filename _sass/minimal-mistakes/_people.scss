@@ -161,6 +161,43 @@
 
 .person__entries { margin-top: 4px; }
 
+/* ---- 开发专长: chips, the credits line, the summary, the cited interviews ---- */
+.person__profile {
+  .person__profile-chips { margin-bottom: 10px; }
+  .person__profile-chips span { border-color: rgba(#8a6d3b, 0.3); background: rgba(#8a6d3b, 0.07); color: #6b5427; font-weight: 700; }
+  .person__profile-credits { margin: 0 0 8px; color: $muted-text-color; font-size: 0.82rem; line-height: 1.6; }
+  .person__profile-summary { margin: 0 0 10px; font-size: 0.92rem; line-height: 1.75; }
+  .person__cite-mark {
+    display: inline-block;
+    margin: 0 1px;
+    border-radius: 3px;
+    padding: 0 4px;
+    background: rgba($primary-color, 0.1);
+    color: $primary-color;
+    font-size: 0.68rem;
+    font-weight: 700;
+    line-height: 1.5;
+    vertical-align: 2px;
+    text-decoration: none;
+    &:hover { background: rgba($primary-color, 0.2); }
+  }
+  .person__cites {
+    margin: 0 0 8px;
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    line-height: 1.55;
+
+    li { position: relative; margin: 0 0 5px; padding-left: 28px; }
+    li > b { position: absolute; left: 0; color: $muted-text-color; font-size: 0.72rem; }
+    li:target { background: rgba(255, 196, 0, 0.18); border-radius: 4px; }
+    .person__cite-detail { color: $text-color; }
+    a { color: $primary-color; text-decoration: none; &:hover { text-decoration: underline; } }
+    small { display: block; color: $muted-text-color; font-size: 0.72rem; }
+  }
+  .person__profile-note { margin: 0; color: $muted-text-color; font-size: 0.7rem; }
+}
+
 .person__mentions {
   margin: 0;
   padding: 0;

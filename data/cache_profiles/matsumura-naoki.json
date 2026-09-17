@@ -1,0 +1,38 @@
+{
+ "key": "740bf90d0f5e5aaf",
+ "answer": {
+  "summary": "以总监身份主导《超级宝可梦乱战》的研发，前作《乱战！宝可梦乱战》起步时团队理念尚未完全达成共识，新作则在前作基础上投入开发 [1]。专长集中在即时制动作战斗的操控与手感设计，主张用十字键或摇杆加A、B两键的极简操作让谁都能上手 [1]。在内容体量上追求掌机平台的厚重感，将模式从单一擂台赛扩充为三大战斗体系，并纳入600只以上宝可梦与称号等组合 [2]。对数值与套路的处理方法是：破坏游戏寿命的斩草除根，精妙的连招羁绊则原样保留 [3]。重视沉浸感，把让玩家坐过电车坐过站作为衡量作品价值的一个指标 [4]。",
+  "expertise": [
+   "动作战斗",
+   "操作手感",
+   "游戏模式",
+   "数值调校",
+   "内容体量",
+   "沉浸体验"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "以总监身份主导研发，说明本作采用十字键或摇杆移动、A与B键出招的极简操作。"
+   },
+   {
+    "n": 2,
+    "detail": "说明模式由WiiWare版单一擂台赛扩充为擂台赛、团队战、突击战三大体系。"
+   },
+   {
+    "n": 3,
+    "detail": "表示破坏游戏寿命的组合会去除，精妙的连招羁绊则特意保留。"
+   },
+   {
+    "n": 4,
+    "detail": "提出以玩家是否因沉迷而坐过电车站来衡量掌机作品的价值。"
+   }
+  ]
+ },
+ "posts": [
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-2-30-billion-combinations",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-4-first-pokemon-title-on-3ds"
+ ]
+}

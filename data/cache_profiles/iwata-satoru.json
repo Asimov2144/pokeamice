@@ -1,0 +1,78 @@
+{
+ "key": "84c5e3196600f4e3",
+ "answer": {
+  "summary": "长期以总监、制作人或执行制作人身份参与《宝可梦》系列，并多次以任天堂「社长问」主持人身份与宝可梦公司、GAME FREAK、Creatures、Ambrella、Chunsoft等团队对谈，梳理开发过程与决策。[1][3][6][10] 关注硬件与软件的配合，曾推动在《火红·叶绿》中引入无线适配器，并认为这类尝试为后来DS的无线通信积累了经验。[2][8] 重视与各方的「连接」，认为《宝可梦》的乐趣不止于独自通关，而在于与周围人产生连接后不断扩展。[4] 在3D建模与资产管理方面，曾与石原恒和共同搭建可批量处理的工作流框架，并强调把任务分给最合适的人、不厚此薄彼。[5] 对难度与体贴的平衡、全球同日发售与多语言同步等课题也持续关注。[10][11]",
+  "expertise": [
+   "总监",
+   "制作人",
+   "执行制作人",
+   "硬件联动",
+   "3D建模管理",
+   "全球同步发售"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "称自己与石原恒和多年共同创作，曾在石原身旁见证《红·绿》起步与首次出货量决定。"
+   },
+   {
+    "n": 2,
+    "detail": "在《火红·叶绿》时把刚做好的无线适配器拿去给石原看，并让GAME FREAK体验。"
+   },
+   {
+    "n": 3,
+    "detail": "向杉森建询问在破坏《宝可梦》惯例的同时如何保持其「本色」。"
+   },
+   {
+    "n": 4,
+    "detail": "回忆石原恒和说过要彻底重视与各种事物的「连接」，并认为《黑·白》贯彻了这一点。"
+   },
+   {
+    "n": 5,
+    "detail": "称N64时代开发《宝可梦竞技场》《宝可梦随乐拍》时与石原携手搭建3D建模与资产管理工作流。"
+   },
+   {
+    "n": 6,
+    "detail": "在《超级宝可梦乱战》访谈开头就发售日延期向玩家与相关各方致歉。"
+   },
+   {
+    "n": 7,
+    "detail": "提到马力欧俱乐部测试员对《超级宝可梦乱战》口碑绝赞，并询问重玩渴望的来源。"
+   },
+   {
+    "n": 8,
+    "detail": "回忆《火红·叶绿》开发途中提议引入无线适配器，认为「疯狂的挑战」是《宝可梦》特质之一。"
+   },
+   {
+    "n": 9,
+    "detail": "询问在3DS已上市时坚守NDS硬件的理由，并关注初次游玩与久违游玩两类玩家的导入平衡。"
+   },
+   {
+    "n": 10,
+    "detail": "就《不可思议迷宫》首次挑战DLC追加内容，询问石原对由此拓展的新可能性的看法。"
+   },
+   {
+    "n": 11,
+    "detail": "说明本期「社长问」改为文章与影像结合的「动态社长问」，并提到连载已200多回。"
+   },
+   {
+    "n": 12,
+    "detail": "询问「宝可友友乐」名称含义，并确认其与游戏正篇紧密相连而非独立玩法。"
+   }
+  ]
+ },
+ "posts": [
+  "2009-09-04-interview-iwata-asks-hgss-chapter-1-red-green-mew",
+  "2009-09-04-interview-iwata-asks-hgss-chapter-4-pokewalker-493-following",
+  "2010-09-10-interview-iwata-asks-bw-chapter-2-brand-new-world",
+  "2010-09-10-interview-iwata-asks-bw-chapter-5-new-world-new-encounters",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-1-even-my-wife",
+  "2011-08-04-interview-iwata-asks-super-pokemon-rumble-chapter-3-want-to-play-again",
+  "2012-06-15-interview-iwata-asks-b2w2-chapter-2-100-player-co-op",
+  "2012-06-15-interview-iwata-asks-b2w2-chapter-4-staying-on-ds-three-sacred-treasures",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+  "2013-10-10-interview-iwata-asks-xy-chapter-1-global-simultaneous-release",
+  "2013-10-10-interview-iwata-asks-xy-chapter-4-closer-bonds-mega-evolution"
+ ]
+}

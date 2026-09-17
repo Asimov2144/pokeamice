@@ -1,0 +1,50 @@
+{
+ "key": "cc3d0e1981b6e52c",
+ "answer": {
+  "summary": "田尻智以企划书起步，长期担任总监与制作人，主导《宝可梦》系列从企划到成品的开发 [1]。他最初想做类似RPG的作品，构想是战斗场景等不使用数字来表达，后来回到兼顾不用数字的新颖与用数字带来的游戏深度的位置 [1]。他通过昼夜颠倒的作息获取游戏设计灵感，并称自己伴随漫画和动画长大，若游戏设计师这一职业不存在大概会去做动画 [3]。他自述从《太空侵略者》起对电子游戏产生兴趣，并创办同人志《GAME FREAK》 [3]。在《宝可梦》企划上，他最初看到《魔界塔士SaGa》后认为用Game Boy大概半年就能做出来，但实际因反复小实验而未能如愿 [4]。",
+  "expertise": [
+   "游戏企划",
+   "总监制作",
+   "RPG设计",
+   "战斗表现",
+   "同人志编辑",
+   "游戏信息收集"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "称企划书写于GAME FREAK设立时，到完成花了6年，实际作业约第一年和最后3年。"
+   },
+   {
+    "n": 3,
+    "detail": "自述睡12小时、工作24小时，过去三年一直这样不规律地工作。"
+   },
+   {
+    "n": 4,
+    "detail": "称看到《魔界塔士SaGa》后觉得用Game Boy大概半年就能做出《宝可梦》。"
+   },
+   {
+    "n": 11,
+    "detail": "称最初设计了200多只宝可梦，后削减到150只，并采纳宫本茂建议分为两个版本。"
+   },
+   {
+    "n": 12,
+    "detail": "回忆玩家间互相分享哪里能玩到新试作机的信息，自己常去千代田区的游戏中心。"
+   }
+  ]
+ },
+ "posts": [
+  "1996-04-05-scan-shodai-zukan-1996-staff-interview",
+  "1997-10-16-interview-gamefreak-official-red-green-staff",
+  "1999-11-22-interview-time-satoshi-tajiri-ultimate-game-freak",
+  "2000-07-01-interview-nom-special-dialogue-tajiri-ishihara",
+  "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138",
+  "2008-03-05-interview-takeshi-shudo-pokemon-memoir-ch139",
+  "2008-03-12-interview-takeshi-shudo-pokemon-memoir-ch140",
+  "2008-03-19-interview-takeshi-shudo-pokemon-memoir-ch141",
+  "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
+  "2008-04-16-interview-takeshi-shudo-pokemon-memoir-ch144",
+  "2014-03-19-interview-interview-21",
+  "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo"
+ ]
+}

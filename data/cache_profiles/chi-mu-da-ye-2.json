@@ -1,0 +1,32 @@
+{
+ "key": "83e1b252c9520681",
+ "answer": {
+  "summary": "赤木达也是 GAME FREAK 工作流部门的部门总监，参与《Pokémon LEGENDS Z-A》密阿雷市渲染技术的 CEDEC 2026 讲座 [1][2][3]。其经手领域集中在都市空间的渲染与工作流，涉及 InstancedDraw、剔除机制等高效渲染手段 [1][2][3]。据访谈报道，他所在的团队针对密阿雷市实例模型多、遮挡物多的特征，在 CPU 与 GPU 侧分别处理剔除 [1][2]。据访谈报道，团队还构建了省去无用计算的机制，并将光照纳入剔除 [2]。",
+  "expertise": [
+   "渲染技术",
+   "工作流",
+   "剔除机制",
+   "实例化绘制",
+   "都市空间表现"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "据该篇报道，他与前泽圭一、Alfredo Spadafina 共同登台讲解 Z-A 渲染技术。"
+   },
+   {
+    "n": 2,
+    "detail": "据该篇报道，他与前泽圭一、Alfredo Spadafina 三人讲述 Z-A 渲染技术。"
+   },
+   {
+    "n": 3,
+    "detail": "据该篇报道，其头衔为 GAME FREAK 工作流部门部门总监。"
+   }
+  ]
+ },
+ "posts": [
+  "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck",
+  "2026-07-23-interview-denfami-2026-cedec-pokerig",
+  "2026-09-17-interview-cgworld-2026-cedec-pkmnza"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "key": "064c813b2efcb6cc",
+ "answer": {
+  "summary": "Alfredo Spadafina 在 GAME FREAK 从事程序工作，2025 年《Pokémon LEGENDS Z-A》起担任 Base Technology Section / Graphics Programming Team 组长。他在 CEDEC 2026 讲座中参与讲解《Pokémon LEGENDS Z-A》密阿雷市的渲染技术，重点涉及 InstancedDraw 与剔除机制 [1][2][3]。据 [2] 报道，他指出密阿雷市的特征是相同设计的建筑和物体大量林立、许多部分被遮挡，高效渲染的关键在于 InstancedDraw 与剔除。据 [3] 报道，他列举都市空间模型的两个特征：仅坐标不同的实例模型很多，以及被大楼遮挡而看不见的渲染对象很多。据 [2] 报道，他还提到光照也引入剔除，并构建了省去无用计算的机制。",
+  "expertise": [
+   "渲染技术",
+   "图形程序",
+   "InstancedDraw",
+   "剔除机制",
+   "都市空间表现"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "据该篇报道，他与前泽圭一、赤木达也共同署名 CEDEC 2026 讲座，内容涉及 InstancedDraw 与剔除。"
+   },
+   {
+    "n": 2,
+    "detail": "据该篇报道，他表示密阿雷市相同设计建筑大量林立且多被遮挡，并称本作是运用 InstancedDraw 最多的作品。"
+   },
+   {
+    "n": 3,
+    "detail": "据该篇报道，其头衔为基础技术部门技术展开团队负责人，并列举都市空间实例模型多、遮挡对象多两个特征。"
+   }
+  ]
+ },
+ "posts": [
+  "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck",
+  "2026-07-23-interview-denfami-2026-cedec-pokerig",
+  "2026-09-17-interview-cgworld-2026-cedec-pkmnza"
+ ]
+}

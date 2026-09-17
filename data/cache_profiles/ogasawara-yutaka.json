@@ -1,0 +1,38 @@
+{
+ "key": "224c285c60288ecc",
+ "answer": {
+  "summary": "小笠原裕在本作中担任把握整体方向的总监，并亲自编写图形渲染相关的核心程序 [1]。他围绕把宝可梦图鉴做成掌上电子书展开设计，参与下载体积与分发方式的方案构思 [1]。在视觉表现上，他推动自投阴影等三维渲染效果，并强调高精度阴影对AR虚实融合的作用 [2]。AR功能的立项源于石原恒和的决断，他随后在底层算法上处理贴墙互动的实现 [3][4]。他还参与多语言系统与招式反向检索等图鉴功能的开发 [2]。",
+  "expertise": [
+   "图形渲染",
+   "总监统筹",
+   "AR实现",
+   "下载分发",
+   "图鉴功能",
+   "多语言系统"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "除总监职责外亲自编写图形渲染核心程序，并参与3分钟下载与SpotPass分发方案。"
+   },
+   {
+    "n": 2,
+    "detail": "推动自投阴影等视觉表现，并参与多语言系统与招式反向检索功能。"
+   },
+   {
+    "n": 3,
+    "detail": "说明AR功能因石原恒和拍板才正式立项实装。"
+   },
+   {
+    "n": 4,
+    "detail": "为让AR标记贴墙互动，在底层算法上做了苛刻处理。"
+   }
+  ]
+ },
+ "posts": [
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all"
+ ]
+}

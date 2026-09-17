@@ -1,0 +1,23 @@
+{
+ "key": "61c99dfe8f76799f",
+ "answer": {
+  "summary": "髙山玲央名在 GAME FREAK 研究开发部环境组任职，横向参与《宝可梦》系列开发的 CI/CD 构建与工具开发 [1]。其工作涉及将《宝可梦》系列开发的 CI/CD 构建环境从公有云虚拟机迁移到 Windows 容器与 Kubernetes [1]。他关注迁移的经过、课题与成果，并指出 Windows 容器实践案例并不多，希望讲演能作为参考 [1]。目前主要负责开发基础设施的服务水平改善、安全强化和成本优化 [1]。",
+  "expertise": [
+   "CI/CD 构建",
+   "开发基础设施",
+   "Windows 容器",
+   "Kubernetes",
+   "工具开发",
+   "成本优化"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "2020 年作为构建工程师入职 GAME FREAK，横向参与《宝可梦》系列 CI/CD 构建与工具开发。"
+   }
+  ]
+ },
+ "posts": [
+  "2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers"
+ ]
+}

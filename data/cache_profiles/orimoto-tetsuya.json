@@ -1,0 +1,32 @@
+{
+ "key": "85e3893fae407a06",
+ "answer": {
+  "summary": "折本哲也在《宝可梦立体图鉴BW》中与小笠原共同编写程序，核心任务是编写AR相关程序算法，让玩家在现实世界中拍摄到宝可梦，并兼顾UI界面与音频系统的实现 [1]。在AR标记设计上，他采用黑框内4×4共16格的黑白编码，目的是从计算机视觉算法上根绝误识别 [2]。他调用3DS内置的重力/加速度传感器，使贴在墙上的标记能让宝可梦以正面姿态破壁而出 [3]。对于玩家破解AR标记，他表示开发者立场是欢迎破译、解析 [2]。",
+  "expertise": [
+   "AR程序算法",
+   "UI界面",
+   "音频系统",
+   "计算机视觉",
+   "传感器应用"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "与小笠原共同编写程序，核心任务是AR程序算法，并兼顾UI与音频系统实现。"
+   },
+   {
+    "n": 2,
+    "detail": "AR标记采用黑框内4×4共16格黑白编码，以根绝误识别；对破解持欢迎态度。"
+   },
+   {
+    "n": 3,
+    "detail": "调用3DS内置重力/加速度传感器，使墙上标记的宝可梦正面破壁而出。"
+   }
+  ]
+ },
+ "posts": [
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all"
+ ]
+}

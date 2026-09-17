@@ -1,0 +1,27 @@
+{
+ "key": "bb10c075cec92b8e",
+ "answer": {
+  "summary": "川岛优志参与《Pokemon GO》的产品与发布工作，曾亲自按下App Store的发布按钮 [1]。他关注服务器负载与上线节奏，参与应对实际数据远超预期后的工程调整 [1]。他推动Niantic与宝可梦公司的合作，在内部看到AR宝可梦宣传视频后立即向约翰·汉克提议并联络野村达雄 [2]。他与野村达雄及另一位产品经理一同头脑风暴，思考如何让株式会社宝可梦接受企划 [2]。",
+  "expertise": [
+   "产品管理",
+   "发行上线",
+   "商务合作",
+   "服务器负载",
+   "企划推进"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "他按下App Store发布按钮，并称上线后数据远超预期，工程师约一个月不眠不休应对。"
+   },
+   {
+    "n": 2,
+    "detail": "他看到AR宝可梦宣传视频后向约翰·汉克提议，并当晚发邮件让野村达雄与约翰见面。"
+   }
+  ]
+ },
+ "posts": [
+  "2018-06-08-interview-denfaminicogamer-pokemon-go-miracle",
+  "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle"
+ ]
+}

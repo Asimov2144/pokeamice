@@ -1,0 +1,38 @@
+{
+ "key": "3d60efccfcebe349",
+ "answer": {
+  "summary": "长畑成一郎在《宝可梦不可思议迷宫》系列中负责游戏整体企划与总监工作 [1]。他参与从初代到《极大之门与∞迷宫》的企划与方向把控，涉及剧本引导、像素绘图、硬件机能运用与联机系统等领域 [1][2]。在开发方法上，他先搭建雏形，再观察团队试玩反应并反复微调，并优先建立可在测试中实时修改数值与参数的研发环境 [4]。他重视难度平衡，认为系列需朝更平易近人的方向调整，同时保留随机数带来的紧张感 [3][4]。",
+  "expertise": [
+   "整体企划",
+   "游戏总监",
+   "迷宫系统",
+   "难度平衡",
+   "硬件机能运用",
+   "联机玩法"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "表示自己继续负责整体企划与总监工作，并提到富江剧本与像素绘图的作用。"
+   },
+   {
+    "n": 2,
+    "detail": "称第2代全力挖掘NDS机能，并在3DS上把AR与通信联机功能做到极致。"
+   },
+   {
+    "n": 3,
+    "detail": "认为本作像装满新交互机制的玩具箱，并称难度平衡每次都要反复纠结。"
+   },
+   {
+    "n": 4,
+    "detail": "说开发之初先打造能在测试中实时修改数值与参数的研发环境。"
+   }
+  ]
+ },
+ "posts": [
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-1-impossible-combination",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+  "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers"
+ ]
+}

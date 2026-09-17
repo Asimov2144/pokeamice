@@ -52,6 +52,8 @@ carry a `kind` in the registry and never appear as co-interviewees.
 {% if me.portraits %}{% assign dated = me.portraits | where_exp: "ph", "ph.year" | sort: "year" %}{% assign undated = me.portraits | where_exp: "ph", "ph.year == nil" %}{% assign portraits = dated | concat: undated %}{% endif %}
 {%- comment -%} game credits (tools/build-credits-site.py), keyed by slug; a staff-only person (kind: staff) has these and no posts {%- endcomment -%}
 {% assign cr = site.data.credits_people[page.slug] %}
+{%- comment -%} the profile (tools/build-people-profiles.py): expertise chips, the credits line, the summary and its citations {%- endcomment -%}
+{% assign pf = site.data.people_profiles | where: "slug", page.slug | first %}
 
 <div id="main" role="main">
   <div class="archive archive--person">
@@ -78,6 +80,35 @@ carry a `kind` in the registry and never appear as co-interviewees.
             {% if me.avatar_source %}<p class="person__credit">头像：{{ me.avatar_source }}</p>{% endif %}
           </div>
         </header>
+
+        {% if pf and pf.expertise %}
+        <section class="person__section person__profile" aria-label="开发专长">
+          <h2>开发专长{% if pf.credits %} <small>{{ pf.credits.games }} 作署名{% if pf.interviews.spoken_in > 0 %} · {{ pf.interviews.spoken_in }} 篇访谈发言{% endif %}</small>{% endif %}</h2>
+          <ul class="person__chips person__profile-chips">
+            {% for e in pf.expertise %}<li><span>{{ e }}</span></li>{% endfor %}
+          </ul>
+          {% if pf.credits %}<p class="person__profile-credits">{{ pf.credits.line }}</p>{% endif %}
+          {% if pf.summary %}
+            {%- comment -%} [n] in the summary becomes a link to the citation below {%- endcomment -%}
+            {% assign sum_html = pf.summary | escape %}
+            {% for c in pf.citations %}
+              {% assign mark = "[" | append: c.n | append: "]" %}
+              {% assign link = '<a class="person__cite-mark" href="#cite-' | append: c.n | append: '">' | append: c.n | append: '</a>' %}
+              {% assign sum_html = sum_html | replace: mark, link %}
+            {% endfor %}
+            <p class="person__profile-summary">{{ sum_html }}</p>
+          {% endif %}
+          {% if pf.citations and pf.citations.size > 0 %}
+          <ol class="person__cites">
+            {% for c in pf.citations %}
+              {% assign cp = site.posts | where_exp: "p", "p.path contains c.post" | first %}
+              <li id="cite-{{ c.n }}"><b>[{{ c.n }}]</b> {% if c.detail %}<span class="person__cite-detail">{{ c.detail }}</span> — {% endif %}{% if cp %}<a href="{{ cp.url | relative_url }}">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}<small>{% if c.publication %}{{ c.publication }} · {% endif %}{{ c.date }}</small></li>
+            {% endfor %}
+          </ol>
+          {% endif %}
+          <p class="person__profile-note">履历由制作名单归纳；专长与要点由本站访谈译文中本人的发言归纳（DeepSeek 初稿，仅引用站内条目），编号即出处。</p>
+        </section>
+        {% endif %}
 
         {% if portraits.size > 1 %}
         <section class="person__photos" aria-label="不同时期">

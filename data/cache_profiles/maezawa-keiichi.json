@@ -1,0 +1,40 @@
+{
+ "key": "deddbc117b442a1f",
+ "answer": {
+  "summary": "前泽圭一在 GAME FREAK 负责 CG 技术与渲染方向，长期参与宝可梦系列 3D 模型与视觉表现的环境建设。据电Fami Nico Gamer 报道，他推动宝可梦模型从按作品分别制作改为共通规格与环境交付，以应对模型总数超过 1000 种后的制作负担 [1]。据 4Gamer.net 报道，他在 CEDEC 2023 讲解《宝可梦 朱·紫》从着色器处理到资源构成的视觉表现，包括太晶化的材质替换与法线贴图等手法 [3]。据 CEDEC 2026 讲演资料与 CGWORLD.jp 报道，他参与讲解《Pokémon LEGENDS Z-A》都市空间的渲染技术，涉及 InstancedDraw 与剔除机制等高效渲染方案 [4][6]。",
+  "expertise": [
+   "CG 技术",
+   "渲染技术",
+   "宝可梦模型",
+   "视觉表现",
+   "工作流建设",
+   "性能优化"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "据电Fami Nico Gamer报道，他推动宝可梦模型改为共通规格与环境交付。"
+   },
+   {
+    "n": 3,
+    "detail": "据4Gamer.net报道，他讲解太晶化通过替换材质与法线贴图表现宝石质感。"
+   },
+   {
+    "n": 4,
+    "detail": "据CEDEC 2026讲演资料，他与他人共同讲解密阿雷市渲染与骨骼绑定。"
+   },
+   {
+    "n": 6,
+    "detail": "据CGWORLD.jp报道，他作为CG技术实验室总监登台讲解都市空间渲染技术。"
+   }
+  ]
+ },
+ "posts": [
+  "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline",
+  "2023-08-24-interview-denfami-2023-cedec-visual",
+  "2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza",
+  "2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck",
+  "2026-07-23-interview-denfami-2026-cedec-pokerig",
+  "2026-09-17-interview-cgworld-2026-cedec-pkmnza"
+ ]
+}

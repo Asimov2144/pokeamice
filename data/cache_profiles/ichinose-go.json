@@ -1,0 +1,68 @@
+{
+ "key": "bd0681f8656e84cb",
+ "answer": {
+  "summary": "一之濑刚是GAME FREAK的声音工程师，自《宝可梦 金·银》起参与系列音乐制作，长期负责作曲、编曲与音响设计，并担任过音乐组长和声音部门总监。他的工作覆盖战斗曲、环境叫声、环境音与音效实现，也参与过企划与本地化/海外QA。他主张音乐要贴合增田顺一的旋律风格，同时融入世界音乐与互动音乐等手法，让音乐服务于游戏体验 [3][6]。在方法上，他重视从社长和杉森建处学到的“GAME FREAK主义”，即用低成本巧思提升游戏性 [7]。",
+  "expertise": [
+   "音乐作曲",
+   "编曲",
+   "音响设计",
+   "环境音效",
+   "声音统筹",
+   "企划"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "称《金／银》是自己参与制作的第一款宝可梦游戏，需忠实原版氛围并创新。"
+   },
+   {
+    "n": 2,
+    "detail": "回忆幼时学钢琴、喜欢肖邦，进GAME FIREK本为考证，后转做音乐。"
+   },
+   {
+    "n": 3,
+    "detail": "负责酋雷姆叫声，因设定不完整而重做；《黑2・白2》引入世界音乐与互动音乐。"
+   },
+   {
+    "n": 4,
+    "detail": "提议让WCS冠军与历代训练家登场，结果自己重新编曲历代战斗曲。"
+   },
+   {
+    "n": 5,
+    "detail": "编曲阿克罗玛战斗曲时加入电子音，并让魁奇思曲子与动画音效同步。"
+   },
+   {
+    "n": 6,
+    "detail": "认为战斗曲存在感极大，若垮掉宝可梦韵味会崩塌；野生与训练家战仍由增田操刀。"
+   },
+   {
+    "n": 7,
+    "detail": "从社长和杉森处学到“GAME FREAK主义”，曾因点子被社长训约三小时。"
+   },
+   {
+    "n": 8,
+    "detail": "与田谷等人发起《宝可骑行》企划，负责游戏内整体音效。"
+   },
+   {
+    "n": 9,
+    "detail": "据Fami通.com报道，他在CEDEC2023讲解宝可梦世界环境叫声与环境音制作。"
+   },
+   {
+    "n": 10,
+    "detail": "据4Gamer.net报道，他详解《朱·紫》帕底亚生态音响与自研音频引擎。"
+   }
+  ]
+ },
+ "posts": [
+  "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+  "2010-08-04-interview-cd-anime-ost-miyazaki-soundteam",
+  "2012-07-21-scan-ndream-2012-09-b2w2-developer-interview",
+  "2012-08-21-scan-ndream-2012-10-b2w2-pickup-secrets",
+  "2012-08-21-scan-ndream-2012-10-pokemon-music-interview",
+  "2014-10-31-interview-2083-gamefreak-sound-team-red-green-to-oras",
+  "2016-02-17-interview-denfami-xevious-tajiri-sugimori-endo",
+  "2016-04-18-interview-denfami-sonobe-gamefreak-morimoto",
+  "2023-08-24-interview-famitsu-2023-cedec-sound",
+  "2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea"
+ ]
+}

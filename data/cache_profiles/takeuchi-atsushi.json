@@ -1,0 +1,37 @@
+{
+ "key": "a72e07690e4b6bf2",
+ "answer": {
+  "summary": "在《宝可梦立体图鉴BW》中担任设计师，主要与小笠原一起负责宝可梦的3D表现渲染，并向外部团队提出3D建模与骨骼动画数据的制作规格，对交付资产进行统筹监修与验收 [1]。熟悉美术团队的分工机制，按设计师特长分派复杂曲面拓扑或萌态表现等任务 [2]。主张为每一只宝可梦定制专属动画，不设资源复用或动作时长的死板限制 [2]。关注3DS上可编程着色器带来的光影表现，认为借此营造出宝可梦伫立眼前的临场感 [2]。",
+  "expertise": [
+   "3D渲染",
+   "建模规格",
+   "资产监修",
+   "骨骼动画",
+   "美术统筹"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "自述与小笠原共同负责宝可梦3D表现渲染，并对外部团队提出建模与动画规格、验收资产。"
+   },
+   {
+    "n": 2,
+    "detail": "提到3D建模师约30人、骨骼动画约5人，并按设计师特长分派不同宝可梦任务。"
+   },
+   {
+    "n": 3,
+    "detail": "讲述自己孩子得知可手绘识别后，用3DS的AR取景器拍照合影的经历。"
+   },
+   {
+    "n": 4,
+    "detail": "该篇中其发言仅为一句应答，未提供具体开发信息。"
+   }
+  ]
+ },
+ "posts": [
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-1-three-minute-download",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-2-pokemon-in-reality",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-3-obvious-animation",
+  "2011-06-16-interview-iwata-asks-pokedex-3d-bw-chapter-4-ambition-for-all"
+ ]
+}

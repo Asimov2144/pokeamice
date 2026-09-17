@@ -1,0 +1,32 @@
+{
+ "key": "d072254d8c6e2208",
+ "answer": {
+  "summary": "M.O. 在 GAME FREAK 担任过《GIGA WRECKER》的总监，主导将物理破坏玩法与 Steam 抢先体验模式结合的方向 [1]。他参与《Pokémon LEGENDS 阿尔宙斯》等正统作的开发，关注从试作阶段探讨宝可梦行为如何显得自然有趣 [2]。他认为游戏程序员应主动提出实现方案，把感觉层面的体验语言化并积累为经验诀窍 [2]。他参与推动程序员组织细分，将游戏程序员与系统程序员分工，并强调游戏程序员可反向要求系统程序员引入技术框架 [3]。",
+  "expertise": [
+   "物理玩法",
+   "动作设计",
+   "游戏程序",
+   "玩法本质",
+   "组织改革"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "担任《GIGA WRECKER》总监，决定以 Steam 抢先体验面向全球发售。"
+   },
+   {
+    "n": 2,
+    "detail": "谈《Pokémon LEGENDS 阿尔宙斯》试作阶段探讨宝可梦行为表现。"
+   },
+   {
+    "n": 3,
+    "detail": "说明程序员细分为系统程序员与游戏程序员两大序列。"
+   }
+  ]
+ },
+ "posts": [
+  "2017-03-01-interview-gamefreak-gear-gigawrecker",
+  "2021-12-27-interview-gamefreak-crosstalk-game-programmer",
+  "2021-12-27-interview-gamefreak-crosstalk-programmer"
+ ]
+}

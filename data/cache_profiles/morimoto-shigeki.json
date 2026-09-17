@@ -1,0 +1,57 @@
+{
+ "key": "07fea4597ec9e2fc",
+ "answer": {
+  "summary": "森本茂树长期参与《宝可梦》系列开发，在程序、战斗系统、宝可梦设计与总监等岗位都有经手，早期曾负责战斗程序与通信对战相关实现 [1][7]。他自述初代战斗画面从无数字与体力条逐步加入等级、体力条和数字，并因任天堂反馈重做通信对战 [1]。他重视在有限容量与人力下反复打磨细节，认为《宝可梦》期限不确定使好点子几乎都能放入 [1][7]。他创造了梦幻，并称在初代开发结束前两周将其塞入卡带 [3][5]。在重制作品中，他关注兼顾老玩家怀旧与新玩家初次游玩的体验 [8][9]。",
+  "expertise": [
+   "战斗系统",
+   "程序开发",
+   "宝可梦设计",
+   "通信对战",
+   "总监"
+  ],
+  "citations": [
+   {
+    "n": 1,
+    "detail": "初代战斗画面最初不显示数字与体力条，后逐步加入等级、体力条和数字。"
+   },
+   {
+    "n": 3,
+    "detail": "自述在初代开发结束前两周创造梦幻，并称欠梦幻太多。"
+   },
+   {
+    "n": 5,
+    "detail": "被指为梦幻创造者，称正式版容量仅剩一点空余时悄悄塞入。"
+   },
+   {
+    "n": 7,
+    "detail": "称《赤·绿》时程序员约4人，战斗程序花了很长时间才做出。"
+   },
+   {
+    "n": 8,
+    "detail": "谈《心金·魂银》重制时留意兼顾老玩家与新玩家，并制作493只以上跟随图形。"
+   },
+   {
+    "n": 9,
+    "detail": "称借鉴同期发售的“宝可梦皮卡丘”元素，为玩过原版《金·银》的玩家带来怀旧感。"
+   },
+   {
+    "n": 10,
+    "detail": "称《心金／魂银》开发花了近三年，约二十人参与，最先打造缘朱市。"
+   }
+  ]
+ },
+ "posts": [
+  "1996-04-05-scan-shodai-zukan-1996-staff-interview",
+  "1997-10-16-interview-gamefreak-official-red-green-staff",
+  "2000-07-01-interview-nintendopower-gold-silver-roundtable",
+  "2000-07-01-interview-nom-genesis-gamefreak",
+  "2000-07-01-interview-nom-gold-silver-gamefreak",
+  "2009-09-04-interview-iwata-asks-hgss-chapter-2-portable-toy-king",
+  "2009-09-04-interview-iwata-asks-hgss-chapter-3-iwata-compression-stadium",
+  "2009-09-18-interview-dengeki-hgss-shigeki-morimoto",
+  "2010-03-19-interview-gameinformer-masuda-morimoto-hgss",
+  "2010-03-31-interview-pokemon-com-hgss-masuda-morimoto",
+  "2017-09-22-interview-gi-2017-gs-history",
+  "2018-06-12-interview-early-concept-art"
+ ]
+}
