@@ -398,13 +398,14 @@ def main():
         cells = {}
         for g in a["core_games"]:
             r = a["primary"][g]
-            # 该作全部职务（主职之外的也带上，卡片里列出来），日文职名与英文相同时省略
+            # 该作全部职务，每条带自己的类别和级别（主职之外的类别在格子里画成圆点，卡片里列出来），
+            # 日文职名与英文相同时省略
             allroles = []
             for rr in a["roles"][g]:
                 ja = rr.get("role_ja")
                 if ja and ja.strip().lower() in (rr["role"].strip().lower(), rr["role"].split(" / ")[-1].strip().lower()):
                     ja = None
-                allroles.append([rr["role"], ja] if ja else [rr["role"]])
+                allroles.append([rr["role"], ja, rr["cat"], rr["rank"]])
             cells[g] = [r["cat"], r["rank"], r["role"], allroles]
         e = matched.get(p["key"])
         row = {"n": p["name"], "k": (p.get("kanji") or [None])[0], "y": (p.get("kana") or [None])[0], "s": key2slug.get(p["key"]),

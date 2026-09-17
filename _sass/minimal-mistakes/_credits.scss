@@ -179,6 +179,7 @@
 
 .credits__count { margin-left: auto; font-weight: 700; }
 
+.credits__legend-dots { display: inline-flex; gap: 2px; vertical-align: -1px; b { display: inline-block; width: 7px; height: 7px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.22); } }
 .credits__legend {
   margin: 0 0 10px;
   color: $muted-text-color;
@@ -234,6 +235,10 @@ $credits-gen-row: 22px;
   td.is-game span { display: inline-block; min-width: 3.2em; border-radius: 4px; padding: 0 4px; font-size: 0.68rem; font-weight: 700; }
   td.is-game span.rank-1 { box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.18); }
   td.is-game span.rank-2, td.is-game span.rank-3, td.is-game span.rank-4 { box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.28); font-weight: 900; }
+  /* a person with several jobs on one game: a dot per further category under the primary's mark */
+  td.is-game.has-also { padding-bottom: 2px; }
+  .credits__also { display: flex; justify-content: center; gap: 2px; margin-top: 2px; line-height: 0; }
+  .credits__also b, .credits__legend-dots b { display: inline-block; width: 7px; height: 7px; border-radius: 50%; box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.22); }
   tbody tr:hover td { background-color: rgba(255, 196, 0, 0.16); }
   tbody tr:hover td.is-name { background-color: #fff3c4; }
 }
@@ -318,6 +323,7 @@ $credits-gen-row: 22px;
   dd small { display: block; color: $muted-text-color; font-size: 0.68rem; }
   .is-roles span { display: block; }
   .is-roles span + span { margin-top: 3px; }
+  .is-roles i { display: inline-block; min-width: 2.6em; margin-right: 6px; border-radius: 3px; padding: 0 4px; font-size: 0.62rem; font-style: normal; font-weight: 800; text-align: center; vertical-align: 1px; }
 }
 
 /* the trail: every core game the person is on, this one outlined */

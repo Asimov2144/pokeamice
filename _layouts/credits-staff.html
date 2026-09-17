@@ -3,7 +3,9 @@ layout: default
 ---
 {%- comment -%}
 Every person credited on a core (Game Freak) title, one row each, with a
-cell per game: category + rank mark, the full role on hover. The data is
+cell per game: the primary role's category + rank mark, a dot for every further
+category the person held on that game (Masuda: director, and composer, and
+planner), every role on hover and in the card. The data is
 assets/data/credits-staff.json (tools/build-credits-site.py); the table is
 built in the browser because 3000 x 28 cells is far past what Liquid should
 render. Sorting, filtering and paging are all client side.
@@ -19,7 +21,7 @@ row so a mark can be traced back to its game and person.
       <header class="people__head">
         <p class="person__kicker"><a href="{{ '/credits/' | relative_url }}">制作名单</a></p>
         <h1 class="person__name">历作 staff 总表</h1>
-        <p class="people__lede">Game Freak 核心作品的每一位署名者一行，一作一格：格子写类别和级别，悬停看完整职务。
+        <p class="people__lede">Game Freak 核心作品的每一位署名者一行，一作一格：格子写主职的类别和级别，身兼数职时其余类别画成圆点，悬停看全部职务。
           默认按参与作数排序；用上面的框搜名字、假名或汉字。有人物页的名字可以点开。表头与人名列固定不动，列底色按世代交替，悬停会点亮整列整行。</p>
       </header>
 
@@ -30,7 +32,7 @@ row so a mark can be traced back to its game and person.
         <label><input type="checkbox" id="credits-lead"> 只看 lead 以上</label>
         <span id="credits-count" class="credits__count"></span>
       </div>
-      <p class="credits__legend">类别：<i class="cat-Dir">Dir</i> 总监/制作人 · <i class="cat-Plan">Plan</i> 企划 · <i class="cat-Prog">Prog</i> 程序 · <i class="cat-Art">Art</i> 美术 · <i class="cat-Sound">Sound</i> 音乐 · <i class="cat-Mgmt">Mgmt</i> 管理 · <i class="cat-Debug">Debug</i> 调试 · <i class="cat-Loc/QA">Loc</i> 本地化/QA · <i class="cat-Thanks">Thx</i> 特别感谢　级别：<code>*</code> lead · <code>^</code> section / art director · <code>!</code> director / producer · <code>!!</code> executive producer</p>
+      <p class="credits__legend"><i class="credits__legend-dots"><b class="cat-Sound"></b><b class="cat-Plan"></b></i> 主职之外的职务类别（悬停或点开看全部）· 类别：<i class="cat-Dir">Dir</i> 总监/制作人 · <i class="cat-Plan">Plan</i> 企划 · <i class="cat-Prog">Prog</i> 程序 · <i class="cat-Art">Art</i> 美术 · <i class="cat-Sound">Sound</i> 音乐 · <i class="cat-Mgmt">Mgmt</i> 管理 · <i class="cat-Debug">Debug</i> 调试 · <i class="cat-Loc/QA">Loc</i> 本地化/QA · <i class="cat-Thanks">Thx</i> 特别感谢　级别：<code>*</code> lead · <code>^</code> section / art director · <code>!</code> director / producer · <code>!!</code> executive producer</p>
 
       <div class="credits__scroll" id="credits-scroll">
         <table class="credits__table" id="credits-table">
@@ -61,6 +63,17 @@ row so a mark can be traced back to its game and person.
       more = document.getElementById("credits-more"), box = document.getElementById("credits-scroll"), hover = document.getElementById("credits-hover");
   var data = null, view = [], shown = 0, PAGE = 200, sortKey = "c", sortDir = -1;
   var MARK = ["", "*", "^", "!", "!!"];
+  var CAT_ORDER = ["Dir", "Plan", "Prog", "Art", "Sound", "Mgmt", "Debug", "Loc/QA", "Thanks", "Other"];
+  function abbr(c) { return c === "Loc/QA" ? "Loc" : (c === "Thanks" ? "Thx" : c); }
+  // the roles of a cell: [role, ja, cat, rank] each (older data: [role, ja] - then the primary's cat and rank stand for all)
+  function rolesOf(r) { return (r[3] || [[r[2]]]).map(function (x) { return {role: x[0], ja: x[1], cat: x[2] || r[0], rank: x[3] == null ? r[1] : x[3]}; }); }
+  // the categories a cell holds beyond the primary's, in department order, each with its best rank
+  function alsoOf(r) {
+    var best = {};
+    rolesOf(r).forEach(function (x) { if (x.cat !== r[0] && (best[x.cat] == null || x.rank > best[x.cat])) best[x.cat] = x.rank; });
+    return CAT_ORDER.filter(function (c) { return best[c] != null; }).map(function (c) { return {cat: c, rank: best[c]}; });
+  }
+  function anyRole(r, c, onlyLead) { return rolesOf(r).some(function (x) { return (!c || x.cat === c) && (!onlyLead || x.rank >= 1); }); }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); }
   function tint(g) { return " gen-" + (g.gen % 2 ? "odd" : "even"); }
@@ -99,8 +112,9 @@ row so a mark can be traced back to its game and person.
       if (p.c < m) return false;
       if (s && !((p.n || "").toLowerCase().indexOf(s) >= 0 || (p.k || "").indexOf(s) >= 0 || (p.y || "").indexOf(s) >= 0)) return false;
       if (c || onlyLead) {
+        // any of the person's roles on any game, not the primary alone
         var ok = false;
-        for (var g in p.r) { var r = p.r[g]; if ((!c || r[0] === c) && (!onlyLead || r[1] >= 1)) { ok = true; break; } }
+        for (var g in p.r) { if (anyRole(p.r[g], c, onlyLead)) { ok = true; break; } }
         if (!ok) return false;
       }
       return true;
@@ -121,7 +135,10 @@ row so a mark can be traced back to its game and person.
     data.games.forEach(function (g, k) {
       var r = p.r[g.slug];
       if (!r) { h += '<td class="is-game is-empty' + tint(g) + '" data-col="' + k + '"></td>'; return; }
-      h += '<td class="is-game' + tint(g) + '" data-col="' + k + '" title="' + esc(p.n) + ' · ' + esc(g.title) + '（' + g.year + '）：' + esc(r[2]) + '"><span class="cat-' + esc(r[0]) + (r[1] >= 1 ? ' rank-' + r[1] : '') + '">' + esc(r[0] === "Loc/QA" ? "Loc" : (r[0] === "Thanks" ? "Thx" : r[0])) + MARK[r[1]] + '</span></td>';
+      var all = rolesOf(r), also = alsoOf(r);
+      var tip = esc(p.n) + ' · ' + esc(g.title) + '（' + g.year + '）：' + esc(all.map(function (x) { return x.role; }).join(" / "));
+      var dots = also.length ? '<i class="credits__also">' + also.map(function (x) { return '<b class="cat-' + esc(x.cat) + '" title="' + esc(data.cat_zh[x.cat] || x.cat) + '"></b>'; }).join("") + '</i>' : '';
+      h += '<td class="is-game' + tint(g) + (also.length ? ' has-also' : '') + '" data-col="' + k + '" title="' + tip + '"><span class="cat-' + esc(r[0]) + (r[1] >= 1 ? ' rank-' + r[1] : '') + '">' + esc(abbr(r[0])) + MARK[r[1]] + '</span>' + dots + '</td>';
     });
     return h + "</tr>";
   }
@@ -166,7 +183,9 @@ row so a mark can be traced back to its game and person.
     cardPerson.innerHTML = (p.a ? '<img src="' + esc(p.a) + '" alt="" width="44" height="44">' : '<span class="credits__card-initial" aria-hidden="true">' + esc(initial) + '</span>') +
       '<div><b>' + (p.s ? '<a href="' + peopleBase + esc(p.s) + '/">' + esc(p.n) + '</a>' : esc(p.n)) + '</b>' +
       ([p.k, p.y].filter(Boolean).length ? '<small>' + [p.k, p.y].filter(Boolean).map(esc).join(" · ") + '</small>' : '') + '</div>';
-    var roles = (r[3] || [[r[2]]]).map(function (x) { return '<span>' + esc(x[0]) + (x[1] ? '<small>' + esc(x[1]) + '</small>' : '') + '</span>'; }).join("");
+    var roles = rolesOf(r).map(function (x) { return '<span><i class="cat-' + esc(x.cat) + '">' + esc(abbr(x.cat)) + MARK[x.rank] + '</i>' + esc(x.role) + (x.ja ? '<small>' + esc(x.ja) + '</small>' : '') + '</span>'; }).join("");
+    // every category the person held on this game, the primary first, each with its best rank
+    var cats = [{cat: r[0], rank: r[1]}].concat(alsoOf(r)).map(function (x) { return esc(data.cat_zh[x.cat] || x.cat) + (x.rank ? '（' + esc(data.rank_zh[x.rank] || "") + '）' : ''); }).join("、");
     var first = null, last = null, trail = "";
     data.games.forEach(function (x) {
       var c = p.r[x.slug];
@@ -177,7 +196,7 @@ row so a mark can be traced back to its game and person.
     });
     cardFacts.innerHTML =
       '<div><dt>该作职务</dt><dd class="is-roles">' + roles + '</dd></div>' +
-      '<div><dt>类别 · 级别</dt><dd>' + esc(data.cat_zh[r[0]] || r[0]) + (r[1] ? ' · ' + esc(data.rank_zh[r[1]] || "") : '') + '</dd></div>' +
+      '<div><dt>类别 · 级别</dt><dd>' + cats + '</dd></div>' +
       '<div><dt>首次参与</dt><dd>' + esc(first.title) + '（' + first.year + '）' + (p.f < first.year ? '<small>外传更早：' + p.f + '</small>' : '') + '</dd></div>' +
       '<div><dt>最近参与</dt><dd>' + esc(last.title) + '（' + last.year + '）' + (p.l > last.year ? '<small>外传更晚：' + p.l + '</small>' : '') + '</dd></div>' +
       '<div><dt>参与作数</dt><dd>核心 ' + p.c + ' 作' + (p.g > p.c ? ' · 含外传 ' + p.g + ' 作' : '') + '</dd></div>';
