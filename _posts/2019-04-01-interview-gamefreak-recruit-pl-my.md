@@ -20,6 +20,7 @@ tags:
 - UI策划
 - 女性总监
 - Wayback历史存档
+- 招聘访谈
 interview_id: PKMN-1032
 publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20200804213443/https://www.gamefreak.co.jp/recruit/interview/my/

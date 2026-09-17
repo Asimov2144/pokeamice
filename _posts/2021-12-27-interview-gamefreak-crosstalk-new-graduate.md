@@ -16,6 +16,7 @@ tags:
 - Gear Project
 - 导师制度
 - 年轻开发者
+- 招聘访谈
 source:
   title: 新卒若手対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
   url: https://www.gamefreak.co.jp/recruit/crosstalk-new-graduate/

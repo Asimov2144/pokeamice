@@ -20,6 +20,7 @@ tags:
 - 明雷遇敌
 - 流式加载
 - Wayback历史存档
+- 招聘访谈
 interview_id: PKMN-1031
 publication: Game Freak 採用情報 (Wayback 历史存档)
 original_link: http://web.archive.org/web/20200804213450/https://www.gamefreak.co.jp/recruit/interview/yi/

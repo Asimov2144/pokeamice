@@ -19,6 +19,7 @@ tags:
 - 任天堂
 - 宝可梦金银
 - 开发秘话
+- N.O.M
 entities:
   people:
   - "渡边哲也"

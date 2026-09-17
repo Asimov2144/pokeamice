@@ -16,6 +16,7 @@ tags:
 - CI/CD
 - 工具链
 - 跨界挑战
+- 招聘访谈
 source:
   title: システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク
   url: https://www.gamefreak.co.jp/recruit/crosstalk-system-programmer/

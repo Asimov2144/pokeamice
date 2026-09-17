@@ -379,4 +379,6 @@ source:
   title: 任天堂官网「N.O.M」(No.23)
   url: https://www.nintendo.co.jp/nom/0007/taidan1/index.html
 original_lang: ja
+tags:
+- N.O.M
 ---

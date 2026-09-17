@@ -13,12 +13,13 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
 {% assign tp_shudo = tp_posts | where_exp: "p", "p.categories contains '首藤刚志手记'" %}
 {% assign tp_scan = tp_posts | where: "archive_type", "scan_translation" %}
 {% assign tp_ndream = tp_posts | where_exp: "p", "p.publication contains 'Nintendo DREAM'" %}
-{% assign tp_famitsu = tp_posts | where_exp: "p", "p.publication contains 'ファミ通' or p.publication contains 'Fami通'" %}
-{% assign tp_dengeki = tp_posts | where_exp: "p", "p.publication contains '電撃' or p.publication contains '电击'" %}
+{% assign tp_famitsu = tp_posts | where_exp: "p", "p.publication contains 'ファミ通' or p.publication contains 'Fami通' or p.source.title contains 'ファミ通' or p.title contains 'Fami通' or p.title contains 'ファミ通'" %}
+{% assign tp_dengeki = tp_posts | where_exp: "p", "p.publication contains '電撃' or p.publication contains '电击' or p.source.title contains '電撃' or p.title contains '電撃' or p.title contains '电击'" %}
 {% assign tp_cedec = tp_posts | where_exp: "p", "p.title contains 'CEDEC'" %}
-{% assign tp_recruit = tp_posts | where_exp: "p", "p.title contains '招聘' or p.title contains '採用' or p.categories contains 'recruit'" %}
+{%- comment -%} the recruit interviews and the N.O.M ones carry a tag, which is also what their tiles search for {%- endcomment -%}
+{% assign tp_recruit = tp_posts | where_exp: "p", "p.tags contains '招聘访谈'" %}
 {% assign tp_gi = tp_posts | where_exp: "p", "p.publication contains 'Game Informer'" %}
-{% assign tp_nom = tp_posts | where_exp: "p", "p.publication contains 'NOM' or p.publication contains 'Nintendo Online Magazine'" %}
+{% assign tp_nom = tp_posts | where_exp: "p", "p.tags contains 'N.O.M'" %}
 {% assign tp_tech = tp_posts | where_exp: "p", "p.source_kind == 'technical_report' or p.article_kind == 'technical_feature'" %}
 {% assign tp_people = site.data.people | where_exp: "e", "e.kind != 'character' and e.kind != 'figure'" %}
 <nav class="front__topics" aria-label="专题导航" data-topics>
@@ -33,11 +34,11 @@ Counts are one pass over site.posts each; the blog counts come from home.html.
   <a class="front__tile" href="{{ '/search/?q=Nintendo%20DREAM' | relative_url }}" data-q="Nintendo DREAM"><img src="{{ tile_base }}ndream.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Nintendo DREAM</strong><b>{{ tp_ndream | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E3%83%95%E3%82%A1%E3%83%9F%E9%80%9A' | relative_url }}" data-q="ファミ通"><img src="{{ tile_base }}famitsu.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>Fami通</strong><b>{{ tp_famitsu | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E9%9B%BB%E6%92%83' | relative_url }}" data-q="電撃"><img src="{{ tile_base }}dengeki.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>電撃</strong><b>{{ tp_dengeki | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=NOM' | relative_url }}" data-q="NOM"><img src="{{ tile_base }}nom.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>任天堂 NOM</strong><b>{{ tp_nom | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?q=N.O.M' | relative_url }}" data-q="N.O.M"><img src="{{ tile_base }}nom.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">杂志</span><strong>任天堂 NOM</strong><b>{{ tp_nom | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=Game%20Informer' | relative_url }}" data-q="Game Informer"><img src="{{ tile_base }}gi.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">海外</span><strong>Game Informer</strong><b>{{ tp_gi | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=CEDEC' | relative_url }}" data-q="CEDEC"><img src="{{ tile_base }}cedec.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">讲演</span><strong>CEDEC</strong><b>{{ tp_cedec | size }}</b></a>
   <a class="front__tile" href="{{ '/search/?q=%E6%8A%80%E6%9C%AF' | relative_url }}" data-q="技术"><img src="{{ tile_base }}tech.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">技术</span><strong>技术报告</strong><b>{{ tp_tech | size }}</b></a>
-  <a class="front__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98' | relative_url }}" data-q="招聘"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_recruit | size }}</b></a>
+  <a class="front__tile" href="{{ '/search/?q=%E6%8B%9B%E8%81%98%E8%AE%BF%E8%B0%88' | relative_url }}" data-q="招聘访谈"><img src="{{ tile_base }}recruit.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">官方</span><strong>招聘访谈</strong><b>{{ tp_recruit | size }}</b></a>
   <a class="front__tile" href="{{ '/people/' | relative_url }}"><img src="{{ tile_base }}people.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>人物库</strong><b>{{ tp_people | size }}</b></a>
   <a class="front__tile" href="{{ '/entities/works/' | relative_url }}"><img src="{{ tile_base }}works.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>作品</strong><b>{{ site.data.works | size }}</b></a>
   <a class="front__tile" href="{{ '/timeline/' | relative_url }}"><img src="{{ tile_base }}timeline.jpg" alt="" width="336" height="192" loading="lazy" decoding="async"><span class="front__tile-kind">索引</span><strong>时间线</strong></a>

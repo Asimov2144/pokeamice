@@ -26,6 +26,7 @@ tags:
 - 赤绿
 - 官方史料
 - Wayback历史存档
+- 招聘访谈
 interview_id: PKMN-1063
 publication: 株式会社ポケモン 公式アーカイブ (Wayback 历史存档)
 original_link: https://web.archive.org/web/20190108050342/http://www.pokemon.co.jp/corporate/pikachu/

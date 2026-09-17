@@ -18,6 +18,7 @@ tags:
 - 艺人事务所理论
 - 品牌管理
 - Wayback历史存档
+- 招聘访谈
 interview_id: PKMN-1047
 publication: 株式会社ポケモン 企業情報・採用サイト
 original_link: http://web.archive.org/web/20120531132153/http://www.pokemon.co.jp/corporate/interview/

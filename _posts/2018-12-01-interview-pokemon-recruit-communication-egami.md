@@ -20,6 +20,7 @@ tags:
 - 好友系统
 - 训练家对战
 - Wayback历史存档
+- 招聘访谈
 interview_id: PKMN-1053
 publication: 株式会社ポケモン 採用サイト (Wayback 历史存档)
 original_link: http://web.archive.org/web/20201101011443/https://recruit.pokemon.co.jp/saiyo/interview/communication.html

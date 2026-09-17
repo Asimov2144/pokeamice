@@ -66,4 +66,6 @@ parallel_items:
   role: answer
 interviewee: N.O.M采访者, 【章节导览】, 杉森建
 original_lang: ja
+tags:
+- N.O.M
 ---

@@ -93,4 +93,6 @@ source:
   title: 任天堂官网「N.O.M」(No.52)
   url: https://www.nintendo.co.jp/nom/0211/01/01_04/index.html
 original_lang: ja
+tags:
+- N.O.M
 ---
