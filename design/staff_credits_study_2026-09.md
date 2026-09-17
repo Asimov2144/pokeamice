@@ -53,3 +53,14 @@ python tools/build-people.py pages       # 重生成 _pages/people/（含 staff 
 - 构建时间：+549 人物页后本地 build 336s → 222s（staff 页跳过 posts 扫描后；person.html 717 页合计 11.6s，不再是瓶颈）。
 - 站内中文名：外传 `title_zh` 可在 spinoffs.yml 补；staff 条目名的日→简转换。
 - Masters EX 年度分页、动画 staff 未收（DISCOVER_SKIP）。
+
+## 待办（与本课题相邻，2026-09-17 记）
+
+- **访谈补图**（等另一会话的译名统一提交完再动，用户要求）：`tools/audit-web-imports.py` 已跑全量（`design/web_import_audit.json`，214 篇），
+  102 篇图少于原页——①整篇 0 图约 45 篇（社長が訊く 12 章、Nintendo Power 3、N.O.M 6、Fami通 5、電ファミ GO 2、Creatures 20 周年、GameSpot、GI、CEDEC 2022 shader…）
+  ②被 `max_images=10` 截断约 25 篇（CGWorld 朱紫 making ×3、CEDEC 报道、Fami通 Pokopia 10/65、Sleep 周年 21/38、Gigazine 齿轮画稿 28/37）③零星差 1–3 张 / 原页计数混 chrome 约 30 篇。
+  做法：新写 `augment-images`（复用 import-web 的正文切割），按"前一段原文"对齐把缺的图插进 `parallel_items`，已有 URL 跳过，下载 + >300 KB 压 1280px，
+  重跑 `build-cover-dims.py`；先 `--dry-run` 出"每篇补几张、插在哪段后"清单再分批跑。另：24 篇正文 <60%、41 页抓不到正文是另一件事。
+- 已并掉的重复导入：Denfami 2017 后篇 → 四回完整版（`92d68c17`）。审计里还看到疑似重复：G4TV 白金 2009-03-24 vs 2013-01-11、
+  Creatures 20 周年 2015-11-08（0 图）vs 2021-11-08（15 图）、kakeru pokemon_site 1999-12-01 vs 2000-05-01——待核后同样处理。
+
