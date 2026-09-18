@@ -440,6 +440,117 @@ def build_works(works_raw: list, games_raw: list):
     return by_name
 
 
+# ---------------------------------------------------------------- 主体作品
+
+# 一篇提到好几部作品时，哪一部是主角。规则在 apps 的 docs/shelf-primary-work-plan-2026-09-18.md：
+#   标题 / 副题点名 +50 · 摘要点名 +15 · 正文提到 +2/次（封顶 20）· 发表日落在发售前 1 年到后 2 年 +12
+#   entities.works 里第一 +6 第二 +3 · tags 含名 +5；front matter `primary_work:` 手写的直接采用。
+#   取最高分；不到 25 分不挂作品；博客阈值 40（博客的主题是栏目本身）。
+# 匹配前把标题与作品名都「归一」：日式汉字换成简体（赤→红、緑→绿…），去掉 ·／／ 空格括号；
+# 纯 ASCII 的短名（GO）按整词匹配，免得「going」也算。
+
+_WORK_CJK = str.maketrans({"赤": "红", "緑": "绿", "銀": "银", "剣": "剑", "楯": "盾", "黒": "黑", "藍": "蓝", "紫": "紫", "銃": "枪"})
+_WORK_SEP = re.compile(r"[·・/／\\\s:：\-—–‐()（）《》『』「」!！?？,，、.]+")
+_WORK_PREFIX = re.compile(r"^(宝可梦|Pokémon|Pokemon|ポケットモンスター|ポケモン)\s*", re.I)
+PRIMARY_MIN = 25
+PRIMARY_MIN_BLOG = 40
+
+
+def norm_work_text(text: str) -> str:
+    return _WORK_SEP.sub("", str(text or "").lower().translate(_WORK_CJK))
+
+
+def work_variants(work: dict) -> list[str]:
+    """一部作品能被叫成什么：全名、去掉「宝可梦」的短名，中英都算；太短的（一个字、两个字母）不要。"""
+    out: list[str] = []
+    for raw in (work.get("name"), work.get("title_zh"), work.get("title")):
+        if not raw:
+            continue
+        for candidate in (raw, _WORK_PREFIX.sub("", raw)):
+            v = norm_work_text(candidate)
+            if not v or v in out:
+                continue
+            if v.isascii() and len(v) < 3 and v != "go":
+                continue
+            if not v.isascii() and len(v) < 2:
+                continue
+            out.append(v)
+    return out
+
+
+def count_variant(haystack: str, variant: str) -> int:
+    if not variant:
+        return 0
+    if variant.isascii():
+        return len(re.findall(r"(?<![a-z0-9])" + re.escape(variant) + r"(?![a-z0-9])", haystack))
+    return haystack.count(variant)
+
+
+def pick_primary_work(fm: dict, kind: str, works: list, works_by_name: dict, year, title_text: str, dek_text: str, body_text: str, tags: list):
+    """→ (primary_work | None, review_note | None)。primary_work = {name, slug, confidence, score}。"""
+    manual = clean(fm.get("primary_work"))
+    if manual:
+        w = works_by_name.get(manual, {})
+        return {"name": manual, "slug": w.get("credits_slug"), "confidence": "manual", "score": None}, None
+    if not works:
+        return None, None
+    title_n = norm_work_text(title_text)
+    dek_n = norm_work_text(dek_text)
+    body_n = norm_work_text(body_text)
+    tags_n = [norm_work_text(t) for t in tags]
+    # 「宝可梦乱战」是「超级宝可梦乱战」的子串：两部都在名单里时，短名的命中要扣掉被长名包住的那份
+    all_variants = {w["name"]: (work_variants(works_by_name.get(w["name"], {"name": w["name"]})) or [norm_work_text(w["name"])]) for w in works}
+
+    def hits(haystack: str, name: str) -> int:
+        mine = all_variants[name]
+        best = max(count_variant(haystack, v) for v in mine)
+        for other, theirs in all_variants.items():
+            if other == name:
+                continue
+            for v in mine:
+                for tv in theirs:
+                    if v != tv and v in tv and count_variant(haystack, tv):
+                        best = max(0, best - count_variant(haystack, tv))
+        return best
+
+    scored = []
+    for position, w in enumerate(works):
+        name = w["name"]
+        meta = works_by_name.get(name, {"name": name})
+        variants = all_variants[name]
+        score = 0
+        title_hit = hits(title_n, name) > 0
+        if title_hit:
+            score += 50
+        if hits(dek_n, name):
+            score += 15
+        mentions = hits(body_n, name)
+        score += min(20, 2 * mentions)
+        wy = meta.get("year")
+        if isinstance(wy, int) and isinstance(year, int) and wy - 1 <= year <= wy + 2:
+            score += 12
+        score += 6 if position == 0 else 3 if position == 1 else 0
+        if any(v in tags_n for v in variants):
+            score += 5
+        distance = abs((wy or 9999) - (year or 0))
+        scored.append((score, -distance, title_hit, name, meta.get("credits_slug")))
+    scored.sort(reverse=True)
+    score, _, title_hit, name, slug = scored[0]
+    threshold = PRIMARY_MIN_BLOG if kind == "blog" else PRIMARY_MIN
+    if not title_hit and score < threshold:
+        return None, None
+    confidence = "title" if title_hit else "strong" if score >= 30 else "weak"
+    note = None
+    tie = [x for x in scored[1:] if x[0] == score]
+    if name != works[0]["name"]:
+        note = f"选中 ≠ works[0]：{name}（{score}） vs {works[0]['name']}"
+    elif tie:
+        note = f"同分：{name} / {tie[0][3]}（{score}）"
+    elif confidence == "weak":
+        note = f"弱：{name}（{score}）"
+    return {"name": name, "slug": slug, "confidence": confidence, "score": score}, note
+
+
 # ---------------------------------------------------------------- bodies
 
 SEGMENT_TYPES = {"heading": "heading", "header": "heading", "paragraph": "paragraph", "text": "paragraph", "narrative": "paragraph", "dialogue": "dialogue", "image": "image"}
@@ -545,6 +656,8 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
     index = []
     speakers: dict[str, list] = collections.defaultdict(list)
     search_text: dict[str, str] = {}
+    primary_review: list[str] = []
+    primary_counts: collections.Counter = collections.Counter()
     (out / "posts").mkdir(parents=True, exist_ok=True)
     sizes = []
     for f in sorted((ROOT / "_posts").glob("*.md")):
@@ -593,6 +706,22 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             if s and s not in mention_slugs:
                 mention_slugs.append(s)
         excerpt = strip_markdown(clean(fm.get("gf_translation_summary") or fm.get("summary") or fm.get("description") or fm.get("dek")))[:180] or None
+        # 全文（译文优先）：长度给书脊定厚薄，前 1,200 字给检索，整篇给主体作品数提到次数
+        if segments:
+            full_text = " ".join(s.get("translation") or s.get("original") or "" for s in segments)
+        else:
+            full_text = body.get("markdown_zh") or ""
+        full_text = re.sub(r"\s+", " ", strip_markdown(full_text)).strip()
+        tags = [clean(t) for t in as_list(fm.get("tags")) if clean(t)]
+        primary, review_note = pick_primary_work(
+            fm, kind, works, works_by_name, year,
+            f"{clean(fm.get('title'))} {clean(fm.get('display_title'))}",
+            f"{clean(fm.get('dek'))} {clean(fm.get('summary') or fm.get('description'))}",
+            full_text, tags,
+        )
+        primary_counts[primary["confidence"] if primary else "none"] += 1
+        if review_note:
+            primary_review.append(f"{slug}\t{review_note}\t{clean(fm.get('title'))[:60]}")
 
         summary_item = {
             "id": slug,
@@ -611,9 +740,11 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "people": people,
             "mentions": mention_slugs,
             "works": works,
-            "tags": [clean(t) for t in as_list(fm.get("tags")) if clean(t)],
+            "tags": tags,
             "categories": [clean(c) for c in as_list(fm.get("categories")) if clean(c)],
             "topics": [clean(t) for t in as_list(fm.get("topics")) if clean(t)],
+            "primary_work": primary,
+            "length": len(full_text),
             "era": era_skin(fm, kind, year),
             "url": canonical_url(fm, slug),
             "body_kind": body["kind"],
@@ -626,13 +757,8 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
         }
         index.append(summary_item)
         # 全文检索用的正文（译文优先），单独一个文件，App 第一次搜正文时才拉
-        if segments:
-            text = " ".join(s.get("translation") or s.get("original") or "" for s in segments)
-        else:
-            text = body.get("markdown_zh") or ""
-        text = re.sub(r"\s+", " ", strip_markdown(text)).strip()
-        if text:
-            search_text[slug] = text[:SEARCH_TEXT_CHARS]
+        if full_text:
+            search_text[slug] = full_text[:SEARCH_TEXT_CHARS]
 
         post = {
             **summary_item,
@@ -654,6 +780,15 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
         sizes.append(dump(out / "posts" / f"{slug}.json", post))
 
     index.sort(key=lambda x: (x["date"], x["id"]), reverse=True)
+    # 审核清单：选中 ≠ works[0] 的、同分的、弱命中的，发布前抽几篇看
+    review = ROOT / "design" / "primary-work-review.txt"
+    review.parent.mkdir(parents=True, exist_ok=True)
+    io.open(review, "w", encoding="utf-8", newline="\n").write(
+        "# 主体作品审核清单（tools/export-docs-archive.py 生成）\n"
+        + "# 计数：" + ", ".join(f"{k} {v}" for k, v in sorted(primary_counts.items())) + "\n"
+        + "\n".join(sorted(primary_review)) + "\n"
+    )
+    print(f"primary work: {dict(primary_counts)}, review {len(primary_review)} → {review.relative_to(ROOT)}")
     return index, speakers, sizes, search_text
 
 
@@ -865,6 +1000,7 @@ def main() -> int:
             "by_kind": dict(collections.Counter(it["kind"] for it in index)),
             "by_body": dict(collections.Counter(it["body_kind"] for it in index)),
             "segments": sum(it["segment_count"] or 0 for it in index),
+            "primary_work": dict(collections.Counter((it.get("primary_work") or {}).get("confidence") or "none" for it in index)),
             "people": len(people),
             "people_with_credits": sum(1 for p in people.values() if p["credits"]),
             "speakers": len(speakers),
