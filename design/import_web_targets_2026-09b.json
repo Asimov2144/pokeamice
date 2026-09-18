@@ -1,213 +1,150 @@
 {
-  "note": "2026-09-17 补录批：tools/audit-web-imports.py 对照原页发现收录不全的 6 篇，重新完整导入、覆盖原帖（slug 指向原文件）。Kotaku 两篇的图在现站已不在正文里，走 2017 年 Wayback 快照（Kinja 时代）；1UP 与 GlitterBerri 本就只剩 Wayback；電ファミ两篇报道把 max_images 放开收全幻灯片。CANUCH 那篇核过日文块是全的（英文块只是更长的译文），不重导。",
-  "targets": [
-    {
-      "key": "kotaku-2016-popplio",
-      "url": "https://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
-      "wayback": "https://web.archive.org/web/20170111135426/http://kotaku.com/asked-for-their-favorite-even-pokemon-sun-and-moons-cr-1787943425",
-      "lang": "en",
-      "date": "2016-10-19",
-      "outlet": "Kotaku",
-      "outlet_zh": "Kotaku",
-      "title": "Pokémon Sun and Moon's Devs Respond To The Popplio Backlash",
-      "kind": "interview_feature",
-      "author": "Patricia Hernandez",
-      "asker": "Kotaku",
-      "speakers": {
-        "Masuda": "增田顺一",
-        "Ohmori": "大森滋"
-      },
-      "works": [
-        "宝可梦 太阳·月亮"
-      ],
-      "tags": [
-        "Kotaku",
-        "宝可梦 太阳·月亮",
-        "增田顺一",
-        "大森滋",
-        "御三家"
-      ],
-      "container": "div.entry-content",
-      "max_images": 8,
-      "post": "2016-10-19-interview-kotaku-2016-popplio.md",
-      "images_live": true
-    },
-    {
-      "key": "kotaku-2016-designs",
-      "url": "https://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
-      "wayback": "https://web.archive.org/web/20170301175000/http://kotaku.com/the-creators-of-pokemon-explain-why-sun-and-moon-has-ri-1788191518",
-      "lang": "en",
-      "date": "2016-10-25",
-      "outlet": "Kotaku",
-      "outlet_zh": "Kotaku",
-      "title": "The Creators of Pokémon Explain Why Sun and Moon Has Ridiculous Monster Designs",
-      "kind": "interview_feature",
-      "author": "Patricia Hernandez",
-      "asker": "Kotaku",
-      "speakers": {
-        "Masuda": "增田顺一",
-        "Ohmori": "大森滋"
-      },
-      "works": [
-        "宝可梦 太阳·月亮"
-      ],
-      "tags": [
-        "Kotaku",
-        "宝可梦 太阳·月亮",
-        "增田顺一",
-        "大森滋",
-        "宝可梦设计",
-        "阿罗拉的样子"
-      ],
-      "container": "div.entry-content",
-      "max_images": 8,
-      "post": "2016-10-25-interview-kotaku-2016-designs.md",
-      "images_live": true
-    },
-    {
-      "key": "denfami-2026-cedec-pokerig",
-      "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
-      "lang": "ja",
-      "date": "2026-07-23",
-      "outlet": "電ファミニコゲーマー",
-      "outlet_zh": "电Fami Nico Gamer",
-      "title": "「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】",
-      "kind": "lecture_report",
-      "asker": "電ファミ",
-      "speakers": {
-        "前澤": "前泽圭一",
-        "スパダフィーナ": "Alfredo Spadafina",
-        "赤木": "赤木达也"
-      },
-      "works": [
-        "Pokémon LEGENDS Z-A"
-      ],
-      "tags": [
-        "電ファミニコゲーマー",
-        "CEDEC 2026",
-        "Pokémon LEGENDS Z-A",
-        "前泽圭一",
-        "渲染技术",
-        "技术专题"
-      ],
-      "container": "#articleBody",
-      "max_images": 60,
-      "post": "2026-07-23-interview-denfami-2026-cedec-pokerig.md"
-    },
-    {
-      "key": "cedec-2022-legends-arceus-scarlet-violet-pipeline",
-      "url": "https://news.denfaminicogamer.jp/kikakuthetower/220825t",
-      "lang": "ja",
-      "date": "2022-08-25",
-      "outlet": "電ファミニコゲーマー",
-      "outlet_zh": "电Fami Nico Gamer",
-      "title": "『アルセウス』と『スカーレット・バイオレット』を同時に作るポケモンモデルの制作環境とは？ 共通化されたポケモンモデルにタイトルごとの個性をつけていく【CEDEC 2022】",
-      "kind": "lecture_report",
-      "author": "柳本マリエ",
-      "asker": "電ファミ",
-      "speakers": {
-        "前澤": "前泽圭一",
-        "前沢": "前泽圭一"
-      },
-      "works": [
-        "宝可梦传说 阿尔宙斯",
-        "宝可梦 朱·紫",
-        "宝可梦 剑·盾"
-      ],
-      "tags": [
-        "電ファミニコゲーマー",
-        "CEDEC 2022",
-        "宝可梦传说 阿尔宙斯",
-        "宝可梦 朱·紫",
-        "前泽圭一",
-        "模型制作",
-        "技术专题"
-      ],
-      "container": "#articleBody",
-      "max_images": 60,
-      "post": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.md"
-    },
-    {
-      "key": "1up-black-white-how-pokemon-get-made",
-      "url": "http://www.1up.com/news/how-pokemon-get-made",
-      "wayback": "https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made",
-      "lang": "en",
-      "date": "2011-03-05",
-      "outlet": "1UP.com",
-      "outlet_zh": "1UP.com",
-      "title": "How Pokemon Get Made: Game Freak's designers discuss Black and White's main characters",
-      "kind": "interview_feature",
-      "asker": "1UP",
-      "speakers": {
-        "Unno": "海野隆雄",
-        "Sugimori": "杉森建",
-        "Ibe": "井部真那",
-        "Ohmura": "大村祐介",
-        "Masuda": "增田顺一"
-      },
-      "works": [
-        "宝可梦 黑·白"
-      ],
-      "tags": [
-        "1UP",
-        "宝可梦 黑·白",
-        "海野隆雄",
-        "杉森建",
-        "井部真那",
-        "大村祐介",
-        "角色设计",
-        "御三家",
-        "传说宝可梦"
-      ],
-      "container": "div.content_item",
-      "post": "2011-03-05-interview-1up-black-white-how-pokemon-get-made.md"
-    },
-    {
-      "key": "glitterberri-early-concept-art-part2",
-      "url": "https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
-      "wayback": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
-      "lang": "en",
-      "date": "1990-12-02",
-      "outlet": "GlitterBerri's Game Translations",
-      "outlet_zh": "GlitterBerri 游戏翻译",
-      "title": "Early Concept Art (Part 2): the Capsule Monsters proposal - title page, design premise, Kanto plans and the first battle screens",
-      "kind": "narrative",
-      "asker": "GlitterBerri",
-      "speakers": {
-        "Sugimori": "杉森建",
-        "Tajiri": "田尻智",
-        "Masuda": "增田顺一",
-        "Miyamoto": "宫本茂"
-      },
-      "works": [
-        "宝可梦 红·绿"
-      ],
-      "tags": [
-        "GlitterBerri",
-        "宝可梦 红·绿",
-        "胶囊怪兽",
-        "企划书",
-        "田尻智",
-        "杉森建",
-        "早期概念图",
-        "开发史"
-      ],
-      "container": "div.entry",
-      "max_images": 12,
-      "slug": "1990-12-02-research-glitterberri-early-concept-art-part2",
-      "categories": [
-        "developer-interviews",
-        "research-archives"
-      ],
-      "post": "1990-12-02-research-glitterberri-early-concept-art-part2.md",
-      "drop": "^Posted By GlitterBerri",
-      "stop_at": "^Index$"
-    }
-  ],
-  "dropped": [
-    {
-      "key": "canuch-gamefreak-office-architecture",
-      "why": "日文块 7 段全在帖子里；审计看到的是更长的英文块"
-    }
-  ]
+ "note": "2026-09-17 补录批：tools/audit-web-imports.py 对照原页发现收录不全的 6 篇，重新完整导入、覆盖原帖（slug 指向原文件）。Kotaku 两篇的图在现站已不在正文里，走 2017 年 Wayback 快照（Kinja 时代）；1UP 与 GlitterBerri 本就只剩 Wayback；電ファミ两篇报道把 max_images 放开收全幻灯片。CANUCH 那篇核过日文块是全的（英文块只是更长的译文），不重导。",
+ "targets": [
+  {
+   "key": "denfami-2026-cedec-pokerig",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/2607233k",
+   "lang": "ja",
+   "date": "2026-07-23",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "「1000種類を超えるポケモン＋人間」という圧倒的物量に対応するために開発された「ポケリグ」とは？【CEDEC2026】",
+   "kind": "lecture_report",
+   "asker": "電ファミ",
+   "speakers": {
+    "前澤": "前泽圭一",
+    "スパダフィーナ": "Alfredo Spadafina",
+    "赤木": "赤木达也"
+   },
+   "works": [
+    "Pokémon LEGENDS Z-A"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "CEDEC 2026",
+    "Pokémon LEGENDS Z-A",
+    "前泽圭一",
+    "渲染技术",
+    "技术专题"
+   ],
+   "container": "#articleBody",
+   "max_images": 60,
+   "post": "2026-07-23-interview-denfami-2026-cedec-pokerig.md"
+  },
+  {
+   "key": "cedec-2022-legends-arceus-scarlet-violet-pipeline",
+   "url": "https://news.denfaminicogamer.jp/kikakuthetower/220825t",
+   "lang": "ja",
+   "date": "2022-08-25",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电Fami Nico Gamer",
+   "title": "『アルセウス』と『スカーレット・バイオレット』を同時に作るポケモンモデルの制作環境とは？ 共通化されたポケモンモデルにタイトルごとの個性をつけていく【CEDEC 2022】",
+   "kind": "lecture_report",
+   "author": "柳本マリエ",
+   "asker": "電ファミ",
+   "speakers": {
+    "前澤": "前泽圭一",
+    "前沢": "前泽圭一"
+   },
+   "works": [
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫",
+    "宝可梦 剑·盾"
+   ],
+   "tags": [
+    "電ファミニコゲーマー",
+    "CEDEC 2022",
+    "宝可梦传说 阿尔宙斯",
+    "宝可梦 朱·紫",
+    "前泽圭一",
+    "模型制作",
+    "技术专题"
+   ],
+   "container": "#articleBody",
+   "max_images": 60,
+   "post": "2022-08-25-interview-cedec-2022-legends-arceus-scarlet-violet-pipeline.md"
+  },
+  {
+   "key": "1up-black-white-how-pokemon-get-made",
+   "url": "http://www.1up.com/news/how-pokemon-get-made",
+   "wayback": "https://web.archive.org/web/20130510123211/http://www.1up.com/news/how-pokemon-get-made",
+   "lang": "en",
+   "date": "2011-03-05",
+   "outlet": "1UP.com",
+   "outlet_zh": "1UP.com",
+   "title": "How Pokemon Get Made: Game Freak's designers discuss Black and White's main characters",
+   "kind": "interview_feature",
+   "asker": "1UP",
+   "speakers": {
+    "Unno": "海野隆雄",
+    "Sugimori": "杉森建",
+    "Ibe": "井部真那",
+    "Ohmura": "大村祐介",
+    "Masuda": "增田顺一"
+   },
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "tags": [
+    "1UP",
+    "宝可梦 黑·白",
+    "海野隆雄",
+    "杉森建",
+    "井部真那",
+    "大村祐介",
+    "角色设计",
+    "御三家",
+    "传说宝可梦"
+   ],
+   "container": "div.content_item",
+   "post": "2011-03-05-interview-1up-black-white-how-pokemon-get-made.md"
+  },
+  {
+   "key": "glitterberri-early-concept-art-part2",
+   "url": "https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+   "wayback": "https://web.archive.org/web/20140319012108/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+   "lang": "en",
+   "date": "1990-12-02",
+   "outlet": "GlitterBerri's Game Translations",
+   "outlet_zh": "GlitterBerri 游戏翻译",
+   "title": "Early Concept Art (Part 2): the Capsule Monsters proposal - title page, design premise, Kanto plans and the first battle screens",
+   "kind": "narrative",
+   "asker": "GlitterBerri",
+   "speakers": {
+    "Sugimori": "杉森建",
+    "Tajiri": "田尻智",
+    "Masuda": "增田顺一",
+    "Miyamoto": "宫本茂"
+   },
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "tags": [
+    "GlitterBerri",
+    "宝可梦 红·绿",
+    "胶囊怪兽",
+    "企划书",
+    "田尻智",
+    "杉森建",
+    "早期概念图",
+    "开发史"
+   ],
+   "container": "div.entry",
+   "max_images": 12,
+   "slug": "1990-12-02-research-glitterberri-early-concept-art-part2",
+   "categories": [
+    "developer-interviews",
+    "research-archives"
+   ],
+   "post": "1990-12-02-research-glitterberri-early-concept-art-part2.md",
+   "drop": "^Posted By GlitterBerri",
+   "stop_at": "^Index$"
+  }
+ ],
+ "dropped": [
+  {
+   "key": "canuch-gamefreak-office-architecture",
+   "why": "日文块 7 段全在帖子里；审计看到的是更长的英文块"
+  }
+ ]
 }

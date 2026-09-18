@@ -1,76 +1,72 @@
 {
- "key": "f137b9cb94920f16",
+ "key": "bfce432d91159099",
  "answer": {
-  "summary": "大森滋从《宝可梦 红宝石·蓝宝石》时期加入 GAME FREAK，最初负责用户界面设计、通信系统开发与游戏机制创意，并在地图上放置草丛 [7][12]。他历任游戏设计师、组长、部门总监，后成为系列总监与制作人，参与主系列及《宝可梦巡护员》《节奏猎人和声骑士》等作品 [4]。其导演方法通常从核心主题出发，再推导地区设定与新机制，如以“生命”主题引出阿罗拉地区与 Z 招式 [7]。担任制作人后，他更关注内容能否被大众接受，并注意系统与要素名称是否易被各年龄层接受 [6]。他也参与《宝可梦 探险寻宝》《ぽこ あ ポケモン》等非传统 RPG 形式的宝可梦作品 [8][12]。",
+  "summary": "大森滋2001年入职GAME FREAK，最初在《宝可梦 红宝石·蓝宝石》负责地图与道具配置等策划工作，并在地图上放置草丛[4][12]。他长期担任策划与设计统筹，负责剧情、战斗、通信等整体设计，并特别经手地下通道、超级华丽大赛等通信相关企划[4]。成为总监后，他主导地区设定与整体调整，从地区地貌出发思考宝可梦的栖息与故事[6]。他重视「游玩」元素，主张把有趣的点子加入游戏并细致调整[4]，同时兼顾新老玩家与轻度、核心玩家的体验[4][8]。近年他继续摸索RPG之外表现宝可梦个性的形式，并参与三社共同开发[12]。",
   "expertise": [
    "游戏设计",
-   "系统企划",
-   "UI 设计",
-   "通信系统",
-   "总监制作",
-   "地区设定"
+   "地图设计",
+   "通信功能",
+   "企划统筹",
+   "地区设定",
+   "总监制作"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "谈宝可步频器让玩家随时与宝可梦相伴，并提到宝可全能竞技赛巨蛋。"
+    "detail": "谈宝可步频器与宝可梦跟随等让玩家随时与宝可梦相伴的设计。"
    },
    {
     "n": 2,
-    "detail": "自述小时候用纸板做房子和盔甲，并称固拉多喜欢帅气威武的宝可梦。"
+    "detail": "自述小时候用纸板做房子和盔甲，并称固拉多已登场12年。"
    },
    {
     "n": 3,
-    "detail": "据 Kotaku 报道，他解释阿罗拉椰蛋树因阿罗拉阳光太强而一直长。"
+    "detail": "据该报道，他2002年加入GAME FREAK负责地图设计，后成为系列总监。"
    },
    {
     "n": 4,
-    "detail": "自述因想探讨人与自然联系而选择夏威夷作为阿罗拉原型。"
-   },
-   {
-    "n": 5,
-    "detail": "称自己玩了很多《宝可梦随乐拍》，喜欢把游戏照片打印成贴纸使用。"
+    "detail": "自述2001年入职做策划，在《钻石／珍珠》任策划组长并负责地下通道。"
    },
    {
     "n": 6,
-    "detail": "自述从增田顺一接手，首次担任制作人，并拜托岩尾和昌任总监。"
+    "detail": "自述因弟弟适龄而购入《红／绿》同玩，最初负责游戏环境与通信功能。"
    },
    {
     "n": 7,
-    "detail": "自述最初在《红宝石·蓝宝石》负责 UI、通信系统开发与机制创意。"
+    "detail": "据该报道，他在《究极之日·究极之月》首次就任制作人。"
    },
    {
     "n": 8,
-    "detail": "据 Gamer.ne.jp 报道，他在发布会上宣布《宝可梦 探险寻宝》。"
+    "detail": "说明《太阳／月亮》时期已难以让全部宝可梦登场，故转变方针。"
    },
    {
     "n": 9,
-    "detail": "谈《剑·盾》中穿着熊在旷野地带走动，并称自己名字意为大森林。"
+    "detail": "谈Y-Comm与惊喜交换，称极巨团体战最高星级单人很难打过。"
    },
    {
     "n": 10,
-    "detail": "自述喜欢英国摇滚与电视节目，这在一定程度上影响地区选择。"
+    "detail": "称《剑·盾》主题是打造最强宝可梦，并因个人喜好英国音乐而选英国。"
    },
    {
     "n": 11,
-    "detail": "解释苍响与藏玛然特命名体现神秘感，并因标题非颜色而加入颜色元素。"
+    "detail": "谈苍响、藏玛然特命名体现神秘感，并说明极巨团体战由巨大化构思而来。"
    },
    {
     "n": 12,
-    "detail": "自述 2001 年进入 GAME FREAK 后首项工作是放置草丛。"
+    "detail": "自述入职后第一项工作是《红宝石·蓝宝石》地图上放置草丛。"
    }
   ]
  },
  "posts": [
   "2010-03-19-interview-gameinformer-masuda-morimoto-hgss",
   "2014-11-01-interview-topofarmer-ideame-masuda-ohmori",
-  "2016-10-25-interview-kotaku-2016-designs",
-  "2016-12-12-interview-reportajes",
-  "2017-08-15-interview-gi-2017-spinoffs",
-  "2017-10-19-interview-famitsu-usum-ohmori-iwao-director",
-  "2017-11-09-interview-pokemon-com-usum-ohmori-iwao",
-  "2018-05-30-interview-gamer-pokemon-press-conference-2018",
-  "2019-10-24-interview-gi-2019-burning",
+  "2016-12-12-interview-meristation-sun-moon-switch-masuda-ohmori",
+  "2017-07-03-interview-denfami-ohmori-onoue-gamefreak-heritage",
+  "2017-08-18-interview-gi-2017-usum-mode",
+  "2017-10-19-interview-pocketmonsters-usum-iwao-ohmori",
+  "2018-05-12-interview-4gamer-2018-usum-fanmeeting",
+  "2019-06-13-interview-famitsu-e3-2019-pokemon-sword-shield-masuda-ohmori",
+  "2019-10-24-interview-gi-2019-champion",
   "2019-10-24-interview-vg247-2019-swsh",
   "2019-11-12-interview-4gamer-sword-shield-ohmori-masuda-strongest",
   "2026-02-16-interview-famitsu-2026-pokopia"

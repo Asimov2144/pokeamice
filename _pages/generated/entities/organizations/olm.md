@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>OLM</h2>
-    <span>69 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
+    <span>73 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,6 +19,30 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第223回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch223/">[访谈翻译] 首藤刚志动画创作手记 第223回：“从《宝可梦》中消失的我”（小说第三卷梦碎、小田原深夜跳海获救与诀别系列构成）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第222回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch222/">[访谈翻译] 首藤刚志动画创作手记 第222回：“系列构成的极限”（中央公园暴雨落败、未成形的斯巴达克斯式宝可梦起义与辞退剧场版第4作）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第218回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch218/">[访谈翻译] 首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第214回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch214/">[访谈翻译] 首藤刚志动画创作手记 第214回：“最近是不是筋疲力尽了啊”（板垣退助乌龙、7亿巨资质疑、为园田英树平反与剧场版退场绝响）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 214</span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第213回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch213/">[访谈翻译] 首藤刚志动画创作手记 第213回：“我的《宝可梦》电影在《结晶塔的帝王》画上句号”（深渊伦理拷问、病榻口述急送医院、园田英树接棒改稿与隐退宣言）</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 213</span>

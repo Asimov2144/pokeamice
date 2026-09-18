@@ -1,0 +1,38 @@
+---
+title: "日本脚本家连盟 - 组织"
+permalink: "/entities/organizations/e697a5e69cace8849ae69cace5aeb6e8bf9ee79b9f/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>组织</p>
+    <h2>日本脚本家连盟</h2>
+    <span>2 篇文章 · 0 条评注 · 2010</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/organizations/">返回组织索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」最終回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第224回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch224/">[访谈翻译] 首藤刚志动画创作手记 第224回：“大器晚成的编剧始于动画”（放送作家协会之伪善、著作权占比超六成与《和巴什尔跳华尔兹》）</a></h3>
+  <span></span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

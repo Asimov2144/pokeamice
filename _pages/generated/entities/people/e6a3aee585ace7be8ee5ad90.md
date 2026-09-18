@@ -1,0 +1,32 @@
+---
+title: "森公美子 - 人物"
+permalink: "/entities/people/e6a3aee585ace7be8ee5ad90/"
+layout: "single"
+search: false
+---
+
+<section class="resource-network-page">
+  <div class="resource-network-hero">
+    <p>人物</p>
+    <h2>森公美子</h2>
+    <span>1 篇文章 · 0 条评注 · 2010</span>
+  </div>
+  <div class="resource-network-jump">
+    <a href="/entities/people/">返回人物索引</a>
+    <a href="/timeline/">时间线</a>
+    <a href="/resource-graph/">关系图谱</a>
+  </div>
+  <section class="resource-network-section">
+    <h2>相关文章</h2>
+    <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第221回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch221/">[访谈翻译] 首藤刚志动画创作手记 第221回：“纽约的宝可梦”（时代广场数码兽招牌、无线电城大号皮卡丘与“绝不写他人能写之物”）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+  </section>
+  <section class="resource-network-section">
+    <h2>相关评注</h2>
+    <p class="resource-network-empty">暂无评注。</p>
+  </section>
+</section>

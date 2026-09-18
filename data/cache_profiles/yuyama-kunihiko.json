@@ -1,41 +1,41 @@
 {
- "key": "fec0808906be9ef9",
+ "key": "31fb03adcebc1473",
  "answer": {
-  "summary": "汤山邦彦在宝可梦动画中担任监督、总监督一职，参与电视系列与剧场版短片的执导工作 [12]。据首藤刚志报道，汤山邦彦曾致电力荐首藤刚志担任宝可梦动画的系列构成 [1]。据首藤刚志报道，汤山监督与制片组同执笔编剧反复研磨分集故事大纲 [3]。他长期关注宝可梦叫声的“声音”，从电视系列开播起就想用这些叫声创作音乐，并推动《皮卡丘与宝可梦音乐队》的实现 [12]。在制作该短片时，他要求先录制演唱、制作小样模板，再据此绘制口型画面，改变了以往先完成其他工作最后配音的流程 [12]。",
+  "summary": "汤山邦彦在宝可梦动画中担任总监督、总导演一职，参与电视系列与剧场版的执导工作 [8][12]。据首藤刚志转述，汤山邦彦曾致电力荐首藤刚志担任宝可梦动画的系列构成 [1]。在电视系列开播初期，他决定让所有宝可梦都有各自的叫声并由配音演员发声，并由此萌生用叫声创作音乐的想法 [12]。他推动将这一想法落实为短片《皮卡丘与宝可梦音乐队》，为此在企划阶段长期筹备，并采用先录制演唱、制作小样模板再进入剧本的流程 [12]。",
   "expertise": [
    "动画监督",
-   "总监督",
    "剧场版执导",
-   "声音运用",
-   "音乐短片企划"
+   "声音演出",
+   "音乐企划",
+   "企划统筹"
   ],
   "citations": [
    {
     "n": 1,
-    "detail": "据首藤刚志报道，汤山邦彦来电告知将有工作找上门，随后首藤被邀任系列构成。"
+    "detail": "据首藤刚志转述，汤山邦彦打电话告知将有工作找上门，随后首藤接到宝可梦系列构成委托。"
    },
    {
-    "n": 3,
-    "detail": "据首藤刚志报道，编剧们凭其大纲与汤山监督及制片组反复研磨成片。"
+    "n": 8,
+    "detail": "据首藤刚志转述，若《超梦的逆袭》上座惨淡，总导演汤山邦彦与编剧首当其冲。"
    },
    {
     "n": 12,
-    "detail": "他称电视系列开播起就想用宝可梦叫声创作音乐，该短片企划搁置超10年。"
+    "detail": "本人称电视系列开播时决定让所有宝可梦有各自叫声，并想用这些声音创作音乐。"
    }
   ]
  },
  "posts": [
   "2008-02-27-interview-takeshi-shudo-pokemon-memoir-ch138",
-  "2008-03-26-interview-takeshi-shudo-pokemon-memoir-ch142",
-  "2008-05-07-interview-takeshi-shudo-pokemon-memoir-ch147",
-  "2008-06-04-interview-takeshi-shudo-pokemon-memoir-ch151",
-  "2008-08-20-interview-takeshi-shudo-pokemon-memoir-ch157",
-  "2008-11-05-interview-takeshi-shudo-pokemon-memoir-ch162",
-  "2008-12-10-interview-takeshi-shudo-pokemon-memoir-ch167",
-  "2009-03-18-interview-takeshi-shudo-pokemon-memoir-ch177",
-  "2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185",
+  "2008-04-09-interview-takeshi-shudo-pokemon-memoir-ch143",
+  "2008-05-14-interview-takeshi-shudo-pokemon-memoir-ch148",
+  "2008-08-06-interview-takeshi-shudo-pokemon-memoir-ch155",
+  "2008-09-10-interview-takeshi-shudo-pokemon-memoir-ch160",
+  "2008-12-03-interview-takeshi-shudo-pokemon-memoir-ch166",
+  "2009-01-28-interview-takeshi-shudo-pokemon-memoir-ch173",
+  "2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182",
   "2009-12-09-interview-takeshi-shudo-pokemon-memoir-ch205",
   "2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210",
+  "2010-03-10-interview-takeshi-shudo-pokemon-memoir-ch215",
   "2015-07-14-interview-movie18-yuyama-hoopa-model-sheets"
  ]
 }

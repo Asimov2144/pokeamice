@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>犬山犬子</h2>
-    <span>3 篇文章 · 0 条评注 · 2009 / 2008</span>
+    <span>4 篇文章 · 0 条评注 · 2010 / 2009 / 2008</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,6 +19,12 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第222回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch222/">[访谈翻译] 首藤刚志动画创作手记 第222回：“系列构成的极限”（中央公园暴雨落败、未成形的斯巴达克斯式宝可梦起义与辞退剧场版第4作）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
   <p>2009 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第195回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch195/">[访谈翻译] 首藤刚志动画创作手记 第195回：火箭队是万物共存的终极钥匙？（角色尊严与自尊心塑造、声优名台词即兴内幕与《火箭队直到永远》）</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 195</span>

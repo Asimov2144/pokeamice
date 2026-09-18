@@ -161,18 +161,19 @@ def candidates(post, names, alias_of):
 
 # ---------------------------------------------------------------- the model
 def ask(post, cands):
-    want = "1–2" if len(cands) <= 8 else "2–4"
+    want = "0–1" if len(cands) <= 8 else "0–3"
     payload = [{"i": c["i"], "who": c["who"], "q": c["q"], "text": c["zh"]} for c in cands]
     prompt = (f"访谈：《{post['title']}》（{post['publication'] or '出处未记'}，{post['date']}）\n"
               f"候选句（i 是行号，who 说话人，q 是它回答的提问，text 是这句译文）：\n{json.dumps(payload, ensure_ascii=False)}\n\n"
-              f"从中挑 {want} 句最值得单独拿出来读的：有具体事实、数字、决定或「第一次」；或与常识相反；或说得漂亮、能独立成立。"
-              "寒暄、过渡、离开上下文就看不懂的不要。对每句写：\n"
+              f"从中挑 {want} 句真正值得单独拿出来读的——宁缺毋滥：一句话里要有具体的事实、数字、日期、决定、「第一次」或反常识的判断，"
+              "读者看了会想点进去看上下文；只是观点、感想、寒暄、过渡、离开上下文就看不懂的一律不要。都平淡就返回空列表。对每句写：\n"
               "hook：一行钩子，30 字以内，两种体裁二选一——疑问句（这句话本身就能回答的问题，如「为什么《黑·白》要放弃全部旧宝可梦？」）"
               "或引言式（「说话人：原话精简」，如「增田：我们把自己想象成小学一年级生」）；不许加材料之外的事实，不许悬念式吊胃口。\n"
               "why：一两句（60 字内），这句为什么重要、说的是什么背景。\n"
               "more：一两句（80 字内），从这篇里能延伸看的另一处，或相关的人物/作品/术语（只写材料与本站语料里确有的名字）；没有就留空字符串。\n"
-              "kind：question 或 quote。\n\n"
-              "输出：{\"picks\":[{\"i\":行号,\"kind\":\"question\",\"hook\":\"…\",\"why\":\"…\",\"more\":\"…\"}]}")
+              "kind：question 或 quote。\n"
+              "score：1–5。5＝具体数字/日期/首次披露的决定/反常识；4＝有具体细节的说法；3＝一般观点；2 以下不要给出。\n\n"
+              "输出：{\"picks\":[{\"i\":行号,\"kind\":\"question\",\"score\":5,\"hook\":\"…\",\"why\":\"…\",\"more\":\"…\"}]}")
     raw = _nom.deepseek([{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}], max_tokens=1200)
     got = json.loads(raw)
     picks = got.get("picks") if isinstance(got, dict) else None
@@ -257,7 +258,14 @@ def main():
                 continue
             c = by_i.get(i)
             hook = re.sub(r"\s+", " ", str(p.get("hook") or "")).strip(" 。")
+            hook = re.sub(r"^(报道|本文|文章)[：:]\s*", "", hook)          # a feature speaks for itself
             if not c or not hook or len(hook) > 36:
+                continue
+            try:
+                score = int(p.get("score") or 0)
+            except (TypeError, ValueError):
+                score = 0
+            if score < 4:
                 continue
             # a name in the hook that the piece does not carry is invented
             if any(n in hook for n in names if len(n) >= 2 and n not in post["people"] and n != c["who"] and n not in c["zh"] and n not in c["q"]):
@@ -272,7 +280,7 @@ def main():
                  "kind": "question" if hook.endswith(("？", "?")) else "quote",
                  "hook": hook, "zh": c["zh"], "ja": c["ja"][:400], "lang": post["lang"], "year": int(post["date"][:4]),
                  "date": post["date"], "publication": post["publication"] or None, "title": post["title"],
-                 "why": why or None, "more": more or None, "people": post["people"][:6], "works": post["works"][:4]}
+                 "score": score, "why": why or None, "more": more or None, "people": post["people"][:6], "works": post["works"][:4]}
             if c.get("note"):
                 q["note"] = str(c["note"])[:200]
             if more:

@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>组织</p>
     <h2>WEB Anime Style</h2>
-    <span>17 篇文章 · 0 条评注 · 2010 / 2009</span>
+    <span>30 篇文章 · 0 条评注 · 2010 / 2009</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/organizations/">返回组织索引</a>
@@ -19,6 +19,84 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」最終回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch226/">[访谈翻译] 首藤刚志动画创作手记 最终回：“人人都能成为编剧”（绝笔终章：罗生门式的自我真实、小松左京的托付与最后的告别）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第225回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch225/">[访谈翻译] 首藤刚志动画创作手记 第225回：“我就是我”（昏迷倒地三日的“异常正常”、母校演讲一元二手书与《告白》《从河底问好》）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第224回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch224/">[访谈翻译] 首藤刚志动画创作手记 第224回：“大器晚成的编剧始于动画”（放送作家协会之伪善、著作权占比超六成与《和巴什尔跳华尔兹》）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第223回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch223/">[访谈翻译] 首藤刚志动画创作手记 第223回：“从《宝可梦》中消失的我”（小说第三卷梦碎、小田原深夜跳海获救与诀别系列构成）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第222回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch222/">[访谈翻译] 首藤刚志动画创作手记 第222回：“系列构成的极限”（中央公园暴雨落败、未成形的斯巴达克斯式宝可梦起义与辞退剧场版第4作）</a></h3>
+  <span></span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第221回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch221/">[访谈翻译] 首藤刚志动画创作手记 第221回：“纽约的宝可梦”（时代广场数码兽招牌、无线电城大号皮卡丘与“绝不写他人能写之物”）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第220回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch220/">[访谈翻译] 首藤刚志动画创作手记 第220回：“我认为当务之急必看的节目”（哈佛白热教室、电车难题思辨与动画主题表达法）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第219回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch219/">[访谈翻译] 首藤刚志动画创作手记 第219回：“再次休载致歉与涉谷街头昏厥”（涉谷马路昏迷急救、小田原手稿常设馆与连载终末预告）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第218回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch218/">[访谈翻译] 首藤刚志动画创作手记 第218回：“回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）</a></h3>
+  <span>本篇手记原载于 WEB アニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」，由 Poke Amice 档案室完成中文翻译与段落对齐校订。</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第217回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch217/">[访谈翻译] 首藤刚志动画创作手记 第217回：“病房里的妄想症恶化？在《宝可梦》的世界里所谓的‘第一’究竟是什么？”（巴黎公社梦碎、暴发户刻板印象、世界第一的伪善虚相与小田原圣地巡礼）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 217</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第216回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch216/">[访谈翻译] 首藤刚志动画创作手记 第216回：“凝视着医院的天花板……”（海外大酒鬼档案、左撇子写作论、赠品打火机自嘲与宝可梦三十年永生大结局构想）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 216</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第215回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch215/">[访谈翻译] 首藤刚志动画创作手记 第215回：“小田原的剧本展”（结晶塔后辞去系列构成、坠海消波块自杀未遂惨案与小田原手稿文献展）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 215</span>
+</article>
+
+<article class="resource-network-card">
+  <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第214回</p>
+  <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch214/">[访谈翻译] 首藤刚志动画创作手记 第214回：“最近是不是筋疲力尽了啊”（板垣退助乌龙、7亿巨资质疑、为园田英树平反与剧场版退场绝响）</a></h3>
+  <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 214</span>
+</article>
+
+<article class="resource-network-card">
   <p>2010 · interview_translation · WEBアニメスタイル「シナリオえーだば創作術――だれでもできる脚本家」第213回</p>
   <h3><a href="/访谈翻译/动画秘辛/首藤刚志手记/interview-takeshi-shudo-pokemon-memoir-ch213/">[访谈翻译] 首藤刚志动画创作手记 第213回：“我的《宝可梦》电影在《结晶塔的帝王》画上句号”（深渊伦理拷问、病榻口述急送医院、园田英树接棒改稿与隐退宣言）</a></h3>
   <span>Takeshi Shudo Anime Memoir Serialization on WEB Anime Style Chapter 213</span>

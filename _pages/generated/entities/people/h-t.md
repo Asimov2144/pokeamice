@@ -9,7 +9,7 @@ search: false
   <div class="resource-network-hero">
     <p>人物</p>
     <h2>H.T.</h2>
-    <span>5 篇文章 · 0 条评注 · 2021 / 2015</span>
+    <span>4 篇文章 · 0 条评注 · 2021 / 2015</span>
   </div>
   <div class="resource-network-jump">
     <a href="/entities/people/">返回人物索引</a>
@@ -19,8 +19,8 @@ search: false
   <section class="resource-network-section">
     <h2>相关文章</h2>
     <article class="resource-network-card">
-  <p>2021 · interview_translation · デザイナー対談：ゲームクリエイターとしての、グラフィックデザイナー。</p>
-  <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-crosstalk-designer/">GAME FREAK 官方对谈 设计师篇：超越职能边界，不是为了画“画”，而是为了创造“游戏”（大森滋 × H.T.）</a></h3>
+  <p>2021 · interview_translation · システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク</p>
+  <h3><a href="/interviews/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 
@@ -33,12 +33,6 @@ search: false
 <article class="resource-network-card">
   <p>2021 · interview_translation · ギアプロジェクトなら、自分のアイディアをゲームにできる。だから、面白い。｜デザイナー社員紹介 H.T.</p>
   <h3><a href="/developer-interviews/gamefreak-recruit/interview-gamefreak-recruit-designer-ht/">GAME FREAK 官方原创IP艺术总监特写 H.T.：在Gear Project中让原创构想破土成蝶</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2021 · interview_translation · システムプログラマ対談｜採用情報｜GAME FREAK 株式会社ゲームフリーク</p>
-  <h3><a href="/interviews/interview-gamefreak-crosstalk-system-programmer/">GAME FREAK 官方对谈 系统程序员篇：乐于拥抱持续变化的人，将塑造10年后的 GAME FREAK</a></h3>
   <span></span>
 </article>
 

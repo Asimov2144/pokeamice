@@ -2,18 +2,12 @@
  "key": "4d7bf9da6e7c6b95",
  "picks": [
   {
-   "i": 8,
-   "kind": "question",
-   "hook": "为什么研究开发部最初只招纯软件工程师？",
-   "why": "说明研究开发部创立时的原计划，以及《宝可梦 X·Y》全 3D 化暴露的程序员与美术之间的认知断层，最终促成 TA 编入。",
-   "more": "K.K. 在 i=11 提到自己从 3D 建模师自学 Python 与 Shader 算法，最终蜕变为专职 TA。"
-  },
-  {
-   "i": 11,
+   "i": 13,
    "kind": "quote",
-   "hook": "K.K.：从 3D 建模师自学 Python 与 Shader 算法",
-   "why": "K.K. 讲述自己如何从纯粹的 3D 建模师，因追求效率与画面而自学脚本和图形学，最终成为专职 TA。",
-   "more": "K.K. 在 i=4 提到自己是 GAME FREAK 历史上的第一任专职 TA。"
+   "score": 4,
+   "hook": "K.K.：在GAME FREAK能全盘一手抓",
+   "why": "对比分工固化的大厂，说明GAME FREAK少数精锐团队里TA的自主裁量权范围。",
+   "more": "同篇K.K.提到自己历经3D建模师与CG动画总监，是GAME FREAK历史上第一任专职TA。"
   }
  ]
 }
