@@ -46,6 +46,9 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2017-08-18-interview-gi-2017-usum-mode/001.jpg
+  alt: Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon
 - original: We're ending our stretch of exclusive features covering Pokémon with a video feature showing off Pokémon Ultra Sun and Ultra Moon in action. While visiting Game Freak, we stopped by the desk of Pokémon Ultra Sun and Ultra Moon's director Kazumasa Iwao and he showed off the Alola Photo Club. The game marks Iwao's directorial debut, and he has been with Game Freak since the development of Pokémon Black and White. For more information on the new mode before you watch the video, here's how the The Pokémon Company is explaining it...
   translation: "我们以一段展示《宝可梦 究极之日·究极之月》实机画面的视频，为我们这组宝可梦独家专题报道收尾。在拜访GAME FREAK时，我们来到《宝可梦 究极之日·究极之月》总监岩尾和昌的工位，他向我们展示了阿罗拉摄影俱乐部。本作是岩尾首次担任总监，他自《宝可梦 黑·白》开发时期起就一直在GAME FREAK工作。在观看视频之前，若想了解更多关于这个新模式的信息，以下是宝可梦公司对它的说明……"
   note: 岩尾和昌是Game Freak的游戏开发者，《宝可梦 究极之日·究极之月》是他首次担任总监的作品。

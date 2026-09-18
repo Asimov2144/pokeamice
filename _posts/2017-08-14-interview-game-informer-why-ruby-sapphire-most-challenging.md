@@ -45,6 +45,9 @@ entities:
   - 宝可梦 金·银
   - 宝可梦 欧米伽红宝石·阿尔法蓝宝石
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging/pokemonsaphruby.jpg
+  alt: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make
 - type: heading
   level: 2
   original: Why Ruby And Sapphire Were The Most Challenging Pokémon To Make

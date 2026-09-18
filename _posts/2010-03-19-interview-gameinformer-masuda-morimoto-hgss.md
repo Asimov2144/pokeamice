@@ -48,6 +48,9 @@ entities:
   - 宝可梦 金·银
   - 皮卡丘2 GS
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2010-03-19-interview-gameinformer-masuda-morimoto-hgss/001.jpg
+  alt: 'Interview With Team Behind The Pokémon Franchise: Game Freak'
 - type: header
   level: 3
   original: 'Exclusive Interview: Game Freak on Pokémon HeartGold & SoulSilver'

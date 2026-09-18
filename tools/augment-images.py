@@ -233,7 +233,9 @@ def download(src, page_url, wayback, images_live):
         if wayback and not images_live:
             ts = re.search(r"/web/(\d+)", wayback).group(1)
             tries.append(f"https://web.archive.org/web/{ts}im_/{a}")
-        tries += [a, f"https://web.archive.org/web/2024im_/{a}"]
+        # the site first, then Wayback near now, then an older capture: Game Informer's 2018 site
+        # migration left /s3/files/.../legacy-images/ addresses that 404 today but were captured in 2018
+        tries += [a] + [f"https://web.archive.org/web/{y}im_/{a}" for y in ("2024", "2018", "2019", "2020", "2021", "2022", "2017", "2016", "2015", "2013")]
         for url in tries:
             try:
                 req = urllib.request.Request(url, headers={**UA, "Referer": page_url})

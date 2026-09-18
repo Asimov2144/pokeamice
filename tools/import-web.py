@@ -241,7 +241,9 @@ def extract_blocks(container, join_br=False):
                 src = cands[-1]
         elif (not src or src.startswith("data:")) and (el.get("data-srcset") or el.get("srcset")):
             src = srcset_last(el.get("data-srcset") or el.get("srcset"))
-        if not src or src.startswith("data:") or IMG_NOISE.search(src):
+        # the noise words are judged on the file name only: Game Informer keeps its pictures under the
+        # article's title ("...Directors Share Their Favorite...") and "share" is not a share button there
+        if not src or src.startswith("data:") or IMG_NOISE.search(src.rsplit("/", 1)[-1]):
             return
         # a thumbnail wrapped in a link to its full-size file (WordPress "link to media"), or opening it
         # from an onclick (4Gamer's OVERLAY_SS_open('/SS/002.jpg')), or kept at a sibling address: take the file

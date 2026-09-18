@@ -47,6 +47,9 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/004.jpg
+  alt: The History Of Pokémon Gold And Silver
 - original: Earlier this year, we traveled to Japan to visit Game Freak and learn all about the history of Pokémon. The result was a large feature all about the franchise that you can read in the September issue of Game Informer magazine, the one with Call of Duty WWII on the cover. Today, Pokémon Gold and Silver released on the 3DS Virtual Console, so we decided to post an excerpt from that feature covering those games.
   translation: "今年早些时候，我们前往日本拜访GAME FREAK，了解宝可梦的完整历史。成果是一篇关于该系列的大型专题，你可以在《Game Informer》杂志九月刊上读到，那一期的封面是《使命召唤：二战》。今天，《宝可梦 金·银》在3DS虚拟主机上发售，所以我们决定发布那篇专题中涵盖这两款游戏的节选。"
 - original: Despite the massive success of Pokémon Red and Green (and Blue), Game Freak struggled with the development of Gold and Silver. The studio was feeling the effects of a six-year development cycle.
@@ -54,15 +57,24 @@ parallel_items:
 - original: “After Red and Green came out, and the follow-up games, we didn’t have a lot of money. We were kind of out of money at that point because we had spent all the development funds and everything, so we needed to make some other games to stay in business,” Masuda says. Masuda worked as a programmer on a game that never released in America called Bazaar de Gosāru no Game de Gosāru at the same time he composed music for Gold and Silver.
   translation: “红绿发售之后，还有后续作品，我们没多少钱。那时候我们差不多没钱了，因为开发资金什么的都花光了，所以我们需要做点别的游戏来维持经营，”增田说。增田在一款从未在美国发售的游戏《Bazaar de Gosāru no Game de Gosāru》中担任程序员，同时为《金/银》作曲。
   note: 增田顺一是Game Freak的作曲家、游戏设计师，后来成为宝可梦系列的主要制作人。
+- type: image
+  image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/001.jpg
+  alt: The History Of Pokémon Gold And Silver
 - original: When he moved over to Gold and Silver full time, the game wasn’t where it needed to be. “Development wasn’t going as well as we had hoped it would. At that point I kind of took over and we decided to make the game based on Kyoto, and we sort of rapidly developed the game [from that point on,]” Masuda says.
   translation: 当他全职转入《金/银》时，游戏还没达到应有的状态。“开发进展不如我们期望的那么顺利。那时候我算是接手了，我们决定以京都为原型来制作游戏，然后[从那时起]我们算是快速地推进了开发，”增田说。
 - original: “We still didn’t have a formal development style at the time. It was a more gradual process.” Despite the financial and development issues, the game’s scope was never scaled back, for better or worse. “That was all of us just us trying our best, I guess,” Masuda says with a laugh.
   translation: “当时我们还没有正式的开发风格。那是一个更渐进的过程。”尽管存在财务和开发问题，游戏的规模从未缩减，无论好坏。“那都是我们所有人尽力而为，我想，”增田笑着说。
+- type: image
+  image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/002.jpg
+  alt: The History Of Pokémon Gold And Silver
 - original: The game still didn’t have a setting locked down. All that was in place were the names Gold and Silver. Masuda wanted the games to reflect old Japanese cities, and started researching the regions of Kyoto and Nara. “I knew I wanted to focus on towers, and those cities had those old kind of Japanese towers and that’s where the inspiration came from.”
   translation: 游戏仍然没有确定背景设定。当时定下来的只有“金”和“银”这两个名字。增田希望游戏能反映日本古老的城市，并开始研究京都和奈良地区。“我知道我想以塔为重点，那些城市有那种古老的日本塔，灵感就是从那里来的。”
 - original: Masuda recalls riding in a cab around the region talking to drivers to learn about the Toji tower of the east, and the sister tower to the west that had burned down. “In that sense, it was a different approach for what we did in Red and Green, caring about the setting,” Masuda says.
   translation: 增田回忆说，他坐出租车在该地区转悠，和司机聊天，了解东边的东寺塔，以及西边那座已经烧毁的姊妹塔。“从这个意义上说，这和我们做红绿时的方式不同，那时我们关心的是设定，”增田说。
   note: 东寺是京都的著名寺庙，其五重塔是日本最高的木塔。
+- type: image
+  image: /assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/003.jpg
+  alt: The History Of Pokémon Gold And Silver
 - original: Satoru Iwata, Nintendo’s late president and CEO, was important to the development of Gold and Silver. He worked on making sure the localized versions were ready for release by analyzing the game’s code – not a task typically done by an executive. “That guy was a genius, “ Masuda says. “Even with Red and Green, he asked us to show him our source code, and within three days, he probably knew it better than we did [laughs].”
   translation: 任天堂已故总裁兼首席执行官岩田聪对《金/银》的开发很重要。他通过分析游戏代码，确保本地化版本能准备好发售——这不是高管通常会做的工作。“那家伙是个天才，”增田说。“即使是红绿，他也让我们给他看源代码，三天之内，他可能比我们更了解它[笑]。”
   note: 岩田聪曾任HAL研究所社长，2002年成为任天堂总裁，2015年去世。

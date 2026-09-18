@@ -722,13 +722,14 @@
  "2010-03-19-interview-gameinformer-masuda-morimoto-hgss.md": {
   "post": "2010-03-19-interview-gameinformer-masuda-morimoto-hgss.md",
   "page_pictures": 1,
-  "added": [],
-  "skipped": [
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Interview%20With%20Team%20Behind%20",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2010-03-19-interview-gameinformer-masuda-morimoto-hgss/001.jpg",
+    "src": null,
+    "alt": "Interview With Team Behind The Pokémon Franchise: Game Freak"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2010-09-10-interview-iwata-asks-bw-chapter-1-second-game-on-ds.md": {
@@ -1289,25 +1290,29 @@
  "2011-03-07-interview-gameinformer-masuda-past-present-future.md": {
   "post": "2011-03-07-interview-gameinformer-masuda-past-present-future.md",
   "page_pictures": 4,
-  "added": [],
-  "skipped": [
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Pok%C3%A9mon%20Past%2C%20Present%2C",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Pok%C3%A9mon%20Past%2C%20Present%2C",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Pok%C3%A9mon%20Past%2C%20Present%2C",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Pok%C3%A9mon%20Past%2C%20Present%2C",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/001.jpg",
+    "src": null,
+    "alt": "Pokémon Past, Present, And Future"
+   },
+   {
+    "image": "/assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/002.jpg",
+    "src": null,
+    "alt": "Pokémon Past, Present, And Future"
+   },
+   {
+    "image": "/assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/003.jpg",
+    "src": null,
+    "alt": "Pokémon Past, Present, And Future"
+   },
+   {
+    "image": "/assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/004.jpg",
+    "src": null,
+    "alt": "Pokémon Past, Present, And Future"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2012-05-01-interview-tpc-president-ishihara-what-we-do.md": {
@@ -1481,17 +1486,19 @@
  "2012-09-17-interview-gi-2012-b2w2-sequel.md": {
   "post": "2012-09-17-interview-gi-2012-b2w2-sequel.md",
   "page_pictures": 2,
-  "added": [],
-  "skipped": [
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Game%20Freak%20Talks%20Pok%C3%A9mon%E2%",
-    "not fetched"
-   ],
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Game%20Freak%20Talks%20Pok%C3%A9mon%E2%",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/001.jpg",
+    "src": null,
+    "alt": "Game Freak Talks Pokémon’s First Numbered Sequel"
+   },
+   {
+    "image": "/assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/002.jpg",
+    "src": null,
+    "alt": "Game Freak Talks Pokémon’s First Numbered Sequel"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2013-09-19-interview-jv-2013-xy.md": {
@@ -1727,49 +1734,59 @@
  "2014-02-14-interview-gameinformer-masuda-afterwords-xy.md": {
   "post": "2014-02-14-interview-gameinformer-masuda-afterwords-xy.md",
   "page_pictures": 10,
-  "added": [],
-  "skipped": [
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ],
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Afterwords%20%E2%80%93%20Pok%C3%A9m",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/001.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/002.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/003.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/004.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/005.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/006.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/007.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/008.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/009.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   },
+   {
+    "image": "/assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/010.jpg",
+    "src": null,
+    "alt": "Afterwords – Pokémon X & Y"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2014-03-19-interview-interview-21.md": {
@@ -2137,13 +2154,14 @@
  "2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging.md": {
   "post": "2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging.md",
   "page_pictures": 1,
-  "added": [],
-  "skipped": [
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Why%20Ruby%20And%20Sapphire%20Were%20Th",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-08-14-interview-game-informer-why-ruby-sapphire-most-challenging/pokemonsaphruby.jpg",
+    "src": null,
+    "alt": "Why Ruby And Sapphire Were The Most Challenging Pokémon To Make"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2017-09-05-interview-gigazine-gamefreak-sketches-masuda.md": {
@@ -2360,25 +2378,29 @@
  "2017-09-22-interview-gi-2017-gs-history.md": {
   "post": "2017-09-22-interview-gi-2017-gs-history.md",
   "page_pictures": 4,
-  "added": [],
-  "skipped": [
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/The%20History%20Of%20Pok%C3%A9mon%20Gol",
-    "not fetched"
-   ],
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/The%20History%20Of%20Pok%C3%A9mon%20Gol",
-    "not fetched"
-   ],
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/The%20History%20Of%20Pok%C3%A9mon%20Gol",
-    "not fetched"
-   ],
-   [
-    "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/The%20History%20Of%20Pok%C3%A9mon%20Gol",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/004.jpg",
+    "src": null,
+    "alt": "The History Of Pokémon Gold And Silver"
+   },
+   {
+    "image": "/assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/001.jpg",
+    "src": null,
+    "alt": "The History Of Pokémon Gold And Silver"
+   },
+   {
+    "image": "/assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/002.jpg",
+    "src": null,
+    "alt": "The History Of Pokémon Gold And Silver"
+   },
+   {
+    "image": "/assets/img/interviews/2017-09-22-interview-gi-2017-gs-history/003.jpg",
+    "src": null,
+    "alt": "The History Of Pokémon Gold And Silver"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2018-05-30-interview-gamer-pokemon-press-conference-2018.md": {
@@ -7655,13 +7677,14 @@
  "2017-08-18-interview-gi-2017-usum-mode.md": {
   "post": "2017-08-18-interview-gi-2017-usum-mode.md",
   "page_pictures": 1,
-  "added": [],
-  "skipped": [
-   [
-    "https://www.gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Exclusive%20Reveal%20Of%20A%20New%2",
-    "not fetched"
-   ]
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-08-18-interview-gi-2017-usum-mode/001.jpg",
+    "src": null,
+    "alt": "Exclusive Reveal Of A New Mode In Pokémon Ultra Sun And Moon"
+   }
   ],
+  "skipped": [],
   "dry": false
  },
  "2017-11-06-interview-2017-game-freak-dordogne-enquete.md": {
@@ -9274,6 +9297,34 @@
     "already in the post"
    ]
   ],
+  "dry": false
+ },
+ "2017-08-15-interview-gi-2017-spinoffs.md": {
+  "post": "2017-08-15-interview-gi-2017-spinoffs.md",
+  "page_pictures": 2,
+  "added": [
+   {
+    "image": "/assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/001.jpg",
+    "src": "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Game%20Freak%27s%20Directors%20Share%20Their%20Favorite%20Pok%C3%A9mon%20Spin-Offs/pokemonfavespin_5F00_610.jpg",
+    "after": -1,
+    "size": [
+     610,
+     421
+    ],
+    "reused": false
+   },
+   {
+    "image": "/assets/img/interviews/2017-08-15-interview-gi-2017-spinoffs/002.jpg",
+    "src": "https://gameinformer.com/s3/files/styles/body_default/s3/legacy-images/imagefeed/Game%20Freak%27s%20Directors%20Share%20Their%20Favorite%20Pok%C3%A9mon%20Spin-Offs/masudago_5F00_610.jpg",
+    "after": 1,
+    "size": [
+     610,
+     343
+    ],
+    "reused": false
+   }
+  ],
+  "skipped": [],
   "dry": false
  }
 }

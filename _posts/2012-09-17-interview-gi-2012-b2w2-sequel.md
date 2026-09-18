@@ -42,6 +42,9 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/001.jpg
+  alt: Game Freak Talks Pokémon’s First Numbered Sequel
 - original: Pokémon Black and White 2 are less than a month away so we decided to chat with the games' producer about the franchise’s first numbered sequels. Junichi Masuda has been with Game Freak since the company’s inception, and he is the producer on Black and White 2.
   translation: "距离《宝可梦 黑2·白2》发售还有不到一个月，我们决定与该作的制作人聊聊这个系列的首款编号续作。增田顺一自GAME FREAK创立之初便在公司任职，他是《黑2／白2》的制作人。"
   note: Game Freak是宝可梦系列游戏的开发公司。
@@ -63,6 +66,9 @@ parallel_items:
   role: answer
   speaker: 增田顺一
   translation: 首先，作为《宝可梦 黑》《宝可梦 白》的直接续作，我们非常希望确保玩过原作的玩家能够玩到续作。他们也许不是所有人都拥有任天堂3DS，但如果他们玩过原作，就肯定有任天堂DS。而且，任天堂DS平台在全世界拥有的人数几乎是最多的。全世界有那么多孩子、那么多玩家拥有任天堂DS平台，所以如果我们想让尽可能多的人玩到这款游戏，把它放在任天堂DS上就是合理的。不过，这不仅仅是为了让《宝可梦 黑》《宝可梦 白》的玩家玩到游戏。我们也想确保新玩家同样能玩得开心。我们还非常希望能确保游戏能与原版《宝可梦 黑》《宝可梦 白》通信，所以这次把游戏放在任天堂DS上是最合理的。不过，我们也想给任天堂3DS的用户一个不错的惊喜，所以我们开发了《宝可梦梦境雷达》这款应用，在任天堂eShop上提供。它算是一款补充性质的游戏，包含一些动作性较强的玩法，你可以用任天堂3DS的陀螺仪传感器和AR功能来捕捉宝可梦。由于任天堂3DS可以玩任天堂DS游戏，如果你把《宝可梦 黑2》或《宝可梦 白2》放进任天堂3DS，就可以把在《宝可梦梦境雷达》中捕捉到的宝可梦传送到你的任天堂DS游戏里。我们觉得这很有意思。
+- type: image
+  image: /assets/img/interviews/2012-09-17-interview-gi-2012-b2w2-sequel/002.jpg
+  alt: Game Freak Talks Pokémon’s First Numbered Sequel
 - original: In Pokémon Black and White, there are sprites and polygonal characters. Are you interested in a fully polygonal Pokémon game in the future?
   role: question
   speaker: Game Informer

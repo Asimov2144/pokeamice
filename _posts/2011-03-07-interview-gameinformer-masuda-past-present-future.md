@@ -47,6 +47,9 @@ entities:
   - 宝可梦 金·银
   - 宝可梦 心金·魂银
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/001.jpg
+  alt: Pokémon Past, Present, And Future
 - speaker: ''
   original: This week marks the long-awaited release of the fifth-generation of Pokémon titles, Black and White. Game Freak producer, Junichi Masuda, and the graphic designer who created many of the game’s 150 new Pokémon, Mana Ibe, tell us about the past, present, and future of the long-running franchise. Did you know the traditional routes found in Pokémon games were initially created as a workaround for cartridge limitations? Did you know that Pokémon originally didn't evolve? If it weren't for the lengthy six-year development cycle of the original games, these series staples would not have existed. Read on to learn more franchise secrets.
   translation: 本周，备受期待的第五世代宝可梦游戏《黑／白》终于发售。GAME FREAK的制作人增田顺一，以及设计了游戏中150只新宝可梦中许多只的图形设计师井部真那，向我们讲述了这一长寿系列游戏的过去、现在和未来。你知道吗？宝可梦游戏中传统的道路设计最初是为了规避卡带容量限制而创造的。你知道吗？宝可梦最初并不会进化。如果没有初代游戏长达六年的开发周期，这些系列特色就不会存在。继续阅读，了解更多系列秘闻。
@@ -57,6 +60,9 @@ parallel_items:
   original: First it was a gathering of people who knew each other who really liked games, “game freaks” if you will, kind of like indie developers. We all got together with Satoshi Tajiri and decided to make an indie game at the time for the Famicom, Quinty (Mendel Palace in North America). After creating that game and nearing the end of its completion, we decided to come together and form the company Game Freak. From here on out, Game Freak’s philosophy is to challenge new things, challenge ourselves, and make games that make people happy, games that people can play over and over for a long time, and have a smile on their face when they play it.
   translation: 最初，这是一群彼此相识、真正热爱游戏的人聚集在一起，你可以称他们为“游戏怪人”，有点像独立开发者。我们和田尻智一起，决定当时为红白机开发一款独立游戏《Quinty》（北美版名为《Mendel Palace》）。在完成这款游戏、接近尾声时，我们决定正式组建公司，命名为GAME FREAK。从那时起，GAME FREAK的理念就是挑战新事物、挑战自我，制作能让人快乐、能让人反复游玩很长时间并面带微笑的游戏。
   note: 田尻智是宝可梦系列的创始人之一。Quinty是GAME FREAK开发的第一款游戏。
+- type: image
+  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/002.jpg
+  alt: Pokémon Past, Present, And Future
 - speaker: 增田顺一
   original: Pokémon began as a vehicle for communication
   translation: 宝可梦始于一种交流媒介
@@ -90,6 +96,9 @@ parallel_items:
   original: One of the original names [for the games] was “Capsule Monsters” because they go in capsules, but decided later on to go with Pocket Monsters or “Pokémon.”
   translation: 游戏最初的名称之一是“胶囊怪兽”，因为它们装在胶囊里，但后来决定采用“口袋怪兽”或“宝可梦”。
   note: 此处提及游戏早期命名构想，最终定名为“宝可梦”。
+- type: image
+  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/003.jpg
+  alt: Pokémon Past, Present, And Future
 - speaker: 增田顺一
   original: From Red and Blue to Black and White
   translation: 从《红／蓝》到《黑／白》
@@ -120,6 +129,9 @@ parallel_items:
 - speaker: 井部真那
   original: I’ll sometimes go to the zoo and look at various animals or animals outside and study their behavior. I also get inspiration from inanimate objects as well, such as an umbrella. If you combined an umbrella with an animal, how would they use that umbrella? How would you combine that to make an interesting creature?
   translation: 我有时会去动物园观察各种动物，或者观察户外的动物，研究它们的行为。我也会从无生命的物体中获取灵感，比如雨伞。如果你把雨伞和动物结合起来，它们会如何使用那把伞？你会如何组合它们来创造出一个有趣的生物呢？
+- type: image
+  image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/004.jpg
+  alt: Pokémon Past, Present, And Future
 - speaker: 井部真那
   original: Never running out of ideas
   translation: 创意永不枯竭

@@ -44,6 +44,9 @@ entities:
   - Pokémon HOME
   - Pokémon Bank
 parallel_items:
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/001.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: '[This feature originally appeared abridged in Game Informer issue #250.]'
   translation: '[本文最初以删节版形式刊登于《Game Informer》第250期。]'
@@ -56,6 +59,9 @@ parallel_items:
   original: When this feature appeared in the February issue of the magazine, we cut a number of questions in order to save space. Below, you will find the full interview.
   translation: 当这篇报道刊登在杂志二月刊时，为了节省篇幅，我们删减了一些问题。下面，您将看到完整的访谈内容。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/002.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: There are hints of a romance between the player character and Shauna, especially during the fireworks scene, did this romance angle come from the fact that Paris is the city of love? Or would you like future Pokémon games to include more of a love story?
   translation: 玩家角色与莎娜之间有一些浪漫的暗示，尤其是在烟花场景中。这个浪漫角度是源于巴黎是“爱情之城”这一事实吗？还是您希望未来的宝可梦游戏包含更多爱情故事？
@@ -80,6 +86,9 @@ parallel_items:
   original: In Pokémon Black Version and Pokémon White Version, Team Plasma's philosophy had a bit more of a serious tone to it. With Team Flare, I wanted to separate them from some kind of philosophy and make them a bit more goofy and funny.
   translation: 在《宝可梦 黑／白》中，等离子队的理念带有更严肃的基调。而对于闪焰队，我想让他们脱离某种哲学，使其更滑稽有趣一些。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/003.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: The legacy of this gigantic war that raged 3,000 years ago is important to the story of the game. Was this inspired by the impact of World War II on France today?
   translation: 三千年前那场大战的遗产对游戏故事很重要。这是否受到二战对当今法国影响的启发？
@@ -100,6 +109,9 @@ parallel_items:
   original: Read on for details on the immortal character AZ to find out why he's so tall.
   translation: 继续阅读，了解不朽角色AZ的细节，找出他为何如此高大。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/004.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: The giant man named AZ was a surprising addition to the story of the game. Was everybody from 3,000 years ago on the Pokémon planet as big as him? What story was the team trying to express by including this character?
   translation: 游戏中加入名为AZ的巨人是个令人意外的设定。三千年前宝可梦世界的人都是像他那么巨大吗？团队加入这个角色想表达怎样的故事？
@@ -116,6 +128,9 @@ parallel_items:
   original: Travelers play the role of characters who have come from other regions. We put them in the game to make sure people know that the new region is connected with the rest of the world.
   translation: 旅行者扮演着来自其他地区的角色。我们将他们放入游戏中，是为了让人们知道新地区与世界其他地方是相连的。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/005.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: In our Pokemon's Burning Questions interview in 2012, you said "Humans are definitely separate from Pokémon. The way you think about it is different than how we think about animals in relation to humans on Earth." But then in Pokémon X&Y a character says, "They say that in the ancient days, man and Pokémon were the same." I'm curious if you and the team changed your mind on this topic.
   translation: 在2012年我们的“宝可梦灼热问题”采访中，您曾说：“人类与宝可梦绝对是分开的。您对此的思考方式不同于我们在地球上思考动物与人类关系的方式。”但在《宝可梦 X/Y》中，一个角色说：“据说在古代，人类和宝可梦是一样的。”我很好奇您和团队是否在这个话题上改变了想法。
@@ -132,6 +147,9 @@ parallel_items:
   original: The overhead view makes it easier for players to be able to understand where they should go based off where their character is in the world in relation to where the grass is positioned. It makes it easier to know, for example, where you need to stand to get seen by another Trainer, or what the shortest route through a patch of grass would be. We implement the overhead camera more for gameplay reasons rather than for any visual reason.
   translation: 俯视视角让玩家更容易根据角色在世界中的位置以及草丛的位置来判断应该去哪里。例如，更容易知道你需要站在哪里才能被其他训练家看到，或者穿过一片草丛的最短路线是什么。我们采用俯视视角更多是出于游戏性的考虑，而不是视觉上的原因。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/006.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: Which Pokémon proved to be the most difficult to take from a 2D sprite to a 3D model? Were any Pokémon’s inclusions removed because it didn’t seem like they would work as 3D models?
   translation: 哪些宝可梦从2D图像转换为3D模型时最为困难？有没有因为看起来不适合做成3D模型而删减某些宝可梦？
@@ -149,6 +167,9 @@ parallel_items:
   original: From a technical point of view, it would be easier not to have the circular patches. We use them as a way to express the space in which Pokémon exist. For example, it would look really strange to have Pokémon standing on top of the water without them.
   translation: 从技术角度来看，去掉圆形地面反而更容易。我们用它来表现宝可梦所在的空间。例如，如果没有这些圆形地面，宝可梦站在水面上会显得很奇怪。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/007.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: The game launched the same day as the 2DS and the majority of the game is not in stereoscopic 3D. Was this a technical limitation? Or was it designed this way to lessen eyestrain for children and young fans?
   translation: 游戏与2DS同一天发售，但游戏大部分内容并不支持立体3D。这是技术限制吗？还是为了减轻儿童和年轻玩家的眼睛疲劳而这样设计的？
@@ -174,6 +195,9 @@ parallel_items:
   original: For more answers from Masuda, including his personal choice of starters and details on Klefki and what Espurr has seen to affect his facial expressions, head to page two.
   translation: 更多增田的解答，包括他个人对初始宝可梦的选择、钥圈儿的细节以及妙喵的表情变化，请翻到第二页。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/008.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: Do you worry the small number of Mega Evolutions will limit competitive Pokémon in official tournaments? Do you see Mega Evolutions as a mainstay of the series moving forward?
   translation: 你是否担心超级进化的数量较少会限制官方锦标赛中的对战宝可梦？你认为超级进化会成为该系列未来的主打吗？
@@ -208,6 +232,9 @@ parallel_items:
   translation: 多么惊人的想象力！我觉得很棒。关于花的故事指的是神奥地区的谢米。那个因胃病困在洗手间的人，其实是我们开的一个玩笑，关于我们的一位图形设计师，在卢浮宫实地考察为游戏做研究时突然生病了。
   note: 卢浮宫是巴黎的著名博物馆，开发团队曾去那里研究艺术风格。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/009.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: Is there any advantage to giving a tip to the camera man, or the story teller? I always offered a good tip, because I didn’t want them to think I was a jerk.
   translation: 给摄影师或讲故事的人小费有什么好处吗？我总是给不错的小费，因为我不想让他们觉得我是个混蛋。
@@ -240,6 +267,9 @@ parallel_items:
   original: Also, the professor being younger this time and the fact that he trusts the player and his or her friends kind of reflects modern times (in Japan these days, the relationship between teachers and students is more like a friendship than it was in the past).
   translation: 此外，这次教授更年轻，而且他信任玩家及其朋友，这多少反映了现代（在如今的日本，师生关系比过去更像是朋友关系）。
   role: answer
+- type: image
+  image: /assets/img/interviews/2014-02-14-interview-gameinformer-masuda-afterwords-xy/010.jpg
+  alt: Afterwords – Pokémon X & Y
 - speaker: 提问
   original: The Pokémon Espurr has become a popular internet meme with fans citing his vacant expression representing a troubled past. What happened to Espurr, or what did he see that made him so vacant?
   translation: 宝可梦妙喵已成为流行的网络梗，粉丝们认为它空洞的表情代表着一段困扰的过去。妙喵发生了什么，或者它看到了什么让它如此空洞？
