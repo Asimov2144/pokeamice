@@ -16895,107 +16895,192 @@
   },
   {
     "id": "PKMN-0564",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第79回",
-    "original_title": "シナリオライターの記録 第79回",
-    "url": "http://style.fm/as/05_column/shuto/shuto079.shtml",
-    "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto079.shtml",
-    "date": "2007-02-15",
+    "title": "首藤刚志手记：第218回 “回过神来身在纽约”（御前会议美版魔改之辩、偶遇基努里维斯与《麦麦新子》普遍童年论）",
+    "original_title": "第218回 気がついたらニューヨーク",
+    "url": "http://www.style.fm/as/05_column/shudo218.shtml",
+    "archive_url": "https://web.archive.org/web/*/http://www.style.fm/as/05_column/shudo218.shtml",
+    "date": "2010-03-31",
     "people": [
       "首藤刚志",
-      "汤山邦彦"
+      "汤山邦彦",
+      "基努·里维斯",
+      "片渊须直"
     ],
-    "generation": "动画剧场版",
+    "generation": "剧场版",
     "language": "JA",
     "outlet": "WEBアニメスタイル",
     "type": "Anime Memoir",
     "tags": [
       "首藤刚志",
-      "动画剧场版",
+      "剧场版",
       "超梦的逆袭",
-      "洛奇亚",
-      "小智",
+      "基努里维斯",
+      "麦麦新子与千年魔法",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第218回：解密远赴纽约考察宝可梦全球狂潮与偶遇巨星基努·里维斯之谜！出院重返系列构成岗位的首藤饱受虚无与厌食症折磨，深感团队人才济济而自己只想打破十年长寿格局。在一次高层“御前会议”上，最高决策者御前样吹嘘宝可梦在美大获成功纯粹是因为针对美国口味进行了脱胎换骨的本土化大剪裁；当初轻信“将原汁原味带给世界”而在《超梦的逆袭》中倾注存在主义哲学思考的首藤大受震惊，生怕剧本被魔改成庸俗烂片。被拒绝参与洛杉矶商务考察后，首藤趁会议休假自费携妻女与小姨子飞抵纽约；在曼哈顿避世酒店电梯中偶遇处于《黑客帝国》巅峰期的好莱坞巨星基努·里维斯与其保镖；面对小姨子调侃，首藤底气不足自称宝可梦编剧却深陷自惭形秽。文末随笔，首藤以极高规格盛赞片渊须直执导的动画电影《麦麦新子与千年魔法》，深情论述该片超越地域的“全人类普遍童年体验”与日本动画走向成熟的风骨。",
+    "status": "imported",
+    "post_url": "/2010/03/31/interview-takeshi-shudo-pokemon-memoir-ch218/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "汤山邦彦",
+        "基努·里维斯",
+        "片渊须直"
+      ],
+      "works": [
+        "超梦的逆袭",
+        "结晶塔的帝王",
+        "洛奇亚爆诞",
+        "黑客帝国",
+        "麦麦新子与千年魔法",
+        "哥斯拉",
+        "日本沉没"
+      ],
+      "organizations": [
+        "WEB Anime Style",
+        "小学馆",
+        "OLM"
+      ]
+    }
   },
   {
     "id": "PKMN-0565",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第80回",
-    "original_title": "シナリオライターの記録 第80回",
-    "url": "http://style.fm/as/05_column/shuto/shuto080.shtml",
-    "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto080.shtml",
-    "date": "2007-09-15",
+    "title": "首藤刚志手记：第219回 “再次休载致歉与涉谷街头昏厥”（涉谷马路昏迷急救、小田原手稿常设馆与连载终末预告）",
+    "original_title": "第219回 ふたたび休載のお詫び",
+    "url": "http://www.style.fm/as/05_column/shudo219.shtml",
+    "archive_url": "https://web.archive.org/web/*/http://www.style.fm/as/05_column/shudo219.shtml",
+    "date": "2010-04-21",
     "people": [
-      "首藤刚志",
-      "汤山邦彦"
+      "首藤刚志"
     ],
-    "generation": "动画剧场版",
+    "generation": "剧场版",
     "language": "JA",
     "outlet": "WEBアニメスタイル",
     "type": "Anime Memoir",
     "tags": [
       "首藤刚志",
-      "动画剧场版",
-      "超梦的逆袭",
-      "洛奇亚",
-      "小智",
+      "剧场版",
+      "涉谷街头昏厥",
+      "甜甜仙子",
+      "小田原文学馆",
+      "连载完结预告",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第219回：惊人披露命悬一线的街头昏厥救援与专栏终幕预告！首藤因极度虚脱突然在涉谷街头马路上昏死过去，千钧一发之际竟奇迹般被极少路过该地的《甜甜仙子》舞台音乐剧制作人发现并呼叫救护车急送大学医院抢救；因工作室邻近医院，首藤在恪守绝对卧床与规律饮食的苛刻条件下免于住院，靠出租车与新干线艰难赶赴关键行程。首藤宣布小田原手稿大展落幕后，小田原文学馆正式设立了首藤刚志小型常设纪念展角，小田原市立图书馆亦开放手稿预约查阅系统。面对赛璐珞与纸质手写剧本向数字化时代的不可逆变迁，首藤自省一生被视作“怪异编剧”的宿命，并沉痛预告本专栏在即将揭晓生涯最大转折点后，将在最后数回内迎来彻底完结（令人扼腕的是数月后首藤便猝然离世）。",
+    "status": "imported",
+    "post_url": "/2010/04/21/interview-takeshi-shudo-pokemon-memoir-ch219/",
+    "entities": {
+      "people": [
+        "首藤刚志"
+      ],
+      "works": [
+        "魔法小天使（甜甜仙子）",
+        "超梦的逆袭"
+      ],
+      "organizations": [
+        "WEB Anime Style",
+        "小田原文学馆",
+        "小田原市立图书馆"
+      ]
+    }
   },
   {
     "id": "PKMN-0566",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第81回",
-    "original_title": "シナリオライターの記録 第81回",
-    "url": "http://style.fm/as/05_column/shuto/shuto081.shtml",
-    "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto081.shtml",
-    "date": "2007-04-15",
+    "title": "首藤刚志手记：第220回 “我认为当务之急必看的节目”（哈佛白热教室、电车难题思辨与动画主题表达法）",
+    "original_title": "第220回 僕が今、必見だと思う番組",
+    "url": "http://www.style.fm/as/05_column/shudo220.shtml",
+    "archive_url": "https://web.archive.org/web/*/http://www.style.fm/as/05_column/shudo220.shtml",
+    "date": "2010-04-28",
     "people": [
       "首藤刚志",
-      "汤山邦彦"
+      "迈克尔·桑德尔"
     ],
-    "generation": "动画剧场版",
+    "generation": "剧场版",
     "language": "JA",
     "outlet": "WEBアニメスタイル",
     "type": "Anime Memoir",
     "tags": [
       "首藤刚志",
-      "动画剧场版",
-      "超梦的逆袭",
-      "洛奇亚",
-      "小智",
+      "剧场版",
+      "哈佛白热教室",
+      "迈克尔桑德尔",
+      "正义",
+      "剧作法",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第220回：病榻中紧急向年轻编剧力荐经典公开课《哈佛白热教室》（迈克尔·桑德尔之《正义》）！首藤拖着病体执笔，向立志从事动画剧作的读者阐释如何将高深哲学转化为通俗戏剧。首藤剖析桑德尔公开课的精髓绝非照本宣科的死板理论，而是将听众卷入道德困境、从多元对立视角解构核心命题的非凡“引导法”；若将阶梯教室的听众等同于屏幕前的动画观众，这种不居高临下说教、而是通过情境设问促使受众主动反思的表达技巧，正是阅片无数也难以参透的顶级剧作法。首藤澄清自己并非教条式的“主题至上主义者”，但强调掌握这种全方位思辨感性是每个严肃动画作家的立身之本。",
+    "status": "imported",
+    "post_url": "/2010/04/28/interview-takeshi-shudo-pokemon-memoir-ch220/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "迈克尔·桑德尔"
+      ],
+      "works": [
+        "正义：一场思辨之旅（哈佛白热教室）",
+        "超梦的逆袭"
+      ],
+      "organizations": [
+        "WEB Anime Style",
+        "NHK",
+        "哈佛大学"
+      ]
+    }
   },
   {
     "id": "PKMN-0567",
-    "title": "首藤刚志手记：首藤刚志剧场版与动画创作手记 第82回",
-    "original_title": "シナリオライターの記録 第82回",
-    "url": "http://style.fm/as/05_column/shuto/shuto082.shtml",
-    "archive_url": "https://web.archive.org/web/*/http://style.fm/as/05_column/shuto/shuto082.shtml",
-    "date": "2007-11-15",
+    "title": "首藤刚志手记：第221回 “纽约的宝可梦”（时代广场数码兽招牌、无线电城大号皮卡丘与“绝不写他人能写之物”）",
+    "original_title": "第221回 ニューヨークのポケモン",
+    "url": "http://www.style.fm/as/05_column/shudo221.shtml",
+    "archive_url": "https://web.archive.org/web/*/http://www.style.fm/as/05_column/shudo221.shtml",
+    "date": "2010-05-12",
     "people": [
       "首藤刚志",
-      "汤山邦彦"
+      "森公美子",
+      "艾萨克·斯特恩",
+      "细田守"
     ],
-    "generation": "动画剧场版",
+    "generation": "剧场版",
     "language": "JA",
     "outlet": "WEBアニメスタイル",
     "type": "Anime Memoir",
     "tags": [
       "首藤刚志",
-      "动画剧场版",
-      "超梦的逆袭",
-      "洛奇亚",
-      "小智",
+      "剧场版",
+      "时代广场",
+      "数码宝贝",
+      "无线电城",
+      "中央公园",
+      "绝不写他人能写之物",
       "JA"
     ],
-    "summary": "宝可梦动画初代总编剧首藤刚志亲笔遗稿，揭秘动画编剧手记。",
-    "status": "unimported"
+    "summary": "宝可梦动画初代总编剧首藤刚志亲笔手记第221回：解密2000年曼哈顿世贸双子塔前夕的纽约亲子圣地巡礼与剧作真谛！首藤带5岁幼女探访全美最大玩具殿堂，赫然发现外墙被劲敌《数码宝贝》铺天盖地霸占，甚至拉着女儿在数码兽海报前比V合影；然而进店后数码兽全无立锥之地，宝可梦独占整层专区人满为患，深感宝可梦已在异国彻底扎根。漫步至百老汇无线电城音乐厅（Radio City），偶遇《Pokémon Live!》舞台剧海报与踩点的森公美子一行；首藤获邀参与后台探秘，将女儿的小皮卡丘玩偶独自立于可容六千人的世界最大舞台中央，定格下“最小独角戏演员”的经典瞬间，自感宝可梦使命已了。次日父女漫步中央公园突遇大暴雨，与不同肤色语言的落单孩童挤在铁栅石亭下避雨，目睹黑人幼童在泥雨中纵情欢舞，拍下珍贵影像赠与如今已是初中生的女儿。文末随笔传授终生剧作绝学——“绝不写他人能写之物”：直面左撇子写作创伤，强调万物皆可为素材，唯有拒绝套路模仿、向作品毫无保留注入真实自我，方成不朽文章。",
+    "status": "imported",
+    "post_url": "/2010/05/12/interview-takeshi-shudo-pokemon-memoir-ch221/",
+    "entities": {
+      "people": [
+        "首藤刚志",
+        "森公美子",
+        "艾萨克·斯特恩",
+        "细田守"
+      ],
+      "works": [
+        "超梦的逆袭",
+        "结晶塔的帝王",
+        "数码宝贝",
+        "猫（Cats）",
+        "宝可梦舞台剧（Pokemon Live!）",
+        "魔法小天使（甜甜仙子）"
+      ],
+      "organizations": [
+        "WEB Anime Style",
+        "无线电城音乐厅",
+        "卡内基音乐厅",
+        "茱莉亚音乐学院",
+        "纽约公共图书馆"
+      ]
+    }
   },
   {
     "id": "PKMN-0568",
