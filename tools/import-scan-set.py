@@ -11,6 +11,7 @@ image by a vision model, and that text is what gets translated.
     python tools/import-scan-set.py ocr   <slug>|all [--workers 4]
     python tools/import-scan-set.py pages <slug>            # headings per page, to draw the feature boundaries
     python tools/import-scan-set.py build <slug> [--dry-run] [--only <feature>]
+    python tools/scan-boxes.py run <slug> && python tools/scan-boxes.py apply <slug>   # then: where each region sits (the reader's ties)
 
 The registry is design/scan_sets_2026-09.json: per set the bibliography,
 the page list, and `features` - the articles that become posts, each a

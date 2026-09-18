@@ -172,6 +172,7 @@ kept on the turns even though the presentation around them is new.
       </div>
       <div class="ed-tools__group" role="group" aria-label="阅读">
         <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle">专注模式</button>
+        {% if is_scan %}<button type="button" class="ed-tools__btn is-active" data-vertical-toggle aria-pressed="true" title="纵排区域的原文按原刊竖排">竖排原文</button>{% endif %}
       </div>
       {% if answerers.size > 0 %}
         <div class="ed-tools__group parallel-cast-bar" role="group" aria-label="只看某人">

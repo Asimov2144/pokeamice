@@ -1,13 +1,19 @@
 /* ==========================================================================
    Magazine scan archive body
-   _includes/interview-body-scan.html, inside interview-editorial
+   _includes/interview-body-scan.html + assets/js/scan-reader.js, inside
+   interview-editorial
 
-   Two views of the same OCR record. READ turns the magazine page by page:
-   the crops as figures, the body regions as prose, the notes as small
-   asides, a page strip to jump by. ARCHIVE is the transcription record:
-   every region with its id, type, box, direction and review status, the
-   original beside the translation, and the proofreader's note. The reader
-   never sees a region id; the checker never has to read around the prose.
+   READ is a reader: the page on a stage at the left, sticky, one page at a
+   time with its regions drawn over it; the text at the right, page by page,
+   set by what each region was on the page - a title block, boxed notes, a
+   caption list with crops, the body as prose. The two are tied through the
+   boxes: the paragraph under the pointer lights up on the page, a region
+   clicked on the page scrolls to its paragraph, and the stage follows the
+   reader down the text. On a phone the stage is a strip at the top that
+   opens the page full screen.
+   ARCHIVE is the transcription record: every region with its id, type, box,
+   direction and review status, the original beside the translation, and
+   the proofreader's note.
 
    Inherits the cover, tools and archive from the base skin; the era skin
    sets the type. Only the body vocabulary is here.
@@ -18,13 +24,30 @@ $sc-ink-soft: #4b535e;
 $sc-ink-faint: #8b929c;
 $sc-rule: #e2e5ea;
 $sc-band: #f5f7fa;
+$sc-stage: #e9e6df;         /* the desk the page lies on */
 $sc-accent: #b45309;       /* the amber of aged newsprint */
+$sc-accent-soft: rgba(180, 83, 9, 0.14);
 $sc-review: #b91c1c;
 $sc-ready: #15803d;
 $sc-display: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
 $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
+$sc-wide: 1180px;          /* the stage and the text side by side from here */
+$sc-phone: 900px;          /* the stage is a strip below this */
+
+/* the reader is wider than an interview: the base skin's #main stops at 1280px and the
+   era shells frame .initial-content at 860-1000px with !important; the html prefix and
+   the !important outrank both, and only on a page that holds the reader */
+html body.layout--interview-editorial:has(.ed--scan) #main,
+html body.layout--interview-editorial:has(.ed--scan) .initial-content { max-width: 1560px !important; }
 
 .layout--interview-editorial .ed--scan {
+  max-width: 1520px;
+
+  /* the cover, the tools, the epilogue and the shelf keep the interview's measure; only the
+     body widens - stated with !important because the era skins (imported after this file)
+     set .ed-body to their own measure at the same specificity */
+  .ed-article > :not(.ed-body) { max-width: 952px; margin-left: auto; margin-right: auto; }
+  &.ed .ed-body { max-width: none !important; }
 
   /* ---- the bar: two views, then the pages ------------------------------ */
   .sc-bar {
@@ -35,7 +58,7 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px 18px;
-    margin: 0 0 28px;
+    margin: 0 0 20px;
     padding: 10px 0;
     border-bottom: 1px solid $sc-rule;
     background: inherit;
@@ -74,18 +97,118 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   }
 
   .sc-pages a:hover { background: $sc-band; color: $sc-ink; }
+  .sc-pages a.is-active { background: $sc-ink; color: #ffffff; }
   .sc-pages__total { margin-left: 8px; color: $sc-ink-faint; }
 
   /* the archive view has no page strip to jump by - its pages are headed */
   &[data-scan-view="archive"] .sc-pages { display: none; }
 
-  /* ---- READ: one page after another ------------------------------------ */
+  /* ---- READ: the stage and the text ------------------------------------ */
+  .sc-reader { display: block; }
+
+  @media (min-width: $sc-wide) {
+    .sc-reader {
+      display: grid;
+      grid-template-columns: minmax(0, 46fr) minmax(0, 54fr);
+      gap: 0 36px;
+      align-items: start;
+    }
+    /* the stage carries the page controls here; the bar need not follow the reader down */
+    .sc-bar { position: static; }
+    /* the original toggle hangs 46px left of a paragraph; the text keeps that much room */
+    .sc-pane { padding-left: 48px; }
+  }
+
+  /* the stage: sticky, as tall as the window, the page inside scrolls and pans */
+  .sc-stage {
+    position: sticky;
+    top: 8px;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 16px);
+    max-height: 1400px;
+    margin: 0 0 24px;
+  }
+
+  .sc-stage__bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 0 0 6px;
+    font-family: $sc-mono;
+    font-size: 12px;
+    color: $sc-ink-soft;
+  }
+
+  .sc-stage__num { margin: 0 2px; white-space: nowrap; }
+  .sc-stage__num b { color: $sc-ink; }
+  .sc-stage__zoom { display: inline-flex; gap: 2px; margin-left: auto; }
+
+  .sc-stage__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26px;
+    min-height: 26px;
+    padding: 0 6px;
+    border: 1px solid $sc-rule;
+    border-radius: 3px;
+    background: none;
+    color: $sc-ink;
+    font: inherit;
+    font-size: 14px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .sc-stage__btn:hover { border-color: $sc-ink; }
+
+  .sc-stage__open { margin-left: 4px; color: $sc-accent; font-weight: 700; text-decoration: none; white-space: nowrap; }
+  .sc-stage__open:hover { text-decoration: underline; }
+  .sc-stage__open[hidden] { display: none; }
+
+  .sc-stage__view {
+    position: relative;
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow: auto;
+    border: 1px solid $sc-rule;
+    border-radius: 3px;
+    background: $sc-stage;
+    scrollbar-width: thin;
+  }
+
+  .sc-stage__view.is-dragging { cursor: grabbing; user-select: none; }
+  .sc-stage.is-zoomed .sc-stage__view { cursor: grab; }
+
+  .sc-stage__canvas { position: relative; width: 100%; }
+
+  .sc-plate { position: relative; margin: 0; padding: 0; }
+  .sc-plate[hidden] { display: none; }
+  .sc-plate__img { display: block; width: 100%; height: auto; }
+  .sc-plate--crops .sc-plate__crops { display: grid; gap: 8px; padding: 10px; }
+  .sc-plate--crops img { display: block; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid $sc-rule; background: #fff; }
+
+  /* the regions over the page: nothing until pointed at */
+  .sc-hotspots { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+  .sc-hotspot { fill: transparent; stroke: transparent; stroke-width: 2; vector-effect: non-scaling-stroke; cursor: pointer; }
+  .sc-hotspot:hover { fill: rgba(20, 23, 28, 0.06); stroke: rgba(20, 23, 28, 0.55); }
+  .sc-hotspot.is-on { stroke: $sc-accent; }
+  .sc-highlight { fill: $sc-accent-soft; stroke: $sc-accent; stroke-width: 2; vector-effect: non-scaling-stroke; pointer-events: none; }
+  .sc-highlight:not(.is-on) { display: none; }
+
+  .sc-stage__hint { margin: 6px 0 0; font-size: 11px; line-height: 1.5; color: $sc-ink-faint; }
+
+  /* ---- READ: the text, page by page ---------------------------------------- */
+  .sc-pane { max-width: 760px; }
   .sc-page { margin: 0 0 56px; scroll-margin-top: 64px; }
 
   .sc-page__head {
     display: flex;
     align-items: baseline;
     gap: 4px;
+    clear: both;
     margin: 0 0 18px;
     padding-top: 14px;
     border-top: 2px solid $sc-ink;
@@ -97,12 +220,13 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   }
 
   .sc-page__of { font-weight: 400; color: $sc-ink-faint; }
+  .sc-page__empty { margin: 0 0 12px; font-size: 13px; color: $sc-ink-faint; }
 
   .sc-text { position: relative; margin: 0 0 18px; }
   .sc-text .ed-trans { white-space: normal; }
   .sc-text .ed-orig-toggle { left: -46px; }
 
-  /* a note or caption region: smaller, softer, indented by a hairline */
+  /* a note or caption region that stands alone: smaller, softer, indented by a hairline */
   .sc-text--aside {
     margin: 14px 0 22px;
     padding-left: 14px;
@@ -114,6 +238,7 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
 
   .sc-text--aside .ed-orig-toggle { left: -60px; }
   .sc-text__label { margin: 0 0 4px; font-family: $sc-display; font-size: 11px; font-weight: 800; letter-spacing: 0.08em; color: $sc-ink-faint; }
+  .sc-text__untranslated { font-size: 14px; line-height: 1.7; color: $sc-ink-soft; }
 
   /* ---- turns: the proofread transcript names its speakers ------------- */
   .sc-turn { margin: 0 0 22px; }
@@ -121,28 +246,140 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   .sc-turn--question .ed-trans { font-size: 17px; font-weight: 600; }
   .sc-turn__credit { margin: 6px 0 0; font-size: 12px; color: $sc-ink-faint; }
 
-  /* the feature's title page: a heading and its standfirst */
-  .sc-heading { margin: 0 0 26px; }
+  /* ---- the title block: the headline lines of a title page, together ------ */
+  .sc-title-block {
+    clear: both;
+    margin: 0 0 24px;
+    padding: 12px 0 14px;
+    border-top: 3px solid $sc-ink;
+    border-bottom: 1px solid $sc-rule;
+  }
 
-  .sc-heading__title {
-    margin: 0 0 12px;
+  .sc-title-block__title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0;
     font-family: $sc-display;
-    font-size: clamp(20px, 2.4vw, 26px);
+    font-size: clamp(19px, 2.1vw, 25px);
     font-weight: 800;
     letter-spacing: -0.01em;
     line-height: 1.3;
     color: $sc-ink;
   }
 
-  .sc-heading--sub { margin-bottom: 18px; }
-  .sc-heading__title--sub { font-size: clamp(17px, 2vw, 20px); font-weight: 700; }
-  /* the heading as printed, under its translation */
-  .sc-heading__orig { margin: -6px 0 0; font-size: 13px; line-height: 1.6; color: $sc-ink-faint; }
+  .sc-title-block__line { position: relative; display: block; }
+  .sc-title-block__t { display: block; }
+  .sc-title-block__o { display: none; margin-top: 1px; font-size: 12px; font-weight: 500; line-height: 1.5; color: $sc-ink-faint; }
 
+  /* a section head inside the piece */
+  .sc-heading {
+    position: relative;
+    clear: both;
+    margin: 26px 0 14px;
+    font-family: $sc-display;
+    font-size: clamp(17px, 1.8vw, 20px);
+    font-weight: 700;
+    line-height: 1.35;
+    color: $sc-ink;
+  }
+
+  .sc-heading__orig { display: none; margin: 2px 0 0; font-size: 12px; font-weight: 500; line-height: 1.5; color: $sc-ink-faint; }
+  .sc-heading .sc-heading__orig { display: none; }
+
+  /* the proofread sets' title page: a heading and its standfirst */
+  .sc-heading-block { position: relative; clear: both; margin: 0 0 26px; }
+  .sc-heading-block__title { margin: 0 0 12px; font-family: $sc-display; font-size: clamp(20px, 2.4vw, 26px); font-weight: 800; letter-spacing: -0.01em; line-height: 1.3; color: $sc-ink; }
+  .sc-heading-block .sc-heading__orig { display: block; margin: -6px 0 0; font-size: 13px; line-height: 1.6; color: $sc-ink-faint; }
   .sc-text--standfirst { font-size: 16px; line-height: 1.7; color: $sc-ink-soft; }
 
+  /* the original lines of the titles, in the views that show originals */
+  &[data-view="parallel"] .sc-title-block__o, &[data-view="original"] .sc-title-block__o,
+  &[data-view="parallel"] .sc-heading .sc-heading__orig, &[data-view="original"] .sc-heading .sc-heading__orig { display: block; }
+  &[data-view="original"] .sc-title-block__t, &[data-view="original"] .sc-heading > .ed-trans { display: none; }
+  &[data-view="original"] .sc-title-block__o, &[data-view="original"] .sc-heading .sc-heading__orig { font-size: inherit; font-weight: inherit; color: inherit; }
+
+  /* ---- the 囲み: a boxed note, floated to the side of the prose where there is room ---- */
+  .sc-box {
+    margin: 16px 0 24px;
+    padding: 14px 16px 6px;
+    border: 1px solid $sc-ink;
+    border-radius: 3px;
+    background: $sc-band;
+    font-size: 14px;
+    line-height: 1.65;
+    color: $sc-ink-soft;
+  }
+
+  .sc-box__para { position: relative; margin: 0 0 10px; }
+  .sc-box__title .ed-trans { font-family: $sc-display; font-size: 13px; font-weight: 800; letter-spacing: 0.04em; color: $sc-ink; }
+  .sc-box .ed-orig-toggle, .sc-captions .ed-orig-toggle { position: static; margin: 0 6px 4px 0; vertical-align: middle; }
+
+  @media (min-width: $sc-wide) {
+    .sc-box { float: right; width: 46%; margin: 4px 0 16px 22px; }
+  }
+
+  /* ---- the captions of a page, with a cut of where each one sits ---------- */
+  .sc-captions {
+    clear: both;
+    display: grid;
+    gap: 8px;
+    margin: 0 0 22px;
+    padding: 10px 12px;
+    border: 1px dashed $sc-rule;
+    border-radius: 4px;
+    list-style: none;
+  }
+
+  .sc-caption { position: relative; display: flex; gap: 12px; margin: 0; font-size: 13px; line-height: 1.55; color: $sc-ink-soft; }
+  .sc-caption__text { flex: 1 1 auto; min-width: 0; }
+
+  .sc-crop {
+    flex: 0 0 64px;
+    width: 64px;
+    height: 64px;
+    border: 1px solid $sc-rule;
+    border-radius: 4px;
+    background: $sc-band no-repeat;
+  }
+
+  .sc-crop.is-cut { border-color: $sc-ink-faint; }
+
+  /* ---- the ties: what the pointer is on ----------------------------------- */
+  .sc-pane [data-scan-page-index] { position: relative; }
+  .sc-pane [data-scan-page-index].is-active::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: -16px;
+    width: 3px;
+    background: $sc-accent;
+  }
+  .sc-pane .sc-caption.is-active::before, .sc-pane .sc-box__para.is-active::before, .sc-pane .sc-title-block__line.is-active::before { left: -10px; }
+  .sc-pane [data-scan-page-index].is-peek { outline: 1px dashed $sc-ink-faint; outline-offset: 5px; }
+  .sc-pane [data-scan-page-index].is-flash { animation: sc-flash 1.4s ease-out; }
+
+  @keyframes sc-flash {
+    0% { outline: 3px solid $sc-accent; outline-offset: 4px; }
+    100% { outline: 3px solid transparent; outline-offset: 10px; }
+  }
+
+  /* ---- the original of a vertical region, set vertically (the ⚙ switch) ---- */
+  &.is-vertical-orig .ed-orig--vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    max-height: min(62vh, 32em);
+    overflow-x: auto;
+    overflow-y: hidden;
+    line-height: 1.95;
+    scrollbar-width: thin;
+  }
+  &.is-vertical-orig .parallel-text__cell--original[open] .ed-orig--vertical { padding: 10px 0 8px; border-left: 0; border-top: 2px solid $sc-rule; }
+  &.is-vertical-orig .sc-text__untranslated.ed-orig--vertical { max-height: min(62vh, 32em); }
+
   /* a data table read off the page; wide ones scroll inside their own box */
-  .sc-table { margin: 0 0 22px; }
+  .sc-table { margin: 0 0 22px; clear: both; }
   .sc-table__caption { margin: 0 0 8px; font-size: 13px; font-weight: 600; color: $sc-ink-soft; }
   .sc-table__scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .sc-table table { width: auto; min-width: 100%; margin: 0; border-collapse: collapse; font-size: 13px; line-height: 1.5; }
@@ -151,17 +388,13 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   .sc-table__orig { margin-top: 6px; }
   .sc-table__orig table { color: $sc-ink-soft; }
 
-  .sc-figure { display: block; margin: 26px 0; padding: 0; }
-
-  /* the whole page, as scanned, at the head of its transcript */
-  .sc-figure--plate { margin: 0 0 28px; }
-  .sc-figure--plate img { width: 100%; }
-  .sc-figure--plate figcaption { font-family: $sc-mono; font-size: 12px; color: $sc-ink-faint; }
+  .sc-figure { display: block; margin: 26px 0; padding: 0; clear: both; }
   .sc-figure img { display: block; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid $sc-rule; border-radius: 2px; }
   .sc-figure figcaption { margin-top: 8px; font-size: 13px; line-height: 1.6; color: $sc-ink-soft; }
 
   .sc-page__next {
     display: inline-block;
+    clear: both;
     margin-top: 8px;
     font-family: $sc-display;
     font-size: 13px;
@@ -171,6 +404,14 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   }
 
   .sc-page__next:hover { text-decoration: underline; }
+
+  /* ---- the page full screen (a phone) -------------------------------------- */
+  .sc-lightbox { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column; background: #111318; }
+  .sc-lightbox[hidden] { display: none; }
+  .sc-lightbox__bar { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; color: #e6e8ec; font-family: $sc-mono; font-size: 12px; }
+  .sc-lightbox__bar .sc-stage__btn { border-color: #46505a; color: #e6e8ec; font-size: 18px; }
+  .sc-lightbox__view { flex: 1 1 auto; overflow: auto; -webkit-overflow-scrolling: touch; touch-action: pan-x pan-y pinch-zoom; }
+  .sc-lightbox__view img { display: block; width: 180%; max-width: none; height: auto; }
 
   /* ---- ARCHIVE: the record ---------------------------------------------- */
   .sc-status { margin: 0 0 32px; padding: 16px 20px; background: $sc-band; border-left: 3px solid $sc-accent; }
@@ -190,6 +431,7 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   .sc-status small { color: $sc-ink-faint; }
   .sc-status__scope { margin: 12px 0 0; font-size: 13px; color: $sc-ink-soft; }
 
+  .sc-archive { max-width: 952px; margin: 0 auto; }
   .sc-apage { margin: 0 0 44px; }
 
   .sc-apage__head {
@@ -245,11 +487,41 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
      so the version buttons do not apply there */
   &[data-scan-view="archive"] .ed-tools__group[aria-label="版本"] { display: none; }
 
-  @media (max-width: 720px) {
-    .sc-bar { position: static; }
-    .sc-text .ed-orig-toggle, .sc-text--aside .ed-orig-toggle { position: static; margin-bottom: 6px; }
-    .sc-region__pair { grid-template-columns: 1fr; }
+  /* ---- one column: the stage above the text, shorter ----------------------- */
+  @media (max-width: ($sc-wide - 1px)) {
+    .sc-stage { top: 0; height: 42vh; max-height: 560px; margin-bottom: 20px; padding: 6px 0; background: inherit; }
+    .sc-pane { max-width: 760px; margin: 0 auto; }
+    .sc-stage__hint { display: none; }
   }
+
+  /* ---- a phone: the stage is a strip; tapping it opens the page ------------ */
+  @media (max-width: $sc-phone) {
+    .sc-bar { position: static; }
+    .sc-stage { flex-direction: row; align-items: center; gap: 10px; height: auto; max-height: none; padding: 6px 0; border-bottom: 1px solid $sc-rule; }
+    .sc-stage__view { flex: 0 0 48px; width: 48px; height: 60px; overflow: hidden; border-radius: 3px; cursor: pointer; }
+    .sc-stage__canvas { width: 100% !important; height: 100%; }
+    .sc-plate { height: 100%; }
+    .sc-plate__img { height: 100%; object-fit: cover; object-position: top; }
+    .sc-hotspots { display: none; }
+    .sc-plate--crops .sc-plate__crops { display: block; padding: 0; }
+    .sc-plate--crops img { border: 0; }
+    .sc-stage__bar { flex: 1 1 auto; flex-wrap: wrap; margin: 0; }
+    .sc-stage__zoom { display: none; }
+    .sc-text .ed-orig-toggle, .sc-text--aside .ed-orig-toggle { position: static; margin-bottom: 6px; }
+    .sc-pane [data-scan-page-index].is-active::before { display: none; }
+    .sc-region__pair { grid-template-columns: 1fr; }
+    .sc-box { padding: 12px 12px 4px; }
+    .sc-crop { flex-basis: 52px; width: 52px; height: 52px; }
+  }
+}
+
+.layout--interview-editorial.sc-lightbox-open { overflow: hidden; }
+
+/* _home-dashboard.scss sets html, body { overflow-x: hidden } below 900px for every page,
+   which makes body a scroll container that never scrolls and unsticks the strip (measured:
+   the stage scrolled away with the text). clip keeps the clipping without the container. */
+@media (max-width: $sc-phone) {
+  html:has(.ed--scan), html:has(.ed--scan) body { overflow-x: clip; }
 }
 
 /* dark theme, the base's ground */
@@ -258,9 +530,15 @@ $sc-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
   .sc-views { border-color: #e6e8ec; }
   .sc-views__btn { color: #e6e8ec; }
   .sc-views__btn + .sc-views__btn { border-color: #e6e8ec; }
-  .sc-views__btn.is-active, .sc-views__btn[aria-pressed="true"] { background: #e6e8ec; color: #15181d; }
-  .sc-pages a:hover, .sc-status, .sc-region__kind { background: #15181d; }
-  .sc-page__head, .sc-apage__head { border-color: #e6e8ec; }
-  .sc-status dd, .sc-region__id, .sc-region__cell { color: #e6e8ec; }
-  .sc-region, .sc-figure img, .sc-region__crop, .sc-text--aside { border-color: #2a2f37; }
+  .sc-views__btn.is-active, .sc-views__btn[aria-pressed="true"], .sc-pages a.is-active { background: #e6e8ec; color: #15181d; }
+  .sc-pages a:hover, .sc-status, .sc-region__kind, .sc-box, .sc-crop { background: #15181d; }
+  .sc-page__head, .sc-apage__head, .sc-title-block { border-color: #e6e8ec; }
+  .sc-title-block { border-bottom-color: #2a2f37; }
+  .sc-status dd, .sc-region__id, .sc-region__cell, .sc-title-block__title, .sc-heading, .sc-heading-block__title, .sc-box__title .ed-trans, .sc-stage__num b, .sc-stage__btn { color: #e6e8ec; }
+  .sc-region, .sc-figure img, .sc-region__crop, .sc-text--aside, .sc-captions, .sc-stage__view, .sc-stage__btn, .sc-crop, .sc-stage, .sc-plate--crops img { border-color: #2a2f37; }
+  .sc-box { border-color: #e6e8ec; color: #c7ccd4; }
+  .sc-stage__view { background: #1c1f26; }
+  .sc-caption, .sc-text--aside, .sc-text__untranslated, .sc-text--standfirst { color: #aeb5bf; }
+  .sc-hotspot:hover { fill: rgba(230, 232, 236, 0.1); stroke: rgba(230, 232, 236, 0.7); }
+  &.is-vertical-orig .parallel-text__cell--original[open] .ed-orig--vertical { border-top-color: #2a2f37; }
 }

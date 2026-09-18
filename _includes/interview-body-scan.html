@@ -1,22 +1,33 @@
 {%- comment -%}
-The body of a scanned magazine archive - CONTINUE, Nintendo DREAM - in two
-views that were one page before, and served neither reader well.
+The body of a scanned magazine archive - Nintendo DREAM, CONTINUE, ダ・ヴィンチ -
+in two views.
 
-  READ     turning the magazine: one page at a time, the region crops as
-           figures with their captions, the body regions as prose, the
-           notes as small asides. Nothing about how it was made.
+  READ     the page and its text side by side: the stage on the left turns
+           the magazine one page at a time (zoom, drag, ← →), the text on
+           the right runs page by page. Where a region carries its box
+           (scan_box, from tools/scan-boxes.py or the CONTINUE pipeline)
+           the two are tied together: a paragraph under the pointer lights
+           up on the page, a region clicked on the page scrolls to its
+           paragraph, and the stage follows the reader down the text.
+           The text is set by what the region was on the page - a title
+           block for the headline lines, boxed notes for the 囲み, the
+           captions in a group with a crop of where they sit, the body as
+           prose with its speakers - not as one flat list.
   ARCHIVE  the OCR record: every region on every page with its id, type,
            box, writing direction, review status, and the correction the
            proofreader logged. For whoever is checking the transcription.
 
 The data is translation_segments, one per OCR region, carrying scan_page,
-scan_box, region_type, review_status and comment; `speaker` on these is the
-region type (body, note, image, caption), which is why the old layout printed
-"body 受访" over every paragraph. It is never shown here.
+region_type, review_status and comment; `speaker` on these is the region
+type (body, note, image, caption) for the unproofread sets, which is why the
+first layout printed "body 受访" over every paragraph. It is never shown here.
+The first image of a page whose path has /pages/ (or whose id ends in
+-fullpage) is the page itself and goes on the stage; any other image is a
+crop and stays in the text. A page with no plate shows its crops on the
+stage instead, and a region with no box is simply not tied.
 
-The full-page scans live under archive/, which the build excludes; only the
-region crops are in assets. So ARCHIVE lists boxes as coordinates rather
-than drawing them - the record is complete, the picture is not.
+assets/js/scan-reader.js drives the stage; without it the first page is
+shown and the text reads as it always did.
 {%- endcomment -%}
 {% assign segs = page.translation_segments | default: page.segments %}
 {% assign page_count = 0 %}
@@ -26,9 +37,11 @@ than drawing them - the record is complete, the picture is not.
 {% endfor %}
 {% assign pending = page.pending_review_regions | default: 0 %}
 {% assign review_count = 0 %}
-{% for s in segs %}{% if s.review_status == "review" %}{% assign review_count = review_count | plus: 1 %}{% endif %}{% endfor %}
+{% assign boxed_count = 0 %}
+{% for s in segs %}{% if s.review_status == "review" %}{% assign review_count = review_count | plus: 1 %}{% endif %}{% if s.scan_box %}{% assign boxed_count = boxed_count | plus: 1 %}{% endif %}{% endfor %}
+{% assign generic = "body,note,caption,image,heading,header,figure" | split: "," %}
 
-<div class="ed-body sc parallel-text parallel-text--web-article" id="parallel-reading">
+<div class="ed-body sc parallel-text parallel-text--web-article{% if boxed_count > 0 %} sc--boxed{% endif %}" id="parallel-reading" data-scan-reader data-page-count="{{ page_count }}">
 
   {%- comment -%} the two views, and the page strip for READ {%- endcomment -%}
   <div class="sc-bar" role="group" aria-label="视图">
@@ -36,24 +49,86 @@ than drawing them - the record is complete, the picture is not.
       <button type="button" class="sc-views__btn is-active" data-scan-view-choice="read" aria-pressed="true">阅读</button>
       <button type="button" class="sc-views__btn" data-scan-view-choice="archive" aria-pressed="false">档案</button>
     </div>
-    <nav class="sc-pages" aria-label="页码">
+    <nav class="sc-pages" aria-label="页码" data-scan-strip>
       {% for i in (1..page_count) %}
-        <a href="#scan-page-{{ i }}">{{ i }}</a>
+        <a href="#scan-page-{{ i }}" data-scan-goto="{{ i | minus: 1 }}"{% if forloop.first %} class="is-active"{% endif %}>{{ i }}</a>
       {% endfor %}
       <span class="sc-pages__total">共 {{ page_count }} 页</span>
     </nav>
   </div>
 
   {%- comment -%} ---------------- READ ---------------- {%- endcomment -%}
-  <div class="sc-read" data-scan-pane="read">
+  <div class="sc-reader" data-scan-pane="read">
+
+    {%- comment -%} the stage: one page at a time, the regions drawn over it {%- endcomment -%}
+    <aside class="sc-stage" data-scan-stage aria-label="页图">
+      <div class="sc-stage__bar">
+        <button type="button" class="sc-stage__btn" data-scan-prev aria-label="上一页">‹</button>
+        <span class="sc-stage__num">第 <b data-scan-current>1</b> / {{ page_count }} 页</span>
+        <button type="button" class="sc-stage__btn" data-scan-next aria-label="下一页">›</button>
+        <span class="sc-stage__zoom" role="group" aria-label="缩放">
+          <button type="button" class="sc-stage__btn" data-scan-zoom-out aria-label="缩小">−</button>
+          <button type="button" class="sc-stage__btn" data-scan-zoom-reset aria-label="适应宽度">○</button>
+          <button type="button" class="sc-stage__btn" data-scan-zoom-in aria-label="放大">+</button>
+        </span>
+        <a class="sc-stage__open" data-scan-open href="#" target="_blank" rel="noopener">整页 ↗</a>
+      </div>
+      <div class="sc-stage__view" data-scan-viewport>
+        <div class="sc-stage__canvas" data-scan-canvas>
+          {% for i in (1..page_count) %}
+            {% assign idx = i | minus: 1 %}
+            {% assign plate = nil %}
+            {% for s in segs %}
+              {% assign sp = s.scan_page | default: 0 %}
+              {% if sp != idx or s.image == nil %}{% continue %}{% endif %}
+              {% if s.image contains "/pages/" or s.region_id contains "fullpage" %}{% assign plate = s %}{% break %}{% endif %}
+            {% endfor %}
+            <figure class="sc-plate{% unless plate %} sc-plate--crops{% endunless %}" data-scan-page="{{ idx }}"{% unless forloop.first %} hidden{% endunless %}>
+              {% if plate %}
+                <img class="sc-plate__img" {% if forloop.first %}src{% else %}data-src{% endif %}="{{ plate.image | relative_url }}" alt="{{ plate.alt | default: page.title | escape }}"{% if plate.width %} width="{{ plate.width }}" height="{{ plate.height }}"{% endif %} decoding="async">
+                <svg class="sc-hotspots" data-scan-hotspots preserveAspectRatio="none"{% if plate.width %} viewBox="0 0 {{ plate.width }} {{ plate.height }}"{% endif %} aria-hidden="true">
+                  {% for s in segs %}
+                    {% assign sp = s.scan_page | default: 0 %}
+                    {% if sp != idx or s.scan_box == nil %}{% continue %}{% endif %}
+                    {% assign boxes = s.scan_boxes | default: nil %}
+                    {% if boxes == nil %}{% assign boxes = "" | split: "" | push: s.scan_box %}{% endif %}
+                    {% for b in boxes %}<rect class="sc-hotspot sc-hotspot--{{ s.region_type | default: "body" }}" data-scan-seg="segment-{{ forloop.parentloop.index }}" x="{{ b[0] }}" y="{{ b[1] }}" width="{{ b[2] | minus: b[0] }}" height="{{ b[3] | minus: b[1] }}"><title>{{ s.translation | default: s.original | default: s.speaker | strip_newlines | truncate: 60 | escape }}</title></rect>{% endfor %}
+                  {% endfor %}
+                  <rect class="sc-highlight" data-scan-highlight x="0" y="0" width="0" height="0"/>
+                </svg>
+              {% else %}
+                {%- comment -%} no page image in the record: the crops of this page stand in for it {%- endcomment -%}
+                <div class="sc-plate__crops">
+                  {% for s in segs %}
+                    {% assign sp = s.scan_page | default: 0 %}
+                    {% if sp != idx or s.image == nil %}{% continue %}{% endif %}
+                    <img src="{{ s.image | relative_url }}" alt="{{ s.alt | default: '' | escape }}" loading="lazy" decoding="async">
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </figure>
+          {% endfor %}
+        </div>
+      </div>
+      <p class="sc-stage__hint">{% if boxed_count > 0 %}点页上的文字区域可跳到对应段落；{% endif %}页面随阅读翻动，← → 翻页</p>
+    </aside>
+
+    {%- comment -%} the text, page by page, set by what each region was on the page {%- endcomment -%}
+    <div class="sc-pane" data-scan-text>
     {% for i in (1..page_count) %}
       {% assign idx = i | minus: 1 %}
-      <section class="sc-page" id="scan-page-{{ i }}">
+      {% assign grp = "" %}
+      <section class="sc-page" id="scan-page-{{ i }}" data-scan-page-section="{{ idx }}">
         <header class="sc-page__head">
           <span class="sc-page__num">第 {{ i }} 页</span>
           <span class="sc-page__of">/ {{ page_count }}</span>
         </header>
+        {%- comment -%} a cover or a contents page: the picture is the record, there is no text to set {%- endcomment -%}
+        {% assign has_text = false %}
+        {% for s in segs %}{% assign sp = s.scan_page | default: 0 %}{% if sp == idx and s.image == nil %}{% assign has_text = true %}{% break %}{% endif %}{% endfor %}
+        {% unless has_text %}<p class="sc-page__empty">这一页只有页图——封面、目次或整版图片，见页图。</p>{% endunless %}
         {% for s in segs %}
+          {% assign seg_n = forloop.index %}
           {% assign sp = s.scan_page | default: 0 %}
           {% if sp != idx %}{% continue %}{% endif %}
           {% assign kind = s.region_type | default: s.speaker | default: "body" %}
@@ -66,7 +141,6 @@ than drawing them - the record is complete, the picture is not.
             question it is the question.
           {%- endcomment -%}
           {% assign who = s.speaker | default: "" %}
-          {% assign generic = "body,note,caption,image,heading,header,figure" | split: "," %}
           {% if generic contains who %}{% assign who = "" %}{% endif %}
           {% assign is_q = false %}{% if who != "" %}{% assign dash = who | slice: 0, 2 %}{% if dash == "──" or dash == "——" %}{% assign is_q = true %}{% endif %}{% endif %}
           {%- comment -%}
@@ -107,21 +181,42 @@ than drawing them - the record is complete, the picture is not.
             {% assign t_text = t_body %}{% assign o_text = o_body %}
           {% endif %}
           {% assign seg_lang = s.original_lang | default: original_lang %}
+          {%- comment -%} where the region sits on the page, for the stage {%- endcomment -%}
+          {% capture seg_at %} data-scan-page-index="{{ sp }}"{% if s.scan_box %} data-scan-box="{{ s.scan_box | join: ',' }}"{% endif %}{% if s.scan_boxes %} data-scan-boxes="{% for b in s.scan_boxes %}{{ b | join: ',' }}{% unless forloop.last %};{% endunless %}{% endfor %}"{% endif %}{% if s.writing_direction %} data-dir="{{ s.writing_direction }}"{% endif %}{% endcapture %}
+          {%- comment -%} the original of a vertical region is set vertically (assets/js/scan-reader.js, the ⚙ switch) {%- endcomment -%}
+          {% capture orig_cell %}<details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}><summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary><div class="ed-orig{% if s.writing_direction == "vertical" %} ed-orig--vertical{% endif %}">{{ o_text | newline_to_br }}</div></details>{% endcapture %}
+
+          {%- comment -%}
+            Which group this region joins: the headline lines of a title page
+            run together in one block, the captions of a page in one list, the
+            paragraphs of a 囲み in one box. Anything else stands alone.
+          {%- endcomment -%}
+          {% assign is_plate = false %}{% if s.image %}{% if s.image contains "/pages/" or s.region_id contains "fullpage" %}{% assign is_plate = true %}{% endif %}{% endif %}
+          {% if is_plate or s.caption_for %}{% continue %}{% endif %}
+          {% assign g = "" %}
+          {% if s.image %}{% assign g = "" %}
+          {% elsif s.type == "table" and s.rows_zh %}{% assign g = "" %}
+          {% elsif is_head and s.heading_level == 2 %}{% assign g = "title" %}
+          {% elsif kind == "caption" and t_text != "" %}{% assign g = "captions" %}
+          {% elsif kind == "note" and t_text != "" %}{% assign g = "box" %}
+          {% endif %}
+          {% if g != grp %}
+            {% case grp %}{% when "title" %}</h2></header>{% when "captions" %}</ul>{% when "box" %}</aside>{% endcase %}
+            {% case g %}{% when "title" %}<header class="sc-title-block"><h2 class="sc-title-block__title">{% when "captions" %}<ul class="sc-captions" aria-label="图注">{% when "box" %}<aside class="sc-box">{% endcase %}
+            {% assign grp = g %}
+          {% endif %}
+
           {% if s.image %}
-            {%- comment -%} a whole page is a plate; a crop is a figure {%- endcomment -%}
-            {% assign is_plate = false %}{% if s.image contains "/pages/" or s.region_id contains "fullpage" %}{% assign is_plate = true %}{% endif %}
-            <figure class="sc-figure{% if is_plate %} sc-figure--plate{% endif %}">
+            {%- comment -%} a crop from the page, in the text where the transcription put it {%- endcomment -%}
+            <figure class="sc-figure" id="segment-{{ seg_n }}"{{ seg_at }}>
               <img src="{{ s.image | relative_url }}" alt="{{ s.alt | default: s.translation | default: page.title | escape }}" loading="lazy" decoding="async">
-              {%- comment -%} a caption region that names this image follows it; a plate is captioned by its own alt {%- endcomment -%}
-              {% assign captioned = false %}
               {% for c in segs %}
-                {% if c.caption_for == s.region_id and c.translation %}<figcaption>{{ c.translation }}</figcaption>{% assign captioned = true %}{% endif %}
+                {% if c.caption_for == s.region_id and c.translation %}<figcaption>{{ c.translation }}</figcaption>{% endif %}
               {% endfor %}
-              {% if captioned == false and is_plate and s.alt %}<figcaption>{{ s.alt }}</figcaption>{% endif %}
             </figure>
           {% elsif s.type == "table" and s.rows_zh %}
             {%- comment -%} a data table from the page: the translation as a table, the printed rows behind the toggle {%- endcomment -%}
-            <div class="sc-table parallel-text__block" id="segment-{{ forloop.index }}">
+            <div class="sc-table parallel-text__block" id="segment-{{ seg_n }}"{{ seg_at }}>
               {% if s.table_caption %}<p class="sc-table__caption">{{ s.table_caption }}</p>{% endif %}
               <div class="sc-table__scroll">
                 <table>
@@ -143,49 +238,89 @@ than drawing them - the record is complete, the picture is not.
                 </div>
               </details>
             </div>
-          {% elsif s.caption_for %}
-            {%- comment -%} rendered under its image above {%- endcomment -%}
-          {% elsif s.type == "header" or s.type == "heading" or kind == "heading" %}
-            {%- comment -%} the section title is the speaker field; the text under it is the standfirst {%- endcomment -%}
-            <header class="sc-heading{% if s.heading_level == 3 %} sc-heading--sub{% endif %}" id="segment-{{ forloop.index }}">
-              {% if who != "" %}{% if s.heading_level == 3 %}<h3 class="sc-heading__title sc-heading__title--sub">{{ who }}</h3>{% else %}<h2 class="sc-heading__title">{{ who }}</h2>{% endif %}{% endif %}
-              {%- comment -%} a heading transcribed from the page keeps its Japanese under the translation; a standfirst, when there is one, is the pair below {%- endcomment -%}
+          {% elsif g == "title" %}
+            {%- comment -%}
+              One line of the headline. The scan importer puts the line in
+              `speaker` (translated with the page) and a second rendering of
+              the same line in `translation`; the line is shown once, the
+              original under it in the views that show originals.
+            {%- endcomment -%}
+            {% assign line_t = who %}{% if line_t == "" %}{% assign line_t = t_text %}{% endif %}
+            <span class="sc-title-block__line parallel-text__block" id="segment-{{ seg_n }}"{{ seg_at }}><span class="sc-title-block__t ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ line_t }}</span>{% if o_text != "" and o_text != line_t %}<span class="sc-title-block__o parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>{{ o_text }}</span>{% endif %}</span>
+          {% elsif is_head and s.heading_level == 3 %}
+            {%- comment -%} a section head inside the piece {%- endcomment -%}
+            {% assign line_t = who %}{% if line_t == "" %}{% assign line_t = t_text %}{% endif %}
+            <h3 class="sc-heading parallel-text__block" id="segment-{{ seg_n }}"{{ seg_at }}><span class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ line_t }}</span>{% if o_text != "" and o_text != line_t %} <span class="sc-heading__orig parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>{{ o_text }}</span>{% endif %}</h3>
+          {% elsif is_head %}
+            {%- comment -%} the proofread sets: the section title is the speaker field, the text under it is the standfirst {%- endcomment -%}
+            <header class="sc-heading-block" id="segment-{{ seg_n }}"{{ seg_at }}>
+              {% if who != "" %}<h2 class="sc-heading-block__title">{{ who }}</h2>{% endif %}
               {% if t_text == "" and o_text != "" %}<p class="sc-heading__orig"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>{{ o_text }}</p>{% endif %}
               {% if t_text != "" %}
               <div class="sc-text sc-text--standfirst parallel-text__block">
                 <div class="ed-turn__text parallel-text__pair">
-                  <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
-                    <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
-                    <div class="ed-orig">{{ o_text | newline_to_br }}</div>
-                  </details>
+                  {{ orig_cell }}
                   <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
                 </div>
               </div>
               {% endif %}
             </header>
+          {% elsif g == "captions" %}
+            <li class="sc-caption parallel-text__block" id="segment-{{ seg_n }}"{{ seg_at }}>
+              {% if s.scan_box %}<span class="sc-crop" data-scan-crop data-scan-page-index="{{ sp }}" data-scan-box="{{ s.scan_box | join: ',' }}" aria-hidden="true"></span>{% endif %}
+              <div class="sc-caption__text ed-turn__text parallel-text__pair">
+                {{ orig_cell }}
+                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
+              </div>
+            </li>
+          {% elsif g == "box" %}
+            {%- comment -%} a paragraph of the 囲み; a short first line is its title {%- endcomment -%}
+            {% assign t_len = t_text | size %}
+            <div class="sc-box__para sc-text parallel-text__block{% if t_len <= 20 %} sc-box__title{% endif %}" id="segment-{{ seg_n }}"{{ seg_at }}>
+              {% if label != "" %}<p class="sc-text__label">{{ label }}</p>{% endif %}
+              <div class="ed-turn__text parallel-text__pair">
+                {{ orig_cell }}
+                <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
+              </div>
+            </div>
           {% elsif t_text != "" %}
             {% assign classes = "sc-text parallel-text__block" %}
             {% if is_q %}{% assign classes = classes | append: " ed-turn ed-turn--question sc-turn sc-turn--question has-speaker speaker-is-question" %}
             {% elsif who != "" %}{% assign classes = classes | append: " ed-turn ed-turn--answer sc-turn sc-turn--answer has-speaker speaker-is-guest" %}
             {% elsif kind == "note" or kind == "caption" or label != "" %}{% assign classes = classes | append: " sc-text--aside" %}{% endif %}
-            <div class="{{ classes }}" id="segment-{{ forloop.index }}"{% if who != "" %} data-speaker="{% if is_q %}{{ interviewer_label | escape }}{% else %}{{ who | escape }}{% endif %}"{% endif %}>
+            <div class="{{ classes }}" id="segment-{{ seg_n }}"{{ seg_at }}{% if who != "" %} data-speaker="{% if is_q %}{{ interviewer_label | escape }}{% else %}{{ who | escape }}{% endif %}"{% endif %}>
               {% if is_q %}<p class="ed-turn__who sc-turn__who">{{ interviewer_label }}</p>{% elsif who != "" %}<p class="ed-turn__who sc-turn__who">{{ who }}</p>{% elsif label != "" %}<p class="sc-text__label">{{ label }}</p>{% endif %}
               <div class="ed-turn__text parallel-text__pair">
-                <details class="parallel-text__cell parallel-text__cell--original"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>
-                  <summary class="ed-orig-toggle parallel-text__original-toggle" aria-label="展开这一段的原文"><span aria-hidden="true">{% if seg_lang != "" %}{{ seg_lang | slice: 0, 2 | upcase }}{% else %}原{% endif %}</span></summary>
-                  <div class="ed-orig">{{ o_text | newline_to_br }}</div>
-                </details>
+                {{ orig_cell }}
                 <div class="ed-trans parallel-text__cell parallel-text__cell--translation" lang="{{ translation_lang }}">{{ t_text | newline_to_br }}</div>
               </div>
               {% if is_q and t_body != "" %}<p class="sc-turn__credit">{{ t_body | newline_to_br }}</p>{% endif %}
             </div>
+          {% elsif o_text != "" %}
+            {%- comment -%} a region with no translation yet: the original alone, so nothing on the page goes missing {%- endcomment -%}
+            <div class="sc-text sc-text--aside parallel-text__block" id="segment-{{ seg_n }}"{{ seg_at }}>
+              <div class="ed-turn__text parallel-text__pair">
+                <div class="ed-orig{% if s.writing_direction == "vertical" %} ed-orig--vertical{% endif %} sc-text__untranslated"{% if seg_lang != "" %} lang="{{ seg_lang }}"{% endif %}>{{ o_text | newline_to_br }}</div>
+              </div>
+            </div>
           {% endif %}
         {% endfor %}
+        {% case grp %}{% when "title" %}</h2></header>{% when "captions" %}</ul>{% when "box" %}</aside>{% endcase %}
         {% if i < page_count %}
-          <a class="sc-page__next" href="#scan-page-{{ i | plus: 1 }}">下一页 →</a>
+          <a class="sc-page__next" href="#scan-page-{{ i | plus: 1 }}" data-scan-goto="{{ i }}">下一页 →</a>
         {% endif %}
       </section>
     {% endfor %}
+    </div>
+  </div>
+
+  {%- comment -%} the page image on a phone: full screen, scrollable, pinch to zoom {%- endcomment -%}
+  <div class="sc-lightbox" data-scan-lightbox hidden role="dialog" aria-label="页图">
+    <div class="sc-lightbox__bar">
+      <span data-scan-lightbox-title>页图</span>
+      <button type="button" class="sc-stage__btn" data-scan-lightbox-close aria-label="关闭">×</button>
+    </div>
+    <div class="sc-lightbox__view" data-scan-lightbox-view></div>
   </div>
 
   {%- comment -%} ---------------- ARCHIVE ---------------- {%- endcomment -%}
@@ -198,6 +333,7 @@ than drawing them - the record is complete, the picture is not.
           {% endfor %}
         {% endif %}
         <div><dt>regions</dt><dd>{{ segs.size }}</dd></div>
+        <div><dt>located</dt><dd>{{ boxed_count }}</dd></div>
         <div><dt>pending review</dt><dd>{{ review_count }}{% if pending != 0 and pending != review_count %} <small>(declared {{ pending }})</small>{% endif %}</dd></div>
       </dl>
       {% if page.review_scope %}<p class="sc-status__scope">{{ page.review_scope }}</p>{% endif %}
@@ -274,3 +410,4 @@ than drawing them - the record is complete, the picture is not.
     set(stored === "archive" ? "archive" : "read");
   })();
 </script>
+<script src="{{ '/assets/js/scan-reader.js' | relative_url }}" defer></script>

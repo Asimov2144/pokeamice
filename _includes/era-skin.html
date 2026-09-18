@@ -23,7 +23,7 @@ could attach.
 {%- assign era_skin = "" -%}
 {%- assign era_label = "" -%}
 
-{%- if era_layout == "parallel-translation" or era_layout == "scan-translation" or era_layout == "interview-editorial" -%}
+{%- if era_layout == "parallel-translation" or era_layout == "interview-editorial" -%}
   {%- assign post_year = page.date | date: "%Y" | plus: 0 -%}
   {%- comment -%}
     An explicit era_skin is honoured only if it names one of the eras below.
