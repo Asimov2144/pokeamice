@@ -1,0 +1,33 @@
+{
+ "key": "eec2dc2a18e345e3",
+ "picks": [
+  {
+   "i": 56,
+   "kind": "quote",
+   "hook": "报道：1989年，Game Boy发布5天后，田尻智和杉森建将《GAME FREAK》转型为公司",
+   "why": "点出宝可梦起源的两个关键时间点，把同人志与公司化、新硬件放在同一年。",
+   "more": "田尻智和杉森建后来是宝可梦的核心开发者，GAME FREAK即其公司名。"
+  },
+  {
+   "i": 57,
+   "kind": "question",
+   "hook": "为什么田尻智认为非动作游戏在掌机上也可行？",
+   "why": "说明Game Boy早期被定位为益智动作平台，而《The Final Fantasy Legend》的成功改变了田尻的判断。",
+   "more": "史克威尔的《The Final Fantasy Legend》即《魔界塔士Sa·Ga》。"
+  },
+  {
+   "i": 58,
+   "kind": "quote",
+   "hook": "报道：田尻从《奥特赛文》获得胶囊怪兽灵感，1990年秋向任天堂提案",
+   "why": "交代胶囊怪兽名称来源、联机交换构想以及项目提案被任天堂决定资助的时间。",
+   "more": "《奥特赛文》是接续《奥特曼》的电视奇幻系列；Game Link Cable是联机线。"
+  },
+  {
+   "i": 59,
+   "kind": "question",
+   "hook": "为什么“Capsule Monsters”没能成为正式名称？",
+   "why": "解释商标注册受阻和“Capumon”缩写不佳，导致标题改为“Pocket Monsters”再到“Pokémon”。",
+   "more": "“Pocket Monsters”后来简称为“Pokémon”。"
+  }
+ ]
+}

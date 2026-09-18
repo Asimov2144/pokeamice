@@ -1,0 +1,5 @@
+---
+layout: null
+sitemap: false
+---
+{"quotes":[{% include_cached quote-pool.html quotes=site.data.quotes.quotes %}]}

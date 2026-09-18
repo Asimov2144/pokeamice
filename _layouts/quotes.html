@@ -1,0 +1,68 @@
+---
+layout: default
+---
+{%- comment -%}
+Every line the library has picked out (_data/quotes.yml), newest first: the hook, the
+line, who said it and where, each linked to its row in the entry. The list is drawn
+in the browser from assets/js/quotes.json (the same pool the home card reaches for),
+which already carries every quote's URL - a thousand where_exp lookups in Liquid would
+cost the build minutes for nothing. A filter box narrows by any word.
+{%- endcomment -%}
+{%- assign qs_all = site.data.quotes.quotes -%}
+<div id="main" role="main">
+  <div class="archive archive--person archive--quotes">
+    <section class="people quotes">
+      <header class="people__head">
+        <p class="person__kicker"><a href="{{ '/' | relative_url }}">首页</a></p>
+        <h1 class="person__name">{{ page.title }}</h1>
+        <p class="people__lede">访谈里值得单独拿出来读的句子，共 {{ qs_all.size }} 句，来自 {{ qs_all | map: "post" | uniq | size }} 篇。每句链到条目里的原位；首页的「今日一句」从这里轮流推送。钩子与解析按本站译文归纳（DeepSeek 初稿），原文可在条目里对照。</p>
+      </header>
+      <div class="quotes__controls">
+        <input type="search" id="quotes-q" placeholder="搜钩子、句子、人物、作品、年份…" autocomplete="off" aria-label="筛选">
+        <label><input type="checkbox" id="quotes-questions"> 只看疑问句</label>
+        <span id="quotes-count" class="credits__count">{{ qs_all.size }} 句</span>
+      </div>
+      <ol class="quotes__list" id="quotes-list" data-quotes="{{ '/assets/js/quotes.json' | relative_url }}"><li class="quotes__loading">正在载入句库…</li></ol>
+      <p class="credits__more"><button type="button" id="quotes-more" hidden>再显示 100 句</button></p>
+    </section>
+  </div>
+</div>
+<script>
+(function () {
+  var q = document.getElementById("quotes-q"), onlyQ = document.getElementById("quotes-questions"), list = document.getElementById("quotes-list"),
+      count = document.getElementById("quotes-count"), more = document.getElementById("quotes-more");
+  if (!list) return;
+  var all = [], view = [], shown = 0, PAGE = 100;
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return {"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]; }); }
+  function item(x) {
+    return '<li class="quotes__item is-kind-' + esc(x.k) + '"><a class="quotes__hook" href="' + esc(x.u) + '">' + esc(x.h) + '</a>' +
+      '<p class="quotes__zh">' + esc(x.z) + '</p>' +
+      '<p class="quotes__src">' + (x.w ? '<b>' + esc(x.w) + '</b> · ' : '') + '<a href="' + esc(x.u) + '">' + esc(x.t) + '</a>' + (x.p ? ' · ' + esc(x.p) : '') + ' · ' + esc(x.y) + (x.r ? ' <small>（报道文字）</small>' : '') + '</p></li>';
+  }
+  function render(reset) {
+    if (reset) { list.innerHTML = ""; shown = 0; }
+    var end = Math.min(view.length, shown + PAGE), h = "";
+    for (var i = shown; i < end; i++) h += item(view[i]);
+    list.insertAdjacentHTML("beforeend", h);
+    shown = end;
+    more.hidden = shown >= view.length;
+    count.textContent = view.length + " 句";
+  }
+  function apply() {
+    var s = (q.value || "").trim().toLowerCase(), qq = onlyQ && onlyQ.checked;
+    view = all.filter(function (x) {
+      if (qq && x.k !== "question") return false;
+      if (!s) return true;
+      return [x.h, x.z, x.w, x.t, x.p, x.y].join(" ").toLowerCase().indexOf(s) >= 0;
+    });
+    render(true);
+  }
+  fetch(list.dataset.quotes).then(function (r) { return r.json(); }).then(function (d) {
+    all = (d.quotes || []).sort(function (a, b) { return String(b.d).localeCompare(String(a.d)); });
+    apply();
+    q.addEventListener("input", apply);
+    if (onlyQ) onlyQ.addEventListener("change", apply);
+    more.addEventListener("click", function () { render(false); });
+  }).catch(function () { list.innerHTML = '<li class="quotes__loading">句库载入失败</li>'; });
+})();
+</script>

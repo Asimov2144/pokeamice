@@ -74,6 +74,8 @@ Below 900px the rail folds into a <details>, and a strip of dimension chips
     <div class="front__main search-lab__main">
       {% include home-dimensions.html strip=true %}
       <div class="search-lab__results front__results" id="filteredSearchResults" data-page-size="36" data-prerendered="true" data-compact="true" data-catalogue="{{ '/assets/js/catalogue.json' | relative_url }}">
+        {%- comment -%} 今日一句 leads the entries: a wide card, the first brick of the masonry {%- endcomment -%}
+        {% include home-quote.html %}
         {% include home-feed.html %}{% for post in feed_posts %}{% include entry-card.html card_post=post compact=true %}{% endfor %}
       </div>
       <div class="search-lab__more">

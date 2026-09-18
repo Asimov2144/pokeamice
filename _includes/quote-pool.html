@@ -1,0 +1,38 @@
+{%- comment -%}
+A list of quotes (_data/quotes.yml records) as JSON objects, each with the post's URL
+(+ #segment-N), the card's cover (the entry's own first picture, else the
+collection's tile or the speaker's portrait - cover-fallback.html) and the speaker's
+avatar resolved at build time. Pass `quotes`; emits the objects comma-separated, no
+brackets, in the order given. The posts are walked once and their quotes picked out
+with `where`, so a thousand quotes cost one pass over the library.
+
+  id · u url · h hook · z translation · j original · w speaker · a avatar · t title
+  p publication · y year · d date · k kind · r reported · e why · m more · l links
+  c cover · ck cover kind (own / tile / portrait)
+{%- endcomment -%}
+{%- assign qp_list = include.quotes -%}
+{%- assign qp_first = true -%}
+{%- for qp_post in site.posts -%}
+  {%- assign qp_stem = qp_post.path | split: "/" | last | remove: ".md" -%}
+  {%- assign qp_hits = qp_list | where: "post", qp_stem -%}
+  {%- if qp_hits.size == 0 -%}{%- continue -%}{%- endif -%}
+  {%- assign qp_cover = qp_post.image | default: qp_post.featured_image | default: "" -%}
+  {%- if qp_cover == "" -%}
+    {%- assign qp_items = qp_post.translation_segments | default: qp_post.parallel_items -%}
+    {%- if qp_items -%}
+      {%- assign qp_pics = qp_items | where: "type", "image" -%}
+      {%- assign qp_pic = qp_pics.first.image | default: qp_pics.first.src | default: qp_pics.first.original | default: "" -%}
+      {%- if qp_pic != "" -%}{%- assign qp_cover = qp_pic -%}{%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- include cover-fallback.html post=qp_post cover=qp_cover -%}
+  {%- for q in qp_hits -%}
+    {%- assign qp_av = "" -%}
+    {%- if q.speaker -%}
+      {%- assign qp_who = site.data.people | where: "name", q.speaker | first -%}
+      {%- if qp_who.avatar -%}{%- assign qp_av = qp_who.avatar -%}{%- endif -%}
+    {%- endif -%}
+    {%- unless qp_first -%},{%- endunless -%}{%- assign qp_first = false -%}
+    {"id":{{ q.id | jsonify }},"u":{{ qp_post.url | relative_url | append: "#segment-" | append: q.segment | jsonify }},"h":{{ q.hook | jsonify }},"z":{{ q.zh | jsonify }},"j":{{ q.ja | jsonify }},"w":{{ q.speaker | jsonify }},"a":{{ qp_av | jsonify }},"t":{{ q.title | jsonify }},"p":{{ q.publication | jsonify }},"y":{{ q.year | jsonify }},"d":{{ q.date | jsonify }},"k":{{ q.kind | jsonify }},"r":{{ q.reported | jsonify }},"e":{{ q.why | jsonify }},"m":{{ q.more | jsonify }},"l":{{ q.links | jsonify }},"c":{{ cf_cover | jsonify }},"ck":{{ cf_kind | jsonify }}}
+  {%- endfor -%}
+{%- endfor -%}

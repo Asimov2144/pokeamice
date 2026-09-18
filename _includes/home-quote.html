@@ -1,0 +1,53 @@
+{%- comment -%}
+今日一句: one line from the interviews at the head of the home's entries, with the
+original beside the translation, where it was said, why it matters and what to read
+next. The pool is _data/quotes.yml (tools/build-quotes.py). Ninety of them are
+inlined here, a window into the pool that moves with the build day; the browser
+(assets/js/quote.js) shows the one whose turn it is today - the same for everyone,
+no rebuild needed - and swaps in another on 换一句, reaching for the whole pool
+(assets/js/quotes.json) only after a few swaps. Without JavaScript the build day's
+line stands.
+{%- endcomment -%}
+{%- assign hq_all = site.data.quotes.quotes | sort: "id" -%}
+{%- if hq_all.size > 0 -%}
+{%- assign hq_n = hq_all.size -%}
+{%- assign hq_window = 90 -%}
+{%- if hq_window > hq_n -%}{%- assign hq_window = hq_n -%}{%- endif -%}
+{%- assign hq_day = site.time | date: "%j" | plus: 0 -%}
+{%- assign hq_offset = hq_day | times: 7 | modulo: hq_n -%}
+{%- assign hq_pool = "" | split: "" -%}
+{%- for i in (1..hq_window) -%}
+  {%- assign hq_idx = hq_offset | plus: i | minus: 1 | modulo: hq_n -%}
+  {%- assign hq_pool = hq_pool | push: hq_all[hq_idx] -%}
+{%- endfor -%}
+{%- assign hq_today = hq_day | modulo: hq_window -%}
+{%- assign hq_q = hq_pool[hq_today] -%}
+{%- assign hq_post = site.posts | where_exp: "p", "p.path contains hq_q.post" | first -%}
+{%- assign hq_cover = hq_post.image | default: hq_post.featured_image | default: "" -%}
+{%- if hq_cover == "" -%}
+  {%- assign hq_items = hq_post.translation_segments | default: hq_post.parallel_items -%}
+  {%- if hq_items -%}
+    {%- assign hq_pics = hq_items | where: "type", "image" -%}
+    {%- assign hq_pic = hq_pics.first.image | default: hq_pics.first.src | default: hq_pics.first.original | default: "" -%}
+    {%- if hq_pic != "" -%}{%- assign hq_cover = hq_pic -%}{%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{%- include cover-fallback.html post=hq_post cover=hq_cover -%}
+{%- assign hq_av = "" -%}
+{%- if hq_q.speaker -%}{%- assign hq_who = site.data.people | where: "name", hq_q.speaker | first -%}{%- if hq_who.avatar -%}{%- assign hq_av = hq_who.avatar -%}{%- endif -%}{%- endif -%}
+{%- assign hq_url = hq_post.url | relative_url | append: "#segment-" | append: hq_q.segment -%}
+<article class="front__quote is-kind-{{ hq_q.kind }}{% if cf_kind != '' %} has-cover cover-{{ cf_kind }}{% endif %}" id="frontQuote" data-quotes="{{ '/assets/js/quotes.json' | relative_url }}" data-window="{{ hq_window }}" data-current="{{ hq_q.id }}" data-people-base="{{ '/people/' | relative_url }}" data-search-base="{{ '/search/?q=' | relative_url }}">
+  <a class="front__quote-cover" href="{{ hq_url }}" tabindex="-1" aria-hidden="true">{% if cf_cover != "" %}<img src="{{ cf_cover | relative_url }}" alt="" loading="eager" decoding="async">{% endif %}</a>
+  <div class="front__quote-body">
+    <p class="front__quote-kicker"><a class="front__quote-label" href="{{ '/quotes/' | relative_url }}" title="全部句子">今日一句</a> <time datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date: "%Y-%m-%d" }}</time>
+      <button type="button" class="front__quote-next" data-quote-next title="换一句">换一句 ↻</button></p>
+    <h2 class="front__quote-hook"><a href="{{ hq_url }}">{{ hq_q.hook }}</a></h2>
+    <p class="front__quote-zh">{{ hq_q.zh }}</p>
+    <details class="front__quote-ja"><summary>原文</summary><p lang="{{ hq_q.lang | default: 'ja' }}">{{ hq_q.ja }}</p></details>
+    <p class="front__quote-src">{% if hq_av != "" %}<img src="{{ hq_av | relative_url }}" alt="" width="20" height="20" loading="lazy">{% endif %}{% if hq_q.speaker %}<b>{{ hq_q.speaker }}</b> · {% endif %}<a href="{{ hq_url }}">{{ hq_q.title }}</a>{% if hq_q.publication %} · {{ hq_q.publication }}{% endif %} · {{ hq_q.year }}{% if hq_q.reported %} <small>（报道文字）</small>{% endif %}</p>
+    {% if hq_q.why %}<p class="front__quote-why"><b>解析</b>{{ hq_q.why }}</p>{% endif %}
+    {% if hq_q.more %}<p class="front__quote-more"><b>扩展</b>{% assign hq_more = hq_q.more | escape %}{% for l in hq_q.links %}{% if l.type == "person" and l.slug %}{% assign hq_link = '<a href="' | append: site.baseurl | append: '/people/' | append: l.slug | append: '/">' | append: l.name | append: '</a>' %}{% else %}{% assign hq_link = '<a href="' | append: site.baseurl | append: '/search/?q=' | append: l.name | append: '">' | append: l.name | append: '</a>' %}{% endif %}{% assign hq_more = hq_more | replace_first: l.name, hq_link %}{% endfor %}{{ hq_more }}</p>{% endif %}
+  </div>
+  <script type="application/json" id="quotePool">[{% include quote-pool.html quotes=hq_pool %}]</script>
+</article>
+{%- endif -%}

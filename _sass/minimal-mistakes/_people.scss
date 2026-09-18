@@ -573,3 +573,28 @@
 
 .layout--works-index #main { max-width: 100%; padding-left: 1.25rem; padding-right: 1.25rem; }
 .layout--works-index .archive.archive--person { float: none; width: 100%; max-width: 1240px; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0; }
+
+/* ---- /quotes/: the whole pool, newest first ---- */
+.quotes__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 14px;
+
+  input { flex: 1 1 auto; min-width: 0; border: 1px solid #dfe5eb; border-radius: 999px; padding: 6px 14px; font-size: 0.86rem; }
+}
+.quotes__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  .quotes__item { margin: 0 0 12px; border: 1px solid #e6ebf0; border-left: 3px solid #9a6b1f; border-radius: 8px; padding: 10px 14px; background: #fff; }
+  .quotes__item.is-kind-question { border-left-color: #2b6cb0; }
+  .quotes__hook { display: block; margin: 0 0 4px; color: #1a2430; font-size: 1rem; font-weight: 800; text-decoration: none; &:hover { color: #9a6b1f; } }
+  .quotes__zh { margin: 0 0 4px; color: #26323f; font-size: 0.86rem; line-height: 1.65; }
+  .quotes__src { margin: 0; color: #6b7785; font-size: 0.74rem; b { color: #26323f; } a { color: #2b6cb0; text-decoration: none; &:hover { text-decoration: underline; } } }
+}
+body.theme-bg-black .quotes__item { border-color: #46505a; background: #2a2f35; }
+body.theme-bg-black .quotes__hook { color: #eef3f7; }
+body.theme-bg-black .quotes__zh { color: #dce4ea; }
+body.theme-bg-black .quotes__src b { color: #eef3f7; }
