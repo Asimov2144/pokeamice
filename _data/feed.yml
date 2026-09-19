@@ -7,6 +7,10 @@
 #   label  可选，链接文字（默认「看看 →」）
 # 新功能上线、专题做完、一批校对完成，都往这里加一条，新的写在前面。
 - date: '2026-09-19'
+  title: 十三篇网页访谈补齐了后面的页
+  text: 電撃 2009 森本茂树、WEDGE 2010 石原恒和（三篇十五页）、Eurogamer / SPOnG 2011、電撃 2012·2013、Nintendo Life 2013、4Gamer 2013 ソリティ馬、電ファミ 2018 GO 三巨头后篇，原来只收了第一页；社长问·极大之门三章原文换回页面原句。
+  url: /访谈翻译/翻译/访谈整理/interview-4gamer-2013-solitiba/
+- date: '2026-09-19'
   title: GlitterBerri《早期概念图》十六页合成一篇
   text: 原来只收了第一、二页，还带着 Wayback 的日历和站点目录。现在十六页连成一篇，胶囊怪兽企划书、杉森建的概念图和 55 张图片都在，图注跟着图走。
   url: /访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/

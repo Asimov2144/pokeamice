@@ -247,8 +247,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza/052.jpg
   alt: 画像ギャラリー No.052のサムネイル画像 / ［CEDEC 2023］「ポケモンSV」はリアルな世界を目指していた。「パルデア地方を描き出す――見た目の仕組みを徹底解説！」レポート
-- original: 「ポケットモンスター スカーレット・バイオレット」公式サイト
-  translation: “宝可梦 朱·紫”官方网站
 - original: 4Gamerの「CEDEC 2023」記事一覧
   translation: 4Gamer的“CEDEC 2023”文章一览
 era: 2019–2026 · Expansion / 极巨化与开放世界

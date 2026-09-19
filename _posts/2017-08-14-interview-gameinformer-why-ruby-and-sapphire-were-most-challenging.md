@@ -28,6 +28,20 @@ tags:
 - 第三世代
 - 开发秘辛
 - 丰缘地区
+- Pokemon
+- 访谈
+- 开发者访谈
+- 大森滋
+- 红宝石蓝宝石
+- 丰缘
+- Game Informer
+- Game Freak
+- 增田顺一
+- 红宝石·蓝宝石
+- GBA
+- 第三世代
+- 开发秘辛
+- 丰缘地区
 author: Kyle Hilliard (Game Informer)
 interviewee: 增田顺一（GAME FREAK 制作人／《红宝石·蓝宝石》游戏总监兼作曲）
 cast:

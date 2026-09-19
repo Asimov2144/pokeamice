@@ -12,7 +12,11 @@ A target may also carry `max_images` (default 10 - a lecture report's slides nee
 `images_live` (the pictures from their live addresses although the page is a Wayback copy -
 a CDN that outlived the site, like Kinja's), `unmarked: question` (a paragraph with no
 speaker's name is the interviewer's - a page that labels every answer), and `drop` (a regex:
-blocks whose text, alt or address match it are left out).
+blocks whose text, alt or address match it are left out), `append_to` (a post's file stem:
+the target's pages are the later pages of a serial and their turns are added after the
+post's own), `page_headings` / `strip` (see run); on a re-import over an existing post
+(`slug`) the title, dek, summary, topics, tags and entities of the old post are kept
+unless `fresh: true`.
 
 Where import-nom.py knows one page family, this one has to read whatever
 the site did: the article container is found by weight (the element whose
@@ -388,12 +392,19 @@ def to_items(blocks, target, slug, dry):
     dialogue = kind in DIALOGUE_KINDS
     solo = list(target["speakers"].values())
     solo = solo[0] if len(set(solo)) == 1 else None
-    items, last_role, last_speaker, n_img = [], None, None, 0
+    items, last_role, last_speaker, n_img = [], None, None, int(target.get("_img_start") or 0)
     pending, seen_heading, alt_turn, title_line = None, False, 0, ""
     wayback = target.get("wayback")
     dest = IMG_DIR / slug
     for b in blocks:
         if b["t"] == "h":
+            name = b["x"].strip()
+            if len(name) <= 24 and (match_speaker(name, target) or is_asker(name, target)):
+                # a name set as a heading over the turn (Eurogamer's <h3>Junichi Masuda</h3>)
+                who = match_speaker(name, target)
+                pending = ("answer", who) if who else ("question", None)
+                seen_heading = True
+                continue
             items.append({"type": "heading", "level": b["level"], "original": b["x"]})
             last_role = last_speaker = pending = None
             seen_heading = True
@@ -420,21 +431,28 @@ def to_items(blocks, target, slug, dry):
         if m and items and items[-1].get("type") == "image" and not m.group(1).lower().startswith("title"):
             items[-1]["caption"] = (items[-1].get("caption", "") + " " + m.group(2).strip()).strip()
             continue
+        if re.match(r"^[▲▼]", text) and items and items[-1].get("type") == "image":
+            items[-1]["caption"] = (items[-1].get("caption", "") + " " + text[1:].strip()).strip()
+            continue
         if m:
             title_line = (title_line + " " + m.group(2).strip()).strip()
             continue
         title_line = ""          # a paragraph in between: the held line was not a caption after all
         # a speaker's name on a line of its own (Famitsu 2026, Gpara) names the next paragraph
         m = SPEAKER_LINE.match(text)
-        if m and len(text) <= 14 and match_speaker(m.group(1), target):
-            pending = match_speaker(m.group(1), target)
+        if len(text) <= 24 and not m and (match_speaker(text.strip(), target) or is_asker(text.strip(), target)):
+            m = re.match(r"^(.*)$", text.strip())          # a full name on its own line ("Junichi Masuda")
+        if m and len(text) <= 24 and (match_speaker(m.group(1), target) or is_asker(m.group(1), target)):
+            who = match_speaker(m.group(1), target)
+            pending = ("answer", who) if who else ("question", None)
             # the paragraph before a lone speaker line is the question it answers
-            if items and items[-1].get("type") is None and not items[-1].get("_explicit") and dialogue:
+            if who and items and items[-1].get("type") is None and not items[-1].get("_explicit") and dialogue:
                 items[-1]["role"], items[-1]["speaker"] = "question", target.get("asker") or ""
             continue
         role, speaker, body = None, None, text
         if pending:
-            role, speaker, pending = "answer", pending, None
+            role, speaker = pending
+            pending = None
         elif target.get("all_answers_by") and seen_heading:
             role, speaker, body = "answer", target["all_answers_by"], re.sub(r"^[－―─—–\-]\s*", "", text)
         elif lang == "ja":
@@ -463,10 +481,13 @@ def to_items(blocks, target, slug, dry):
                     role, speaker, body = "answer", match_speaker(m.group(1), target), m.group(2)
         else:  # en / it
             m = EN_NAME.match(text)
+            bare = next((a for a in target.get("asker_aliases", []) if text.startswith(a + " ") and len(text) > len(a) + 15), None)
             if m and match_speaker(m.group(1), target):
                 role, speaker, body = "answer", match_speaker(m.group(1), target), m.group(2)
             elif m and is_asker(m.group(1), target):
                 role, speaker, body = "question", None, m.group(2)
+            elif bare:
+                role, speaker, body = "question", None, text[len(bare):].strip()
             elif dialogue and b["bold"] and len(text) < 400 and target.get("bold_question", True):
                 role, speaker, body = "question", None, text      # bold_question: false on a page whose captions are bold too
         explicit = role is not None
@@ -548,7 +569,6 @@ def translate_items(items, target, glossary):
         for i, x in part:
             r = got.get(i)
             if not r:
-                print(f"    missing translation for item {i}", file=sys.stderr)
                 x["translation"] = ""
                 continue
             x["translation"] = str(r.get("translation", "")).strip()
@@ -556,6 +576,24 @@ def translate_items(items, target, glossary):
             if note:
                 x["note"] = note
         time.sleep(1)
+    # the items a chunk came back without: asked for once more, on their own
+    left = [(i, x) for i, x in text_items if not x.get("translation")]
+    if left:
+        print(f"  {len(left)} items came back untranslated - asking again", flush=True)
+        payload = [{"i": i, "speaker": x.get("speaker", ""), "text": x["original"]} for i, x in left]
+        prompt = (f"这是{target['outlet']} {target['date'][:4]}年的文章《{target['title']}》的几段（{lang}）。逐条把 text 译成简体中文，保留编号 i；说话人不用译。"
+                  '\n\n输出格式：{"items":[{"i":编号,"translation":"译文","note":""}]}\n\n待译：\n'
+                  + json.dumps(payload, ensure_ascii=False))
+        try:
+            got = {int(r["i"]): r for r in json.loads(deepseek([{"role": "system", "content": system}, {"role": "user", "content": prompt}])).get("items", []) if "i" in r}
+        except (ValueError, TypeError):
+            got = {}
+        for i, x in left:
+            r = got.get(i)
+            if r and str(r.get("translation", "")).strip():
+                x["translation"] = str(r.get("translation", "")).strip()
+            else:
+                print(f"    still no translation for item {i}", file=sys.stderr)
     return items
 
 
@@ -573,6 +611,51 @@ def propose_cover(items, target):
 # ---------------------------------------------------------------- write
 KIND_SOURCE = {"interview": "media_interview", "interview_feature": "media_feature", "cover_story": "media_feature",
                "lecture_report": "lecture_report", "making": "making_feature", "event_report": "event_report"}
+
+
+CARRY = ("title", "display_title", "dek", "summary", "title_ja", "era", "topics", "mentions", "categories", "series", "series_part",
+         "cover", "header", "excerpt", "toc", "toc_sticky", "parallel_view")
+FRONT_RE = re.compile(r"\A\ufeff?---\r?\n(.*?)\r?\n---\r?\n", re.S)
+
+
+def old_front(slug):
+    """The front matter of the post a re-import replaces, if there is one."""
+    path = POSTS / f"{slug}.md"
+    if not path.exists():
+        return None
+    m = FRONT_RE.match(path.read_text(encoding="utf-8", errors="replace"))
+    try:
+        return yaml.safe_load(m.group(1)) if m else None
+    except yaml.YAMLError:
+        return None
+
+
+def carry_over(fm, old):
+    """What the earlier import had that the page cannot give back: the title the
+    library knows the post by, its dek and summary, its topics and tags."""
+    for k in CARRY:
+        if old.get(k) not in (None, "", []):
+            fm[k] = old[k]
+    fm["tags"] = list(dict.fromkeys((fm.get("tags") or []) + [t for t in (old.get("tags") or []) if t]))
+    oe, ne = old.get("entities") or {}, fm.get("entities") or {}
+    for k in set(oe) | set(ne):
+        merged = list(dict.fromkeys((ne.get(k) or []) + (oe.get(k) or [])))
+        if merged:
+            ne[k] = merged
+    fm["entities"] = ne
+    return fm
+
+
+def append_items(stem, items):
+    """The post at `stem` with the items added after its own (a serial's later pages)."""
+    path = POSTS / f"{stem}.md"
+    text = path.read_text(encoding="utf-8", errors="replace")
+    m = FRONT_RE.match(text)
+    fm = yaml.safe_load(m.group(1))
+    fm["parallel_items"] = (fm.get("parallel_items") or []) + [{k: v for k, v in x.items() if not k.startswith("_")} for x in items]
+    body = text[m.end():]
+    path.write_text("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000) + "---\n" + body, encoding="utf-8", newline="\n")
+    return path
 
 
 def write_post(target, items, cover, slug):
@@ -613,6 +696,9 @@ def write_post(target, items, cover, slug):
         fm["series"] = target["series"]
         fm["series_part"] = target.get("part")
     fm = {k: v for k, v in fm.items() if v is not None}
+    old = old_front(slug)
+    if old and not target.get("fresh"):
+        fm = carry_over(fm, old)
     path = POSTS / f"{slug}.md"
     path.write_text("---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False, width=1000) + "---\n", encoding="utf-8", newline="\n")
     return path
@@ -624,8 +710,13 @@ flags_limit = 60
 
 def run(key, targets, dry, glossary):
     target = targets[key]
-    slug = target.get("slug") or f"{target['date']}-interview-{key}"
+    slug = target.get("append_to") or target.get("slug") or f"{target['date']}-interview-{key}"
     print(f"== {key}: {target['title'][:60]}")
+    if (IMG_DIR / slug).exists() and not dry:
+        # a post that has pictures already (the later pages of a serial, or a re-import): the new
+        # ones are numbered past them, so none is written over - a portrait may be cut from one
+        have = [int(m.group(1)) for f in (IMG_DIR / slug).iterdir() for m in [re.match(r"^(\d{3})\.", f.name)] if m]
+        target = {**target, "_img_start": max(have) if have else 0}
     blocks = []
     # the page's own index / navigation after the piece: each page is cut at the heading that opens it
     stop = re.compile(target["stop_at"]) if target.get("stop_at") else None
@@ -676,9 +767,33 @@ def run(key, targets, dry, glossary):
             print(f"   ... {len(items) - int(flags_limit)} more")
         return
     items = translate_items(items, target, glossary)
-    cover = propose_cover(items, target)
+    if target.get("append_to"):
+        path = append_items(slug, items)
+        print(f"   appended {len(items)} items to {path.relative_to(ROOT)}")
+        return
+    # the title, dek and summary of a post being re-imported are kept: no need to propose new ones
+    cover = {} if (old_front(slug) and not target.get("fresh")) else propose_cover(items, target)
     path = write_post(target, items, cover, slug)
     print(f"   wrote {path.relative_to(ROOT)}")
+    prune_pictures(slug, items)
+
+
+def prune_pictures(slug, items):
+    """The old import's pictures that the new post does not use, unless a portrait is cut
+    from one (tools/build-people.py, _data/people.yml name the file)."""
+    folder = IMG_DIR / slug
+    if not folder.exists():
+        return
+    used = {x["image"].rsplit("/", 1)[-1] for x in items if x.get("type") == "image" and x.get("image")}
+    keep = (ROOT / "tools" / "build-people.py").read_text(encoding="utf-8") + (ROOT / "_data" / "people.yml").read_text(encoding="utf-8")
+    gone = 0
+    for f in list(folder.iterdir()):
+        if f.name in used or f"{slug}/{f.name}" in keep:
+            continue
+        f.unlink()
+        gone += 1
+    if gone:
+        print(f"   {gone} old pictures removed from {folder.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

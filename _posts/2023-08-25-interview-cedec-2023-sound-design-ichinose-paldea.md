@@ -237,8 +237,6 @@ parallel_items:
   translation: 不存在的宝可梦们与人类共同生活的世界。支撑这个吸引所有人的设定的要素之一，大概就是对效果音毫不妥协的态度吧。正是因为这样追求真实感，玩家才能沉浸于游戏，加深对宝可梦们的感情投入。为此，不惜劳力的采访和自动化的举措也在进行。关于PokeSynth和环境音的自动配置，不是单纯的人海战术，而是用智慧的力量增加变化的同时，也能表现出真实感，可以看出解决问题的创意是多么重要。既有作为开发秘闻的趣味性，又有商业和开发视角，实在是一个有趣的演讲。
 - original: 4Gamerの「CEDEC 2023」記事一覧
   translation: 4Gamer的“CEDEC 2023”文章列表
-- original: 「CEDEC 2023」公式サイト
-  translation: “CEDEC 2023”官方网站
 era: 2019–2026 · Expansion / 极巨化与开放世界
 toc: true
 toc_sticky: true

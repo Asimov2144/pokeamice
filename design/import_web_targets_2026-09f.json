@@ -1,0 +1,395 @@
+{
+ "note": "2026-09-19: the posts audit-pagination-verify.py found short of their page - the later pages of a serial appended (append_to), or the article re-imported whole over its post (slug; title / dek / summary / tags / entities carried over).",
+ "targets": [
+  {
+   "key": "dengeki-2009-hgss-morimoto-p2",
+   "append_to": "2009-09-18-interview-dengeki-hgss-shigeki-morimoto",
+   "url": "https://dengekionline.com/elem/000/000/193/193021/index-2.html",
+   "pages": [
+    "https://dengekionline.com/elem/000/000/193/193021/index-3.html",
+    "https://dengekionline.com/elem/000/000/193/193021/index-4.html",
+    "https://dengekionline.com/elem/000/000/193/193021/index-5.html"
+   ],
+   "lang": "ja",
+   "date": "2009-09-18",
+   "outlet": "電撃オンライン",
+   "outlet_zh": "电击Online",
+   "title": "『ポケットモンスター ハートゴールド・ソウルシルバー』森本茂樹ディレクターインタビュー",
+   "kind": "interview",
+   "asker": "电击编辑部",
+   "speakers": {
+    "森本": "森本茂树"
+   },
+   "works": [
+    "宝可梦 心金·魂银"
+   ],
+   "tags": [],
+   "max_images": 30
+  },
+  {
+   "key": "wedge-2010-ishihara",
+   "slug": "2010-05-12-interview-wedge-ishihara-pokemon-disney",
+   "url": "https://wedge.ismedia.jp/articles/-/892",
+   "pages": [
+    "https://wedge.ismedia.jp/articles/-/892?page=2",
+    "https://wedge.ismedia.jp/articles/-/892?page=3",
+    "https://wedge.ismedia.jp/articles/-/892?page=4",
+    "https://wedge.ismedia.jp/articles/-/892?page=5",
+    "https://wedge.ismedia.jp/articles/-/893",
+    "https://wedge.ismedia.jp/articles/-/893?page=2",
+    "https://wedge.ismedia.jp/articles/-/893?page=3",
+    "https://wedge.ismedia.jp/articles/-/893?page=4",
+    "https://wedge.ismedia.jp/articles/-/893?page=5",
+    "https://wedge.ismedia.jp/articles/-/894",
+    "https://wedge.ismedia.jp/articles/-/894?page=2",
+    "https://wedge.ismedia.jp/articles/-/894?page=3",
+    "https://wedge.ismedia.jp/articles/-/894?page=4",
+    "https://wedge.ismedia.jp/articles/-/894?page=5"
+   ],
+   "page_headings": [
+    "（1）ポケモンとディズニー 共通点と相違点",
+    "",
+    "",
+    "",
+    "",
+    "（2）ポケモンを育てた仕かけ人たち",
+    "",
+    "",
+    "",
+    "",
+    "（3）版権ビジネスの手法にポケモン成長のわけ",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "lang": "ja",
+   "date": "2010-05-12",
+   "outlet": "Wedge ONLINE",
+   "outlet_zh": "WEDGE",
+   "title": "石原恒和社長が語る「ポケモンが愛され続ける理由」",
+   "kind": "interview",
+   "asker": "WEDGE",
+   "speakers": {
+    "石原": "石原恒和",
+    "浜野": "浜野保树"
+   },
+   "works": [],
+   "tags": [
+    "WEDGE",
+    "石原恒和"
+   ],
+   "max_images": 30,
+   "drop": "^-{5,}$"
+  },
+  {
+   "key": "eurogamer-2011-bw-brains",
+   "slug": "2011-03-01-interview-eurogamer-masuda-sugimori-black-white-brains",
+   "url": "https://www.eurogamer.net/the-brains-behind-pokemon-black-and-white-interview",
+   "pages": [
+    "https://www.eurogamer.net/the-brains-behind-pokemon-black-and-white-interview?page=2"
+   ],
+   "lang": "en",
+   "date": "2011-03-01",
+   "outlet": "Eurogamer",
+   "outlet_zh": "Eurogamer",
+   "title": "The brains behind Pokémon Black and White",
+   "kind": "interview",
+   "asker": "Eurogamer",
+   "asker_aliases": [
+    "Eurogamer"
+   ],
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一",
+    "Sugimori": "杉森建",
+    "Ken Sugimori": "杉森建"
+   },
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "tags": [
+    "Eurogamer"
+   ],
+   "max_images": 12
+  },
+  {
+   "key": "spong-2011-bw",
+   "slug": "2011-03-04-interview-spong-bw-launch-masuda-sugimori",
+   "url": "https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda",
+   "pages": [
+    "https://spong.com/feature/10110335/Interview-Pokemon-in-Black-and-White-Junichi-Masuda/2"
+   ],
+   "lang": "en",
+   "date": "2011-03-04",
+   "outlet": "SPOnG",
+   "outlet_zh": "SPOnG",
+   "title": "Interview: Pokemon in Black and White with Junichi Masuda",
+   "kind": "interview_feature",
+   "asker": "SPOnG",
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一",
+    "Sugimori": "杉森建",
+    "Ken Sugimori": "杉森建"
+   },
+   "works": [
+    "宝可梦 黑·白"
+   ],
+   "tags": [
+    "SPOnG"
+   ],
+   "max_images": 12,
+   "container": "div.bdy"
+  },
+  {
+   "key": "dengeki-2012-b2w2-masuda-unno",
+   "slug": "2012-08-05-interview-dengeki-b2w2-masuda-unno-n-ghetsis-art",
+   "url": "https://dengekionline.com/elem/000/000/518/518926/",
+   "pages": [
+    "https://dengekionline.com/elem/000/000/518/518926/index-2.html"
+   ],
+   "lang": "ja",
+   "date": "2012-08-05",
+   "outlet": "電撃オンライン",
+   "outlet_zh": "电击Online",
+   "title": "『ポケットモンスター ブラック2・ホワイト2』増田順一氏・海野隆雄氏トークショー",
+   "kind": "interview",
+   "asker": "电击Online",
+   "speakers": {
+    "増田": "增田顺一",
+    "海野": "海野隆雄"
+   },
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "tags": [],
+   "max_images": 40
+  },
+  {
+   "key": "nintendolife-2013-xy-p2",
+   "append_to": "2013-09-21-interview-nintendolife-2013-xy",
+   "url": "https://www.nintendolife.com/news/2013/09/interview_junichi_masuda_and_hironobu_yoshida_discuss_pokemon_x_and_y_mega_evolutions_and_the_2ds?page=2",
+   "lang": "en",
+   "date": "2013-09-21",
+   "outlet": "Nintendo Life",
+   "outlet_zh": "Nintendo Life",
+   "title": "Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS",
+   "kind": "interview",
+   "asker": "Nintendo Life",
+   "asker_aliases": [
+    "Nintendo Life",
+    "NL"
+   ],
+   "speakers": {
+    "Masuda": "增田顺一",
+    "Yoshida": "吉田宏信",
+    "Junichi Masuda": "增田顺一",
+    "Hironobu Yoshida": "吉田宏信"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [],
+   "max_images": 12,
+   "strip": [
+    "section#comments",
+    "div.comments-list",
+    "section#reply"
+   ]
+  },
+  {
+   "key": "4gamer-2013-solitiba-p2",
+   "append_to": "2013-10-08-interview-4gamer-2013-solitiba",
+   "url": "https://www.4gamer.net/games/226/G022607/20131007064/index_2.html",
+   "pages": [
+    "https://www.4gamer.net/games/226/G022607/20131007064/index_3.html"
+   ],
+   "lang": "ja",
+   "date": "2013-10-08",
+   "outlet": "4Gamer.net",
+   "outlet_zh": "4Gamer.net",
+   "title": "ゲーム制作集団「ゲームフリーク」が試みる“原点回帰”という挑戦",
+   "kind": "interview",
+   "asker": "4Gamer",
+   "speakers": {
+    "杉森": "杉森建",
+    "渡辺": "渡边哲也"
+   },
+   "works": [
+    "ソリティ馬"
+   ],
+   "tags": [],
+   "container": "div.maintxt",
+   "max_images": 40
+  },
+  {
+   "key": "dengeki-2013-xy-masuda-kageyama",
+   "slug": "2013-11-16-interview-dengeki-xy-masuda-kageyama-setting-art",
+   "url": "https://dengekionline.com/elem/000/000/753/753933/",
+   "pages": [
+    "https://dengekionline.com/elem/000/000/753/753933/index-2.html"
+   ],
+   "lang": "ja",
+   "date": "2013-11-16",
+   "outlet": "電撃オンライン",
+   "outlet_zh": "电击Online",
+   "title": "『ポケットモンスター X・Y』増田順一氏・景山将太氏トークショー",
+   "kind": "event_report",
+   "asker": "电击Online",
+   "speakers": {
+    "増田": "增田顺一",
+    "景山": "景山将太"
+   },
+   "works": [
+    "宝可梦 X·Y"
+   ],
+   "tags": [],
+   "max_images": 40
+  },
+  {
+   "key": "denfami-2018-pokemon-go-p3",
+   "slug": "2018-06-08-interview-denfaminicogamer-pokemon-go-server-miracle",
+   "url": "https://news.denfaminicogamer.jp/interview/180608/3",
+   "lang": "ja",
+   "date": "2018-06-08",
+   "outlet": "電ファミニコゲーマー",
+   "outlet_zh": "电玩志",
+   "title": "『ポケモンGO』はなぜ社会現象になったのか　石原恒和×川島優志×増田順一（後篇）",
+   "kind": "interview",
+   "asker": "电玩志",
+   "speakers": {
+    "石原": "石原恒和",
+    "川島": "川岛优志",
+    "増田": "增田顺一"
+   },
+   "works": [
+    "Pokémon GO"
+   ],
+   "tags": [],
+   "container": "#articleBody",
+   "max_images": 30
+  },
+  {
+   "key": "iwata-asks-2012-gates-ch2",
+   "slug": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-2-system-drama",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index2.html",
+   "lang": "ja",
+   "date": "2012-11-22",
+   "outlet": "社長が訊く",
+   "outlet_zh": "社长问",
+   "title": "社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 2. システム自体がドラマになる",
+   "kind": "interview",
+   "asker": "岩田聪",
+   "asker_aliases": [
+    "岩田"
+   ],
+   "speakers": {
+    "石原": "石原恒和",
+    "冨江": "富江慎一郎",
+    "長畑": "长畑成一郎",
+    "一同": "众人"
+   },
+   "works": [
+    "宝可梦不可思议迷宫 极大之门与∞迷宫"
+   ],
+   "tags": [],
+   "container": "div.interview-container",
+   "strip": [
+    "div.interview__note"
+   ],
+   "join_br": true,
+   "max_images": 12
+  },
+  {
+   "key": "iwata-asks-2012-gates-ch3",
+   "slug": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-3-definitive-edition",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index3.html",
+   "lang": "ja",
+   "date": "2012-11-22",
+   "outlet": "社長が訊く",
+   "outlet_zh": "社长问",
+   "title": "社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 3. “決定版”",
+   "kind": "interview",
+   "asker": "岩田聪",
+   "asker_aliases": [
+    "岩田"
+   ],
+   "speakers": {
+    "石原": "石原恒和",
+    "冨江": "富江慎一郎",
+    "長畑": "长畑成一郎",
+    "一同": "众人"
+   },
+   "works": [
+    "宝可梦不可思议迷宫 极大之门与∞迷宫"
+   ],
+   "tags": [],
+   "container": "div.interview-container",
+   "strip": [
+    "div.interview__note"
+   ],
+   "join_br": true,
+   "max_images": 12
+  },
+  {
+   "key": "iwata-asks-2012-gates-ch4",
+   "slug": "2012-11-22-interview-iwata-asks-gates-to-infinity-chapter-4-random-numbers",
+   "url": "https://www.nintendo.co.jp/3ds/interview/apdj/vol1/index4.html",
+   "lang": "ja",
+   "date": "2012-11-22",
+   "outlet": "社長が訊く",
+   "outlet_zh": "社长问",
+   "title": "社長が訊く『ポケモン不思議のダンジョン ～マグナゲートと∞迷宮～』 4. “乱数”",
+   "kind": "interview",
+   "asker": "岩田聪",
+   "asker_aliases": [
+    "岩田"
+   ],
+   "speakers": {
+    "石原": "石原恒和",
+    "冨江": "富江慎一郎",
+    "長畑": "长畑成一郎",
+    "一同": "众人"
+   },
+   "works": [
+    "宝可梦不可思议迷宫 极大之门与∞迷宫"
+   ],
+   "tags": [],
+   "container": "div.interview-container",
+   "strip": [
+    "div.interview__note"
+   ],
+   "join_br": true,
+   "max_images": 12
+  },
+  {
+   "key": "pokemon-com-2012-b2w2-masuda-unno",
+   "slug": "2012-10-01-interview-pokemon-com-b2w2-masuda-unno",
+   "url": "https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/",
+   "wayback": "https://web.archive.org/web/20130731014648/https://www.pokemon.com/us/pokemon-news/news_gamefreak_interview-2012-10-01/",
+   "lang": "en",
+   "date": "2012-10-01",
+   "outlet": "Pokemon.com",
+   "outlet_zh": "Pokémon.com",
+   "title": "The People behind the Pokémon: Junichi Masuda and Takao Unno Interview",
+   "kind": "interview",
+   "asker": "Pokemon.com",
+   "asker_aliases": [
+    "Pokemon.com",
+    "Pokémon.com"
+   ],
+   "speakers": {
+    "Junichi Masuda": "增田顺一",
+    "Masuda": "增田顺一",
+    "Takao Unno": "海野隆雄",
+    "Unno": "海野隆雄"
+   },
+   "works": [
+    "宝可梦 黑2·白2"
+   ],
+   "tags": [],
+   "max_images": 12
+  }
+ ]
+}

@@ -48,6 +48,8 @@ JUNK = re.compile(
     r"^www\.|^https?://|^Read more|^More (?:from|Great)|^Follow (?:us|@)|^Like us|^Add Us|^Powered by|^Photo(?:s)?: |^Image credit|^Screenshot: |"
     r"^Written by .*\d{4}$|^Ampliar$|^Open Navigation Menu$|^Etiquetas |^Más lanzamientos|^interviewee$|^information$|^目次[＆&]|^目次閉じる|"
     r"^(?:判型|総ページ数|定価|出版社|ISBN|発売日|希望小売価格|対応機種|ジャンル|プレイ人数|CERO)[：:]|^.{0,24}はこちら(?:から)?$|"
+    r"^\d+ of \d+$|^Caption$|^Attribution$|^-{5,}$|^Log-?in|^Username|^Super Search|^No account|^Companies: |^Games: |"
+    r"^.{0,30}(?:公式サイト|オフィシャルサイト|公式ページ)$|^[※＊*]$|"
     r"^[^\s：:]{1,20}[：:]$",                                   # a speaker label that lost its line
     re.I)
 # the line a page ends its article with: what follows is the site, not the text

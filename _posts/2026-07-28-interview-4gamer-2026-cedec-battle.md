@@ -223,8 +223,6 @@ parallel_items:
   translation: 演讲的要点在于，将游戏逻辑分割为“可复用的单位”，并将个别规格“从主逻辑中分离”。宗像在结尾表示：“本次演讲中介绍的Section与Event/EventHandler的设计，不仅适用于宝可梦，也适用于整体上不断复杂化的游戏逻辑。”
 - original: 講演資料は，「CEDEC Digital Library」（CEDiL）で公開される予定だ。
   translation: 演讲资料预定在“CEDEC Digital Library”（CEDiL）上公开。
-- original: CEDEC 2026公式サイト
-  translation: CEDEC 2026官方网站
 - original: 4Gamer「CEDEC 2026」記事一覧
   translation: 4Gamer“CEDEC 2026”文章一览
 ---

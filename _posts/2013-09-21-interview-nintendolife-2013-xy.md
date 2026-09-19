@@ -119,7 +119,7 @@ parallel_items:
 - original: Has the move to 3D and increased challenges meant that you’ve had to increase the size of your development team at Game Freak?
   role: question
   speaker: Nintendo Life
-  translation: "转向3D以及增加的挑战，是否意味着你们不得不扩大GAME FREAK的开发团队规模？"
+  translation: 转向3D以及增加的挑战，是否意味着你们不得不扩大GAME FREAK的开发团队规模？
 - original: We had around 200 people working on the development of X and Y, as well as localisation staff. In the credits around 500 names that appear!
   role: question
   speaker: Nintendo Life
@@ -187,4 +187,115 @@ parallel_items:
   role: answer
   speaker: 增田顺一
   translation: 在第二页，我们会讨论2DS、妖精属性、超级进化，以及那个相当引人好奇的Wii U预告视频。
+- type: heading
+  level: 2
+  original: 'Interview: Junichi Masuda and Hironobu Yoshida Discuss Pokémon X and Y, Mega Evolutions and the 2DS'
+  translation: 访谈：增田顺一与吉田宏信谈《宝可梦 X·Y》、超级进化与2DS
+- original: On the road to Luminose City
+  translation: 在通往密阿雷市的路上
+- original: by Katy Ellis
+  translation: 作者：Katy Ellis
+- original: Fri 20th Sep 2013
+  translation: 2013年9月20日，星期五
+- type: image
+  image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/005.jpg
+  alt: Hironobu Yoshida
+- original: Nintendo’s new 2DS console is launching on the same day as Pokémon X & Y, was this always planned?
+  role: question
+  speaker: Nintendo Life
+  translation: 任天堂的新掌机2DS与《宝可梦 X·Y》在同一天发售，这是早就计划好的吗？
+- original: This was actually something that Nintendo decided. We had heard about the 2DS from Mr. Iwata at Nintendo and he told us that he wanted to release the console on the same day as X and Y. We were really happy to hear that actually! [laughs] It’s obviously going to be very beneficial to us, and also allows younger players to pick up a handheld and Pokémon X and Y more easily. They even created Red and Blue colour variations, which is a great match for X and Y! [laughs]
+  role: answer
+  speaker: 增田顺一
+  translation: 这其实是任天堂决定的。我们从岩田先生那里听说了2DS，他告诉我们他想让这台掌机和X·Y在同一天发售。听到这个消息我们真的很高兴！[笑]这对我们显然非常有利，也能让年纪更小的玩家更容易买到掌机和《宝可梦 X·Y》。他们甚至还做了红、蓝两种配色，和X·Y搭配得非常好！[笑]
+  note: 岩田先生指岩田聪，时任任天堂社长。
+- original: That is rather handy! Let’s talk about new Pokémon. When designing new Pokémon, do you take into consideration what they would look like in the real world or let physics influence your designs?
+  role: question
+  speaker: Nintendo Life
+  translation: 这确实很方便！来谈谈新的宝可梦吧。设计新宝可梦时，你们会考虑它们在现实世界中会是什么样子，或者让物理规律影响设计吗？
+- original: Every time we create a new Pokémon we always focus on whether it would make sense for them to exist in their environment. One time I remember I was creating a rabbit based Pokémon with a flower on its nose and someone said to me “Why are you doing that? It doesn't make any sense!” so now I always now think about Pokémon that would make sense in the context of their environment.
+  role: answer
+  speaker: 吉田宏信
+  translation: 每次创作新宝可梦时，我们都会关注它们存在于自己的环境中是否说得通。我记得有一次我在设计一只以兔子为原型的宝可梦，鼻子上有一朵花，有人对我说：“你为什么要这么做？这根本说不通！”所以现在我做宝可梦时，总会考虑它在自身环境的语境下是否说得通。
+- original: Of course Pokémon don't exist in real life, they come from our imaginations [laughs] but we want to make creatures that are believable enough that could exist in real life! There needs to be a reason behind the element that’s attached to it. For example, does a Pokémon need a mouth? Does it eat? How does it breathe? We always think about all these different aspects when creating new Pokémon.
+  role: answer
+  speaker: 增田顺一
+  translation: 宝可梦当然不存在于现实中，它们来自我们的想象[笑]，但我们想做出足够可信、让人觉得可能存在于现实中的生物！附加在它身上的属性背后需要有理由。比如，一只宝可梦需要嘴吗？它吃东西吗？它怎么呼吸？创作新宝可梦时，我们总会考虑这些不同的方面。
+- type: image
+  image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/006.jpg
+  alt: 2 DS Red
+- original: Speaking of new Pokémon, the new Fairy type is the first new Pokémon type addition since Pokémon Gold & Silver. Was it challenging creating and inserting a new type into the game?
+  role: question
+  speaker: Nintendo Life
+  translation: 说到新宝可梦，新的妖精属性是自《宝可梦 金·银》以来首次新增的宝可梦属性。创造一种新属性并把它加入游戏中，是不是很有挑战性？
+- original: Oh yes! The most difficult thing about adding a new type of Pokémon is that it completely changes the balance of Pokémon battles. We have a team over at Game Freak that focuses solely on getting this balance right, so when adding fairy type they were looking at each individual Pokémon and thinking of all the different combinations of moves in battle and how the balance of the fight would change because of that. They even hosted internal competitions at Game Freak to battle amongst each other and check that everything was perfect! [laughs] Getting that balance right was really important, but also very difficult.
+  role: answer
+  speaker: 增田顺一
+  translation: 哦，是的！加入一种新属性宝可梦最困难的地方在于，它会彻底改变宝可梦对战的平衡。我们在Game Freak有一个专门负责把这种平衡做好的团队，所以在加入妖精属性时，他们逐一查看每一只宝可梦，思考对战中各种不同的招式组合，以及这会如何改变对战的平衡。他们甚至在Game Freak内部举办比赛，互相切磋，检查一切是否完美！[笑]把平衡做好非常重要，但也非常困难。
+- original: The most difficult thing about adding a new type of Pokémon is that it completely changes the balance of Pokémon battles.
+  role: answer
+  speaker: 增田顺一
+  translation: 加入一种新属性宝可梦最困难的地方在于，它会彻底改变宝可梦对战的平衡。
+- original: We're really looking forward to training up some new Fairy type Pokémon, and taking down those pesky Dragon types! Moving on to Mega Evolutions, why did you decide to include a new form of temporary evolution in X and Y? Are they significant to the storyline?
+  role: question
+  speaker: Nintendo Life
+  translation: 我们非常期待培养一些新的妖精属性宝可梦，去打败那些讨厌的龙属性！接下来说说超级进化，你们为什么决定在X和Y中加入一种新的临时进化形态？它们对剧情有重要意义吗？
+- original: So really there were three key themes for the game this time around, I mentioned 'beauty' as one, one of the others is the bonds between people and Pokémon which is represented in the Pokémon Amie mode, and the third is evolution. Evolution is one of the key defining characteristics of Pokémon games and we wanted to bring it to the next level and really generate a surprise when people see their Pokémon evolve into a new form. We didn't just want to add another evolution level that was permanent and just makes the Pokémon more powerful, and so by making Mega Evolutions a temporary experience just for battles it adds a new dynamic to the battle. If you want to Mega Evolve your Pokémon can't hold any other items, so you have to really think about your strategy.
+  role: answer
+  speaker: 增田顺一
+  translation: 其实这次游戏有三个关键主题，我提到过“美丽”是其中之一，另一个是人与宝可梦之间的羁绊，这体现在宝可梦友谊模式中，第三个就是进化。进化是宝可梦游戏最核心的特征之一，我们想把它提升到新的层次，让人们看到自己的宝可梦进化成新形态时真正感到惊喜。我们不想只是增加一个永久的进化等级，让宝可梦变得更强，所以把超级进化做成只在对战中出现的临时体验，为对战增添了新的变化。如果你想超级进化你的宝可梦，它就不能携带其他道具，所以你必须认真考虑自己的策略。
+- original: It's amazing to see some of our old favourite Generation I Pokémon in a new form. Mega Kangaskhan and baby Kangaskahn are adorable! In Pokemon X & Y there are also two Mega forms of Mewtwo, Mega Mewtwo X and Mega Mewtwo Y. Was there a reason why you chose to create two special, version exclusive forms of this particular Pokemon?
+  role: question
+  speaker: Nintendo Life
+  translation: 看到一些我们过去喜爱的第一世代宝可梦以新形态出现，真是令人惊叹。超级袋兽和袋兽宝宝太可爱了！在宝可梦 X·Y中，超梦也有两种超级形态，超级超梦X和超级超梦Y。你们为什么选择为这只特定的宝可梦创造两种特殊的、版本限定的形态？
+- type: image
+  image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/007.jpg
+  alt: Mega Mewtwo X
+- original: Mewtwo is a Pokémon for which GameFreak has a special fondness. We came up with Mega Mewtwo X and Y because we thought that by having a two different types of Mewtwo, Pokémon battles would become more strategic and at the same time it would encourage trading. We think it will create a nice surprise to the fans.
+  role: answer
+  speaker: 增田顺一
+  translation: 超梦是Game Freak特别喜爱的一只宝可梦。我们想出超级超梦X和Y，是因为我们认为，拥有两种不同类型的超梦会让宝可梦对战变得更有策略性，同时也能促进交换。我们认为这会给粉丝带来一个不错的惊喜。
+- original: We noticed when playing Pokémon X and Y that older Pokémon from previous generations are everywhere in the Kalos region, and pop up as often as newer Pokémon. What influenced the decision to give the player one of the original Pokémon Red and Green starters as well as Kalos starter Pokémon? Are you looking to entice fans of the original games who may not have tried the newer Pokémon titles?
+  role: question
+  speaker: Nintendo Life
+  translation: 我们在玩宝可梦 X·Y时注意到，前几世代的旧宝可梦在卡洛斯地区随处可见，出现的频率和新宝可梦一样高。是什么影响了让玩家获得一只宝可梦 红·绿初始宝可梦以及卡洛斯初始宝可梦的决定？你们是想吸引那些可能没尝试过较新宝可梦作品的初代游戏粉丝吗？
+- original: One of the themes in Pokémon X and Y is evolution and one of the player’s missions is to discover more about Mega Evolution. Initially we didn’t come up with the idea of being given Pokémon from Pokémon Red and Green Version, but we had to think of a way to obtain the three Generation I starter Pokémon in order to get the users to experience Mega Evolution of Bulbasaur, Charmander and Squirtle. This led to the idea that they are given as a present by Professor Sycamore. We’d like a lot of people to play Pokémon X and Y - new fans as well as returning players who played Pokémon in the past.
+  role: answer
+  speaker: 增田顺一
+  translation: 宝可梦 X·Y的主题之一是进化，玩家的任务之一就是更多地了解超级进化。最初我们并没有想到赠送宝可梦 红·绿中的宝可梦这个主意，但我们必须想出一种获得三只第一世代初始宝可梦的方法，好让用户体验妙蛙种子、小火龙和杰尼龟的超级进化。这引出了由布拉塔诺博士将它们作为礼物赠送的想法。我们希望很多人来玩宝可梦 X·Y——既有新粉丝，也有过去玩过宝可梦的老玩家。
+- original: The Pokémon Bank and Poké Transporter sound like great apps, and something series fans have wanted for a long time now. Could you give us a detailed explanation of how the accounts work? For example, will siblings or friends be able to share one Pokémon bank account so that they could trade Pokémon without both having to be available at the same time? Or, will you be able to have a second account if you're crazy enough to fill it with 3,000 Pokémon?
+  role: question
+  speaker: Nintendo Life
+  translation: 宝可梦银行和宝可梦传送器听起来是很棒的应用，也是系列粉丝长期以来一直想要的东西。你们能详细说明一下账户是如何运作的吗？例如，兄弟姐妹或朋友能否共用一个宝可梦银行账户，这样他们就不必同时有空也能交换宝可梦？或者，如果你疯狂到想把它装满3000只宝可梦，能否拥有第二个账户？
+- original: You can now transfer Pokémon from Pokémon Black and White Version and Pokémon Black 2 and White 2 by using the Pokémon Bank and Poké Transporter and you can store as many as 3,000 Pokémon in the Pokémon Bank. Because the Pokémon Bank is linked to each Nintendo 3DS console, it is possible to download your Pokémon stored in your Pokémon Bank and move it to your friend’s Pokémon X and Pokémon Y by inserting your friend’s Pokémon X and PokémonY cartridge into your Nintendo 3DS. The European release of Pokémon Bank is December 27th, but we will be announcing more details and mechanisms at a later date.
+  role: answer
+  speaker: 增田顺一
+  translation: 现在你可以使用宝可梦银行和宝可梦传送器，从宝可梦 黑·白和宝可梦 黑2·白2中传送宝可梦，宝可梦银行最多可以存放3000只宝可梦。由于宝可梦银行与每台任天堂3DS主机绑定，你可以把朋友宝可梦 X·Y的卡带插入自己的任天堂3DS，从而下载存放在自己宝可梦银行中的宝可梦，并把它移动到朋友的宝可梦 X·Y中。宝可梦银行在欧洲的发售日期是12月27日，但我们会在日后公布更多细节和机制。
+- type: image
+  image: /assets/img/interviews/2013-09-21-interview-nintendolife-2013-xy/008.jpg
+  alt: Pokemon Wii U
+- original: 'Fantastic, I''m sure fans will be pleased to hear that they can access their friend''s Pokémon Bank account easily for trading. One final question: we’ve spotted a certain video on the internet from an event in Japan showing a short clip of Lucario fighting Blaziken on a street scene, which looks suspiciously like Wii U graphics... Was this a teaser for a true Pokémon title for the Wii U?'
+  role: question
+  speaker: Nintendo Life
+  translation: 太好了，我相信粉丝们会很高兴听到他们可以轻松访问朋友的宝可梦银行账户进行交换。最后一个问题：我们在网上看到一段来自日本某活动的视频，显示路卡利欧在街道场景中与火焰鸡对战的短片，画面看起来很像Wii U的图形……这是否是Wii U上真正宝可梦作品的预告？
+- original: '[smiles] Ooh, I wonder what it was... I''m not sure... [laughs]'
+  role: answer
+  speaker: 增田顺一
+  translation: '[微笑] 哦，我想知道那是什么……我不确定……[笑]'
+- original: Oh go on! Don't dash our dreams!
+  role: question
+  speaker: Nintendo Life
+  translation: 哦，继续吧！别打破我们的梦想！
+- original: That was actually a video which was shown at the Pokémon Games Show, an event in Tokyo last month and it was showing the history of Pokémon games as well as the future. It was kind of a concept about what the future of Pokemon may look like...
+  role: answer
+  speaker: 增田顺一
+  translation: 那实际上是在上个月东京的宝可梦游戏展上播放的一段视频，它展示了宝可梦游戏的历史以及未来。它有点像是关于宝可梦未来可能样子的概念……
+- original: It sure looked interesting whatever it was! Thank you very much for your time, it was lovely to speak to the both of you.
+  role: question
+  speaker: Nintendo Life
+  translation: 不管它是什么，看起来确实很有趣！非常感谢您抽出时间，很高兴与你们两位交谈。
+- original: Our thanks to Nintendo UK for arranging this interview and event.
+  role: question
+  speaker: Nintendo Life
+  translation: 我们感谢任天堂英国安排这次采访和活动。
 ---
