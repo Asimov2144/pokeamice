@@ -197,9 +197,6 @@ parallel_items:
 - type: narrative
   translation: 正如之前所提到的，在《周刊Fami通》2019年11月28日号（2019年11月14日发售）中，我们将为大家带来包含本文内容的深度访谈，敬请期待。
   original: お伝えした通り、週刊ファミ通2019年11月28日号（2019年11月14日発売）では本記事の内容を含むロングインタビューをお届けするので、ぜひチェックしてほしい。
-- type: narrative
-  translation: (C)2019 Pokémon. (C)1995-2019 Nintendo/Creatures Inc. /GAME FREAK inc. 宝可梦、精灵宝可梦、Pokémon是任天堂、Creatures、GAME FREAK的注册商标。
-  original: (C)2019 Pokémon. (C)1995-2019 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。
 interviewee: 增田顺一, 大森滋
 source:
   title: ファミ通.com / 週刊ファミ通 2019年11月28日号

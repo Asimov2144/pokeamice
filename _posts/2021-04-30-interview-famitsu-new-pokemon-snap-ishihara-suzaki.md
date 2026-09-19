@@ -336,8 +336,6 @@ parallel_items:
   translation: 宝可梦今年迎来了25周年，从《宝可梦 红・绿》到《宝可梦 剑・盾》持续经历了无数次进化。《宝可梦随乐拍》系列虽然作品数量才第二部，但获得了与《宝可梦》系列同等的经验值，进化成了《New 宝可梦随乐拍》。我可以自信地说，如今宝可梦的最前线就在这里，请大家务必尽情享受。
 - original: オンラインプレイのご利用には、「Nintendo Switch Online」への加入が必要です（有料）。
   translation: 使用在线游玩需要加入「Nintendo Switch Online」（付费）。
-- original: ©2021 Pokémon. ©1995-2021 Nintendo/Creatures Inc./GAME FREAK inc.©1999 Nintendo/HAL Laboratory, Inc.Developed by BANDAI NAMCO Studios Inc.ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。Nintendo Switchのロゴ・Nintendo Switchは任天堂の商標です。
-  translation: ©2021 Pokémon. ©1995-2021 Nintendo/Creatures Inc./GAME FREAK inc.©1999 Nintendo/HAL Laboratory, Inc.Developed by BANDAI NAMCO Studios Inc.宝可梦・Pokémon是任天堂・Creatures・GAME FREAK的注册商标。Nintendo Switch的logo・Nintendo Switch是任天堂的商标。
 - original: 画面は開発中のものです。
   translation: 画面为开发中内容。
 entities:

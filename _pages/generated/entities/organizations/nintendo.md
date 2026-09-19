@@ -43,8 +43,8 @@ search: false
 </article>
 
 <article class="resource-network-card">
-  <p>2018 · interview_translation · Early Concept Art 宝可梦早期概念美术</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-early-concept-art/">GlitterBerri 早期艺术文献特写：宝可梦红绿开发初期概念手稿考证（前篇：胶囊怪兽原案、杉森建早期画作与怪兽诞生哲学）</a></h3>
+  <p>2013 · interview_translation · Early Concept Art</p>
+  <h3><a href="/访谈翻译/翻译/访谈整理/interview-glitterberri-early-concept-art/">GlitterBerri 2013：田尻智与杉森建谈宝可梦早期概念设计</a></h3>
   <span></span>
 </article>
 
@@ -69,12 +69,6 @@ search: false
 <article class="resource-network-card">
   <p>2016 · interview_translation · 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</p>
   <h3><a href="/访谈翻译/翻译/访谈整理/interview-25043/">[访谈翻译] 2016  Entrevistamos a los responsables de Pokémon: &quot;No creíamos hace 20 años que un juego así pudiese triunfar en todo el mundo&quot; 20年前我们并不相信会如此成功</a></h3>
-  <span></span>
-</article>
-
-<article class="resource-network-card">
-  <p>2014 · interview_translation · 初代概念美术整理 EN</p>
-  <h3><a href="/访谈翻译/翻译/访谈整理/interview-interview-21/">GlitterBerri 游戏翻译 1990：《胶囊怪兽》企划书标题页、设计前提与关都计划</a></h3>
   <span></span>
 </article>
 

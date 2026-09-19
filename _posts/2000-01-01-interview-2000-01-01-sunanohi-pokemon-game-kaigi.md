@@ -43,9 +43,6 @@ parallel_items:
   original: 2023.6.8 更新
   translation: 2023年6月8日 更新
 - type: paragraph
-  original: 目次＆ショートカット用（ページ内リンク）
-  translation: 目录和快捷方式（页内链接）
-- type: paragraph
   original: 1. 『赤・緑』発売前後のファミマガ
   translation: 1. 《红·绿》发售前后的Fami通杂志
   note: 《红·绿》指《宝可梦 红/绿》，初代游戏。ファミマガ是《Fami通》杂志的简称。

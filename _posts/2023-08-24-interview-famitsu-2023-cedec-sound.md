@@ -72,34 +72,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2023-08-24-interview-famitsu-2023-cedec-sound/004.jpg
   alt: 『ポケモン』世界のリアリティを生み出す鳴き声や環境音はどのように作り上げられたか【CEDEC2023】
-- original: 公演内容
-  translation: 公演内容
-- original: ハードとともに進化する鳴き声の音響表現
-  translation: 随硬件进化的叫声音响表现
-- original: 鳴き声そのものも進化
-  translation: 叫声本身也在进化
-- original: 音の聞こえかたが生み出すリアリティ
-  translation: 声音的听法所创造出的真实感
-- original: 木々や水の出す環境音とその配置
-  translation: 树木和水发出的环境音及其配置
-- original: 4つのデバッガーとサウンドのグループ管理で効率化
-  translation: 通过4个调试器和声音的分组管理实现效率化
-- original: ユーザーに喜んでもらうための音作り
-  translation: 为了让用户开心而进行的声音制作
-- original: 目次閉じる開く
-  translation: 目录 关闭 打开
-- original: ハードとともに進化する鳴き声の音響表現
-  translation: 随硬件一同进化的叫声音响表现
-- original: 鳴き声そのものも進化
-  translation: 叫声本身也在进化
-- original: 音の聞こえかたが生み出すリアリティ
-  translation: 声音的听法所营造出的真实感
-- original: 木々や水の出す環境音とその配置
-  translation: 树木和水发出的环境音及其配置
-- original: 4つのデバッガーとサウンドのグループ管理で効率化
-  translation: 通过4个调试器和声音的分组管理实现效率化
-- original: ユーザーに喜んでもらうための音作り
-  translation: 为了让用户开心而进行的声音制作
 - type: heading
   level: 2
   original: ハードとともに進化する鳴き声の音響表現

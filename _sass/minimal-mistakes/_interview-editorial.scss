@@ -228,6 +228,7 @@ $ed-measure: 704px;
     width: auto;
     max-width: 100%;
     height: auto;
+    max-height: min(82vh, 760px);   /* a tall picture is not taller than the screen */
     margin: 0 auto;
     border-radius: 2px;
   }
@@ -248,8 +249,10 @@ $ed-measure: 704px;
   }
 
   /* a picture sits at its own size, centred, and only a big one fills the measure - the small
-     photographs of a 2009 page (250 x 150) would blur three times over otherwise */
-  .ed-figure img { display: block; width: auto; max-width: 100%; height: auto; margin: 0 auto; border-radius: 2px; }
+     photographs of a 2009 page (250 x 150) would blur three times over otherwise; a portrait one
+     stops at the height of the screen instead of running the full measure (a 3:4 photograph would
+     be over a thousand pixels tall on a wide screen) */
+  .ed-figure img { display: block; width: auto; max-width: 100%; height: auto; max-height: min(78vh, 680px); margin: 0 auto; border-radius: 2px; }
 
   /* ---- body ----------------------------------------------------------- */
   .ed-body {

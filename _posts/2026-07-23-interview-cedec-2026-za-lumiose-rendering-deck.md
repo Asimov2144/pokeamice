@@ -1424,24 +1424,4 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck/slide-81.jpg
   alt: ミアレシティがメガシンカ!? 『Pokémon LEGENDS Z-A』の描画技術 - 第81页
-- original: 'ご清聴ありがとうございました！
-
-    ©2025 Pokémon. ©1995-2025
-
-    Nintendo/Creatures Inc. /GAME FREAK inc.
-
-    ポケットモンスター・ポケモン・
-
-    Pokémonは任天堂・クリーチャーズ・
-
-    ゲームフリークの登録商標です。'
-  translation: '感谢各位的聆听！
-
-    ©2025 Pokémon. ©1995-2025
-
-    Nintendo/Creatures Inc. /GAME FREAK inc.
-
-    宝可梦・Pokémon 是任天堂・Creatures・
-
-    GAME FREAK 的注册商标。'
 ---

@@ -54,7 +54,8 @@ parallel_items:
   original: Yo mes scélérats . À moins que t'aies choppé Alzeihmer (#mamie), tu dois te rappeler de ma news concernant la visite de Masuda et Ohmori en France. S'en est rapidement suivi un edit révélant qu'ils n'étaient pas seulement deux, mais qu' une dizaine de membres de Game Freak s'étaient invités en Dordogne . On aurait pu s'arrêter là, mais je reviens pour conclure cette saga, façon Le Retour du Roi. Il sera question d'enquête, de compilation de détails et d'assemblage de faits. Mets-toi à l'aise, it all ends here .
   translation: "哟，我的小坏蛋们。除非你得了阿尔茨海默症（#奶奶），否则你一定记得我那条关于增田和大森访问法国的新闻。随后很快出现了一条编辑，揭示他们不只是两个人，而是大约十名 GAME FREAK 成员不请自来地来到了多尔多涅。我们本可以就此打住，但我回来是为了给这段传奇画上句号，就像《王者归来》那样。这将涉及调查、细节汇编和事实拼凑。请自便，一切到此结束。"
   note: 阿尔茨海默症是一种失智症，这里用“#mamie”调侃老年失忆。
-- type: paragraph
+- type: heading
+  level: 3
   original: Les Bases
   translation: 基础
 - type: paragraph
@@ -220,10 +221,10 @@ parallel_items:
   speaker: 大森滋
   note: 大森茂（Shigeru Ohmori）是 GAME FREAK 的游戏总监，曾担任《宝可梦 太阳／月亮》等作品的导演。
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: Conception et discrétion
   translation: 设计与保密
-  note: 小标题。
 - type: paragraph
   original: Penchons-nous (sans mauvais jeu de mot) sur le jeu à venir sur Switch et intéressons-nous à ces fameuses phases de repérages. D'abord, il semblerait que les jeux Pokémon mettraient en moyenne deux à trois ans pour voir le jour . Si l'on estime que les phases de repérages de 2011 marquaient les prémisses de X et Y, il aura donc fallu deux ans à Game Freak pour sortir son bébé.
   translation: "让我们（无意双关）来关注一下即将登陆 Switch 的游戏，并探讨一下那些著名的实地考察阶段。首先，宝可梦游戏的平均开发周期似乎是两到三年。如果我们认为2011年的实地考察是《X／Y》的前奏，那么 GAME FREAK 花了两年时间才推出他们的作品。"

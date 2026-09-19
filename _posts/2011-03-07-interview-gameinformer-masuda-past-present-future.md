@@ -53,7 +53,8 @@ parallel_items:
 - speaker: ''
   original: This week marks the long-awaited release of the fifth-generation of Pokémon titles, Black and White. Game Freak producer, Junichi Masuda, and the graphic designer who created many of the game’s 150 new Pokémon, Mana Ibe, tell us about the past, present, and future of the long-running franchise. Did you know the traditional routes found in Pokémon games were initially created as a workaround for cartridge limitations? Did you know that Pokémon originally didn't evolve? If it weren't for the lengthy six-year development cycle of the original games, these series staples would not have existed. Read on to learn more franchise secrets.
   translation: 本周，备受期待的第五世代宝可梦游戏《黑／白》终于发售。GAME FREAK的制作人增田顺一，以及设计了游戏中150只新宝可梦中许多只的图形设计师井部真那，向我们讲述了这一长寿系列游戏的过去、现在和未来。你知道吗？宝可梦游戏中传统的道路设计最初是为了规避卡带容量限制而创造的。你知道吗？宝可梦最初并不会进化。如果没有初代游戏长达六年的开发周期，这些系列特色就不会存在。继续阅读，了解更多系列秘闻。
-- speaker: ''
+- type: heading
+  level: 3
   original: Game Freak’s beginnings
   translation: GAME FREAK的起源
 - speaker: 增田顺一
@@ -99,10 +100,10 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2011-03-07-interview-gameinformer-masuda-past-present-future/003.jpg
   alt: Pokémon Past, Present, And Future
-- speaker: 增田顺一
+- type: heading
+  level: 3
   original: From Red and Blue to Black and White
   translation: 从《红／蓝》到《黑／白》
-  note: 指游戏系列从第一代到第五代的演进。
 - speaker: 增田顺一
   original: It was actually the themes behind the games that decided the titles [for Black and White]. One of the themes is to really express two polar opposites. For example, you have the big city in one field, and then you have the countryside in the other field. The theme of the polar opposites is what brought us to think of black and white.
   translation: 实际上，是游戏背后的主题决定了《黑／白》的标题。主题之一是要表现两个截然相反的对立面。例如，一边是大城市，另一边是乡村。这种对立主题让我们想到了黑与白。

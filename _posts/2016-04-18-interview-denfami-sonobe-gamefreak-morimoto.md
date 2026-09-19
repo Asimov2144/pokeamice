@@ -1084,8 +1084,6 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/DMA-DEC-YU50-002-e1457063999150.jpg
   caption: (C)ParityBit
   alt: (C)ParityBit
-- original: (C)ParityBit
-  translation: (C)ParityBit
 - original: つまり、ワザと完璧じゃない予測を……。
   translation: 也就是说，故意做出不完美的预测……
   speaker: 森本茂树

@@ -8,3 +8,10 @@ CHANGELOG.md                    text merge=union
 docs/_docs/18-history.md        text merge=union
 
 *.md                            text
+
+# pictures are never text, whatever their first bytes look like
+*.jpg                           binary
+*.jpeg                          binary
+*.png                           binary
+*.gif                           binary
+*.webp                          binary

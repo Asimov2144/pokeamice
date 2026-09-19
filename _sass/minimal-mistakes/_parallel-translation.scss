@@ -598,6 +598,7 @@
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: min(78vh, 680px);
   margin: 0 auto;
   border-radius: 4px;
 }

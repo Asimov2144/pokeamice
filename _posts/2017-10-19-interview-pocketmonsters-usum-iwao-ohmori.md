@@ -134,7 +134,8 @@ parallel_items:
 - type: paragraph
   original: In the game, each of the bosses comes from a world in which they managed to fulfill their dark ambitions. Worlds in which the player character must not have existed. Playing with parallel worlds like this is only possible because of the existence of an Ultra Wormhole in Pokémon Ultra Sun and Pokémon Ultra Moon. Because the player character exists in the Alola region, he or she will have the chance to stop them from achieving their ambitions.
   translation: 在游戏中，每位关主训练家都来自一个他们成功实现了黑暗野心的世界。在那个世界里，玩家角色一定不存在。之所以能这样玩转平行世界，是因为《究极之日／究极之月》中存在究极之洞。由于玩家角色存在于阿罗拉地区，他或她将有机会阻止他们实现野心。
-- type: paragraph
+- type: heading
+  level: 3
   original: Familiar Characters Return
   translation: 熟悉角色回归
 - type: paragraph
@@ -160,7 +161,8 @@ parallel_items:
   translation: 岩尾先生：构思一个合情合理的故事并不是什么大挑战。古兹马甚至会在剧情中作为盟友帮助你。话虽如此，反派组织的关主训练家当然最好表现得像你期望的反派组织关主那样，所以我们以对系列其他作品极大的尊重来处理这件事。
   speaker: 岩尾和昌
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: The Creative Approach
   translation: 创意方法
 - type: paragraph
@@ -205,7 +207,8 @@ parallel_items:
   speaker: 大森滋
   note: 杉森建（Ken Sugimori）是宝可梦系列的主要设计师之一。
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: Surfing, Rainbows, and More
   translation: 冲浪、彩虹与更多
 - type: paragraph
@@ -243,7 +246,8 @@ parallel_items:
   translation: 包含彩虹火箭队的剧情只有在玩家完成主线后才能进入。我们还有很多支线事件供玩家享受，而且在完成主线后，玩巨翅飞鱼冲浪和究极空间跳跃骑行也能获得大量奖励。我希望玩家在完成主线剧情后能继续花大量时间享受游戏。
   speaker: 岩尾和昌
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: Closing Thoughts
   translation: 结语
 - type: paragraph

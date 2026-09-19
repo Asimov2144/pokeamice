@@ -155,8 +155,6 @@ parallel_items:
   role: answer
 - original: →次のページでは、ポケモンの連れ歩きやストーリーの変更部分の話が！
   translation: →下一页将介绍宝可梦跟随行走以及剧情变更部分的内容！
-- original: (C)2009 Pokemon. (C)1995-2009 Nintendo/Creatures Inc./GAME FREAK inc.ポケットモンスター・ポケモン・Pokemon は任天堂・クリーチャーズ・ゲームフリークの登録商標です。
-  translation: (C)2009 Pokemon. (C)1995-2009 Nintendo/Creatures Inc./GAME FREAK inc. 宝可梦・Pokemon 是任天堂・Creatures・GAME FREAK的注册商标。
 entities:
   people:
   - "森本茂树"

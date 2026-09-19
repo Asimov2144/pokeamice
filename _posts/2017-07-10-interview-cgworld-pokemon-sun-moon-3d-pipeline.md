@@ -27,8 +27,6 @@ parallel_items:
   translation: 在任天堂3DS上的系列第三作《宝可梦 太阳／月亮》（以下简称《太阳／月亮》）。本作的开发由GAME FREAK、Creatures、宝可梦三家公司构建了高度协同的体制。本文将深入探讨面向便携式游戏机处理大量资产的分布式开发及其巧思。
 - original: ※本記事は月刊「CGWORLD + digital video」vol. 227（2017年7月号）からの転載となります
   translation: ※本文转载自月刊《CGWORLD + digital video》vol. 227（2017年7月号）
-- original: information ©2016 Pokémon. ©1995-2016 Nintendo/Creatures Inc. /GAME FREAK inc. ポケットモンスター・ポケモン・Pokémonは任天堂・クリーチャーズ・ゲームフリークの登録商標です。ニンテンドー3DSのロゴ・ニンテンドー3DSは任天堂の商標です。 ※画面は開発中のものです。また、一部画像を加工しています。
-  translation: information ©2016 Pokémon. ©1995-2016 Nintendo/Creatures Inc. /GAME FREAK inc. 宝可梦・Pokémon是任天堂・Creatures・GAME FREAK的注册商标。任天堂3DS的标识・任天堂3DS是任天堂的商标。 ※画面为开发中内容。此外，部分图片经过加工。
 - type: heading
   level: 2
   original: 20年以上続く人気シリーズを影で支える高度な開発体制
@@ -50,8 +48,6 @@ parallel_items:
   translation: 最后是在任天堂3DS这一硬件上的实现。另一方面，宝可梦的招式和机制随着作品迭代而日益复杂。因此在本作的开发中，也强烈要求在限制内下功夫。为了在分布式开发中顺利推进这些工作，从工作流程的整备开始，进行了各种改进。
 - original: これら作業のあらましについて、主にクリーチャーズ側の視点から深掘りしていく。
   translation: 接下来，将主要从Creatures的视角深入探讨这些工作的概要。
-- original: Information
-  translation: Information
 - original: 発売：ポケモン／開発：ゲームフリーク／販売：任天堂株式会社／発売日：発売中／価格：各5,378円／Platform：ニンテンドー3DS／ジャンル：RPG www.pokemon.co.jp/ex/sun_moon
   translation: 发售：宝可梦／开发：GAME FREAK／销售：任天堂株式会社／发售日：发售中／价格：各5,378日元／平台：任天堂3DS／类型：RPG www.pokemon.co.jp/ex/sun_moon
   type: note

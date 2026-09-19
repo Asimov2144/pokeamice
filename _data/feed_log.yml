@@ -1,4 +1,10 @@
 # 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-09-19'
+  count: 1
+  types:
+    访谈翻译: 1
+  posts:
+  - 2013-05-29-interview-glitterberri-early-concept-art
 - date: '2026-09-18'
   count: 13
   types:
@@ -66,18 +72,18 @@
   - 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
   - 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza
 - date: '2026-09-05'
-  count: 43
+  count: 41
   types:
-    访谈翻译: 43
+    访谈翻译: 41
   posts:
   - 2019-05-18-interview-siliconera-harmoknight-drill-dozer
   - 2019-05-09-interview-vgc-gamefreak-gear-project
   - 2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance
   - 2018-07-26-interview-creators-of-pikachu
-  - 2018-06-12-interview-early-concept-art
   - 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
   - 2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets
   - 2017-11-06-interview-2017-game-freak-dordogne-enquete
+  - 2017-10-19-interview-pocketmonsters-usum-iwao-ohmori
 - date: '2026-09-01'
   count: 251
   types:

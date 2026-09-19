@@ -136,8 +136,11 @@ $tf-mono: "JetBrains Mono", "Cascadia Code", "SF Mono", Consolas, monospace;
 
   .tf-figure img {
     display: block;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     height: auto;
+    max-height: min(78vh, 680px);
+    margin: 0 auto;
     border: 1px solid $tf-rule;
     border-radius: 3px;
     background: $tf-band;

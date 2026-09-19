@@ -62,6 +62,11 @@ _spec = importlib.util.spec_from_file_location("import_nom", ROOT / "tools" / "i
 _nom = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_nom)
 deepseek, load_glossary, glossary_hits, era_for = _nom.deepseek, _nom.load_glossary, _nom.glossary_hits, _nom.era_for
+# what a page leaves around an article - copyright, share buttons, its menu - and the titles it
+# set as paragraphs: the same rules that clean the posts already in the library
+_spec = importlib.util.spec_from_file_location("tidy_web", ROOT / "tools" / "tidy-web-posts.py")
+_tidy = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_tidy)
 
 LANG_NAME = {"ja": "日文", "en": "英文", "fr": "法文", "it": "意大利文", "de": "德文"}
 DIALOGUE_KINDS = {"interview"}
@@ -354,6 +359,7 @@ DASH_Q = re.compile(r"^\s*(?:[―─—–‐\-]{1,3}|——|――|──)\s*(.
 JA_NAME = re.compile(r"^\s*([^\s：:　（(]{1,12}?)\s*(?:氏|さん|社長|様|先生)?\s*(?:（[^）]{0,20}）)?\s*[：:]\s*(.+)$")
 JA_SPACE = re.compile(r"^\s*([一-鿿゠-ヿ]{1,5})[　 ]\s*(\S.+)$")
 EN_NAME = re.compile(r"^\s*([A-Z][A-Za-z.'’\- ]{0,30}?)\s*:\s+(.+)$")     # {0,30}: a lone "Q:" counts
+CAPTION_LINE = re.compile(r"^(Title|Caption|Image|Picture|図|キャプション)\s*[:：]\s*(.+)$", re.I)
 FR_Q = re.compile(r"^\s*jeuxvideo\.com\s*>\s*(.+)$", re.I)
 FR_NAME = re.compile(r"^\s*([A-Z][A-Za-z\- ]{2,30}?)\s*:\s*(.+)$")
 
@@ -383,7 +389,7 @@ def to_items(blocks, target, slug, dry):
     solo = list(target["speakers"].values())
     solo = solo[0] if len(set(solo)) == 1 else None
     items, last_role, last_speaker, n_img = [], None, None, 0
-    pending, seen_heading, alt_turn = None, False, 0
+    pending, seen_heading, alt_turn, title_line = None, False, 0, ""
     wayback = target.get("wayback")
     dest = IMG_DIR / slug
     for b in blocks:
@@ -396,17 +402,28 @@ def to_items(blocks, target, slug, dry):
             if n_img >= int(target.get("max_images") or 10):
                 continue
             n_img += 1
+            cap = b["cap"] or title_line
+            title_line = ""
             if dry:
-                items.append({"type": "image", "image": b["src"], "caption": b["cap"], "alt": b["alt"]})
+                items.append({"type": "image", "image": b["src"], "caption": cap, "alt": b["alt"]})
                 continue
             local = fetch_image(b["src"], target["url"], wayback, dest, n_img, bool(target.get("images_live")))
             if local:
                 it = {"type": "image", "image": local, "alt": b["alt"] or target["title"]}
-                if b["cap"]:
-                    it["caption"] = b["cap"]
+                if cap:
+                    it["caption"] = cap
                 items.append(it)
             continue
         text = b["x"]
+        # a picture's title on the line before it, its caption on the line after (GlitterBerri)
+        m = CAPTION_LINE.match(text)
+        if m and items and items[-1].get("type") == "image" and not m.group(1).lower().startswith("title"):
+            items[-1]["caption"] = (items[-1].get("caption", "") + " " + m.group(2).strip()).strip()
+            continue
+        if m:
+            title_line = (title_line + " " + m.group(2).strip()).strip()
+            continue
+        title_line = ""          # a paragraph in between: the held line was not a caption after all
         # a speaker's name on a line of its own (Famitsu 2026, Gpara) names the next paragraph
         m = SPEAKER_LINE.match(text)
         if m and len(text) <= 14 and match_speaker(m.group(1), target):
@@ -579,7 +596,7 @@ def write_post(target, items, cover, slug):
         "source_kind": KIND_SOURCE.get(target.get("kind"), "media_interview"),
         "author": target.get("author") or None,
         "interviewer": target.get("author") or target.get("asker") or target["outlet"],
-        "interviewee": "、".join(sorted(set(target["speakers"].values()))),
+        "interviewee": "、".join(people),          # who speaks in the piece, not every name the target maps
         "translator": "PokeAmice（DeepSeek 初译）",
         "original_lang": target["lang"],
         "translation_lang": "zh-CN",
@@ -610,24 +627,39 @@ def run(key, targets, dry, glossary):
     slug = target.get("slug") or f"{target['date']}-interview-{key}"
     print(f"== {key}: {target['title'][:60]}")
     blocks = []
+    # the page's own index / navigation after the piece: each page is cut at the heading that opens it
+    stop = re.compile(target["stop_at"]) if target.get("stop_at") else None
+    drop = re.compile(target["drop"]) if target.get("drop") else None
     for n, url in enumerate([None] + target.get("pages", [])):
         t = target if url is None else {**target, "key": f"{target['key']}_p{n + 1}", "url": url, "wayback": None}
         soup = parse(fetch(t))
         strip_noise(soup)
         container = find_container(soup, target)
-        blocks += extract_blocks(container, join_br=bool(target.get("join_br")))
+        # what the target names as furniture inside the container: a date line, an index table
+        for sel in ([target["strip"]] if isinstance(target.get("strip"), str) else target.get("strip") or []):
+            for el in container.select(sel):
+                el.decompose()
+        page_blocks = extract_blocks(container, join_br=bool(target.get("join_br")))
+        if drop:
+            page_blocks = [b for b in page_blocks if not drop.search(b.get("x") or "") and not drop.search(b.get("alt") or "") and not drop.search(b.get("src") or "")]
+        # a title for each page of a serial: the page's own first heading when it is that
+        # title (raised to a section heading), else put in front of the page
+        heads = target.get("page_headings") or []
+        if n < len(heads) and heads[n]:
+            own = next((b for b in page_blocks[:2] if b["t"] == "h"), None)
+            if own and own["x"].strip().lower() == heads[n].strip().lower():
+                own["level"] = 2
+            else:
+                page_blocks.insert(0, {"t": "h", "x": heads[n], "level": 2})
+        if stop:
+            for m, b in enumerate(page_blocks):
+                if b["t"] == "h" and stop.search(b.get("x") or ""):
+                    page_blocks = page_blocks[:m]
+                    break
+        blocks += page_blocks
     # what the page carries besides the piece: a date stamp, the next installment's thumbnail
-    # the page's own index / navigation after the piece: cut at the heading that opens it
-    if target.get("stop_at"):
-        stop = re.compile(target["stop_at"])
-        for n, b in enumerate(blocks):
-            if b["t"] == "h" and stop.search(b.get("x") or ""):
-                blocks = blocks[:n]
-                break
-    if target.get("drop"):
-        drop = re.compile(target["drop"])
-        blocks = [b for b in blocks if not drop.search(b.get("x") or "") and not drop.search(b.get("alt") or "") and not drop.search(b.get("src") or "")]
     items = tidy(to_items(blocks, target, slug, dry))
+    items = _tidy.apply(items, target["lang"], target["title"])
     n_q = sum(1 for x in items if x.get("role") == "question")
     n_a = sum(1 for x in items if x.get("role") == "answer")
     n_h = sum(1 for x in items if x.get("type") == "heading")

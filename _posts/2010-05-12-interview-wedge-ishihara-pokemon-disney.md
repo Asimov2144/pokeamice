@@ -114,8 +114,6 @@ parallel_items:
   original: 去年なんて、邦画部門興行収入第3位ですよ。
   translation: 去年更是跻身日本国产电影票房收入第三位。
   role: answer
-- original: (C)2010 Pokémon.(C)1995-2010 Nintendo/Creatures Inc./GAME FREAK inc.
-  translation: （C）2010 Pokémon.（C）1995-2010 Nintendo/Creatures Inc./GAME FREAK inc.
 - type: heading
   level: 2
   original: 第3章：版権ビジネスの手法にポケモン成長のわけ――株式会社ポケモンの設立とグローバル自律展開

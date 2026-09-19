@@ -77,9 +77,9 @@ parallel_items:
   level: 2
   original: 10年後を考えたら，絶対に必要なこと
   translation: 考虑到10年后，这是绝对必要的事
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 本日はよろしくお願いします。
+  speaker: 4Gamer
+  role: question
   translation: 今天请多关照。
 - original: 以前からゲームフリークさんにはぜひ一度取材をさせて頂きたいと思っていましたので，今回は，その機会を頂けてとても嬉しいです。
   role: question
@@ -89,8 +89,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 哈哈哈。只要您招呼一声，我们随时都愿意接受采访的！
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 僕も長年ゲーム業界で働かせて頂いていますが，ゲームフリークさんはなかなか接点がない会社なので（笑）。でも先日，「ソリティ馬」を遊ばせて頂いたときに，「これはめちゃくちゃ良く出来てるゲームだな！」と衝撃を受けて。その勢いでインタビューを申し込んでしまいました。
   role: question
   speaker: 4Gamer
@@ -100,8 +98,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 谢谢您（笑）。我们自认为《纸牌赛马》也是相当讲究地做出来的，能得到这样的评价，非常高兴。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 「ソリティ馬」に関しては，なんといいますか，「若手が頑張って作りました」とか「500円という価格以上の面白さを」とか，“そういう次元を超えている完成度”だと思ったんです。「このゲームは一朝一夕で作れるものではない」というか，ゲームフリークさんの中にあるこだわりや積み重ねがあって，初めて作れる作品なのではないかと感じて。
   role: question
   speaker: 4Gamer
@@ -110,8 +106,6 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 是啊……
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: ですから，今回は，そんな「ソリティ馬」を生み出したゲームフリーク――世間的には「ポケットモンスター」の会社というイメージが強いと思いますが――とはどんな会社で，どんな人達がどういう思いでゲームを作っているのか，みたいなお話をお聞きできればと思っています。
   role: question
   speaker: 4Gamer
@@ -120,9 +114,9 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 明白了。请多关照！
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: ではまず，そんな「ソリティ馬」を生み出すキッカケにもなった，「GEAR」という取り組みを始めた経緯からお聞かせ願えますか。
+  speaker: 4Gamer
+  role: question
   translation: 那么首先，请允许我们请教一下，催生出《纸牌赛马》的“GEAR”这一尝试，当初是在怎样的经过下开始的呢？
 - original: 渡辺哲也（わたなべてつや）：ゲームフリーク 取締役 兼開発1部部長。黎明期からゲームフリークに在籍し，プログラマーとして数々の「ポケットモンスター」シリーズの開発に従事。同作における根幹部分の設計/構築を行ってきた。現在は，主にオリジナルタイトルの開発を行う開発一部の部長兼取締役として，同社の開発全体を統括する
   translation: 渡边哲也（わたなべてつや）：GAME FREAK董事兼开发1部部长。从黎明期起就在GAME FREAK任职，作为程序员参与了众多《宝可梦》系列的开发。他负责了该作根基部分的设计与构建。现在，他主要作为负责原创作品开发的开发一部部长兼董事，统括该公司的整体开发。
@@ -133,8 +127,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 首先说明一下“GEAR”这一尝试。这是GAME FREAK公司内部的一项新制度：无论是程序员还是设计师，只要写出企划书，并且包括自己在内有3人以上赞同，就可以用3个月时间制作那款游戏。虽说新，但其实从大约3年前就已经在做了。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: Googleの「20％ルール」みたいな話ですよね。
   role: question
   speaker: 4Gamer
@@ -143,8 +135,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 是的。然后，开始制作3个月后会进行一次检查，通过之后还能再制作3个月。然后在合计试作6个月的阶段，公司会做经营判断，决定是否将其作为公司项目。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: そういう制度をわざわざ設けたのは，新しいゲームを作らなければ，という議論がゲームフリーク社内であったからなんですか？
   role: question
   speaker: 4Gamer
@@ -161,8 +151,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 因为这种状况一直持续，我们就讨论到“这样下去，是不是得从公司本身的组织结构开始改变才行？”，结果就形成了“GEAR”这个机制。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 「GEAR」が出来る前のゲームフリークでは，ゲームの企画ってどういう形で進むものだったんですか？
   role: question
   speaker: 4Gamer
@@ -171,9 +159,9 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 相对来说，是接近自上而下的形式。在《宝可梦》的开发等工作告一段落的时期，会有种“让某个年轻人牵头试试看”的感觉，那时就会把正在酝酿企划的人的想法吸收上来推进。而且以前是以策划为中心推进项目，最近则取消了这种限制，改成了能更自由去做的形式。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: じゃあ，今のゲームフリークさんは，いわゆる「ポケットモンスター」の開発ラインと，他のゲーム（GEARの取り組み）のラインが複数動いているという形なんですか？
+  speaker: 4Gamer
+  role: question
   translation: 那么，现在的GAME FREAK是所谓的《宝可梦》开发线和其他游戏（GEAR的尝试）线多条并行的形式吗？
 - original: 建（すぎもりけん）：ゲームフリーク 取締役 アートディレクター。ゲーム開発に乗り出す以前，ミニコミ誌の「ゲームフリーク」の発刊から同社に携わる人物で，「ポケットモンスター」を田尻氏と共に考案。ゲームフリークの多くの作品でキャラクターデザインを担当している。一時期，プロの漫画家として活動していたこともある
   role: answer
@@ -190,8 +178,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 现在公司员工已经超过80人了，但这是为了开发这次的《宝可梦 X·Y》而增加的结果。在那之前，最多也就50到60人左右的规模，再往前规模更小。而且宝可梦对我们来说也是重要的作品，制作它要耗费极大的精力。所以，制作宝可梦以外的作品，一直处于相当困难的状态。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: なるほど。
   role: question
   speaker: 4Gamer
@@ -208,8 +194,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 所以，应该为公司里的年轻人创造积累这种经验的机会。自己主动行动，一边争吵一边推进项目——这样的经验，或许会有很多不顺利的时候，但考虑到今后5年、10年，我觉得绝对是必要的。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: ふうむ。
   role: question
   speaker: 4Gamer
@@ -222,8 +206,6 @@ parallel_items:
   level: 2
   original: 好きに作って好きに売れるぞ！という喜び
   translation: 可以随心所欲地制作、随心所欲地销售的喜悦！
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 「ソリティ馬」は，ゲームフリーク初の“自社パブリッシング”という形でリリースしていますよね。その意図はなんなのでしょうか。
   role: question
   speaker: 4Gamer
@@ -241,8 +223,6 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 即使是小众的东西，如果制作费用能控制住，并且有相应能卖出去的环境，那么不擅长销售活动的我们，也感觉可以设法建立体制来试试看。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: ゲームフリークさんの企画（ゲーム）であっても，パブリッシャさんは取り合ってくれないものなんですか？
   role: question
   speaker: 4Gamer
@@ -271,8 +251,6 @@ parallel_items:
   speaker: 渡边哲也
   translation: 说实话，比如《纸牌赛马》，要是有人让我去把它推销给某家发行商，我会一筹莫展的（笑）。
   note: 《纸牌赛马》（ソリティ馬）是GAME FREAK于2013年推出的3DS下载游戏，将纸牌接龙与赛马结合。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: 僕なら買いますけどね（笑）。確かにパッケージタイトルでと言われたら，躊躇はあるでしょう。
   role: question
   speaker: 4Gamer
@@ -290,8 +268,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 也不是说可以无限制地投入资金。那里要好好设定预算和期限。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: ゲームフリークさんは，いわゆる「パブリッシャになりたい！」みたいな目標はあるんですか？ ゲームデベロッパさんのひとつの成功モデルという意味では，デベロッパとして実績を積み重ねながら，どこかのタイミングで自社のタイトルを出してパブリッシャになる――というものがありますよね。
   role: question
   speaker: 4Gamer
@@ -308,8 +284,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 单纯就是想继续坚持这种风格：把自己想做的游戏，放到看起来最好玩的设备上推出。而当这种想法与发行商所期望的东西之间差距越来越大时，那就只能自己来做了。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: これはぜひお聞きしてみたいなと思っていたんですけど，それこそゲームフリーク設立初期から在籍している方々は，今も「作りたいもの」ってたくさん持っていらっしゃるんですか？
   role: question
   speaker: 4Gamer
@@ -323,8 +297,6 @@ parallel_items:
   role: answer
   speaker: 渡边哲也
   translation: 比如说“让大量玩家互相交流的玩法/机制”这类东西，反倒是在宝可梦这个场域里实施，才更能扎实地运转起来，或者说更容易成形。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: それはそうですよね。
   role: question
   speaker: 4Gamer
@@ -341,8 +313,6 @@ parallel_items:
   role: answer
   speaker: 杉森建
   translation: 而且，一旦要让发行商出钱，理所当然地，就必须接受各种各样的要求。
-- original: 4Gamer：
-  translation: 4Gamer：
 - original: そうですねぇ。
   role: question
   speaker: 4Gamer

@@ -474,8 +474,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-03-30-interview-famitsu-detective-pikachu-jinnai-miyashita/006.jpg
   alt: コーヒー好きの“ピカチュウ（CV大川透）”はこうして生まれた――『名探偵ピカチュウ』開発陣に直撃インタビュー！_18
-- original: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.ポケットモンスター・ポケモン・Pokemon・名探偵ピカチュウは、任天堂・クリーチャーズ・ゲームフリークの登録商標です。
-  translation: (C)2018 Pokemon. (C)1995-2018 Nintendo/Creatures Inc./GAME FREAK inc. Developed by Creatures Inc.宝可梦・Pokemon・名侦探皮卡丘是任天堂、Creatures、GAME FREAK的注册商标。
 entities:
   people:
   - "阵内弘之"

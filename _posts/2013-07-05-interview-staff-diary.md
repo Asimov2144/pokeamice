@@ -44,30 +44,6 @@ translator: Poke Amice Studio
 interviewee: じだぬ, ほず, めめた, ナギー, ユーリー, 一之濑刚, 卡妮子, 大村祐介, 松岛贤二
 parallel_items:
 - type: paragraph
-  original: 晴れたり時々曇ったり
-  translation: 时而晴朗，时而多云
-  note: 此为博客标题，可能隐喻游戏剧情或天气变化。
-- type: paragraph
-  original: About
-  translation: 关于
-  note: 页面导航标签。
-- type: paragraph
-  original: 過去ログいちらん
-  translation: 过往日志一览
-  note: 博客归档页面链接。
-- type: paragraph
-  original: '29'
-  translation: '29'
-  note: 日期数字，可能为日期的一部分。
-- type: paragraph
-  original: 6月
-  translation: 6月
-  note: 月份。
-- type: paragraph
-  original: '2012'
-  translation: '2012'
-  note: 年份。
-- type: paragraph
   original: 発売！
   translation: 发售！
   note: 表示游戏发售的感叹。
@@ -1810,48 +1786,6 @@ parallel_items:
 - type: paragraph
   original: 以上、松島でした。
   translation: 以上是松岛。
-- type: paragraph
-  original: « Older Entries
-  translation: « 较旧的文章
-- type: paragraph
-  original: リンク
-  translation: 链接
-- type: paragraph
-  original: ゲームフリーク
-  translation: GAME FREAK
-- type: paragraph
-  original: 杉森健のお絵かき日和
-  translation: 杉森健的绘画日常
-- type: paragraph
-  original: 増田部長のめざめるパワー
-  translation: 增田部长的觉醒力量
-- type: paragraph
-  original: カテゴリー
-  translation: 分类
-- type: paragraph
-  original: GF紹介
-  translation: GAME FREAK介绍
-- type: paragraph
-  original: にっき
-  translation: 日记
-- type: paragraph
-  original: ポケモン
-  translation: 宝可梦
-- type: paragraph
-  original: 採用
-  translation: 招聘
-- type: paragraph
-  original: 更新のおしらせ
-  translation: 更新通知
-- type: paragraph
-  original: 未分類
-  translation: 未分类
-- type: paragraph
-  original: ブログ内検索
-  translation: 站内搜索
-- type: paragraph
-  original: '検索:'
-  translation: 搜索：
 - type: paragraph
   original: おしらせとか
   translation: 公告等

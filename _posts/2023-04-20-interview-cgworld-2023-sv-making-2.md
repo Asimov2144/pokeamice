@@ -62,8 +62,6 @@ parallel_items:
   translation: 《宝可梦 朱》
 - original: 『ポケットモンスター バイオレット』
   translation: 《宝可梦 紫》
-- original: interviewee
-  translation: 受访者
 - type: image
   image: /assets/img/interviews/2023-04-20-interview-cgworld-2023-sv-making-2/003.png
   alt: 『ポケットモンスター スカーレット・バイオレット』メイキング［PART2］360度、どの角度から見ても画になるモーションを心がける
@@ -267,14 +265,6 @@ parallel_items:
   translation: 月刊《CGWORLD +digitalvideo》vol.296（2023年4月号）
 - original: 特集：とことん深掘り！ゲームのアニメーション
   translation: 特集：彻底深挖！游戏的动画
-- original: 定価：1,540円（税込）
-  translation: 定价：1,540日元（含税）
-- original: 判型：A4ワイド
-  translation: 开本：A4宽版
-- original: 総ページ数：112
-  translation: 总页数：112
-- original: 詳細・ご購入はこちらから
-  translation: 详情与购买请点击此处
 - original: INTERVIEWER＿若杉 遼（CGWORLD）／Ryo Wakasugi
   translation: 采访＿若杉辽（CGWORLD）／Ryo Wakasugi
 - original: TEXT＿尾形美幸（CGWORLD）／Miyuki Ogata

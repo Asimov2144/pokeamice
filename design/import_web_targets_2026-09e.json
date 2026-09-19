@@ -1,0 +1,100 @@
+{
+ "note": "GlitterBerri, Early Concept Art (2013-05-29): the sixteen pages as one post, from the Wayback Machine (the site is gone). Replaces the two page-at-a-time imports 2018-06-12-interview-early-concept-art and 2014-03-19-interview-interview-21.",
+ "targets": [
+  {
+   "key": "glitterberri-early-concept-art",
+   "url": "https://www.glitterberri.com/pokemon-red-blue/early-concept-art/",
+   "wayback": "https://web.archive.org/web/20190214181406/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/",
+   "pages": [
+    "https://web.archive.org/web/20190406085739/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/2/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/3/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/4/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/5/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/6/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/7/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/8/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/9/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/10/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/11/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/12/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/13/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/14/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/15/",
+    "https://web.archive.org/web/2019/https://www.glitterberri.com/pokemon-red-blue/early-concept-art/16/"
+   ],
+   "page_headings": [
+    "Life Before Pokémon",
+    "Tajiri’s Pokémon Vision",
+    "Adventuring With Pokémon",
+    "A Battle Between Trainers",
+    "A Battle Between Pokémon",
+    "A Day in the Life",
+    "Trading Pokémon",
+    "At the Pokémon Hotel",
+    "Catching Pokémon",
+    "At the Pokémart",
+    "Status Screen",
+    "Battle Screen",
+    "Opening Sequence",
+    "Overworld",
+    "Sprites",
+    "A Brief Conclusion"
+   ],
+   "lang": "en",
+   "date": "2013-05-29",
+   "outlet": "GlitterBerri’s Game Translations",
+   "outlet_zh": "GlitterBerri",
+   "title": "Early Concept Art",
+   "kind": "interview_feature",
+   "author": "GlitterBerri",
+   "asker": "GlitterBerri",
+   "speakers": {
+    "Sugimori": "杉森建",
+    "Ken Sugimori": "杉森建",
+    "Tajiri": "田尻智",
+    "Satoshi Tajiri": "田尻智",
+    "Miyamoto": "宫本茂",
+    "Shigeru Miyamoto": "宫本茂",
+    "Masuda": "增田顺一",
+    "Junichi Masuda": "增田顺一",
+    "Morimoto": "森本茂树",
+    "Shigeki Morimoto": "森本茂树",
+    "Ishihara": "石原恒和",
+    "Tsunekazu Ishihara": "石原恒和",
+    "Nishino": "西野弘二",
+    "Iwata": "岩田聪",
+    "Satoru Iwata": "岩田聪"
+   },
+   "works": [
+    "宝可梦 红·绿"
+   ],
+   "tags": [
+    "GlitterBerri",
+    "田尻智",
+    "杉森建",
+    "第一世代",
+    "赤绿",
+    "胶囊怪兽",
+    "企划书",
+    "早期概念图",
+    "开发史",
+    "EN"
+   ],
+   "categories": [
+    "访谈翻译",
+    "翻译",
+    "访谈整理"
+   ],
+   "container": "div.entry",
+   "strip": [
+    "p.date",
+    "p.postmetadata",
+    "table"
+   ],
+   "drop": "^(Index|Pages: |Return to |Read More Developer|\\$sectionArray|Want More\\?$|Pokémon (Red & Blue|Gold & Silver) Index$)",
+   "bold_question": false,
+   "max_images": 120,
+   "slug": "2013-05-29-interview-glitterberri-early-concept-art"
+  }
+ ]
+}

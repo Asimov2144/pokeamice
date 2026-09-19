@@ -39,26 +39,6 @@ translator: Poke Amice Studio
 interviewee: 鹤田
 parallel_items:
 - type: paragraph
-  original: 晴れたり時々曇ったり
-  translation: 晴时多云
-  note: 可能是博客标题或栏目名。
-- type: paragraph
-  original: About
-  translation: 关于
-- type: paragraph
-  original: 過去ログいちらん
-  translation: 过往日志一览
-- type: paragraph
-  original: '04'
-  translation: '04'
-  note: 日期或编号。
-- type: paragraph
-  original: 12月
-  translation: 12月
-- type: paragraph
-  original: '2009'
-  translation: '2009'
-- type: paragraph
   original: ＨＧ・ＳＳ 語っちゃいます！ その7
   translation: 畅谈心金魂银！第7回
   note: HG・SS指《宝可梦 心金/魂银》。
@@ -201,72 +181,6 @@ parallel_items:
   original: 次回いよいよ最終回の『ＨＧ・ＳＳ　語っちゃいます！』お楽しみに！
   translation: 下次终于迎来《HG·SS 畅谈！》的最终回，敬请期待！
   note: HG·SS指《宝可梦 心金/魂银》，是《宝可梦 金/银》的重制版。
-- type: paragraph
-  original: ポケットモンスター ハートゴールド・ソウルシルバー 公式サイト
-  translation: 宝可梦 心金/魂银 官方网站
-- type: paragraph
-  original: « ＨＧ・ＳＳ 語っちゃいます！ 番外編
-  translation: « ＨＧ・ＳＳ 畅谈！ 番外篇
-- type: paragraph
-  original: 金沢カレー »
-  translation: 金泽咖喱 »
-  note: 金泽咖喱是日本石川县金泽市的一种当地特色咖喱，通常搭配炸猪排等。
-- type: paragraph
-  original: リンク
-  translation: 链接
-- type: paragraph
-  original: ゲームフリーク
-  translation: GAME FREAK
-  note: GAME FREAK是宝可梦系列游戏的开发商。
-- type: paragraph
-  original: 杉森健のお絵かき日和
-  translation: 杉森健的绘画日常
-  note: 杉森健是宝可梦系列的主要画师之一。
-- type: paragraph
-  original: 増田部長のめざめるパワー
-  translation: 增田部长的觉醒力量
-  note: 增田部长指增田顺一，GAME FREAK的董事，宝可梦系列的游戏设计师和作曲家。'觉醒力量'是宝可梦招式名，此处为栏目名。
-- type: paragraph
-  original: カテゴリー
-  translation: 分类
-- type: paragraph
-  original: GF紹介
-  translation: GF介绍
-  note: GF是GAME FREAK的缩写。
-- type: paragraph
-  original: にっき
-  translation: 日记
-- type: paragraph
-  original: ポケモン
-  translation: 宝可梦
-- type: paragraph
-  original: 採用
-  translation: 招聘
-  note: 网站导航栏中的'招聘'链接，通常指向公司或团队的招聘信息。
-- type: paragraph
-  original: 更新のおしらせ
-  translation: 更新通知
-  note: 指网站或博客的更新公告。
-- type: paragraph
-  original: 未分類
-  translation: 未分类
-  note: 博客文章分类中的'未分类'，表示尚未归类的内容。
-- type: paragraph
-  original: ブログ内検索
-  translation: 博客内搜索
-  note: 用于在博客内部进行搜索的功能。
-- type: paragraph
-  original: '検索:'
-  translation: 搜索：
-  note: 搜索框的标签。
-- type: paragraph
-  original: おしらせとか
-  translation: 通知等
-  note: 博客侧边栏的标题，意为'通知之类'，可能包含公告或新闻。
-- type: paragraph
-  original: About
-  translation: 关于
-  note: 网站或博客的'关于'页面链接。
 summary: "Game Freak 图形设计师鹤田在 2009 年《宝可梦 心金·魂银》发售前后的员工博客中，讲述自己负责跟随宝可梦图形设计的经历。他提到跟随系统可带任意喜欢的宝可梦同行，因数量庞大从项目初期绘制并修改到最后一刻；坚持让每只宝可梦都不显得敷衍，并特别实现异色宝可梦的跟随外观，包括剧情中可遇到的红色暴鲤龙，但所有颜色设定需由他完成。他还提到可把《宝可梦 钻石·珍珠》《宝可梦 白金》中培育的异色宝可梦带入本作，并透露部分宝可梦重现了雄雌差异。"
 dek: "《心金·魂银》跟随宝可梦图形设计与异色再现"
 topics:

@@ -40,9 +40,6 @@ entities:
   - Nintendo
 parallel_items:
 - type: paragraph
-  original: 'E3 2004: The Pokemon Creators Speak'
-  translation: E3 2004：宝可梦创作者访谈
-- type: paragraph
   original: 'We chat with the director of the new Pokemon: Fire Red and Leaf Green GBA games.'
   translation: 我们与新的宝可梦GBA游戏《宝可梦 火红／叶绿》的导演进行了交谈。
 - type: paragraph

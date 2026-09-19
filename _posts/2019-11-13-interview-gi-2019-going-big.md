@@ -52,7 +52,9 @@ workflow:
   proofreading: pending
   published: draft
 parallel_items:
-- original: Introduction
+- type: heading
+  level: 3
+  original: Introduction
   translation: 引言
 - original: Since Pokémon’s debut, the mainline series has existed solely on handheld devices. Being able to adventure in the world of Pokémon while being anywhere in the real world is enticing, but fans have long clamored to see the series deliver a mainline console RPG. However, developer Game Freak was reluctant to create a game that players couldn’t take with them. The release of the hybrid Nintendo Switch changed everything.
   translation: "自宝可梦首次亮相以来，主线系列一直只存在于掌机平台。能够在现实世界中随时随地进入宝可梦的世界冒险固然诱人，但粉丝们长期以来一直呼吁该系列推出一款主机平台的主线RPG。然而，开发商GAME FREAK不愿制作一款玩家无法随身携带的游戏。混合型主机Nintendo Switch的发布改变了一切。"

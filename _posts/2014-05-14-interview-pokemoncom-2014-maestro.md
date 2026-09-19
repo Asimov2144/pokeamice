@@ -86,7 +86,9 @@ parallel_items:
   translation: 自增田先生早期以来，电子游戏作曲已经发生了很大变化。创作音乐的工具显著改进，他的方法也改变了。他几乎参与过每一款宝可梦游戏的经验，无疑为创作开辟了更多途径。“如今更多的是我们先构思音乐，因为我们大致已经知道宝可梦游戏里有什么……我们知道场景是什么样的。我会创作符合我们已知内容的歌曲，”增田先生说。
 - original: But that doesn’t mean the work has become easier. “Obviously there’s a lot more freedom when composing game music these days, but that comes with a lot of challenges. You can do a lot more, but you also have to do a lot more,” he says. “For all the freedom we have now, I think it’s a good time for all of us game music composers to step back and really think about what game music should be. Interactivity is an element in games that you don’t find elsewhere. And with that in mind, maybe we should think about what we’re doing with game music.”
   translation: 但这并不意味着工作变得更容易了。“显然，如今创作游戏音乐有更多自由，但这也伴随着许多挑战。你可以做更多，但你也必须做更多，”他说。“尽管我们现在拥有所有这些自由，我认为现在是所有游戏音乐作曲家退后一步，真正思考游戏音乐应该是什么的好时机。互动性是游戏中独有的元素。考虑到这一点，也许我们应该思考我们在游戏音乐方面正在做什么。”
-- original: A Survey of the History of Pokémon Music
+- type: heading
+  level: 3
+  original: A Survey of the History of Pokémon Music
   translation: 宝可梦音乐历史回顾
 - original: The development and mastering of the Pokémon soundtracks has given Mr. Masuda a chance to reflect on the creation of his long legacy of musical composition. We go through the chronology of major Pokémon games to get his insight into them. The team responsible for remastering all the soundtracks spent considerable time adjusting the music so it would sound good regardless of where the listener was, whether in the car or listening to a home stereo.
   translation: 宝可梦原声带的开发和母带处理让增田先生有机会反思他长期音乐创作生涯的成果。我们按时间顺序梳理主要的宝可梦游戏，以了解他的见解。负责重新制作所有原声带的团队花了大量时间调整音乐，使其无论听众在哪里——在车里还是在家中立体声音响上——都能听起来不错。

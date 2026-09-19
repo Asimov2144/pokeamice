@@ -281,7 +281,9 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2019-10-24-interview-gi-2019-burning/006.webp
   alt: More Burning Questions For The Pokémon Series
-- original: Pokémon Sword and Shield concept art
+- type: heading
+  level: 3
+  original: Pokémon Sword and Shield concept art
   translation: 《宝可梦 剑·盾》概念艺术图
 - original: If each of you is starting your own gym, what type are you and what three Pokémon are you using?
   role: question
