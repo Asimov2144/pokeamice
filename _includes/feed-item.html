@@ -1,0 +1,33 @@
+{%- comment -%}
+One post of the resource hub's stream (/keys/): who is posting (an avatar and a
+name), what kind of post, when, then the body the caller captured. Kinds:
+  added      entries that came into the library on one day (tools/build-feed.py)
+  site       the keeper's own news (_data/feed.yml)
+  milestone  the day the library passed a round number
+  topic      a collection, with its latest entries
+  quote      今日一句 - filled in the browser (assets/js/feed.js)
+  today      历史上的今天 - filled in the browser
+  person     人物聚焦 - filled in the browser
+Pass kind, date (YYYY-MM-DD), who, avatar (a picture, or blank for a mark),
+head (the line), href (where the line goes), body (captured HTML), foot
+(captured HTML, optional), id (optional). The time is written as the date
+here and turned into 今天 / 3 天前 by the script.
+{%- endcomment -%}
+{% assign fi_labels = "added:新收录,site:站点动态,milestone:里程碑,topic:专题,quote:今日一句,today:历史上的今天,person:人物聚焦" | split: "," %}
+{% assign fi_label = include.kind %}
+{% for pair in fi_labels %}{% assign kv = pair | split: ":" %}{% if kv[0] == include.kind %}{% assign fi_label = kv[1] %}{% endif %}{% endfor %}
+<article class="feed-item feed-item--{{ include.kind }}" data-kind="{{ include.kind }}" data-date="{{ include.date }}"{% if include.id %} id="{{ include.id }}"{% endif %}>
+  <div class="feed-item__side">
+    {% if include.avatar and include.avatar != "" %}<img class="feed-item__avatar" src="{{ include.avatar | relative_url }}" alt="" width="36" height="36" loading="lazy" decoding="async">{% else %}<span class="feed-item__mark" aria-hidden="true"></span>{% endif %}
+  </div>
+  <div class="feed-item__main">
+    <header class="feed-item__head">
+      <b class="feed-item__who">{{ include.who }}</b>
+      <span class="feed-item__kind">{{ fi_label }}</span>
+      {% if include.date and include.date != "" %}<time class="feed-item__when" datetime="{{ include.date }}" data-feed-when>{{ include.date }}</time>{% endif %}
+    </header>
+    {% if include.head and include.head != "" %}<h2 class="feed-item__title">{% if include.href and include.href != "" %}<a href="{{ include.href | relative_url }}">{{ include.head }}</a>{% else %}{{ include.head }}{% endif %}</h2>{% endif %}
+    <div class="feed-item__body">{{ include.body }}</div>
+    {% if include.foot and include.foot != "" %}<footer class="feed-item__foot">{{ include.foot }}</footer>{% endif %}
+  </div>
+</article>

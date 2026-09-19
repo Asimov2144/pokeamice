@@ -1,0 +1,175 @@
+# 由 tools/build-feed.py 生成：每篇条目首次进入 git 的日期，按天分组（新在前）；每天只留最新 8 篇的 stem，count 是当天总数，types 是当天按类型的篇数
+- date: '2026-09-18'
+  count: 13
+  types:
+    访谈翻译: 13
+  posts:
+  - 2010-06-30-interview-takeshi-shudo-pokemon-memoir-ch226
+  - 2010-06-24-interview-takeshi-shudo-pokemon-memoir-ch225
+  - 2010-06-02-interview-takeshi-shudo-pokemon-memoir-ch224
+  - 2010-05-26-interview-takeshi-shudo-pokemon-memoir-ch223
+  - 2010-05-19-interview-takeshi-shudo-pokemon-memoir-ch222
+  - 2010-05-12-interview-takeshi-shudo-pokemon-memoir-ch221
+  - 2010-04-28-interview-takeshi-shudo-pokemon-memoir-ch220
+  - 2010-04-21-interview-takeshi-shudo-pokemon-memoir-ch219
+- date: '2026-09-17'
+  count: 15
+  types:
+    访谈翻译: 15
+  posts:
+  - 2026-09-17-interview-cgworld-2026-cedec-pkmnza
+  - 2010-02-24-interview-takeshi-shudo-pokemon-memoir-ch213
+  - 2010-02-17-interview-takeshi-shudo-pokemon-memoir-ch212
+  - 2010-02-10-interview-takeshi-shudo-pokemon-memoir-ch211
+  - 2010-02-03-interview-takeshi-shudo-pokemon-memoir-ch210
+  - 2010-01-20-interview-takeshi-shudo-pokemon-memoir-ch209
+  - 2010-01-13-interview-takeshi-shudo-pokemon-memoir-ch208
+  - 2010-01-06-interview-takeshi-shudo-pokemon-memoir-ch207
+- date: '2026-09-16'
+  count: 84
+  types:
+    访谈翻译: 60
+    扫描翻译: 24
+  posts:
+  - 2026-07-28-interview-4gamer-2026-cedec-battle
+  - 2026-07-23-interview-denfami-2026-cedec-pokerig
+  - 2026-07-23-interview-cedec-2026-za-lumiose-rendering-deck
+  - 2026-07-22-interview-denfami-2026-cedec-battle
+  - 2026-07-22-interview-cedec-2026-za-kubernetes-windows-containers
+  - 2026-07-22-interview-cedec-2026-battle-system-deck
+  - 2026-02-16-interview-famitsu-2026-pokopia
+  - 2023-08-24-interview-famitsu-2023-cedec-sound
+- date: '2026-09-15'
+  count: 20
+  types:
+    访谈翻译: 20
+  posts:
+  - 2009-05-20-interview-takeshi-shudo-pokemon-memoir-ch185
+  - 2009-05-14-interview-takeshi-shudo-pokemon-memoir-ch184
+  - 2009-04-30-interview-takeshi-shudo-pokemon-memoir-ch183
+  - 2009-04-22-interview-takeshi-shudo-pokemon-memoir-ch182
+  - 2009-04-15-interview-takeshi-shudo-pokemon-memoir-ch181
+  - 2009-04-08-interview-takeshi-shudo-pokemon-memoir-ch180
+  - 2009-04-01-interview-takeshi-shudo-pokemon-memoir-ch179
+  - 2009-03-25-interview-takeshi-shudo-pokemon-memoir-ch178
+- date: '2026-09-14'
+  count: 173
+  types:
+    访谈翻译: 173
+  posts:
+  - 2024-11-20-interview-famitsu-pokemon-sleep-1st-anniversary-utsunomiya-nakahata
+  - 2024-02-15-interview-pokemon-recruit-designer
+  - 2023-11-20-interview-pokemon-recruit-it
+  - 2023-11-20-interview-guardian-pokemon-chief-utsunomiya-hundreds-of-years
+  - 2023-10-19-interview-famitsu-detective-pikachu-returns-ishihara-jinnai
+  - 2023-09-10-interview-pokemon-recruit-data
+  - 2023-08-25-interview-cedec-2023-sound-design-ichinose-paldea
+  - 2023-08-25-interview-cedec-2023-paldea-rendering-pipeline-maeza
+- date: '2026-09-05'
+  count: 43
+  types:
+    访谈翻译: 43
+  posts:
+  - 2019-05-18-interview-siliconera-harmoknight-drill-dozer
+  - 2019-05-09-interview-vgc-gamefreak-gear-project
+  - 2018-07-27-interview-yomiuri-siliconera-sugimori-monster-balance
+  - 2018-07-26-interview-creators-of-pikachu
+  - 2018-06-12-interview-early-concept-art
+  - 2018-06-08-interview-denfaminicogamer-pokemon-go-miracle
+  - 2018-01-02-interview-famitsu-usum-iwao-suginaka-story-secrets
+  - 2017-11-06-interview-2017-game-freak-dordogne-enquete
+- date: '2026-09-01'
+  count: 251
+  types:
+    Game Freak 博客: 251
+  posts:
+  - 2017-10-09-gamefreak-lineblog-9302351
+  - 2017-09-08-gamefreak-lineblog-9297286
+  - 2017-09-06-gamefreak-lineblog-9296034
+  - 2017-09-04-gamefreak-lineblog-9296033
+  - 2017-09-01-gamefreak-lineblog-9296031
+  - 2017-08-31-gamefreak-lineblog-9295800
+  - 2017-08-30-gamefreak-lineblog-9295795
+  - 2017-08-29-gamefreak-lineblog-9295793
+- date: '2026-08-30'
+  count: 2
+  types:
+    扫描翻译: 1
+    访谈翻译: 1
+  posts:
+  - 2026-08-29-continue-vol32-scan-archive
+  - 2026-08-29-continue-vol31-scan-archive
+- date: '2026-08-29'
+  count: 1
+  types:
+    扫描翻译: 1
+  posts:
+  - 2006-11-01-continue-vol31-aoi-yu-pikachu
+- date: '2026-08-28'
+  count: 214
+  types:
+    Game Freak 博客: 214
+  posts:
+  - 2012-06-29-gamefreak-staff-243
+  - 2012-06-15-gamefreak-staff-242
+  - 2012-02-24-gamefreak-staff-241
+  - 2012-01-20-gamefreak-staff-240
+  - 2011-12-27-gamefreak-staff-239
+  - 2011-11-25-gamefreak-staff-238
+  - 2011-11-04-gamefreak-staff-237
+  - 2011-10-21-gamefreak-staff-236
+- date: '2026-08-27'
+  count: 244
+  types:
+    Game Freak 博客: 244
+  posts:
+  - 2015-09-11-gamefreak-director-244
+  - 2014-11-10-gamefreak-director-243
+  - 2014-10-31-gamefreak-director-242
+  - 2013-11-18-gamefreak-director-241
+  - 2013-07-31-gamefreak-director-240
+  - 2013-06-20-gamefreak-director-239
+  - 2013-06-19-gamefreak-director-238
+  - 2013-06-18-gamefreak-director-237
+- date: '2026-08-25'
+  count: 3
+  types:
+    文章: 1
+    访谈翻译: 1
+    Game Freak 博客: 1
+  posts:
+  - 2026-06-24-[整理]-宝扭蛋怎么找
+  - 2026-06-21-[专栏翻译] 与宝可梦同行的30年【1996年】初代《红·绿》与幻之宝可梦梦幻 前篇
+  - 2015-09-11-[GameFreak部长专栏]-第244回-Pokemon-GO发布
+- date: '2025-01-28'
+  count: 3
+  types:
+    文章: 3
+  posts:
+  - 2024-12-30-[站点]-2025-新年快乐
+  - 2024-10-24-[长文]-拨云见日-从百代市到水脉图书馆
+  - 2022-10-10-[采访]-宝可梦传说阿尔宙斯-日本游戏大赏-岩尾获奖感言
+- date: '2025-01-03'
+  count: 1
+  types:
+    文档: 1
+  posts:
+  - 2024-12-10-[站点]-建站纪事-Building-Records
+- date: '2025-01-02'
+  count: 1
+  types:
+    文章: 1
+  posts:
+  - 2025-01-01-[整理]-GameFreak-Development-TimeLine
+- date: '2024-12-24'
+  count: 1
+  types:
+    文章: 1
+  posts:
+  - 2024-12-24-[技能机]-卡图下载-查询时间-Download & Inqury
+- date: '2024-12-18'
+  count: 1
+  types:
+    文档: 1
+  posts:
+  - 2022-05-31-Updates

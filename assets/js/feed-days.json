@@ -1,0 +1,37 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%}
+历史上的今天 for the resource hub (assets/js/feed.js): every entry of the library
+by the month and day it was published, {"MMDD": [{t title, u url, y year, k kind,
+c cover}, ...]}. The kind follows entry-card.html's rule; the cover is the card's
+(cover-fallback.html). About 100 KB for a thousand entries.
+{%- endcomment -%}
+{%- assign fd_posts = site.posts | where_exp: "post", "post.search != false" -%}
+{%- assign fd_groups = fd_posts | group_by_exp: "p", "p.date | date: '%m%d'" | sort: "name" -%}
+{
+{%- for g in fd_groups -%}
+{{ g.name | jsonify }}:[
+{%- for p in g.items -%}
+{%- assign fd_archive = p.archive_type | default: p.resource_type -%}
+{%- assign fd_kind = "文章" -%}
+{%- if fd_archive == "scan_translation" -%}{%- assign fd_kind = "扫描翻译" -%}
+{%- elsif p.layout == "interview-editorial" or p.layout == "parallel-translation" or fd_archive == "interview_translation" or p.categories contains "访谈翻译" -%}{%- assign fd_kind = "访谈翻译" -%}
+{%- elsif fd_archive == "gamefreak_director_column" or fd_archive == "gamefreak_masuda_lineblog" or fd_archive == "gamefreak_legacy_blog" -%}{%- assign fd_kind = "Game Freak 博客" -%}
+{%- elsif p.categories contains "文档" -%}{%- assign fd_kind = "文档" -%}{%- endif -%}
+{%- assign fd_cover = p.image | default: p.featured_image | default: "" -%}
+{%- if fd_cover == "" -%}
+  {%- assign fd_items = p.translation_segments | default: p.parallel_items -%}
+  {%- if fd_items -%}
+    {%- assign fd_pics = fd_items | where: "type", "image" -%}
+    {%- assign fd_pic = fd_pics.first.image | default: fd_pics.first.src | default: fd_pics.first.original | default: "" -%}
+    {%- if fd_pic != "" -%}{%- assign fd_cover = fd_pic -%}{%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{%- include cover-fallback.html post=p cover=fd_cover -%}
+{"t":{{ p.display_title | default: p.title | jsonify }},"u":{{ p.url | relative_url | jsonify }},"y":{{ p.date | date: "%Y" }},"k":{{ fd_kind | jsonify }},"c":{{ cf_cover | default: "" | relative_url | jsonify }}}{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+}

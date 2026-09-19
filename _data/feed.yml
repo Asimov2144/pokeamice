@@ -1,0 +1,44 @@
+# 编者推送：站点自己的动态，在资料窗口（/keys/）的流里和入库记录混排。一条一件事：
+#   date   日期
+#   title  一句话标题
+#   text   一两句说明
+#   url    点进去的地方（站内路径或完整 URL）
+#   cover  可选，一张图（站内路径或完整 URL）
+#   label  可选，链接文字（默认「看看 →」）
+# 新功能上线、专题做完、一批校对完成，都往这里加一条，新的写在前面。
+- date: '2026-09-19'
+  title: 杂志扫描有了对页阅读器
+  text: 页图在左、译文在右，段落与页面上的区域互相点得到；竖排的原文按原刊竖排。先给《ダ・ヴィンチ》和 Nintendo DREAM 2011 年 1 月号做了区域定位。
+  url: /访谈翻译/扫描存档/scan-ndream-2011-01-bw-design-secrets/#scan-page-3
+  cover: https://gallery.pokeamice.com/scan-archive/ndream-2011-01-bw-design-secrets/pages/p006_bw_special_intro.jpg
+  label: 翻一翻 →
+- date: '2026-09-18'
+  title: 首页多了「今日一句」
+  text: 从访谈里挑出来的 819 句有料的话，每天一句，带原文、出处、解析。挂机一会儿或隔了一周再来才会出现，不抢眼。
+  url: /quotes/
+  label: 全部句子 →
+- date: '2026-09-18'
+  title: 首藤刚志手记全 226 章收齐
+  text: 动画系列构成首藤刚志在 WEB アニメスタイル 的连载手记，从企划到最后一章，全部译完入库。
+  url: /people/shudo-takeshi/
+  label: 从头读 →
+- date: '2026-09-17'
+  title: 每个人物页开头有了「开发专长」
+  text: 履历按历作制作名单归纳，专长与访谈要点由本人的发言归纳、逐条给出处；出处可折叠。
+  url: /people/masuda-junichi/
+  label: 看增田顺一的 →
+- date: '2026-09-17'
+  title: 制作名单成了一张开发地图
+  text: 每一作的制作名单对齐成人物档案，staff 总表显示一个人在一作里的全部职务，Development Atlas 画出人和作品的关系。
+  url: /credits/
+  label: 打开总表 →
+- date: '2026-09-17'
+  title: CGWORLD 的 CEDEC 2026 报道入库
+  text: 「ミアレシティがメガシンカ!?」——《Pokémon LEGENDS Z-A》密阿雷市渲染的技术讲演，第二篇解说版，和 Denfami 那篇对着读。
+  url: /search/?q=CEDEC
+  label: 找 CEDEC →
+- date: '2026-09-17'
+  title: 全站译法统一了一轮
+  text: 制作人、美术总监、像素、剧本、品质、GAME FREAK——108 篇里 294 处按站内术语库改成一个说法。
+  url: /search/
+  label: 检索中心 →
