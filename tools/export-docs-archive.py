@@ -713,6 +713,16 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             full_text = body.get("markdown_zh") or ""
         full_text = re.sub(r"\s+", " ", strip_markdown(full_text)).strip()
         tags = [clean(t) for t in as_list(fm.get("tags")) if clean(t)]
+        # 部长专栏：原博客自己的分类（日記 / ポケモン / ものづくりについて…）并进标签——
+        # App 的专栏主页按标签认分类（LINE BLOG 那期本来就是这么导的）
+        for c in as_list(fm.get("gf_categories")):
+            if clean(c) and clean(c) not in tags:
+                tags.append(clean(c))
+        # 部长专栏的 title 只是「第 N 回」，每回的小标题在 gf_entry_title 里：给 display_title，
+        # 阅读器的大标题和专栏主页的行都用它；和 title 一样的（员工博客）不重复给
+        entry_title = clean(fm.get("display_title")) or clean(fm.get("gf_entry_title") or fm.get("gf_translation_title"))
+        if entry_title and entry_title == clean(fm.get("title")):
+            entry_title = ""
         primary, review_note = pick_primary_work(
             fm, kind, works, works_by_name, year,
             f"{clean(fm.get('title'))} {clean(fm.get('display_title'))}",
@@ -729,7 +739,7 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "type": type_label(fm, kind),
             "card": card_kind(fm, kind),
             "title": clean(fm.get("title")) or slug,
-            "display_title": clean(fm.get("display_title")) or None,
+            "display_title": entry_title or None,
             "dek": clean(fm.get("dek")) or None,
             "excerpt": excerpt,
             "date": date,
@@ -766,7 +776,7 @@ def build_posts(people_by_slug: dict, people_by_name: dict, works_by_name: dict,
             "summary": clean(fm.get("summary") or fm.get("description")) or None,
             "interviewer": clean(fm.get("interviewer")) or None,
             "translator": clean(fm.get("translator")) or None,
-            "tags": [clean(t) for t in as_list(fm.get("tags")) if clean(t)],
+            "tags": tags,
             "original_lang": clean(fm.get("original_lang")) or None,
             "translation_status": clean(fm.get("translation_status")) or None,
             "source": {
