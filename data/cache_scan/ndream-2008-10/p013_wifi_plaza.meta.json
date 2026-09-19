@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 32.4,
+ "image_tokens": 7222,
+ "completion_tokens": 925,
+ "finish": "stop",
+ "file": "p013_wifi_plaza",
+ "image_md5": "5ae0b865ae01dfe9ce78fc475b9913bf"
+}

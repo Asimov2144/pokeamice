@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 33.4,
+ "image_tokens": 7052,
+ "completion_tokens": 878,
+ "finish": "stop",
+ "file": "p008_shaymin_leaf_storm",
+ "image_md5": "2f7ae85cecde13a609218181261b93ea"
+}

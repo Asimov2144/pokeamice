@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 56.1,
+ "image_tokens": 8582,
+ "completion_tokens": 1403,
+ "finish": "stop",
+ "file": "p081_pikachu_03",
+ "image_md5": "12ce9dd061f8571da2fdaf54d6b446a2"
+}

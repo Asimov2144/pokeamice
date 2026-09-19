@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 32.5,
+ "image_tokens": 6488,
+ "completion_tokens": 1413,
+ "finish": "stop",
+ "file": "p043_tajiri_interview_p08",
+ "image_md5": "68e96e0b81cfff83d4bbf369b77471d0"
+}

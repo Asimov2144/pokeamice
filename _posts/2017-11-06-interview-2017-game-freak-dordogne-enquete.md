@@ -68,7 +68,8 @@ parallel_items:
   original: Après la 4G, les choses se bousculent puisque les Japonais s'intéressent à d'autres parties du Monde. Pour les versions Noire et Blanche, on a New York City et Manhattan ; avec X et Y, la map est un calque parfait de la partie Nord de la France ; Alola, quant à elle, reprend les îles d'Hawaii. Pourquoi rappeler tout ça ? Pour la simple et bonne raison, chère loque, qu'un calque d'idéalisme, ça ne se sort pas du fion de ta mère et que les développeurs passent par une phase de recherche/repérage qui les a amenés à quitter le Japon depuis la 5G. Et en grattant un peu de ce côté, on peut faire quelques découvertes intéressantes.
   translation: 在第四世代之后，事情变得复杂起来，因为日本人开始对世界其他地方感兴趣。对于《黑》和《白》，我们看到了纽约市和曼哈顿；对于《X》和《Y》，地图是法国北部的完美复制品；而阿罗拉则采用了夏威夷群岛。为什么要提这些？原因很简单，亲爱的破布，理想主义的复制品可不是从你妈屁股里蹦出来的，开发人员会经历一个研究/勘察阶段，这让他们从第五世代起就离开了日本。而稍微挖掘一下这方面，我们就能有一些有趣的发现。
   note: “loque”是俚语，指“破布”或“废物”，这里用作戏谑称呼。
-- type: paragraph
+- type: heading
+  level: 3
   original: Vacances, repérages, tournées médiatiques
   translation: 假期、勘察、媒体巡演
 - type: paragraph
@@ -85,7 +86,8 @@ parallel_items:
 - type: paragraph
   original: Par contre, s'ils sont une dizaine, y'a peut-être quelques questions à se poser...
   translation: 另一方面，如果他们大约有十个人，那可能就有一些问题要问了……
-- type: paragraph
+- type: heading
+  level: 3
   original: Le crew
   translation: 团队
 - type: paragraph
@@ -99,7 +101,8 @@ parallel_items:
   original: 'La carte du restaurant rassemble douze signatures et une dédicace à Christophe Maury (le chef cuisinier, en haut à gauche). Trois de ces signatures me sont difficiles d''accès. Il pourrait s''agir de Sawada Misako et Tonaga Kenji ou Tominaga Kenji, mais pas sûr. Attardons-nous sur le reste. Il est temps d''étudier le CREW :'
   translation: 餐厅菜单上汇集了十二个签名和给克里斯托夫·莫里（厨师，左上角）的题词。其中三个签名我难以辨认。可能是泽田美沙子（Sawada Misako）和 Tonaga Kenji 或 Tominaga Kenji，但不确定。让我们仔细看看其余的。是时候研究一下这个团队了：
   note: “carte”在此指菜单，而非地图。
-- type: paragraph
+- type: heading
+  level: 4
   original: 'LES CAPITAINES :'
   translation: 队长们：
 - type: paragraph
@@ -122,7 +125,8 @@ parallel_items:
 - type: paragraph
   original: Pas besoin de les présenter. On retrouve les trois derniers directeurs en date des jeux de série principale.
   translation: 无需介绍。这里汇集了主系列游戏最近的三位总监。
-- type: paragraph
+- type: heading
+  level: 4
   original: 'LES MOUSSAILLONS :'
   translation: 新秀们：
   note: 此处“moussaillons”原意为“见习水手”，引申为团队中的新人或年轻成员。
@@ -144,7 +148,8 @@ parallel_items:
 - type: paragraph
   original: On retrouve des gens aux compétences variées, probablement là pour prendre des croquis, s'inspirer pour l'anime et les jeux à venir.
   translation: 这里汇集了各种技能的人才，他们可能来此采风，为未来的动画和游戏汲取灵感。
-- type: paragraph
+- type: heading
+  level: 4
   original: 'LES SPECIALISTES :'
   translation: 专家们：
 - type: paragraph
@@ -161,7 +166,8 @@ parallel_items:
   original: Attardons-nous sur la présence de Yoshiko Imaizumi . Elle s'est intéressée à l'Histoire culturelle du Japon moderne, et à la culture comparative. Aujourd'hui, son champ d'étude porte sur la spatialité des lieux saints modernes . Et puis ... que dire du fait que sa thèse provient de l'école des études orientales et africaines à Londres ? Il y a de quoi éveiller quelques théories, non ?
   translation: 让我们关注一下今泉宜子（Yoshiko Imaizumi）的出席。她曾对日本近代文化史和比较文化感兴趣。如今，她的研究领域是近代圣地的空间性。而且……她的博士论文出自伦敦的东方与非洲研究学院，这又能说明什么呢？这足以引发一些猜想，不是吗？
   note: 伦敦的东方与非洲研究学院（School of Oriental and African Studies，SOAS）是伦敦大学下属学院，以区域研究闻名。
-- type: paragraph
+- type: heading
+  level: 3
   original: Le voyage
   translation: 旅程
   note: 此处可能是章节标题或段落标题。
@@ -257,7 +263,8 @@ parallel_items:
 - type: paragraph
   original: Forcément, ils ne sont pas fous chez Game Freak, mieux vaut éviter les fuites.
   translation: "显然，GAME FREAK 的人并不傻，最好避免泄密。"
-- type: paragraph
+- type: heading
+  level: 3
   original: Quelques idées
   translation: 一些想法
 - type: paragraph

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 56.9,
+ "image_tokens": 8582,
+ "completion_tokens": 1580,
+ "finish": "stop",
+ "file": "p077_go_ichinose",
+ "image_md5": "0409e7691b5090a335906de25b8b618a"
+}

@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 47.5,
+ "image_tokens": 8582,
+ "completion_tokens": 1765,
+ "finish": "stop",
+ "file": "p075_battle_round3_4",
+ "image_md5": "20b0224459c5efc9af1e77453f81a39a"
+}

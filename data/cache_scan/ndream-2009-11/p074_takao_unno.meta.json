@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 66.5,
+ "image_tokens": 8582,
+ "completion_tokens": 1471,
+ "finish": "stop",
+ "file": "p074_takao_unno",
+ "image_md5": "5ea01907e06b29bf9a5dd3d5438b5e7b"
+}

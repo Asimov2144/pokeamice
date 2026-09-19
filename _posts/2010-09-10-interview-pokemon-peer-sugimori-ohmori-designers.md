@@ -200,34 +200,34 @@ parallel_items:
   note: 冬宫博物馆（Hermitage Museum）是俄罗斯圣彼得堡的著名艺术博物馆。
   role: answer
 - speaker: 杉森建
-  original: ''
+  original: 'This time, the Water-type was the most troublesome.'
   translation: 这次，水属性是最棘手的。
   role: answer
 - speaker: 大村祐介
-  original: ''
+  original: 'I said, “How about a sea otter for the Water-type?”  But if a sea otter were to evolve, what would it become? That’s where I hit a wall.  Eventually I said that if a sea otter was to evolve, it would transform into something completely different. [Note: The third rumored evolution of Mijumaru from a few days ago looks completely different than Mijumaru.]'
   translation: 我说：“水属性用海獭怎么样？”但如果海獭进化，它会变成什么？我在这里卡住了。最后我说，如果海獭要进化，它会变成完全不同的东西。[注：几天前传闻的水水獭的第三阶段进化看起来和水水獭完全不同。]
   note: 水水獭（Mijumaru）是第五世代水属性御三家，其最终进化形态大剑鬼（Daikenki）确实与初始形态差异巨大，这里提到的传闻可能指未公开的设计或玩家猜测。
   role: answer
 - speaker: 杉森建
-  original: ''
+  original: 'Since we intended for those 3 starter Pokemon to be with the hero throughout the game, we wanted them to have surprising evolutions. We kept adding more twists so the forms of the third-stage Evolutions would have an impact.'
   translation: 因为我们打算让这三只初始宝可梦在整个游戏中陪伴主角，所以我们希望它们有令人惊讶的进化。我们不断添加转折，让第三阶段的进化形态具有冲击力。
   role: answer
 - speaker: 大村祐介
-  original: ''
+  original: 'Also, this time we wanted the 3 starter Pokemon to be split into Japanese, Western, and Chinese imagery. We said Tsutaaja would represent Western imagery, Pokabu Chinese, and Mijumaru Japanese. We discussed it: "Couldn''t a sea otter be a samurai?"'
   translation: 另外，这次我们想让三只初始宝可梦分别代表日本、西方和中国的意象。我们说藤藤蛇代表西方意象，暖暖猪代表中国，水水獭代表日本。我们讨论过：“海獭不能成为武士吗？”
   note: 藤藤蛇（Tsutaaja）的设计灵感可能来自西方骑士或蛇类，暖暖猪（Pokabu）可能参考了中国神话中的猪，水水獭（Mijumaru）则与日本武士文化相关。
   role: answer
 - speaker: 全员
-  original: ''
+  original: 'Hahaha.'
   translation: 哈哈哈。
   role: answer
 - speaker: 大村祐介
-  original: ''
+  original: 'I was a little worried, so I went to watch the sea otters at the aquarium.  I happened to see the sea lion show, I noticed how strong the sea lions were.  I thought, ah, I’ll try combining sea lions and otters together.  I came up with the idea of them fighting by using the shells on their stomachs like swords, and Mijumaru and its [next] evolution were completed.'
   translation: 我有点担心，所以去水族馆看海獭。碰巧看到了海狮表演，我注意到海狮非常强壮。我想，啊，我试着把海狮和海獭结合起来。我想到了它们用肚子上的贝壳像剑一样战斗的想法，水水獭和它的[下一个]进化就完成了。
   note: 水水獭的最终进化大剑鬼（Daikenki）的设计结合了海獭和海狮的特征，其腹部贝壳类似武士的刀鞘。
   role: answer
 - speaker: 提问
-  original: ''
+  original: 'In order to design Pokemon you even visited an aquarium.  Did you go out to research often?'
   translation: 为了设计宝可梦，你甚至去了水族馆。你经常外出考察吗？
   role: question
 - speaker: 杉森建

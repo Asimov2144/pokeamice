@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 34.8,
+ "image_tokens": 8582,
+ "completion_tokens": 784,
+ "finish": "stop",
+ "file": "p082_sugimori_title",
+ "image_md5": "65fa48a93f12fe6840a9285ea8a2fa1c"
+}

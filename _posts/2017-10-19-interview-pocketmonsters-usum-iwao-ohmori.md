@@ -47,16 +47,14 @@ parallel_items:
   image: /assets/img/interviews/2017-10-19-interview-pocketmonsters-usum-iwao-ohmori/001.jpg
   alt: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!_001
 - type: paragraph
-  original: An Exclusive Interview with the makers of Pokémon Ultra Sun and Pokémon Ultra Moon!
-  translation: 《究极之日／究极之月》开发者独家专访！
-- type: paragraph
   original: The following Interview was originally posted on Pokemon.com on November 9th, 2017.
   translation: 以下访谈最初于2017年11月9日发布在Pokemon.com上。
 - type: paragraph
   original: With the impending release of Pokémon Ultra Sun and Pokémon Ultra Moon for the Nintendo 3DS family of systems, we are growing more and more excited about making a return trip to the Alola region. To learn more about our upcoming expedition, we turned to GAME FREAK, the developers of the game, for a little extra insight. We were lucky enough to chat with Kazumasa Iwao, the director of Pokémon Ultra Sun and Pokémon Ultra Moon, and Shigeru Ohmori, the director of Pokémon Sun and Pokémon Moon and current producer of Pokémon Ultra Sun and Pokémon Ultra Moon, who both shared their experiences and thought processes about designing the latest journey into the wonderful world of Pokémon.
   translation: 随着《宝可梦 究极之日／究极之月》即将在任天堂3DS系列主机上发售，我们对于重返阿罗拉地区愈发兴奋。为了更深入地了解这次即将到来的冒险，我们向游戏开发者GAME FREAK请教了一些额外的见解。我们有幸与《宝可梦 究极之日／究极之月》的导演岩尾和昌，以及《宝可梦 太阳／月亮》的导演、《宝可梦 究极之日／究极之月》的现任制作人大森滋进行了交谈，他们分享了设计这段宝可梦奇妙世界最新旅程的经验与思考过程。
   note: 阿罗拉地区为《宝可梦 太阳／月亮》中的主要舞台。
-- type: paragraph
+- type: heading
+  level: 3
   original: Know Your History
   translation: 了解你的历史
   note: 此小标题可能指了解开发者与宝可梦系列的历史渊源。
@@ -104,7 +102,8 @@ parallel_items:
   speaker: 大森滋
   note: 电视连接功能可能指当时与电视节目的联动功能，如《宝可梦》动画或特别节目。
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: The Roots of Pokémon Ultra Sun and Pokémon Ultra Moon
   translation: 《究极之日／究极之月》的根源
 - type: paragraph
@@ -190,7 +189,8 @@ parallel_items:
   translation: 大森先生：作为游戏设计师，我与许多不同职位的人直接合作，因此，我相信我加深了对团队中每个人看重什么、什么对他们重要的理解。当我成为导演时，这些知识真的派上了用场。
   speaker: 大森滋
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: Unleash the Ultra Beasts
   translation: 释放究极异兽
 - type: image

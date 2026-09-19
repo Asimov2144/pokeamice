@@ -56,11 +56,11 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/prof2.jpg
   alt: イメージ画像
-- type: section
+- type: heading
   level: 2
   original: 【第1回】前編：ポケモンをデザインする際、出来るだけパーツを少なくする理由
   translation: 前篇：设计宝可梦时，为何要尽可能精简部件？
-- type: section
+- type: heading
   level: 3
   original: ポケモンをデザインする際、出来るだけパーツを少なくする理由
   translation: 设计宝可梦时，尽可能减少部件数量的理由
@@ -281,7 +281,7 @@ parallel_items:
   translation: 竟然是从已经做成料理的东西上展开想象的啊！（笑）。果然，您的思维跳跃方式和别人不一样呢。
   speaker: 中川翔子
   role: question
-- type: section
+- type: heading
   level: 2
   original: 【第2回】後編：「ドット絵は私の原点」（にしだあつこ）
   translation: "后篇：像素绘图是我的原点——皮卡丘之母的插画哲思"
@@ -289,7 +289,7 @@ parallel_items:
   image: /assets/img/interviews/2018-06-25-interview-funsproject-atsuko-nishida-shoko-nakagawa-character-design/img02.jpg
   caption: 中川翔子与西田敦子就点阵原画与宝可梦设计进行热烈讨论
   alt: 点阵绘图与插画心得探讨
-- type: section
+- type: heading
   level: 3
   original: 「ドット絵は私の原点」（にしだ）
   translation: “像素画是我的原点”（西田）

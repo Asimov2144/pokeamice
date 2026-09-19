@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 57.5,
+ "image_tokens": 8582,
+ "completion_tokens": 1120,
+ "finish": "stop",
+ "file": "p070_pokemon_history_01",
+ "image_md5": "7b02314c244e05454ae05f8301eaaad3"
+}

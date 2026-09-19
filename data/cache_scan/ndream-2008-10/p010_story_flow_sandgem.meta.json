@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 29.8,
+ "image_tokens": 7127,
+ "completion_tokens": 782,
+ "finish": "stop",
+ "file": "p010_story_flow_sandgem",
+ "image_md5": "81fd7ab0ab14436aa3353ae92bced797"
+}

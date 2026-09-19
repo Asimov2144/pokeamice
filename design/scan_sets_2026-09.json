@@ -3747,6 +3747,753 @@
     "p145_p143_ch6_interview_part9",
     "p146_p144_colophon"
    ]
+  },
+  {
+   "slug": "ndream-2008-10",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2008年10月号（Vol.174）",
+   "date": "2008-08-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2008.10_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 828455
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 1002054
+    },
+    {
+     "file": "p006_platinum_title",
+     "page": 6,
+     "desc": "",
+     "bytes": 874435
+    },
+    {
+     "file": "p007_rotom_silhouettes",
+     "page": 7,
+     "desc": "",
+     "bytes": 849391
+    },
+    {
+     "file": "p008_shaymin_leaf_storm",
+     "page": 8,
+     "desc": "",
+     "bytes": 941444
+    },
+    {
+     "file": "p009_sinnoh_gym_leaders",
+     "page": 9,
+     "desc": "",
+     "bytes": 954845
+    },
+    {
+     "file": "p010_story_flow_sandgem",
+     "page": 10,
+     "desc": "",
+     "bytes": 953623
+    },
+    {
+     "file": "p011_handsome_international_police",
+     "page": 11,
+     "desc": "",
+     "bytes": 904446
+    },
+    {
+     "file": "p012_battle_frontier",
+     "page": 12,
+     "desc": "",
+     "bytes": 1020704
+    },
+    {
+     "file": "p013_wifi_plaza",
+     "page": 13,
+     "desc": "",
+     "bytes": 979417
+    },
+    {
+     "file": "p036_tajiri_interview_p01",
+     "page": 36,
+     "desc": "",
+     "bytes": 762631
+    },
+    {
+     "file": "p037_tajiri_interview_p02",
+     "page": 37,
+     "desc": "",
+     "bytes": 881604
+    },
+    {
+     "file": "p038_tajiri_interview_p03",
+     "page": 38,
+     "desc": "",
+     "bytes": 957967
+    },
+    {
+     "file": "p039_tajiri_interview_p04",
+     "page": 39,
+     "desc": "",
+     "bytes": 814213
+    },
+    {
+     "file": "p040_tajiri_interview_p05",
+     "page": 40,
+     "desc": "",
+     "bytes": 876368
+    },
+    {
+     "file": "p041_tajiri_interview_p06",
+     "page": 41,
+     "desc": "",
+     "bytes": 926878
+    },
+    {
+     "file": "p042_tajiri_interview_p07",
+     "page": 42,
+     "desc": "",
+     "bytes": 973575
+    },
+    {
+     "file": "p043_tajiri_interview_p08",
+     "page": 43,
+     "desc": "",
+     "bytes": 873182
+    },
+    {
+     "file": "p044_tajiri_interview_p09",
+     "page": 44,
+     "desc": "",
+     "bytes": 906749
+    },
+    {
+     "file": "p045_tajiri_interview_p10",
+     "page": 45,
+     "desc": "",
+     "bytes": 871296
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2008-10-platinum-special",
+     "title_ja": "『ポケットモンスター プラチナ』直前特報",
+     "kind": "feature",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 白金"
+     ],
+     "tags": [
+      "宝可梦 白金",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p006_platinum_title",
+      "p007_rotom_silhouettes",
+      "p008_shaymin_leaf_storm",
+      "p009_sinnoh_gym_leaders",
+      "p010_story_flow_sandgem",
+      "p011_handsome_international_police",
+      "p012_battle_frontier",
+      "p013_wifi_plaza"
+     ]
+    },
+    {
+     "slug": "ndream-2008-10-tajiri-famicom-25th",
+     "title_ja": "ファミコン生誕25周年記念特別企画「ファミコン僕と思い出の一品」田尻智ロングインタビュー",
+     "kind": "interview",
+     "plate_only": [],
+     "people": [
+      "田尻智"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 红·绿",
+      "昆蒂"
+     ],
+     "tags": [
+      "田尻智",
+      "Game Freak",
+      "Famicom",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p036_tajiri_interview_p01",
+      "p037_tajiri_interview_p02",
+      "p038_tajiri_interview_p03",
+      "p039_tajiri_interview_p04",
+      "p040_tajiri_interview_p05",
+      "p041_tajiri_interview_p06",
+      "p042_tajiri_interview_p07",
+      "p043_tajiri_interview_p08",
+      "p044_tajiri_interview_p09",
+      "p045_tajiri_interview_p10"
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "ndream-2008-12",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2008年12月号（Vol.176）",
+   "date": "2008-10-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2008.12_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 687359
+    },
+    {
+     "file": "p002_kirby_ad",
+     "page": 2,
+     "desc": "",
+     "bytes": 731047
+    },
+    {
+     "file": "p003_contents",
+     "page": 3,
+     "desc": "",
+     "bytes": 857369
+    },
+    {
+     "file": "p071_pokemon_feature_title",
+     "page": 71,
+     "desc": "",
+     "bytes": 763198
+    },
+    {
+     "file": "p072_battle_dojo_sp",
+     "page": 72,
+     "desc": "",
+     "bytes": 803286
+    },
+    {
+     "file": "p073_battle_teams",
+     "page": 73,
+     "desc": "",
+     "bytes": 820639
+    },
+    {
+     "file": "p074_battle_round1_2",
+     "page": 74,
+     "desc": "",
+     "bytes": 804598
+    },
+    {
+     "file": "p075_battle_round3_4",
+     "page": 75,
+     "desc": "",
+     "bytes": 808462
+    },
+    {
+     "file": "p076_gf_interview_p1",
+     "page": 76,
+     "desc": "",
+     "bytes": 749896
+    },
+    {
+     "file": "p077_gf_interview_p2",
+     "page": 77,
+     "desc": "",
+     "bytes": 844150
+    },
+    {
+     "file": "p078_gf_interview_p3",
+     "page": 78,
+     "desc": "",
+     "bytes": 739299
+    },
+    {
+     "file": "p079_gf_interview_p4",
+     "page": 79,
+     "desc": "",
+     "bytes": 723706
+    },
+    {
+     "file": "p102_masuda_rainbow_bridge_p1",
+     "page": 102,
+     "desc": "",
+     "bytes": 710832
+    },
+    {
+     "file": "p103_masuda_rainbow_bridge_p2",
+     "page": 103,
+     "desc": "",
+     "bytes": 720492
+    },
+    {
+     "file": "p126_ranking_laboratory",
+     "page": 126,
+     "desc": "",
+     "bytes": 858395
+    },
+    {
+     "file": "p999_back_cover",
+     "page": 999,
+     "desc": "",
+     "bytes": 761019
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2008-12-platinum-battle-dojo",
+     "title_ja": "ALL ABOUT ポケットモンスター バトル＆コレクト／ポケモンバトル道場SP ゲームフリークvsニンドリ",
+     "kind": "feature",
+     "plate_only": [
+      "p001_cover",
+      "p003_contents"
+     ],
+     "people": [
+      "太田哲司",
+      "中津井优",
+      "西野弘二",
+      "川内丸武史"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 白金"
+     ],
+     "tags": [
+      "宝可梦 白金",
+      "对战",
+      "Game Freak",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p001_cover",
+      "p003_contents",
+      "p071_pokemon_feature_title",
+      "p072_battle_dojo_sp",
+      "p073_battle_teams",
+      "p074_battle_round1_2",
+      "p075_battle_round3_4"
+     ]
+    },
+    {
+     "slug": "ndream-2008-12-game-freak-interview",
+     "title_ja": "ゲームフリーク開発陣に聞く バトル・世界・ポケモン秘話",
+     "kind": "interview",
+     "plate_only": [],
+     "people": [
+      "增田顺一",
+      "川内丸武史",
+      "太田哲司",
+      "西野弘二",
+      "中津井优"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 白金"
+     ],
+     "tags": [
+      "宝可梦 白金",
+      "Game Freak",
+      "增田顺一",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p076_gf_interview_p1",
+      "p077_gf_interview_p2",
+      "p078_gf_interview_p3",
+      "p079_gf_interview_p4"
+     ]
+    },
+    {
+     "slug": "ndream-2008-12-masuda-rainbow-bridge",
+     "title_ja": "連載「長官らしい」vol.7 ゲスト：増田順一さん「レインボーブリッジが好きだ！」",
+     "kind": "interview",
+     "plate_only": [],
+     "people": [
+      "增田顺一"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 白金"
+     ],
+     "tags": [
+      "增田顺一",
+      "Game Freak",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p102_masuda_rainbow_bridge_p1",
+      "p103_masuda_rainbow_bridge_p2"
+     ]
+    }
+   ],
+   "ocr_pages": [
+    "p001_cover",
+    "p003_contents",
+    "p071_pokemon_feature_title",
+    "p072_battle_dojo_sp",
+    "p073_battle_teams",
+    "p074_battle_round1_2",
+    "p075_battle_round3_4",
+    "p076_gf_interview_p1",
+    "p077_gf_interview_p2",
+    "p078_gf_interview_p3",
+    "p079_gf_interview_p4",
+    "p102_masuda_rainbow_bridge_p1",
+    "p103_masuda_rainbow_bridge_p2"
+   ]
+  },
+  {
+   "slug": "ndream-2009-11",
+   "publication": "Nintendo DREAM",
+   "publication_zh": "Nintendo DREAM（ニンドリ）",
+   "issue": "2009年11月号（Vol.187）",
+   "date": "2009-09-21",
+   "publisher": "毎日コミュニケーションズ",
+   "dir": "DREAM 2009.11_prepared",
+   "pages": [
+    {
+     "file": "p001_cover",
+     "page": 1,
+     "desc": "",
+     "bytes": 766390
+    },
+    {
+     "file": "p002_contents_01",
+     "page": 2,
+     "desc": "",
+     "bytes": 852484
+    },
+    {
+     "file": "p003_contents_02",
+     "page": 3,
+     "desc": "",
+     "bytes": 857796
+    },
+    {
+     "file": "p069_hgss_special_title",
+     "page": 69,
+     "desc": "",
+     "bytes": 746232
+    },
+    {
+     "file": "p070_pokemon_history_01",
+     "page": 70,
+     "desc": "",
+     "bytes": 873708
+    },
+    {
+     "file": "p071_pokemon_history_02",
+     "page": 71,
+     "desc": "",
+     "bytes": 847998
+    },
+    {
+     "file": "p072_gf_interview_title",
+     "page": 72,
+     "desc": "",
+     "bytes": 794955
+    },
+    {
+     "file": "p073_masuda_morimoto",
+     "page": 73,
+     "desc": "",
+     "bytes": 883224
+    },
+    {
+     "file": "p074_takao_unno",
+     "page": 74,
+     "desc": "",
+     "bytes": 913107
+    },
+    {
+     "file": "p075_akito_mori",
+     "page": 75,
+     "desc": "",
+     "bytes": 893701
+    },
+    {
+     "file": "p076_kenji_matsushima",
+     "page": 76,
+     "desc": "",
+     "bytes": 843221
+    },
+    {
+     "file": "p077_go_ichinose",
+     "page": 77,
+     "desc": "",
+     "bytes": 872665
+    },
+    {
+     "file": "p078_interview_summary",
+     "page": 78,
+     "desc": "",
+     "bytes": 879864
+    },
+    {
+     "file": "p079_pikachu_01",
+     "page": 79,
+     "desc": "",
+     "bytes": 668999
+    },
+    {
+     "file": "p080_pikachu_02",
+     "page": 80,
+     "desc": "",
+     "bytes": 734557
+    },
+    {
+     "file": "p081_pikachu_03",
+     "page": 81,
+     "desc": "",
+     "bytes": 750840
+    },
+    {
+     "file": "p082_sugimori_title",
+     "page": 82,
+     "desc": "",
+     "bytes": 691195
+    },
+    {
+     "file": "p083_sugimori_profile_p1",
+     "page": 83,
+     "desc": "",
+     "bytes": 884021
+    },
+    {
+     "file": "p084_sugimori_characters_p2",
+     "page": 84,
+     "desc": "",
+     "bytes": 823786
+    },
+    {
+     "file": "p085_sugimori_pokemon_p3",
+     "page": 85,
+     "desc": "",
+     "bytes": 854387
+    }
+   ],
+   "features": [
+    {
+     "slug": "ndream-2009-11-hgss-developer-interview",
+     "title_ja": "ALL ABOUT ポケットモンスター ハートゴールド・ソウルシルバー／ゲームフリーク スペシャルインタビュー",
+     "kind": "interview",
+     "plate_only": [
+      "p001_cover",
+      "p002_contents_01",
+      "p003_contents_02"
+     ],
+     "people": [
+      "增田顺一",
+      "森本茂树",
+      "海野隆雄",
+      "森昭人",
+      "松岛贤二",
+      "一之濑刚"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 心金·魂银"
+     ],
+     "tags": [
+      "宝可梦 心金·魂银",
+      "Game Freak",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p001_cover",
+      "p002_contents_01",
+      "p003_contents_02",
+      "p069_hgss_special_title",
+      "p070_pokemon_history_01",
+      "p071_pokemon_history_02",
+      "p072_gf_interview_title",
+      "p073_masuda_morimoto",
+      "p074_takao_unno",
+      "p075_akito_mori",
+      "p076_kenji_matsushima",
+      "p077_go_ichinose",
+      "p078_interview_summary"
+     ]
+    },
+    {
+     "slug": "ndream-2009-11-sugimori-charakami-special",
+     "title_ja": "特別企画「歴代ピカチュウ大集合！」／キャラかみ SPECIAL：杉森 建",
+     "kind": "interview",
+     "plate_only": [],
+     "people": [
+      "杉森建"
+     ],
+     "speaker_map": {
+      "杉森": "杉森建",
+      "海野": "海野隆雄",
+      "大村": "大村祐介",
+      "増田": "增田顺一",
+      "景山": "景山将太",
+      "一之瀬": "一之濑刚",
+      "佐藤": "佐藤仁美",
+      "足立": "足立美奈子",
+      "森本": "森本茂树",
+      "田尻": "田尻智",
+      "石原": "石原恒和",
+      "全員": "全体",
+      "一同": "全体",
+      "中津井": "中津井优",
+      "西野": "西野弘二",
+      "太田": "太田哲司",
+      "川内丸": "川内丸武史",
+      "森": "森昭人",
+      "松島": "松岛贤二"
+     },
+     "works": [
+      "宝可梦 心金·魂银"
+     ],
+     "tags": [
+      "杉森建",
+      "角色设计",
+      "皮卡丘",
+      "Nintendo DREAM"
+     ],
+     "files": [
+      "p079_pikachu_01",
+      "p080_pikachu_02",
+      "p081_pikachu_03",
+      "p082_sugimori_title",
+      "p083_sugimori_profile_p1",
+      "p084_sugimori_characters_p2",
+      "p085_sugimori_pokemon_p3"
+     ]
+    }
+   ]
   }
  ]
 }

@@ -80,8 +80,6 @@ parallel_items:
   translation: 工作室规模扩大了，自《太阳／月亮》开发以来核心团队几乎翻倍。拥有180到200名核心成员、数百家外包和外部合作伙伴，以及一个庞大的营销部门，整个团队规模巨大。如果把游戏发售所支持的九种语言的本地化团队也算进去，大森估计《宝可梦 剑·盾》的制作人员名单中会出现大约1000个名字。
 - original: 'Using key takeaways from the Let’s Go games, the rapidly growing team at Game Freak forged ahead with its vision for the next generation of Pokémon games. “We set out with the idea of making the ultimate, strongest, the best Pokémon game yet, being on Nintendo Switch, the first time an all-new generation is coming to a console,” Ohmori says. “It was really just kind of applying this idea of ‘ultimate’ to every facet of the game: gameplay, visuals, everything. That was really the theme for when I set out making the game: the greatest Pokémon game.”'
   translation: "利用从《Let's Go》系列游戏中获得的关键经验，GAME FREAK迅速壮大的团队推进了其对下一代宝可梦游戏的构想。“我们出发时的想法是，在Nintendo Switch上打造迄今为止最终极、最强大、最好的宝可梦游戏，这是全新世代首次登陆主机，”大森说。“真的就是把这种‘终极’的理念应用到游戏的每一个方面：玩法、视觉、一切。这确实是我着手制作这款游戏时的主题：最伟大的宝可梦游戏。”"
-- original: Battling the Status Quo
-  translation: 打破现状
 - type: heading
   level: 2
   original: Battling the Status Quo
@@ -116,8 +114,6 @@ parallel_items:
   translation: "为了解决这个问题，《宝可梦 剑·盾》引入了新系统，让你最喜欢的宝可梦能够在竞技对战中派上用场。虽然GAME FREAK不愿详细说明，但岩尾表示玩家看到就会明白。在之前的游戏中，你可能拥有一只各项数值都正确的宝可梦，但性格却让它不适合竞技，这意味着它不是高水平对战中的最佳选择。在《宝可梦 剑·盾》中，玩家仍然可以通过培育来尝试获得完美的个体，但他们也有办法绕过这个问题。“我们在后台做了很多工作，引入了一些系统，让玩家能够确保他们想在竞技对战中使用的宝可梦是可行的，”岩尾说。"
 - original: These changes are just the start of what sets Pokémon Sword and Shield apart from prior Pokémon games, but before the team could really fit the pieces together, it needed to decide on where it would take place.
   translation: 这些变化只是《宝可梦 剑·盾》区别于以往宝可梦游戏的开端，但在团队真正把这些拼图拼合起来之前，它需要决定游戏将在哪里发生。
-- original: Going To Galar
-  translation: 前往伽勒尔
 - type: image
   image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/005.webp
   alt: Going Big
@@ -150,8 +146,6 @@ parallel_items:
   translation: 特纳帮助工作室实现这一目标的一个例子，是遍布该地区的标牌。起初，标牌设计师为中世纪奇幻风格的标志。特纳否决了这一设计，转而追求更忠实于现实地区的风格。他推动团队创作出对去过英国的人来说更熟悉的东西，重现英国实际标牌中使用的字体和配色方案。
 - original: Despite this push for authenticity in the Galar region paying homage to the U.K., Turner understands players want variety and exaggerations in the world. “It is based on the U.K., but there are more colorful locations as well within the game to create a sense of adventure,” he says.
   translation: 尽管伽勒尔地区为致敬英国而追求真实感，特纳明白玩家希望世界中存在多样性和夸张元素。“它基于英国，但游戏中也有更多色彩丰富的地点，以营造冒险感，”他说。
-- original: What’s In A Name?
-  translation: 名字里有什么？
 - type: image
   image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/008.webp
   alt: Going Big
@@ -171,8 +165,6 @@ parallel_items:
   translation: 源自传说宝可梦的名字既符合增田想要追求的主题，也契合地区设定，但它对团队而言还承载了新的意义。“当一个人去选择想要哪个版本时，也许在潜意识里，如果他们拥有力量或实力，会用它来战斗还是用来保护？也许在选择版本时，就决定了他们会如何运用力量，”他说。
 - original: The final order of business when it came to naming was to decide what those Legendary dogs that inspired the names of the games should be called. “Those were the last things we were able to determine. We thought it would be interesting to go back to colors with the Legendary Pokémon,” Ohmori says. “One of the things I had in my head was that in the Galar region, these were just kind of rumors; no one has actually seen them in the story. ‘I saw this red knight or this blue knight-looking creature.’ That’s the myth in the region, and I had this initial idea of ‘The Cyan’ or ‘The Magenta.’ Rather than going 100-percent straight like that, we played a little bit on the sound, like ‘Zacian’ and ‘Zamazenta,’ ‘The Cyan’ and ‘The Magenta’ to make it more like a name. The actual idea is that people would be like, ‘That Cyan!’ or ‘That Magenta!’ They’re describing it.”
   translation: 命名工作的最后一项，是决定那些启发了游戏名称的传说狗宝可梦该叫什么。“那是我们最后才确定下来的东西。我们觉得，让传说宝可梦回归颜色会很有意思，”大森说。“我脑子里一直有个想法：在伽勒尔地区，这些只是传闻；故事里没有人真正见过它们。‘我看到了这个红色骑士，或者这个看起来像蓝色骑士的生物。’这就是这个地区的传说，而我最初的想法是‘The Cyan’或‘The Magenta’。我们没有完全照直那么叫，而是在读音上玩了一点花样，比如‘Zacian’和‘Zamazenta’，‘The Cyan’和‘The Magenta’，让它更像一个名字。实际的想法是，人们会说，‘那个Cyan！’或者‘那个Magenta！’他们是在描述它。”
-- original: Turning Trainers Into Stars
-  translation: 把训练家变成明星
 - type: heading
   level: 2
   original: Turning Trainers Into Stars
@@ -201,8 +193,6 @@ parallel_items:
   translation: 对英国体育文化的致敬还体现在大型对战中座无虚席的体育场。这一设定带来了此前宝可梦正传游戏中未曾有过的新氛围。随着竞技场内战斗的展开，观众会做出反应，包括喧哗、欢呼、口号和歌声。体育场本身也会随战斗而变化，竞技场周围的屏幕上会显示某些内容，同时还有音乐播放。
 - original: All of these elements brought by the Galar region felt like a natural fit for the Pokémon series, but where it proved most valuable was in helping Game Freak begin to pull together disparate elements it wanted to implement into one cohesive vision.
   translation: "伽勒尔地区带来的所有这些元素，感觉与宝可梦系列天然契合，但最有价值之处在于，它帮助GAME FREAK开始将想要实现的那些零散元素整合为一个连贯的愿景。"
-- original: Giant Ambitions
-  translation: 巨大的野心
 - type: image
   image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/011.jpg
   alt: Going Big
@@ -240,8 +230,6 @@ parallel_items:
   translation: “我觉得这会有一种迄今为止在很多宝可梦主系列游戏中未曾见过的难度，”岩尾说。“即使对我来说，一个经验丰富的宝可梦玩家，即使我去打五星极巨团体战，也肯定会遇到无法获胜的情况。”
 - original: 'Thankfully, you can alleviate headaches by joining up with friends or choosing raid levels appropriate for your team of Pokémon. Even if you go into a Max Raid Battle alone, A.I. teammates will join to fight alongside you. In addition, you can also even the odds by temporarily growing your own Pokémon to massive scales using one of Sword and Shield’s centerpiece new features: Dynamax.'
   translation: 好在你可以通过与朋友组队或选择适合自己宝可梦队伍的团体战等级来减轻烦恼。即使你独自进入极巨团体战，AI队友也会加入与你并肩作战。此外，你还可以利用《剑/盾》的核心新功能之一——极巨化——暂时将自己的宝可梦巨大化来平衡局势。
-- original: Taking It To The Max
-  translation: 发挥到极致
 - type: image
   image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/014.jpg
   alt: Going Big
@@ -280,8 +268,6 @@ parallel_items:
 - type: image
   image: /assets/img/interviews/2019-11-13-interview-gi-2019-going-big/017.jpg
   alt: Going Big
-- original: Going Wild
-  translation: 走向野外
 - type: heading
   level: 2
   original: Going Wild

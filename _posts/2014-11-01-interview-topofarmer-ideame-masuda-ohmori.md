@@ -304,33 +304,6 @@ parallel_items:
   image: /assets/img/interviews/2014-11-01-interview-topofarmer-ideame-masuda-ohmori/ideame_kids_16_2014-10-31-12.25.44_lzn-700x466.jpg
   alt: 2014-10-31 12.25.44_lzn
   caption: 2014-10-31 12.25.44_lzn
-- original: Para la próxima generación un Pokémon panellet o uno paella, para acompañar al helado. Como si lo viera.
-  translation: 下一代来个“面板”宝可梦或者海鲜饭宝可梦，搭配冰淇淋。我都能想象到了。
-- original: Me das envidia habiendo ido a este evento  buah)
-  translation: 你去参加了这个活动，我好嫉妒啊 呜呜)
-- original: 'O un Pokémon Casteller/Gaudí. Si es que lo veo.  :yaya:'
-  translation: '或者来个叠人塔/高迪宝可梦。我都能看到。 :yaya:'
-- original: 'Tipo : catalán/lucha o catalán/roca (el casteller y gaudi respectivamente). Debilidad contra : Euros, Duros, céntimos …  :))'
-  translation: 属性：加泰罗尼亚/格斗 或 加泰罗尼亚/岩石（分别对应叠人塔和高迪）。 弱点：欧元、硬通货、分币…… :))
-  type: note
-- original: El evento fue bastante majo en general. Muy cuadriculado todo y organizado y planificado , eso sí. Me dijeron que en eventos de la competencia hay más cercanía, más libertad, pero bueno, sabía a lo que iba y me encantó :3
-  translation: 总的来说活动挺不错的。一切都非常井井有条，组织规划得很好。不过有人告诉我，竞争对手的活动更亲近、更自由，但不管怎样，我知道自己去的是什么，而且我很喜欢 :3
-- original: Y les dí la mano! *grito fangirl*
-  translation: 我还跟他们握手了！*迷妹尖叫*
-- original: '@rodaballo  Digno mencionar que una de las películas de Pokémon (la de Darkrai creo que era) tenía lugar en una ciudad basada en Barcelona, salía un edificio basado en la Sagrada Familia y uno de los personajes principales estaba basado en Gaudí.'
-  translation: '@rodaballo  值得一提的是，有一部宝可梦电影（我记得是达克莱伊那部）发生在一个以巴塞罗那为原型的城市，里面有一栋基于圣家堂的建筑，其中一个主要角色是以高迪为原型的。'
-- original: Joder, menuda crónica más acojonante. Igual el evento fue una mierda, pero me he reído un rato.
-  translation: 卧槽，这纪事太他妈精彩了。也许活动很烂，但我笑了一阵。
-- original: Topofarmer, no sé qué coño esperas, pero aquí en el blog ya hay varios que hemos estado con Masuda y tú no….
-  translation: Topofarmer，我不知道你他妈期待什么，但在这个博客里已经有好几个人和增田合过影了，而你没有……
-- original: 'nmlss :'
-  translation: 'nmlss :'
-- original: Topofarmer, no sé qué coño esperas, pero aquí en el blog ya hay varios que hemos estado con Masuda y tú no….
-  translation: Topofarmer，我不知道你他妈期待什么，但在这个博客里已经有好几个人和增田合过影了，而你没有……
-- original: No me lo recuerdes buah)
-  translation: 别提醒我 呜呜)
-interviewee: 增田顺一, 大森滋, 大森滋 / 增田顺一, 西班牙少年听众
-original_lang: es
 summary: "2014年巴塞罗那漫画沙龙期间，Game Freak 的增田顺一与大森滋在 Lestonnac 学校的 iDÉAME Kids 活动上，面向小学四年级学生和高中生回答问题。两人介绍了自身经历与开发分工：团队含程序员、作曲家、策划、美术设计师四类职业。增田提到《宝可梦 X·Y》以 X、Y 轴象征不同人与观点，全球同步发售、含七种语言、约500人参与；《欧米伽红宝石／阿尔法蓝宝石》同样有七种语言，并可通过原始回归看到固拉多的真正形态。大森滋称固拉多已有12年历史，并谈到火稚鸡是《红宝石·蓝宝石》三个初始宝可梦之一，也出现在《X·Y》开场。两人还谈及控制游戏时间、皮卡丘名字全球通用等话题，并为画画的孩子们签名。"
 dek: "增田顺一与大森滋在巴塞罗那 iDÉAME Kids 回答少年儿童提问。"
 topics:

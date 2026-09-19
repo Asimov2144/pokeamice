@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 36.2,
+ "image_tokens": 7106,
+ "completion_tokens": 478,
+ "finish": "stop",
+ "file": "p007_rotom_silhouettes",
+ "image_md5": "d04880b1989fc308ceeff023f56c7bca"
+}

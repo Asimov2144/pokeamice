@@ -48,10 +48,6 @@ parallel_items:
   translation: 增田与大森访谈，宝可梦之父："Nintendo Switch是未来" - Meristation
   note: 增田顺一（Junichi Masuda）和大森滋（Shigeru Ohmori）是Game Freak的开发者，常被称为宝可梦系列的核心创作者。
 - type: paragraph
-  original: 'Entrevista Masuda y Ohmori, padres de Pokémon: "Nintendo Switch es el futuro"'
-  translation: 增田顺一与大森滋，宝可梦之父访谈："Nintendo Switch是未来"
-  note: Masuda指增田顺一，Ohmori指大森滋，均为宝可梦系列核心开发者。
-- type: paragraph
   original: Dos de los padres de la saga charlan con MeriStation sobre sus venturas y desventuras a lo largo de estos años con Pokémon, que cumplen ahora 20 años por todo lo alto rompiendo récords en Occidente gracias a Sol y Luna. Esto es lo que nos deparará el futuro junto a la franquicia.
   translation: 系列两位创始人与MeriStation畅谈这些年来与宝可梦共度的风风雨雨。如今宝可梦迎来20周年，凭借《太阳／月亮》在西方打破纪录，风头正劲。这就是未来与这一系列相伴而行的前景。
 - type: paragraph
@@ -76,7 +72,8 @@ parallel_items:
 - type: paragraph
   original: Temas como los ansiados remakes de Pokémon Perla y Diamante o las posibilidades que ofáecerá Nintendo Switch a la saga son cosas que no hemos dejado de preguntarles; así que seguid leyendo si queréis conocer qué nos dijeron dos de los artífices por los que unos cuantos millones de jugadores siguen cogiendo su consola cada día queriendo ‘ hacerse con todos’ .
   translation: 诸如备受期待的《宝可梦 珍珠／钻石》重制版，以及 Nintendo Switch 将为该系列带来的可能性等问题，我们一直在向他们提问；所以，如果你想了解这两位创作者说了什么——正是他们让数百万玩家每天拿起游戏机，想要“收服全部宝可梦”——请继续阅读。
-- type: paragraph
+- type: heading
+  level: 3
   original: Los responsables del fenómeno ¿Quiénes son Junichi Masuda y Shigeru Ohmori?
   translation: 这一现象背后的功臣：增田顺一与大森滋是谁？
 - type: paragraph
@@ -93,7 +90,8 @@ parallel_items:
   translation: "大森滋在 Game Boy Advance 时代作为一位年轻且有潜力的领导者加入 GAME FREAK，当时正值《宝可梦 红宝石／蓝宝石》开发期间（约2002年）。他担任了地区地图设计师，同时也是该作的主要设计师之一。他还参与过多个衍生作品，如《宝可梦巡护员》，甚至参与了 GAME FREAK 的另一款 3DS 游戏《节奏猎人和声骑士》。在担任游戏设计师的多个作品之后，他逐渐在开发中扮演更重要的角色，最终成为系列作品的导演。正如他将在采访中提到的，他的主要方法是汲取主系列和 GAME FREAK 其他游戏的精髓，以确保新项目尽可能出色。"
   speaker: 大森滋
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: Entrevista a Junichi Masuda y Shigeru Ohmori
   translation: 对增田顺一和大森滋的采访
 - type: paragraph
@@ -124,7 +122,8 @@ parallel_items:
   translation: 大森滋：在这种情况下，我们想向那些从《宝可梦 红／绿》就开始玩这个系列的玩家致敬，所以我们使用了这么多引用。例如，关于你问的地区形态，我们希望在每座岛屿上都能让玩家看到旧宝可梦的新形态或进化，让那些已经熟悉这些物种的玩家感到惊喜，因为它们以不同的形态出现；一个例子是椰蛋树，在其中一座岛上，它的脖子变得很长。未来，如果我们找到这样做的理由，我们肯定会继续做下去，因为这非常有趣，而且人们非常喜欢。
   speaker: 大森滋
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: 'La herencia de los spin off: Pokémon Snap, Ranger y Mundo Misterioso'
   translation: 衍生作品的遗产：《宝可梦快照》《巡护员》与《不可思议的迷宫》
 - type: paragraph
@@ -161,7 +160,8 @@ parallel_items:
   translation: 毫无疑问，Nintendo Switch是未来，但我们必须等到它上市，研究它如何能受益于宝可梦。当人们拥有它时，我们必须深入观察和研究他们如何使用它，然后思考宝可梦的下一部作品会是什么样子，以及该系列如何能从这款新主机中获益。
   speaker: 增田顺一
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: ¿Tendremos remakes de Pokémon Perla y Diamante?
   translation: 会有《宝可梦 珍珠／钻石》的重制版吗？
   note: 此句为文章的小标题。
@@ -179,7 +179,8 @@ parallel_items:
   translation: '[笑] 我们在推特上经常被问到这个问题。嗯……我不知道，我不知道……[笑]'
   speaker: 增田顺一
   role: answer
-- type: paragraph
+- type: heading
+  level: 3
   original: 'El futuro de Pokémon: "Una enorme herramienta de comunicación"'
   translation: 宝可梦的未来：“一个巨大的交流工具”
   note: 此句为文章的小标题。

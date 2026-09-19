@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 63.0,
+ "image_tokens": 8582,
+ "completion_tokens": 760,
+ "finish": "stop",
+ "file": "p072_battle_dojo_sp",
+ "image_md5": "2ad893d416f02e3a883a2eeb5a660bd1"
+}

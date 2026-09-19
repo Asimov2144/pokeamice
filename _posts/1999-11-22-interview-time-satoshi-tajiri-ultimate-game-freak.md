@@ -95,8 +95,7 @@ parallel_items:
   role: answer
 - speaker: 时代周刊
   original: Weren't you just a teenager?
-  translation: 你那时不还只是个迷你裙吗？
-  note: 此处“teenager”按官方术语译为“迷你裙”，指代青少年。
+  translation: 你那时不还只是个十几岁的少年吗？
   role: question
 - speaker: 田尻智
   original: Yeah. It was handwritten. I stapled the pages together. It had techniques on how to win games, secret tips for games like Donkey Kong.

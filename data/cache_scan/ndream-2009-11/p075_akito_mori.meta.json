@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 61.0,
+ "image_tokens": 8582,
+ "completion_tokens": 1649,
+ "finish": "stop",
+ "file": "p075_akito_mori",
+ "image_md5": "871331b21efe3b5587f0c3e0a9a3aa14"
+}

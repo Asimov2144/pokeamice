@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 64.0,
+ "image_tokens": 8582,
+ "completion_tokens": 1540,
+ "finish": "stop",
+ "file": "p073_masuda_morimoto",
+ "image_md5": "4ac850372edd57cdd3a16d9209d34b40"
+}

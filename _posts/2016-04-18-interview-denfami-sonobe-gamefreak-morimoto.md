@@ -50,7 +50,7 @@ parallel_items:
   alt: 20150730_239.jpg
 - original: 目次ゲームフリーク社員が語る『ダビスタ』との出会い「『ダビスタ』より面白いゲームなんて出来っこねーだろ」アスキーではダメ社員だった？『ダビスタ』は実況から作り始めたレースのパラメーターは４つしかないスポーツをいかに抽象化するかパラメーターを増やしたくない１対100万の勝負で勝つためには？「僕はあまりユーザーに面白さを押し付けたくなかったんです」原体験としての『ライフゲーム』「成沢さんの本には関わっていません」「予測がつかないようなゲームを自信を持って出す」
   translation: 目录 GAME FREAK员工讲述与《德比骏马》的相遇 “不可能做出比《德比骏马》更有趣的游戏” 在ASCII是个没用的员工？ 《德比骏马》从实况解说开始制作 比赛参数只有4个 如何将运动抽象化 不想增加参数 在1对100万的较量中获胜的方法？ “我不太想把自己的趣味强加给玩家” 作为原体验的《生命游戏》 “我没有参与成泽先生的书” “有信心推出无法预测的游戏”
-- type: section
+- type: heading
   level: 2
   original: ゲームフリーク社員が語る『ダビスタ』との出会い
   translation: GAME FREAK员工讲述与《德比骏马》的相遇
@@ -136,7 +136,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_007.jpg
   caption: ''
   alt: 20150730_007.jpg
-- type: section
+- type: heading
   level: 2
   original: 「『ダビスタ』より面白いゲームなんて出来っこねーだろ」
   translation: “不可能做出比《德比骏马》更有趣的游戏了吧。”
@@ -236,7 +236,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_214.jpg
   caption: ''
   alt: 20150730_214.jpg
-- type: section
+- type: heading
   level: 2
   original: アスキーではダメ社員だった？
   translation: 在ASCII是个没用的员工？
@@ -360,7 +360,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_132.jpg
   caption: ''
   alt: 20150730_132.jpg
-- type: section
+- type: heading
   level: 2
   original: 『ダビスタ』は実況から作り始めた
   translation: 《德比骏马》是从实况解说开始做的
@@ -582,7 +582,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_028.jpg
   caption: ''
   alt: 20150730_028.jpg
-- type: section
+- type: heading
   level: 2
   original: レースのパラメーターは４つしかない
   translation: 比赛参数只有4个
@@ -648,7 +648,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_103.jpg
   caption: ''
   alt: 20150730_103.jpg
-- type: section
+- type: heading
   level: 2
   original: スポーツをいかに抽象化するか
   translation: 如何将体育运动抽象化
@@ -840,7 +840,7 @@ parallel_items:
   alt: ef4ec3523ae891ec5e09fbbc66c49582.jpeg
 - original: 『ダービースタリオン99』発売当時から、薗部氏はスピードとスタミナの関連性について言及していた（『電撃PlayStation』1999年10月8日発売号より）。
   translation: 自《德比骏马99》发售时起，薗部先生就已提及速度与耐力之间的关联性（摘自《电击PlayStation》1999年10月8日发售号）。
-- type: section
+- type: heading
   level: 2
   original: パラメーターを増やしたくない
   translation: 不想增加参数
@@ -940,7 +940,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_202.jpg
   caption: ''
   alt: 20150730_202.jpg
-- type: section
+- type: heading
   level: 2
   original: １対100万の勝負で勝つためには？
   translation: 要在1对100万的较量中取胜，该怎么做？
@@ -1160,7 +1160,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_038.jpg
   caption: ''
   alt: 20150730_038.jpg
-- type: section
+- type: heading
   level: 2
   original: 「僕はあまりユーザーに面白さを押し付けたくなかったんです」
   translation: “我不太想把自己的趣味强加给玩家”
@@ -1208,7 +1208,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_017.jpg
   caption: ''
   alt: 20150730_017.jpg
-- type: section
+- type: heading
   level: 2
   original: 原体験としての『ライフゲーム』
   translation: 作为原体验的《生命游戏》
@@ -1276,7 +1276,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_207.jpg
   caption: ''
   alt: 20150730_207.jpg
-- type: section
+- type: heading
   level: 2
   original: 「成沢さんの本には関わっていません」
   translation: “我没有参与成泽先生的书。”
@@ -1404,7 +1404,7 @@ parallel_items:
   image: /assets/img/interviews/2016-04-18-interview-denfami-sonobe-gamefreak-morimoto/20150730_232.jpg
   caption: ''
   alt: 20150730_232.jpg
-- type: section
+- type: heading
   level: 2
   original: 「予測がつかないようなゲームを自信を持って出す」
   translation: “自信地推出一款让人无法预测的游戏”
@@ -1508,7 +1508,7 @@ parallel_items:
   translation: 从这篇访谈中可以了解到，薗部先生不仅从小就是个游戏爱好者，同时也是亲历计算机文化黎明期的人，是被计算机这一存在所展现的“连编写程序的人都无法预测的成就”所蕴含的原始感动所深深吸引的人之一。数字游戏文化同样处于个人电脑问世以来计算机文化这一宏大潮流之中——正如我们阅读这篇文章所使用的互联网一样。采访接近尾声时，薗部先生开始热情洋溢地讲述年轻时被《生命游戏》所创造的“无法预料的展开”所震撼的感动。从他那时的身影中，笔者仿佛瞥见了数字游戏那容易被遗忘的“故乡”。这便是此次采访给人的感受。
 - original: （次回以降は、不定期での掲載となります。今後も『タクティクスオウガ』や『デモンズソウル』など、みんなの心に残る名作ゲームをどんどん取り上げていく予定なので、ぜひご期待ください。）
   translation: （下次起将不定期刊载。今后也计划陆续推出《皇家骑士团》和《恶魔之魂》等留在大家心中的名作游戏，敬请期待。）
-- type: section
+- type: heading
   level: 3
   original: PC-9800シリーズ版『ダービースタリオン』についての記事を公開
   translation: 公开了关于PC-9800系列版《德比骏马》的文章

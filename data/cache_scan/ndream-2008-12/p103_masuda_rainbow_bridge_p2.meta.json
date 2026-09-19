@@ -1,0 +1,9 @@
+{
+ "model": "qwen3.8-max",
+ "seconds": 59.4,
+ "image_tokens": 8582,
+ "completion_tokens": 1983,
+ "finish": "stop",
+ "file": "p103_masuda_rainbow_bridge_p2",
+ "image_md5": "33e6313d188b27a38b0517f86c0c6e4d"
+}
