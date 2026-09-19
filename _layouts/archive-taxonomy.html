@@ -1,29 +1,80 @@
 ---
-layout: default
-author_profile: false
+layout: library
 ---
+{%- comment -%}
+A category or a tag (jekyll-archives: page.type, page.title, page.posts): what
+it holds (_data/categories.yml), how many entries, the categories its entries
+also sit in, then the entries themselves - as a register by default, one line
+each with date, kind, source, title, people, work and proofreading state,
+grouped by year (entry-row.html): an archive reads as a list of records. A
+switch shows them as the front desk's cards instead (entry-card.html, packed by
+assets/js/card-grid.js); the wall stops at ninety-six and hands over to the
+search page, which filters the whole catalogue. The choice is remembered.
+{%- endcomment -%}
+{% assign tx_posts = page.posts | where_exp: "post", "post.hidden != true and post.search != false" %}
+{% assign tx_kind = page.type | default: "category" %}
+{% assign tx_info = site.data.categories | where: "name", page.title | first %}
+{% assign tx_title = tx_info.title | default: page.title %}
+{% assign tx_limit = 96 %}
+{% assign tx_more = tx_posts.size | minus: tx_limit %}
+{%- comment -%} where the search page picks this up: a type filter when the category is one, the name as a query otherwise {%- endcomment -%}
+{% assign tx_search = tx_info.search | default: page.title %}
+{% if tx_search contains "=" %}{% assign tx_search_url = "/search/?" | append: tx_search %}{% else %}{% assign tx_search_url = "/search/?q=" | append: tx_search %}{% endif %}
+{%- comment -%} the other categories (or tags) these entries sit in, most shared first {%- endcomment -%}
+{% assign tx_near = "" | split: "" %}
+{% for p in tx_posts %}
+  {% if tx_kind == "tag" %}{% assign tx_terms = p.tags %}{% else %}{% assign tx_terms = p.categories %}{% endif %}
+  {% for c in tx_terms %}{% unless c == page.title %}{% assign tx_near = tx_near | push: c %}{% endunless %}{% endfor %}
+{% endfor %}
+{% assign tx_near_groups = tx_near | group_by_exp: "c", "c" | sort: "size" | reverse %}
+{% if tx_kind == "tag" %}{% assign tx_base = "/tags/" %}{% assign tx_word = "标签" %}{% else %}{% assign tx_base = "/categories/" %}{% assign tx_word = "分类" %}{% endif %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
-{% endif %}
+<header class="library__head">
+  <p class="library__eyebrow"><a href="{{ '/keys/' | relative_url }}">资料窗口</a> · {{ tx_word }}</p>
+  <h1 class="library__title">{{ tx_title }}{% if tx_title != page.title %} <small>{{ page.title }}</small>{% endif %}</h1>
+  <p class="library__lead">{% if tx_info.blurb %}{{ tx_info.blurb }}{% else %}这个{{ tx_word }}下收录的条目，按时间倒序。{% endif %}</p>
+  <p class="library__facts"><b>{{ tx_posts.size }}</b> 条{% if tx_posts.size > 0 %} · {{ tx_posts.last.date | date: "%Y" }}–{{ tx_posts.first.date | date: "%Y" }}{% endif %} · <a href="{{ tx_search_url | relative_url }}">在检索中心继续筛 →</a></p>
+  {% if tx_near_groups.size > 0 %}
+    <p class="library__near"><span>{% if tx_kind == "tag" %}相关标签{% else %}同时属于{% endif %}</span>{% for g in tx_near_groups limit: 8 %}{% assign g_slug = g.name | slugify %}<a href="{{ tx_base | append: g_slug | append: '/' | relative_url }}">{{ g.name }}<b>{{ g.size }}</b></a>{% endfor %}</p>
+  {% endif %}
+</header>
 
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
-    {% endunless %}
-    {% for post in page.posts %}
-      {% include archive-single.html %}
-    {% endfor %}
-  </div>
+{% if tx_posts.size == 0 %}
+  <p class="library__empty">还没有条目。</p>
+{% else %}
+<div class="library__views" role="group" aria-label="显示方式">
+  <button type="button" class="library__views-btn is-active" data-library-view="list" aria-pressed="true">条目</button>
+  <button type="button" class="library__views-btn" data-library-view="cards" aria-pressed="false">卡片</button>
 </div>
+{%- comment -%} the register: a line per entry, a heading per year {%- endcomment -%}
+<ol class="library__list" data-library-pane="list">
+  {% assign tx_year = "" %}
+  {% for post in tx_posts %}
+    {% assign p_year = post.date | date: "%Y" %}
+    {% if p_year != tx_year %}{% assign tx_year = p_year %}<li class="library__year" aria-hidden="true">{{ p_year }}</li>{% endif %}
+    {% include entry-row.html row_post=post %}
+  {% endfor %}
+</ol>
+<div class="front__results search-lab__results library__wall" data-card-grid data-library-pane="cards" hidden>
+  {% for post in tx_posts limit: tx_limit %}{% include entry-card.html card_post=post compact=true %}{% endfor %}
+  {% if tx_more > 0 %}
+    <a class="library__more search-result-card search-result-card--compact search-result-card--text" href="{{ tx_search_url | relative_url }}"><span class="library__more-n">还有 {{ tx_more }} 条</span><span>这里只放最新的 {{ tx_limit }} 条。全部条目在检索中心，那里还能再按年份、人物、作品筛。</span><b>去检索中心 →</b></a>
+  {% endif %}
+</div>
+<script>
+  // 条目 / 卡片, remembered per browser; the cards are packed when first shown
+  (function () {
+    var key = "libraryView", btns = document.querySelectorAll("[data-library-view]"), panes = document.querySelectorAll("[data-library-pane]");
+    function set(v) {
+      panes.forEach(function (p) { p.hidden = p.getAttribute("data-library-pane") !== v; });
+      btns.forEach(function (b) { var on = b.getAttribute("data-library-view") === v; b.classList.toggle("is-active", on); b.setAttribute("aria-pressed", on ? "true" : "false"); });
+      try { localStorage.setItem(key, v); } catch (e) {}
+      window.dispatchEvent(new Event("resize"));
+    }
+    btns.forEach(function (b) { b.addEventListener("click", function () { set(b.getAttribute("data-library-view")); }); });
+    var stored = null;
+    try { stored = localStorage.getItem(key); } catch (e) {}
+    set(stored === "cards" ? "cards" : "list");
+  })();
+</script>
+{% endif %}

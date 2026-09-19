@@ -1,0 +1,234 @@
+/* ==========================================================================
+   The library pages: the resource hub (/keys/) and the category and tag
+   archives (_layouts/library.html, _layouts/archive-taxonomy.html, _pages/keys.md)
+
+   Built from the front desk's own parts - the topic tiles of home-topics.html
+   and the compact entry cards of entry-card.html, whose rules live in
+   _home-front.scss under .front - so the root carries both classes,
+   .library.front. Only the shelf's own vocabulary is here: the head of a
+   page, the tile wall, the rows of latest entries, the category index, the
+   card that stands in for the entries a wall does not show.
+   ========================================================================== */
+
+$lib-ink: #1a2430;
+$lib-ink-soft: #4b5563;
+$lib-ink-faint: #8a94a0;
+$lib-rule: #e6ebf0;
+$lib-band: #f5f7fa;
+$lib-accent: #2b6cb0;
+$lib-display: "Inter", "Helvetica Neue", "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+
+.library {
+  gap: 18px;
+  padding: 10px 0 48px;
+
+  /* ---- the head of a page: what this is, how much, where else to look ---- */
+  .library__head { display: grid; gap: 6px; max-width: 860px; }
+  .library__eyebrow { margin: 0; font-family: $lib-display; font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: $lib-ink-faint; a { color: inherit; text-decoration: none; &:hover { color: $lib-accent; } } }
+  .library__title { margin: 0; font-family: $lib-display; font-size: clamp(24px, 3vw, 34px); font-weight: 800; letter-spacing: -0.01em; line-height: 1.2; color: $lib-ink; small { margin-left: 8px; font-size: 0.5em; font-weight: 500; color: $lib-ink-faint; } }
+  .library__lead { margin: 0; font-size: 15px; line-height: 1.7; color: $lib-ink-soft; }
+  .library__facts { margin: 0; font-size: 13px; color: $lib-ink-faint; b { color: $lib-ink; font-weight: 700; } a { color: $lib-accent; text-decoration: none; &:hover { text-decoration: underline; } } }
+
+  /* the numbers of the hub, and the categories an archive's entries also sit in: chips */
+  .library__near, .library__stats { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 4px 0 0; font-size: 12px; }
+  .library__near > span { color: $lib-ink-faint; margin-right: 2px; }
+  .library__near a, .library__stats a, .library__stats span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid $lib-rule;
+    border-radius: 999px;
+    padding: 2px 9px 2px 10px;
+    background: #fff;
+    color: $lib-ink;
+    text-decoration: none;
+    b { font-weight: 700; color: $lib-ink-faint; }
+    &:hover { border-color: $lib-accent; color: $lib-accent; }
+  }
+  .library__stats span { color: $lib-ink-soft; }
+  .library__stats b { color: $lib-ink; }
+
+  /* ---- the tile wall: the home's shelf, wrapped instead of scrolled ---- */
+  .front__topics--grid {
+    flex-wrap: wrap;
+    overflow: visible;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    scroll-snap-type: none;
+
+    .front__tile { width: 216px; height: 122px; }
+  }
+
+  /* ---- a shelf of the hub: its name, its count, the latest entries in a row ---- */
+  .library__section { display: grid; gap: 10px; }
+  .library__section-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    margin: 0;
+    padding-top: 12px;
+    border-top: 2px solid $lib-ink;
+    h2 { margin: 0; font-family: $lib-display; font-size: 18px; font-weight: 800; letter-spacing: -0.01em; color: $lib-ink; }
+    small { font-size: 12px; color: $lib-ink-faint; }
+    a { margin-left: auto; font-size: 13px; font-weight: 700; color: $lib-accent; text-decoration: none; white-space: nowrap; &:hover { text-decoration: underline; } }
+  }
+  .library__row {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    align-items: start;
+  }
+
+  /* ---- the category index ---- */
+  .library__cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; }
+  .library__cat {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 2px 10px;
+    border: 1px solid $lib-rule;
+    border-radius: 10px;
+    padding: 10px 12px;
+    background: #fff;
+    color: $lib-ink;
+    text-decoration: none;
+    strong { font-family: $lib-display; font-size: 14px; font-weight: 700; }
+    b { grid-row: 1 / span 2; align-self: start; font-family: $lib-display; font-size: 18px; font-weight: 800; color: $lib-ink-faint; }
+    span { grid-column: 1; font-size: 12px; line-height: 1.5; color: $lib-ink-soft; }
+    small { grid-column: 1; font-size: 11px; color: $lib-ink-faint; }
+    &:hover { border-color: $lib-accent; strong { color: $lib-accent; } }
+  }
+  .library__cats--plain { display: flex; flex-wrap: wrap; gap: 6px; }
+  .library__cats--plain a, .library__tags a {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid $lib-rule;
+    border-radius: 999px;
+    padding: 3px 10px;
+    background: #fff;
+    font-size: 12px;
+    color: $lib-ink;
+    text-decoration: none;
+    b { font-weight: 700; color: $lib-ink-faint; }
+    &:hover { border-color: $lib-accent; color: $lib-accent; }
+  }
+  .library__tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+  /* ---- 条目 / 卡片 ---- */
+  .library__views { display: inline-flex; justify-self: start; border: 1px solid $lib-ink; border-radius: 3px; overflow: hidden; }
+  .library__views-btn {
+    min-width: 56px;
+    min-height: 28px;
+    padding: 3px 14px;
+    border: 0;
+    background: none;
+    color: $lib-ink;
+    font-family: $lib-display;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    & + & { border-left: 1px solid $lib-ink; }
+    &.is-active { background: $lib-ink; color: #fff; }
+  }
+
+  /* ---- the register: a line per entry, a heading per year (entry-row.html) ---- */
+  .library__list { margin: 0; padding: 0; list-style: none; border-top: 1px solid $lib-rule; }
+  .library__list[hidden] { display: none; }
+  .library__year {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: 0;
+    padding: 12px 0 4px;
+    background: #fff;
+    font-family: $lib-display;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    color: $lib-ink-faint;
+  }
+  .library__entry {
+    display: grid;
+    grid-template-columns: 84px 44px minmax(0, 1fr) 64px;
+    gap: 4px 12px;
+    align-items: start;
+    padding: 8px 0;
+    border-bottom: 1px solid $lib-rule;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .library__entry-date { padding-top: 1px; font-family: $lib-display; font-size: 12px; font-variant-numeric: tabular-nums; color: $lib-ink-faint; white-space: nowrap; }
+  .library__entry-thumb {
+    display: block;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: var(--pa-type-soft, $lib-band);
+    img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    &.is-blank { border: 1px solid $lib-rule; }
+  }
+  .library__entry-main { display: grid; gap: 1px; min-width: 0; }
+  .library__entry-kicker { display: flex; flex-wrap: wrap; gap: 3px 8px; margin: 0; font-size: 11px; color: $lib-ink-faint; }
+  .library__entry-kind { border-radius: 999px; padding: 0 7px; background: var(--pa-type-soft, $lib-band); color: var(--pa-type, $lib-ink-soft); font-weight: 700; }
+  .library__entry-title { font-size: 14px; font-weight: 600; line-height: 1.45; color: $lib-ink; text-decoration: none; &:hover { color: $lib-accent; } }
+  .library__entry-who { display: flex; flex-wrap: wrap; gap: 2px 10px; margin: 0; font-size: 12px; color: $lib-ink-soft;
+    .is-person { color: $lib-ink-soft; text-decoration: none; } a.is-person:hover { color: $lib-accent; }
+    .is-work { display: inline-flex; align-items: center; gap: 4px; color: $lib-ink-faint; img { width: 14px; height: 14px; } .work-swatch { display: inline-block; width: 10px; height: 10px; border-radius: 2px; } }
+  }
+  .library__entry-proof { padding-top: 2px; font-size: 11px; text-align: right; color: $lib-ink-faint; white-space: nowrap; }
+
+  /* ---- the wall of an archive, and the card past its end ---- */
+  .library__wall { margin-top: 4px; }
+  .library__empty { margin: 20px 0; color: $lib-ink-faint; }
+  .library__more {
+    display: grid !important;
+    gap: 6px;
+    align-content: start;
+    border-style: dashed !important;
+    color: $lib-ink-soft;
+    font-size: 13px;
+    line-height: 1.55;
+    text-decoration: none;
+    .library__more-n { font-family: $lib-display; font-size: 18px; font-weight: 800; color: $lib-ink; }
+    b { color: $lib-accent; }
+    &:hover { border-color: $lib-accent !important; }
+  }
+
+  @media (max-width: 1100px) {
+    .library__row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (max-width: 760px) {
+    .library__row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .front__topics--grid .front__tile { width: calc(50% - 5px); height: 104px; }
+  }
+  @media (max-width: 480px) {
+    .library__row { grid-template-columns: minmax(0, 1fr); }
+    .library__cats { grid-template-columns: minmax(0, 1fr); }
+    .library__entry { grid-template-columns: 44px minmax(0, 1fr); }
+    .library__entry-date { grid-column: 2; order: 3; }
+    .library__entry-proof { grid-column: 2; order: 4; text-align: left; }
+    .library__entry-thumb { grid-row: 1 / span 3; }
+  }
+}
+
+/* the night theme (body.theme-bg-black, _custom-themes.scss); the cards and tiles have theirs in _home-front.scss */
+body.theme-bg-black .library {
+  .library__title, .library__facts b, .library__section-head h2, .library__more-n, .library__stats b { color: #eef3f7; }
+  .library__lead, .library__cat span, .library__more, .library__stats span { color: #b9c2ca; }
+  .library__near a, .library__stats a, .library__stats span, .library__cat, .library__cats--plain a, .library__tags a { background: #2a2f35; border-color: #46505a; color: #eef3f7; }
+  .library__cat strong { color: #eef3f7; }
+  .library__section-head { border-top-color: #eef3f7; }
+  .library__near a:hover, .library__cats--plain a:hover, .library__tags a:hover { color: #9fd7ff; border-color: #9fd7ff; }
+  .library__facts a, .library__section-head a, .library__more b { color: #9fd7ff; }
+  .library__views { border-color: #e6e8ec; }
+  .library__views-btn { color: #e6e8ec; & + & { border-color: #e6e8ec; } &.is-active { background: #e6e8ec; color: #15181d; } }
+  .library__list, .library__entry { border-color: #46505a; }
+  .library__year { background: #1d2126; }
+  .library__entry-title { color: #eef3f7; &:hover { color: #9fd7ff; } }
+  .library__entry-who, .library__entry-who .is-person { color: #b9c2ca; }
+  .library__entry-thumb.is-blank { border-color: #46505a; }
+}

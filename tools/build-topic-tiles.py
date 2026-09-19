@@ -124,6 +124,35 @@ def drawn(kind):
             if (c // 2) % 2:
                 d.rectangle((c * cw, 0, (c + 1) * cw, H), fill=None, outline=(38, 50, 70))
         return tile
+    if kind == "analysis":
+        # the staff blog's years as columns, each a stack of topic bands - the reading the
+        # analysis page makes of 200-odd entries, at a glance
+        cols = 9
+        cw = W // cols
+        pal = [(159, 215, 255), (255, 196, 92), (167, 226, 178), (232, 180, 232), (246, 213, 213), (226, 232, 236)]
+        for c in range(cols):
+            total = 34 + int(120 * (0.35 + 0.65 * abs(((c * 5) % 7) / 7 - 0.4)))
+            y = H - 14
+            for k in range(5):
+                share = 0.12 + 0.2 * (((c * 3 + k * 7) % 9) / 9)
+                bh = int(total * share)
+                d.rectangle((c * cw + 6, y - bh, (c + 1) * cw - 6, y), fill=pal[(k + c) % len(pal)])
+                y -= bh + 2
+            d.rectangle((c * cw + 6, H - 12, (c + 1) * cw - 6, H - 8), fill=(84, 104, 126))
+        return tile
+    if kind == "quotes":
+        # a line lifted from a page: the marks, three lines of type, one bright
+        from PIL import ImageFont
+        try:
+            font = ImageFont.truetype("C:/Windows/Fonts/msyhbd.ttc", 110)
+        except OSError:
+            font = ImageFont.load_default()
+        d.text((18, -30), "“", font=font, fill=(255, 196, 92))
+        d.text((W - 92, H - 122), "”", font=font, fill=(255, 196, 92))
+        for i, (x0, x1, col) in enumerate(((92, 258, (226, 232, 236)), (92, 300, (159, 215, 255)), (92, 220, (226, 232, 236)))):
+            y = 62 + i * 30
+            d.rounded_rectangle((x0, y, x1, y + 12), radius=6, fill=col)
+        return tile
     if kind == "timeline":
         import random
         random.seed(7)
@@ -182,7 +211,7 @@ def main():
         for i, im in enumerate(ims):
             bg.paste(im, (i % 4 * 84 + 4, (i // 4) * 84 + 16), im)
         save(bg, "works"); print("  works      <- the work icons")
-    for key in ("timeline", "graph", "credits"):
+    for key in ("timeline", "graph", "credits", "analysis", "quotes"):
         if force or not (OUT / f"{key}.jpg").exists():
             save(drawn(key), key); print(f"  {key:10s} <- drawn")
     print("tiles:", sorted(p.name for p in OUT.glob("*.jpg")))

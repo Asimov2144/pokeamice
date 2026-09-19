@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{%- comment -%}
+A shelf of the library without the theme's sidebar: the whole of #main for the
+page. The resource hub (/keys/) and the category and tag archives use it, and
+lay themselves out with the front desk's own parts - the topic tiles and the
+entry cards - so a category reads like the home page filtered, not like a
+list of titles. assets/js/card-grid.js packs the compact cards.
+{%- endcomment -%}
+<div id="main" role="main">
+  <div class="library front">
+    {{ content }}
+  </div>
+</div>
+<script src="{{ '/assets/js/card-grid.js' | relative_url }}" defer></script>

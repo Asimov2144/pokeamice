@@ -1,0 +1,40 @@
+{%- comment -%}
+One entry of the library as a line of a register - the archive pages list
+their entries this way: date, kind, source, title, who is in it, which work,
+proofreading state, and a small cut of the cover. Pass `row_post`. The kind
+and the cover follow the same rules as entry-card.html, so a line and its card
+agree; the row keeps the type colour (is-type-*) for its kind chip.
+{%- endcomment -%}
+{% assign rp = include.row_post %}
+{% assign row_archive = rp.archive_type | default: rp.resource_type %}
+{% assign row_type = "文章" %}{% assign row_tc = "article" %}
+{% if row_archive == "scan_translation" %}{% assign row_type = "扫描翻译" %}{% assign row_tc = "scan" %}
+{% elsif rp.layout == "interview-editorial" or rp.layout == "parallel-translation" or row_archive == "interview_translation" or rp.categories contains "访谈翻译" %}{% assign row_type = "访谈翻译" %}{% assign row_tc = "interview" %}
+{% elsif row_archive == "gamefreak_director_column" or row_archive == "gamefreak_masuda_lineblog" or row_archive == "gamefreak_legacy_blog" %}{% assign row_type = "Game Freak 博客" %}{% assign row_tc = "blog" %}
+{% elsif rp.categories contains "文档" %}{% assign row_type = "文档" %}{% assign row_tc = "doc" %}{% endif %}
+{% assign row_cover = rp.image | default: rp.featured_image | default: "" %}
+{% assign row_pages = 0 %}
+{% if rp.translation_segments %}
+  {% assign row_plates = rp.translation_segments | where: "type", "image" %}
+  {% assign row_pages = row_plates.size %}
+  {% if row_plates.first.image %}{% assign row_cover = row_plates.first.image %}{% endif %}
+{% elsif row_cover == "" and rp.parallel_items %}
+  {% assign row_pics = rp.parallel_items | where: "type", "image" %}
+  {% assign row_pic = row_pics.first.image | default: row_pics.first.src | default: row_pics.first.original | default: "" %}
+  {% if row_pic != "" %}{% assign row_cover = row_pic %}{% endif %}
+{% endif %}
+{% include cover-fallback.html post=rp cover=row_cover %}
+{% assign row_cover = cf_cover %}
+{% assign row_pub = rp.publication | default: rp.source.publication | default: rp.source.title | default: "" | split: "（" | first | split: " (" | first %}
+<li class="library__entry is-type-{{ row_tc }}">
+  <time class="library__entry-date" datetime="{{ rp.date | date: '%Y-%m-%d' }}">{{ rp.date | date: "%Y-%m-%d" }}</time>
+  <a class="library__entry-thumb{% if row_cover == '' %} is-blank{% endif %}" href="{{ rp.url | relative_url }}" tabindex="-1" aria-hidden="true">{% if row_cover != "" %}<img src="{{ row_cover | relative_url }}" alt="" loading="lazy" decoding="async">{% endif %}</a>
+  <div class="library__entry-main">
+    <p class="library__entry-kicker"><span class="library__entry-kind">{{ row_type }}</span>{% if row_pub != "" %}<span>{{ row_pub }}{% if rp.issue %} {{ rp.issue }}{% endif %}</span>{% endif %}{% if row_pages > 0 %}<span>{{ row_pages }} 页</span>{% endif %}</p>
+    <a class="library__entry-title" href="{{ rp.url | relative_url }}">{{ rp.display_title | default: rp.title }}</a>
+    {% if rp.entities.people or rp.entities.works %}
+    <p class="library__entry-who">{% for who in rp.entities.people limit: 5 %}{% include person-avatar.html who=who post=rp %}{% assign pe = pa_hit %}{% if pe.slug and pe.kind != "character" and pe.kind != "figure" %}<a class="is-person" href="{{ '/people/' | append: pe.slug | append: '/' | relative_url }}">{{ who }}</a>{% else %}<span class="is-person">{{ who }}</span>{% endif %}{% endfor %}{% for w in rp.entities.works limit: 3 %}{% assign wi = site.data.works | where: "name", w | first %}<span class="is-work">{% if wi.icon %}<img src="{{ wi.icon }}" alt="" loading="lazy">{% elsif wi.color %}<i class="work-swatch" style="background: linear-gradient(90deg, {{ wi.color }} 50%, {{ wi.color2 | default: wi.color }} 50%)"></i>{% endif %}{{ w }}</span>{% endfor %}</p>
+    {% endif %}
+  </div>
+  <span class="library__entry-proof">{% if rp.workflow.proofreading %}{% if rp.workflow.proofreading contains "pending" or rp.workflow.proofreading contains "machine" or rp.workflow.proofreading contains "deepseek" or rp.workflow.proofreading contains "draft" %}初译待校{% else %}已校对{% endif %}{% endif %}</span>
+</li>

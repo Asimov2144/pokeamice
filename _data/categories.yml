@@ -1,0 +1,58 @@
+# The categories worth a word: what each one holds, for the hub (/keys/) and the
+# category pages (/categories/<name>/). A category not listed here still gets its
+# page; it is only listed on the hub when it has three entries or more.
+# name   the category as the posts spell it
+# title  how to show it, when the name itself is a path slug
+# blurb  one line under the heading
+# search the query the "see all" link hands to /search/ (default: the name)
+- name: 访谈翻译
+  blurb: 开发者、制作人与媒体的对谈译文，日中对照——从 1996 年的图鉴访谈到最新的讲演报道。
+  search: type=访谈翻译
+- name: 扫描存档
+  blurb: 杂志与攻略本的整页扫描，逐页转写、翻译，段落可在页图上定位。
+  search: type=扫描翻译
+- name: 官方博客
+  blurb: GAME FREAK 官方站上的三种博客——部长专栏、员工日志、杉森建的绘画日和。
+  search: type=Game Freak 博客
+- name: 数字存档
+  blurb: 官网、博客等网页资料的原样存档，图片与文字都留着。
+- name: 翻译资料
+  blurb: 译成中文的一手资料：博客、专栏、报道。
+- name: 访谈整理
+  blurb: 以访谈为底本整理出来的资料，通常附人物与作品的索引。
+- name: 首藤刚志手记
+  blurb: 动画系列构成首藤刚志的连载手记，动画初期的企划与写作现场。
+- name: 动画秘辛
+  blurb: 动画系列的幕后：首藤手记与相关的访谈、报道。
+- name: 官方档案
+  blurb: 任天堂、宝可梦公司、GAME FREAK 官方站点上发表的访谈与文章。
+- name: 杂志特辑
+  blurb: 杂志的专题页——不止访谈，还有攻略、图鉴和设定介绍。
+- name: 采访
+  blurb: 媒体采访与活动现场的对谈。
+- name: 开发者访谈
+  blurb: 开发人员谈作品的来龙去脉。
+- name: 现场活动
+  blurb: 发布会、见面会、展会上的对谈与报道。
+- name: 文档
+  blurb: 站点自身的说明与工作文档。
+- name: 宝可梦友会
+  blurb: 友会自己写的长文与整理。
+- name: developer-interviews
+  title: Developer Interviews
+  blurb: 开发者访谈的路径分类：访谈译文按来源归档在这里。
+- name: official-archives
+  title: Official Archives
+  blurb: 官方来源访谈的路径分类。
+- name: gamefreak-recruit
+  title: GAME FREAK 招聘访谈
+  blurb: GAME FREAK 招聘站上的员工访谈与座谈。
+  search: 招聘访谈
+- name: pokemon-recruit
+  title: 宝可梦公司招聘访谈
+  blurb: 株式会社ポケモン招聘站上的员工访谈。
+  search: 招聘访谈
+- name: pokemon-company-recruit
+  title: The Pokémon Company 招聘
+  blurb: The Pokémon Company 招聘页的访谈。
+  search: 招聘访谈
