@@ -1,0 +1,14 @@
+{%- comment -%}
+What a year crumb needs: how many posts the year has, and whether the timeline
+has a page for it. Takes `year` (a string). Prints "N|1" or "N|0"; the caller
+captures and splits it. Meant for include_cached, so the pass over site.posts
+runs once per year rather than once per page.
+{%- endcomment -%}
+{%- assign cy_n = 0 -%}
+{%- for cy_post in site.posts -%}
+  {%- assign cy_y = cy_post.date | date: "%Y" -%}
+  {%- if cy_y == include.year -%}{%- assign cy_n = cy_n | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign cy_url = "/timeline/" | append: include.year | append: "/" -%}
+{%- assign cy_page = site.pages | where: "url", cy_url | first -%}
+{{ cy_n }}|{% if cy_page %}1{% else %}0{% endif %}

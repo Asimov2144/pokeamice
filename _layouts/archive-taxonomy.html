@@ -30,7 +30,6 @@ search page, which filters the whole catalogue. The choice is remembered.
 {% if tx_kind == "tag" %}{% assign tx_base = "/tags/" %}{% assign tx_word = "标签" %}{% else %}{% assign tx_base = "/categories/" %}{% assign tx_word = "分类" %}{% endif %}
 
 <header class="library__head">
-  <p class="library__eyebrow"><a href="{{ '/keys/' | relative_url }}">资料窗口</a> · {{ tx_word }}</p>
   <h1 class="library__title">{{ tx_title }}{% if tx_title != page.title %} <small>{{ page.title }}</small>{% endif %}</h1>
   <p class="library__lead">{% if tx_info.blurb %}{{ tx_info.blurb }}{% else %}这个{{ tx_word }}下收录的条目，按时间倒序。{% endif %}</p>
   <p class="library__facts"><b>{{ tx_posts.size }}</b> 条{% if tx_posts.size > 0 %} · {{ tx_posts.last.date | date: "%Y" }}–{{ tx_posts.first.date | date: "%Y" }}{% endif %} · <a href="{{ tx_search_url | relative_url }}">在检索中心继续筛 →</a></p>

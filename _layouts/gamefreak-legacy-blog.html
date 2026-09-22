@@ -13,6 +13,7 @@ layout: default
 {% assign archive_page_count = page_count_numerator | divided_by: posts_per_page %}
 
 <div class="gf-legacy-site gf-legacy-site--{{ blog_key }}">
+  {% include crumbs.html %}
   <header class="gf-legacy-header"{% if blog.header_image %} style="--gf-legacy-header-image: url('{{ blog.header_image | relative_url }}')"{% endif %}>
     <a class="gf-legacy-header__home" href="{{ '/' | append: blog.slug | append: '/' | relative_url }}">
       <span class="screen-reader-text">返回{{ blog.title }}</span>

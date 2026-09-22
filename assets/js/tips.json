@@ -1,0 +1,50 @@
+---
+search: false
+sitemap: false
+---
+{%- comment -%}
+What the hover cards say (assets/js/tip.js), one line per person and per work,
+fetched once on the first hover over a /people/ or /credits/ link.
+
+people, by slug: n name · a avatar · r the role line the person page leads with
+(org · role, else the latest credit) · i entries the person is in · k entries
+they speak in · g games signed · x up to three expertise chips · s the profile
+summary, cut short. Characters and cited figures have no page and are left out.
+
+works, by credits slug: n title · y year · d developer · c names on the credits ·
+i icon · m entries that mention the work.
+{%- endcomment -%}
+{"people":{
+{%- assign tj_first = true -%}
+{%- for me in site.data.people -%}
+  {%- if me.kind == "character" or me.kind == "figure" or me.slug == nil -%}{%- continue -%}{%- endif -%}
+  {%- assign pf = site.data.people_profiles | where: "slug", me.slug | first -%}
+  {%- assign cr = site.data.credits_people[me.slug] -%}
+  {%- assign role_line = "" -%}
+  {%- if me.org or me.role -%}
+    {%- capture role_line %}{{ me.org }}{% if me.org and me.role %} · {% endif %}{{ me.role }}{% endcapture -%}
+  {%- elsif cr.latest_role -%}
+    {%- assign lg = site.data.credits_games | where: "slug", cr.latest_game | first -%}
+    {%- capture role_line %}{{ lg.title_zh | default: lg.title }} · {{ cr.latest_role }}{% endcapture -%}
+  {%- endif -%}
+  {%- assign summary = pf.summary | default: "" | strip_html | strip -%}
+  {%- comment -%} the citation marks [4] are footnotes on the person page, noise on a card {%- endcomment -%}
+  {%- for ci in (1..40) -%}{%- capture cite %}[{{ ci }}]{% endcapture -%}{%- assign summary = summary | replace: cite, "" -%}{%- endfor -%}
+  {%- assign summary = summary | replace: "  ", " " | replace: " 。", "。" | strip -%}
+  {%- assign xp = pf.credits.expertise -%}{%- if xp == nil -%}{%- assign xp = "" | split: "" -%}{%- endif -%}
+  {%- unless tj_first -%},{%- endunless -%}{%- assign tj_first = false -%}
+  {{ me.slug | jsonify }}:{"n":{{ me.name | jsonify }},"a":{{ me.avatar | default: "" | jsonify }},"r":{{ role_line | strip | jsonify }},"i":{{ pf.interviews.entries | default: 0 }},"k":{{ pf.interviews.spoken_in | default: 0 }},"g":{{ pf.credits.games | default: cr.games | default: 0 }},"x":{{ xp | slice: 0, 3 | jsonify }},"s":{{ summary | truncate: 96 | jsonify }}}
+{%- endfor -%}
+},"works":{
+{%- assign tj_first = true -%}
+{%- for cg in site.data.credits_games -%}
+  {%- assign wi = site.data.works | where: "name", cg.work | first -%}
+  {%- assign mentions = 0 -%}
+  {%- if cg.work -%}
+    {%- assign mentioned = site.posts | where_exp: "p", "p.entities.works contains cg.work" -%}
+    {%- assign mentions = mentioned | size -%}
+  {%- endif -%}
+  {%- unless tj_first -%},{%- endunless -%}{%- assign tj_first = false -%}
+  {{ cg.slug | jsonify }}:{"n":{{ cg.title_zh | default: cg.title | jsonify }},"e":{{ cg.title | jsonify }},"y":{{ cg.year | default: 0 }},"d":{{ cg.developer | default: "" | jsonify }},"c":{{ cg.count | default: 0 }},"i":{{ wi.icon | default: "" | jsonify }},"m":{{ mentions }}}
+{%- endfor -%}
+}}

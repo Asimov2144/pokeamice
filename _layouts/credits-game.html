@@ -15,6 +15,7 @@ person page are already linked in the body.
 
 <div id="main" role="main">
   <div class="archive archive--person archive--credits">
+    {% include crumbs.html %}
     <article class="credits credits--game">
       <header class="person__head credits__head">
         {% if wi.icon %}
@@ -25,7 +26,6 @@ person page are already linked in the body.
           <span class="credits__icon credits__icon--blank" aria-hidden="true">{{ g.year }}</span>
         {% endif %}
         <div class="person__id">
-          <p class="person__kicker"><a href="{{ '/credits/' | relative_url }}">制作名单</a></p>
           <h1 class="person__name">{{ g.title_zh }}</h1>
           <p class="person__aliases">{{ g.title }} · {{ g.year }} · {{ g.developer }}{% if g.note %} · {{ g.note }}{% endif %}</p>
           <p class="credits__meta">{{ g.count }} 条署名{% if g.core %} · 核心作品{% else %} · 外传{% endif %}{% if page.gf_count %} · <img class="credits__gf credits__gf--head" src="{{ '/assets/img/works/gamefreak-mark.svg' | relative_url }}" alt="Game Freak"> Game Freak 成员 {{ page.gf_count }} 人{% endif %}

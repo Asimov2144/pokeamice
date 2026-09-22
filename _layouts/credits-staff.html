@@ -17,9 +17,9 @@ row so a mark can be traced back to its game and person.
 {%- endcomment -%}
 <div id="main" role="main">
   <div class="archive archive--person archive--credits archive--credits-staff">
+    {% include crumbs.html %}
     <section class="people credits credits--staff">
       <header class="people__head">
-        <p class="person__kicker"><a href="{{ '/credits/' | relative_url }}">制作名单</a></p>
         <h1 class="person__name">历作 staff 总表</h1>
         <p class="people__lede">Game Freak 核心作品的每一位署名者一行，一作一格：格子写主职的类别和级别，身兼数职时其余类别画成圆点，悬停看全部职务。
           默认按参与作数排序；用上面的框搜名字、假名或汉字。有人物页的名字可以点开。表头与人名列固定不动，列底色按世代交替，悬停会点亮整列整行。</p>

@@ -1,0 +1,12 @@
+{%- comment -%}
+How many entries ran in one outlet - the outlet spelled the way the cover's
+kicker spells it (source_name, else publication, else source.title, cut at the
+first bracket). Takes `outlet`. Prints the number. Meant for include_cached:
+one pass over the posts per outlet, not per page.
+{%- endcomment -%}
+{%- assign cs_n = 0 -%}
+{%- for cs_post in site.posts -%}
+  {%- assign cs_o = cs_post.source_name | default: cs_post.publication | default: cs_post.source.title | default: "" | split: "（" | first | split: "(" | first | strip -%}
+  {%- if cs_o == include.outlet -%}{%- assign cs_n = cs_n | plus: 1 -%}{%- endif -%}
+{%- endfor -%}
+{{ cs_n }}

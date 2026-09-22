@@ -1,0 +1,269 @@
+/* ==========================================================================
+   Crumbs and tips: where the page sits, and what a thing is before you click
+
+   .crumbs  the trail _includes/crumbs.html prints at the top of every page
+            but the home page: 首页 › section › year › outlet › this page.
+            Inherits the page's type and colour, so an era skin and the dark
+            reading theme carry it along; only opacity separates the links
+            from the current crumb. One row, scrolled sideways rather than
+            wrapped on a narrow screen; the current crumb is the one that
+            gives way.
+
+   .tip     the single tooltip element assets/js/tip.js positions: a line of
+            text, or a card for a person or a game. Ink on paper, never a
+            pill; the arrow follows the anchor.
+   ========================================================================== */
+
+.crumbs {
+  /* width 0 + min-width 100%: the row's nowrap items must not set the page's
+     minimum width - on a phone the whole reader grew to the trail's length */
+  width: 0;
+  min-width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 8px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  color: inherit;
+}
+
+.crumbs__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar { display: none; }
+}
+
+.crumbs__item {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+
+  & + &::before {
+    content: "›";
+    margin: 0 7px;
+    opacity: 0.4;
+  }
+}
+
+.crumbs__link {
+  color: inherit;
+  opacity: 0.66;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: opacity 0.12s ease;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+    text-decoration: none;
+    border-bottom-color: currentColor;
+  }
+}
+
+.crumbs__item--here {
+  flex: 0 1 auto;
+}
+
+.crumbs__here {
+  display: block;
+  max-width: 36ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  opacity: 0.92;
+}
+
+@media (max-width: 600px) {
+  .crumbs { font-size: 12px; }
+  /* the title is right below; on a phone the trail is the path only */
+  .crumbs__item--here { display: none; }
+}
+
+@media print {
+  .crumbs { display: none; }
+}
+
+/* ---- where each layout puts it ------------------------------------------ */
+
+/* the reader: under the top rule, left of the tools; the cover's own rule follows */
+.layout--interview-editorial .ed > .crumbs {
+  padding: 14px 150px 0 0;
+  margin: 0;
+}
+.layout--interview-editorial .ed > .crumbs ~ .ed-article .ed-cover { margin-top: 24px; }
+@media (max-width: 600px) {
+  .layout--interview-editorial .ed > .crumbs { padding-right: 110px; }
+}
+
+.parallel-translation__article > .crumbs { padding: 12px 0 0; }
+
+/* the archive pages: the eyebrow the library head used to print */
+.archive--person > .crumbs,
+.archive--people > .crumbs,
+.archive--credits > .crumbs,
+.library > .crumbs,
+.archive > .crumbs { padding: 6px 0 0; margin-bottom: 14px; }
+
+/* minimal-mistakes pages: inside the article, above the title */
+.page__inner-wrap > .crumbs { margin: 0 0 10px; }
+
+/* the reproduced blogs: a strip of the site's own chrome above the canvas */
+.gf-director-site > .crumbs,
+.gf-legacy-site > .crumbs {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 10px 16px 0;
+  font-family: $sans-serif;
+  color: #3a3f47;
+}
+
+/* the dark reading theme and dark skins: the trail is the text's colour already */
+body.theme-bg-black .crumbs { color: inherit; }
+
+/* ==========================================================================
+   .tip
+   ========================================================================== */
+
+.tip {
+  position: fixed;
+  z-index: 1200;
+  max-width: min(320px, calc(100vw - 16px));
+  padding: 0;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(2px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+
+  &.is-in { opacity: 1; transform: none; }
+  &[hidden] { display: none; }
+  &.tip--below { transform: translateY(-2px); }
+  &.tip--below.is-in { transform: none; }
+}
+
+.tip__inner {
+  padding: 6px 10px 7px;
+  font-family: $sans-serif;
+  font-size: 12.5px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #f4f5f7;
+  background: #1c1f24;
+  border-radius: 3px;
+  box-shadow: 0 6px 22px rgba(10, 12, 16, 0.22);
+  white-space: pre-line;
+  word-break: break-word;
+}
+
+.tip__arrow {
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  margin-left: -5px;
+  background: #1c1f24;
+  transform: rotate(45deg);
+}
+.tip--above .tip__arrow { bottom: -4px; }
+.tip--below .tip__arrow { top: -4px; }
+
+/* a card: paper, not ink */
+.tip--card {
+  max-width: min(360px, calc(100vw - 16px));
+
+  .tip__inner {
+    padding: 0;
+    white-space: normal;
+    color: #1d2127;
+    background: #fff;
+    border: 1px solid #d9dde3;
+    box-shadow: 0 10px 30px rgba(10, 12, 16, 0.16);
+  }
+  .tip__arrow {
+    background: #fff;
+    border: 1px solid #d9dde3;
+    border-width: 0 1px 1px 0;
+  }
+  &.tip--below .tip__arrow { border-width: 1px 0 0 1px; }
+}
+
+.tip__card {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-width: 240px;
+  padding: 11px 13px 12px;
+}
+
+.tip__avatar,
+.tip__icon {
+  flex: 0 0 auto;
+  display: block;
+  object-fit: cover;
+  background: #eef0f3;
+}
+.tip__avatar { width: 48px; height: 48px; border-radius: 50%; }
+.tip__avatar--blank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b727c;
+}
+.tip__icon { width: 40px; height: 40px; border-radius: 6px; object-fit: contain; background: none; }
+
+.tip__body {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+.tip__name { font-size: 14px; font-weight: 700; line-height: 1.3; color: #14171c; }
+.tip__role { font-size: 12px; color: #4b535e; }
+.tip__facts { font-size: 11.5px; color: #6b727c; letter-spacing: 0.02em; }
+.tip__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+
+  i {
+    font-style: normal;
+    font-size: 11px;
+    line-height: 1;
+    padding: 3px 6px;
+    color: #2b3138;
+    background: #eef0f3;
+  }
+}
+.tip__summary {
+  margin-top: 3px;
+  padding-top: 6px;
+  border-top: 1px solid #edeff2;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #3a3f47;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* the proof badge on rows and cards is an <i> so it can carry a tip; not italic */
+.library__entry-proof i,
+.search-result-card__facts i { font-style: normal; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tip, .crumbs__link { transition: none; }
+}

@@ -14,6 +14,7 @@ layout: default
 {% assign gf_local_count = gf_director_count | plus: gf_line_count %}
 
 <div class="gf-director-site" data-gf-theme="current" data-gf-series="{{ page.gf_series | default: 'director' }}">
+  {% include crumbs.html %}
   {%- comment -%}
     Same markup on every page in this archive, so it is rendered once and
     cached rather than rebuilt 499 times - it was 13M nested Liquid

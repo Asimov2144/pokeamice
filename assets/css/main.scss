@@ -32,3 +32,5 @@ search: false
 @import "minimal-mistakes/people";
 @import "minimal-mistakes/credits";
 @import "minimal-mistakes/atlas";
+/* the trail at the top of every page and the site-wide tooltip, last so the position rules win */
+@import "minimal-mistakes/crumbs";

@@ -1,0 +1,7 @@
+{%- comment -%}
+The tip behind a category crumb: its blurb from _data/categories.yml and how
+many entries carry it. Takes `name`. Prints one line; the caller captures it.
+{%- endcomment -%}
+{%- assign cc_info = site.data.categories | where: "name", include.name | first -%}
+{%- assign cc_posts = site.categories[include.name] -%}
+{%- if cc_info.blurb %}{{ cc_info.blurb }}{% endif %}{% if cc_posts.size > 0 %}{% if cc_info.blurb %} · {% endif %}{{ cc_posts.size }} 条{% endif -%}

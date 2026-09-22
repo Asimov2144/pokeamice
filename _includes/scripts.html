@@ -24,6 +24,9 @@
   <script src="{{ '/assets/js/article-annotations.js' | relative_url }}"></script>
 {% endif %}
 
+{%- comment -%} tooltips and the person / game hover cards, on every page {%- endcomment -%}
+<script src="{{ '/assets/js/tip.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H' }}" defer></script>
+
 {% if site.search == true or page.layout == "search" %}
   {%- assign search_provider = site.search_provider | default: "lunr" -%}
   {%- case search_provider -%}

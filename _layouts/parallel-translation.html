@@ -27,6 +27,7 @@ layout: default
 
 <main class="parallel-translation" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
   <article class="parallel-translation__article" itemscope itemtype="https://schema.org/CreativeWork"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>
+    {% include crumbs.html %}
     <header class="parallel-translation__header">
       <div class="parallel-era-masthead">
         <div class="parallel-era-masthead__left">

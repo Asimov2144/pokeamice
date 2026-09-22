@@ -1,0 +1,276 @@
+{%- comment -%}
+Where the page sits: 首页 › section › year / hub › this page.
+
+One include for every layout, decided from the layout and the front matter
+rather than from the URL - the URL path (developer-interviews/official-archives)
+is where a post is stored, not a place a reader knows. Each middle crumb links
+to a page that exists: the category register, the year of the timeline, the
+search filtered to the outlet, the people library, the credits index. A crumb
+that could not be given a real destination is left out rather than printed dead.
+
+The middle crumbs carry a data-tip (assets/js/tip.js) with what is behind them:
+the category's blurb and count, how many entries the year or the outlet has.
+Counts that need a pass over every post are computed once per value through
+include_cached (crumb-year.html, crumb-source.html), not once per page.
+
+Skipped on the home page and when the page sets `crumbs: false`.
+Prints <nav class="crumbs"> and the BreadcrumbList JSON-LD; sets nothing the
+caller needs.
+{%- endcomment -%}
+{%- assign c_layout = page.layout | default: layout.layout -%}
+{%- if page.url != "/" and page.crumbs != false -%}
+{%- assign c_names = "" | split: "" -%}
+{%- assign c_urls = "" | split: "" -%}
+{%- assign c_tips = "" | split: "" -%}
+{%- comment -%} the title without the bracketed kind a series title starts with - the trail already says what it is {%- endcomment -%}
+{%- assign c_here = page.display_title | default: page.title | default: "" | strip_html | remove: "[访谈翻译] " | remove: "[扫描访谈] " | remove: "[GameFreak部长专栏] " | remove: "[专栏翻译] " | strip -%}
+
+{%- if page.collection == "posts" -%}
+  {%- assign c_arch = page.archive_type | default: page.resource_type | default: "" -%}
+  {%- if c_arch == "gamefreak_director_column" or c_arch == "gamefreak_masuda_lineblog" -%}
+    {%- assign c_names = c_names | push: "官方博客" -%}
+    {%- assign c_urls = c_urls | push: "/categories/官方博客/" -%}
+    {%- capture c_tip %}{% include crumb-category.html name="官方博客" %}{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- if c_arch == "gamefreak_masuda_lineblog" -%}
+      {%- assign c_names = c_names | push: "増田順一 公式ブログ" -%}
+      {%- assign c_urls = c_urls | push: "/gamefreak-director/#lineblog" -%}
+      {%- assign c_tips = c_tips | push: "增田顺一 2016 年起在 LINE BLOG 的博客，接在部长专栏之后" -%}
+    {%- else -%}
+      {%- assign c_names = c_names | push: "部长专栏" -%}
+      {%- assign c_urls = c_urls | push: "/gamefreak-director/" -%}
+      {%- assign c_tips = c_tips | push: "増田部長のめざめるパワー：GAME FREAK 官方站上增田顺一的专栏，2004–2015" -%}
+    {%- endif -%}
+    {%- assign c_month = page.gf_archive | default: "" -%}
+    {%- if c_month == "" -%}{%- assign c_month = page.date | date: "%Y-%m" -%}{%- endif -%}
+    {%- assign c_month_label = page.date | date: "%Y年%-m月" -%}
+    {%- assign c_names = c_names | push: c_month_label -%}
+    {%- assign c_urls = c_urls | push: "/gamefreak-director/archive/" -%}
+    {%- assign c_tips = c_tips | push: "按月归档" -%}
+  {%- elsif c_arch == "gamefreak_legacy_blog" -%}
+    {%- assign c_blog_key = page.gf_legacy_blog | default: page.gf_blog -%}
+    {%- assign c_blog = site.data.gamefreak_legacy_blogs[c_blog_key] -%}
+    {%- assign c_names = c_names | push: "官方博客" -%}
+    {%- assign c_urls = c_urls | push: "/categories/官方博客/" -%}
+    {%- capture c_tip %}{% include crumb-category.html name="官方博客" %}{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- if c_blog -%}
+      {%- assign c_names = c_names | push: c_blog.title -%}
+      {%- assign c_blog_url = "/" | append: c_blog.slug | append: "/" -%}
+      {%- assign c_urls = c_urls | push: c_blog_url -%}
+      {%- assign c_blog_tip = c_blog.subtitle | default: c_blog.description | default: "GAME FREAK 官方站上的博客，本站的复刻存档" -%}
+      {%- assign c_tips = c_tips | push: c_blog_tip -%}
+    {%- endif -%}
+  {%- elsif c_layout == "single" -%}
+    {%- comment -%} the site's own posts - notes, updates, essays: their first category is their section {%- endcomment -%}
+    {%- assign c_cat = page.categories | first -%}
+    {%- if c_cat -%}
+      {%- assign c_cat_slug = c_cat | slugify -%}
+      {%- assign c_cat_url = "/categories/" | append: c_cat_slug | append: "/" -%}
+      {%- assign c_names = c_names | push: c_cat -%}
+      {%- assign c_urls = c_urls | push: c_cat_url -%}
+      {%- capture c_tip %}{% include crumb-category.html name=c_cat %}{% endcapture -%}
+      {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- endif -%}
+    {%- assign c_year = page.date | date: "%Y" -%}
+    {%- capture c_year_info %}{% include_cached crumb-year.html year=c_year %}{% endcapture -%}
+    {%- assign c_year_parts = c_year_info | strip | split: "|" -%}
+    {%- assign c_names = c_names | push: c_year -%}
+    {%- if c_year_parts[1] == "1" -%}
+      {%- assign c_year_url = "/timeline/" | append: c_year | append: "/" -%}
+    {%- else -%}
+      {%- assign c_year_url = "/search/?year=" | append: c_year -%}
+    {%- endif -%}
+    {%- assign c_urls = c_urls | push: c_year_url -%}
+    {%- capture c_tip %}{{ c_year }} 年 · {{ c_year_parts[0] }} 篇{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+  {%- else -%}
+    {%- if c_arch == "scan_translation" -%}
+      {%- assign c_section = "扫描存档" -%}
+      {%- assign c_section_url = "/categories/扫描存档/" -%}
+    {%- else -%}
+      {%- assign c_section = "访谈翻译" -%}
+      {%- if page.categories contains "访谈翻译" -%}
+        {%- assign c_section_url = "/categories/访谈翻译/" -%}
+      {%- else -%}
+        {%- assign c_section_url = "/search/?type=访谈翻译" -%}
+      {%- endif -%}
+    {%- endif -%}
+    {%- assign c_names = c_names | push: c_section -%}
+    {%- assign c_urls = c_urls | push: c_section_url -%}
+    {%- capture c_tip %}{% include crumb-category.html name=c_section %}{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- comment -%} the year: the timeline's page for it when there is one, else the search filtered to it {%- endcomment -%}
+    {%- assign c_year = page.date | date: "%Y" -%}
+    {%- capture c_year_info %}{% include_cached crumb-year.html year=c_year %}{% endcapture -%}
+    {%- assign c_year_parts = c_year_info | strip | split: "|" -%}
+    {%- assign c_names = c_names | push: c_year -%}
+    {%- if c_year_parts[1] == "1" -%}
+      {%- assign c_year_url = "/timeline/" | append: c_year | append: "/" -%}
+    {%- else -%}
+      {%- assign c_year_url = "/search/?year=" | append: c_year -%}
+    {%- endif -%}
+    {%- assign c_urls = c_urls | push: c_year_url -%}
+    {%- capture c_tip %}{{ c_year }} 年 · {{ c_year_parts[0] }} 篇{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- comment -%} the series it is a chapter of, else the outlet it ran in {%- endcomment -%}
+    {%- if series_posts.size > 1 and series_label != "" -%}
+      {%- assign c_names = c_names | push: series_label -%}
+      {%- assign c_series_q = series_key | remove: "[访谈翻译] " | remove: "[扫描访谈] " | strip | url_encode -%}
+      {%- assign c_series_url = "/search/?q=" | append: c_series_q -%}
+      {%- assign c_urls = c_urls | push: c_series_url -%}
+      {%- capture c_tip %}本系列共 {{ series_posts.size }} {{ series_unit | default: "章" }}，这是第 {{ series_index }} {{ series_unit | default: "章" }}{% endcapture -%}
+      {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- else -%}
+      {%- comment -%}
+        The outlet, the way the cover's kicker spells it. The search page's
+        source filter matches the catalogue's value for the post (source.title
+        first, which on some posts is the article's own title, not the outlet's
+        name) - so the link filters by source only when that value names the
+        outlet, and searches for the outlet's name otherwise.
+      {%- endcomment -%}
+      {%- assign c_outlet = page.source_name | default: page.publication | default: page.source.title | default: "" | split: "（" | first | split: "(" | first | strip -%}
+      {%- assign c_outlet_len = c_outlet | size -%}
+      {%- comment -%} an "outlet" longer than a name is the article's own title standing in for one; no crumb then {%- endcomment -%}
+      {%- if c_outlet_len > 0 and c_outlet_len <= 24 -%}
+        {%- assign c_source = page.source.title | default: page.publication | default: page.source.publication | default: "" | strip -%}
+        {%- capture c_source_info %}{% include_cached crumb-source.html outlet=c_outlet %}{% endcapture -%}
+        {%- assign c_names = c_names | push: c_outlet -%}
+        {%- if c_source != "" and c_source contains c_outlet -%}
+          {%- assign c_source_q = c_source | url_encode -%}
+          {%- assign c_source_url = "/search/?source=" | append: c_source_q -%}
+        {%- else -%}
+          {%- assign c_source_q = c_outlet | url_encode -%}
+          {%- assign c_source_url = "/search/?q=" | append: c_source_q -%}
+        {%- endif -%}
+        {%- assign c_urls = c_urls | push: c_source_url -%}
+        {%- capture c_tip %}{{ c_outlet }} · 站内 {{ c_source_info | strip }} 篇{% endcapture -%}
+        {%- assign c_tips = c_tips | push: c_tip -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+
+{%- elsif c_layout == "person" -%}
+  {%- assign c_names = c_names | push: "人物库" -%}
+  {%- assign c_urls = c_urls | push: "/people/" -%}
+  {%- assign c_tips = c_tips | push: "站内访谈提到的人物和历作 staff 名单上的每个人，各有一页" -%}
+  {%- assign c_here = page.person | default: page.title -%}
+{%- elsif c_layout == "credits-game" or c_layout == "credits-staff" -%}
+  {%- assign c_names = c_names | push: "制作名单" -%}
+  {%- assign c_urls = c_urls | push: "/credits/" -%}
+  {%- capture c_tip %}{{ site.data.credits_games | size }} 部作品的 staff 名单，按职务分组，每个名字连到人物页{% endcapture -%}
+  {%- assign c_tips = c_tips | push: c_tip -%}
+  {%- if c_layout == "credits-game" -%}
+    {%- assign c_game = site.data.credits_games | where: "slug", page.game | first -%}
+    {%- if c_game -%}{%- assign c_here = c_game.title_zh | default: c_game.title -%}{%- endif -%}
+  {%- endif -%}
+{%- elsif c_layout == "archive-taxonomy" -%}
+  {%- assign c_names = c_names | push: "资料窗口" -%}
+  {%- assign c_urls = c_urls | push: "/keys/" -%}
+  {%- assign c_tips = c_tips | push: "动态流：新收录、编者推送、今日一句、专题与分类" -%}
+  {%- if page.type == "tag" -%}
+    {%- assign c_names = c_names | push: "标签" -%}
+    {%- assign c_urls = c_urls | push: "/keys/#tags" -%}
+    {%- assign c_tips = c_tips | push: "常用标签" -%}
+  {%- else -%}
+    {%- assign c_names = c_names | push: "分类" -%}
+    {%- assign c_urls = c_urls | push: "/keys/#categories" -%}
+    {%- assign c_tips = c_tips | push: "有简介的分类" -%}
+  {%- endif -%}
+  {%- assign c_info = site.data.categories | where: "name", page.title | first -%}
+  {%- if c_info.title -%}{%- assign c_here = c_info.title -%}{%- endif -%}
+{%- elsif c_layout == "gamefreak-director" -%}
+  {%- assign c_names = c_names | push: "官方博客" -%}
+  {%- assign c_urls = c_urls | push: "/categories/官方博客/" -%}
+  {%- capture c_tip %}{% include crumb-category.html name="官方博客" %}{% endcapture -%}
+  {%- assign c_tips = c_tips | push: c_tip -%}
+  {%- if page.url == "/gamefreak-director/" -%}
+    {%- assign c_here = "部长专栏" -%}
+  {%- else -%}
+    {%- assign c_names = c_names | push: "部长专栏" -%}
+    {%- assign c_urls = c_urls | push: "/gamefreak-director/" -%}
+    {%- assign c_tips = c_tips | push: "増田部長のめざめるパワー：GAME FREAK 官方站上增田顺一的专栏，2004–2015" -%}
+  {%- endif -%}
+{%- elsif c_layout == "gamefreak-legacy-blog" -%}
+  {%- assign c_blog_key = page.gf_legacy_blog | default: page.gf_blog -%}
+    {%- assign c_blog = site.data.gamefreak_legacy_blogs[c_blog_key] -%}
+  {%- assign c_names = c_names | push: "官方博客" -%}
+  {%- assign c_urls = c_urls | push: "/categories/官方博客/" -%}
+  {%- capture c_tip %}{% include crumb-category.html name="官方博客" %}{% endcapture -%}
+  {%- assign c_tips = c_tips | push: c_tip -%}
+  {%- if c_blog -%}
+    {%- assign c_blog_url = "/" | append: c_blog.slug | append: "/" -%}
+    {%- if page.url == c_blog_url -%}
+      {%- assign c_here = c_blog.title -%}
+    {%- else -%}
+      {%- assign c_names = c_names | push: c_blog.title -%}
+      {%- assign c_urls = c_urls | push: c_blog_url -%}
+      {%- assign c_blog_tip = c_blog.subtitle | default: c_blog.description | default: "GAME FREAK 官方站上的博客，本站的复刻存档" -%}
+      {%- assign c_tips = c_tips | push: c_blog_tip -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- elsif c_layout == "library" -%}
+  {%- assign c_here = "资料窗口" -%}
+{%- else -%}
+  {%- comment -%} the rest by where the page lives: the timeline's years, the entity indexes, the docs under /keys/ {%- endcomment -%}
+  {%- assign c_parts = page.url | split: "/" -%}
+  {%- assign c_depth = c_parts | size -%}
+  {%- if c_parts[1] == "timeline" and c_depth > 2 -%}
+    {%- assign c_names = c_names | push: "时间线" -%}
+    {%- assign c_urls = c_urls | push: "/timeline/" -%}
+    {%- assign c_tips = c_tips | push: "资料按原刊年份排开" -%}
+    {%- assign c_here = c_parts[2] -%}
+  {%- elsif c_parts[1] == "entities" and c_depth > 3 -%}
+    {%- assign c_index_url = "/entities/" | append: c_parts[2] | append: "/" -%}
+    {%- assign c_index = site.pages | where: "url", c_index_url | first -%}
+    {%- if c_index -%}
+      {%- assign c_names = c_names | push: c_index.title -%}
+      {%- assign c_urls = c_urls | push: c_index_url -%}
+      {%- assign c_tips = c_tips | push: "文章元数据里提到的全部条目" -%}
+    {%- endif -%}
+    {%- assign c_here = page.title | split: " - " | first -%}
+  {%- elsif c_parts[1] == "keys" and c_depth > 2 -%}
+    {%- assign c_names = c_names | push: "资料窗口" -%}
+    {%- assign c_urls = c_urls | push: "/keys/" -%}
+    {%- assign c_tips = c_tips | push: "动态流：新收录、编者推送、今日一句、专题与分类" -%}
+  {%- elsif c_parts[1] == "credits" and c_depth > 2 -%}
+    {%- assign c_names = c_names | push: "制作名单" -%}
+    {%- assign c_urls = c_urls | push: "/credits/" -%}
+    {%- assign c_tips = c_tips | push: "历作 staff 名单" -%}
+  {%- elsif c_parts[1] == "people" and c_depth > 2 -%}
+    {%- assign c_names = c_names | push: "人物库" -%}
+    {%- assign c_urls = c_urls | push: "/people/" -%}
+    {%- assign c_tips = c_tips | push: "站内访谈提到的人物和历作 staff 名单上的每个人" -%}
+  {%- elsif c_parts[1] == "gamefreak-director" and c_depth > 2 -%}
+    {%- assign c_names = c_names | push: "官方博客" -%}
+    {%- assign c_urls = c_urls | push: "/categories/官方博客/" -%}
+    {%- capture c_tip %}{% include crumb-category.html name="官方博客" %}{% endcapture -%}
+    {%- assign c_tips = c_tips | push: c_tip -%}
+    {%- assign c_names = c_names | push: "部长专栏" -%}
+    {%- assign c_urls = c_urls | push: "/gamefreak-director/" -%}
+    {%- assign c_tips = c_tips | push: "増田部長のめざめるパワー：GAME FREAK 官方站上增田顺一的专栏，2004–2015" -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if c_here == "" -%}{%- assign c_here = page.url -%}{%- endif -%}
+<nav class="crumbs" aria-label="所在位置">
+  <ol class="crumbs__list">
+    <li class="crumbs__item"><a class="crumbs__link" href="{{ '/' | relative_url }}">首页</a></li>
+    {%- for c_name in c_names -%}
+      {%- assign c_i = forloop.index0 -%}
+      <li class="crumbs__item"><a class="crumbs__link" href="{{ c_urls[c_i] | relative_url }}"{% if c_tips[c_i] != "" %} data-tip="{{ c_tips[c_i] | strip | escape }}" data-tip-pos="bottom"{% endif %}>{{ c_name }}</a></li>
+    {%- endfor -%}
+    <li class="crumbs__item crumbs__item--here" aria-current="page"><span class="crumbs__here" data-tip="{{ c_here | escape }}" data-tip-pos="bottom" data-tip-if-clipped>{{ c_here }}</span></li>
+  </ol>
+</nav>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"首页","item":{{ '/' | absolute_url | jsonify }}}
+{%- for c_name in c_names -%}
+  {%- assign c_i = forloop.index0 -%}
+,{"@type":"ListItem","position":{{ forloop.index | plus: 1 }},"name":{{ c_name | jsonify }},"item":{{ c_urls[c_i] | absolute_url | jsonify }}}
+{%- endfor -%}
+,{"@type":"ListItem","position":{{ c_names.size | plus: 2 }},"name":{{ c_here | jsonify }}}
+]}
+</script>
+{%- endif -%}

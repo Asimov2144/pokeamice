@@ -11,6 +11,7 @@ cost the build minutes for nothing. A filter box narrows by any word.
 {%- assign qs_all = site.data.quotes.quotes -%}
 <div id="main" role="main">
   <div class="archive archive--person archive--quotes">
+    {% include crumbs.html %}
     <section class="people quotes">
       <header class="people__head">
         <p class="person__kicker"><a href="{{ '/' | relative_url }}">首页</a></p>

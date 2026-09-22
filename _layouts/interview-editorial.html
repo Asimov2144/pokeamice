@@ -147,6 +147,8 @@ kept on the turns even though the presentation around them is new.
   0.92rem and hid every original toggle before this was removed.
 {%- endcomment -%}
 <main class="ed{% if is_technical %} ed--technical{% endif %}{% if is_scan %} ed--scan{% endif %}" role="main" data-parallel-translation data-view="{{ default_view }}" data-era-skin="{{ era_skin }}" data-source-kind="{{ source_kind }}">
+  {%- comment -%} where this piece sits: section › year › series or outlet {%- endcomment -%}
+  {% include crumbs.html %}
 
   {%- comment -%}
     One small control, not a bar. The current view reads as a word; everything
@@ -161,24 +163,24 @@ kept on the turns even though the presentation around them is new.
     </summary>
     <div class="ed-tools__panel parallel-tools__panel">
       <div class="ed-tools__group" role="group" aria-label="版本">
-        <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true">译文</button>
-        <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false">双栏对照</button>
-        <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false">原文</button>
+        <button type="button" class="ed-tools__btn is-active" data-view-choice="translation" aria-pressed="true" data-tip="只读中文译文">译文</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="parallel" aria-pressed="false" data-tip="原文与译文左右并排，逐段对照">双栏对照</button>
+        <button type="button" class="ed-tools__btn" data-view-choice="original" aria-pressed="false" data-tip="只读原文">原文</button>
       </div>
       <div class="ed-tools__group" role="group" aria-label="主题">
-        <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true">年代主题</button>
-        <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false">深色</button>
-        <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false">纯净</button>
+        <button type="button" class="ed-tools__btn is-active" data-theme-choice="auto" aria-pressed="true" data-tip="按原刊年代换版式：{{ era_label | default: '早期网页、杂志、Switch 时代各一套' }}">年代主题</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="dark" aria-pressed="false" data-tip="深色纸面，夜里读">深色</button>
+        <button type="button" class="ed-tools__btn" data-theme-choice="clean" aria-pressed="false" data-tip="不带年代装饰的白底">纯净</button>
       </div>
       <div class="ed-tools__group" role="group" aria-label="阅读">
-        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle">专注模式</button>
+        <button type="button" class="ed-tools__btn parallel-toolbar__zen-btn" id="zenModeToggle" data-tip="隐去站点导航与边栏，只留正文">专注模式</button>
         {% if is_scan %}<button type="button" class="ed-tools__btn is-active" data-vertical-toggle aria-pressed="true" title="纵排区域的原文按原刊竖排">竖排原文</button>{% endif %}
       </div>
       {% if answerers.size > 0 %}
         <div class="ed-tools__group parallel-cast-bar" role="group" aria-label="只看某人">
           <span class="ed-tools__label">只看</span>
           {% for sp in answerers %}
-            <button type="button" class="ed-tools__btn parallel-cast-chip parallel-cast-chip--guest" data-speaker="{{ sp | escape }}" aria-pressed="false">{{ sp }}</button>
+            <button type="button" class="ed-tools__btn parallel-cast-chip parallel-cast-chip--guest" data-speaker="{{ sp | escape }}" aria-pressed="false" data-tip="只显示{{ sp }}的发言（再点一次取消）">{{ sp }}</button>
           {% endfor %}
         </div>
       {% endif %}
@@ -223,8 +225,8 @@ kept on the turns even though the presentation around them is new.
       <p class="ed-meta">
         {% if outlet_short != "" %}<span>{{ outlet_short }}</span>{% endif %}
         <span>{{ page.date | date: "%Y.%m.%d" }}</span>
-        <span>约 {{ reading_minutes }} 分钟</span>
-        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener">原文 ↗</a>{% endif %}
+        <span data-tip="按译文字数估算，每分钟 400 字">约 {{ reading_minutes }} 分钟</span>
+        {% if source_url != "" %}<a href="{{ source_url | escape }}" target="_blank" rel="noopener" data-tip="在新窗口打开原始页面{% if record_language != "" %}（{{ record_language | upcase }}）{% endif %}">原文 ↗</a>{% endif %}
       </p>
     </header>
 

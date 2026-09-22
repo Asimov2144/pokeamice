@@ -302,7 +302,7 @@
             ${compact ? "" : `<p>${escapeHtml(lead)}</p>`}
             ${(people || works) ? `<div class="search-result-card__tags">${people}${works}</div>` : ""}
             ${topics ? `<div class="search-result-card__topics">${topics}</div>` : ""}
-            <div class="search-result-card__facts">${facts.map(function(v) { return `<span>${escapeHtml(v)}</span>`; }).join("")}${marks ? `<span class="search-result-card__works" aria-label="提到的作品">${marks}</span>` : ""}</div>
+            <div class="search-result-card__facts">${facts.map(function(v) { return v === proof ? `<span><i data-tip="${proof === "已校对" ? "译文已经人工校对" : "机器初译，还没有人工逐句校对；引用前请对照原文"}">${escapeHtml(v)}</i></span>` : `<span>${escapeHtml(v)}</span>`; }).join("")}${marks ? `<span class="search-result-card__works" aria-label="提到的作品">${marks}</span>` : ""}</div>
           </div>
         </article>
       `;
